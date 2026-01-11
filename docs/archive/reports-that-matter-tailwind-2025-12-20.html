@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports That Matter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Lora', 'serif'],
+                        sans: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        accent: '#d64545',
+                        'accent-dark': '#b83a3a',
+                        'text-muted': '#6b6b6b',
+                        'text-dark': '#3f3f3f',
+                        'border-light': '#e8e4e0',
+                        'bg-light': '#faf8f6',
+                    },
+                    backgroundImage: {
+                        'grid-pattern': 'linear-gradient(to right, #e8e4e0 1px, transparent 1px), linear-gradient(to bottom, #e8e4e0 1px, transparent 1px)',
+                    },
+                    backgroundSize: {
+                        'grid': '40px 40px',
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #e8e4e0 1px, transparent 1px), linear-gradient(to bottom, #e8e4e0 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-bg-light text-text-dark font-serif">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border-light">
+        <nav class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-accent rounded flex items-center justify-center text-white text-xs font-bold">RTM</div>
+                <span class="font-serif font-bold text-lg">Reports That Matter</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#what-this-is" class="font-sans text-sm text-text-dark hover:text-accent transition">About</a>
+                <a href="#why-matters" class="font-sans text-sm text-text-dark hover:text-accent transition">Why It Matters</a>
+                <a href="#featured" class="font-sans text-sm text-text-dark hover:text-accent transition">Reports</a>
+                <button class="font-sans bg-accent text-white px-4 py-2 rounded hover:bg-accent-dark transition text-sm">Read Reports</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-12 sm:py-20 lg:py-32">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">Important public reports should not be trapped in unusable formats.</h1>
+                <p class="text-lg text-text-muted mb-8 leading-relaxed">This treasure trove of high-quality information on some of the most important issues of our time should be accessible and usable. Reports That Matter makes it so.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="font-sans bg-accent text-white px-6 py-3 rounded hover:bg-accent-dark transition text-base">Explore Reports <span class="ml-2">→</span></button>
+                    <button class="font-sans bg-transparent text-text-dark border border-border-light px-6 py-3 rounded hover:border-accent hover:text-accent transition text-base">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What This Is Section -->
+    <section id="what-this-is" class="py-16 sm:py-24 lg:py-32 border-t border-border-light">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-6">What This Is</h2>
+                    <p class="text-text-muted mb-6 leading-relaxed">A stripped-back, web-native way to publish and read reports that matter.</p>
+                    <p class="text-text-muted mb-6 leading-relaxed">We focus on presenting content clearly, removing unnecessary friction, and enabling use—not just availability. This project is both a platform in its own right and a gateway to the reports it hosts.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex gap-3 items-start">
+                            <span class="text-accent text-xl font-bold flex-shrink-0 -mt-1">›</span>
+                            <span class="text-text-muted">Presenting content clearly</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-accent text-xl font-bold flex-shrink-0 -mt-1">›</span>
+                            <span class="text-text-muted">Removing unnecessary friction</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="text-accent text-xl font-bold flex-shrink-0 -mt-1">›</span>
+                            <span class="text-text-muted">Enabling use, not just availability</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white border border-border-light rounded-lg p-8">
+                    <p class="font-sans text-xs text-gray-500 uppercase tracking-wider mb-4">Core Focus</p>
+                    <h3 class="text-2xl font-bold mb-4">Accessibility. Durability. Clarity.</h3>
+                    <p class="text-text-muted leading-relaxed">These reports deserve a publishing standard that matches their importance. We provide exactly that—nothing more, nothing less.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why These Reports Matter Section -->
+    <section id="why-matters" class="py-16 sm:py-24 lg:py-32 border-t border-border-light">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">Why These Reports Matter</h2>
+                <p class="text-text-muted leading-relaxed">Reports produced through official inquiries are often exceptionally high quality: well-resourced, evidence-rich, carefully argued, and produced through rigorous processes.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="border-l-4 border-accent pl-6 pt-2 pb-2">
+                    <h3 class="text-lg font-bold mb-3">Rigorous Investigation</h3>
+                    <p class="text-text-muted leading-relaxed">These inquiries are conducted with extensive resources, expert testimony, and careful methodology.</p>
+                </div>
+                <div class="border-l-4 border-accent pl-6 pt-2 pb-2">
+                    <h3 class="text-lg font-bold mb-3">Critical Issues</h3>
+                    <p class="text-text-muted leading-relaxed">They typically arise in response to major events or failures—malfeasance, systemic failure, ecological crises.</p>
+                </div>
+                <div class="border-l-4 border-accent pl-6 pt-2 pb-2">
+                    <h3 class="text-lg font-bold mb-3">Public Importance</h3>
+                    <p class="text-text-muted leading-relaxed">These reports address issues of crucial public importance that deserve broad understanding and discussion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section class="py-16 sm:py-24 lg:py-32 border-t border-border-light">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">The Problem</h2>
+                <p class="text-text-muted mb-6 leading-relaxed">Despite their quality and importance, many reports are hard to find, hard to read, and hard to work with—often locked inside large, awkward PDFs.</p>
+                <p class="text-text-muted leading-relaxed">This creates a quiet tragedy: extraordinary public knowledge exists, but much of it remains effectively inaccessible to those who could use it to inform understanding, drive discussion, and enable action.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Accessible Means Section -->
+    <section class="py-16 sm:py-24 lg:py-32 border-t border-border-light">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-12">What "Accessible" Means</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-lg font-bold mb-3">Web-Native</h3>
+                        <p class="text-text-muted leading-relaxed">Rather than PDF-bound, reports are published as web-native content that works across devices.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-3">Searchable</h3>
+                        <p class="text-text-muted leading-relaxed">Find specific information quickly with full-text search across all reports.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-3">Browsable</h3>
+                        <p class="text-text-muted leading-relaxed">Navigate reports intuitively with clear structure and logical organization.</p>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-lg font-bold mb-3">Citable</h3>
+                        <p class="text-text-muted leading-relaxed">Stable URLs enable precise citations and references to specific sections.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-3">Easy to Reference</h3>
+                        <p class="text-text-muted leading-relaxed">Extract quotes, data, and findings without struggling with PDFs.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-3">Print-Friendly</h3>
+                        <p class="text-text-muted leading-relaxed">Read offline or in print without losing readability or structure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Reports Section -->
+    <section id="featured" class="py-16 sm:py-24 lg:py-32 border-t border-border-light">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8">Featured Reports</h2>
+            <div class="space-y-4 mb-8">
+                <a href="https://reportsthatmatter.org" class="block p-6 border border-border-light rounded hover:border-accent hover:bg-white transition">
+                    <div class="font-sans text-sm text-gray-500 mb-2">2011</div>
+                    <div class="text-xl font-bold mb-2 hover:text-accent transition">Senate PSI Report Into The Financial Crisis</div>
+                    <div class="text-text-muted text-sm">A comprehensive inquiry into the causes of the 2008 financial crisis</div>
+                </a>
+                <a href="https://reportsthatmatter.org" class="block p-6 border border-border-light rounded hover:border-accent hover:bg-white transition">
+                    <div class="font-sans text-sm text-gray-500 mb-2">2016</div>
+                    <div class="text-xl font-bold mb-2 hover:text-accent transition">The Iraq Inquiry (Chilcot) Report</div>
+                    <div class="text-text-muted text-sm">Official inquiry into the UK's involvement in the Iraq War</div>
+                </a>
+                <a href="https://reportsthatmatter.org" class="block p-6 border border-border-light rounded hover:border-accent hover:bg-white transition">
+                    <div class="font-sans text-sm text-gray-500 mb-2">2002</div>
+                    <div class="text-xl font-bold mb-2 hover:text-accent transition">Senate Report Into Enron's Collapse</div>
+                    <div class="text-text-muted text-sm">Investigation into the corporate fraud and accounting scandal at Enron</div>
+                </a>
+            </div>
+            <div class="text-center">
+                <button class="font-sans bg-transparent text-text-dark border border-border-light px-6 py-3 rounded hover:border-accent hover:text-accent transition">View All Reports <span class="ml-2">→</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 sm:py-24 lg:py-32 border-t border-border-light">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-xl mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">Stay Informed</h2>
+                <p class="text-text-muted mb-8 leading-relaxed">Get updates when new reports are added to the platform.</p>
+                <form class="flex flex-col sm:flex-row gap-3 mb-4" onsubmit="event.preventDefault(); alert('Newsletter signup would be connected to your email service.');">
+                    <input type="email" placeholder="Enter your email" required class="flex-1 px-4 py-3 border border-border-light rounded bg-bg-light font-serif focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/10">
+                    <button type="submit" class="font-sans bg-accent text-white px-6 py-3 rounded hover:bg-accent-dark transition">Subscribe</button>
+                </form>
+                <p class="font-sans text-xs text-gray-500">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-border-light bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="font-serif font-bold mb-4">About</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Our Mission</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">How It Works</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Team</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold mb-4">Reports</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Browse All</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Search</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Categories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">API</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-serif font-bold mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Twitter</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Newsletter</a></li>
+                        <li><a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">RSS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-border-light pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p class="font-sans text-sm text-text-muted">© 2025 Reports That Matter. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Privacy Policy</a>
+                    <a href="#" class="font-sans text-sm text-text-muted hover:text-accent transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
