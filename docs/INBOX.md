@@ -1,3 +1,6 @@
+- [ ] ➕2026-01-11 continue developing the about in the thread re handoff doc.
+
+
 # Marketing research
 
 

@@ -1,33 +1,19 @@
-# Installation and Local Development Instructions
+# Reports that Matter
 
-This website uses [Jekyll](https://jekyllrb.com/) and [Github pages](https://pages.github.com/).
+Reports that Matter turns hard-to-access public reports into searchable, readable, and linkable web pages so primary evidence can be easily found and referenced.
 
-To get started, you will need to install [Ruby]( https://www.ruby-lang.org/en/documentation/installation/) and [RubyGems](https://rubygems.org/pages/download)
+## Plans
 
-Then,
+- [MARKETING.md](docs/MARKETING.md)
+  - [Landing Page Brief](docs/plans/brief-landing-page.md)
+- [PRODUCT.md](docs/PRODUCT.md)
 
-```
-# Install Jekyll
+## Next step ⏭️
 
-gem install jekyll
+Next concrete build step ...
 
-# Clone the repository
+- [ ] static one-page site
 
-git clone https://github.com/official-inquries/official-inquiries.com.git
+## About
 
-# Navigate to the repository directory
-
-cd official-inquiries.com
-
-# Initiate and update the submodules
-
-git submodule init
-git submodule update
-
-# Run Jekyll to build and host a local version of the site
-
-jekyll serve --watch
-
-```
-
-You should then be able to View the locally hosted site in your browser at the address `localhost:4000`. As you make changes to the repo, Jekyll will automatically regenerate the site accordingly.
+Reports that Matter makes important public-interest reports easy to find, read, and link to online. Many government and inquiry reports are buried in obscure websites or locked inside long PDFs, making them hard to discover and reference. Reports that Matter presents these documents in a web-native format — searchable, readable, and linkable at the level of specific sections — so primary evidence can actually be used in journalism, research, and public debate.
