@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reports that Matter - Wildcard Editorial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #121014;
+      --muted: #5a5861;
+      --cream: #f7f0e7;
+      --terra: #c35f3a;
+      --teal: #2e6b6a;
+      --stone: #e7dfd2;
+      --white: #ffffff;
+      --shadow: rgba(18, 16, 20, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: "Manrope", "Helvetica", sans-serif;
+    }
+    .ribbon {
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(120deg, rgba(195, 95, 58, 0.06), rgba(46, 107, 106, 0.07));
+      z-index: -2;
+    }
+    .gridlines {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(to right, rgba(18, 16, 20, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(18, 16, 20, 0.05) 1px, transparent 1px);
+      background-size: 80px 80px;
+      opacity: 0.4;
+      z-index: -1;
+    }
+    header {
+      padding: 28px 6vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .brand {
+      font-family: "Cormorant Garamond", "Times New Roman", serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+    }
+    header nav a {
+      text-decoration: none;
+      color: var(--muted);
+      margin-left: 18px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .hero {
+      padding: 20px 6vw 60px;
+      display: grid;
+      gap: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      align-items: center;
+    }
+    .hero h1 {
+      font-family: "Cormorant Garamond", "Times New Roman", serif;
+      font-size: clamp(2.8rem, 5vw, 5.4rem);
+      margin: 0;
+      line-height: 0.95;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 520px;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: var(--ink);
+      color: var(--cream);
+      padding: 6px 12px;
+      font-size: 0.75rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    .hero .cta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .hero .cta a {
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 10px;
+      border: 1px solid var(--ink);
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .hero .cta a.primary {
+      background: var(--terra);
+      border-color: var(--terra);
+      color: var(--cream);
+    }
+    section {
+      padding: 70px 6vw;
+    }
+    .split {
+      display: grid;
+      gap: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      align-items: start;
+    }
+    .panel {
+      background: var(--white);
+      border: 1px solid var(--stone);
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: 0 18px 36px var(--shadow);
+    }
+    .panel h3 {
+      font-family: "Cormorant Garamond", "Times New Roman", serif;
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+    .panel img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid var(--stone);
+      margin-top: 14px;
+    }
+    .stripe {
+      background: var(--stone);
+      border-top: 1px solid #d6cbbc;
+      border-bottom: 1px solid #d6cbbc;
+    }
+    .principles {
+      display: grid;
+      gap: 18px;
+    }
+    .principle {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      border-bottom: 1px solid #d6cbbc;
+      padding-bottom: 12px;
+    }
+    .principle span {
+      font-weight: 700;
+      color: var(--teal);
+      min-width: 140px;
+    }
+    .wide-callout {
+      background: linear-gradient(120deg, rgba(195, 95, 58, 0.12), rgba(46, 107, 106, 0.12));
+      border-radius: 20px;
+      padding: 28px;
+    }
+    footer {
+      padding: 60px 6vw 100px;
+      color: var(--muted);
+    }
+    .stagger {
+      animation: slideUp 0.9s ease-out both;
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="ribbon" aria-hidden="true"></div>
+  <div class="gridlines" aria-hidden="true"></div>
+  <header>
+    <div class="brand">Reports that Matter</div>
+    <nav>
+      <a href="#problem">Problem</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#change">Change</a>
+      <a href="#scope">Scope</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="problem">
+    <div class="stagger">
+      <div class="badge">Public-interest web access</div>
+      <h1>Reports that shaped history are still trapped in PDFs.</h1>
+      <p>Governments publish deep, authoritative reports. Yet readers still face broken websites, fragmented downloads, and near-impossible citation. Reports that Matter rebuilds them for real use.</p>
+      <div class="cta">
+        <a class="primary" href="#">Explore reports</a>
+        <a href="#">Get updates</a>
+      </div>
+    </div>
+    <div class="wide-callout">
+      <h2 style="margin-top: 0;">What should be true</h2>
+      <p>Search, browse, and cite a public report in the same way you read an article — by passage, not by PDF volume.</p>
+      <div class="principles">
+        <div class="principle"><span>Discoverable</span> Search engines can index it.</div>
+        <div class="principle"><span>Linkable</span> Deep links to any paragraph.</div>
+        <div class="principle"><span>Readable</span> Web-native, not a download.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stripe" id="evidence">
+    <div class="split">
+      <div class="panel">
+        <h3>US Senate financial crisis investigation</h3>
+        <p>One of the most cited reports in post-2008 journalism is still hidden behind committee pages and PDF listings with unreliable links.</p>
+        <img src="assets/images/senate-screenshot-2.png" alt="Senate subcommittee report list" />
+      </div>
+      <div class="panel">
+        <h3>Saville Inquiry (UK)</h3>
+        <p>The inquiry has a site, but navigation breaks down: plain text links, fragmented downloads, and email-only alternatives.</p>
+        <img src="assets/images/saville-screenshot-2.png" alt="Saville Inquiry reports page" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="split">
+      <div>
+        <h2>The failure is systemic.</h2>
+        <p>Important reports exist, then decay. Links rot. Formats become brittle. Discoverability collapses. The web is built for sharing and searching; these reports are published as if the web did not exist.</p>
+      </div>
+      <div class="panel">
+        <h3>What Reports that Matter changes</h3>
+        <div class="principles">
+          <div class="principle"><span>Permanence</span> Stable, modern hosting.</div>
+          <div class="principle"><span>Full text</span> Extraction for search and browse.</div>
+          <div class="principle"><span>Deep links</span> Cite the exact passage.</div>
+          <div class="principle"><span>Clarity</span> A calm, readable interface.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stripe" id="change">
+    <div class="split">
+      <div class="panel">
+        <h3>Why this matters</h3>
+        <p>Inquiry reports contain evidence, testimony, timelines, and findings that anchor public understanding. When access is poor, public discourse becomes thinner and less accountable.</p>
+      </div>
+      <div class="panel">
+        <h3>Scope and status</h3>
+        <p>We focus on English-language reports from the UK and US. Independent, public-interest project. No marketing spin — just better access.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="scope">
+    Reports that Matter is a public-interest initiative focused on web-native access to official inquiries.
+  </footer>
+</body>
+</html>

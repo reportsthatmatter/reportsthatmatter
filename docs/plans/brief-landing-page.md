@@ -1,13 +1,12 @@
 # Homepage build brief for Reports that Matter
 
-*(for creative + development handoff)*
+NB: Please create this in new `site` directory. It should be implemented in HTML + Tailwind CSS (use tailwind cdn so no build is needed).
 
-What is included along with this brief:
+What is included with this brief:
 
 1. **Homepage draft text**: see `docs/plans/draft-landing-page.md`.
 2. The **Official Inquiries – the Idea deck** see assets/Official Inquiries – the Idea.pdf. This is a potential source for screenshots, example walkthroughs, and conceptual foundation.
 3. A short positioning note: see `docs/PRODUCT.md`.
-4. Any existing brand constraints (if any), otherwise state:
 
 ### 1. Purpose of this page
 
