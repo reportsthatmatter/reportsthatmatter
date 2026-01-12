@@ -9,6 +9,11 @@ export const app = new Hono();
 
 app.get("/health", (c) => c.text("ok"));
 
+app.get("/", async (c) => {
+  const registry = await loadRegistry();
+  return c.html(renderIndex(registry));
+});
+
 app.get("/reports", async (c) => {
   const registry = await loadRegistry();
   return c.html(renderIndex(registry));
