@@ -28,6 +28,17 @@ Outputs:
 - `/reports` index page
 - `/reports/:id` full report page with paragraph anchors
 
+## Environments
+
+Development:
+- Hono on Node
+- Local file reads for registry and sample reports
+
+Production (Cloudflare Workers):
+- Hono on Workers
+- Registry and sample markdown bundled in the Worker (read-only)
+- No runtime filesystem access beyond bundled assets
+
 ## Registry
 
 Single committed registry file, authoritative for what the app can serve.
