@@ -1,0 +1,6 @@
+name = "reportsthatmatter"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[dev]
+local_protocol = "http"

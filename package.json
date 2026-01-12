@@ -1,0 +1,18 @@
+{
+  "name": "reportsthatmatter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "wrangler dev --local"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "wrangler": "^3.88.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.10"
+  }
+}
