@@ -14,6 +14,16 @@ Next concrete build step ...
 
 - [ ] static one-page site
 
+## Developers
+
+Local dev:
+
+```bash
+pnpm install
+pnpm test
+pnpm wrangler dev --local
+```
+
 ## About
 
 Reports that Matter makes important public-interest reports easy to find, read, and link to online. Many government and inquiry reports are buried in obscure websites or locked inside long PDFs, making them hard to discover and reference. Reports that Matter presents these documents in a web-native format — searchable, readable, and linkable at the level of specific sections — so primary evidence can actually be used in journalism, research, and public debate.
