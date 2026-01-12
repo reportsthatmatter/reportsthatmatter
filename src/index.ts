@@ -28,3 +28,5 @@ app.get("/reports/:id", async (c) => {
 
   return c.html(renderReport(report.title, html));
 });
+
+export default app;
