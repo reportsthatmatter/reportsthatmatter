@@ -1,8 +1,7 @@
-import fs from "node:fs/promises";
-import path from "node:path";
 import { Hono } from "hono";
 import { loadRegistry } from "./lib/registry";
 import { renderMarkdown } from "./lib/markdown";
+import { loadReportMarkdown } from "./lib/source";
 import { renderIndex } from "./templates/index";
 import { renderReport } from "./templates/report";
 
@@ -24,10 +23,7 @@ app.get("/reports/:id", async (c) => {
     return c.text("Report not found", 404);
   }
 
-  const sourcePath = path.isAbsolute(report.source_path)
-    ? report.source_path
-    : path.join(process.cwd(), report.source_path);
-  const markdown = await fs.readFile(sourcePath, "utf8");
+  const markdown = await loadReportMarkdown(report.source_path);
   const html = renderMarkdown(markdown);
 
   return c.html(renderReport(report.title, html));
