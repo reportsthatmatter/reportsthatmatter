@@ -1,0 +1,7 @@
+reports:
+  - id: us-senate-wall-street-and-financial-crisis
+    title: "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse"
+    authors: "U.S. Senate Permanent Subcommittee on Investigations"
+    published_at: "2011"
+    source_path: reports/samples/us-senate-wall-street-and-financial-crisis/full.md
+    overview_path: reports/samples/us-senate-wall-street-and-financial-crisis/README.md
