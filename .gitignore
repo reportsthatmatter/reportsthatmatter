@@ -2,6 +2,7 @@ _site
 .sass-cache
 *.pyc
 .worktrees/
+.claude/
 node_modules/
 .wrangler/
 .DS_Store

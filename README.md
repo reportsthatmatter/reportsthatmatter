@@ -40,6 +40,12 @@ pnpm wrangler whoami
 pnpm wrangler deploy
 ```
 
+Scripted deploy:
+
+```bash
+./scripts/deploy-cloudflare.sh
+```
+
 Custom domain routing (one-time):
 - In Cloudflare dashboard: `reportsthatmatter.org` zone → Workers & Pages → Triggers → Add route
 - Route: `v2.reportsthatmatter.org/*`

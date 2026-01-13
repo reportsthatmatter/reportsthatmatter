@@ -6,6 +6,12 @@
     "test": "vitest run",
     "dev": "wrangler dev --local"
   },
+  "vitest": {
+    "exclude": [
+      "**/.worktrees/**",
+      "**/.claude/**"
+    ]
+  },
   "devDependencies": {
     "@types/node": "^22.10.2",
     "typescript": "^5.7.2",
