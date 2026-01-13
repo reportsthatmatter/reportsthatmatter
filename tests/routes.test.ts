@@ -13,6 +13,8 @@ describe("routes", () => {
     const res = await app.request("http://localhost/");
     expect(res.status).toBe(200);
     const body = await res.text();
+    expect(body).toContain("https://cdn.tailwindcss.com");
+    expect(body).toContain("Reports that Matter");
     expect(body).toContain("Wall Street and the Financial Crisis");
   });
 
