@@ -9,6 +9,24 @@ describe("routes", () => {
     expect(res.status).toBe(200);
   });
 
+  it("serves static assets via ASSETS binding", async () => {
+    const res = await app.request(
+      "http://localhost/assets/images/senate-screenshot-2.png",
+      {},
+      {
+        ASSETS: {
+          fetch: async (req: Request) => {
+            const url = new URL(req.url);
+            return url.pathname === "/images/senate-screenshot-2.png"
+              ? new Response("ok")
+              : new Response("not found", { status: 404 });
+          },
+        },
+      }
+    );
+    expect(res.status).toBe(200);
+  });
+
   it("renders home page with report link", async () => {
     const res = await app.request("http://localhost/");
     expect(res.status).toBe(200);
