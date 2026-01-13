@@ -11,7 +11,9 @@ app.get("/health", (c) => c.text("ok"));
 
 app.get("/assets/*", async (c) => {
   if (c.env?.ASSETS) {
-    return c.env.ASSETS.fetch(c.req.raw);
+    const url = new URL(c.req.url);
+    url.pathname = url.pathname.replace(/^\/assets/, "");
+    return c.env.ASSETS.fetch(new Request(url, c.req.raw));
   }
 
   const { readFile } = await import("node:fs/promises");
