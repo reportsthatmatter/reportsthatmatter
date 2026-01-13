@@ -1,3 +1,13 @@
+## 2026-01-13 - Marketing Launch (Jack Smith Report)
+
+See `docs/plans/2026-01-13-twitter-launch-campaign.md` for full campaign plan.
+
+- [ ] **Create announcement page content** — short "what is this" page for the site (e.g., `/about`)
+  - [ ] Finalize tweet copy — refine drafts based on announcement page
+- [ ] **Get report on site** — Jack Smith PDF → Markdown → live on reportsthatmatter.org with paragraph links
+
+---
+
 ## 2026-01-13 - next 1h
 
 - [x] checked about using fs compatability in Cloudflare workers: https://developers.cloudflare.com/workers/runtime-apis/nodejs/fs/ **✅2026-01-13 ❌ recommend keeping the current text‑module bundling. It’s the most portable, doesn’t rely on fs flags or a newer compatibility date, and works the same in dev + Workers. We can always switch to /bundle later if you want to align with the docs and use fs once you’re ready to bump the compatibility date.**
