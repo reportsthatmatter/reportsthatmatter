@@ -260,3 +260,27 @@ Follow [@ReportsThatMatter]() for daily excerpts.
 ---
 
 *A project by [Your Name]*
+
+---
+
+### Launch Tweet Thread (Personal Account)
+
+Refined to match announcement page tone:
+
+> **1/** I built something: @ReportsThatMatter
+>
+> Important public reports — government inquiries, investigations, official findings — are buried in broken websites and huge PDFs. Impossible to link to the part that matters.
+>
+> I'm making them readable and linkable on the web.
+
+> **2/** First report: The Jack Smith Special Counsel Report.
+>
+> The investigation that found "sufficient evidence to obtain and sustain a conviction" — dismissed only because you can't prosecute a sitting president.
+>
+> No commentary. No spin. Just the source, made accessible.
+>
+> [link to /about]
+
+> **3/** @ReportsThatMatter will tweet excerpts daily — direct quotes, key findings, the actual evidence.
+>
+> Follow if you want primary sources, not takes.

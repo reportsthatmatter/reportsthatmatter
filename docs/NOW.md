@@ -2,8 +2,8 @@
 
 See `docs/plans/2026-01-13-twitter-launch-campaign.md` for full campaign plan.
 
-- [ ] **Create announcement page content** — short "what is this" page for the site (e.g., `/about`)
-  - [ ] Finalize tweet copy — refine drafts based on announcement page
+- [x] **Create announcement page content** — short "what is this" page for the site (e.g., `/about`) **✅2026-01-13 draft in campaign plan appendix**
+  - [x] Finalize tweet copy — refine drafts based on announcement page **✅2026-01-13**
 - [ ] **Get report on site** — Jack Smith PDF → Markdown → live on reportsthatmatter.org with paragraph links
 - [ ] **Create RTM Twitter account** — reserve handle (@ReportsThatMatter or similar)
 - [ ] **Schedule and launch** — post announcement thread + first batch of excerpts
