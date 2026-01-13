@@ -15,6 +15,7 @@ describe("routes", () => {
     const body = await res.text();
     expect(body).toContain("https://cdn.tailwindcss.com");
     expect(body).toContain("Reports that Matter");
+    expect(body).toContain("href=\"#reports\"");
     expect(body).toContain("Wall Street and the Financial Crisis");
   });
 
