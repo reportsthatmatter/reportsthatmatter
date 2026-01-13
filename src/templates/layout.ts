@@ -43,6 +43,23 @@ export function renderLayout(
         linear-gradient(to bottom, rgba(18, 16, 20, 0.05) 1px, transparent 1px);
       background-size: 80px 80px;
     }
+    .report-body h1,
+    .report-body h2,
+    .report-body h3,
+    .report-body h4 {
+      font-family: "Cormorant Garamond", "Times New Roman", serif;
+      font-weight: 600;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .report-body h1 { font-size: 2.25rem; }
+    .report-body h2 { font-size: 1.9rem; }
+    .report-body h3 { font-size: 1.5rem; }
+    .report-body p { margin-top: 1rem; }
+    .report-body ul,
+    .report-body ol { margin: 1rem 0 1rem 1.5rem; }
+    .report-body li { margin: 0.4rem 0; }
+    .report-body a { color: #2e6b6a; text-decoration: underline; }
   </style>
 </head>
 <body class="bg-[#f7f0e7] text-[#121014]">

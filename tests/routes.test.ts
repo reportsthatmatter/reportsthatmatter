@@ -34,5 +34,6 @@ describe("routes", () => {
     const body = await res.text();
     expect(body).toContain("Wall Street and the Financial Crisis");
     expect(body).toContain("id=\"p-1\"");
+    expect(body).toContain("max-w-3xl");
   });
 });
