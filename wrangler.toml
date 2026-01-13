@@ -10,5 +10,9 @@ rules = [
 [vars]
 REPORTS_SOURCE = "bundled"
 
+[assets]
+directory = "assets"
+binding = "ASSETS"
+
 [dev]
 local_protocol = "http"
