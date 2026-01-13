@@ -2,6 +2,13 @@ import { describe, expect, it } from "vitest";
 import { app } from "../src/index";
 
 describe("routes", () => {
+  it("serves static assets", async () => {
+    const res = await app.request(
+      "http://localhost/assets/images/senate-screenshot-2.png"
+    );
+    expect(res.status).toBe(200);
+  });
+
   it("renders home page with report link", async () => {
     const res = await app.request("http://localhost/");
     expect(res.status).toBe(200);
