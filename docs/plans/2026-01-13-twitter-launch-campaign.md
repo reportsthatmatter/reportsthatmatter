@@ -228,3 +228,35 @@ Tweet thread → reportsthatmatter.org/about → reportsthatmatter.org/reports/j
 Once validated:
 - If you want zero effort: Buffer at $6/month
 - If you want free + automation: Build a simple bot with X API free tier + GitHub Actions
+
+---
+
+## Appendix: Announcement Page Draft
+
+This is the short landing page for Twitter traffic — lives at `/about` or similar.
+
+**Design notes:**
+- ~80 words, scannable in 10-15 seconds
+- Neutral, institutional tone (personal voice stays on personal Twitter)
+- Single CTA: read the report
+- Light attribution at bottom
+
+---
+
+**Reports that Matter**
+
+Important public reports — government inquiries, investigations, official findings — contain some of the most careful research ever produced on matters of public importance.
+
+But they're buried. Scattered across broken government websites, locked in huge PDFs, impossible to link to at the level that matters: the specific finding, the key paragraph, the actual evidence.
+
+Reports that Matter makes these reports usable on the web. Searchable. Readable. Linkable at the paragraph level.
+
+No commentary. No spin. Just the source, made accessible.
+
+**First report:** [The Special Counsel Report on January 6 →]
+
+Follow [@ReportsThatMatter]() for daily excerpts.
+
+---
+
+*A project by [Your Name]*
