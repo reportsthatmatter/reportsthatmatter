@@ -1,3 +1,11 @@
+## 2026-01-13 - next 1h
+
+- [x] checked about using fs compatability in Cloudflare workers: https://developers.cloudflare.com/workers/runtime-apis/nodejs/fs/ **✅2026-01-13 ❌ recommend keeping the current text‑module bundling. It’s the most portable, doesn’t rely on fs flags or a newer compatibility date, and works the same in dev + Workers. We can always switch to /bundle later if you want to align with the docs and use fs once you’re ready to bump the compatibility date.**
+
+## 2026-01-12 - first design
+
+- [x] See `docs/plans/2026-01-12-report-rendering-design.md` **✅2026-01-13**
+
 ## 2026-01-12 Next 30 minutes (planning, not building)
 
 Outcome at T+30: A thin but explicit execution spine for both product and marketing, sufficient to guide the next several focused build sessions without reopening strategy.
