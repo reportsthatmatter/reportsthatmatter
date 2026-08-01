@@ -1,0 +1,43 @@
+# Passages worth a share card.
+#
+# Cards are pre-rendered to PNG by `pnpm cards`, because feeds will not display
+# SVG and a runtime rasteriser would cost more bundle than the whole site.
+#
+# Only listed passages get a card. A shared link to any other paragraph still
+# previews its text — it just has no image.
+#
+#   report:    registry id
+#   paragraph: paragraph id, i.e. the #fragment on the page
+#   note:      why this one (for us, not published)
+#   quote:     optional — the exact sentence to show. Without it the card uses
+#              the start of the paragraph, which often misses the notable line.
+
+quotes:
+  - report: jack-smith-vol1
+    paragraph: trump-has-something-else-left
+    note: '"So what?" — response on being told Pence had been evacuated'
+    quote: >-
+      When an advisor rushed to tell Mr. Trump that Vice President Pence had
+      been evacuated to a secure location, he replied: "So what?"
+
+  - report: jack-smith-vol1
+    paragraph: vice-president-pence-told-trump
+    note: '"The details don''t matter."'
+    quote: >-
+      Told that Co-Conspirator 1 would be unable to prove his fraud allegations
+      in court, Mr. Trump responded: "The details don't matter."
+
+  - report: jack-smith-vol1
+    paragraph: rioters-capitol-had-been-motivated
+    note: '"Hang Mike Pence" — the crowd hunting for lawmakers'
+    quote: >-
+      Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and
+      other lawmakers, with some chanting, "Hang Mike Pence!"
+
+  - report: jack-smith-vol1
+    paragraph: violence-further-delay-service-these
+    note: the common plan, stated plainly
+
+  - report: jack-smith-vol1
+    paragraph: december-14-the-date-eca-required
+    note: the fraudulent elector plan

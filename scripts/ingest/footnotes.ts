@@ -53,12 +53,26 @@ export function parseFootnotes(lines: string[], page: number): Footnote[] {
  * where they sit after sentence-like text — otherwise ordinary figures in the
  * prose ("about 12,000 voters") would be mangled into references.
  */
+/**
+ * Reference-like abbreviations that are followed by a number which is *not* a
+ * footnote marker: "ECF No. 252", "at 79", "n. 452", "§ 371". Linking these
+ * corrupts the citation into a reference to an unrelated note.
+ */
+const CITES_A_NUMBER =
+  /(\b(?:nos?|nn?|pp?|art|ch|sec|para|vol|ex|fig|tbl|id|at|see)\.?|§)\s*$/i;
+
 export function linkInlineMarkers(text: string, known: Set<number>): string {
   return text.replace(
     /([.,;:!?"'\)])\s+(\d{1,4})(?=\s|$)/g,
-    (whole, punctuation: string, digits: string) => {
+    (whole, punctuation: string, digits: string, offset: number) => {
       const value = Number.parseInt(digits, 10);
-      return known.has(value) ? `${punctuation}[^${value}]` : whole;
+      if (!known.has(value)) return whole;
+
+      // Look at what sits immediately before the punctuation.
+      const preceding = text.slice(Math.max(0, offset - 12), offset + 1);
+      if (CITES_A_NUMBER.test(preceding)) return whole;
+
+      return `${punctuation}[^${value}]`;
     }
   );
 }

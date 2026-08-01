@@ -4,8 +4,13 @@ import {
   toBlocks,
   blocksToMarkdown,
   mergeAcrossPages,
+  endsSentence,
 } from "../scripts/ingest/paragraphs";
-import { parseFootnotes, linkInlineMarkers, renderEndnotes } from "../scripts/ingest/footnotes";
+import {
+  parseFootnotes,
+  linkInlineMarkers,
+  renderEndnotes,
+} from "../scripts/ingest/footnotes";
 import { autoFix, findSuspects } from "../scripts/ingest/ocr";
 import { structuralChecks, losslessCheck, retentionCheck } from "../scripts/ingest/fidelity";
 
@@ -403,5 +408,83 @@ describe("stacked footnote layout", () => {
   it("does not treat a lone number with no prose beneath it as a note", () => {
     const notes = parseFootnotes(["42", "", "17"], 1);
     expect(notes).toHaveLength(0);
+  });
+});
+
+describe("sentence ends", () => {
+  it("does not treat an abbreviation as the end of a sentence", () => {
+    expect(endsSentence("issued a statement, according to Mr.")).toBe(false);
+    expect(endsSentence("filed under ECF No.")).toBe(false);
+    expect(endsSentence("as set out in Donald J.")).toBe(false);
+  });
+
+  it("still recognises a real sentence end", () => {
+    expect(endsSentence("He declined to comment.")).toBe(true);
+    expect(endsSentence("Was that true?")).toBe(true);
+    expect(endsSentence('He replied "So what?"')).toBe(true);
+  });
+
+  it("rejoins a sentence split after an abbreviation", () => {
+    const merged = mergeAcrossPages([
+      { kind: "paragraph", text: "the courage to do what should have been done, said Mr." },
+      { kind: "page", number: 41 },
+      { kind: "paragraph", text: "Trump has something else left." },
+    ]);
+    const paragraphs = merged.filter((b) => b.kind === "paragraph");
+    expect(paragraphs).toHaveLength(1);
+    expect((paragraphs[0] as { text: string }).text).toContain("said Mr. Trump has");
+  });
+
+  it("does not glue two genuinely separate paragraphs together", () => {
+    const merged = mergeAcrossPages([
+      { kind: "paragraph", text: "He declined to comment." },
+      { kind: "paragraph", text: "The following day, the Office filed." },
+    ]);
+    expect(merged.filter((b) => b.kind === "paragraph")).toHaveLength(2);
+  });
+});
+
+describe("citation numbers are not footnote markers", () => {
+  it("leaves a docket number alone", () => {
+    expect(linkInlineMarkers("See ECF No. 252 at 79.", new Set([252]))).toBe(
+      "See ECF No. 252 at 79."
+    );
+  });
+
+  it("leaves a note cross-reference alone", () => {
+    expect(linkInlineMarkers("at 79 & n. 452; more", new Set([452]))).toBe(
+      "at 79 & n. 452; more"
+    );
+  });
+
+  it("still links a real footnote marker", () => {
+    expect(linkInlineMarkers("told him the same. 10 On November", new Set([10]))).toBe(
+      "told him the same.[^10] On November"
+    );
+  });
+});
+
+describe("hyphenated words split by a page break", () => {
+  it("rejoins without leaving the hyphen", () => {
+    const merged = mergeAcrossPages([
+      { kind: "paragraph", text: "a Senior Advisor reiterated that Co-" },
+      { kind: "page", number: 34 },
+      { kind: "paragraph", text: "Conspirator 1 would be unable to prove it." },
+    ]);
+    const paragraphs = merged.filter((b) => b.kind === "paragraph");
+    expect(paragraphs).toHaveLength(1);
+    expect((paragraphs[0] as { text: string }).text).toContain(
+      "that Co-Conspirator 1 would be unable"
+    );
+  });
+});
+
+describe("hyphenation across a page break, lowercase continuation", () => {
+  it("drops the typesetter's hyphen", () => {
+    const merged = mergeAcrossPages([
+      { kind: "paragraph", text: "subject to regu-" },
+      { kind: "paragraph", text: "lation by the agency." },
+    ]);
+    expect((merged[0] as { text: string }).text).toBe("subject to regulation by the agency.");
   });
 });

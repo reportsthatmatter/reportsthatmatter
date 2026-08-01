@@ -1,19 +1,23 @@
 import { Hono } from "hono";
 import { loadRegistry } from "./lib/registry";
 import { renderMarkdown } from "./lib/markdown";
-import { loadReportMarkdown } from "./lib/source";
+import { loadReportMarkdown, loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
+import { renderChangelog } from "./templates/changelog";
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
   ASSETS?: { fetch: (request: Request) => Promise<Response> };
   /** "bundled" reads reports from the worker bundle, otherwise from disk. */
   REPORTS_SOURCE?: string;
-  /** Where the pre-V2 site now lives, e.g. "old.reportsthatmatter.org". */
-  LEGACY_HOST?: string;
+  /**
+   * Where the pre-V2 site now lives — a full base URL, which may carry a path
+   * prefix (GitHub Pages serves project sites under /<repo>/).
+   */
+  LEGACY_BASE?: string;
 };
 
 /**
@@ -40,6 +44,11 @@ export const RENAMED_REPORTS: Record<string, string> = {
   "us-senate-wall-street-and-financial-crisis": "us-psi-financial-crisis",
 };
 
+/** Joins the legacy base to a path, tolerating a trailing slash on the base. */
+export function legacyUrl(base: string, pathAndQuery: string): string {
+  return `${base.replace(/\/$/, "")}${pathAndQuery}`;
+}
+
 export function isLegacyPath(pathname: string): boolean {
   return LEGACY_PATHS.some(
     (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`)
@@ -61,12 +70,9 @@ app.use("*", async (c, next) => {
     return c.redirect(url.toString(), 301);
   }
 
-  const legacyHost = c.env?.LEGACY_HOST;
-  if (legacyHost && isLegacyPath(url.pathname)) {
-    url.host = legacyHost;
-    url.protocol = "https:";
-    url.port = "";
-    return c.redirect(url.toString(), 301);
+  const legacyBase = c.env?.LEGACY_BASE;
+  if (legacyBase && isLegacyPath(url.pathname)) {
+    return c.redirect(legacyUrl(legacyBase, url.pathname + url.search), 301);
   }
 
   await next();
@@ -112,6 +118,11 @@ app.get("/reports", async (c) => {
 });
 
 app.get("/about", (c) => c.html(renderAbout()));
+
+app.get("/changelog", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  return c.html(renderChangelog(await loadChangelog(sourceMode)));
+});
 
 app.get("/reports/:id", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;

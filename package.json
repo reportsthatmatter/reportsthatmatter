@@ -7,7 +7,8 @@
     "typecheck": "tsc --noEmit",
     "verify": "./scripts/verify.sh",
     "ingest": "tsx scripts/ingest/cli.ts",
-    "dev": "wrangler dev --local"
+    "dev": "wrangler dev --local",
+    "cards": "tsx scripts/cards.mjs"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",

@@ -249,6 +249,23 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
  * page and onto the next arrives as two paragraphs — and, because the second
  * half starts with a lowercase word, as visibly broken prose.
  */
+/**
+ * Abbreviations that end in a full stop without ending a sentence. Without
+ * these, a page break falling between "Mr." and "Trump" leaves a paragraph
+ * opening mid-sentence — and in a document about Mr. Trump, that is often.
+ */
+const ABBREVIATION =
+  /\b(mr|mrs|ms|dr|prof|sen|rep|gov|st|nos?|vs?|inc|co|corp|ltd|jr|sr|u\.s|e\.g|i\.e|cf|ch|art|sec|fig|para|pp?|ecf|tr)\.$/i;
+
+/** A single initial — "Donald J." — is not a sentence end either. */
+const INITIAL = /\b[A-Z]\.$/;
+
+export function endsSentence(text: string): boolean {
+  if (!/[.?!:;"')\]]$/.test(text)) return false;
+  if (ABBREVIATION.test(text) || INITIAL.test(text)) return false;
+  return true;
+}
+
 export function mergeAcrossPages(blocks: Block[]): Block[] {
   const merged: Block[] = [];
 
@@ -262,11 +279,31 @@ export function mergeAcrossPages(blocks: Block[]): Block[] {
         : -1;
     const previous = merged[markerIndex === -1 ? merged.length - 1 : markerIndex - 1];
 
+    // A word broken by the page break. Whether the hyphen belongs to the word
+    // or to the typesetter cannot be known for certain, but the case of what
+    // follows is a good guide: "Co-" + "Conspirator" is a real compound,
+    // "regu-" + "lation" is a line break.
     if (
       block.kind === "paragraph" &&
       previous?.kind === "paragraph" &&
-      !/[.?!:;"')\]]$/.test(previous.text) &&
-      /^[a-z,;]/.test(block.text)
+      /[-­‐]$/.test(previous.text)
+    ) {
+      const stem = previous.text.replace(/[-­‐]$/, "");
+      previous.text = /^[A-Z]/.test(block.text)
+        ? `${stem}-${block.text}`
+        : stem + block.text;
+      continue;
+    }
+
+    if (
+      block.kind === "paragraph" &&
+      previous?.kind === "paragraph" &&
+      !endsSentence(previous.text) &&
+      // A lowercase opening is the usual sign of a continuation. After an
+      // abbreviation the next word is often a name, so allow either.
+      (/^[a-z,;]/.test(block.text) ||
+        ABBREVIATION.test(previous.text) ||
+        INITIAL.test(previous.text))
     ) {
       previous.text = `${previous.text} ${block.text}`;
       continue;

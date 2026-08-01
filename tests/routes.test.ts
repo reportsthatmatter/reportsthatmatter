@@ -149,11 +149,22 @@ describe("legacy site handling", () => {
     const res = await app.request(
       "https://reportsthatmatter.org/iraq-inquiry/",
       {},
-      { LEGACY_HOST: "old.reportsthatmatter.org" }
+      { LEGACY_BASE: "https://old.reportsthatmatter.org" }
     );
     expect(res.status).toBe(301);
     expect(res.headers.get("location")).toBe(
       "https://old.reportsthatmatter.org/iraq-inquiry/"
+    );
+  });
+
+  it("carries a path prefix, as GitHub Pages project sites need", async () => {
+    const res = await app.request(
+      "https://reportsthatmatter.org/iraq-inquiry/?x=1",
+      {},
+      { LEGACY_BASE: "https://reportsthatmatter.github.io/reportsthatmatter" }
+    );
+    expect(res.headers.get("location")).toBe(
+      "https://reportsthatmatter.github.io/reportsthatmatter/iraq-inquiry/?x=1"
     );
   });
 
@@ -169,7 +180,7 @@ describe("legacy site handling", () => {
     const res = await app.request(
       "https://reportsthatmatter.org/reports",
       {},
-      { LEGACY_HOST: "old.reportsthatmatter.org" }
+      { LEGACY_BASE: "https://old.reportsthatmatter.org" }
     );
     expect(res.status).toBe(200);
   });
@@ -197,5 +208,79 @@ describe("renamed reports", () => {
       "https://reportsthatmatter.org/reports/us-senate-wall-street-and-financial-crisis?p=some-passage"
     );
     expect(res.headers.get("location")).toContain("?p=some-passage");
+  });
+});
+
+describe("changelog", () => {
+  it("renders the changelog page", async () => {
+    const res = await app.request("http://localhost/changelog");
+    expect(res.status).toBe(200);
+    const body = await res.text();
+    expect(body).toContain("What has changed");
+    expect(body).toContain("2026-08-02");
+  });
+
+  it("drops the file's internal note to maintainers", async () => {
+    const { entriesOnly } = await import("../src/templates/changelog");
+    const trimmed = entriesOnly(
+      "# Changelog\n\nSource for `/changelog`. Hand-written.\n\n---\n\n## 2026-08-02 — Something\n\nBody."
+    );
+    expect(trimmed).not.toContain("Hand-written");
+    expect(trimmed.startsWith("## 2026-08-02")).toBe(true);
+  });
+
+  it("is linked from the footer", async () => {
+    const res = await app.request("http://localhost/");
+    expect(await res.text()).toContain('href="/changelog"');
+  });
+});
+
+describe("share cards", () => {
+  const CARD_PARAGRAPH = "trump-has-something-else-left";
+
+  it("advertises a card when one exists for the passage", async () => {
+    const res = await app.request(
+      `http://localhost/reports/jack-smith-vol1?p=${CARD_PARAGRAPH}`
+    );
+    const body = await res.text();
+    expect(body).toContain(
+      `https://reportsthatmatter.org/assets/cards/jack-smith-vol1/${CARD_PARAGRAPH}.png`
+    );
+    expect(body).toContain('name="twitter:card" content="summary_large_image"');
+  });
+
+  it("does not advertise a card that has not been generated", async () => {
+    const res = await app.request(
+      "http://localhost/reports/jack-smith-vol1?p=rioters-capitol-had-been-motivated-999"
+    );
+    const body = await res.text();
+    expect(body).not.toContain("og:image");
+    expect(body).toContain('name="twitter:card" content="summary"');
+  });
+
+  it("does not advertise a card without a named passage", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    expect(await res.text()).not.toContain("og:image");
+  });
+
+  it("serves the generated card image", async () => {
+    const res = await app.request(
+      `http://localhost/assets/cards/jack-smith-vol1/${CARD_PARAGRAPH}.png`
+    );
+    expect(res.status).toBe(200);
+  });
+});
+
+describe("card rendering", () => {
+  it("does not double the closing quotation mark", async () => {
+    const { wrapInQuotes } = await import("../src/templates/card");
+    expect(wrapInQuotes('he replied: "So what?"')).toBe('he replied: "So what?"');
+    expect(wrapInQuotes("a plain sentence")).toBe("“a plain sentence”");
+  });
+
+  it("escapes markup in the quote", async () => {
+    const { renderCard } = await import("../src/templates/card");
+    const html = renderCard({ quote: "<script>x</script>", reportTitle: "T" });
+    expect(html).not.toContain("<script>x</script>");
   });
 });

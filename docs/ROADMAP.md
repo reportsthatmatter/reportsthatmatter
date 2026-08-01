@@ -22,7 +22,8 @@ Nothing else on this list matters until this does.
 | shipped | **Stable ids** | A shared link that rots is worse than no link. Text-derived, so re-ingestion cannot silently repoint it. |
 | shipped | **Quote-preview links** | `?p=<id>` makes a shared link preview *the passage*, not boilerplate. A tweet showing the damning quote is a different object from one showing a site description. |
 | **next** | **Launch the Jack Smith report** | The whole point. Thread + first excerpts, drafted in-repo, posted by Rufus. |
-| **next** | **Quote cards (image)** | Twitter previews with an image get far more engagement than text cards. Needs `og:image` — either Cloudflare Browser Rendering or an SVG→PNG in the Worker. Highest-leverage unbuilt marketing item. |
+| shipped | **Quote cards** | Curated passages render as PNG cards carrying the quote, the page and the source. Pre-rendered at build time (`pnpm cards`) — feeds will not display SVG and a runtime rasteriser would cost more bundle than the whole site. Listed in `docs/share-quotes.yaml`. |
+| soon | **Cards for arbitrary passages** | Cards are curated today, which is right for launch. If readers start sharing their own passages, generating on demand needs either Browser Rendering (paid) or satori+resvg in the Worker (~700 KB gzip against a 3 MB budget). Wait for evidence anyone wants it. |
 | soon | **@ReportsThatMatter excerpt account** | Evidence-first, no commentary; a reference archive that accretes. Plan in `2026-01-13-twitter-launch-campaign.md`. |
 | soon | **Sitemap + structured data** | These documents should be *the* search result for phrases they contain. Cheap, compounding. |
 | later | **Analytics we actually read** | Cloudflare says ~3k uniques/month and we do not know what they look at. Answering that should precede guessing. |
@@ -38,6 +39,7 @@ Nothing else on this list matters until this does.
 | **next** | **Split reports into sections** | Wall Street is a **2.9 MB page**. The document's own structure gives 17 parts, median 9.5 KB. Currently the worst thing about actually reading here. |
 | soon | **Contents / in-page navigation** | Follows directly from splitting; a 169-page document needs a spine. |
 | soon | **Reading position + progress** | Long documents; cheap to do, disproportionately nice. |
+| shipped | **Changelog** | `/changelog`, hand-written from `docs/CHANGELOG.md`. Shows the project is alive and gives improvements somewhere to be announced from. |
 | later | **Full-text search** | Big item, wants its own design pass — see below. Becomes *necessary* once we split, because splitting removes ctrl-F as the way to find things. |
 | soon | **Visual texture / illustration** | Co-Star's illustration is a large part of why it reads as designed rather than merely clean. We have no visual texture at all. Likely direction: a treated facsimile of a real report page — aged, high-contrast, possibly lightly animated — so the homepage shows the thing we rescue documents *from*. Direction is open; the point is that the touches matter. Two notes: it is a **distribution** item as much as a reading one (an illustration is what makes the site screenshot-able, and it is the raw material for the quote cards above — build them together), and if the source is a facsimile of a real document it should be one we have the rights to and ideally one we have published, so the image is itself evidence rather than decoration. |
 | later | **Better report landing pages** | Provenance, summary, why this report matters. Currently we drop readers straight into the text. |

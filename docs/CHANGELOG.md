@@ -1,0 +1,72 @@
+# Changelog
+
+Source for `/changelog`. Hand-written: this is a record of what changed and why
+it mattered, not a dump of commit messages.
+
+Newest first. Keep entries short and concrete — a number beats an adjective.
+
+---
+
+## 2026-08-02 — The Wall Street report, properly converted
+
+The PSI financial crisis report had been converted before the ingestion
+pipeline existed, and it showed. **8,178 blocks with a median length of 89
+characters** — prose paragraphs run to about 600 — because every line of the
+PDF had become its own paragraph. **1,641 stray page numbers** left mid-text.
+**Two headings in a 645-page document.**
+
+Re-ingested from the source PDF: **162 headings**, 98.3% of the source text
+retained, no stranded page numbers, and paragraphs that are actually paragraphs.
+
+Doing it exposed a real gap. Footnote numbers appear in two layouts — inline
+with their text, or alone on a line with the text beneath — and only the first
+was supported. This report had yielded **7 footnotes**; it now yields **1,356**,
+rendered as 2,725 sidenotes. The Jack Smith report gained from the same fix,
+206 → 229.
+
+The report moved to `/reports/us-psi-financial-crisis`, matching its source
+repository. The old URL redirects.
+
+## 2026-08-02 — Sidenotes, and links that stay put
+
+**Sidenotes.** Footnotes now sit in the margin beside the sentence they support
+rather than 70 KB away at the end of the document. A footnote you have to travel
+to is a footnote nobody reads, and in these reports the citation *is* the
+evidence. On narrow screens, where there is no margin, a note opens on tap.
+
+**Stable paragraph links.** Paragraph addresses now derive from the paragraph's
+own opening words — `#rioters-capitol` rather than `#p-318`. The old scheme
+numbered by position, which meant that re-converting a report to fix a single
+scanning error renumbered everything after it: every link ever shared kept
+working while quietly pointing at different text. For a project whose whole
+proposition is citing the exact passage, that was the worst available failure.
+
+**Printed page anchors.** The page numbers from the original document are now
+addressable — `#page-46` — and shown in the margin. It is how these documents
+are actually cited, and it can be checked against the original PDF.
+
+**Shared links preview the passage.** A link to a specific paragraph now shows
+that paragraph in the preview when posted, instead of a generic site
+description.
+
+## 2026-08-01 — The site, rebuilt
+
+A new design: off-white, mid-grey rather than black, a classical serif for the
+documents themselves and small monospaced type for everything structural. Fewer
+things, more space. Serious documents should look serious.
+
+Behind it, a new **ingestion pipeline** — PDF in, clean Markdown out,
+deterministically — with automated fidelity checks that gate on what can
+actually be decided: that no text was invented, that none was lost, that no page
+furniture survived. Whether a scan was *read* correctly is a human judgement, so
+the pipeline surfaces the passages most likely to be wrong for review rather
+than hiding them behind a score.
+
+First report through it: **the Jack Smith Special Counsel report, Volume One** —
+169 pages, 99% of the source retained, every paragraph individually linkable.
+
+**Highlight any passage** to copy a link straight to it.
+
+The previous site remains readable in the
+[archive](https://reportsthatmatter.github.io/reportsthatmatter/); its URLs
+redirect there.

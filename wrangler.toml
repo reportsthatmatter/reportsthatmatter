@@ -18,9 +18,11 @@ routes = [
 
 [vars]
 REPORTS_SOURCE = "bundled"
-# Set once old.reportsthatmatter.org resolves; until then the previous site's
-# URLs get an explanatory 404 rather than a redirect into nowhere.
-LEGACY_HOST = ""
+# Where the pre-V2 site is readable. Its own subdomain would be nicer, but the
+# old.reportsthatmatter.org record still points at a dead Vercel deployment and
+# is DNS-only, so a Workers route cannot reach it. GitHub Pages' default URL
+# needs no DNS at all and keeps the old URLs alive today.
+LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
 
 [assets]
 directory = "assets"

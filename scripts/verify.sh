@@ -156,6 +156,8 @@ check_contains / "/assets/styles.css"
 check_absent  / "cdn.tailwindcss.com"
 check_contains /assets/styles.css "--canvas"
 check_contains /assets/share.js "Highlight-to-share"
+check_status /changelog 200
+check_contains /changelog "What has changed"
 
 step "Report pages"
 IDS=$(sed -n 's/^[[:space:]]*- id:[[:space:]]*//p' reports/registry.yaml)

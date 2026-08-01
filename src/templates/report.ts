@@ -1,6 +1,9 @@
 import { renderLayout, escapeHtml } from "./layout";
+import { cardPath } from "./card";
+import { CARDS } from "../generated/cards";
 
 export type ReportMeta = {
+  id?: string;
   title: string;
   authors?: string;
   published_at?: string;
@@ -81,8 +84,14 @@ export function renderReport(
   <button type="button" data-action="copy-quote">Copy quote</button>
 </div>`;
 
+  // Only advertise a card that exists — an og:image pointing at a 404 is worse
+  // than no image at all.
+  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
+  const image = cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined;
+
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
     description,
     scripts: ["/assets/share.js"],
+    image,
   });
 }
