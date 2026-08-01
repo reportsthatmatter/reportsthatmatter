@@ -7,6 +7,8 @@ import { renderReport } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
+import { renderReportOverview, renderSection } from "./templates/section";
+import { splitSections, sectionFor } from "./lib/sections";
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
@@ -61,8 +63,40 @@ app.get("/health", (c) => c.text("ok"));
 
 // Send the old site's URLs to wherever the old site now lives, before any
 // route can claim them.
+/**
+ * Serves the archived pre-V2 site on old.reportsthatmatter.org.
+ *
+ * The record is proxied through Cloudflare, so GitHub cannot issue a
+ * certificate for the host and its own custom-domain support is unusable.
+ * A Workers route can claim a proxied hostname, though, so the Worker fetches
+ * the archive from GitHub Pages and serves it under our own certificate. The
+ * archive lives under /<repo>/ there, which the path prefix supplies.
+ */
+async function serveArchive(url: URL, request: Request, base: string): Promise<Response> {
+  const upstream = new URL(legacyUrl(base, url.pathname + url.search));
+  const response = await fetch(upstream, {
+    method: "GET",
+    headers: { accept: request.headers.get("accept") ?? "*/*" },
+    redirect: "follow",
+  });
+
+  const headers = new Headers(response.headers);
+  headers.delete("content-security-policy");
+  // It is an archive; let it cache, but not so long that a fix cannot land.
+  headers.set("cache-control", "public, max-age=3600");
+  headers.set("x-rtm-archive", "pre-v2");
+
+  return new Response(response.body, { status: response.status, headers });
+}
+
 app.use("*", async (c, next) => {
   const url = new URL(c.req.url);
+
+  if (url.hostname.startsWith("old.")) {
+    const base = c.env?.LEGACY_BASE;
+    if (!base) return c.text("Archive not configured", 503);
+    return serveArchive(url, c.req.raw, base);
+  }
 
   // One canonical host, so links and analytics do not split in two.
   if (url.hostname.startsWith("www.")) {
@@ -70,9 +104,10 @@ app.use("*", async (c, next) => {
     return c.redirect(url.toString(), 301);
   }
 
-  const legacyBase = c.env?.LEGACY_BASE;
-  if (legacyBase && isLegacyPath(url.pathname)) {
-    return c.redirect(legacyUrl(legacyBase, url.pathname + url.search), 301);
+  // The old site's URLs now live on their own subdomain.
+  if (isLegacyPath(url.pathname)) {
+    url.hostname = `old.${url.hostname}`;
+    return c.redirect(url.toString(), 301);
   }
 
   await next();
@@ -119,13 +154,77 @@ app.get("/reports", async (c) => {
 
 app.get("/about", (c) => c.html(renderAbout()));
 
+/**
+ * A sitemap listing every section of every report.
+ *
+ * These documents should be *the* search result for phrases they contain, and
+ * a crawler will not find 80 section pages from a homepage that links two
+ * reports. Sections rather than /full: a 300 KB page ranks worse than the
+ * section that actually answers the query.
+ */
+app.get("/sitemap.xml", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const registry = await loadRegistry(sourceMode);
+  const origin = new URL(c.req.url).origin;
+
+  const urls: Array<{ loc: string; priority: string }> = [
+    { loc: "/", priority: "1.0" },
+    { loc: "/reports", priority: "0.9" },
+    { loc: "/about", priority: "0.7" },
+    { loc: "/changelog", priority: "0.4" },
+  ];
+
+  for (const report of registry.reports) {
+    urls.push({ loc: `/reports/${report.id}`, priority: "0.9" });
+    const markdown = await loadReportMarkdown(report.source_path, sourceMode);
+    for (const section of splitSections(renderMarkdown(markdown))) {
+      urls.push({ loc: `/reports/${report.id}/${section.slug}`, priority: "0.8" });
+    }
+  }
+
+  const body = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls
+  .map(
+    (entry) =>
+      `  <url><loc>${origin}${entry.loc}</loc><priority>${entry.priority}</priority></url>`
+  )
+  .join("\n")}
+</urlset>`;
+
+  return c.body(body, 200, {
+    "content-type": "application/xml; charset=utf-8",
+    "cache-control": "public, max-age=3600",
+  });
+});
+
+app.get("/robots.txt", (c) => {
+  const origin = new URL(c.req.url).origin;
+  return c.text(
+    `User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\n`,
+    200,
+    { "content-type": "text/plain; charset=utf-8" }
+  );
+});
+
 app.get("/changelog", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   return c.html(renderChangelog(await loadChangelog(sourceMode)));
 });
 
-app.get("/reports/:id", async (c) => {
+/** Loads a report and its rendered sections, or null if there is no such report. */
+async function loadReport(c: any, reportId: string) {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const registry = await loadRegistry(sourceMode);
+  const report = registry.reports.find((entry: { id: string }) => entry.id === reportId);
+  if (!report) return null;
+
+  const markdown = await loadReportMarkdown(report.source_path, sourceMode);
+  const html = renderMarkdown(markdown);
+  return { report, html, sections: splitSections(html) };
+}
+
+app.get("/reports/:id", async (c) => {
   const reportId = c.req.param("id");
   const renamed = RENAMED_REPORTS[reportId];
   if (renamed) {
@@ -134,19 +233,46 @@ app.get("/reports/:id", async (c) => {
     return c.redirect(url.toString(), 301);
   }
 
-  const registry = await loadRegistry(sourceMode);
-  const report = registry.reports.find((entry) => entry.id === reportId);
+  const loaded = await loadReport(c, reportId);
+  if (!loaded) return c.html(renderNotFound(false), 404);
 
-  if (!report) {
-    return c.html(renderNotFound(false), 404);
+  // A link naming a passage goes straight to the section holding it. This is
+  // why share links carry ?p= as well as the fragment: the fragment never
+  // reaches us, so without it a shared link could not be routed at all.
+  const paragraph = c.req.query("p");
+  if (paragraph) {
+    const section = sectionFor(loaded.sections, paragraph);
+    if (section) {
+      return c.redirect(
+        `/reports/${reportId}/${section.slug}?p=${encodeURIComponent(paragraph)}#${paragraph}`,
+        302
+      );
+    }
   }
 
-  const markdown = await loadReportMarkdown(report.source_path, sourceMode);
-  const html = renderMarkdown(markdown);
+  const words = loaded.html.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+  return c.html(
+    renderReportOverview(loaded.report, loaded.sections, { words })
+  );
+});
 
-  // `?p=` mirrors the fragment. A fragment never reaches the server, so it is
-  // the query string that lets a shared link preview the passage it points at.
-  return c.html(renderReport(report, html, c.req.query("p")));
+app.get("/reports/:id/full", async (c) => {
+  const loaded = await loadReport(c, c.req.param("id"));
+  if (!loaded) return c.html(renderNotFound(false), 404);
+  return c.html(renderReport(loaded.report, loaded.html, c.req.query("p")));
+});
+
+app.get("/reports/:id/:section", async (c) => {
+  const loaded = await loadReport(c, c.req.param("id"));
+  if (!loaded) return c.html(renderNotFound(false), 404);
+
+  const slug = c.req.param("section");
+  const index = loaded.sections.findIndex((section) => section.slug === slug);
+  if (index === -1) return c.html(renderNotFound(false), 404);
+
+  return c.html(
+    renderSection(loaded.report, loaded.sections, index, c.req.query("p"))
+  );
 });
 
 app.notFound((c) =>

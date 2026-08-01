@@ -453,6 +453,45 @@ hr {
   }
 }
 
+/* ---------- section navigation ---------- */
+
+.section-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding-block: 2rem 5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.section-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.section-nav a:hover {
+  color: var(--ink);
+}
+
+.section-nav .next {
+  text-align: right;
+}
+
+.section-nav .contents {
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+@media (max-width: 40rem) {
+  .section-nav {
+    grid-template-columns: 1fr;
+  }
+  .section-nav .next {
+    text-align: left;
+  }
+}
+
 /* ---------- sidenotes ---------- */
 
 /* The reading column stays put; notes live in the right margin where there is

@@ -64,7 +64,7 @@ await page.setViewportSize({ width: 1280, height: 900 });
 // ---------- report page ----------
 
 if (firstReportId) {
-  await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
+  await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
 
   const report = await page.evaluate(() => {
     const p1 = document.querySelector(".prose p[id]");
@@ -107,7 +107,7 @@ if (firstReportId) {
   check(report.pageMarkers > 0, "printed page markers are rendered", String(report.pageMarkers));
 
   // :target highlight actually applies
-  await page.goto(`${base}/reports/${firstReportId}#${report.firstId}`, {
+  await page.goto(`${base}/reports/${firstReportId}/full#${report.firstId}`, {
     waitUntil: "networkidle",
   });
   const targetBg = await page.evaluate((id) => {
@@ -121,7 +121,7 @@ if (firstReportId) {
   );
 
   // highlight-to-share
-  await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
+  await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
   await page.evaluate(() => {
     const p = document.querySelector(".prose p[id]");
     const range = document.createRange();
@@ -145,6 +145,31 @@ check(
   (await page.locator("h1").count()) === 1,
   "about page has exactly one h1"
 );
+
+// ---------- split reports ----------
+
+if (firstReportId) {
+  await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
+  const contents = await page.evaluate(() => ({
+    sections: document.querySelectorAll(".report-list a").length,
+    hasFull: Boolean(document.querySelector('a[href$="/full"]')),
+  }));
+  check(contents.sections > 2, "contents lists sections", String(contents.sections));
+  check(contents.hasFull, "contents links the whole-report view");
+
+  const firstSection = await page.evaluate(
+    () => document.querySelector(".report-list a")?.getAttribute("href") ?? ""
+  );
+  await page.goto(base + firstSection, { waitUntil: "networkidle" });
+  const section = await page.evaluate(() => ({
+    paragraphs: document.querySelectorAll(".prose p[id]").length,
+    hasNav: Boolean(document.querySelector(".section-nav")),
+    bytes: document.documentElement.outerHTML.length,
+  }));
+  check(section.paragraphs > 0, "section page carries the text");
+  check(section.hasNav, "section page has prev/contents/next");
+  check(section.bytes < 700000, "section page is a sane weight", `${section.bytes} bytes`);
+}
 
 check(consoleErrors.length === 0, "no console errors", consoleErrors.join(" | "));
 check(failedRequests.length === 0, "no failed requests", failedRequests.join(" | "));

@@ -7,6 +7,23 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-02 — Reports split into sections
+
+A report is no longer one enormous page. The Wall Street report was **2.9 MB**
+— not a reading experience, a download. Each report now opens on its contents,
+and each section is a page of its own, following the document's own structure.
+The whole report is still available on one page for anyone who wants to search
+across it.
+
+Links made before the split still work. A link naming a passage is routed to
+the section holding it, and anything else falls back to the whole-report view.
+
+## 2026-08-02 — The archive is back
+
+The previous version of this site is readable again at
+[old.reportsthatmatter.org](https://old.reportsthatmatter.org). Its old URLs
+redirect there.
+
 ## 2026-08-02 — The Wall Street report, properly converted
 
 The PSI financial crisis report had been converted before the ingestion

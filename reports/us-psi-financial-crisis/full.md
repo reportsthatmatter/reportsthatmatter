@@ -1471,7 +1471,7 @@ Ms. Feltgen told the Subcommittee that, although she was the Home Loans Chief Ri
 
 "Employee Goals
 
-## GROWTH 35%
+GROWTH 35%
 
 ### Achieve Net Income - $340 MM for
 
@@ -1841,9 +1841,7 @@ The chart showed that, altogether by September 2005, WaMu had sold Fannie and Fr
 
 The amount and variety of the loans that WaMu sold to the GSEs fluctuated over time. For example, the following chart, which is taken from data compiled by Inside Mortgage Finance, presents the total dollar volume of loans sold by WaMu to Fannie and Freddie from 2000 until 2008 when WaMu was sold, as well as the percentage those loans represented compared to WaMu's total loan originations.[^531]
 
-> Year Sold to Freddie Mac Sold to Fannie Mae Percent of Total WaMu (in billions) (in billions) Originations Sold to GSEs 2000 $ 0 $ 7.1 14% 2001 $ 1.4 $ 35.3 20% 2002 $ 0.2 $ 95.7 29% 2003 $ 2.2 $ 174.3 40% 2004 $ 1.1 $ 25.9 10% 2005 $ 34.6 $ 20.3 20% 2006 $ 32.3 $ 11.2 23% 2007 $ 31.8 $ 8.2 29% 2008 $ 20.8 $ 2.1 70%
-
-## TOTAL $ 124.4 $ 380.1 27.3%
+> Year Sold to Freddie Mac Sold to Fannie Mae Percent of Total WaMu (in billions) (in billions) Originations Sold to GSEs 2000 $ 0 $ 7.1 14% 2001 $ 1.4 $ 35.3 20% 2002 $ 0.2 $ 95.7 29% 2003 $ 2.2 $ 174.3 40% 2004 $ 1.1 $ 25.9 10% 2005 $ 34.6 $ 20.3 20% 2006 $ 32.3 $ 11.2 23% 2007 $ 31.8 $ 8.2 29% 2008 $ 20.8 $ 2.1 70% TOTAL $ 124.4 $ 380.1 27.3%
 
 Source: Inside Mortgage Finance
 
@@ -6465,11 +6463,7 @@ The chart on the next page shows how, between mid-June 2007 and early August 200
 
 > Timberwolf Marks, Axes, and Sales 3/1/2007 3/31/2007 4/30/2007 5/30/2007 6/29/2007 7/29/2007 8/28/2007 9/27/2007 10/27/2007 11/26/2007 12/26/2007 140
 
-Sales of
-
-## 120 TWOLF‐
-
-> 3/13/07: A1A‐ $99.45 Axes (Sales A1B‐ $100 A1C‐ $99.71 Directives) A1D‐ $100 INC‐ $100
+> Sales of 120 TWOLF‐ 3/13/07: A1A‐ $99.45 Axes (Sales A1B‐ $100 A1C‐ $99.71 Directives) A1D‐ $100 INC‐ $100
 
 Price
 
@@ -6903,9 +6897,7 @@ The exchanges between Greywolf and Goldman brought into question the proper inte
 
 Goldman's internal documents show that on September 7, 2007, the day after the email exchange between Mr. Marconi and Mr. Lehman, Mr. Bieber scheduled a meeting with Goldman's legal counsel and a key compliance officer to discuss the issue. His email stated:
 
-> "Pls see email we received below – wanted to get your take on what response (if any) we should craft. This is related to the default swap collateral account in Timberwolf used to collateralize the exposure we have to the CDO on the CDS contracts that are the assets in
-
-## TWOLF."2654
+> "Pls see email we received below – wanted to get your take on what response (if any) we should craft. This is related to the default swap collateral account in Timberwolf used to collateralize the exposure we have to the CDO on the CDS contracts that are the assets in TWOLF."2654
 
 The meeting was scheduled for 1:15 p.m. that same day,2655 and one of the counsels requested a copy of the Offering Memorandum and "the operative documents that contain our rights/obligations with respect to the Collateral."2656
 
@@ -6931,9 +6923,7 @@ Goldman also sent a short list of commercial mortgage backed securities (CMBS) i
 
 Over the next two weeks, Goldman sent a list of acceptable securities to two more collateral managers of its CDOs.2665 On October 15, 2007, Mr. Bieber provided virtually the same list to a Goldman colleague together with a short explanation of some of the criteria used to identify the securities:
 
-"Here are the shelves we'd like to use for default swap collateral reinvestment.
-
-## RMBS: CBASS, GSAA, GSAMP, JPMAC, WFHET CARDS: AMXCA, BACCT, BOIT, MBNAS, CCCIT,CHAIT, DCMT AUTOS: COPAR, DCMOT, FORDO, HAROT, HDMOT, NALT, USAOT STUDENT LOANS: ACCSS, GCOE, KSLT, NCSLT, SLMA (FFELP)
+> "Here are the shelves we'd like to use for default swap collateral reinvestment. RMBS: CBASS, GSAA, GSAMP, JPMAC, WFHET CARDS: AMXCA, BACCT, BOIT, MBNAS, CCCIT,CHAIT, DCMT AUTOS: COPAR, DCMOT, FORDO, HAROT, HDMOT, NALT, USAOT STUDENT LOANS: ACCSS, GCOE, KSLT, NCSLT, SLMA (FFELP)
 
 > In addition to the default swap collateral constraints in the docs for each transaction, also looking to securities that are (a) floating rate (b) monthly pay (c) senior-most bond in capital structure (d) avg life of less than or equal to 2 years (e) currently amortizing. Please let me know if you have any questions."2666
 

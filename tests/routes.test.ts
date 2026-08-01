@@ -60,7 +60,7 @@ describe("routes", () => {
 
   it("renders report detail with paragraph anchors and share affordance", async () => {
     const res = await app.request(
-      "http://localhost/reports/us-psi-financial-crisis"
+      "http://localhost/reports/us-psi-financial-crisis/full"
     );
     expect(res.status).toBe(200);
     const body = await res.text();
@@ -88,12 +88,12 @@ describe("routes", () => {
 
 describe("share previews", () => {
   it("previews the quoted passage when a paragraph is named", async () => {
-    const first = await app.request("http://localhost/reports/jack-smith-vol1");
+    const first = await app.request("http://localhost/reports/jack-smith-vol1/full");
     const id = (await first.text()).match(/<p id="([a-z0-9-]+)"/)?.[1];
     expect(id).toBeTruthy();
 
     const res = await app.request(
-      `http://localhost/reports/jack-smith-vol1?p=${id}`
+      `http://localhost/reports/jack-smith-vol1/full?p=${id}`
     );
     const body = await res.text();
     const description = body.match(/<meta name="description" content="([^"]*)"/)?.[1];
@@ -102,14 +102,14 @@ describe("share previews", () => {
   });
 
   it("falls back to the report description without a paragraph", async () => {
-    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    const res = await app.request("http://localhost/reports/jack-smith-vol1/full");
     const body = await res.text();
     expect(body).toContain("Read the full text with linkable paragraphs");
   });
 
   it("ignores a paragraph id that does not exist", async () => {
     const res = await app.request(
-      "http://localhost/reports/jack-smith-vol1?p=not-a-real-paragraph"
+      "http://localhost/reports/jack-smith-vol1/full?p=not-a-real-paragraph"
     );
     expect(res.status).toBe(200);
     const body = await res.text();
@@ -145,44 +145,29 @@ describe("legacy site handling", () => {
     expect(isLegacyPath("/")).toBe(false);
   });
 
-  it("redirects a legacy path once the old site has a home", async () => {
-    const res = await app.request(
-      "https://reportsthatmatter.org/iraq-inquiry/",
-      {},
-      { LEGACY_BASE: "https://old.reportsthatmatter.org" }
-    );
+  it("sends a legacy path to the archive subdomain", async () => {
+    const res = await app.request("https://reportsthatmatter.org/iraq-inquiry/");
     expect(res.status).toBe(301);
     expect(res.headers.get("location")).toBe(
       "https://old.reportsthatmatter.org/iraq-inquiry/"
     );
   });
 
-  it("carries a path prefix, as GitHub Pages project sites need", async () => {
-    const res = await app.request(
-      "https://reportsthatmatter.org/iraq-inquiry/?x=1",
-      {},
-      { LEGACY_BASE: "https://reportsthatmatter.github.io/reportsthatmatter" }
-    );
+  it("keeps the query string when sending to the archive", async () => {
+    const res = await app.request("https://reportsthatmatter.org/search/?q=enron");
     expect(res.headers.get("location")).toBe(
-      "https://reportsthatmatter.github.io/reportsthatmatter/iraq-inquiry/?x=1"
+      "https://old.reportsthatmatter.org/search/?q=enron"
     );
-  });
-
-  it("explains itself instead of 404ing blankly when there is nowhere to send them", async () => {
-    const res = await app.request("https://reportsthatmatter.org/iraq-inquiry/");
-    expect(res.status).toBe(404);
-    const body = await res.text();
-    expect(body).toContain("That page has moved");
-    expect(body).toContain("gh-pages");
   });
 
   it("does not touch current paths", async () => {
-    const res = await app.request(
-      "https://reportsthatmatter.org/reports",
-      {},
-      { LEGACY_BASE: "https://old.reportsthatmatter.org" }
-    );
+    const res = await app.request("https://reportsthatmatter.org/reports");
     expect(res.status).toBe(200);
+  });
+
+  it("refuses to serve the archive host with no upstream configured", async () => {
+    const res = await app.request("https://old.reportsthatmatter.org/iraq-inquiry/");
+    expect(res.status).toBe(503);
   });
 
   it("redirects www to the apex", async () => {
@@ -240,7 +225,7 @@ describe("share cards", () => {
 
   it("advertises a card when one exists for the passage", async () => {
     const res = await app.request(
-      `http://localhost/reports/jack-smith-vol1?p=${CARD_PARAGRAPH}`
+      `http://localhost/reports/jack-smith-vol1/full?p=${CARD_PARAGRAPH}`
     );
     const body = await res.text();
     expect(body).toContain(
@@ -251,7 +236,7 @@ describe("share cards", () => {
 
   it("does not advertise a card that has not been generated", async () => {
     const res = await app.request(
-      "http://localhost/reports/jack-smith-vol1?p=rioters-capitol-had-been-motivated-999"
+      "http://localhost/reports/jack-smith-vol1/full?p=rioters-capitol-had-been-motivated-999"
     );
     const body = await res.text();
     expect(body).not.toContain("og:image");
@@ -259,7 +244,7 @@ describe("share cards", () => {
   });
 
   it("does not advertise a card without a named passage", async () => {
-    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    const res = await app.request("http://localhost/reports/jack-smith-vol1/full");
     expect(await res.text()).not.toContain("og:image");
   });
 
@@ -282,5 +267,79 @@ describe("card rendering", () => {
     const { renderCard } = await import("../src/templates/card");
     const html = renderCard({ quote: "<script>x</script>", reportTitle: "T" });
     expect(html).not.toContain("<script>x</script>");
+  });
+});
+
+describe("split reports", () => {
+  it("serves a contents page at the report root", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    expect(res.status).toBe(200);
+    const body = await res.text();
+    expect(body).toContain("Contents");
+    expect(body).toContain("/reports/jack-smith-vol1/the-law");
+    expect(body).toContain("/reports/jack-smith-vol1/full");
+  });
+
+  it("serves an individual section", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1/the-law");
+    expect(res.status).toBe(200);
+    const body = await res.text();
+    expect(body).toContain("THE LAW");
+    expect(body).toContain('id="share-pop"');
+  });
+
+  it("keeps a section far smaller than the whole report", async () => {
+    const section = await app.request("http://localhost/reports/jack-smith-vol1/the-law");
+    const full = await app.request("http://localhost/reports/jack-smith-vol1/full");
+    const sectionSize = (await section.text()).length;
+    const fullSize = (await full.text()).length;
+    expect(sectionSize).toBeLessThan(fullSize / 3);
+  });
+
+  it("routes a shared passage link to the section that holds it", async () => {
+    const res = await app.request(
+      "http://localhost/reports/jack-smith-vol1?p=rioters-capitol-had-been-motivated"
+    );
+    expect(res.status).toBe(302);
+    const location = res.headers.get("location") ?? "";
+    expect(location).toContain("/reports/jack-smith-vol1/");
+    expect(location).toContain("#rioters-capitol-had-been-motivated");
+    expect(location).not.toMatch(/^\/reports\/jack-smith-vol1\?/);
+  });
+
+  it("shows the contents when the passage is unknown", async () => {
+    const res = await app.request(
+      "http://localhost/reports/jack-smith-vol1?p=no-such-passage"
+    );
+    expect(res.status).toBe(200);
+    expect(await res.text()).toContain("Contents");
+  });
+
+  it("404s an unknown section", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1/not-a-section");
+    expect(res.status).toBe(404);
+  });
+});
+
+describe("crawlability", () => {
+  it("lists every section in the sitemap", async () => {
+    const res = await app.request("https://reportsthatmatter.org/sitemap.xml");
+    expect(res.status).toBe(200);
+    expect(res.headers.get("content-type")).toContain("xml");
+    const body = await res.text();
+    expect(body).toContain("<loc>https://reportsthatmatter.org/</loc>");
+    expect(body).toContain("/reports/jack-smith-vol1</loc>");
+    expect(body).toContain("/reports/jack-smith-vol1/the-law</loc>");
+    // A crawler will not find dozens of sections from a homepage listing two
+    // reports, which is the whole point of the file.
+    expect((body.match(/<loc>/g) ?? []).length).toBeGreaterThan(20);
+  });
+
+  it("points robots.txt at the sitemap", async () => {
+    const res = await app.request("https://reportsthatmatter.org/robots.txt");
+    expect(res.status).toBe(200);
+    expect(await res.text()).toContain(
+      "Sitemap: https://reportsthatmatter.org/sitemap.xml"
+    );
   });
 });

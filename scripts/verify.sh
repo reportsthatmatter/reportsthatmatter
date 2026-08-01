@@ -96,7 +96,7 @@ fi
 FIRST_ID=$(sed -n 's/^[[:space:]]*- id:[[:space:]]*//p' reports/registry.yaml | head -1)
 if [ -n "$FIRST_ID" ]; then
   for _ in $(seq 1 60); do
-    curl -s "${BASE}/reports/${FIRST_ID}" | grep -qF -- 'class="permalink"' && break
+    curl -s "${BASE}/reports/${FIRST_ID}/full" | grep -qF -- 'class="permalink"' && break
     sleep 1
   done
 fi
@@ -158,6 +158,10 @@ check_contains /assets/styles.css "--canvas"
 check_contains /assets/share.js "Highlight-to-share"
 check_status /changelog 200
 check_contains /changelog "What has changed"
+check_status /sitemap.xml 200
+check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
+check_status /robots.txt 200
+check_contains /robots.txt "Sitemap:"
 
 step "Report pages"
 IDS=$(sed -n 's/^[[:space:]]*- id:[[:space:]]*//p' reports/registry.yaml)
@@ -165,18 +169,33 @@ if [ -z "$IDS" ]; then
   fail "no reports in registry"
 fi
 for id in $IDS; do
+  # The report root is now a contents page; the text lives on sections and /full.
   check_status "/reports/${id}" 200
-  check_contains "/reports/${id}" 'class="permalink"'
-  check_contains "/reports/${id}" 'id="share-pop"'
+  check_contains "/reports/${id}" "Contents"
+  check_contains "/reports/${id}" "/reports/${id}/full"
 
-  # Sidenotes only exist where the source has footnotes; the legacy sample
-  # predates the pipeline and has none.
+  check_status "/reports/${id}/full" 200
+  check_contains "/reports/${id}/full" 'class="permalink"'
+  check_contains "/reports/${id}/full" 'id="share-pop"'
+  check_status "/reports/${id}/not-a-real-section" 404
+
+  # A shared passage link must land on the section holding it, not the contents.
+  first_para=$(grep -oE '<p id="[a-z0-9-]+"' "$(fetch "/reports/${id}/full")" | head -1 | sed 's/.*id="//;s/"//')
+  if [ -n "$first_para" ]; then
+    routed=$(curl -s -o /dev/null -w '%{redirect_url}' "${BASE}/reports/${id}?p=${first_para}")
+    case "$routed" in
+      *"/reports/${id}/"*"#${first_para}") pass "?p=${first_para} routes to its section" ;;
+      *) fail "?p=${first_para} routed to '${routed}'" ;;
+    esac
+  fi
+
+  # Sidenotes only exist where the source has footnotes.
   src=$(sed -n "/- id: ${id}\$/,/^$/p" reports/registry.yaml | sed -n 's/.*source_path:[[:space:]]*//p')
   if [ -n "$src" ] && grep -q '^\[\^' "$src" 2>/dev/null; then
-    check_contains "/reports/${id}" 'class="sidenote"'
+    check_contains "/reports/${id}/full" 'class="sidenote"'
   fi
   # Positional ids renumber on every re-ingest and silently break citations.
-  check_absent  "/reports/${id}" '<p id="p-1"'
+  check_absent  "/reports/${id}/full" '<p id="p-1"'
 done
 
 step "Browser end-to-end"

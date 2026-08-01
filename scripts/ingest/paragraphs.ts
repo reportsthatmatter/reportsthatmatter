@@ -115,9 +115,19 @@ function isHeading(text: string): { level: number; text: string } | null {
     }
   }
 
-  // A standalone all-caps line with no terminal punctuation.
+  // A standalone all-caps line with no terminal punctuation. Financial reports
+  // set their tables in caps too, so a "heading" carrying money, percentages,
+  // long numbers or a list of tickers is data, not structure.
   const letters = body.replace(/[^A-Za-z]/g, "");
-  if (letters.length >= 4 && body === body.toUpperCase() && !/[.]$/.test(body)) {
+  if (
+    letters.length >= 4 &&
+    body === body.toUpperCase() &&
+    !/[.]$/.test(body) &&
+    !/[$%]/.test(body) &&
+    !/\d{3}/.test(body) &&
+    (body.match(/,/g) ?? []).length < 2 &&
+    letters.length / body.length > 0.6
+  ) {
     return { level: 2, text: body };
   }
 

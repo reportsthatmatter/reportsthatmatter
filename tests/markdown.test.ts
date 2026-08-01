@@ -191,3 +191,45 @@ describe("collectNotes", () => {
     expect(notes.get("2")).toBe("Second note.");
   });
 });
+
+describe("splitSections", () => {
+  it("splits on top-level headings and keeps paragraph ids", async () => {
+    const { splitSections } = await import("../src/lib/sections");
+    const html = renderMarkdown(
+      "Opening paragraph here.\n\n## First Section\n\nBody of first.\n\n## Second Section\n\nBody of second."
+    );
+    const sections = splitSections(html, 0);
+    expect(sections.map((s) => s.title)).toEqual([
+      "Front matter",
+      "First Section",
+      "Second Section",
+    ]);
+    expect(sections[1].html).toContain('id="body-first"');
+  });
+
+  it("folds a sliver into the section before it", async () => {
+    const { splitSections } = await import("../src/lib/sections");
+    const long = "word ".repeat(800);
+    const html = renderMarkdown(`## Real Section\n\n${long}\n\n## SENATOR CARL LEVIN\n\nChairman.`);
+    const sections = splitSections(html);
+    expect(sections).toHaveLength(1);
+    expect(sections[0].title).toBe("Real Section");
+    // The sliver's heading survives in the body; it just is not its own page.
+    expect(sections[0].html).toContain("SENATOR CARL LEVIN");
+  });
+
+  it("finds which section holds a paragraph", async () => {
+    const { splitSections, sectionFor } = await import("../src/lib/sections");
+    const html = renderMarkdown("## One\n\nAlpha text here.\n\n## Two\n\nBeta text here.");
+    const sections = splitSections(html, 0);
+    expect(sectionFor(sections, "beta-text-here")?.title).toBe("Two");
+    expect(sectionFor(sections, "nope")).toBeNull();
+  });
+
+  it("decodes entities in section titles", async () => {
+    const { splitSections } = await import("../src/lib/sections");
+    const html = renderMarkdown("## Moody's & Standard & Poor's\n\nBody.");
+    const sections = splitSections(html, 0);
+    expect(sections[0].title).toBe("Moody's & Standard & Poor's");
+  });
+});

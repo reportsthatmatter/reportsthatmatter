@@ -25,7 +25,9 @@ Nothing else on this list matters until this does.
 | shipped | **Quote cards** | Curated passages render as PNG cards carrying the quote, the page and the source. Pre-rendered at build time (`pnpm cards`) — feeds will not display SVG and a runtime rasteriser would cost more bundle than the whole site. Listed in `docs/share-quotes.yaml`. |
 | soon | **Cards for arbitrary passages** | Cards are curated today, which is right for launch. If readers start sharing their own passages, generating on demand needs either Browser Rendering (paid) or satori+resvg in the Worker (~700 KB gzip against a 3 MB budget). Wait for evidence anyone wants it. |
 | soon | **@ReportsThatMatter excerpt account** | Evidence-first, no commentary; a reference archive that accretes. Plan in `2026-01-13-twitter-launch-campaign.md`. |
-| soon | **Sitemap + structured data** | These documents should be *the* search result for phrases they contain. Cheap, compounding. |
+| shipped | **Sitemap + robots.txt** | `/sitemap.xml` lists every section — a crawler would not find ~80 pages from a homepage linking two reports. |
+| **next** | **Google Search Console** | Ten minutes, and the only place that tells us which queries we appear for. We have ~3k uniques/month and no idea what they came for; that answer should shape which reports we ingest next. Steps in the launch plan. |
+| soon | **Structured data** | `Article`/`Report` schema on reports, breadcrumbs on sections. Cheap, enables rich results. After launch. |
 | later | **Analytics we actually read** | Cloudflare says ~3k uniques/month and we do not know what they look at. Answering that should precede guessing. |
 | someday | **Newsletter / alerts on new reports** | Only once there is a publishing cadence to subscribe to. |
 
@@ -36,8 +38,9 @@ Nothing else on this list matters until this does.
 | shipped | **Design system** | Pared-down editorial after Co-Star. Serious documents should look serious. |
 | shipped | **Sidenotes** | A footnote you travel to is a footnote nobody reads, and in these reports the citation *is* the evidence. |
 | shipped | **Printed page anchors** | Cite the way lawyers and journalists already cite: "Report at 62", checkable against the PDF. |
-| **next** | **Split reports into sections** | Wall Street is a **2.9 MB page**. The document's own structure gives 17 parts, median 9.5 KB. Currently the worst thing about actually reading here. |
-| soon | **Contents / in-page navigation** | Follows directly from splitting; a 169-page document needs a spine. |
+| shipped | **Split reports into sections** | Wall Street was a **2.9 MB page**; the largest is now ~300 KB and most are far smaller. Splits on the document's own sections and subsections, with `/full` kept for searching across a whole report. |
+| shipped | **Contents / in-page navigation** | Each report opens on its contents; sections carry prev/next. |
+| soon | **A blog** | Not yet. A blog with one post looks abandoned, and the project should not drift into commentary. Right when there is a second thing to say — a report worth an essay, or a methodology post on the pipeline. `/about` carries the launch argument meanwhile. |
 | soon | **Reading position + progress** | Long documents; cheap to do, disproportionately nice. |
 | shipped | **Changelog** | `/changelog`, hand-written from `docs/CHANGELOG.md`. Shows the project is alive and gives improvements somewhere to be announced from. |
 | later | **Full-text search** | Big item, wants its own design pass — see below. Becomes *necessary* once we split, because splitting removes ctrl-F as the way to find things. |
