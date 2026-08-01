@@ -56,22 +56,40 @@ fi
 
 # ---------- live site checks ----------
 
-step "Booting worker on :${PORT}"
-pnpm wrangler dev --local --port "$PORT" >/tmp/rtm-wrangler.log 2>&1 &
-SERVER_PID=$!
+if [ -n "${VERIFY_BASE:-}" ]; then
+  # Check a deployed environment instead of a local worker. Some failures only
+  # exist in production — /health once flapped 200/404 because the asset router
+  # answered before the Worker on some edges, which no local run can reproduce.
+  BASE="$VERIFY_BASE"
+  step "Checking deployed site ${BASE}"
 
-for _ in $(seq 1 60); do
-  curl -sf "${BASE}/health" >/dev/null 2>&1 && break
-  sleep 1
-done
+  # A flapping route looks fine if you only ask once.
+  codes=$(for _ in $(seq 1 6); do
+    curl -s -o /dev/null -w '%{http_code} ' "${BASE}/health"
+  done)
+  if [ "$(echo "$codes" | tr ' ' '\n' | sort -u | grep -c .)" = "1" ]; then
+    pass "/health stable across repeats (${codes% })"
+  else
+    fail "/health is not stable: ${codes% }"
+  fi
+else
+  step "Booting worker on :${PORT}"
+  pnpm wrangler dev --local --port "$PORT" >/tmp/rtm-wrangler.log 2>&1 &
+  SERVER_PID=$!
 
-if ! curl -sf "${BASE}/health" >/dev/null 2>&1; then
-  fail "worker did not start"
-  tail -30 /tmp/rtm-wrangler.log
-  printf '\n\033[31m%d check(s) failed\033[0m\n' "$FAILED"
-  exit 1
+  for _ in $(seq 1 60); do
+    curl -sf "${BASE}/health" >/dev/null 2>&1 && break
+    sleep 1
+  done
+
+  if ! curl -sf "${BASE}/health" >/dev/null 2>&1; then
+    fail "worker did not start"
+    tail -30 /tmp/rtm-wrangler.log
+    printf '\n\033[31m%d check(s) failed\033[0m\n' "$FAILED"
+    exit 1
+  fi
+  pass "worker responding"
 fi
-pass "worker responding"
 
 # /health answers before the bundle finishes building, so wait until a real
 # report page is actually rendering before asserting on page content.

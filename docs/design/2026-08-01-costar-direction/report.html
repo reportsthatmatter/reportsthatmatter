@@ -1,0 +1,764 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report of Special Counsel Jack Smith, Volume One: The Election Case — Reports that Matter</title>
+<meta name="description" content="Report of Special Counsel Jack Smith, Volume One: The Election Case — Jack Smith, Special Counsel, U.S. Department of Justice · January 2025. Read the full text with linkable paragraphs.">
+<meta property="og:title" content="Report of Special Counsel Jack Smith, Volume One: The Election Case — Reports that Matter">
+<meta property="og:description" content="Report of Special Counsel Jack Smith, Volume One: The Election Case — Jack Smith, Special Counsel, U.S. Department of Justice · January 2025. Read the full text with linkable paragraphs.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&amp;family=IBM+Plex+Mono:wght@400&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+/* Reports that Matter — design system
+ *
+ * Visual direction: pared-down editorial, after costarastrology.com.
+ * Off-white canvas, mid-grey ink (never pure black), classical serif for
+ * substance, uppercase mono for chrome. No rounded corners, no shadows,
+ * no gradients. Hairline rules and large whitespace do the structural work.
+ */
+
+:root {
+  --canvas: #f7f7f7;
+  --surface: #ffffff;
+  --inverse: #141414;
+
+  --ink: #252525;
+  --body: #575657;
+  --muted: #8a8a8c;
+  --rule: #e0e0e0;
+  --rule-strong: #cfcfcf;
+
+  --serif: "EB Garamond", "Times New Roman", Times, serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", "Andale Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --measure: 37rem;
+  --gutter: 6vw;
+
+  color-scheme: light;
+}
+
+/* ---------- reset ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* ---------- primitives ---------- */
+
+.mono {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  line-height: 1.35;
+}
+
+.serif {
+  font-family: var(--serif);
+  font-weight: 400;
+}
+
+.rule {
+  border-top: 1px solid var(--rule);
+}
+
+.wrap {
+  padding-inline: var(--gutter);
+}
+
+.measure {
+  max-width: var(--measure);
+  margin-inline: auto;
+}
+
+/* box-sizing: border-box means the gutter would otherwise eat into the
+ * measure, leaving the prose column far too narrow on wide screens. */
+.wrap.measure {
+  max-width: calc(var(--measure) + 2 * var(--gutter));
+}
+
+/* ---------- header ---------- */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-block: 1.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.wordmark {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+}
+
+.site-nav a {
+  color: var(--ink);
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.site-nav a:hover {
+  opacity: 0.55;
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.75rem;
+  border: 1px solid var(--inverse);
+  background: transparent;
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--inverse);
+  color: var(--canvas);
+}
+
+.btn-filled {
+  background: var(--inverse);
+  color: var(--canvas);
+}
+
+.btn-filled:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+/* ---------- hero ---------- */
+
+.hero {
+  padding-block: clamp(4rem, 11vw, 9rem) clamp(3rem, 7vw, 6rem);
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.6rem, 6.2vw, 4.75rem);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0;
+  max-width: 20ch;
+  margin-inline: auto;
+  text-wrap: balance;
+}
+
+.hero .standfirst {
+  margin: 1.75rem auto 0;
+  max-width: 46ch;
+  font-size: 0.95rem;
+  color: var(--body);
+  text-wrap: pretty;
+}
+
+.hero .actions {
+  margin-top: 2.75rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* ---------- sections ---------- */
+
+.section {
+  padding-block: clamp(3.5rem, 8vw, 7rem);
+  border-top: 1px solid var(--rule);
+}
+
+.section-label {
+  color: var(--muted);
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0 0 1.25rem;
+  max-width: 24ch;
+}
+
+.section p {
+  max-width: 54ch;
+  margin: 0 0 1rem;
+}
+
+/* ---------- editorial columns ---------- */
+
+.cols {
+  display: grid;
+  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 56rem) {
+  .cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .cols-aside {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  }
+}
+
+.col h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+}
+
+.col p {
+  margin: 0;
+  max-width: 42ch;
+}
+
+/* ---------- report index ---------- */
+
+.report-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.report-list li {
+  border-bottom: 1px solid var(--rule);
+}
+
+.report-list a {
+  display: grid;
+  gap: 0.5rem 2rem;
+  grid-template-columns: 1fr;
+  padding-block: 2rem;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.report-list a:hover {
+  opacity: 0.55;
+}
+
+@media (min-width: 48rem) {
+  .report-list a {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 1.4fr) auto;
+    align-items: baseline;
+  }
+}
+
+.report-list .title {
+  font-family: var(--serif);
+  font-size: 1.55rem;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.report-list .meta {
+  color: var(--muted);
+}
+
+.report-list .cue {
+  color: var(--ink);
+}
+
+/* ---------- report page ---------- */
+
+.report-header {
+  padding-block: clamp(3rem, 7vw, 5.5rem) clamp(2rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--rule);
+}
+
+.report-header .kicker {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.report-header h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.1rem, 4.6vw, 3.5rem);
+  line-height: 1.06;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0;
+  max-width: 22ch;
+  text-wrap: balance;
+}
+
+.report-header .byline {
+  margin-top: 1.5rem;
+  color: var(--muted);
+}
+
+/* long-form prose */
+
+.prose {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.72;
+  color: var(--ink);
+  padding-block: clamp(2.5rem, 5vw, 4rem) clamp(4rem, 10vw, 8rem);
+}
+
+.prose p {
+  margin: 0 0 1.35rem;
+  position: relative;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--serif);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.15;
+  margin: 3rem 0 1rem;
+  text-wrap: balance;
+}
+
+.prose h1 { font-size: 2.1rem; }
+.prose h2 { font-size: 1.75rem; }
+.prose h3 { font-size: 1.4rem; }
+.prose h4 {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 1.35rem;
+  padding-left: 1.4rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose blockquote {
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--rule-strong);
+  color: var(--body);
+}
+
+.prose a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule-strong);
+}
+
+.prose a:hover {
+  text-decoration-color: var(--ink);
+}
+
+.prose hr {
+  margin: 3rem 0;
+}
+
+/* ---------- paragraph permalinks ---------- */
+
+.prose p[id] .permalink {
+  position: absolute;
+  left: -2.25rem;
+  top: 0.35em;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  line-height: 1;
+  color: var(--muted);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.prose p[id]:hover .permalink,
+.prose p[id] .permalink:focus {
+  opacity: 1;
+}
+
+.prose p[id]:target {
+  background: rgba(255, 232, 138, 0.32);
+  box-shadow: 0 0 0 0.4rem rgba(255, 232, 138, 0.32);
+}
+
+@media (max-width: 52rem) {
+  .prose p[id] .permalink {
+    display: none;
+  }
+}
+
+/* ---------- highlight-to-share ---------- */
+
+.share-pop {
+  position: absolute;
+  z-index: 40;
+  display: none;
+  gap: 1px;
+  background: var(--rule-strong);
+  border: 1px solid var(--inverse);
+  transform: translate(-50%, -100%);
+}
+
+.share-pop[data-open="true"] {
+  display: flex;
+}
+
+.share-pop button {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.6rem 0.9rem;
+  border: 0;
+  background: var(--inverse);
+  color: var(--canvas);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.share-pop button:hover {
+  background: var(--ink);
+}
+
+::selection {
+  background: rgba(255, 232, 138, 0.55);
+  color: var(--ink);
+}
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding-block: 3.5rem 4.5rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.site-footer p {
+  margin: 0;
+  max-width: 44ch;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.site-footer a:hover {
+  opacity: 0.55;
+}
+
+/* ---------- utilities ---------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+</style>
+</head>
+<body>
+<header class="site-header wrap">
+  <a class="wordmark" href="/">Reports that Matter</a>
+  <nav class="site-nav mono"><a href="/reports">Reports</a><a href="/about">About</a></nav>
+</header>
+
+<main>
+  <article>
+    <header class="report-header wrap">
+      <div class="measure">
+        <p class="kicker mono">Report</p>
+        <h1>Report of Special Counsel Jack Smith, Volume One: The Election Case</h1>
+        <p class="byline mono">Jack Smith, Special Counsel, U.S. Department of Justice · January 2025</p>
+        <p class="byline mono"><a href="https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf" rel="nofollow">Original document ↗</a></p>
+      </div>
+    </header>
+    <div class="prose wrap measure" id="report-body">
+      <p id="p-1"><a class="permalink" href="#p-1" aria-label="Link to paragraph 1">¶</a>U.S. Department of Justice</p>
+<blockquote>
+<p>Jack Smith Special Counsel</p>
+</blockquote>
+<p id="p-2"><a class="permalink" href="#p-2" aria-label="Link to paragraph 2">¶</a>January 7, 2025</p>
+<h2>DELIVERY BY HAND</h2>
+<p id="p-3"><a class="permalink" href="#p-3" aria-label="Link to paragraph 3">¶</a>The Honorable Merrick B. Garland Attorney General of the United States Robert F. Kennedy Department of Justice Building 950 Pennsylvania Avenue NW Washington, D.C. 20530</p>
+<p id="p-4"><a class="permalink" href="#p-4" aria-label="Link to paragraph 4">¶</a>Re: Final Report of the Special Counsel Under 28 C.F.R. § 600.8</p>
+<p id="p-5"><a class="permalink" href="#p-5" aria-label="Link to paragraph 5">¶</a>Dear Mr. Attorney General:</p>
+<p id="p-6"><a class="permalink" href="#p-6" aria-label="Link to paragraph 6">¶</a>In the fall of 2022 , former President Donald J. Trump was a subject of two separate criminal investigations by the Department of Justice. The first was an investigation into whether any person violated the law in connection with efforts to interfere with the lawful transfer of power following the 2020 presidential election. The second investigation focused on the possession of highly classified documents at Mr. Trump's Mar-a-Lago social club following his presidency.</p>
+<p id="p-7"><a class="permalink" href="#p-7" aria-label="Link to paragraph 7">¶</a>On November 15 , 2022, Mr. Trump declared his candidacy to unseat President Joseph R. Biden, Jr. , who had previously stated his intention to stand for reelection. Mr. Trump 's announcement created a highly unusual situation, in which the Department, an agency within the Executive Branch headed by President Biden, was conducting criminal investigations regarding his newly declared challenger. Based on a longstanding recognition that " in certain extraordinary cases, it is in the public interest to appoint a special prosecutor to independently manage an investigation and prosecution," you, as the Attorney General, promptly did so here to " underscore[] the Department's commitment to both independence and accountability in particularly sensitive matters." Attorney General Merrick 8. Garland, Remarks on the Appointment of a Special Counsel, Washington, D.C. (Nov. 18, 2022).</p>
+<p id="p-8"><a class="permalink" href="#p-8" aria-label="Link to paragraph 8">¶</a>On the day that I was appointed, I pledged that I would exercise independent judgment, follow the best traditions of the Department of Justice, and conduct my work expeditiously and thoroughly to reach whatever outcome the facts and law dictated. With the aid of an outstanding team, that is what I did. Upon my appointment, I organized a staff of experienced career federal prosecutors, and together we conducted the investigations and subsequent prosecutions under our mandate, consistent with the Department's traditions of integrity and nonpartisanship that have guided all of us throughout our careers.</p>
+<p id="p-9"><a class="permalink" href="#p-9" aria-label="Link to paragraph 9">¶</a>Attorney General Edward H. Levi, who assumed the Department's helm in the wake of Watergate, summed up those traditions best:</p>
+<blockquote>
+<p>[O]ne paramount concern must always guide our way. This is the keeping of the faith in the essential decency and even-handedness in the law, a faith which is the strength of the law and which must be continually renewed or else it is lost. In a society that too easily accepts the notion that everything can be manipulated, it is important to make clear that the administration of federal justice seeks to be impartial and fair ....</p>
+</blockquote>
+<p id="p-10"><a class="permalink" href="#p-10" aria-label="Link to paragraph 10">¶</a>Address to the Los Angeles County Bar Association, Los Angeles, CA (Nov. 18, 1976). Attorney General Levi's remarks, shared 46 years to the day before my appointment, ring as true now as they did then.</p>
+<p id="p-11"><a class="permalink" href="#p-11" aria-label="Link to paragraph 11">¶</a>I have been a career prosecutor in local, national, and international settings over the last three decades, working shoulder to shoulder with hundreds of prosecutors in that time. The prosecutors and staff of the Special Counsel's Office are, in my estimation, without peer in terms of accomplishment, capability, judgment, and work ethic. More importantly in my book, they are people of great decency and the highest personal integrity. The intense public scrutiny of our Office, threats to their safety, and relentless unfounded attacks on their character and integrity did not deter them from fulfilling their oaths and professional obligations. These are intensely good people who did hard things well. I will not forget the sacrifices they made and the personal resilience they and their families have shown over the last two years. Our country owes them a debt of gratitude for their unwavering service and dedication to the rule of law. Without pause they have upheld the Department's commitment to the impartial and independent pursuit ofjustice. For that, I am grateful-as I know you are as well.</p>
+<p id="p-12"><a class="permalink" href="#p-12" aria-label="Link to paragraph 12">¶</a>Staffed by some of the most experienced prosecutors in the Department, my Office operated under the same Department policies and procedures that guide all federal prosecutors. The regulations under which I was appointed required that we do so, see 28 C.F.R. § 600.7(a), and our work benefited from those processes. The Department has long recognized that proceeding with "uniformity of policy ... is necessary to the prestige of federal law." Robert H. Jackson, "The Federal Prosecutor" (April 1, 1940). As a result, throughout our work we regularly consulted the Justice Manual, the Department's publicly available guidebook on policies and procedures, and adhered to its requirements.</p>
+<p id="p-13"><a class="permalink" href="#p-13" aria-label="Link to paragraph 13">¶</a>Our work rested upon the fundamental value of our democracy that we exist as "a government of laws, and not of men." John Adams, Novanglus, No. VII at 84 (Mar. 6, 1775). In making decisions as Special Counsel, I considered as a first principle whether our actions would contribute to upholding the rule of law, and acted accordingly. Our committed adherence to the rule of law is why we not only followed Department policies and procedures, but strictly observed legal requirements and dutifully respected the judicial decisions and precedents our prosecutions prompted. That is also why, in my decision-making, I heeded the imperative that "[n]o man in this country is so high that he is above the law," United States v. Lee, I 06 U.S. 196,220 (1882). Simply put: the Department of Justice's guiding mandate, which my Office strove to uphold, is that power, politics, influence, status, wealth, fear, and favor should not impede justice under the law.</p>
+<p id="p-14"><a class="permalink" href="#p-14" aria-label="Link to paragraph 14">¶</a>When I assumed responsibility for the matters you assigned to me, I came to the work with no preconceived notion of what the just outcome of the investigations would be. I was not yet familiar with all of the relevant facts and had not yet researched the relevant law. Depending upon what the investigations revealed, I was equally comfortable closing the investigations or moving forward with prosecutions in one or both of the matters, having done both in high profile matters throughout my career.</p>
+<p id="p-15"><a class="permalink" href="#p-15" aria-label="Link to paragraph 15">¶</a>To make prosecutorial determinations, my Office gathered relevant evidence and examined whether that evidence established violations of federal criminal law. In doing so I was guided by the Principles of Federal Prosecution, a series of considerations designed to promote the fair and evenhanded application of the law. As set forth in my Report, after conducting thorough investigations, I found that, with respect to both Mr. Trump's unprecedented efforts to unlawfully retain power after losing the 2020 election and his unlawful retention of classified documents after leaving office, the Principles compelled prosecution. Indeed, Mr. Trump's cases represented ones "in which the offense [was] the most flagrant, the public haim the greatest, and the proof the most certain." Jackson, "The Federal Prosecutor."</p>
+<p id="p-16"><a class="permalink" href="#p-16" aria-label="Link to paragraph 16">¶</a>As directed by the Principles, I made my decision in these cases without regard to Mr. Trump's "political association, activities, or beliefs," or the possible personal or professional consequences of a prosecution for me or any member of my Office. Justice Manual § 9-27.260. "[T]he likelihood of an acquittal due to unpopularity of some aspect of the prosecution or because of the overwhelming popularity of the defendant or his cause," or the converse, were not factors in my prosecutive decisions. Id. § 9-27.220 (Comment). My Office also adhered at all times to the Department's policy against interfering in elections. As a former Chief of the Department's Public Integrity Section, it was important to me, as it is to you, that we adhere to both the letter and spirit of this policy. I can assure you that neither l nor the prosecutors on my team would have tolerated or taken part in any action by our Office for partisan political purposes. Throughout my service as Special Counsel, seeking to influence the election one way or the other, or seeking to interfere in its outcome, played no role in our work. My Office had one north star: to follow the facts and law wherever they led. Nothing more and nothing less.</p>
+<p id="p-17"><a class="permalink" href="#p-17" aria-label="Link to paragraph 17">¶</a>While I relied greatly on the counsel, judgment, and advice of our team, I want it to be clear that the ultimate decision to bring charges against Mr. Trump was mine. It is a decision I stand behind fully. To have done otherwise on the facts developed during our work would have been to shirk my duties as a prosecutor and a public servant. After nearly 30 years of public service, that is a choice I could not abide.</p>
+<p id="p-18"><a class="permalink" href="#p-18" aria-label="Link to paragraph 18">¶</a>It is equally important for me to make clear that nobody within the Department of Justice ever sought to interfere with, or improperly influence, my prosecutorial decision making. The regulations under which I was appointed provided you with the authority to countermand my decisions,[^28] C.F.R. § 600.7, but you did not do so. Nor did you, the Deputy Attorney General, or members of your staff ever attempt to improperly influence my decision as to whether to bring charges against Mr. Trump. And to all who know me well, the claim from Mr. Trump that my decisions as a prosecutor were influenced or directed by the Biden administration or other political actors is, in a word, laughable.</p>
+<p id="p-19"><a class="permalink" href="#p-19" aria-label="Link to paragraph 19">¶</a>While we were not able to bring the cases we charged to trial, I believe the fact that our team stood up for the rule of law matters. I believe the example our team set for others to fight for justice without regard for the personal costs matters. The facts, as we uncovered them in our investigation and as set forth in my Report, matter. Experienced prosecutors know that you cannot control outcomes, you can only do your job the right way for the right reasons. I conclude our work confident that we have done so, and that we have met fully our obligations to the Department and to our country.</p>
+<p id="p-20"><a class="permalink" href="#p-20" aria-label="Link to paragraph 20">¶</a>Accompanying this letter, I am providing you "a confidential report explaining the prosecution or declination decisions reached by the Special Counsel."[^28] C.F.R. § 600.8 . The Report consists of two volumes: Volume One addresses the Election Case, and Volume Two addresses the Classified Documents Case. I understand that you are considering whether all or part of my Report can be made public, consistent with applicable legal restrictions. See 28 C.F.R. § 600.9(c). Both volumes minimize the identification of witnesses and co-conspirators, consistent with accepted Department practice, and we have provided a redacted version of Volume Two that identifies certain information that remains under seal or is restricted from public disclosure by Federal Rule of Criminal Procedure 6(e). Because Volume Two discusses the conduct of Mr. Trump's alleged co-conspirators in the Classified Documents Case, Waltine Nauta and Carlos De Oliveira, consistent with Department policy, Volume Two should not be publicly released while their case remains pending.</p>
+<p id="p-21"><a class="permalink" href="#p-21" aria-label="Link to paragraph 21">¶</a>Though not required, prior to finalizing the Report, my Office provided an opportunity for counsel for Mr. Trump to review both volumes, and for counsel for his former co-defendants in the Classified Documents Case, Mr. Nauta and Mr. De Oliveira, to review Volume Two. After their review, counsel for Mr. Trump wrote a letter to you, and we have provided a written response to you, both of which you will find as an Addendum to the Report.</p>
+<p id="p-22"><a class="permalink" href="#p-22" aria-label="Link to paragraph 22">¶</a>With this Report, my service and the service of my staff is complete. I thank you for the trust you placed in me and my team and for affording us the independence necessary to conduct our work. Public service is a privilege, and we deeply appreciate the opportunity to serve our Nation in seeking to uphold the rule of law.</p>
+<p id="p-23"><a class="permalink" href="#p-23" aria-label="Link to paragraph 23">¶</a>Since¼ t(;_ SMITH</p>
+<h2>FINAL REPORT ON THE SPECIAL COUNSEL'S INVESTIGATIONS AND PROSECUTIONS VOLUME ONE: THE ELECTION CASE REPORT ON EFFORTS TO INTERFERE WITH THE LAWFUL TRANSFER OF POWER FOLLOWING THE 2020 PRESIDENTIAL ELECTION OR THE CERTIFICATION OF THE ELECTORAL COLLEGE VOTE</h2>
+<p id="p-24"><a class="permalink" href="#p-24" aria-label="Link to paragraph 24">¶</a>HELD ON JANUARY 6, 2021</p>
+<p id="p-25"><a class="permalink" href="#p-25" aria-label="Link to paragraph 25">¶</a>Special Counsel Jack Smith Submitted Pursuant to 28 C.F.R. § 600.8(c)</p>
+<blockquote>
+<p>Washington, D.C. January 7, 2025</p>
+</blockquote>
+<ul>
+<li>
+<p>TABLE OF CONTENTS VOLUME ONE: THE ELECTION CASE — 1</p>
+</li>
+<li>
+<p>I. THE RESULTS OF THE INVESTIGATION — 2</p>
+</li>
+<li>
+<p>A. Mr. Trump's Pressure on State Officials — 8</p>
+</li>
+<li>
+<p>B. Mr. Trump's Fraudulent Elector Plan — 11</p>
+</li>
+<li>
+<p>C. Mr. Trump's Misuse of Official Power Through the Justice Department — 16</p>
+</li>
+<li>
+<p>D. Mr. Trump's Pressure on the Vice President — 20</p>
+</li>
+<li>
+<p>E. Mr. Trump's Supporters Attack the United States Capitol — 23</p>
+</li>
+<li>
+<p>II. THE LAW — 33</p>
+</li>
+<li>
+<p>A. Conspiracy to Defraud the United States (18 U.S.C. § 371) — 34</p>
+</li>
+<li>
+<p>B. Obstruction and Conspiracy to Obstruct (18 U.S.C. § 1512(k) and (c)(2)) — 45</p>
+</li>
+<li>
+<p>C. Conspiracy Against Rights (18 U.S.C. § 241) — 49</p>
+</li>
+<li>
+<p>D. Defenses — 53</p>
+</li>
+<li>
+<p>E. Other Charges — 61</p>
+</li>
+<li>
+<p>F. Co-Conspirator Liability — 67</p>
+</li>
+<li>
+<p>III. THE PRINCIPLES OF FEDERAL PROSECUTION — 68</p>
+</li>
+<li>
+<p>A. Prosecuting Mr. Trump Served Multiple Substantial Federal Interests — 69</p>
+</li>
+<li>
+<ol>
+<li>The substantial federal interest in protecting the integrity of the electoral process and the peaceful transfer of power was served by Mr. Trump's prosecution — 69</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>The substantial federal interest in counting every citizen's vote was served by Mr. Trump's prosecution — 74</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>The substantial federal interest in protecting election officials and other government officials from violence was served by Mr. Trump's prosecution — 75</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>The substantial federal interest in the evenhanded administration of the law was served by Mr. Trump's prosecution — 83</li>
+</ol>
+</li>
+<li>
+<p>B. Mr. Trump Was Not Subject to Effective Prosecution in Another Jurisdiction — 87</p>
+</li>
+<li>
+<p>C. There Was No Adequate Non-Criminal Alternative to Prosecution — 88</p>
+</li>
+<li>
+<p>D. Mr. Trump's Conduct Had No Historical Analogue — 90</p>
+</li>
+<li>
+<p>IV. INVESTIGATIVE PROCEDURE AND POLICY — 92</p>
+</li>
+<li>
+<p>A. The Investigative Process — 92</p>
+</li>
+<li>
+<p>B. Investigative and Prosecutive Procedures in an Election Year — 95</p>
+</li>
+<li>
+<ol>
+<li>The Department's Election Year Sensitivities Policy — 96</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Pre-Indictment Procedures — 99</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Post-Indictment Procedures — 100</li>
+</ol>
+</li>
+<li>
+<p>V. INVESTIGATIVE CHALLENGES AND LITIGATION ISSUES — 107</p>
+</li>
+<li>
+<p>A. Pre-Indictment Litigation with Third Parties — 108</p>
+</li>
+<li>
+<ol>
+<li>The Twitter/X Search Warrant — 108</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Legislative Privilege Under the Speech or Debate Clause — 110</li>
+</ol>
+</li>
+<li>
+<p>B. Threats and Harassment ofWitnesses — 112</p>
+</li>
+<li>
+<p>C. Mr. Trump's Claims of Executive Privilege — 116</p>
+</li>
+<li>
+<p>D. Presidential Immunity — 122</p>
+</li>
+<li>
+<ol>
+<li>Prosecutorial Decisions During the Charging Stage — 123</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Immunity Litigation — 126</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Unresolved Issues Regarding Presidential Immunity — 132</li>
+</ol>
+</li>
+<li>
+<p>VI. CONCLUSION — 136</p>
+</li>
+<li>
+<p>APPENDIX: KEY FILINGS IN SIGNIFICANT LITIGATION — 138</p>
+</li>
+</ul>
+<h2>VOLUME ONE: THE ELECTION CASE</h2>
+<blockquote>
+<p>On November 18, 2022, the Attorney General appointed the Special Counsel to oversee</p>
+</blockquote>
+<p id="p-26"><a class="permalink" href="#p-26" aria-label="Link to paragraph 26">¶</a>an ongoing investigation into "whether any person or entity violated the law in connection with efforts to interfere with the lawful transfer of power following the 2020 presidential election or the certification of the Electoral College vote held on or about January 6, 2021." See Office of the Attorney General, Order No. 5559-2022, Appointment of John L. Smith as Special Counsel (Nov. 18, 2022). As a result of that investigation, on August 1, 2023, a federal grand jury in the District of Columbia charged Donald J. Trump with four felony offenses arising from his efforts to unlawfully retain power by using fraud and deceit to overturn the 2020 election results. After the Supreme Court held last summer that Mr. Trump was immune from prosecution for certain misuse of official power alleged in the indictment, a second grand jury found probable cause to return a superseding indictment charging the same offenses based on his non-immunized conduct. Mr. Trump was thereafter reelected as President of the United States, and as a result, on November 25, 2024, the Special Counsel moved to dismiss the case against Mr. Trump because of the Department of Justice's longstanding position that the Constitution forbids the federal indictment and prosecution of a sitting President.</p>
+<p id="p-27"><a class="permalink" href="#p-27" aria-label="Link to paragraph 27">¶</a>This Volume focuses on the Election Case against Mr. Trump and, consistent with the applicable regulations, provides an explanation of the prosecution decisions reached by the Special Counsel. See 28 C.F.R. § 600.8(c). The first section of this Volume sets forth a summary of key facts gleaned from the investigation, a vast majority of which are already a matter of public record through the litigation that occurred before the district court. The second section discusses the statutes that Mr. Trump was charged with violating, applying the facts developed during the investigation to the law as the Special Counsel's Office (the Office) understood it. This section also addresses other charges that the Office considered but did not pursue, and the defenses that the Office expected Mr. Trump to raise at trial. The third section explains why the Special Counsel's decision to prosecute Mr. Trump was fully consistent with and indeed was compelled by the Principles of Federal Prosecution. The fourth section describes the Office's investigative procedures and policies. Finally, the fifth section of this Volume discusses a series of investigative and prosecutive issues that the Office confronted in the Election Case.</p>
+<h2>THE RESULTS OF THE INVESTIGATION</h2>
+<p id="p-28"><a class="permalink" href="#p-28" aria-label="Link to paragraph 28">¶</a>In 2020, then-President Donald J. Trump ran for reelection against Joseph R. Biden, Jr. Mr. Trump lost. 2 As alleged in the original and superseding indictments, substantial evidence demonstrates that Mr. Trump then engaged in an unprecedented criminal effort to overturn the legitimate results of the election in order to retain power.[^3] Although he did so primarily in his private capacity as a candidate, and with the assistance of multiple private co-conspirators, Mr. Trump also attempted to use the power and authority of the United States Government in furtherance of his scheme.</p>
+<p id="p-29"><a class="permalink" href="#p-29" aria-label="Link to paragraph 29">¶</a>As set forth in the original and superseding indictments, when it became clear that Mr. Trump had lost the election and that lawful means of challenging the election results had failed, he reso1ied to a series of criminal efforts to retain power. This included attempts to induce state 1 This section of the Report summarizes the evidence uncovered by the Office's investigation, and therefore includes conduct for which the Supreme Court later held Mr. Trump to be immune from prosecution, see Trump v. United States, 603 U.S. 593, 597 (2024). That conduct is not included in the superseding indictment that the Office obtained after the Supreme Court's decision, see ECF No. 226, nor is that conduct included in the discussion below regarding why the evidence warranted criminal charges under the Principles of Federal Prosecution. Unless otherwise noted, all ECF citations in this Volume of the Report are to the docket in United States v. Trump, No. 23-cr-257 (D.D.C.). 2 SC0-00701211 at 7 (Federal Election Commission, Election Results for 2020 Federal Elections).</p>
+<p id="p-30"><a class="permalink" href="#p-30" aria-label="Link to paragraph 30">¶</a>officials to ignore true vote counts; to manufacture fraudulent slates of presidential electors in seven states that he had lost; to force Justice Department officials and his own Vice President, Michael R. Pence, to act in contravention of their oaths and to instead advance Mr. Trump's personal interests; and, on January 6, 2021, to direct an angry mob to the United States Capitol to obstruct the congressional certification of the presidential election and then leverage rioters' violence to further delay it.[^4] In service of these efforts, Mr. Trump worked with other people to achieve a common plan: to overturn the election results and perpetuate himself in office. These individuals included Co-Conspirator 1, a private attorney who was willing to spread knowingly false claims and pursue strategies that Mr. Trump's Campaign attorneys would not; Co-Conspirator 2, a private attorney who devised and attempted to implement a strategy to leverage the Vice President's ministerial role in the certification proceeding to obstruct the certification; Co-Conspirator 3, a private attorney whose unfounded claims of election fraud Mr. Trump privately acknowledged were "crazy," but which he embraced and publicly amplified nonetheless; Co-Conspirator 4, a Justice Department official who worked on civil matters and who, with Mr. Trump, attempted to use the Justice Department to open sham election crime investigations and influence state legislatures with knowingly false claims of election fraud; Co-Conspirator 5, a private attorney who assisted in devising and attempting to implement a plan to submit fraudulent slates of presidential electors to obstruct the certification proceeding; and Co-Conspirator 6, a private political consultant who helped implement a plan to submit fraudulent slates of presidential electors to obstruct the certification proceeding.[^5] The throughline of all of Mr. Trump's criminal efforts was deceit-knowingly false claims of election fraud-and the evidence shows that Mr. Trump used these lies as a weapon to defeat a federal government function foundational to the United States' democratic process.[^6]</p>
+<p id="p-31"><a class="permalink" href="#p-31" aria-label="Link to paragraph 31">¶</a>Mr. Trump's false claims included dozens of specific claims regarding certain states, such as that large numbers of dead, non-resident, non-citizen, or otherwise ineligible voters had cast ballots, or that voting machines had changed votes for Mr. Trump to votes against him.[^7] These claims were demonstrably and, in many cases, obviously false.[^8] The Office investigated whether Mr. Trump believed the claims he made. Evidence from a variety of sources established that Mr. Trump knew that there was no outcome-determinative fraud in the 2020 election, that many of the specific claims he made were untrue, and that he had lost the election. He knew this because some of the highest-ranking officials in his own Administration, including the Vice President, told him directly that there was no evidence to support his claims.[^9] Mr. Trump's private advisors, both within and outside of his Campaign, told him the same.[^10] On November 13, his own Campaign conceded its litigation in Arizona, a state pivotal to his reelection prospects.[^11] State officials and legislators whom Mr. Trump pressured to change vote tallies or stop certifications of results rebuffed him and informed him that his fraud claims were wrong, both privately and through public statements.[^12] Mr. Trump also monitored legal developments</p>
+<p id="p-32"><a class="permalink" href="#p-32" aria-label="Link to paragraph 32">¶</a>03036930 (Joint Statement on Election Security 11/12/2020); SCO-00003294 at 37, 39-43; SCO-00015002 at 22-24; SCO-12920242 at 1-7 (Int. Rep.); SCO-00006256 at 46-47, 59, 74-76.</p>
+<p id="p-33"><a class="permalink" href="#p-33" aria-label="Link to paragraph 33">¶</a>regarding the election and was on notice that state and federal courts rejected every post-election lawsuit that Mr. Trump and his allies filed claiming outcome-determinative election fraud.[^13] Mr.</p>
+<p id="p-34"><a class="permalink" href="#p-34" aria-label="Link to paragraph 34">¶</a>Trump and co-conspirators could not have believed the specific fraud claims that they were</p>
+<p id="p-35"><a class="permalink" href="#p-35" aria-label="Link to paragraph 35">¶</a>Georgia election); SCO-12998394 (Tr. of Georgia Secretary of State Call O1/02/2021); SCO-04976282 (Video of Georgia Secretary of State Press Conference O1/04/2021) (among other issues, refuting specific allegations about: Dominion voting machines; State Farm Arena ballot counting; convicted felons voting-74 at most, not 2,506; underage voters-zero, not 66,248; unregistered voters-zero, not 2,423; voting past the registration deadline­ zero, not 4,926); SCO-04955691 (Michigan Secretary of State web page 11/06/2020) (voting machine software did not malfunction, no ballots were backdated); SCO-12876350 (Michigan Secretary of State web page 12/08/2020) (noting that Antrim County reporting error was accidental human error and citing U.S. Attorney General, FBI, and CISA view that 2020 election was "the most secure election in our nation's history and, despite unprecedented scrutiny, there has been no evidence of widespread fraud identified whatsoever"); SCO-02243762 (Michigan Attorney General and Secretary of State News Release 12/14/2020) (affirming that the "general election in Michigan and across the country was the most secure in the nation's history"); SCO-04957382 (Michigan Secretary of State web page 12/17/2020) (hand audit confirmed Antrim County election results and showed Dominion machines accurately calculated results); SCO-12839140 (Michigan Secretary of State web page 12/18/2020) (stating that final numbers from "Antrim County hand-tallied audit yesterday continue to affirm the accuracy of the Nov.[^3] general election certified results"); SCO-02963078 (Video of Statement by City Clerk in Rochester Hills, Michigan) (stating that "[t]here were no missing ballots" and "[t]he accusation that 2,000 ballots were found is categorically false"); SCO-04957413 (New Mexico Secretary of State News Release 12/14/2020) (announcing that New Mexico's electoral votes went to Mr. Biden and that the 2020 election was "the most secure in American history"); SCO- 12876770 (Video of Interview of Philadelphia City Commissioner with CNN 11/11/2020) (stating that there were no dead voters and no provisional ballots cast by ineligible voters and confirming that "[w]e just had the most transparent and secure election in the history of Philadelphia"); SCO-12929345 (Tweet 11/27/2020) (Philadelphia City Commissioner responding to Mr. Trump's 11/27/2020 Tweet and confinning, "Not only is there no evidence of 'massive' voter fraud in Philadelphia, but there haven't been <em>any</em> documented instances in the many lawsuits filed in Pennsylvania"); SCO-04956023 (Pennsylvania Department of State Public Response Statement 12/29/2020) (refuting misinformation in letter from Republican lawmakers that state data was contradicted by county-level data and explaining the state's risk-limiting audit to ensure accurate vote counts); SCO-12837952 (Wisconsin Elections Commission web page 11/05/2020) (impossible to have more votes than voters, and no absentee ballots were found in the middle of the night); SCO-12848641 (Wisconsin Elections Commission web page 11/10/2020) (no credible evidence to undermine unofficial election results or support allegations of widespread election issues, only registered voters can request absentee ballots, and ballot signatures can never be added by poll workers); SCO- 12838580 (Wisconsin Elections Commission web page 12/16/2020) (Dominion machines did not flip votes, 200,000 people did not illegally vote without identification, and absentee ballots were not issued without a ballot application); SCO-12845421 (Nevada Secretary of State Facts vs. Myths Release 12/18/2020) ("we have yet to see any evidence of wide-spread fraud"; "we have not been presented with evidence of non-citizens voting in the 2020 election").</p>
+<p id="p-36"><a class="permalink" href="#p-36" aria-label="Link to paragraph 36">¶</a>making because the numbers they touted-for instance, of dead voters in a particular state­ frequently vacillated wildly from day to day or were objectively impossible,[^14] including, for example, Co-Conspirator 3's claims about voting machines that Mr. Trump privately acknowledged sounded "crazy"[^15] before he publicly amplified them.[^16] Finally, at times, Mr. Trump made comments implicitly acknowledging that he knew he had lost the election. For example, in a January 3, 2021 Oval Office meeting regarding a national security matter, Mr. Trump stated in part, "[I]t's too late for us. We're going to give that to the next guy," meaning President-elect Biden.[^17]</p>
+<p id="p-37"><a class="permalink" href="#p-37" aria-label="Link to paragraph 37">¶</a>Mr. Trump aimed his deceit at the United States' process of collecting, counting, and certifying votes, which flows from the Constitution and a federal law enacted in 1887 called the Electoral Count Act (ECA). The Constitution provides that the United States President is selected through the votes of individuals called electors and that each state determines how to appoint its electors.[^18] Through state laws, all fifty states and the District of Columbia have chosen to select electors based on the popular vote.[^19] Therefore, after election day, pursuant to the ECA, each state formally determines-or "ascertains"-its electors based on the popular vote; the ascertained electors meet on a day determined by the ECA and cast their votes based on their state's popular vote; and the ascertained electors mail their electoral votes, along with a certification from the state executive that they are the state's legitimate electors, to the United States Congress to be counted and certified in an official proceeding.[^20] The Constitution and ECA provide that on the sixth of January following election day, the Congress meets for that certification proceeding, which is presided over by the Vice President as President of the Senate; the legitimate electors' votes are opened and counted; and the winner is certified.[^21] Until Mr. Trump obstructed it, this democratic process had operated in a peaceful and orderly manner for more than 130 years.</p>
+<h3>Mr. Trump's Pressure on State Officials</h3>
+<blockquote>
+<p>One of Mr. Trump's efforts to change the results of the election involved targeting the</p>
+</blockquote>
+<p id="p-38"><a class="permalink" href="#p-38" aria-label="Link to paragraph 38">¶</a>electoral process at the state level through politically aligned state officials. Mr. Trump contacted state legislators and executives, pressured them with false claims of election fraud in their states, and urged them to take action to ignore the vote counts and change the results.[^22] Significantly, he made election claims only to state legislators and executives who shared his political affiliation and were his political supporters, and only in states that he had lost.[^23]</p>
+<p id="p-39"><a class="permalink" href="#p-39" aria-label="Link to paragraph 39">¶</a>For instance, Mr. Trump and Co-Conspirator 1 called the Speaker of the Arizona House of Representatives on November 22 and used false fraud claims to try to convince the Speaker to call the state legislature into session and replace Arizona's legitimate electors with Mr. Trump's illegitimate ones.[^24] Co-Conspirator 1 tried to coerce the Arizona Speaker, including by telling him, "we're all kind of Republicans and we need to be working together."[^25] The Arizona Speaker refused to do what he was asked and requested that Co-Conspirator 1 provide evidence to support his fraud claims.[^26] Co-Conspirator 1 not only failed to ever provide such evidence, but he conceded to the Arizona Speaker at an in-person meeting a week later that "[w]e don't have the evidence, but we have lots of theories."[^27] Despite this lack of fraud evidence, Mr. Trump and others continued to pressure the Arizona Speaker to overturn the election results.[^28]</p>
+<p id="p-40"><a class="permalink" href="#p-40" aria-label="Link to paragraph 40">¶</a>Mr. Trump similarly leaned on other state officials-always those of the same political party. On January 2, 2021, just days before the election results were to be certified, he called Georgia's Secretary of State and pressed him to "find 11,780 votes"-Mr. Biden's margin of victory in the state.[^29] When the Secretary of State refuted Mr. Trump's false fraud claims, Mr. Trump issued a threat, stating that because the Secretary of State knew "what they did and you're not reporting it ... that's a criminal offense. And you know, you can't let that happen. That's a big risk to you ...."[^30] Mr. Trump also pressed state legislators in Michigan by inviting them to the White House on November 20, raising false claims of election fraud, and bringing Co-Conspirator 1 into the meeting by phone.[^31] Michigan's Senate Majority Leader told Mr. Trump that he had lost the election not because of fraud, but because he had underperformed with educated females-an assessment that displeased Mr. Trump.[^32]</p>
+<p><em>— snapshot truncated; the live page continues for 169 pages.</em></p>
+</div></article></main></body></html>
