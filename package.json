@@ -4,16 +4,15 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "verify": "./scripts/verify.sh",
+    "ingest": "tsx scripts/ingest/cli.ts",
     "dev": "wrangler dev --local"
-  },
-  "vitest": {
-    "exclude": [
-      "**/.worktrees/**",
-      "**/.claude/**"
-    ]
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "playwright": "^1.49.0",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8",
     "wrangler": "^4.58.0"
