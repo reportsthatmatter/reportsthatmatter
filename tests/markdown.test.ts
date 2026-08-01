@@ -1,17 +1,23 @@
 import { describe, expect, it } from "vitest";
-import { renderMarkdown, splitFrontMatter, slugify } from "../src/lib/markdown";
+import {
+  renderMarkdown,
+  splitFrontMatter,
+  slugify,
+  paragraphId,
+  collectNotes,
+  withSidenotes,
+} from "../src/lib/markdown";
 
 describe("markdown", () => {
-  it("injects sequential paragraph ids", () => {
-    const html = renderMarkdown("One.\n\nTwo.");
-    expect(html).toContain('id="p-1"');
-    expect(html).toContain('id="p-2"');
+  it("derives paragraph ids from the text", () => {
+    const html = renderMarkdown("The rioters at the Capitol.\n\nMr. Pence declined.");
+    expect(html).toContain('id="rioters-capitol"');
+    expect(html).toContain('id="pence-declined"');
   });
 
   it("adds a permalink anchor to each paragraph", () => {
-    const html = renderMarkdown("One.\n\nTwo.");
-    expect(html).toContain('<a class="permalink" href="#p-1"');
-    expect(html).toContain('<a class="permalink" href="#p-2"');
+    const html = renderMarkdown("The rioters at the Capitol.");
+    expect(html).toContain('<a class="permalink" href="#rioters-capitol"');
   });
 
   it("does not render front matter as body text", () => {
@@ -21,10 +27,10 @@ describe("markdown", () => {
     expect(html).toContain("Body text.");
   });
 
-  it("numbers paragraphs from the body, not the front matter", () => {
-    const html = renderMarkdown('---\ntitle: "X"\n---\n\nFirst.\n\nSecond.');
-    expect(html).toContain('id="p-1"');
-    expect(html).toContain("First.");
+  it("takes ids from the body, not the front matter", () => {
+    const html = renderMarkdown('---\ntitle: "Unrelated Title Here"\n---\n\nFirst body sentence.');
+    expect(html).toContain('id="first-body-sentence"');
+    expect(html).not.toContain("Unrelated");
   });
 });
 
@@ -69,15 +75,119 @@ describe("permalink placement", () => {
     expect(between(html, "<ul>", "</ul>")).not.toContain("permalink");
   });
 
-  it("still numbers top-level paragraphs around a list", () => {
-    const html = renderMarkdown("First.\n\n- item\n\nSecond.");
-    expect(html).toContain('id="p-1"');
-    expect(html).toContain('id="p-2"');
-    expect(html).not.toContain('id="p-3"');
+  it("still gives ids to top-level paragraphs around a list", () => {
+    const html = renderMarkdown("First paragraph here.\n\n- item\n\nSecond paragraph here.");
+    expect(html).toContain('id="first-paragraph-here"');
+    expect(html).toContain('id="second-paragraph-here"');
   });
 
   it("does not put a permalink inside a block quote", () => {
     const html = renderMarkdown("> Quoted text.\n\nBody.");
     expect(between(html, "<blockquote>", "</blockquote>")).not.toContain("permalink");
+  });
+});
+
+describe("paragraphId", () => {
+  it("is derived from the words, so it survives re-ingestion", () => {
+    const before = paragraphId("The rioters at the Capitol had been motivated.", new Set());
+    const after = paragraphId("The rioters at the Capitol had been motivated.", new Set());
+    expect(after).toBe(before);
+  });
+
+  it("does not shift when an earlier paragraph is added or removed", () => {
+    // The whole point: positional ids would renumber here, these do not.
+    const first = renderMarkdown("Alpha content here.\n\nBeta content here.");
+    const second = renderMarkdown("Inserted opening line.\n\nAlpha content here.\n\nBeta content here.");
+    expect(first).toContain('id="alpha-content-here"');
+    expect(second).toContain('id="alpha-content-here"');
+    expect(second).toContain('id="beta-content-here"');
+  });
+
+  it("drops stopwords to stay distinctive", () => {
+    expect(paragraphId("The rioters at the Capitol", new Set())).toBe("rioters-capitol");
+  });
+
+  it("keeps stopwords when almost nothing else is left", () => {
+    expect(paragraphId("It was on the", new Set())).toBe("it-was-on-the");
+  });
+
+  it("disambiguates identical openings", () => {
+    const taken = new Set<string>();
+    expect(paragraphId("Same opening words here", taken)).toBe("same-opening-words-here");
+    expect(paragraphId("Same opening words here", taken)).toBe("same-opening-words-here-2");
+    expect(paragraphId("Same opening words here", taken)).toBe("same-opening-words-here-3");
+  });
+
+  it("ignores footnote markers when building the id", () => {
+    expect(paragraphId("Trump replied[^127] so what", new Set())).toBe("trump-replied-so-what");
+  });
+
+  it("survives a paragraph with no usable words", () => {
+    expect(paragraphId("!!! ???", new Set())).toBe("para");
+  });
+});
+
+describe("page markers", () => {
+  it("turns a page marker into an anchor", () => {
+    const html = renderMarkdown("%%page 46%%\n\nBody text on that page.");
+    expect(html).toContain('id="page-46"');
+    expect(html).not.toContain("%%page");
+  });
+
+  it("tags following paragraphs with the printed page", () => {
+    const html = renderMarkdown("%%page 46%%\n\nBody text on that page.");
+    expect(html).toContain('data-page="46"');
+  });
+
+  it("updates the page as the document progresses", () => {
+    const html = renderMarkdown("%%page 1%%\n\nFirst thing.\n\n%%page 2%%\n\nSecond thing.");
+    expect(html).toMatch(/id="first-thing"[^>]*data-page="1"/);
+    expect(html).toMatch(/id="second-thing"[^>]*data-page="2"/);
+  });
+});
+
+describe("sidenotes", () => {
+  it("places the note beside the sentence rather than at the end", () => {
+    const html = renderMarkdown('Trump replied "So what?"[^127]\n\n## Notes\n\n[^127]: Interview transcript at 12.');
+    expect(html).toContain("sidenote");
+    expect(html).toContain("Interview transcript at 12.");
+  });
+
+  it("removes the collected notes section from the body", () => {
+    const html = renderMarkdown('Body.[^1]\n\n## Notes\n\n[^1]: A note.');
+    expect(html).not.toContain("<h2>Notes</h2>");
+  });
+
+  it("lists notes it could not place instead of dropping them", () => {
+    const html = renderMarkdown('Body with no reference.\n\n## Notes\n\n[^99]: An unplaced note.');
+    expect(html).toContain("Notes not linked in the text");
+    expect(html).toContain("An unplaced note.");
+  });
+
+  it("leaves a reference alone when there is no matching note", () => {
+    const { html, used } = withSidenotes("<p>Body.[^5]</p>", new Map());
+    expect(html).toContain("[^5]");
+    expect(used.size).toBe(0);
+  });
+
+  it("escapes markup in note text", () => {
+    const { html } = withSidenotes("<p>x[^1]</p>", new Map([["1", "<script>bad</script>"]]));
+    expect(html).not.toContain("<script>bad</script>");
+    expect(html).toContain("&lt;script&gt;");
+  });
+
+  it("gives each reference its own toggle", () => {
+    const notes = new Map([["1", "note one"]]);
+    const { html } = withSidenotes("<p>a[^1] b[^1]</p>", notes);
+    const ids = [...html.matchAll(/id="(sn-[^"]+)"/g)].map((m) => m[1]);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+});
+
+describe("collectNotes", () => {
+  it("reads the note definitions", () => {
+    const notes = collectNotes("[^1]: First note.\n\n[^2]: Second note.");
+    expect(notes.get("1")).toBe("First note.");
+    expect(notes.get("2")).toBe("Second note.");
   });
 });

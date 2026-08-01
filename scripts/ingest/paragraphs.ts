@@ -4,7 +4,8 @@ export type Block =
   | { kind: "paragraph"; text: string }
   | { kind: "heading"; level: number; text: string }
   | { kind: "quote"; text: string }
-  | { kind: "contents"; text: string; page: string };
+  | { kind: "contents"; text: string; page: string }
+  | { kind: "page"; number: number };
 
 const HEADING_MAX_WORDS = 14;
 const ROMAN = /^[IVXLC]+\.?$/;
@@ -60,7 +61,7 @@ function indentOf(line: string): number {
  * The most common indent among content lines — the left margin of running text.
  * Paragraph-initial lines sit measurably to the right of it.
  */
-function bodyIndent(lines: string[]): number {
+export function bodyIndent(lines: string[]): number {
   const counts = new Map<number, number>();
   for (const line of lines) {
     if (!line.trim()) continue;
@@ -130,19 +131,33 @@ function isHeading(text: string): { level: number; text: string } | null {
  * a new paragraph. Blank lines are a secondary signal, and block quotes (set
  * far to the right) are kept as quotes.
  */
-export function toBlocks(lines: string[]): Block[] {
-  const margin = bodyIndent(lines);
+export function toBlocks(lines: string[], documentMargin?: number): Block[] {
+  // The left margin is a property of the document's layout, not of one page. A
+  // short page — the last of a section, say — can have too few lines to infer
+  // it from, and getting it wrong turns an ordinary paragraph into a quote.
+  const margin = documentMargin ?? bodyIndent(lines);
   const blocks: Block[] = [];
 
   // A block quote is a *sustained* run of indented lines. A paragraph's first
   // line is indented just as deeply but is followed by lines back at the
   // margin — judging on indent alone splits sentences in half and quotes the
   // opening clause.
+  // Headings and contents entries are indented too, so they must not count as
+  // quote neighbours — otherwise the first line of the paragraph beneath a
+  // heading looks like the continuation of an indented block and gets quoted.
+  const structural = lines.map((line) => {
+    if (!line.trim()) return false;
+    const single = normaliseWhitespace(line);
+    return TOC_ENTRY.test(single) || isHeading(single) !== null;
+  });
+
   const quoted = lines.map((line, i) => {
-    if (!line.trim() || indentOf(line) < margin + 5) return false;
+    if (!line.trim() || structural[i] || indentOf(line) < margin + 5) return false;
     const neighbour = (j: number) => {
       const other = lines[j];
-      return Boolean(other?.trim()) && indentOf(other) >= margin + 5;
+      return (
+        Boolean(other?.trim()) && !structural[j] && indentOf(other) >= margin + 5
+      );
     };
     return neighbour(i - 1) || neighbour(i + 1);
   });
@@ -238,7 +253,15 @@ export function mergeAcrossPages(blocks: Block[]): Block[] {
   const merged: Block[] = [];
 
   for (const block of blocks) {
-    const previous = merged[merged.length - 1];
+    // A page marker sits exactly where a sentence is most likely to be split,
+    // so look past it — then leave it after the joined paragraph, since the
+    // sentence belongs to the page it started on.
+    const markerIndex =
+      merged.length && merged[merged.length - 1].kind === "page"
+        ? merged.length - 1
+        : -1;
+    const previous = merged[markerIndex === -1 ? merged.length - 1 : markerIndex - 1];
+
     if (
       block.kind === "paragraph" &&
       previous?.kind === "paragraph" &&
@@ -262,6 +285,7 @@ export function blocksToMarkdown(blocks: Block[]): string {
       // Em dash rather than a full stop: the inline-marker pass keys off
       // sentence punctuation, and a contents page number is not a footnote.
       if (block.kind === "contents") return `- ${block.text} — ${block.page}`;
+      if (block.kind === "page") return `%%page ${block.number}%%`;
       return block.text;
     })
     .join("\n\n");

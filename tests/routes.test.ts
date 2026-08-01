@@ -65,9 +65,11 @@ describe("routes", () => {
     expect(res.status).toBe(200);
     const body = await res.text();
     expect(body).toContain("Wall Street and the Financial Crisis");
-    expect(body).toContain('id="p-1"');
-    expect(body).toContain('class="permalink" href="#p-1"');
+    expect(body).toMatch(/<p id="[a-z0-9-]+"/);
+    expect(body).toContain('class="permalink"');
     expect(body).toContain('id="share-pop"');
+    // ids must not be positional — that is what makes citations rot
+    expect(body).not.toMatch(/<p id="p-\d+"/);
     expect(body).toContain("/assets/share.js");
   });
 

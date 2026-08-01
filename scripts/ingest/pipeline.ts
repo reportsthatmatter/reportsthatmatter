@@ -6,6 +6,7 @@ import {
   isContentsPage,
   parseContentsPage,
   mergeAcrossPages,
+  bodyIndent,
   type Block,
 } from "./paragraphs";
 import { parseFootnotes, linkInlineMarkers, renderEndnotes, type Footnote } from "./footnotes";
@@ -44,6 +45,9 @@ export function ingestPages(pages: Page[], meta: Metadata): IngestResult {
   const bodyChunks: Block[] = [];
   let expectedNote = 1;
 
+  // Infer the running left margin once, from the whole document.
+  const documentMargin = bodyIndent(pages.flatMap((page) => page.lines));
+
   for (const page of pages) {
     const split = splitPage(page, expectedNote);
 
@@ -57,7 +61,14 @@ export function ingestPages(pages: Page[], meta: Metadata): IngestResult {
     const pageLines = collapseDoubleSpacing(split.body);
     const blocks = isContentsPage(pageLines)
       ? parseContentsPage(pageLines)
-      : toBlocks(pageLines);
+      : toBlocks(pageLines, documentMargin);
+
+    // Record where each printed page begins. These documents are cited by page
+    // ("Report at 62"), so the printed number is the citation unit readers
+    // already use — and it can be checked against the original PDF.
+    if (split.printed !== null && blocks.length) {
+      bodyChunks.push({ kind: "page", number: split.printed });
+    }
     bodyChunks.push(...blocks);
   }
 

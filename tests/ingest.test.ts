@@ -317,3 +317,53 @@ describe("mergeAcrossPages", () => {
     expect(merged).toHaveLength(2);
   });
 });
+
+describe("headings are not quote neighbours", () => {
+  it("does not quote the first line of the paragraph under a heading", () => {
+    const blocks = toBlocks(
+      [
+        "body line at margin",
+        "another body line",
+        "a third body line",
+        "a fourth body line",
+        "       B.    Mr. Trump's Pressure on State Officials",
+        "             One of Mr. Trump's efforts involved targeting the",
+        "electoral process at the state level through officials.",
+      ],
+      0
+    );
+    expect(blocks.some((b) => b.kind === "quote")).toBe(false);
+    const para = blocks.find(
+      (b) => b.kind === "paragraph" && b.text.startsWith("One of")
+    ) as { text: string } | undefined;
+    expect(para?.text).toBe(
+      "One of Mr. Trump's efforts involved targeting the electoral process at the state level through officials."
+    );
+  });
+
+  it("accepts an explicit document margin", () => {
+    const blocks = toBlocks(["         Indented opener", "wrapped line."], 0);
+    expect(blocks).toHaveLength(1);
+    expect(blocks[0].kind).toBe("paragraph");
+  });
+});
+
+describe("page blocks", () => {
+  it("emits a page marker", () => {
+    expect(blocksToMarkdown([{ kind: "page", number: 46 }])).toBe("%%page 46%%");
+  });
+
+  it("merges a sentence across a page marker", () => {
+    const merged = mergeAcrossPages([
+      { kind: "paragraph", text: "crowds hunted for Mr. Pence and" },
+      { kind: "page", number: 8 },
+      { kind: "paragraph", text: "other lawmakers." },
+    ]);
+    const paragraphs = merged.filter((b) => b.kind === "paragraph");
+    expect(paragraphs).toHaveLength(1);
+    expect((paragraphs[0] as { text: string }).text).toBe(
+      "crowds hunted for Mr. Pence and other lawmakers."
+    );
+    expect(merged.some((b) => b.kind === "page")).toBe(true);
+  });
+});

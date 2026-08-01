@@ -437,6 +437,163 @@ hr {
   }
 }
 
+/* ---------- sidenotes ---------- */
+
+/* The reading column stays put; notes live in the right margin where there is
+ * room for them. Below that width there is no margin, so a note becomes an
+ * inline block the reader opens on tap. */
+
+.prose {
+  --sidenote-width: 15rem;
+  --sidenote-gap: 2rem;
+}
+
+.sidenote-toggle {
+  cursor: pointer;
+}
+
+.sidenote-toggle sup {
+  font-family: var(--mono);
+  font-size: 0.62em;
+  color: var(--muted);
+  padding-inline: 0.1em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.sidenote-toggle:hover sup {
+  color: var(--ink);
+}
+
+.sidenote-checkbox {
+  display: none;
+}
+
+.sidenote {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--body);
+}
+
+.sidenote sup {
+  font-family: var(--mono);
+  font-size: 0.72em;
+  color: var(--muted);
+  margin-right: 0.35em;
+}
+
+@media (min-width: 68rem) {
+  .prose {
+    /* Shift the column left by half the margin so the page stays balanced
+     * once the notes are hanging off the right of it. */
+    margin-left: max(0px, calc(50% - (var(--measure) + var(--sidenote-width) + var(--sidenote-gap)) / 2));
+    margin-right: 0;
+  }
+
+  .sidenote {
+    float: right;
+    clear: right;
+    width: var(--sidenote-width);
+    margin-right: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: left;
+  }
+
+  .sidenote-toggle {
+    cursor: default;
+  }
+}
+
+@media (max-width: 67.99rem) {
+  /* No margin to put them in: collapsed until asked for. */
+  .sidenote {
+    display: none;
+    margin: 0.9rem 0;
+    padding: 0.75rem 0.9rem;
+    border-left: 2px solid var(--rule-strong);
+    background: rgba(0, 0, 0, 0.015);
+  }
+
+  .sidenote-checkbox:checked + .sidenote {
+    display: block;
+  }
+
+  .sidenote-toggle sup {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+.orphan-notes {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+}
+
+.orphan-notes h2 {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
+.orphan-notes-why {
+  color: var(--muted);
+  max-width: 50ch;
+}
+
+.orphan-notes ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+.orphan-notes li {
+  margin-bottom: 0.6rem;
+  color: var(--body);
+}
+
+/* ---------- printed page markers ---------- */
+
+.page-marker {
+  float: left;
+  clear: left;
+  margin-left: -3.25rem;
+  width: 2.5rem;
+  text-align: right;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-decoration: none;
+  padding-top: 0.45em;
+}
+
+.page-marker:hover {
+  color: var(--ink);
+}
+
+.page-marker:target {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+@media (max-width: 52rem) {
+  .page-marker {
+    float: none;
+    display: block;
+    margin: 1.75rem 0 0.5rem;
+    width: auto;
+    text-align: left;
+    border-top: 1px solid var(--rule);
+    padding-top: 0.5rem;
+  }
+}
+
 /* ---------- highlight-to-share ---------- */
 
 .share-pop {

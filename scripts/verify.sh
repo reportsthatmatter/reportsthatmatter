@@ -96,7 +96,7 @@ fi
 FIRST_ID=$(sed -n 's/^[[:space:]]*- id:[[:space:]]*//p' reports/registry.yaml | head -1)
 if [ -n "$FIRST_ID" ]; then
   for _ in $(seq 1 60); do
-    curl -s "${BASE}/reports/${FIRST_ID}" | grep -qF -- 'id="p-1"' && break
+    curl -s "${BASE}/reports/${FIRST_ID}" | grep -qF -- 'class="permalink"' && break
     sleep 1
   done
 fi
@@ -164,9 +164,17 @@ if [ -z "$IDS" ]; then
 fi
 for id in $IDS; do
   check_status "/reports/${id}" 200
-  check_contains "/reports/${id}" 'id="p-1"'
   check_contains "/reports/${id}" 'class="permalink"'
   check_contains "/reports/${id}" 'id="share-pop"'
+
+  # Sidenotes only exist where the source has footnotes; the legacy sample
+  # predates the pipeline and has none.
+  src=$(sed -n "/- id: ${id}\$/,/^$/p" reports/registry.yaml | sed -n 's/.*source_path:[[:space:]]*//p')
+  if [ -n "$src" ] && grep -q '^\[\^' "$src" 2>/dev/null; then
+    check_contains "/reports/${id}" 'class="sidenote"'
+  fi
+  # Positional ids renumber on every re-ingest and silently break citations.
+  check_absent  "/reports/${id}" '<p id="p-1"'
 done
 
 step "Browser end-to-end"
