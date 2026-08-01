@@ -4,7 +4,7 @@ authors: "Jack Smith, Special Counsel, U.S. Department of Justice"
 published_at: "January 2025"
 source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
 pages: 169
-footnotes: 206
+footnotes: 229
 ---
 
 U.S. Department of Justice
@@ -319,21 +319,15 @@ Mr. Trump's efforts to remain in power converged and culminated on January 6, th
 
 %%page 24%%
 
-During his speech at the Ellipse, 99 Mr. Trump made one more attempt to retain power. In his remarks, Mr. Trump repeated many of the same lies he had been telling for months­ regarding dead voters, non-citizen voters, and vote dumps-and he told newer ones: lies that targeted states wanted to change their electors and that Mr. Pence had the authority, and might be persuaded, to change the election results. 100 The lie regarding Mr. Pence was particularly deceptive because Mr. Trump knew what his supporters in the crowd did not: that Mr. Pence had just told him in no uncertain terms that he would not do what Mr. Trump was demanding.
+During his speech at the Ellipse,[^99] Mr. Trump made one more attempt to retain power. In his remarks, Mr. Trump repeated many of the same lies he had been telling for months­ regarding dead voters, non-citizen voters, and vote dumps-and he told newer ones: lies that targeted states wanted to change their electors and that Mr. Pence had the authority, and might be persuaded, to change the election results.[^100] The lie regarding Mr. Pence was particularly deceptive because Mr. Trump knew what his supporters in the crowd did not: that Mr. Pence had just told him in no uncertain terms that he would not do what Mr. Trump was demanding.
 
-Mr. Trump told the crowd-a crowd of his supporters that he had remarked to advisors the night before was "angry"[^101] -that the election had been stolen and the country would no longer exist if this purported crime were not stopped; and that the discovery of "fraud" licensed them to "go by very different rules."[^102] Although Mr. Trump at one point also told his supporters to "peacefully and patriotically make [their] voices heard,"[^103] he used the word "fight" more than ten times in the speech before concluding by directing his supporters to march to the Capitol to give allied Members of Congress "the kind of pride and boldness they need to take back our
-
-99 Mr. Trump's speech at the Ellipse on January 6, 2021, was a Campaign event. The rally at which Mr. Trump spoke was planned and executed by private political supporters, and it was completely funded by a $2.1 million private donation. Mr. Trump promoted the event using the word "rally," a word connoting a private political effort, and Mr. Trump's White House staff recognized the event to be a private, unofficial exercise. Finally, the speech itself used campaign language and closely resembled Mr. Trump's other campaign speeches, including one he had given in Dalton, Georgia, for the Senate runoff election just two days earlier. See ECF No.[^252] at 118-126 & nn.577-598.
-
-See ECF No.[^252] at 75-76 & nn.423-428; SCO-02244118 at 3, 6, 11-12, 16-17 (Remarks by Mr. Trump at Save 100 America Rally 01/06/2021).
+Mr. Trump told the crowd-a crowd of his supporters that he had remarked to advisors the night before was "angry"[^101] -that the election had been stolen and the country would no longer exist if this purported crime were not stopped; and that the discovery of "fraud" licensed them to "go by very different rules."[^102] Although Mr. Trump at one point also told his supporters to "peacefully and patriotically make [their] voices heard,"[^103] he used the word "fight" more than ten times in the speech before concluding by directing his supporters to march to the Capitol to give allied Members of Congress "the kind of pride and boldness they need to take back our country." 104 He also told the angry crowd that "if you don't fight like hell, you're not going to have a country anymore." 105 Throughout the speech, Mr. Trump gave his supporters false hope that through such action, they could cause Mr. Pence to overturn the election results, even improvising new lines directed at Mr. Pence as the speech went on. 106
 
 %%page 25%%
 
-country." 104 He also told the angry crowd that "if you don't fight like hell, you're not going to have a country anymore." 105 Throughout the speech, Mr. Trump gave his supporters false hope that through such action, they could cause Mr. Pence to overturn the election results, even improvising new lines directed at Mr. Pence as the speech went on. 106
-
 At Mr. Trump's urging, thousands of his supporters marched from the Ellipse to the
 
-Capitol building. 107 There, Mr. Pence began the certification at around 1:00 p.m. 108 Outside the building, the crowd swelled and broke through barriers cordoning off the grounds. 109 The crowd that attacked the Capitol was filled with Mr. Trump's supporters, as made clear by their Trump shirts, signs, and flags. 110 As described in detail below, the crowd violently attacked the law enforcement officers attempting to secure the building. 111
+Capitol building. 107 There, Mr. Pence began the certification at around 1:00 p.m. 108 Outside the building, the crowd swelled and broke through barriers cordoning off the grounds.[^109] The crowd that attacked the Capitol was filled with Mr. Trump's supporters, as made clear by their Trump shirts, signs, and flags.[^110] As described in detail below, the crowd violently attacked the law enforcement officers attempting to secure the building.[^111]
 
 104 See ECF No.[^252] at 77-78 & nn.432-443; SCO-02244118 at 5, 6, 9,[^22] (Remarks by Mr. Trump at Save America
 
@@ -341,11 +335,7 @@ Rally 01/06/2021). 105See ECF No.[^252] at 77-78 & nn.432-443; SCO-02244118 at 2
 
 01/06/2021); SCO-12918852 (Video of March to Capitol 01/06/2021); SCO-12919559 at 01:30-02:52 (Video of March to Capitol 01/06/2021); SCO-066146 I 9 at 21:13-22:07 (Video ofFox News Coverage 01/06/2021). 108 See ECF No.[^252] at 78 & n.445; SCO-12945127 at 20:47 (Video of House Floor 01/06/2021); SCO-03666330 at
 
-2 (Congressional Record 01/06/2021). 109 See ECF No.[^252] at 78 & n.448; see also, e.g., SCO-12876233 at 02:20-03:50 (Video of Capitol Riot 01/06/2021).
-
-See ECF No.[^252] at 78-79 & n.450, 82 & n.477; SCO-12806961 at 56:56, SCO-12919902 at 38:59, 110
-
-SCO-00029113, SCO-12738292, SCO-12806977 at 04:30 (Videos of Capitol Riot 01/06/2021); see also SCO-11506096 at 61-63 (Int. Tr.). 111See ECF No.[^252] at 82 & nn.475-477; see also, e.g., SCO-12919902 at 38:48, SCO-12738292, SCO-12806977 at 04:30, SCO-12738332, SCO-12919680 at 54:30 (Videos of Capitol Riot 01/06/2021).
+2 (Congressional Record 01/06/2021).
 
 %%page 26%%
 
@@ -361,13 +351,11 @@ Photograph of the Capitol on January 6, 2021 (Shannon Stapleton/Reuters)[^114]
 
 %%page 28%%
 
-Photograph of the Capitol on January 6, 2021 (David Butow/Redux:) 116
+Photograph of the Capitol on January 6, 2021 (David Butow/Redux:)[^116]
 
-Photograph of the Capitol on January 6, 202 l (Roberto Schmidt/AFP via Getty Images)[^117]
+Photograph of the Capitol on January 6,[^202] l (Roberto Schmidt/AFP via Getty Images)[^117]
 
-Statement from Leaders, Updated: 'Our Children Aie Watching': Nonprofit and Foundation Leaders Respond to 116
-
-Capitol Hill Viole.nee, lHE CHRONICLE OF PHil..ANTHR.OPY (Jan. 7, 2021), https://v,-ww.philanthropy.com/article/ho1,v ­ nonprofit-and-foundation-leaders-are-responding-to-capitol-hill-violence.
+Statement from Leaders, Updated: 'Our Children Aie Watching': Nonprofit and Foundation Leaders Respond to
 
 %%page 29%%
 
@@ -447,13 +435,11 @@ Courts in which Mr. Trump brought numerous lawsuits all rebuffed his claims, whi
 
 %%page 37%%
 
-other federal and state officials-some appointed by Mr. Trump, and others who publicly supported and voted for him-publicly debunked allegations of outcome-determinative voter fraud. 148 Mr. Trump did not reach out to an:y of these officials to ask relevant questions about the election because he was not seeking honest answers. This was a pattern revealed throughout the investigation: Mr. Trump unquestioningly accepted at face value and amplified election fraud claims that benefited his quest to retain power. Conversely, he avoided consulting informed sources, such as state election officials, who possessed evidence that could debunk his claims. The Office concluded that this consistent pattern would constitute powerful proof at trial that Mr. Trump knew the claims he was making were false.
+other federal and state officials-some appointed by Mr. Trump, and others who publicly supported and voted for him-publicly debunked allegations of outcome-determinative voter fraud.[^148] Mr. Trump did not reach out to an:y of these officials to ask relevant questions about the election because he was not seeking honest answers. This was a pattern revealed throughout the investigation: Mr. Trump unquestioningly accepted at face value and amplified election fraud claims that benefited his quest to retain power. Conversely, he avoided consulting informed sources, such as state election officials, who possessed evidence that could debunk his claims. The Office concluded that this consistent pattern would constitute powerful proof at trial that Mr. Trump knew the claims he was making were false.
 
-Mr. Trump's false claims were often divergent from one day to the next and otherwise internally inconsistent. 149 For example, in Arizona, the conspirators started with the allegation that 36,000 non-citizens voted in that state;[^150] five days later, it was "beyond credulity that a few hundred thousand didn't vote";[^151] three weeks later, "the bare minimum [was] 40 or 50,000. The reality is about 250,000";[^152] days after that, the assertion was 32,000;[^153] and ultimately, the
+Mr. Trump's false claims were often divergent from one day to the next and otherwise internally inconsistent.[^149] For example, in Arizona, the conspirators started with the allegation that 36,000 non-citizens voted in that state;[^150] five days later, it was "beyond credulity that a few hundred thousand didn't vote";[^151] three weeks later, "the bare minimum [was] 40 or 50,000. The reality is about 250,000";[^152] days after that, the assertion was 32,000;[^153] and ultimately, the
 
-Trump v. Eiden, 394 Wis. 2d 629, 633 (Wis. 2020); SCO-00455197, SCO-00455196, SCO-00455195, SCO-12987423, SCO-12987422, SCO-1298742 l (Donald J. Trump Tweets 12/21/2020). 148See ECF No.[^252] at 14 & nn.52-53,[^20] & nn.86-87,[^23] & n.106,[^33] & n.165,[^38] & n.192,[^42] & n.212, 42-43 & n.216,[^46] & nn.238-239; see also supra at n.12; SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020); SCO-11509450 at 103-104 (Int. Tr.); SCO-03036930 (Joint Statement on Election Security 11/12/2020); SCO-04952679 (Tweet 11/17/2020); SCO-07167983 (Email from GOP Comms Alert circulating Associated Press article titled "Barr: No evidence of fraud that'd change election outcome" 12/01/2020).
-
-See ECF No.[^252] at 15 & nn.55-59; SCO-04976384 at 20:46-21:05 (Common Sense episode 89 11/25/2020); 149 SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-06628641 at 18:52-19:42 (War Room episode 608 12/24/2020); SCO-06628646 at 35:19-35:45 (War Room episode 625 0l/02/2021).
+Trump v. Eiden, 394 Wis. 2d 629, 633 (Wis. 2020); SCO-00455197, SCO-00455196, SCO-00455195, SCO-12987423, SCO-12987422, SCO-1298742 l (Donald J. Trump Tweets 12/21/2020).
 
 %%page 38%%
 
@@ -507,7 +493,7 @@ In Fischer v. United States, 603 U.S. 480 (2024), decided during the pendency of
 
 January 6 to obstruct it.[^167]
 
-The Office was also prepared to prove that Mr. Trump willfully caused his supporters to obstruct and attempt to obstruct the proceeding by summoning them to Washington, D.C., and then directing them to march to the Capitol to cause the Vice President and legislators to reject the legitimate certificates and instead rely on the fraudulent electoral certificates.[^168] See 18 U.S.C. § 2(b) (making a defendant criminally liable for "willfully caus[ing] an act to be done which if directly performed by him or another would be" a federal offense); United States v. Hsia, 176 F.3d 517, 522 (D.C. Cir. 1999) (upholding a conviction for willfully causing a violation of 18 U.S.C. § 1001). The Supreme Court's opinion in Fischer therefore did not undermine the viability of the Section 1512 counts.
+The Office was also prepared to prove that Mr. Trump willfully caused his supporters to obstruct and attempt to obstruct the proceeding by summoning them to Washington, D.C., and then directing them to march to the Capitol to cause the Vice President and legislators to reject the legitimate certificates and instead rely on the fraudulent electoral certificates.[^168] See 18 U.S.C. § 2(b) (making a defendant criminally liable for "willfully caus[ing] an act to be done which if directly performed by him or another would be" a federal offense); United States v. Hsia,[^176] F.3d 517, 522 (D.C. Cir. 1999) (upholding a conviction for willfully causing a violation of 18 U.S.C. § 1001). The Supreme Court's opinion in Fischer therefore did not undermine the viability of the Section 1512 counts.
 
 Much of the evidence that supports the Section 371 conspiracy to defraud likewise proves that Mr. Trump and co-conspirators violated Section 1512(k) and Section 1512(c)(2). To demonstrate a violation of Section 1512(c)(2) following Fischer, the government must prove (1) the defendant obstructed, influenced, or impeded an official proceeding, or attempted to do so, (2) in the course of doing so, the defendant committed or attempted to commit an act that impaired the integrity or rendered unavailable records, documents, objects, or other things for use in the official proceeding, (3) the defendant intended to impair the integrity of or render unavailable such records, documents, objects, or other things for use in the official proceeding, and (4) the defendant acted corruptly. See United States v. Baez, No. 21-cr-507, ECF No. 106 at 8 (D.D.C. Sept. 23, 2024) (describing elements required to establish a violation of Section 1512(c)(2) following Fischer).
 
@@ -531,7 +517,7 @@ Mr. Trump acknowledged that voting in a presidential election is a fundamental r
 
 %%page 51%%
 
-This history of the Section 241 offense with which Mr. Trump was charged, along with courts' universal and longstanding recognition of the voting rights protected by that statute, confirm that protecting the right to vote is critical to the existence of the right. Section 241 's predecessor statute was passed as part of the Enforcement Act of 1870, a Reconstruction-era law to address the "continued denial of rights" to Black citizens, "sometimes accompanied by violent assaults." United States v. Price, 383 U.S. 787, 801-802 (1966). That Act sought to combat widespread anti-Reconstruction violence, which included acts of terror aimed at disenfranchising Black voters. The same year as the Act's passage, Congress established the U.S. Department of Justice, and the Department zealously pursued its mission to enforce voting rights in the Reconstruction Era. Through the application and interpretation of Section 241 and its predecessor statute, courts have repeatedly underscored the importance of the right to vote. Courts have held that the right encompasses the ability to cast a vote, Ex parte Yarbrough (The Ku-Klux Cases), 110 U.S. 651, 657-658 (1884) (protecting right of an emancipated person to vote), and to have that vote counted, United States v. Afosley,[^238] U.S. 383, 386 (1915) ("We regard it as equally unquestionable that the right to have one's vote counted is as open to protection by Congress as the right to put a ballot in a box."). They have further confirmed that one's vote cannot lawfully be denied, destroyed, or diluted. See, e.g., Classic, 313 U.S. at 321- 322 (holding that Section 241 's predecessor statute applied to conspiracies to prevent the official counting of ballots in a primary election); United States v. Saylor, 322 U.S. 385 (1944) (Section 241 applies to prohibit conspiracies to dilute legitimate votes by stuffing the ballot box); United States v. Pleva,[^66] F.2d 529, 530 (2d Cir. 1933) (board of elections inspectors charged with falsely tabulating ballots to favor certain candidates; convictions reversed on separate jury grounds); United States v. Skurla,[^126] F. Supp. 713, 715 (W.D. Pa. 1954) (defendants charged for casting and causing to be cast false and forged ballots, causing an incorrect vote tally, and using unqualified individuals to impersonate lawful voters); United States v. Townsley, 843 F.2d 1070, 1073-1075 (8th Cir. 1988) (scheme to discard certain absentee ballots).
+This history of the Section 241 offense with which Mr. Trump was charged, along with courts' universal and longstanding recognition of the voting rights protected by that statute, confirm that protecting the right to vote is critical to the existence of the right. Section 241 's predecessor statute was passed as part of the Enforcement Act of 1870, a Reconstruction-era law to address the "continued denial of rights" to Black citizens, "sometimes accompanied by violent assaults." United States v. Price, 383 U.S. 787, 801-802 (1966). That Act sought to combat widespread anti-Reconstruction violence, which included acts of terror aimed at disenfranchising Black voters. The same year as the Act's passage, Congress established the U.S. Department of Justice, and the Department zealously pursued its mission to enforce voting rights in the Reconstruction Era. Through the application and interpretation of Section 241 and its predecessor statute, courts have repeatedly underscored the importance of the right to vote. Courts have held that the right encompasses the ability to cast a vote, Ex parte Yarbrough (The Ku-Klux Cases),[^110] U.S. 651, 657-658 (1884) (protecting right of an emancipated person to vote), and to have that vote counted, United States v. Afosley,[^238] U.S. 383, 386 (1915) ("We regard it as equally unquestionable that the right to have one's vote counted is as open to protection by Congress as the right to put a ballot in a box."). They have further confirmed that one's vote cannot lawfully be denied, destroyed, or diluted. See, e.g., Classic, 313 U.S. at 321- 322 (holding that Section 241 's predecessor statute applied to conspiracies to prevent the official counting of ballots in a primary election); United States v. Saylor, 322 U.S. 385 (1944) (Section 241 applies to prohibit conspiracies to dilute legitimate votes by stuffing the ballot box); United States v. Pleva,[^66] F.2d 529, 530 (2d Cir. 1933) (board of elections inspectors charged with falsely tabulating ballots to favor certain candidates; convictions reversed on separate jury grounds); United States v. Skurla,[^126] F. Supp. 713, 715 (W.D. Pa. 1954) (defendants charged for casting and causing to be cast false and forged ballots, causing an incorrect vote tally, and using unqualified individuals to impersonate lawful voters); United States v. Townsley, 843 F.2d 1070, 1073-1075 (8th Cir. 1988) (scheme to discard certain absentee ballots).
 
 %%page 52%%
 
@@ -553,27 +539,19 @@ Pennsylvania, despite having been told by the Chairman of the state Republican P
 
 Even if Mr. Trump maintained that he sincerely believed he won the election (a conclusion unsupported by the evidence collected in the investigation), it would not provide a defense to the Section 371 charge. A defendant may not use deceit to obstruct a government function even if he believes the function itself to be unconstitutional because "a claim of unconstitutionality will not be heard to excuse a voluntary, deliberate and calculated course of fraud and deceit." Dennis, 384 U.S. at 867. "One who elects such a course as a means of self­ help may not escape the consequences by urging that his conduct be excused because the statute which he sought to evade is unconstitutional." Id There are "appropriate and inappropriate ways to challenge" perceived illegalities. Id. Just as the president of a company may be guilty of fraud for using knowingly false statements of fact to defraud investors even if he subjectively believes that his company will eventually succeed, see, e.g., United States v. Arif, 897 F.3d 1, 9- 10 & n.9 (1st Cir. 2018); United States v. Kennedy, 714 F.3d 951, 958 (6th Cir. 2013); United States v. Chavis, 461 F.3d 1201, 1209 (10th Cir. 2006), Mr. Trump could be convicted of using deceit to obstruct the government function by which the results of the presidential election are collected, counted, and certified, even if he established that he subjectively believed that he had reason to do so because of his claims that the election was "rigged."
 
-It bears emphasis that Mr. Trump's knowing deceit was pervasive throughout the charged conspiracies. This was not a case in which Mr. Trump merely misstated a fact or two in a handful of isolated instances. On a repeated basis, he and co-conspirators used specific and knowingly false claims of election fraud in his calls and meetings with state officials, in an effort to induce them to overturn the results of the election in their states; 176 to his own Vice President, to induce Mr. Pence to violate his duty during the congressional certification proceeding; 177 and on January 6, as a call to action to the angry crowd he had gathered at the Ellipse and sent to the Capitol to disrupt the certification proceeding. 178 Mr. Trump and co-conspirators used other forms of deceit as well-including when they falsely represented that the fraudulent electoral votes would be used only if Mr. Trump prevailed in pending contests in their states,[^179] and when they caused the fraudulent electors to falsely swear that they were duly certified and send those false certifications to Congress.[^180] Regardless of any claim that Mr. Trump subjectively believed the outcome of the election was unfair or "rigged," the Office concluded that these knowingly deceitful statements and acts would overcome any good faith defense.
+It bears emphasis that Mr. Trump's knowing deceit was pervasive throughout the charged conspiracies. This was not a case in which Mr. Trump merely misstated a fact or two in a handful of isolated instances. On a repeated basis, he and co-conspirators used specific and knowingly false claims of election fraud in his calls and meetings with state officials, in an effort to induce them to overturn the results of the election in their states;[^176] to his own Vice President, to induce Mr. Pence to violate his duty during the congressional certification proceeding;[^177] and on January 6, as a call to action to the angry crowd he had gathered at the Ellipse and sent to the Capitol to disrupt the certification proceeding.[^178] Mr. Trump and co-conspirators used other forms of deceit as well-including when they falsely represented that the fraudulent electoral votes would be used only if Mr. Trump prevailed in pending contests in their states,[^179] and when they caused the fraudulent electors to falsely swear that they were duly certified and send those false certifications to Congress.[^180] Regardless of any claim that Mr. Trump subjectively believed the outcome of the election was unfair or "rigged," the Office concluded that these knowingly deceitful statements and acts would overcome any good faith defense.
 
 %%page 55%%
 
-The Office also expected that Mr. Trump might claim that his consultation with attorneys-several of whom were co-conspirators-should negate a finding that he acted with a
-
-176See ECF No.[^252] at 17 & nn.67-68, I 8 & n.72, 29-30 & nn.139-144,[^32] & n.159; SCO- 12733339 at 4 (Int. Rep.); SCO-00767550 at 10-11 (HSC Tr.); SCO-11509251 at 41-42 (Int. Tr.); SCO-12998394 at 1-3 (Tr. of Georgia Secretary of State Call O1/02/2021); SCO-00829361 at 16-17 (HSC Tr.). 177See ECF No.[^252] at 67 & n.365; SCO-00014655 at 155-158, 170-171; SCO-04982309 (Handwritten notes 12/29/2020); SCO-049823 30 at I (Handwritten notes OI /04/2021 ).
-
-See ECF No.[^252] at 75-76 & nn.423-428; SCO-02244118 at 6, 12-22 (Remarks by Mr. Trump at Save America 178 Rally O1/06/2021).
+The Office also expected that Mr. Trump might claim that his consultation with attorneys-several of whom were co-conspirators-should negate a finding that he acted with a criminal state of mind. In pretrial litigation, the Court granted the Government's motion that Mr. Trump should be required to declare whether he intended to employ such a defense and, if he did, to produce the discovery required by the attendant waiver of Mr. Trump's attorney-client privilege. ECF No. 147. A defendant's claim that he relied in good faith on his attorney's advice is "not an affirmative defense that defeats liability even if the jury accepts the government's allegations as true," but functions instead as "evidence that, if believed, can raise a reasonable doubt in the minds of the jurors about whether the government has proved the required element of the offense that the defendant had an 'unlawful intent."' United States v. Scully, 877 F.3d 464, 476 (2d Cir. 2017) (quoting United States v. Beech-Nut Nutrition Corp., 871 F.2d 1181, 1194 (2d Cir. 1989)). Under D.C. Circuit law, an advice-of-counsel defense consists of two elements: the defendant (1) "'relied in good faith on the counsel's advice that his course of conduct was legal"' and (2) "'made full disclosure of all material facts to his attorney before receiving the advice at issue."' United States v. Gray-Burriss, 920 F.3d 61,[^66] (D.C. Cir. 2019) (quoting United States v. DeFries, 129 F.3d 1293, 1308 (D.C. Cir. 1997)).
 
 %%page 56%%
 
-criminal state of mind. In pretrial litigation, the Court granted the Government's motion that Mr. Trump should be required to declare whether he intended to employ such a defense and, if he did, to produce the discovery required by the attendant waiver of Mr. Trump's attorney-client privilege. ECF No. 147. A defendant's claim that he relied in good faith on his attorney's advice is "not an affirmative defense that defeats liability even if the jury accepts the government's allegations as true," but functions instead as "evidence that, if believed, can raise a reasonable doubt in the minds of the jurors about whether the government has proved the required element of the offense that the defendant had an 'unlawful intent."' United States v. Scully, 877 F.3d 464, 476 (2d Cir. 2017) (quoting United States v. Beech-Nut Nutrition Corp., 871 F.2d 1181, 1194 (2d Cir. 1989)). Under D.C. Circuit law, an advice-of-counsel defense consists of two elements: the defendant (1) "'relied in good faith on the counsel's advice that his course of conduct was legal"' and (2) "'made full disclosure of all material facts to his attorney before receiving the advice at issue."' United States v. Gray-Burriss, 920 F.3d 61,[^66] (D.C. Cir. 2019) (quoting United States v. DeFries, 129 F.3d 1293, 1308 (D.C. Cir. 1997)).
-
-The Office concluded that if Mr. Trump chose to raise such a defense, it would fail because an advice-of-counsel defense is not available "where counsel acts as an accomplice to the crime." United States v. West, 392 F.3d 450, 457 (D.C. Cir. 2004) (Roberts, J.). The evidence showed that the central attorneys on whom Mr. Trump may have relied for such a defense, such as Co-Conspirator 1 or Co-Conspirator 2, were "partner[s] in a venture," with the result that any advice-of-counsel defense necessarily would fail. Id. (citing United States v. Carr, 740 F.2d 339,347 (5th Cir. 1984)); cf United States v. Cintolo, 818 F.2d 980,990 (1st Cir. 1987) ("A criminal lawyer has no license to act as a lawyer-criminal."). Co-Conspirator 1 assisted Mr. Trump in using knowingly false claims of election fraud in furtherance of the charged conspiracies. At press conferences, 181 at hearings before legislatures in the targeted states, 182 and directly with officials in the targeted states, 183 Co-Conspirator 1 made a wide range of specific (though ever-changing) false claims of election fraud. Co-Conspirator 1 continued to do so after his lies were publicly or directly debunked.[^184] Co-Conspirator l's involvement spanned from his insistence that Mr. Trump declare victory on election night 185 to the voicemails 186 that Co-Conspirator 1 left for Senators on the night of January 6, using false claims of election fraud to ask that the legislators further delay the certification. Co-Conspirator 2 was instrumental in Mr. Trump's efforts to organize his electors to cast fraudulent votes and send them to the Vice President, and then to pressure the Vice President to use the fraudulent electoral certificates to overturn the election results. Throughout his involvement in Mr. Trump's conspiracies, Co-Conspirator 2 conceded privately to other attorneys (both private attorneys and those responsible for advising Mr. Trump and the Vice President) that his plans violated federal law and would not withstand scrutiny in court. 187
+The Office concluded that if Mr. Trump chose to raise such a defense, it would fail because an advice-of-counsel defense is not available "where counsel acts as an accomplice to the crime." United States v. West, 392 F.3d 450, 457 (D.C. Cir. 2004) (Roberts, J.). The evidence showed that the central attorneys on whom Mr. Trump may have relied for such a defense, such as Co-Conspirator 1 or Co-Conspirator 2, were "partner[s] in a venture," with the result that any advice-of-counsel defense necessarily would fail. Id. (citing United States v. Carr, 740 F.2d 339,347 (5th Cir. 1984)); cf United States v. Cintolo, 818 F.2d 980,990 (1st Cir. 1987) ("A criminal lawyer has no license to act as a lawyer-criminal."). Co-Conspirator 1 assisted Mr. Trump in using knowingly false claims of election fraud in furtherance of the charged conspiracies. At press conferences,[^181] at hearings before legislatures in the targeted states,[^182] and directly with officials in the targeted states,[^183] Co-Conspirator 1 made a wide range of specific (though ever-changing) false claims of election fraud. Co-Conspirator 1 continued to do so after his lies were publicly or directly debunked.[^184] Co-Conspirator l's involvement spanned from his insistence that Mr. Trump declare victory on election night 185 to the voicemails 186 that Co-Conspirator 1 left for Senators on the night of January 6, using false claims of election fraud to ask that the legislators further delay the certification. Co-Conspirator 2 was instrumental in Mr. Trump's efforts to organize his electors to cast fraudulent votes and send them to the Vice President, and then to pressure the Vice President to use the fraudulent electoral certificates to overturn the election results. Throughout his involvement in Mr. Trump's conspiracies, Co-Conspirator 2 conceded privately to other attorneys (both private attorneys and those responsible for advising Mr. Trump and the Vice President) that his plans violated federal law and would not withstand scrutiny in court.[^187]
 
 %%page 57%%
 
-See ECF No.[^252] at 43 & nn.217-2 I 8; see, e.g., SCO-04976260 (Video of Four Seasons Total Landscaping Press 181 Conference 11/07/2020); SCO-04976264 (Video of RNC Press Conference 11/19/2020). 182See ECF No.[^252] at 19-20 & nn.83-85,[^21] & n.97,[^25] & nn. l 19-120,[^39] & nn.195-197; SCO-04976265 at 15:52- 30:00 (Video of Pennsylvania Hotel Hearing 11/25/2020); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-04976326 at 25:00-31:05 (Video of Michigan House Committee Meeting 12/02/2020); SCO-04976332 at 0 1:04:50-01:10:25 (Video of Georgia Senate Judiciary Subcommittee Hearing 12/03/2020).
-
-See ECF No.[^252] at 19 & nn.77-82,[^33] & nn.163-164,[^34] & nn.168-169; SCO-11545470 at 53 (Int. Tr.); 183 SCO-00829361 at 20-22 (HSC Tr.); SCO-00312350 (Text messages from Co-Conspirator 1 12/07/2020); SCO-05390337-05390346 (Text messages 12/08/2020); SCO-11508370 at 62-64 (Int. Tr.).
+See ECF No.[^252] at 43 & nn.217-2 I 8; see, e.g., SCO-04976260 (Video of Four Seasons Total Landscaping Press
 
 %%page 58%%
 
@@ -605,7 +583,7 @@ Cases interpreting Section 2383 are scarce and arose in contexts that provided l
 
 To establish a violation of Section 2383, the Office would first have had to prove that the violence at the Capitol on January 6, 2021, constituted an "insurrection against the authority of the United States or the laws thereof," and then prove that Mr. Trump "incite[d]" or "assist[ed]" the insurrection, or "g[ave] aid or comfort thereto."[^18] U.S.C. § 2383.
 
-Courts have found or described the attack on the Capitol as an insurrection. In Anderson v. Griswold, 543 P.3d 283, 329 (Colo. 2023), rev 'd on other grounds sub nom. Trump v. Anderson, 601 U.S. 100 (2024) (per curiam), the Colorado Supreme Court found that Mr. Trump engaged in an insurrection as that term is used in Section Three of the Fourteenth Amendment. Federal courts in the District of Columbia have also used the term "insurrection" to describe the attack on the Capitol, but did so in cases where there was no criminal charge under Section 2383.
+Courts have found or described the attack on the Capitol as an insurrection. In Anderson v. Griswold, 543 P.3d 283, 329 (Colo. 2023), rev 'd on other grounds sub nom. Trump v. Anderson, 601 U.S.[^100] (2024) (per curiam), the Colorado Supreme Court found that Mr. Trump engaged in an insurrection as that term is used in Section Three of the Fourteenth Amendment. Federal courts in the District of Columbia have also used the term "insurrection" to describe the attack on the Capitol, but did so in cases where there was no criminal charge under Section 2383.
 
 %%page 63%%
 
@@ -707,33 +685,13 @@ throughout the charged criminal conspiracies, to threats and encouragement of vi
 
 %%page 76%%
 
-80 million followers. 199 Inevitably, threats and intimidation to these officials followed.[^20] ° For instance, after Mr. Trump targeted a Philadelphia City Commissioner in a Tweet criticizing the
+80 million followers. 199 Inevitably, threats and intimidation to these officials followed.[^20] ° For instance, after Mr. Trump targeted a Philadelphia City Commissioner in a Tweet criticizing the Commissioner for stating that there was no evidence of widespread election fraud in Philadelphia,[^201] threats against the Commissioner grew more targeted, more detailed, and more graphic.[^202] These threats extended to include highly personal information like the names and ages of the Commissioner's family members, as well as photos or the address of his home.[^203] Fulton County, Georgia, election officials similarly reported receiving threats-including death threats-following Mr. Trump's false public accusations against Fulton County election workers.[^204]
 
-Commissioner for stating that there was no evidence of widespread election fraud in
-
-Philadelphia, 201 threats against the Commissioner grew more targeted, more detailed, and more graphic. 202 These threats extended to include highly personal information like the names and ages of the Commissioner's family members, as well as photos or the address of his home. 203
-
-Fulton County, Georgia, election officials similarly reported receiving threats-including death threats-following Mr. Trump's false public accusations against Fulton County election workers. 204
-
-Mr. Trump also targeted private citizens who served as election workers. He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day; he and his co-conspirators spread pernicious false claims that these election workers had committed misconduct. 205 Although the lies were promptly and publicly
+Mr. Trump also targeted private citizens who served as election workers. He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day; he and his co-conspirators spread pernicious false claims that these election workers had committed misconduct.[^205] Although the lies were promptly and publicly
 
 199 See ECF No.[^252] at 18 & nn.73-76,[^20] & n.88, 26-27 & nn.123-126,[^28] & n.132,[^31] & n.146,[^40] & n.206; see, e.g., SCO-00456209, SCO-00715415 (Donald J. Trump Tweet 11/11/2020); SCO-00455691, SCO-12858431 (Donald J. Trump Retweet 11/30/2020); SCO-00455690, SCO-12987528 (Donald J. Trump Tweet 11/30/2020); SCO-00455536, SCO-12858636 (Donald J. Trump Retweet 12/06/2020). 200See ECF No.[^252] at 21 & nn.92-93,[^38] & nn.192-194; SCO-11545129 at 86-88 (Int. Tr.); SCO-00767550 at 52- 54 (HSC Tr.).
 
-See ECF No.[^252] at 38 & n.193; SCO-12876770 at 02:20-04:13 (Video of Interview with CNN 11/11/2020); 201
-
-SCO-00456209, SCO-12987659 (Donald J. Trump Tweet 11/11/2020).
-
-See ECF No.[^252] at 38 & n.194; SCO-11545129 at 87 (Int. Tr.); SCO-04976349 at 02:03: 17-02:04:[^10] (Video of 202
-
-HSC Hearing).
-
-See ECF No.[^252] at 38 & n.194; SCO-11545129 at 87 (Int. Tr.); SCO-04976349 at 02:03:17-02:04:10 (Video of 203
-
-HSC Hearing). 204 SCO-11507432 at 46-50, 57-62 (Int. Tr.); SCO-11528118 at 54-62 (Int. Tr.).
-
-See ECF No.[^252] at 25-26 & nn.119-122; SCO-04976332 at 33:30-01:04:37 (Video of Georgia Senate Judiciary 205
-
-Subcommittee Hearing 12/03/2020); SCO-00455601, SCO-12987506 (Donald J. Trump Tweet 12/03/2020); SCO-04976279 at 0 1:36:58-02:0 l :58 (Video of Georgia House Committee Hearing 12/10/2020).
+See ECF No.[^252] at 38 & n.193; SCO-12876770 at 02:20-04:13 (Video of Interview with CNN 11/11/2020);
 
 %%page 77%%
 
@@ -751,11 +709,11 @@ Mr. Trump took aim at Mr. Pence when Mr. Pence repeatedly informed Mr. Trump tha
 
 In addition to prompting these threats against the targets of Mr. Trump's criticisms, Mr. Trump's words inspired his supporters to commit acts of physical violence. On January 6, Mr. Trump used his Ellipse speech to direct his supporters to "go[] to the Capitol" and "fight like hell." 213 He explicitly licensed them, not long after Co-Conspirator 1 had exhorted the crowd to engage in "trial by combat," 214 to operate under "very different rules" 215 because fraud was allegedly involved. And he told them they were "not going to let it happen," 216 urging them to stop the election certification proceeding that was about to begin.
 
-The people who took Mr. Trump at his word formed a massive crowd that broke onto restricted Capitol grounds and into the building, violently attacking law enforcement officers protecting the Capitol and those inside. Officers have described being assaulted by rioters wielding bear spray, metal bats and flag poles, and other improvised weapons. 217 A Metropolitan Police Department (MPD) commander recounted that the scene was "a non-stop barrage of just strikes, with weapons and things being thrown, and pepper spray, and you name it. Everything being hurled at these [officers]. You could hear them yelling. You could hear them, screams and moans, and everything else." 218 Multiple officers stated that they feared for their lives when among the rioters that day. One MPD officer put that fear at "a hundred percent" from the moment he entered the crowd, and he explained that he thought he might die: "You know, you're
+The people who took Mr. Trump at his word formed a massive crowd that broke onto restricted Capitol grounds and into the building, violently attacking law enforcement officers protecting the Capitol and those inside. Officers have described being assaulted by rioters wielding bear spray, metal bats and flag poles, and other improvised weapons.[^217] A Metropolitan Police Department (MPD) commander recounted that the scene was "a non-stop barrage of just strikes, with weapons and things being thrown, and pepper spray, and you name it. Everything being hurled at these [officers]. You could hear them yelling. You could hear them, screams and moans, and everything else."[^218] Multiple officers stated that they feared for their lives when among the rioters that day. One MPD officer put that fear at "a hundred percent" from the moment he entered the crowd, and he explained that he thought he might die: "You know, you're
 
 213See ECF No.[^252] at 77 & nn.437, 440; SCO-02244118 at 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021). rn SCO-04949418 at 02:22:07 (Video of Save America Rally O1/06/2021). 215 SCO-02244118 at 20 (Remarks by Mr. Trump at Save America Rally Ol /06/2021 ). 216 !d. at 2.
 
-See ECF No.[^252] at 82 & nn.475-476; SCO-11506096 at 125-126 (Int. Tr.); SCO-11506269 at 38-39 (Int. Tr.); 217 SCO-12808448 at 127-128 (Int. Tr.); SCO-11520948 at 95-97 (Int. Tr.); SCO-12997436 at 64 ( United States v. Irwin & Richter, No. 21-cr-589, Trial Day I Tr. 01/22/2024). 218 SCO-11529214 at 98 (Int. Tr.).
+See ECF No.[^252] at 82 & nn.475-476; SCO-11506096 at 125-126 (Int. Tr.); SCO-11506269 at 38-39 (Int. Tr.);
 
 %%page 79%%
 
@@ -833,7 +791,7 @@ During Mr. Trump's impeachment trial, his counsel insisted that the outcome of t
 
 ### Mr. Trump's Conduct Had No Historical Analogue
 
-During pretrial litigation, Mr. Trump contended that his conduct was materially indistinguishable from that of other actors throughout American history-including past Presidents and Vice Presidents-who had either claimed that an election was tainted by fraud or presided over a certification proceeding at the joint session where electoral votes were in dispute. Mr. Trump further argued that because those actors had not been prosecuted for their purportedly similar conduct, it would be unconstitutional to prosecute him for his conduct, because doing so would either violate his right to fair notice, see ECF No.[^113] at 25-31; ECF No.[^114] at 28-31, or result in selective or vindictive prosecution, see ECF No. 116 at 6-8. That is, even accepting that
+During pretrial litigation, Mr. Trump contended that his conduct was materially indistinguishable from that of other actors throughout American history-including past Presidents and Vice Presidents-who had either claimed that an election was tainted by fraud or presided over a certification proceeding at the joint session where electoral votes were in dispute. Mr. Trump further argued that because those actors had not been prosecuted for their purportedly similar conduct, it would be unconstitutional to prosecute him for his conduct, because doing so would either violate his right to fair notice, see ECF No.[^113] at 25-31; ECF No.[^114] at 28-31, or result in selective or vindictive prosecution, see ECF No.[^116] at 6-8. That is, even accepting that
 
 %%page 91%%
 
@@ -841,7 +799,7 @@ Mr. Trump engaged in the conduct alleged in the indictment, and that such conduc
 
 The historical episodes that Mr. Trump invoked-arising from elections in 1800, 1824, 1876, 1960, 2000, 2004, and 2016-did not involve similar conduct and did not supply a valid reason to decline to bring charges here. In litigation, the Office addressed each historical episode he cited and explained why none was meaningfully similar to the charged conduct. See ECF No.[^139] at 40-47; ECF No. 141 at 6-9. Taken together, those episodes showed that "[t]here have been times, as in 1800, 1876, and 1960, when genuine questions have arisen over which slate of electors from a particular state has been duly appointed"; "[t]here have also been times, as in 1824, when the failure of any candidate to obtain a majority of electoral votes has thrown the election to the House of Representatives"; and "there have been times, as in 2000, 2004, and 2016, when those dissatisfied with the results have sought to raise objections to the electoral vote count, resulting in either the objections being overruled or, in one case, a brief adjournment designed as an Ohio-focused protest vote without 'the hope or even the hint of overturning the victory of the President."' ECF No.[^139] at 46-47 (quoting 151 CONG. REC. 199 (Jan. 6, 2005)). But none of the historical episodes at issue involved "any attempt by any person to use fraud and deceit to obstruct or defeat the governmental function that would result in the certification of the lawful winner of a presidential election." Id. at 40-47; see ECF No. 141 at 6-9.
 
-The district court found that there were no historical analogues to Mr. Trump's alleged criminal conduct. When Mr. Trump filed a motion to dismiss the indictment on a claim that he was being selectively prosecuted because of a historical "track record of similar, unprosecuted, efforts" to challenge elections, see ECF No. 116 at 6, the district court rejected it, explaining that
+The district court found that there were no historical analogues to Mr. Trump's alleged criminal conduct. When Mr. Trump filed a motion to dismiss the indictment on a claim that he was being selectively prosecuted because of a historical "track record of similar, unprosecuted, efforts" to challenge elections, see ECF No.[^116] at 6, the district court rejected it, explaining that
 
 %%page 92%%
 
@@ -1331,7 +1289,7 @@ Court Opinion & Order (Defendant's Motion for Pretrial Rule 17(c)[^165] 11/27/20
 
 171,172 12/1/2023 Dismiss Based on Presidential Immunity and Constitutional
 
-Grounds) 176 12/5/2023 Government's Notice Pursuant to Federal Rule of Evidence 404(b) 181 12/9/2023 Government's Opposition to Defendant's Discovery Motions
+Grounds)[^176] 12/5/2023 Government's Notice Pursuant to Federal Rule of Evidence 404(b)[^181] 12/9/2023 Government's Opposition to Defendant's Discovery Motions
 
 Government's Opposition to Defendant's Motion to Stay 182 12/10/2023
 
@@ -1937,11 +1895,21 @@ Sincerely yours,
 
 [^98]: See ECF No. 252 at 74 & n.412, 140 & n.648; SCO-00013901 at 59-60; SCO-02241925 (Save America Rally Draft Speech 01/06/2021); SCO-00017298 at 135-139; SCO-00842413 at 163-165 (HSC Tr.); SCO-02343119 (Email among Speechwriting staff 01/06/2021); SCO-02343413 (Email from Speechwriter 01/06/2021); SCO-00006256 at 160; SCO-11522446 at 26 (Int. Rep.).
 
+[^99]: Mr. Trump's speech at the Ellipse on January 6, 2021, was a Campaign event. The rally at which Mr. Trump spoke was planned and executed by private political supporters, and it was completely funded by a $2.1 million private donation. Mr. Trump promoted the event using the word "rally," a word connoting a private political effort, and Mr. Trump's White House staff recognized the event to be a private, unofficial exercise. Finally, the speech itself used campaign language and closely resembled Mr. Trump's other campaign speeches, including one he had given in Dalton, Georgia, for the Senate runoff election just two days earlier. See ECF No. 252 at 118-126 & nn.577-598. See ECF No. 252 at 75-76 & nn.423-428; SCO-02244118 at 3, 6, 11-12, 16-17 (Remarks by Mr. Trump at Save
+
+[^100]: America Rally 01/06/2021).
+
 [^101]: See ECF No. 1 at~ 98; SCO-00015613 at 155-156.
 
 [^102]: See ECF No. 252 at 77 & nn.432-436; SCO-02244118 at 19-20 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
 
 [^103]: See SCO-02244118 at 6 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
+
+[^109]: See ECF No. 252 at 78 & n.448; see also, e.g., SCO-12876233 at 02:20-03:50 (Video of Capitol Riot 01/06/2021). See ECF No. 252 at 78-79 & n.450, 82 & n.477; SCO-12806961 at 56:56, SCO-12919902 at 38:59,
+
+[^110]: SCO-00029113, SCO-12738292, SCO-12806977 at 04:30 (Videos of Capitol Riot 01/06/2021); see also SCO-11506096 at 61-63 (Int. Tr.).
+
+[^111]: See ECF No. 252 at 82 & nn.475-477; see also, e.g., SCO-12919902 at 38:48, SCO-12738292, SCO-12806977 at 04:30, SCO-12738332, SCO-12919680 at 54:30 (Videos of Capitol Riot 01/06/2021).
 
 [^112]: Perry Stein, Aaron C. Davis, Spencer S. Hsu, and Tom Jackman, FBI did not hm·e undercol-·er agents at Jan. 6 riots, watchdog says, WASH. POST (Dec. 12, 2024), https://v.,-ww.washingtonpost.com/national­ security/2024/ 12/ 12/fbi-jan-6-report/.
 
@@ -1950,6 +1918,8 @@ Sincerely yours,
 [^114]: Hanvwing scenes fivm tl,e Jan 6 U S. Capitol attack. REUTER.s (Oct. 13, 2022), https://\vv-lw.reuters.com/news/picture/harwwing-scenes-from-the-jan-6-rn;-capit-idUSRTSC60V8/.
 
 [^115]: Aaron Blake, More Republicans now coll Jan. 6 a 'legitimate protest ' than a 'riot, ' WASH. POST (July 7, 2022). https://www.washingtonpost.com/politic.s/2022/07/07/many-republicans-no-louger-call-jan-6-an-insurrection-or­ even-riot/.
+
+[^116]: Capitol Hill Viole.nee, lHE CHRONICLE OF PHil..ANTHR.OPY (Jan. 7, 2021), https://v,-ww.philanthropy.com/article/ho1,v ­ nonprofit-and-foundation-leaders-are-responding-to-capitol-hill-violence.
 
 [^117]: Eric Westervelt, Off-Duty Police Officers Investigated. Charged With Participating In Capitol Riot, NPR (Ja.n. l S, 2021 ). https://www.npr.org/202 l/O l/ l S/956896923/police-officers-across-nation-face-federal-charges-for­ involvement-i.n-capitol-ri.
 
@@ -1982,6 +1952,10 @@ Sincerely yours,
 [^138]: See ECF No. 252 at 83 & nn.482-483; SCO-04976301 at 03:00-05:35 (Video of Waco Rally 03/25/2023); SCO-12982756 at 35:50-36:21 (Video of Greensboro Rally 03/02/2024).
 
 [^139]: See United States v. Nichols, No. 21-mj-29, ECF No. 9 (E.D. Tex. Jan. 25, 2021) (ordering pretrial detention in prosecution of defendant who later became a member of the "January 6 choir"); United States v. Nichols, No. 2 l-cr- 117, ECF No. 75 (D.D.C. Dec. 23, 2021) (denying defendant's motion for pretrial release); id, ECF No. 307 at 27 n. IO, 35-36 (D.D.C. Apr. 30, 2024) (government sentencing memorandum referencing defendant's involvement in "January 6 choir"); see also United States v. Mink, No. 21-mj-105, ECF No. 19 (W.D. Pa. Jan. 29, 2021) (in prosecution of defendant who later became a member of the "January 6 choir," ordering defendant's pretrial detention); United States v. 1vfink, No. 21-cr-25, ECF No. 45 (D.D.C. Dec. 13, 2021) (court order denying defendant's motion to revoke pretrial detention); United States v. Sandlin, No. 21-mj-110, ECF No. 8 (D. Nev. Feb. 3, 2021) (ordering pretrial detention in prosecution of defendant who later became a member of the "January 6 choir"); United States v. Sandlin, No. 2 l-cr-88, ECF No. 31 (D.D.C. Apr. 13, 2021) (denying defendant's motion for release on bond); id., ECF Nos. 44, 44-1 (D.D.C. Aug. 31, 2021) (mandate return following denial of defendant's appeal of pretrial detention order); United States v. Shively, No. 21-cr-151, ECF No. 42 (D.D.C. May 9, 2022) (in prosecution of defendant who later became a member of the "January 6 choir," revoking conditions of release and ordering pretrial detention); United States v. Khater, No. 21-cr-222, ECF No. 25 (D.D.C. May 12, 2021) (in prosecution of defendant who later became a member of the "January 6 choir," denying defendant's motion for release from custody); United States v. McGrew, No. 21-cr-398, ECF No. 40 (D.D.C. Nov. 2, 2021) (order of detention pending trial in prosecution of defendant who later became a member of the "January 6 choir").
+
+[^148]: See ECF No. 252 at 14 & nn.52-53, 20 & nn.86-87, 23 & n.106, 33 & n.165, 38 & n.192, 42 & n.212, 42-43 & n.216, 46 & nn.238-239; see also supra at n.12; SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020); SCO-11509450 at 103-104 (Int. Tr.); SCO-03036930 (Joint Statement on Election Security 11/12/2020); SCO-04952679 (Tweet 11/17/2020); SCO-07167983 (Email from GOP Comms Alert circulating Associated Press article titled "Barr: No evidence of fraud that'd change election outcome" 12/01/2020). See ECF No. 252 at 15 & nn.55-59; SCO-04976384 at 20:46-21:05 (Common Sense episode 89 11/25/2020);
+
+[^149]: SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-06628641 at 18:52-19:42 (War Room episode 608 12/24/2020); SCO-06628646 at 35:19-35:45 (War Room episode 625 0l/02/2021).
 
 [^150]: See ECF No. 252 at 15 & n.55; SCO-04976384 at 20:46-21:05 (Common Sense episode 89 l l/25/2020).
 
@@ -2035,13 +2009,29 @@ Sincerely yours,
 
 [^175]: See ECF No. 252 at 37-38 & nn.187-190; SCO-02244118 at 11-12 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-00016926 at 20-24.
 
+[^176]: See ECF No. 252 at 17 & nn.67-68, I 8 & n.72, 29-30 & nn.139-144, 32 & n.159; SCO- 12733339 at 4 (Int. Rep.); SCO-00767550 at 10-11 (HSC Tr.); SCO-11509251 at 41-42 (Int. Tr.); SCO-12998394 at 1-3 (Tr. of Georgia Secretary of State Call O1/02/2021); SCO-00829361 at 16-17 (HSC Tr.).
+
+[^177]: See ECF No. 252 at 67 & n.365; SCO-00014655 at 155-158, 170-171; SCO-04982309 (Handwritten notes 12/29/2020); SCO-049823 30 at I (Handwritten notes OI /04/2021 ). See ECF No. 252 at 75-76 & nn.423-428; SCO-02244118 at 6, 12-22 (Remarks by Mr. Trump at Save America
+
+[^178]: Rally O1/06/2021).
+
 [^179]: See ECF No. 252 at 50 & n.260, 53 & n.282; SCO-00009955 at 8-11; SCO-12949797 at 82-83 (Int. Tr.); SCO-00016926 at 48-50; SCO-00009540 at 15-19.
 
 [^180]: See ECF No. 252 at 56 & n.30 I; SCO-02341381 (Fraudulent "Arizona's Electoral Votes for President and Vice President"); SCO-023413 86 (Fraudulent "Georgia's Electoral Votes for President and Vice President"); SCO-02341398 (Fraudulent "Michigan's Electoral Votes for President and Vice President"); SCO-02341415 (Fraudulent "Nevada's Electoral Votes for President and Vice President"); SCO-02341409 (Fraudulent "New Mexico's Electoral Votes for President and Vice President"); SCO-02341435 (Fraudulent "Pennsylvania's Electoral Votes for President and Vice President"); SCO-02341449 (Fraudulent "Wisconsin's Electoral Votes for President and Vice President"). Even in Pennsylvania and New Mexico, where the fraudulent certificates contained future contingent language, the cover memoranda and envelopes sent to Congress represented that the documents were the state's "Electoral Votes for President and Vice President."
 
+[^181]: Conference 11/07/2020); SCO-04976264 (Video of RNC Press Conference 11/19/2020).
+
+[^182]: See ECF No. 252 at 19-20 & nn.83-85, 21 & n.97, 25 & nn. l 19-120, 39 & nn.195-197; SCO-04976265 at 15:52- 30:00 (Video of Pennsylvania Hotel Hearing 11/25/2020); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-04976326 at 25:00-31:05 (Video of Michigan House Committee Meeting 12/02/2020); SCO-04976332 at 0 1:04:50-01:10:25 (Video of Georgia Senate Judiciary Subcommittee Hearing 12/03/2020). See ECF No. 252 at 19 & nn.77-82, 33 & nn.163-164, 34 & nn.168-169; SCO-11545470 at 53 (Int. Tr.);
+
+[^183]: SCO-00829361 at 20-22 (HSC Tr.); SCO-00312350 (Text messages from Co-Conspirator 1 12/07/2020); SCO-05390337-05390346 (Text messages 12/08/2020); SCO-11508370 at 62-64 (Int. Tr.).
+
 [^184]: See ECF No. 252 at 14 & n.53, 23 & nn.105-106; see also, e.g., SCO-04976279 at 01:36:58-02:01:58 (Video of Georgia House Committee Hearing 12/10/2020); SCO-04952956 (Tweet 12/04/2020); SCO-04976277 at 08:44- 09: l 0 (Video of Georgia Secretary of State Press Conference 12/07/2020); supra at n. 12.
 
-[^185]: See ECF No. 252 at 7 & n.15; SCO-00003548 at 61-62; SCO-00016750 at 31-35. See ECF No. 252 at 84 & nn.488-492; SCO-04134777 (Voicemail from Co-Conspirator 1 01/06/2021); 186 SCO-064 75675 (Voicemail from Co-Conspirator l 01/06/2021). See ECF No. 252 at 61 & nn.324-326, 63 & n.336, 66 & n.356, 69 & n.384; SCO-00007167 at 66; 187 SCO-02248764 at 3 (Email from Co-Conspirator 2 01/06/21 ); SCO-12245492 (Email from Co-Conspirator 2
+[^185]: See ECF No. 252 at 7 & n.15; SCO-00003548 at 61-62; SCO-00016750 at 31-35. See ECF No. 252 at 84 & nn.488-492; SCO-04134777 (Voicemail from Co-Conspirator 1 01/06/2021);
+
+[^186]: SCO-064 75675 (Voicemail from Co-Conspirator l 01/06/2021). See ECF No. 252 at 61 & nn.324-326, 63 & n.336, 66 & n.356, 69 & n.384; SCO-00007167 at 66;
+
+[^187]: SCO-02248764 at 3 (Email from Co-Conspirator 2 01/06/21 ); SCO-12245492 (Email from Co-Conspirator 2
 
 [^188]: See ECF No. 252 at 11-12 & nn.32-35; SCO-12920242 at 1, 4, 7 (Int. Rep.); SCO-00006256 at 44-52; SCO-12945 I 95 (Email ll/28/2020); SCO-00764172 at 26-27 (HSC Tr.); SCO-11532925 at 70-71 (Int. Tr.); SCO-00014655 at 68-73.
 
@@ -2065,9 +2055,23 @@ Sincerely yours,
 
 [^198]: See ECF No. 252 at 19 & nn.77-82, 29 & n.137, 65 & n.349, 67 & n.364, 71 & nn.392-398, 73-74 & nn.410-411; supra at Section l; see also, e.g., SCO-02295943 at 3 (Presidential Daily Diary 11/22/2020); SCO-00767550 at 9- 12 (HSC Tr.); SCO-12998394 at 12 (Tr. of Georgia Secretary of State Call 01/02/2021).
 
+[^201]: SCO-00456209, SCO-12987659 (Donald J. Trump Tweet 11/11/2020). See ECF No. 252 at 38 & n.194; SCO-11545129 at 87 (Int. Tr.); SCO-04976349 at 02:03: 17-02:04: 10 (Video of
+
+[^202]: HSC Hearing). See ECF No. 252 at 38 & n.194; SCO-11545129 at 87 (Int. Tr.); SCO-04976349 at 02:03:17-02:04:10 (Video of
+
+[^203]: HSC Hearing).
+
+[^204]: SCO-11507432 at 46-50, 57-62 (Int. Tr.); SCO-11528118 at 54-62 (Int. Tr.). See ECF No. 252 at 25-26 & nn.119-122; SCO-04976332 at 33:30-01:04:37 (Video of Georgia Senate Judiciary
+
+[^205]: Subcommittee Hearing 12/03/2020); SCO-00455601, SCO-12987506 (Donald J. Trump Tweet 12/03/2020); SCO-04976279 at 0 1:36:58-02:0 l :58 (Video of Georgia House Committee Hearing 12/10/2020).
+
 [^211]: See ECF No. 1 at ,r 113; see ECF No. 252 at 81 & n.467; SCO-12738318 (Video of Capitol Riot 01/06/2021).
 
 [^212]: See ECF No. 1 at if 113; see ECF No. 252 at 81 & n.466; SCO-12876211 (Video of Capitol Riot 01/06/2021).
+
+[^217]: SCO-12808448 at 127-128 (Int. Tr.); SCO-11520948 at 95-97 (Int. Tr.); SCO-12997436 at 64 ( United States v. Irwin & Richter, No. 21-cr-589, Trial Day I Tr. 01/22/2024).
+
+[^218]: SCO-11529214 at 98 (Int. Tr.).
 
 [^219]: See ECF No. 252 at 82 & nn.475-476; SCO-11506096 at 126 (Int. Tr.).
 

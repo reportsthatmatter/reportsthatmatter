@@ -367,3 +367,41 @@ describe("page blocks", () => {
     expect(merged.some((b) => b.kind === "page")).toBe(true);
   });
 });
+
+describe("stacked footnote layout", () => {
+  it("finds notes whose number sits on its own line", () => {
+    const result = splitPage(
+      page([
+        "Body text here.",
+        "",
+        "109",
+        "    4/2010 Evaluation of Federal Regulatory Oversight, report prepared by the",
+        "Offices of Inspector General at the Department of the Treasury.",
+        "110",
+        "    See 3/1/2007 Washington Mutual Inc. 10-K filing with the SEC, at 56.",
+      ]),
+      109
+    );
+    expect(result.footnotes.length).toBeGreaterThan(0);
+    const notes = parseFootnotes(result.footnotes, 60);
+    expect(notes.map((n) => n.number)).toEqual([109, 110]);
+    expect(notes[0].text).toContain("Offices of Inspector General");
+    expect(notes[1].text).toBe(
+      "See 3/1/2007 Washington Mutual Inc. 10-K filing with the SEC, at 56."
+    );
+  });
+
+  it("still reads the inline layout", () => {
+    const notes = parseFootnotes(
+      ["154 See ECF No. 252 at 15.", "155 SCO-04976407 at 03:29."],
+      1
+    );
+    expect(notes.map((n) => n.number)).toEqual([154, 155]);
+    expect(notes[0].text).toBe("See ECF No. 252 at 15.");
+  });
+
+  it("does not treat a lone number with no prose beneath it as a note", () => {
+    const notes = parseFootnotes(["42", "", "17"], 1);
+    expect(notes).toHaveLength(0);
+  });
+});

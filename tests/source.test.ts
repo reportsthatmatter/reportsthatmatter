@@ -3,7 +3,7 @@ import { loadReportMarkdown } from "../src/lib/source";
 
 vi.mock("../src/lib/bundled", () => ({
   bundledReports: {
-    "reports/samples/us-senate-wall-street-and-financial-crisis/full.md":
+    "reports/us-psi-financial-crisis/full.md":
       "# Bundled Report",
   },
 }));
@@ -14,7 +14,7 @@ describe("source", () => {
     process.env.REPORTS_SOURCE = "bundled";
 
     const markdown = await loadReportMarkdown(
-      "reports/samples/us-senate-wall-street-and-financial-crisis/full.md"
+      "reports/us-psi-financial-crisis/full.md"
     , "bundled");
     expect(markdown).toContain("Bundled Report");
 
@@ -23,7 +23,7 @@ describe("source", () => {
 
   it("loads markdown from source_path", async () => {
     const markdown = await loadReportMarkdown(
-      "reports/samples/us-senate-wall-street-and-financial-crisis/full.md"
+      "reports/us-psi-financial-crisis/full.md"
     , "local");
     expect(markdown).toContain("#");
   });

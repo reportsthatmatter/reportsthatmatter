@@ -32,6 +32,14 @@ export const LEGACY_PATHS = [
   "/feed.xml",
 ];
 
+/**
+ * Report ids that have changed. A citable URL is the product, so a renamed
+ * report redirects rather than 404s — including within our own short history.
+ */
+export const RENAMED_REPORTS: Record<string, string> = {
+  "us-senate-wall-street-and-financial-crisis": "us-psi-financial-crisis",
+};
+
 export function isLegacyPath(pathname: string): boolean {
   return LEGACY_PATHS.some(
     (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`)
@@ -108,6 +116,13 @@ app.get("/about", (c) => c.html(renderAbout()));
 app.get("/reports/:id", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const reportId = c.req.param("id");
+  const renamed = RENAMED_REPORTS[reportId];
+  if (renamed) {
+    const url = new URL(c.req.url);
+    url.pathname = `/reports/${renamed}`;
+    return c.redirect(url.toString(), 301);
+  }
+
   const registry = await loadRegistry(sourceMode);
   const report = registry.reports.find((entry) => entry.id === reportId);
 

@@ -4,9 +4,9 @@ import { loadRegistry } from "../src/lib/registry";
 vi.mock("../src/lib/bundled", () => ({
   registryText: [
     "reports:",
-    "  - id: us-senate-wall-street-and-financial-crisis",
+    "  - id: us-psi-financial-crisis",
     "    title: \"Wall Street and the Financial Crisis: Anatomy of a Financial Collapse\"",
-    "    source_path: reports/samples/us-senate-wall-street-and-financial-crisis/full.md",
+    "    source_path: reports/us-psi-financial-crisis/full.md",
   ].join("\n"),
 }));
 
@@ -16,7 +16,7 @@ describe("registry", () => {
     process.env.REPORTS_SOURCE = "bundled";
 
     const registry = await loadRegistry("bundled");
-    expect(registry.reports[0].id).toBe("us-senate-wall-street-and-financial-crisis");
+    expect(registry.reports[0].id).toBe("us-psi-financial-crisis");
 
     process.env.REPORTS_SOURCE = original;
   });
@@ -27,7 +27,7 @@ describe("registry", () => {
     // Order is editorial and changes as reports are published; assert on the
     // contents rather than the position.
     const ids = registry.reports.map((report) => report.id);
-    expect(ids).toContain("us-senate-wall-street-and-financial-crisis");
+    expect(ids).toContain("us-psi-financial-crisis");
     expect(ids).toContain("jack-smith-vol1");
   });
 

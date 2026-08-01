@@ -2,32 +2,47 @@ import { normaliseWhitespace } from "./extract";
 
 export type Footnote = { number: number; text: string; page: number };
 
-const NOTE_START = /^\s{0,8}(\d{1,4})\s{0,3}(?=[A-Za-z"“(])/;
+const NOTE_INLINE = /^\s{0,8}(\d{1,4})\s{0,3}(?=[A-Za-z"“(])/;
+const NOTE_STACKED = /^\s{0,10}(\d{1,4})\s*$/;
 
 /**
- * Parses a page's footnote block into individual notes. Continuation lines are
- * folded into the note above them.
+ * Parses a page's footnote block into individual notes, in either layout —
+ * number inline with its text, or number alone on its line with the text
+ * beneath. Continuation lines fold into the note above them.
  */
 export function parseFootnotes(lines: string[], page: number): Footnote[] {
   const notes: Footnote[] = [];
 
+  const append = (text: string) => {
+    const last = notes[notes.length - 1];
+    if (!last) return;
+    last.text = normaliseWhitespace(`${last.text} ${text}`);
+  };
+
   for (const line of lines) {
     if (!line.trim()) continue;
-    const match = line.match(NOTE_START);
-    if (match) {
+
+    const inline = line.match(NOTE_INLINE);
+    if (inline) {
       notes.push({
-        number: Number.parseInt(match[1], 10),
-        text: normaliseWhitespace(line.slice(match[0].length)),
+        number: Number.parseInt(inline[1], 10),
+        text: normaliseWhitespace(line.slice(inline[0].length)),
         page,
       });
-    } else if (notes.length) {
-      notes[notes.length - 1].text = normaliseWhitespace(
-        `${notes[notes.length - 1].text} ${line}`
-      );
+      continue;
     }
+
+    const stacked = line.match(NOTE_STACKED);
+    if (stacked) {
+      notes.push({ number: Number.parseInt(stacked[1], 10), text: "", page });
+      continue;
+    }
+
+    append(line);
   }
 
-  return notes;
+  // A stacked note whose text never arrived carries nothing worth keeping.
+  return notes.filter((note) => note.text);
 }
 
 /**

@@ -313,10 +313,12 @@ agreement first, because they change the repo layout and the release process.
   a directory per report? Per-report is cleaner for big PDFs and independent
   history; one repo is far less admin. I lean to one `reports` repo with a
   directory each until the count or the PDF sizes force a split.
-- **Do we commit the source PDFs?** They are the provenance anchor, and 28 MB
-  each. Git LFS, or a manifest of URLs plus checksums and no binary in git? I
-  lean to checksums — cheaper, and it makes tampering detectable, which is the
-  actual reason to care.
+- ~~**Do we commit the source PDFs?**~~ **Decided 2026-08-02: yes, archive them
+  in the report repos.** They are key source material and government sites are
+  exactly the thing that rots — `us-psi-financial-crisis` already does this and
+  it is why the Wall Street report could be re-ingested at all. Note the size:
+  that repo carries 275 MB of PDFs, mostly hearing transcripts. Worth adding
+  checksums alongside so tampering is detectable, but the binaries stay.
 - **Is `/full` the canonical URL or is the split one?** Affects what we
   put in `<link rel="canonical">` and what gets shared.
 - **How much does matching the PDF's own pagination matter to you?** It drives

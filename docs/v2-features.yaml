@@ -70,12 +70,19 @@
 
 - id: wall-street-reingest
   desc: >
-    The legacy Wall Street sample predates the pipeline — page numbers stranded
-    mid-text, almost no headings. Needs re-ingesting from its source PDF, which
-    we do not currently hold. Marked ingested:false meanwhile.
+    Re-ingested from the source PDF held in the us-psi-financial-crisis repo.
+    645 pages, 162 headings (was 2), 2,725 notes, 98.3% retained. Old id
+    redirects to the new one.
   verify: entry passes the fidelity gate with ingested:true
-  passes: false
-  blocked: source PDF not held
+  passes: true
+
+- id: footnote-layouts
+  desc: >
+    Footnote numbers appear either inline with their text or alone on a line
+    with the text beneath. Supporting only the first found 7 notes in a document
+    with thousands.
+  verify: both layouts covered by tests; PSI report yields >1000 notes
+  passes: true
 
 - id: deploy
   desc: Deployed and verified on Cloudflare

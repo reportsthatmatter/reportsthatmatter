@@ -60,7 +60,7 @@ describe("routes", () => {
 
   it("renders report detail with paragraph anchors and share affordance", async () => {
     const res = await app.request(
-      "http://localhost/reports/us-senate-wall-street-and-financial-crisis"
+      "http://localhost/reports/us-psi-financial-crisis"
     );
     expect(res.status).toBe(200);
     const body = await res.text();
@@ -178,5 +178,24 @@ describe("legacy site handling", () => {
     const res = await app.request("https://www.reportsthatmatter.org/reports");
     expect(res.status).toBe(301);
     expect(res.headers.get("location")).toBe("https://reportsthatmatter.org/reports");
+  });
+});
+
+describe("renamed reports", () => {
+  it("redirects the old report id rather than 404ing", async () => {
+    const res = await app.request(
+      "https://reportsthatmatter.org/reports/us-senate-wall-street-and-financial-crisis"
+    );
+    expect(res.status).toBe(301);
+    expect(res.headers.get("location")).toBe(
+      "https://reportsthatmatter.org/reports/us-psi-financial-crisis"
+    );
+  });
+
+  it("keeps the paragraph anchor across the rename", async () => {
+    const res = await app.request(
+      "https://reportsthatmatter.org/reports/us-senate-wall-street-and-financial-crisis?p=some-passage"
+    );
+    expect(res.headers.get("location")).toContain("?p=some-passage");
   });
 });

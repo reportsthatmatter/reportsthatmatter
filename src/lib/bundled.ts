@@ -1,5 +1,5 @@
 import registryText from "../../reports/registry.yaml";
-import wallStreet from "../../reports/samples/us-senate-wall-street-and-financial-crisis/full.md";
+import wallStreet from "../../reports/us-psi-financial-crisis/full.md";
 import jackSmithVol1 from "../../reports/jack-smith-vol1/full.md";
 
 export { registryText };
@@ -10,6 +10,6 @@ export { registryText };
  * the deploy output as more reports land here.
  */
 export const bundledReports: Record<string, string> = {
-  "reports/samples/us-senate-wall-street-and-financial-crisis/full.md": wallStreet,
+  "reports/us-psi-financial-crisis/full.md": wallStreet,
   "reports/jack-smith-vol1/full.md": jackSmithVol1,
 };
