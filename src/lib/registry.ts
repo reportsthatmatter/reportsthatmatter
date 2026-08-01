@@ -8,6 +8,8 @@ export type ReportRegistry = {
     published_at?: string;
     source_path: string;
     overview_path?: string;
+    /** Canonical location of the original document. */
+    source_url?: string;
   }>;
 };
 

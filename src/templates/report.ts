@@ -18,6 +18,11 @@ export function renderReport(meta: ReportMeta, html: string): string {
         <p class="kicker mono">Report</p>
         <h1>${escapeHtml(meta.title)}</h1>
         ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}
+        ${
+          meta.source_url
+            ? `<p class="byline mono"><a href="${escapeHtml(meta.source_url)}" rel="nofollow">Original document ↗</a></p>`
+            : ""
+        }
       </div>
     </header>
     <div class="prose wrap measure" id="report-body">

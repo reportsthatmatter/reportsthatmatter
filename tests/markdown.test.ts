@@ -59,3 +59,25 @@ describe("slugify", () => {
     expect(slugify("Section 1: The Findings!")).toBe("section-1-the-findings");
   });
 });
+
+describe("permalink placement", () => {
+  const between = (html: string, open: string, close: string) =>
+    html.slice(html.indexOf(open), html.indexOf(close) + close.length);
+
+  it("does not put a permalink inside a list item", () => {
+    const html = renderMarkdown("- One item\n\n- Two item\n\nA real paragraph.");
+    expect(between(html, "<ul>", "</ul>")).not.toContain("permalink");
+  });
+
+  it("still numbers top-level paragraphs around a list", () => {
+    const html = renderMarkdown("First.\n\n- item\n\nSecond.");
+    expect(html).toContain('id="p-1"');
+    expect(html).toContain('id="p-2"');
+    expect(html).not.toContain('id="p-3"');
+  });
+
+  it("does not put a permalink inside a block quote", () => {
+    const html = renderMarkdown("> Quoted text.\n\nBody.");
+    expect(between(html, "<blockquote>", "</blockquote>")).not.toContain("permalink");
+  });
+});

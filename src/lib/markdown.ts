@@ -44,13 +44,19 @@ export function renderMarkdown(markdown: string): string {
   const defaultParagraphOpen = md.renderer.rules.paragraph_open;
 
   md.renderer.rules.paragraph_open = (tokens, idx, options, env, self) => {
+    const open = () =>
+      defaultParagraphOpen
+        ? defaultParagraphOpen(tokens, idx, options, env, self)
+        : self.renderToken(tokens, idx, options);
+
+    // Only top-level paragraphs are citable units. A paragraph nested in a list
+    // item or a block quote would put its marker in the middle of the line.
+    if (tokens[idx].level !== 0) return open();
+
     paragraphCount += 1;
     const id = `p-${paragraphCount}`;
     tokens[idx].attrSet("id", id);
-    const open = defaultParagraphOpen
-      ? defaultParagraphOpen(tokens, idx, options, env, self)
-      : self.renderToken(tokens, idx, options);
-    return `${open}<a class="permalink" href="#${id}" aria-label="Link to paragraph ${paragraphCount}">¶</a>`;
+    return `${open()}<a class="permalink" href="#${id}" aria-label="Link to paragraph ${paragraphCount}">¶</a>`;
   };
 
   return md.render(content);

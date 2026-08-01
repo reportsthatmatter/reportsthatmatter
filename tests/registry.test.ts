@@ -24,6 +24,18 @@ describe("registry", () => {
   it("loads reports from YAML", async () => {
     const registry = await loadRegistry("local");
     expect(registry.reports.length).toBeGreaterThan(0);
-    expect(registry.reports[0].id).toBe("us-senate-wall-street-and-financial-crisis");
+    // Order is editorial and changes as reports are published; assert on the
+    // contents rather than the position.
+    const ids = registry.reports.map((report) => report.id);
+    expect(ids).toContain("us-senate-wall-street-and-financial-crisis");
+    expect(ids).toContain("jack-smith-vol1");
+  });
+
+  it("gives every report a source path", async () => {
+    const registry = await loadRegistry("local");
+    for (const report of registry.reports) {
+      expect(report.source_path, `${report.id} has no source_path`).toBeTruthy();
+      expect(report.title, `${report.id} has no title`).toBeTruthy();
+    }
   });
 });

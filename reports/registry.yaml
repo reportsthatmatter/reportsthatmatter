@@ -1,5 +1,18 @@
 reports:
+  - id: jack-smith-vol1
+    title: "Report of Special Counsel Jack Smith, Volume One: The Election Case"
+    authors: "Jack Smith, Special Counsel, U.S. Department of Justice"
+    published_at: "January 2025"
+    source_path: reports/jack-smith-vol1/full.md
+    source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
+    ingested: true
+
+  # Legacy hand-made extraction, predating the ingestion pipeline. It still has
+  # page numbers stranded mid-text and almost no heading structure, so it is
+  # excluded from the fidelity gate until it is re-ingested from its source PDF
+  # (which we do not currently hold). Tracked in docs/v2-features.yaml.
   - id: us-senate-wall-street-and-financial-crisis
+    ingested: false
     title: "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse"
     authors: "U.S. Senate Permanent Subcommittee on Investigations"
     published_at: "2011"
