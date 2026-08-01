@@ -134,3 +134,49 @@ describe("extractParagraph", () => {
     expect(extractParagraph("<p id=\"a\">text</p>", "b")).toBeNull();
   });
 });
+
+describe("legacy site handling", () => {
+  it("recognises the previous site's sections", async () => {
+    const { isLegacyPath } = await import("../src/index");
+    expect(isLegacyPath("/iraq-inquiry")).toBe(true);
+    expect(isLegacyPath("/iraq-inquiry/")).toBe(true);
+    expect(isLegacyPath("/enron-report/whatever")).toBe(true);
+    expect(isLegacyPath("/reports/jack-smith-vol1")).toBe(false);
+    expect(isLegacyPath("/")).toBe(false);
+  });
+
+  it("redirects a legacy path once the old site has a home", async () => {
+    const res = await app.request(
+      "https://reportsthatmatter.org/iraq-inquiry/",
+      {},
+      { LEGACY_HOST: "old.reportsthatmatter.org" }
+    );
+    expect(res.status).toBe(301);
+    expect(res.headers.get("location")).toBe(
+      "https://old.reportsthatmatter.org/iraq-inquiry/"
+    );
+  });
+
+  it("explains itself instead of 404ing blankly when there is nowhere to send them", async () => {
+    const res = await app.request("https://reportsthatmatter.org/iraq-inquiry/");
+    expect(res.status).toBe(404);
+    const body = await res.text();
+    expect(body).toContain("That page has moved");
+    expect(body).toContain("gh-pages");
+  });
+
+  it("does not touch current paths", async () => {
+    const res = await app.request(
+      "https://reportsthatmatter.org/reports",
+      {},
+      { LEGACY_HOST: "old.reportsthatmatter.org" }
+    );
+    expect(res.status).toBe(200);
+  });
+
+  it("redirects www to the apex", async () => {
+    const res = await app.request("https://www.reportsthatmatter.org/reports");
+    expect(res.status).toBe(301);
+    expect(res.headers.get("location")).toBe("https://reportsthatmatter.org/reports");
+  });
+});

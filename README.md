@@ -2,17 +2,33 @@
 
 Reports that Matter turns hard-to-access public reports into searchable, readable, and linkable web pages so primary evidence can be easily found and referenced.
 
+## Where it lives
+
+| | URL |
+| --- | --- |
+| **Live site** | <https://reportsthatmatter.org> |
+| Preview / direct worker | <https://reportsthatmatter.office-d34.workers.dev> |
+| Previous site (archived) | [`gh-pages` branch](https://github.com/reportsthatmatter/reportsthatmatter/tree/gh-pages) — to be republished at `old.reportsthatmatter.org` |
+
+The preview URL bypasses the zone (no cache, no routes), which makes it the one
+to check when the live site looks stale. `scripts/verify.sh` runs against either:
+
+```bash
+./scripts/verify.sh                                          # local worker
+VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh  # deployed
+```
+
+Cloudflare account: `office@atomatic.net`. Deploy with `pnpm wrangler deploy`.
+
 ## Plans
 
+- [ROADMAP.md](docs/ROADMAP.md) — the master feature list, ordered by distribution
+- [Architecture](docs/plans/2026-08-01-architecture.md) — storage, splitting, permalink stability
+- [Loop engineering setup](docs/plans/2026-08-01-loop-engineering-setup.md)
 - [MARKETING.md](docs/MARKETING.md)
   - [Landing Page Brief](docs/plans/brief-landing-page.md)
 - [PRODUCT.md](docs/PRODUCT.md)
-
-## Next step ⏭️
-
-Next concrete build step ...
-
-- [ ] static one-page site
+- [CLAUDE.md](CLAUDE.md) — house rules and the done condition
 
 ## Developers
 

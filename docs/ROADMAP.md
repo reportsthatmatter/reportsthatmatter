@@ -39,6 +39,7 @@ Nothing else on this list matters until this does.
 | soon | **Contents / in-page navigation** | Follows directly from splitting; a 169-page document needs a spine. |
 | soon | **Reading position + progress** | Long documents; cheap to do, disproportionately nice. |
 | later | **Full-text search** | Big item, wants its own design pass — see below. Becomes *necessary* once we split, because splitting removes ctrl-F as the way to find things. |
+| soon | **Visual texture / illustration** | Co-Star's illustration is a large part of why it reads as designed rather than merely clean. We have no visual texture at all. Likely direction: a treated facsimile of a real report page — aged, high-contrast, possibly lightly animated — so the homepage shows the thing we rescue documents *from*. Direction is open; the point is that the touches matter. Two notes: it is a **distribution** item as much as a reading one (an illustration is what makes the site screenshot-able, and it is the raw material for the quote cards above — build them together), and if the source is a facsimile of a real document it should be one we have the rights to and ideally one we have published, so the image is itself evidence rather than decoration. |
 | later | **Better report landing pages** | Provenance, summary, why this report matters. Currently we drop readers straight into the text. |
 | someday | **Side-by-side original page images** | The strongest possible answer to "is this faithful?". Expensive. |
 

@@ -5,17 +5,64 @@ import { loadReportMarkdown } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport } from "./templates/report";
 import { renderAbout } from "./templates/about";
+import { renderNotFound } from "./templates/not-found";
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
   ASSETS?: { fetch: (request: Request) => Promise<Response> };
   /** "bundled" reads reports from the worker bundle, otherwise from disk. */
   REPORTS_SOURCE?: string;
+  /** Where the pre-V2 site now lives, e.g. "old.reportsthatmatter.org". */
+  LEGACY_HOST?: string;
 };
+
+/**
+ * Sections of the previous site. The domain has real traffic and years of
+ * inbound links, so these must not become dead ends just because we replaced
+ * what sits at the root.
+ */
+export const LEGACY_PATHS = [
+  "/iraq-inquiry",
+  "/enron-report",
+  "/psi-financial-crisis",
+  "/climate-action-us-senate-2014",
+  "/new-inquiries",
+  "/pages",
+  "/search",
+  "/feed.xml",
+];
+
+export function isLegacyPath(pathname: string): boolean {
+  return LEGACY_PATHS.some(
+    (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`)
+  );
+}
 
 export const app = new Hono<{ Bindings: Bindings }>();
 
 app.get("/health", (c) => c.text("ok"));
+
+// Send the old site's URLs to wherever the old site now lives, before any
+// route can claim them.
+app.use("*", async (c, next) => {
+  const url = new URL(c.req.url);
+
+  // One canonical host, so links and analytics do not split in two.
+  if (url.hostname.startsWith("www.")) {
+    url.hostname = url.hostname.slice(4);
+    return c.redirect(url.toString(), 301);
+  }
+
+  const legacyHost = c.env?.LEGACY_HOST;
+  if (legacyHost && isLegacyPath(url.pathname)) {
+    url.host = legacyHost;
+    url.protocol = "https:";
+    url.port = "";
+    return c.redirect(url.toString(), 301);
+  }
+
+  await next();
+});
 
 app.get("/assets/*", async (c) => {
   if (c.env?.ASSETS) {
@@ -65,7 +112,7 @@ app.get("/reports/:id", async (c) => {
   const report = registry.reports.find((entry) => entry.id === reportId);
 
   if (!report) {
-    return c.text("Report not found", 404);
+    return c.html(renderNotFound(false), 404);
   }
 
   const markdown = await loadReportMarkdown(report.source_path, sourceMode);
@@ -75,5 +122,9 @@ app.get("/reports/:id", async (c) => {
   // the query string that lets a shared link preview the passage it points at.
   return c.html(renderReport(report, html, c.req.query("p")));
 });
+
+app.notFound((c) =>
+  c.html(renderNotFound(isLegacyPath(new URL(c.req.url).pathname)), 404)
+);
 
 export default app;

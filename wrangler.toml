@@ -7,8 +7,20 @@ rules = [
   { type = "Text", globs = ["**/*.md", "**/*.yaml"], fallthrough = true }
 ]
 
+# Keep the workers.dev URL alive alongside the custom routes: it is the
+# preview/comparison URL and it is what verify.sh points at with VERIFY_BASE.
+workers_dev = true
+
+routes = [
+  { pattern = "reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
+  { pattern = "www.reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
+]
+
 [vars]
 REPORTS_SOURCE = "bundled"
+# Set once old.reportsthatmatter.org resolves; until then the previous site's
+# URLs get an explanatory 404 rather than a redirect into nowhere.
+LEGACY_HOST = ""
 
 [assets]
 directory = "assets"
