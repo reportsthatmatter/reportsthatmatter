@@ -2,10 +2,18 @@ import { Hono } from "hono";
 import { loadRegistry } from "./lib/registry";
 import { renderMarkdown } from "./lib/markdown";
 import { loadReportMarkdown } from "./lib/source";
-import { renderIndex } from "./templates/index";
+import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport } from "./templates/report";
+import { renderAbout } from "./templates/about";
 
-export const app = new Hono();
+export type Bindings = {
+  /** Cloudflare static-assets binding; absent under local Node/vitest. */
+  ASSETS?: { fetch: (request: Request) => Promise<Response> };
+  /** "bundled" reads reports from the worker bundle, otherwise from disk. */
+  REPORTS_SOURCE?: string;
+};
+
+export const app = new Hono<{ Bindings: Bindings }>();
 
 app.get("/health", (c) => c.text("ok"));
 
@@ -45,8 +53,10 @@ app.get("/", async (c) => {
 app.get("/reports", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const registry = await loadRegistry(sourceMode);
-  return c.html(renderIndex(registry));
+  return c.html(renderReportsIndex(registry));
 });
+
+app.get("/about", (c) => c.html(renderAbout()));
 
 app.get("/reports/:id", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
@@ -61,7 +71,7 @@ app.get("/reports/:id", async (c) => {
   const markdown = await loadReportMarkdown(report.source_path, sourceMode);
   const html = renderMarkdown(markdown);
 
-  return c.html(renderReport(report.title, html));
+  return c.html(renderReport(report, html));
 });
 
 export default app;

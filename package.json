@@ -10,6 +10,7 @@
     "dev": "wrangler dev --local"
   },
   "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.10.2",
     "playwright": "^1.49.0",
     "tsx": "^4.19.2",

@@ -1,22 +1,37 @@
-import { renderLayout } from "./layout";
+import { renderLayout, escapeHtml } from "./layout";
 
-export function renderReport(title: string, html: string): string {
+export type ReportMeta = {
+  title: string;
+  authors?: string;
+  published_at?: string;
+  source_url?: string;
+};
+
+export function renderReport(meta: ReportMeta, html: string): string {
+  const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
+
   const body = `
-    <main class="px-[6vw] pb-24">
-      <div class="max-w-3xl mx-auto">
-        <div class="mb-8">
-          <p class="text-xs uppercase tracking-[0.2em] text-[#5a5861]">Report</p>
-          <h1 class="brand-serif mt-3 text-4xl font-semibold">${title}</h1>
-        </div>
-        <div class="report-body text-[1.05rem] leading-8 text-[#1b1a1f]">
-          ${html}
-        </div>
+<main>
+  <article>
+    <header class="report-header wrap">
+      <div class="measure">
+        <p class="kicker mono">Report</p>
+        <h1>${escapeHtml(meta.title)}</h1>
+        ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}
       </div>
-    </main>
-  `;
+    </header>
+    <div class="prose wrap measure" id="report-body">
+      ${html}
+    </div>
+  </article>
+</main>
+<div class="share-pop" id="share-pop" role="dialog" aria-label="Share selection">
+  <button type="button" data-action="copy-link">Copy link</button>
+  <button type="button" data-action="copy-quote">Copy quote</button>
+</div>`;
 
-  return renderLayout(title, body, [
-    { label: "Home", href: "/" },
-    { label: "Reports", href: "/reports" },
-  ]);
+  return renderLayout(`${meta.title} — Reports that Matter`, body, {
+    description: `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
+    scripts: ["/assets/share.js"],
+  });
 }

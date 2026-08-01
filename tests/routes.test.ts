@@ -31,10 +31,16 @@ describe("routes", () => {
     const res = await app.request("http://localhost/");
     expect(res.status).toBe(200);
     const body = await res.text();
-    expect(body).toContain("https://cdn.tailwindcss.com");
     expect(body).toContain("Reports that Matter");
-    expect(body).toContain("href=\"#reports\"");
+    expect(body).toContain('href="/reports"');
     expect(body).toContain("Wall Street and the Financial Crisis");
+  });
+
+  it("serves the design system stylesheet, not a CDN framework", async () => {
+    const res = await app.request("http://localhost/");
+    const body = await res.text();
+    expect(body).toContain('href="/assets/styles.css"');
+    expect(body).not.toContain("cdn.tailwindcss.com");
   });
 
   it("renders report index", async () => {
@@ -42,16 +48,38 @@ describe("routes", () => {
     expect(res.status).toBe(200);
     const body = await res.text();
     expect(body).toContain("Reports");
+    expect(body).toContain("Wall Street and the Financial Crisis");
   });
 
-  it("renders report detail", async () => {
+  it("renders the about page", async () => {
+    const res = await app.request("http://localhost/about");
+    expect(res.status).toBe(200);
+    const body = await res.text();
+    expect(body).toContain("made accessible");
+  });
+
+  it("renders report detail with paragraph anchors and share affordance", async () => {
     const res = await app.request(
       "http://localhost/reports/us-senate-wall-street-and-financial-crisis"
     );
     expect(res.status).toBe(200);
     const body = await res.text();
     expect(body).toContain("Wall Street and the Financial Crisis");
-    expect(body).toContain("id=\"p-1\"");
-    expect(body).toContain("max-w-3xl");
+    expect(body).toContain('id="p-1"');
+    expect(body).toContain('class="permalink" href="#p-1"');
+    expect(body).toContain('id="share-pop"');
+    expect(body).toContain("/assets/share.js");
+  });
+
+  it("returns 404 for an unknown report", async () => {
+    const res = await app.request("http://localhost/reports/does-not-exist");
+    expect(res.status).toBe(404);
+  });
+
+  it("escapes markup in report titles", async () => {
+    const { renderReport } = await import("../src/templates/report");
+    const html = renderReport({ title: "<script>alert(1)</script>" }, "<p>body</p>");
+    expect(html).not.toContain("<script>alert(1)</script>");
+    expect(html).toContain("&lt;script&gt;");
   });
 });
