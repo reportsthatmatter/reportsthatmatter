@@ -94,12 +94,25 @@
 
 - id: permalink-stability
   desc: >
-    Paragraph ids are positional, so re-ingesting a report renumbers every
-    citation made against it — silently, and still resolving, just to the wrong
-    text. Anchor on printed page numbers instead, which the pipeline already
-    extracts and discards. Settle before the next re-ingest.
-  verify: re-ingesting a report leaves existing anchors pointing at the same text
-  passes: false
+    Paragraph ids derive from the paragraph's opening words, not its position,
+    so re-ingesting no longer renumbers citations. Printed page numbers are also
+    emitted as #page-N anchors — the unit these documents are actually cited by.
+  verify: verify.sh fails if any positional "p-N" id reappears
+  passes: true
+
+- id: sidenotes
+  desc: Footnotes render beside the sentence they support, collapsing to
+    tap-to-open below 68rem
+  verify: verify.sh checks for rendered sidenotes on reports that have notes
+  passes: true
+
+- id: quote-preview-links
+  desc: >
+    ?p=<id> makes a shared link preview the passage it points at, so a tweet
+    shows the quote rather than site boilerplate. A fragment never reaches the
+    server, hence the query string.
+  verify: /reports/<id>?p=<paragraph> sets a quoted meta description
+  passes: true
 
 - id: split-reports
   desc: >

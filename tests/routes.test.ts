@@ -85,3 +85,52 @@ describe("routes", () => {
     expect(html).toContain("&lt;script&gt;");
   });
 });
+
+describe("share previews", () => {
+  it("previews the quoted passage when a paragraph is named", async () => {
+    const first = await app.request("http://localhost/reports/jack-smith-vol1");
+    const id = (await first.text()).match(/<p id="([a-z0-9-]+)"/)?.[1];
+    expect(id).toBeTruthy();
+
+    const res = await app.request(
+      `http://localhost/reports/jack-smith-vol1?p=${id}`
+    );
+    const body = await res.text();
+    const description = body.match(/<meta name="description" content="([^"]*)"/)?.[1];
+    expect(description).toMatch(/^“.+” — Report of Special Counsel/);
+    expect(description).not.toContain("Read the full text with linkable");
+  });
+
+  it("falls back to the report description without a paragraph", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    const body = await res.text();
+    expect(body).toContain("Read the full text with linkable paragraphs");
+  });
+
+  it("ignores a paragraph id that does not exist", async () => {
+    const res = await app.request(
+      "http://localhost/reports/jack-smith-vol1?p=not-a-real-paragraph"
+    );
+    expect(res.status).toBe(200);
+    const body = await res.text();
+    expect(body).toContain("Read the full text with linkable paragraphs");
+  });
+});
+
+describe("extractParagraph", () => {
+  it("strips the sidenote and its marker from the quoted passage", async () => {
+    const { extractParagraph } = await import("../src/templates/report");
+    const html =
+      '<p id="x"><a class="permalink" href="#x">¶</a>He replied ' +
+      '<label class="sidenote-toggle" for="sn-1-1"><sup>1</sup></label>' +
+      '<input class="sidenote-checkbox" id="sn-1-1" type="checkbox" />' +
+      '<span class="sidenote"><sup>1</sup> Interview transcript at 12.</span>' +
+      " so what?</p>";
+    expect(extractParagraph(html, "x")).toBe("He replied so what?");
+  });
+
+  it("returns null for an unknown id", async () => {
+    const { extractParagraph } = await import("../src/templates/report");
+    expect(extractParagraph("<p id=\"a\">text</p>", "b")).toBeNull();
+  });
+});

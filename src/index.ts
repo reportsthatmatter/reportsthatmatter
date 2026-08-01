@@ -71,7 +71,9 @@ app.get("/reports/:id", async (c) => {
   const markdown = await loadReportMarkdown(report.source_path, sourceMode);
   const html = renderMarkdown(markdown);
 
-  return c.html(renderReport(report, html));
+  // `?p=` mirrors the fragment. A fragment never reaches the server, so it is
+  // the query string that lets a shared link preview the passage it points at.
+  return c.html(renderReport(report, html, c.req.query("p")));
 });
 
 export default app;

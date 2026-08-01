@@ -1,85 +1,96 @@
 # Roadmap
 
-Roadmap for MVP (1-2 weeks of effort)
+The master list of what we might build and why. Ordered by **what gets people
+to the reports**, not by what is technically interesting — we can build the most
+beautiful archive on the web and it will not matter if nobody visits.
 
-**Engineering**: a single, fully-styled flagship report page. A user can read the report on any device, and use a desktop-first "highlight-to-share" feature to create a canonical link to a specific passage. This delivers on the core "Read → Share" user path and provides the first shareable asset.
+Working state lives in [`v2-features.yaml`](v2-features.yaml) (per-item, machine
+checked). This file is the thinking: what, why, and how much it is worth.
 
-**Marketing**: Our marketing MVP is to prove the core distribution loop. We will launch one flagship report as a public story, driving target users from a social media post directly to a specific, highlighted passage within the report. Success means validating that this user journey is compelling and can spark initial, measurable engagement with the primary source material.
-
-## Plan (Marketing-Led)
-
-### Chunk 1 (1-2h): Prepare the Flagship Story & Asset
-
-**Goal:** Define the specific content and narrative for the first public launch.
-
-- [ ] **Marketing Task:** Draft the short "why this matters" narrative for the flagship report (e.g., the US Senate Wall Street report), which will be used for the social media post.
-- [ ] **Content Task:** Finalize the full Markdown for that same report, ensuring it's clean and ready for rendering.
-- [ ] **Technical Task:** Add the report to the registry (`reports/registry.yaml`) to create its canonical URL.
-
-### Chunk 2 (1-2h): Build the Polished "Landing Zone"
-
-**Goal:** Ensure the destination for the marketing link is professional and visually consistent.
-
-- [ ] **Tasks:** This is the core styling work. Refactor the design from `site/index.html` into a shared layout and apply it to the report renderer. The page must look complete.
-
-### Chunk 3 (2-3h): Engineer the "Shareable Moment"
-
-**Goal:** Create the "atomic unit of sharing" that makes the content go viral.
-
-- [ ] **Tasks:** Implement the desktop highlight-to-share functionality. This feature directly serves the marketing goal by allowing the creation of deep links to compelling quotes, which can be used in the initial post and by subsequent readers.
-
-### Chunk 4 (1h): Publish, Distribute, and Verify
-
-**Goal:** Get the story circulating publicly and confirm it works.
-
-- [ ] **Marketing Task:** Post the narrative on Twitter/X, linking directly to a highlighted quote within the live report page.
-- [ ] **Technical Task:** Ensure the latest version of the site is deployed and the report URL is live and accessible.
-- [ ] **Verification:** Manually click the link from the social post and verify the entire user journey works as expected.
-
-## v1 (deprecated)
-
-### Product / App (build foundations)
-
-- [ ] **Report page primitive**
-  - [ ] Define minimal HTML/Markdown schema (title, provenance, summary, sections, deep links).
-
-- [ ] **Highlight & share spike**
-  - [ ] Write UX sketch: text selection → share box → canonical snippet URL.
-  - [ ] Decide anonymous-first vs login-gated (decision only).
-
-- [ ] **Content ingestion path**
-  - [ ] Decide canonical ingestion format (PDF → text → Markdown).
-  - [ ] Select one report to ingest end-to-end as proof.
+Status: **shipped** · **next** · **soon** · **later** · **someday**
 
 ---
 
-### Marketing / Narrative
+## Distribution — getting people here
 
-- [ ] **Homepage content finalisation**
-  - [ ] Freeze v1 homepage copy.
-  - [ ] Identify 2–3 screenshots/diagrams to commission or reuse.
+Nothing else on this list matters until this does.
 
-- [ ] **One flagship story**
-  - [ ] Draft a short “why this matters” case using a single inquiry as narrative hook.
-  - [ ] Prepare this as the anchor blog post.
+| | Item | Why it earns its place |
+| --- | --- | --- |
+| shipped | **Paragraph permalinks** | The atomic unit of sharing. Without it there is nothing to link to but a 174-page document. |
+| shipped | **Highlight-to-share** | Turns a reader into a distributor at the moment they find something worth quoting. |
+| shipped | **Stable ids** | A shared link that rots is worse than no link. Text-derived, so re-ingestion cannot silently repoint it. |
+| shipped | **Quote-preview links** | `?p=<id>` makes a shared link preview *the passage*, not boilerplate. A tweet showing the damning quote is a different object from one showing a site description. |
+| **next** | **Launch the Jack Smith report** | The whole point. Thread + first excerpts, drafted in-repo, posted by Rufus. |
+| **next** | **Quote cards (image)** | Twitter previews with an image get far more engagement than text cards. Needs `og:image` — either Cloudflare Browser Rendering or an SVG→PNG in the Worker. Highest-leverage unbuilt marketing item. |
+| soon | **@ReportsThatMatter excerpt account** | Evidence-first, no commentary; a reference archive that accretes. Plan in `2026-01-13-twitter-launch-campaign.md`. |
+| soon | **Sitemap + structured data** | These documents should be *the* search result for phrases they contain. Cheap, compounding. |
+| later | **Analytics we actually read** | Cloudflare says ~3k uniques/month and we do not know what they look at. Answering that should precede guessing. |
+| someday | **Newsletter / alerts on new reports** | Only once there is a publishing cadence to subscribe to. |
+
+## Reading — making it worth the visit
+
+| | Item | Why |
+| --- | --- | --- |
+| shipped | **Design system** | Pared-down editorial after Co-Star. Serious documents should look serious. |
+| shipped | **Sidenotes** | A footnote you travel to is a footnote nobody reads, and in these reports the citation *is* the evidence. |
+| shipped | **Printed page anchors** | Cite the way lawyers and journalists already cite: "Report at 62", checkable against the PDF. |
+| **next** | **Split reports into sections** | Wall Street is a **2.9 MB page**. The document's own structure gives 17 parts, median 9.5 KB. Currently the worst thing about actually reading here. |
+| soon | **Contents / in-page navigation** | Follows directly from splitting; a 169-page document needs a spine. |
+| soon | **Reading position + progress** | Long documents; cheap to do, disproportionately nice. |
+| later | **Full-text search** | Big item, wants its own design pass — see below. Becomes *necessary* once we split, because splitting removes ctrl-F as the way to find things. |
+| later | **Better report landing pages** | Provenance, summary, why this report matters. Currently we drop readers straight into the text. |
+| someday | **Side-by-side original page images** | The strongest possible answer to "is this faithful?". Expensive. |
+
+## Content — more to read
+
+| | Item | Why |
+| --- | --- | --- |
+| shipped | **Ingestion pipeline + fidelity gates** | The reusable engine. Every report goes through it. |
+| **next** | **Footnote recall** | 206 of ~283 notes are placed; the rest leave bare markers in the prose and no sidenote. Most visible remaining quality gap. |
+| soon | **Heading completeness** | Titles wrapping more than twice still truncate. |
+| soon | **More reports** | The archive is two. Candidates in `brief-2026-01-13-good-reports.md`. |
+| soon | **Re-ingest the Wall Street sample** | Predates the pipeline; page numbers stranded mid-text, almost no headings. Needs its source PDF, which we do not hold. |
+| later | **OCR review workflow** | 91 suspects sit in `fidelity.md` with nothing to action them. |
+| later | **Contributor path for reports** | `contribute-reports.md` exists; nothing implements it. |
+
+## Platform — keeping it standing
+
+| | Item | Why |
+| --- | --- | --- |
+| shipped | **Cloudflare deploy + prod verification** | Including a `VERIFY_BASE` mode, after `/health` flapped 200/404 in production only. |
+| **next** | **Custom domain** `v2.reportsthatmatter.org` | One dashboard route. It is what we would actually put in a tweet. |
+| soon | **Reports out of the main repo** | Ingestion is per-report and messy; the site repo should not carry that churn. See the architecture doc. |
+| soon | **Pre-render at build time** | Stop re-parsing 2 MB of markdown per request; serve prepared HTML from static assets. |
+| later | **R2 for report storage** | Bundling caps out at ~20-25 reports. Not urgent at two; put the lookup behind an interface now so the swap is one module. |
+| later | **Redirects / alias table** | For when ids or URLs do move, so citations survive. |
+| someday | **Multiple environments** | Only when a broken deploy would actually cost something. |
 
 ---
 
-### Distribution / Awareness
+## Full-text search — parked, deliberately
 
-- [ ] **Primary channel decision**
-  - [ ] Choose one initial channel (e.g. X or LinkedIn).
-  - [ ] Set a simple cadence (e.g. 3 posts/week for two weeks).
+The biggest single item on the list and the one most likely to be built badly if
+rushed. Parked until it can have its own design pass. What that pass has to
+settle:
 
-- [ ] **Shareable artefact**
-  - [ ] Define the atomic unit of sharing (quote card, paragraph permalink, stat).
-  - [ ] Produce one manual example to validate the pattern.
+- **Where the index lives.** Client-side (ship the index, works offline, but a
+  174-page report is a big download) versus server-side in the Worker
+  (D1? KV? an inverted index in R2?). These are different products.
+- **Scope.** Within a report, or across the archive? Cross-report is far more
+  valuable and considerably harder.
+- **What a result *is*.** For this project a search result should be a citable
+  passage with its page number — not a page title and a snippet.
+- **Index size and freshness** against the bundle limits already documented.
+
+Related but separate, and cheap: exposing a sitemap and letting Google do the
+indexing. Worth doing first, and it may reveal that external search covers more
+of the need than expected.
 
 ---
 
-### Operations / Focus
+## Recording new ideas
 
-- **Definition of done (v1)**
-  - One live homepage.
-  - One fully usable report page.
-  - One shareable story circulating publicly.
+Add them here, in the section they belong to, with a one-line *why*. An item
+with no why does not get built. When something becomes active work it moves into
+`v2-features.yaml` with a verification condition attached.

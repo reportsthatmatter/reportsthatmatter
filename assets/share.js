@@ -28,7 +28,10 @@
 
   function canonicalUrl(id) {
     var base = window.location.origin + window.location.pathname;
-    return id ? base + "#" + id : base;
+    if (!id) return base;
+    // The fragment positions the reader; the query string is what the server
+    // sees, and so what a link preview in a feed can be built from.
+    return base + "?p=" + encodeURIComponent(id) + "#" + id;
   }
 
   function hide() {

@@ -7,8 +7,54 @@ export type ReportMeta = {
   source_url?: string;
 };
 
-export function renderReport(meta: ReportMeta, html: string): string {
+/**
+ * Pulls a paragraph's plain text out of the rendered HTML.
+ *
+ * Reading it back off the render rather than recomputing it from the markdown
+ * means the preview can never disagree with the page — one source of ids.
+ */
+export function extractParagraph(html: string, id: string): string | null {
+  const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = html.match(new RegExp(`<p id="${escaped}"[^>]*>([\\s\\S]*?)</p>`));
+  if (!match) return null;
+
+  return match[1]
+    // Drop the whole sidenote apparatus — the citation text and the superscript
+    // marker. Left in, a quoted passage reads "…delay it.4 In service of…".
+    .replace(/<span class="sidenote">[\s\S]*?<\/span>/g, "")
+    .replace(/<label class="sidenote-toggle"[\s\S]*?<\/label>/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/¶/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function truncate(text: string, limit: number): string {
+  if (text.length <= limit) return text;
+  const cut = text.slice(0, limit);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${cut.slice(0, lastSpace > limit * 0.6 ? lastSpace : limit)}…`;
+}
+
+export function renderReport(
+  meta: ReportMeta,
+  html: string,
+  /** Paragraph id from `?p=`, used to preview the quoted passage when shared. */
+  highlighted?: string
+): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
+
+  // A link shared into a feed is judged entirely on its preview. When the link
+  // points at a passage, the preview should be that passage — not boilerplate
+  // about the site.
+  const quoted = highlighted ? extractParagraph(html, highlighted) : null;
+  const description = quoted
+    ? `“${truncate(quoted, 280)}” — ${meta.title}`
+    : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
 
   const body = `
 <main>
@@ -36,7 +82,7 @@ export function renderReport(meta: ReportMeta, html: string): string {
 </div>`;
 
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
-    description: `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
+    description,
     scripts: ["/assets/share.js"],
   });
 }
