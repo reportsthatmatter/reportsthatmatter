@@ -78,15 +78,36 @@
   blocked: source PDF not held
 
 - id: deploy
-  desc: Live and verified on v2.reportsthatmatter.org
+  desc: Deployed and verified on Cloudflare
+  verify: VERIFY_BASE=<url> ./scripts/verify.sh
+  passes: true
+  note: >
+    Live at https://reportsthatmatter.office-d34.workers.dev on the
+    office@atomatic.net account. The custom route v2.reportsthatmatter.org
+    still needs adding in the Cloudflare dashboard.
+
+- id: custom-domain
+  desc: v2.reportsthatmatter.org routes to the worker
   verify: https://v2.reportsthatmatter.org/health returns ok
   passes: false
-  blocked: >
-    No usable Cloudflare credential. ~/.config/cloudflare/apikey-edit-zones is
-    valid but scoped to the artearthtech account (43 zones, none of them
-    reportsthatmatter.org) and carries no account-level Workers permission.
-    Needs `pnpm wrangler login` on the owning account, or a token with
-    Workers Scripts: Edit + Workers Routes: Edit.
+  blocked: route must be added in the Cloudflare dashboard
+
+- id: permalink-stability
+  desc: >
+    Paragraph ids are positional, so re-ingesting a report renumbers every
+    citation made against it — silently, and still resolving, just to the wrong
+    text. Anchor on printed page numbers instead, which the pipeline already
+    extracts and discards. Settle before the next re-ingest.
+  verify: re-ingesting a report leaves existing anchors pointing at the same text
+  passes: false
+
+- id: split-reports
+  desc: >
+    One report is one page; the Wall Street report is a 2.9 MB page. Split on
+    the document's own level-2 sections (17 for Jack Smith, median 9.5 KB),
+    keeping a /full view for ctrl-F.
+  verify: no report page over 150 KB; /full still served
+  passes: false
 
 - id: design-review
   desc: Rufus reviews the Co-Star-derived design and gives feedback
