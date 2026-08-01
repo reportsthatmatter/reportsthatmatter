@@ -115,6 +115,22 @@ hr {
   text-decoration: none;
   letter-spacing: 0.01em;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* The seal is a bolder, more geometric mark than the typography around it.
+ * Kept small it reads as an official stamp — apt for inquiry documents —
+ * rather than competing with the wordmark. */
+.wordmark img {
+  width: 30px;
+  height: 30px;
+  flex: none;
+}
+
+@media (max-width: 30rem) {
+  .wordmark span { display: none; }
 }
 
 .site-nav {

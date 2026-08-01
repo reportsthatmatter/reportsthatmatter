@@ -16,6 +16,11 @@ import { renderMarkdown } from "../src/lib/markdown.ts";
 import { extractParagraph } from "../src/templates/report.ts";
 
 const root = join(import.meta.dirname, "..");
+
+// setContent() renders from about:blank, so the mark has to travel with the HTML.
+const logoDataUri = `data:image/png;base64,${readFileSync(
+  join(root, "assets/brand/logo-64.png")
+).toString("base64")}`;
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 
 /** Cache: rendering a 2 MB report to HTML is slow, and one report holds many quotes. */
@@ -97,6 +102,7 @@ for (const target of targets) {
     quote: target.quote ? target.quote.trim() : fitToCard(resolved.quote),
     reportTitle: resolved.report.title,
     page: resolved.page,
+    logoDataUri,
   });
 
   await page.setContent(html, { waitUntil: "networkidle" });

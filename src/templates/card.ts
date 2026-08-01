@@ -6,6 +6,8 @@ export type CardInput = {
   attribution?: string;
   /** Printed page in the source document, if known. */
   page?: string;
+  /** The seal, inlined — the renderer has no server to fetch it from. */
+  logoDataUri?: string;
 };
 
 /**
@@ -55,7 +57,11 @@ export function renderCard(input: CardInput): string {
     font-family: "EB Garamond", serif;
     font-size: 25px;
     letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
+  .mark img { width: 34px; height: 34px; }
   blockquote {
     font-family: "EB Garamond", serif;
     font-size: ${size}px;
@@ -83,7 +89,7 @@ export function renderCard(input: CardInput): string {
 </style>
 </head>
 <body>
-  <div class="mark">Reports that Matter</div>
+  <div class="mark"><img src="${input.logoDataUri ?? ""}" alt="" />Reports that Matter</div>
   <blockquote>${escapeHtml(wrapInQuotes(quote))}</blockquote>
   <footer>
     <span class="src">${escapeHtml(footer)}</span>
