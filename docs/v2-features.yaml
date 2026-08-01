@@ -1,0 +1,102 @@
+# V2 working ledger.
+#
+# One entry per feature. `passes` flips to true only when scripts/verify.sh is
+# green with that feature in place. Entries are never edited or removed to make
+# the goal pass — an entry that cannot be met is marked blocked, with a reason.
+#
+# Goal: every entry passes and scripts/verify.sh exits 0.
+
+- id: green-baseline
+  desc: A cold checkout installs, typechecks and tests clean
+  verify: scripts/init.sh
+  passes: true
+
+- id: verification-harness
+  desc: One command decides done — types, tests, HTTP, browser
+  verify: scripts/verify.sh exits 0
+  passes: true
+
+- id: design-system
+  desc: Pared-down editorial design, no CDN framework, light and consistent
+  verify: browser checks for canvas colour, serif display, nav, no overflow
+  passes: true
+
+- id: report-rendering
+  desc: A report renders as readable long-form prose at a comfortable measure
+  verify: e2e prose measure and font-size checks
+  passes: true
+
+- id: paragraph-permalinks
+  desc: Every body paragraph has a stable id, a ¶ anchor, and highlights on :target
+  verify: e2e permalink and :target checks
+  passes: true
+
+- id: highlight-to-share
+  desc: Selecting text offers a canonical link to the paragraph, or the quote plus link
+  verify: e2e share popover check
+  passes: true
+
+- id: ingestion-pipeline
+  desc: Deterministic PDF → Markdown with automated fidelity gates
+  verify: pnpm ingest verify
+  passes: true
+
+- id: jack-smith-published
+  desc: Jack Smith Volume One live on the site, passing its fidelity gate
+  verify: /reports/jack-smith-vol1 renders; fidelity checks green
+  passes: true
+
+- id: announcement-page
+  desc: /about explains the project for campaign traffic
+  verify: /about returns 200 with the standfirst copy
+  passes: true
+
+# --- open ---
+
+- id: footnote-recall
+  desc: >
+    Recover the remaining footnotes. 206 of roughly 283 are currently lifted;
+    the rest leave bare markers in the prose ("Thank you!" 129) because there is
+    no matching note to link to.
+  verify: footnote count within 5% of the highest note number in the source
+  passes: false
+
+- id: heading-completeness
+  desc: >
+    Section headings that wrap more than two lines still truncate
+    ("The substantial federal interest in protecting the integrity of the").
+  verify: no heading ends in a preposition or article
+  passes: false
+
+- id: wall-street-reingest
+  desc: >
+    The legacy Wall Street sample predates the pipeline — page numbers stranded
+    mid-text, almost no headings. Needs re-ingesting from its source PDF, which
+    we do not currently hold. Marked ingested:false meanwhile.
+  verify: entry passes the fidelity gate with ingested:true
+  passes: false
+  blocked: source PDF not held
+
+- id: deploy
+  desc: Live and verified on v2.reportsthatmatter.org
+  verify: https://v2.reportsthatmatter.org/health returns ok
+  passes: false
+  blocked: >
+    No usable Cloudflare credential. ~/.config/cloudflare/apikey-edit-zones is
+    valid but scoped to the artearthtech account (43 zones, none of them
+    reportsthatmatter.org) and carries no account-level Workers permission.
+    Needs `pnpm wrangler login` on the owning account, or a token with
+    Workers Scripts: Edit + Workers Routes: Edit.
+
+- id: design-review
+  desc: Rufus reviews the Co-Star-derived design and gives feedback
+  verify: human
+  passes: false
+
+- id: campaign-drafts
+  desc: >
+    Draft the launch thread and first excerpt posts in-repo, pointing at
+    paragraph permalinks in the live report. Drafting only — no posting,
+    no account creation, no scheduling.
+  verify: drafts exist in docs/plans/ and links resolve
+  passes: false
