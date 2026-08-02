@@ -207,7 +207,7 @@ In November 2008, the Permanent Subcommittee on Investigations initiated its inv
 
 In April 2010, the Subcommittee held four hearings examining four root causes of the financial crisis. Using case studies detailed in thousands of pages of documents released at the hearings, the Subcommittee presented and examined evidence showing how high risk lending by U.S. financial institutions; regulatory failures; inflated credit ratings; and high risk, poor quality financial products designed and sold by some investment banks, contributed to the financial crisis. This Report expands on those hearings and the case studies they featured. The case studies are Washington Mutual Bank, the largest bank failure in U.S. history; the federal Office of Thrift Supervision which oversaw Washington Mutual's demise; Moody's and Standard & Poor's, the country's two largest credit rating agencies; and Goldman Sachs and Deutsche Bank, two leaders in the design, marketing, and sale of mortgage related securities. This Report devotes a chapter to how each of the four causative factors, as illustrated by the case studies, fueled the 2008 financial crisis, providing findings of fact, analysis of the issues, and recommendations for next steps.
 
-### Overview
+B. Overview
 
 > (1) High Risk Lending: Case Study of Washington Mutual Bank
 
@@ -323,7 +323,7 @@ Investment banks were the driving force behind the structured finance products t
 
 %%page 12%%
 
-### Recommendations
+C. Recommendations
 
 The four causative factors examined in this Report are interconnected. Lenders introduced new levels of risk into the U.S. financial system by selling and securitizing complex home loans with high risk features and poor underwriting. The credit rating agencies labeled the resulting securities as safe investments, facilitating their purchase by institutional investors around the world. Federal banking regulators failed to ensure safe and sound lending practices and risk management, and stood on the sidelines as large financial institutions active in U.S. financial markets purchased billions of dollars in mortgage related securities containing high risk, poor quality mortgages. Investment banks magnified the risk to the system by engineering and promoting risky mortgage related structured finance products, and enabling investors to use naked credit default swaps and synthetic instruments to bet on the failure rather than the success of U.S. financial instruments. Some investment banks also ignored the conflicts of interest created by their products, placed their financial interests before those of their clients, and even bet against the very securities they were recommending and marketing to their clients. Together these factors produced a mortgage market saturated with high risk, poor quality mortgages and securities that, when they began incurring losses, caused financial institutions around the world to lose billions of dollars, produced rampant unemployment and foreclosures, and ruptured faith in U.S. capital markets.
 
@@ -331,13 +331,7 @@ Nearly three years later, the U.S. economy has yet to recover from the damage ca
 
 Recommendations on High Risk Lending
 
-### Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their
-
-> regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default.
-
-### Require Meaningful Risk Retention. Federal regulators should issue a strong risk
-
-> retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time.
+> 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time.
 
 ### Safeguard Against High Risk Products. Federal banking regulators should
 
@@ -349,23 +343,11 @@ Recommendations on High Risk Lending
 
 > regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
 
-### Safeguard Bank Investment Portfolios. Federal banking regulators should use the
-
-> Section 620 banking activities study to identify high risk structured finance products and impose a reasonable limit on the amount of such high risk products that can be included in a bank's investment portfolio.
+> 5. Safeguard Bank Investment Portfolios. Federal banking regulators should use the Section 620 banking activities study to identify high risk structured finance products and impose a reasonable limit on the amount of such high risk products that can be included in a bank's investment portfolio.
 
 Recommendations on Regulatory Failures
 
-### Complete OTS Dismantling. The Office of the Comptroller of the Currency (OCC)
-
-> should complete the dismantling of the Office of Thrift Supervision (OTS), despite attempts by some OTS officials to preserve the agency's identity and influence within the OCC.
-
-### Strengthen Enforcement. Federal banking regulators should conduct a review of
-
-> their major financial institutions to identify those with ongoing, serious deficiencies, and review their enforcement approach to those institutions to eliminate any policy of deference to bank management, inflated CAMELS ratings, or use of short term profits to excuse high risk activities.
-
-### Strengthen CAMELS Ratings. Federal banking regulators should undertake a
-
-> comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks.
+> 1. Complete OTS Dismantling. The Office of the Comptroller of the Currency (OCC) should complete the dismantling of the Office of Thrift Supervision (OTS), despite attempts by some OTS officials to preserve the agency's identity and influence within the OCC. 2. Strengthen Enforcement. Federal banking regulators should conduct a review of their major financial institutions to identify those with ongoing, serious deficiencies, and review their enforcement approach to those institutions to eliminate any policy of deference to bank management, inflated CAMELS ratings, or use of short term profits to excuse high risk activities. 3. Strengthen CAMELS Ratings. Federal banking regulators should undertake a comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks.
 
 ### Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council
 
@@ -373,9 +355,7 @@ Recommendations on Regulatory Failures
 
 Recommendations on Inflated Credit Ratings
 
-### Rank Credit Rating Agencies by Accuracy. The SEC should use its regulatory
-
-> authority to rank the Nationally Recognized Statistical Rating Organizations in terms of performance, in particular the accuracy of their ratings.
+> 1. Rank Credit Rating Agencies by Accuracy. The SEC should use its regulatory authority to rank the Nationally Recognized Statistical Rating Organizations in terms of performance, in particular the accuracy of their ratings.
 
 ### Help Investors Hold CRAs Accountable. The SEC should use its regulatory
 
@@ -383,35 +363,23 @@ Recommendations on Inflated Credit Ratings
 
 %%page 14%%
 
-### Strengthen CRA Operations. The SEC should use its inspection, examination, and
+> 3. Strengthen CRA Operations. The SEC should use its inspection, examination, and regulatory authority to ensure credit rating agencies institute internal controls, credit rating methodologies, and employee conflict of interest safeguards that advance rating accuracy.
 
-> regulatory authority to ensure credit rating agencies institute internal controls, credit rating methodologies, and employee conflict of interest safeguards that advance rating accuracy.
+> 4. Ensure CRAs Recognize Risk. The SEC should use its inspection, examination, and regulatory authority to ensure credit rating agencies assign higher risk to financial instruments whose performance cannot be reliably predicted due to their novelty or complexity, or that rely on assets from parties with a record for issuing poor quality assets.
 
-### Ensure CRAs Recognize Risk. The SEC should use its inspection, examination, and
+> 5. Strengthen Disclosure. The SEC should exercise its authority under the new Section 78o-7(s) of Title 15 to ensure that the credit rating agencies complete the required new ratings forms by the end of the year and that the new forms provide comprehensible, consistent, and useful ratings information to investors, including by testing the proposed forms with actual investors.
 
-> regulatory authority to ensure credit rating agencies assign higher risk to financial instruments whose performance cannot be reliably predicted due to their novelty or complexity, or that rely on assets from parties with a record for issuing poor quality assets.
-
-### Strengthen Disclosure. The SEC should exercise its authority under the new Section
-
-> 78o-7(s) of Title 15 to ensure that the credit rating agencies complete the required new ratings forms by the end of the year and that the new forms provide comprehensible, consistent, and useful ratings information to investors, including by testing the proposed forms with actual investors.
-
-### Reduce Ratings Reliance. Federal regulators should reduce the federal government's
-
-reliance on privately issued credit ratings.
+> 6. Reduce Ratings Reliance. Federal regulators should reduce the federal government's reliance on privately issued credit ratings.
 
 Recommendations on Investment Bank Abuses
 
-### Review Structured Finance Transactions. Federal regulators should review the
+> 1. Review Structured Finance Transactions. Federal regulators should review the RMBS, CDO, CDS, and ABX activities described in this Report to identify any violations of law and to examine ways to strengthen existing regulatory prohibitions against abusive practices involving structured finance products.
 
-> RMBS, CDO, CDS, and ABX activities described in this Report to identify any violations of law and to examine ways to strengthen existing regulatory prohibitions against abusive practices involving structured finance products.
+> 2. Narrow Proprietary Trading Exceptions. To ensure a meaningful ban on proprietary trading under Section 619, any exceptions to that ban, such as for market- making or risk-mitigating hedging activities, should be strictly limited in the implementing regulations to activities that serve clients or reduce risk.
 
-### Narrow Proprietary Trading Exceptions. To ensure a meaningful ban on
+### Design Strong Conflict of Interest Prohibitions. Regulators implementing the conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6)
 
-> proprietary trading under Section 619, any exceptions to that ban, such as for market- making or risk-mitigating hedging activities, should be strictly limited in the implementing regulations to activities that serve clients or reduce risk.
-
-### Design Strong Conflict of Interest Prohibitions. Regulators implementing the
-
-> conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6) of this Report.
+> of this Report.
 
 ### Study Bank Use of Structured Finance. Regulators conducting the banking
 
@@ -853,11 +821,9 @@ In connection with the hearing, the Subcommittee released a joint memorandum fro
 
 > and securitized loans that it had identified as likely to go delinquent, without disclosing its analysis to investors who bought the securities, and also securitized loans tainted by fraudulent information, without notifying purchasers of the fraud that was discovered.
 
-### Destructive Compensation. WaMu's compensation system rewarded loan officers
+> 6. Destructive Compensation. WaMu's compensation system rewarded loan officers and loan processors for originating large volumes of high risk loans, paid extra to loan officers who overcharged borrowers or added stiff prepayment penalties, and gave executives millions of dollars even when their High Risk Lending Strategy placed the bank in financial jeopardy.
 
-> and loan processors for originating large volumes of high risk loans, paid extra to loan officers who overcharged borrowers or added stiff prepayment penalties, and gave executives millions of dollars even when their High Risk Lending Strategy placed the bank in financial jeopardy.
-
-### Background
+B. Background
 
 Washington Mutual Bank was a federally chartered thrift whose primary federal regulator was the Office of Thrift Supervision (OTS). As an insured depository institution, it was also overseen by the Federal Deposit Insurance Corporation (FDIC). Washington Mutual was a full service consumer and business bank. This Report focuses only on WaMu's home lending and securitization business. As part of that business, WaMu originated home loans, acquired home loans for investment and securitization, sold pools of loans, and also securitized pools of home loans that it had originated or acquired. It was also a leading servicer of residential mortgages.
 
@@ -1671,7 +1637,7 @@ GROWTH 35%
 
 ### Home Equity - $18B
 
-### Subprime - $32B
+2. Subprime - $32B
 
 ### Option ARM - $33B
 
@@ -1951,9 +1917,7 @@ Two days later, on Tuesday, February 27, 2007, Mr. Chen sent an email with the s
 
 > "After careful review with David and the teams, David suggested me to make the following recommendations to MRC [Market Risk Committee] on the existing prime HFI/HFS selection criteria
 
-### Effective March 7th 2007, modify the portfolio option ARM and COFI ARM
-
-> retention criteria (see attached 'existing HFI descriptions', 'section 1.01 to 1.11 and section 2.01 to 2.08') to include only following loans for the portfolio (HFI)
+> 1. Effective March 7th 2007, modify the portfolio option ARM and COFI ARM retention criteria (see attached 'existing HFI descriptions', 'section 1.01 to 1.11 and section 2.01 to 2.08') to include only following loans for the portfolio (HFI)
 
 > a. Super jumbo of size greater or equal to $ 3 MM (Risk based pricing applied, but difficult to sale) b. Advantage 90 (high LTV loans without MI, very little production as 80/10/10 gets popularity) c. Foreign Nationals (Risk based pricing applied, but difficult to sale due to FICO problems) d. FICO less than 620, except employee loans in which case FICO can be re- stated after closing. e. 3-4 units (excessive S & P level hit calls for portfolio execution)
 
@@ -2313,13 +2277,7 @@ Section 620 of the Dodd-Frank Act requires the federal banking regulators, withi
 
 safeguard the Deposit Insurance Fund, this Report makes the following recommendations.
 
-### Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their
-
-> regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default.
-
-### Require Meaningful Risk Retention. Federal regulators should issue a strong risk
-
-> retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time.
+> 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time.
 
 ### Safeguard Against High Risk Products. Federal banking regulators should
 
@@ -2329,9 +2287,7 @@ safeguard the Deposit Insurance Fund, this Report makes the following recommenda
 
 > regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
 
-### Safeguard Bank Investment Portfolios. Federal banking regulators should use the
-
-> Section 620 banking activities study to identify high risk structured finance products and impose a reasonable limit on the amount of such high risk products that can be included in a bank's investment portfolio.
+> 5. Safeguard Bank Investment Portfolios. Federal banking regulators should use the Section 620 banking activities study to identify high risk structured finance products and impose a reasonable limit on the amount of such high risk products that can be included in a bank's investment portfolio.
 
 %%page 161%%
 
@@ -2383,17 +2339,15 @@ The Levin-Coburn memorandum contained joint findings of fact regarding the role 
 
 > hundreds of billions of dollars in high risk Option Adjustable Rate Mortgages, knowing that the bank used unsafe and unsound teaser rates, qualified borrowers using unrealistically low loan payments, permitted borrowers to make minimum payments resulting in negatively amortizing loans (i.e., loans with increasing principal), relied on rising house prices and refinancing to avoid payment shock and loan defaults, and had no realistic data to calculate loan losses in markets with flat or declining house prices.
 
-### Short Term Profits Over Long Term Fundamentals. OTS abdicated its
+### Short Term Profits Over Long Term Fundamentals. OTS abdicated its responsibility to ensure the long term safety and soundness of Washington Mutual by concluding that short term profits obtained by the bank precluded enforcement action
 
-> responsibility to ensure the long term safety and soundness of Washington Mutual by concluding that short term profits obtained by the bank precluded enforcement action to stop the bank's use of shoddy lending and securitization practices and unsafe and unsound loans.
+> to stop the bank's use of shoddy lending and securitization practices and unsafe and unsound loans.
 
 ### Impeding FDIC Oversight. OTS impeded FDIC oversight of Washington Mutual
 
 > by blocking its access to bank data, refusing to allow it to participate in bank examinations, rejecting requests to review bank loan files, and resisting the FDIC recommendations for stronger enforcement action.
 
-### FDIC Shortfalls. The FDIC, the backup regulator of Washington Mutual, was
-
-> unable to conduct the analysis it wanted to evaluate the risk posed by the bank to the Deposit Insurance Fund, did not prevail against unreasonable actions taken by OTS to limit its examination authority, and did not initiate its own enforcement action against the bank in light of ongoing opposition by the primary federal bank regulators to FDIC enforcement authority.
+> 6. FDIC Shortfalls. The FDIC, the backup regulator of Washington Mutual, was unable to conduct the analysis it wanted to evaluate the risk posed by the bank to the Deposit Insurance Fund, did not prevail against unreasonable actions taken by OTS to limit its examination authority, and did not initiate its own enforcement action against the bank in light of ongoing opposition by the primary federal bank regulators to FDIC enforcement authority.
 
 ### Recommendations Over Enforceable Requirements. Federal bank regulators
 
@@ -2411,9 +2365,9 @@ The Levin-Coburn memorandum contained joint findings of fact regarding the role 
 
 > history exposes the regulatory culture at OTS in which bank examiners are frustrated and demoralized by their inability to stop unsafe and unsound practices, in which their supervisors are reluctant to use formal enforcement actions even after years of serious bank deficiencies, and in which regulators treat the banks they oversee as constituents rather than arms-length regulated entities.
 
-### Background
+> B. Background At the time of its collapse, Washington Mutual Savings Bank was a federally chartered thrift
 
-At the time of its collapse, Washington Mutual Savings Bank was a federally chartered thrift with over $188 billion in federal insured deposits. Its primary federal regulator was OTS. Due to its status as an insured depository institution, it was also overseen by the FDIC.
+with over $188 billion in federal insured deposits. Its primary federal regulator was OTS. Due to its status as an insured depository institution, it was also overseen by the FDIC.
 
 > (1) Office of Thrift Supervision The Office of Thrift Supervision was created in 1989, in response to the savings and loan
 
@@ -3485,19 +3439,11 @@ Financial Stability Oversight Council. The Dodd-Frank Act has also established a
 
 financial markets and the economy, and safeguard the Deposit Insurance Fund, this Report makes the following recommendations.
 
-### Complete OTS Dismantling. The Office of the Comptroller of the Currency (OCC)
-
-> should complete the dismantling of the Office of Thrift Supervision (OTS), despite attempts by some OTS officials to preserve the agency's identity and influence within the OCC.
-
-### Strengthen Enforcement. Federal banking regulators should conduct a review of
-
-> their major financial institutions to identify those with ongoing, serious deficiencies, and review their enforcement approach to those institutions to eliminate any policy of deference to bank management, inflated CAMELS ratings, or use of short term profits to excuse high risk activities.
+> 1. Complete OTS Dismantling. The Office of the Comptroller of the Currency (OCC) should complete the dismantling of the Office of Thrift Supervision (OTS), despite attempts by some OTS officials to preserve the agency's identity and influence within the OCC. 2. Strengthen Enforcement. Federal banking regulators should conduct a review of their major financial institutions to identify those with ongoing, serious deficiencies, and review their enforcement approach to those institutions to eliminate any policy of deference to bank management, inflated CAMELS ratings, or use of short term profits to excuse high risk activities.
 
 %%page 242%%
 
-### Strengthen CAMELS Ratings. Federal banking regulators should undertake a
-
-comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks.
+3. Strengthen CAMELS Ratings. Federal banking regulators should undertake a comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks.
 
 ### Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council
 
@@ -3541,13 +3487,9 @@ In connection with the hearing, the Subcommittee released a joint memorandum fro
 
 > rating models with data that was inadequate to predict how high risk residential mortgages, such as subprime, interest only, and option adjustable rate mortgages, would perform.
 
-### Competitive Pressures. Competitive pressures, including the drive for market share
+> 2. Competitive Pressures. Competitive pressures, including the drive for market share and need to accommodate investment bankers bringing in business, affected the credit ratings issued by Moody's and S&P.
 
-> and need to accommodate investment bankers bringing in business, affected the credit ratings issued by Moody's and S&P.
-
-### Failure to Re-evaluate. By 2006, Moody's and S&P knew their ratings of RMBS
-
-> and CDOs were inaccurate, revised their rating models to produce more accurate ratings, but then failed to use the revised model to re-evaluate existing RMBS and
+> 3. Failure to Re-evaluate. By 2006, Moody's and S&P knew their ratings of RMBS and CDOs were inaccurate, revised their rating models to produce more accurate ratings, but then failed to use the revised model to re-evaluate existing RMBS and
 
 %%page 246%%
 
@@ -3557,7 +3499,7 @@ CDO securities, delaying thousands of rating downgrades and allowing those secur
 
 Moody's and S&P knew of increased credit risks due to mortgage fraud, lax underwriting standards, and unsustainable housing price appreciation, but failed adequately to incorporate those factors into their credit rating models.
 
-### Inadequate Resources. Despite record profits from 2004 to 2007, Moody's and
+5. Inadequate Resources. Despite record profits from 2004 to 2007, Moody's and
 
 S&P failed to assign sufficient resources to adequately rate new products and test the accuracy of existing ratings.
 
@@ -3565,19 +3507,15 @@ S&P failed to assign sufficient resources to adequately rate new products and te
 
 S&P on over 6,300 RMBS and 1,900 CDOs on one day in January 2008, shocked the financial markets, helped cause the collapse of the subprime secondary market, triggered sales of assets that had lost investment grade status, and damaged holdings of financial firms worldwide, contributing to the financial crisis.
 
-### Failed Ratings. Moody's and S&P each rated more than 10,000 RMBS securities
+7. Failed Ratings. Moody's and S&P each rated more than 10,000 RMBS securities from 2006 to 2007, downgraded a substantial number within a year, and, by 2010, had downgraded many AAA ratings to junk status.
 
-from 2006 to 2007, downgraded a substantial number within a year, and, by 2010, had downgraded many AAA ratings to junk status.
-
-### Statutory Bar. The SEC is barred by statute from conducting needed oversight into
-
-the substance, procedures, and methodologies of the credit rating models.
+8. Statutory Bar. The SEC is barred by statute from conducting needed oversight into the substance, procedures, and methodologies of the credit rating models.
 
 9. Legal Pressure for AAA Ratings. Legal requirements that some regulated entities, such as banks, broker-dealers, insurance companies, pension funds, and others, hold assets with AAA or investment grade credit ratings, created pressure on credit rating agencies to issue inflated ratings making assets eligible for purchase by those entities.
 
 %%page 247%%
 
-### Background
+B. Background
 
 > (1) Credit Ratings Generally Credit ratings, which first gained prominence in the late 1800s, are supposed to provide
 
@@ -4497,31 +4435,23 @@ credit ratings and the reliance placed on credit ratings by individual and insti
 
 To further strengthen the accuracy of credit ratings and reduce systemic risk, this Report makes the following recommendations.
 
-### Rank Credit Rating Agencies by Accuracy. The SEC should use its regulatory
-
-> authority to rank the Nationally Recognized Statistical Rating Organizations in terms of performance, in particular the accuracy of their ratings.
+> 1. Rank Credit Rating Agencies by Accuracy. The SEC should use its regulatory authority to rank the Nationally Recognized Statistical Rating Organizations in terms of performance, in particular the accuracy of their ratings.
 
 ### Help Investors Hold CRAs Accountable. The SEC should use its regulatory
 
 > authority to facilitate the ability of investors to hold credit rating agencies accountable in civil lawsuits for inflated credit ratings, when a credit rating agency knowingly or recklessly fails to conduct a reasonable investigation of the rated security.
 
-### Strengthen CRA Operations. The SEC should use its inspection, examination, and
+> 3. Strengthen CRA Operations. The SEC should use its inspection, examination, and regulatory authority to ensure credit rating agencies institute internal controls, credit rating methodologies, and employee conflict of interest safeguards that advance rating accuracy.
 
-> regulatory authority to ensure credit rating agencies institute internal controls, credit rating methodologies, and employee conflict of interest safeguards that advance rating accuracy.
-
-### Ensure CRAs Recognize Risk. The SEC should use its inspection, examination, and
-
-> regulatory authority to ensure credit rating agencies assign higher risk to financial instruments whose performance cannot be reliably predicted due to their novelty or complexity, or that rely on assets from parties with a record for issuing poor quality assets.
+> 4. Ensure CRAs Recognize Risk. The SEC should use its inspection, examination, and regulatory authority to ensure credit rating agencies assign higher risk to financial instruments whose performance cannot be reliably predicted due to their novelty or complexity, or that rely on assets from parties with a record for issuing poor quality assets.
 
 %%page 317%%
 
-### Strengthen Disclosure. The SEC should exercise its authority under the new Section
+5. Strengthen Disclosure. The SEC should exercise its authority under the new Section
 
 78o-7(s) of Title 15 to ensure that the credit rating agencies complete the required new ratings forms by the end of the year and that the new forms provide comprehensible, consistent, and useful ratings information to investors, including by testing the proposed forms with actual investors.
 
-### Reduce Ratings Reliance. Federal regulators should reduce the federal government's
-
-reliance on privately issued credit ratings.
+6. Reduce Ratings Reliance. Federal regulators should reduce the federal government's reliance on privately issued credit ratings.
 
 %%page 318%%
 
@@ -4553,7 +4483,7 @@ Investment banks were a major driving force behind the structured finance produc
 
 %%page 321%%
 
-### Background
+A. Background
 
 (1) Investment Banks In General
 
@@ -4685,23 +4615,15 @@ As part of its investigation into the CDO market and the Deutsche Bank case stud
 
 Based upon the Subcommittee's review, the Report makes the following findings of fact.
 
-### CDO Machine. From late 2006 through 2007, despite increasing mortgage
-
-> delinquencies, RMBS losses, and investor flight from the U.S. mortgage market, U.S. investment banks continued to issue new CDOs, including Deutsche Bank which issued 15 new CDOs securitizing nearly $11.5 billion of primarily mortgage related assets from December 2006 to December 2007.
+> 1. CDO Machine. From late 2006 through 2007, despite increasing mortgage delinquencies, RMBS losses, and investor flight from the U.S. mortgage market, U.S. investment banks continued to issue new CDOs, including Deutsche Bank which issued 15 new CDOs securitizing nearly $11.5 billion of primarily mortgage related assets from December 2006 to December 2007.
 
 > 2. Fee Incentives. Because the fees charged to design and market CDOs were in the range of $5 to $10 million per CDO, investment banks had strong incentives to continue issuing CDOs despite increasing risks and waning investor interest, since reduced CDO activity meant less revenues for structured finance units and even the disappearance of CDO departments and trading desks, which is eventually what occurred.
 
-### Deutsche Bank's $5 Billion Short. Although Deutsche Bank as a whole and through
+> 3. Deutsche Bank's $5 Billion Short. Although Deutsche Bank as a whole and through an affiliated hedge fund, Winchester Capital, made proprietary investments in long mortgage related assets, the bank also permitted its head CDO trader to make a $5 billion short investment that bet against the mortgage market and produced bank profits totaling approximately $1.5 billion.
 
-> an affiliated hedge fund, Winchester Capital, made proprietary investments in long mortgage related assets, the bank also permitted its head CDO trader to make a $5 billion short investment that bet against the mortgage market and produced bank profits totaling approximately $1.5 billion.
+> 4. Proprietary Loss. By 2007, Deutsche Bank, through its mortgage department and an affiliated hedge fund, had substantial proprietary holdings in the mortgage market, including more than $25 billion in long investments and a $5 billion short position, which together resulted in 2007 losses to the bank of about $4.5 billion.
 
-### Proprietary Loss. By 2007, Deutsche Bank, through its mortgage department and an
-
-> affiliated hedge fund, had substantial proprietary holdings in the mortgage market, including more than $25 billion in long investments and a $5 billion short position, which together resulted in 2007 losses to the bank of about $4.5 billion.
-
-### Gemstone 7. In the face of a deteriorating market, Deutsche Bank aggressively sold
-
-> a $1.1 billion CDO, Gemstone 7, which included RMBS securities that the bank's top CDO trader had disparaged as "crap" and "pigs," and which produced $1.1 billion of high risk, poor quality securities that are now virtually worthless.
+> 5. Gemstone 7. In the face of a deteriorating market, Deutsche Bank aggressively sold a $1.1 billion CDO, Gemstone 7, which included RMBS securities that the bank's top CDO trader had disparaged as "crap" and "pigs," and which produced $1.1 billion of high risk, poor quality securities that are now virtually worthless.
 
 %%page 334%%
 
@@ -5177,25 +5099,17 @@ During the course of its investigation into the Goldman Sachs case study, the Su
 
 In connection with the hearing, the Subcommittee released a joint memorandum from Chairman Levin and Ranking Member Coburn summarizing the investigation to date into the role of the investment banks in the financial crisis. The memorandum contained the following findings of fact, which this Report reaffirms, regarding the Goldman Sachs case study.
 
-### Securitizing High Risk Mortgages. From 2004 to 2007, in exchange for lucrative
+> 1. Securitizing High Risk Mortgages. From 2004 to 2007, in exchange for lucrative fees, Goldman Sachs helped lenders like Long Beach, Fremont, and New Century, securitize high risk, poor quality loans, obtain favorable credit ratings for the resulting residential mortgage backed securities (RMBS), and sell the RMBS securities to investors, pushing billions of dollars of risky mortgages into the financial system.
 
-> fees, Goldman Sachs helped lenders like Long Beach, Fremont, and New Century, securitize high risk, poor quality loans, obtain favorable credit ratings for the resulting residential mortgage backed securities (RMBS), and sell the RMBS securities to investors, pushing billions of dollars of risky mortgages into the financial system.
+> 2. Magnifying Risk. Goldman Sachs magnified the impact of toxic mortgages on financial markets by re-securitizing RMBS securities in collateralized debt obligations (CDOs), referencing them in synthetic CDOs, selling the CDO securities to investors, and using credit default swaps and index trading to profit from the failure of the same RMBS and CDO securities it sold.
 
-### Magnifying Risk. Goldman Sachs magnified the impact of toxic mortgages on
-
-> financial markets by re-securitizing RMBS securities in collateralized debt obligations (CDOs), referencing them in synthetic CDOs, selling the CDO securities to investors, and using credit default swaps and index trading to profit from the failure of the same RMBS and CDO securities it sold.
-
-### Shorting the Mortgage Market. As high risk mortgage delinquencies increased, and
-
-> RMBS and CDO securities began to lose value, Goldman Sachs took a net short position on the mortgage market, remaining net short throughout 2007, and cashed in very large short positions, generating billions of dollars in gain.
+> 3. Shorting the Mortgage Market. As high risk mortgage delinquencies increased, and RMBS and CDO securities began to lose value, Goldman Sachs took a net short position on the mortgage market, remaining net short throughout 2007, and cashed in very large short positions, generating billions of dollars in gain.
 
 ### Conflict Between Client Interests and Proprietary Trading. In 2007, Goldman
 
 > Sachs went beyond its role as market maker for clients seeking to buy or sell mortgage related securities, traded billions of dollars in mortgage related assets for the benefit of the firm without disclosing its proprietary positions to clients, and instructed its sales force to sell mortgage related assets, including high risk RMBS and CDO securities that Goldman Sachs wanted to get off its books, and utilizing key roles in CDO transactions to promote its own interests at the expense of investors, creating a conflict between the firm's proprietary interests and the interests of its clients.
 
-### Abacus Transaction. Goldman Sachs structured, underwrote, and sold a synthetic
-
-> CDO called Abacus 2007-AC1, did not disclose to the Moody's analyst overseeing the rating of the CDO that a hedge fund client taking a short position in the CDO had helped to select the referenced assets, and also did not disclose that fact to other investors.
+> 5. Abacus Transaction. Goldman Sachs structured, underwrote, and sold a synthetic CDO called Abacus 2007-AC1, did not disclose to the Moody's analyst overseeing the rating of the CDO that a hedge fund client taking a short position in the CDO had helped to select the referenced assets, and also did not disclose that fact to other investors.
 
 ### Using Naked Credit Default Swaps. Goldman Sachs used credit default swaps
 
@@ -5481,15 +5395,7 @@ that is neither significantly short nor long.1644 Mr. Viniar told the Subcommitt
 
 Internal documents indicate that the directions given to the Mortgage Department in the December meeting were more detailed than the general instruction to "get closer to home." In an email sent on the same day by Mr. Sparks to Goldman executives Messrs. Montag and Ruzika entitled, "Subprime risk meeting with Viniar/McMahon Summary," Mr. Sparks wrote:
 
-> "Followups: 1. Reduce exposure, sell more ABX index outright, basis trade of index vs. CDS too large. 2. Distribute as much as possible on bonds created from new loan securitizations and clean previous positions.
-
-### Sell some more resid[ual]s
-
-> 4. Mark [the value of assets in] the CDO warehouse more regularly ... 5. Stay focused on the credit of the originators we buy loans from and lend to
-
-### Stay focused and aggressive on MLN [Mortgage Lending Network] (warehouse
-
-> customer and originator we have EPDs [early payment defaults] to that is likely to fail) 7. Be ready for the good opportunities that are coming (keep powder dry and look around the market hard)."1647
+> "Followups: 1. Reduce exposure, sell more ABX index outright, basis trade of index vs. CDS too large. 2. Distribute as much as possible on bonds created from new loan securitizations and clean previous positions. 3. Sell some more resid[ual]s 4. Mark [the value of assets in] the CDO warehouse more regularly ... 5. Stay focused on the credit of the originators we buy loans from and lend to 6. Stay focused and aggressive on MLN [Mortgage Lending Network] (warehouse customer and originator we have EPDs [early payment defaults] to that is likely to fail) 7. Be ready for the good opportunities that are coming (keep powder dry and look around the market hard)."1647
 
 The next day, December 15, 2006, Mr. Montag forwarded Mr. Sparks' email to Mr. Viniar asking: "is this a fair summary?"1648 Mr. Viniar replied: "Yes." Mr. Viniar noted:
 
@@ -7955,23 +7861,17 @@ The Goldman Sachs case study identifies a number of practices that raise conflic
 
 > who was shorting the CDO to help select the CDO's assets, solicited investors to buy the Abacus securities without disclosing the short party's asset selection role or investment objective, and helped the client gain a $1 billion profit at the expense of the investors to whom Goldman sold the securities.
 
-### Minimizing Premiums. In Abacus, Goldman entered into an undisclosed
-
-> agreement with the sole short party to accept a fee for arranging low premium payments by the short party to the CDO, even though low premium payments meant less money for the long investors to whom Goldman had sold the Abacus securities.
+> 5. Minimizing Premiums. In Abacus, Goldman entered into an undisclosed agreement with the sole short party to accept a fee for arranging low premium payments by the short party to the CDO, even though low premium payments meant less money for the long investors to whom Goldman had sold the Abacus securities.
 
 ### Selling Securities Designed to Fail. Goldman sold Hudson and Abacus securities
 
 > to clients knowing the securities were designed to fall in value and benefit the short party, which was a client in the case of Abacus and itself in the case of Hudson.
 
-### Delaying Liquidation. In Hudson, Goldman was paid a fee to serve as the
-
-> liquidation agent, but delayed liquidating assets that were losing value for eight months, enhancing its financial gain as the CDO's short party at the expense of the long parties whose losses would have been staunched if the assets had been liquidated.
+> 7. Delaying Liquidation. In Hudson, Goldman was paid a fee to serve as the liquidation agent, but delayed liquidating assets that were losing value for eight months, enhancing its financial gain as the CDO's short party at the expense of the long parties whose losses would have been staunched if the assets had been liquidated.
 
 %%page 603%%
 
-### Misrepresenting Assets. In Anderson, when clients asked how Goldman got
-
-> "comfortable" with poor quality New Century loans in the CDO, Goldman worked to dispel those concerns and failed to disclose its own discomfort with New Century loans and that it held 40% of the short side of the CDO, betting its assets would lose value.
+> 8. Misrepresenting Assets. In Anderson, when clients asked how Goldman got "comfortable" with poor quality New Century loans in the CDO, Goldman worked to dispel those concerns and failed to disclose its own discomfort with New Century loans and that it held 40% of the short side of the CDO, betting its assets would lose value.
 
 ### Taking Immediate Post-Sale Markdowns. In Timberwolf, Goldman knowingly
 
@@ -8295,15 +8195,7 @@ Still another indicator that the Mortgage Department's net shorts were proprieta
 
 Perhaps the strongest indicator that Goldman's large net short positions were proprietary investments are the statements made by Goldman's own executives and traders. Goldman's head ABX trader, Joshua Birnbaum, described the Department's decisions in February and June to build and profit from its net short positions, not as efforts to accommodate anticipated client demand, but as investments made on behalf of the firm to produce large profits:
 
-> "Whereas execution of strategies has clearly been a concerted team effort, I consider myself the initial or primary driver of the macro trading direction for the business. I would highlight 3 major calls here:
-
-### Dec-Feb: ... The prevailing opinion within the department was that we should just
-
-> 'get close to home' and pare down our long. ... I concluded that we should not only get flat, but VERY short. ... [W]e all agreed the plan made sense. ... [W]e implemented the plan by hitting on almost [every] single name CDO protection buying opportunity in a 2- month period. Much of the plan began working by February when the market dropped 25 points and our profitable year was underway. ...
-
-### Jun-Jul: the BSAM [Bear Stearns Asset Management failure] changed everything. I
-
-> felt that this mark-to-market event for CDO risk would begin a further unraveling in mortgage credit. Again, when the prevailing opinion in the department was to remain close to home, I pushed everyone on the desk to sell risk aggressively and quickly. We sold billions of index and single name risk such that when the index dropped 25pts in July, we had a blow-out p&l [profit & loss] month, making over $1Bln that month. ...
+> "Whereas execution of strategies has clearly been a concerted team effort, I consider myself the initial or primary driver of the macro trading direction for the business. I would highlight 3 major calls here: 1. Dec-Feb: ... The prevailing opinion within the department was that we should just 'get close to home' and pare down our long. ... I concluded that we should not only get flat, but VERY short. ... [W]e all agreed the plan made sense. ... [W]e implemented the plan by hitting on almost [every] single name CDO protection buying opportunity in a 2- month period. Much of the plan began working by February when the market dropped 25 points and our profitable year was underway. ... 3. Jun-Jul: the BSAM [Bear Stearns Asset Management failure] changed everything. I felt that this mark-to-market event for CDO risk would begin a further unraveling in mortgage credit. Again, when the prevailing opinion in the department was to remain close to home, I pushed everyone on the desk to sell risk aggressively and quickly. We sold billions of index and single name risk such that when the index dropped 25pts in July, we had a blow-out p&l [profit & loss] month, making over $1Bln that month. ...
 
 > We made money: a) taking large directional views, the direction of which we changed several times, b) ... betting the bad names would get much worse vs. the good ones, c) shorting CDOs, d) capturing the index to single name basis ... among other things."[^2814]
 
@@ -8403,17 +8295,13 @@ To prevent investment bank abuses and protect the U.S. financial system from fut
 
 %%page 639%%
 
-### Review Structured Finance Transactions. Federal regulators should review the
+1. Review Structured Finance Transactions. Federal regulators should review the
 
 RMBS, CDO, CDS, and ABX activities described in this Report to identify any violations of law and to examine ways to strengthen existing regulatory prohibitions against abusive practices involving structured finance products.
 
-### Narrow Proprietary Trading Exceptions. To ensure a meaningful ban on
+2. Narrow Proprietary Trading Exceptions. To ensure a meaningful ban on proprietary trading under Section 619, any exceptions to that ban, such as for marketmaking or risk-mitigating hedging activities, should be strictly limited in the implementing regulations to activities that serve clients or reduce risk.
 
-proprietary trading under Section 619, any exceptions to that ban, such as for marketmaking or risk-mitigating hedging activities, should be strictly limited in the implementing regulations to activities that serve clients or reduce risk.
-
-### Design Strong Conflict of Interest Prohibitions. Regulators implementing the
-
-conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6)
+### Design Strong Conflict of Interest Prohibitions. Regulators implementing the conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6)
 
 of this Report.
 

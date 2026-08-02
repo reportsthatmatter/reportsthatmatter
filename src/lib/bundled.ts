@@ -1,6 +1,7 @@
 import registryText from "../../reports/registry.yaml";
 import wallStreet from "../../reports/us-psi-financial-crisis/full.md";
 import jackSmithVol1 from "../../reports/jack-smith-vol1/full.md";
+import challenger from "../../reports/challenger-accident/full.md";
 import changelogText from "../../docs/CHANGELOG.md";
 
 export { changelogText };
@@ -15,4 +16,5 @@ export { registryText };
 export const bundledReports: Record<string, string> = {
   "reports/us-psi-financial-crisis/full.md": wallStreet,
   "reports/jack-smith-vol1/full.md": jackSmithVol1,
+  "reports/challenger-accident/full.md": challenger,
 };

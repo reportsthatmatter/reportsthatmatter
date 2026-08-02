@@ -447,9 +447,9 @@ m original) (citing Dennis, 384 U.S. at 861). Thus, for example, financial cnmes
 
 All of these requirements for establishing a conspiracy to defraud under Section 371, taken collectively, ensure that common political conduct or political speech does not fall within the scope of the defraud clause. The evidence collected during the investigation met these requirements as to Mr. Trump's conduct.
 
-### Obstruction and Conspiracy to Obstruct (18 U.S.C. § 1512(k) and (c)(2))
+> B. Obstruction and Conspiracy to Obstruct (18 U.S.C. § 1512(k) and (c)(2)) The federal statute prohibiting obstruction of an official proceeding makes it a crime to
 
-The federal statute prohibiting obstruction of an official proceeding makes it a crime to "corruptly (1) alter[], destroy[], mutilate[], or conceal[] a record, document, or other object, or attempt[] to do so, with the intent to impair the object's integrity or availability for use in an official proceeding; or (2) otherwise obstruct[], influence[], or impede[] any official proceeding, or attempt(] to do so."[^18] U.S.C. § 1512(c). A separate provision defines the term "official proceeding" to include a "proceeding before the Congress."[^18] U.S.C. § 1515(a)(l)(B).
+"corruptly (1) alter[], destroy[], mutilate[], or conceal[] a record, document, or other object, or attempt[] to do so, with the intent to impair the object's integrity or availability for use in an official proceeding; or (2) otherwise obstruct[], influence[], or impede[] any official proceeding, or attempt(] to do so."[^18] U.S.C. § 1512(c). A separate provision defines the term "official proceeding" to include a "proceeding before the Congress."[^18] U.S.C. § 1515(a)(l)(B).
 
 %%page 46%%
 
@@ -491,9 +491,9 @@ Mr. Trump and co-conspirators sought to deprive-that is, injure or oppress-citiz
 
 %%page 53%%
 
-### Defenses
+> D. Defenses Before presenting the original indictment to the grand jury, the Office considered Mr.
 
-Before presenting the original indictment to the grand jury, the Office considered Mr. Trump's potential defenses to these charges, including a good faith defense, an advice of counsel defense, and constitutional defenses. The Office concluded that each of the defenses was legally or factually flawed and thus would not prevail.
+Trump's potential defenses to these charges, including a good faith defense, an advice of counsel defense, and constitutional defenses. The Office concluded that each of the defenses was legally or factually flawed and thus would not prevail.
 
 First, it was expected that Mr. Trump would argue that he acted in good faith when he sought to stop the transfer of presidential power because he genuinely believed that outcome­ determinative fraud had undermined the election's integrity and caused him to lose. As set forth above in Section II.A, the Office developed strong proof that Mr. Trump knew that his election fraud claims were false. For example, Mr. Trump made persistent claims of a large number of dead voters in Georgia-including in his speech at the Ellipse on January 6-even though his Senior Campaign Advisor and Georgia's Secretary of State had told him that the claims were untrue.[^173] He spread lies-including in his Ellipse speech-of sinister, fraudulent "vote dumps" in Michigan, even after Michigan's Senate Majority Leader told him that nothing suspicious had occurred.[^174] And Mr. Trump repeatedly made provably false allegations about fraud in
 
@@ -595,9 +595,7 @@ As set forth above, the Office concluded that Mr. Trump's conduct violated sever
 
 Mr. Trump's prosecution served multiple federal interests, including the federal interest in the integrity of the United States' process for collecting, counting, and certifying presidential elections, and in a peaceful and orderly transition of presidential power; the federal interest in ensuring that every citizen's vote is counted; the federal interest in protecting public officials and government workers from violence; and the federal interest in the fair and even-handed enforcement of the law. All of these federal interests, which are rooted in the law, the Constitution, and our basic democratic values, are substantial and command protection from Mr. Trump's criminal design to subvert them.
 
-### The substantial federal interest in protecting the integrity of the electoral
-
-> process and the peaceful transfer of power was served by Mr. Trump's prosecution. As set forth above, the investigation revealed that Mr. Trump and others conspired to use
+> 1. The substantial federal interest in protecting the integrity of the electoral process and the peaceful transfer of power was served by Mr. Trump's prosecution. As set forth above, the investigation revealed that Mr. Trump and others conspired to use
 
 false claims of election fraud to attempt to disrupt the United States' electoral process and obstruct the congressional certification of the 2020 presidential election results. Prosecution for that conduct thus vindicated abiding federal interests in protecting the electoral process and the previously unbroken tradition-before Mr. Trump's charged conduct-of a peaceful transition of presidential power from one administration to the next. These federal interests are fundamental to our system of government, favoring no particular administration or political party. Indeed, electoral processes like selecting the president are "necessarily structured to maintain the integrity of the democratic system." Burdick, 504 U.S. at 441. "Preserving the integrity of the electoral process" and "preventing corruption ... are interests of the highest importance." First Nat. Bank ofBoston v. Bellotti, 435 U.S. 765, 788-789 (1978).
 
@@ -631,9 +629,7 @@ Inaugural Address (1981 ). In connection with preserving that tradition, Vice Pr
 
 > This is the first time in 100 years that a candidate for the Presidency announced the result of an election in which he was defeated and announced the victory of his opponent. I do not think we could have a more striking and eloquent example of the stability of our constitutional system and of the proud tradition of the American people of developing, respecting, and honoring institutions of self­ government.[^107] CONG. REC. 291 (Jan. 6, 1961). And in 2001, after a hard-fought legal dispute over the 2000 presidential election, Vice President Albert Gore Jr. similarly presided over the certification of his opponent, George W. Bush, as President-elect. See 147 CONG. REC.[^101] (Jan. 6, 2001). Protecting the well-established American tradition of a peaceful transfer of power weighed in favor of prosecution.
 
-### The substantial federal interest in counting every citizen's vote was served
-
-> by Mr. Trump's prosecution. Few federal interests are stronger in our representative democracy than that of protecting
+> 2. The substantial federal interest in counting every citizen's vote was served by Mr. Trump's prosecution. Few federal interests are stronger in our representative democracy than that of protecting
 
 every eligible citizen's right to vote and to have that vote counted. The evidence establishes that in contravention of that right, Mr. Trump urged state officials to disregard the legitimate majority of votes for Mr. Biden and instead appoint Mr. Trump's electors; pressured and threatened Georgia's Secretary of State to "find" more than 11,000 votes to dilute the legitimate vote count and allow Mr. Trump to be declared the winner of the state; and urged Mr. Pence to discard the legitimate electoral certificates that reflected millions of citizens' votes in the targeted states.[^198] An additional factor meriting Mr. Trump's prosecution therefore was the need to vindicate and protect the voting rights of these and all future voters.
 
@@ -683,9 +679,7 @@ There is unquestionably a public interest in ensuring that elected officials and
 
 %%page 83%%
 
-### The substantial federal interest in the evenhanded administration of the
-
-> law was served by Mr. Trump's prosecution. There is a substantial federal interest in ensuring the evenhanded administration of the
+> 4. The substantial federal interest in the evenhanded administration of the law was served by Mr. Trump's prosecution. There is a substantial federal interest in ensuring the evenhanded administration of the
 
 law with respect to accountability for the events of January 6, 2021, and the Office determined that interest would not be satisfied absent Mr. Trump's prosecution for his role. Multiple district court judges have recognized Mr. Trump's role in the events of January 6. See United States v. Laios, No. 21-cr-242, ECF No. 37 at 55-56 (D.D.C. Nov. 19, 2021) (Transcript of Sentencing) (Court stating that Jan.[^6] defendant was "called to Washington, D.C. by an election official; he was prompted to walk to the Capitol by an elected official" and telling defendant, "I think you were a pawn, you were a pawn in a game that was played and directed by people who should have known better"); United States v. Peterson, No. 21-cr-309, ECF No. 32 at 23 (D.D.C. Dec. 1, 2021) (Transcript of Sentencing) (Court stating that "incendiary" statements at the Ellipse rally "absolutely, quite clearly and deliberately, stoked the flames of fear and discontent and explicitly encouraged those at the rally to go to the Capitol and fight for one reason and one reason only, to make sure the certification did not happen"); United States v. Barnard, No. 21-cr-235, ECF No. 53 at 28 (D.D.C. Feb. 24, 2022) (Transcript of Sentencing) ("The events of January 6th involved a rather unprecedented confluence of events spurred by then President Trump and a number of his prominent allies who bear much responsibility for what occurred on that date."). To date, more than 1,500 people have been criminally charged for their roles in the January 6 attack on the United States Capitol. With that in mind, Mr. Trump's relative culpability weighed heavily in favor of charging him, as the individual most responsible for what occurred at the Capitol on January 6. See Justice Manual § 9-27.230.4 (requiring prosecutors to assess the "degree of the person's culpability in connection with the offense, both in the abstract and in comparison with any others involved in the offense").
 

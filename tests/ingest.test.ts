@@ -559,3 +559,62 @@ describe("printed page numbers", () => {
     expect(result.printed).toBeNull();
   });
 });
+
+describe("headings that wrap", () => {
+  it("absorbs a lowercase continuation line", () => {
+    const blocks = toBlocks(
+      [
+        "   C.   Conspiracy Against Rights Under Colour of",
+        "law and the applicable defences",
+      ],
+      0
+    );
+    expect(blocks).toHaveLength(1);
+    expect(blocks[0].kind).toBe("heading");
+    expect((blocks[0] as { text: string }).text).toBe(
+      "Conspiracy Against Rights Under Colour of law and the applicable defences"
+    );
+  });
+
+  it("does not read a numbered recommendation as a heading", () => {
+    // Reports set recommendations as numbered sentences. Treating them as
+    // structure fills the contents page with half-sentences.
+    const blocks = toBlocks(
+      ["   1.   NASA should closely scrutinize each of the concerns raised"],
+      0
+    );
+    expect(blocks[0].kind).toBe("paragraph");
+  });
+
+  it("still reads a numbered title-case heading as a heading", () => {
+    const blocks = toBlocks(["   A.   Mr. Trump's Pressure on State Officials"], 0);
+    expect(blocks[0].kind).toBe("heading");
+  });
+
+  it("rejects a title broken mid-word by the line break", () => {
+    const blocks = toBlocks(
+      ["   The field joints of the Solid Rocket Motors should be rede-"],
+      0
+    );
+    expect(blocks[0].kind).toBe("paragraph");
+  });
+
+  it("does not swallow the paragraph after a complete heading", () => {
+    const blocks = toBlocks(
+      [
+        "   A.   Mr. Trump's Pressure on State Officials",
+        "one of his efforts involved targeting state officials.",
+      ],
+      0
+    );
+    expect(blocks.filter((b) => b.kind === "heading")).toHaveLength(1);
+    expect(blocks.filter((b) => b.kind === "paragraph")).toHaveLength(1);
+  });
+
+  it("recognises a title cut off mid-phrase", async () => {
+    const { danglesMidPhrase } = await import("../scripts/ingest/paragraphs");
+    expect(danglesMidPhrase("the evenhanded administration of the")).toBe(true);
+    expect(danglesMidPhrase("Mr. Trump's Pressure on State Officials")).toBe(false);
+    expect(danglesMidPhrase("A complete sentence.")).toBe(false);
+  });
+});

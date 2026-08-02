@@ -7,6 +7,24 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-02 — A third report, and better footnotes everywhere
+
+**Added:** *Investigation of the Challenger Accident* — the House Science
+Committee's 1986 report into the loss of the Space Shuttle Challenger. 438
+pages, 99.8% of the source text retained.
+
+**Footnotes.** Nearly all of them are now found and placed beside the text:
+recall went from about three-quarters to around 97%. Where a footnote block had
+previously been missed, its citations were left stranded in the middle of the
+prose; that no longer happens.
+
+**Page numbers** now work for reports that print them at the top of the page as
+well as the bottom. The Wall Street report puts them in a header and so had no
+page anchors at all — it now has 628.
+
+**Contents pages** are cleaner. Numbered recommendations were being read as
+section headings, filling a contents list with half-sentences.
+
 ## 2026-08-02 — Reports split into sections
 
 A report is no longer one enormous page. The Wall Street report was **2.9 MB**

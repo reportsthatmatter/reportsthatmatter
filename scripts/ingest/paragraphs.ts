@@ -82,6 +82,29 @@ export function bodyIndent(lines: string[]): number {
   return best;
 }
 
+/**
+ * Words a finished title does not end on. A heading closing on a preposition or
+ * an article has been cut off by the line break, not written that way.
+ */
+const DANGLING =
+  /\b(of|the|a|an|in|to|for|and|or|with|by|from|that|was|is|are|were|on|at|as|its|their|his|her)$/i;
+
+/**
+ * Titles are set in caps or title case; running prose is not. Used to tell a
+ * numbered heading from a numbered sentence.
+ */
+function isTitular(text: string): boolean {
+  if (text === text.toUpperCase()) return true;
+  const words = text.split(/\s+/).filter((word) => /[A-Za-z]/.test(word));
+  if (words.length < 2) return false;
+  const capitalised = words.filter((word) => /^[A-Z]/.test(word)).length;
+  return capitalised / words.length >= 0.6;
+}
+
+export function danglesMidPhrase(text: string): boolean {
+  return !/[.?!:]$/.test(text) && DANGLING.test(text.trim());
+}
+
 /** A table-of-contents entry: dot leaders running to a page number. */
 const TOC_ENTRY = /[.·]{4,}\s*\d{1,4}\s*$/;
 
@@ -100,13 +123,19 @@ function isHeading(text: string): { level: number; text: string } | null {
   const body = stripTrailingPageNumber(trimmed);
   if (!body || body.split(/\s+/).length > HEADING_MAX_WORDS) return null;
   if (/[;:,]$/.test(body)) return null;
+  // "…should be rede-" is a line break inside a word, never a finished title.
+  if (/[-­‐]$/.test(body)) return null;
 
   // "I. THE RESULTS OF THE INVESTIGATION" — roman numeral sections.
   // "A. Mr. Trump's Pressure on State Officials" — lettered subsections.
   const numbered = body.match(/^([IVXLC]{1,6}|[A-Z]|\d{1,2})\.\s+(.+)$/);
   if (numbered) {
     const title = numbered[2].trim();
-    if (/^[A-Z]/.test(title) && !/\.$/.test(title)) {
+    // A numbered *sentence* is a list item, not a heading. Reports set their
+    // recommendations this way — "1. NASA should closely scrutinize each of the
+    // concerns raised by …" — and reading them as structure fills the contents
+    // with half-sentences.
+    if (/^[A-Z]/.test(title) && !/\.$/.test(title) && isTitular(title)) {
       // "C." and "D." are both letters and Roman numerals, so the marker
       // cannot tell us the level. In these reports the top-level sections are
       // set in caps and the subsections in title case, which can.
@@ -212,6 +241,21 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
         text: contents[1].trim().replace(/\.+$/, "").trim(),
         page: contents[2],
       });
+      continue;
+    }
+
+    // A heading that wraps onto a line beginning lowercase is not detected as a
+    // heading at all — "…the evenhanded administration of the" / "law was served
+    // by Mr. Trump's prosecution" — so the title ships stopping mid-phrase and
+    // its tail becomes a stray paragraph.
+    const openHeading = blocks[blocks.length - 1];
+    if (
+      !current.length &&
+      openHeading?.kind === "heading" &&
+      danglesMidPhrase(openHeading.text) &&
+      /^[a-z]/.test(single)
+    ) {
+      openHeading.text = `${openHeading.text} ${single}`;
       continue;
     }
 

@@ -14,3 +14,11 @@ reports:
     source_path: reports/us-psi-financial-crisis/full.md
     source_url: "https://www.hsgac.senate.gov/subcommittees/investigations/reports?c=112"
     ingested: true
+
+  - id: challenger-accident
+    title: "Investigation of the Challenger Accident"
+    authors: "Committee on Science and Technology, U.S. House of Representatives"
+    published_at: "October 1986"
+    source_path: reports/challenger-accident/full.md
+    source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
+    ingested: true

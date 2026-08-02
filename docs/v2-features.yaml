@@ -22,9 +22,9 @@
 #   2. Create the @ReportsThatMatter account.
 #   3. Post the thread (drafted, ibid. Appendix A). Five cards are rendered.
 #
-# The best next *code* task is `heading-completeness` below. The bigger prize
-# is `more-reports`: the pipeline is in good shape and the backlog is curated
-# in GitHub issues.
+# The best next *code* task is `more-reports` — the pipeline is in good shape
+# and the backlog is curated in GitHub issues. Note that the Challenger PDF
+# currently lives only in ../challenger-accident/ locally; it needs a repo.
 #
 # To resume: ./scripts/init.sh   (bootstraps, then runs the full check)
 
@@ -199,9 +199,12 @@
   passes: true
 
 - id: heading-completeness
-  desc: Section headings that wrap more than twice still truncate
+  desc: >
+    A heading wrapping onto a lowercase line now absorbs it. Truncated headings
+    1 → 0 (Jack Smith), 23 → 11 (PSI). The remainder wrap onto capitalised
+    lines and are not distinguishable from a following paragraph.
   verify: no heading ends in a preposition or article
-  passes: false
+  passes: true
 
 - id: design-review
   desc: Rufus reviews the Co-Star-derived design and gives feedback
@@ -211,10 +214,12 @@
 
 - id: more-reports
   desc: >
-    ~28 candidates already curated as GitHub issues — Chilcot (#67), Leveson
-    (#32), Saville (#39), FCIC (#57), Valukas (#24), Challenger (#68),
-    Litvinenko (#66), Philip Morris (#33), Duelfer (#34). Each needs a repo
+    Three published. ~27 candidates remain, curated as GitHub issues — Chilcot
+    (#67), Leveson (#32), Saville (#39), FCIC (#57), Valukas (#24), Litvinenko
+    (#66), Philip Morris (#33), Duelfer (#34). Each needs a sibling directory
     with the source PDF archived, then `pnpm ingest run`.
+    NOTE: challenger-accident's PDF is in ../challenger-accident/ locally and
+    has no GitHub repo yet — that needs creating (Rufus, or ask).
   verify: report passes the fidelity gate and appears in the registry
   passes: false
 
