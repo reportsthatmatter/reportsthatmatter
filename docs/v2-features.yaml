@@ -1,10 +1,33 @@
-# V2 working ledger.
+# V2 working ledger — the state of play.
 #
 # One entry per feature. `passes` flips to true only when scripts/verify.sh is
 # green with that feature in place. Entries are never edited or removed to make
 # the goal pass — an entry that cannot be met is marked blocked, with a reason.
 #
-# Goal: every entry passes and scripts/verify.sh exits 0.
+# Where things live:
+#   docs/ROADMAP.md      what we might build and why (the thinking)
+#   this file            what is done and what is next (the state)
+#   GitHub issues        report candidates — ~28 of them, already curated
+#
+# ---------------------------------------------------------------------------
+# START HERE
+# ---------------------------------------------------------------------------
+# The site is live at https://reportsthatmatter.org with two reports, the build
+# is green, and the working tree is clean. Nothing is half-finished.
+#
+# The next action is not code. It is launch, and it needs Rufus:
+#   1. Google Search Console — verify the domain, submit /sitemap.xml, request
+#      indexing on the Jack Smith report. ~10 minutes.
+#      Steps: docs/plans/2026-08-02-launch-and-seo.md §2
+#   2. Create the @ReportsThatMatter account.
+#   3. Post the thread (drafted, ibid. Appendix A). Five cards are rendered.
+#
+# The best next *code* task is `footnote-block-leakage` below — a text-quality
+# bug, not a missing nicety.
+#
+# To resume: ./scripts/init.sh   (bootstraps, then runs the full check)
+
+# --- shipped ---------------------------------------------------------------
 
 - id: green-baseline
   desc: A cold checkout installs, typechecks and tests clean
@@ -12,18 +35,52 @@
   passes: true
 
 - id: verification-harness
-  desc: One command decides done — types, tests, HTTP, browser
-  verify: scripts/verify.sh exits 0
+  desc: One command decides done — types, tests, ingestion, HTTP, browser
+  verify: scripts/verify.sh exits 0 (also VERIFY_BASE=<url> against production)
   passes: true
 
 - id: design-system
-  desc: Pared-down editorial design, no CDN framework, light and consistent
+  desc: Pared-down editorial design, no CDN framework
   verify: browser checks for canvas colour, serif display, nav, no overflow
   passes: true
 
-- id: report-rendering
-  desc: A report renders as readable long-form prose at a comfortable measure
-  verify: e2e prose measure and font-size checks
+- id: ingestion-pipeline
+  desc: Deterministic PDF → Markdown with automated fidelity gates
+  verify: pnpm ingest verify
+  passes: true
+
+- id: footnote-layouts
+  desc: >
+    Both footnote layouts — number inline with its text, and number alone on
+    its line with the text beneath. Supporting only the first found 7 notes in
+    a document with thousands.
+  verify: covered by tests; PSI report yields >1000 notes
+  passes: true
+
+- id: jack-smith-published
+  desc: Jack Smith Volume One live — 169 pages, 99.2% retained, 229 notes
+  verify: /reports/jack-smith-vol1 renders; fidelity checks green
+  passes: true
+
+- id: wall-street-reingest
+  desc: >
+    PSI financial crisis report re-ingested from source — 645 pages, 157
+    headings (was 2), 2,725 notes, 98.3% retained.
+  verify: entry passes the fidelity gate with ingested:true
+  passes: true
+
+- id: permalink-stability
+  desc: >
+    Paragraph ids derive from the paragraph's opening words, not its position,
+    so re-ingesting no longer silently repoints citations. Printed page numbers
+    are emitted as #page-N anchors too.
+  verify: verify.sh fails if any positional "p-N" id reappears
+  passes: true
+
+- id: sidenotes
+  desc: Footnotes render beside the sentence they support, collapsing to
+    tap-to-open below 68rem
+  verify: verify.sh checks for sidenotes on reports that have notes
   passes: true
 
 - id: paragraph-permalinks
@@ -32,18 +89,38 @@
   passes: true
 
 - id: highlight-to-share
-  desc: Selecting text offers a canonical link to the paragraph, or the quote plus link
+  desc: Selecting text offers a canonical link to the paragraph, or quote plus link
   verify: e2e share popover check
   passes: true
 
-- id: ingestion-pipeline
-  desc: Deterministic PDF → Markdown with automated fidelity gates
-  verify: pnpm ingest verify
+- id: quote-preview-links
+  desc: ?p=<id> makes a shared link preview the passage it points at
+  verify: /reports/<id>/full?p=<paragraph> sets a quoted meta description
   passes: true
 
-- id: jack-smith-published
-  desc: Jack Smith Volume One live on the site, passing its fidelity gate
-  verify: /reports/jack-smith-vol1 renders; fidelity checks green
+- id: quote-cards
+  desc: >
+    Curated passages render as PNG share cards; og:image is advertised only
+    where a card exists. Regenerate with `pnpm cards`.
+  verify: card tests in tests/routes.test.ts
+  passes: true
+
+- id: split-reports
+  desc: >
+    Reports open on a contents page; each section and subsection is its own
+    page, with /full kept for searching across a whole report. Largest page
+    went from 2.9 MB to ~300 KB. Passage links route to their section.
+  verify: verify.sh section checks, including ?p= routing
+  passes: true
+
+- id: sitemap
+  desc: /sitemap.xml lists every section; /robots.txt points at it
+  verify: verify.sh checks both
+  passes: true
+
+- id: changelog
+  desc: /changelog, hand-written from docs/CHANGELOG.md
+  verify: verify.sh checks the page renders
   passes: true
 
 - id: announcement-page
@@ -51,93 +128,82 @@
   verify: /about returns 200 with the standfirst copy
   passes: true
 
-# --- open ---
-
-- id: footnote-recall
-  desc: >
-    Recover the remaining footnotes. 206 of roughly 283 are currently lifted;
-    the rest leave bare markers in the prose ("Thank you!" 129) because there is
-    no matching note to link to.
-  verify: footnote count within 5% of the highest note number in the source
-  passes: false
-
-- id: heading-completeness
-  desc: >
-    Section headings that wrap more than two lines still truncate
-    ("The substantial federal interest in protecting the integrity of the").
-  verify: no heading ends in a preposition or article
-  passes: false
-
-- id: wall-street-reingest
-  desc: >
-    Re-ingested from the source PDF held in the us-psi-financial-crisis repo.
-    645 pages, 162 headings (was 2), 2,725 notes, 98.3% retained. Old id
-    redirects to the new one.
-  verify: entry passes the fidelity gate with ingested:true
-  passes: true
-
-- id: footnote-layouts
-  desc: >
-    Footnote numbers appear either inline with their text or alone on a line
-    with the text beneath. Supporting only the first found 7 notes in a document
-    with thousands.
-  verify: both layouts covered by tests; PSI report yields >1000 notes
+- id: brand-mark
+  desc: The seal as favicon, header mark and on share cards
+  verify: /assets/brand/logo-64.png served; header renders it
   passes: true
 
 - id: deploy
-  desc: Deployed and verified on Cloudflare
-  verify: VERIFY_BASE=<url> ./scripts/verify.sh
+  desc: Live on reportsthatmatter.org, with www redirecting to the apex
+  verify: VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh
   passes: true
-  note: >
-    Live at https://reportsthatmatter.office-d34.workers.dev on the
-    office@atomatic.net account. The custom route v2.reportsthatmatter.org
-    still needs adding in the Cloudflare dashboard.
 
-- id: custom-domain
-  desc: v2.reportsthatmatter.org routes to the worker
-  verify: https://v2.reportsthatmatter.org/health returns ok
+- id: archive-subdomain
+  desc: >
+    The pre-V2 site readable at old.reportsthatmatter.org, served by the Worker
+    because the DNS record is proxied and GitHub cannot certify it. The old
+    site's URLs 301 there.
+  verify: old.reportsthatmatter.org/iraq-inquiry/ returns 200
+  passes: true
+
+# --- open ------------------------------------------------------------------
+
+- id: search-console
+  desc: >
+    Verify the domain, submit the sitemap, request indexing. The only place
+    that reports which queries we appear for — we have ~3k uniques/month and no
+    idea what they came for, and that answer should shape which reports we
+    ingest next.
+  verify: sitemap shows as submitted; impressions appear within a week
+  owner: rufus
   passes: false
-  blocked: route must be added in the Cloudflare dashboard
 
-- id: permalink-stability
+- id: launch
   desc: >
-    Paragraph ids derive from the paragraph's opening words, not its position,
-    so re-ingesting no longer renumbers citations. Printed page numbers are also
-    emitted as #page-N anchors — the unit these documents are actually cited by.
-  verify: verify.sh fails if any positional "p-N" id reappears
-  passes: true
+    Post the announcement thread and the first excerpts. Everything needed
+    exists — thread drafted, five cards rendered, passages in
+    docs/share-quotes.yaml.
+  verify: the thread is posted and the report is reachable from it
+  owner: rufus
+  passes: false
 
-- id: sidenotes
-  desc: Footnotes render beside the sentence they support, collapsing to
-    tap-to-open below 68rem
-  verify: verify.sh checks for rendered sidenotes on reports that have notes
-  passes: true
-
-- id: quote-preview-links
+- id: footnote-block-leakage
   desc: >
-    ?p=<id> makes a shared link preview the passage it points at, so a tweet
-    shows the quote rather than site boilerplate. A fragment never reaches the
-    server, hence the query string.
-  verify: /reports/<id>?p=<paragraph> sets a quoted meta description
-  passes: true
+    On some pages a footnote block is not detected and lands in the body as a
+    paragraph of raw citations. Worse than a missing sidenote: it interrupts
+    the prose and breaks the sentence merge across the page boundary. Best next
+    code task.
+  verify: no body paragraph consists mostly of citation strings
+  passes: false
 
-- id: split-reports
-  desc: >
-    One report is one page; the Wall Street report is a 2.9 MB page. Split on
-    the document's own level-2 sections (17 for Jack Smith, median 9.5 KB),
-    keeping a /full view for ctrl-F.
-  verify: no report page over 150 KB; /full still served
+- id: heading-completeness
+  desc: Section headings that wrap more than twice still truncate
+  verify: no heading ends in a preposition or article
   passes: false
 
 - id: design-review
   desc: Rufus reviews the Co-Star-derived design and gives feedback
   verify: human
+  owner: rufus
   passes: false
 
-- id: campaign-drafts
+- id: more-reports
   desc: >
-    Draft the launch thread and first excerpt posts in-repo, pointing at
-    paragraph permalinks in the live report. Drafting only — no posting,
-    no account creation, no scheduling.
-  verify: drafts exist in docs/plans/ and links resolve
+    ~28 candidates already curated as GitHub issues — Chilcot (#67), Leveson
+    (#32), Saville (#39), FCIC (#57), Valukas (#24), Challenger (#68),
+    Litvinenko (#66), Philip Morris (#33), Duelfer (#34). Each needs a repo
+    with the source PDF archived, then `pnpm ingest run`.
+  verify: report passes the fidelity gate and appears in the registry
+  passes: false
+
+- id: text-out-of-order
+  desc: >
+    Issue #12 against the old site. Worth re-checking against the new pipeline
+    before closing — it may already be fixed.
+  verify: manual
+  passes: false
+
+- id: structured-data
+  desc: Article/Report schema on reports, breadcrumbs on sections
+  verify: passes Google's rich results test
   passes: false

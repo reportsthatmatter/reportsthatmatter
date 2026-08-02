@@ -53,10 +53,10 @@ Nothing else on this list matters until this does.
 | | Item | Why |
 | --- | --- | --- |
 | shipped | **Ingestion pipeline + fidelity gates** | The reusable engine. Every report goes through it. |
-| **next** | **Footnote recall** | 206 of ~283 notes are placed; the rest leave bare markers in the prose and no sidenote. Most visible remaining quality gap. |
+| **next** | **Footnote-block leakage** | On some pages an undetected footnote block lands in the body as a paragraph of raw citations — worse than a missing sidenote, because it interrupts the prose and breaks the sentence merge across the page boundary. Best next code task. |
 | soon | **Heading completeness** | Titles wrapping more than twice still truncate. |
-| soon | **More reports** | The archive is two. Candidates in `brief-2026-01-13-good-reports.md`. |
-| soon | **Re-ingest the Wall Street sample** | Predates the pipeline; page numbers stranded mid-text, almost no headings. Needs its source PDF, which we do not hold. |
+| soon | **More reports** | The archive is two. **~28 candidates are already curated as GitHub issues** — Chilcot (#67), Leveson (#32), Saville (#39), FCIC (#57), Valukas (#24), Challenger (#68), Litvinenko (#66), Philip Morris (#33), Duelfer (#34), and more. That is the backlog; no need to invent one. |
+| shipped | **Re-ingest the Wall Street report** | From the source PDF in its own repo: 157 headings (was 2), 2,725 notes, 98.3% retained. |
 | later | **OCR review workflow** | 91 suspects sit in `fidelity.md` with nothing to action them. |
 | later | **Contributor path for reports** | `contribute-reports.md` exists; nothing implements it. |
 
@@ -65,7 +65,7 @@ Nothing else on this list matters until this does.
 | | Item | Why |
 | --- | --- | --- |
 | shipped | **Cloudflare deploy + prod verification** | Including a `VERIFY_BASE` mode, after `/health` flapped 200/404 in production only. |
-| **next** | **Custom domain** `v2.reportsthatmatter.org` | One dashboard route. It is what we would actually put in a tweet. |
+| shipped | **The main domain** | reportsthatmatter.org serves the new site; www redirects to it; the previous site lives on at old.reportsthatmatter.org. |
 | soon | **Reports out of the main repo** | Ingestion is per-report and messy; the site repo should not carry that churn. See the architecture doc. |
 | soon | **Pre-render at build time** | Stop re-parsing 2 MB of markdown per request; serve prepared HTML from static assets. |
 | later | **R2 for report storage** | Bundling caps out at ~20-25 reports. Not urgent at two; put the lookup behind an interface now so the swap is one module. |
@@ -99,4 +99,10 @@ of the need than expected.
 
 Add them here, in the section they belong to, with a one-line *why*. An item
 with no why does not get built. When something becomes active work it moves into
-`v2-features.yaml` with a verification condition attached.
+[`v2-features.yaml`](v2-features.yaml) with a verification condition attached.
+
+**Report candidates go in GitHub issues**, not here — there are already ~28,
+one per report, which is the right shape for them. This file is for features.
+
+**Where to start after a break:** the START HERE block at the top of
+`v2-features.yaml`. It names the next action and who owns it.
