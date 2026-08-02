@@ -77,14 +77,25 @@ export function linkInlineMarkers(text: string, known: Set<number>): string {
   );
 }
 
+/**
+ * One definition per note number.
+ *
+ * A number can arrive twice — most often because the note runs over a page
+ * break and its tail is parsed as a fresh note. Dropping the second copy loses
+ * that tail, so distinct text is appended instead; only exact repeats are
+ * discarded.
+ */
 export function renderEndnotes(notes: Footnote[]): string {
   if (!notes.length) return "";
-  const seen = new Set<number>();
-  const lines: string[] = [];
+
+  const byNumber = new Map<number, string[]>();
   for (const note of notes) {
-    if (seen.has(note.number)) continue;
-    seen.add(note.number);
-    lines.push(`[^${note.number}]: ${note.text}`);
+    const parts = byNumber.get(note.number) ?? [];
+    if (!parts.includes(note.text)) parts.push(note.text);
+    byNumber.set(note.number, parts);
   }
-  return lines.join("\n\n");
+
+  return [...byNumber.entries()]
+    .map(([number, parts]) => `[^${number}]: ${parts.join(" ")}`)
+    .join("\n\n");
 }

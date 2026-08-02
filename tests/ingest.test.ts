@@ -185,13 +185,21 @@ describe("footnotes", () => {
     expect(out).toBe("the same. 99 Next.");
   });
 
-  it("renders each note once", () => {
+  it("renders each note number once", () => {
     const rendered = renderEndnotes([
       { number: 1, text: "a", page: 1 },
       { number: 1, text: "a", page: 2 },
       { number: 2, text: "b", page: 2 },
     ]);
     expect(rendered.split("\n\n")).toHaveLength(2);
+  });
+
+  it("keeps a note's tail when it runs over a page break", () => {
+    const rendered = renderEndnotes([
+      { number: 7, text: "See ECF No. 252 at 79", page: 1 },
+      { number: 7, text: "and the following page.", page: 2 },
+    ]);
+    expect(rendered).toBe("[^7]: See ECF No. 252 at 79 and the following page.");
   });
 });
 
@@ -486,5 +494,68 @@ describe("hyphenation across a page break, lowercase continuation", () => {
       { kind: "paragraph", text: "lation by the agency." },
     ]);
     expect((merged[0] as { text: string }).text).toBe("subject to regulation by the agency.");
+  });
+});
+
+describe("footnote block anchoring", () => {
+  it("is not thrown off by a stray candidate after the block", () => {
+    // A citation wrapping onto a line beginning "20 U.S.C." used to reject the
+    // whole block, losing every note on the page.
+    const result = splitPage(
+      page([
+        "Body text.",
+        "",
+        "140 See ECF No. 252 at 11-12.",
+        "141 See ECF No. 252 at 13-14.",
+        "142 SCO-00455873 at 3.",
+        "20 U.S.C. 1234 and following.",
+      ]),
+      140
+    );
+    const notes = parseFootnotes(result.footnotes, 44);
+    expect(notes.map((n) => n.number)).toEqual([140, 141, 142, 20]);
+  });
+
+  it("anchors on the expected number even when earlier candidates are noise", () => {
+    const result = splitPage(
+      page([
+        "Body mentioning 5 things.",
+        "",
+        "104 See ECF No. 252 at 77-78.",
+        "105 SCO-02244118 at 5.",
+        "106 Id. at 6.",
+      ]),
+      104
+    );
+    expect(parseFootnotes(result.footnotes, 33)).toHaveLength(3);
+  });
+
+  it("still rejects a page with no plausible block", () => {
+    const result = splitPage(page(["Body text only.", "More body text."]), 50);
+    expect(result.footnotes).toHaveLength(0);
+  });
+});
+
+describe("printed page numbers", () => {
+  it("takes a page number from the foot of the page", () => {
+    const result = splitPage(page(["Body text.", "", "     22", ""]), 1);
+    expect(result.printed).toBe(22);
+  });
+
+  it("takes one from the head of the page too", () => {
+    // The PSI report puts its page number in a header, not a footer.
+    const result = splitPage(page(["      23", "", "Body text continues."]), 1);
+    expect(result.printed).toBe(23);
+    expect(result.body.join(" ")).not.toContain("23");
+  });
+
+  it("prefers the footer when both look numeric", () => {
+    const result = splitPage(page(["  7", "", "Body.", "", "  9"]), 1);
+    expect(result.printed).toBe(9);
+  });
+
+  it("does not invent a page number from ordinary text", () => {
+    const result = splitPage(page(["Body text.", "", "More body text."]), 1);
+    expect(result.printed).toBeNull();
   });
 });

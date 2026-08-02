@@ -4,6 +4,7 @@ import { CARDS } from "../generated/cards";
 import type { Section } from "../lib/sections";
 import type { ReportMeta } from "./report";
 import { extractParagraph } from "./report";
+import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
 
 function truncate(text: string, limit: number): string {
   if (text.length <= limit) return text;
@@ -60,8 +61,11 @@ export function renderReportOverview(
 </main>
 <script src="/assets/find-anchor.js" defer></script>`;
 
+  const description = `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
+
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
-    description: `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
+    description,
+    structuredData: reportJsonLd(meta, description),
   });
 }
 
@@ -114,5 +118,10 @@ export function renderSection(
     description,
     scripts: ["/assets/share.js"],
     image,
+    structuredData: breadcrumbJsonLd([
+      { name: "Reports", path: "/reports" },
+      { name: meta.title, path: reportPath },
+      { name: section.title, path: `${reportPath}/${section.slug}` },
+    ]),
   });
 }

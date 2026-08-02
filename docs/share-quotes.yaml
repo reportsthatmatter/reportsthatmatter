@@ -11,17 +11,23 @@
 #   note:      why this one (for us, not published)
 #   quote:     optional — the exact sentence to show. Without it the card uses
 #              the start of the paragraph, which often misses the notable line.
+#   match:     optional but recommended — a distinctive phrase from the passage.
+#              Paragraph ids move when the ingestion improves; this lets
+#              `pnpm cards` re-find the passage and tell you the new id instead
+#              of failing.
 
 quotes:
   - report: jack-smith-vol1
     paragraph: trump-has-something-else-left
+    match: sitting alone, Mr. Trump issued a Tweet
     note: '"So what?" — response on being told Pence had been evacuated'
     quote: >-
       When an advisor rushed to tell Mr. Trump that Vice President Pence had
       been evacuated to a secure location, he replied: "So what?"
 
   - report: jack-smith-vol1
-    paragraph: vice-president-pence-told-trump
+    paragraph: running-mate-example-trump-s
+    match: a substantial number of non-citizens had voted
     note: '"The details don''t matter."'
     quote: >-
       Told that Co-Conspirator 1 would be unable to prove his fraud allegations
@@ -29,6 +35,7 @@ quotes:
 
   - report: jack-smith-vol1
     paragraph: rioters-capitol-had-been-motivated
+    match: Hang Mike Pence
     note: '"Hang Mike Pence" — the crowd hunting for lawmakers'
     quote: >-
       Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and
@@ -36,8 +43,10 @@ quotes:
 
   - report: jack-smith-vol1
     paragraph: violence-further-delay-service-these
+    match: perpetuate himself in office
     note: the common plan, stated plainly
 
   - report: jack-smith-vol1
     paragraph: december-14-the-date-eca-required
+    match: the ECA required each state
     note: the fraudulent elector plan

@@ -19,6 +19,8 @@ type LayoutOptions = {
   scripts?: string[];
   /** Absolute or root-relative share image. */
   image?: string;
+  /** JSON-LD, already serialised. */
+  structuredData?: string;
 };
 
 export function renderLayout(
@@ -31,6 +33,7 @@ export function renderLayout(
     description = "Reports that Matter turns hard-to-access public reports into searchable, readable, linkable web pages.",
     scripts = [],
     image,
+    structuredData,
   } = options;
 
   const nav = navLinks.length
@@ -58,6 +61,7 @@ ${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta na
 <link rel="icon" href="/assets/brand/logo-64.png" sizes="64x64" type="image/png" />
 <link rel="apple-touch-icon" href="/assets/brand/logo-180.png" />
 <link rel="stylesheet" href="/assets/styles.css" />
+${structuredData ? `<script type="application/ld+json">${structuredData}</script>` : ""}
 </head>
 <body>
 <header class="site-header wrap">

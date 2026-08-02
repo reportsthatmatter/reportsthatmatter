@@ -22,8 +22,9 @@
 #   2. Create the @ReportsThatMatter account.
 #   3. Post the thread (drafted, ibid. Appendix A). Five cards are rendered.
 #
-# The best next *code* task is `footnote-block-leakage` below — a text-quality
-# bug, not a missing nicety.
+# The best next *code* task is `heading-completeness` below. The bigger prize
+# is `more-reports`: the pipeline is in good shape and the backlog is curated
+# in GitHub issues.
 #
 # To resume: ./scripts/init.sh   (bootstraps, then runs the full check)
 
@@ -169,12 +170,33 @@
 
 - id: footnote-block-leakage
   desc: >
-    On some pages a footnote block is not detected and lands in the body as a
-    paragraph of raw citations. Worse than a missing sidenote: it interrupts
-    the prose and breaks the sentence merge across the page boundary. Best next
-    code task.
+    Fixed by anchoring the block on the expected note number rather than
+    searching back from the last candidate — a single stray number at the foot
+    of a page used to reject the whole block. Leaked blocks 14 → 3 (Jack Smith)
+    and 8 → 1 (PSI); footnote recall 73% → 97%.
   verify: no body paragraph consists mostly of citation strings
-  passes: false
+  passes: true
+
+- id: page-anchors-both-layouts
+  desc: >
+    Printed page numbers are taken from a header as well as a footer. The PSI
+    report puts them at the top and had zero page anchors as a result; it now
+    has 628.
+  verify: both reports carry %%page markers
+  passes: true
+
+- id: structured-data
+  desc: schema.org Report on report pages, BreadcrumbList on sections
+  verify: JSON-LD parses and carries isBasedOn provenance
+  passes: true
+
+- id: card-anchors-self-heal
+  desc: >
+    Curated cards carry a `match:` phrase, so when a paragraph id moves (as it
+    does whenever ingestion improves) `pnpm cards` re-finds the passage and
+    reports the new id instead of failing.
+  verify: pnpm cards succeeds after a re-ingest
+  passes: true
 
 - id: heading-completeness
   desc: Section headings that wrap more than twice still truncate
@@ -198,12 +220,11 @@
 
 - id: text-out-of-order
   desc: >
-    Issue #12 against the old site. Worth re-checking against the new pipeline
-    before closing — it may already be fixed.
-  verify: manual
+    Issue #12 — body text interleaved with footnotes. Checked against the new
+    pipeline at the page the issue reported (620 of the PSI report): it now
+    reads in order. The issue is fixed but not yet closed — that is Rufus's,
+    since it is public.
+  verify: page 620 of us-psi-financial-crisis reads as continuous prose
+  owner: rufus
   passes: false
 
-- id: structured-data
-  desc: Article/Report schema on reports, breadcrumbs on sections
-  verify: passes Google's rich results test
-  passes: false

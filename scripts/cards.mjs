@@ -33,18 +33,46 @@ function reportHtml(report) {
   return rendered.get(report.id);
 }
 
-function quoteFor(reportId, paragraphId) {
+/**
+ * Finds the paragraph a curated card points at.
+ *
+ * Paragraph ids are derived from the opening words, so improving the ingestion
+ * can move one — a footnote block that stops leaking into the body shifts where
+ * the paragraph begins. `match:` is the guard: a distinctive phrase from the
+ * passage, used to re-find it and report the corrected id rather than failing.
+ */
+function quoteFor(reportId, paragraphId, match) {
   const report = registry.reports.find((entry) => entry.id === reportId);
   if (!report) throw new Error(`No such report: ${reportId}`);
 
   const html = reportHtml(report);
-  const quote = extractParagraph(html, paragraphId);
-  if (!quote) throw new Error(`No paragraph "${paragraphId}" in ${reportId}`);
+  let id = paragraphId;
+  let quote = extractParagraph(html, id);
 
-  const page = html
-    .match(new RegExp(`<p id="${paragraphId}"[^>]*data-page="(\\d+)"`))?.[1];
+  if (!quote && match) {
+    const at = html.indexOf(match);
+    if (at !== -1) {
+      const open = html.lastIndexOf('<p id="', at);
+      id = html.slice(open + 7, html.indexOf('"', open + 7));
+      quote = extractParagraph(html, id);
+      if (quote) {
+        console.warn(
+          `  ! ${reportId}/${paragraphId} moved to ${id} — update docs/share-quotes.yaml`
+        );
+      }
+    }
+  }
 
-  return { quote, page, report };
+  if (!quote) {
+    throw new Error(
+      `No paragraph "${paragraphId}" in ${reportId}` +
+        (match ? ` and match text not found` : ` (add a match: phrase to recover)`)
+    );
+  }
+
+  const page = html.match(new RegExp(`<p id="${id}"[^>]*data-page="(\\d+)"`))?.[1];
+
+  return { quote, page, report, id };
 }
 
 /** A card has one screenful; trim to a sentence boundary rather than mid-word. */
@@ -74,6 +102,7 @@ if (argReport && argParagraph) {
       paragraph: entry.paragraph,
       note: entry.note,
       quote: entry.quote,
+      match: entry.match,
     });
   }
 }
@@ -89,7 +118,7 @@ const generated = [];
 for (const target of targets) {
   let resolved;
   try {
-    resolved = quoteFor(target.report, target.paragraph);
+    resolved = quoteFor(target.report, target.paragraph, target.match);
   } catch (error) {
     console.error(`  ✗ ${target.report}/${target.paragraph} — ${error.message}`);
     process.exitCode = 1;
@@ -108,12 +137,12 @@ for (const target of targets) {
   await page.setContent(html, { waitUntil: "networkidle" });
   await page.waitForTimeout(250);
 
-  const out = join(root, "assets/cards", target.report, `${target.paragraph}.png`);
+  const out = join(root, "assets/cards", target.report, `${resolved.id}.png`);
   mkdirSync(dirname(out), { recursive: true });
   await page.screenshot({ path: out });
 
-  generated.push(`${target.report}/${target.paragraph}`);
-  console.log(`  ✓ ${target.report}/${target.paragraph}${target.note ? ` — ${target.note}` : ""}`);
+  generated.push(`${target.report}/${resolved.id}`);
+  console.log(`  ✓ ${target.report}/${resolved.id}${target.note ? ` — ${target.note}` : ""}`);
 }
 
 await browser.close();

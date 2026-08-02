@@ -343,3 +343,39 @@ describe("crawlability", () => {
     );
   });
 });
+
+describe("structured data", () => {
+  it("describes a report as a Report", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    const body = await res.text();
+    const json = body.match(
+      /<script type="application\/ld\+json">([\s\S]*?)<\/script>/
+    )?.[1];
+    expect(json).toBeTruthy();
+    const data = JSON.parse(json!);
+    expect(data["@type"]).toBe("Report");
+    expect(data.name).toContain("Jack Smith");
+    // Provenance is the whole claim; it must point at the original.
+    expect(data.isBasedOn).toContain("justice.gov");
+  });
+
+  it("gives a section breadcrumbs back to its report", async () => {
+    const res = await app.request("http://localhost/reports/jack-smith-vol1/the-law");
+    const json = (await res.text()).match(
+      /<script type="application\/ld\+json">([\s\S]*?)<\/script>/
+    )?.[1];
+    const data = JSON.parse(json!);
+    expect(data["@type"]).toBe("BreadcrumbList");
+    expect(data.itemListElement).toHaveLength(3);
+    expect(data.itemListElement[2].item).toContain("/the-law");
+  });
+
+  it("emits valid JSON that cannot break out of the script tag", async () => {
+    const res = await app.request("http://localhost/reports/us-psi-financial-crisis");
+    const json = (await res.text()).match(
+      /<script type="application\/ld\+json">([\s\S]*?)<\/script>/
+    )?.[1];
+    expect(() => JSON.parse(json!)).not.toThrow();
+    expect(json).not.toContain("</script");
+  });
+});

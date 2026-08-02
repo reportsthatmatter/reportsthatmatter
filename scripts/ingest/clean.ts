@@ -66,17 +66,31 @@ export function noteCandidates(
 export function splitPage(page: Page, expectedNote: number): SplitPage {
   const lines = [...page.lines];
 
-  // printed page number: last non-empty line, if it is only a number
+  // The printed page number sits alone on a line, at the foot of the page or
+  // at its head — the Jack Smith report uses a footer, the PSI report a header,
+  // and looking in only one place loses page anchors for half the archive.
   let printed: number | null = null;
+
+  const takeNumber = (index: number) => {
+    const value = Number.parseInt(lines[index].trim(), 10);
+    if (Number.isNaN(value)) return false;
+    printed = value;
+    lines.splice(index, 1);
+    return true;
+  };
+
   for (let i = lines.length - 1; i >= 0 && i >= lines.length - 4; i--) {
-    const line = lines[i];
-    if (!line.trim()) continue;
-    if (PAGE_NUMBER.test(line)) {
-      const value = Number.parseInt(line.trim(), 10);
-      printed = Number.isNaN(value) ? null : value;
-      lines.splice(i, 1);
-    }
+    if (!lines[i].trim()) continue;
+    if (PAGE_NUMBER.test(lines[i])) takeNumber(i);
     break;
+  }
+
+  if (printed === null) {
+    for (let i = 0; i < Math.min(3, lines.length); i++) {
+      if (!lines[i].trim()) continue;
+      if (PAGE_NUMBER.test(lines[i])) takeNumber(i);
+      break;
+    }
   }
 
   // Footnote block: the notes sit at the foot of the page as a consecutively
@@ -89,39 +103,73 @@ export function splitPage(page: Page, expectedNote: number): SplitPage {
     return { index: page.index, printed, body: lines, footnotes: [] };
   }
 
-  // Walk back from the final candidate while the numbering stays consecutive.
-  let start = candidates.length - 1;
-  while (
-    start > 0 &&
-    candidates[start - 1].note === candidates[start].note - 1
-  ) {
-    start -= 1;
-  }
-
-  const run = candidates.slice(start);
-
-  // A lone number is only a note if it continues the sequence. Allow a small
-  // gap: a note that wraps across a page break leaves its opener on the page
-  // before, so the counter drifts by one or two.
-  const continuesSequence =
-    run[0].note >= expectedNote && run[0].note <= expectedNote + 4;
-  if (run.length < 2 && !continuesSequence) {
+  const start = chooseBlockStart(candidates, expectedNote, lines.length);
+  if (start === null) {
     return { index: page.index, printed, body: lines, footnotes: [] };
   }
 
-  // A long run that restarts far below the sequence is a numbered list or a
-  // wrapped citation, not the footnote block.
-  if (run[0].note < expectedNote - 2) {
-    return { index: page.index, printed, body: lines, footnotes: [] };
-  }
-
-  const noteStart = run[0].line;
+  const noteStart = start.line;
   return {
     index: page.index,
     printed,
     body: lines.slice(0, noteStart),
     footnotes: lines.slice(noteStart),
   };
+}
+
+type Candidate = { line: number; note: number };
+
+/**
+ * Picks where the footnote block starts.
+ *
+ * The running note number is the strongest signal available: notes are
+ * sequential across the whole document, so the block almost always opens on the
+ * number we are expecting. Anchoring on that survives the stray candidates that
+ * litter these pages — a citation wrapping onto a line that begins "20 U.S.C.",
+ * an exhibit number, a figure. Searching backwards from the last candidate
+ * instead, as this used to, let a single stray at the foot of the page reject
+ * the entire block: one page offered notes 140-147 and was thrown out because a
+ * spurious "20" followed them.
+ */
+function chooseBlockStart(
+  candidates: Candidate[],
+  expectedNote: number,
+  lineCount: number
+): Candidate | null {
+  /** Corroboration: the next note follows it, or it sits low on the page. */
+  const plausible = (candidate: Candidate) =>
+    candidates.some((other) => other.note === candidate.note + 1) ||
+    candidate.line > lineCount * 0.55;
+
+  const exact = candidates.find((candidate) => candidate.note === expectedNote);
+  if (exact && plausible(exact)) return exact;
+
+  // Notes we failed to collect leave the counter behind; accept a small jump.
+  const ahead = candidates
+    .filter((c) => c.note > expectedNote && c.note <= expectedNote + 6)
+    .sort((a, b) => a.note - b.note)[0];
+  if (ahead && plausible(ahead)) return ahead;
+
+  // Appendices restart their numbering. Fall back to the longest consecutive
+  // run, but only a substantial one sitting at the foot of the page.
+  const best = longestRun(candidates);
+  if (best.length >= 3 && best[0].line > lineCount * 0.4) return best[0];
+
+  return null;
+}
+
+function longestRun(candidates: Candidate[]): Candidate[] {
+  let best: Candidate[] = [];
+  let current: Candidate[] = [];
+
+  for (const candidate of candidates) {
+    const previous = current[current.length - 1];
+    if (previous && candidate.note === previous.note + 1) current.push(candidate);
+    else current = [candidate];
+    if (current.length > best.length) best = [...current];
+  }
+
+  return best;
 }
 
 /**
