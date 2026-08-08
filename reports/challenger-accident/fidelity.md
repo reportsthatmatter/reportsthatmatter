@@ -1,6 +1,6 @@
 # Fidelity review — Investigation of the Challenger Accident
 
-Pages: 438  ·  Footnotes: 94  ·  Auto-fixes applied: 18
+Pages: 438  ·  Footnotes: 94  ·  Auto-fixes applied: 21
 
 OCR suspects below are a **review queue, not errors**. Whether the text is
 faithful to the scan is a human judgement; these are the places most likely
@@ -145,6 +145,7 @@ to need one.
 | likely | stray punctuation inside a word | `Sc;peicncencs` | 332 |  I I Sc;peicncencs-r-ormat-~~ntenancsijverrmentiunrsneo ga |
 | likely | digit inside a word | `3y` | 334 |  I *. Halntenancs - To be maintained 3y page r e v f s i o n / t o t l l rais |
 | likely | digit inside a word | `3of` | 337 |  Page 3of 34 9. Functional |
+| likely | known OCR artefact | `fonn` | 338 | re such infonnatlon e x i i t s i n the fonn o f notes, calculations, IL's, referenc |
 | likely | digit inside a word | `9o` | 343 |  Page 9o f 34 Table 5.0 |
 | likely | digit inside a word | `6AB` | 343 |  Purge, Vent & Drain 05-6AB 01 -5  |
 | likely | digit inside a word | `6C` | 343 |  Nosewheel Steering 05-6C 02-2  |
@@ -207,4 +208,3 @@ to need one.
 | likely | digit inside a word | `4nnuol` | 377 |  ' .4nnuol Booh o/ ASTM Siandardr, Vol 09.01 D  |
 | likely | digit inside a word | `4nnrioI` | 377 | Precision State- ' 4nnrioI Boo!, oIASTM Siandurdr. VoI 14.02  |
 | likely | digit inside a word | `4Snl` | 378 |  4Snl D 395 appropriate method, is calcul |
-| likely | digit inside a word | `0fO` | 378 |  for Type 1 Diamclcr.mm(in.) 29.0fO.S(1.14 13.0f0.2(0.~1 specimens and |
