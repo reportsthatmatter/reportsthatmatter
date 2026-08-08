@@ -120,6 +120,56 @@ itself (28 MB for Jack Smith). Committing all of that into the site repo means:
 The Jack Smith source PDF is already 28 MB and deliberately *not* committed. That
 instinct was correct and should be the rule.
 
+**Decided 2026-08-08: the derived markdown lives in the report repo too**, with
+a copy carried in the site repo for serving. Not yet implemented.
+
+Two reasons, and the second is the stronger one:
+
+1. **Corrections become version-controlled.** A report's text is a thing that
+   gets fixed over time, and those fixes deserve a history of their own —
+   attributable, revertible, reviewable — rather than being silently overwritten
+   by the next pipeline run.
+2. **Pipeline changes become reviewable.** With the output committed, changing
+   the ingestion code produces a diff across 60,000 words that says exactly what
+   the change did. Every ingestion fix so far has been judged by spot-checking a
+   page; a diff would have caught the ones that regressed something elsewhere.
+
+### The tension this creates, and how to resolve it
+
+It cuts against the standing rule that *fixes go in the pipeline, not in its
+output* — the rule that stops corrections from being lost on the next run and
+makes each fix compound across every future report.
+
+Both are right, and the resolution is to keep hand-corrections **out of the
+generated file** while still version-controlling them:
+
+```
+<report-repo>/
+  archive/source.pdf        provenance
+  full.md                   generated — committed, never hand-edited
+  corrections.yaml          hand-authored, applied deterministically
+  fidelity.md               the OCR review queue
+```
+
+`corrections.yaml` holds targeted, reviewable substitutions — the human
+judgements the pipeline cannot make, expressed as data:
+
+```yaml
+- page: 30
+  find: "So Help 1\\;fe Godp. 451"
+  replace: "So Help Me God p. 451"
+  note: small-font OCR; checked against the scan
+```
+
+The pipeline applies them as a final pass, so re-running still reproduces the
+same output, corrections survive, and the fidelity checks still see everything.
+It also turns `fidelity.md` from a list nobody actions into the input for a real
+review workflow.
+
+**Open question:** whether the site repo carries a copy or fetches at build
+time. A copy is simpler and keeps deploys reproducible; fetching avoids the
+duplication. Worth deciding when this is built, not before.
+
 ### Serving: not from the report repos. Also agreed.
 
 Reading GitHub at render time is wrong for the reasons Rufus named and one more:

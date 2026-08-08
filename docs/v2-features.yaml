@@ -225,3 +225,14 @@
   owner: rufus
   passes: false
 
+- id: derived-markdown-in-report-repos
+  desc: >
+    Decided 2026-08-08, not built. The generated full.md should live in each
+    report's own repo, with a copy carried here for serving, so corrections get
+    a version history and a pipeline change produces a reviewable diff rather
+    than being judged by spot-checking a page. Needs a per-report
+    corrections.yaml applied deterministically, so this does not become
+    hand-editing generated output. Design in
+    docs/plans/2026-08-01-architecture.md §3.
+  verify: re-running the pipeline reproduces the same output with corrections intact
+  passes: false

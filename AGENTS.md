@@ -55,7 +55,10 @@ an interactive session.
 
 - **Fixes go in the pipeline, not in its output.** Never hand-edit a generated
   `reports/*/full.md`; correct `scripts/ingest/` and re-run. Each fix then
-  compounds across every future report.
+  compounds across every future report. (Planned: a per-report
+  `corrections.yaml` for the human judgements the pipeline cannot make, applied
+  deterministically so output stays reproducible — architecture doc §3. Until
+  that exists, the rule is absolute.)
 - **Never weaken a fidelity check to make a report pass.** If a report cannot
   meet the gate, mark it `ingested: false` in the registry and record why. The
   checks exist to find exactly what a weakened check would hide.
