@@ -30,6 +30,15 @@ const CERTAIN: Array<[RegExp, string, string]> = [
   [/\b(\d{1,2}) ?: ?(\d{2})\b/g, "$1:$2", "space inside timestamp"],
   [/\bin tum\b/g, "in turn", "tum → turn"],
   [/\bUnUed States\b/g, "United States", "UnUed → United"],
+  // Run-together words the scanner drops a space from. Neither half-word is
+  // ever a legitimate reading on its own, unlike "modem" or "arid" below.
+  [/\bofthe\b/g, "of the", "ofthe → of the"],
+  [/\binthe\b/g, "in the", "inthe → in the"],
+  [/\bbo th\b/g, "both", "bo th → both"],
+  [/\bconceming\b/gi, "concerning", "conceming → concerning"],
+  // "fonn" — the scanner reads "r" as "n", same failure as "tum" for "turn".
+  // Not a word under any other reading.
+  [/\bfonn\b/g, "form", "fonn → form"],
 ];
 
 /** Patterns worth a human look. Never auto-changed. */
@@ -37,7 +46,7 @@ const SUSPECT: Array<[RegExp, string, Suspect["confidence"]]> = [
   [/\b\w*[a-z]rn[a-z]\w*\b/g, "possible rn/m confusion", "possible"],
   [/\b[A-Za-z]*\d[A-Za-z]+\b/g, "digit inside a word", "likely"],
   [/[A-Za-z]{2,}[;!\\|][A-Za-z]{2,}/g, "stray punctuation inside a word", "likely"],
-  [/\b(tum|modem|conceming|thc|fl-om|arid|bo th|ofthe|inthe)\b/gi, "known OCR artefact", "likely"],
+  [/\b(tum|modem|conceming|thc|fl-om|arid|bo th|ofthe|inthe|fonn)\b/gi, "known OCR artefact", "likely"],
   [/\b[a-z]{1,2}[A-Z][a-z]/g, "case break inside a word", "possible"],
 ];
 

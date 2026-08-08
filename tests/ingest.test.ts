@@ -256,6 +256,24 @@ describe("ocr", () => {
     expect(suspects.length).toBeGreaterThan(0);
     expect(suspects[0].page).toBe(3);
   });
+
+  it("joins run-together words that have no other reading", () => {
+    expect(autoFix("one ofthe most important").text).toBe("one of the most important");
+    expect(autoFix("somewhere inthe middle").text).toBe("somewhere in the middle");
+    expect(autoFix("bo th parties").text).toBe("both parties");
+    expect(autoFix("conceming this matter").text).toBe("concerning this matter");
+  });
+
+  it("repairs the r/n scan confusion in 'form'", () => {
+    expect(autoFix("redacted fonn in the record").text).toBe("redacted form in the record");
+  });
+
+  it("does not touch words that are ambiguous with a real reading", () => {
+    // "modem" is a real word (the networking device) as well as a scan of
+    // "modern" — a human has to decide which, so it stays a suspect only.
+    const input = "the modem was configured";
+    expect(autoFix(input).text).toBe(input);
+  });
 });
 
 describe("fidelity", () => {

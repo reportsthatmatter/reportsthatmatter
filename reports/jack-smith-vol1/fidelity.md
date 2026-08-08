@@ -1,6 +1,6 @@
 # Fidelity review — Report of Special Counsel Jack Smith, Volume One: The Election Case
 
-Pages: 169  ·  Footnotes: 296  ·  Auto-fixes applied: 256
+Pages: 169  ·  Footnotes: 296  ·  Auto-fixes applied: 260
 
 OCR suspects below are a **review queue, not errors**. Whether the text is
 faithful to the scan is a human judgement; these are the places most likely
@@ -32,6 +32,7 @@ to need one.
 | likely | digit inside a word | `ce1iifies` | 79 | he United States collects, counts, and ce1iifies the results of the presidential electio |
 | likely | digit inside a word | `HD2R` | 109 | egment/02 [https://perma.cc/HD2R- 6U8Y] (the "[p ]rosecutor has urged s |
 | likely | digit inside a word | `5PPD` | 120 | 44%20- %200pinion.pdf (https://perma.cc/5PPD-JH68], the Government obtained records- |
+| likely | known OCR artefact | `fonn` | 124 | ments that were made public in redacted fonn in In re Application ofthe New York Ti |
 | likely | digit inside a word | `Cou1t` | 134 | nor the majority opinion in the Supreme Cou1t addressed the application of clear-stat |
 | likely | digit inside a word | `fo1mer` | 136 | functional justification for immunizing fo1mer Presidents from federal  |
 | likely | digit inside a word | `Cou1i` | 139 | em."). Ultimately, the Supreme Cou1i ruled that for official powers entruste |

@@ -322,6 +322,23 @@ hr {
   color: var(--ink);
 }
 
+/* A subsection (h3) nests under the part (h2) above it — same flat list,
+ * but indented, smaller and quieter, so the hierarchy a reader would see in
+ * the document's own contents page survives onto this one. */
+.report-list li.sub {
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--rule);
+}
+
+.report-list li.sub a {
+  padding-block: 1.25rem;
+}
+
+.report-list .title.sub {
+  font-size: 1.1rem;
+  color: var(--body);
+}
+
 /* ---------- report page ---------- */
 
 .report-header {
@@ -544,6 +561,13 @@ hr {
      * once the notes are hanging off the right of it. */
     margin-left: max(0px, calc(50% - (var(--measure) + var(--sidenote-width) + var(--sidenote-gap)) / 2));
     margin-right: 0;
+    /* A floated sidenote longer than the paragraph beside it otherwise falls
+     * outside .prose's own height — the box ends where the last unfloated
+     * line does, and the section nav and footer render on top of the note
+     * that is still visually hanging below. flow-root makes .prose's box
+     * contain its floated children without clipping their negative-margin
+     * overflow into the right-hand column, unlike overflow: hidden. */
+    display: flow-root;
   }
 
   .sidenote {
