@@ -22,3 +22,11 @@ reports:
     source_path: reports/challenger-accident/full.md
     source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
     ingested: true
+
+  - id: litvinenko-inquiry
+    title: "The Litvinenko Inquiry"
+    authors: "Sir Robert Owen (Chairman)"
+    published_at: "21 January 2016"
+    source_path: reports/litvinenko-inquiry/full.md
+    source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
+    ingested: true
