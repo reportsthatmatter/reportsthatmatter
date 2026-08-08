@@ -5,28 +5,21 @@
 # the goal pass — an entry that cannot be met is marked blocked, with a reason.
 #
 # Where things live:
+#   GitHub issue #77     START HERE — the map of what to do next
+#   AGENTS.md            house rules, the done condition, gotchas
 #   docs/ROADMAP.md      what we might build and why (the thinking)
 #   this file            what is done and what is next (the state)
-#   GitHub issues        report candidates — ~28 of them, already curated
+#   GitHub issues        report candidates, one per report
 #
 # ---------------------------------------------------------------------------
-# START HERE
+# START HERE  →  https://github.com/reportsthatmatter/reportsthatmatter/issues/77
 # ---------------------------------------------------------------------------
-# The site is live at https://reportsthatmatter.org with two reports, the build
-# is green, and the working tree is clean. Nothing is half-finished.
+# That issue is the entry point: current state, and a map of what is worth
+# doing next with enough context to pick one and go. This file is the detail
+# behind it — one entry per feature, with how each is verified.
 #
-# The next action is not code. It is launch, and it needs Rufus:
-#   1. Google Search Console — verify the domain, submit /sitemap.xml, request
-#      indexing on the Jack Smith report. ~10 minutes.
-#      Steps: docs/plans/2026-08-02-launch-and-seo.md §2
-#   2. Create the @ReportsThatMatter account.
-#   3. Post the thread (drafted, ibid. Appendix A). Five cards are rendered.
+# To resume:  ./scripts/init.sh   (bootstraps, then runs the full check)
 #
-# The best next *code* task is `more-reports` — the pipeline is in good shape
-# and the backlog is curated in GitHub issues. Note that the Challenger PDF
-# currently lives only in ../challenger-accident/ locally; it needs a repo.
-#
-# To resume: ./scripts/init.sh   (bootstraps, then runs the full check)
 
 # --- shipped ---------------------------------------------------------------
 

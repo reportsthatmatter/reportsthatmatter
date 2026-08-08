@@ -20,6 +20,12 @@ VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh  # deployed
 
 Cloudflare account: `office@atomatic.net`. Deploy with `pnpm wrangler deploy`.
 
+## Contributing / picking this up
+
+Start from **[issue #77 — START HERE](https://github.com/reportsthatmatter/reportsthatmatter/issues/77)**:
+current state and a map of what to do next. House rules are in
+[AGENTS.md](AGENTS.md).
+
 ## Plans
 
 - [ROADMAP.md](docs/ROADMAP.md) — the master feature list, ordered by distribution
@@ -28,7 +34,7 @@ Cloudflare account: `office@atomatic.net`. Deploy with `pnpm wrangler deploy`.
 - [MARKETING.md](docs/MARKETING.md)
   - [Landing Page Brief](docs/plans/brief-landing-page.md)
 - [PRODUCT.md](docs/PRODUCT.md)
-- [CLAUDE.md](CLAUDE.md) — house rules and the done condition
+- [AGENTS.md](AGENTS.md) — house rules and the done condition
 
 ## Developers
 
