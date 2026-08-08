@@ -105,8 +105,20 @@ export function danglesMidPhrase(text: string): boolean {
   return !/[.?!:]$/.test(text) && DANGLING.test(text.trim());
 }
 
-/** A table-of-contents entry: dot leaders running to a page number. */
-const TOC_ENTRY = /[.·]{4,}\s*\d{1,4}\s*$/;
+/**
+ * A table-of-contents (or tabular list) entry: either dot leaders running to
+ * a page number, or — in born-digital reports that right-align with spaces
+ * instead — a gap wide enough that it can only be column alignment, not
+ * ordinary word spacing.
+ *
+ * The gap alone is not enough: a footnote marker that wraps onto its own
+ * short line ("previously reported results.   197") has exactly the same
+ * shape and would otherwise be read as a contents entry, severing the
+ * sentence and inventing a fake page listing. What tells them apart is the
+ * character right before the gap — a title never ends the way a sentence
+ * fragment does, on ".", "," ";" or ":".
+ */
+const TOC_ENTRY = /[.·]{4,}\s*\d{1,4}\s*$|(?<![.,;:])[ \t]{3,}\d{1,4}\s*$/;
 
 /** Section headings carry the printed page number after the title. */
 function stripTrailingPageNumber(text: string): string {
@@ -186,8 +198,9 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
   // heading looks like the continuation of an indented block and gets quoted.
   const structural = lines.map((line) => {
     if (!line.trim()) return false;
-    const single = normaliseWhitespace(line);
-    return TOC_ENTRY.test(single) || isHeading(single) !== null;
+    // TOC_ENTRY's whitespace-gap branch needs the line's real spacing, which
+    // normaliseWhitespace below would collapse away before it gets a look.
+    return TOC_ENTRY.test(line) || isHeading(normaliseWhitespace(line)) !== null;
   });
 
   const quoted = lines.map((line, i) => {
@@ -233,12 +246,16 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
     // table of contents is set at a single indent throughout.
     const single = normaliseWhitespace(line);
 
-    const contents = single.match(/^(.*?)[.·]{4,}\s*(\d{1,4})$/);
+    // Matched against the raw line, not `single` — the whitespace-gap branch
+    // needs real spacing, which normaliseWhitespace collapses to one space.
+    const contents = line.match(
+      /^(.*\S)(?:[.·]{4,}\s*|(?<![.,;:])[ \t]{3,})(\d{1,4})\s*$/
+    );
     if (contents && contents[1].trim()) {
       flush();
       blocks.push({
         kind: "contents",
-        text: contents[1].trim().replace(/\.+$/, "").trim(),
+        text: normaliseWhitespace(contents[1]).replace(/[.·\s]+$/, "").trim(),
         page: contents[2],
       });
       continue;

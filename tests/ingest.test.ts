@@ -143,6 +143,40 @@ describe("toBlocks", () => {
     expect(blocksToMarkdown(blocks)).toBe("- I. THE RESULTS — 2");
   });
 
+  it("reads a contents entry set with a wide whitespace gap instead of dot leaders", () => {
+    // Some born-digital reports right-align the page number with spaces or a
+    // tab rather than dot leaders. Without this, "...Litvinenko?" followed by
+    // a page number reads as sentence punctuation + a number — which, if that
+    // number happens to also be a real footnote elsewhere in the document,
+    // gets wrongly linked as a footnote marker on the contents page.
+    const blocks = toBlocks([
+      "Part 4\t   Why would anyone wish to kill Alexander Litvinenko?         51",
+    ]);
+    expect(blocks[0]).toEqual({
+      kind: "contents",
+      text: "Part 4 Why would anyone wish to kill Alexander Litvinenko?",
+      page: "51",
+    });
+  });
+
+  it("does not read an ordinary sentence ending in a number as a contents entry", () => {
+    // A single space is normal word spacing, not a right-aligned column — the
+    // gap has to be wide enough that it could only be tabular alignment.
+    const blocks = toBlocks(["The final score was 22"]);
+    expect(blocks.filter((b) => b.kind === "contents")).toHaveLength(0);
+  });
+
+  it("does not mistake a wrapped footnote marker for a contents entry", () => {
+    // A footnote superscript can land on its own short line after the page
+    // break, with a wide gap before it for the same reason a TOC page number
+    // has one — but "results." ends the way a sentence fragment does, not a
+    // title, so this must stay a paragraph the merge pass can reattach.
+    const blocks = toBlocks(["previously reported results.   197"]);
+    expect(blocks).toEqual([
+      { kind: "paragraph", text: "previously reported results. 197" },
+    ]);
+  });
+
   it("drops a paragraph that is only a page number", () => {
     const blocks = toBlocks(["Real text.", "", "   22"]);
     expect(blocks.filter((b) => b.kind === "paragraph")).toHaveLength(1);
