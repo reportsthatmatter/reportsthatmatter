@@ -6,6 +6,13 @@ export type Section = {
   html: string;
   /** First printed page the section covers, for the contents listing. */
   page?: string;
+  /**
+   * The heading level the section split on — 2 for a top-level part, 3 for a
+   * subsection. Front matter (no heading) counts as top-level. The contents
+   * listing uses this to show which sections nest under which, rather than a
+   * flat list a reader has to reverse-engineer from title-casing.
+   */
+  level: 2 | 3;
 };
 
 /**
@@ -49,6 +56,7 @@ export function splitSections(html: string, minChars = MIN_SECTION_CHARS): Secti
       title,
       html: part,
       page: part.match(/id="page-(\d+)"/)?.[1],
+      level: heading ? (Number(heading[1]) as 2 | 3) : 2,
     });
   }
 
