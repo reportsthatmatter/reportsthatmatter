@@ -232,4 +232,17 @@ describe("splitSections", () => {
     const sections = splitSections(html, 0);
     expect(sections[0].title).toBe("Moody's & Standard & Poor's");
   });
+
+  it("records the heading level a section split on, so the contents page can nest them", async () => {
+    const { splitSections } = await import("../src/lib/sections");
+    const html = renderMarkdown(
+      "Front matter here.\n\n## A Part\n\nBody.\n\n### A Subsection\n\nMore body."
+    );
+    const sections = splitSections(html, 0);
+    expect(sections.map((s) => [s.title, s.level])).toEqual([
+      ["Front matter", 2],
+      ["A Part", 2],
+      ["A Subsection", 3],
+    ]);
+  });
 });

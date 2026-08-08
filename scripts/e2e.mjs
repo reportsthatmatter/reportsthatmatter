@@ -69,11 +69,20 @@ if (firstReportId) {
   const report = await page.evaluate(() => {
     const p1 = document.querySelector(".prose p[id]");
     const prose = document.querySelector(".prose");
+    const notes = [...document.querySelectorAll(".sidenote")];
+    const proseBottom = prose ? prose.getBoundingClientRect().bottom : 0;
+    // A sidenote longer than the paragraph beside it floats past wherever an
+    // uncleared .prose box would otherwise end — the section nav and footer
+    // would then render on top of it. See PROGRESS.md, 2026-08-09.
+    const maxNoteBottom = notes.reduce(
+      (max, note) => Math.max(max, note.getBoundingClientRect().bottom),
+      0
+    );
     return {
       hasP1: Boolean(p1),
       hasPermalink: Boolean(p1 && p1.querySelector("a.permalink")),
       positionalIds: document.querySelectorAll('.prose p[id^="p-"]').length,
-      sidenotes: document.querySelectorAll(".sidenote").length,
+      sidenotes: notes.length,
       pageMarkers: document.querySelectorAll(".page-marker").length,
       firstId: p1 ? p1.id : "",
       proseFont: prose ? getComputedStyle(prose).fontFamily : "",
@@ -86,6 +95,7 @@ if (firstReportId) {
         : 0,
       paragraphs: document.querySelectorAll(".prose p[id]").length,
       frontMatterLeaked: document.body.innerText.includes('title: "'),
+      proseContainsNotes: proseBottom >= maxNoteBottom - 1,
     };
   });
 
@@ -105,6 +115,11 @@ if (firstReportId) {
   check(/[a-z]/.test(report.firstId), "paragraph ids are text-derived", report.firstId);
   check(report.sidenotes > 0, "sidenotes are rendered", String(report.sidenotes));
   check(report.pageMarkers > 0, "printed page markers are rendered", String(report.pageMarkers));
+  check(
+    report.proseContainsNotes,
+    "prose contains its longest sidenote (no footer overlap)",
+    String(report.proseContainsNotes)
+  );
 
   // :target highlight actually applies
   await page.goto(`${base}/reports/${firstReportId}/full#${report.firstId}`, {

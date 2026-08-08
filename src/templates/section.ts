@@ -22,15 +22,16 @@ export function renderReportOverview(
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
   const items = sections
-    .map(
-      (section) => `<li>
+    .map((section) => {
+      const isSub = section.level === 3;
+      return `<li${isSub ? ' class="sub"' : ""}>
         <a href="/reports/${escapeHtml(meta.id ?? "")}/${escapeHtml(section.slug)}">
-          <span class="title serif">${escapeHtml(section.title)}</span>
+          <span class="title serif${isSub ? " sub" : ""}">${escapeHtml(section.title)}</span>
           ${section.page ? `<span class="meta mono">p. ${escapeHtml(section.page)}</span>` : "<span></span>"}
           <span class="cue mono">Read →</span>
         </a>
-      </li>`
-    )
+      </li>`;
+    })
     .join("");
 
   const body = `
