@@ -207,9 +207,11 @@
 
 - id: more-reports
   desc: >
-    Three published. ~27 candidates remain, curated as GitHub issues — Chilcot
-    (#67), Leveson (#32), Saville (#39), FCIC (#57), Valukas (#24), Litvinenko
-    (#66), Philip Morris (#33), Duelfer (#34). Each gets its own repo under the
+    Four published (added litvinenko-inquiry 2026-08-08). ~26 candidates
+    remain, curated as GitHub issues — Chilcot (#67), Leveson (#32), Saville
+    (#39), FCIC (#57), Valukas (#24), Philip Morris (#33), Duelfer (#34).
+    FCIC and Columbia (#37) were tried and ruled out for now — see
+    docs/PROGRESS.md, 2026-08-08. Each report gets its own repo under the
     org holding the source PDF, cloned as a sibling directory, then
     `pnpm ingest run`.
   verify: report passes the fidelity gate and appears in the registry
