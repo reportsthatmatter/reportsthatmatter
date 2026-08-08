@@ -117,3 +117,6 @@ fail. `docs/plans/2026-08-01-architecture.md` has the plan for when it bites.
 - Check a PDF's text layer before ingesting. Two scans of the same document can
   differ enormously — NASA's Rogers Commission scan was unusable where the GPO
   text was clean.
+- Each report has its own repo under the `reportsthatmatter` org, holding the
+  source PDF and a README recording where it came from. Clone it as a sibling
+  directory before re-ingesting.
