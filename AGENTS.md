@@ -70,6 +70,12 @@ an interactive session.
   in this project — footnote markers bleeding into quotes, paragraphs opening
   mid-sentence, block quotes swallowing a clause — were found by reading output,
   and every one passed the tests first.
+- **Log before/after screenshots of visible changes** to
+  [issue #83](https://github.com/reportsthatmatter/reportsthatmatter/issues/83)
+  as you ship them — one comment per batch of related work, images hosted in
+  [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog)
+  (not committed here). It's the record a future "how RTM got built" write-up
+  draws on; see the issue's own description for the exact convention.
 - **Don't modify tests to make them pass** — fix the code. (Do fix tests whose
   fixtures are unrealistic; several early ones were.)
 - **Paragraph ids are the product.** They derive from the paragraph's opening
