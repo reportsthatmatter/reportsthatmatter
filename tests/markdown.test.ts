@@ -182,6 +182,25 @@ describe("sidenotes", () => {
     const ids = [...html.matchAll(/id="(sn-[^"]+)"/g)].map((m) => m[1]);
     expect(new Set(ids).size).toBe(ids.length);
   });
+
+  it("marks a note long once it is disproportionately taller than its paragraph would be", () => {
+    // A note this long floating in the margin drifts out of alignment with
+    // the text it supports over the rest of the page — see
+    // docs/plans/2026-08-09-sidenote-design-research.md. Short notes (the
+    // overwhelming majority, by measured distribution) are untouched.
+    const short = new Map([["1", "See ECF No. 252 at 15."]]);
+    const long = new Map([["1", "See ECF No. 252 at 53 & n.283; ".repeat(20).trim()]]);
+    expect(withSidenotes("<p>x[^1]</p>", short).html).not.toContain('class="sidenote long"');
+    expect(withSidenotes("<p>x[^1]</p>", long).html).toContain('class="sidenote long"');
+  });
+
+  it("gives a long note an in-place expand affordance using its own toggle", () => {
+    const long = new Map([["1", "citation ".repeat(60).trim()]]);
+    const { html } = withSidenotes("<p>x[^1]</p>", long);
+    const toggleId = html.match(/id="(sn-[^"]+)"/)?.[1];
+    expect(toggleId).toBeTruthy();
+    expect(html).toContain(`<label class="sidenote-expand" for="${toggleId}">`);
+  });
 });
 
 describe("collectNotes", () => {

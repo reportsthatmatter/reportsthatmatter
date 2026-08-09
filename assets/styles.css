@@ -583,6 +583,70 @@ hr {
   .sidenote-toggle {
     cursor: default;
   }
+
+  /* A note this long drags every sidenote after it out of alignment with its
+   * own paragraph (floats stack top-to-bottom in the margin column). Clamp
+   * it and let a reader opt into the full text — see
+   * docs/plans/2026-08-09-sidenote-design-research.md.
+   *
+   * The fade is a solid-colour gradient overlay (::after), not mask-image on
+   * .sidenote itself — a mask fades everything inside the element, including
+   * the "Show full note" label, leaving faded label text illegibly
+   * overlapping faded note text instead of sitting on a clean background. */
+  .sidenote.long {
+    max-height: 9.5rem;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+  }
+
+  .sidenote.long::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3rem;
+    background: linear-gradient(to bottom, transparent, var(--canvas) 65%);
+    pointer-events: none;
+  }
+
+  .sidenote-checkbox:checked + .sidenote.long {
+    max-height: none;
+    padding-bottom: 0;
+  }
+
+  .sidenote-checkbox:checked + .sidenote.long::after {
+    content: none;
+  }
+
+  .sidenote-expand {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+
+  .sidenote-expand:hover {
+    text-decoration: underline;
+  }
+
+  .sidenote-checkbox:checked + .sidenote.long .sidenote-expand {
+    display: none;
+  }
+}
+
+@media (max-width: 67.99rem) {
+  /* Mobile already collapses every note regardless of length — a note that
+   * is open is shown in full, so there is nothing for a second toggle to do. */
+  .sidenote-expand {
+    display: none;
+  }
 }
 
 @media (max-width: 67.99rem) {

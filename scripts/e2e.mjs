@@ -121,6 +121,23 @@ if (firstReportId) {
     String(report.proseContainsNotes)
   );
 
+  // A long note is clamped by default and expands in place on click — see
+  // docs/plans/2026-08-09-sidenote-design-research.md.
+  const longNoteCount = await page.locator(".sidenote.long").count();
+  if (longNoteCount > 0) {
+    const before = await page
+      .locator(".sidenote.long")
+      .first()
+      .evaluate((el) => el.getBoundingClientRect().height);
+    await page.locator(".sidenote-expand").first().click();
+    const after = await page
+      .locator(".sidenote.long")
+      .first()
+      .evaluate((el) => el.getBoundingClientRect().height);
+    check(before < 200, "long sidenote is clamped by default", `${Math.round(before)}px`);
+    check(after > before, "long sidenote expands on click", `${Math.round(before)} -> ${Math.round(after)}`);
+  }
+
   // :target highlight actually applies
   await page.goto(`${base}/reports/${firstReportId}/full#${report.firstId}`, {
     waitUntil: "networkidle",

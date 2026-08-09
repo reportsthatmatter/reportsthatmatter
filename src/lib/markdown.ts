@@ -176,6 +176,17 @@ export function collectNotes(markdown: string): Map<string, string> {
 }
 
 /**
+ * A note this long floating in the margin runs disproportionately taller
+ * than the paragraph it supports, and drags every sidenote after it out of
+ * alignment with its own paragraph for the rest of the page (floats stack
+ * top-to-bottom in the margin column, independent of each note's own
+ * anchor). Measured across the published reports before picking a number:
+ * the median note everywhere is 47-169 characters, so this only trips for
+ * the genuine outliers — see docs/plans/2026-08-09-sidenote-design-research.md.
+ */
+const LONG_NOTE_CHARS = 400;
+
+/**
  * Turns footnote references into sidenotes.
  *
  * A footnote you have to travel to is a footnote you don't read. These reports
@@ -200,12 +211,15 @@ export function withSidenotes(
     used.add(number);
     counter += 1;
     const toggleId = `sn-${number}-${counter}`;
+    const long = note.length > LONG_NOTE_CHARS;
 
     return (
       `<label class="sidenote-toggle" for="${toggleId}" aria-label="Note ${number}">` +
       `<sup>${number}</sup></label>` +
       `<input class="sidenote-checkbox" id="${toggleId}" type="checkbox" />` +
-      `<span class="sidenote"><sup>${number}</sup> ${escapeText(note)}</span>`
+      `<span class="sidenote${long ? " long" : ""}"><sup>${number}</sup> ${escapeText(note)}` +
+      (long ? `<label class="sidenote-expand" for="${toggleId}">Show full note</label>` : "") +
+      `</span>`
     );
   });
 
