@@ -2,6 +2,41 @@
 
 One entry per work session. Newest first.
 
+## 2026-08-09 — Sidenote length clamp (issue #80)
+
+Researched before building, per Rufus's request — full writeup at
+`docs/plans/2026-08-09-sidenote-design-research.md`, written to double as a
+blog post. Short version: measured real note-length distribution across all
+four reports first (median is 47-169 characters everywhere; Jack Smith's
+citation-block footnotes are the outlier, 20.8% over 400 characters, max
+3,658). Surveyed prior art — Tufte CSS (what RTM already runs, explicitly
+has "no automatic overflow handling"), Gwern.net's `sidenotes.js` (a full
+runtime collision-resolution layout engine — solves a much bigger problem
+than RTM has, at a cost the author himself calls "user-visible &
+distracting"), and the newer native-`popover`-plus-anchor-positioning
+pattern (elegant, but changes the interaction model for every note to fix a
+problem that's specific to a minority of outliers).
+
+Landed on the narrowest fix that solves the actual problem: classify a note
+`long` at render time (`>400` characters, decided once in the pipeline, not
+measured at runtime) and clamp it to ~8 lines with a fade + "Show full note"
+toggle, reusing the exact checkbox the site already ships for mobile
+collapse — same mechanism, new trigger condition, zero new JS. First attempt
+used `mask-image` on the whole note, which faded the toggle label along with
+the text and made both illegible where they overlapped; fixed by moving to
+a solid gradient overlay (`::after`) instead, which only needed one more
+screenshot to catch.
+
+Verified against the real reports, not just synthetic tests: Jack Smith
+(the worst case) clamps cleanly with a legible fade and working expand;
+PSI's dense table-of-contents area (many long notes clustered together)
+holds up too; mobile correctly never shows the new toggle (it already
+collapses notes entirely, so there's nothing to clamp). New unit tests for
+the classification threshold and the expand affordance, new e2e check that
+a long note is clamped by default and grows on click.
+
+→ **PR #82**, branch `sidenote-length-clamp`.
+
 ## 2026-08-08 (2) — The Litvinenko Inquiry, a real fidelity bug, and a fix I built then reverted
 
 Continued from the session below. With the OCR-fix candidates exhausted,
