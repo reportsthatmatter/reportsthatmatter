@@ -71,11 +71,11 @@ an interactive session.
   mid-sentence, block quotes swallowing a clause — were found by reading output,
   and every one passed the tests first.
 - **Log before/after screenshots of visible changes** to
-  [issue #83](https://github.com/reportsthatmatter/reportsthatmatter/issues/83)
-  as you ship them — one comment per batch of related work, images hosted in
-  [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog)
-  (not committed here). It's the record a future "how RTM got built" write-up
-  draws on; see the issue's own description for the exact convention.
+  [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog)'s
+  `CHANGELOG.md` as you ship them — one entry per batch of related work,
+  images committed alongside it in that repo (not here). It's the record a
+  future "how RTM got built" write-up draws on; see that file's own header
+  for the exact convention.
 - **Don't modify tests to make them pass** — fix the code. (Do fix tests whose
   fixtures are unrealistic; several early ones were.)
 - **Paragraph ids are the product.** They derive from the paragraph's opening
