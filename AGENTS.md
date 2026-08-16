@@ -70,12 +70,6 @@ an interactive session.
   in this project — footnote markers bleeding into quotes, paragraphs opening
   mid-sentence, block quotes swallowing a clause — were found by reading output,
   and every one passed the tests first.
-- **Log before/after screenshots of visible changes** to
-  [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog)'s
-  `CHANGELOG.md` as you ship them — one entry per batch of related work,
-  images committed alongside it in that repo (not here). It's the record a
-  future "how RTM got built" write-up draws on; see that file's own header
-  for the exact convention.
 - **Don't modify tests to make them pass** — fix the code. (Do fix tests whose
   fixtures are unrealistic; several early ones were.)
 - **Paragraph ids are the product.** They derive from the paragraph's opening
@@ -92,14 +86,23 @@ This repo keeps a `changelog.md` (dated entries, newest first). At the end
 of a work session, if something worth recording actually shipped — skip
 trivial sessions (typo fixes, dead ends, no visible outcome) — draft a
 dated entry. Match the entry's weight to what a reader would actually care
-about: a real feature/fix/content gets a title, one or two sentences, and a
-screenshot if something visual shipped; small stuff (cleanup, rename,
-reorg, tidying) gets one plain sentence, no bullets, no screenshot — even
-if several small things happened, that's still one combined sentence, not
-a bullet per thing. Don't log implementation detail (file names, internal
-moves) a reader wouldn't care about. First time writing an entry in this
-repo, or if the format is unclear: fetch and follow
+about: a real feature/fix/content gets a title and one or two sentences;
+small stuff (cleanup, rename, reorg, tidying) gets one plain sentence, no
+bullets — even if several small things happened, that's still one combined
+sentence, not a bullet per thing. Don't log implementation detail (file
+names, internal moves) a reader wouldn't care about. First time writing an
+entry in this repo, or if the format is unclear: fetch and follow
 https://raw.githubusercontent.com/life-itself/changelog/main/CONVENTION.md
+
+**Screenshots go to the org-wide visual changelog, not here.** Log
+before/after screenshots of visible changes to
+[`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog)'s
+`CHANGELOG.md` as you ship them — one entry per batch of related work,
+images committed alongside it in that repo. It's shared across every report
+repo in the org, not just this one, and is the record a future "how RTM got
+built" write-up draws on; see that file's own header for the exact
+convention. A `changelog.md` entry here for a visible change should link to
+the matching visual-changelog entry rather than duplicate the screenshot.
 
 ## Design
 
