@@ -219,12 +219,58 @@
 
 - id: text-out-of-order
   desc: >
-    Issue #12 — body text interleaved with footnotes. Checked against the new
-    pipeline at the page the issue reported (620 of the PSI report): it now
-    reads in order. The issue is fixed but not yet closed — that is Rufus's,
-    since it is public.
-  verify: page 620 of us-psi-financial-crisis reads as continuous prose
+    Issue #12 — text rendered out of order. Recorded here as fixed on
+    2026-08-09; that was wrong, and the check behind it was against the wrong
+    document. The issue's screenshot is Chilcot's Executive Summary, not the
+    PSI report, and Chilcot is not ingested, so nothing published contains the
+    layout that triggers it. Re-checked 2026-08-21 by running that layout
+    through toBlocks/blocksToMarkdown: it still reproduces. Bullets run
+    together into one paragraph (Block has no list kind) and a wrapped item's
+    continuation line is emitted after the list, so the text reads in the
+    wrong order. Invisible to the fidelity checks because every word is still
+    present. Blocks Chilcot (#67) and Leveson (#32), both heavily bulleted.
+  verify: >
+    a bulleted list with a wrapped item round-trips as a list, in source order
+  passes: false
+
+- id: quote-anchors
+  desc: >
+    A selection has its own address: ?p= names the paragraph, &h= names the
+    words inside it as a W3C-style text-quote selector. Following such a link
+    marks exactly those words; a quote whose words are gone marks the
+    paragraph and dims it rather than marking whatever else matched. One
+    implementation in assets/anchor.js, imported by both the browser and the
+    Worker. Design: docs/plans/2026-08-21-highlights-design.md §2.
+  verify: >
+    scripts/e2e.mjs — a part-paragraph selection shares as a quote link, and
+    following it marks exactly the quoted words
+  passes: true
+
+- id: local-highlights
+  desc: >
+    Highlights saved in the browser with no account, rendered back on the page
+    they were made on, listed at /highlights, and exported as Markdown with
+    quote, source, printed page and permalink. Issue #95, design §3.
+  verify: a highlight survives reload; export yields a resolving permalink
+  passes: false
+
+- id: social-proof
+  desc: >
+    Marks recorded in D1 and shown back as a hairline underline with a count
+    in the margin, threshold 3, actor a daily-rotated salted hash. The page
+    must render correctly when the count query fails. Issue #96, design §4.
+  verify: counts render above threshold and never below; page renders with D1 down
   owner: rufus
+  passes: false
+
+- id: full-text-search
+  desc: >
+    D1 + FTS5, cross-archive by default, a result is a citable passage linking
+    through the quote anchor. Four design questions answered 2026-08-21 in
+    docs/plans/2026-08-21-search-decisions.md. Issue #100.
+  verify: >
+    a known phrase in each published report is findable and links to the right
+    passage; verify.sh fails on a stale index
   passes: false
 
 - id: derived-markdown-in-report-repos
