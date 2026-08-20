@@ -101,6 +101,53 @@ describe("share previews", () => {
     expect(description).not.toContain("Read the full text with linkable");
   });
 
+  it("previews the quoted words when the link names them, not the whole paragraph", async () => {
+    const first = await app.request("http://localhost/reports/jack-smith-vol1/full");
+    const html = await first.text();
+    const { extractParagraph } = await import("../src/templates/report");
+
+    // A paragraph long enough that quoting part of it is visibly different
+    // from quoting the whole thing.
+    const ids = [...html.matchAll(/<p id="([a-z0-9-]+)"/g)].map((m) => m[1]);
+    const id = ids.find((candidate) => (extractParagraph(html, candidate) ?? "").length > 400);
+    expect(id).toBeTruthy();
+    const paragraph = extractParagraph(html, id!)!;
+
+    // Quote a phrase from the middle of the paragraph, the way a reader would.
+    const start = Math.floor(paragraph.length / 4);
+    const exact = paragraph.slice(start, start + 40);
+    const { encodeAnchor, selectorFor } = await import("../assets/anchor.js");
+    const anchor = encodeAnchor(selectorFor(paragraph, start, start + 40))!;
+
+    const res = await app.request(
+      `http://localhost/reports/jack-smith-vol1/full?p=${id}&h=${encodeURIComponent(anchor)}`
+    );
+    const description = (await res.text()).match(
+      /<meta name="description" content="([^"]*)"/
+    )?.[1];
+
+    // The preview is the quote itself — not the paragraph that contains it,
+    // which is the whole reason ?h= travels in the query string.
+    expect(description).toContain(exact);
+    expect(description!.startsWith(`“${exact.slice(0, 30)}`)).toBe(true);
+  });
+
+  it("previews the paragraph when the quoted words are no longer in it", async () => {
+    const first = await app.request("http://localhost/reports/jack-smith-vol1/full");
+    const id = (await first.text()).match(/<p id="([a-z0-9-]+)"/)?.[1];
+    const anchor = encodeURIComponent("|words that were never in this report|");
+
+    const res = await app.request(
+      `http://localhost/reports/jack-smith-vol1/full?p=${id}&h=${anchor}`
+    );
+    const description = (await res.text()).match(
+      /<meta name="description" content="([^"]*)"/
+    )?.[1];
+
+    expect(description).toMatch(/^“.+” — Report of Special Counsel/);
+    expect(description).not.toContain("words that were never in this report");
+  });
+
   it("falls back to the report description without a paragraph", async () => {
     const res = await app.request("http://localhost/reports/jack-smith-vol1/full");
     const body = await res.text();

@@ -1,4 +1,5 @@
 import { renderLayout, escapeHtml } from "./layout";
+import { decodeAnchor, locate } from "../../assets/anchor.js";
 import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
 
@@ -36,6 +37,29 @@ export function extractParagraph(html: string, id: string): string | null {
     .trim();
 }
 
+/**
+ * The passage a share link points at: the words it names if it names words,
+ * and the paragraph holding them otherwise.
+ *
+ * A quote whose words are no longer in the paragraph falls back to the
+ * paragraph. Previewing text we could not show the reader would be the same
+ * failure as a citation resolving to something else, one step earlier.
+ */
+export function quotedPassage(
+  html: string,
+  paragraphId: string,
+  anchor?: string
+): string | null {
+  const paragraph = extractParagraph(html, paragraphId);
+  if (!paragraph) return null;
+
+  const selector = decodeAnchor(anchor);
+  if (!selector) return paragraph;
+
+  const found = locate(paragraph, selector);
+  return found ? paragraph.slice(found.start, found.end) : paragraph;
+}
+
 function truncate(text: string, limit: number): string {
   if (text.length <= limit) return text;
   const cut = text.slice(0, limit);
@@ -47,14 +71,16 @@ export function renderReport(
   meta: ReportMeta,
   html: string,
   /** Paragraph id from `?p=`, used to preview the quoted passage when shared. */
-  highlighted?: string
+  highlighted?: string,
+  /** Quote anchor from `?h=`, naming the words within that paragraph. */
+  anchor?: string
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
   // A link shared into a feed is judged entirely on its preview. When the link
   // points at a passage, the preview should be that passage — not boilerplate
   // about the site.
-  const quoted = highlighted ? extractParagraph(html, highlighted) : null;
+  const quoted = highlighted ? quotedPassage(html, highlighted, anchor) : null;
   const description = quoted
     ? `“${truncate(quoted, 280)}” — ${meta.title}`
     : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
@@ -91,7 +117,7 @@ export function renderReport(
 
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
     description,
-    scripts: ["/assets/share.js"],
+    scripts: ["/assets/share.js", "/assets/highlight.js"],
     image,
   });
 }

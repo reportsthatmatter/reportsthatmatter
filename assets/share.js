@@ -1,85 +1,127 @@
 /* Highlight-to-share.
  *
  * Select text inside the report body and a small popover offers a canonical
- * link to the paragraph the selection starts in, or the quote plus that link.
+ * link to it, or the quote plus that link. Select part of a paragraph and the
+ * link names those words; select the whole thing and it names the paragraph,
+ * as it always did.
+ *
  * Desktop-first: the popover is suppressed on coarse pointers, where the OS
  * selection menu already occupies the same space.
  */
-(function () {
-  "use strict";
+// @ts-check
+import { encodeAnchor, selectorFor } from "./anchor.js";
+import { buildIndex, indexOfPoint } from "./dom-text.js";
 
-  var body = document.getElementById("report-body");
-  var pop = document.getElementById("share-pop");
-  if (!body || !pop) return;
+const body = document.getElementById("report-body");
+const pop = document.getElementById("share-pop");
 
-  var isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
-  if (isCoarse) return;
+const isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
-  var current = { quote: "", url: "" };
+if (body && pop && !isCoarse) {
+  const current = { quote: "", url: "" };
 
-  function paragraphIdFor(node) {
-    var el = node.nodeType === 1 ? node : node.parentElement;
+  /**
+   * The paragraph a node sits in — the first ancestor carrying an id, which
+   * in a report body is always a paragraph.
+   * @param {Node} node
+   * @returns {HTMLElement | null}
+   */
+  const paragraphFor = (node) => {
+    let el = node.nodeType === 1 ? /** @type {HTMLElement} */ (node) : node.parentElement;
     while (el && el !== body) {
-      if (el.id) return el.id;
+      if (el.id) return el;
       el = el.parentElement;
     }
     return null;
-  }
+  };
 
-  function canonicalUrl(id) {
-    var base = window.location.origin + window.location.pathname;
-    if (!id) return base;
-    // The fragment positions the reader; the query string is what the server
-    // sees, and so what a link preview in a feed can be built from.
-    return base + "?p=" + encodeURIComponent(id) + "#" + id;
-  }
+  /**
+   * The canonical link for a selection.
+   *
+   * The fragment positions the reader; the query string is what the server
+   * sees, and so what a link preview in a feed can be built from. `h` names
+   * the words, and is left off when the selection is the whole paragraph —
+   * there is nothing there for it to add.
+   *
+   * @param {Range} range
+   * @returns {string}
+   */
+  const canonicalUrl = (range) => {
+    const base = window.location.origin + window.location.pathname;
+    const paragraph = paragraphFor(range.startContainer);
+    if (!paragraph) return base;
 
-  function hide() {
-    pop.setAttribute("data-open", "false");
-  }
+    const link = `${base}?p=${encodeURIComponent(paragraph.id)}`;
+    const index = buildIndex(paragraph);
+    const start = indexOfPoint(index, range.startContainer, range.startOffset);
+    const end = indexOfPoint(index, range.endContainer, range.endOffset);
 
-  function show(rect, quote, url) {
+    if (start === -1 || end === -1 || end <= start) return `${link}#${paragraph.id}`;
+    if (start === 0 && end >= index.text.length) return `${link}#${paragraph.id}`;
+
+    const anchor = encodeAnchor(selectorFor(index.text, start, end));
+    if (!anchor) return `${link}#${paragraph.id}`;
+
+    return `${link}&h=${anchor}#${paragraph.id}`;
+  };
+
+  const hide = () => pop.setAttribute("data-open", "false");
+
+  /**
+   * @param {DOMRect} rect
+   * @param {string} quote
+   * @param {string} url
+   */
+  const show = (rect, quote, url) => {
     current.quote = quote;
     current.url = url;
     pop.setAttribute("data-open", "true");
-    var top = rect.top + window.scrollY - 10;
-    var left = rect.left + window.scrollX + rect.width / 2;
-    pop.style.top = top + "px";
-    pop.style.left = left + "px";
-  }
+    // Exposed so the browser checks can assert on the link a selection
+    // produces without reaching into the clipboard.
+    pop.setAttribute("data-url", url);
+    pop.style.top = `${rect.top + window.scrollY - 10}px`;
+    pop.style.left = `${rect.left + window.scrollX + rect.width / 2}px`;
+  };
 
-  function onSelectionSettled() {
-    var selection = window.getSelection();
+  const onSelectionSettled = () => {
+    const selection = window.getSelection();
     if (!selection || selection.isCollapsed) return hide();
 
-    var text = selection.toString().trim();
+    const text = selection.toString().trim();
     if (text.length < 2) return hide();
 
-    var range = selection.getRangeAt(0);
+    const range = selection.getRangeAt(0);
     if (!body.contains(range.commonAncestorContainer)) return hide();
 
-    var rect = range.getBoundingClientRect();
+    const rect = range.getBoundingClientRect();
     if (!rect.width && !rect.height) return hide();
 
-    show(rect, text, canonicalUrl(paragraphIdFor(range.startContainer)));
-  }
+    show(rect, text, canonicalUrl(range));
+  };
 
-  function flash(button, label) {
-    var original = button.textContent;
+  /**
+   * @param {HTMLElement} button
+   * @param {string} label
+   */
+  const flash = (button, label) => {
+    const original = button.textContent;
     button.textContent = label;
-    setTimeout(function () {
+    setTimeout(() => {
       button.textContent = original;
     }, 1200);
-  }
+  };
 
-  function copy(text, button, label) {
-    var done = function () {
-      flash(button, label);
-    };
+  /**
+   * @param {string} text
+   * @param {HTMLElement} button
+   * @param {string} label
+   */
+  const copy = (text, button, label) => {
+    const done = () => flash(button, label);
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(done, done);
     } else {
-      var scratch = document.createElement("textarea");
+      const scratch = document.createElement("textarea");
       scratch.value = text;
       scratch.setAttribute("readonly", "");
       scratch.style.position = "absolute";
@@ -94,35 +136,33 @@
       document.body.removeChild(scratch);
       done();
     }
-  }
+  };
 
-  document.addEventListener("mouseup", function () {
-    setTimeout(onSelectionSettled, 0);
-  });
+  document.addEventListener("mouseup", () => setTimeout(onSelectionSettled, 0));
 
-  document.addEventListener("keyup", function (event) {
+  document.addEventListener("keyup", (event) => {
     if (event.shiftKey || event.key === "Escape") setTimeout(onSelectionSettled, 0);
   });
 
-  document.addEventListener("mousedown", function (event) {
-    if (!pop.contains(event.target)) hide();
+  document.addEventListener("mousedown", (event) => {
+    if (!pop.contains(/** @type {Node} */ (event.target))) hide();
   });
 
-  document.addEventListener("keydown", function (event) {
+  document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") hide();
   });
 
   window.addEventListener("scroll", hide, { passive: true });
   window.addEventListener("resize", hide);
 
-  pop.addEventListener("click", function (event) {
-    var button = event.target.closest("button");
+  pop.addEventListener("click", (event) => {
+    const button = /** @type {HTMLElement} */ (event.target).closest("button");
     if (!button) return;
-    var action = button.getAttribute("data-action");
+    const action = button.getAttribute("data-action");
     if (action === "copy-link") {
       copy(current.url, button, "Copied");
     } else if (action === "copy-quote") {
-      copy('"' + current.quote + '"\n\n' + current.url, button, "Copied");
+      copy(`"${current.quote}"\n\n${current.url}`, button, "Copied");
     }
   });
-})();
+}

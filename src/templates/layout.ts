@@ -80,7 +80,12 @@ ${body}
     <a href="/changelog">Changelog</a>
   </nav>
 </footer>
-${scripts.map((src) => `<script src="${escapeHtml(src)}" defer></script>`).join("\n")}
+${scripts
+  // Modules, so that the browser and the Worker can import one shared anchor
+  // implementation instead of keeping two in step by hand. `type="module"`
+  // defers by itself.
+  .map((src) => `<script type="module" src="${escapeHtml(src)}"></script>`)
+  .join("\n")}
 </body>
 </html>`;
 }
