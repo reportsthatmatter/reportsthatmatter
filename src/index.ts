@@ -7,6 +7,7 @@ import { renderReport } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
+import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection } from "./templates/section";
 import { splitSections, sectionFor } from "./lib/sections";
 
@@ -153,6 +154,10 @@ app.get("/reports", async (c) => {
 });
 
 app.get("/about", (c) => c.html(renderAbout()));
+
+// The reader's own highlights. The server holds none of them — this is the
+// shell, and the browser fills it from local storage.
+app.get("/highlights", (c) => c.html(renderHighlights()));
 
 /**
  * A sitemap listing every section of every report.

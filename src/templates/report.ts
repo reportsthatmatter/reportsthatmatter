@@ -100,7 +100,11 @@ export function renderReport(
         }
       </div>
     </header>
-    <div class="prose wrap measure" id="report-body">
+    <div class="prose wrap measure" id="report-body"
+      data-report="${escapeHtml(meta.id ?? "")}"
+      data-report-title="${escapeHtml(meta.title)}"
+      data-section=""
+      data-section-title="">
       ${html}
     </div>
   </article>
@@ -108,6 +112,7 @@ export function renderReport(
 <div class="share-pop" id="share-pop" role="dialog" aria-label="Share selection">
   <button type="button" data-action="copy-link">Copy link</button>
   <button type="button" data-action="copy-quote">Copy quote</button>
+  <button type="button" data-action="save">Save</button>
 </div>`;
 
   // Only advertise a card that exists — an og:image pointing at a 404 is worse

@@ -76,6 +76,7 @@ ${body}
   <p>A public-interest project making official reports readable, linkable, and citable on the web.</p>
   <nav>
     <a href="/reports">Reports</a>
+    <a href="/highlights">Highlights</a>
     <a href="/about">About</a>
     <a href="/changelog">Changelog</a>
   </nav>

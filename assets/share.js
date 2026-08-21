@@ -11,6 +11,7 @@
 // @ts-check
 import { encodeAnchor, selectorFor } from "./anchor.js";
 import { buildIndex, indexOfPoint } from "./dom-text.js";
+import { createStore } from "./highlights-store.js";
 
 const body = document.getElementById("report-body");
 const pop = document.getElementById("share-pop");
@@ -18,7 +19,29 @@ const pop = document.getElementById("share-pop");
 const isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
 if (body && pop && !isCoarse) {
-  const current = { quote: "", url: "" };
+  const store = createStore(window.localStorage);
+  const current = { quote: "", url: "", paragraph: "", anchor: "", page: null };
+
+  /**
+   * The printed page a passage sits on: the last page marker before it.
+   *
+   * This is how these documents are cited — "Report at 62" — so a saved
+   * highlight carries it, and an export is a citation rather than a link.
+   * @param {Element} paragraph
+   * @returns {number | null}
+   */
+  const pageFor = (paragraph) => {
+    const markers = [...document.querySelectorAll(".page-marker")];
+    let page = null;
+    for (const marker of markers) {
+      const position = marker.compareDocumentPosition(paragraph);
+      if (position & Node.DOCUMENT_POSITION_FOLLOWING) {
+        const number = parseInt(marker.id.replace("page-", ""), 10);
+        if (!Number.isNaN(number)) page = number;
+      }
+    }
+    return page;
+  };
 
   /**
    * The paragraph a node sits in — the first ancestor carrying an id, which
@@ -44,25 +67,28 @@ if (body && pop && !isCoarse) {
    * there is nothing there for it to add.
    *
    * @param {Range} range
-   * @returns {string}
+   * @returns {{ url: string, paragraph: string, anchor: string, page: number | null }}
    */
   const canonicalUrl = (range) => {
     const base = window.location.origin + window.location.pathname;
     const paragraph = paragraphFor(range.startContainer);
-    if (!paragraph) return base;
+    if (!paragraph) return { url: base, paragraph: "", anchor: "", page: null };
 
     const link = `${base}?p=${encodeURIComponent(paragraph.id)}`;
+    const context = { paragraph: paragraph.id, anchor: "", page: pageFor(paragraph) };
+    const whole = { ...context, url: `${link}#${paragraph.id}` };
+
     const index = buildIndex(paragraph);
     const start = indexOfPoint(index, range.startContainer, range.startOffset);
     const end = indexOfPoint(index, range.endContainer, range.endOffset);
 
-    if (start === -1 || end === -1 || end <= start) return `${link}#${paragraph.id}`;
-    if (start === 0 && end >= index.text.length) return `${link}#${paragraph.id}`;
+    if (start === -1 || end === -1 || end <= start) return whole;
+    if (start === 0 && end >= index.text.length) return whole;
 
     const anchor = encodeAnchor(selectorFor(index.text, start, end));
-    if (!anchor) return `${link}#${paragraph.id}`;
+    if (!anchor) return whole;
 
-    return `${link}&h=${anchor}#${paragraph.id}`;
+    return { ...context, anchor, url: `${link}&h=${anchor}#${paragraph.id}` };
   };
 
   const hide = () => pop.setAttribute("data-open", "false");
@@ -70,15 +96,18 @@ if (body && pop && !isCoarse) {
   /**
    * @param {DOMRect} rect
    * @param {string} quote
-   * @param {string} url
+   * @param {{ url: string, paragraph: string, anchor: string, page: number | null }} link
    */
-  const show = (rect, quote, url) => {
+  const show = (rect, quote, link) => {
     current.quote = quote;
-    current.url = url;
+    current.url = link.url;
+    current.paragraph = link.paragraph;
+    current.anchor = link.anchor;
+    current.page = link.page;
     pop.setAttribute("data-open", "true");
     // Exposed so the browser checks can assert on the link a selection
     // produces without reaching into the clipboard.
-    pop.setAttribute("data-url", url);
+    pop.setAttribute("data-url", link.url);
     pop.style.top = `${rect.top + window.scrollY - 10}px`;
     pop.style.left = `${rect.left + window.scrollX + rect.width / 2}px`;
   };
@@ -163,6 +192,19 @@ if (body && pop && !isCoarse) {
       copy(current.url, button, "Copied");
     } else if (action === "copy-quote") {
       copy(`"${current.quote}"\n\n${current.url}`, button, "Copied");
+    } else if (action === "save") {
+      store.add({
+        report: body.dataset.report,
+        reportTitle: body.dataset.reportTitle,
+        section: body.dataset.section,
+        sectionTitle: body.dataset.sectionTitle,
+        paragraph: current.paragraph,
+        anchor: current.anchor,
+        quote: current.quote,
+        page: current.page,
+        url: current.url,
+      });
+      flash(button, "Saved");
     }
   });
 }

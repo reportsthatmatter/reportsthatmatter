@@ -251,8 +251,10 @@
     Highlights saved in the browser with no account, rendered back on the page
     they were made on, listed at /highlights, and exported as Markdown with
     quote, source, printed page and permalink. Issue #95, design §3.
-  verify: a highlight survives reload; export yields a resolving permalink
-  passes: false
+  verify: >
+    scripts/e2e.mjs — a saved highlight is still marked after a reload, is
+    listed at /highlights, and can be exported as Markdown
+  passes: true
 
 - id: social-proof
   desc: >

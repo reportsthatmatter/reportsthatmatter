@@ -102,7 +102,11 @@ export function renderSection(
         <p class="byline mono">Section ${index + 1} of ${sections.length}</p>
       </div>
     </header>
-    <div class="prose wrap measure" id="report-body">
+    <div class="prose wrap measure" id="report-body"
+      data-report="${escapeHtml(meta.id ?? "")}"
+      data-report-title="${escapeHtml(meta.title)}"
+      data-section="${escapeHtml(section.slug)}"
+      data-section-title="${escapeHtml(section.title)}">
       ${section.html}
     </div>
     <nav class="section-nav wrap measure mono">
@@ -115,6 +119,7 @@ export function renderSection(
 <div class="share-pop" id="share-pop" role="dialog" aria-label="Share selection">
   <button type="button" data-action="copy-link">Copy link</button>
   <button type="button" data-action="copy-quote">Copy quote</button>
+  <button type="button" data-action="save">Save</button>
 </div>`;
 
   return renderLayout(`${section.title} — ${meta.title} — Reports that Matter`, body, {
