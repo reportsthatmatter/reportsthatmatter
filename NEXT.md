@@ -22,8 +22,8 @@ overview; design in
 
 | | | |
 | --- | --- | --- |
-| [#94](https://github.com/reportsthatmatter/reportsthatmatter/issues/94) | **Selection anchors** | Highlight *part* of a paragraph and share exactly that. Blocks everything else here, and gives search precise deep links for free. |
-| [#95](https://github.com/reportsthatmatter/reportsthatmatter/issues/95) | **Saved highlights + Markdown export** | Local-first: no account, and the export is a citation you can paste into a draft. |
+| [#94](https://github.com/reportsthatmatter/reportsthatmatter/issues/94) | ~~**Selection anchors**~~ | **Done**, merged, not deployed. Highlight part of a paragraph and share exactly that. |
+| [#95](https://github.com/reportsthatmatter/reportsthatmatter/issues/95) | ~~**Saved highlights + Markdown export**~~ | **Done**, merged, not deployed. Local-first; `/highlights` lists them, export is a pasteable citation. |
 | [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **Social proof** | Hairline underline, count in the margin, threshold of 3. Needs your eyes. |
 | [#97](https://github.com/reportsthatmatter/reportsthatmatter/issues/97) | **Accounts + sync** | Deferred on purpose until 1–3 earn it. |
 | [#98](https://github.com/reportsthatmatter/reportsthatmatter/issues/98) | **Annotation** | Recorded, not to be built. Different product: moderation, identity, notification. |
@@ -41,6 +41,6 @@ overview; design in
 | [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | **Ingestion odds and ends** | Last 3% of footnote recall, 11 truncated PSI headings, heading ambiguity. |
 | [#106](https://github.com/reportsthatmatter/reportsthatmatter/issues/106) | **`corrections.yaml`** | Bigger lift, no open questions. Unblocks the review queues ([#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105)). |
 | [#107](https://github.com/reportsthatmatter/reportsthatmatter/issues/107) | **Pre-render at build time** | Bundle is 1.43 MB of a 3 MB cap. Much cheaper before it bites than after. |
-| [#12](https://github.com/reportsthatmatter/reportsthatmatter/issues/12) | **Text out of order** | Not fixed after all — the current pipeline still reproduces it (evidence on the issue). Bullets run together and a wrapped item lands out of order, invisible to the fidelity checks because every word is still present. Blocks Chilcot and Leveson, both heavily bulleted. |
+| [#12](https://github.com/reportsthatmatter/reportsthatmatter/issues/12) | **Text out of order** | Not fixed after all — spec written and posted to the issue, ready to implement — the current pipeline still reproduces it (evidence on the issue). Bullets run together and a wrapped item lands out of order, invisible to the fidelity checks because every word is still present. Blocks Chilcot and Leveson, both heavily bulleted. |
 | [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | **Accessible link colour** | Quick. |
 | — | **More reports** | Leveson [#32](https://github.com/reportsthatmatter/reportsthatmatter/issues/32) (source PDF already in the old repo, four volumes), Saville [#39](https://github.com/reportsthatmatter/reportsthatmatter/issues/39), Chilcot [#67](https://github.com/reportsthatmatter/reportsthatmatter/issues/67), Philip Morris [#33](https://github.com/reportsthatmatter/reportsthatmatter/issues/33). Valukas [#24](https://github.com/reportsthatmatter/reportsthatmatter/issues/24) and Duelfer [#34](https://github.com/reportsthatmatter/reportsthatmatter/issues/34) need a browser to fetch the source, not a plain fetch. |
