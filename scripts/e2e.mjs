@@ -218,6 +218,83 @@ if (firstReportId) {
     );
   }
 
+  // The shapes a real selection actually takes. A mouse drag rarely starts and
+  // ends mid-text-node: it begins at a paragraph edge, ends on a boundary, or
+  // runs into the next paragraph. Every one of these must produce a quote
+  // link, or the feature silently degrades to linking the whole paragraph.
+  await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
+
+  await page.addInitScript(() => {
+    window.__bodyNodes = (root) => {
+      const nodes = [];
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      while (walker.nextNode()) {
+        const node = walker.currentNode;
+        if (node.parentElement.closest(".sidenote, .permalink, .sidenote-toggle, .page-marker")) continue;
+        if (node.data.trim().length) nodes.push(node);
+      }
+      return nodes;
+    };
+    window.__longParagraph = () =>
+      [...document.querySelectorAll(".prose p[id]")].find((p) => {
+        const nodes = window.__bodyNodes(p);
+        return nodes.length && nodes[0].data.length > 120 && p.nextElementSibling?.id;
+      });
+  });
+
+  await page.reload({ waitUntil: "networkidle" });
+
+  const shapes = {
+    "starting at the paragraph edge": `(p, nodes) => [p, 0, nodes[0], 60]`,
+    "ending at a text-node boundary": `(p, nodes) => [nodes[0], 20, nodes[0], nodes[0].data.length]`,
+    "ending at the end of the paragraph": `(p, nodes) => {
+      const last = nodes[nodes.length - 1];
+      return [last, Math.max(0, last.data.length - 40), last, last.data.length];
+    }`,
+    "crossing into the next paragraph": `(p, nodes) => {
+      const next = window.__bodyNodes(p.nextElementSibling)[0];
+      return [nodes[0], 30, next, 50];
+    }`,
+  };
+
+  for (const [name, maker] of Object.entries(shapes)) {
+    const selected = await page.evaluate((maker) => {
+      const p = window.__longParagraph();
+      if (!p) return null;
+      const nodes = window.__bodyNodes(p);
+      const [sn, so, en, eo] = eval(`(${maker})`)(p, nodes);
+      const range = document.createRange();
+      range.setStart(sn, so);
+      range.setEnd(en, eo);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      document.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
+      return range.toString();
+    }, maker);
+    await page.waitForTimeout(200);
+
+    const url = await page.evaluate(
+      () => document.getElementById("share-pop")?.getAttribute("data-url") ?? ""
+    );
+    check(/[?&]h=/.test(url), `a selection ${name} shares as a quote link`, url.slice(-60));
+
+    if (/[?&]h=/.test(url) && selected) {
+      await page.goto(url, { waitUntil: "networkidle" });
+      await page.waitForTimeout(200);
+      const marked = await page.evaluate(() =>
+        [...document.querySelectorAll("mark.hl")].map((m) => m.textContent).join("")
+      );
+      const tidy = (text) => text.replace(/\s+/g, " ").replace(/¶/g, "").trim();
+      check(
+        tidy(marked).length > 0 && tidy(selected).includes(tidy(marked).slice(0, 40)),
+        `following it marks the quoted words (${name})`,
+        `${JSON.stringify(tidy(marked).slice(0, 50))} vs ${JSON.stringify(tidy(selected).slice(0, 50))}`
+      );
+      await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
+    }
+  }
+
   // saving a highlight: it belongs to the reader, so it has to survive a
   // reload and it has to leave with them.
   await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });

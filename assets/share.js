@@ -67,28 +67,41 @@ if (body && pop && !isCoarse) {
    * there is nothing there for it to add.
    *
    * @param {Range} range
-   * @returns {{ url: string, paragraph: string, anchor: string, page: number | null }}
+   * @returns {{ url: string, paragraph: string, anchor: string, page: number | null, quote: string }}
    */
   const canonicalUrl = (range) => {
     const base = window.location.origin + window.location.pathname;
     const paragraph = paragraphFor(range.startContainer);
-    if (!paragraph) return { url: base, paragraph: "", anchor: "", page: null };
+    if (!paragraph) return { url: base, paragraph: "", anchor: "", page: null, quote: "" };
 
     const link = `${base}?p=${encodeURIComponent(paragraph.id)}`;
     const context = { paragraph: paragraph.id, anchor: "", page: pageFor(paragraph) };
-    const whole = { ...context, url: `${link}#${paragraph.id}` };
 
-    const index = buildIndex(paragraph);
+    // A selection that runs past the end of its paragraph has to be described
+    // against something that contains all of it. Readers select across a
+    // paragraph break often — a finding and the sentence that qualifies it —
+    // and describing only the first half would quote them wrongly.
+    const endParagraph = paragraphFor(range.endContainer);
+    const spansParagraphs = endParagraph !== paragraph;
+    const scope = spansParagraphs ? body : paragraph;
+
+    const index = buildIndex(scope);
     const start = indexOfPoint(index, range.startContainer, range.startOffset);
     const end = indexOfPoint(index, range.endContainer, range.endOffset);
 
-    if (start === -1 || end === -1 || end <= start) return whole;
-    if (start === 0 && end >= index.text.length) return whole;
+    // The quote comes from the indexed text, not from the selection: the
+    // browser's own string includes the footnote marker and the sidenote it
+    // opens, so a quoted passage would read "…illegitimate ones.2424 See ECF".
+    const quote = end > start ? index.text.slice(start, end) : "";
+    const whole = { ...context, url: `${link}#${paragraph.id}`, quote: index.text };
+
+    if (end <= start) return whole;
+    if (!spansParagraphs && start === 0 && end >= index.text.length) return whole;
 
     const anchor = encodeAnchor(selectorFor(index.text, start, end));
     if (!anchor) return whole;
 
-    return { ...context, anchor, url: `${link}&h=${anchor}#${paragraph.id}` };
+    return { ...context, anchor, quote, url: `${link}&h=${anchor}#${paragraph.id}` };
   };
 
   const hide = () => pop.setAttribute("data-open", "false");
@@ -96,10 +109,10 @@ if (body && pop && !isCoarse) {
   /**
    * @param {DOMRect} rect
    * @param {string} quote
-   * @param {{ url: string, paragraph: string, anchor: string, page: number | null }} link
+   * @param {{ url: string, paragraph: string, anchor: string, page: number | null, quote: string }} link
    */
   const show = (rect, quote, link) => {
-    current.quote = quote;
+    current.quote = link.quote || quote;
     current.url = link.url;
     current.paragraph = link.paragraph;
     current.anchor = link.anchor;

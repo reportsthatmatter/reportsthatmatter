@@ -14,7 +14,7 @@
  */
 // @ts-check
 import { decodeAnchor, locate } from "./anchor.js";
-import { buildIndex, rangeFor } from "./dom-text.js";
+import { buildIndex, isProse, rangeFor } from "./dom-text.js";
 import { createStore } from "./highlights-store.js";
 
 const body = document.getElementById("report-body");
@@ -24,6 +24,31 @@ if (body) {
   markLinked();
 }
 
+/**
+ * Find anchored text, looking in the paragraph it was made in before looking
+ * at the whole page.
+ *
+ * Paragraph first because it is the precise answer and a small haystack. Page
+ * second because a selection can span a paragraph break, and because a
+ * paragraph may have been renamed since the link was made.
+ *
+ * @param {import("./anchor.js").Selector | null} anchor
+ * @param {string | null} paragraphId
+ * @returns {Range | null}
+ */
+function findAnchored(anchor, paragraphId) {
+  const paragraph = paragraphId ? document.getElementById(paragraphId) : null;
+
+  for (const scope of [paragraph, body]) {
+    if (!scope) continue;
+    const index = buildIndex(scope);
+    const found = locate(index.text, anchor);
+    if (found) return rangeFor(index, found.start, found.end);
+  }
+
+  return null;
+}
+
 /** The passage this link points at, if it points at one. */
 function markLinked() {
   const params = new URLSearchParams(window.location.search);
@@ -31,27 +56,23 @@ function markLinked() {
   if (!anchor) return;
 
   const paragraphId = params.get("p") || window.location.hash.slice(1);
-  const paragraph = paragraphId ? document.getElementById(paragraphId) : null;
-  const scope = paragraph || body;
-  if (!scope) return;
+  const range = findAnchored(anchor, paragraphId);
 
-  const index = buildIndex(scope);
-  const found = locate(index.text, anchor);
-  if (found) {
-    const range = rangeFor(index, found.start, found.end);
-    if (range) {
-      const element = mark(range, ["hl"]);
-      if (element) {
-        element.dataset.tier = found.tier;
-        element.scrollIntoView({ block: "center" });
-        return;
-      }
+  if (range) {
+    const marks = mark(range, ["hl"]);
+    if (marks.length) {
+      // The link named words, so the paragraph-wide wash is redundant — and
+      // two overlapping highlights read as one smudge.
+      body?.setAttribute("data-quote-marked", "true");
+      marks[0].scrollIntoView({ block: "center" });
+      return;
     }
   }
 
+  // The quoted words are not here any more. Show the paragraph the quote came
+  // from rather than guessing which words were meant.
+  const paragraph = paragraphId ? document.getElementById(paragraphId) : null;
   if (paragraph) {
-    // The quoted words are not here any more. Show the paragraph the quote came
-    // from rather than guessing which words were meant.
     paragraph.classList.add("hl-lost");
     paragraph.scrollIntoView({ block: "center" });
   }
@@ -67,43 +88,75 @@ function markSaved() {
     const paragraph = document.getElementById(held.paragraph);
     if (!paragraph) continue;
 
-    const index = buildIndex(paragraph);
-    // No anchor means the whole paragraph was kept — there were no particular
-    // words to name, so the whole of it is what gets marked.
-    const found = held.anchor
-      ? locate(index.text, decodeAnchor(held.anchor))
-      : { start: 0, end: index.text.length };
-    if (!found) continue;
+    let range;
+    if (held.anchor) {
+      range = findAnchored(decodeAnchor(held.anchor), held.paragraph);
+    } else {
+      // No anchor means the whole paragraph was kept — there were no
+      // particular words to name, so the whole of it is what gets marked.
+      const index = buildIndex(paragraph);
+      range = rangeFor(index, 0, index.text.length);
+    }
+    if (!range) continue;
 
-    const range = rangeFor(index, found.start, found.end);
-    if (range) {
-      const element = mark(range, ["hl", "saved"]);
-      if (element) element.dataset.highlight = held.id;
+    for (const element of mark(range, ["hl", "saved"])) {
+      element.dataset.highlight = held.id;
     }
   }
 }
 
 /**
- * Wrap a range in a mark, tolerating a range that crosses element boundaries.
+ * Mark a range, one text node at a time.
+ *
+ * Wrapping the range in a single element only works when it sits inside one
+ * element. A quote that crosses a footnote marker, an emphasis, or a paragraph
+ * boundary cannot be wrapped that way — and those are ordinary selections, not
+ * edge cases. Marking each text node the range touches works for all of them.
  *
  * @param {Range} range
  * @param {string[]} classes
- * @returns {HTMLElement | null}
+ * @returns {HTMLElement[]}
  */
 function mark(range, classes) {
-  const element = document.createElement("mark");
-  element.className = classes.join(" ");
+  const root = range.commonAncestorContainer;
+  const walker = document.createTreeWalker(
+    root.nodeType === Node.ELEMENT_NODE ? root : /** @type {Node} */ (root.parentNode),
+    NodeFilter.SHOW_TEXT
+  );
 
-  try {
-    range.surroundContents(element);
-  } catch (err) {
-    try {
-      element.appendChild(range.extractContents());
-      range.insertNode(element);
-    } catch (nested) {
-      return null;
-    }
+  /** @type {Text[]} */
+  const touched = [];
+  while (walker.nextNode()) {
+    const node = /** @type {Text} */ (walker.currentNode);
+    // Only prose: the same text buildIndex counted. Otherwise a quote running
+    // across a paragraph break paints the sidenote and the page number too.
+    // Whitespace-only nodes are the newlines between block elements: marking
+    // them puts a stray highlight in the gap between two paragraphs.
+    if (!node.data.trim()) continue;
+    if (range.intersectsNode(node) && isProse(node)) touched.push(node);
+  }
+  if (!touched.length && range.startContainer.nodeType === Node.TEXT_NODE) {
+    touched.push(/** @type {Text} */ (range.startContainer));
   }
 
-  return element;
+  /** @type {HTMLElement[]} */
+  const marks = [];
+
+  for (const node of touched) {
+    const from = node === range.startContainer ? range.startOffset : 0;
+    const to = node === range.endContainer ? range.endOffset : node.data.length;
+    if (to <= from) continue;
+
+    // Split the node down to exactly the part inside the range, then wrap it.
+    const middle = from > 0 ? node.splitText(from) : node;
+    if (to - from < middle.data.length) middle.splitText(to - from);
+
+    const element = document.createElement("mark");
+    element.className = classes.join(" ");
+    middle.parentNode?.insertBefore(element, middle);
+    element.appendChild(middle);
+    marks.push(element);
+  }
+
+  return marks;
 }

@@ -464,6 +464,14 @@ hr {
   box-shadow: 0 0 0 0.4rem rgba(255, 232, 138, 0.32);
 }
 
+/* When the link named words, the paragraph it sits in is not also highlighted:
+ * the two washes overlapping read as one smudge, and the precise mark is the
+ * answer to what was quoted. */
+.prose[data-quote-marked] p[id]:target {
+  background: transparent;
+  box-shadow: none;
+}
+
 /* A link that names words rather than a paragraph marks exactly those words.
  * Same wash as :target, so a quote link and a paragraph link read as the same
  * gesture at two scales. */
