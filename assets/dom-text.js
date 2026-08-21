@@ -19,8 +19,7 @@
  */
 
 /** Markup whose text is not part of the prose and must never land in a quote. */
-const NOT_PROSE =
-  ".sidenote, .permalink, .page-marker, .sidenote-toggle, .sidenote-expand, .social-note";
+const NOT_PROSE = ".sidenote, .permalink, .page-marker, .sidenote-toggle, .sidenote-expand";
 
 /**
  * Is this text node part of the prose?

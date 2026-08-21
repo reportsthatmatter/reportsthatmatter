@@ -529,30 +529,17 @@ hr {
   box-shadow: 0 0 0 0.4rem rgba(255, 232, 138, 0.18);
 }
 
-/* What other readers marked (#96). Restraint is the point: a hairline rule
- * under the words, not a wash — the passage still reads as prose, with one
- * quiet signal that it caught someone else's attention too. */
+/* What other readers marked (#96) — the same wash as .hl, because it is the
+ * same gesture (a highlight), not a different one. Always fainter than .hl:
+ * that colour is reserved for "this is what you followed a link to" or "you
+ * saved this", and social proof must read as ambient, not compete with it.
+ * The background itself is set inline per element (assets/social-proof.js),
+ * scaled by reader count — more readers, a stronger wash — so the exact
+ * number does not need to be printed anywhere to be felt. Hover for it via
+ * the title attribute; no margin note, which would fight the sidenote column
+ * for the same space on wide viewports. */
 .prose mark.social-proof {
-  background: transparent;
   color: inherit;
-  border-bottom: 1px solid var(--rule-strong);
-}
-
-.social-note {
-  display: block;
-  color: var(--muted);
-  margin: 0.35rem 0 1rem;
-}
-
-@media (min-width: 68rem) {
-  .social-note {
-    float: right;
-    clear: right;
-    width: var(--sidenote-width);
-    margin-right: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
-    margin-top: 0.15rem;
-    margin-bottom: 1rem;
-  }
 }
 
 @media (max-width: 52rem) {

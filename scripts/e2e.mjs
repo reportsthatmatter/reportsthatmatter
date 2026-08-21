@@ -345,7 +345,7 @@ if (firstReportId) {
   check(listed.markdown, "highlights can be exported as Markdown");
 
   // social proof (#96): a real mark, recorded against the real local D1, has
-  // to come back through /reports/:id/marks and render as an underline — this
+  // to come back through /reports/:id/marks and render as a highlight — this
   // is the one check in the suite that proves the SQL itself is right, not
   // just the fake D1 the unit tests use.
   await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
@@ -367,18 +367,18 @@ if (firstReportId) {
   await page.waitForTimeout(300); // social-proof.js fetches the counts after load
   const socialProof = await page.evaluate((id) => {
     const paragraph = document.getElementById(id);
-    const note = paragraph?.querySelector(".social-note");
+    const el = paragraph?.querySelector("mark.social-proof");
     return {
-      underlined: Boolean(paragraph?.querySelector("mark.social-proof")),
-      note: note ? note.textContent : null,
+      marked: Boolean(el),
+      washed: el ? getComputedStyle(el).backgroundColor !== "rgba(0, 0, 0, 0)" : false,
+      title: el ? el.title : null,
+      hasNoMarginNote: !paragraph?.querySelector(".social-note"),
     };
   }, markedParagraphId);
-  check(socialProof.underlined, "a marked passage is underlined for other readers", JSON.stringify(socialProof));
-  check(
-    socialProof.note === "Underlined by 1 reader",
-    "the margin note names the reader count",
-    String(socialProof.note)
-  );
+  check(socialProof.marked, "a marked passage is highlighted for other readers", JSON.stringify(socialProof));
+  check(socialProof.washed, "the highlight has an actual background, not just the class", JSON.stringify(socialProof));
+  check(socialProof.title === "Highlighted by 1 reader", "the reader count is a hover title, not printed text", String(socialProof.title));
+  check(socialProof.hasNoMarginNote, "no margin note competing with the sidenote column");
 
   await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
   check(
