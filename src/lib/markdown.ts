@@ -101,6 +101,19 @@ export function renderMarkdown(markdown: string): string {
 
     for (let i = 0; i < tokens.length; i++) {
       const token = tokens[i];
+
+      // A bulleted list is a citable unit too — in these reports the list is
+      // often the finding. Its id comes from its first item, by the same rule
+      // paragraphs use, so re-ingestion cannot repoint the citation.
+      if (token.type === "bullet_list_open" && token.level === 0) {
+        const firstItem = tokens.slice(i).find((later) => later.type === "inline");
+        if (firstItem) {
+          token.attrSet("id", paragraphId(firstItem.content, taken));
+          if (page !== null) token.attrSet("data-page", String(page));
+        }
+        continue;
+      }
+
       if (token.type !== "paragraph_open" || token.level !== 0) continue;
 
       const text = tokens[i + 1]?.content ?? "";
@@ -123,6 +136,18 @@ export function renderMarkdown(markdown: string): string {
       if (page !== null) token.attrSet("data-page", String(page));
     }
   });
+
+  const defaultListOpen = md.renderer.rules.bullet_list_open;
+  md.renderer.rules.bullet_list_open = (tokens, idx, options, env, self) => {
+    const open = defaultListOpen
+      ? defaultListOpen(tokens, idx, options, env, self)
+      : self.renderToken(tokens, idx, options);
+
+    const id = tokens[idx].attrGet("id");
+    if (!id) return open;
+
+    return `${open}<a class="permalink" href="#${id}" aria-label="Link to this list">¶</a>`;
+  };
 
   const defaultParagraphOpen = md.renderer.rules.paragraph_open;
   md.renderer.rules.paragraph_open = (tokens, idx, options, env, self) => {

@@ -265,3 +265,22 @@ describe("splitSections", () => {
     ]);
   });
 });
+
+describe("lists are citable", () => {
+  it("gives a top-level list a text-derived id and a permalink", () => {
+    const html = renderMarkdown(
+      "---\ntitle: t\n---\n\n- after the adoption of resolution 1441;\n- before the decision to deploy troops;\n"
+    );
+
+    expect(html).toMatch(/<ul id="[a-z0-9-]+"/);
+    expect(html).not.toMatch(/<ul id="(list|ul)-\d+"/); // never positional
+    expect(html).toContain('class="permalink"');
+    expect(html).toMatch(/id="[^"]*adoption[^"]*"/);
+  });
+
+  it("does not give ids to the items themselves", () => {
+    const html = renderMarkdown("---\ntitle: t\n---\n\n- one item here\n- two items here\n");
+
+    expect(html).not.toMatch(/<li id=/);
+  });
+});
