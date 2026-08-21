@@ -1,46 +1,64 @@
 # Next
 
 Triage on top of [issue #77](https://github.com/reportsthatmatter/reportsthatmatter/issues/77)
-(the full map, kept current). This file is just: what's next, who it needs, and
-where it's tracked. Everything below is a GitHub issue — this is the annotation,
-the issue is the detail. Updated 2026-08-21.
+(the full map). This file is: what's next, who it needs, and where it's tracked.
+Every row is a GitHub issue — the issue holds the detail, this is the
+annotation. Updated 2026-08-21.
+
+**Read [`AGENTS.md`](AGENTS.md) first**, then `./scripts/init.sh`. The done
+condition is `./scripts/verify.sh`; after deploying,
+`VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh`.
+
+## Ready to pick up cold — one session each
+
+Each of these is self-contained: the issue carries the brief, the method, and
+what done looks like. They touch different parts of the tree and can run at the
+same time, with one exception noted below.
+
+| | | Touches | |
+| --- | --- | --- | --- |
+| [#107](https://github.com/reportsthatmatter/reportsthatmatter/issues/107) | **Analysis: how reports should be served** | `docs/` only | Pre-render vs R2 vs static, costed against this repo. Rufus's objections — slow builds, rebuilding on a theme change — are in the issue and must be answered with numbers. Ends in a recommendation, not an implementation. **Most urgent: production hit CPU limits on 2026-08-21 and is green only because of two holding measures.** |
+| [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Imagery: study Co-Star, then a mark per report** | `docs/design/`, `assets/` | Write down what Co-Star's visual language actually is before making anything. Then a per-report image working almost as a logo, from public-domain photography or facsimiles of our own documents. |
+| [#108](https://github.com/reportsthatmatter/reportsthatmatter/issues/108) | **Review the PSI / Challenger re-ingest** | `reports/`, `scripts/ingest/` | Rufus said go ahead. The method for isolating one pipeline change from the rest is in the issue. Bring back only the judgement calls, with the source page alongside. |
+| [#100](https://github.com/reportsthatmatter/reportsthatmatter/issues/100) | **Full-text search** | `src/`, `scripts/` | Four design questions answered: D1 + FTS5, cross-archive, results are citable passages. Rufus, 2026-08-21: "just go ship it." Precise deep links come free from the quote anchors, which are built. |
+| [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **Social proof** | `src/`, `assets/` | What other readers marked. Nothing is blocked on Rufus — build it, then show him the rendered page before it ships, because it is the first thing that stores anything about readers. |
+
+⚠️ **#100 and #96 both introduce D1 and both touch `src/index.ts`.** Run them in
+either order, but not concurrently.
+
+## Smaller, also independent
+
+| | | |
+| --- | --- | --- |
+| [#101](https://github.com/reportsthatmatter/reportsthatmatter/issues/101) | **Two-column layout** | Unblocks Columbia [#37](https://github.com/reportsthatmatter/reportsthatmatter/issues/37) and a class of sources. |
+| [#102](https://github.com/reportsthatmatter/reportsthatmatter/issues/102) | **FCIC digit-dropping** | `pdftotext` silently drops every numeral. Needs OCR, and a detector so it cannot happen quietly again. |
+| [#103](https://github.com/reportsthatmatter/reportsthatmatter/issues/103) | **No-space footnote markers** | ~230/844 Litvinenko notes render bare. Needs a note-number lookup, not another typographic guess — the first attempt corrupted a citation. |
+| [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | **Ingestion odds and ends** | Last 3% of footnote recall, 11 truncated PSI headings, heading ambiguity. |
+| [#106](https://github.com/reportsthatmatter/reportsthatmatter/issues/106) | **`corrections.yaml`** | Bigger lift, no open questions. Unblocks the review queues ([#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105)). |
+| [#110](https://github.com/reportsthatmatter/reportsthatmatter/issues/110) · [#111](https://github.com/reportsthatmatter/reportsthatmatter/issues/111) · [#112](https://github.com/reportsthatmatter/reportsthatmatter/issues/112) | **UX odds and ends** | Page-number labelling, re-collapsing an expanded note, images in the changelog. |
+| [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | **Accessible link colour** | Quick. |
+| — | **More reports** | Leveson [#32](https://github.com/reportsthatmatter/reportsthatmatter/issues/32) (source PDF already in the old repo), Saville [#39](https://github.com/reportsthatmatter/reportsthatmatter/issues/39), Chilcot [#67](https://github.com/reportsthatmatter/reportsthatmatter/issues/67), Philip Morris [#33](https://github.com/reportsthatmatter/reportsthatmatter/issues/33). Valukas [#24](https://github.com/reportsthatmatter/reportsthatmatter/issues/24) and Duelfer [#34](https://github.com/reportsthatmatter/reportsthatmatter/issues/34) need a browser to fetch the source. Chilcot and Leveson are heavily bulleted and wanted #12 first — that is done. |
 
 ## Needs Rufus
 
 | | | |
 | --- | --- | --- |
-| [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **Social proof — showing what other readers marked** | The first thing here that stores anything about readers. Built, then a look before it ships. |
-| [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Visual texture** | You said the design is good and the imagery is missing. Direction is yours to pick — from rendered options, not a description. |
-| [#108](https://github.com/reportsthatmatter/reportsthatmatter/issues/108) | **PSI / Challenger re-ingest review** | One lateral (not clearly correct) change in the diff. I'll do the review and bring you the judgement calls. |
-| [#77 branch A](https://github.com/reportsthatmatter/reportsthatmatter/issues/77) | **Launch** | Search Console, the `@ReportsThatMatter` account, the announcement thread. Parked at your instruction, 2026-08-21. Still the highest-value item on the board whenever it comes back. |
+| [#77 branch A](https://github.com/reportsthatmatter/reportsthatmatter/issues/77) | **Launch** | Search Console, the `@ReportsThatMatter` account, the announcement thread. Parked at his instruction, 2026-08-21. Still the highest-value item on the board whenever it comes back. |
+| [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **A look before social proof ships** | Not a blocker on building it. |
+| [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Picking a visual direction** | From rendered options, once they exist. |
 
-## The mechanism — highlighting, sharing, social proof
+## Shipped and live
 
-[#109](https://github.com/reportsthatmatter/reportsthatmatter/issues/109) is the
-overview; design in
-[`docs/plans/2026-08-21-highlights-design.md`](docs/plans/2026-08-21-highlights-design.md).
+The mechanism Rufus named as the key one
+([#109](https://github.com/reportsthatmatter/reportsthatmatter/issues/109);
+design in [`docs/plans/2026-08-21-highlights-design.md`](docs/plans/2026-08-21-highlights-design.md)):
 
-| | | |
-| --- | --- | --- |
-| [#94](https://github.com/reportsthatmatter/reportsthatmatter/issues/94) | ~~**Selection anchors**~~ | **Done**, merged, not deployed. Highlight part of a paragraph and share exactly that. |
-| [#95](https://github.com/reportsthatmatter/reportsthatmatter/issues/95) | ~~**Saved highlights + Markdown export**~~ | **Done**, merged, not deployed. Local-first; `/highlights` lists them, export is a pasteable citation. |
-| [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **Social proof** | Hairline underline, count in the margin, threshold of 3. Needs your eyes. |
-| [#97](https://github.com/reportsthatmatter/reportsthatmatter/issues/97) | **Accounts + sync** | Deferred on purpose until 1–3 earn it. |
-| [#98](https://github.com/reportsthatmatter/reportsthatmatter/issues/98) | **Annotation** | Recorded, not to be built. Different product: moderation, identity, notification. |
+- [#94](https://github.com/reportsthatmatter/reportsthatmatter/issues/94) **Quote anchors** — share part of a paragraph and land on exactly those words.
+- [#95](https://github.com/reportsthatmatter/reportsthatmatter/issues/95) **Saved highlights** — kept in the browser, listed at `/highlights`, exported as Markdown citations.
+- [#12](https://github.com/reportsthatmatter/reportsthatmatter/issues/12) **Text out of order** — fixed after ten years open; the pipeline now has lists.
+- Deferred deliberately: [#97](https://github.com/reportsthatmatter/reportsthatmatter/issues/97) accounts, [#98](https://github.com/reportsthatmatter/reportsthatmatter/issues/98) annotation.
 
-## I can run with these
-
-**Decided, unblocked, no open questions.**
-
-| | | |
-| --- | --- | --- |
-| [#100](https://github.com/reportsthatmatter/reportsthatmatter/issues/100) | **Full-text search** | The four design questions are answered — D1 + FTS5, cross-archive, results are citable passages. [Decisions](docs/plans/2026-08-21-search-decisions.md). |
-| [#101](https://github.com/reportsthatmatter/reportsthatmatter/issues/101) | **Two-column layout** | Unblocks Columbia [#37](https://github.com/reportsthatmatter/reportsthatmatter/issues/37) and a whole class of sources. |
-| [#102](https://github.com/reportsthatmatter/reportsthatmatter/issues/102) | **FCIC digit-dropping** | `pdftotext` silently drops every numeral. Needs OCR, and a detector so it can never happen quietly again. |
-| [#103](https://github.com/reportsthatmatter/reportsthatmatter/issues/103) | **No-space footnote markers** | ~230/844 Litvinenko notes render bare. The first attempt corrupted a citation; needs a lookup, not a guess. |
-| [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | **Ingestion odds and ends** | Last 3% of footnote recall, 11 truncated PSI headings, heading ambiguity. |
-| [#106](https://github.com/reportsthatmatter/reportsthatmatter/issues/106) | **`corrections.yaml`** | Bigger lift, no open questions. Unblocks the review queues ([#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105)). |
-| [#107](https://github.com/reportsthatmatter/reportsthatmatter/issues/107) | **Pre-render at build time** | Bundle is 1.43 MB of a 3 MB cap. Much cheaper before it bites than after. |
-| [#12](https://github.com/reportsthatmatter/reportsthatmatter/issues/12) | **Text out of order** | Not fixed after all — spec written and posted to the issue, ready to implement — the current pipeline still reproduces it (evidence on the issue). Bullets run together and a wrapped item lands out of order, invisible to the fidelity checks because every word is still present. Blocks Chilcot and Leveson, both heavily bulleted. |
-| [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | **Accessible link colour** | Quick. |
-| — | **More reports** | Leveson [#32](https://github.com/reportsthatmatter/reportsthatmatter/issues/32) (source PDF already in the old repo, four volumes), Saville [#39](https://github.com/reportsthatmatter/reportsthatmatter/issues/39), Chilcot [#67](https://github.com/reportsthatmatter/reportsthatmatter/issues/67), Philip Morris [#33](https://github.com/reportsthatmatter/reportsthatmatter/issues/33). Valukas [#24](https://github.com/reportsthatmatter/reportsthatmatter/issues/24) and Duelfer [#34](https://github.com/reportsthatmatter/reportsthatmatter/issues/34) need a browser to fetch the source, not a plain fetch. |
+Two rounds of fixes followed, both found by Rufus using it rather than by the
+checks. Worth remembering when writing browser checks for anything
+selection-shaped: they passed because they only tested selections shaped the way
+the code already handled. Six shapes are covered now.
