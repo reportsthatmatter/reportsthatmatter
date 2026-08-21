@@ -187,7 +187,13 @@ if (body && pop && !isCoarse) {
   });
 
   document.addEventListener("mousedown", (event) => {
-    if (!pop.contains(/** @type {Node} */ (event.target))) hide();
+    const target = /** @type {HTMLElement} */ (event.target);
+    if (!pop.contains(target)) hide();
+
+    // A drag through the body should not sweep up the margin notes; a drag
+    // that starts inside one is someone deliberately selecting a citation.
+    if (target.closest && target.closest(".sidenote")) body.removeAttribute("data-selecting");
+    else body.setAttribute("data-selecting", "true");
   });
 
   document.addEventListener("keydown", (event) => {

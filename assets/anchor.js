@@ -22,8 +22,25 @@
  * @typedef {{ start: number, end: number, tier: "context" | "partial" | "exact" }} Match
  */
 
-/** Longer than this is a copy, not a citation; such links degrade to the paragraph. */
+/**
+ * Above this length a passage is named by its ends rather than in full.
+ *
+ * Readers quote several sentences at a time — a finding and the qualification
+ * that follows it — and an anchor carrying all of it makes an unwieldy URL.
+ * Naming the first and last words instead keeps the link short and still
+ * describes exactly the same span.
+ *
+ * This used to be the point at which a long selection silently gave up and
+ * linked the whole paragraph, which quoted the reader wrongly and gave no sign
+ * of having done so.
+ */
 export const MAX_EXACT = 300;
+
+/** Characters kept from each end of a long passage. */
+const SEGMENT = 120;
+
+/** Stands for the middle of a passage named by its ends. */
+const GAP = "⋯";
 
 /** Characters of context kept either side. Whole words only. */
 const CONTEXT = 25;
@@ -69,8 +86,14 @@ export function selectorFor(text, start, end) {
  * @param {Selector | null} selector @returns {string | null}
  */
 export function encodeAnchor(selector) {
-  if (!selector || !selector.exact || selector.exact.length > MAX_EXACT) return null;
-  return [selector.prefix, selector.exact, selector.suffix]
+  if (!selector || !selector.exact) return null;
+
+  const exact =
+    selector.exact.length > MAX_EXACT
+      ? `${selector.exact.slice(0, SEGMENT)}${GAP}${selector.exact.slice(-SEGMENT)}`
+      : selector.exact;
+
+  return [selector.prefix, exact, selector.suffix]
     .map((part) => encodeURIComponent(part || ""))
     .join(SEPARATOR);
 }
@@ -108,6 +131,21 @@ export function decodeAnchor(value) {
 export function locate(haystack, anchor) {
   if (!anchor || !anchor.exact) return null;
   const { prefix = "", exact, suffix = "" } = anchor;
+
+  // A passage named by its ends: find where it opens, then where it closes.
+  if (exact.includes(GAP)) {
+    const [head, tail] = exact.split(GAP);
+    const opening = locate(haystack, { prefix, exact: head, suffix: "" });
+    if (!opening) return null;
+
+    const closing = haystack.indexOf(tail, opening.end);
+    // The passage opens where it did but no longer ends there. Marking from
+    // the start to somewhere arbitrary would misquote the document, so this
+    // fails to the paragraph like any other anchor that cannot be resolved.
+    if (closing === -1) return null;
+
+    return { start: opening.start, end: closing + tail.length, tier: opening.tier };
+  }
 
   const withContext = haystack.indexOf(prefix + exact + suffix);
   if (withContext !== -1) {
