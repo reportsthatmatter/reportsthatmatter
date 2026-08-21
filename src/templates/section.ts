@@ -3,7 +3,7 @@ import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
 import type { Section } from "../lib/sections";
 import type { ReportMeta } from "./report";
-import { extractParagraph } from "./report";
+import { quotedPassage } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
 
 function truncate(text: string, limit: number): string {
@@ -75,14 +75,16 @@ export function renderSection(
   meta: ReportMeta,
   sections: Section[],
   index: number,
-  highlighted?: string
+  highlighted?: string,
+  /** Quote anchor from `?h=`, naming the words within that paragraph. */
+  anchor?: string
 ): string {
   const section = sections[index];
   const previous = sections[index - 1];
   const next = sections[index + 1];
   const reportPath = `/reports/${meta.id ?? ""}`;
 
-  const quoted = highlighted ? extractParagraph(section.html, highlighted) : null;
+  const quoted = highlighted ? quotedPassage(section.html, highlighted, anchor) : null;
   const description = quoted
     ? `“${truncate(quoted, 280)}” — ${meta.title}`
     : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`;
@@ -100,7 +102,11 @@ export function renderSection(
         <p class="byline mono">Section ${index + 1} of ${sections.length}</p>
       </div>
     </header>
-    <div class="prose wrap measure" id="report-body">
+    <div class="prose wrap measure" id="report-body"
+      data-report="${escapeHtml(meta.id ?? "")}"
+      data-report-title="${escapeHtml(meta.title)}"
+      data-section="${escapeHtml(section.slug)}"
+      data-section-title="${escapeHtml(section.title)}">
       ${section.html}
     </div>
     <nav class="section-nav wrap measure mono">
@@ -113,11 +119,12 @@ export function renderSection(
 <div class="share-pop" id="share-pop" role="dialog" aria-label="Share selection">
   <button type="button" data-action="copy-link">Copy link</button>
   <button type="button" data-action="copy-quote">Copy quote</button>
+  <button type="button" data-action="save">Save</button>
 </div>`;
 
   return renderLayout(`${section.title} — ${meta.title} — Reports that Matter`, body, {
     description,
-    scripts: ["/assets/share.js"],
+    scripts: ["/assets/share.js", "/assets/highlight.js"],
     image,
     structuredData: breadcrumbJsonLd([
       { name: "Reports", path: "/reports" },

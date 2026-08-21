@@ -7,6 +7,7 @@ import { renderReport } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
+import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection } from "./templates/section";
 import { splitSections, sectionFor } from "./lib/sections";
 
@@ -154,6 +155,10 @@ app.get("/reports", async (c) => {
 
 app.get("/about", (c) => c.html(renderAbout()));
 
+// The reader's own highlights. The server holds none of them — this is the
+// shell, and the browser fills it from local storage.
+app.get("/highlights", (c) => c.html(renderHighlights()));
+
 /**
  * A sitemap listing every section of every report.
  *
@@ -243,8 +248,12 @@ app.get("/reports/:id", async (c) => {
   if (paragraph) {
     const section = sectionFor(loaded.sections, paragraph);
     if (section) {
+      // ?h= names the words within that paragraph and has to survive the hop,
+      // or a shared quote arrives as a plain paragraph link.
+      const quote = c.req.query("h");
+      const anchor = quote ? `&h=${encodeURIComponent(quote)}` : "";
       return c.redirect(
-        `/reports/${reportId}/${section.slug}?p=${encodeURIComponent(paragraph)}#${paragraph}`,
+        `/reports/${reportId}/${section.slug}?p=${encodeURIComponent(paragraph)}${anchor}#${paragraph}`,
         302
       );
     }
@@ -259,7 +268,9 @@ app.get("/reports/:id", async (c) => {
 app.get("/reports/:id/full", async (c) => {
   const loaded = await loadReport(c, c.req.param("id"));
   if (!loaded) return c.html(renderNotFound(false), 404);
-  return c.html(renderReport(loaded.report, loaded.html, c.req.query("p")));
+  return c.html(
+    renderReport(loaded.report, loaded.html, c.req.query("p"), c.req.query("h"))
+  );
 });
 
 app.get("/reports/:id/:section", async (c) => {
@@ -271,7 +282,13 @@ app.get("/reports/:id/:section", async (c) => {
   if (index === -1) return c.html(renderNotFound(false), 404);
 
   return c.html(
-    renderSection(loaded.report, loaded.sections, index, c.req.query("p"))
+    renderSection(
+      loaded.report,
+      loaded.sections,
+      index,
+      c.req.query("p"),
+      c.req.query("h")
+    )
   );
 });
 

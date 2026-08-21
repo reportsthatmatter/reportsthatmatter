@@ -1,85 +1,156 @@
 /* Highlight-to-share.
  *
  * Select text inside the report body and a small popover offers a canonical
- * link to the paragraph the selection starts in, or the quote plus that link.
+ * link to it, or the quote plus that link. Select part of a paragraph and the
+ * link names those words; select the whole thing and it names the paragraph,
+ * as it always did.
+ *
  * Desktop-first: the popover is suppressed on coarse pointers, where the OS
  * selection menu already occupies the same space.
  */
-(function () {
-  "use strict";
+// @ts-check
+import { encodeAnchor, selectorFor } from "./anchor.js";
+import { buildIndex, indexOfPoint } from "./dom-text.js";
+import { createStore } from "./highlights-store.js";
 
-  var body = document.getElementById("report-body");
-  var pop = document.getElementById("share-pop");
-  if (!body || !pop) return;
+const body = document.getElementById("report-body");
+const pop = document.getElementById("share-pop");
 
-  var isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
-  if (isCoarse) return;
+const isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
-  var current = { quote: "", url: "" };
+if (body && pop && !isCoarse) {
+  const store = createStore(window.localStorage);
+  const current = { quote: "", url: "", paragraph: "", anchor: "", page: null };
 
-  function paragraphIdFor(node) {
-    var el = node.nodeType === 1 ? node : node.parentElement;
+  /**
+   * The printed page a passage sits on: the last page marker before it.
+   *
+   * This is how these documents are cited — "Report at 62" — so a saved
+   * highlight carries it, and an export is a citation rather than a link.
+   * @param {Element} paragraph
+   * @returns {number | null}
+   */
+  const pageFor = (paragraph) => {
+    const markers = [...document.querySelectorAll(".page-marker")];
+    let page = null;
+    for (const marker of markers) {
+      const position = marker.compareDocumentPosition(paragraph);
+      if (position & Node.DOCUMENT_POSITION_FOLLOWING) {
+        const number = parseInt(marker.id.replace("page-", ""), 10);
+        if (!Number.isNaN(number)) page = number;
+      }
+    }
+    return page;
+  };
+
+  /**
+   * The paragraph a node sits in — the first ancestor carrying an id, which
+   * in a report body is always a paragraph.
+   * @param {Node} node
+   * @returns {HTMLElement | null}
+   */
+  const paragraphFor = (node) => {
+    let el = node.nodeType === 1 ? /** @type {HTMLElement} */ (node) : node.parentElement;
     while (el && el !== body) {
-      if (el.id) return el.id;
+      if (el.id) return el;
       el = el.parentElement;
     }
     return null;
-  }
+  };
 
-  function canonicalUrl(id) {
-    var base = window.location.origin + window.location.pathname;
-    if (!id) return base;
-    // The fragment positions the reader; the query string is what the server
-    // sees, and so what a link preview in a feed can be built from.
-    return base + "?p=" + encodeURIComponent(id) + "#" + id;
-  }
+  /**
+   * The canonical link for a selection.
+   *
+   * The fragment positions the reader; the query string is what the server
+   * sees, and so what a link preview in a feed can be built from. `h` names
+   * the words, and is left off when the selection is the whole paragraph —
+   * there is nothing there for it to add.
+   *
+   * @param {Range} range
+   * @returns {{ url: string, paragraph: string, anchor: string, page: number | null }}
+   */
+  const canonicalUrl = (range) => {
+    const base = window.location.origin + window.location.pathname;
+    const paragraph = paragraphFor(range.startContainer);
+    if (!paragraph) return { url: base, paragraph: "", anchor: "", page: null };
 
-  function hide() {
-    pop.setAttribute("data-open", "false");
-  }
+    const link = `${base}?p=${encodeURIComponent(paragraph.id)}`;
+    const context = { paragraph: paragraph.id, anchor: "", page: pageFor(paragraph) };
+    const whole = { ...context, url: `${link}#${paragraph.id}` };
 
-  function show(rect, quote, url) {
+    const index = buildIndex(paragraph);
+    const start = indexOfPoint(index, range.startContainer, range.startOffset);
+    const end = indexOfPoint(index, range.endContainer, range.endOffset);
+
+    if (start === -1 || end === -1 || end <= start) return whole;
+    if (start === 0 && end >= index.text.length) return whole;
+
+    const anchor = encodeAnchor(selectorFor(index.text, start, end));
+    if (!anchor) return whole;
+
+    return { ...context, anchor, url: `${link}&h=${anchor}#${paragraph.id}` };
+  };
+
+  const hide = () => pop.setAttribute("data-open", "false");
+
+  /**
+   * @param {DOMRect} rect
+   * @param {string} quote
+   * @param {{ url: string, paragraph: string, anchor: string, page: number | null }} link
+   */
+  const show = (rect, quote, link) => {
     current.quote = quote;
-    current.url = url;
+    current.url = link.url;
+    current.paragraph = link.paragraph;
+    current.anchor = link.anchor;
+    current.page = link.page;
     pop.setAttribute("data-open", "true");
-    var top = rect.top + window.scrollY - 10;
-    var left = rect.left + window.scrollX + rect.width / 2;
-    pop.style.top = top + "px";
-    pop.style.left = left + "px";
-  }
+    // Exposed so the browser checks can assert on the link a selection
+    // produces without reaching into the clipboard.
+    pop.setAttribute("data-url", link.url);
+    pop.style.top = `${rect.top + window.scrollY - 10}px`;
+    pop.style.left = `${rect.left + window.scrollX + rect.width / 2}px`;
+  };
 
-  function onSelectionSettled() {
-    var selection = window.getSelection();
+  const onSelectionSettled = () => {
+    const selection = window.getSelection();
     if (!selection || selection.isCollapsed) return hide();
 
-    var text = selection.toString().trim();
+    const text = selection.toString().trim();
     if (text.length < 2) return hide();
 
-    var range = selection.getRangeAt(0);
+    const range = selection.getRangeAt(0);
     if (!body.contains(range.commonAncestorContainer)) return hide();
 
-    var rect = range.getBoundingClientRect();
+    const rect = range.getBoundingClientRect();
     if (!rect.width && !rect.height) return hide();
 
-    show(rect, text, canonicalUrl(paragraphIdFor(range.startContainer)));
-  }
+    show(rect, text, canonicalUrl(range));
+  };
 
-  function flash(button, label) {
-    var original = button.textContent;
+  /**
+   * @param {HTMLElement} button
+   * @param {string} label
+   */
+  const flash = (button, label) => {
+    const original = button.textContent;
     button.textContent = label;
-    setTimeout(function () {
+    setTimeout(() => {
       button.textContent = original;
     }, 1200);
-  }
+  };
 
-  function copy(text, button, label) {
-    var done = function () {
-      flash(button, label);
-    };
+  /**
+   * @param {string} text
+   * @param {HTMLElement} button
+   * @param {string} label
+   */
+  const copy = (text, button, label) => {
+    const done = () => flash(button, label);
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(done, done);
     } else {
-      var scratch = document.createElement("textarea");
+      const scratch = document.createElement("textarea");
       scratch.value = text;
       scratch.setAttribute("readonly", "");
       scratch.style.position = "absolute";
@@ -94,35 +165,46 @@
       document.body.removeChild(scratch);
       done();
     }
-  }
+  };
 
-  document.addEventListener("mouseup", function () {
-    setTimeout(onSelectionSettled, 0);
-  });
+  document.addEventListener("mouseup", () => setTimeout(onSelectionSettled, 0));
 
-  document.addEventListener("keyup", function (event) {
+  document.addEventListener("keyup", (event) => {
     if (event.shiftKey || event.key === "Escape") setTimeout(onSelectionSettled, 0);
   });
 
-  document.addEventListener("mousedown", function (event) {
-    if (!pop.contains(event.target)) hide();
+  document.addEventListener("mousedown", (event) => {
+    if (!pop.contains(/** @type {Node} */ (event.target))) hide();
   });
 
-  document.addEventListener("keydown", function (event) {
+  document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") hide();
   });
 
   window.addEventListener("scroll", hide, { passive: true });
   window.addEventListener("resize", hide);
 
-  pop.addEventListener("click", function (event) {
-    var button = event.target.closest("button");
+  pop.addEventListener("click", (event) => {
+    const button = /** @type {HTMLElement} */ (event.target).closest("button");
     if (!button) return;
-    var action = button.getAttribute("data-action");
+    const action = button.getAttribute("data-action");
     if (action === "copy-link") {
       copy(current.url, button, "Copied");
     } else if (action === "copy-quote") {
-      copy('"' + current.quote + '"\n\n' + current.url, button, "Copied");
+      copy(`"${current.quote}"\n\n${current.url}`, button, "Copied");
+    } else if (action === "save") {
+      store.add({
+        report: body.dataset.report,
+        reportTitle: body.dataset.reportTitle,
+        section: body.dataset.section,
+        sectionTitle: body.dataset.sectionTitle,
+        paragraph: current.paragraph,
+        anchor: current.anchor,
+        quote: current.quote,
+        page: current.page,
+        url: current.url,
+      });
+      flash(button, "Saved");
     }
   });
-})();
+}

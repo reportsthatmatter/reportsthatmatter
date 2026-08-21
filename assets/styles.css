@@ -464,6 +464,23 @@ hr {
   box-shadow: 0 0 0 0.4rem rgba(255, 232, 138, 0.32);
 }
 
+/* A link that names words rather than a paragraph marks exactly those words.
+ * Same wash as :target, so a quote link and a paragraph link read as the same
+ * gesture at two scales. */
+.prose mark.hl {
+  background: rgba(255, 232, 138, 0.55);
+  color: inherit;
+  box-shadow: 0 0 0 0.15rem rgba(255, 232, 138, 0.55);
+}
+
+/* The quoted words are no longer in the document — the report was re-ingested
+ * and that sentence changed. Show where the quote came from, dimmer than a
+ * match, so it cannot be mistaken for one. */
+.prose p[id].hl-lost {
+  background: rgba(255, 232, 138, 0.18);
+  box-shadow: 0 0 0 0.4rem rgba(255, 232, 138, 0.18);
+}
+
 @media (max-width: 52rem) {
   .prose p[id] .permalink {
     display: none;
@@ -773,6 +790,88 @@ hr {
 ::selection {
   background: rgba(255, 232, 138, 0.55);
   color: var(--ink);
+}
+
+/* ---------- the reader's own highlights ---------- */
+
+/* A kept passage is marked more quietly than a linked one: it is a note to
+ * oneself, not the thing the page is about. An underline rather than a wash,
+ * so a page of them still reads as prose. */
+.prose mark.hl.saved {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 2px solid rgba(255, 200, 60, 0.75);
+  padding-bottom: 0.05em;
+}
+
+.highlights-empty {
+  color: var(--muted);
+}
+
+.highlight-group h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  margin-block: 3rem 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.highlight-entry {
+  margin-block: 2rem;
+}
+
+.highlight-entry blockquote {
+  margin: 0;
+  padding-left: 1.2rem;
+  border-left: 2px solid var(--rule-strong);
+  /* The passage should read the way it reads in the report it came from. */
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.highlight-meta {
+  margin-top: 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.highlight-remove {
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.highlights-actions {
+  display: flex;
+  gap: 1px;
+  margin-block: 3rem 1rem;
+}
+
+.highlights-actions button {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--rule-strong);
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.highlights-actions button:hover {
+  background: var(--inverse);
+  color: var(--canvas);
 }
 
 /* ---------- footer ---------- */

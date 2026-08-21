@@ -168,6 +168,84 @@ if (firstReportId) {
     () => document.getElementById("share-pop")?.getAttribute("data-open")
   );
   check(popOpen === "true", "share popover opens on selection", String(popOpen));
+
+  // sharing part of a paragraph: the link must carry the words, not just the
+  // paragraph, and following it must mark exactly those words.
+  const selected = await page.evaluate(() => {
+    // A paragraph's prose is broken into several text nodes by sidenote and
+    // permalink markup; take the first long one that is body text.
+    const paragraphs = [...document.querySelectorAll(".prose p[id]")];
+    let node = null;
+    for (const p of paragraphs) {
+      const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+      while (walker.nextNode()) {
+        const candidate = walker.currentNode;
+        if (candidate.parentElement.closest(".sidenote, .permalink")) continue;
+        if (candidate.textContent.length > 60) {
+          node = candidate;
+          break;
+        }
+      }
+      if (node) break;
+    }
+    if (!node) return null;
+    const range = document.createRange();
+    range.setStart(node, 10);
+    range.setEnd(node, 50);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    document.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
+    return range.toString();
+  });
+  await page.waitForTimeout(150);
+  const shareUrl = await page.evaluate(
+    () => document.getElementById("share-pop")?.getAttribute("data-url") ?? ""
+  );
+  check(selected !== null, "found a paragraph to select part of");
+  check(/[?&]h=/.test(shareUrl), "a part-paragraph selection shares as a quote link", shareUrl.slice(0, 120));
+
+  if (/[?&]h=/.test(shareUrl)) {
+    await page.goto(shareUrl, { waitUntil: "networkidle" });
+    const marked = await page.evaluate(() => {
+      const mark = document.querySelector("mark.hl");
+      return mark ? mark.textContent : null;
+    });
+    check(
+      marked !== null && marked.replace(/\s+/g, " ").trim() === selected.replace(/\s+/g, " ").trim(),
+      "following a quote link marks exactly the quoted words",
+      `${JSON.stringify(marked)} vs ${JSON.stringify(selected)}`
+    );
+  }
+
+  // saving a highlight: it belongs to the reader, so it has to survive a
+  // reload and it has to leave with them.
+  await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
+  await page.evaluate(() => {
+    const p = document.querySelector(".prose p[id]");
+    const range = document.createRange();
+    range.selectNodeContents(p);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    document.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
+  });
+  await page.waitForTimeout(150);
+  await page.locator('#share-pop button[data-action="save"]').click();
+  await page.reload({ waitUntil: "networkidle" });
+  await page.waitForTimeout(300);
+
+  const persisted = await page.evaluate(() => document.querySelectorAll("mark.hl.saved").length);
+  check(persisted > 0, "a saved highlight is still marked after a reload", String(persisted));
+
+  await page.goto(`${base}/highlights`, { waitUntil: "networkidle" });
+  await page.waitForTimeout(300);
+  const listed = await page.evaluate(() => ({
+    entries: document.querySelectorAll(".highlight-entry").length,
+    markdown: document.querySelector("[data-export=markdown]") ? true : false,
+  }));
+  check(listed.entries > 0, "saved highlights are listed at /highlights", String(listed.entries));
+  check(listed.markdown, "highlights can be exported as Markdown");
 }
 
 // ---------- about ----------

@@ -7,6 +7,22 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-21 — Quote the exact words, and keep what you find
+
+**Share part of a paragraph.** Selecting half a sentence used to hand you a link
+to the whole paragraph — a broader claim than you meant. A shared link now names
+the words themselves, marks exactly those words when someone follows it, and
+previews that sentence rather than the paragraph around it. If the quoted words
+are no longer in the document, the link shows the paragraph they came from
+rather than marking whatever else matched.
+
+**Highlights you can take with you.** Save a passage and it is still marked when
+you come back. Everything you have kept is listed at `/highlights` and exports
+as Markdown — quote, source, printed page, and a link back to the exact words.
+It lives in your browser: no account, and none of it is sent to us.
+
+---
+
 ## 2026-08-02 — A third report, and better footnotes everywhere
 
 **Added:** *Investigation of the Challenger Accident* — the House Science
