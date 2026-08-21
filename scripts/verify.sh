@@ -163,6 +163,19 @@ check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
 check_status /robots.txt 200
 check_contains /robots.txt "Sitemap:"
 
+# Social proof (#96) — malformed input must not touch the database, and a
+# well-formed one must not error even before a real reader ever sends one.
+bad_mark=$(curl -s -o /dev/null -w '%{http_code}' -X POST "${BASE}/api/mark" \
+  -H 'content-type: application/json' -d '{"kind":"not-a-real-kind"}')
+[ "$bad_mark" = "400" ] && pass "/api/mark rejects a malformed event → 400" \
+  || fail "/api/mark accepted a malformed event → ${bad_mark}"
+
+good_mark=$(curl -s -o /dev/null -w '%{http_code}' -X POST "${BASE}/api/mark" \
+  -H 'content-type: application/json' \
+  -d '{"report":"verify-smoke","section":"s","paragraph":"p","exact":"e","kind":"share"}')
+[ "$good_mark" = "204" ] && pass "/api/mark accepts a well-formed event → 204" \
+  || fail "/api/mark rejected a well-formed event → ${good_mark}"
+
 step "Report pages"
 IDS=$(sed -n 's/^[[:space:]]*- id:[[:space:]]*//p' reports/registry.yaml)
 if [ -z "$IDS" ]; then
@@ -177,7 +190,13 @@ for id in $IDS; do
   check_status "/reports/${id}/full" 200
   check_contains "/reports/${id}/full" 'class="permalink"'
   check_contains "/reports/${id}/full" 'id="share-pop"'
+  check_contains "/reports/${id}/full" '/assets/social-proof.js'
   check_status "/reports/${id}/not-a-real-section" 404
+
+  # Social proof (#96): a D1 hiccup must never cost a reader the document, so
+  # this must always answer 200 with a JSON list, empty or not.
+  check_status "/reports/${id}/marks" 200
+  check_contains "/reports/${id}/marks" "["
 
   # A shared passage link must land on the section holding it, not the contents.
   first_para=$(grep -oE '<p id="[a-z0-9-]+"' "$(fetch "/reports/${id}/full")" | head -1 | sed 's/.*id="//;s/"//')

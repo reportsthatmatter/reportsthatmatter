@@ -122,7 +122,7 @@ export function renderReport(
 
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
     description,
-    scripts: ["/assets/share.js", "/assets/highlight.js"],
+    scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
   });
 }

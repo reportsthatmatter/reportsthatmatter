@@ -33,5 +33,14 @@ binding = "ASSETS"
 # made /health flap between 200 and 404 across edge locations.
 run_worker_first = true
 
+# Social proof (#96): who marked what. One row per share/save event; counts are
+# read at render time. `wrangler dev --local` runs this against a local sqlite
+# file, migrated automatically — no network access needed to test it.
+[[d1_databases]]
+binding = "DB"
+database_name = "reportsthatmatter-marks"
+database_id = "5200e0db-733d-40d6-962e-2f1eb024f060"
+migrations_dir = "migrations"
+
 [dev]
 local_protocol = "http"

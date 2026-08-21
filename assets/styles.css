@@ -322,6 +322,46 @@ hr {
   color: var(--ink);
 }
 
+/* ---------- most marked passages (#96) ---------- */
+
+.marked-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.marked-list li {
+  border-top: 1px solid var(--rule);
+}
+
+.marked-list li:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.marked-list a {
+  display: block;
+  padding-block: 1.75rem;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.marked-list a:hover {
+  opacity: 0.55;
+}
+
+.marked-list blockquote {
+  margin: 0 0 0.6rem;
+  padding-left: 1.2rem;
+  border-left: 2px solid var(--rule-strong);
+  font-size: 1.2rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.marked-list .meta {
+  color: var(--muted);
+}
+
 /* A subsection (h3) nests under the part (h2) above it — same flat list,
  * but indented, smaller and quieter, so the hierarchy a reader would see in
  * the document's own contents page survives onto this one. */
@@ -487,6 +527,32 @@ hr {
 .prose p[id].hl-lost {
   background: rgba(255, 232, 138, 0.18);
   box-shadow: 0 0 0 0.4rem rgba(255, 232, 138, 0.18);
+}
+
+/* What other readers marked (#96). Restraint is the point: a hairline rule
+ * under the words, not a wash — the passage still reads as prose, with one
+ * quiet signal that it caught someone else's attention too. */
+.prose mark.social-proof {
+  background: transparent;
+  color: inherit;
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.social-note {
+  display: block;
+  color: var(--muted);
+  margin: 0.35rem 0 1rem;
+}
+
+@media (min-width: 68rem) {
+  .social-note {
+    float: right;
+    clear: right;
+    width: var(--sidenote-width);
+    margin-right: calc(-1 * (var(--sidenote-width) + var(--sidenote-gap)));
+    margin-top: 0.15rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 52rem) {

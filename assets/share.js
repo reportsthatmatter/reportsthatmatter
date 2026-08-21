@@ -20,7 +20,7 @@ const isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").mat
 
 if (body && pop && !isCoarse) {
   const store = createStore(window.localStorage);
-  const current = { quote: "", url: "", paragraph: "", anchor: "", page: null };
+  const current = { quote: "", url: "", paragraph: "", anchor: "", page: null, selector: null };
 
   /**
    * The printed page a passage sits on: the last page marker before it.
@@ -67,12 +67,12 @@ if (body && pop && !isCoarse) {
    * there is nothing there for it to add.
    *
    * @param {Range} range
-   * @returns {{ url: string, paragraph: string, anchor: string, page: number | null, quote: string }}
+   * @returns {{ url: string, paragraph: string, anchor: string, page: number | null, quote: string, selector: {prefix: string, exact: string, suffix: string} | null }}
    */
   const canonicalUrl = (range) => {
     const base = window.location.origin + window.location.pathname;
     const paragraph = paragraphFor(range.startContainer);
-    if (!paragraph) return { url: base, paragraph: "", anchor: "", page: null, quote: "" };
+    if (!paragraph) return { url: base, paragraph: "", anchor: "", page: null, quote: "", selector: null };
 
     const link = `${base}?p=${encodeURIComponent(paragraph.id)}`;
     const context = { paragraph: paragraph.id, anchor: "", page: pageFor(paragraph) };
@@ -93,15 +93,16 @@ if (body && pop && !isCoarse) {
     // browser's own string includes the footnote marker and the sidenote it
     // opens, so a quoted passage would read "…illegitimate ones.2424 See ECF".
     const quote = end > start ? index.text.slice(start, end) : "";
-    const whole = { ...context, url: `${link}#${paragraph.id}`, quote: index.text };
+    const whole = { ...context, url: `${link}#${paragraph.id}`, quote: index.text, selector: null };
 
     if (end <= start) return whole;
     if (!spansParagraphs && start === 0 && end >= index.text.length) return whole;
 
-    const anchor = encodeAnchor(selectorFor(index.text, start, end));
+    const selector = selectorFor(index.text, start, end);
+    const anchor = encodeAnchor(selector);
     if (!anchor) return whole;
 
-    return { ...context, anchor, quote, url: `${link}&h=${anchor}#${paragraph.id}` };
+    return { ...context, anchor, quote, selector, url: `${link}&h=${anchor}#${paragraph.id}` };
   };
 
   const hide = () => pop.setAttribute("data-open", "false");
@@ -109,7 +110,7 @@ if (body && pop && !isCoarse) {
   /**
    * @param {DOMRect} rect
    * @param {string} quote
-   * @param {{ url: string, paragraph: string, anchor: string, page: number | null, quote: string }} link
+   * @param {{ url: string, paragraph: string, anchor: string, page: number | null, quote: string, selector: {prefix: string, exact: string, suffix: string} | null }} link
    */
   const show = (rect, quote, link) => {
     current.quote = link.quote || quote;
@@ -117,6 +118,7 @@ if (body && pop && !isCoarse) {
     current.paragraph = link.paragraph;
     current.anchor = link.anchor;
     current.page = link.page;
+    current.selector = link.selector;
     pop.setAttribute("data-open", "true");
     // Exposed so the browser checks can assert on the link a selection
     // produces without reaching into the clipboard.
@@ -180,6 +182,36 @@ if (body && pop && !isCoarse) {
     }
   };
 
+  /**
+   * Tell the server a passage was marked — the input to what other readers
+   * see (#96). Best-effort and unawaited: a slow or unreachable endpoint must
+   * never make sharing or saving feel broken. `keepalive` matters more than it
+   * looks: copying a link is usually followed immediately by switching tabs or
+   * pasting it somewhere, and without it the browser cancels the request
+   * mid-flight on navigation — silently dropping exactly the signal this
+   * exists to record.
+   * @param {"share" | "save"} kind
+   */
+  const report = (kind) => {
+    if (!current.paragraph) return;
+    const selector = current.selector;
+    fetch("/api/mark", {
+      method: "POST",
+      keepalive: true,
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        report: body.dataset.report,
+        section: body.dataset.section,
+        paragraph: current.paragraph,
+        exact: selector ? selector.exact : current.quote,
+        prefix: selector ? selector.prefix : "",
+        suffix: selector ? selector.suffix : "",
+        page: current.page,
+        kind,
+      }),
+    }).catch(() => {});
+  };
+
   document.addEventListener("mouseup", () => setTimeout(onSelectionSettled, 0));
 
   document.addEventListener("keyup", (event) => {
@@ -209,8 +241,10 @@ if (body && pop && !isCoarse) {
     const action = button.getAttribute("data-action");
     if (action === "copy-link") {
       copy(current.url, button, "Copied");
+      report("share");
     } else if (action === "copy-quote") {
       copy(`"${current.quote}"\n\n${current.url}`, button, "Copied");
+      report("share");
     } else if (action === "save") {
       store.add({
         report: body.dataset.report,
@@ -224,6 +258,7 @@ if (body && pop && !isCoarse) {
         url: current.url,
       });
       flash(button, "Saved");
+      report("save");
     }
   });
 }
