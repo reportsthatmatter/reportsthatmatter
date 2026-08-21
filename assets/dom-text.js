@@ -22,6 +22,21 @@
 const NOT_PROSE = ".sidenote, .permalink, .page-marker, .sidenote-toggle, .sidenote-expand";
 
 /**
+ * Is this text node part of the prose?
+ *
+ * Shared so that what gets *marked* is exactly what got *indexed*. When the
+ * two disagree, a highlight spanning a paragraph break paints the sidenote,
+ * the footnote number and the printed page number along with the words.
+ *
+ * @param {Node} node
+ * @returns {boolean}
+ */
+export function isProse(node) {
+  const parent = node.parentElement;
+  return Boolean(parent) && !parent.closest(NOT_PROSE);
+}
+
+/**
  * Build the readable text of `root`, with a DOM point for every character.
  *
  * @param {Element} root
@@ -35,7 +50,7 @@ export function buildIndex(root) {
 
   while (walker.nextNode()) {
     const node = /** @type {Text} */ (walker.currentNode);
-    if (node.parentElement && node.parentElement.closest(NOT_PROSE)) continue;
+    if (!isProse(node)) continue;
 
     const raw = node.data;
     for (let i = 0; i < raw.length; i++) {
@@ -64,7 +79,42 @@ export function buildIndex(root) {
 }
 
 /**
- * Where a DOM point falls in the readable text, or -1 if it is not in it.
+ * Resolve a DOM point onto a text node.
+ *
+ * A selection's endpoints are rarely inside a text node. Dragging from just
+ * before the first word gives the paragraph element and an offset into its
+ * children; ending on a boundary gives an offset equal to a node's length.
+ * Both are ordinary, and both used to be treated as "not found".
+ *
+ * @param {Node} node
+ * @param {number} offset
+ * @returns {{ node: Node, offset: number }}
+ */
+function resolvePoint(node, offset) {
+  while (node.nodeType === Node.ELEMENT_NODE && node.childNodes.length) {
+    if (offset < node.childNodes.length) {
+      node = node.childNodes[offset];
+      offset = 0;
+      continue;
+    }
+    // A point after the last child is the end of that child's content.
+    node = node.childNodes[node.childNodes.length - 1];
+    offset =
+      node.nodeType === Node.TEXT_NODE
+        ? /** @type {Text} */ (node).data.length
+        : node.childNodes.length;
+  }
+  return { node, offset };
+}
+
+/**
+ * How many characters of the readable text precede this DOM point.
+ *
+ * Never fails: a point before everything is 0, a point after everything is the
+ * length of the text, and a point inside markup the text skips — a sidenote,
+ * the permalink glyph — is the position of the next character that survives.
+ * Returning "not found" was the bug that made a selection ending on a node
+ * boundary quietly share as a link to the whole paragraph.
  *
  * @param {Index} index
  * @param {Node} node
@@ -72,11 +122,20 @@ export function buildIndex(root) {
  * @returns {number}
  */
 export function indexOfPoint(index, node, offset) {
+  const point = resolvePoint(node, offset);
+
   for (let i = 0; i < index.map.length; i++) {
-    const point = index.map[i];
-    if (point.node === node && point.offset >= offset) return i;
+    const entry = index.map[i];
+    if (entry.node === point.node) {
+      if (entry.offset >= point.offset) return i;
+      continue;
+    }
+    if (point.node.compareDocumentPosition(entry.node) & Node.DOCUMENT_POSITION_FOLLOWING) {
+      return i;
+    }
   }
-  return -1;
+
+  return index.map.length;
 }
 
 /**
