@@ -800,6 +800,17 @@ hr {
   color: var(--ink);
 }
 
+/* A sidenote sits in the margin but lives inside the paragraph, so dragging
+ * across the body sweeps it up and the margin lights up with it — and the
+ * citation lands in the middle of the copied text. While a body drag is in
+ * progress the notes opt out of selection; a drag that *starts* in a note
+ * turns this off again, so a citation can still be selected and copied.
+ * assets/share.js sets the flag. */
+.prose[data-selecting] .sidenote {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 /* ---------- the reader's own highlights ---------- */
 
 /* A kept passage is marked more quietly than a linked one: it is a note to

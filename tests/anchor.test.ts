@@ -46,10 +46,13 @@ describe("encodeAnchor / decodeAnchor", () => {
     expect(decodeAnchor(encodeAnchor(selector)!)).toEqual(selector);
   });
 
-  it("refuses to encode a selection too long to be a citation", () => {
-    const tooLong = "word ".repeat(MAX_EXACT);
+  it("names a long passage by its ends rather than refusing it", () => {
+    const long = "word ".repeat(MAX_EXACT);
 
-    expect(encodeAnchor({ prefix: "", exact: tooLong, suffix: "" })).toBeNull();
+    const anchor = encodeAnchor({ prefix: "", exact: long, suffix: "" });
+
+    expect(anchor).not.toBeNull();
+    expect(anchor!.length).toBeLessThan(long.length);
   });
 
   it("rejects a malformed anchor rather than guessing at it", () => {
@@ -124,5 +127,52 @@ describe("normalise", () => {
 
   it("drops the permalink glyph so it cannot land inside a quote", () => {
     expect(normalise("A paragraph.¶")).toBe("A paragraph.");
+  });
+});
+
+describe("long selections", () => {
+  const sentence = (n: number) =>
+    `Sentence number ${n} carrying enough words to make the passage realistically long. `;
+  const passage = Array.from({ length: 12 }, (_, i) => sentence(i)).join("");
+  const document_ = `Something before. ${passage}Something after.`;
+
+  it("anchors a passage far longer than one sentence", () => {
+    const start = document_.indexOf(passage);
+    const anchor = encodeAnchor(selectorFor(document_, start, start + passage.length));
+
+    expect(anchor).not.toBeNull();
+  });
+
+  it("keeps the anchor short by naming the ends, not the whole passage", () => {
+    const start = document_.indexOf(passage);
+    const anchor = encodeAnchor(selectorFor(document_, start, start + passage.length))!;
+
+    expect(anchor.length).toBeLessThan(passage.length);
+  });
+
+  it("finds the whole passage, from its first word to its last", () => {
+    const start = document_.indexOf(passage);
+    const selector = selectorFor(document_, start, start + passage.length);
+    const found = locate(document_, decodeAnchor(encodeAnchor(selector)!)!)!;
+
+    expect(found.start).toBe(start);
+    expect(found.end).toBe(start + passage.length);
+  });
+
+  it("gives up when the passage no longer ends where it did", () => {
+    const start = document_.indexOf(passage);
+    const selector = selectorFor(document_, start, start + passage.length);
+    const anchor = decodeAnchor(encodeAnchor(selector)!)!;
+    const edited = document_.replace(sentence(11), "");
+
+    // The opening still matches, but the passage it opened is gone. Marking
+    // from the start to somewhere arbitrary would misquote the document.
+    expect(locate(edited, anchor)).toBeNull();
+  });
+
+  it("still anchors a short selection by its exact words", () => {
+    const anchor = decodeAnchor(encodeAnchor({ prefix: "", exact: "a short quote", suffix: "" })!)!;
+
+    expect(anchor.exact).toBe("a short quote");
   });
 });

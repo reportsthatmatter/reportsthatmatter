@@ -251,6 +251,15 @@ if (firstReportId) {
       const last = nodes[nodes.length - 1];
       return [last, Math.max(0, last.data.length - 40), last, last.data.length];
     }`,
+    // The shape that was reported: several sentences, across footnote markers.
+    // The old 300-character cap made this degrade to a paragraph link.
+    "several sentences long": `(p, nodes) => {
+      // From the first word to partway through the last node: long, crossing
+      // footnote markers, but not the whole paragraph — which would rightly
+      // be a paragraph link.
+      const last = nodes[nodes.length - 1];
+      return [nodes[0], 0, last, Math.max(1, Math.floor(last.data.length * 0.6))];
+    }`,
     "crossing into the next paragraph": `(p, nodes) => {
       const next = window.__bodyNodes(p.nextElementSibling)[0];
       return [nodes[0], 30, next, 50];
