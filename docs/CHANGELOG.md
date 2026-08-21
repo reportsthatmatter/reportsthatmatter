@@ -16,6 +16,14 @@ previews that sentence rather than the paragraph around it. If the quoted words
 are no longer in the document, the link shows the paragraph they came from
 rather than marking whatever else matched.
 
+**Quoting longer passages, and lists that read in order.** Selecting several
+sentences now produces a link to exactly those sentences rather than to the
+paragraph around them, and a quote can run across a paragraph break. Footnotes
+in the margin stay out of a selection made in the body. Separately, bulleted
+lists in the source documents are now rendered as lists: they used to be run
+together into a single paragraph, with a wrapped item's tail appearing after the
+item that followed it — a defect reported against the original site in 2016.
+
 **Highlights you can take with you.** Save a passage and it is still marked when
 you come back. Everything you have kept is listed at `/highlights` and exports
 as Markdown — quote, source, printed page, and a link back to the exact words.
