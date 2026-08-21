@@ -10,6 +10,7 @@ import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection } from "./templates/section";
 import { splitSections, sectionFor } from "./lib/sections";
+import { memo } from "./lib/prepared";
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
@@ -167,7 +168,8 @@ app.get("/highlights", (c) => c.html(renderHighlights()));
  * reports. Sections rather than /full: a 300 KB page ranks worse than the
  * section that actually answers the query.
  */
-app.get("/sitemap.xml", async (c) => {
+app.get("/sitemap.xml", async (c) =>
+  cached(c, async () => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const registry = await loadRegistry(sourceMode);
   const origin = new URL(c.req.url).origin;
@@ -201,7 +203,8 @@ ${urls
     "content-type": "application/xml; charset=utf-8",
     "cache-control": "public, max-age=3600",
   });
-});
+  })
+);
 
 app.get("/robots.txt", (c) => {
   const origin = new URL(c.req.url).origin;
@@ -225,8 +228,43 @@ async function loadReport(c: any, reportId: string) {
   if (!report) return null;
 
   const markdown = await loadReportMarkdown(report.source_path, sourceMode);
-  const html = renderMarkdown(markdown);
-  return { report, html, sections: splitSections(html) };
+  // Rendering costs more CPU than one request is allowed, so an isolate does
+  // it once and every later request on that isolate is nearly free. See
+  // src/lib/prepared.ts — a holding measure until #107.
+  const prepared = memo(`${sourceMode}:${reportId}`, () => {
+    const html = renderMarkdown(markdown);
+    return { html, sections: splitSections(html) };
+  });
+
+  return { report, html: prepared.html, sections: prepared.sections };
+}
+
+/**
+ * Serve a page from the edge cache, and put it there when it is built.
+ *
+ * A cache hit costs almost no CPU, which is the whole point: the expensive
+ * render happens once per edge rather than once per reader. Report pages are
+ * immutable between deploys, so they can be held for a long time.
+ */
+async function cached(c: any, build: () => Promise<Response>): Promise<Response> {
+  // `caches` is absent under Node, where the tests run.
+  if (typeof caches === "undefined" || c.req.method !== "GET") return build();
+
+  const cache = (caches as any).default;
+  const key = new Request(c.req.url, { method: "GET" });
+
+  const hit = await cache.match(key);
+  if (hit) return hit;
+
+  const response = await build();
+  if (response.status === 200) {
+    const store = new Response(response.body, response);
+    store.headers.set("cache-control", "public, max-age=86400");
+    c.executionCtx?.waitUntil?.(cache.put(key, store.clone()));
+    return store;
+  }
+
+  return response;
 }
 
 app.get("/reports/:id", async (c) => {
@@ -265,32 +303,36 @@ app.get("/reports/:id", async (c) => {
   );
 });
 
-app.get("/reports/:id/full", async (c) => {
-  const loaded = await loadReport(c, c.req.param("id"));
-  if (!loaded) return c.html(renderNotFound(false), 404);
-  return c.html(
-    renderReport(loaded.report, loaded.html, c.req.query("p"), c.req.query("h"))
-  );
-});
+app.get("/reports/:id/full", async (c) =>
+  cached(c, async () => {
+    const loaded = await loadReport(c, c.req.param("id"));
+    if (!loaded) return c.html(renderNotFound(false), 404);
+    return c.html(
+      renderReport(loaded.report, loaded.html, c.req.query("p"), c.req.query("h"))
+    );
+  })
+);
 
-app.get("/reports/:id/:section", async (c) => {
-  const loaded = await loadReport(c, c.req.param("id"));
-  if (!loaded) return c.html(renderNotFound(false), 404);
+app.get("/reports/:id/:section", async (c) =>
+  cached(c, async () => {
+    const loaded = await loadReport(c, c.req.param("id"));
+    if (!loaded) return c.html(renderNotFound(false), 404);
 
-  const slug = c.req.param("section");
-  const index = loaded.sections.findIndex((section) => section.slug === slug);
-  if (index === -1) return c.html(renderNotFound(false), 404);
+    const slug = c.req.param("section");
+    const index = loaded.sections.findIndex((section) => section.slug === slug);
+    if (index === -1) return c.html(renderNotFound(false), 404);
 
-  return c.html(
-    renderSection(
-      loaded.report,
-      loaded.sections,
-      index,
-      c.req.query("p"),
-      c.req.query("h")
-    )
-  );
-});
+    return c.html(
+      renderSection(
+        loaded.report,
+        loaded.sections,
+        index,
+        c.req.query("p"),
+        c.req.query("h")
+      )
+    );
+  })
+);
 
 app.notFound((c) =>
   c.html(renderNotFound(isLegacyPath(new URL(c.req.url).pathname)), 404)
