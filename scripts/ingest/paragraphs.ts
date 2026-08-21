@@ -2,6 +2,7 @@ import { normaliseWhitespace } from "./extract";
 
 export type Block =
   | { kind: "paragraph"; text: string }
+  | { kind: "list"; items: string[]; quoted: boolean }
   | { kind: "heading"; level: number; text: string }
   | { kind: "quote"; text: string }
   | { kind: "contents"; text: string; page: string }
@@ -11,6 +12,16 @@ const HEADING_MAX_WORDS = 14;
 const ROMAN = /^[IVXLC]+\.?$/;
 
 const LEADERS = /[.·]{4,}\s*(\d{1,4})\s*$/;
+
+/**
+ * A bullet, and the text after it.
+ *
+ * True bullet glyphs only. A leading hyphen or en dash is far more often a
+ * dash in running prose than a list marker, and mistaking one for the other
+ * shreds a paragraph — the same trap that made the first footnote-marker rule
+ * corrupt a citation.
+ */
+const BULLET = /^(\s*)([•·▪◦‣])\s+(\S.*)$/;
 
 /**
  * A contents page, where entries wrap across several lines and only the last
@@ -217,6 +228,31 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
   let current: string[] = [];
   let currentKind: "paragraph" | "quote" = "paragraph";
 
+  // An open list, and the column its items' text starts at. A line indented to
+  // that column is the wrapped tail of the item above it, not a new block —
+  // getting this wrong is what put text out of order (issue #12).
+  let list: string[] | null = null;
+  let listTextIndent = 0;
+
+  // Which lines belong to a run that *opens* with a bullet.
+  //
+  // This is what tells a list apart from a quoted document that happens to
+  // contain bullets. Both are indented runs, so indentation cannot separate
+  // them. In the PSI report the bulleted passages are quoted emails: the run
+  // opens with quoted prose and the bullets appear inside it, and lifting them
+  // out breaks the quotation apart. A list of the kind issue #12 reported is a
+  // run that is bullets from its first line.
+  const inBulletRun = lines.map(() => false);
+  for (let start = 0; start < lines.length; start++) {
+    if (!lines[start].trim()) continue;
+    let end = start;
+    while (end + 1 < lines.length && lines[end + 1].trim()) end++;
+    if (BULLET.test(lines[start])) {
+      for (let j = start; j <= end; j++) inBulletRun[j] = true;
+    }
+    start = end;
+  }
+
   const flush = () => {
     if (!current.length) return;
     const text = normaliseWhitespace(current.join(" "));
@@ -238,7 +274,36 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
   for (const [i, line] of lines.entries()) {
     if (!line.trim()) {
       flush();
+      // A blank line does not end a list: these documents routinely set one
+      // between bullets.
       continue;
+    }
+
+    const bullet = inBulletRun[i] ? line.match(BULLET) : null;
+    if (bullet) {
+      flush();
+      listTextIndent = line.length - bullet[3].length;
+      if (!list) {
+        list = [];
+        // A list inside a quoted document stays inside it: these reports quote
+        // guidance and emails that carry their own bullets, and dropping the
+        // quotation would present someone else's words as the report's.
+        blocks.push({ kind: "list", items: list, quoted: quoted[i] });
+      }
+      list.push(normaliseWhitespace(bullet[3]));
+      continue;
+    }
+
+    if (list) {
+      // Indented to the item text and not structure of its own: the rest of
+      // the item above.
+      if (inBulletRun[i] && !structural[i] && indentOf(line) >= listTextIndent - 1) {
+        list[list.length - 1] = normaliseWhitespace(
+          `${list[list.length - 1]} ${line.trim()}`
+        );
+        continue;
+      }
+      list = null;
     }
 
     // Headings and contents entries are recognisable on their own, and on
@@ -366,6 +431,24 @@ export function mergeAcrossPages(blocks: Block[]): Block[] {
       continue;
     }
 
+    // A list item wrapping over the foot of a page arrives as a paragraph,
+    // because each page is parsed on its own and the open list does not
+    // survive the break. Left alone it reads after the list — the same
+    // out-of-order defect as issue #12, one page-break narrower.
+    if (
+      block.kind === "paragraph" &&
+      previous?.kind === "list" &&
+      previous.items.length > 0 &&
+      // A lowercase opening is the signal, not the punctuation the item ends
+      // on: these items routinely end ")" or ";" mid-sentence, and a genuinely
+      // new paragraph after a list opens with a capital.
+      /^[a-z,;]/.test(block.text)
+    ) {
+      const last = previous.items.length - 1;
+      previous.items[last] = `${previous.items[last]} ${block.text}`;
+      continue;
+    }
+
     if (
       block.kind === "paragraph" &&
       previous?.kind === "paragraph" &&
@@ -394,6 +477,10 @@ export function blocksToMarkdown(blocks: Block[]): string {
       // sentence punctuation, and a contents page number is not a footnote.
       if (block.kind === "contents") return `- ${block.text} — ${block.page}`;
       if (block.kind === "page") return `%%page ${block.number}%%`;
+      if (block.kind === "list") {
+        const prefix = block.quoted ? "> - " : "- ";
+        return block.items.map((item) => `${prefix}${item}`).join("\n");
+      }
       return block.text;
     })
     .join("\n\n");

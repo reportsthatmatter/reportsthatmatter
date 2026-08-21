@@ -670,3 +670,173 @@ describe("headings that wrap", () => {
     expect(danglesMidPhrase("A complete sentence.")).toBe(false);
   });
 });
+
+
+describe("bulleted lists (issue #12)", () => {
+  // Chilcot, Executive Summary ¶620 — the layout from the issue, as
+  // `pdftotext -layout` renders it. The fourth item wraps.
+  const chilcot = [
+    "620.  Occasions when that would have been appropriate included:",
+    "",
+    "        •  after Mr Blair's meeting with Mr Hoon, Mr Straw and others on 23 July 2002;",
+    "        •  after the adoption of resolution 1441;",
+    "        •  before or immediately after the decision to deploy troops in January 2003;",
+    "        •  after the Rock Drill (a US inter-agency rehearsal for post-conflict administration)",
+    "           in February 2003; and",
+    "        •  after Mr Blair's meeting on post-conflict issues on 6 March 2003.",
+    "",
+  ];
+
+  it("keeps each bullet as its own item", () => {
+    const list = toBlocks(chilcot).find((block) => block.kind === "list");
+
+    expect(list).toBeDefined();
+    expect(list).toMatchObject({ kind: "list" });
+    expect((list as { items: string[] }).items).toHaveLength(5);
+  });
+
+  it("keeps a wrapped item with the item it belongs to", () => {
+    const list = toBlocks(chilcot).find((block) => block.kind === "list") as {
+      items: string[];
+    };
+
+    expect(list.items[3]).toBe(
+      "after the Rock Drill (a US inter-agency rehearsal for post-conflict administration) in February 2003; and"
+    );
+  });
+
+  it("does not leave text out of order — the defect the issue reported", () => {
+    const markdown = blocksToMarkdown(toBlocks(chilcot));
+
+    // "in February 2003; and" belongs to the Rock Drill item, and must not
+    // appear after the item that follows it.
+    expect(markdown.indexOf("in February 2003; and")).toBeLessThan(
+      markdown.indexOf("6 March 2003")
+    );
+  });
+
+  it("renders as a markdown list", () => {
+    const markdown = blocksToMarkdown(toBlocks(chilcot));
+
+    expect(markdown).toContain("- after the adoption of resolution 1441;");
+    expect(markdown).not.toContain("•");
+  });
+
+  it("ends the list when ordinary prose resumes", () => {
+    const blocks = toBlocks([
+      ...chilcot,
+      "621.  The Inquiry considers that those occasions were missed.",
+    ]);
+
+    const last = blocks[blocks.length - 1];
+    expect(last).toMatchObject({
+      kind: "paragraph",
+      text: "621. The Inquiry considers that those occasions were missed.",
+    });
+  });
+
+  it("leaves a document with no bullets exactly as it was", () => {
+    const prose = ["     A sentence that runs", "across two lines."];
+
+    expect(toBlocks(prose)).toEqual([
+      { kind: "paragraph", text: "A sentence that runs across two lines." },
+    ]);
+  });
+});
+
+describe("a list item split by a page break", () => {
+  it("rejoins the tail to the item it belongs to, not as a paragraph", () => {
+    // The item wraps over the foot of one page; its tail opens the next.
+    const merged = mergeAcrossPages([
+      {
+        kind: "list",
+        quoted: false,
+        items: [
+          "after the adoption of resolution 1441;",
+          "after the Rock Drill (a US inter-agency rehearsal for post-conflict administration)",
+        ],
+      },
+      { kind: "page", number: 121 },
+      { kind: "paragraph", text: "in February 2003; and" },
+    ]);
+
+    const list = merged.find((block) => block.kind === "list") as { items: string[] };
+    expect(list.items[1]).toBe(
+      "after the Rock Drill (a US inter-agency rehearsal for post-conflict administration) in February 2003; and"
+    );
+    expect(merged.some((block) => block.kind === "paragraph")).toBe(false);
+  });
+
+  it("leaves a genuinely new paragraph after a list alone", () => {
+    const merged = mergeAcrossPages([
+      { kind: "list", quoted: false, items: ["after the adoption of resolution 1441;"] },
+      { kind: "paragraph", text: "The Inquiry considers that those occasions were missed." },
+    ]);
+
+    expect(merged).toHaveLength(2);
+  });
+});
+
+describe("a list is not a block quote", () => {
+  // The case that nearly slipped through: on a real page the body sits at the
+  // margin and the bullets are indented, so the indent heuristic calls them a
+  // quote. What separates them is that the run is bullets from its first line.
+  it("makes a list of an indented bullet run under running prose", () => {
+    const blocks = toBlocks([
+      "  The Inquiry has considered whether the Government's policy on Iraq was",
+      "  based on the best available assessments. It concludes that it was not.",
+      "",
+      "  620.  Occasions when that would have been appropriate included:",
+      "",
+      "        •  after the adoption of resolution 1441;",
+      "        •  before or immediately after the decision to deploy troops in January 2003;",
+      "",
+      "  621.  The Inquiry considers that those occasions were missed.",
+    ]);
+
+    expect(blocks.map((block) => block.kind)).toEqual([
+      "paragraph",
+      "paragraph",
+      "list",
+      "paragraph",
+    ]);
+  });
+
+  it("leaves bullets inside a quoted document in the quotation", () => {
+    // The PSI report quotes emails that contain bullets. Lifting those out
+    // breaks the quotation apart and loses whose words they were.
+    const blocks = toBlocks([
+      "          \"Attached is the spreadsheet with the total Option ARM MTA summary.",
+      "          Some points for the Option ARM MTA >=1PPD:",
+      "          • $105mm in Nonaccrual is between FICO 501-540.",
+      "          • $222mm in Nonaccrual between LTV 61-80.\"",
+    ]);
+
+    expect(blocks.every((block) => block.kind !== "list")).toBe(true);
+  });
+});
+
+describe("a quoted list keeps its quotation", () => {
+  it("keeps the quotation on a run the pipeline already treats as quoted", () => {
+    // These reports quote guidance and emails that carry their own bullets.
+    // Grouping them into a list must not silently promote someone else's words
+    // into the report's own voice, so a list inherits the quoted-ness of the
+    // lines it was built from rather than deciding afresh.
+    const blocks = toBlocks([
+      "  The NTM Guidance was finally issued on October 4, 2006. The final",
+      "  version did not fully reflect the recommendations of OTS on negatively",
+      "  amortizing loans. Among other matters, it called on banks to:",
+      "",
+      "            • evaluate a borrower's ability to fully repay a prospective loan;",
+      "            • qualify borrowers using the higher interest rate;",
+    ]);
+
+    expect(blocks.find((block) => block.kind === "list")).toMatchObject({
+      kind: "list",
+      quoted: true,
+    });
+    expect(blocksToMarkdown(blocks)).toContain(
+      "> - evaluate a borrower's ability to fully repay a prospective loan;"
+    );
+  });
+});

@@ -219,19 +219,22 @@
 
 - id: text-out-of-order
   desc: >
-    Issue #12 — text rendered out of order. Recorded here as fixed on
-    2026-08-09; that was wrong, and the check behind it was against the wrong
-    document. The issue's screenshot is Chilcot's Executive Summary, not the
-    PSI report, and Chilcot is not ingested, so nothing published contains the
-    layout that triggers it. Re-checked 2026-08-21 by running that layout
-    through toBlocks/blocksToMarkdown: it still reproduces. Bullets run
-    together into one paragraph (Block has no list kind) and a wrapped item's
-    continuation line is emitted after the list, so the text reads in the
-    wrong order. Invisible to the fidelity checks because every word is still
-    present. Blocks Chilcot (#67) and Leveson (#32), both heavily bulleted.
+    Issue #12 — text rendered out of order. Fixed 2026-08-21. The pipeline had
+    no concept of a list: bullets were glued into one paragraph and a wrapped
+    item's tail was emitted after the item that followed it, which the fidelity
+    checks could not see because every word was still present. Blocks are now
+    built with a list kind; a wrapped line is joined to the item it belongs to,
+    including across a page break. A list inherits the quoted-ness of the lines
+    it came from, so the guidance and emails these reports quote keep their
+    quotation instead of being promoted into the report's own voice. Lists get
+    text-derived ids and permalinks, so a bulleted finding is citable.
+    Open: whether an indented bullet run is a quoted list or a plain one cannot
+    be told from indentation alone — see the note on the issue. It matters when
+    Chilcot (#67) or Leveson (#32) is ingested, not before.
   verify: >
-    a bulleted list with a wrapped item round-trips as a list, in source order
-  passes: false
+    a bulleted list with a wrapped item round-trips as a list, in source order;
+    re-ingesting PSI changes only bullet grouping (133 lines, all `> - `)
+  passes: true
 
 - id: quote-anchors
   desc: >
