@@ -362,6 +362,82 @@ hr {
   color: var(--muted);
 }
 
+/* ---------- search (#100) ---------- */
+
+.search-form {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-form input[type="search"] {
+  flex: 1;
+  min-width: 12rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.search-form input[type="search"]:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+.search-form select {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.6rem 0.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.search-form button {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  background: var(--ink);
+  color: var(--canvas);
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  opacity: 0.8;
+}
+
+.report-search {
+  margin-top: 1.5rem;
+  max-width: 30rem;
+}
+
+.search-status {
+  margin-top: 2rem;
+  color: var(--muted);
+}
+
+.search-results {
+  margin-top: 2rem;
+}
+
+/* Same hue as .hl and social proof — a match is a highlight, everywhere
+ * this site shows one. */
+.search-results mark {
+  background: rgba(255, 232, 138, 0.55);
+  color: inherit;
+}
+
 /* A subsection (h3) nests under the part (h2) above it — same flat list,
  * but indented, smaller and quieter, so the hierarchy a reader would see in
  * the document's own contents page survives onto this one. */

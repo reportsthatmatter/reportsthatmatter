@@ -80,6 +80,11 @@ export function renderReportOverview(
             ? `<p class="byline mono"><a href="${escapeHtml(meta.source_url)}" rel="nofollow">Original document ↗</a></p>`
             : ""
         }
+        <form class="search-form report-search" method="get" action="/search">
+          <input type="hidden" name="report" value="${escapeHtml(meta.id ?? "")}" />
+          <input type="search" name="q" placeholder="Search this report…" aria-label="Search this report" />
+          <button type="submit">Search</button>
+        </form>
       </div>
     </header>
 

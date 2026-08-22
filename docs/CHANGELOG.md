@@ -47,6 +47,13 @@ ahead of time, and served as-is — pages load faster and hold up under a spike
 of traffic that would previously have knocked some of them offline. No visible
 change otherwise.
 
+**Search across every report.** Find a name, a date, a bank — anywhere in the
+archive, not just the report you happen to be reading. A result is the exact
+matched passage, not a page to go hunting through: it shows the sentence, the
+report and section it's in, the printed page, and follows through to those
+exact words highlighted, the same as any shared link. Scope a search to one
+report from that report's own page, or search everything from the header.
+
 ---
 
 ## 2026-08-02 — A third report, and better footnotes everywhere

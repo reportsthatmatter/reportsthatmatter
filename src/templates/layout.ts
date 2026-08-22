@@ -10,6 +10,7 @@ export function escapeHtml(value: string): string {
 
 const DEFAULT_NAV: NavLink[] = [
   { label: "Reports", href: "/reports" },
+  { label: "Search", href: "/search" },
   { label: "About", href: "/about" },
 ];
 
@@ -76,6 +77,7 @@ ${body}
   <p>A public-interest project making official reports readable, linkable, and citable on the web.</p>
   <nav>
     <a href="/reports">Reports</a>
+    <a href="/search">Search</a>
     <a href="/highlights">Highlights</a>
     <a href="/about">About</a>
     <a href="/changelog">Changelog</a>

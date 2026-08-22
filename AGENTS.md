@@ -45,11 +45,14 @@ an interactive session.
 | `src/lib/markdown.ts` | Markdown → HTML, paragraph ids, sidenotes, page anchors |
 | `src/lib/sections.ts` | Splitting a rendered report into section pages |
 | `src/lib/prerendered.ts` | Reading pre-rendered report artifacts (ASSETS or disk) |
+| `src/lib/passages.ts` | Report HTML → citable-unit plain text, for the search index |
+| `src/lib/search.ts` | FTS5 query building, bm25 weights, match → quote-anchor arithmetic |
 | `assets/styles.css` | The design system. Hand-written, no framework |
 | `assets/share.js` | Highlight-to-share |
 | `scripts/ingest/` | PDF → Markdown pipeline + fidelity checks |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
+| `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |
 | `docs/v2-features.yaml` | What is done and what is next |
 
@@ -135,6 +138,19 @@ before a bare `wrangler deploy`**, or the deploy will upload whatever
 `assets/generated/` last had committed. This is also why the old bundle-size
 gotcha is gone: report markdown no longer ships inside the Worker script at
 all, bundled or otherwise.
+
+**Full-text search's index lives in D1** (#100,
+`docs/plans/2026-08-21-search-decisions.md`), the same `reportsthatmatter-marks`
+database #96 uses. `pnpm index-search` reads `assets/generated/` (so it needs
+`pnpm prerender` to have already run) and writes
+`assets/generated/search-index.sql`; apply it with `wrangler d1 execute
+reportsthatmatter-marks --file=assets/generated/search-index.sql` (add
+`--local` for the dev database, drop it for production). `verify.sh` does both
+against local D1 on every run — **do the same against `--remote` by hand
+before deploying a change that touches report content**, or search keeps
+serving whatever it last indexed. `content_version` in `search_index_versions`
+is a hash of the indexed `body.json`, not hand-maintained, so it can't drift
+from what was actually indexed even if a step gets skipped.
 
 ## Gotchas
 

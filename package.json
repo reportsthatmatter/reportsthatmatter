@@ -9,7 +9,8 @@
     "ingest": "tsx scripts/ingest/cli.ts",
     "dev": "wrangler dev --local",
     "cards": "tsx scripts/cards.mjs",
-    "prerender": "tsx scripts/prerender.mjs"
+    "prerender": "tsx scripts/prerender.mjs",
+    "index-search": "tsx scripts/index-search.mjs"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
