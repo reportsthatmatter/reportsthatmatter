@@ -156,3 +156,62 @@ export function rangeFor(index, start, end) {
   range.setEnd(last.node, last.offset + 1);
   return range;
 }
+
+/**
+ * Mark a range, one text node at a time.
+ *
+ * Wrapping the range in a single element only works when it sits inside one
+ * element. A quote that crosses a footnote marker, an emphasis, or a paragraph
+ * boundary cannot be wrapped that way — and those are ordinary selections, not
+ * edge cases. Marking each text node the range touches works for all of them.
+ *
+ * Shared between `highlight.js` (a reader's own marks) and `social-proof.js`
+ * (what other readers marked) — both wrap the same way, only the class differs.
+ *
+ * @param {Range} range
+ * @param {string[]} classes
+ * @returns {HTMLElement[]}
+ */
+export function mark(range, classes) {
+  const root = range.commonAncestorContainer;
+  const walker = document.createTreeWalker(
+    root.nodeType === Node.ELEMENT_NODE ? root : /** @type {Node} */ (root.parentNode),
+    NodeFilter.SHOW_TEXT
+  );
+
+  /** @type {Text[]} */
+  const touched = [];
+  while (walker.nextNode()) {
+    const node = /** @type {Text} */ (walker.currentNode);
+    // Only prose: the same text buildIndex counted. Otherwise a quote running
+    // across a paragraph break paints the sidenote and the page number too.
+    // Whitespace-only nodes are the newlines between block elements: marking
+    // them puts a stray highlight in the gap between two paragraphs.
+    if (!node.data.trim()) continue;
+    if (range.intersectsNode(node) && isProse(node)) touched.push(node);
+  }
+  if (!touched.length && range.startContainer.nodeType === Node.TEXT_NODE) {
+    touched.push(/** @type {Text} */ (range.startContainer));
+  }
+
+  /** @type {HTMLElement[]} */
+  const marks = [];
+
+  for (const node of touched) {
+    const from = node === range.startContainer ? range.startOffset : 0;
+    const to = node === range.endContainer ? range.endOffset : node.data.length;
+    if (to <= from) continue;
+
+    // Split the node down to exactly the part inside the range, then wrap it.
+    const middle = from > 0 ? node.splitText(from) : node;
+    if (to - from < middle.data.length) middle.splitText(to - from);
+
+    const element = document.createElement("mark");
+    element.className = classes.join(" ");
+    middle.parentNode?.insertBefore(element, middle);
+    element.appendChild(middle);
+    marks.push(element);
+  }
+
+  return marks;
+}

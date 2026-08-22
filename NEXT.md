@@ -20,11 +20,7 @@ same time, with one exception noted below.
 | [#115](https://github.com/reportsthatmatter/reportsthatmatter/issues/115) | **Implement: pre-render to static assets** | `src/`, `wrangler.toml`, `scripts/` | #107's analysis is done and merged ([`docs/plans/2026-08-21-serving-architecture.md`](docs/plans/2026-08-21-serving-architecture.md)); this is the build. Do the plan-tier check first — it may stop tonight's class of 503 on its own — then the `/sitemap.xml` fix, then the pre-render move. **Most urgent: production hit CPU limits on 2026-08-21 and is green only because of two holding measures.** |
 | [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Imagery: study Co-Star, then a mark per report** | `docs/design/`, `assets/` | Write down what Co-Star's visual language actually is before making anything. Then a per-report image working almost as a logo, from public-domain photography or facsimiles of our own documents. |
 | [#108](https://github.com/reportsthatmatter/reportsthatmatter/issues/108) | **Review the PSI / Challenger re-ingest** | `reports/`, `scripts/ingest/` | Rufus said go ahead. The method for isolating one pipeline change from the rest is in the issue. Bring back only the judgement calls, with the source page alongside. |
-| [#100](https://github.com/reportsthatmatter/reportsthatmatter/issues/100) | **Full-text search** | `src/`, `scripts/` | Four design questions answered: D1 + FTS5, cross-archive, results are citable passages. Rufus, 2026-08-21: "just go ship it." Precise deep links come free from the quote anchors, which are built. |
-| [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **Social proof** | `src/`, `assets/` | What other readers marked. Nothing is blocked on Rufus — build it, then show him the rendered page before it ships, because it is the first thing that stores anything about readers. |
-
-⚠️ **#100 and #96 both introduce D1 and both touch `src/index.ts`.** Run them in
-either order, but not concurrently.
+| [#100](https://github.com/reportsthatmatter/reportsthatmatter/issues/100) | **Full-text search** | `src/`, `scripts/` | Four design questions answered: D1 + FTS5, cross-archive, results are citable passages. Rufus, 2026-08-21: "just go ship it." Precise deep links come free from the quote anchors, which are built. D1 is already wired up on `main` (#96) — add a migration alongside `migrations/0001_marks.sql` rather than re-plumbing the binding. |
 
 ## Smaller, also independent
 
@@ -45,7 +41,6 @@ either order, but not concurrently.
 | | | |
 | --- | --- | --- |
 | [#77 branch A](https://github.com/reportsthatmatter/reportsthatmatter/issues/77) | **Launch** | Search Console, the `@ReportsThatMatter` account, the announcement thread. Parked at his instruction, 2026-08-21. Still the highest-value item on the board whenever it comes back. |
-| [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) | **A look before social proof ships** | Not a blocker on building it. |
 | [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Picking a visual direction** | From rendered options, once they exist. |
 
 ## Shipped and live
@@ -63,3 +58,5 @@ Two rounds of fixes followed, both found by Rufus using it rather than by the
 checks. Worth remembering when writing browser checks for anything
 selection-shaped: they passed because they only tested selections shaped the way
 the code already handled. Six shapes are covered now.
+
+- [#96](https://github.com/reportsthatmatter/reportsthatmatter/issues/96) **Social proof** — what other readers marked, shown the same way a highlight is ever shown: the `.hl` wash, intensity scaled by reader count rather than a printed number. First cut used an underline plus a margin note; Rufus, 2026-08-21, called the underline "looks like wiki links" and the margin note a collision risk with the sidenote column, so both were dropped for the wash + a hover title. Threshold is 1 reader, not the design doc's 3 — no privacy issue with showing at one, same conversation. D1-backed (`reportsthatmatter-marks`); `/reports/:id/marks` is deliberately uncached so a passage can show up the moment it's marked.

@@ -13,11 +13,41 @@ function truncate(text: string, limit: number): string {
   return `${cut.slice(0, lastSpace > limit * 0.6 ? lastSpace : limit)}…`;
 }
 
+/** A passage other readers marked, ready to show back (#96). */
+export type TopPassage = {
+  quote: string;
+  url: string;
+  readers: number;
+  page: number | null;
+};
+
+function renderMostMarked(topMarked: TopPassage[]): string {
+  if (!topMarked.length) return "";
+
+  const items = topMarked
+    .map(
+      (passage) => `<li>
+        <a href="${escapeHtml(passage.url)}">
+          <blockquote class="serif">“${escapeHtml(truncate(passage.quote, 220))}”</blockquote>
+          <p class="meta mono">${passage.page ? `p. ${passage.page} · ` : ""}${passage.readers} reader${passage.readers === 1 ? "" : "s"}</p>
+        </a>
+      </li>`
+    )
+    .join("");
+
+  return `
+    <section class="section wrap marked-section">
+      <p class="section-label mono">Most marked passages</p>
+      <ul class="marked-list">${items}</ul>
+    </section>`;
+}
+
 /** Contents for a report: the spine a 169-page document needs. */
 export function renderReportOverview(
   meta: ReportMeta,
   sections: Section[],
-  stats: { words: number; pages?: number }
+  stats: { words: number; pages?: number },
+  topMarked: TopPassage[] = []
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
@@ -58,6 +88,7 @@ export function renderReportOverview(
         <a href="/reports/${escapeHtml(meta.id ?? "")}/full">Read the whole report on one page →</a>
       </p>
     </section>
+    ${renderMostMarked(topMarked)}
   </article>
 </main>
 <script src="/assets/find-anchor.js" defer></script>`;
@@ -124,7 +155,7 @@ export function renderSection(
 
   return renderLayout(`${section.title} — ${meta.title} — Reports that Matter`, body, {
     description,
-    scripts: ["/assets/share.js", "/assets/highlight.js"],
+    scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
     structuredData: breadcrumbJsonLd([
       { name: "Reports", path: "/reports" },

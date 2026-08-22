@@ -8,9 +8,19 @@ import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
-import { renderReportOverview, renderSection } from "./templates/section";
-import { splitSections, sectionFor } from "./lib/sections";
+import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
+import { splitSections, sectionFor, type Section } from "./lib/sections";
 import { memo } from "./lib/prepared";
+import { encodeAnchor } from "../assets/anchor.js";
+import { extractParagraph, quotedPassage } from "./templates/report";
+import {
+  actorHash,
+  markCounts,
+  parseMarkPayload,
+  recordMark,
+  todayUTC,
+  type MarksDB,
+} from "./lib/marks";
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
@@ -22,6 +32,12 @@ export type Bindings = {
    * prefix (GitHub Pages serves project sites under /<repo>/).
    */
   LEGACY_BASE?: string;
+  /** Social proof (#96): who marked what. Absent under Node/vitest unless a test supplies a fake. */
+  DB?: MarksDB;
+  /** Secret folded into the daily actor hash. A dev fallback is fine locally — nothing is at stake below account-scale abuse. */
+  MARK_SALT?: string;
+  /** Readers a passage needs before it is shown back. Defaults to 1 — see #96. */
+  MARK_THRESHOLD?: string;
 };
 
 /**
@@ -246,7 +262,11 @@ async function loadReport(c: any, reportId: string) {
  * render happens once per edge rather than once per reader. Report pages are
  * immutable between deploys, so they can be held for a long time.
  */
-async function cached(c: any, build: () => Promise<Response>): Promise<Response> {
+async function cached(
+  c: any,
+  build: () => Promise<Response>,
+  maxAge = 86400
+): Promise<Response> {
   // `caches` is absent under Node, where the tests run.
   if (typeof caches === "undefined" || c.req.method !== "GET") return build();
 
@@ -259,13 +279,72 @@ async function cached(c: any, build: () => Promise<Response>): Promise<Response>
   const response = await build();
   if (response.status === 200) {
     const store = new Response(response.body, response);
-    store.headers.set("cache-control", "public, max-age=86400");
+    store.headers.set("cache-control", `public, max-age=${maxAge}`);
     c.executionCtx?.waitUntil?.(cache.put(key, store.clone()));
     return store;
   }
 
   return response;
 }
+
+/**
+ * Record one marking event: a reader shared or saved a passage.
+ *
+ * Recording is a courtesy, not a promise — a slow or unavailable database must
+ * never turn into a failed share or a failed save, so every path here answers
+ * with a plain status and swallows what it can.
+ */
+app.post("/api/mark", async (c) => {
+  const db = c.env?.DB;
+  if (!db) return c.body(null, 204);
+
+  let payload: unknown;
+  try {
+    payload = await c.req.json();
+  } catch {
+    return c.text("Bad request", 400);
+  }
+
+  const event = parseMarkPayload(payload);
+  if (!event) return c.text("Bad request", 400);
+
+  const secret = c.env?.MARK_SALT ?? "dev-salt";
+  const ip = c.req.header("cf-connecting-ip") ?? "0.0.0.0";
+  const ua = c.req.header("user-agent") ?? "";
+  const now = Date.now();
+
+  try {
+    const actor = await actorHash(secret, todayUTC(now), ip, ua);
+    const result = await recordMark(db, event, actor, now);
+    return c.body(null, result === "ok" ? 204 : 429);
+  } catch (err) {
+    return c.body(null, 204);
+  }
+});
+
+/**
+ * What other readers marked in this report, above the display threshold.
+ *
+ * Deliberately uncached, unlike the report pages: Rufus wants a passage to
+ * show up the moment one reader has marked it, and edge-caching this even
+ * briefly means the *first* reader's own page load — which fetches this
+ * before they have marked anything — could freeze an empty result in place
+ * for everyone behind it. A D1 read here is cheap; staleness is not worth it.
+ *
+ * A D1 failure must still serve an (empty) list — social proof is an
+ * enhancement, never a reason the marks a page already has stop rendering.
+ */
+app.get("/reports/:id/marks", async (c) => {
+  const db = c.env?.DB;
+  const threshold = Number(c.env?.MARK_THRESHOLD ?? 1);
+  if (!db) return c.json([]);
+
+  try {
+    return c.json(await markCounts(db, c.req.param("id"), threshold));
+  } catch (err) {
+    return c.json([]);
+  }
+});
 
 app.get("/reports/:id", async (c) => {
   const reportId = c.req.param("id");
@@ -298,10 +377,56 @@ app.get("/reports/:id", async (c) => {
   }
 
   const words = loaded.html.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+  const topMarked = await topMarkedPassages(c.env, reportId, loaded.html, loaded.sections);
   return c.html(
-    renderReportOverview(loaded.report, loaded.sections, { words })
+    renderReportOverview(loaded.report, loaded.sections, { words }, topMarked)
   );
 });
+
+/**
+ * The best-input-to-quote-cards, human-facing version of `markCounts`: the
+ * top few passages, with the text and link to show for each. Best-effort —
+ * an empty list here costs a reader nothing, so any failure degrades to that
+ * rather than to a broken contents page.
+ */
+async function topMarkedPassages(
+  env: Bindings | undefined,
+  reportId: string,
+  html: string,
+  sections: Section[]
+): Promise<TopPassage[]> {
+  const db = env?.DB;
+  if (!db) return [];
+
+  const threshold = Number(env?.MARK_THRESHOLD ?? 1);
+  const LIMIT = 5;
+
+  try {
+    const counts = await markCounts(db, reportId, threshold);
+    const top: TopPassage[] = [];
+    for (const row of counts) {
+      if (top.length >= LIMIT) break;
+      const section = sectionFor(sections, row.paragraph);
+      const paragraph = extractParagraph(html, row.paragraph);
+      if (!section || !paragraph) continue;
+
+      const anchor = encodeAnchor({ prefix: row.prefix, exact: row.exact, suffix: row.suffix });
+      const quote = anchor ? quotedPassage(html, row.paragraph, anchor) : paragraph;
+      if (!quote) continue;
+
+      const query = anchor ? `&h=${anchor}` : "";
+      top.push({
+        quote,
+        page: row.page,
+        readers: row.readers,
+        url: `/reports/${reportId}/${section.slug}?p=${encodeURIComponent(row.paragraph)}${query}#${row.paragraph}`,
+      });
+    }
+    return top;
+  } catch (err) {
+    return [];
+  }
+}
 
 app.get("/reports/:id/full", async (c) =>
   cached(c, async () => {
