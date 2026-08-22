@@ -29,6 +29,16 @@ const firstReportId = (() => {
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
 
+// Belt and braces on top of isLocal below: ANY popover action (save,
+// copy-link, copy-quote) now fires a POST to /api/mark via assets/share.js —
+// including #94/#95 checks that predate social proof and have no reason to
+// know about it. Intercepting the network call itself, rather than trying to
+// enumerate every place a button gets clicked, means a future check can't
+// reintroduce this by accident.
+if (!isLocal) {
+  await page.route("**/api/mark", (route) => route.fulfill({ status: 204, body: "" }));
+}
+
 const consoleErrors = [];
 page.on("console", (msg) => {
   if (msg.type() === "error") consoleErrors.push(msg.text());
