@@ -2,85 +2,87 @@
 
 One entry per work session. Newest first.
 
-## 2026-08-22 — Reviewing the PSI/Challenger re-ingest under #79 (issue #108)
+## 2026-08-22 — Reviewing, then republishing, the PSI/Challenger re-ingest under #79 (issue #108)
 
 #79 (2026-08-08) fixed a real contents-page bug for Litvinenko but deliberately
 did not re-apply itself to `us-psi-financial-crisis` or `challenger-accident` —
 each produced 100+ lines of unreviewed diff, "including at least one lateral
 change," and there wasn't time to read it by hand. This session did that read,
-for both.
+for both, in two passes — the first pass reached the wrong conclusion for
+Challenger, caught by the second. Both reports are now republished.
 
 **Method:** baseline = current published `full.md`. Re-ingest with today's
 pipeline and the exact metadata already in `reports/registry.yaml` (wrong
 metadata adds noise to the diff that has nothing to do with the pipeline).
-Diff, read every hunk, `git checkout` the report directory afterward so
-nothing unreviewed lands in the tree — no report was republished this
-session. Where a hunk read as ambiguous, found its `%%page N%%` marker,
-worked out the PDF-file-page offset (front matter before printed page 1),
-and read `pdftotext -f N -l N -layout` against the actual source page —
-the diff alone cannot tell you which of two readings matches the document,
-only the source can.
+Diff, read every hunk. Where a hunk read as ambiguous, found its `%%page N%%`
+marker, worked out the PDF-file-page offset (front matter before printed
+page 1), and read `pdftotext -f N -l N -layout` against the actual source
+page — the diff alone cannot tell you which of two readings matches the
+document, only the source can.
 
-**`us-psi-financial-crisis` (born-digital, clean): safe.** 323 lines / 43
-hunks, three classes:
-- TOC front matter now reads as separated lines instead of one run-together
-  blob, and a two-column data table ("2005 WaMu Gain on Sale Margin," p. 64)
-  now renders as one bullet per row instead of all values run together on one
-  line — checked against the source page, confirmed improvement, not #12's
-  list fix (that's bulleted *prose*; this is a table).
-- The already-reviewed #12 list-block change (bulleted quotes → `- ` items) —
-  the bulk of the diff, matches the ~133-line estimate, not re-litigated.
-- One real, narrow defect, unrelated to #79 specifically: a footnote
-  marker that sits on its own short line in the PDF (an artifact of
-  `pdftotext -layout` wrapping a superscript) gets attached to whichever
-  paragraph happens to be adjacent after the paragraph-boundary logic runs,
-  landing on the trailing edge of one paragraph in the old output and the
-  leading edge of the next in the new one — verified against source (p. 89):
-  neither position is right, both strand the digit as a bare unlinked number
-  rather than an inline `[^288]` reference. Pre-existing, just moved. Recorded
-  as a real but low-urgency finding, not a #79 regression.
+**`us-psi-financial-crisis` (born-digital, clean): safe, confirmed twice.**
+~300 lines, three classes: TOC front matter reading as separated lines
+instead of one run-together blob and a data table now rendering one bullet
+per row instead of all values smashed together (p. 64, checked against
+source — improvement, not #12's list fix, which is bulleted *prose*, not a
+table); the already-reviewed #12 list-block change (bulk of the diff, not
+re-litigated); and one real, narrow, pre-existing defect unrelated to #79 —
+a footnote marker on its own short line in the PDF (an artifact of
+`pdftotext -layout` wrapping a superscript) lands stranded on whichever side
+of a paragraph break the boundary logic puts it, verified against source
+(p. 89): neither position is right, both leave it an unlinked bare number
+rather than an inline `[^288]`. Moved, not fixed — low-urgency, recorded, not
+blocking.
 
-**`challenger-accident` (scanned, OCR'd): not safe — do not apply #79's fix
-as currently written.** 2,442 lines / 480 hunks, and isolating which of the
-two accumulated changes (#12, #79) caused it —
-`git checkout <commit> -- scripts/ingest/`, re-run, diff against the previous
-step, restore — showed **all 480 hunks come from #79 alone**; #12 changed
-nothing here (Challenger's source has no bulleted prose for it to touch).
-Two effects, confirmed against source:
-- The document's own footnote count dropped in the reported metric
-  (94 → 89), which read as alarming until checked: the actual linked
-  footnote *definitions* in the output are identical, 75 in both. The
-  metric counts something upstream of what ships — not itself evidence of
-  lost content, and a reminder not to trust a summary number over what's
-  actually in the file.
-- Words that were correctly spaced in the currently-published output come
-  back glued in the new one — "DEAR MR. SPEAKER:" → "DEARMR. SPEAKER:",
-  confirmed against `pdftotext -layout` on the raw source page 3: the raw
-  extraction *is* "DEARMR. SPEAKER:", so the published version's correct
-  spacing was already the product of some fix upstream of #79's change, and
-  that fix has stopped firing on some class of line since. This pattern
-  repeats through most of the 480 hunks — front matter, headings, running
-  prose. A genuine regression, not lateral: the old reading is the one that
-  matches the source.
+**`challenger-accident` (scanned, OCR'd): the first pass got this wrong.**
+Diffing straight against the historical published `full.md` showed 2,442
+lines / 480 hunks, including what looked like a severe regression — "DEAR MR.
+SPEAKER:" coming back as "DEARMR. SPEAKER:", confirmed (at the time) against
+`pdftotext -layout` on the raw source. Isolating which of #12/#79 caused it,
+by checking out each commit's `scripts/ingest/` in turn and re-running,
+showed all 480 hunks came from #79 alone — so the conclusion was "don't
+apply #79 to Challenger," and it was reported that way, in an AGENTS.md
+gotcha, and to Rufus.
 
-**Why the same fix behaves so differently on the two reports — see the
-gotcha added to AGENTS.md.** Short version: `TOC_ENTRY`'s new whitespace-gap
-branch was written and tested against Litvinenko, a very clean born-digital
-PDF; Challenger is scanned and OCR'd, with irregular spacing throughout, and
-apparently reclassifies far more lines as "structural" (contents-entry- or
-heading-like) than intended — which changes which paragraph-boundary and
-degluing logic each line goes through. PSI, also born-digital, wasn't
-affected the same way. The lesson isn't "the fix is wrong" — it visibly
-improved PSI — it's that a heuristic proven on the cleanest source in the
-corpus needs checking against the messiest one before it's assumed general.
+**That conclusion didn't survive being asked "what do you need from me to
+keep moving."** Told to go ahead and republish both, the natural next
+step — re-running the *original pre-#79* `scripts/ingest/` against today's
+`pdftotext` to confirm the fix was what changed — instead reproduced 2,079
+of those 2,442 lines with **zero code change at all**. `pdftotext` itself
+had drifted: `poppler` was 26.08.0 today, installed some time in the two
+weeks since Challenger's original ingest, and its own extraction of a
+scanned, irregularly-spaced document had changed. The comparison that found
+"a 480-hunk regression from #79" was actually mostly "poppler updated
+itself," with the code's real contribution hiding inside it.
 
-**Recommendation:** #79's `TOC_ENTRY` change is fine to keep as-is for
-born-digital sources. Re-ingesting PSI under it looks safe once someone
-signs off on the classification above (still not done here — republishing
-is a separate decision). Challenger needs the whitespace-gap branch's
-interaction with OCR'd spacing understood and fixed before a re-ingest is
-safe; until then its `full.md` should stay on the pre-#79 pipeline output,
-same as today.
+**Redone holding poppler constant** — old code vs. new code, both re-run
+today, so the tool version is identical on both sides — the true code-only
+delta is 68 hunks, not 480, and every one of them is already-garbled scan
+noise (engineering drawings, tables, form data already unreadable in both
+versions) getting bulleted or split differently. No coherent prose is
+touched. The "DEAR MR. SPEAKER:" regression and the footnote-count drop
+(94 → 89, which was itself a red herring even in the first pass — actual
+linked footnote *definitions* were identical, 75 both times) do not appear
+at all in the poppler-controlled diff. **Both reports republished** —
+`git log` for the commit; `docs/plans` doesn't need a separate record since
+this entry is it.
+
+**Two lessons, one corrected:**
+- The AGENTS.md gotcha this session first wrote — "test a structural-line
+  heuristic against the messiest source, not just the cleanest" — is still
+  true in general (PSI and Challenger *did* need separate review, and a
+  heuristic proven on Litvinenko wasn't automatically proven elsewhere), but
+  the specific claim "#79 regresses Challenger" was wrong and has been
+  corrected in AGENTS.md rather than left standing.
+- The real lesson is upstream of that one: **a diff against a historical
+  committed file is only evidence about *this project's own code* if the
+  external tools that produced both sides are the same version.** They
+  weren't, silently, for two weeks of poppler updates. Isolating a pipeline
+  change by replaying `scripts/ingest/` at different commits (the technique
+  #108 was built around) only isolates the code if every comparison point
+  re-runs it with *today's* tools rather than trusting an old committed
+  output — regenerate the "before" side too, don't just diff against what's
+  on disk.
 
 ## 2026-08-09 — Sidenote length clamp (issue #80)
 

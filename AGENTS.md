@@ -170,34 +170,39 @@ from what was actually indexed even if a step gets skipped.
 - Check a PDF's text layer before ingesting. Two scans of the same document can
   differ enormously — NASA's Rogers Commission scan was unusable where the GPO
   text was clean.
-- **A `scripts/ingest/` heuristic proven against the cleanest source in the
-  corpus is not proven against the messiest one.** #79's `TOC_ENTRY`
-  whitespace-gap fix was built and tested against Litvinenko (very clean,
-  born-digital) and looked safe on `us-psi-financial-crisis` (also
-  born-digital) too when reviewed later — but on `challenger-accident`
-  (scanned, OCR'd, irregular spacing) it reclassified enough lines as
-  "structural" to stop an unrelated word-degluing fix from firing across
-  480 diff hunks, found only by a full re-ingest-and-diff review (#108,
-  `docs/PROGRESS.md` 2026-08-22), not by any fidelity check — the output
-  still passed every gate. Test a new structural-line regex against
-  Challenger (or whichever report is currently the messiest) before trusting
-  it generalises, not just the report you're actively fixing.
-- **To isolate which of several accumulated `scripts/ingest/` changes
-  produced an observed diff**, don't reason about the regex — replay it:
+- **`pdftotext` is not pinned, and it drifts.** Diffing a fresh re-ingest
+  against a *historically committed* `full.md` is only evidence about this
+  project's own code if `poppler` is the same version on both sides — it
+  usually isn't. #108 (2026-08-22, full account in `docs/PROGRESS.md`)
+  diffed a re-ingest of `challenger-accident` against its Aug-8 published
+  file and found 480 hunks that looked like a severe pipeline regression;
+  re-running the *original, unmodified* Aug-8 `scripts/ingest/` against
+  today's `pdftotext` reproduced 2,079 of those lines with **zero code
+  change at all** — `poppler` had updated itself in the two weeks between.
+  **To isolate what a code change actually did, regenerate the "before"
+  side too, with today's tools, rather than trusting what's on disk** —
   `git checkout <commit> -- scripts/ingest/`, re-run `pnpm ingest run` with
-  the report's exact registry metadata, diff against the previous step's
-  output, restore with `git checkout HEAD -- scripts/ingest/`. Each hop
-  isolates exactly one commit's contribution. Used in #108 to prove a
-  480-hunk diff came entirely from one of two candidate commits.
-- **A summary metric (footnote count, word-retention %) can miss the
-  regression that matters and flag one that doesn't.** In #108, a
-  footnote-count drop (94→89) looked like lost content but the actual linked
-  footnote definitions in the output were identical (75 both times) — noise
-  from something upstream of what ships. Meanwhile the real regression
-  (words losing correct spacing) tripped no fidelity check at all. Diff the
-  actual output, not just the numbers in the CLI's summary — the house rule
-  "look at the rendered page, not just green tests" applies just as much to
-  ingestion as to templates.
+  the report's exact registry metadata, then diff *that* against the
+  current code's output, both freshly generated. Only then does the diff
+  isolate the code; diffing against a committed file conflates code drift
+  with tool drift, and tool drift can be the larger of the two.
+- **A `scripts/ingest/` heuristic still deserves testing against the
+  messiest source in the corpus, not just the one you're fixing** — a
+  heuristic can behave differently on a scanned, OCR'd document than on the
+  clean one it was built against, and that difference won't trip a fidelity
+  check. #79's `TOC_ENTRY` whitespace-gap fix turned out fine on
+  `challenger-accident` once the comparison above was done correctly (its
+  real effect was 68 hunks of already-garbled scan noise reformatting, not
+  a regression) — but confirm that with a poppler-controlled diff, not an
+  assumption either way.
+- **A summary metric (footnote count, word-retention %) can look like
+  lost content and not be.** #108's first pass saw a footnote-count drop
+  (94→89) and read it as a regression; the actual linked footnote
+  *definitions* in the output were identical, 75 both times — the metric
+  counts something upstream of what ships. Diff the actual output, not just
+  the numbers in the CLI's summary, before concluding either way — the
+  house rule "look at the rendered page, not just green tests" applies to
+  ingestion too.
 - Each report has its own repo under the `reportsthatmatter` org, holding the
   source PDF and a README recording where it came from. Clone it as a sibling
   directory before re-ingesting.
