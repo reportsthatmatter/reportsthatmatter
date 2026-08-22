@@ -14,7 +14,7 @@ to need one.
 | likely | digit inside a word | `1st` | 38 | 318, at 58 and chart 31 (“92 percent of 1st-  |
 | likely | digit inside a word | `3rd` | 83 |  spot at top loser … in 2000 and placed 3rd in 2001.” 207 In 2003, Long Be |
 | likely | digit inside a word | `1j` | 32 | aulson & Co. Inc., Hearing Exhibit 4/13-1j.  |
-| likely | digit inside a word | `2d` | 331 | rney & Co., Inc ., 438 F.3d 1167, 1172 (2d Cir. 1970) (“The investor … must be per |
+| likely | digit inside a word | `2d` | 331 | arney & Co., Inc., 438 F.3d 1167, 1172 (2d Cir. 1970) (“The investor … must be per |
 | likely | digit inside a word | `2bb` | 443 |  Position Summary: – RMBS AAA – long $2.2bb”). 1794 The one short position the |
 | likely | digit inside a word | `1i` | 27 |  the Subcommittee, Hearing Exhibit 4/13-1i (showing how higher risk loans grew fro |
 | likely | digit inside a word | `1c` | 61 |  the Subcommittee, Hearing Exhibit 4/13-1c. 117 For more information about the |
@@ -61,7 +61,7 @@ to need one.
 | likely | digit inside a word | `5th` | 90 |  based on payments received through May 5th.” 253 It also reported that the finding |
 | likely | digit inside a word | `2PPD` | 134 | e greatest amount of Delinquency (1PPD, 2PPD, 3PPD, nonaccrual)[.]  |
 | likely | digit inside a word | `3PPD` | 134 | Delinquency (1PPD, 2PPD, 3PPD, nonaccrual)[.] • Loans  |
-| likely | digit inside a word | `1mil` | 138 | 29.3 billion 5) Above + $351k-1mil – 460% increase (.12 to .70%), $17.2 bi |
+| likely | digit inside a word | `1mil` | 138 |  $29.3 billion 5) Above + $351k-1mil – 460% increase (.12 to .70%), $17.2 bi |
 | likely | digit inside a word | `3B` | 139 | , 2007. That amounts to roughly 3B [$3 billion] option arms availab[l]e fo |
 | likely | digit inside a word | `6B` | 145 | Mac was “very aggressive in 2004 buying 6B of option arm without a share agreement |
 | likely | digit inside a word | `Way2Go` | 151 | f David Schneider (2/17/2010). 538 “Way2Go, Be Bold!,” WaMu presentation prepared  |
@@ -83,7 +83,7 @@ to need one.
 | likely | digit inside a word | `5b` | 446 | ote: “What are we holding against the 3.5b mezz shorts right now? Why don’t we jus |
 | likely | digit inside a word | `3BB` | 449 |  Mr. Montag: “[W]e are short ... about $3BB single names.”1836 Mr. Montag responded |
 | likely | digit inside a word | `7bb` | 451 | red and eventually put on. W e’re up $1.7bb in RM BS SN CDS!  |
-| likely | digit inside a word | `5BN` | 485 | Concern around early payment defaults, $5BN in loans to subprime borrowe |
+| likely | digit inside a word | `5BN` | 485 | Concern around early payment defaults, $5BN in loans to subprime borrowers, |
 | likely | digit inside a word | `2ndry` | 488 | onds out of primary desk hands and into 2ndry desk.”).  |
 | likely | digit inside a word | `5M` | 494 | d to settle the entire claim, paying $2.5M (repurchase and monitor) and $3M will b |
 | likely | digit inside a word | `3M` | 494 | ing $2.5M (repurchase and monitor) and $3M will be rescinded.”). 2054 New Ce |
@@ -91,7 +91,7 @@ to need one.
 | likely | digit inside a word | `m6s` | 521 |  “[B]ad news … [The loss] wipes out the m6s [mezzanine tranches] and makes a wipeou |
 | likely | digit inside a word | `6mm` | 525 | ‘firm’. Now I find out that we’re down $6mm on the day. I understand things move, b |
 | likely | digit inside a word | `5pts` | 526 | s point] liquidation agent fees and 1-1.5pts upfront. ... Obviously important to  |
-| likely | digit inside a word | `4pm` | 535 |  the CDO , we have sold to retail since 4pm yesterday $2bb of BBB- risk.” 10/26/200 |
+| likely | digit inside a word | `4pm` | 535 | o the CDO, we have sold to retail since 4pm yesterday $2bb of BBB- risk.” 10/26/200 |
 | likely | digit inside a word | `6bn` | 536 | COO Gary Cohn and CFO David Viniar: “$1.6bn of the $2bn sold, with the majority of  |
 | likely | digit inside a word | `A1A` | 565 |  3/13/07: A1A‐ $99.45  |
 | likely | digit inside a word | `A1D` | 565 |  Directives) A1D‐ $100 INC‐ $ |
@@ -136,7 +136,7 @@ to need one.
 | possible | possible rn/m confusion | `Governors` | 41 | dix A (for the Federal Reserve Board of Governors) and 12 CFR part 325, Appendix A (for t |
 | possible | possible rn/m confusion | `Warnings` | 277 | ere damage ....” 1046 Government Warnings. At the same time the credit rating age |
 | possible | possible rn/m confusion | `fairness` | 330 | to make this implied representation of fairness not misleading.”).  |
-| possible | possible rn/m confusion | `Barney` | 331 | (Nov. 7, 2003) (citing Chasins v. Smith Barney & Co., Inc ., 438 F.3d 1167, 1172 (2d C |
+| possible | possible rn/m confusion | `Barney` | 331 | (Nov. 7, 2003) (citing Chasins v. Smith Barney & Co., Inc., 438 F.3d 1167, 1172 (2d Ci |
 | possible | possible rn/m confusion | `learning` | 393 | id not try to sell them. In June, after learning that two Bear Stearns hedge funds speci |
 | possible | possible rn/m confusion | `overnight` | 439 | s Japan office regarding “unprecedented overnight [rates] market volatility,” suggesting  |
 | possible | case break inside a word | `aMu` | 494 | f Goldman Sachs to David Schneider of W aMu and others, GS MBS-E- 002142424, Hearin |

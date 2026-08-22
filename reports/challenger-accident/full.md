@@ -4,7 +4,7 @@ authors: "Committee on Science and Technology, U.S. House of Representatives"
 published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
-footnotes: 94
+footnotes: 89
 ---
 
 Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House Report 99-1016
@@ -13,9 +13,9 @@ Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House
 
 R E P O R T
 
-## OF THE COMMITTEE ON SCIENCE AND TECHNOLOGY HOUSE OF REPRESENTATIVES NINETY-NINTH CONGRESS SECOND SESSION OCTOBER
+## OF THE COMMITTEE ON SCIENCE AND TECHNOLOGY HOUSE OF REPRESENTATIVES NINETY-NINTH CONGRESS SECOND SESSION
 
-> 29, 1986.-Committed to the Committee of the Whole House on the State of the Union and ordered to be printed
+OCTOBER29, 1986.-Committed to the Committee of the Whole House on the State of the Union and ordered to be printed
 
 ## U.S. GOVERNMENT PRINTING OFFICE
 
@@ -25,19 +25,17 @@ R E P O R T
 
 DON FUQUA, Florida, Chairman ROBERT A. ROE, New Jersey MANUEL LUJAN, JR.; New Mexico GEORGE E. BROWN. JR.. California ROBERT S. WALKER, Pennsylvania JAMES H. SCHEUER, New York F. JAMES SENSENBRENNER, JR., MARILYN LLOYD, Tennessee Wisconsin TIMOTHY E. WIRTH, Colorado CLAUDINE SCHNEIDER, Rhode Island DOUG WALGREN, Pennsylvania SHERWOOD L. BOEBLEKT, New York DAN GLICKMAN, Kansas TOM LEWIS, Florida ROBERT A. YOUNG, Missouri DON RI'ITER, Pennsylvania HAROLD L. VOLKMER, Missouri SID W. MORRISON. Washinaton BILL NELSON, Florida RON PACKARD, California - STAN LUNDINE, New York JAN MEYERS, Kansas RALPH M. HALL, Texas ROBERT C. SMITH, New Hampshire DAVE McCURDY, Oklahoma PAUL B. HENRY, Michigan NORMAN Y. MINETA, California HARRIS W. FAWELL, Illinois BUDDY MAcKAY,'. Florida WILLIAM W. COBEY, JR.,North Carolina TIM VALENTINE, North Carolina JOE BARTON, Texas HARRY M. REID, Nevada D. FRENCH SLAUGHTER, JR., Virginia ROBERT G . TORRICELLI, New Jersey DAVID S. MONSON, Utah RICK BOUCHER, Virginia TERRY BRUCE, Illinois RICHARD H. STALLINGS, Idaho BART GORDON, Tennessee JAMES A. TRAFICANT, JR., Ohio JIM CHAPMAN, Texas
 
-> HAROLD P. HANSON,Executive Director ROBERT C. KETCHAM, General Counsel REGINA A. DAVIS,Chief Clerk
+> HAROLDP. HANSON,Executive Director ROBERTC. KETCHAM, General Counsel REGINA A. DAVIS,Chief Clerk
 
-### THOMAS WEIMER, Republican Staff Director
+### THOMAS WEIMER,Republican Staff Director
 
-## CHALLENGER ACCIDENT REPORT STAFFTASKGROUP
+## CHALLENGER ACCIDENT REPORTSTAFFTASKGROUP
 
-ROBERT C. K ~ H A M ,
-
-General Counsel ROBERTE. PALMER RADP~RD BYERLY, Jr. GEORGES. KOPP RONALD E. WILLIAMS HARRYS. DAWSON, Jr.
+ROBERTC. K ~ H A M , General Counsel ROBERTE. PALMER RADP~RD BYERLY, Jr. GEORGES. KOPP RONALDE. WILLIAMS HARRYS. DAWSON, Jr.
 
 ## PATRICIA G. GARFINKEL HARRIETJ . SMITH
 
-## SCOTT CROSSFIELD NEUONL. MILDER CAROLYN C. GREENFELD CAROLYN J . RADABAUGH DAVID D. CLEMENT JAM=PAUL SHIRLEY J . WATSON GLORIA J . DUNDERMAN
+## SCOTT CROSSFIELD NEUONL. MILDER CAROLYN C. GREENFELD CAROLYN J . RADABAUGH DAVIDD. CLEMENT JAM=PAUL SHIRLEY J . WATSON GLORIAJ . DUNDERMAN
 
 'Ranking Republican Member.
 
@@ -45,17 +43,17 @@ General Counsel ROBERTE. PALMER RADP~RD BYERLY, Jr. GEORGES. KOPP RONALD E. WILL
 
 (11)
 
-## LETTER OF SUBMITTAL U.S.HOUSE
+## LETTER OF SUBMITTAL
 
-> OF REPRESENTATIVES, Washington, DC, October 29, 1986.
+> U.S.HOUSEOF REPRESENTATIVES, Washington, DC, October 29, 1986.
 
 Hon. THOMAS P. O'NEILL,Jr., The Speaker of the US.House of Representatives, Washington, DC.
 
-DEAR MR. SPEAKER:
+DEARMR. SPEAKER:
 
-By direction of the Committee on Science and Technology,[^1] hereby submit the Committee's investigative report on the Chal- lenger accident. The report w as approved by the Committee on Oc- tober 7, 1986. The report was carried out under the direction of the Ranking Majority Member, Robert A. Roe, who chaired the hear- ings and instructed the Committee staff assigned to the investiga- tion.
+By direction of the Committee on Science and Technology,[^1] hereby submit the Committee's investigative report on the Chal- lenger accident. The report was approved by the Committee on Oc- tober 7, 1986. The report was carried out under the direction of the Ranking Majority Member, Robert A. Roe, who chaired the hear- ings and instructed the Committee staff assigned to the investiga- tion.
 
-> Sincerely, DONFUQUA, Chairman.
+> Sincerely, DONFUQUA,Chairman.
 
 Enclosure.
 
@@ -67,23 +65,25 @@ Enclosure.
 
 To Robert A. Roe, Ranking Majority Member, Committee on Science and Technology.
 
-DEAR MR. CHAIRMAN:
+DEARMR. CHAIRMAN:
 
 I a m forwarding this investigative report on the Challenger Acci- dent prepared at your request.
 
 On your instructions, the staff has carefully reviewed the infor- mation made available to the Committee and prepared the neces- sary findings and recommendations. The task was enormous and has been done in a careful and painstaking manner. I am especial- ly grateful to all the staff which is listed on the inside cover of the report for their professional and thorough application to this im- portant report. We worked in a collegial manner and on a com- pletely bipartisan basis. I particularly want to thank the three group leaders, Ron Williams, Terry Dawson and Harriet Smith who headed up the respective subgroups for the Accident, the Tech- nical, and the Management Issues.
 
-> Sincerely, ROBERT C. KETCHAM, General Counsel.
+> Sincerely, ROBERTC. KETCHAM,General Counsel.
 
-- CONTENTS Page I. INTRODUCTION......................................... 11. ........................................... CONCLUSIONS 111. C~MPILATION OF ISSUES, FINDINGS, AND RECOMMENDATIONS .......................... IV. ........................................................................................................... B~CKGROUND 35 V. THEACCIDENT — 39
+- CONTENTS Page I. INTRODUCTION......................................... ........................................... 11. CONCLUSIONS 111. C~MPILATION OF ISSUES,FINDINGS, AND RECOMMENDATIONS .......................... IV. B~CKGROUND — 35
 
-............................... ......................... ...................... ...................... VII. CASING JOINT DESIGN ........ ............................. ...................... VIII. LAUNCH OPERATIONS ......... I x . DEFINITION OF TERMS AND X. APPENDICES ......................... V-A .............................. .......................... lVlll
+- V. THEACCIDENT — 39
+
+............................... ......................... ...................... ...................... VII. CASINGJOINTDESIGN ........ ............................. ...................... VIII. LAUNCHOPERATIONS ......... I x . DEFINITION OF TERMS AND X. APPENDICES ......................... V-A .............................. .......................... lVlll
 
 - vrrr Page V-G — 285
 
 - 286 288 290 292 319 321 327 369 376 278 280 VIII-B — 384
 
-- .......... V I I I C — 387
+- V I I I C — 387
 
 - VIII-D — 393
 
@@ -97,17 +97,15 @@ On your instructions, the staff has carefully reviewed the infor- mation made av
 
 - . VIII-K ... ............................................ ................................... ,.,.,......,, — 438
 
-Union Calendar No. 600
+Union Calendar No. 600 9 9 ~ ~
 
-## 9 9 CONGRESS
-
-~ ~
+## CONGRESS
 
 2d session } HOUSE OF REPRESENTATIVES I REPORT gg-io16
 
-## INVESTIGATION OF THE CHALLENGER ACCIDENT OCTOBES
+## INVESTIGATION OF THE CHALLENGER ACCIDENT
 
-> 29, 1986.-Committed to the Committee of the Whole House on the State of the Union and ordered to be printed
+OCTOBES29, 1986.-Committed to the Committee of the Whole House on the State of the Union and ordered to be printed
 
 > Mr. FUQUA, from the Committee on Science and Teshnology, submitted the following
 
@@ -179,7 +177,25 @@ In other areas, the Committee reached somewhat different con- clusions than the 
 
 %%page 5%%
 
-> and contractor personnel, who failed to act decisively to solve the increasingly serious anomalies in the Solid Rocket Booster joints. Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0- rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem. There was no sense of urgency on their part to correct the design flaws in the SRB. No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance. Rather, NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program. The Committee has more concerns than those expressed by the Rogers Commission about the relative safety of the Space Shuttle Main Engine. We are impressed by the so- phistication and performance of the Main Engine, but are concerned that it may have inadequate safety margins to ensure continued safe operation. The Committee is also concerned by the presence of persistent operating prob- lems with the engine (e.g., cracked turbine blades and de- fective hydraulic actuators and temperature sensors), and believes that NASA should give serious consideration to not allowing the Main Engine to be operated (except in emergency situations) at a thrust level greater than the standard 104 percent. On the other hand, should NASA de- termine that a higher engine thrust setting is needed for programmatic reasons, the Committee believes that the space agency should take whatever actions are required to ensure that adequate operating margins are present to maintain safety. The Committee has gone beyond the Rogers Commission in recommending a new system specification to overcome the inadequacies of the landing gear, tire, wheel, brake and nose wheel steering systems. The Committee also con- cluded that orbiter landings appear to be high risk even under ideal conditions, which seldom occur. The Rogers Commission stated that "there appears to be a departure from the philosophy of the 1960s and 1970s re- lating to the use of astronauts in management positions."2 In contrast, after taking testimony from several former and current astronauts, the Committee could find no evi- dence that astronauts are denied the opportunity to enter management if they so choose. On the other hand, prior to the STS 51-L accident, astronauts were not encouraged to enter management.
+and contractor personnel, who failed to act decisively to solve the increasingly serious anomalies in the Solid
+
+Rocket Booster joints.
+
+Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem.
+
+There was no sense of urgency on their part to correct the design flaws in the SRB. No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance. Rather,
+
+NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program.
+
+The Committee has more concerns than those expressed by the Rogers Commission about the relative safety of the
+
+Space Shuttle Main Engine. We are impressed by the sophistication and performance of the Main Engine, but are concerned that it may have inadequate safety margins to ensure continued safe operation. The Committee is also concerned by the presence of persistent operating problems with the engine (e.g., cracked turbine blades and defective hydraulic actuators and temperature sensors), and believes that NASA should give serious consideration to not allowing the Main Engine to be operated (except in emergency situations) at a thrust level greater than the standard 104 percent. On the other hand, should NASA determine that a higher engine thrust setting is needed for programmatic reasons, the Committee believes that the space agency should take whatever actions are required to ensure that adequate operating margins are present to maintain safety.
+
+The Committee has gone beyond the Rogers Commission in recommending a new system specification to overcome the inadequacies of the landing gear, tire, wheel, brake and nose wheel steering systems. The Committee also concluded that orbiter landings appear to be high risk even under ideal conditions, which seldom occur.
+
+The Rogers Commission stated that "there appears to be a departure from the philosophy of the 1960s and 1970s relating to the use of astronauts in management positions."2
+
+In contrast, after taking testimony from several former and current astronauts, the Committee could find no evidence that astronauts are denied the opportunity to enter management if they so choose. On the other hand, prior to the STS 51-L accident, astronauts were not encouraged to enter management.
 
 %%page 6%%
 
@@ -671,7 +687,7 @@ Is the process for establishing launch constraints and dealing with them effecti
 
 2. Launch Constraints were often waived after developing a ra- tionale for accepting the problem rather than correcting the prob- lem; moreover, this rationale was not always based on sound engi- neering or scientific principles.
 
-64-420 0 - 86 - 2
+6 4 - 4 2 0 0 - 86 - 2
 
 %%page 26%%
 
@@ -695,13 +711,13 @@ Are launch readiness review procedures and communications adequate? Finding
 
 The Committee finds that the review procedures and communica- tions used to assure flight readiness were systematic, thorough, and comprehensive and provided ample opportunity for surfacing hard- ware problems prior to flight. Level I FRRS are usually recorded (audio); however, there is often no record made of other key pre- launch meetings. Recommendation
 
-NASA should make every reasonable effort to record meetings where key decisions might be made; in particular, all formal Flight Readiness Reviews, including the G 1 and the Mission Manage ment Team meeting should be recorded, where feasible by video.
+NASA should make every reasonable effort to record meetings where key decisions might be made; in particular, all formal Flight Readiness Reviews, including the G1 and the Mission Manage ment Team meeting should be recorded, where feasible by video.
 
 %%page 27%%
 
 Issue 4
 
-W as the failure to inform the Level I or Level I1 Program Man- agers of the Teleconference involving NASA and Morton Thiokol on the eve of the launch a factor in the decision to launch? Findings
+Was the failure to inform the Level I or Level I1 Program Man- agers of the Teleconference involving NASA and Morton Thiokol on the eve of the launch a factor in the decision to launch? Findings
 
 1. The Committee finds that Marshall management used poor judgment in not informing the NSTS Program Manager or the a Level I Manager of the events that took place the ni ht before the launch, specifically the stated concerns of the Thio 01 engineers. However, the Committee finds no evidence to support a suggestion that the outcome would have been any different had they been told.
 
@@ -917,7 +933,7 @@ June 11, 1986 ..........[^7] ...............Dr. James C. Fletcher, Administrator
 
 June 12, 1986.......... 12 Dr. James C. Fletcher, Administrator, NASA.
 
-> Arnold D. Aldrich, Manager, National Space Transportation System, NASA. Mr.[^1] . Michael Weeks, Deputy Associate Administrator (Technical), Dffice of Space Flight, NASA. Dr. Milton A. Silvera, Chief Engineer, NASA. RADM Richard Truly, Associate Administrator for Space Flight, NASA. J.R. Thwnpscn, V w Chairman, NASA, STS 51-L Design and Data Analysis Task Force, NASA. Dr. William Graham, Deputy Administrator, NASA REPRESENTATIVES FROM NASA's TASK TEAMS Dan Germany, Deputy Manager, Space Station Project Office, NASA, Johnson Space Center. John Thomas, Manager Ad Hoc, Solid Rocket Motor Design Team, Marshall Space Flight Center. Thomas 1. "Jack" Lee, Deputy Director, Marshall Space Flight Center. Thomas Hollway, Chief, Flight Director Dffice, NASA, Johnson Space Flight Center. Thomas Utsman, Deputy Director, NASA, Kennedy Space Center.
+> Arnold D. Aldrich, Manager, National Space Transportation System, NASA. Mr. 1. Michael Weeks, Deputy Associate Administrator (Technical), Dffice of Space Flight, NASA. Dr. Milton A. Silvera, Chief Engineer, NASA. RADM Richard Truly, Associate Administrator for Space Flight, NASA. J.R. Thwnpscn, Vw Chairman, NASA, STS 51-L Design and Data Analysis Task Force, NASA. Dr. William Graham, Deputy Administrator, NASA REPRESENTATIVES FROM NASA's TASK TEAMS Dan Germany, Deputy Manager, Space Station Project Office, NASA, Johnson Space Center. John Thomas, Manager Ad Hoc, Solid Rocket Motor Design Team, Marshall Space Flight Center. Thomas 1. "Jack" Lee, Deputy Director, Marshall Space Flight Center. Thomas Hollway, Chief, Flight Director Dffice, NASA, Johnson Space Flight Center. Thomas Utsman, Deputy Director, NASA, Kennedy Space Center.
 
 June 17, 1986..........[^10] ............. Charles S. Locke, Chairman of the Board and Chief Executive Officer, Morton Thiokole.
 
@@ -951,7 +967,7 @@ July 23, 1986...........[^2] ............... Alan M. Lovelace, Vice President an
 
 July 24, 1986...........[^5] ............... Lt. Gen. James A. Abrahamson, Director, Strategic Defense Initiative, Department of Defense.
 
-> Jesse W. Moore, Director, Johnson Space Center, NASA/Houston, Texas. Robert F. Thompson, Vice President, Space Stations, McOonnell Douglas Astronautics Ca. G.S. Lunney, President, Satellite Systems Division, Rockwell International. Arnold Aldrich, Manager, National Space Transportation System, Lyndon 6. Johnson Space Center. NAWHouston. Texas. Total............[^60] ..........[^1] Continued from June 17, Morton Thiokol only.
+> Jesse W. Moore, Director, Johnson Space Center, NASA/Houston, Texas. Robert F. Thompson, Vice President, Space Stations, McOonnell Douglas Astronautics Ca. G.S. Lunney, President, Satellite Systems Division, Rockwell International. Arnold Aldrich, Manager, National Space Transportation System, Lyndon 6. Johnson Space Center. NAWHouston. Texas. Total............ 60 ..........[^1] Continued from June 17, Morton Thiokol only.
 
 ## THE ACCIDENT
 
@@ -973,13 +989,13 @@ We hope this section, as well as Sections VII and VIII, properly identify the mi
 
 %%page 40%%
 
-For the benefit of those who may not be familiar with the Space Transportation System, the Shuttle consists of a n Orbiter (51-L's Orbiter, the Challenger, was one of a four-vehicle fleet), a n Exter- nal Tank (ET), and two Solid Rocket Boosters (SRBs). (See Figure V-1.) A brief description of the Solid Rocket Booster and the Solid Rocket Motors is included to familiarize readers with these sys- tems.
+For the benefit of those who may not be familiar with the Space Transportation System, the Shuttle consists of a n Orbiter (51-L's Orbiter, the Challenger, was one of a four-vehicle fleet), a n Exter- nal Tank (ET),and two Solid Rocket Boosters (SRBs). (See Figure V-1.) A brief description of the Solid Rocket Booster and the Solid Rocket Motors is included to familiarize readers with these sys- tems.
 
 %%page 41%%
 
 ## EXTERNAL TANK
 
-> - / - t/ ..:\:
+- / -t/ ..:\:
 
 ## LEFT'SOLID ROCKET BOOSTER I
 
@@ -1021,9 +1037,7 @@ SREI SEGMENT I yon o x i d e powder
 
 > AFT SEGMENT ' Empty: (193.000 p o u n d s ) P r o p e I l a n t : ( 1 ,[^1] 0 7 , 0 0 0 pounds) WITH NOZZLE Gross: (1,300,000 pounds)
 
-## AFT SKIRT FIGURE
-
-V-2
+## AFT SKIRT FIGUREV-2
 
 Each motor case is made of 11 individual weld-free steel seg- ments (Figure V-3). Averaging approximately 1.27 centimeters (0.5 inch) thick, the steel is a high-strength formulation. Each segment is heat-treated, hardened, and machined to the exact dimensions required. The 11 segments are held together by 177 high-strength steel pins at each case segment joint. The clevis-type joints are wrapped with reinforced fiberglass tape and sealed with a rubber seal band that is bonded to the case with adhesives.
 
@@ -1055,7 +1069,7 @@ The following chart describes the principal steps in the evolution, flight, and 
 
 ## SOLID ROCKET MOTOR PRINCIPAL STEPS I N THE EVOLUTION, FLIGHT AND RECONDITIONING OF SOLID ROCKET MOTORS
 
-1 7
+- 1 — 7
 
 ## PROGRAH DIRECTION BY
 
@@ -1147,11 +1161,7 @@ Considerable reference will be made to the "joint design" throughout this sectio
 
 %%page 47%%
 
-## OPELLANT INSULAT
-
-<
-
-## - TPPER STEEL ASING STEEL
+## OPELLANT INSULAT -< TPPER STEEL ASING STEEL
 
 'INS
 
@@ -1169,11 +1179,7 @@ CLEV I s
 
 %%page 49%%
 
-## B . JO I NT POTATED (OUT OF ALIGNFENTI
-
-> - \
-
-## 7 PROPELLPNT PRESSUPE
+## B . JO I NT POTATED (OUT OF ALIGNFENTI -\7 PROPELLPNT PRESSUPE
 
 l- TY
 
@@ -1183,9 +1189,9 @@ V-7
 
 %%page 50%%
 
-## ROCKET
+## ROCKETMOTORS
 
-## SOLID MOTORS
+## SOLID
 
 ## HISTORY
 
@@ -1257,9 +1263,7 @@ January 9, 1978.-Major problems with the joint design were identified when Mr. J
 
 November 7, 1978.-Ten months later it would appear that there was nothing to worry about when a letter from E. G. Dorsey of Thiokol to Mr. George Hardy of MSFC contained the statement, "The extrusion data presented in the review and mentioned in the minutes have confirmed the capability of the O-rings to prevent leakage under the worst hardware conditions." Mr. Dorsey at- tached the Thiokol TWR-12019, dated October 6, 1978 to his letter.
 
-February 2, 1979.-Mr. Eudy and Mr. Ray of NASA visited the Parker Seal Company. A trip report was sent to Messrs. Hardy/ Rice/McCool of NASA which contained the following statement "Parker experts would make no official statements concerning reli- ability and potential risk factors associated with the present design however, their first thought was that the O-ring was being asked to perform beyond its intended design and that a different type of seal should he considered. The need for additional testing of the present design was also discussed and it was agreed that tests which more ld NASA, Marshall Space Flight Center, "Design, Development and Verification Team Report. Solid Rocket M o t o ~
-
-Project," November 1973, p. 50.[^2] NASA, "Selectlon of Contractor for Space Shuttle Program, Solid Rocket Motors," January 2, 1974.
+February 2, 1979.-Mr. Eudy and Mr. Ray of NASA visited the Parker Seal Company. A trip report was sent to Messrs. Hardy/ Rice/McCool of NASA which contained the following statement "Parker experts would make no official statements concerning reli- ability and potential risk factors associated with the present design however, their first thought was that the O-ring was being asked to perform beyond its intended design and that a different type of seal should he considered. The need for additional testing of the present design was also discussed and it was agreed that tests which more ld NASA, Marshall Space Flight Center, "Design, Development and Verification Team Report. Solid Rocket M o t o ~Project," November 1973, p. 50.[^2] NASA, "Selectlon of Contractor for Space Shuttle Program, Solid Rocket Motors," January 2, 1974.
 
 %%page 53%%
 
@@ -1315,11 +1319,11 @@ Flights STS41-G and STS51-A successfullv flew without O-ring damage, a fact that
 
 January 24, 1985.-With a calculated O-ring temperature of 53 degrees F, STS51-C suffered erosion and blow-by in the two case field joints. The primary O-ring in the left-hand forward field joint was eroded 0.010 inches over a span of 4.25 inches at the 163 degree location, with a considerable amount of soot between the primary and secondary O-rings. The primary O-ring in the right- hand center field joint was eroded 0.038 inches over a 12.5 inch space at the 354 degree location. There was soot behind the pri- mary O-ring over a 110 degree arc and the secondary O-ring was heat damaged over a span of 29.5 inches.
 
-January 3 1, 1985.-At the STS51-E Preboard review, Thiokol personnel described the previous O-ring damage in detail as well as l 3 NASA, letter from John Miller, MSFC. "Evaluation of TWR-14359, 'Program Plan, Protec. tion of Space, Shuttle SRM Prima Motor Seals,'" EP 25 (84-49). M a y 23, 1984.
+January 31, 1985.-At the STS51-E Preboard review, Thiokol personnel described the previous O-ring damage in detail as well as l 3 NASA, letter from John Miller, MSFC. "Evaluation of TWR-14359, 'Program Plan, Protec. tion of Space, Shuttle SRM Prima Motor Seals,'" EP 25 (84-49). M a y 23, 1984.
 
 "-ern Commission %port, V X m e XI, p. H-1.
 
-I5Ibid.
+I5 Ibid.
 
 I6Ibid.
 
@@ -1341,7 +1345,7 @@ March Z 1985.-MSFC Memo to Mr. Mulloy from Mr. McCool. McCool was concerned that
 
 April 4, 1985.-A letter from MSFC to Mr. Joseph Kilminster of Morton Thiokol requested specific sub-scale and full-scale tests on effects of zinc chromate putties on O-ring sealing integrity.
 
-April 12, 1985.-STS 51-D was launched and, upon disassembly, erosion of the primary O-rings in both nozzle joints was discovered. The right-hand nozzle primary O-ring eroded to a depth of 0.068 inches over a 6 inch span at the 116 degree location. The left-hand nozzle primary O-ring eroded to a depth of 0.011 inches over a 2.12 inch span at the 14 degree location. There w as no blow-by past either nozzle O-ring.
+April 12, 1985.-STS 51-D was launched and, upon disassembly, erosion of the primary O-rings in both nozzle joints was discovered. The right-hand nozzle primary O-ring eroded to a depth of 0.068 inches over a 6 inch span at the 116 degree location. The left-hand nozzle primary O-ring eroded to a depth of 0.011 inches over a 2.12 inch span at the 14 degree location. There was no blow-by past either nozzle O-ring.
 
 April lc 1985.-The Shuttle Projects Board for STS 51-B was held without mention of seal problems. There was also no mention of seal problems associated with STS 51-C or 51-D at the Level 1 Flight Readiness Review on April 23, 1985.24
 
@@ -1375,7 +1379,9 @@ July 2, 1985.-Mr. Mulloy briefed the Level I Flight Readiness Review for STS 51-
 
 July 19, 1985.-An attempt to form an SRM Erosion team at Thiokol "virtually failed" according to Mr. Roger M. Boisjoly be- cause of lack of commitment on the part of Thiokol personnel.
 
-July 22, 1985.-One of the engineers who appreciated the joint problem was Mr. Boisjoly of Morton Thiokol. In a "Progress Report" he wrote, "This problems has escalated so badly in the eyes of everyone, especially our customer, NASA, that NASA has gone to our competitors on a proprietary basis and solicited their experiences on their joint configuration."31 (See Appendix V-G.)[^26] Ibid. 2T Ibid.[^2] 8 Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.
+July 22, 1985.-One of the engineers who appreciated the joint problem was Mr. Boisjoly of Morton Thiokol. In a "Progress Report" he wrote, "This problems has escalated so badly in the eyes of everyone, especially our customer, NASA, that NASA has gone to our competitors on a proprietary basis and solicited their experiences on their joint configuration."31 (See Appendix V-G.)
+
+26 Ibid. 2T Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.
 
 6 4 - 4 2 0 0 - 86 - 3
 
@@ -1561,9 +1567,7 @@ The following is the most probable sequence of the joint failure:
 
 8. The primary O-ring was sealed at other locations around the motor casings.
 
-9. The breach in the primary O-ring clogged with burned char and aluminum oxide from the - propellant
-
-- in less than 3 seconds, causing the smoke to stop.
+9. The breach in the primary O-ring clogged with burned char and aluminum oxide from the -propellant- in less than 3 seconds, causing the smoke to stop.
 
 10. At 37 seconds,[^45] seconds and 58 seconds into the flight, the Space Shuttle encountered heavy turbulence, which forced the steering controls to cycle through changes more severe than previ- ous flights.
 
@@ -1779,7 +1783,9 @@ The Committee also affirms the Rogers Commission finding that the evidence does 
 
 The failed joint in the Solid Rocket Motor permitted the burning solid propellant gases to escape in the direction of the aft External Tank attachment strut. Temperatures and velocity of these gases caused a rapid erosion and deterioration of the aft strut to the point where it failed structurally under turbulence and maneuver- ing loads. There were no deficiencies in the design of the external strut. However, the strut was not designed to withstand the "blow- torch" effect of the propellant hot gas stream. During its investiga- tion, the Committee staff visited Martin Marietta's External Tank assembly plant in Louisiana. An issue raised during this visit was whether or not the strut could be relocated such that in the event of another #hint €ailure in that vicinity, the strut would not be damaged. It was learned that relocating the aft strut created more problems that it solved. Furthermore, it was also learned that the gas stream would have almost instantly cut through the insulation on the External Tank and destroyed it anyway. After the failure of the aft strut, the flame continued to bear on the bottom of the Ex- ternal Tank, breaching that tank at the joint of the aft dome. This caused the liquid hydrogen to escape from the tank. Once the flame had penetrated the tank at the weld of the aft dome the fail- ure of that weld spread rapidly and completely around the tank's diameter severing the dome from the rest of the tank. The burning hydrogen ignited by the flame then caused the External Tank to act much like a rocket and created an upward thrust. The right Solid Rocket Booster without the attachment strut to the External Tank, rotated around its long In SO doing, it may have
 
-38 bid., Volume I, p. 42.[^40] Ibid.[^41] Ibid.
+38 bid., Volume I, p. 42.
+
+40 Ibid.[^4] 1 Ibid.
 
 *In It should be noted that the right Solid Rocket Booster did not awing outward at the bottom and cause the now of the booster to collide with the External Tank as had originally been thought. For this to have happened, the right Solid Rocket Booster would have extended out- ward at the bottom at a wide angle that is not supported by any of the photographic or telemet- ric evidence.
 
@@ -1813,7 +1819,7 @@ Specifically, the Committee finds that the Space Shuttle System was not designed
 
 Joseph P. Kenvin of NASA's Johnson Space Center summarized the circumstances in a memo to Rear Admiral Richard H. Truly, Associate Administrator for Space Flight. The undated memo read as follows:
 
-> DEARADMIRAL TRULY: The search for wreckage of the Challenger crew cabin has been completed. A team of engi- neers and scientists has analyzed the wreckage and all other available evidence in an attempt to determine the cause of death of the Challenger crew. This letter is to report to you the results of this effort. The findings are inconclusive. The impact of the crew compartment with the ocean surface was so violent that
+> DEARADMIRAL TRULY:The search for wreckage of the Challenger crew cabin has been completed. A team of engi- neers and scientists has analyzed the wreckage and all other available evidence in an attempt to determine the cause of death of the Challenger crew. This letter is to report to you the results of this effort. The findings are inconclusive. The impact of the crew compartment with the ocean surface was so violent that
 
 evidence of damage occurring in the seconds which fol-
 
@@ -1821,9 +1827,7 @@ evidence of damage occurring in the seconds which fol-
 
 support the above conclusions, and these are related below:
 
-> The forces on the Orbiter at breakup were probably too low to cause death or serious injury to the crew but were sufficient to separate the crew compartment from the for- ward fuselage, cargo bay, nose cone, and forward reaction control compartment. The forces applied to the Orbiter to cause such destruction clearly exceed its design limits. The data available to estimate the magnitude and direc- tion of these forces included ground photographs and measurements from onboard accelerometers, which were lost two-tenths of a second after vehicle breakup.
-
-42 Rogers Commission Report, Volume V. p. 1431.[^45] bid., Volume I, p. 180.
+> The forces on the Orbiter at breakup were probably too low to cause death or serious injury to the crew but were sufficient to separate the crew compartment from the for- ward fuselage, cargo bay, nose cone, and forward reaction control compartment. The forces applied to the Orbiter to cause such destruction clearly exceed its design limits. The data available to estimate the magnitude and direc- tion of these forces included ground photographs and measurements from onboard accelerometers, which were lost two-tenths of a second after vehicle breakup.[^42] Rogers Commission Report, Volume V. p. 1431.[^45] bid., Volume I, p. 180.
 
 %%page 78%%
 
@@ -1971,7 +1975,7 @@ And,
 
 > JSC 07700, Volume X [the NASA master requirements document for the Space Shuttle program], clearly states the natural and induced environments to which the SRM [Solid Rocket Motor] is to be designed and verified. The field joints . . . were not qualification tested to the full range of the contractually required environments. This led to a lack of complete understanding of the joint design limits.6
 
-bi d. ,Volume I, pp. 160-161 3 Ibid., pp. 124-125.[^4] bid., Volume 11, p. K-24.
+bid.,Volume I, pp. 160-161 3 Ibid., pp. 124-125.[^4] bid., Volume 11, p. K-24.
 
 Ibid., Volume I, p. 148. 6 bid., Volume XI, p. K-30.
 
@@ -2003,7 +2007,7 @@ Does the Space Shuttle Main Engine have adequate operating margins, and is the "
 
 3. NASA should closely scrutinize each of the concerns raised by Dr. Feynman regarding the agency's "fleet leader" concept for cer- tifying Space Shuttle Main Engine components. The agency should also closely reassess its practice of selectively violating its "2X' rule for some Main Engine flight hardware elements. Discussion
 
-The Space Shuttle Main Engine is, very appropriately, described by the Development and Production Team as a "high technology, high power density, state-of-the-art rocket engine." ' I Indeed, the Space Shuttle Main Engine represents a major increase in operat- ing performance over that provided by any other available rocket motor. In his paper Dr. Feynman notes that the Main Engine "is built at the edge of, or outside of, previous engineering experi- ence."s "he Development and Production Team also observed that the Space Shuttle Main Engine is "a very complex and high risk element of the Space Shuttle system."
+The Space Shuttle Main Engine is, very appropriately, described by the Development and Production Team as a "high technology, high power density, state-of-the-art rocket engine." 'I Indeed, the Space Shuttle Main Engine represents a major increase in operat- ing performance over that provided by any other available rocket motor. In his paper Dr. Feynman notes that the Main Engine "is built at the edge of, or outside of, previous engineering experi- ence."s "he Development and Production Team also observed that the Space Shuttle Main Engine is "a very complex and high risk element of the Space Shuttle system."
 
 It is this last observation that is of more concern here. Specifical- ly, if the Space Shuttle Main Engine were to experience a major problem in flight, the results could be catastrophic. Even prema- ture engine shutdown could prove fatal during certain segments of flight because it would mean that the Orbiter would have to ditch at sea-a maneuver that the Rogers Commission concluded would probably be non-survivable. O
 
@@ -2095,7 +2099,7 @@ The brakes by all standards are very large, very light, of conven- tional config
 
 %%page 2%%
 
-> w 3
+w
 
 %%page 96%%
 
@@ -2111,7 +2115,7 @@ Drogue chute ............................................... Primary deceleratio
 
 deceleration. Wheel brake life .....................................[^5] landings dynamometer certified ................Same.
 
-> (Typical: Bombers..............................................[^40] landings. Airliners...............................................[^100] landings 5 max landings.[^1] emergency. (all without thrust reversal)
+> (Typical: Bombers.............................................. 40 landings. Airliners...............................................[^100] landings 5 max landings.[^1] emergency. (all without thrust reversal)
 
 The whole operational load to decelerate, stop, and steer fell on what was originally the emergency backup brake system. The five landing design is impossible to fine tune to that degree and may yield only a design of imminent failure. It follows that every land- ing with the now increased normal and abort landing weights is a n engineered emergency. How much the increased demands and weight have intruded into the landing gear strut design factor of safety and margin are unknown, but certainly a concern.
 
@@ -2217,13 +2221,9 @@ We have given ourselves confidence in flying the engine with those kinds of blad
 
 During staff discussions with NASA personnel, the issue of SSME destruction testing arose. Some NASA personnel expressed the desire to test a n SSME to destruction, but noted the lack of test stands and hardware.39 Curentl , NASA and Rocketdyne have
 
-I three test stands. Some individua s privately noted that the SSME program should have four or five test stands to run and engine to destruction, to test product improvements, for flight support and anomaly resolution, and for acceptance tests of hardware. Others have explained that it is not necessarily the number of test stands that is the key to a successful SSME program, but rather the
-
-3 4 Ibid., pp. K-23 through K-27; K-31.
+I three test stands. Some individua s privately noted that the SSME program should have four or five test stands to run and engine to destruction, to test product improvements, for flight support and anomaly resolution, and for acceptance tests of hardware. Others have explained that it is not necessarily the number of test stands that is the key to a successful SSME program, but rather the amount of hardware available to feed the test stands. The Rogers Commission found that:
 
 %%page 103%%
-
-amount of hardware available to feed the test stands. The Rogers Commission found that:
 
 > The number of engine test firings per month had de- creased over the past two years. Yet this test program has not yet demonstrated the limits of engine operation pa- rameters or included tests over the full operating envelope to show full engine capability. In addition, tests have not yet been deliberately conducted to the point of failure to determine actual engine operating margins.40
 
@@ -2239,7 +2239,7 @@ Is the leak/combustion threat of the External Tank's hydrogen pressure valve a h
 
 2. The Committee suports the intent of the ET prime contractor, Martin Marietta, to pursue outdoor wind tunnel testing to elimi- nate the liquid hydrogen vent/relief valve h a ~ a r d . ~
 
-4o Rogers Commission Report, Volume I, p. 192. 4L Ibid., Volume 11, p. F-2.[^4] 2 Ibid., Volume I, pp. 192-93.[^4] 3 Ibid., Volume 11, p. K-23.
+4 o Rogers Commission Report, Volume I, p. 192.[^4] L Ibid., Volume 11, p. F-2.
 
 %%page 104%%
 
@@ -2299,7 +2299,7 @@ Full X-ray inspection was conducted on all SRM segments used in the demonstratio
 
 After evaluation of data from the SRM segments used up through STS-5 and data from military Solid Rocket Motors, NASA's confidence in the SRM production process was such that the SRM X-ray policy was changed. A cost-benefit analysis also contributed to this decision. Beginning with STS-6, X-ray inspec- tion was only conducted on all aft segments in the propellant hand- trimmed area and the segment produced following the identifica- tion of a process anomaly, process change, or design change. X-ray inspection of the aft segments in the propellant hand-trimmed area was continued because data indicated that only 3 percent of a seg- ment's insulation had to be bonded, particularly the ends, in order of the segment to burn properly and safely. In October of 1985 NASA implemented a recommendation from the Aerospace Adviso- ry Panel to change its X-ray policy to include random inspection of one SRM segment per month. Because of a SRM production lead
 
-48 Rogers Commission Report, Volume I, p. 121.
+4 8 Rogers Commission Report, Volume I, p. 121.
 
 JODavid E. Sanger, "Flaw in Titan's Boosters is Identified," the New York Times, June 4, 1986, p. A-23.[^5] 1 Isikoff, pp. A-1, A-20.[^5] 2 Sanger, p. A-23 time of approximately eight months, no SRM segment inspected under this new policy was flown before the 51-L accident.54
 
@@ -2313,7 +2313,7 @@ Are all production and other activities involving Criticality 1 and 1R hardware 
 
 2. The O-ring used in the case joint is critical to the sealing in- tegrity of the joint, et it is not designated as a "critical process by
 
-B either the Parker eal Co. or Hydrapack, the manufacturer and supplier re~pectively.~ This raises the possibility that other Criti- cality 1 and 1R hardware components are also not appropriately designated by their manufacturer as "critical" processes. Recommendations
+B either the Parker eal Co. or Hydrapack, the manufacturer and supplier re~pectively.~This raises the possibility that other Criti- cality 1 and 1R hardware components are also not appropriately designated by their manufacturer as "critical" processes. Recommendations
 
 1. NASA should require the manufacture of critical items, such as the O-rings, to be designated "critical" processes. Contractors should formally notify their employees involved in critical manu- facturing processes of the serious nature of particular production processes.
 
@@ -2425,11 +2425,11 @@ Another distinction of this plan is that hardware will be com- pletely recertifi
 
 87 Ibid., p. 96.
 
-Ibid., p. 98.[^5] 9 Ibid., p. 50.
+Ibid., p. 98.
 
 %%page 113%%
 
-> Mr. ROE.. . . we're talking, where at all possible, actual field testing. Do you concur with that approach? . . . Mr. DAVIS. Yes, I'd say I agree with that. As a matter of fact, I believe that's what all the program contractors, are out doing at this point.'O
+> Mr. ROE.. . . we're talking, where at all possible, actual field testing. Do you concur with that approach? . . . Mr. DAVIS.Yes, I'd say I agree with that. As a matter of fact, I believe that's what all the program contractors, are out doing at this point.'O
 
 The use of independent review contractors is a necessary and critical component of the recertification plan. However, a legiti- mate concern has been raised by the current contractors and Com- mittee staff regarding the ability of independent contractors to review technologies and components for which they may have lim- ited expertise. For example, solid and liquid rocket propulsion has often been referred to as a "black art" for which there are few ex- perts. NASA has contracted with Martin Marietta to independent- ly review the SRB and SRM certification. Understanding the uniqueness of rocket propulsion, Martin Marietta has supplement- ed their in-house talent with outside experts to assist in the certifi- cation review.
 
@@ -2487,7 +2487,7 @@ Lockheed's award fees at the Kennedy Space Center have not been at the highest p
 
 ## LOCKHEED SHUTTLE PROCESSING CONTRACT-AWARD FEE HISTORY
 
-> Percent of Period From : ! ; :A Rating adjective Rating maximum Award fee m re award lee earned earned
+> Percent of Period From : ! ; :A Rating adjective Rating maximum Award fee mre award lee earned earned
 
 First ............................................... Oct. 1, 1983 ............ $6,618,880 Excellent ............... 90.0 80 $5,295,104 Second........................................... Apr. 1, 1984 ............ 1,299,404 Good ..................... 78.5 32 415,809 Third .............................................. Oct. 1, 1984 ............ 1,308,554 (;ood ..................... 76.0 24 314,053 Fourth............................................ Apr. 1, 1985 ............ 1,308,554 Excellent ............... 91.0 84 1,099,185 Fifth............................................... Oct. 1, 1985 ............ 1,308,554 Very good ............. 89.0 76 994,501 Sixth .............................................. Apr.1,1986 ............ 1,296,664 ( 1 ) ....................... (I) (l) (')[^1] To be determined.
 
@@ -2499,7 +2499,7 @@ The number of cannibalized parts was increasing at an alarming rate. Forty-five 
 
 The cause of the spare parts crisis was budgetary decisionmaking by NASA management. In October, 1985, the logistics funding re- quirements for the Orbiter program, as determined by Level I11 management a t Johnson, were $285.3 million, but that funding was reduced by $83.3 million, necessitating major deferral of purchases of ~ p a r e s . ~By
 
-> 6 the spring of 1986, the Shuttle logistics program 73 Rogers Commission Report, Volume 11, p. 1-16. 71 bid.[^7] s Cmte HE Transcript, July 16, 1986, p. 42. Rogers mmiasion Report, V o l u m e I, p. 173.
+> 6 the spring of 1986, the Shuttle logistics program 73 Rogers Commission Report, Volume 11, p. 1-16. 71 bid. 7s Cmte HE Transcript, July 16, 1986, p. 42. Rogers mmiasion Report, V o l u m e I, p. 173.
 
 %%page 117%%
 
@@ -2515,13 +2515,13 @@ At Committee hearings, contractors reacted predictably to pro- posed changes in 
 
 Ultimately, SPC performance will determine the proper balance of development contractors in the processing contract. NASA, in close consultation with the Congress, will need to make an impar- tial and ongoing assessment of comparative safety and performance under a consolidated versus unconsolidated SPC. Preliminary fig- ures from NASA seem to indicate that Shuttle processing incidents have actually declined during the more recent consolidated-con- tract phase.82 Further, it is likely that the fundamental problem to date with the SPC-overtime-would be exacerbated by the addi- tional contractor coordination that would be required by greater in- clusion of development contractors.
 
-77 Cmte Hgs, Transcript, July 1 1, 1986, p. 39.
+77 Cmte Hgs, Transcript, July 11, 1986, p. 39.
 
 78 Rogers Cornmission Report, Volume 11, p. K-32.
 
 '9 Rogers Commission Report, Volume I, p. 195.
 
-> Cmte Hgs, Transc+pt, July 15, 1986, p. 62. Cmte H gs,Transcript, July 16, 1986, pp. 13-14.[^8] 2 NASA, documents on the SPC contract, supplied to the Committee in July, 1986; Cmte Hgs, Transcript, July 16,1986, p. 67, and Attachment C. The responsibility for high overtime rates in the SPC must be shared by both NASA and the contractor. Mr. E.D. Sargent, Presi- dent of Lockheed Space Operations Company, testified:
+> Cmte Hgs, Transc+pt, July 15, 1986, p. 62. Cmte Hgs,Transcript, July 16, 1986, pp. 13-14.[^8] 2 NASA, documents on the SPC contract, supplied to the Committee in July, 1986; Cmte Hgs, Transcript, July 16,1986, p. 67, and Attachment C. The responsibility for high overtime rates in the SPC must be shared by both NASA and the contractor. Mr. E.D.Sargent, Presi- dent of Lockheed Space Operations Company, testified:
 
 %%page 118%%
 
@@ -2585,7 +2585,7 @@ NASA prepared several reports for the Rogers Commission, and the Mission Plannin
 
 The disturbing fact is the trend in the NASA statements. The earlier statements (i.e., the Truly memo and the MPOT report) in- dicated an awareness of the danger of trying to achieve an imposed flight rate. However, as mentioned above, the most recent state- ment, the NASA response to the Commission, once again speaks of achieving the planned flight rate.
 
-The Rogers Commission has documented the fact that before the Challenger accident the Shuttle system was approaching a state of saturation in which no more flights could be accommodated. If the accident had not occurred flight rate saturation may have eventu- ally been reached due to bottlenecks in crew training on the mis- s6 NASA Response to Rogers Commission, July 14, 1986, p. 31. 9' bid., p. 33.[^9] * Rogers Commission Report, Volume 11, p. 1-14,[^9] 9 NASA Response to Rogers commission, July 14, 1986, p. 40.[^100] Rogers Commission Report, Volume 11, p. 5-31,
+The Rogers Commission has documented the fact that before the Challenger accident the Shuttle system was approaching a state of saturation in which no more flights could be accommodated. If the accident had not occurred flight rate saturation may have eventu- ally been reached due to bottlenecks in crew training on the mis- s 6 NASA Response to Rogers Commission, July 14, 1986, p. 31. 9'bid., p. 33. 9*Rogers Commission Report, Volume 11, p. 1-14, 99NASA Response to Rogers commission, July 14, 1986, p. 40.[^100] Rogers Commission Report, Volume 11, p. 5-31,
 
 64-420 0 - 86 - 5 sion simulators O or because of inadequate spare parts for the Or- biter. l o 2
 
@@ -2649,7 +2649,7 @@ I I I I I I I I I I I I I I I
 
 I I I I
 
-: -L I I I 1
+- : -L I I I — 1
 
 > I I
 
@@ -2687,7 +2687,7 @@ I 1 I
 
 > I I I I I Oll*T€@ SYSTEMSh W V % S I I I I I I I I I I I I I I L-10.9 I I I I
 
-> 0 L .3 b.5 1-7.7
+> 0 L.3 b.5 1-7.7
 
 VI-2
 
@@ -2719,7 +2719,7 @@ Training.-When training and other preparations is compressed, progam quality is 
 
 These errors apparently had no adverse impact on the mission, but indicate a breakdown of the discipline so necessary for a proc- ess as complex as launching a Shuttle.
 
-Shuttle crew training is an important part of mission prepara- tion. The crew of 51-L had training loads as high as 70, 63, 65, 59 and 58 hours in the several weeks before their launch. This was due to the fact that their training started some 3 weeks later than scheduled.
+Shuttle crew training is an important part of mission prepara- tion. The crew of 51-L had training loads as high as 70, 63, 65,[^59] and 58 hours in the several weeks before their launch. This was due to the fact that their training started some 3 weeks later than scheduled.
 
 It must be noted that the crew also had 3 easy weeks during this period. During the weeks which included Thanksgiving, Christmas and New Year's they only trained 31,[^27] and 49 hours, respectively. No harmful effects of compressed Shuttle crew training have been documented but common sense indicates that the situation must have been less than optimal.
 
@@ -2737,7 +2737,7 @@ Examination of the record shows that pressure to achieve the planned flight rate
 
 Manifest Changes-As described in detail above, the planning of a Shuttle mission requires more than a year of significant work, with the first major "freeze point" occurring 15 months before planned launch. A freeze point is a place in the mission planning schedule where decisions are made about the mission and its imple- mentations. In theory, these decisions are made in a cumulative fashion so that earlier decisions do not have to be changed as the mission is refined through the planning process. Indeed, if there are no changes, this is in fact the way the system works; however, there are changes.
 
-107 Ibid., p. 5-38. lo8 Ibid., pp. 5-7-12, *OQ Ibid., p. 5-42.
+107 Ibid., p. 5-38. lo8 Ibid., pp. 5-7-12, * O Q Ibid., p. 5-42.
 
 %%page 129%%
 
@@ -2875,7 +2875,7 @@ New Risks.-Consider for example the possibility of adding ejec- tion seats to th
 
 Additional Weight.-In order to accomplish its purpose, the Shuttle must put payloads, i.e., weight, in orbit. Adding weight to
 
-121 Briefing to Committee Staff, May 28, 1986, "Report of the First Stage Abort Options Histo- ry Task Group Chartered by the Mission Planning and Operations Team '-Barney Roberts, Ad- vanced Programs Office,Johnson Space Center.
+121Briefing to Committee Staff, May 28, 1986, "Report of the First Stage Abort Options Histo- ry Task Group Chartered by the Mission Planning and Operations Team '-Barney Roberts, Ad- vanced Programs Office,Johnson Space Center.
 
 %%page 136%%
 
@@ -2983,7 +2983,7 @@ the safety features into the component, thereby eliminating the failure mode or 
 
 On the other hand, with respect to certification testing of the Space Shuttle Main Engine, NASA seems to argue that a useful statistical data base can be generated even though the configura- tion of the engine is changed as data is accumulated. That is, as running time is accumulated in SSME certification testing, major components-e.g., the high pressure turbopumps-are replaced, and yet NASA seems to believe that the total accumulated running time has some meaning for determining engine life time. l30
 
-All subsystems of the NSTS are intended to meet design require- ments that incorporate the fail-safe features as a minimum with fail-operationaVfai1-safecriteria placed on all Orbiter avionics sys- tems. Fail-safe requirements are defined as designs which can withstand a single failure and permit return of the crew to the ground safely. Fail-operational/fail-safe is defined as permitting two sequential failures while enabling crew return. There are some parts of the NSTS which must be exempted from meeting these cri- teria. The reason is that it is not possible to improve the safety fea- tures of these systems through redundancy or other means. Such systems are the primary structure, the thermal protection system, pressure vessels and the premature firing mode of the pyrotech- nics. For example, the pressure vessel cannot be provided with re- dundancy in a safe manner because addition of another pressure vessel would only enhance the failure probability or the criticality of this component.
+All subsystems of the NSTS are intended to meet design require- ments that incorporate the fail-safe features as a minimum with fail-operationaVfai1-safecriteria placed on all Orbiter avionics sys- tems. Fail-safe requirements are defined as designs which can withstand a single failure and permit return of the crew to the ground safely. Fail-operational/fail-safeis defined as permitting two sequential failures while enabling crew return. There are some parts of the NSTS which must be exempted from meeting these cri- teria. The reason is that it is not possible to improve the safety fea- tures of these systems through redundancy or other means. Such systems are the primary structure, the thermal protection system, pressure vessels and the premature firing mode of the pyrotech- nics. For example, the pressure vessel cannot be provided with re- dundancy in a safe manner because addition of another pressure vessel would only enhance the failure probability or the criticality of this component.
 
 The FMEA is a very conservative analysis according to NASA since it provides information on worst case situations of all possible failure modes and the potential worst case effects. Even so, the Committee was unable to determine the degree to which flight anomalies and trend analyses in historical performance data are utilized to insure that the appropriate measures are taken in the design and testing of various critical components to assure ultimate safety and minimization of risk.
 
@@ -3019,7 +3019,7 @@ A launch constraint means that we have to address the observations, see if we ha
 
 The NSTS Program Manager stated that he was unaware that a launch constraint had been imposed as a result of the O-ring ero- sion. Unawareness of this launch constraint was also claimed by the Level I Program Office and key Thiokol personnel: Mssrs. Ebel- ing, Kilminster, Russell, McDonald, and Boisjoly.[^33]
 
-In staff briefings, it was suggested by NASA personnel that per- haps "launch constraint" was a poor choice of words to describe this process for flagging problems. Those individuals who claimed no knowledge of a launch constraint had certainly been made aware of the O-ring erosion problem. This problem and the resolu- tion had been discussed throughout the system including the FRRs. Therefore, although it is difficult to understand why the Program Manager and others weren't more familiar with the Marshall PAS, as a practical matter it probably had little effect on the final deci- sions. These "launch constraints" were potential problems that had to be resolved prior to flight and the Level 1 11 Project Managers were responsible for resolving any problems dealing with their sys- tems. During the Rogers Commission hearings, Mr. Mulloy ac- knowledged that he had ultimate responsibility for waivifig the launch constraints and ultimate responsibility for the launch readi- ness of the Solid Rocket Boosters.
+In staff briefings, it was suggested by NASA personnel that per- haps "launch constraint" was a poor choice of words to describe this process for flagging problems. Those individuals who claimed no knowledge of a launch constraint had certainly been made aware of the O-ring erosion problem. This problem and the resolu- tion had been discussed throughout the system including the FRRs. Therefore, although it is difficult to understand why the Program Manager and others weren't more familiar with the Marshall PAS, as a practical matter it probably had little effect on the final deci- sions. These "launch constraints" were potential problems that had to be resolved prior to flight and the Level 111 Project Managers were responsible for resolving any problems dealing with their sys- tems. During the Rogers Commission hearings, Mr. Mulloy ac- knowledged that he had ultimate responsibility for waivifig the launch constraints and ultimate responsibility for the launch readi- ness of the Solid Rocket Boosters.
 
 Although the O-ring erosion continued to occur, and with no ap- parent pattern, the SRB Project Manager repeatedly waived the launch constraint. Throughout the Rogers Commission hearings and the hearings of the Committee on Science and Technology, NASA witnesses continually justified their decision to continue flying the Shuttle based on their previous successful flights. This reliance on their "experience base" was a major factor in the re- peated waivers of the Marshall imposed launch constraint on the SRBs. Chairman Rogers asked Mr. Mulloy what was meant by "ad- dressing" the problem, and Mr. Mulloy responded:
 
@@ -3029,9 +3029,7 @@ Mr. Mulloy also explained his reliance on the experience base in testimony befor
 
 > That was presented to me as a rationale to continue flying, one we had seen it on STS-2, what we saw on the last flight wasn't as bad, therefore it was a n acceptable risk.
 
-ln2 Rogers Commission Report, Volume V, p. 1513.
-
-133 Ibid., p. 1590; note: Yet it was Mr. McDonald who wrote a letter to the SRB Project Office recommending that the O-ring problem be dropped from the Problem Assessment System (PAS), which was in fact equivalent to removing the launch constraint.
+l n 2 Rogers Commission Report, Volume V, p. 1513.[^1] 3 3 Ibid., p. 1590; note: Yet it was Mr. McDonald who wrote a letter to the SRB Project Office recommending that the O-ring problem be dropped from the Problem Assessment System (PAS), which was in fact equivalent to removing the launch constraint.
 
 L 3 4 Rogers Commission Report, Volume V, p. 1513.[^1] 3 5 Cmte Hgs, Transcript, June 17, 1986, p. 151.
 
@@ -3093,7 +3091,7 @@ Was the failure to inform the Level I or Level I1 Program Man- agers of the Tele
 
 Discussion
 
-The management of the Shuttle Program has given the responsi- bility for the Solid Rocket Boosters to the Marshall Space Flight Center. It is the Marshall Center that contracts with Thiokol for the hardware and related services pertaining to the SRBs. The NSTS Program Manager relies on the Marshall management and technical expertise for issues relating to the SRB and it is unrea- sonable to expect him to take technical advice from the contrac- tor's engineers. This position is supported by the actions taken by Mr. Aldrich and Mr. Moore with regard to the Rockwell concerns over ice.[^39] Unlike the SRB situation where the Thiokol managers gave a written positive recommendation for launch, the Rockwell managers refused to give an unqualified go for launch; yet Mr. Ald- rich asked for and accepted the recommendations of the Orbiter Project Manager and the Directors of Engineering at JSC and KSC. The Committee finds no evidence to suggest that in the instance of the Thiokol engineers' concerns, either Mr. Aldrich or Mr. Moore would have disregarded the recommendation of the technical man- agers with the expertise in solid rockets (i.e. Marshall and Thiokol) and relied instead on their own assessment of the engineers' con- cerns.
+The management of the Shuttle Program has given the responsi- bility for the Solid Rocket Boosters to the Marshall Space Flight Center. It is the Marshall Center that contracts with Thiokol for the hardware and related services pertaining to the SRBs. The NSTS Program Manager relies on the Marshall management and technical expertise for issues relating to the SRB and it is unrea- sonable to expect him to take technical advice from the contrac- tor's engineers. This position is supported by the actions taken by Mr. Aldrich and Mr. Moore with regard to the Rockwell concerns over ice. 39 Unlike the SRB situation where the Thiokol managers gave a written positive recommendation for launch, the Rockwell managers refused to give an unqualified go for launch; yet Mr. Ald- rich asked for and accepted the recommendations of the Orbiter Project Manager and the Directors of Engineering at JSC and KSC. The Committee finds no evidence to suggest that in the instance of the Thiokol engineers' concerns, either Mr. Aldrich or Mr. Moore would have disregarded the recommendation of the technical man- agers with the expertise in solid rockets (i.e. Marshall and Thiokol) and relied instead on their own assessment of the engineers' con- cerns.
 
 Launch commit criteria and launch constraints should be estab- lished well in advance of a scheduled mission and should be based on rational, scientific and engineering arguments, including previ- ous flight experience. Thiokol engineers based their arguments for a 53 degree temperature criteria on the fact that this was the cold- est temperature experienced to date and they had experienced severe (but not necessarily the worst) erosion on that flight. Howev- er, a test firing had been conducted at 40 degrees joint temperature which resulted in no joint problems (technicians had "tamped" the joint putty before the test, however, a procedure not used on flight hardware). Moreover, it was pointed out in the hearing that this flight had occurred a year earlier and no mention had been made of changing the temperature criteria for launch.
 
@@ -3191,7 +3189,7 @@ Col. Hartsfield concurred: ~~~
 
 Issue
 
-Doe s NASA have an adequate level of in-house technical exper- tise to manage the Shuttle Program properly? Findings
+Does NASA have an adequate level of in-house technical exper- tise to manage the Shuttle Program properly? Findings
 
 1. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquar- ters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space Flight also suffered a decline in staff. The decreases may have lim- ited the ability of those offices to perform their review functions.
 
@@ -3223,7 +3221,7 @@ NASA technical expertise is further reduced by the departure of highly skilled e
 
 %%page 156%%
 
-NASA can expect to lose between 7500 and 9000 technical and sci- entific employees over the next ten years. While 50 percent of these personnel losses are formally attributed to retirement, NASA officials "know. . .that many retires leave NASA for higher paying jobs in industry." 162 Additionally,[^17] percent of the departing em- ployees acknowledge that they are leaving NASA for more finan- cially rewarding jobs. 63
+NASA can expect to lose between 7500 and 9000 technical and sci- entific employees over the next ten years. While 50 percent of these personnel losses are formally attributed to retirement, NASA officials "know. . .that many retires leave NASA for higher paying jobs in industry." 162 Additionally, 17 percent of the departing em- ployees acknowledge that they are leaving NASA for more finan- cially rewarding jobs. 63
 
 NASA is concerned that the difficulty it will experience in re- placing these employees is essentially the same that led to the de- partures; the agency's "salary structure is not sufficiently flexible and competitive to attract the very best talent our nation has to offer." 6 4 Therefore, despite liberal hire authority for engineering positions, NASA is experiencing difficulty in recruiting entry-level engineers, largely due to salary. As noted by the Agency:
 
@@ -3279,7 +3277,7 @@ Mr. Weeks correctly notes that the briefing documents did not include data which
 
 Other participants in the meeting felt that the temperature issue had been presented at the briefing.
 
-> General KUTYNA. Secondly, there has been some ques- tion that people understood that there was a temperature problem. I remember your conclusions chart, your file chart, and the very first bullet of that chart had the word "resiliency" in it. Do you feel when you talked about resiliency at that meeting people got the connection between resiliency and temperature, that resiliency was a function of tempera- ture, or was that lost? Mr. MCDONALD. It may have gotten lost because we hadn't run a very long range of temperatures when we got that data. General KUTYNA. So it is possible that people at head- quarters from that briefing did not understand tempera- ture was a concern? Mr. MCDONALD. I guess it is possible they could have. General KUTYNA. Is it probable? Mr. MCDONALD. I don't know if it is probable, because we put it as the first bullet of why we thought that was
+> General KUTYNA.Secondly, there has been some ques- tion that people understood that there was a temperature problem. I remember your conclusions chart, your file chart, and the very first bullet of that chart had the word "resiliency" in it. Do you feel when you talked about resiliency at that meeting people got the connection between resiliency and temperature, that resiliency was a function of tempera- ture, or was that lost? Mr. MCDONALD.It may have gotten lost because we hadn't run a very long range of temperatures when we got that data. General KUTYNA.So it is possible that people at head- quarters from that briefing did not understand tempera- ture was a concern? Mr. MCDONALD. I guess it is possible they could have. General KUTYNA. Is it probable? Mr. MCDONALD. I don't know if it is probable, because we put it as the first bullet of why we thought that was
 
 Rogers Commission Report, Volume V, pp. 1051-52.
 
@@ -3305,7 +3303,7 @@ Mr. SCHEUER. Are you telling us that you didn't receive a briefing from Mr. Week
 
 I I ihe Thiokol officials?
 
-Mr. MOORE. To my recollection, the first time I remember seeing that document was on Aurmst-was on Januarv 29th or Januarv 30th. rieht after the Challeneer accident. I was shown a dkument which contkned the briefink materid. It also subsequently came up in one of the earlier discussions with Chairman Rogers and his Commission is the other time I have seen some of that.
+Mr. MOORE.To my recollection, the first time I remember seeing that document was on Aurmst-was on Januarv 29th or Januarv 30th. rieht after the Challeneer accident. I was shown a dkument which contkned the briefink materid. It also subsequently came up in one of the earlier discussions with Chairman Rogers and his Commission is the other time I have seen some of that.
 
 Post-accident was the first time I had, to my knowledge, as I said, seen that particular brief- ing. I had not sat down and been given a briefing on the Thiokol presentation on August 19th.
 
@@ -3313,7 +3311,7 @@ Mr. Weeks verbally said that the meeting was held that day on August 19th and th
 
 Mr. SCHEUER. He didn't indicate the kind of depth of concern that would have led you to be- lieve that additional time was needed or that additional resources needed to apply to some of these problems before lunch?
 
-Mr. MOORE. No sir. I did not get the feeling that we should have grounded the Shuttle fleet prior to the next flight as a result of that particular briefing.
+Mr. MOORE.No sir. I did not get the feeling that we should have grounded the Shuttle fleet prior to the next flight as a result of that particular briefing.
 
 In a subsequent interview with staff, Mr. Weeks recanted his earlier statement and acknowl- edged that he did not show Mr. Moore a copy of the briefing document and that to the best of his knowledge Mr. Moore did not see this document until after the Challenger accident. More- over, Mr. Weeks stated that he did not tell Moore specifically that Morton Thiokol was calling for an accelerated pace to eliminate the seal erosion problem nor did he state that additional resources were needed to be committed to solve the problem.
 
@@ -3329,7 +3327,7 @@ Moore, when asked what he would have done had he received the oral briefing and 
 
 Unfortunately this team of experts was not formed until after the Challenger accident. Rather, NASA proceeded on the course summarized in the following exchange between Chairman Roe and Michael Weeks:
 
-> Mr. ROE.Therefore, there are a group of people-whom- ever they were-that participated at this particular meet- ing, reviewed these facts that were available, and they de- termined two things, according to your testimony. One, they determined that if everything-if they had their "druthers," or whatever the case may be-it would take two years in their judgment to be able to correct that; but in spite of that decision they took and made the second judgement. And the second judgement, well, we can con- tinue to fly. We'll start the mechanisms going to get this corrected, but we can continue to fly until we get that done. Isn't that the decision that was made, according to what you're saying? Mr. WEEKS. That is correct. Mr. ROE. Therefore, some people who were at that spe- cific meeting had to be the people who made that specific decision.
+> Mr. ROE.Therefore, there are a group of people-whom- ever they were-that participated at this particular meet- ing, reviewed these facts that were available, and they de- termined two things, according to your testimony. One, they determined that if everything-if they had their "druthers," or whatever the case may be-it would take two years in their judgment to be able to correct that; but in spite of that decision they took and made the second judgement. And the second judgement, well, we can con- tinue to fly. We'll start the mechanisms going to get this corrected, but we can continue to fly until we get that done. Isn't that the decision that was made, according to what you're saying? Mr. WEEKS.That is correct. Mr. ROE. Therefore, some people who were at that spe- cific meeting had to be the people who made that specific decision.
 
 In attempting to assess the reasons for NASA Level 1 managers not adopting a more aggressive posture to the O-ring problem, it is suggested that insufficient information was communicated to top.[^1] 8 1 However, as Deputy Acting Administrator Graham ob- served:
 
@@ -3353,7 +3351,7 @@ Why then did top technical managers in the Office of Space Flight at NASA Headqu
 
 Issue 1
 
-Ha s the pressure to maintain operational flight rates and sched- ules for the Shuttle compromised the hardware Change Control Process? Findings
+Has the pressure to maintain operational flight rates and sched- ules for the Shuttle compromised the hardware Change Control Process? Findings
 
 1. When NASA declared the Space Shuttle to be an operational system, additional pressure to increase flight rates impacted other aspects of the overall program such as the ability to implement, evaluate, test, and certify changes in hardware design.
 
@@ -3363,7 +3361,7 @@ Ha s the pressure to maintain operational flight rates and sched- ules for the S
 
 2. The Configuration Management System designed to control such changes must be reexamined by NASA as to its effectiveness in assuring that all hardware changes take place in a safe and reli- able fashion.
 
-l a 3 Ibid., July 24, 1986, p. 117. I84 Ibid., June 17, 1986, pp. 215-16
+l a 3 Ibid., July 24, 1986, p. 117. I84Ibid., June 17, 1986, pp.215-16
 
 %%page 162%%
 
@@ -3391,7 +3389,9 @@ Discussion
 
 NASA's Change Control System is shown in Figure VI-4. From the chart, it is evident that the success of the system is highly de- pendent on the information flow among the various levels of man- agement control.
 
-> 1'11'111 13f i 31 I 1
+> 1'11'111 13f i 31
+
+- I — 1
 
 I 13P.31 I 1 13A31
 
@@ -3403,7 +3403,7 @@ The Configuration Management System Requirements are docu- mented in JSC 07700 V
 
 Changes to the flight and system requirements and the accept- ance baselines are made, according to NASA, only by directives issued by the Program Requirements Control Board at Level I and Level I1 and the Change Control Boards. For example, there is an Orbiter Avionics Software Control Board (OASCB) that has joint Level I1 and Level I11 authority for managing the program-wide re- quirements for Shuttle computer hardware and software systems as part of the Orbiter project. The Board also assures the correct configuration of the software within the Orbiter avionics system for all vehicle and test operations.
 
-Design changes at the contractor level are processed through sev- eral levels of technical and managerial reviews. Design and engi- neering changes on the Orbiter, for example, undergo Technical Status Reviews (TSR's), Avionics Status Reviews (ASR's), Prelimi- nary Design Reviews (PDR's), Critical Design Reviews, (CDR's), Design Certification Reviews (DCR's), and numerous special meet- ings of NASA and the Rockwell management are utilized to review issues and concerns about any design drawing or specification. Ac- cording to Rockwell,1s6 "Changes are reviewed a t a TSR or ASR and the Change Control Board for approval. Any outstanding design dispute is tracked as an open action until it is resolved by Rockwell and NASA management."
+Design changes at the contractor level are processed through sev- eral levels of technical and managerial reviews. Design and engi- neering changes on the Orbiter, for example, undergo Technical Status Reviews (TSR's), Avionics Status Reviews (ASR's), Prelimi- nary Design Reviews (PDR's), Critical Design Reviews, (CDR's), Design Certification Reviews (DCR's), and numerous special meet- ings of NASA and the Rockwell management are utilized to review issues and concerns about any design drawing or specification. Ac- cording to Rockwell,1s6 "Changes are reviewed at a TSR or ASR and the Change Control Board for approval. Any outstanding design dispute is tracked as an open action until it is resolved by Rockwell and NASA management."
 
 The Committee questions, however, whether the complex and ex- tensive processes involved in NASA's change control management system allow for sufficient distinction between minor changes and the significant changes. For example, the systems requires the same level of management attention to as minor a change as moving Velcro strips on the Orbiter as it is applied to all Criticality 1 item such as changing a turbo-pump on the SSME.
 
@@ -3463,7 +3463,7 @@ Major Slayton went on to say that any organization could work with the proper pe
 
 > A lot of it is in the management attitude; but again, my opinion is, you can make any organization work if you got the right people, and if you don't have the right people I don't care how you organize it, it will not work, so you still end up dealing with individuals.[^9] 4
 
-Is1 Ibid., p. 99.
+I s 1 Ibid., p. 99.
 
 %%page 169%%
 
@@ -3611,7 +3611,7 @@ The Committee does not argue with the contention that strong SR&QA capabilities 
 
 areas of configuration management, product reliability and quality assurance and risk management, are essential to returnng the Shuttle to flight readiness condition. Issue 2
 
-Ha s NASA applied sufficient resources to support adequate S M Q A efforts within the NSTS program? Findings
+Has NASA applied sufficient resources to support adequate S M Q A efforts within the NSTS program? Findings
 
 1. The Committee finds that reductions in NASA civil service personnel that have occurred over the past decade have adversely impacted the agency's ability to maintain the appropriate level of oversight control of the Safety, Reliability and Quality Assurance activities within the NSTS.
 
@@ -3709,11 +3709,13 @@ Similarly, in briefings for Committee staff, NASA contract man- agers have state
 
 Nevertheless, there are several reasons to believe that NASA could utilize contractual terms more effectively to enhance pro- gram safety. First, there can be no argument, for both the SPC and the SRB contract, that absent a major mission failure, virtually all the financial incentives are tilted toward cost-savings and timely delivery.
 
-Secondly, because of the complex and overlapping division of re- sponsibilities between NASA and its contractors, it is not clear that contractors will be fully penalized even in cases where their actions or their hardware appear to be directly responsible for a mission failure. Mr. Scheuer's questioning of Mr. Charles Locke, Chairman of the Board of Morton Thiokol, showed that Thiokol i s not pre- pared to accept the full contractual penalties for the Challenger ac- cident.219
+Secondly, because of the complex and overlapping division of re- sponsibilities between NASA and its contractors, it is not clear that contractors will be fully penalized even in cases where their actions or their hardware appear to be directly responsible for a mission failure. Mr. Scheuer's questioning of Mr. Charles Locke, Chairman of the Board of Morton Thiokol, showed that Thiokol is not pre- pared to accept the full contractual penalties for the Challenger ac- cident.219
 
 Finally, it is revealing that, under its NASA contract, Thiokol was never penalized for any of the numerous SRB flight anoma- lies.22oThe booster joint had never worked as intended, nor was its behavior at ignition ever clearly understood. Occurrences of O-ring erosion and/or blow-by exceeded twenty-five at the time of the Challenger accident. In fact, the rute of erosion/blow-by had in- creased steadily since the beginning of the SRB contract in 1983. The seal problem was serious enough to lead both to briefings at Headquarters and to establishment of a redesign task force. Yet, in spite of all these problems, Thiokol was eligible to receive a near-maximum incentive fee of approximately $75 million. But, in the final analysis, it was NASA that both approved the SRB design z:: NASA,
 
-> C& h F eI Schedule D! NAS8-30490, A & Transcript, June 1 9 d , 55-56. 17, 1983, ril 12, pp. p. 71. discussion focuses on possible contract penalties related to flight anomalies, it
+218 Schedule D! NAS8-30490, A 1983,
+
+> ril 12, Ch&FeI& Transcript, June 1 9 d , 55-56. 17, pp. p. 71. discussion focuses on possible contract penalties related flight anomalies, it to
 
 is also interesting to note that Thiokol has never been penalbed for numerous safety and proc- ess violations at its Utah facilities. Several of these violations have resulted in serious fim and/ or explosions.
 
@@ -3729,7 +3731,7 @@ The problem with the kinds of penalties that were contained in the SRB contract 
 
 > Mr. THOMPSON. . . . It probably would have delayed it a month or two, at least for the hardware and some of the research work. . . .222
 
-The Committee is certainly not suggesting that anyone in NASA or Thiokol would recommend launch or would refuse to spend re- sources fixing a problem if it was known that the problem consti- tuted a real threat to mission safety. However, in the case of the SRB joint, both NASA and Thiokol managers clearly misjudged the threat to mission safety. In situations of this sort, contractual pro- visions rewarding performance rather than cost and schedule would have provided a far stronger incentive to f m a long-festering problem. Ultimately, the balance between safety incentives and cost/schedule incentives in the SRB contract may illuminate a number of issues raised by the Challenger accident.
+The Committee is certainly not suggesting that anyone in NASA or Thiokol would recommend launch or would refuse to spend re- sources fixing a problem if it was known that the problem consti- tuted a real threat to mission safety. However, in the case of the SRB joint, both NASA and Thiokol managers clearly misjudged the threat to mission safety. In situations of this sort, contractual pro- visions rewarding performance rather than cost and schedule would have provided a far stronger incentive to fm a long-festering problem. Ultimately, the balance between safety incentives and cost/schedule incentives in the SRB contract may illuminate a number of issues raised by the Challenger accident.
 
 as1 Rugem Commission Report, Volume I, pp. 249-51.
 
@@ -3767,13 +3769,7 @@ Rogers Cornmiasion Report, Volume I, pp. 22-23 and 78-79.
 
 > 0-R ING h E A T E D
 
-## DOWNSTREAM (PROPER) POSIT O
-
-IN
-
-## )I; FIGURE
-
-VII-1
+## DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1
 
 %%page 185%%
 
@@ -3823,7 +3819,7 @@ the lateral force.6 The ignition pressure increased the joint spacing. Also, the
 
 Additional structural loads resulted from turbulence. Flight 51-L experienced the most severe turbulence of any Shuttle flight and, although the loads were within the allowable design limits, those design limits did not consider a joint that had already failed.s It is unknown how much the combined effect of wind gust loads, ma- neuvering loads and an increase in thrust contributed to the acci- dent. But the combined effects of these forces could have dislodged the burned material at the previously breached section of the joint.
 
-10. Shortly after the vehicle w as loaded by these turbulent forces, at T+58 seconds, a flame appeared from the same general region where the puffs of smoke had been seen. But, this time the joint was continuously breached by the burning propellant gases. In a little over two seconds, the flame had grown and acted as a blowtorch to burn through the hydrogen tank. The appearance of the flame at this time is also indicative of a damaged primary 0- ring and failure of the secondary O-ring to seal, for reasons ex- plained in the Critical Items List dated December 17, 1982.sa
+10. Shortly after the vehicle was loaded by these turbulent forces, at T+58 seconds, a flame appeared from the same general region where the puffs of smoke had been seen. But, this time the joint was continuously breached by the burning propellant gases. In a little over two seconds, the flame had grown and acted as a blowtorch to burn through the hydrogen tank. The appearance of the flame at this time is also indicative of a damaged primary 0- ring and failure of the secondary O-ring to seal, for reasons ex- plained in the Critical Items List dated December 17, 1982.sa
 
 The telemetry data, photographs and cockpit voice recordings support evidence of turbulent conditions and the manner in which the Shuttle failed.
 
@@ -3873,9 +3869,9 @@ T+72.6 ......................................................... [Liquid hydroge
 
 (c) Problems Discovered
 
-The design of the joint was based on the successful design of the joints used on the Titan I11 booster r ~ c k e tThat
+The design of the joint was based on the successful design of the joints used on the Titan I11 booster r ~ c k e t . ~
 
-. ~ design was simi- lar except that the tang pointed upward, instead of down, and the clevis pointed downward, instead of up, as in the case of the Shut- tle booster. Another difference was that the design of the Shuttle joint included two O-rings instead of one as provided for in the
+That design was simi- lar except that the tang pointed upward, instead of down, and the clevis pointed downward, instead of up, as in the case of the Shut- tle booster. Another difference was that the design of the Shuttle joint included two O-rings instead of one as provided for in the
 
 NASA, "SRB Critical Items List," December 17,1982, p. A-6A, Sheet 1.
 
@@ -3931,7 +3927,7 @@ The joint was designed to mate two rocket motor segment cases, one to the other,
 
 Upon ignition of the Solid Rocket Motor fuel the opcrating pres- sure increases to 922 psi at 40 degrees F within a little over one- half second (0.648 sec).16 The effect of this pressure increase is to
 
-NASA, MSFC, Problem Assessment S s te m Record No. A07934, January 23, 1986, p. 6.[^15] 1'Rogers Commission Report,Volume 4 p. 1510. 'SCmte H Transcri t, June 18, 1986, 51. 1eMortOn%iokol, &-10212 (CD), Tab, 4-9, npical Propellant Design Data.
+NASA, MSFC, Problem Assessment S stem Record No. A07934, January 23, 1986, p. 6.[^15] 1'Rogers Commission Report,Volume 4 p. 1510. 'SCmte H Transcri t, June 18, 1986, 51. 1eMortOn%iokol, &-10212 (CD), Tab, 4-9, npical Propellant Design Data.
 
 %%page 193%%
 
@@ -3949,7 +3945,7 @@ In a memo from John Miller to Mr. Eudy of NASA on June 16, 1980, the following s
 
 > STA-1 test data shows that the secondary O-ring can become unseated from the tang due to joint rotation at ap- proximately 40 percent of MEOP [Mean Effective Operat- ing Pressure], and therefore, is not likely to assume a seal- ing position should the above primary seal failure occur. The SRM has never been tested to evaluate the above fail- ure condition, nor has credibility of such a failure been of- ficially declared.
 
-In March of 1984 Thiokol had completed its SRM O-ring assem- bly test plan, which was to confirm the O-ring erosion scenario, provide data for heat transfer predictions and establish the effec17 The Light Weight Casings, first used on STS-6, had thinner casing walls than the standard steel casings. Llght we' ht casings permitted fli ht "th heavier pa loads. On STS-8, NASA began using the High Verformance Motor (HP& whlch developed iigher internal pressures while using the light weight casings. The purpose of the HPM was t o further increase payload capacit
+In March of 1984 Thiokol had completed its SRM O-ring assem- bly test plan, which was to confirm the O-ring erosion scenario, provide data for heat transfer predictions and establish the effec17 The Light Weight Casings, first used on STS-6, had thinner casing walls than the standard steel casings. Llght we' ht casings permitted fli ht "th heavier pa loads. On STS-8, NASA began using the High Verformance Motor (HP& whlch developed iigher internal pressures while using the light weight casings. The purpose of the HPM was to further increase payload capacit
 
 Is N h , "Evaluation of TWR-12690 CD, Test Plan for Space Shuttle SRM Li htweight Cyl- inder Segment Joint Verification, dated June 10,1980",EP 25 (80-701, June 1 6 ,[^1] 9 8 , p. 2.
 
@@ -3971,7 +3967,7 @@ In a memo from Larry Mulloy to Bob Lindstrom, Director, MSFC Shuttle Projects Of
 
 On a 0.280 inch diameter O-ring a 7.54 percent squeeze would be equal to a compression distance of 0.021 inches.22
 
-On July 17, 1985, Irv Davids, Manager of the Solid Rocket Boost- er Program at NASA Headquarters, sent a memo to the Associate Administrator for Space Flight, the subject of which was case-to-Thiokol, Philip Shadlesky, "Performance Characteristics of the SRM O-ring Assembly Test Plan". TWR-14336. dated March 1984. D . 1. ~ *O fiiokol S. Rc&ers, "Significant Problem Report DR4-5/35 5 Day Re rt O-ring Erosion at Nozzle/Ah Segment Joint of SRM 11A (STS 41-BIMiasion 4143, &-i4370-1, May 7, 1984, pp. 1-2.
+On July 17, 1985, Irv Davids, Manager of the Solid Rocket Boost- er Program at NASA Headquarters, sent a memo to the Associate Administrator for Space Flight, the subject of which was case-to-Thiokol, Philip Shadlesky, "Performance Characteristics of the SRM O-ring Assembly Test Plan". TWR-14336. dated March 1984. D. 1. ~ *O fiiokol S. Rc&ers, "Significant Problem Report DR4-5/35 5 Day Re rt O-ring Erosion at Nozzle/Ah Segment Joint of SRM 11A (STS 41-BIMiasion 4143, &-i4370-1, May 7, 1984, pp. 1-2.
 
 a 1 O-ring squeeze is the distance, in fractions of an inch, that an O-ring is compressed from its normally round shape. This dimension can also be expressed as a percentage of the total diame- ter before compresslon. In 1984 NASA waa using a term "minimum O-rin squeeze." During an SRM design anal sis of the cast? and nozzle O-ring joints it was conclufed that the 146 inch diameter cast? cygnders would not meet the design standard of 15 percent mlnimum O-ring squeeze at zero r w u r e . The various problems that prevented this included flaws in the O-ring y v e a and se%ng surfaces and differences in the spacing between tang and c l e w on various ?%kA, Larry Mullo "ECPSRM 1197, Nozzle Nose Inlet Housing O-ring Squeeze," SA 42- 562-84, November 20, 19&, p. 1.
 
@@ -3991,7 +3987,7 @@ Lastly the memo noted:
 
 > The present consensus is that if the primary O-ring seats during ignition, and subsequently fails, the unseated sec- ondary O-ring will not serve its intended purpose as a re- dundant seal. However, redundancy does exist during the ignition cycle, which is the most critical time.2s (See A p pendices VII-B and VII-C.)
 
-On August 2, 1985, Larry Wear, MSFC's SRM Element Manager, sent a letter to Joseph Kilminster, Thiokol's Vice President for Space Booster Programs, on the subject of SRM field joint second23 NASA, Irving Davids, "Case to Case and Nozzle to Case '0 Ring Seal Erosion Problems," July 11 1985.
+On August 2, 1985, Larry Wear, MSFC's SRM Element Manager, sent a letter to Joseph Kilminster, Thiokol's Vice President for Space Booster Programs, on the subject of SRM field joint second23 NASA, Irving Davids, "Case to Case and Nozzle to Case '0Ring Seal Erosion Problems," July 11 1985.
 
 23. Mr. Weeks, Dep. Assoc. Administrator for Space Flight (Technical); Mr. Hamby, Dep. Dir., STS Program Integration; Mr.Herrington, De Dir. of Launch & Landing Operations; and Mr. k. Winterhalter, Acting E r . , Shuttle Propulsion z 4 hid., p. 2.[^86] bid.
 
@@ -4019,7 +4015,7 @@ The memo stated, "at 100 deg. F the O-ring maintained contact. At 75 deg. F the 
 
 > MTI has no reason to suspect that the primary seal would ever fail after pressure equilibrium is reached, i.e., after the ignition transient. If the primary O-ring were to fail from 0 to 170 milliseconds, there is a very high proba- bility that the secondary O-ring would hold pressure since the case has not expanded appreciable at this point. If the primary seal were to fail from 170 to 330 milliseconds, the probability of the secondary seal holding is reduced. From 330 to 600 milliseconds the chance of the secondary seal
 
-*' NASA, Larry Wear, "SRM Field Joint Secondary O-ring Lift-Of€ During Pressurization," SA 41-326-85,. August 2, 1985.[^2] 8 Engmeering consultants t o the Committee have serious questions 88 to how this test relates to actual O-ring performance in flight hardware.
+*' NASA, Larry Wear, "SRM Field Joint Secondary O-ring Lift-Of€ During Pressurization," SA 41-326-85,. August 2, 1985.[^2] 8 Engmeering consultants to the Committee have serious questions 88 to how this test relates to actual O-ring performance in flight hardware.
 
 %%page 197%%
 
@@ -4031,7 +4027,7 @@ Thiokol completed their engineering study of O-ring compression set and dated th
 
 A status report from Thiokol's SRM O-ring Task Force, present- ed on November 20, 1985, recommended that a slightly larger Viton O-ring of 0.292 inch diameter, along with thicker shims, be used as a short-term solution. The current O-rings were 0.280 inches. Thiokol pointed out that there would be more erosion margin due to greater material thickness at the sealing surface. They noted that the thicker shims would reduce the initial and ab- solute final gap opening dimension, resulting in more O-ring "squeeze" initially. Thiokol stated that the greater initial squeeze would be better for compression set and resiliency, and would give a higher probability of maintaining a secondary seal longer into the ignition transient. Thiokol also noted that various tests were conducted on the Randolph putty using hot five-inch char motors. Two tests were conducted, which determined that the en NASA, Larry Mulloy, "SRM JointDring Erosion," SA 42-349-85, Au st 1985, pp. 1-2.
 
-$0 Thiokol, B.L. Orme, "Enginering Study of O-ring Compression Set," &R-15218, October 2, 1985.[^3] * Refer to Appendix VII-A for ASTM specification.
+$ 0 Thiokol, B.L. Orme, "Enginering Study of O-ring Compression Set," &R-15218, October 2, 1985.[^3] * Refer to Appendix VII-A for ASTM specification.
 
 JzSmall scale teat motors.
 
@@ -4057,9 +4053,21 @@ The presentation went on to included the following blow-by history:
 
 > SRM 15 worst blow-by. A. Two case joints (80 deg.), (110 deg.) arc. B. Much worse visually than SRM 22. SRM b l o w - b ~ . ~ ~
 
-The presentation then included a chart titled "O-ring (Viton) Shore Hardness vs. Temperature."[^39]
+The presentation then included a chart titled "O-ring (Viton) Shore Hardness vs. Temperature." 39
 
 > Degree F Shore Hardness 70 degrees 77 hardness 60 degrees 81 hardness 50 degrees 84 hardness 40 degrees 88 hardness 30 degrees 92 hardness 20 degrees 94 hardness 10 degrees 96 hardness
+
+33 A type of, utty made b another company that also was considered for use in the SRM.[^34] Thiokol, 8RM O-ring $ask Force Status and QM-5 Recommendations," TWR-15349, No- vember 20, 1985.
+
+Thiokol. "Temuerature Concern on SRM Joints," January 27, 1986, chart 2-1.[^35] -..~
+
+~
+
+30 bid.[^3] 7 bid., Chart 2 2.
+
+3s bid.. Chart 3-1.
+
+39 Kid.; Chart 4-1
 
 %%page 199%%
 
@@ -4084,6 +4092,10 @@ Time Activitv Source 01 load Static or dvnamtc lmwct on ioint
 Days before launch .......... Mating of casing.............. Weight of upper casing Static plus impact ........ Physical contact
 
 > contacting lower between tang and casing. clevis.
+
+40Ibid., Chart 4-2.
+
+41Ibid., Chart "Conclusions."[^4] 2 Ibid.. Chart "Recommendations."[^4] 3 This'Chart was prepared by the Committee and is based on information obtained by Com. mittee staff during meetings at MSFC on June 30, 1986.
 
 %%page 200%%
 
@@ -4153,7 +4165,9 @@ On page 55 of the Rogers Commission Report there is a chart which shows a series
 
 As stated previously, the proper choice of materials is critical to attaining performance objectives. The steel casings are designed to withstand the propellant pressures and loads incurred in flight. Secondly, they must accommodate these forces over and over as the casings are reused. Consequently, the choices of the type of steel selected was important.
 
-The steel used to make the casings and the joint is a D-6A. D-6A is a low-alloy steel for aircraft and missile structural applications. It is designed primarily for use at room-temperature tensile strengths of 260 to 290 k ~ i D-6A. ~ ~maintains a very high ratio of yield structure to tensile strength up to a tensile strength of 280 ksi, combined with good ductility.
+The steel used to make the casings and the joint is a D-6A. D-6A is a low-alloy steel for aircraft and missile structural applications. It is designed primarily for use at room-temperature tensile strengths of 260 to 290 k ~ i . D-6A
+
+~ ~maintains a very high ratio of yield structure to tensile strength up to a tensile strength of 280 ksi, combined with good ductility.
 
 Typical mechanical properties of D-6A steel:[^4] 9
 
@@ -4163,9 +4177,19 @@ Typical mechanical properties of D-6A steel:[^4] 9
 
 %%page 202%%
 
-> Temoerinc temcerature Tensile strength yield strength ks, E ' ~ ~ a ~ ~ 2 i ~ n Reduction ,50 in area, V=nolch impaci 'C 7 ksi cercenl percent energy fl-lb
+> Temoerinc temcerature Tensile strength yield strength ks, E'~~a~~2i~n,50 Reduction in area, V=nolch impaci 'C 7 ksi cercenl percent energy fl-lb
 
-> 150 300 299 211 8.5 19.c 10 205 400 290 235 8.9 25.7 11 315 600 267 24 7 8.1 30 0 12 425 800 236 228 9.6 36.8 12 540 1,000 210 204 13.0 45.5 19 650 1,200 150 141 18.4 60.8 30
+- 150 300 299 211 8.5 19.c — 10
+
+- 205 400 290 235 8.9 25.7 — 11
+
+- 315 600 267 24 7 8.1 30 0 — 12
+
+- 425 800 236 228 9.6 36.8 — 12
+
+- 540 1,000 210 204 13.0 45.5 — 19
+
+- 650 1,200 150 141 18.4 60.8 — 30
 
 Normalized at 910°C (1650'F) and tempered at various temperatures
 
@@ -4191,17 +4215,15 @@ The unacceptable heat erosion damage to both primary and sec- ondary O-rings on 
 
 The Randolph putty is hydroscopic and its behavior is unsuited to use in the dry climate of Utah, as well as the humid climate of the Florida coast. In one case the putty was too stiff and in the other, too sticky. Since both factory and field joints required the use of the putty, a product with consistent performance in both cli- mates was required.
 
-The materials used in the manufacture of the O-rings was also critical to the safe operation of the Shuttle system. The O-rings had to be serviceable at the high temperatures in the joint which would result from heat transfer from the rocket combustion chamber. However, the use of NBR insulation around the propellant, and the use of putty, was to protect the steel casings and the O-rings from the direct heat of the propellant gases. This protection was not always successful when blowholes in the putty occurred, however, and the O-rings would frequently be damaged by heat. The lower temperatures that occur in Florida during the winter months was not covered by NASA's specifications. While elastomers are known to become brittle at low temperatures, a product specification sheet on Viton Fluroelastomer claimed, "Cold-VITON is generally serv- iceable in dynamic applications down to - 18 to -23 deg C (0 to 10 deg F)."55The sheet added: "The brittle point of Viton at a thick53 Poise is a measure of viscosity or resistance to flow.[^54] NASA, L.M. Thompson, "SRM/SRB Putty Evaluation," July, 1985.[^5] 5 BM-Chemical Division, "Viton Fluoroelastomer," Undated, p. 1.
+The materials used in the manufacture of the O-rings was also critical to the safe operation of the Shuttle system. The O-rings had to be serviceable at the high temperatures in the joint which would result from heat transfer from the rocket combustion chamber. However, the use of NBR insulation around the propellant, and the use of putty, was to protect the steel casings and the O-rings from the direct heat of the propellant gases. This protection was not always successful when blowholes in the putty occurred, however, and the O-rings would frequently be damaged by heat. The lower temperatures that occur in Florida during the winter months was not covered by NASA's specifications. While elastomers are known to become brittle at low temperatures, a product specification sheet on Viton Fluroelastomer claimed, "Cold-VITON is generally serv- iceable in dynamic applications down to - 18 to -23 deg C (0 to 10 deg F)."55The sheet added: "The brittle point of Viton at a thickness of 0.075 inches is in the neighborhood of 50 deg F. Yet, as with other elastomers, thickness has a marked effect upon low tempera- ture flexibility. Thinner cross-sections are more flexible than thick- er ones at every temperature." The thickness of the O-rings on the Shuttle is 0.280 inches, thicker than the 0.075 inch article with a brittle point of 50 deg F noted above.56 Consequently, the brittle point of Viton was misleading since the O-rings were much larger the the test specimen.
 
 %%page 204%%
 
-ness of 0.075 inches is in the neighborhood of 50 deg F. Yet, as with other elastomers, thickness has a marked effect upon low tempera- ture flexibility. Thinner cross-sections are more flexible than thick- er ones at every temperature." The thickness of the O-rings on the Shuttle is 0.280 inches, thicker than the 0.075 inch article with a brittle point of 50 deg F noted above.56 Consequently, the brittle point of Viton was misleading since the O-rings were much larger the the test specimen.
-
-Military Specification MIL-R-83248A,[^17] Feb. 84, "Rubber, Fluo- rocarbon Elastomer, High Temperature, Fluid, and Compression Set Resistant" set the specification for the O-rings that Thiokol had to meet.57 They included:
+Military Specification MIL-R-83248A, 17 Feb. 84, "Rubber, Fluo- rocarbon Elastomer, High Temperature, Fluid, and Compression Set Resistant" set the specification for the O-rings that Thiokol had to meet.57 They included:
 
 > Type I-O-rings and compression seals Class 1-75 +/ -5 Hard- nessS8
 
-This specification then included other specifications issued by the Society of Automotive Engineers and the American Society for Testing Materials. One of the ASTM Specifications listed w as ASTM 1329, "Evaluating Rubber Property, Retraction at Low Tem- peratures."S9 It was these referenced specifications which defined the significant characteristics required.
+This specification then included other specifications issued by the Society of Automotive Engineers and the American Society for Testing Materials. One of the ASTM Specifications listed was ASTM 1329, "Evaluating Rubber Property, Retraction at Low Tem- peratures."S9 It was these referenced specifications which defined the significant characteristics required.
 
 On February 6, 1979, Mr. William Ray of NASA's Marshall Space Flight Center, sent a memo to Messrs Hardy, Rice, Eudy, and McCool (See Appendix V-I). That memo was essentially a trip report of Mr. Ray's visits to the Precision Rubber Products Compa- ny and the Parker Seal Company, in search of information on the performance of O-rings. Some of the points covered in the memo were:
 
@@ -4219,25 +4241,9 @@ surmise that the seal had wrformed so well in the present
 
 > appiication." 6 2 Regarding the visit with the Parker officials, the memo
 
-stated. "their first thought was the O-ring w as being asked
+stated. "their first thought was the O-ring was being asked
 
 > to perkorm beyond its intended design and that a different type of seal should be considered." g 3
-
-56 Ibid.
-
-6 7 Department of Defense, "Milita Specification: Rubber, Fluorocarbon Elastomer, High Tern rature, Fluid, and Compreasion%t Resistant", MILR-83248A. February 17,1984.
-
-"rigid, p. 1.
-
-6 9 Ibid p. 3.
-
-6 0 N d A memorandum, William Ra "Visit to Precision Rubber Products Corporation and Parker Seal Company", EP 25 (19-23). JAbruary 6, 1979, p. 1.
-
-6 1 Ibid.
-
-6* bid., p. 2.
-
-8s Ibid.
 
 %%page 205%%
 
@@ -4283,11 +4289,9 @@ Under the terms of the FRR Policy Directive, such damage would appear to require
 
 'Table I (9, e 44) indicates the date and BCO for each of these eight reviews.
 
-5Thiok0l %S-51L (STS33) Solid Rocket &,or (SRM-25) Flight Readiness Review," TWR11. 1985.chart 1-1. See Amendm VIII-B. 1M811. Tbrpjmber ~.
+5Thiok0l %S-51L (STS33) Solid Rocket &,or (SRM-25) Flight Readiness Review," TWR- 1M811. Tbrpjmber 11.
 
-~
-
-6 Rogera Commkion &port, Volume 11,p. H-3.
+~ ~. 1985.chart 1-1. See Amendm VIII-B. 6 Rogera Commkion &port, Volume 11,p. H-3.
 
 %%page 209%%
 
@@ -4335,7 +4339,13 @@ This evaluation of the seal erosion problem does not indicate the seriousness of
 
 This point is readily apparent in the Commission's report. There is no implication that a serious problem exists, if Mr. Mulloy's presentations are examined. The presentation made to Level 1 during the STS 4 1 4 FRR indicated that erosion was "acceptable," and offered a rationale for accepting the possibility that the phe- nomenon would recur.
 
-l e Larry Mullo NASA, Marshftll Space Fight Center, "Center Board STS-51L Flight Readi- new Review Solidlkocket Booster, January 13,1986, Chart SRB-3.
+l e Larry Mullo NASA, Marshftll Space Fight Center, "Center Board STS-51L Flight Readi- new Review Solidlkocket Booster, January 13,1986, Chart SRB-3.[^1] 7 lhirl
+
+> %;; Chart SRB-28. Lark Mulloy, NASA, Marshall S ace Flight e n t e r , "STS-51L Level I Flight Readiness
+
+Review," January 15, 1986, Chart SRB-8. See Appendlx VIII-E. 2o bid., Chart SRB-4.[^2] 1 Larry Mulloy, NASA, Marshall Space Fli ht Center, "STS-51L Level I1 Flight Readiness Review,'' January 14,1986. See Appendix VIII-g.[^2] 2 Discussion with Allan McDonald, September 4, 1986.
+
+Z3 Rogers Commission Report, Volume 11. See Chart 15 (p. H-10) and Chart 19 (p. H-12).
 
 %%page 211%%
 
@@ -4359,6 +4369,8 @@ sumed this depended only on this heat by a formula suggested by data on a simila
 
 > other numbers, it was determined that the model agreed with erosion (to depth of one-third the radius of the ring). There is nothing much so wrong with this as believing the answer! Uncertainties appear everywhere. How strong the gas stream might be was unpredictable, it depended on holes formed in the putty. Blow-by showed that the ring might fail even though not, or only partially eroded
 
+24 Ibid., p. H-13. 2s Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42.
+
 %%page 212%%
 
 > through. The empirical formula was known to be uncer- tain, for it did not go directly through the very data points by which it was determined. There were a cloud of points some twice above, and some twice below the fitted curve, so erosions twice predicted were reasonable from that cause alone. Similar uncertainties surrounded the other constants in the formula, etc., etc. When using a mathe- matical model careful attention must be given to uncer- tainties in the model.27
@@ -4379,9 +4391,13 @@ Implied in the presentation by Mr. Mulloy is that the Marshall and Thiokol engin
 
 > Mr. VOLKMER. ". . . Mr. Mulloy, it says on page 148 [of the Commission's report] that prior to the accident neither NASA or Thiokol clearly understood the mechanism by which the joint sealing took place. Do you agree or dis- agree with that?" Mr. MULLOY. "I totally agree, sir."[^32]
 
-Also notable by its absence in Mulloy's Presentation is the fact that STS 51-L had demonstrated an extreme example of blowby in the nozzle joint. It was this case that led Thiokol engineers to the conclusion that temperature was a contributing factor to joint damage. Mr. Boisjoly explained to General Kutyna that, based on photographs of the joints on 51-C (launched at a seal temperature of 53°F) and 61-A (launched at a seal temperature of 75"F), he "concluded, and so presented on the night before the launch . . . that it was telling us that temperature was indeed a discriminator ... "[^33]
+Also notable by its absence in Mulloy's Presentation is the fact that STS 51-L had demonstrated an extreme example of blowby in the nozzle joint. It was this case that led Thiokol engineers to the 27 Rogers Commission Report, Volume 11, p. F-2.[^28] NASA, "SRB Critical Items List," Page A-6A, December 17, 1982, Sheet I bid.
 
 %%page 213%%
+
+conclusion that temperature was a contributing factor to joint damage. Mr. Boisjoly explained to General Kutyna that, based on photographs of the joints on 51-C (launched at a seal temperature of 53°F) and 61-A (launched at a seal temperature of 75"F), he "concluded, and so presented on the night before the launch . . . that it was telling us that temperature was indeed a discriminator . . .[^33]
+
+"
 
 The appearance of the material that had bypassed the joint, ac- cording to Boisjoly, was significantly worse for 51C in appearance and extent.
 
@@ -4393,9 +4409,7 @@ Mr. ROE."I would like to get Mr. Mulloy to answer the question-would you repeat 
 
 Committee at what level the O-ring problem was discussed and who was at that level? . . . You mentioned again, you listed the whole nine, and tell the Committee at what level the O-ring problem was discussed. We have been going on this for seven years and then who was at that meeting?"
 
-> Mr. M u u o ~ "Yes . sir. I can answer part of your ques-
-
-tion. . . . I am reading from what was provided to me. It looks like it fits within the erosion. STS-11 [41-B], 41-C,
+Mr. M u u o ~ ."Yes sir. I can answer part of your question. . . . I am reading from what was provided to me. It looks like it fits within the erosion. STS-11 [41-B], 41-C,
 
 41-G, 51-E . . ., 51-F . . . , 51-1, 51-5, 61-A . . ., and 61
 
@@ -4403,13 +4417,13 @@ Bravo."
 
 Mr. ROE. "These were a problem with the O-rings and they were discussed at Level l?"
 
-> Mr. MULLOY. "Level 1 and Level 2." Mr. ROE. "Therefore it is inconceivable that Level 1,
+> Mr. MULLOY."Level 1 and Level 2." Mr. ROE. "Therefore it is inconceivable that Level 1,
 
 which is top management, would not have understood the issue?''
 
 Mr. MULLOY. ""hat is right, and I believe that has been acknowledged. . . ."
 
-Dr. GRAHAM. "We are in fact, reviewing the records to see who was at the various Flight Readiness Reviews that occurred when the O-ring data was mentioned, and we have not yet been able to pull that together. . . ."
+Dr. GRAHAM."We are in fact, reviewing the records to see who was at the various Flight Readiness Reviews that occurred when the O-ring data was mentioned, and we have not yet been able to pull that together. . . ."
 
 Mr. ROE. "SO what you are basically saying is that
 
@@ -4429,7 +4443,7 @@ Dr. Graham's statement is important when discussing the August 19, 1985, briefin
 
 Mr. Aldrich was not made aware of the briefing at all, removing Level 2 from the information
 
-Levels 1 and 2 were not alone in their misapprehensions. the lack of understanding of the seal problem also appears in the pres- entations to D r.Lucas and Mr. Reinartz at Marshall made by Mr. Mulloy. In the STS 61-C FRR cycle, immediately preceding 51-L, Mr. Mulloy was given an extensive discussion of the information obtained from STS 61-B, describing the damage to the seals, at the Level 3 SRB Project Office briefing he chaired.38
+Levels 1 and 2 were not alone in their misapprehensions. the lack of understanding of the seal problem also appears in the pres- entations to Dr.Lucas and Mr. Reinartz at Marshall made by Mr. Mulloy. In the STS 61-C FRR cycle, immediately preceding 51-L, Mr. Mulloy was given an extensive discussion of the information obtained from STS 61-B, describing the damage to the seals, at the Level 3 SRB Project Office briefing he chaired.38
 
 Mulloy's presentation to the Shuttle Projects Board then noted "SRM joint O-ring performance within experience base."3
 
@@ -4437,7 +4451,7 @@ In his presentation to the Level 1 FRR, however, Mulloy stated there were "no 61
 
 In hindsight, a fundamental error that pervades the history of the seal erosion problem is this reliance on the "experience base" argument. Unwarranted confidence existed in the analysis of the joint seal erosion problem developed by Thiokol engineers and agreed to by Marshall's program office. There is a vital lesson to be learned in this episode, and it is best expressed by Henry Petroski, from the School of Engineering at Duke University.
 
-> Dismissing the single structural failure as an anomaly i s neuer a wise course (emphasis added). The failure of any engineering structure is cause for concern, for a single in- cident can indicate a material flaw or design error that renders myriad structural successes irrelevant. . . . In en-
+> Dismissing the single structural failure as an anomaly is neuer a wise course (emphasis added). The failure of any engineering structure is cause for concern, for a single in- cident can indicate a material flaw or design error that renders myriad structural successes irrelevant. . . . In en-
 
 ss Cmte H Transcript, June 17, 1986, pp. 203-206.
 
@@ -4457,13 +4471,13 @@ The Committee is also concerned about the so-called "launch con- straint" impose
 
 Testifying before the Commission, Mulloy had also made this distinction.
 
-> Chairman ROGERS."Let's go back just a bit, because I think it is helpful to me if you-you use words that I un- derstand a little bit. What caused the constraint to be put on in the first place?' Mr. MULLOY."The constraint was put on after we saw the secondary O-ring erosion on the nozzle, I believe." Chairman ROGERS. "Who decided that?'' Mr. MULLOY. "I decided that, that that [the joint seal erosion] would be addressed, until that problem was re- solved, it would be considered a launch constraint, and ad- dressed at Flight Readiness Reviews to assure that we were staying within our flight experience base. , . ." Dr. RIDE. "Why didn't you put a launch constraint on the field joint at the same time?" Petroski, To E 'her is Human: The Role of Failure in Successful Design (New
+> Chairman ROGERS."Let's go back just a bit, because I think it is helpful to me if you-you use words that I un- derstand a little bit. What caused the constraint to be put on in the first place?' Mr. MULLOY."The constraint was put on after we saw the secondary O-ring erosion on the nozzle, I believe." Chairman ROGERS. "Who decided that?'' Mr. MULLOY."I decided that, that that [the joint seal erosion] would be addressed, until that problem was re- solved, it would be considered a launch constraint, and ad- dressed at Flight Readiness Reviews to assure that we were staying within our flight experience base. , . ." Dr. RIDE. "Why didn't you put a launch constraint on the field joint at the same time?" Petroski, To E 'her is Human: The Role of Failure in Successful Design (New
 
 Y;rL?t?%artin's Press,[^1] 9 8 , pp. 69-73.[^4] s Cmte Hgs,Transcript,June 17, 1986, p. 205.
 
 %%page 216%%
 
-> Mr. MULLOY. "I think at that point . . . the logic was that we had been discussing the field joint, the field and nozzle joint primary O-ring erosion. This erosion of [STS 51-B'sl secondary O-ring was a new and significant event, very new and significant event that we certainly did not understand. Everything up to that point had been that the primary O-ring, even though it does experience some ero- sion, does seal. What we had evidence of was that here was a case where the primary O-ring was violated and the sec- ondary O-ring was eroded, and that was considered to be a more serious observation than previously observed."
+> Mr. MULLOY."I think at that point . . . the logic was that we had been discussing the field joint, the field and nozzle joint primary O-ring erosion. This erosion of [STS 51-B'sl secondary O-ring was a new and significant event, very new and significant event that we certainly did not understand. Everything up to that point had been that the primary O-ring, even though it does experience some ero- sion, does seal. What we had evidence of was that here was a case where the primary O-ring was violated and the sec- ondary O-ring was eroded, and that was considered to be a more serious observation than previously observed."
 
 The Marshall Space Flight System Problem Assessment System (PAS) was tracking the problem of nozzle joint primary O-ring ero- sion in Record A09288, "0-Ring Erosion in the Case to Nozzle
 
@@ -4487,7 +4501,7 @@ NASA, Marshall Space Fli ht Center, '@Ring Erosion in the Case to Nozzle Joint,"
 
 48NAS.4, Marshall Space Flight Center, "Segment Joint Primary Oring Charred," Problem Asseaament System Record Number A07934, March 7, 1986, p. 4. See Appendix VIII-I.[^4] 7 Ibid., p. 1.
 
-481bid.r p. 5.
+481bid.rp. 5.
 
 %%page 217%%
 
@@ -4503,7 +4517,7 @@ This was apparently a mistake. As Mr. Mulloy and Mr. Wear ex- plained to the Com
 
 Mr. Mulloy's discussion with Chairman Roe, and his description provided to the Commission, indicate that the NASA Safety, Reli- ability and Quality Assurance (SR&QA) organization should play a
 
-Robert Lindstrom, NASA, Marshall Space Fli ht Center, "Assigning Launch Constraints on dpen Problems Submitted t o MSFC PAS," Septem%er 15,1980, p. 1. See Appendix WI-J. 6 1 -era Commission Report, Volume V, p. 1509.
+Robert Lindstrom, NASA, Marshall Space Fli ht Center, "Assigning Launch Constraints on dpen Problems Submitted to MSFC PAS," Septem%er 15,1980, p. 1. See Appendix WI-J. 6 1 -era Commission Report, Volume V, p. 1509.
 
 bid.
 
@@ -4565,9 +4579,7 @@ He called me and said they had just received some word earlier that the weatherm
 
 Mr. Ebeling wanted Mr. McDonald to get some accurate predict- ed temperatures for the Cape so he could make some calculations to determine what could be expected of the O-rings. McDonald told him he would get the temperature data for him and call him back. Mr. Carver Kennedy, Vice President of Space Services for Thiokol, working at the Kennedy Space Center, obtained the information. Mr. McDonald then relayed the information to Mr. Ebeling in Utah. The information indicated that the temperature was to get as low as 22" in the early morning hours, probably around 6:OO a.m., and that they were predicting a temperature of about 26" at the intended time of launch, 9:38 a.m. on the 28th.s2
 
-69 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.
-
-80 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shut- tle Challenger Accident, March 19, 1986,
+6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.[^8] 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shut- tle Challenger Accident, March 19, 1986,
 
 6 1 Rogers Commission Report, Volume f V
 
@@ -4587,9 +4599,7 @@ Mr. McDonald then called Mr. Cecil Houston, the Resident Manager for the Marshal
 
 ## TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE
 
-> ON JRNUARY 27. 1986 e.tKennedvwm.Florlda
-
-Th I okol A1 I an McDonal d D t r e c t o r , Sol I d Rocket Motor Program
+ON JRNUARY 27. 1986 e.tKennedvwm.Florlda Th I okol A1 I an McDonal d D t r e c t o r , Sol I d Rocket Motor Program
 
 Offfce Th f okol Jack Buchanan Manager, KSC Resldent O f f l c e MSFC Lawrence Mu1 I oy Manager, Sol 1 d Rocket Booster P r o j e c t
 
@@ -4627,7 +4637,7 @@ Dr. Keel, the Staff Director for the Rogers Commission, asked,
 
 %%page 224%%
 
-> Mr. REINARTZ. "Yes, sir, that possibility is always there." Dr. KEEL."Did you convey that to Mr. Mulloy and Mr. Hardy before the 8:15 teleconference?" Mr. REINARTZ."Yes I did. And as a matter of fact, we had a discussion. Mr. Mulloy was just out of communica- tion for about an hour, and then after that I got in contact with him, and we both had a short discussion relating to the general nature of the concerns with Dr. Lucas and Mr. Kingsbury at the motel before we both departed for the te- lecon that we had set up out at the Cape."65
+> Mr. REINARTZ."Yes, sir, that possibility is always there." Dr. KEEL."Did you convey that to Mr. Mulloy and Mr. Hardy before the 8:15 teleconference?" Mr. REINARTZ."Yes I did. And as a matter of fact, we had a discussion. Mr. Mulloy was just out of communica- tion for about an hour, and then after that I got in contact with him, and we both had a short discussion relating to the general nature of the concerns with Dr. Lucas and Mr. Kingsbury at the motel before we both departed for the te- lecon that we had set up out at the Cape."65
 
 At approximately 8:45 p.m. EST, the second phase of the telecon- ference commenced, Thiokol's charts and written data having ar- rived at the Kennedy Space Center by telefax. The charts present- ed a history of the O-ring erosion and blow-by in the Solid Rocket Booster joints of previous flights, presented the results of subscale testing at Thiokol and the results of static tests of Solid Rocket Motors.
 
@@ -4635,7 +4645,7 @@ Mr. Boisjoly testified:
 
 > I expressed deep concern about launching at low temper- ature. I presented Chart 2-1 with emphasis-now, 2-1, if you want to see it, I have it, but basically that was the chart that summarized the primary concerns, and that was the chart that I pulled right out of the [August 191 Washington presentation without changing one word of it because it was still applicable, and it addresses the highest concern of the field joint in both the ignition transient con- dition and the steady state condition, and it really sets down the rationale for why we were continuing to fly. Ba- sically, if erosion penetrates the primary O-ring seal, there is a higher probability of no secondary seal capability in the steady state condition. And I had two sub-bullets under that which stated bench testing showed O-ring not capable of maintaining contact with metal parts gap opening rate to maximum operating pressure. I had another bullet which stated bench testing showed capability to maintain O-ring contact during initial phase (0 to 170 milliseconds of transient). That was my comfort basis of continuing to fly under normal circumstances, normal being within the data base we had. I emphasized, when I presented that chart about the changing of the timing function of the O-ring as it at- tempted to seal. I was concerned that we may go from that first beginning region into that intermediate region, from 0 to 170 being the first region, and 170 to 330 being the intermediate region where we didn't have a high probabili- ty of sealing or seating.66
 
-66 Ibid.[^60] Ibid., Volume IV, p. 790.
+66 Ibid. 60 Ibid., Volume IV, p. 790.
 
 %%page 225%%
 
@@ -4671,7 +4681,7 @@ Shortly thereafter, Mr. Joseph Kilminster, Thiokol's Vice Presi- dent for-Space 
 
 Then, according, to Mr. Boisjoly, someone in Thiokol manage- ment asked for a five-minute caucus, and at that point Thiokol cut their speakerphone off.
 
-Chairman ROGERS. "Mr. Boisjoly, at the time that you made the-that Thiokol made the recommendation not to launch, was that the unanimous recommendation as far as you knew?"
+Chairman ROGERS."Mr. Boisjoly, at the time that you made the-that Thiokol made the recommendation not to launch, was that the unanimous recommendation as far as you knew?"
 
 Mr. BOISJOLY. "Yes. I have to make something clear. I have been distressed by the things that have been appearing in the paper and things that have been said in general, and there was never one positive, pro-launch statement ever made by anybody. There have been some feelings since then that folks have expressed that they would support the decision, but there was not one positive statement for launch ever made in that
 
@@ -4723,7 +4733,7 @@ At approximately 11 p.m. EST, the Thiokol/NASA teleconference resumed, with Mr. 
 
 713bid.
 
-lSCmte Hgs, Transcript, June 18, 1986, p. 85.
+lS Cmte Hgs, Transcript, June 18, 1986, p. 85.
 
 no The Committee has learned that (apparently due to an error in duplicating the relevant chart) the copy of this telefax that was sent to the Rogers Commission did not contain the stand- ard caveat that was printed below the company logo on the original telefax. The caveat reads, "Information on this page was prepared to support an oral presentation and cannot be consid- ered complete without the oral discussion." At the Committee hearings on June 18, 1986, Mr.U. Continued
 
@@ -4731,19 +4741,19 @@ no The Committee has learned that (apparently due to an error in duplicating the
 
 Having heard the debate and this decision, Mr. Reinartz accepted the conclusion and ended the teleconference. He asked whether anyone had any further concerns. None were expressed. Commis- sioners then asked what steps he had taken after the decision was made.
 
-Chairman ROGERS. "I guess the question that still lingers in my mind is, in the Navy we used to have an expression about going by the book, and I gather you were going by the book. But doesn't the process require some judgment? Don't you have to use common sense? Wouldn't common sense require that you tell the decisionmakers about this serious problem that was different from anything in the past?
+Chairman ROGERS."I guess the question that still lingers in my mind is, in the Navy we used to have an expression about going by the book, and I gather you were going by the book. But doesn't the process require some judgment? Don't you have to use common sense? Wouldn't common sense require that you tell the decisionmakers about this serious problem that was different from anything in the past?
 
 Mr. REINARTZ."In looking at that one, Mr. Chairman, together with Mr. Mulloy when we looked at were there any launch commits, any Level 11, as I perceived during the telecon, I got no disagreement concerning the Thiokol launch between any of the Level I11 elements, the contractor, with Mr. McDonald there. I felt that the Thiokol and
 
 Marshall people had fully examined that concern, and that it had been satisfactorily dispositioned based upon the evidence and the data that was supplied to that decision process on that evening, from that material, and not extraneous to what else may have been going on within Thiokol that I had no knowledge of."
 
-Chairman ROGERS. "Okay. Thank you. I'm sorry for the long interruption."
+Chairman ROGERS."Okay. Thank you. I'm sorry for the long interruption."
 
 Mr. REINARTZ. "Based upon-and as we skipped over it is only a point to illustrate, Mr. Chairman, that in our discussion about the parachute with KSC and Mr. Aldrich, was to indicate that there was a clear area there where we had a very direct responsibility to inform them of the situation, which Mr. Mulloy did. And after a discussion of that issue, Mr. Aldrich concluded that the launch should proceed in that nature. Based on the results of the meeting and the conclusions out of the meeting, Mr. Mulloy and I informed the Director of Marshall, Dr. Lucas, and the Director of Science and Engineering, Mr. Kingsbury, on the
 
 28th of January-about 5:OO-of the initial Thiokol concerns and engineering recommendations, the final Thiokol launch recommendation, that I felt had led to a successful resolution of this concern."
 
-General KUTYNA. "Could I interrupt for a minute? You informed Dr. Lucas. He is not in the reporting chain?"
+General KUTYNA."Could I interrupt for a minute? You informed Dr. Lucas. He is not in the reporting chain?"
 
 > Mr. REINARTZ. "NO,sir." General KUTYNA. "If I could use an analogy, if you want
 
@@ -4753,7 +4763,7 @@ Edwin Garrison, President of the Aerospace Group at Thiokol, testified that the 
 
 %%page 230%%
 
-> report to him, why didn't you go through the fire depart- ment and go up your decision chain?" Mr. REINARTZ. "That, General Kutyna, is a normal course of our operating mode within the center, that I keep Dr. Lucas informed of my activities, be they this type of thing or other." General KUTYNA. "But you did that at 5 o'clock in the morning. That's kind of early. It would seem that's impor- tant. Why didn't you go up the chain?" Mr. REINARTZ. "NO,sir. That is the time when we go in, basically go into the launch, and so it was not waking him up to tell him that information. It was when we go into the launch in the morning. And based upon my assess- ment of the situation as dispositioned that evening, for better or worse, I did not perceive and clear requirement for interaction with Level 1 1, as the concern was worked any dispositioned with full agreement among all reasona- ble parties as to that agreement." Chairman ROGERS. "Did I understand what you just said, that you told Dr. Lucas that all the engineers at Thiokol were in accord? Mr. REINARTZ. "No, sir. What I told him was of the ini- tial Thiokol concerns that we had and the initial recom- mendation and the final Thiokol recommendation and the rationale associated with that recommendation, and the fact that we had the full support of the senior Marshall engineering and, as George has testified, to the exten- siveness of the group of people we had involved in that te- lecon with the various disciplines, that those three ele- ments made up the final recommendation." Mr. HOTZ."Mr. Reinartz, are you telling us that you in fact are the person who made the decision not to escalate this to a Level I1 item?" Mr. REINARTZ. "That is correct, sir."[^8] 2
+> report to him, why didn't you go through the fire depart- ment and go up your decision chain?" Mr. REINARTZ."That, General Kutyna, is a normal course of our operating mode within the center, that I keep Dr. Lucas informed of my activities, be they this type of thing or other." General KUTYNA. "But you did that at 5 o'clock in the morning. That's kind of early. It would seem that's impor- tant. Why didn't you go up the chain?" Mr. REINARTZ."NO,sir. That is the time when we go in, basically go into the launch, and so it was not waking him up to tell him that information. It was when we go into the launch in the morning. And based upon my assess- ment of the situation as dispositioned that evening, for better or worse, I did not perceive and clear requirement for interaction with Level 11, as the concern was worked any dispositioned with full agreement among all reasona- ble parties as to that agreement." Chairman ROGERS. "Did I understand what you just said, that you told Dr. Lucas that all the engineers at Thiokol were in accord? Mr. REINARTZ. "No, sir. What I told him was of the ini- tial Thiokol concerns that we had and the initial recom- mendation and the final Thiokol recommendation and the rationale associated with that recommendation, and the fact that we had the full support of the senior Marshall engineering and, as George has testified, to the exten- siveness of the group of people we had involved in that te- lecon with the various disciplines, that those three ele- ments made up the final recommendation." Mr. HOTZ."Mr. Reinartz, are you telling us that you in fact are the person who made the decision not to escalate this to a Level I1 item?" Mr. REINARTZ. "That is correct, sir."[^8] 2
 
 According to NASA's Program Directive SFO-PD 710.5A, Mr. Reinartz may have been required to report the matter to the Asso- ciate Administrator for Space Flight. A portion of that directive reads as follows:
 
@@ -4773,9 +4783,7 @@ It is also interesting to note, in light of the directive, that Mr. McDonald tes
 
 Mr. Mulloy responded to this by explaining what he had at- tempted to say.
 
-> Mr. MULLOY. "The total context, I think, in which those words may have been used is, there are currently no Launch Commit Criteria for joint temperature. What you are proposing to do is to generate a new Launch Commit Criteria on the eve of launch, after we have successfully flown with the existing Launch Commit Criteria 24 previ- ous times. With this LCC, i.e., do not launch with a tem- perature greater than [sic] 53 degrees, we may not be able to launch until next April. We need to consider this care- fully before we jump to any conclusions. It is all in the context, again, with challenging your interpretation of the data, what does it mean and is it logical, is it truly logical that we really have a system that has to be 53 degrees to fly? . . ," General KUTYNA. "Mr. Mulloy, if in fact the criteria were 53 degrees, it would have an impact not only on this launch, but on the shuttle program. . . . It is a fairly im- portant decision to say you can't launch below 53 degrees, isn't it? Mr. MULLOY. "Yes, sir, I agree with that. I cannot de- scribe the impacts, but, as I say, based upon our previous experience and our actions in flying subsequent vehicles after 51C,I found that to be a surprising conclusion. . . ." Mr. SUITER. ' I . . . [Ilnstead of saying you have to wait
-
-> until next April to launch, the thing that you do is you go and there were three different levels of improvements that were discussed. The thing to do then was to put those im- provements in the program, not infer that these engineers are saying, we're throwing a ringer a t you that says don't launch until next April. I think that is putting those engi- neers into a little bit of a hot seat. And if they're trying to do their job and say, hey, we ought to do something about this, there ought to have been more attention paid."[^8] 5
+> Mr. MULLOY. "The total context, I think, in which those words may have been used is, there are currently no Launch Commit Criteria for joint temperature. What you are proposing to do is to generate a new Launch Commit Criteria on the eve of launch, after we have successfully flown with the existing Launch Commit Criteria 24 previ- ous times. With this LCC, i.e., do not launch with a tem- perature greater than [sic] 53 degrees, we may not be able to launch until next April. We need to consider this care- fully before we jump to any conclusions. It is all in the context, again, with challenging your interpretation of the data, what does it mean and is it logical, is it truly logical that we really have a system that has to be 53 degrees to fly? . . ," General KUTYNA."Mr. Mulloy, if in fact the criteria were 53 degrees, it would have an impact not only on this launch, but on the shuttle program. . . . It is a fairly im- portant decision to say you can't launch below 53 degrees, isn't it? Mr. MULLOY. "Yes, sir, I agree with that. I cannot de- scribe the impacts, but, as I say, based upon our previous experience and our actions in flying subsequent vehicles after 51C,I found that to be a surprising conclusion. . . ." Mr. SUITER.' I . . . [Ilnstead of saying you have to wait until next April to launch, the thing that you do is you go and there were three different levels of improvements that were discussed. The thing to do then was to put those im- provements in the program, not infer that these engineers are saying, we're throwing a ringer a t you that says don't launch until next April. I think that is putting those engi- neers into a little bit of a hot seat. And if they're trying to do their job and say, hey, we ought to do something about this, there ought to have been more attention paid."[^8] 5
 
 The Rogers Commission report included the statement, "It is clear that crucial information about the O-ring damage in prior flights and about the Thiokol engineers' arguments with the NASA telecon participants never reached Jesse Moore or Arnold Aldrich, the Level I and I1 program officials, or J. A. Thomas, the Launch Director for 51-L."86
 
@@ -4789,7 +4797,7 @@ The Committee also reviewed tapes and transcripts of conversa- tions that took p
 
 Soon after the call-to-stations on 28 January, at approximately midnight, cameras on the pad allowed engineers in the Firing Room to see that the gantry was heavily encrusted with ice. Over the Engineering Support Room communications loops, the follow- ing conversation took place:[^8] 7 NASA, Kennedy Space Center, "STS-33 (51-L) IceIFrost Team Evaluation Report ESS/ RSS/MLP Deck/Pad Apron Icing," January 30, 1986, 1.
 
-Conversations were recorded from the Kennedy ipace Center Operational Intercommunica- tion System (OW, which permits members of the launch crew to discuss problems that occur during the countdown, and permits them to contact various mission support facilities around the country. The transcripts provided to the Committee do not indicate the exact times at which the referenced conversations occurred, and so the flow of conversations has been reconstructed in a n attempt to provide logical consistency.
+Conversations were recorded from the Kennedy ipace Center Operational Intercommunica- tion System (OW, which permits members of the launch crew to discuss problems that occur during the countdown, and permits them to contact various mission support facilities around the country. The transcripts provided to the Committee do not indicate the exact times at which the referenced conversations occurred, and so the flow of conversations has been reconstructed in an attempt to provide logical consistency.
 
 Most of the transcripts in this section are drawn from OIS Channel 245, identified as the co- ordination channel for JSC/MSFC/KSC Engineering personnel in the Engineering Support Area at Kennedy Space Center. Conversations among Rockwell International personnel were obtained from 01s Channel 216, described as the coordination channel for JSC personnel at Johnson and Kennedy centers and Rockwell engineers in Downey, California. Tranacript page numbers a re those supplied by NASA.
 
@@ -5003,11 +5011,7 @@ LD. Okay, but we need to have Rockwell in there where we need to ready to talk.
 
 DIRECTOR. We can get Don in and we'll do that.
 
-97 Ibid.
-
-9s Bid. pp. 579-81.
-
-0 9 Ibid., pp. 581-82.
+97 Ibid.[^9] s Bid. pp. 579-81.[^9] Ibid., pp. 581-82.
 
 %%page 237%%
 
@@ -5119,9 +5123,9 @@ RTI. That's unacceptable. Anything in the trough is unaccepatable and any ice th
 
 1O5 01s Channel 245, pp. 600-601.
 
-l o 8 01s Channel 216, p. 345.
+lo8 01s Channel 216, p. 345.
 
-lo' 0 1s Channel 245, pp. 603-604.
+lo' 01s Channel 245, pp. 603-604.
 
 %%page 240%%
 
@@ -5161,11 +5165,13 @@ At about this time, Mr. Bill Fleming, the senior representative of Rockwell Inte
 
 Just prior to attending the meeting called by Arnold Aldrich, the Vice President and Program Manager for Orbiter Operations Sup- port at Rockwell held the following teleconference with their Chief Engineer at Downey.
 
-RDE. Hey, we've gone over this again. Colonna called me and wanted to see if there is a way we could give it a go. But, when all the experts have looked at it, we still have concerns with three mechanisms. One, direct transport of falling ice into the vehicle at SSME ignition and the wind is adequate to make that happen. The ten-knot wind can move it laterally like twenty feet and a fifteen-knot gust could take it laterally forty feet. So even though you might be able to placard it, it's very close with the wind you've got. Secondly, you've got a rebound mechanism, where ice falls down into the lower part of the platform and goes out. Some pretty sizeable chunks and sometimes all it does is break a n icicle in two, that's clearly enough to cause significant tile damage. And, finall the ice ends up on the MLP and in the trough is all potential debris sources a t JRB ignition and liftoff and the trajectory those things take are highly unpredictable and we just note in films tended to go in different directions. So we are not in the position to, uh. . . . So we've been through the three mechanisms, none of which we can completely clear. Dr. Petrone's here; we've discussed it with him. We still are of the position that it's still a bit of Rus108 01s Channel 2 1 6 , ~345-48.
+RDE. Hey, we've gone over this again. Colonna called me and wanted to see if there is a way we could give it a go. But, when all the experts have looked at it, we still have concerns with three mechanisms. One, direct transport of falling ice into the vehicle at SSME ignition and the wind is adequate to make that happen. The ten-knot wind can move it laterally like twenty feet and a fifteen-knot gust could take it laterally forty feet. So even though you might be able to placard it, it's very close with the wind you've got. Secondly, you've got a rebound mechanism, where ice falls down into the lower part of the platform and goes out. Some pretty sizeable chunks and sometimes all it does is break a n icicle in two, that's clearly enough to cause significant tile damage. And, finall the ice ends up on the MLP and in the trough is all potential debris sources a t JRB ignition and liftoff and the trajectory those things take are highly unpredictable and we just note in films tended to go in different directions. So we are not in the position to, uh. . . . So we've been through the three mechanisms, none of which we can completely clear. Dr. Petrone's here; we've discussed it with him. We still are of the position that it's still a bit of Rus108 01s Channel 2 1 6 , ~ ~ .
 
-~.
+345-48.
 
-l o g NASA, Johnson pace Flight Center, "Presidential Commission Action Item (A-301) Re- sponse," DDATF-86-36, April 7, 1986, p. 1.[^24] 1 sian roulette; you'll probably make it. Five out of six times you do playing Russian roulette. But, there's a lot of debris. They could hit direct, they could be kicked up later by the SRBs, and we just don't know how to clear that.
+logNASA, Johnson pace Flight Center, "Presidential Commission Action Item (A-301) Re- sponse," DDATF-86-36, April 7, 1986, p. 1.
+
+24 1 sian roulette; you'll probably make it. Five out of six times you do playing Russian roulette. But, there's a lot of debris. They could hit direct, they could be kicked up later by the SRBs, and we just don't know how to clear that.
 
 RVP. Okay. Our position fundamentally hasn't changed. We'll just go in now, we got a 9:00, we'll go in and express it. I'll let you know what happens.
 
@@ -5185,7 +5191,7 @@ Mr. Aldrich, conversely, told the Commission that:
 
 > Glaysher's statement to me as best as I can reconstruct it to report it to you at this time was that, while he did not disagree with the analysis that JSC and KSC had reported, that they would not give a n unqualified go for launch as ice on the launch complex was a condition which had not previously been experienced, and thus posed a small addi- tional, though unquantifiable, risk. l 4
 
-Aldrich concluded the meeting by deciding to recommend that the countdown continue until the ice team could return to the pad just prior to launch and make a final assessment. Aldrich testified that he told Jesse Moore about Rockwell's reservations, explained his decision, and recommended that the launch proceed unless the ice team discovered that the situation had badly deteriorated. '' ' lo01s Channel 216, p. 353. 111 Rogers Commission Report, Volume V, p. 1013 1 1 2 Ibid.
+Aldrich concluded the meeting by deciding to recommend that the countdown continue until the ice team could return to the pad just prior to launch and make a final assessment. Aldrich testified that he told Jesse Moore about Rockwell's reservations, explained his decision, and recommended that the launch proceed unless the ice team discovered that the situation had badly deteriorated. '' ' lo01s Channel 216, p. 353. 111 Rogers Commission Report, Volume V, p. 1013 112 Ibid.
 
 Ibid., p. 1014.[^1] 1 4 Ibid., p. 1025. 115 Ibid.
 
@@ -5247,7 +5253,7 @@ Finally, Congressman Ron Packard discussed with witnesses at the Committee's hea
 
 Mr. PACKARD. "Mr. Davis, you spoke regarding the companies having a voice in the decisionmaking, I presume, after the FRRs-that two week interim between launch and the readiness review system. Do you believe that the companies should have more voice, less voice, or have they had any voice in whether its a go or no-go?"
 
-> ~ ~ ~ I can tell you how it runs now. Up Mr. D A V I S ."Well,
+> Mr. D A V I S . ~ ~ ~ I can tell you how it runs now. Up "Well,
 
 to and including the Lminus-one day review, there's no doubt that every company has a very strong voice; and, as a matter of fact, at the Gminus-one review, they are required to stand up and commit their hardware as go or nogo. And those are very unequivocal commitments, also.
 
@@ -5257,7 +5263,7 @@ Firing Room 2 in a very significant presence; we are aware of what is happening 
 
 Mr. PACKARD. "A quick answer, Mr. Murphy. Do you agree?"
 
-> Mr. M U R P H Y "Yes, . ~ ~I~agree with what Rick has said. I
+> Mr. M U R P H Y . ~ ~I~agree with what Rick has said. I "Yes,
 
 think that we have found out that we commit ourselves, I guess, at 20 minutes and 9 minutes by the people who are manning the consoles, but it does not rise to the management level which it should, in accordance with what Mr. Davis has stated. We would like that opportunity also."
 
@@ -5267,13 +5273,13 @@ I have never felt that if I needed to stop a launch, I could not stop it. While 
 
 Mr. PACKARD. "Mr. Jeffs, do you feel the same?"
 
-lZo Mr. Richard Davis, President, Martin Marietta Michoud Aerospace.
+lZoMr. Richard Davis, President, Martin Marietta Michoud Aerospace.
 
-121 Mr. George Murphy, Executive Vice President and General Manager, United Technologies Booster Production Company.
+121Mr. George Murphy, Executive Vice President and General Manager, United Technologies Booster Production Company.
 
 %%page 245%%
 
-> Mr. J E F F S . ' "Yes, ~ ~ I think the system should be formal-
+> Mr. J E F F S . ' ~ ~ "Yes, I think the system should be formal-
 
 ized more. We have great visibility as to the problems and real times, being on the net and having CRTs [console displays] and people that are involved in depth, both at
 
@@ -5281,7 +5287,7 @@ Downey and at Houston, who support it, even though it's at the Cape. But especia
 
 Mr. PACKARD. "Mr. Murphy, if you'd had that system set up prior to the accident, would the flight-would it have still gone?"
 
-Mr. MURPHY. "It would not have influenced our position at all. Our hardware-we had stipulations on what we required on the hardware during the whole period. They were met, and so we were in a 'go' posture as far as we were concerned. It would not have affected our position." z 3
+Mr. MURPHY."It would not have influenced our position at all. Our hardware-we had stipulations on what we required on the hardware during the whole period. They were met, and so we were in a 'go' posture as far as we were concerned. It would not have affected our position." z 3
 
 The Committee believes that had the hardware contractors been required by NASA to formally declare their flight readiness, it would have removed the ambiguity in Rockwell's recommendations involving the ice on the Fixed Service Structure.
 
@@ -5299,11 +5305,11 @@ FH. Okay, we may have a problem with propellant temperatures at that low level. 
 
 CF. Because of the amount of heat that the ground system's able to put in there?
 
-12 2 Mr. George Jeffs, President, North American Space Operations, Rockwell International.
+12 2Mr. George Jeffs, President, North American Space Operations, Rockwell International.
 
-L z 3 Cmte. H,p., Transcript, July 25, 1986, pp. 71-74.
+Lz3Cmte. H,p., Transcript, July 25, 1986, pp. 71-74.
 
-I24NASA, Launch Commit Criteria and Background," Revision C, Amendment 18, JSC- 16007, December 1 , 1982, p. 5.1-4. See Appendix VIII-K. FH. That's right, they're giving us all they can right now. . . . I z 5
+I24NASA, Launch Commit Criteria and Background," Revision C, Amendment 18, JSC- 16007, December 1, 1982, p. 5.1-4. See Appendix VIII-K. FH. That's right, they're giving us all they can right now. . . . I z 5
 
 %%page 246%%
 
@@ -5347,7 +5353,7 @@ R. That's afirmative.l27
 
 The waiver referred to in this conversation offered the following technical rationale: "NO visible ice buildup on the nose cap fairing exit area. Temperature is 12 deg F below redline."12*
 
-The waiver also read, "For STS-33 [51-L] Min LCC acceptable is 28 deg F (was 45 deg F). Ullage transducers are acceptable down to 28 deg F (was 40 deg F). Refer Note A, LCC 5.1-4." l Z 9
+The waiver also read, "For STS-33 [51-L]Min LCC acceptable is 28 deg F (was 45 deg F). Ullage transducers are acceptable down to 28 deg F (was 40 deg F). Refer Note A, LCC 5.1-4." l Z 9
 
 Note A read:
 
@@ -5439,9 +5445,9 @@ D. OK. You don't think we'll have any trouble getting that signed?
 
 UKN. No, as long as our pressure transducers are OK.
 
-13p bid., 5.1-4.
+5.1-4.[^1] 3 p bid.,
 
-13301S Ciannel245, pp. 220-21.
+13301SCiannel245, pp. 220-21.
 
 '3'01s Channel 161, p. 289. Channel 161 is identified as an Engineering channel used for troubleshooting and systems integration.
 
@@ -5533,7 +5539,7 @@ Under "Remarks," this criterion states, "Violation of this redline shall require
 
 Mr. Mulloy testified before the Commission that:
 
-> Mr. MULLOY. "I had a discussion on my SRB loop with the SRB people dealing with the question of a 24-hour turnaround to attempt to launch again at 9:38 on the 28th and the effect that the predicted cold temperatures for the night of the 27th might have on that. The input was received back both to Mr. Reinartz and myself that we were looking at the Launch Commit Crite-
+> Mr. MULLOY."I had a discussion on my SRB loop with the SRB people dealing with the question of a 24-hour turnaround to attempt to launch again at 9:38 on the 28th and the effect that the predicted cold temperatures for the night of the 27th might have on that. The input was received back both to Mr. Reinartz and myself that we were looking at the Launch Commit Crite-
 
 1*0 NASA,"Space Shuttle News Reference," !?81, p. 2-40. 1'1 "Lauch Commit Criteria and Background, Amendment 20, p. G-23. Ira hid., p. G-1 143 hid.
 
@@ -5545,9 +5551,7 @@ Mr. Mulloy testified before the Commission that:
 
 feel that would be of any concern. They were going to continue to look at it, and if any concern arose they would let me know.
 
-> I went to the 2 : O O Mission Management Team and re-
-
-ported that there were no constraints to the solid rocket booster for a 24-hour turnaround, that we had taken a look at the recovery battery temperatures and the fuel service module. We did not feel at this time that there would be any Launch Commit Criteria for the low temperature limits that were established for those systems, but that we were continuing to assess that; should anything change in that regard, I would so report that."
+I went to the 2:OO Mission Management Team and reported that there were no constraints to the solid rocket booster for a 24-hour turnaround, that we had taken a look at the recovery battery temperatures and the fuel service module. We did not feel at this time that there would be any Launch Commit Criteria for the low temperature limits that were established for those systems, but that we were continuing to assess that; should anything change in that regard, I would so report that."
 
 Chairman ROGERS. "You referred to the Launch Commit
 
@@ -5557,13 +5561,9 @@ Criteria. What were they as far as you knew in terms of weather conditions? Any?
 
 area. Another is the cross-winds at the return to landing site runway at Kennedy Space Center. Another is the trans-Atlantic landing site weather, and another is severe weather, which is related to lightning and thunderstorms in the area."
 
-Chairman ROGERS. "And when you say there were no constraints in the 2 :
+Chairman ROGERS."And when you say there were no constraints in the 2:OO meeting, does that mean that as far as you could see there were no problems in those areas?"
 
-O O meeting, does that mean that as far as you could see there were no problems in those areas?"
-
-> Mr. M u u o ~ "NO, . sir, I did not evaluate those areas of
-
-the Launch Commit Criteria. What I was looking at was the specific Launch Commit Criteria items that are on the solid rocket booster and the effect that the low temperatures would have on that.
+Mr. M u u o ~ ."NO, sir, I did not evaluate those areas of the Launch Commit Criteria. What I was looking at was the specific Launch Commit Criteria items that are on the solid rocket booster and the effect that the low temperatures would have on that.
 
 I would expect Mr. Aldrich would normally make the judgements on, and his people at the Johnson Space
 
@@ -5579,11 +5579,11 @@ If the hydrogen tank was never emptied during the turnaround procedure, this wou
 
 tember 4.1986. General Kutyna aL0 nded thb in the Commimion'r hearing on February 14.
 
-Ibpon Volume N. l S a0
+Cornmimion Ibpon Volume N. 660). l S a0s ( 7 r
 
-141s(7 rCornmimion
+141 Channel 245, p. 218.
 
-> Channel 245, p. 218. p. 660).
+p.
 
 ## IX.DEFINITIONS OF TERMS AND ACRONYMS
 
@@ -5611,7 +5611,7 @@ WASHtNGTCR ::546
 
 R E R Y TC 4moF: 30-1
 
-> T3 : M a r s h a l l Space Flight Center A t'& : Mr. G a r l a n d G. Buckncr Procuremenr Omcer !S2W: Marshall Space Plight Center I & . R o y E. Gohfrey sI;a Chaincan
+> T3 : M a r s h a l l Space Flight Center At'&: Mr. G a r l a n d G. Buckncr Procuremenr Omcer !S2W: Marshall Space Plight Center I&. R o y E. Gohfrey sI;a Chaincan
 
 > Z.TZ'2: Selectioa o f Conzrector for @ace Snur-de -Drs,g= 3 i i a Rocket Motors
 
@@ -5631,7 +5631,7 @@ Increment 111 production would be accomplished by acquisition of portion of the 
 
 Henderson, Nevada. Use of an existing, skilled, stable work force in a low labor rate area would minimize new hires and provide low labor costs. Thiokol's decision to fabricate nozzles in-house provided cost savings and good control over this extremely critical component: however, the Board concluded that this introduced some early risk because of lack of experience in fabricating nozzles of this size. Facility location resulted in high transportation cost of the SRM's:
 
-however, these costs were more than offset by low facility investments. The Thiokol proposal received the second highest overall Mission Suitability score by ' h e SEB, being tied with UTC. The SEB ranked Thiokol fourth under the
+however, these costs were more than offset by low facility investments. The Thiokol proposal received the second highest overall Mission Suitability score by 'he SEB, being tied with UTC. The SEB ranked Thiokol fourth under the
 
 Design, Development and Verification Factor, second under the
 
@@ -5649,7 +5649,7 @@ however, the cylindrical segment was close to the upper limits of size capabilit
 
 Manufacturina, Refurbishment and Product Support Thiokol had extensive processing experience with t h e i r proposed propellant formulation, having processed over 150 m i l l i o n pounds of t h i s generai type of p r o p e l l a n t . Thiokol's major weakness i n t h i s a r e a of evaluation was i n t h e a r e a of case f a b r i c a t i o n . The segment f a b r i c a t o r would be unable t o f a b r i c a t e t h e case s e r p e n t s strengthened with s t i f f e n i n g rings as proposed by Thiokol f o r a l t e r n a t e water ent-y load conditions, i f required. This would probably r e q d i r e a case and g r a i n redesign. Thiokol's manufacturing approach provided a good mechanized method of i n s t a l l i n g i n s u l a t i o n , coupled with an innovative method of preparing the i n s u l a t i o n surface f o r t h e l i n e r by p e e l i n g off a dacron c l o t h from t h e inner s u r f a c e of the i n s u l a t i o n . A minor w e a k n e s s in t h e manu- f a c t u r i n g approach was the d e c i s i o n to f a b r i c a t e nozzles in-house.due t o Thiokol's lack of experience i n f a b r i c a t i n g nozzles of this -size.
 
-> a - - --=posed = ; c t i l i z e e x i s t i n g f a c i l i t i e s wkicl?. W .Z L. ~
+> a - - --=posed ;= c t i l i z e e x i s t i n g f a c i l i t i e s wkicl?. W .Z L. ~
 
 ----- -..-OS~L m i ; L..*- 47 - .
 
@@ -5657,11 +5657,11 @@ aoc:;xaticns, were t Q t a l l y adeqgate f o r 211 t h r e e incrszenzs. The on
 
 - of s e p e n t assemjiy providea by t h r e e alignment p i n s thereby r e d m i n g =he assembly hours on the launch pad. Thiokol f a i l e d t o provide enough new cases and nozzles t o m e e t the launch schedule. Eight a d d i t i o n a l c a s e s and nozzles would Se r e c p i r e d t o provide assurance t h a t launch d a t e s could be met.[^3] , i c k s l str-xt.i=ed t h e development groqram so t h a t a l l mzjor c o s t s were defsrred. t o t h e l a t e s t p r a c t i c a b l e date. This - -es..? Led i n low e a r l y year funding, wnich i s a key program o j j e c r i v e . The a v a i l a b i l i t y of an operating p l a n t , with ample expezienced personnel and a proven organization which c x i d be pnased t o t h e SRM e f f o r t with minimum modification '
 
-added considerable maturity and confidence and proved t o be c o s t effec=ive. The Board considered t h i s t o be a major s t r e n g t h f o r all three increments. A strong matrix manage- ment was evident and key l i n e organization supervisors w e r e experienced and had worked together a s a team on many successful development and production programs such a s Minuteman a d Pcseidon. Strong management p a r t i c i p a t i o n and v i s i b i l i t y i n variance a n a l y s i s was another strong f e a t u r e a s was t h e approach t o c o r r e c t i v e a c t i o n s and t h e i r e f f e c t on estimate-co-complete. Procurement Management was 'thorouqh and well planned. SRM commodity purchases would be consoli- dated wizh t h a t of o t h e r programs a t Wasatch, which should r e s u l t i n lower c a s t . The Procurement of major items was w e i l matcked. t o o v e r a l l S R M schedule requirements. Thiokol proposed a strong Configuration Flanagement System wnicn inclzdod thcrouc:? i d e n c i f i c a t i o n and t r a c e a b i l i t y during D D T G , p r r d u c t i o n and refurbishment. me t e n t a t i v e decision to make t h e molded and t a p e wrapped nozzle in-house was considered a s t r e n g t h i n t h i s area. It would c o n t r i b u t e t o t h e low c o s t - p e r - f l i g h t goal by using a v a i l a b l e resources, avciding s-ontract f e e s , lowering overhead r a t e s , and taking advantage of lower c o s t labor. The i n h e r e n t r i s k management aspects a l s o were considered.
+added considerable maturity and confidence and proved t o be c o s t effec=ive. The Board considered t h i s t o be a major s t r e n g t h f o r all three increments. A strong matrix manage- ment was evident and key l i n e organization supervisors w e r e experienced and had worked together a s a team on many successful development and production programs such a s Minuteman a d Pcseidon. Strong management p a r t i c i p a t i o n and v i s i b i l i t y i n variance a n a l y s i s was another strong f e a t u r e a s was t h e approach t o c o r r e c t i v e a c t i o n s and t h e i r e f f e c t on estimate-co-complete. Procurement Management was 'thorouqh and well planned. SRM commodity purchases would be consoli- dated wizh t h a t of o t h e r programs a t Wasatch, which should r e s u l t i n lower c a s t . The Procurement of major items was w e i l matcked. t o o v e r a l l SRM schedule requirements. Thiokol proposed a strong Configuration Flanagement System wnicn inclzdod thcrouc:? i d e n c i f i c a t i o n and t r a c e a b i l i t y during D D T G , p r r d u c t i o n and refurbishment. me t e n t a t i v e decision to make t h e molded and t a p e wrapped nozzle in-house was considered a s t r e n g t h i n t h i s area. It would c o n t r i b u t e t o t h e low c o s t - p e r - f l i g h t goal by using a v a i l a b l e resources, avciding s-ontract f e e s , lowering overhead r a t e s , and taking advantage of lower c o s t labor. The i n h e r e n t r i s k management aspects a l s o were considered.
 
 %%page 259%%
 
-In :he area of Key Personnel, the prcposed Procra!!. 5irect3r was considered exceptionally strong and. naci successf.Lly perfo-med as a Project Manager on other mE3cx p-roqra!~.~.Be is widely known f o r his excellent perfomance. The 2r3posed Deputy Program Director would also be the Chief Projecz Encineer. : ie ha8 important and successful engineerinq management roles in previous major motor programs a d has -anexcalient 'reputationin the trade. .- --- ..- . Alkhough adequately qualified for tneir proposed assiqments, && e proposed Functional Managers and their Team Members in the Project Organization did not reflect the degth of experi- ence available in the Functional Departments of the ThioKo1 matrix type organization and had not previously performed as a team. This was not consiciered a significant we2uness sy the 3oard because of the strong experienced matrix organization at Thiokol.
+In :he area of Key Personnel, the prcposed Procra!!. 5irect3r was considered exceptionally strong and. naci successf.Lly perfo-med as a Project Manager on other mE3cx p-roqra!~.~.Be is widely known f o r his excellent perfomance. The 2r3posed Deputy Program Director would also be the Chief Projecz Encineer. :ie ha8 important and successful engineerinq management roles in previous major motor programs a d has -an-excalient 'reputationin the trade. .- --- ..- . Alkhough adequately qualified for tneir proposed assiqments, &&e proposed Functional Managers and their Team Members in the Project Organization did not reflect the degth of experi- ence available in the Functional Departments of the ThioKo1 matrix type organization and had not previously performed as a team. This was not consiciered a significant we2uness sy the 3oard because of the strong experienced matrix organization at Thiokol.
 
 * * * * * * *
 
@@ -5671,7 +5671,7 @@ V-B
 
 DRNO. 5-6
 
-## NATIONAL AERONAUTICS A N D SPACE AD=-RATION GEORGE C. M A - U SPACE ? - CENTER
+## NATIONAL AERONAUTICS A N D SPACE AD=-RATION GEORGE C. M A - U SPACE ?- CENTER
 
 MARSHALL SPACE F Um C m R ALABAMA
 
@@ -5689,9 +5689,9 @@ I$.
 
 PROCMn PLAN
 
-> PROTECTION O? SPACE SHUTTLE Su( P R W Y HUT011S w 8
+> PROTECTION O? SPACE SHUTTLE Su( P R W Y HUT011 S w 8
 
-## .0 INTRODUCTIOR
+## 1.0 INTRODUCTIOR
 
 Thara hava been incidanta on S11( flight and atatic taat motOK* h e r e a primary o-rint haa haan alightly charred by hot gaaaa vhich penetrated through the vacuum putty batriar. Hotora affactad thua far ara S T S - U aft field joint, -4 norrla joint, STS-1lA forward fiald joint. STS-111) nozzle joint, and STS-1U nozzle joint. Thia program plan vill reault in defining the aolution to thia O-ring char.
 
@@ -5705,11 +5705,11 @@ The program approach vill consist of analysis. aubrcale (hot) teats, full-acale 
 
 The analysis vill attampt to identify the cauae of o-rini aroaion. its acceptability, and juatification. It vill idmtify apecific daaign or procaaa changaa vhich vill eliminate further o-rins charring. Studlea vill be parformod ahwint the affacta of utarial variation charactariatica, putty layup confiprationr. and froah utariala varaua anvirowntally axpoaad putty. In conjunction vith tbaaa analyaaa. a thorough 8tudy will be performed on utarial from altarnata amrcaa.
 
-Tearing vill include laboratory material characterization, -11 motor hot teat. aimulmtin~affacts on cavity v o l u v veriationa. f l a patternr. axpoaura of O-ring and lubrication effects. T he burn t i w of
+Tearing vill include laboratory material characterization, -11 motor hot teat. aimulmtin~affacts on cavity v o l u v veriationa. f l a patternr. axpoaura of O-ring and lubrication effects. The burn t i w of
 
-> - l motora vill ba in tho range of 3 30 aaconda dopanding on the
+> - hot motora vill ba in tho range of 3 30 aaconda dopanding on the
 
-a ~ l hot results of pravioua amall rcala motor taat result.. Norton Thiokol alao racomandr that actual full-acala a a p n t joint taata ba uaad to evaluate prarrurization affect. on putty layup arrangounta and flar changaa due to final aaaembly of the j oint.. It la further a u U a a t d that a group of exparianced paopla from WSFC and ItTI be selected to vitnaaa the antira joint praparation. aaaembly. leak tamti-, and poatfire taardovn at KSC and MTIIClaarfiald facilitiaa. h i e team vill also r a v i w a11 anslpraa. laboratory taata. aubacala hot teat, and aupport team raviava.
+a ~ l l results of pravioua amall rcala motor taat result.. Norton Thiokol alao racomandr that actual full-acala a a p n t joint taata ba uaad to evaluate prarrurization affect. on putty layup arrangounta and flar changaa due to final aaaembly of the joint.. It la further a u U a a t d that a group of exparianced paopla from WSFC and ItTI be selected to vitnaaa the antira joint praparation. aaaembly. leak tamti-, and poatfire taardovn at KSC and MTIIClaarfiald facilitiaa. h i e team vill also r a v i w a11 anslpraa. laboratory taata. aubacala hot teat, and aupport team raviava.
 
 > ,, . I , 1.
 
@@ -5717,7 +5717,7 @@ m-14359
 
 %%page 263%%
 
-> 3.1 Analyria The following teat. s h a l l be p e r f o r u d on tb vacuum putty m a a
+> 3.1 Analyria The following teat. s h a l l be p e r f o r u d on tb vacuum putty ma a
 
 m i n i m . If furchar t e s t i n g is r e q u i r d . i t a b l l be p e r f o r u d and documented. Sow of t h e t e s t a are c u r r e n t l y bein# porforwd on t h e a x l e t i n s putty, but are l i s t e d t o amsure t h a t presently e r a i l a b l e d a t a ara e-rised in th. a n s u i w report. These teat. v i l l h a t o k repeated on any p o t m t i a l now putty. (See s e c t i o n 3.1.5)
 
@@ -5739,7 +5739,7 @@ The p r o g r r ahould run for five y u r s with p a r t i c u l a r . p b . a i
 
 3.1.4 Competihility of h t t y With Other Materiala
 
-The putty v i l l b . t e a t e d t o deternine e f f e c t s of it. miring with Conoco UD-2 sreeee. cured W B R rubber. and both freah and a a l m t e r . I f the u t e r i e l s r e a c t . propertiee of t h e r a s u l t m t u t e t i a l v i l l be eetabliehed. T u t a .hell a l e o determine whothor tho r e e u l t a n t u t e r i a l ie corrorive t o the D6AC came.
+The putty v i l l b. t e a t e d t o deternine e f f e c t s of it. miring with Conoco UD-2 sreeee. cured W B R rubber. and both freah and a a l m t e r . I f the u t e r i e l s r e a c t . propertiee of t h e r a s u l t m t u t e t i a l v i l l be eetabliehed. T u t a .hell a l e o determine whothor tho r e e u l t a n t u t e r i a l ie corrorive t o the D6AC came.
 
 %%page 264%%
 
@@ -5753,11 +5753,9 @@ Iherm are three alternate mource candidetma mt thie time: Plastic Sealer 579.6 f
 
 To aid the accuracy of the hot gar jet malymim. temtm will b. IUIL to determine the eromion rate of Piton. Theme date, along vfth remslte from other teats described in chi* plan, will be uaed when the enalyaim l a redone.
 
-> 3.2 Subacele Firing Temta 3.2.1 Five Inch CP &tor 8 jet. through the putty opaninea i m correct. To verify that hot 6 .
+> 3.2 Subacele Firing Temta 3.2.1 Five Inch CP &tor To verify that hot 6.8 jet. through the putty opaninea i m correct.
 
-teats will be conducted which induce gea jet i r p i n g u n t 011 .
-
-I) o-tin# uming five inch CP motor8 ea teat beds. Under tightly controlled conditions (environmental and mechanical). this data will b . usemmed to more fully underitand whet 1s happening in the SIIl epplicatiom.
+teats will be conducted which induce gea jet i r p i n g u n t 011 .I) o-tin# uming five inch CP motor8 ea teat beds. Under tightly controlled conditions (environmental and mechanical). this data will b. usemmed to more fully underitand whet 1s happening in the SIIl epplicatiom.
 
 If s meaningful mubmcale joint t e a t can be davimed with putty in i t , it will a l s o be pcrformd uaina the five inch CP ae the hot g u source.
 
@@ -5767,7 +5765,7 @@ deoirable to include larger mcale teat motor. hnving putty inete1l.d. norton Thi
 
 > 3.3 Full-Scale Joint Temtm Tests ahall be performed using full-mcele SW field j o i n t to
 
-verify the mubrcale reaulta of the candidate putty l a p p configurmtioar $1: as affected by the actual joint aaaembly and leek teat procdurw. The "mhort mtack" herduarc IS preferred for uae instead of SIll cam rep.ntr ( 8 for eeme of aaawblv and inspection. The follovlng qwmtioam aha11 b . , , snmwred as mininm requirements of this test sequence:
+verify the mubrcale reaulta of the candidate putty l a p p configurmtioar $1: as affected by the actual joint aaaembly and leek teat procdurw. The "mhort mtack" herduarc IS preferred for uae instead of SIll cam rep.ntr ( 8 for eeme of aaawblv and inspection. The follovlng qwmtioam aha11 b. ,, snmwred as mininm requirements of this test sequence:
 
 > a. What ia p o s t u s e a b l y p r e i a u r e i n t h e c a v i t y b t t v a s n t h e p u t t y and t h e p r l o a r y O-ring?
 
@@ -5803,7 +5801,7 @@ I , j o i n t a are a h w n i n f i g u r e r 1 and 2 f o r HPn-SRH and Tvc-SRII
 
 > 3.S hviou and Witnear T e u A n v i w md u i t n r r r toam ahall bo eatobl1rh.d corraiating of
 
-uporionced onginearr from Norton T h i o b l and RA8A t o inopect .nd aa0e.a a l l toat roaulta. ~ n o u l o u aeoaditionr of joint. f m f l o r a motor. s h a l l bo c r i t i c a l l y 1nap.cc.d wrb.ra of thia to-. fbo t o u w i l l dotornin* tho courao of oction t o bo t a b n om intenwdiato md firm1 rom~lto becaw avallablo.
+uporionced onginearr from Norton T h i o b l and RA8A t o inopect .nd aa0e.a a l l toat roaulta. ~ n o u l o u aeoaditionr of joint. f m f l o r a motor. s h a l l bo c r i t i c a l l y 1nap.cc.d wrb.ra of thia to-. fbo t o u w i l l dotornin* tho courao of oction t o bo t a b n om intenwdiato md firm1 r o m ~ l t obecaw avallablo.
 
 The attaehod achodulo reflaeta tho tin ~ v a i l o b l et o caplet. the taotin# and qualification of tho preeodlng i t a h
 
@@ -5819,59 +5817,83 @@ FIBure 1
 
 %%page 270%%
 
-> 8 .[^27] 1
+.[^27] 1
 
 %%page 272%%
 
-> - IAW WmIR MIL STDI
+-IAW WmIR MIL STDI
 
 J. C. K i h l n 8 t e r I COO
 
 ### J. McDoMld 1 COO
 
-x. v. m i i n 8 1 111 t. c.IJai1.y 1 El 1 I?. 8. k I n t o 8 h 1 w3 J. 1. Llwll 1 112 8 . 0. busell 1 L1 1
+- x. v. m i i n 8 1 — 111
+
+t. c. IJai1.y 1 El 1 I?. 8. k I n t o 8 h 1 w3
+
+- J. 1. Llwll 1 — 112
+
+8 . 0. busell 1 L1 1
 
 ### I?. Kdler 1 El2
 
-### C. Braafield 1
+- 1. C. Braafield 1 — 112
 
-### C. Brinton 1
+- 1. C. Brinton 1 — 250
 
-P. c. P8tt.Y 1 250 R . n. B O ~ ~ J O I Y I 250 S. B. P m d h t o n 1 20 1 0 . J.[^1] 280 1. 8. b78r 1 281 K. 1. Cekhardt 281
+- P. c. P8tt.Y 1 — 250
+
+- R. n. B O ~ ~ J O I Y I — 250
+
+S. B. P m d h t o n 1 20 1
+
+- 0 . J.[^1] — 280
+
+- 1. 8. b78r 1 — 281
+
+- K. 1. Cekhardt — 281
 
 ### C. Bunhr 20 I
 
-### L. Uollmh8UPt
+- K. L. Uollmh8UPt — 201
 
-c. C. Gorun 281
+- c. C. Gorun — 281
 
-### S. Sh.dl88k.Y
+- P. S. Sh.dl88k.Y — 201
 
-A. 1. ThhapSOU 1 287
+- A. 1. ThhapSOU 1 — 287
 
-### D. Bnm?~ I
+- 1. D. Bnm?~ I — 243
 
-### B. D.*h 1
+- D. B. D.*h 1 — 243
 
-P. 0. lurr.11 1 2421
+- P. 0. lurr.11 1 — 2421
 
-### L. Bar..[^1]
+- 1. L. Bar..[^1] — 240
 
-s. U. Cardall 1 242B U.[^1] . JohMon I 514 D. w. l u l l r r I 514 J . U. Calbrafth 1 9131
+s. U. Cardall 1 242B
 
-### M. Pu8kadra 1
+- U. 1. JohMon I — 514
 
-### J. Burka I
+- D. w. l u l l r r I — 514
 
-J . Tr811kl.[^1] 166
+- J . U. Calbrafth 1 — 9131
 
-### Coiner I
+- D. M. Pu8kadra 1 — 9131
 
-?. Y. C e l l 25 114 n. L. P8rk.r I mlc D. H.[^1] mlc
+- A. J. Burka I — 168
 
-### L. Ihnkina 1
+- J . Tr811kl.[^1] — 166
 
-### R. Schick 1
+- U. Coiner I — 160
+
+- ?. Y. C e l l 25 — 114
+
+n. L. P8rk.r I mlc D. H.[^1] mlc
+
+- U. L. Ihnkina 1 — 221
+
+- C. R. Schick 1 — 221
 
 %%page 273%%
 
@@ -5895,9 +5917,9 @@ a . Page 3. P a r a g r a p h 3.1.2, Phyaioel R o p r t i o a - This P r o g r a
 
 f o r z i n c c h r o m a t e p u t t y is d e s i r e d and n e e d e d , b u t d u e t o t h e poor w r f o r m a n c e of t h e AandolDh DuttY. a more i m m e d i a t e need e x i s t s f o r development o f a replacement ' f o r the-&sent Randolph putty. Recommendation to t h i s e f f e c t was made i n Memorandum E P 3 (84-35).
 
-c. Page 4 , P a r a g r a p h 3 .2.2. 40-Polpd Our Motor The 90-pound c h a r motor should be made a d e f i n i t e put of t h e lest Rogram. It is v i t a l t h a t
+> c. Page 4 , P a r a g r a p h 3.2.2. 40-Polpd Our Motor - The 90-pound c h a r
 
-t h e test a r t i c l e be c a p b l e of s i m u l a t i n g t h e total j o i n t c o n f i g u r a t i o n as close a s p o s s i b l e , which i n c l u d e s z i n c chromate p l t t y . R o v i s l n n s for the i q s t a l l - L i o n of t h e p u t t y tosether w i t h e x t e n d e d b u r n t i m e and i n c r e a s e d vo:umes - . p e ? : l i t i e s a r e a c h i e v a b l e w i t h t h e l a r g e r motor and s h o u l d be included i n the total program.
+motor should be made a d e f i n i t e put of t h e lest Rogram. It is v i t a l t h a t t h e test a r t i c l e be c a p b l e of s i m u l a t i n g t h e total j o i n t c o n f i g u r a t i o n as close a s p o s s i b l e , which i n c l u d e s z i n c chromate p l t t y . R o v i s l n n s for the i q s t a l l - L i o n of t h e p u t t y tosether w i t h e x t e n d e d b u r n t i m e and i n c r e a s e d vo:umes - . p e ? : l i t i e s a r e a c h i e v a b l e w i t h t h e l a r g e r motor and s h o u l d be included i n the total program.
 
 d. Page 5, P a r a g r a p h 3.3, Full-Seal. Joiet T e a t s , R e f e r e n c e : f i r s t p a r a g r a p h f o l l o w i n g "g". P l e a s e e x p l a i n how p o t e n t i a l f i x e s s u c h a s i n d u c i n u p a t h s t h r o u g h t h e p u t t y a t r a g u l v c i r c u m f e r e n t i a l i n t e r v a l s and use o f a soft r u b b e r b a r r i e r b e t w e e n t h e p u t t y and p r i m a r y O-ring w i l l b e v e r i f i e d by hot f i r i n g prior to i n s t a l l a t i o n on Dw-6.
 
@@ -5911,7 +5933,7 @@ e. Page 5, P a r a g r a p h 3.3, Nll-Seel. &lot T e s t a , R e f e r e n c e :
 
 Q. niller- -- ~ ief, Solid &tor Branch t4 ' cc:
 
-> UOl/*. m y EEOl/C*. 1ittl.s SAIIl/K. Ilrlloy SAW*. w0.s .%Put+. NcIntosh Ell/*. mtes a l l / * . Jaws EPOl/*. Nc(cco0l E P P l r n . Wccarty EP25/*. bw8f-s EPZS/*. Ray
+> UOl/*. m y EEOl/C*. 1ittl.s SAIIl/K. Ilrlloy S A W * . w0.s .%Put+.NcIntosh Ell/*. mtes a l l / * . Jaws EPOl/*. Nc(cco0l E P P l r n . Wccarty EP25/*. bw8f-s EPZS/*. Ray
 
 %%page 275%%
 
@@ -5925,7 +5947,7 @@ TO: EE51/&. Horton FRGU: EPWlt. MIller SUBJECT: Replest for Tests by the Contrac
 
 I t Is r q u e s t e d that PU take form1 a c t i o n to assure tht the f o l l w i n g t e s t s are porfomrd I n a timely u n w r by the contractor. I b r t o n / l h f o b l . on SR( Hlrdure:
 
-> a . Case Clevls J o l n t h a 1 O-Rlng Su - l L u k O I t u t l o n Perfom tests w t ?
+> - a . Case Clevls J o l n t h a 1 O-Rlng Sul L u k O I t u t l o n Perfom tests w t ?
 
 f u l l scale c l w l s j o l n t hrdurr (short j o i n t s ) t o obtain th. following data IS a mlnlw:
 
@@ -5933,9 +5955,9 @@ f u l l scale c l w l s j o l n t hrdurr (short j o i n t s ) t o obtain th. fol
 
 post a 5 S d l y .
 
-.( 3 ) M l n l m u pressure repulred to 8 f f I E t zlnc c k m u t r s w l a n t b l w through
+through .( 3 ) M l n l m u pressure repulred to 8 f f I E t zlnc c k m u t r s w l a n t b l w
 
-( 4 ) Blerdback c a p a b l l l t y o f the p r l u r y 1-1 (fror s u l a n t cavlty to c a v i t y between the p r l u r y and secondary s r l s ) a t a v a r l r t y o f pressure values rrnglng from 10 pslg up to a value h l c h h s born d e t r m l n r d to effect s w l a n t blowttwougr. various types o f p r l u r y s u l lambgo w n d l t l o n s a t p r d r t e m f n d I n l u g e ratas shoui! be s l u l a t r c l .
+( 4 ) Blerdback c a p a b l l l t y o f the p r l u r y 1-1 (fror s u l a n t cavlty to c a v i t y between the p r l u r y and secondary s r l s ) a t a v a r l r t y o f pressure values rrnglng from 10 pslg up to a value h l c h hs born d e t r m l n r d to effect s w l a n t blowttwougr. various types o f p r l u r y s u l lambgo w n d l t l o n s a t p r d r t e m f n d I n l u g e ratas shoui! be s l u l a t r c l .
 
 ( 5 ) OIterrlne r x 1 . u acceptable l u b g r rates a t 200 pslg which meets the 50 pslg I r k t e s t c r l t e r l a .
 
@@ -5947,21 +5969,21 @@ post a 5 S d l y .
 
 positloning cycle.
 
-> v (a) PC and MTI GsE v o l u e s should be simulated and the r o w f w d t-pm- I I)
+> v (a) PC and MTI GsE v o l u e s should be simulated and the r o w f w d t-pm- II)
 
 t u r e range should be d u p l l c r t r d as close as posslble. Type 11 zlnc chmmat. 0 sealant should be usrd for a l l tests.
 
-> 0 w
+w
 
 %%page 276%%
 
-> 2 b. lbrrlo C I x d msIng/ACt S-nt Boss Joint - Perfom t e i t s with f u l l
+> b. lbrrlo C I x d msIng/ACt S-nt Boss Joint - Perfom t e i t s with f u l l
 
 m l r h r r d r r o to @ccgmpllshtho o b J c t l v r In Ita 1. rbove. Iho test dosI9ned to d o t a r ~ l mO-ring bloodback r a t e nod not be repeated.
 
 c. I s n I t n Mapter/Caso forward Srgwnt Boss JoInt - P r f o t n tests r I t h f u l l r t r l o h r d u r o to reccrpllsh t b l objUtlvos ln Ita 8 . above. T a t s t o d r t m l n e p m s u r e v r l u r r q u f r d t o posltion the s r l i s not r m l r e d . I t 1s hI9hly d r s l r r b l e to c m p t r t e thoso tests prior to strcktng o f STS-12. Questions concerning t h i s r a o r r n d u should be referred to Ic. Leon Ray, 3-3809.
 
-cc : SMZ/IC. U w r S M Z / l t . Denton EEll/Mr. mtn E M l / l k . &Cool EPZl/n. W a r t y EPZS/Mr. Powers EPZWlk. Ray
+cc : SMZ/IC. U w r S M Z / l t . Denton EEll/Mr. mtn E M l / l k . &Cool EPZl/n. W a r t y EPZS/Mr. Powers E P Z W l k . Ray
 
 %%page 277%%
 
@@ -5973,9 +5995,17 @@ FROM: EPOlNr. M c C o o l
 
 SUBJECT: Roquost f o r I n i t i a t i o n of T o s t i n g to P m v i d o Data for R o w i v i n g t h o &mod 0-Ring Sul P r o b l r On t h o S F C O S h u t t l e S M
 
-L o t t o r EPZS (83-119). f r a Wr. H i l l o r (EP25)a ,t Wr. Borton (EEll), subjoct: "Roquoat for T e s t s by th* Contractor to Obtain Spa00 S h u t t l e S M Clovia J o i n t , F i e l d Housin&Vlft S e p o n t J o i n t and Imitian Ad.ptrr/Forurd 5.p-t Joint Leak Chock Data' is Nf0NIlC.d. On Docombor 6, 1983, t h i s office roquoatod ria t h o I r f 0 N n o . d letter t h t tho contractor obtain available f u l l scalo d 1 w t . r . a h o r t a t m k hrdwrr and conduct t o a t a to provide d a t a on rim ahrout. p u t t y bohavior u mlated to a f f o c t on j o i n t loak chocks. Fourtoon montha h a m 0lapa.d a d IY) v i . i b l o a c t i o n has boon taken t o o b t a i n and e q u i p t h o s h o r t a t a o k h.m~ althwh .(lNOmOtlt baa mad. to porfom t h e t o a t at t h o t L . Of NqUu.at. Tho only p o s i t i v e rosponao by t h o contractor n a t h o a u b m i t t a l of TUlLlU359 on h y U, 1983. which contained a pmgru plan f o l l o w d by 5 4 m h CP motor t o a t a . which W N not d e a l m o d to provido 0 a o l u t i o n to t h o burned O-ring p r o b l r . Tho a c q u i s i t i o n of j o i n t p u t t y layup and l w k chock d a t a on a h i @ p r i o r i t y bas is has bocmo vary lmportant i n v i w of t h o nood to Nrolw t h o burned 0- ring p r o b l e u i accordinaly, it is Nqu0at.d that You take t h o n m o a s a r y a c t i o n t o d i m t t h a t t h e follouin# t a s k s 50 0 X p . d i t i O U ~ l Y p.Pf0mr.d by t h e contractr-r a. Subscalo and f u l l acalo teats to detomiru o f f o c t a of u k a t o a f i l l a d . cotton and t a l c f i l l a d , and non-fil1.d sim c h r a a t e p u t t y on O-riq sealing intrp-lty.
+L o t t o r EPZS (83-119). f r a Wr. H i l l o r (EP25)a,t Wr. Borton (EEll), subjoct: "Roquoat for T e s t s by th* Contractor to Obtain Spa00 S h u t t l e S M Clovia J o i n t , F i e l d Housin&Vlft S e p o n t J o i n t and Imitian Ad.ptrr/Forurd 5.p-t Joint Leak Chock Data' is Nf0NIlC.d. On Docombor 6, 1983, t h i s office roquoatod ria t h o I r f 0 N n o . d letter t h t tho contractor obtain available f u l l scalo d 1 w t . r . a h o r t a t m k hrdwrr and conduct t o a t a to provide d a t a on rim ahrout. p u t t y bohavior u mlated to a f f o c t on j o i n t loak chocks. Fourtoon montha h a m 0lapa.d a d IY) v i . i b l o a c t i o n has boon taken t o o b t a i n and e q u i p t h o s h o r t a t a o k h.m~ althwh .(lNOmOtlt baa mad. to porfom t h e t o a t at t h o t L . Of NqUu.at. Tho only p o s i t i v e rosponao by t h o contractor n a t h o a u b m i t t a l of TUlLlU359 on h y U, 1983. which contained a pmgru plan f o l l o w d by 5 4 m h CP motor t o a t a . which W N not d e a l m o d to provido 0 a o l u t i o n to t h o burned O-ring p r o b l r . Tho a c q u i s i t i o n of j o i n t p u t t y layup and l w k chock d a t a on a h i @ p r i o r i t y basis has bocmo vary lmportant i n v i w of t h o nood to Nrolw t h o burned 0- ring p r o b l e u i accordinaly, it is Nqu0at.d that You take t h o n m o a s a r y a c t i o n t o d i m t t h a t t h e follouin# t a s k s 50 0 X p . d i t i O U ~ l Y p.Pf0mr.d by t h e contractr-r a. Subscalo and f u l l acalo teats to detomiru o f f o c t a of u k a t o a f i l l a d . cotton and t a l c f i l l a d , and non-fil1.d sim c h r a a t e p u t t y on O-riq sealing intrp-lty.
 
-> b. Full acalo t o a t i t 0 :1 ) P u t t y layup t e s t a uaiw c u r r o n t layup d o a i m . n ( 2 ) Putty layup tests Usin# t h o attachod fi@N 1 layup EonCopt. 0 (3) P u t t y layup t e s t a wiry t h o attached f i y N 2 layup Eonc*pt. w 01 8 w W
+b. Full acalo t o a t i t
+
+:1 ) P u t t y layup t e s t a uaiw c u r r o n t layup d o a i m . n
+
+( 2 ) Putty layup tests Usin# t h o attachod fi@N 1 layup EonCopt. 0
+
+(3) P u t t y layup t e s t a wiry t h o attached f i y N 2 layup Eonc*pt. w
+
+> w W
 
 .. .
 
@@ -6001,11 +6031,11 @@ PC 026416
 
 N
 
-> 1 W Y, c
+> W Y, c
 
 0 2 6 4 x 7
 
-> J ' I -. A W b m a & r(
+> J 'I -. A W b m a & r(
 
 > Y ;e
 
@@ -6027,7 +6057,7 @@ To: €Ell/*. Hotton FRCN: EP25/W. Miller
 
 SUBJECT: Inspection of Fired SRM Ressure Joint k t n g Disassembly
 
-Please take t h e necessary a c t i o n t o r e i n s t a t e d e t a i l post f l i g h t and post s t a t i c firing inspection of specific pressure j o i n t s on the SRM which incor- porate the thermal barrier and O-ring seal design concept. Ih. inspection must be conducted at the time of disassembly to preclude d e s t r u c t i o n of data. I b task should be performed by experienced, q u a l i f i e d e n ~ i n e e r l n g personnel and should be continued m t l l the burned Wiry p b l e m is under- - stood and resolved. me incidence of heat damaged O-rings on STS-2. 911-4 and on t h e r e c e n t f l i g h t of STS-11 warrants close surveillance of the= areas to ensure that 5uspcted anomalies are detected and properly recorded for assessment pr- pses. Recent discovery that the new type I1 zinc chromate saalant (thermal b a r r i e r m a t e r i a l ) would not adhere t o t h e nozzle surface to uhich it was being applied, has opened up several mansuered questions, the m ost impor- t a n t being dhesion l i f e of the sealant after installation on UU SRn. ryp I1 zinc chromate sealant was installed on a l l SRH's beginning w i t h STs-8. Areas of concern uhich warrant inspection are:
+Please take t h e necessary a c t i o n t o r e i n s t a t e d e t a i l post f l i g h t and post s t a t i c firing inspection of specific pressure j o i n t s on the SRM which incor- porate the thermal barrier and O-ring seal design concept. Ih. inspection must be conducted at the time of disassembly to preclude d e s t r u c t i o n of data. I b task should be performed by experienced, q u a l i f i e d e n ~ i n e e r l n g personnel and should be continued m t l l the burned Wiry p b l e m is under- - stood and resolved. me incidence of heat damaged O-rings on STS-2. 911-4 and on t h e r e c e n t f l i g h t of STS-11 warrants close surveillance of the= areas to ensure that 5uspcted anomalies are detected and properly recorded for assessment pr- pses. Recent discovery that the new type I1 zinc chromate saalant (thermal b a r r i e r m a t e r i a l ) would not adhere t o t h e nozzle surface to uhich it was being applied, has opened up several mansuered questions, the most impor- t a n t being dhesion l i f e of the sealant after installation on UU SRn. ryp I1 zinc chromate sealant was installed on a l l SRH's beginning w i t h STs-8. Areas of concern uhich warrant inspection are:
 
 a. SRW case field joints.
 
@@ -6043,23 +6073,21 @@ cc : EEOl/W. Hardy SA41/W. t b l l o y SA42/W. Wear SA42/W. HcIntosh EPOl/W. H c
 
 V-G
 
-> .. .~. .._ - . , ._.. . .. . ..-' -
+> .. .~. .._ - . , - - . ......._. ... ..-...., ... .. '.- _.. ..-'
 
--- - . .
-
-> . .._ . ... .- .. . . .. ' ., . . - . . .
+-. . .
 
 %%page 286%%
 
 V-H
 
-- INC
+MORTON -
 
-## THIOKOL MORTON
+## THIOKOL
 
-Wasatch Division -I-
+INC Wasatch Division
 
-> -- -- --
+> I-- -- -- -
 
 InIeroflice Memo
 
@@ -6073,7 +6101,7 @@ InIeroflice Memo
 
 ## EXECUTWE SUPWARY
 
-> . .. - HELP! The seal task force I s constantly being delayed by every possible means. People are quoting policy and systems without work-around. HSFC i s correct i n stating t h a t we do not know how t o run a development program.
+> .. . - HELP! The seal task force I s constantly being delayed by every possible means. People are quoting policy and systems without work-around. HSFC i s correct i n stating t h a t we do not know how t o run a development program.
 
 1. The two (2) GTH center sepnents were recelved a t T-24 l a s t week.
 
@@ -6103,7 +6131,7 @@ One SRM 25 and two SRH 26 segments along with two SRW 24 exit cones were complet
 
 ## IGNITION SYSTEM
 
-1. Engineering is currently rewriting igniter gask-o-seal coating requirements to allow minor flaws and scratches. Bare metal areas will be coated with a thin film of HD-2 grease. Approval is expected within the week. 2. Safe and A m Device component deliveries i s beginning to cause concern. There are five S M ' s at KSC on the shelf. Procurement, Program Office representatives visited Consolidated Controls to discuss accelerating scheduled deliveries. CCC has promised 10 Am's and 30 B-8's no later than 31 October 1985.
+1. Engineering is currently rewriting igniter gask-o-seal coating requirements to allow minor flaws and scratches. Bare metal areas will be coated with a thin film of HD-2 grease. Approval is expected within the week. 2. Safe and Am Device component deliveries i s beginning to cause concern. There are five S M ' s at KSC on the shelf. Procurement, Program Office representatives visited Consolidated Controls to discuss accelerating scheduled deliveries. CCC has promised 10 Am's and 30 B-8's no later than 31 October 1985.
 
 ## O-RINGS AND PUTTY
 
@@ -6117,19 +6145,29 @@ v-I l o r m m d EP25 (79-23) February 6, 1979
 
 TO: O i s t r i bution
 
-FROII: EPZHIR., R4y 1
+- FROII: EPZHIR., R4y — 1
 
 > SUBJECT: Y l s i t to Precision R u b k r Products Corporation and hrlrer Seal Company t
 
 - The purpose of t h i s memorandum i s t o document the r e s u l t s o f a v l s i t
 
-> t o PreCiSlOn Rubber Products Corporation, Lebanon, TN. by Hr. Eudy. EESl and Rr. Ray. EP25. on February 1. 1979 and also t o inform you of the v i s i t nade to Parker Seal Company. Lexington. KY on February 2. 1979 by Rr. Ray.' Th. purpose of the v l s i t s was to present the O-ring seal manufacturers *1W data concerning t h e l a m O-ring extrusion gaps being experienced on . the Space Shuttle 50114 Rocket Motor c l e v i s j o i n t s and to seek opinions. mganting potential r i s k s involve+ Thc v i s i t on February 1. 1979. to Prao4sion Rubber Products Corporatlon by Rr. Eudy and Nr. Ray w as very welt recelvcd. Conpany o f t l c l a l s , Mr. Hcuard G i l l e t t e . Vice President f o r Technlcal Direction, Mr. John Hoover, Vice President f o r Englnccring,and R r . Gene Hale. Design Engineer attended the meeting and were presented with the SRn c l e v i s j o i n t seal t e s t data by Mr. Eudy and Mr. Ray. A f t e r considerable discussion. capany representatives declined t o m k c IImnediate n c a n n n d a t i o n s because o f the need f o r more time t o study the data. They did; however. voice concern f o r the derign,stating t h a t the SRn O-ring extrusion gap was larger than t h a t covered by t h e i r experience. They a l s o stated t h a t more tests should be performed w i t h the present design. Hr. Hoover promised t3 C o n t i s t MSFC f o r further discusstons w i t h i n a f e w days. M r . G i l l c t t e provided Rr. Eudy and Rr. R a y with the names o f two consultants who my be able to help. Ne are indebted t o the Preclslon Rubber Products Corporation f o r the time and e f f o r t being'expended by t h e i r people I n support of t h i s problem. e m a l l y slncc they have no connection w i t h tbe project. , ilw v i s l t t o the Parker Seal Conpany on February 2. 1979. by R r . Ray, 0 EP25. was also wall received; Parker Seal Company SUpplieS the O-rings W d i n the S M c l e v i s j o i n t design. Parker representatives. Hr. B i l l n Collins. Vice President f o r Sales. Rr. N. B. Green. Ranagcr for Technical Services. Mr. J . N. Kosty. Chief Oevelopnnt Engineer f o r RID. Rr. 0 0. P. Thalnm. T e r r i t o r y Ranrger and Rr. Obtch Haddock, Technical N Services, met w i t h Hr. Ray, EP25. and w a n provlded w i t h the i d e n t i c a l 0 P . ( . . (
+> t o PreCiSlOn Rubber Products Corporation, Lebanon, TN. by Hr. Eudy. EESl and Rr. Ray. EP25. on February 1. 1979 and also t o inform you of the v i s i t nade to Parker Seal Company. Lexington. KY on February 2. 1979 by Rr. Ray.' Th. purpose of the v l s i t s was to present the O-ring seal manufacturers *1W data concerning t h e l a m O-ring extrusion gaps being experienced on . the Space Shuttle 50114 Rocket Motor c l e v i s j o i n t s and to seek opinions. mganting potential r i s k s involve+ Thc v i s i t on February 1. 1979. to Prao4sion Rubber Products Corporatlon by Rr. Eudy and Nr. Ray was very welt recelvcd. Conpany o f t l c l a l s , Mr. Hcuard G i l l e t t e . Vice President f o r Technlcal Direction, Mr. John Hoover, Vice President f o r Englnccring,and R r . Gene Hale. Design Engineer attended the meeting and were presented with the SRn c l e v i s j o i n t seal t e s t data by Mr. Eudy and Mr. Ray. A f t e r considerable discussion. capany representatives declined t o m k c IImnediate n c a n n n d a t i o n s because o f the need f o r more time t o study the data. They did; however. voice concern f o r the derign,stating t h a t the SRn O-ring extrusion gap was larger than t h a t covered by t h e i r experience. They a l s o stated t h a t more tests should be performed w i t h the present design. Hr. Hoover promised t3 C o n t i s t MSFC f o r further discusstons w i t h i n a f e w days. M r . G i l l c t t e provided Rr. Eudy and Rr. R a y with the names o f two consultants who my be able to help. Ne are indebted t o the Preclslon Rubber Products Corporation f o r the time and e f f o r t being'expended by t h e i r people I n support of t h i s problem. e m a l l y slncc they have no connection w i t h tbe project. ,
+
+ilw v i s l t t o the Parker Seal Conpany on February 2. 1979. by R r . Ray, 0
+
+> EP25. was also wall received; Parker Seal Company SUpplieS the O-rings W d i n the S M c l e v i s j o i n t design. Parker representatives. Hr. B i l l n Collins. Vice President f o r Sales. Rr. N. B. Green. Ranagcr for Technical
+
+Services. Mr. J . N. Kosty. Chief Oevelopnnt Engineer f o r RID. Rr. 0
+
+0. P. Thalnm. T e r r i t o r y Ranrger and Rr. Obtch Haddock, Technical N
+
+- Services, met w i t h Hr. Ray, EP25. and w a n provlded w i t h the i d e n t i c a l — 0
+
+> P .( . . (
 
 %%page 289%%
 
-SIW clevis j o i n t data as was presented t o the Precision Rubber Products Company on February 1. 1979. Reaction t o the data by Parker o f f i c i a l s ws essentially the same as t h a t by Precision; the SRM 0 - r l n extrusion gap i s larger than they have previously experienced. They a !
-
-s o expressed rurpi*lse t h a t the seal hdd performed so wet1 i n the present application. Parker experts would make no o f f l c i a l statements concerning r e l i a b i l i t y and potential r i s k factors associated w i t h the present design; however. t h e i r f i r s t thought was t h a t the O-ring ws being asked t o perform beyond I t s intended deslgn and t h a t a d i f f e r e n t type of seal should be considered. Th. need f o r additional t e s t i n g o f the present design ws also discussed and i t was agreed t h a t tests which more closely simulate actual conditions should b dona. Parker o f f i c i a l s w i l l study the data i n more d e t a i l w i t h other Company experts and contact MSFC f o r further discussions i n approximately one week. Parker Seal has shown a serious i n t e r e s t i n assisting MSFC wAth t h i s problem and t h e i r e f f o r t s are very much appreciated.
+SIW clevis j o i n t data as was presented t o the Precision Rubber Products Company on February 1. 1979. Reaction t o the data by Parker o f f i c i a l s ws essentially the same as t h a t by Precision; the SRM 0 - r l n extrusion gap i s larger than they have previously experienced. They a!so expressed rurpi*lse t h a t the seal hdd performed so wet1 i n the present application. Parker experts would make no o f f l c i a l statements concerning r e l i a b i l i t y and potential r i s k factors associated w i t h the present design; however. t h e i r f i r s t thought was t h a t the O-ring ws being asked t o perform beyond I t s intended deslgn and t h a t a d i f f e r e n t type of seal should be considered. Th. need f o r additional t e s t i n g o f the present design ws also discussed and i t was agreed t h a t tests which more closely simulate actual conditions should b dona. Parker o f f i c i a l s w i l l study the data i n more d e t a i l w i t h other Company experts and contact MSFC f o r further discussions i n approximately one week. Parker Seal has shown a serious i n t e r e s t i n assisting MSFC wAth t h i s problem and t h e i r e f f o r t s are very much appreciated.
 
 W i l l i a m L. Ray/ S o l i d b t o r Branch. EP25 Dlstribut1 on : SMl/Rssrs. Hardy/Rice EESl/Mr. Eudy EPOl/Mr. HcCool
 
@@ -6139,13 +6177,13 @@ V-J
 
 Interolllce Memo :
 
-This poai ti on l a now drasrically chansed aa a result of the SRn 16A nozzle j o i n t e r osi on w h i c h eroded a secondary 0-Bing w i t h the primary +Ring never sealing.
+This poaition l a now drasrically chansed aa a result of the SRn 16A nozzle j o i n t erosion w h i c h eroded a secondary 0-Bing w i t h the primary +Ring never sealing.
 
 If th; same scenario should occur in a f i e l d j o i n t (and i t could), then i.t is a jump bJ1 aa t o t h e aucceaa or failure of the j o i n t because the secon&rl O - w g cannot respond t o t h e c l e v i s opening r a t e . d may not be capable of pressurizac?on. -The result would be a catastrophe of the highest order -
 
-> - ..[^1] .; : Ping the team and its purpose yu never
+> - ..[^1] . ;: Ping the team and its purpose yu never
 
-published) vith leader vaa fonned on 19 July 1985 and n s tasked with 8olVing , t h e problea for both the short and long term. This unoffidrl t urn is e s s c n t l a l l y noneristent a t r h i s . t 3 ~ e . ,In DY opinion, the team must be o f f i c w y gi ve n the r e s p o n d b i l l y and the authority t o uecuta the Work . that needs t o be done o n i-om-in terferen ce b a s i r (full tlma a s s i p e n t u n t l l .
+published) vith leader vaa fonned on 19 July 1985 and n s tasked with 8olVing , t h e problea for both the short and long term. This unoffidrl turn is e s s c n t l a l l y noneristent a t r h i s . t 3 ~ e . ,In DY opinion, the team must be o f f i c w y given the r e s p o n d b i l l y and the authority t o uecuta the Work . that needs t o be done o n i-om-interference b a s i r (full tlma a s s i p e n t u n t l l .
 
 . _ d .
 
@@ -6157,17 +6195,21 @@ COKpAh~PIuIaIL
 
 29 1
 
-- .--- .1 . ..... . .
+- .--- .1.: ... ..... . .
 
-> : .. . i_- - ... . . . . . . . . . ----. ---A . . . -._. . . . .. . . . , .. , .-. -- ._ ._ . . . . . . . . . . .. . i . . . . . . . .. .. . . .
+> ... . . . . . . . . . ----. . ,. .. .-. -- .._._ . i_- ---A -._. . . . . . . . .. . . , . . . . . . . . . . .. i
 
-> . . . . . . . : . .
+. . .. .. . . .
 
-> . . . . . . . . . . . . . . . . .... . .. ...[^1] . :- ' " . . ' . 'i L- -
+> . . . . . . .: . .
+
+> . . . . . . . . . . . . . . . .. .. ...1.' ..".:-. . . ' . 'i L- -
 
 > n P
 
-> c 0 u N
+c
+
+> u N
 
 W
 
@@ -6189,13 +6231,13 @@ NATIONAL -
 
 PRoaRAM
 
-> .. c,
+> .. , c
 
 SPACE SHUTTLE FLlQHTAND QROUND SYSTEM
 
 ## SPECIFICATION
 
-> S- B ER 30,lW
+S-BER 30,lW
 
 )r 4 1 GE ME N ! *.* SLOutSCMENlS
 
@@ -6203,21 +6245,19 @@ SPACE SHUTTLE FLlQHTAND QROUND SYSTEM
 
 - 3.2.i.1.17 3.2.Ll.17.1 I .
 
-Zhe S h u t t l e ? l i g h t V e h i c l e d e s i n a h 1 1 s a ~ t ~ a n r i r o n m de s p w c f f i a d ia Apgesdf. 10.10.
+Zhe S h u t t l e ? l i g h t V e h i c l e d e s i n a h 1 1 s a ~ t ~ a n r i r o n m d ens i tg n regoiremeats s p w c f f i a d ia Apgesdf. 10.10.
 
-> ns i g t n regoiremeats
+@ rwtrr t o t h e D e r i a t i o a / s a i r a r t a g * i s t r c n t cf t h e document-A
 
-@ rwtrr t o t h e D e r i a t i o a / s a i r a r t a g * i s t r c n t cf t h e document-
-
-> A )-YO w
+)-YO w
 
 %%page 297%%
 
-8.0 8 L ~ ~ C B O ~ ame
+8.0 me YP6Em 3 O Y C C A m
 
-. YP6Em 3 O Y C C A m a 0.95 p r o C a b & l t y of 80 p*-tratiOn
+8 L ~ ~ C B O ~ a . a 0.95 p r o C a b & l t y of 80 p*-tratiOn
 
-> LI urra)rrr ... .....__ d u r i n g .the BaXiBum t o t a l time
+> LI urra)rrr .......__ d u r i n g .the BaXiBum t o t a l time
 
 f o r S O 0 ~ i u i o m 8i n o r b i t , n8img t b e m e t e o r o i d Bodel d e f i n e d i n S a c t i o n 1.5.1 o i 211-60627. 8.1 ,8ITICIOID IIDACX. SpaCO S b u t t l a Bmteoroid i ~ p c t i e y a u e m e n t m m h r l 1 , b e mpecifimd belomr
 
@@ -6229,9 +6269,7 @@ NASA IM X - U 7 9
 
 ## TERRESTRIAL ENVIRONMENT (CLIMATIC) CRITERIA
 
-GUIDELINS FOR USE IN AEROSPACE l@HlCLE
-
-## DEVELOPMENT,[^19] 73 REVISION
+GUIDELINS FOR USE IN AEROSPACE l@HlCLE DEVELOPMENT, 1973 REVISION
 
 ......
 
@@ -6249,9 +6287,13 @@ Local S t u d u d T i n - i o u
 
 *C
 
-> 1a.m. ah B 2 a& B a a#.[^4] 4 to. a 6 to.a 6 a 4 7 a000 8 a 0 s ti.[^7] 10 a&@ 11 as. o 18 M B a 6 f p.m. a 7.s
+> 1a.m. ah B 2 a& B a a#.[^4] 4 to. a 6 to.a
 
-- 2 I ;& 6 . a ' as. o
+- 6 a — 4
+
+> 7 a000 8 a 0 s ti.[^7] 10 a&@ 11 as. o 18 MB a 6 f p.m. a7. s
+
+- 2 I;& 6 . a ' as. o
 
 > 4 aha 6 as. a 0 ILO 7 aa.a at. 7 s a.0
 
@@ -6261,7 +6303,7 @@ Local S t u d u d T i n - i o u
 
 %%page 303%%
 
-2.0 APPLlCABLI L O C O ( l X l t S . Zhe belor l i a t e d d o c u n n t s for. a p a r t of t h i s appendis t o t h e o a t e i t q e c i f i e d h8K8in. %has* doculents a h a l l be h d i r i d i u l l j a&grcved.a8 baselin. reguirmmot8. The .Corroat L.aoom of each d o c o ~ o n t8.1 be determimad fro8 JH: 08101, Space $ b o t t l e Program L e v e l I1 Eaaeline 0 8 ~ ~ i p t i O and J Stat08 h F 0 Z t .
+2.0 APPLlCABLI L O C O ( l X l t S . Zhe belor l i a t e d d o c u n n t s for. a p a r t of t h i s appendis t o t h e o a t e i t q e c i f i e d h8K8in. %has* doculents a h a l l be h d i r i d i u l l j a&grcved.a8 baselin. reguirmmot8. The .Corroat L.aoom of each d o c o ~ o n t8.1 be determimad fro8 JH: 08101, Space $ b o t t l e Program L e v e l I1 Eaaeline 0 8 ~ ~ i p t i Oand J Stat08 h F 0 Z t .
 
 lpPtrlCtpt-8 SD73-LB-E069-1 Stroctoral D e r i g r toad. Data fook, (Current Issue) BaSOli80 lebicl. r 8 d #iS.iOnS
 
@@ -6271,9 +6313,9 @@ S D7 3-5 I-0069-2 (curcent 1SSU.J
 
 SD73-SY-0069-3 Stroctoral DaaiQ8 Load8 Data took, (Corrent laaoe) ~ x t e r m lzamh l e i . Para. 3.3, 3-32. Zakle 10.11.1
 
-SC73-SB-0069-Y S t r o c t o r a l Design Load. Data took, (curmot 1SSU.J S o l i d l o c k e t Booster8 S t r o c t u r a l
+SC73-SB-0069-Y S t r o c t o r a l Design Load. Data took, ( c u r m o t 1SSU.J S o l i d l o c k e t Booster8 S t r o c t u r a l
 
-> Load. Ref. Rara. 3.3, . 33. 4, Zablo 10.11.1
+> Load. Ref. Rara. 3.3, 3.3.4, Zablo 10.11.1
 
 SD73-SU-0 18 1- 1 ( c a r r a n t Ia8oe) -
 
@@ -6281,9 +6323,7 @@ SD73-SU-0 18 1- 1 ( c a r r a n t Ia8oe) -
 
 SD73-5s-0181-2 (Cucront Issue) -
 
-> A u o d y n a l i c fiOatiBg Data Book axtarnal t u k u c a n t ( ~ o o k s I u d XX)
-
-> B e:. Para- 3.1, 3-1.1, Zabla 10.11.1
+> A u o d y n a l i c fiOatiBg Data Book axtarnal t u k u c a n t ( ~ o o k sI u d XX) Be:. Para- 3.1, 3-1.1, Zabla 10.11.1
 
 SC73-L U-G 181-3 (Cursant Issue)
 
@@ -6291,7 +6331,7 @@ SC73-L U-G 181-3 (Cursant Issue)
 
 Bet. Para. 3.1. 3.1..1, T i t l e 10.11.1
 
-10.11-6 0
+- 10.11-6 — 0
 
 %%page 304%%
 
@@ -6301,17 +6341,13 @@ Bat. Para. 3.1, 3.1.1. t a b l a 10.11.1
 
 SD73-SB-0 181-3 (Cucraot Isma)
 
-sn73-s~-01ei-~ Aorody~a8icU O a t i B g Data Book, (Current Imua) L ig ht w eig ht Ixtatnal tank-Ascent
+sn73-s~-01ei-~ Aorody~a8icU O a t i B g Data Book, (Current Imua) L i g ht w ei g ht Ixtatnal tank-Ascent
 
 Dot. Pdra. 3.1
 
-> A c o u t i u and Sbock Data Book. Spas. Shuttle Sy8t.a Dot. Para. 3 .9, 3.5, Ydlo Y0.11-1
+> A c o u t i u and Sbock Data Book. Spas. Shuttle Sy8t.a Dot. Para. 3.9, 3.5, Ydlo Y0.11-1
 
-S O 7 u-s ll-0 14 4 lbarnal l o t a r t a c e s Design fat. C
-
-> oo k-
-
-[Curreot Inso.)
+S O 7 u-s ll-0 14 4 lbarnal l o t a r t a c e s Design fat. Cook- [Curreot Inso.)
 
 9.1. para. 3.2, t a t l a 10.11.1
 
@@ -6325,7 +6361,7 @@ SD 74-SH-0144D
 
 DECEMBER 1977 SDM BASELINE
 
-> Contract NM9-14000 IRD UO. St-699TZ m s 2.2.1 Prepared by
+> Contract NM9-14000 IRD UO. St-699TZ ms 2.2.1 Prepared by
 
 Approved by I m o d *nrlyrir Shuttlo h r o Scioncer
 
@@ -6335,19 +6371,21 @@ Approved by I m o d *nrlyrir Shuttlo h r o Scioncer
 
 Confainad lurein are ebb t h e m 1 demian data roquird t o c m ~ l e t ethe thermal interface definition# for thm f o l b V h 8 interfaem control docmentr (1CD's):
 
-> I C D 2-12001 orbiter VableldPlcerorl zurt I C D 2-16001 Orbiter V.hiclel¶olid W t iooetu I C D 2-26001 External T d S o l l d lockac b o m t e r ICD 13n- u m Space Shuttle 0rbic.r Vahfcle/IUim w i n e
+> ICD 2-12001 orbiter VableldPlcerorl zurt ICD 2-16001 Orbiter V.hiclel¶olid W t iooetu ICD 2-26001 External T d S o l l d lockac b o m t e r ICD 13n-um Space Shuttle 0rbic.r Vahfcle/IUim w i n e
 
 1.2 APPLIWLL DotsQmm
 
-The ~ t ~ r& r-Ul C h C hrr mm m f f m c t on ch. f h .[^4] damicn ere dmfinu! in the folloving doeuuncm:
+> The ~ t ~ r &r-U l C h C hrr mm m f f m c t on ch. f h .[^4] damicn ere
 
-> Speclfiution. c JSC 07700, Space Shuttle Ili&btand Ground S y e t ~ VOlUu x, Appmadi. 10.10, h.w.1 EnViroIMt Dma* Raquirunrr. NASA M X*6619S, Diertibution of Euht ~ t w r o l o g i c a i Varirblea - ta Cepe Kenamdy, ?lorid., and Vatdenbe- Air ?ore* B u m . C a l i f o r n L ; f u r i h l l Space ?ll.gbc Cancar ( b e d 2 i- r 19, 1973).
+dmfinu! in the folloving doeuuncm:
+
+> JSC 07700, Space Shuttle Ili&btand Ground S y e t ~S p e c l f i u t i o n . c VOlUu x, Appmadi. 10.10, h.w.1 EnViroIMt Dma* Raquirunrr. NASA M X*6619S, Diertibution of Euht ~ t w r o l o g i c a iVarirblea- ta Cepe Kenamdy, ?lorid., and Vatdenbe- Air ?ore* B u m . C a l i f o r n L ; f u r i h l l Space ?ll.gbc Cancar ( b e d 2i-r 19, 1973).
 
 The lnducd envir-te applicable t o tha Shuttle a y a t r elamat. per- f a d - aa part of ch. h t w r a c d fl-t d i e l a era d e f i n d in ch. follovino date boob:
 
 > SD 73-58-0181-U, Spec. Shuttle Aarodpmlc autlxu Data Book -0rbicar Ancmt. 001- I ( d e e d I e b r t u v 1975)
 
-> SD 73-sa-0181-2. sp.ee shutcia *.rod- bet- iook-Ltad ~ata Tank Ancent. Voltmm I1 (datmd JUM1976). SD 73-s8-0183-3. Spre. Shutel. h r o d y u m i e R u t i n # D.ca Boot-ShuCCla Vehicle Booate? A m e ~ t .Voluu I11 (dated Septuber 1 9 7 6 ) . SD 73-58-0181-1. Swce Shuctlm Aarodynnic b a t i n g Data Book-SPac. Shuttle Hain &gin* Amcant, On-Orbit urd Cutry, Voluu l V (dated Saptambar 1977)
+> SD 73-sa-0181-2. sp.ee shutcia *.rod- bet- ~ a t ai o o k - L t a d Tank Ancent. Voltmm I1 (datmd JUM1976). SD 73-s8-0183-3. Spre. Shutel. h r o d y u m i e R u t i n # D.ca Boot-ShuCCla Vehicle Booate? A m e ~ t .Voluu I11 (dated Septuber 1 9 7 6 ) . SD 73-58-0181-1. Swce Shuctlm Aarodynnic b a t i n g Data Book-SPac. Shuttle Hain &gin* Amcant, On-Orbit urd Cutry, Voluu lV (dated Saptambar 1977)
 
 The#. book. form part Of the Space Shuttle n i g h t Md Ground S y p t p . S p m c l f l - cetion. JSC 01700. Voluu X, A p p d k 10.11, Induced Laviroaunt Deei8n R*qulr.nrenti. The indued ermitonnunt# data are available on mapatic tape record. a0 s p e c i f i e d Ln Rafermce 1 for thm orbiter. Referanea 2 for the ucernal tank. end Rafermnce 3 for the Shuttle vehicle b o o l e u .
 
@@ -6383,7 +6421,7 @@ George C. Marshall Space - Fight Center Marsball Space Fight Center, Alabama b
 
 31 1
 
-Mahm t..p.rrcotu for tho U rida of tha loll- condition intarfacur
+M a h m t..p.rrcotu for tho U rida of tha loll- condition intarfacur
 
 > - 3- 27
 
@@ -6393,7 +6431,7 @@ Mahm t..p.rrcotu for tho U rida of tha loll- condition intarfacur
 
 ## DETAIL SPECIFICATION PART I OF TJO PARTS
 
-U E , MSIGJ AND VENIPICATION ncwIuums PERPORll A t
+PERPORll A tU E , MSIGJ AND VENIPICATION ncwIuums
 
 S P A C t snurTLC: HIGH P e n F o n H ~ n c t , SOLID
 
@@ -6417,9 +6455,7 @@ P.U. nox s 2 4 , w i g n u city, man w ) o 2 UUl/d63-3511
 
 maintenance and r e f u r O l s h o r n t o p o r r t i o n r . 3.2.6.3 Ptrsonn'rl Safety. Provlriona f o r personno1 s r f o t y s h ~ l l DI i n aCcOrdJnC0 u i t h t h e f O l l O U i a f :
 
-> J. SdfOty D . V i C O S . K n O W n J u r d r W l C h c a n n o t DO 01iSinJt.d t h r o y l h d e r i g n S O l O C t i O n J h J l l be r e d w e d t o an acceptable l o v e 1 t h r o y h t h e use o f . a p p r o p r i a t e s a f e t y d o v i c a r aa p a r t of tno 8yStmS, suorystem, 0 r equipment .
-
-> 0 . d a r n i n g Dovices. Unero i t l a - n o t p o r r i ~ l et o p r e c l u d c t h o e x i s t e n c o o r o c c u r r e n c e of J know nazard, d e v l c e r r h r l l Do e r p l e y e d f o r t h e t i m e l y d e t e c t i o n o f t h o c o n d i t i o n and eke ger.eration o f an adequute warnina a i g n a l . Warning a i i c a l a acd t h e i r J p p l i C J t i O n S h a l l b e dO Ji gn86 to minirim O h. p r O b J D i l i t y o f w o n g S i g n J l J o r o f impropor personnel r e a c t i o n t o t h e r i g o a l .
+> J. SdfOty D . V i C O S . K n O W n J u r d r W l C h c a n n o t DO 01iSinJt.d t h r o y l h d e r i g n S O l O C t i O n J h J l l be r e d w e d t o an acceptable l o v e 1 t h r o y h t h e use o f . a p p r o p r i a t e s a f e t y d o v i c a r aa p a r t of tno 8yStmS, suorystem, 0.r equipment 0 . d a r n i n g Dovices. Unero i t l a - n o t p o r r i ~ l et o p r e c l u d c t h o e x i s t e n c o o r o c c u r r e n c e of J know nazard, d e v l c e r r h r l l Do e r p l e y e d f o r t h e t i m e l y d e t e c t i o n o f t h o c o n d i t i o n and eke ger.eration o f an adequute warnina a i g n a l . Warning a i i c a l a acd t h e i r J p p l i C J t i O n S h a l l b e dO J i g n8 6 to minirim Oh. p r O b J D i l i t y o f w o n g S i g n J l J o r o f impropor personnel r e a c t i o n t o t h e r i g o a l .
 
 j.2.6.U E x p l o r i v e and/or Ckdnancr S o f e t y . me p r o p o i l a a c r f o r w e kWHL aRd t n o r g c l t r r aha11 meof t h e r e q u l r r u e n t a o f hazard c i a s r i f l c a t i o a 2 as J e f r n r d i n t h e Army l l r c e r i r l Commrnd R e g u l a t i o c S a f r t y manual AHCR 3115-100, o r D D Contractor's s a f e t y Hanual f o r APmIMltion, E x p i O a i v O S , and K o l a t e d R o g r r o u a M a t e r i a l s , COD ulU5.26. me nWL segments and i g c i t i o n a y r t e o lqss i n i t i a t o r s o h a l l have a DOT r x p l o r i v e c l a a r i f i a a t i o n o f
 
@@ -6429,27 +6465,31 @@ E . T -- i n z q j. 2.7.1 N a t u r a l fnv i r o n o e n t . Tne H M L a h a l 
 
 - n a t u r a l e n v r r o c o r c t r daI'And rn JJC 07100, V o l u e X, Appendix 10.10 and t n e a l r and sea r e m p e r a t u r o e n v i r o n o e e t a and a r l i n i r y o *: SL-o iy-ou3-2ti. <I0 3.2.7.2 Induced b v v i r o n a e n t . me HML S h a l l u i t h r t a n d t h e ARdWOd e n v i r o n u r n t a l c o n d i t i o n s J J d O f i n 8 d i n t h e fo:loute( dOCUn r c t s : -
 
-> Tneru a1 - - - b S 8 ;irJtinl YD73-SW-0181-? I He-entry Interfaoe -- Launch b Aacect YD7j-YH-0161-j SE-019-053-2H SD74-sn-OtU4, ICD 3-uu003 a3 Loads V i b r J t l O n , A c O U S t l C J SnS2k SE-i)19-049-2H and SE-019-067-21i ;as changed b y aoproued I W v 1 0 L i O n AM-0012R4) I n C J S O O f C O n f r l C t , SE-Olg-OU9-2H - Shall t J k 0 prOC8drnC8 C b r . ' SE-319-C67-2i1. Prelaunch t n r o u q h S p i r r t l o n SL-J19-057-2Ii, bok 1
+> Tneru a1 - - - b S 8 ;irJtinl YD73-SW-0181-? I -- Launch b Aacect He-entry Interfaoe YD7j-YH-0161-j SE-019-053-2H SD74-sn-OtU4, ICD 3-uu003 a3 Loads V i b r J t l O n , A c O U S t l C J SnS2k SE-i)19-049-2H and SE-019-067-21i ;as changed b y aoproued I W v 1 0 L i O n AM-0012R4) I n C J S O O f C O n f r l C t , SE-Olg-OU9-2H - Shall t J k 0 prOC8drnC8 C b r . ' SE-319-C67-2i1. Prelaunch t n r o u q h S p i r r t l o n SL-J19-057-2Ii, bok 1
 
 64-420 0 - 86 - 1 1
 
 %%page 314%%
 
-I 3 .[^2] . 6 .[^3] r*rmnnel i izI i2 i . .[^1] Safety I i : I
+I 3 .[^2] . 6 .[^3] r*rmnnel i i2 i z i
 
-> i : i i i i I I I
+> . . i : i I: ii ii I
 
-: 3.2.6.4 Explorlvr ' I5 I5 I I I ! ! a n d / o r (kdnance i I I I I I , Safety 1 1 1 I iI I 3 .[^2] .[^7] E nvi r onm e nt IX I I I : 3.2.7.1 W t u r a l
+1 Safety I I I I : 3.2.6.4 Explorlvr ' I 5 I 5 I I I ! ! a n d / o r (kdnance i I I I I I , Safety 1 1 1 I iI I 3 .[^2] .[^7] E nvironm e nt IX I I I : 3.2.7.1 W t u r a l
 
-> I l l l ii ii I i 2 ;2 1 I I I
+> II il 2 ;l 2 1l ii ii I I I
 
 : Uivlronmmt I
 
-I :[^3] .[^2] .[^7] .[^2] Indwed I I 2 !2 I I I I : Pnwlroruant I I I I
+I :[^3] .[^2] .[^7] .[^2] Indwed I I 2 !2 I I I I : Pnwlroruant I
 
-I i i l L I : 3.2.8 I ; ' ; I ; i 4 ; I & : Tren8portaalllty/ I : Trenrportatlon I
+> I i i I l LI I I
 
-> I I I I I I I I 1 I i I
+: 3.2.8 I ; ' ; I ; i 4 ; I & : Tren8portaalllty/ I : Trenrportatlon I
+
+> I I I I I I I I
+
+> I i I
 
 ; 3.2.9 S t o r e g o : X I I I I I I
 
@@ -6471,13 +6511,13 @@ U I
 
 0 PROJECTS REQJIRED TO SHOW THHT EHCH REG!ll IREMEt4T I N THE CI:It.ITRACT
 
-SPEC IFICAT ICIt4 HHS BEEN VER IFIED
+SPEC IFICAT ICIt4 HHS BEEN VER IF IED
 
 > E oa
 
 %%page 317%%
 
-> VERIFICATION COMPLETION NOTlCE (r;u/mOs)[^3]
+> VERIFICATION COMPLETION NOTlCE (r;u/mOs)
 
 3.2.1.1.2 3.2.1.1.3.4 3.2.1.1.17
 
@@ -6497,29 +6537,25 @@ I ROCKWELL - 1
 
 %%page 318%%
 
-## NASA VERIFICATION COMPLETION NOTICE PAGE
+## NASA VERIFICATION COMPLETION NOTICE PAGELOF
 
-IVLN NO.:[^17] '
+IVLN NO.: 17 '
 
-vaNo.: 12121 IVL N n n e : a I NE M
+vaNo.: 12121 IVL N n n e : a I NE 'C
 
-> C ' A SI - L PI
+M-S
 
-## A)I TI
+## AIIPL)AI TI
 
-COmnAINP ops scocc OF IVW
-
-This B i s e l l n r H l r s l o n C r p r b l l l t y IVLN i d r n t l f l r r t h r r c t l r l t l and
-
-~ intrrrrlitlonrhlps occurlng during the O r b l t r l n i g h t Test phrsr o f the p a p a 8 p p l i c r b l r t o v e r l y f n g the c a p a b i l i t y o f t h e v r h l c l r t o perfom the b r s e l l n r m i r r l o n r r p r l f l r d I n t h r i p p l i c i b l c paragraphs o f JSC-07700-10. lhr v e r i f l c r t l o n r c t 4 v l t l r s r c c o l p l l t h r d p r i o r t o t+r f i r s t f l i g h t i r e i d r n t l f l e d i n VCN No. l 2 A l l . (See c o n t l n u l t i o n s h m t ) '
+COmnAINP ops scocc OF I V W This B i s e l l n r H l r s l o n C r p r b l l l t y IVLN i d r n t l f l r r t h r r c t l r l t l ~ and i n t r r r r l i t l o n r h l p s occurlng during the O r b l t r l n i g h t Test phrsr o f the p a p a 8 p p l i c r b l r t o v e r l y f n g the c a p a b i l i t y o f t h e v r h l c l r t o perfom the b r s e l l n r m i r r l o n r r p r l f l r d I n t h r i p p l i c i b l c paragraphs o f JSC-07700-10. lhr v e r i f l c r t l o n r c t 4 v l t l r s r c c o l p l l t h r d p r i o r t o t+r f i r s t f l i g h t i r e i d r n t l f l e d i n VCN No. l 2 A l l . (See c o n t l n u l t i o n s h m t ) '
 
 - JSC 3.2.1.1.2 3.2.1.1.3
 
-07700 VOL X V r R l F l u n O N R C a U I R ~ M 6
+07700 VOL X V r R l F l u n O N R C a U I R ~ M f
 
 3.2.1.1.3.1 3.2.1.1.3.2 3.2.1.1.3.3,l 3.2.1.1.3.3.2
 
-> ' 3.2.1.1.3.4 3.2.1.1 .I 3.2.1.1.4.1 3.2.1.1.5 3.2.1.1 .S 3.2.1.1 .ll fo~ ~ul%o 3.2.1.1.17 3.2.1.2.14 3.2.2.1.17.2 3.2.2.1.17.2.1 3.3.1.2.2.1 3.3.1.3.3.10 -
+> ' 3.2.1.1.3.4 3.2.1.1 .I 3.2.1.1.4.1 3.2.1.1.5 3.2.1.1 .S 3.2.1.1 .ll 6~o~ul%o 3.2.1.1.17 3.2.1.2.14 3.2.2.1.17.2 3.2.2.1.17.2.1 3.3.1.2.2.1 3.3.1.3.3.10 -
 
 %%page 319%%
 
@@ -6559,7 +6595,7 @@ Akron, Ohio 44325
 
 > U r . Laurence J. Adam8 ( R e t i r e d Former P r e s i d e n t , U r . Dean K. Hanink Martin m r i e t t a Corporation) ( R e t i r e d Manager of E n g i n e e r i n g 13401 B e a l l Creek Court Operations. R e t r o i t D i e s e l ) Potomac, M) 20854 145 Uaple C r e s t Drive Carmel, I N 46032
 
-> Dr. David Altman NAE Dr. James W. Uar ( R e t i r e d Manager o f Engineering Jerome C. Hunsaker P r o f e s s o r o f U n i t e d Technologies Company) Aerospace Education 1670 Oak Avenue Dept. of A e r o n a u t i c s h A s t r o n a u t i c s Uenlo P a r k , CA 94025 U a s s a c h u s e t t s I n s t i t u t e of Technology One Surf Way, Apt. 119 Uonterey, CA 93940 U r . R o t e r t C. Anderson ( R e t i r e d Vice P r e s i d e n t , '72 HIT O f f i c e : TR W Energy Development Group, E l e c t r o n i c s b Defense S e c t o r ) P r o f e s s o r Edward W. P r i c e E n g i n e e r i n g and Uanagement C o n s u l t a n t Regents ' P r o f e s s o r 840 5 5 t h Avenue, N.W. School of Aerospace E n g i n e e r i n g Salem, Oregon 97304 Georgia I n s t i t u t e of Technology A t l a n t a , GA 30332
+> Dr. David Altman NAE Dr. James W. Uar ( R e t i r e d Manager o f Engineering Jerome C. Hunsaker P r o f e s s o r o f U n i t e d Technologies Company) Aerospace Education 1670 Oak Avenue Dept. of A e r o n a u t i c s h A s t r o n a u t i c s Uenlo P a r k , CA 94025 U a s s a c h u s e t t s I n s t i t u t e of Technology One Surf Way, Apt. 119 Uonterey, CA 93940 U r . R o t e r t C. Anderson ( R e t i r e d Vice P r e s i d e n t , '72 HIT O f f i c e : TRW Energy Development Group, E l e c t r o n i c s b Defense S e c t o r ) P r o f e s s o r Edward W. P r i c e E n g i n e e r i n g and Uanagement C o n s u l t a n t Regents ' P r o f e s s o r 840 5 5 t h Avenue, N.W. School of Aerospace E n g i n e e r i n g Salem, Oregon 97304 Georgia I n s t i t u t e of Technology A t l a n t a , GA 30332
 
 > D r . J a c k L. Blumenthal Chief E n g i n e e r Ur. Robert D. Watt TRW ( R e t i r e d Group Leader, U a t e r i a l s and Chemistry Applicakions Stanford Linear Accelerator Center)[^1] Space P a r k , B u i l d i n g 01, Room 2010 11117 P a l o s Verde D r i v e Redondo Beach, CA 90278 C u p e r t i n o , CA 95014
 
@@ -6583,21 +6619,19 @@ VI-c
 
 > loace aev.[^1] I I
 
-I Failure Mace Effccts analvsis I 2 I Rp-zsm I I I Sucmiczal h i e c u i e :[^1] I I I submit updates a t 6-wnth intervals r i t h s u t ~ ~ i t t linked al t o n e a e s t sckedule CIL I I FSR submittal. I ! I I Conwacr S W rieierencr: iI II Exhibit I use:
+I Failure Mace Effccts analvsis I 2 I Rp-zsm I I I Sucmiczal h i e c u i e :[^1] I I I submit updates a t 6-wnth intervals r i t h s u t ~ ~ i t t a l linked t o n e a e s t sckedule CIL I I FSR submittal. I ! II Conwacr S W rieierencr: iI II Exhibit 4. 3.3.3 I use:
 
-> 4. 3.3.3 - Ercireeriro Succort I I I
+> - Ercireeriro Succort I I I
 
-II To identify c r i t i c a l f a i l u r e motes t o be used as a b a s i s f o r sucpor: o f : (1)
+II To identify c r i t i c a l f a i l u r e motes t o be used as a b a s i s f o r sucpor: o f : (1) I
 
-> I I
-
-I Additional Design Action; (2) SPfeCY A n a l y s i s ; and ( 3 ) Mission U n t i n ~ e n c yPlanning. I I , I I I I inrerzeiatisnsnip: I I I I I I I I - c , p e - i o n c e n t s - r o ~ a t - ~ a i n K ~ n a n c - i J v e r e n tiuxnrsneo 0at3: I I I 1. Sccoe/Cmtmts -
+I I Additional Design Action; (2) SPfeCY A n a l y s i s ; and ( 3 ) Mission U n t i n ~ e n c yPlanning. I I , I I I I inrerzeiatisnsnip: I I I I I I I I - c , p e - i o n c e n t s - r o ~ a t - ~ a i n K ~ n a n c - i J v e r e n tiuxnrsneo 0at3: I I I 1. Sccoe/Cmtmts -
 
 > Failure mooe e f f e c t s analysis w i l l be preiarad f o r each Criuier venicle Suosystm, including the following: I I
 
 I I I I I
 
-> a. Systern/Subsystem/Assembly/It~~ i c e n t i f i c 3 t i o n o f X s n f o r rnicn the is being ccnducted. - mEj\ I I
+> - a. Systern/Subsystem/Assembly/It~~ i c e n t i f i c 3 t i o n o f X s n f o r rnicn the mEj\ is being ccnducted. I I
 
 I I I I
 
@@ -6611,19 +6645,13 @@ I I I ( 3 ) Drawing ileference Cesisnaticn
 
 > module on the sccernatic. - I c e n t i f i c a t i c n of the ccmponent or I
 
-I I I I (4) Quantit.{ - Total ncmcer i
+I I I I (4) Quantit.{ - Total ncmcer C J ~i:ems i n the s ~ c s y s i o a . I I I e. FWm Numcei - A nmcer t h a t uniguely i c e n t i f k s tne sucsysten, c:rnpcnent,
 
-> CJ~ e :ms i n the s ~ c s y s i o a .
+> and f a i l u r e moce. I
 
-I I I e. F
+I I I I f. Funccicn - Ccccise statenent of :x f w c z x n per'zrnea. I
 
-> W m Numcei - A nmcer t h a t uniguely and f a i l u r e moce. i c e n t i f k s tne sucsysten, c:rnpcnent, I
-
-I I I I f. Funccicn - Ccccise statenent of :x f w c z x n per'zrnea.
-
-> I I
-
-I I I I I I I I I I PaSe 1 of 3 I
+I I I I I I I I I I I PaSe 1 of 3 I
 
 %%page 322%%
 
@@ -6631,9 +6659,7 @@ I * 1 2.
 
 I
 
-I 9
-
-.
+I 9.
 
 I
 
@@ -6659,9 +6685,7 @@ I
 
 I
 
-I i
-
-.
+I i.
 
 I
 
@@ -6671,9 +6695,7 @@ I J. I
 
 I
 
-I k
-
-.
+I k.
 
 I
 
@@ -6743,7 +6765,7 @@ I - I
 
 I
 
-> . n - Remartts/Hazmls Statement o f my remarks, reccrmendatians, and Fotential hazards a s required. I I I
+> n. - Remartts/Hazmls Statement o f my remarks, reccrmendatians, and Fotential hazards a s required. I I I
 
 I
 
@@ -6767,15 +6789,15 @@ I
 
 > I I I
 
-I I I I I I I 1
+I I I I I I
+
+- I — 1
 
 I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I 1 I I I I I I I I I I I I I I I I I I i
 
 > I I
 
-I I I I I I I Pese 3 J
-
-I'[^3] j
+I I I I I I I Pese 3 JI'[^3] j
 
 %%page 324%%
 
@@ -6787,7 +6809,13 @@ I'[^3] j
 
 . I I
 
-> I Exhibit A, 5.3.3 I use: - Eroineerino Succcrt I I I I I To identify c:itical fatlure modes t o be used a s a b a s i s for support of: (1) I I Additional Oesign .%%.ion; (2) S a f e g Analysis; and (3) Mission Continpncy P l a n i n g . I I I I I I incerreiatiwsnrp: I I I I I I I I Sc;peicncencs-r-ormat-~~ntenancsijverrmentiunrsneo gata: I I I I 1. SccoeKontents I - Failure moce e f f e c t s analysis w i l l be proparod for eactl Crater venicle Suosystsm, including the follcwing: I I I I I I a. Systm/Subsystem/Assembly/I~s! - Identifiation of it&! f o r which the FMEA I is being ccnductel. I I I I I tl- - Preparea/Approved a y Identification of ma:yst wno perforned t h e FMEA a d I indiviouals rrsponsible for overall FYEA aiforr. I I I I c. Revision - Date indiViZUal ?aCes aro revissl.[^1] I I I d- Item Identification: I I I I (1) Name I I I (2) Identi?icaticn NUmOef - Ornwing numoer by wnicn t h e Ccntractor LlentiPLes and b e s c n b e s eacn CcmFonent or mcculs. I I I I I I (3) Drawing ileference Cesisnaticn mocule on the schenatic. - 1centi:icatian 01' the ccmponent cr I I I I I I I (a) Quantity - TcWl numcer of itzms in the ;~Csysiern. I 1 I e. FMEA Number - A number that unicuely i c e n t i f i e s w e sucsystea, cCmccnent, ana f a i l u r e moce. I I I I I I r. Fw,cricn - Ccccise s t i t e n e n t o f :ne f m c t i c n per'zraea. I I I I I I I I I I I I I P a p 1 cf 3 !
+> I Exhibit A, 5.3.3 I use: - Eroineerino Succcrt I I I I I To identify c:itical fatlure modes t o be used a s a b a s i s for support of: (1) I I Additional Oesign .%%.ion; (2) S a f e g Analysis; and (3) Mission Continpncy P l a n i n g . I I I I I I incerreiatiwsnrp: I I I I I I I I Sc;peicncencs-r-ormat-~~ntenancsijverrmentiunrsneo gata: I I I I 1. SccoeKontents I - Failure moce e f f e c t s analysis w i l l be proparod for eactl Crater venicle Suosystsm, including the follcwing: I I I I I a. Systm/Subsystem/Assembly/I~s! - I d e n t i f i a t i o n of it&! f o r which the FMEA II is being ccnductel. I I I I I tl- - Preparea/Approved a y Identification of ma:yst wno perforned t h e FMEA a d I indiviouals rrsponsible for overall FYEA aiforr. I I I
+
+I c. Revision - Date indiViZUal ?aCes aro revissl.[^1]
+
+> I I I d- Item Identification: I I I I (1) Name I I I (2) Identi?icaticn NUmOef - Ornwing numoer by wnicn t h e Ccntractor LlentiPLes and b e s c n b e s eacn CcmFonent or mcculs. I I I I I I (3) Drawing ileference Cesisnaticn mocule on the schenatic. - 1centi:icatian 01' the ccmponent cr I I I I I I I (a) Quantity - TcWl numcer of itzms in the ;~Csysiern. I
+
+> I e. FMEA Number - A number that unicuely i c e n t i f i e s w e sucsystea, cCmccnent, ana f a i l u r e moce. I I I I I I r. Fw,cricn - Ccccise s t i t e n e n t o f :ne f m c t i c n per'zraea. I I I I I I I I I I I I I P a p 1 cf 3 !
 
 %%page 325%%
 
@@ -6889,7 +6917,9 @@ I
 
 %%page 326%%
 
-> (Sac2 iiev. II F s i l u r a Moce Effects Analvsfs I ?A-267€3 I I 1 I ' I 2. SccoeKcntmts (Ccntinued) . I I I n. - Renarks/Hazmis Statament of any remarks, rxcnmendaticns, and p o t e n t i a l hazards a s required. I I I 0. Vehicle Effectivity - Identification of the venicle effectivit'/ f o r the f a i l u r a mode l d f f l t i f k d . I I I 3. - To t e Dreparsd in Csnrractir's fomat.
+> (Sac2 iiev. II F s i l u r a Moce Effects Analvsfs I ?A-267€3 I I
+
+> I ' I 2. SccoeKcntmts (Ccntinued) . I I I n. - Renarks/Hazmis Statament of any remarks, rxcnmendaticns, and p o t e n t i a l hazards a s required. I I I 0. Vehicle Effectivity - Identification of the venicle effectivit'/ f o r the f a i l u r a mode l d f f l t i f k d . I I I 3. - To t e Dreparsd in Csnrractir's fomat.
 
 > I *. Halntenancs - To be maintained 3y page r e v f s i o n / t o t l l raissuanca, a s applicable. I I 1 - 5. Coverment Furnished Data - Not applicible. I I I I I I I I
 
@@ -6929,11 +6959,13 @@ This desk Instruction defines t h e procedures f o r generating. documenting and
 
 ## 2.0 DEFINITIONS
 
-> 1. -- is t h e l n a b l l l t y of a system. subsystem, component. o r p a r t t o perform its required function within specified lirits uider specified conditions f o r a specified duration.[^1]
+> 1. -- is t h e l n a b l l l t y of a system. subsystem, component. o r p a r t t o perform its required function within specified lirits uider specified
 
-> 01 #O. 100-26 Page 2o f 34 2. F a i l u r e Mode - a description o f the manner i n which an ftem can f a i l .
+conditions f o r a specified duration.[^1]
 
-> 3. Hazard - i s the presence of a potential r i s k s i t u a t i o n caused by an unsafe a c t o r condition.
+> 01 #O. 100-26 Page 2 34 of
+
+> 2. F a i l u r e Mode - a description o f the manner i n which an ftem can f a i l . 3. Hazard - i s the presence of a potential r i s k s i t u a t i o n caused by an unsafe a c t o r condition.
 
 > 4. Redundancy (depth o f ) - describes the a v a i l a b l e (number o f ) ways of performing a function.
 
@@ -6953,11 +6985,13 @@ This desk Instruction defines t h e procedures f o r generating. documenting and
 
 %%page 329%%
 
-> 01 NO. 100-26 Page 3of 34 9. Functional Mode - I d e n t i f i e s each f u n c t i o n t o be performed by t h e item being analyzed. .~ 10. - Multiple Order F a i l u r e d e s c r i b e s t h e f a i l u r e due t o a s i n g l e cause o r e v e n t of a l l u n i t s which perform a necessary ( c r i t i c a l ) function.
+> 01 NO. 100-26 Page 3of 34
+
+> 9. Functional Mode - I d e n t i f i e s each f u n c t i o n t o be performed by t h e item being analyzed. .~ 10. - Multiple Order F a i l u r e d e s c r i b e s t h e f a i l u r e due t o a s i n g l e cause o r e v e n t of a l l u n i t s which perform a necessary ( c r i t i c a l ) function.
 
 > 11. - C r i t i c a l Item a s i n g l e f a i l u r e p o i n t and/or a redundant element i n a l i f e o r mission-essential a p p l i c a t i o n where: a. Redundant elements a r e not capable of checkout during t h e nonnal ground turnaround sequence. b. Loss of a redundant element i s n o t r e a d i l y d e t e c t a b l e -in f l i g h t . c. A l l redundant elements can be lost by a s i n g l e c r e d i b l e cause o r event such as contamination o r explosion.
 
-> 12. K i t - For t h e purposes o f - t h i s desk i n s t r u c t i o n . a k i t i s defined a s a temporary a d d i t i o n o r modiffcation t o t h e O r b i t e r o r i t s subsystems t o s a t i s f y unique requirements f o r a s p e c i f i c mission.
+> 12. -- K i t For t h e purposes o f t h i s desk i n s t r u c t i o n . a k i t i s defined a s a temporary a d d i t i o n o r modiffcation t o t h e O r b i t e r o r i t s subsystems t o s a t i s f y unique requirements f o r a s p e c i f i c mission.
 
 > 13. - Post Landing Safing OperaCons For t h e purposes o f t h i s desk instruc: t i o n . p o s t landing s a f i n g o p e r a t i o n s a r e defined a s t h o s e a c t i v i t i e s performed a f t e r landing t o prepare t h e O r b i t e r f o r hangar operations. This includes t h e deservice and d r a i n i n g o f a l l hazardous f l u i d s , s a f i n g of unused ordnance. a p p l i c a t l o n o f ground power and cooling, removal of p o t e n t i a l l y hazardous components, pods and payloads, purging and vent1 ng o f gases and t h e i n s t a l l a t i o n of p r o t e c t i v e covers.
 
@@ -6979,23 +7013,15 @@ FMEA's will be prepared j o i n t l y by t h e responsible designer and t h e as
 
 R e l i a b i l i t y , i n coordination with Design, w i l l define the schedule and depth of d e t a i l for each FMEA t o be prepared f o r the Orbiter i n support o f contractual mqulrements. and issue an FMEA schedule.
 
-## .2 CONTENT
+## 3.2 CONTENT
 
 Each subsystem FMEA/CIL shall be prefaced by the following Information. sequenced as Indicated:
 
-## 1 .OINTRODUCTION
-
-2.
-
-## 0 QUALITATIVE RELIABILTY S W R Y 2.1 SUBSYSTEM DESCRIPTION AND EFFECTIVE DATE 2.2 SIGNIFICANT UNDEFINED DESIGN AREAS
+## 1 .OINTRODUCTION 2.0 QUALITATIVE RELIABILTY S W R Y 2.1 SUBSYSTEM DESCRIPTION AND EFFECTIVE DATE 2.2 SIGNIFICANT UNDEFINED DESIGN AREAS
 
 > 2.3 CRITICAL lfEMs S U Y 3-0 GROUND RULES AN0 CRITERIA .
 
-## 4.0 DISPLAYS AND CONTROLS INDEX 50 LIST OF REFERENCE DOCUMENTS
-
-.
-
-## 6.0 SCHEEIATICS
+## 4.0 DISPLAYS AND CONTROLS INDEX 5.0 LIST OF REFERENCE DOCUMENTS 6.0 SCHEEIATICS
 
 The backup infonnation. including rationale and anaylses involved i n assessing f a f l u r e modes and t h e i r effects, generally I s not included i n the f i n a l FMEA and CIL package. Where such infonnatlon e x i i t s i n the form o f notes, calculations, IL's, references and other similar material, i t w i l l be retained by the responsible RSA. Should the RSA be reassigned, he will t u r n over the material t o h i s supervi sor.
 
@@ -7007,11 +7033,13 @@ The backup infonnation. including rationale and anaylses involved i n assessing 
 
 %%page 331%%
 
-> DI No. 100-26 Page 5 of 34 EXAMPLE: - Failure Mode internal /external leakage. - Cause poppet/seat damage, contamination, structural failure. Uhen a cmponent is a non-standard type of design or i s unique i n application o r contains unusual /unique f a i l u r e modes o f a c r i t i c a l nature, a more detailed analysis i s required. Piece parts and t h e i r failure modes and effects t h a t could result i n component c r i t i c a l f a i l u r e modes must be identified and included i n t h e 'CAUSE' section of '* the component FMEA f o r each component f a i l u r e mode of concern. - EXAMPLE: Spring fracture, structural failure poppet - f a i l s t o seat.
+> DI No. 100-26 Page 5 of 34
+
+> EXAMPLE: - Failure Mode internal /external leakage. - Cause poppet/seat damage, contamination, structural failure. Uhen a cmponent is a non-standard type of design or i s unique i n application o r contains unusual /unique f a i l u r e modes o f a c r i t i c a l nature, a more detailed analysis i s required. Piece parts and t h e i r failure modes and effects t h a t could result i n component c r i t i c a l f a i l u r e modes must be identified and included i n t h e 'CAUSE' section of '* the component FMEA f o r each component f a i l u r e mode of concern. - EXAMPLE: Spring fracture, structural failure poppet - f a i l s t o seat.
 
 > 2. FMEA's f o r mechanical systems and avionics w i l l interface a t the connector. (See section 4.3.4, Mechanical E l e c t r i c a l Interface.)
 
-> 3. A l l identified failure modes will be assigned two c r i t i c a l i t i e s (functional and hardware) based on the definitions i n section 2 .0. Definitions. and procedures contained i n sections 4.3.1 and 4.3.2. Hardware and Functional Criticality Determination.
+> 3. A l l identified failure modes will be assigned two c r i t i c a l i t i e s (functional and hardware) based on the definitions i n section 2.0. Definitions. and procedures contained i n sections 4.3.1 and 4.3.2. Hardware and Functional Criticality Determination.
 
 > 4. The c r i t i c a l i t y assigned t o pressure carriers (pressure lines and vessels) shall r e f l e c t t h e worst case f a i l u r e effect. These include potential shrapnel damage t o the vehicle/subsystems resulting from rupture of n o n - f i l a m e n t wound tanks, potential overpressurization caused by releasing substantial quantities of fluids frun ruptured l i n e s o r tanks, or depletion of consumables. Yhere released fluids are f l m a b l e or oxidizers and the possibility of an i g n i t i o n source exists, appropriate notation will be entered under "HAZARDS" f o r Safety action. (See Appendix 8, paragraph 3.1.1, Ground Rules, subparagraphs 13, 14. and 15.) --_ 5. Failures which could occur during a l l mission phases frun prelaunch through deactiviation (including safing b purging) of subsystems subsequent t o landing and d u r i n g ferry f l i g h t s shall be:considered, regardless of occurrence probability. Documentation of prelaunch analysis i s required only f o r items classified as c r i t i c a l i t y 1/1.
 
@@ -7019,7 +7047,7 @@ D246jf 5
 
 %%page 332%%
 
-> DI NO. 100-X Page 6 of 34 6. A l l ordnance/pyrotechnic items w i l l be l i s t e d i n t h e CIL according t o t h e most severe effect ( c r i t i c a l i t y 1 o r 2) of a premature operation. ~ .. 7. Each hardware or function c r i t i c a l item s m r y will include a count of the total number of c r i t i c a l f a i l u r e modes per item. by c r i t i c a l i t y . classified either structural or functional (see paragraph 4.1.11).
+> DI NO. 100-X Page 6 of 3 4 6. A l l ordnance/pyrotechnic items w i l l be l i s t e d i n t h e CIL according t o t h e most severe effect ( c r i t i c a l i t y 1 o r 2) of a premature operation. ~ .. 7. Each hardware or function c r i t i c a l item s m r y will include a count of the total number of c r i t i c a l f a i l u r e modes per item. by c r i t i c a l i t y . classified either structural or functional (see paragraph 4.1.11).
 
 > 8. Critical i t e n s m a r i e s f o r kits w i l l be included. but identified ". separately.
 
@@ -7035,25 +7063,27 @@ A program has been developef t o provide computer p r i n t o u t of F14EA and C
 
 %%page 333%%
 
-> 01 NO. 100-26 Page 7 of 34
+01 NO. 100-26
+
+- Page 7 of — 34
 
 sheets (FIGURES 4 and 5) will be completed by the RSA a s information becomes available. The information will be entered i n t o the computer and the RSA w i l l receive a copy of t h e resultant data printout (FIGURES 6 and 7) which will comprise a working document of the information stored i n the computer and a baseline f o r additional i n p u t s o r revisions.
 
-4.1 DATA E L EM E NTS
+## 4.1 DATA ELEMENTS
 
 The following procedure describes the information t o be f i l l e d out on Data Sheets 1 and 2 (FIGURES 4 and 5). Each data descriptor Is preceded by the entry code for t h a t i t e m (e.g.. LV1, Subsystem ID). These codes also are shown on t h e examples of the FMEA and CIL formats. FIGURES 2 and 3. f o r infomation.
 
 DATA SHEET NO. 1
 
-4.1.1 (DI, LV1, LV2) D ATA IDENTIFIER: T h i s l i n e uniquely identifies t h e component
+4.1.1 (DI, LV1, LV2) DATA IDENTIFIER: T h i s l i n e uniquely identifies t h e component
 
 > being analyzed and the 'update" infomation t o be taken. a. Circle "A'. "R" o r 'D" t o indicate appropriate action -- - A Add a new record (casponent or assembly). - R Review an existing record by adding, deleting, o r revising an element(sl of t h a t record. - D Delete an e n t i r e record and a l l information f n that record. b- S u B S Y S ~ID ( L V 1 ) :Enter the l a s t two d i g i t s of the applicable designator and dash number. (See TABLE 4.01. C. COMPONENT ID (l.v2): Enter a number which uniquely identifies the particular cmponent being available. If an existing schematic Identifier is available, i t may be used. For canputer printout purposes, t h e f i r s t d i g i t f s ) of the number shall b e selected t o indicate the assembly. The use of special characters such a s periods or dashes will be avolded. -.-
 
 4.1.2 ( C l ) ASSEMBLY NAME: Enter the name of the assembly.
 
-4.1.3 ( C l , J1) I
+4.1.3 ( C l , J1) ITEM NOMENCLATURE: Enter the nomenclature f o r t h e component. In
 
-> T EM NOMENCLATURE: Enter the nomenclature f o r t h e component. In the f i r s t block (C2). give the basic identifying noun. Enter any additional modifiers or description on the J1 line. A typical example i s *Valve. Solenoid", where "valve" i s the basic identifier.
+> the f i r s t block (C2). give the basic identifying noun. Enter any additional modifiers or description on the J1 line. A typical example i s *Valve. Solenoid", where "valve" i s the basic identifier.
 
 0246517
 
@@ -7081,7 +7111,7 @@ W U N I C A T I O N S a TUCKING
 
 (ARS, ARPCS. Airlock)
 
-## 03-2 REACTION CONTROL
+- 03-2 REACTION CONTROL — 8
 
 03-24 AFT 06-2 LIFE SUPPORT
 
@@ -7097,13 +7127,15 @@ W U N I C A T I O N S a TUCKING
 
 %%page 335%%
 
-> 01 NO. 100-26 Page 9o f 34 Table 5.0 - EPO&C/INTERFACING SUBSYSTEM IOENTIFIERS
+> 01 NO. 100-26 Page 9o f 34
 
-## ELECTRICAL INTERFACE MECHANI C AL SUBSYSTEMS
+Table 5.0 - EPO&C/INTERFACING SUBSYSTEM IOENTIFIERS
+
+## ELECTRICAL INTERFACE MECHANICAL SUBSYSTEMS
 
 05-64A 01-5 Purge, Vent & Drain 05-6AB 01 -5 Vent Doors 05-66 02-1 Landing Deceleration 05-6EA 02-1 Landing Gear Control 05-668 02-1 Brake 1 A n t i -Skid 05-WC 02-1 Nosewheel Steering 05-6C 02-2 Docking Mechanism 05-6D 02-3 Separation 05-6DA 02-3 Carrier A/C Separation
 
-## ACTUATI O NMECHANI S MS SUBSYSTEMS
+## ACTUATION MECHANISMS SUBSYSTEMS
 
 05-6EA 02-4A Hatches 05-6EB 02-46 Payload Bay Door 05-6EC 02-4C Rudder/Speedbrake, Body Flap 05-6E0 02-4 ET Umbilical Doors 05-6EE 02-4 AOP Deploy L H t r 05-6EF ' 02-4 S t a r Tracker Doors 05dEG - 02-4 . - Freon Radiator Deploy 05-6EH 02-4 Rendezvous Radar 6 Corn. Antenna Deploy 05-6F 02-5 Pay1 oad Retention, Manipulator
 
@@ -7133,7 +7165,7 @@ Retention A n n Jettison OSdIE 02-5 DAC Camera-PLE OPS
 
 05-60 05-1 Guidance, Navigation 6 Cantrol
 
-Comnunicati ons 6 Track1 ng: 05-6PA 05-2A Audio 05-6PB 05-28 UHF 05-6PC 05-2C TAC A N 05-6PD 05-20 A1 t i m e t e r 05-6PF 05-2F Microwave Scan Beam Landing (MSBLS) 05-6PG 05-26 S-Band 05-6P J 05-25 Payload Interragator 05-6PK 05-x Closed C i r c u i t TV (TW 05-6PH Ground Camnand Interface Logic (GCIL) 05-6PR 05-2R Ku-Band Corn. & Radar 05-69 05-3 Displays 6 Controls 05-6R 05-4 Instrumentation
+Comnunicati ons 6 Track1 ng: 05-6PA 05-2A Audio 05-6PB 05-28 UHF 05-6PC 05-2C TACAN 05-6PD 05-20 A1 t i m e t e r 05-6PF 05-2F Microwave Scan Beam Landing (MSBLS) 05-6PG 05-26 S-Band 05-6P J 05-25 Payload Interragator 05-6PK 05-x Closed C i r c u i t TV (TW 05-6PH Ground Camnand Interface Logic (GCIL) 05-6PR 05-2R Ku-Band Corn. & Radar 05-69 05-3 Displays 6 Controls 05-6R 05-4 Instrumentation
 
 ~ _. ~
 
@@ -7179,7 +7211,7 @@ Comnunicati ons 6 Track1 ng: 05-6PA 05-2A Audio 05-6PB 05-28 UHF 05-6PC 05-2C TA
 
 I".CI
 
-> Example: (LV3) n. . ---- 1, N OT (LV3) 0 0 0 1 .
+> Example: (LV3) n. . ---- 1 , NOT (LV3) 0 0 0 1.
 
 %%page 338%%
 
@@ -7201,7 +7233,7 @@ ZMTERNAL/EXTERNAL LEAKAGE F A I L S T O START/STOP OPEN L E L E t T R I t A L )
 
 FAILS OUT O F TOLERANCE F A I L S TO SWITCH LEAKAGE ( E t E r n I C A L )
 
-> Appendix 8. paragraph 3.1.1. sub-paragraph 13, r e f l e c t s the ground rule t o be used for external leakage. For OV-102 pre-AA mod only. those fa llure modes which result i n a criticality c la s s iflc a tion of 1 and 2, or 1R and a,and appear f n the CIL (Item 4.1.221 shall be c la s tlfle d further as structural or functional fa l l u re s by c l n l l n g ' S" or "F" I n the C32 fleld. The following guidelines apply: - STRUCTURAL (S) A fa ilure mode Involving structural fa ilure of a pressure vessel. ccrmponent housing, fluid lines, attach f i t t i n g s , or load-carryiag ambers such a s cranks or rods. FUNCTIONAL ( F ) - A fa llure mode, generally wlthln a canponent. which negates the described component function. Thfs type of fa ilure would Include bindlng. leakage, fa ilure t o open o r close. or loss of output. The f a i l u r e cause could be lmproper ins ta lla tion of parts o r structural fa ilure of power transmitting parts such as gear teeth, shafts or sprlngs; however. I n such . Instances t h e mode I s still c la s s lfie d as functional. Electrical and electronic component failures would nonnally f a l l I n t h i s category.
+> Appendix 8. paragraph 3.1.1. sub-paragraph 13, r e f l e c t s the ground rule t o be used for external leakage. For OV-102 pre-AA mod only. those fa llure modes which result i n a criticality c la s s iflc a tion of 1 and 2, or 1R and a,and appear f n the CIL (Item 4.1.221 shall be c la s tlfle d further as structural or functional fal l ures by c l n l l n g 'S" or "F" I n the C32 fleld. The following guidelines apply: - STRUCTURAL (S) A fa ilure mode Involving structural fa ilure of a pressure vessel. ccrmponent housing, fluid lines, attach f i t t i n g s , or load-carryiag ambers such a s cranks or rods. FUNCTIONAL ( F ) - A fa llure mode, generally wlthln a canponent. which negates the described component function. Thfs type of fa ilure would Include bindlng. leakage, fa ilure t o open o r close. or loss of output. The f a i l u r e cause could be lmproper ins ta lla tion of parts o r structural fa ilure of power transmitting parts such as gear teeth, shafts or sprlngs; however. I n such . Instances t h e mode I s still c la s s lfie d as functional. Electrical and electronic component failures would nonnally f a l l I n t h i s category.
 
 OI NO. 100-ZG
 
@@ -7211,7 +7243,7 @@ OI NO. 100-ZG
 
 > OPERATIONAL VEHICLE(SI: - (C83 C861 VEHICLE EFFECTIVITY: E n t e r an 'X' i n t h e appropriate b l o c k ( s ) t o which the FMEA appplies.
 
-> Orbiter Vehicle 102 C83 Orbiter Vehicle 099 C84 Orbiter Vehicle 103 C85 Orbiter Yehicle 104 & SUBS C86
+> O r b i t e r Vehicle 102 C83 O r b i t e r Vehicle 099 C84 Orbiter Vehicle 103 C85 Orbiter Yehicle 104 & SUBS C86
 
 4.1.13 (C33-37) MISSION PHASE(S1: Enter an "X" i n a p p r o p r i a t e box(es1 t o i n d i c a t e
 
@@ -7225,7 +7257,7 @@ OI NO. 100-ZG
 
 %%page 340%%
 
-> DI NO. 100-26 -. Page 1 4 of 94 as hardware c r i t i c a l i t y 1 and functional c r i t i c a l i t y 1. Add i n J10 (FUNCTION) the notation, "Unique t o Intact Abort'. Add'appropriate Intact abort notation In a. above. Additional Information must also be entered under 5240, EFFECT(S) see - paragraph 4.1.16. E : For SSME induced aborts, maximum two engine burn time I s approximately twelve minutes. If "TIME TO EFFECT" Is equal t o or
+> DI NO. 100-26 -. Page 1 4of 94 as hardware c r i t i c a l i t y 1 and functional c r i t i c a l i t y 1. Add i n J10 (FUNCTION) the notation, "Unique t o Intact Abort'. Add'appropriate Intact abort notation In a. above. Additional Information must also be entered under 5240, EFFECT(S) see - paragraph 4.1.16. E: For SSME induced aborts, maximum two engine burn time I s approximately twelve minutes. If "TIME TO EFFECT" Is equal t o or
 
 \- greater than twelve m i n u t e s , there i s no change i n c r i t i c a l l t y .
 
@@ -7233,31 +7265,23 @@ OI NO. 100-ZG
 
 > below and amplify a s necessary. See paragraph 4.4.2 f o r instructions on supplier furnished piece parts.
 
-## CAUSES CO NTA MIN A TI O N TEMPERATURE (HIGH/LOU) INADVERTENT OPERATION/ACTIVATION ME CH ANI C A L SHOCK THERHAL SHOCK VIBRATION VACUUM PRESSURE (HIGH/LOU) PROCEDURAL ERROR ACOUSTICS IONIZING RADIATION CHEMIUL R EACTI
+## CAUSES CONTAMINATION TEMPERATURE (HIGH/LOU) INADVERTENT OPERATION/ACTIVATION MECHANICAL SHOCK THERHAL SHOCK VIBRATION VACUUM PRESSURE (HIGH/LOU) PROCEDURAL ERROR ACOUSTICS IONIZING RADIATION CHEMIUL REACTION OVERLOAD ' ACCELERATION LOSS OF/IMPROPER INPUT
 
-O N
-
-## OVERLOAD ' ACCELERATION LOSS OF/IMPROPER INPUT
-
-* M I
-
-## S HAN D LI
-
-N G OR ABUSE ELEtTROMAGNETIC FIELDS PIECE-PART STRUCTURAL FAILURE '
+* MISHANDLING OR ABUSE ELEtTROMAGNETIC FIELDS PIECE-PART STRUCTURAL FAILURE '
 
 4.1.16 (5240) EFFECT(S1: Enter the l e t t e r s ( A ) . ( 8 ) . ( C ) o r ( D ) as defined i n t h e
 
 > headings of Appendix A, together w i t h the words under each heading describing the effects on the subsystem, interfaces, mission, and crew/vehicle. respectively. and explain. If the identified e f f e c t i s not l i s t e d , describe briefly. Where the effect i s the same f o r two o r more of the above, consolidate entries. Specify i f there i s no effect on a specific category or categories and provide a brief explanation. In those instances when t i n e t o
 
-. abort requires
+. abort .. -requires automatic operation o r imnediate dependence on a parallel
 
-> .. - automatic operation o r imnediate dependence on a parallel subsystem and such i s provided, the effect on mission i s "lone" with explanation for each mission phase as appropriate. See section 4.1.21d. f o r screening of functional c r i t i c a l i t y 3 f a i l u r e modes. For thqse items identified as abort c r i t i c a l (see paragraph 4.1.14) enter. sibsequent t o the ( A ) . ( 8 ) . ( C ) and ( D ) entries. the c r i t i c a l i t y and effects per the following example:
+> subsystem and such i s provided, the effect on mission i s "lone" with explanation for each mission phase as appropriate. See section 4.1.21d. f o r screening of functional c r i t i c a l i t y 3 f a i l u r e modes. For thqse items identified as abort c r i t i c a l (see paragraph 4.1.14) enter. sibsequent t o the ( A ) . ( 8 ) . ( C ) and ( D ) entries. the c r i t i c a l i t y and effects per the following example:
 
 0246j/14
 
 %%page 341%%
 
-> 01 NO. 100-26' Page 1 5o f 3 4 "Crit 1 for RTLS - Loss o f additional engine-vehicle loss" or - 'Crit 1 f o r RTLS Incomplete propellant dump, s t a b i l i t y problem. probable vehicle loss." Where functional c r i t i c a l i t y f s 1 R o r 2R per paragraph 4.3.2 and hardware c r i t i c a l i t y i s 3. t h e appropriate entry f o r "FUNCTIONAL" ~, effects should be included. The "FUNCTONAL" effects entry relative t o t h e loss of a l l functional redundancy will b e entered per the following example: (El FUNCTIONAL CRITICALITY EFFECT: Possible loss of crewhehicle (specify) op probable loss o f crew/ vehicle (describe) or loss o f crew/vehicle.
+> 01 NO. 100-26' Page 1 5o f 34 "Crit 1 for RTLS - Loss o f additional engine-vehicle loss" or - 'Crit 1 f o r RTLS Incomplete propellant dump, s t a b i l i t y problem. probable vehicle loss." Where functional c r i t i c a l i t y f s 1R o r 2R per paragraph 4.3.2 and hardware c r i t i c a l i t y i s 3. t h e appropriate entry f o r "FUNCTIONAL" ~, effects should be included. The "FUNCTONAL" effects entry relative t o t h e loss of a l l functional redundancy will b e entered per the following example: (El FUNCTIONAL CRITICALITY EFFECT: Possible loss of crewhehicle (specify) op probable loss o f crew/ vehicle (describe) or loss o f crew/vehicle.
 
 4.1.17 (C39) TIME TO EFFECT:
 
@@ -7289,9 +7313,9 @@ N G OR ABUSE ELEtTROMAGNETIC FIELDS PIECE-PART STRUCTURAL FAILURE '
 
 %%page 343%%
 
-> 01 NO. 100-26 Page 1 7 34 of
+> 01 NO. 100-26 Page 1 7 of 34
 
-> Criticality 1R3 o r 2R3 and the primary redundancy would not be degraded (i.e.. loss of two of the subtier functiooal paths would not result i n an abort decision). C. Failure of an element t o pass t h i s screen should be i n d i r e c t relation t o the noted failure mode under n o n a l l y expected environmental conditions. Consideration of environmental extremes a s caused which could induce 'multiple order failure" is limited t o abnormal conditions generally resulting from some other failure. Where multiple f a t l u r e s must f i r s t occur t o result i n environmental extremes, such events may be considered non-credible. A s a ground rule, i t may be assmed t h a t hardware Items will be qualified and properly installed t o withstand the 'design-to" environmental envelope. The following are typical questions t o be answered i n t h i s phase o f the analysis: (1) Contamination: ( a ) A r e t h e items being evaluated susceptible to contamination? ( b ) IS contamination a credible event o r does t h e design (fK1Uding f i l t e r s ) r e s u l t i n t h i s failure mode being categorized a s non-credible? ( 2 ) Explosion: ( a ) 1s there a credible source? ( b ) Must other multiple failures occur f i r s t t o result i n the explosion? (C) IS the explosfon catastrophic t o crew or vehicle? (d) Is the container frangible? (el A r e the Items being considered susceptible t o t h i s type of damage i n view of t h e i r physical characteristics and location; i.e.. shielding? 3. Temperature: ( a ) A r e cwponents susceptible t o damage o r failure from h i g h - .I temperature? (b) Other than a s a result of multiple failures, i s such exposure credible? T h i s implies temperature peaks or sustained levels sufficient t o cause catastrophic effects on 6 e component in a short time. For example, temperature Increases t o certain - levels merely increase electronic parts f a f l u r e rates the actual failure and time o f occurrexe a r e stlll probabfl Istic.
+> Criticality 1R3 o r 2R3 and the primary redundancy would not be degraded (i.e.. loss of two of the subtier functiooal paths would not result i n an abort decision). C. Failure of an element t o pass t h i s screen should be i n d i r e c t relation t o the noted failure mode under n o n a l l y expected environmental conditions. Consideration of environmental extremes a s caused which could induce 'multiple order failure" is limited t o abnormal conditions generally resulting from some other failure. Where multiple f a t l u r e s must f i r s t occur t o result i n environmental extremes, such events may be considered non-credible. As a ground rule, i t may be assmed t h a t hardware Items will be qualified and properly installed t o withstand the 'design-to" environmental envelope. The following are typical questions t o be answered i n t h i s phase o f the analysis: (1) Contamination: ( a ) A r e t h e items being evaluated susceptible to contamination? ( b ) IS contamination a credible event o r does t h e design (fK1Uding f i l t e r s ) r e s u l t i n t h i s failure mode being categorized a s non-credible? ( 2 ) Explosion: ( a ) 1s there a credible source? ( b ) Must other multiple failures occur f i r s t t o result i n the explosion? (C) IS the explosfon catastrophic t o crew or vehicle? (d) Is the container frangible? (el A r e the Items being considered susceptible t o t h i s type of damage i n view of t h e i r physical characteristics and location; i.e.. shielding? 3. Temperature: ( a ) A r e cwponents susceptible t o damage o r failure from h i g h - .I temperature? (b) Other than a s a result of multiple failures, i s such exposure credible? T h i s implies temperature peaks or sustained levels sufficient t o cause catastrophic effects on 6 e component in a short time. For example, temperature Increases t o certain - levels merely increase electronic parts f a f l u r e rates the actual failure and time o f occurrexe a r e stlll probabfl Istic.
 
 0246jA 7
 
@@ -7299,19 +7323,21 @@ N G OR ABUSE ELEtTROMAGNETIC FIELDS PIECE-PART STRUCTURAL FAILURE '
 
 > DI NO. 100-26 Page 18of 34 ( 4 ) Vibration, Shock. Acceleration. Acoustics. e t C . : ( a ) Assuming t h a t ccmponents a r e q u a l i f i e d and pr?perly i n s t a l l e d t o withstand design environments. can a c r e d i b l e cause be i d e n t i f i e d which would cause t h e s e l e v e l s t o be exceeded? ( b ) Are vibration/shock/acceleratlon-sensitive redundant u n i t s physically oriented o r separated t o reduce t h e chance of multiple f a i l u r e from the same cause(s1 and i s t h e r e s u f f i c i e n t analysis and test data t o verify the f a i l u r e as non-credi ble? (51 Fire: DO not consider f i r e a s one of t h e s i n g l e events or causes i n f a i l i n g screen "C". one of the events (NB/83-L 216). NASA has edicted t h a t f i r e not be considered I I f none of t h e redundancy screens a r e applicable, enter 'NA" i n t h e C53 f i e l d and b r i e f l y explain reason f o r RDIIARKS/HAU\ROS.
 
-> d. Screening of Functional C r i t i c a l i t y 3 F a i l u r e Modes ( '[^1] ) Where t h e f a i l u r e modes have been i d e n t i f i e d a s non-critical f o r loss of a l l redundancy ( C r i t i c a l i t y 3 ) . e n t e r 'NA" i n t h e C53 f i e l d . Enter under RE MARKS^ t h e notation, 'Critfcalfty 3 f a i l u r e - mode loss o f a l l redundancy would have no e f f e c t o n ' t h e mission o r c r e w h e h i c l e safety'. In such cases, minimum e n t r i e s on Data I Sheet No. 2 c o n s i s t of bI, LVl , LV2, LV3, C31, C53 and 5240. For functional C r i t i c a l i t y 3 items, 5240 m ust contain a brief explanation regardi ng t h e assigned c r i t i c a l i t y .
+> d. Screening of Functional C r i t i c a l i t y 3 F a i l u r e Modes ( '[^1] ) Where t h e f a i l u r e modes have been i d e n t i f i e d a s non-critical f o r loss of a l l redundancy ( C r i t i c a l i t y 3 ) . e n t e r 'NA" i n t h e C53 f i e l d . Enter under RE MARKS^ t h e notation, 'Critfcalfty 3 f a i l u r e - mode loss o f a l l redundancy would have no e f f e c t o n ' t h e mission o r c r e w h e h i c l e safety'. In such cases, minimum e n t r i e s on Data I Sheet No. 2 c o n s i s t of bI, LVl , LV2, LV3, C31, C53 and 5240. For functional C r i t i c a l i t y 3 items, 5240 must contain a brief explanation regardi ng t h e assigned c r i t i c a l i t y .
 
 > ( 2 ) Where a component has an i d e n t i f i e d failitre mode i n t h e C r i t i c a l i t y 1 of 2 Category, and additional functional C r i t i c a l i t y 3 f a i l u r e modes are i d e n t i f i e d , these C r i t i c a l i t y 3 modes will be t r e a t e d a s -.-described i n para. (11 above.
 
 4.1.22 CRITICALITY:
 
-> a. - - (C54 HARDUARE) Enter 1,[^2] or 3 based on the definitions i n section 2.0 and t h e ground r u l e s contained i n section 4.3.1 and Appendix 8 . paragraph 3.1.1, sub-paragraph 1. b. (C67 - - FUNCTIONAL) Enter 1. 2,[^1] R , 2R or 3 based on the d e f i n i t i o n s i n section 2.0 and t h e ground r u l e s contained i n section 4.3.2 and Appendix 6, paragraph 3 .1 .I, sub-paragraph 1.
+> a. - - (C54 HARDUARE) Enter 1,[^2] or 3 based on the definitions i n section 2.0 and t h e ground r u l e s contained i n section 4.3.1 and Appendix 8 . paragraph 3.1.1, sub-paragraph 1. b. (C67 - - FUNCTIONAL) Enter 1. 2,[^1] R , 2R or 3 based on the d e f i n i t i o n s i n section 2.0 and t h e ground r u l e s contained i n section 4.3.2 and Appendix 6, paragraph 3.1 .I, sub-paragraph 1.
 
 nlALlf7R .
 
 %%page 345%%
 
-> DI NO. 100-26 - Page 19 of 34
+DI NO. 100-26
+
+- - Page 19 of — 34
 
 4.1.23 (5500) REMARKS/H~U\ROS: Identify potential hazards resulting from the
 
@@ -7319,31 +7345,31 @@ nlALlf7R .
 
 4.1.24 (5600) DISPOSITION AND RATIONALE: For c r i t i c a l i t y 1 and 2 items. and/or lR,
 
-> 2R items t h a t f a i l a redundancy screen and/or hardware c r f t i c a l i t y 2 items where the screen i s NA. i n a l l of the following categories t o describe the retention c ri t e ri a. Each category must r e f l e c t a description of rationale for retention of the item: a. - Design Identification of design features which minimize the occurrence o f the fa i l ure mode and causes. b. - Test identification o f specific t e s t s accomplished t o detect f a i l u r e mode and causes during acceptance te s ts . c e rtific a tion te s ts . and checkout tests. c. - Inspection Statement tha t specific inspection points are included t o determine t h a t specific fa ilure mode causes a re not inadvertently manufactured into the hardware. - d. Failure History Provide an Indication t h a t the hardware or similar hardware has been used successfully and t h a t a history of generic failUtes does not exist. If t h e hardware i s new t o t h i s program, so state.
+> 2R items t hat f a i l a redundancy screen and/or hardware c r f t i c a l i t y 2 items where the screen i s NA. i n a l l of the following categories t o describe the retention cri t eri a. Each category must r e f l e c t a description of rationale for retention of the item: a. - Design Identification of design features which minimize the occurrence o f the fai l ure mode and causes. b. - Test identification o f specific t e s t s accomplished t o detect f a i l u r e mode and causes during acceptance te s ts . c e rtific a tion te s ts . and checkout tests. c. - Inspection Statement tha t specific inspection points are included t o determine t h a t specific fa ilure mode causes a re not inadvertently manufactured into the hardware. - d. Failure History Provide an Indication t h a t the hardware or similar hardware has been used successfully and t h a t a history of generic failUtes does not exist. If t h e hardware i s new t o t h i s program, so state.
 
 4.1.25 ( C 9 , Clo) APPROVAL: Responsible Reliability and Design approval signatures as follows:
 
-> a. Subsystem FMEA package: Oesign/Reliabili ty Manager b . - Figure 2 (FMEA) PREPARED BY: Design Responsl ble Reli abil i ty Analyst's Name . 7-
+> a. Subsystem FMEA package: Oesign/Reliabili ty Manager b. - Figure 2 (FMEA) PREPARED BY: Design Responsl ble Reli abil i ty Analyst's Name . 7-
 
 > APPROVED BY: Design Signature Reliability (Analyst) Signature c. Figure 3 (CILI - APPROVED BY: Design (Supervisor) ;Signature Reliability (Supervisor) Slgnature
 
-> - NOTE: The I n l t f a l IsSue of a CIL sheet will be signed by t h e Reliability SupeMsor. Signatures W i l l not be required on subsequent Issues unless the CIL sheet Is fevlsed.
+> -SupeMsor. The I n l t f a l IsSue of a CIL sheet will be signed by t h e Reliability NOTE: Signatures W i l l not be required on subsequent Issues unless the CIL sheet Is fevlsed.
 
 64-420 0 - 86 - I?
 
 %%page 346%%
 
-> DI NO. 100-26 Page 2 0 of 34
+> DI NO. 100-26 Page 20 of 34
 
 ## 4.2 REVISIONS & SUBMITTALS
 
-> 1. Revisions t o the FMEA w i l l be made a s follows: a. N e w Data: ( 1 ) To identify new components or f a i l u r e modes. use the data entry sheets and follow the instruction given in section 4.1. (2) To add information t o a component o r f a i l u r e mode record. e i t h e r a blank data sheet o r the appropriate page of the data p r i n t o u t working copy nay be used. - ( a ) Data Entry Sheets Usfng a blank data sheet, c i r c l e "R' [Revise) on the "Data Identifier" line (01. FIGURE 4 o r 5 ) and enter the correct subsystem/canponent/(failure mode) I D number t o identify t h e record t o which the information is t o be added. F i l l i n complete blocks of information t o be added (e.g., Disposition b l o c k ) . and s u b m i t f o r keypunching.
+> 1. Revisions t o the FMEA w i l l be made a s follows: a. New Data: ( 1 ) To identify new components or f a i l u r e modes. use the data entry sheets and follow the instruction given in section 4.1. (2) To add information t o a component o r f a i l u r e mode record. e i t h e r a blank data sheet o r the appropriate page of the data p r i n t o u t working copy nay be used. - ( a ) Data Entry Sheets Usfng a blank data sheet, c i r c l e "R' [Revise) on the "Data Identifier" line (01. FIGURE 4 o r 5 ) and enter the correct subsystem/canponent/(failure mode) ID number t o identify t h e record t o which the information is t o be added. F i l l i n complete blocks of information t o be added (e.g., Disposition b l o c k ) . and s u b m i t f o r keypunching.
 
 > (b) Data P r i n t o u t - Circle "R' (Revise) on t h e "Data Identifier" l i n e (01, FIGURES 6 and 7) of the record t o which new information is t o be added. Using a colored pen or pencil, enter t h e information i n t h e appropriate blocks and submit f o r keypunch.
 
 > b. Data Entry Change: Circle t h e "R" (Revise) on the "Data Idenifier" line (01. FIGURE 4 or 5 ) and e i t h e r "red-llne" the appropriate sheet of the data printout o r re-enter t h e data a s i t should appear, u s i n g the appropriate data entry sheet a s described i n section 4.2, paragraph ( a ) Data Entry Sheets. To clear the "3" f i e l d of any remaining unwanted Information, asterisk (*) the blank l i n e s w i t h i n t h e -.- block on the master record and supporting record work sheets.
 
-> C. Data Deletion: (1) To delete data, c i r c l e the ' R" on the "Data Identifier" l i n e (01. FIGURE 6 or 7 ) of the appropriate data p r i n t o u t sheet. cross O u t the entry t o be deleted w i t h a colored pen O r pencil
+> C. Data Deletion: (1) To delete data, c i r c l e the 'R" on the "Data Identifier" l i n e (01. FIGURE 6 or 7 ) of the appropriate data p r i n t o u t sheet. cross O u t the entry t o be deleted w i t h a colored pen Or pencil
 
 0246j/2D
 
@@ -7359,7 +7385,7 @@ nlALlf7R .
 
 ### FMEAKIL Submittal
 
-> a. Critical Items List (CIL) Updates will include the following: (1 ) Any new CIL I tens ( 2 ) Updates t o existing items having technical changes affecting the following sections: -- - ( a ) function ( b ) f a i l u r e mode ( c ) f a i l u r e effects (d) c r i t i c a l i t y ( e ) abort c r i t i c a l cmponents ( f ) f a f l u r e detectability (redundancy screen) .' Other changes w i l l be incorporated when pages are s u h i t t e d f o r the above reasons.
+> a. Critical Items List (CIL) Updates will include the following: (1 ) Any new CIL Itens ( 2 ) Updates t o existing items having technical changes affecting the following sections: -- - ( a ) function ( b ) f a i l u r e mode ( c ) f a i l u r e effects (d) c r i t i c a l i t y ( e ) abort c r i t i c a l cmponents ( f ) f a f l u r e detectability (redundancy screen) .' Other changes w i l l be incorporated when pages are s u h i t t e d f o r the above reasons.
 
 02463 /21
 
@@ -7369,35 +7395,33 @@ nlALlf7R .
 
 > b. FMEA's Updates o f the FMEA's will be a t six month intervals linked t o nearest scheduled CIL FRR publication. Only those changes related t o the CIL submittals (5 above) and other technical changes wtll be submitted.
 
-4.3 I
-
-## MPLEMENTATI
-
-O N GROUND RULES (See a ls o Appendix B - Ground Rules and Criteria)
+4.3 IMPLEMENTATION GROUND RULES (See a ls o Appendix B - Ground Rules and Criteria)
 
 ## 4.3.1 HARDWARE CRITICALITY DETERMINATION
 
 > Hardware c r i t i c a l i t y will be determined by t h e categorization o f the singular effect of the identified fa ilure mode on the subsystern/vehicle (See FIGURE 10). FIGURE 8 i l l u s t r a t e s the analytical logic f o r c r i t i c a l i t y detennination I o f a l l functional hardware.
 
-> 1. Rellability Engineering ide ntifie s hardware where i f redundancy f a i l s the e ffect would be c r i t i c a l . -
+> 1. Rellability Engineering ide ntifie s hardware where i f redundancy f a i l s the effect would be c r i t i c a l . -
 
 2. Reliability and Design Engineering jointly identify those equipments '
 
 > w i t h (single point) c r i t i c a l i t y 1 or 2 fa ilure modes. Those equipments that. are not c r l t i c a l i t y 1 because they incorporate redundancy are then screened further, a s described i n paragraph 4.1.n. and appropriate entries made i n the FMEA d a d sheet.
 
-> - NOTE: The C ri t i ca lity of instrumentation and t e s t ports will be assessed according t o the ir function. Test ports, when capped, shall be treated as a structural part of the ccmponent and not be considered further. Where i n s t m e n t a t i o n (e.g., pressure transducer) penetrates the wall of a component or l i n e and structural f a i l u r e of the j o i n t would result i n gross leakage, the fa ilure mode shall be considered a s a fa i l u re of t h e component or line. The c r i t i c a l i t y of the instrument- ation. therefore. would not be affected i n such instances.
+> - NOTE: The C ri t i ca lity of instrumentation and t e s t ports will be assessed according t o the ir function. Test ports, when capped, shall be treated as a structural part of the ccmponent and not be considered further. Where i n s t m e n t a t i o n (e.g., pressure transducer) penetrates the wall of a component or l i n e and structural f a i l u r e of the j o i n t would result i n gross leakage, the fa ilure mode shall be considered a s a fai l ure of t h e component or line. The c r i t i c a l i t y of the instrument- ation. therefore. would not be affected i n such instances.
 
-> 3. The c r i t i c a l i t y of those systems which are t o be used only i n the event of an emergency shall be established s t r i c t l y on the basis of dire c t fa i l u re effect on crew. vehicle, o r mission, regardless of t h e number of prior fai l ures which must occur before the use of t h e system i s required.
+> 3. The c r i t i c a l i t y of those systems which are t o be used only i n the event of an emergency shall be established s t r i c t l y on the basis of dire c t fai l ure effect on crew. vehicle, o r mission, regardless of t h e number of prior fai l ures which must occur before the use of t h e system i s required.
 
 02461/22 -~ .. .
 
 %%page 349%%
 
-> DI NO. 100-26 Page 23 of 34 A l l other backup or standby equipment (e.g.. re lie f valves. cross-feed valves, etc.) shall 'assigned c r l t i c a l i t y In the n o m l manner.
+> DI NO. 100-26 Page 23 of 34
+
+> A l l other backup or standby equipment (e.g.. re lie f valves. cross-feed valves, etc.) shall 'assigned c r l t i c a l i t y In the n o m l manner.
 
 ## 4.3.2 FUNCTIONAL CRITICALITY DEERMINATION
 
-> Functional c r l t l c a l i t y will be determined by the categorlzation o f the e f f e c t on the subsystemlvehlcle o f los s o f a l l redundancy ( l l k e o r unlike) f o r the identified fa l l ure mode (See FIGURE 10). FIGURE 8 Illus tra te s t h e analytical ' logic f o r c r l t i c a l l t y determinatlon o f a l l functlonal hardware.
+> Functional c r l t l c a l i t y will be determined by the categorlzation o f the e f f e c t on the subsystemlvehlcle o f los s o f a l l redundancy ( l l k e o r unlike) f o r the identified fal l ure mode (See FIGURE 10). FIGURE 8 Illus tra te s t h e analytical ' logic f o r c r l t i c a l l t y determinatlon o f a l l functlonal hardware.
 
 > 1. Reliability Engineering ide ntifie s hardware i f a l l l i k e or unlike redundancy f a l l s the e ffe c t vould be c r l t i c a l .
 
@@ -7411,13 +7435,15 @@ O N GROUND RULES (See a ls o Appendix B - Ground Rules and Criteria)
 
 > This sectlon of the Critical Items List contains those c r i t i c a l Items asscciated with Orbiter subsystems t h a t have been added t o or modified by Orbiter Mlssion Klts t o support special missions. These CIL items will only apply t o specific vehicle missions as noted i h t h i s speclfic CIL subsectlon.
 
-> T h i s CIL section contains the single fa ilure paints and c r l t l c a l i t y 1~ R CIL items identifled by the Failure Mode Effects Analysis IFMEA) and 2 conducted on t h e Orbiter subsystems tha t have been added t o or modified
+> T h i s CIL section contains the single fa ilure paints and c r l t l c a l i t y 1~ and 2R CIL items identifled by the Failure Mode Effects Analysis IFMEA) conducted on t h e Orbiter subsystems tha t have been added t o or modified
 
 02463123
 
 %%page 350%%
 
-> 01 NO. 100-26 Page 24 of 34 t o support 'special mission application. These vehicle changes are Identlfied by individual Mission Klts which are Installed specifically f o r these special missions and wuld be removed when t h C mission objectives have been achieved. Each vehicle change is identifled by a Master Change Record (MCR) and I s referenced i n the applicable FMU.
+> 01 NO. 100-26 Page 24 of 34
+
+> t o support 'special mission application. These vehicle changes are Identlfied by individual Mission Klts which are Installed specifically f o r these special missions and wuld be removed when t h C mission objectives have been achieved. Each vehicle change is identifled by a Master Change Record (MCR) and I s referenced i n the applicable FMU.
 
 Each c r i t i c a l f a i l u r e mode identified in the vehicle modification ,. section is categorized on a separate Critical Items List form which
 
@@ -7437,7 +7463,11 @@ Each c r i t i c a l f a i l u r e mode identified in the vehicle modification ,
 
 0246j/24
 
-> DI NO. 100-26 Page 2 5 of 34 The electrical interface FMEA will be included in the appropriate section of the avionics FMEA. For c r i t i c a l i t y 1. lR,[^2] or 2R f a i l u r e mpdes. the mechanical FMEA, which considers the e f f e c t of 'black box" l o s s of function. wfll indicate i n the R 'EM ARKS" section t h e avioiics FMEA number o f the "black box". The avionics FMu\ of the 'black box' w i l l contain a similar reference t o the appropriate mechanical FMEA. A t t h e e a r l i e s t point i n time when the mechanical analyst can ascertain t h a t the "black box" is c r i t i c a l i t y 1. 1R.[^2] "or 2R. I t shall be h i s responsibility t o convey t o the Avionics Reliability group copies o f h i s worksheets t o f a c f l i t a t e i n i t i a t i o n o f detafled avionics analysis effort.
+DI NO. 100-26
+
+- Page 25 of — 34
+
+> The electrical interface FMEA will be included in the appropriate section of the avionics FMEA. For c r i t i c a l i t y 1. lR,[^2] or 2R f a i l u r e mpdes. the mechanical FMEA, which considers the e f f e c t of 'black box" l o s s of function. wfll indicate i n the 'REMARKS" section t h e avioiics FMEA number o f the "black box". The avionics FMu\ of the 'black box' w i l l contain a similar reference t o the appropriate mechanical FMEA. A t t h e e a r l i e s t point i n time when the mechanical analyst can ascertain t h a t the "black box" is c r i t i c a l i t y 1. 1R.[^2] "or 2R. I t shall be h i s responsibility t o convey t o the Avionics Reliability group copies o f h i s worksheets t o f a c f l i t a t e i n i t i a t i o n o f detafled avionics analysis effort.
 
 ## 4.3.5 INSTRUMENTATION -MF
 
@@ -7459,33 +7489,29 @@ Each c r i t i c a l f a i l u r e mode identified in the vehicle modification ,
 
 > Upon receipt of a supplier FMEA, the responsible RSA will ccmpare the identified failure modes w i t h those called o u t on his corresponding subsystem FMEA and update h l s FMEA a s required (see section 4.2) t o include any failure nodes not already identifled relating t o subsystem effect. Supplier FMEA'S w l l l be reviewed f o r single failure points below t h e black box level by Rockwell and analyzed f o r corrective action directly w i t h the supplier as part of t h e i r design review. Where Rockwell does not concur w i t h portions o f the supplier analysis, telephone contact w i t h the supplier Reliability Engineer normally should suffice t o resolve any differences. If not. the matter shall be resolved through normal Rockwell data handling procedures. Supplier black boxes w i l l be identified i n the subsystem FMEA based on the supplier schematic o r drawing part identification number. For c r i t i c a l i t y 1 or 2 and 1R or 2R (CIL only) electronic black boxes, the piece parts ( o r if a l l o r many circuits, so s t a t e ) identified by the supplier FMEA which are single point failures t h a t have a d i r e c t c r i t i c a l e f f e c t on the vehicle will be described w i t h reference t o the supplier FMEA I n the "CAUSE" section Of the applicable failure node identified a t the subsystem level. Parts w i l l be l i s t e d only i n those cases where l e s s than five parts are involved.
 
-## 4.5 ELEMENT CONTRACTOR FMEA CORRELATI
-
-O N
+## 4.5 ELEMENT CONTRACTOR FMEA CORRELATION
 
 Requirements and procedures f o r conducting interfacing analyses and for element integration tasks are contained in Reliability Desk Instruction 100-12 (Shuttle Element Interface).
 
 4.6
 
-For items identified as GFE hardware, NASA will identify those which require FMEA's and w i l l perform FMEA's on the hardware identified t o the level defined by t h e i r ground rules. Upon ccinpletion of the FMEA, MASA w i l l provide Rockwell w i t h a copy. In addition t o the completed copy. a preliminary copy may b6 transmitted. Upon receipt of the GFE FMEA, Rockwell will evaluate t h e interface effects on the Orbiter defined by the'GFE F M U. 02463 I26
+For items identified as GFE hardware, NASA will identify those which require FMEA's and w i l l perform FMEA's on the hardware identified t o the level defined by t h e i r ground rules. Upon ccinpletion of the FMEA, MASA w i l l provide Rockwell w i t h a copy. In addition t o the completed copy. a preliminary copy may b6 transmitted. Upon receipt of the GFE FMEA, Rockwell will evaluate t h e interface effects on the Orbiter defined by the'GFE FMU.
+
+02463 I26
 
 %%page 353%%
 
 > 01 NO. 100-26 . - Page 27 '34 of
 
-Appropriate conrments shall be included t o insure t h a t t h i s area i s correct an'd complete. Rockwell will conduct FMEA'S f o r a l l interfaces between CFE and GFE. The Rockwell FMEA will consider a l l f a i l u r e modes consistent'with t h i s desk instruction. The analysis is t o consider a s a "RUSE" any f a i l u r e mode identified by the GFE FMEA which could produce a failure i n the CFE interface. Where G FE failures are identified a s a ' CA
-
-> US' E. the appropriate G FE FUEA and document number
-
-shall be identified a s a part of the "CAUSE" section. In addition, those vehicle failures which could cause M U failure modes w i ll be identified t o NASA In the corrments t o t h e GFE FMEA. Uhere structural failures a r e identified, appropriate hazards analyses shall be 1ncl uded 1n avai 1abl e.
+Appropriate conrments shall be included t o insure t h a t t h i s area i s correct an'd complete. Rockwell will conduct FMEA'S f o r a l l interfaces between CFE and GFE. The Rockwell FMEA will consider a l l f a i l u r e modes consistent'with t h i s desk instruction. The analysis is t o consider a s a "RUSE" any f a i l u r e mode identified by the GFE FMEA which could produce a failure i n the CFE interface. Where GFE failures are identified a s a 'CAUSE'. the appropriate GFE FUEA and document number shall be identified a s a part of the "CAUSE" section. In addition, those vehicle failures which could cause M U failure modes will be identified t o NASA In the corrments t o t h e GFE FMEA. Uhere structural failures a r e identified, appropriate hazards analyses shall be 1ncl uded 1n avai 1abl e.
 
 The accountabllity of CIL items f o r W E will be NASA. Those CIL items resultfng from interface failure modes will be a part of the Rockwll CIL.
 
 Exceptions t o t h i s instruction w i l l be identified and concurred i n jointly by Rockwell and NASA and documented a s a part of l e t t e r s of agreement.
 
--___________._I___C_ .__ ._.
+-___________._I___C_ ._. .-...--.--.. ----------------.-----
 
-> -___-...-.. .--.--.. ----------------.----- I I : I
+> .__-___-. I I : I
 
 I
 
@@ -7495,7 +7521,9 @@ I
 
 CRIT 1 R 6 2 R
 
-> I- 2 FIGURE 1 - F k R PROCESS
+- I- — 2
+
+FIGURE 1 - F k R PROCESS
 
 %%page 355%%
 
@@ -7515,21 +7543,21 @@ Jm
 
 > - 0 Y
 
-> *I..."[^1] ..................... . . Y - ., .................. ...................... " ................. p1&
+> *I..."[^1] ..................... . . Y -., .................. ...................... " ................. p1&
 
 > .. Q . C . . . . ..............- a,... . p. ry
 
 > Figure 4. Data Sheet No. 1 ...
 
-.. .._. -.-- ...
+. . .._. -.-- ...
 
 - . -.
 
-- - Figure 5. Data Sheet No. 2 t .. .
+-- Figure 5. Data Sheet No. 2 t .. .
 
-> Figure S . Data Printout, Component-Related Data
+Figure S. Data Printout, Component-Related Data
 
-> Figure 7 . Data Printout, Failure Mode-Related Data
+Figure 7. Data Printout, Failure Mode-Related Data
 
 > Crlt.[^2] Reliability Engr. Detcrminntlnn Crit. IR . I --- Crit. 2R .
 
@@ -7583,7 +7611,7 @@ NO E f f e c t
 
 (0) ON CREW/VEHICLE:
 
-> NO tttect Possible Loss of Crew/Vehicle (Specify) Probable Loss of Crew/Vehicle (Conditfons) Loss o f Crew/Vehicle *
+> NO t t t e c t Possible Loss of Crew/Vehicle (Specify) Probable Loss of Crew/Vehicle (Conditfons) Loss o f Crew/Vehicle *
 
 - NOTE: The following instruction i s intended t o c l a r i f y what should be entered i n the FMEAKIL under "EFFECTS ON MISSION" (item C under e n t r y 5240) f o r i d e n t i f i e d c r i t i c a l i t y 2 f a i l u r e modes.
 
@@ -7595,7 +7623,7 @@ The following c h a r t (Mission Effects - C r i t i c a l i t y 2 F a i l u r e
 
 Page 2 2 of
 
-## MISSION EFFECTS - CRITICALITY 2 FAILURE MODES
+MISSION EFFECTS - C R I T I C A L I T Y 2 FAILURE MODES
 
 LOSS OF C A P A B I L I T Y TO FAILURE MODE AFFECTS ACCOMPLISIMENT OF M I S S I O N 1. ---
 
@@ -7611,7 +7639,7 @@ LOSS OF C A P A B I L I T Y TO FAILURE MODE AFFECTS ACCOMPLISIMENT OF M I S S I 
 
 TO - - - (SPECIFY FUIICTION TO BE PERFORMED.) CRITICAL FUtlCTlON
 
-## EXAMPLE: FAILURE'OF ONE OF TWO REOUNOANT PYROTECIINIC
+- EXAMPLE: FAILURE'OF ONE OF TWO REOUNOANT PYROTECINIC — 0
 
 > DEVICES I N THE SEPARATION SYSTEM. Q, h3
 
@@ -7629,7 +7657,7 @@ ASCENT PIIASE.
 
 ## APPENDIX B '
 
-Page 16 of
+Page 1 of 6
 
 3.0 GROUND RULES AND CRITERIA ..
 
@@ -7641,7 +7669,7 @@ The following ground r u l e s and c r i t e r i a a r e of a general category f
 
 > 2- CritlCality 1R and 2R assumes f a i l u r e of a l l like and unlike redundancy: A backup item. i f when i t i s c a l l e d upon t o work, performs a function d i f f e r e n t frm the i t e m i t is backing up, i t should be c l a s s i f i e d based upon t h e e f f e c t i f i t . d o e s not work when operated. I f t h e backup item performs t h e same functfon a s t h e Item I t is backing up. t h e backup should be c l a s s i f i e d a s an u n l i k e redundant Item.
 
-> 3. Loss of mission is defined a s follows: a. Operation payload i n t e r f a c e hardware f a i l u r e as I t would r e s u l t i n l o s s of payload primary performance. b. . ..Orbiter subsystem f a i l u r e a s i t would r e s u l t i n unplanned mission termination f o r non-safety of f l i g h t reasons.
+> 3. Loss of mission is defined a s follows: a. Operation payload i n t e r f a c e hardware f a i l u r e as I t would r e s u l t i n l o s s of payload primary performance. Orbiter subsystem f a i l u r e a s i t would r e s u l t i n unplanned mission b. .. . termination f o r non-safety of f l i g h t reasons.
 
 > 4. Categorization of a hardware item by t h e worst case p o t i n t i a l e f f e c t of f a i l u r e of t h a t item w i l l define c r i t i c a l i t y . .. 5. Failure modes t h a t could propagate t o interfacing subsystems Or experiments will be Identified.
 
@@ -7661,7 +7689,7 @@ Page 2of 6
 
 > 9. Specific FMEA c r i t e r i a and assumptions w i l l be defined f o r each subsystem.
 
-> . 10. - Identifalcomponents -. used f o r different functions w i l l be treated separately i n the FMEA.
+> . 10.- -. Identifalcomponents used f o r different functions w i l l be treated separately i n the FMEA.
 
 > 11. Simultaneous failure of redundant ccinponents i s identified where t h e failure cause encompasses both components.
 
@@ -7671,7 +7699,9 @@ Page 2of 6
 
 0246j /31
 
-> DI NO. 100-26 APPEllOIX 6 Page of 6 also any restrictive protection provided by barrier design, where such data are available from Oesign. Hazards associated w i t h t h e loss of fluid i n excess of requirements d l 1 be documented and covered by Hazard Analysis, but w i l l not affect c r i t i c a l i t y (see section 3.3. paragraph 4.)
+> DI NO. 100-26 APPEllOIX 6 Page of 6
+
+> also any restrictive protection provided by barrier design, where such data are available from Oesign. Hazards associated w i t h t h e loss of fluid i n excess of requirements d l 1 be documented and covered by Hazard Analysis, but w i l l not affect c r i t i c a l i t y (see section 3.3. paragraph 4.)
 
 ' b. The internal leak mode of functional hardware items will be
 
@@ -7701,7 +7731,7 @@ Page 4 of 6
 
 > 1. The FMEA and CIL will consider f a i l u r e s beginning with preflight/pre- launch operations through post landing safings a t Edwards Air Force BaseKennedy Space Center ( WeKSC). a. Prelaunch operations a t KSC/VAFB are defined as beginning with propellant loading f o r each specific propulsion subsystem. For a l l other subsystems. prelaunch operations c m e n c e wfth s t a r t of main engi ne condi ti oni ng.
 
-> b . Post landing safing operations Include those a c t i v i t i e s performed a f t e r landing t o prepare t h e o r b i t e r f o r hangar operations and a r e defined a s follows: (1) Deservice and draining of hazardous fluids. ( 2 ) Safing of unused ordnance. ( 3 ) Application of ground power and cooling. ( 4 ) Removal of potentially hazardous components. ( 5 ) Removal of pods and payloads. ( 6 ) Purging and venting of gases. (71 Installation o f protective covers.
+> b. Post landing safing operations Include those a c t i v i t i e s performed a f t e r landing t o prepare t h e o r b i t e r f o r hangar operations and a r e defined a s follows: (1) Deservice and draining of hazardous fluids. ( 2 ) Safing of unused ordnance. ( 3 ) Application of ground power and cooling. ( 4 ) Removal of potentially hazardous components. ( 5 ) Removal of pods and payloads. ( 6 ) Purging and venting of gases. (71 Installation o f protective covers.
 
 > 2. Redundancy 1 s defined 'as the use of more than one means of accomplishing a given task o r function where a l l must f a l l before there is an overall failure of t h e function. a. - Operational Redundancy redundant elements, a l l of which are f u l l y energized during t h e subsystem operating cycle. Operational redundancy includes load sharing redundancy wherein redundant elements are connected i n such a manner that, upon f a i l u r e of one ---unit, t h e remaining redundant elements w i l l continue t o perfom t h e subsystem function. I t i s not necessary t o switch'out the fa'lled element nor t o switch i n the redundant element. . b. - Standby Redundancy redundant elements t h a t a r e non-operative (i.e., have no power applied) u n t i l they are switched into the subsystem upon failuare o f the primary element. I n these cases, as well a s pyrotechnic devices, mechanical linkage and inoperative
 
@@ -7711,7 +7741,9 @@ OX NO. 100-26
 
 ## APPENDIX B
 
-> Page 5 of 6 functional paths of any subsystem. redundancy screen B is considered not applicable and so maded. This app&ach i s based on the f a c t t h a t these areas a r e subject t o ground checkout; they a r e redundant and therefore provide a degree o f protection I n f l i g h t ; I t i s confinned t h a t when c a l l e d upon t o operate, the i n a b i l i t y t o operate would be detected i n f l i g h t f o r appropriate c o r r e c t i v e action.
+Page 5 of 6
+
+> functional paths of any subsystem. redundancy screen B is considered not applicable and so maded. This app&ach i s based on the f a c t t h a t these areas a r e subject t o ground checkout; they a r e redundant and therefore provide a degree o f protection I n f l i g h t ; I t i s confinned t h a t when c a l l e d upon t o operate, the i n a b i l i t y t o operate would be detected i n f l i g h t f o r appropriate c o r r e c t i v e action.
 
 > 3. Where redundancy e x i s t s i n the subsystem. t h e redundancy is considered during t h e analysis of a f a i l u r e of t h e component.
 
@@ -7733,7 +7765,9 @@ OX NO. 100-26
 
 ## APPENDIX B
 
-> Page 6 of 6 f. Controlled and released operational procedures. . g. Component FMEA's prepared by component suppliers.
+Page 6 of 6
+
+> f. Controlled and released operational procedures. . g. Component FMEA's prepared by component suppliers.
 
 8. Failure of structural items (primary and secondary) w i l l not b e considered a s a part of this ananysis. (Structural items are assumed t o be designed t o preclude failure by use of adequate design Safety factors.[^1]
 
@@ -7751,13 +7785,13 @@ OX NO. 100-26
 
 4!Ib Designation:D 395 - 85
 
-> A M E R I C A N SOCIETV F O R TESTING A N 0 M A T E R I A L S 1916 Race St., Philadelphia. Pa. ,19103 Reprinted from the Annual Book of A S M Standards, Copyright ASTM If not listad io the currant cmbirmd index. will a p m fin the next edition
+> A M E R I C A N SOCIETV F O R TESTING A N 0 M A T E R I A L S 1916 Race St., Philadelphia. Pa. ,19103 Reprinted from the Annual Book of A S M Standards, Copyright ASTM If not listad io the currant cmbirmd index. will apmfin the next edition
 
 Standard Test Methods for
 
 ## RUBBER PROPERTY-COMPRESSION SET'
 
-Thls standard is issued under the fixed designation D 395; the number immedlately following the designation indicates the year of original adoption or. in the case of revision, the ywr of last revision. A number in parentheses indicate the year of last reappmval. A supersfript epsilon (6) indicates an editorial change s i n a the last revision or reapproval. Theremethod,dshave been approvedlor use by agenctesof the Deoortrnenr o f Deknse andlilr lrsrinn in (he DoD Index of Spe~~Jicu~rons und Stondurds
+Thls standard is issued under the fixed designation D 395; the number immedlately following the designation indicates the year of original adoption or. in the case of revision, the ywr of last revision. A number in parentheses indicate the year of last reappmval. A supersfript epsilon (6) indicates an editorial change s i n a the last revision or reapproval. Theremethod,dshave been approvedlor use by agenctesof the Deoortrnenr of Deknse andlilr lrsrinn in (he DoD Index of Spe~~Jicu~rons und Stondurds
 
 1. scope ments for Standards Related to Rubber and
 
@@ -7865,7 +7899,7 @@ I 1.5 Plates-The plates between which the before making the measurement of the f
 
 12.2 Application of CompressiveForce-Place percentage of the original deflection, the test specimen between the plates of the com- r, = original thickness of specimen (12. I), pression device with the spacers on each side, I, = final thickness of specimen (12.3, and allowing sufficient clearance for the bulging of
 
-1. = thickness of the spacer bar used. the rubber when compressed (Fig. 3). Where a lubricant is applied, it shall consist of a thin NOTE 5-Lubrication of the operating surfaces of coating of a lubricant having substantially no the compression device is optional while giving more action on the rubber. For most purposes, a silicon reproducible results, lubrication may somewhat alter the compression set values. or fluorosilicon fluid is suitable. Tighten the bolts so that the plates are drawn together uniformly until they are in contact with the spacers. The 14. Report amount of compression employed shall be a p 14.1 The report shall include the following: proximately 25 %. A suitable mechanical or hy- 14. I. I Original dimensions of the test speci- draulic device may be used to facilitate assem- men including the original thickness, fo, bling and disassembling the test fixture. 14.1.2 Percentage compression of the speci12.3 Test Time and Temperature-Choose a men actually employed, suitable temperature and time for the compres- 14.1.3 Thickness of the test specimen 30 min sion set, depending upon the conditions of the after removal from the clamp, ti, expected service. In comparative tests, use iden- 14. I .4 Type of test specimen used, together tical temperature and test periods. It is suggested with the time and temperature of test, that the test temperature be chosen from those 14. I .5 Whether or not the surfaces of the com- listed in Recommended Practice D 1349. Sug- pression device are lubricated. If they are, what gested test periods are 22 h and 70 h. The test type lubrication was used, specimen shall be at room temperature when 14. I .6 Compression set, expressed as a per- inserted i n the compression device. Place the centage of the original deflection, assembled compression device in the oven within 14. I .7 Method used (Method B), and
+1. = thickness of the spacer bar used. the rubber when compressed (Fig. 3). Where a lubricant is applied, it shall consist of a thin NOTE5-Lubrication of the operating surfaces of coating of a lubricant having substantially no the compression device is optional while giving more action on the rubber. For most purposes, a silicon reproducible results, lubrication may somewhat alter the compression set values. or fluorosilicon fluid is suitable. Tighten the bolts so that the plates are drawn together uniformly until they are in contact with the spacers. The 14. Report amount of compression employed shall be a p 14.1 The report shall include the following: proximately 25 %. A suitable mechanical or hy- 14. I. I Original dimensions of the test speci- draulic device may be used to facilitate assem- men including the original thickness, fo, bling and disassembling the test fixture. 14.1.2 Percentage compression of the speci12.3 Test Time and Temperature-Choose a men actually employed, suitable temperature and time for the compres- 14.1.3 Thickness of the test specimen 30 min sion set, depending upon the conditions of the after removal from the clamp, ti, expected service. In comparative tests, use iden- 14. I .4 Type of test specimen used, together tical temperature and test periods. It is suggested with the time and temperature of test, that the test temperature be chosen from those 14. I .5 Whether or not the surfaces of the com- listed in Recommended Practice D 1349. Sug- pression device are lubricated. If they are, what gested test periods are 22 h and 70 h. The test type lubrication was used, specimen shall be at room temperature when 14. I .6 Compression set, expressed as a per- inserted in the compression device. Place the centage of the original deflection, assembled compression device in the oven within 14. I .7 Method used (Method B), and
 
 %%page 6%%
 
@@ -7881,11 +7915,7 @@ D 395
 
 15.3 One laboratory did not run the Method RequestRRD-11-1138.
 
-> TABLE I LQC Pmisioa Data Comprearion Set-Method A Within Laboratories Among Laboralones
-
-Material Mean Level -
-
-> S cv S CV A 1.73(I) 0.0500 0.0277 0.190 0.1096 B 26.1 0.898 0.0336 2.37 0.0908 Avcrage or Pooled 0.636 0.0308 I .68I 0.1006 Values Repcatabilily Reproducibility Standard Deviation, (9" 0.636 1.743 Callicient or Variation. ( C V ) 0.0308 0.103 Least Significant Di!Terena. (LSD)*' 8.8 I 29.1 I
+> TABLE I LQC Pmisioa Data Comprearion Set-Method A Within Laboratories Among Laboralones Material Mean Level - S cv S CV A 1.73(I) 0.0500 0.0277 0.190 0.1096 B 26.1 0.898 0.0336 2.37 0.0908 Avcrage or Pooled 0.636 0.0308 I .68I 0.1006 Values Repcatabilily Reproducibility Standard Deviation, (9" 0.636 1.743 Callicient or Variation. ( C V ) 0.0308 0.103 Least Significant Di!Terena. (LSD)*' 8.8 I 29.1 I
 
 A An averagc value. the value of S varies with mean level.
 
@@ -7893,17 +7923,13 @@ A An averagc value. the value of S varies with mean level.
 
 CThe LSD values are relative percent. that is, a percent of the 'percent" values used to measure the tested PmWrtY.
 
-> TABLE 2 LQC Precision D.[^1] . Colnprrssh Set-Melhod 6 Within Laboratories Among laboratones
-
-Material Mean Level
-
-> S cv S cv A 13.7 (A) 0.591 0.0420 1.543 0.113 B 52.8 0.567 0.01 10 5.924 0.112
+> TABLE 2 LQC Precision D.1. Colnprrssh Set-Melhod 6 Within Laboratories Among laboratones Material Mean Level S cv S cv A 13.7 (A) 0.591 0.0420 1.543 0.113 B 52.8 0.567 0.01 10 5.924 0.112
 
 > Average or Pooled 0.579 0.OM7 4.329 0.1124 valuei Repeatability Repmducibilily Standard Deviation. (W 0.579 4.348 Coetlicient or Variation. ( C V ) 0.0307 0.1 14 Lean Significant Difference. (LSD)*E 8.7 Sb 32.4 I
 
 An average value, the value oTS varies with mean level.
 
-LSO b a d on 95 A oonfdence level: two results are considered significantly different if lhetr dimerence. expresvd a sa percentage oftheir average, exceeds the stated percent value.
+LSO b a d on 95 A oonfdence level: two results are considered significantly different if lhetr dimerence. expresvd as a percentage oftheir average, exceeds the stated percent value.
 
 The LSD values are relative percent. that is. a percent of the 'percent" values used to measure the tested property.
 
@@ -7913,11 +7939,11 @@ D 395
 
 > FIG. I Device for Compreash Sef Test, Usins Chlibnted Spring lmdinll, Method A
 
-> FIG. 3 Device for C o m p ~ i u a sct Test Under Consmat DellectioqMC(M B
+> FIG. 3 Device for C o m p ~ i u asct Test Under Consmat DellectioqMC(M B
 
 The American Societyfor Testingand Materials rakes no position respfrring the v d i d i y orany pamu ri&s asserted in connection with any irem mentionedin this standard. Users ojrhis srandard are expressly advised thru dormninruion dthe volidiry oJany such patent rights. and the risk of infiingement of such rights. are entirely their own tesfmnsibiliry.
 
-This standard is subject to revision at any rime by the responsible technical committee and musr be r e v i d everyjve ypan and if nor revised, eirher reapproved or wirhdrawn. Your commenrs are invited either far revision ofthis sran&rd o r for additional standards and should be addressed to ASTM Headquarters. Your comments will receive c a r & / cansideration a r a meering d t h e responsible technical committee. which you may attend. Uyou/eel that your comments have nm received a b i r hearing you should make your views known to the ASTM Committee on Standards, I916 Race SI.. Philadeldria. Pa. 19/03.
+This standard is subject to revision at any rime by the responsible technical committee and musr be r e v i d everyjve ypan and if nor revised, eirher reapproved or wirhdrawn. Your commenrs are invited either far revision ofthis sran&rd or for additional standards and should be addressed to ASTM Headquarters. Your comments will receive c a r & / cansideration ar a meering d t h e responsible technical committee. which you may attend. Uyou/eel that your comments have nm received a b i r hearing you should make your views known to the ASTM Committee on Standards, I916 Race SI.. Philadeldria. Pa. 19/03.
 
 %%page 376%%
 
@@ -7927,21 +7953,15 @@ To: WArro~iatoAdministrator for Spaco ?light now: 1QS/Irr Davidr SUUECT: Car. to
 
 ?roblomr
 
-As a rorult o f tho problomr balni Incurrod durlng f3ight on both CI S . to car0 ond noxxlo to oaro 0" rial oroilon. nr. Hamb and I riritod X I l C on July 11, 1011, to discuss this Irruo with L t h projoct and SID porronnol. lollowing oro romo important factors concoralae thoro problom: A. IIorr10 to C8ro aF?In# ororlom T h o luvo boom twolro (12) Inrtrncor darine flight whoro thoro haw boon SOW prlury "0" rIn8 ororlon. In o n. rpociflc cmo thoro war also ororios of tho rocondary "0" ria# 8 0
-
-> .1 . thoro
-
-woro tw (2) priur "0" sIa8 roalr that n r o hoat rffoctod (no ororion) u d t w o (a! casos In which root blow by tho priury moa1r. Tho p r i w rurpoct as tho CIUSO for tho ororion on tho primary "0" ring roalr Is tho typo of putty urod. It lr lhiokol*r position thot during arrembly. loak chock. or Ignltloa. Lolo Can k formod throu h tho utty whlch Inltirtor "0" ring ororlon duo t o jotting offoct. it is Important to noto that aftor STS-10. tho unufacturor of tho putty wont out of borinorr and now putty sanufocturot wor coatrrctod. n o BOW potty is bollorod to k IOFI rurcoptiblo to onrironmontal offoctr such as molrturo whlch u k o r tha putty m o m tacky. n o r 0 aro rarlour options bring coarldorod rucb as romoval of putty. roryln tho putty conflguratlon to rowat tho j otti.8 offoct. IJSO of putty amdo by a Canadian &aaufrcturor which Imcludor arbortor, and vrriour combisatton of putty ond grraro. n o r m 1 analysis andlor torts at. andorway to ~ r r o r rthoso optlrr. Thlokol 1s rorlorrly c o n ~ i d ~ r i rtho dolotIom of utt om tho PC- S roaalo/caro jolrt rlrco thoy folIaro tho utty 1s tio pTIW * caaro o f tho ororion. A docIrIoa om t h i s cKanSo t o planad to k n u d o t h i s wok. I h o w rmrorratlonr about dola# It coaridorina c ot l 91-r t k r ~ g n ~ f ~ c a mof ~ iirtma tm quolityina t L me tor fllgbt.
+As a rorult o f tho problomr balni Incurrod durlng f3ight on both CIS. to car0 ond noxxlo to oaro 0" rial oroilon. nr. Hamb and I riritod X I l C on July 11, 1011, to discuss this Irruo with L t h projoct and SID porronnol. lollowing oro romo important factors concoralae thoro problom: A. IIorr10 to C8ro aF?In# ororlom T h o luvo boom twolro (12) Inrtrncor darine flight whoro thoro haw boon SOW prlury "0" rIn8 ororlon. In on. rpociflc cmo thoro war also ororios of tho rocondary "0" ria# 80.1. thoro woro tw (2) priur "0" sIa8 roalr that n r o hoat rffoctod (no ororion) u d t w o (a! casos In which root blow by tho priury moa1r. Tho p r i w rurpoct as tho CIUSO for tho ororion on tho primary "0" ring roalr Is tho typo of putty urod. It lr lhiokol*r position thot during arrembly. loak chock. or Ignltloa. Lolo Can k formod throu h tho utty whlch Inltirtor "0" ring ororlon duo t o jotting offoct. it is Important to noto that aftor STS-10. tho unufacturor of tho putty wont out of borinorr and now putty sanufocturot wor coatrrctod. n o BOW potty is bollorod to k IOFI rurcoptiblo to onrironmontal offoctr such as molrturo whlch u k o r tha putty m o m tacky. n o r 0 aro rarlour options bring coarldorod rucb as romoval of putty. roryln tho putty conflguratlon to rowat tho jotti.8 offoct. IJSO of putty amdo by a Canadian &aaufrcturor which Imcludor arbortor, and vrriour combisatton of putty ond grraro. n o r m 1 analysis andlor torts at. andorway to ~ r r o r rthoso optlrr. Thlokol 1s rorlorrly c o n ~ i d ~ r i rtho dolotIom of utt om tho PC- S roaalo/caro jolrt rlrco thoy folIaro tho utty 1s tio pTIW * caaro o f tho ororion. A docIrIoa om t h i s cKanSo t o planad to k n u d o t h i s wok. I h o w rmrorratlonr about dola# It coaridorina t k r ~ g n ~ f ~ c a mof 91-r iirtma tm quolityina t L me tor c ot l ~ fllgbt.
 
 %%page 377%%
 
-It is 1 . ortrnt to mot0 thot tho cruso rnd offoct o f tho putt rrrlor. fboro rro romo WFC orromol rho aro sot convincod tirt tbo bolo# in tho putty rro t!o rourco o f tho problom but fool that i t may bo 8 rovar$o offoct in that tbo hot grror u bo lorking through tho roal and causing tho bolo track la tgo putty. Conrldoring tho fact that thrro doorn't appoar to bo 8 rrlidatad rorolutlon 8 r to tar offoct of putty, I would cortrlnly euerrlen tlr r l & w i a tmmarrng 1% on ipt-5.
+It is 1. ortrnt to mot0 thot tho cruso rnd offoct o f tho putt rrrlor. fboro rro romo WFC orromol rho aro sot convincod tirt tbo bolo# in tho putty rro t!o rourco o f tho problom but fool that i t may bo 8 rovar$o offoct in that tbo hot grror u bo lorking through tho roal and causing tho bolo track la tgo putty. Conrldoring tho fact that thrro doorn't appoar to bo 8 rrlidatad rorolutlon 8 r to tar offoct of putty, I would cortrlnly euerrlen tlr r l & w i a tmmarrng 1% on ipt-5.
 
-Thrro h a w boon f f v o ( I ) oc~urroncosduring flight whoro thors ras primary f i o l d joint "0" ring ororion. Thcro vas one car. whore tho rocondar "0" rln ras hoar affoctod rith no ororion. Tho ororion vlth tn, field folnt primary "0" rlngr is conrldorod b romo t o - b o moro critical than tho norrlo joint duo t o tho fact tgot during tho prorruro build up on tho p r i u r y "0" rin tho unprorrurirod fiold joint rocondrry rorl unroatr &a0 to f o h t rot t ion. Tho problom rlth tho unroating of tho rocondary "0" ring durlag joint rotation ha8 botn known for uito norno t h o . In ordor t o ollmlnatr thir roblom on tho FXC !iold joints capturo foaturo vas drslgnod u h
+Thrro h a w boon f f v o ( I ) oc~urroncosduring flight whoro thors ras primary f i o l d joint "0" ring ororion. Thcro vas one car. whore tho rocondar "0" rln ras hoar affoctod rith no ororion. Tho ororion vlth tn, field folnt primary "0" rlngr is conrldorod b romo t o - b o moro critical than tho norrlo joint duo t o tho fact tgot during tho prorruro build up on tho p r i u r y "0" rin tho unprorrurirod fiold joint rocondrry rorl unroatr &a0 to f o h t rot t ion. Tho problom rlth tho unroating of tho rocondary "0" ring durlag joint rotation ha8 botn known for uito norno t h o . In ordor t o ollmlnatr thir roblom on tho FXC !iold joints capturo foaturo vas drslgnod uh!ch provontr tho ~ocondriyrorl from lifting off. Durin our dircurrlonr on this isrua rith MSFC, 8n rctlon war arsigno! for tho8 to idontlfy tho timing rrrociatod with tho unseatlag of tho rocondary '*O" ring and tho m 4 t i n # of tbo primary "0" rln durin rotation. How long it t a k a tho recondary "0" rfng to fift off during rotatlon and rbon in tho rerruro cyclo it lifts mro koy frctorr in tho dotor8inrtion of P t r criticality. Tho proront C O ~ ~ O I I SIs
 
-!ch provontr tho ~ocondriyrorl from lifting off. Durin our dircurrlonr on this isrua rith MSFC, 8n rctlon war arsigno! for tho8 to idontlfy tho timing rrrociatod with tho unseatlag of tho rocondary '*O" ring and tho m 4 t i n # of tbo primary "0" rln durin rotation. How long it t a k a tho recondary "0" rfng to fift off during rotatlon and rbon in tho rerruro cyclo it lifts mro koy frctorr in tho dotor8inrtion of P t r criticality.
-
-Is Tho proront C O ~ ~ O I I S U~that if tho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocondrry ''0" rfng will not rorvo Its intrndod purporo as r rodundont seal. Hovovor, rodundrnc door oxlrt during tbo Ignition cyclo, bhich tho most cri?icaI t h o . * t 1s rocommondod thrt ro rrrrn#o for WSFC t o provido an ovorrll brl0fing to you on tho SRll "0" rings, including friluro hlrtoty, currant status, and options for corrocting tho problo~r.
+U ~that if tho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocondrry ''0" rfng will not rorvo Its intrndod purporo as r rodundont seal. Hovovor, rodundrnc door oxlrt during tbo Ignition cyclo, bhich tho most cri?icaI t h o . * t 1s rocommondod thrt ro rrrrn#o for WSFC t o provido an ovorrll brl0fing to you on tho SRll "0" rings, including friluro hlrtoty, currant status, and options for corrocting tho problo~r.
 
 6 4 - 4 2 0 0 - 86 - 1 3
 
@@ -7961,11 +7981,9 @@ STS St-L
 
 ## . PROGRAM DIRLCTIVE
 
-> G,ff 1.- ; '
+G,ff 1.;'a.
 
 %%page 381%%
-
-a.
 
 b.
 
@@ -7989,15 +8007,21 @@ SOLID ROCKET flOTOR (SRH-251, .., . ,
 
 FLIGIIT READIt!ESS ,REVIEH
 
-> ., . . .I , . .. . . .. .. . I . . .. . . ., . .. . .. . .. . . . . .. . . . . .. . . ' :. 0 . . . . . . t '-, . I
+> ., . . .I , . .. . . .. .. . I . ., . .. . .. . .. . . . . . . . . .. . .
 
-> .. , * .' .. . , . . . . *. .. . . . . .[^8] . . . . . . .. .. .. . . . . . " , . '. .. .. iI . . . . .. ... . . . .. ... w ,i .. .... .. .. . . .. . . . 00 . ... . . . l b \; . . .. . . .. -. . . . . . . . . .. . . . . . .. .. . . .. . . . . . . . .. .
+. . . .. . . 0
+
+> t '-, . I . '. .:. . . ., . .. , * '. .. . . . . *. .. . . . . .[^8] . . . . . . .. .. .. . . . . . " , . '. .. .. iI . . . ...... . . . .. ... w
+
+,i . . 00
+
+> . ... . . ... ..... . .... .. ... . l b \; . . . .. . -. . . . . . . . .. . . . . . .. .. . . .. . . . . . . . .. .
 
 > ... . . *. . . . . .. . I . . . . \. . , *\ ' i . ,.;, . f, . I . .". .:.\:., .
 
-.. . . 11"DECE)IBER1985 . . I
+. .. . 11"DECE)IBER1985 . . I
 
-> ,-. .. .. . .. . , WRTO! TIIIOKOL, INC,' , :: . .' . . .. ...- .
+> ,-. .. . . . .. . , WRTO! TIIIOKOL, INC,' ,:: . . ' . .. . ...- .
 
 I @ . . # . "
 
@@ -8005,7 +8029,7 @@ I @ . . # . "
 
 ## WASATCII D I V I S I O N
 
-> ' P.O. BOX 524'; RRIGIIAll C I T Y . ~ l ~ T A H 8 9 3 0 2 .(801) ,863-3531,
+> ' P.O. BOX 524'; RRIGIIAll C I T Y . ~ l ~ T A 8H 9 3 0 2 .(801) ,863-3531,
 
 - .o S I S - 6 l C (SIS-32) ( SRtl-24) PERFORMIICE
 
@@ -8045,11 +8069,9 @@ VnI-c
 
 &bi.rr SHUTTLE PROJECT FLIGHT READINESS R E V h P
 
-+?..,-
++?..,-PUWOSE b
 
-## PUWOSE
-
-> b Thlr procedure defines (he rcr?onsibilittes, requiremenu, and procedures to insure effective planning fo- and conddct of the Shut:lc P r o w c t r Flight Readiness Review.
+> Thlr procedure defines (he rcr?onsibilittes, requiremenu, and procedures to insure effective planning fo- and conddct of the Shut:lc P r o w c t r Flight Readiness Review.
 
 2.
 
@@ -8057,29 +8079,29 @@ Thisprocedure is applicable 0 d l S E mihsons.
 
 --3.- POLICY .
 
-> a. I t L (he policy of me Manager, Shuttle Projects 0 nuke an uscssment of flight readiness of the Shuttle projects prior to each fI' ht. TNs will be accomplished by a consolidated F l b h t Readiness Review 8 R a of .I1 MSFC Shuttle Projects O f f i aelaenu necessary for u f e and a u c c e u f u l conduct of the launch, flight, and port-kndAn6 apcratiofu The review -ill be u p p o r t e d by all MSFC agmlzrtions which particigrte in MSFC Shuttle Projects activitiea. . . .f b . The Shuttle Project F R R r i l l be preceded by separate detailed readiness reviews , (prc-FRR's) of i n d i v i h r l e l e m m u by the prime C O n t r a c W a and the element pmiect offices, under the mgcizancc of the rcrponrlbie M.MgerS,
+> a. I t L (he policy of me Manager, Shuttle Projects 0 nuke an uscssment of flight readiness of the Shuttle projects prior to each fI' ht. TNs will be accomplished by a consolidated F l b h t Readiness Review 8 R a of .I1 MSFC Shuttle Projects O f f i aelaenu necessary for u f e and a u c c e u f u l conduct of the launch, flight, and port-kndAn6 apcratiofu The review -ill be u p p o r t e d by all MSFC agmlzrtions which particigrte in MSFC Shuttle Projects activitiea. . . .f b. The Shuttle Project F R R r i l l be preceded by separate detailed readiness reviews , (prc-FRR's) of i n d i v i h r l e l e m m u by the prime C O n t r a c W a and the element pmiect offices, under the mgcizancc of the rcrponrlbie M.MgerS,
 
-> 4. RESPOrdBRlTtES XI a . The conduc! of thr S h u t t l e Proiecta FRR I S the responsibility of the Manager, , ,..) Shutllc Projects or his dewgndted representative. 0 V.
+> 4. RESPOrdBRlTtES XI a. The conduc! of thr S h u t t l e Proiecta FRR I S the responsibility of the Manager, , ,..)
 
-> b. The P r q r u n Plrrn ~d hiaragement SyStemS Office Is responsible for FRR rchedulins, planning and requrremmts, coordinating the FRR aaend., FRR action Items and u t i o n item dosccwts, and preparing the r r d i n e s s usessmmt ~d . maintenance o f all records assoo-iatd therewith. The Program Pknr .nd Uarugement Systems Office vlll be (he focal point with me JSC Levell1 N a t i w l Spa:e lra-s?ortation Svstem M S T S ) Program Maruger and the Level I FRR under the cogf~:anct c! : *: D.:ectsr, Space Shuttle Operations.
+Shutllc Projects or his dewgndted representative. 0
 
-... . - - -- ., --,
+V.
 
-> . - . 73 .. - - - --- . -_--- r/,7
+> b. The P r q r u n Plrrn ~d hiaragement SyStemS Office Is responsible for FRR rchedulins, planning and requrremmts, coordinating the FRR aaend., FRR action Items and u t i o n item dosccwts, and preparing the r r d i n e s s usessmmt ~d . maintenance of all records assoo-iatd therewith. The Program Pknr .nd Uarugement Systems Office vlll be (he focal point with me JSC Levell1 N a t i w l Spa:e lra-s?ortation Svstem M S T S ) Program Maruger and the Level I FRR under the cogf~:anct c! :*: D.:ectsr, Space Shuttle Operations.
 
-1 .
+... . - - -- .,- - ,. .-;&.-su*.:, - .
+
+> 73 .. -- -- . -_--- r/,7 .
+
+Y * C . m n 1 s 1- 1 .
 
 c
 
-. Y * C .m n 1 s 1-
+> - .-. y . .r+m,[^2] -. __ ,//. I
 
-> .-.r+m, - . y.[^2] -. __ ,//.
+> --.- - - - - . . a_ ,
 
-> --.- I
-
-> . -- . . a_ -. & - ;* , . : u s ,
-
-> ~ ' L - : a*.,
+> ~ :-L' a*.,
 
 %%page 388%%
 
@@ -8093,13 +8115,11 @@ SOP 8OW.l
 
 > Project h4.?q.cn vill u u r e thcc each p l m e Contractor canducts a pre-FRP in prcparatia, for the Project OIfires FRR. The contractors r c v i e v shall be ch&ir+d by level of nunrgement at Iewt one level b v r the rnntrutor P r q e a Muugtr.
 
-## . SHUTTLE ELEMENT FRR
+## SHUTTLE ELEMENT FRR
 
 . 'r. The P r q c c t will conduct a FRR In preparation for the Shuttle P r o j e a r FUR.
 
-> The respective Project Manager o f c!emmt under r e v i e r r i l l Y N e as Ch.irWIUL The membership will consist o ! representatives from the f o l l o v i n g
-
-> Shuttle Pro'ectr Oflice S k E Directorate
+> The respective Project Manager of c!emmt under r e v i e r r i l l Y N e as Ch.irWIUL The membership will consist o! representatives from the f o l l o v i n g Shuttle Pro'ectr Oflice S k E Directorate
 
 Reliabilitv 8-d Cualitv Assurance
 
@@ -8109,11 +8129,13 @@ Reliabilitv 8-d Cualitv Assurance
 
 ## SHUTTLE W 0 3 E C T S FRR REQUIREUENTS
 
-> L R c v l c v C o n c e ~7he Shuttle Prciects F R R v U I employ a d e l t a review concept D horn prior r e v ~ e v ~ previous STS mimi-. and n m 0 b. kberdule: TheShittUe Projects F R R will be held prior m the C c n t e r F R R c w ," l"
+> L R c v l c v C o n c e ~7he Shuttle Prciects F R R v U I employ a d e l t a review concept D horn prior r e v ~ e vand ~ previous STS mimi-. n m
 
-> c . The major agenda i t e r r s and responsibilities ua
+> b. kberdule: TheShittUe Projects F R R will be held prior m the C c n t e r F R R c w ," l"
 
-> . (1) Introduction P r g r u n r P ~ and M Management SystemsOffice
+c. The major agenda i t e r r s and responsibilities ua
+
+> . (1) Introduction Prgrunr P ~ M and Management SystemsOffice
 
 %%page 389%%
 
@@ -8127,25 +8149,19 @@ Office
 
 (6) Action ItemdReadlness Program Plena and Mancgement
 
-> Poll S y r t e .O ~f~f i c e
+Poll Syrte.~ O f~f i c e d Presentation E m o h a s i s The presentation of agenda items vil! n o r m d t y inc)vde a brief status summary with appropriate sv;.p>:ting detaU on significant items m d c o n d u d e with a readiness asxsrrnent. The p-esen:ation -pic% &nd scope should be developed from the Prcjec: FRR's m d s?wld:
 
-d Presentation E m o h a s i s The presentation of agenda items vil! n o r m d t y inc)vde a brief status summary with appropriate sv;.p>:ting detaU on significant items m d c o n d u d e with a readiness asxsrrnent. The p-esen:ation -pic% &nd scope should be developed from the Prcjec: FRR's m d s?wld:
+(I) k that required t a p u v i d e t h e S ! ~ ~ : t i eP r o ) c c t s h!mAger and Review T e a m
 
-(I) k that required t a p u v i d e t h e S ! ~ ~ : t i e
-
-> P r o ) c c t s h!mAger and Review T e a m v l t h t h e informatior. needed to make M iniependent judgement u t o flight readiness
+> v l t h t h e informatior. needed to make M iniependent judgement u to flight readiness
 
 (2) review recent significant rcsc!ved proS!erns and p-ior fiight anomalies when necessary to establish confiderre;
 
 (1) cover alI problem& technical iswes, open items, and a m z r r a i n t r remaining to be resolved before r4e flight;
 
-(0) establish the flight baseline c o n f i g u a t i o n in t e r m s o
+(0) establish the flight baseline c o n f i g u a t i o n in t e r m s of all d g n i f i c m t changes since the last flight d o r applicable STS fllghht.
 
-> f all d g n i f i c m t changes since the last flight d o r applicable STS fllghht.
-
-Within Chc above g d d e l i n a , t h e rope of the review should w v e r status, - . and issues in a r e a s such as:
-
-chuigger
+Within Chc above g d d e l i n a , t h e rope of the review should w v e r status, chuigger - . and issues in a r e a s such as:
 
 > H a r d w r r d S o f t v a r e A n m d i c r , Failures including development and acceptance test failures L a m c h Commit Criteria Flight PlantlRules Vchicie Checkout Shortages and Opt? Fork Prior Flight Anomalies As-bui!? Hardware Configuration versus Certified H a r d v u e L i s t Critical Item L i s t ( C L W i a u r d s bevelo~ent, .Qua.!ifiCAtiOn, and Reliability Tating (CwtifiutionlVeriflcati~) V L v e n ud Deviations Limited L i f e Components LarnFh Critical Sparer S n u k Circuits Plight Margitu PAS Assessment Safety Process Olanger Cc':&-,, smu!.>ctxing, checkout m d Lunch processing
 
@@ -8153,7 +8169,7 @@ chuigger
 
 SOP 1000.1
 
-> s . Shuttle Proiccts FRR McmbcrshiDr The MaNger, Shuttle Projects v l l l establish revicv membership and K r v e As Chairman. k k m b e r h l p viU comprise representation from the foilowing organirationu ProxramlProjcct Offices S c l n r e & t n r i n r t r i n i Directorate Rellabillty & Quality Assuraxe
+> s. Shuttle Proiccts FRR McmbcrshiDr The MaNger, Shuttle Projects v l l l establish revicv membership and K r v e As Chairman. k k m b e r h l p viU comprise representation from the foilowing organirationu ProxramlProjcct Offices S c l n r e & t n r i n r t r i n i Directorate Rellabillty & Quality Assuraxe
 
 > S.Ir(y Contractors bSB1, MMC, Thiokol, Rocketdyne
 
@@ -8161,33 +8177,33 @@ t Documentation R m i r e m e n t s
 
 > (I) Presentations Vugraphs will be w e d for F R R presentations ud paper cup~esvrll be provided to the rcvicving officials.
 
-> (2) Statement of Fliiht Readiness Statement of Flight Readiness r i l l b e Probect Mam8ers and submitted at the conciulion of t h e executed by all review. _-
+> (2) Statement of Fliiht Readiness Statement of Flight Readiness r i l l b e executed by all Probect Mam8ers and submitted at the conciulion of t h e review. _-
 
 g. FRR Action Itemlopen Item Closeout Reportin&Rmuiremcnts
 
 > u (1) Subsequent m lhe condusion of the Shuttle Projects FRR, a copy of aui8ncd action Items v1U be provided to each actionee by the Program Plans ud Management Systems Office. 0 ) T h e FRR wcrcUry will track dl action items ud provide status to me Shuttle Project3 M a N 6 n .
 
-> (3) Closeouts to FRR action I t e m 5 vill be u b m l t t e d to lhe Program Plara and Management Systems Office in writins and will state fully the baais for closeout, that is action taken, results obtained, and &terminations made. The Program Plans and Management Systems Office vlll u b r n i t closures t o the Manager, Shuttle Projects Q NS designated reprerentative lor signature.
+> (3) Closeouts to FRR action I t e m 5 vill be u b m l t t e d to lhe Program Plara and Management Systems Office in writins and will state fully the baais for closeout, that is action taken, results obtained, and &terminations made. The Program Plans and Management Systems Office vlll u b r n i t closures to the Manager, Shuttle Projects Q NS designated reprerentative lor signature.
 
 h. Procedures
 
 > u CI
 
-> (I) SinKlc Points o f C o n t a c c FRR planning and procecturca will be coord.nated through a aingle point of contact in the Program P h n s and M a n y e m m i Systems Office. OD I 4 D
+> (I) SinKlc Points of C o n t a c c FRR planning and procecturca will be coord.nated through a aingle point of contact in the Program P h n s and M a n y e m m i Systems Office. OD I4 D
 
 > lncflvldurl d e m e n t for points of contact vlll be &sigrurcd by chc responsible Project M ~ Ner and the m n provided to the Program Plans and Management t y r t c r n l Office. These individuals will be responsiblc for these duties outlined in paragraph 6.b.
 
-> . . . . ..
+. . .. ..
 
 %%page 77%%
 
-> 0 Guidelines Approximately * r e mb prior t o the USFC Shuttle Projects FRR, guiaelimr rill be prepared by Procram P h s ud U u u p m m t Systems O f f h and Issurd by h e Y a n p r , Shuttle Project& atabllshln~ Projects FRR &te, Shuttle Projects FRR &a, wlth appliuble memkrshlp, and my specld requiremmts not s v c r e d by l h i s prardvc
+> 0 Guidelines Approximately * r e mb prior to the USFC Shuttle Projects FRR, guiaelimr rill be prepared by Procram P h s ud U u u p m m t Systems O f f h and Issurd by h e Y a n p r , Shuttle Project& atabllshln~ Projects FRR &te, Shuttle Projects FRR &a, wlth appliuble memkrshlp, and my specld requiremmts not s v c r e d by l h i s prardvc
 
 8. tFFECWEDATC
 
 TNs procedure i s effective on date of l u u .
 
-R & t. LIndrtrorn Y a q e r , Shuttle Projects
+R& t. LIndrtrorn Y a q e r , Shuttle Projects
 
 %%page 392%%
 
@@ -8205,15 +8221,19 @@ An USFC FRR Board of senlor RSFC manageaent personnel u i l l convene at 8:30 a 
 
 > DAOl/W. R. Lucas: Chmirman DDOl/T. J. Lee Vice Chairman EAOl/J. E. Kingsbury DSOl/F. A . Specr ECOl/J. P. Uadole JAOtlJ. A . Oouncy PAOl/U. R. WarSh.11 ESOl/J. C . Walker ,k7t/S. G . Herderson: SecrcLariat
 
-Each project manager musL certify t h e fll&ht readiness o f hir harouare ane present supportin& r8tlon8lc 8nd d8t8 so the Board can independently 8ssess t h e fli&ht readiness. The Shuttle Projects Office manager l r responsible f o r preparation and coordinatlon o f the reetlng, p r e s m t l n g a n overall ss$essment of flight readlners, recordlna o f minuter ant action items, and tracking action items for closure by the Review B o a r d . 0
+Each project manager musL certify t h e fll&ht readiness o f hir harouare ane present supportin& r8tlon8lc 8nd d8t8 so the Board can independently 8ssess t h e fli&ht readiness. The Shuttle Projects Office manager l r responsible f o r preparation and coordinatlon o f the reetlng, p r e s m t l n g a n overall ss$essment of flight readlners, recordlna o f minuter ant action items, and tracking action items for closure by the Review B o a r d . 0 fl
 
-> fl 0 c, b
+> c, b
 
 %%page 394%%
 
-> E r r h a s i s w i l l h e p l a c e d on s b i e t y o r f l : g , h t end tr~z5icrl ~ U C C C S S , inc1ud:rp p o t t ~ t ! a l impact of prior f'lJSht a n o n e l i e s ; g r o u n d t e s t a n ~ c a 1 : e s ; rrv!sions to h a r d h ' a r e , l o f t w a r e , l a u n c h c o c c i t c r : t t r i r , o r r e d l i n e s wh:-& h s v e n o t been f l i g h t v e r i f i e d ; r e v i s i o n s Lo SRP r e c o v e r y r i s k s Z i n c @ t h e p r e i i o u s f 1 i E t . t ; s c y w n i v e r u h l c t , has n o t t e e n f : l g L ) t verlfivd o r w h i c h regu;rez e x : r ~ r " a : sj,;.rc.va!; and any rev1s:ons t o r.?za!-d or cr:ticel i:err, l i ~ ~ c T . c r n C t ' r n z , an: r i z i ~3 b j . ? t : i , ' i p c:terl,v :dt.r:Ci!-ieC P Z h me:hcd: of c i c f ; r e .
+Errhasis w i l l h e p l a c e d on s b i e t y o r f l : g , h t end tr~z5icrl
 
-> I n a n e f f o r t t i n!r im:.-c s d r r l n > s t l 8t:!ir cintrol :f.<:ijr a s s o c i a t e d w i t h tlhe d i s s e a i n a t ~ o n o f c : e s s i f ~ e d d a t a , a n e f f o r t 1 3 t o b e r~.acie t o p r e s e n t c l s s r i r i e d i n f o r m a t i o n o r l y through viewgraphs. I f Frojects elect to lncorpol2te c l a s s i f i e d d z t s w i t V , l n t h e i r h a n d o u t s , l t Is t h e P r o J t C t . ' S r e s y o n s l b j l i t y t o a s s u r e t h a t t h e h a n d c u t s a r e ~ a r h e . ! and h a n d l e d ir, a c c o r d a n c e w i t h t h e RASA S e c u r i t y r e g u l z t l o n s . If a r y s s s i s t a n c r i s n r e d e d i n t t . : J r r . a t t e r , p l e a s e c c n t a c t t h e KSFC Security D i v i s i o n a t ? - S ? l o .
+~ U C C C S S , inc1ud:rp p o t t ~ t ! a l impact of prior f'lJSht a n o n e l i e s ; g r o u n d t e s t a n ~ c a 1 : e s ; rrv!sions to h a r d h ' a r e , l o f t w a r e , l a u n c h c o c c i t c r : t t r i r , o r r e d l i n e s wh:-& h s v e n o t been f l i g h t v e r i f i e d ; r e v i s i o n s Lo SRP r e c o v e r y r i s k s Z i n c @ t h e p r e i i o u s f 1 i E t . t ; s c y w n i v e r u h l c t , has n o t t e e n f : l g L ) t verlfivd o r w h i c h regu;rez e x : r ~ r " a : sj,;.rc.va!; and any rev1s:ons t o r.?za!-d or cr:ticel i:err, l i ~ ~ c T. c r n C t ' r n z , an: r i z i ~3 b j . ? t : i , ' i p c:terl,v :dt.r:Ci!-ieC P Z h me:hcd: of c i c f ; r e .
+
+I n a n e f f o r t t i n!r im:.-c s d r r l n > s t l 8t:!ir cintrol :f.<:ijr a s s o c i a t e d w i t h tlhe d i s s e a i n a t ~ o n o f c : e s s i f ~ e d d a t a , a n e f f o r t 1 3 t o b e r~.acie t o p r e s e n t c l s s r i r i e d i n f o r m a t i o n o r l y through viewgraphs. I f Frojects elect to lncorpol2te c l a s s i f i e d d z t s w i t V , l n t h e i r h a n d o u t s , l t Is t h e P r o J t C t . ' S r e s y o n s l b j l i t y t o a s s u r e t h a t t h e h a n d c u t s a r e ~ a r h e . ! and h a n d l e d ir, a c c o r d a n c e w i t h t h e RASA S e c u r i t y r e g u l z t l o n s .
+
+If a r y s s s i s t a n c r i s n r e d e d i n t t . : J r r . a t t e r , p l e a s e c c n t a c t t h e KSFC Security D i v i s i o n a t ? - S ? l o .
 
 A pre!lminary a p e n d a is e n c l o s e d .
 
@@ -8223,7 +8243,9 @@ F.,/+
 
 Enclosure
 
-> Distribution: S e e Fage 3
+Distribution:
+
+S e e Fage 3
 
 %%page 395%%
 
@@ -8235,19 +8257,21 @@ E
 
 %%page 8%%
 
-E 0 0 0 0 0
+E
+
+- 0 0 0 0 — 0
 
 %%page 399%%
 
 PC 014740
 
-0 0 0
+- 0 0 — 0
 
 ## PARACHUTE SEPARATION SYSTEM
 
 > FUOMT 0REClW)L; PAMo(vTL FLOAT U C u t E U
 
-n / I e t Y Y a
+n / I e t Y aY
 
 Q
 
@@ -8255,21 +8279,13 @@ N (Y N .
 
 > NOMINAL SRB REENTRYllPROnLE (138 FOOT MAINS) I
 
-0 a I Y 3 '
+0 a I 3 'Y a.
 
-a.
+m . n u em N
 
-m .. n u em N a w
+> a w
 
-.
-
-7.
-
-tl
-
-: r;
-
-> . -7
+> . - 7. tl : r; . -7
 
 l b 0 w pC 014746
 
@@ -8291,7 +8307,7 @@ SRB-2
 
 > /. J
 
-> STS 51-L SICNIf ICAHT CONfICURATION DIFFERENCE CHANGE REASON BASIS FOR ClRTIFICATION . ** ------ ------- -._______---_-_-
+> STS 51-L SICNIf ICAHT CONfICURATION DIFFERENCE CHANGE REASON BASIS FOR ClRTIFICATION . ** ------ ------- -._______---_-_--
 
 IIPtEKNTS CAPABILITY TO 0 NOZZLE SEPARATION 0 ANALYSlS SEPARATE $RH NOZZLE AT 0 PRECLUDE FRACMENTS FROM - STRUCTURAL
 
@@ -8323,15 +8339,15 @@ I
 
 .. CrJ e z U E 3 B
 
-0 0
+- 0 — 0
 
 %%page 415%%
 
-Ln c ¶ a c Ln c CT V W
+Ln c ¶ a c Ln c CT W V
 
 > z W =c w a 0, 0 Q
 
-" PLNOINC SATISFACTORY COHPLETION Of NORHAL OPERATIONS FLMl (OtlASo) Iuo OPEN ITfHS IOWTIfIEOi WE CERTIFY THE SRB FLIGHT HARWIARE R fM Y1 0
+" PLNOINC SATISFACTORY COHPLETION Of NORHAL OPERATIONS FLMl (OtlASo) Iuo OPEN ITfHS IOWTIfIEOi WE CERTIFY THE SRB FLIGHT HARWIARE RfMY 10
 
 ## SUPPORT HISSION 51-L /S/ HR. KILNINSTER /S/ HR. HURPHY
 
@@ -8339,7 +8355,9 @@ Ln c ¶ a c Ln c CT V W
 
 ## VICE PRESIOENT EXECUTIVE VICE PRESIOENT SPACE BOOSTER PROCRAHS
 
-> 0 n 0 v SAM Lt G1 W n
+n
+
+> v SAM Lt G1 W n
 
 ## VIII-G
 
@@ -8359,13 +8377,17 @@ I .
 
 %%page 0%%
 
-3 w > OI L u
+3 w> OIu L
 
-> - fl u c + 0
+> - fl u c +
 
-> >- CL 4 Iz 5 v)
+> >- CL
 
-> s1 W -1 m 0 r. Q
+Iz v)
+
+> s1 W -1 m
+
+> r. Q
 
 ~- ---_- -\
 
@@ -8407,9 +8429,7 @@ Y
 
 > 3TS-61B ( S T S - 3 1 ) (SRN-23) PERFORMANCE (CHART NO. 3 - 2 1
 
-PaaaLECl mE
-
-> ! 'RN BESQLUTlOY
+PaaaLECl m'!ERN BESQLUTlOY
 
 ## ALL THREE STIFFENER REUSE OF SRM HARDWARE ACCEPTABLE RIIIGS ON BOTH SRM'S
 
@@ -8417,11 +8437,7 @@ EXPfRIENCED WATER
 
 ## IYPACT DAMAGE. CRACKS
 
-All0 B U C K L t S OBSERVED 111 ALL THE RINGS. t t l N E OF T!
-
-> E i 18 S T I F -
-
-r M R RIt4G SEGMENTS WILL HAVE TO RE RE- ,*LACED.
+All0 B U C K L t S OBSERVED 111 ALL THE RINGS. t t l N E OF T!iE 18 S T I F - r M R RIt4G SEGMENTS WILL HAVE TO RE RE- ,*LACED.
 
 ## NO REPORTABLE POCKETS, SIM NOZZLE PERFORMANCE ACCEPTABLE NO
 
@@ -8429,11 +8445,9 @@ GOUGES, OR WASHES It4
 
 ## THE I N L E T RINGS FOR
 
-BOTH NOZILES. l
+BOTH NOZILES. lb
 
-> b N
-
-ALL A B L A T I V E RINGS I N SRM NOZZLE PERFORMANCE ACCEPTABLE NO N PLACE BUT SOME D I S - PLACEMENT FORWARD.
+N ALL A B L A T I V E RINGS I N SRM NOZZLE PERFORMANCE ACCEPTABLE NO N PLACE BUT SOME D I S - PLACEMENT FORWARD.
 
 ## APPARENTLY DUE TO WATER IMPACT. HAS CAUSED LOCAL R A I S E D AREAS AT SOME OF
 
@@ -8457,15 +8471,11 @@ AT AIlY F I E L D JOINT
 
 -m w m z
 
-> V 0
+V
 
-h(' zz I 0 a v)+t -9 -?[^5] +u I
-
-- m- L
+0 h(' zz I 0 a v)+t -9 -?[^5] +u I- m- L
 
 4 v) +- z?
-
-%%page 10%%
 
 > STS-61B (STS-31) (SRN-23) PERFORNANCE (CHART NO. 3-3)
 
@@ -8475,13 +8485,17 @@ TO THE PR IHARY 0-R ING.
 
 ## PERFORNANCE ACCEPTABLE NO
 
-> P 03 P
+P
 
-## ACCEPTABLE
+P
+
+- ACCEPTABLE — 110
 
 %%page 426%%
 
-PC 0 3 7 7 1 1 w b 4
+PC 0 3 7 7 1 1 w
+
+- b — 4
 
 > c f U Y Y ' F
 
@@ -8509,15 +8523,13 @@ The S h t i t l e Projec:s
 
 > -. O i f i c e has e s r a b l i s h e d a requLremest idenr5iica:ion o r 12cnck c o r s z r a i o t s f o r p r o b l a s being
 
-reporzed t o t h e l !X ?roSle=: Assessaen? S y s i e n (PAS) by
-
-! elezenc co:.:zpciors :' Each elmen: c c n c r a c z c r ( X o c k e r a F e . P?-fC, USBI, and Thib'Kol) has bee3 d l r e c r e d K O su?porr t h i s reqciremenz by proviling l a x ~ c h constrzrin: infozziaiion 01'- each n e s p r o b l a subrririec r3 rbe p15FC P A S . R e laurrck c i n s r r a i a r Ln.nfor=aticr. provided bp Khe c o n i z a c i o r is based upor! their p r a i i s l n a r q - cetbnical e v a l u a t i o n an& b-Lll r e q u i r e f i n a l conc&-rence by t h e r e s p o r s i b l e elenen; p r o j e c t manager.
+reporzed t o t h e l!!X ?roSle=: Assessaen? S y s i e n (PAS) by elezenc co:.:zpciors :' Each elmen: c c n c r a c z c r ( X o c k e r a F e . P?-fC, USBI, and Thib'Kol) has bee3 d l r e c r e d K O su?porr t h i s reqciremenz by proviling l a x ~ c hconstrzrin: infozziaiion 01'- each n e s p r o b l a subrririec r3 rbe p15FC P A S . R e laurrck c i n s r r a i a r Ln.nfor=aticr. provided bp Khe c o n i z a c i o r is based upor! their p r a i i s l n a r q - cetbnical e v a l u a t i o n an& b-Lll r e q u i r e f i n a l conc&-rence by t h e r e s p o r s i b l e elenen; p r o j e c t manager.
 
 a. Tce follozing guzdellnes hnve b e e s e s t a b l i s h e d r o a i l iz making c o z s t r i i n t decisior.5 03 open problems and. a r e l-rec t o reczrrence conrro1 cece-icmtion o S p . In a c c o r l z n c e w i t 5 p r a c t i c e s e s r a b l i s h e n on pas: p r c g r t u , r e z e d i s 1 ac:ions Ce.g. rmovnl an2 r e p i a c a e n i : of d e i e c z i v e hard-dare, etc:). for C O T - r e c r i n g i i s c = e ? a n c i e s on Khe v e k i c l e co b e larrnched a r e con- sidere? l a a n c n canstraLD=s an6 a r e c r a c k e d b y . c h e IZSC sysrem,.
 
-(1) A l l open p r o b l m s coded c r i t i c a l i t y 1, 1R.[^2] , o r 2R w i l l be considered l a m c h c o n s e r a i n t s u n r i l resolved (recurrence c o n t r o l e s t a b l i s h e d and i c s i n u l r r p e n r a r i o n exectiv%:y derermined) r s d f i c i e n r r a r i b n a l e . i.e..
+(1) A l l open p r o b l m s coded c r i t i c a l i t y 1, 1R.[^2] , o r 2R w i l l be considered l a m c h c o n s e r a i n t s u n r i l resolved (recurrence c o n t r o l e s t a b l i s h e d and i c s i n u l r r p e n r a r i o n exectiv%:y derermined) - .r g - r a r l o n , oer t sc d. ,f iCKFSKS'
 
-- .r g - r a r l o n , oe d i f f e r e s i ccn= t c . , CKFSKS' co concluae thaK C h i s problem vill no; oc=';z on t h e f l i g h ~ v e h i c l e d u r i n g prelaunch, launch. o r f l i g k .
+c i e n r r a r i b n a l e . i.e.. d i f f e r e s i ccn= co concluae thaK C h i s problem vill no; oc=';z on t h e f l i g h ~v e h i c l e d u r i n g prelaunch, launch. o r f l i g k .
 
 > .. (2) Pro'c;e=s code? c r i z l c a l i i y 3 will noK b e COR-
 
@@ -8527,7 +8539,7 @@ s i d e r e d laszc5 ccxs;r;ir.rs ur-less (a) the p o r e n t i a l e x i s t s 
 
 %%page 435%%
 
-> , -. b . To a s s u r e tha: e a c h r e i o r c e d p r o b l e a i s r e v i e w e d
+> ,-. b . To a s s u r e tha: e a c h r e i o r c e d p r o b l e a i s r e v i e w e d
 
 f a r c o r = e c t c r i t i c a l i t y and c o h s t r a h t assFgFaen.; by t h e a q r o p r i z t e !?!.IsPC p e r s o n n e l , t h e f o l l o w i n g p r o c e d u r e w i l l b e f o llcved :
 
@@ -8535,11 +8547,11 @@ f a r c o r = e c t c r i t i c a l i t y and c o h s t r a h t assFgFaen.; by t
 
 . . zsslgr=ez:s nee: w i t h t h e i r approval. Excep:;ons to . &'
 
--_.. c r i r r c z L i r y or cons:rain: zssiF=en: w i l l be c c o r l i n a z e d L.i L cbe Pro5I.m A s s e s s z e n t C e n t e r (?AC) a c t i o n e e w i t h i c r ;o v c r k i n g Cays fzcn r e c e i p c of €he ~ r o ' c l e r !r e p o r t .
+-_.. c r i r r c z L i r y or cons:rain: zssiF=en: w i l l be c c o r l i n a z e d L.i L cbe Pro5I.m A s s e s s z e n t C e n t e r (?AC) a c t i o n e e w i t h i c r;o v c r k i n g Cays fzcn r e c e i p c of €he ~ r o ' c l e r !r e p o r t .
 
-(2) Tie . P r o b i e r P s s e s s E e n t Ce3:er ~ 5 1 1 prepzre a weekly c3ns:rzin:s l i s t by e l e z e n c . 'i%isl i s t will b e
+(2) Tie . P r o b i e r P s s e s s E e n t Ce3:er ~ 5 1 1p r e p z r e a weekly c3ns:rzin:s l i s t by e l e z e n c . 'i%isl i s t will b e
 
---L-l--ed to t b e S h c z t l e R&QX S u ? p o r r O i f i = e , EGD3,. for S"^" iz?u: t o t h e S:?uzrLe ? r = 3 j e c f s . & = a g e r , SAO1. C o ? l e s o f &:.e c - cocs:rainr 15s: b i l l be f c r n l s k e d c ' o n c - i r r e n r l y co eacl? S h c t t l e Elezaenz P r o j e c : Ykrrager.
+-- -L-l--ed to t b e S h c z t l e R&QX S u ? p o r r O i f i = e , EGD3,. for S"^" iz?u: t o t h e S:?uzrLe ? r = 3 j e c f s . & = a g e r , SAO1. C o ? l e s o f &:.e cocs:rainr c- 15s: b i l l be f c r n l s k e d c ' o n c - i r r e n r l y co eacl? S h c t t l e Elezaenz P r o j e c : Ykrrager.
 
 > . (3) L a ~ i c kc o z s r r a i n t s w i l l b e r e v i e w e d a t eac5 -
 
@@ -8547,17 +8559,13 @@ Frobleci Review bozrd (I=) n e s c i n g .
 
 c
 
-3 . e Probler! A-ssessment Center w i l l be responsible for cccr<5rz;Lng a i l l a c n c k c m s t r a i n : a c r i v i t y an2 ass-;ring - + - - 1-2 -.-c -- ~. . ~ - : o ~i s p r o p e r l y docymented i n the I r ~ b l a
-
--v
-
-A s s e s s a e z r Sys;eo (3.G) 2z:z b a s e a n d c r z r i s m i r z e d co F!?C rrrssz e=enc.
+3 . e Probler! A-ssessment Center w i l l be responsible for cccr<5rz;Lng a i l l a c n c k c m s t r a i n : a c r i v i t y an2 ass-;ring -+-- 1-2 . - c- --v~. . ~ - : o ~i s p r o p e r l y docymented i n the I r ~ b l a A s s e s s a e z r Sys;eo (3.G) 2z:z b a s e a n d c r z r i s m i r z e d co F!?C rrrssz e=enc.
 
 /-
 
-> ;[J { - - . .
+> ;[ J{ - - . .
 
-> \ 1
+\
 
 P.o5erz E. Lincsircn Panager Shxczle P r o j e c t s O f f i c e D i s trfbu:ion: S e e page 3
 
@@ -8577,11 +8585,11 @@ EY 0 1 / R . S c h w i a q n u e r
 
 ELOl/?. I s b e l l
 
-EPOl/A. Mecool. . E?13/C. G a i n e s / E . E n g l e r m . Earr~sar?
+EPOl/A. Mecool. . E?13/C. Gaines/E. E n g l e r m . Earr~sar?
 
-EP 14/B - Nein/R. W h i t e / R . B e c k / W . Ru.?E;le/?.. Dstson/ii. Bell
+EP 14/B - N e i n / R . W h i t e / R . B e c k / W . Ru.?E;le/?.. Dstson/ii. Bell
 
-2?21/0. Goet=/G. S n i t h / E . Sacchs
+2?21/0. G o e t = / G . S n i t h / E . Sacchs
 
 E?[^2] 2 /R .
 
@@ -8609,25 +8617,23 @@ Y
 
 %%page 0%%
 
-. . .. . . . , . *
+. . .,., ,... .*. ... ... ... . . *. .* .. * .
 
-. .. .. . .. , ,. *
+> ,I. " i r ; ; . i: . a . . .* . . . . . . . ,. .. .. .. . .
 
-> . .* .. .. * .. "ir;;.i ,I. : .a. . .* . . . . . . . , . . . . . . . . . -lmkn2 4 l b
+- -lmkn 2 — 4
+
+l b
 
 44 1
 
-> P Y
-
-> f t ri
+> P Y f tri
 
 %%page 0%%
 
 i
 
-* t
-
-E
+*E t
 
 ..
 
@@ -8639,19 +8645,19 @@ f
 
 ## Notes
 
-[^1]: For the purpose of this report, a procedure is a formal set of instructions designed to guide and assist in the performance of a technical or management function. g8 mid., July 24, 1986, p. 11. 1 9 9 Ibid., June 25, 1986, p. 52.
+[^1]: For the purpose of this report, a procedure is a formal set of instructions designed to guide and assist in the performance of a technical or management function. g8 mid., July 24, 1986, p. 11.
 
-[^2]: Rogers Commission Report, Volume I, p. 199. o bid., Chart SRB-4. 2 1 Larry Mulloy, NASA, Marshall Space Fli ht Center, "STS-51L Level I1 Flight Readiness Review,'' January 14,1986. See Appendix VIII-g. 2 2 Discussion with Allan McDonald, September 4, 1986. Z3 Rogers Commission Report, Volume 11. See Chart 15 (p. H-10) and Chart 19 (p. H-12). s Ibid., Chart 30 (p. H-18).
+[^2]: Rogers Commission Report, Volume I, p. 199.
 
-[^3]: NASA, "Report to the President Actions to Implement the Recommendations of the Presi- dential Commission on the Space Shuttle Challenger Accident," July 14, 1986. (Hereafter r e ferred to as NASA Response to Rogers Commission.) s bid.. Chart 3-1.
+[^3]: NASA, "Report to the President Actions to Implement the Recommendations of the Presi- dential Commission on the Space Shuttle Challenger Accident," July 14, 1986. (Hereafter r e ferred to as NASA Response to Rogers Commission.)
 
-[^4]: Rogers Commission Report, Volume 1 1, p. H-1.
+[^4]: Rogers Commission Report, Volume 11, p. H-1.
 
 [^5]: bid. 0 %id. iNm.-The nozzle to case joint design is significantly different than the case field joint design w ich caused the Challenger accident. However, it is cited here because some of the prob- l e m are relevant to the failure of the aft field joint.]
 
 [^7]: bid.
 
-[^8]: Ibid. Ibid. ' 0 bid. I 1bid. Morton Thiokol, "Program Plan, Protection of Space Shuttle SRM Primary Seals," TWR- 14359,May 4, 1984. Discussions with Allan McDonald and Carver Kennedy, Thiokol (Wasatch Operations), Brigham City, Utah,, September 4, 1986.
+[^8]: Ibid. Ibid. ' 0 bid. I 1bid. Morton Thiokol, "Program Plan, Protection of Space Shuttle SRM Primary Seals," TWR- 14359,May 4, 1984. s Ibid. Discussions with Allan McDonald and Carver Kennedy, Thiokol (Wasatch Operations), Brigham City, Utah,, September 4, 1986.
 
 [^14]: Hearin s before the House Science and Technology Committee, "Investigation of the Space Shuttle Chaflenger Accident," 99th Cong., 2nd Sess., Transcript, July 15, 1986, p. 13. (Hereafter referred to as Cmte Hgs).
 
@@ -8663,29 +8669,35 @@ f
 
 [^22]: Rogers Commission Report, Volume I, pp. 129-31. ZaNASA, "Shuttle Flight Data and Infli ht Anomaly List, Revision H," Johnson Space Center, Houston, Texas, January, 1986, pp. 2-f and 2-9. 2 4 Ibid., pp. 2-6 and 2-7. 2 5 Ibid., pp. 2-16 and 2-17. 2 6 Rogers Commiasion Report, Volume I, p. 148.
 
-[^27]: bid., p. 201. Rogers Commission Report, Volume 11, p. F-2.
+[^27]: bid., p. 201.
 
-[^28]: bid., Volume 11, p. F-1. NASA, "SRB Critical Items List," Page A-6A, December 17, 1982, Sheet I bid.
+[^28]: bid., Volume 11, p. F-1.
 
-[^35]: Most military and civilian aircraft engines are designed from the bottom-up approach, in which each component, starting with the material used all the wa through engineering testing of subsystems and subcomponents, is evaluated prior to the finardesign of the entire engine. Thiokol. ~
+[^34]: Ibid., pp. K-23 through K-27; K-31.
+
+[^35]: Most military and civilian aircraft engines are designed from the bottom-up approach, in which each component, starting with the material used all the wa through engineering testing of subsystems and subcomponents, is evaluated prior to the finardesign of the entire engine.
 
 [^38]: Rogers Commission Report, Volume 11, p. F-2. Cmte Hgs, Transcript, July 15, 1986, pp. 10-12, 61. Discussion with NASA personnel, Washington, D.C., May 30, 1986.
 
 [^37]: Ibid. "The second breakdown in communications. . . ," Mr. Aldrich testified before the Commis- sion, "is the situation of the variety of reviews that were conducted last summer between the NASA Headquarters Organization and the Marshall Organ+tion on the ljoint eal.problem] and the fact that that waa not brou h t through my office in elther dlrectlon-that IS, it was not worked through by the NASA Heatquartera Organization nor when the Marshall Organization brought these concerns to be reported were we involved. And I believe that is a critical break- down in process and I think it is also against the documented reporting channels that the prc- gram IS sup to o rate to." Ro era Commission Report, Volume V, p. 1490. JmLarry N&, Marshall &ace F1' h t Center, "Fli ht Readiness Review SRM-24 (STS 6143,'' December 2, 1986, Charta 3-2; 3-2B. %e A pendix VfrI1-G.
 
+[^42]: Ibid., Volume I, pp. 192-93. 4 3 Ibid., Volume 11, p. K-23.
+
 [^44]: Ibid., Volume I, pp. 192-93.
 
-[^45]: Ibid,. Volume 11, p. K-23. 4 6 Ibid. 4 7 NASA, The Apollo Spacecraft, A Chronology, 1978, Volume IV, p. 319, Appollo 12.
+[^45]: Ibid,. Volume 11, p. K-23.
+
+[^46]: Ibid. 4 7 NASA, The Apollo Spacecraft, A Chronology, 1978, Volume IV, p. 319, Appollo 12.
 
 [^48]: Michael Isikoff, "Major Flaws Ruled Out in Two Rockets," Washington Post, July 3, 1986, p. A-1.
 
-[^53]: Ibid.
+[^53]: Ibid. Poise is a measure of viscosity or resistance to flow.
 
-[^54]: Discussion with NASA personnel, Washington, D.C., Sept. 12, 1986. Rogers Commission Report, Volume 11, p. K-14. 5.3 Ibid., p. K-31. 5 7 Ibid., p. K-14.
+[^54]: Discussion with NASA personnel, Washington, D.C., Sept. 12, 1986. Rogers Commission Report, Volume 11, p. K-14. 5.3 Ibid., p. K-31. 5 7 Ibid., p. K-14. NASA, L.M. Thompson, "SRM/SRB Putty Evaluation," July, 1985.
 
-[^58]: Ibid., p. K-31. Sbff meeting with NASA personnel, Head uarters, Washington, D.C., May 13, 1986.
+[^58]: Ibid., p. K-31. Sbff meeting with NASA personnel, Head uarters, Washington, D.C., May 13, 1986. 6 0 Rogers Commission Report, Volume 11, p. 2-31, 6' Wid., p. K-3.
 
-[^60]: Rogers Commission Report, Volume 11, p. 2-31, 6' Wid., p. K-3.
+[^59]: Ibid., p. 50.
 
 [^83]: Cmte Hgs, Transcript, July 16, 1986, p. 24.
 
@@ -8719,7 +8731,7 @@ f
 
 [^158]: Ibid., pp. 117-18. IsoIbid., June 11, 1986 p 61 2 Former Shuttle Pro am Manager, Robert Thompson, indi- cated the need for this &a&&, k t i n g : . . and I thinrthe matter of being sure you have the I'. proper people selected and that those people are roper1 indoctrinated and trained for their position and they clearly understand the respnsibiet andrreporting channels of their positions, I think those are all areas for improvement. -Cmte hgs, Transcript, July 24, 1986, p. 121.
 
-[^160]: Material submitted for the record in response t o wrltten questions from Chairman Roe (letter dated 9/18/86). That submission includes the following table: NASA LOSSES FISCAL YEAR 1981-86 [In fial years] 1981 1982 1983 1984 1985 1986 ~ ~~ Total ...................... .......................................... 1,983 1,556 1,176 1,530 1.494 1.169 .......................................... 32 26 13 19 9 5 AST ngineern................... .......................................... 665 503 386 576 569 457 Life scientists...................................................... ............ 6 6 0 3 2 4 .......................................... 261 207 161 156 204 180 "on-Aempace Technologist.
+[^160]: Material submitted for the record in response to wrltten questions from Chairman Roe (letter dated 9/18/86). That submission includes the following table: NASA LOSSES FISCAL YEAR 1981-86 [In fial years] 1981 1982 1983 1984 1985 1986 ~ ~~ Total ...................... .......................................... 1,983 1,556 1,176 1,530 1.494 1.169 .......................................... 32 26 13 19 9 5 AST ngineern................... .......................................... 665 503 386 576 569 457 Life scientists...................................................... ............ 6 6 0 3 2 4 .......................................... 261 207 161 156 204 180 "on-Aempace Technologist.
 
 [^167]: Ibid., pp. 123, 125.
 
@@ -8741,6 +8753,8 @@ f
 
 [^197]: Ibid., June 25, 1986, p. 11.
 
+[^199]: Ibid., June 25, 1986, p. 52.
+
 [^200]: Ibid., July 24, 1986,p. 94.
 
 [^202]: Ibid.
@@ -8749,31 +8763,23 @@ f
 
 [^208]: Ibid. 2 0 8 Rogers Commission Report., Volume 11, p. H-95.
 
-[^33]: A type of, utty made b another company that also was considered for use in the SRM. Rogers Commission Report, Volume V, p. 784. a* bid., Chart 130 (p. H-66).
+[^55]: BM-Chemical Division, "Viton Fluoroelastomer," Undated, p. 1.
 
-[^34]: Thiokol, 8RM O-ring $ask Force Status and QM-5 Recommendations," TWR-15349, No- vember 20, 1985. -..~ "Temuerature Concern on SRM Joints," January 27, 1986, chart 2-1.
+[^56]: Ibid.
 
-[^30]: bid. 3 7 bid., Chart 2 2. Rogers Commission Report, Volume V, p. 834. y r ' O b i s ammission &port, Volume 11, p. . H-P
-
-[^39]: Kid.; Chart 4-1
-
-[^40]: Ibid., Chart 4-2.
-
-[^41]: Ibid., Chart "Conclusions." 4 2 Ibid.. Chart "Recommendations." 4 3 This'Chart was prepared by the Committee and is based on information obtained by Com. mittee staff during meetings at MSFC on June 30, 1986.
+[^67]: Department of Defense, "Milita Specification: Rubber, Fluorocarbon Elastomer, High Tern rature, Fluid, and Compreasion%t Resistant", MILR-83248A. February 17,1984. "rigid, p. 1. 6 9 Ibid p. 3. 6 0 N d A memorandum, William Ra "Visit to Precision Rubber Products Corporation and Parker Seal Company",EP 25 (19-23). JAbruary 6, 1979, p. 1. 6 1 Ibid. 6* bid., p. 2.
 
 [^9]: Rogers Commission Report, loc. cit.
 
-[^10]: bid. 1 ' Ibid. - Readiness 1 2 Robert Lindstrom. NASA. Marshall Soace Flight Center. "Shuttle Proiect Flight Review,i'~SOP~8000.1,~&cemb& 29, 1983, p 2. See Xppendix VIII-C. l 3 William Lucas, NASA, Marshall Space Flight Center, "MSFC Flight Readiness Review (FRR) Board for MSFC Elements for Mission 51-L," January 7, 1986, pp. 1-2. See Appendix ._*- vm-n I. I4 Discussion with Mr. McDonald, September 4, 1986. Ibid.
+[^10]: bid. 1 ' Ibid. - Readiness 1 2 Robert Lindstrom. NASA. Marshall Soace Flight Center. "Shuttle Proiect Flight Review,i'~SOP~8000.1,~&cemb& 29, 1983, p 2. See Xppendix VIII-C. l 3 William Lucas, NASA, Marshall Space Flight Center, "MSFC Flight Readiness Review (FRR) Board for MSFC Elements for Mission 51-L," January 7, 1986, pp. 1-2. See Appendix .vm-n _*- I . I4Discussion with Mr. McDonald, September 4, 1986. Ibid.
 
-[^17]: lhirl % ;; Chart SRB-28. La rk Mulloy, NASA, Marshall S ace Flight e n t e r , "STS-51L Level I Flight Readiness Review," January 15, 1986, Chart SRB-8. See Appendlx VIII-E.
-
-[^24]: Ibid., p. H-13.
-
-[^26]: Ibid., p. H-42.
+[^30]: Rogers Commission Report, Volume V, p. 834. y r ' O b i s ammission &port, Volume 11, p. . H-P
 
 [^31]: Cmte Hgs., Transcript, June 17, 1986, p. 185.
 
 [^32]: Bid., p. 291.
+
+[^33]: Rogers Commission Report, Volume V, p. 784. a* bid., Chart 130 (p. H-66).
 
 [^92]: Ibid., p, 574.
 
@@ -8785,6 +8791,6 @@ f
 
 [^100]: Ibid., pp. 583-84.
 
-[^101]: "Ice/Frost Team Evaluation Report," p. 4. *02 01 s Channel 245, p. 595. 1 0 2 a Rockwell rsonnel appearing in House transcripts are identified as follows: RI: Kennedy &ce Center liaison. RTI: Director of Technical Integration. Continued
+[^101]: "Ice/Frost Team Evaluation Report," p. 4. *02 01s Channel 245, p. 595. 1 0 2 a Rockwell rsonnel appearing in House transcripts are identified as follows: RI: Kennedy &ce Center liaison. RTI: Director of Technical Integration. Continued
 
 [^103]: Ibid., pp. 59g-97.

@@ -99,7 +99,7 @@ Chief Clerk
 
 5/10/11
 
-> Permanent Subcommittee on Investigations 199 Russell Senate Office Building – W ashington, D.C. 20510 Main Number: 202/224-9505 W eb Address: www.hsgac.senate.gov [Follow Link to " Subcommittees," to " Investigations "]
+> Permanent Subcommittee on Investigations 199 Russell Senate Office Building – W ashington, D.C. 20510 Main Number: 202/224-9505 W eb Address: www.hsgac.senate.gov [Follow Link to "Subcommittees," to "Investigations"]
 
 > WALL STREET AND THE FINANCIAL CRISIS: Anatomy of a Financial Collapse
 
@@ -111,13 +111,57 @@ I. EXECUTIVE SUMMARY. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 II. BACKGROUND. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^15]
 
-> A. Rise of Too-Big-To-Fail U.S. Financial Institutions. . . . . . . . . . . . . . . . . . . . . . . . . . .[^15] B. High Risk Mortgage Lending. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^17] C. Credit Ratings and Structured Finance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^26] D. Investment Banks. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^32] E. Market Oversight. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^36] F. Government Sponsored Enterprises. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^41] G. Administrative and Legislative Actions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^43] H. Financial Crisis Timeline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^45]
+A. Rise of Too-Big-To-Fail U.S. Financial Institutions. . . . . . . . . . . . . . . . . . . . . . . . . . .[^15]
+
+B. High Risk Mortgage Lending. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^17]
+
+C. Credit Ratings and Structured Finance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^26]
+
+D. Investment Banks. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^32]
+
+E. Market Oversight. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^36]
+
+F. Government Sponsored Enterprises. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^41]
+
+G. Administrative and Legislative Actions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^43]
+
+H. Financial Crisis Timeline. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^45]
 
 III. HIGH RISK LENDING:
 
-> CASE STUDY OF WASHINGTON MUTUAL BANK. . . . . . . . . . . . . . . . . . . . . . . . . . .[^48] A. Subcommittee Investigation and Findings of Fact.. . . . . . . . . . . . . . . . . . . . . . . . . . . .[^50] B. Background. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^51] (1) Major Business Lines and Key Personnel. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^51] (2) Loan Origination Channels. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^52] (3) Long Beach. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^54] (4) Securitization.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^55] (5) Overview of WaMu's Rise and Fall. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^56] C. High Risk Lending Strategy.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^58] (1) Strategic Direction.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^60] (2) Approval of Strategy. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^60] (3) Definition of High Risk Lending.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^62] (4) Gain on Sale. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^64] (5) Acknowledging Unsustainable Housing Price Increases.. . . . . . . . . . . . . . . . . . . . . . 65 (6) Execution of the High Risk Lending Strategy.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68 D. Shoddy Lending Practices. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^75] (1) Long Beach. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^75]
+CASE STUDY OF WASHINGTON MUTUAL BANK. . . . . . . . . . . . . . . . . . . . . . . . . . .[^48]
 
-i
+A. Subcommittee Investigation and Findings of Fact.. . . . . . . . . . . . . . . . . . . . . . . . . . . .[^50]
+
+B. Background. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^51]
+
+(1) Major Business Lines and Key Personnel. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^51]
+
+(2) Loan Origination Channels. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^52]
+
+(3) Long Beach. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^54]
+
+(4) Securitization.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^55]
+
+(5) Overview of WaMu's Rise and Fall. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^56]
+
+C. High Risk Lending Strategy.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^58]
+
+(1) Strategic Direction.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^60]
+
+(2) Approval of Strategy. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^60]
+
+(3) Definition of High Risk Lending.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^62]
+
+(4) Gain on Sale. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^64]
+
+(5) Acknowledging Unsustainable Housing Price Increases.. . . . . . . . . . . . . . . . . . . . . . 65
+
+(6) Execution of the High Risk Lending Strategy.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+
+D. Shoddy Lending Practices. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^75]
+
+(1) Long Beach. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^75] i
 
 > (2) WaMu Retail Lending. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^86] (a) Inadequate Systems and Weak Oversight. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^86] (b) Risk Layering. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^90] (c) Loan Fraud. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^95] (d) Steering Borrowers to High Risk Option ARMs. . . . . . . . . . . . . . . . . . . . . . . . .[^104] (e) Marginalization of WaMu Risk Managers.. . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^109] E. Polluting the Financial System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^116] (1) WaMu and Long Beach Securitizations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^116] (2) Deficient Securitization Practices. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^122] (3) Securitizing Delinquency-Prone Loans. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^125] (4) WaMu Loan Sales to Fannie Mae and Freddie Mac. . . . . . . . . . . . . . . . . . . . . . . . . .[^136] F. Destructive Compensation Practices. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^143] (1) Sales Culture. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^143] (2) Paying for Speed and Volume. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^147] (a) Long Beach Account Executives. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^148] (b) WaMu Loan Consultants. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^149] (c) Loan Processors and Quality Assurance Controllers. . . . . . . . . . . . . . . . . . . . . .[^151] (3) WaMu Executive Compensation.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^153] G. Preventing High Risk Lending. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^155] (1) New Developments. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^155] (2) Recommendations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^160] 1. Ensure "Qualified Mortgages" Are Low Risk. . . . . . . . . . . . . . . . . . . . . . . . . . .[^160] 2. Require Meaningful Risk Retention. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^160] 3. Safeguard Against High Risk Products. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^160] 4. Require Greater Reserves for Negative Amortization Loans.. . . . . . . . . . . . . . .[^160] 5. Safeguard Bank Investment Portfolios.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^160]
 
@@ -981,7 +1025,19 @@ Higher risk home loans placed for sale were more profitable for WaMu, because of
 
 > 2005 WaMu Gain on Sale Margin by Product in bps 171
 
-> Government 13 Fixed 19 Hybrid/ARM 25 Alt A 40 Option ARM 109 Home Equity 113 Subprime 150
+- Government — 13
+
+- Fixed — 19
+
+- Hybrid/ARM — 25
+
+- Alt A — 40
+
+- Option ARM — 109
+
+- Home Equity — 113
+
+- Subprime — 150
 
 %%page 65%%
 
@@ -1127,7 +1183,7 @@ In July 2008, just two months before the collapse of WaMu, Home Loans President 
 
 > "2001 to 2005 'Mono-line' business model focused on generating high volume of low-margin, prime products ….
 
-> 2006 Targeted production franchise toward higher margin products to become a market leader in specific product segments ….
+> Targeted production franchise toward higher margin products to become a market leader in specific product segments ….
 
 > 2007 & Beyond Subprime mortgage implosion fuels credit and liquidity crisis and the non-agency secondary market disappears[.]"
 
@@ -1315,9 +1371,9 @@ During its last five years, WaMu accepted loans from tens of thousands of third 
 
 %%page 89%%
 
-> OTS examinations in 2006 and 2007 also identified deficiencies in WaMu's oversight 288
+OTS examinations in 2006 and 2007 also identified deficiencies in WaMu's oversight
 
-efforts. For example, a 2007 OTS memorandum found that, in 2007, Washington Mutual had only 14 full-time employees overseeing more than 34,000 third party brokers submitting loans to the bank for approval,[^289] which meant that each WaMu employee oversaw more than 2,400 brokers. The OTS examination not only questioned the staffing level, but also criticized the scorecard WaMu used to rate the mortgage brokers, which did not include the rates at which significant lending or documentation deficiencies were attributed to the broker, the rate at which the broker's loans were denied or produced unsaleable loans, or any indication of whether the broker was included on industry watch lists for prior or suspected misconduct.
+288 efforts. For example, a 2007 OTS memorandum found that, in 2007, Washington Mutual had only 14 full-time employees overseeing more than 34,000 third party brokers submitting loans to the bank for approval,[^289] which meant that each WaMu employee oversaw more than 2,400 brokers. The OTS examination not only questioned the staffing level, but also criticized the scorecard WaMu used to rate the mortgage brokers, which did not include the rates at which significant lending or documentation deficiencies were attributed to the broker, the rate at which the broker's loans were denied or produced unsaleable loans, or any indication of whether the broker was included on industry watch lists for prior or suspected misconduct.
 
 In 2006, federal regulators issued Interagency Guidance on Nontraditional Mortgage Product Risks (NTM Guidance) providing standards on how banks "can offer nontraditional mortgage products in a safe and sound manner."[^290] It focused, in part, on the need for banks to "have strong systems and controls in place for establishing and maintaining relationships" with third party lenders and brokers submitting high risk loans for approval. It instructed banks to monitor the quality of the submitted loans to detect problems such as "early payment defaults, incomplete documentation, and fraud." If problems arose, the NTM Guidance directed banks to "take immediate action":
 
@@ -2463,7 +2519,11 @@ The WaMu submission to the Board noted that, in order for the plan to be success
 
 Even before it received formal Board approval, Washington Mutual had begun shifting its loan originations toward higher risk loans. By 2007, rising defaults and the collapse of the subprime secondary market prevented WaMu from fully implementing its plans, but it did have time to shift the composition of the loans it originated and purchased, increasing the percentage of higher risk home loans from at least 19% in 2003, to over 47% in 2007.[^616]
 
-> Home Equity 2003 2007 7% Subprime 5% Option ARM Home Fixed 7% Equity 23% 24%
+Home
+
+- Equity 2003 — 2007
+
+> 7% Subprime 5% Option ARM Home Fixed 7% Equity 23% 24%
 
 > Other ARM 17% Fixed Option Other 64% Subprime ARM ARM 5% 18% 30%
 
@@ -3159,13 +3219,10 @@ OTS officials argued variously that the new proposal would wrongly put the focus
 
 The NTM Guidance was finally issued on October 4, 2006.[^831] The final version did not fully reflect the recommendations of OTS on negatively amortizing loans. Among other matters, it called on banks to:
 
-> • evaluate a borrower's ability to fully repay a prospective loan, including any balance increase from negative amortization;
-
-> • qualify borrowers using the higher interest rate that would apply after any teaser or introductory interest rate;
-
-> • avoid loans whose repayment was dependent solely upon the value of the collateral or the borrower's ability to refinance the loan; and
-
-> • implement strong quality control and risk mitigation procedures for loans containing layers of risk, including loans with no documentation requirements, no verification of the borrower's income or assets, or high loan-to-value ratios.
+> - evaluate a borrower's ability to fully repay a prospective loan, including any balance increase from negative amortization;
+> - qualify borrowers using the higher interest rate that would apply after any teaser or introductory interest rate;
+> - avoid loans whose repayment was dependent solely upon the value of the collateral or the borrower's ability to refinance the loan; and
+> - implement strong quality control and risk mitigation procedures for loans containing layers of risk, including loans with no documentation requirements, no verification of the borrower's income or assets, or high loan-to-value ratios.
 
 The Guidance also called for capital levels commensurate with risk and adequate allowances for loan losses.
 
@@ -4003,9 +4060,9 @@ These emails show S&P analysts expending great effort to provide favorable ratin
 
 On April 10, 2007, just three months before the July 2007 mass downgrades of subprime RMBS, S&P issued ratings for the Vertical securitization. All but one of the nine tranches were given investment grade ratings, with the top three receiving AAA. Moody's issued similar ratings.[^1103]
 
-> Four months later in August 2007, all but the top three tranches were put on credit 1104
+Four months later in August 2007, all but the top three tranches were put on credit
 
-watch. Two months after that, in October, Moody's downgraded all but one of the Vertical securities to junk status.[^1105] In 2008, the CDO was liquidated.[^1106] The chart below shows how the various tranches were originally rated by S&P, only to be downgraded to a D – the rating given to securities in default.
+1104 watch. Two months after that, in October, Moody's downgraded all but one of the Vertical securities to junk status.[^1105] In 2008, the CDO was liquidated.[^1106] The chart below shows how the various tranches were originally rated by S&P, only to be downgraded to a D – the rating given to securities in default.
 
 %%page 286%%
 
@@ -4201,9 +4258,8 @@ In addition, many of the RMBS loans were less than a year old, making any perfor
 
 Some internal S&P emails suggest alternative explanations for the decision not to retest. In October 2005, for example, an S&P analytic manager in the Structured Finance Ratings Group sent an email to his colleagues asking: "How do we handle existing deals especially if there are material changes [to a model] that can cause existing ratings to change?" His email then laid out what he believed was S&P's position at that time:
 
-> • "I think the history has been to only re-review a deal under new assumptions/criteria when the deal is flagged for some performance reason. I do not know of a situation where there were wholesale changes to existing ratings when the primary group changed assumptions or even instituted new criteria. The two major reasons why we have taken the approach is (i) lack of sufficient personnel resources and (ii) not having the same models/information available for surveillance to relook at an existing deal with the new assumptions (i.e. no cash flow models for a number of assets). The third reason is concerns of how disruptive wholesale rating changes, based on a criteria change, can be to the market.
-
-> • CDO is current[ly] debating the issue and appropriate approach as they change the methodology."[^1162]
+> - "I think the history has been to only re-review a deal under new assumptions/criteria when the deal is flagged for some performance reason. I do not know of a situation where there were wholesale changes to existing ratings when the primary group changed assumptions or even instituted new criteria. The two major reasons why we have taken the approach is (i) lack of sufficient personnel resources and (ii) not having the same models/information available for surveillance to relook at an existing deal with the new assumptions (i.e. no cash flow models for a number of assets). The third reason is concerns of how disruptive wholesale rating changes, based on a criteria change, can be to the market.
+> - CDO is current[ly] debating the issue and appropriate approach as they change the methodology."[^1162]
 
 This email suggests the reason retesting did not occur was, not because S&P thought actual performance data would produce more accurate ratings for existing pools, but because S&P did not have the resources to retest, and lower ratings on existing deals might have disrupted the marketplace, upsetting investment banks and investors. Several S&P managers and analysts confirmed in Subcommittee interviews that these were the real reasons for the decision not to retest existing RMBS securities.[^1163] Moody's documents also suggest that resource constraints may lay behind its decision not to retest.[^1164]
 
@@ -4231,11 +4287,9 @@ In May 2006, S&P circulated a draft policy setting up what seemed to be an infor
 
 > Prior to Transition Date (in preparation for final implementation of E3 for cash CDOs): • A large majority of the pre- E3 cash flow CDOs will be run through E3 in batch processes to see how the ratings look within the new model …
 
-> • Ratings falling more than 3 notches +/- from the current tranche rating in the batch process will be reviewed in detail for any modeling, data, performance or other issues
-
-> • If any transactions are found to be passing/failing E3 by more than 3 notches due to performance reasons they will be handled through the regular surveillance process to see if the ratings are stable under current criteria (i.e., if they pass E2.4.3 using current cash flow assumptions the ratings will remain unchanged)
-
-> • If any transactions are found to be passing/failing E3 by more than 3 notches due to a model gap between E2.4.3 and E3, they will be reviewed by a special E3 committee ...."[^1171]
+> - Ratings falling more than 3 notches +/- from the current tranche rating in the batch process will be reviewed in detail for any modeling, data, performance or other issues
+> - If any transactions are found to be passing/failing E3 by more than 3 notches due to performance reasons they will be handled through the regular surveillance process to see if the ratings are stable under current criteria (i.e., if they pass E2.4.3 using current cash flow assumptions the ratings will remain unchanged)
+> - If any transactions are found to be passing/failing E3 by more than 3 notches due to a model gap between E2.4.3 and E3, they will be reviewed by a special E3 committee ...."[^1171]
 
 It is unclear whether this screening actually took place.
 
@@ -4673,35 +4727,25 @@ Emails produced to the Subcommittee provide repeated examples of Mr. Lippmann's 
 
 %%page 338%%
 
-> • Emails regarding LBMLT 2004-3 M8, a subprime RMBS security issued by Long Beach: "[T]his bond blows."[^1274] (2/24/2006)
-
-> • Email providing Deutsche Bank trader his opinion regarding RMBS shelves: ["[Y]ikes didn't see that[.] … [H]alf of these are crap and rest are ok[.] …[C]rap-heat pchlt sail tmts."[^1275] (4/5/2006)
-
-> • Email advising an investment banker at JPMorgan Chase regarding subprime RMBS securities issued by Aegis Asset Backed Securities Trust ("aabst"), Bay View Financial Acquisition Trust ("bayv"), Home Equity Mortgage Loan Asset Based Trust ("inabs"), Park Place Securities Inc. ("ppsi"), and Structured Asset Investment Loan ("sail"): "This is a good pool for you because it has a fair number of weak names but not so many that investors should balk (I wouldn't add more of these) and also has only a few names that are very good."[^1276] (6/23/2006)
-
-> • Email advising an investment banker at Oppenheimer Funds: "[Y]ou can certainly build a portfolio by picking only bad names and you have largely done that as Rasc ahl is considered bad as is Fremont (bsabs fr, fhlt, jpmac fre, sabr fr, nheli fm deals) ace, arsi and lbmlt."[^1277] Mr. Lippmann listed ACE Securities Corp. as a "bad name" even though it was created by and associated with Deutsche Bank itself.[^1278] (8/4/2006)
+> - Emails regarding LBMLT 2004-3 M8, a subprime RMBS security issued by Long Beach: "[T]his bond blows."[^1274] (2/24/2006)
+> - Email providing Deutsche Bank trader his opinion regarding RMBS shelves: ["[Y]ikes didn't see that[.] … [H]alf of these are crap and rest are ok[.] …[C]rap-heat pchlt sail tmts."[^1275] (4/5/2006)
+> - Email advising an investment banker at JPMorgan Chase regarding subprime RMBS securities issued by Aegis Asset Backed Securities Trust ("aabst"), Bay View Financial Acquisition Trust ("bayv"), Home Equity Mortgage Loan Asset Based Trust ("inabs"), Park Place Securities Inc. ("ppsi"), and Structured Asset Investment Loan ("sail"): "This is a good pool for you because it has a fair number of weak names but not so many that investors should balk (I wouldn't add more of these) and also has only a few names that are very good."[^1276] (6/23/2006)
+> - Email advising an investment banker at Oppenheimer Funds: "[Y]ou can certainly build a portfolio by picking only bad names and you have largely done that as Rasc ahl is considered bad as is Fremont (bsabs fr, fhlt, jpmac fre, sabr fr, nheli fm deals) ace, arsi and lbmlt."[^1277] Mr. Lippmann listed ACE Securities Corp. as a "bad name" even though it was created by and associated with Deutsche Bank itself.[^1278] (8/4/2006)
 
 %%page 339%%
 
-> • Email to co-head of the Deutsche Bank CDO Group and to Global Head of Deutsche Bank's Securitized Product Group: "I was going to reject this [long purchase of a synthetic CDO] because it seems to be a pig cdo position dump 60^ but then I noticed winchester [Deutsche Bank affiliated hedge fund] is the portfolio selector……any idea???"1279 (8/4/2006)
-
-> • Email responding to a hedge fund trader at Spinnaker Capital asking about a subprime RMBS security issued by Credit Based Asset Servicing and Securitization, LLC ("cbass"): "That said I can probably short this name to some CDO fool."[^1280] (8/30/2006)
-
-> • Email responding to a hedge fund trader at Spinnaker Capital asking about MABS 2006-FRE1, a subprime RMBS security that contained Fremont loans and was issued by Mortgage Asset Securitization Transactions Asset-Backed Securities Trust: "This kind of stuff rarely trades in the synthetic market and will be tough for us to cover i.e. short to a CDO fool. That said if u gave us an order at 260 we would take it and try to dupe someone."[^1281] (9/1/2006)
-
-> • Email describing MABS 2006-FRE1, a subprime RMBS security that contained Fremont loans and was issued by Mortgage Asset Securitization Transactions Asset- Backed Securities Trust, as a "crap bond."[^1282] (9/01/2006)
-
-> • Email describing MSHEL 2006-1 B3, an RMBS security issued by Morgan Stanley as "crap we shorted"; referring to GSAMP 2006-HE3 M9, an RMBS security issued by Goldman Sachs, as "this bond sucks but we are short 20MM"; and noting with regard to ACE, which was created by and associated with Deutsche Bank, that "ace is generally horrible."[^1283] (9/21/2006)
-
-> • Email responding to a hedge fund trader at Mast Capital: "Long Beach is one of the weakest names in the market."[^1284] (10/20/2006)
-
-> • Email to a client selecting bonds to short: "u have picked some crap right away so u have figured it out."[^1285] (12/04/2006)
+> - Email to co-head of the Deutsche Bank CDO Group and to Global Head of Deutsche Bank's Securitized Product Group: "I was going to reject this [long purchase of a synthetic CDO] because it seems to be a pig cdo position dump 60^ but then I noticed winchester [Deutsche Bank affiliated hedge fund] is the portfolio selector……any idea???"1279 (8/4/2006)
+> - Email responding to a hedge fund trader at Spinnaker Capital asking about a subprime RMBS security issued by Credit Based Asset Servicing and Securitization, LLC ("cbass"): "That said I can probably short this name to some CDO fool."[^1280] (8/30/2006)
+> - Email responding to a hedge fund trader at Spinnaker Capital asking about MABS 2006-FRE1, a subprime RMBS security that contained Fremont loans and was issued by Mortgage Asset Securitization Transactions Asset-Backed Securities Trust: "This kind of stuff rarely trades in the synthetic market and will be tough for us to cover i.e. short to a CDO fool. That said if u gave us an order at 260 we would take it and try to dupe someone."[^1281] (9/1/2006)
+> - Email describing MABS 2006-FRE1, a subprime RMBS security that contained Fremont loans and was issued by Mortgage Asset Securitization Transactions Asset- Backed Securities Trust, as a "crap bond."[^1282] (9/01/2006)
+> - Email describing MSHEL 2006-1 B3, an RMBS security issued by Morgan Stanley as "crap we shorted"; referring to GSAMP 2006-HE3 M9, an RMBS security issued by Goldman Sachs, as "this bond sucks but we are short 20MM"; and noting with regard to ACE, which was created by and associated with Deutsche Bank, that "ace is generally horrible."[^1283] (9/21/2006)
+> - Email responding to a hedge fund trader at Mast Capital: "Long Beach is one of the weakest names in the market."[^1284] (10/20/2006)
+> - Email to a client selecting bonds to short: "u have picked some crap right away so u have figured it out."[^1285] (12/04/2006)
 
 %%page 340%%
 
-> • Email regarding GSAMP 06-NC2 M8, an RMBS security that contained New Century loans and was issued by Goldman Sachs: "[T]his is an absolute pig."[^1286] (12/8/2006)
-
-> • Email describing ABSHE 2006-HE1 M7, a subprime RMBS security issued by Asset Backed Securities Corporation Home Equity Loan Trust, as a "crap deal"; and describing ACE 2006 HE2 M7, a subprime RMBS securitization issued by ACE Securities Corp., as: "[D]eal is a pig!"[^1287] (3/1/2007)
+> - Email regarding GSAMP 06-NC2 M8, an RMBS security that contained New Century loans and was issued by Goldman Sachs: "[T]his is an absolute pig."[^1286] (12/8/2006)
+> - Email describing ABSHE 2006-HE1 M7, a subprime RMBS security issued by Asset Backed Securities Corporation Home Equity Loan Trust, as a "crap deal"; and describing ACE 2006 HE2 M7, a subprime RMBS securitization issued by ACE Securities Corp., as: "[D]eal is a pig!"[^1287] (3/1/2007)
 
 When asked about these emails, Mr. Lippmann told the Subcommittee that he generally thought all assets in CDOs were weak, and that his descriptions were often a form of posturing while negotiating prices with his clients. In a number of cases, however, Mr. Lippmann was assisting his clients in devising short strategies or communicating with Deutsche Bank colleagues, rather than negotiating with clients over prices. As will be seen later in this Report, some of the RMBS securities he criticized were, at virtually the same time, being included by his trading desk in Gemstone 7, which was later sold by Deutsche Bank's CDO Group.
 
@@ -4731,17 +4775,14 @@ In the fall of 2005, Mr. Lippmann said that he approached his supervisor Richard
 
 Mr. Lippmann also developed a presentation supporting his position entitled, "Shorting Home Equity Mezzanine Tranches." It made the following points:
 
-> • "Over 50% of outstanding subprime mortgages are located in MSAs [metropolitan statistical areas] with double digit 5 year average of annual home price growth rates.
-
-> • There is a strong negative correlation between home price appreciation and loss severity.
-
-> • Default of subprime mortgages are also strongly negatively correlated with home price growth rates.
+> - "Over 50% of outstanding subprime mortgages are located in MSAs [metropolitan statistical areas] with double digit 5 year average of annual home price growth rates.
+> - There is a strong negative correlation between home price appreciation and loss severity.
+> - Default of subprime mortgages are also strongly negatively correlated with home price growth rates.
 
 %%page 343%%
 
-> • Nearly $440 billion subprime mortgages will experience payment shocks in the next 3 years.
-
-> • Products that may be riskier than traditional home equity/subprime mortgages have become popular."[^1301]
+> - Nearly $440 billion subprime mortgages will experience payment shocks in the next 3 years.
+> - Products that may be riskier than traditional home equity/subprime mortgages have become popular."[^1301]
 
 Mr. Lippmann told the Subcommittee that Mr. D'Albert approved his taking the short position in or around November 2005, but said the trade was so big and controversial that Mr. Lippmann also had to get the approval of Rajeev Misra, Global Head of Credit Trading, Securitization and Commodities, who was based in London.[^1302] Mr. Lippmann said that, in or around November 2005, Mr. Misra reluctantly gave his approval for the short position, even though Mr. Misra believed mortgage related securities would continue to increase in value over time.
 
@@ -4893,11 +4934,9 @@ Gemstone 7's assets were assembled in late 2006 and early 2007, when the mortgag
 
 Credit Report. In December 2006, Mr. Lamont's CDO Group prepared a Credit Report for Deutsche Bank's credit risk management group to obtain internal approval for the securitization of Gemstone 7.[^1390] The Credit Report noted the following business risks for Deutsche Bank regarding Gemstone 7, including the possibility that the bank would be unable to sell $400 million of the Gemstone securities, which carried "significant" risk:
 
-> • "The portfolio is concentrated on RMBS obligations, with 67.6%, 20.2% and 1.9% of the RMBS exposure represented by 2005, 2006, and 2007 vintages, respectively, which results in significant vintage risk."
-
-• "RMBS accounts for ~90.0% of the initial collateral portfolio."
-
-> • "All unsold tranches have been taken back by HBK except for the Class A-1B ($400mm). Currently, we are working with [redacted] to see if they will be interested in taking the tranche. The plan for distribution if [redacted] decides not to take the tranche, will be a senior sequential repack. The Class A-1B will be broken into two tranches. DB will take the senior part (Class A-1B(i) $200mm) and HBK will take the bottom part (Class A-1B(i) $200mm). Once the repack is setup, then DB will try to syndicate the Class A-1B(i)."[^1391]
+> - "The portfolio is concentrated on RMBS obligations, with 67.6%, 20.2% and 1.9% of the RMBS exposure represented by 2005, 2006, and 2007 vintages, respectively, which results in significant vintage risk."
+> - "RMBS accounts for ~90.0% of the initial collateral portfolio."
+> - "All unsold tranches have been taken back by HBK except for the Class A-1B ($400mm). Currently, we are working with [redacted] to see if they will be interested in taking the tranche. The plan for distribution if [redacted] decides not to take the tranche, will be a senior sequential repack. The Class A-1B will be broken into two tranches. DB will take the senior part (Class A-1B(i) $200mm) and HBK will take the bottom part (Class A-1B(i) $200mm). Once the repack is setup, then DB will try to syndicate the Class A-1B(i)."[^1391]
 
 The business risks described in the internal Deutsche Bank credit report relating to "significant vintage risk" for the 2005, 2006, and 2007 vintage RMBS securities 1392were not disclosed in the Gemstone 7 offering materials given to investors. Although the March 15,[^2007] Offering Circular contained a "Risk Factor" section describing multiple risks associated with an investment in Gemstone 7, including those associated with residential asset backed securities, the Offering Circular was silent with respect to the above risks identified in the Credit Report, which were highlighted for Deutsche Bank management.
 
@@ -4905,11 +4944,9 @@ The business risks described in the internal Deutsche Bank credit report relatin
 
 The Offering Circular did, however, describe in detail a number of significant risks associated with RMBS securities. For example, it stated:
 
-> • "The risk of losses on residential mortgage loans is particularly relevant now. While there is always a risk of defaults or delinquencies in payment, recently losses on residential mortgage loans have been increasing and may continue to increase in the future. The losses have been most significant in respect of subprime mortgage loans but all are affected.
-
-> • A number of factors are contributing to the increase in losses. Residential property values that increased for many years are now declining. … Declining property values also exacerbate the losses due to a failure to apply adequate standards to potential borrowers. Failures to properly screen borrowers may include failures to do adequate due diligence on a borrower (including employment and income history) or the relevant property (including valuation) or failures to follow predatory lending and the other borrower-protection statutes. Increases in interest rates may also contribute to higher rates of loss. ...
-
-> • The increase in delinquencies and defaults has contributed to a declining market for mortgage loans. The declining market has, in turn, seriously impacted mortgage originators and servicers. … The financial difficulties of servicers in particular are likely to result in losses in respect of securities backed by residential mortgage loans. … At any one time, the portfolio of Residential ABS Securities may be backed by residential loans with disproportionately large aggregate principal amounts secured by properties in only a few states or regions."[^1393]
+> - "The risk of losses on residential mortgage loans is particularly relevant now. While there is always a risk of defaults or delinquencies in payment, recently losses on residential mortgage loans have been increasing and may continue to increase in the future. The losses have been most significant in respect of subprime mortgage loans but all are affected.
+> - A number of factors are contributing to the increase in losses. Residential property values that increased for many years are now declining. … Declining property values also exacerbate the losses due to a failure to apply adequate standards to potential borrowers. Failures to properly screen borrowers may include failures to do adequate due diligence on a borrower (including employment and income history) or the relevant property (including valuation) or failures to follow predatory lending and the other borrower-protection statutes. Increases in interest rates may also contribute to higher rates of loss. ...
+> - The increase in delinquencies and defaults has contributed to a declining market for mortgage loans. The declining market has, in turn, seriously impacted mortgage originators and servicers. … The financial difficulties of servicers in particular are likely to result in losses in respect of securities backed by residential mortgage loans. … At any one time, the portfolio of Residential ABS Securities may be backed by residential loans with disproportionately large aggregate principal amounts secured by properties in only a few states or regions."[^1393]
 
 These disclosures demonstrate that both HBK and Deutsche Bank were well aware of the deteriorating mortgage market and increased risks associated with RMBS and CDO securities, even as they were marketing the Gemstone 7 securities and claiming HBK had applied careful analysis in the asset selection process to ensure good quality CDO securities.
 
@@ -5427,7 +5464,7 @@ BBB Index Only
 
 All BBBs Index + CDS
 
-> 0 19-Jan 18-Feb 20-Mar 19-Apr 19-May 18-Jun 18-Jul 17-Aug 16-Sep 16-Oct 15-Nov 15-Dec 14-Jan 13-Feb
+19-Jan 18-Feb 20-Mar 19-Apr 19-May 18-Jun 18-Jul 17-Aug 16-Sep 16-Oct 15-Nov 15-Dec 14-Jan 13-Feb
 
 -2,000,000,000
 
@@ -5607,11 +5644,11 @@ AAA Disaster Insurance. Despite all the attention paid to the Mortgage Departmen
 
 Notionals (ABX convention)
 
-10,000,000,000 105
+- 10,000,000,000 — 105
 
-> Index Price 100
+Index Price
 
-8,000,000,000
+100 8,000,000,000
 
 95 6,000,000,000
 
@@ -5619,19 +5656,21 @@ Notionals (ABX convention)
 
 4,000,000,000 BBB Index + CDS
 
-> BBB- Index Only 85 BBB- Index + CDS
+BBB- Index Only
 
-2,000,000,000
+BBB- Index + CDS 2,000,000,000
 
-> All BBBs Index Only 80 All BBBs Index + CDS
+All BBBs Index Only
+
+All BBBs Index + CDS
 
 0 06-2 BBB- Index Equiv
 
-> 19-Jan 18-Feb 20-Mar 19-May 19-Apr 18-Jun18-Jul17-Aug 16-Sep 16-Oct 15-Dec 15-Nov 14-Jan 13-Feb 15-Mar 14-Apr 14-May 13-Jun 75 06-2 BBB- Idx Eq (MRMA)
+> 19-Jan18-Feb20-Mar19-Apr19-May18-Jun18-Jul17-Aug16-Sep16-Oct15-Nov15-Dec14-Jan13-Feb15-Mar14-Apr14-May13-Jun 75 06-2 BBB- Idx Eq (MRMA)
 
 06-2 BBB- Index Equiv -2,000,000,000 (w/Cash)
 
-> 06-2 BBB- Index Price 70
+06-2 BBB- Index Price
 
 -4,000,000,000
 
@@ -6009,11 +6048,13 @@ Aside from the Top Sheet that summed up totals across different asset classes to
 
 "Current [SPG Trading] Desk Position Summary:
 
-• RMBS Single-As - net short 900mm 100% in single-name CDS
+- RMBS Single-As - net short 900mm 100% in single-name CDS
 
 %%page 453%%
 
-> • RMBS BBB/BBB- - net short 3,000mm (80% in single-name CDS - 50% 2005 vintage • Correlation Desk - net short $400mm of ABX 06-1 BBB and BBB- • Mortgage Department short approx $4bb AAA ABX"1875
+> - RMBS BBB/BBB- - net short 3,000mm (80% in single-name CDS - 50% 2005 vintage
+> - Correlation Desk - net short $400mm of ABX 06-1 BBB and BBB-
+> - Mortgage Department short approx $4bb AAA ABX"1875
 
 Mr. Swenson's email summaries were forwarded to Mr. Montag and other senior executives to keep them apprised of the Department's positions.1876 While these documents did not provide an aggregate overall net short position for the Mortgage Department, they did establish net short positions in each of the various specific asset classes described, and they were apparently acceptable to and relied upon by various Goldman executives. Throughout most of 2007, these weekly reports clearly show very large net short positions in mortgage related assets.1877
 
@@ -6959,7 +7000,11 @@ Benefit Mutual, which bought $10 million of the AA rated securities; and Bear St
 
 Profiting from Hudson. On October 30, 2006, after Hudson 1 was presented to investors and pre-sold most of its securities, Peter Ostrem, the head of the CDO Origination Desk, sent a celebratory email to the ABS and CDO teams with Hudson highlights. He wrote: "Goldman was the sole buyer of protection on the entire $2.0 billion of assets," meaning Goldman had kept 100% of the short position. By shorting Hudson, Goldman had transferred $1.2 billion worth of risky ABX assets Goldman wanted off its books, and shorted another $800 million in RMBS securities. Mr. Ostrem also listed these "highlights":
 
-> • "P&L [Profit and Loss] booked of $8.5mm .... Plus, ongoing P&L to GS for acting as liquidation agent equal to $2.5mm per year for the next 4 years • Hudson Mezz went long $1.2bln of BBB/BBB- ABX from ABS trading desk at market wides 4 weeks ago • Fastest execution of a SP [Structured Product] CDO done at Goldman (4 weeks from inception to pricing) • Over half the Equity was sold by Andy Davilman • ... Super senior note ($1.2bln in size) was executed in the first week of the transaction and was a key driver of this deal[']s success (covered by Nicole Martin)."2283
+> - "P&L [Profit and Loss] booked of $8.5mm .... Plus, ongoing P&L to GS for acting as liquidation agent equal to $2.5mm per year for the next 4 years
+> - Hudson Mezz went long $1.2bln of BBB/BBB- ABX from ABS trading desk at market wides 4 weeks ago
+> - Fastest execution of a SP [Structured Product] CDO done at Goldman (4 weeks from inception to pricing)
+> - Over half the Equity was sold by Andy Davilman
+> - ... Super senior note ($1.2bln in size) was executed in the first week of the transaction and was a key driver of this deal[']s success (covered by Nicole Martin)."2283
 
 Over the next year, Goldman pocketed nearly $1.7 billion in gross revenues from Hudson 1, all of which was at the expense of the Hudson investors.2284 As the value of the RMBS securities referenced in the ABX indices declined, Goldman, as the sole short party in Hudson, collected $1.393 billion in gains directly from the investors to whom it had sold the Hudson securities. Goldman's $1.393 billion gains were, in turn, offset internally at the firm by the ABX losses recorded on the books of its ABS Desk. Goldman made another $304 million in gains due to its short of the other $800 million in single name CDS contracts included in Hudson 1.2285 That $304 million gain was also at the expense of the investors to whom Goldman had sold the Hudson securities.
 
@@ -7283,7 +7328,7 @@ The chart on the next page shows how, between mid-June 2007 and early August 200
 
 > [SEE CHART NEXT PAGE: Timberwolf Marks, Axes, and Sales, prepared by the Permanent Subcommittee on Investigations.]
 
-> Timberwolf Marks, Axes, and Sales 3/1/2007 3/31/2007 4/30/2007 5/30/2007 6/29/2007 7/29/2007 8/28/2007 9/27/2007 10/27/2007 11/26/2007 12/26/2007 140
+> Timberwolf Marks, Axes, and Sales 3/1/2007 3/31/2007 4/30/2007 5/30/2007 6/29/2007 7/29/2007 8/28/2007 9/27/2007 10/27/2007 11/26/2007 12/26/2007
 
 > Sales of 120 TWOLF‐ 3/13/07: A1A‐ $99.45 Axes (Sales A1B‐ $100 A1C‐ $99.71 Directives) A1D‐ $100 INC‐ $100
 
@@ -7291,9 +7336,7 @@ Price
 
 Sales Marks
 
-> 0 3/1/2007 3/31/2007 4/30/2007 5/30/2007 6/29/2007 7/29/2007 8/28/2007 9/27/2007 10/27/2007 11/26/2007 12/26/2007
-
-Prepared by the U.S. Senate Permanent Subcommittee on Investigations, February 2011. Derived from Goldman Sachs document, GS MBS-E-000779366.
+3/1/2007 3/31/2007 4/30/2007 5/30/2007 6/29/2007 7/29/2007 8/28/2007 9/27/2007 10/27/2007 11/26/2007 12/26/2007 Prepared by the U.S. Senate Permanent Subcommittee on Investigations, February 2011. Derived from Goldman Sachs document, GS MBS-E-000779366.
 
 %%page 559%%
 
@@ -7605,11 +7648,9 @@ Credit Risk Assets (%)
 
 30.00% G) (,J
 
-I Anderson c: nI 25.00% • Hout Bay
+I Anderson c: nI 25.00% • Hout Bay - nI In II Hudson High Grade G) 20.00% II Hudson Mezz 1 I/) I/)
 
-- nI In II Hudson High Grade G) 20.00% II Hudson Mezz 1 I/) I/)
-
-- <C c: 15.00% e ...
+-e... <C c: 15.00%
 
 II Hudson Mezz 2
 
@@ -10747,7 +10788,7 @@ activities study under Section 620 should consider the role of federally insured
 
 [^1248]: Section 11 of the Securities Act of 1933, codified at 15 U.S.C. § 77a.
 
-[^1249]: In the Matter of Richmark Capital Corporation , Securities Exchange Act Rel. No. 48758 (Nov. 7, 2003) (citing Chasins v. Smith Barney & Co., Inc ., 438 F.3d 1167, 1172 (2d Cir. 1970) ("The investor … must be permitted to evaluate overlapping motivations through appropriate disclosures, especially where one motivation is economic self- interest")).
+[^1249]: In the Matter of Richmark Capital Corporation, Securities Exchange Act Rel. No. 48758 (Nov. 7, 2003) (citing Chasins v. Smith Barney & Co., Inc., 438 F.3d 1167, 1172 (2d Cir. 1970) ("The investor … must be permitted to evaluate overlapping motivations through appropriate disclosures, especially where one motivation is economic self- interest")).
 
 [^1250]: FINRA Notice No. 96-60.
 
@@ -12109,7 +12150,7 @@ activities study under Section 620 should consider the role of federally insured
 
 [^1931]: 2/27/2007 email from Richard Ruzika to Tom Montag and Daniel Sparks, GS MBS-E-002204942; 8/15/2007 email from Gary Cohn, "Trading VaR $165mm," GS MBS-E-016344758.
 
-[^1932]: 8/16/2007 email from Jon W inkelried to Daniel Sparks, "Mort P&L Explanation," GS MBS-E-010680327-330; 7/25/2007 email from David Viniar to Gary Cohn, "Private & Confidential: FICC Financial Package 07/25/07," GS MBS-E-009861799, Hearing Exhibit 4/27-26; 2/27/2007 email from Richard Ruzika to Tom Montag, others, GS MBS-E-002204942 ; 8/15/2007 email from Gary Cohn, "Trading VaR $165mm," GS MBS-E-016344758.
+[^1932]: 8/16/2007 email from Jon W inkelried to Daniel Sparks, "Mort P&L Explanation," GS MBS-E-010680327-330; 7/25/2007 email from David Viniar to Gary Cohn, "Private & Confidential: FICC Financial Package 07/25/07," GS MBS-E-009861799, Hearing Exhibit 4/27-26; 2/27/2007 email from Richard Ruzika to Tom Montag, others, GS MBS-E-002204942; 8/15/2007 email from Gary Cohn, "Trading VaR $165mm," GS MBS-E-016344758.
 
 [^1933]: 8/16/2007 email from Jon W inkelried to Daniel Sparks, "Mort P&L Explanation," GS MBS-E-010680327-330.
 
@@ -12117,7 +12158,7 @@ activities study under Section 620 should consider the role of federally insured
 
 [^1935]: 6/28/2007 email from David Lehman to Daniel Sparks, GS MBS-E-010623720.
 
-[^1936]: See 8/16/2007 email from Jon W inkelried to Daniel Sparks, "Mort P&L Explanation," GS MBS-E-010680327- 330; 7/25/2007 email from David Viniar to Gary Cohn, "Private & Confidential: FICC Financial Package 07/25/07," GS MBS-E-009861799, Hearing Exhibit 4/27-26. 2/27/2007 email from Richard Ruzika to Tom Montag, others, GS MBS-E-002204942 ; 8/15/2007 email from Gary Cohn, "Trading VaR $165mm," GS MBS-E-016344758.
+[^1936]: See 8/16/2007 email from Jon W inkelried to Daniel Sparks, "Mort P&L Explanation," GS MBS-E-010680327- 330; 7/25/2007 email from David Viniar to Gary Cohn, "Private & Confidential: FICC Financial Package 07/25/07," GS MBS-E-009861799, Hearing Exhibit 4/27-26. 2/27/2007 email from Richard Ruzika to Tom Montag, others, GS MBS-E-002204942; 8/15/2007 email from Gary Cohn, "Trading VaR $165mm," GS MBS-E-016344758.
 
 [^1937]: 2/26/2007 Market Risk Report, Mortgage Risk Portfolio Summary, GS MBS-E-010388177.
 
@@ -12565,7 +12606,7 @@ activities study under Section 620 should consider the role of federally insured
 
 [^2165]: 8/6/2007 email from David Lehman to Japan sales, "RE: Tokyo Star," GS MBS-E-001927891.
 
-[^2166]: Id .
+[^2166]: Id.
 
 [^2167]: 6/6/2007 email from David Lehman to Japan sales, "Point Pleasant Marks – request from Tokyo Star Bank," GS MBS-E-001912408-10 at 9.
 
@@ -12783,7 +12824,7 @@ activities study under Section 620 should consider the role of federally insured
 
 [^2273]: 10/12/2006 email from Thomas Cornacchia to Peter Ostrem and others, GS MBS-E-0000066413.
 
-[^2274]: 10/26/2006 email from Arbind Jha, "MarketRisk: Mortgage Risk Report (cob 10/25/2006)," GS MBS-E- 0000056041, Hearing Exhibit 4/27-89. That same day, October 26, 2006, Mr. Swenson also described the risk transfer to Goldman executive Bill McMahon when updating him on the trading desk's ABX position: "In addition to $2bb of risk that was placed into the CDO , we have sold to retail since 4pm yesterday $2bb of BBB- risk." 10/26/2006 email from Michael Swenson to Bill McMahon, others, GS MBS-E-0000054856.
+[^2274]: 10/26/2006 email from Arbind Jha, "MarketRisk: Mortgage Risk Report (cob 10/25/2006)," GS MBS-E- 0000056041, Hearing Exhibit 4/27-89. That same day, October 26, 2006, Mr. Swenson also described the risk transfer to Goldman executive Bill McMahon when updating him on the trading desk's ABX position: "In addition to $2bb of risk that was placed into the CDO, we have sold to retail since 4pm yesterday $2bb of BBB- risk." 10/26/2006 email from Michael Swenson to Bill McMahon, others, GS MBS-E-0000054856.
 
 [^2275]: 10/11/2006 Goldman internal email, "FW : Hudson Mezz," GS MBS-E-017502610, Hearing Exhibit 4/27-170c. (A Goldman employee asked a sales associate: "what specifically did AIB say was 'junk' about the hudson mezz deal?" The employee then forwarded the email to M r. Herrick saying: "You may want to ask [the sales associate] about this when she's there tomorrow and Friday. ... She said 'AIB are too smart to buy this kind of junk.'").
 
@@ -13191,7 +13232,7 @@ activities study under Section 620 should consider the role of federally insured
 
 [^2477]: Id.
 
-[^2478]: Performance Review for Joshua Birnbaum, GS-PSI-01972, Hearing Exhibit 4/27-55c. S ee also 6/26/2007 email from Deeb Salem to Michael Swenson, GS MBS-E-012371112.
+[^2478]: Performance Review for Joshua Birnbaum, GS-PSI-01972, Hearing Exhibit 4/27-55c. See also 6/26/2007 email from Deeb Salem to Michael Swenson, GS MBS-E-012371112.
 
 [^2479]: See Goldman response to Subcommittee QFR at PSI_QFR_GS0030.
 
