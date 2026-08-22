@@ -1,18 +1,21 @@
 import { Hono } from "hono";
 import { loadRegistry } from "./lib/registry";
-import { renderMarkdown } from "./lib/markdown";
-import { loadReportMarkdown, loadChangelog } from "./lib/source";
+import { loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
-import { renderReport } from "./templates/report";
+import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
-import { splitSections, sectionFor, type Section } from "./lib/sections";
-import { memo } from "./lib/prepared";
 import { encodeAnchor } from "../assets/anchor.js";
-import { extractParagraph, quotedPassage } from "./templates/report";
+import {
+  openGenerated,
+  loadReportMeta,
+  loadReportBody,
+  type AssetsBinding,
+  type PrerenderMeta,
+} from "./lib/prerendered";
 import {
   actorHash,
   markCounts,
@@ -24,7 +27,7 @@ import {
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
-  ASSETS?: { fetch: (request: Request) => Promise<Response> };
+  ASSETS?: AssetsBinding;
   /** "bundled" reads reports from the worker bundle, otherwise from disk. */
   REPORTS_SOURCE?: string;
   /**
@@ -184,6 +187,20 @@ app.get("/highlights", (c) => c.html(renderHighlights()));
  * reports. Sections rather than /full: a 300 KB page ranks worse than the
  * section that actually answers the query.
  */
+/**
+ * The section-level entries, precomputed at build time (#115) — the one
+ * thing this route used to need a full markdown render of every report for,
+ * which made it the one route caching could not fix: it rendered all four
+ * reports in a single request, so no isolate-level memo (one report at a
+ * time) and no edge cache (first request always pays full price) helped.
+ */
+async function sitemapSectionUrls(
+  assets: AssetsBinding | undefined
+): Promise<Array<{ report: string; slug: string }>> {
+  const response = await openGenerated(assets, "sitemap-urls.json");
+  return response ? response.json() : [];
+}
+
 app.get("/sitemap.xml", async (c) =>
   cached(c, async () => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
@@ -199,10 +216,9 @@ app.get("/sitemap.xml", async (c) =>
 
   for (const report of registry.reports) {
     urls.push({ loc: `/reports/${report.id}`, priority: "0.9" });
-    const markdown = await loadReportMarkdown(report.source_path, sourceMode);
-    for (const section of splitSections(renderMarkdown(markdown))) {
-      urls.push({ loc: `/reports/${report.id}/${section.slug}`, priority: "0.8" });
-    }
+  }
+  for (const entry of await sitemapSectionUrls(c.env?.ASSETS)) {
+    urls.push({ loc: `/reports/${entry.report}/${entry.slug}`, priority: "0.8" });
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
@@ -236,31 +252,36 @@ app.get("/changelog", async (c) => {
   return c.html(renderChangelog(await loadChangelog(sourceMode)));
 });
 
-/** Loads a report and its rendered sections, or null if there is no such report. */
-async function loadReport(c: any, reportId: string) {
+/**
+ * A report's registry entry plus its pre-rendered metadata (#115) — words,
+ * the section list, and a paragraph → section lookup. Cheap: no report body
+ * html, which is what made rendering this expensive in the first place. The
+ * body itself, when a route actually needs it, is a separate fetch —
+ * `loadReportBody` from ./lib/prerendered.
+ */
+async function loadReportEntry(
+  c: any,
+  reportId: string
+): Promise<{ report: ReportMeta; meta: PrerenderMeta } | null> {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const registry = await loadRegistry(sourceMode);
   const report = registry.reports.find((entry: { id: string }) => entry.id === reportId);
   if (!report) return null;
 
-  const markdown = await loadReportMarkdown(report.source_path, sourceMode);
-  // Rendering costs more CPU than one request is allowed, so an isolate does
-  // it once and every later request on that isolate is nearly free. See
-  // src/lib/prepared.ts — a holding measure until #107.
-  const prepared = memo(`${sourceMode}:${reportId}`, () => {
-    const html = renderMarkdown(markdown);
-    return { html, sections: splitSections(html) };
-  });
+  const meta = await loadReportMeta(c.env?.ASSETS, reportId);
+  if (!meta) return null;
 
-  return { report, html: prepared.html, sections: prepared.sections };
+  return { report, meta };
 }
 
 /**
  * Serve a page from the edge cache, and put it there when it is built.
  *
- * A cache hit costs almost no CPU, which is the whole point: the expensive
- * render happens once per edge rather than once per reader. Report pages are
- * immutable between deploys, so they can be held for a long time.
+ * Only used for the `?p=`/`?h=` path now (#115) — the common case is a
+ * literal static file served straight from ASSETS, which Cloudflare already
+ * caches correctly and, unlike this Cache API wrapper, actually invalidates
+ * on deploy. This wrapper's own staleness is a known, accepted gap: a cached
+ * quote-link response can outlive a re-ingest for up to `maxAge`.
  */
 async function cached(
   c: any,
@@ -355,31 +376,33 @@ app.get("/reports/:id", async (c) => {
     return c.redirect(url.toString(), 301);
   }
 
-  const loaded = await loadReport(c, reportId);
+  const loaded = await loadReportEntry(c, reportId);
   if (!loaded) return c.html(renderNotFound(false), 404);
+  const { report, meta } = loaded;
 
   // A link naming a passage goes straight to the section holding it. This is
   // why share links carry ?p= as well as the fragment: the fragment never
   // reaches us, so without it a shared link could not be routed at all.
+  // The lookup is the pre-rendered paragraph → section map (#115) — routing
+  // a link never needs the report body itself, just which section it's in.
   const paragraph = c.req.query("p");
   if (paragraph) {
-    const section = sectionFor(loaded.sections, paragraph);
-    if (section) {
+    const slug = meta.paragraphToSection[paragraph];
+    if (slug) {
       // ?h= names the words within that paragraph and has to survive the hop,
       // or a shared quote arrives as a plain paragraph link.
       const quote = c.req.query("h");
       const anchor = quote ? `&h=${encodeURIComponent(quote)}` : "";
       return c.redirect(
-        `/reports/${reportId}/${section.slug}?p=${encodeURIComponent(paragraph)}${anchor}#${paragraph}`,
+        `/reports/${reportId}/${slug}?p=${encodeURIComponent(paragraph)}${anchor}#${paragraph}`,
         302
       );
     }
   }
 
-  const words = loaded.html.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
-  const topMarked = await topMarkedPassages(c.env, reportId, loaded.html, loaded.sections);
+  const topMarked = await topMarkedPassages(c.env, reportId, meta);
   return c.html(
-    renderReportOverview(loaded.report, loaded.sections, { words }, topMarked)
+    renderReportOverview(report, meta.sections, { words: meta.words }, topMarked)
   );
 });
 
@@ -388,12 +411,15 @@ app.get("/reports/:id", async (c) => {
  * top few passages, with the text and link to show for each. Best-effort —
  * an empty list here costs a reader nothing, so any failure degrades to that
  * rather than to a broken contents page.
+ *
+ * The report body (#115) is fetched only when D1 actually has a candidate —
+ * the common case, before any passage has enough readers, costs nothing more
+ * than the D1 read that says so.
  */
 async function topMarkedPassages(
   env: Bindings | undefined,
   reportId: string,
-  html: string,
-  sections: Section[]
+  meta: PrerenderMeta
 ): Promise<TopPassage[]> {
   const db = env?.DB;
   if (!db) return [];
@@ -403,15 +429,20 @@ async function topMarkedPassages(
 
   try {
     const counts = await markCounts(db, reportId, threshold);
+    if (!counts.length) return [];
+
+    const body = await loadReportBody(env?.ASSETS, reportId);
+    if (!body) return [];
+
     const top: TopPassage[] = [];
     for (const row of counts) {
       if (top.length >= LIMIT) break;
-      const section = sectionFor(sections, row.paragraph);
-      const paragraph = extractParagraph(html, row.paragraph);
-      if (!section || !paragraph) continue;
+      const slug = meta.paragraphToSection[row.paragraph];
+      const paragraph = extractParagraph(body.html, row.paragraph);
+      if (!slug || !paragraph) continue;
 
       const anchor = encodeAnchor({ prefix: row.prefix, exact: row.exact, suffix: row.suffix });
-      const quote = anchor ? quotedPassage(html, row.paragraph, anchor) : paragraph;
+      const quote = anchor ? quotedPassage(body.html, row.paragraph, anchor) : paragraph;
       if (!quote) continue;
 
       const query = anchor ? `&h=${anchor}` : "";
@@ -419,7 +450,7 @@ async function topMarkedPassages(
         quote,
         page: row.page,
         readers: row.readers,
-        url: `/reports/${reportId}/${section.slug}?p=${encodeURIComponent(row.paragraph)}${query}#${row.paragraph}`,
+        url: `/reports/${reportId}/${slug}?p=${encodeURIComponent(row.paragraph)}${query}#${row.paragraph}`,
       });
     }
     return top;
@@ -428,36 +459,63 @@ async function topMarkedPassages(
   }
 }
 
-app.get("/reports/:id/full", async (c) =>
-  cached(c, async () => {
-    const loaded = await loadReport(c, c.req.param("id"));
-    if (!loaded) return c.html(renderNotFound(false), 404);
-    return c.html(
-      renderReport(loaded.report, loaded.html, c.req.query("p"), c.req.query("h"))
-    );
-  })
-);
+/**
+ * The common case — no `?p=`/`?h=` — is a literal static page (#115),
+ * byte-identical to what `render` would produce, served straight from
+ * ASSETS with no per-request render at all. Returns null if there is no
+ * such pre-rendered page, so the caller can 404.
+ */
+async function servePrerendered(assets: AssetsBinding | undefined, path: string): Promise<Response | null> {
+  const page = await openGenerated(assets, path);
+  if (!page) return null;
+  return new Response(page.body, {
+    status: 200,
+    headers: { "content-type": "text/html; charset=utf-8" },
+  });
+}
 
-app.get("/reports/:id/:section", async (c) =>
-  cached(c, async () => {
-    const loaded = await loadReport(c, c.req.param("id"));
-    if (!loaded) return c.html(renderNotFound(false), 404);
+app.get("/reports/:id/full", async (c) => {
+  const reportId = c.req.param("id");
+  const p = c.req.query("p");
+  const h = c.req.query("h");
 
-    const slug = c.req.param("section");
-    const index = loaded.sections.findIndex((section) => section.slug === slug);
+  if (!p && !h) {
+    const page = await servePrerendered(c.env?.ASSETS, `reports/${reportId}/full.html`);
+    return page ?? c.html(renderNotFound(false), 404);
+  }
+
+  return cached(c, async () => {
+    const loaded = await loadReportEntry(c, reportId);
+    if (!loaded) return c.html(renderNotFound(false), 404);
+    const body = await loadReportBody(c.env?.ASSETS, reportId);
+    if (!body) return c.html(renderNotFound(false), 404);
+    return c.html(renderReport(loaded.report, body.html, p, h));
+  });
+});
+
+app.get("/reports/:id/:section", async (c) => {
+  const reportId = c.req.param("id");
+  const slug = c.req.param("section");
+  const p = c.req.query("p");
+  const h = c.req.query("h");
+
+  if (!p && !h) {
+    const page = await servePrerendered(c.env?.ASSETS, `reports/${reportId}/sections/${slug}.html`);
+    return page ?? c.html(renderNotFound(false), 404);
+  }
+
+  return cached(c, async () => {
+    const loaded = await loadReportEntry(c, reportId);
+    if (!loaded) return c.html(renderNotFound(false), 404);
+    const body = await loadReportBody(c.env?.ASSETS, reportId);
+    if (!body) return c.html(renderNotFound(false), 404);
+
+    const index = body.sections.findIndex((section) => section.slug === slug);
     if (index === -1) return c.html(renderNotFound(false), 404);
 
-    return c.html(
-      renderSection(
-        loaded.report,
-        loaded.sections,
-        index,
-        c.req.query("p"),
-        c.req.query("h")
-      )
-    );
-  })
-);
+    return c.html(renderSection(loaded.report, body.sections, index, p, h));
+  });
+});
 
 app.notFound((c) =>
   c.html(renderNotFound(isLegacyPath(new URL(c.req.url).pathname)), 404)

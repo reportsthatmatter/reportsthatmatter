@@ -45,7 +45,9 @@ function renderMostMarked(topMarked: TopPassage[]): string {
 /** Contents for a report: the spine a 169-page document needs. */
 export function renderReportOverview(
   meta: ReportMeta,
-  sections: Section[],
+  // Only structural fields — the contents listing never reads a section's
+  // html, and #115's pre-rendered path only has that much to give it.
+  sections: Pick<Section, "slug" | "title" | "level" | "page">[],
   stats: { words: number; pages?: number },
   topMarked: TopPassage[] = []
 ): string {

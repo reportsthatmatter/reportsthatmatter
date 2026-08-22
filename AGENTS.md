@@ -44,10 +44,12 @@ an interactive session.
 | `src/templates/` | Page shells; `layout.ts` is the design system's HTML |
 | `src/lib/markdown.ts` | Markdown → HTML, paragraph ids, sidenotes, page anchors |
 | `src/lib/sections.ts` | Splitting a rendered report into section pages |
+| `src/lib/prerendered.ts` | Reading pre-rendered report artifacts (ASSETS or disk) |
 | `assets/styles.css` | The design system. Hand-written, no framework |
 | `assets/share.js` | Highlight-to-share |
 | `scripts/ingest/` | PDF → Markdown pipeline + fidelity checks |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
+| `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `reports/registry.yaml` | What is published |
 | `docs/v2-features.yaml` | What is done and what is next |
 
@@ -122,9 +124,17 @@ Cloudflare account `office@atomatic.net`, already authenticated via
 `pnpm wrangler login`. Live on `reportsthatmatter.org` and `www` (301 to apex);
 the pre-V2 site is served on `old.reportsthatmatter.org` by the same Worker.
 
-⚠️ **Bundle limit.** Reports are bundled into the Worker script, currently
-**1.19 MB gzipped against a 3 MB cap** — roughly 5–6 more reports before deploys
-fail. `docs/plans/2026-08-01-architecture.md` has the plan for when it bites.
+**Report pages are pre-rendered, not bundled or rendered on request** (#115,
+`docs/plans/2026-08-21-serving-architecture.md`). `pnpm prerender` renders every
+report once and writes the result to `assets/generated/` — static pages for
+`/full` and each section, served straight from Cloudflare's assets, plus small
+per-report metadata the Worker still needs for the contents page, `/sitemap.xml`,
+and a `?p=`/`?h=` quote link. `verify.sh` runs `pnpm prerender` itself, so a
+report or template edit is always reflected in the checks; **run it by hand
+before a bare `wrangler deploy`**, or the deploy will upload whatever
+`assets/generated/` last had committed. This is also why the old bundle-size
+gotcha is gone: report markdown no longer ships inside the Worker script at
+all, bundled or otherwise.
 
 ## Gotchas
 

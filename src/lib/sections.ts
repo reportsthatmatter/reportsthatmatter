@@ -70,6 +70,28 @@ export function sectionFor(sections: Section[], paragraphId: string): Section | 
 }
 
 /**
+ * Every paragraph id in the document, mapped to the slug of its section.
+ *
+ * `sectionFor` needs each section's full `html` to answer the same question,
+ * which is fine when a request already has it loaded — and too much to fetch
+ * just to route a `?p=` link when the pre-rendered path (#115) keeps html out
+ * of the small per-report metadata. This is the version of the lookup that
+ * only needs ids, computed once at build time from the same sections.
+ */
+export function paragraphIndex(sections: Section[]): Record<string, string> {
+  const index: Record<string, string> = {};
+  const idPattern = /\bid="([a-z0-9-]+)"/g;
+
+  for (const section of sections) {
+    for (const match of section.html.matchAll(idPattern)) {
+      if (!(match[1] in index)) index[match[1]] = section.slug;
+    }
+  }
+
+  return index;
+}
+
+/**
  * Folds a too-short part into the one before it, so the contents lists sections
  * a reader would recognise as sections. The heading survives in the body, so
  * nothing is hidden — it just stops being a page of its own.

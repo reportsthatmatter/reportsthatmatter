@@ -1,30 +1,18 @@
 import { describe, expect, it, vi } from "vitest";
-import { loadReportMarkdown } from "../src/lib/source";
+import { loadChangelog } from "../src/lib/source";
 
 vi.mock("../src/lib/bundled", () => ({
-  bundledReports: {
-    "reports/us-psi-financial-crisis/full.md":
-      "# Bundled Report",
-  },
+  changelogText: "# Bundled Changelog",
 }));
 
 describe("source", () => {
-  it("loads markdown from bundled reports when configured", async () => {
-    const original = process.env.REPORTS_SOURCE;
-    process.env.REPORTS_SOURCE = "bundled";
-
-    const markdown = await loadReportMarkdown(
-      "reports/us-psi-financial-crisis/full.md"
-    , "bundled");
-    expect(markdown).toContain("Bundled Report");
-
-    process.env.REPORTS_SOURCE = original;
+  it("loads the changelog from the worker bundle when configured", async () => {
+    const markdown = await loadChangelog("bundled");
+    expect(markdown).toContain("Bundled Changelog");
   });
 
-  it("loads markdown from source_path", async () => {
-    const markdown = await loadReportMarkdown(
-      "reports/us-psi-financial-crisis/full.md"
-    , "local");
+  it("loads the changelog from disk otherwise", async () => {
+    const markdown = await loadChangelog("local");
     expect(markdown).toContain("#");
   });
 });

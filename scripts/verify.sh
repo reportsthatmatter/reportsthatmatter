@@ -26,6 +26,19 @@ trap cleanup EXIT
 
 # ---------- static checks ----------
 
+step "Pre-render"
+# Report pages are static assets now (#115) — generated from whatever is
+# currently in reports/, not from whatever was committed last. Regenerating
+# here, always, is what makes that safe: a markdown or template edit with no
+# matching `pnpm prerender` run would otherwise pass every check below
+# against stale output.
+if pnpm prerender >/tmp/rtm-prerender.log 2>&1; then
+  pass "assets/generated/ is current"
+else
+  fail "pnpm prerender"
+  tail -20 /tmp/rtm-prerender.log
+fi
+
 step "Typecheck"
 if pnpm typecheck >/tmp/rtm-typecheck.log 2>&1; then
   pass "tsc --noEmit"
@@ -206,6 +219,24 @@ for id in $IDS; do
       *"/reports/${id}/"*"#${first_para}") pass "?p=${first_para} routes to its section" ;;
       *) fail "?p=${first_para} routed to '${routed}'" ;;
     esac
+
+    # The base /full page is a static asset now (#115) — nothing here is
+    # "cold" in the sense that used to matter. What still needs proving on a
+    # never-seen-before URL is the ?p=/?h= branch, which renders dynamically
+    # and sits behind the cached() wrapper's exact-URL cache — a cache-buster
+    # guarantees this exact URL was never hit before, local or production.
+    cold_url="/reports/${id}/full?p=${first_para}&cachebust=$(date +%s%N)"
+    cold_file="${FETCH_DIR}/cold_${id}"
+    cold_status=$(curl -s -o "$cold_file" -w '%{http_code}' "${BASE}${cold_url}")
+    if [ "$cold_status" = "200" ]; then
+      if grep -qF "id=\"${first_para}\"" "$cold_file"; then
+        pass "?p=${first_para} (cache-busted, never-cached URL) renders the named paragraph"
+      else
+        fail "?p=${first_para} (cache-busted) 200 but missing the named paragraph"
+      fi
+    else
+      fail "?p=${first_para} (cache-busted) → ${cold_status}"
+    fi
   fi
 
   # Sidenotes only exist where the source has footnotes.
