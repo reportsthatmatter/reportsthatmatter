@@ -29,6 +29,24 @@ you come back. Everything you have kept is listed at `/highlights` and exports
 as Markdown — quote, source, printed page, and a link back to the exact words.
 It lives in your browser: no account, and none of it is sent to us.
 
+**What other readers marked.** A passage highlighted by another reader now
+shows the same way any highlight does, faintly at first and stronger as more
+readers mark it — no count printed, just the sense that this passage caught
+someone's attention too. Nothing is recorded until a reader shares or saves a
+passage, and nothing about a reader is kept, only a passage and how many
+people marked it.
+
+---
+
+## 2026-08-22 — Report pages load without touching the source document
+
+Every report page used to be rendered from its source markdown on the fly,
+which was slow enough to occasionally exceed the CPU a single request is
+allowed and return an error page instead. Report pages are now built once,
+ahead of time, and served as-is — pages load faster and hold up under a spike
+of traffic that would previously have knocked some of them offline. No visible
+change otherwise.
+
 ---
 
 ## 2026-08-02 — A third report, and better footnotes everywhere

@@ -266,6 +266,33 @@ describe("splitSections", () => {
   });
 });
 
+describe("paragraphIndex", () => {
+  it("maps every paragraph id to the slug of the section holding it", async () => {
+    const { splitSections, paragraphIndex } = await import("../src/lib/sections");
+    const html = renderMarkdown("## One\n\nAlpha text here.\n\n## Two\n\nBeta text here.");
+    const sections = splitSections(html, 0);
+
+    const index = paragraphIndex(sections);
+
+    expect(index["alpha-text-here"]).toBe("one");
+    expect(index["beta-text-here"]).toBe("two");
+    expect(index["nope"]).toBeUndefined();
+  });
+
+  it("agrees with sectionFor for every paragraph, without needing section html at lookup time", async () => {
+    const { splitSections, sectionFor, paragraphIndex } = await import("../src/lib/sections");
+    const html = renderMarkdown(
+      "## One\n\nAlpha text here.\n\n## Two\n\nBeta text here.\n\nGamma follows beta."
+    );
+    const sections = splitSections(html, 0);
+    const index = paragraphIndex(sections);
+
+    for (const id of Object.keys(index)) {
+      expect(sections.find((s) => s.slug === index[id])).toBe(sectionFor(sections, id));
+    }
+  });
+});
+
 describe("lists are citable", () => {
   it("gives a top-level list a text-derived id and a permalink", () => {
     const html = renderMarkdown(
