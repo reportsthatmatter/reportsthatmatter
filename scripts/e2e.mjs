@@ -6,6 +6,12 @@ import { chromium } from "playwright";
 import { readFileSync } from "node:fs";
 
 const base = process.argv[2] || "http://localhost:8788";
+// Recording a mark writes a real row to the live D1 database — fine against a
+// local worker (thrown away with its .wrangler state), not fine against
+// production, which would otherwise pick up a fresh "1 reader" mark from a
+// headless browser on every VERIFY_BASE run (AGENTS.md documents that as the
+// expected post-deploy check). Read-only checks still run everywhere.
+const isLocal = /localhost|127\.0\.0\.1/.test(base);
 const failures = [];
 
 const ok = (name) => console.log(`ok ${name}`);
@@ -344,47 +350,51 @@ if (firstReportId) {
   check(listed.entries > 0, "saved highlights are listed at /highlights", String(listed.entries));
   check(listed.markdown, "highlights can be exported as Markdown");
 
-  // social proof (#96): a real mark, recorded against the real local D1, has
-  // to come back through /reports/:id/marks and render as a highlight — this
-  // is the one check in the suite that proves the SQL itself is right, not
-  // just the fake D1 the unit tests use.
-  await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
-  const markedParagraphId = await page.evaluate(() => {
-    const p = document.querySelector(".prose p[id]");
-    const range = document.createRange();
-    range.selectNodeContents(p);
-    const sel = window.getSelection();
-    sel.removeAllRanges();
-    sel.addRange(range);
-    document.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
-    return p.id;
-  });
-  await page.waitForTimeout(150);
-  await page.locator('#share-pop button[data-action="copy-link"]').click();
-  await page.waitForTimeout(150); // the mark POST is fire-and-forget
+  // social proof (#96): a real mark, recorded against a real D1, has to come
+  // back through /reports/:id/marks and render as a highlight — this is the
+  // one check in the suite that proves the SQL itself is right, not just the
+  // fake D1 the unit tests use. Local only — see isLocal above.
+  if (isLocal) {
+    await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
+    const markedParagraphId = await page.evaluate(() => {
+      const p = document.querySelector(".prose p[id]");
+      const range = document.createRange();
+      range.selectNodeContents(p);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      document.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
+      return p.id;
+    });
+    await page.waitForTimeout(150);
+    await page.locator('#share-pop button[data-action="copy-link"]').click();
+    await page.waitForTimeout(150); // the mark POST is fire-and-forget
 
-  await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
-  await page.waitForTimeout(300); // social-proof.js fetches the counts after load
-  const socialProof = await page.evaluate((id) => {
-    const paragraph = document.getElementById(id);
-    const el = paragraph?.querySelector("mark.social-proof");
-    return {
-      marked: Boolean(el),
-      washed: el ? getComputedStyle(el).backgroundColor !== "rgba(0, 0, 0, 0)" : false,
-      title: el ? el.title : null,
-      hasNoMarginNote: !paragraph?.querySelector(".social-note"),
-    };
-  }, markedParagraphId);
-  check(socialProof.marked, "a marked passage is highlighted for other readers", JSON.stringify(socialProof));
-  check(socialProof.washed, "the highlight has an actual background, not just the class", JSON.stringify(socialProof));
-  check(socialProof.title === "Highlighted by 1 reader", "the reader count is a hover title, not printed text", String(socialProof.title));
-  check(socialProof.hasNoMarginNote, "no margin note competing with the sidenote column");
+    await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
+    await page.waitForTimeout(300); // social-proof.js fetches the counts after load
+    const socialProof = await page.evaluate((id) => {
+      const paragraph = document.getElementById(id);
+      const el = paragraph?.querySelector("mark.social-proof");
+      return {
+        marked: Boolean(el),
+        washed: el ? getComputedStyle(el).backgroundColor !== "rgba(0, 0, 0, 0)" : false,
+        title: el ? el.title : null,
+        hasNoMarginNote: !paragraph?.querySelector(".social-note"),
+      };
+    }, markedParagraphId);
+    check(socialProof.marked, "a marked passage is highlighted for other readers", JSON.stringify(socialProof));
+    check(socialProof.washed, "the highlight has an actual background, not just the class", JSON.stringify(socialProof));
+    check(socialProof.title === "Highlighted by 1 reader", "the reader count is a hover title, not printed text", String(socialProof.title));
+    check(socialProof.hasNoMarginNote, "no margin note competing with the sidenote column");
 
-  await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
-  check(
-    (await page.locator("text=Most marked passages").count()) > 0,
-    "the marked passage appears in the contents page's Most marked passages block"
-  );
+    await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
+    check(
+      (await page.locator("text=Most marked passages").count()) > 0,
+      "the marked passage appears in the contents page's Most marked passages block"
+    );
+  } else {
+    ok("social proof marking round trip (skipped — would write a real row to production D1)");
+  }
 }
 
 // ---------- about ----------
