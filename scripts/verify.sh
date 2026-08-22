@@ -86,6 +86,31 @@ if [ -n "${VERIFY_BASE:-}" ]; then
     fail "/health is not stable: ${codes% }"
   fi
 else
+  step "Database"
+  # Local-only: never touches the remote D1 database VERIFY_BASE mode would
+  # otherwise be checking. Migrations first (idempotent — a fresh checkout
+  # and a checkout mid-session both just work), then the search index (#100),
+  # rebuilt from whatever pnpm prerender just wrote, so it can never test
+  # against a stale one either.
+  if pnpm wrangler d1 migrations apply reportsthatmatter-marks --local >/tmp/rtm-d1-migrate.log 2>&1; then
+    pass "D1 migrations applied"
+  else
+    fail "D1 migrations"
+    tail -20 /tmp/rtm-d1-migrate.log
+  fi
+
+  if pnpm index-search >/tmp/rtm-index-search.log 2>&1; then
+    if pnpm wrangler d1 execute reportsthatmatter-marks --local --file=assets/generated/search-index.sql >/tmp/rtm-index-apply.log 2>&1; then
+      pass "search index built and applied"
+    else
+      fail "applying the search index"
+      tail -20 /tmp/rtm-index-apply.log
+    fi
+  else
+    fail "pnpm index-search"
+    tail -20 /tmp/rtm-index-search.log
+  fi
+
   step "Booting worker on :${PORT}"
   pnpm wrangler dev --local --port "$PORT" >/tmp/rtm-wrangler.log 2>&1 &
   SERVER_PID=$!
@@ -176,6 +201,12 @@ check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
 check_status /robots.txt 200
 check_contains /robots.txt "Sitemap:"
 
+# Full-text search (#100) — /search reclaimed this path from the legacy
+# archive redirect once the site had a real implementation of its own.
+check_status /search 200
+check_contains /search 'name="q"'
+check_contains / 'href="/search"'
+
 # Social proof (#96) — malformed input must not touch the database, and a
 # well-formed one must not error even before a real reader ever sends one.
 bad_mark=$(curl -s -o /dev/null -w '%{http_code}' -X POST "${BASE}/api/mark" \
@@ -236,6 +267,22 @@ for id in $IDS; do
       fi
     else
       fail "?p=${first_para} (cache-busted) → ${cold_status}"
+    fi
+
+    # Full-text search (#100) — a real word from this report, not a
+    # hardcoded phrase content drift could break: paragraph ids are derived
+    # from a passage's own opening words, so splitting one apart gives a
+    # word actually in the report's text, guaranteed to still be there for
+    # as long as the id it came from routes correctly (already checked above).
+    search_word=$(echo "$first_para" | tr '-' '\n' | awk 'length($0) > 4' | head -1)
+    if [ -n "$search_word" ]; then
+      search_file="${FETCH_DIR}/search_${id}"
+      curl -s "${BASE}/search?q=${search_word}&report=${id}" -o "$search_file"
+      if grep -qF "href=\"/reports/${id}/" "$search_file"; then
+        pass "search finds \"${search_word}\" in ${id} and links back into it"
+      else
+        fail "search for \"${search_word}\" in ${id} (from ${first_para}) found nothing linking back"
+      fi
     fi
   fi
 

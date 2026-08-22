@@ -8,7 +8,8 @@ import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
-import { encodeAnchor } from "../assets/anchor.js";
+import { renderSearch, renderSnippet, type SearchResultView } from "./templates/search";
+import { encodeAnchor, selectorFor } from "../assets/anchor.js";
 import {
   openGenerated,
   loadReportMeta,
@@ -24,6 +25,7 @@ import {
   todayUTC,
   type MarksDB,
 } from "./lib/marks";
+import { queryPassages, firstMatchOffsets, type PassageRow } from "./lib/search";
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
@@ -55,8 +57,11 @@ export const LEGACY_PATHS = [
   "/climate-action-us-senate-2014",
   "/new-inquiries",
   "/pages",
-  "/search",
   "/feed.xml",
+  // "/search" was here too, parked at the archive until the new site had its
+  // own search. It does now (#100) — a native /search is a strictly better
+  // landing for an old inbound link than a redirect to a static archive's
+  // search, which could not have worked anyway.
 ];
 
 /**
@@ -172,6 +177,96 @@ app.get("/reports", async (c) => {
   const registry = await loadRegistry(sourceMode);
   return c.html(renderReportsIndex(registry));
 });
+
+/**
+ * Every result is a citable passage — the matched text, marked, with its
+ * report, section, and printed page — linking through a real quote anchor
+ * (assets/anchor.js) so following it lands on the exact matched words,
+ * highlighted, the same as any shared link. Design:
+ * docs/plans/2026-08-21-search-decisions.md.
+ *
+ * D1 down or the query producing nothing is "no results", not an error page
+ * — search is how a reader finds a report, not the only way in.
+ */
+app.get("/search", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const registry = await loadRegistry(sourceMode);
+
+  const q = c.req.query("q") ?? "";
+  const scope = c.req.query("report") || null;
+  const scopeTitle = scope ? registry.reports.find((r) => r.id === scope)?.title ?? null : null;
+  const searched = q.trim().length > 0;
+
+  let results: SearchResultView[] = [];
+  let failed = false;
+
+  if (searched) {
+    const db = c.env?.DB;
+    if (!db) {
+      failed = true;
+    } else {
+      try {
+        const rows = await queryPassages(db, q, scope, 20);
+        results = await buildSearchResults(c.env, registry.reports, rows);
+      } catch (err) {
+        failed = true;
+      }
+    }
+  }
+
+  return c.html(
+    renderSearch({
+      q,
+      scope,
+      scopeTitle,
+      results,
+      reports: registry.reports.map((r) => ({ id: r.id, title: r.title })),
+      searched,
+      failed,
+    })
+  );
+});
+
+/**
+ * A raw FTS5 row into something a template can render: the exact matched
+ * span turned into a quote anchor (so the link lands precisely, not just on
+ * the paragraph), and the report/section names resolved for display. A row
+ * that can no longer be routed — its report's pre-rendered metadata missing,
+ * or the paragraph id gone — is dropped rather than shown broken.
+ */
+async function buildSearchResults(
+  env: Bindings | undefined,
+  reports: Array<{ id: string; title: string }>,
+  rows: PassageRow[]
+): Promise<SearchResultView[]> {
+  const metaCache = new Map<string, PrerenderMeta | null>();
+  const results: SearchResultView[] = [];
+
+  for (const row of rows) {
+    if (!metaCache.has(row.report)) {
+      metaCache.set(row.report, await loadReportMeta(env?.ASSETS, row.report));
+    }
+    const meta = metaCache.get(row.report);
+    const slug = meta?.paragraphToSection[row.paragraph_id];
+    if (!slug) continue;
+
+    const offsets = firstMatchOffsets(row.marked);
+    if (!offsets) continue;
+
+    const anchor = encodeAnchor(selectorFor(row.body, offsets.start, offsets.end));
+    const query = anchor ? `&h=${anchor}` : "";
+
+    results.push({
+      url: `/reports/${row.report}/${slug}?p=${encodeURIComponent(row.paragraph_id)}${query}#${row.paragraph_id}`,
+      reportTitle: reports.find((r) => r.id === row.report)?.title ?? row.report,
+      sectionTitle: row.section,
+      page: row.page,
+      snippetHtml: renderSnippet(row.body, offsets.start, offsets.end),
+    });
+  }
+
+  return results;
+}
 
 app.get("/about", (c) => c.html(renderAbout()));
 

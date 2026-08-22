@@ -201,10 +201,15 @@ describe("legacy site handling", () => {
   });
 
   it("keeps the query string when sending to the archive", async () => {
-    const res = await app.request("https://reportsthatmatter.org/search/?q=enron");
+    const res = await app.request("https://reportsthatmatter.org/pages/?id=enron");
     expect(res.headers.get("location")).toBe(
-      "https://old.reportsthatmatter.org/search/?q=enron"
+      "https://old.reportsthatmatter.org/pages/?id=enron"
     );
+  });
+
+  it("no longer sends /search to the archive — the site has its own now (#100)", async () => {
+    const { isLegacyPath } = await import("../src/index");
+    expect(isLegacyPath("/search")).toBe(false);
   });
 
   it("does not touch current paths", async () => {
