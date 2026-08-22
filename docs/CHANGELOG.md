@@ -38,6 +38,20 @@ people marked it.
 
 ---
 
+## 2026-08-22 — A fifth report: Leveson on the press
+
+**Added:** *An Inquiry into the Culture, Practices and Ethics of the Press* —
+Lord Justice Leveson's 2012 report into UK press conduct and regulation,
+prompted by the phone-hacking scandal. Four volumes bound into one continuous
+document: 2,022 pages, over a million words, the largest report in the archive
+by a wide margin.
+
+The Wall Street and Challenger reports were also re-ingested under the current
+pipeline and republished, mostly a cleaner table of contents and a list-formatting
+fix, with nothing lost.
+
+---
+
 ## 2026-08-22 — Report pages load without touching the source document
 
 Every report page used to be rendered from its source markdown on the fly,

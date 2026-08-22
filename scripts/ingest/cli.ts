@@ -2,17 +2,24 @@
 /**
  * Report ingestion.
  *
- *   pnpm ingest run <pdf> --id <slug> --title "..." [--authors "..."] [--published 2025]
+ *   pnpm ingest run <pdf> [<pdf>...] --id <slug> --title "..." [--authors "..."] [--published 2025]
  *   pnpm ingest verify [<slug>]
  *
  * `run` writes reports/<slug>/full.md plus a fidelity report; `verify` re-runs
- * the checks against what is already committed.
+ * the checks against what is already committed. More than one PDF concatenates
+ * them, in argument order, into one document before extraction — a multi-volume
+ * report (Leveson: 4; Chilcot: dozens) is one continuous inquiry with its own
+ * running footnote numbers and page markers, not several unrelated reports, and
+ * splitting it into separate `full.md` files would break both across volume
+ * boundaries. Page indices are renumbered to run continuously across every
+ * volume, so a fidelity note's "page" never collides between one volume's
+ * page 12 and another's.
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { ingest } from "./pipeline";
+import { ingestPages } from "./pipeline";
 import { runChecks } from "./fidelity";
-import { extractPages } from "./extract";
+import { extractPages, type Page } from "./extract";
 
 const ROOT = join(import.meta.dirname, "../..");
 const REPORTS = join(ROOT, "reports");
@@ -33,9 +40,18 @@ function reportChecks(label: string, checks: ReturnType<typeof runChecks>): bool
 }
 
 function runIngest(argv: string[]): number {
-  const pdfPath = argv[0];
-  if (!pdfPath || !existsSync(pdfPath)) {
-    console.error(`PDF not found: ${pdfPath}`);
+  const pdfPaths: string[] = [];
+  for (const value of argv) {
+    if (value.startsWith("--")) break;
+    pdfPaths.push(value);
+  }
+  if (!pdfPaths.length) {
+    console.error("No PDF given");
+    return 1;
+  }
+  const missing = pdfPaths.find((p) => !existsSync(p));
+  if (missing) {
+    console.error(`PDF not found: ${missing}`);
     return 1;
   }
 
@@ -46,8 +62,16 @@ function runIngest(argv: string[]): number {
     return 1;
   }
 
-  console.log(`Extracting ${pdfPath} …`);
-  const result = ingest(pdfPath, {
+  const pages: Page[] = [];
+  for (const pdfPath of pdfPaths) {
+    console.log(`Extracting ${pdfPath} …`);
+    pages.push(...extractPages(pdfPath));
+  }
+  // Renumbered to run continuously across every volume — each PDF's own
+  // extractPages() restarts at 1, which would otherwise collide.
+  const renumbered = pages.map((page, i) => ({ ...page, index: i + 1 }));
+
+  const result = ingestPages(renumbered, {
     title,
     authors: arg(argv, "authors"),
     published_at: arg(argv, "published"),

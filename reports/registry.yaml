@@ -30,3 +30,11 @@ reports:
     source_path: reports/litvinenko-inquiry/full.md
     source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
     ingested: true
+
+  - id: uk-leveson-inquiry
+    title: "An Inquiry into the Culture, Practices and Ethics of the Press"
+    authors: "The Right Honourable Lord Justice Leveson"
+    published_at: "29 November 2012"
+    source_path: reports/uk-leveson-inquiry/full.md
+    source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
+    ingested: true
