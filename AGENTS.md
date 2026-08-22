@@ -170,6 +170,34 @@ from what was actually indexed even if a step gets skipped.
 - Check a PDF's text layer before ingesting. Two scans of the same document can
   differ enormously — NASA's Rogers Commission scan was unusable where the GPO
   text was clean.
+- **A `scripts/ingest/` heuristic proven against the cleanest source in the
+  corpus is not proven against the messiest one.** #79's `TOC_ENTRY`
+  whitespace-gap fix was built and tested against Litvinenko (very clean,
+  born-digital) and looked safe on `us-psi-financial-crisis` (also
+  born-digital) too when reviewed later — but on `challenger-accident`
+  (scanned, OCR'd, irregular spacing) it reclassified enough lines as
+  "structural" to stop an unrelated word-degluing fix from firing across
+  480 diff hunks, found only by a full re-ingest-and-diff review (#108,
+  `docs/PROGRESS.md` 2026-08-22), not by any fidelity check — the output
+  still passed every gate. Test a new structural-line regex against
+  Challenger (or whichever report is currently the messiest) before trusting
+  it generalises, not just the report you're actively fixing.
+- **To isolate which of several accumulated `scripts/ingest/` changes
+  produced an observed diff**, don't reason about the regex — replay it:
+  `git checkout <commit> -- scripts/ingest/`, re-run `pnpm ingest run` with
+  the report's exact registry metadata, diff against the previous step's
+  output, restore with `git checkout HEAD -- scripts/ingest/`. Each hop
+  isolates exactly one commit's contribution. Used in #108 to prove a
+  480-hunk diff came entirely from one of two candidate commits.
+- **A summary metric (footnote count, word-retention %) can miss the
+  regression that matters and flag one that doesn't.** In #108, a
+  footnote-count drop (94→89) looked like lost content but the actual linked
+  footnote definitions in the output were identical (75 both times) — noise
+  from something upstream of what ships. Meanwhile the real regression
+  (words losing correct spacing) tripped no fidelity check at all. Diff the
+  actual output, not just the numbers in the CLI's summary — the house rule
+  "look at the rendered page, not just green tests" applies just as much to
+  ingestion as to templates.
 - Each report has its own repo under the `reportsthatmatter` org, holding the
   source PDF and a README recording where it came from. Clone it as a sibling
   directory before re-ingesting.

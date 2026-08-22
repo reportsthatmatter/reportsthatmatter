@@ -17,8 +17,7 @@ same time, with one exception noted below.
 
 | | | Touches | |
 | --- | --- | --- | --- |
-| [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Imagery: study Co-Star, then a mark per report** | `docs/design/`, `assets/` | Write down what Co-Star's visual language actually is before making anything. Then a per-report image working almost as a logo, from public-domain photography or facsimiles of our own documents. |
-| [#108](https://github.com/reportsthatmatter/reportsthatmatter/issues/108) | **Review the PSI / Challenger re-ingest** | `reports/`, `scripts/ingest/` | Rufus said go ahead. The method for isolating one pipeline change from the rest is in the issue. Bring back only the judgement calls, with the source page alongside. |
+| [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Imagery: study Co-Star, then a mark per report** | `docs/design/`, `assets/` | Write down what Co-Star's visual language actually is before making anything. Then a per-report image working almost as a logo, from public-domain photography or facsimiles of our own documents. Not started. |
 
 ## Smaller, also independent
 
@@ -41,6 +40,7 @@ same time, with one exception noted below.
 | [#77 branch A](https://github.com/reportsthatmatter/reportsthatmatter/issues/77) | **Launch** | Search Console, the `@ReportsThatMatter` account, the announcement thread. Parked at his instruction, 2026-08-21. Still the highest-value item on the board whenever it comes back. |
 | [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99) | **Picking a visual direction** | From rendered options, once they exist. |
 | — | **Confirm the Workers plan upgrade** | Rufus, 2026-08-22: on Free, thought he'd upgrade to Paid. Not blocking — #115 (below) fixed the CPU-limit 503s on its own — but worth confirming it actually went through, since Free's 10ms-per-request budget is still tighter than this project needs to live near. |
+| [#108](https://github.com/reportsthatmatter/reportsthatmatter/issues/108) | **PSI/Challenger re-ingest — judgement calls** | Review done, 2026-08-22 (`docs/PROGRESS.md`). **PSI: safe** — mostly improvements (TOC readability, a data table now one row per line), the already-expected #12 list change, and one narrow pre-existing defect (a footnote marker stranded across a paragraph break, moved not fixed). **Challenger: not safe** — #79's `TOC_ENTRY` whitespace-gap branch causes a 480-hunk regression specific to Challenger's OCR'd source (an unrelated word-degluing fix stops firing; isolated to #79 alone via the checkout-and-diff technique, confirmed against the source PDF). Neither report has been republished. Needs a decision: republish PSI as reviewed, and separately scope a fix for the OCR interaction before Challenger can follow. |
 
 ## Shipped and live
 
