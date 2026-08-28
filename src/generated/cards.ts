@@ -3,6 +3,6 @@ export const CARDS: ReadonlySet<string> = new Set([
   "jack-smith-vol1/december-14-the-date-eca-required",
   "jack-smith-vol1/rioters-capitol-had-been-motivated",
   "jack-smith-vol1/running-mate-example-trump-s",
-  "jack-smith-vol1/trump-has-something-else-left",
-  "jack-smith-vol1/violence-further-delay-service-these"
+  "jack-smith-vol1/set-forth-original-superseding-indictments",
+  "jack-smith-vol1/trump-has-something-else-left"
 ]);

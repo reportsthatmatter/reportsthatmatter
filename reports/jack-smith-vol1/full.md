@@ -4,7 +4,7 @@ authors: "Jack Smith, Special Counsel, U.S. Department of Justice"
 published_at: "January 2025"
 source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
 pages: 169
-footnotes: 296
+footnotes: 301
 ---
 
 U.S. Department of Justice
@@ -173,17 +173,13 @@ This Volume focuses on the Election Case against Mr. Trump and, consistent with 
 
 In 2020, then-President Donald J. Trump ran for reelection against Joseph R. Biden, Jr. Mr. Trump lost.[^2] As alleged in the original and superseding indictments, substantial evidence demonstrates that Mr. Trump then engaged in an unprecedented criminal effort to overturn the legitimate results of the election in order to retain power.[^3] Although he did so primarily in his private capacity as a candidate, and with the assistance of multiple private co-conspirators, Mr. Trump also attempted to use the power and authority of the United States Government in furtherance of his scheme.
 
-As set forth in the original and superseding indictments, when it became clear that Mr. Trump had lost the election and that lawful means of challenging the election results had failed, he reso1ied to a series of criminal efforts to retain power. This included attempts to induce state officials to ignore true vote counts; to manufacture fraudulent slates of presidential electors in seven states that he had lost; to force Justice Department officials and his own Vice President,
+As set forth in the original and superseding indictments, when it became clear that Mr. Trump had lost the election and that lawful means of challenging the election results had failed, he reso1ied to a series of criminal efforts to retain power. This included attempts to induce state officials to ignore true vote counts; to manufacture fraudulent slates of presidential electors in seven states that he had lost; to force Justice Department officials and his own Vice President, Michael R. Pence, to act in contravention of their oaths and to instead advance Mr. Trump's personal interests; and, on January 6, 2021, to direct an angry mob to the United States Capitol to obstruct the congressional certification of the presidential election and then leverage rioters' violence to further delay it.[^4] In service of these efforts, Mr. Trump worked with other people to achieve a common plan: to overturn the election results and perpetuate himself in office. These individuals included Co-Conspirator 1, a private attorney who was willing to spread knowingly false claims and pursue strategies that Mr. Trump's Campaign attorneys would not; Co-Conspirator 2, a private attorney who devised and attempted to implement a strategy to leverage the Vice President's ministerial role in the certification proceeding to obstruct the certification; Co-Conspirator 3, a private attorney whose unfounded claims of election fraud Mr. Trump privately acknowledged were "crazy," but which he embraced and publicly amplified nonetheless; Co-Conspirator 4, a Justice Department official who worked on civil matters and who, with Mr. Trump, attempted to use the Justice Department to open sham election crime investigations and influence state legislatures with knowingly false claims of election fraud; Co-Conspirator 5, a private attorney who assisted in devising and attempting to implement a plan to submit fraudulent slates of presidential electors to obstruct the certification proceeding; and Co-Conspirator 6, a private political consultant who helped implement a plan to submit fraudulent slates of presidential electors to obstruct the certification proceeding.[^5] The throughline of all of Mr. Trump's criminal efforts was deceit-knowingly false claims of election
 
 %%page 3%%
 
-Michael R. Pence, to act in contravention of their oaths and to instead advance Mr. Trump's personal interests; and, on January 6, 2021, to direct an angry mob to the United States Capitol to obstruct the congressional certification of the presidential election and then leverage rioters'
-
-violence to further delay it.[^4] In service of these efforts, Mr. Trump worked with other people to achieve a common plan: to overturn the election results and perpetuate himself in office. These individuals included Co-Conspirator 1, a private attorney who was willing to spread knowingly false claims and pursue strategies that Mr. Trump's Campaign attorneys would not;
-
-Co-Conspirator 2, a private attorney who devised and attempted to implement a strategy to leverage the Vice President's ministerial role in the certification proceeding to obstruct the certification; Co-Conspirator 3, a private attorney whose unfounded claims of election fraud Mr. Trump privately acknowledged were "crazy," but which he embraced and publicly amplified nonetheless; Co-Conspirator 4, a Justice Department official who worked on civil matters and who, with Mr. Trump, attempted to use the Justice Department to open sham election crime investigations and influence state legislatures with knowingly false claims of election fraud; Co-Conspirator 5, a private attorney who assisted in devising and attempting to implement a plan to submit fraudulent slates of presidential electors to obstruct the certification proceeding; and Co-Conspirator 6, a private political consultant who helped implement a plan to submit fraudulent slates of presidential electors to obstruct the certification proceeding.[^5] The throughline of all of Mr. Trump's criminal efforts was deceit-knowingly false claims of election fraud-and the evidence shows that Mr. Trump used these lies as a weapon to defeat a federal government function foundational to the United States' democratic process.[^6]
-
 %%page 4%%
+
+fraud-and the evidence shows that Mr. Trump used these lies as a weapon to defeat a federal government function foundational to the United States' democratic process.[^6]
 
 Mr. Trump's false claims included dozens of specific claims regarding certain states, such as that large numbers of dead, non-resident, non-citizen, or otherwise ineligible voters had cast ballots, or that voting machines had changed votes for Mr. Trump to votes against him.[^7] These claims were demonstrably and, in many cases, obviously false.[^8] The Office investigated whether Mr. Trump believed the claims he made. Evidence from a variety of sources established that Mr. Trump knew that there was no outcome-determinative fraud in the 2020 election, that many of the specific claims he made were untrue, and that he had lost the election. He knew this because some of the highest-ranking officials in his own Administration, including the Vice President, told him directly that there was no evidence to support his claims.[^9] Mr. Trump's private advisors, both within and outside of his Campaign, told him the same.[^10] On November 13, his own Campaign conceded its litigation in Arizona, a state pivotal to his reelection prospects.[^11] State officials and legislators whom Mr. Trump pressured to change vote tallies or stop certifications of results rebuffed him and informed him that his fraud claims were wrong, both privately and through public statements.[^12] Mr. Trump also monitored legal developments
 
@@ -227,7 +223,9 @@ As December 14-the date the ECA required each state's electors to vote and send 
 
 %%page 12%%
 
-Mr. Trump set the fraudulent elector plan into motion in early December, ensured that it was carried out by co-conspirators and Campaign agents in the targeted states, and monitored its progress. On December 6, for instance, Mr. Trump and Co-Conspirator 2 called the Chairwoman of the Republican National Committee and told her that it was important for the RNC to help organize Mr. Trump's elector nominees in the targeted states.[^42] During the call, Co-Conspirator 2 told a lie that the co-conspirators would use to induce the cooperation of many of the fraudulent electors: that Mr. Trump's electors' votes would be used only if ongoing litigation in their state proved successful for Mr. Trump.[^43] From that point on, Mr. Trump communicated with Co-Conspirators 1 and 2 about the plan, and they in turn communicated with Co-Conspirators 5 and 6.[^44] At Co-Conspirator 1's direction, Co-Conspirator 5 generated and sent directions to the Trump electors in each targeted state on how best to mimic the manner in which the state required valid electors to gather and vote,[^45] and Campaign staff and agents helped carry out Co-Conspirator 5 's plans.[^46]
+Mr. Trump set the fraudulent elector plan into motion in early December, ensured that it was carried out by co-conspirators and Campaign agents in the targeted states, and monitored its progress. On December 6, for instance, Mr. Trump and Co-Conspirator 2 called the Chairwoman of the Republican National Committee and told her that it was important for the RNC to help organize Mr. Trump's elector nominees in the targeted states.[^42] During the call, Co-Conspirator 2 told a lie that the co-conspirators would use to induce the cooperation of many of the fraudulent electors: that Mr. Trump's electors' votes would be used only if ongoing litigation in their state proved successful for Mr. Trump.[^43] From that point on, Mr. Trump communicated with Co-Conspirators 1 and 2 about the plan, and they in turn communicated with Co-Conspirators 5 and 6.[^44] At Co-Conspirator 1's direction, Co-Conspirator 5 generated and
+
+ECF No. 252 at 48-49 & nn.250-253; SCO-00310619 (Co-Conspirator 5 memo 11/18/2020); SCO-00310626 sent directions to the Trump electors in each targeted state on how best to mimic the manner in which the state required valid electors to gather and vote,[^45] and Campaign staff and agents helped carry out Co-Conspirator 5 's plans.[^46]
 
 %%page 13%%
 
@@ -257,9 +255,7 @@ As his efforts to directly pressure state officials to discount legitimate votes
 
 %%page 17%%
 
-> Department because its criminal investigations had identified no evidence of substantial fraud 62 and the Attorney General had publicly acknowledged this fact in an interview on December 1 by
-
-saying, among other things, "to date, we have not seen fraud on a scale that could have effected a different outcome in the election."[^63] As a result, Mr. Trump considered appointing Co-Conspirator 4-a Justice Department attorney who worked on civil matters-to be the Acting Attorney General, because as described below, Co-Conspirator 4 was willing to use the Justice Department to spread Mr. Trump's lies and pressure targeted states to overturn election results.[^64]
+Department because its criminal investigations had identified no evidence of substantial fraud 62 and the Attorney General had publicly acknowledged this fact in an interview on December 1 by saying, among other things, "to date, we have not seen fraud on a scale that could have effected a different outcome in the election."[^63] As a result, Mr. Trump considered appointing Co-Conspirator 4-a Justice Department attorney who worked on civil matters-to be the Acting Attorney General, because as described below, Co-Conspirator 4 was willing to use the Justice Department to spread Mr. Trump's lies and pressure targeted states to overturn election results.[^64]
 
 Throughout the post-election period, Justice Department officials reviewed Mr. Trump's claims of election fraud, found no support for any of them, and informed him of such.[^65] In one such discussion, when the Acting Attorney General advised Mr. Trump that the Justice Department could not just "snap its fingers" and change the election outcome,[^66] Mr. Trump told the Acting Attorney General and Acting Deputy Attorney General that they should "just say that the election was corrupt and leave the rest to me and the Republican congressmen."[^67] In the same call, alluding to replacing Justice Department leadership if they did not do as he directed, Mr. Trump also said, "people tell me [Co-Conspirator 4] is great. I should put him in."[^68] Mr. Trump knew about Co-Conspirator 4 because he had been introduced to Co-Conspirator 4 by a
 
@@ -273,9 +269,9 @@ On December 28, as his secret communications with Mr. Trump continued, Co-Conspi
 
 %%page 19%%
 
-> legislature to determine whether already-certified election results should somehow be overridden by legislative action."[^73] Nonetheless, Mr. Trump continued to circumvent Justice Department leadership and engage directly with Co-Conspirator 4. With Mr. Trump's intervention, Co-Conspirator 4 obtained a highly classified briefing on foreign interference in the 2020 election on January 2, 2021-a briefing that yielded nothing to support the conspirators' allegations, as demonstrated
+> legislature to determine whether already-certified election results should somehow be overridden by legislative action."[^73] Nonetheless, Mr. Trump continued to circumvent Justice Department leadership and engage directly with Co-Conspirator 4. With Mr. Trump's intervention, Co-Conspirator 4 obtained a highly classified briefing on foreign interference in the 2020 election on January 2,
 
-by contemporaneous electronic messages between Co-Conspirator 4 and the same Member of Congress who had introduced Co-Conspirator 4 to Mr. Trump.[^74] Yet the following day, Mr. Trump attempted to install Co-Conspirator 4 as the Acting Attorney General. On January 3, after Mr. Trump offered the position to Co-Conspirator 4 and Co-Conspirator 4 informed Justice Department senior leadership that he was accepting it,[^75] Mr. Trump, Co-Conspirator 4, and senior officials from the Justice Department and White House Counsel's Office gathered for a hastily scheduled meeting in the Oval Office.[^76] Mr. Trump made clear that he wanted to appoint Co-Conspirator 4 because Co-Conspirator 4 would cause the Justice Department to send to the targeted states the false letter that the Acting Attorney General and the Acting Deputy Attorney General had rejected as inaccurate and improper.[^77] Mr. Trump ultimately did not do so only because he was informed that if he did, mass resignations within the Justice Department and the
+2021-a briefing that yielded nothing to support the conspirators' allegations, as demonstrated by contemporaneous electronic messages between Co-Conspirator 4 and the same Member of Congress who had introduced Co-Conspirator 4 to Mr. Trump.[^74] Yet the following day, Mr. Trump attempted to install Co-Conspirator 4 as the Acting Attorney General. On January 3, after Mr. Trump offered the position to Co-Conspirator 4 and Co-Conspirator 4 informed Justice Department senior leadership that he was accepting it,[^75] Mr. Trump, Co-Conspirator 4, and senior officials from the Justice Department and White House Counsel's Office gathered for a hastily scheduled meeting in the Oval Office.[^76] Mr. Trump made clear that he wanted to appoint Co-Conspirator 4 because Co-Conspirator 4 would cause the Justice Department to send to the targeted states the false letter that the Acting Attorney General and the Acting Deputy Attorney General had rejected as inaccurate and improper.[^77] Mr. Trump ultimately did not do so only because he was informed that if he did, mass resignations within the Justice Department and the
 
 %%page 20%%
 
@@ -285,15 +281,9 @@ White House would result in Co-Conspirator 4 "leading a graveyard."[^78] Near th
 
 Mr. Trump wanted no one else speaking with Vice President Pence because he and co-conspirators were already implementing a secret plan to use Mr. Pence's ministerial role as President of the Senate to Mr. Trump's advantage. Co-Conspirator 2, with assistance from Co-Conspirators 5 and 6, spearheaded the execution of a strategy-which Co-Conspirator 2 had recently conceded was not supported by the Constitution or federal law 80-for Mr. Pence to decline to count the legitimate electoral certificates in the targeted states where Mr. Trump's electors had signed fraudulent ones.[^81] In the weeks before the certification, Mr. Trump began pressuring Mr. Pence to cooperate, both directly and by mobilizing Mr. Trump's supporters.
 
-In repeated conversations, day after day, Mr. Trump pressed Mr. Pence to use his ministerial position as President of the Senate to change the election outcome, often by citing false claims of election fraud as justification; he even falsely told Mr. Pence that the "Justice Department [was] finding major infractions." 82 When Mr. Pence repeatedly refused to act as Mr.
+In repeated conversations, day after day, Mr. Trump pressed Mr. Pence to use his ministerial position as President of the Senate to change the election outcome, often by citing false claims of election fraud as justification; he even falsely told Mr. Pence that the "Justice Department [was] finding major infractions." 82 When Mr. Pence repeatedly refused to act as Mr. Trump wanted,[^83] Mr. Trump told him that "hundreds of thousands" of people would "hate his guts" and think he was "stupid," and that Mr. Pence was "too honest."[^84] Surrounding these communications, Mr. Trump frequently took to Twitter to exhort supporters to travel to Washington for January 6, such as when he tweeted on January 1, "The BIG Protest Rally in Washington, D.C., will take place at 11.00 A.M. on January 6th. Locational details to follow. StopTheSteal!"[^85]
 
 %%page 21%%
-
-> Trump wanted,[^83] Mr. Trump told him that "hundreds of thousands" of people would "hate his guts" and think he was "stupid," and that Mr. Pence was "too honest."[^84] Surrounding these
-
-communications, Mr. Trump frequently took to Twitter to exhort supporters to travel to
-
-Washington for January 6, such as when he tweeted on January 1, "The BIG Protest Rally in Washington, D.C., will take place at 11.00 A.M. on January 6th. Locational details to follow. StopTheSteal!"[^85]
 
 On January 4, two days before the certification proceeding, Mr. Trump arranged for Mr. Pence to meet with Co-Conspirator 2 in the Oval Office, in hopes that Co-Conspirator 2 could convince Mr. Pence to accede.[^86] During the meeting, Co-Conspirator 2 outlined two ways that he claimed Mr. Pence could affect the election outcome using his role in the certification: he could reject the legitimate electors outright-denying Mr. Biden an electoral majority and likely sending the selection of the President to the House of Representatives, where fellow Republicans controlled the majority of state delegations-or he could send the elector slates to targeted states' legislatures for them to choose which electoral votes should be counted-affording Republican­ controlled legislatures the opportunity to reject Mr. Biden's electors and replace them with Mr. Trump's.[^87] In response to Mr. Pence's questioning, Co-Conspirator 2 admitted that both
 
@@ -321,6 +311,8 @@ Mr. Trump told the crowd-a crowd of his supporters that he had remarked to advis
 
 At Mr. Trump's urging, thousands of his supporters marched from the Ellipse to the Capitol building.[^107] There, Mr. Pence began the certification at around 1:00 p.m.[^108] Outside the building, the crowd swelled and broke through barriers cordoning off the grounds.[^109] The crowd that attacked the Capitol was filled with Mr. Trump's supporters, as made clear by their Trump shirts, signs, and flags.[^110] As described in detail below, the crowd violently attacked the law enforcement officers attempting to secure the building.[^111]
 
+See ECF No. 252 at 77-78 & nn.432-443; SCO-02244118 at 5, 6, 9,[^22] (Remarks by Mr. Trump at Save America
+
 %%page 26%%
 
 Photograph of the Capitol on January 6 2021 (John Manchillo/AP)[^112]
@@ -339,8 +331,6 @@ Photograph of the Capitol on January 6, 2021 (David Butow/Redux:)[^116]
 
 Photograph of the Capitol on January 6,[^202] l (Roberto Schmidt/AFP via Getty Images)[^117]
 
-Statement from Leaders, Updated: 'Our Children Aie Watching': Nonprofit and Foundation Leaders Respond to
-
 %%page 29%%
 
 After his speech, Mr. Trump returned to the White House and, at around 1:30 p.m., settled in the dining room off of the Oval Office.[^118] There, he watched television news coverage of events at the Capitol and reviewed Twitter on his phone.[^119] When the angry crowd advanced on the Capitol building and breached it at around 2:13 p.m., forcing the Senate to recess,[^120] several of Mr. Trump's advisors rushed to the dining room and told him that a riot had started at the Capitol and that rioters were in the building.[^121] Over the course of the afternoon, they forcefully urged Mr. Trump to issue calming messages to his supporters.[^122] Mr. Trump resisted, repeatedly remarking that the people at the Capitol were angry because the election had been stolen.[^123]
@@ -351,13 +341,13 @@ Just before 2:24 p.m., the news channel playing on the television in the dining 
 
 Trump has something else left."[^124] Then, at 2:24 p.m., sitting alone, Mr. Trump issued a Tweet attacking Mr. Pence and fueling the riot: "Mike Pence didn't have the courage to do what should have been done to protect our Country and our Constitution, giving States a chance to certify a corrected set of facts, not the fraudulent or inaccurate ones which they were asked to previously certify. USA demands the truth!"[^125] One minute later, the United States Secret Service was forced to evacuate Mr. Pence to a secure location at the Capitol.[^126] When an advisor at the White House learned this, he rushed to the dining room and informed Mr. Trump, who replied "So what?"[^127]
 
-The rioters at the Capitol had been motivated and directed by Mr. Trump, and he continued to resist advisors' requests to direct them to leave. Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and other lawmakers, with some chanting, "Hang Mike Pence!"[^128] At 2:38 p.m. and 3:30 p.m., Mr. Trump issued two Tweets falsely suggesting that events at the Capitol were "peaceful" and asking individuals there (whom he termed "WE") to remain that way: "Please support our Capitol Police and Law Enforcement. They are truly on the side of our Country. Stay Peaceful!" and, "I am asking for everyone at the U.S. Capitol to remain peaceful. No violence! Remember, WE are the Party of Law & Order-respect the Law and our great men and women in Blue. Thank you!" 129 At 4:17 p.m., he tweeted a video message in which he for the first time asked his supporters to leave the Capitol-while at the same time falsely claiming that "[w]e had an election that was stolen from us ... a landslide election," and embracing the people who had attacked the Capitol, telling them "we love you, you're very special."[^130] And at 6:01 p.m., he tweeted, "These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously stripped away from great patriots who have been badly & unfairly treated for so long. Go home with love & in peace. Remember this day forever!" 131
+The rioters at the Capitol had been motivated and directed by Mr. Trump, and he continued to resist advisors' requests to direct them to leave. Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and other lawmakers, with some chanting, "Hang Mike Pence!"[^128] At 2:38 p.m. and 3:30 p.m., Mr. Trump issued two Tweets falsely suggesting that events at the Capitol were "peaceful" and asking individuals there (whom he termed "WE") to remain that way: "Please support our Capitol Police and Law Enforcement. They are truly on the side of our Country. Stay Peaceful!" and, "I am asking for everyone at the U.S. Capitol to remain peaceful. No violence! Remember, WE are the Party of Law & Order-respect the Law and our great men and women in Blue. Thank you!" 129 At 4:17 p.m., he tweeted a video message in which he for the first time asked his supporters to leave the Capitol-while at the same time falsely claiming that "[w]e had an election that was stolen from us ... a landslide election," and embracing the people who had attacked the Capitol, telling them "we love you, you're very special."[^130] And at 6:01 p.m., he tweeted, "These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously stripped away from great patriots who have been badly & unfairly treated for so long. Go home with love & in peace. Remember this day forever!"[^131]
 
 %%page 31%%
 
 At around the same time as he issued his 6:01 p.m. Tweet, Mr. Trump tried to reach two United States Senators, and he also directed Co-Conspirator 1 to call Members of Congress and attempt to enlist them to further delay the certification.[^132] When Mr. Trump's White House Counsel called him at around 7:00 p.m. and asked him to withdraw any objections to the certification, Mr. Trump refused.[^133] Nonetheless, the certification resumed late in the evening of
 
-See ECF No. 252 at 142 & nn.664-665; SCO-00454933, SCO-04963517, SCO-00454932, SCO-04963518 119 (Donald J. Trump Tweets O1/06/2021).
+119 See ECF No. 252 at 142 & nn.664-665; SCO-00454933, SCO-04963517, SCO-00454932, SCO-04963518 (Donald J. Trump Tweets O1/06/2021).
 
 %%page 32%%
 
@@ -417,9 +407,13 @@ The Office developed further evidence of Mr. Trump's knowledge that his claims w
 
 Mr. Trump's intent in spreading knowing falsehoods was further evidenced by statements he made to those around him. In private-in contrast with his public false claims-Mr. Trump made admissions that reflected his understanding that he had lost. In a private moment, Mr. Trump confessed to his family members that "it doesn't matter if you won or lost the election. You still have to fight like hell."[^162] When President-elect Biden appeared on television in November, Mr. Trump said to a staffer, "can you believe I lost to this f'ing guy?"[^163] And when his own Vice President declined to join the conspiracy, Mr. Trump berated him for being "too honest."[^164]
 
-Because the evidence showed that Mr. Trump knew his claims were false, it amply satisfied the mens rea standard for a Section 371 charge, which would be satisfied by evidence that Mr. Trump either knew his fraud claims were false or that he acted with deliberate disregard for their truth or falsity. The concept of deliberate disregard-sometimes referred to as reckless disregard, or reckless or deliberate indifference-has deep roots in the law of fraud. See US. ex rel. Schutte v. Super Valu Inc., 598 U.S. 739, 750-752 (2023);[^1] J. Story, Commentaries on Equity Jurisprudence § 193 (10th ed. 1870) ("Whether the party, thus misrepresenting a material fact, knew it to be false, or made the assertion without knowing whether it were true or false, is wholly immaterial; for the affirmation of what one does not know or believe to be true is equally, in morals and law, as unjustifiable as the affirmation of what is known to be positively false."). That concept is reflected in case law and jury instructions for the District of Columbia, as well as precedent from every other circuit. See, e.g., United States v. Philip Morris USA Inc., 566 F.3d 1095, 1121 (D.C. Cir. 2009);[^1] Criminal Jury Instructions for the District of Columbia 5.200 (2024).[^165] Here, the evidence showed that Mr. Trump decided, even before the election, that he would allege outcome-determinative fraud, whether it occurred or not, if he were not declared the winner, and he adhered to that plan-repeating false claims that he knew to be untrue.
+Because the evidence showed that Mr. Trump knew his claims were false, it amply satisfied the mens rea standard for a Section 371 charge, which would be satisfied by evidence that Mr. Trump either knew his fraud claims were false or that he acted with deliberate disregard for their truth or falsity. The concept of deliberate disregard-sometimes referred to as reckless
+
+See ECF No. 252 at 5 & nn.2-4; SCO-11621981 at 74-83, 92-93 (Int. Tr.); SCO-00016750 at 14-18, 27-30;
 
 %%page 40%%
+
+disregard, or reckless or deliberate indifference-has deep roots in the law of fraud. See US. ex rel. Schutte v. Super Valu Inc., 598 U.S. 739, 750-752 (2023);[^1] J. Story, Commentaries on Equity Jurisprudence § 193 (10th ed. 1870) ("Whether the party, thus misrepresenting a material fact, knew it to be false, or made the assertion without knowing whether it were true or false, is wholly immaterial; for the affirmation of what one does not know or believe to be true is equally, in morals and law, as unjustifiable as the affirmation of what is known to be positively false."). That concept is reflected in case law and jury instructions for the District of Columbia, as well as precedent from every other circuit. See, e.g., United States v. Philip Morris USA Inc., 566 F.3d 1095, 1121 (D.C. Cir. 2009);[^1] Criminal Jury Instructions for the District of Columbia 5.200 (2024).[^165] Here, the evidence showed that Mr. Trump decided, even before the election, that he would allege outcome-determinative fraud, whether it occurred or not, if he were not declared the winner, and he adhered to that plan-repeating false claims that he knew to be untrue.
 
 Although Mr. Trump's conduct fell comfortably within the established elements of a defraud-clause offense, the Office noted that the Supreme Court has in several recent decisions limited the reach of other federal fraud and obstruction statutes. See, e.g., Ciminelli v. United States, 598 U.S. 306 (2023) (reversing conviction of construction contractor for wire fraud,[^18] U.S.C. § 1343, for scheming with public official to tailor bid requirements for government contracts to favor himself because the government did not prove the defendant deprived the victim of a traditional property interest); Kelly v. United States, 590 U.S. 391 (2020) (reversing convictions for wire fraud,[^18] U.S.C. § 1343, and federal program fraud,[^18] U.S.C. § 666, where defendants aimed to inflict political retribution on mayor by closing lanes of a bridge that served the mayor's city because the object of the scheme was not to obtain money or property); Skilling v. United States, 561 U.S. 358 (2010) (paring back honest-services fraud statute,[^18] U.S.C. § 1346, to reach only core bribery and kickbacks and reversing conviction of executive who was convicted of making false statements to inflate his company's value but was not alleged to have taken bribes or kickbacks for his efforts); Arthur Andersen LLP v. United States, 544 U.S. 696 (2005) (requiring showing of knowingly corrupt conduct under obstruction of justice statute,[^18] U.S.C. § 1512(b)(2), and reversing conviction of accounting firm convicted of shredding documents in advance of an SEC investigatory demand based on failure of jury instructions to convey the requisite consciousness of wrongdoing). Given these decisions restricting the reach of other fraud and corruption statutes, the Office considered whether the Supreme Court might also adopt a new construction of the defraud clause in Section 371, such as one that would for the first time limit it to money or property fraud.
 
@@ -453,11 +447,9 @@ All of these requirements for establishing a conspiracy to defraud under Section
 
 %%page 46%%
 
-In Fischer v. United States, 603 U.S. 480 (2024), decided during the pendency of Mr. Trump's immunity appeal, the Supreme Court clarified the scope of an obstruction offense under Section 1512(c)(2), holding that the statute applies only when a defendant impairs (or attempts to impair) "the availability or integrity for use in an official proceeding of records, documents, objects, or ... other things used in the proceeding." Id. at 498. In language that applies directly to the allegations in the superseding indictment, the Supreme Court explained that Section 1512(c)(2)'s criminal prohibition includes "creating false evidence." Id. at 491. Before seeking the original indictment-which, like the superseding indictment, alleged that one component of Mr. Trump's and his co-conspirators' obstruction involved replacing valid elector certificates from the contested states with false ones they had manufactured-the Office anticipated the possibility of such a result in Fischer and confirmed that the evidence would prove Mr. Trump's guilt beyond a reasonable doubt even under a narrow interpretation of Section 1512(c)(2). See ECF No. 139 at 20-21. In construing Section 1512(c)(2) to reach impairing or attempting to impair the integrity or availability of records, documents, or other objects through "creating false evidence," the Supreme Court cited United States v. Reich, 479 F.3d 179, 183, 185-187 (2d Cir. 2007) (Sotomayor, J.), in which a defendant was convicted under Section 1512(c)(2) after he forged a court order and sent it to an opposing party intending to cause that party to withdraw a mandamus petition then pending before an appellate court. Just as the defendant in Reich violated Section 1512(c)(2) by "inject[ing] a false order into ongoing litigation to which he was a party," id. at 186, the evidence showed that the co-conspirators created fraudulent electoral certificates that they intended to introduce into the congressional certification proceeding on
+In Fischer v. United States, 603 U.S. 480 (2024), decided during the pendency of Mr. Trump's immunity appeal, the Supreme Court clarified the scope of an obstruction offense under Section 1512(c)(2), holding that the statute applies only when a defendant impairs (or attempts to impair) "the availability or integrity for use in an official proceeding of records, documents, objects, or ... other things used in the proceeding." Id. at 498. In language that applies directly to the allegations in the superseding indictment, the Supreme Court explained that Section 1512(c)(2)'s criminal prohibition includes "creating false evidence." Id. at 491. Before seeking the original indictment-which, like the superseding indictment, alleged that one component of Mr. Trump's and his co-conspirators' obstruction involved replacing valid elector certificates from the contested states with false ones they had manufactured-the Office anticipated the possibility of such a result in Fischer and confirmed that the evidence would prove Mr. Trump's guilt beyond a reasonable doubt even under a narrow interpretation of Section 1512(c)(2). See ECF No. 139 at 20-21. In construing Section 1512(c)(2) to reach impairing or attempting to impair the integrity or availability of records, documents, or other objects through "creating false evidence," the Supreme Court cited United States v. Reich, 479 F.3d 179, 183, 185-187 (2d Cir. 2007) (Sotomayor, J.), in which a defendant was convicted under Section 1512(c)(2) after he forged a court order and sent it to an opposing party intending to cause that party to withdraw a mandamus petition then pending before an appellate court. Just as the defendant in Reich violated Section 1512(c)(2) by "inject[ing] a false order into ongoing litigation to which he was a party," id. at 186, the evidence showed that the co-conspirators created fraudulent electoral certificates that they intended to introduce into the congressional certification proceeding on January 6 to obstruct it.[^167]
 
 %%page 47%%
-
-January 6 to obstruct it.[^167]
 
 The Office was also prepared to prove that Mr. Trump willfully caused his supporters to obstruct and attempt to obstruct the proceeding by summoning them to Washington, D.C., and then directing them to march to the Capitol to cause the Vice President and legislators to reject the legitimate certificates and instead rely on the fraudulent electoral certificates.[^168] See 18 U.S.C. § 2(b) (making a defendant criminally liable for "willfully caus[ing] an act to be done which if directly performed by him or another would be" a federal offense); United States v. Hsia,[^176] F.3d 517, 522 (D.C. Cir. 1999) (upholding a conviction for willfully causing a violation of 18 U.S.C. § 1001). The Supreme Court's opinion in Fischer therefore did not undermine the viability of the Section 1512 counts.
 
@@ -523,11 +515,9 @@ Furthermore, Mr. Trump could not have succeeded in showing that he relied in goo
 
 %%page 59%%
 
-law 191-was a sharp reversal from his position just one day earlier and happened only because
+law 191-was a sharp reversal from his position just one day earlier and happened only because Mr. Trump had made clear that it was his preferred strategy.[^192] The Office was otherwise confident that it would be able to demonstrate that with respect to all attorneys, Mr. Trump could not meet the elements of the defense, such as the requirement that he make full disclosure to any attorneys of all relevant facts and then rely faithfully on their advice. See Gray-Burriss, 920 F.3d at 66.
 
-Mr. Trump had made clear that it was his preferred strategy.[^192] The Office was otherwise confident that it would be able to demonstrate that with respect to all attorneys, Mr. Trump could not meet the elements of the defense, such as the requirement that he make full disclosure to any attorneys of all relevant facts and then rely faithfully on their advice. See Gray-Burriss, 920 F.3d at 66.
-
-Finally, the Office anticipated that Mr. Trump would claim that his conduct was protected by the First Amendment. As the district court recognized, "the First Amendment 'embodies our profound national commitment to the free exchange of ideas," and it bars the government from '"restrict[ing] expression because of its message, its ideas, its subject matter, or its content.'" ECF No. 171 at 31 (quoting Ashcroft v. Am. Civ. Liberties Union, 535 U.S. 564, 573 (2002), and United States v. Stevens, 559 U.S. 460,468 (2010)). At the same time, "it is well established that the First Amendment does not protect speech that is used as an instrument of a crime." Id. '"Many long established' criminal laws permissibly 'criminalize speech that is intended to induce or commence illegal activities,' United States v. Williams, 553 U.S. 285, 298 (2008), such as fraud, bribery, perjury, extortion, threats, incitement, solicitation, and blackmail, see, e.g., Stevens, 559 U.S. at 468-469 (fraud); Williams, 553 U.S. at 298 (incitement, solicitation); Citizens United v. Fed. Election Comm 'n, 558 U.S. 310, 356 (2010) (bribery); Rice v. Paladin Enters., Inc.,[^128] F.3d 233, 244 (4th Cir. 1997) (extortion, threats, blackmail, perjury)." ECF No. 171 at 31-32 (ellipsis omitted). "Prosecutions for conspiring, directing, and aiding and abetting do not run afoul of the Constitution when those offenses are 'carried out through speech."' Id. at 32 (quoting Nat'! Org. for Women v. Operation Rescue,[^37] F.3d 646, 655-656 (D.C. Cir. 1994), and citing Williams, 553 U.S. at 298).
+Finally, the Office anticipated that Mr. Trump would claim that his conduct was protected by the First Amendment. As the district court recognized, "the First Amendment 'embodies our profound national commitment to the free exchange of ideas," and it bars the government from '"restrict[ing] expression because of its message, its ideas, its subject matter, or its content.'" ECF No. 171 at 31 (quoting Ashcroft v. Am. Civ. Liberties Union, 535 U.S. 564, 573 (2002), and United States v. Stevens, 559 U.S. 460,468 (2010)). At the same time, "it is well established that the First Amendment does not protect speech that is used as an instrument of a crime." Id. '"Many long established' criminal laws permissibly 'criminalize speech that is intended to induce or commence illegal activities,' United States v. Williams, 553 U.S. 285, 298 (2008), such as fraud, bribery, perjury, extortion, threats, incitement, solicitation, and blackmail, see, e.g., Stevens, 559 U.S. at 468-469 (fraud); Williams, 553 U.S. at 298 (incitement, solicitation); Citizens United v. Fed. Election Comm 'n, 558 U.S. 310, 356 (2010) (bribery); Rice v. Paladin Enters., Inc.,[^128] F.3d 233,[^244] (4th Cir. 1997) (extortion, threats, blackmail, perjury)." ECF No. 171 at 31-32 (ellipsis omitted). "Prosecutions for conspiring, directing, and aiding and abetting do not run afoul of the Constitution when those offenses are 'carried out through speech."' Id. at 32 (quoting Nat'! Org. for Women v. Operation Rescue,[^37] F.3d 646, 655-656 (D.C. Cir. 1994), and citing Williams, 553 U.S. at 298).
 
 %%page 60%%
 
@@ -603,9 +593,11 @@ false claims of election fraud to attempt to disrupt the United States' electora
 
 The Office was cognizant of Mr. Trump's free speech rights during the investigation and would not have brought a prosecution if the evidence indicated he had engaged in mere political exaggeration or rough-and-tumble politics. See supra at Section II.D (First Amendment defense discussion); Robert Jackson, The Federal Prosecutor, Address Delivered at the Second Annual Conference of United States Attorneys (April 1, 1940) ("In the enforcement of laws that protect our national integrity and existence, we should prosecute any and every act of violation, but only overt acts, not the expression of opinion, or activities such as the holding of meetings, petitioning of congress, or dissemination of news or opinions.") (emphasis in original). As set forth in the original and superseding indictments, Mr. Trump had "a right, like every American, to speak publicly about the election and even to claim, falsely, that there had been outcome-determinative fraud in the election and that he had won." ECF No. 1 at ,r 3; ECF No. 226 at ,r 3. He also had lawful recourse to challenge the election results, including through lawsuits, recounts, and audits. In fact, Mr. Trump and his allies vigorously pursued these methods of contesting the election results, but they were unsuccessful.
 
-After election day, Mr. Trump or his Campaign were plaintiffs or intervenors in at least sixteen lawsuits seeking to change the outcome of the election,[^194] and Mr. Trump's supporters filed dozens of other such lawsuits,[^195] but all of these failed to change the outcome in any state. Mr. Trump pursued recounts in only two states-a statewide machine recount in Georgia and a recount in Wisconsin's Milwaukee and Dane Counties-and both served only to confirm the previously reported result (in Wisconsin, the recount increased Mr. Trump's margin of loss).[^196] Following public requests, Secretaries of State in Georgia and Michigan ordered additional audits and recounts-in Georgia, a statewide hand recount and an audit in Cobb County, and in Michigan, a statewide audit and a hand recount in Antrim County, where Mr. Trump seized on claims of a clerk's temporary clerical error-but all merely confirmed previously reported results.[^197]
+After election day, Mr. Trump or his Campaign were plaintiffs or intervenors in at least sixteen lawsuits seeking to change the outcome of the election,[^194] and Mr. Trump's supporters filed dozens of other such lawsuits,[^195] but all of these failed to change the outcome in any state.
 
 %%page 71%%
+
+Mr. Trump pursued recounts in only two states-a statewide machine recount in Georgia and a recount in Wisconsin's Milwaukee and Dane Counties-and both served only to confirm the previously reported result (in Wisconsin, the recount increased Mr. Trump's margin of loss).[^196] Following public requests, Secretaries of State in Georgia and Michigan ordered additional audits and recounts-in Georgia, a statewide hand recount and an audit in Cobb County, and in Michigan, a statewide audit and a hand recount in Antrim County, where Mr. Trump seized on claims of a clerk's temporary clerical error-but all merely confirmed previously reported results.[^197]
 
 The conduct of Mr. Trump and co-conspirators, however, went well beyond speaking their minds or contesting the election results though our legal system. Instead, Mr. Trump targeted a key federal government function-the process by which the United States collects, counts, and ce1iifies the results of the presidential election-and sought to obstruct or defeat it through fraud and deceit. He did so using knowingly false claims of election fraud to attempt to induce state officials to reject citizens' votes and instead appoint Mr. Trump's electors; when he deceived his electors and caused them to falsify electoral certificates and submit them to Congress; when he attempted to enlist Mr. Pence with false claims of election fraud and pressure;
 
@@ -645,11 +637,13 @@ throughout the charged criminal conspiracies, to threats and encouragement of vi
 
 80 million followers.[^199] Inevitably, threats and intimidation to these officials followed.[^20] ° For instance, after Mr. Trump targeted a Philadelphia City Commissioner in a Tweet criticizing the Commissioner for stating that there was no evidence of widespread election fraud in Philadelphia,[^201] threats against the Commissioner grew more targeted, more detailed, and more graphic.[^202] These threats extended to include highly personal information like the names and ages of the Commissioner's family members, as well as photos or the address of his home.[^203] Fulton County, Georgia, election officials similarly reported receiving threats-including death threats-following Mr. Trump's false public accusations against Fulton County election workers.[^204]
 
-Mr. Trump also targeted private citizens who served as election workers. He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day; he and his co-conspirators spread pernicious false claims that these election workers had committed misconduct.[^205] Although the lies were promptly and publicly debunked,[^206] Mr. Trump continued to repeat them,[^207] and the election workers were subjected to vile threats. As one of the women explained, "when someone as powerful as the President of the
+Mr. Trump also targeted private citizens who served as election workers. He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day; he and his co-conspirators spread pernicious false claims that these election workers had committed misconduct.[^205] Although the lies were promptly and publicly
 
 %%page 77%%
 
-United States eggs on a mob, that mob will come. They came for us with their cruelty, their threats, their racism, and their hats. They haven't stopped even today."[^208] Mr. Trump persisted in publicly spreading false and harmful social media posts about the same election workers into 2023.[^209] In 2024, Co-Conspirator 1 conceded in a defamation lawsuit filed by the election workers that his statements about them were "defamatory per se" and "false," and a jury awarded them damages of more than $145 million. 210
+> debunked,[^206] Mr. Trump continued to repeat them, 207 and the election workers were subjected to vile threats. As one of the women explained, "when someone as powerful as the President of the United States eggs on a mob, that mob will come. They came for us with their cruelty, their threats, their racism, and their hats. They haven't stopped even today."[^208] Mr. Trump persisted
+
+in publicly spreading false and harmful social media posts about the same election workers into 2023.[^209] In 2024, Co-Conspirator 1 conceded in a defamation lawsuit filed by the election workers that his statements about them were "defamatory per se" and "false," and a jury awarded them damages of more than $145 million. 210
 
 Mr. Trump took aim at Mr. Pence when Mr. Pence repeatedly informed Mr. Trump that he could not in good conscience do as Mr. Trump asked. On January 6, this included Mr. Trump's retributive targeting of Mr. Pence during his Ellipse speech and the 2:24 p.m. Tweet attacking Mr. Pence that Mr. Trump issued even though he knew that the riot was ongoing at the Capitol. Taken together, these actions resulted in rioters at the Capitol on January 6 singling out Mr. Pence for their ire and chanting, "Where is Pence? Bring Him Out!"[^211] and, "Hang Mike Pence!"[^212]
 
@@ -691,7 +685,7 @@ In his Ellipse speech, Mr. Trump explicitly directed his supporters to march on 
 
 %%page 85%%
 
-During the siege, Mr. Trump's supporters continued to heed his words. Video evidence from that afternoon shows rioters, in real time, crediting Mr. Trump for their presence and conduct at the Capitol. For example, as the crowd sought to push past officers protecting the Capitol's East Front, one rioter shouted: "We were invited here! We were invited by the President of the United States!" 244 Inside, another rioter yelled at officers to "stand down. You're outnumbered. There's a fucking million of us out there. And we're listening to Trumpyour boss."[^245] United States v. Harris, No. 21-cr-189, ECF No. 84 at 5 (D.D.C. Oct. 20, 2023). That rioter was later convicted of obstruction and of assaulting an officer, among other violations. Id. at 11. As the day wore on, rioters continued to obey Mr. Trump's commands. At 4:25 p.m.-just eight minutes after Mr. Trump's video Tweet telling supporters that they were "very special" but should "go home now"-rioter Edward Vallejo, a member of the Oath Keepers, posted to a group Signal chat that "our commander in chief has just ordered us to go home." Rhodes, ECF No. 822 at 55 (Sentencing Hearing Tr.). Another rioter, Jacob Chansley, played that video Tweet to a crowd at the Capitol and announced that "Donald Trump has asked everybody to go home."[^246] Chansley left the Capitol at that point-having earlier breached the Senate chamber, taken a seat at the dais, and declared Vice President Pence to be "a fucking traitor." United States v. Chansley, No. 21-cr-3, ECF No. 81 at 10-11 (D.D.C. Nov. 9, 2021) (Gov't Sentencing Memorandum).[^247]
+During the siege, Mr. Trump's supporters continued to heed his words. Video evidence from that afternoon shows rioters, in real time, crediting Mr. Trump for their presence and conduct at the Capitol. For example, as the crowd sought to push past officers protecting the Capitol's East Front, one rioter shouted: "We were invited here! We were invited by the President of the United States!"[^244] Inside, another rioter yelled at officers to "stand down. You're outnumbered. There's a fucking million of us out there. And we're listening to Trumpyour boss."[^245] United States v. Harris, No. 21-cr-189, ECF No. 84 at 5 (D.D.C. Oct. 20, 2023). That rioter was later convicted of obstruction and of assaulting an officer, among other violations. Id. at 11. As the day wore on, rioters continued to obey Mr. Trump's commands. At 4:25 p.m.-just eight minutes after Mr. Trump's video Tweet telling supporters that they were "very special" but should "go home now"-rioter Edward Vallejo, a member of the Oath Keepers, posted to a group Signal chat that "our commander in chief has just ordered us to go home." Rhodes, ECF No. 822 at 55 (Sentencing Hearing Tr.). Another rioter, Jacob Chansley, played that video Tweet to a crowd at the Capitol and announced that "Donald Trump has asked everybody to go home."[^246] Chansley left the Capitol at that point-having earlier breached the Senate chamber, taken a seat at the dais, and declared Vice President Pence to be "a fucking traitor." United States v. Chansley, No. 21-cr-3, ECF No. 81 at 10-11 (D.D.C. Nov. 9, 2021) (Gov't Sentencing Memorandum).[^247]
 
 %%page 86%%
 
@@ -907,9 +901,7 @@ Representative Perry a copy of the contents of his phone so that he had an oppor
 
 %%page 113%%
 
-The same pattern transpired after Mr. Trump's indictment in the Election Case. As the
-
-D.C. Circuit later found, Mr. Trump "repeatedly attacked those involved in th[e] case through threatening public statements, as well as messaging daggered at likely witnesses and their testimony," Trump,[^88] F.4th at 1010. Those attacks had "real-time, real-world consequences," exposing "those on the receiving end" to "a torrent of threats and intimidation" and turning their lives "upside down." Id at 1011-1012. The day after his arraignment, for example, Mr. Trump posted on the social media application Truth Social, "IF YOU GO AFTER ME, I'M COMING AFTER YOU!" Id. at 998. The next day, "one of his supporters called the district court judge's chambers and said: 'Hey you stupid slave n[****]r[.] ***If Trump doesn't get elected in 2024, we are coming to kill you, so tread lightly b[***]h. * * * You will be targeted personally, publicly, your family, all of it."' Id. 261 Mr. Trump also "took aim at potential witnesses named in the indictment," id. at 998-999, and "lashed out at government officials closely involved in the criminal proceeding," as well as members of their families, id. at 1010-1011.
+The same pattern transpired after Mr. Trump's indictment in the Election Case. As the D.C. Circuit later found, Mr. Trump "repeatedly attacked those involved in th[e] case through threatening public statements, as well as messaging daggered at likely witnesses and their testimony," Trump,[^88] F.4th at 1010. Those attacks had "real-time, real-world consequences," exposing "those on the receiving end" to "a torrent of threats and intimidation" and turning their lives "upside down." Id at 1011-1012. The day after his arraignment, for example, Mr. Trump posted on the social media application Truth Social, "IF YOU GO AFTER ME, I'M COMING AFTER YOU!" Id. at 998. The next day, "one of his supporters called the district court judge's chambers and said: 'Hey you stupid slave n[****]r[.] ***If Trump doesn't get elected in 2024, we are coming to kill you, so tread lightly b[***]h. * * * You will be targeted personally, publicly, your family, all of it."' Id. 261 Mr. Trump also "took aim at potential witnesses named in the indictment," id. at 998-999, and "lashed out at government officials closely involved in the criminal proceeding," as well as members of their families, id. at 1010-1011.
 
 To protect the integrity of the proceedings, on September 5, 2023, the Office filed a motion seeking an order pursuant to the district court's rules restricting certain out-of-court statements by either party. See ECF No. 57; D.D.C. LCrR 57.7(c). The district court heard argument and granted the Office's motion, finding that Mr. Trump's public attacks "pose a significant and immediate risk that (1) witnesses will be intimidated or otherwise unduly influenced by the prospect of being themselves targeted for harassment or threats; and (2) attorneys, public servants, and other court staff will themselves become targets for threats and harassment." ECF No. 105 at 2. Because no "alternative means" could adequately address these
 
@@ -1107,9 +1099,9 @@ Government's Response in Opposition to Defendant's Motion for 54 9/14/2023
 
 65 10/2/2023
 
-> Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline Government's Response in Opposition to Defendant's Motion for
+### Section 4: Filing and an Adjournment of the CIPA Section 5 Deadline
 
-66 10/2/2023
+Government's Response in Opposition to Defendant's Motion for 66 10/2/2023
 
 > Extension of Time to File Pretrial Motions Court Opinion & Order (Defendant's Motion for Access to CIPA
 
@@ -1227,7 +1219,7 @@ Cause 195 1/18/2024 Court Opinion & Order (Defendant's Motion to Show Cause)
 
 Court Memorandum Opinion & Order (Defendant's Motion to 198,[^199] 8/3/2024
 
-Dismiss for Selective and Vindictive Prosecution)[^226] 8/27/2024 Superseding Indictment 228 8/27/2024 Government's Notice of Superseding Indictment 229 8/30/2024 Joint Status Report (Pretrial Schedule)[^232] 9/5/2024 Transcript ofArraignment and Status Conference ,.,,., 2.) .) 9/5/2024 Court Order (Pretrial Schedule)
+Dismiss for Selective and Vindictive Prosecution)[^226] 8/27/2024 Superseding Indictment 228 8/27/2024 Government's Notice of Superseding Indictment 229 8/30/2024 Joint Status Report (Pretrial Schedule)[^232] 9/5/2024 Transcript ofArraignment and Status Conference 2.),.,,.,.) 9/5/2024 Court Order (Pretrial Schedule)
 
 Government's Motion for Leave to File Unredacted Motion Under 246 9/27/2024
 
@@ -1243,7 +1235,15 @@ United States v. Donald J. Trump, Case No. 23-cr-257 (D.D.C.)
 
 ECF No. Date Document Descri:gtion
 
-> Government's Response in Opposition to the Defendant's 262 10/16/2024 Supplement to His Motion to Dismiss on Statutory Grounds Court Memorandum Opinion & Order (Defendant's Motions to 263 10/16/2024 Compel Discovery and for an Order Regarding the Scope of Prosecution Team) Court Opinion & Order (Defendant's Motion to Continue Stay of
+Government's Response in Opposition to the Defendant's
+
+262 10/16/2024
+
+> Supplement to His Motion to Dismiss on Statutory Grounds Court Memorandum Opinion & Order (Defendant's Motions to
+
+263 10/16/2024 Compel Discovery and for an Order Regarding the Scope of
+
+> Prosecution Team) Court Opinion & Order (Defendant's Motion to Continue Stay of
 
 265 10/17/2024
 
@@ -1259,9 +1259,7 @@ Appointments and Appropriations Clauses
 
 281 11/25/2024 Government's Motion to Dismiss Without Prejudice
 
-Court Opinion & Order (Government's Motion to Dismiss Without
-
-282,283 11/25/2024
+Court Opinion & Order (Government's Motion to Dismiss Without 282,283 11/25/2024
 
 Prejudice)
 
@@ -1339,23 +1337,11 @@ In re Sealed Case, No. 23-3001 (D.C. Cir.) Doc. No. Date Document Descrigtion 20
 
 1/9/2023 (Att. 2) Pending Appeal 1983102 1/25/2023 Court Order (Perry's Motion for Stay Pending Appeal)
 
-Additional filings in this matter have been made publicly available in In re Sealed Case, No. 23-300 I (D.C. Cir.),
-
 %%page 145%%
 
-In re Sealed Case, No. 23-3001 (D.C. Cir.)
+In re Sealed Case, No. 23-3001 (D.C. Cir.) Doc. No. Date Document DescriQtion 2031508
 
-Doc. No. Date Document DescriQtion
-
-2031508
-
-2/16/2023 Government's Brief
-
-(Att. 12)
-
---- 2/23/2023 Oral Argument 281
-
-2015233 9/5/2023 Court Judgment 2016705 9/13/2023 Court Opinion (decided 9/5/2023)[^282]
+2/16/2023 Government's Brief (Att. 12) --- 2/23/2023 Oral Argument 281 2015233 9/5/2023 Court Judgment 2016705 9/13/2023 Court Opinion (decided 9/5/2023)[^282]
 
 ## TWITTER SEARCH WARRANT LITIGATION
 
@@ -1375,9 +1361,7 @@ Government's Motion for an Order to Show Cause Why Twitter Inc.[^5] 2/2/2023 Sho
 
 --- 2/7/2023
 
-Show Cause and Directing Twitter to Comply
-
-50 2/9/2023 Transcript of Hearing (Twitter's Non-Compliance with Warrant)[^19] 2/13/2023 Government's Notice Regarding Accrued Sanction
+Show Cause and Directing Twitter to Comply 50 2/9/2023 Transcript of Hearing (Twitter's Non-Compliance with Warrant)[^19] 2/13/2023 Government's Notice Regarding Accrued Sanction
 
 Government's Opposition to Twitter Inc. 's Motion to Vacate or 50 2/16/2023 Modify Non-Disclosure Order and Stay Twitter's Compliance with
 
@@ -1389,9 +1373,9 @@ Government's Opposition to Twitter Inc. 's Motion to Vacate or 50 2/16/2023 Modi
 
 In re Sealed Case, No. 23-5044 (D.C. Cir.) Doc. No. Date Document DescriQtion 1989703 3/10/2023 Government's Response in Opposition to Twitter's Motion for Stay 1991524 3/23/2023 Court Order (Twitter's Motion for Stay) 2017103 4/21/2023 Government's Answering Brief (filed with redactions on 9/15/2023) --- 5/19/2023 Oral Argument 283 2011549 8/9/2023 Court Amended Redacted Opinion (decided 7/18/2023) 284 2018981 9/26/2023 Government's Response in Opposition to Rehearing En Banc 2035679 1/16/2024 Court Order (Petition for Rehearing)
 
-X Corp. v. United States, No. 23-1264 (U.S.) Doc. No. Date Document DescriQtion 5 7/3/2024 Government's Opposition (Petition for Writ of Certiorari)[^9] 10/7/2024 Court Order (Petition for Writ of Certiorari) 285
+X Corp. v. United States, No. 23-1264 (U.S.) Doc. No. Date Document DescriQtion 5 7/3/2024 Government's Opposition (Petition for Writ of Certiorari)[^9] 10/7/2024 Court Order (Petition for Writ of Certiorari)[^285]
 
-·,, I
+·, I
 
 ## ADDENDUM
 
@@ -1403,13 +1387,7 @@ X Corp. v. United States, No. 23-1264 (U.S.) Doc. No. Date Document DescriQtion 
 
 January 6, 2025
 
-Via Email
-
-The Honorable Merrick Garland
-
-Attorney General of the United States c/o Brad Weinsheimer
-
-Associate Deputy Attorney General
+Via Email The Honorable Merrick Garland Attorney General of the United States c/o Brad Weinsheimer Associate Deputy Attorney General
 
 Re: Draft "Final Report" By Jack Smith
 
@@ -1421,9 +1399,7 @@ As you know, Courts in Florida and the District of Columbia have now dismissed b
 
 First, Smith lacks authority under our Constitution to issue a report because he was not validly appointed, and the plain terms of the permanent indefinite appropriation that he has pillaged for more than $20 million clearly do not apply to his politically-motivated work. The preparation and release of a report, therefore, would extend and perpetuate Smith' s violations of the Appointments Clause and the Appropriations Clause.
 
-Second, the Draft Repo11 violates fundamental norms regarding the presumption of innocence, including with respect to third parties unnecessarily impugned by Smith' s false claims. Releasing the report to the public without significant redactions (that would render its release meaningless) would violate prohibitions on extrajudicial statements by prosecutors and Rule 6(e). This is particularly problematic with respect to ongoing proceedings relating to Waltine Nauta and Carlos De Oliveira, as well as others who Smith and his staff falsely characterize as co-conspirators in the Draft Report.
-
-1Should these demands be improperly rejected, contrary to law, we respectfully request that this letter be appended to and addressed in any report by Smith that is issued to the public.
+Second, the Draft Repo11 violates fundamental norms regarding the presumption of innocence, including with respect to third parties unnecessarily impugned by Smith' s false claims. Releasing the report to the public without significant redactions (that would render its release meaningless) would violate prohibitions on extrajudicial statements by prosecutors and Rule 6(e). This is particularly problematic with respect to ongoing proceedings relating to Waltine Nauta and Carlos De Oliveira, as well as others who Smith and his staff falsely characterize as co-conspirators in the Draft Report.[^1] Should these demands be improperly rejected, contrary to law, we respectfully request that this letter be appended to and addressed in any report by Smith that is issued to the public.
 
 January 6, 2025 Page 2
 
@@ -1469,15 +1445,11 @@ Congress passed the Presidential Transition Act to protect these critical functi
 
 Creating and releasing a prejudicial report to the public would violate these commands by giving rise to a media storm of false and unfair criticism that President Trump would be required to address while preparing to assume his Article II responsibilities. Equally problematic and inappropriate are the draft's
 
-2 ECF No. 281 at 6, United States v. Trump, No. 23 Cr.[^257] (D.D.C. Nov. 25, 2024).
-
-3Center for Presidential Transition, Presidential Transitions are a Perilous Moment for National Security (Aug. 16, 2023 ), https ://presidential transi tion.org/reports-publications/presidential-transi tions-are-a­ perilous-moment-for-national-security.
+2 ECF No. 281 at 6, United States v. Trump, No. 23 Cr.[^257] (D.D.C. Nov. 25, 2024).[^3] Center for Presidential Transition, Presidential Transitions are a Perilous Moment for National Security (Aug. 16, 2023 ), https ://presidential transi tion.org/reports-publications/presidential-transi tions-are-a­ perilous-moment-for-national-security.
 
 > Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
-January 6, 2025
-
-Page 5 baseless attacks on other anticipated members of President Trump's incoming administration, which are an obvious effort to interfere with upcoming confirmation hearings, and Smith's pathetically transparent tirade about good-faith efforts by X to protect civil liberties, which in a myriad other contexts you have claimed are paramount.
+January 6, 2025 Page 5 baseless attacks on other anticipated members of President Trump's incoming administration, which are an obvious effort to interfere with upcoming confirmation hearings, and Smith's pathetically transparent tirade about good-faith efforts by X to protect civil liberties, which in a myriad other contexts you have claimed are paramount.
 
 A one-sided, improper report by Smith, particularly if publicly released, would also violate the
 
@@ -1485,9 +1457,7 @@ Presidential immunity principles that Smith has conceded foreclose him from proc
 
 Trump. Indeed, footnote 1 of "Volume 1" of the Draft Report concedes that Smith has brazenly included "conduct for which the Supreme Court later held [President] Trump to be immune from prosecution," and subsequently further highlights the incredible hubris that has clouded the judgment of Smith and his staff from the outset by falsely claiming that the Supreme Court's decision is ambiguous with respect to holdings and reasoning that Smith simply does not like. Based on guidance from OLC-which Smith's staff subsequently informed us that the Office improperly failed to document in any way, in violation of, inter alia, DOJ policy regarding the handling of exculpatory information-Smith has acknowledged that Presidential immunity is "categorical," and that it applies while President Trump is the President-elect prior to his inauguration.[^4] A public report by Smith would unnecessarily and unjustly add to the inappropriate "peculiar public opprobrium" that has resulted from Smith's unlawful activities thus far. Trump v. United States, 603 U.S. 593, 613 (2024). OLC explained previously that such "public stigma and opprobrium" could "compromise the President's ability to fulfill his constitutionally contemplated leadership role with respect to foreign and domestic affairs." Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, A Sitting President's Amenability to Indictment and Criminal Prosecution, 2000 WL 33711291, at *19 (Oct. 16, 2000). "[T]he stigma arising ... from the need to respond to such charges through the judicial process would seriously interfere with [the President's] ability to carry out his constitutionally assigned functions." Id. at *22. The release of a report would also pose an unconstitutional risk of diverting President Trump's "personal time and energy, and [would] inevitably entail a considerable if not overwhelming degree of mental preoccupation." Id. at *25 (emphasis in original). A "single prosecutor" such as Smith should not, and must not, be afforded "the practical power to interfere with the ability of a popularly elected President to carry out his constitutional functions." Id. at *19. "The Framers' design of the Presidency did not envision such counterproductive burdens on the vigor and energy of the Executive." Trump, 603 U.S. at 614 (cleaned up).
 
-In sum, the same legal principles and logic that required Smith to dismiss his prosecutions of President Trump require that his activities be terminated without further action. Preparation and release of "Closing documentation" would violate the Constitution and existing law, harm the activities of the transition, and weaken the federal government that you have sworn an oath to support. The collective application of these circumstances make this situation entirely unlike any prior Special Counsel report. Preparation and release of a report is therefore not "in the public interest."[^28] C.F.R. § 600.9(c). To the contrary, the course of action Smith proposes would further solidify the well-founded perception of partisanship created by Smith's violation of DOJ policies in connection with decisions based on his ultimately failed attempt to influence the outcome of the 2024 Presidential election. For all of these reasons, you must countermand Smith's proposed course of action, remove him, and stop the preparation and/or dissemination of the Draft Report.
-
-4ECF No. 281 at 6, United States v. Trump, No. 23 Cr.[^257] (D.D.C. Nov. 25, 2024) ("[T]he Department's position is that the Constitution requires that this case be dismissed before the defendant is inaugurated.").
+In sum, the same legal principles and logic that required Smith to dismiss his prosecutions of President Trump require that his activities be terminated without further action. Preparation and release of "Closing documentation" would violate the Constitution and existing law, harm the activities of the transition, and weaken the federal government that you have sworn an oath to support. The collective application of these circumstances make this situation entirely unlike any prior Special Counsel report. Preparation and release of a report is therefore not "in the public interest."[^28] C.F.R. § 600.9(c). To the contrary, the course of action Smith proposes would further solidify the well-founded perception of partisanship created by Smith's violation of DOJ policies in connection with decisions based on his ultimately failed attempt to influence the outcome of the 2024 Presidential election. For all of these reasons, you must countermand Smith's proposed course of action, remove him, and stop the preparation and/or dissemination of the Draft Report.[^4] ECF No. 281 at 6, United States v. Trump, No. 23 Cr.[^257] (D.D.C. Nov. 25, 2024) ("[T]he Department's position is that the Constitution requires that this case be dismissed before the defendant is inaugurated.").
 
 > Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
@@ -1541,7 +1511,7 @@ For the quarter century that DOJ has operated under these Regulations, DOJ has n
 
 Here, Smith has explained himself, and sought unsuccessfully to justify his actions, ad nauseum. This has included routinely leaking sensitive details regarding the actions of Smith's Office to the media in violation of DOJ policy. In October 2024, it was leaked that Smith planned to "pursue his two cases against Mr. Trump for as long as he has the legal authority to do so-including during the period between Election Day and the inauguration, when Mr. Trump, if he prevails, would be president-elect."[^11] A similar July 2024 report cited "a person familiar with Mr. Smith's thinking."[^12] As another example, we first learned from the media, rather than Smith's Office, that they were considering dismissing the prosecutions of President Trump.[^13] And we learned for the first time via private outreach from media sources, rather than Smith's Office, that Smith is working on a report.[^9] Reauthorization of the Independent Counsel Statute, Part I: Hearings Before the H Comm. on the Judiciary, l 06th Cong.[^86] (1999) (prepared statement of Deputy Attorney General Eric Holder)
 
-1°Compare 28 U.S.C. § 594(h)(l)(B) (calling for a "final report ... setting forth fully and completely a description of the work of the independent counsel, including the disposition of all cases brought"), with 28 C.F.R. § 600.8(c) (calling for "a confidential report explaining the prosecution or declination decisions reached by the Special Counsel").
+1° Compare 28 U.S.C. § 594(h)(l)(B) (calling for a "final report ... setting forth fully and completely a description of the work of the independent counsel, including the disposition of all cases brought"), with 28 C.F.R. § 600.8(c) (calling for "a confidential report explaining the prosecution or declination decisions reached by the Special Counsel").
 
 January 6, 2025 Page 10
 
@@ -1551,15 +1521,13 @@ Under these circumstances, there is no legitimate need for an additional "report
 
 The issuance of such a report, in violation of the Constitution, the Transition Act, Presidential immunity, and DOJ's own regulations, would exacerbate the irreparable damage that Smith has already inflicted on DOJ's reputation for non-partisanship through his repeated violations of DOJ policies about election interference. As we noted one year ago in opposing Smith's failed attempt to obtain certiorari before judgment on Presidential immunity, which the Supreme Court rejected, Smith's actions "create[] the compelling appearance of a partisan motivation: To ensure that President Trump ... will face a months-long criminal trial at the height of his presidential campaign." Br. in Opp. to Pet'n for Writ of
 
-> January 6, 2025 Page 11
+January 6, 2025 Page 11
 
 Certiorari Before Judgment in United States v. Trump, No. 23-624, at 21 (filed Dec. 20, 2024). Smith's nakedly partisan, election-interference motivation was obvious to commentators across the political spectrum. See id. (citing many sources). "[T]he best traditions of the U.S. Department of Justice ... call for prosecutors to avoid the appearance of election interference in the prosecution of political candidates." Id. at 23 (emphasis in original). "[F]ederal prosecutors ... may never make a decision regarding an investigation or prosecution, or select the timing of investigative steps or criminal charges, for the purpose of affecting any election, or for the purpose of giving an advantage or disadvantage to any candidate or political party." Id (citing Justice Manual§ 9-27.260). Smith's latest illegal plan to launch yet another partisan attack against President Trump, De Oliveira, and Nauta will have the same injurious effect on DOJ' s reputation if not stopped in its tracks.
 
 Further, preparing and releasing a report would be improper for the additional reason that Smith has relied on numerous legal theories that are unprecedented and incorrect as a matter of law. Many of those issues were the subject of ongoing litigation at the time Smith dismissed the cases. To name a few, these issues include the lack of statutory authority for Smith's appointment; Smith's reliance on official­ acts allegations in both cases in violation of the Presidential immunity doctrine 17; Smith's unlawful theory under 18 U.S.C. § 1512(c)(2) in violation of Fischer v. United States, 603 U.S. 480 (2024); equal protection violations, based on selective and vindictive prosecution theories 18 ; the unprecedented and unlawful raid at Mar-a-Lago; and violations of the Presidential Records Act and NARA's longstanding practices under that Act.[^19] There were also numerous discovery disputes in both cases, including unresolved motions in the Southern District of Florida regarding Brady obligations, the scope of the prosecution team, and Intelligence Community holdings, which further call into question the reliability of Smith's theories.[^20] Smith's Draft Report presents a selective and inaccurate response to only some of these issues, and then proceeds as if his theories are well-founded and undisputed. Nothing could be further from the truth.
 
 Finally, given the status of Smith and his team as the inauguration approaches, using additional taxpayer resources to prepare, review, and disseminate a report is not a legitimate use of taxpayer funds­ even ifthere were a valid appropriation here, which there is not. "The Special Counsel's office has spent tens of millions of dollars since November 2022, all drawn unconstitutionally from the Indefinite Appropriation." United States v. Trump, 2024 WL 3404555, at *46 (S.D. Fla. July 15, 2024). For the period preceding March 31, 2024, Smith's Office had used $20 million from a permanent indefinite appropriation and an additional $16 million from other unspecified "DOJ components. "[^21] The costs of Smith's activities since March 2024 have not yet been released. It is clear, however, that the total figure
-
-17 ECF No. 324, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).[^18] ECF No. 328, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).[^19] ECF No. 327, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
 
 January 6, 2025 Page 12 will greatly exceed-by an extraordinarily wide margin-what all of this lawfare was actually worth to the public, the operations of the government, and the Country as a whole.
 
@@ -1613,7 +1581,9 @@ Sincerely yours,
 
 ## Notes
 
-[^1]: This section of the Report summarizes the evidence uncovered by the Office's investigation, and therefore includes conduct for which the Supreme Court later held Mr. Trump to be immune from prosecution, see Trump v. United States, 603 U.S. 593, 597 (2024). That conduct is not included in the superseding indictment that the Office obtained after the Supreme Court's decision, see ECF No. 226, nor is that conduct included in the discussion below regarding why the evidence warranted criminal charges under the Principles of Federal Prosecution. Unless otherwise noted, all ECF citations in this Volume of the Report are to the docket in United States v. Trump, No. 23-cr-257 (D.D.C.). 2 SC0-00701211 at 7 (Federal Election Commission, Election Results for 2020 Federal Elections).
+[^1]: This section of the Report summarizes the evidence uncovered by the Office's investigation, and therefore includes conduct for which the Supreme Court later held Mr. Trump to be immune from prosecution, see Trump v. United States, 603 U.S. 593, 597 (2024). That conduct is not included in the superseding indictment that the Office obtained after the Supreme Court's decision, see ECF No. 226, nor is that conduct included in the discussion below regarding why the evidence warranted criminal charges under the Principles of Federal Prosecution. Unless otherwise noted, all ECF citations in this Volume of the Report are to the docket in United States v. Trump, No. 23-cr-257 (D.D.C.).
+
+[^2]: SC0-00701211 at 7 (Federal Election Commission, Election Results for 2020 Federal Elections). (Congressional Record 01/06/2021).
 
 [^3]: An indictment is an allegation, not a verdict; a person accused of a crime is presumed innocent until proven guilty beyond a reasonable doubt. The Office was prepared to present the evidence of Mr. Trump's alleged crimes in a public adversarial trial and to accept any verdicts rendered by a jury of his peers. As explained below, the Office commenced prosecution of Mr. Trump in the Election Case under both the original and superseding indictments because it concluded that the admissible evidence would be sufficient to obtain and sustain a conviction. See Justice Manual § 9-27 .220 and infra at Section III.
 
@@ -1623,7 +1593,7 @@ Sincerely yours,
 
 [^6]: See ECF No. I; ECF No. 226. Mr. Trump's conduct with Co-Conspirator 4 was charged in the original indictment, ECF No. I, but not in the superseding indictment, ECF No. 226, because the Supreme Court held in the interim that Mr. Trump's conduct regarding the Department of Justice was immunized. Trump, 603 U.S. at 597. Letter from Chairman Jim Jordan to Jeffrey Ragsdale, DOJ OPR (Dec. 4, 2024) https://www.scribd.com/document/800789357/Judiciary-to­ DOJ?secret_password=vphCtDdh3lHj7mTM5Ib8.
 
-[^7]: See, e.g., ECF No. 252 at 10; SCO-02244118 at 11-12, 14-19 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-04949418 at 04:15:22-04:31:46 (Video of Save America Rally O1/06/2021); SCO-04976462 at 18:34-19:12 (Video of Speech at White House 12/02/2020); SCO-00455939 (Donald J. Trump Tweet I 1/19/2020); SCO-04976283 at 01:00:43-01:14:24 (Video of Dalton, GA speech 01/04/2021); SCO-04976275 at 22:00-22:40 (Video of Valdosta, GA speech 12/05/2020); SCO-00455041 (Donald J. Trump Tweet O1/02/2021); SCO-00456153 (Donald J. Trump Tweet 11/12/2020); SCO-00456144 (Donald J. Trump Tweet 11/13/2020); SCO-00456102 (Donald J. Trump Tweet I 1/14/2020); SCO-00456066 (Donald J. Trump Tweet 11/15/2020); SCO-00455969 (Donald J. Trump Tweet 11/18/2020); SCO-04976266 at 20:10-37:50 (Video of Thanksgiving Call to Troops 11/26/2020). The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
+[^7]: See,e.g., ECF No. 252 at 10; SCO-02244118 at 11-12, 14-19 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-04949418 at 04:15:22-04:31:46 (Video of Save America Rally O1/06/2021); SCO-04976462 at 18:34-19:12 (Video of Speech at White House 12/02/2020); SCO-00455939 (Donald J. Trump Tweet I 1/19/2020); SCO-04976283 at 01:00:43-01:14:24 (Video of Dalton, GA speech 01/04/2021); SCO-04976275 at 22:00-22:40 (Video of Valdosta, GA speech 12/05/2020); SCO-00455041 (Donald J. Trump Tweet O1/02/2021); SCO-00456153 (Donald J. Trump Tweet 11/12/2020); SCO-00456144 (Donald J. Trump Tweet 11/13/2020); SCO-00456102 (Donald J. Trump Tweet I 1/14/2020); SCO-00456066 (Donald J. Trump Tweet 11/15/2020); SCO-00455969 (Donald J. Trump Tweet 11/18/2020); SCO-04976266 at 20:10-37:50 (Video of Thanksgiving Call to Troops 11/26/2020). The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
 
 [^8]: Compare SCO-02244118 at 11, 19 (Remarks by Mr. Trump at Save America Rally Ol/06/202 I) (Mr. Trump asserting on January 6 that there were 205,000 more votes than voters in Pennsylvania) with SCO-00709557 at 156 (SJC Tr.) (stating that Mr. Trump was told on January 3 that the allegation that there were more votes than voters in Pennsylvania was untrue); see also SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020) (Co-Conspirator I stating that there could have been "five million illegal aliens in Arizona," and "a few hundred thousand" of those who fraudulently voted, even though the state had a total population of approximately 7.4 million). The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
 
@@ -1643,15 +1613,15 @@ Sincerely yours,
 
 [^16]: See ECF No. 252 at 44-45 & nn.227-229; SCO-00455825 (Donald J. Trump Retweet 11/24/2020); SCO-12858284 (Tweet 11/24/2020) (showing Donald J. Trump Retweet); SCO-00455769, SCO-12858342 (Donald J. Trump Retweet 11/26/2020); SCO-04949395 at 3 (Remarks by Mr. Trump on the Presidential Election 12/02/2020); SCO-02244118 at 18-19 (Remarks by Mr. Trump at Save America Rally O1/06/2021). See also A Review of Various Actions by the Federal Bureau oflnvestigation and Department of Justice in Advance of the 2016 Election, U.S. Dep't ofJustice Office of Inspector General (June 2018) at 18 ("[I]n general, the practice has been not to take actions that might have an impact on an election, even if it's not an election case or something like that."), available at https://s3 .documentcloud.org/documents/4515 884/DOJ-OI G-2016-Electio_n-Final-Report.pdf. Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
-[^17]: See ECF No. 1 at ,r 83.
+[^17]: See ECF No. 1 at ,r 83. ECF No. 324, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
 
-[^18]: U.S. CONST. art. II, § 1.
+[^18]: U.S. CONST. art. II, § 1. ECF No. 328, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
 
-[^19]: ECF No. I at if 9; ECF No. 226 at ,r 10; see ECF No. 252 at 4; About the Electors, NATIONAL ARCHIVES, https://www.archives.gov/electoral-college/electors; see also Chiafalo v. Washington, 591 U.S. 578, 581, 584-85 & n. l (2020).
+[^19]: ECF No. I at if 9; ECF No. 226 at ,r 10; see ECF No. 252 at 4; About the Electors, NATIONAL ARCHIVES, https://www.archives.gov/electoral-college/electors; see also Chiafalo v. Washington, 591 U.S. 578, 581, 584-85 & n. l (2020). ECF No. 327, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
 
 [^20]: Electoral Count Act, 3 U.S.C. §§ 5-11. OC00163 IB, Order at 13-24, 28-34 (Nev. Dist. Ct. Dec. 4, 2020), https://electioncases.osu.edu/wp­ content/uploads/2020/11/Law-v-Gloria-Order-Granting-Motion-to-Dismiss.pdf [https://perma.cc/32U2-BTA6]; ECF No. 262, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Jan. 16, 2024).
 
-[^21]: U.S. CONST. amend. XII; Electoral Count Act, 3 U.S.C. § 15. Freeman v. Giuliani, No. 21-cv-3354, ECF No. 90 at 1-2 (D.D.C. Aug. 8, 2023) (Def. Stipulation), ECF No. 142 (D.D.C. Dec. 18, 2023) (Final Judgment). Special Counsel's Office, DOJ, Statements of Expenditures, https://www.justice.gov/sco-smith. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
+[^21]: U.S. CONST. amend. XII; Electoral Count Act, 3 U.S.C. § 15. Special Counsel's Office, DOJ, Statements of Expenditures, https://www.justice.gov/sco-smith. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
 
 [^22]: See ECF No. 252 at I 6-35; see, e.g., SCO- I 2733339 at 3-6, I 3- I 5 (Int. Rep.); SCO-00767550 at I 0-18 (HSC Tr.); SCO- I 29983 94 (Tr. of Georgia Secretary of State Call O1/02/2021); SCO-0082936 I at 8- I I, I 5-24 (HSC Tr.).
 
@@ -1685,11 +1655,11 @@ Sincerely yours,
 
 [^37]: See ECF No. 252 at 37-38 & nn.187-190; SCO-00016926 at 10-11, 19-23; SCO-02300357 at 3-4 (Presidential Daily Diary 11/06/2020).
 
-[^38]: See ECF No. 252 at 38 & n.190; SCO-00016926 at 21.
+[^38]: See ECF No. 252 at 3 8 & n.190; SCO-00016926 at 21.
 
 [^39]: See ECF No. 252 at 48, 56 & n.301; SCO-02341381 (Fraudulent "Arizona's Electoral Votes for President and Vice President"); SCO-02341386 (Fraudulent "Georgia's Electoral Votes for President and Vice President"); SCO-02341398 (Fraudulent "Michigan's Electoral Votes for President and Vice President"); SCO-02341415 (Fraudulent "Nevada's Electoral Votes for President and Vice President"); SCO-02341409 (Fraudulent "New Mexico's Electoral Votes for President and Vice President"); SCO-02341435 (Fraudulent "Pennsylvania's Electoral Votes for President and Vice President"); SCO-02341449 (Fraudulent "Wisconsin's Electoral Votes for President and Vice President").
 
-[^40]: See ECF No. 252 at 48-49 & nn.250-253; SCO-00310619 (Co-Conspirator 5 memo 11/18/2020); SCO-00310626 (Co-Conspirator 5 memo 12/06/2020); SCO-00039311 (Co-Conspirator 5 memo 12/09/2020).
+[^40]: See (Co-Conspirator 5 memo 12/06/2020); SCO-00039311 (Co-Conspirator 5 memo 12/09/2020).
 
 [^41]: See ECF No. 252 at 48-49 & nn.250-253; SCO-00310626 (Co-Conspirator 5 memo 12/06/2020); SCO-00039311 (Co-Conspirator 5 memo 12/09/2020); SCO-00039408 (Email from Co-Conspirator 5 12/08/2020).
 
@@ -1703,7 +1673,7 @@ Sincerely yours,
 
 [^46]: See ECF No. 252 at 51 & n.268; SCO-00310140 (Email from Co-Conspirator 6 12/09/2020); SCO-03660557 (Email from Co-Conspirator 6 to others, including Co-Conspirator l and Co-Conspirator 5 12/10/2020); SCO-00039412 (Email from Co-Conspirator 5 to others, including Co-Conspirator 1 and Co-Conspirator 6 12/10/2020); SCO-0539013l-SCO-05390136 (Text messages between Co-Conspirator 6, Co-Conspirator 5, and Campaign staffer 12/11/2020); SCO-00430180 (Text messages between Co-Conspirator 6 and Campaign staffer 12/11/2020); SCO-00309359 (Email to Co-Conspirator 1 and Co-Conspirator 6 12/14/2020); SCO-00405057 (Email among Campaign staff 12/15/2020); SCO-06452193 (Email among Campaign staff 12/12/2020); SCO-00312444 (Text messages among Co-Conspirator 1, Co-Conspirator 6, and others 12/12/2020); SCO-12185268 (Email from Co-Conspirator 6 to Co-Conspirator l and others 12/13/2020); SCO-03656456 (Email from Co-Conspirator 5 to Campaign staffer 01/05/2021); SCO-00039215 (Email to Co-Conspirator 5 01/05/2021); SCO-04022107 (Email to Co-Conspirator 5 01/05/2021); SCO-04022176 (Text messages from Co-Conspirator 5 01/05/2021); SCO-12804411 (Text messages from Co-Conspirator 5 0 l /06/2021 ); SCO-12804414 (Text messages between Co-Conspirator 5 and Campaign staffer 01/05/2021); SCO-03666178 (Email from Co-Conspirator 5 01/05/2021); SCO-00038522, SCO-00038523, SCO-00038527 (Email with attachments 01/07/2021).
 
-[^47]: See, e.g., ECF No. 252 at 53 & n.282; see, e.g., SCO-12949797 at 82-83 (Int. Tr.); SCO-11547433 at 4, 6 (Int. Rep.); SCO-00009540 at 15-16; SCO-00017495 at 42-45; SCO-11551879 at 51-55 (Int. Tr.); SCO-00017100 at 53- 55; SCO-11548772 at 75-85 (Int. Tr.); SCO-11568208 at 107-109; SCO-11514688 at 6-7 (Int. Tr.); SCO-12832045 at 75-78 (Int. Tr.); SCO-12808771 at 24-30, 40-41 (Int. Tr.); SCO-11523905 at 153-154 (Int. Tr.); SCO-12741405 (Email from Co-Conspirator 5 12/14/2020); see also SCO-00310647 (Email to Co-Conspirator 1, Co-Conspirator 5, Co-Conspirator 6, and others 12/11/2020).
+[^47]: See,e.g., ECF No. 252 at 53 & n.282; see, e.g., SCO-12949797 at 82-83 (Int. Tr.); SCO-11547433 at 4, 6 (Int. Rep.); SCO-00009540 at 15-16; SCO-00017495 at 42-45; SCO-11551879 at 51-55 (Int. Tr.); SCO-00017100 at 53- 55; SCO-11548772 at 75-85 (Int. Tr.); SCO-11568208 at 107-109; SCO-11514688 at 6-7 (Int. Tr.); SCO-12832045 at 75-78 (Int. Tr.); SCO-12808771 at 24-30, 40-41 (Int. Tr.); SCO-11523905 at 153-154 (Int. Tr.); SCO-12741405 (Email from Co-Conspirator 5 12/14/2020); see also SCO-00310647 (Email to Co-Conspirator 1, Co-Conspirator 5, Co-Conspirator 6, and others 12/11/2020).
 
 [^48]: See ECF No. 252 at 53 & n.282; SCO-03660393 (Email from Co-Conspirator 5 to Campaign staff 12/10/2020); SCO-03660734 (Co-Conspirator 5 streamlined memo 12/10/2020); SCO-11509937 at 257-260 (Int. Tr.).
 
@@ -1735,7 +1705,7 @@ Sincerely yours,
 
 [^62]: See, e.g., ECF No. 252 at 158-159; SCO-04957448 at 139-140 (SJC Tr.); SCO-00775937 at 59-63, 106-108 (HSC Tr.); SCO-12263324 at 5-12 (Handwritten notes 12/27/2020); SCO-00764172 at 18-19 (HSC Tr.).
 
-[^63]: See ECF No. 252 at 158-159 & n.705; SCO-00689680 at 2 (Michael Balsamo, Disputing Trump, Barr says no widespread election fraud, ASSOCIATED PRESS, Dec. 1, 2020).
+[^63]: SeeECF No. 252 at 158-159 & n.705; SCO-00689680 at 2 (Michael Balsamo, Disputing Trump, Barr says no widespread election fraud, ASSOCIATED PRESS, Dec. 1, 2020).
 
 [^64]: SCO-00775937 at 62, 107 (HSC Tr.); SCO-04957448 at 46-51 (SJC Tr.); SCO-11522446 at 23-24 (Int. Rep.); SCO-11511407 at 177-183 (Int. Tr.); SCO-11542142 at 90-98 (Int. Tr.); SCO-115173 80 at 96-99 (Int. Tr.).
 
@@ -1771,7 +1741,7 @@ Sincerely yours,
 
 [^81]: See ECF No. 252 at 65 & n.352; SCO-12184337, SCO-12184338 (Email and memo from Co-Conspirator 2 to Co-Conspirator 5 and Co-Conspirator 6 12/23/2020); SCO-12101300, SCO-12101301 (Email and memo from Co-Conspirator 2 to Co-Conspirator 6 01/03/2021). See, e.g., ECF No. 1 at~ 90; see ECF No. 252 at 62-74; see, e.g., SCO-00014655 at 157-182; SCO-00014442 at 29-43 (Pence, So Help Me God pp. 441-455); SCO-04982306 (Handwritten notes 12/25/2020); SCO-04982309
 
-[^83]: See, e.g., ECF No. 252 at 62 & nn.332-333, 63 & n.338, 65 & nn.349-350, 71 & nn.394-395; SCO-00014655 at 157-182; SCO-00014442 at 29-43 (Pence, So Help Me God pp. 441-455); SCO-04982330 (Handwritten notes 01/04/2021); SCO-04982320 at 2 (Handwritten notes 01/06/2021) (noting "I don't have the authority").
+[^83]: See,e.g., ECF No. 252 at 62 & nn.332-333, 63 & n.338, 65 & nn.349-350, 71 & nn.394-395; SCO-00014655 at 157-182; SCO-00014442 at 29-43 (Pence, So Help Me God pp. 441-455); SCO-04982330 (Handwritten notes 01/04/2021); SCO-04982320 at 2 (Handwritten notes 01/06/2021) (noting "I don't have the authority").
 
 [^84]: See ECF No. 252 at 63 & n.338; SCO-00014442 at 34 (Pence, So Help Me Godp. 446).
 
@@ -1779,7 +1749,7 @@ Sincerely yours,
 
 [^86]: See ECF No. 252 at 64 & nn.344-345, 65 & n.353; SCO-11618747 at 156-158, 166-169 (Text messages from Co-Conspirator 601/02/2021-01/05/2021); SCO-02301015 at 4 (Presidential Daily Diary 01/04/2021).
 
-[^87]: See ECF No. 252 at 66 & n.362; SCO-00007167 at 50-51; SCO-11527024 at 187-189 (Int. Tr.); SCO-00016118 at 73-74; SCO-00014442 at 38-39 (Pence, So Help Me God pp. 450-451 ).
+[^87]: SeeECF No. 252 at 66 & n.362; SCO-00007167 at 50-51; SCO-11527024 at 187-189 (Int. Tr.); SCO-00016118 at 73-74; SCO-00014442 at 38-39 (Pence, So Help Me God pp. 450-451 ).
 
 [^88]: See ECF No. 252 at 67 & n.363; SCO-00014442 at 38-39 (Pence, So Help Me God pp. 450-451); SCO-00007167 at 52-53; SCO-00016118 at 75-76.
 
@@ -1797,15 +1767,15 @@ Sincerely yours,
 
 [^95]: See ECF No. 252 at 72-73 & n.405, 137 & n.636; SCO-00454942, SCO-12987357 (Donald J. Trump Tweet 01/06/2021).
 
-[^96]: See ECF No. 252 at 73 & n.410, 140 & n.646; SCO-00014442 at 47-48 (Pence, So Help Me God pp. 459-460); SCO-11532623 at 203 (Int. Tr.); SCO-11534332 at 211 (Int. Tr.).
+[^96]: See ECF No. 252 at 73 & n.410, 140 & n.646; SCO-00014442 at 47-48 (Pence, So Help Me God pp. 459-460); SCO-11532623 at 203 (Int. Tr.); SCO-11534332 at 211 (Int. Tr.). ECF No. 252 at 73-74 & n.411, 140 & n.647; SCO-11522446 at 25 (Int. Rep.); SCO-00014655 at 206-207;
 
-[^97]: See ECF No. 252 at 73-74 & n.411, 140 & n.647; SCO-11522446 at 25 (Int. Rep.); SCO-00014655 at 206-207; SCO-00014442 at 47-48 (Pence, So Help Me God pp. 459-460); SCO-04982320 (Handwritten notes 01/06/2021).
+[^97]: See SCO-00014442 at 47-48 (Pence, So Help Me God pp. 459-460); SCO-04982320 (Handwritten notes 01/06/2021).
 
 [^98]: See ECF No. 252 at 74 & n.412, 140 & n.648; SCO-00013901 at 59-60; SCO-02241925 (Save America Rally Draft Speech 01/06/2021); SCO-00017298 at 135-139; SCO-00842413 at 163-165 (HSC Tr.); SCO-02343119 (Email among Speechwriting staff 01/06/2021); SCO-02343413 (Email from Speechwriter 01/06/2021); SCO-00006256 at 160; SCO-11522446 at 26 (Int. Rep.).
 
-[^99]: Mr. Trump's speech at the Ellipse on January 6, 2021, was a Campaign event. The rally at which Mr. Trump spoke was planned and executed by private political supporters, and it was completely funded by a $2.1 million private donation. Mr. Trump promoted the event using the word "rally," a word connoting a private political effort, and Mr. Trump's White House staff recognized the event to be a private, unofficial exercise. Finally, the speech itself used campaign language and closely resembled Mr. Trump's other campaign speeches, including one he had given in Dalton, Georgia, for the Senate runoff election just two days earlier. See ECF No. 252 at 118-126 & nn.577-598. See ECF No. 252 at 75-76 & nn.423-428; SCO-02244118 at 3, 6, 11-12, 16-17 (Remarks by Mr. Trump at Save
+[^99]: Mr. Trump's speech at the Ellipse on January 6, 2021, was a Campaign event. The rally at which Mr. Trump spoke was planned and executed by private political supporters, and it was completely funded by a $2.1 million private donation. Mr. Trump promoted the event using the word "rally," a word connoting a private political effort, and Mr. Trump's White House staff recognized the event to be a private, unofficial exercise. Finally, the speech itself used campaign language and closely resembled Mr. Trump's other campaign speeches, including one he had given in Dalton, Georgia, for the Senate runoff election just two days earlier. See ECF No. 252 at 118-126 & nn.577-598.
 
-[^100]: America Rally 01/06/2021).
+[^100]: See ECF No. 252 at 75-76 & nn.423-428; SCO-02244118 at 3, 6, 11-12, 16-17 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
 
 [^101]: See ECF No. 1 at~ 98; SCO-00015613 at 155-156.
 
@@ -1813,7 +1783,7 @@ Sincerely yours,
 
 [^103]: See SCO-02244118 at 6 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
 
-[^104]: See ECF No. 252 at 77-78 & nn.432-443; SCO-02244118 at 5, 6, 9, 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
+[^104]: Rally 01/06/2021).
 
 [^105]: See ECF No. 252 at 77-78 & nn.432-443; SCO-02244118 at 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
 
@@ -1825,11 +1795,9 @@ Sincerely yours,
 
 [^108]: See ECF No. 252 at 78 & n.445; SCO-12945127 at 20:47 (Video of House Floor 01/06/2021); SCO-03666330 at
 
-[^2]: (Congressional Record 01/06/2021).
+[^109]: See ECF No. 252 at 78 & n.448; see also, e.g., SCO-12876233 at 02:20-03:50 (Video of Capitol Riot 01/06/2021).
 
-[^109]: See ECF No. 252 at 78 & n.448; see also, e.g., SCO-12876233 at 02:20-03:50 (Video of Capitol Riot 01/06/2021). See ECF No. 252 at 78-79 & n.450, 82 & n.477; SCO-12806961 at 56:56, SCO-12919902 at 38:59,
-
-[^110]: SCO-00029113, SCO-12738292, SCO-12806977 at 04:30 (Videos of Capitol Riot 01/06/2021); see also SCO-11506096 at 61-63 (Int. Tr.).
+[^110]: See ECF No. 252 at 78-79 & n.450, 82 & n.477; SCO-12806961 at 56:56, SCO-12919902 at 38:59, SCO-00029113, SCO-12738292, SCO-12806977 at 04:30 (Videos of Capitol Riot 01/06/2021); see also SCO-11506096 at 61-63 (Int. Tr.).
 
 [^111]: See ECF No. 252 at 82 & nn.475-477; see also, e.g., SCO-12919902 at 38:48, SCO-12738292, SCO-12806977 at 04:30, SCO-12738332, SCO-12919680 at 54:30 (Videos of Capitol Riot 01/06/2021).
 
@@ -1841,7 +1809,7 @@ Sincerely yours,
 
 [^115]: Aaron Blake, More Republicans now coll Jan. 6 a 'legitimate protest ' than a 'riot, ' WASH. POST (July 7, 2022). https://www.washingtonpost.com/politic.s/2022/07/07/many-republicans-no-louger-call-jan-6-an-insurrection-or­ even-riot/.
 
-[^116]: Capitol Hill Viole.nee, lHE CHRONICLE OF PHil..ANTHR.OPY (Jan. 7, 2021), https://v,-ww.philanthropy.com/article/ho1,v ­ nonprofit-and-foundation-leaders-are-responding-to-capitol-hill-violence.
+[^116]: Statement from Leaders, Updated: 'Our Children Aie Watching': Nonprofit and Foundation Leaders Respond to Capitol Hill Viole.nee, lHE CHRONICLE OF PHil..ANTHR.OPY (Jan. 7, 2021), https://v,-ww.philanthropy.com/article/ho1,v ­ nonprofit-and-foundation-leaders-are-responding-to-capitol-hill-violence.
 
 [^117]: Eric Westervelt, Off-Duty Police Officers Investigated. Charged With Participating In Capitol Riot, NPR (Ja.n. l S, 2021 ). https://www.npr.org/202 l/O l/ l S/956896923/police-officers-across-nation-face-federal-charges-for­ involvement-i.n-capitol-ri.
 
@@ -1859,7 +1827,7 @@ Sincerely yours,
 
 [^124]: See ECF No. 252 at 79-80 & nn.452, 460; SCO-06614619 at 21:45-22:42 (Video of Fox News Coverage 01/06/2021).
 
-[^125]: See ECF No. 252 at 80 & n.462, 141 & nn.655, 657; SCO-00456476, SCO-12987690 (Donald J. Trump Tweet 01/06/2021); SCO-00015613 at 188-189, 196-198; SCO-00011109 at 160-I61.
+[^125]: See ECF No. 252 at 80 & n.462,141 & nn.655, 657; SCO-00456476, SCO-12987690 (Donald J. Trump Tweet 01/06/2021); SCO-00015613 at 188-189, 196-198; SCO-00011109 at 160-I61.
 
 [^126]: See ECF No. 252 at 81 & n.465, 141 & n.658; SCO-00029459 (Video of Pence Evacuation 01/06/2021).
 
@@ -1867,7 +1835,9 @@ Sincerely yours,
 
 [^128]: See ECF No. 252 at 81 & n.466; SCO-12876211, SCO-12738313, SCO-12738317, SCO-12738306, SCO-12738312 at 00:59-01:40 (Videos of Capitol Riot 01/06/2021).
 
-[^130]: See ECF No. 252 at 143 & n.666; SCO-00456473 (Video of Rose Garden Speech 01/06/2021); SCO-12876968 (Draft Tr. of Rose Garden Speech O1/06/2021). 131 See ECF No. 252 at 143 & n.667; SCO-00456472, SCO-12987689 (Donald J. Trump Tweet 01/06/2021).
+[^130]: See ECF No. 252 at 143 & n.666; SCO-00456473 (Video of Rose Garden Speech 01/06/2021); SCO-12876968 (Draft Tr. of Rose Garden Speech O1/06/2021).
+
+[^131]: See ECF No. 252 at 143 & n.667; SCO-00456472, SCO-12987689 (Donald J. Trump Tweet 01/06/2021).
 
 [^132]: See ECF No. 226 at 1 97(c) and (d); ECF No. 252 at 83-84 & nn.485-492; SCO- 12706940 at row 1383 (Spreadsheet of Executive Assistant's text messages); SCO-02131850 at 2392 (Toll Records O1/06/2021); SCO-00009250 at 234-235; SCO-11616952 (Email from Executive Assistant 01/06/2021); SCO-00404535 (Text Message from Co-Conspirator 6 01/06/2021); SCO-11520423 ( Co-Conspirator 1 Toll Analysis O1/06/2021); SCO-02035182 at 5396-5397 (Co-Conspirator I Toll Records 01/06/2021); SCO-02054919 at 71 (Co-Conspirator I Toll Records 01/06/2021); SCO-04134777 (Voicemail from Co-Conspirator 1 01/06/2021) (telling Senator, "We need you, our Republican friends, to try to just slow it down so we can get these legislatures to get more information to you. And I know they're reconvening at eight tonight but the only strategy we can follow is to object to numerous states and raise issues so that we get ourselves into tomorrow-ideally until the end of tomorrow."); SCO-06475675 (Voicemail from Co-Conspirator 1 01/06/2021) (asking Senator to "object to every state and kind of spread this out a little bit like a filibuster").
 
@@ -1901,9 +1871,9 @@ Sincerely yours,
 
 [^147]: See ECF No. 252 at 36 & nn.181-182, 41 & nn.208-210, 44-45 & nn.225-230; see also, e.g., Law v. Whitmer, No.
 
-[^148]: See ECF No. 252 at 14 & nn.52-53, 20 & nn.86-87, 23 & n.106, 33 & n.165, 38 & n.192, 42 & n.212, 42-43 & n.216, 46 & nn.238-239; see also supra at n.12; SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020); SCO-11509450 at 103-104 (Int. Tr.); SCO-03036930 (Joint Statement on Election Security 11/12/2020); SCO-04952679 (Tweet 11/17/2020); SCO-07167983 (Email from GOP Comms Alert circulating Associated Press article titled "Barr: No evidence of fraud that'd change election outcome" 12/01/2020). See ECF No. 252 at 15 & nn.55-59; SCO-04976384 at 20:46-21:05 (Common Sense episode 89 11/25/2020);
+[^148]: See ECF No. 252 at 14 & nn.52-53, 20 & nn.86-87, 23 & n.106, 33 & n.165, 38 & n.192, 42 & n.212, 42-43 & n.216, 46 & nn.238-239; see also supra at n.12; SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020); SCO-11509450 at 103-104 (Int. Tr.); SCO-03036930 (Joint Statement on Election Security 11/12/2020); SCO-04952679 (Tweet 11/17/2020); SCO-07167983 (Email from GOP Comms Alert circulating Associated Press article titled "Barr: No evidence of fraud that'd change election outcome" 12/01/2020).
 
-[^149]: SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-06628641 at 18:52-19:42 (War Room episode 608 12/24/2020); SCO-06628646 at 35:19-35:45 (War Room episode 625 0l/02/2021).
+[^149]: See ECF No. 252 at 15 & nn.55-59; SCO-04976384 at 20:46-21:05 (Common Sense episode 89 11/25/2020); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-06628641 at 18:52-19:42 (War Room episode 608 12/24/2020); SCO-06628646 at 35:19-35:45 (War Room episode 625 0l/02/2021).
 
 [^150]: See ECF No. 252 at 15 & n.55; SCO-04976384 at 20:46-21:05 (Common Sense episode 89 l l/25/2020).
 
@@ -1923,7 +1893,7 @@ Sincerely yours,
 
 [^158]: See ECF No. 252 at 122-123 & n.592; SCO-04976283 at 53:25-53:59 (Video of Dalton, GA speech 01/04/2021).
 
-[^159]: See ECF No. 252 at 5 & nn.2-4; SCO-11621981 at 74-83, 92-93 (Int. Tr.); SCO-00016750 at 14-18, 27-30; SCO-00006819 at 9-12, 19-20; SCO-00003548 at 8-29; SCO-00016118 at 144-145.
+[^159]: SCO-00006819 at 9-12, 19-20; SCO-00003548 at 8-29; SCO-00016118 at 144-145.
 
 [^160]: See ECF No. 252 at 6 & nn.5-10; SCO-00712149 at 37:20 (Video of Trump Interview on Fox News 07/19/2020); SCO-12998418 (Donald J. Trump Tweet 07/30/2020); SCO-12992141 at 57:33 (Video of Oshkosh, WI Rally 08/17/2020); SCO-12992142 at 22:08 (Video of Trump Speech 08/24/2020); SCO-12992143 at 03:11-03:28 (Video of Trump Statement 10/27/2020).
 
@@ -1961,25 +1931,25 @@ Sincerely yours,
 
 [^177]: See ECF No. 252 at 67 & n.365; SCO-00014655 at 155-158, 170-171; SCO-04982309 (Handwritten notes 12/29/2020); SCO-049823 30 at I (Handwritten notes OI /04/2021 ). See ECF No. 252 at 75-76 & nn.423-428; SCO-02244118 at 6, 12-22 (Remarks by Mr. Trump at Save America
 
-[^178]: Rally O1/06/2021).
+[^178]: Rally O1/06/2021). See ECF No. 252 at 50 & n.260, 53 & n.282; SCO-00009955 at 8-11; SCO-12949797 at 82-83 (Int. Tr.);
 
-[^179]: See ECF No. 252 at 50 & n.260, 53 & n.282; SCO-00009955 at 8-11; SCO-12949797 at 82-83 (Int. Tr.); SCO-00016926 at 48-50; SCO-00009540 at 15-19.
+[^179]: SCO-00016926 at 48-50; SCO-00009540 at 15-19.
 
 [^180]: See ECF No. 252 at 56 & n.30 I; SCO-02341381 (Fraudulent "Arizona's Electoral Votes for President and Vice President"); SCO-023413 86 (Fraudulent "Georgia's Electoral Votes for President and Vice President"); SCO-02341398 (Fraudulent "Michigan's Electoral Votes for President and Vice President"); SCO-02341415 (Fraudulent "Nevada's Electoral Votes for President and Vice President"); SCO-02341409 (Fraudulent "New Mexico's Electoral Votes for President and Vice President"); SCO-02341435 (Fraudulent "Pennsylvania's Electoral Votes for President and Vice President"); SCO-02341449 (Fraudulent "Wisconsin's Electoral Votes for President and Vice President"). Even in Pennsylvania and New Mexico, where the fraudulent certificates contained future contingent language, the cover memoranda and envelopes sent to Congress represented that the documents were the state's "Electoral Votes for President and Vice President."
 
 [^181]: Conference 11/07/2020); SCO-04976264 (Video of RNC Press Conference 11/19/2020).
 
-[^182]: See ECF No. 252 at 19-20 & nn.83-85, 21 & n.97, 25 & nn. l 19-120, 39 & nn.195-197; SCO-04976265 at 15:52- 30:00 (Video of Pennsylvania Hotel Hearing 11/25/2020); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-04976326 at 25:00-31:05 (Video of Michigan House Committee Meeting 12/02/2020); SCO-04976332 at 0 1:04:50-01:10:25 (Video of Georgia Senate Judiciary Subcommittee Hearing 12/03/2020). See ECF No. 252 at 19 & nn.77-82, 33 & nn.163-164, 34 & nn.168-169; SCO-11545470 at 53 (Int. Tr.);
+[^182]: See ECF No. 252 at 19-20 & nn.83-85, 21 & n.97, 25 & nn. l 19-120, 39 & nn.195-197; SCO-04976265 at 15:52- 30:00 (Video of Pennsylvania Hotel Hearing 11/25/2020); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020); SCO-04976326 at 25:00-31:05 (Video of Michigan House Committee Meeting 12/02/2020); SCO-04976332 at 0 1:04:50-01:10:25 (Video of Georgia Senate Judiciary Subcommittee Hearing 12/03/2020).
 
-[^183]: SCO-00829361 at 20-22 (HSC Tr.); SCO-00312350 (Text messages from Co-Conspirator 1 12/07/2020); SCO-05390337-05390346 (Text messages 12/08/2020); SCO-11508370 at 62-64 (Int. Tr.).
+[^183]: See ECF No. 252 at 19 & nn.77-82, 33 & nn.163-164, 34 & nn.168-169; SCO-11545470 at 53 (Int. Tr.); SCO-00829361 at 20-22 (HSC Tr.); SCO-00312350 (Text messages from Co-Conspirator 1 12/07/2020); SCO-05390337-05390346 (Text messages 12/08/2020); SCO-11508370 at 62-64 (Int. Tr.).
 
 [^184]: See ECF No. 252 at 14 & n.53, 23 & nn.105-106; see also, e.g., SCO-04976279 at 01:36:58-02:01:58 (Video of Georgia House Committee Hearing 12/10/2020); SCO-04952956 (Tweet 12/04/2020); SCO-04976277 at 08:44- 09: l 0 (Video of Georgia Secretary of State Press Conference 12/07/2020); supra at n. 12.
 
 [^185]: See ECF No. 252 at 7 & n.15; SCO-00003548 at 61-62; SCO-00016750 at 31-35. See ECF No. 252 at 84 & nn.488-492; SCO-04134777 (Voicemail from Co-Conspirator 1 01/06/2021);
 
-[^186]: SCO-064 75675 (Voicemail from Co-Conspirator l 01/06/2021). See ECF No. 252 at 61 & nn.324-326, 63 & n.336, 66 & n.356, 69 & n.384; SCO-00007167 at 66;
+[^186]: SCO-064 75675 (Voicemail from Co-Conspirator l 01/06/2021).
 
-[^187]: SCO-02248764 at 3 (Email from Co-Conspirator 2 01/06/21 ); SCO-12245492 (Email from Co-Conspirator 2
+[^187]: See ECF No. 252 at 61 & nn.324-326, 63 & n.336, 66 & n.356, 69 & n.384; SCO-00007167 at 66; SCO-02248764 at 3 (Email from Co-Conspirator 2 01/06/21 ); SCO-12245492 (Email from Co-Conspirator 2
 
 [^188]: See ECF No. 252 at 11-12 & nn.32-35; SCO-12920242 at 1, 4, 7 (Int. Rep.); SCO-00006256 at 44-52; SCO-12945 I 95 (Email ll/28/2020); SCO-00764172 at 26-27 (HSC Tr.); SCO-11532925 at 70-71 (Int. Tr.); SCO-00014655 at 68-73.
 
@@ -2013,17 +1983,15 @@ Sincerely yours,
 
 [^203]: HSC Hearing).
 
-[^204]: SCO-11507432 at 46-50, 57-62 (Int. Tr.); SCO-11528118 at 54-62 (Int. Tr.). See ECF No. 252 at 25-26 & nn.119-122; SCO-04976332 at 33:30-01:04:37 (Video of Georgia Senate Judiciary
+[^204]: SCO-11507432 at 46-50, 57-62 (Int. Tr.); SCO-11528118 at 54-62 (Int. Tr.).
 
-[^205]: Subcommittee Hearing 12/03/2020); SCO-00455601, SCO-12987506 (Donald J. Trump Tweet 12/03/2020); SCO-04976279 at 0 1:36:58-02:0 l :58 (Video of Georgia House Committee Hearing 12/10/2020).
+[^205]: See ECF No. 252 at 25-26 & nn.119-122; SCO-04976332 at 33:30-01:04:37 (Video of Georgia Senate Judiciary Subcommittee Hearing 12/03/2020); SCO-00455601, SCO-12987506 (Donald J. Trump Tweet 12/03/2020); SCO-04976279 at 0 1:36:58-02:0 l :58 (Video of Georgia House Committee Hearing 12/10/2020).
 
-[^206]: SCO-04952956 (Tweet 12/04/2020); SCO-04976277 at 08:44-09:10 (Video of Georgia Secretary of State Press Conference 12/07/2020).
-
-[^207]: See ECF No. 252 at 26 & n.122; SCO-12998394 at 2 (Tr. of Georgia Secretary of State Call 01/02/2021).
+[^206]: SCO-04952956 (Tweet 12/04/2020); SCO-04976277 at 08:44-09:10 (Video of Georgia Secretary of State Press Conference 12/07/2020). 207 See ECF No. 252 at 26 & n.122; SCO-12998394 at 2 (Tr. of Georgia Secretary of State Call 01/02/2021).
 
 [^208]: See ECF No. 252 at 25-26 & n. 121; SCO-00783640 at 8 (HSC Tr.).
 
-[^209]: See ECF No. 252 at 26 & n.122; SCO-04963742 (Donald J. Trump Truth Social Post 01/02/2023); SCO-04963743 (Donald J. Trump Truth Social Post 01/03/2023). °
+[^209]: See ECF No. 252 at 26 & n.122; SCO-04963742 (Donald J. Trump Truth Social Post 01/02/2023); SCO-04963743 (Donald J. Trump Truth Social Post 01/03/2023). 21 ° Freeman v. Giuliani, No. 21-cv-3354, ECF No. 90 at 1-2 (D.D.C. Aug. 8, 2023) (Def. Stipulation), ECF No. 142 (D.D.C. Dec. 18, 2023) (Final Judgment).
 
 [^211]: See ECF No. 1 at ,r 113; see ECF No. 252 at 81 & n.467; SCO-12738318 (Video of Capitol Riot 01/06/2021).
 
@@ -2031,9 +1999,9 @@ Sincerely yours,
 
 [^213]: See ECF No. 252 at 77 & nn.437, 440; SCO-02244118 at 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021). rn SCO-04949418 at 02:22:07 (Video of Save America Rally O1/06/2021).
 
-[^215]: SCO-02244118 at 20 (Remarks by Mr. Trump at Save America Rally Ol /06/2021 ). 216 !d. at 2. See ECF No. 252 at 82 & nn.475-476; SCO-11506096 at 125-126 (Int. Tr.); SCO-11506269 at 38-39 (Int. Tr.);
+[^215]: SCO-02244118 at 20 (Remarks by Mr. Trump at Save America Rally Ol /06/2021 ). 216 !d. at 2.
 
-[^217]: SCO-12808448 at 127-128 (Int. Tr.); SCO-11520948 at 95-97 (Int. Tr.); SCO-12997436 at 64 ( United States v. Irwin & Richter, No. 21-cr-589, Trial Day I Tr. 01/22/2024).
+[^217]: See ECF No. 252 at 82 & nn.475-476; SCO-11506096 at 125-126 (Int. Tr.); SCO-11506269 at 38-39 (Int. Tr.); SCO-12808448 at 127-128 (Int. Tr.); SCO-11520948 at 95-97 (Int. Tr.); SCO-12997436 at 64 ( United States v. Irwin & Richter, No. 21-cr-589, Trial Day I Tr. 01/22/2024).
 
 [^218]: SCO-11529214 at 98 (Int. Tr.).
 
@@ -2077,13 +2045,15 @@ Sincerely yours,
 
 [^239]: SCO-00256421 at 2 (Email to Co-Conspirator 201/06/2021 ).
 
-[^240]: See ECF No. 252 at 77 & nn.438-439; SCO-02244118 at 2 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-00747921 at 03:18-03:47 (Rallygoer video 01/06/202 I).
+[^240]: SeeECF No. 252 at 77 & nn.438-439; SCO-02244118 at 2 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-00747921 at 03:18-03:47 (Rallygoer video 01/06/202 I).
 
 [^241]: See ECF No. 252 at 77 & n.440; SCO-02244 I 18 at 6, 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
 
 [^242]: SCO-11506096 at 59-62 (Int. Tr.); SCO-11520948 at 71-74 (Int. Tr.).
 
-[^243]: See, e.g., SCO-12919600 at 27:22-27:26 (Video of Rioter 1 at the Save America Rally 01/06/2021); SCO-12919284 at 03:17-03:18 (Video of Rioter 1 at the Save America Rally O1/06/2021); SCO-12807276 at 03:08- 03:14 (Video of Rioter I on Capitol Grounds 01/06/2021); SCO-12919212 at 03:17-03:21 (Video of Rioter 1 on Capitol Grounds 01/06/2021); SCO-12919384 at 08:20-08:34 (Video of Rioter 2 in the Capitol Rotunda 01/06/2021); SCO-12919401 at 04:06-04:14 (Video of Rioter 2 walking down Pennsylvania Avenue from the Save America Rally 01/06/2021); SCO-12918732 at 04:29-04:31 (Photograph of Rioter 2 in the Capitol Rotunda 01/06/2021); SCO-12918900 at 00:01-00:07 (Video of Rioter 2 inside the Capitol 01/06/2021); SCO-12919421 at 00:00-00:02 (Video of Rioter 3 in the crowd at the Save America Rally O1/06/202 I); SCO-12807145 (Photograph of Rioter 3 on Capitol Grounds 01/06/2021); SCO-12919066 at 02:07-02:10 (Video of Rioter 3 at the Save America Rally 01/06/2021); SCO-12919977 at 23:06-23:10 (Video of Rioter 4 at the Save America Rally 01/06/2021); SCO-12918777 (Photograph of Rioter 4 on Capitol Grounds 01/06/2021); SCO-12807279 at 01:09:28-01:09:55, 01:10:05-01:10:37, 01:10:40-01:11:09 (Video of Rioter 4 on Capitol Grounds 01/06/2021); SCO-12919375 at 01:13:17-01:13:22 (Video of Rioter 4 on Capitol Grounds from HBO's Four Hours at the Capitol 01/06/2021); SCO-12916307 at 24:16-25:50 (Video of Rioter 4 inside Capitol Tunnel 01/06/2021); SCO-12918918 at 00:11- 00:12 (Video of Rioter 5 at the Save America Rally O1/06/2021); SCO-12919079 (Photograph of Rioter 5 on Capitol Grounds 01/06/2021); SCO-12919419 at 00:33-00:38 (Video of Rioter 5 on Capitol Grounds); SCO-12738292 at 00:24-00:32 (Video of Rioter 5 at the Capitol); SCO-12733719 at 35:17-35:22 (Video of Rioter 5 at the Capitol); SCO-12807327 at 00:00-00:01 (Video of Rioter 6 at the Save America Rally O1/06/2021); SCO-12807375 at 00:49- 00:51 (Photograph of Rioter 6 at the Capitol O1/06/2021); SCO-12916338 at 03:00:21-03:00:55 (Video of Rioter 6 at the Capitol O1/06/2021). 244 SCO-1273 8326 at 00:03-00:18 (Video of Capitol Riot O1/06/2021).
+[^243]: See, e.g., SCO-12919600 at 27:22-27:26 (Video of Rioter 1 at the Save America Rally 01/06/2021); SCO-12919284 at 03:17-03:18 (Video of Rioter 1 at the Save America Rally O1/06/2021); SCO-12807276 at 03:08- 03:14 (Video of Rioter I on Capitol Grounds 01/06/2021); SCO-12919212 at 03:17-03:21 (Video of Rioter 1 on Capitol Grounds 01/06/2021); SCO-12919384 at 08:20-08:34 (Video of Rioter 2 in the Capitol Rotunda 01/06/2021); SCO-12919401 at 04:06-04:14 (Video of Rioter 2 walking down Pennsylvania Avenue from the Save America Rally 01/06/2021); SCO-12918732 at 04:29-04:31 (Photograph of Rioter 2 in the Capitol Rotunda 01/06/2021); SCO-12918900 at 00:01-00:07 (Video of Rioter 2 inside the Capitol 01/06/2021); SCO-12919421 at 00:00-00:02 (Video of Rioter 3 in the crowd at the Save America Rally O1/06/202 I); SCO-12807145 (Photograph of Rioter 3 on Capitol Grounds 01/06/2021); SCO-12919066 at 02:07-02:10 (Video of Rioter 3 at the Save America Rally 01/06/2021); SCO-12919977 at 23:06-23:10 (Video of Rioter 4 at the Save America Rally 01/06/2021); SCO-12918777 (Photograph of Rioter 4 on Capitol Grounds 01/06/2021); SCO-12807279 at 01:09:28-01:09:55, 01:10:05-01:10:37, 01:10:40-01:11:09 (Video of Rioter 4 on Capitol Grounds 01/06/2021); SCO-12919375 at 01:13:17-01:13:22 (Video of Rioter 4 on Capitol Grounds from HBO's Four Hours at the Capitol 01/06/2021); SCO-12916307 at 24:16-25:50 (Video of Rioter 4 inside Capitol Tunnel 01/06/2021); SCO-12918918 at 00:11- 00:12 (Video of Rioter 5 at the Save America Rally O1/06/2021); SCO-12919079 (Photograph of Rioter 5 on Capitol Grounds 01/06/2021); SCO-12919419 at 00:33-00:38 (Video of Rioter 5 on Capitol Grounds); SCO-12738292 at 00:24-00:32 (Video of Rioter 5 at the Capitol); SCO-12733719 at 35:17-35:22 (Video of Rioter 5 at the Capitol); SCO-12807327 at 00:00-00:01 (Video of Rioter 6 at the Save America Rally O1/06/2021); SCO-12807375 at 00:49- 00:51 (Photograph of Rioter 6 at the Capitol O1/06/2021); SCO-12916338 at 03:00:21-03:00:55 (Video of Rioter 6 at the Capitol O1/06/2021).
+
+[^244]: SCO-1273 8326 at 00:03-00:18 (Video of Capitol Riot O1/06/2021).
 
 [^245]: SCO-12876131 at 02:26-02:33 (Video of Capitol Riot 01/06/2021).
 
@@ -2123,7 +2093,7 @@ Sincerely yours,
 
 [^263]: See, e.g., SCO-11533730 (Letter to Trump Attorney) (identifying topics covering, among other things, potential fraud or irregularities regarding the 2020 presidential election, the January 6 rally at the Ellipse, the congressional certification on January 6, and co-conspirators).
 
-[^264]: See SCO-00007123 at 2 (Letter from the White House Counsel's Office to U.S. Attorney for the District of Columbia 06/27/2022). Throughout its existence, the Office conducted its work in full compliance with the Department's Policy on Communications with the White House. See, e.g., Memorandum from Merrick Garland, Attorney General, Department ofJustice Communications with the White House (July 21, 2021 ).
+[^264]: SeeSCO-00007123 at 2 (Letter from the White House Counsel's Office to U.S. Attorney for the District of Columbia 06/27/2022). Throughout its existence, the Office conducted its work in full compliance with the Department's Policy on Communications with the White House. See, e.g., Memorandum from Merrick Garland, Attorney General, Department ofJustice Communications with the White House (July 21, 2021 ).
 
 [^265]: See SCO-12921102, SCO-11545866 at 2 (Letters from Trump Attorney to Witness Counsel).
 
@@ -2145,7 +2115,7 @@ Sincerely yours,
 
 [^274]: As of the date of this Report, certain documents from selected grand jury litigation have been made available to the public through related litigation. See In re Application of the New York Times, No. 22-mc-100, ECF No. 32 (D.D.C.); In re Press Application, No. 23-mc-35, ECF No. 11 (D.D.C.); see also Former Vice President 1vfichael R. Pence s 1'vfotion to Quash Subpoena, United States District Court for the District of Columbia (Mar. 3, 2023), https://www.dcd.uscourts.gov/sites/dcd/files/Attachment%20 l .pdf [https://perma.cc/5LNK-72DG]; Governments Opposition to Former Vice President Pence s Motion to Quash Subpoena, United States District Court for the District of Columbia (Mar. 10, 2023 ), https://www.dcd.uscourts.gov/sites/dcd/files/Attachment%202.pdf [https://perma.cc/C8VM-E2PV]; Former Vice President Michael R. Pence s Reply in Support of His Motion to Quash Subpoena, United States District Court for the District of Columbia (Mar. 17, 2023), https://www.dcd.uscourts.gov/sites/dcd/files/Attachment%203 .pdf [https://perma.cc/Z5DJ-7Y2K]; Order, United States District Court for the District of Columbia (Mar. 27, 2023); https ://www.dcd.uscourts.gov/s ites/dcd/fi !es/Attachment%204. pdf [https ://perma.cc/L 7TS-L6AQ]; Memorandum Opinion, United States District Court for the District of Columbia (Mar. 27, 2023), https://www.dcd.uscourts.gov/sites/dcd/files/ A ttachment%20 5.pdf [https://perma.cc/FR8G-S3 SJ]; Sealed Proceeding Before the Honorable James E. Boasberg, United States District Court for the District of Columbia (Mar. 23, 2023 ), https://www.dcd.uscourts.gov/sites/dcd/files/Attachment%206. pdf [https://perma.cc/J2C6-K35S].
 
-[^275]: Doc. No. 2031508, Attachment 10 (Joint Appendix).
+[^275]: Additional filings in this matter have been made publicly available in In re Sealed Case, No. 23-300 I (D.C. Cir.), Doc. No. 2031508, Attachment 10 (Joint Appendix).
 
 [^276]: kfemorandum Opinion and Order, United States District Court for the District of Columbia (Nov. 4, 2022), http://www.dcd.uscourts.gov/sites/dcd/files/Redacted%20November%204%2C%202022%20Memorandum%200pi nion%20and%20Order. pdf [https ://perma.cc/6CLJ-BETZ]. 277 1vfemorandum Opinion, United States District Court for the District of Columbia (Dec. 28, 2022), https://www.dcd.uscourts.gov/sites/dcd/files/Redacted%20December%2028%2C%202022%20Memorandum%200 pinion%2C%20ECF%20No%2043.pdf [https://perma.cc/7Z37-SRA4]; Order, United States District Court for the District of Columbia (Dec. 28, 2022), https://www.dcd.uscourts.gov/sites/dcd/files/Redacted%20December %2028%2C%202022%20Order%2C%20ECF%20N 0%2042.pdf [https://perma.cc/AYF7-ECBD].
 
@@ -2159,4 +2129,6 @@ Sincerely yours,
 
 [^282]: See In re Sealed Case, 80 F.4th 355 (D.C. Cir. 2023).
 
-[^283]: Oral Argument Recordings Archive, United States Court of Appeals for the District of Columbia Circuit (May 19, 2023 ), https://med ia.cadc. uscourts.gov /recordings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B]. 28 -1 See In re Sealed Case, 77F.4th815, 830 (D.C. Cir. 2023). 285 See X Corp. v. United States, 2024 WL 4426628 (U.S. Oct. 7, 2024).
+[^283]: Oral Argument Recordings Archive, United States Court of Appeals for the District of Columbia Circuit (May 19, 2023 ), https://med ia.cadc. uscourts.gov /recordings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B]. 28 -1 See In re Sealed Case, 77F.4th815, 830 (D.C. Cir. 2023).
+
+[^285]: See X Corp. v. United States, 2024 WL 4426628 (U.S. Oct. 7, 2024).

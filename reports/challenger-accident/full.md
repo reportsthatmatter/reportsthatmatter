@@ -125,11 +125,9 @@ The findings and recommendations contained in this report are the product of the
 
 ' Report of the Presidential Commission on the Space Shuttle Challenger Accident, Volumes I- V, Washington, D.C., J u n e 6, 1986. (Hereafter referred to as Rogers Commission Report.)
 
-(1)
+(1) which includes materials submitted for the record, staff investiga- tions, interviews, and trips.
 
 %%page 2%%
-
-which includes materials submitted for the record, staff investiga- tions, interviews, and trips.
 
 It should be understood that the role of this Committee is differ- ent from that of the four-month Rogers Commission. The Commit- tee, which authorized the funds and reviewed the lengthy develop- ment process which led to the successful Shuttle program, has a re- sponsibility to insure that the tragic accident, and those events that led up to it, are understood and assimilated into all levels and activities of NASA so that safe manned space flight can be re- sumed.
 
@@ -251,17 +249,13 @@ Why did the aft field joint between the steel containers that hold the Solid Roc
 
 2. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor, Morton Thiokol, can adequately control the quality or consistency of these kinds of materials, which are made from recipes known
 
-(9)
+(9) only by the manufacturer and which can be changed without certi- fication and approval. Recommendations
 
 %%page 10%%
 
-only by the manufacturer and which can be changed without certi- fication and approval. Recommendations
-
 1. NASA should write and issue a new and more accurate per- formance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
 
-### The Committee concurs with the Rogers Commission Report
-
-Recommendations on new joint design, but believes it is more ap- propriate to be more explicit in identifying the weaknesses in the joint design that need correction.
+2. The Committee concurs with the Rogers Commission Report Recommendations on new joint design, but believes it is more ap- propriate to be more explicit in identifying the weaknesses in the joint design that need correction.
 
 3. The field joints of the Solid Rocket Motors should be rede- signed to account for the following features while providing a sig- nificant factor of safety:
 
@@ -297,9 +291,7 @@ How was the decision to launch STS 51-L arrived at and why was it wrong? Finding
 
 4. The initial response of Marshall managers to the attempts of Thiokol engineers to raise the issue of temperature effects on the SRM seals caused Thiokol management to discount proper techni- cal concerns and engineering judgment in their recommendation to launch.
 
-### The Director of Marshall's Shuttle Projects Office may have
-
-violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27th teleconference to the As- sociate Administrator for Space Flight.
+5. The Director of Marshall's Shuttle Projects Office may have violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27th teleconference to the As- sociate Administrator for Space Flight.
 
 6. The decision of the STS Program Manager to launch despite the uncertainty represented by ice on the Fixed Service Structure was not a prudent effort to mitigate avoidable risks to the Shuttle.
 
@@ -605,9 +597,7 @@ Did operating pressures adversely affect the safety of the Shuttle program? Find
 
 Recommendations
 
-### The new Associate Administrator for Safety, Reliability and
-
-Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
+1. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
 
 2. Where appropriate, NASA should take steps to make the mis- sion planning process standard and routine to reduce the time and resources needed to plan a mission. Before requesting more re- sources for the existing mission planning process (manpower, facili- ties, equipment), NASA should identify ways to improve the proc- ess.
 
@@ -903,7 +893,9 @@ By April 22, the Steering Group felt it had heard sufficient infor- mation to br
 
 On May 16, 1986, Chairman Fuqua sent a memorandum to all Members stating that he had asked Congressman Robert Roe, the Ranking Majority Member, to chair the Committee hearings on the Challenger accident, stating that "there is a distinct possibility that follow-through activities related to the hearings will carry over into the next Congress in which I shall not serve."
 
-## COMMITTEE TRIP
+## COMMITTEE
+
+TRIP
 
 When it appeared that the Rogers Commission would be able to meet its 120-day deadline, Mr. Roe arranged to take a group of Committee Members and key staff to the Kennedy Space Center on June 6, 1986. At the Center the Members heard detailed accident briefings, took a tour of the Vehicle Assembly Building where a set of Solid Rocket Motors and External Tank was examined, and viewed the recovered debris from the Challenger spacecraft.
 
@@ -1037,7 +1029,9 @@ SREI SEGMENT I yon o x i d e powder
 
 > AFT SEGMENT ' Empty: (193.000 p o u n d s ) P r o p e I l a n t : ( 1 ,[^1] 0 7 , 0 0 0 pounds) WITH NOZZLE Gross: (1,300,000 pounds)
 
-## AFT SKIRT FIGUREV-2
+## AFT SKIRT
+
+FIGUREV-2
 
 Each motor case is made of 11 individual weld-free steel seg- ments (Figure V-3). Averaging approximately 1.27 centimeters (0.5 inch) thick, the steel is a high-strength formulation. Each segment is heat-treated, hardened, and machined to the exact dimensions required. The 11 segments are held together by 177 high-strength steel pins at each case segment joint. The clevis-type joints are wrapped with reinforced fiberglass tape and sealed with a rubber seal band that is bonded to the case with adhesives.
 
@@ -1077,9 +1071,9 @@ The following chart describes the principal steps in the evolution, flight, and 
 
 ## 1 DEFINE PROGRAM REQUIREMENTS AND VERIFY
 
-THAT OBJECTIVES ARE CONSISTENTLY MET.
+> THAT OBJECTIVES ARE CONSISTENTLY MET. NASA
 
-## NASA CONTRACTOR DESIGN DESIGN THE MOTOR TO MEET ALL PERFORMANC REQUIREMENTS DURING ALL ANTICIPATED
+## CONTRACTOR DESIGN DESIGN THE MOTOR TO MEET ALL PERFORMANC REQUIREMENTS DURING ALL ANTICIPATED
 
 CONDITIONS OF FLIGHT.
 
@@ -1087,7 +1081,11 @@ CONDITIONS OF FLIGHT.
 
 > (_' ., TESTING AND ASSURE THAT DESIGN MEETS ALL REQUlREMEh
 
-## MORTON THIOKOL NASA PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN
+## MORTON THIOKOL
+
+NASA
+
+## PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN
 
 ACCORDANCE WITH THE DESIGN.
 
@@ -1107,9 +1105,9 @@ F ' i
 
 ## REVIEW AND DECISION ON LAUNCH, IGNITE
 
-MOTORS, SEPARATE AN0 RECOVER SPENT MOTOf
+> MOTORS, SEPARATE AN0 RECOVER SPENT MOTOf NASA
 
-## NASA MORTON THIOKOL REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH
+## MORTON THIOKOL REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH
 
 SPECIFICATIONS.
 
@@ -1505,7 +1503,7 @@ Recommendations
 
 1. NASA should write and issue a new and more accurate performance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
 
-### The Committee concurs with the Rogers Commission Report
+2. The Committee concurs with the Rogers Commission Report
 
 Recommendations on new joint design, but believes it is more a p propriate to be more explicit in identifying the weaknesses in the joint design that need correction.
 
@@ -1671,9 +1669,7 @@ How was the decision to launch STS 51-L arrived at and why was it wrong? Finding
 
 4. The initial response of Marshall managers to the attempts of Thiokol engineers to raise the issue of temperature effects on the SRM seals caused Thiokol management to discount proper techni- cal concerns and engineering judgement in their recommendation to launch.
 
-### The Director of Marshall's Shuttle Projects Office may have
-
-violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27 teleconference to the Associ- ate Administrator for Space Flight.
+5. The Director of Marshall's Shuttle Projects Office may have violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27 teleconference to the Associ- ate Administrator for Space Flight.
 
 6. The decision of the STS Program Manager to launch despite the uncertainty represented by ice on the Fixed Service Structure was not a prudent effort to mitigate avoidable risks to the Shuttle.
 
@@ -1743,9 +1739,9 @@ The aft field joint on Flight 51-L was between two casings that were used previo
 
 %%page 74%%
 
-## EXTERNAL TANK
+## EXTERNAL
 
-Issue
+TANK Issue
 
 The External Tank was obviously involved in the accident. Was that involvement a cause or an effect? Findings
 
@@ -1937,11 +1933,9 @@ Having all elements of Space Shuttle flight hardware been ade- quately certified
 
 2. NASA and its contractors should thoroughly reassess the ade- quacy of all of the testing and certification that has been conducted
 
-(85)
+(85) to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected. Discussion
 
 %%page 86%%
-
-to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected. Discussion
 
 In background briefings for the Committee staff prior to the start of the hearings, NASA described the system of formal reviews that were employed to scrutinize the design and certification of each element of flight hardware.
 
@@ -2607,9 +2601,7 @@ Did operating pressures adversely affect the safety of the Shuttle program? Find
 
 4. The Space Shuttle has not yet reached a level of maturity which could be called operational as that term is used in either the airline industry or the military. Each Shuttle flight is fundamen- tally unique, and requires unique preparations. Therefore, small changes in a mission can cause significant perturbations of mission planning and crew training. Recommendations
 
-### The new Associate Administrator for Safety, Reliability and
-
-Quality Assurance must assure that any pressures to increase the
+1. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the
 
 101 Ibid., Volume I, p. 170. 102 Ibid., p. 174.
 
@@ -3725,11 +3717,7 @@ and drew up an SRB contract which contained no provisions for performance penalt
 
 The problem with the kinds of penalties that were contained in the SRB contract is that, so long as management is convinced that a festering problem like the seal problem is not likely to cause mis- sion failure, there is little incentive for the company to spend re- sources to fix the problem. In fact, if the solution involves signifi- cant delays in delivery, there may be a strong financial dis-incen- tive for the company to pursue a short-term solution aggressively. For example, Thiokol engineer R.M. Boisjoly provided a clear warn- ing of the seriousness of the O-ring problem in July, 1985, and Thiokol engineer A. R. Thompson laid out a plan for a possible short-term solution to the problem.221 Whatever its efficacy, why was Thompson's plan apparently dismissed so summarily? Part of the answer may be found in the June 18, 1986, exchange between Mr. Scheuer and Mr. Thompson:
 
-> Mr. SCHEUER. Would the research and development of your fixes have delayed the delivery of ths SRMs to
-
-## NASA?
-
-> Mr. THOMPSON. . . . It probably would have delayed it a month or two, at least for the hardware and some of the research work. . . .222
+> Mr. SCHEUER. Would the research and development of your fixes have delayed the delivery of ths SRMs to NASA? Mr. THOMPSON. . . . It probably would have delayed it a month or two, at least for the hardware and some of the research work. . . .222
 
 The Committee is certainly not suggesting that anyone in NASA or Thiokol would recommend launch or would refuse to spend re- sources fixing a problem if it was known that the problem consti- tuted a real threat to mission safety. However, in the case of the SRB joint, both NASA and Thiokol managers clearly misjudged the threat to mission safety. In situations of this sort, contractual pro- visions rewarding performance rather than cost and schedule would have provided a far stronger incentive to fm a long-festering problem. Ultimately, the balance between safety incentives and cost/schedule incentives in the SRB contract may illuminate a number of issues raised by the Challenger accident.
 
@@ -3787,7 +3775,9 @@ A t ignition, blowby occurred, either with erosion of the primary O-ring or with
 
 "Too TIGHT"
 
-## O-RING W I L L NOT 1 SEAL
+O-RING
+
+## W I L L NOT 1 SEAL
 
 %%page 187%%
 
@@ -5217,9 +5207,7 @@ RSS ice debris. A film (E-43) [Engineering Camera 431 looking directly in at the
 
 SRB exhaust hole. Particles numbered 50-100 and were approximately ice-cube size. None of these or any other debris was observed to be ejected upward toward the Orbiter. Another film (E-18) looks upward from the SSME pit.
 
-This shows that after a vehicle rise of 10 ft. hundreds of ice particles flowed in below the main engine at a 45"
-
-angle. No Orbiter impacts are observed. Camera E-26 . . .
+This shows that after a vehicle rise of 10 ft. hundreds of ice particles flowed in below the main engine at a 45" angle. No Orbiter impacts are observed. Camera E-26 . . .
 
 reveals many small pieces of falling ice striking the LH2
 
@@ -5509,7 +5497,7 @@ J. Yeah.
 
 DIRECTOR. The ullage transducers.
 
-### OK. Thank you, Horace.lSQ
+J. OK. Thank you, Horace.lSQ
 
 1361bid., p. 296.
 
@@ -5575,9 +5563,7 @@ While there is no reason to believe that these waivers directly contributed to t
 
 If the hydrogen tank was never emptied during the turnaround procedure, this would represent a violation of those criteria. Had the criteria been observed, STS-51L would have required an after- noon window on January 28, or it might have been necessary to at- tempt the launch on January 29. This has not been independently confirmed, however.
 
-### W o n with Carver Kennedy,ThioLol Wasateh Operations, Brigham City, Utah. Sep
-
-tember 4.1986. General Kutyna aL0 nded thb in the Commimion'r hearing on February 14.
+14. W o n with Carver Kennedy,ThioLol Wasateh Operations, Brigham City, Utah. Sep tember 4.1986. General Kutyna aL0 nded thb in the Commimion'r hearing on February 14.
 
 Cornmimion Ibpon Volume N. 660). l S a0s ( 7 r
 
@@ -5655,9 +5641,7 @@ Manufacturina, Refurbishment and Product Support Thiokol had extensive processin
 
 aoc:;xaticns, were t Q t a l l y adeqgate f o r 211 t h r e e incrszenzs. The one except'-on t o Llis was a f a i l u r e t o m e e t Quancicy Distance s a f e t y requirements between c a s t i n g p i t s f3r 1ncrP;nezt ITI, however, t h e r e a r e ways t o adequately ,-e t h i s aroblem. Thiokol maximized t h e ref'urbishment of C*'- c3mDonents and t\e p o t e n t i a l c o s t savings grovided by ref.z-Sish- m e s t . a.cz'ker less s i g n i f i c a n t s t r e n g t h was the enhancement
 
-- of s e p e n t assemjiy providea by t h r e e alignment p i n s thereby r e d m i n g =he assembly hours on the launch pad. Thiokol f a i l e d t o provide enough new cases and nozzles t o m e e t the launch schedule. Eight a d d i t i o n a l c a s e s and nozzles would Se r e c p i r e d t o provide assurance t h a t launch d a t e s could be met.[^3] , i c k s l str-xt.i=ed t h e development groqram so t h a t a l l mzjor c o s t s were defsrred. t o t h e l a t e s t p r a c t i c a b l e date. This - -es..? Led i n low e a r l y year funding, wnich i s a key program o j j e c r i v e . The a v a i l a b i l i t y of an operating p l a n t , with ample expezienced personnel and a proven organization which c x i d be pnased t o t h e SRM e f f o r t with minimum modification '
-
-added considerable maturity and confidence and proved t o be c o s t effec=ive. The Board considered t h i s t o be a major s t r e n g t h f o r all three increments. A strong matrix manage- ment was evident and key l i n e organization supervisors w e r e experienced and had worked together a s a team on many successful development and production programs such a s Minuteman a d Pcseidon. Strong management p a r t i c i p a t i o n and v i s i b i l i t y i n variance a n a l y s i s was another strong f e a t u r e a s was t h e approach t o c o r r e c t i v e a c t i o n s and t h e i r e f f e c t on estimate-co-complete. Procurement Management was 'thorouqh and well planned. SRM commodity purchases would be consoli- dated wizh t h a t of o t h e r programs a t Wasatch, which should r e s u l t i n lower c a s t . The Procurement of major items was w e i l matcked. t o o v e r a l l SRM schedule requirements. Thiokol proposed a strong Configuration Flanagement System wnicn inclzdod thcrouc:? i d e n c i f i c a t i o n and t r a c e a b i l i t y during D D T G , p r r d u c t i o n and refurbishment. me t e n t a t i v e decision to make t h e molded and t a p e wrapped nozzle in-house was considered a s t r e n g t h i n t h i s area. It would c o n t r i b u t e t o t h e low c o s t - p e r - f l i g h t goal by using a v a i l a b l e resources, avciding s-ontract f e e s , lowering overhead r a t e s , and taking advantage of lower c o s t labor. The i n h e r e n t r i s k management aspects a l s o were considered.
+- of s e p e n t assemjiy providea by t h r e e alignment p i n s thereby r e d m i n g =he assembly hours on the launch pad. Thiokol f a i l e d t o provide enough new cases and nozzles t o m e e t the launch schedule. Eight a d d i t i o n a l c a s e s and nozzles would Se r e c p i r e d t o provide assurance t h a t launch d a t e s could be met.[^3] , i c k s l str-xt.i=ed t h e development groqram so t h a t a l l mzjor c o s t s were defsrred. t o t h e l a t e s t p r a c t i c a b l e date. This - -es..? Led i n low e a r l y year funding, wnich i s a key program o j j e c r i v e . The a v a i l a b i l i t y of an operating p l a n t , with ample expezienced personnel and a proven organization which c x i d be pnased t o t h e SRM e f f o r t with minimum modification ' added considerable maturity and confidence and proved t o be c o s t effec=ive. The Board considered t h i s t o be a major s t r e n g t h f o r all three increments. A strong matrix manage- ment was evident and key l i n e organization supervisors w e r e experienced and had worked together a s a team on many successful development and production programs such a s Minuteman a d Pcseidon. Strong management p a r t i c i p a t i o n and v i s i b i l i t y i n variance a n a l y s i s was another strong f e a t u r e a s was t h e approach t o c o r r e c t i v e a c t i o n s and t h e i r e f f e c t on estimate-co-complete. Procurement Management was 'thorouqh and well planned. SRM commodity purchases would be consoli- dated wizh t h a t of o t h e r programs a t Wasatch, which should r e s u l t i n lower c a s t . The Procurement of major items was w e i l matcked. t o o v e r a l l SRM schedule requirements. Thiokol proposed a strong Configuration Flanagement System wnicn inclzdod thcrouc:? i d e n c i f i c a t i o n and t r a c e a b i l i t y during D D T G , p r r d u c t i o n and refurbishment. me t e n t a t i v e decision to make t h e molded and t a p e wrapped nozzle in-house was considered a s t r e n g t h i n t h i s area. It would c o n t r i b u t e t o t h e low c o s t - p e r - f l i g h t goal by using a v a i l a b l e resources, avciding s-ontract f e e s , lowering overhead r a t e s , and taking advantage of lower c o s t labor. The i n h e r e n t r i s k management aspects a l s o were considered.
 
 %%page 259%%
 
@@ -5907,9 +5891,7 @@ FRon: EP25/*. Miller
 
 SUBJECT: E v a l u a t i o n o f TWR-19359, "Program P l a n , R o t e c t i o n o f S p a c e
 
-S h u t t l e SIM Primary nDtor Seals"
-
-me s u b j e c t Program Plan hrs been e v a l u a t e d as requested and t h e f o l l o w i n g ccmDents a r e s u t m i t t e d f o r yow m s i d u a t i o n :
+S h u t t l e SIM Primary nDtor Seals" me s u b j e c t Program Plan hrs been e v a l u a t e d as requested and t h e f o l l o w i n g ccmDents a r e s u t m i t t e d f o r yow m s i d u a t i o n :
 
 a . Page 3. P a r a g r a p h 3.1.2, Phyaioel R o p r t i o a - This P r o g r a m P l a n m e n t i o n s c o m p r e s s i b i l i t y t e s t i n g of t h e z i n c c h r o m a t e p u t t y , h o w e v e r n o l a b o r a t o r y tests a r e proposed which w i l l determine the extrusion c h a r a c t e r i s t i c s (disDlacement i n a free v o l u m e u n d e r c o m p r e s s i o n l o a d ) of v a r i o u s c a n d i d a t e s . This s h o u l d b e a c c o m p l i s h e d to p r o v i d e a b e t t e r u n d e r s t a n d i n g a s t o why v a r i o u s t y p e s o f p u t t y e x h i b i t u n l i k e e x t r u s i o n p a t t e r n s with i d e n t i c a l layups.
 
@@ -6113,9 +6095,7 @@ Optical measurements are being taken. Slgnlficant work has t o be done t o clean
 
 As a r e s u l t of the l a t e s t engineering analysis o f the V - I case I t appears t h a t high-stress r i s e r s t o the case are created by the phenolic
 
-OF1 housings and fairings. As I t presently stands. these w i l l probably '
-
-have t o be modified o r rmoved and i f rclloved w i l l have t o be replaced. n
+OF1 housings and fairings. As I t presently stands. these w i l l probably ' have t o be modified o r rmoved and i f rclloved w i l l have t o be replaced. n
 
 This could have an Impact on the launch schedule. c.
 
@@ -6339,9 +6319,7 @@ SE73-SB-0 lei-u Aarod naric Uaating Dat. Book. S p c o (Currant I u o a J Shutti
 
 Bat. Para. 3.1, 3.1.1. t a b l a 10.11.1
 
-SD73-SB-0 181-3 (Cucraot Isma)
-
-sn73-s~-01ei-~ Aorody~a8icU O a t i B g Data Book, (Current Imua) L i g ht w ei g ht Ixtatnal tank-Ascent
+SD73-SB-0 181-3 (Cucraot Isma) sn73-s~-01ei-~ Aorody~a8icU O a t i B g Data Book, (Current Imua) L i g ht w ei g ht Ixtatnal tank-Ascent
 
 Dot. Pdra. 3.1
 
@@ -6403,7 +6381,9 @@ NASXIM x-ws - DlSfRlBUTlONS OF EIGHT METEOROLOGICAL
 
 AND VANDENBERG A l R FORCE BAS€,
 
-## CALIFORNIA NASA
+## CALIFORNIA
+
+NASA
 
 George C. Marshall Space - Fight Center Marsball Space Fight Center, Alabama b
 
@@ -6537,11 +6517,11 @@ I ROCKWELL - 1
 
 %%page 318%%
 
-## NASA VERIFICATION COMPLETION NOTICE PAGELOF
+NASA
 
-IVLN NO.: 17 '
+## VERIFICATION COMPLETION NOTICE PAGELOF
 
-vaNo.: 12121 IVL N n n e : a I NE 'C
+IVLN NO.: 17 ' vaNo.: 12121 IVL N n n e : a I NE 'C
 
 M-S
 
@@ -6611,9 +6591,7 @@ Wilmington, DE 19898
 
 D r . R o b e r t H. Korkegi (Co-Director)
 
-D r . Hyron F. Uman (Co-Director)
-
-u s . V i v i a n e S c o t t (Adm. A s s i s t a n t )
+D r . Hyron F. Uman (Co-Director) u s . V i v i a n e S c o t t (Adm. A s s i s t a n t )
 
 VI-c
 
@@ -7781,7 +7759,7 @@ Page 6 of 6
 
 %%page 369%%
 
-## VII-A
+VII-A
 
 4!Ib Designation:D 395 - 85
 
@@ -7947,7 +7925,7 @@ This standard is subject to revision at any rime by the responsible technical co
 
 %%page 376%%
 
-## VZI-B
+VZI-B
 
 To: WArro~iatoAdministrator for Spaco ?light now: 1QS/Irr Davidr SUUECT: Car. to Car. and Worrlo to Car0 "0" ling Soa1 Erorlon
 
@@ -7975,7 +7953,9 @@ VII-c
 
 %%page 380%%
 
-## VIII-A NASA
+VIII-A
+
+NASA
 
 STS St-L
 
@@ -7995,7 +7975,7 @@ P Q t E . 06 , ___
 
 .
 
-## VIII-B
+VIII-B
 
 THR-15380
 
@@ -8213,7 +8193,7 @@ SOP 8000.1 ca S A O I I b . idvlngood SAOl/Mr. Askew S h O b / M r . Harden S A 
 
 %%page 393%%
 
-## VIII-D
+VIII-D
 
 > Diotr:but i o~ DAOl/Y. R. Lucaa USFC Flight Readiness Revieu (FRR) Board for USFC Elements for Eirslon 51-L
 
@@ -8311,7 +8291,9 @@ SRB-2
 
 IIPtEKNTS CAPABILITY TO 0 NOZZLE SEPARATION 0 ANALYSlS SEPARATE $RH NOZZLE AT 0 PRECLUDE FRACMENTS FROM - STRUCTURAL
 
-## AWCEE AND TO SEPARATE NOZZLE EXTENSION DESTROYING - DYNAHIC HAIN PARACHUTES AT UATEB DROCUE PARACHUTE - FKA IWQACT 0 REDUCE DESICN LOAD 0 QUAIIFICATION EXCEEDANCES ON M I N TEST PARACHUTE SYSTEH 0 MAIN PARACHUTE SEPARATION 0 F M L PWCDR 0 SRB RETRIEVAL PERSONNEL 0 DCR SAFETY SRB-I
+## AWCEE AND TO SEPARATE NOZZLE EXTENSION DESTROYING - DYNAHIC HAIN PARACHUTES AT UATEB DROCUE PARACHUTE - FKA IWQACT 0 REDUCE DESICN LOAD 0 QUAIIFICATION EXCEEDANCES ON M I N TEST PARACHUTE SYSTEH 0 MAIN PARACHUTE SEPARATION 0 F M L PWCDR 0 SRB RETRIEVAL PERSONNEL 0 DCR SAFETY
+
+SRB-I
 
 > U L4 Y E
 
@@ -8359,7 +8341,7 @@ n
 
 > v SAM Lt G1 W n
 
-## VIII-G
+VIII-G
 
 TWR- 15284C
 
@@ -8511,7 +8493,7 @@ P n
 
 %%page 434%%
 
-## VIII-J
+VIII-J
 
 TO:. DistriSuiion
 
@@ -8527,9 +8509,7 @@ reporzed t o t h e l!!X ?roSle=: Assessaen? S y s i e n (PAS) by elezenc co:.:zp
 
 a. Tce follozing guzdellnes hnve b e e s e s t a b l i s h e d r o a i l iz making c o z s t r i i n t decisior.5 03 open problems and. a r e l-rec t o reczrrence conrro1 cece-icmtion o S p . In a c c o r l z n c e w i t 5 p r a c t i c e s e s r a b l i s h e n on pas: p r c g r t u , r e z e d i s 1 ac:ions Ce.g. rmovnl an2 r e p i a c a e n i : of d e i e c z i v e hard-dare, etc:). for C O T - r e c r i n g i i s c = e ? a n c i e s on Khe v e k i c l e co b e larrnched a r e con- sidere? l a a n c n canstraLD=s an6 a r e c r a c k e d b y . c h e IZSC sysrem,.
 
-(1) A l l open p r o b l m s coded c r i t i c a l i t y 1, 1R.[^2] , o r 2R w i l l be considered l a m c h c o n s e r a i n t s u n r i l resolved (recurrence c o n t r o l e s t a b l i s h e d and i c s i n u l r r p e n r a r i o n exectiv%:y derermined) - .r g - r a r l o n , oer t sc d. ,f iCKFSKS'
-
-c i e n r r a r i b n a l e . i.e.. d i f f e r e s i ccn= co concluae thaK C h i s problem vill no; oc=';z on t h e f l i g h ~v e h i c l e d u r i n g prelaunch, launch. o r f l i g k .
+(1) A l l open p r o b l m s coded c r i t i c a l i t y 1, 1R.[^2] , o r 2R w i l l be considered l a m c h c o n s e r a i n t s u n r i l resolved (recurrence c o n t r o l e s t a b l i s h e d and i c s i n u l r r p e n r a r i o n exectiv%:y derermined) - .r g - r a r l o n , oer t sc d. ,f iCKFSKS' c i e n r r a r i b n a l e . i.e.. d i f f e r e s i ccn= co concluae thaK C h i s problem vill no; oc=';z on t h e f l i g h ~v e h i c l e d u r i n g prelaunch, launch. o r f l i g k .
 
 > .. (2) Pro'c;e=s code? c r i z l c a l i i y 3 will noK b e COR-
 
