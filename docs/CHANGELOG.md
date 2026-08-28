@@ -7,6 +7,38 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-22 — A fifth report: Leveson on the press
+
+**Added:** *An Inquiry into the Culture, Practices and Ethics of the Press* —
+Lord Justice Leveson's 2012 report into UK press conduct and regulation,
+prompted by the phone-hacking scandal. Four volumes bound into one continuous
+document: 2,022 pages, over a million words, the largest report in the archive
+by a wide margin.
+
+The Wall Street and Challenger reports were also re-ingested under the current
+pipeline and republished, mostly a cleaner table of contents and a list-formatting
+fix, with nothing lost.
+
+---
+
+## 2026-08-22 — Report pages load without touching the source document
+
+Every report page used to be rendered from its source markdown on the fly,
+which was slow enough to occasionally exceed the CPU a single request is
+allowed and return an error page instead. Report pages are now built once,
+ahead of time, and served as-is — pages load faster and hold up under a spike
+of traffic that would previously have knocked some of them offline. No visible
+change otherwise.
+
+**Search across every report.** Find a name, a date, a bank — anywhere in the
+archive, not just the report you happen to be reading. A result is the exact
+matched passage, not a page to go hunting through: it shows the sentence, the
+report and section it's in, the printed page, and follows through to those
+exact words highlighted, the same as any shared link. Scope a search to one
+report from that report's own page, or search everything from the header.
+
+---
+
 ## 2026-08-21 — Quote the exact words, and keep what you find
 
 **Share part of a paragraph.** Selecting half a sentence used to hand you a link
@@ -38,35 +70,20 @@ people marked it.
 
 ---
 
-## 2026-08-22 — A fifth report: Leveson on the press
+## 2026-08-09 — Contents pages read as a hierarchy
 
-**Added:** *An Inquiry into the Culture, Practices and Ethics of the Press* —
-Lord Justice Leveson's 2012 report into UK press conduct and regulation,
-prompted by the phone-hacking scandal. Four volumes bound into one continuous
-document: 2,022 pages, over a million words, the largest report in the archive
-by a wide margin.
+The contents page listed every section flat, with no way to tell a subsection
+from the part it belongs to. Sections now indent under their part:
 
-The Wall Street and Challenger reports were also re-ingested under the current
-pipeline and republished, mostly a cleaner table of contents and a list-formatting
-fix, with nothing lost.
+![Contents page, sections indented under their part](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-09-toc-and-sidenotes/2-contents-page-after-hierarchy.png)
 
----
+A long footnote also no longer drags the notes after it out of alignment or
+spills into the footer — clamped to about 8 lines with a "Show full note"
+toggle:
 
-## 2026-08-22 — Report pages load without touching the source document
+![A clamped footnote, expanded on click](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-09-toc-and-sidenotes/8-sidenote-clamp-expanded.png)
 
-Every report page used to be rendered from its source markdown on the fly,
-which was slow enough to occasionally exceed the CPU a single request is
-allowed and return an error page instead. Report pages are now built once,
-ahead of time, and served as-is — pages load faster and hold up under a spike
-of traffic that would previously have knocked some of them offline. No visible
-change otherwise.
-
-**Search across every report.** Find a name, a date, a bank — anywhere in the
-archive, not just the report you happen to be reading. A result is the exact
-matched passage, not a page to go hunting through: it shows the sentence, the
-report and section it's in, the printed page, and follows through to those
-exact words highlighted, the same as any shared link. Scope a search to one
-report from that report's own page, or search everything from the header.
+Full before/after: [visual-changelog](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md).
 
 ---
 

@@ -103,11 +103,16 @@ https://raw.githubusercontent.com/life-itself/changelog/main/CONVENTION.md
 before/after screenshots of visible changes to
 [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog)'s
 `CHANGELOG.md` as you ship them — one entry per batch of related work,
-images committed alongside it in that repo. It's shared across every report
-repo in the org, not just this one, and is the record a future "how RTM got
-built" write-up draws on; see that file's own header for the exact
-convention. A `changelog.md` entry here for a visible change should link to
-the matching visual-changelog entry rather than duplicate the screenshot.
+images committed alongside it in that repo (public, so this is safe to
+hotlink from). It's shared across every report repo in the org, not just
+this one, and is the record a future "how RTM got built" write-up draws on;
+see that file's own header for the exact convention. A `docs/CHANGELOG.md`
+entry here for a visible change should **hotlink one representative image**
+from it via a `raw.githubusercontent.com` URL — `![alt](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/<path>)`
+— rather than duplicate the file: nothing to commit here, nothing to keep in
+sync, and a reader of `/changelog` sees the change instead of just reading a
+claim about it. Link to the full visual-changelog entry for the rest of the
+before/after sequence.
 
 ## Design
 

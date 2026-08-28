@@ -74,12 +74,7 @@ export function renderIndex(registry: ReportRegistry): string {
   </section>
 </main>`;
 
-  return renderLayout("Reports that Matter", body, {
-    navLinks: [
-      { label: "Reports", href: "/reports" },
-      { label: "About", href: "/about" },
-    ],
-  });
+  return renderLayout("Reports that Matter", body);
 }
 
 export function renderReportsIndex(registry: ReportRegistry): string {
