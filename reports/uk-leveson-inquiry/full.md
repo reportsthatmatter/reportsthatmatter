@@ -443,7 +443,7 @@ vi
 
 - 5 Recommendations for future relations between politicians and the press — 1451
 
-### Chapter 9: Plurality and media ownership: conclusions
+Chapter 9: Plurality and media ownership: conclusions
 
 - and recommendations — 1461
 
@@ -459,7 +459,7 @@ vi
 
 - 6 Who should be responsible for the decisions? — 1473
 
-## Volume IV: PARt J : AsPeCts oF RegulAtIon: the lAw And the
+Volume IV PARt J : AsPeCts oF RegulAtIon: the lAw And the
 
 - PreSS COmPlAInTS COmmISSIOn — 1477
 
@@ -683,7 +683,7 @@ x
 
 - Appendix 4: Legal materials — 1843
 
-## Appendix 5: Evidence relevant to the generic conclusions on the relationship
+Appendix 5: Evidence relevant to the generic conclusions on the relationship
 
 - between politicians and the press: Part I, Chapter 8 — 1955
 
@@ -8810,7 +8810,7 @@ vi
 
 - 5 Recommendations for future relations between politicians and the press — 1451
 
-### Chapter 9: Plurality and media ownership: conclusions
+Chapter 9: Plurality and media ownership: conclusions
 
 - and recommendations — 1461
 
@@ -8826,7 +8826,7 @@ vi
 
 - 6 Who should be responsible for the decisions? — 1473
 
-## Volume IV: PART J : Aspects of regulation: the law and the
+Volume IV PART J : Aspects of regulation: the law and the
 
 - Press Complaints Commission — 1477
 
@@ -9050,7 +9050,7 @@ x
 
 - Appendix 4: Legal materials — 1843
 
-## Appendix 5: Evidence relevant to the generic conclusions on the relationship
+Appendix 5: Evidence relevant to the generic conclusions on the relationship
 
 - between politicians and the press: Part I, Chapter 8 — 1955
 
@@ -18664,7 +18664,7 @@ vi
 
 - 5 Recommendations for future relations between politicians and the press — 1451
 
-### Chapter 9: Plurality and media ownership: conclusions
+Chapter 9: Plurality and media ownership: conclusions
 
 - and recommendations — 1461
 
@@ -18680,7 +18680,7 @@ vi
 
 - 6 Who should be responsible for the decisions? — 1473
 
-## Volume IV: PART J : Aspects of regulation: the law and the
+Volume IV PART J : Aspects of regulation: the law and the
 
 - Press Complaints Commission — 1477
 
@@ -18904,7 +18904,7 @@ x
 
 - Appendix 4: Legal materials — 1843
 
-## Appendix 5: Evidence relevant to the generic conclusions on the relationship
+Appendix 5: Evidence relevant to the generic conclusions on the relationship
 
 - between politicians and the press: Part I, Chapter 8 — 1955
 
@@ -25964,7 +25964,7 @@ vi
 
 - 5 Recommendations for future relations between politicians and the press — 1451
 
-### Chapter 9: Plurality and media ownership: conclusions
+Chapter 9: Plurality and media ownership: conclusions
 
 - and recommendations — 1461
 
@@ -25980,7 +25980,7 @@ vi
 
 - 6 Who should be responsible for the decisions? — 1473
 
-## Volume IV: PART J : Aspects of regulation: the law and the
+Volume IV PART J : Aspects of regulation: the law and the
 
 - Press Complaints Commission — 1477
 
@@ -26204,7 +26204,7 @@ x
 
 - Appendix 4: Legal materials — 1843
 
-## Appendix 5: Evidence relevant to the generic conclusions on the relationship
+Appendix 5: Evidence relevant to the generic conclusions on the relationship
 
 - between politicians and the press: Part I, Chapter 8 — 1955
 

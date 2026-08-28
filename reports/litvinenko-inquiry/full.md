@@ -1363,9 +1363,7 @@ The Litvinenko Inquiry
 
 ## Part 4: Why would anyone wish to kill Alexander Litvinenko?
 
-### Chapter 1: Introduction
-
-4.1 On the evidence that I have heard, Alexander Litvinenko lived a most eventful life in the
+Chapter 1: Introduction 4.1 On the evidence that I have heard, Alexander Litvinenko lived a most eventful life in the
 
 > United Kingdom (UK) between 2000 and 2006. He involved himself in a wide range of activities, many, as before, focused on challenging corruption in the Federal Security Service (FSB) and on combating organised crime. He also had to try to find a way of making a living in the UK using the skills and contacts that he had acquired as an FSB officer in Russia. The evidence suggests that, in the course of such activities, and just as he had in Russia, Mr Litvinenko may have made some dangerous enemies.
 
@@ -2863,9 +2861,7 @@ The Litvinenko Inquiry
 
 ## Part 6: The polonium trail – events in October and November 2006
 
-### Chapter 1: Introduction
-
-6.1 The police officers investigating Alexander Litvinenko's death painstakingly pieced
+Chapter 1: Introduction 6.1 The police officers investigating Alexander Litvinenko's death painstakingly pieced
 
 > together the last weeks of his life. In doing so, they employed standard techniques such as interviewing Mr Litvinenko's friends and associates, investigating the movements of persons of interest, interrogating telephone records and seizing and viewing closed circuit television (CCTV) footage. The material obtained in this way has all been made available to me, and a large amount of it has been put in evidence.
 
@@ -4775,9 +4771,7 @@ The Litvinenko Inquiry
 
 ## Part 8: Who killed Alexander Litvinenko?
 
-### Chapter 1: Introduction
-
-8.1 This is the first of two Parts of the Report in which I will record my factual findings. In
+Chapter 1: Introduction 8.1 This is the first of two Parts of the Report in which I will record my factual findings. In
 
 > this Part, I shall address the basic factual circumstances of Mr Litvinenko's death – when and where he died, the mechanism of his death, whether anyone else was involved and if so how and who. In the next Part (Part 9), I shall make my findings regarding any wider responsibility for Mr Litvinenko's death.
 
@@ -5525,9 +5519,7 @@ The Litvinenko Inquiry
 
 ## Part 9: Who directed the killing?
 
-### Chapter 1: Introduction
-
-9.1 I have made the finding that Mr Litvinenko was poisoned by Mr Lugovoy and Mr Kovtun.
+Chapter 1: Introduction 9.1 I have made the finding that Mr Litvinenko was poisoned by Mr Lugovoy and Mr Kovtun.
 
 9.2 However, this immediately raises a further question. There is no evidence at all
 

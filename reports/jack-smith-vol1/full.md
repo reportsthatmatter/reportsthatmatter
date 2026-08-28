@@ -1099,9 +1099,9 @@ Government's Response in Opposition to Defendant's Motion for 54 9/14/2023
 
 65 10/2/2023
 
-### Section 4: Filing and an Adjournment of the CIPA Section 5 Deadline
+> Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline Government's Response in Opposition to Defendant's Motion for
 
-Government's Response in Opposition to Defendant's Motion for 66 10/2/2023
+66 10/2/2023
 
 > Extension of Time to File Pretrial Motions Court Opinion & Order (Defendant's Motion for Access to CIPA
 
