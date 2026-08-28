@@ -177,7 +177,7 @@ double-regeneration procedure in `AGENTS.md`.
 | --- | --- |
 | **D1** | Report repo holds `ingest.*` and `corrections.yaml`. Site repo reads sibling checkouts via a manifest pinning each report repo. |
 | **D2** | **The authoritative `full.md` lives in the report repo.** The site build is an *aggregation*. Rationale: contributors — human and AI — get a much narrower surface to examine. |
-| **D3** | Printed page numbers are low value as content. Textual annotations as **sidecar metadata** is the better shape in the long run, but it is not pressing — **KISS applies**. Volume-prefixed identifiers (`v1-p42`) are the pragmatic step; the sidecar is deferred (§4). |
+| **D3** | Printed page numbers are low value as content. Textual annotations as **sidecar metadata** is the better shape in the long run, but it is not pressing — **KISS applies**. The sidecar is deferred; the anchor ambiguity it was partly meant to address turned out to be a different defect, now fixed (§4). |
 | **D4** | Subsumed by D6. |
 | **D5** | Corpus baseline check runs in `verify.sh`. |
 | **D6** | **Composition with shared passes** (§5). The report repo commits a real pipeline program; the passes it composes are core-library code by default, with an escape hatch and empirical promotion. |
@@ -258,9 +258,21 @@ citation-stability event — and touches `markdown.ts`, `sections.ts` and
 
 So the plan does the cheap half now and leaves the door open:
 
-- **Now:** volume-prefix the identifiers (`v1-p42`), so Leveson's four restarting
-  page sequences stop colliding. One anchor change, done once, while the
-  archive is still five reports.
+- **Corrected 2026-08-28.** This section originally said Leveson's four
+  volumes restart their page numbering and so collide. **That was wrong**, and
+  measuring it reversed the finding: Leveson paginates continuously across all
+  four volumes and has 1,936 distinct markers from 1,936 pages — no collisions
+  at all. The collisions are in the **single-volume** reports, where pagination
+  restarts between front matter, body and appendices: Jack Smith prints "2" on
+  three different pages, Challenger collides 16 times. Volume-prefixing would
+  not have fixed either, since both are volume 1 throughout. The 2026-08-01
+  doc §6 had it right — "the numbering is not globally monotonic … so it needs
+  to be section-scoped rather than used raw".
+- **Done:** repeated numbers get distinct anchors. The first occurrence keeps
+  the bare `#page-2`, so no working citation changed; later ones render
+  `#page-2-2`. This was a live correctness bug — three elements shared
+  `id="page-2"` in Jack Smith's rendered page, so a citation to the second
+  silently resolved to the first.
 - **Later, if wanted:** `pages.json` keyed by paragraph id. Stage 2 (provenance
   through the pipeline) produces everything it needs, so the sidecar becomes a
   serialisation choice rather than a re-architecture. Nothing is foreclosed.
@@ -490,7 +502,7 @@ Plan A has landed and the shape has survived contact.
 | --- | --- | --- |
 | **4** | Move `full.md` authority to the report repos; site manifest + aggregation build (D2) | no |
 | **5** | `corrections.yaml` (#106, unblocks #105) | yes |
-| **6** | Volume-prefixed page anchors (`v1-p42`) (D3) | yes |
+| **6** | ~~Volume-prefixed page anchors~~ — **not needed**; the real defect was repeated numbers *within* a report, fixed separately (§4) | — |
 | **7** | `content_version` + poppler pin (#117) | no |
 
 **Stage 0 is the highest value per line of code in the plan.** It is small, and
