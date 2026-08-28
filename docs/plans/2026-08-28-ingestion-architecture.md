@@ -1,7 +1,7 @@
 # Ingestion architecture — where parsing logic lives, and how reports stay reproducible
 
 **Date:** 2026-08-28
-**Status:** decided 2026-08-28. Implementation plan to follow.
+**Status:** decided and **implemented**, 2026-08-28. Plans A1, A2 and B stage 4 all landed; see §9.
 **Supersedes in part:** [`2026-08-01-architecture.md`](2026-08-01-architecture.md) §3
 **Relates to:** #106 (corrections.yaml), #105, #104, #103, #101, #117, #31
 
@@ -175,7 +175,7 @@ double-regeneration procedure in `AGENTS.md`.
 
 | | Decision |
 | --- | --- |
-| **D1** | Report repo holds `ingest.*` and `corrections.yaml`. Site repo reads sibling checkouts via a manifest pinning each report repo. |
+| **D1** | Report repo holds `ingest.ts` and `corrections.yaml`. Site repo reads sibling checkouts via `reports/manifest.yaml`. **Done.** The library became [`reportsthatmatter/ingest`](https://github.com/reportsthatmatter/ingest), consumed as a git dependency pinned by tag — not a submodule, which would make every clone and CI checkout a multi-repo operation. |
 | **D2** | **The authoritative `full.md` lives in the report repo.** The site build is an *aggregation*. Rationale: contributors — human and AI — get a much narrower surface to examine. |
 | **D3** | Printed page numbers are low value as content. Textual annotations as **sidecar metadata** is the better shape in the long run, but it is not pressing — **KISS applies**. The sidecar is deferred; the anchor ambiguity it was partly meant to address turned out to be a different defect, now fixed (§4). |
 | **D4** | Subsumed by D6. |
@@ -382,14 +382,24 @@ golden page fixtures** (§7.2) — real extracted pages from every report,
 committed as text in the library repo. That is how the library keeps a corpus
 without owning the reports.
 
-### Distribution
+### Distribution — done
 
 npm publishing is overhead for a one-person-plus-agents project. A git
 dependency pinned to a tag gives exact pinning with no registry admin:
 
 ```json
-"@rtm/ingest": "github:reportsthatmatter/ingest#v0.4.0"
+"@rtm/ingest": "github:reportsthatmatter/ingest#v0.2.1"
 ```
+
+Two things learned building it. `dist/` is **committed** in the library,
+because pnpm will not accept a name-keyed build allowance for a git
+dependency — only one keyed by a content hash that changes every release, so
+a `prepare` script would mean editing consumer config on each version.
+Shipping compiled output makes the dependency plain files. And each report
+repo needs its own `pnpm install`: Node resolves `@rtm/ingest` from the
+importing file's location, so a definition in a report repo cannot borrow the
+site's `node_modules`. That is the right shape anyway — it is what makes a
+report repo independently buildable.
 
 ---
 
@@ -490,20 +500,20 @@ output.
 
 | | | Output changes? |
 | --- | --- | --- |
-| **0** | Fix `ingest verify` (1.1). Record the build recipe for all five reports; assert byte-identical output | no |
-| **1** | Baseline digests + golden page fixtures; wire into `verify.sh` (D5) | no |
-| **2** | Provenance through the pipeline; fidelity and suspects cite volume + printed page | no |
-| **3** | Extract the core library; per-report `ingest.ts`; `runningFurniture` and `geometry` become opt-in passes (D6) | no |
+| **0** | ✅ Fix `ingest verify` (1.1). Record the build recipe for all five reports | no |
+| **1** | ✅ Baseline digests + golden page fixtures; wired into `verify.sh` (D5) | no |
+| **2** | ✅ Provenance through the pipeline; fidelity and suspects cite volume + printed page | no |
+| **3** | ✅ Extract the core library; per-report `ingest.ts`; `runningFurniture` and `geometry` are opt-in passes (D6) | no |
 
 **Plan B — stages 4–7, deliberate output changes.** Separate plan, written once
 Plan A has landed and the shape has survived contact.
 
 | | | Output changes? |
 | --- | --- | --- |
-| **4** | Move `full.md` authority to the report repos; site manifest + aggregation build (D2) | no |
-| **5** | `corrections.yaml` (#106, unblocks #105) | yes |
+| **4** | ✅ Move `full.md` authority to the report repos; site manifest + aggregation build (D2) | no |
+| **5** | ✅ `corrections.yaml` (#106, unblocks #105) | yes |
 | **6** | ~~Volume-prefixed page anchors~~ — **not needed**; the real defect was repeated numbers *within* a report, fixed separately (§4) | — |
-| **7** | `content_version` + poppler pin (#117) | no |
+| **7** | ✅ poppler pin (#117). `content_version` not built — the per-report `baseline.json` covers what it was for | no |
 
 **Stage 0 is the highest value per line of code in the plan.** It is small, and
 it is what makes every later stage reviewable.
@@ -512,12 +522,15 @@ it is what makes every later stage reviewable.
 
 ## 10. Still open
 
-Nothing blocking. Two things to settle in passing, both inside Plan A:
+The architecture is built. What remains is quality work inside it, not
+structure:
 
-- **Where the core library lives.** A separate `reportsthatmatter/ingest` repo is
-  cleaner once the reports own their builds; staying in the site repo and being
-  consumed by path is one fewer repo to run. Decide at stage 3, when the extraction
-  is actually being done and the cost of each is visible — not before.
-- **Whether `pages.json` ever ships.** Deferred by D3 (§4). Stage 2 produces
-  everything it would need, so this stays a cheap option rather than a
-  commitment.
+- **#120** — a docket table row read as a division heading. Needs table
+  detection, so it pairs with #101 rather than being fixed alone.
+- **#105** — the review queue now has somewhere to land, but no workflow over
+  it yet.
+- **`pages.json`** — deferred by D3 (§4) and still only an option. Stage 2
+  produces everything it would need.
+- **`passes.blocks()` is one coarse pass.** Headings, lists and quotes are
+  interwoven in `toBlocks`; splitting them wants the golden fixtures to grow
+  first.
