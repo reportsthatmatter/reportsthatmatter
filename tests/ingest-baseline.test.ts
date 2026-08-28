@@ -7,6 +7,7 @@ const result = (markdown: string) => ({
   footnotes: [{ number: 1, text: "note", page: 1 }],
   suspects: [],
   autoFixes: 0,
+  corrections: 0,
   pages: 3,
 });
 

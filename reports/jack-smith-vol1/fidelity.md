@@ -1,10 +1,15 @@
 # Fidelity review — Report of Special Counsel Jack Smith, Volume One: The Election Case
 
-Pages: 169  ·  Footnotes: 301  ·  Auto-fixes applied: 260
+Pages: 169  ·  Footnotes: 301  ·  Auto-fixes applied: 260  ·  Human corrections: 0
 
 OCR suspects below are a **review queue, not errors**. Whether the text is
 faithful to the scan is a human judgement; these are the places most likely
 to need one.
+
+When you make one, record it in `reports/jack-smith-vol1/corrections.yaml` — never by
+editing `full.md`, which the next ingest overwrites. A correction there is
+applied deterministically, survives re-ingestion, and fails the build if it
+ever stops matching.
 
 | Confidence | Pattern | Text | Where | Context |
 | --- | --- | --- | --- | --- |

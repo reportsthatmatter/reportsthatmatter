@@ -1,6 +1,7 @@
 import { extractPages, type Page } from "./extract";
 import { splitPage, collapseDoubleSpacing } from "./clean";
 import type { ResolvedPasses } from "./define";
+import { applyCorrections, type Correction } from "./corrections";
 import {
   toBlocks,
   blocksToMarkdown,
@@ -15,6 +16,7 @@ import { autoFix, findSuspects, rankSuspects, type Suspect } from "./ocr";
 
 export type IngestResult = {
   markdown: string;
+  corrections: number;
   sourceText: string;
   footnotes: Footnote[];
   suspects: Suspect[];
@@ -50,7 +52,8 @@ export function ingestPages(pages: Page[], meta: Metadata): IngestResult {
 export function ingestPageGroups(
   pageGroups: Page[][],
   meta: Metadata,
-  resolved: ResolvedPasses = { geometry: "document", volumePasses: [] }
+  resolved: ResolvedPasses = { geometry: "document", volumePasses: [] },
+  corrections: Correction[] = []
 ): IngestResult {
   // Volume is assigned here because this is the only place that knows the
   // order the volumes were given in — and that order is semantic: footnote
@@ -112,7 +115,14 @@ export function ingestPageGroups(
     }
   }
 
-  let body = blocksToMarkdown(mergeAcrossPages(bodyChunks));
+  // Corrections are the last word on the text: applied after the structure is
+  // settled, before it is serialised, so re-running reproduces the same output.
+  const corrected = applyCorrections(
+    mergeAcrossPages(bodyChunks),
+    corrections,
+    meta.title
+  );
+  let body = blocksToMarkdown(corrected.blocks);
 
   const fixed = autoFix(body);
   body = fixed.text;
@@ -141,7 +151,14 @@ export function ingestPageGroups(
 
   const endnotes = renderEndnotes(footnotes);
   const markdown = [
-    frontMatter({ ...meta, pages: pages.length, footnotes: footnotes.length }),
+    frontMatter({
+      ...meta,
+      pages: pages.length,
+      footnotes: footnotes.length,
+      // Omitted at zero so a report with no corrections is unchanged, and
+      // visible the moment there is a human judgement on the record.
+      ...(corrected.applied ? { corrections: corrected.applied } : {}),
+    }),
     body,
     endnotes ? `## Notes\n\n${endnotes}` : "",
   ]
@@ -157,6 +174,7 @@ export function ingestPageGroups(
     footnotes,
     suspects,
     autoFixes: fixed.applied + noteFixes,
+    corrections: corrected.applied,
     pages: pages.length,
   };
 }

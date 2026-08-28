@@ -86,13 +86,20 @@ export function structuralChecks(markdown: string): Check[] {
  * failure mode that matters most — silently inventing or mangling text — while
  * tolerating the reordering that lifting footnotes necessarily causes.
  */
-export function losslessCheck(sourceText: string, markdown: string): Check {
+export function losslessCheck(
+  sourceText: string,
+  markdown: string,
+  extraVocabulary: string[] = []
+): Check {
   // Compare against the source with the same certain-substitution pass applied,
   // so a legitimate OCR repair does not read as invented text — while anything
   // the pipeline actually made up still does.
+  // Text a correction deliberately introduced is not in the scan, and is not
+  // invented either — it is a human judgement on the record.
   const source = new Set([
     ...words(sourceText),
     ...words(autoFix(sourceText).text),
+    ...words(extraVocabulary.join(" ")),
   ]);
   const output = words(stripFrontMatter(markdown));
 
@@ -130,7 +137,11 @@ export function retentionCheck(sourceText: string, markdown: string): Check {
  * input — which is exactly what `ingest verify` silently did for every report
  * until #118, because no report had a `source.pdf` to compare against.
  */
-export function runChecks(sourceText: string, markdown: string): Check[] {
+export function runChecks(
+  sourceText: string,
+  markdown: string,
+  extraVocabulary: string[] = []
+): Check[] {
   if (sourceText === markdown) {
     throw new Error(
       "runChecks was asked to check a document against itself: with the " +
@@ -141,7 +152,7 @@ export function runChecks(sourceText: string, markdown: string): Check[] {
   }
   return [
     ...structuralChecks(markdown),
-    losslessCheck(sourceText, markdown),
+    losslessCheck(sourceText, markdown, extraVocabulary),
     retentionCheck(sourceText, markdown),
   ];
 }

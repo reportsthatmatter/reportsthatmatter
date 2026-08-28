@@ -23,11 +23,23 @@ import { checkVolume, resolveVolume } from "./volumes";
 import { resolvePasses, type PipelineDef } from "./define";
 import { computeBaseline, diffBaselines, type Baseline } from "./baseline";
 import { popplerVersion, popplerWarning } from "./poppler";
+import {
+  parseCorrections,
+  correctionVocabulary,
+  type Correction,
+} from "./corrections";
 import { runChecks } from "./fidelity";
 import { extractPages, type Page } from "./extract";
 
 const ROOT = join(import.meta.dirname, "../..");
 const REPORTS = join(ROOT, "reports");
+
+/** A report's corrections, if it has any. Absent is normal, not an error. */
+function loadCorrections(id: string): Correction[] {
+  const path = join(REPORTS, id, "corrections.yaml");
+  if (!existsSync(path)) return [];
+  return parseCorrections(readFileSync(path, "utf8"), id);
+}
 
 /**
  * Loads a report's pipeline definition — the program in its own directory
@@ -99,10 +111,11 @@ async function runIngest(argv: string[]): Promise<number> {
       published_at: def.published_at,
       source_url: def.source_url,
     },
-    resolvePasses(def)
+    resolvePasses(def),
+    loadCorrections(id)
   );
 
-  return writeReport(id, def.title, result);
+  return writeReport(id, def.title, result, loadCorrections(id));
 }
 
 /**
@@ -116,7 +129,12 @@ function where(s: { page: number; volume?: number; pdfIndex?: number }): string 
 }
 
 /** Writes a report's markdown and its OCR review queue, then gates on fidelity. */
-function writeReport(id: string, title: string, result: IngestResult): number {
+function writeReport(
+  id: string,
+  title: string,
+  result: IngestResult,
+  corrections: Correction[] = []
+): number {
   const dir = join(REPORTS, id);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "full.md"), result.markdown, "utf8");
@@ -124,11 +142,16 @@ function writeReport(id: string, title: string, result: IngestResult): number {
   const suspectReport = [
     `# Fidelity review — ${title}`,
     "",
-    `Pages: ${result.pages}  ·  Footnotes: ${result.footnotes.length}  ·  Auto-fixes applied: ${result.autoFixes}`,
+    `Pages: ${result.pages}  ·  Footnotes: ${result.footnotes.length}  ·  Auto-fixes applied: ${result.autoFixes}  ·  Human corrections: ${result.corrections}`,
     "",
     "OCR suspects below are a **review queue, not errors**. Whether the text is",
     "faithful to the scan is a human judgement; these are the places most likely",
     "to need one.",
+    "",
+    `When you make one, record it in \`reports/${id}/corrections.yaml\` — never by`,
+    "editing `full.md`, which the next ingest overwrites. A correction there is",
+    "applied deterministically, survives re-ingestion, and fails the build if it",
+    "ever stops matching.",
     "",
     "| Confidence | Pattern | Text | Where | Context |",
     "| --- | --- | --- | --- | --- |",
@@ -145,7 +168,10 @@ function writeReport(id: string, title: string, result: IngestResult): number {
   console.log(`Pages: ${result.pages}  Footnotes: ${result.footnotes.length}  Auto-fixes: ${result.autoFixes}`);
   console.log(`OCR review queue: ${result.suspects.length} entries → reports/${id}/fidelity.md`);
 
-  const ok = reportChecks("Fidelity checks", runChecks(result.sourceText, result.markdown));
+  const ok = reportChecks(
+    "Fidelity checks",
+    runChecks(result.sourceText, result.markdown, correctionVocabulary(corrections))
+  );
   return ok ? 0 : 1;
 }
 
@@ -211,7 +237,11 @@ async function runVerify(argv: string[]): Promise<number> {
       )
       .join("\n");
 
-    allOk = reportChecks(target.id, runChecks(sourceText, markdown)) && allOk;
+    allOk =
+      reportChecks(
+        target.id,
+        runChecks(sourceText, markdown, correctionVocabulary(loadCorrections(target.id)))
+      ) && allOk;
   }
 
   return allOk ? 0 : 1;
@@ -231,7 +261,8 @@ async function regenerate(id: string): Promise<IngestResult> {
       published_at: def.published_at,
       source_url: def.source_url,
     },
-    resolvePasses(def)
+    resolvePasses(def),
+    loadCorrections(id)
   );
 }
 

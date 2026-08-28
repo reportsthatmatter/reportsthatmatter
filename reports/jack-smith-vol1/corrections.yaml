@@ -1,0 +1,19 @@
+# Human judgements about this document's text, applied deterministically as a
+# final pipeline pass, so re-running reproduces the same output.
+#
+# A correction describes the text; a pass describes how to read the source.
+# If you are writing one to undo something the parser did, you needed a pass
+# or a bug fix instead — see scripts/ingest/README.md.
+#
+# Every correction must match exactly once. Zero matches, or more than one,
+# fails the build naming the id: a stale correction is a loud error rather
+# than rotting quietly into a lie about what was reviewed.
+#
+#   - id: c-0001
+#     where: { volume: 1, printed: 380 }   # optional; narrows to one page
+#     find: "So Help 1;fe Godp. 451"
+#     replace: "So Help Me God p. 451"
+#     reason: small-font OCR; checked against the scan
+#     added: 2026-08-28
+version: 1
+corrections: []
