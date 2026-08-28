@@ -328,3 +328,13 @@ describe("lists are citable", () => {
     expect(html).not.toMatch(/<li id=/);
   });
 });
+
+describe("repeated page anchors", () => {
+  it("renders a suffixed marker as a distinct id", () => {
+    const html = renderMarkdown("%%page 2%%\n\nFirst.\n\n%%page 2#2%%\n\nSecond.\n");
+    expect(html).toContain('id="page-2"');
+    expect(html).toContain('id="page-2-2"');
+    // The label a reader sees is still the printed number.
+    expect(html).toContain('aria-label="Printed page 2"');
+  });
+});

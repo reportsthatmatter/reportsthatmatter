@@ -29,7 +29,7 @@ export function splitFrontMatter(source: string): {
 }
 
 /** The ingestion pipeline marks where each printed page of the source begins. */
-const PAGE_MARKER = /^%%page (\d+)%%$/;
+const PAGE_MARKER = /^%%page (\d+)(?:#(\d+))?%%$/;
 
 /** Words too common to identify a paragraph by. */
 const STOPWORDS = new Set([
@@ -121,9 +121,13 @@ export function renderMarkdown(markdown: string): string {
       const marker = text.match(PAGE_MARKER);
       if (marker) {
         page = Number.parseInt(marker[1], 10);
+        // A report's pagination restarts, so the same printed number can
+        // appear more than once. The first keeps the bare anchor, so existing
+        // citations to it stay valid; later ones are suffixed.
+        const id = marker[2] ? `page-${page}-${marker[2]}` : `page-${page}`;
         const anchor = new state.Token("html_block", "", 0);
         anchor.content =
-          `<a class="page-marker" id="page-${page}" href="#page-${page}"` +
+          `<a class="page-marker" id="${id}" href="#${id}"` +
           ` aria-label="Printed page ${page}">${page}</a>\n`;
         tokens.splice(i, 3, anchor);
         continue;

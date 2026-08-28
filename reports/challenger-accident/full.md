@@ -2091,7 +2091,7 @@ The tires apparently meet all of their design specifications but are critical fo
 
 The brakes by all standards are very large, very light, of conven- tional configuration, and very experimental because of extensive stretching of materials technolgy by using carbon-beryllium. Brake design is not rigorous, it is very empirical and results are often un- predictable in new designs. The Orbiter brakes incorporate berylli- um stators and carbon lined beryllium rotors. Beryllium has low density, high strength, and high heat capacity. Beryllium is very tender and not well behaved at high temperatures. Beryllium has unreliable plastic characteristics at higher temperatures. Use of be- ryllium in lieu of steel saved perhaps 1000 pounds in the cumula- tive landing gear weight. The C-5A aircraft uses beryllium rotors and stators.
 
-%%page 2%%
+%%page 2#2%%
 
 w
 
@@ -2631,7 +2631,7 @@ but there are many other intermediate products such as flight and training softw
 
 The launch production process template is displayed schematical- ly on Figure VI-2. The template begins 15 months before the sched- uled launch date (L-13, at which time a Flight Definition and Re- quirements Directive (FDRD) is issued. This marks one of seven de- fined "freeze points" of the 15 month mission-specific pre-launch activity. A freeze point simply means that a particular activity is norminally defined so that no time changes can occur without a formal process to authorize and document the change. In theory, non-mandatory changes are not made after a freeze point. As noted below, significant changes do indeed occur after the various freeze points in the schedule.
 
-%%page 6%%
+%%page 6#2%%
 
 ## GENERIC TEMPLATE (CIR 7.7 MO)
 
@@ -5669,7 +5669,7 @@ I$.
 
 > a\ C. Tibbittm
 
-%%page 2%%
+%%page 2#3%%
 
 PROCMn PLAN
 
@@ -5909,7 +5909,7 @@ e. Page 5, P a r a g r a p h 3.3, Nll-Seel. &lot T e s t a , R e f e r e n c e :
 
 5hc case j o i n t and n o z z l e j o i n t m f i g w a t i o n d i f f e r e n c e s warrant wprate f u l l - s c a l e n o z z l e / a f t scgment assembly tests.
 
-%%page 2%%
+%%page 2#4%%
 
 > f. GMer.1 - Design changes t o t h e i n s u l a t l o n i n t e r f a c e s u h i z h will p r e v e n t d e g r a d a t i o n of t h e t h e r m a l b a r r i e r due t o j o i n t rounding under p r e s s u r e should be i n v e s t i g a t e d as J p a r t o f t h i s e f f o r t . me p r e s e n t deSip,rI of t h e case j a i n t and nozzle i n t e r f a c e s YlMTc t h e zinc chromate putty is installed are oriented such t h a t the j o i n t gaps can vary Wom minimum to maximum dimensions around the circumference during assembly due to out of romdness and eccentricity. mls fondition which is premt to some dcercc durlng every j o i n t assembly operation, guarantees that some, or almost a l l o f t h e z i n c chromate p u t t y i n c e r t a i n areas w i l l be uiped off when t h e mating surfaces move p a r a l l e l to each o t h e r during mating. This r e s u l t s i n open i n s u l a t i o n g a p s w i t h i n s u f f i c i e n t z i n c c h r o m a t e p u t t y d u r i n g motor operation because t h e j o i n t s tend to become romd and concentric when t h e case is presssurized internally. Qlcstlons concerning t h i s memorandum should be r e f e r r e d to Nr. uilliam L. b y , 3-3809.-
 
@@ -5991,7 +5991,7 @@ b. Full acalo t o a t i t
 
 .. .
 
-%%page 2%%
+%%page 2#5%%
 
 ( u ' Pepeat tests ( 1 ) and ( 2 ) except w i t h v e n t s l o t s l o c a t e d a t I?$- degree i n t e r v a l around t h e c i r c u m f e r e n c e as shown by a t t a c h e d f i g r e s ? and 4. The s l o t s am designed to prevent a i r entrapment and r e s \ r l t l n g volcanoes. E v a l u a t i o n of l a y u p e f f e c t i v e n e b s should be p e r f o m e d w i t h f l m meter3 to d e t e r m i n e c a v i t y v o l m e s .
 
@@ -6171,7 +6171,7 @@ published) vith leader vaa fonned on 19 July 1985 and n s tasked with 8olVing , 
 
 COKpAh~PIuIaIL
 
-%%page 4%%
+%%page 4#2%%
 
 29 1
 
@@ -7799,7 +7799,7 @@ D 3040 Practice for Preparing Precision State- ' 4nnrioI Boo!, oIASTM Siandurdr.
 
 I
 
-%%page 2%%
+%%page 2#6%%
 
 4Snl D 395 appropriate method, is calculated according to 5.3 An optional method of preparing the Eqs ( I ) and (2). standard specimen may be the direct molding of a circular disk having the dimensions required 4. Significance and Use for the method used and specified in 5.2.1.
 
@@ -7839,7 +7839,7 @@ D395 ing, it is sometimes more convenient to prepare 7.2. I . I The spring shall
 
 7.2.1 Culibrured Spring Force Applicurion- test. The required force shall be applied by a screw 7.4 Oven, conforming to the specification for mechanism for compressing a calibrated spring a Type IIB laboratory oven given in Specification the proper amount. The spring shall be of E 145. properly heat-treated spring steel with ends ground and perpendicular to the longitudinal 8. Procedure axis of the spring. A suitable compression device 8.1 Original Thickness Measurement-Mea- is shown in Fig. I . The spring shall conform to sure the original thickness of the specimen to the the following requirements: nearest 0.02 mm (0.001 in.). Place the specimen
 
-%%page 4%%
+%%page 4#3%%
 
 > @I D395
 
@@ -7861,7 +7861,7 @@ mosphere controlled to 50 5 % relative humid- 1 I .3 Compression Device, consist
 
 8.5 h i n d Thickness Measuremenl-After the of which the specimens may be compressed as rest period, measure the final thickness at the shown in Fig. 3. Steel spacers for the required center of the specimen in accordance with 8. I . percentage of compression given in 12.2 shall be
 
-%%page 5%%
+%%page 5#2%%
 
 D395 placed on each side of the rubber specimens to 2 h after completion of the assembly and allow control their thickness while compressed. The it to remain there for the required test period in steel surfaces contacting the rubber specimens dry air at the test temperature selected. At the shall be ground to a maximum roughness of 250 end of the test period, take the device from the pm (10 pin.) and then chromium plated and oven and remove the test specimen immediately polished. and allow them to cool.
 
@@ -7879,7 +7879,7 @@ I 1.5 Plates-The plates between which the before making the measurement of the f
 
 1. = thickness of the spacer bar used. the rubber when compressed (Fig. 3). Where a lubricant is applied, it shall consist of a thin NOTE5-Lubrication of the operating surfaces of coating of a lubricant having substantially no the compression device is optional while giving more action on the rubber. For most purposes, a silicon reproducible results, lubrication may somewhat alter the compression set values. or fluorosilicon fluid is suitable. Tighten the bolts so that the plates are drawn together uniformly until they are in contact with the spacers. The 14. Report amount of compression employed shall be a p 14.1 The report shall include the following: proximately 25 %. A suitable mechanical or hy- 14. I. I Original dimensions of the test speci- draulic device may be used to facilitate assem- men including the original thickness, fo, bling and disassembling the test fixture. 14.1.2 Percentage compression of the speci12.3 Test Time and Temperature-Choose a men actually employed, suitable temperature and time for the compres- 14.1.3 Thickness of the test specimen 30 min sion set, depending upon the conditions of the after removal from the clamp, ti, expected service. In comparative tests, use iden- 14. I .4 Type of test specimen used, together tical temperature and test periods. It is suggested with the time and temperature of test, that the test temperature be chosen from those 14. I .5 Whether or not the surfaces of the com- listed in Recommended Practice D 1349. Sug- pression device are lubricated. If they are, what gested test periods are 22 h and 70 h. The test type lubrication was used, specimen shall be at room temperature when 14. I .6 Compression set, expressed as a per- inserted in the compression device. Place the centage of the original deflection, assembled compression device in the oven within 14. I .7 Method used (Method B), and
 
-%%page 6%%
+%%page 6#3%%
 
 D 395
 
@@ -7911,7 +7911,7 @@ LSO b a d on 95 A oonfdence level: two results are considered significantly diff
 
 The LSD values are relative percent. that is. a percent of the 'percent" values used to measure the tested property.
 
-%%page 7%%
+%%page 7#2%%
 
 D 395
 
@@ -8175,7 +8175,7 @@ h. Procedures
 
 . . .. ..
 
-%%page 77%%
+%%page 77#2%%
 
 > 0 Guidelines Approximately * r e mb prior to the USFC Shuttle Projects FRR, guiaelimr rill be prepared by Procram P h s ud U u u p m m t Systems O f f h and Issurd by h e Y a n p r , Shuttle Project& atabllshln~ Projects FRR &te, Shuttle Projects FRR &a, wlth appliuble memkrshlp, and my specld requiremmts not s v c r e d by l h i s prardvc
 
@@ -8405,7 +8405,7 @@ ALJUSTED TO A TEMPERATURE 3F 60'F AND PRESSURE OF 625 PSIA
 
 - m 'f
 
-%%page 0%%
+%%page 0#2%%
 
 Y
 
@@ -8549,7 +8549,7 @@ c
 
 P.o5erz E. Lincsircn Panager Shxczle P r o j e c t s O f f i c e D i s trfbu:ion: S e e page 3
 
-%%page 3%%
+%%page 3#2%%
 
 EG21/G. Butler
 
@@ -8595,7 +8595,7 @@ Y
 
 > I c) L n
 
-%%page 0%%
+%%page 0#3%%
 
 . . .,., ,... .*. ... ... ... . . *. .* .. * .
 
@@ -8609,7 +8609,7 @@ l b
 
 > P Y f tri
 
-%%page 0%%
+%%page 0#4%%
 
 i
 

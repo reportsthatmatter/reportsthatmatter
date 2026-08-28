@@ -1075,3 +1075,39 @@ describe("golden page fixtures", () => {
     });
   }
 });
+
+describe("repeated printed page numbers", () => {
+  it("gives every occurrence a distinct anchor, keeping the first bare", () => {
+    // These documents restart their pagination — front matter, then the body,
+    // then appendices — so a printed number is not unique within one report.
+    // Jack Smith prints "2" on three different pages. Rendering them all as
+    // id="page-2" makes a citation to the second silently land on the first.
+    const result = ingestPageGroups(
+      [
+        [
+          page(["Front matter body text sits on this page here.", "2"], 1),
+          page(["Chapter body text sits on this later page here.", "2"], 2),
+          page(["Appendix body text sits on this final page here.", "2"], 3),
+        ],
+      ],
+      { title: "Restarting pagination" }
+    );
+
+    const markers = result.markdown.match(/%%page[^%]*%%/g) ?? [];
+    expect(markers).toEqual(["%%page 2%%", "%%page 2#2%%", "%%page 2#3%%"]);
+  });
+
+  it("leaves a report whose numbers never repeat untouched", () => {
+    const result = ingestPageGroups(
+      [
+        [
+          page(["Body text sits on this page right here.", "7"], 1),
+          page(["Body text sits on this other page here.", "8"], 2),
+        ],
+      ],
+      { title: "Ordinary pagination" }
+    );
+    expect(result.markdown).toContain("%%page 7%%");
+    expect(result.markdown).not.toContain("#");
+  });
+});

@@ -14,7 +14,20 @@ export type Block = (
   | { kind: "heading"; level: number; text: string }
   | { kind: "quote"; text: string }
   | { kind: "contents"; text: string; page: string }
-  | { kind: "page"; number: number }
+  | {
+      kind: "page";
+      number: number;
+      /**
+       * Which time this printed number has been seen. Absent for the first.
+       *
+       * These documents restart their pagination — front matter, then the
+       * body, then appendices — so a printed number is not unique within one
+       * report. Jack Smith prints "2" on three different pages. Without this
+       * they all render `id="page-2"`, and `#page-2` silently resolves to the
+       * first: not a broken citation, a quietly wrong one.
+       */
+      occurrence?: number;
+    }
 ) & { at?: Provenance };
 
 const HEADING_MAX_WORDS = 14;
@@ -579,7 +592,11 @@ export function blocksToMarkdown(blocks: Block[]): string {
       // Em dash rather than a full stop: the inline-marker pass keys off
       // sentence punctuation, and a contents page number is not a footnote.
       if (block.kind === "contents") return `- ${block.text} — ${block.page}`;
-      if (block.kind === "page") return `%%page ${block.number}%%`;
+      if (block.kind === "page") {
+        return block.occurrence
+          ? `%%page ${block.number}#${block.occurrence}%%`
+          : `%%page ${block.number}%%`;
+      }
       if (block.kind === "list") {
         const prefix = block.quoted ? "> - " : "- ";
         return block.items.map((item) => `${prefix}${item}`).join("\n");

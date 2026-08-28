@@ -115,6 +115,17 @@ export function ingestPageGroups(
     }
   }
 
+  // A printed number that appears more than once in a report needs telling
+  // apart, or every occurrence renders the same anchor and a citation to the
+  // second silently lands on the first.
+  const seenPage = new Map<number, number>();
+  for (const block of bodyChunks) {
+    if (block.kind !== "page") continue;
+    const count = (seenPage.get(block.number) ?? 0) + 1;
+    seenPage.set(block.number, count);
+    if (count > 1) block.occurrence = count;
+  }
+
   // Corrections are the last word on the text: applied after the structure is
   // settled, before it is serialised, so re-running reproduces the same output.
   const corrected = applyCorrections(

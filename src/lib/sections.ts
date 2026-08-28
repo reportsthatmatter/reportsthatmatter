@@ -55,7 +55,7 @@ export function splitSections(html: string, minChars = MIN_SECTION_CHARS): Secti
       slug,
       title,
       html: part,
-      page: part.match(/id="page-(\d+)"/)?.[1],
+      page: part.match(/id="page-(\d+)(?:-\d+)?"/)?.[1],
       level: heading ? (Number(heading[1]) as 2 | 3) : 2,
     });
   }

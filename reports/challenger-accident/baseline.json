@@ -1,5 +1,5 @@
 {
-  "markdownSha": "ba7242cfd311617e70e0c4f8921ec59359033b5392c068ab8096041d39e7fb6e",
+  "markdownSha": "6641440c2639f380949812afe56bc514ddc1715fe30e59f8a99d601f40031ee2",
   "words": 152260,
   "blocks": {
     "heading": 245,
@@ -255,6 +255,6 @@
     "Notes"
   ],
   "footnotes": 89,
-  "pageMarkers": 360,
+  "pageMarkers": 344,
   "poppler": "unknown"
 }
