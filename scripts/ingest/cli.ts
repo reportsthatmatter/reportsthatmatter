@@ -18,18 +18,25 @@
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
-import { ingestPageGroups, type IngestResult } from "./pipeline";
-import { checkVolume, resolveVolume } from "./volumes";
-import { resolvePasses, type PipelineDef } from "./define";
-import { computeBaseline, diffBaselines, type Baseline } from "./baseline";
-import { popplerVersion, popplerWarning } from "./poppler";
 import {
-  parseCorrections,
+  Baseline,
+  Correction,
+  IngestResult,
+  Page,
+  PipelineDef,
+  checkVolume,
+  computeBaseline,
   correctionVocabulary,
-  type Correction,
-} from "./corrections";
-import { runChecks } from "./fidelity";
-import { extractPages, type Page } from "./extract";
+  diffBaselines,
+  extractPages,
+  ingestPageGroups,
+  parseCorrections,
+  popplerVersion,
+  popplerWarning,
+  resolvePasses,
+  resolveVolume,
+  runChecks,
+} from "@rtm/ingest";
 
 const ROOT = join(import.meta.dirname, "../..");
 const REPORTS = join(ROOT, "reports");

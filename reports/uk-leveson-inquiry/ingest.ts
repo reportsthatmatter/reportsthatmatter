@@ -1,4 +1,4 @@
-import { pipeline, geometry, runningFurniture } from "../../scripts/ingest";
+import { pipeline, geometry, runningFurniture } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
