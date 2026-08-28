@@ -51,3 +51,40 @@ describe("parseRecipe", () => {
     );
   });
 });
+
+import { mkdtempSync, mkdirSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { checkVolume, fileChecksum } from "../scripts/ingest/recipe";
+
+describe("checkVolume", () => {
+  const root = mkdtempSync(join(tmpdir(), "rtm-recipe-"));
+  mkdirSync(join(root, "repo/archive"), { recursive: true });
+  writeFileSync(join(root, "repo/archive/a.pdf"), "hello");
+  const sha = fileChecksum(join(root, "repo/archive/a.pdf"));
+
+  const recipe = parseRecipe(
+    `id: x\ntitle: X\nrepo: repo\nvolumes:\n  - path: archive/a.pdf\n    sha256: ${sha}\n`,
+    "x"
+  );
+
+  it("matches a correct checksum", () => {
+    expect(checkVolume(recipe, recipe.volumes[0], root).matched).toBe(true);
+  });
+
+  it("reports a mismatch rather than throwing", () => {
+    const wrong = parseRecipe(
+      "id: x\ntitle: X\nrepo: repo\nvolumes:\n  - path: archive/a.pdf\n    sha256: deadbeef\n",
+      "x"
+    );
+    expect(checkVolume(wrong, wrong.volumes[0], root).matched).toBe(false);
+  });
+
+  it("returns null when the recipe records no checksum", () => {
+    const none = parseRecipe(
+      "id: x\ntitle: X\nrepo: repo\nvolumes:\n  - path: archive/a.pdf\n",
+      "x"
+    );
+    expect(checkVolume(none, none.volumes[0], root).matched).toBeNull();
+  });
+});
