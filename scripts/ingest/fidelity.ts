@@ -122,7 +122,23 @@ export function retentionCheck(sourceText: string, markdown: string): Check {
   };
 }
 
+/**
+ * Layers 1-3 together.
+ *
+ * `sourceText` must be the text extracted from the source PDF. Passing the
+ * markdown itself makes layers 2 and 3 tautologies that report 100% for any
+ * input — which is exactly what `ingest verify` silently did for every report
+ * until #118, because no report had a `source.pdf` to compare against.
+ */
 export function runChecks(sourceText: string, markdown: string): Check[] {
+  if (sourceText === markdown) {
+    throw new Error(
+      "runChecks was asked to check a document against itself: with the " +
+        "markdown as its own source, layers 2 and 3 are tautologies that " +
+        "report 100% for any input. Pass the text extracted from the source " +
+        "PDF, or call structuralChecks() and say that is all you are checking."
+    );
+  }
   return [
     ...structuralChecks(markdown),
     losslessCheck(sourceText, markdown),

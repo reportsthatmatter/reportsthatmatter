@@ -12,7 +12,12 @@ import {
   renderEndnotes,
 } from "../scripts/ingest/footnotes";
 import { autoFix, findSuspects } from "../scripts/ingest/ocr";
-import { structuralChecks, losslessCheck, retentionCheck } from "../scripts/ingest/fidelity";
+import {
+  structuralChecks,
+  losslessCheck,
+  retentionCheck,
+  runChecks,
+} from "../scripts/ingest/fidelity";
 import { ingestPageGroups } from "../scripts/ingest/pipeline";
 
 const page = (lines: string[], index = 1) => ({ index, lines });
@@ -330,6 +335,14 @@ describe("ocr", () => {
 });
 
 describe("fidelity", () => {
+  it("refuses to check a document against itself", () => {
+    // Comparing markdown to itself makes the lossless and retention checks
+    // tautologies that report 100% for any input. Every report did this
+    // until #118, because none had a source PDF to compare against.
+    const markdown = "---\ntitle: x\n---\n\nSome body text.\n";
+    expect(() => runChecks(markdown, markdown)).toThrow(/against itself/i);
+  });
+
   it("flags a stranded page number", () => {
     const checks = structuralChecks("Body.\n\n22\n\nMore.");
     expect(checks.find((c) => c.name === "no bare page-number lines")?.ok).toBe(false);

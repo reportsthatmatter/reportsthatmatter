@@ -143,27 +143,48 @@ function runVerify(argv: string[]): number {
   for (const target of targets) {
     if (!target.ingested) {
       console.log(`\n${target.id}`);
-      console.log("  [33m–[0m not produced by the pipeline; fidelity gate skipped");
+      console.log("  \x1b[33m–\x1b[0m not produced by the pipeline; fidelity gate skipped");
       continue;
     }
-    const pdf = join(REPORTS, target.id, "source.pdf");
+
     const markdownPath = join(ROOT, target.sourcePath);
     if (!existsSync(markdownPath)) {
       console.error(`missing markdown: ${target.sourcePath}`);
       allOk = false;
       continue;
     }
-    if (!existsSync(pdf)) {
-      // Nothing to compare against; structural checks still apply.
-      const markdown = readFileSync(markdownPath, "utf8");
-      allOk = reportChecks(target.id, runChecks(markdown, markdown)) && allOk;
+    const markdown = readFileSync(markdownPath, "utf8");
+
+    // Without a recipe there is no way to find the source, and comparing the
+    // markdown against itself would report a meaningless 100%.
+    const recipePath = join(REPORTS, target.id, "ingest.yaml");
+    if (!existsSync(recipePath)) {
+      console.log(`\n${target.id}`);
+      console.error("  \x1b[31m✗\x1b[0m no ingest.yaml — cannot verify against the source");
+      allOk = false;
       continue;
     }
 
-    const sourceText = extractPages(pdf)
-      .map((page) => page.lines.join("\n"))
+    const recipe = parseRecipe(readFileSync(recipePath, "utf8"), target.id);
+    const missing = recipe.volumes
+      .map((volume) => resolveVolume(recipe, volume, ROOT))
+      .filter((path) => !existsSync(path));
+    if (missing.length) {
+      console.log(`\n${target.id}`);
+      console.error(`  \x1b[31m✗\x1b[0m source unavailable: ${missing[0]}`);
+      console.error(`      clone ${recipe.repo} alongside this repo, then re-run`);
+      allOk = false;
+      continue;
+    }
+
+    const sourceText = recipe.volumes
+      .map((volume) =>
+        extractPages(resolveVolume(recipe, volume, ROOT))
+          .map((page) => page.lines.join("\n"))
+          .join("\n")
+      )
       .join("\n");
-    const markdown = readFileSync(markdownPath, "utf8");
+
     allOk = reportChecks(target.id, runChecks(sourceText, markdown)) && allOk;
   }
 
