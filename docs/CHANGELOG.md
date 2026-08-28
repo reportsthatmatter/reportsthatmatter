@@ -7,6 +7,28 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-28 — Thirty half-sentence headings gone, and citations that had quietly collided
+
+The Wall Street report's contents page listed thirty headings that stopped
+mid-sentence — "Safeguard Against High Risk Products. Federal banking
+regulators should" — each one a numbered recommendation whose second half had
+been stranded in a separate block. They now read as the recommendations they
+always were, and five section pages that existed only because of them are
+gone.
+
+Separately, a printed page number is not unique inside these reports: the
+Jack Smith report prints "2" on three different pages, the Challenger report
+collides sixteen times. Every occurrence carried the same link target, so a
+citation to the second page silently landed on the first. Each occurrence now
+has its own; links that already worked are unchanged.
+
+Behind both: every report now records how it was built — which PDFs, in what
+order — and the pipeline checks its output against the original scans rather
+than, as it had been doing, against itself.
+
+---
+
+
 ## 2026-08-28 — Leveson reads across the page as it does in print
 
 Several passages in the Leveson Inquiry were broken at a page edge: running

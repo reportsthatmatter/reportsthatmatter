@@ -4,7 +4,7 @@ Triage on top of [issue #77](https://github.com/reportsthatmatter/reportsthatmat
 (the full map). This file is what's next and where it's tracked — the linked
 issue holds the detail. Shipped work is closed on GitHub, not listed here; see
 `docs/PROGRESS.md` for the session-by-session account and `docs/CHANGELOG.md`
-for what shipped. Updated 2026-08-23.
+for what shipped. Updated 2026-08-28.
 
 **Read [`AGENTS.md`](AGENTS.md) first**, then `./scripts/init.sh`. The done
 condition is `./scripts/verify.sh`; after deploying,
@@ -25,9 +25,9 @@ condition is `./scripts/verify.sh`; after deploying,
 | [#103](https://github.com/reportsthatmatter/reportsthatmatter/issues/103) | No-space footnote markers (Litvinenko) |
 | [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | Ingestion odds and ends |
 | [#114](https://github.com/reportsthatmatter/reportsthatmatter/issues/114) | Spike: remark vs markdown-it — pair with #102–#104 |
-| [#120](https://github.com/reportsthatmatter/reportsthatmatter/issues/120) | A docket row becomes a division heading — blocks republishing jack-smith and challenger |
-| [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture. Plan A1 landed; A2 (provenance, core library) to write |
-| [#106](https://github.com/reportsthatmatter/reportsthatmatter/issues/106) | `corrections.yaml` — unblocks #105. Subsumed by #118, now stage 5 |
+| [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture. **A1 and A2 landed.** Remaining: [Plan B stage 4](docs/plans/2026-08-28-ingestion-plan-b-stage-4.md) — move each report's authority into its own repo. One decision open: how a report repo imports the library |
+| [#120](https://github.com/reportsthatmatter/reportsthatmatter/issues/120) | A docket row becomes a division heading. Needs table detection, so it pairs with #101 |
+| [#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105) | The OCR review queues now have somewhere to land (#106 shipped). What is missing is the workflow over them |
 | [#110](https://github.com/reportsthatmatter/reportsthatmatter/issues/110) · [#111](https://github.com/reportsthatmatter/reportsthatmatter/issues/111) · [#112](https://github.com/reportsthatmatter/reportsthatmatter/issues/112) | UX odds and ends |
 | [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | Accessible link colour |
 | [#117](https://github.com/reportsthatmatter/reportsthatmatter/issues/117) | Pin `poppler`/`pdftotext` |
