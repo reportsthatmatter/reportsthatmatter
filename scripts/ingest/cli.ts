@@ -22,7 +22,7 @@ import { ingestPageGroups, type IngestResult } from "./pipeline";
 import { checkVolume, resolveVolume } from "./volumes";
 import { resolvePasses, type PipelineDef } from "./define";
 import { computeBaseline, diffBaselines, type Baseline } from "./baseline";
-import { execFileSync } from "node:child_process";
+import { popplerVersion, popplerWarning } from "./poppler";
 import { runChecks } from "./fidelity";
 import { extractPages, type Page } from "./extract";
 
@@ -217,14 +217,6 @@ async function runVerify(argv: string[]): Promise<number> {
   return allOk ? 0 : 1;
 }
 
-function popplerVersion(): string {
-  const out = execFileSync("pdftotext", ["-v"], {
-    encoding: "utf8",
-    stdio: ["ignore", "pipe", "pipe"],
-  });
-  return /pdftotext version (\S+)/.exec(out)?.[1] ?? "unknown";
-}
-
 /** Regenerates a report from its definition, in memory, writing nothing. */
 async function regenerate(id: string): Promise<IngestResult> {
   const def = await loadDefinition(id);
@@ -297,6 +289,9 @@ async function runCheck(argv: string[]): Promise<number> {
   }
   return ok ? 0 : 1;
 }
+
+const warning = popplerWarning();
+if (warning) console.warn(`\x1b[33m!\x1b[0m ${warning}`);
 
 const [command, ...rest] = process.argv.slice(2);
 let code = 0;

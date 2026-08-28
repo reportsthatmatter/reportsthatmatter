@@ -19,9 +19,20 @@ if ! command -v pnpm >/dev/null 2>&1; then
   npm i -g pnpm >/dev/null 2>&1 || echo "  (global install failed; use 'npx pnpm')"
 fi
 pnpm --version
-command -v pdftotext >/dev/null 2>&1 \
-  && echo "pdftotext: $(command -v pdftotext)" \
-  || echo "pdftotext: MISSING — the ingestion pipeline needs poppler"
+# poppler drifts, and its output feeds every committed baseline. A routine
+# `brew upgrade` before a re-ingest is a real risk to citation stability (#117).
+EXPECTED_POPPLER=$(sed -n 's/^export const EXPECTED_POPPLER = "\(.*\)";$/\1/p' scripts/ingest/poppler.ts)
+if command -v pdftotext >/dev/null 2>&1; then
+  found=$(pdftotext -v 2>&1 | sed -n 's/^pdftotext version \(.*\)$/\1/p')
+  if [ "$found" = "$EXPECTED_POPPLER" ]; then
+    echo "pdftotext: $found (pinned)"
+  else
+    printf 'pdftotext: \033[33m%s, expected %s\033[0m — diffs may be tool drift, not code (#117)\n' \
+      "$found" "$EXPECTED_POPPLER"
+  fi
+else
+  echo "pdftotext: MISSING — the ingestion pipeline needs poppler"
+fi
 
 step "Dependencies"
 pnpm install
