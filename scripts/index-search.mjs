@@ -54,13 +54,28 @@ for (const report of registry.reports) {
     }
   }
 
-  const BATCH = 25; // D1/SQLite rejects a too-long statement; some passages run long.
-  for (let i = 0; i < rows.length; i += BATCH) {
-    const batch = rows.slice(i, i + BATCH);
+  // Batch by size, not by row count. D1 rejects a statement past its limit,
+  // and passage length varies enormously — a single Leveson appendix row runs
+  // to 48 KB, so a fixed 25 rows was 185 KB on some batches and failed once
+  // the corpus grew. A byte budget cannot be outgrown the same way.
+  const MAX_STATEMENT = 60_000;
+  let batch = [];
+  let size = 0;
+  const flush = () => {
+    if (!batch.length) return;
     statements.push(
       `INSERT INTO passages (report, section, paragraph_id, page, body) VALUES\n${batch.join(",\n")};`
     );
+    batch = [];
+    size = 0;
+  };
+  for (const row of rows) {
+    // A row larger than the budget on its own still has to go out alone.
+    if (batch.length && size + row.length > MAX_STATEMENT) flush();
+    batch.push(row);
+    size += row.length + 2;
   }
+  flush();
 
   statements.push(
     `INSERT INTO search_index_versions (report, content_version, indexed_at) VALUES (${sqlString(report.id)}, ${sqlString(contentVersion)}, ${Date.now()});`
