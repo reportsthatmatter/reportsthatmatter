@@ -671,6 +671,122 @@ describe("headings that wrap", () => {
   });
 });
 
+describe("division headings (Part / Chapter / Appendix)", () => {
+  // The Litvinenko Inquiry sets its top-level divisions as "Part 4:", its
+  // subsections as "Chapter 1:", and its appendices as "Appendix 3:". The
+  // single-letter marker regex does not cover a label that carries its own
+  // number, so before this these lines shipped as plain paragraphs and the
+  // contents page had no real structure to list — it filled instead with
+  // sentence fragments promoted by mistake.
+  it("reads 'Part N:' as a top-level heading", () => {
+    const blocks = toBlocks(["Part 7:          The closed evidence"], 0);
+    expect(blocks[0]).toEqual({
+      kind: "heading",
+      level: 2,
+      text: "Part 7: The closed evidence",
+    });
+  });
+
+  it("reads 'Appendix N:' as a top-level heading", () => {
+    const blocks = toBlocks(["Appendix 3:                List of Issues"], 0);
+    expect(blocks[0]).toEqual({
+      kind: "heading",
+      level: 2,
+      text: "Appendix 3: List of Issues",
+    });
+  });
+
+  it("reads 'Chapter N:' as a subsection heading", () => {
+    const blocks = toBlocks(["Chapter 1:             Introduction"], 0);
+    expect(blocks[0]).toEqual({
+      kind: "heading",
+      level: 3,
+      text: "Chapter 1: Introduction",
+    });
+  });
+
+  it("absorbs a division title that wraps onto aligned continuation lines", () => {
+    const blocks = toBlocks(
+      [
+        "Part 6:             The polonium trail – events in",
+        "                    October and November 2006",
+        "Chapter 1:              Introduction",
+      ],
+      0
+    );
+    expect(blocks[0]).toEqual({
+      kind: "heading",
+      level: 2,
+      text: "Part 6: The polonium trail – events in October and November 2006",
+    });
+    expect(blocks[1]).toMatchObject({ kind: "heading", level: 3 });
+  });
+
+  it("flushes so the numbered paragraph after a division heading stands alone", () => {
+    const blocks = toBlocks(
+      [
+        "Part 7:          The closed evidence",
+        "7.1 As I have explained elsewhere in this Report, in conducting",
+        "this Inquiry I have received and considered evidence.",
+      ],
+      0
+    );
+    expect(blocks[0]).toMatchObject({ kind: "heading", level: 2 });
+    expect(blocks[1]).toEqual({
+      kind: "paragraph",
+      text: "7.1 As I have explained elsewhere in this Report, in conducting this Inquiry I have received and considered evidence.",
+    });
+  });
+
+  it("does not read a sentence that merely opens with 'Part 5' as a heading", () => {
+    const blocks = toBlocks(
+      ["Part 5 above sets out the evidence relating to the polonium trail."],
+      0
+    );
+    expect(blocks[0].kind).toBe("paragraph");
+  });
+});
+
+describe("headings that are really prose or page furniture", () => {
+  it("does not promote a numbered narrative sentence to a heading", () => {
+    // Appendix 1 of the Litvinenko Inquiry is a numbered list of paragraphs.
+    // The wrapped first line of one is proper-noun dense enough to clear the
+    // title-case bar, and — being a fragment — does not end on a full stop,
+    // so the full-stop guard misses it too.
+    const blocks = toBlocks(
+      [
+        "1.   On 23 November 2006, Alexander Litvinenko died at University",
+        "     College Hospital in central London.",
+      ],
+      0
+    );
+    expect(blocks.some((b) => b.kind === "heading")).toBe(false);
+  });
+
+  it("does not read an aircraft registration on its own line as a heading", () => {
+    // "(aircraft\nG-BNWX)" in the chronology table — the closing fragment
+    // lands on its own line and is all-caps but for the hyphen and paren.
+    const blocks = toBlocks(
+      ["            on BA flight 875 from Moscow (aircraft", "            G-BNWX)"],
+      0
+    );
+    expect(blocks.some((b) => b.kind === "heading")).toBe(false);
+  });
+
+  it("does not read a bare short acronym on its own line as a heading", () => {
+    const blocks = toBlocks(
+      ["RISC", "4.108 RISC Management Limited was a private security company."],
+      0
+    );
+    expect(blocks.some((b) => b.kind === "heading")).toBe(false);
+  });
+
+  it("still reads a one-word all-caps section title as a heading", () => {
+    const blocks = toBlocks(["INTRODUCTION"], 0);
+    expect(blocks[0]).toMatchObject({ kind: "heading", level: 2 });
+  });
+});
+
 
 describe("bulleted lists (issue #12)", () => {
   // Chilcot, Executive Summary ¶620 — the layout from the issue, as

@@ -95,17 +95,49 @@ export function paragraphIndex(sections: Section[]): Record<string, string> {
  * Folds a too-short part into the one before it, so the contents lists sections
  * a reader would recognise as sections. The heading survives in the body, so
  * nothing is hidden — it just stops being a page of its own.
+ *
+ * One exception: a numbered-division heading with no body of its own — an
+ * inquiry's "Part 4:" divider, which is followed straight away by its first
+ * chapter — must not fold *backwards* into the part before it, or the
+ * contents page loses the part entirely and lists its chapters with nothing
+ * above them. It folds forwards instead, onto its own chapters, and heads
+ * that section.
  */
+const DIVISION_HEADING =
+  /^<h2\b[^>]*>(?:<[^>]+>)*\s*(?:Part|Appendix|Annex|Volume)\s+(?:\d|[IVXLC])/i;
 function mergeSlivers(parts: string[], minChars: number): string[] {
   const merged: string[] = [];
+  // A pending top-level divider, accumulating its chapters until it is a
+  // section a reader would recognise as one.
+  let divider = "";
 
   for (const part of parts) {
     if (!part.trim()) continue;
+
+    if (divider) {
+      divider += part;
+      if (textLength(divider) >= minChars) {
+        merged.push(divider);
+        divider = "";
+      }
+      continue;
+    }
+
+    if (DIVISION_HEADING.test(part) && textLength(part) < minChars) {
+      divider = part;
+      continue;
+    }
+
     if (merged.length && textLength(part) < minChars) {
       merged[merged.length - 1] += part;
       continue;
     }
     merged.push(part);
+  }
+
+  if (divider) {
+    if (merged.length) merged[merged.length - 1] += divider;
+    else merged.push(divider);
   }
 
   // A leading sliver has nothing before it to fold into; fold it forward.

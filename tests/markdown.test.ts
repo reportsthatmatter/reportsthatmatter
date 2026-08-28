@@ -237,6 +237,23 @@ describe("splitSections", () => {
     expect(sections[0].html).toContain("SENATOR CARL LEVIN");
   });
 
+  it("keeps a bodyless part divider in the contents, ahead of its chapters", async () => {
+    const { splitSections } = await import("../src/lib/sections");
+    const long = "word ".repeat(800);
+    const html = renderMarkdown(
+      `## Part 2: Introduction\n\n${long}\n\n## Part 3: His Life\n\n### Chapter 1: In Russia\n\n${long}\n\n### Chapter 2: Leaving Russia\n\n${long}`
+    );
+    const sections = splitSections(html);
+    // "Part 3: His Life" has no body of its own, but it must still head a
+    // section — not vanish into "Part 2" — so the contents can list it.
+    expect(sections.map((s) => [s.title, s.level])).toEqual([
+      ["Part 2: Introduction", 2],
+      ["Part 3: His Life", 2],
+      ["Chapter 2: Leaving Russia", 3],
+    ]);
+    expect(sections[1].html).toContain("Chapter 1: In Russia");
+  });
+
   it("finds which section holds a paragraph", async () => {
     const { splitSections, sectionFor } = await import("../src/lib/sections");
     const html = renderMarkdown("## One\n\nAlpha text here.\n\n## Two\n\nBeta text here.");

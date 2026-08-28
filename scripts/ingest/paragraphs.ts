@@ -101,6 +101,35 @@ const DANGLING =
   /\b(of|the|a|an|in|to|for|and|or|with|by|from|that|was|is|are|were|on|at|as|its|their|his|her)$/i;
 
 /**
+ * Words that carry no case information of their own, so their being lower-case
+ * in a title says nothing. Anything *else* lower-case in a would-be title is a
+ * verb or a common noun — i.e. the line is a sentence, not a title.
+ */
+const STOPWORD =
+  /^(of|the|a|an|in|to|for|and|or|nor|with|by|from|that|as|at|on|is|was|were|are|be|been|its?|it|their|his|her|our|my|your|has|have|had|but|not|no|than|then|so|if|when|which|who|whom|whose|into|upon|per|via)$/i;
+
+/**
+ * An inquiry report's top-level divisions carry their own number in the label
+ * — "Part 4:", "Chapter 1:", "Appendix 3:" — which the single-letter marker
+ * regex in `isHeading` does not cover. `Part`, `Appendix`, `Annex` and `Volume`
+ * are top level (h2); `Chapter` and `Section` nest under them (h3).
+ */
+const DIVISION_LABEL = /^(Part|Chapter|Appendix|Annex|Volume|Section)\s+(\d{1,3}|[IVXLC]{1,7})\b/;
+const DIVISION_TOP = /^(Part|Appendix|Annex|Volume)$/;
+
+/** A heading this pipeline emitted for a numbered division, by its text. */
+export function isDivisionHeading(text: string): boolean {
+  return /^(Part|Chapter|Appendix|Annex|Volume|Section) (?:\d{1,3}|[IVXLC]{1,7}):/.test(
+    text
+  );
+}
+
+/** "7.1", "10.14" — the paragraph numbering these reports run throughout. */
+function opensNumberedParagraph(text: string): boolean {
+  return /^\d{1,3}[.)]\d{0,3}\s/.test(text.trim());
+}
+
+/**
  * Titles are set in caps or title case; running prose is not. Used to tell a
  * numbered heading from a numbered sentence.
  */
@@ -149,6 +178,23 @@ function isHeading(text: string): { level: number; text: string } | null {
   // "…should be rede-" is a line break inside a word, never a finished title.
   if (/[-­‐]$/.test(body)) return null;
 
+  // "Part 4:  Why would anyone wish to kill" — a division that names its own
+  // number. The title may wrap onto the next line (rejoined in `toBlocks`),
+  // and a line that merely opens "Part 5 above…" is prose, not a division, so
+  // the tail after the number has to read like a title: begin with a capital
+  // or a quote and not trail off on a comma or full stop.
+  const division = body.match(DIVISION_LABEL);
+  if (division) {
+    const rest = body.slice(division[0].length).replace(/^:\s*/, "").trim();
+    if (rest && /^["'(A-Z0-9]/.test(rest) && !/[.,;]$/.test(rest)) {
+      const label = `${division[1]} ${division[2]}`;
+      return {
+        level: DIVISION_TOP.test(division[1]) ? 2 : 3,
+        text: `${label}: ${rest}`,
+      };
+    }
+  }
+
   // "I. THE RESULTS OF THE INVESTIGATION" — roman numeral sections.
   // "A. Mr. Trump's Pressure on State Officials" — lettered subsections.
   const numbered = body.match(/^([IVXLC]{1,6}|[A-Z]|\d{1,2})\.\s+(.+)$/);
@@ -157,8 +203,19 @@ function isHeading(text: string): { level: number; text: string } | null {
     // A numbered *sentence* is a list item, not a heading. Reports set their
     // recommendations this way — "1. NASA should closely scrutinize each of the
     // concerns raised by …" — and reading them as structure fills the contents
-    // with half-sentences.
-    if (/^[A-Z]/.test(title) && !/\.$/.test(title) && isTitular(title)) {
+    // with half-sentences. A wrapped narrative fragment ("On 23 November 2006,
+    // Alexander Litvinenko died at University") clears the title-case bar on
+    // its proper nouns alone and does not end on a full stop, so the tell is a
+    // lower-case content word left once the stop-words are removed.
+    const proseWord = title
+      .split(/\s+/)
+      .some((w) => /^[a-z]/.test(w) && /[a-z]/.test(w) && !STOPWORD.test(w));
+    if (
+      /^[A-Z]/.test(title) &&
+      !/[.?!]$/.test(title) &&
+      isTitular(title) &&
+      !proseWord
+    ) {
       // "C." and "D." are both letters and Roman numerals, so the marker
       // cannot tell us the level. In these reports the top-level sections are
       // set in caps and the subsections in title case, which can.
@@ -178,7 +235,12 @@ function isHeading(text: string): { level: number; text: string } | null {
     !/[$%]/.test(body) &&
     !/\d{3}/.test(body) &&
     (body.match(/,/g) ?? []).length < 2 &&
-    letters.length / body.length > 0.6
+    letters.length / body.length > 0.6 &&
+    // A single token in caps is an acronym on its own line ("RISC", "G-BNWX)"),
+    // not a section title — real ones run to at least two words, or are a
+    // single long word ("INTRODUCTION"). An embedded digit or hyphen is the
+    // giveaway of a code, not a word.
+    (/\s/.test(body) ? true : letters.length >= 5 && !/[-\d]/.test(body))
   ) {
     return { level: 2, text: body };
   }
@@ -228,6 +290,13 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
   let current: string[] = [];
   let currentKind: "paragraph" | "quote" = "paragraph";
 
+  // The column a division heading's title starts at, while its title may still
+  // be wrapping onto aligned continuation lines below it. -1 once the title is
+  // complete (a blank line, a nested heading, or the first paragraph).
+  let openDivisionIndent = -1;
+  const DIVISION_LINE =
+    /^(\s*)(?:Part|Chapter|Appendix|Annex|Volume|Section)\s+(?:\d{1,3}|[IVXLC]{1,7}):?\s+/;
+
   // An open list, and the column its items' text starts at. A line indented to
   // that column is the wrapped tail of the item above it, not a new block —
   // getting this wrong is what put text out of order (issue #12).
@@ -274,6 +343,7 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
   for (const [i, line] of lines.entries()) {
     if (!line.trim()) {
       flush();
+      openDivisionIndent = -1;
       // A blank line does not end a list: these documents routinely set one
       // between bullets.
       continue;
@@ -282,6 +352,7 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
     const bullet = inBulletRun[i] ? line.match(BULLET) : null;
     if (bullet) {
       flush();
+      openDivisionIndent = -1;
       listTextIndent = line.length - bullet[3].length;
       if (!list) {
         list = [];
@@ -318,6 +389,7 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
     );
     if (contents && contents[1].trim()) {
       flush();
+      openDivisionIndent = -1;
       blocks.push({
         kind: "contents",
         text: normaliseWhitespace(contents[1]).replace(/[.·\s]+$/, "").trim(),
@@ -341,9 +413,30 @@ export function toBlocks(lines: string[], documentMargin?: number): Block[] {
       continue;
     }
 
+    // A division title ("Part 6:  The polonium trail – events in") that runs
+    // past one line continues on lines aligned under it. The tail is ordinary
+    // title-case text — neither all-caps nor numbered — so it is not caught as
+    // a heading of its own; fold it back in until the title is complete.
+    if (
+      !current.length &&
+      openDivisionIndent >= 0 &&
+      openHeading?.kind === "heading" &&
+      isDivisionHeading(openHeading.text) &&
+      !structural[i] &&
+      !opensNumberedParagraph(single) &&
+      indentOf(line) >= openDivisionIndent - 2
+    ) {
+      openHeading.text = `${openHeading.text} ${single}`;
+      continue;
+    }
+    openDivisionIndent = -1;
+
     const standalone = isHeading(single);
     if (standalone) {
       flush();
+      if (isDivisionHeading(standalone.text)) {
+        openDivisionIndent = line.match(DIVISION_LINE)?.[0].length ?? indentOf(line);
+      }
       const previous = blocks[blocks.length - 1];
       // A heading too long for one line continues on the next, where it is
       // detected as a second heading. Rejoin them rather than shipping a title

@@ -7,6 +7,23 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-28 — The Litvinenko Inquiry gets its real contents page
+
+The Litvinenko report's table of contents was listing sentence fragments —
+"On 23 November 2006, Alexander Litvinenko died at…", "G-BNWB)", "RESTRICTION
+ORDER" — because the ingest pipeline recognised `A.` and `I.` section markers
+but not a label that carries its own number, so every `Part` and `Appendix`
+heading was read as ordinary text while stray all-caps lines and numbered
+narrative sentences were promoted in their place. The pipeline now reads
+`Part N` / `Chapter N` / `Appendix N` headings (titles that wrap included),
+ignores a lone acronym or an aircraft registration on its own line, and keeps
+a numbered narrative sentence out of the heading structure. The contents page
+now shows Parts 1–10 with their chapters and all twelve appendices. Part 5's
+divider page has no text in the scan, so it is still absent and its chapters
+sit under Part 4.
+
+---
+
 ## 2026-08-22 — A fifth report: Leveson on the press
 
 **Added:** *An Inquiry into the Culture, Practices and Ethics of the Press* —
