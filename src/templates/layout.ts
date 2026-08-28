@@ -11,7 +11,9 @@ export function escapeHtml(value: string): string {
 const DEFAULT_NAV: NavLink[] = [
   { label: "Reports", href: "/reports" },
   { label: "Search", href: "/search" },
+  { label: "Highlights", href: "/highlights" },
   { label: "About", href: "/about" },
+  { label: "Changelog", href: "/changelog" },
 ];
 
 type LayoutOptions = {
@@ -74,14 +76,17 @@ ${structuredData ? `<script type="application/ld+json">${structuredData}</script
 </header>
 ${body}
 <footer class="site-footer wrap mono">
-  <p>A public-interest project making official reports readable, linkable, and citable on the web.</p>
-  <nav>
-    <a href="/reports">Reports</a>
-    <a href="/search">Search</a>
-    <a href="/highlights">Highlights</a>
-    <a href="/about">About</a>
-    <a href="/changelog">Changelog</a>
-  </nav>
+  <div class="site-footer-top">
+    <p>A public-interest project making official reports readable, linkable, and citable on the web.</p>
+    <nav>
+      <a href="/reports">Reports</a>
+      <a href="/search">Search</a>
+      <a href="/highlights">Highlights</a>
+      <a href="/about">About</a>
+      <a href="/changelog">Changelog</a>
+    </nav>
+  </div>
+  <p class="site-footer-credit">A sensemaking project built with ❤️ by <a href="https://rufuspollock.com">Rufus Pollock</a> and <a href="https://datopian.com">Datopian</a> since 2015.</p>
 </footer>
 ${scripts
   // Modules, so that the browser and the Worker can import one shared anchor
