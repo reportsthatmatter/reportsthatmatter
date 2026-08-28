@@ -25,7 +25,7 @@ condition is `./scripts/verify.sh`; after deploying,
 | [#114](https://github.com/reportsthatmatter/reportsthatmatter/issues/114) | Spike: remark vs markdown-it — pair with #102–#104 |
 | [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture — **built**. The pipeline is [`@rtm/ingest`](https://github.com/reportsthatmatter/ingest); every report owns its build in its own repo. What is left is quality work inside it, not structure |
 | [#121](https://github.com/reportsthatmatter/reportsthatmatter/issues/121) | Footnote numbers are not unique across a report — Leveson restarts per chapter. Blocks further footnote work there, and will recur for Chilcot |
-| [#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105) | The OCR review queues now have somewhere to land (#106 shipped). What is missing is the workflow over them |
+| — | **The OCR review queues are now actionable and largely unread**: 999 open suspects across six reports, 7 reviewed. Working through them is ordinary editorial work, not engineering |
 | [#110](https://github.com/reportsthatmatter/reportsthatmatter/issues/110) · [#111](https://github.com/reportsthatmatter/reportsthatmatter/issues/111) · [#112](https://github.com/reportsthatmatter/reportsthatmatter/issues/112) | UX odds and ends |
 | [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | Accessible link colour |
 | [#117](https://github.com/reportsthatmatter/reportsthatmatter/issues/117) | Pin `poppler`/`pdftotext` |
