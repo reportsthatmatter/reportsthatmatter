@@ -19,3 +19,5 @@ reports:
     dir: ../challenger-accident
   - id: uk-leveson-inquiry
     dir: ../uk-leveson-inquiry
+  - id: columbia-accident
+    dir: ../columbia-accident

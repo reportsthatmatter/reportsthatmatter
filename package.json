@@ -22,7 +22,7 @@
     "wrangler": "^4.58.0"
   },
   "dependencies": {
-    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.2.1",
+    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.4.4",
     "hono": "^4.6.10",
     "markdown-it": "^14.1.0",
     "yaml": "^2.6.1"

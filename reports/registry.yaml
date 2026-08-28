@@ -38,3 +38,11 @@ reports:
     source_path: reports/uk-leveson-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
     ingested: true
+
+  - id: columbia-accident
+    title: "Columbia Accident Investigation Board Report, Volume I"
+    authors: "Columbia Accident Investigation Board"
+    published_at: "August 2003"
+    source_path: reports/columbia-accident/full.md
+    source_url: "https://www.nasa.gov/columbia/home/CAIB_Vol1.html"
+    ingested: true
