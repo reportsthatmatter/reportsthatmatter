@@ -67,6 +67,17 @@ else
   printf '  \033[33m–\033[0m ingestion not yet built; skipping\n'
 fi
 
+step "Ingestion regression"
+# A heuristic change that moves any report's output fails here unless the
+# baseline moves with it. The Leveson fix changed three other reports
+# silently (#118); this is what would have caught it.
+if pnpm ingest check >/tmp/rtm-ingest-check.log 2>&1; then
+  pass "every report matches its baseline"
+else
+  fail "report output moved without a baseline update"
+  tail -30 /tmp/rtm-ingest-check.log
+fi
+
 # ---------- live site checks ----------
 
 if [ -n "${VERIFY_BASE:-}" ]; then

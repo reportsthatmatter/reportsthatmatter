@@ -15,10 +15,12 @@
  * volume, so a fidelity note's "page" never collides between one volume's
  * page 12 and another's.
  */
-import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
+import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { ingestPageGroups, type IngestResult } from "./pipeline";
 import { parseRecipe, checkVolume, resolveVolume } from "./recipe";
+import { computeBaseline, diffBaselines, type Baseline } from "./baseline";
+import { execFileSync } from "node:child_process";
 import { runChecks } from "./fidelity";
 import { extractPages, type Page } from "./extract";
 
@@ -191,10 +193,89 @@ function runVerify(argv: string[]): number {
   return allOk ? 0 : 1;
 }
 
+function popplerVersion(): string {
+  const out = execFileSync("pdftotext", ["-v"], {
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+  return /pdftotext version (\S+)/.exec(out)?.[1] ?? "unknown";
+}
+
+/** Regenerates a report from its recipe, in memory, writing nothing. */
+function regenerate(id: string): IngestResult {
+  const recipe = parseRecipe(readFileSync(join(REPORTS, id, "ingest.yaml"), "utf8"), id);
+  const pageGroups = recipe.volumes.map((volume) =>
+    extractPages(resolveVolume(recipe, volume, ROOT))
+  );
+  return ingestPageGroups(pageGroups, {
+    title: recipe.title,
+    authors: recipe.authors,
+    published_at: recipe.published_at,
+    source_url: recipe.source_url,
+  });
+}
+
+function recipeIds(): string[] {
+  return readdirSync(REPORTS, { withFileTypes: true })
+    .filter(
+      (entry) => entry.isDirectory() && existsSync(join(REPORTS, entry.name, "ingest.yaml"))
+    )
+    .map((entry) => entry.name)
+    .sort();
+}
+
+function runBaseline(argv: string[]): number {
+  const poppler = popplerVersion();
+  for (const id of argv.length ? argv : recipeIds()) {
+    const baseline = computeBaseline(regenerate(id), poppler);
+    writeFileSync(
+      join(REPORTS, id, "baseline.json"),
+      `${JSON.stringify(baseline, null, 2)}\n`,
+      "utf8"
+    );
+    console.log(`  wrote reports/${id}/baseline.json`);
+  }
+  return 0;
+}
+
+function runCheck(argv: string[]): number {
+  const poppler = popplerVersion();
+  let ok = true;
+  for (const id of argv.length ? argv : recipeIds()) {
+    const path = join(REPORTS, id, "baseline.json");
+    if (!existsSync(path)) {
+      console.error(
+        `  \x1b[31m✗\x1b[0m ${id}: no baseline.json — run \`pnpm ingest baseline ${id}\``
+      );
+      ok = false;
+      continue;
+    }
+    const before = JSON.parse(readFileSync(path, "utf8")) as Baseline;
+    const differences = diffBaselines(before, computeBaseline(regenerate(id), poppler));
+    if (!differences.length) {
+      console.log(`  \x1b[32m✓\x1b[0m ${id}`);
+      continue;
+    }
+    ok = false;
+    console.error(`  \x1b[31m✗\x1b[0m ${id} — output moved:`);
+    for (const line of differences) console.error(`      ${line}`);
+  }
+  if (!ok) {
+    console.error(
+      "\nA change that moves a report's output must land with an updated\n" +
+        "baseline in the same commit. Read the diff first, then:\n" +
+        "  pnpm ingest baseline <id>"
+    );
+  }
+  return ok ? 0 : 1;
+}
+
 const [command, ...rest] = process.argv.slice(2);
 let code = 0;
 if (command === "run") code = runIngest(rest);
 else if (command === "verify" || command === undefined) code = runVerify(rest);
+else if (command === "baseline") code = runBaseline(rest);
+else if (command === "check") code = runCheck(rest);
 else {
   console.error(`Unknown command: ${command}`);
   code = 1;
