@@ -4753,9 +4753,7 @@ The Litvinenko Inquiry
 
 > sensitivity of the material will of course mean that they cannot be published in the same way as the other appendices:
 
-a. the closed documents (i.e. the contents of the closed hearing bundles)
-
-b. the closed witness statements c. the transcripts of the closed hearings d. written submissions filed in the course of the closed hearings
+a. the closed documents (i.e. the contents of the closed hearing bundles) b. the closed witness statements c. the transcripts of the closed hearings d. written submissions filed in the course of the closed hearings
 
 %%page 182%%
 
@@ -7555,9 +7553,7 @@ The Litvinenko Inquiry
 
 18 October 2006 About 3.00am. Lugovoy and Kovtun Mascall 11/137
 
-> returned to Parkes Hotel 10.00am. Lugovoy and Kovtun Rondoni 10/193-194 checked out of Parkes Hotel Lugovoy and Kovtun returned from Mascall 9/5-6 London to Moscow on Transaero flight UN444 (aircraft EI-DNM)[^19] October 2006 AL spoke at Frontline Club regarding INQ017734 (page 20)
-
-the death of APol
+> returned to Parkes Hotel 10.00am. Lugovoy and Kovtun Rondoni 10/193-194 checked out of Parkes Hotel Lugovoy and Kovtun returned from Mascall 9/5-6 London to Moscow on Transaero flight UN444 (aircraft EI-DNM)[^19] October 2006 AL spoke at Frontline Club regarding INQ017734 (page 20) the death of APol
 
 %%page 277%%
 
