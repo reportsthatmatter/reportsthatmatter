@@ -22,6 +22,7 @@ import { pathToFileURL } from "node:url";
 import {
   Baseline,
   Correction,
+  Dismissal,
   IngestResult,
   Page,
   PipelineDef,
@@ -32,6 +33,7 @@ import {
   extractPages,
   ingestPageGroups,
   parseCorrections,
+  parseDismissals,
   popplerVersion,
   popplerWarning,
   resolvePasses,
@@ -85,6 +87,13 @@ function runAggregate(): number {
     }
   }
   return 0;
+}
+
+/** The suspects this report's reviewers have judged correct as they stand. */
+function loadDismissals(id: string): Dismissal[] {
+  const path = join(reportDir(id), "corrections.yaml");
+  if (!existsSync(path)) return [];
+  return parseDismissals(readFileSync(path, "utf8"), id);
 }
 
 /** A report's corrections, if it has any. Absent is normal, not an error. */
@@ -168,7 +177,7 @@ async function runIngest(argv: string[]): Promise<number> {
     loadCorrections(id)
   );
 
-  return writeReport(id, def.title, result, loadCorrections(id));
+  return writeReport(id, def.title, result, loadCorrections(id), loadDismissals(id));
 }
 
 /**
@@ -186,16 +195,25 @@ function writeReport(
   id: string,
   title: string,
   result: IngestResult,
-  corrections: Correction[] = []
+  corrections: Correction[] = [],
+  dismissed: Dismissal[] = []
 ): number {
   const dir = reportDir(id);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "full.md"), result.markdown, "utf8");
 
+  // A suspect a reviewer has already judged correct is not a finding. Dropping
+  // it here is what lets the queue shrink as it is worked through, instead of
+  // presenting the same list forever (#105).
+  const judged = new Set(dismissed.map((entry) => entry.match));
+  const open = result.suspects.filter((suspect) => !judged.has(suspect.match));
+
   const suspectReport = [
     `# Fidelity review — ${title}`,
     "",
     `Pages: ${result.pages}  ·  Footnotes: ${result.footnotes.length}  ·  Auto-fixes applied: ${result.autoFixes}  ·  Human corrections: ${result.corrections}`,
+    "",
+    `**${open.length} open**, ${judged.size} reviewed and judged correct.`,
     "",
     "OCR suspects below are a **review queue, not errors**. Whether the text is",
     "faithful to the scan is a human judgement; these are the places most likely",
@@ -204,11 +222,12 @@ function writeReport(
     `When you make one, record it in \`reports/${id}/corrections.yaml\` — never by`,
     "editing `full.md`, which the next ingest overwrites. A correction there is",
     "applied deterministically, survives re-ingestion, and fails the build if it",
-    "ever stops matching.",
+    "ever stops matching. If the scan is right as it stands, say so in the same",
+    "file under `dismissed:` and the entry leaves this queue for good.",
     "",
     "| Confidence | Pattern | Text | Where | Context |",
     "| --- | --- | --- | --- | --- |",
-    ...result.suspects
+    ...open
       .slice(0, 200)
       .map(
         (s) =>
@@ -219,7 +238,9 @@ function writeReport(
 
   console.log(`\nWrote ${join(dir, "full.md")} (${result.markdown.length} chars)`);
   console.log(`Pages: ${result.pages}  Footnotes: ${result.footnotes.length}  Auto-fixes: ${result.autoFixes}`);
-  console.log(`OCR review queue: ${result.suspects.length} entries → ${join(dir, "fidelity.md")}`);
+  console.log(
+    `OCR review queue: ${open.length} open (${judged.size} judged correct) → ${join(dir, "fidelity.md")}`
+  );
 
   const ok = reportChecks(
     "Fidelity checks",
