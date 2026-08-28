@@ -20,12 +20,12 @@ to need one.
 | likely | digit inside a word | `1c` | 61 |  the Subcommittee, Hearing Exhibit 4/13-1c. 117 For more information about the |
 | likely | digit inside a word | `1B` | 78 |  $1B $24B  |
 | likely | digit inside a word | `7th` | 140 | on criteria 1. Effective March 7th 2007, modify the portfolio option ARM a |
-| likely | digit inside a word | `2bln` | 526 |  “We have been asked to do a CDO of $2bln [billion] for the ABS desk. Approx. $1. |
-| likely | digit inside a word | `2bn` | 527 |  “Do we really have scenario risk on $2bn [billion] not’l [notional]? $1.2bn of n |
+| likely | digit inside a word | `2bln` | 525 |  “We have been asked to do a CDO of $2bln [billion] for the ABS desk. Approx. $1. |
+| likely | digit inside a word | `2bn` | 526 |  “Do we really have scenario risk on $2bn [billion] not’l [notional]? $1.2bn of n |
 | likely | digit inside a word | `8a` | 62 | ch – LBMC Review,” Hearing Exhibit 4/13-8a (discussing findings by Fitch, a credit |
 | likely | digit inside a word | `5mm` | 428 |  a $8B ABX AAA short #s. It costs us $5mm/quarter to carry. On the downside, if t |
 | likely | digit inside a word | `3bb` | 443 | he week. The ABS Desk bought $3.3bb of ABX Index across various vintages an |
-| likely | digit inside a word | `2nds` | 491 | Mr. Gasvoda, and others, “2006 Subprime 2nds Deals Continue to Underperform,” GS MBS |
+| likely | digit inside a word | `2nds` | 490 | Mr. Gasvoda, and others, “2006 Subprime 2nds Deals Continue to Underperform,” GS MBS |
 | likely | digit inside a word | `1g` | 38 | smatter.com/money, Hearing Exhibit 4/23-1g. 50 9/10/2007 Transcript of Raymond  |
 | likely | digit inside a word | `1h` | 65 |  the Subcommittee, Hearing Exhibit 4/13-1h. 138 See 1/2005 “Higher Risk Lendin |
 | likely | digit inside a word | `2b` | 66 | _WM04107995-8008, Hearing Exhibit 4/13- 2b; 1/2005 “Higher Risk Lending Strategy ‘ |
@@ -47,12 +47,12 @@ to need one.
 | likely | digit inside a word | `A1B` | 440 | ces Goldman paid to Bear Stearns on the A1B and A1C tranches of Timberwolf were app |
 | likely | digit inside a word | `A1C` | 440 | man paid to Bear Stearns on the A1B and A1C tranches of Timberwolf were approximate |
 | likely | digit inside a word | `4bb` | 451 | used to monetize the trade .... W ith 3-4bb of notional in this dispersion trade, w |
-| likely | digit inside a word | `0Bln` | 475 | . YTD: ABS synthetics: $2.5Bln, ABS: $2.0Bln, SPG Trading: $3.0Bln, all #1  |
-| likely | digit inside a word | `2mm` | 496 | ording to the Prosupp, approximately $2.2mm ... of loans were delinquent when  |
-| likely | digit inside a word | `3mm` | 496 | ording to the Prosupp, approximately $3.3mm ... are re-performing loans. Ho |
-| likely | digit inside a word | `1bln` | 506 |  the customer had “just raised another $1bln for their ABS [asset backed security] f |
-| likely | digit inside a word | `1pt` | 560 | t, and if the mark widens out more than 1pt immediately after selling the asset to  |
-| likely | digit inside a word | `1bb` | 592 | dman on liquidation agent assets (now ~$1bb of eligible assets post downgra |
+| likely | digit inside a word | `0Bln` | 474 | . YTD: ABS synthetics: $2.5Bln, ABS: $2.0Bln, SPG Trading: $3.0Bln, all #1  |
+| likely | digit inside a word | `2mm` | 495 | ording to the Prosupp, approximately $2.2mm ... of loans were delinquent when  |
+| likely | digit inside a word | `3mm` | 495 | ording to the Prosupp, approximately $3.3mm ... are re-performing loans. Ho |
+| likely | digit inside a word | `1bln` | 505 |  the customer had “just raised another $1bln for their ABS [asset backed security] f |
+| likely | digit inside a word | `1pt` | 559 | t, and if the mark widens out more than 1pt immediately after selling the asset to  |
+| likely | digit inside a word | `1bb` | 591 | dman on liquidation agent assets (now ~$1bb of eligible assets post downgra |
 | likely | digit inside a word | `2A` | 47 |  CFMA, § 302, creating a new section 2A of the Securities Act of 1933. 84 CF |
 | likely | digit inside a word | `aNUz6NmbYZCQ` | 64 | mberg.com/apps/news?pid=newsarchive&sid=aNUz6NmbYZCQ. 136 Id.  |
 | likely | digit inside a word | `6c` | 77 | M - 0636-49 at 36, Hearing Exhibit 4/13-6c. 185 Id. at 644. 186 Id. at 646 |
@@ -83,26 +83,26 @@ to need one.
 | likely | digit inside a word | `5b` | 446 | ote: “What are we holding against the 3.5b mezz shorts right now? Why don’t we jus |
 | likely | digit inside a word | `3BB` | 449 |  Mr. Montag: “[W]e are short ... about $3BB single names.”1836 Mr. Montag responded |
 | likely | digit inside a word | `7bb` | 451 | red and eventually put on. W e’re up $1.7bb in RM BS SN CDS!  |
-| likely | digit inside a word | `5BN` | 485 | Concern around early payment defaults, $5BN in loans to subprime borrowers, |
-| likely | digit inside a word | `2ndry` | 488 | onds out of primary desk hands and into 2ndry desk.”).  |
-| likely | digit inside a word | `5M` | 494 | d to settle the entire claim, paying $2.5M (repurchase and monitor) and $3M will b |
-| likely | digit inside a word | `3M` | 494 | ing $2.5M (repurchase and monitor) and $3M will be rescinded.”). 2054 New Ce |
-| likely | digit inside a word | `A1s` | 507 | will trade $20mm Point Pleasant A1s @90.7 to Tokyo Star Bank .... We hope t |
-| likely | digit inside a word | `m6s` | 521 |  “[B]ad news … [The loss] wipes out the m6s [mezzanine tranches] and makes a wipeou |
-| likely | digit inside a word | `6mm` | 525 | ‘firm’. Now I find out that we’re down $6mm on the day. I understand things move, b |
-| likely | digit inside a word | `5pts` | 526 | s point] liquidation agent fees and 1-1.5pts upfront. ... Obviously important to  |
-| likely | digit inside a word | `4pm` | 535 | o the CDO, we have sold to retail since 4pm yesterday $2bb of BBB- risk.” 10/26/200 |
-| likely | digit inside a word | `6bn` | 536 | COO Gary Cohn and CFO David Viniar: “$1.6bn of the $2bn sold, with the majority of  |
-| likely | digit inside a word | `A1A` | 565 |  3/13/07: A1A‐ $99.45  |
-| likely | digit inside a word | `A1D` | 565 |  Directives) A1D‐ $100 INC‐ $ |
-| likely | digit inside a word | `5bp` | 598 | pect P&L of over $1mm [million] for the 5bp [basis point] reduction in the CDS prem |
-| likely | digit inside a word | `3G` | 599 | udson Mezzanine 2; GSC ABS Funding 2006-3G; and Anderson Mezzanine.  |
-| likely | digit inside a word | `6th` | 614 | Relying on SEC v. Blavin, 760 F.2d 706 (6th Cir. 1985), the court held such an asse |
-| likely | digit inside a word | `1esachs` | 619 | w.huffingtonpost.com/2010/05/01/goldman%1esachs%1elloyd%1eblank_n_559606.html (video of |
-| likely | digit inside a word | `1elloyd` | 619 | gtonpost.com/2010/05/01/goldman%1esachs%1elloyd%1eblank_n_559606.html (video of Charlie |
-| likely | digit inside a word | `8th` | 626 | ldman, Sachs and Company, 560 F.2d 916 (8th Cir. 1977). Although the court decided  |
-| likely | digit inside a word | `4Q` | 632 | /21/2010, The Goldman Sachs Group Inc., 4Q 2009 Earnings Call Transcript, Q&A (CFO |
-| likely | digit inside a word | `0bb` | 639 | n ABS CDOs that has realized approx. $1.0bb of p & l [profit and loss] to d |
+| likely | digit inside a word | `5BN` | 484 | Concern around early payment defaults, $5BN in loans to subprime borrowers, |
+| likely | digit inside a word | `2ndry` | 487 | onds out of primary desk hands and into 2ndry desk.”).  |
+| likely | digit inside a word | `5M` | 493 | d to settle the entire claim, paying $2.5M (repurchase and monitor) and $3M will b |
+| likely | digit inside a word | `3M` | 493 | ing $2.5M (repurchase and monitor) and $3M will be rescinded.”). 2054 New Ce |
+| likely | digit inside a word | `A1s` | 506 | will trade $20mm Point Pleasant A1s @90.7 to Tokyo Star Bank .... We hope t |
+| likely | digit inside a word | `m6s` | 520 |  “[B]ad news … [The loss] wipes out the m6s [mezzanine tranches] and makes a wipeou |
+| likely | digit inside a word | `6mm` | 524 | ‘firm’. Now I find out that we’re down $6mm on the day. I understand things move, b |
+| likely | digit inside a word | `5pts` | 525 | s point] liquidation agent fees and 1-1.5pts upfront. ... Obviously important to  |
+| likely | digit inside a word | `4pm` | 534 | o the CDO, we have sold to retail since 4pm yesterday $2bb of BBB- risk.” 10/26/200 |
+| likely | digit inside a word | `6bn` | 535 | COO Gary Cohn and CFO David Viniar: “$1.6bn of the $2bn sold, with the majority of  |
+| likely | digit inside a word | `A1A` | 564 |  3/13/07: A1A‐ $99.45  |
+| likely | digit inside a word | `A1D` | 564 |  Directives) A1D‐ $100 INC‐ $ |
+| likely | digit inside a word | `5bp` | 597 | pect P&L of over $1mm [million] for the 5bp [basis point] reduction in the CDS prem |
+| likely | digit inside a word | `3G` | 598 | udson Mezzanine 2; GSC ABS Funding 2006-3G; and Anderson Mezzanine.  |
+| likely | digit inside a word | `6th` | 613 | Relying on SEC v. Blavin, 760 F.2d 706 (6th Cir. 1985), the court held such an asse |
+| likely | digit inside a word | `1esachs` | 618 | w.huffingtonpost.com/2010/05/01/goldman%1esachs%1elloyd%1eblank_n_559606.html (video of |
+| likely | digit inside a word | `1elloyd` | 618 | gtonpost.com/2010/05/01/goldman%1esachs%1elloyd%1eblank_n_559606.html (video of Charlie |
+| likely | digit inside a word | `8th` | 625 | ldman, Sachs and Company, 560 F.2d 916 (8th Cir. 1977). Although the court decided  |
+| likely | digit inside a word | `4Q` | 631 | /21/2010, The Goldman Sachs Group Inc., 4Q 2009 Earnings Call Transcript, Q&A (CFO |
+| likely | digit inside a word | `0bb` | 638 | n ABS CDOs that has realized approx. $1.0bb of p & l [profit and loss] to d |
 | possible | possible rn/m confusion | `Birnbaum` | 334 | 54 Subcommittee Interview of Joshua Birnbaum (4/22/2010); Subcommittee Interview of  |
 | possible | possible rn/m confusion | `concerns` | 15 | t raise conflicts of interest and other concerns involving RMBS, CDO, CDS, and ABX relat |
 | possible | possible rn/m confusion | `Stearns` | 23 | ad purchased Washington Mutual and Bear Stearns, creating the largest banks in U.S. his |
@@ -131,7 +131,7 @@ to need one.
 | possible | possible rn/m confusion | `turns` | 159 |  action taken as a result. As it turns out, Ms. Kosch’s concerns about fraud w |
 | possible | possible rn/m confusion | `Concerns` | 193 | y of Management’s Action to Address OTS Concerns,” JPM_WM01022322; 3/17/2008 letter from |
 | possible | possible rn/m confusion | `Kirnon` | 266 | /2007 email from Yuri Yoshizawa to Noel Kirnon, PSI-MOODYS-RFN-000044 (Attachment, PSI |
-| possible | possible rn/m confusion | `Cornacchia` | 529 | 06 email from Michael Swenson to Thomas Cornacchia and Joshua Birnbaum, GS MBS-E-012684557 |
+| possible | possible rn/m confusion | `Cornacchia` | 528 | 06 email from Michael Swenson to Thomas Cornacchia and Joshua Birnbaum, GS MBS-E-012684557 |
 | possible | possible rn/m confusion | `Concerned` | 34 | ng Agency Reform Act in September 2006. Concerned by the inflated credit ratings that had |
 | possible | possible rn/m confusion | `Governors` | 41 | dix A (for the Federal Reserve Board of Governors) and 12 CFR part 325, Appendix A (for t |
 | possible | possible rn/m confusion | `Warnings` | 277 | ere damage ....” 1046 Government Warnings. At the same time the credit rating age |
@@ -139,9 +139,9 @@ to need one.
 | possible | possible rn/m confusion | `Barney` | 331 | (Nov. 7, 2003) (citing Chasins v. Smith Barney & Co., Inc., 438 F.3d 1167, 1172 (2d Ci |
 | possible | possible rn/m confusion | `learning` | 393 | id not try to sell them. In June, after learning that two Bear Stearns hedge funds speci |
 | possible | possible rn/m confusion | `overnight` | 439 | s Japan office regarding “unprecedented overnight [rates] market volatility,” suggesting  |
-| possible | case break inside a word | `aMu` | 494 | f Goldman Sachs to David Schneider of W aMu and others, GS MBS-E- 002142424, Hearin |
-| possible | possible rn/m confusion | `afternoon` | 502 | r email chain) (“Following up from this afternoon’s meeting. W e are going to better eval |
-| possible | possible rn/m confusion | `externally` | 583 | nsel in Goldman’s legal department] and externally with outside counsel, Wilmer  |
+| possible | case break inside a word | `aMu` | 493 | f Goldman Sachs to David Schneider of W aMu and others, GS MBS-E- 002142424, Hearin |
+| possible | possible rn/m confusion | `afternoon` | 501 | r email chain) (“Following up from this afternoon’s meeting. W e are going to better eval |
+| possible | possible rn/m confusion | `externally` | 582 | nsel in Goldman’s legal department] and externally with outside counsel, Wilmer  |
 | possible | possible rn/m confusion | `oncerns` | 38 | e SEC, at 40. The report continued: “[C]oncerns had been expressed that a rating agency |
 | possible | possible rn/m confusion | `Modernize` | 45 | for Crafting and Assessing Proposals to Modernize the Outdated U.S. Financial Regulatory  |
 | possible | possible rn/m confusion | `churned` | 56 | riod of five years, WaMu and Long Beach churned out a steady stream of high risk, poor  |
@@ -163,9 +163,9 @@ to need one.
 | possible | possible rn/m confusion | `Bernstein` | 405 | distress”); 7/13/2006 email from Stuart Bernstein copied to Mr. Cohn, GS MBS-E-016209254  |
 | possible | possible rn/m confusion | `patterns` | 442 | er ‘94, ‘98, or ‘03, the general themes/patterns are consistent. An initial disl |
 | possible | case break inside a word | `cMa` | 446 | ver, events overtook the debate. [M cMahon]. W e aren’t going crazy with it, ju |
-| possible | possible rn/m confusion | `Learning` | 461 | to cover all the desk’s warehouse risk. Learning of these actions, Mr. Rosenblum respond |
-| possible | possible rn/m confusion | `externalizing` | 475 | in YTD p&l by dissuading that desk from externalizing their shorting opportunities to the lik |
-| possible | possible rn/m confusion | `Alternatively` | 511 | s profits and reduce its long position. Alternatively, if Goldman held the short side of an i |
-| possible | possible rn/m confusion | `governed` | 584 | uant to the liquidation process governed by the CDO documents, rather than to li |
-| possible | possible rn/m confusion | `governing` | 596 | ceeds used to 2621 The parameters governing the type of default swap collateral sec |
-| possible | possible rn/m confusion | `Governance` | 632 |  Transparency and Disclosure, Committee Governance, and Training and Professional Developm |
+| possible | possible rn/m confusion | `Learning` | 460 | to cover all the desk’s warehouse risk. Learning of these actions, Mr. Rosenblum respond |
+| possible | possible rn/m confusion | `externalizing` | 474 | in YTD p&l by dissuading that desk from externalizing their shorting opportunities to the lik |
+| possible | possible rn/m confusion | `Alternatively` | 510 | s profits and reduce its long position. Alternatively, if Goldman held the short side of an i |
+| possible | possible rn/m confusion | `governed` | 583 | uant to the liquidation process governed by the CDO documents, rather than to li |
+| possible | possible rn/m confusion | `governing` | 595 | ceeds used to 2621 The parameters governing the type of default swap collateral sec |
+| possible | possible rn/m confusion | `Governance` | 631 |  Transparency and Disclosure, Committee Governance, and Training and Professional Developm |

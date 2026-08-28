@@ -375,17 +375,11 @@ Nearly three years later, the U.S. economy has yet to recover from the damage ca
 
 Recommendations on High Risk Lending
 
-> 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time.
-
-### Safeguard Against High Risk Products. Federal banking regulators should
-
-> safeguard taxpayer dollars by requiring banks with high risk structured finance products, including complex products with little or no reliable performance data, to meet conservative loss reserve, liquidity, and capital requirements.
+> 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time. 3. Safeguard Against High Risk Products. Federal banking regulators should safeguard taxpayer dollars by requiring banks with high risk structured finance products, including complex products with little or no reliable performance data, to meet conservative loss reserve, liquidity, and capital requirements.
 
 %%page 13%%
 
-### Require Greater Reserves for Negative Amortization Loans. Federal banking
-
-> regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
+> 4. Require Greater Reserves for Negative Amortization Loans. Federal banking regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
 
 > 5. Safeguard Bank Investment Portfolios. Federal banking regulators should use the Section 620 banking activities study to identify high risk structured finance products and impose a reasonable limit on the amount of such high risk products that can be included in a bank's investment portfolio.
 
@@ -401,9 +395,7 @@ Recommendations on Inflated Credit Ratings
 
 > 1. Rank Credit Rating Agencies by Accuracy. The SEC should use its regulatory authority to rank the Nationally Recognized Statistical Rating Organizations in terms of performance, in particular the accuracy of their ratings.
 
-### Help Investors Hold CRAs Accountable. The SEC should use its regulatory
-
-> authority to facilitate the ability of investors to hold credit rating agencies accountable in civil lawsuits for inflated credit ratings, when a credit rating agency knowingly or recklessly fails to conduct a reasonable investigation of the rated security.
+> 2. Help Investors Hold CRAs Accountable. The SEC should use its regulatory authority to facilitate the ability of investors to hold credit rating agencies accountable in civil lawsuits for inflated credit ratings, when a credit rating agency knowingly or recklessly fails to conduct a reasonable investigation of the rated security.
 
 %%page 14%%
 
@@ -421,13 +413,9 @@ Recommendations on Investment Bank Abuses
 
 > 2. Narrow Proprietary Trading Exceptions. To ensure a meaningful ban on proprietary trading under Section 619, any exceptions to that ban, such as for market- making or risk-mitigating hedging activities, should be strictly limited in the implementing regulations to activities that serve clients or reduce risk.
 
-### Design Strong Conflict of Interest Prohibitions. Regulators implementing the conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6)
+> 3. Design Strong Conflict of Interest Prohibitions. Regulators implementing the conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6) of this Report.
 
-> of this Report.
-
-### Study Bank Use of Structured Finance. Regulators conducting the banking
-
-> activities study under Section 620 should consider the role of federally insured banks in designing, marketing, and investing in structured finance products with risks that cannot be reliably measured and naked credit default swaps or synthetic financial instruments.
+> 4. Study Bank Use of Structured Finance. Regulators conducting the banking activities study under Section 620 should consider the role of federally insured banks in designing, marketing, and investing in structured finance products with risks that cannot be reliably measured and naked credit default swaps or synthetic financial instruments.
 
 %%page 15%%
 
@@ -843,27 +831,17 @@ As part of its investigation into high risk lending and the Washington Mutual ca
 
 In connection with the hearing, the Subcommittee released a joint memorandum from Chairman Carl Levin and Ranking Member Tom Coburn summarizing the investigation to date into Washington Mutual and the role of high risk home loans in the financial crisis. The memorandum contained the following findings of fact, which this Report reaffirms.
 
-### High Risk Lending Strategy. Washington Mutual (WaMu) executives embarked
+> 1. High Risk Lending Strategy. Washington Mutual (WaMu) executives embarked upon a High Risk Lending Strategy and increased sales of high risk home loans to Wall Street, because they projected that high risk home loans, which generally charged higher rates of interest, would be more profitable for the bank than low risk home loans.
 
-> upon a High Risk Lending Strategy and increased sales of high risk home loans to Wall Street, because they projected that high risk home loans, which generally charged higher rates of interest, would be more profitable for the bank than low risk home loans.
-
-### Shoddy Lending Practices. WaMu and its affiliate, Long Beach Mortgage
-
-> Company (Long Beach), used shoddy lending practices riddled with credit, compliance, and operational deficiencies to make tens of thousands of high risk home loans that too often contained excessive risk, fraudulent information, or errors.
+> 2. Shoddy Lending Practices. WaMu and its affiliate, Long Beach Mortgage Company (Long Beach), used shoddy lending practices riddled with credit, compliance, and operational deficiencies to make tens of thousands of high risk home loans that too often contained excessive risk, fraudulent information, or errors.
 
 %%page 51%%
 
-### Steering Borrowers to High Risk Loans. WaMu and Long Beach too often steered
+> 3. Steering Borrowers to High Risk Loans. WaMu and Long Beach too often steered borrowers into home loans they could not afford, allowing and encouraging them to make low initial payments that would be followed by much higher payments, and presumed that rising home prices would enable those borrowers to refinance their loans or sell their homes before the payments shot up.
 
-> borrowers into home loans they could not afford, allowing and encouraging them to make low initial payments that would be followed by much higher payments, and presumed that rising home prices would enable those borrowers to refinance their loans or sell their homes before the payments shot up.
+> 4. Polluting the Financial System. WaMu and Long Beach securitized over $77 billion in subprime home loans and billions more in other high risk home loans, used Wall Street firms to sell the securities to investors worldwide, and polluted the financial system with mortgage backed securities which later incurred high rates of delinquency and loss.
 
-### Polluting the Financial System. WaMu and Long Beach securitized over $77
-
-> billion in subprime home loans and billions more in other high risk home loans, used Wall Street firms to sell the securities to investors worldwide, and polluted the financial system with mortgage backed securities which later incurred high rates of delinquency and loss.
-
-### Securitizing Delinquency-Prone and Fraudulent Loans. At times, WaMu selected
-
-> and securitized loans that it had identified as likely to go delinquent, without disclosing its analysis to investors who bought the securities, and also securitized loans tainted by fraudulent information, without notifying purchasers of the fraud that was discovered.
+> 5. Securitizing Delinquency-Prone and Fraudulent Loans. At times, WaMu selected and securitized loans that it had identified as likely to go delinquent, without disclosing its analysis to investors who bought the securities, and also securitized loans tainted by fraudulent information, without notifying purchasers of the fraud that was discovered.
 
 > 6. Destructive Compensation. WaMu's compensation system rewarded loan officers and loan processors for originating large volumes of high risk loans, paid extra to loan officers who overcharged borrowers or added stiff prepayment penalties, and gave executives millions of dollars even when their High Risk Lending Strategy placed the bank in financial jeopardy.
 
@@ -2333,15 +2311,7 @@ Section 620 of the Dodd-Frank Act requires the federal banking regulators, withi
 
 safeguard the Deposit Insurance Fund, this Report makes the following recommendations.
 
-> 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time.
-
-### Safeguard Against High Risk Products. Federal banking regulators should
-
-> safeguard taxpayer dollars by requiring banks with high risk structured finance products, including complex products with little or no reliable performance data, to meet conservative loss reserve, liquidity, and capital requirements.
-
-### Require Greater Reserves for Negative Amortization Loans. Federal banking
-
-> regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
+> 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time. 3. Safeguard Against High Risk Products. Federal banking regulators should safeguard taxpayer dollars by requiring banks with high risk structured finance products, including complex products with little or no reliable performance data, to meet conservative loss reserve, liquidity, and capital requirements. 4. Require Greater Reserves for Negative Amortization Loans. Federal banking regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
 
 > 5. Safeguard Bank Investment Portfolios. Federal banking regulators should use the Section 620 banking activities study to identify high risk structured finance products and impose a reasonable limit on the amount of such high risk products that can be included in a bank's investment portfolio.
 
@@ -2383,43 +2353,27 @@ On March 16, 2011, the FDIC sued the three top former executives of Washington M
 
 The Levin-Coburn memorandum contained joint findings of fact regarding the role of federal regulators in the Washington Mutual case history. Those findings of fact, which this Report reaffirms, are as follows.
 
-### Largest U.S. Bank Failure. From 2003 to 2008, OTS repeatedly identified
+> 1. Largest U.S. Bank Failure. From 2003 to 2008, OTS repeatedly identified significant problems with Washington Mutual's lending practices, risk management, and asset quality, but failed to force adequate corrective action, resulting in the largest bank failure in U.S. history.
 
-> significant problems with Washington Mutual's lending practices, risk management, and asset quality, but failed to force adequate corrective action, resulting in the largest bank failure in U.S. history.
+> 2. Shoddy Lending and Securitization Practices. OTS allowed Washington Mutual and its affiliate Long Beach Mortgage Company to engage year after year in shoddy lending and securitization practices, failing to take enforcement action to stop its origination and sale of loans with fraudulent borrower information, appraisal problems, errors, and notoriously high rates of delinquency and loss.
 
-### Shoddy Lending and Securitization Practices. OTS allowed Washington Mutual
+> 3. Unsafe Option ARM Loans. OTS allowed Washington Mutual to originate hundreds of billions of dollars in high risk Option Adjustable Rate Mortgages, knowing that the bank used unsafe and unsound teaser rates, qualified borrowers using unrealistically low loan payments, permitted borrowers to make minimum payments resulting in negatively amortizing loans (i.e., loans with increasing principal), relied on rising house prices and refinancing to avoid payment shock and loan defaults, and had no realistic data to calculate loan losses in markets with flat or declining house prices.
 
-> and its affiliate Long Beach Mortgage Company to engage year after year in shoddy lending and securitization practices, failing to take enforcement action to stop its origination and sale of loans with fraudulent borrower information, appraisal problems, errors, and notoriously high rates of delinquency and loss.
+> 4. Short Term Profits Over Long Term Fundamentals. OTS abdicated its responsibility to ensure the long term safety and soundness of Washington Mutual by concluding that short term profits obtained by the bank precluded enforcement action to stop the bank's use of shoddy lending and securitization practices and unsafe and unsound loans.
 
-### Unsafe Option ARM Loans. OTS allowed Washington Mutual to originate
-
-> hundreds of billions of dollars in high risk Option Adjustable Rate Mortgages, knowing that the bank used unsafe and unsound teaser rates, qualified borrowers using unrealistically low loan payments, permitted borrowers to make minimum payments resulting in negatively amortizing loans (i.e., loans with increasing principal), relied on rising house prices and refinancing to avoid payment shock and loan defaults, and had no realistic data to calculate loan losses in markets with flat or declining house prices.
-
-### Short Term Profits Over Long Term Fundamentals. OTS abdicated its responsibility to ensure the long term safety and soundness of Washington Mutual by concluding that short term profits obtained by the bank precluded enforcement action
-
-> to stop the bank's use of shoddy lending and securitization practices and unsafe and unsound loans.
-
-### Impeding FDIC Oversight. OTS impeded FDIC oversight of Washington Mutual
-
-> by blocking its access to bank data, refusing to allow it to participate in bank examinations, rejecting requests to review bank loan files, and resisting the FDIC recommendations for stronger enforcement action.
+> 5. Impeding FDIC Oversight. OTS impeded FDIC oversight of Washington Mutual by blocking its access to bank data, refusing to allow it to participate in bank examinations, rejecting requests to review bank loan files, and resisting the FDIC recommendations for stronger enforcement action.
 
 > 6. FDIC Shortfalls. The FDIC, the backup regulator of Washington Mutual, was unable to conduct the analysis it wanted to evaluate the risk posed by the bank to the Deposit Insurance Fund, did not prevail against unreasonable actions taken by OTS to limit its examination authority, and did not initiate its own enforcement action against the bank in light of ongoing opposition by the primary federal bank regulators to FDIC enforcement authority.
 
-### Recommendations Over Enforceable Requirements. Federal bank regulators
-
-> undermined efforts to end unsafe and unsound mortgage practices at U.S. banks by issuing guidance instead of enforceable regulations limiting those practices, failing to
+> 7. Recommendations Over Enforceable Requirements. Federal bank regulators undermined efforts to end unsafe and unsound mortgage practices at U.S. banks by issuing guidance instead of enforceable regulations limiting those practices, failing to
 
 %%page 165%%
 
 > prohibit many high risk mortgage practices, and failing to set clear deadlines for bank compliance.
 
-### Failure to Recognize Systemic Risk. OTS and the FDIC allowed Washington
+> 8. Failure to Recognize Systemic Risk. OTS and the FDIC allowed Washington Mutual and Long Beach to reduce their own risk by selling hundreds of billions of dollars of high risk mortgage backed securities that polluted the financial system with poorly performing loans, undermined investor confidence in the secondary mortgage market, and contributed to massive credit rating downgrades, investor losses, disrupted markets, and the U.S. financial crisis.
 
-> Mutual and Long Beach to reduce their own risk by selling hundreds of billions of dollars of high risk mortgage backed securities that polluted the financial system with poorly performing loans, undermined investor confidence in the secondary mortgage market, and contributed to massive credit rating downgrades, investor losses, disrupted markets, and the U.S. financial crisis.
-
-### Ineffective and Demoralized Regulatory Culture. The Washington Mutual case
-
-> history exposes the regulatory culture at OTS in which bank examiners are frustrated and demoralized by their inability to stop unsafe and unsound practices, in which their supervisors are reluctant to use formal enforcement actions even after years of serious bank deficiencies, and in which regulators treat the banks they oversee as constituents rather than arms-length regulated entities.
+> 9. Ineffective and Demoralized Regulatory Culture. The Washington Mutual case history exposes the regulatory culture at OTS in which bank examiners are frustrated and demoralized by their inability to stop unsafe and unsound practices, in which their supervisors are reluctant to use formal enforcement actions even after years of serious bank deficiencies, and in which regulators treat the banks they oversee as constituents rather than arms-length regulated entities.
 
 > B. Background At the time of its collapse, Washington Mutual Savings Bank was a federally chartered thrift
 
@@ -3540,9 +3494,7 @@ For more than one year, the Subcommittee conducted an in-depth investigation of 
 
 In connection with the hearing, the Subcommittee released a joint memorandum from Chairman Levin and Ranking Member Coburn summarizing the investigation into the credit rating agencies and the problems with the credit ratings assigned to RMBS and CDO securities. The memorandum contained joint findings regarding the role of the credit rating agencies in the Moody's and S&P case histories, which this Report reaffirms. The findings of fact are as follows.
 
-### Inaccurate Rating Models. From 2004 to 2007, Moody's and S&P used credit
-
-> rating models with data that was inadequate to predict how high risk residential mortgages, such as subprime, interest only, and option adjustable rate mortgages, would perform.
+> 1. Inaccurate Rating Models. From 2004 to 2007, Moody's and S&P used credit rating models with data that was inadequate to predict how high risk residential mortgages, such as subprime, interest only, and option adjustable rate mortgages, would perform.
 
 > 2. Competitive Pressures. Competitive pressures, including the drive for market share and need to accommodate investment bankers bringing in business, affected the credit ratings issued by Moody's and S&P.
 
@@ -4491,9 +4443,7 @@ To further strengthen the accuracy of credit ratings and reduce systemic risk, t
 
 > 1. Rank Credit Rating Agencies by Accuracy. The SEC should use its regulatory authority to rank the Nationally Recognized Statistical Rating Organizations in terms of performance, in particular the accuracy of their ratings.
 
-### Help Investors Hold CRAs Accountable. The SEC should use its regulatory
-
-> authority to facilitate the ability of investors to hold credit rating agencies accountable in civil lawsuits for inflated credit ratings, when a credit rating agency knowingly or recklessly fails to conduct a reasonable investigation of the rated security.
+> 2. Help Investors Hold CRAs Accountable. The SEC should use its regulatory authority to facilitate the ability of investors to hold credit rating agencies accountable in civil lawsuits for inflated credit ratings, when a credit rating agency knowingly or recklessly fails to conduct a reasonable investigation of the rated security.
 
 > 3. Strengthen CRA Operations. The SEC should use its inspection, examination, and regulatory authority to ensure credit rating agencies institute internal controls, credit rating methodologies, and employee conflict of interest safeguards that advance rating accuracy.
 
@@ -5148,9 +5098,7 @@ In connection with the hearing, the Subcommittee released a joint memorandum fro
 
 > 5. Abacus Transaction. Goldman Sachs structured, underwrote, and sold a synthetic CDO called Abacus 2007-AC1, did not disclose to the Moody's analyst overseeing the rating of the CDO that a hedge fund client taking a short position in the CDO had helped to select the referenced assets, and also did not disclose that fact to other investors.
 
-### Using Naked Credit Default Swaps. Goldman Sachs used credit default swaps
-
-> (CDS) on assets it did not own to bet against the mortgage market through single name and index CDS transactions, generating substantial revenues in the process.
+> 6. Using Naked Credit Default Swaps. Goldman Sachs used credit default swaps (CDS) on assets it did not own to bet against the mortgage market through single name and index CDS transactions, generating substantial revenues in the process.
 
 %%page 378%%
 
@@ -7894,19 +7842,13 @@ The Goldman Sachs case study identifies a number of practices that raise conflic
 
 > Timberwolf, Goldman represented to potential investors that its interests "were aligned" with theirs or advertised its retention of a portion of the CDO's equity tranche, without disclosing that it had an even larger short position in the CDO and held a financial interest directly adverse to the investors to whom it was selling the CDO securities.
 
-### Misrepresenting Source of Assets. In Hudson, Goldman provided 100% of the
+> 3. Misrepresenting Source of Assets. In Hudson, Goldman provided 100% of the CDO assets using CDS contracts it controlled and priced, transferred $1.2 billion of risk from its own inventory to the CDO, and told investors the assets had been "sourced from the Street," when they had been supplied solely by Goldman and not priced from transactions with third parties.
 
-> CDO assets using CDS contracts it controlled and priced, transferred $1.2 billion of risk from its own inventory to the CDO, and told investors the assets had been "sourced from the Street," when they had been supplied solely by Goldman and not priced from transactions with third parties.
-
-### Failing to Disclose Client Involvement. In Abacus, Goldman enabled a client
-
-> who was shorting the CDO to help select the CDO's assets, solicited investors to buy the Abacus securities without disclosing the short party's asset selection role or investment objective, and helped the client gain a $1 billion profit at the expense of the investors to whom Goldman sold the securities.
+> 4. Failing to Disclose Client Involvement. In Abacus, Goldman enabled a client who was shorting the CDO to help select the CDO's assets, solicited investors to buy the Abacus securities without disclosing the short party's asset selection role or investment objective, and helped the client gain a $1 billion profit at the expense of the investors to whom Goldman sold the securities.
 
 > 5. Minimizing Premiums. In Abacus, Goldman entered into an undisclosed agreement with the sole short party to accept a fee for arranging low premium payments by the short party to the CDO, even though low premium payments meant less money for the long investors to whom Goldman had sold the Abacus securities.
 
-### Selling Securities Designed to Fail. Goldman sold Hudson and Abacus securities
-
-> to clients knowing the securities were designed to fall in value and benefit the short party, which was a client in the case of Abacus and itself in the case of Hudson.
+> 6. Selling Securities Designed to Fail. Goldman sold Hudson and Abacus securities to clients knowing the securities were designed to fall in value and benefit the short party, which was a client in the case of Abacus and itself in the case of Hudson.
 
 > 7. Delaying Liquidation. In Hudson, Goldman was paid a fee to serve as the liquidation agent, but delayed liquidating assets that were losing value for eight months, enhancing its financial gain as the CDO's short party at the expense of the long parties whose losses would have been staunched if the assets had been liquidated.
 
@@ -7914,15 +7856,11 @@ The Goldman Sachs case study identifies a number of practices that raise conflic
 
 > 8. Misrepresenting Assets. In Anderson, when clients asked how Goldman got "comfortable" with poor quality New Century loans in the CDO, Goldman worked to dispel those concerns and failed to disclose its own discomfort with New Century loans and that it held 40% of the short side of the CDO, betting its assets would lose value.
 
-### Taking Immediate Post-Sale Markdowns. In Timberwolf, Goldman knowingly
-
-> sold Timberwolf securities to clients at prices above its own book values and then, often within days or weeks of a sale, marked down the value of the sold securities, causing clients to incur quick losses and requiring some to post higher margin or cash collateral.
+> 9. Taking Immediate Post-Sale Markdowns. In Timberwolf, Goldman knowingly sold Timberwolf securities to clients at prices above its own book values and then, often within days or weeks of a sale, marked down the value of the sold securities, causing clients to incur quick losses and requiring some to post higher margin or cash collateral.
 
 > 10. Evading Put Obligation. In Timberwolf, Goldman was paid a fee to serve as the collateral put provider, but refused for two months to allow the purchase of default swap collateral securities, even though they meant better returns for long investors, because Goldman did not want to assume the risk that the collateral securities might lose value.
 
-### Using Poor Quality Loans in Securitizations. Goldman provided securitization
-
-> services and warehouse accounts to lenders with a history of issuing high risk, poor quality loans, and knowingly included poor quality loans in Goldman-originated RMBS and CDO securities.
+> 11. Using Poor Quality Loans in Securitizations. Goldman provided securitization services and warehouse accounts to lenders with a history of issuing high risk, poor quality loans, and knowingly included poor quality loans in Goldman-originated RMBS and CDO securities.
 
 > 12. Concealing Its Net Short Position. From late 2006 through most of 2007, Goldman engaged in a relentless effort to sell the CDO and RMBS securities it underwrote, without disclosing to the clients it solicited that Goldman was simultaneously shorting the subprime market and betting it would lose value.
 
@@ -8342,13 +8280,9 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 2. Narrow Proprietary Trading Exceptions. To ensure a meaningful ban on proprietary trading under Section 619, any exceptions to that ban, such as for marketmaking or risk-mitigating hedging activities, should be strictly limited in the implementing regulations to activities that serve clients or reduce risk.
 
-### Design Strong Conflict of Interest Prohibitions. Regulators implementing the conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6)
+3. Design Strong Conflict of Interest Prohibitions. Regulators implementing the conflict of interest prohibitions in Sections 619 and 621 should consider the types of conflicts of interest in the Goldman Sachs case study, as identified in Chapter VI(C)(6) of this Report.
 
-of this Report.
-
-### Study Bank Use of Structured Finance. Regulators conducting the banking
-
-activities study under Section 620 should consider the role of federally insured banks in designing, marketing, and investing in structured finance products with risks that cannot be reliably measured and naked credit default swaps or synthetic financial instruments.
+4. Study Bank Use of Structured Finance. Regulators conducting the banking activities study under Section 620 should consider the role of federally insured banks in designing, marketing, and investing in structured finance products with risks that cannot be reliably measured and naked credit default swaps or synthetic financial instruments.
 
 # # #
 
