@@ -37,6 +37,8 @@ report and section it's in, the printed page, and follows through to those
 exact words highlighted, the same as any shared link. Scope a search to one
 report from that report's own page, or search everything from the header.
 
+![Search results, term highlighted, across several reports](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-28-highlights-social-proof-search/7-search-results.png)
+
 ---
 
 ## 2026-08-21 — Quote the exact words, and keep what you find
@@ -47,6 +49,8 @@ the words themselves, marks exactly those words when someone follows it, and
 previews that sentence rather than the paragraph around it. If the quoted words
 are no longer in the document, the link shows the paragraph they came from
 rather than marking whatever else matched.
+
+![Following a quote link marks exactly the quoted words](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-28-highlights-social-proof-search/2-quote-link-marks-exact-words.png)
 
 **Quoting longer passages, and lists that read in order.** Selecting several
 sentences now produces a link to exactly those sentences rather than to the
@@ -61,12 +65,16 @@ you come back. Everything you have kept is listed at `/highlights` and exports
 as Markdown — quote, source, printed page, and a link back to the exact words.
 It lives in your browser: no account, and none of it is sent to us.
 
+![The /highlights page, a saved quote with its source and an export](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-28-highlights-social-proof-search/3-highlights-page.png)
+
 **What other readers marked.** A passage highlighted by another reader now
 shows the same way any highlight does, faintly at first and stronger as more
 readers mark it — no count printed, just the sense that this passage caught
 someone's attention too. Nothing is recorded until a reader shares or saves a
 passage, and nothing about a reader is kept, only a passage and how many
 people marked it.
+
+![A passage marked by six readers, washed stronger than one marked by a single reader](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-28-highlights-social-proof-search/4-social-proof-strong-wash-6-readers.png)
 
 ---
 
