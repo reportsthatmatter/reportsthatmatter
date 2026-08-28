@@ -1,0 +1,9 @@
+id: challenger-accident
+title: "Investigation of the Challenger Accident"
+authors: "Committee on Science and Technology, U.S. House of Representatives"
+published_at: "October 1986"
+source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
+repo: ../challenger-accident
+volumes:
+  - path: archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf
+    sha256: eb04493120feaf98e1944634260a2ab8b81339308a2c665a9414853652a8560e
