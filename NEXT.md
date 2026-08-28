@@ -20,13 +20,11 @@ condition is `./scripts/verify.sh`; after deploying,
 
 | | |
 | --- | --- |
-| [#101](https://github.com/reportsthatmatter/reportsthatmatter/issues/101) | Two-column layout — unblocks Columbia #37 |
 | [#102](https://github.com/reportsthatmatter/reportsthatmatter/issues/102) | FCIC digit-dropping |
-| [#103](https://github.com/reportsthatmatter/reportsthatmatter/issues/103) | No-space footnote markers (Litvinenko) |
 | [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | Ingestion odds and ends |
 | [#114](https://github.com/reportsthatmatter/reportsthatmatter/issues/114) | Spike: remark vs markdown-it — pair with #102–#104 |
 | [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture — **built**. The pipeline is [`@rtm/ingest`](https://github.com/reportsthatmatter/ingest); every report owns its build in its own repo. What is left is quality work inside it, not structure |
-| [#120](https://github.com/reportsthatmatter/reportsthatmatter/issues/120) | A docket row becomes a division heading. Needs table detection, so it pairs with #101 |
+| [#121](https://github.com/reportsthatmatter/reportsthatmatter/issues/121) | Footnote numbers are not unique across a report — Leveson restarts per chapter. Blocks further footnote work there, and will recur for Chilcot |
 | [#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105) | The OCR review queues now have somewhere to land (#106 shipped). What is missing is the workflow over them |
 | [#110](https://github.com/reportsthatmatter/reportsthatmatter/issues/110) · [#111](https://github.com/reportsthatmatter/reportsthatmatter/issues/111) · [#112](https://github.com/reportsthatmatter/reportsthatmatter/issues/112) | UX odds and ends |
 | [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | Accessible link colour |

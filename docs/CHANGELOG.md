@@ -7,6 +7,27 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-29 — The Columbia report, and words that stopped breaking in half
+
+The Columbia Accident Investigation Board report joins the archive: 248 pages
+on the loss of the shuttle and the decisions behind it. It had been ruled out
+once, because it is set in two columns and the text extractor read straight
+across them, welding an unrelated sentence into the middle of every paragraph.
+It is now read a column at a time.
+
+Across every report, words the typesetter broke at the end of a line are
+joined back together — "Chal- lenger" was appearing as two words, and so were
+another two thousand in Columbia and six hundred in Leveson. Where a document
+never writes the word whole anywhere, the break is left visible rather than
+guessed at.
+
+The Litvinenko report's footnotes also work properly now: around 230 of them
+appeared as bare numbers stuck to the end of a word, because the scan lost the
+space before the superscript.
+
+---
+
+
 ## 2026-08-28 — Thirty half-sentence headings gone, and citations that had quietly collided
 
 The Wall Street report's contents page listed thirty headings that stopped
