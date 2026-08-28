@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
 import { splitPage, collapseDoubleSpacing } from "../scripts/ingest/clean";
 import {
   toBlocks,
@@ -1025,4 +1027,38 @@ describe("a quoted list keeps its quotation", () => {
       "> - evaluate a borrower's ability to fully repay a prospective loan;"
     );
   });
+});
+
+describe("golden page fixtures", () => {
+  const dir = join(import.meta.dirname, "fixtures/pages");
+  const names = readdirSync(dir).filter((file) => file.endsWith(".txt"));
+
+  const words = (text: string) =>
+    text.toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(Boolean);
+
+  it("has fixtures to check", () => {
+    expect(names.length).toBeGreaterThanOrEqual(6);
+  });
+
+  for (const name of names) {
+    it(`${name}: parses without losing or inventing text`, () => {
+      const lines = readFileSync(join(dir, name), "utf8").split("\n");
+      const blocks = toBlocks(lines);
+
+      const output = blocks.flatMap((block) =>
+        block.kind === "list"
+          ? block.items.flatMap(words)
+          : block.kind === "page"
+            ? []
+            : words(block.text)
+      );
+      const source = new Set(words(lines.join(" ")));
+
+      const foreign = output.filter((word) => !source.has(word));
+      expect(foreign, `invented: ${foreign.slice(0, 5).join(", ")}`).toHaveLength(0);
+
+      // A page that parses to almost nothing is a silent total loss.
+      expect(output.length).toBeGreaterThan(20);
+    });
+  }
 });

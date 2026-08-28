@@ -1,0 +1,48 @@
+                                              257
+
+                                                                                     7
+included a b l a t i v e m a t e r i a l s not c u r r e n t l y develcped o r
+characterize&. This o f f e r e d p o t e n t i a l savings i n program
+c o s t , but with atyendant t e c h n i c a l and program risk. ~n
+expanded c h a r a c t e r i z a t i o n and development proqam would be
+required.            The thickness of t h e nozzle m a t e r i a l was i n s u f f i c i e n t
+t o m e e t required s a f e t y f a c t o r s and thus degraded r e l i a b i l i t y .
+The amount of m a t e r i a l required to c o r r e c t t h e deficiency was
+s u b s t a n t i a l and tile Geficiency could r e q u i r e a reaesign of
+                                                                                           ,     .
+the m e t a l p o r t i o n s a s w e l l as t h e a b l a t i v e p o r t i o n s . The
+design was complex and would c o n t r i b u t e t o d i f f i c u l t y i n
+manufacturing. The Thiokol motor c a s e j o i n t s u t i l i z e d dual
+O-rings and test p o r t s between s e a l s , enabling a simple
+l e a k check without p r e s s u r i z i n g t h e e n t i r e motor.             This inno-
+v a t i v e design f e a t u r e increased r e l i a b i l i t y and decreased
+operations a t the launch s i t e , i n d i c a t i n g good a t t e n t i o n t o
+low c o s t DDT&E and production. The thic-mess of t h e i n t e r n a l
+i n s u l a t i o n i n the c a s e a f t dome was marginal and c r e a t e d a
+technical r i s k .
+Thiokol provided cumprehensive test plans and development
+v e r i f i c a t i o n objectives: however, they proposed t o v e r i f y
+p r o p e l l a n t burning c h a r a c t e r i s t i c s by t e s t i n g f o u r t o six
+f u l l scale mixes vhich was excessive, and could be reduced
+by e s t a b l i s h i n g c o r r e l a t i o n s with smaller mix size d a t a c?uring
+DDT&E.         Also, Thiokol proposed t o hydroburst two motor case
+assembly specimens, whereas one t e s t would be s u f f i c i e n t .
+
+Manufacturina, Refurbishment and Product Support
+Thiokol had extensive processing experience with t h e i r proposed
+propellant formulation, having processed over 150 m i l l i o n
+pounds of t h i s generai type of p r o p e l l a n t . Thiokol's major
+weakness i n t h i s a r e a of evaluation was i n t h e a r e a of case
+f a b r i c a t i o n . The segment f a b r i c a t o r would be unable t o
+f a b r i c a t e t h e case s e r p e n t s strengthened with s t i f f e n i n g rings
+as proposed by Thiokol f o r a l t e r n a t e water ent-y load
+conditions, i f required.                 This would probably r e q d i r e a case
+and g r a i n redesign. Thiokol's manufacturing approach provided
+a good mechanized method of i n s t a l l i n g i n s u l a t i o n , coupled
+with an innovative method of preparing the i n s u l a t i o n surface
+f o r t h e l i n e r by p e e l i n g off a dacron c l o t h from t h e inner
+s u r f a c e of the i n s u l a t i o n . A minor w e a k n e s s in t h e manu-
+f a c t u r i n g approach was the d e c i s i o n to f a b r i c a t e nozzles
+in-house.due t o Thiokol's lack of experience i n f a b r i c a t i n g
+nozzles of this -size.
+
