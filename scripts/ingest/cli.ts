@@ -17,7 +17,8 @@
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { ingestPageGroups } from "./pipeline";
+import { ingestPageGroups, type IngestResult } from "./pipeline";
+import { parseRecipe, checkVolume, resolveVolume } from "./recipe";
 import { runChecks } from "./fidelity";
 import { extractPages, type Page } from "./extract";
 
@@ -40,41 +41,55 @@ function reportChecks(label: string, checks: ReturnType<typeof runChecks>): bool
 }
 
 function runIngest(argv: string[]): number {
-  const pdfPaths: string[] = [];
-  for (const value of argv) {
-    if (value.startsWith("--")) break;
-    pdfPaths.push(value);
-  }
-  if (!pdfPaths.length) {
-    console.error("No PDF given");
-    return 1;
-  }
-  const missing = pdfPaths.find((p) => !existsSync(p));
-  if (missing) {
-    console.error(`PDF not found: ${missing}`);
+  const id = argv[0];
+  if (!id || id.startsWith("--")) {
+    console.error("Usage: pnpm ingest run <report-id>");
     return 1;
   }
 
-  const id = arg(argv, "id");
-  const title = arg(argv, "title");
-  if (!id || !title) {
-    console.error("--id and --title are required");
+  const recipePath = join(REPORTS, id, "ingest.yaml");
+  if (!existsSync(recipePath)) {
+    console.error(`No recipe for ${id}: expected ${join("reports", id, "ingest.yaml")}`);
+    return 1;
+  }
+
+  let recipe;
+  try {
+    recipe = parseRecipe(readFileSync(recipePath, "utf8"), id);
+  } catch (error) {
+    console.error(error instanceof Error ? error.message : String(error));
     return 1;
   }
 
   const pageGroups: Page[][] = [];
-  for (const pdfPath of pdfPaths) {
-    console.log(`Extracting ${pdfPath} …`);
-    pageGroups.push(extractPages(pdfPath));
+  for (const volume of recipe.volumes) {
+    const check = checkVolume(recipe, volume, ROOT);
+    if (check.matched === false) {
+      console.error(
+        `Checksum mismatch for ${volume.path}\n` +
+          `  recipe:  ${volume.sha256}\n` +
+          `  on disk: ${check.sha256}\n` +
+          "The source changed, or the recipe is wrong. Do not ingest until this is resolved."
+      );
+      return 1;
+    }
+    if (check.matched === null) console.log(`  (no checksum recorded for ${volume.path})`);
+    console.log(`Extracting ${volume.path} …`);
+    pageGroups.push(extractPages(check.path));
   }
 
   const result = ingestPageGroups(pageGroups, {
-    title,
-    authors: arg(argv, "authors"),
-    published_at: arg(argv, "published"),
-    source_url: arg(argv, "source-url"),
+    title: recipe.title,
+    authors: recipe.authors,
+    published_at: recipe.published_at,
+    source_url: recipe.source_url,
   });
 
+  return writeReport(id, recipe.title, result);
+}
+
+/** Writes a report's markdown and its OCR review queue, then gates on fidelity. */
+function writeReport(id: string, title: string, result: IngestResult): number {
   const dir = join(REPORTS, id);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "full.md"), result.markdown, "utf8");

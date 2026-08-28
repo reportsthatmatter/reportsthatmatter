@@ -88,3 +88,21 @@ describe("checkVolume", () => {
     expect(checkVolume(none, none.volumes[0], root).matched).toBeNull();
   });
 });
+
+import { execFileSync } from "node:child_process";
+
+describe("ingest run", () => {
+  it("fails with a clear message when the report has no recipe", () => {
+    let output = "";
+    try {
+      execFileSync("npx", ["tsx", "scripts/ingest/cli.ts", "run", "no-such-report"], {
+        encoding: "utf8",
+        stdio: ["ignore", "pipe", "pipe"],
+      });
+    } catch (error: any) {
+      output = `${error.stdout ?? ""}${error.stderr ?? ""}`;
+    }
+    expect(output).toMatch(/no-such-report/);
+    expect(output).toMatch(/ingest\.yaml/);
+  });
+});
