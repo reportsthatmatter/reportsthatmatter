@@ -25,7 +25,7 @@ condition is `./scripts/verify.sh`; after deploying,
 | [#103](https://github.com/reportsthatmatter/reportsthatmatter/issues/103) | No-space footnote markers (Litvinenko) |
 | [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | Ingestion odds and ends |
 | [#114](https://github.com/reportsthatmatter/reportsthatmatter/issues/114) | Spike: remark vs markdown-it — pair with #102–#104 |
-| [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture. **A1 and A2 landed.** Remaining: [Plan B stage 4](docs/plans/2026-08-28-ingestion-plan-b-stage-4.md) — move each report's authority into its own repo. One decision open: how a report repo imports the library |
+| [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture — **built**. The pipeline is [`@rtm/ingest`](https://github.com/reportsthatmatter/ingest); every report owns its build in its own repo. What is left is quality work inside it, not structure |
 | [#120](https://github.com/reportsthatmatter/reportsthatmatter/issues/120) | A docket row becomes a division heading. Needs table detection, so it pairs with #101 |
 | [#105](https://github.com/reportsthatmatter/reportsthatmatter/issues/105) | The OCR review queues now have somewhere to land (#106 shipped). What is missing is the workflow over them |
 | [#110](https://github.com/reportsthatmatter/reportsthatmatter/issues/110) · [#111](https://github.com/reportsthatmatter/reportsthatmatter/issues/111) · [#112](https://github.com/reportsthatmatter/reportsthatmatter/issues/112) | UX odds and ends |

@@ -49,8 +49,9 @@ an interactive session.
 | `src/lib/search.ts` | FTS5 query building, bm25 weights, match → quote-anchor arithmetic |
 | `assets/styles.css` | The design system. Hand-written, no framework |
 | `assets/share.js` | Highlight-to-share |
-| `scripts/ingest/` | PDF → Markdown pipeline + fidelity checks — see its own `README.md` |
-| `reports/<id>/ingest.ts` | How that report is built: volumes, checksums, the passes it declares |
+| `scripts/ingest/cli.ts` | Runs the pipeline over this corpus — see its `README.md` |
+| `reports/manifest.yaml` | Where each report's build lives |
+| `reports/<id>/full.md` | An aggregated copy for serving. **The authority is the report's own repo** |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
@@ -73,9 +74,14 @@ an interactive session.
   and exists because a fix aimed at Leveson silently changed three other
   reports. Read the diff, then `pnpm ingest baseline <id>` to accept it.
 - **A report is rebuilt from its own definition**, not from a remembered
-  command line: `pnpm ingest run <id>` reads `reports/<id>/ingest.ts`, which
-  records the ordered, checksummed source volumes and the passes that report
-  declares.
+  command line: `pnpm ingest run <id>` reads the `ingest.ts` in that report's
+  own repo, which records the ordered, checksummed source volumes and the
+  passes it declares. `reports/manifest.yaml` says where that is.
+- **The pipeline is a pinned dependency**, [`@rtm/ingest`](https://github.com/reportsthatmatter/ingest).
+  A pipeline fix is two steps: release it there, then bump the pin here and
+  re-run `pnpm ingest check`. That friction is the point — it is what makes a
+  report adopt an improvement knowingly instead of having it arrive
+  unannounced, which is how one fix silently changed three reports.
 - **Never weaken a fidelity check to make a report pass.** If a report cannot
   meet the gate, mark it `ingested: false` in the registry and record why. The
   checks exist to find exactly what a weakened check would hide.
