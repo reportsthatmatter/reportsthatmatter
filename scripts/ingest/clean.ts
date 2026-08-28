@@ -68,25 +68,25 @@ export function noteCandidates(
  * run of lines that starts with an ascending footnote number. Walking upward
  * matters because footnote numbers also appear inline in the body.
  */
-/** Where a page came from, carried through so a review note can cite it. */
-function provenance(page: Page): Pick<SplitPage, "index" | "volume" | "pdfIndex"> {
-  return { index: page.index, volume: page.volume, pdfIndex: page.pdfIndex };
-}
-
-export function splitPage(page: Page, expectedNote: number): SplitPage {
-  const lines = [...page.lines];
-
-  // The printed page number sits alone on a line, at the foot of the page or
-  // at its head — the Jack Smith report uses a footer, the PSI report a header,
-  // and looking in only one place loses page anchors for half the archive.
+/**
+ * Takes the printed page number off a page, if it carries one.
+ *
+ * It sits alone on a line, at the foot or the head — the Jack Smith report
+ * uses a footer, the PSI report a header, and looking in only one place loses
+ * page anchors for half the archive.
+ */
+export function takePrintedNumber(input: string[]): {
+  printed: number | null;
+  lines: string[];
+} {
+  const lines = [...input];
   let printed: number | null = null;
 
   const takeNumber = (index: number) => {
     const value = Number.parseInt(lines[index].trim(), 10);
-    if (Number.isNaN(value)) return false;
+    if (Number.isNaN(value)) return;
     printed = value;
     lines.splice(index, 1);
-    return true;
   };
 
   for (let i = lines.length - 1; i >= 0 && i >= lines.length - 4; i--) {
@@ -103,28 +103,45 @@ export function splitPage(page: Page, expectedNote: number): SplitPage {
     }
   }
 
-  // Footnote block: the notes sit at the foot of the page as a consecutively
-  // numbered run. Anchor on that run rather than on the first number we see —
-  // wrapped case citations ("575 F.3d 726, 735 …") look identical to a note
-  // opening, and only the numbering tells them apart.
-  const candidates = noteCandidates(lines);
+  return { printed, lines };
+}
 
-  if (!candidates.length) {
-    return { ...provenance(page), printed, body: lines, footnotes: [] };
-  }
+/**
+ * Separates the footnote block at the foot of a page from the running body.
+ *
+ * The notes sit as a consecutively numbered run. Anchor on that run rather
+ * than on the first number seen — wrapped case citations ("575 F.3d 726,
+ * 735 …") look identical to a note opening, and only the numbering tells them
+ * apart. Walking upward matters because footnote numbers also appear inline.
+ */
+export function splitFootnoteBlock(
+  lines: string[],
+  expectedNote: number
+): { body: string[]; footnotes: string[] } {
+  const candidates = noteCandidates(lines);
+  if (!candidates.length) return { body: lines, footnotes: [] };
 
   const start = chooseBlockStart(candidates, expectedNote, lines.length);
-  if (start === null) {
-    return { ...provenance(page), printed, body: lines, footnotes: [] };
-  }
+  if (start === null) return { body: lines, footnotes: [] };
 
-  const noteStart = start.line;
-  return {
-    ...provenance(page),
-    printed,
-    body: lines.slice(0, noteStart),
-    footnotes: lines.slice(noteStart),
-  };
+  return { body: lines.slice(0, start.line), footnotes: lines.slice(start.line) };
+}
+
+/** Where a page came from, carried through so a review note can cite it. */
+function provenance(page: Page): Pick<SplitPage, "index" | "volume" | "pdfIndex"> {
+  return { index: page.index, volume: page.volume, pdfIndex: page.pdfIndex };
+}
+
+/**
+ * The two page-local passes composed: take the printed number, then separate
+ * the footnote block from the body. Kept as one entry point because that is
+ * the order they must run in — the page number would otherwise look like a
+ * stacked note opening.
+ */
+export function splitPage(page: Page, expectedNote: number): SplitPage {
+  const { printed, lines } = takePrintedNumber(page.lines);
+  const { body, footnotes } = splitFootnoteBlock(lines, expectedNote);
+  return { ...provenance(page), printed, body, footnotes };
 }
 
 /**
