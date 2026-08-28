@@ -1,0 +1,21 @@
+# Where each report's authority lives.
+#
+# A report owns its own build: its ingest.ts, corrections.yaml, baseline.json
+# and the full.md they produce. The site aggregates a copy of full.md into
+# reports/<id>/ for serving, so a cold clone builds and deploys without any
+# sibling checkout, and a given site version serves exactly one version of
+# each report, forever.
+#
+# `dir` is relative to this repo's root. A report still listed under
+# reports/<id> has not been migrated yet; both forms work.
+reports:
+  - id: litvinenko-inquiry
+    dir: ../uk-litvinenko-inquiry
+  - id: jack-smith-vol1
+    dir: reports/jack-smith-vol1
+  - id: us-psi-financial-crisis
+    dir: reports/us-psi-financial-crisis
+  - id: challenger-accident
+    dir: reports/challenger-accident
+  - id: uk-leveson-inquiry
+    dir: reports/uk-leveson-inquiry

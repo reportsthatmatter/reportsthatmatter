@@ -11,7 +11,7 @@ export default pipeline({
   authors: "U.S. Senate Permanent Subcommittee on Investigations",
   published_at: "13 April 2011",
   source_url: "https://www.hsgac.senate.gov/subcommittees/investigations/reports?c=112",
-  repo: "../us-psi-financial-crisis",
+  repo: "../../../us-psi-financial-crisis",
   // Order is semantic: footnote numbering and page indices run continuously
   // across volumes, so reordering changes the output.
   volumes: [

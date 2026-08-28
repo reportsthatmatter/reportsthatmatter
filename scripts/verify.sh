@@ -26,6 +26,17 @@ trap cleanup EXIT
 
 # ---------- static checks ----------
 
+step "Aggregate reports"
+# A report's authority is its own repo (reports/manifest.yaml). Copying here
+# before pre-rendering is what stops the site serving a stale copy of a report
+# that was edited where it actually lives.
+if pnpm ingest aggregate >/tmp/rtm-aggregate.log 2>&1; then
+  pass "reports/ is current with each report's source of truth"
+else
+  fail "pnpm ingest aggregate"
+  tail -20 /tmp/rtm-aggregate.log
+fi
+
 step "Pre-render"
 # Report pages are static assets now (#115) — generated from whatever is
 # currently in reports/, not from whatever was committed last. Regenerating

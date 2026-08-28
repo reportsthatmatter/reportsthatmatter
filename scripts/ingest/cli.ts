@@ -16,7 +16,8 @@
  * page 12 and another's.
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
+import { parse as parseYaml } from "yaml";
 import { pathToFileURL } from "node:url";
 import {
   Baseline,
@@ -41,9 +42,54 @@ import {
 const ROOT = join(import.meta.dirname, "../..");
 const REPORTS = join(ROOT, "reports");
 
+/**
+ * Where each report's authority lives.
+ *
+ * A migrated report owns its build in its own repo; one still under
+ * `reports/<id>` has not moved yet. Both work, so the migration is per report
+ * rather than a single flag day.
+ */
+function reportDirs(): Map<string, string> {
+  const raw = parseYaml(readFileSync(join(REPORTS, "manifest.yaml"), "utf8")) as {
+    reports?: Array<{ id: string; dir: string }>;
+  };
+  return new Map((raw.reports ?? []).map((entry) => [entry.id, join(ROOT, entry.dir)]));
+}
+
+function reportDir(id: string): string {
+  const dir = reportDirs().get(id);
+  if (!dir) throw new Error(`${id} is not in reports/manifest.yaml`);
+  return dir;
+}
+
+/** Copies each report's authoritative markdown into this repo for serving. */
+function runAggregate(): number {
+  for (const [id, dir] of reportDirs()) {
+    const source = join(dir, "full.md");
+    if (!existsSync(source)) {
+      console.error(
+        `  \x1b[31m✗\x1b[0m ${id}: no full.md at ${dir}\n` +
+          "      Clone the report repo alongside this one, or fix its dir in " +
+          "reports/manifest.yaml. Serving a stale copy silently is worse."
+      );
+      return 1;
+    }
+    const target = join(REPORTS, id, "full.md");
+    if (resolve(source) === resolve(target)) continue;
+    mkdirSync(join(REPORTS, id), { recursive: true });
+    const markdown = readFileSync(source, "utf8");
+    const current = existsSync(target) ? readFileSync(target, "utf8") : null;
+    if (current !== markdown) {
+      writeFileSync(target, markdown, "utf8");
+      console.log(`  updated reports/${id}/full.md from ${dir}`);
+    }
+  }
+  return 0;
+}
+
 /** A report's corrections, if it has any. Absent is normal, not an error. */
 function loadCorrections(id: string): Correction[] {
-  const path = join(REPORTS, id, "corrections.yaml");
+  const path = join(reportDir(id), "corrections.yaml");
   if (!existsSync(path)) return [];
   return parseCorrections(readFileSync(path, "utf8"), id);
 }
@@ -53,10 +99,10 @@ function loadCorrections(id: string): Correction[] {
  * that says how it is built. Dynamic because each report owns its own file.
  */
 async function loadDefinition(id: string): Promise<PipelineDef> {
-  const path = join(REPORTS, id, "ingest.ts");
+  const path = join(reportDir(id), "ingest.ts");
   if (!existsSync(path)) {
     throw new Error(
-      `No pipeline for ${id}: expected ${join("reports", id, "ingest.ts")}`
+      `No pipeline for ${id}: expected ${path}`
     );
   }
   const module = await import(pathToFileURL(path).href);
@@ -95,7 +141,7 @@ async function runIngest(argv: string[]): Promise<number> {
 
   const pageGroups: Page[][] = [];
   for (const volume of def.volumes) {
-    const check = checkVolume(def, volume, ROOT);
+    const check = checkVolume(def, volume, reportDir(id));
     if (check.matched === false) {
       console.error(
         `Checksum mismatch for ${volume.path}\n` +
@@ -142,7 +188,7 @@ function writeReport(
   result: IngestResult,
   corrections: Correction[] = []
 ): number {
-  const dir = join(REPORTS, id);
+  const dir = reportDir(id);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "full.md"), result.markdown, "utf8");
 
@@ -171,9 +217,9 @@ function writeReport(
   ].join("\n");
   writeFileSync(join(dir, "fidelity.md"), `${suspectReport}\n`, "utf8");
 
-  console.log(`\nWrote ${join("reports", id, "full.md")} (${result.markdown.length} chars)`);
+  console.log(`\nWrote ${join(dir, "full.md")} (${result.markdown.length} chars)`);
   console.log(`Pages: ${result.pages}  Footnotes: ${result.footnotes.length}  Auto-fixes: ${result.autoFixes}`);
-  console.log(`OCR review queue: ${result.suspects.length} entries → reports/${id}/fidelity.md`);
+  console.log(`OCR review queue: ${result.suspects.length} entries → ${join(dir, "fidelity.md")}`);
 
   const ok = reportChecks(
     "Fidelity checks",
@@ -217,7 +263,7 @@ async function runVerify(argv: string[]): Promise<number> {
 
     // Without a recipe there is no way to find the source, and comparing the
     // markdown against itself would report a meaningless 100%.
-    if (!existsSync(join(REPORTS, target.id, "ingest.ts"))) {
+    if (!existsSync(join(reportDir(target.id), "ingest.ts"))) {
       console.log(`\n${target.id}`);
       console.error("  \x1b[31m✗\x1b[0m no ingest.ts — cannot verify against the source");
       allOk = false;
@@ -226,7 +272,7 @@ async function runVerify(argv: string[]): Promise<number> {
 
     const def = await loadDefinition(target.id);
     const missing = def.volumes
-      .map((volume) => resolveVolume(def, volume, ROOT))
+      .map((volume) => resolveVolume(def, volume, reportDir(def.id)))
       .filter((path) => !existsSync(path));
     if (missing.length) {
       console.log(`\n${target.id}`);
@@ -238,7 +284,7 @@ async function runVerify(argv: string[]): Promise<number> {
 
     const sourceText = def.volumes
       .map((volume) =>
-        extractPages(resolveVolume(def, volume, ROOT))
+        extractPages(resolveVolume(def, volume, reportDir(def.id)))
           .map((page) => page.lines.join("\n"))
           .join("\n")
       )
@@ -258,7 +304,7 @@ async function runVerify(argv: string[]): Promise<number> {
 async function regenerate(id: string): Promise<IngestResult> {
   const def = await loadDefinition(id);
   const pageGroups = def.volumes.map((volume) =>
-    extractPages(resolveVolume(def, volume, ROOT))
+    extractPages(resolveVolume(def, volume, reportDir(def.id)))
   );
   return ingestPageGroups(
     pageGroups,
@@ -274,12 +320,7 @@ async function regenerate(id: string): Promise<IngestResult> {
 }
 
 function recipeIds(): string[] {
-  return readdirSync(REPORTS, { withFileTypes: true })
-    .filter(
-      (entry) => entry.isDirectory() && existsSync(join(REPORTS, entry.name, "ingest.ts"))
-    )
-    .map((entry) => entry.name)
-    .sort();
+  return [...reportDirs().keys()].sort();
 }
 
 async function runBaseline(argv: string[]): Promise<number> {
@@ -287,11 +328,11 @@ async function runBaseline(argv: string[]): Promise<number> {
   for (const id of argv.length ? argv : recipeIds()) {
     const baseline = computeBaseline(await regenerate(id), poppler);
     writeFileSync(
-      join(REPORTS, id, "baseline.json"),
+      join(reportDir(id), "baseline.json"),
       `${JSON.stringify(baseline, null, 2)}\n`,
       "utf8"
     );
-    console.log(`  wrote reports/${id}/baseline.json`);
+    console.log(`  wrote ${join(reportDir(id), "baseline.json")}`);
   }
   return 0;
 }
@@ -300,7 +341,7 @@ async function runCheck(argv: string[]): Promise<number> {
   const poppler = popplerVersion();
   let ok = true;
   for (const id of argv.length ? argv : recipeIds()) {
-    const path = join(REPORTS, id, "baseline.json");
+    const path = join(reportDir(id), "baseline.json");
     if (!existsSync(path)) {
       console.error(
         `  \x1b[31m✗\x1b[0m ${id}: no baseline.json — run \`pnpm ingest baseline ${id}\``
@@ -337,6 +378,7 @@ if (command === "run") code = await runIngest(rest);
 else if (command === "verify" || command === undefined) code = await runVerify(rest);
 else if (command === "baseline") code = await runBaseline(rest);
 else if (command === "check") code = await runCheck(rest);
+else if (command === "aggregate") code = runAggregate();
 else {
   console.error(`Unknown command: ${command}`);
   code = 1;

@@ -11,7 +11,7 @@ export default pipeline({
   authors: "Committee on Science and Technology, U.S. House of Representatives",
   published_at: "October 1986",
   source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016",
-  repo: "../challenger-accident",
+  repo: "../../../challenger-accident",
   // Order is semantic: footnote numbering and page indices run continuously
   // across volumes, so reordering changes the output.
   volumes: [

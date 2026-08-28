@@ -11,7 +11,7 @@ export default pipeline({
   authors: "Jack Smith, Special Counsel, U.S. Department of Justice",
   published_at: "January 2025",
   source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf",
-  repo: "../jack-smith-report",
+  repo: "../../../jack-smith-report",
   // Order is semantic: footnote numbering and page indices run continuously
   // across volumes, so reordering changes the output.
   volumes: [

@@ -11,7 +11,7 @@ export default pipeline({
   authors: "The Right Honourable Lord Justice Leveson",
   published_at: "29 November 2012",
   source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp",
-  repo: "../uk-leveson-inquiry",
+  repo: "../../../uk-leveson-inquiry",
   // Order is semantic: footnote numbering and page indices run continuously
   // across volumes, so reordering changes the output.
   volumes: [
