@@ -49,7 +49,8 @@ an interactive session.
 | `src/lib/search.ts` | FTS5 query building, bm25 weights, match → quote-anchor arithmetic |
 | `assets/styles.css` | The design system. Hand-written, no framework |
 | `assets/share.js` | Highlight-to-share |
-| `scripts/ingest/` | PDF → Markdown pipeline + fidelity checks |
+| `scripts/ingest/` | PDF → Markdown pipeline + fidelity checks — see its own `README.md` |
+| `reports/<id>/ingest.ts` | How that report is built: volumes, checksums, the passes it declares |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
@@ -59,11 +60,22 @@ an interactive session.
 ## House rules
 
 - **Fixes go in the pipeline, not in its output.** Never hand-edit a generated
-  `reports/*/full.md`; correct `scripts/ingest/` and re-run. Each fix then
-  compounds across every future report. (Planned: a per-report
+  `reports/*/full.md`. Where the fix goes depends on what it is
+  (`scripts/ingest/README.md`): a rule that holds for every document is a
+  shared pass; a property of one source the parser cannot infer is a pass that
+  report *declares* in its own `reports/<id>/ingest.ts`. (Planned: a per-report
   `corrections.yaml` for the human judgements the pipeline cannot make, applied
-  deterministically so output stays reproducible — architecture doc §3. Until
-  that exists, the rule is absolute.)
+  deterministically so output stays reproducible — #106, now stage 5 of #118.
+  Until that exists, the rule is absolute.)
+- **Know a change's blast radius before you commit it.** `pnpm ingest check`
+  regenerates every report and fails if any output moved without its
+  `baseline.json` moving too. It runs in `verify.sh`, takes about five seconds,
+  and exists because a fix aimed at Leveson silently changed three other
+  reports. Read the diff, then `pnpm ingest baseline <id>` to accept it.
+- **A report is rebuilt from its own definition**, not from a remembered
+  command line: `pnpm ingest run <id>` reads `reports/<id>/ingest.ts`, which
+  records the ordered, checksummed source volumes and the passes that report
+  declares.
 - **Never weaken a fidelity check to make a report pass.** If a report cannot
   meet the gate, mark it `ingested: false` in the registry and record why. The
   checks exist to find exactly what a weakened check would hide.
@@ -184,6 +196,9 @@ from what was actually indexed even if a step gets skipped.
   re-running the *original, unmodified* Aug-8 `scripts/ingest/` against
   today's `pdftotext` reproduced 2,079 of those lines with **zero code
   change at all** — `poppler` had updated itself in the two weeks between.
+  `baseline.json` records the poppler version, so `pnpm ingest check` now
+  says "poppler X → Y — tool drift, not a code change" rather than letting
+  you mistake one for the other.
   **To isolate what a code change actually did, regenerate the "before"
   side too, with today's tools, rather than trusting what's on disk** —
   `git checkout <commit> -- scripts/ingest/`, re-run `pnpm ingest run` with

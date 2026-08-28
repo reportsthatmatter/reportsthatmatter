@@ -1,5 +1,4 @@
-import { pipeline } from "../../scripts/ingest/define";
-import { geometry, runningFurniture } from "../../scripts/ingest/passes";
+import { pipeline, geometry, runningFurniture } from "../../scripts/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped

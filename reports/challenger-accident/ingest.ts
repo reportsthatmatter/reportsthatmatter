@@ -1,4 +1,4 @@
-import { pipeline } from "../../scripts/ingest/define";
+import { pipeline } from "../../scripts/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
