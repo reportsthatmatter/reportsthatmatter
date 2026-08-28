@@ -490,7 +490,8 @@ const ABBREVIATION =
 const INITIAL = /\b[A-Z]\.$/;
 
 export function endsSentence(text: string): boolean {
-  if (!/[.?!:;"')\]]$/.test(text)) return false;
+  const terminal = text.trim().replace(/["')\]]+$/, "");
+  if (!/[.?!:;]$/.test(terminal)) return false;
   if (ABBREVIATION.test(text) || INITIAL.test(text)) return false;
   return true;
 }

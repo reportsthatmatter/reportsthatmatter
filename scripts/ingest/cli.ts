@@ -17,7 +17,7 @@
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { ingestPages } from "./pipeline";
+import { ingestPageGroups } from "./pipeline";
 import { runChecks } from "./fidelity";
 import { extractPages, type Page } from "./extract";
 
@@ -62,16 +62,13 @@ function runIngest(argv: string[]): number {
     return 1;
   }
 
-  const pages: Page[] = [];
+  const pageGroups: Page[][] = [];
   for (const pdfPath of pdfPaths) {
     console.log(`Extracting ${pdfPath} …`);
-    pages.push(...extractPages(pdfPath));
+    pageGroups.push(extractPages(pdfPath));
   }
-  // Renumbered to run continuously across every volume — each PDF's own
-  // extractPages() restarts at 1, which would otherwise collide.
-  const renumbered = pages.map((page, i) => ({ ...page, index: i + 1 }));
 
-  const result = ingestPages(renumbered, {
+  const result = ingestPageGroups(pageGroups, {
     title,
     authors: arg(argv, "authors"),
     published_at: arg(argv, "published"),

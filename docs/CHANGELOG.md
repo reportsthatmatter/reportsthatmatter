@@ -7,6 +7,17 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-08-28 — Leveson reads across the page as it does in print
+
+Several passages in the Leveson Inquiry were broken at a page edge: running
+headers appeared in the text, and ordinary continuation lines were shown as
+quotations. The report now keeps paragraphs together across those page breaks
+and preserves only genuine indented quotations.
+
+![Operation Glade after the page-flow repair](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-28-leveson-ingest-layout/after-operation-glade.png)
+
+---
+
 ## 2026-08-28 — The Litvinenko Inquiry gets its real contents page
 
 The Litvinenko report's table of contents was listing sentence fragments —

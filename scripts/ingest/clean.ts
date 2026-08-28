@@ -1,4 +1,4 @@
-import type { Page } from "./extract";
+import { normaliseWhitespace, type Page } from "./extract";
 
 export type SplitPage = {
   index: number;
@@ -7,6 +7,9 @@ export type SplitPage = {
   body: string[];
   footnotes: string[];
 };
+
+const PAGE_EDGE_DEPTH = 3;
+const MIN_REPEATED_FURNITURE = 3;
 
 const PAGE_NUMBER = /^\s*(\d{1,4}|[ivxlcdm]{1,8})\s*$/i;
 
@@ -115,6 +118,53 @@ export function splitPage(page: Page, expectedNote: number): SplitPage {
     body: lines.slice(0, noteStart),
     footnotes: lines.slice(noteStart),
   };
+}
+
+/**
+ * Removes running headers and footers that recur at a page edge. PDF text
+ * extraction cannot distinguish these from the report body, but their repeated
+ * position can: a real line of prose should not appear at the top or bottom of
+ * three distinct pages.
+ */
+export function stripRepeatedPageFurniture(pages: SplitPage[]): SplitPage[] {
+  const counts = new Map<string, number>();
+  const edgeIndices = pages.map((page) => pageEdgeIndices(page.body));
+
+  for (const [pageIndex, page] of pages.entries()) {
+    const seen = new Set<string>();
+    for (const lineIndex of edgeIndices[pageIndex]) {
+      const text = normaliseWhitespace(page.body[lineIndex]);
+      if (text) seen.add(text);
+    }
+    for (const text of seen) counts.set(text, (counts.get(text) ?? 0) + 1);
+  }
+
+  return pages.map((page, pageIndex) => ({
+    ...page,
+    body: page.body.filter((line, lineIndex) => {
+      if (!edgeIndices[pageIndex].has(lineIndex)) return true;
+      const text = normaliseWhitespace(line);
+      return !text || (counts.get(text) ?? 0) < MIN_REPEATED_FURNITURE;
+    }),
+  }));
+}
+
+function pageEdgeIndices(lines: string[]): Set<number> {
+  const indices = new Set<number>();
+  let found = 0;
+  for (let i = 0; i < lines.length && found < PAGE_EDGE_DEPTH; i++) {
+    if (!lines[i].trim()) continue;
+    indices.add(i);
+    found += 1;
+  }
+
+  found = 0;
+  for (let i = lines.length - 1; i >= 0 && found < PAGE_EDGE_DEPTH; i--) {
+    if (!lines[i].trim()) continue;
+    indices.add(i);
+    found += 1;
+  }
+  return indices;
 }
 
 type Candidate = { line: number; note: number };

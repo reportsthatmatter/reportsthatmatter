@@ -13,6 +13,7 @@ import {
 } from "../scripts/ingest/footnotes";
 import { autoFix, findSuspects } from "../scripts/ingest/ocr";
 import { structuralChecks, losslessCheck, retentionCheck } from "../scripts/ingest/fidelity";
+import { ingestPageGroups } from "../scripts/ingest/pipeline";
 
 const page = (lines: string[], index = 1) => ({ index, lines });
 
@@ -88,6 +89,58 @@ describe("collapseDoubleSpacing", () => {
   it("leaves single-spaced pages alone", () => {
     const lines = ["one", "two", "three", "four"];
     expect(collapseDoubleSpacing(lines)).toEqual(lines);
+  });
+});
+
+describe("numbered paragraphs with running headers", () => {
+  it("keeps Leveson-style body text out of block quotes and joins a page continuation", () => {
+    const result = ingestPageGroups(
+      [
+        [
+          page(
+            [
+              "        The volume's ordinary body establishes its text column.",
+              "        Another ordinary body line keeps that column representative.",
+              "        A third ordinary body line is also at the text column.",
+              "        A fourth ordinary body line is also at the text column.",
+              "        A fifth ordinary body line is also at the text column.",
+              "        A sixth ordinary body line is also at the text column.",
+              "    2.1     Operation Glade has been rendered",
+              "253",
+            ],
+            1
+          ),
+          page(
+            [
+              "    PART E | Crossing Legal Boundaries: The Criminal and Civil Law",
+              "            more credible in the light of the evidence that emerged.",
+              "    2.2     Operation Motorman was commenced because an audit had",
+              "            identified that Paul Marshall had been accessing the PNC.",
+              "",
+              "                 \"A genuinely quoted passage stays indented and",
+              "                 continues on another line.\"",
+              "254",
+            ],
+            2
+          ),
+          page(["    PART E | Crossing Legal Boundaries: The Criminal and Civil Law", "255"], 3),
+          page(["    PART E | Crossing Legal Boundaries: The Criminal and Civil Law", "256"], 4),
+        ],
+        [page(["A second volume makes this a multi-volume ingest.", "1"], 1)],
+      ],
+      { title: "Layout fixture" }
+    );
+
+    expect(result.markdown).not.toContain("PART E |");
+    expect(result.markdown).toContain(
+      "2.1 Operation Glade has been rendered more credible in the light of the evidence that emerged."
+    );
+    expect(result.markdown).toContain(
+      "2.2 Operation Motorman was commenced because an audit had identified that Paul Marshall had been accessing the PNC."
+    );
+    expect(result.markdown).toContain(
+      '> "A genuinely quoted passage stays indented and continues on another line."'
+    );
   });
 });
 
@@ -355,6 +408,10 @@ describe("block quotes vs first-line indents", () => {
 });
 
 describe("mergeAcrossPages", () => {
+  it("does not treat a closing parenthesis as sentence punctuation", () => {
+    expect(endsSentence("a check through the Criminal Records Office (CRO)")).toBe(false);
+  });
+
   it("rejoins a sentence broken by a page break", () => {
     const merged = mergeAcrossPages([
       { kind: "paragraph", text: "crowds at the Capitol hunted for Mr. Pence and" },

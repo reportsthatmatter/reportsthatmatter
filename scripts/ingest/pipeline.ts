@@ -1,5 +1,5 @@
 import { extractPages, type Page } from "./extract";
-import { splitPage, collapseDoubleSpacing } from "./clean";
+import { splitPage, collapseDoubleSpacing, stripRepeatedPageFurniture } from "./clean";
 import {
   toBlocks,
   blocksToMarkdown,
@@ -34,42 +34,67 @@ export type Metadata = {
  * result — that way every correction compounds across future reports.
  */
 export function ingest(pdfPath: string, meta: Metadata): IngestResult {
-  const pages = extractPages(pdfPath);
-  return ingestPages(pages, meta);
+  return ingestPageGroups([extractPages(pdfPath)], meta);
 }
 
 export function ingestPages(pages: Page[], meta: Metadata): IngestResult {
+  return ingestPageGroups([pages], meta);
+}
+
+/**
+ * Ingests one continuous report from one or more PDFs. Multi-volume reports
+ * keep a margin per source volume: each PDF's page furniture and typesetting
+ * may differ, so one global margin is not meaningful across all of them.
+ */
+export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestResult {
+  const pages = pageGroups.flat().map((page, i) => ({ ...page, index: i + 1 }));
   const sourceText = pages.map((page) => page.lines.join("\n")).join("\n");
 
   const footnotes: Footnote[] = [];
   const bodyChunks: Block[] = [];
   let expectedNote = 1;
 
-  // Infer the running left margin once, from the whole document.
-  const documentMargin = bodyIndent(pages.flatMap((page) => page.lines));
+  let pageOffset = 0;
+  const splitGroups = pageGroups.map((group) =>
+    group.map(() => {
+      const split = splitPage(pages[pageOffset++], expectedNote);
 
-  for (const page of pages) {
-    const split = splitPage(page, expectedNote);
+      if (split.footnotes.length) {
+        const parsed = parseFootnotes(split.footnotes, split.index);
+        footnotes.push(...parsed);
+        if (parsed.length) expectedNote = Math.max(...parsed.map((n) => n.number)) + 1;
+      }
+      return split;
+    })
+  );
 
-    if (split.footnotes.length) {
-      const parsed = parseFootnotes(split.footnotes, page.index);
-      footnotes.push(...parsed);
-      if (parsed.length) expectedNote = Math.max(...parsed.map((n) => n.number)) + 1;
+  // A repeated running header is meaningful evidence only when every source
+  // volume supplies its own repeated page furniture. Preserve the established
+  // single-PDF path until that separate layout class has its own evidence.
+  const cleanedGroups =
+    pageGroups.length > 1
+      ? splitGroups.map((group) => stripRepeatedPageFurniture(group))
+      : splitGroups;
+  const margins =
+    pageGroups.length > 1
+      ? cleanedGroups.map((group) => bodyIndent(group.flatMap((page) => page.body)))
+      : [bodyIndent(pages.flatMap((page) => page.lines))];
+
+  for (const [groupIndex, group] of cleanedGroups.entries()) {
+    for (const split of group) {
+      const pageLines = collapseDoubleSpacing(split.body);
+      const blocks = isContentsPage(pageLines)
+        ? parseContentsPage(pageLines)
+        : toBlocks(pageLines, margins[groupIndex]);
+
+      // Record where each printed page begins. These documents are cited by page
+      // ("Report at 62"), so the printed number is the citation unit readers
+      // already use — and it can be checked against the original PDF.
+      if (split.printed !== null && blocks.length) {
+        bodyChunks.push({ kind: "page", number: split.printed });
+      }
+      bodyChunks.push(...blocks);
     }
-
-
-    const pageLines = collapseDoubleSpacing(split.body);
-    const blocks = isContentsPage(pageLines)
-      ? parseContentsPage(pageLines)
-      : toBlocks(pageLines, documentMargin);
-
-    // Record where each printed page begins. These documents are cited by page
-    // ("Report at 62"), so the printed number is the citation unit readers
-    // already use — and it can be checked against the original PDF.
-    if (split.printed !== null && blocks.length) {
-      bodyChunks.push({ kind: "page", number: split.printed });
-    }
-    bodyChunks.push(...blocks);
   }
 
   let body = blocksToMarkdown(mergeAcrossPages(bodyChunks));
