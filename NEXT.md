@@ -25,7 +25,9 @@ condition is `./scripts/verify.sh`; after deploying,
 | [#103](https://github.com/reportsthatmatter/reportsthatmatter/issues/103) | No-space footnote markers (Litvinenko) |
 | [#104](https://github.com/reportsthatmatter/reportsthatmatter/issues/104) | Ingestion odds and ends |
 | [#114](https://github.com/reportsthatmatter/reportsthatmatter/issues/114) | Spike: remark vs markdown-it — pair with #102–#104 |
-| [#106](https://github.com/reportsthatmatter/reportsthatmatter/issues/106) | `corrections.yaml` — unblocks #105 |
+| [#120](https://github.com/reportsthatmatter/reportsthatmatter/issues/120) | A docket row becomes a division heading — blocks republishing jack-smith and challenger |
+| [#118](https://github.com/reportsthatmatter/reportsthatmatter/issues/118) | Ingestion architecture. Plan A1 landed; A2 (provenance, core library) to write |
+| [#106](https://github.com/reportsthatmatter/reportsthatmatter/issues/106) | `corrections.yaml` — unblocks #105. Subsumed by #118, now stage 5 |
 | [#110](https://github.com/reportsthatmatter/reportsthatmatter/issues/110) · [#111](https://github.com/reportsthatmatter/reportsthatmatter/issues/111) · [#112](https://github.com/reportsthatmatter/reportsthatmatter/issues/112) | UX odds and ends |
 | [#14](https://github.com/reportsthatmatter/reportsthatmatter/issues/14) | Accessible link colour |
 | [#117](https://github.com/reportsthatmatter/reportsthatmatter/issues/117) | Pin `poppler`/`pdftotext` |
