@@ -124,7 +124,45 @@ re-derives structure by re-parsing markdown. This is why "which volume did this
 come from?" is unanswerable at review time, and why a correction has nothing
 stable to address except a bare string.
 
-### 1.7 `pdftotext` is unpinned and drifts (#117)
+### 1.7 Four of five published reports are already stale, and nobody could tell
+
+Measured 2026-08-28 by regenerating every report from its source with today's
+code and today's poppler, then isolating the code change from tool drift with
+the procedure `AGENTS.md` mandates (`git checkout f07a860~1 -- scripts/ingest/`,
+regenerate both sides, diff *those*):
+
+| Report | f07a860 changed it | Committed file is stale by |
+| --- | --- | --- |
+| uk-leveson-inquiry | yes (intended) | — regenerated, identical |
+| litvinenko-inquiry | **yes, unintended** | 3 hunks |
+| us-psi-financial-crisis | **yes, unintended** | 39 hunks (2 from f07a860) |
+| challenger-accident | **yes, unintended** | 37 hunks (21 from f07a860) |
+| jack-smith-vol1 | no | 104 hunks, from earlier changes |
+
+Two things follow, and the second is the important one.
+
+**The Leveson fix changed three other reports without anyone noticing.** Its own
+comment says it "preserve[s] the established single-PDF path", and the
+`pageGroups.length > 1` guard does protect the multi-volume behaviour — but the
+commit's other edits to `paragraphs.ts` and `clean.ts` leaked into every
+single-PDF report. Nobody could tell, because nothing measures it (1.5).
+
+**Every leaked change is an improvement.** They are paragraphs correctly rejoined
+across a page break — `(1)` followed by an orphaned clause becomes
+`(1) which includes materials submitted for the record, staff investigations,
+interviews, and trips.` The pipeline got better and the *published site did not*,
+because only Leveson was re-ingested.
+
+So the failure this architecture is meant to prevent has already happened, in
+both directions at once: an improvement propagated where it was not expected
+(silently), and failed to reach the published text where it was wanted
+(silently). That is the whole argument for §5 and §7, observed rather than
+predicted.
+
+Republishing these four is a separate, reviewed decision — `AGENTS.md` is
+explicit that a re-ingest is not published as a side effect of anything else.
+
+### 1.8 `pdftotext` is unpinned and drifts (#117)
 
 An external dependency that changed under the project mid-flight, in a system
 whose promise is "a citation resolves to the same text forever". Combined with
@@ -431,9 +469,12 @@ mismatch, and make the override force a baseline review.
 Each stage is shippable on its own. Stages 0–3 change no output, which is what
 makes them safe to do quickly.
 
-**Plan A — stages 0–3, no output change.** These are one implementation plan.
-Every stage ends with all five reports byte-identical, which is both the safety
-property and the acceptance test.
+**Plan A — stages 0–3, no output change.** Split into two plans, because
+recipes-and-regression and core-library-extraction are separate subsystems:
+**A1** is stages 0–1 plus the republish §1.7 makes necessary
+([plan](2026-08-28-ingestion-plan-a1-implementation.md)); **A2** is stages 2–3,
+written once A1 lands, since it needs A1's baselines to prove it changes no
+output.
 
 | | | Output changes? |
 | --- | --- | --- |
