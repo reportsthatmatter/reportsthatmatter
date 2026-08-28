@@ -1,5 +1,6 @@
 import { extractPages, type Page } from "./extract";
-import { splitPage, collapseDoubleSpacing, stripRepeatedPageFurniture } from "./clean";
+import { splitPage, collapseDoubleSpacing } from "./clean";
+import type { ResolvedPasses } from "./define";
 import {
   toBlocks,
   blocksToMarkdown,
@@ -46,7 +47,11 @@ export function ingestPages(pages: Page[], meta: Metadata): IngestResult {
  * keep a margin per source volume: each PDF's page furniture and typesetting
  * may differ, so one global margin is not meaningful across all of them.
  */
-export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestResult {
+export function ingestPageGroups(
+  pageGroups: Page[][],
+  meta: Metadata,
+  resolved: ResolvedPasses = { geometry: "document", volumePasses: [] }
+): IngestResult {
   // Volume is assigned here because this is the only place that knows the
   // order the volumes were given in — and that order is semantic: footnote
   // numbering and page indices run continuously across them.
@@ -77,15 +82,13 @@ export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestRe
     })
   );
 
-  // A repeated running header is meaningful evidence only when every source
-  // volume supplies its own repeated page furniture. Preserve the established
-  // single-PDF path until that separate layout class has its own evidence.
-  const cleanedGroups =
-    pageGroups.length > 1
-      ? splitGroups.map((group) => stripRepeatedPageFurniture(group))
-      : splitGroups;
+  // Which passes run is a declared property of the document, not something
+  // inferred from how many arguments were typed on the command line.
+  const cleanedGroups = splitGroups.map((group) =>
+    resolved.volumePasses.reduce((pages, pass) => pass.run(pages), group)
+  );
   const margins =
-    pageGroups.length > 1
+    resolved.geometry === "per-volume"
       ? cleanedGroups.map((group) => bodyIndent(group.flatMap((page) => page.body)))
       : [bodyIndent(pages.flatMap((page) => page.lines))];
 
@@ -96,7 +99,7 @@ export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestRe
       const blocks = (
         isContentsPage(pageLines)
           ? parseContentsPage(pageLines)
-          : toBlocks(pageLines, margins[groupIndex])
+          : toBlocks(pageLines, margins[resolved.geometry === "per-volume" ? groupIndex : 0])
       ).map((block) => ({ ...block, at }));
 
       // Record where each printed page begins. These documents are cited by page

@@ -21,6 +21,13 @@ import {
   runChecks,
 } from "../scripts/ingest/fidelity";
 import { ingestPageGroups } from "../scripts/ingest/pipeline";
+import { runningFurniture } from "../scripts/ingest/passes";
+
+/** What a multi-volume report declares: per-volume geometry, furniture stripped. */
+const MULTI_VOLUME = {
+  geometry: "per-volume" as const,
+  volumePasses: [runningFurniture()],
+};
 
 const page = (lines: string[], index = 1) => ({
   index,
@@ -140,7 +147,8 @@ describe("numbered paragraphs with running headers", () => {
         ],
         [page(["A second volume makes this a multi-volume ingest.", "1"], 1)],
       ],
-      { title: "Layout fixture" }
+      { title: "Layout fixture" },
+      MULTI_VOLUME
     );
 
     expect(result.markdown).not.toContain("PART E |");

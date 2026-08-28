@@ -17,8 +17,10 @@
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 import { ingestPageGroups, type IngestResult } from "./pipeline";
-import { parseRecipe, checkVolume, resolveVolume } from "./recipe";
+import { checkVolume, resolveVolume } from "./volumes";
+import { resolvePasses, type PipelineDef } from "./define";
 import { computeBaseline, diffBaselines, type Baseline } from "./baseline";
 import { execFileSync } from "node:child_process";
 import { runChecks } from "./fidelity";
@@ -26,6 +28,21 @@ import { extractPages, type Page } from "./extract";
 
 const ROOT = join(import.meta.dirname, "../..");
 const REPORTS = join(ROOT, "reports");
+
+/**
+ * Loads a report's pipeline definition — the program in its own directory
+ * that says how it is built. Dynamic because each report owns its own file.
+ */
+async function loadDefinition(id: string): Promise<PipelineDef> {
+  const path = join(REPORTS, id, "ingest.ts");
+  if (!existsSync(path)) {
+    throw new Error(
+      `No pipeline for ${id}: expected ${join("reports", id, "ingest.ts")}`
+    );
+  }
+  const module = await import(pathToFileURL(path).href);
+  return module.default as PipelineDef;
+}
 
 function arg(flags: string[], name: string): string | undefined {
   const i = flags.indexOf(`--${name}`);
@@ -42,36 +59,30 @@ function reportChecks(label: string, checks: ReturnType<typeof runChecks>): bool
   return ok;
 }
 
-function runIngest(argv: string[]): number {
+async function runIngest(argv: string[]): Promise<number> {
   const id = argv[0];
   if (!id || id.startsWith("--")) {
     console.error("Usage: pnpm ingest run <report-id>");
     return 1;
   }
 
-  const recipePath = join(REPORTS, id, "ingest.yaml");
-  if (!existsSync(recipePath)) {
-    console.error(`No recipe for ${id}: expected ${join("reports", id, "ingest.yaml")}`);
-    return 1;
-  }
-
-  let recipe;
+  let def: PipelineDef;
   try {
-    recipe = parseRecipe(readFileSync(recipePath, "utf8"), id);
+    def = await loadDefinition(id);
   } catch (error) {
     console.error(error instanceof Error ? error.message : String(error));
     return 1;
   }
 
   const pageGroups: Page[][] = [];
-  for (const volume of recipe.volumes) {
-    const check = checkVolume(recipe, volume, ROOT);
+  for (const volume of def.volumes) {
+    const check = checkVolume(def, volume, ROOT);
     if (check.matched === false) {
       console.error(
         `Checksum mismatch for ${volume.path}\n` +
-          `  recipe:  ${volume.sha256}\n` +
-          `  on disk: ${check.sha256}\n` +
-          "The source changed, or the recipe is wrong. Do not ingest until this is resolved."
+          `  definition: ${volume.sha256}\n` +
+          `  on disk:    ${check.sha256}\n` +
+          "The source changed, or the definition is wrong. Do not ingest until this is resolved."
       );
       return 1;
     }
@@ -80,14 +91,18 @@ function runIngest(argv: string[]): number {
     pageGroups.push(extractPages(check.path));
   }
 
-  const result = ingestPageGroups(pageGroups, {
-    title: recipe.title,
-    authors: recipe.authors,
-    published_at: recipe.published_at,
-    source_url: recipe.source_url,
-  });
+  const result = ingestPageGroups(
+    pageGroups,
+    {
+      title: def.title,
+      authors: def.authors,
+      published_at: def.published_at,
+      source_url: def.source_url,
+    },
+    resolvePasses(def)
+  );
 
-  return writeReport(id, recipe.title, result);
+  return writeReport(id, def.title, result);
 }
 
 /**
@@ -134,7 +149,7 @@ function writeReport(id: string, title: string, result: IngestResult): number {
   return ok ? 0 : 1;
 }
 
-function runVerify(argv: string[]): number {
+async function runVerify(argv: string[]): Promise<number> {
   const registryPath = join(REPORTS, "registry.yaml");
   const registry = readFileSync(registryPath, "utf8");
 
@@ -169,29 +184,28 @@ function runVerify(argv: string[]): number {
 
     // Without a recipe there is no way to find the source, and comparing the
     // markdown against itself would report a meaningless 100%.
-    const recipePath = join(REPORTS, target.id, "ingest.yaml");
-    if (!existsSync(recipePath)) {
+    if (!existsSync(join(REPORTS, target.id, "ingest.ts"))) {
       console.log(`\n${target.id}`);
-      console.error("  \x1b[31m✗\x1b[0m no ingest.yaml — cannot verify against the source");
+      console.error("  \x1b[31m✗\x1b[0m no ingest.ts — cannot verify against the source");
       allOk = false;
       continue;
     }
 
-    const recipe = parseRecipe(readFileSync(recipePath, "utf8"), target.id);
-    const missing = recipe.volumes
-      .map((volume) => resolveVolume(recipe, volume, ROOT))
+    const def = await loadDefinition(target.id);
+    const missing = def.volumes
+      .map((volume) => resolveVolume(def, volume, ROOT))
       .filter((path) => !existsSync(path));
     if (missing.length) {
       console.log(`\n${target.id}`);
       console.error(`  \x1b[31m✗\x1b[0m source unavailable: ${missing[0]}`);
-      console.error(`      clone ${recipe.repo} alongside this repo, then re-run`);
+      console.error(`      clone ${def.repo} alongside this repo, then re-run`);
       allOk = false;
       continue;
     }
 
-    const sourceText = recipe.volumes
+    const sourceText = def.volumes
       .map((volume) =>
-        extractPages(resolveVolume(recipe, volume, ROOT))
+        extractPages(resolveVolume(def, volume, ROOT))
           .map((page) => page.lines.join("\n"))
           .join("\n")
       )
@@ -211,33 +225,37 @@ function popplerVersion(): string {
   return /pdftotext version (\S+)/.exec(out)?.[1] ?? "unknown";
 }
 
-/** Regenerates a report from its recipe, in memory, writing nothing. */
-function regenerate(id: string): IngestResult {
-  const recipe = parseRecipe(readFileSync(join(REPORTS, id, "ingest.yaml"), "utf8"), id);
-  const pageGroups = recipe.volumes.map((volume) =>
-    extractPages(resolveVolume(recipe, volume, ROOT))
+/** Regenerates a report from its definition, in memory, writing nothing. */
+async function regenerate(id: string): Promise<IngestResult> {
+  const def = await loadDefinition(id);
+  const pageGroups = def.volumes.map((volume) =>
+    extractPages(resolveVolume(def, volume, ROOT))
   );
-  return ingestPageGroups(pageGroups, {
-    title: recipe.title,
-    authors: recipe.authors,
-    published_at: recipe.published_at,
-    source_url: recipe.source_url,
-  });
+  return ingestPageGroups(
+    pageGroups,
+    {
+      title: def.title,
+      authors: def.authors,
+      published_at: def.published_at,
+      source_url: def.source_url,
+    },
+    resolvePasses(def)
+  );
 }
 
 function recipeIds(): string[] {
   return readdirSync(REPORTS, { withFileTypes: true })
     .filter(
-      (entry) => entry.isDirectory() && existsSync(join(REPORTS, entry.name, "ingest.yaml"))
+      (entry) => entry.isDirectory() && existsSync(join(REPORTS, entry.name, "ingest.ts"))
     )
     .map((entry) => entry.name)
     .sort();
 }
 
-function runBaseline(argv: string[]): number {
+async function runBaseline(argv: string[]): Promise<number> {
   const poppler = popplerVersion();
   for (const id of argv.length ? argv : recipeIds()) {
-    const baseline = computeBaseline(regenerate(id), poppler);
+    const baseline = computeBaseline(await regenerate(id), poppler);
     writeFileSync(
       join(REPORTS, id, "baseline.json"),
       `${JSON.stringify(baseline, null, 2)}\n`,
@@ -248,7 +266,7 @@ function runBaseline(argv: string[]): number {
   return 0;
 }
 
-function runCheck(argv: string[]): number {
+async function runCheck(argv: string[]): Promise<number> {
   const poppler = popplerVersion();
   let ok = true;
   for (const id of argv.length ? argv : recipeIds()) {
@@ -261,7 +279,7 @@ function runCheck(argv: string[]): number {
       continue;
     }
     const before = JSON.parse(readFileSync(path, "utf8")) as Baseline;
-    const differences = diffBaselines(before, computeBaseline(regenerate(id), poppler));
+    const differences = diffBaselines(before, computeBaseline(await regenerate(id), poppler));
     if (!differences.length) {
       console.log(`  \x1b[32m✓\x1b[0m ${id}`);
       continue;
@@ -282,10 +300,10 @@ function runCheck(argv: string[]): number {
 
 const [command, ...rest] = process.argv.slice(2);
 let code = 0;
-if (command === "run") code = runIngest(rest);
-else if (command === "verify" || command === undefined) code = runVerify(rest);
-else if (command === "baseline") code = runBaseline(rest);
-else if (command === "check") code = runCheck(rest);
+if (command === "run") code = await runIngest(rest);
+else if (command === "verify" || command === undefined) code = await runVerify(rest);
+else if (command === "baseline") code = await runBaseline(rest);
+else if (command === "check") code = await runCheck(rest);
 else {
   console.error(`Unknown command: ${command}`);
   code = 1;
