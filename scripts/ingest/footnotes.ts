@@ -1,6 +1,12 @@
 import { normaliseWhitespace } from "./extract";
 
-export type Footnote = { number: number; text: string; page: number };
+export type Footnote = {
+  number: number;
+  text: string;
+  page: number;
+  volume?: number;
+  pdfIndex?: number;
+};
 
 const NOTE_INLINE = /^\s{0,8}(\d{1,4})\s{0,3}(?=[A-Za-z"“(])/;
 const NOTE_STACKED = /^\s{0,10}(\d{1,4})\s*$/;

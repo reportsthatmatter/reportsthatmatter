@@ -22,7 +22,12 @@ import {
 } from "../scripts/ingest/fidelity";
 import { ingestPageGroups } from "../scripts/ingest/pipeline";
 
-const page = (lines: string[], index = 1) => ({ index, lines });
+const page = (lines: string[], index = 1) => ({
+  index,
+  volume: 1,
+  pdfIndex: index,
+  lines,
+});
 
 describe("splitPage", () => {
   it("strips the printed page number from the foot of the page", () => {

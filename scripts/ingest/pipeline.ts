@@ -47,7 +47,12 @@ export function ingestPages(pages: Page[], meta: Metadata): IngestResult {
  * may differ, so one global margin is not meaningful across all of them.
  */
 export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestResult {
-  const pages = pageGroups.flat().map((page, i) => ({ ...page, index: i + 1 }));
+  // Volume is assigned here because this is the only place that knows the
+  // order the volumes were given in — and that order is semantic: footnote
+  // numbering and page indices run continuously across them.
+  const pages = pageGroups.flatMap((group, groupIndex) =>
+    group.map((page) => ({ ...page, volume: groupIndex + 1 }))
+  ).map((page, i) => ({ ...page, index: i + 1 }));
   const sourceText = pages.map((page) => page.lines.join("\n")).join("\n");
 
   const footnotes: Footnote[] = [];
@@ -60,7 +65,11 @@ export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestRe
       const split = splitPage(pages[pageOffset++], expectedNote);
 
       if (split.footnotes.length) {
-        const parsed = parseFootnotes(split.footnotes, split.index);
+        const parsed = parseFootnotes(split.footnotes, split.index).map((note) => ({
+          ...note,
+          volume: split.volume,
+          pdfIndex: split.pdfIndex,
+        }));
         footnotes.push(...parsed);
         if (parsed.length) expectedNote = Math.max(...parsed.map((n) => n.number)) + 1;
       }
@@ -83,15 +92,18 @@ export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestRe
   for (const [groupIndex, group] of cleanedGroups.entries()) {
     for (const split of group) {
       const pageLines = collapseDoubleSpacing(split.body);
-      const blocks = isContentsPage(pageLines)
-        ? parseContentsPage(pageLines)
-        : toBlocks(pageLines, margins[groupIndex]);
+      const at = { volume: split.volume, pdfIndex: split.pdfIndex, printed: split.printed };
+      const blocks = (
+        isContentsPage(pageLines)
+          ? parseContentsPage(pageLines)
+          : toBlocks(pageLines, margins[groupIndex])
+      ).map((block) => ({ ...block, at }));
 
       // Record where each printed page begins. These documents are cited by page
       // ("Report at 62"), so the printed number is the citation unit readers
       // already use — and it can be checked against the original PDF.
       if (split.printed !== null && blocks.length) {
-        bodyChunks.push({ kind: "page", number: split.printed });
+        bodyChunks.push({ kind: "page", number: split.printed, at });
       }
       bodyChunks.push(...blocks);
     }
@@ -106,7 +118,13 @@ export function ingestPageGroups(pageGroups: Page[][], meta: Metadata): IngestRe
   body = linkInlineMarkers(body, known);
 
   const suspects = rankSuspects(
-    pages.flatMap((page) => findSuspects(page.lines.join(" "), page.index))
+    pages.flatMap((page) =>
+      findSuspects(page.lines.join(" "), page.index).map((suspect) => ({
+        ...suspect,
+        volume: page.volume,
+        pdfIndex: page.pdfIndex,
+      }))
+    )
   );
 
   // Footnote and citation text is where the scan degrades worst, so the same

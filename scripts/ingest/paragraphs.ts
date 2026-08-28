@@ -1,12 +1,21 @@
 import { normaliseWhitespace } from "./extract";
 
-export type Block =
+/**
+ * Where a block came from in the source. Carried so a fidelity note or an OCR
+ * suspect can say "Volume II, PDF page 412, printed 380" rather than a flat
+ * index into a document that no longer exists as one file. `blocksToMarkdown`
+ * ignores it: provenance is metadata about the text, not part of it.
+ */
+export type Provenance = { volume: number; pdfIndex: number; printed: number | null };
+
+export type Block = (
   | { kind: "paragraph"; text: string }
   | { kind: "list"; items: string[]; quoted: boolean }
   | { kind: "heading"; level: number; text: string }
   | { kind: "quote"; text: string }
   | { kind: "contents"; text: string; page: string }
-  | { kind: "page"; number: number };
+  | { kind: "page"; number: number }
+) & { at?: Provenance };
 
 const HEADING_MAX_WORDS = 14;
 const ROMAN = /^[IVXLC]+\.?$/;

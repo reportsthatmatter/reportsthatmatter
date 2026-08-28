@@ -1,8 +1,12 @@
 import { execFileSync } from "node:child_process";
 
 export type Page = {
-  /** 1-based index as it appears in the PDF, not the printed page number. */
+  /** 1-based index across the whole report, not the printed page number. */
   index: number;
+  /** Which source volume this page came from, 1-based. */
+  volume: number;
+  /** 1-based index within its own PDF. What you open the file at to check. */
+  pdfIndex: number;
   lines: string[];
 };
 
@@ -26,7 +30,14 @@ export function extractPages(pdfPath: string): Page[] {
 
   return raw
     .split("\f")
-    .map((page, i) => ({ index: i + 1, lines: page.split("\n") }))
+    .map((page, i) => ({
+      index: i + 1,
+      // Volume is assigned by the caller: this function sees one PDF and has
+      // no way to know where it sits in the report's order.
+      volume: 1,
+      pdfIndex: i + 1,
+      lines: page.split("\n"),
+    }))
     .filter((page) => page.lines.some((line) => line.trim().length > 0));
 }
 

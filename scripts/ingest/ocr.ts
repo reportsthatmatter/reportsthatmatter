@@ -13,6 +13,8 @@ export type Suspect = {
   match: string;
   context: string;
   page: number;
+  volume?: number;
+  pdfIndex?: number;
   confidence: "certain" | "likely" | "possible";
 };
 

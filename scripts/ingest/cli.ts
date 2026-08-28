@@ -90,6 +90,16 @@ function runIngest(argv: string[]): number {
   return writeReport(id, recipe.title, result);
 }
 
+/**
+ * Where to look in the source. A flat page index is useless for a multi-volume
+ * report — Leveson's four PDFs each start at page 1 — so cite the volume and
+ * the page you would actually open the file at.
+ */
+function where(s: { page: number; volume?: number; pdfIndex?: number }): string {
+  if (s.volume === undefined || s.pdfIndex === undefined) return String(s.page);
+  return `Vol ${s.volume} · PDF p.${s.pdfIndex}`;
+}
+
 /** Writes a report's markdown and its OCR review queue, then gates on fidelity. */
 function writeReport(id: string, title: string, result: IngestResult): number {
   const dir = join(REPORTS, id);
@@ -105,13 +115,13 @@ function writeReport(id: string, title: string, result: IngestResult): number {
     "faithful to the scan is a human judgement; these are the places most likely",
     "to need one.",
     "",
-    "| Confidence | Pattern | Text | Page | Context |",
+    "| Confidence | Pattern | Text | Where | Context |",
     "| --- | --- | --- | --- | --- |",
     ...result.suspects
       .slice(0, 200)
       .map(
         (s) =>
-          `| ${s.confidence} | ${s.pattern} | \`${s.match}\` | ${s.page} | ${s.context.replace(/\|/g, "\\|")} |`
+          `| ${s.confidence} | ${s.pattern} | \`${s.match}\` | ${where(s)} | ${s.context.replace(/\|/g, "\\|")} |`
       ),
   ].join("\n");
   writeFileSync(join(dir, "fidelity.md"), `${suspectReport}\n`, "utf8");

@@ -2,6 +2,8 @@ import { normaliseWhitespace, type Page } from "./extract";
 
 export type SplitPage = {
   index: number;
+  volume: number;
+  pdfIndex: number;
   /** Printed page number, if the page carries one. */
   printed: number | null;
   body: string[];
@@ -66,6 +68,11 @@ export function noteCandidates(
  * run of lines that starts with an ascending footnote number. Walking upward
  * matters because footnote numbers also appear inline in the body.
  */
+/** Where a page came from, carried through so a review note can cite it. */
+function provenance(page: Page): Pick<SplitPage, "index" | "volume" | "pdfIndex"> {
+  return { index: page.index, volume: page.volume, pdfIndex: page.pdfIndex };
+}
+
 export function splitPage(page: Page, expectedNote: number): SplitPage {
   const lines = [...page.lines];
 
@@ -103,17 +110,17 @@ export function splitPage(page: Page, expectedNote: number): SplitPage {
   const candidates = noteCandidates(lines);
 
   if (!candidates.length) {
-    return { index: page.index, printed, body: lines, footnotes: [] };
+    return { ...provenance(page), printed, body: lines, footnotes: [] };
   }
 
   const start = chooseBlockStart(candidates, expectedNote, lines.length);
   if (start === null) {
-    return { index: page.index, printed, body: lines, footnotes: [] };
+    return { ...provenance(page), printed, body: lines, footnotes: [] };
   }
 
   const noteStart = start.line;
   return {
-    index: page.index,
+    ...provenance(page),
     printed,
     body: lines.slice(0, noteStart),
     footnotes: lines.slice(noteStart),
