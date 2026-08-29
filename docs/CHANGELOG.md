@@ -25,6 +25,17 @@ The Litvinenko report's footnotes also work properly now: around 230 of them
 appeared as bare numbers stuck to the end of a word, because the scan lost the
 space before the superscript.
 
+![The Columbia executive summary, reading in column order](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-08-29-columbia-two-column/reading-view.png)
+
+Two contents pages also stopped inventing entries: the Jack Smith report had
+a court docket row listed as though it were a section of the report, and the
+Leveson contents page had been generating headings out of its own listings.
+
+The Columbia text was published three times before it was right — the two
+columns kept finding new ways to run into each other, and each attempt looked
+correct until the page was actually read. The full account, with pictures, is
+in the [visual changelog](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md).
+
 ---
 
 
