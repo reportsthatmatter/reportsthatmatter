@@ -167,8 +167,14 @@ all, bundled or otherwise.
 database #96 uses. `pnpm index-search` reads `assets/generated/` (so it needs
 `pnpm prerender` to have already run) and writes
 `assets/generated/search-index.sql`; apply it with `wrangler d1 execute
-reportsthatmatter-marks --file=assets/generated/search-index.sql` (add
-`--local` for the dev database, drop it for production). `verify.sh` does both
+reportsthatmatter-marks --local --file=assets/generated/search-index.sql`.
+
+⚠️ **`--remote --file` does not work with the current login.** It uses D1's
+*import* API and returns `Authentication error [code: 10000]`, while remote
+queries authenticate fine. Until a `pnpm wrangler login` picks up that scope,
+apply to production by splitting the file on blank lines and sending each
+statement through `--command` — 208 of them as of six reports, and it takes a
+few minutes. Verified working 2026-08-29 (#118). `verify.sh` does both
 against local D1 on every run — **do the same against `--remote` by hand
 before deploying a change that touches report content**, or search keeps
 serving whatever it last indexed. `content_version` in `search_index_versions`
