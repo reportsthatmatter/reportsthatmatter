@@ -385,9 +385,9 @@ Part 3 | Chapters 1 to 5 | Alexander Litvinenko found Mr Berezovsky to be a high
 
 3.24 Returning to Moscow in 1994, the account that Mr Berezovsky gave of his first meetings with Mr Litvinenko was in the following terms:
 
-"I first met Alexander Litvinenko, also known as Sasha Litvinenko, in 1994 when he was an FSB officer for the Russian security services (KGB). He came to my offices as he had orders to look into the workings of my company. It was not to investigate me personally, but an investigation into how my business was operating. This was because at the time the FSB were trying to establish how Russia was being transformed.
+> "I first met Alexander Litvinenko, also known as Sasha Litvinenko, in 1994 when he was an FSB officer for the Russian security services (KGB). He came to my offices as he had orders to look into the workings of my company. It was not to investigate me personally, but an investigation into how my business was operating. This was because at the time the FSB were trying to establish how Russia was being transformed.
 
-In June 1994 I was subject to a terror attack against me in Moscow. It was a car bomb. When I left my office the car exploded. My driver was killed, my bodyguard and I were both injured and I spent two weeks in hospital in Switzerland. This incident resulted in Litvinenko and I becoming close friends."[^14]
+> In June 1994 I was subject to a terror attack against me in Moscow. It was a car bomb. When I left my office the car exploded. My driver was killed, my bodyguard and I were both injured and I spent two weeks in hospital in Switzerland. This incident resulted in Litvinenko and I becoming close friends."[^14]
 
 3.25 Marina Litvinenko had only known Mr Litvinenko for a year in June 1994, but in her oral evidence she recalled that he had been involved in investigating the assassination attempt against Mr Berezovsky, which she described as having been front page news at the time.[^15] She also stated that Mr Litvinenko had been ordered at that time to (as she put it in her witness statement) "maintain regular contact" with Mr Berezovsky.[^16] The precise scope and purpose of this duty was not clear – Marina Litvinenko did not think, for example, that he was acting as a bodyguard. It may be that this was simply a continuation of the attempts by the FSB (or FSK as it was at this time) to keep tabs on Mr Berezovsky, which he described in the first of the two paragraphs quoted from his statement above.
 
@@ -467,11 +467,7 @@ Marina Litvinenko was there. The interview (which featured Mr Litvinenko, Andrei
 
 3.56 Mr Litvinenko described his first and only meeting with Mr Putin in The Gang from the Lubyanka. He said:
 
-"He came out from behind the desk… to greet me. Apparently, he wanted to show an open, likeable personality. We, operatives, have a special style of behaviour.
-
-We do not bow to each other, do without pleasantries – and so everything is clear.
-
-Just look into each other's eyes and it becomes clear, do you trust the person or not. And I immediately had the impression that he is not sincere. He looked not like an FSB director, but a person who played the director."[^45]
+> "He came out from behind the desk… to greet me. Apparently, he wanted to show an open, likeable personality. We, operatives, have a special style of behaviour. We do not bow to each other, do without pleasantries – and so everything is clear. Just look into each other's eyes and it becomes clear, do you trust the person or not. And I immediately had the impression that he is not sincere. He looked not like an FSB director, but a person who played the director."[^45]
 
 3.57 The evidence was that in October 1998 the URPO investigation by the Military Prosecution Service was closed. The conclusion of the investigation was that no
 
@@ -483,9 +479,9 @@ Part 3 | Chapters 1 to 5 | Alexander Litvinenko crimes had been committed. Put s
 
 3.59 On 13 November 1998 an open letter from Mr Berezovsky to Mr Putin was published in the Russian media. A copy of this letter is in evidence. The letter detailed the allegations made by Mr Litvinenko and the others and was critical of what it described as an attempted cover up. In the final paragraphs of the letter, Mr Berezovsky made a direct appeal to Mr Putin:
 
-"Vladimir Vladimirovich, no doubt, the legacy you received from your predecessors is not easy. Criminals and corrupted functionaries at different levels, even in your institution, are hitting those who do not want to go back to the pigsty. The wave of criminal terror is rising in the country. Mafia and the 'red-brown' elements are striving for power. They do not understand that there is no place for people like them in a free country where democracy is firmly secured by law.
+> "Vladimir Vladimirovich, no doubt, the legacy you received from your predecessors is not easy. Criminals and corrupted functionaries at different levels, even in your institution, are hitting those who do not want to go back to the pigsty. The wave of criminal terror is rising in the country. Mafia and the 'red-brown' elements are striving for power. They do not understand that there is no place for people like them in a free country where democracy is firmly secured by law.
 
-I do not consider the facts and problems raised in my letter isolated, I see a tendency here and this tendency is mortally dangerous for Russia.
+> I do not consider the facts and problems raised in my letter isolated, I see a tendency here and this tendency is mortally dangerous for Russia.
 
 I am asking you to use the power vested on you to secure the constitutional order."[^49]
 
@@ -493,9 +489,7 @@ I am asking you to use the power vested on you to secure the constitutional orde
 
 3.61 The press conference was held at the RIA Novosti international news agency in Moscow. Mr Litvinenko appeared before the press without a mask and was the main speaker. Also present and unmasked was Mr Trepashkin, with whom Mr Litvinenko had by this time struck up a friendship.[^50] Four of Mr Litvinenko's fellow officers from URPO, including Mr Shebalin and Mr Ponkin, also appeared, wearing either skiing masks or sunglasses. Marina Litvinenko described the press conference in the following terms:
 
-"Never in the history of the Russian security services has the FSB experienced such a public exposure. [Mr Litvinenko] and the others talked about corruption, criminalisation of the FSB and the fact that the system that was set up to protect people was turning into the system from which people needed to be protected.
-
-They also aired the details of extrajudicial acts that the FSB conspired to undertake against Trepashkin, Dzhabrailov and Berezovsky."[^51]
+> "Never in the history of the Russian security services has the FSB experienced such a public exposure. [Mr Litvinenko] and the others talked about corruption, criminalisation of the FSB and the fact that the system that was set up to protect people was turning into the system from which people needed to be protected. They also aired the details of extrajudicial acts that the FSB conspired to undertake against Trepashkin, Dzhabrailov and Berezovsky."[^51]
 
 %%page 24%%
 
@@ -525,7 +519,9 @@ The Litvinenko Inquiry
 
 3.75 The evidence I have received suggests that Mr Litvinenko became increasingly concerned for his safety and that of his family in Russia during 2000. 3.76 Mr Felshtinsky gave evidence about a meeting that he had with General Khokholkov, the former head of URPO, in Moscow in May 2000. According to Mr Felshtinsky, his purpose in speaking with General Khokholkov was to try to establish whether the authorities would let Mr Litvinenko leave Russia, in particular now that he had served nine months or so in prison. General Khokholkov's response, as reported by Mr Felshtinsky, was uncompromising:
 
-"He told me that nine months, or whatever, is nothing, that Litvinenko committed treason, that he is going to… prison anyway, and if he [i.e. Khokholkov] actually sees him by chance, you know, somewhere in a dark corner, he would kill him with his own hands." Mr Felshtinsky explained that General Kohkholkov had gestured with his hands as he had said this – he said that, "Khokholkov hated Litvinenko very much, and… considered him… a person who committed treason, this is for sure."[^63] 3.77 Mr Felshtinsky immediately reported this conversation to Mr Litvinenko, and told him that he should consider leaving Russia.[^64] 3.78 Nor was this the only threat that Mr Litvinenko received. Marina Litvinenko said that her husband had been approached by an FSB colonel who had said words to the following effect: "We will not continue discussions with you, we will kill you, to be clear we will kill your six year old son… you are being prosecuted not for any crimes that you may have committed. Everybody knows that you did not commit them. You are being prosecuted for betraying the system and openly acting against the system."[^65] 3.79 Marina Litvinenko also gave evidence that when the third set of charges was brought against Mr Litvinenko in early 2000, they were told that the case would be heard not in Moscow, as with the first two sets of proceedings, but in Yaroslavl, some 300km from Moscow. They were also told that the trial would be closed to the press and the public. Their concern was that, away from the public attention that the earlier proceedings had received in Moscow, the authorities would be able to implement what Mr Litvinenko believed to have been the direct order to "put him in prison and never let him… out".66 3.80 It would appear that it was a combination of all these fears that led Mr Litvinenko to decide to leave Russia for good. Mr Felshtinsky's evidence was that Mr Litvinenko had decided to leave Russia by the time of a meeting between the two men in Moscow on 24 September 2000, at which they discussed Mr Litvinenko's proposed escape.[^67] 3.81 This was not, however, a decision that Mr Litvinenko initially shared with his wife or his son. Mrs Litvinenko's evidence was that in September 2000 (presumably in late September, after his meeting with Mr Felshtinsky), Mr Litvinenko suddenly left Moscow for Nalchik, saying that he was flying to Nalchik to visit relatives.[^68]
+> "He told me that nine months, or whatever, is nothing, that Litvinenko committed treason, that he is going to… prison anyway, and if he [i.e. Khokholkov] actually sees him by chance, you know, somewhere in a dark corner, he would kill him with his own hands."
+
+Mr Felshtinsky explained that General Kohkholkov had gestured with his hands as he had said this – he said that, "Khokholkov hated Litvinenko very much, and… considered him… a person who committed treason, this is for sure."[^63] 3.77 Mr Felshtinsky immediately reported this conversation to Mr Litvinenko, and told him that he should consider leaving Russia.[^64] 3.78 Nor was this the only threat that Mr Litvinenko received. Marina Litvinenko said that her husband had been approached by an FSB colonel who had said words to the following effect: "We will not continue discussions with you, we will kill you, to be clear we will kill your six year old son… you are being prosecuted not for any crimes that you may have committed. Everybody knows that you did not commit them. You are being prosecuted for betraying the system and openly acting against the system."[^65] 3.79 Marina Litvinenko also gave evidence that when the third set of charges was brought against Mr Litvinenko in early 2000, they were told that the case would be heard not in Moscow, as with the first two sets of proceedings, but in Yaroslavl, some 300km from Moscow. They were also told that the trial would be closed to the press and the public. Their concern was that, away from the public attention that the earlier proceedings had received in Moscow, the authorities would be able to implement what Mr Litvinenko believed to have been the direct order to "put him in prison and never let him… out".66 3.80 It would appear that it was a combination of all these fears that led Mr Litvinenko to decide to leave Russia for good. Mr Felshtinsky's evidence was that Mr Litvinenko had decided to leave Russia by the time of a meeting between the two men in Moscow on 24 September 2000, at which they discussed Mr Litvinenko's proposed escape.[^67] 3.81 This was not, however, a decision that Mr Litvinenko initially shared with his wife or his son. Mrs Litvinenko's evidence was that in September 2000 (presumably in late September, after his meeting with Mr Felshtinsky), Mr Litvinenko suddenly left Moscow for Nalchik, saying that he was flying to Nalchik to visit relatives.[^68]
 
 %%page 27%%
 
@@ -597,9 +593,7 @@ Work and school 3.104 Marina Litvinenko stated that both she and her husband att
 
 Part 3 | Chapters 1 to 5 | Alexander Litvinenko
 
-"there was always, if I may say, a distinct difference between Marina who had clearly taken on board the English language and had progressed very quickly and
-
-Sasha, I think, took a little bit longer."[^90]
+> "there was always, if I may say, a distinct difference between Marina who had clearly taken on board the English language and had progressed very quickly and Sasha, I think, took a little bit longer."[^90]
 
 It appears from the evidence of other witnesses, for example Tim Reilly and Alexander Tabunov, that even in 2006 Mr Litvinenko was still in the habit of seeking out Russian speakers in order to talk in his mother tongue. And when Mr Litvinenko was interviewed by the Metropolitan Police Service when he was in hospital after the poisoning, it was necessary for him to be assisted by an interpreter.
 
@@ -789,9 +783,7 @@ Part 3 | Chapters 1 to 5 | Alexander Litvinenko
 
 3.137 The reluctance on the part of Mr Litvinenko to tell his friends about his meeting with Mr Lugovoy and Mr Kovtun on the day that he became ill cannot be explained by his strategy to try to lure the two men back into the jurisdiction, since these were private conversations with trusted friends. The answer seems to lie in what Mr Shvets described as Mr Litvinenko's "wounded professional pride". He said:
 
-"He was agonised by the understanding that as a professional he failed. … He was always saying that I can identify my enemy a mile away,… that I am a professional.
-
-But this particular case when it comes to his own life he badly failed."[^171]
+> "He was agonised by the understanding that as a professional he failed. … He was always saying that I can identify my enemy a mile away,… that I am a professional. But this particular case when it comes to his own life he badly failed."[^171]
 
 Mr Zakayev, in a similar vein, explained that Mr Litvinenko, as a former FSB officer, had advised him on his personal security and had warned him that; "they might send a person from my past to me, someone who I'd had good relations with… it [was] that person that the threat would come from". He said that Mr Litvinenko was "embarrassed" that, "exactly this scenario… was turned against him."[^172]
 
@@ -799,11 +791,7 @@ Mr Zakayev, in a similar vein, explained that Mr Litvinenko, as a former FSB off
 
 3.139 If the contemporaneous documents give rise to some uncertainty as to whom Mr Litvinenko believed had poisoned him, there is no ambiguity as to whom he thought bore ultimate responsibility. Mr Berezovsky recalled that when he visited him in hospital Mr Litvinenko "insisted that it was a direct order of Putin", although at that stage Mr Berezovsky disagreed with him.[^173] Several days later, towards the end of his interviews with DI Hyatt, Mr Litvinenko stated:
 
-"I have no doubt whatsoever that this was done by the Russian Secret Services.
-
-Having knowledge of the system I know that the order about such a killing of a citizen of another country on its territory, especially if it [is] something to do with
-
-Great Britain could have been given by only one person."
+> "I have no doubt whatsoever that this was done by the Russian Secret Services. Having knowledge of the system I know that the order about such a killing of a citizen of another country on its territory, especially if it [is] something to do with Great Britain could have been given by only one person."
 
 When DI Hyatt asked who that person was, Mr Litvinenko replied, "That person is the President of the Russian Federation Vladimir Putin".174 A few days later, as we shall see, Mr Litvinenko was to make a similar accusation in his final statement, which was published and widely circulated after his death.
 
@@ -925,9 +913,7 @@ The pathologists 3.170 First, there was the evidence of the two pathologists, Dr
 
 3.172 First, Dr Cary stated that:
 
-"the changes in the internal organs are typical of those seen at the end stage of multi-organ failure in an intensive care setting. There is no macroscopic evidence, and by that I mean to the naked eye, of any underlying natural disease process that would have preceded the presentation with an acute illness on
-
-3 November 2006."[^200]
+> "the changes in the internal organs are typical of those seen at the end stage of multi-organ failure in an intensive care setting. There is no macroscopic evidence, and by that I mean to the naked eye, of any underlying natural disease process that would have preceded the presentation with an acute illness on 3 November 2006."[^200]
 
 3.173 Second, Dr Cary noted that due to the hazardous nature of the tissue samples that he had taken from Mr Litvinenko's body, he was unable to follow what would otherwise have been the routine procedure of examining these samples under the microscope to try to obtain further information about the cause of death. That said, Dr Cary observed that the medical records from Mr Litvinenko's time in hospital provided useful information in this regard – there was clear documentation, for example, of
 
@@ -941,23 +927,21 @@ The Litvinenko Inquiry bone marrow failure, multi-organ failure and the developm
 
 3.176 Fifth, Dr Cary concluded:
 
-"I am entirely satisfied that on the basis of both the calculated exposure of the internal organs to radiation and the deceased's downhill clinical course a cause of death of acute radiation syndrome may be recorded."[^203]
+> "I am entirely satisfied that on the basis of both the calculated exposure of the internal organs to radiation and the deceased's downhill clinical course a cause of death of acute radiation syndrome may be recorded."[^203]
 
 3.177 Sixth, Dr Cary listed a number of possibilities in relation to the final mode of death, namely:
 
-"(i) Due to bone marrow failure there was a final episode of sepsis, including as a
+> "(i) Due to bone marrow failure there was a final episode of sepsis, including as a possibility due to fungal infection with this sepsis resulting in cardiorespiratory arrest.
 
-> possibility due to fungal infection with this sepsis resulting in cardiorespiratory arrest.
+> (ii) Due to metabolic consequences of organ failure (particularly the liver and kidney) cardiorespiratory arrest occurred.
 
-(ii) Due to metabolic consequences of organ failure (particularly the liver and kidney) cardiorespiratory arrest occurred.
-
-(iii) Due to primary effects of radiation on the heart itself an ultimately fatal heart rhythm disturbance developed resulting in cardiorespiratory arrest.
+> (iii) Due to primary effects of radiation on the heart itself an ultimately fatal heart rhythm disturbance developed resulting in cardiorespiratory arrest.
 
 (iv) A combination of some or all of the above."[^204]
 
 Dr Harrison and his colleagues 3.178 In one of his written reports, Dr Harrison explained the mechanism by which the alpha particles emitted by polonium 210 cause damage within the human body. He said:
 
-"Ionizing radiations, including gamma rays and alpha particles can kill cells by damaging biological molecules within them, including DNA. Alpha particles are particularly effective at killing cells because, although they only travel short distances (a few cell widths), they deposit a lot of energy along their paths. They can be thought of as atomic bullets, capable of killing at a cellular level. Enough alpha particles will kill enough cells to cause gross tissue damage, organ failure and death."[^205]
+> "Ionizing radiations, including gamma rays and alpha particles can kill cells by damaging biological molecules within them, including DNA. Alpha particles are particularly effective at killing cells because, although they only travel short distances (a few cell widths), they deposit a lot of energy along their paths. They can be thought of as atomic bullets, capable of killing at a cellular level. Enough alpha particles will kill enough cells to cause gross tissue damage, organ failure and death."[^205]
 
 3.179 Having ascertained (see above) that Mr Litvinenko had ingested approximately 4.4Gbq of polonium 210, Dr Harrison was able to calculate the quantity of radiation that would have been generated within Mr Litvinenko's body, and to compare those figures with
 
@@ -987,9 +971,9 @@ b. Accordingly, the scientists estimated a period during which the earlier intak
 
 %%page 50%%
 
-The Litvinenko Inquiry e. The evidence that Mr Litvinenko vomited and was feeling unwell on the evening
+The Litvinenko Inquiry
 
-> of 16 October should not be taken as a strong indication that the first intake of polonium had occurred on that day. The scientists were cautious as to whether the similar 'prodromal' symptoms that Mr Litvinenko suffered on the evening of 1 November had been caused by the very much higher intake of polonium on that day.[^213] The symptoms that Mr Litvinenko suffered on 16 October must, therefore, be an even less reliable indicator of a postulated weaker intake of polonium on that day
+> e. The evidence that Mr Litvinenko vomited and was feeling unwell on the evening of 16 October should not be taken as a strong indication that the first intake of polonium had occurred on that day. The scientists were cautious as to whether the similar 'prodromal' symptoms that Mr Litvinenko suffered on the evening of 1 November had been caused by the very much higher intake of polonium on that day.[^213] The symptoms that Mr Litvinenko suffered on 16 October must, therefore, be an even less reliable indicator of a postulated weaker intake of polonium on that day
 
 %%page 51%%
 
@@ -1007,7 +991,7 @@ The Litvinenko Inquiry
 
 4.3 On 24 November 2006, the day after Mr Litvinenko's death, Sergey Abeltsev, a member of the Russian State Duma, made a speech on the floor of the Duma in which he said:
 
-"Last night Alexander Litvinenko died in a London hospital. The deserved punishment reached the traitor. I am confident that this terrible death will be a serious warning to traitors of all colours wherever they are located. In Russia, they do not pardon treachery."[^1]
+> "Last night Alexander Litvinenko died in a London hospital. The deserved punishment reached the traitor. I am confident that this terrible death will be a serious warning to traitors of all colours wherever they are located. In Russia, they do not pardon treachery."[^1]
 
 4.4 On the same day, President Putin made comments to the media about Mr Litvinenko's death with what Professor Service described as, "a verbal levity that border[ed] on the macabre". For example, President Putin observed that, "the people that have done this are not God, and Mr Litvinenko is, unfortunately, not Lazarus."[^2]
 
@@ -1055,13 +1039,13 @@ Membership of Boris Berezovsky's circle 4.18 I have referred several times to th
 
 4.20 This friendship, however, did not last. As Professor Service has explained:
 
-"Tension between Putin and Berezovski started almost as soon as Yeltsin resigned the Presidency in December 1999. Berezovski relished the reputation of kingmaker. He claimed responsibility for Putin's rise to the Presidency, and no doubt his
+> "Tension between Putin and Berezovski started almost as soon as Yeltsin resigned the Presidency in December 1999. Berezovski relished the reputation of king- maker. He claimed responsibility for Putin's rise to the Presidency, and no doubt his
 
 %%page 55%%
 
 Part 4 | Chapters 1 to 6 | Why would anyone wish to kill Alexander Litvinenko?
 
-bouncy condescension grated upon Putin. When Putin took decisions that clashed with Berezovski's interests, Berezovski instructed the national TV station under his control to criticise Putin. Berezovski quickly lost the contest. Putin told him directly that no businessman, however high and mighty, was going to determine public policy any longer."[^15]
+> bouncy condescension grated upon Putin. When Putin took decisions that clashed with Berezovski's interests, Berezovski instructed the national TV station under his control to criticise Putin. Berezovski quickly lost the contest. Putin told him directly that no businessman, however high and mighty, was going to determine public policy any longer."[^15]
 
 4.21 Mr Berezovsky left Russia at the end of 2000 and became a political exile in London, where he claimed, and was ultimately granted, asylum. I heard evidence from Professor Service, Mr Goldfarb and others that, following his arrival in London, Mr Berezovsky used his great wealth to become a vocal critic of President Putin, and to fund others to do likewise. It was also clear that Mr Litvinenko played a leading role in this respect – as Professor Service put it, "Berezovski encouraged and financed emigres who shared his hostility to Putin, and Litvinenko was the most prominent and ebullient of them."[^16] Another of this group of emigres in Mr Berezovsky's circle was the Chechen leader Akhmed Zakayev. As I have mentioned above, Mr Litvinenko and Mr Zakayev became very close friends, and their two families lived so close to each other that they regarded themselves as neighbours.
 
@@ -1069,9 +1053,7 @@ bouncy condescension grated upon Putin. When Putin took decisions that clashed w
 
 4.23 I note, of course, that this is no more than a contextual matter, and that Mr Goldfarb is not (and would not, I think, claim to be) a neutral commentator on these events. But the point that he makes has a resonance with a point made by Professor Service in the expert report that he prepared:
 
-"Some kind of action by the FSB against Berezovski and his associates, especially
-
-Litvinenko, was made likely by their sustained media campaign against the Putin administration. The form of such action could not be predicted."[^18]
+> "Some kind of action by the FSB against Berezovski and his associates, especially Litvinenko, was made likely by their sustained media campaign against the Putin administration. The form of such action could not be predicted."[^18]
 
 4.24 I also note that, on the evidence I have heard, there appear to have been at least two occasions during this period on which Mr Litvinenko became involved in potentially dangerous incidents as a consequence of his connection with Mr Berezovsky.
 
@@ -1147,9 +1129,7 @@ The Litvinenko Inquiry behind this threat."[^45] Subsequent events may have prov
 
 4.47 I referred above to the arrangements that were made to print copies of The Gang from the Lubyanka in Latvia. Mr Goldfarb described in his oral evidence how the first batch of these books was successfully smuggled into Russia in mid 2002:47
 
-"…we designed an elaborate scheme to have this truck with books go by land from Riga to Moscow, and somehow we managed to get it through customs as printed material without – nobody looked. And then it was met by Mr Trepashkin in Moscow who arranged for warehousing, and for several kiosks in the centre of
-
-Moscow to sell it, and I think even in the State Duma. So it was a total surprise to the authorities when it suddenly appeared."
+> "…we designed an elaborate scheme to have this truck with books go by land from Riga to Moscow, and somehow we managed to get it through customs as printed material without – nobody looked. And then it was met by Mr Trepashkin in Moscow who arranged for warehousing, and for several kiosks in the centre of Moscow to sell it, and I think even in the State Duma. So it was a total surprise to the authorities when it suddenly appeared."
 
 Mr Goldfarb went on, however, to describe how the second shipment in early 2003, which contained copies of both Mr Litvinenko's books, was stopped on the highway by the FSB, with all the books being confiscated.
 
@@ -1179,7 +1159,9 @@ as we shall hear, was herself murdered outside her Moscow flat only a few weeks 
 
 %%page 62%%
 
-The Litvinenko Inquiry gather evidence of Russian war crimes in Chechnya. Mr Zakayev's evidence was that the fact that Mr Litvinenko and Ms Politkovskaya were serving on the Committee was public knowledge, and that, in his view, the Russian military and FSB would have been "afraid" that they might have faced charges in an international war crimes tribunal as a result of the Committee's work.[^58]
+The Litvinenko Inquiry
+
+> gather evidence of Russian war crimes in Chechnya. Mr Zakayev's evidence was that the fact that Mr Litvinenko and Ms Politkovskaya were serving on the Committee was public knowledge, and that, in his view, the Russian military and FSB would have been "afraid" that they might have faced charges in an international war crimes tribunal as a result of the Committee's work.[^58]
 
 %%page 63%%
 
@@ -1187,33 +1169,25 @@ Part 4 | Chapters 1 to 6 | Why would anyone wish to kill Alexander Litvinenko?
 
 ### Chapter 3: Work for UK intelligence agencies
 
-4.57 Ever since Mr Litvinenko died, there has been speculation that he may have worked for the UK intelligence agencies. MI6 is the agency most commonly suggested. As we shall see, such speculation was in part the result of public comments made by
+4.57 Ever since Mr Litvinenko died, there has been speculation that he may have worked
 
-Mr Lugovoy. I heard evidence on this topic from a number of witnesses.
+> for the UK intelligence agencies. MI6 is the agency most commonly suggested. As we shall see, such speculation was in part the result of public comments made by Mr Lugovoy. I heard evidence on this topic from a number of witnesses.
 
-4.58 Before turning to that evidence, I observe that the questions this issue raises with regard to the matters that I am investigating are more complex than the binary question of whether or not Mr Litvinenko was working for the agencies. In terms of the risks that Mr Litvinenko may have faced, the detail is critical. If Mr Litvinenko did work for the agencies, what type of work did he undertake? What information may he have passed? What (and whose) secrets may he have betrayed? What may have been the consequences? More fundamentally, the question of what Mr Litvinenko was or was not actually doing may be less important than that of what his enemies thought he was doing. For if there was a distinction between the two, Mr Litvinenko was unlikely to have received the benefit of it.
+4.58 Before turning to that evidence, I observe that the questions this issue raises with
+
+> regard to the matters that I am investigating are more complex than the binary question of whether or not Mr Litvinenko was working for the agencies. In terms of the risks that Mr Litvinenko may have faced, the detail is critical. If Mr Litvinenko did work for the agencies, what type of work did he undertake? What information may he have passed? What (and whose) secrets may he have betrayed? What may have been the consequences? More fundamentally, the question of what Mr Litvinenko was or was not actually doing may be less important than that of what his enemies thought he was doing. For if there was a distinction between the two, Mr Litvinenko was unlikely to have received the benefit of it.
 
 4.59 Marina Litvinenko answered questions about this issue in her oral evidence.[^59] Her evidence can be summarised as follows:
 
-a. She knew that Mr Litvinenko undertook work for one of the agencies – she was
+> a. She knew that Mr Litvinenko undertook work for one of the agencies – she was unsure whether it was MI5 or MI6. Mr Litvinenko had told her about this work. She was also aware of monthly payments being made into their joint bank account that she understood was payment for Mr Litvinenko's work with the agencies
 
-> unsure whether it was MI5 or MI6. Mr Litvinenko had told her about this work. She was also aware of monthly payments being made into their joint bank account that she understood was payment for Mr Litvinenko's work with the agencies
+> b. This work had started after Mr Litvinenko's arrival in the UK. She did not believe that Mr Litvinenko had had any involvement with UK agencies while he was still living in Russia
 
-b. This work had started after Mr Litvinenko's arrival in the UK. She did not believe
+> c. She stated that Mr Litvinenko had shared with her some of the information he was supplying to British intelligence, "but not the details". She believed that the information Mr Litvinenko gave to the agencies related to Russian organised crime, including its presence in the UK. But, as I have said, she did not know the details of what Mr Litvinenko had been doing. She had no idea, for example, as to the accuracy or otherwise of an allegation that he had passed the names of Russian sleeper agents in the UK to UK intelligence agencies
 
-> that Mr Litvinenko had had any involvement with UK agencies while he was still living in Russia
+> d. Mr Litvinenko received a payment of £2,000 per month for this work. The payments had started in about 2004 and were made into the joint bank account that Mr and Mrs Litvinenko shared
 
-c. She stated that Mr Litvinenko had shared with her some of the information he
-
-> was supplying to British intelligence, "but not the details". She believed that the information Mr Litvinenko gave to the agencies related to Russian organised crime, including its presence in the UK. But, as I have said, she did not know the details of what Mr Litvinenko had been doing. She had no idea, for example, as to the accuracy or otherwise of an allegation that he had passed the names of Russian sleeper agents in the UK to UK intelligence agencies
-
-d. Mr Litvinenko received a payment of £2,000 per month for this work. The payments
-
-> had started in about 2004 and were made into the joint bank account that Mr and Mrs Litvinenko shared
-
-e. Her understanding was that Mr Litvinenko had worked for the agencies on a
-
-> consulting basis, as opposed to being one of their employees or agents (terms that she regarded as synonymous). To her, this was an important distinction. This was the explanation for a statement that she had given to the press in 2007 asserting that Mr Litvinenko, "was never an agent for MI6" – she did not believe that he had been an 'agent', as opposed to a consultant. As she put it, "I knew Sasha did work for MI6, or MI5, but he has never been an agent of MI6." She had earlier explained that she understood the term 'agent' to mean: "work[ing] with the Security Service and doing undercover job, doing something abroad under position of agent of MI6… But more important it's be employed, employed."
+> e. Her understanding was that Mr Litvinenko had worked for the agencies on a consulting basis, as opposed to being one of their employees or agents (terms that she regarded as synonymous). To her, this was an important distinction. This was the explanation for a statement that she had given to the press in 2007 asserting that Mr Litvinenko, "was never an agent for MI6" – she did not believe that he had been an 'agent', as opposed to a consultant. As she put it, "I knew Sasha did work for MI6, or MI5, but he has never been an agent of MI6." She had earlier explained that she understood the term 'agent' to mean: "work[ing] with the Security Service and doing undercover job, doing something abroad under position of agent of MI6… But more important it's be employed, employed."
 
 %%page 64%%
 
@@ -1243,19 +1217,17 @@ The Litvinenko Inquiry
 
 Part 4 | Chapters 1 to 6 | Why would anyone wish to kill Alexander Litvinenko?
 
-confirmation of the alleged activity. If the government were forced to depart from the NCND principle in one case, it would create a clear risk of serious harm to essential UK national security interests. It could, furthermore, potentially put lives at risk."[^64]
+> confirmation of the alleged activity. If the government were forced to depart from the NCND principle in one case, it would create a clear risk of serious harm to essential UK national security interests. It could, furthermore, potentially put lives at risk."[^64]
 
 Later in the opening statement, Mr Garnham quoted a passage from the judgment of Lord Carswell in the Scappaticci case:[^65]
 
-"To state that a person is an agent would be likely to place him in immediate danger from terrorist organisations. To deny that he is an agent may in some cases endanger another person who may be under suspicion from terrorists. Most significant, once the government confirms in the case of one person that he is not an agent, a refusal to comment in the case of another person would then give rise to an immediate suspicion that the latter was in fact an agent, so possibly placing his life in grave danger.
+> "To state that a person is an agent would be likely to place him in immediate danger from terrorist organisations. To deny that he is an agent may in some cases endanger another person who may be under suspicion from terrorists. Most significant, once the government confirms in the case of one person that he is not an agent, a refusal to comment in the case of another person would then give rise to an immediate suspicion that the latter was in fact an agent, so possibly placing his life in grave danger.
 
-… If the government were to deny in all cases that persons named were agents, the denials would become meaningless and would carry no weight. Moreover, if agents became uneasy about the risk to themselves being increased through the effect of government statements, their willingness to give information and the supply of intelligence vital to the war against terrorism could be gravely reduced.
-
-There is in my judgment substantial force in these propositions and they form powerful reasons for maintaining the NCND policy."[^66]
+> … If the government were to deny in all cases that persons named were agents, the denials would become meaningless and would carry no weight. Moreover, if agents became uneasy about the risk to themselves being increased through the effect of government statements, their willingness to give information and the supply of intelligence vital to the war against terrorism could be gravely reduced. There is in my judgment substantial force in these propositions and they form powerful reasons for maintaining the NCND policy."[^66]
 
 Mr Garnham concluded the statement by emphasising the consequence of the NCND approach that the Home Secretary was taking:
 
-"All that, sir, has an immediate consequence in the circumstances of these open hearings. The failure of the government either to confirm or deny an assertion or a suggestion about events under consideration in this Inquiry tells you precisely nothing about the truth or otherwise of that assertion or suggestion. It means, sir, you must look elsewhere to determine the truth or falsity of such allegations."[^67]
+> "All that, sir, has an immediate consequence in the circumstances of these open hearings. The failure of the government either to confirm or deny an assertion or a suggestion about events under consideration in this Inquiry tells you precisely nothing about the truth or otherwise of that assertion or suggestion. It means, sir, you must look elsewhere to determine the truth or falsity of such allegations."[^67]
 
 4.66 So much for the question of what relationship Mr Litvinenko may actually have had with the agencies, and what his family and friends understood to be the position at the time. As I indicated above, for the purposes of this Inquiry it is at least as important, perhaps more important, to assess what Mr Litvinenko's enemies thought he was doing. Did, for example, the FSB believe that Mr Litvinenko was or may have been working with the UK intelligence agencies?
 
@@ -1265,27 +1237,29 @@ Mr Garnham concluded the statement by emphasising the consequence of the NCND ap
 
 %%page 66%%
 
-The Litvinenko Inquiry he was being recruited to do. On Mr Lugovoy's account, the intention was that he would take part in an operation to gather incriminating information about President
+The Litvinenko Inquiry
 
-Putin and his family – he stated that one element of this plan was that a Russian state official would be lured to London and then blackmailed into disclosing incriminating information about Mr Putin. Mr Lugovoy said that he had rejected the approach.
+> he was being recruited to do. On Mr Lugovoy's account, the intention was that he would take part in an operation to gather incriminating information about President Putin and his family – he stated that one element of this plan was that a Russian state official would be lured to London and then blackmailed into disclosing incriminating information about Mr Putin. Mr Lugovoy said that he had rejected the approach. Mr Litvinenko, he said, "was enraged that I declined the offer to work for British secret services."[^68]
 
-Mr Litvinenko, he said, "was enraged that I declined the offer to work for British secret services."[^68]
+4.69 Mr Lugovoy returned to this theme in an interview with the Spanish newspaper El Pais
 
-4.69 Mr Lugovoy returned to this theme in an interview with the Spanish newspaper El Pais in 2008. On that occasion, he repeated his claim that Mr Litvinenko had been involved in an attempt to recruit him on behalf of British intelligence. He also claimed in this interview that Mr Litvinenko had encouraged him to join him in work that he was conducting with the Spanish secret services against the Russian mafia operating in
+> in 2008. On that occasion, he repeated his claim that Mr Litvinenko had been involved in an attempt to recruit him on behalf of British intelligence. He also claimed in this interview that Mr Litvinenko had encouraged him to join him in work that he was conducting with the Spanish secret services against the Russian mafia operating in Spain – a subject to which I shall return below. The particular significance of this interview for present purposes lies in what Mr Lugovoy said he did in response to Mr Litvinenko's attempt to recruit him for British intelligence. As to this, Mr Lugovoy stated that: "when the British agents started to approach me, one of the first things that I did was to inform the FSB so that they wouldn't accuse me of being a traitor or a spy."[^69]
 
-Spain – a subject to which I shall return below. The particular significance of this interview for present purposes lies in what Mr Lugovoy said he did in response to
+4.70 If these accounts are true (and I will address the subject of Mr Lugovoy's credibility
 
-Mr Litvinenko's attempt to recruit him for British intelligence. As to this, Mr Lugovoy stated that: "when the British agents started to approach me, one of the first things that I did was to inform the FSB so that they wouldn't accuse me of being a traitor or a spy."[^69]
+> below), the FSB received directly from Mr Lugovoy not only information that Mr Litvinenko was working with UK intelligence agencies, but also some idea of the type of work he was conducting.
 
-4.70 If these accounts are true (and I will address the subject of Mr Lugovoy's credibility below), the FSB received directly from Mr Lugovoy not only information that
+4.71 It may not take much imagination to consider how the FSB would have reacted to
 
-Mr Litvinenko was working with UK intelligence agencies, but also some idea of the type of work he was conducting.
+> a report that one of its own former officers was working with British intelligence, especially if, as Mr Lugovoy claimed, that former officer was involved in an operation targeting President Putin.
 
-4.71 It may not take much imagination to consider how the FSB would have reacted to a report that one of its own former officers was working with British intelligence, especially if, as Mr Lugovoy claimed, that former officer was involved in an operation targeting President Putin.
+4.72 It may be that comments made by Mr Lugovoy and Mr Gusak after Mr Litvinenko's
 
-4.72 It may be that comments made by Mr Lugovoy and Mr Gusak after Mr Litvinenko's death provide an indication of the FSB's likely reaction to a report that Mr Litvinenko was working with UK intelligence agencies.
+> death provide an indication of the FSB's likely reaction to a report that Mr Litvinenko was working with UK intelligence agencies.
 
-4.73 Lugovoy himself, as we shall see, was never an FSB officer. But he came from a military background and served in the KGB before it was broken up, and thereafter in the Federal Protection Service. He gave his view of Mr Litvinenko's conduct in acting for British intelligence in the El Pais interview that is referred to above, which is printed as a question and answer session:
+4.73 Lugovoy himself, as we shall see, was never an FSB officer. But he came from a
+
+> military background and served in the KGB before it was broken up, and thereafter in the Federal Protection Service. He gave his view of Mr Litvinenko's conduct in acting for British intelligence in the El Pais interview that is referred to above, which is printed as a question and answer session:
 
 > "A. … [The British] believed that Lugovoy killed Litvinenko because Litvinenko criticised Putin and the FSB.
 
@@ -1557,9 +1531,7 @@ Andrey Lugovoy 4.141 Mr Lugovoy is a central figure in the issues to which this 
 
 4.142 I heard that Mr Lugovoy was born in Baku in the Union of Soviet Socialist Republics (USSR) in 1966, which made him four years younger than Mr Litvinenko.[^133] Not unlike Mr Litvinenko, Mr Lugovoy was born into a family that was proud of its military history and its record of service to Russia. At a press conference in May 2007, Mr Lugovoy said this about his family:
 
-"I was born into a family of a military person. My grandad fought in the Russo-
-
-Japanese war of 1904. He was awarded a St George's Cross, one of the highest military honours of the Russian empire. My other grandad took part in the storming of Berlin. My father served in the army for 39 years. My brother is a steersman on an atomic submarine and I am a professional military man by training. I was brought up in the tradition of a real Russian officer. I am proud that for the last few years in my opinion Russia started to gain its place in the world as a stage of geopolitical importance, which has always influenced politics and I hope will influence politics. It was so before the October revolution, and after it. There was a small period of time when nobody took Russia into account for ten years. Now, gentlemen, you will have to take Russia into account."[^134]
+> "I was born into a family of a military person. My grandad fought in the Russo- Japanese war of 1904. He was awarded a St George's Cross, one of the highest military honours of the Russian empire. My other grandad took part in the storming of Berlin. My father served in the army for 39 years. My brother is a steersman on an atomic submarine and I am a professional military man by training. I was brought up in the tradition of a real Russian officer. I am proud that for the last few years in my opinion Russia started to gain its place in the world as a stage of geopolitical importance, which has always influenced politics and I hope will influence politics. It was so before the October revolution, and after it. There was a small period of time when nobody took Russia into account for ten years. Now, gentlemen, you will have to take Russia into account."[^134]
 
 4.143 In the passage that I have quoted Mr Lugovoy said that he was a military man by training, and I heard some further evidence on that subject. I heard that he attended military college, and then joined the Ninth Directorate of the KGB, which was responsible for providing protection for senior state officials. Like Mr Litvinenko, on the break-up of the KGB Mr Lugovoy continued to undertake the same work, albeit for a differently named organisation. In Mr Lugovoy's case, he was a member of the Federal Protection Service (FPS), which was the successor organisation to the Ninth Directorate.[^135] It appears that Mr Lugovoy was never a member of the FSB.136
 
@@ -1595,7 +1567,7 @@ The Litvinenko Inquiry
 
 4.152 As I have explained above, neither Mr Knuckey and Mr Quirke, nor Mr Attew, were at all impressed by the due diligence reports compiled by Mr Lugovoy. Mr Attew also stated that he took a strong personal dislike to Mr Lugovoy when he met him with Mr Litvinenko at Heathrow Airport in June 2006. Mr Attew's evidence was that, on meeting Mr Lugovoy, he disliked and distrusted him. He added:
 
-"I have met many different people from many different countries, and you on occasions meet people that worry you, concern you, scare you, and in this instance, there was something I would describe as cold, scarily cold about Lugovoy. It wasn't that I felt frightened; it wasn't that I felt in harm's way in any way. I just didn't like the characteristics of the individual or the profile that was sitting in front of me."[^147]
+> "I have met many different people from many different countries, and you on occasions meet people that worry you, concern you, scare you, and in this instance, there was something I would describe as cold, scarily cold about Lugovoy. It wasn't that I felt frightened; it wasn't that I felt in harm's way in any way. I just didn't like the characteristics of the individual or the profile that was sitting in front of me."[^147]
 
 Mr Attew also stated that he returned to the Erinys/Titon offices after meeting Mr Lugovoy and recounted his experience to Mr Holmes and Mr Reilly. He also advised his colleagues that they should not allow Mr Lugovoy into the offices and, more importantly, that they should not do any business with him.[^148] As I have explained, Mr Reilly ignored both pieces of advice.
 
@@ -1677,41 +1649,37 @@ Insulting (unizhenie) national dignity;
 
 (b) …
 
-(c) Public appeals to engage in such activity, as well as public calls and addresses encouraging engagement in such activity and supporting or justifyng the commission of acts identified in this article;
+> (c) Public appeals to engage in such activity, as well as public calls and addresses encouraging engagement in such activity and supporting or justifyng the commission of acts identified in this article;
 
-(d) Financing such activities or any co-operation in planning, organisation, preparation and implementation of such actions, including by means of providing funds, immovable property, educational, printing material and technical support, telephone, fax or other means of communication, informational services or other material and technical means."
+> (d) Financing such activities or any co-operation in planning, organisation, preparation and implementation of such actions, including by means of providing funds, immovable property, educational, printing material and technical support, telephone, fax or other means of communication, informational services or other material and technical means."
 
 5.8 Professor Service commented on this provision in trenchant terms. He said:
 
-"The amendment is a mere listing of categories rather than a careful legislative definition. The language is extravagantly vague, and more than one category allows for unfettered repressive activity by the authorities. The item on the slandering of holders of public office is remarkable for the room it gives to treat any strident critique of the President or other leading officials as extremism. The wording is so expansive as to enable the authorities, if such were to be their desire, to act
+> "The amendment is a mere listing of categories rather than a careful legislative definition. The language is extravagantly vague, and more than one category allows for unfettered repressive activity by the authorities. The item on the slandering of holders of public office is remarkable for the room it gives to treat any strident critique of the President or other leading officials as extremism. The wording is so expansive as to enable the authorities, if such were to be their desire, to act
 
 %%page 88%%
 
-The Litvinenko Inquiry against every kind of unfair criticism – or indeed any criticism that they deem to be unfair."[^4]
+The Litvinenko Inquiry
+
+> against every kind of unfair criticism – or indeed any criticism that they deem to be unfair."[^4]
 
 The perceived threat 5.9 There is no doubt that Mr Litvinenko and the circle around him perceived the 2006 laws as representing a threat to their safety. On 11 July 2006 (three days after the second law had been passed by the Duma), The Times published a letter written by Vladimir Bukovsky and Oleg Gordievsky. It was short and to the point. It read as follows:
 
-"Sir, As the seven leaders of the world's most industrially developed democracies are packing their suitcases in order to go to St Petersburg for the G8 meeting, their would-be host, Former KGB Lieutenant–Colonel Vladimir Putin, has rushed through the state Duma two new pieces of legislation.
+> "Sir, As the seven leaders of the world's most industrially developed democracies are packing their suitcases in order to go to St Petersburg for the G8 meeting, their would-be host, Former KGB Lieutenant–Colonel Vladimir Putin, has rushed through the state Duma two new pieces of legislation.
 
-First, a new law enabling him to use his secret services as 'death squads' to eliminate 'extremists' anywhere abroad (including in this country).
+> First, a new law enabling him to use his secret services as 'death squads' to eliminate 'extremists' anywhere abroad (including in this country).
 
-Second, an amendment to existing law on fighting 'extremism', providing a much broader definition of that 'crime' which, among other things, will include now any
+> Second, an amendment to existing law on fighting 'extremism', providing a much broader definition of that 'crime' which, among other things, will include now any 'libellous' statements about his Administration.
 
-'libellous' statements about his Administration.
+> Thus, the stage is set for any critic of Putin's regime here, especially those campaigning against Russian genocide in Chechnya, to have an appointment with a poison-tipped umbrella. According to the statement by the Russian Defence Minister Sergei Ivanov, the black list of potential targets is already compiled.
 
-Thus, the stage is set for any critic of Putin's regime here, especially those campaigning against Russian genocide in Chechnya, to have an appointment with a poison-tipped umbrella. According to the statement by the Russian Defence
+> In keeping with the best traditions of the Soviet-era foreign policy, which always strived to make the world an unwitting accomplice of their crimes, this masterpiece is delivered precisely to coincide with the G8 meeting, which will serve to provide a semblance of approval, or at least of acceptance, by the world of this new development in the 'common fight with terrorism'.
 
-Minister Sergei Ivanov, the black list of potential targets is already compiled.
-
-In keeping with the best traditions of the Soviet-era foreign policy, which always strived to make the world an unwitting accomplice of their crimes, this masterpiece is delivered precisely to coincide with the G8 meeting, which will serve to provide a semblance of approval, or at least of acceptance, by the world of this new development in the 'common fight with terrorism'.
-
-Needless to say, this is an extremely dangerous development. Unless the Western leaders are prepared to share responsibility for murders, like the one committed in Qatar by Russian agents, they must cancel their meeting, or, at the very least, should protest loudly against such abuse of the G8 chairmanship."[^5]
+> Needless to say, this is an extremely dangerous development. Unless the Western leaders are prepared to share responsibility for murders, like the one committed in Qatar by Russian agents, they must cancel their meeting, or, at the very least, should protest loudly against such abuse of the G8 chairmanship."[^5]
 
 5.10 In an interview conducted by the Metropolitan Police Service in March 2007, Boris Berezovsky explained the extent of the concerns that Mr Litvinenko himself had had regarding the new legislation. He said:
 
-"And of course he was always worried of the security especially after, in July 2006,
-
-Putin signed a law which allowed Russian special services without any investigation or court hearing, to kill people who Russian authorities considered to be enemies of then Russian state. Sasha mentioned loads of times that this legislation of course was designed in the first place to get rid of us – him, Zakayev and myself. Moreover, he said that most probably they would try to poison us. Today this sounds amazing but unfortunately this proved to be true, true prediction."[^6]
+> "And of course he was always worried of the security especially after, in July 2006, Putin signed a law which allowed Russian special services without any investigation or court hearing, to kill people who Russian authorities considered to be enemies of then Russian state. Sasha mentioned loads of times that this legislation of course was designed in the first place to get rid of us – him, Zakayev and myself. Moreover, he said that most probably they would try to poison us. Today this sounds amazing but unfortunately this proved to be true, true prediction."[^6]
 
 %%page 89%%
 
@@ -1749,25 +1717,29 @@ The Litvinenko Inquiry d. Mr Holiner confirmed the distinction at paragraph 25 o
 
 > "In sum, the Counterterrorism Law permits the Federal Security Service, upon obtaining authority from the President of the Russian Federation, to engage in counterterrorist activities abroad aimed at eliminating terrorist threats, including through the use of lethal force…The Counter-Extremism Law confers no similar authority to act in respect of persons defined as extremists."
 
-e. Professor Service made a similar point at paragraph 68 of his report – the 2006 anti-
+> e. Professor Service made a similar point at paragraph 68 of his report – the 2006 anti- extremism amendment, he said, "contained no permission for the assassination of 'extremists' who were not terrorists"[^11]
 
-> extremism amendment, he said, "contained no permission for the assassination of 'extremists' who were not terrorists"[^11]
+> f. The only legal route to extra-territorial action against Mr Litvinenko was therefore under the Terrorism Law. However, action could only have been taken against Mr Litvinenko under this law had he been involved in, or no doubt suspected of involvement in, some form of terrorist activity. Article 3 of the Terrorism Law contains definitions of terrorism and terrorist acts that are broadly conventional, and certainly not as expansive as the definition of 'extremism' in the second of the 2006 laws. Mr Batmanov's letter (above) states that, "Alexander Litvinenko did not make part of a terrorist organization and was not accused by Russian law enforcement bodies of having committed a terrorist crime." That accords with my understanding of the evidence
 
-f. The only legal route to extra-territorial action against Mr Litvinenko was therefore
+5.19 On the basis of the evidence currently before me, and in light of the considerations
 
-> under the Terrorism Law. However, action could only have been taken against Mr Litvinenko under this law had he been involved in, or no doubt suspected of involvement in, some form of terrorist activity. Article 3 of the Terrorism Law contains definitions of terrorism and terrorist acts that are broadly conventional, and certainly not as expansive as the definition of 'extremism' in the second of the 2006 laws. Mr Batmanov's letter (above) states that, "Alexander Litvinenko did not make part of a terrorist organization and was not accused by Russian law enforcement bodies of having committed a terrorist crime." That accords with my understanding of the evidence
+> set out above, I am therefore not persuaded that any action could have been taken by the FSB against Mr Litvinenko in 2006 under the terms of either of the 2006 laws.
 
-5.19 On the basis of the evidence currently before me, and in light of the considerations set out above, I am therefore not persuaded that any action could have been taken by the FSB against Mr Litvinenko in 2006 under the terms of either of the 2006 laws.
+5.20 For completeness, I should add that the letter from Mr Batmanov made a further
 
-5.20 For completeness, I should add that the letter from Mr Batmanov made a further suggestion, to the effect that the Terrorism Law only established a legal basis for
+> suggestion, to the effect that the Terrorism Law only established a legal basis for Russia's armed forces to take international action against terrorism, and that it did not create any similar legal basis for international action by the FSB. Mr Holiner disputed this analysis. His view was that the Terrorism Law did indeed authorise international action of this sort by the FSB, and that this was also clear from the relevant terms of the Federal Security Service Law.
 
-Russia's armed forces to take international action against terrorism, and that it did not create any similar legal basis for international action by the FSB. Mr Holiner disputed this analysis. His view was that the Terrorism Law did indeed authorise international action of this sort by the FSB, and that this was also clear from the relevant terms of the Federal Security Service Law.
+5.21 I find Mr Holiner's reasoning on this point compelling, but in the end it is unnecessary
 
-5.21 I find Mr Holiner's reasoning on this point compelling, but in the end it is unnecessary for me to reach a conclusion on it. There is a simple factual reason why the terms of the 2006 laws did not permit any Russian forces to take action against Mr Litvinenko in the UK, namely that he had not been involved in terrorist activities.
+> for me to reach a conclusion on it. There is a simple factual reason why the terms of the 2006 laws did not permit any Russian forces to take action against Mr Litvinenko in the UK, namely that he had not been involved in terrorist activities.
 
-Wider considerations 5.22 But as I have already indicated, that is not the end of the matter. Professor Service, rightly in my view, identified a further consideration. Even if the strict terms of the 2006 laws could not be brought to bear against Mr Litvinenko, can it be said that they had a subtler, less formal effect of encouraging, or emboldening, or even licensing the FSB to take action against Mr Litvinenko and others like him?
+Wider considerations 5.22 But as I have already indicated, that is not the end of the matter. Professor Service,
 
-5.23 Professor Service helpfully put the 2006 laws into their historical context. He referred in particular to the public outrage in Russia following the killing of five Russian diplomats by a Chechen supporting terrorist group in Iraq, and also to FSB claims in July 2006
+> rightly in my view, identified a further consideration. Even if the strict terms of the 2006 laws could not be brought to bear against Mr Litvinenko, can it be said that they had a subtler, less formal effect of encouraging, or emboldening, or even licensing the FSB to take action against Mr Litvinenko and others like him?
+
+5.23 Professor Service helpfully put the 2006 laws into their historical context. He referred in
+
+> particular to the public outrage in Russia following the killing of five Russian diplomats by a Chechen supporting terrorist group in Iraq, and also to FSB claims in July 2006
 
 %%page 91%%
 
@@ -1775,21 +1747,19 @@ Part 5 | Chapters 1 to 8 | Alexander Litvinenko's final months that it had been 
 
 5.24 Against this backdrop, Professor Service expressed the view that the 2006 amendment to the anti-extremist law had an influence going beyond the scope of its black letter provisions. In his report he put the matter in this way:
 
-"The amendment did, however, have a political consequence of importance by broadening the spectrum of targets to be pursued by the security agencies.
-
-Not only out-and-out terrorists were mentioned but 'extremists' in general, and extremism itself was described only in relation to imprecisely delineated categories of activity. The door was left open to brand a large swathe of opponents of Putin and his administration as extremists who needed to be eliminated. And terrorism and extremism were frequently mentioned in the same breath by Putin and his ministers. There was little attempt to make an official distinction between the two phenomena that the legislation was directed against. To that extent, there was an implicit licensing package for FSB operations abroad as well as in Russia."[^12]
+> "The amendment did, however, have a political consequence of importance by broadening the spectrum of targets to be pursued by the security agencies. Not only out-and-out terrorists were mentioned but 'extremists' in general, and extremism itself was described only in relation to imprecisely delineated categories of activity. The door was left open to brand a large swathe of opponents of Putin and his administration as extremists who needed to be eliminated. And terrorism and extremism were frequently mentioned in the same breath by Putin and his ministers. There was little attempt to make an official distinction between the two phenomena that the legislation was directed against. To that extent, there was an implicit licensing package for FSB operations abroad as well as in Russia."[^12]
 
 5.25 Professor Service expanded on this reasoning in giving oral evidence. When asked whether it was his view that the 2006 laws had more of a political than a legal effect, he stated:
 
-"Yes, I think that's a fair summary. In legal terms, only one of them related to legal encouragement for taking physical action abroad, but generally taking the two together, the political effect was to engender an environment within the FSB and within public opinion that there was little difference between acting against extremism and acting against terrorism… legally speaking, there is a distinction, but it's hard to avoid the conclusion that the authorities wanted to fudge that distinction and just create a new feeling for the FSB to feel free to act without constraint."[^13]
+> "Yes, I think that's a fair summary. In legal terms, only one of them related to legal encouragement for taking physical action abroad, but generally taking the two together, the political effect was to engender an environment within the FSB and within public opinion that there was little difference between acting against extremism and acting against terrorism… legally speaking, there is a distinction, but it's hard to avoid the conclusion that the authorities wanted to fudge that distinction and just create a new feeling for the FSB to feel free to act without constraint."[^13]
 
 He continued:
 
-"We don't have definite documentation about exactly why President Putin introduced these two legal changes in 2006, but we do know that they were introduced to the maximum of publicity, so that it is inconceivable that they were not thought to be important elements in reinforcing support in public opinion for what the authorities wanted to do."[^14]
+> "We don't have definite documentation about exactly why President Putin introduced these two legal changes in 2006, but we do know that they were introduced to the maximum of publicity, so that it is inconceivable that they were not thought to be important elements in reinforcing support in public opinion for what the authorities wanted to do."[^14]
 
 And further:
 
-"We simply don't know the extent to which those two amendments affected the operational activity of the FSB. It seems a strong possibility that those amendments opened a channel for the FSB that wasn't as wide beforehand."[^15]
+> "We simply don't know the extent to which those two amendments affected the operational activity of the FSB. It seems a strong possibility that those amendments opened a channel for the FSB that wasn't as wide beforehand."[^15]
 
 %%page 92%%
 
@@ -1801,9 +1771,7 @@ The Litvinenko Inquiry
 
 5.27 It was, in fact, in July 2006 that Mr Litvinenko published an article on the Chechenpress website that Professor Service referred to as the "climax" of Mr Litvinenko's attacks on President Putin.[^17] The article, which is in evidence before me, accused President Putin of paedophilia.[^18] It read as follows:
 
-"A few days ago, Russian President Vladimir Putin walked from the Big Kremlin
-
-Palace to his Residence. At one of the Kremlin squares, the president stopped to chat with the tourists. Among them was a boy aged 4 or 5.
+> "A few days ago, Russian President Vladimir Putin walked from the Big Kremlin Palace to his Residence. At one of the Kremlin squares, the president stopped to chat with the tourists. Among them was a boy aged 4 or 5.
 
 'What is your name?' Putin asked.
 
@@ -1811,33 +1779,25 @@ Palace to his Residence. At one of the Kremlin squares, the president stopped to
 
 Putin knee[le]d, lifted the boy's T-shirt and kissed his stomach.
 
-The world public is shocked. Nobody can understand why the Russian president did such a strange thing as kissing the stomach of an unfamiliar small boy.
+> The world public is shocked. Nobody can understand why the Russian president did such a strange thing as kissing the stomach of an unfamiliar small boy.
 
-The explanation may be found if we look carefully at the so-called 'blank spots' in
+> The explanation may be found if we look carefully at the so-called 'blank spots' in Putin's biography.
 
-Putin's biography.
+> After graduating from the Andropov Institute, which prepares officers for the KGB intelligence service, Putin was not accepted into the foreign intelligence. Instead, he was sent to a junior position in KGB Leningrad Directorate. This was a very unusual twist for a career of an Andropov Institute's graduate with fluent German. Why did that happen with Putin?
 
-After graduating from the Andropov Institute, which prepares officers for the KGB intelligence service, Putin was not accepted into the foreign intelligence. Instead, he was sent to a junior position in KGB Leningrad Directorate. This was a very unusual twist for a career of an Andropov Institute's graduate with fluent German.
+> Because, shortly before his graduation, his bosses learned that Putin was a pedophile [sic]. So say some people who knew Putin as a student at the Institute.
 
-Why did that happen with Putin?
+> The Institute officials feared to report this to their own superiors, which would cause an unpleasant investigation. They decided it was easier just to avoid sending Putin abroad under some pretext. Such a solution is not unusual for the secret services.
 
-Because, shortly before his graduation, his bosses learned that Putin was a pedophile [sic]. So say some people who knew Putin as a student at the Institute.
-
-The Institute officials feared to report this to their own superiors, which would cause an unpleasant investigation. They decided it was easier just to avoid sending Putin abroad under some pretext. Such a solution is not unusual for the secret services.
-
-Many years later, when Putin became the FSB director and was preparing for the presidency, he began to seek and destroy any compromising materials collected against him by the secret services over earlier years. It was not difficult, provided he himself was the FSB director. Among other things, Putin found videotapes in
+> Many years later, when Putin became the FSB director and was preparing for the presidency, he began to seek and destroy any compromising materials collected against him by the secret services over earlier years. It was not difficult, provided he himself was the FSB director. Among other things, Putin found videotapes in
 
 %%page 93%%
 
-Part 5 | Chapters 1 to 8 | Alexander Litvinenko's final months the FSB Internal Security directorate, which showed him making sex with some underage boys.
+Part 5 | Chapters 1 to 8 | Alexander Litvinenko's final months
 
-Interestingly, the video was recorded in the same conspiratorial flat in Polyanka
+> the FSB Internal Security directorate, which showed him making sex with some underage boys.
 
-Street in Moscow where Russian Prosecutor-General Yuri Skuratov was secretly video-taped with two prostitutes. Later, in the famous scandal, Putin (on Roman
-
-Abramovich's instructions) blackmailed Skuratov with these tapes and tried to persuade the Prosecutor-General to resign. In that conversation, Putin mentioned to Skuratov that he himself was also secretly video-taped making sex at the same bed. (But of course, he did not tell it was pedophilia [sic] rather than normal sex.)
-
-Later, Skuratov wrote about this in his book Variant Drakona (pp.153-154)."
+> Interestingly, the video was recorded in the same conspiratorial flat in Polyanka Street in Moscow where Russian Prosecutor-General Yuri Skuratov was secretly video-taped with two prostitutes. Later, in the famous scandal, Putin (on Roman Abramovich's instructions) blackmailed Skuratov with these tapes and tried to persuade the Prosecutor-General to resign. In that conversation, Putin mentioned to Skuratov that he himself was also secretly video-taped making sex at the same bed. (But of course, he did not tell it was pedophilia [sic] rather than normal sex.) Later, Skuratov wrote about this in his book Variant Drakona (pp.153-154)."
 
 5.28 It hardly needs saying that the allegations made by Mr Litvinenko against President Putin in this article were of the most serious nature. Could they have had any connection with his death?
 
@@ -1855,21 +1815,11 @@ The Litvinenko Inquiry
 
 5.32 This allegation was advanced by Mr Lugovoy at the press conference that he held in Moscow on 31 May 2007. He told the press that he had three explanations for Mr Litvinenko's death. The first two were that Mr Litvinenko had been killed by UK agencies or by the Russian mafia. His third explanation, which he said seemed to him to be "the most plausible", was as follows:
 
-"I am talking about Berezovsky who is known as an outstanding master of political intrigue. Litvinenko told me, that Berezovsky in fact sacked him by decreasing his salary threefold. Lately both Sasha and Berezovsky thought that the Office of the Russian Federation Procurator General and the British will come to an understanding and Berezovsky will be extradited to Russia.
+> "I am talking about Berezovsky who is known as an outstanding master of political intrigue. Litvinenko told me, that Berezovsky in fact sacked him by decreasing his salary threefold. Lately both Sasha and Berezovsky thought that the Office of the Russian Federation Procurator General and the British will come to an understanding and Berezovsky will be extradited to Russia.
 
-In this connection I would like to tell you what Sasha had told Dmitry Kovtun not long before his death, when we met together in October of last year. During our dinner at one of the Chinatown restaurants in London, Litvinenko, enlarging on the subject of ways to make money, touched upon the resumed negotiations between
+> In this connection I would like to tell you what Sasha had told Dmitry Kovtun not long before his death, when we met together in October of last year. During our dinner at one of the Chinatown restaurants in London, Litvinenko, enlarging on the subject of ways to make money, touched upon the resumed negotiations between Russia and the UK regarding Berezovsky's extradition. Lamenting the fact that Berezovsky did not appreciate the services rendered to him by Litvinenko, who allegedly saved his life more than once, Litvinenko told Kovtun, that he had the most important materials of a compromising nature, regarding the illegal activity of Berezovsky on the UK territory. If any part of the documents pertaining to the circumstances of his obtaining the refugee status were to be made public, then he (Berezovsky) would have huge problems. Litvinenko hinted to Dima, that especially now, when Russia raised an issue with the UK of extraditing Berezovsky, it would be very opportune to let Berezovsky know that such materials exist, and to put a value of several million dollars on them. Still being financially dependent on Berezovsky – Berezovsky was paying his son's tuition fees and the family's accommodation in London – Litvinenko asked Kovtun to find a reliable person, whom he would introduce to Berezovsky, which person would be able to familiarise Berezovsky with the materials, compromising him. Litvinenko was absolutely sure of the success of this enterprise, referring to the explosive nature and authenticity of the compromising materials that he possessed. Since the conversation took place when I left the table, Litvinenko asked Kovtun to keep that conversation between them, fearing that I, as a person who could contact Berezovsky at any point, would expose Litvinenko's idea to him.
 
-Russia and the UK regarding Berezovsky's extradition. Lamenting the fact that
-
-Berezovsky did not appreciate the services rendered to him by Litvinenko, who allegedly saved his life more than once, Litvinenko told Kovtun, that he had the most important materials of a compromising nature, regarding the illegal activity of Berezovsky on the UK territory. If any part of the documents pertaining to the circumstances of his obtaining the refugee status were to be made public, then he (Berezovsky) would have huge problems. Litvinenko hinted to Dima, that especially now, when Russia raised an issue with the UK of extraditing Berezovsky, it would be very opportune to let Berezovsky know that such materials exist, and to put a value of several million dollars on them. Still being financially dependent on Berezovsky – Berezovsky was paying his son's tuition fees and the family's accommodation in London – Litvinenko asked Kovtun to find a reliable person, whom he would introduce to Berezovsky, which person would be able to familiarise
-
-Berezovsky with the materials, compromising him. Litvinenko was absolutely sure of the success of this enterprise, referring to the explosive nature and authenticity of the compromising materials that he possessed. Since the conversation took place when I left the table, Litvinenko asked Kovtun to keep that conversation between them, fearing that I, as a person who could contact Berezovsky at any point, would expose Litvinenko's idea to him.
-
-Not willing to participate in all that even indirectly, not taking Litvinenko seriously,
-
-Kovtun and I decided it prudent to forget this conversation as soon as possible.
-
-However recalling now the details of my meetings with Litvinenko, his conviction
+> Not willing to participate in all that even indirectly, not taking Litvinenko seriously, Kovtun and I decided it prudent to forget this conversation as soon as possible. However recalling now the details of my meetings with Litvinenko, his conviction
 
 %%page 95%%
 
@@ -1877,7 +1827,9 @@ Part 5 | Chapters 1 to 8 | Alexander Litvinenko's final months
 
 > that the compromising materials he possessed could have fundamentally changed his (Litvinenko's) reduced financial circumstances, I can suppose that he did not abandon the idea of blackmailing Berezovsky which could have led to such lamentable consequences for him."[^19]
 
-5.33 There is evidence that Mr Lugovoy, Mr Kovtun and Mr Litvinenko had dinner together in a restaurant in Chinatown on 17 October 2006, and it would appear to have been that evening to which Mr Lugovoy was referring in his speech at the press conference.
+5.33 There is evidence that Mr Lugovoy, Mr Kovtun and Mr Litvinenko had dinner together
+
+> in a restaurant in Chinatown on 17 October 2006, and it would appear to have been that evening to which Mr Lugovoy was referring in his speech at the press conference.
 
 5.34 About four years later, in a statement dated March 2011, Mr Lugovoy gave a slightly different account of this episode. He said this:[^20]
 
@@ -1885,15 +1837,17 @@ Part 5 | Chapters 1 to 8 | Alexander Litvinenko's final months
 
 > I do not know why Mr Litvinenko said this to Mr Kovtun. One possibility may be that Mr Litvinenko thought that Mr Kovtun would tell me the content of this conversation and that perhaps I would tell Mr Berezovsky or Mr Patarkatsishvili (who would tell Mr Berezovsky) with the end result being that Mr Berezovsky would recognise the value/threat of the information held by Mr Litvinenko and therefore reward him accordingly (and return his monthly salary to its previous level of £5,000 and perhaps even increase it)."
 
-5.35 I will have to make findings as to whether Mr Litvinenko did have a conversation along these lines with Mr Kovtun on 17 October 2006 – either over dinner in Chinatown or as they walked away from the meeting at RISC. More importantly, I will have to make a finding as to whether Mr Berezovsky had any involvement in Mr Litvinenko's death.
+5.35 I will have to make findings as to whether Mr Litvinenko did have a conversation along
 
-Those are matters that I will address in due course.
+> these lines with Mr Kovtun on 17 October 2006 – either over dinner in Chinatown or as they walked away from the meeting at RISC. More importantly, I will have to make a finding as to whether Mr Berezovsky had any involvement in Mr Litvinenko's death. Those are matters that I will address in due course.
 
-5.36 The accounts that Mr Lugovoy has given raise a straightforward factual issue upon which, at least to an extent, his broader allegations of blackmail and complicity in murder all rest. That factual issue concerns Mr Litvinenko's reaction to the reduction in the payments that Mr Berezovsky was making to him that, as we have already seen, took place in early or mid 2006. What was Mr Litvinenko's reaction to the reduction in payments? Did the two men argue? Was Mr Litvinenko upset, and if so was he sufficiently upset to contemplate blackmailing his old friend?
+5.36 The accounts that Mr Lugovoy has given raise a straightforward factual issue upon
 
-5.37 I heard oral evidence from a number of those who were close to one or other of the two men, and who were well placed to report on the state of relations between them.
+> which, at least to an extent, his broader allegations of blackmail and complicity in murder all rest. That factual issue concerns Mr Litvinenko's reaction to the reduction in the payments that Mr Berezovsky was making to him that, as we have already seen, took place in early or mid 2006. What was Mr Litvinenko's reaction to the reduction in payments? Did the two men argue? Was Mr Litvinenko upset, and if so was he sufficiently upset to contemplate blackmailing his old friend?
 
-Their evidence can be summarised as follows.
+5.37 I heard oral evidence from a number of those who were close to one or other of the
+
+> two men, and who were well placed to report on the state of relations between them. Their evidence can be summarised as follows.
 
 %%page 96%%
 
@@ -1917,9 +1871,7 @@ The Litvinenko Inquiry
 
 Part 5 | Chapters 1 to 8 | Alexander Litvinenko's final months
 
-"I don't think naturally as a man he was particularly acquisitive at all, really. I think sufficiency was… the way he was. He… was never expressing views about buying
-
-Ferraris or Rolex watches or anything like that but I would imagine, though, that that… may have been affected simply by the Western world…. He was beginning to understand, unfortunately, the importance of money in a Western economy, but he was not avaricious and he was not spending money will-nilly."[^27]
+> "I don't think naturally as a man he was particularly acquisitive at all, really. I think sufficiency was… the way he was. He… was never expressing views about buying Ferraris or Rolex watches or anything like that but I would imagine, though, that that… may have been affected simply by the Western world…. He was beginning to understand, unfortunately, the importance of money in a Western economy, but he was not avaricious and he was not spending money will-nilly."[^27]
 
 5.43 Like Mr Reilly, MrAttew understood that Mr Litvinenko had fallen out with Mr Berezovsky and then made up with him again in the period September to October 2006.28
 
@@ -2035,9 +1987,7 @@ The Litvinenko Inquiry
 
 5.65 Is it possible that the Ivanov report triggered Mr Litvinenko's killing, or at least had some connection with it? One obvious difficulty with this theory is that, on Mr Shvets' evidence, Mr Lugovoy only received the report a few weeks before what appears to have been the first attempt to poison Mr Litvinenko. Mr Shvets was asked about this, but was not shaken from his "positive" belief that the Ivanov report triggered an operation to murder Mr Litvinenko. His reasoning, as he explained it to me, was that such an operation could have been mounted quickly since the Russian security agencies already had access to, and experience in the use of, polonium, as well as inside knowledge of Mr Berezovsky's office, and Mr Lugovoy had easy access to Mr Litvinenko. He believed it to be credible, therefore, that the planning for Mr Litvinenko's poisoning had not started until September (and presumably, on his reasoning, the end of September) 2006.57 He concluded:
 
-"… look, before Sasha was poisoned, he had lived in London for several years, and over this period, he was consistent in making statements, critical statements, against Putin… some of this criticism was very insulting, very personal, and still
-
-Sasha was alive. Nothing happened. He was alive and well. And suddenly he was poisoned. So it leads me to believe that we should be looking for something which happened shortly before he was poisoned. Something changed in his life-style shortly before he was poisoned, and what changes? It was the fact that he was fired by Boris Berezovsky, it was the fact that he got involved in other business activities, which leads to the report, et cetera."[^58]
+> "… look, before Sasha was poisoned, he had lived in London for several years, and over this period, he was consistent in making statements, critical statements, against Putin… some of this criticism was very insulting, very personal, and still Sasha was alive. Nothing happened. He was alive and well. And suddenly he was poisoned. So it leads me to believe that we should be looking for something which happened shortly before he was poisoned. Something changed in his life-style shortly before he was poisoned, and what changes? It was the fact that he was fired by Boris Berezovsky, it was the fact that he got involved in other business activities, which leads to the report, et cetera."[^58]
 
 5.66 In his oral closing submissions on behalf of Marina Litvinenko, Mr Emmerson QC described Mr Litvinenko's action in giving a copy of the Shvets Ivanov report to Mr Lugovoy as "a fatal mistake". Mr Emmerson suggested that a similar significance could be placed on the fact that Mr Lugovoy knew from his dealings at RISC that Mr Litvinenko had been tasked with investigating Mr Gordeyev, who was, in his words, "a high-ranking official in the Russian government". Mr Emmerson submitted that from the moment Mr Litvinenko gave Mr Lugovoy a copy of the Ivanov report:[^59]
 
@@ -2193,7 +2143,7 @@ Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November
 
 6.16 The other category, referred to during the hearings as secondary or transferred contamination, comprised sites where the contamination had been caused not as a result of exposure to the main source of material – i.e. polonium 210 – but rather as a result of the transfer of contamination, either directly or indirectly from a site of primary contamination. A1 explained that there was: "a range of ways in which the contamination from the original source can be transferred so that could potentially be on somebody's hand, by somebody's foot, et cetera".8 She also stated that:
 
-"… the transfer of polonium from primary contamination areas to other areas is dependent upon the physical and chemical properties of polonium and the surface of the materials on which it is deposited. The amount of contamination transferred is dependent upon the amount of original activity present on each successive surface to which it is transferred."[^9]
+> "… the transfer of polonium from primary contamination areas to other areas is dependent upon the physical and chemical properties of polonium and the surface of the materials on which it is deposited. The amount of contamination transferred is dependent upon the amount of original activity present on each successive surface to which it is transferred."[^9]
 
 6.17 One important feature of the forensic testing in this case was that it was conducted some weeks after the dates on which the contamination appears to have taken place. As will be seen from the contamination schedule, most of the testing was undertaken during December 2006. On the assumption that the contamination occurred in late October and early November 2006, in each case there was a gap of several weeks between the date of contamination and the date of testing.
 
@@ -2323,9 +2273,7 @@ Visa application by Mr Lugovoy 6.46 Mr Lugovoy's visa application form was dated
 
 6.50 Mr Lugovoy was accordingly telephoned and asked why he had used his last visa eight times, and what he had been doing in the UK on those occasions. There is a manuscript note of the telephone conversation.[^30] Mr Lugovoy is recorded as saying that:
 
-"he has travelled to the UK purely for holidays because he has friends there
-
-(Aleksander Litvinenko) and he likes the UK. He travelled either alone or with his wife."
+> "he has travelled to the UK purely for holidays because he has friends there (Aleksander Litvinenko) and he likes the UK. He travelled either alone or with his wife."
 
 %%page 118%%
 
@@ -2355,39 +2303,29 @@ Visa application by Mr Kovtun 6.58 Mr Kovtun's application for a UK visa was dat
 
 Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006
 
-6.61 In further contrast to Mr Lugovoy's application, Mr Kovtun applied for a business visa. Mr Kovtun described himself in his application form as the general director of a Russian company named Global Project Ltd and asserted that he had a monthly income of 65,000 roubles. He named a British company called Continental Petroleum
+6.61 In further contrast to Mr Lugovoy's application, Mr Kovtun applied for a business
 
-Ltd (CPL) as his contact in the UK, and attached to his form a letter from the Chairman of CPL, named Mr Balfour, which was addressed to the British Embassy in Moscow.[^35]
+> visa. Mr Kovtun described himself in his application form as the general director of a Russian company named Global Project Ltd and asserted that he had a monthly income of 65,000 roubles. He named a British company called Continental Petroleum Ltd (CPL) as his contact in the UK, and attached to his form a letter from the Chairman of CPL, named Mr Balfour, which was addressed to the British Embassy in Moscow.[^35] In his letter Mr Balfour requested that Mr Kovtun be granted an entry visa. The letter confirmed that Global Project Ltd had been founded in 2003 and that Mr Kovtun had been general director of the company since 5 December 2003. It added that, "the company provides consulting services in development of Russian oil and gas markets."
 
-In his letter Mr Balfour requested that Mr Kovtun be granted an entry visa. The letter confirmed that Global Project Ltd had been founded in 2003 and that Mr Kovtun had been general director of the company since 5 December 2003. It added that,
+6.62 The contents of Mr Kovtun's visa application form and the letter from Mr Balfour
 
-"the company provides consulting services in development of Russian oil and gas markets."
+> raise for the first time a number of related issues concerning Mr Kovtun. Was his supposed successful business career in Russia genuine? Did he work with CPL? Did he have genuine business reasons for travelling to London in October and early November 2006?
 
-6.62 The contents of Mr Kovtun's visa application form and the letter from Mr Balfour raise for the first time a number of related issues concerning Mr Kovtun. Was his supposed successful business career in Russia genuine? Did he work with CPL?
+6.63 I heard evidence from a number of witnesses on these matters which I will detail in
 
-Did he have genuine business reasons for travelling to London in October and early
+> due course. It may, however, assist if at this stage I identify the issues in a little more detail and give some preliminary views in relation to them:
 
-November 2006?
+> a. There is no evidence, other than that emanating from Mr Lugovoy and from Mr Kovtun himself, that Mr Kovtun was a wealthy and successful businessman in 2006. As I have explained in some detail above, at paragraphs 6.35 – 6.40, the evidence of Inna Hohne and of Marina and Elenora Wall was strongly inconsistent with such a suggestion. Further, as we shall see, it is a striking feature of the evidence relating to his activities in October and November 2006 that Mr Kovtun did not appear to live the lifestyle of a rich businessman. He did not pay for drinks or meals in London, and the evidence is that he had to ask his ex-wife's boyfriend to pay for his flight from Hamburg to London because he did not have a credit card
 
-6.63 I heard evidence from a number of witnesses on these matters which I will detail in due course. It may, however, assist if at this stage I identify the issues in a little more detail and give some preliminary views in relation to them:
+> b. There is, on the other hand, plenty of evidence to demonstrate the existence of a business relationship between CPL and Mr Lugovoy. Witnesses such as Dr Shadrin and Mr Voronoff, to whom I shall return, attested to this
 
-a. There is no evidence, other than that emanating from Mr Lugovoy and from
+> c. It was also apparent from the evidence of these and other witnesses that Mr Lugovoy drew Mr Kovtun into his work with CPL. I shall return to the detail of this evidence in due course
 
-> Mr Kovtun himself, that Mr Kovtun was a wealthy and successful businessman in 2006. As I have explained in some detail above, at paragraphs 6.35 – 6.40, the evidence of Inna Hohne and of Marina and Elenora Wall was strongly inconsistent with such a suggestion. Further, as we shall see, it is a striking feature of the evidence relating to his activities in October and November 2006 that Mr Kovtun did not appear to live the lifestyle of a rich businessman. He did not pay for drinks or meals in London, and the evidence is that he had to ask his ex-wife's boyfriend to pay for his flight from Hamburg to London because he did not have a credit card
+> d. Perhaps the most important issue in this regard is whether Mr Kovtun's business dealings with CPL (or for that matter any other companies) provide a sufficient explanation for his two trips to London in October and November 2006. On this issue, as we shall see, there are discrepancies between the evidence of Mr Kovtun on the one hand and Dr Shadrin on the other
 
-b. There is, on the other hand, plenty of evidence to demonstrate the existence
+6.64 Another notable feature of Mr Kovtun's visa application was its timing in relation to
 
-> of a business relationship between CPL and Mr Lugovoy. Witnesses such as Dr Shadrin and Mr Voronoff, to whom I shall return, attested to this
-
-c. It was also apparent from the evidence of these and other witnesses that
-
-> Mr Lugovoy drew Mr Kovtun into his work with CPL. I shall return to the detail of this evidence in due course
-
-d. Perhaps the most important issue in this regard is whether Mr Kovtun's business
-
-> dealings with CPL (or for that matter any other companies) provide a sufficient explanation for his two trips to London in October and November 2006. On this issue, as we shall see, there are discrepancies between the evidence of Mr Kovtun on the one hand and Dr Shadrin on the other
-
-6.64 Another notable feature of Mr Kovtun's visa application was its timing in relation to other events. As Mr Horwell QC observed in his closing submissions,[^36] it is striking that the bookings for Mr Lugovoy's and Mr Kovtun's flights to London on 16 October and the bookings for their hotel rooms on that trip were made a few days after Mr Kovtun's
+> other events. As Mr Horwell QC observed in his closing submissions,[^36] it is striking that the bookings for Mr Lugovoy's and Mr Kovtun's flights to London on 16 October and the bookings for their hotel rooms on that trip were made a few days after Mr Kovtun's
 
 %%page 120%%
 
@@ -2399,39 +2337,31 @@ Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November
 
 ### Chapter 5: Events in London 16-18 October
 
-6.65 Mr Lugovoy and Mr Kovtun flew from Moscow to London Gatwick on the morning of Monday 16 October 2006. They stayed for two nights, returning to Moscow on
+6.65 Mr Lugovoy and Mr Kovtun flew from Moscow to London Gatwick on the morning
 
-Wednesday 18 October. The two men attended business meetings with Mr Litvinenko during the day on both 16 and 17 October, and went out with him for dinner on the evening of 17 October. For Mr Lugovoy, this was the latest in a series of visits to
+> of Monday 16 October 2006. They stayed for two nights, returning to Moscow on Wednesday 18 October. The two men attended business meetings with Mr Litvinenko during the day on both 16 and 17 October, and went out with him for dinner on the evening of 17 October. For Mr Lugovoy, this was the latest in a series of visits to London during which he met Mr Litvinenko. For Mr Kovtun, by contrast, this was his first trip to London and also the first time he had met Mr Litvinenko.
 
-London during which he met Mr Litvinenko. For Mr Kovtun, by contrast, this was his first trip to London and also the first time he had met Mr Litvinenko.
+6.66 Monday 16 October 2006 was just over a week after Anna Politkovskaya had been
 
-6.66 Monday 16 October 2006 was just over a week after Anna Politkovskaya had been murdered in Moscow, on Saturday 7 October. The day on which Mr Litvinenko had attended his citizenship ceremony, and then gone on to the memorial service for
-
-Ms Politkovskaya, had been at the end of the previous week – Friday 13 October.
+> murdered in Moscow, on Saturday 7 October. The day on which Mr Litvinenko had attended his citizenship ceremony, and then gone on to the memorial service for Ms Politkovskaya, had been at the end of the previous week – Friday 13 October.
 
 Arrival in London 6.67 Mr Lugovoy and Mr Kovtun flew into Gatwick on the morning of 16 October aboard
 
-Transaero flight UN333. The flight arrived at 10.48am. The registration number of the aircraft that made the flight that morning was EI-DDK.
+> Transaero flight UN333. The flight arrived at 10.48am. The registration number of the aircraft that made the flight that morning was EI-DDK.
 
-6.68 In contrast to all bar one of the other aircraft on which Mr Lugovoy and Mr Kovtun flew during this period, EI-DDK was never tested for radiation by the UK authorities.
+6.68 In contrast to all bar one of the other aircraft on which Mr Lugovoy and Mr Kovtun
 
-I heard detailed evidence as to the reasons for this. Put very shortly, a request was made by the Metropolitan Police Service to test the aircraft. The aircraft was not made available and the police believed that the request had been deliberately frustrated by the Russian authorities. At the same time, the Russian authorities announced that they had tested the plane and found it free of contamination, although considerable doubt was subsequently cast on those results.
+> flew during this period, EI-DDK was never tested for radiation by the UK authorities. I heard detailed evidence as to the reasons for this. Put very shortly, a request was made by the Metropolitan Police Service to test the aircraft. The aircraft was not made available and the police believed that the request had been deliberately frustrated by the Russian authorities. At the same time, the Russian authorities announced that they had tested the plane and found it free of contamination, although considerable doubt was subsequently cast on those results.
 
-6.69 These events took place in early December 2006, at the very start of the police investigation. They involved a number of different parties, both in the UK and in
+6.69 These events took place in early December 2006, at the very start of the police
 
-Russia. DI Mascall gave evidence about these matters.[^38] In summary:
+> investigation. They involved a number of different parties, both in the UK and in Russia. DI Mascall gave evidence about these matters.[^38] In summary:
 
-a. The Metropolitan Police Service decided on 30 November 2006 that both the
+> a. The Metropolitan Police Service decided on 30 November 2006 that both the plane on which Mr Lugovoy and Mr Kovtun had flown to London on 16 October (EI-DDK) and the plane on which they had returned to Moscow on 18 October (EI-DNM) should be tested for contamination. Both aircraft were operated by the Russian airline Transaero
 
-> plane on which Mr Lugovoy and Mr Kovtun had flown to London on 16 October (EI-DDK) and the plane on which they had returned to Moscow on 18 October (EI-DNM) should be tested for contamination. Both aircraft were operated by the Russian airline Transaero
+> b. On 1 December 2006, an official at the British Embassy in Moscow named Mr Knott notified both the Russian authorities and Transaero of the concern as to possible contamination of the aircraft, and of the advice that they should be tested before they next flew[^39]
 
-b. On 1 December 2006, an official at the British Embassy in Moscow named
-
-> Mr Knott notified both the Russian authorities and Transaero of the concern as to possible contamination of the aircraft, and of the advice that they should be tested before they next flew[^39]
-
-c. On the same day, Mr Knott was informed both by officials in the office of
-
-> Mr Gennadiy Onishchenko, the then Russian Chief Public Health Officer, and by Mr Alexander Tarrenets, the Deputy Director of Security for Transaero, that
+> c. On the same day, Mr Knott was informed both by officials in the office of Mr Gennadiy Onishchenko, the then Russian Chief Public Health Officer, and by Mr Alexander Tarrenets, the Deputy Director of Security for Transaero, that
 
 %%page 122%%
 
@@ -2473,7 +2403,7 @@ Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November
 
 6.75 It appeared from his evidence that DC Scott was uneasy about Mr Lugovoy and Mr Kovtun. He explained that the two men:
 
-"were very evasive as to why they were coming to the UK… as I asked them questions, they weren't coming out with the answers that I wanted to hear or expected to hear. They were giving me very, very short answers, so there was no information in those answers."[^49]
+> "were very evasive as to why they were coming to the UK… as I asked them questions, they weren't coming out with the answers that I wanted to hear or expected to hear. They were giving me very, very short answers, so there was no information in those answers."[^49]
 
 6.76 Ultimately, however, once he had telephoned Dr Shadrin's offices and completed his standard checks, DC Scott considered that he had no power to hold the two men any longer and therefore let them proceed.
 
@@ -2723,11 +2653,9 @@ The Litvinenko Inquiry was in the club that evening.[^128] The evidence was that
 
 6.142 In the witness statement dated 2 June 2015 that Mr Kovtun provided to the Inquiry, he gave a description of an event that took place during the meal at the Golden Dragon on the evening of 17 October 2006. The account that he gave was as follows:
 
-"In the restaurant Litvinenko talked about the scoundrel Y. Felshtinsky, relating how he had robbed him, unfairly dividing the fee for the book 'Blowing up Russia', and how it was easy to obtain political asylum in Great Britain through A. Goldfarb, whom he called a 'CIA agent'. Litvinenko also suggested identifying wealthy citizens in Russia with property in Spain and giving him their details. Using his connections within the Spanish police, he would create problems for them there, and we would then make contact with them and solve those problems for a significant material reward.
+> "In the restaurant Litvinenko talked about the scoundrel Y. Felshtinsky, relating how he had robbed him, unfairly dividing the fee for the book 'Blowing up Russia', and how it was easy to obtain political asylum in Great Britain through A. Goldfarb, whom he called a 'CIA agent'. Litvinenko also suggested identifying wealthy citizens in Russia with property in Spain and giving him their details. Using his connections within the Spanish police, he would create problems for them there, and we would then make contact with them and solve those problems for a significant material reward.
 
-Somehow or other, the subsequent conversation turned to Chechens, and
-
-Litvinenko started boasting about his friendship with Sakayev and his brothers, hinting at his indirect involvement in the events in Nalchik where over 70 Russian police officers were killed in an attack on the town by Islamic militants. I was fed up with listening to his harangue and gladly complied with Lugovoy's request to leave them. I went outside and walked about not far from the Chinese restaurant for about 30 minutes."
+> Somehow or other, the subsequent conversation turned to Chechens, and Litvinenko started boasting about his friendship with Sakayev and his brothers, hinting at his indirect involvement in the events in Nalchik where over 70 Russian police officers were killed in an attack on the town by Islamic militants. I was fed up with listening to his harangue and gladly complied with Lugovoy's request to leave them. I went outside and walked about not far from the Chinese restaurant for about 30 minutes."
 
 6.143 I draw attention to this section of Mr Kovtun's statement because it is seriously at odds with other accounts that both he and Mr Lugovoy have previously given.
 
@@ -2739,7 +2667,9 @@ Litvinenko started boasting about his friendship with Sakayev and his brothers, 
 
 %%page 139%%
 
-Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006 the Golden Dragon restaurant on the evening of 17 October. Mr Lugovoy said that the conversation had taken place while he was away from the table. He said as follows:[^133]
+Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006
+
+> the Golden Dragon restaurant on the evening of 17 October. Mr Lugovoy said that the conversation had taken place while he was away from the table. He said as follows:[^133]
 
 > "In this connection I would like to tell you what Sasha had told Dmitry Kovtun not long before his death, when we met together in October of last year. During our dinner at one of the Chinatown restaurants in London, Litvinenko, enlarging on the subject of ways to make money, touched upon the resumed negotiations between Russia and the UK regarding Berezovsky's extradition. Lamenting the fact that Berezovsky did not appreciate the services rendered to him by Litvinenko, who allegedly saved his life more than once, Litvinenko told Kovtun, that he had the most important materials of compromising nature, regarding the illegal activity of Berezovsky on the UK territory. If any part of the documents pertaining to the circumstances of his obtaining the refugee status were to be made public, then he (Berezovsky) would have huge problems. Litvinenko hinted to Dima, that especially now, when Russia raised an issue with the UK of extraditing Berezovsky, it would be very opportune to let Berezovsky know that such materials exist, and to put a value of several million dollars on them. Still being financially dependent on Berezovsky – Berezovsky was paying his son's tuition fees and the family's accommodation in London, Litvinenko – Litvinenko asked Kovtun to find a reliable person, whom he would introduce to Berezovsky, which person would be able to familiarise Berezovsky with the materials, compromising him. Litvinenko was absolutely sure of the success of this enterprise, referring to the explosive nature and authenticity of the compromising materials he possessed. Since the conversation took place when I left the table, Litvinenko asked Kovtun to keep that conversation between them, fearing that I, as a person who could contact Berezovsky at any point, would expose Litvinenko's idea to him."
 
@@ -3017,9 +2947,7 @@ The Litvinenko Inquiry
 
 6.223 D7's evidence, which consisted of transcripts of interviews with German investigators, was read.[^199] The transcripts showed that, although he had initially denied it, D7 had ultimately given an account that was consistent with D6's story. D7 said:[^200]
 
-"I was at the workplace, under stress, and D6 called me and said Dmitri wanted to go to London and he wanted to have C2's telephone number. I said, I am sorry I cannot give him the telephone number if I do not know why he needs it.
-
-Subsequently I [called] C2 briefly and asked him whether I could pass on his telephone number. C2 said I can pass on the telephone number to him and 10 minutes later D6 called me again, and I gave him C2's telephone number."
+> "I was at the workplace, under stress, and D6 called me and said Dmitri wanted to go to London and he wanted to have C2's telephone number. I said, I am sorry I cannot give him the telephone number if I do not know why he needs it. Subsequently I [called] C2 briefly and asked him whether I could pass on his telephone number. C2 said I can pass on the telephone number to him and 10 minutes later D6 called me again, and I gave him C2's telephone number."
 
 6.224 C2 gave evidence confirming D7's account.[^201]
 
@@ -3075,9 +3003,7 @@ What was Mr Kovtun doing in London? 6.242 Before continuing with the narrative o
 
 6.243 The first point to address is whether Mr Kovtun's trip had been planned with any particular purpose at all. In his 2 June 2015 witness statement, Mr Kovtun denied this. He said, in summary, that he had only come to London "by chance", and that he only decided to make the trip after he had resolved his business at the Aliens' Registration Office with unexpected speed. The relevant section of the witness statement stated as follows:[^218]
 
-"I have declared repeatedly and publicly that I arrived in London by chance on
-
-1 November because I was anticipating serious complications in Hamburg while arranging to have a 'residence permit' inserted into my new passport. That had to be done because the old passport expired on 11.04.06. For reasons which had nothing to do with me I did not receive the new passport until 17.08.2006, and I arrived in Germany on 28.10.2006. This meant that I had involuntarily infringed a whole series of provisions of the 'residence permit' law of Germany. Firstly, the periods laid down for crossing the border had been infringed. In connection with that I anticipated complications with having a 'residence permit' inserted into the new passport and was prepared for the fact that I might have to stay in Germany for 2-3 weeks and deal with residence and insurance matters, registration of the company, or employment. It was entirely possible that I would have to engage a lawyer. In any case I had not contemplated a trip to London until there was a happy turn of events for me when the employee of the foreign affairs department simply overlooked the abovementioned facts."
+> "I have declared repeatedly and publicly that I arrived in London by chance on 1 November because I was anticipating serious complications in Hamburg while arranging to have a 'residence permit' inserted into my new passport. That had to be done because the old passport expired on 11.04.06. For reasons which had nothing to do with me I did not receive the new passport until 17.08.2006, and I arrived in Germany on 28.10.2006. This meant that I had involuntarily infringed a whole series of provisions of the 'residence permit' law of Germany. Firstly, the periods laid down for crossing the border had been infringed. In connection with that I anticipated complications with having a 'residence permit' inserted into the new passport and was prepared for the fact that I might have to stay in Germany for 2-3 weeks and deal with residence and insurance matters, registration of the company, or employment. It was entirely possible that I would have to engage a lawyer. In any case I had not contemplated a trip to London until there was a happy turn of events for me when the employee of the foreign affairs department simply overlooked the abovementioned facts."
 
 I have underlined what appear to me to be the most important parts of this passage.
 
@@ -3085,11 +3011,9 @@ I have underlined what appear to me to be the most important parts of this passa
 
 %%page 158%%
 
-The Litvinenko Inquiry until then. That is plainly inconsistent with the fact that a return ticket from London to
+The Litvinenko Inquiry
 
-Moscow had been purchased for him on 27 October and that Mr Kovtun himself had purchased a ticket from Hamburg to London on Sunday 29 October – the day before his appointment at the Aliens' Registration Office. I simply do not accept that these arrangements would have been made unless a decision had already been taken that
-
-Mr Kovtun would travel to London on 1 November.
+> until then. That is plainly inconsistent with the fact that a return ticket from London to Moscow had been purchased for him on 27 October and that Mr Kovtun himself had purchased a ticket from Hamburg to London on Sunday 29 October – the day before his appointment at the Aliens' Registration Office. I simply do not accept that these arrangements would have been made unless a decision had already been taken that Mr Kovtun would travel to London on 1 November.
 
 6.245 If that is right, there must have been a reason for the decision that Mr Kovtun made to make a special trip to London. The statement also raises a further question – why is Mr Kovtun now attempting to confuse the issue?
 
@@ -3153,15 +3077,17 @@ The Litvinenko Inquiry f. CCTV footage at the Millennium Hotel shows Mr Lugovoy 
 
 %%page 161%%
 
-Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006 projects and the procedure that he has to adhere, but I don't know whether he actually listened to me very carefully."[^235]
+Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006
+
+> projects and the procedure that he has to adhere, but I don't know whether he actually listened to me very carefully."[^235]
 
 When asked whether he remembered Mr Kovtun being present, Dr Shadrin said:
 
-"I don't remember, actually. Probably he was. But effectively they were talking more about football, and openly I just quitted the meeting, because I think that was probably early – it was midday/early afternoon, because obviously everyone was going to… attend the match."[^236]
+> "I don't remember, actually. Probably he was. But effectively they were talking more about football, and openly I just quitted the meeting, because I think that was probably early – it was midday/early afternoon, because obviously everyone was going to… attend the match."[^236]
 
 When asked whether he recalled the meeting being disturbed by Mr Lugovoy receiving a call from anyone else, Dr Shadrin replied:
 
-"No. Actually, … I was trying to be focused on the matters that I would like… them to understand, and basically explain them the procedures that they need to comply with, but the major part of the conversation was just going into jokes and discussion about football."[^237]
+> "No. Actually, … I was trying to be focused on the matters that I would like… them to understand, and basically explain them the procedures that they need to comply with, but the major part of the conversation was just going into jokes and discussion about football."[^237]
 
 6.258 Dr Shadrin did recall that Mr Lugovoy and Mr Kovtun delivered some 'Know Your Client' documents, but his memory is that they did so the next day, when he was engaged in another meeting.[^238]
 
@@ -3189,11 +3115,7 @@ The Litvinenko Inquiry
 
 6.268 In his recent statement, Mr Kovtun stated that the reason he had obtained C2's phone number and then contacted him in London was that he wanted to ask him to come to Moscow and work as the chef in a restaurant that he and Mr Lugovoy were planning to open. He described C2 as his "friend", and said that he was a specialist in Mediterranean cuisine.[^243] As to his communications with C2 in London, he said as follows:[^244]
 
-"at 16.00-17.00 on 1 November 2006 I had a meeting planned with [C2] … who is my friend and former colleague in the restaurant business in Hamburg to whom
-
-Lugovoy and I wished to offer a job in a restaurant in Moscow. However, in the presence of my acquaintance Aleksandr Shadrin, in a telephone conversation [C2] suggested that I come to him for a meeting in a district of London far from the centre, the name of which I cannot remember. In answer to the question I put to
-
-Shadrin as to how to get to the district named by [C2] and how long it would take to get there, he replied that at that time of day in London in would take 3-4 hours to get there because of traffic congestion. Since I did not want to spend such a long time reaching the meeting place after having flown in from Hamburg, I agreed with [C2] that we would postpone our meeting until the following day, at a more convenient time for both of us. [C2] agreed to ring on 2 November 2006 and discuss the possibility of meeting and the place at which to meet."
+> "at 16.00-17.00 on 1 November 2006 I had a meeting planned with [C2] … who is my friend and former colleague in the restaurant business in Hamburg to whom Lugovoy and I wished to offer a job in a restaurant in Moscow. However, in the presence of my acquaintance Aleksandr Shadrin, in a telephone conversation [C2] suggested that I come to him for a meeting in a district of London far from the centre, the name of which I cannot remember. In answer to the question I put to Shadrin as to how to get to the district named by [C2] and how long it would take to get there, he replied that at that time of day in London in would take 3-4 hours to get there because of traffic congestion. Since I did not want to spend such a long time reaching the meeting place after having flown in from Hamburg, I agreed with [C2] that we would postpone our meeting until the following day, at a more convenient time for both of us. [C2] agreed to ring on 2 November 2006 and discuss the possibility of meeting and the place at which to meet."
 
 241 C2 24/14-39 242 C2 32/43-44
 
@@ -3279,13 +3201,11 @@ c. The fact that the first two calls between the two men during this trip were m
 
 %%page 166%%
 
-The Litvinenko Inquiry d. The next two relevant entries on the schedule show calls made by Mr Litvinenko
+The Litvinenko Inquiry
 
-> to Mr Lugovoy, one at 2.32pm and one at 2.55pm. These calls may well have been made whilst Mr Lugovoy and Mr Kovtun were at CPL that day, and to that extent they corroborate Mr Kovtun's account. That said, there were only two calls and they were both very short – the first lasted 8 seconds and the second 40 seconds. Moreover, there is good evidence that by that stage the meeting later in the day had already been arranged, at Mr Lugovoy's behest
+> d. The next two relevant entries on the schedule show calls made by Mr Litvinenko to Mr Lugovoy, one at 2.32pm and one at 2.55pm. These calls may well have been made whilst Mr Lugovoy and Mr Kovtun were at CPL that day, and to that extent they corroborate Mr Kovtun's account. That said, there were only two calls and they were both very short – the first lasted 8 seconds and the second 40 seconds. Moreover, there is good evidence that by that stage the meeting later in the day had already been arranged, at Mr Lugovoy's behest
 
-e. A further call, lasting 39 seconds, was made by Mr Lugovoy to Mr Litvinenko
-
-> at 3.38pm. That time was a few minutes after Mr Lugovoy and Mr Kovtun had returned to the Millennium Hotel and a minute or so before Mr Litvinenko left itsu to walk up to the hotel. This would appear to corroborate Mr Litvinenko's memory that Mr Lugovoy rang him during the afternoon to bring the time of the meeting forward – the occasion when he told Mr Litvinenko, "come quicker, I am waiting for you". (See paragraph 6.279 above)
+> e. A further call, lasting 39 seconds, was made by Mr Lugovoy to Mr Litvinenko at 3.38pm. That time was a few minutes after Mr Lugovoy and Mr Kovtun had returned to the Millennium Hotel and a minute or so before Mr Litvinenko left itsu to walk up to the hotel. This would appear to corroborate Mr Litvinenko's memory that Mr Lugovoy rang him during the afternoon to bring the time of the meeting forward – the occasion when he told Mr Litvinenko, "come quicker, I am waiting for you". (See paragraph 6.279 above)
 
 6.281 In summary, it is Mr Litvinenko's account that is consistent with the objective evidence of the telephone schedule. The meeting at the Pine Bar on the afternoon of 1 November was instigated by Mr Lugovoy, not Mr Litvinenko.
 
@@ -3367,23 +3287,17 @@ The Litvinenko Inquiry unusual about the tea or the way that it had been drunk. 
 
 6.304 Mr Litvinenko described the meeting in the Pine Bar on a number of occasions during the course of his interviews with DI Hyatt. The relevant sections of the transcripts of the interviews were read in the course of DI Mascall's evidence. In summary, Mr Litvinenko described arriving at the Millennium Hotel and Mr Lugovoy taking him to a table in the corner of the Pine Bar. His description of the position of the table is consistent with the position of table 1, where Mr Andrade said they had been sitting. Mr Litvinenko said that he had been sitting talking to Mr Lugovoy alone for some time before Mr Kovtun joined them. In an important passage of the interview transcript, which I have set out below, Mr Litvinenko described drinking some green tea that was already on the table. On Mr Litvinenko's account, this was before Mr Kovtun joined them. Mr Litvinenko's description of this part of the meeting was as follows:[^285]
 
-"There was nobody else there. He [Lugovoy] said that he was leaving for football match now so let's discuss things for 10-15 minutes and that's it. So. Next day we were due to go to Global Risk. Well… we discussed how we're going to go there and he said that he was looking for his interpreter… And what time we would go there, either at ten, or ten thirty. So… There were a few mugs on the table and there was also a tea pot, such a metal one, there was tea there. It was silver in colour, made of silver, not silver, the legs… expensive metal. It's a rich hotel.
-
-Straight away a waiter came up to us… I could not see him because he came up from the back. He asked 'Are you going to have anything?' I think Andrei asked,
-
-'Would you like anything?' I said, 'I don't want anything', (INAUDIBLE) and he said,
-
-'Okay well we're going to leave now anyway so there is still some tea left here if you want you can have some.' And then the waiter went away or I think Andre asked for a clean cup, and he bought it [sic]. He left and when there was a cup I poured some tea out of the tea pot, although there was only little left on the bottom and it made just half a cup. Maybe about 50 grams. I swallowed a several times but it was green tea with no sugar and it was already cold by the way. I didn't like it for some reason, well almost cold tea with no sugar and I didn't drink it anymore.
-
-Maybe in total I swallowed three or four times, I haven't even finished that cup."
+> "There was nobody else there. He [Lugovoy] said that he was leaving for football match now so let's discuss things for 10-15 minutes and that's it. So. Next day we were due to go to Global Risk. Well… we discussed how we're going to go there and he said that he was looking for his interpreter… And what time we would go there, either at ten, or ten thirty. So… There were a few mugs on the table and there was also a tea pot, such a metal one, there was tea there. It was silver in colour, made of silver, not silver, the legs… expensive metal. It's a rich hotel. Straight away a waiter came up to us… I could not see him because he came up from the back. He asked 'Are you going to have anything?' I think Andrei asked, 'Would you like anything?' I said, 'I don't want anything', (INAUDIBLE) and he said, 'Okay well we're going to leave now anyway so there is still some tea left here if you want you can have some.' And then the waiter went away or I think Andre asked for a clean cup, and he bought it [sic]. He left and when there was a cup I poured some tea out of the tea pot, although there was only little left on the bottom and it made just half a cup. Maybe about 50 grams. I swallowed a several times but it was green tea with no sugar and it was already cold by the way. I didn't like it for some reason, well almost cold tea with no sugar and I didn't drink it anymore. Maybe in total I swallowed three or four times, I haven't even finished that cup."
 
 6.305 Mr Litvinenko went on to describe Mr Kovtun (who he called 'Volodia') coming to sit at the table and the conversation about the next day's planned meeting with Mr Quirke. He said that they were talking for about 20 minutes. He mentioned a 'tall Russian' coming to the table, which is probably a reference to Mr Sokolenko arriving back in the hotel with Mrs Lugovoya and the children. In describing the end of the meeting, Mr Litvinenko said:[^286]
 
-"In the end [Lugovoy] looked at his watch, he said my wife is about to come. There in the hall Andrei's wife turned up, she was waving her hand and he said, that's
+> "In the end [Lugovoy] looked at his watch, he said my wife is about to come. There in the hall Andrei's wife turned up, she was waving her hand and he said, that's
 
 %%page 173%%
 
-Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006 it, let's go. So, Volodia and I stayed, the two of us, and he stood up, approached his wife, Andrei, and then he brought his son,[^8] years old. He is such a boy, eight years old, wearing a jacket, he said, 'This is Uncle Sasha, shake his hand.' We shook hands, and he went (INAUDIBLE). So, then we came out."
+Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006
+
+> it, let's go. So, Volodia and I stayed, the two of us, and he stood up, approached his wife, Andrei, and then he brought his son,[^8] years old. He is such a boy, eight years old, wearing a jacket, he said, 'This is Uncle Sasha, shake his hand.' We shook hands, and he went (INAUDIBLE). So, then we came out."
 
 6.306 Mr Litvinenko's account gives rise to a number of observations.
 
@@ -3393,7 +3307,7 @@ Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November
 
 6.309 First, in Mr Litvinenko's narrative Mr Lugovoy was diffident in the extreme about whether or not Mr Litvinenko should drink the tea. One might have expected a poisoner to encourage his intended victim to take the concealed poison, but on Mr Litvinenko's account Mr Lugovoy was almost discouraging him from drinking the tea. There is no doubt that this is the account that Mr Litvinenko intended to give – after he had given the account that I have set out above, Detective Sergeant (DS) Hoar asked Mr Litvinenko "… how insistent was Andre that you have a drink, or was he indifferent, was he saying, 'Go on, go on have some', or didn't he care?". Mr Litvinenko's answer to this was:
 
-"He said it like that, you know, 'If you would like something, order something for yourself, but we're going to be leaving soon. If, if you want some tea then there is some left here, you can have some of this."[^289]
+> "He said it like that, you know, 'If you would like something, order something for yourself, but we're going to be leaving soon. If, if you want some tea then there is some left here, you can have some of this."[^289]
 
 6.310 Second, it is striking that, on Mr Litvinenko's account, Mr Lugovoy encouraged Mr Litvinenko to shake hands with his eight year old son at the end of the meeting. Is it conceivable, one asks rhetorically, that Mr Lugovoy would have done that had he known that Mr Litvinenko, as the forensic evidence indicates, had just drunk tea poisoned with highly radioactive polonium?
 
@@ -3407,19 +3321,17 @@ Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November
 
 The Litvinenko Inquiry
 
-"We met in the afternoon in the Millennium Mayfair Hotel. I do not feel it necessary to write about this meeting in detail, as the room where it took place was equipped with high quality video equipment, which doubtless recorded the meeting."
+> "We met in the afternoon in the Millennium Mayfair Hotel. I do not feel it necessary to write about this meeting in detail, as the room where it took place was equipped with high quality video equipment, which doubtless recorded the meeting."
 
 6.314 As DI Mascall observed, this was an odd thing for Mr Lugovoy to say.[^291] There were no security cameras in the Pine Bar. And Mr Lugovoy, who was a security expert having spent his career first in the Federal Protection Service and then running his own security company, could reasonably be expected to have known that.
 
 6.315 DI Mascall referred in the course of his evidence to a number of substantive accounts that Mr Lugovoy and Mr Kovtun have given over the years.[^292] Their accounts are broadly consistent with that of Mr Litvinenko. For example, neither of them has ever suggested that there was anyone else present at the meeting. On the twin questions of whether they offered Mr Litvinenko a drink and whether he in fact drank anything during the meeting, Mr Lugovoy's position has generally been that he is sure that they did not offer Mr Litvinenko a drink, but unsure whether he drank anything. Mr Kovtun's position has been less consistent. For example, in his interview with Der Spiegel in early December 2006 – that is, only a few weeks after the incident – Mr Kovtun is recorded as having stated:[^293]
 
-"I can't remember that clearly today. He came into the bar 10 minutes after us, we'd already had some alcohol, and I paid more attention to my cigar."
+> "I can't remember that clearly today. He came into the bar 10 minutes after us, we'd already had some alcohol, and I paid more attention to my cigar."
 
 That account is in marked contrast to the account contained in the statement that he provided to the Inquiry dated 2 June 2015. In the 8½ years since speaking to Der Spiegel, he appears to have developed a much fuller memory of events. The relevant section of the new statement reads as follows:[^294]
 
-"Litvinenko came to the bar of the 'Millennium' hotel and 'flopped down' next to me on a seat at our table. Litvinenko was in a highly excited state; he was coughing.
-
-'Having flopped down' at our table, Litvinenko grabbed the teapot on the table and, without waiting for an invitation, poured himself some tea. He gulped down two cups of hot tea one after the other. Litvinenko then had a coughing fit, wiped his mouth with a napkin and started to talk. In the course of the conversation he coughed and constantly wiped his mouth with a napkin."
+> "Litvinenko came to the bar of the 'Millennium' hotel and 'flopped down' next to me on a seat at our table. Litvinenko was in a highly excited state; he was coughing. 'Having flopped down' at our table, Litvinenko grabbed the teapot on the table and, without waiting for an invitation, poured himself some tea. He gulped down two cups of hot tea one after the other. Litvinenko then had a coughing fit, wiped his mouth with a napkin and started to talk. In the course of the conversation he coughed and constantly wiped his mouth with a napkin."
 
 6.316 The fact that Mr Kovtun has given such a dramatically different account so many years after the event raises further serious questions about his credibility.
 
@@ -3593,21 +3505,27 @@ The Litvinenko Inquiry
 
 8.21 It is absolutely clear that Mr Litvinenko went to the Pine Bar on the afternoon of
 
-1 November. Apart from his evidence to that effect, Mr Lugovoy and Mr Kovtun have confirmed that they met him there then, and there is also Closed Circuit Television
-
-(CCTV) footage which supports this.
+> 1 November. Apart from his evidence to that effect, Mr Lugovoy and Mr Kovtun have confirmed that they met him there then, and there is also Closed Circuit Television (CCTV) footage which supports this.
 
 8.22 It is equally clear that Mr Lugovoy and Mr Kovtun had ordered tea that afternoon, and that there was a teapot on the table when Mr Litvinenko arrived.1
 
 8.23 Mr Litvinenko said that he drank some of this tea, and I accept that he did so.
 
-8.24 Mr Lugovoy and Mr Kovtun have given inconsistent accounts about what happened in the Pine Bar and on other matters (see paragraphs 8.82 – 8.91 below). But the theme of their accounts on this issue has been more that they did not offer or pour any tea for Mr Litvinenko, rather than that he did not drink any tea at all.2
+8.24 Mr Lugovoy and Mr Kovtun have given inconsistent accounts about what happened in
 
-8.25 The forensic evidence shows that the Pine Bar was heavily contaminated with polonium 210. The contamination was focused on the table where Mr Litvinenko sat with Mr Lugovoy and Mr Kovtun on 1 November 2006. The highest readings, which were consistent with primary contamination, were taken on the table itself and on the inside of one of the teapots used in the Pine Bar. A1's evidence was that the readings on the inside of the teapot demonstrated that, "at some stage polonium… has been poured out of the spout". She said she was sure of this (see paragraph 6.322).
+> the Pine Bar and on other matters (see paragraphs 8.82 – 8.91 below). But the theme of their accounts on this issue has been more that they did not offer or pour any tea for Mr Litvinenko, rather than that he did not drink any tea at all.2
 
-8.26 It is equally important to note that radiation tests were conducted at all the other places where Mr Litvinenko went that day. Although some secondary contamination was found at some of these locations (I shall return to these results in due course), the Pine Bar was the only location of those visited by Mr Litvinenko on 1 November where primary contamination was found. More than that, of course, it was found on the table in the Pine Bar where Mr Litvinenko had sat whilst drinking tea, and on the inside of one of the teapots used in the Pine Bar.
+8.25 The forensic evidence shows that the Pine Bar was heavily contaminated with
 
-8.27 This evidence all points to the conclusion that Mr Litvinenko ingested the fatal dose of polonium 210 whilst drinking tea in the Pine Bar of the Millennium Hotel during the afternoon of 1 November 2006, and I make a finding to that effect.[^1] Andrade 16/111-141; INQ015344 2 Mascall 16/161-170
+> polonium 210. The contamination was focused on the table where Mr Litvinenko sat with Mr Lugovoy and Mr Kovtun on 1 November 2006. The highest readings, which were consistent with primary contamination, were taken on the table itself and on the inside of one of the teapots used in the Pine Bar. A1's evidence was that the readings on the inside of the teapot demonstrated that, "at some stage polonium… has been poured out of the spout". She said she was sure of this (see paragraph 6.322).
+
+8.26 It is equally important to note that radiation tests were conducted at all the other
+
+> places where Mr Litvinenko went that day. Although some secondary contamination was found at some of these locations (I shall return to these results in due course), the Pine Bar was the only location of those visited by Mr Litvinenko on 1 November where primary contamination was found. More than that, of course, it was found on the table in the Pine Bar where Mr Litvinenko had sat whilst drinking tea, and on the inside of one of the teapots used in the Pine Bar.
+
+8.27 This evidence all points to the conclusion that Mr Litvinenko ingested the fatal dose
+
+> of polonium 210 whilst drinking tea in the Pine Bar of the Millennium Hotel during the afternoon of 1 November 2006, and I make a finding to that effect.[^1] Andrade 16/111-141; INQ015344 2 Mascall 16/161-170
 
 %%page 187%%
 
@@ -3641,21 +3559,19 @@ Part 8 | Chapters 1 to 6 | Who killed Alexander Litvinenko?
 
 The Litvinenko Inquiry
 
-8.39 Second, although that date is at one end of the combined date ranges provided by the scientists, the dating exercise is an uncertain one for the reasons that I have explained above. It was not my understanding that a finding that the first intake took place on
+8.39 Second, although that date is at one end of the combined date ranges provided by the
 
-16 October would be positively inconsistent with any of the scientific evidence.
+> scientists, the dating exercise is an uncertain one for the reasons that I have explained above. It was not my understanding that a finding that the first intake took place on 16 October would be positively inconsistent with any of the scientific evidence.
 
 8.40 Third, I am disinclined to place any weight in this regard on the evidence as to
 
-Mr Litvinenko's illness on the night of 16 October. I emphasise that this is not because
-
-I accept the evidence of Mr Kovtun (my findings on the credibility of his evidence are set out below), nor because I do not believe what Mrs Litvinenko has said. My reason for caution on this point lies in the scientific evidence. The view of Dr Harrison and others was that so called 'prodromal symptoms' i.e. diarrhoea and vomiting – were not typical symptoms of internal alpha radiation poisoning. They were cautious as to whether the similar symptoms that Mr Litvinenko had suffered after the (much larger) second dose of polonium 210 had been caused by it.3 Given this uncertainty, it is better, in my view, to leave the question of Mr Litvinenko's physical symptoms on or about 16 October entirely out of the account for these purposes.
+> Mr Litvinenko's illness on the night of 16 October. I emphasise that this is not because I accept the evidence of Mr Kovtun (my findings on the credibility of his evidence are set out below), nor because I do not believe what Mrs Litvinenko has said. My reason for caution on this point lies in the scientific evidence. The view of Dr Harrison and others was that so called 'prodromal symptoms' i.e. diarrhoea and vomiting – were not typical symptoms of internal alpha radiation poisoning. They were cautious as to whether the similar symptoms that Mr Litvinenko had suffered after the (much larger) second dose of polonium 210 had been caused by it.3 Given this uncertainty, it is better, in my view, to leave the question of Mr Litvinenko's physical symptoms on or about 16 October entirely out of the account for these purposes.
 
 8.41 In summary:
 
-a. I am sure that Mr Litvinenko did receive a first, smaller, dose of polonium 210 some time before the fatal dose on 1 November 2006 b. The forensic evidence suggests that the earlier dose is likely to have been
+> a. I am sure that Mr Litvinenko did receive a first, smaller, dose of polonium 210 some time before the fatal dose on 1 November 2006
 
-> received at the meeting at Erinys on 16 October 2006, and a finding to this effect would not be inconsistent with the scientific evidence
+> b. The forensic evidence suggests that the earlier dose is likely to have been received at the meeting at Erinys on 16 October 2006, and a finding to this effect would not be inconsistent with the scientific evidence
 
 3 INQ016745 (page 9)
 
@@ -3717,19 +3633,19 @@ The Litvinenko Inquiry
 
 ### Chapter 6: Who administered the poison?
 
-Introduction 8.60 I have found that Mr Litvinenko ingested the fatal dose of polonium 210 when he drank tea in the Pine Bar on 1 November 2006. I have also found that he did not put the polonium 210 into the teapot himself – either by accident, or as a deliberate means of committing suicide.
+Introduction 8.60 I have found that Mr Litvinenko ingested the fatal dose of polonium 210 when he
+
+> drank tea in the Pine Bar on 1 November 2006. I have also found that he did not put the polonium 210 into the teapot himself – either by accident, or as a deliberate means of committing suicide.
 
 8.61 There is an obvious question that arises. If Mr Litvinenko did not put the polonium 210 into the teapot that afternoon, who did?
 
 8.62 The Metropolitan Police officers who have investigated this case believe that
 
-Mr Lugovoy and Mr Kovtun poisoned Mr Litvinenko on 1 November. I heard evidence that warrants for the arrests of both men have been issued.[^7] Mr Horwell, in his closing submissions made on behalf of the Metropolitan Police Service, asserted that:
+> Mr Lugovoy and Mr Kovtun poisoned Mr Litvinenko on 1 November. I heard evidence that warrants for the arrests of both men have been issued.[^7] Mr Horwell, in his closing submissions made on behalf of the Metropolitan Police Service, asserted that: "the evidence points resolutely to Lugovoy and Kovtun and no one else as having administered the poison which killed Litvinenko."[^8]
 
-"the evidence points resolutely to Lugovoy and Kovtun and no one else as having administered the poison which killed Litvinenko."[^8]
+8.63 I stress, and it is of the first importance, that I have analysed this issue, like all others
 
-8.63 I stress, and it is of the first importance, that I have analysed this issue, like all others in this Inquiry, in an entirely independent and dispassionate manner. Although I have had the great advantage of being able to consider the evidence gathered by the
-
-Metropolitan Police, their views as to where that evidence points have been accorded no special weight. I have approached the evidence with an open mind. I have considered it objectively. I have drawn my own conclusions as to what the evidence shows.
+> in this Inquiry, in an entirely independent and dispassionate manner. Although I have had the great advantage of being able to consider the evidence gathered by the Metropolitan Police, their views as to where that evidence points have been accorded no special weight. I have approached the evidence with an open mind. I have considered it objectively. I have drawn my own conclusions as to what the evidence shows.
 
 8.64 It will be helpful for me to summarise at this stage the findings that I have made.
 
@@ -3743,9 +3659,11 @@ Pine Bar on 1 November 2006.
 
 8.68 I am sure that Mr Lugovoy and Mr Kovtun knew that they were using a deadly poison
 
-(as opposed to, for example, a 'truth drug' or a sleeping draught), and that they intended to kill Mr Litvinenko. I do not believe, however, that they knew precisely what the chemical they were handling was, or the nature of all of its properties.
+> (as opposed to, for example, a 'truth drug' or a sleeping draught), and that they intended to kill Mr Litvinenko. I do not believe, however, that they knew precisely what the chemical they were handling was, or the nature of all of its properties.
 
-Scientific evidence indicating Lugovoy and Kovtun's involvement 8.69 Mr Lugovoy and Mr Kovtun have never disputed either (a) that they met Mr Litvinenko in the Pine Bar on the afternoon of 1 November 2006; or (b) that they ordered the tea which Mr Litvinenko says he drank when he met them there. There is, in any event, very clear independent evidence on both of these points (see Part 6, chapter 8).
+Scientific evidence indicating Lugovoy and Kovtun's involvement 8.69 Mr Lugovoy and Mr Kovtun have never disputed either (a) that they met Mr Litvinenko
+
+> in the Pine Bar on the afternoon of 1 November 2006; or (b) that they ordered the tea which Mr Litvinenko says he drank when he met them there. There is, in any event, very clear independent evidence on both of these points (see Part 6, chapter 8).
 
 %%page 193%%
 
@@ -3871,7 +3789,7 @@ The Litvinenko Inquiry with his account of conversations with C2 and Dr Shadrin,
 
 Part 8 | Chapters 1 to 6 | Who killed Alexander Litvinenko?
 
-which they subsequently put into effect, was to make this attempt in the Pine Bar of the Millennium Hotel.
+> which they subsequently put into effect, was to make this attempt in the Pine Bar of the Millennium Hotel.
 
 8.116 In summary on this point, I am satisfied that Mr Kovtun did tell D3 in the course of their discussions in Hamburg that he was planning to poison Mr Litvinenko, and that he telephoned C2 on the morning of 1 November in an attempt to enlist his support in carrying out this plan.
 
@@ -3891,13 +3809,9 @@ Lugovoy and Kovtun's conduct since November 2006 8.119 I have already made it cl
 
 %%page 200%%
 
-The Litvinenko Inquiry personal office and went in to find Mr Berezovsky with two men. One of the men was Yuri Dubov, who worked with Mr Berezovsky. The other man was named Rafael
+The Litvinenko Inquiry
 
-Filinov. He was Russian, and had recently arrived in London from Moscow. Mr Cotlick was shown a T-shirt that Mr Filinov had given to Mr Berezovsky. Mr Filinov explained that he had been given the T-shirt in Moscow by Mr Lugovoy and, at Mr Lugovoy's request, had delivered it as a gift to Mr Berezovsky. There was writing printed on the
-
-T-shirt (which can be seen in the photographs of the T-shirt below). The writing was in extraordinary terms. The writing on the front of the T-shirt read "POLONIUM-210
-
-CSKA LONDON, HAMBURG To Be Continued". The writing on the back of the T-shirt read, "CSKA Moscow Nuclear Death Is Knocking Your Door".10
+> personal office and went in to find Mr Berezovsky with two men. One of the men was Yuri Dubov, who worked with Mr Berezovsky. The other man was named Rafael Filinov. He was Russian, and had recently arrived in London from Moscow. Mr Cotlick was shown a T-shirt that Mr Filinov had given to Mr Berezovsky. Mr Filinov explained that he had been given the T-shirt in Moscow by Mr Lugovoy and, at Mr Lugovoy's request, had delivered it as a gift to Mr Berezovsky. There was writing printed on the T-shirt (which can be seen in the photographs of the T-shirt below). The writing was in extraordinary terms. The writing on the front of the T-shirt read "POLONIUM-210 CSKA LONDON, HAMBURG To Be Continued". The writing on the back of the T-shirt read, "CSKA Moscow Nuclear Death Is Knocking Your Door".10
 
 %%page 201%%
 
@@ -3963,7 +3877,7 @@ The Litvinenko Inquiry
 
 Part 8 | Chapters 1 to 6 | Who killed Alexander Litvinenko?
 
-his alleged involvement in Mr Litvinenko's death, may have made him an unsuitable subject for a test of this type and/or on this topic. He said that Mr Lugovoy's mind and body may have become 'habituated' to denying these allegations, so that the nervous reaction to false denials that the test measures would not have been produced even if he was lying.
+> his alleged involvement in Mr Litvinenko's death, may have made him an unsuitable subject for a test of this type and/or on this topic. He said that Mr Lugovoy's mind and body may have become 'habituated' to denying these allegations, so that the nervous reaction to false denials that the test measures would not have been produced even if he was lying.
 
 8.144 Finally, Professor Bull gave detailed evidence regarding the risk of a polygraph test being undermined by the subject of the test using countermeasures. He said that it has been recognised that people can be trained to defeat polygraph tests. In my view, this risk alone is sufficient to render this particular test valueless. Mr Lugovoy accepted that he was familiar with polygraph tests through his security work. I also bear in mind in this context his previous lengthy service in the Committee for State Security (KGB). Moreover, in the course of the test Mr Lugovoy was seen to move, which is a possible sign of countermeasures. He was told to keep still (as he had been instructed at the outset), but continued to move.
 
@@ -3985,7 +3899,9 @@ Contamination of Lugovoy and Kovtun and their families 8.148 It is a striking fe
 
 %%page 206%%
 
-The Litvinenko Inquiry little as possible. Agents are used all the time without knowing the full details of an operation."
+The Litvinenko Inquiry
+
+> little as possible. Agents are used all the time without knowing the full details of an operation."
 
 8.152 I think that Mr Kondaurov's analysis was sound. I regard it as likely that, whilst Mr Lugovoy and Mr Kovtun knew that they were poisoning Mr Litvinenko, they did not know the name or the properties of the poison that they had been given to use. I note in passing that Mr Kovtun did not refer to polonium 210 in his conversation with D3.
 
@@ -4001,13 +3917,9 @@ Indifference in Alexander Litvinenko drinking tea 8.155 A further oddity about t
 
 8.158 The first point is that Mr Lugovoy's conduct was quite explicable. As Mr Horwell stated in his closing submissions:
 
-"Any display by either Lugovoy or Kovtun of eagerness or urgency or desperation would have appeared suspicious and counterproductive. Anything other than diffidence would have appeared very suspicious to Litvinenko and may well have brought an end to the plot to kill him. This was, after all, not the drink of the gods that was on offer at the Millennium Hotel, but an unexceptional cup of lukewarm tea. Any encouragement or enthusiasm from Lugovoy that Litvinenko should drink it would have been out of place and could have betrayed his murderous intent.
+> "Any display by either Lugovoy or Kovtun of eagerness or urgency or desperation would have appeared suspicious and counterproductive. Anything other than diffidence would have appeared very suspicious to Litvinenko and may well have brought an end to the plot to kill him. This was, after all, not the drink of the gods that was on offer at the Millennium Hotel, but an unexceptional cup of lukewarm tea. Any encouragement or enthusiasm from Lugovoy that Litvinenko should drink it would have been out of place and could have betrayed his murderous intent.
 
-Lugovoy could afford to be diffident for two reasons. First, Litvinenko was very keen to do business and associate with him. Litvinenko needed no encouragement to meet Lugovoy. There would have been many other opportunities to poison him.
-
-Even during that third visit to London, Lugovoy and Kovtun were due to meet
-
-Litvinenko the following day,[^2] November, at RISC Management.
+> Lugovoy could afford to be diffident for two reasons. First, Litvinenko was very keen to do business and associate with him. Litvinenko needed no encouragement to meet Lugovoy. There would have been many other opportunities to poison him. Even during that third visit to London, Lugovoy and Kovtun were due to meet Litvinenko the following day,[^2] November, at RISC Management.
 
 %%page 207%%
 
@@ -4065,25 +3977,17 @@ The Litvinenko Inquiry
 
 9.10 There are two points to note about the suggestion that it was Mr Berezovsky who was ultimately responsible for ordering the killing of Mr Litvinenko.
 
-9.11 The first point is that the motive that his accusers have always ascribed to Mr Berezovsky for wishing Mr Litvinenko dead is a fear of blackmail at the hands of his protégé. I have addressed the question of a rift between Mr Litvinenko and Mr Berezovsky, and the suggestion that Mr Litvinenko may have been blackmailing Mr Berezovsky, or planning to do so, in Part 5 above.
+9.11 The first point is that the motive that his accusers have always ascribed to Mr Berezovsky
 
-9.12 I am satisfied that Mr Litvinenko was not blackmailing Mr Berezovsky. Even if he did occasionally make comments suggesting taking some form of action against
+> for wishing Mr Litvinenko dead is a fear of blackmail at the hands of his protégé. I have addressed the question of a rift between Mr Litvinenko and Mr Berezovsky, and the suggestion that Mr Litvinenko may have been blackmailing Mr Berezovsky, or planning to do so, in Part 5 above.
 
-Mr Berezovsky (for example, the comments related by Dr Svetlichnaya and the conversation at the Golden Dragon related by Mr Lugovoy and Mr Kovtun), I am quite satisfied that these were never put into effect. It is clear from the evidence that
+9.12 I am satisfied that Mr Litvinenko was not blackmailing Mr Berezovsky. Even if he
 
-I have heard that it was not unusual for Mr Litvinenko to propose courses of action in conversation with friends and associates that never subsequently came to anything.
-
-Mr Litvinenko and Mr Berezovsky remained friends until the end of Mr Litvinenko's life. There was no blackmail, and therefore no motive for Mr Berezovsky to have
-
-Mr Litvinenko killed.
+> did occasionally make comments suggesting taking some form of action against Mr Berezovsky (for example, the comments related by Dr Svetlichnaya and the conversation at the Golden Dragon related by Mr Lugovoy and Mr Kovtun), I am quite satisfied that these were never put into effect. It is clear from the evidence that I have heard that it was not unusual for Mr Litvinenko to propose courses of action in conversation with friends and associates that never subsequently came to anything. Mr Litvinenko and Mr Berezovsky remained friends until the end of Mr Litvinenko's life. There was no blackmail, and therefore no motive for Mr Berezovsky to have Mr Litvinenko killed.
 
 9.13 The second point is that the allegation that Mr Berezovsky was responsible for
 
-Mr Litvinenko's death is one that has been actively canvassed by Mr Lugovoy himself.
-
-Mr Lugovoy has not suggested that he killed Mr Litvinenko on Mr Berezovsky's behalf.
-
-Rather, Mr Lugovoy's argument has always been that he was not involved at all and that it was Mr Berezovsky who was responsible, perhaps with others, for the killing.
+> Mr Litvinenko's death is one that has been actively canvassed by Mr Lugovoy himself. Mr Lugovoy has not suggested that he killed Mr Litvinenko on Mr Berezovsky's behalf. Rather, Mr Lugovoy's argument has always been that he was not involved at all and that it was Mr Berezovsky who was responsible, perhaps with others, for the killing.
 
 9.14 But I have now made the finding that it was Mr Lugovoy, with Mr Kovtun, who killed
 
@@ -4091,15 +3995,7 @@ Mr Litvinenko.
 
 9.15 There is no evidence at all that Mr Lugovoy might have been acting on
 
-Mr Berezovsky's behalf, and that hypothesis is inconsistent with the actions of both men since Mr Litvinenko's death. It is unlikely that Mr Lugovoy would have blamed
-
-Mr Berezovsky if he had been acting on his behalf when he poisoned Mr Litvinenko.
-
-As to Mr Berezovsky, I heard evidence from Mr Cotlick, his former personal assistant, that following Mr Litvinenko's death he spoke to Mr Lugovoy on the telephone and encouraged him to come to London and stand trial. He told Mr Lugovoy that he
-
-"could rely on the English justice system, and if he was really innocent, this would be found out by the court." He even offered to pay Mr Lugovoy's legal expenses.1 This is all wholly inconsistent with the idea that in fact Mr Lugovoy killed Mr Litvinenko on
-
-Mr Berezovsky's behalf.
+> Mr Berezovsky's behalf, and that hypothesis is inconsistent with the actions of both men since Mr Litvinenko's death. It is unlikely that Mr Lugovoy would have blamed Mr Berezovsky if he had been acting on his behalf when he poisoned Mr Litvinenko. As to Mr Berezovsky, I heard evidence from Mr Cotlick, his former personal assistant, that following Mr Litvinenko's death he spoke to Mr Lugovoy on the telephone and encouraged him to come to London and stand trial. He told Mr Lugovoy that he "could rely on the English justice system, and if he was really innocent, this would be found out by the court." He even offered to pay Mr Lugovoy's legal expenses.1 This is all wholly inconsistent with the idea that in fact Mr Lugovoy killed Mr Litvinenko on Mr Berezovsky's behalf.
 
 9.16 In summary, I am quite satisfied that Mr Berezovsky bore no responsibility for
 
@@ -4111,9 +4007,9 @@ Part 9 | Chapters 1 to 12 | Who directed the killing?
 
 ### Chapter 3: UK intelligence agencies
 
-9.17 The allegation that UK intelligence agencies were responsible for Mr Litvinenko's death is of a piece with the 'set up' issue that I have addressed in Part 8 above.
+9.17 The allegation that UK intelligence agencies were responsible for Mr Litvinenko's
 
-Mr Lugovoy, for example, has advanced this allegation in the following terms:2
+> death is of a piece with the 'set up' issue that I have addressed in Part 8 above. Mr Lugovoy, for example, has advanced this allegation in the following terms:2
 
 > "I was framed. I suspect this was some British intelligence operation involving Litvinenko and possibly Berezovsky that went wrong. I was contaminated by Litvinenko or someone else, not the other way round. I think polonium was planted on us and left in places we visited, to frame us."
 
@@ -4129,27 +4025,27 @@ The Litvinenko Inquiry
 
 9.20 As I have described above, the fight against organised crime had been one of
 
-Mr Litvinenko's preoccupations since the start of his career in the Committee for State
+> Mr Litvinenko's preoccupations since the start of his career in the Committee for State Security (KGB). His investigations into the activity of Russian crime gangs, and in particular the Tambov/Malyshev group based in St Petersburg, also revealed to him the extent of the collusion (as he saw it) between organised crime and members, including senior members, of the FSB.
 
-Security (KGB). His investigations into the activity of Russian crime gangs, and in particular the Tambov/Malyshev group based in St Petersburg, also revealed to him the extent of the collusion (as he saw it) between organised crime and members, including senior members, of the FSB.
+9.21 Mr Litvinenko sought to expose these links, in particular in his book The Gang from
 
-9.21 Mr Litvinenko sought to expose these links, in particular in his book The Gang from the Lubyanka, which contained detailed allegations of collusion between FSB officers and organised crime.
+> the Lubyanka, which contained detailed allegations of collusion between FSB officers and organised crime.
 
 9.22 Further, Mr Litvinenko passed information to the Mitrokhin Commission alleging that
 
-Semion Mogilevich, apparently one of the leaders of Russian organised crime, was an FSB agent with a longstanding personal relationship with President Putin.
+> Semion Mogilevich, apparently one of the leaders of Russian organised crime, was an FSB agent with a longstanding personal relationship with President Putin.
 
-9.23 Finally, I have also heard evidence that towards the end of his life Mr Litvinenko was assisting the Spanish authorities with investigations that they were conducting against members of Russian organised crime groups, and that he thought it possible that he might give evidence against them in court.
+9.23 Finally, I have also heard evidence that towards the end of his life Mr Litvinenko was
+
+> assisting the Spanish authorities with investigations that they were conducting against members of Russian organised crime groups, and that he thought it possible that he might give evidence against them in court.
 
 9.24 It follows from this short summary that a theory that Mr Lugovoy and Mr Kovtun killed
 
-Mr Litvinenko on the orders of one or more members of Russian crime gangs would not be implausible.
+> Mr Litvinenko on the orders of one or more members of Russian crime gangs would not be implausible.
 
 9.25 That theory, however, is not supported by the evidence that is available to me.
 
-Detective Inspector (DI) Mascall stated that the police investigation has not uncovered any evidence linking Mr Mogilevich directly to the poisoning.3 More broadly, none of the evidence suggests that Mr Lugovoy and Mr Kovtun were commissioned to kill
-
-Mr Litvinenko by members of crime gangs. More than that, I am satisfied for reasons that I shall describe below that Mr Lugovoy and Mr Kovtun in fact received their instructions from another source.[^3] Mascall 29/83-85
+> Detective Inspector (DI) Mascall stated that the police investigation has not uncovered any evidence linking Mr Mogilevich directly to the poisoning.3 More broadly, none of the evidence suggests that Mr Lugovoy and Mr Kovtun were commissioned to kill Mr Litvinenko by members of crime gangs. More than that, I am satisfied for reasons that I shall describe below that Mr Lugovoy and Mr Kovtun in fact received their instructions from another source.[^3] Mascall 29/83-85
 
 %%page 213%%
 
@@ -4161,23 +4057,27 @@ Alexander Talik 9.26 There were a number of reasons why it was thought at one st
 
 9.27 First, there were the simple factual points that the two men met on the day that
 
-Mr Litvinenko fell ill, and that the itsu restaurant where the meeting took place was found to be contaminated. I am satisfied that the timing of this meeting was a pure coincidence, and that there was nothing sinister about it. It was no coincidence that they went to the itsu restaurant on Piccadilly – I have heard that it was one of
+> Mr Litvinenko fell ill, and that the itsu restaurant where the meeting took place was found to be contaminated. I am satisfied that the timing of this meeting was a pure coincidence, and that there was nothing sinister about it. It was no coincidence that they went to the itsu restaurant on Piccadilly – I have heard that it was one of Mr Litvinenko's favourite places. However, as I have explained (see paragraph 6.292 above), the contamination that was found there was centred on a table different to that at which Mr Litvinenko and Mr Scaramella sat on 1 November 2006.
 
-Mr Litvinenko's favourite places. However, as I have explained (see paragraph 6.292 above), the contamination that was found there was centred on a table different to that at which Mr Litvinenko and Mr Scaramella sat on 1 November 2006.
+9.28 Second, initial tests indicated that Mr Scaramella was himself heavily contaminated
 
-9.28 Second, initial tests indicated that Mr Scaramella was himself heavily contaminated with polonium 210. As Dr Harrison explained in evidence, however, the results of these tests were unreliable.4 Mr Scaramella was not in fact contaminated at all.
+> with polonium 210. As Dr Harrison explained in evidence, however, the results of these tests were unreliable.4 Mr Scaramella was not in fact contaminated at all.
 
-9.29 Third, in the early days of his illness Mr Litvinenko himself suggested that Mr Scaramella may have been the person who poisoned him. I do not believe, however, that
+9.29 Third, in the early days of his illness Mr Litvinenko himself suggested that Mr Scaramella
 
-Mr Litvinenko ever thought this to have been true. As I have explained above, his early suggestion that Mr Scaramella may have poisoned him was in part the result of a desire not to admit to friends that he had allowed Mr Lugovoy to get close to him, and, in part, one element in a deliberate scheme to try and lure Mr Lugovoy back to the UK.
+> may have been the person who poisoned him. I do not believe, however, that Mr Litvinenko ever thought this to have been true. As I have explained above, his early suggestion that Mr Scaramella may have poisoned him was in part the result of a desire not to admit to friends that he had allowed Mr Lugovoy to get close to him, and, in part, one element in a deliberate scheme to try and lure Mr Lugovoy back to the UK.
 
-9.30 Mr Scaramella clearly regarded Mr Litvinenko as a friend. He had no motive to kill him. Giving evidence to the Inquiry, DI Mascall stated that the police had no evidence to suggest that Mr Scaramella was involved in Mr Litvinenko's death.5
+9.30 Mr Scaramella clearly regarded Mr Litvinenko as a friend. He had no motive to kill
 
-9.31 The limit of the allegations made against Mr Scaramella was that it was he who had poisoned Mr Litvinenko on 1 November 2006. For the reasons set out above, I am quite satisfied that Mr Scaramella had no responsibility for Mr Litvinenko's death. I am, of course, fortified in this conclusion by the finding that I have already made that it was Mr Lugovoy and Mr Kovtun who poisoned Mr Litvinenko.
+> him. Giving evidence to the Inquiry, DI Mascall stated that the police had no evidence to suggest that Mr Scaramella was involved in Mr Litvinenko's death.5
 
-9.32 The List of Issues was drawn up at an early stage of the inquest proceedings, and adopted with only a few changes for the purposes of the Inquiry. As the case developed, it became apparent that there was no evidence to support the suggestion that either
+9.31 The limit of the allegations made against Mr Scaramella was that it was he who had
 
-Chechen groups or Mr Talik had been involved in Mr Litvinenko's death.[^4] Harrison 19/67-73 5 Mascall 29/79-82
+> poisoned Mr Litvinenko on 1 November 2006. For the reasons set out above, I am quite satisfied that Mr Scaramella had no responsibility for Mr Litvinenko's death. I am, of course, fortified in this conclusion by the finding that I have already made that it was Mr Lugovoy and Mr Kovtun who poisoned Mr Litvinenko.
+
+9.32 The List of Issues was drawn up at an early stage of the inquest proceedings, and
+
+> adopted with only a few changes for the purposes of the Inquiry. As the case developed, it became apparent that there was no evidence to support the suggestion that either Chechen groups or Mr Talik had been involved in Mr Litvinenko's death.[^4] Harrison 19/67-73 5 Mascall 29/79-82
 
 %%page 214%%
 
@@ -4185,15 +4085,17 @@ The Litvinenko Inquiry
 
 ### Chapter 6: Russian State responsibility – introduction
 
-9.33 A great deal of the evidence that I have heard in the course of the Inquiry has touched on the possibility that one or more organisations of the Russian State may have ordered Mr Litvinenko's killing, or that they may otherwise have been involved or complicit in his death. That issue has been referred to, both during the course of the
+9.33 A great deal of the evidence that I have heard in the course of the Inquiry has touched
 
-Inquiry and in this Report, as the issue, of Russian State responsibility.
+> on the possibility that one or more organisations of the Russian State may have ordered Mr Litvinenko's killing, or that they may otherwise have been involved or complicit in his death. That issue has been referred to, both during the course of the Inquiry and in this Report, as the issue, of Russian State responsibility.
 
 9.34 In the following chapters I will address the following themes in the evidence relating to possible Russian State responsibility for Mr Litvinenko's death:
 
 9.35 In chapter 7 I will consider the evidence that Russia was the source of the polonium 210 that killed Mr Litvinenko.
 
-9.36 In chapter 8 I will consider the motives that the Russian State may have had for wishing Mr Litvinenko dead, and evidence that I heard as to the history of other killings and deaths of opponents of President Putin.
+9.36 In chapter 8 I will consider the motives that the Russian State may have had for
+
+> wishing Mr Litvinenko dead, and evidence that I heard as to the history of other killings and deaths of opponents of President Putin.
 
 9.37 In chapter 9 I will consider the evidence of links between Mr Lugovoy and Mr Kovtun and the Russian State.
 
@@ -4203,31 +4105,37 @@ Inquiry and in this Report, as the issue, of Russian State responsibility.
 
 State organisation was responsible for Mr Litvinenko's death.
 
-9.40 In chapter 12, I will address the further question of whether Nikolai Patrushev (the head of the FSB in 2006) and/or President Putin bear any responsibility for Mr Litvinenko's death.
+9.40 In chapter 12, I will address the further question of whether Nikolai Patrushev (the head
+
+> of the FSB in 2006) and/or President Putin bear any responsibility for Mr Litvinenko's death.
 
 9.41 One witness about whom I should say a little more at this stage is Professor Robert
 
-Service, who was until recently Professor of Russian History at Oxford University. I have already referred to his evidence on a number of occasions. Professor Service was instructed by the Inquiry to provide expert evidence on Russian history and politics. He produced two reports, both of which I adduced in evidence.6 He also gave oral evidence at the Inquiry hearings.7
+> Service, who was until recently Professor of Russian History at Oxford University. I have already referred to his evidence on a number of occasions. Professor Service was instructed by the Inquiry to provide expert evidence on Russian history and politics. He produced two reports, both of which I adduced in evidence.6 He also gave oral evidence at the Inquiry hearings.7
 
-9.42 For the avoidance of any doubt, Professor Service did not have access to any of the closed material and was not involved in the closed hearings. It follows from this that the material that is available to me and upon which I am able to base my findings is more extensive than the material upon which Professor Service based his views.
+9.42 For the avoidance of any doubt, Professor Service did not have access to any of the
 
-9.43 I say at once that I found Professor Service to be a most impressive and helpful witness. His mastery of the subject was apparent, but just as notable – and of great assistance to me – was the conspicuous care that he took in highlighting the issues where the limited nature of the source material available to him meant that he was unable to express a decided view one way or the other.[^6] INQ019146; INQ020316; INQ020998 7 Service 28/1-104
+> closed material and was not involved in the closed hearings. It follows from this that the material that is available to me and upon which I am able to base my findings is more extensive than the material upon which Professor Service based his views.
+
+9.43 I say at once that I found Professor Service to be a most impressive and helpful
+
+> witness. His mastery of the subject was apparent, but just as notable – and of great assistance to me – was the conspicuous care that he took in highlighting the issues where the limited nature of the source material available to him meant that he was unable to express a decided view one way or the other.[^6] INQ019146; INQ020316; INQ020998 7 Service 28/1-104
 
 %%page 215%%
 
 Part 9 | Chapters 1 to 12 | Who directed the killing?
 
-9.44 The paucity of the public information relating to the inner workings of President Putin's administration was, indeed, a theme of Professor Service's evidence. As he put the matter: "It cannot be emphasised too heavily that public access to information about
+9.44 The paucity of the public information relating to the inner workings of President Putin's
 
-Russian politics has undergone a severe constriction since Vladimir Putin's accession to Presidential power in 2000."[^8]
+> administration was, indeed, a theme of Professor Service's evidence. As he put the matter: "It cannot be emphasised too heavily that public access to information about Russian politics has undergone a severe constriction since Vladimir Putin's accession to Presidential power in 2000."[^8]
 
 9.45 As I have indicated, there were occasions in the course of his evidence where
 
-Professor Service stated that the lack of public information in respect of an issue meant that he was unable to express a view about it. He suggested, moreover, that there were reasons going beyond academic or judicial rigour why this Inquiry ought to be careful to restrict its conclusions to matters that were provable on the evidence before it. He said this:9
+> Professor Service stated that the lack of public information in respect of an issue meant that he was unable to express a view about it. He suggested, moreover, that there were reasons going beyond academic or judicial rigour why this Inquiry ought to be careful to restrict its conclusions to matters that were provable on the evidence before it. He said this:9
 
 > "But we have to be really cautious – and there's another aspect of this that exercises me, and that's that Russians want to see us fairly going through evidence in a scholarly environment or a judicial environment or an Inquiry like this in a fashion that they know doesn't happen in their own country. So we must not sink at all below our conventional standards. We absolutely mustn't, because some of what we do in relation to this Inquiry will get back to Moscow, and we must not give them the opportunity to say that we failed to respect our own standards because those are standards that are really worth keeping to."
 
-I wholeheartedly endorse these sentiments, which accurately reflect my approach to the evidence.[^8] INQ019146 (page 4 paragraph 9)[^9] Service 28/62
+> I wholeheartedly endorse these sentiments, which accurately reflect my approach to the evidence.[^8] INQ019146 (page 4 paragraph 9)[^9] Service 28/62
 
 %%page 216%%
 
@@ -4271,15 +4179,15 @@ or remove the polonium 210 that has been created in this way from the remaining 
 
 Forensic matching/fingerprinting of polonium 210 samples 9.60 In Death of a Dissident, the book that they published in 2007, Alex Goldfarb and Marina Litvinenko advanced what has been described as a 'fingerprint' theory, suggesting that every batch of commercially produced polonium 210 contains characteristic and detectable impurities, by which it can subsequently be traced and identified. What they said was as follows:[^19]
 
-"When Polonium-210 decays – its half-life is 138 days, meaning that half of any given amount decays in the first 138 days, followed by a fourth in the next 138 days, and so on – it turns into lead, a nonradioactive metal. As the amount of polonium decreases, the amount of lead increases. By measuring the proportion of
+> "When Polonium-210 decays – its half-life is 138 days, meaning that half of any given amount decays in the first 138 days, followed by a fourth in the next 138 days, and so on – it turns into lead, a nonradioactive metal. As the amount of polonium decreases, the amount of lead increases. By measuring the proportion of
 
 %%page 218%%
 
-The Litvinenko Inquiry lead in a sample of polonium, an investigator can figure out how old the sample is and establish the precise date it was produced. Moreover, the production process leaves characteristic isotope impurities in every batch. By comparing the lead content and the impurities present in two samples of polonium, an investigator should be able to say whether they came from the same batch, produced in the same laboratory on the same day.
+The Litvinenko Inquiry
 
-Samples of Russian polonium have presumably been available to British law enforcement from American sources. The Polonium-210 found in Sasha's body has by now undoubtedly been checked against the Polonium-210 exported to the
+> lead in a sample of polonium, an investigator can figure out how old the sample is and establish the precise date it was produced. Moreover, the production process leaves characteristic isotope impurities in every batch. By comparing the lead content and the impurities present in two samples of polonium, an investigator should be able to say whether they came from the same batch, produced in the same laboratory on the same day.
 
-United States. From the level of lead and the isotope composition, the investigators should have been able to unequivocally establish the batch and production date of the poison. ..."
+> Samples of Russian polonium have presumably been available to British law enforcement from American sources. The Polonium-210 found in Sasha's body has by now undoubtedly been checked against the Polonium-210 exported to the United States. From the level of lead and the isotope composition, the investigators should have been able to unequivocally establish the batch and production date of the poison. ..."
 
 9.61 A similar argument was advanced by Professor Dombey in a written Declaration that he signed in November 2007.20
 
@@ -4293,11 +4201,9 @@ United States. From the level of lead and the isotope composition, the investiga
 
 9.66 A1 rejected the first premise. She explained that a sample of commercially produced polonium 210 had been analysed at the Atomic Weapons Establishment (AWE) and found to be entirely pure. There were no signature impurities. In her report, A1 described the process of irradiating bismuth 209 by which the commercial production of polonium 210 is undertaken. She then continued:[^23]
 
-"The final product is pure Polonium 210. The fact that Polonium 210 can be made free of detectable gamma emitting radionuclides was demonstrated at AWE by conducting a gamma spectrometric analysis of a sample of commercially available
+> "The final product is pure Polonium 210. The fact that Polonium 210 can be made free of detectable gamma emitting radionuclides was demonstrated at AWE by conducting a gamma spectrometric analysis of a sample of commercially available Polonium 210. The single gamma active peak was observed at 803 keV attributable to Polonium 210. The other gamma peaks observed in the spectra were due to alpha and neutron activation of the packaging and detector system generated by the alpha particles interacting with the containment vessel, and the intrinsic background of the detector system. No gamma peaks were attributed to likely impurities in the Polonium 210.
 
-Polonium 210. The single gamma active peak was observed at 803 keV attributable to Polonium 210. The other gamma peaks observed in the spectra were due to alpha and neutron activation of the packaging and detector system generated by the alpha particles interacting with the containment vessel, and the intrinsic background of the detector system. No gamma peaks were attributed to likely impurities in the Polonium 210.
-
-As the only radionuclide detected in the commercial sample was Polonium 210 it is not possible to derive ratios that can be used as a distinguishing radionuclide fingerprint for different 'batches' of Polonium 210.
+> As the only radionuclide detected in the commercial sample was Polonium 210 it is not possible to derive ratios that can be used as a distinguishing radionuclide fingerprint for different 'batches' of Polonium 210.
 
 %%page 219%%
 
@@ -4307,19 +4213,31 @@ Part 9 | Chapters 1 to 12 | Who directed the killing?
 
 9.67 It follows that the first premise for the 'fingerprint' theory that I have set out above is flawed and must be rejected.
 
-9.68 Turning to the second premise, A1 accepted that the age (and, therefore, the manufacture date) of a sample of polonium 210 could in principle be calculated by reference to the lead content in the sample. She referred in this context to the equation that is used to make this calculation. However, A1 also added a number of important qualifications.
+9.68 Turning to the second premise, A1 accepted that the age (and, therefore, the
 
-9.69 First, she explained that due to the form of the equation and the expected uncertainties of the measurements, it is only possible to use this method to determine the age of polonium 210 samples up to seven months old. Beyond that period, the changes in the amount of lead become too small for reliable calculations to be performed.
+> manufacture date) of a sample of polonium 210 could in principle be calculated by reference to the lead content in the sample. She referred in this context to the equation that is used to make this calculation. However, A1 also added a number of important qualifications.
 
-9.70 Second, A1 said that even for samples still within the first seven months of manufacture, this process cannot provide an exact date of manufacture. Rather, she explained, the process can only be relied upon to differentiate between samples manufactured at least 13 or 14 days apart. As A1 explained in her report, it followed that: "if two batches of Polonium 210 were purified on two consecutive days or even ten days apart this could not be differentiated by analysis of Lead 206".24
+9.69 First, she explained that due to the form of the equation and the expected uncertainties
 
-9.71 Turning from the limits of this process in theory to its limits in practice, A1 stated that most of the exhibits in the present case were not suitable for age dating in any event because they had been heated and/or cleaned after the date of contamination, which would have rendered the dating process unreliable.
+> of the measurements, it is only possible to use this method to determine the age of polonium 210 samples up to seven months old. Beyond that period, the changes in the amount of lead become too small for reliable calculations to be performed.
 
-9.72 In summary, the claims made about the 'fingerprint' theory in the passage from Death of a Dissident that I have quoted above are not supported by the expert scientific evidence that I have heard. The analysis conducted at AWE does not support the assertion that all commercially produced batches of polonium 210 have characteristic impurities, and although there is a process by which such samples can be aged by reference to their lead content, the process is far from precise and in any event the samples in this case had not been sufficiently well preserved to enable meaningful calculations to be made.
+9.70 Second, A1 said that even for samples still within the first seven months of manufacture,
+
+> this process cannot provide an exact date of manufacture. Rather, she explained, the process can only be relied upon to differentiate between samples manufactured at least 13 or 14 days apart. As A1 explained in her report, it followed that: "if two batches of Polonium 210 were purified on two consecutive days or even ten days apart this could not be differentiated by analysis of Lead 206".24
+
+9.71 Turning from the limits of this process in theory to its limits in practice, A1 stated that
+
+> most of the exhibits in the present case were not suitable for age dating in any event because they had been heated and/or cleaned after the date of contamination, which would have rendered the dating process unreliable.
+
+9.72 In summary, the claims made about the 'fingerprint' theory in the passage from Death
+
+> of a Dissident that I have quoted above are not supported by the expert scientific evidence that I have heard. The analysis conducted at AWE does not support the assertion that all commercially produced batches of polonium 210 have characteristic impurities, and although there is a process by which such samples can be aged by reference to their lead content, the process is far from precise and in any event the samples in this case had not been sufficiently well preserved to enable meaningful calculations to be made.
 
 The Potemkin evidence 9.73 This issue arises from evidence given by Mr Goldfarb about information and documents that he received in unusual circumstances from a man calling himself Alexei Potemkin.
 
-9.74 Mr Goldfarb provided lengthy written evidence about this issue and also answered some questions about it when he gave oral evidence.[^25] The tale that Mr Goldfarb related was a complicated one, and I will summarise it as briefly as I can.
+9.74 Mr Goldfarb provided lengthy written evidence about this issue and also answered
+
+> some questions about it when he gave oral evidence.[^25] The tale that Mr Goldfarb related was a complicated one, and I will summarise it as briefly as I can.
 
 9.75 Mr Goldfarb explained that he had first been contacted by Mr Potemkin in June
 
@@ -4355,9 +4273,7 @@ a further document dated 17 September 2006,27 which records FSB orders relating 
 
 9.84 In the same statement, Mr Goldfarb recorded his own views as to the reliability of the account that Mr Potemkin had given. He said this:
 
-"While I felt obliged to report Potemkin's story to the police, I am of two minds about his credibility. On the one hand, his story is too sophisticated, elaborate and detailed to be a simpleminded hoax. On a more personal level, he left a positive impression, both on me and on two seasoned journalists that I brought to interview him. On the other hand, there are inconsistencies in his story, which he could never explain, and the documents that he provided, raised many questions. With the revelation of the Austrian fraud case, I became even more doubtful whether
-
-Potemkin should be believed. I defer final judgment to the police."
+> "While I felt obliged to report Potemkin's story to the police, I am of two minds about his credibility. On the one hand, his story is too sophisticated, elaborate and detailed to be a simpleminded hoax. On a more personal level, he left a positive impression, both on me and on two seasoned journalists that I brought to interview him. On the other hand, there are inconsistencies in his story, which he could never explain, and the documents that he provided, raised many questions. With the revelation of the Austrian fraud case, I became even more doubtful whether Potemkin should be believed. I defer final judgment to the police."
 
 9.85 In his oral evidence to me at the Inquiry hearings, Mr Goldfarb adopted very much the same line. He said that the story "may be true, it may be false". He added that he had reservations stemming both from inconsistencies in Mr Potemkin's account and from the fraud conviction.[^29]
 
@@ -4369,27 +4285,29 @@ Potemkin should be believed. I defer final judgment to the police."
 
 The Litvinenko Inquiry
 
-9.88 Second, Mr Potemkin's account is on any view far fetched. Again, that does not of course mean that he is lying. But there are many further questions to which I would have needed an answer before being sufficiently confident to conclude that the extraordinary story that he has told is true. To give only a few examples, if the container was to be brought to Innsbruck by Sultan and left in a locker at the railway station, why did Mr Potemkin need to be involved at all? Why couldn't Sultan have left the container at the station? On a further point, how confident was Mr Potemkin that the package contained polonium 210? How did his earlier special forces experience assist him in identifying the contents of this package? Did the markings on the package specifically state that it contained polonium 210, and if not, how did Mr Potemkin know that it did not contain (for example) some other radioactive material? Finally, why did Mr Potemkin's
+9.88 Second, Mr Potemkin's account is on any view far fetched. Again, that does not of
 
-(presumably secret) orders state that he was to receive this package in connection with: "carrying out further activities related to investigation, possible neutralization and return to RF of certain members of Chechen ethnic criminal groups" ? On the account that he has given, this would appear to be simply inaccurate.
+> course mean that he is lying. But there are many further questions to which I would have needed an answer before being sufficiently confident to conclude that the extraordinary story that he has told is true. To give only a few examples, if the container was to be brought to Innsbruck by Sultan and left in a locker at the railway station, why did Mr Potemkin need to be involved at all? Why couldn't Sultan have left the container at the station? On a further point, how confident was Mr Potemkin that the package contained polonium 210? How did his earlier special forces experience assist him in identifying the contents of this package? Did the markings on the package specifically state that it contained polonium 210, and if not, how did Mr Potemkin know that it did not contain (for example) some other radioactive material? Finally, why did Mr Potemkin's (presumably secret) orders state that he was to receive this package in connection with: "carrying out further activities related to investigation, possible neutralization and return to RF of certain members of Chechen ethnic criminal groups" ? On the account that he has given, this would appear to be simply inaccurate.
 
-9.89 Third and in any event, I observe that even if Mr Potemkin's account was to be accepted in its entirety, it would be of only limited assistance to this Inquiry. Put at its highest, the account amounts to evidence that in September 2006 the FSB was clandestinely moving a package of polonium 210 around Europe as far as Innsbruck. There is no evidence to connect the container that Mr Potemkin claims to have deposited in a locker at Innsbruck station with London, Mr Litvinenko – or, for example, with
+9.89 Third and in any event, I observe that even if Mr Potemkin's account was to be accepted
 
-Mr Lugovoy or Mr Kovtun.
+> in its entirety, it would be of only limited assistance to this Inquiry. Put at its highest, the account amounts to evidence that in September 2006 the FSB was clandestinely moving a package of polonium 210 around Europe as far as Innsbruck. There is no evidence to connect the container that Mr Potemkin claims to have deposited in a locker at Innsbruck station with London, Mr Litvinenko – or, for example, with Mr Lugovoy or Mr Kovtun.
 
-Professor Dombey's analysis 9.90 When he gave his oral evidence to the Inquiry, Professor Dombey appeared to advance an argument that was both simple and, if true, of great significance to this case.
+Professor Dombey's analysis 9.90 When he gave his oral evidence to the Inquiry, Professor Dombey appeared to
+
+> advance an argument that was both simple and, if true, of great significance to this case.
 
 9.91 In summary, this argument was (a) that the polonium 210 that was used to kill
 
-Mr Litvinenko must have been made in Russia, since the Mayak/Avangard facilities were the only place in the world in which the quantity of polonium used on 1 November
+> Mr Litvinenko must have been made in Russia, since the Mayak/Avangard facilities were the only place in the world in which the quantity of polonium used on 1 November 2006 could have been made; and (b) that since the facilities at Mayak and Avangard were controlled by the Russian State, any diversion of the polonium 210 produced there must have been authorised by state officials. Unsurprisingly, some emphasis was placed on this evidence by Mr Emmerson in his closing statement.
 
-2006 could have been made; and (b) that since the facilities at Mayak and Avangard were controlled by the Russian State, any diversion of the polonium 210 produced there must have been authorised by state officials. Unsurprisingly, some emphasis was placed on this evidence by Mr Emmerson in his closing statement.
+9.92 There were a number of steps to Professor Dombey's reasoning, which I will address
 
-9.92 There were a number of steps to Professor Dombey's reasoning, which I will address in turn. After the conclusion of the Inquiry hearings, A1 produced a further statement in which she gave her own opinion on several of these points, and Professor Dombey responded by way of a further statement.[^30] I am grateful both to A1 and to Professor
+> in turn. After the conclusion of the Inquiry hearings, A1 produced a further statement in which she gave her own opinion on several of these points, and Professor Dombey responded by way of a further statement.[^30] I am grateful both to A1 and to Professor Dombey for their assistance in this regard; the further written material that they have provided has been of considerable assistance in resolving this issue.
 
-Dombey for their assistance in this regard; the further written material that they have provided has been of considerable assistance in resolving this issue.
+The amount of polonium 210 that was used 9.93 Professor Dombey estimated that at least 50 micrograms of polonium 210 was put
 
-The amount of polonium 210 that was used 9.93 Professor Dombey estimated that at least 50 micrograms of polonium 210 was put into the teapot at the Millennium Hotel on the afternoon of 1 November 2006. His reasoning was that the 4.4GBq that Mr Litvinenko was considered to have ingested equated to 26.5 micrograms, and the higher figure of 50 micrograms was chosen
+> into the teapot at the Millennium Hotel on the afternoon of 1 November 2006. His reasoning was that the 4.4GBq that Mr Litvinenko was considered to have ingested equated to 26.5 micrograms, and the higher figure of 50 micrograms was chosen
 
 %%page 223%%
 
@@ -4441,13 +4359,7 @@ was not its thermal power, but rather its neutron flux[^39] (a point to which Pr
 
 9.109 Witness A1 summarised her opinion on this issue in these terms:[^42]
 
-"I therefore think that on a technical level, it would be entirely possible for the quantity of Po-210 under consideration to have been produced in many reactors.
-
-All that would be required is an appropriate bismuth target, access to a suitable reactor for an appropriate period of time, and suitable facilities with appropriate radiological protection for the relatively simple chemical process of isolating the
-
-Po-210 from the irradiated bismuth target. While it is of course possible that the
-
-Po-210 was simply diverted from that which is routinely produced at Avangard, I do not agree with Prof Dombey that that must have been the source of this Po-210."
+> "I therefore think that on a technical level, it would be entirely possible for the quantity of Po-210 under consideration to have been produced in many reactors. All that would be required is an appropriate bismuth target, access to a suitable reactor for an appropriate period of time, and suitable facilities with appropriate radiological protection for the relatively simple chemical process of isolating the Po-210 from the irradiated bismuth target. While it is of course possible that the Po-210 was simply diverted from that which is routinely produced at Avangard, I do not agree with Prof Dombey that that must have been the source of this Po-210."
 
 9.110 In the further statement that he provided in response to A1's statement, Professor Dombey clarified his position. He stated that, although he regarded it as "highly likely" that the polonium 210 that had been used to kill Mr Litvinenko had been prepared at the Avangard facility, he accepted that it was "possible to envisage circumstances" in which it could have been prepared elsewhere. It seems to me that this clarification of his position by Professor Dombey means that there is no material difference of opinion on this issue between him and A1. They share the view that the polonium 210 that killed Mr Litvinenko could have been produced at Avangard (and it is fair to say that Professor Dombey puts the matter considerably higher than that). Crucially, however, they also both accept that the polonium 210 could in principle have been made somewhere entirely different, including a research reactor outside Russia.
 
@@ -4467,7 +4379,7 @@ The Litvinenko Inquiry
 
 > "... the quantity of polonium of this purity used in the assassination of Mr Litvinenko would have cost tens of millions of dollars if it was purchased... by end users on the commercial market."
 
-Mr Emmerson went on to assert that the extremely high cost of polonium 210 was a factor that argued strongly in favour of state involvement in Mr Litvinenko's death.
+> Mr Emmerson went on to assert that the extremely high cost of polonium 210 was a factor that argued strongly in favour of state involvement in Mr Litvinenko's death.
 
 9.116 However, the evidence that I received on this issue was to the effect that the commercial price of polonium 210 in 2006 was in fact very much lower than Mr Emmerson suggested. DI Mascall gave evidence that a consignment of polonium 210 containing many times the quantity that Mr Litvinenko ingested was sold in 2006 for US$20,000.44
 
@@ -4525,13 +4437,7 @@ observers" believed Ms Politkovskaya's death to have been "a political assassina
 
 9.135 The best known example of political assassination conducted by Russia outside its borders during this period is the February 2004 killing of the Chechen Vice President Zelinkhan Yandarbiev. He was blown up as he left a mosque with his son. Professor Service stated that Mr Yandarbiev was "a strong critic of the Putin administration",52 who had been a leader of the Chechen insurgency until going abroad in 1999. He said that, prior to his death, Mr Yandarbiev had been conducting his anti-Moscow activities in Qatar, where he was free from the risk of extradition to Russia, and that he had been held responsible by the Russian authorities for the Moscow theatre siege in October 2002. As to Russia's responsibility for Mr Yandarbiev's death, Professor Service stated:[^53]
 
-"Three agents of Russian military intelligence were arrested in Doha and accused of planting the bomb that killed Yandarbiev. Igor Ivanov, Secretary of the Security
-
-Council, was sent to put pressure on the Qatari administration. Two Qatari citizens were taken into custody at Moscow's Sheremetevo airport; they were said to be suspected of connections with the Chechen insurgents. Putin wished to secure the release of the Russian agents. He phoned the Emir himself about the matter.
-
-One of the agents was allowed back to Russia. Two remained in custody until
-
-December 2004, when they were flown to Moscow to serve out their sentences in Russian prisons. The Qatari detainees were liberated as part of the diplomatic bargain."
+> "Three agents of Russian military intelligence were arrested in Doha and accused of planting the bomb that killed Yandarbiev. Igor Ivanov, Secretary of the Security Council, was sent to put pressure on the Qatari administration. Two Qatari citizens were taken into custody at Moscow's Sheremetevo airport; they were said to be suspected of connections with the Chechen insurgents. Putin wished to secure the release of the Russian agents. He phoned the Emir himself about the matter. One of the agents was allowed back to Russia. Two remained in custody until December 2004, when they were flown to Moscow to serve out their sentences in Russian prisons. The Qatari detainees were liberated as part of the diplomatic bargain."
 
 9.136 A few months after Mr Yandarbiev's death, in September 2004, there was an apparent attempt to poison Viktor Yuschenko, the anti-Moscow candidate in Presidential elections taking place in Ukraine. Professor Service recorded that Mr Yuschenko's poisoning was attributed to Russian security forces.[^54]
 
@@ -4543,9 +4449,7 @@ The Litvinenko Inquiry
 
 9.138 In 2003, Russian politician Yuri Shchekochikhin died of apparent poisoning. Professor Service described Mr Shchekochikhin's career in the following terms:[^55]
 
-"Yuri Shchekochikhin was deputy editor of Novoya Gazeta and a campaigning columnist over many years. Elected as a Duma deputy in 1995, he was active in the struggle against corruption, against abuses in the armed forces and against the wars in Chechnya. He denounced the official story about the Moscow apartment bombings in September 1999. He frequently exposed malpractices by
-
-FSB officers."
+> "Yuri Shchekochikhin was deputy editor of Novoya Gazeta and a campaigning columnist over many years. Elected as a Duma deputy in 1995, he was active in the struggle against corruption, against abuses in the armed forces and against the wars in Chechnya. He denounced the official story about the Moscow apartment bombings in September 1999. He frequently exposed malpractices by FSB officers."
 
 Mr Goldfarb said that Mr Shchekochikhin did not lose his hair as he died but that his symptoms had resembled those of Mr Yuschenko. He thought that Mr Shchekochikhin had been poisoned with dioxins, rather than with a radioactive substance. He added, "Everyone believed that he was poisoned... his family and his party, colleagues, always claimed that he was poisoned."[^56]
 
@@ -4557,9 +4461,7 @@ Mr Goldfarb said that Mr Shchekochikhin did not lose his hair as he died but tha
 
 9.142 In the course of his oral evidence to me, Professor Dombey repeated an observation that he had previously made in an article in the London Review of Books.[^61] He said that, on the hypothesis that Mr Litvinenko had been deliberately poisoned with polonium 210 in a killing sponsored by the Russian State, it was reasonable to assume that the poison would have been tested on others in advance. Professor Dombey identified two cases that might indicate such testing. One was the case of Mr Tsepov, to which I have already referred. The other was the case of a Chechen man named Lecha Islamov. In the article to which I have referred, Professor Dombey had this to say about the Islamov case:[^62]
 
-"In April 2004, it was reported that Lecha Islamov, a Chechen guerrilla commander serving a nine-year prison sentence, had died after being admitted to hospital in
-
-Volgograd with a mysterious illness. 'Sources close to the convict,' ran a report in the Chechnya Weekly, '... suspect he may have been poisoned by Russia's
+> "In April 2004, it was reported that Lecha Islamov, a Chechen guerrilla commander serving a nine-year prison sentence, had died after being admitted to hospital in Volgograd with a mysterious illness. 'Sources close to the convict,' ran a report in the Chechnya Weekly, '... suspect he may have been poisoned by Russia's
 
 %%page 231%%
 
@@ -4591,7 +4493,7 @@ The Litvinenko Inquiry police are said to have received about Mr Atlangeriev was
 
 9.152 I have referred above to the emails that Mr Scaramella received from Mr Limarev shortly before his meeting with Mr Litvinenko on 1 November 2006, and which he printed off and showed to Mr Litvinenko when they were at the itsu restaurant on that day. The emails that Mr Scaramella received from Mr Limarev focused on a report of action being planned against Mr Scaramella and Mr Guzzanti by a group of Foreign Intelligence Service (SVR) veterans known as Dignity and Honor. There was, though, some mention of a risk to Mr Litvinenko – the earlier of the two emails stated:[^68]
 
-"Meanwhile above mentioned Russian intelligence officers speak more and more about necessity to use force against PG [Guzzanti] and MS [Scaramella], considering their 'incessant anti-Russian activities' – as well as against Berezovsky and Litvinenko."
+> "Meanwhile above mentioned Russian intelligence officers speak more and more about necessity to use force against PG [Guzzanti] and MS [Scaramella], considering their 'incessant anti-Russian activities' – as well as against Berezovsky and Litvinenko."
 
 9.153 I have also observed that Mr Litvinenko did not place any weight on Mr Limarev's warnings when they were conveyed to him by Mr Scaramella. It is clear, however, that Mr Scaramella took what Mr Limarev had told him very seriously. He produced a message that he had written on a piece of paper either on 1 November 2006 or the day after, and kept on his person for the rest of the time that he was in London. He may already have had it with him when he met Mr Litvinenko at itsu. The message listed contact numbers and then stated, "Please contact also the police and security services because I am in danger for my work at the Italian Parliament (Senator Paolo Guzzanti). There are risks that I have been poisoned."[^69]
 
@@ -4677,21 +4579,21 @@ Refusal of extradition requests 9.177 Russia has refused requests made by the Br
 
 9.178 Moreover, as Professor Service pointedly observed:[^74]
 
-"It was no surprise that the Russian authorities refused to comply with the British request for their extradition to stand trial since the UK authorities had turned down every Russian request to extradite Berezovski and other wanted Russian citizens to Moscow."
+> "It was no surprise that the Russian authorities refused to comply with the British request for their extradition to stand trial since the UK authorities had turned down every Russian request to extradite Berezovski and other wanted Russian citizens to Moscow."
 
 The careers of Mr Kovtun and Mr Lugovoy since 2006 9.179 Professor Service had this to say about the careers in Russia of Mr Lugovoy and Mr Kovtun in the years following Mr Litvinenko's death:[^75]
 
-"A wall of protection was built around Lugovoi and Kovtun. Although Kovtun did not exactly avoid public attention, he gave only a few interviews to the print and broadcast media. His partner Lugovoi by contrast has paraded himself at every opportunity. He was welcomed into the Liberal Democratic Party and became one of its successful candidates in the Duma elections of 2007; he appeared on TV chat shows and has recently been appointed an adviser to a television series about spies.
+> "A wall of protection was built around Lugovoi and Kovtun. Although Kovtun did not exactly avoid public attention, he gave only a few interviews to the print and broadcast media. His partner Lugovoi by contrast has paraded himself at every opportunity. He was welcomed into the Liberal Democratic Party and became one of its successful candidates in the Duma elections of 2007; he appeared on TV chat shows and has recently been appointed an adviser to a television series about spies.
 
-The careers of Lugovoi and Kovtun since 2006 seem to me unimaginable without high-level political approval. The fact that Lugovoi has joined Zhironovski's Liberal
-
-Democratic Party, moreover, is not a sign of Lugovoi's alienation from the central state authorities. It is a party that since the early 1990s has acted as a pseudocritical part of the tolerated opposition to whoever is President at the time. Lugovoi is a prominent, officially-respected public figure."
+> The careers of Lugovoi and Kovtun since 2006 seem to me unimaginable without high-level political approval. The fact that Lugovoi has joined Zhironovski's Liberal Democratic Party, moreover, is not a sign of Lugovoi's alienation from the central state authorities. It is a party that since the early 1990s has acted as a pseudo- critical part of the tolerated opposition to whoever is President at the time. Lugovoi is a prominent, officially-respected public figure."
 
 9.180 Professor Service expanded on these points in the course of his oral evidence.[^76] He emphasised that Mr Lugovoy's membership of the Liberal Democratic Party did not mean that he was a political opponent of President Putin in any substantive sense. Professor Service also drew attention to the importance that President Putin placed on television as a source of public information and the control that he therefore sought to exercise over it. Professor Service observed that, in those circumstances, the fact
 
 %%page 238%%
 
-The Litvinenko Inquiry that President Putin had allowed Mr Lugovoy, "a prominent public role on Russian TV" was a telling indication that he "has had favour shown to him by the President".
+The Litvinenko Inquiry
+
+> that President Putin had allowed Mr Lugovoy, "a prominent public role on Russian TV" was a telling indication that he "has had favour shown to him by the President".
 
 9.181 In fact, during the course of the Inquiry's open hearings an event took place in Russia that provided unambiguous evidence of the esteem in which President Putin holds Mr Lugovoy. In March 2015, President Putin awarded a state honour to Mr Lugovoy. A Reuters report carrying the headline "Russia's Putin honours suspect in Litvinenko poisoning" stated as follows:[^77]
 
@@ -4807,9 +4709,7 @@ the question of the likely involvement of Mr Patrushev and Mr Putin on the hypot
 
 9.212 But that simply begs the question of what level of oversight Mr Putin exercised over the FSB. Professor Service readily accepted that he lacked the evidence to draw any firm conclusion on this issue. He described the shortfall in the evidence available to him regarding the working relationship between Mr Putin and Mr Patrushev in the following terms:[^85]
 
-"… there is no available evidence for how much initiative was left to Patrushev in the FSB. Did Patrushev secure Putin's permission for operations in advance?
-
-Or did he merely need sanction for a general operational strategy? And did the relationship between Putin and Patrushev undergo change in the course of their collaboration? These questions constitute an important nexus of known unknowns about Presidential power since Yeltsin stepped down from office."
+> "… there is no available evidence for how much initiative was left to Patrushev in the FSB. Did Patrushev secure Putin's permission for operations in advance? Or did he merely need sanction for a general operational strategy? And did the relationship between Putin and Patrushev undergo change in the course of their collaboration? These questions constitute an important nexus of known unknowns about Presidential power since Yeltsin stepped down from office."
 
 9.213 Professor Service did draw attention in his report to one possible reason why Mr Patrushev might have concealed an FSB operation to assassinate Mr Litvinenko from Mr Putin, namely that the operation was part of a deliberate campaign by Kremlin insiders to weaken Mr Putin's power. Professor Service referred to this theory that had been advanced by some commentators, but he did not endorse it himself.[^86] I observe that it would also seem unlikely, given the duration and closeness of Mr Patrushev's ties to Mr Putin, that he would have been a party to such a plot in the first place.
 
@@ -5215,7 +5115,7 @@ Miscellaneous procedural matters 120. On 30 March 2015, I heard submissions on a
 
 121. I considered the question of whether and what standard of proof I should apply. There was a consensus that I should adopt the approach taken by Sir William Gage in the Baha Mousa Public Inquiry, which had been set out in a ruling of 7 May 2010. That had itself adopted; "the flexible and variable standard of proof as applied [by Dame Janet Smith] in the Shipman Inquiry". At paragraph 28 of his ruling, Sir William concluded:
 
-"For the reasons which I have endeavoured to explain I have concluded that it is right for me to approach my task by initially adopting the civil standard of proof in relation to findings of facts, but indicating where appropriate where I am sure of a finding. As I have said, I shall record the level of satisfaction which I find established in relation to any finding of fact. Thus, I shall state where necessary that I find a fact proved on the balance of probabilities or to a higher standard where appropriate. I do not think it will be necessary expressly to refer to expressions such as 'inherent improbabilities' or the 'bare' balance of probabilities."
+> "For the reasons which I have endeavoured to explain I have concluded that it is right for me to approach my task by initially adopting the civil standard of proof in relation to findings of facts, but indicating where appropriate where I am sure of a finding. As I have said, I shall record the level of satisfaction which I find established in relation to any finding of fact. Thus, I shall state where necessary that I find a fact proved on the balance of probabilities or to a higher standard where appropriate. I do not think it will be necessary expressly to refer to expressions such as 'inherent improbabilities' or the 'bare' balance of probabilities."
 
 %%page 262%%
 
@@ -6043,19 +5943,25 @@ b. "the Chairman" is a reference to the person appointed by the Minister to chai
 
 Inquiry under section 4 of the Act, namely Sir Robert Owen;
 
-c. "the Minister" is a reference to the Secretary of State for the Home Department and, after the setting up of the Inquiry, to such other Government officials as are nominated by the Minister;
+c. "the Minister" is a reference to the Secretary of State for the Home Department
 
-d. "Core Inquiry Team" is a reference to the Chairman, counsel to the Inquiry, the solicitor to the Inquiry and such other persons as are agreed between the Minister and the Chairman and identified as such in writing;
+> and, after the setting up of the Inquiry, to such other Government officials as are nominated by the Minister;
+
+d. "Core Inquiry Team" is a reference to the Chairman, counsel to the Inquiry, the
+
+> solicitor to the Inquiry and such other persons as are agreed between the Minister and the Chairman and identified as such in writing;
 
 e. "HMG advisers" is a reference to counsel and solicitors, instructed on behalf of Her
 
-Majesty's Government, and such other Government officials as are nominated by the Minister;
+> Majesty's Government, and such other Government officials as are nominated by the Minister;
 
-f. "relevant witnesses" are references to witnesses whom the Chairman directs should be called to give evidence in a closed hearing as described in paragraphs
+f. "relevant witnesses" are references to witnesses whom the Chairman directs
 
-9 to 12 below; and g. "open rulings, judgments or reports" are references to rulings, judgments or reports produced by the Chairman in the course, or at the conclusion, of the
+> should be called to give evidence in a closed hearing as described in paragraphs 9 to 12 below; and
 
-Inquiry which may be released to the public without risking harm to the public interest.
+g. "open rulings, judgments or reports" are references to rulings, judgments or
+
+> reports produced by the Chairman in the course, or at the conclusion, of the Inquiry which may be released to the public without risking harm to the public interest.
 
 h. "Closed hearings" are hearings of the Inquiry to which paragraphs 9 to 14 below apply.[^3] This Restriction Notice is to be read as imposing no restriction on the disclosure of any document or information:
 
@@ -6143,7 +6049,9 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^9] Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
+
+> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^9] Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
 
 %%page 302%%
 
@@ -6271,7 +6179,9 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^9] Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
+
+> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^9] Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
 
 %%page 308%%
 
