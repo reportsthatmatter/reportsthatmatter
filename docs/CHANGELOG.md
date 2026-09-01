@@ -7,6 +7,22 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-01 — The Litvinenko report stops quoting itself
+
+Most of the Litvinenko report's paragraphs were being shown as though they
+were quotations from somewhere else. The report numbers its paragraphs in the
+margin and indents the text beside them, and the pipeline read that indent as
+a quotation — so 865 of its 1,089 paragraphs were cut in half, the first line
+left as text and the rest set as a quote.
+
+Paragraphs are whole again, and the passages that genuinely are quotations —
+witness evidence, expert statements — still read as quotations.
+
+![Chapter 2, with paragraphs whole and one real quotation](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-01-litvinenko-blockquotes/after.png)
+
+---
+
+
 ## 2026-08-29 — The Columbia report, and words that stopped breaking in half
 
 The Columbia Accident Investigation Board report joins the archive: 248 pages
