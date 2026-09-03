@@ -92,7 +92,16 @@ an interactive session.
 - **Look at the rendered page, not just green tests.** Most of the real defects
   in this project — footnote markers bleeding into quotes, paragraphs opening
   mid-sentence, block quotes swallowing a clause — were found by reading output,
-  and every one passed the tests first.
+  and every one passed the tests first. Three shipped live in 2026-08/09 alone,
+  each caught only by opening the page: Columbia's columns welded together,
+  and 865 of Litvinenko's 1,089 paragraphs cut in half with their tails
+  relabelled as quotations.
+- **The fidelity gates count words, not their order.** A paragraph severed and
+  half of it relabelled scores identically to a correct one, which is exactly
+  how the Litvinenko defect passed every gate. `severedSentenceCheck` closes
+  that particular hole; the general lesson is that a check which cannot fail on
+  the broken output is not evidence. When adding one, run it against the broken
+  version and watch it fail before trusting it.
 - **Don't modify tests to make them pass** — fix the code. (Do fix tests whose
   fixtures are unrealistic; several early ones were.)
 - **Paragraph ids are the product.** They derive from the paragraph's opening
