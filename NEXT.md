@@ -22,7 +22,8 @@ queue, and seven worked examples already in its file.
 
 Everything else is optional. The ingestion architecture is built and the
 pipeline is a pinned dependency ([`@rtm/ingest`](https://github.com/reportsthatmatter/ingest));
-six reports are live, each owning its own build.
+ten reports are live, each owning its own build (four added 2026-09-03:
+9/11 Commission, Deepwater Horizon, US v. Philip Morris, Hillsborough Panel).
 
 ## After that, if you want it
 

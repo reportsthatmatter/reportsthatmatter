@@ -207,15 +207,20 @@
 
 - id: more-reports
   desc: >
-    Four published (added litvinenko-inquiry 2026-08-08). ~26 candidates
-    remain, curated as GitHub issues — Chilcot (#67), Leveson (#32), Saville
-    (#39), FCIC (#57), Valukas (#24), Philip Morris (#33), Duelfer (#34).
-    FCIC and Columbia (#37) were tried and ruled out for now — see
-    docs/PROGRESS.md, 2026-08-08. Each report gets its own repo under the
-    org holding the source PDF, cloned as a sibling directory, then
-    `pnpm ingest run`.
+    Ten published. Added 2026-09-03: us-911-commission, us-deepwater-horizon,
+    us-v-philip-morris, uk-hillsborough-panel — all born-digital, all clean,
+    all passing the fidelity gate (retention 96.6–99.7%). ~22 candidates
+    remain, curated as GitHub issues — Chilcot (#67), Saville (#39),
+    Valukas (#24), Duelfer (#34), Grenfell (#92), Deepwater's separate
+    chief-counsel report, and more. FCIC (#57/#102 — the PDF drops every
+    digit on extraction) is still ruled out. Each report gets its own repo
+    under the org holding the source PDF, cloned as a sibling directory,
+    then `pnpm ingest run`.
   verify: report passes the fidelity gate and appears in the registry
-  passes: false
+  passes: true
+  followups: >
+    uk-hillsborough-panel headings are visual (colour/weight), invisible to
+    pdftotext, so it sections poorly — see the ingestion-quality issue.
 
 - id: text-out-of-order
   desc: >

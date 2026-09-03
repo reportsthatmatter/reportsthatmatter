@@ -46,3 +46,35 @@ reports:
     source_path: reports/columbia-accident/full.md
     source_url: "https://www.nasa.gov/columbia/home/CAIB_Vol1.html"
     ingested: true
+
+  - id: us-911-commission
+    title: "The 9/11 Commission Report"
+    authors: "National Commission on Terrorist Attacks Upon the United States"
+    published_at: "22 July 2004"
+    source_path: reports/us-911-commission/full.md
+    source_url: "https://www.9-11commission.gov/report/911Report.pdf"
+    ingested: true
+
+  - id: us-deepwater-horizon
+    title: "Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling"
+    authors: "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling"
+    published_at: "January 2011"
+    source_path: reports/us-deepwater-horizon/full.md
+    source_url: "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
+    ingested: true
+
+  - id: us-v-philip-morris
+    title: "United States v. Philip Morris USA Inc.: Amended Final Opinion"
+    authors: "Gladys Kessler, U.S. District Judge, District of Columbia"
+    published_at: "17 August 2006"
+    source_path: reports/us-v-philip-morris/full.md
+    source_url: "https://www.justice.gov/sites/default/files/civil/legacy/2014/09/11/amended%20opinion_0.pdf"
+    ingested: true
+
+  - id: uk-hillsborough-panel
+    title: "The Report of the Hillsborough Independent Panel"
+    authors: "Hillsborough Independent Panel (the Rt Revd James Jones, Chair)"
+    published_at: "12 September 2012"
+    source_path: reports/uk-hillsborough-panel/full.md
+    source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
+    ingested: true
