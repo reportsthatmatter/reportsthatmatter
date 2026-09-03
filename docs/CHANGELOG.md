@@ -7,6 +7,29 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-03 — Four more reports
+
+The archive goes from six reports to ten:
+
+- **The 9/11 Commission Report** (2004) — 585 pages. Every page of the PDF
+  carried a leftover typesetting slug ("Final1-4.4pp 7/17/04 9:12 AM Page 13");
+  it is stripped, and the page number is read back off it so the page anchors
+  still work.
+- **Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling**
+  (2011) — the BP Deepwater Horizon commission's report to the President,
+  386 pages, 775 footnotes.
+- **United States v. Philip Morris** (2006) — Judge Kessler's 1,682-page
+  RICO opinion, with its findings of fact numbered and citable one by one.
+- **The Report of the Hillsborough Independent Panel** (2012) — 389 pages;
+  99.7% of the words retained, the cleanest ingest in the archive. Its
+  section headings are set as colour and weight rather than text, so for now
+  it reads best as one continuous document.
+
+Each report keeps its own repository under the `reportsthatmatter`
+organisation, holding the source PDF and the definition it is built from.
+
+---
+
 ## 2026-09-01 — The Litvinenko report stops quoting itself
 
 Most of the Litvinenko report's paragraphs were being shown as though they

@@ -2,6 +2,57 @@
 
 One entry per work session. Newest first.
 
+## 2026-09-03 — Four more reports ingested and shipped
+
+Took the archive from six reports to ten. Picks came off the issue tracker,
+filtered to born-digital PDFs with a clean text layer (the OCR-queue pain is
+not worth taking on for a batch): **9/11 Commission** (#85), **Deepwater
+Horizon / "Deep Water"** (#87), **US v. Philip Morris** (#33),
+**Hillsborough Independent Panel** (#90). Ruled out along the way: Katrina
+(#86 — ligatures not extracting, magazine layout), FCIC (#57/#102 — known
+digit-drop), Enron Powers report and the Wells/DeflateGate report (ligature
+failures / no clean source).
+
+**Method:** each report gets its own repo under the org (source PDF + README +
+`datapackage.json` + `ingest.ts` + `corrections.yaml` + baseline), cloned as a
+sibling directory; registered in `reports/manifest.yaml` and
+`reports/registry.yaml`; `pnpm ingest run`, read the output, tune passes,
+`pnpm ingest baseline`. Worked on a **sibling `git worktree`**
+(`../rtm-reports-batch`, branch `reports-batch`) so the shared main checkout
+other sessions use was never switched — a sibling rather than a nested
+worktree keeps `dir: ../<report>` resolving.
+
+**Per report:**
+
+- **9/11 Commission** (585 pp, 97.0% retained). Every page opens with an
+  Adobe InDesign output slug — `Final1-4.4pp 7/17/04 9:12 AM Page 13` — that
+  `runningFurniture()` can't touch (nothing recurs verbatim) and that is the
+  only place the printed page number appears. Wrote an inline `productionSlug`
+  volume pass in its `ingest.ts`: shape-anchored to the first body line, reads
+  `Page N` into `printed`, drops the line. Front-matter staff list (two
+  columns) and a few tracked-out chapter openings ("Tue sday, Se ptembe r")
+  are left as-is — front matter, and in the OCR queue.
+- **Deepwater Horizon** (386 pp, 97.5%, 775 footnotes linked). Clean.
+  Front-matter roman page numbers show doubled ("ix ix") from a two-up
+  running footer — cosmetic, front matter only.
+- **US v. Philip Morris** (1,682 pp, 96.6%). The ECF header stamp strips
+  cleanly via `runningFurniture()`. Findings of fact land as numbered,
+  individually citable paragraphs. The 40-page dotted-leader TOC renders as
+  one long block — acceptable.
+- **Hillsborough Panel** (389 pp, 99.7% — the cleanest ingest in the
+  archive). Main body (all 12 chapters, decimal-numbered paragraphs) is
+  excellent. `quoteInset(10)` fixed the front-matter summary, whose
+  hanging-indent numbered list was being severed into blockquotes
+  (65 paragraphs → 20, same failure family as the Litvinenko defect).
+  **Known weak point:** the report's headings are set as colour and weight,
+  invisible to `pdftotext`, so only ~10 (mostly spurious, all-caps quoted
+  document titles) are detected and it sections into 9 lumpy pieces. `/full`
+  is fully usable; section navigation is not. Filed as an ingestion-quality
+  follow-up. Shipped on the strength of `/full`.
+
+`./scripts/verify.sh` green (all ten reports, browser e2e included);
+`pnpm ingest check` green.
+
 ## 2026-08-22 — Reviewing, then republishing, the PSI/Challenger re-ingest under #79 (issue #108)
 
 #79 (2026-08-08) fixed a real contents-page bug for Litvinenko but deliberately

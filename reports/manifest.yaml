@@ -21,3 +21,11 @@ reports:
     dir: ../uk-leveson-inquiry
   - id: columbia-accident
     dir: ../columbia-accident
+  - id: us-911-commission
+    dir: ../us-911-commission
+  - id: us-deepwater-horizon
+    dir: ../us-deepwater-horizon
+  - id: us-v-philip-morris
+    dir: ../us-v-philip-morris
+  - id: uk-hillsborough-panel
+    dir: ../uk-hillsborough-panel
