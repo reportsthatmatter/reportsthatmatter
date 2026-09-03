@@ -296,8 +296,13 @@ async function sitemapSectionUrls(
   return response ? response.json() : [];
 }
 
-app.get("/sitemap.xml", async (c) =>
-  cached(c, async () => {
+// Not wrapped in `cached()`: that wrapper stores in `caches.default` for a day
+// and does not invalidate on deploy, so a report added today would not appear
+// in the sitemap until tomorrow (exactly what happened shipping the 2026-09-03
+// batch). Since #115 this route only reads a precomputed JSON asset and the
+// registry — cheap enough to build every time. The `max-age=3600` header still
+// lets the edge hold it for an hour, and that layer *does* clear on deploy.
+app.get("/sitemap.xml", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const registry = await loadRegistry(sourceMode);
   const origin = new URL(c.req.url).origin;
@@ -330,8 +335,7 @@ ${urls
     "content-type": "application/xml; charset=utf-8",
     "cache-control": "public, max-age=3600",
   });
-  })
-);
+});
 
 app.get("/robots.txt", (c) => {
   const origin = new URL(c.req.url).origin;
