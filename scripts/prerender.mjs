@@ -11,10 +11,24 @@
  * marked passages" block, both cheap and both covered in `src/index.ts`.
  *
  * Output layout, per report:
- *   meta.json            — words, section list (no html), paragraph→section
- *                          lookup. Small; loaded on every request.
- *   full.html            — the complete static page for /reports/<id>/full.
- *   sections/<slug>.html — the complete static page for /reports/<id>/<slug>.
+ *   meta.json             — words, section list (no html), paragraph→section
+ *                           lookup. Small; loaded on every request.
+ *   fragments/<slug>.html — one section's *body*, with no layout around it.
+ *   full-body.html        — the whole report's body, likewise layout-free.
+ *
+ * `full-body.html` duplicates the fragments, deliberately: /full for
+ * us-v-philip-morris would otherwise be 129 reads per request, and 129 R2
+ * GETs once content moves out (§3). One read, and storage is the cheap side
+ * of that trade. It sits outside fragments/ because slugs may contain
+ * underscores, so no name inside that directory is safe from collision.
+ *
+ * Fragments, not finished pages, because the layout belongs to the app and
+ * the content belongs to the report (content-publishing plan §2). While
+ * `full.html` and `sections/*.html` carried the site chrome, one CSS-class
+ * change in src/templates/ dirtied all 601 artifacts, and a report could not
+ * be republished without an app deploy. The Worker assembles a page from a
+ * fragment per request — a string concatenation, against a request that
+ * `run_worker_first = true` never let skip the Worker anyway.
  *
  * There is deliberately no `body.json` holding every section's html at once.
  * It was 55.5 MB across ten reports (19.0 MB for Leveson alone, against a
@@ -31,8 +45,6 @@ import { dirname, join } from "node:path";
 import { parse } from "yaml";
 import { renderMarkdown } from "../src/lib/markdown.ts";
 import { splitSections, paragraphIndex } from "../src/lib/sections.ts";
-import { renderReport } from "../src/templates/report.ts";
-import { renderSection } from "../src/templates/section.ts";
 
 const root = join(import.meta.dirname, "..");
 const outDir = join(root, "assets/generated");
@@ -71,14 +83,11 @@ for (const report of registry.reports) {
   };
 
   writeJSON(join(outDir, `reports/${report.id}/meta.json`), meta);
-  writeText(join(outDir, `reports/${report.id}/full.html`), renderReport(report, html));
+  writeText(join(outDir, `reports/${report.id}/full-body.html`), html);
 
-  for (let i = 0; i < sections.length; i++) {
-    writeText(
-      join(outDir, `reports/${report.id}/sections/${sections[i].slug}.html`),
-      renderSection(report, sections, i)
-    );
-    sitemapEntries.push({ report: report.id, slug: sections[i].slug });
+  for (const section of sections) {
+    writeText(join(outDir, `reports/${report.id}/fragments/${section.slug}.html`), section.html);
+    sitemapEntries.push({ report: report.id, slug: section.slug });
   }
 
   console.log(

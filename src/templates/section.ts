@@ -1,4 +1,4 @@
-import { renderLayout, renderHead, escapeHtml } from "./layout";
+import { renderLayout, escapeHtml } from "./layout";
 import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
 import type { Section } from "../lib/sections";
@@ -6,7 +6,7 @@ import type { ReportMeta } from "./report";
 import { quotedPassage, truncate } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
 
-/** What a section's preview metadata needs — not its html. */
+/** What the page shell needs of a section — not its html. */
 type SectionRef = Pick<Section, "slug" | "title">;
 
 /**
@@ -37,17 +37,6 @@ export function sectionPreview(
       { name: section.title, path: `${reportPath}/${section.slug}` },
     ]),
   };
-}
-
-/** That preview as a `<head>`, for splicing onto the pre-rendered page. */
-export function sectionHead(
-  meta: ReportMeta,
-  section: SectionRef,
-  quoted: string | null,
-  highlighted?: string
-): string {
-  const { title, ...head } = sectionPreview(meta, section, quoted, highlighted);
-  return renderHead(title, head);
 }
 
 /** A passage other readers marked, ready to show back (#96). */
@@ -148,8 +137,11 @@ export function renderReportOverview(
 /** One section of a report. */
 export function renderSection(
   meta: ReportMeta,
-  sections: Section[],
+  /** Every section, for the contents link and prev/next — no html needed. */
+  sections: SectionRef[],
   index: number,
+  /** This section's body, as pre-rendered (content-publishing plan §2). */
+  html: string,
   highlighted?: string,
   /** Quote anchor from `?h=`, naming the words within that paragraph. */
   anchor?: string
@@ -159,7 +151,7 @@ export function renderSection(
   const next = sections[index + 1];
   const reportPath = `/reports/${meta.id ?? ""}`;
 
-  const quoted = highlighted ? quotedPassage(section.html, highlighted, anchor) : null;
+  const quoted = highlighted ? quotedPassage(html, highlighted, anchor) : null;
   const { title, description, image, structuredData } = sectionPreview(
     meta,
     section,
@@ -182,7 +174,7 @@ export function renderSection(
       data-report-title="${escapeHtml(meta.title)}"
       data-section="${escapeHtml(section.slug)}"
       data-section-title="${escapeHtml(section.title)}">
-      ${section.html}
+      ${html}
     </div>
     <nav class="section-nav wrap measure mono">
       ${previous ? `<a class="prev" href="${escapeHtml(reportPath)}/${escapeHtml(previous.slug)}">← ${escapeHtml(previous.title)}</a>` : "<span></span>"}

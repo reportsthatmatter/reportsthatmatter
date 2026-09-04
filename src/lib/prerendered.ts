@@ -39,13 +39,34 @@ export async function loadGeneratedText(
   return response ? response.text() : null;
 }
 
-/** The pre-rendered page for one section of a report. */
-export function loadSectionPage(
+/**
+ * One section's pre-rendered body, with no layout around it.
+ *
+ * Fragments rather than finished pages, so that the layout belongs to the app
+ * and the content belongs to the report: a template change now dirties no
+ * report artifact, and a report can be republished without an app deploy.
+ * See the content-publishing plan §2.
+ */
+export function loadFragment(
   assets: AssetsBinding | undefined,
   reportId: string,
   slug: string
 ): Promise<string | null> {
-  return loadGeneratedText(assets, `reports/${reportId}/sections/${slug}.html`);
+  return loadGeneratedText(assets, `reports/${reportId}/fragments/${slug}.html`);
+}
+
+/**
+ * The whole report's body, likewise layout-free.
+ *
+ * Stored rather than concatenated per request: /full for us-v-philip-morris
+ * would otherwise be 129 fragment reads, and 129 R2 GETs once content moves
+ * out of the deploy.
+ */
+export function loadFullBody(
+  assets: AssetsBinding | undefined,
+  reportId: string
+): Promise<string | null> {
+  return loadGeneratedText(assets, `reports/${reportId}/full-body.html`);
 }
 
 /**
@@ -108,6 +129,6 @@ export async function loadQuotedPassage(
   const slug = meta.paragraphToSection[paragraphId];
   if (!slug) return null;
 
-  const page = await loadSectionPage(assets, reportId, slug);
-  return page ? quotedPassage(page, paragraphId, anchor) : null;
+  const fragment = await loadFragment(assets, reportId, slug);
+  return fragment ? quotedPassage(fragment, paragraphId, anchor) : null;
 }
