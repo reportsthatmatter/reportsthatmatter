@@ -57,6 +57,7 @@ an interactive session.
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |
+| `reports/corpus-baseline.json` | Every report's citable ids, for `pnpm corpus check` |
 | `docs/v2-features.yaml` | What is done and what is next |
 
 ## House rules
@@ -69,11 +70,23 @@ an interactive session.
   `corrections.yaml` for the human judgements the pipeline cannot make, applied
   deterministically so output stays reproducible — #106, now stage 5 of #118.
   Until that exists, the rule is absolute.)
-- **Know a change's blast radius before you commit it.** `pnpm ingest check`
-  regenerates every report and fails if any output moved without its
-  `baseline.json` moving too. It runs in `verify.sh`, takes about five seconds,
-  and exists because a fix aimed at Leveson silently changed three other
-  reports. Read the diff, then `pnpm ingest baseline <id>` to accept it.
+- **Know a change's blast radius before you commit it.** Two gates, one per
+  stage, both in `verify.sh`:
+  - `pnpm ingest check` covers each report's **markdown** against the
+    `baseline.json` in its own repo. Accept a move with
+    `pnpm ingest baseline <id>`.
+  - `pnpm corpus check` covers what this repo renders **from** that markdown —
+    every section's citable paragraph ids, against `reports/corpus-baseline.json`.
+    Accept a move with `pnpm corpus accept [<id>]`.
+
+  Both exist because a fix aimed at Leveson silently changed three other
+  reports. The second was added later, and closed a real hole: `paragraphId()`
+  lives in `src/lib/markdown.ts`, one stage *downstream* of anything a report
+  has a pin on, so until then an edit there could repoint every citation in
+  the archive with no gate anywhere. Paragraph ids are the product; changing
+  4 to 5 in one `slice()` moves ids in all ten reports, and now says so.
+  **Never `accept` to make the check quiet** — accept because you read the
+  diff and meant it.
 - **A report is rebuilt from its own definition**, not from a remembered
   command line: `pnpm ingest run <id>` reads the `ingest.ts` in that report's
   own repo, which records the ordered, checksummed source volumes and the

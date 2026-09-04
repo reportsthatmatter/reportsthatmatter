@@ -50,6 +50,17 @@ else
   tail -20 /tmp/rtm-prerender.log
 fi
 
+step "Corpus blast radius"
+# Paragraph ids are permalinks, and they are produced *here*, downstream of
+# anything a report's own baseline.json covers. This is the only gate that
+# would see src/lib/markdown.ts repointing every citation in the archive.
+if pnpm corpus check >/tmp/rtm-corpus.log 2>&1; then
+  pass "every report's citable ids are where the baseline says"
+else
+  fail "pnpm corpus check"
+  tail -30 /tmp/rtm-corpus.log
+fi
+
 step "Typecheck"
 if pnpm typecheck >/tmp/rtm-typecheck.log 2>&1; then
   pass "tsc --noEmit"
