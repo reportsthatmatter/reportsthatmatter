@@ -114,6 +114,27 @@ an interactive session.
 
 ## Changelog
 
+**Checklist — run this at the end of any session that shipped something.**
+Skip the whole list only for a trivial session (typo fix, dead end, no
+visible outcome). Nothing here is automatic; it is on the agent to do.
+
+- [ ] **`docs/CHANGELOG.md`** — a dated entry added, newest first (weight and
+      format rules below).
+- [ ] **Screenshots** — if the change is *visible*: before/after images (or
+      just "after", for new content) committed and pushed to
+      [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog),
+      in their own dated directory, one entry per batch of related work.
+- [ ] **Hotlink** — if there are screenshots: one representative image pulled
+      into the `docs/CHANGELOG.md` entry via a `raw.githubusercontent.com`
+      URL, plus a link to the full visual-changelog entry.
+- [ ] **Redeploy** — `docs/CHANGELOG.md` is bundled into the Worker
+      (`src/lib/bundled.ts`), so `/changelog` only reflects the new entry
+      after a deploy. Deploy, then open `/changelog` and confirm the entry
+      and the image render.
+- [ ] **Say so** — the hand-off / summary reports each item above as done or
+      explicitly not-done. Never a prose "all shipped" that hides a skipped
+      step.
+
 This repo keeps a `changelog.md` (dated entries, newest first). At the end
 of a work session, if something worth recording actually shipped — skip
 trivial sessions (typo fixes, dead ends, no visible outcome) — draft a
