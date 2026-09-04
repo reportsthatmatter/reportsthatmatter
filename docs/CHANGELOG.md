@@ -7,6 +7,25 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-05 — Paragraph ids get a gate, and pages stop carrying their layout
+
+Paragraph ids are permalinks, and they had no guard. Each report's own
+baseline covers its markdown, but the ids are made one stage later, by code in
+the site repo that no report has a pin on — so a one-word edit there could
+repoint every citation in the archive and nothing would notice. `pnpm corpus
+check` now fingerprints every section's citable ids across all ten reports and
+fails naming the sections that moved. Changing a single number in that code
+makes it fail on all ten, which is how we know it works.
+
+The pre-rendered files also carried the site's own layout, which meant a
+styling change rewrote all six hundred of them and a corrected report could
+not be republished without redeploying the whole site. They now hold the
+report's text and nothing else, and the page is put together when it is asked
+for. All 578 pages the site serves are byte-for-byte what they were before —
+this is a change to where the work happens, not to what anyone reads.
+
+---
+
 ## 2026-09-04 — The site stops carrying its own output
 
 Report pages were pre-rendered into the repository and committed: 133 MB of
