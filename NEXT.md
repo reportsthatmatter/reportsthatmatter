@@ -20,6 +20,15 @@ scan is right" under `dismissed:`. Either way the entry leaves the queue for
 good. Start with `challenger-accident`: the messiest scan and the largest
 queue, and seven worked examples already in its file.
 
+**In flight:** the content-publishing plan
+(`docs/plans/2026-09-04-content-publishing.md`). Steps 1, 2 and 3a are shipped
+— generated output left the repo, `body.json` is gone, and reports pre-render
+as layout-free fragments the Worker assembles. §6's corpus gate (`pnpm corpus
+check`) is in, which was the stated precondition for the rest. What remains is
+step 3b: rendering moves into the pinned `@rtm/ingest`, and each report
+publishes its own fragments to R2 + D1 behind a content-hash version pointer,
+through a publish endpoint rather than eleven sets of credentials.
+
 Everything else is optional. The ingestion architecture is built and the
 pipeline is a pinned dependency ([`@rtm/ingest`](https://github.com/reportsthatmatter/ingest));
 ten reports are live, each owning its own build (four added 2026-09-03:
