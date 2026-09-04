@@ -7,6 +7,38 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-04 — The site stops carrying its own output
+
+Report pages were pre-rendered into the repository and committed: 133 MB of
+generated HTML around 2 MB of application code, and **85% of all git history**.
+They are now build output, regenerated in about three seconds and never
+committed.
+
+Along the way, `body.json` is gone. It held every section of a report's HTML in
+one file — 55.5 MB across the archive, 19.0 MB for Leveson alone against a
+25 MiB per-file ceiling — and a shared quote link parsed all of it to quote a
+single paragraph. A shared link now serves the *same* static page as the plain
+URL with only its `<head>` swapped, and takes the quoted words from the one
+section that holds them. Generated output drops from 133 MB to 77 MB, and the
+next report on the list, the Chilcot Inquiry at roughly twice Leveson's length,
+stops being blocked by a file-size limit.
+
+All 31,918 indexed passages were compared against the previously published
+search index and are byte-for-byte identical, so nothing about what search
+finds has changed.
+
+This also closes a latent hazard rather than a theoretical one: a documentation
+commit six days ago had deleted 413 generated files with no replacement,
+leaving `main` with no page artifacts at all for six of the ten reports.
+Deploys upload from disk after a manual pre-render, so the live site was never
+affected — but a deploy from a fresh clone would have dropped those six reports
+off the site. Build output committed to git can drift from what the build
+produces, and this one had.
+
+Background and what comes next: [content publishing](https://github.com/reportsthatmatter/reportsthatmatter/blob/main/docs/plans/2026-09-04-content-publishing.md).
+
+---
+
 ## 2026-09-03 — Four more reports
 
 The archive goes from six reports to ten:

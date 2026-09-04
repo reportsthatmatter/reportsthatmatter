@@ -20,6 +20,11 @@ if ! pnpm wrangler whoami >/dev/null 2>&1; then
   exit 1
 fi
 
+# assets/generated/ is not committed (it is build output, not source), so
+# this is not optional — a deploy without it uploads no report pages at all.
+echo "Pre-rendering reports..."
+pnpm prerender
+
 echo "Deploying Worker..."
 pnpm wrangler deploy
 

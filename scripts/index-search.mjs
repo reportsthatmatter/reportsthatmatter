@@ -1,11 +1,16 @@
 /* Builds the full-text search index (#100) from pre-rendered report bodies.
  *
- *   pnpm index-search              # writes assets/generated/search-index.sql
+ *   pnpm index-search              # writes build/search-index.sql
  *
- * Reads assets/generated/reports/<id>/body.json — the same artifact
- * `pnpm prerender` (#115) writes for serving report pages — so this needs no
- * markdown-it render of its own and can never index text that differs from
- * what a reader actually sees. Writes one SQL file with a DELETE+INSERT per
+ * Reads the pre-rendered section pages `pnpm prerender` (#115) writes — the
+ * same bytes a reader is served — so this needs no markdown-it render of its
+ * own and can never index text that differs from what is on the page.
+ *
+ * Chrome contributes no passages: `extractPassages` only matches `<p id="…">`
+ * and `<ul id="…">`, and the layout puts ids only on `<div>`s
+ * (`report-body`, `share-pop`). tests/passages.test.ts pins that.
+ *
+ * Writes one SQL file with a DELETE+INSERT per
  * report rather than touching D1 directly, so applying it (local or remote)
  * is the same `wrangler d1 execute --file=` step used everywhere else in
  * this project, not a bespoke script with its own credentials path.
@@ -33,13 +38,20 @@ const versions = {};
 let totalPassages = 0;
 
 for (const report of registry.reports) {
-  const bodyPath = join(root, `assets/generated/reports/${report.id}/body.json`);
-  const raw = readFileSync(bodyPath, "utf8");
-  const { sections } = JSON.parse(raw);
+  const reportDir = join(root, `assets/generated/reports/${report.id}`);
+  const meta = JSON.parse(readFileSync(join(reportDir, "meta.json"), "utf8"));
 
   // Content-hashed, not hand-maintained: a version that can drift from what
-  // was actually indexed is the exact defect this is meant to catch.
-  const contentVersion = createHash("sha256").update(raw).digest("hex").slice(0, 12);
+  // was actually indexed is the exact defect this is meant to catch. Hashed
+  // over the section pages in order, which is what is actually indexed.
+  const digest = createHash("sha256");
+  const sections = meta.sections.map((section) => {
+    const html = readFileSync(join(reportDir, `sections/${section.slug}.html`), "utf8");
+    digest.update(section.slug).update("\0").update(html).update("\0");
+    return { title: section.title, html };
+  });
+
+  const contentVersion = digest.digest("hex").slice(0, 12);
   versions[report.id] = contentVersion;
 
   statements.push(`DELETE FROM passages WHERE report = ${sqlString(report.id)};`);
@@ -85,10 +97,13 @@ for (const report of registry.reports) {
   console.log(`  ✓ ${report.id} — ${rows.length.toLocaleString()} passage(s), version ${contentVersion}`);
 }
 
-const outPath = join(root, "assets/generated/search-index.sql");
+// build/, not assets/: this file is an input to `wrangler d1 execute`, never
+// served and never read by the Worker. Under assets/ it was 16.3 MB uploaded
+// with every deploy for nothing.
+const outPath = join(root, "build/search-index.sql");
 mkdirSync(dirname(outPath), { recursive: true });
 writeFileSync(outPath, statements.join("\n\n") + "\n");
-writeFileSync(join(root, "assets/generated/search-index-versions.json"), JSON.stringify(versions));
+writeFileSync(join(root, "build/search-index-versions.json"), JSON.stringify(versions));
 
 console.log(`\n${totalPassages.toLocaleString()} passage(s) across ${registry.reports.length} report(s) → ${outPath}`);
-console.log("Apply with: pnpm wrangler d1 execute reportsthatmatter-marks --local --file=assets/generated/search-index.sql");
+console.log("Apply with: pnpm wrangler d1 execute reportsthatmatter-marks --local --file=build/search-index.sql");

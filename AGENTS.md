@@ -45,6 +45,7 @@ an interactive session.
 | `src/lib/markdown.ts` | Markdown → HTML, paragraph ids, sidenotes, page anchors |
 | `src/lib/sections.ts` | Splitting a rendered report into section pages |
 | `src/lib/prerendered.ts` | Reading pre-rendered report artifacts (ASSETS or disk) |
+| `assets/generated/` | Pre-render output. **Build artifact, not committed** |
 | `src/lib/passages.ts` | Report HTML → citable-unit plain text, for the search index |
 | `src/lib/search.ts` | FTS5 query building, bm25 weights, match → quote-anchor arithmetic |
 | `assets/styles.css` | The design system. Hand-written, no framework |
@@ -185,31 +186,48 @@ the pre-V2 site is served on `old.reportsthatmatter.org` by the same Worker.
 report once and writes the result to `assets/generated/` — static pages for
 `/full` and each section, served straight from Cloudflare's assets, plus small
 per-report metadata the Worker still needs for the contents page, `/sitemap.xml`,
-and a `?p=`/`?h=` quote link. `verify.sh` runs `pnpm prerender` itself, so a
-report or template edit is always reflected in the checks; **run it by hand
-before a bare `wrangler deploy`**, or the deploy will upload whatever
-`assets/generated/` last had committed. This is also why the old bundle-size
-gotcha is gone: report markdown no longer ships inside the Worker script at
-all, bundled or otherwise.
+and a `?p=`/`?h=` quote link. This is also why the old bundle-size gotcha is
+gone: report markdown no longer ships inside the Worker script at all.
+
+⚠️ **`assets/generated/` and `build/` are not committed** — they are build
+output (`docs/plans/2026-09-04-content-publishing.md` §8 step 2). So
+**`pnpm prerender` is not optional before a deploy**: a bare `wrangler deploy`
+from a clean clone uploads no report pages at all. Use
+`./scripts/deploy-cloudflare.sh`, which always pre-renders first. `verify.sh`
+runs it too, so the checks always see current output.
+
+This replaced committing the output, which was 85% of this repo's git history
+and drifted anyway: commit `5435afd`, a documentation commit, deleted 413
+generated files with no additions, leaving `main` with **zero** artifacts for
+six of the ten reports. Production was unaffected only because deploys upload
+from disk after a manual `pnpm prerender` — a fresh-clone deploy would have
+dropped those reports off the site.
+
+**There is no `body.json`.** A `?p=`/`?h=` link serves the *same* static page
+as the plain URL with only its `<head>` replaced (`replaceHead` in
+`src/templates/layout.ts`); the quoted passage comes from the one section that
+holds the paragraph, via `meta.paragraphToSection`. `tests/head.test.ts` pins
+the invariant that the body is byte-identical either way — if a template
+change ever makes the body depend on `?p=`, that test fails, because the
+dynamic path would then be serving a stale body.
 
 **Full-text search's index lives in D1** (#100,
 `docs/plans/2026-08-21-search-decisions.md`), the same `reportsthatmatter-marks`
-database #96 uses. `pnpm index-search` reads `assets/generated/` (so it needs
-`pnpm prerender` to have already run) and writes
-`assets/generated/search-index.sql`; apply it with `wrangler d1 execute
-reportsthatmatter-marks --local --file=assets/generated/search-index.sql`.
+database #96 uses. `pnpm index-search` reads the pre-rendered section pages in
+`assets/generated/` (so it needs `pnpm prerender` to have already run) and
+writes `build/search-index.sql` — `build/`, not `assets/`, because it is an
+input to `wrangler d1 execute` that is never served and was 16.3 MB uploaded
+with every deploy for nothing. Apply it with `wrangler d1 execute
+reportsthatmatter-marks --local --file=build/search-index.sql`.
 
-⚠️ **`--remote --file` does not work with the current login.** It uses D1's
-*import* API and returns `Authentication error [code: 10000]`, while remote
-queries authenticate fine. Until a `pnpm wrangler login` picks up that scope,
-apply to production by splitting the file on blank lines and sending each
-statement through `--command` — 208 of them as of six reports, and it takes a
-few minutes. Verified working 2026-08-29 (#118). `verify.sh` does both
-against local D1 on every run — **do the same against `--remote` by hand
-before deploying a change that touches report content**, or search keeps
-serving whatever it last indexed. `content_version` in `search_index_versions`
-is a hash of the indexed `body.json`, not hand-maintained, so it can't drift
-from what was actually indexed even if a step gets skipped.
+`--remote --file` works (verified 2026-09-03, ~221k changes in one call); the
+older `--command`-splitting workaround for `Authentication error [code: 10000]`
+is obsolete — see #123. `verify.sh` applies the index to local D1 on every run
+— **do the same against `--remote` by hand before deploying a change that
+touches report content**, or search keeps serving whatever it last indexed.
+`content_version` in `search_index_versions` is a hash of the indexed section
+pages, not hand-maintained, so it can't drift from what was actually indexed
+even if a step gets skipped.
 
 ## Gotchas
 

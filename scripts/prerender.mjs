@@ -11,12 +11,17 @@
  * marked passages" block, both cheap and both covered in `src/index.ts`.
  *
  * Output layout, per report:
- *   meta.json          — words, section list (no html), paragraph→section
- *                         lookup. Small; loaded on every request.
- *   body.json           — { html, sections } with full html. Large; loaded
- *                         only for a `?p=`/`?h=` link or a marked passage.
+ *   meta.json            — words, section list (no html), paragraph→section
+ *                          lookup. Small; loaded on every request.
  *   full.html            — the complete static page for /reports/<id>/full.
  *   sections/<slug>.html — the complete static page for /reports/<id>/<slug>.
+ *
+ * There is deliberately no `body.json` holding every section's html at once.
+ * It was 55.5 MB across ten reports (19.0 MB for Leveson alone, against a
+ * 25 MiB per-asset ceiling), and a `?p=` link parsed all of it to quote one
+ * paragraph. `meta.paragraphToSection` names the section holding any
+ * paragraph, so the section page answers the same question — see
+ * docs/plans/2026-09-04-content-publishing.md §8 step 1.
  *
  * Plus sitemap-urls.json, the section-level entries /sitemap.xml no longer
  * has to render all four reports to produce.
@@ -66,7 +71,6 @@ for (const report of registry.reports) {
   };
 
   writeJSON(join(outDir, `reports/${report.id}/meta.json`), meta);
-  writeJSON(join(outDir, `reports/${report.id}/body.json`), { html, sections });
   writeText(join(outDir, `reports/${report.id}/full.html`), renderReport(report, html));
 
   for (let i = 0; i < sections.length; i++) {

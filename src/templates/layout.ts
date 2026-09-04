@@ -16,34 +16,38 @@ const DEFAULT_NAV: NavLink[] = [
   { label: "Changelog", href: "/changelog" },
 ];
 
-type LayoutOptions = {
-  navLinks?: NavLink[];
+export const DEFAULT_DESCRIPTION =
+  "Reports that Matter turns hard-to-access public reports into searchable, readable, linkable web pages.";
+
+/** Everything in a page's `<head>` that varies between pages. */
+export type HeadOptions = {
   description?: string;
-  scripts?: string[];
   /** Absolute or root-relative share image. */
   image?: string;
   /** JSON-LD, already serialised. */
   structuredData?: string;
 };
 
-export function renderLayout(
-  title: string,
-  body: string,
-  options: LayoutOptions = {}
-): string {
-  const {
-    navLinks = DEFAULT_NAV,
-    description = "Reports that Matter turns hard-to-access public reports into searchable, readable, linkable web pages.",
-    scripts = [],
-    image,
-    structuredData,
-  } = options;
+type LayoutOptions = HeadOptions & {
+  navLinks?: NavLink[];
+  scripts?: string[];
+};
 
-  const nav = navLinks.length
-    ? `<nav class="site-nav mono">${navLinks
-        .map((link) => `<a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`)
-        .join("")}</nav>`
-    : "";
+/** Marks the end of what `renderHead` produces — see `replaceHead`. */
+export const HEAD_END = "</head>";
+
+/**
+ * A page's `<!doctype>` through `</head>`.
+ *
+ * Split out from `renderLayout` because a `?p=`/`?h=` request serves the
+ * *pre-rendered* page with only its preview metadata changed (#115, and the
+ * content-publishing plan §8 step 1): the body is byte-identical to the
+ * static file, so the dynamic path swaps this prefix rather than re-rendering
+ * a multi-megabyte report. Keeping one implementation is what stops the
+ * shared-link head and the static head drifting apart.
+ */
+export function renderHead(title: string, options: HeadOptions = {}): string {
+  const { description = DEFAULT_DESCRIPTION, image, structuredData } = options;
 
   return `<!doctype html>
 <html lang="en">
@@ -65,7 +69,35 @@ ${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta na
 <link rel="apple-touch-icon" href="/assets/brand/logo-180.png" />
 <link rel="stylesheet" href="/assets/styles.css" />
 ${structuredData ? `<script type="application/ld+json">${structuredData}</script>` : ""}
-</head>
+${HEAD_END}`;
+}
+
+/**
+ * Swaps a pre-rendered page's head for one carrying a shared passage's
+ * preview, leaving the body untouched.
+ *
+ * Returns the page unchanged if it has no `</head>` — a page that is not
+ * shaped like one of ours is better served as-is than truncated.
+ */
+export function replaceHead(page: string, head: string): string {
+  const end = page.indexOf(HEAD_END);
+  return end === -1 ? page : head + page.slice(end + HEAD_END.length);
+}
+
+export function renderLayout(
+  title: string,
+  body: string,
+  options: LayoutOptions = {}
+): string {
+  const { navLinks = DEFAULT_NAV, scripts = [], ...head } = options;
+
+  const nav = navLinks.length
+    ? `<nav class="site-nav mono">${navLinks
+        .map((link) => `<a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`)
+        .join("")}</nav>`
+    : "";
+
+  return `${renderHead(title, head)}
 <body>
 <header class="site-header wrap">
   <a class="wordmark" href="/">

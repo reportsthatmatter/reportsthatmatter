@@ -1,16 +1,53 @@
-import { renderLayout, escapeHtml } from "./layout";
+import { renderLayout, renderHead, escapeHtml } from "./layout";
 import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
 import type { Section } from "../lib/sections";
 import type { ReportMeta } from "./report";
-import { quotedPassage } from "./report";
+import { quotedPassage, truncate } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
 
-function truncate(text: string, limit: number): string {
-  if (text.length <= limit) return text;
-  const cut = text.slice(0, limit);
-  const lastSpace = cut.lastIndexOf(" ");
-  return `${cut.slice(0, lastSpace > limit * 0.6 ? lastSpace : limit)}…`;
+/** What a section's preview metadata needs — not its html. */
+type SectionRef = Pick<Section, "slug" | "title">;
+
+/**
+ * The title, description and share image for one section page.
+ *
+ * Takes the quoted text rather than deriving it, for the same reason
+ * `reportPreview` does: the `?p=` path extracts it from the section it is
+ * already serving, never from the whole report.
+ */
+export function sectionPreview(
+  meta: ReportMeta,
+  section: SectionRef,
+  quoted: string | null,
+  highlighted?: string
+): { title: string; description: string; image?: string; structuredData: string } {
+  const reportPath = `/reports/${meta.id ?? ""}`;
+  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
+
+  return {
+    title: `${section.title} — ${meta.title} — Reports that Matter`,
+    description: quoted
+      ? `“${truncate(quoted, 280)}” — ${meta.title}`
+      : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`,
+    image: cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined,
+    structuredData: breadcrumbJsonLd([
+      { name: "Reports", path: "/reports" },
+      { name: meta.title, path: reportPath },
+      { name: section.title, path: `${reportPath}/${section.slug}` },
+    ]),
+  };
+}
+
+/** That preview as a `<head>`, for splicing onto the pre-rendered page. */
+export function sectionHead(
+  meta: ReportMeta,
+  section: SectionRef,
+  quoted: string | null,
+  highlighted?: string
+): string {
+  const { title, ...head } = sectionPreview(meta, section, quoted, highlighted);
+  return renderHead(title, head);
 }
 
 /** A passage other readers marked, ready to show back (#96). */
@@ -123,12 +160,12 @@ export function renderSection(
   const reportPath = `/reports/${meta.id ?? ""}`;
 
   const quoted = highlighted ? quotedPassage(section.html, highlighted, anchor) : null;
-  const description = quoted
-    ? `“${truncate(quoted, 280)}” — ${meta.title}`
-    : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`;
-
-  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
-  const image = cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined;
+  const { title, description, image, structuredData } = sectionPreview(
+    meta,
+    section,
+    quoted,
+    highlighted
+  );
 
   const body = `
 <main>
@@ -160,14 +197,10 @@ export function renderSection(
   <button type="button" data-action="save">Save</button>
 </div>`;
 
-  return renderLayout(`${section.title} — ${meta.title} — Reports that Matter`, body, {
+  return renderLayout(title, body, {
     description,
     scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
-    structuredData: breadcrumbJsonLd([
-      { name: "Reports", path: "/reports" },
-      { name: meta.title, path: reportPath },
-      { name: section.title, path: `${reportPath}/${section.slug}` },
-    ]),
+    structuredData,
   });
 }
