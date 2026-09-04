@@ -28,6 +28,11 @@ The archive goes from six reports to ten:
 Each report keeps its own repository under the `reportsthatmatter`
 organisation, holding the source PDF and the definition it is built from.
 
+![United States v. Philip Morris — the contents page of a 1,682-page opinion](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-03-four-more-reports/us-v-philip-morris-contents.png)
+
+Before/after for all four — including where Hillsborough's sectioning falls
+short — is in the [visual changelog](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-03--four-more-reports-911-commission-deepwater-horizon-philip-morris-hillsborough).
+
 ---
 
 ## 2026-09-01 — The Litvinenko report stops quoting itself
