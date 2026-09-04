@@ -122,7 +122,7 @@ else
   fi
 
   if pnpm index-search >/tmp/rtm-index-search.log 2>&1; then
-    if pnpm wrangler d1 execute reportsthatmatter-marks --local --file=assets/generated/search-index.sql >/tmp/rtm-index-apply.log 2>&1; then
+    if pnpm wrangler d1 execute reportsthatmatter-marks --local --file=build/search-index.sql >/tmp/rtm-index-apply.log 2>&1; then
       pass "search index built and applied"
     else
       fail "applying the search index"

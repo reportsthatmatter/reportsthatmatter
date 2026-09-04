@@ -2,21 +2,24 @@ import { Hono } from "hono";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
-import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
+import { renderReport, reportHead, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
-import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
+import { renderReportOverview, renderSection, sectionHead, type TopPassage } from "./templates/section";
 import { renderSearch, renderSnippet, type SearchResultView } from "./templates/search";
 import { encodeAnchor, selectorFor } from "../assets/anchor.js";
 import {
   openGenerated,
   loadReportMeta,
-  loadReportBody,
+  loadGeneratedText,
+  loadSectionPage,
+  loadQuotedPassage,
   type AssetsBinding,
   type PrerenderMeta,
 } from "./lib/prerendered";
+import { replaceHead } from "./templates/layout";
 import {
   actorHash,
   markCounts,
@@ -355,8 +358,9 @@ app.get("/changelog", async (c) => {
  * A report's registry entry plus its pre-rendered metadata (#115) — words,
  * the section list, and a paragraph → section lookup. Cheap: no report body
  * html, which is what made rendering this expensive in the first place. The
- * body itself, when a route actually needs it, is a separate fetch —
- * `loadReportBody` from ./lib/prerendered.
+ * body itself, when a route actually needs it, is a separate fetch of the
+ * one *section* that holds the paragraph — `loadQuotedPassage` from
+ * ./lib/prerendered.
  */
 async function loadReportEntry(
   c: any,
@@ -530,18 +534,31 @@ async function topMarkedPassages(
     const counts = await markCounts(db, reportId, threshold);
     if (!counts.length) return [];
 
-    const body = await loadReportBody(env?.ASSETS, reportId);
-    if (!body) return [];
+    // One section page per distinct section, not the whole report: the five
+    // passages shown here used to cost a 19 MB `body.json` parse between them.
+    // Capped, because a marked paragraph whose id has moved since costs a
+    // fetch and yields nothing.
+    const MAX_SECTION_FETCHES = 8;
+    const pages = new Map<string, string | null>();
 
     const top: TopPassage[] = [];
     for (const row of counts) {
       if (top.length >= LIMIT) break;
       const slug = meta.paragraphToSection[row.paragraph];
-      const paragraph = extractParagraph(body.html, row.paragraph);
-      if (!slug || !paragraph) continue;
+      if (!slug) continue;
+
+      if (!pages.has(slug)) {
+        if (pages.size >= MAX_SECTION_FETCHES) break;
+        pages.set(slug, await loadSectionPage(env?.ASSETS, reportId, slug));
+      }
+      const page = pages.get(slug);
+      if (!page) continue;
+
+      const paragraph = extractParagraph(page, row.paragraph);
+      if (!paragraph) continue;
 
       const anchor = encodeAnchor({ prefix: row.prefix, exact: row.exact, suffix: row.suffix });
-      const quote = anchor ? quotedPassage(body.html, row.paragraph, anchor) : paragraph;
+      const quote = anchor ? quotedPassage(page, row.paragraph, anchor) : paragraph;
       if (!quote) continue;
 
       const query = anchor ? `&h=${anchor}` : "";
@@ -583,12 +600,21 @@ app.get("/reports/:id/full", async (c) => {
     return page ?? c.html(renderNotFound(false), 404);
   }
 
+  // The page is the same static file the common case serves; only the preview
+  // metadata in <head> depends on ?p=/?h= (src/templates/report.ts), so the
+  // dynamic path swaps the head rather than re-rendering the report.
   return cached(c, async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
-    const body = await loadReportBody(c.env?.ASSETS, reportId);
-    if (!body) return c.html(renderNotFound(false), 404);
-    return c.html(renderReport(loaded.report, body.html, p, h));
+
+    const page = await loadGeneratedText(c.env?.ASSETS, `reports/${reportId}/full.html`);
+    if (!page) return c.html(renderNotFound(false), 404);
+
+    const quoted = p
+      ? await loadQuotedPassage(c.env?.ASSETS, reportId, loaded.meta, p, h)
+      : null;
+
+    return c.html(replaceHead(page, reportHead(loaded.report, quoted, p)));
   });
 });
 
@@ -603,16 +629,20 @@ app.get("/reports/:id/:section", async (c) => {
     return page ?? c.html(renderNotFound(false), 404);
   }
 
+  // One fetch: the page being served is also the page the quote comes from.
   return cached(c, async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
-    const body = await loadReportBody(c.env?.ASSETS, reportId);
-    if (!body) return c.html(renderNotFound(false), 404);
 
-    const index = body.sections.findIndex((section) => section.slug === slug);
-    if (index === -1) return c.html(renderNotFound(false), 404);
+    const section = loaded.meta.sections.find((entry) => entry.slug === slug);
+    if (!section) return c.html(renderNotFound(false), 404);
 
-    return c.html(renderSection(loaded.report, body.sections, index, p, h));
+    const page = await loadSectionPage(c.env?.ASSETS, reportId, slug);
+    if (!page) return c.html(renderNotFound(false), 404);
+
+    const quoted = p ? quotedPassage(page, p, h) : null;
+
+    return c.html(replaceHead(page, sectionHead(loaded.report, section, quoted, p)));
   });
 });
 

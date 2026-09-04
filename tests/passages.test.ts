@@ -2,6 +2,18 @@ import { describe, expect, it } from "vitest";
 import { extractPassages } from "../src/lib/passages";
 
 describe("extractPassages", () => {
+  // scripts/index-search.mjs reads whole pre-rendered *pages*, not bare
+  // section html, so the layout's own markup must contribute no passages.
+  it("finds nothing in the site chrome around a report", async () => {
+    const { renderLayout } = await import("../src/templates/layout");
+    const chromeOnly = renderLayout("A title", "<main><article></article></main>", {
+      scripts: ["/assets/share.js"],
+    });
+
+    expect(extractPassages(chromeOnly)).toEqual([]);
+  });
+
+
   it("pulls the plain text out of every paragraph", () => {
     const html =
       '<p id="alpha">Alpha text here.<a class="permalink" href="#alpha">¶</a></p>' +

@@ -1,4 +1,4 @@
-import { renderLayout, escapeHtml } from "./layout";
+import { renderLayout, renderHead, escapeHtml } from "./layout";
 import { decodeAnchor, locate } from "../../assets/anchor.js";
 import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
@@ -60,11 +60,58 @@ export function quotedPassage(
   return found ? paragraph.slice(found.start, found.end) : paragraph;
 }
 
-function truncate(text: string, limit: number): string {
+export function truncate(text: string, limit: number): string {
   if (text.length <= limit) return text;
   const cut = text.slice(0, limit);
   const lastSpace = cut.lastIndexOf(" ");
   return `${cut.slice(0, lastSpace > limit * 0.6 ? lastSpace : limit)}…`;
+}
+
+/**
+ * Only advertise a card that exists — an og:image pointing at a 404 is worse
+ * than no image at all.
+ */
+function shareImage(meta: ReportMeta, highlighted?: string): string | undefined {
+  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
+  return cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined;
+}
+
+/**
+ * The title, description and share image for a report's `/full` page.
+ *
+ * A link shared into a feed is judged entirely on its preview. When the link
+ * points at a passage, the preview should be that passage — not boilerplate
+ * about the site.
+ *
+ * Takes the quoted text rather than deriving it, so that the `?p=` request
+ * path can extract it from the *section* holding the paragraph (≤0.7 MB)
+ * instead of the whole report (up to 19 MB) — see the content-publishing
+ * plan §8 step 1.
+ */
+export function reportPreview(
+  meta: ReportMeta,
+  quoted: string | null,
+  highlighted?: string
+): { title: string; description: string; image?: string } {
+  const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
+
+  return {
+    title: `${meta.title} — Reports that Matter`,
+    description: quoted
+      ? `“${truncate(quoted, 280)}” — ${meta.title}`
+      : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
+    image: shareImage(meta, highlighted),
+  };
+}
+
+/** That preview as a `<head>`, for splicing onto the pre-rendered page. */
+export function reportHead(
+  meta: ReportMeta,
+  quoted: string | null,
+  highlighted?: string
+): string {
+  const { title, ...head } = reportPreview(meta, quoted, highlighted);
+  return renderHead(title, head);
 }
 
 export function renderReport(
@@ -76,14 +123,8 @@ export function renderReport(
   anchor?: string
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
-
-  // A link shared into a feed is judged entirely on its preview. When the link
-  // points at a passage, the preview should be that passage — not boilerplate
-  // about the site.
   const quoted = highlighted ? quotedPassage(html, highlighted, anchor) : null;
-  const description = quoted
-    ? `“${truncate(quoted, 280)}” — ${meta.title}`
-    : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
+  const { title, description, image } = reportPreview(meta, quoted, highlighted);
 
   const body = `
 <main>
@@ -115,12 +156,7 @@ export function renderReport(
   <button type="button" data-action="save">Save</button>
 </div>`;
 
-  // Only advertise a card that exists — an og:image pointing at a 404 is worse
-  // than no image at all.
-  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
-  const image = cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined;
-
-  return renderLayout(`${meta.title} — Reports that Matter`, body, {
+  return renderLayout(title, body, {
     description,
     scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
