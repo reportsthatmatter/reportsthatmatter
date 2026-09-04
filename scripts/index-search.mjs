@@ -46,7 +46,7 @@ for (const report of registry.reports) {
   // over the section pages in order, which is what is actually indexed.
   const digest = createHash("sha256");
   const sections = meta.sections.map((section) => {
-    const html = readFileSync(join(reportDir, `sections/${section.slug}.html`), "utf8");
+    const html = readFileSync(join(reportDir, `fragments/${section.slug}.html`), "utf8");
     digest.update(section.slug).update("\0").update(html).update("\0");
     return { title: section.title, html };
   });

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { renderHead, replaceHead, renderLayout } from "../src/templates/layout";
+import { renderHead, renderLayout } from "../src/templates/layout";
 import { app } from "../src/index";
 
 describe("renderHead", () => {
@@ -17,30 +17,11 @@ describe("renderHead", () => {
   });
 });
 
-describe("replaceHead", () => {
-  it("swaps the head and leaves the body byte-identical", () => {
-    const page = renderLayout("Old", "<main>the body</main>", { description: "Old" });
-    const swapped = replaceHead(page, renderHead("New", { description: "New" }));
-
-    expect(swapped).toContain('<meta name="description" content="New"');
-    expect(swapped).not.toContain('content="Old"');
-    expect(swapped.slice(swapped.indexOf("<body>"))).toBe(
-      page.slice(page.indexOf("<body>"))
-    );
-  });
-
-  it("leaves a page with no head alone rather than truncating it", () => {
-    expect(replaceHead("<p>not one of ours</p>", "<head></head>")).toBe(
-      "<p>not one of ours</p>"
-    );
-  });
-});
-
 /**
- * The property the whole `?p=` path rests on: the shared-link page differs
- * from the pre-rendered one *only* in its head. If a template change ever
- * makes the body depend on `?p=`/`?h=` again, this fails — which is the
- * point, because the dynamic path would then be serving a stale body.
+ * The property the `?p=` path rests on: a shared link differs from the plain
+ * page *only* in its head. Pages are assembled from a layout-free fragment
+ * now (content-publishing plan §2), so this is what pins the body as
+ * independent of the query string.
  */
 describe("a shared link serves the pre-rendered body", () => {
   const bodyOf = (html: string) => html.slice(html.indexOf("<body>"));

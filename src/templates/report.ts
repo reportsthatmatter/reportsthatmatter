@@ -1,4 +1,4 @@
-import { renderLayout, renderHead, escapeHtml } from "./layout";
+import { renderLayout, escapeHtml } from "./layout";
 import { decodeAnchor, locate } from "../../assets/anchor.js";
 import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
@@ -102,16 +102,6 @@ export function reportPreview(
       : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
     image: shareImage(meta, highlighted),
   };
-}
-
-/** That preview as a `<head>`, for splicing onto the pre-rendered page. */
-export function reportHead(
-  meta: ReportMeta,
-  quoted: string | null,
-  highlighted?: string
-): string {
-  const { title, ...head } = reportPreview(meta, quoted, highlighted);
-  return renderHead(title, head);
 }
 
 export function renderReport(

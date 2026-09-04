@@ -47,7 +47,7 @@ function fingerprint(reportId) {
   const meta = JSON.parse(readFileSync(join(dir, "meta.json"), "utf8"));
 
   const sections = meta.sections.map((section) => {
-    const html = readFileSync(join(dir, `sections/${section.slug}.html`), "utf8");
+    const html = readFileSync(join(dir, `fragments/${section.slug}.html`), "utf8");
     const ids = extractPassages(html).map((passage) => passage.paragraphId);
     return { slug: section.slug, title: section.title, paragraphs: ids.length, ids: sha(ids.join("\n")) };
   });

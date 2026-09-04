@@ -2,24 +2,23 @@ import { Hono } from "hono";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
-import { renderReport, reportHead, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
+import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
-import { renderReportOverview, renderSection, sectionHead, type TopPassage } from "./templates/section";
+import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
 import { renderSearch, renderSnippet, type SearchResultView } from "./templates/search";
 import { encodeAnchor, selectorFor } from "../assets/anchor.js";
 import {
   openGenerated,
   loadReportMeta,
-  loadGeneratedText,
-  loadSectionPage,
+  loadFragment,
+  loadFullBody,
   loadQuotedPassage,
   type AssetsBinding,
   type PrerenderMeta,
 } from "./lib/prerendered";
-import { replaceHead } from "./templates/layout";
 import {
   actorHash,
   markCounts,
@@ -549,7 +548,7 @@ async function topMarkedPassages(
 
       if (!pages.has(slug)) {
         if (pages.size >= MAX_SECTION_FETCHES) break;
-        pages.set(slug, await loadSectionPage(env?.ASSETS, reportId, slug));
+        pages.set(slug, await loadFragment(env?.ASSETS, reportId, slug));
       }
       const page = pages.get(slug);
       if (!page) continue;
@@ -576,18 +575,21 @@ async function topMarkedPassages(
 }
 
 /**
- * The common case — no `?p=`/`?h=` — is a literal static page (#115),
- * byte-identical to what `render` would produce, served straight from
- * ASSETS with no per-request render at all. Returns null if there is no
- * such pre-rendered page, so the caller can 404.
+ * Only a shared quote link goes through the day-long edge cache.
+ *
+ * `cached()` stores in `caches.default` and does not invalidate on deploy —
+ * tolerable for a `?p=` link's preview, and not for the canonical page, which
+ * would then serve a re-ingested report's old text for up to a day. The
+ * canonical page is assembled fresh instead: one fragment read and a string
+ * concatenation, against a request `run_worker_first = true` never let skip
+ * the Worker anyway.
  */
-async function servePrerendered(assets: AssetsBinding | undefined, path: string): Promise<Response | null> {
-  const page = await openGenerated(assets, path);
-  if (!page) return null;
-  return new Response(page.body, {
-    status: 200,
-    headers: { "content-type": "text/html; charset=utf-8" },
-  });
+function maybeCached(
+  c: any,
+  shared: boolean,
+  render: () => Promise<Response>
+): Promise<Response> {
+  return shared ? cached(c, render) : render();
 }
 
 app.get("/reports/:id/full", async (c) => {
@@ -595,26 +597,14 @@ app.get("/reports/:id/full", async (c) => {
   const p = c.req.query("p");
   const h = c.req.query("h");
 
-  if (!p && !h) {
-    const page = await servePrerendered(c.env?.ASSETS, `reports/${reportId}/full.html`);
-    return page ?? c.html(renderNotFound(false), 404);
-  }
-
-  // The page is the same static file the common case serves; only the preview
-  // metadata in <head> depends on ?p=/?h= (src/templates/report.ts), so the
-  // dynamic path swaps the head rather than re-rendering the report.
-  return cached(c, async () => {
+  return maybeCached(c, Boolean(p || h), async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
 
-    const page = await loadGeneratedText(c.env?.ASSETS, `reports/${reportId}/full.html`);
-    if (!page) return c.html(renderNotFound(false), 404);
+    const body = await loadFullBody(c.env?.ASSETS, reportId);
+    if (body === null) return c.html(renderNotFound(false), 404);
 
-    const quoted = p
-      ? await loadQuotedPassage(c.env?.ASSETS, reportId, loaded.meta, p, h)
-      : null;
-
-    return c.html(replaceHead(page, reportHead(loaded.report, quoted, p)));
+    return c.html(renderReport(loaded.report, body, p, h));
   });
 });
 
@@ -624,25 +614,17 @@ app.get("/reports/:id/:section", async (c) => {
   const p = c.req.query("p");
   const h = c.req.query("h");
 
-  if (!p && !h) {
-    const page = await servePrerendered(c.env?.ASSETS, `reports/${reportId}/sections/${slug}.html`);
-    return page ?? c.html(renderNotFound(false), 404);
-  }
-
-  // One fetch: the page being served is also the page the quote comes from.
-  return cached(c, async () => {
+  return maybeCached(c, Boolean(p || h), async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
 
-    const section = loaded.meta.sections.find((entry) => entry.slug === slug);
-    if (!section) return c.html(renderNotFound(false), 404);
+    const index = loaded.meta.sections.findIndex((entry) => entry.slug === slug);
+    if (index === -1) return c.html(renderNotFound(false), 404);
 
-    const page = await loadSectionPage(c.env?.ASSETS, reportId, slug);
-    if (!page) return c.html(renderNotFound(false), 404);
+    const fragment = await loadFragment(c.env?.ASSETS, reportId, slug);
+    if (fragment === null) return c.html(renderNotFound(false), 404);
 
-    const quoted = p ? quotedPassage(page, p, h) : null;
-
-    return c.html(replaceHead(page, sectionHead(loaded.report, section, quoted, p)));
+    return c.html(renderSection(loaded.report, loaded.meta.sections, index, fragment, p, h));
   });
 });
 

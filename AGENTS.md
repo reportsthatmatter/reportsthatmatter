@@ -45,7 +45,7 @@ an interactive session.
 | `src/lib/markdown.ts` | Markdown → HTML, paragraph ids, sidenotes, page anchors |
 | `src/lib/sections.ts` | Splitting a rendered report into section pages |
 | `src/lib/prerendered.ts` | Reading pre-rendered report artifacts (ASSETS or disk) |
-| `assets/generated/` | Pre-render output. **Build artifact, not committed** |
+| `assets/generated/` | Pre-render output: layout-free fragments. **Not committed** |
 | `src/lib/passages.ts` | Report HTML → citable-unit plain text, for the search index |
 | `src/lib/search.ts` | FTS5 query building, bm25 weights, match → quote-anchor arithmetic |
 | `assets/styles.css` | The design system. Hand-written, no framework |
@@ -216,13 +216,18 @@ six of the ten reports. Production was unaffected only because deploys upload
 from disk after a manual `pnpm prerender` — a fresh-clone deploy would have
 dropped those reports off the site.
 
-**There is no `body.json`.** A `?p=`/`?h=` link serves the *same* static page
-as the plain URL with only its `<head>` replaced (`replaceHead` in
-`src/templates/layout.ts`); the quoted passage comes from the one section that
-holds the paragraph, via `meta.paragraphToSection`. `tests/head.test.ts` pins
-the invariant that the body is byte-identical either way — if a template
-change ever makes the body depend on `?p=`, that test fails, because the
-dynamic path would then be serving a stale body.
+**Artifacts are layout-free fragments, and the Worker assembles the page.**
+`pnpm prerender` writes `fragments/<slug>.html` (one section's body) and
+`full-body.html` (the whole report's), with no site chrome in either. The
+layout belongs to the app, the content belongs to the report — so a template
+change dirties no report artifact, and a report can be republished without an
+app deploy (content-publishing plan §2). `run_worker_first = true` means the
+Worker ran on every request anyway, so assembly costs a string concatenation.
+
+A `?p=`/`?h=` link differs from the plain page only in `<head>`;
+`tests/head.test.ts` pins that. Only the shared-link variants go through
+`cached()` — it does not invalidate on deploy, which is fine for a quote
+link's preview and would be a day of stale text on the canonical page.
 
 **Full-text search's index lives in D1** (#100,
 `docs/plans/2026-08-21-search-decisions.md`), the same `reportsthatmatter-marks`
