@@ -2,6 +2,77 @@
 
 One entry per work session. Newest first.
 
+## 2026-09-04/05 — Content publishing: the site stops carrying report data
+
+The arc: `docs/plans/2026-09-04-content-publishing.md`, written after Rufus
+asked why deploying the app also deployed every report's text. Landed across
+five PRs on the site (#131, #133, #134, #135, #136) plus three on
+`@rtm/ingest` (#4, #6, #8), each verified against production before moving
+on, not just against local tests.
+
+**Fragments, not whole pages** (#131). `pnpm prerender` used to bake the
+site's layout into every artifact, so a CSS change dirtied 601 files. It now
+writes layout-free content (`fragments/<slug>.html`, `full-body.html`); the
+Worker assembles the page. Verified byte-identical to the old output before
+calling it done — 578 pages, zero diffs.
+
+**Publish to R2 without a deploy** (#133, #134). A `report_versions` row in
+D1 pins a content hash; a report with no row falls back to the deploy's own
+copy, which is what made this safe to ship before anything used it.
+`pnpm publish-report <id>` writes objects then flips the pointer — one
+`UPDATE`, so a publish is atomic and rollback is the same statement with an
+old hash. The commit endpoint re-derives the hash from the manifest and reads
+every object back before it writes the pointer, so it cannot point at a
+version that would 404. All ten reports published same day; verified via
+`x-rtm-content-version` on each.
+
+**Rendering moved into `@rtm/ingest`** (#136, v0.12.1). `paragraphId()` —
+what a citation actually resolves through — used to live in the site, one
+stage downstream of anything a report's own `baseline.json` covered. An
+id-affecting edit there could have repointed every citation in the archive
+with nothing to catch it. `pnpm corpus check` (#130, earlier the same day)
+closed that gap first, fingerprinting every report's citable ids; only after
+it existed did rendering actually move.
+
+**Two follow-on defects, found and fixed rather than shipped around:**
+
+- `@rtm/ingest` v0.12.0's `dist` emitted relative imports with no `.js`
+  extension — fine under `tsc`/`tsx`, invalid under Node's own resolver,
+  which is what a real consumer gets. Caught because the site's test suite
+  failed to *load*, not to pass. Fixed in v0.12.1
+  (`scripts/fix-extensions.mjs`), verified against plain `node`.
+- `detectGutter`/`splitColumns` (ingest#2, four tests red since introduction,
+  never actually green): no tolerance for a gutter's position drifting a
+  character (a two-digit line number is enough), and the right column had no
+  per-line adjustment the left column already had, which could truncate its
+  leading letter on a short line. Fixed in v0.12.2. Checked against the real
+  corpus before shipping, not just the fix's own fixtures: zero live reports
+  affected, confirmed by grepping the exact truncated-word pattern before and
+  after. No changelog entry for this one — real defect, zero visible effect.
+
+**Report repos can now publish themselves** (ingest#6, v0.12.3). The pure
+hashing/token logic (`contentHash`, `manifestFor`, `tokenFor`, `authorises`,
+…) moved into the library — it never had a site-specific dependency — and a
+new `rtm-publish` CLI runs it against a report's own `full.md`. Verified for
+real, not left half-wired: `challenger-accident` bumped its own pin,
+published itself, and produced the **exact same content hash** the site's
+own build had already produced from the same source — two independent
+renders converging on one hash, which can only happen if every byte matches.
+Confirmed live afterward.
+
+**Decided rather than left open:** `assets/generated/` stays as the deploy's
+fallback. The costs that motivated the whole plan — git history, coupled
+publish cadence — are already fixed independent of it; what's left is a few
+seconds per deploy, and it's the reason a real incident (a docs commit that
+deleted 413 generated files) stayed invisible instead of live. Written into
+§8 rather than left as a question.
+
+**Docs:** AGENTS.md's Deploy section rewritten into one concrete
+step-by-step covering both publish paths, with the sharp edge stated up
+front — a published report is not touched by an app deploy, so it can go
+stale relative to its own repo until explicitly republished. `@rtm/ingest`'s
+README got the same account from the library side.
+
 ## 2026-09-03 — Four more reports ingested and shipped
 
 Took the archive from six reports to ten. Picks came off the issue tracker,
