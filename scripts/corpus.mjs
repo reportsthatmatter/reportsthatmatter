@@ -5,11 +5,12 @@
  *
  * `pnpm ingest check` already covers each report's *markdown* against the
  * `baseline.json` in its own repo. Nothing covered what happens after it.
- * Paragraph ids are produced by `src/lib/markdown.ts` — in *this* repo, one
- * stage downstream of anything a report has a pin on — so an edit to
- * `paragraphId()` can repoint every citation in the archive and no gate
- * anywhere would see it. AGENTS.md says paragraph ids are the product; they
- * were the least governed artifact in the system.
+ * Paragraph ids used to be produced in *this* repo, one stage downstream of
+ * anything a report had a pin on, so an edit to `paragraphId()` could repoint
+ * every citation in the archive with no gate anywhere. Rendering now lives in
+ * the pinned `@rtm/ingest` (v0.12.0), so an id-affecting change is a release a
+ * report adopts deliberately — and this check is what says whether adopting
+ * one moved anything.
  *
  * This is that gate, and it is deliberately corpus-wide: the failure it
  * exists for is "a fix aimed at one report silently changed three others",
@@ -28,7 +29,7 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
 import { parse } from "yaml";
-import { extractPassages } from "../src/lib/passages.ts";
+import { extractPassages } from "@rtm/ingest";
 
 const root = join(import.meta.dirname, "..");
 const BASELINE = join(root, "reports/corpus-baseline.json");

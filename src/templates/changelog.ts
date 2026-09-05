@@ -1,5 +1,5 @@
 import { renderLayout } from "./layout";
-import { renderMarkdown } from "../lib/markdown";
+import { renderMarkdown } from "@rtm/ingest";
 
 /**
  * Renders docs/CHANGELOG.md.

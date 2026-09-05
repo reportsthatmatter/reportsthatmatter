@@ -22,7 +22,7 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
-import { extractPassages } from "../src/lib/passages.ts";
+import { extractPassages } from "@rtm/ingest";
 
 const root = join(import.meta.dirname, "..");
 

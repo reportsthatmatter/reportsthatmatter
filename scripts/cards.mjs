@@ -12,7 +12,7 @@ import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
 import { renderCard } from "../src/templates/card.ts";
-import { renderMarkdown } from "../src/lib/markdown.ts";
+import { renderMarkdown } from "@rtm/ingest";
 import { extractParagraph } from "../src/templates/report.ts";
 
 const root = join(import.meta.dirname, "..");

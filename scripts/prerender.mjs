@@ -43,8 +43,7 @@
 import { mkdirSync, writeFileSync, readFileSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
-import { renderMarkdown } from "../src/lib/markdown.ts";
-import { splitSections, paragraphIndex } from "../src/lib/sections.ts";
+import { renderArtifacts } from "@rtm/ingest";
 
 const root = join(import.meta.dirname, "..");
 const outDir = join(root, "assets/generated");
@@ -59,10 +58,6 @@ function writeText(path, text) {
   writeFileSync(path, text);
 }
 
-function wordCount(html) {
-  return html.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
-}
-
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 
 // A report dropped from the registry should not leave a stale artifact
@@ -73,25 +68,18 @@ const sitemapEntries = [];
 
 for (const report of registry.reports) {
   const markdown = readFileSync(join(root, report.source_path), "utf8");
-  const html = renderMarkdown(markdown);
-  const sections = splitSections(html);
-
-  const meta = {
-    words: wordCount(html),
-    sections: sections.map(({ html: _html, ...rest }) => rest),
-    paragraphToSection: paragraphIndex(sections),
-  };
+  const { meta, fullBody, fragments } = renderArtifacts(markdown);
 
   writeJSON(join(outDir, `reports/${report.id}/meta.json`), meta);
-  writeText(join(outDir, `reports/${report.id}/full-body.html`), html);
+  writeText(join(outDir, `reports/${report.id}/full-body.html`), fullBody);
 
-  for (const section of sections) {
-    writeText(join(outDir, `reports/${report.id}/fragments/${section.slug}.html`), section.html);
+  for (const section of meta.sections) {
+    writeText(join(outDir, `reports/${report.id}/fragments/${section.slug}.html`), fragments[section.slug]);
     sitemapEntries.push({ report: report.id, slug: section.slug });
   }
 
   console.log(
-    `  ✓ ${report.id} — ${sections.length} section(s), ${meta.words.toLocaleString()} words`
+    `  ✓ ${report.id} — ${meta.sections.length} section(s), ${meta.words.toLocaleString()} words`
   );
 }
 
