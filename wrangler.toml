@@ -42,5 +42,14 @@ database_name = "reportsthatmatter-marks"
 database_id = "5200e0db-733d-40d6-962e-2f1eb024f060"
 migrations_dir = "migrations"
 
+# Published report content, addressed by content hash (§3 of
+# docs/plans/2026-09-04-content-publishing.md). Reads are per report: a report
+# with a row in `report_versions` is served from here, and every other report
+# from the deploy's own assets/generated/ — so this binding is inert until
+# something publishes.
+[[r2_buckets]]
+binding = "CONTENT"
+bucket_name = "reportsthatmatter-content"
+
 [dev]
 local_protocol = "http"
