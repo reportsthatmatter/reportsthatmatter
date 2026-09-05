@@ -19,6 +19,7 @@ import {
   type AssetsBinding,
   type PrerenderMeta,
 } from "./lib/prerendered";
+import { contentFor, type ContentBucket, type ContentSource } from "./lib/content";
 import {
   actorHash,
   markCounts,
@@ -41,6 +42,13 @@ export type Bindings = {
   LEGACY_BASE?: string;
   /** Social proof (#96): who marked what. Absent under Node/vitest unless a test supplies a fake. */
   DB?: MarksDB;
+  /**
+   * Published report content, keyed by content hash (§3 of the
+   * content-publishing plan). Absent until a report has been published, and
+   * absent under Node/vitest — `contentFor` falls back to the deploy's own
+   * copy in assets/generated/ either way.
+   */
+  CONTENT?: ContentBucket;
   /** Secret folded into the daily actor hash. A dev fallback is fine locally — nothing is at stake below account-scale abuse. */
   MARK_SALT?: string;
   /** Readers a passage needs before it is shown back. Defaults to 1 — see #96. */
@@ -246,7 +254,7 @@ async function buildSearchResults(
 
   for (const row of rows) {
     if (!metaCache.has(row.report)) {
-      metaCache.set(row.report, await loadReportMeta(env?.ASSETS, row.report));
+      metaCache.set(row.report, await loadReportMeta(await contentFor(env, row.report)));
     }
     const meta = metaCache.get(row.report);
     const slug = meta?.paragraphToSection[row.paragraph_id];
@@ -364,16 +372,20 @@ app.get("/changelog", async (c) => {
 async function loadReportEntry(
   c: any,
   reportId: string
-): Promise<{ report: ReportMeta; meta: PrerenderMeta } | null> {
+): Promise<{ report: ReportMeta; meta: PrerenderMeta; content: ContentSource } | null> {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const registry = await loadRegistry(sourceMode);
   const report = registry.reports.find((entry: { id: string }) => entry.id === reportId);
   if (!report) return null;
 
-  const meta = await loadReportMeta(c.env?.ASSETS, reportId);
+  // Resolved once per request: every read for this report then comes from the
+  // same version, so a publish landing mid-request cannot serve half of one
+  // version and half of another.
+  const content = await contentFor(c.env, reportId);
+  const meta = await loadReportMeta(content);
   if (!meta) return null;
 
-  return { report, meta };
+  return { report, meta, content };
 }
 
 /**
@@ -480,7 +492,7 @@ app.get("/reports/:id", async (c) => {
 
   const loaded = await loadReportEntry(c, reportId);
   if (!loaded) return c.html(renderNotFound(false), 404);
-  const { report, meta } = loaded;
+  const { report, meta, content } = loaded;
 
   // A link naming a passage goes straight to the section holding it. This is
   // why share links carry ?p= as well as the fragment: the fragment never
@@ -502,7 +514,8 @@ app.get("/reports/:id", async (c) => {
     }
   }
 
-  const topMarked = await topMarkedPassages(c.env, reportId, meta);
+  const topMarked = await topMarkedPassages(c.env, reportId, meta, content);
+  c.header("x-rtm-content-version", content.version);
   return c.html(
     renderReportOverview(report, meta.sections, { words: meta.words }, topMarked)
   );
@@ -521,7 +534,8 @@ app.get("/reports/:id", async (c) => {
 async function topMarkedPassages(
   env: Bindings | undefined,
   reportId: string,
-  meta: PrerenderMeta
+  meta: PrerenderMeta,
+  content: ContentSource
 ): Promise<TopPassage[]> {
   const db = env?.DB;
   if (!db) return [];
@@ -548,7 +562,7 @@ async function topMarkedPassages(
 
       if (!pages.has(slug)) {
         if (pages.size >= MAX_SECTION_FETCHES) break;
-        pages.set(slug, await loadFragment(env?.ASSETS, reportId, slug));
+        pages.set(slug, await loadFragment(content, slug));
       }
       const page = pages.get(slug);
       if (!page) continue;
@@ -601,9 +615,10 @@ app.get("/reports/:id/full", async (c) => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
 
-    const body = await loadFullBody(c.env?.ASSETS, reportId);
+    const body = await loadFullBody(loaded.content);
     if (body === null) return c.html(renderNotFound(false), 404);
 
+    c.header("x-rtm-content-version", loaded.content.version);
     return c.html(renderReport(loaded.report, body, p, h));
   });
 });
@@ -621,9 +636,10 @@ app.get("/reports/:id/:section", async (c) => {
     const index = loaded.meta.sections.findIndex((entry) => entry.slug === slug);
     if (index === -1) return c.html(renderNotFound(false), 404);
 
-    const fragment = await loadFragment(c.env?.ASSETS, reportId, slug);
+    const fragment = await loadFragment(loaded.content, slug);
     if (fragment === null) return c.html(renderNotFound(false), 404);
 
+    c.header("x-rtm-content-version", loaded.content.version);
     return c.html(renderSection(loaded.report, loaded.meta.sections, index, fragment, p, h));
   });
 });

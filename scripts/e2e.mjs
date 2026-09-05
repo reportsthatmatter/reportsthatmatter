@@ -394,7 +394,18 @@ if (firstReportId) {
     }, markedParagraphId);
     check(socialProof.marked, "a marked passage is highlighted for other readers", JSON.stringify(socialProof));
     check(socialProof.washed, "the highlight has an actual background, not just the class", JSON.stringify(socialProof));
-    check(socialProof.title === "Highlighted by 1 reader", "the reader count is a hover title, not printed text", String(socialProof.title));
+    // The count itself is incidental — what is under test is that it lives in
+    // a hover title rather than printed into the prose. Pinning it to exactly
+    // one reader assumed a pristine local D1 *and* a run that never crossed
+    // midnight: `actorHash` folds the date in, so the same machine on two days
+    // is two readers, and this failed on 2026-09-05 for that reason alone.
+    const readerCount = /^Highlighted by (\d+) reader(s?)$/.exec(socialProof.title ?? "");
+    check(
+      Boolean(readerCount) && Number(readerCount[1]) >= 1 &&
+        readerCount[2] === (Number(readerCount[1]) === 1 ? "" : "s"),
+      "the reader count is a hover title, not printed text",
+      String(socialProof.title)
+    );
     check(socialProof.hasNoMarginNote, "no margin note competing with the sidenote column");
 
     await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });

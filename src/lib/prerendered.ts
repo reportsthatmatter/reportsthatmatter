@@ -1,4 +1,5 @@
 import type { Section } from "./sections";
+import type { ContentSource } from "./content";
 import { quotedPassage } from "../templates/report";
 
 /** Cloudflare's static-assets binding; absent under local Node/vitest. */
@@ -21,52 +22,30 @@ export type PrerenderMeta = {
 };
 
 /**
- * A pre-rendered page, as text.
+ * One section's pre-rendered body, with no layout around it.
+ *
+ * Fragments rather than finished pages, so that the layout belongs to the app
+ * and the content belongs to the report: a template change dirties no report
+ * artifact, and a report can be republished without an app deploy. See the
+ * content-publishing plan §2.
  *
  * The unit of request-time work is one *page*, never the whole report. There
  * used to be a `body.json` holding every section's html at once (55.5 MB
  * across ten reports, 19.0 MB for Leveson alone); a `?p=` link loaded and
- * parsed all of it to quote a single paragraph. `meta.paragraphToSection`
- * already names the section holding any paragraph, so the section page — at
- * most 0.7 MB — answers the same question. See the content-publishing plan
- * §8 step 1.
+ * parsed all of it to quote a single paragraph.
  */
-export async function loadGeneratedText(
-  assets: AssetsBinding | undefined,
-  path: string
-): Promise<string | null> {
-  const response = await openGenerated(assets, path);
-  return response ? response.text() : null;
-}
-
-/**
- * One section's pre-rendered body, with no layout around it.
- *
- * Fragments rather than finished pages, so that the layout belongs to the app
- * and the content belongs to the report: a template change now dirties no
- * report artifact, and a report can be republished without an app deploy.
- * See the content-publishing plan §2.
- */
-export function loadFragment(
-  assets: AssetsBinding | undefined,
-  reportId: string,
-  slug: string
-): Promise<string | null> {
-  return loadGeneratedText(assets, `reports/${reportId}/fragments/${slug}.html`);
+export function loadFragment(content: ContentSource, slug: string): Promise<string | null> {
+  return content.text(`fragments/${slug}.html`);
 }
 
 /**
  * The whole report's body, likewise layout-free.
  *
  * Stored rather than concatenated per request: /full for us-v-philip-morris
- * would otherwise be 129 fragment reads, and 129 R2 GETs once content moves
- * out of the deploy.
+ * would otherwise be 129 fragment reads, and 129 R2 GETs.
  */
-export function loadFullBody(
-  assets: AssetsBinding | undefined,
-  reportId: string
-): Promise<string | null> {
-  return loadGeneratedText(assets, `reports/${reportId}/full-body.html`);
+export function loadFullBody(content: ContentSource): Promise<string | null> {
+  return content.text("full-body.html");
 }
 
 /**
@@ -99,13 +78,14 @@ export async function openGenerated(
   }
 }
 
-export async function loadReportMeta(
-  assets: AssetsBinding | undefined,
-  reportId: string
-): Promise<PrerenderMeta | null> {
-  const response = await openGenerated(assets, `reports/${reportId}/meta.json`);
-  if (!response) return null;
-  return response.json();
+export async function loadReportMeta(content: ContentSource): Promise<PrerenderMeta | null> {
+  const raw = await content.text("meta.json");
+  if (raw === null) return null;
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
 }
 
 /**
@@ -120,8 +100,7 @@ export async function loadReportMeta(
  * copy of the text is a second thing that can drift.
  */
 export async function loadQuotedPassage(
-  assets: AssetsBinding | undefined,
-  reportId: string,
+  content: ContentSource,
   meta: PrerenderMeta,
   paragraphId: string,
   anchor?: string
@@ -129,6 +108,6 @@ export async function loadQuotedPassage(
   const slug = meta.paragraphToSection[paragraphId];
   if (!slug) return null;
 
-  const fragment = await loadFragment(assets, reportId, slug);
+  const fragment = await loadFragment(content, slug);
   return fragment ? quotedPassage(fragment, paragraphId, anchor) : null;
 }
