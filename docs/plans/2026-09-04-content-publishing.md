@@ -320,10 +320,12 @@ Fragments to R2, passages and the pointer to D1, through the publish endpoint.
   read from R2 at that hash, any other from the deploy (#133).
 - **3b-ii** — `pnpm publish-report <id>` and the gated commit endpoint (#134).
   **All ten reports are published and served from R2** as of 2026-09-05.
-- **Remaining:** rendering moves into `@rtm/ingest` so each report repo
-  publishes itself. The token scheme is already per report
-  (`HMAC(PUBLISH_SECRET, <id>)`), so this is a change of caller, not a
-  redesign.
+- **Done, 2026-09-05.** Rendering lives in `@rtm/ingest` v0.12.1
+  (`renderArtifacts`); the site repo is the only caller today, but nothing
+  about it is site-specific any more, so a report repo publishing itself is
+  a wiring change, not a redesign. All ten reports remain served from R2 at
+  their pinned hashes across the deploy that landed this — confirmed by
+  reading `x-rtm-content-version` back before and after.
 
 **Then: does the deploy still need to carry content at all?** Every report is
 published, so `assets/generated/` is now a fallback rather than the source —

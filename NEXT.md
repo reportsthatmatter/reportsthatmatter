@@ -20,15 +20,20 @@ scan is right" under `dismissed:`. Either way the entry leaves the queue for
 good. Start with `challenger-accident`: the messiest scan and the largest
 queue, and seven worked examples already in its file.
 
-**In flight:** the content-publishing plan
-(`docs/plans/2026-09-04-content-publishing.md`). Steps 1, 2, 3a, §6 and 3b are
-shipped: generated output left the repo, `body.json` is gone, reports
-pre-render as layout-free fragments, `pnpm corpus check` guards paragraph ids,
-and **all ten reports are published to R2 and served at a content hash** —
-`pnpm publish-report <id>` republishes one without a deploy. What remains is
-moving rendering into the pinned `@rtm/ingest` so each report repo publishes
-itself (the token is already per report), and then deciding whether the deploy
-should keep carrying `assets/generated/` as a fallback at all.
+**Done, 2026-09-05:** the content-publishing plan
+(`docs/plans/2026-09-04-content-publishing.md`). All ten reports are
+published to R2 and served at a content hash; rendering lives in the pinned
+`@rtm/ingest` (v0.12.1); `pnpm corpus check` guards paragraph ids across
+every report; the app repo carries ~2 MB of code plus a 75 MB fallback copy
+in `assets/generated/` rather than 133 MB of committed build output.
+`pnpm publish-report <id>` republishes one report without a deploy.
+
+What's still open, not blocking anything: whether a report repo should
+publish itself directly rather than through this repo's CLI (the publish
+token is already per-report, so it's wiring, not a redesign); whether the
+deploy should keep carrying `assets/generated/` as a fallback now that every
+report is published (§8 of the plan); and ingest#2, four pre-existing
+column-splitting test failures found along the way, filed but not fixed.
 
 Everything else is optional. The ingestion architecture is built and the
 pipeline is a pinned dependency ([`@rtm/ingest`](https://github.com/reportsthatmatter/ingest));
