@@ -226,15 +226,67 @@ carries `x-rtm-content-version` naming the hash or `assets`, which is what
 keeps the deliberate fallbacks (missing object, missing table) observable
 rather than silent.
 
-Publish with `pnpm publish-report <id>` (needs `RTM_PUBLISH_SECRET`, the
-Worker's `PUBLISH_SECRET`). It writes objects under the hash — invisible,
-idempotent — then asks `/internal/publish/<id>/commit` to point at them. The
-endpoint re-derives the hash from the manifest and checks every object holds
-what the manifest says before it writes the pointer, so a publish that would
-404 in production is refused. `--rollback <hash>` re-points at any version
-still in the bucket, without re-uploading. `--status` says what is being
-served. A report's token is `HMAC(PUBLISH_SECRET, <report id>)`, so a repo
-gets one that can rewrite itself and nothing else.
+### Publishing a report — how it works now
+
+**⚠️ Content published to R2 is not touched by an app deploy.** Once a report
+has a row in `report_versions`, it is served from that pinned hash forever,
+regardless of what `full.md` in that report's own repo says or how many times
+this repo redeploys. A correction to a report's text does nothing to a reader
+until someone runs one of the two commands below. This is the single sharp
+edge to know before touching anything here: a report *can* silently go stale
+relative to its own source, and nothing pages anyone about it.
+
+Two ways to publish, same underlying mechanism (`@rtm/ingest`'s
+`src/publish.ts`, imported by both sides — client and server hash the exact
+same way, so they cannot disagree about what a hash means):
+
+**1. A report repo publishing itself** (`rtm-publish`, from `@rtm/ingest`
+v0.12.3+ — this is the target state, and it works today, verified against
+`challenger-accident`):
+
+```bash
+# from the report repo's own root, where full.md lives
+RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) \
+  pnpm exec rtm-publish <report-id> --base https://reportsthatmatter.org
+```
+
+It reads that repo's own `full.md`, renders it with `renderArtifacts`
+(the same function `pnpm prerender` calls here), and publishes the result.
+Needs `@rtm/ingest` pinned to v0.12.3 or later in that repo's own
+`package.json` — bump it there the same deliberate way any other pipeline
+version bump happens (a diff, not a silent float).
+
+**2. This repo publishing on a report's behalf** (`pnpm publish-report`,
+reading from its own `assets/generated/` — the older path, kept for reports
+that have not moved to publishing themselves yet):
+
+```bash
+pnpm prerender   # if assets/generated/ isn't already current
+RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) \
+  pnpm publish-report <report-id> --base https://reportsthatmatter.org
+```
+
+**Either way:**
+
+- **The secret** lives at `~/.rtm-publish-secret` on this machine (memory:
+  `rtm-publish-secret.md`) — it is the Worker's `PUBLISH_SECRET`, and it
+  cannot be read back from Cloudflare if lost; rotating it means reissuing
+  every report's token. A report's token is derived —
+  `HMAC(PUBLISH_SECRET, <report id>)` — so a repo holds a credential that can
+  rewrite exactly itself and nothing else.
+- **`--status`** shows what is currently being served for a report, without
+  publishing anything: `pnpm publish-report <id> --status` or
+  `pnpm exec rtm-publish <id> --status` from the report's own repo.
+- **`--rollback <hash>`** re-points at a version still in the bucket —
+  objects are never collected, so any hash that was ever committed can be
+  committed again — without re-uploading a single byte.
+- **The publish itself cannot corrupt production**: the endpoint re-derives
+  the content hash from the manifest and reads every object back before it
+  writes the pointer, so a publish that would 404 in production is refused
+  outright rather than going live half-finished.
+- **Confirm it worked** by reading `x-rtm-content-version` on the response —
+  it names the hash being served, or `assets` if the report has never been
+  published: `curl -sD- -o /dev/null https://reportsthatmatter.org/reports/<id>/full | grep -i x-rtm-content-version`.
 
 **Artifacts are layout-free fragments, and the Worker assembles the page.**
 `pnpm prerender` writes `fragments/<slug>.html` (one section's body) and
