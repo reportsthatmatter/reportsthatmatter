@@ -7,16 +7,18 @@
  * Reads what `pnpm prerender` produced, uploads it under a content hash, then
  * asks the endpoint to point at it. The endpoint re-derives the hash and
  * checks every object before it writes the pointer, so this script cannot
- * publish a version that would 404 in production — see src/lib/publish.ts.
+ * publish a version that would 404 in production — see @rtm/ingest's
+ * src/publish.ts, which this and the Worker's route handlers both import, so
+ * client-side and server-side hashing can't drift apart.
  *
- * This will move into each report's own repo (§4): the token is derived per
- * report, so a repo gets one that can rewrite itself and nothing else. Until
- * then the site repo publishes on their behalf, which is the same code path
- * with a different caller.
+ * A report repo can now publish itself directly — `rtm-publish` in
+ * @rtm/ingest is the same two-phase protocol against its own `full.md`,
+ * rather than this repo's `assets/generated/`. This script still exists for
+ * the reports that haven't moved to publishing themselves yet.
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { contentHash, manifestFor, tokenFor } from "../src/lib/publish.ts";
+import { contentHash, manifestFor, tokenFor } from "@rtm/ingest";
 
 const args = process.argv.slice(2);
 const reportId = args[0];
