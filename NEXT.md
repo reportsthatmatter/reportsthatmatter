@@ -21,13 +21,14 @@ good. Start with `challenger-accident`: the messiest scan and the largest
 queue, and seven worked examples already in its file.
 
 **In flight:** the content-publishing plan
-(`docs/plans/2026-09-04-content-publishing.md`). Steps 1, 2 and 3a are shipped
-— generated output left the repo, `body.json` is gone, and reports pre-render
-as layout-free fragments the Worker assembles. §6's corpus gate (`pnpm corpus
-check`) is in, which was the stated precondition for the rest. What remains is
-step 3b: rendering moves into the pinned `@rtm/ingest`, and each report
-publishes its own fragments to R2 + D1 behind a content-hash version pointer,
-through a publish endpoint rather than eleven sets of credentials.
+(`docs/plans/2026-09-04-content-publishing.md`). Steps 1, 2, 3a, §6 and 3b are
+shipped: generated output left the repo, `body.json` is gone, reports
+pre-render as layout-free fragments, `pnpm corpus check` guards paragraph ids,
+and **all ten reports are published to R2 and served at a content hash** —
+`pnpm publish-report <id>` republishes one without a deploy. What remains is
+moving rendering into the pinned `@rtm/ingest` so each report repo publishes
+itself (the token is already per report), and then deciding whether the deploy
+should keep carrying `assets/generated/` as a fallback at all.
 
 Everything else is optional. The ingestion architecture is built and the
 pipeline is a pinned dependency ([`@rtm/ingest`](https://github.com/reportsthatmatter/ingest));
