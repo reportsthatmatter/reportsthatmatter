@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { extractPassages } from "../src/lib/passages";
+import { extractPassages } from "@rtm/ingest";
 
 describe("extractPassages", () => {
   // scripts/index-search.mjs reads whole pre-rendered *pages*, not bare

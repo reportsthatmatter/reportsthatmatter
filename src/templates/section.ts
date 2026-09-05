@@ -1,7 +1,7 @@
 import { renderLayout, escapeHtml } from "./layout";
 import { cardPath } from "./card";
 import { CARDS } from "../generated/cards";
-import type { Section } from "../lib/sections";
+import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { quotedPassage, truncate } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";

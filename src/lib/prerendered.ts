@@ -1,4 +1,4 @@
-import type { Section } from "./sections";
+import type { Section } from "@rtm/ingest";
 import type { ContentSource } from "./content";
 import { quotedPassage } from "../templates/report";
 
