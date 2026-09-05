@@ -7,6 +7,27 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-05 — A report can be republished without redeploying the site
+
+Until today, correcting a single line of one report meant rebuilding and
+redeploying the whole site, and every report's text travelled with the
+application code. Each report is now stored separately, under a fingerprint of
+its own contents, and the site is simply told which fingerprint to serve. All
+ten are live that way.
+
+Two things follow from it. Correcting a report is now a change to that report,
+which is what it always should have been. And because a version is named by
+its contents, older versions remain exactly where they were — so a citation
+can point at the precise text it quoted, and putting a correction back is a
+single instruction rather than a rebuild.
+
+Publishing goes through one gate that reads back everything it was given and
+refuses to point at a version that is missing anything, so a half-finished
+publish cannot reach a reader. Each report has its own key, which can change
+that report and nothing else.
+
+---
+
 ## 2026-09-05 — Paragraph ids get a gate, and pages stop carrying their layout
 
 Paragraph ids are permalinks, and they had no guard. Each report's own

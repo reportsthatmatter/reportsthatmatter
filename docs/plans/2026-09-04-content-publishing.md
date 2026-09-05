@@ -309,8 +309,28 @@ already runs `pnpm prerender` itself, so the checks are unaffected.
 
 **Step 3 — move rendering into the pinned library and publish per report.**
 Fragments to R2, passages and the pointer to D1, through the publish endpoint.
-Assemble `/full` from fragments. Bring the corpus-level blast-radius check
-(§6) and local-store seeding with it, not after it.
+
+*Landed 2026-09-05, except the last part:*
+
+- **3a** — prerender emits layout-free fragments and the Worker assembles the
+  page (#131). All 578 pages verified byte-identical to the whole pages the
+  old build produced.
+- **§6's gate** — `pnpm corpus check` (#130), the stated precondition.
+- **3b-i** — `src/lib/content.ts`: a report with a row in `report_versions` is
+  read from R2 at that hash, any other from the deploy (#133).
+- **3b-ii** — `pnpm publish-report <id>` and the gated commit endpoint (#134).
+  **All ten reports are published and served from R2** as of 2026-09-05.
+- **Remaining:** rendering moves into `@rtm/ingest` so each report repo
+  publishes itself. The token scheme is already per report
+  (`HMAC(PUBLISH_SECRET, <id>)`), so this is a change of caller, not a
+  redesign.
+
+**Then: does the deploy still need to carry content at all?** Every report is
+published, so `assets/generated/` is now a fallback rather than the source —
+75 MB uploaded per deploy as insurance against a bad publish. Dropping it
+would finish the original goal (deploying the code deploys only the code), and
+would also remove the safety net that has already justified itself once. Worth
+deciding deliberately rather than by drift.
 
 Steps 1 and 2 are useful on their own, are confined to the app repo, and do
 not commit the project to step 3 — which touches eleven repos and should be
