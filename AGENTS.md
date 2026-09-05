@@ -58,6 +58,8 @@ an interactive session.
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |
 | `reports/corpus-baseline.json` | Every report's citable ids, for `pnpm corpus check` |
+| `src/lib/content.ts` | Which store a report is read from — R2 at a pinned hash, or the deploy |
+| `src/lib/publish.ts` | Content hashing, per-report tokens, what a version must contain |
 | `docs/v2-features.yaml` | What is done and what is next |
 
 ## House rules
@@ -215,6 +217,24 @@ generated files with no additions, leaving `main` with **zero** artifacts for
 six of the ten reports. Production was unaffected only because deploys upload
 from disk after a manual `pnpm prerender` — a fresh-clone deploy would have
 dropped those reports off the site.
+
+**A report can be served from R2 instead of the deploy.** `src/lib/content.ts`
+is the only place that knows there are two stores: a row in `report_versions`
+pins a content hash and the report is read from `reports/<id>/<hash>/…` in R2;
+no row and it comes from the deploy's own `assets/generated/`. Every response
+carries `x-rtm-content-version` naming the hash or `assets`, which is what
+keeps the deliberate fallbacks (missing object, missing table) observable
+rather than silent.
+
+Publish with `pnpm publish-report <id>` (needs `RTM_PUBLISH_SECRET`, the
+Worker's `PUBLISH_SECRET`). It writes objects under the hash — invisible,
+idempotent — then asks `/internal/publish/<id>/commit` to point at them. The
+endpoint re-derives the hash from the manifest and checks every object holds
+what the manifest says before it writes the pointer, so a publish that would
+404 in production is refused. `--rollback <hash>` re-points at any version
+still in the bucket, without re-uploading. `--status` says what is being
+served. A report's token is `HMAC(PUBLISH_SECRET, <report id>)`, so a repo
+gets one that can rewrite itself and nothing else.
 
 **Artifacts are layout-free fragments, and the Worker assembles the page.**
 `pnpm prerender` writes `fragments/<slug>.html` (one section's body) and
