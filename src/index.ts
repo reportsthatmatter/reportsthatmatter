@@ -28,7 +28,7 @@ import {
   isReportId,
   manifestProblems,
   type Manifest,
-} from "./lib/publish";
+} from "@rtm/ingest";
 import {
   actorHash,
   markCounts,
