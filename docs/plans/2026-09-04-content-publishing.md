@@ -327,12 +327,41 @@ Fragments to R2, passages and the pointer to D1, through the publish endpoint.
   their pinned hashes across the deploy that landed this — confirmed by
   reading `x-rtm-content-version` back before and after.
 
-**Then: does the deploy still need to carry content at all?** Every report is
-published, so `assets/generated/` is now a fallback rather than the source —
-75 MB uploaded per deploy as insurance against a bad publish. Dropping it
-would finish the original goal (deploying the code deploys only the code), and
-would also remove the safety net that has already justified itself once. Worth
-deciding deliberately rather than by drift.
+**Decided, 2026-09-05: keep `assets/generated/` as the deploy-time fallback.**
+Every report is published, so it is a fallback rather than the source now —
+but the two costs that motivated this whole document were **git history**
+(step 2, already fixed independently of whether a fallback ships) and
+**coupled cadence** (step 3, already fixed by content-hash publishing
+existing at all). What is left is a few seconds of render-and-upload per
+deploy, unmeasured but bounded by the render numbers in §1 (≈3 s for the
+whole corpus) plus Wrangler's content-hash incremental upload. That is a
+genuinely small price for what it buys:
+
+- **It is the reason a real defect stayed invisible instead of live.**
+  Commit `5435afd` deleted 413 generated files with no replacement, and only
+  a manual pre-render before every deploy kept production correct — exactly
+  the fallback this decision is about (§1's own account of the discovery).
+  A store ten repos, or one CI job, can write a bad publish to; the fallback
+  is what stands behind it if the endpoint's own checks (§4) are ever wrong
+  rather than the content.
+- **The original goal is met regardless.** "Deploying the code deploys only
+  the code" was about *coupling* — a report correction requiring an app
+  deploy, and a template change dirtying report artifacts. Both are gone:
+  `pnpm publish-report` ships a correction with no deploy, and fragments mean
+  a template change touches no report artifact. Whether the deploy *also*
+  carries a redundant copy of the same content does not reopen either
+  problem — it is closer to a build cache than to the coupling this plan set
+  out to remove.
+- **AGENTS.md's own rule cuts this way.** "Never weaken a fidelity check to
+  make a report pass" is the same instinct as "never remove a safety net
+  that has already caught a real incident, to make a deploy pipeline
+  simpler." The fallback is a check, in effect: a request never resolves to
+  nothing just because a publish never happened or half-happened.
+
+Revisit only if the fallback's actual cost stops being small — e.g. if a
+report grows enough (§1's Chilcot arithmetic) that render time or upload
+size becomes a real deploy-time cost, or if a future report count makes "a
+few seconds per report" add up. Until then this is closed, not open.
 
 Steps 1 and 2 are useful on their own, are confined to the app repo, and do
 not commit the project to step 3 — which touches eleven repos and should be
