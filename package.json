@@ -11,7 +11,8 @@
     "cards": "tsx scripts/cards.mjs",
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
-    "corpus": "tsx scripts/corpus.mjs"
+    "corpus": "tsx scripts/corpus.mjs",
+    "publish-report": "tsx scripts/publish-report.mjs"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",

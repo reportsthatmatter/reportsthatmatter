@@ -19,7 +19,16 @@ import {
   type AssetsBinding,
   type PrerenderMeta,
 } from "./lib/prerendered";
-import { contentFor, type ContentBucket, type ContentSource } from "./lib/content";
+import { contentFor, contentKey, type ContentBucket, type ContentSource } from "./lib/content";
+import {
+  authorises,
+  contentHash,
+  fileHash,
+  isPublishablePath,
+  isReportId,
+  manifestProblems,
+  type Manifest,
+} from "./lib/publish";
 import {
   actorHash,
   markCounts,
@@ -29,6 +38,11 @@ import {
   type MarksDB,
 } from "./lib/marks";
 import { queryPassages, firstMatchOffsets, type PassageRow } from "./lib/search";
+
+/** The write half of the content bucket, which only publishing touches. */
+type PublishBucket = ContentBucket & {
+  put(key: string, value: string): Promise<unknown>;
+};
 
 export type Bindings = {
   /** Cloudflare static-assets binding; absent under local Node/vitest. */
@@ -48,7 +62,13 @@ export type Bindings = {
    * absent under Node/vitest — `contentFor` falls back to the deploy's own
    * copy in assets/generated/ either way.
    */
-  CONTENT?: ContentBucket;
+  CONTENT?: PublishBucket;
+  /**
+   * Secret a report's publish token is derived from (§4). Absent means
+   * publishing is off, which is the right default: the endpoint refuses
+   * everything rather than accepting anything.
+   */
+  PUBLISH_SECRET?: string;
   /** Secret folded into the daily actor hash. A dev fallback is fine locally — nothing is at stake below account-scale abuse. */
   MARK_SALT?: string;
   /** Readers a passage needs before it is shown back. Defaults to 1 — see #96. */
@@ -642,6 +662,110 @@ app.get("/reports/:id/:section", async (c) => {
     c.header("x-rtm-content-version", loaded.content.version);
     return c.html(renderSection(loaded.report, loaded.meta.sections, index, fragment, p, h));
   });
+});
+
+
+/**
+ * Publishing a report (§4, §5 of the content-publishing plan).
+ *
+ * Two phases. `objects` writes into `reports/<id>/<hash>/…`, which nothing
+ * points at, so it is idempotent and a half-finished upload is invisible
+ * rather than broken. `commit` is the publish: it re-derives the hash from
+ * the manifest, checks every object is actually there and holds what the
+ * manifest says, and only then writes the pointer row.
+ *
+ * That check is the reason this is an endpoint and not eleven sets of R2
+ * credentials. A store written to directly is a store nothing can refuse a
+ * bad publish from, and this project's rule is that a gate which cannot fail
+ * on broken input is not evidence.
+ */
+async function publisherFor(
+  c: any,
+  reportId: string
+): Promise<{ refusal: Response } | { bucket: PublishBucket }> {
+  if (!isReportId(reportId)) return { refusal: c.json({ error: "not a report id" }, 400) };
+
+  const presented = (c.req.header("authorization") ?? "").replace(/^Bearer /, "");
+  if (!(await authorises(c.env?.PUBLISH_SECRET, reportId, presented))) {
+    // Same answer whether the secret is unset, the token is wrong, or the
+    // report does not exist — none of that is a publisher's business.
+    return { refusal: c.json({ error: "not authorised to publish this report" }, 401) };
+  }
+
+  const bucket = c.env?.CONTENT as PublishBucket | undefined;
+  if (!bucket) return { refusal: c.json({ error: "no content bucket bound" }, 503) };
+  return { bucket };
+}
+
+app.post("/internal/publish/:id/objects", async (c) => {
+  const reportId = c.req.param("id");
+  const publisher = await publisherFor(c, reportId);
+  if ("refusal" in publisher) return publisher.refusal;
+
+  const { hash, files } = await c.req.json<{ hash?: string; files?: Array<{ path: string; body: string }> }>();
+  if (!hash || !/^[0-9a-f]{16}$/.test(hash)) return c.json({ error: "bad hash" }, 400);
+  if (!Array.isArray(files) || !files.length) return c.json({ error: "no files" }, 400);
+
+  for (const file of files) {
+    if (!isPublishablePath(file.path)) return c.json({ error: `not a publishable path: ${file.path}` }, 400);
+    if (typeof file.body !== "string") return c.json({ error: `not text: ${file.path}` }, 400);
+  }
+  for (const file of files) {
+    await publisher.bucket.put(contentKey(reportId, hash, file.path), file.body);
+  }
+
+  return c.json({ written: files.length });
+});
+
+app.post("/internal/publish/:id/commit", async (c) => {
+  const reportId = c.req.param("id");
+  const publisher = await publisherFor(c, reportId);
+  if ("refusal" in publisher) return publisher.refusal;
+
+  const { hash, manifest } = await c.req.json<{ hash?: string; manifest?: Manifest }>();
+  if (!hash || !Array.isArray(manifest)) return c.json({ error: "hash and manifest required" }, 400);
+
+  const problems = manifestProblems(manifest);
+  if (problems.length) return c.json({ error: "manifest rejected", problems }, 400);
+
+  // The hash is not taken on trust: it *is* the manifest, so a publisher
+  // cannot point at one version and describe another.
+  if ((await contentHash(manifest)) !== hash) {
+    return c.json({ error: "hash does not match the manifest" }, 400);
+  }
+
+  // One object at a time, so verifying a 19 MB report never holds 19 MB.
+  const missing: string[] = [];
+  for (const entry of manifest) {
+    const object = await publisher.bucket.get(contentKey(reportId, hash, entry.path));
+    if (!object) missing.push(entry.path);
+    else if ((await fileHash(await object.text())) !== entry.hash) missing.push(`${entry.path} (contents differ)`);
+    if (missing.length > 10) break;
+  }
+  if (missing.length) return c.json({ error: "version incomplete", missing }, 409);
+
+  if (!c.env?.DB) return c.json({ error: "no database bound" }, 503);
+  await c.env.DB.prepare(
+    `INSERT INTO report_versions (report, content_hash, published_at) VALUES (?, ?, ?)
+     ON CONFLICT(report) DO UPDATE SET content_hash = excluded.content_hash, published_at = excluded.published_at`
+  )
+    .bind(reportId, hash, Date.now())
+    .run();
+
+  return c.json({ published: reportId, version: hash, objects: manifest.length });
+});
+
+/** What is being served for a report, so a publisher can see and roll back. */
+app.get("/internal/publish/:id", async (c) => {
+  const reportId = c.req.param("id");
+  const publisher = await publisherFor(c, reportId);
+  if ("refusal" in publisher) return publisher.refusal;
+
+  const row = await c.env.DB?.prepare("SELECT content_hash, published_at FROM report_versions WHERE report = ?")
+    .bind(reportId)
+    .first<{ content_hash: string; published_at: number }>();
+
+  return c.json({ report: reportId, version: row?.content_hash ?? null, published_at: row?.published_at ?? null });
 });
 
 app.notFound((c) =>
