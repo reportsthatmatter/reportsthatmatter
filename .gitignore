@@ -16,3 +16,9 @@ build/
 
 # Local secrets for `wrangler dev` (PUBLISH_SECRET). Never committed.
 .dev.vars
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+.beads/proxieddb/
