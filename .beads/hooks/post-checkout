@@ -31,3 +31,9 @@ if command -v bd >/dev/null 2>&1; then
   if [ $_bd_exit -ne 0 ]; then exit $_bd_exit; fi
 fi
 # --- END BEADS INTEGRATION v1.1.2 ---
+
+# Pull only after a branch switch or clone update ($3 = 1). Sync failures are
+# advisory so an unavailable network never makes checkout fail.
+if [ "${3:-0}" = 1 ] && command -v bd >/dev/null 2>&1; then
+  (bd dolt pull >> .beads/dolt-pull.log 2>&1 || :) &
+fi

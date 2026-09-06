@@ -12,6 +12,16 @@ finish something on it, edit it.
 
 This file is the *house rules*. The issue is *what to do*.
 
+## Beads
+
+This repository uses Beads for issue tracking, with an embedded Dolt database
+and a GitHub-backed Dolt remote for cross-machine sync. At the start of a
+session, run `git pull`, `bd dolt pull`, and `bd status`; at the end, run
+`bd dolt push` before committing and pushing Git changes. See
+[`docs/beads-sync.md`](docs/beads-sync.md) for the complete workflow and
+recovery notes. JSONL export is for inspection and interchange, not sync or
+backup.
+
 ## The done condition
 
 ```bash

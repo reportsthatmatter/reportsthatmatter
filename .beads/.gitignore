@@ -60,6 +60,10 @@ dolt-pprof/
 # Backup data (auto-exported JSONL, local-only)
 backup/
 
+# Failure-tolerant hook output
+dolt-pull.log
+dolt-push.log
+
 # Per-project environment file (Dolt connection config, GH#2520)
 .env
 
