@@ -14,13 +14,15 @@ This file is the *house rules*. The issue is *what to do*.
 
 ## Beads
 
-This repository uses Beads for issue tracking, with an embedded Dolt database
-and a GitHub-backed Dolt remote for cross-machine sync. At the start of a
-session, run `git pull`, `bd dolt pull`, and `bd status`; at the end, run
-`bd dolt push` before committing and pushing Git changes. See
-[`docs/beads-sync.md`](docs/beads-sync.md) for the complete workflow and
-recovery notes. JSONL export is for inspection and interchange, not sync or
-backup.
+Beads is the source of truth for agent-actionable work. Start each session with
+`git pull`, `bd dolt pull`, and `bd ready`; create or update a Bead for work an
+agent can undertake, including work linked to a GitHub issue. Beads owns task
+detail, status, priority, dependencies, and acceptance criteria. GitHub keeps
+human-created/public issues, report candidates, broad epics, and discussion.
+Do not maintain a separate next-work list. At session end run `bd dolt push`
+before committing and pushing. See [`docs/beads-sync.md`](docs/beads-sync.md)
+for commands and sync recovery. JSONL export is for inspection and
+interchange, not sync or backup.
 
 ## The done condition
 

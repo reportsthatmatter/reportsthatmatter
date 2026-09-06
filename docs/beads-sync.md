@@ -10,8 +10,17 @@ backup or cross-machine sync.
 ```bash
 git pull
 bd dolt pull
-bd status
+bd ready
 ```
+
+## Choose and record work
+
+Run `bd ready` to find unblocked work; priority determines the order within
+that queue. Do not keep a separate `NEXT.md` or `next` label. Create a Bead
+before starting any agent-actionable task, use labels for domain grouping and
+dependencies only for genuine blockers, and set `--external-ref` when the task
+has a related GitHub issue. Keep public discussion, report candidates, and
+broad epics on GitHub until there is a concrete task to perform.
 
 ## Work with issues
 
