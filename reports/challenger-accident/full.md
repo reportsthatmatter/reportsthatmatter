@@ -5,6 +5,7 @@ published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
 footnotes: 89
+corrections: 12
 ---
 
 Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House Report 99-1016
@@ -77,7 +78,7 @@ On your instructions, the staff has carefully reviewed the information made avai
 
 - V. THEACCIDENT — 39
 
-............................... ......................... ...................... ...................... VII. CASINGJOINTDESIGN ........ ............................. ...................... VIII. LAUNCHOPERATIONS ......... I x . DEFINITION OF TERMS AND X. APPENDICES ......................... V-A .............................. .......................... lVlll
+............................... ......................... ...................... ...................... VII. CASINGJOINTDESIGN ........ ............................. ...................... VIII. LAUNCHOPERATIONS ......... I x . DEFINITION OF TERMS AND X. APPENDICES ......................... V-A .............................. ..........................
 
 - vrrr Page V-G — 285
 
@@ -427,7 +428,7 @@ The Committee recommends that NASA
 
 What actions should be taken relative to other recurrent problems with flight hardware? Finding
 
-There have been many instances of in-flight anomalies and failures of other elements of Space Shuttle hardware, some involving mission critical pieces of equipment. Some of these past problems have been corrected while others have not. Recornmendat ion
+There have been many instances of in-flight anomalies and failures of other elements of Space Shuttle hardware, some involving mission critical pieces of equipment. Some of these past problems have been corrected while others have not. Recommendation
 
 NASA should ensure that before reinstituting Space Shuttle flight operations, it fully understands and has corrected all instances of serious in-flight anomalous behavior or failures involving mission critical pieces of flight hardware.
 
@@ -507,7 +508,7 @@ The Committee supports the Development and Production Team Finding and Conclusio
 
 %%page 19%%
 
-Recomrnendation
+Recommendation
 
 NASA should review its O-ring repair policy and contractor repair practices in terms of their effects on O-ring performance and safety. Such review should be completed prior to the resumption of Shuttle flights if, as anticipated, the new SRB joint design uses 0- rings. Issue 4
 
@@ -743,7 +744,7 @@ Has the pressure to maintain operational flight rates and schedules for the Shut
 
 1. When NASA declared the Space Shuttle to be an operational system, additional pressure to increase flight rates impacted other aspects of the overall program such as the ability to implement, evaluate, test, and certify changes in hardware design.
 
-2. As a result of attempting to operate the Shuttle at increased flight rates, controlling other aspects of the program such as the flight production process and manifest also became a more complex and difficult aspect of program administration. Recomrnendations
+2. As a result of attempting to operate the Shuttle at increased flight rates, controlling other aspects of the program such as the flight production process and manifest also became a more complex and difficult aspect of program administration. Recommendations
 
 1. NASA must reconsider its efforts to categorize the Shuttle as an operational transportation system.
 
@@ -767,7 +768,7 @@ a. Management Structure Issue 1
 
 Does the management of the Shuttle Program adequately define the lines of authority and are managers given authority commensurate with their responsibilities? Finding
 
-The management of the Shuttle Program is complex and diversi- fied and it is not always clear who has authority or responsibility. NASA's "lead center" concept has resulted in placing the management of the program at JSC, one of three centers participating in the program; however, because Johnson does not have control of the other centers' resources, the NSTS Program Manager's authority to manage the program is limited and the responsibility is unclear. Recomrnendation
+The management of the Shuttle Program is complex and diversi- fied and it is not always clear who has authority or responsibility. NASA's "lead center" concept has resulted in placing the management of the program at JSC, one of three centers participating in the program; however, because Johnson does not have control of the other centers' resources, the NSTS Program Manager's authority to manage the program is limited and the responsibility is unclear. Recommendation
 
 NASA should restructure the Shuttle Program management to define clear lines of authority and responsibilities. This restructur- ing should take into account the special role each center must play and be especially sensitive to the need for the cooperation and support of all the participants to achieve a common goal. NASA should give special consideration to moving the Program Manager to NASA Headquarters to avoid the confusion and intercenter ri- valry that result from having a large multi-center program managed out of one of the participating centers. Issue 2
 
@@ -849,7 +850,7 @@ Key Shuttle contracts (e.g., Solid Rocket Booster Production Contract and the Sh
 
 %%page 33%%
 
-2. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million. Recornmendations
+2. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million. Recommendations
 
 1. NASA should reexamine all Shuttle contracts and report to the Committee with its findings and recommendations on whether more incentives for safety and quality can be built into these contracts. This report should address, inter alia, the SRB Production Contract and the SPC.
 
@@ -2185,7 +2186,7 @@ Is the current ground test program for the SSME adequate to provide a complete u
 
 2. The Committee shares Dr. Feynman's concern that there has been a slow shift toward decreasing safety in the SSME program.
 
-3. There is not a sufficient understanding of SSME blade cracks and fractures. Recomrnendations
+3. There is not a sufficient understanding of SSME blade cracks and fractures. Recommendations
 
 1. The Committee concurs with the Development and Production Team conclusion that over testing, limits testing, and malfunction testing in the SSME program should be re-emphasized to demonstrate full engine ~ a p a b i l i t y . ~ ~
 
@@ -2509,7 +2510,7 @@ Ultimately, SPC performance will determine the proper balance of development con
 
 77 Cmte Hgs, Transcript, July 11, 1986, p. 39.
 
-78 Rogers Cornmission Report, Volume 11, p. K-32.
+78 Rogers Commission Report, Volume 11, p. K-32.
 
 '9 Rogers Commission Report, Volume I, p. 195.
 
@@ -2851,7 +2852,7 @@ Has adequate provision been made for crew safety in case of inflight emergencies
 
 3. Crew escape during the ascent phase appears infeasible.
 
-4. Launch abort during SRB burn appears impossible but it may be possible to decrease risk to the crew after SRB separation, primarily through mission design. Recomrnendation
+4. Launch abort during SRB burn appears impossible but it may be possible to decrease risk to the crew after SRB separation, primarily through mission design. Recommendation
 
 NASA should continue to respond to the recommendations of the Rogers Commission regarding (i) crew escape during controlled gliding flight and (ii) increasing the possibility of successful emergency runway landings. NASA should re-examine all crew survival options and report to the Committee on its findings. Discussion
 
@@ -3577,7 +3578,7 @@ The Committee finds that the Rogers Commission recommendation that NASA should e
 
 %%page 175%%
 
-Recomrnendations
+Recommendations
 
 1. The Associate Administrator for Safety, Reliability and Quality Assurance (SR&QA) should provide to the Committee the agency's draft plan delineating the organization, goals, implementation strategies and resource requirements of the office of SR&QA.
 
@@ -3597,7 +3598,7 @@ The Committee does not argue with the contention that strong SR&QA capabilities 
 
 %%page 176%%
 
-areas of configuration management, product reliability and quality assurance and risk management, are essential to returnng the Shuttle to flight readiness condition. Issue 2
+areas of configuration management, product reliability and quality assurance and risk management, are essential to returning the Shuttle to flight readiness condition. Issue 2
 
 Has NASA applied sufficient resources to support adequate S M Q A efforts within the NSTS program? Findings
 
@@ -3737,7 +3738,7 @@ For the purpose of redesigning the joint it is important that the way in which t
 
 1. Both the primary O-ring and the secondary O-ring were seated when the steel casings were mated. The pressure check verified this fact. However, from experience, the primary O-ring was seated in the upstream position as had been previously recognized by NASA and Thiokol engineers. (See Figure VII-1.)
 
-Rogers Cornmiasion Report, Volume I, pp. 22-23 and 78-79.
+Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 
 (183)
 
