@@ -5,7 +5,7 @@ published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
 footnotes: 89
-corrections: 12
+corrections: 31
 ---
 
 Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House Report 99-1016
@@ -1320,9 +1320,7 @@ January 31, 1985.-At the STS51-E Preboard review, Thiokol personnel described th
 
 "-ern Commission %port, V X m e XI, p. H-1.
 
-I5 Ibid.
-
-I6Ibid.
+I5 Ibid.[^16] Ibid.
 
 I'Ibid., p. H-2.
 
@@ -1332,7 +1330,7 @@ IsIbid.
 
 %%page 56%%
 
-joint performance. They also showed analytical predictions of the I< maximum expected erosion." 2o
+joint performance. They also showed analytical predictions of the I< maximum expected erosion." 20
 
 February 12, 1985.-Mr. Mulloy and Thiokol personnel presented a summary of STS 51-C O-ring related problems during a briefing to the Shuttle Projects Office Board. A portion of the problem summary on the briefing charts referred to a field joint O-ring blow-by problem as being an "acceptable risk." In this briefing the secondary O-ring was referred to as a "redundant seal using actual hardware dimensions" even though the field joint had been officially classified as Criticality 1 for two years.21
 
@@ -1378,7 +1376,7 @@ July 19, 1985.-An attempt to form an SRM Erosion team at Thiokol "virtually fail
 
 July 22, 1985.-One of the engineers who appreciated the joint problem was Mr. Boisjoly of Morton Thiokol. In a "Progress Report" he wrote, "This problems has escalated so badly in the eyes of everyone, especially our customer, NASA, that NASA has gone to our competitors on a proprietary basis and solicited their experiences on their joint configuration."31 (See Appendix V-G.)
 
-26 Ibid. 2T Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.
+26 Ibid.[^27] Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.
 
 6 4 - 4 2 0 0 - 86 - 3
 
@@ -1404,7 +1402,7 @@ August 27, 1985. Flight STS 51-1 was launched, after which it was discovered tha
 
 August 30, 1985. One year and four months after the original drafting of Thiokol's Program Plan TWR-14359, for improvement of Space Shuttle SRM Motor Seals, the revised version of the plan was issued.
 
-3b Thiokol, Roger Boisjoly, "SRM 0-Ring ErosiodPotential Failure Criticality," Memo 2870 FY 86:073,July 31,1985.[^32] Rogers Commission Report, Volume 11, p. H-73.
+31a Thiokol, Roger Boisjoly, "SRM 0-Ring Erosion/Potential Failure Criticality," Memo 2870 FY 86:073, July 31, 1985.[^32] Rogers Commission Report, Volume 11, p. H-73.
 
 %%page 59%%
 
@@ -1434,7 +1432,7 @@ December 11, 1985. Thiokol management holds a Solid Rocket
 
 Motor Flight Readiness Review for STS 51-L. No discussion of 0ring anomalies occurs.
 
-December 1Z 1985. Larry Wear holds a Flight 51-L Solid Rocket
+December 17, 1985. Larry Wear holds a Flight 51-L Solid Rocket
 
 Motor Project Flight Readiness Review at Marshall Space Flight
 
@@ -1448,7 +1446,7 @@ January 12, 1986. STS 61-C experienced nozzle Joint O-ring erosion and blow-by a
 
 255 degree and 335 degree locations. The primary O-ring in the left
 
-SRM aft field ioint was eroded 0.004 inches over a 3.5 inch man at the 154 degree"1ocation.
+SRM aft field ioint was eroded 0.004 inches over a 3.5 inch man at the 154 degree"location.
 
 Januarv 13. 1986. Marshall Space Flight Center 51-L Readiness
 
@@ -1762,7 +1760,7 @@ The Committee is satisfied that the Range Safety System on the External Tank did
 
 > There is no flight data to support premature detonation of the ET range safety package;
 
-ss Rogers Commission Report, Volume I, p. 42 36 Ibid., Volume 11, p. L-23. 3T Ibid., Volume I, p. 41 38 Ibid., Volume 11, p. L16.
+ss Rogers Commission Report, Volume I, p. 42 36 Ibid., Volume 11, p. L-23.[^37] Ibid., Volume I, p. 41 38 Ibid., Volume 11, p. L16.
 
 %%page 75%%
 
@@ -2170,7 +2168,7 @@ In the months since the Challenger accident, there has been re- newed interest i
 
 > The 17 inch "flapper valves" on the fuel lines between the External Tank and the Orbiter. The inadvertent closing of one of these valves before Main Engine shutdown could be catastrophic, causing a rupture of a fuel line and/or the External Tank. Failure to close after engine shutdown, on the other hand, could cause the External Tank to crash into the Orbiter after being jettisoned. The heat exchanger used to produce gaseous oxygen to pres- surize the liquid oxygen tank in the External Tank. This heat exchanger is located inside one of the turbopump preburners of the Space Shuttle Main Engine. Should a rupture occur in the wall of the heat exchanger, high temperature hydrogen gas could be driven into the liquid oxygen tank or additional oxygen could be driven into the preburner-either situation could be catastrophic. A solution to this problem could be to move the heat exchanger outside of the Main Engine, possibly using the engine's hydrogen cooling jacket as a source of heat to produce the required gaseous oxygen. The Filament Wound Case version of the Solid Rocket Booster now under development for use in launches involving very heavy Space Shuttle payloads. The Aerospace Safety Advisory Panel argues that this system may have questionable structural strength safety margins in the transition areas between individual case segments.29 Safety concerns such as these have been raised regarding the Filament Wound Case Soild Rocket Boosters by the Aerospace Safety Advisory Panel for several years. In testimony before the Committee on May 15, 1986, Mr. John Brizendine, Chairman of the panel, repeated a conclusion from the panel's most recent report: "Until the issue can be resolved with a high level of confidence, . . . the Filament Wound Case Solid Rocket Boosters should not be used for STS launch. . . ."30
 
-Regarding the last concern in the above listing, the Committee notes that the recent decisions to substantially delay the availability of the Space Shuttle launch facilities at Vandenberg Air Force Base and to increase the availability of expendable launch vehicles could potentially eliminate the need for Filament Wound Case Soild Rocket Boosters. Specifically, the Filament Wound Case Solid Rocket Boosters were originally intended only for use at Vandenberg; and the increased availability of large expendable launch vehicles may provide a viable option to heavy-lift launches using the Space Shuttle.[^2] 9 Hearings before the Space Science and Applications Subcommittee of the House Science and Technolo Committee, "Strategy for Safely Returning Space Shuttle to Flight Status," 99th Cong., 2nySeas., Transcript, May 15, 1986, p. 102.
+Regarding the last concern in the above listing, the Committee notes that the recent decisions to substantially delay the availability of the Space Shuttle launch facilities at Vandenberg Air Force Base and to increase the availability of expendable launch vehicles could potentially eliminate the need for Filament Wound Case Soild Rocket Boosters. Specifically, the Filament Wound Case Solid Rocket Boosters were originally intended only for use at Vandenberg; and the increased availability of large expendable launch vehicles may provide a viable option to heavy-lift launches using the Space Shuttle.[^2] 9 Hearings before the Space Science and Applications Subcommittee of the House Science and Technolo Committee, "Strategy for Safely Returning Space Shuttle to Flight Status," 99th Cong., 2nd Sess., Transcript, May 15, 1986, p. 102.
 
 mid.
 
@@ -2284,7 +2282,7 @@ While the 51-L accident has focused attention on the design of the SRM joint, th
 
 The Titan Solid Rocket Motors receive only visual inspection of bond lines and local ultrasonic inspection as required.
 
-While there are some significant differences between the Shuttle SRB and the Titan motor, the design of the Shuttle SRB was primarily based on the Air Force's Titan I11 solid rocket.4g Also, the design of the insulation on the Shuttle booster is virtually identical with the Titan design.50 Brig. Gen. Nathan Lindsay, Chairman of the Air Force board investigating the accident said, "This was a failure we would have assigned a very low probability $0. We've flown 70 flights with the [Titan] Solid Rocket Motor and this was the first failure." l
+While there are some significant differences between the Shuttle SRB and the Titan motor, the design of the Shuttle SRB was primarily based on the Air Force's Titan I11 solid rocket.49 Also, the design of the insulation on the Shuttle booster is virtually identical with the Titan design.50 Brig. Gen. Nathan Lindsay, Chairman of the Air Force board investigating the accident said, "This was a failure we would have assigned a very low probability $0. We've flown 70 flights with the [Titan] Solid Rocket Motor and this was the first failure." l
 
 The Shuttle SRB has flown 25 flights with one unrelated failure. In testimony before the Rogers Commission, NASA officials "made it clear that the kind of separation of insulation that apparently led to the destruction of the Air Force Titan 34D was commonplace on the Shuttle."[^5] 2 According to NASA officials, it was also common practice to visually inspect and repair unbonded insulation of the SRM end segments.53
 
@@ -2412,7 +2410,7 @@ The recertification has three primary elements which follow a logical progressio
 
 Level 111. Second, we will establish a verification program based upon those requirements. And third, we will reestablish that the design and the hardware are in compliance with the first two elements.
 
-Key activities to be performed as we recertify the SRB will include the traceability of all the requirements into all levels of SRB design and system environments, verification of the SRB design data base and analyses, establishment of tools such as the failure modes and effects analysis, and validation that our paper systems have properly incorporated requirements, constraints, and criteria.6g
+Key activities to be performed as we recertify the SRB will include the traceability of all the requirements into all levels of SRB design and system environments, verification of the SRB design data base and analyses, establishment of tools such as the failure modes and effects analysis, and validation that our paper systems have properly incorporated requirements, constraints, and criteria.69
 
 Another distinction of this plan is that hardware will be completely recertified through actual testing and analysis as if it were being done for the first time. Some earlier certification reviews were abbreviated paper checks many of which focused on only certain components.
 
@@ -2492,7 +2490,7 @@ The number of cannibalized parts was increasing at an alarming rate. Forty-five 
 
 The cause of the spare parts crisis was budgetary decisionmaking by NASA management. In October, 1985, the logistics funding requirements for the Orbiter program, as determined by Level I11 management a t Johnson, were $285.3 million, but that funding was reduced by $83.3 million, necessitating major deferral of purchases of ~ p a r e s . ~By
 
-> 6 the spring of 1986, the Shuttle logistics program 73 Rogers Commission Report, Volume 11, p. 1-16. 71 bid. 7s Cmte HE Transcript, July 16, 1986, p. 42. Rogers mmiasion Report, V o l u m e I, p. 173.
+> 6 the spring of 1986, the Shuttle logistics program 73 Rogers Commission Report, Volume 11, p. 1-16. 71 bid. 75 Cmte Hgs Transcript, July 16, 1986, p. 42. Rogers mmiasion Report, V o l u m e I, p. 173.
 
 %%page 117%%
 
@@ -2568,7 +2566,7 @@ Presumably, the Challenger accident has changed this situation. Recommendation V
 
 %%page 121%%
 
-will be determine based on studies and that "program enhancements . . . required to achieve the flight rate" will be implemented [emphasis added].9s This is reinforced in the NASA response to Recommendation IX where NASA says "NASA has initiated an assessment of spare parts requirements to adequately support the flight rate planning. " [emphasis added] g 7 Thus, it seems that once again a planned flight rate could become a controlling factor.
+will be determine based on studies and that "program enhancements . . . required to achieve the flight rate" will be implemented [emphasis added].96 This is reinforced in the NASA response to Recommendation IX where NASA says "NASA has initiated an assessment of spare parts requirements to adequately support the flight rate planning. " [emphasis added] g 7 Thus, it seems that once again a planned flight rate could become a controlling factor.
 
 A finding of the Pre-Launch Activities Team is that during the preparation of 51-L for launch "Manpower limitations due to high workload created scheduling difficulties and contributed to operational problems."gs This is perhaps one of the clearest examples of the inappropriate logic at work in the system before the accident, because "manpower limitations" are not due to "high workload" in the system. Manpower and other resources are limited before the workload is planned. Problems are created when the workload assigned is inappropriate to the manpower available.
 
@@ -2926,7 +2924,7 @@ NASA does not have a specifically labeled risk management program. The process i
 
 The process of risk management as applied to systems such as the Shuttle can be described schematically as shown in Figure VI- 3,123which shows the various steps that might be imposed upon flight systems such as the Shuttle through a risk management program.
 
-lZ3Douglas B. Feaver, "Succeea Relaxed NASA's Vigilence", Washington Post, May 26, 1986, pp. A-1, A-10.
+123Douglas B. Feaver, "Succeea Relaxed NASA's Vigilence", Washington Post, May 26, 1986, pp. A-1, A-10.
 
 %%page 140%%
 
@@ -2948,7 +2946,7 @@ However, Mr. Robert Thompson, who was Shuttle Program Manager from 1970 to 1972,
 
 > I would first like to make an observation on the decisionmaking process. Evidence, in retrospect, points to a long period of time, especially based on post-flight inspections when the joint design weakness was 'sending a message' and the true potential of this message was not perceived and reacted to. This, combined with perlaunch discussions between Marshall and Thiokol, points out the need that must pervade the Shuttle management team in the future. A very strong risk management . . . I have parentheses around risk management. I will be happy to expand on that. It has a certain meaning to me. A very strong risk management organization must be kept in place and a continuing search for potential failures must be maintained. . . .
 
-lZ4 Cmt Hgs, Transcript, June 12, 1986, p. 186. lZs =id. p. 187.
+124 Cmt Hgs, Transcript, June 12, 1986, p. 186. 125 Ibid. p. 187.
 
 %%page 142%%
 
@@ -2976,7 +2974,7 @@ All subsystems of the NSTS are intended to meet design requirements that incorpo
 
 The FMEA is a very conservative analysis according to NASA since it provides information on worst case situations of all possible failure modes and the potential worst case effects. Even so, the Committee was unable to determine the degree to which flight anomalies and trend analyses in historical performance data are utilized to insure that the appropriate measures are taken in the design and testing of various critical components to assure ultimate safety and minimization of risk.
 
-NASA is presently reviewing the 748 Criticality 1 items and the 1,621 Criticality 1R items. Based upon a series of tests and analyses and the availability of methods and instrumentation to detect problems associated with various Criticality 1 and 1R items, waivers are given to permit flight of critical items. Before a waiver is granted, according to NASA, extensive documentation and review of each item on the Critical Items List (CIL) for which a waiver has been applied must be undertaken and approved all the way through Level 1 management. There is a difference between the number of waivers granted and the total number of items on the Critical Items List. For Criticality-1 items this difference reflects the number of systems exempted from the criteria of fail-safe or fail-operational/fail-safe.NASA, however, does not distinguish in its quality control procedure between exempted items and those items which are not exempt from the waiver process. According to lSo Rogers Commission Report, Volume 11, pp. K25-26
+NASA is presently reviewing the 748 Criticality 1 items and the 1,621 Criticality 1R items. Based upon a series of tests and analyses and the availability of methods and instrumentation to detect problems associated with various Criticality 1 and 1R items, waivers are given to permit flight of critical items. Before a waiver is granted, according to NASA, extensive documentation and review of each item on the Critical Items List (CIL) for which a waiver has been applied must be undertaken and approved all the way through Level 1 management. There is a difference between the number of waivers granted and the total number of items on the Critical Items List. For Criticality-1 items this difference reflects the number of systems exempted from the criteria of fail-safe or fail-operational/fail-safe.NASA, however, does not distinguish in its quality control procedure between exempted items and those items which are not exempt from the waiver process. According to 130 Rogers Commission Report, Volume 11, pp. K25-26
 
 NASA Briefing on July 10, 1986.
 
@@ -3224,7 +3222,7 @@ In addition to the number of technical managers, it is also necessary to examine
 
 18s Ibid.
 
-1eeCmte Hgs, Transcript, July 24, 1986, pp. 119-23 headquarters' technical ability to discern and react to emerging problems may be gained from an examination of the manner in which it addressed the growing concerns with the O-rings in the summer of 1985. Prior to that time the problems with the O-rings had been briefed at all levels of the agency and had been presented to headquarters on at least two occasions. 6 8 However, increasing problems with case-to-case erosion prompted headquarters to request a complete briefing "to go over the situation in detail."[^1] 6 9
+166Cmte Hgs, Transcript, July 24, 1986, pp. 119-23 headquarters' technical ability to discern and react to emerging problems may be gained from an examination of the manner in which it addressed the growing concerns with the O-rings in the summer of 1985. Prior to that time the problems with the O-rings had been briefed at all levels of the agency and had been presented to headquarters on at least two occasions. 6 8 However, increasing problems with case-to-case erosion prompted headquarters to request a complete briefing "to go over the situation in detail."[^1] 6 9
 
 The meeting was chaired by Mr. Moore's deputy for technical matters, L. Michael Weeks, and attended by a number of other headquarters personnel which Mr. Moore characterized as having "some knowledge about the SRB."170 In testimony before the Rogers Commission, Mr. Moore described the composition of the meeting:
 
@@ -3530,7 +3528,7 @@ Throughout the hearings, witnesses said that had they known about the seriousnes
 
 Mr. Scheuer questioned Jesse Moore specifically on this point when he asked, referring to Mr. Weeks' summary of the August 19 meeting, "Was it a failure of decision-making on his part or communications on his part?" Mr. Moore responded:
 
-> Sir, I think that in a position like Mr. Weeks is in, we have to work as a team, for example, and people have to make assessments on situations and I think Mr. Weeks looked at the data and his assessment was that he thought we had a program adequate to cover the activities in the SRB and he believed that after he had talked to the people at Thiokol and he also believed that, I think, after talking to the people at Marshall and I believe his position was that in fact was an acceptable posture for him to take. Part of his responsibility is to make technical judgments2O 0
+> Sir, I think that in a position like Mr. Weeks is in, we have to work as a team, for example, and people have to make assessments on situations and I think Mr. Weeks looked at the data and his assessment was that he thought we had a program adequate to cover the activities in the SRB and he believed that after he had talked to the people at Thiokol and he also believed that, I think, after talking to the people at Marshall and I believe his position was that in fact was an acceptable posture for him to take. Part of his responsibility is to make technical judgments.200
 
 Mr. Moore went on to explain that he believed the lack of understanding of the SRB joint extended throughout the agency:
 
@@ -3852,7 +3850,7 @@ T+72.6 ......................................................... [Liquid hydroge
 
 1+73.1 ........................................................................................................... [Vapor observed at inter-tank which was indica-
 
-> tive of the liquid oxygen tank failing. Liquid oxygen then 0bserved.1~
+> tive of the liquid oxygen tank failing. Liquid oxygen then observed.1~
 
 1 (CDR) Commander W, (PLT) Pilot Smith, (MS 1) Mission Specialist Onizuka. (MS 2) Mission S ialisl Resnik.[^8] NASA, D.M. Germany, STS 511 Incident Investigation. Integrated Events Time line, Johnson Space c h t Center, June 4, 1986, as modified.
 
@@ -3916,7 +3914,7 @@ The joint was designed to mate two rocket motor segment cases, one to the other,
 
 Upon ignition of the Solid Rocket Motor fuel the opcrating pressure increases to 922 psi at 40 degrees F within a little over one-half second (0.648 sec).16 The effect of this pressure increase is to
 
-NASA, MSFC, Problem Assessment S stem Record No. A07934, January 23, 1986, p. 6.[^15] 1'Rogers Commission Report,Volume 4 p. 1510. 'SCmte H Transcri t, June 18, 1986, 51. 1eMortOn%iokol, &-10212 (CD), Tab, 4-9, npical Propellant Design Data.
+NASA, MSFC, Problem Assessment S stem Record No. A07934, January 23, 1986, p. 6.[^15] 1'Rogers Commission Report,Volume 4 p. 1510. 'SCmte H Transcri t, June 18, 1986, 51. 16Morton Thiokol, TWR-10212 (CD), Table 4-9, Typical Propellant Design Data.
 
 %%page 193%%
 

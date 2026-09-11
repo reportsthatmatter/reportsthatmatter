@@ -439,8 +439,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 155776,
-      "paragraphs": 2694,
+      "words": 155862,
+      "paragraphs": 2693,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -499,14 +499,14 @@
         {
           "slug": "fletcher-the-solid-rocket-motor-source-evaluation-board-seb",
           "title": "Fletcher, the Solid Rocket Motor Source Evaluation Board (SEB)",
-          "paragraphs": 68,
-          "ids": "8e4aba1ddf65"
+          "paragraphs": 67,
+          "ids": "7f6da95efd6e"
         },
         {
           "slug": "summary-of-significant-observations",
           "title": "SUMMARY OF SIGNIFICANT OBSERVATIONS",
           "paragraphs": 38,
-          "ids": "f17451d816e5"
+          "ids": "f5ff809a6270"
         },
         {
           "slug": "summary-of-casing-joint-design",
@@ -566,13 +566,13 @@
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
           "paragraphs": 5,
-          "ids": "2a45cacae43c"
+          "ids": "1571975e8903"
         },
         {
           "slug": "figure-2",
           "title": "FIGURE",
           "paragraphs": 156,
-          "ids": "d8bd569ef354"
+          "ids": "5e7b14bab0fe"
         },
         {
           "slug": "organization-a-n-d-policy-management",
