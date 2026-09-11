@@ -7,17 +7,18 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
-## 2026-09-11 — Twelve scanning slips fixed in the Challenger report, and its fidelity queue starts moving
+## 2026-09-11 — Challenger's fidelity queue starts moving: 31 scanning slips fixed so far
 
 Every report carries a review queue of places its scan might not read right —
 nearly 1,000 flagged spots across the archive, untouched until now.
-Challenger's is the largest queue, and its own findings and recommendations
-are the first pass through it: twelve scanning errors corrected against the
-source document (its "Recommendation" headings had been printing as
-"Recomrnendation", a footnote read "Rogers Cornmiasion Report" instead of
-"Commission"), and 26 more flagged spots checked and confirmed correct as
-printed. 345 of Challenger's flagged spots remain, mostly in the reproduced
-memos and equipment tables of its appendices.
+Challenger's is the largest queue, and it's the first to get a real pass: the
+Committee's own findings and recommendations, then its footnote citations,
+checked one by one against the source. 31 scanning errors corrected so far —
+"Recommendation" headings that had been printing as "Recomrnendation",
+footnote numbers reconstructed from OCR garble and confirmed against the
+scanned page images — and dozens more flagged spots checked and confirmed
+correct as printed. 310 of Challenger's flagged spots remain, mostly in the
+reproduced memos and equipment tables of its appendices.
 
 [Read the corrected report](https://reportsthatmatter.org/reports/challenger-accident/full).
 
