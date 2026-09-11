@@ -11,6 +11,10 @@ with enough context to pick one and go. Read it first. Keep it current — if yo
 finish something on it, edit it.
 
 This file is the *house rules*. The issue is *what to do*.
+**[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** is *how it works* — report
+repos vs. this repo, publishing vs. deploying, search, the two fidelity gates
+— with a diagram. Read it before assuming a deploy is what ships a content
+change; it usually isn't (see its "what needs a deploy?" table).
 
 ## Beads
 

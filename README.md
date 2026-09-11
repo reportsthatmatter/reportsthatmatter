@@ -28,8 +28,9 @@ current state and a map of what to do next. House rules are in
 
 ## Plans
 
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md) — how it currently works, with a diagram: report repos, publishing vs. deploying, search, the two fidelity gates
 - [ROADMAP.md](docs/ROADMAP.md) — the master feature list, ordered by distribution
-- [Architecture](docs/plans/2026-08-01-architecture.md) — storage, splitting, permalink stability
+- [Architecture (2026-08-01, superseded)](docs/plans/2026-08-01-architecture.md) — storage, splitting, permalink stability; kept for history, not current
 - [Loop engineering setup](docs/plans/2026-08-01-loop-engineering-setup.md)
 - [MARKETING.md](docs/MARKETING.md)
   - [Landing Page Brief](docs/plans/brief-landing-page.md)
