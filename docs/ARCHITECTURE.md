@@ -95,11 +95,12 @@ flowchart TB
         ContentTs -->|"x-rtm-content-version:\n&lt;hash&gt; or 'assets'"| Reader
     end
 
-    subgraph Search["search — a separate, currently-manual sync (bead 7np)"]
-        IndexScript["pnpm index-search\n(reads prerendered fragments,\nwrites build/search-index.sql)"]
+    subgraph Search["search — auto-triggered by publish-report, per report"]
+        IndexScript["pnpm index-search &lt;id&gt;\n(reads that report's prerendered\nfragments, writes\nbuild/search-index.&lt;id&gt;.sql)"]
         FTS[("D1: passages (FTS5)\n+ search_index_versions\n(which content_version was indexed)")]
-        Apply["wrangler d1 execute --remote\n--file=build/search-index.sql"]
+        Apply["scripts/reindex-search.sh &lt;id&gt;\nwrangler d1 execute --remote\n--file=build/search-index.&lt;id&gt;.sql"]
         Prerender --> IndexScript --> Apply --> FTS
+        PublishScript -.->|"auto, after commit\n(skipped on --rollback / --no-reindex)"| Apply
         WorkerScript -->|"GET /search"| FTS
     end
 
@@ -158,12 +159,20 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   and are **not committed**; `./scripts/deploy-cloudflare.sh` always
   `pnpm prerender`s first so a fresh clone can't ship empty.
 - **Search** is D1 FTS5 (`passages`), built from the same prerendered bytes a
-  reader is served (never markdown re-rendered separately) and applied with a
-  plain `wrangler d1 execute --file=`. `search_index_versions` records which
-  `content_version` was indexed per report, precisely so a publish that
-  outruns the next `pnpm index-search` is a detectable staleness rather than
-  a silently wrong search result. Making that remote-apply step reliable
-  end-to-end is open work (`reportsthatmatter-7np`).
+  reader is served (never markdown re-rendered separately). `pnpm index-search
+  <id>` scopes both the build and the `wrangler d1 execute --file=` apply to
+  one report (`scripts/reindex-search.sh`) — an ~800 KB file for Challenger
+  rather than the ~17 MB whole-corpus one, whose remote import hit
+  Cloudflare's auth error 10000 (`reportsthatmatter-7np`); splitting by report
+  is the fix, not just a speed-up. `pnpm publish-report` now runs this itself
+  once a publish commits, so search stops drifting from content by default —
+  see `--no-reindex` and the `--rollback` caveat in `AGENTS.md`.
+  `search_index_versions` records which `content_version` was indexed per
+  report, but **nothing reads it back yet**: there is no automatic alert if a
+  report's search index and its R2 content fall out of step (e.g. `rtm-publish`
+  self-publishing, which does not yet trigger a reindex — see `AGENTS.md`).
+  Checking `search_index_versions` against a report's actual current content
+  is open work.
 - **Marks** (highlights/shares) are a D1 table plus per-browser
   `localStorage` for a reader's own kept passages — no account, nothing
   cross-device.

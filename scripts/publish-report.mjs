@@ -14,10 +14,25 @@
  * A report repo can now publish itself directly — `rtm-publish` in
  * @rtm/ingest is the same two-phase protocol against its own `full.md`,
  * rather than this repo's `assets/generated/`. This script still exists for
- * the reports that haven't moved to publishing themselves yet.
+ * the reports that haven't moved to publishing themselves yet, and it, not
+ * yet `rtm-publish`, is what triggers the search reindex below.
+ *
+ * A publish against a real deploy also reindexes this report for search
+ * (`./scripts/reindex-search.sh`, reportsthatmatter-7np) — search content
+ * and R2 content used to drift independently, with no gate that would
+ * notice. Pass --no-reindex to skip it (e.g. re-publishing an unchanged
+ * version), or run `./scripts/reindex-search.sh <id>` yourself later.
+ * Skipped automatically against localhost, where there is no meaningful
+ * "remote" D1 to reindex. **This does not cover `--rollback`**: rolling back
+ * repoints at an *older* hash, but this only knows how to build a search
+ * index from what is *currently* prerendered on disk, which is the new text
+ * — reindexing there would make search describe content nobody is being
+ * served. Reindex by hand after a rollback once the matching text is
+ * prerendered again.
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { execFileSync } from "node:child_process";
 import { contentHash, manifestFor, tokenFor } from "@rtm/ingest";
 
 const args = process.argv.slice(2);
@@ -28,7 +43,9 @@ const flag = (name) => {
 };
 
 if (!reportId || reportId.startsWith("--")) {
-  console.error("Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>]");
+  console.error(
+    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex]"
+  );
   process.exit(2);
 }
 
@@ -118,3 +135,25 @@ if (typeof rollbackTo !== "string") {
 
 const result = await call(`/internal/publish/${reportId}/commit`, { hash, manifest });
 console.log(`  ✓ serving ${result.version} (${result.objects} objects)`);
+
+// See the file header: only for a normal (non-rollback) publish, and only
+// against a real deploy — reindexing localhost's D1 from here would be
+// meaningless, and a rollback's text isn't what's on disk right now.
+const isRollback = typeof rollbackTo === "string";
+const isLocal = base.includes("localhost") || base.includes("127.0.0.1");
+if (!isRollback && !isLocal && !flag("--no-reindex")) {
+  console.log(`  reindexing ${reportId} for search...`);
+  try {
+    execFileSync("./scripts/reindex-search.sh", [reportId], { stdio: "inherit" });
+  } catch (error) {
+    // A failed reindex must not read as a failed publish — the content is
+    // already live and correct. Say so loudly and leave the fix to a rerun
+    // of the one command named here, not a re-publish.
+    console.error(
+      `  ⚠ search reindex failed (content is still published correctly): ${error.message}\n` +
+        `    retry with: ./scripts/reindex-search.sh ${reportId}`
+    );
+  }
+} else if (isRollback) {
+  console.log(`  (search not reindexed — rolled back; see file header)`);
+}

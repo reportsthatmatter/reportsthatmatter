@@ -282,6 +282,17 @@ RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) \
   pnpm publish-report <report-id> --base https://reportsthatmatter.org
 ```
 
+This also **reindexes the report for search** once the commit succeeds
+(`./scripts/reindex-search.sh`, itself a fix for reportsthatmatter-7np —
+scoped to one report, not the whole-corpus file whose remote apply used to
+fail) — search content and R2 content used to drift independently, with
+nothing that would notice. Skipped automatically against `localhost`, on
+`--rollback` (the text on disk is the *new* version, not the one being
+rolled back to — reindex by hand once the matching text is prerendered
+again), and with `--no-reindex`. **`rtm-publish` (path 1) does not do this
+yet** — it lives in the separate `@rtm/ingest` repo, so parity there is its
+own pipeline change, not something this repo can wire in.
+
 **Either way:**
 
 - **The secret** lives at `~/.rtm-publish-secret` on this machine (memory:

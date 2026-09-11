@@ -1,6 +1,7 @@
 /* Builds the full-text search index (#100) from pre-rendered report bodies.
  *
- *   pnpm index-search              # writes build/search-index.sql
+ *   pnpm index-search              # every report -> build/search-index.sql
+ *   pnpm index-search <id>         # one report only -> build/search-index.<id>.sql
  *
  * Reads the pre-rendered section pages `pnpm prerender` (#115) writes — the
  * same bytes a reader is served — so this needs no markdown-it render of its
@@ -15,6 +16,11 @@
  * is the same `wrangler d1 execute --file=` step used everywhere else in
  * this project, not a bespoke script with its own credentials path.
  *
+ * The single-report form exists so `scripts/reindex-search.sh` (called from
+ * `pnpm publish-report`, docs/ARCHITECTURE.md "Search") can refresh just the
+ * report that was published, instead of DELETE+INSERT-ing all ten reports'
+ * passages for a one-report change.
+ *
  * `pnpm prerender` must have already run — this does not render markdown
  * itself. verify.sh runs both, in order.
  */
@@ -25,6 +31,7 @@ import { parse } from "yaml";
 import { extractPassages } from "@rtm/ingest";
 
 const root = join(import.meta.dirname, "..");
+const only = process.argv[2];
 
 function sqlString(value) {
   if (value === null || value === undefined) return "NULL";
@@ -32,12 +39,17 @@ function sqlString(value) {
 }
 
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
+if (only && !registry.reports.some((r) => r.id === only)) {
+  console.error(`${only} is not in reports/registry.yaml`);
+  process.exit(2);
+}
+const targets = only ? registry.reports.filter((r) => r.id === only) : registry.reports;
 
 const statements = [];
 const versions = {};
 let totalPassages = 0;
 
-for (const report of registry.reports) {
+for (const report of targets) {
   const reportDir = join(root, `assets/generated/reports/${report.id}`);
   const meta = JSON.parse(readFileSync(join(reportDir, "meta.json"), "utf8"));
 
@@ -100,10 +112,13 @@ for (const report of registry.reports) {
 // build/, not assets/: this file is an input to `wrangler d1 execute`, never
 // served and never read by the Worker. Under assets/ it was 16.3 MB uploaded
 // with every deploy for nothing.
-const outPath = join(root, "build/search-index.sql");
+const outPath = join(root, only ? `build/search-index.${only}.sql` : "build/search-index.sql");
 mkdirSync(dirname(outPath), { recursive: true });
 writeFileSync(outPath, statements.join("\n\n") + "\n");
-writeFileSync(join(root, "build/search-index-versions.json"), JSON.stringify(versions));
+writeFileSync(
+  join(root, only ? `build/search-index-versions.${only}.json` : "build/search-index-versions.json"),
+  JSON.stringify(versions)
+);
 
-console.log(`\n${totalPassages.toLocaleString()} passage(s) across ${registry.reports.length} report(s) → ${outPath}`);
-console.log("Apply with: pnpm wrangler d1 execute reportsthatmatter-marks --local --file=build/search-index.sql");
+console.log(`\n${totalPassages.toLocaleString()} passage(s) across ${targets.length} report(s) → ${outPath}`);
+console.log(`Apply with: ./scripts/reindex-search.sh${only ? ` ${only}` : ""}`);
