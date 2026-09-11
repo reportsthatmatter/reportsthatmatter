@@ -7,6 +7,28 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-11 — Footnotes stop showing someone else's citation
+
+When two different footnotes happened to share the same printed number — a
+report restarting its numbering per chapter, or a scan simply misreading a
+footnote's digits — the pipeline treated them as the same note. Every
+reference to that number showed whichever one of them won a silent merge,
+regardless of which note the reference actually pointed at. Fixed at the
+root: a reference is now resolved against its own note, in the order both
+were written, not through one shared lookup by number.
+
+Seven of ten reports had this to some degree; two are worth naming. Deepwater
+Horizon was hit hardest — the same 1,226 sidenotes now each show only their
+own text instead of a merged blob, and the page dropped from 2.07 MB to
+1.78 MB with nothing removed, just no longer duplicated. The Leveson Inquiry,
+which restarts numbering every chapter, had drifted ten pipeline releases
+behind everything else in the archive; fixing its footnotes meant catching it
+up, so its recall and heading detection also improved along the way.
+
+[Read the corrected Deepwater Horizon report](https://reportsthatmatter.org/reports/us-deepwater-horizon/full).
+
+---
+
 ## 2026-09-11 — Every page gets a real share-card image
 
 Almost the whole site had no `og:image` — a link shared to Slack, iMessage, or
