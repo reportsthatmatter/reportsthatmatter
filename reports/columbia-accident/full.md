@@ -6422,7 +6422,7 @@ Post STS-87 PRCBD, S 062127, 18 Dec 1997. 32
 
 > for the Tiles of the Space Shuttle," pp. 64-86, Interfaces 24, January- February 1994. CAIB document CAB005-0141.
 
-> Letter to M. Elisabeth Paté-Cornell, Stanford University, from Benjamin Buchbinder, Risk Management Program Manager, NASA,[^10] May 1993. CAIB document CAB038-36973698.
+> Letter to M. Elisabeth Paté-Cornell, Stanford University, from Benjamin Buchbinder, Risk Management Program Manager, NASA, 10 May 1993. CAIB document CAB038-36973698.
 
 M. Elisabeth Paté-Cornell, "Follow-up on the Standard 1990 Study of the
 
@@ -6436,7 +6436,7 @@ M. Elisabeth Paté-Cornell, "Follow-up on the Standard 1990 Study of the
 
 > Daniel B. Leiser, "Present/Future Tile Thermal Protection Systems," A presentation to the CAIB (Group 1), 16 May 2003.
 
-> John Kowal, "Orbiter Thermal Protection System (TPS) Upgrades." Space Shuttle Upgrades Safety Panel Review,[^10] February 2003.
+> John Kowal, "Orbiter Thermal Protection System (TPS) Upgrades." Space Shuttle Upgrades Safety Panel Review, 10 February 2003.
 
 > "Problem Reporting and Corrective Action System Requirements," NSTS-08126, Revision H, November 22, 2000. CAIB document CTF044-
 
@@ -6454,7 +6454,7 @@ STR153, North American Aviation, Inc., March 1966. 45
 
 Allen J. Richardson and J. C. Chou, "Correlation of TPS Tile Penetration
 
-Equation & Impact Test Data,"[^3] March 1985. 46
+Equation & Impact Test Data," 3 March 1985. 46
 
 "Review of Crater Program for Evaluating Impact Damage to Orbiter
 
@@ -7475,7 +7475,7 @@ Vaughan, The Challenger Launch Decision, pp. 358-361. 43
 
 Report of the Presidential Commission, Vol. I, pp. 88-89, 93. 44
 
-> Edward Wong, "E-Mail Writer Says He was Hypothesizing, Not Predicting Disaster," New York Times,[^11] March 2003, Sec. A-20, Col.[^1] (excerpts from press conference, Col. 3).
+> Edward Wong, "E-Mail Writer Says He was Hypothesizing, Not Predicting Disaster," New York Times, 11 March 2003, Sec. A-20, Col.[^1] (excerpts from press conference, Col. 3).
 
 Report of the Presidential Commission, Vol. I, pp. 92-95. 46
 

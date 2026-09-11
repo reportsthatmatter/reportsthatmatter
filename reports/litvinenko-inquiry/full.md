@@ -635,7 +635,7 @@ Onset of symptoms 3.113 Marina Litvinenko's evidence was that Mr Litvinenko fell
 
 The Litvinenko Inquiry
 
-3.117 Mr Litvinenko was worse again on the following day,[^3] November. He started to complain of pain, and to experience bloody diarrhoea.[^103] Mrs Litvinenko's evidence was that it was on this day that she prevailed upon the Russian doctor to whom she had previously spoken on the phone to come and visit.[^104] Mr Prikazchikov, who gave evidence to the Inquiry, thought that he had visited on the previous day, but in light of the chronology he is probably wrong about that. Mrs Litvinenko and Mr Prikazchikov were, though, agreed on what he said when he visited. He said that Mr Litvinenko was probably suffering from either food poisoning (no other form of poisoning was mentioned) or an infection, but that either way he ought to be taken straight to hospital.[^105] 3.118 Accordingly, Mrs Litvinenko again rang for an ambulance. The ambulance arrived just after 4.00pm on 3 November and, on this occasion, took Mr Litvinenko to Barnet Hospital, where he was immediately admitted.[^106]
+3.117 Mr Litvinenko was worse again on the following day, 3 November. He started to complain of pain, and to experience bloody diarrhoea.[^103] Mrs Litvinenko's evidence was that it was on this day that she prevailed upon the Russian doctor to whom she had previously spoken on the phone to come and visit.[^104] Mr Prikazchikov, who gave evidence to the Inquiry, thought that he had visited on the previous day, but in light of the chronology he is probably wrong about that. Mrs Litvinenko and Mr Prikazchikov were, though, agreed on what he said when he visited. He said that Mr Litvinenko was probably suffering from either food poisoning (no other form of poisoning was mentioned) or an infection, but that either way he ought to be taken straight to hospital.[^105] 3.118 Accordingly, Mrs Litvinenko again rang for an ambulance. The ambulance arrived just after 4.00pm on 3 November and, on this occasion, took Mr Litvinenko to Barnet Hospital, where he was immediately admitted.[^106]
 
 Treatment in Barnet Hospital 3.119 Dr Andres Virchis, a consultant haematologist at Barnet Hospital, gave evidence about Mr Litvinenko's care and treatment for the fortnight that he was a patient at that hospital.[^107] I also admitted into evidence Mr Litvinenko's medical notes from Barnet Hospital.[^108] 3.120 The evidence that I received from such sources as to Mr Litvinenko's symptoms whilst in Barnet Hospital, about the care and treatment that he received, and in particular about the attempts made by the medical staff to diagnose the condition from which he was suffering, may be summarised as follows: a. Mr Litvinenko had been suffering from abdominal pain, profuse diarrhoea and
 
@@ -753,7 +753,7 @@ m. The blood and urine samples arrived at AWE in the early evening of 21 Novembe
 
 Tests were conducted overnight[^154] n. A meeting between police officers, the forensic science service, AWE and
 
-> Dr Nicholas Gent from Porton Down had been arranged for the following day,[^22] November. During the meeting, the results of the urine tests at AWE, which revealed that polonium was present in Mr Litvinenko's urine, were discussed. However, it was thought that this reading was an anomaly caused by the plastic bottle in which the sample had been stored[^155]
+> Dr Nicholas Gent from Porton Down had been arranged for the following day, 22 November. During the meeting, the results of the urine tests at AWE, which revealed that polonium was present in Mr Litvinenko's urine, were discussed. However, it was thought that this reading was an anomaly caused by the plastic bottle in which the sample had been stored[^155]
 
 o. Mr Timmons had requested that a 'living post mortem' be carried out on Mr Litvinenko
 
@@ -803,7 +803,7 @@ The photo and the deathbed statement 3.140 On Tuesday 21 November 2006, a photog
 
 3.141 Mr Goldfarb said that the idea for the photograph was his. He said that there had been a "crowd" of press outside UCH following the publication of Mr Leppard's article on Sunday 19 November, and he thought that a photograph would be a way of creating extra interest in the story. He said that Mr Litvinenko was "adamant" about, "letting the world know that he has been poisoned by the Kremlin", and that he approved the idea of the photograph.[^176] Marina Litvinenko stated that she was against the idea because at that time she still hoped that Mr Litvinenko would survive, but she confirmed that Mr Litvinenko agreed both to the photograph being taken and to it being published.[^177] Lord Bell, whose agency arranged for the photograph to be taken, gave evidence before me. He recalled that Mr Litvinenko had been "particularly keen that people should see what had happened to him", and that, to that end, he had pulled his hospital gown to one side when the photograph was taken so that all the medical equipment was visible.[^178]
 
-3.142 It was on the same day,[^21] November, that Mr Litvinenko signed what has become known as his deathbed statement. On the day after Mr Litvinenko's death, the statement was read to the media by Mr Goldfarb at a press conference held outside UCH, and was thereafter published widely.
+3.142 It was on the same day, 21 November, that Mr Litvinenko signed what has become known as his deathbed statement. On the day after Mr Litvinenko's death, the statement was read to the media by Mr Goldfarb at a press conference held outside UCH, and was thereafter published widely.
 
 3.143 The statement was short, and was in the following terms:[^179]
 
@@ -2369,7 +2369,7 @@ The Litvinenko Inquiry
 
 > both planes had in fact already been tested and that no contamination had been found[^40]
 
-d. In fact, aircraft EI-DNM flew into Heathrow on that day,[^1] December 2006, and
+d. In fact, aircraft EI-DNM flew into Heathrow on that day, 1 December 2006, and
 
 > was tested for contamination by AWE scientists. They discovered secondary alpha radiation contamination in the area of the seats on which Mr Kovtun and Mr Lugovoy had sat on the flight on 18 October[^41]
 
@@ -2377,7 +2377,7 @@ e. These findings were, clearly, in complete contrast to the communications that
 
 > were being received on the same day both from the airline and from the Russian government to the effect that EI-DNM had been checked and was free of contamination
 
-f. EI-DDK was in fact scheduled to fly to London on the next day,[^2] December.
+f. EI-DDK was in fact scheduled to fly to London on the next day, 2 December.
 
 > That flight, however, was cancelled. Transaero explained at the time that the cancellation was due to disruption to their scheduling caused by the testing of EI-DNM in London[^42]
 
@@ -2553,7 +2553,7 @@ a. As I have described above, Mr Lugovoy and Mr Kovtun arrived at and checked
 
 b. At 3.07pm on the same day – i.e. at about the time of the meeting at Erinys – rooms
 
-> were booked by email for Mr Lugovoy and Mr Kovtun at the Parkes Hotel for the next night,[^17] October. DI Mascall's evidence was that these bookings, unlike the earlier bookings, were made by Mr Lugovoy's daughter, Tatiana Lugovoya[^96]
+> were booked by email for Mr Lugovoy and Mr Kovtun at the Parkes Hotel for the next night, 17 October. DI Mascall's evidence was that these bookings, unlike the earlier bookings, were made by Mr Lugovoy's daughter, Tatiana Lugovoya[^96]
 
 c. Mr Lugovoy and Mr Kovtun checked out of the Best Western Hotel at about
 
@@ -2765,13 +2765,13 @@ Other meetings 6.171 The evidence now available to the Inquiry regarding Mr Lugo
 
 6.173 Moving on, the Visitors' Book at 58 Grosvenor Street, where CPL had its offices, has an entry showing Mr Lugovoy arriving there at 11.30 on the morning of 27 October 2006.157 It is to be noted in this regard that the telephone schedule records a number of calls made between Mr Lugovoy and Dr Shadrin the previous day, on 26 October.[^158] When he gave evidence before me, Dr Shadrin was unable to assist as to whether or not he had seen Mr Lugovoy at his offices on that day.[^159]
 
-6.174 It also appears that Mr Lugovoy met Mr Litvinenko during this trip to London. There is some evidence that the two met at the Sheraton Hotel on the evening of 26 October, after Mr Lugovoy's return from seeing Mr Patarkatsishvili. There is stronger evidence that they met again on the following day,[^27] October.
+6.174 It also appears that Mr Lugovoy met Mr Litvinenko during this trip to London. There is some evidence that the two met at the Sheraton Hotel on the evening of 26 October, after Mr Lugovoy's return from seeing Mr Patarkatsishvili. There is stronger evidence that they met again on the following day, 27 October.
 
 6.175 As to 26 October, it appears that Mr Litvinenko may well have met Mr Lugovoy in the bar of the Sheraton Hotel some time after 7.00pm. It would appear probable that Mr Lugovoy met someone there at that time, since the hotel records include a bar bill in his name timed at 7.50pm for three glasses of wine and two teas.[^160] Mr Litvinenko, as we have seen, did not drink alcohol.
 
 6.176 Various other pieces of evidence indicate that Mr Litvinenko had been in touch with Mr Lugovoy during the day and that he was in the vicinity of the Sheraton Hotel from shortly before 7.00pm until 9.40pm that evening. The telephone schedule records several telephone calls made between Mr Litvinenko and Mr Lugovoy that day.[^161] Mr Litvinenko's Oyster Card records show that he travelled into central London in the early afternoon of 26 October, and that he did not return home until after 10.00pm that evening. Cell site evidence shows Mr Litvinenko in the vicinity of the Sheraton at 6.55pm.162 It therefore seems likely that it was he who drank tea with Mr Lugovoy that evening.
 
-6.177 There was another bar bill on Mr Lugovoy's account for the next day,[^27] October 2006, timed at 5.21pm.163 On this occasion, a whisky and two teas were purchased. Cell site evidence again shows Mr Litvinenko to have been in the vicinity of the Sheraton at the time.[^164] Further, in the course of his interview with the police whilst in hospital,
+6.177 There was another bar bill on Mr Lugovoy's account for the next day, 27 October 2006, timed at 5.21pm.163 On this occasion, a whisky and two teas were purchased. Cell site evidence again shows Mr Litvinenko to have been in the vicinity of the Sheraton at the time.[^164] Further, in the course of his interview with the police whilst in hospital,
 
 %%page 146%%
 
@@ -2779,7 +2779,7 @@ The Litvinenko Inquiry
 
 Mr Litvinenko referred to having purchased a new SIM card for Mr Lugovoy and giving it to him at what he described as their "penultimate meeting" – i.e. their last meeting before the Pine Bar.165 There is evidence that Mr Litvinenko purchased two SIM cards at about 5.00pm on 27 October 2006.166 All this evidence tends to indicate that, as with the previous day, it was Mr Litvinenko who drank tea with Mr Lugovoy on 27 October 2006. DI Mascall stated that the teapots used in the bar at the Sheraton – which was named the Palm Court – were of a silver metal design.[^167]
 
-Contamination at the Sheraton Hotel 6.178 As I mentioned above, Mr Lugovoy occupied room 848 at the Sheraton for the nights of 25,[^26] and 27 October 2006.
+Contamination at the Sheraton Hotel 6.178 As I mentioned above, Mr Lugovoy occupied room 848 at the Sheraton for the nights of 25, 26 and 27 October 2006.
 
 6.179 DI Mascall gave evidence about the radioactive contamination found in the hotel.[^168] He said that the readings taken there were the highest found in the entire investigation. A1 gave her expert opinion as to the interpretation of these results.[^169]
 
@@ -3757,7 +3757,7 @@ Did Mr Kovtun tell D3 that he was planning to poison Mr Litvinenko? 8.102 I now 
 
 8.103 I have set out the evidence relating to these issues at some length above – see in particular paragraphs 6.205 – 6.225 and 6.261 – 6.273.
 
-8.104 There is no doubt that Mr Kovtun met D3 in Hamburg that evening. There is also no doubt that on the following day,[^31] October 2006, Mr Kovtun obtained C2's phone number by telephoning D6, who got the number from D7 after he had spoken to C2. There is, finally, no doubt that Mr Kovtun telephoned C2 the day after that, from London, using Mr Lugovoy's phone.
+8.104 There is no doubt that Mr Kovtun met D3 in Hamburg that evening. There is also no doubt that on the following day, 31 October 2006, Mr Kovtun obtained C2's phone number by telephoning D6, who got the number from D7 after he had spoken to C2. There is, finally, no doubt that Mr Kovtun telephoned C2 the day after that, from London, using Mr Lugovoy's phone.
 
 8.105 There are two, connected, issues in respect of which I must make findings. The first is whether D3 has told the truth about what Mr Kovtun said to him that evening. In particular, did Mr Kovtun tell D3 that he had "a very expensive poison" and that he needed a cook "to put poison in Litvinenko's food or drink"? Second, what was the reason for Mr Kovtun calling C2 in London on 1 November 2006?
 
@@ -3777,7 +3777,7 @@ The Litvinenko Inquiry with his account of conversations with C2 and Dr Shadrin,
 
 8.111 Second, my findings that, by the time Mr Kovtun spoke to D3 on 30 October, he and Mr Lugovoy had already made one, and perhaps two, unsuccessful attempts to kill Mr Litvinenko are also of some significance here. Their previous lack of success makes it more plausible that they wished to alter their methods and enlist some support.
 
-8.112 Third, it is impossible to overlook the fact that only a few minutes after Mr Kovtun had phoned C2 on Mr Lugovoy's phone and discovered that he was too busy to meet that day,[^1] November, a call was made from the same phone to Mr Litvinenko. The call to C2, which lasted one minute and 14 seconds, was timed at 11.33am. The call to Mr Litvinenko, which lasted nearly five minutes, was timed at 11.41am (see paragraph 6.251(e) above).
+8.112 Third, it is impossible to overlook the fact that only a few minutes after Mr Kovtun had phoned C2 on Mr Lugovoy's phone and discovered that he was too busy to meet that day, 1 November, a call was made from the same phone to Mr Litvinenko. The call to C2, which lasted one minute and 14 seconds, was timed at 11.33am. The call to Mr Litvinenko, which lasted nearly five minutes, was timed at 11.41am (see paragraph 6.251(e) above).
 
 8.113 The apparent link between the call to C2 and the call to Mr Litvinenko is highly suggestive.
 
@@ -3919,7 +3919,7 @@ Indifference in Alexander Litvinenko drinking tea 8.155 A further oddity about t
 
 > "Any display by either Lugovoy or Kovtun of eagerness or urgency or desperation would have appeared suspicious and counterproductive. Anything other than diffidence would have appeared very suspicious to Litvinenko and may well have brought an end to the plot to kill him. This was, after all, not the drink of the gods that was on offer at the Millennium Hotel, but an unexceptional cup of lukewarm tea. Any encouragement or enthusiasm from Lugovoy that Litvinenko should drink it would have been out of place and could have betrayed his murderous intent.
 
-> Lugovoy could afford to be diffident for two reasons. First, Litvinenko was very keen to do business and associate with him. Litvinenko needed no encouragement to meet Lugovoy. There would have been many other opportunities to poison him. Even during that third visit to London, Lugovoy and Kovtun were due to meet Litvinenko the following day,[^2] November, at RISC Management.
+> Lugovoy could afford to be diffident for two reasons. First, Litvinenko was very keen to do business and associate with him. Litvinenko needed no encouragement to meet Lugovoy. There would have been many other opportunities to poison him. Even during that third visit to London, Lugovoy and Kovtun were due to meet Litvinenko the following day, 2 November, at RISC Management.
 
 %%page 207%%
 
@@ -4933,7 +4933,7 @@ The Litvinenko Inquiry
 
 The opening of the Inquiry and procedural hearings 54. At a short hearing on 31 July 2014, the formal setting up date of the Inquiry, I made a statement setting out the history of the events which had led up to the establishment of the Inquiry. I also set out procedural matters which would be dealt with in forthcoming directions hearings.
 
-55. Open directions hearings were held on 5 September 2014,[^16] October 2014,[^14] November 2014,[^17] December 2014 and 20 January 2015.
+55. Open directions hearings were held on 5 September 2014, 16 October 2014, 14 November 2014, 17 December 2014 and 20 January 2015.
 
 56. In addition, preparation for the closed substantive hearings required a number of closed directions hearings to be held.
 
@@ -5229,7 +5229,9 @@ Voronezh, Russia 1980-5 AL attended Ordzhonikidze training Marina Litvinenko 3/2
 
 1991 AL's daughter, Sonya, was born 1991 AL was posted to KGB headquarters in Marina Litvinenko
 
-> Moscow 3/27-28; INQ017734 (page 3)[^16] June 1993 AL first met Marina Tsybin (ML) Marina Litvinenko 3/6 1994 AL first met Boris Berezovsky (BB) Berezovsky 25/6-7 1 June 1994 Anatoly Litvinenko (Anatoly) was born Marina Litvinenko 3/12 7 June 1994 AL tasked with investigating attempted INQ017734 (page 3);
+> Moscow 3/27-28; INQ017734 (page 3)
+
+16 June 1993 AL first met Marina Tsybin (ML) Marina Litvinenko 3/6 1994 AL first met Boris Berezovsky (BB) Berezovsky 25/6-7 1 June 1994 Anatoly Litvinenko (Anatoly) was born Marina Litvinenko 3/12 7 June 1994 AL tasked with investigating attempted INQ017734 (page 3);
 
 assassination of BB Berezovsky 25/6-7 14 October 1994 AL married ML INQ017734 (page 2);
 
@@ -5243,7 +5245,9 @@ March 1995 AL prevented police from arresting and Berezovsky 25/7 taking BB into
 
 August 1997 AL joined Department for the INQ017734 (page 5);
 
-> Investigation and Prevention of Marina Litvinenko 3/41 Organised Crime (URPO) division within the Federal Security Service (FSB)[^28] February 1998 AL visited BB and informed him of the INQ017734 (page
+> Investigation and Prevention of Marina Litvinenko 3/41 Organised Crime (URPO) division within the Federal Security Service (FSB)
+
+28 February 1998 AL visited BB and informed him of the INQ017734 (page
 
 > plot to assassinate him 6); Marina Litvinenko 3/55-56
 
@@ -5299,7 +5303,7 @@ Marina Litvinenko 3/96 late October 2000 ML and Anatoly flew from Malaga INQ0177
 
 Appendix 4 | Chronology
 
-31 October/ AL, ML, Anatoly and AGol bought INQ017734 (page 15);[^1] November 2000 tickets for flights from Istanbul to Tblisi Marina Litvinenko
+31 October/ AL, ML, Anatoly and AGol bought INQ017734 (page 15); 1 November 2000 tickets for flights from Istanbul to Tblisi Marina Litvinenko
 
 > with connecting flight in Heathrow. 3/107-108 They arrived at Heathrow airport and AL, ML and Anatoly claimed asylum
 
@@ -5369,7 +5373,7 @@ April/May 2006 AL met with Dr Julia Svetlichnaya on Svetlichnaya 25/91;
 
 several occasions 25/94 May 2006 AL started working with Dean Attew Attew 13/17
 
-(DA)[^18] June 2006 Break in at 25 Grosvenor Street Attew 13/67 June 2006 DA met Lugovoy and AL at Heathrow Attew 13/45-47 airport June/July 2006 AL and Lugovoy met with Tim Reilly Reilly 10/63; 10/68
+(DA) 18 June 2006 Break in at 25 Grosvenor Street Attew 13/67 June 2006 DA met Lugovoy and AL at Heathrow Attew 13/45-47 airport June/July 2006 AL and Lugovoy met with Tim Reilly Reilly 10/63; 10/68
 
 (TR) at Erinys' offices second half of BB reduced financial support to AL Marina Litvinenko June 2006 3/125-127; Cotlick
 
@@ -5413,13 +5417,17 @@ AL around 21 September AL told YS he had passed the report to Shvets 24/73 2006 
 
 The Litvinenko Inquiry
 
-> 6.04pm. AL boarded bus at Tottenham Mascall 9/84 Court Road Lugovoy and Kovtun visited offices of Davison 14/119; EC03/CPL,[^58] Grosvenor Street Shadrin 14/175-180 AL ate dinner at home, felt sick and Marina Litvinenko vomited once 4/34-37 Lugovoy, Kovtun and AS had dinner at Mascall 9/113-115; Pescatori restaurant (bill 10.39pm) Shadrin 14/179-181 Lugovoy and Kovtun went to Dar Mascall 9/115-116 Marrakesh cafe (bill 11.05pm)[^17] October 2006 1.37pm. Lugovoy and Kovtun checked Krgo 9/60-61
+> 6.04pm. AL boarded bus at Tottenham Mascall 9/84 Court Road Lugovoy and Kovtun visited offices of Davison 14/119; EC03/CPL,[^58] Grosvenor Street Shadrin 14/175-180 AL ate dinner at home, felt sick and Marina Litvinenko vomited once 4/34-37 Lugovoy, Kovtun and AS had dinner at Mascall 9/113-115; Pescatori restaurant (bill 10.39pm) Shadrin 14/179-181 Lugovoy and Kovtun went to Dar Mascall 9/115-116 Marrakesh cafe (bill 11.05pm)
+
+17 October 2006 1.37pm. Lugovoy and Kovtun checked Krgo 9/60-61
 
 > out of Best Western Hotel 1.50pm. Lugovoy and Kovtun checked Rondoni 10/187; in at Parkes Hotel, Shaftesbury Avenue Mascall 9/121 (rooms 23 and 25) 3.00pm-5.30pm. Lugovoy and Kovtun Mascall 11/126; attended meeting with AS at CPL,[^58] Davison 14/119; Grosvenor Street Shadrin 14/181 AL, Lugovoy and Kovtun attended Quirke 11/87-99 meeting with Daniel Quirke at RISC, Cavendish Place Alexey Valuev met Lugovoy at Parkes Valuev 11/127-130 Hotel AL, Lugovoy and Kovtun went to Mascall 11/132 Golden Dragon Chinese restaurant, Gerrard Street (bill 9.49pm) Lugovoy and Kovtun went to Cafe Mascall 11/136 Boheme, Old Compton Street 10.41pm. AL travelled home by bus Mascall 11/136 from Tottenham Court Road Lugovoy and Kovtun went to Hey Jo Mascall 11/137 nightclub, Jermyn Street
 
 18 October 2006 About 3.00am. Lugovoy and Kovtun Mascall 11/137
 
-> returned to Parkes Hotel 10.00am. Lugovoy and Kovtun Rondoni 10/193-194 checked out of Parkes Hotel Lugovoy and Kovtun returned from Mascall 9/5-6 London to Moscow on Transaero flight UN444 (aircraft EI-DNM)[^19] October 2006 AL spoke at Frontline Club regarding INQ017734 (page 20) the death of APol
+> returned to Parkes Hotel 10.00am. Lugovoy and Kovtun Rondoni 10/193-194 checked out of Parkes Hotel Lugovoy and Kovtun returned from Mascall 9/5-6 London to Moscow on Transaero flight UN444 (aircraft EI-DNM)
+
+19 October 2006 AL spoke at Frontline Club regarding INQ017734 (page 20) the death of APol
 
 %%page 277%%
 
@@ -5427,7 +5435,9 @@ Appendix 4 | Chronology
 
 25 October 2006 10.54pm. Lugovoy arrived at Heathrow Mascall 12/4-5; 12/11
 
-> on BA flight 875 from Moscow (aircraft G-BNWX) 11.35pm. Lugovoy called Vladimir Mascall 12/26 Voronoff (VV)[^26] October 2006 12.10am. Lugovoy checked in at Mascall 12/7-8
+> on BA flight 875 from Moscow (aircraft G-BNWX) 11.35pm. Lugovoy called Vladimir Mascall 12/26 Voronoff (VV)
+
+26 October 2006 12.10am. Lugovoy checked in at Mascall 12/7-8
 
 > Sheraton Park Lane Hotel (room 848) 8.29am. Lugovoy called AS Shadrin 14/188 10.09am. Lugovoy called AL Mascall 12/63-64 10.30am-2.00pm. Lugovoy was driven Bonetti 12/35-42; by chauffeur in Mercedes E-class Patarkatsishvili to Arkady Patarkatsishvili (APat)'s 12/57-58 house for meeting with APat, VV and Marti Pompadour 11.51am-12.30pm. AL travelled by bus Mascall 12/67 and tube to Tottenham Court Road 6.00-7.30pm. Chauffeur drove Lugovoy Bonetti 12/43-45 from APat's house back to Sheraton Hotel 7.35pm. Lugovoy called AL Mascall 12/65 Lugovoy and AL met at Palm Court Mascall 12/68 bar, Sheraton Hotel (bill 7.50pm) 10.09-10.58pm. AL travelled by tube to Mascall 12/69-70 East Finchley
 
@@ -5993,7 +6003,9 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 Appendix 7 | Restriction Notices and Orders indicates in writing that the attendance of the person is necessary, and arrangements are in place which the Minister considers adequate to ensure that the public interest in preventing the disclosure of the Schedule material is not damaged.[^12] No person shall produce or show to any witness any of the Schedule material, or ask any questions which tend to reveal the existence or content of such material, otherwise than in accordance with a procedure formulated by the Core Inquiry Team and agreed in writing by the Minister.[^13] The Chairman shall ensure that no transcript of the evidence given at a closed hearing is made available to any person other than the Minister, members of the Core Inquiry Team or HMG advisers.[^14] The Chairman shall ensure that no reference is made to the substance of the evidence given at a closed hearing of the Inquiry in any open ruling, judgment or report arising out of the Inquiry, or otherwise.
 
-Amendments to this Restriction Notice 15 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.[^16] The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.[^17] The Minister may amend this Restriction Notice at any time.[^7] July 2014 (as amended 21 January 2015)
+Amendments to this Restriction Notice 15 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.[^16] The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.[^17] The Minister may amend this Restriction Notice at any time.
+
+7 July 2014 (as amended 21 January 2015)
 
 %%page 300%%
 
@@ -6059,7 +6071,9 @@ The Litvinenko Inquiry
 
 14 The Chairman shall ensure that no reference is made to the substance of the evidence given at a closed hearing of the Inquiry in any open ruling, judgment or report arising out of the Inquiry, or otherwise.
 
-Amendments to this Restriction Notice 15 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.[^16] The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.[^17] The Minister may amend this Restriction Notice at any time.[^4] November 2014 (as amended 21 January 2015)
+Amendments to this Restriction Notice 15 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.[^16] The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.[^17] The Minister may amend this Restriction Notice at any time.
+
+4 November 2014 (as amended 21 January 2015)
 
 %%page 303%%
 
@@ -6189,7 +6203,9 @@ The Litvinenko Inquiry
 
 14 The Chairman shall ensure that no reference is made to the substance of the evidence given at a closed hearing of the Inquiry in any open ruling, judgment or report arising out of the Inquiry, or otherwise.
 
-Amendments to this Restriction Notice 15 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.[^16] The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.[^17] The Minister may amend this Restriction Notice at any time.[^29] June 2015
+Amendments to this Restriction Notice 15 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.[^16] The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.[^17] The Minister may amend this Restriction Notice at any time.
+
+29 June 2015
 
 %%page 309%%
 
@@ -6253,7 +6269,7 @@ The Litvinenko Inquiry
 
 ## RESTRICTION ORDER
 
-Witness Anonymity and Screening The screening orders dated 9 October 2014 (made in relation to A3),[^14] November 2014 (made in relation to A1 and also in relation to C2, C3, D3, D6 and D7) and 27 November 2014 (made in relation to D9) are varied so that in the event that the said individuals give evidence, their physical appearance need not be concealed from any other person whom the Chairman directs.
+Witness Anonymity and Screening The screening orders dated 9 October 2014 (made in relation to A3), 14 November 2014 (made in relation to A1 and also in relation to C2, C3, D3, D6 and D7) and 27 November 2014 (made in relation to D9) are varied so that in the event that the said individuals give evidence, their physical appearance need not be concealed from any other person whom the Chairman directs.
 
 This Order is made under section 19(1) of the Inquiries Act 2005 and binds all members of the public, including Core Participants.
 
@@ -6301,31 +6317,35 @@ Millennium Hotel INQ017917 3D model images showing contamination at the Sheraton
 
 November 2006 INQ018252 Maps showing the movements of Andrey Lugovoy and Dmitri Kovtun on 1 November 2006
 
-(Expert reports, pathology, medical and scientific evidence) INQ019031 Expert report by Professor Ray Bull,[^4] December 2014 INQ019146 Expert report by Professor Robert Service,[^8] January 2015 INQ020316 Supplemental report by Professor Robert Service,[^4] March 2015 INQ020998 Corrections to report by Professor Robert Service,[^19] March 2015 BLK000001 Coroner's Interim Certificate of the Fact of Death,[^9] February 2007 INQ003002 Witness statement of Dr Nathaniel Cary,[^20] July 2007 INQ003187 Witness statement of Dr Benjamin Swift,[^2] October 2007 INQ015541 GP medical notes of Alexander Litvinenko INQ006741 Barnet Hospital medical file of Alexander Litvinenko INQ006652 University College London Hospitals medical notes of
+(Expert reports, pathology, medical and scientific evidence) INQ019031 Expert report by Professor Ray Bull, 4 December 2014 INQ019146 Expert report by Professor Robert Service, 8 January 2015 INQ020316 Supplemental report by Professor Robert Service, 4 March 2015 INQ020998 Corrections to report by Professor Robert Service, 19 March 2015 BLK000001 Coroner's Interim Certificate of the Fact of Death, 9 February 2007 INQ003002 Witness statement of Dr Nathaniel Cary, 20 July 2007 INQ003187 Witness statement of Dr Benjamin Swift, 2 October 2007 INQ015541 GP medical notes of Alexander Litvinenko INQ006741 Barnet Hospital medical file of Alexander Litvinenko INQ006652 University College London Hospitals medical notes of
 
-Alexander Litvinenko INQ007478 Witness statement of A1,[^18] January 2007
+Alexander Litvinenko INQ007478 Witness statement of A1, 18 January 2007
 
 %%page 316%%
 
 The Litvinenko Inquiry
 
-INQ007516 Witness statement of A1,[^18] April 2007 INQ007523 Witness statement of A1,[^4] May 2007 INQ016403 Witness statement of A1,[^26] June 2013 INQ022423 Witness statement of A1,[^26] September 2015 INQ020222 Autoradiograph of one strand of hair INQ017269 HPA joint paper titled Polonium 210 as a poison,[^6] March 2007 INQ014961 HPA joint report titled Mr Litvinenko: Estimated radiation doses and expected health effects following intake of Polonium-210,[^26] April
+INQ007516 Witness statement of A1, 18 April 2007 INQ007523 Witness statement of A1, 4 May 2007 INQ016403 Witness statement of A1, 26 June 2013 INQ022423 Witness statement of A1, 26 September 2015 INQ020222 Autoradiograph of one strand of hair INQ017269 HPA joint paper titled Polonium 210 as a poison, 6 March 2007 INQ014961 HPA joint report titled Mr Litvinenko: Estimated radiation doses and expected health effects following intake of Polonium-210, 26 April
 
 2007 INQ016745 PHE joint report titled The evidence for the use of Polonium-210 to
 
-> poison Mr Litvinenko,[^5] February 2014 (Evidence of Alexander and Marina Litvinenko)
+> poison Mr Litvinenko, 5 February 2014 (Evidence of Alexander and Marina Litvinenko)
 
-INQ002076 Interview of Alexander Litvinenko,[^18] November 2006 (1 of 18) INQ002433 Interview of Alexander Litvinenko,[^18] November 2006 (2 of 18) INQ002450 Interview of Alexander Litvinenko,[^18] November 2006 (3 of 18) INQ002470 Interview of Alexander Litvinenko,[^18] November 2006 (4 of 18) INQ016528 Interview of Alexander Litvinenko,[^18] November 2006 (5 of 18) INQ016538 Interview of Alexander Litvinenko,[^18] November 2006 (6 of 18) INQ016549 Interview of Alexander Litvinenko,[^18] November 2006 (7 of 18) INQ016559 Interview of Alexander Litvinenko,[^18] November 2006 (8 of 18) INQ016570 Interview of Alexander Litvinenko,[^18] November 2006 (9 of 18) INQ016582 Interview of Alexander Litvinenko,[^19] November 2006 (10 of 18) INQ016593 Interview of Alexander Litvinenko,[^19] November 2006 (11 of 18) INQ016604 Interview of Alexander Litvinenko,[^19] November 2006 (12 of 18) INQ016615 Interview of Alexander Litvinenko,[^19] November 2006 (13 of 18) INQ016627 Interview of Alexander Litvinenko,[^20] November 2006 (14 of 18) INQ016638 Interview of Alexander Litvinenko,[^20] November 2006 (15 of 18) INQ016642 Interview of Alexander Litvinenko,[^20] November 2006 (16 of 18) INQ016652 Interview of Alexander Litvinenko,[^20] November 2006 (17 of 18) INQ016661 Interview of Alexander Litvinenko,[^20] November 2006 (18 of 18) INQ017399 Statement by Alexander Litvinenko,[^21] November 2006 INQ019299 Photograph of Alexander Litvinenko in his hospital bed INQ017734 Witness statement of Marina Litvinenko,[^27] March 2013
+INQ002076 Interview of Alexander Litvinenko, 18 November 2006 (1 of 18) INQ002433 Interview of Alexander Litvinenko, 18 November 2006 (2 of 18) INQ002450 Interview of Alexander Litvinenko, 18 November 2006 (3 of 18) INQ002470 Interview of Alexander Litvinenko, 18 November 2006 (4 of 18) INQ016528 Interview of Alexander Litvinenko, 18 November 2006 (5 of 18) INQ016538 Interview of Alexander Litvinenko, 18 November 2006 (6 of 18) INQ016549 Interview of Alexander Litvinenko, 18 November 2006 (7 of 18) INQ016559 Interview of Alexander Litvinenko, 18 November 2006 (8 of 18) INQ016570 Interview of Alexander Litvinenko, 18 November 2006 (9 of 18) INQ016582 Interview of Alexander Litvinenko, 19 November 2006 (10 of 18) INQ016593 Interview of Alexander Litvinenko, 19 November 2006 (11 of 18) INQ016604 Interview of Alexander Litvinenko, 19 November 2006 (12 of 18) INQ016615 Interview of Alexander Litvinenko, 19 November 2006 (13 of 18) INQ016627 Interview of Alexander Litvinenko, 20 November 2006 (14 of 18) INQ016638 Interview of Alexander Litvinenko, 20 November 2006 (15 of 18) INQ016642 Interview of Alexander Litvinenko, 20 November 2006 (16 of 18) INQ016652 Interview of Alexander Litvinenko, 20 November 2006 (17 of 18) INQ016661 Interview of Alexander Litvinenko, 20 November 2006 (18 of 18) INQ017399 Statement by Alexander Litvinenko, 21 November 2006 INQ019299 Photograph of Alexander Litvinenko in his hospital bed INQ017734 Witness statement of Marina Litvinenko, 27 March 2013
 
 %%page 317%%
 
 Appendix 8 | Key documents
 
-(Evidence of Andrey Lugovoy and Dmitri Kovtun) INQ013787 Security report by DC Spencer Scott at Gatwick Airport,[^16] October 2006 INQ002058 Declaration by Andrey Lugovoy,[^23] November 2006 INQ002696 Declaration by Dmitri Kovtun,[^23] November 2006 INQ001886 Transcript of the press conference of Andrey Lugovoy and
+(Evidence of Andrey Lugovoy and Dmitri Kovtun) INQ013787 Security report by DC Spencer Scott at Gatwick Airport,
 
-Dmitri Kovtun,[^31] May 2007 INQ001788 Witness statement of Andrey Lugovoy in the Terluk case,[^4] March
+16 October 2006 INQ002058 Declaration by Andrey Lugovoy, 23 November 2006 INQ002696 Declaration by Dmitri Kovtun, 23 November 2006 INQ001886 Transcript of the press conference of Andrey Lugovoy and
 
-2011 INQ001842 Witness statement of Andrey Lugovoy in the Terluk case,[^26] October 2011 INQ021208 Witness statement of Dmitri Kovtun,[^2] June 2015
+Dmitri Kovtun, 31 May 2007 INQ001788 Witness statement of Andrey Lugovoy in the Terluk case, 4 March
+
+2011 INQ001842 Witness statement of Andrey Lugovoy in the Terluk case,
+
+26 October 2011 INQ021208 Witness statement of Dmitri Kovtun, 2 June 2015
 
 %%page 318%%
 

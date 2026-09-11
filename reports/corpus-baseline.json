@@ -739,8 +739,8 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 138489,
-      "paragraphs": 2101,
+      "words": 138036,
+      "paragraphs": 2111,
       "sections": [
         {
           "slug": "front-matter",
@@ -782,7 +782,7 @@
           "slug": "chapter-4-illness-and-death",
           "title": "Chapter 4: Illness and death",
           "paragraphs": 79,
-          "ids": "1668ad598302"
+          "ids": "d1ef4f79e9e5"
         },
         {
           "slug": "chapter-5-scientific-examination-of-alexander-litvinenkos-body",
@@ -1015,8 +1015,8 @@
         {
           "slug": "appendix-4-chronology",
           "title": "Appendix 4: Chronology",
-          "paragraphs": 72,
-          "ids": "c89fe065be76"
+          "paragraphs": 77,
+          "ids": "6976bcbf09b1"
         },
         {
           "slug": "appendix-5-dramatis-personae",
@@ -1027,14 +1027,14 @@
         {
           "slug": "appendix-6-abbreviations",
           "title": "Appendix 6: Abbreviations",
-          "paragraphs": 129,
-          "ids": "be7bfe6860ff"
+          "paragraphs": 132,
+          "ids": "bb3779964e26"
         },
         {
           "slug": "appendix-8-key-documents",
           "title": "Appendix 8: Key documents",
-          "paragraphs": 16,
-          "ids": "7c7301691ab1"
+          "paragraphs": 18,
+          "ids": "968fe01d34fa"
         },
         {
           "slug": "appendix-9-list-of-witnesses",
@@ -1052,7 +1052,7 @@
     },
     "uk-leveson-inquiry": {
       "words": 1073884,
-      "paragraphs": 10959,
+      "paragraphs": 10960,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
@@ -1064,7 +1064,7 @@
           "slug": "chapter-7-conclusions-and-recommendations-for-future-regulation",
           "title": "Chapter 7: Conclusions and recommendations for future regulation",
           "paragraphs": 453,
-          "ids": "aa33f47fecaa"
+          "ids": "1e140b4e6ca4"
         },
         {
           "slug": "news-corporation",
@@ -1231,8 +1231,8 @@
         {
           "slug": "purchase-of-the-times-and-the-sunday-times",
           "title": "Purchase of The Times and The Sunday Times",
-          "paragraphs": 158,
-          "ids": "7bfc1f330b0e"
+          "paragraphs": 160,
+          "ids": "f4dbecdf806f"
         },
         {
           "slug": "human-rights-act",
@@ -1273,8 +1273,8 @@
         {
           "slug": "june-2010-december-2010-the-rt-hon-dr-vince",
           "title": "June 2010 – December 2010: The Rt Hon Dr Vince",
-          "paragraphs": 259,
-          "ids": "ab7167b8e129"
+          "paragraphs": 258,
+          "ids": "bcf404eff8f4"
         },
         {
           "slug": "december-2010-july-2011-the-rt-hon-jeremy-hunt",
@@ -1423,7 +1423,7 @@
       ]
     },
     "columbia-accident": {
-      "words": 169179,
+      "words": 168979,
       "paragraphs": 2920,
       "sections": [
         {
@@ -1837,14 +1837,8 @@
         {
           "slug": "64-possibility-of-rescue-or-repair",
           "title": "6.4 POSSIBILITY OF RESCUE OR REPAIR",
-          "paragraphs": 32,
-          "ids": "a5b1e3891c51"
-        },
-        {
-          "slug": "elisabeth-pat-cornell-and-paul-s-fischbeck-risk-management",
-          "title": "Elisabeth Paté-Cornell and Paul S. Fischbeck, \"Risk Management",
-          "paragraphs": 7,
-          "ids": "8201e8aaedb6"
+          "paragraphs": 39,
+          "ids": "9ac84644d764"
         },
         {
           "slug": "understanding-causes",
@@ -2431,7 +2425,7 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 191474,
+      "words": 191454,
       "paragraphs": 1330,
       "sections": [
         {
@@ -3385,8 +3379,8 @@
       ]
     },
     "uk-hillsborough-panel": {
-      "words": 208309,
-      "paragraphs": 2984,
+      "words": 202347,
+      "paragraphs": 2987,
       "sections": [
         {
           "slug": "front-matter",
@@ -3398,25 +3392,25 @@
           "slug": "neither-syp-nor-the-south-yorkshire-metropolitan-ambulance-service-symas",
           "title": "Neither SYP nor the South Yorkshire Metropolitan Ambulance Service (SYMAS)",
           "paragraphs": 624,
-          "ids": "1cf2415c5bde"
+          "ids": "c2ada5fb77d9"
         },
         {
           "slug": "hillsborough",
           "title": "HILLSBOROUGH",
           "paragraphs": 745,
-          "ids": "33e25774031e"
+          "ids": "3a17943c62b7"
         },
         {
           "slug": "sheffield-city-council",
           "title": "Sheffield City Council",
           "paragraphs": 314,
-          "ids": "96809fd47dbe"
+          "ids": "71b84acb0d71"
         },
         {
           "slug": "of-action-check-transcripts-submissions-by-swfc-re-fence-check-transcripts-and-f",
           "title": "OF ACTION: CHECK TRANSCRIPTS & SUBMISSIONS BY SWFC RE FENCE. CHECK TRANSCRIPTS AND FINAL SUBMISSIONS BY SHEFFIELD WEDNESDAY FOOTBALL CLUB RE ADDITIONAL GATE IN THE RADIAL FENCE IN",
-          "paragraphs": 405,
-          "ids": "214416f3e8fe"
+          "paragraphs": 406,
+          "ids": "10d5f25ef7fe"
         },
         {
           "slug": "18-to-her-majestys-attorney-general-the-humble-memorial-of-sandra-stringer-and-d",
@@ -3433,14 +3427,14 @@
         {
           "slug": "memorandum-to-the-attorney-general-kevin-daniel-williams-deceased-application-un",
           "title": "Memorandum to the Attorney General, 'KEVIN DANIEL WILLIAMS (DECEASED) APPLICATION UNDER SECTION",
-          "paragraphs": 410,
-          "ids": "a54c8243fa87"
+          "paragraphs": 412,
+          "ids": "f5487e499f60"
         },
         {
           "slug": "shame-of-boozy-yobs50",
           "title": "SHAME OF BOOZY YOBS'.50",
           "paragraphs": 296,
-          "ids": "772b1f2f55ba"
+          "ids": "8d24ad57fcb2"
         }
       ]
     }

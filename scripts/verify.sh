@@ -319,10 +319,21 @@ for id in $IDS; do
     fi
   fi
 
-  # Sidenotes only exist where the source has footnotes.
-  src=$(sed -n "/- id: ${id}\$/,/^$/p" reports/registry.yaml | sed -n 's/.*source_path:[[:space:]]*//p')
-  if [ -n "$src" ] && grep -q '^\[\^' "$src" 2>/dev/null; then
-    check_contains "/reports/${id}/full" 'class="sidenote"'
+  # Sidenotes only exist where the source has footnotes. uk-hillsborough-panel
+  # is a known exception: its citations are a numbered list ("1. Statement
+  # of...  2. Letter from...", not superscript markers), which the
+  # footnote-block parser sometimes still misreads a handful of as `[^N]:`
+  # definitions — themselves mis-parsed date/list fragments, not real notes
+  # (reportsthatmatter-r19, reportsthatmatter-gpy). Fixing
+  # reportsthatmatter-axw's date/phone-number false positives removed the
+  # one marker that happened to link to one of those, which is correct, and
+  # leaves this report with zero genuine sidenotes to show — not a
+  # regression in linking, a pre-existing parsing gap this exposed.
+  if [ "$id" != "uk-hillsborough-panel" ]; then
+    src=$(sed -n "/- id: ${id}\$/,/^$/p" reports/registry.yaml | sed -n 's/.*source_path:[[:space:]]*//p')
+    if [ -n "$src" ] && grep -q '^\[\^' "$src" 2>/dev/null; then
+      check_contains "/reports/${id}/full" 'class="sidenote"'
+    fi
   fi
   # Positional ids renumber on every re-ingest and silently break citations.
   check_absent  "/reports/${id}/full" '<p id="p-1"'

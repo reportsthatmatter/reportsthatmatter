@@ -1287,7 +1287,7 @@ Some months later, an internal WaMu review assessed "the effectiveness of the ac
 
 In particular, the review found:
 
-> "Ineffectiveness of fraud detection tools – 132 of the 187 (71%) files were reviewed … for fraud. [The review] confirmed fraud on 115 [and 17 were] … 'highly suspect'. ... Credit weakness and underwriting deficiencies is a repeat finding ….[^80] of the 112 (71%) stated income loans were identified for lack of reasonableness of income[.] 133 (71%) had credit evaluation or loan decision errors ….[^58] (31%) had appraisal discrepancies or issues that raised concerns that the value was not supported."[^257]
+> "Ineffectiveness of fraud detection tools – 132 of the 187 (71%) files were reviewed … for fraud. [The review] confirmed fraud on 115 [and 17 were] … 'highly suspect'. ... Credit weakness and underwriting deficiencies is a repeat finding ….[^80] of the 112 (71%) stated income loans were identified for lack of reasonableness of income[.] 133 (71%) had credit evaluation or loan decision errors ….[^58] (31%) had appraisal discrepancies or issues that raised concerns that the value was not supported." 257
 
 July 2007 was a critical moment not only for WaMu, but also for the broader market for mortgage securities. In that month, Moody's and S&P downgraded the ratings of hundreds of RMBS and CDO securities, including 40 Long Beach subprime securities.[^258] The mass downgrades caused many investors to immediately stop buying subprime RMBS securities, and the securities plummeted in value. Wall Street firms were increasingly unable to find investors for new subprime RMBS securitizations.
 
