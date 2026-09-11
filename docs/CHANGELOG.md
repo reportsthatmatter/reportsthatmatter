@@ -7,6 +7,21 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-11 — 210 of Challenger's Findings and Recommendations get their own paragraph back
+
+The Committee's report structures every issue it investigated the same
+way — a question, a Finding, a Recommendation — but the label marking each
+one printed flush against the margin with nothing to set it apart from
+ordinary body text. The scan read it as part of whichever sentence came
+right before it: "...without certification and approval. Recommendations"
+looked like one run-on thought, and the numbered list that actually
+answered "Recommendations" followed as if unrelated. 214 of these labels
+were affected; 210 are now their own paragraph, exactly as printed.
+
+[Read the corrected report](https://reportsthatmatter.org/reports/challenger-accident/full).
+
+---
+
 ## 2026-09-11 — Footnote markers stop landing on dates and phone numbers
 
 A handful of ordinary numbers in the prose were being turned into footnote

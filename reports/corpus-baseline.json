@@ -439,8 +439,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 154317,
-      "paragraphs": 2693,
+      "words": 154527,
+      "paragraphs": 2903,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -457,26 +457,26 @@
         {
           "slug": "conclusions",
           "title": "CONCLUSIONS",
-          "paragraphs": 60,
-          "ids": "0838f059c114"
+          "paragraphs": 73,
+          "ids": "cb84f48232d3"
         },
         {
           "slug": "hardware-development-and-production",
           "title": "Hardware Development and Production",
-          "paragraphs": 51,
-          "ids": "8ba29f998d72"
+          "paragraphs": 99,
+          "ids": "207955c89548"
         },
         {
           "slug": "technical-management",
           "title": "Technical Management",
-          "paragraphs": 25,
-          "ids": "77044d4e8142"
+          "paragraphs": 48,
+          "ids": "c666c38b8f67"
         },
         {
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
-          "paragraphs": 44,
-          "ids": "45a6e3ff273c"
+          "paragraphs": 66,
+          "ids": "f6a4e027324a"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -493,8 +493,8 @@
         {
           "slug": "history",
           "title": "HISTORY",
-          "paragraphs": 11,
-          "ids": "69a2bd72f8d0"
+          "paragraphs": 12,
+          "ids": "2c85e3c7d327"
         },
         {
           "slug": "fletcher-the-solid-rocket-motor-source-evaluation-board-seb",
@@ -512,79 +512,79 @@
           "slug": "summary-of-casing-joint-design",
           "title": "SUMMARY OF CASING JOINT DESIGN",
           "paragraphs": 29,
-          "ids": "4a212c75795d"
+          "ids": "e39c386b2733"
         },
         {
           "slug": "stacking-operations",
           "title": "STACKING OPERATIONS",
-          "paragraphs": 25,
-          "ids": "bf81b941539a"
+          "paragraphs": 26,
+          "ids": "7171f8ddbedf"
         },
         {
           "slug": "summary-of-launch-operations",
           "title": "SUMMARY OF LAUNCH OPERATIONS",
-          "paragraphs": 25,
-          "ids": "7611edad466e"
+          "paragraphs": 29,
+          "ids": "3d73d0fb5485"
         },
         {
           "slug": "external",
           "title": "EXTERNAL",
-          "paragraphs": 19,
-          "ids": "b374de433efc"
+          "paragraphs": 21,
+          "ids": "57a87c709b4d"
         },
         {
           "slug": "crewsurvival",
           "title": "CREWSURVIVAL",
-          "paragraphs": 35,
-          "ids": "b567b44ad99e"
+          "paragraphs": 37,
+          "ids": "349bc56f195e"
         },
         {
           "slug": "hardware-development-and-production-2",
           "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
-          "paragraphs": 163,
-          "ids": "045daece20af"
+          "paragraphs": 199,
+          "ids": "eeb290e0fd5d"
         },
         {
           "slug": "2-operations",
           "title": "2 . OPERATIONS",
-          "paragraphs": 7,
-          "ids": "78ea826ec971"
+          "paragraphs": 10,
+          "ids": "e0eb1d53e8f4"
         },
         {
           "slug": "lockheed-shuttle-processing-contract-award-fee-history",
           "title": "LOCKHEED SHUTTLE PROCESSING CONTRACT-AWARD FEE HISTORY",
-          "paragraphs": 72,
-          "ids": "530e6f526664"
+          "paragraphs": 78,
+          "ids": "9c8af216a37e"
         },
         {
           "slug": "figure",
           "title": "FIGURE",
-          "paragraphs": 83,
-          "ids": "aea0c0869279"
+          "paragraphs": 88,
+          "ids": "aee97769583c"
         },
         {
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
-          "paragraphs": 5,
-          "ids": "1571975e8903"
+          "paragraphs": 7,
+          "ids": "8a5853ae15ce"
         },
         {
           "slug": "figure-2",
           "title": "FIGURE",
-          "paragraphs": 156,
-          "ids": "5e7b14bab0fe"
+          "paragraphs": 178,
+          "ids": "ac9a437232d3"
         },
         {
           "slug": "organization-a-n-d-policy-management",
           "title": "ORGANIZATION A N D POLICY MANAGEMENT",
-          "paragraphs": 114,
-          "ids": "e1a45e924101"
+          "paragraphs": 134,
+          "ids": "02f45c60e372"
         },
         {
           "slug": "w-i-l-l-not-1-seal",
           "title": "W I L L NOT 1 SEAL",
           "paragraphs": 152,
-          "ids": "9736ae6e74ea"
+          "ids": "5a5815dca961"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
