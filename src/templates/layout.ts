@@ -1,3 +1,5 @@
+import { SITE_ORIGIN, SITE_CARD_PATH } from "./site";
+
 export type NavLink = { label: string; href: string };
 
 export function escapeHtml(value: string): string {
@@ -40,7 +42,11 @@ type LayoutOptions = HeadOptions & {
  * implementation, whoever assembles the page around it.
  */
 export function renderHead(title: string, options: HeadOptions = {}): string {
-  const { description = DEFAULT_DESCRIPTION, image, structuredData } = options;
+  // Every page gets a real og:image, not just the ones that pass one in —
+  // reportsthatmatter-obw. A page with something more specific (a report's
+  // own card, a curated quote) passes it; this is the floor everything else
+  // lands on, rather than a bare-text preview.
+  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, structuredData } = options;
 
   return `<!doctype html>
 <html lang="en">

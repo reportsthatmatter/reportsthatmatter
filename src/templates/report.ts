@@ -1,6 +1,6 @@
 import { renderLayout, escapeHtml } from "./layout";
 import { decodeAnchor, locate } from "../../assets/anchor.js";
-import { cardPath } from "./card";
+import { cardPath, defaultCardPath } from "./card";
 import { CARDS } from "../generated/cards";
 
 export type ReportMeta = {
@@ -69,11 +69,17 @@ export function truncate(text: string, limit: number): string {
 
 /**
  * Only advertise a card that exists — an og:image pointing at a 404 is worse
- * than no image at all.
+ * than no image at all. Falls back to the report's own default card (its
+ * title, not a quote) when the paragraph shared isn't one of the curated
+ * ones — reportsthatmatter-obw. `renderLayout`'s own fallback to the
+ * site-wide card is the floor below that, for a report with no id at all.
  */
-function shareImage(meta: ReportMeta, highlighted?: string): string | undefined {
+export function shareImage(meta: ReportMeta, highlighted?: string): string | undefined {
   const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
-  return cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined;
+  if (cardKey && CARDS.has(cardKey)) return cardPath(meta.id!, highlighted!);
+
+  const defaultKey = meta.id ? `${meta.id}/default` : null;
+  return defaultKey && CARDS.has(defaultKey) ? defaultCardPath(meta.id!) : undefined;
 }
 
 /**

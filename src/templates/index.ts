@@ -1,5 +1,6 @@
 import type { ReportRegistry } from "../lib/registry";
 import { renderLayout, escapeHtml } from "./layout";
+import { SITE_HEADLINE, SITE_STANDFIRST } from "./site";
 
 export function renderReportList(registry: ReportRegistry): string {
   if (!registry.reports.length) {
@@ -26,9 +27,8 @@ export function renderIndex(registry: ReportRegistry): string {
   const body = `
 <main>
   <section class="hero wrap">
-    <h1>Reports that shaped history are still trapped in PDFs.</h1>
-    <p class="standfirst">Official inquiries publish the evidence that anchors public understanding — then bury it in
-    scanned documents on decaying websites. We rebuild them as web pages you can read, search, and cite by passage.</p>
+    <h1>${escapeHtml(SITE_HEADLINE)}</h1>
+    <p class="standfirst">${escapeHtml(SITE_STANDFIRST)}</p>
     <div class="actions">
       <a class="btn btn-filled mono" href="/reports">Read the reports</a>
       <a class="btn mono" href="/about">What this is</a>

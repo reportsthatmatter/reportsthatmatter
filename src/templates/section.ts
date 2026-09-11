@@ -1,9 +1,7 @@
 import { renderLayout, escapeHtml } from "./layout";
-import { cardPath } from "./card";
-import { CARDS } from "../generated/cards";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
-import { quotedPassage, truncate } from "./report";
+import { quotedPassage, truncate, shareImage } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
 
 /** What the page shell needs of a section — not its html. */
@@ -23,14 +21,13 @@ export function sectionPreview(
   highlighted?: string
 ): { title: string; description: string; image?: string; structuredData: string } {
   const reportPath = `/reports/${meta.id ?? ""}`;
-  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
 
   return {
     title: `${section.title} — ${meta.title} — Reports that Matter`,
     description: quoted
       ? `“${truncate(quoted, 280)}” — ${meta.title}`
       : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`,
-    image: cardKey && CARDS.has(cardKey) ? cardPath(meta.id!, highlighted!) : undefined,
+    image: shareImage(meta, highlighted),
     structuredData: breadcrumbJsonLd([
       { name: "Reports", path: "/reports" },
       { name: meta.title, path: reportPath },
@@ -130,6 +127,7 @@ export function renderReportOverview(
 
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
     description,
+    image: shareImage(meta),
     structuredData: reportJsonLd(meta, description),
   });
 }

@@ -286,18 +286,27 @@ describe("share cards", () => {
     expect(body).toContain('name="twitter:card" content="summary_large_image"');
   });
 
-  it("does not advertise a card that has not been generated", async () => {
+  it("falls back to the report's own default card when the passage has none (reportsthatmatter-obw)", async () => {
     const res = await app.request(
       "http://localhost/reports/jack-smith-vol1/full?p=rioters-capitol-had-been-motivated-999"
     );
     const body = await res.text();
-    expect(body).not.toContain("og:image");
-    expect(body).toContain('name="twitter:card" content="summary"');
+    expect(body).toContain("https://reportsthatmatter.org/assets/cards/jack-smith-vol1/default.png");
+    expect(body).toContain('name="twitter:card" content="summary_large_image"');
   });
 
-  it("does not advertise a card without a named passage", async () => {
+  it("falls back to the report's own default card without a named passage", async () => {
     const res = await app.request("http://localhost/reports/jack-smith-vol1/full");
-    expect(await res.text()).not.toContain("og:image");
+    expect(await res.text()).toContain(
+      "https://reportsthatmatter.org/assets/cards/jack-smith-vol1/default.png"
+    );
+  });
+
+  it("falls back to the site's default card where there is no report at all", async () => {
+    const res = await app.request("http://localhost/");
+    const body = await res.text();
+    expect(body).toContain("https://reportsthatmatter.org/assets/cards/site.png");
+    expect(body).toContain('name="twitter:card" content="summary_large_image"');
   });
 
   it("serves the generated card image", async () => {
@@ -305,6 +314,14 @@ describe("share cards", () => {
       `http://localhost/assets/cards/jack-smith-vol1/${CARD_PARAGRAPH}.png`
     );
     expect(res.status).toBe(200);
+  });
+
+  it("serves the generated default card images", async () => {
+    const report = await app.request("http://localhost/assets/cards/jack-smith-vol1/default.png");
+    expect(report.status).toBe(200);
+
+    const site = await app.request("http://localhost/assets/cards/site.png");
+    expect(site.status).toBe(200);
   });
 });
 

@@ -1,7 +1,10 @@
 /* Renders share cards to PNG.
  *
- *   pnpm cards                        # every quote in docs/share-quotes.yaml
- *   pnpm cards <report-id> <para-id>  # one, ad hoc
+ *   pnpm cards                        # every quote in docs/share-quotes.yaml,
+ *                                      # plus the site card and one default
+ *                                      # card per report (reportsthatmatter-obw)
+ *   pnpm cards <report-id> <para-id>  # one curated quote, ad hoc — skips the
+ *                                      # default cards, for a fast iteration loop
  *
  * Build-time rather than on request: feeds will not render SVG, and a runtime
  * rasteriser (satori + resvg wasm) would cost more bundle than the entire site
@@ -11,7 +14,8 @@ import { chromium } from "playwright";
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
-import { renderCard } from "../src/templates/card.ts";
+import { renderCard, renderDefaultCard } from "../src/templates/card.ts";
+import { SITE_HEADLINE, SITE_STANDFIRST } from "../src/templates/site.ts";
 import { renderMarkdown } from "@rtm/ingest";
 import { extractParagraph } from "../src/templates/report.ts";
 
@@ -143,6 +147,44 @@ for (const target of targets) {
 
   generated.push(`${target.report}/${resolved.id}`);
   console.log(`  ✓ ${target.report}/${resolved.id}${target.note ? ` — ${target.note}` : ""}`);
+}
+
+// Default cards — a title, no quote — for everything a curated card doesn't
+// cover: the site itself, and every report's contents/full/uncurated-paragraph
+// pages (reportsthatmatter-obw). Skipped in the ad-hoc single-quote form so
+// iterating on one curated quote stays fast.
+if (!(argReport && argParagraph)) {
+  console.log("\nDefault cards:");
+
+  const siteHtml = renderDefaultCard({
+    title: SITE_HEADLINE,
+    subtitle: SITE_STANDFIRST,
+    logoDataUri,
+  });
+  await page.setContent(siteHtml, { waitUntil: "networkidle" });
+  await page.waitForTimeout(250);
+  const siteOut = join(root, "assets/cards/site.png");
+  mkdirSync(dirname(siteOut), { recursive: true });
+  await page.screenshot({ path: siteOut });
+  console.log(`  ✓ site`);
+
+  for (const report of registry.reports) {
+    const byline = [report.authors, report.published_at].filter(Boolean).join(" · ");
+    const html = renderDefaultCard({
+      title: report.title,
+      subtitle: byline,
+      logoDataUri,
+    });
+    await page.setContent(html, { waitUntil: "networkidle" });
+    await page.waitForTimeout(250);
+
+    const out = join(root, "assets/cards", report.id, "default.png");
+    mkdirSync(dirname(out), { recursive: true });
+    await page.screenshot({ path: out });
+
+    generated.push(`${report.id}/default`);
+    console.log(`  ✓ ${report.id}/default`);
+  }
 }
 
 await browser.close();

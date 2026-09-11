@@ -94,8 +94,12 @@
 
 - id: quote-cards
   desc: >
-    Curated passages render as PNG share cards; og:image is advertised only
-    where a card exists. Regenerate with `pnpm cards`.
+    Curated passages render as PNG share cards. Every page now advertises a
+    real og:image, not just the curated ones (reportsthatmatter-obw): a
+    report page with no curated card for its passage falls back to that
+    report's own title card, and anything with no report at all (the
+    homepage, /about, /search, ...) falls back to the site's card.
+    Regenerate with `pnpm cards`.
   verify: card tests in tests/routes.test.ts
   passes: true
 
