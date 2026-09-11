@@ -118,6 +118,17 @@ if [ -n "${VERIFY_BASE:-}" ]; then
   else
     fail "/health is not stable: ${codes% }"
   fi
+
+  # A report can be published without going through pnpm publish-report's own
+  # reindex step — rtm-publish, a report repo's self-publish CLI, is one such
+  # path (reportsthatmatter-9j2). This is meaningless against local D1, which
+  # never carries a real report_versions row, so it only runs here.
+  if pnpm check-search-staleness >/tmp/rtm-search-staleness.log 2>&1; then
+    pass "search index matches what is published"
+  else
+    fail "search index has drifted from what is published"
+    tail -20 /tmp/rtm-search-staleness.log
+  fi
 else
   step "Database"
   # Local-only: never touches the remote D1 database VERIFY_BASE mode would

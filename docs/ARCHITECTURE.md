@@ -168,11 +168,15 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   once a publish commits, so search stops drifting from content by default —
   see `--no-reindex` and the `--rollback` caveat in `AGENTS.md`.
   `search_index_versions` records which `content_version` was indexed per
-  report, but **nothing reads it back yet**: there is no automatic alert if a
-  report's search index and its R2 content fall out of step (e.g. `rtm-publish`
-  self-publishing, which does not yet trigger a reindex — see `AGENTS.md`).
-  Checking `search_index_versions` against a report's actual current content
-  is open work.
+  report. `rtm-publish` self-publishing (`AGENTS.md`'s path 1) still does not
+  trigger a reindex itself, but the drift it can cause no longer goes
+  unnoticed: `pnpm check-search-staleness`, run against production as part of
+  `./scripts/verify.sh VERIFY_BASE=…`, compares each report's
+  `search_index_versions.indexed_at` against `report_versions.published_at`
+  (timestamps, not the two tables' differently-computed hashes — a publish
+  with no reindex after it is stale regardless of which path published it)
+  and fails loudly, naming the report and how to fix it
+  (`./scripts/reindex-search.sh <id>`).
 - **Marks** (highlights/shares) are a D1 table plus per-browser
   `localStorage` for a reader's own kept passages — no account, nothing
   cross-device.

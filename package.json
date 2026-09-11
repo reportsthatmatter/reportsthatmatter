@@ -12,7 +12,8 @@
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",
-    "publish-report": "tsx scripts/publish-report.mjs"
+    "publish-report": "tsx scripts/publish-report.mjs",
+    "check-search-staleness": "node scripts/check-search-staleness.mjs"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
