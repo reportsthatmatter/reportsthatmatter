@@ -7,6 +7,25 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-11 — Footnote markers stop landing on dates and phone numbers
+
+A handful of ordinary numbers in the prose were being turned into footnote
+links by mistake, because the linker only checked whether a number matched
+some footnote somewhere in the document — and a report with thousands of
+footnotes has almost every number 1–999 as *some* footnote's number. A date
+like "11, and 19 March 2003" had 11 and 19 turned into citations for
+unrelated footnotes; a repeated "Telephone orders: 020 7219 3890" block did
+the same to its digits. Both are now recognised and left alone. Six reports
+had at least one of these; Leveson and Hillsborough had the most.
+
+Checking why Hillsborough's sidenotes stopped rendering after this fix
+turned up a separate, pre-existing gap: its citations are a numbered list,
+not superscript markers, and a handful of list fragments were being
+misread as footnote definitions that were never real notes. That's now
+tracked on its own rather than papered over.
+
+---
+
 ## 2026-09-11 — Footnotes stop showing someone else's citation
 
 When two different footnotes happened to share the same printed number — a
