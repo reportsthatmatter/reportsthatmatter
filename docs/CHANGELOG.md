@@ -7,6 +7,21 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-11 — Every page gets a real share-card image
+
+Almost the whole site had no `og:image` — a link shared to Slack, iMessage, or
+X previewed as bare text everywhere except five curated quotes in one report.
+Every report now has its own default card (title, author, date), the site has
+one too, and a shared link always falls back to the most specific card that
+exists: a curated quote, then the report's own card, then the site's.
+
+![Reports that Matter — the site's default share card](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-11-social-preview-cards/1-site-card.png)
+
+Full before/after, including a couple of the new report cards: [visual
+changelog](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-11--every-page-gets-a-real-share-card-image).
+
+---
+
 ## 2026-09-11 — Challenger's fidelity queue starts moving: 31 scanning slips fixed so far
 
 Every report carries a review queue of places its scan might not read right —
