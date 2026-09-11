@@ -5297,391 +5297,1001 @@ ISBN: 978-0-16-087371-3
 
 ## Notes
 
-[^1]: billion barrels of recoverable reserves. That find alone catalyzed yet another rebirth of offshore oil in the Gulf of Mexico.101 The discoveries kept coming. A month later, BP made another oil and gas hit at Horn Mountain (150 million barrels of original reserves) in the Mississippi Canyon. In 2000, BP and Shell discovered a major above-the-salt deposit at Holstein (more than 200 million barrels) near the Mad Dog and Atlantis fields in the Green Canyon. The same year, those two partners announced their Na Kika project, a joint subsea development of five independent fields tied back to a central semi-submersible floating production facility, an industry first for the Gulf of Mexico. In 2001, BP found another giant oilfield, containing Joseph Pratt, Tyler Priest, and Christopher Castaneda, Offshore Pioneers: Brown & Root and the History of Offshore Oil and Gas (Houston: Gulf Publishing, 1997), 7–13; "First Well in Gulf of Mexico Was Drilling Just 25 Years Ago," Offshore (October 1963): 17–19. John Guide (BP), interview with Commission staff, September 17, 2010. Brady Dennis and Shailagh Murray, "GOP Changes Tone on Financial Bill," Washington Post, April 21, 2010; Edward Wyatt and David M. Herszenhorn, "Bill on Finance Wins Approval of Senate Panel," New York Times, April 22, 2010; Jim Puzzanghera, "In N.Y., Obama to Push for Financial Overhaul," Los Angeles Times, April 22, 2010; Adam Liptak, "Justices Reject Ban on Depicting Animal Cruelty," New York Times, April 21, 2010; Joan Biskupic, "High Court Negates Animal Cruelty Law as Too Broad, 8-1" USA Today, April 21, 2010; Jess Bravin, "Court Voids Law on Animal Cruelty," Wall Street Journal, April 21, 2010; Bart Barnes, "A Movement's Matriarch," Washington Post, April 21, 2010; Andrew Zajac and Melissa Healy, "FDA Puts the Pinch on Salt," Los Angeles Times, April 21, 2010. President Barack Obama, "Remarks by the President to the Nation on the BP Oil Spill" (June 15, 2010) http://www. whitehouse.gov/the-press-office/remarks-president-nation-bp-oil-spill]. Magne Ognedal, "Thirty years since Kielland – why are major accidents still happening?" (speech, Petroleum Safety Authority of Norway, August 27, 2010) 3, http://www.ptil.no/major-accidents/safety-lunch-at-ons-risk-of-a- major-accident-is-always-present-article7202-144.html. Exec. Order No. 13543, 75 Fed. Reg. 29,397 (May 21, 2010).
+[^1]: billion barrels of recoverable reserves. That find alone catalyzed yet another rebirth of offshore oil in the Gulf of Mexico.101 The discoveries kept coming. A month later, BP made another oil and gas hit at Horn Mountain (150 million barrels of original reserves) in the Mississippi Canyon. In 2000, BP and Shell discovered a major above-the-salt deposit at Holstein (more than 200 million barrels) near the Mad Dog and Atlantis fields in the Green Canyon. The same year, those two partners announced their Na Kika project, a joint subsea development of five independent fields tied back to a central semi-submersible floating production facility, an industry first for the Gulf of Mexico. In 2001, BP found another giant oilfield, containing
 
-[^2]: Internal BP document (BP, presentation to Commission, August 9, 2010, slides 5 & 12). Quoted in Tom Zoellner, "Oil and Water: The Adventure of Getting One from Deep Beneath the Other," Invention and Technology (Fall 2000): 48. Internal Transocean document (TRN-HEC 90686). Internal documents are identified by their document production serial numbers when available, which were assigned by the entity that provided them. Neil MacFarquhar, "Routine Flights Become Overland Odysseys, Minus Clean Socks," New York Times, April 22, 2010. Campbell Robertson and Clifford Krauss, "Gulf Spill Is the Largest of Its Kind, Scientists Say," New York Times, August 2, 2010. BP, Sustainability Review (2009), 20–21. http://www.bp.com/assets/bp_internet/globalbp/STAGING/global_assets/ e_s_assets/e_s_assets_2009/downloads_pdfs/bp_sustainability_review_2009.pdf. See 43 U.S.C. § 1337(b)(6) ("An oil and gas lease issued pursuant to this section shall . . . contain such rental and other provisions as the Secretary may prescribe at the time of offering the area for lease.").
+[^2]: Internal BP document (BP, presentation to Commission, August 9, 2010, slides 5 & 12).
 
-[^3]: Testimony of Nathaniel Chaisson, 411; U.S. Department of Energy, Well Configuration (BP document made public by the Department of Energy), http://www.energy.gov/open/documents/3.1_Item_2_Macondo_Well_07_Jun_1900.pdf; Testimony of Natalie Roshto, Hearing before the Deepwater Horizon Joint Investigation Team, July 22, 2010, 15. Daniel Yergin, The Prize: The Epic Quest for Oil, Money, and Power (New York: Simon and Schuster, 1992), 409. Internal BP document (BP-HZN-MBI 126338). Campbell Robertson, "11 Remain Missing After Oil Rig Explodes Off Louisiana," New York Times, April 22, 2010. EPA, Government Response to the BP Oil Spill: Odors from the BP Spill (June 2010), http://www.epa.gov/bpspill/ reports/odorfactsheet.pdf (announcing help line for residents experiencing oil-related odors); Press Release, NOAA, Administration Launches Dockside Chats to Promote Gulf Seafood Safety Awareness, August 25, 2010, http://www. restorethegulf.gov/release/2010/08/25/administration-launches-dockside-chats-promote-gulf-seafood-safety- awareness; BP, Claims and Government Payments Gulf of Mexico Oil Spill Public Report (November 18, 2010). Health and Safety Executive, Major Incident Investigation Report, BP Grangemouth Scotland (29th May – 10th June 2000) (August 18, 2003), 7, http://www.hse.gov.uk/comah/bpgrange/images/bprgrangemouth.pdf. These terms are taken directly from the Council on Environmental Quality (CEQ) NEPA implementing regulations. 40 C.F.R. § 1508.28. 4 40 C.F.R. §1508.4.
+[^3]: Testimony of Nathaniel Chaisson, 411; U.S. Department of Energy, Well Configuration (BP document made public by the Department of Energy), http://www.energy.gov/open/documents/3.1_Item_2_Macondo_Well_07_Jun_1900.pdf; Testimony of Natalie Roshto, Hearing before the Deepwater Horizon Joint Investigation Team, July 22, 2010, 15.
 
-[^4]: Testimony of Michael Williams, Hearing before the Deepwater Horizon Joint Investigation Team, July 23, 2010, 35–36. Pratt, Priest, and Castaneda, Offshore Pioneers, 15–52, 137–157. Internal Transocean document (TRN-USCG-MMS 11597). Rick Jervis, "Gulf Blast Appears to be 'Blowout'," USA Today, April 22, 2010; Ben Casselman, Russell Gold, and Angel Gonzalez, "Blast Jolts Oil World," Wall Street Journal, April 22, 2010. Testimony of Timothy Ragen, Executive Director of the U.S. Marine Mammal Commission, "The Short and Long- Term Impacts of the Deepwater Horizon Oil Spill," Hearing Before the House Subcommittee on Insular Affairs, Oceans, and Wildlife, 111th Congress (June 10, 2010); Kim B. Ritchie and Brian D. Keller, eds., A Scientific Forum on the Gulf of Mexico: The Islands in the Stream Concept (NOAA, January 23, 2008), 6–8; Elliott A. Norse and John Amos, "Impacts, Perception, and Policy Implications of the Deepwater Horizon Oil and Gas Disaster," Environmental Law Reporter 40, no. 11 (2010): 11071; Deepwater Horizon Oil Spill: Scientific Symposium Meeting Summary (Consortium for Ocean Leadership, June 23, 2010), 15–16. Ibid.
+[^4]: Testimony of Michael Williams, Hearing before the Deepwater Horizon Joint Investigation Team, July 23, 2010, 35–36.
 
-[^5]: Testimony of John Guide, Hearing before the Deepwater Horizon Joint Investigation Team, July 22, 2010, 260–266; Testimony of James Wilson, Hearing before the Deepwater Horizon Joint Investigation Team, October 6, 2010, 176. Ibid., 21–25. U.S. Department of the Interior, "Statement by Secretary of the Interior James Watt Instituting Changes in the Mineral Royalty Management Program – July 21, 1982," Commission on Fiscal Accountability of the Nation's Energy Resources: Subject Files, 1981–1982, RG 48, Entry 994, Box 1 (National Archives and Records Administration, Washington, DC). Internal BP document (BP-HZN-MBI 126338). Jervis, "Gulf Blast Appears to be 'Blowout.'" Federal Interagency Solutions Group, Oil Budget Science and Engineering Team, Oil Budget Calculator Technical Documentation (November 2010). Ibid. A "Development Operations Coordination Document" in the Gulf of Mexico is functionally the same as a "Development and Production Plan" in other LES regions.
+[^5]: Testimony of John Guide, Hearing before the Deepwater Horizon Joint Investigation Team, July 22, 2010, 260–266; Testimony of James Wilson, Hearing before the Deepwater Horizon Joint Investigation Team, October 6, 2010, 176.
 
-[^6]: Brian Morel, e-mail message to Richard Miller and Mark Hafle, April 14, 2010, 13:31, http://energycommerce.house. gov/documents/20100614/BP-April14.Email.calling.Macondo.a.nightmare.well.pdf. Tyler Priest, "Extraction Not Creation: The History of Offshore Petroleum in the Gulf of Mexico," Enterprise & Society 8, no. 2 (June 2007): 240. U.S. Constitution, Art IV, § 3, cl. 2. Ibid. Richard Fausset, "Oil Rig Explodes; 11 Missing," Los Angeles Times, April 22, 2010. 7 40 C.F.R. § 300, Subpart D. Curtis Morgan, "Another sign of oil spill recovery in the Gulf: Oil in the Gulf has dissipated and degraded into barely detectable concentrations, although federal scientists say it's too soon to say the threat is over," Miami Herald, Health and Safety Executive, BP Grangemouth Executive Summary—Findings and Recommendations, http://www. hse.gov.uk/comah/bpgrange/execsumm/findings.htm. Press Release, Department of the Interior, Categorical Exclusions for Gulf Offshore Activity to be Limited While Interior Reviews NEPA Process and Develops Revised Policy, August 16, 2010,
+[^6]: Brian Morel, e-mail message to Richard Miller and Mark Hafle, April 14, 2010, 13:31, http://energycommerce.house. gov/documents/20100614/BP-April14.Email.calling.Macondo.a.nightmare.well.pdf.
 
-[^7]: BP, "GoM Exploration Wells: MC 252 #1—Macondo Prospect Well Information," September 2009, http:// bpoilresponse.markimoore.com/blog/bp-media/docs/Macondo.Prospect.Well.Information.pdf. Alden J. LaBorde, My Life and Times (New Orleans: LaBorde Printing Company, 1996), 174. Kleppe v. New Mexico, 426 U.S. 529, 539 (1976), quoting United States v. San Francisco, 310 U.S. 16, 29 (1940). Ibid. Three companies own the Macondo well. BP has a 65 percent share, Anadarko Petroleum Corporation has a 25 percent share, and MOEX Offshore has a 10 percent share. BP maintained regular contact with Anadarko and MOEX throughout the drilling of the well. Andrew B. Wilson, "BP's Disaster: No Surprise to Folks in the Know," CBS, June 22, 2010, http://www.cbsnews.com/ stories/2010/06/22/opinion/main6605248.shtml. Minerals Management Service, MMS 2007-018 Gulf of Mexico OSC Oil and Gas Lease Sales: 2007-2010 Final Environmental Impact Statement (April 2007), Volume I, 2-3 to 2-5.
+[^7]: BP, "GoM Exploration Wells: MC 252 #1—Macondo Prospect Well Information," September 2009, http:// bpoilresponse.markimoore.com/blog/bp-media/docs/Macondo.Prospect.Well.Information.pdf.
 
-[^8]: Testimony of Richard Tink, Hearing before the Deepwater Horizon Joint Investigation Team, May 26, 2010, 392; Deepwater Horizon Joint Investigation Team, AFE Summary for the Macondo Well, October 7, 2010, http://www. deepwaterinvestigation.com/external/content/document/3043/914919/1/AFE%20Summary%20for%20the%20 Macondo%20Well.pdf. James W. Calvert, "Gulf Offshore Activity Booming," World Petroleum (January 1957): 48. Utah Power & Light Co. v. United States, 243 U.S. 389, 405 (1917); Kleppe v. New Mexico, 426 U.S. at 540 ("Congress exercises the powers of both a proprietor and of a legislature over the public domain."). Internal Transocean documents (TRN-USCG-MMS 11600, 11605, 11609, 11613, 11617, 11621, 11625). Paul Purpura et al., "Search continues for 11 missing in rig blast," Times-Picayune, April 22, 2010. Jan Erik Vinnem, Offshore Risk Assessment: Principles, Modelling and Applications of QRA Studies, Second Edition (London: Springer Studies in Reliability Engineering, 2007), 91, 100, 102. Minerals Management Service, MMS 2007-026 Chukchi Sea Planning Area Oil and Gas Lease Sale 193 and Seismic Surveying Activities in the Chukchi Sea Final Environmental Impact Statement (May 2007), Volume I, 1.
+[^8]: Testimony of Richard Tink, Hearing before the Deepwater Horizon Joint Investigation Team, May 26, 2010, 392; Deepwater Horizon Joint Investigation Team, AFE Summary for the Macondo Well, October 7, 2010, http://www. deepwaterinvestigation.com/external/content/document/3043/914919/1/AFE%20Summary%20for%20the%20 Macondo%20Well.pdf.
 
-[^9]: BP, Deepwater Horizon Accident Investigation Report (September 8, 2010), 17. Ben C. Belt, "Louisiana and Texas Offshore Prospects," Drilling (March 1956): 119. United States v. Midwest Oil, 236 U.S. 459, 466–68, 474–83 (1915). (Upholding authority of the president to withdraw unilaterally from private disposition valuable energy resources located on public lands in order to protect those resources while Congress considers legislation for their retention in national ownership). Brett Clanton, "New tactic might seal leaking well sooner, BP CEO says," Houston Chronicle, May 5, 2010. Paul Rioux and Chris Kirkham, "Search for 11 Workers Missing After Oil Rig Explosion Is Expected To Be Called Off Friday," Times-Picayune, April 22, 2010. Department of Interior, Department Manual Part 516: National Environmental Policy Act of 1969 (September 2009), 3.4.
+[^9]: BP, Deepwater Horizon Accident Investigation Report (September 8, 2010), 17.
 
-[^10]: Transocean, Our Company, http://www.deepwater.com/fw/main/Our-Company-2.html. "Special Offshore Report," World Oil (May 1957): 118; Calvert, "Gulf Offshore Activity Booming," 48. Outer Continental Shelf Lands Act, 42 U.S.C. §§ 1331–1356a. Gregory Walz (BP), interview with Commission staff, October 6, 2010. Testimony of Captain James Hanzalik, Hearing Before the Deepwater Joint Investigation Team, October 4, 2010, 29- 30. Government Accountability Office, GAO-10-276 Offshore Oil and Gas Development: Additional Guidance Would Help Strengthen the Minerals Management Service's Assessment of Environmental Impacts in the North Aleutian Basin (March 2010), 21.
+[^10]: Transocean, Our Company, http://www.deepwater.com/fw/main/Our-Company-2.html.
 
-[^11]: Press Release, Transocean, Transocean Ltd. Reports Fourth Quarter and Full-Year 2009 Results, February 24, 2010. Pratt, Priest, and Castaneda, Offshore Pioneers, 36–48. E.R. Bartley, The Tidelands Oil Controversy: A Legal and Historical Analysis (Austin: University of Texas Press, 1953); Tyler Priest, "Claiming the Coastal Sea: The Battle for the Tidelands, 1937–1953," History of the Offshore Oil and Gas Industry in Southern Louisiana: Vol. 1: Papers on the Evolving Offshore Industry, MMS OCS Study 2004-049 (New Orleans: U.S. Department of the Interior, Minerals Management Service, 2008), 67–90, https://www.gomr.mms. gov/homepg/espis/espisfront.asp. Testimony of Gregory Walz, Hearing before the Deepwater Horizon Joint Investigation Team, October 7, 2010, 157–59. Council on Environmental Quality, Final Recommendations of the Interagency Ocean Policy Task Force (July 19, 2010), 41. 12 43 U.S.C. § 1346.
+[^11]: Press Release, Transocean, Transocean Ltd. Reports Fourth Quarter and Full-Year 2009 Results, February 24, 2010.
 
-[^12]: Press Release, Transocean, Transocean Inc. and GlobalSantaFe Corporation Agree to Combine, July 23, 2007. Tyler Priest, The Offshore Imperative: Shell Oil's Search for Petroleum in Postwar America (College Station: Texas A&M Press, 2007), 81–91. See United States v. California, 332 U.S. 19, 35 (1947); United States v. Louisiana, 339 U.S. 699 (1950); United States v. Texas, 339 U.S. 707 (1950). Internal BP document (BP-HZN-MBI 143300) (emphasis added).
+[^12]: Press Release, Transocean, Transocean Inc. and GlobalSantaFe Corporation Agree to Combine, July 23, 2007.
 
-[^13]: "Contractors ordering offshore rigs on speculation," Drilling Contractor, May/June 2002. Ibid., 95–98. Priest, "Claiming the Coastal Sea: The Battle for the Tidelands, 1937–1953." Internal BP documents (BP-HZN-MBI 136937, 136941). Commission staff analysis of MMS yearly budget request and enactments, by nominal and real (2005) dollars. Bu- reau of Ocean Energy Management, Office of Administration and Budget: Budget Division, http://www.boemre.gov/ adm/budget.html; Herbert Kaufman and Cheryl Anderson, Department of the Interior, OCS Environmental Studies Contract Projects—Fiscals Years 1973 through 1983 (DOI Minerals Management Service Branch of Environmental Studies, December 1983), II-8. 14 33 U.S.C. § 1321(j)(5)(D)(i); 40 C.F.R. § 300.211. 15 30 C.F.R. § 254.2(a). 16 30 C.F.R. § 254.126 17 40 C.F.R. § 300.322 18 23 U.S.C. § 125.
+[^13]: "Contractors ordering offshore rigs on speculation," Drilling Contractor, May/June 2002.
 
-[^14]: "Global 500," CNNMoney.com, July 26, 2010, http://money.cnn.com/magazines/fortune/global500/2010/full_ list/index.html. Tyler Priest, "Auctioning the Ocean: The Creation of the Federal Offshore Leasing Program, 1954-1962," History of the Offshore Oil and Gas Industry in Southern Louisiana: Vol. 1: Papers on the Evolving Offshore Industry (Minerals Management Service OCS Study 2004-049, 2008). Other states petitioned for the 9-nautical-mile boundary in the federal courts, but failed to prevail. Internal BP document (BP-HZN-CEC 8848-58).
+[^14]: "Global 500," CNNMoney.com, July 26, 2010, http://money.cnn.com/magazines/fortune/global500/2010/full_ list/index.html.
 
-[^15]: Internal Transocean documents (TRN-HCJ 93526, 93528). U.S. Department of Interior, "Petroleum and Sulfur on the U.S. Continental Shelf," internal study, August 1969, box 134, Central Classified Files, 1969–1972, Record Group 48, Records of the Secretary of Interior, National Archives and Records Administration (NARA), College Park, MD. "Oil Shelf Bill Enacted; President Reaffirms U.S. Title to Outer Offshore Deposits," New York Times, August 8, 1953, 27. Internal BP document (BP-HZN-MBI 129238-39).
+[^15]: Internal Transocean documents (TRN-HCJ 93526, 93528).
 
-[^16]: Internal BP document (BP-HZN-MBI 126338); Internal BP document (BP-HZN-OSC 5378). Priest, "Auctioning the Ocean," 113. Richard Vietor, Energy Policy in America since 1945: A Study of Business-Government Relations (New York: Cam- bridge University Press, 1984), 19. Guide, interview. Indeed, just days before the running of the long string at Macondo, another well drilled by Trans- ocean's DD3 suffered just such a complication. Ibid.
+[^16]: Internal BP document (BP-HZN-MBI 126338); Internal BP document (BP-HZN-OSC 5378).
 
-[^17]: "Brazil Pins Hopes on Massive, untapped Oil Fields," NPR, December 1, 2009, http://www.npr.org/templates/story/ story.php?storyId=120966523. On Project Mohole and JOIDES, see David K. van Keuren, "Breaking New Ground: The Origins of Scientific Ocean Drilling," in The Machine in Neptune's Garden: Historical Perspectives on Technology and the Marine Environment, eds. Helen M. Rozwadowski and David K. van Keuren (Sagamore Beach, MA: Science History Publications, 2004), 183–210. On Shell's Eureka project, see Priest, The Offshore Imperative, 97, 218. E.R. Bartley, The Tidelands Oil Controversy: A Legal and Historical Analysis. Testimony of Jesse Gagliano, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 320.
+[^17]: "Brazil Pins Hopes on Massive, untapped Oil Fields," NPR, December 1, 2009, http://www.npr.org/templates/story/ story.php?storyId=120966523.
 
-[^18]: Bureau of Ocean Energy Management, Regulation, and Enforcement, Installations, Removals, and Cumulative Totals of Offshore Production Facilities in Federal Waters; 1959–2010, February 2010, http://www.boemre.gov/stats/PDFs/ OCSPlatformActivity.pdf.; Bureau of Ocean Energy Management, Regulation and Enforcement, OCS Incidents/Spills by Category: 1996–2005, October 19, 2007, http://www.boemre.gov/incidents/Incidents1996-2005.htm; Bureau of Ocean Energy Management, Regulation, and Enforcement, OCS Incidents/Spills by Category: 2006-2010, July 10, 2010, http://www.boemre.gov/incidents/IncidentStatisticsSummaries.htm. F. P. Dunn, "Deepwater Production: 1950-2000" (Offshore Technology Conference [OTC] Paper 7627, Houston, TX, May 1994). "Interior Expects Big Things from . . . Offshore Lease Sale," Oil and Gas Journal, September 13, 1954, 96. Internal BP document (BP-HZN-CEC 22433). Walz also noted that the flight carrying centralizers would not increase costs. Ibid.
+[^18]: Bureau of Ocean Energy Management, Regulation, and Enforcement, Installations, Removals, and Cumulative Totals of Offshore Production Facilities in Federal Waters; 1959–2010, February 2010, http://www.boemre.gov/stats/PDFs/ OCSPlatformActivity.pdf.; Bureau of Ocean Energy Management, Regulation and Enforcement, OCS Incidents/Spills by Category: 1996–2005, October 19, 2007, http://www.boemre.gov/incidents/Incidents1996-2005.htm; Bureau of Ocean Energy Management, Regulation, and Enforcement, OCS Incidents/Spills by Category: 2006-2010, July 10, 2010, http://www.boemre.gov/incidents/IncidentStatisticsSummaries.htm.
 
-[^19]: Testimony of Ronald Sepulvado, Hearing before the Deepwater Horizon Joint Investigation Team, July 23, 2010, 7, 14, 34. Priest, The Offshore Imperative, 127–130. Diane Austin et al., History of the Offshore Oil and Gas Industry in Southern Louisiana, Volume 1: Papers on the Evolving Offshore Industry, OCS Study MMS 2008-042 (New Orleans: U.S. Department of the Interior, Minerals Management Service, September 2008), 97–98, http://www.gomr.boemre.gov/PI/PDFImages/ESPIS/4/4530.pdf. 20 43 U.S.C § 1334. Guide, interview. BP had special one-piece bolt-on centralizers made for the Thunder Horse project. Ibid. Pub. L. No. 107-171, § 2701,116 Stat. 134, 278-279 (2002).
+[^19]: Testimony of Ronald Sepulvado, Hearing before the Deepwater Horizon Joint Investigation Team, July 23, 2010, 7, 14, 34.
 
-[^20]: Testimony of John Guide, 23. Ibid. Internal BP document (BP-HZN-MBI 128379). Department of the Interior, National Notice to Lessees and Operators of Federal Oil and Gas Leases, Outer Continental Shelf No. 2010-N10 (November 8, 2010), http://www.gomr.boemre.gov/homepg/regulate/regs/ntls/2010NTLs/10- n10.pdf.
+[^20]: Testimony of John Guide, 23.
 
-[^21]: Ibid., 43–44 and 189; Schlumberger, "Oilfield Glossary: cement bond log," accessed November 19, 2010, http:// www.glossary.oilfield.slb.com/Display.cfm?Term=cement%20bond%20log. Cliff Hernandez, interview by Andrew Gardner, May 1, 2001, New Iberia, LA, History of the Offshore Oil and Gas Industry in Southern Louisiana, Houston History Archives, M.D. Anderson Library Special Collections, University of Houston, Houston, TX. This interview is one of approximately 450 oral histories conducted for History of the Offshore Oil and Gas Industry in Southern Louisiana, Minerals Management Service OCS Study 2004-049 (2008). "Oil and Gas Leases Bow to Rare Wildlife Species," New York Times, December 9, 1955. Internal BP document (BP-HZN-CEC 22669).
+[^21]: Ibid., 43–44 and 189; Schlumberger, "Oilfield Glossary: cement bond log," accessed November 19, 2010, http:// www.glossary.oilfield.slb.com/Display.cfm?Term=cement%20bond%20log.
 
-[^22]: Testimony of John Guide, 43–44, 189–191. Ken Arnold, interview with Tyler Priest, May 10, 2004, Houston, TX, History of the Offshore Oil and Gas Industry in Southern Louisiana, Houston History Archives, M.D. Anderson Library Special Collections, University of Houston, Houston, TX. John C. Whitaker, Striking a Balance: Environment and Natural Resources Policy in the Nixon-Ford Years (Washing- ton, D.C.: American Enterprise Institute, 1976), 267–268; Russell Wayland, "The New Federal OCS Regulations in the Light of Santa Barbara" (Society of Petroleum Engineers [SPE] Paper 2780, San Francisco, CA, November 1969); Richard B. Krahl and David W. Moody, "Gulf Coast Lease Management Inspection Program," (Offshore Technology Conference [OTC] Paper 1714, 1972), 846. Internal BP document (BP-HZN-CEC 22433).
+[^22]: Testimony of John Guide, 43–44, 189–191.
 
-[^23]: Testimony of Douglas Brown, Hearing before the Deepwater Horizon Joint Investigation Team, May 26, 2010, 88, 91. Don E. Kash et al., Energy Under the Oceans: A Technology Assessment of Outer Continental Shelf Oil and Gas Opera- tions (Norman: University of Oklahoma Press, 1973), 104. National Environmental Policy Act of 1969, 42 U.S.C. § 4321-4370h. Testimony of Steve Lewis, Hearing before the National Commission, November 9, 2010, 93–94; Internal BP document (BP-HZN-MBI 129226). Prior to conversion, a small ball drops from the top of the float valves to block the main path through the auto-fill tube, leaving only two small holes on the side of the tube through which mud can flow. Ibid.
+[^23]: Testimony of Douglas Brown, Hearing before the Deepwater Horizon Joint Investigation Team, May 26, 2010, 88, 91.
 
-[^24]: Testimony of Jimmy Harrell, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 77; Internal Transocean document (TRN-HCDC 92). U.S. Geological Survey, Monthly Engineering Reports Vol. 128 (December 1958) and Monthly Engineering Reports Vol. 144 (February 1960), RG 57, Records of the U.S. Geological Survey, NARA. Richard J. Lazarus, The Making of Environmental Law, (Chicago: University of Chicago Press, 2004), 70. 25 42 U.S.C. § 4332(c). The Well Site Leaders—Bob Kaluza and Don Vidrine—would normally have been on the rig. Morel, a relatively junior BP engineer, had flown to the rig out of a professional interest in learning more about the cementing process. Guide, interview.
+[^24]: Testimony of Jimmy Harrell, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 77; Internal Transocean document (TRN-HCDC 92).
 
-[^25]: Internal Transocean document (TRN-HCDC 92); BP, Deepwater Horizon Accident Investigation Report, 82. Kash et al., Energy Under the Oceans, 105. Bryan Clawson (Weatherford), interview with Commission staff, October 28, 2010; BP, Deepwater Horizon Accident Investigation Report (September 8, 2010), 70.
+[^25]: Internal Transocean document (TRN-HCDC 92); BP, Deepwater Horizon Accident Investigation Report, 82.
 
-[^26]: Testimony of Ross Skidmore, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 264. Neil R. Etson to President Nixon, March 18, 1970, Central Classified Files, 1968-1974, Box 71, RG 57, Records of the Calvert Cliffs Coordinating Committee v. Atomic Energy Commission, 449 F.2d 1109 (D.C. Cir. 1971). Testimony of Steve Lewis, 96; Internal Transocean document (TRN-USCG_MMS 11638).
+[^26]: Testimony of Ross Skidmore, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 264.
 
-[^27]: BP, Deepwater Horizon Accident Investigation Report, 24. National Research Council, Assessment of the U.S. Outer Continental Shelf Environmental Studies Program: III. Social and Economic Studies (The National Academies Press: Washington, DC, 1992), http://www.nap.edu/catalog. php?record_id=2062. Internal BP document (BP-HZN-MBI 137367).
+[^27]: BP, Deepwater Horizon Accident Investigation Report, 24.
 
-[^28]: Testimony of Jimmy Harrell, 38, 113; Testimony of Curt Kuchta, Hearing before the Deepwater Horizon Joint Inves- tigation Team, May 27, 2010, 166, 183, 184. U.S. Department of the Interior, Leasing Oil and Natural Gas Resources: Outer Continental Shelf (Washington, D.C.: U.S. Department of the Interior, 2005), 12, http://www.boemre.gov/ld/PDFs/GreenBook-LeasingDocument.pdf. Ibid.; Testimony of Nathaniel Chaisson, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 432.
+[^28]: Testimony of Jimmy Harrell, 38, 113; Testimony of Curt Kuchta, Hearing before the Deepwater Horizon Joint Inves- tigation Team, May 27, 2010, 166, 183, 184.
 
-[^29]: Testimony of Daun Winslow, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 188 and 191. Lazarus, The Making of Environmental Law, 70 (listing 18 statutes, and not including several such as the Magnuson Fishery Management and Conservation Act of 1976). Internal BP documents (BP-HZN-MBI 137367, 21304). Since the incident, BP has argued that the M-I SWACO models predicted an erroneously high circulation pressure, and that the readings the crew observed were proper. This may ultimately explain the readings, but it does not explain why the BP Macondo team dismissed them as the result of a broken pressure gauge.
+[^29]: Testimony of Daun Winslow, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 188 and 191.
 
-[^30]: Testimony of Jimmy Harrell, 113; Testimony of Curt Kuchta, 184. The five laws included the Public Utility Regulatory Policies Act, Pub. L. No. 95-617, Energy Tax Act, Pub. L. No. 95- 618, National Energy Conservation Policy Act, Pub. L. No. 95-619, Power Plant and Industrial Fuel Use Act, Pub. L. No. 95-620, and Natural Gas Policy Act, Pub. L. No. 95-621. David Izon, E.P. Danenberger, and Melinda Mayes, "Absence of fatalities in blowouts encouraging in MMS study of OCS incidents 1992-2006," Well Control July/August (2007), 84.
+[^30]: Testimony of Jimmy Harrell, 113; Testimony of Curt Kuchta, 184.
 
-[^31]: Testimony of David Sims, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 119. Natural Resources Defense Council v. Morton, 458 F.2d 827 (D.C. Cir. 1972). Testimony of John Guide, Hearing before the Deepwater Horizon Joint Investigation Team, July 22, 2010, 87.
+[^31]: Testimony of David Sims, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 119.
 
-[^32]: Testimony of Daun Winslow, Hearing before the Deepwater Horizon Joint Investigation Team, August 23, 2010, 442. Outer Continental Shelf Leasing Program: Hearings before the H. Comm. on Appropriations, 93rd Cong., 2d Sess. (1974). John Gisclair, Sperry Sun data, April 20, 2010 (annotations, September 20, 2010). Commission calculation based on internal Halliburton document (HAL_10994).
+[^32]: Testimony of Daun Winslow, Hearing before the Deepwater Horizon Joint Investigation Team, August 23, 2010, 442.
 
-[^33]: Testimony of Stephen Bertone, Hearing before the Deepwater Horizon Joint Investigation Team, July 19, 2010, 29, 33; Testimony of Randy Ezell, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 279. Outer Continental Shelf Lands Act, Pub. L. No. 95-372, 92 Stat. 629 (1978). 34 43 U.S.C. § 1801. 35 43 U.S.C. § 1802. 36 43 U.S.C. § 1344. 37 43 U.S.C. § 1340. 38 43 U.S.C. § 1351. 39 43 U.S.C. § 1344(a)(3). 40 43 U.S.C. § 1346. 41 43 U.S.C. § 1347(c). 42 43 U.S.C. § 1347(b). 43 43 U.S.C. § 1347(b) 44 43 U.S.C. § 1351. 45 43 U.S.C. § 1340. 46 43 U.S.C. § 1351(c)(3). 47 43 U.S.C. § 1351(e)(1). 48 43 U.S.C. § 1351(e)(1). 49 43 U.S.C. § 1531(l). Internal BP document (BP-HZN-MBI 127537-39); Internal Halliburton document (HAL_11196). 34 30 C.F.R. § 250.421.
+[^33]: Testimony of Stephen Bertone, Hearing before the Deepwater Horizon Joint Investigation Team, July 19, 2010, 29, 33; Testimony of Randy Ezell, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 279.
 
 [^34]: Testimony of Randy Ezell, 275.
 
-[^35]: BP, Deepwater Horizon Accident Investigation Report, 24. Internal BP document (BP-HZN-MBI 193549). BP's internal guidelines further specify that centralization should extend 100 feet above any such hydrocarbon-bearing zones. If either the top of cement or centralization requirements are not met, the guidelines require that the actual top of cement should be confirmed by a "proven cement evaluation technique." Ibid.
+[^35]: BP, Deepwater Horizon Accident Investigation Report, 24.
 
-[^36]: Testimony of Stephen Bertone, 33. Internal BP documents (BP-HZN-MBI 143295, BP-HZN-CEC 22663); BP, Deepwater Horizon Accident Investigation Report, 34.
+[^36]: Testimony of Stephen Bertone, 33.
 
-[^37]: Ibid.; Testimony of Randy Ezell, 280. Document provided to the Commission by Halliburton entitled "Halliburton GoM Foam Jobs 2002–2010."
+[^37]: Ibid.; Testimony of Randy Ezell, 280.
 
-[^38]: Testimony of Daun Winslow, August 23, 2010, 443. S.L. Pickett and S.W. Cole, "Foamed Cementing Technique for Liners Yields Cost-Effective Results" (Society of Petro- leum Engineers SPE Paper #27679, Midland, Texas, March 1994), 523–24.
+[^38]: Testimony of Daun Winslow, August 23, 2010, 443.
 
-[^39]: Testimony of Stephen Bertone, 33–34; Testimony of Daun Winslow, August 23, 2010, 443. Halliburton had delivered the slurry blend to the Deepwater Horizon several months earlier. It had developed the blend to match the temperature and pressure profile of the well that Deepwater Horizon had drilled immediately prior to Macondo—another BP well called Kodiak. Jesse Gagliano (Halliburton), interview with Commission staff, September 10, 2010.
+[^39]: Testimony of Stephen Bertone, 33–34; Testimony of Daun Winslow, August 23, 2010, 443.
 
-[^40]: Testimony of Randy Ezell, 281. At this point, it appears that lab personnel replicated the dry blend recipe that was on the rig using off-the-shelf ma- terials from their lab. For later tests, Halliburton sent samples of the cement that was actually on the Horizon back to the lab and directly tested those materials.
+[^40]: Testimony of Randy Ezell, 281.
 
-[^41]: Ibid. Internal BP document (BP-HZN-MBI 109218).
+[^41]: Ibid.
 
-[^42]: Ibid. Internal Halliburton document (HAL_DOJ 68).
+[^42]: Ibid.
 
-[^43]: Ibid. Internal Halliburton document (HAL_DOJ 36).
+[^43]: Ibid.
 
-[^44]: Testimony of Chris Pleasant, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 115, 281. Internal Halliburton document (HAL_DOJ 43).
+[^44]: Testimony of Chris Pleasant, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 115, 281.
 
-[^45]: Ibid., 116–118; Testimony of Jimmy Harrell, 117. Ibid.
+[^45]: Ibid., 116–118; Testimony of Jimmy Harrell, 117.
 
-[^46]: John R. Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon in MC252, July 1, 2010, 11–12. Internal BP document (BP-HZN-MBI 136946-47).
+[^46]: John R. Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon in MC252, July 1, 2010, 11–12.
 
-[^47]: Testimony of Lee Lambert, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 291; Internal BP documents (BP-HZN-CEC 20347, 20178). Internal BP document (BP-HZN-MBI 171151).
+[^47]: Testimony of Lee Lambert, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 291; Internal BP documents (BP-HZN-CEC 20347, 20178).
 
-[^48]: Internal BP documents (BP-HZN-CEC 20347, 20178). Internal BP document (BP-HZN-MBI 136946-47).
+[^48]: Internal BP documents (BP-HZN-CEC 20347, 20178).
 
-[^49]: Internal BP document (BP-HZN-MBI 21265). Internal BP document (BP-HZN-CEC 20234).
+[^49]: Internal BP document (BP-HZN-MBI 21265).
 
-[^50]: Testimony of Patrick O'Bryan, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 364–365, 393. See S. Rep. No. 95-285, at 154–5 (reprinting letter from Secretary of the Interior Cecil Andrus). Ibid.
+[^50]: Testimony of Patrick O'Bryan, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 364–365, 393.
 
-[^51]: Brian Morel, e-mail message to Richard Miller and Mark Hafle. See S. Rep. No. 95-285, at 50, 62, 82, 144–5. Testimony of Vincent Tabler, Hearing before the Deepwater Horizon Joint Investigation Team, August 25, 2010, 22–23, 36.
+[^51]: Brian Morel, e-mail message to Richard Miller and Mark Hafle.
 
-[^52]: Testimony of Jimmy Harrell, 13. Robert Gramling, Oil on the Edge: Offshore Development, Conflict, Gridlock (Albany: SUNY Press, 1996), 121. Internal Halliburton document (HAL_0011208).
+[^52]: Testimony of Jimmy Harrell, 13.
 
-[^53]: BP, Deepwater Horizon Follow Up Rig Audit, Marine Assurance Audit and Out of Service Period, September 2009, 2, 18–48; Internal BP document (BP-HZN-MBI 136211). Charles Babcock, "Watt Defies Critics of Plan for Oil Leases," Washington Post, July 7, 1981, A3. Internal BP document (BP-HZN-MBI 137370).
+[^53]: BP, Deepwater Horizon Follow Up Rig Audit, Marine Assurance Audit and Out of Service Period, September 2009, 2, 18–48; Internal BP document (BP-HZN-MBI 136211).
 
-[^54]: Testimony of Patrick O'Bryan, 364. "Problems with Government," Ocean Industry (April 1982): 21. Internal BP document (BP-HZN-MBI 129141).
+[^54]: Testimony of Patrick O'Bryan, 364.
 
-[^55]: Testimony of David Sims, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 172, 313. Commission on Fiscal Accountability of the Nation's Energy Resources, Fiscal Accountability of the Nation's Energy Resources (Washington, D.C.: January 1982), xv, http://www.onrr.gov/Laws_R_D/frnotices/PDFDocs/linowes- rpt1-5.pdf. Internal Transocean document (TRN-USCG_MMS 30422); Internal Schlumberger document (SLB-EC-2).
+[^55]: Testimony of David Sims, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 172, 313.
 
-[^56]: BP, Deepwater Horizon Accident Investigation Report, 25; Internal BP document (BP-HZN-CEC 17621). Don E. Kash, Lease Management Activities in the Geological Survey, Commission on Fiscal Accountability of the Na- tion's Energy Resources: Technical Reports, 1981–1982, RG 48, Entry 998, Box 10, File 239, National Archives and Records Administration, 8, 9, 27. Testimony of John Guide, 44–45.
+[^56]: BP, Deepwater Horizon Accident Investigation Report, 25; Internal BP document (BP-HZN-CEC 17621).
 
-[^57]: BP, Deepwater Horizon Accident Investigation Report, 33. "Industry Warning Watt Against Transfer of BLM Leasing Functions to MMS," Inside Energy/with Federal Lands, November 1, 1982, 11. Internal BP document (BP-HZN-MBI 143304).
+[^57]: BP, Deepwater Horizon Accident Investigation Report, 33.
 
-[^58]: Ibid., 25; Testimony of Chris Pleasant, 118–119. G. Kevin Jones, "Outer Continental Shelf Oil and Gas Development During the Reagan Administration—Part 1," West- ern New England Law Review 12, 1, (1990):8–13. Testimony of John Guide, 298 (the cement plug was "deeper than normal"); Testimony of Ronald Sepulvado, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 145 ("the top of the surface plug is normally at 500 feet below the wellhead").
+[^58]: Ibid., 25; Testimony of Chris Pleasant, 118–119.
 
-[^59]: Testimony of John Gisclair, Hearing before the Deepwater Horizon Joint Investigation Team, October 8, 2010, 131–132. "Interior Denies Oil Leasing Plan Will Cost $77 Billion," Associated Press, September 28, 1982. 60 43 U.S.C. § 1337. Internal BP document (BP-HZN-CEC 8574).
+[^59]: Testimony of John Gisclair, Hearing before the Deepwater Horizon Joint Investigation Team, October 8, 2010, 131–132.
 
-[^60]: Testimony of Curt Kuchta, 185–186; Testimony of Jimmy Harrell, 12. Testimony of Jimmy Harrell, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 118.
+[^60]: Testimony of Curt Kuchta, 185–186; Testimony of Jimmy Harrell, 12.
 
-[^61]: Testimony of Yancy Keplinger, Hearing before the Deepwater Horizon Joint Investigation Team, October 5, 2010, 128–129. Charles Lester, "Contemporary Federalism and New Regimes of Ocean Governance: Lessons from the Case of Outer Continental Shelf Oil Development," Ocean & Coastal Management 23 (1994), 14. Internal BP document (BP-HZN-CEC 8574).
+[^61]: Testimony of Yancy Keplinger, Hearing before the Deepwater Horizon Joint Investigation Team, October 5, 2010, 128–129.
 
-[^62]: Ibid.; Testimony of Andrea Fleytas, Hearing before the Deepwater Horizon Joint Investigation Team, October 5, 2010, 16; Testimony of Daun Winslow, August 23, 2010, 296. National Research Council Committee on Marine Area Governance and Management, Striking a Balance: Improving Stewardship of Marine Areas (Washington, D.C.: National Academy of Sciences, 1997), 37, http://www.nap.edu/ openbook.php?record_id=5797&page=37. Internal BP document (BP-HZN-CEC 21260-279).
+[^62]: Ibid.; Testimony of Andrea Fleytas, Hearing before the Deepwater Horizon Joint Investigation Team, October 5, 2010, 16; Testimony of Daun Winslow, August 23, 2010, 296.
 
-[^63]: Testimony of Daun Winslow, August 23, 2010, 295; Testimony of Pat O'Bryan, 366. President George H.W. Bush, "Statement on Outer Continental Shelf Oil and Gas Development," (June 26, 1990), http://bushlibrary.tamu.edu/research/public_papers.php?id=2035&year=1990&month=6. 64 30 C.F.R. pt. 250. Internal BP document (BP-HZN-MBI 126928).
+[^63]: Testimony of Daun Winslow, August 23, 2010, 295; Testimony of Pat O'Bryan, 366.
 
-[^64]: Testimony of Daun Winslow, August 23, 2010, 295–296. Internal BP document (BP-HZN-OSC 1438). 65 30 C.F.R. § 250.423.
+[^64]: Testimony of Daun Winslow, August 23, 2010, 295–296.
 
-[^65]: Testimony of Randy Ezell, 281, 282, 294. U.S. Department of the Interior, Documents pertaining to offshore inspection types and practices produced to the Oil Spill Commission, August 2010.
+[^65]: Testimony of Randy Ezell, 281, 282, 294.
 
-[^66]: Ibid., 282. Jan Erik Vinnem, Offshore Risk Assessment: Principles, Modelling and Applications of QRA Studies, 2nd ed. (London: Springer Studies in Reliability Engineering, 2007), 91, 100, 102. The blind shear rams closed and sealed as expected during the positive-pressure test. This fact suggests that the rams were capable of sealing the well when the blowout occurred. But the evidence is inconclusive on its own; during the positive-pressure test the crew closed the blind shear rams using a low pressure hydraulic system, rather than the high pressure hydraulic system that would have activated the rams in the event of a blowout.
+[^66]: Ibid., 282.
 
-[^67]: Ibid., 281-282, 311. Petroleum Safety Authority of Norway, "From Prescription to Performance in Petroleum Supervision," March 12, 2010, http://www.ptil.no/news/from-prescription-to-performance-in-petroleum-supervision-article6696-79.html. Internal Transocean document (TRN-HCEC 90).
+[^67]: Ibid., 281-282, 311.
 
-[^68]: Testimony of Patrick O'Bryan, 219–220. Magne Ognedal, interview with Commission staff, November 10, 2010. Testimony of Patrick O'Bryan, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 360.
+[^68]: Testimony of Patrick O'Bryan, 219–220.
 
-[^69]: Testimony of David Sims, August 26, 2010, 163. E.P. Danenberger et al., Investigation of March 19, 1989 Fire, South Pass Block 60 Platform B, Lease OCS-G 1608, OCS Report MMS 90-0016 (New Orleans: U.S. Department of the Interior, Minerals Management Service, April 1990): 15, http://www.gomr.boemre.gov/PDFs/1990/90-0016.pdf. Testimony of David Sims, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 204. There were no regulations or industry standards guiding the conduct or interpretation of negative-pressure tests at the time of the Macondo blowout. The absence of any such guidance may have contributed to the failure to conduct and interpret the test correctly here.
+[^69]: Testimony of David Sims, August 26, 2010, 163.
 
-[^70]: Ibid., 317; Testimony of Patrick O'Bryan, 367. Marine Board of the National Research Council Committee on Alternatives for Inspection of Outer Continental Shelf Operations, Alternatives for Inspecting Outer Continental Shelf Operations (Washington: National Academy Press, 1990): 3, http://www.nap.edu/openbook.php?record_id=1517&page=1. This calculation is based on approximate values of the depths and mud weights involved.
+[^70]: Ibid., 317; Testimony of Patrick O'Bryan, 367.
 
-[^71]: Testimony of David Sims, August 26, 2010, 174. Minerals Management Service, Final Report, Findings and Recommendations, MMS Task Force on OCS Inspection and Enforcement (Washington, D.C.: U.S. Department of the Interior, Minerals Management Service, February 1990), 1-3. Testimony of Leo Lindner, Hearing before the Deepwater Horizon Joint Investigation Team, July 19, 2010, 297; BP, Deepwater Horizon Accident Investigation Report, app. Q, 1.
+[^71]: Testimony of David Sims, August 26, 2010, 174.
 
-[^72]: Ibid., 367. Marine Board, Alternatives for Inspecting Outer Continental Shelf Operations, 80. BP, Deepwater Horizon Accident Investigation Report, 83.
+[^72]: Ibid., 367.
 
-[^73]: Testimony of Patrick O'Bryan, 367. Ibid., 82. Testimony of Leo Lindner, 308–11. The exclusion for "[d]rilling fluids, produced waters, and other wastes associated with the exploration, development, or production of crude oil, natural gas or geothermal energy" is found at 40 C.F.R. § 261.4.
+[^73]: Testimony of Patrick O'Bryan, 367.
 
-[^74]: Internal BP documents (BP-HZN-MBI 21418, 21420); BP, Deepwater Horizon Accident Investigation Report, 150. Exec. Order No. 12,777, 56 Fed. Reg. 54,757 (October 22, 1991). Testimony of Leo Lindner, 276–79, 297, 359–60; Internal BP document (BP-HZN-BLY 47100).
+[^74]: Internal BP documents (BP-HZN-MBI 21418, 21420); BP, Deepwater Horizon Accident Investigation Report, 150.
 
-[^75]: Testimony of Randy Ezell, 282, 283. E.P. Danenberger, "Changes in the Minerals Management Service Offshore Regulatory Programs Resulting From the Oil Pollution Act of 1990" (Offshore Technology Conference [OTC] Paper 6823, May 1992), 150. Testimony of Randy Ezell, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 279–81.
+[^75]: Testimony of Randy Ezell, 282, 283.
 
-[^76]: Ibid., 283. Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 56 Fed. Reg. 30,400 (July 2, 1991). Testimony of Daun Winslow, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 219;
+[^76]: Ibid., 283.
 
-[^77]: Ibid., 283–284. Ibid. Testimony of Randy Ezell, 279.
+[^77]: Ibid., 283–284.
 
-[^78]: Testimony of Micah Sandell, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 8, 10, 12. Salient differences were, as MMS noted, that "Platforms in the GOM are typically smaller, technically less sophisti- cated, produce fewer hydrocarbons, and operate in less severe environmental conditions [than North Sea platforms]. The number of personnel on OCS platforms is significantly smaller than on North Sea platforms. There is, however, a substantially greater number of OCS platforms in the GOM, over 3,800." Marshall Courtois, William Hauser, and Paul Schneider, "Minerals Management Service Safety and Environmental Management Program: Evolution of the Concept," (Offshore Technology Conference [OTC] Paper 6822, May 1992), 145. Testimony of Lee Lambert, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 292. Transocean disputes these accounts. It points out that the only individuals who have stated that Anderson advanced the "bladder effect" theory are BP employees.
+[^78]: Testimony of Micah Sandell, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 8, 10, 12.
 
-[^79]: Ibid., 11. Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 56 Fed. Reg. 30,400 (July 2, 1991). Testimony of Lee Lambert, 292.
+[^79]: Ibid., 11.
 
-[^80]: Internal BP documents (Deepwater Horizon Schematic; BP August 9, 2010 presentation to Oil Spill Commission, slide 5 ). Former senior MMS officials, interviews with Commission staff, August and September 2010; Offshore Operators Committee, "Oil, Gas, and Sulphur Operations in the Outer Continental Shelf (OCS)—Safety and Environmental Management Systems," Public Comment (May 22, 2006), http://www.boemre.gov/federalregister/PDFs/AD15- OOCcomments5-22-06.pdf. Testimony of Jimmy Harrell, 117; Internal BP documents (BP-HZN-MBI 127909, BP-HZN-CEC 20189-90). While that may have been Mr. Vidrine's stated reason for running the test on the kill line, the Commission notes that the negative-pressure test performed at Macondo—whether on the drill pipe or kill line—was different from the negative- pressure test described in the Application for Permit to Modify. Testimony of Mark Bly, Hearing before the National Commission, November 8, 2010, 293–95.
+[^80]: Internal BP documents (Deepwater Horizon Schematic; BP August 9, 2010 presentation to Oil Spill Commission, slide 5 ).
 
-[^81]: Testimony of Douglas Brown, 88–89, 92–93. T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?" (Offshore Technology Conference [OTC] Paper 8111, May 1996): 828. BP, Deepwater Horizon Accident Investigation Report, 86. Ray Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill.
+[^81]: Testimony of Douglas Brown, 88–89, 92–93.
 
-[^82]: Testimony of Paul Meinhart, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 28 E.O. Redd, Jean Chevallier, and Ian Paterson, "Preparing a Safety Case: A Drilling Contractor's Experience" (Society of Petroleum Engineers [SPE] Paper 27293, January 1994): 799. There are several possible explanations for the inconsistent readings on the drill pipe and kill line. One possibility is that the viscous spacer that had leaked through the annular preventer migrated into and clogged the kill line. John Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon in MC252 (July 1, 2010), 20–21. Another possibility is that a valve was inadvertently closed that should have been open. BP, Deepwater Horizon Acci- dent Investigation Report, 87. A third, more remote, possibility is that hydrocarbons coming up the well formed solid hydrates when they hit the cold seawater and those hydrates clogged the kill line. Guide, interview. Exxon Valdez Oil Spill Trustee Council, Science Panel, http://www.evostc.state.ak.us/people/sp.cfm.
+[^82]: Testimony of Paul Meinhart, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 28
 
-[^83]: Testimony of Douglas Brown, 93–94. L.D. Easley, J.E. Stark, and R.A. Bradford, "Implementing API RP 75 'Recommended Practice for Development of a Safety and Environmental Program for Outer Continental Shelf (OCS) Operations and Facilities'" (Offshore Technol- ogy Conference [OTC] Paper 7384, May 1994): 130. Testimony of Christopher Haire, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 247. Joe Hunt, Mission Without a Map: The Politics and Policies of Restoration Following the Exxon Valdez Oil Spill: 1989- 2002, Exxon Valdez Oil Spill Trustee Council (Anchorage, 2009): 156-157.
+[^83]: Testimony of Douglas Brown, 93–94.
 
-[^84]: Ibid., 94–95. American Petroleum Institute, Recommended Practices for Development of a Safety and Environmental Management Program for Outer Continental Shelf (OCS) Operations and Facilities, Recommended Practice 75, 1st ed. (Dallas, TX: May 15, 1993). For example, a bubble of gas, under ideal conditions, would expand approximately 166-fold. This number differs under actual conditions based on fluid properties and flow. See, e.g., Testimony of Stanley Senner, Director of Conservation Science, Ocean Conservancy, Hearing before the National Commission, September 28, 2010.
+[^84]: Ibid., 94–95.
 
-[^85]: Testimony of Steve Bertone, Hearing before the Deepwater Horizon Joint Investigation Team, July 19, 2010, 28, 34. Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 59 Fed. Reg. 33,779 (June 30, 1994). Mudloggers operate systems that collect and transmit real-time data from sensors on the rig. BP employed mudlog- gers from Sperry Drilling (a Halliburton subsidiary) on the Deepwater Horizon. President Barack Obama, "Remarks by the President to the Nation on the BP Oil Spill" (June 15, 2010), http://www. whitehouse.gov/the-press-office/remarks-president-nation-bp-oil-spill.
+[^85]: Testimony of Steve Bertone, Hearing before the Deepwater Horizon Joint Investigation Team, July 19, 2010, 28, 34.
 
-[^86]: Testimony of James Nicholas Wilson, Hearing before the Deepwater Horizon Joint Investigation Team, October 13, 2010, 10; Testimony of Steve Bertone, 35. Safety and Environmental Management Program (SEMP) on the Outer Continental Shelf (OCS), 61 Fed. Reg. 37,493 (July 18, 1996). The driller first sent mud to pits 9 and 10, then switched to pit 7, and then switched to pit 6. Sperry Sun data, April 20, 2010, 20:10–21:18. Press Release, Office of the Governor, Gov. Jindal Announces "Agenda For Revitalizing Coastal Louisi- ana," July 15, 2010, http://wwwprd.doa.louisiana.gov/LaNews/PublicPages/Dsp_PressRelease_Display. cfm?PressReleaseID=2550&Rec_ID=1.
+[^86]: Testimony of James Nicholas Wilson, Hearing before the Deepwater Horizon Joint Investigation Team, October 13, 2010, 10; Testimony of Steve Bertone, 35.
 
-[^87]: Testimony of Steve Bertone, 35. Ibid. Ibid., 20:28–20:36, 20:58–21:06. NOAA, Damage Assessment, Remediation, and Restoration Program: Glossary, http://www.darrp.noaa.gov/glos- sary/index.htm.
+[^87]: Testimony of Steve Bertone, 35.
 
-[^88]: Testimony of Gregory Meche, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 198. Patrick Crow, "New slant on safety," Oil & Gas Journal (July 22, 1996): 23. Ibid., 20:20–21:01. Testimony of Stanley Senner. Chapter Eight
+[^88]: Testimony of Gregory Meche, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 198.
 
-[^89]: Testimony of Steve Bertone, 35–36. TA.F Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?" (Offshore Technology Conference [OTC] Paper 8111, 1996). Ibid., 21:01. Samuel K. Skinner and William K. Reilly, The Exxon Valdez Oil Spill: A Report to the President (May 1989), 1.
+[^89]: Testimony of Steve Bertone, 35–36.
 
-[^90]: Ibid. E.P. Danenberger, interview with Commission staff, September 2, 2010; E.P. Danenberger, e-mail message to Commis- sion staff, October 25, 2010. Ibid., 21:01–21:08. Ibid., 27–8.
+[^90]: Ibid.
 
-[^91]: Testimony of Andrea Fleytas, 14. Oil and Gas and Sulphur Operations in the Outer Continental Shelf–Incident Reporting Requirements, 68 Fed. Reg. 40,585 (July 8, 2003). The Commission believes, based on interviews of the mudloggers on the Horizon, that the Hitec system may have shown a more obvious trend because it displays numeric values as opposed to trend lines such as those seen in the Sperry data shown in the text. Joseph Keith (Sperry), interview with Commission staff, October 6, 2010; Cathleenia Willis (Sperry), interview with Commission staff, October 21, 2010. National Transportation Safety Board, Safety Recommendation (September 18, 1990), http://www.ntsb.gov/recs/ letters/1990/M90_26_31A.pdf.
+[^91]: Testimony of Andrea Fleytas, 14.
 
-[^92]: Testimony of Gregory Meche, 235. E.P. Danenberger, interview with Commission staff, September 2, 2010; E.P. Danenberger, e-mail message to Commis- sion staff, October 25, 2010. Testimony of Greg Meche, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 207–09. 93 40 C.F.R. §§ 261.4, 435.11. Exxon Valdez Oil Spill Trustee Council, "Settlement," http://www.evostc.state.ak.us/facts/settlement.cfm; Exxon Valdez Oil Spill Trustee Council, "Questions and Answers," http://www.evostc.state.ak.us/facts/qanda.cfm.
+[^92]: Testimony of Gregory Meche, 235.
 
-[^93]: Testimony of Andrea Fleytas, 14. Oil and Gas and Sulphur Operations in the Outer Continental Shelf—Incident Reporting Requirements, 71 Fed. Reg. 19,640 (April 17, 2006). Exxon Mobil, 2009 Corporate Citizenship Report, 15.
+[^93]: Testimony of Andrea Fleytas, 14.
 
-[^94]: Complaint at 2, Shivers v. BP Plc., No. 10-cv-381 (S.D. Ala. July 20, 2010). Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data. See http:// www.boemre.gov/adm/budget.html. Testimony of Greg Meche, 207–09, 219. Testimony of Rex Tillerson, CEO of Exxon Mobil, Hearing before the National Commission, November 9, 2010.
+[^94]: Complaint at 2, Shivers v. BP Plc., No. 10-cv-381 (S.D. Ala. July 20, 2010).
 
-[^95]: Ibid. Jim Morris, "Lost at Sea/OFFSHORE RISKS/Safety concerns return with rise of oil, gas boom," Houston Chronicle, December 22, 1996, http://www.chron.com/CDA/archives/archive.mpl?id=1996_1384981. Keith, interview.
+[^95]: Ibid.
 
-[^96]: Ibid. Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data. See http:// www.gomr.boemre.gov/homepg/fastfacts/WaterDepth/wdmaster.asp. Internal BP document (BP-HZN-MBI 21415).
+[^96]: Ibid.
 
-[^97]: Ibid. Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data; Minerals Management Service, U.S. Offshore Milestones (as of August 2006): 5. See http://www.boemre.gov/stats/PDFs/ milestonesAUG2006.pdf. Keith, interview. Given what we now know, it is all but impossible that the well was not flowing as of 9:08 p.m. BP, Deepwater Horizon Accident Investigation Report, 25; Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon, 22–23. Other than faulty memory, the only apparent explanations for Mr. Keith's statement are that the crew had already closed off the portion of the flow line Mr. Keith was watching or that Mr. Keith watched for an inadequate period of time. Keith, interview; Darryl Bourgoyne (LSU), interview with Commission staff, No- vember 23, 2010. Exxon Mobil, 2009 Corporate Citizenship Report, 14.
+[^97]: Ibid.
 
-[^98]: Ibid.; Tracey Dalzell Walsh, "Forced To Become Emergency Workers, Fishermen Say BP Never Even Said Thanks," Courthouse News Service, July 22, 2010. Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement and U.S. Energy In- formation Administration data. See http://www.gomr.boemre.gov/PDFs/2009/2009-016.pdf, 71–72; http://www. eia.gov/oog/info/twip/twiparch/100526/twipprint.html. Testimony of Greg Meche, 207–09. Ibid.,13, 19.
+[^98]: Ibid.; Tracey Dalzell Walsh, "Forced To Become Emergency Workers, Fishermen Say BP Never Even Said Thanks," Courthouse News Service, July 22, 2010.
 
-[^99]: Testimony of Steve Bertone, 37. Commission staff analysis of MMS yearly budget request and enactments, by nominal and real (2005) dollars. Ibid. "Shell 'Ignored Accident Warning,'" BBC online, June 14, 2006, http://news.bbc.co.uk/2/hi/5077886.stm; Terry Macalister, "Shell Accused Over Oil Rig Safety," The Guardian, June 23, 2006.
+[^99]: Testimony of Steve Bertone, 37.
 
-[^100]: Ibid., 37–38. Tetrahedron, Inc., Reliability of Blowout Preventers Tested Under Fourteen and Seven Days Time Interval: Study Report, Submitted to Minerals Management Service, Department of the Interior, MMS Technology Assessment & Research Project 253, "Blowout Preventer Study" (December 20, 1996), http://www.boemre.gov/tarprojects/253/ AA.PDF.; Blowout Preventer (BOP) Testing Requirements for Drilling and Completion Operations, 63 Fed. Reg. 29,604 (June 1, 1998). Internal BP document (BP-HZN-MBI 21415). "Shell 'Ignored Accident Warning.'"
+[^100]: Ibid., 37–38.
 
-[^101]: Ibid., 38. Per Holand, Reliability of Subsea BOP Systems for Deepwater Application, Phase II DW, SINTEF Report STF38 A99426 (November 7, 1999); Per Holand, Deepwater Kicks and BOP Performance, SINTEF Report STF38 A01419 (July 24, 2001); WEST Engineering Services, Inc., Mini Shear Study for U.S. Minerals Management Service, Requisi- tion No. 2-1011-1003 (December 2002); WEST Engineering Services, Inc., Shear Ram Capabilities Study for U.S. Minerals Management Service, Requisition No. 3-4025-1001 (September 2004). Sperry Sun data, April 20, 2010, 21:08–21:14. Shell, Sustainability Report 2009, 16–17, http://sustainabilityreport.shell.com/2009/servicepages/downloads/files/ all_shell_sr09.pdf.
+[^101]: Ibid., 38.
 
-[^102]: Ibid., 38–39. WEST Engineering Services, Inc., "Comments by WEST Engineering Services, Houston, Texas, to The National Com- mission on the BP Deepwater Horizon Oil Spill and Offshore Drilling" (November 12, 2010): 3. Ibid., 21:14–21:15. Testimony of Marvin Odum, Shell, Hearing before the National Commission, November 9, 2010.
+[^102]: Ibid., 38–39.
 
-[^103]: Testimony of Randy Ezell, 284–285. David Barstow and others, "Regulators Failed to Address Risks in Oil Rig Fail-Safe Device," New York Times, June 20, 2010, www.nytimes.com/2010/06/21/us/21blowout.html. Ibid., 2010, 21:17–21:18. Ibid.
+[^103]: Testimony of Randy Ezell, 284–285.
 
-[^104]: Ibid., 285. U.S. Department of the Interior, Outer Continental Shelf Safety Oversight Board, Report to the Secretary of the Interior (September 1, 2010), 6. Testimony of Chad Murray, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 335–36. Ibid.
+[^104]: Ibid., 285.
 
-[^105]: Testimony of Yancy Keplinger, 165. Ibid. Ibid., 336.
+[^105]: Testimony of Yancy Keplinger, 165.
 
-[^106]: Testimony of Randy Ezell, 285–286. Ibid. Testimony of Randy Ezell, 282.
+[^106]: Testimony of Randy Ezell, 285–286.
 
-[^107]: Ibid., 286. U.S. Department of the Interior, Office of Inspector General, Survey Report: Offshore Civil Penalties Program, Miner- als Management Service (March 30, 1999), http://www.doioig.gov/images/stories/reports/pdf/99-I-374.pdf. Testimony of Bill Ambrose, Hearing before the National Commission, November 8, 2010, 381. Responsible Care, Who We Are, http://www.responsiblecare.org/page.asp?p=6406.
+[^107]: Ibid., 286.
 
-[^108]: Ibid. Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data provided to the Commission by the Department of the Interior of unannounced MMS inspections of MODUs/drilling rigs, 1990 (1,985 inspections) to 2009 (85 inspections). The pivotal change occurs in 1998–1999, as the numbers drop from David Young (Transocean), interview with Commission staff, November 19, 2010.
+[^108]: Ibid.
 
-[^109]: Ibid., 286–287. Yearly MMS Incident Summary Reports are available at http://www.boemre.gov/incidents/IncidentStatisticsSum- maries.htm. Testimony of David Young, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 259. Jody Freeman, "Private Parties, Public Functions and the New Administrative Law" in Recrafting the Rule of Law: The Limits of Legal Order, ed. David Dyzenhaus (Toronto: Hart Publishing, 1999), 21.
+[^109]: Ibid., 286–287.
 
-[^110]: Ibid., 287. "Deepwater Gulf of Mexico production rising," Oil & Gas Journal (November 1, 1999): 34 ("In 1999, 11 more deepwater development production projects in the gulf have already begun producing or are on the verge of doing so"); Michael Davis, "LEARNING THE DRILL/The oil patch rebound brought with it a need for drilling companies to find, train and keep people to work the rigs," Houston Chronicle (February 1, 1998): 1 ("A shortage of qualified personnel has been a nagging problem since the oil patch has come back in the past year. But over the next two years some 50 new offshore jack-up rigs, semi-submersibles and drill ships currently being built or converted will Young, interview. Ibid., 33.
+[^110]: Ibid., 287.
 
-[^111]: Testimony of Yancy Keplinger, 152; Testimony of Tyrone Benton, Hearing before the Deepwater Horizon Joint Inves- tigation Team, July 23, 2010, 250. Sperry Sun data, April 20, 2010, 21:08–21:14. Press Release, Securities and Exchange Commission, Chairman Cox Announces End of Consolidated Supervised Enti- ties Program, September 26, 2008; Stephen Labaton, "Agency's '04 Rule Let Banks Pile Up New Debt," New York Times, October 3, 2008. th Congress (2010). 182 33 U.S.C. § 2702.
+[^111]: Testimony of Yancy Keplinger, 152; Testimony of Tyrone Benton, Hearing before the Deepwater Horizon Joint Inves- tigation Team, July 23, 2010, 250.
 
-[^112]: Testimony of Gregory Meche, 209; Testimony of David Young, Hearing before the Deepwater Horizon Joint Inves- tigation Team, May 27, 2010, 327; Testimony of Randy Ezell, 283; Testimony of Jimmy Harrell, 65; Testimony of Yancy Keplinger, 153. Bill Ambrose (Transocean), interview with Commission staff, September 21, 2010. Press Release, Securities and Exchange Commission, Chairman Cox Announces End of Consolidated Supervised Enti- ties Program.
+[^112]: Testimony of Gregory Meche, 209; Testimony of David Young, Hearing before the Deepwater Horizon Joint Inves- tigation Team, May 27, 2010, 327; Testimony of Randy Ezell, 283; Testimony of Jimmy Harrell, 65; Testimony of Yancy Keplinger, 153.
 
-[^113]: Testimony of Micah Sandell, 11–13. Sperry Sun data, April 20, 2010, 21:38. Edward J. Balleisen and Marc Eisner, "The Promise and Pitfalls of Co-Regulation: How Governments Can Draw on Private Governance for Public Purpose," in New Perspectives on Regulation, ed. David Moss and John Cisternino, (Cambridge, UK: Cambridge University Press, 2009), 31.
+[^113]: Testimony of Micah Sandell, 11–13.
 
-[^114]: Testimony of Capt. Alwin Landry, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 98–100. Young, interview. Ibid., 130.
+[^114]: Testimony of Capt. Alwin Landry, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 98–100.
 
-[^115]: Testimony of Paul Erickson, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 231–232. Sperry Sun data, April 20, 2010, 21:38–21:42. Ibid.
+[^115]: Testimony of Paul Erickson, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 231–232.
 
-[^116]: Testimony of Capt. Alwin Landry, 101–102. Testimony of Randy Ezell, 283; Young, interview. Ibid.
+[^116]: Testimony of Capt. Alwin Landry, 101–102.
 
-[^117]: Ibid., 104–105. Testimony of Micah Sandell, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 10. Testimony of Marvin Fertel, President and CEO of Nuclear Energy Institute, "Three Mile Island—Looking Back on Thirty Years of Lessons Learned," Before the Subcommittee on Clean Air and Nuclear Safety, 111th Congress (2009).
+[^117]: Ibid., 104–105.
 
-[^118]: Testimony of Gregory Meche, 202, 211, 223. Testimony of Christopher Pleasant, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 173. Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010.
+[^118]: Testimony of Gregory Meche, 202, 211, 223.
 
-[^119]: Testimony of Anthony Gervasio, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 173, 187–188. Testimony of Randy Ezell, 283. John G. Kemeny, Report of The President's Commission on the Accident at Three Mile Island: The Need for Change: The Legacy of TMI (1979), 68. The full subsection of the recommendation reads, "The industry should establish a program that specifies appropriate safety standards including those for management, quality assurance, and operat- ing procedures and practices, and that conducts independent evaluations. The recently created Institute of Nuclear Power Operations, or some similar organization, may be an appropriate vehicle for establishing and implementing this program."
+[^119]: Testimony of Anthony Gervasio, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 173, 187–188.
 
-[^120]: Ibid., 187; Testimony of Kevin Robb, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 42. Testimony of Bill Ambrose, 244. Institute of Nuclear Power Operations, "About Us," http://www.inpo.info/AboutUs.htm.
+[^120]: Ibid., 187; Testimony of Kevin Robb, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 42.
 
-[^121]: Testimony of Anthony Gervasio, 189. Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon, 14; Testimony of Bill Ambrose, 252–53; BP, Deepwater Horizon Accident Investigation Report, 28. Joseph V. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island (Chicago: University of Chicago Press, 1996), 50–51.
+[^121]: Testimony of Anthony Gervasio, 189.
 
-[^122]: Ibid., 105, 190; Testimony of Gergory Meche, 223. Testimony of Christopher Pleasant, 165. Lee Gard, interview with Commission staff, November 8, 2010.
+[^122]: Ibid., 105, 190; Testimony of Gergory Meche, 223.
 
-[^123]: Testimony of Daun Winslow, August 23, 2010, 447–448. Ibid., 123. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 57–58.
+[^123]: Testimony of Daun Winslow, August 23, 2010, 447–448.
 
-[^124]: Ibid., 448–449, 452. Ibid. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 143.
+[^124]: Ibid., 448–449, 452.
 
-[^125]: Testimony of Mark Hay, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 225. Various parties have suggested other causes for the deadman's failure, including leaks, overdue equipment certifica- tion, and improper modifications. Lee Gard, interview.
+[^125]: Testimony of Mark Hay, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 225.
 
-[^126]: Testimony of Daun Winslow, August 23, 2010, 452; Testimony of Randy Ezell, 287. Interview with industry expert, September 24, 2010. Ibid.
+[^126]: Testimony of Daun Winslow, August 23, 2010, 452; Testimony of Randy Ezell, 287.
 
-[^127]: Testimony of Daun Winslow, August 23, 2010, 452. After the blowout, some industry CEOs testified they would never have used a long string production casing, sug- gesting there was a causal connection between BP's choice of the long string and the blowout. Hearing Before the Subcomm. on Energy and Environment, 111th Cong. 104 (June 15, 2010) (statements of John Watson, Chairman and Chief Executive Officer, Chevron Corporation; and Rex Tillerson, Chairman and Chief Executive Officer, Exxon- Mobil). Ibid.
+[^127]: Testimony of Daun Winslow, August 23, 2010, 452.
 
-[^128]: Ibid., 449–450, 452; Testimony of Randy Ezell, 289; Testimony of Anthony Gervasio, 190, 199. First, the long string required the cement to travel through a longer stretch of steel casing—roughly 12,000 feet lon- ger—before reaching its final destination, potentially increasing the risk of cement contamination. Second, because it can require higher cement pumping pressure, a long string design can lead to the selection of lower cement volumes, lower densities, and lower pump rates. Third, the cement job at the bottom of a long string is more difficult to remediate than one at the bottom of a liner. Ibid.
+[^128]: Ibid., 449–450, 452; Testimony of Randy Ezell, 289; Testimony of Anthony Gervasio, 190, 199.
 
-[^129]: Testimony of Daun Winslow, August 23, 2010, 450; BP, Deepwater Horizon Accident Investigation Report, 123. Internal BP document (BP-HZN-MBI 128489); BP, Deepwater Horizon Accident Investigation Report, 64 ("the BP Macondo well team did not ask for the OptiCem model to be re-run"). This may have been because of Mr. Guide's distrust of the OptiCem model. Testimony of John Guide, 275 ("it's wrong a lot"). When Halliburton rig personnel eventually informed Gagliano of BP's decision themselves, he responded by e-mailing BP modeling data suggesting again that more centralizers would be needed to prevent channeling. Internal BP document (BP-HZN-MBI 128708). Ibid.
+[^129]: Testimony of Daun Winslow, August 23, 2010, 450; BP, Deepwater Horizon Accident Investigation Report, 123.
 
-[^130]: Testimony of Daun Winslow, August 23, 2010, 450; Testimony of Steve Bertone, 39. Testimony of Jesse Gagliano, 259; Testimony of Nathaniel Chaisson, 415. Ibid.
+[^130]: Testimony of Daun Winslow, August 23, 2010, 450; Testimony of Steve Bertone, 39.
 
-[^131]: Testimony of Steve Bertone, 39. BP, Deepwater Horizon Accident Investigation Report, 35. Mr. Guide disagreed with the BP report's conclusion in an interview with Commission staff. Guide, interview. Lee Gard, e-mail message to Commission Staff, December 6, 2010.
+[^131]: Testimony of Steve Bertone, 39.
 
-[^132]: Ibid. Internal BP document (BP-HZN-CEC 22670). Lee Gard, interview.
+[^132]: Ibid.
 
-[^133]: Ibid. Ronald Sepulvado (BP), interview with Commission staff, September 1, 2010. Testimony of A. C. Tollison Jr., Executive Vice President, Institute of Nuclear Power Operations, "National Energy Policy: Nuclear Energy," Before the Subcommittee on Energy and Air Quality, 107th Congress (2001).
+[^133]: Ibid.
 
-[^134]: Testimony of Daun Winslow, August 23, 2010, 451; Testimony of Steve Bertone, 39. BP, Deepwater Horizon Accident Investigation Report, 66. Ibid.
+[^134]: Testimony of Daun Winslow, August 23, 2010, 451; Testimony of Steve Bertone, 39.
 
-[^135]: Testimony of Steve Bertone, 39. Fred Bartlit, letter to the National Commission, October 28, 2010 (reporting the results of cement testing). Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 76.
+[^135]: Testimony of Steve Bertone, 39.
 
-[^136]: Ibid. If BP were looking, the one February test actually reported to BP could have prompted BP to question the design as well. BP argues that its failure to do so here is understandable given that it had hired one of the world's leading cementers specifically for purposes of designing and testing the cement slurry. Alice Camp, "Nuclear: In Pursuit of a Renaissance," EPRI Journal (Summer 2007): 20.
+[^136]: Ibid.
 
-[^137]: Testimony of Patrick O'Bryan, 368, 396. To the contrary, Halliburton's selection of conditioning time appears to have been haphazard at best. Lab person- nel used different conditioning times (ranging from zero conditioning time to three hours) in each of the four foam stability tests that they conducted. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 81.
+[^137]: Testimony of Patrick O'Bryan, 368, 396.
 
-[^138]: Testimony of Daun Winslow, August 23, 2010, 452. Internal Halliburton document (HAL_DOJ 43). Ibid., 53.
+[^138]: Testimony of Daun Winslow, August 23, 2010, 452.
 
-[^139]: Internal BP Document (BP-HZN-MBI 21277). Testimony of Daun Winslow, 209; Guide, interview. Ibid., 53
+[^139]: Internal BP Document (BP-HZN-MBI 21277).
 
-[^140]: Testimony of Daun Winslow, August 23, 2010, 451–452. Moreover, once the BP Well Site Leaders and crew realized that the annular preventer was leaking, they should have circulated out any spacer that had migrated below the annular preventer prior to continuing with the test. Testi- Ibid., 53–54.
+[^140]: Testimony of Daun Winslow, August 23, 2010, 451–452.
 
-[^141]: Internal BP Document (BP August 9, 2010 presentation to Oil Spill Commission, slide 13). The Commission agrees with others that there is no such thing as a "bladder effect" that could account for the pres- sures the rig crew was observing. There was no apparent explanation for the 1400 psi on the drill pipe other than that the well was flowing. Lee Gard, e-mail message to Commission Staff, December 1, 2010.
+[^141]: Internal BP Document (BP August 9, 2010 presentation to Oil Spill Commission, slide 13).
 
-[^142]: Testimony of Daun Winslow, August 23, 2010, 454. Transocean asserts that its personnel, including the driller and toolpusher, were not "in any way responsible for interpreting the negative pressure test or making the decision that the well was secure and work could properly pro- ceed." Rachel Clingman, letter to Commission staff, November 16, 2010, 1. As the Commission's staff made clear at the November 8, 2010 hearing, the Commission is not tasked with deciding legal responsibility. Based on available evidence, however, Revette and Anderson agreed the negative-pressure test was a success and did not stop the job before moving on to the remaining temporary abandonment procedures. Testimony of Lee Lambert, 291; Internal BP documents (BP-HZN-CEC 20347, 20178). Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 104.
+[^142]: Testimony of Daun Winslow, August 23, 2010, 454.
 
-[^143]: Ibid., 454–455. Guide, interview. Lee Gard, interview.
+[^143]: Ibid., 454–455.
 
-[^144]: Testimony of Yancy Keplinger, October 5, 2010, 157. Benjamin Powell, "BP Response to Presidential Commission's Preliminary Technical Conclusions," letter to Commis- sion staff, November 22, 2010, att. 1, 3 (citing Hearing Before the Senate Comm. on Energy and Natural Resources, 111th Cong. (May 11, 2010) (statement of Testimony of Tim Probert, Halliburton President, Global Business Lines, Chief Health, Safety and Environmental Officer)). Michael Golay (MIT), interview with Commission Staff, October 27, 2010.
+[^144]: Testimony of Yancy Keplinger, October 5, 2010, 157.
 
-[^145]: Associated Press, "'The Real Deal': Survivors recall the Deepwater Horizon explosion," Press-Register, May 9, 2010. Testimony of Mark Bly, 213; Testimony of Charlie Williams, Hearing before the National Commission, November 9, 2010, 45. Lee Gard, e-mail message to Commission Staff, December 1, 2010.
+[^145]: Associated Press, "'The Real Deal': Survivors recall the Deepwater Horizon explosion," Press-Register, May 9, 2010.
 
-[^146]: Ibid.; BP, Deepwater Horizon Accident Investigation Report, 103. Testimony of Steve Lewis, 54, 124. BP argues that "[t]he use of additional mechanical plugs would have brought its own additional risks." Powell, letter, att. 1, 6 (citing API, Recommended Practice 65—Part 2 (May 2010), § 3.1); Guide, interview. However, BP does not present any evidence that the Macondo team in fact evaluated those risks or compared them with the risks of setting a single surface cement plug in seawater 3,300 feet below the mud line. Michael Rencheck (AREVA Inc.), interview with Commission staff, November 1, 2010.
+[^146]: Ibid.; BP, Deepwater Horizon Accident Investigation Report, 103.
 
-[^147]: Testimony of Steve Bertone, 39–40. Merrick Kelley (BP), interview with Commission staff, October 22, 2010; Industry expert, interview. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 104.
+[^147]: Testimony of Steve Bertone, 39–40.
 
-[^148]: Ibid., 40. BP asserts that "[u]sing drill collars would have required unracking the drill pipe on the rig and then locating and re-racking drill collars—a set of additional operations with attendant risks." Powell, letter, att. 1, 5. BP does not provide any evidence to substantiate the extent of such "attendant risks" or whether they outweighed the risks of the procedure BP chose. Most significantly, BP offers no evidence that its Macondo team ever considered such risks or performed a rigorous comparative risk analysis. Michael Golay, interview. 149 33 U.S.C. § 2210.
+[^148]: Ibid., 40.
 
-[^149]: Ibid., 40–41. Internal BP document (BP-HZN-CEC 8574).
+[^149]: Ibid., 40–41.
 
-[^150]: Ibid., 41–43. Testimony of Mark Bly, 308. BP has suggested that the float valves provided an additional barrier to flow. BP, Deepwater Horizon Accident Investigation Report, 68. The Commission does not agree that float valves, even when converted, constitute a distinct physical barrier to flow, but instead reinforce the cement in the shoe track. Clawson, interview (indicating that Weatherford does not consider the float collar to be a barrier to hydrocarbons); API, Recommended Practice 65—Part 2 (May 2010), §§ 3.4, 4.4.3 (float valves not included in the list of subsurface mechanical barriers; float equipment used to prevent cement from flowing back into the casing). Lee Gard, e-mail message to Commission Staff, December 1, 2010.
+[^150]: Ibid., 41–43.
 
-[^151]: Ibid., 43. Testimony of Darryl Bourgoyne, Hearing before the National Commission, November 9, 2010, 133. Lee Gard, e-mail message to Commission Staff, November 15, 2010.
+[^151]: Ibid., 43.
 
-[^152]: Ibid. Testimony of Charlie Williams, 46–53. Lee Gard, e-mail message to Commission Staff, December 13, 2010.
+[^152]: Ibid.
 
-[^153]: Testimony of Randy Ezell, 288. Testimony of Bill Ambrose, 380–84. "Oil Industry Needs Self-Regulation, Says Alternate Energy Holdings Inc. CEO," Forbes Magazine, August 26, 2010.
+[^153]: Testimony of Randy Ezell, 288.
 
-[^154]: Testimony of Steve Bertone, 44. Between 8:00 and 9:49 p.m., the crew was performing a number of other activities that may have further con- founded the data or at least distracted the driller. The crew was emptying various tanks on the rig into the active pit system, including "trip tanks" and "sand traps," which may have masked increased flow out of the well into the ac- tive pit system. At 9:18 p.m., a valve on one of the pumps blew, and a number of crew members from the rig floor went to fix it. Finally, the crew was operating one or both of the cranes on the main deck, which could have affected flow-out and volume readings. Lee Gard, interview.
+[^154]: Testimony of Steve Bertone, 44.
 
-[^155]: Ibid., 44–46. Internal BP document (BP-HZN-OSC 5420). Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 57.
+[^155]: Ibid., 44–46.
 
-[^156]: Ibid., 45–46. Guide, interview. Lee Gard, interview.
+[^156]: Ibid., 45–46.
 
-[^157]: Ibid., 46–47. Ibid.; Internal BP document (BP-HZN-MBI 193529-39). Ibid.
+[^157]: Ibid., 46–47.
 
-[^158]: Ibid., 47–48. It appears that the chain of command and responsibilities at BP during the execute phase were not well-understood by the Macondo Engineering Team Leader. When asked during an interview who was responsible for designing or amending the temporary abandonment procedures, the Macondo Engineering Team Leader said he would need to look at the company's chart of roles and responsibilities. Walz, interview. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 96–97.
+[^158]: Ibid., 47–48.
 
-[^159]: Testimony of Michael Williams, 26. Internal BP document (BP-HZN-MBI 117603). Ibid., 116.
+[^159]: Testimony of Michael Williams, 26.
 
-[^160]: Testimony of Steve Bertone, 48. Internal BP document (BP-HZN-MBI 128542). Ibid., 111–117.
+[^160]: Testimony of Steve Bertone, 48.
 
-[^161]: Testimony of Andrea Fleytas, 15. Internal BP document (BP-HZN-OSC 6224). Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010; Institute of Nuclear Power Operations, 2009 Annual Report; Institute of Nuclear Power Operations, 1994 Annual Report.
+[^161]: Testimony of Andrea Fleytas, 15.
 
-[^162]: Testimony of Steve Bertone, 48. There is a dispute as to whether BP personnel called back to shore that evening to discuss the data observed during the negative-pressure test. The Commission staff has to date seen no direct evidence of such a call. The staff 's inves- tigation is ongoing. Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010.
+[^162]: Testimony of Steve Bertone, 48.
 
-[^163]: Ibid. Internal BP document (BP-HZN-BLY 38354). Institute of Nuclear Power Operations, Performance Objectives and Criteria (May 2005); Institute of Nuclear Power Operations, Principles for Nuclear Safety Culture (November 2004).
+[^163]: Ibid.
 
-[^164]: Ibid., 48–49. Internal BP document (BP-HZN-BLY 38355). Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 44.
+[^164]: Ibid., 48–49.
 
-[^165]: Ibid., 48. Internal BP document (BP-HZN-BLY 38354). Ibid., 64.
+[^165]: Ibid., 48.
 
-[^166]: Testimony of Curt Kuchta, 219. Internal BP document (BP-HZN-BLY 38361). U.S. Department of the Interior, Outer Continental Shelf Safety Oversight Board, Report to the Secretary of the Interior (September 1, 2010), 11–13.
+[^166]: Testimony of Curt Kuchta, 219.
 
-[^167]: Testimony of Daun Winslow, August 28, 2010, 467. Ibid. Ibid., 13–14. 168 10 C.F.R. Parts 1–171.
+[^167]: Testimony of Daun Winslow, August 28, 2010, 467.
 
-[^168]: Testimony of Steve Bertone, 50. Internal BP document (BP-HZN-BLY 38362).
+[^168]: Testimony of Steve Bertone, 50.
 
-[^169]: Ibid. Internal Transocean document (TRN-PC 3227). Testimony of Rex Tillerson, Exxon Mobil, Hearing before the National Commission, November 9, 2010.
+[^169]: Ibid.
 
-[^170]: Testimony of Anthony Gervasio, 197. Transocean states that on April 5, 2010, it posted a short, two-page version of this advisory to an internal electronic document platform, which supervisors on the Deepwater Horizon had access to. But the advisory was limited to completion operations, and, as of this writing, Transocean has not offered any evidence that anyone on the rig actu- ally saw or reviewed the advisory. Ibid.
+[^170]: Testimony of Anthony Gervasio, 197.
 
-[^171]: Testimony of Steve Bertone, 49. The industry and the international community also failed to adequately communicate lessons learned from the Montara blowout, which for ten weeks beginning on August 21, 2009 spewed between 400 and 1500 barrels per day of oil and gas into the Timor Sea approximately 150 miles off the northwest coast of Australia. David Borth- wick, Report of the Montara Commission of Inquiry (The Montara Commission of Inquiry, Australia, June 2010), 5, 26. According to the Report of the Montara Commission of Inquiry, released on November 24, 2010, many of the technical and managerial causes of the Montara blowout track those at Macondo. For instance, the Commission of Inquiry concluded that the cement job in the "9 5/8" casing shoe failed, that there were numerous risk factors surrounding the cement job that went unheeded, and that the cement job was not properly pressure tested. Ibid., 7. According to the Commission of Inquiry: The multiple problems in undertaking the cement job—such as the failure of the top and bottom plugs to cre- ate a seal after "bumping," the failure of the float valves and an unexpected rush of fluid—should have raised alarm bells. Those problems necessitated a careful evaluation of what happened, the instigation of pressure testing and, most likely, remedial action. No such careful evaluation was undertaken. The problems were not complicated or unsolvable, and the potential remedies were well known and not costly. This was a failure of "sensible oilfield practice 101." Ibid. The Commission of Inquiry went on to conclude that while the "absence of tested barriers was a proximate cause of the Blowout," the deeper failure was a systemic failure of management on the part of the operator, PTTEP Australasia. Ibid., 9. Testimony of Michael Bromwich, Director, Bureau of Ocean Energy Management, Regulation and Enforcement, Department of the Interior, Hearing before the National Commission, November 9, 2010, 228.
+[^171]: Testimony of Steve Bertone, 49.
 
-[^172]: Internal Transocean document (TRN-USCG_MMS 30428). Testimony of Rex Tillerson, Hearing before the National Commission, November 9, 2010, 250–52; Testimony of Marvin Odum, Hearing before the National Commission, November 9, 2010, 278–79. 173 30 C.F.R. § 250.1721(d). 174 30 C.F.R. § 250.141(a). Oil and Gas and Sulphur Operations in the Outer Continental Shelf – Safety and Environmental Management Sys- tems, 75 Fed. Reg. 199 (October 15, 2010).
+[^172]: Internal Transocean document (TRN-USCG_MMS 30428).
 
-[^173]: Testimony of Anthony Gervasio, 224. National Commission Staff, "Response/Clean-Up Technology Research & Development and the Deepwater Horizon Oil Spill," (staff working paper, 2010)
+[^173]: Testimony of Anthony Gervasio, 224.
 
-[^174]: Testimony of Steve Bertone, 50. Angel Gonzalez, "Oil Firms Plan Rapid-Response Force," Wall Street Journal, July 22, 2010; Daniel Squire, e-mail message to Commission staff, December 1, 2010.
+[^174]: Testimony of Steve Bertone, 50.
 
-[^175]: Testimony of Capt. Alwin Landry, 112. Internal BP document (BP-HZN-OSC 1436). Marine Well Containment Company, "Industry Initiatives to Ensure Safe, Protective Drilling Practices in the Deepwa- ter Gulf of Mexico: The Marine Well Containment System" (presentation, Washington, D.C., September 2010).
+[^175]: Testimony of Capt. Alwin Landry, 112.
 
-[^176]: Testimony of Steve Bertone, 51. Internal BP document (BP-HZN-MBI 127906). MMS approved a number of other requests by BP for deviations on the Macondo well. None of those other approvals appear to have contributed to the blowout. However, they do sug- gest that the MMS staff did not spend much time deciding whether to grant the requests, which may have been due to the severe funding and staffing shortages in the New Orleans office. Chapter Five Marine Well Containment Company, "About Us," http://www.marinewellcontainment.com/index.php.
+[^176]: Testimony of Steve Bertone, 51.
 
-[^177]: Testimony of Kevin Robb, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 44. Matthew Daly, "Month After Oil Spill, Why Is BP Still in Charge?," ABC News, May 21, 2010, http://abcnews. go.com/Business/wireStory?id=10713257. Helix Energy Solutions Group, "Spill Containment: Fast Response to GOM Subsea Oil Spills" (unpublished document provided to Commission staff by Helix Energy Solutions Group).
+[^177]: Testimony of Kevin Robb, Hearing before the Deepwater Horizon Joint Investigation Team, May 11, 2010, 44.
 
-[^178]: Ian Urbina and Justin Gillis, "Workers On Oil Rig Recall a Terrible Night of Blasts," New York Times, May 7, 2010. Interview with Coast Guard official, November 12, 2010. Independent Deepwater Exploration Coalition, meeting with Commission staff, November, 29, 2010.
+[^178]: Ian Urbina and Justin Gillis, "Workers On Oil Rig Recall a Terrible Night of Blasts," New York Times, May 7, 2010.
 
-[^179]: Internal BP Document (BP-HZN-MBI 143366). Frank McCormack, "Privateer Perfection," Plaquemines Gazette, June 7, 2010. "Moody's Offshore drilling insurance rates to jump," BusinessWeek, June 4, 2010.
+[^179]: Internal BP Document (BP-HZN-MBI 143366).
 
-[^180]: Testimony of Alwin Landry, 115. Paul Rioux, "President Barack Obama in Grand Isle after Touring Beach in Port Fourchon," Times-Picayune, May 28, 2010. Julia Kollewe, "Oil Industry Set for Surge in Insurance Premiums after Deepwater Disaster," The Guardian, Septem- ber 20, 2010, http://www.guardian.co.uk/business/2010/sep/20/deepwater-oil-rigs-insurance-costs.
+[^180]: Testimony of Alwin Landry, 115.
 
-[^181]: Urbina and Gillis, "Workers On Oil Rig Recall a Terrible Night of Blasts." Paul Rioux, "President Barack Obama Promises No Retreat from Gulf of Mexico Oil Spill Response," Times-Picauyne, May 28, 2010. Aspen Re interview with Commission staff, October 19, 2010; Testimony of Dr. Robert Hartwig, President and Economist, Insurance Information Institute, "Liability and Financial Responsibility for Oil Spills under the Oil Pollu- tion Act of 1990 and Related Statutes," Hearing Before the House Committee on Transportation and Infrastructure,
+[^181]: Urbina and Gillis, "Workers On Oil Rig Recall a Terrible Night of Blasts."
 
-[^182]: Walsh, "Forced to Become Emergency Workers, Fishermen Say BP Never Even Said Thanks." Interview with Coast Guard official, August 26, 2010; Interview with Coast Guard official, September 2, 2010; Non-public Coast Guard document, June 14, 2010.
+[^182]: Walsh, "Forced to Become Emergency Workers, Fishermen Say BP Never Even Said Thanks."
 
-[^183]: Testimony of Steve Bertone, 52; Ibid., 48–53. Jeffrey Ball and Jonathan Weisman, "Slippery Start: U.S. Response to Spill Falters," Wall Street Journal, June 16, 2010. Ibid. 184 33 U.S.C. § 2704. 185 33 U.S.C. § 2704; 33 U.S.C § 1321 (Clean Water Act civil and criminal penalties); Jonathan Ramseur, Oil Spills in U.S. Coastal Waters: Background, Governance, and Issues for Congress (Congressional Research Service, updated September 2, 2008), 26 ("A 2003 study identified 16 states that impose unlimited liability for oil spills.").
+[^183]: Testimony of Steve Bertone, 52; Ibid., 48–53.
 
-[^184]: Testimony of Randy Ezell, 330. Interview with Coast Guard official, November 12, 2010.
+[^184]: Testimony of Randy Ezell, 330.
 
-[^185]: Testimony of Alwin Landry, 120–121. Executive Order No. 13543, National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, 75 Fed. Reg. 29,397, May 21, 2010.
+[^185]: Testimony of Alwin Landry, 120–121.
 
-[^186]: Testimony of Daun Winslow, August 28, 2010, 44–45. Peter Baker, "Obama Extends Moratorium; Agency Chief Resigns," New York Times, May 27, 2010. CLEAR Act, H.R. 3534, 111th Cong. § 702 (2010) (as passed by House); S. 3663, 111th Cong. §102 (2010)("Reid Clean Energy bill"); RESPOND Act, S. 3763, 111th Cong. § 6 (2010)("Landrieu bill"); Big Oil Bailout Prevention Act, H.R. 5214, 111th Cong. § 2 (2010).
+[^186]: Testimony of Daun Winslow, August 28, 2010, 44–45.
 
-[^187]: Testimony of Capt. Alwin Landry , 121–122. Gardner Harris, "Minerals Management Service Director Resigns Over Spill," New York Times, May 27, 2010. Testimony of Charles Anderson, SKULD North America, "Liability and Financial Responsibility for Oil Spills under the Oil Pollution Act of 1990 and Related Statutes," Hearing Before the House Committee on Transportation and Infrastructure, 111th Congress (2010), 9.
+[^187]: Testimony of Capt. Alwin Landry , 121–122.
 
-[^188]: Ibid., 125–126. Mike Allen, "Gulf Commander to Begin Solo Briefings," Politico, May 31, 2010. Graeme Wearden, "BP oil spill costs to hit $40bn," The Guardian, November 2, 2010 ($39.9 billion estimated costs); 33 U.S.C. §2716 (maximum required financial responsibility for offshore facilities is $150 million).
+[^188]: Ibid., 125–126.
 
-[^189]: Ibid., 126. Chapter Two Interview with government official, October 8, 2010. Rawle King, Deepwater Horizon Oil Spill Disaster: Risk, Recovery, and Insurance Implications (Congressional Re- search Service, July 12, 2010), 16–18.
+[^189]: Ibid., 126. Chapter Two
+
+[^1]: Joseph Pratt, Tyler Priest, and Christopher Castaneda, Offshore Pioneers: Brown & Root and the History of Offshore Oil and Gas (Houston: Gulf Publishing, 1997), 7–13; "First Well in Gulf of Mexico Was Drilling Just 25 Years Ago," Offshore (October 1963): 17–19.
+
+[^2]: Quoted in Tom Zoellner, "Oil and Water: The Adventure of Getting One from Deep Beneath the Other," Invention and Technology (Fall 2000): 48.
+
+[^3]: Daniel Yergin, The Prize: The Epic Quest for Oil, Money, and Power (New York: Simon and Schuster, 1992), 409.
+
+[^4]: Pratt, Priest, and Castaneda, Offshore Pioneers, 15–52, 137–157.
+
+[^5]: Ibid., 21–25.
+
+[^6]: Tyler Priest, "Extraction Not Creation: The History of Offshore Petroleum in the Gulf of Mexico," Enterprise & Society 8, no. 2 (June 2007): 240.
+
+[^7]: Alden J. LaBorde, My Life and Times (New Orleans: LaBorde Printing Company, 1996), 174.
+
+[^8]: James W. Calvert, "Gulf Offshore Activity Booming," World Petroleum (January 1957): 48.
+
+[^9]: Ben C. Belt, "Louisiana and Texas Offshore Prospects," Drilling (March 1956): 119.
+
+[^10]: "Special Offshore Report," World Oil (May 1957): 118; Calvert, "Gulf Offshore Activity Booming," 48.
+
+[^11]: Pratt, Priest, and Castaneda, Offshore Pioneers, 36–48.
+
+[^12]: Tyler Priest, The Offshore Imperative: Shell Oil's Search for Petroleum in Postwar America (College Station: Texas A&M Press, 2007), 81–91.
+
+[^13]: Ibid., 95–98.
+
+[^14]: Tyler Priest, "Auctioning the Ocean: The Creation of the Federal Offshore Leasing Program, 1954-1962," History of the Offshore Oil and Gas Industry in Southern Louisiana: Vol. 1: Papers on the Evolving Offshore Industry (Minerals Management Service OCS Study 2004-049, 2008).
+
+[^15]: U.S. Department of Interior, "Petroleum and Sulfur on the U.S. Continental Shelf," internal study, August 1969, box 134, Central Classified Files, 1969–1972, Record Group 48, Records of the Secretary of Interior, National Archives and Records Administration (NARA), College Park, MD.
+
+[^16]: Priest, "Auctioning the Ocean," 113.
+
+[^17]: On Project Mohole and JOIDES, see David K. van Keuren, "Breaking New Ground: The Origins of Scientific Ocean Drilling," in The Machine in Neptune's Garden: Historical Perspectives on Technology and the Marine Environment, eds. Helen M. Rozwadowski and David K. van Keuren (Sagamore Beach, MA: Science History Publications, 2004), 183–210. On Shell's Eureka project, see Priest, The Offshore Imperative, 97, 218.
+
+[^18]: F. P. Dunn, "Deepwater Production: 1950-2000" (Offshore Technology Conference [OTC] Paper 7627, Houston, TX, May 1994).
+
+[^19]: Priest, The Offshore Imperative, 127–130.
+
+[^20]: Ibid.
+
+[^21]: Cliff Hernandez, interview by Andrew Gardner, May 1, 2001, New Iberia, LA, History of the Offshore Oil and Gas Industry in Southern Louisiana, Houston History Archives, M.D. Anderson Library Special Collections, University of Houston, Houston, TX. This interview is one of approximately 450 oral histories conducted for History of the Offshore Oil and Gas Industry in Southern Louisiana, Minerals Management Service OCS Study 2004-049 (2008).
+
+[^22]: Ken Arnold, interview with Tyler Priest, May 10, 2004, Houston, TX, History of the Offshore Oil and Gas Industry in Southern Louisiana, Houston History Archives, M.D. Anderson Library Special Collections, University of Houston, Houston, TX.
+
+[^23]: Don E. Kash et al., Energy Under the Oceans: A Technology Assessment of Outer Continental Shelf Oil and Gas Opera- tions (Norman: University of Oklahoma Press, 1973), 104.
+
+[^24]: U.S. Geological Survey, Monthly Engineering Reports Vol. 128 (December 1958) and Monthly Engineering Reports Vol. 144 (February 1960), RG 57, Records of the U.S. Geological Survey, NARA.
+
+[^25]: Kash et al., Energy Under the Oceans, 105.
+
+[^26]: Neil R. Etson to President Nixon, March 18, 1970, Central Classified Files, 1968-1974, Box 71, RG 57, Records of the
+
+[^5]: U.S. Department of the Interior, "Statement by Secretary of the Interior James Watt Instituting Changes in the Mineral Royalty Management Program – July 21, 1982," Commission on Fiscal Accountability of the Nation's Energy Resources: Subject Files, 1981–1982, RG 48, Entry 994, Box 1 (National Archives and Records Administration, Washington, DC).
+
+[^6]: U.S. Constitution, Art IV, § 3, cl. 2.
+
+[^7]: Kleppe v. New Mexico, 426 U.S. 529, 539 (1976), quoting United States v. San Francisco, 310 U.S. 16, 29 (1940).
+
+[^8]: Utah Power & Light Co. v. United States, 243 U.S. 389, 405 (1917); Kleppe v. New Mexico, 426 U.S. at 540 ("Congress exercises the powers of both a proprietor and of a legislature over the public domain.").
+
+[^9]: United States v. Midwest Oil, 236 U.S. 459, 466–68, 474–83 (1915). (Upholding authority of the president to withdraw unilaterally from private disposition valuable energy resources located on public lands in order to protect those resources while Congress considers legislation for their retention in national ownership).
+
+[^10]: Outer Continental Shelf Lands Act, 42 U.S.C. §§ 1331–1356a.
+
+[^11]: E.R. Bartley, The Tidelands Oil Controversy: A Legal and Historical Analysis (Austin: University of Texas Press, 1953); Tyler Priest, "Claiming the Coastal Sea: The Battle for the Tidelands, 1937–1953," History of the Offshore Oil and Gas Industry in Southern Louisiana: Vol. 1: Papers on the Evolving Offshore Industry, MMS OCS Study 2004-049 (New Orleans: U.S. Department of the Interior, Minerals Management Service, 2008), 67–90, https://www.gomr.mms. gov/homepg/espis/espisfront.asp.
+
+[^12]: See United States v. California, 332 U.S. 19, 35 (1947); United States v. Louisiana, 339 U.S. 699 (1950); United States v. Texas, 339 U.S. 707 (1950).
+
+[^13]: Priest, "Claiming the Coastal Sea: The Battle for the Tidelands, 1937–1953."
+
+[^14]: Other states petitioned for the 9-nautical-mile boundary in the federal courts, but failed to prevail.
+
+[^15]: "Oil Shelf Bill Enacted; President Reaffirms U.S. Title to Outer Offshore Deposits," New York Times, August 8, 1953, 27.
+
+[^16]: Richard Vietor, Energy Policy in America since 1945: A Study of Business-Government Relations (New York: Cam- bridge University Press, 1984), 19.
+
+[^17]: E.R. Bartley, The Tidelands Oil Controversy: A Legal and Historical Analysis.
+
+[^18]: "Interior Expects Big Things from . . . Offshore Lease Sale," Oil and Gas Journal, September 13, 1954, 96.
+
+[^19]: Diane Austin et al., History of the Offshore Oil and Gas Industry in Southern Louisiana, Volume 1: Papers on the Evolving Offshore Industry, OCS Study MMS 2008-042 (New Orleans: U.S. Department of the Interior, Minerals Management Service, September 2008), 97–98, http://www.gomr.boemre.gov/PI/PDFImages/ESPIS/4/4530.pdf. 20 43 U.S.C § 1334.
+
+[^21]: "Oil and Gas Leases Bow to Rare Wildlife Species," New York Times, December 9, 1955.
+
+[^22]: John C. Whitaker, Striking a Balance: Environment and Natural Resources Policy in the Nixon-Ford Years (Washing- ton, D.C.: American Enterprise Institute, 1976), 267–268; Russell Wayland, "The New Federal OCS Regulations in the Light of Santa Barbara" (Society of Petroleum Engineers [SPE] Paper 2780, San Francisco, CA, November 1969); Richard B. Krahl and David W. Moody, "Gulf Coast Lease Management Inspection Program," (Offshore Technology Conference [OTC] Paper 1714, 1972), 846.
+
+[^23]: National Environmental Policy Act of 1969, 42 U.S.C. § 4321-4370h.
+
+[^24]: Richard J. Lazarus, The Making of Environmental Law, (Chicago: University of Chicago Press, 2004), 70. 25 42 U.S.C. § 4332(c).
+
+[^26]: Calvert Cliffs Coordinating Committee v. Atomic Energy Commission, 449 F.2d 1109 (D.C. Cir. 1971).
+
+[^27]: National Research Council, Assessment of the U.S. Outer Continental Shelf Environmental Studies Program: III. Social and Economic Studies (The National Academies Press: Washington, DC, 1992), http://www.nap.edu/catalog. php?record_id=2062.
+
+[^28]: U.S. Department of the Interior, Leasing Oil and Natural Gas Resources: Outer Continental Shelf (Washington, D.C.: U.S. Department of the Interior, 2005), 12, http://www.boemre.gov/ld/PDFs/GreenBook-LeasingDocument.pdf.
+
+[^29]: Lazarus, The Making of Environmental Law, 70 (listing 18 statutes, and not including several such as the Magnuson Fishery Management and Conservation Act of 1976).
+
+[^30]: The five laws included the Public Utility Regulatory Policies Act, Pub. L. No. 95-617, Energy Tax Act, Pub. L. No. 95- 618, National Energy Conservation Policy Act, Pub. L. No. 95-619, Power Plant and Industrial Fuel Use Act, Pub. L. No. 95-620, and Natural Gas Policy Act, Pub. L. No. 95-621.
+
+[^31]: Natural Resources Defense Council v. Morton, 458 F.2d 827 (D.C. Cir. 1972).
+
+[^32]: Outer Continental Shelf Leasing Program: Hearings before the H. Comm. on Appropriations, 93rd Cong., 2d Sess. (1974).
+
+[^33]: Outer Continental Shelf Lands Act, Pub. L. No. 95-372, 92 Stat. 629 (1978). 34 43 U.S.C. § 1801. 35 43 U.S.C. § 1802. 36 43 U.S.C. § 1344. 37 43 U.S.C. § 1340. 38 43 U.S.C. § 1351. 39 43 U.S.C. § 1344(a)(3). 40 43 U.S.C. § 1346. 41 43 U.S.C. § 1347(c). 42 43 U.S.C. § 1347(b). 43 43 U.S.C. § 1347(b) 44 43 U.S.C. § 1351. 45 43 U.S.C. § 1340. 46 43 U.S.C. § 1351(c)(3). 47 43 U.S.C. § 1351(e)(1). 48 43 U.S.C. § 1351(e)(1). 49 43 U.S.C. § 1531(l).
+
+[^50]: See S. Rep. No. 95-285, at 154–5 (reprinting letter from Secretary of the Interior Cecil Andrus).
+
+[^51]: See S. Rep. No. 95-285, at 50, 62, 82, 144–5.
+
+[^52]: Robert Gramling, Oil on the Edge: Offshore Development, Conflict, Gridlock (Albany: SUNY Press, 1996), 121.
+
+[^53]: Charles Babcock, "Watt Defies Critics of Plan for Oil Leases," Washington Post, July 7, 1981, A3.
+
+[^54]: "Problems with Government," Ocean Industry (April 1982): 21.
+
+[^55]: Commission on Fiscal Accountability of the Nation's Energy Resources, Fiscal Accountability of the Nation's Energy Resources (Washington, D.C.: January 1982), xv, http://www.onrr.gov/Laws_R_D/frnotices/PDFDocs/linowes- rpt1-5.pdf.
+
+[^56]: Don E. Kash, Lease Management Activities in the Geological Survey, Commission on Fiscal Accountability of the Na- tion's Energy Resources: Technical Reports, 1981–1982, RG 48, Entry 998, Box 10, File 239, National Archives and Records Administration, 8, 9, 27.
+
+[^57]: "Industry Warning Watt Against Transfer of BLM Leasing Functions to MMS," Inside Energy/with Federal Lands, November 1, 1982, 11.
+
+[^58]: G. Kevin Jones, "Outer Continental Shelf Oil and Gas Development During the Reagan Administration—Part 1," West- ern New England Law Review 12, 1, (1990):8–13.
+
+[^59]: "Interior Denies Oil Leasing Plan Will Cost $77 Billion," Associated Press, September 28, 1982. 60 43 U.S.C. § 1337.
+
+[^61]: Charles Lester, "Contemporary Federalism and New Regimes of Ocean Governance: Lessons from the Case of Outer Continental Shelf Oil Development," Ocean & Coastal Management 23 (1994), 14.
+
+[^62]: National Research Council Committee on Marine Area Governance and Management, Striking a Balance: Improving Stewardship of Marine Areas (Washington, D.C.: National Academy of Sciences, 1997), 37, http://www.nap.edu/ openbook.php?record_id=5797&page=37.
+
+[^63]: President George H.W. Bush, "Statement on Outer Continental Shelf Oil and Gas Development," (June 26, 1990), http://bushlibrary.tamu.edu/research/public_papers.php?id=2035&year=1990&month=6. 64 30 C.F.R. pt. 250.
+
+[^65]: U.S. Department of the Interior, Documents pertaining to offshore inspection types and practices produced to the Oil Spill Commission, August 2010.
+
+[^66]: Jan Erik Vinnem, Offshore Risk Assessment: Principles, Modelling and Applications of QRA Studies, 2nd ed. (London: Springer Studies in Reliability Engineering, 2007), 91, 100, 102.
+
+[^67]: Petroleum Safety Authority of Norway, "From Prescription to Performance in Petroleum Supervision," March 12, 2010, http://www.ptil.no/news/from-prescription-to-performance-in-petroleum-supervision-article6696-79.html.
+
+[^68]: Magne Ognedal, interview with Commission staff, November 10, 2010.
+
+[^69]: E.P. Danenberger et al., Investigation of March 19, 1989 Fire, South Pass Block 60 Platform B, Lease OCS-G 1608, OCS Report MMS 90-0016 (New Orleans: U.S. Department of the Interior, Minerals Management Service, April 1990): 15, http://www.gomr.boemre.gov/PDFs/1990/90-0016.pdf.
+
+[^70]: Marine Board of the National Research Council Committee on Alternatives for Inspection of Outer Continental Shelf Operations, Alternatives for Inspecting Outer Continental Shelf Operations (Washington: National Academy Press, 1990): 3, http://www.nap.edu/openbook.php?record_id=1517&page=1.
+
+[^71]: Minerals Management Service, Final Report, Findings and Recommendations, MMS Task Force on OCS Inspection and Enforcement (Washington, D.C.: U.S. Department of the Interior, Minerals Management Service, February 1990), 1-3.
+
+[^72]: Marine Board, Alternatives for Inspecting Outer Continental Shelf Operations, 80.
+
+[^73]: Ibid., 82.
+
+[^74]: Exec. Order No. 12,777, 56 Fed. Reg. 54,757 (October 22, 1991).
+
+[^75]: E.P. Danenberger, "Changes in the Minerals Management Service Offshore Regulatory Programs Resulting From the Oil Pollution Act of 1990" (Offshore Technology Conference [OTC] Paper 6823, May 1992), 150.
+
+[^76]: Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 56 Fed. Reg. 30,400 (July 2, 1991).
+
+[^77]: Ibid.
+
+[^78]: Salient differences were, as MMS noted, that "Platforms in the GOM are typically smaller, technically less sophisti- cated, produce fewer hydrocarbons, and operate in less severe environmental conditions [than North Sea platforms]. The number of personnel on OCS platforms is significantly smaller than on North Sea platforms. There is, however, a substantially greater number of OCS platforms in the GOM, over 3,800." Marshall Courtois, William Hauser, and Paul Schneider, "Minerals Management Service Safety and Environmental Management Program: Evolution of the Concept," (Offshore Technology Conference [OTC] Paper 6822, May 1992), 145.
+
+[^79]: Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 56 Fed. Reg. 30,400 (July 2, 1991).
+
+[^80]: Former senior MMS officials, interviews with Commission staff, August and September 2010; Offshore Operators Committee, "Oil, Gas, and Sulphur Operations in the Outer Continental Shelf (OCS)—Safety and Environmental Management Systems," Public Comment (May 22, 2006), http://www.boemre.gov/federalregister/PDFs/AD15- OOCcomments5-22-06.pdf.
+
+[^81]: T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?" (Offshore Technology Conference [OTC] Paper 8111, May 1996): 828.
+
+[^82]: E.O. Redd, Jean Chevallier, and Ian Paterson, "Preparing a Safety Case: A Drilling Contractor's Experience" (Society of Petroleum Engineers [SPE] Paper 27293, January 1994): 799.
+
+[^83]: L.D. Easley, J.E. Stark, and R.A. Bradford, "Implementing API RP 75 'Recommended Practice for Development of a Safety and Environmental Program for Outer Continental Shelf (OCS) Operations and Facilities'" (Offshore Technol- ogy Conference [OTC] Paper 7384, May 1994): 130.
+
+[^84]: American Petroleum Institute, Recommended Practices for Development of a Safety and Environmental Management Program for Outer Continental Shelf (OCS) Operations and Facilities, Recommended Practice 75, 1st ed. (Dallas, TX: May 15, 1993).
+
+[^85]: Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 59 Fed. Reg. 33,779 (June 30, 1994).
+
+[^86]: Safety and Environmental Management Program (SEMP) on the Outer Continental Shelf (OCS), 61 Fed. Reg. 37,493 (July 18, 1996).
+
+[^87]: Ibid.
+
+[^88]: Patrick Crow, "New slant on safety," Oil & Gas Journal (July 22, 1996): 23.
+
+[^89]: TA.F Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?" (Offshore Technology Conference [OTC] Paper 8111, 1996).
+
+[^90]: E.P. Danenberger, interview with Commission staff, September 2, 2010; E.P. Danenberger, e-mail message to Commis- sion staff, October 25, 2010.
+
+[^91]: Oil and Gas and Sulphur Operations in the Outer Continental Shelf–Incident Reporting Requirements, 68 Fed. Reg. 40,585 (July 8, 2003).
+
+[^92]: E.P. Danenberger, interview with Commission staff, September 2, 2010; E.P. Danenberger, e-mail message to Commis- sion staff, October 25, 2010.
+
+[^93]: Oil and Gas and Sulphur Operations in the Outer Continental Shelf—Incident Reporting Requirements, 71 Fed. Reg. 19,640 (April 17, 2006).
+
+[^94]: Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data. See http:// www.boemre.gov/adm/budget.html.
+
+[^95]: Jim Morris, "Lost at Sea/OFFSHORE RISKS/Safety concerns return with rise of oil, gas boom," Houston Chronicle, December 22, 1996, http://www.chron.com/CDA/archives/archive.mpl?id=1996_1384981.
+
+[^96]: Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data. See http:// www.gomr.boemre.gov/homepg/fastfacts/WaterDepth/wdmaster.asp.
+
+[^97]: Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data; Minerals Management Service, U.S. Offshore Milestones (as of August 2006): 5. See http://www.boemre.gov/stats/PDFs/ milestonesAUG2006.pdf.
+
+[^98]: Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement and U.S. Energy In- formation Administration data. See http://www.gomr.boemre.gov/PDFs/2009/2009-016.pdf, 71–72; http://www. eia.gov/oog/info/twip/twiparch/100526/twipprint.html.
+
+[^99]: Commission staff analysis of MMS yearly budget request and enactments, by nominal and real (2005) dollars.
+
+[^100]: Tetrahedron, Inc., Reliability of Blowout Preventers Tested Under Fourteen and Seven Days Time Interval: Study Report, Submitted to Minerals Management Service, Department of the Interior, MMS Technology Assessment & Research Project 253, "Blowout Preventer Study" (December 20, 1996), http://www.boemre.gov/tarprojects/253/ AA.PDF.; Blowout Preventer (BOP) Testing Requirements for Drilling and Completion Operations, 63 Fed. Reg. 29,604 (June 1, 1998).
+
+[^101]: Per Holand, Reliability of Subsea BOP Systems for Deepwater Application, Phase II DW, SINTEF Report STF38 A99426 (November 7, 1999); Per Holand, Deepwater Kicks and BOP Performance, SINTEF Report STF38 A01419 (July 24, 2001); WEST Engineering Services, Inc., Mini Shear Study for U.S. Minerals Management Service, Requisi- tion No. 2-1011-1003 (December 2002); WEST Engineering Services, Inc., Shear Ram Capabilities Study for U.S. Minerals Management Service, Requisition No. 3-4025-1001 (September 2004).
+
+[^102]: WEST Engineering Services, Inc., "Comments by WEST Engineering Services, Houston, Texas, to The National Com- mission on the BP Deepwater Horizon Oil Spill and Offshore Drilling" (November 12, 2010): 3.
+
+[^103]: David Barstow and others, "Regulators Failed to Address Risks in Oil Rig Fail-Safe Device," New York Times, June 20, 2010, www.nytimes.com/2010/06/21/us/21blowout.html.
+
+[^104]: U.S. Department of the Interior, Outer Continental Shelf Safety Oversight Board, Report to the Secretary of the Interior (September 1, 2010), 6.
+
+[^105]: Ibid.
+
+[^106]: Ibid.
+
+[^107]: U.S. Department of the Interior, Office of Inspector General, Survey Report: Offshore Civil Penalties Program, Miner- als Management Service (March 30, 1999), http://www.doioig.gov/images/stories/reports/pdf/99-I-374.pdf.
+
+[^108]: Commission staff analysis of Bureau of Ocean Energy Management, Regulation and Enforcement data provided to the Commission by the Department of the Interior of unannounced MMS inspections of MODUs/drilling rigs, 1990 (1,985 inspections) to 2009 (85 inspections). The pivotal change occurs in 1998–1999, as the numbers drop from
 
 [^864]: to 41 in the span of one year.
 
-[^190]: Interview with NOAA officials, November 18, 2010. Press Release, Munich Re, Munich Re Develops New Insurance Solution for Oil Catastrophes, September 12, 2010, http://www.munichre.com/en/media_relations/press_releases/2010/2010_09_12_press_release.aspx; Munich Re executives, telephone interview with Commission staff, September 17, 2010.
+[^109]: Yearly MMS Incident Summary Reports are available at http://www.boemre.gov/incidents/IncidentStatisticsSum- maries.htm.
 
-[^191]: Interview with Coast Guard official, August 24, 2010; Interview with Coast Guard official, August 30, 2010. RESPOND Act, S. 3763, 111th Cong. § 7 (2010).
+[^110]: "Deepwater Gulf of Mexico production rising," Oil & Gas Journal (November 1, 1999): 34 ("In 1999, 11 more deepwater development production projects in the gulf have already begun producing or are on the verge of doing so"); Michael Davis, "LEARNING THE DRILL/The oil patch rebound brought with it a need for drilling companies to find, train and keep people to work the rigs," Houston Chronicle (February 1, 1998): 1 ("A shortage of qualified personnel has been a nagging problem since the oil patch has come back in the past year. But over the next two years some 50 new offshore jack-up rigs, semi-submersibles and drill ships currently being built or converted will
 
-[^192]: Interview with Coast Guard official, August 24, 2010; Interview with Coast Guard official, August 31, 2010. Graeme Wearden, "BP oil spill costs to hit $40bn," The Guardian, November 2, 2010. Chapter Nine
+[^1]: John Guide (BP), interview with Commission staff, September 17, 2010.
+
+[^2]: Internal Transocean document (TRN-HEC 90686). Internal documents are identified by their document production serial numbers when available, which were assigned by the entity that provided them.
+
+[^3]: Internal BP document (BP-HZN-MBI 126338).
+
+[^4]: Internal Transocean document (TRN-USCG-MMS 11597).
+
+[^5]: Internal BP document (BP-HZN-MBI 126338).
+
+[^6]: Ibid.
+
+[^7]: Ibid. Three companies own the Macondo well. BP has a 65 percent share, Anadarko Petroleum Corporation has a 25 percent share, and MOEX Offshore has a 10 percent share. BP maintained regular contact with Anadarko and MOEX throughout the drilling of the well.
+
+[^8]: Internal Transocean documents (TRN-USCG-MMS 11600, 11605, 11609, 11613, 11617, 11621, 11625).
+
+[^9]: Brett Clanton, "New tactic might seal leaking well sooner, BP CEO says," Houston Chronicle, May 5, 2010.
+
+[^10]: Gregory Walz (BP), interview with Commission staff, October 6, 2010.
+
+[^11]: Testimony of Gregory Walz, Hearing before the Deepwater Horizon Joint Investigation Team, October 7, 2010, 157–59.
+
+[^12]: Internal BP document (BP-HZN-MBI 143300) (emphasis added).
+
+[^13]: Internal BP documents (BP-HZN-MBI 136937, 136941).
+
+[^14]: Internal BP document (BP-HZN-CEC 8848-58).
+
+[^15]: Internal BP document (BP-HZN-MBI 129238-39).
+
+[^16]: Guide, interview. Indeed, just days before the running of the long string at Macondo, another well drilled by Trans- ocean's DD3 suffered just such a complication. Ibid.
+
+[^17]: Testimony of Jesse Gagliano, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 320.
+
+[^18]: Internal BP document (BP-HZN-CEC 22433). Walz also noted that the flight carrying centralizers would not increase costs. Ibid.
+
+[^19]: Guide, interview. BP had special one-piece bolt-on centralizers made for the Thunder Horse project. Ibid.
+
+[^20]: Internal BP document (BP-HZN-MBI 128379).
+
+[^21]: Internal BP document (BP-HZN-CEC 22669).
+
+[^22]: Internal BP document (BP-HZN-CEC 22433).
+
+[^23]: Testimony of Steve Lewis, Hearing before the National Commission, November 9, 2010, 93–94; Internal BP document (BP-HZN-MBI 129226). Prior to conversion, a small ball drops from the top of the float valves to block the main path through the auto-fill tube, leaving only two small holes on the side of the tube through which mud can flow. Ibid.
+
+[^24]: The Well Site Leaders—Bob Kaluza and Don Vidrine—would normally have been on the rig. Morel, a relatively junior BP engineer, had flown to the rig out of a professional interest in learning more about the cementing process. Guide, interview.
+
+[^25]: Bryan Clawson (Weatherford), interview with Commission staff, October 28, 2010; BP, Deepwater Horizon Accident Investigation Report (September 8, 2010), 70.
+
+[^26]: Testimony of Steve Lewis, 96; Internal Transocean document (TRN-USCG_MMS 11638).
+
+[^27]: Internal BP document (BP-HZN-MBI 137367).
+
+[^28]: Ibid.; Testimony of Nathaniel Chaisson, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 432.
+
+[^29]: Internal BP documents (BP-HZN-MBI 137367, 21304). Since the incident, BP has argued that the M-I SWACO models predicted an erroneously high circulation pressure, and that the readings the crew observed were proper. This may ultimately explain the readings, but it does not explain why the BP Macondo team dismissed them as the result of a broken pressure gauge.
+
+[^30]: David Izon, E.P. Danenberger, and Melinda Mayes, "Absence of fatalities in blowouts encouraging in MMS study of OCS incidents 1992-2006," Well Control July/August (2007), 84.
+
+[^31]: Testimony of John Guide, Hearing before the Deepwater Horizon Joint Investigation Team, July 22, 2010, 87.
+
+[^32]: John Gisclair, Sperry Sun data, April 20, 2010 (annotations, September 20, 2010). Commission calculation based on internal Halliburton document (HAL_10994).
+
+[^33]: Internal BP document (BP-HZN-MBI 127537-39); Internal Halliburton document (HAL_11196). 34 30 C.F.R. § 250.421.
+
+[^35]: Internal BP document (BP-HZN-MBI 193549). BP's internal guidelines further specify that centralization should extend 100 feet above any such hydrocarbon-bearing zones. If either the top of cement or centralization requirements are not met, the guidelines require that the actual top of cement should be confirmed by a "proven cement evaluation technique." Ibid.
+
+[^36]: Internal BP documents (BP-HZN-MBI 143295, BP-HZN-CEC 22663); BP, Deepwater Horizon Accident Investigation Report, 34.
+
+[^37]: Document provided to the Commission by Halliburton entitled "Halliburton GoM Foam Jobs 2002–2010."
+
+[^38]: S.L. Pickett and S.W. Cole, "Foamed Cementing Technique for Liners Yields Cost-Effective Results" (Society of Petro- leum Engineers SPE Paper #27679, Midland, Texas, March 1994), 523–24.
+
+[^39]: Halliburton had delivered the slurry blend to the Deepwater Horizon several months earlier. It had developed the blend to match the temperature and pressure profile of the well that Deepwater Horizon had drilled immediately prior to Macondo—another BP well called Kodiak. Jesse Gagliano (Halliburton), interview with Commission staff, September 10, 2010.
+
+[^40]: At this point, it appears that lab personnel replicated the dry blend recipe that was on the rig using off-the-shelf ma- terials from their lab. For later tests, Halliburton sent samples of the cement that was actually on the Horizon back to the lab and directly tested those materials.
+
+[^41]: Internal BP document (BP-HZN-MBI 109218).
+
+[^42]: Internal Halliburton document (HAL_DOJ 68).
+
+[^43]: Internal Halliburton document (HAL_DOJ 36).
+
+[^44]: Internal Halliburton document (HAL_DOJ 43).
+
+[^45]: Ibid.
+
+[^46]: Internal BP document (BP-HZN-MBI 136946-47).
+
+[^47]: Internal BP document (BP-HZN-MBI 171151).
+
+[^48]: Internal BP document (BP-HZN-MBI 136946-47).
+
+[^49]: Internal BP document (BP-HZN-CEC 20234).
+
+[^50]: Ibid.
+
+[^51]: Testimony of Vincent Tabler, Hearing before the Deepwater Horizon Joint Investigation Team, August 25, 2010, 22–23, 36.
+
+[^52]: Internal Halliburton document (HAL_0011208).
+
+[^53]: Internal BP document (BP-HZN-MBI 137370).
+
+[^54]: Internal BP document (BP-HZN-MBI 129141).
+
+[^55]: Internal Transocean document (TRN-USCG_MMS 30422); Internal Schlumberger document (SLB-EC-2).
+
+[^56]: Testimony of John Guide, 44–45.
+
+[^57]: Internal BP document (BP-HZN-MBI 143304).
+
+[^58]: Testimony of John Guide, 298 (the cement plug was "deeper than normal"); Testimony of Ronald Sepulvado, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 145 ("the top of the surface plug is normally at 500 feet below the wellhead").
+
+[^59]: Internal BP document (BP-HZN-CEC 8574).
+
+[^60]: Testimony of Jimmy Harrell, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 118.
+
+[^61]: Internal BP document (BP-HZN-CEC 8574).
+
+[^62]: Internal BP document (BP-HZN-CEC 21260-279).
+
+[^63]: Internal BP document (BP-HZN-MBI 126928).
+
+[^64]: Internal BP document (BP-HZN-OSC 1438). 65 30 C.F.R. § 250.423.
+
+[^66]: The blind shear rams closed and sealed as expected during the positive-pressure test. This fact suggests that the rams were capable of sealing the well when the blowout occurred. But the evidence is inconclusive on its own; during the positive-pressure test the crew closed the blind shear rams using a low pressure hydraulic system, rather than the high pressure hydraulic system that would have activated the rams in the event of a blowout.
+
+[^67]: Internal Transocean document (TRN-HCEC 90).
+
+[^68]: Testimony of Patrick O'Bryan, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 360.
+
+[^69]: Testimony of David Sims, Hearing before the Deepwater Horizon Joint Investigation Team, August 26, 2010, 204. There were no regulations or industry standards guiding the conduct or interpretation of negative-pressure tests at the time of the Macondo blowout. The absence of any such guidance may have contributed to the failure to conduct and interpret the test correctly here.
+
+[^70]: This calculation is based on approximate values of the depths and mud weights involved.
+
+[^71]: Testimony of Leo Lindner, Hearing before the Deepwater Horizon Joint Investigation Team, July 19, 2010, 297; BP, Deepwater Horizon Accident Investigation Report, app. Q, 1.
+
+[^72]: BP, Deepwater Horizon Accident Investigation Report, 83.
+
+[^73]: Testimony of Leo Lindner, 308–11. The exclusion for "[d]rilling fluids, produced waters, and other wastes associated with the exploration, development, or production of crude oil, natural gas or geothermal energy" is found at 40 C.F.R. § 261.4.
+
+[^74]: Testimony of Leo Lindner, 276–79, 297, 359–60; Internal BP document (BP-HZN-BLY 47100).
+
+[^75]: Testimony of Randy Ezell, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 279–81.
+
+[^76]: Testimony of Daun Winslow, Hearing before the Deepwater Horizon Joint Investigation Team, August 24, 2010, 219;
+
+[^77]: Testimony of Randy Ezell, 279.
+
+[^78]: Testimony of Lee Lambert, Hearing before the Deepwater Horizon Joint Investigation Team, July 20, 2010, 292. Transocean disputes these accounts. It points out that the only individuals who have stated that Anderson advanced the "bladder effect" theory are BP employees.
+
+[^79]: Testimony of Lee Lambert, 292.
+
+[^80]: Testimony of Jimmy Harrell, 117; Internal BP documents (BP-HZN-MBI 127909, BP-HZN-CEC 20189-90). While that may have been Mr. Vidrine's stated reason for running the test on the kill line, the Commission notes that the negative-pressure test performed at Macondo—whether on the drill pipe or kill line—was different from the negative- pressure test described in the Application for Permit to Modify. Testimony of Mark Bly, Hearing before the National Commission, November 8, 2010, 293–95.
+
+[^81]: BP, Deepwater Horizon Accident Investigation Report, 86.
+
+[^82]: There are several possible explanations for the inconsistent readings on the drill pipe and kill line. One possibility is that the viscous spacer that had leaked through the annular preventer migrated into and clogged the kill line. John Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon in MC252 (July 1, 2010), 20–21. Another possibility is that a valve was inadvertently closed that should have been open. BP, Deepwater Horizon Acci- dent Investigation Report, 87. A third, more remote, possibility is that hydrocarbons coming up the well formed solid hydrates when they hit the cold seawater and those hydrates clogged the kill line. Guide, interview.
+
+[^83]: Testimony of Christopher Haire, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 247.
+
+[^84]: For example, a bubble of gas, under ideal conditions, would expand approximately 166-fold. This number differs under actual conditions based on fluid properties and flow.
+
+[^85]: Mudloggers operate systems that collect and transmit real-time data from sensors on the rig. BP employed mudlog- gers from Sperry Drilling (a Halliburton subsidiary) on the Deepwater Horizon.
+
+[^86]: The driller first sent mud to pits 9 and 10, then switched to pit 7, and then switched to pit 6. Sperry Sun data, April 20, 2010, 20:10–21:18.
+
+[^87]: Ibid., 20:28–20:36, 20:58–21:06.
+
+[^88]: Ibid., 20:20–21:01.
+
+[^89]: Ibid., 21:01.
+
+[^90]: Ibid., 21:01–21:08.
+
+[^91]: The Commission believes, based on interviews of the mudloggers on the Horizon, that the Hitec system may have shown a more obvious trend because it displays numeric values as opposed to trend lines such as those seen in the Sperry data shown in the text. Joseph Keith (Sperry), interview with Commission staff, October 6, 2010; Cathleenia Willis (Sperry), interview with Commission staff, October 21, 2010.
+
+[^92]: Testimony of Greg Meche, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 207–09. 93 40 C.F.R. §§ 261.4, 435.11.
+
+[^94]: Testimony of Greg Meche, 207–09, 219.
+
+[^95]: Keith, interview.
+
+[^96]: Internal BP document (BP-HZN-MBI 21415).
+
+[^97]: Keith, interview. Given what we now know, it is all but impossible that the well was not flowing as of 9:08 p.m. BP, Deepwater Horizon Accident Investigation Report, 25; Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon, 22–23. Other than faulty memory, the only apparent explanations for Mr. Keith's statement are that the crew had already closed off the portion of the flow line Mr. Keith was watching or that Mr. Keith watched for an inadequate period of time. Keith, interview; Darryl Bourgoyne (LSU), interview with Commission staff, No- vember 23, 2010.
+
+[^98]: Testimony of Greg Meche, 207–09.
+
+[^99]: Ibid.
+
+[^100]: Internal BP document (BP-HZN-MBI 21415).
+
+[^101]: Sperry Sun data, April 20, 2010, 21:08–21:14.
+
+[^102]: Ibid., 21:14–21:15.
+
+[^103]: Ibid., 2010, 21:17–21:18.
+
+[^104]: Testimony of Chad Murray, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 335–36.
+
+[^105]: Ibid., 336.
+
+[^106]: Testimony of Randy Ezell, 282.
+
+[^107]: Testimony of Bill Ambrose, Hearing before the National Commission, November 8, 2010, 381.
+
+[^108]: David Young (Transocean), interview with Commission staff, November 19, 2010.
+
+[^109]: Testimony of David Young, Hearing before the Deepwater Horizon Joint Investigation Team, May 27, 2010, 259.
+
+[^110]: Young, interview.
+
+[^111]: Sperry Sun data, April 20, 2010, 21:08–21:14.
+
+[^112]: Bill Ambrose (Transocean), interview with Commission staff, September 21, 2010.
+
+[^113]: Sperry Sun data, April 20, 2010, 21:38.
+
+[^114]: Young, interview.
+
+[^115]: Sperry Sun data, April 20, 2010, 21:38–21:42.
+
+[^116]: Testimony of Randy Ezell, 283; Young, interview.
+
+[^117]: Testimony of Micah Sandell, Hearing before the Deepwater Horizon Joint Investigation Team, May 29, 2010, 10.
+
+[^118]: Testimony of Christopher Pleasant, Hearing before the Deepwater Horizon Joint Investigation Team, May 28, 2010, 173.
+
+[^119]: Testimony of Randy Ezell, 283.
+
+[^120]: Testimony of Bill Ambrose, 244.
+
+[^121]: Smith, Review of Operational Data Preceding Explosion on Deepwater Horizon, 14; Testimony of Bill Ambrose, 252–53; BP, Deepwater Horizon Accident Investigation Report, 28.
+
+[^122]: Testimony of Christopher Pleasant, 165.
+
+[^123]: Ibid., 123.
+
+[^124]: Ibid.
+
+[^125]: Various parties have suggested other causes for the deadman's failure, including leaks, overdue equipment certifica- tion, and improper modifications.
+
+[^126]: Interview with industry expert, September 24, 2010.
+
+[^127]: After the blowout, some industry CEOs testified they would never have used a long string production casing, sug- gesting there was a causal connection between BP's choice of the long string and the blowout. Hearing Before the Subcomm. on Energy and Environment, 111th Cong. 104 (June 15, 2010) (statements of John Watson, Chairman and Chief Executive Officer, Chevron Corporation; and Rex Tillerson, Chairman and Chief Executive Officer, Exxon- Mobil).
+
+[^128]: First, the long string required the cement to travel through a longer stretch of steel casing—roughly 12,000 feet lon- ger—before reaching its final destination, potentially increasing the risk of cement contamination. Second, because it can require higher cement pumping pressure, a long string design can lead to the selection of lower cement volumes, lower densities, and lower pump rates. Third, the cement job at the bottom of a long string is more difficult to remediate than one at the bottom of a liner.
+
+[^129]: Internal BP document (BP-HZN-MBI 128489); BP, Deepwater Horizon Accident Investigation Report, 64 ("the BP Macondo well team did not ask for the OptiCem model to be re-run"). This may have been because of Mr. Guide's distrust of the OptiCem model. Testimony of John Guide, 275 ("it's wrong a lot"). When Halliburton rig personnel eventually informed Gagliano of BP's decision themselves, he responded by e-mailing BP modeling data suggesting again that more centralizers would be needed to prevent channeling. Internal BP document (BP-HZN-MBI 128708).
+
+[^130]: Testimony of Jesse Gagliano, 259; Testimony of Nathaniel Chaisson, 415.
+
+[^131]: BP, Deepwater Horizon Accident Investigation Report, 35. Mr. Guide disagreed with the BP report's conclusion in an interview with Commission staff. Guide, interview.
+
+[^132]: Internal BP document (BP-HZN-CEC 22670).
+
+[^133]: Ronald Sepulvado (BP), interview with Commission staff, September 1, 2010.
+
+[^134]: BP, Deepwater Horizon Accident Investigation Report, 66.
+
+[^135]: Fred Bartlit, letter to the National Commission, October 28, 2010 (reporting the results of cement testing).
+
+[^136]: If BP were looking, the one February test actually reported to BP could have prompted BP to question the design as well. BP argues that its failure to do so here is understandable given that it had hired one of the world's leading cementers specifically for purposes of designing and testing the cement slurry.
+
+[^137]: To the contrary, Halliburton's selection of conditioning time appears to have been haphazard at best. Lab person- nel used different conditioning times (ranging from zero conditioning time to three hours) in each of the four foam stability tests that they conducted.
+
+[^138]: Internal Halliburton document (HAL_DOJ 43).
+
+[^139]: Testimony of Daun Winslow, 209; Guide, interview.
+
+[^140]: Moreover, once the BP Well Site Leaders and crew realized that the annular preventer was leaking, they should have circulated out any spacer that had migrated below the annular preventer prior to continuing with the test. Testi-
+
+[^141]: The Commission agrees with others that there is no such thing as a "bladder effect" that could account for the pres- sures the rig crew was observing. There was no apparent explanation for the 1400 psi on the drill pipe other than that the well was flowing.
+
+[^142]: Transocean asserts that its personnel, including the driller and toolpusher, were not "in any way responsible for interpreting the negative pressure test or making the decision that the well was secure and work could properly pro- ceed." Rachel Clingman, letter to Commission staff, November 16, 2010, 1. As the Commission's staff made clear at the November 8, 2010 hearing, the Commission is not tasked with deciding legal responsibility. Based on available evidence, however, Revette and Anderson agreed the negative-pressure test was a success and did not stop the job before moving on to the remaining temporary abandonment procedures. Testimony of Lee Lambert, 291; Internal BP documents (BP-HZN-CEC 20347, 20178).
+
+[^143]: Guide, interview.
+
+[^144]: Benjamin Powell, "BP Response to Presidential Commission's Preliminary Technical Conclusions," letter to Commis- sion staff, November 22, 2010, att. 1, 3 (citing Hearing Before the Senate Comm. on Energy and Natural Resources, 111th Cong. (May 11, 2010) (statement of Testimony of Tim Probert, Halliburton President, Global Business Lines, Chief Health, Safety and Environmental Officer)).
+
+[^145]: Testimony of Mark Bly, 213; Testimony of Charlie Williams, Hearing before the National Commission, November 9, 2010, 45.
+
+[^146]: Testimony of Steve Lewis, 54, 124. BP argues that "[t]he use of additional mechanical plugs would have brought its own additional risks." Powell, letter, att. 1, 6 (citing API, Recommended Practice 65—Part 2 (May 2010), § 3.1); Guide, interview. However, BP does not present any evidence that the Macondo team in fact evaluated those risks or compared them with the risks of setting a single surface cement plug in seawater 3,300 feet below the mud line.
+
+[^147]: Merrick Kelley (BP), interview with Commission staff, October 22, 2010; Industry expert, interview.
+
+[^148]: BP asserts that "[u]sing drill collars would have required unracking the drill pipe on the rig and then locating and re-racking drill collars—a set of additional operations with attendant risks." Powell, letter, att. 1, 5. BP does not provide any evidence to substantiate the extent of such "attendant risks" or whether they outweighed the risks of the procedure BP chose. Most significantly, BP offers no evidence that its Macondo team ever considered such risks or performed a rigorous comparative risk analysis.
+
+[^149]: Internal BP document (BP-HZN-CEC 8574).
+
+[^150]: Testimony of Mark Bly, 308. BP has suggested that the float valves provided an additional barrier to flow. BP, Deepwater Horizon Accident Investigation Report, 68. The Commission does not agree that float valves, even when converted, constitute a distinct physical barrier to flow, but instead reinforce the cement in the shoe track. Clawson, interview (indicating that Weatherford does not consider the float collar to be a barrier to hydrocarbons); API, Recommended Practice 65—Part 2 (May 2010), §§ 3.4, 4.4.3 (float valves not included in the list of subsurface mechanical barriers; float equipment used to prevent cement from flowing back into the casing).
+
+[^151]: Testimony of Darryl Bourgoyne, Hearing before the National Commission, November 9, 2010, 133.
+
+[^152]: Testimony of Charlie Williams, 46–53.
+
+[^153]: Testimony of Bill Ambrose, 380–84.
+
+[^154]: Between 8:00 and 9:49 p.m., the crew was performing a number of other activities that may have further con- founded the data or at least distracted the driller. The crew was emptying various tanks on the rig into the active pit system, including "trip tanks" and "sand traps," which may have masked increased flow out of the well into the ac- tive pit system. At 9:18 p.m., a valve on one of the pumps blew, and a number of crew members from the rig floor went to fix it. Finally, the crew was operating one or both of the cranes on the main deck, which could have affected flow-out and volume readings.
+
+[^155]: Internal BP document (BP-HZN-OSC 5420).
+
+[^156]: Guide, interview.
+
+[^157]: Ibid.; Internal BP document (BP-HZN-MBI 193529-39).
+
+[^158]: It appears that the chain of command and responsibilities at BP during the execute phase were not well-understood by the Macondo Engineering Team Leader. When asked during an interview who was responsible for designing or amending the temporary abandonment procedures, the Macondo Engineering Team Leader said he would need to look at the company's chart of roles and responsibilities. Walz, interview.
+
+[^159]: Internal BP document (BP-HZN-MBI 117603).
+
+[^160]: Internal BP document (BP-HZN-MBI 128542).
+
+[^161]: Internal BP document (BP-HZN-OSC 6224).
+
+[^162]: There is a dispute as to whether BP personnel called back to shore that evening to discuss the data observed during the negative-pressure test. The Commission staff has to date seen no direct evidence of such a call. The staff 's inves- tigation is ongoing.
+
+[^163]: Internal BP document (BP-HZN-BLY 38354).
+
+[^164]: Internal BP document (BP-HZN-BLY 38355).
+
+[^165]: Internal BP document (BP-HZN-BLY 38354).
+
+[^166]: Internal BP document (BP-HZN-BLY 38361).
+
+[^167]: Ibid.
+
+[^168]: Internal BP document (BP-HZN-BLY 38362).
+
+[^169]: Internal Transocean document (TRN-PC 3227).
+
+[^170]: Transocean states that on April 5, 2010, it posted a short, two-page version of this advisory to an internal electronic document platform, which supervisors on the Deepwater Horizon had access to. But the advisory was limited to completion operations, and, as of this writing, Transocean has not offered any evidence that anyone on the rig actu- ally saw or reviewed the advisory.
+
+[^171]: The industry and the international community also failed to adequately communicate lessons learned from the Montara blowout, which for ten weeks beginning on August 21, 2009 spewed between 400 and 1500 barrels per day of oil and gas into the Timor Sea approximately 150 miles off the northwest coast of Australia. David Borth- wick, Report of the Montara Commission of Inquiry (The Montara Commission of Inquiry, Australia, June 2010), 5, 26. According to the Report of the Montara Commission of Inquiry, released on November 24, 2010, many of the technical and managerial causes of the Montara blowout track those at Macondo. For instance, the Commission of Inquiry concluded that the cement job in the "9 5/8" casing shoe failed, that there were numerous risk factors surrounding the cement job that went unheeded, and that the cement job was not properly pressure tested. Ibid., 7. According to the Commission of Inquiry: The multiple problems in undertaking the cement job—such as the failure of the top and bottom plugs to cre- ate a seal after "bumping," the failure of the float valves and an unexpected rush of fluid—should have raised alarm bells. Those problems necessitated a careful evaluation of what happened, the instigation of pressure testing and, most likely, remedial action. No such careful evaluation was undertaken. The problems were not complicated or unsolvable, and the potential remedies were well known and not costly. This was a failure of "sensible oilfield practice 101." Ibid. The Commission of Inquiry went on to conclude that while the "absence of tested barriers was a proximate cause of the Blowout," the deeper failure was a systemic failure of management on the part of the operator, PTTEP Australasia. Ibid., 9.
+
+[^172]: Testimony of Rex Tillerson, Hearing before the National Commission, November 9, 2010, 250–52; Testimony of Marvin Odum, Hearing before the National Commission, November 9, 2010, 278–79. 173 30 C.F.R. § 250.1721(d). 174 30 C.F.R. § 250.141(a).
+
+[^175]: Internal BP document (BP-HZN-OSC 1436).
+
+[^176]: Internal BP document (BP-HZN-MBI 127906). MMS approved a number of other requests by BP for deviations on the Macondo well. None of those other approvals appear to have contributed to the blowout. However, they do sug- gest that the MMS staff did not spend much time deciding whether to grant the requests, which may have been due to the severe funding and staffing shortages in the New Orleans office. Chapter Five
+
+[^1]: Brady Dennis and Shailagh Murray, "GOP Changes Tone on Financial Bill," Washington Post, April 21, 2010; Edward Wyatt and David M. Herszenhorn, "Bill on Finance Wins Approval of Senate Panel," New York Times, April 22, 2010; Jim Puzzanghera, "In N.Y., Obama to Push for Financial Overhaul," Los Angeles Times, April 22, 2010; Adam Liptak, "Justices Reject Ban on Depicting Animal Cruelty," New York Times, April 21, 2010; Joan Biskupic, "High Court Negates Animal Cruelty Law as Too Broad, 8-1" USA Today, April 21, 2010; Jess Bravin, "Court Voids Law on Animal Cruelty," Wall Street Journal, April 21, 2010; Bart Barnes, "A Movement's Matriarch," Washington Post, April 21, 2010; Andrew Zajac and Melissa Healy, "FDA Puts the Pinch on Salt," Los Angeles Times, April 21, 2010.
+
+[^2]: Neil MacFarquhar, "Routine Flights Become Overland Odysseys, Minus Clean Socks," New York Times, April 22, 2010.
+
+[^3]: Campbell Robertson, "11 Remain Missing After Oil Rig Explodes Off Louisiana," New York Times, April 22, 2010.
+
+[^4]: Rick Jervis, "Gulf Blast Appears to be 'Blowout'," USA Today, April 22, 2010; Ben Casselman, Russell Gold, and Angel Gonzalez, "Blast Jolts Oil World," Wall Street Journal, April 22, 2010.
+
+[^5]: Jervis, "Gulf Blast Appears to be 'Blowout.'"
+
+[^6]: Richard Fausset, "Oil Rig Explodes; 11 Missing," Los Angeles Times, April 22, 2010. 7 40 C.F.R. § 300, Subpart D.
+
+[^8]: Paul Purpura et al., "Search continues for 11 missing in rig blast," Times-Picayune, April 22, 2010.
+
+[^9]: Paul Rioux and Chris Kirkham, "Search for 11 Workers Missing After Oil Rig Explosion Is Expected To Be Called Off Friday," Times-Picayune, April 22, 2010.
+
+[^10]: Testimony of Captain James Hanzalik, Hearing Before the Deepwater Joint Investigation Team, October 4, 2010, 29- 30.
+
+[^177]: Matthew Daly, "Month After Oil Spill, Why Is BP Still in Charge?," ABC News, May 21, 2010, http://abcnews. go.com/Business/wireStory?id=10713257.
+
+[^178]: Interview with Coast Guard official, November 12, 2010.
+
+[^179]: Frank McCormack, "Privateer Perfection," Plaquemines Gazette, June 7, 2010.
+
+[^180]: Paul Rioux, "President Barack Obama in Grand Isle after Touring Beach in Port Fourchon," Times-Picayune, May 28, 2010.
+
+[^181]: Paul Rioux, "President Barack Obama Promises No Retreat from Gulf of Mexico Oil Spill Response," Times-Picauyne, May 28, 2010.
+
+[^182]: Interview with Coast Guard official, August 26, 2010; Interview with Coast Guard official, September 2, 2010; Non-public Coast Guard document, June 14, 2010.
+
+[^183]: Jeffrey Ball and Jonathan Weisman, "Slippery Start: U.S. Response to Spill Falters," Wall Street Journal, June 16, 2010.
+
+[^184]: Interview with Coast Guard official, November 12, 2010.
+
+[^185]: Executive Order No. 13543, National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, 75 Fed. Reg. 29,397, May 21, 2010.
+
+[^186]: Peter Baker, "Obama Extends Moratorium; Agency Chief Resigns," New York Times, May 27, 2010.
+
+[^187]: Gardner Harris, "Minerals Management Service Director Resigns Over Spill," New York Times, May 27, 2010.
+
+[^188]: Mike Allen, "Gulf Commander to Begin Solo Briefings," Politico, May 31, 2010.
+
+[^189]: Interview with government official, October 8, 2010.
+
+[^190]: Interview with NOAA officials, November 18, 2010.
+
+[^191]: Interview with Coast Guard official, August 24, 2010; Interview with Coast Guard official, August 30, 2010.
+
+[^192]: Interview with Coast Guard official, August 24, 2010; Interview with Coast Guard official, August 31, 2010.
 
 [^193]: Non-public Coast Guard document, October 12, 2010.
 
@@ -5693,7 +6303,7 @@ ISBN: 978-0-16-087371-3
 
 [^197]: Interview with government official, October 13, 2010.
 
-[^198]: Non-public Coast Guard document, October 12, 2010. One Hundred Years of Solitude (García Márquez), 53 OPEC oil embargo (1973), 31, 56, 296 Orca Energy (Dunhill), 227 Oregon, offshore oil and gas industry in, 26, 67, 297 Oryx Energy, 43, 226 Outer Continental Shelf Lands Act and Amendments (1953/1978), 23, 30, 57–64, 79, 80, 84, 254–56, 262–64 Outer Continental Shelf Safety Oversight Board, 78–79, 78n, 82 Overton, Keith, 191 oysters, in Gulf of Mexico, 140, 163, 176, 178–79, 186–87 Paradis, Joseph, 130 Parish Presidents (Louisiana), 139–40, 154 Patzek, Tad, 229 Pemex, 254, 300 Pennsylvania, oil and gas industry in, 296 Pennzoil, 32 Perdido site, 51
+[^198]: Non-public Coast Guard document, October 12, 2010.
 
 [^199]: Interview with government official, October 12, 2010.
 
@@ -5964,3 +6574,275 @@ ISBN: 978-0-16-087371-3
 [^333]: Admiral Paul Zukunft, letter to Mike Utsler, August 9, 2010; Stanislaus, interview.
 
 [^334]: "Statement from Admiral Allen on the Transfer of Oversight Responsibilities, October 1, 2010. Chapter Six
+
+[^1]: President Barack Obama, "Remarks by the President to the Nation on the BP Oil Spill" (June 15, 2010) http://www. whitehouse.gov/the-press-office/remarks-president-nation-bp-oil-spill].
+
+[^2]: Campbell Robertson and Clifford Krauss, "Gulf Spill Is the Largest of Its Kind, Scientists Say," New York Times, August 2, 2010.
+
+[^3]: EPA, Government Response to the BP Oil Spill: Odors from the BP Spill (June 2010), http://www.epa.gov/bpspill/ reports/odorfactsheet.pdf (announcing help line for residents experiencing oil-related odors); Press Release, NOAA, Administration Launches Dockside Chats to Promote Gulf Seafood Safety Awareness, August 25, 2010, http://www. restorethegulf.gov/release/2010/08/25/administration-launches-dockside-chats-promote-gulf-seafood-safety- awareness; BP, Claims and Government Payments Gulf of Mexico Oil Spill Public Report (November 18, 2010).
+
+[^4]: Testimony of Timothy Ragen, Executive Director of the U.S. Marine Mammal Commission, "The Short and Long- Term Impacts of the Deepwater Horizon Oil Spill," Hearing Before the House Subcommittee on Insular Affairs, Oceans, and Wildlife, 111th Congress (June 10, 2010); Kim B. Ritchie and Brian D. Keller, eds., A Scientific Forum on the Gulf of Mexico: The Islands in the Stream Concept (NOAA, January 23, 2008), 6–8; Elliott A. Norse and John Amos, "Impacts, Perception, and Policy Implications of the Deepwater Horizon Oil and Gas Disaster," Environmental Law Reporter 40, no. 11 (2010): 11071; Deepwater Horizon Oil Spill: Scientific Symposium Meeting Summary (Consortium for Ocean Leadership, June 23, 2010), 15–16.
+
+[^5]: Federal Interagency Solutions Group, Oil Budget Science and Engineering Team, Oil Budget Calculator Technical Documentation (November 2010).
+
+[^6]: Curtis Morgan, "Another sign of oil spill recovery in the Gulf: Oil in the Gulf has dissipated and degraded into barely detectable concentrations, although federal scientists say it's too soon to say the threat is over," Miami Herald,
+
+[^81]: Ray Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill.
+
+[^82]: Exxon Valdez Oil Spill Trustee Council, Science Panel, http://www.evostc.state.ak.us/people/sp.cfm.
+
+[^83]: Joe Hunt, Mission Without a Map: The Politics and Policies of Restoration Following the Exxon Valdez Oil Spill: 1989- 2002, Exxon Valdez Oil Spill Trustee Council (Anchorage, 2009): 156-157.
+
+[^84]: See, e.g., Testimony of Stanley Senner, Director of Conservation Science, Ocean Conservancy, Hearing before the National Commission, September 28, 2010.
+
+[^85]: President Barack Obama, "Remarks by the President to the Nation on the BP Oil Spill" (June 15, 2010), http://www. whitehouse.gov/the-press-office/remarks-president-nation-bp-oil-spill.
+
+[^86]: Press Release, Office of the Governor, Gov. Jindal Announces "Agenda For Revitalizing Coastal Louisi- ana," July 15, 2010, http://wwwprd.doa.louisiana.gov/LaNews/PublicPages/Dsp_PressRelease_Display. cfm?PressReleaseID=2550&Rec_ID=1.
+
+[^87]: NOAA, Damage Assessment, Remediation, and Restoration Program: Glossary, http://www.darrp.noaa.gov/glos- sary/index.htm.
+
+[^88]: Testimony of Stanley Senner. Chapter Eight
+
+[^1]: Magne Ognedal, "Thirty years since Kielland – why are major accidents still happening?" (speech, Petroleum Safety Authority of Norway, August 27, 2010) 3, http://www.ptil.no/major-accidents/safety-lunch-at-ons-risk-of-a- major-accident-is-always-present-article7202-144.html.
+
+[^2]: BP, Sustainability Review (2009), 20–21. http://www.bp.com/assets/bp_internet/globalbp/STAGING/global_assets/ e_s_assets/e_s_assets_2009/downloads_pdfs/bp_sustainability_review_2009.pdf.
+
+[^3]: Health and Safety Executive, Major Incident Investigation Report, BP Grangemouth Scotland (29th May – 10th June 2000) (August 18, 2003), 7, http://www.hse.gov.uk/comah/bpgrange/images/bprgrangemouth.pdf.
+
+[^4]: Ibid.
+
+[^5]: Ibid.
+
+[^6]: Health and Safety Executive, BP Grangemouth Executive Summary—Findings and Recommendations, http://www. hse.gov.uk/comah/bpgrange/execsumm/findings.htm.
+
+[^7]: Andrew B. Wilson, "BP's Disaster: No Surprise to Folks in the Know," CBS, June 22, 2010, http://www.cbsnews.com/ stories/2010/06/22/opinion/main6605248.shtml.
+
+[^8]: Jan Erik Vinnem, Offshore Risk Assessment: Principles, Modelling and Applications of QRA Studies, Second Edition (London: Springer Studies in Reliability Engineering, 2007), 91, 100, 102.
+
+[^89]: Samuel K. Skinner and William K. Reilly, The Exxon Valdez Oil Spill: A Report to the President (May 1989), 1.
+
+[^90]: Ibid., 27–8.
+
+[^91]: National Transportation Safety Board, Safety Recommendation (September 18, 1990), http://www.ntsb.gov/recs/ letters/1990/M90_26_31A.pdf.
+
+[^92]: Exxon Valdez Oil Spill Trustee Council, "Settlement," http://www.evostc.state.ak.us/facts/settlement.cfm; Exxon Valdez Oil Spill Trustee Council, "Questions and Answers," http://www.evostc.state.ak.us/facts/qanda.cfm.
+
+[^93]: Exxon Mobil, 2009 Corporate Citizenship Report, 15.
+
+[^94]: Testimony of Rex Tillerson, CEO of Exxon Mobil, Hearing before the National Commission, November 9, 2010.
+
+[^95]: Ibid.
+
+[^96]: Ibid.
+
+[^97]: Exxon Mobil, 2009 Corporate Citizenship Report, 14.
+
+[^98]: Ibid.,13, 19.
+
+[^99]: "Shell 'Ignored Accident Warning,'" BBC online, June 14, 2006, http://news.bbc.co.uk/2/hi/5077886.stm; Terry Macalister, "Shell Accused Over Oil Rig Safety," The Guardian, June 23, 2006.
+
+[^100]: "Shell 'Ignored Accident Warning.'"
+
+[^101]: Shell, Sustainability Report 2009, 16–17, http://sustainabilityreport.shell.com/2009/servicepages/downloads/files/ all_shell_sr09.pdf.
+
+[^102]: Testimony of Marvin Odum, Shell, Hearing before the National Commission, November 9, 2010.
+
+[^103]: Ibid.
+
+[^104]: Ibid.
+
+[^105]: Ibid.
+
+[^106]: Ibid.
+
+[^107]: Responsible Care, Who We Are, http://www.responsiblecare.org/page.asp?p=6406.
+
+[^108]: Ibid.
+
+[^109]: Jody Freeman, "Private Parties, Public Functions and the New Administrative Law" in Recrafting the Rule of Law: The Limits of Legal Order, ed. David Dyzenhaus (Toronto: Hart Publishing, 1999), 21.
+
+[^110]: Ibid., 33.
+
+[^111]: Press Release, Securities and Exchange Commission, Chairman Cox Announces End of Consolidated Supervised Enti- ties Program, September 26, 2008; Stephen Labaton, "Agency's '04 Rule Let Banks Pile Up New Debt," New York Times, October 3, 2008.
+
+[^112]: Press Release, Securities and Exchange Commission, Chairman Cox Announces End of Consolidated Supervised Enti- ties Program.
+
+[^113]: Edward J. Balleisen and Marc Eisner, "The Promise and Pitfalls of Co-Regulation: How Governments Can Draw on Private Governance for Public Purpose," in New Perspectives on Regulation, ed. David Moss and John Cisternino, (Cambridge, UK: Cambridge University Press, 2009), 31.
+
+[^114]: Ibid., 130.
+
+[^115]: Ibid.
+
+[^116]: Ibid.
+
+[^117]: Testimony of Marvin Fertel, President and CEO of Nuclear Energy Institute, "Three Mile Island—Looking Back on Thirty Years of Lessons Learned," Before the Subcommittee on Clean Air and Nuclear Safety, 111th Congress (2009).
+
+[^118]: Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010.
+
+[^119]: John G. Kemeny, Report of The President's Commission on the Accident at Three Mile Island: The Need for Change: The Legacy of TMI (1979), 68. The full subsection of the recommendation reads, "The industry should establish a program that specifies appropriate safety standards including those for management, quality assurance, and operat- ing procedures and practices, and that conducts independent evaluations. The recently created Institute of Nuclear Power Operations, or some similar organization, may be an appropriate vehicle for establishing and implementing this program."
+
+[^120]: Institute of Nuclear Power Operations, "About Us," http://www.inpo.info/AboutUs.htm.
+
+[^121]: Joseph V. Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island (Chicago: University of Chicago Press, 1996), 50–51.
+
+[^122]: Lee Gard, interview with Commission staff, November 8, 2010.
+
+[^123]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 57–58.
+
+[^124]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 143.
+
+[^125]: Lee Gard, interview.
+
+[^126]: Ibid.
+
+[^127]: Ibid.
+
+[^128]: Ibid.
+
+[^129]: Ibid.
+
+[^130]: Ibid.
+
+[^131]: Lee Gard, e-mail message to Commission Staff, December 6, 2010.
+
+[^132]: Lee Gard, interview.
+
+[^133]: Testimony of A. C. Tollison Jr., Executive Vice President, Institute of Nuclear Power Operations, "National Energy Policy: Nuclear Energy," Before the Subcommittee on Energy and Air Quality, 107th Congress (2001).
+
+[^134]: Ibid.
+
+[^135]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 76.
+
+[^136]: Alice Camp, "Nuclear: In Pursuit of a Renaissance," EPRI Journal (Summer 2007): 20.
+
+[^137]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 81.
+
+[^138]: Ibid., 53.
+
+[^139]: Ibid., 53
+
+[^140]: Ibid., 53–54.
+
+[^141]: Lee Gard, e-mail message to Commission Staff, December 1, 2010.
+
+[^142]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 104.
+
+[^143]: Lee Gard, interview.
+
+[^144]: Michael Golay (MIT), interview with Commission Staff, October 27, 2010.
+
+[^145]: Lee Gard, e-mail message to Commission Staff, December 1, 2010.
+
+[^146]: Michael Rencheck (AREVA Inc.), interview with Commission staff, November 1, 2010.
+
+[^147]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 104.
+
+[^148]: Michael Golay, interview. 149 33 U.S.C. § 2210.
+
+[^150]: Lee Gard, e-mail message to Commission Staff, December 1, 2010.
+
+[^151]: Lee Gard, e-mail message to Commission Staff, November 15, 2010.
+
+[^152]: Lee Gard, e-mail message to Commission Staff, December 13, 2010.
+
+[^153]: "Oil Industry Needs Self-Regulation, Says Alternate Energy Holdings Inc. CEO," Forbes Magazine, August 26, 2010.
+
+[^154]: Lee Gard, interview.
+
+[^155]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 57.
+
+[^156]: Lee Gard, interview.
+
+[^157]: Ibid.
+
+[^158]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 96–97.
+
+[^159]: Ibid., 116.
+
+[^160]: Ibid., 111–117.
+
+[^161]: Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010; Institute of Nuclear Power Operations, 2009 Annual Report; Institute of Nuclear Power Operations, 1994 Annual Report.
+
+[^162]: Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010.
+
+[^163]: Institute of Nuclear Power Operations, Performance Objectives and Criteria (May 2005); Institute of Nuclear Power Operations, Principles for Nuclear Safety Culture (November 2004).
+
+[^164]: Rees, Hostages of Each Other: The Transformation of Nuclear Safety Since Three Mile Island, 44.
+
+[^165]: Ibid., 64.
+
+[^166]: U.S. Department of the Interior, Outer Continental Shelf Safety Oversight Board, Report to the Secretary of the Interior (September 1, 2010), 11–13.
+
+[^167]: Ibid., 13–14. 168 10 C.F.R. Parts 1–171.
+
+[^169]: Testimony of Rex Tillerson, Exxon Mobil, Hearing before the National Commission, November 9, 2010.
+
+[^170]: Ibid.
+
+[^171]: Testimony of Michael Bromwich, Director, Bureau of Ocean Energy Management, Regulation and Enforcement, Department of the Interior, Hearing before the National Commission, November 9, 2010, 228.
+
+[^172]: Oil and Gas and Sulphur Operations in the Outer Continental Shelf – Safety and Environmental Management Sys- tems, 75 Fed. Reg. 199 (October 15, 2010).
+
+[^173]: National Commission Staff, "Response/Clean-Up Technology Research & Development and the Deepwater Horizon Oil Spill," (staff working paper, 2010)
+
+[^174]: Angel Gonzalez, "Oil Firms Plan Rapid-Response Force," Wall Street Journal, July 22, 2010; Daniel Squire, e-mail message to Commission staff, December 1, 2010.
+
+[^175]: Marine Well Containment Company, "Industry Initiatives to Ensure Safe, Protective Drilling Practices in the Deepwa- ter Gulf of Mexico: The Marine Well Containment System" (presentation, Washington, D.C., September 2010).
+
+[^176]: Marine Well Containment Company, "About Us," http://www.marinewellcontainment.com/index.php.
+
+[^177]: Helix Energy Solutions Group, "Spill Containment: Fast Response to GOM Subsea Oil Spills" (unpublished document provided to Commission staff by Helix Energy Solutions Group).
+
+[^178]: Independent Deepwater Exploration Coalition, meeting with Commission staff, November, 29, 2010.
+
+[^179]: "Moody's Offshore drilling insurance rates to jump," BusinessWeek, June 4, 2010.
+
+[^180]: Julia Kollewe, "Oil Industry Set for Surge in Insurance Premiums after Deepwater Disaster," The Guardian, Septem- ber 20, 2010, http://www.guardian.co.uk/business/2010/sep/20/deepwater-oil-rigs-insurance-costs.
+
+[^181]: Aspen Re interview with Commission staff, October 19, 2010; Testimony of Dr. Robert Hartwig, President and Economist, Insurance Information Institute, "Liability and Financial Responsibility for Oil Spills under the Oil Pollu- tion Act of 1990 and Related Statutes," Hearing Before the House Committee on Transportation and Infrastructure,
+
+[^111]: th Congress (2010). 182 33 U.S.C. § 2702.
+
+[^183]: Ibid. 184 33 U.S.C. § 2704. 185 33 U.S.C. § 2704; 33 U.S.C § 1321 (Clean Water Act civil and criminal penalties); Jonathan Ramseur, Oil Spills in U.S. Coastal Waters: Background, Governance, and Issues for Congress (Congressional Research Service, updated September 2, 2008), 26 ("A 2003 study identified 16 states that impose unlimited liability for oil spills.").
+
+[^186]: CLEAR Act, H.R. 3534, 111th Cong. § 702 (2010) (as passed by House); S. 3663, 111th Cong. §102 (2010)("Reid Clean Energy bill"); RESPOND Act, S. 3763, 111th Cong. § 6 (2010)("Landrieu bill"); Big Oil Bailout Prevention Act, H.R. 5214, 111th Cong. § 2 (2010).
+
+[^187]: Testimony of Charles Anderson, SKULD North America, "Liability and Financial Responsibility for Oil Spills under the Oil Pollution Act of 1990 and Related Statutes," Hearing Before the House Committee on Transportation and Infrastructure, 111th Congress (2010), 9.
+
+[^188]: Graeme Wearden, "BP oil spill costs to hit $40bn," The Guardian, November 2, 2010 ($39.9 billion estimated costs); 33 U.S.C. §2716 (maximum required financial responsibility for offshore facilities is $150 million).
+
+[^189]: Rawle King, Deepwater Horizon Oil Spill Disaster: Risk, Recovery, and Insurance Implications (Congressional Re- search Service, July 12, 2010), 16–18.
+
+[^190]: Press Release, Munich Re, Munich Re Develops New Insurance Solution for Oil Catastrophes, September 12, 2010, http://www.munichre.com/en/media_relations/press_releases/2010/2010_09_12_press_release.aspx; Munich Re executives, telephone interview with Commission staff, September 17, 2010.
+
+[^191]: RESPOND Act, S. 3763, 111th Cong. § 7 (2010).
+
+[^192]: Graeme Wearden, "BP oil spill costs to hit $40bn," The Guardian, November 2, 2010. Chapter Nine
+
+[^1]: Exec. Order No. 13543, 75 Fed. Reg. 29,397 (May 21, 2010).
+
+[^2]: See 43 U.S.C. § 1337(b)(6) ("An oil and gas lease issued pursuant to this section shall . . . contain such rental and other provisions as the Secretary may prescribe at the time of offering the area for lease.").
+
+[^3]: These terms are taken directly from the Council on Environmental Quality (CEQ) NEPA implementing regulations. 40 C.F.R. § 1508.28. 4 40 C.F.R. §1508.4.
+
+[^5]: A "Development Operations Coordination Document" in the Gulf of Mexico is functionally the same as a "Development and Production Plan" in other LES regions.
+
+[^6]: Press Release, Department of the Interior, Categorical Exclusions for Gulf Offshore Activity to be Limited While Interior Reviews NEPA Process and Develops Revised Policy, August 16, 2010,
+
+[^7]: Minerals Management Service, MMS 2007-018 Gulf of Mexico OSC Oil and Gas Lease Sales: 2007-2010 Final Environmental Impact Statement (April 2007), Volume I, 2-3 to 2-5.
+
+[^8]: Minerals Management Service, MMS 2007-026 Chukchi Sea Planning Area Oil and Gas Lease Sale 193 and Seismic Surveying Activities in the Chukchi Sea Final Environmental Impact Statement (May 2007), Volume I, 1.
+
+[^9]: Department of Interior, Department Manual Part 516: National Environmental Policy Act of 1969 (September 2009), 3.4.
+
+[^10]: Government Accountability Office, GAO-10-276 Offshore Oil and Gas Development: Additional Guidance Would Help Strengthen the Minerals Management Service's Assessment of Environmental Impacts in the North Aleutian Basin (March 2010), 21.
+
+[^11]: Council on Environmental Quality, Final Recommendations of the Interagency Ocean Policy Task Force (July 19, 2010), 41. 12 43 U.S.C. § 1346.
+
+[^13]: Commission staff analysis of MMS yearly budget request and enactments, by nominal and real (2005) dollars. Bu- reau of Ocean Energy Management, Office of Administration and Budget: Budget Division, http://www.boemre.gov/ adm/budget.html; Herbert Kaufman and Cheryl Anderson, Department of the Interior, OCS Environmental Studies Contract Projects—Fiscals Years 1973 through 1983 (DOI Minerals Management Service Branch of Environmental Studies, December 1983), II-8. 14 33 U.S.C. § 1321(j)(5)(D)(i); 40 C.F.R. § 300.211. 15 30 C.F.R. § 254.2(a). 16 30 C.F.R. § 254.126 17 40 C.F.R. § 300.322 18 23 U.S.C. § 125.
+
+[^19]: Pub. L. No. 107-171, § 2701,116 Stat. 134, 278-279 (2002).
+
+[^20]: Department of the Interior, National Notice to Lessees and Operators of Federal Oil and Gas Leases, Outer Continental Shelf No. 2010-N10 (November 8, 2010), http://www.gomr.boemre.gov/homepg/regulate/regs/ntls/2010NTLs/10- n10.pdf.
+
+[^198]: One Hundred Years of Solitude (García Márquez), 53 OPEC oil embargo (1973), 31, 56, 296 Orca Energy (Dunhill), 227 Oregon, offshore oil and gas industry in, 26, 67, 297 Oryx Energy, 43, 226 Outer Continental Shelf Lands Act and Amendments (1953/1978), 23, 30, 57–64, 79, 80, 84, 254–56, 262–64 Outer Continental Shelf Safety Oversight Board, 78–79, 78n, 82 Overton, Keith, 191 oysters, in Gulf of Mexico, 140, 163, 176, 178–79, 186–87 Paradis, Joseph, 130 Parish Presidents (Louisiana), 139–40, 154 Patzek, Tad, 229 Pemex, 254, 300 Pennsylvania, oil and gas industry in, 296 Pennzoil, 32 Perdido site, 51

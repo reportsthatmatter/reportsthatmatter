@@ -6571,431 +6571,1311 @@ The Litvinenko Inquiry
 
 ## Notes
 
-[^1]: Marina Litvinenko 3/19-20; INQ017734 (page 2 paragraph 6) Goldfarb 26/123; Emmerson 1/147 INQ022399
+[^1]: Marina Litvinenko 3/19-20; INQ017734 (page 2 paragraph 6)
 
-[^2]: Marina Litvinenko 3/20-23 INQ019146 (page 14-15 paragraph 45) A translated copy of the law provided to the Solicitor to the Inquiry by the Russian Embassy in London is at INQ018962
+[^2]: Marina Litvinenko 3/20-23
 
-[^3]: Marina Litvinenko 3/23-24 HMG000358 (page 3) INQ022399 (pages 23-24)
+[^3]: Marina Litvinenko 3/23-24
 
-[^4]: Marina Litvinenko 3/24-25; INQ017734 (page 3 paragraph 7); there are some small points of difference between this evidence and Mr Litvinenko's own account, given without an interpreter at the first session of his November 2006 police interviews – INQ002076 (page 3) HMG000353 INQ019146 (page 22 paragraph 67) Mascall 22/135
+[^4]: Marina Litvinenko 3/24-25; INQ017734 (page 3 paragraph 7); there are some small points of difference between this evidence and Mr Litvinenko's own account, given without an interpreter at the first session of his November 2006 police interviews – INQ002076 (page 3)
 
-[^5]: Marina Litvinenko 3/15 lines 14-16 Service 28/71 lines 1-4 INQ019194 Marina Litvinenko 4/8-9
+[^5]: Marina Litvinenko 3/15 lines 14-16
 
-[^6]: Marina Litvinenko 3/27-29; 4/80 INQ017734 (page 10, paragraph 34); Marina Litvinenko 3/137 lines 4-11 Berezovsky 25/26 lines 9-20 Reilly 10/61
+[^6]: Marina Litvinenko 3/27-29; 4/80
 
-[^7]: INQ017734 (page 3 paragraph 8) INQ016642 (page 7) INQ017734 (page 23 paragraph 80) Mascall 8/2-4
+[^7]: INQ017734 (page 3 paragraph 8)
 
-[^8]: Goldfarb 26/28-35 Bukovsky 26/95-96 INQ018943 Horwell 33/61
+[^8]: Goldfarb 26/28-35
 
-[^9]: Marina Litvinenko 3/3-6 HMG000078 INQ019146 (page 22 paragraph 68) Cotlick 25/76-81 March 2015
+[^9]: Marina Litvinenko 3/3-6
 
-[^10]: INQ017734 (page 1 paragraph 1) Marina Litvinenko 3/94; COM00002001; COM00003001 INQ022399 (page 11 paragraph 25) Chairman 32/4-19 INQ016809 INQ006067 (pages 7-8) Hearings at which such material may be considered or referred to, and which are subject to such restrictions, are to be referred to as "closed hearings".
+[^10]: INQ017734 (page 1 paragraph 1)
 
-[^11]: INQ017734 (page 2 paragraph 4) INQ017680 [video] INQ019146 (page 22 paragraph 68) Mr Kovtun states that he is one year older than Mr Lugovoy in his 2 June 2015 witness statement INQ021208 (page 6). There is evidence that Mr Lugovoy was born in 1966. INQ016809 INQ006067 The Minister may give consent, in accordance with paragraph 8 above, to the attendance at a closed hearing of persons other than those identified in paragraph 9, where the person concerned is a legal representative of the witness, the Chairman indicates in writing that the attendance of the person is necessary, and arrangements are in place which the Minister considers adequate to ensure that the public interest in preventing the disclosure of the Schedule material is not damaged.
+[^11]: INQ017734 (page 2 paragraph 4)
 
-[^12]: Berezovsky 25/3-30 Marina Litvinenko 4/31-32; 4/41; 4/112-114 INQ019146 (page 22 paragraph 69) INQ021208 (page 6) Elenora Wall 32/81 INQ020031 No person shall produce or show to any witness any of the Schedule material, or ask any questions which tend to reveal the existence or content of such material, otherwise than in accordance with a procedure formulated by the Core Inquiry Team and agreed in writing by the Minister.
+[^12]: Berezovsky 25/3-30
 
-[^13]: Berezovsky v Abramovich [2012] EWHC 2463 (Comm), paragraphs 97-112 Marina Litvinenko 4/113; INQ016447 Service 28/47 lines 4-14 Hohne 32/50-54; Marina Wall 32/56 INQ017779 (page 30) Dombey 23/5-56 The Chairman shall ensure that no transcript of the evidence given at a closed hearing is made available to any person other than the Minister, members of the Core Inquiry Team or HMG advisers.
+[^13]: Berezovsky v Abramovich [2012] EWHC 2463 (Comm), paragraphs 97-112
 
-[^14]: Berezovsky 25/6-7 Felshtinsky 23/128-131 Service 28/48 lines 3-9 Hohne 32/51 INQ015781 part 1, INQ015781 part 2; INQ015777 part 1, INQ015777 part 2; INQ015778; INQ015779; INQ015780 [videos] Dombey 23/13-39 The Chairman shall ensure that no reference is made to the substance of the evidence given at a closed hearing of the Inquiry in any open ruling, judgment or report arising out of the Inquiry, or otherwise. Amendments to this Restriction Notice November 2014
+[^14]: Berezovsky 25/6-7
 
-[^15]: Marina Litvinenko 3/35-36 INQ019146 (page 24 paragraph 75) Service 28/51 lines 2-6 Marina Wall 32/55 INQ017779 Dombey 23/22 By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.
+[^15]: Marina Litvinenko 3/35-36
 
-[^16]: INQ017734 (page 3 paragraph 9) INQ019146 (page 25 paragraph 77) Goldfarb 26/56-57 Mascall 8/78 INQ017728; INQ020308 Dombey 23/20-32 The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.
+[^16]: INQ017734 (page 3 paragraph 9)
 
-[^17]: Berezovsky 25/7 Goldfarb 26/122 INQ019146 (page 25 paragraph 77) Mascall 8/75 INQ019031; INQ019054 Dombey 23/24-30; INQ020031 (page 2 paragraphs S9-S10) The Minister may amend this Restriction Notice at any time.
+[^17]: Berezovsky 25/7
 
-[^18]: Marina Litvinenko 3/40 lines 24-25 INQ019146 (page 25 paragraph 79) BLK000134 Mascall 8/76 Bruce Burgess 21/1-171 Mascall 29/77-78
+[^18]: Marina Litvinenko 3/40 lines 24-25
 
-[^19]: INQ017734 (page 4 paragraph 12) BER000167 INQ001886 (pages 5-6) Mascall 8/77 Tristam Burgess 21/172-213 Death of Dissident, pp.337-338
+[^19]: INQ017734 (page 4 paragraph 12)
 
-[^20]: Zakayev 26/137-138; 26/140-141 Berezovsky v RTR & Terluk [2010] EWHC 476 (QB); Terluk v Berezovsky [2011] EWCA Civ 1534 INQ001788 (pages 21-22 paragraphs 127-128) Marina Wall 32/58 Bull 21/213-256 INQ006067 (page 5 paragraph 31)
+[^20]: Zakayev 26/137-138; 26/140-141
 
-[^21]: Marina Litvinenko 3/41-43 Knuckey 7/38-44; see also Mr Knuckey's report and timeline relating to this incident: INQ019304; INQ019301 Marina Litvinenko 3/125-129 Marina Wall 32/63 Marina Wall 32/66-67 INQ016403 (pages 29-32)
+[^21]: Marina Litvinenko 3/41-43
 
-[^22]: Sixsmith The Litvinenko File (pages 78-79); Cowell The Terminal Spy (pages 103-104) INQ019146 (page 25 paragraph 77) Marina Litvinenko 4/110-111 Marina Wall 32/75 Mascall 22/127 A1 2/131-140
+[^22]: Sixsmith The Litvinenko File (pages 78-79); Cowell The Terminal Spy (pages 103-104)
 
-[^23]: Marina Litvinenko 3/31-35; INQ017734 (page 4 paragraph 13) Bukovsky 26/86-90; 26/109-110 Marina Litvinenko 4/11 lines 11-15 Marina Wall 32/66-67 Horwell 33/16-17 INQ016403 (page 30)
+[^23]: Marina Litvinenko 3/31-35; INQ017734 (page 4 paragraph 13)
 
-[^24]: Zakayev 26/142 lines 9-11 Service 28/30-31; 28/69-70; Felshtinsky 23/175-177 Goldfarb 5/102-107 Elenora Wall 32/77 INQ016403 (page 31)
+[^24]: Zakayev 26/142 lines 9-11
 
-[^25]: INQ017734 (page 5 paragraph 15) Goldfarb 27/109-110 Goldfarb 26/2-8 Elenora Wall 32/79-80 INQ018946; INQ017548 (pages 8-9); Goldfarb 26/125-127
+[^25]: INQ017734 (page 5 paragraph 15)
 
-[^26]: INQ002076 (page 4) Felshtinsky 23/135-137; Goldfarb 5/113-114 Reilly 10/23-26 Elenora Wall 32/81 INQ014604; INQ014605; INQ014607; INQ014608; INQ014609; INQ014610; INQ014611; INQ014612; INQ014613; INQ014620; INQ014621; INQ014623; INQ014624
+[^26]: INQ002076 (page 4)
 
-[^27]: Marina Litvinenko 3/44 lines 19-20 Felshtinsky 23/136-137 Reilly 10/27-28 INQ006201 INQ014620; INQ014621
+[^27]: Marina Litvinenko 3/44 lines 19-20
 
-[^28]: Goldfarb 27/108 lines 8-15 Felshtinsky 23/175 lines 14-17 Attew 13/23 Moughton 8/94-116 INQ017548 (pages 8-9)
+[^28]: Goldfarb 27/108 lines 8-15
 
-[^29]: Marina Litvinenko 3/47-50 Goldfarb 26/17; Bell 6/18 Tabunov 13/130-132 Moughton 8/102 Goldfarb 26/125-127
+[^29]: Marina Litvinenko 3/47-50
 
-[^30]: BLK000253 (page 3) Goldfarb 5/122 Shvets 24/56-58 INQ006201 (page 15) INQ022423; INQ022433
+[^30]: BLK000253 (page 3)
 
-[^31]: BLK000253 (page 4); Marina Litvinenko 3/50-51 Goldfarb 5/122-123; 26/17-18; 26/26 Bukovsky 26/91-92 Moughton 8/115-116 INQ020031 (page 4 paragraphs S17-S18)
+[^31]: BLK000253 (page 4); Marina Litvinenko 3/50-51
 
-[^32]: HMG000115 Goldfarb 26/19-21; Felshtinsky 23/153-157 Cotlick 25/41-47 INQ006218 INQ022423 (page 2)
+[^32]: HMG000115
 
-[^33]: INQ017734 (page 6 paragraph 16(c)) Goldfarb 26/20-21 Voronkov 16/193-194 Fitzgerald 8/116-123 INQ020031 (page 4 paragraphs S20-S21)
+[^33]: INQ017734 (page 6 paragraph 16(c))
 
-[^34]: Marina Litvinenko 3/53 lines 20-22; 3/55 lines 4-9 Goldfarb 5/128; 26/23-25 INQ002895 (page 6) INQ002858 INQ022423 (pages 2-3 paragraph 8)
+[^34]: Marina Litvinenko 3/53 lines 20-22; 3/55 lines 4-9
 
-[^35]: Marina Litvinenko 4/85 lines 10-14 Goldfarb 27/110 Svetlichnaya 25/82-98 INQ006218 (page 15) INQ020031 (page 5 paragraphs S27-S31)
+[^35]: Marina Litvinenko 4/85 lines 10-14
 
-[^36]: Marina Litvinenko 3/55-56; INQ017734 (page 6 paragraph 18) Marina Litvinenko 3/133 Svetlichnaya 25/105 Horwell 33/24 Dombey 23/42
+[^36]: Marina Litvinenko 3/55-56; INQ017734 (page 6 paragraph 18)
 
-[^37]: INQ017734 (pages 6-7 paragraph 19) Marina Litvinenko 3/133-134; Goldfarb 5/77-79 Svetlichnaya 25/102-104; 25/116 The hotel bookings were made on 7 October (Krgo 9/51-52) and the flight bookings were made on 9 October; Mascall 9/4-5; COM00199001 (pages 4-5) INQ022423 (page 4 paragraph 13)
+[^37]: INQ017734 (pages 6-7 paragraph 19)
 
-[^38]: Marina Litvinenko 3/69 lines 22-23 Goldfarb 5/79-80 Svetlichnaya 25/103-104 Mascall 9/4-37 Dombey 23/54
+[^38]: Marina Litvinenko 3/69 lines 22-23
 
-[^39]: INQ017734 (page 7 paragraphs 20-21) Goldfarb 26/28-30 Attew 13/25-27 Mascall 9/9-10 INQ022423
+[^39]: INQ017734 (page 7 paragraphs 20-21)
 
-[^40]: BLK000253 (pages 7-8) INQ017384 Attew 13/27-28 Mascall 9/11-12; 9/18-20; INQ019202 Dombey 23/33; 23/39-40
+[^40]: BLK000253 (pages 7-8)
 
-[^41]: INQ017734 (pages 7-8 paragraph 23) INQ014928 Shvets 24/65 Mascall 9/35-37 INQ022423 (page 7 paragraph 30)
+[^41]: INQ017734 (pages 7-8 paragraph 23)
 
-[^42]: HMG000115 Marina Litvinenko 4/18-20 Shvets 24/72 Mascall 9/22 INQ022423 (page 9 paragraph 37)
+[^42]: HMG000115
 
-[^43]: INQ017734 (page 8 paragraph 24) HMG000307 INQ006481 Mascall 9/27 Emmerson 1/156-157
+[^43]: INQ017734 (page 8 paragraph 24)
 
-[^44]: Marina Litvinenko 3/71-74; INQ017734 (pages 8-9 paragraphs 27-29) INQ015366 Shvets 24/81-82 COM00046001; COM00198001 Mascall 29/77-78
+[^44]: Marina Litvinenko 3/71-74; INQ017734 (pages 8-9 paragraphs 27-29)
 
-[^45]: BLK000253 (page 10) HMG000308 Attew 13/37 Mascall 9/27-28 INQ019146 (page 15 paragraph 46)
+[^45]: BLK000253 (page 10)
 
-[^46]: Marina Litvinenko 3/74-75; INQ017734 (page 9 paragraph 30) INQ017734 (pages 24-55 paragraphs 82-85); Marina Litvinenko 4/26-27 Shvets 24/73 Mascall 9/65-66; 9/126 INQ019146 (pages 18-19 paragraph 57)
+[^46]: Marina Litvinenko 3/74-75; INQ017734 (page 9 paragraph 30)
 
-[^47]: Marina Litvinenko 3/75 lines 10-12 Goldfarb 5/81-82 Attew 13/41; 13/112 Scott 9/39 INQ019146 (page 24 paragraph 74)
+[^47]: Marina Litvinenko 3/75 lines 10-12
 
-[^48]: HMG000115 Goldfarb 5/120; 26/19 Shvets 24/73 INQ013787 (page 4) Goldfarb 5/115; 5/121-123
+[^48]: HMG000115
 
-[^49]: BER002661 Goldfarb 5/123 Shvets 24/100 Scott 9/43-44 Marina Litvinenko 3/141-142
+[^49]: BER002661
 
-[^50]: INQ017734 (page 9 paragraph 30) Goldfarb 5/123; 26/26 Attew 13/104 Scott 9/47 Goldfarb 26/71
+[^50]: INQ017734 (page 9 paragraph 30)
 
-[^51]: INQ017734 (page 10 paragraph 33) Goldfarb 5/125; 26/21-22 Shvets 24/102 INQ017809 (page 58) INQ019146 (page 19 paragraph 61)
+[^51]: INQ017734 (page 10 paragraph 33)
 
-[^52]: Felshtinsky 23/127 lines 11-17 Goldfarb 26/25 Marina Litvinenko 4/6 Reilly 10/83 INQ019146 (page 20 paragraph 62)
+[^52]: Felshtinsky 23/127 lines 11-17
 
-[^53]: INQ019146 (page 15 paragraph 46) Marina Litvinenko 4/28-31; Goldfarb 26/35-37; Shvets 24/49-54; Felshtinsky 23/160 Attew 13/112-113 Mascall 9/127-128 INQ019146 (page 20 paragraph 63)
+[^53]: INQ019146 (page 15 paragraph 46)
 
-[^54]: Marina Litvinenko 3/82-84; INQ017734 (pages 10-11 paragraphs 35-36) Goldfarb 26/37 Shvets 24/79-80 Krgo 9/49 INQ019146 (page 19 paragraph 61)
+[^54]: Marina Litvinenko 3/82-84; INQ017734 (pages 10-11 paragraphs 35-36)
 
-[^55]: INQ017734 (page 11 paragraph 37) Goldfarb 26/38-50 HMG000513 Krgo 9/53 INQ019146 (page 19 paragraph 58)
+[^55]: INQ017734 (page 11 paragraph 37)
 
-[^56]: INQ017734 (pages 10-11 paragraphs 36,39-40) Goldfarb 26/50 INQ015674 Mascall 9/96-97 Goldfarb 26/26
+[^56]: INQ017734 (pages 10-11 paragraphs 36,39-40)
 
-[^57]: Marina Litvinenko 3/87 lines 16-18 Marina Litvinenko 3/135-136 Shvets 24/82-84 Krgo 9/57 INQ019146 (page 23 paragraph 73)
+[^57]: Marina Litvinenko 3/87 lines 16-18
 
-[^58]: INQ017734 (page 12 paragraphs 40-41) Zakayev 26/144-146 Shvets 24/84-85 Krgo 9/54-60 Goldfarb 27/114-115; INQ019146 (page 19 paragraph 60)
+[^58]: INQ017734 (page 12 paragraphs 40-41)
 
-[^59]: INQ017734 (page 12 paragraphs 42-43) Marina Litvinenko 3/146-155; 4/119-120 Emmerson 34/54; 34/59-60 Mascall 9/83-86; 9/89-90. See paragraphs 6.21-6.24 above for discussion regarding the value of such findings. INQ019146 (page 19 paragraph 60)
+[^59]: INQ017734 (page 12 paragraphs 42-43)
 
-[^60]: Marina Litvinenko 4/102-105; HMG000122 Goldfarb 5/128-129 INQ019146 (page 23 paragraph 73) Reilly 10/80-119 Goldfarb 26/69; 27/114-116
+[^60]: Marina Litvinenko 4/102-105; HMG000122
 
-[^61]: Marina Litvinenko 4/105-110; BER002750; HMG000120 Berezovsky 25/10; 25/12 Marina Litvinenko 3/145; Goldfarb 27/112 Reilly 10/80; 10/83-84 Dombey 23/46-48
+[^61]: Marina Litvinenko 4/105-110; BER002750; HMG000120
 
-[^62]: Marina Litvinenko 3/94 lines 9-18 Reilly 10/196 Marina Litvinenko 3/145 Reilly 10/83 INQ006067 (pages 7-8)
+[^62]: Marina Litvinenko 3/94 lines 9-18
 
-[^63]: Felshtinsky 23/141 Bukovsky 26/94 Goldfarb 5/127; 27/112 Reilly 10/95 Zakayev 26/162-163
+[^63]: Felshtinsky 23/141
 
-[^64]: Felshtinsky 23/143 lines 14-17 Garnham 1/172-173 Goldfarb 5/128 Reilly 10/84; 10/107-110 Goldfarb 26/118-121
+[^64]: Felshtinsky 23/143 lines 14-17
 
-[^65]: INQ017734 (page 22 paragraph 76); Marina Litvinenko 4/101 (2003) NIQB 56 Marina Litvinenko 3/146 Reilly 10/108 Zakeyev 26/163-167
+[^65]: INQ017734 (page 22 paragraph 76); Marina Litvinenko 4/101
 
-[^66]: INQ017734 (page 12 paragraph 43); Marina Litvinenko 3/90-91 Garnham 1/174-175 Marina Litvinenko 4/33 Reilly 10/85-86 Scaramella 15/172-173
+[^66]: INQ017734 (page 12 paragraph 43); Marina Litvinenko 3/90-91
 
-[^67]: Felshtinsky 23/143-144 Garnham 1/178-179 Quirke 11/64-66 INQ018987 (page 2) Scaramella 15/172-178
+[^67]: Felshtinsky 23/143-144
 
-[^68]: Marina Litvinenko 3/94-95; Felshtinsky 23/145 lines 13-16 INQ001886 (pages 2-3) Attew 13/20 INQ018987 (page 2) INQ013784
+[^68]: Marina Litvinenko 3/94-95; Felshtinsky 23/145 lines 13-16
 
-[^69]: Felshtinsky 23/145 INQ017684 Marina Litvinenko 4/38-42 INQ017922 (page 3) Scaramella 15/139-140
+[^69]: Felshtinsky 23/145
 
-[^70]: Marina Litvinenko 3/95-96 HMG000353 INQ017681 [video] Reilly 10/92; 10/100 Tarpey 22/25-90
+[^70]: Marina Litvinenko 3/95-96
 
-[^71]: Marina Litvinenko 3/97; Felshtinsky 23/145-146 INQ015669 Zakayev 26/160-161 Mascall 9/97-101 Slater 22/91-118
+[^71]: Marina Litvinenko 3/97; Felshtinsky 23/145-146
 
-[^72]: Felshtinsky 23/149 lines 15-19 Guzzanti 29/10 Marina Litvinenko 3/112-113 INQ017922 (page 3) Mascall 29/67-69
+[^72]: Felshtinsky 23/149 lines 15-19
 
-[^73]: Marina Litvinenko 3/98-101 Guzzanti 29/10; 29/14 Attew 13/21 INQ017922 (page 3) Horwell 33/69-70
+[^73]: Marina Litvinenko 3/98-101
 
-[^74]: Felshtinsky 23/146-150 Guzzanti 29/9-18; Scaramella 27/30-32 Reilly 10/21; Tabunov 13/128; Berezovsky 25/13-14 Reilly 10/90 INQ019146 (page 25 paragraph 79)
+[^74]: Felshtinsky 23/146-150
 
-[^75]: Felshtinsky 23/150-151 Guzzanti 29/18-20 INQ016652 (page 8) Reilly 10/105-106 INQ019146 (pages 25-26 paragraphs 79-80)
+[^75]: Felshtinsky 23/150-151
 
-[^76]: Goldfarb 5/92-95; Marina Litvinenko 3/105-106 Scaramella 15/93-94 Anatoly Litvinenko 4/134 A1 20/27-31 Service 28/51-55; 28/100-102
+[^76]: Goldfarb 5/92-95; Marina Litvinenko 3/105-106
 
-[^77]: Goldfarb 5/97-98 INQ015669 Marina Litvinenko 4/34 Mascall 29/73-75 Mascall 22/130
+[^77]: Goldfarb 5/97-98
 
-[^78]: Marina Litvinenko 3/108 Scaramella 27/57-58 Felshtinsky 23/169 Reilly 10/117-123 Emmerson 22/1-2
+[^78]: Marina Litvinenko 3/108
 
-[^79]: Marina Litvinenko 3/108-110 Guzzanti 29/22 Bukovsky 26/99 Reilly 10/145-146 Shvets 24/116-117
+[^79]: Marina Litvinenko 3/108-110
 
-[^80]: Marina Litvinenko 3/110-111 Scaramella 27/72-73; Guzzanti 29/23 Quirke 11/65-66 INQ017934 (pages 36-38) Goldfarb 26/130-133; 27/116-120
+[^80]: Marina Litvinenko 3/110-111
 
-[^81]: Marina Litvinenko 3/111-112 Scaramella 15/94-95 Bukovsky 26/99 Reilly 10/119-121 Horwell 33/72
+[^81]: Marina Litvinenko 3/111-112
 
-[^82]: Marina Litvinenko 3/112-113 Scaramella 15/100-101 Marina Litvinenko 4/45-46; 4/78-79 Holmes 7/68-70; Attew 13/67-70 Service 28/90-91
+[^82]: Marina Litvinenko 3/112-113
 
-[^83]: Marina Litvinenko 3/114 INQ019473; Scaramella 27/60-73 Reilly 10/29-30 Mascall 9/101 INQ019146 (page 27 paragraph 85)
+[^83]: Marina Litvinenko 3/114
 
-[^84]: Marina Litvinenko 3/114-116 Marina Litvinenko written closing submissions, page 46 paragraph 142 Goldfarb 5/132; Attew 13/22; Tabunov 13/139-140 Mascall 9/109-111 INQ019146 (pages 26-27 paragraph 83)
+[^84]: Marina Litvinenko 3/114-116
 
-[^85]: INQ017734 (page 17 paragraph 59); Goldfarb 5/102-107 Mascall 29/84 Mascall 9/112-113; 9/124. See paragraphs 6.21-6.24 above for discussion regarding the value of such findings. INQ019146 (page 12 paragraph 37)
+[^85]: INQ017734 (page 17 paragraph 59); Goldfarb 5/102-107
 
-[^86]: Marina Litvinenko 3/122-123 BLK000241 (page 4) Marina Litvinenko 4/35-37 INQ019146 (page 6 paragraph 18)
+[^86]: Marina Litvinenko 3/122-123
 
-[^87]: INQ015541 INQ018922 (page 3); Scaramella 27/73-79 INQ016642 (page 4) INQ019146 (page 8 paragraph 26); Service 28/69-70
+[^87]: INQ015541
 
-[^88]: Hatjiosif 2/99-101 Scaramella 27/97-99; LUG000092 INQ021208 (page 3)
+[^88]: Hatjiosif 2/99-101
 
-[^89]: Marina Litvinenko 3/121 lines 18-19 Scaramella 27/94-97 INQ012404
+[^89]: Marina Litvinenko 3/121 lines 18-19
 
-[^90]: Attew 13/15-16 Scaramella 27/78-93; INQ018922 INQ022370
+[^90]: Attew 13/15-16
 
-[^91]: Marina Litvinenko 3/119-120 Marina Litvinenko 3/155-157; 4/120 Mascall 17/79-80
+[^91]: Marina Litvinenko 3/119-120
 
-[^92]: Marina Litvinenko 3/142-143 Berezovsky 25/13 Mascall 17/80-81
+[^92]: Marina Litvinenko 3/142-143
 
-[^93]: Bukovsky 26/87-88; 26/92-93 Goldfarb 5/129; 26/58-59 Mascall 9/115-116; 11/124-125
+[^93]: Bukovsky 26/87-88; 26/92-93
 
-[^94]: Zakayev 26/143 Goldfarb 26/59-60 Mascall 9/67-78
+[^94]: Zakayev 26/143
 
-[^95]: Marina Litvinenko 4/37 lines 11-16 Goldfarb 26/61-67 A1 20/16-26; 20/97-98
+[^95]: Marina Litvinenko 4/37 lines 11-16
 
-[^96]: Marina Litvinenko 4/45 line 9 BLK000049 Mascall 9/120-121
+[^96]: Marina Litvinenko 4/45 line 9
 
-[^97]: Marina Litvinenko 4/48 line 17 INQ015639 Krgo 9/60-62
+[^97]: Marina Litvinenko 4/48 line 17
 
-[^98]: Marina Litvinenko 4/48-49 Hunter 11/1-47 Rondoni 10/189-190
+[^98]: Marina Litvinenko 4/48-49
 
-[^99]: Marina Litvinenko 4/49-51 Hunter 11/4-9 Mascall 9/121-122
+[^99]: Marina Litvinenko 4/49-51
 
-[^100]: Marina Litvinenko 4/50-53 Hunter 11/25-29 Mascall 9/124-125
+[^100]: Marina Litvinenko 4/50-53
 
-[^101]: Marina Litvinenko 4/53-54 Knuckey 7/36 INQ006389
+[^101]: Marina Litvinenko 4/53-54
 
-[^102]: Cole 17/119-122; Schofield 17/122-124 Knuckey 7/45 Shadrin 14/137-218
+[^102]: Cole 17/119-122; Schofield 17/122-124
 
-[^103]: Marina Litvinenko 4/54 lines 22-23 Knuckey 7/45-46 Gorokov 13/142-155
+[^103]: Marina Litvinenko 4/54 lines 22-23
 
-[^104]: Marina Litvinenko 4/54-55 Evans 7/20 Davison 14/114-136
+[^104]: Marina Litvinenko 4/54-55
 
-[^105]: Prikazchikov 17/110-115 Evans 7/33 Voronoff 14/2-114
+[^105]: Prikazchikov 17/110-115
 
-[^106]: Marina Litvinenko 4/55-56; Baxter 17/125-127 Evans 7/26 INQ021208
+[^106]: Marina Litvinenko 4/55-56; Baxter 17/125-127
 
-[^107]: Virchis 18/2-74 Knuckey 7/45-46; Evans 7/26-27 Shadrin 14/152-153
+[^107]: Virchis 18/2-74
 
-[^108]: INQ006741 Evans 7/31 Shadrin 14/154-155
+[^108]: INQ006741
 
-[^109]: Virchis 18/6-7 Quirke 11/60 Shadrin 14/168
+[^109]: Virchis 18/6-7
 
-[^110]: Virchis 18/13 Quirke 11/68 Shadrin 14/170-171
+[^110]: Virchis 18/13
 
-[^111]: Virchis 18/19 Knuckey 7/49 Shadrin 14/176-182
+[^111]: Virchis 18/19
 
-[^112]: Virchis 18/20-21 Quirke 11/73 INQ021208
+[^112]: Virchis 18/20-21
 
-[^113]: Virchis 18/16-17 Quirke 11/70-74 INQ022384
+[^113]: Virchis 18/16-17
 
-[^114]: Virchis 18/20; 18/26-31 Quirke 11/82; Knuckey 7/46-49; Hunter 11/45-46 Mascall 11/126
+[^114]: Virchis 18/20; 18/26-31
 
-[^115]: Virchis 18/37-39 Quirke 11/86-87 Quirke 11/86-103
+[^115]: Virchis 18/37-39
 
-[^116]: Virchis 18/41-42 Holmes 7/50-53 Quirke 11/90-91
+[^116]: Virchis 18/41-42
 
-[^117]: Virchis 18/50; 18/52 Attew 13/15-17 Quirke 11/98-99 (it is clear from the context that words 'Shortly before 5.00' in the transcript should read 'Shortly before 6.00')
+[^117]: Virchis 18/50; 18/52
 
-[^118]: Virchis 18/51-53 Attew 13/17-22 Mascall 11/125-126 see paragraphs 6.21-6.24 above for discussion regarding the value of such findings
+[^118]: Virchis 18/51-53
 
-[^119]: Virchis 18/55-58 Attew 13/25-26; 13/28-32. (There was a small degree of inconsistency between the evidence of Mr Attew and that of Mr Shvets as to the subjects of the reports, but I did not consider this inconsistency to be material.) Quirke 11/92
+[^119]: Virchis 18/55-58
 
-[^120]: Virchis 18/59-60 Attew 13/28-30 Quirke 11/94; 11/101
+[^120]: Virchis 18/59-60
 
-[^121]: Virchis 18/67-68 Shvets 24/44-47 Quirke 11/94-97
+[^121]: Virchis 18/67-68
 
-[^122]: Virchis 18/70 Shvets 24/58-59 Quirke 11/97-98
+[^122]: Virchis 18/70
 
-[^123]: Virchis 18/72 Holmes 7/63-64 Mascall 11/131-132; INQ017934 (page 85)
+[^123]: Virchis 18/72
 
-[^124]: Marina Litvinenko 4/58-59 Reilly 10/11-13 Valuev 11/127-130
+[^124]: Marina Litvinenko 4/58-59
 
-[^125]: Michenina 18/89-93 Reilly 10/61-62 Mascall 11/132-136
+[^125]: Michenina 18/89-93
 
-[^126]: Trout 18/75-83 Reilly 10/67-68 INQ016615 (pages 1-4)
+[^126]: Trout 18/75-83
 
-[^127]: Marina Litvinenko 4/64-65 Reilly 10/78-79 Mascall 11/136 see paragraphs 6.21-6.24 above for discussion regarding the value of such findings.
+[^127]: Marina Litvinenko 4/64-65
 
-[^128]: Mascall 24/10-13 Reilly 10/50-58 INQ006360; INQ006361; INQ006362; INQ006363
+[^128]: Mascall 24/10-13
 
-[^129]: Marina Litvinenko 4/56 lines 5-10 Attew 13/64 Mascall 11/137
+[^129]: Marina Litvinenko 4/56 lines 5-10
 
-[^130]: Zakayev 26/153 lines 10-11 Quirke 11/54-59 Mascall 29/75
+[^130]: Zakayev 26/153 lines 10-11
 
-[^131]: Goldfarb 5/133-145 Evans 7/18-19 INQ017934 (pages 87-93)
+[^131]: Goldfarb 5/133-145
 
-[^132]: Berezovsky 25/19 Hunter 11/46 INQ001886 (page 17)
+[^132]: Berezovsky 25/19
 
-[^133]: Marina Litvinenko 4/60-61 Mascall 8/14-16 INQ001886 (page 6)
+[^133]: Marina Litvinenko 4/60-61
 
-[^134]: Berezovsky 25/19 lines 20-21 INQ001886 (page 21) INQ001788 (page 21)
+[^134]: Berezovsky 25/19 lines 20-21
 
-[^135]: Nathwani 18/93-129 Mascall 8/17-19 Chairman 32/3-19
+[^135]: Nathwani 18/93-129
 
-[^136]: INQ006652 Mascall 8/25 Rondoni 10/193-195
+[^136]: INQ006652
 
-[^137]: Henry 18/132 Mascall 8/26-30 Mascall 11/139-140
+[^137]: Henry 18/132
 
-[^138]: Henry 18/137 Mascall 8/31-32 Mascall 9/65-66 see paragraphs 6.21-6.24 above for discussion regarding the value of such findings.
+[^138]: Henry 18/137
 
-[^139]: Nathwani 18/99-100 A number of different dates were given for Mr Lugovoy's imprisonment. The 2001-2 dates seem most likely, since they coincide with the evidence given by Mr Glushkov: Mascall 8/44-48 Mascall 9/35-37
+[^139]: Nathwani 18/99-100
 
-[^140]: Nathwani 18/101 Glushkov 17/46-48 Mascall 12/4-5; 12/9
+[^140]: Nathwani 18/101
 
-[^141]: Nathwani 18/103 Mascall 8/47-48 Mascall 12/10-12
+[^141]: Nathwani 18/103
 
-[^142]: Nathwani 18/103-105 Mascall 8/49; INQ016593 (page 10) Mascall 12/14-16
+[^142]: Nathwani 18/103-105
 
-[^143]: Nathwani 18/107-108 INQ002470 (pages 2-3); INQ016593 (pages 10-11) INQ001788 (page 22)
+[^143]: Nathwani 18/107-108
 
-[^144]: Nathwani 18/109-110 INQ001788 (page 15 paragraph 86) Patarkatsishvili 12/48-59
+[^144]: Nathwani 18/109-110
 
-[^145]: Nathwani 18/111 INQ022396; INQ022397 Bonetti 12/30-45
+[^145]: Nathwani 18/111
 
-[^146]: Nathwani 18/111-112 Marina Litvinenko 4/14-17 Mascall 12/117-118
+[^146]: Nathwani 18/111-112
 
-[^147]: Nathwani 18/113 Attew 13/85-86 INQ001788 (page 22)
+[^147]: Nathwani 18/113
 
-[^148]: Nathwani 18/114-117 Attew 13/47 INQ016371
+[^148]: Nathwani 18/114-117
 
-[^149]: Nathwani 18/123-124 Attew 13/45 Glushkov 17/6-21
+[^149]: Nathwani 18/123-124
 
-[^150]: Nathwani 18/127 Quirke 11/80 Tregubova 29/62-66
+[^150]: Nathwani 18/127
 
-[^151]: Nathwani 18/124 Reilly 10/65 Felshtinsky 23/160-161
+[^151]: Nathwani 18/124
 
-[^152]: Henry 18/139-140 Shvets 24/74-75 Glushkov 17/11-12
+[^152]: Henry 18/139-140
 
-[^153]: Timmons 22/7; INQ022258 Mascall 16/203-210
+[^153]: Timmons 22/7; INQ022258
 
-[^154]: INQ022258 INQ019235
+[^154]: INQ022258
 
-[^155]: Timmons 22/7 INQ020210 (page 2)
+[^155]: Timmons 22/7
 
-[^156]: Timmons 22/8 Mascall 12/70-72
+[^156]: Timmons 22/8
 
-[^157]: Timmons 22/9-10; INQ022258 Mascall 12/72-73
+[^157]: Timmons 22/9-10; INQ022258
 
-[^158]: Timmons 22/10; INQ022258 INQ017809 (pages 66-67)
+[^158]: Timmons 22/10; INQ022258
 
-[^159]: Down 18/144 Shadrin 14/188
+[^159]: Down 18/144
 
-[^160]: Hyatt 4/137-170; 5/1-55 Mascall 12/68
+[^160]: Hyatt 4/137-170; 5/1-55
 
-[^161]: Prikazchikov 17/114 lines 16-20 INQ017809 (pages 66-67)
+[^161]: Prikazchikov 17/114 lines 16-20
 
-[^162]: Zakayev 26/153 Mascall 12/67-70; INQ019311 (pages 10-11)
+[^162]: Zakayev 26/153
 
-[^163]: INQ002470 (page 14) Mascall 12/84
+[^163]: INQ002470 (page 14)
 
-[^164]: INQ002470 (pages 12-13) INQ019311 (pages 12-13)
+[^164]: INQ002470 (pages 12-13)
 
-[^165]: Zakayev 26/154-155 INQ016570 (pages 5-7)
+[^165]: Zakayev 26/154-155
 
-[^166]: INQ016789; INQ018413 Mascall 12/81-83
+[^166]: INQ016789; INQ018413
 
-[^167]: Shvets 24/89-93 Mascall 12/69
+[^167]: Shvets 24/89-93
 
-[^168]: Bukovsky 26/100-101 Mascall 12/105-117
+[^168]: Bukovsky 26/100-101
 
-[^169]: Zakayev 26/153-154 A1 20/49-57
+[^169]: Zakayev 26/153-154
 
-[^170]: Berezovsky 25/20-21 Mascall 12/91-92
+[^170]: Berezovsky 25/20-21
 
-[^171]: Shvets 24/92-93 Mascall 12/95-103
+[^171]: Shvets 24/92-93
 
-[^172]: Zakayev 26/156-157 Mascall 12/103-104
+[^172]: Zakayev 26/156-157
 
-[^173]: Berezovsky 25/19-20 Mascall 30/24-38
+[^173]: Berezovsky 25/19-20
 
-[^174]: INQ016642 (page 5) Mascall 30/29-30; 30/36-37
+[^174]: INQ016642 (page 5)
 
-[^175]: INQ019299 Mascall 24/2
+[^175]: INQ019299
 
-[^176]: Goldfarb 5/155-156 Jolly 32/60 note that many of the dates given by Marina Wall during her interviews were one day out.
+[^176]: Goldfarb 5/155-156
 
-[^177]: Marina Litvinenko 4/66-67 Jolly 32/61
+[^177]: Marina Litvinenko 4/66-67
 
-[^178]: Bell 6/22 Jolly 32/76-77
+[^178]: Bell 6/22
 
-[^179]: INQ017399 Jolly 32/60-61
+[^179]: INQ017399
 
-[^180]: Menzies 6/6-17 Mascall 30/46-47; 30/54-60
+[^180]: Menzies 6/6-17
 
-[^181]: Goldfarb 5/148-155 Jolly 32/62
+[^181]: Goldfarb 5/148-155
 
-[^182]: Marina Litvinenko 4/67-69 Mascall 16/25-27
+[^182]: Marina Litvinenko 4/67-69
 
-[^183]: Bell 6/23-25 Mascall 24/3-6
+[^183]: Bell 6/23-25
 
-[^184]: Marina Litvinenko 4/69-71 Mascall 24/6-7
+[^184]: Marina Litvinenko 4/69-71
 
-[^185]: Zakayev 26/157-159 Mascall 24/7-8
+[^185]: Zakayev 26/157-159
 
-[^186]: Marina Litvinenko 4/73 Mascall 24/8-9
+[^186]: Marina Litvinenko 4/73
 
-[^187]: Down 18/144 Mascall 16/27-28
+[^187]: Down 18/144
 
-[^188]: "Polonium-210 as a poison" by Harrison et al – Journal of Radiological Protection 27, 17-40; 2007 INQ017269 Mascall 24/2-3
+[^188]: "Polonium-210 as a poison" by Harrison et al – Journal of Radiological Protection 27, 17-40; 2007 INQ017269
 
-[^189]: INQ022258 Mascall 30/39-41
+[^189]: INQ022258
 
-[^190]: INQ007633 Mascall 30/41-115
+[^190]: INQ007633
 
-[^191]: INQ007656 Mascall 30/47
+[^191]: INQ007656
 
-[^192]: INQ007633 Mascall 30/56-57
+[^192]: INQ007633
 
-[^193]: INQ016745 (pages 3-5) Mascall 30/73-74
+[^193]: INQ016745 (pages 3-5)
 
-[^194]: Harrison 19/26 Mascall 30/83-92
+[^194]: Harrison 19/26
 
-[^195]: Harrison 19/34 Mascall 30/60-65; 30/108-112
+[^195]: Harrison 19/34
 
-[^196]: Harrison 19/34 INQ021208 (page 9)
+[^196]: Harrison 19/34
 
-[^197]: Swift 2/90-91 INQ021208 (page 11)
+[^197]: Swift 2/90-91
 
-[^198]: INQ003002; Cary 2/17-82; INQ003187; Swift 2/82-99 D6 30/2-22
+[^198]: INQ003002; Cary 2/17-82; INQ003187; Swift 2/82-99
 
-[^199]: Cary 2/42 Mascall 30/116-154
+[^199]: Cary 2/42
 
-[^200]: Cary 2/64 Mascall 30/150-151
+[^200]: Cary 2/64
 
-[^201]: Cary 2/64-66 C2 24/28-29
+[^201]: Cary 2/64-66
 
-[^202]: Cary 2/66 INQ020044 (page 3)
+[^202]: Cary 2/66
 
-[^203]: INQ003002 (page 7); Cary 2/67 Quirke 11/98-99
+[^203]: INQ003002 (page 7); Cary 2/67
 
-[^204]: INQ003002 (page 7); Cary 2/67-68 Mascall 13/168-173
+[^204]: INQ003002 (page 7); Cary 2/67-68
 
-[^205]: INQ007633 (page 5) Mascall 13/191
+[^205]: INQ007633 (page 5)
 
-[^206]: INQ007633; Harrison 19/32-67 Mascall 13/165-166; 16/215-216
+[^206]: INQ007633; Harrison 19/32-67
 
-[^207]: INQ007633 (page 7) Mascall 13/185-187
+[^207]: INQ007633 (page 7)
 
-[^208]: INQ016745 (page 9) Mascall 13/187-188
+[^208]: INQ016745 (page 9)
 
-[^209]: INQ016745 (page 10) Mascall 13/192-195
+[^209]: INQ016745 (page 10)
 
-[^210]: INQ007633 (page 7) Mascall 13/191-192; 16/14-20
+[^210]: INQ007633 (page 7)
 
-[^211]: INQ016745 (page 10) Mascall 13/188-189
+[^211]: INQ016745 (page 10)
 
-[^212]: INQ014291 (page 8) INQ020044 (page 3)
+[^212]: INQ014291 (page 8)
 
-[^213]: INQ016745 (page 9) Mascall 13/176-177
+[^213]: INQ016745 (page 9)
+
+[^1]: Goldfarb 26/123; Emmerson 1/147
+
+[^2]: INQ019146 (page 14-15 paragraph 45)
+
+[^3]: HMG000358 (page 3)
+
+[^4]: HMG000353
+
+[^5]: Service 28/71 lines 1-4
+
+[^6]: INQ017734 (page 10, paragraph 34); Marina Litvinenko 3/137 lines 4-11
+
+[^7]: INQ016642 (page 7)
+
+[^8]: Bukovsky 26/95-96
+
+[^9]: HMG000078
+
+[^10]: Marina Litvinenko 3/94; COM00002001; COM00003001
+
+[^11]: INQ017680 [video]
+
+[^12]: Marina Litvinenko 4/31-32; 4/41; 4/112-114
+
+[^13]: Marina Litvinenko 4/113; INQ016447
+
+[^14]: Felshtinsky 23/128-131
+
+[^15]: INQ019146 (page 24 paragraph 75)
+
+[^16]: INQ019146 (page 25 paragraph 77)
+
+[^17]: Goldfarb 26/122
+
+[^18]: INQ019146 (page 25 paragraph 79)
+
+[^19]: BER000167
+
+[^20]: Berezovsky v RTR & Terluk [2010] EWHC 476 (QB); Terluk v Berezovsky [2011] EWCA Civ 1534
+
+[^21]: Knuckey 7/38-44; see also Mr Knuckey's report and timeline relating to this incident: INQ019304; INQ019301
+
+[^22]: INQ019146 (page 25 paragraph 77)
+
+[^23]: Bukovsky 26/86-90; 26/109-110
+
+[^24]: Service 28/30-31; 28/69-70; Felshtinsky 23/175-177
+
+[^25]: Goldfarb 27/109-110
+
+[^26]: Felshtinsky 23/135-137; Goldfarb 5/113-114
+
+[^27]: Felshtinsky 23/136-137
+
+[^28]: Felshtinsky 23/175 lines 14-17
+
+[^29]: Goldfarb 26/17; Bell 6/18
+
+[^30]: Goldfarb 5/122
+
+[^31]: Goldfarb 5/122-123; 26/17-18; 26/26
+
+[^32]: Goldfarb 26/19-21; Felshtinsky 23/153-157
+
+[^33]: Goldfarb 26/20-21
+
+[^34]: Goldfarb 5/128; 26/23-25
+
+[^35]: Goldfarb 27/110
+
+[^36]: Marina Litvinenko 3/133
+
+[^37]: Marina Litvinenko 3/133-134; Goldfarb 5/77-79
+
+[^38]: Goldfarb 5/79-80
+
+[^39]: Goldfarb 26/28-30
+
+[^40]: INQ017384
+
+[^41]: INQ014928
+
+[^42]: Marina Litvinenko 4/18-20
+
+[^43]: HMG000307
+
+[^44]: INQ015366
+
+[^45]: HMG000308
+
+[^46]: INQ017734 (pages 24-55 paragraphs 82-85); Marina Litvinenko 4/26-27
+
+[^47]: Goldfarb 5/81-82
+
+[^48]: Goldfarb 5/120; 26/19
+
+[^49]: Goldfarb 5/123
+
+[^50]: Goldfarb 5/123; 26/26
+
+[^51]: Goldfarb 5/125; 26/21-22
+
+[^52]: Goldfarb 26/25
+
+[^53]: Marina Litvinenko 4/28-31; Goldfarb 26/35-37; Shvets 24/49-54; Felshtinsky 23/160
+
+[^54]: Goldfarb 26/37
+
+[^55]: Goldfarb 26/38-50
+
+[^56]: Goldfarb 26/50
+
+[^57]: Marina Litvinenko 3/135-136
+
+[^58]: Zakayev 26/144-146
+
+[^59]: Marina Litvinenko 3/146-155; 4/119-120
+
+[^60]: Goldfarb 5/128-129
+
+[^61]: Berezovsky 25/10; 25/12
+
+[^62]: Reilly 10/196
+
+[^63]: Bukovsky 26/94
+
+[^64]: Garnham 1/172-173
+
+[^65]: (2003) NIQB 56
+
+[^66]: Garnham 1/174-175
+
+[^67]: Garnham 1/178-179
+
+[^68]: INQ001886 (pages 2-3)
+
+[^69]: INQ017684
+
+[^70]: HMG000353
+
+[^71]: INQ015669
+
+[^72]: Guzzanti 29/10
+
+[^73]: Guzzanti 29/10; 29/14
+
+[^74]: Guzzanti 29/9-18; Scaramella 27/30-32
+
+[^75]: Guzzanti 29/18-20
+
+[^76]: Scaramella 15/93-94
+
+[^77]: INQ015669
+
+[^78]: Scaramella 27/57-58
+
+[^79]: Guzzanti 29/22
+
+[^80]: Scaramella 27/72-73; Guzzanti 29/23
+
+[^81]: Scaramella 15/94-95
+
+[^82]: Scaramella 15/100-101
+
+[^83]: INQ019473; Scaramella 27/60-73
+
+[^84]: Marina Litvinenko written closing submissions, page 46 paragraph 142
+
+[^85]: Mascall 29/84
+
+[^86]: BLK000241 (page 4)
+
+[^87]: INQ018922 (page 3); Scaramella 27/73-79
+
+[^88]: Scaramella 27/97-99; LUG000092
+
+[^89]: Scaramella 27/94-97
+
+[^90]: Scaramella 27/78-93; INQ018922
+
+[^91]: Marina Litvinenko 3/155-157; 4/120
+
+[^92]: Berezovsky 25/13
+
+[^93]: Goldfarb 5/129; 26/58-59
+
+[^94]: Goldfarb 26/59-60
+
+[^95]: Goldfarb 26/61-67
+
+[^96]: BLK000049
+
+[^97]: INQ015639
+
+[^98]: Hunter 11/1-47
+
+[^99]: Hunter 11/4-9
+
+[^100]: Hunter 11/25-29
+
+[^101]: Knuckey 7/36
+
+[^102]: Knuckey 7/45
+
+[^103]: Knuckey 7/45-46
+
+[^104]: Evans 7/20
+
+[^105]: Evans 7/33
+
+[^106]: Evans 7/26
+
+[^107]: Knuckey 7/45-46; Evans 7/26-27
+
+[^108]: Evans 7/31
+
+[^109]: Quirke 11/60
+
+[^110]: Quirke 11/68
+
+[^111]: Knuckey 7/49
+
+[^112]: Quirke 11/73
+
+[^113]: Quirke 11/70-74
+
+[^114]: Quirke 11/82; Knuckey 7/46-49; Hunter 11/45-46
+
+[^115]: Quirke 11/86-87
+
+[^116]: Holmes 7/50-53
+
+[^117]: Attew 13/15-17
+
+[^118]: Attew 13/17-22
+
+[^119]: Attew 13/25-26; 13/28-32. (There was a small degree of inconsistency between the evidence of Mr Attew and that of Mr Shvets as to the subjects of the reports, but I did not consider this inconsistency to be material.)
+
+[^120]: Attew 13/28-30
+
+[^121]: Shvets 24/44-47
+
+[^122]: Shvets 24/58-59
+
+[^123]: Holmes 7/63-64
+
+[^124]: Reilly 10/11-13
+
+[^125]: Reilly 10/61-62
+
+[^126]: Reilly 10/67-68
+
+[^127]: Reilly 10/78-79
+
+[^128]: Reilly 10/50-58
+
+[^129]: Attew 13/64
+
+[^130]: Quirke 11/54-59
+
+[^131]: Evans 7/18-19
+
+[^132]: Hunter 11/46
+
+[^133]: Mascall 8/14-16
+
+[^134]: INQ001886 (page 21)
+
+[^135]: Mascall 8/17-19
+
+[^136]: Mascall 8/25
+
+[^137]: Mascall 8/26-30
+
+[^138]: Mascall 8/31-32
+
+[^139]: A number of different dates were given for Mr Lugovoy's imprisonment. The 2001-2 dates seem most likely, since they coincide with the evidence given by Mr Glushkov: Mascall 8/44-48
+
+[^140]: Glushkov 17/46-48
+
+[^141]: Mascall 8/47-48
+
+[^142]: Mascall 8/49; INQ016593 (page 10)
+
+[^143]: INQ002470 (pages 2-3); INQ016593 (pages 10-11)
+
+[^144]: INQ001788 (page 15 paragraph 86)
+
+[^145]: INQ022396; INQ022397
+
+[^146]: Marina Litvinenko 4/14-17
+
+[^147]: Attew 13/85-86
+
+[^148]: Attew 13/47
+
+[^149]: Attew 13/45
+
+[^150]: Quirke 11/80
+
+[^151]: Reilly 10/65
+
+[^152]: Shvets 24/74-75
+
+[^1]: INQ022399
+
+[^2]: A translated copy of the law provided to the Solicitor to the Inquiry by the Russian Embassy in London is at INQ018962
+
+[^3]: INQ022399 (pages 23-24)
+
+[^4]: INQ019146 (page 22 paragraph 67)
+
+[^5]: INQ019194
+
+[^6]: Berezovsky 25/26 lines 9-20
+
+[^7]: INQ017734 (page 23 paragraph 80)
+
+[^8]: INQ018943
+
+[^9]: INQ019146 (page 22 paragraph 68)
+
+[^10]: INQ022399 (page 11 paragraph 25)
+
+[^11]: INQ019146 (page 22 paragraph 68)
+
+[^12]: INQ019146 (page 22 paragraph 69)
+
+[^13]: Service 28/47 lines 4-14
+
+[^14]: Service 28/48 lines 3-9
+
+[^15]: Service 28/51 lines 2-6
+
+[^16]: Goldfarb 26/56-57
+
+[^17]: INQ019146 (page 25 paragraph 77)
+
+[^18]: BLK000134
+
+[^19]: INQ001886 (pages 5-6)
+
+[^20]: INQ001788 (pages 21-22 paragraphs 127-128)
+
+[^21]: Marina Litvinenko 3/125-129
+
+[^22]: Marina Litvinenko 4/110-111
+
+[^23]: Marina Litvinenko 4/11 lines 11-15
+
+[^24]: Goldfarb 5/102-107
+
+[^25]: Goldfarb 26/2-8
+
+[^26]: Reilly 10/23-26
+
+[^27]: Reilly 10/27-28
+
+[^28]: Attew 13/23
+
+[^29]: Tabunov 13/130-132
+
+[^30]: Shvets 24/56-58
+
+[^31]: Bukovsky 26/91-92
+
+[^32]: Cotlick 25/41-47
+
+[^33]: Voronkov 16/193-194
+
+[^34]: INQ002895 (page 6)
+
+[^35]: Svetlichnaya 25/82-98
+
+[^36]: Svetlichnaya 25/105
+
+[^37]: Svetlichnaya 25/102-104; 25/116
+
+[^38]: Svetlichnaya 25/103-104
+
+[^39]: Attew 13/25-27
+
+[^40]: Attew 13/27-28
+
+[^41]: Shvets 24/65
+
+[^42]: Shvets 24/72
+
+[^43]: INQ006481
+
+[^44]: Shvets 24/81-82
+
+[^45]: Attew 13/37
+
+[^46]: Shvets 24/73
+
+[^47]: Attew 13/41; 13/112
+
+[^48]: Shvets 24/73
+
+[^49]: Shvets 24/100
+
+[^50]: Attew 13/104
+
+[^51]: Shvets 24/102
+
+[^52]: Marina Litvinenko 4/6
+
+[^53]: Attew 13/112-113
+
+[^54]: Shvets 24/79-80
+
+[^55]: HMG000513
+
+[^56]: INQ015674
+
+[^57]: Shvets 24/82-84
+
+[^58]: Shvets 24/84-85
+
+[^59]: Emmerson 34/54; 34/59-60
+
+[^60]: INQ019146 (page 23 paragraph 73)
+
+[^61]: Marina Litvinenko 3/145; Goldfarb 27/112
+
+[^62]: Marina Litvinenko 3/145
+
+[^63]: Goldfarb 5/127; 27/112
+
+[^64]: Goldfarb 5/128
+
+[^65]: Marina Litvinenko 3/146
+
+[^66]: Marina Litvinenko 4/33
+
+[^67]: Quirke 11/64-66
+
+[^68]: Attew 13/20
+
+[^69]: Marina Litvinenko 4/38-42
+
+[^70]: INQ017681 [video]
+
+[^71]: Zakayev 26/160-161
+
+[^72]: Marina Litvinenko 3/112-113
+
+[^73]: Attew 13/21
+
+[^74]: Reilly 10/21; Tabunov 13/128; Berezovsky 25/13-14
+
+[^75]: INQ016652 (page 8)
+
+[^76]: Anatoly Litvinenko 4/134
+
+[^77]: Marina Litvinenko 4/34
+
+[^78]: Felshtinsky 23/169
+
+[^79]: Bukovsky 26/99
+
+[^80]: Quirke 11/65-66
+
+[^81]: Bukovsky 26/99
+
+[^82]: Marina Litvinenko 4/45-46; 4/78-79
+
+[^83]: Reilly 10/29-30
+
+[^84]: Goldfarb 5/132; Attew 13/22; Tabunov 13/139-140
+
+[^10]: Chairman 32/4-19
+
+[^11]: Mr Kovtun states that he is one year older than Mr Lugovoy in his 2 June 2015 witness statement INQ021208 (page 6). There is evidence that Mr Lugovoy was born in 1966.
+
+[^12]: INQ021208 (page 6)
+
+[^13]: Hohne 32/50-54; Marina Wall 32/56
+
+[^14]: Hohne 32/51
+
+[^15]: Marina Wall 32/55
+
+[^16]: Mascall 8/78
+
+[^17]: Mascall 8/75
+
+[^18]: Mascall 8/76
+
+[^19]: Mascall 8/77
+
+[^20]: Marina Wall 32/58
+
+[^21]: Marina Wall 32/63
+
+[^22]: Marina Wall 32/75
+
+[^23]: Marina Wall 32/66-67
+
+[^24]: Elenora Wall 32/77
+
+[^25]: Elenora Wall 32/79-80
+
+[^26]: Elenora Wall 32/81
+
+[^27]: INQ006201
+
+[^28]: Moughton 8/94-116
+
+[^29]: Moughton 8/102
+
+[^30]: INQ006201 (page 15)
+
+[^31]: Moughton 8/115-116
+
+[^32]: INQ006218
+
+[^33]: Fitzgerald 8/116-123
+
+[^34]: INQ002858
+
+[^35]: INQ006218 (page 15)
+
+[^36]: Horwell 33/24
+
+[^37]: The hotel bookings were made on 7 October (Krgo 9/51-52) and the flight bookings were made on 9 October; Mascall 9/4-5; COM00199001 (pages 4-5)
+
+[^38]: Mascall 9/4-37
+
+[^39]: Mascall 9/9-10
+
+[^40]: Mascall 9/11-12; 9/18-20; INQ019202
+
+[^41]: Mascall 9/35-37
+
+[^42]: Mascall 9/22
+
+[^43]: Mascall 9/27
+
+[^44]: COM00046001; COM00198001
+
+[^45]: Mascall 9/27-28
+
+[^46]: Mascall 9/65-66; 9/126
+
+[^47]: Scott 9/39
+
+[^48]: INQ013787 (page 4)
+
+[^49]: Scott 9/43-44
+
+[^50]: Scott 9/47
+
+[^51]: INQ017809 (page 58)
+
+[^52]: Reilly 10/83
+
+[^53]: Mascall 9/127-128
+
+[^54]: Krgo 9/49
+
+[^55]: Krgo 9/53
+
+[^56]: Mascall 9/96-97
+
+[^57]: Krgo 9/57
+
+[^58]: Krgo 9/54-60
+
+[^59]: Mascall 9/83-86; 9/89-90. See paragraphs 6.21-6.24 above for discussion regarding the value of such findings.
+
+[^60]: Reilly 10/80-119
+
+[^61]: Reilly 10/80; 10/83-84
+
+[^62]: Reilly 10/83
+
+[^63]: Reilly 10/95
+
+[^64]: Reilly 10/84; 10/107-110
+
+[^65]: Reilly 10/108
+
+[^66]: Reilly 10/85-86
+
+[^67]: INQ018987 (page 2)
+
+[^68]: INQ018987 (page 2)
+
+[^69]: INQ017922 (page 3)
+
+[^70]: Reilly 10/92; 10/100
+
+[^71]: Mascall 9/97-101
+
+[^72]: INQ017922 (page 3)
+
+[^73]: INQ017922 (page 3)
+
+[^74]: Reilly 10/90
+
+[^75]: Reilly 10/105-106
+
+[^76]: A1 20/27-31
+
+[^77]: Mascall 29/73-75
+
+[^78]: Reilly 10/117-123
+
+[^79]: Reilly 10/145-146
+
+[^80]: INQ017934 (pages 36-38)
+
+[^81]: Reilly 10/119-121
+
+[^82]: Holmes 7/68-70; Attew 13/67-70
+
+[^83]: Mascall 9/101
+
+[^84]: Mascall 9/109-111
+
+[^85]: Mascall 9/112-113; 9/124. See paragraphs 6.21-6.24 above for discussion regarding the value of such findings.
+
+[^86]: Marina Litvinenko 4/35-37
+
+[^87]: INQ016642 (page 4)
+
+[^88]: INQ021208 (page 3)
+
+[^89]: INQ012404
+
+[^90]: INQ022370
+
+[^91]: Mascall 17/79-80
+
+[^92]: Mascall 17/80-81
+
+[^93]: Mascall 9/115-116; 11/124-125
+
+[^94]: Mascall 9/67-78
+
+[^95]: A1 20/16-26; 20/97-98
+
+[^96]: Mascall 9/120-121
+
+[^97]: Krgo 9/60-62
+
+[^98]: Rondoni 10/189-190
+
+[^99]: Mascall 9/121-122
+
+[^100]: Mascall 9/124-125
+
+[^101]: INQ006389
+
+[^102]: Shadrin 14/137-218
+
+[^103]: Gorokov 13/142-155
+
+[^104]: Davison 14/114-136
+
+[^105]: Voronoff 14/2-114
+
+[^106]: INQ021208
+
+[^107]: Shadrin 14/152-153
+
+[^108]: Shadrin 14/154-155
+
+[^109]: Shadrin 14/168
+
+[^110]: Shadrin 14/170-171
+
+[^111]: Shadrin 14/176-182
+
+[^112]: INQ021208
+
+[^113]: INQ022384
+
+[^114]: Mascall 11/126
+
+[^115]: Quirke 11/86-103
+
+[^116]: Quirke 11/90-91
+
+[^117]: Quirke 11/98-99 (it is clear from the context that words 'Shortly before 5.00' in the transcript should read 'Shortly before 6.00')
+
+[^118]: Mascall 11/125-126 see paragraphs 6.21-6.24 above for discussion regarding the value of such findings
+
+[^119]: Quirke 11/92
+
+[^120]: Quirke 11/94; 11/101
+
+[^121]: Quirke 11/94-97
+
+[^122]: Quirke 11/97-98
+
+[^123]: Mascall 11/131-132; INQ017934 (page 85)
+
+[^124]: Valuev 11/127-130
+
+[^125]: Mascall 11/132-136
+
+[^126]: INQ016615 (pages 1-4)
+
+[^127]: Mascall 11/136 see paragraphs 6.21-6.24 above for discussion regarding the value of such findings.
+
+[^128]: INQ006360; INQ006361; INQ006362; INQ006363
+
+[^129]: Mascall 11/137
+
+[^130]: Mascall 29/75
+
+[^131]: INQ017934 (pages 87-93)
+
+[^132]: INQ001886 (page 17)
+
+[^133]: INQ001886 (page 6)
+
+[^134]: INQ001788 (page 21)
+
+[^135]: Chairman 32/3-19
+
+[^136]: Rondoni 10/193-195
+
+[^137]: Mascall 11/139-140
+
+[^138]: Mascall 9/65-66 see paragraphs 6.21-6.24 above for discussion regarding the value of such findings.
+
+[^139]: Mascall 9/35-37
+
+[^140]: Mascall 12/4-5; 12/9
+
+[^141]: Mascall 12/10-12
+
+[^142]: Mascall 12/14-16
+
+[^143]: INQ001788 (page 22)
+
+[^144]: Patarkatsishvili 12/48-59
+
+[^145]: Bonetti 12/30-45
+
+[^146]: Mascall 12/117-118
+
+[^147]: INQ001788 (page 22)
+
+[^148]: INQ016371
+
+[^149]: Glushkov 17/6-21
+
+[^150]: Tregubova 29/62-66
+
+[^151]: Felshtinsky 23/160-161
+
+[^152]: Glushkov 17/11-12
+
+[^153]: Mascall 16/203-210
+
+[^154]: INQ019235
+
+[^155]: INQ020210 (page 2)
+
+[^156]: Mascall 12/70-72
+
+[^157]: Mascall 12/72-73
+
+[^158]: INQ017809 (pages 66-67)
+
+[^159]: Shadrin 14/188
+
+[^160]: Mascall 12/68
+
+[^161]: INQ017809 (pages 66-67)
+
+[^162]: Mascall 12/67-70; INQ019311 (pages 10-11)
+
+[^163]: Mascall 12/84
+
+[^164]: INQ019311 (pages 12-13)
+
+[^165]: INQ016570 (pages 5-7)
+
+[^166]: Mascall 12/81-83
+
+[^167]: Mascall 12/69
+
+[^168]: Mascall 12/105-117
+
+[^169]: A1 20/49-57
+
+[^170]: Mascall 12/91-92
+
+[^171]: Mascall 12/95-103
+
+[^172]: Mascall 12/103-104
+
+[^173]: Mascall 30/24-38
+
+[^174]: Mascall 30/29-30; 30/36-37
+
+[^175]: Mascall 24/2
+
+[^176]: Jolly 32/60 note that many of the dates given by Marina Wall during her interviews were one day out.
+
+[^177]: Jolly 32/61
+
+[^178]: Jolly 32/76-77
+
+[^179]: Jolly 32/60-61
+
+[^180]: Mascall 30/46-47; 30/54-60
+
+[^181]: Jolly 32/62
+
+[^182]: Mascall 16/25-27
+
+[^183]: Mascall 24/3-6
+
+[^184]: Mascall 24/6-7
+
+[^185]: Mascall 24/7-8
+
+[^186]: Mascall 24/8-9
+
+[^187]: Mascall 16/27-28
+
+[^188]: Mascall 24/2-3
+
+[^189]: Mascall 30/39-41
+
+[^190]: Mascall 30/41-115
+
+[^191]: Mascall 30/47
+
+[^192]: Mascall 30/56-57
+
+[^193]: Mascall 30/73-74
+
+[^194]: Mascall 30/83-92
+
+[^195]: Mascall 30/60-65; 30/108-112
+
+[^196]: INQ021208 (page 9)
+
+[^197]: INQ021208 (page 11)
+
+[^198]: D6 30/2-22
+
+[^199]: Mascall 30/116-154
+
+[^200]: Mascall 30/150-151
+
+[^201]: C2 24/28-29
+
+[^202]: INQ020044 (page 3)
+
+[^203]: Quirke 11/98-99
+
+[^204]: Mascall 13/168-173
+
+[^205]: Mascall 13/191
+
+[^206]: Mascall 13/165-166; 16/215-216
+
+[^207]: Mascall 13/185-187
+
+[^208]: Mascall 13/187-188
+
+[^209]: Mascall 13/192-195
+
+[^210]: Mascall 13/191-192; 16/14-20
+
+[^211]: Mascall 13/188-189
+
+[^212]: INQ020044 (page 3)
+
+[^213]: Mascall 13/176-177
 
 [^214]: Mascall 13/179-180
 
@@ -7182,3 +8062,227 @@ The Litvinenko Inquiry
 [^313]: INQ020044 (page 6)
 
 [^314]: Mascall 17/82-87
+
+[^4]: Mascall 22/135
+
+[^5]: Marina Litvinenko 4/8-9
+
+[^6]: Reilly 10/61
+
+[^7]: Mascall 8/2-4
+
+[^8]: Horwell 33/61
+
+[^9]: Cotlick 25/76-81
+
+[^10]: INQ016809
+
+[^11]: INQ016809
+
+[^12]: Elenora Wall 32/81
+
+[^13]: INQ017779 (page 30)
+
+[^14]: INQ015781 part 1, INQ015781 part 2; INQ015777 part 1, INQ015777 part 2; INQ015778; INQ015779; INQ015780 [videos]
+
+[^15]: INQ017779
+
+[^16]: INQ017728; INQ020308
+
+[^17]: INQ019031; INQ019054
+
+[^18]: Bruce Burgess 21/1-171
+
+[^19]: Tristam Burgess 21/172-213
+
+[^20]: Bull 21/213-256
+
+[^21]: Marina Wall 32/66-67
+
+[^22]: Mascall 22/127
+
+[^23]: Horwell 33/16-17
+
+[^10]: INQ006067 (pages 7-8)
+
+[^11]: INQ006067
+
+[^12]: INQ020031
+
+[^13]: Dombey 23/5-56
+
+[^14]: Dombey 23/13-39
+
+[^15]: Dombey 23/22
+
+[^16]: Dombey 23/20-32
+
+[^17]: Dombey 23/24-30; INQ020031 (page 2 paragraphs S9-S10)
+
+[^18]: Mascall 29/77-78
+
+[^19]: Death of Dissident, pp.337-338
+
+[^20]: INQ006067 (page 5 paragraph 31)
+
+[^21]: INQ016403 (pages 29-32)
+
+[^22]: A1 2/131-140
+
+[^23]: INQ016403 (page 30)
+
+[^24]: INQ016403 (page 31)
+
+[^25]: INQ018946; INQ017548 (pages 8-9); Goldfarb 26/125-127
+
+[^26]: INQ014604; INQ014605; INQ014607; INQ014608; INQ014609; INQ014610; INQ014611; INQ014612; INQ014613; INQ014620; INQ014621; INQ014623; INQ014624
+
+[^27]: INQ014620; INQ014621
+
+[^28]: INQ017548 (pages 8-9)
+
+[^29]: Goldfarb 26/125-127
+
+[^30]: INQ022423; INQ022433
+
+[^31]: INQ020031 (page 4 paragraphs S17-S18)
+
+[^32]: INQ022423 (page 2)
+
+[^33]: INQ020031 (page 4 paragraphs S20-S21)
+
+[^34]: INQ022423 (pages 2-3 paragraph 8)
+
+[^35]: INQ020031 (page 5 paragraphs S27-S31)
+
+[^36]: Dombey 23/42
+
+[^37]: INQ022423 (page 4 paragraph 13)
+
+[^38]: Dombey 23/54
+
+[^39]: INQ022423
+
+[^40]: Dombey 23/33; 23/39-40
+
+[^41]: INQ022423 (page 7 paragraph 30)
+
+[^42]: INQ022423 (page 9 paragraph 37)
+
+[^43]: Emmerson 1/156-157
+
+[^44]: Mascall 29/77-78
+
+[^45]: INQ019146 (page 15 paragraph 46)
+
+[^46]: INQ019146 (pages 18-19 paragraph 57)
+
+[^47]: INQ019146 (page 24 paragraph 74)
+
+[^48]: Goldfarb 5/115; 5/121-123
+
+[^49]: Marina Litvinenko 3/141-142
+
+[^50]: Goldfarb 26/71
+
+[^51]: INQ019146 (page 19 paragraph 61)
+
+[^52]: INQ019146 (page 20 paragraph 62)
+
+[^53]: INQ019146 (page 20 paragraph 63)
+
+[^54]: INQ019146 (page 19 paragraph 61)
+
+[^55]: INQ019146 (page 19 paragraph 58)
+
+[^56]: Goldfarb 26/26
+
+[^57]: INQ019146 (page 23 paragraph 73)
+
+[^58]: Goldfarb 27/114-115; INQ019146 (page 19 paragraph 60)
+
+[^59]: INQ019146 (page 19 paragraph 60)
+
+[^60]: Goldfarb 26/69; 27/114-116
+
+[^61]: Dombey 23/46-48
+
+[^62]: INQ006067 (pages 7-8)
+
+[^63]: Zakayev 26/162-163
+
+[^64]: Goldfarb 26/118-121
+
+[^65]: Zakeyev 26/163-167
+
+[^66]: Scaramella 15/172-173
+
+[^67]: Scaramella 15/172-178
+
+[^68]: INQ013784
+
+[^69]: Scaramella 15/139-140
+
+[^70]: Tarpey 22/25-90
+
+[^71]: Slater 22/91-118
+
+[^72]: Mascall 29/67-69
+
+[^73]: Horwell 33/69-70
+
+[^74]: INQ019146 (page 25 paragraph 79)
+
+[^75]: INQ019146 (pages 25-26 paragraphs 79-80)
+
+[^76]: Service 28/51-55; 28/100-102
+
+[^77]: Mascall 22/130
+
+[^78]: Emmerson 22/1-2
+
+[^79]: Shvets 24/116-117
+
+[^80]: Goldfarb 26/130-133; 27/116-120
+
+[^81]: Horwell 33/72
+
+[^82]: Service 28/90-91
+
+[^83]: INQ019146 (page 27 paragraph 85)
+
+[^84]: INQ019146 (pages 26-27 paragraph 83)
+
+[^85]: INQ019146 (page 12 paragraph 37)
+
+[^86]: INQ019146 (page 6 paragraph 18)
+
+[^87]: INQ019146 (page 8 paragraph 26); Service 28/69-70
+
+[^10]: Hearings at which such material may be considered or referred to, and which are subject to such restrictions, are to be referred to as "closed hearings".
+
+[^11]: The Minister may give consent, in accordance with paragraph 8 above, to the attendance at a closed hearing of persons other than those identified in paragraph 9, where the person concerned is a legal representative of the witness, the Chairman indicates in writing that the attendance of the person is necessary, and arrangements are in place which the Minister considers adequate to ensure that the public interest in preventing the disclosure of the Schedule material is not damaged.
+
+[^12]: No person shall produce or show to any witness any of the Schedule material, or ask any questions which tend to reveal the existence or content of such material, otherwise than in accordance with a procedure formulated by the Core Inquiry Team and agreed in writing by the Minister.
+
+[^13]: The Chairman shall ensure that no transcript of the evidence given at a closed hearing is made available to any person other than the Minister, members of the Core Inquiry Team or HMG advisers.
+
+[^14]: The Chairman shall ensure that no reference is made to the substance of the evidence given at a closed hearing of the Inquiry in any open ruling, judgment or report arising out of the Inquiry, or otherwise. Amendments to this Restriction Notice
+
+[^15]: By letter to the Chairman under this paragraph the Minister may remove from the scope of this Notice any document or information referred to in the Schedule.
+
+[^16]: The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.
+
+[^17]: The Minister may amend this Restriction Notice at any time.
+
+[^9]: March 2015
+
+[^10]: Hearings at which such material may be considered or referred to, and which are subject to such restrictions, are to be referred to as "closed hearings".
+
+[^11]: The Minister may give consent, in accordance with paragraph 8 above, to the attendance at a closed hearing of persons other than those identified in paragraph 9, where the person concerned is a legal representative of the witness, the Chairman indicates in writing that the attendance of the person is necessary, and arrangements are in place which the Minister considers adequate to ensure that the public interest in preventing the disclosure of the Schedule material is not damaged.
+
+[^12]: No person shall produce or show to any witness any of the Schedule material, or ask any questions which tend to reveal the existence or content of such material, otherwise than in accordance with a procedure formulated by the Core Inquiry Team and agreed in writing by the Minister.
+
+[^13]: The Chairman shall ensure that no transcript of the evidence given at a closed hearing is made available to any person other than the Minister, members of the Core Inquiry Team or HMG advisers.
+
+[^14]: November 2014

@@ -1,7 +1,7 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 71292,
+      "words": 68272,
       "paragraphs": 469,
       "sections": [
         {
@@ -205,7 +205,7 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 336073,
+      "words": 330600,
       "paragraphs": 2482,
       "sections": [
         {
@@ -439,7 +439,7 @@
       ]
     },
     "challenger-accident": {
-      "words": 155862,
+      "words": 154317,
       "paragraphs": 2693,
       "sections": [
         {
@@ -739,7 +739,7 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 148325,
+      "words": 138489,
       "paragraphs": 2101,
       "sections": [
         {
@@ -943,14 +943,8 @@
         {
           "slug": "part-9-who-directed-the-killing",
           "title": "Part 9: Who directed the killing?",
-          "paragraphs": 10,
-          "ids": "553ccac4d329"
-        },
-        {
-          "slug": "chapter-2-boris-berezovsky",
-          "title": "Chapter 2: Boris Berezovsky",
-          "paragraphs": 14,
-          "ids": "a7bb52f72f16"
+          "paragraphs": 24,
+          "ids": "3270a61e097e"
         },
         {
           "slug": "chapter-4-organised-crime",
@@ -1057,8 +1051,8 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1123950,
-      "paragraphs": 10975,
+      "words": 1073884,
+      "paragraphs": 10959,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
@@ -1069,14 +1063,14 @@
         {
           "slug": "chapter-7-conclusions-and-recommendations-for-future-regulation",
           "title": "Chapter 7: Conclusions and recommendations for future regulation",
-          "paragraphs": 451,
-          "ids": "5c2058240dda"
+          "paragraphs": 453,
+          "ids": "aa33f47fecaa"
         },
         {
           "slug": "news-corporation",
           "title": "News Corporation",
-          "paragraphs": 998,
-          "ids": "04ee3c1a0ddc"
+          "paragraphs": 997,
+          "ids": "c0c8e3239093"
         },
         {
           "slug": "operation-reproof",
@@ -1094,7 +1088,7 @@
           "slug": "publication-of-parliamentary-reports-in",
           "title": "Publication of Parliamentary Reports in",
           "paragraphs": 503,
-          "ids": "89b6104c2e35"
+          "ids": "5da1e2907e04"
         },
         {
           "slug": "july-2009-the-guardian",
@@ -1106,7 +1100,7 @@
           "slug": "september-2010-the-new-york-times",
           "title": "September 2010: The New York Times",
           "paragraphs": 138,
-          "ids": "b51497c46dba"
+          "ids": "06f948a69738"
         },
         {
           "slug": "police-inquiries-operations-weeting-elveden-and-tuleta",
@@ -1130,7 +1124,7 @@
           "slug": "appendices",
           "title": "APPENDICES",
           "paragraphs": 600,
-          "ids": "9a56e104115d"
+          "ids": "c3ad03e026c1"
         },
         {
           "slug": "the-dowlers",
@@ -1153,20 +1147,20 @@
         {
           "slug": "sebastian-bowles",
           "title": "Sebastian Bowles",
-          "paragraphs": 665,
-          "ids": "ba2ce410e9b3"
+          "paragraphs": 664,
+          "ids": "fa01980a3c90"
         },
         {
           "slug": "love-celeb-gossip-so-do-we-send-us-your-story",
           "title": "LOVE CELEB GOSSIP? SO DO WE, SEND US YOUR STORY!",
-          "paragraphs": 271,
-          "ids": "1d47fab6a85f"
+          "paragraphs": 270,
+          "ids": "b4e957bba801"
         },
         {
           "slug": "metropolitan-police-service-the-commissioners",
           "title": "Metropolitan Police Service: the Commissioners",
           "paragraphs": 127,
-          "ids": "94dbca417c72"
+          "ids": "b8e653d5908b"
         },
         {
           "slug": "the-press-and-the-police-the-harm-and-the-response",
@@ -1201,8 +1195,8 @@
         {
           "slug": "part-h",
           "title": "PART H",
-          "paragraphs": 591,
-          "ids": "dee84a7bede8"
+          "paragraphs": 593,
+          "ids": "88c10b3a83d5"
         },
         {
           "slug": "prime-minister-thatcher-1979-1990",
@@ -1214,7 +1208,7 @@
           "slug": "prime-minister-major-1990-1997",
           "title": "Prime Minister Major: 1990-1997",
           "paragraphs": 114,
-          "ids": "14664a03b74a"
+          "ids": "546809a885ad"
         },
         {
           "slug": "prime-minister-blair-1997",
@@ -1225,14 +1219,8 @@
         {
           "slug": "prime-minister-brown-2007",
           "title": "Prime Minister Brown: 2007 –",
-          "paragraphs": 72,
-          "ids": "ccd9e638ea9b"
-        },
-        {
-          "slug": "chapter-4-the-conservative-revival-and-the-coalition1",
-          "title": "Chapter 4: The Conservative Revival and the Coalition1",
-          "paragraphs": 289,
-          "ids": "7b337fb3cb22"
+          "paragraphs": 362,
+          "ids": "eb98117dd4aa"
         },
         {
           "slug": "prime-minister-cameron-2010-present",
@@ -1249,8 +1237,8 @@
         {
           "slug": "human-rights-act",
           "title": "Human Rights Act",
-          "paragraphs": 44,
-          "ids": "e1844cd2986c"
+          "paragraphs": 45,
+          "ids": "71e60d85af1f"
         },
         {
           "slug": "data-protection-act",
@@ -1277,8 +1265,8 @@
           "ids": "239c07740a11"
         },
         {
-          "slug": "chapter-media-policy-the-bskyb-bid",
-          "title": "CHAPTER MEDIA POLICY: THE BSKYB BID",
+          "slug": "media-policy-the-bskyb-bid",
+          "title": "MEDIA POLICY: THE BSKYB BID",
           "paragraphs": 56,
           "ids": "2ba74988b1ee"
         },
@@ -1334,55 +1322,49 @@
           "slug": "the-rt-hon-george-osborne-mp",
           "title": "The Rt Hon George Osborne MP",
           "paragraphs": 276,
-          "ids": "b49d44523f9b"
+          "ids": "51382c4d4a83"
         },
         {
           "slug": "practices-and-ethics-of-the-press-3",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
           "paragraphs": 41,
-          "ids": "3d12eb9ea428"
+          "ids": "3aa1ef39680f"
         },
         {
           "slug": "appendices-2",
           "title": "APPENDICES",
           "paragraphs": 167,
-          "ids": "7bc44233e5df"
+          "ids": "e30b59797a47"
         },
         {
-          "slug": "chapter-the-press-complaints-commission-and-its-effectiveness",
-          "title": "CHAPTER THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
-          "paragraphs": 494,
-          "ids": "e8239da9f052"
+          "slug": "the-press-complaints-commission-and-its-effectiveness",
+          "title": "THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
+          "paragraphs": 489,
+          "ids": "264d8997a69c"
         },
         {
           "slug": "the-industry-funding-body",
           "title": "The Industry Funding Body",
-          "paragraphs": 339,
-          "ids": "0eb8e2877a87"
+          "paragraphs": 334,
+          "ids": "ccac79b69f68"
         },
         {
           "slug": "the-code",
           "title": "The Code",
-          "paragraphs": 110,
-          "ids": "cb9eae8d0a53"
+          "paragraphs": 108,
+          "ids": "ee14fd558014"
         },
         {
           "slug": "guarantee-of-media-freedom",
           "title": "\"GUARANTEE OF MEDIA FREEDOM",
-          "paragraphs": 19,
-          "ids": "f1c53558e310"
+          "paragraphs": 18,
+          "ids": "76abca6bb428"
         },
         {
           "slug": "the-press-council-of-ireland-and-the-press",
           "title": "The Press Council of Ireland and the Press",
-          "paragraphs": 260,
-          "ids": "a6012a797607"
-        },
-        {
-          "slug": "chapter",
-          "title": "CHAPTER",
-          "paragraphs": 184,
-          "ids": "04e8d224f6bc"
+          "paragraphs": 442,
+          "ids": "7d41af84744f"
         },
         {
           "slug": "guarantee-of-media-freedom-2",
@@ -1391,10 +1373,10 @@
           "ids": "cd43978f0fd5"
         },
         {
-          "slug": "chapter-the-alternatives",
-          "title": "CHAPTER THE ALTERNATIVES",
-          "paragraphs": 113,
-          "ids": "88c04e5a5ef7"
+          "slug": "the-alternatives",
+          "title": "THE ALTERNATIVES",
+          "paragraphs": 112,
+          "ids": "01e566833cf9"
         },
         {
           "slug": "part-l-summary-of-recommendations",
@@ -1405,20 +1387,20 @@
         {
           "slug": "the-report-of-the-law-commission-on-aggravated-exemplary-and-restitutionary-dama",
           "title": "The Report of the Law Commission on Aggravated, Exemplary and Restitutionary Damages",
-          "paragraphs": 119,
-          "ids": "931e87311a6a"
+          "paragraphs": 117,
+          "ids": "11e143a8a549"
         },
         {
           "slug": "engage",
           "title": "ENGAGE",
-          "paragraphs": 112,
-          "ids": "4f296be1a512"
+          "paragraphs": 111,
+          "ids": "f4d583998b0d"
         },
         {
           "slug": "civil-law",
           "title": "Civil Law",
-          "paragraphs": 301,
-          "ids": "c06610136b84"
+          "paragraphs": 300,
+          "ids": "fdba3fcb3910"
         },
         {
           "slug": "section-55-data-protection-act",
@@ -1429,8 +1411,8 @@
         {
           "slug": "part-i-chapter",
           "title": "PART I CHAPTER",
-          "paragraphs": 123,
-          "ids": "b42d7be5fd72"
+          "paragraphs": 124,
+          "ids": "0a29b3a83e4b"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -1441,7 +1423,7 @@
       ]
     },
     "columbia-accident": {
-      "words": 171629,
+      "words": 169179,
       "paragraphs": 2920,
       "sections": [
         {
@@ -1471,14 +1453,8 @@
         {
           "slug": "part-two-why-the-accident-occurred",
           "title": "PART TWO: WHY THE ACCIDENT OCCURRED",
-          "paragraphs": 5,
-          "ids": "b5267f731a8c"
-        },
-        {
-          "slug": "part-three-a-look-ahead",
-          "title": "PART THREE: A LOOK AHEAD",
-          "paragraphs": 6,
-          "ids": "d0ebb499e82f"
+          "paragraphs": 11,
+          "ids": "78d6be41890d"
         },
         {
           "slug": "the-orbiter",
@@ -2455,7 +2431,7 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 230482,
+      "words": 191474,
       "paragraphs": 1330,
       "sections": [
         {

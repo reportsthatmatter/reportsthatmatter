@@ -1583,45 +1583,45 @@ Sincerely yours,
 
 [^1]: This section of the Report summarizes the evidence uncovered by the Office's investigation, and therefore includes conduct for which the Supreme Court later held Mr. Trump to be immune from prosecution, see Trump v. United States, 603 U.S. 593, 597 (2024). That conduct is not included in the superseding indictment that the Office obtained after the Supreme Court's decision, see ECF No. 226, nor is that conduct included in the discussion below regarding why the evidence warranted criminal charges under the Principles of Federal Prosecution. Unless otherwise noted, all ECF citations in this Volume of the Report are to the docket in United States v. Trump, No. 23-cr-257 (D.D.C.).
 
-[^2]: SC0-00701211 at 7 (Federal Election Commission, Election Results for 2020 Federal Elections). (Congressional Record 01/06/2021).
+[^2]: SC0-00701211 at 7 (Federal Election Commission, Election Results for 2020 Federal Elections).
 
 [^3]: An indictment is an allegation, not a verdict; a person accused of a crime is presumed innocent until proven guilty beyond a reasonable doubt. The Office was prepared to present the evidence of Mr. Trump's alleged crimes in a public adversarial trial and to accept any verdicts rendered by a jury of his peers. As explained below, the Office commenced prosecution of Mr. Trump in the Election Case under both the original and superseding indictments because it concluded that the admissible evidence would be sufficient to obtain and sustain a conviction. See Justice Manual § 9-27 .220 and infra at Section III.
 
 [^4]: ECF No. l at 110; ECF No. 226 at 1 11; see ECF No. 252 at 3.
 
-[^5]: ECF No. l at 1 8; ECF No. 226 at 19; see ECF No. 252 at 4. WSJ Editorial Board, Jack Smith Loses in the People's Court, WSJ (Nov. 7, 2024, 5:52 PM), https://vvww.wsj.com/opinion/donald-trump-prosecutions-jack-smith-fani-willis-alvin-bragg-juan­ merchan-lc68f640; Jonathan Turley, Opinion: Donald Trump just won the greatest jury verdict in American history, The Hill (Nov. 6, 2024, 10:56 AM), https://thehill.com/opinion/campaign/4976533- trump-prosecutions-lawfare-end; Elie Honig, So What Happens With All the Cases Against Trump Now?, N.Y. Mag. (Nov. 8, 2024), https://nymag.com/intelligencer/aiiicle/what-will-happen-with-the-charges­ against-trump.html.
+[^5]: ECF No. l at 1 8; ECF No. 226 at 19; see ECF No. 252 at 4.
 
-[^6]: See ECF No. I; ECF No. 226. Mr. Trump's conduct with Co-Conspirator 4 was charged in the original indictment, ECF No. I, but not in the superseding indictment, ECF No. 226, because the Supreme Court held in the interim that Mr. Trump's conduct regarding the Department of Justice was immunized. Trump, 603 U.S. at 597. Letter from Chairman Jim Jordan to Jeffrey Ragsdale, DOJ OPR (Dec. 4, 2024) https://www.scribd.com/document/800789357/Judiciary-to­ DOJ?secret_password=vphCtDdh3lHj7mTM5Ib8.
+[^6]: See ECF No. I; ECF No. 226. Mr. Trump's conduct with Co-Conspirator 4 was charged in the original indictment, ECF No. I, but not in the superseding indictment, ECF No. 226, because the Supreme Court held in the interim that Mr. Trump's conduct regarding the Department of Justice was immunized. Trump, 603 U.S. at 597.
 
-[^7]: See,e.g., ECF No. 252 at 10; SCO-02244118 at 11-12, 14-19 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-04949418 at 04:15:22-04:31:46 (Video of Save America Rally O1/06/2021); SCO-04976462 at 18:34-19:12 (Video of Speech at White House 12/02/2020); SCO-00455939 (Donald J. Trump Tweet I 1/19/2020); SCO-04976283 at 01:00:43-01:14:24 (Video of Dalton, GA speech 01/04/2021); SCO-04976275 at 22:00-22:40 (Video of Valdosta, GA speech 12/05/2020); SCO-00455041 (Donald J. Trump Tweet O1/02/2021); SCO-00456153 (Donald J. Trump Tweet 11/12/2020); SCO-00456144 (Donald J. Trump Tweet 11/13/2020); SCO-00456102 (Donald J. Trump Tweet I 1/14/2020); SCO-00456066 (Donald J. Trump Tweet 11/15/2020); SCO-00455969 (Donald J. Trump Tweet 11/18/2020); SCO-04976266 at 20:10-37:50 (Video of Thanksgiving Call to Troops 11/26/2020). The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
+[^7]: See,e.g., ECF No. 252 at 10; SCO-02244118 at 11-12, 14-19 (Remarks by Mr. Trump at Save America Rally 01/06/2021); SCO-04949418 at 04:15:22-04:31:46 (Video of Save America Rally O1/06/2021); SCO-04976462 at 18:34-19:12 (Video of Speech at White House 12/02/2020); SCO-00455939 (Donald J. Trump Tweet I 1/19/2020); SCO-04976283 at 01:00:43-01:14:24 (Video of Dalton, GA speech 01/04/2021); SCO-04976275 at 22:00-22:40 (Video of Valdosta, GA speech 12/05/2020); SCO-00455041 (Donald J. Trump Tweet O1/02/2021); SCO-00456153 (Donald J. Trump Tweet 11/12/2020); SCO-00456144 (Donald J. Trump Tweet 11/13/2020); SCO-00456102 (Donald J. Trump Tweet I 1/14/2020); SCO-00456066 (Donald J. Trump Tweet 11/15/2020); SCO-00455969 (Donald J. Trump Tweet 11/18/2020); SCO-04976266 at 20:10-37:50 (Video of Thanksgiving Call to Troops 11/26/2020).
 
-[^8]: Compare SCO-02244118 at 11, 19 (Remarks by Mr. Trump at Save America Rally Ol/06/202 I) (Mr. Trump asserting on January 6 that there were 205,000 more votes than voters in Pennsylvania) with SCO-00709557 at 156 (SJC Tr.) (stating that Mr. Trump was told on January 3 that the allegation that there were more votes than voters in Pennsylvania was untrue); see also SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020) (Co-Conspirator I stating that there could have been "five million illegal aliens in Arizona," and "a few hundred thousand" of those who fraudulently voted, even though the state had a total population of approximately 7.4 million). The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
+[^8]: Compare SCO-02244118 at 11, 19 (Remarks by Mr. Trump at Save America Rally Ol/06/202 I) (Mr. Trump asserting on January 6 that there were 205,000 more votes than voters in Pennsylvania) with SCO-00709557 at 156 (SJC Tr.) (stating that Mr. Trump was told on January 3 that the allegation that there were more votes than voters in Pennsylvania was untrue); see also SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020) (Co-Conspirator I stating that there could have been "five million illegal aliens in Arizona," and "a few hundred thousand" of those who fraudulently voted, even though the state had a total population of approximately 7.4 million).
 
 [^9]: See, e.g., ECF No. I at ,r 11; see ECF No. 252 at 10-14 & nn.29-53; SCO-00014655 at 37-44; SCO-00689680 (Michael Balsamo, Disputing Trump, Barr says no widespread election fraud, ASSOCIATED PRESS, Dec. l, 2020); SCO-00764172 at 21-25 (HSC Tr.); SCO-11506911 at 96-97, 116, 125 (Int. Tr.); SCO-04957448 at 28-31 (SJC Tr.); SCO-00775937 at 57-64 (HSC Tr.); SCO-04952679 (Tweet l l/17/2020); SCO-12929351 (Tweet 11/12/2020); SCO-
 
 [^10]: See, e.g., ECF No. 252 at 9-14 & nn.29-53, 17-18 & n.69, 21 & n.95, 25; SCO-12920242 at 1-7 (Int. Rep.).
 
-[^11]: See ECF No. 252 at 9 & n.24; Donald J. Trump for President, Inc. v. Hobbs, No. CV 2020-014248, Transcript of Proceedings (Maricopa County, Az. Super. Ct. Nov. 13, 2020); Hobbs, No. CV 2020-014248, Docket Code 042 (Maricopa County, Az. Super. Ct. Nov. 13, 2020). Id. Maggie Haberman et al., Trump Says He'll Fire Jack Smith, Special Counsel Who Indicted Him, ifHe Wins Again, N.Y. Times (Oct. 24, 2024), https://www.nytimes.com/2024/10/24/us/politics/trump-jack­ smith.html.
+[^11]: See ECF No. 252 at 9 & n.24; Donald J. Trump for President, Inc. v. Hobbs, No. CV 2020-014248, Transcript of Proceedings (Maricopa County, Az. Super. Ct. Nov. 13, 2020); Hobbs, No. CV 2020-014248, Docket Code 042 (Maricopa County, Az. Super. Ct. Nov. 13, 2020).
 
-[^12]: See ECF No. 252 at 14 & nn.52-53; see also, e.g., SCO-0082936 l at 17 (HSC Tr.) (state legislator told Mr. Trump that "he primarily lost Michigan because of two counties that are routinely Republican counties ... and more specifically he underperformed with educated females"); SCO-11509450 at 25 (Int. Tr.) (state legislator told Mr. Trump that state officials had not seen evidence of widespread fraud); SCO-04953053 (Joint Statement l l/20/2020) (state legislators' statement that they are unaware of"any information that would change the outcome of the election in Michigan" and noting legislative review of the state's elections process); SCO-04952823 (Statement 12/04/2020) (state legislator citing U.S. Attorney General's statement that he had not seen outcome-detenninative election fraud); SCO-06730226 (Letter to Maricopa County Voters 11/17/2020) (noting "no evidence of fraud or misconduct or malfunction" in the over two million ballots cast); SCO-00614161 at 1335 (Tweets 12/01/2020) (describing Arizona election security measures, including poll ID and hand-conducted signature review); SCO-04957281 (Georgia Secretary of State News Release 10/23/2020) (refuting that electronic ballot marking is particularly vulnerable to cyberattack); SCO-04957309 (Georgia Secretary of State News Release 11/05/2020) (noting ballot count progress and listing voting security measures); SCO-12876768 (Video of Georgia Secretary of State Press Conference 11/06/2020) (giving numbers of rejected ballots from unregistered and non-citizen voters, and partially counted ballots from out-of-precinct voters); SCO-12876769 (Video of Georgia Secretary of State Press Conference l l/09/2020) (refuting allegations about ballot counting at State Farm Arena, software malfunctions, more votes than voters, and ballot harvesting, among others); SCO-1287677 l (Video of Georgia Secretary of State Press Conference 11/12/2020) (addressing decision to conduct risk-limiting audit, explaining under-voting in presidential race, refuting allegations that computers and software flipped votes); SCO-04957154 (Georgia Secretary of State News Release l l/18/2020) ( explaining that 2020 election absentee ballot rejection rate was equivalent to that in the 2018 general election); SCO-04957157 (Georgia Secretary of State News Release 11/19/2020) (risk-limiting audit results confirmed machine ballot count results); SCO-04957179 (Georgia Secretary of State News Release 12/07/2020) (hand recount and formal recount requested by Mr. Trump's campaign confirmed original election results; Co-Conspirator 3's lawsuit dismissed); SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020) (refuting allegations about vote-switching algorithms and "secret suitcases" of ballots at State Farm Arena and noting that in-person voting always requires identification); SCO-12896570 (Video of Georgia Secretary of State Press Conference 12/16/2020) (stating that hand vote count confirmed machine count, signature matching was performed, "there were no votes flipped," and full video of vote counting at State Fann Arena confirmed no wrongdoing); SCO-04957276 (Georgia Secretary of State News Release 12/29/2020) (recounts and signature audit confirmed original Georgia election results, and signature matching in Cobb County found no fraudulent ballots); SCO-04976281 (Video of Interview 0 l/02/2021) (election audit and full recount confirmed that Mr. Trump lost in Alan Feuer, Special Counsel Is Said to Be Planning to Pursue Trump Cases Past the Election, N.Y. Times (July 2, 2024), https://wv.w.nytimes.com/2024/07 /02/us/politics/jack-smith-trump-charges.html.
+[^12]: See ECF No. 252 at 14 & nn.52-53; see also, e.g., SCO-0082936 l at 17 (HSC Tr.) (state legislator told Mr. Trump that "he primarily lost Michigan because of two counties that are routinely Republican counties ... and more specifically he underperformed with educated females"); SCO-11509450 at 25 (Int. Tr.) (state legislator told Mr. Trump that state officials had not seen evidence of widespread fraud); SCO-04953053 (Joint Statement l l/20/2020) (state legislators' statement that they are unaware of"any information that would change the outcome of the election in Michigan" and noting legislative review of the state's elections process); SCO-04952823 (Statement 12/04/2020) (state legislator citing U.S. Attorney General's statement that he had not seen outcome-detenninative election fraud); SCO-06730226 (Letter to Maricopa County Voters 11/17/2020) (noting "no evidence of fraud or misconduct or malfunction" in the over two million ballots cast); SCO-00614161 at 1335 (Tweets 12/01/2020) (describing Arizona election security measures, including poll ID and hand-conducted signature review); SCO-04957281 (Georgia Secretary of State News Release 10/23/2020) (refuting that electronic ballot marking is particularly vulnerable to cyberattack); SCO-04957309 (Georgia Secretary of State News Release 11/05/2020) (noting ballot count progress and listing voting security measures); SCO-12876768 (Video of Georgia Secretary of State Press Conference 11/06/2020) (giving numbers of rejected ballots from unregistered and non-citizen voters, and partially counted ballots from out-of-precinct voters); SCO-12876769 (Video of Georgia Secretary of State Press Conference l l/09/2020) (refuting allegations about ballot counting at State Farm Arena, software malfunctions, more votes than voters, and ballot harvesting, among others); SCO-1287677 l (Video of Georgia Secretary of State Press Conference 11/12/2020) (addressing decision to conduct risk-limiting audit, explaining under-voting in presidential race, refuting allegations that computers and software flipped votes); SCO-04957154 (Georgia Secretary of State News Release l l/18/2020) ( explaining that 2020 election absentee ballot rejection rate was equivalent to that in the 2018 general election); SCO-04957157 (Georgia Secretary of State News Release 11/19/2020) (risk-limiting audit results confirmed machine ballot count results); SCO-04957179 (Georgia Secretary of State News Release 12/07/2020) (hand recount and formal recount requested by Mr. Trump's campaign confirmed original election results; Co-Conspirator 3's lawsuit dismissed); SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020) (refuting allegations about vote-switching algorithms and "secret suitcases" of ballots at State Farm Arena and noting that in-person voting always requires identification); SCO-12896570 (Video of Georgia Secretary of State Press Conference 12/16/2020) (stating that hand vote count confirmed machine count, signature matching was performed, "there were no votes flipped," and full video of vote counting at State Fann Arena confirmed no wrongdoing); SCO-04957276 (Georgia Secretary of State News Release 12/29/2020) (recounts and signature audit confirmed original Georgia election results, and signature matching in Cobb County found no fraudulent ballots); SCO-04976281 (Video of Interview 0 l/02/2021) (election audit and full recount confirmed that Mr. Trump lost in
 
-[^13]: See, e.g., ECF No. 252 at 18, 36-37 & nn.181-183, 41 & nn.207-208, 44-45 & nn.227-230; SCO-00455873, SCO- I 2987569 (Donald J. Trump Tweet I 1/21/2020) (about failed Pennsylvania lawsuit); SCO-00455356, SCO-12858834 (Donald J. Trump Tweet 12/12/2020) (about failed Supreme Court lawsuit); SCO-00455197, SCO-00455196, SCO-00455195, SCO-12987423, SCO-12987422, SCO-12987421 (Donald J. Trump Tweets 12/21/2020) (about failed Wisconsin lawsuit); SCO-00790949 at 170-171 (HSC Tr.) (Senior Advisor noting that, in Mr. Trump's presence, he challenged Co-Conspirator 3 about losing lawsuits across the country); SCO-00014205 at 7-8, Pierre Thomas et al., Special counsel Jack Smith expected to wind down Trump prosecutions: Sources, ABC News (Nov. 6, 2024, 3:26 PM), https://abcnews.go.com/Politics/special-counsel-jack-smith­ expected-wind-trump-prosecutions/story?id=l 15571646; Devlin Barrett, Jack Smith Assesses How to Wind Down Trump's Federal Cases, Official Says, N.Y. Times (Nov. 6, 2024), https://www.nytimes.com/2024/l l/06/us/politics/doj-trump-federal-cases.html. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
+[^13]: See, e.g., ECF No. 252 at 18, 36-37 & nn.181-183, 41 & nn.207-208, 44-45 & nn.227-230; SCO-00455873, SCO- I 2987569 (Donald J. Trump Tweet I 1/21/2020) (about failed Pennsylvania lawsuit); SCO-00455356, SCO-12858834 (Donald J. Trump Tweet 12/12/2020) (about failed Supreme Court lawsuit); SCO-00455197, SCO-00455196, SCO-00455195, SCO-12987423, SCO-12987422, SCO-12987421 (Donald J. Trump Tweets 12/21/2020) (about failed Wisconsin lawsuit); SCO-00790949 at 170-171 (HSC Tr.) (Senior Advisor noting that, in Mr. Trump's presence, he challenged Co-Conspirator 3 about losing lawsuits across the country); SCO-00014205 at 7-8,
 
-[^14]: See, e.g., ECF No. 252 at 15 & nn.55-59 (Arizona); id. at 21 & n.96, 30 & n.142, 122-123 & n.592 (Georgia). For Arizona, see, e.g., SCO-04976384 at 20:47 (Common Sense episode 89 11/25/2020) ("36,000"); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020) ("a few hundred thousand"); SCO-06628641 at 18:52-19:42 (War Room episode 608 12/24/2020) ("about 250,000"); SCO-06628646 at 35:19-35:45 (War Room episode 625 01/02/2021) ("32,000"); SCO-02244118 at 17 (Remarks by Mr. Trump at Save America Rally 01/06/2021) ("36,000"). Additional examples are discussed below. See, e.g., infra at nn.155-158 (Georgia). ECF No. 252, United States v. Trump, No. 23 Cr. 257 (D.D.C. Oct. 2, 2024).
+[^14]: See, e.g., ECF No. 252 at 15 & nn.55-59 (Arizona); id. at 21 & n.96, 30 & n.142, 122-123 & n.592 (Georgia). For Arizona, see, e.g., SCO-04976384 at 20:47 (Common Sense episode 89 11/25/2020) ("36,000"); SCO-04976459 at 02:06:23-02:07:00 (Video of Arizona State Hearing 11/30/2020) ("a few hundred thousand"); SCO-06628641 at 18:52-19:42 (War Room episode 608 12/24/2020) ("about 250,000"); SCO-06628646 at 35:19-35:45 (War Room episode 625 01/02/2021) ("32,000"); SCO-02244118 at 17 (Remarks by Mr. Trump at Save America Rally 01/06/2021) ("36,000"). Additional examples are discussed below. See, e.g., infra at nn.155-158 (Georgia).
 
-[^15]: See ECF No. 252 at 44 & n.224; SCO-115234 77 at 94-103 (Int. Tr.). ECF No. 243 at 2, United States v. Trump, No. 23 Cr. 257 (D.D.C. Sept. 24, 2024).
+[^15]: See ECF No. 252 at 44 & n.224; SCO-115234 77 at 94-103 (Int. Tr.).
 
-[^16]: See ECF No. 252 at 44-45 & nn.227-229; SCO-00455825 (Donald J. Trump Retweet 11/24/2020); SCO-12858284 (Tweet 11/24/2020) (showing Donald J. Trump Retweet); SCO-00455769, SCO-12858342 (Donald J. Trump Retweet 11/26/2020); SCO-04949395 at 3 (Remarks by Mr. Trump on the Presidential Election 12/02/2020); SCO-02244118 at 18-19 (Remarks by Mr. Trump at Save America Rally O1/06/2021). See also A Review of Various Actions by the Federal Bureau oflnvestigation and Department of Justice in Advance of the 2016 Election, U.S. Dep't ofJustice Office of Inspector General (June 2018) at 18 ("[I]n general, the practice has been not to take actions that might have an impact on an election, even if it's not an election case or something like that."), available at https://s3 .documentcloud.org/documents/4515 884/DOJ-OI G-2016-Electio_n-Final-Report.pdf. Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
+[^16]: See ECF No. 252 at 44-45 & nn.227-229; SCO-00455825 (Donald J. Trump Retweet 11/24/2020); SCO-12858284 (Tweet 11/24/2020) (showing Donald J. Trump Retweet); SCO-00455769, SCO-12858342 (Donald J. Trump Retweet 11/26/2020); SCO-04949395 at 3 (Remarks by Mr. Trump on the Presidential Election 12/02/2020); SCO-02244118 at 18-19 (Remarks by Mr. Trump at Save America Rally O1/06/2021).
 
-[^17]: See ECF No. 1 at ,r 83. ECF No. 324, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
+[^17]: See ECF No. 1 at ,r 83.
 
-[^18]: U.S. CONST. art. II, § 1. ECF No. 328, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
+[^18]: U.S. CONST. art. II, § 1.
 
-[^19]: ECF No. I at if 9; ECF No. 226 at ,r 10; see ECF No. 252 at 4; About the Electors, NATIONAL ARCHIVES, https://www.archives.gov/electoral-college/electors; see also Chiafalo v. Washington, 591 U.S. 578, 581, 584-85 & n. l (2020). ECF No. 327, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
+[^19]: ECF No. I at if 9; ECF No. 226 at ,r 10; see ECF No. 252 at 4; About the Electors, NATIONAL ARCHIVES, https://www.archives.gov/electoral-college/electors; see also Chiafalo v. Washington, 591 U.S. 578, 581, 584-85 & n. l (2020).
 
-[^20]: Electoral Count Act, 3 U.S.C. §§ 5-11. OC00163 IB, Order at 13-24, 28-34 (Nev. Dist. Ct. Dec. 4, 2020), https://electioncases.osu.edu/wp­ content/uploads/2020/11/Law-v-Gloria-Order-Granting-Motion-to-Dismiss.pdf [https://perma.cc/32U2-BTA6]; ECF No. 262, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Jan. 16, 2024).
+[^20]: Electoral Count Act, 3 U.S.C. §§ 5-11.
 
-[^21]: U.S. CONST. amend. XII; Electoral Count Act, 3 U.S.C. § 15. Special Counsel's Office, DOJ, Statements of Expenditures, https://www.justice.gov/sco-smith. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
+[^21]: U.S. CONST. amend. XII; Electoral Count Act, 3 U.S.C. § 15.
 
 [^22]: See ECF No. 252 at I 6-35; see, e.g., SCO- I 2733339 at 3-6, I 3- I 5 (Int. Rep.); SCO-00767550 at I 0-18 (HSC Tr.); SCO- I 29983 94 (Tr. of Georgia Secretary of State Call O1/02/2021); SCO-0082936 I at 8- I I, I 5-24 (HSC Tr.).
 
@@ -1631,7 +1631,7 @@ Sincerely yours,
 
 [^25]: See ECF No. 252 at 19 & n.80; SCO-00767550 at 15-16 (HSC Tr.).
 
-[^26]: See ECF No. 252 at 19 & n.81; SCO-00767550 at 10-12, 15-16 (HSC Tr.); SCO-00715584 (Arizona House Speaker News Release 12/04/2020) ("I and my fellow legislators swore an oath to support the U.S. Constitution and the constitution and laws of the state of Arizona. It would violate that oath, the basic principles of republican government, and the rule of law if we attempted to nullify the people's vote based on unsupported theories of fraud."). (HSC Tr.).
+[^26]: See ECF No. 252 at 19 & n.81; SCO-00767550 at 10-12, 15-16 (HSC Tr.); SCO-00715584 (Arizona House Speaker News Release 12/04/2020) ("I and my fellow legislators swore an oath to support the U.S. Constitution and the constitution and laws of the state of Arizona. It would violate that oath, the basic principles of republican government, and the rule of law if we attempted to nullify the people's vote based on unsupported theories of fraud.").
 
 [^27]: See ECF No. 252 at 19 & nn.82, 84; SCO-00767550 at 12-13, 35-36 (HSC Tr.).
 
@@ -1687,7 +1687,7 @@ Sincerely yours,
 
 [^53]: SCO- I 1572270 at 2 (Email to Co-Conspirator 6 12/08/2020).
 
-[^54]: Id. at 1. (HSC Tr.). See ECF No. 252 at 38 & n.193; SCO-12876770 at 02:20-04:13 (Video of Interview with CNN 11/11/2020);
+[^54]: Id. at 1.
 
 [^55]: See ECF No. 252 at 56 & n.301; SCO-02341381 (Fraudulent "Arizona's Electoral Votes for President and Vice President"); SCO-02341386 (Fraudulent "Georgia's Electoral Votes for President and Vice President"); SCO-02341398 (Fraudulent "Michigan's Electoral Votes for President and Vice President"); SCO-02341415 (Fraudulent "Nevada's Electoral Votes for President and Vice President"); SCO-02341409 (Fraudulent "New Mexico's Electoral Votes for President and Vice President"); SCO-02341435 (Fraudulent "Pennsylvania's Electoral Votes for President and Vice President"); SCO-0234 I 449 (Fraudulent "Wisconsin's Electoral Votes for President and Vice President"); SCO-00405057 (Email to Campaign staff 12/15/2020).
 
@@ -1720,6 +1720,8 @@ Sincerely yours,
 [^69]: SCO-02270007 (Email from Co-Conspirator 4 12/22/2020) (coordinating arrival); SCO-04957448 at 84-86 (SJC Tr.); SCO-12420899, SCO-12420900 (Email with attachment 11/11/2020) (memo regarding White House communications); SCO-00827266 at 54-58 (HSC Tr.); SCO-12941569 (Signal messages between Co-Conspirator 4 and Member of Congress 12/21/20); SCO-12947964 (Signal messages between Co-Conspirator 4 and Member of Congress 12/22/20); SCO-12947874, SCO-12947878 (Signal messages between Co-Conspirator 4 and Member of Congress, with attachment 12/21/20).
 
 [^70]: SCO-12481890, SCO-12481891 (Email from Co-Conspirator 4, with attachment 12/28/2020).
+
+[^11]: Id.
 
 [^72]: SCO-12392895 (Email to Co-Conspirator 4 12/28/2020).
 
@@ -1787,13 +1789,15 @@ Sincerely yours,
 
 [^105]: See ECF No. 252 at 77-78 & nn.432-443; SCO-02244118 at 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
 
-[^106]: See ECF No. 252 at 76 & nn.430-431; SCO-02244118 at 3 (Remarks by Mr. Trump at Save America Rally th Cong. 231 (1999) (prepared statement of Theodore B. Olson). th Cong. 252 (1999) (prepared statement of Attorney General Janet Reno). Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
+[^106]: See ECF No. 252 at 76 & nn.430-431; SCO-02244118 at 3 (Remarks by Mr. Trump at Save America Rally
 
 [^0]: l /06/2021 ); compare SCO-02244118 at 16 (Remarks by Mr. Trump at Save America Rally 01/06/2021) with SCO- 00745151 at 12 (Save America Rally teleprompter speech 01/06/2021).
 
 [^107]: See ECF No. 252 at 78 & n.444; see also, e.g., SCO-11506080 at 01:09:30 (Video of Save America Rally 01/06/2021); SCO-12918852 (Video of March to Capitol 01/06/2021); SCO-12919559 at 01:30-02:52 (Video of March to Capitol 01/06/2021); SCO-066146 I 9 at 21:13-22:07 (Video ofFox News Coverage 01/06/2021).
 
 [^108]: See ECF No. 252 at 78 & n.445; SCO-12945127 at 20:47 (Video of House Floor 01/06/2021); SCO-03666330 at
+
+[^2]: (Congressional Record 01/06/2021).
 
 [^109]: See ECF No. 252 at 78 & n.448; see also, e.g., SCO-12876233 at 02:20-03:50 (Video of Capitol Riot 01/06/2021).
 
@@ -1815,11 +1819,13 @@ Sincerely yours,
 
 [^118]: See ECF No. 252 at 79 & n.452; SCO-00783547 at 36-39 (HSC Tr.); SCO-00015613 at 180.
 
-[^119]: See ECF No. 252 at 79 & nn.451-452; SCO-00783547 at 38-39 (HSC Tr.); SCO-11528445 at 52-53 (Int. Tr.); SCO-00015613 at 183-185; SCO-00006256 at 164, 168; SCO-11522446 at 26 (Int. Rep.); SCO-00481112 (Spreadsheet of Data from Mr. Trump's White House Phone). (HSC Tr.) (recalling entering the dining room with Mr. Trump and conveying "this was a situation now out of control" while they were "all fixated on the television set"); SCO-11532623 at 222-228, 235 (Int. Tr.) (recalling Mr. Trump being told about riot at Capitol); SCO-00003294 at 114.
+[^119]: See ECF No. 252 at 79 & nn.451-452; SCO-00783547 at 38-39 (HSC Tr.); SCO-11528445 at 52-53 (Int. Tr.); SCO-00015613 at 183-185; SCO-00006256 at 164, 168; SCO-11522446 at 26 (Int. Rep.); SCO-00481112 (Spreadsheet of Data from Mr. Trump's White House Phone).
 
 [^120]: See ECF No. 252 at 79 & n.453; SCO-12881998 at 01:04-01:25 (Video of Senate Wing Door CCTV 01/06/2021); SCO-12945145 at 44:16-44:36 (Video of Senate Floor 01/06/2021).
 
 [^121]: See ECF No. 252 at 141 & n.653; SCO-00006256 at 163-166; SCO-00015002 at 37-38; SCO-00686662 at 117-
+
+[^119]: (HSC Tr.) (recalling entering the dining room with Mr. Trump and conveying "this was a situation now out of control" while they were "all fixated on the television set"); SCO-11532623 at 222-228, 235 (Int. Tr.) (recalling Mr. Trump being told about riot at Capitol); SCO-00003294 at 114.
 
 [^122]: See, e.g., ECF No. 252 at 141-142 & nn.653, 663; SCO-00015613 at 194-201; SCO-00003294 at 115-116, 121- 123, 131-132; SCO-11511407 at 227-228 (Int. Tr.); SCO-00006256 at 164-166, 174; SCO-11522446 at 26 (Int. Rep.) (recalling presenting Mr. Trump with draft language for a statement that was never published); SCO-00015002 at 38; SCO-11542142 at 134-135 (Int. Tr.) ("I thought that the President had to issue a strong statement, quickly, telling everybody to leave the Capitol, and condemning what was going on there."); SCO-11532623 at 240, 262-265 (Int. Tr.) (recalling a staffer entering the dining room and telling Mr. Trump to "call for calm" and asking Mr. Trump's daughter to "come in to help advocate with the President").
 
@@ -1870,6 +1876,8 @@ Sincerely yours,
 [^146]: See ECF No. 252 at 11-12 & nn.34-35; SCO-00006256 at 46-49; SCO-12920242 at I, 4 (Int. Rep.).
 
 [^147]: See ECF No. 252 at 36 & nn.181-182, 41 & nn.208-210, 44-45 & nn.225-230; see also, e.g., Law v. Whitmer, No.
+
+[^20]: OC00163 IB, Order at 13-24, 28-34 (Nev. Dist. Ct. Dec. 4, 2020), https://electioncases.osu.edu/wp­ content/uploads/2020/11/Law-v-Gloria-Order-Granting-Motion-to-Dismiss.pdf [https://perma.cc/32U2-BTA6];
 
 [^148]: See ECF No. 252 at 14 & nn.52-53, 20 & nn.86-87, 23 & n.106, 33 & n.165, 38 & n.192, 42 & n.212, 42-43 & n.216, 46 & nn.238-239; see also supra at n.12; SCO-04976277 (Video of Georgia Secretary of State Press Conference l 2/07/2020); SCO-11509450 at 103-104 (Int. Tr.); SCO-03036930 (Joint Statement on Election Security 11/12/2020); SCO-04952679 (Tweet 11/17/2020); SCO-07167983 (Email from GOP Comms Alert circulating Associated Press article titled "Barr: No evidence of fraud that'd change election outcome" 12/01/2020).
 
@@ -1977,6 +1985,8 @@ Sincerely yours,
 
 [^200]: See ECF No. 252 at 21 & nn.92-93, 38 & nn.192-194; SCO-11545129 at 86-88 (Int. Tr.); SCO-00767550 at 52-
 
+[^54]: (HSC Tr.). See ECF No. 252 at 38 & n.193; SCO-12876770 at 02:20-04:13 (Video of Interview with CNN 11/11/2020);
+
 [^201]: SCO-00456209, SCO-12987659 (Donald J. Trump Tweet 11/11/2020). See ECF No. 252 at 38 & n.194; SCO-11545129 at 87 (Int. Tr.); SCO-04976349 at 02:03: 17-02:04: 10 (Video of
 
 [^202]: HSC Hearing). See ECF No. 252 at 38 & n.194; SCO-11545129 at 87 (Int. Tr.); SCO-04976349 at 02:03:17-02:04:10 (Video of
@@ -2037,6 +2047,8 @@ Sincerely yours,
 
 [^235]: See ECF No. 252 at 66 & n.356; SCO-00006256 at 130-133; SCO-11522446 at 6 (Int. Rep.); SCO-00790949 at
 
+[^26]: (HSC Tr.).
+
 [^236]: See SCO-00006256 at 133; SCO-11522446 at 6 (Int. Rep.); SCO-00790949 at 26 (HSC Tr.).
 
 [^237]: SCO-11545613 at 165-171 (Int. Tr.).
@@ -2057,7 +2069,7 @@ Sincerely yours,
 
 [^245]: SCO-12876131 at 02:26-02:33 (Video of Capitol Riot 01/06/2021).
 
-[^246]: SCO-12918754 at 24:47-27:22 (Video of Capitol Riot 01/06/2021); id at 28:00-28:08 (rioter announcing that he was "going to do as Donald Trump has asked and [he was] going to go home"); SCO-12919861 at 01:55:29- 01:55:45 (Video of Capitol Riot 01/06/2021); id at 0 l :57:20-01:57:34 (rioter announcing that "Donald Trump asked everybody to go home. So what are we gonna do? We're going to obey our President; we're gonna do as he asked; and we're gonna go home."); SCO-12876155 (Video outside Capitol 01/06/2021). (1944) (Jackson, J., dissenting). The President of the United States is the most powerful person in the country, and possibly the world. When he uses his official powers in any way, under the majority's reasoning, he now will be insulated from criminal prosecution. Orders the Navy's Seal Team 6 to assassinate a political rival? Immune. Organizes a military coup to hold onto power? Immune. Takes a bribe in exchange for a pardon? Immune. Immune, immune, immune. Trump, 603 U.S. at 684-685 (Sotomayor, J., dissenting).
+[^246]: SCO-12918754 at 24:47-27:22 (Video of Capitol Riot 01/06/2021); id at 28:00-28:08 (rioter announcing that he was "going to do as Donald Trump has asked and [he was] going to go home"); SCO-12919861 at 01:55:29- 01:55:45 (Video of Capitol Riot 01/06/2021); id at 0 l :57:20-01:57:34 (rioter announcing that "Donald Trump asked everybody to go home. So what are we gonna do? We're going to obey our President; we're gonna do as he asked; and we're gonna go home."); SCO-12876155 (Video outside Capitol 01/06/2021).
 
 [^247]: See also SCO-12916465 (Video of Senate Chamber 01/06/2021).
 
@@ -2101,6 +2113,8 @@ Sincerely yours,
 
 [^267]: Justice Sotomayor, who authored a dissenting opinion joined by Justices Kagan and Jackson, described the majority opinion as follows: The Court effectively creates a law-free zone around the President, upsetting the status quo that has existed since the Founding. This new official-acts immunity now "lies about like a loaded weapon" for any President that wishes to place his own interests, his own political survival, or his own financial gain, above the interests of the Nation. Korematsu v. United States, 323 U.S. 214,
 
+[^246]: (1944) (Jackson, J., dissenting). The President of the United States is the most powerful person in the country, and possibly the world. When he uses his official powers in any way, under the majority's reasoning, he now will be insulated from criminal prosecution. Orders the Navy's Seal Team 6 to assassinate a political rival? Immune. Organizes a military coup to hold onto power? Immune. Takes a bribe in exchange for a pardon? Immune. Immune, immune, immune. Trump, 603 U.S. at 684-685 (Sotomayor, J., dissenting).
+
 [^268]: Oral Argument Recordings Archive, United States Court of Appeals for the District of Columbia Circuit (Jan. 9, 2024 ), https://media.cadc.uscourts .gov/recordings/bydate/2024/ 1 [https://penna.cc/9 523-TRZ9].
 
 [^269]: See United States v. Trump, 91 F.4th 1173 (D. C. Cir. 2024).
@@ -2132,3 +2146,37 @@ Sincerely yours,
 [^283]: Oral Argument Recordings Archive, United States Court of Appeals for the District of Columbia Circuit (May 19, 2023 ), https://med ia.cadc. uscourts.gov /recordings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B]. 28 -1 See In re Sealed Case, 77F.4th815, 830 (D.C. Cir. 2023).
 
 [^285]: See X Corp. v. United States, 2024 WL 4426628 (U.S. Oct. 7, 2024).
+
+[^5]: WSJ Editorial Board, Jack Smith Loses in the People's Court, WSJ (Nov. 7, 2024, 5:52 PM), https://vvww.wsj.com/opinion/donald-trump-prosecutions-jack-smith-fani-willis-alvin-bragg-juan­ merchan-lc68f640; Jonathan Turley, Opinion: Donald Trump just won the greatest jury verdict in American history, The Hill (Nov. 6, 2024, 10:56 AM), https://thehill.com/opinion/campaign/4976533- trump-prosecutions-lawfare-end; Elie Honig, So What Happens With All the Cases Against Trump Now?, N.Y. Mag. (Nov. 8, 2024), https://nymag.com/intelligencer/aiiicle/what-will-happen-with-the-charges­ against-trump.html.
+
+[^6]: Letter from Chairman Jim Jordan to Jeffrey Ragsdale, DOJ OPR (Dec. 4, 2024) https://www.scribd.com/document/800789357/Judiciary-to­ DOJ?secret_password=vphCtDdh3lHj7mTM5Ib8.
+
+[^7]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
+
+[^106]: th Cong. 231 (1999) (prepared statement of Theodore B. Olson).
+
+[^8]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs,
+
+[^106]: th Cong. 252 (1999) (prepared statement of Attorney General Janet Reno). Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
+
+[^11]: Maggie Haberman et al., Trump Says He'll Fire Jack Smith, Special Counsel Who Indicted Him, ifHe Wins Again, N.Y. Times (Oct. 24, 2024), https://www.nytimes.com/2024/10/24/us/politics/trump-jack­ smith.html.
+
+[^12]: Alan Feuer, Special Counsel Is Said to Be Planning to Pursue Trump Cases Past the Election, N.Y. Times (July 2, 2024), https://wv.w.nytimes.com/2024/07 /02/us/politics/jack-smith-trump-charges.html.
+
+[^13]: Pierre Thomas et al., Special counsel Jack Smith expected to wind down Trump prosecutions: Sources, ABC News (Nov. 6, 2024, 3:26 PM), https://abcnews.go.com/Politics/special-counsel-jack-smith­ expected-wind-trump-prosecutions/story?id=l 15571646; Devlin Barrett, Jack Smith Assesses How to Wind Down Trump's Federal Cases, Official Says, N.Y. Times (Nov. 6, 2024), https://www.nytimes.com/2024/l l/06/us/politics/doj-trump-federal-cases.html. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
+
+[^14]: ECF No. 252, United States v. Trump, No. 23 Cr. 257 (D.D.C. Oct. 2, 2024).
+
+[^15]: ECF No. 243 at 2, United States v. Trump, No. 23 Cr. 257 (D.D.C. Sept. 24, 2024).
+
+[^16]: See also A Review of Various Actions by the Federal Bureau oflnvestigation and Department of Justice in Advance of the 2016 Election, U.S. Dep't ofJustice Office of Inspector General (June 2018) at 18 ("[I]n general, the practice has been not to take actions that might have an impact on an election, even if it's not an election case or something like that."), available at https://s3 .documentcloud.org/documents/4515 884/DOJ-OI G-2016-Electio_n-Final-Report.pdf. Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
+
+[^17]: ECF No. 324, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
+
+[^18]: ECF No. 328, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
+
+[^19]: ECF No. 327, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
+
+[^20]: ECF No. 262, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Jan. 16, 2024).
+
+[^21]: Special Counsel's Office, DOJ, Statements of Expenditures, https://www.justice.gov/sco-smith. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I

@@ -8640,7 +8640,7 @@ f
 
 ## Notes
 
-[^1]: For the purpose of this report, a procedure is a formal set of instructions designed to guide and assist in the performance of a technical or management function. g8 mid., July 24, 1986, p. 11.
+[^1]: For the purpose of this report, a procedure is a formal set of instructions designed to guide and assist in the performance of a technical or management function.
 
 [^2]: Rogers Commission Report, Volume I, p. 199.
 
@@ -8652,7 +8652,7 @@ f
 
 [^7]: bid.
 
-[^8]: Ibid. Ibid. ' 0 bid. I 1bid. Morton Thiokol, "Program Plan, Protection of Space Shuttle SRM Primary Seals," TWR- 14359,May 4, 1984. s Ibid. Discussions with Allan McDonald and Carver Kennedy, Thiokol (Wasatch Operations), Brigham City, Utah,, September 4, 1986.
+[^8]: Ibid. Ibid. ' 0 bid. I 1bid. Morton Thiokol, "Program Plan, Protection of Space Shuttle SRM Primary Seals," TWR- 14359,May 4, 1984.
 
 [^14]: Hearin s before the House Science and Technology Committee, "Investigation of the Space Shuttle Chaflenger Accident," 99th Cong., 2nd Sess., Transcript, July 15, 1986, p. 13. (Hereafter referred to as Cmte Hgs).
 
@@ -8660,7 +8660,7 @@ f
 
 [^16]: After further investigation, the Commlttee has learned that some qualifying remarks are required for Dr. Feynman's characterization of the FAA engine qualification procedures to be totally accurate. The FAA does not permit cracks in what it calls 'critical" engine components. However, cracks located at, or above, the base of a turbine blade are not considered critical by the FAA because: (1) commercial jet engines possess adequate internal shielding to contain any Continued
 
-[^19]: Rogers Commission, "Meeting of Challenger Commission; NASA, JSC", Halloway, T. et al., March 9, 1986, p. 313; and Bobko, K . et al., March 24, 1986, p. 152. e Ibid., p. 17.
+[^19]: Rogers Commission, "Meeting of Challenger Commission; NASA, JSC", Halloway, T. et al., March 9, 1986, p. 313; and Bobko, K . et al., March 24, 1986, p. 152.
 
 [^22]: Rogers Commission Report, Volume I, pp. 129-31. ZaNASA, "Shuttle Flight Data and Infli ht Anomaly List, Revision H," Johnson Space Center, Houston, Texas, January, 1986, pp. 2-f and 2-9. 2 4 Ibid., pp. 2-6 and 2-7. 2 5 Ibid., pp. 2-16 and 2-17. 2 6 Rogers Commiasion Report, Volume I, p. 148.
 
@@ -8672,9 +8672,11 @@ f
 
 [^35]: Most military and civilian aircraft engines are designed from the bottom-up approach, in which each component, starting with the material used all the wa through engineering testing of subsystems and subcomponents, is evaluated prior to the finardesign of the entire engine.
 
-[^38]: Rogers Commission Report, Volume 11, p. F-2. Cmte Hgs, Transcript, July 15, 1986, pp. 10-12, 61. Discussion with NASA personnel, Washington, D.C., May 30, 1986.
+[^38]: Rogers Commission Report, Volume 11, p. F-2.
 
-[^37]: Ibid. "The second breakdown in communications. . . ," Mr. Aldrich testified before the Commis- sion, "is the situation of the variety of reviews that were conducted last summer between the NASA Headquarters Organization and the Marshall Organ+tion on the ljoint eal.problem] and the fact that that waa not brou h t through my office in elther dlrectlon-that IS, it was not worked through by the NASA Heatquartera Organization nor when the Marshall Organization brought these concerns to be reported were we involved. And I believe that is a critical break- down in process and I think it is also against the documented reporting channels that the prc- gram IS sup to o rate to." Ro era Commission Report, Volume V, p. 1490. JmLarry N&, Marshall &ace F1' h t Center, "Fli ht Readiness Review SRM-24 (STS 6143,'' December 2, 1986, Charta 3-2; 3-2B. %e A pendix VfrI1-G.
+[^37]: Ibid.
+
+[^38]: Cmte Hgs, Transcript, July 15, 1986, pp. 10-12, 61. Discussion with NASA personnel, Washington, D.C., May 30, 1986.
 
 [^42]: Ibid., Volume I, pp. 192-93. 4 3 Ibid., Volume 11, p. K-23.
 
@@ -8686,9 +8688,9 @@ f
 
 [^48]: Michael Isikoff, "Major Flaws Ruled Out in Two Rockets," Washington Post, July 3, 1986, p. A-1.
 
-[^53]: Ibid. Poise is a measure of viscosity or resistance to flow.
+[^53]: Ibid.
 
-[^54]: Discussion with NASA personnel, Washington, D.C., Sept. 12, 1986. Rogers Commission Report, Volume 11, p. K-14. 5.3 Ibid., p. K-31. 5 7 Ibid., p. K-14. NASA, L.M. Thompson, "SRM/SRB Putty Evaluation," July, 1985.
+[^54]: Discussion with NASA personnel, Washington, D.C., Sept. 12, 1986. Rogers Commission Report, Volume 11, p. K-14. 5.3 Ibid., p. K-31. 5 7 Ibid., p. K-14.
 
 [^58]: Ibid., p. K-31. Sbff meeting with NASA personnel, Head uarters, Washington, D.C., May 13, 1986. 6 0 Rogers Commission Report, Volume 11, p. 2-31, 6' Wid., p. K-3.
 
@@ -8696,11 +8698,11 @@ f
 
 [^83]: Cmte Hgs, Transcript, July 16, 1986, p. 24.
 
-[^84]: NASA, documents on the SPC contract, sup lied to the Committee in July, 1986. Rogers Commission Report, Volume IV. p. 721
+[^84]: NASA, documents on the SPC contract, sup lied to the Committee in July, 1986.
 
-[^85]: Rogers Commission Report, Volume 11, pp. 6-2-3. Ibid., Volume V. pp. 843-45.
+[^85]: Rogers Commission Report, Volume 11, pp. 6-2-3.
 
-[^86]: Ibid., p. G I . Ibid., Volume I, p. 101.
+[^86]: Ibid., p. G I .
 
 [^89]: Rogers Commission Report, Volume 11, p. 1-15. 9 0 bid. p. 1-14,
 
@@ -8746,7 +8748,11 @@ f
 
 [^196]: Ibid., July 24, 1986, pp. 69-70
 
+[^19]: e Ibid., p. 17.
+
 [^197]: Ibid., June 25, 1986, p. 11.
+
+[^1]: g8 mid., July 24, 1986, p. 11.
 
 [^199]: Ibid., June 25, 1986, p. 52.
 
@@ -8758,23 +8764,39 @@ f
 
 [^208]: Ibid. 2 0 8 Rogers Commission Report., Volume 11, p. H-95.
 
+[^53]: Poise is a measure of viscosity or resistance to flow.
+
+[^54]: NASA, L.M. Thompson, "SRM/SRB Putty Evaluation," July, 1985.
+
 [^55]: BM-Chemical Division, "Viton Fluoroelastomer," Undated, p. 1.
 
 [^56]: Ibid.
 
 [^67]: Department of Defense, "Milita Specification: Rubber, Fluorocarbon Elastomer, High Tern rature, Fluid, and Compreasion%t Resistant", MILR-83248A. February 17,1984. "rigid, p. 1. 6 9 Ibid p. 3. 6 0 N d A memorandum, William Ra "Visit to Precision Rubber Products Corporation and Parker Seal Company",EP 25 (19-23). JAbruary 6, 1979, p. 1. 6 1 Ibid. 6* bid., p. 2.
 
+[^8]: s Ibid. Discussions with Allan McDonald and Carver Kennedy, Thiokol (Wasatch Operations), Brigham City, Utah,, September 4, 1986.
+
 [^9]: Rogers Commission Report, loc. cit.
 
 [^10]: bid. 1 ' Ibid. - Readiness 1 2 Robert Lindstrom. NASA. Marshall Soace Flight Center. "Shuttle Proiect Flight Review,i'~SOP~8000.1,~&cemb& 29, 1983, p 2. See Xppendix VIII-C. l 3 William Lucas, NASA, Marshall Space Flight Center, "MSFC Flight Readiness Review (FRR) Board for MSFC Elements for Mission 51-L," January 7, 1986, pp. 1-2. See Appendix .vm-n _*- I . I4Discussion with Mr. McDonald, September 4, 1986. Ibid.
 
-[^30]: Rogers Commission Report, Volume V, p. 834. y r ' O b i s ammission &port, Volume 11, p. . H-P
+[^30]: Rogers Commission Report, Volume V, p. 834.
 
 [^31]: Cmte Hgs., Transcript, June 17, 1986, p. 185.
 
 [^32]: Bid., p. 291.
 
 [^33]: Rogers Commission Report, Volume V, p. 784. a* bid., Chart 130 (p. H-66).
+
+[^37]: "The second breakdown in communications. . . ," Mr. Aldrich testified before the Commis- sion, "is the situation of the variety of reviews that were conducted last summer between the NASA Headquarters Organization and the Marshall Organ+tion on the ljoint eal.problem] and the fact that that waa not brou h t through my office in elther dlrectlon-that IS, it was not worked through by the NASA Heatquartera Organization nor when the Marshall Organization brought these concerns to be reported were we involved. And I believe that is a critical break- down in process and I think it is also against the documented reporting channels that the prc- gram IS sup to o rate to." Ro era Commission Report, Volume V, p. 1490. JmLarry N&, Marshall &ace F1' h t Center, "Fli ht Readiness Review SRM-24 (STS 6143,'' December 2, 1986, Charta 3-2; 3-2B. %e A pendix VfrI1-G.
+
+[^30]: y r ' O b i s ammission &port, Volume 11, p. . H-P
+
+[^84]: Rogers Commission Report, Volume IV. p. 721
+
+[^85]: Ibid., Volume V. pp. 843-45.
+
+[^86]: Ibid., Volume I, p. 101.
 
 [^92]: Ibid., p, 574.
 

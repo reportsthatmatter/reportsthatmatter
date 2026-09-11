@@ -8288,15 +8288,15 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 ## Notes
 
-[^1]: S&P issues ratings using the "AAA" designation; Moody's equivalent rating is "Aaa." For ease of reference, this Report will refer to both ratings as "AAA." and Point Pleasant, Goldman received a direct fee for acting as the collateral put provider. Goldman representatives told the Subcommittee that, because the put fee was "embedded" in the CDS agreement in some of the CDOs, Goldman's operations group sometimes overlooked and failed to "book" the profit and loss associated with those put arrangements. W hen this oversight was discovered in 2007, Goldman identified 18 CDO put arrangements that had not been identified and accounted for in Goldman's books. See 6/28/2007 email from Carly Scales to Phil Armstrong and Steve Schultz, GS MBS-E-015192547: • "Current Put Option Booking State: 22 Deals with the Put Option Feature C 4 Deals that do have a Put Option Booked: - For these trades, Ops [the operations group] knew about the Put as there was a confirmation and a trade booked. ... • 18 Deals that do not have a Put option Booked: - For these deals, there was no mention of a Put at all at the time of closing. ... - The Put option was embedded into the deal documents (Indenture, Offering Circular, etc – both of which are reviewed by outside counsel and GS legal as a normal course of business – but are not reviewed by Operations.) - For these trades, an intermediation fee was being taken on the CDS trades, but no specific Put was booked in our systems. - The original explanation from the desk was the intermediation fee was being taken for the risks associated with standing in between the Street and the deal with no mention of the Put."
+[^1]: S&P issues ratings using the "AAA" designation; Moody's equivalent rating is "Aaa." For ease of reference, this Report will refer to both ratings as "AAA."
 
-[^2]: See McFadden Act of 1927, P.L. 69-639 (prohibiting national banks from owning branches in multiple states); Bank Holding Company Act of 1956, P.L. 84-511 (prohibiting banking company companies from owning branches in multiple states). See also "Going Interstate: A New Dawn for U.S. Banking," The Regional Economist, a publication of the Federal Reserve Bank of St. Louis (7/1994). b; 1/2005 "Higher Risk Lending Strategy 'Asset Allocation Initiative,'" submitted to Washington Mutual Board of Directors Finance Committee Discussion, JPM_WM00302975-93, Hearing Exhibit 4/13-2a. to Paulson"); 12/7/2006 email chain between Daniel Sparks and Tom Montag, "More thorough response," GS MBS-E-010931324 (Goldman had previously handled approximately $9 billion in transactions for Paulson); Subcommittee interview of Michael Swenson (4/16/2010) ("Paulson [hedge fund] was the biggest counterparty on day 1 [of the ABX Index] and throughout 2006").
+[^2]: See McFadden Act of 1927, P.L. 69-639 (prohibiting national banks from owning branches in multiple states); Bank Holding Company Act of 1956, P.L. 84-511 (prohibiting banking company companies from owning branches in multiple states). See also "Going Interstate: A New Dawn for U.S. Banking," The Regional Economist, a publication of the Federal Reserve Bank of St. Louis (7/1994).
 
 [^3]: See U.S. Census Bureau, "Statistical Abstract of the United States 2011," at 735, http://www.census.gov/compendia/statab/2011/tables/11s1175.pdf.
 
-[^4]: 1/3/2011 chart, "Insurance Fund Ten-Year Trends," supplied by the National Credit Union Administration (showing that, as of 12/31/1993, the United States had 12,317 federal and state credit unions). N%20FGCAnnouncesDefaultNoticewithRRELoanTransactions.pdf. See also "CapitalSource to Acquire Fremont's Retail Arm," New York Times (4/14/2008). Q07 Fact Sheet prepared for David Viniar, GS MBS-E-009724276, Hearing Exhibit 4/27-159.
+[^4]: 1/3/2011 chart, "Insurance Fund Ten-Year Trends," supplied by the National Credit Union Administration (showing that, as of 12/31/1993, the United States had 12,317 federal and state credit unions).
 
-[^5]: Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994, P.L. 103-328 (repealing statutory prohibitions on interstate banking). Feb07.xls," GS MBS-E-012744553; chart attachments to 2/23/2007 email from Tom Barrett to Kevin Kao, Michael Swenson and Justin Gmelich, "Index and Single Name Position History 2006 As of 22Feb07.xls," GS MBS-E-012411673; chart attachments to 3/2/2007 email from Kevin Kao to Joshua Birnbaum, "Index and Single Name Position History 2006 As of 01Mar07.xls," GS MBS-E-012776557.
+[^5]: Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994, P.L. 103-328 (repealing statutory prohibitions on interstate banking).
 
 [^6]: Glass-Steagall Act of 1933, also known as the Banking Act, P.L. 73-66.
 
@@ -8310,7 +8310,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^11]: See 66 Fed. Reg. 59614 (Nov. 29, 2011), http://www.federalregister.gov/articles/2001/11/29/01-29179/risk-based- capital-guidelines-capital-adequacy-guidelines-capital-maintenance-capital-treatment-of.
 
-[^12]: See "Alternative Net Capital Requirements for Broker-Dealers That Are Part of Consolidated Supervised Entities," RIN 3235-AI96, 17 CFR Parts 200 and 240 (8/20/2004) ("amended the net capital rule under the Securities Exchange Act of 1934 to establish a voluntary alternative method of computing net capital for certain broker-dealers"). The Consolidated Supervised Entities (CSE) program, which provided SEC oversight of investment bank holding companies that joined the CSE program on a voluntarily basis, was established by the SEC in 2004, and terminated by the SEC in 2008, after the financial crisis. The alternative net capital rules for broker- dealers were terminated at the same time. CFR § 360.6. CFR § 360.6(b)(5)(i). U.S.C. § 1820(b)(3).
+[^12]: See "Alternative Net Capital Requirements for Broker-Dealers That Are Part of Consolidated Supervised Entities," RIN 3235-AI96, 17 CFR Parts 200 and 240 (8/20/2004) ("amended the net capital rule under the Securities Exchange Act of 1934 to establish a voluntary alternative method of computing net capital for certain broker-dealers"). The Consolidated Supervised Entities (CSE) program, which provided SEC oversight of investment bank holding companies that joined the CSE program on a voluntarily basis, was established by the SEC in 2004, and terminated by the SEC in 2008, after the financial crisis. The alternative net capital rules for broker- dealers were terminated at the same time.
 
 [^13]: Goldstein v. SEC, 451 F.3d 873 (D.C. Cir. 2006).
 
@@ -8326,7 +8326,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^19]: See, e.g., Countrywide Financial Corporation, as described in SEC v. Mozilo, Case No. CV09-03994 (USDC CD Calif.), Complaint (June 4, 2009), at ¶¶ 20-21.
 
-[^20]: To develop FICO scores, Fair Isaac uses proprietary mathematical models that draw upon databases of actual credit information to identify factors that can reliably be used to predict whether an individual will repay outstanding debt. Key factors in the FICO score include an individual's overall level of debt, payment history, types of credit extensions, and use of available credit lines. See "What's in Your FICO Score," Fair Isaac Corporation, http://www.myfico.com/CreditEducation/WhatsInYourScore.aspx. Other types of credit scores have also been developed, including the VantageScore developed jointly by the three major credit bureaus, Equifax Inc., Experian Group Ltd., and TransUnion LLC, but the FICO score remains the most widely used credit score in U.S. financial markets. AAA rated RMBS securities; the second a basket of AA rated RMBS securities; and the remaining indices tracked baskets of A, BBB, and BBB- rated RMBS securities. Every six months, a new set of RM BS securities was selected for each index. See 3/2008 Federal Reserve Bank of New York Staff Report No. 318, "Understanding the Securitization of Subprime Mortgage Credit," at 26. Markit Group Ltd. administered the ABX Index which issued indices in 2006 and 2007, but has not issued any new indices since then.
+[^20]: To develop FICO scores, Fair Isaac uses proprietary mathematical models that draw upon databases of actual credit information to identify factors that can reliably be used to predict whether an individual will repay outstanding debt. Key factors in the FICO score include an individual's overall level of debt, payment history, types of credit extensions, and use of available credit lines. See "What's in Your FICO Score," Fair Isaac Corporation, http://www.myfico.com/CreditEducation/WhatsInYourScore.aspx. Other types of credit scores have also been developed, including the VantageScore developed jointly by the three major credit bureaus, Equifax Inc., Experian Group Ltd., and TransUnion LLC, but the FICO score remains the most widely used credit score in U.S. financial markets.
 
 [^21]: See, e.g., "Shift to Higher Margin Products," chart from Washington Mutual Board of Directors meeting, at JPM_WM00690894, Hearing Exhibit 4/13-3 (featuring discussion of the larger "gain on sale" produced by higher risk home loans); "WaMu Product Originations and Purchases By Percentage - 2003-2007," chart prepared by the Subcommittee, Hearing Exhibit 4/13-1i (showing how higher risk loans grew from about 19% to about 55% of WaMu's loan originations); SEC v. Mozilo, Case No. CV09-03994 (USDC CD Calif.), Complaint (June 4, 2009), at ¶¶ 17-19 (alleging that higher risk loans doubled at Countrywide, increasing from about 31% to about 64% of its loan originations).
 
@@ -8380,7 +8380,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^46]: Id.
 
-[^47]: 3/11/2008 compliance letter from Moody's to SEC, SEC_OCIE_CRA_011212 and SEC_OCIE_CRA_011214. The 2002 figure does not include gross revenue from CDO ratings as this figure was not readily available due to the transition of Moody's accounting systems. (See Chapter V below.) c. c; Subcommittee interview of David Beck (3/2/2010).
+[^47]: 3/11/2008 compliance letter from Moody's to SEC, SEC_OCIE_CRA_011212 and SEC_OCIE_CRA_011214. The 2002 figure does not include gross revenue from CDO ratings as this figure was not readily available due to the transition of Moody's accounting systems. (See Chapter V below.)
 
 [^48]: 3/14/2008 compliance letter from S&P to SEC, SEC_OCIE_CRA_011218-59, at 18-19. (See Chapter V below.)
 
@@ -8412,9 +8412,9 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^62]: Securities Exchange Act of 1934, Rule 15c3-1.
 
-[^63]: Each of the five indices tracked a different tranche of securities from the designated 20 subprime RMBS securitizations. One index tracked AAA rated securities from the 20 subprime RMBS securities; the second tracked AA rated securities from the 20 RMBS securitizations; and the remaining indices tracked baskets of A, BBB, and BBB rated RMBS securities. Every six months, a new set of RMBS securitizations was selected for a new ABX index. See 3/2008 "Understanding the Securitization of Subprime Mortgage Credit," prepared by Federal Reserve Bank of New York, Report No. 318, at 26. Markit Group Ltd. administered the ABX Index which issued indices in million).
+[^63]: Each of the five indices tracked a different tranche of securities from the designated 20 subprime RMBS securitizations. One index tracked AAA rated securities from the 20 subprime RMBS securities; the second tracked AA rated securities from the 20 RMBS securitizations; and the remaining indices tracked baskets of A, BBB, and BBB rated RMBS securities. Every six months, a new set of RMBS securitizations was selected for a new ABX index. See 3/2008 "Understanding the Securitization of Subprime Mortgage Credit," prepared by Federal Reserve Bank of New York, Report No. 318, at 26. Markit Group Ltd. administered the ABX Index which issued indices in
 
-[^2006]: and 2007, but has not issued any new indices since then. Fremont 10-K Statement with the SEC.
+[^2006]: and 2007, but has not issued any new indices since then.
 
 [^64]: For more information, see Chapter VI, section discussing Deutsche Bank.
 
@@ -8422,9 +8422,9 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^74]: See 1/3/2011 chart, "Insurance Fund Ten-Year Trends," supplied by the National Credit Union Administration (showing that, as of 12/31/2005, the United States had 8,695 federal and state credit unions).
 
-[^75]: The Dodd-Frank Act has since abolished one of these agencies, the Office of Thrift Supervision, and assigned its duties to the OCC. See Chapter IV. Fed. Reg. 185 (9/24/2010). ("[f]or residential loans, we have not bought much lately"); 3/26/2007 Goldman presentation to Board of Directors, "Subprime Mortgage Business," GS MBS-E-005565527, Hearing Exhibit 4/27-22 (reporting that Mortgage Department is using "conservative bids" on loans); 3/14/2007 Goldman Presentation to SEC, "Subprime Mortgage Business 14-Mar-2007," at 7, GS MBS-E-010022328; 3/2/2007 email to Craig Broderick, "Audit Committee Package_Feb 21_Draft_Mortgage_Page.ppt," GS M BS-E-009986805, Hearing Exhibit 4/27-63 (we are "lowballing" bids on loans).
+[^75]: The Dodd-Frank Act has since abolished one of these agencies, the Office of Thrift Supervision, and assigned its duties to the OCC. See Chapter IV.
 
-[^76]: 1/2009 "Financial Regulation: A Framework for Crafting and Assessing Proposals to Modernize the Outdated U.S. Financial Regulatory System," prepared by the Government Accountability Office, Report No. GAO-09-216, at 26-27. ("I noted that several of our institutions make NINA loans. That, in my humble opinion is collateral dependent lending and deemed unsafe and unsound by all the agencies. … It is not at all surprising that delinquencies are up, even among Alt-A. In my opinion, credit standards have gone too low."). See also undated OTS document, "Option ARM Neg Am Review Workprogram 212A(1) & Nontraditional Mortgage Guidance Review," at OTSWMEF-0000009891, Hearing Exhibit 4/16-74 (determining that 73% of the Option ARMs in WaMu's portfolio were "low doc" loans).
+[^76]: 1/2009 "Financial Regulation: A Framework for Crafting and Assessing Proposals to Modernize the Outdated U.S. Financial Regulatory System," prepared by the Government Accountability Office, Report No. GAO-09-216, at 26-27.
 
 [^77]: See SEC website, "About the SEC: What We Do," www.sec.gov.
 
@@ -8450,7 +8450,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^88]: 10/4/2006 "Interagency Guidance on Nontraditional Mortgage Product Risks," (NTM Guidance), 71 Fed. Reg.
 
-[^192]: at 58609. 6/18/2007 Washington Mutual memorandum from Kerry Killinger to the Board of Directors, "Strategic Direction," JPM_WM03227058-67 at 60, Hearing Exhibit 4/13-6a.
+[^192]: at 58609.
 
 [^89]: For more information, see Chapter IV.
 
@@ -8462,7 +8462,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^96]: Fannie Mae, 2009 Second Quarter Credit Supplement, August 6, 2009, http://www.fanniemae.com/ir/pdf/sec/2009/q2credit_summary.pdf.
 
-[^97]: "Not What They Had In Mind: A History of Policies that Produced the Financial Crisis of 2008," September 2009, Mercatus Center, http://mercatus.org/sites/default/files/publication/NotWhatTheyHadInMind(1).pdf. (5/19/2004).
+[^97]: "Not What They Had In Mind: A History of Policies that Produced the Financial Crisis of 2008," September 2009, Mercatus Center, http://mercatus.org/sites/default/files/publication/NotWhatTheyHadInMind(1).pdf.
 
 [^98]: Congressional Budget Office, "Fannie Mae, Freddie Mac, and the Federal Role in the Secondary Mortgage Market," December 2010, at x, http://www.cbo.gov/ftpdocs/120xx/doc12032/12-23-FannieFreddie.pdf.
 
@@ -8472,7 +8472,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^101]: 11/2010 "Report on the Troubled Asset Relief Program," prepared by the Congressional Budget Office, http://www.cbo.gov/ftpdocs/119xx/doc11980/11-29-TARP.pdf.
 
-[^102]: "Usage of Federal Reserve Credit and Liquidity Facilities," Federal Reserve Board, available at http://www.federalreserve.gov/newsevents/reform_transaction.htm. (Mr. Bohra responds, "[w]e have done that with Timberwolf already.").
+[^102]: "Usage of Federal Reserve Credit and Liquidity Facilities," Federal Reserve Board, available at http://www.federalreserve.gov/newsevents/reform_transaction.htm.
 
 [^103]: "Agency Mortgage-Backed Securities Purchase Program," Federal Reserve Board, available at http://www.federalreserve.gov/newsevents/reform_mbs.htm.
 
@@ -8484,13 +8484,15 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^107]: 9/25/2008 "OTS Fact Sheet on Washington Mutual Bank," Dochow_Darrel-00076154_001.
 
-[^108]: See, e.g., "Mortgage Lender Rankings by Residential Originations," charts prepared by MortgageDaily.com (indicating WaMu was one of the top three issuers of U.S. residential mortgages from 2003 to 2005); "Washington Mutual to Acquire PNC's Residential Mortgage Business," Business Wire (10/2/2000), http://findarticles.com/p/articles/mi_m0EIN/is_2000_Oct_2/ai_65635032. (7/11/2007 "S&PCORRECT: 612 U.S. Subprime RMBS Classes Put On Watch Neg; Methodology Revisions Announced," S&P's RatingsDirect (correcting the original version issued on 7/10/2007)).
+[^108]: See, e.g., "Mortgage Lender Rankings by Residential Originations," charts prepared by MortgageDaily.com (indicating WaMu was one of the top three issuers of U.S. residential mortgages from 2003 to 2005); "Washington Mutual to Acquire PNC's Residential Mortgage Business," Business Wire (10/2/2000), http://findarticles.com/p/articles/mi_m0EIN/is_2000_Oct_2/ai_65635032.
 
 [^109]: 4/2010 "Evaluation of Federal Regulatory Oversight of Washington Mutual Bank," report prepared by the Offices of Inspector General at the Department of the Treasury and Federal Deposit Insurance Corporation, Hearing Exhibit 4/16-82 (hereinafter "IG Report").
 
 [^110]: See 3/1/2007 Washington Mutual Inc. 10-K filing with the SEC, at 56.
 
 [^111]: See 6/11/2007 chart entitled, "Capital Markets Division Growth," JPM_WM03409858, Hearing Exhibit 4/13-
+
+[^47]: c.
 
 [^112]: See prepared statement of Treasury IG Eric Thorson, "Wall Street and the Financial Crisis: Role of the Regulators," before the U.S. Senate Permanent Subcommittee on Investigations, S.Hrg. 111-672 (April 16, 2010) (hereinafter "April 16, 2010 Subcommittee Hearing"), at 5.
 
@@ -8548,6 +8550,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^139]: See, e.g., 12/21/2004 "Asset Allocation Initiative: Higher Risk Lending Strategy and Increased Credit Risk Management," Washington Mutual Board of Directors Discussion, JPM_WM04107995-8008, Hearing Exhibit 4/13-
 
+[^2]: b; 1/2005 "Higher Risk Lending Strategy 'Asset Allocation Initiative,'" submitted to Washington Mutual Board of Directors Finance Committee Discussion, JPM_WM00302975-93, Hearing Exhibit 4/13-2a.
+
 [^140]: "Securitizations of Washington Mutual Subprime Home Loans," chart prepared by the Subcommittee, Hearing Exhibit 4/13-1c.
 
 [^141]: 4/2010 IG Report, at 9, Hearing Exhibit 4/16-82.
@@ -8602,7 +8606,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^166]: See 9/25/2008 "OTS Fact Sheet on Washington Mutual Bank," Dochow_Darrel-00076154_001 ("Loans held: $118.9 billion in single-family loans held for investment – this includes $52.9 billion in payment option ARMs and $16.05 billion in subprime mortgage loans").
 
-[^167]: 1/18/2005 Washington Mutual Inc. Washington Mutual Bank FA Finance Committee Minutes at JPM_WM06293964; see also 1/2005 "Higher Risk Lending Strategy Presentation," submitted to Washington Mutual Board of Directors, at JPM_WM00302977, Hearing Exhibit 4/13-2a b.
+[^167]: 1/18/2005 Washington Mutual Inc. Washington Mutual Bank FA Finance Committee Minutes at JPM_WM06293964; see also 1/2005 "Higher Risk Lending Strategy Presentation," submitted to Washington Mutual Board of Directors, at JPM_WM00302977, Hearing Exhibit 4/13-2a
 
 [^168]: 4/18/2006 "Home Loans Discussion Board of Directors Meeting," WaMu presentation, JPM_WM00690890-901, Hearing Exhibit 4/13-3.
 
@@ -8612,7 +8616,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^171]: Id. at 894 [formatting as in the original].
 
-[^172]: Subcommittee interview of David Schneider (2/16/2010). (providing talking points for selling Anderson securities to customers).
+[^172]: Subcommittee interview of David Schneider (2/16/2010).
 
 [^173]: April 13, 2010 Subcommittee Hearing at 53.
 
@@ -8651,6 +8655,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^190]: 4/18/2006 "Home Loans Discussion Board of Directors Meeting," WaMu PowerPoint presentation, JPM_WM00690890-901 at 894, Hearing Exhibit 4/13-3.
 
 [^191]: Id. [formatted for clarity].
+
+[^192]: 6/18/2007 Washington Mutual memorandum from Kerry Killinger to the Board of Directors, "Strategic Direction," JPM_WM03227058-67 at 60, Hearing Exhibit 4/13-6a.
 
 [^193]: Id. at 66 [emphasis in original removed]. See also 1/2007 Washington Mutual presentation, "Subprime Mortgage Program," JPM_WM02551400, Hearing Exhibit 4/13-5 (informing potential investors in its subprime RMBS securities that: "WaMu is focusing on higher margin products").
 
@@ -8698,9 +8704,11 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^215]: 1/13/2004 report on "Joint Visitation Dated October 14, 2003," jointly prepared by the FDIC and the State of Washington Department of Financial Institutions, FDIC-E_00102515, at 3, Hearing Exhibit 4/13-8b.
 
-[^216]: 2004. An internal WaMu memorandum, later prepared by a WaMu risk officer who had been asked to review Long Beach in 2004, recalled significant problems: "You've asked for a chronological recap of ERM [Enterprise Risk Management] market risk involvement with Longbeach and the sub prime conduit. … [In] 2004: I conducted an informal but fairly intensive market risk audit of Longbeach …. The climate was very adversarial. … We found a total mess." 217 A November 2004 email exchange between two WaMu risk officers provides a sense that poor quality loans were still a problem. The first WaMu risk officer wrote: "Just a heads-up that you may be getting some outreach from Carroll Moseley (or perhaps someone higher up in the chain) at Long Beach regarding their interest in exploring the transfer of … a small amount (maybe $10-20mm in UPB [unpaid principal balance]) of Piggieback 'seconds' (our favorite toxic combo of low FICO borrower and HLTV loan) from HFS [hold for sale portfolio] to HFI [hold for investment portfolio]. "As Carroll described the situation, these are of such dubious credit quality that they can't possibly be sold for anything close to their 'value' if we held on to them. … I urged him to reach out to you directly on these questions. (E.g., it's entirely possible we might want to make a business decision to keep a small amount of this crap on our books if it was already written down to near zero, but we would want all parties to be clear that no precedent was being set for the product as a whole, etc., etc.)." 218 The second risk officer sent the email to the head of Long Beach, with the comment, "I think it would be prudent for us to just sell all of these loans." Subcommittee interview of Fay Chapman (2/9/2010). See also 12/21/2005 OTS memorandum, "Long Beach Mortgage Corporation (LBMC)," OTSWMS06-007 0001010, Hearing Exhibit 4/16-31 ("In 2003, adverse internal reviews of LBMC operations led to a decision to temporarily cease securitization activity. WMU's Legal Department then led a special review of all loans in LBMC's pipeline and held-for-sale warehouse in order to ensure file documentation adequately supported securitization representations and warranties and that WMI was not exposed to a potentially significant contingent liability. Securitization activity was reinstated in early 2004 after the Legal Department concluded there was not a significant liability issue.").
+[^216]: 2004. An internal WaMu memorandum, later prepared by a WaMu risk officer who had been asked to review Long Beach in 2004, recalled significant problems: "You've asked for a chronological recap of ERM [Enterprise Risk Management] market risk involvement with Longbeach and the sub prime conduit. … [In] 2004: I conducted an informal but fairly intensive market risk audit of Longbeach …. The climate was very adversarial. … We found a total mess." 217 A November 2004 email exchange between two WaMu risk officers provides a sense that poor quality loans were still a problem. The first WaMu risk officer wrote: "Just a heads-up that you may be getting some outreach from Carroll Moseley (or perhaps someone higher up in the chain) at Long Beach regarding their interest in exploring the transfer of … a small amount (maybe $10-20mm in UPB [unpaid principal balance]) of Piggieback 'seconds' (our favorite toxic combo of low FICO borrower and HLTV loan) from HFS [hold for sale portfolio] to HFI [hold for investment portfolio]. "As Carroll described the situation, these are of such dubious credit quality that they can't possibly be sold for anything close to their 'value' if we held on to them. … I urged him to reach out to you directly on these questions. (E.g., it's entirely possible we might want to make a business decision to keep a small amount of this crap on our books if it was already written down to near zero, but we would want all parties to be clear that no precedent was being set for the product as a whole, etc., etc.)." 218 The second risk officer sent the email to the head of Long Beach, with the comment, "I think it would be prudent for us to just sell all of these loans."
 
-[^2005]: Early Payment Defaults. Early in 2005, a number of Long Beach loans experienced "early payment defaults," meaning that the borrower failed to make a payment on the loan within three months of the loan being sold to investors. That a loan would default so soon after origination typically indicates that there was a problem in the underwriting process. Investors who bought EPD loans often demanded that Long Beach repurchase them, invoking the representations and warranties clause in the loan sales agreements. Washington Mutual Inc. 10-K filing with the SEC at 27. "President's Club 2005 - Maui, Awards Night Show Script," Washington Mutual Home Loans Group, Hearing Exhibit 4/13-63a. Id. at 98.
+[^2005]: Early Payment Defaults. Early in 2005, a number of Long Beach loans experienced "early payment defaults," meaning that the borrower failed to make a payment on the loan within three months of the loan being sold to investors. That a loan would default so soon after origination typically indicates that there was a problem in the underwriting process. Investors who bought EPD loans often demanded that Long Beach repurchase them, invoking the representations and warranties clause in the loan sales agreements.
+
+[^216]: Subcommittee interview of Fay Chapman (2/9/2010). See also 12/21/2005 OTS memorandum, "Long Beach Mortgage Corporation (LBMC)," OTSWMS06-007 0001010, Hearing Exhibit 4/16-31 ("In 2003, adverse internal reviews of LBMC operations led to a decision to temporarily cease securitization activity. WMU's Legal Department then led a special review of all loans in LBMC's pipeline and held-for-sale warehouse in order to ensure file documentation adequately supported securitization representations and warranties and that WMI was not exposed to a potentially significant contingent liability. Securitization activity was reinstated in early 2004 after the Legal Department concluded there was not a significant liability issue.").
 
 [^217]: Undated memorandum from Dave Griffith to Michelle McCarthy, "Sub Prime Chronology," likely prepared in early 2007, JPM_WM02095572.
 
@@ -8849,6 +8857,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^289]: 6/7/2007 OTS Asset Quality Memo 11, "Broker Credit Administration," Hedger_Ann-00027930_001, Hearing Exhibit 4/16-10.
 
 [^290]: 10/4/2006 "Interagency Guidance on Nontraditional Mortgage Product Risks," (NTM Guidance), 71 Fed. Reg.
+
+[^192]: at 58609.
 
 [^291]: Id. at 58615.
 
@@ -9026,7 +9036,9 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^378]: See, e.g., 11/13/2006 "e-Flash" from Mary Ann Kovack to Consumer Direct, JPM_WM03077089-90.
 
-[^2007]: "Home Loans Product Strategy," WaMu presentation at JPM_WM03097203, Hearing Exhibit 4/13-60a (only Countrywide ranked higher). WaMu Home Loans Product Strategy, "Strategy and Business Initiatives Update," JPM_WM03097217, Hearing Exhibit 4/13-60a [emphasis in original]. Performance Evaluation for Peter D'Erchia, S&P SEN-PSI 0007442; See also April 23, 2010 Subcommittee Hearing at 74-75. annual report filed with the SEC, in particular the Executive Summary of Deutsche Bank's Annual Report and the letter from the Chairman of the Board. See Goldman Sachs response to Subcommittee QFR at PSI_QFR_GS0252, at 0262.
+[^2007]: "Home Loans Product Strategy," WaMu presentation at JPM_WM03097203, Hearing Exhibit 4/13-60a (only Countrywide ranked higher).
+
+[^2005]: Washington Mutual Inc. 10-K filing with the SEC at 27.
 
 [^381]: Id.
 
@@ -9100,6 +9112,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^416]: See 6/11/2007 chart entitled, "Rate of Growth Exceeds the Industry," JPM_WM03409860, Hearing Exhibit 4/13-
 
+[^47]: c.
+
 [^417]: 6/2008 "WaMu Wholesale Specialty Lending Securitization Performance Summary," JPM_WM02678980, Hearing Exhibit 4/13-45.
 
 [^418]: 10/17/2006 "Option ARM" draft presentation to the WaMu Board of Directors, JPM_WM02549027, Hearing Exhibit 4/13-38 (see chart at 2). See also 8/2006 "Option ARM Credit Risk," WaMu presentation, at JPM_WM00212644, Hearing Exhibit 4/13-37 (see chart at 5).
@@ -9107,6 +9121,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^419]: See chart in section E(4), below, using loan data from Inside Mortgage Finance.
 
 [^420]: See 6/11/2007 chart entitled, "Rate of Growth Exceeds the Industry," JPM_WM03409860, Hearing Exhibit 4/13-
+
+[^47]: c.
 
 [^421]: Id. WaMu attributed its rapid rise in the issuer rankings over the three-year period to its establishment of a Conduit Program, which began buying loans in bulk in 2004. Id.
 
@@ -9118,6 +9134,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^425]: See 6/11/2007 chart entitled, "Capital Markets Division Growth," JPM_WM03409858, Hearing Exhibit 4/13-
 
+[^47]: c.
+
 [^426]: Id.
 
 [^427]: Subcommittee interview of David Beck (3/2/2010).
@@ -9125,6 +9143,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^428]: Id.
 
 [^429]: See 6/11/2007 chart entitled, "Capital Markets Division Growth," JPM_WM03409858, Hearing Exhibit 4/13-
+
+[^47]: c.
 
 [^430]: Id.
 
@@ -9138,6 +9158,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^435]: See 6/11/2007 chart entitled, "Origination Through Distribution," JPM_WM03409859, Hearing Exhibit 4/13-
 
+[^47]: c; Subcommittee interview of David Beck (3/2/2010).
+
 [^436]: See 3/2007 Washington Mutual Inc. 10-K filing with the SEC, at 45 (describing securitization process).
 
 [^437]: See "LBMC 2005-2 Structure" and "LBMC 2005-2 Cash Flow Waterfall," FDIC_WAMU_000012358-59, Hearing Exhibit 47a.
@@ -9147,6 +9169,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^439]: Id.
 
 [^440]: 3/24/2005 email from Kevin Gasvoda of Goldman Sachs to Christopher Gething, others, Hearing Exhibit 4/27-
+
+[^167]: b.
 
 [^441]: 4/14/2005 email from Steve Blelik to David Henry, "Fitch – LBMC Review," Hearing Exhibit 4/13-8a.
 
@@ -9164,7 +9188,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^448]: See Standard and Poor's data at www.globalcreditportal.com.
 
-[^449]: See, e.g., wamusecurities.com (subscription website maintained by JPMorgan Chase with data on Long Beach and WaMu mortgage backed securities showing, as of March 2011, delinquency rates for particular mortgage backed securities, including LBMLT 2006-1 – 58.44%; LBMLT 2006-6 – 60.06%; and LBMLT 2005-11 – 54.32%). (1976)).
+[^449]: See, e.g., wamusecurities.com (subscription website maintained by JPMorgan Chase with data on Long Beach and WaMu mortgage backed securities showing, as of March 2011, delinquency rates for particular mortgage backed securities, including LBMLT 2006-1 – 58.44%; LBMLT 2006-6 – 60.06%; and LBMLT 2005-11 – 54.32%).
 
 [^450]: 2/2/2008 email from David Beck to David Schneider and others, JPM_WM02445758, Hearing Exhibit 4/13-51.
 
@@ -9356,6 +9380,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^544]: 11/2006 "President's Club - Take the Lead!," WaMu Home Loans flier, Hearing Exhibit 4/13-62.
 
+[^2005]: "President's Club 2005 - Maui, Awards Night Show Script," Washington Mutual Home Loans Group, Hearing Exhibit 4/13-63a.
+
 [^548]: 6/19/2008 OTS Findings Memorandum, "Loan Fraud Investigation," JPM_WM02448184, Hearing Exhibit 4/13- 25.
 
 [^549]: Documents regarding Long Beach compensation, Hearing Exhibit 4/13-59a.
@@ -9371,6 +9397,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^554]: Documents regarding Long Beach compensation, Hearing Exhibit 4/13-59b.
 
 [^555]: 4/4/2008 WaMu Memorandum of Results, "AIG/UG and OTS Allegation of Loan Frauds Originated by [name redacted]," at 11, Hearing Exhibit 4/13-24.
+
+[^2007]: WaMu Home Loans Product Strategy, "Strategy and Business Initiatives Update," JPM_WM03097217, Hearing Exhibit 4/13-60a [emphasis in original].
 
 [^557]: Id.
 
@@ -9440,6 +9468,10 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^590]: Section 941(b) also imposes risk retention requirements on other types of asset backed securities and collateralized debt obligations.
 
+[^12]: CFR § 360.6. CFR § 360.6(b)(5)(i).
+
+[^75]: Fed. Reg. 185 (9/24/2010).
+
 [^594]: Id. at 58509.
 
 [^595]: See "Wall Street and the Financial Crisis: Role of the Regulators," before the U.S. Senate Permanent Subcommittee on Investigations, S.Hrg. 111-672 (April 16, 2010) (hereinafter "April 16, 2010 Subcommittee Hearing").
@@ -9452,9 +9484,11 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^599]: See April 16, 2010 Subcommittee Hearing at 11 (testimony of Treasury IG Eric Thorson).
 
-[^2009]: OTS Annual Report, "Agency Profile," http://www.ots.treas.gov/_files/482096.pdf. See 12/7/2006 email from Daniel Sparks to Tom Montag, "Subprime Volatility," GS MBS-E-010931233.
+[^2009]: OTS Annual Report, "Agency Profile," http://www.ots.treas.gov/_files/482096.pdf.
 
 [^601]: See "FDIC Mission, Vision, and Values," http://www.fdic.gov/about/mission/index.html.
+
+[^12]: U.S.C. § 1820(b)(3).
 
 [^603]: The interagency agreement is entitled, "Coordination of Expanded Supervisory Information Sharing and Special Examinations." During the time period of the Subcommittee's investigation, the 2002 version of the interagency agreement, signed by the FDIC, Federal Reserve, OCC, and OTS, was in effect. In July 2010, the federal financial regulators agreed to adopt a stronger version, discussed later in this Report.
 
@@ -9638,7 +9672,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^699]: Id.
 
-[^700]: 5/22/2006 WaMu internal email, OTSWMEN-0000020983. dm on AAs is considered too wide for Timberwolf. . . . To be constructive, however, I know the desk is entertaining block size trades at the moment from real money accounts in the US and Asia at wide levels (much wider than what they have traded before). To give you a sense, I think these represent 400-450dm and 650-700dm respectively (for size) at the widest level of such enquiries." The notation "dm" refers to "discount margin." Higher discount margins correspond to greater markdowns from par prices. See e.g. Timberwolf I, Price-DM Table 05-16- 2007.xls, GS M BS-E-001810225. Basis Capital eventually accepted the 450 and 650 prices suggested by Mr. Maltezos. See 6/13/2007 email from David Lehman to Tom Montag, GS MBS-E-001914580.
+[^700]: 5/22/2006 WaMu internal email, OTSWMEN-0000020983.
 
 [^701]: Subcommittee Interview of Bruce Thorvig (2/24/2010).
 
@@ -9902,6 +9936,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^831]: 10/4/2006 "Interagency Guidance on Nontraditional Mortgage Product Risks," (NTM Guidance), 71 Fed. Reg.
 
+[^192]: at 58609.
+
 [^832]: Subcommittee interviews of Sheila Bair (4/5/2010) and George Doerr (3/30/2010).
 
 [^833]: See 10/2006 OTS Meeting, "Washington Mutual Alternative Mortgage Guidance Implementation Plan," JPM_WM02549033, Hearing Exhibit 4/16-73.
@@ -9927,6 +9963,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^843]: See wamusecurities.com. (subscription website maintained by JPMorgan Chase with data on Long Beach and WaMu mortgage backed securities showing, as of January 2011, delinquency rates for particular mortgage backed securities, including WMALT 2006 OA-3 – 57.87%).
 
 [^844]: See 5/15/2007 email from OTS Examiner-in-Charge Benjamin Franklin to OTS Western Region Director Darrel Dochow, Franklin_Benjamin-00020449_001, Hearing Exhibit 4/16-79 (quoting email from Bill Magrini). See also 3/27/2007 email from OTS official Bill Magrini to OTS colleagues, Quigley_Lori-00110324, Hearing Exhibit 4/16-
+
+[^76]: ("I noted that several of our institutions make NINA loans. That, in my humble opinion is collateral dependent lending and deemed unsafe and unsound by all the agencies. … It is not at all surprising that delinquencies are up, even among Alt-A. In my opinion, credit standards have gone too low."). See also undated OTS document, "Option ARM Neg Am Review Workprogram 212A(1) & Nontraditional Mortgage Guidance Review," at OTSWMEF-0000009891, Hearing Exhibit 4/16-74 (determining that 73% of the Option ARMs in WaMu's portfolio were "low doc" loans).
 
 [^845]: 5/16/2007 email from OTS Western Region Director Darrel Dochow to OTS Examiner-in-Charge Benjamin Franklin, Franklin_Benjamin-00020449_001, Hearing Exhibit 4/16-79.
 
@@ -10112,6 +10150,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^936]: In re Fremont General Corporation, Case No. 8:08-bk-13421-ES (US Bankruptcy Court, CD Calif.), First Status Report (July 30, 2010) (included in 7/30/2010 Fremont General Corporation 8K filing with the SEC).
 
+[^2006]: Fremont 10-K Statement with the SEC.
+
 [^938]: Fremont Cease and Desist Order at 1-3. See also 3/7/2007 FDIC press release, "FDIC Issues Cease and Desist Order Against Fremont Investment & Loan, Brea, California, and its Parents."
 
 [^939]: Fremont Cease and Desist Order at 2-4.
@@ -10119,6 +10159,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^940]: Id. at 3.
 
 [^941]: See 3/4/2008 Fremont General Corporation press release, "Fremont General Corporation Announces Receipt of Notice of Covenant Default With Respect to Guaranties Issued in Connection With Certain Prior Residential Sub- Prime Loan Sale Transactions," http://media.corporate-ir.net/media_files/irol/10/106265/08-03-
+
+[^4]: N%20FGCAnnouncesDefaultNoticewithRRELoanTransactions.pdf. See also "CapitalSource to Acquire Fremont's Retail Arm," New York Times (4/14/2008).
 
 [^942]: In re Fremont Investment & Loan, Supervisory Prompt Corrective Action Directive, Docket No. FDIC-08-069 PCAS ( March 26, 2008).
 
@@ -10154,7 +10196,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^963]: Prepared statement of Richard Michalek, Former VP/Senior Credit Officer, Moody's Investors Service, April 23,
 
-[^2010]: Subcommittee Hearing, at 2. See also 8/29/2006 email from Greg Lippmann, (Deutsche Bank), to Paolo Pellegrini (Paulson & Co.) and others, DBSI_PSI_EMAIL01625848 at 52 ("Since a CDO without a triple-A-rated senior tranche would be unmarketable, their imprimatur is indispensable."); 11/13/2007 email from Ralph Silva (Goldman Sachs), GS MBS-E-010023525, Tri-Lateral Combined Comments Attachment, GS MBS-E-01035693- 715, at 713 ("Investors in subprime related securities, especially higher rated bonds, have historically relied significantly on bond ratings particularly when securities are purchased by structured investing vehicles."); M&T Bank Corporation v. Gemstone CDO VII, Ltd., Index No. 200800764 (N.Y. Sup.), Complaint, (June 16, 2008) at 12. 12/13/2006 Firmwide Risk Committee December 13 Minutes, GS MBS-E-009582963-64.
+[^2010]: Subcommittee Hearing, at 2. See also 8/29/2006 email from Greg Lippmann, (Deutsche Bank), to Paolo Pellegrini (Paulson & Co.) and others, DBSI_PSI_EMAIL01625848 at 52 ("Since a CDO without a triple-A-rated senior tranche would be unmarketable, their imprimatur is indispensable."); 11/13/2007 email from Ralph Silva (Goldman Sachs), GS MBS-E-010023525, Tri-Lateral Combined Comments Attachment, GS MBS-E-01035693- 715, at 713 ("Investors in subprime related securities, especially higher rated bonds, have historically relied significantly on bond ratings particularly when securities are purchased by structured investing vehicles."); M&T Bank Corporation v. Gemstone CDO VII, Ltd., Index No. 200800764 (N.Y. Sup.), Complaint, (June 16, 2008) at 12.
 
 [^964]: See, e.g., Section 28 (d) and (e) of the Federal Deposit Insurance Act, codified at 12 U.S.C. § 1831e(d)-(e).
 
@@ -10582,7 +10624,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1176]: Subcommittee interview of Greg Lippmann, Former Managing Director and Global Head of Trading of CDOs for Deutsche Bank (10/18/2010). Mr. Lippmann said he thought the agencies' decision not to retest existing securities was "ridiculous."
 
-[^2008]: SEC Examination Report for Moody's Investor Services Inc., PSI-SEC (Moodys Exam Report)-14-0001- 16, at 4. SEC Examination Report for Standard and Poor's Ratings Services, Inc., PSI-SEC (S&P Exam Report)- 14-0001-24, at 3. For a detailed discussion of these obligations under federal securities laws, see Section (6)(a), below.
+[^2008]: SEC Examination Report for Moody's Investor Services Inc., PSI-SEC (Moodys Exam Report)-14-0001- 16, at 4. SEC Examination Report for Standard and Poor's Ratings Services, Inc., PSI-SEC (S&P Exam Report)- 14-0001-24, at 3.
 
 [^1179]: Prepared statement of Frank Raiter, Former Managing Director at Standard & Poor's, April 23, 2010 Subcommittee Hearing, at 1-2.
 
@@ -10628,6 +10670,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1200]: Subcommittee interview of Peter D'Erchia (4/13/2010).
 
+[^2007]: Performance Evaluation for Peter D'Erchia, S&P SEN-PSI 0007442; See also April 23, 2010 Subcommittee Hearing at 74-75.
+
 [^1202]: FY 2004 "Financial Institution Fraud and Failure Report," prepared by the Federal Bureau of Investigation, available at http://www.fbi.gov/stats-services/publications/fiff_04.
 
 [^1203]: "FBI warns of mortgage fraud 'epidemic'," CNN.com (9/17/2004), http://articles.cnn.com/2004-09- 17/justice/mortgage.fraud_1_mortgage-fraud-mortgage-industry-s-1-crisis?_s=PM:LAW.
@@ -10639,6 +10683,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^1206]: See, e.g., 9/2/2006 email chain between Richard Koch, Robert Mackey, and Michael Gutierrez, "Nightmare Mortgages," Hearing Exhibit 4/23-46a; 9/5/2006 email chain between Edward Highland, Michael Gutierrez, and Richard Koch, "Nightmare Mortgages," Hearing Exhibit 4/23-46b; and 9/29/2006 email from Michael Gutierrez, Director of S&P, PSI-S&P-RFN-000029.
 
 [^1207]: See, e.g., 6/24/2010 supplemental response from S&P to the Subcommittee, Exhibit H, Hearing Exhibit 4/23-
+
+[^108]: (7/11/2007 "S&PCORRECT: 612 U.S. Subprime RMBS Classes Put On Watch Neg; Methodology Revisions Announced," S&P's RatingsDirect (correcting the original version issued on 7/10/2007)).
 
 [^1208]: See, e.g., 2008 SEC Examination Report for Moody's Investor Services Inc., PSI-SEC (Moodys Exam Report)- 14-0001-16, at 7; and 2008 SEC Examination Report for Standard and Poor's Ratings Services, Inc., PSI-SEC (S&P Exam Report)-14-0001-24, at 11 (finding with respect to each credit rating agency that it "did not engage in any due diligence or otherwise seek to verify the accuracy and quality of the loan data underlying the RMBS pools it rated").
 
@@ -10731,6 +10777,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^1252]: CDO squared transactions will generally be referred to in this Report as "CDO 2." Some Goldman materials also use the term "CDO^2."
 
 [^1253]: Each of the five indices tracked a different basket of subprime RM BS securities. One index tracked a basket of
+
+[^20]: AAA rated RMBS securities; the second a basket of AA rated RMBS securities; and the remaining indices tracked baskets of A, BBB, and BBB- rated RMBS securities. Every six months, a new set of RM BS securities was selected for each index. See 3/2008 Federal Reserve Bank of New York Staff Report No. 318, "Understanding the Securitization of Subprime Mortgage Credit," at 26. Markit Group Ltd. administered the ABX Index which issued indices in 2006 and 2007, but has not issued any new indices since then.
 
 [^1254]: Subcommittee Interview of Joshua Birnbaum (4/22/2010); Subcommittee Interview of Rajiv Kamilla (10/12/2010).
 
@@ -10871,6 +10919,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^1322]: According to a chart prepared by Deutsche Bank for the Subcommittee, in 2007 and 2008, its RMBS holdings lost about $3.4 billion; the CDO Group lost about $1.0 billion; Winchester Capital lost about $1.1 billion; and two other trading desks lost nearly $650 million. These losses were offset by the $1.5 billion gain from the bank's short position, for total mortgage related losses of about $4.5 billion. Net Revenues from ABS Products Backed by U.S. Residential Mortgages, DB_PSI_C00000003.
 
 [^1323]: Deutsche Bank stated in its annual report filed with the SEC that it ended 2007 in the black, due to gains in other areas of the bank, including its Corporate and Investment Bank which reported a pre-tax profit of €5.1 billion and its Private Clients and Asset Management division which reported a pre-tax profit of €2.1 billion. See Deutsche Bank's
+
+[^2007]: annual report filed with the SEC, in particular the Executive Summary of Deutsche Bank's Annual Report and the letter from the Chairman of the Board.
 
 [^1324]: Subcommittee interview with Deutsche Bank's counsel (3/7/2011). See also 3/21/2011 letter and accompanying chart from Deutsche Bank's counsel to the Subcommittee, PSI-Deutsche_Bank-32-0001-04.
 
@@ -11320,6 +11370,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1547]: 10/2007 Global Mortgages, Business Unit Townhall at 4-5, GS MBS-E-013703463, Hearing Exhibit 4/27-47.
 
+[^4]: Q07 Fact Sheet prepared for David Viniar, GS MBS-E-009724276, Hearing Exhibit 4/27-159.
+
 [^1549]: See discussion of risk limits, VAR measurements, and risk reports, below.
 
 [^1550]: Id. "Value-at-Risk" or VAR is a key risk measurement system used by Goldman. At a 95% confidence level, VAR represents the dollar amount a business unit could expect to lose once every 20 trading days or about once per month. Subcommittee interview of Craig Broderick (4/9/2010). See also Philippe Jorion, "Value at Risk: The New Benchmark for Managing Financial Risk," at 20 (3d ed. 2007).
@@ -11416,6 +11468,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1596]: 4/19/2007 email chain between Daniel Sparks and Bunty Bohra, GS MBS-E-010539324, Hearing Exhibit 4/27-
 
+[^102]: (Mr. Bohra responds, "[w]e have done that with Timberwolf already.").
+
 [^1597]: 5/14/2007 email from Edwin Chin, GS MBS-E-012553986.
 
 [^1598]: 6/2007 Goldman internal email to Daniel Sparks, Hearing Exhibit 4/27-105.
@@ -11470,6 +11524,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1623]: The ABX Index began trading in January 2006. Goldman's position in the ABX Index was flat when the Index debuted, but became long and grew considerably longer in the fall of 2006. See, e.g., 10/17/2006-10/18/2006 email exchange between Daniel Sparks and Tom Montag, "3 things," GS MBS-E-010917469; 3/1/2007 email from Daniel Sparks, "Dinner," GS MBS-E-002356757, Hearing Exhibit 4/27-143 ("Most of the synthetic flows were hedge funds getting short and CDO vehicles getting long."). Goldman executives also told the Subcommittee that the firm often took the long side of ABX transactions in which hedge funds were going short. Subcommittee interview of Daniel Sparks (4/15/2010); Subcommittee interview of David Viniar (4/13/2010). See also, e.g., 8/10/2006 email from Goldman salesperson, "Paulson bookings," GS MBS-E-012395893 ("GS sold 550mm protection on ABX.HE.A 06-
 
+[^2]: to Paulson"); 12/7/2006 email chain between Daniel Sparks and Tom Montag, "More thorough response," GS MBS-E-010931324 (Goldman had previously handled approximately $9 billion in transactions for Paulson); Subcommittee interview of Michael Swenson (4/16/2010) ("Paulson [hedge fund] was the biggest counterparty on day 1 [of the ABX Index] and throughout 2006").
+
 [^1624]: Mr. Birnbaum's acquisition of a large net long position in the ABX was viewed negatively by Goldman senior executives. W hen Mr. Sparks recommended Mr. Birnbaum for a promotion to managing director in October 2006, Mr. Montag responded: "Josh slipped a bit with the abx position etc. Is that appropriate." Mr. Sparks replied: "Josh ... has had a rough couple of months. But he has handled it very well and is a key person for our franchise. I don't think those 2 months should confuse his value to the firm." 10/17/2006 email exchange between Daniel Sparks and Tom Montag, "3 things," GS MBS-E-010917469. Mr. Birnbaum was named a managing director later that month, but Mr. Montag again raised the issue of his net long ABX position when Mr. Sparks sought to allow Mr. Birnbaum to continue buying equity put options on companies with subprime exposure. Mr. Montag wrote: "Unfortunately trader josh has not demonstrated a track record of controlling his position. ... Instead of these lousy hedges he should just be selling his position." 3/21/2007 email chain between Tom Montag and Daniel Sparks, GS MBS-E-010629379, Hearing Exhibit 4/27-21. See also 2/5/2007 email from Richard Ruzika to Gary Cohn, "Are you living Morgatages [sic]," GS MBS-E-016165784 (Mr. Ruzika: "You know and I know this position was allowed to get too big – for the liquidity in the market, our infrastructure, and the ability of our traders. That statement would be the same even if we had gotten the market direction correct –although the vultures would not be circling.").
 
 [^1625]: See, e.g., 12/15/2006 email from David Viniar to Tom Montag, "Subprime Risk Meeting with Viniar/McMahon Summary," GS MBS-E-009726498, Hearing Exhibit 4/27-3 ("there will be very good opportunities as the markets goes into what is likely to be even greater distress"); 2/8/2007 email from Daniel Sparks, "Post," GS MBS-E- 002201668, Hearing Exhibit 4/27-7 ("Subprime environment going from bad to worse (think whack a mole)."); 1/9/2007 Goldman Presentation, "Mortgage Department Update," GS M BS-E-002320968 ("Risks, Challenges and Structural Issues: –Very tough going in Resi Credit world – p&l [profit and loss] will be challenging; –Housing price and loan volume declines; –Investing in business in very difficult environment"); cf. 11/1/2006 Goldman Structured Products Strategist memorandum, "Q3 Mortgage Investor Survey," GS MBS-E-006576068-76 ("Clients expect a downturn in housing in 2007, investors worried about high LTV [loan-to-value], low/no doc loans, pay option ARMs, origination volumes to be down 10% in 2007").
@@ -11523,6 +11579,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^1649]: 12/15/2006 email from David Viniar to Tom Montag, GS MBS-E-009726498, Hearing Exhibit 4/27-3.
 
 [^1650]: See 1/5/2007 "Notionals (ABX convention)" chart, taken from "Index and Single Name Position History 2006 as of 05Jan07.xls," attachment to 1/8/2007 email from Joshua Birnbaum to Daniel Sparks, "ABX Subprime Risk by vintages," GS MBS-E-010214409. The SPG Desk also periodically updated that chart. See, e.g., chart attachments to 2/6/2007 email from Kevin Kao to Joshua Birnbaum, "Index and Single Name Position History 2006 as of
+
+[^5]: Feb07.xls," GS MBS-E-012744553; chart attachments to 2/23/2007 email from Tom Barrett to Kevin Kao, Michael Swenson and Justin Gmelich, "Index and Single Name Position History 2006 As of 22Feb07.xls," GS MBS-E-012411673; chart attachments to 3/2/2007 email from Kevin Kao to Joshua Birnbaum, "Index and Single Name Position History 2006 As of 01Mar07.xls," GS MBS-E-012776557.
 
 [^1651]: 12/14/2007 email from Mr. Gasvoda, "Retained bonds," GS MBS-E-010935323, Hearing Exhibit 4/27-72.
 
@@ -12062,6 +12120,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1920]: 2/20/2007 email, "MarketRisk: End of Day Summary - cob 02/16/2007," GS MBS-E-009724779. 2/22/2007 email, "MarketRisk: End of Day Summary - cob 02/21/2007," GS MBS-E-009762741 (Mortgages VAR on 2/20 was
 
+[^63]: million).
+
 [^1921]: Id. ("Mortgages VAR has a temporary $60mm limit until cob 2/27/2007.").
 
 [^1922]: 2/26/2007 email, "MarketRisk: End of Day Summary - cob 2/23/2007," GS MBS-E-009720057; 2/27/2007 email, "MarketRisk: End of Day Summary - cob 2/26/2007," GS MBS-E-009764685.
@@ -12230,6 +12290,16 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2004]: April 27, 2010 Subcommittee Hearing at 132.
 
+[^2005]: Id. at 98.
+
+[^2007]: See Goldman Sachs response to Subcommittee QFR at PSI_QFR_GS0252, at 0262.
+
+[^2008]: For a detailed discussion of these obligations under federal securities laws, see Section (6)(a), below.
+
+[^2009]: See 12/7/2006 email from Daniel Sparks to Tom Montag, "Subprime Volatility," GS MBS-E-010931233.
+
+[^2010]: 12/13/2006 Firmwide Risk Committee December 13 Minutes, GS MBS-E-009582963-64.
+
 [^2011]: For more information about this December 14 meeting, see discussion in Section C(4)(b), above.
 
 [^2012]: 2/8/2007 email from Daniel Sparks, "Post," Hearing Exhibit 4/27-7.
@@ -12263,6 +12333,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^2026]: 2/23/2007 "Significant Cash Inventory Change (Q1'07 vs. Q4'06)," datasheet prepared by Goldman, GS MBS- E-010037311, Hearing Exhibit 4/27-12.
 
 [^2027]: See, e.g., 3/8/2007 email from Daniel Sparks, "Mortgage risk," GS MBS-E-002206279, Hearing Exhibit 4/27-
+
+[^75]: ("[f]or residential loans, we have not bought much lately"); 3/26/2007 Goldman presentation to Board of Directors, "Subprime Mortgage Business," GS MBS-E-005565527, Hearing Exhibit 4/27-22 (reporting that Mortgage Department is using "conservative bids" on loans); 3/14/2007 Goldman Presentation to SEC, "Subprime Mortgage Business 14-Mar-2007," at 7, GS MBS-E-010022328; 3/2/2007 email to Craig Broderick, "Audit Committee Package_Feb 21_Draft_Mortgage_Page.ppt," GS M BS-E-009986805, Hearing Exhibit 4/27-63 (we are "lowballing" bids on loans).
 
 [^2028]: 2/8/2007 email from Kevin Gasvoda to Daniel Sparks, "Post," GS MBS-E-002201668, Hearing Exhibit 4/27-7 ("monthly performance analysis completed this morning on what can be securitized vs will be foreclosed tells us we should mark down around $22mm"). See also 2/2/2007 email from Daniel Sparks, "Second lien deal performance and write-down," GS MBS-E-002201050, Hearing Exhibit 4/27-92 ("Gasvoda alerted me last night that we will take a write-down to some retained positions next week as the loan performance data from a few second lien sub-prime deals just came in (comes in monthly) and it is horrible."); 2/8/2007 email from Kevin Gasvoda to Tom Montag, "Mortgage risk – credit residential," at 2, GS MBS-E-010372233, Hearing Exhibit 4/27-74. Mr. Gasvoda summarized the other write-downs as follows: "– 2nd lien residual – took $20-25mm write-downs over last 3 months (could lose $5-15 mm more) – 2nd lien retained bonds–took $18mm write-down this week (could lose $5-15 more) – Subperforming loan book – taking $28mm write-down this week (could lose $20-40mm more) W hat do all these areas have in common? – most HPA [housing price appreciation] sensitive sectors. They've crumbled under HPA slowdown as these are the most levered borrowers. W hat have we done to mitigate? – we stopped buying subprime 2nd liens in the summer of '06 and have focused on alt-a and prime."
 
@@ -13046,6 +13118,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2417]: 5/30/2007 email from George Maltezos to John Murphy and Stuart Fowler at Basis Capital, JUL 002032. "From a pricing perspective, we have been trading Timberwolf AAA and AA bonds. 550 dm on AAAs and north of
 
+[^700]: dm on AAs is considered too wide for Timberwolf. . . . To be constructive, however, I know the desk is entertaining block size trades at the moment from real money accounts in the US and Asia at wide levels (much wider than what they have traded before). To give you a sense, I think these represent 400-450dm and 650-700dm respectively (for size) at the widest level of such enquiries." The notation "dm" refers to "discount margin." Higher discount margins correspond to greater markdowns from par prices. See e.g. Timberwolf I, Price-DM Table 05-16- 2007.xls, GS M BS-E-001810225. Basis Capital eventually accepted the 450 and 650 prices suggested by Mr. Maltezos. See 6/13/2007 email from David Lehman to Tom Montag, GS MBS-E-001914580.
+
 [^2418]: 6/12/2007 email from Sahil Sachdev to George Maltezos, GS MBS-E-001912398.
 
 [^2419]: 6/12/2007 email from George Maltezos, PSI-Basis_Capital_Group-03-0001. Mr. Maltezos emailed Mr. Lehman and Mr. Egol about Point Pleasant pricing, asking them "does the 75 mark reflect actual trading or overall softness in the market? I know you had indicated 70 was more like the number." 6/12/2007 email from George Maltezos to David Lehman, Jonathan Egol, and Omar Chaudhary, GS MBS-E-002002522. The Subcommittee was unable to locate Goldman's response to his question.
@@ -13468,6 +13542,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2628]: Timberwolf used this reduced premium approach, but in a few other instances, such as Hudson Mezzanine 2006-
 
+[^1]: and Point Pleasant, Goldman received a direct fee for acting as the collateral put provider. Goldman representatives told the Subcommittee that, because the put fee was "embedded" in the CDS agreement in some of the CDOs, Goldman's operations group sometimes overlooked and failed to "book" the profit and loss associated with those put arrangements. W hen this oversight was discovered in 2007, Goldman identified 18 CDO put arrangements that had not been identified and accounted for in Goldman's books. See 6/28/2007 email from Carly Scales to Phil Armstrong and Steve Schultz, GS MBS-E-015192547: • "Current Put Option Booking State: 22 Deals with the Put Option Feature C 4 Deals that do have a Put Option Booked: - For these trades, Ops [the operations group] knew about the Put as there was a confirmation and a trade booked. ... • 18 Deals that do not have a Put option Booked: - For these deals, there was no mention of a Put at all at the time of closing. ... - The Put option was embedded into the deal documents (Indenture, Offering Circular, etc – both of which are reviewed by outside counsel and GS legal as a normal course of business – but are not reviewed by Operations.) - For these trades, an intermediation fee was being taken on the CDS trades, but no specific Put was booked in our systems. - The original explanation from the desk was the intermediation fee was being taken for the risks associated with standing in between the Street and the deal with no mention of the Put."
+
 [^2629]: One reason Goldman was so concerned about the value of the default swap collateral securities was because those securities included AAA rated RMBS securities whose values were declining in line with the entire mortgage market.
 
 [^2630]: 6/20/2007 email from Matthew Bieber to Goldman colleagues, GS MBS-E-001912772 ("Below are the deals I recall us having significant exposure to in terms of default swap collateral. W ho is responsible for each of the deals? W e need to get Dan a list this morning. If there are any missing, please let me know.").
@@ -13567,6 +13643,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^2677]: See Sections 11 and 12 of Securities Act of 1933. See also Rule 10b-5 of the Securities Exchange Act of 1934. See also SEC v. Capital Gains Research Bureau, Inc., 375 U.S. at 200 ("Failure to disclose material facts must be deemed fraud or deceit within its intended meaning, for, as the experience of the 1920's and 1930's amply reveals, the darkness and ignorance of commercial secrecy are the conditions upon which predatory practices best thrive."). See also Goldman response to Subcommittee QFR, at PSI_QFR_GS0046.
 
 [^2678]: Basic v. Levinson, 485 U.S. 224, 231-32 (1988) (quoting TSC Industries, Inc. v. Northway, Inc., 426 U.S. 438,
+
+[^449]: (1976)).
 
 [^2679]: In the Matter of David Henry Disraeli and Lifeplan Associates, Securities Exchange Act Rel. No. 34-2686 (December 21, 2007) at 10-11 [citations omitted].
 
@@ -13742,6 +13820,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2765]: See, e.g., 2/8/2007 email from Craig Broderick to Mr. Sparks and others, GS MBS-E-002201486 (calling New Century's announcement that it would restate its earnings "a materially adverse development"); 3/14/2007 Goldman email, "NC Visit," GS MBS-E-002048050 (stating Fremont still has cash "but not for long"); 3/13/2007 email from Mr. Ostrem to Scott Wisenbaker and Matthew Bieber, GS MBS-E-000898410, Hearing Exhibit 4/27-
 
+[^172]: (providing talking points for selling Anderson securities to customers).
+
 [^2766]: 3/13/2007 email from Manisha Nanik, "New Century EPDs," GS MBS-E-002146861, Hearing Exhibit 4/27- 77.
 
 [^2767]: 3/14/2007 Goldman email, "NC Visit," GS MBS-E-002048050.
@@ -13907,6 +13987,8 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 [^2847]: Section 717 and Title IX of the Dodd-Frank Act.
 
 [^2848]: "Interagency Statement on Sound Practices Concerning Complex Structured Finance Activities," 69 Fed. Reg.
+
+[^97]: (5/19/2004).
 
 [^2849]: "Interagency Statement on Sound Practices Concerning Elevated Risk Complex Structured Finance Activities,"
 
