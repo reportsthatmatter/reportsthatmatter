@@ -7,6 +7,27 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-12 — 2,058 numbered paragraphs stop running into each other
+
+A reader flagged it directly: in the Litvinenko Inquiry, paragraph 3.77
+was printing as the tail end of 3.76's paragraph, not its own. The cause
+was the numbering itself — "3.77" prints flush against the margin, the
+same column an ordinary line of running text sits at, so nothing told the
+scan apart a genuine new paragraph from a line that just continues the
+one above. Wherever the page also happened to carry no blank line between
+paragraphs — common in the Litvinenko Inquiry, Leveson Inquiry, and
+Hillsborough Panel report, all three of which number this way — several
+numbered paragraphs in a row could run together into one.
+
+The numbering is now read as what it is: Leveson gains 1,818 paragraphs
+back, Litvinenko 150, Hillsborough 90 — 2,058 in total, all previously
+fused into a neighbour. Nothing is reworded; every word is exactly where
+it was, just correctly split.
+
+[Read the corrected paragraph](https://reportsthatmatter.org/reports/litvinenko-inquiry/chapter-2-leaving-russia).
+
+---
+
 ## 2026-09-11 — 210 of Challenger's Findings and Recommendations get their own paragraph back
 
 The Committee's report structures every issue it investigated the same
