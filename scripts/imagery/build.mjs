@@ -5,16 +5,22 @@
  *   pnpm marks columbia        # one report's
  *
  * Output is not committed — the recipe is. A mark is a pure function of
- * (PDF, page, dpi, crop, treatment), and the treatment's noise is seeded, so
- * two runs on the same machine are byte-identical.
+ * (source, crop, treatment), and the treatment's noise is seeded, so two runs
+ * on the same machine are byte-identical.
  *
- * Needs each report's own repo cloned as a sibling directory; the PDFs live
- * there, not here. Missing ones are reported and skipped, not fatal.
+ * Two source kinds: `pdf`+`page` rasterises a page from that report's own
+ * repo (cloned as a sibling directory — missing ones are reported and
+ * skipped, not fatal); `external` fetches a URL instead, for the two reports
+ * with no usable imagery in their own PDF (see sources.yaml's comment on
+ * each). Fetches are cached in the OS temp dir by URL hash, so a rebuild
+ * doesn't refetch, but never silently goes stale either — delete the cache
+ * dir to force a refetch.
  */
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { join, resolve, extname } from "node:path";
 import { tmpdir } from "node:os";
+import { createHash } from "node:crypto";
 import { parse } from "yaml";
 
 const root = resolve(import.meta.dirname, "..", "..");
@@ -25,28 +31,50 @@ const only = process.argv.slice(2);
 
 mkdirSync(outDir, { recursive: true });
 const tmp = mkdtempSync(join(tmpdir(), "rtm-marks-"));
+const cacheDir = join(tmpdir(), "rtm-marks-fetch-cache");
+mkdirSync(cacheDir, { recursive: true });
 const run = (cmd, args) => execFileSync(cmd, args, { stdio: ["ignore", "pipe", "pipe"] });
+
+function fetchExternal(url) {
+  const ext = extname(new URL(url).pathname) || ".jpg";
+  const cached = join(cacheDir, `${createHash("sha256").update(url).digest("hex")}${ext}`);
+  if (!existsSync(cached)) {
+    run("curl", ["-sL", "-A", "Mozilla/5.0 (research; reportsthatmatter.org)", "-o", cached, url]);
+  }
+  return cached;
+}
 
 let built = 0;
 const skipped = [];
 
 for (const m of spec.marks) {
   if (only.length && !only.includes(m.id)) continue;
-  const pdf = join(siblings, m.report, m.pdf);
-  if (!existsSync(pdf)) {
-    skipped.push(`${m.set}-${m.id}: no ${m.report}/${m.pdf} — clone that report's repo as a sibling`);
-    continue;
+
+  let source;
+  if (m.external) {
+    try {
+      source = fetchExternal(m.external);
+    } catch (e) {
+      skipped.push(`${m.set}-${m.id}: fetch failed for ${m.external} — ${e.message}`);
+      continue;
+    }
+  } else {
+    const pdf = join(siblings, m.report, m.pdf);
+    if (!existsSync(pdf)) {
+      skipped.push(`${m.set}-${m.id}: no ${m.report}/${m.pdf} — clone that report's repo as a sibling`);
+      continue;
+    }
+    // pdftoppm names its output <prefix>-<zero-padded page>.png, and the
+    // padding width follows the document's page count, so glob rather than guess.
+    const prefix = join(tmp, `${m.set}-${m.id}`);
+    run("pdftoppm", ["-png", "-r", String(m.dpi), "-f", String(m.page), "-l", String(m.page), pdf, prefix]);
+    const page = readdirSync(tmp).find((f) => f.startsWith(`${m.set}-${m.id}-`) && f.endsWith(".png"));
+    if (!page) { skipped.push(`${m.set}-${m.id}: pdftoppm produced nothing for page ${m.page}`); continue; }
+    source = join(tmp, page);
   }
 
-  // pdftoppm names its output <prefix>-<zero-padded page>.png, and the padding
-  // width follows the document's page count, so glob rather than guess.
-  const prefix = join(tmp, `${m.set}-${m.id}`);
-  run("pdftoppm", ["-png", "-r", String(m.dpi), "-f", String(m.page), "-l", String(m.page), pdf, prefix]);
-  const page = readdirSync(tmp).find((f) => f.startsWith(`${m.set}-${m.id}-`) && f.endsWith(".png"));
-  if (!page) { skipped.push(`${m.set}-${m.id}: pdftoppm produced nothing for page ${m.page}`); continue; }
-
   const cropped = join(tmp, `${m.set}-${m.id}-crop.png`);
-  run("node", [join(root, "scripts/imagery/crop.mjs"), join(tmp, page), cropped, ...m.crop.map(String)]);
+  run("node", [join(root, "scripts/imagery/crop.mjs"), source, cropped, ...m.crop.map(String)]);
 
   const args = [join(root, "scripts/imagery/treat.mjs"), cropped, join(outDir, `${m.set}-${m.id}.png`)];
   for (const [k, v] of Object.entries({ ...spec.defaults, ...m.treat })) {
@@ -54,7 +82,7 @@ for (const m of spec.marks) {
     else if (v !== false) args.push(`--${k}`, String(v));
   }
   run("node", args);
-  console.log(`${m.set}-${m.id}  ←  ${m.report} p.${m.page}`);
+  console.log(`${m.set}-${m.id}  ←  ${m.external ?? `${m.report} p.${m.page}`}`);
   built++;
 }
 
