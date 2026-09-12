@@ -119,7 +119,21 @@ hr {
 
 /* No icon beside it (#99): the seal's lettering is 3.6px a character at 30px,
  * so it read as a grey smudge. The wordmark alone is the mark, as on Co-Star's
- * own header; the pilcrow-in-seal carries the favicon and app icon instead. */
+ * own header; the pilcrow-in-seal carries the favicon and app icon instead.
+ *
+ * On a phone the wordmark used to be hidden, leaving the seal; with the full
+ * name there, the nav beside it was squeezed into a column five rows tall.
+ * Wrapping puts the nav on its own rows under the name instead. */
+@media (max-width: 30rem) {
+  .site-header {
+    flex-wrap: wrap;
+    row-gap: 0.9rem;
+  }
+
+  .site-header .site-nav {
+    gap: 0.6rem 1.25rem;
+  }
+}
 
 .site-nav {
   display: flex;
@@ -326,9 +340,11 @@ hr {
   place-items: center;
 }
 
+/* Caps in px, not %: a percentage max-height inside the grid slot does not
+ * resolve, and a portrait plate (Deepwater, 438x660) then ran 140px tall. */
 .report-list-marked .report-mark img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 64px;
+  max-height: 64px;
   width: auto;
   height: auto;
 }
@@ -342,6 +358,11 @@ hr {
     grid-row: auto;
     width: 92px;
     height: 92px;
+  }
+
+  .report-list-marked .report-mark img {
+    max-width: 92px;
+    max-height: 92px;
   }
 }
 
@@ -488,6 +509,19 @@ hr {
 .report-header .kicker {
   color: var(--muted);
   margin-bottom: 1.5rem;
+}
+
+/* A report's plate (#99), above its title. The img carries its own size
+ * (fitted to 300x220 by frontispiece()); max-width keeps it inside a phone. */
+.report-header .frontispiece {
+  display: grid;
+  place-items: center;
+  padding-bottom: 2rem;
+}
+
+.report-header .frontispiece img {
+  max-width: 100%;
+  height: auto;
 }
 
 .report-header h1 {

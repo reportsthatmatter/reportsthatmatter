@@ -110,7 +110,9 @@ marks:
     pdf: archive/The-Litvinenko-Inquiry-H-C-695-web.pdf
     page: 177
     dpi: 220
-    crop: [150, 420, 1550, 1900]
+    # Tightened 2026-09-13 from [150, 420, 1550, 1900], which carried the
+    # page's white margin and a fragment of the legend into the header plate.
+    crop: [222, 570, 1348, 1750]
     subject: >-
       The contamination plan of the Pine Bar, Millennium Hotel — polonium
       readings by table number. The finding itself, not the T-shirt exhibit
@@ -157,7 +159,9 @@ marks:
     pdf: archive/911Report.pdf
     page: 305
     dpi: 180
-    crop: [230, 260, 800, 950]
+    # Tightened 2026-09-13 from [230, 260, 800, 950], which carried the
+    # printed caption and credit line along the plate's bottom edge.
+    crop: [242, 282, 777, 813]
     subject: >-
       "The World Trade Center North Tower Stairwell with Deviation" (printed
       p.288) — the Commission's own rendering explaining why an evacuation

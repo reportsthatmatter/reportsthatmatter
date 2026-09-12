@@ -15,7 +15,7 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "height": 660
   },
   "litvinenko-inquiry": {
-    "width": 538,
+    "width": 508,
     "height": 660
   },
   "uk-hillsborough-panel": {
@@ -27,7 +27,7 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "height": 660
   },
   "us-911-commission": {
-    "width": 556,
+    "width": 631,
     "height": 660
   },
   "us-deepwater-horizon": {

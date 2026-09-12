@@ -63,7 +63,9 @@ let built = 0;
 const skipped = [];
 
 for (const m of spec.marks) {
-  if (only.length && !only.includes(m.id)) continue;
+  // String(): YAML reads `id: 911` as a number, and argv is always strings,
+  // so `pnpm marks 911` used to skip it silently.
+  if (only.length && !only.includes(String(m.id))) continue;
 
   let source;
   if (m.external) {
