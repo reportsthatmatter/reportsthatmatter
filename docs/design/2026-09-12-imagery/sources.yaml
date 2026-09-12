@@ -63,8 +63,8 @@ marks:
     rights: >-
       Report of the National Commission on the BP Deepwater Horizon Oil Spill
       and Offshore Drilling — U.S. Government work, public domain.
-      NOTE: the photograph is credited in the report to Transocean; confirm the
-      credit line before this one ships. Unresolved.
+      Credit confirmed 2026-09-13: the caption on p.17, facing the photograph,
+      reads "Photo courtesy of Transocean".
     treat: { black: 0.10, white: 0.92, cut-below: true, cut-at: 0.42, keep: 0.03, trim: true }
 
   - id: deepwater
@@ -75,7 +75,7 @@ marks:
     dpi: 180
     crop: [60, 0, 1180, 1780]
     subject: The same photograph, untrimmed, as a rectangular plate.
-    rights: Same as above, including the same unresolved credit.
+    rights: Same as above, including the Transocean credit.
     treat: { black: 0.10, white: 0.92, cut: none }
 
   - id: challenger
@@ -128,7 +128,9 @@ marks:
     pdf: archive/hillsborough-panel-report.pdf
     page: 77
     dpi: 200
-    crop: [20, 100, 1600, 2050]
+    # Tightened 2026-09-13 from the whole sheet ([20, 100, 1600, 2050]) to the
+    # Leppings Lane turnstile arc and the pens behind it.
+    crop: [300, 467, 583, 633]
     subject: >-
       Figure 3 — Sheffield Wednesday's own 1985 engineering drawing of
       proposed alterations to the Leppings Lane turnstiles and terrace pens.
@@ -137,14 +139,17 @@ marks:
       which is data about the deaths, not an exhibit about the cause.
     rights: >-
       Reproduced in a Crown/HMSO report; the original drawing is Eastwood &
-      Partners', consulting engineers, 1985 — see the Panel report's own
-      credit line, p.74. Confirm before using it outside this study.
-    treat: { black: 0.25, white: 0.82, grain: 40, cut: none }
+      Partners', consulting engineers, 1985. Confirmed 2026-09-13: the title
+      block names Eastwood & Partners, and the Panel's caption reads "Figure 3:
+      Proposed alterations to the turnstile layout at Leppings Lane, April
+      1985. Original available at SCC000002050001, p56."
+    treat: { black: 0.45, white: 0.88, grain: 40, cut: none }
     caveat: >-
-      Thin line art, like Challenger's drawing direction — legible at header
-      size, weak in a 92px archive row (confirmed in mockups/archive-plate.png,
-      2026-09-12). Worth a second pass: a tighter crop on just the title block,
-      or accepting it as a header-only image with no archive-row thumbnail.
+      Thin line art, like Challenger's drawing direction. The whole sheet was
+      scribble in a 92px archive row (mockups/archive-plate.png, 2026-09-12);
+      re-cropped 2026-09-13 to the turnstile arc with a heavier black point,
+      which reads as a drawing at row size. Shipped in the row as well as the
+      header — still the weakest of the ten there, alongside PSI.
 
   - id: 911
     set: plate
@@ -161,8 +166,8 @@ marks:
       wrong side of the exhibit/event line this project holds to.
     rights: >-
       National Commission on Terrorist Attacks Upon the United States — U.S.
-      Government work, public domain. Rendering credited to Marco Crupi in
-      the report; confirm that credit before use, per the Deepwater precedent.
+      Government work, public domain. Credit confirmed 2026-09-13: the page
+      itself reads "Rendering by Marco Crupi".
     treat: { black: 0.10, white: 0.88, grain: 90, cut: none }
 
   - id: psi
@@ -171,7 +176,9 @@ marks:
     pdf: "archive/PSI REPORT - Wall Street & the Financial Crisis-Anatomy of a Financial Collapse (FINAL 5-10-11).pdf"
     page: 127
     dpi: 150
-    crop: [40, 140, 1200, 1400]
+    # Tightened 2026-09-13 from the whole chart ([40, 140, 1200, 1400]) to the
+    # title and first tier of boxes, so the lines are twice the size in a row.
+    crop: [125, 212, 625, 625]
     subject: >-
       "LBMC 2005-2 Structure" (printed p.120) — the securitization flowchart
       for a Long Beach Mortgage deal, bearing its own production stamp
@@ -182,19 +189,23 @@ marks:
       U.S. Senate Permanent Subcommittee on Investigations — public domain
       Congressional work; the underlying document was produced to the
       Subcommittee by the FDIC as receiver for WaMu.
-    treat: { black: 0.10, white: 0.90, grain: 70, cut: none }
+    treat: { black: 0.45, white: 0.92, grain: 60, cut: none }
     caveat: >-
-      Same thin-line-art weakness as Hillsborough — reads fine large, weak at
-      92px (see mockups/archive-plate.png). The stamp text in the corner is
-      illegible below header size.
+      Same thin-line-art weakness as Hillsborough. Re-cropped 2026-09-13 to
+      the title and first tier, which reads as a titled flowchart at 92px
+      rather than a grey smear. The crop drops the FDIC_WAMU bates stamp in
+      the bottom corner, which was illegible below header size anyway.
 
   - id: jack
     set: plate
     report: jack-smith-report
     pdf: archive/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf
     page: 1
-    dpi: 150
-    crop: [195, 140, 150, 150]
+    dpi: 300
+    # Seal ink measured at 418,223–597,405 on the 300dpi page (2026-09-13);
+    # the box below centres it with ~10% margin. The earlier 150dpi crop was
+    # set by eye and caught the seal's lower half plus the letterhead rule.
+    crop: [398, 203, 220, 220]
     subject: >-
       The U.S. Department of Justice seal from the report's own letterhead,
       p.1. No embedded photographs exist anywhere in this PDF (it's a pure
@@ -248,5 +259,7 @@ marks:
       Source file is only 276×341 — well under this pipeline's 660px target,
       so the plate is upscaled roughly 2.4x rather than downsampled. Reads
       fine at every size tested (mockups/archive-plate.png), but softer than
-      the other nine on close inspection. A higher-resolution copy of the
-      same front page, if one can be found, would be worth swapping in.
+      the other nine on close inspection. Searched 2026-09-13 for a larger copy
+      of the same front page and found none freely hosted — shipped as is,
+      since it holds up at every size the site uses (92px row, 300px header,
+      200px card imprint). Swap in a larger scan if one turns up.

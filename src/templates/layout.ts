@@ -63,9 +63,9 @@ ${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta na
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="icon" href="/assets/brand/logo-32.png" sizes="32x32" type="image/png" />
-<link rel="icon" href="/assets/brand/logo-64.png" sizes="64x64" type="image/png" />
-<link rel="apple-touch-icon" href="/assets/brand/logo-180.png" />
+<link rel="icon" href="/assets/brand/pilcrow-32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="/assets/brand/pilcrow-64.png" sizes="64x64" type="image/png" />
+<link rel="apple-touch-icon" href="/assets/brand/pilcrow-180.png" />
 <link rel="stylesheet" href="/assets/styles.css" />
 ${structuredData ? `<script type="application/ld+json">${structuredData}</script>` : ""}
 </head>`;
@@ -88,7 +88,6 @@ export function renderLayout(
 <body>
 <header class="site-header wrap">
   <a class="wordmark" href="/">
-    <img src="/assets/brand/logo-64.png" alt="" width="30" height="30" />
     <span>Reports that Matter</span>
   </a>
   ${nav}

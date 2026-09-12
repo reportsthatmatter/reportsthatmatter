@@ -1,7 +1,7 @@
 import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
-import { quotedPassage, truncate, shareImage } from "./report";
+import { quotedPassage, truncate, shareImage, frontispiece } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
 
 /** What the page shell needs of a section — not its html. */
@@ -94,6 +94,7 @@ export function renderReportOverview(
   <article>
     <header class="report-header wrap">
       <div class="measure">
+        ${frontispiece(meta.id)}
         <p class="kicker mono">Report</p>
         <h1>${escapeHtml(meta.title)}</h1>
         ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}

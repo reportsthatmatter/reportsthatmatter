@@ -2,7 +2,7 @@
 
 Issue [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99). Two deliverables: a written study of Co-Star's visual language specific enough to produce new work in it, and a mark per report. This is the study, plus a working treatment and three directions rendered against real pages.
 
-**Nothing here is shipped.** The direction is Rufus's pick, from the mockups below.
+**Shipped 2026-09-13** — the plate direction for all ten reports, and the pilcrow-in-seal favicon. See "Shipped" at the bottom for what went live and where it differs from the study. The direction is Rufus's pick, from the mockups below.
 
 ---
 
@@ -72,7 +72,7 @@ So the rule proposed here is: **the mark is the exhibit, never the event.** The 
 
 Not stock, not the open web: **the PDFs this archive has already published**, rasterised from each report's own repo. Rights are then the report's own, already recorded — nothing new to clear. And the picture is drawn from the document it labels, which is the strongest version of the idea in the brief.
 
-`sources.yaml` records page, dpi, crop, subject, rights and treatment for every candidate. `pnpm marks` rebuilds all of them from the PDFs; `pnpm mark-mockups` re-renders the pages below. Output is not committed, the recipe is.
+`sources.yaml` records page, dpi, crop, subject, rights and treatment for every candidate. `pnpm marks` rebuilds all of them from the PDFs; `pnpm mark-mockups` re-renders the pages below. The study candidates in `candidates/` are not committed, the recipe is; the shipped plates in `assets/marks/` are (see "Shipped").
 
 ### Three directions
 
@@ -143,9 +143,23 @@ Everything above was measured rather than eyeballed, in the same spirit as the o
 
 Rufus, reviewing the artifact above:
 
-- **Plate**, for all ten reports. Not cut-out, not the drawing direction. Tracked as [reportsthatmatter-xs3](https://github.com/reportsthatmatter/reportsthatmatter) (bead) — not yet built.
+- **Plate**, for all ten reports. Not cut-out, not the drawing direction. Tracked as [reportsthatmatter-xs3](https://github.com/reportsthatmatter/reportsthatmatter) (bead) — built and shipped 2026-09-13, below.
 - **Logo**: pilcrow-in-seal (candidate c), and drop the seal from the navbar in favour of the bare wordmark. Same bead. Make sure the pilcrow is properly centred in the seal before it ships — the first pass in `assets/brand/candidates/pilcrow-seal.svg` was eyeballed, not measured.
 - **Rights**: not a blocker. This is a public-interest project; fair use covers sourcing from PDFs already published here, and Rufus is explicitly unconcerned about incidental details like a photo credit (e.g. Deepwater's rig photo being Transocean's) or similar copyright questions on individual source images. Don't let that hold up sourcing.
 - **Medium-term, not now**: Rufus wants to explore a bolder landing-page treatment later — full hero imagery, possibly in colour rather than this doc's desaturated stipple, with a "slightly retro TV" rasterised look (scanlines / CRT signal-noise) rather than aquatint grain. That is a different register from the restraint documented above and deserves its own brainstorm rather than folding into the per-report mark pipeline. Tracked as [reportsthatmatter-bea](https://github.com/reportsthatmatter/reportsthatmatter) (bead).
 
 Candidate subjects for the 7 reports not yet covered are scoped in bead xs3's comments (Litvinenko, Hillsborough, 9/11, PSI, and Jack Smith all have a subject picked from the report's own PDF; Leveson and Philip Morris have essentially no embedded imagery and would need a subject sourced outside the report itself if all ten are to have a mark).
+
+---
+
+## Shipped — 2026-09-13
+
+What went live, and the three places it departs from the mockups above.
+
+- **Where plates appear.** The archive row (`/reports` and the homepage's archive section), the report header on a report's contents page and its `/full` page, and every share card. Not on individual section pages, whose header is navigation rather than a title page.
+- **Two files per plate, both committed.** `assets/marks/<report-id>.webp` (660px long edge, for the header and card) and `<report-id>-row.webp`, treated separately at 276px rather than downsampled, because the grain is fixed to output pixels and a downsample would average it away. Lossless WebP: lossy smears the grain, and lossless is still half the PNG. `pnpm marks` writes both plus `src/generated/marks.ts`, the size manifest the templates read so every image carries its dimensions. Committed rather than built on deploy because a deploy has none of the report PDFs.
+- **Departure 1: the archive CSS is scoped.** The mockup set the four-column grid on `.report-list` itself; a report's own contents list is also a `.report-list`, so the live rule is `.report-list-marked`. On phones the plate shrinks to a 64px slot beside the title rather than stacking above it.
+- **Departure 2: the site's own share card has no imprint.** Tried with the pilcrow-in-seal in the plate's slot: its standfirst then ran 41px past the card's bottom edge. `scripts/cards.mjs` now fails any card whose content overflows, checked against that broken card before trusting it.
+- **Departure 3: three crops changed.** Jack Smith's seal crop had been set by eye and caught half the seal and the letterhead rule; now measured and centred. PSI and Hillsborough re-cropped tighter so they read at 92px. Details and before-crops in `sources.yaml`.
+- **Pilcrow centring, measured.** EB Garamond's ¶ at the SVG's 58 units has an ink box of L 14.64 R 15.34 A 37.58 D 16.76 (canvas `measureText`). The first pass set it at y=70, which put the ink centre 9.6 units below the seal's; now x=49.65 y=60.41, ink box centred on 50,50. `scripts/imagery/brand.mjs` renders the favicon PNGs with the font actually loaded, since a favicon rendered straight from the SVG would fall back to the viewer's serif.
+- **Credits confirmed against the PDFs.** Deepwater: "Photo courtesy of Transocean" (p.17 caption). 9/11: "Rendering by Marco Crupi" (on the page). Hillsborough: title block by Eastwood & Partners, Panel caption cites SCC000002050001, p56. None is displayed on the site; they are recorded in `sources.yaml`.

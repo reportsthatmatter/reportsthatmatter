@@ -2,6 +2,7 @@ import { renderLayout, escapeHtml } from "./layout";
 import { decodeAnchor, locate } from "../../assets/anchor.js";
 import { cardPath, defaultCardPath } from "./card";
 import { CARDS } from "../generated/cards";
+import { MARKS } from "../generated/marks";
 
 export type ReportMeta = {
   id?: string;
@@ -110,6 +111,21 @@ export function reportPreview(
   };
 }
 
+/** The frontispiece slot, in CSS px — a plate of any proportion fits inside. */
+const FRONTISPIECE = { width: 300, height: 220 };
+
+/**
+ * A report's plate (#99), set above its title the way a frontispiece faces a
+ * title page. Empty for a report with no plate — the header then reads exactly
+ * as it did before marks existed. Decorative, so no alt: the title is the text.
+ */
+export function frontispiece(id: string | undefined): string {
+  const mark = id ? MARKS[id] : undefined;
+  if (!id || !mark) return "";
+  const scale = Math.min(FRONTISPIECE.width / mark.width, FRONTISPIECE.height / mark.height);
+  return `<div class="frontispiece" aria-hidden="true"><img src="/assets/marks/${escapeHtml(id)}.webp" alt="" width="${Math.round(mark.width * scale)}" height="${Math.round(mark.height * scale)}" decoding="async" /></div>`;
+}
+
 export function renderReport(
   meta: ReportMeta,
   html: string,
@@ -127,6 +143,7 @@ export function renderReport(
   <article>
     <header class="report-header wrap">
       <div class="measure">
+        ${frontispiece(meta.id)}
         <p class="kicker mono">Report</p>
         <h1>${escapeHtml(meta.title)}</h1>
         ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}

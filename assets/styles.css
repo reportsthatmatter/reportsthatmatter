@@ -115,23 +115,11 @@ hr {
   text-decoration: none;
   letter-spacing: 0.01em;
   white-space: nowrap;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
 }
 
-/* The seal is a bolder, more geometric mark than the typography around it.
- * Kept small it reads as an official stamp — apt for inquiry documents —
- * rather than competing with the wordmark. */
-.wordmark img {
-  width: 30px;
-  height: 30px;
-  flex: none;
-}
-
-@media (max-width: 30rem) {
-  .wordmark span { display: none; }
-}
+/* No icon beside it (#99): the seal's lettering is 3.6px a character at 30px,
+ * so it read as a grey smudge. The wordmark alone is the mark, as on Co-Star's
+ * own header; the pilcrow-in-seal carries the favicon and app icon instead. */
 
 .site-nav {
   display: flex;
@@ -320,6 +308,41 @@ hr {
 
 .report-list .cue {
   color: var(--ink);
+}
+
+/* The archive's rows carry each report's plate (#99) in a fixed leading slot,
+ * so ten plates of different proportions share one axis. Scoped to the
+ * archive: a report's own contents list is a .report-list too, and has none. */
+.report-list-marked a {
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: center;
+}
+
+.report-list-marked .report-mark {
+  grid-row: span 3;
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+}
+
+.report-list-marked .report-mark img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 48rem) {
+  .report-list-marked a {
+    grid-template-columns: 92px minmax(0, 3fr) minmax(0, 1.4fr) auto;
+  }
+
+  .report-list-marked .report-mark {
+    grid-row: auto;
+    width: 92px;
+    height: 92px;
+  }
 }
 
 /* ---------- most marked passages (#96) ---------- */

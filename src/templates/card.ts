@@ -7,8 +7,10 @@ export type CardInput = {
   attribution?: string;
   /** Printed page in the source document, if known. */
   page?: string;
-  /** The seal, inlined — the renderer has no server to fetch it from. */
-  logoDataUri?: string;
+  /** The report's plate (#99), inlined — the renderer has no server to
+   * fetch it from. Set top right, where the seal used to sit beside the
+   * wordmark. */
+  markDataUri?: string;
 };
 
 /**
@@ -58,11 +60,9 @@ export function renderCard(input: CardInput): string {
     font-family: "EB Garamond", serif;
     font-size: 25px;
     letter-spacing: 0.01em;
-    display: flex;
-    align-items: center;
-    gap: 12px;
   }
-  .mark img { width: 34px; height: 34px; }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 48px; }
+  .imprint img { display: block; max-height: 190px; max-width: 200px; }
   blockquote {
     font-family: "EB Garamond", serif;
     font-size: ${size}px;
@@ -90,7 +90,10 @@ export function renderCard(input: CardInput): string {
 </style>
 </head>
 <body>
-  <div class="mark"><img src="${input.logoDataUri ?? ""}" alt="" />Reports that Matter</div>
+  <div class="top">
+    <div class="mark">Reports that Matter</div>
+    ${input.markDataUri ? `<div class="imprint"><img src="${input.markDataUri}" alt="" /></div>` : ""}
+  </div>
   <blockquote>${escapeHtml(wrapInQuotes(quote))}</blockquote>
   <footer>
     <span class="src">${escapeHtml(footer)}</span>
@@ -114,7 +117,8 @@ export type DefaultCardInput = {
   title: string;
   /** A line under the title — a report's byline, or the site's tagline. */
   subtitle?: string;
-  logoDataUri?: string;
+  /** A report's plate, or the brand mark for the site's own card. */
+  markDataUri?: string;
 };
 
 /**
@@ -123,8 +127,8 @@ export type DefaultCardInput = {
  * uncurated paragraph, the homepage itself (reportsthatmatter-obw: before
  * this, those pages had no og:image at all).
  *
- * Same design language and layout skeleton as `renderCard` — the mark top
- * left, a footer rule at the bottom — with a headline in the middle instead
+ * Same design language and layout skeleton as `renderCard` — the wordmark
+ * top left with the plate opposite it, a footer rule at the bottom — with a headline in the middle instead
  * of a blockquote, so a default card still reads as the same object as a
  * quote card, just without a passage to show yet.
  *
@@ -161,11 +165,9 @@ export function renderDefaultCard(input: DefaultCardInput): string {
     font-family: "EB Garamond", serif;
     font-size: 25px;
     letter-spacing: 0.01em;
-    display: flex;
-    align-items: center;
-    gap: 12px;
   }
-  .mark img { width: 34px; height: 34px; }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 48px; }
+  .imprint img { display: block; max-height: 190px; max-width: 200px; }
   .titleblock {
     flex: 1;
     display: flex;
@@ -199,7 +201,10 @@ export function renderDefaultCard(input: DefaultCardInput): string {
 </style>
 </head>
 <body>
-  <div class="mark"><img src="${input.logoDataUri ?? ""}" alt="" />Reports that Matter</div>
+  <div class="top">
+    <div class="mark">Reports that Matter</div>
+    ${input.markDataUri ? `<div class="imprint"><img src="${input.markDataUri}" alt="" /></div>` : ""}
+  </div>
   <div class="titleblock">
     <h1>${escapeHtml(title)}</h1>
     ${input.subtitle ? `<p class="subtitle">${escapeHtml(input.subtitle)}</p>` : ""}
