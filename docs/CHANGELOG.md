@@ -7,6 +7,24 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-12 — 166 wrong links stop pretending to be citations
+
+Turning scanned text into a web page means guessing which fragments are
+web addresses. That guess was wrong far more than it looked: a dropped
+space at the end of a sentence, immediately before a short capitalised
+word, was routinely read as a link — "flight.At 8:46 it happened" became
+a live link to ".at", Austria's domain suffix, not a citation to anything.
+155 of the 166 were exactly this, concentrated in the 9/11 Commission
+Report; the rest were short scanning errors that happened to end in a
+real country code.
+
+Every one is now plain text again, and nothing that was a real link was
+touched — Leveson's own 94 citations to its own website, and every
+`guardian.co.uk`, `FT.com`, and similar bare citation elsewhere, still
+click through exactly as before.
+
+---
+
 ## 2026-09-12 — 2,058 numbered paragraphs stop running into each other
 
 A reader flagged it directly: in the Litvinenko Inquiry, paragraph 3.77
