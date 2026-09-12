@@ -1,0 +1,107 @@
+# Provenance for every candidate mark, recorded the way a report's sources are.
+#
+# Rule: the source is a page of a document this archive has already published,
+# rasterised from the PDF in that report's own repo. Nothing is fetched from
+# the open web, so there is no licence to be unsure about — the rights position
+# is the report's own, already recorded in its repo's README.
+#
+# `pnpm marks` rebuilds every entry below from those PDFs. The output is not
+# committed; the recipe is.
+
+defaults:
+  width: 660          # long edge; 3x the largest slot a mark is used in
+  grain: 96
+  clump: 2
+  seed: 1
+
+marks:
+  - id: columbia
+    set: cut
+    report: columbia-accident
+    pdf: archive/CAIB_lowres_full.pdf
+    page: 98
+    dpi: 200
+    crop: [545, 790, 390, 770]
+    subject: >-
+      Columbia on the mobile launcher platform in the Vehicle Assembly Building,
+      framed head-on in the door opening. Chapter 5 opener.
+    rights: >-
+      Work of the Columbia Accident Investigation Board, a U.S. Government
+      body — public domain. See columbia-accident/README.md.
+    treat: { black: 0.06, white: 0.86, grain: 80, cut-at: 0.91, trim: true }
+
+  - id: columbia
+    set: plate
+    report: columbia-accident
+    pdf: archive/CAIB_lowres_full.pdf
+    page: 82
+    dpi: 200
+    crop: [843, 658, 650, 530]
+    subject: >-
+      Figure 3.8-9 — the impact hole punched through Reinforced Carbon-Carbon
+      Panel 8 in the final foam-impact test. The finding itself.
+    rights: Same as above.
+    treat: { black: 0.06, white: 0.90, cut: none }
+
+  - id: deepwater
+    set: cut
+    report: us-deepwater-horizon
+    pdf: archive/deep-water.pdf
+    page: 16
+    dpi: 180
+    crop: [60, 0, 1180, 1780]
+    subject: Deepwater Horizon under way in the Gulf, aerial. Part I opener.
+    rights: >-
+      Report of the National Commission on the BP Deepwater Horizon Oil Spill
+      and Offshore Drilling — U.S. Government work, public domain.
+      NOTE: the photograph is credited in the report to Transocean; confirm the
+      credit line before this one ships. Unresolved.
+    treat: { black: 0.10, white: 0.92, cut-below: true, cut-at: 0.42, keep: 0.03, trim: true }
+
+  - id: deepwater
+    set: plate
+    report: us-deepwater-horizon
+    pdf: archive/deep-water.pdf
+    page: 16
+    dpi: 180
+    crop: [60, 0, 1180, 1780]
+    subject: The same photograph, untrimmed, as a rectangular plate.
+    rights: Same as above, including the same unresolved credit.
+    treat: { black: 0.10, white: 0.92, cut: none }
+
+  - id: challenger
+    set: cut
+    report: challenger-accident
+    pdf: archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf
+    page: 56
+    dpi: 200
+    crop: [660, 300, 480, 1180]
+    subject: >-
+      The Solid Rocket Motor aft field joint in normal alignment — tang, clevis,
+      O-rings, putty. Hand-drawn and hand-lettered in the report itself.
+    rights: >-
+      House Committee on Science and Technology — U.S. Government work, public
+      domain. See challenger-accident/README.md.
+    treat: { black: 0.30, white: 0.80, grain: 40, cut-at: 0.80, trim: true }
+
+  - id: challenger
+    set: plate
+    report: challenger-accident
+    pdf: archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf
+    page: 56
+    dpi: 200
+    crop: [640, 700, 420, 420]
+    subject: The same drawing, cropped to the joint detail and left rectangular.
+    rights: Same as above.
+    treat: { black: 0.30, white: 0.82, grain: 30, cut: none }
+
+# Not yet sourced. Seven reports still need a subject chosen, and four of them
+# have no PDF cloned locally yet.
+outstanding:
+  - jack-smith-vol1
+  - us-psi-financial-crisis
+  - litvinenko-inquiry
+  - uk-leveson-inquiry
+  - us-911-commission
+  - us-v-philip-morris
+  - uk-hillsborough-panel

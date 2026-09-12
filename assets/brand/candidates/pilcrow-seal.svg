@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- The seal's register kept; its lettering dropped. A pilcrow survives to
+       16px where three arced words cannot, and it is the thing the site
+       actually sells: a permanent address for every paragraph. -->
+  <circle cx="50" cy="50" r="47" stroke="#252525" stroke-width="4.5"/>
+  <circle cx="50" cy="50" r="39" stroke="#252525" stroke-width="2.5"/>
+  <text x="50" y="70" fill="#252525" font-family="EB Garamond, Times New Roman, serif"
+        font-size="58" text-anchor="middle">&#182;</text>
+</svg>
