@@ -1,6 +1,23 @@
 import type { ReportRegistry } from "../lib/registry";
 import { renderLayout, escapeHtml } from "./layout";
 import { SITE_HEADLINE, SITE_STANDFIRST } from "./site";
+import { MARKS } from "../generated/marks";
+
+/** The archive row's mark slot, in CSS px. Plates of any proportion fit
+ * inside it, so ten of them line up on one axis (issue #99). */
+const ROW_SLOT = 92;
+
+/**
+ * A report's plate, sized into the row's slot. A report without one still
+ * gets the empty slot, so its title starts where every other title does.
+ * Decorative: the title beside it already says what it is.
+ */
+function rowMark(id: string): string {
+  const mark = MARKS[id];
+  if (!mark) return `<span class="report-mark" aria-hidden="true"></span>`;
+  const scale = ROW_SLOT / Math.max(mark.width, mark.height);
+  return `<span class="report-mark" aria-hidden="true"><img src="/assets/marks/${escapeHtml(id)}-row.webp" alt="" width="${Math.round(mark.width * scale)}" height="${Math.round(mark.height * scale)}" loading="lazy" decoding="async" /></span>`;
+}
 
 export function renderReportList(registry: ReportRegistry): string {
   if (!registry.reports.length) {
@@ -12,6 +29,7 @@ export function renderReportList(registry: ReportRegistry): string {
       const meta = [report.authors, report.published_at].filter(Boolean).join(" · ");
       return `<li>
         <a href="/reports/${escapeHtml(report.id)}">
+          ${rowMark(report.id)}
           <span class="title serif">${escapeHtml(report.title)}</span>
           <span class="meta mono">${escapeHtml(meta)}</span>
           <span class="cue mono">Read →</span>
@@ -20,7 +38,7 @@ export function renderReportList(registry: ReportRegistry): string {
     })
     .join("");
 
-  return `<ul class="report-list">${items}</ul>`;
+  return `<ul class="report-list report-list-marked">${items}</ul>`;
 }
 
 export function renderIndex(registry: ReportRegistry): string {

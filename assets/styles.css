@@ -115,22 +115,24 @@ hr {
   text-decoration: none;
   letter-spacing: 0.01em;
   white-space: nowrap;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
 }
 
-/* The seal is a bolder, more geometric mark than the typography around it.
- * Kept small it reads as an official stamp — apt for inquiry documents —
- * rather than competing with the wordmark. */
-.wordmark img {
-  width: 30px;
-  height: 30px;
-  flex: none;
-}
-
+/* No icon beside it (#99): the seal's lettering is 3.6px a character at 30px,
+ * so it read as a grey smudge. The wordmark alone is the mark, as on Co-Star's
+ * own header; the pilcrow-in-seal carries the favicon and app icon instead.
+ *
+ * On a phone the wordmark used to be hidden, leaving the seal; with the full
+ * name there, the nav beside it was squeezed into a column five rows tall.
+ * Wrapping puts the nav on its own rows under the name instead. */
 @media (max-width: 30rem) {
-  .wordmark span { display: none; }
+  .site-header {
+    flex-wrap: wrap;
+    row-gap: 0.9rem;
+  }
+
+  .site-header .site-nav {
+    gap: 0.6rem 1.25rem;
+  }
 }
 
 .site-nav {
@@ -322,6 +324,48 @@ hr {
   color: var(--ink);
 }
 
+/* The archive's rows carry each report's plate (#99) in a fixed leading slot,
+ * so ten plates of different proportions share one axis. Scoped to the
+ * archive: a report's own contents list is a .report-list too, and has none. */
+.report-list-marked a {
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: center;
+}
+
+.report-list-marked .report-mark {
+  grid-row: span 3;
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+}
+
+/* Caps in px, not %: a percentage max-height inside the grid slot does not
+ * resolve, and a portrait plate (Deepwater, 438x660) then ran 140px tall. */
+.report-list-marked .report-mark img {
+  max-width: 64px;
+  max-height: 64px;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 48rem) {
+  .report-list-marked a {
+    grid-template-columns: 92px minmax(0, 3fr) minmax(0, 1.4fr) auto;
+  }
+
+  .report-list-marked .report-mark {
+    grid-row: auto;
+    width: 92px;
+    height: 92px;
+  }
+
+  .report-list-marked .report-mark img {
+    max-width: 92px;
+    max-height: 92px;
+  }
+}
+
 /* ---------- most marked passages (#96) ---------- */
 
 .marked-list {
@@ -465,6 +509,19 @@ hr {
 .report-header .kicker {
   color: var(--muted);
   margin-bottom: 1.5rem;
+}
+
+/* A report's plate (#99), above its title. The img carries its own size
+ * (fitted to 300x220 by frontispiece()); max-width keeps it inside a phone. */
+.report-header .frontispiece {
+  display: grid;
+  place-items: center;
+  padding-bottom: 2rem;
+}
+
+.report-header .frontispiece img {
+  max-width: 100%;
+  height: auto;
 }
 
 .report-header h1 {

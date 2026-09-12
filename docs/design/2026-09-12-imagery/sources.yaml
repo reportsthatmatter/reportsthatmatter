@@ -1,0 +1,269 @@
+# Provenance for every candidate mark, recorded the way a report's sources are.
+#
+# Rule, preferred: the source is a page of a document this archive has already
+# published, rasterised from the PDF in that report's own repo — then the
+# rights position is the report's own, already recorded in its repo's README,
+# and there is nothing new to clear.
+#
+# Two reports have no usable imagery anywhere in their own PDF (uk-leveson-
+# inquiry: typeset legal volumes, essentially zero raster content; us-v-
+# philip-morris: a born-digital opinion, zero embedded images). Those two use
+# `external` instead of `pdf`+`page` — sourced outside the report, with
+# provenance recorded the same way. Rufus, 2026-09-12: not a blocker for this
+# public-interest project; fair use covers it, and incidental questions like a
+# credit line are not worth holding up sourcing over (see Deepwater's below).
+#
+# `pnpm marks` rebuilds every entry below — from the PDFs, or by fetching the
+# `external` URL (cached by hash so a rebuild doesn't refetch). The output is
+# not committed; the recipe is.
+
+defaults:
+  width: 660          # long edge; 3x the largest slot a mark is used in
+  grain: 96
+  clump: 2
+  seed: 1
+
+marks:
+  - id: columbia
+    set: cut
+    report: columbia-accident
+    pdf: archive/CAIB_lowres_full.pdf
+    page: 98
+    dpi: 200
+    crop: [545, 790, 390, 770]
+    subject: >-
+      Columbia on the mobile launcher platform in the Vehicle Assembly Building,
+      framed head-on in the door opening. Chapter 5 opener.
+    rights: >-
+      Work of the Columbia Accident Investigation Board, a U.S. Government
+      body — public domain. See columbia-accident/README.md.
+    treat: { black: 0.06, white: 0.86, grain: 80, cut-at: 0.91, trim: true }
+
+  - id: columbia
+    set: plate
+    report: columbia-accident
+    pdf: archive/CAIB_lowres_full.pdf
+    page: 82
+    dpi: 200
+    crop: [843, 658, 650, 530]
+    subject: >-
+      Figure 3.8-9 — the impact hole punched through Reinforced Carbon-Carbon
+      Panel 8 in the final foam-impact test. The finding itself.
+    rights: Same as above.
+    treat: { black: 0.06, white: 0.90, cut: none }
+
+  - id: deepwater
+    set: cut
+    report: us-deepwater-horizon
+    pdf: archive/deep-water.pdf
+    page: 16
+    dpi: 180
+    crop: [60, 0, 1180, 1780]
+    subject: Deepwater Horizon under way in the Gulf, aerial. Part I opener.
+    rights: >-
+      Report of the National Commission on the BP Deepwater Horizon Oil Spill
+      and Offshore Drilling — U.S. Government work, public domain.
+      Credit confirmed 2026-09-13: the caption on p.17, facing the photograph,
+      reads "Photo courtesy of Transocean".
+    treat: { black: 0.10, white: 0.92, cut-below: true, cut-at: 0.42, keep: 0.03, trim: true }
+
+  - id: deepwater
+    set: plate
+    report: us-deepwater-horizon
+    pdf: archive/deep-water.pdf
+    page: 16
+    dpi: 180
+    crop: [60, 0, 1180, 1780]
+    subject: The same photograph, untrimmed, as a rectangular plate.
+    rights: Same as above, including the Transocean credit.
+    treat: { black: 0.10, white: 0.92, cut: none }
+
+  - id: challenger
+    set: cut
+    report: challenger-accident
+    pdf: archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf
+    page: 56
+    dpi: 200
+    crop: [660, 300, 480, 1180]
+    subject: >-
+      The Solid Rocket Motor aft field joint in normal alignment — tang, clevis,
+      O-rings, putty. Hand-drawn and hand-lettered in the report itself.
+    rights: >-
+      House Committee on Science and Technology — U.S. Government work, public
+      domain. See challenger-accident/README.md.
+    treat: { black: 0.30, white: 0.80, grain: 40, cut-at: 0.80, trim: true }
+
+  - id: challenger
+    set: plate
+    report: challenger-accident
+    pdf: archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf
+    page: 56
+    dpi: 200
+    crop: [640, 700, 420, 420]
+    subject: The same drawing, cropped to the joint detail and left rectangular.
+    rights: Same as above.
+    treat: { black: 0.30, white: 0.82, grain: 30, cut: none }
+
+  - id: litvinenko
+    set: plate
+    report: uk-litvinenko-inquiry
+    pdf: archive/The-Litvinenko-Inquiry-H-C-695-web.pdf
+    page: 177
+    dpi: 220
+    # Tightened 2026-09-13 from [150, 420, 1550, 1900], which carried the
+    # page's white margin and a fragment of the legend into the header plate.
+    crop: [222, 570, 1348, 1750]
+    subject: >-
+      The contamination plan of the Pine Bar, Millennium Hotel — polonium
+      readings by table number. The finding itself, not the T-shirt exhibit
+      (also on file, p.202): that one is a taunt made by the murderers and
+      reads as voyeuristic rather than forensic; this is the inquiry's own
+      evidence map.
+    rights: >-
+      Crown copyright, the Litvinenko Inquiry report — open government
+      licence. See uk-litvinenko-inquiry/README.md.
+    treat: { black: 0.05, white: 0.90, grain: 90, cut: none }
+
+  - id: hillsborough
+    set: plate
+    report: uk-hillsborough-panel
+    pdf: archive/hillsborough-panel-report.pdf
+    page: 77
+    dpi: 200
+    # Tightened 2026-09-13 from the whole sheet ([20, 100, 1600, 2050]) to the
+    # Leppings Lane turnstile arc and the pens behind it.
+    crop: [300, 467, 583, 633]
+    subject: >-
+      Figure 3 — Sheffield Wednesday's own 1985 engineering drawing of
+      proposed alterations to the Leppings Lane turnstiles and terrace pens.
+      The physical space the inquiry's central finding turns on. Avoided
+      Figure 5/6 (p.170-ish): those chart victims as ovals by time of entry,
+      which is data about the deaths, not an exhibit about the cause.
+    rights: >-
+      Reproduced in a Crown/HMSO report; the original drawing is Eastwood &
+      Partners', consulting engineers, 1985. Confirmed 2026-09-13: the title
+      block names Eastwood & Partners, and the Panel's caption reads "Figure 3:
+      Proposed alterations to the turnstile layout at Leppings Lane, April
+      1985. Original available at SCC000002050001, p56."
+    treat: { black: 0.45, white: 0.88, grain: 40, cut: none }
+    caveat: >-
+      Thin line art, like Challenger's drawing direction. The whole sheet was
+      scribble in a 92px archive row (mockups/archive-plate.png, 2026-09-12);
+      re-cropped 2026-09-13 to the turnstile arc with a heavier black point,
+      which reads as a drawing at row size. Shipped in the row as well as the
+      header — still the weakest of the ten there, alongside PSI.
+
+  - id: 911
+    set: plate
+    report: us-911-commission
+    pdf: archive/911Report.pdf
+    page: 305
+    dpi: 180
+    # Tightened 2026-09-13 from [230, 260, 800, 950], which carried the
+    # printed caption and credit line along the plate's bottom edge.
+    crop: [242, 282, 777, 813]
+    subject: >-
+      "The World Trade Center North Tower Stairwell with Deviation" (printed
+      p.288) — the Commission's own rendering explaining why an evacuation
+      route failed. Deliberately not p.49/64/148 (Bin Laden, a map, Khalid
+      Sheikh Mohammed's capture photo): those are perpetrator portraits, the
+      wrong side of the exhibit/event line this project holds to.
+    rights: >-
+      National Commission on Terrorist Attacks Upon the United States — U.S.
+      Government work, public domain. Credit confirmed 2026-09-13: the page
+      itself reads "Rendering by Marco Crupi".
+    treat: { black: 0.10, white: 0.88, grain: 90, cut: none }
+
+  - id: psi
+    set: plate
+    report: us-psi-financial-crisis
+    pdf: "archive/PSI REPORT - Wall Street & the Financial Crisis-Anatomy of a Financial Collapse (FINAL 5-10-11).pdf"
+    page: 127
+    dpi: 150
+    # Tightened 2026-09-13 from the whole chart ([40, 140, 1200, 1400]) to the
+    # title and first tier of boxes, so the lines are twice the size in a row.
+    crop: [125, 212, 625, 625]
+    subject: >-
+      "LBMC 2005-2 Structure" (printed p.120) — the securitization flowchart
+      for a Long Beach Mortgage deal, bearing its own production stamp
+      "FDIC_WAMU_000012358". A bates-stamped exhibit, literally — the second
+      source type the brief names, and it happens to be a PSI report exhibit
+      rather than a facsimile of this report's own page.
+    rights: >-
+      U.S. Senate Permanent Subcommittee on Investigations — public domain
+      Congressional work; the underlying document was produced to the
+      Subcommittee by the FDIC as receiver for WaMu.
+    treat: { black: 0.45, white: 0.92, grain: 60, cut: none }
+    caveat: >-
+      Same thin-line-art weakness as Hillsborough. Re-cropped 2026-09-13 to
+      the title and first tier, which reads as a titled flowchart at 92px
+      rather than a grey smear. The crop drops the FDIC_WAMU bates stamp in
+      the bottom corner, which was illegible below header size anyway.
+
+  - id: jack
+    set: plate
+    report: jack-smith-report
+    pdf: archive/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf
+    page: 1
+    dpi: 300
+    # Seal ink measured at 418,223–597,405 on the 300dpi page (2026-09-13);
+    # the box below centres it with ~10% margin. The earlier 150dpi crop was
+    # set by eye and caught the seal's lower half plus the letterhead rule.
+    crop: [398, 203, 220, 220]
+    subject: >-
+      The U.S. Department of Justice seal from the report's own letterhead,
+      p.1. No embedded photographs exist anywhere in this PDF (it's a pure
+      OCR scan, every page a full-page jbig2 image) — this is the facsimile-
+      mark fallback the brief names as its second preference.
+    rights: >-
+      U.S. Government work, public domain. The seal itself is a U.S. federal
+      insignia; standard federal-insignia use norms apply the way they do for
+      any report reproducing a government letterhead.
+    treat: { black: 0.20, white: 0.88, grain: 55, cut: none }
+
+  - id: philipmorris
+    set: plate
+    report: us-v-philip-morris
+    external: "https://upload.wikimedia.org/wikipedia/commons/4/43/Surgeon_General%27s_warning_cigarettes.jpg"
+    crop: [150, 250, 1350, 750]
+    subject: >-
+      A cigarette pack's Surgeon General's Warning label, macro, with the
+      pack and an ashtray behind it. The report's own opinion has zero
+      embedded images (born-digital, no scans) — this stands in for the
+      report's central finding: that the defendants lied for decades about
+      exactly the health effects a warning label like this one states. The
+      warning label is the corrective statement the court's remedy turns on.
+    rights: >-
+      CDC Public Health Image Library #14542, photo by Debora Cartagena — a
+      U.S. HHS/CDC work, public domain. Sourced outside the report itself;
+      see the file header comment on why.
+    treat: { black: 0.04, white: 0.85, grain: 100, cut: none }
+
+  - id: leveson
+    set: plate
+    report: uk-leveson-inquiry
+    external: "https://upload.wikimedia.org/wikipedia/en/6/61/Final_NOTW_cover.jpeg"
+    crop: [0, 0, 276, 341]
+    subject: >-
+      The final front page of the News of the World, 10 July 2011 — "THANK
+      YOU & GOODBYE" — the paper closed by its own publisher as a direct
+      consequence of the phone-hacking scandal the Inquiry investigated.
+      Rufus's pick, 2026-09-12: reads more as the event's aftermath than an
+      exhibit of the wrongdoing itself, a step further from this study's
+      "exhibit not event" rule than the other nine marks — but it is a
+      genuine historical document, not decoration, and he judged it the
+      right call for a report with nothing else to draw on.
+    rights: >-
+      Hosted on English Wikipedia under a non-free-use rationale (fair use
+      for the Wikipedia article, specifically), not freely licensed for
+      reuse — flagged factually; Rufus has said fair use is fine for this
+      public-interest project and this is not to be treated as a blocker.
+    treat: { black: 0.04, white: 0.92, grain: 60, cut: none }
+    caveat: >-
+      Source file is only 276×341 — well under this pipeline's 660px target,
+      so the plate is upscaled roughly 2.4x rather than downsampled. Reads
+      fine at every size tested (mockups/archive-plate.png), but softer than
+      the other nine on close inspection. Searched 2026-09-13 for a larger copy
+      of the same front page and found none freely hosted — shipped as is,
+      since it holds up at every size the site uses (92px row, 300px header,
+      200px card imprint). Swap in a larger scan if one turns up.

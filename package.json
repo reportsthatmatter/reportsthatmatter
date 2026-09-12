@@ -13,7 +13,9 @@
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",
-    "check-search-staleness": "node scripts/check-search-staleness.mjs"
+    "check-search-staleness": "node scripts/check-search-staleness.mjs",
+    "marks": "node scripts/imagery/build.mjs",
+    "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",

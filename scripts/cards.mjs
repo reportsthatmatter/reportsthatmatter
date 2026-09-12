@@ -21,10 +21,29 @@ import { extractParagraph } from "../src/templates/report.ts";
 
 const root = join(import.meta.dirname, "..");
 
-// setContent() renders from about:blank, so the mark has to travel with the HTML.
-const logoDataUri = `data:image/png;base64,${readFileSync(
-  join(root, "assets/brand/logo-64.png")
-).toString("base64")}`;
+// setContent() renders from about:blank, so images have to travel with the HTML.
+const dataUri = (path, type) => `data:${type};base64,${readFileSync(path).toString("base64")}`;
+
+/** A report's plate (#99), or nothing for a report without one. */
+function markFor(reportId) {
+  const path = join(root, "assets/marks", `${reportId}.webp`);
+  return existsSync(path) ? dataUri(path, "image/webp") : undefined;
+}
+
+
+/**
+ * Fails a card whose content runs past the bottom edge. A plate in the top
+ * row costs up to 190px of height, and a long quote or standfirst under it
+ * would otherwise be clipped in the PNG with nothing to say so — the site
+ * card did exactly that when it briefly carried the brand mark there.
+ */
+async function assertFits(label) {
+  const height = await page.evaluate(() => document.documentElement.scrollHeight);
+  if (height > 630) {
+    console.error(`  ✗ ${label} — content is ${height}px tall, the card is 630px`);
+    process.exitCode = 1;
+  }
+}
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 
 /** Cache: rendering a 2 MB report to HTML is slow, and one report holds many quotes. */
@@ -135,11 +154,12 @@ for (const target of targets) {
     quote: target.quote ? target.quote.trim() : fitToCard(resolved.quote),
     reportTitle: resolved.report.title,
     page: resolved.page,
-    logoDataUri,
+    markDataUri: markFor(target.report),
   });
 
   await page.setContent(html, { waitUntil: "networkidle" });
   await page.waitForTimeout(250);
+  await assertFits(`${target.report}/${resolved.id}`);
 
   const out = join(root, "assets/cards", target.report, `${resolved.id}.png`);
   mkdirSync(dirname(out), { recursive: true });
@@ -159,10 +179,12 @@ if (!(argReport && argParagraph)) {
   const siteHtml = renderDefaultCard({
     title: SITE_HEADLINE,
     subtitle: SITE_STANDFIRST,
-    logoDataUri,
+    // No plate: the site card is about no one report, and its standfirst
+    // needs the height.
   });
   await page.setContent(siteHtml, { waitUntil: "networkidle" });
   await page.waitForTimeout(250);
+  await assertFits("site");
   const siteOut = join(root, "assets/cards/site.png");
   mkdirSync(dirname(siteOut), { recursive: true });
   await page.screenshot({ path: siteOut });
@@ -173,10 +195,11 @@ if (!(argReport && argParagraph)) {
     const html = renderDefaultCard({
       title: report.title,
       subtitle: byline,
-      logoDataUri,
+      markDataUri: markFor(report.id),
     });
     await page.setContent(html, { waitUntil: "networkidle" });
     await page.waitForTimeout(250);
+    await assertFits(`${report.id}/default`);
 
     const out = join(root, "assets/cards", report.id, "default.png");
     mkdirSync(dirname(out), { recursive: true });

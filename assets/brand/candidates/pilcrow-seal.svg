@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- The seal's register kept; its lettering dropped. A pilcrow survives to
+       16px where three arced words cannot, and it is the thing the site
+       actually sells: a permanent address for every paragraph. -->
+  <circle cx="50" cy="50" r="47" stroke="#252525" stroke-width="4.5"/>
+  <circle cx="50" cy="50" r="39" stroke="#252525" stroke-width="2.5"/>
+  <!-- Placed so the glyph's ink box, not its em box, is centred on 50,50:
+       EB Garamond's ¶ at 58 units measures L 14.64 R 15.34 A 37.58 D 16.76
+       (canvas measureText, 2026-09-13). The first pass sat it at y=70,
+       which put the ink centre 9.6 units below the seal's. -->
+  <text x="49.65" y="60.41" fill="#252525" font-family="EB Garamond, Times New Roman, serif"
+        font-size="58" text-anchor="middle">&#182;</text>
+</svg>

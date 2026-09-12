@@ -7,6 +7,18 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-13 — Every report gets a picture of its own evidence
+
+Each of the ten reports now carries a plate: one image, drawn wherever possible from the report's own pages, and chosen to show the thing the inquiry turned on rather than the harm it investigated. The hole punched through Columbia's wing panel in the foam test. The polonium readings table by table in the Pine Bar. The stairwell deviation that failed the North Tower's evacuation. It sits beside each title in the archive, above the title on the report's own page, and on every share card, all in one grain so the ten read as a set.
+
+The site's logo changes with it. The seal beside the name had 26 letters wrapped around a 30-pixel circle, so it only ever read as a smudge; the header is now the name alone. The browser-tab icon becomes a pilcrow (¶), the mark for a paragraph, set in the seal.
+
+![The archive, each report with its plate](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-13-report-plates/2-archive-after.png)
+
+[Before and after, in full](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-13--report-plates-and-the-pilcrow-favicon).
+
+---
+
 ## 2026-09-12 — 166 wrong links stop pretending to be citations
 
 Turning scanned text into a web page means guessing which fragments are
