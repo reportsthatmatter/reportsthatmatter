@@ -64,6 +64,9 @@ backup/
 dolt-pull.log
 dolt-push.log
 
+# Runtime staging file for auto-import (per-machine, differs per clone)
+.auto-import-issues.jsonl
+
 # Per-project environment file (Dolt connection config, GH#2520)
 .env
 
