@@ -14,3 +14,4 @@
 {"id":"int-e5fea1b58409032be6d3811320e22397","kind":"field_change","created_at":"2026-09-11T19:19:14.352877Z","actor":"Rufus Pollock","issue_id":"reportsthatmatter-9j2","extra":{"field":"status","new_value":"closed","old_value":"in_progress"}}
 {"id":"int-9885c6d4761017bb747324efb2a13695","kind":"field_change","created_at":"2026-09-12T07:43:09.253397Z","actor":"Rufus Pollock","issue_id":"reportsthatmatter-hzf","extra":{"field":"status","new_value":"in_progress","old_value":"open"}}
 {"id":"int-6f2aedc644359d00f80f08e9fb035537","kind":"field_change","created_at":"2026-09-12T07:59:53.795082Z","actor":"Rufus Pollock","issue_id":"reportsthatmatter-hzf","extra":{"field":"status","new_value":"closed","old_value":"in_progress"}}
+{"id":"int-b2ebcce6c5c07099b9d13f89abc380ca","kind":"field_change","created_at":"2026-09-12T12:04:32.156296Z","actor":"Rufus Pollock","issue_id":"reportsthatmatter-4p7","extra":{"field":"status","new_value":"closed","old_value":"open"}}
