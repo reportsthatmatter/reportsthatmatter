@@ -1,7 +1,7 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 68272,
+      "words": 68276,
       "paragraphs": 469,
       "sections": [
         {
@@ -439,8 +439,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 154521,
-      "paragraphs": 2903,
+      "words": 154698,
+      "paragraphs": 2896,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -469,8 +469,8 @@
         {
           "slug": "technical-management",
           "title": "Technical Management",
-          "paragraphs": 48,
-          "ids": "c666c38b8f67"
+          "paragraphs": 47,
+          "ids": "734164379a82"
         },
         {
           "slug": "organization-and-policy-management",
@@ -482,7 +482,7 @@
           "slug": "challenger-investigation-hearings",
           "title": "CHALLENGER INVESTIGATION HEARINGS",
           "paragraphs": 13,
-          "ids": "a5669dd658ed"
+          "ids": "0c1493e305fc"
         },
         {
           "slug": "introduction-2",
@@ -499,8 +499,8 @@
         {
           "slug": "fletcher-the-solid-rocket-motor-source-evaluation-board-seb",
           "title": "Fletcher, the Solid Rocket Motor Source Evaluation Board (SEB)",
-          "paragraphs": 67,
-          "ids": "7f6da95efd6e"
+          "paragraphs": 66,
+          "ids": "41b8c0de4d17"
         },
         {
           "slug": "summary-of-significant-observations",
@@ -583,20 +583,20 @@
         {
           "slug": "w-i-l-l-not-1-seal",
           "title": "W I L L NOT 1 SEAL",
-          "paragraphs": 152,
-          "ids": "5a5815dca961"
+          "paragraphs": 150,
+          "ids": "1efad5b63112"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 126,
-          "ids": "5f0b8061d62e"
+          "paragraphs": 124,
+          "ids": "b4dbfd53674d"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
           "title": "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
           "paragraphs": 305,
-          "ids": "5d1f3e14d126"
+          "ids": "e7104ef6e31a"
         },
         {
           "slug": "launch-redlines",
@@ -650,7 +650,7 @@
           "slug": "space-shuttle-s-o-l-i-d-rocket-hwor-pnojoct-operational-flight",
           "title": "SPACE SHUTTLE S O L I D ROCKET HWOR PNOJOCT OPERATIONAL FLIGHT",
           "paragraphs": 39,
-          "ids": "ecf94a1d0899"
+          "ids": "e0fcbb42be7c"
         },
         {
           "slug": "panel-on-tecbrical-evaluation-of-rasas-ppoposed-bzdesicii",
@@ -709,8 +709,8 @@
         {
           "slug": "calculation-12-procedure",
           "title": "Calculation 12. Procedure",
-          "paragraphs": 49,
-          "ids": "40ac690ae79f"
+          "paragraphs": 48,
+          "ids": "227187678fec"
         },
         {
           "slug": "0-omrsd",

@@ -4,7 +4,7 @@ authors: "Committee on Science and Technology, U.S. House of Representatives"
 published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
-footnotes: 89
+footnotes: 90
 corrections: 31
 ---
 
@@ -806,9 +806,7 @@ Findings
 
 1. There is no clear understanding or agreement among the various levels of NASA management as to what constitutes a launch constraint or the process for imposing and waiving constraints.
 
-2. Launch Constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.
-
-6 4 - 4 2 0 0 - 86 - 2
+2. Launch Constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.[^6] 4 - 4 2 0 0 - 86 - 2
 
 %%page 26%%
 
@@ -1146,7 +1144,7 @@ June 18, 1986 ......[^5] ............... U. Edwin Garrison, President, Aerospace
 
 > Joseph C. Kilminster, Vice President, Morton Thiokol. Carver G. Kennedy, Vice President, Space Booster Program, Morton Thiokol. Allan J. McDonald, Director, SRM Verification Task Force, Morton Thiokol. Roger M. Boisjoly Staff Engineer, Morton Thiokol. Arnold R. Thompson, Supervisor, Structures Design, Morton Thiokol.
 
-June 25, 1986 .......... 6 ............... Maj. Donald "Deke" K. Slayton, Brig. Gen. James A. McDivitt, Capt. John W. Young, Cot. Henry
+June 25, 1986 ..........[^6] ............... Maj. Donald "Deke" K. Slayton, Brig. Gen. James A. McDivitt, Capt. John W. Young, Cot. Henry
 
 W. Hartsfield. Jr.. Comdr. Robert 1. Gibson, Gen. Thomas Stafford. July 15, 1986...........[^3] ............... George Jeffs, President, North American Space Operations. Roekwell International.
 
@@ -1590,9 +1588,7 @@ July 19, 1985.-An attempt to form an SRM Erosion team at Thiokol "virtually fail
 
 July 22, 1985.-One of the engineers who appreciated the joint problem was Mr. Boisjoly of Morton Thiokol. In a "Progress Report" he wrote, "This problems has escalated so badly in the eyes of everyone, especially our customer, NASA, that NASA has gone to our competitors on a proprietary basis and solicited their experiences on their joint configuration."31 (See Appendix V-G.)
 
-26 Ibid.[^27] Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.
-
-6 4 - 4 2 0 0 - 86 - 3
+26 Ibid.[^27] Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.[^6] 4 - 4 2 0 0 - 86 - 3
 
 %%page 58%%
 
@@ -2206,7 +2202,7 @@ And,
 
 bid.,Volume I, pp. 160-161 3 Ibid., pp. 124-125.[^4] bid., Volume 11, p. K-24.
 
-Ibid., Volume I, p. 148. 6 bid., Volume XI, p. K-30.
+Ibid., Volume I, p. 148.[^6] bid., Volume XI, p. K-30.
 
 %%page 88%%
 
@@ -2630,13 +2626,13 @@ What impact does growth of SRM case size have upon booster and Shuttle performan
 
 Finding
 
-The Committee concurs with the Development and Production Team Finding that "Remeasurement of two used $RM case segments indicated both tang and clevis sealing surfaces have increased in diameter beyond the anticipated design limits." 6 2
+The Committee concurs with the Development and Production Team Finding that "Remeasurement of two used $RM case segments indicated both tang and clevis sealing surfaces have increased in diameter beyond the anticipated design limits."[^6] 2
 
 Recommendation
 
 NASA and the appropriate contractor should rqsolve through analysis and testing prior to the next Shuttle flight the cause of SRM case size growth and its impact upon booster and Shuttle performance, reliability of refurbished SRM case segments, and safety. Discussion
 
-During the investigation of the 51-L accident, the NASA/Commission D&P Team "determined by measurement of two flown case segments that both the SRM tang and clevis sealing surfaces have increased in diameter beyond the anticipated design limits. The growth is believed to be material related and related to the hydro- static proof test pressure level." 6 3 f. Review of NASA's RedesigniRecertification Plan
+During the investigation of the 51-L accident, the NASA/Commission D&P Team "determined by measurement of two flown case segments that both the SRM tang and clevis sealing surfaces have increased in diameter beyond the anticipated design limits. The growth is believed to be material related and related to the hydro- static proof test pressure level."[^6] 3 f. Review of NASA's RedesigniRecertification Plan
 
 Issue
 
@@ -2666,7 +2662,7 @@ Recommendations
 
 4. The Committee requests that the new Office of Safety, Reliability and Quality Assurance conduct an independent assessment of the SRB field joint redesign efforts. In addition, the new office should also be integrally involved in reviewing all other critical component redesign efforts and NASA's recertification plan. Discussion
 
-The "Strategy for Safely Returning the Space Shuttle to Flight Status" includes the plans to redesign the SRM joint, reverify hardware design requirements, and to completely review all "critical" items. This strategy was proposed March 24, 1986, by Admiral Truly, the Associate Administrator for Space Flight and supple- ments the Rogers Commission's recommendations. 6 4
+The "Strategy for Safely Returning the Space Shuttle to Flight Status" includes the plans to redesign the SRM joint, reverify hardware design requirements, and to completely review all "critical" items. This strategy was proposed March 24, 1986, by Admiral Truly, the Associate Administrator for Space Flight and supple- ments the Rogers Commission's recommendations.[^6] 4
 
 The redesign of the SRM joint is being conducted and supervised by a cross section of competent and qualified individuals from NASA centers, including Marshall Space Flight Center, the Astronaut Office, and individuals from outside NASA. An expert advisory panel of 12 people, six from outside NASA, has also been appointed. Further, at the request of the NASA Administrator, the National Research Council has established an Independent Oversight Group which reports directly to the Administrator. (See Appendix VI-B.)
 
@@ -3160,7 +3156,7 @@ Testimony gave reference to one RTLS site (KSC), five TAL (Trans Atlantic or Tra
 
 The Orbiter is not a good handling airplane to fly. The Orbiter landing is the most demanding task of airmanship expected of an aviator today. It is a complex and sophisticated blend of automa- tion, systems management, and manual skills:
 
-> The Orbiter re-enters with a 1100 mile cross track capability to begin the Terminal Area Management phase, 52 miles out at Mach 2.5 and 82,000 feet. Computer energy management delivers the Orbiter to the alignment circle on TACAN where the pilot takes over at three minutes out on a 19 degree glide scope aligning on PAPI lights. At 13,000 feet, 6 miles and two minutes out, he initiates flare to intercept the 1.5 degree glide slope at 275 knots. Guiding on the Ball Bar lights, he approaches and lands around 200 knots depending on his weight. At 140 to 120 knots, he begins to brake and decelerates to a stop.
+> The Orbiter re-enters with a 1100 mile cross track capability to begin the Terminal Area Management phase, 52 miles out at Mach 2.5 and 82,000 feet. Computer energy management delivers the Orbiter to the alignment circle on TACAN where the pilot takes over at three minutes out on a 19 degree glide scope aligning on PAPI lights. At 13,000 feet,[^6] miles and two minutes out, he initiates flare to intercept the 1.5 degree glide slope at 275 knots. Guiding on the Ball Bar lights, he approaches and lands around 200 knots depending on his weight. At 140 to 120 knots, he begins to brake and decelerates to a stop.
 
 If MLS terminal navigation is not available, the pilot can rely upon onboard radar for precision altitude and use his heads up dis- play to assist what is nominally a visual approach and landing. There is no room for computer, navigation or pilot error. Training aircraft training and practice IS an element of major importance to successful Orbiter landings under the variety of conditions facing the pilots. Unrationed crew team flight training is deemed essenlZo Rogers Commission Report, Volume V, p. 1455.
 
@@ -3582,7 +3578,7 @@ NASA technical expertise is further reduced by the departure of highly skilled e
 
 NASA can expect to lose between 7500 and 9000 technical and scientific employees over the next ten years. While 50 percent of these personnel losses are formally attributed to retirement, NASA officials "know. . .that many retires leave NASA for higher paying jobs in industry." 162 Additionally, 17 percent of the departing employees acknowledge that they are leaving NASA for more finan- cially rewarding jobs. 63
 
-NASA is concerned that the difficulty it will experience in re- placing these employees is essentially the same that led to the departures; the agency's "salary structure is not sufficiently flexible and competitive to attract the very best talent our nation has to offer." 6 4 Therefore, despite liberal hire authority for engineering positions, NASA is experiencing difficulty in recruiting entry-level engineers, largely due to salary. As noted by the Agency:
+NASA is concerned that the difficulty it will experience in re- placing these employees is essentially the same that led to the departures; the agency's "salary structure is not sufficiently flexible and competitive to attract the very best talent our nation has to offer."[^6] 4 Therefore, despite liberal hire authority for engineering positions, NASA is experiencing difficulty in recruiting entry-level engineers, largely due to salary. As noted by the Agency:
 
 > Currently the Government pays GS-7 recent college graduates in all engineering disciplines a special salary rate of $23,170. This is the statutory maximum under the current special salary rate provisions. At the same time, our private sector competitors are offering these graduates an average salary of $27,000 to $29,000 depending on the engineering discipline. It would take approximately a 20 percent increase for us to match our competitors. However, absent a legislative change, the most we could offer in the next year would be the percentage increase to the General Schedule (perhaps two or three percent in January 1987). A continuing infusion of recent college graduates is critical to the continued success of NASA's mission and accomplishing this has become increasingly difficult. Inadequate salaries are an equally significant problem at the executive levels in the agency.165
 
@@ -3592,7 +3588,7 @@ In addition to the number of technical managers, it is also necessary to examine
 
 18s Ibid.
 
-166Cmte Hgs, Transcript, July 24, 1986, pp. 119-23 headquarters' technical ability to discern and react to emerging problems may be gained from an examination of the manner in which it addressed the growing concerns with the O-rings in the summer of 1985. Prior to that time the problems with the O-rings had been briefed at all levels of the agency and had been presented to headquarters on at least two occasions. 6 8 However, increasing problems with case-to-case erosion prompted headquarters to request a complete briefing "to go over the situation in detail."[^1] 6 9
+166Cmte Hgs, Transcript, July 24, 1986, pp. 119-23 headquarters' technical ability to discern and react to emerging problems may be gained from an examination of the manner in which it addressed the growing concerns with the O-rings in the summer of 1985. Prior to that time the problems with the O-rings had been briefed at all levels of the agency and had been presented to headquarters on at least two occasions.[^6] 8 However, increasing problems with case-to-case erosion prompted headquarters to request a complete briefing "to go over the situation in detail."[^1] 6 9
 
 The meeting was chaired by Mr. Moore's deputy for technical matters, L. Michael Weeks, and attended by a number of other headquarters personnel which Mr. Moore characterized as having "some knowledge about the SRB."170 In testimony before the Rogers Commission, Mr. Moore described the composition of the meeting:
 
@@ -4228,9 +4224,7 @@ Additional structural loads resulted from turbulence. Flight 51-L experienced th
 
 10. Shortly after the vehicle was loaded by these turbulent forces, at T+58 seconds, a flame appeared from the same general region where the puffs of smoke had been seen. But, this time the joint was continuously breached by the burning propellant gases. In a little over two seconds, the flame had grown and acted as a blowtorch to burn through the hydrogen tank. The appearance of the flame at this time is also indicative of a damaged primary 0- ring and failure of the secondary O-ring to seal, for reasons explained in the Critical Items List dated December 17, 1982.sa
 
-The telemetry data, photographs and cockpit voice recordings support evidence of turbulent conditions and the manner in which the Shuttle failed.
-
-6 The joint waa designed to accommodate these loads. 0 NASA, MSFC, "51-L Analysis Overview, STS 51-L-Wind Shears, April 25, 1986, p. H-597. 0' NASA, "SRB Critical Items List," December 17,1982, page A-6A, sheet 1.
+The telemetry data, photographs and cockpit voice recordings support evidence of turbulent conditions and the manner in which the Shuttle failed.[^6] The joint waa designed to accommodate these loads. 0 NASA, MSFC, "51-L Analysis Overview, STS 51-L-Wind Shears, April 25, 1986, p. H-597. 0' NASA, "SRB Critical Items List," December 17,1982, page A-6A, sheet 1.
 
 %%page 189%%
 
@@ -4524,9 +4518,7 @@ Days before launch .......... Transport to pad on Movement of Transporter ... St
 
 Days befcre launch .......... Addition of payloads ........ Added weight ..................... Static .......................... Additional compressive and shear loads. Within 24 hours of Loading of fuel ................Weight of liquid hydrogen Static.......................... Additional compressive launch. and liquid oxygen. and shear loads. Within 24 hours of Loading of fuel ................ External tank contracts in Static ............................ Lateral tensile force launch. diameter due to applied by aft
 
-> reduction in attachment structure temperature. between external tank and solid rocket motor casing.
-
-6 semds to launch ........ Firing of main engines Thrust of engines ............... Static and dynamic....... Further moments
+> reduction in attachment structure temperature. between external tank and solid rocket motor casing.[^6] semds to launch ........ Firing of main engines Thrust of engines ............... Static and dynamic....... Further moments
 
 > (SSME's). compressive and vibratory (25 to 30 Hz) .
 
@@ -4646,7 +4638,7 @@ With regard to the visit with company officials at Precision Rubber Products, "t
 
 surmise that the seal had wrformed so well in the present
 
-> appiication." 6 2 Regarding the visit with the Parker officials, the memo
+> appiication."[^6] 2 Regarding the visit with the Parker officials, the memo
 
 stated. "their first thought was the O-ring was being asked
 
@@ -4698,7 +4690,7 @@ Under the terms of the FRR Policy Directive, such damage would appear to require
 
 5Thiok0l %S-51L (STS33) Solid Rocket &,or (SRM-25) Flight Readiness Review," TWR- 1M811. Tbrpjmber 11.
 
-~ ~. 1985.chart 1-1. See Amendm VIII-B. 6 Rogera Commkion &port, Volume 11,p. H-3.
+~ ~. 1985.chart 1-1. See Amendm VIII-B.[^6] Rogera Commkion &port, Volume 11,p. H-3.
 
 %%page 209%%
 
@@ -4924,11 +4916,9 @@ This was apparently a mistake. As Mr. Mulloy and Mr. Wear explained to the Commi
 
 Mr. Mulloy's discussion with Chairman Roe, and his description provided to the Commission, indicate that the NASA Safety, Reliability and Quality Assurance (SR&QA) organization should play a
 
-Robert Lindstrom, NASA, Marshall Space Fli ht Center, "Assigning Launch Constraints on dpen Problems Submitted to MSFC PAS," Septem%er 15,1980, p. 1. See Appendix WI-J. 6 1 -era Commission Report, Volume V, p. 1509.
+Robert Lindstrom, NASA, Marshall Space Fli ht Center, "Assigning Launch Constraints on dpen Problems Submitted to MSFC PAS," Septem%er 15,1980, p. 1. See Appendix WI-J.[^6] 1 -era Commission Report, Volume V, p. 1509.
 
-bid.
-
-6 4 - 4 2 0 0 - 86 - 8 significant role in the Flight Readiness Review process. The information available on this topic suggests that this was not the case. The Committee is concerned by the invisibility of SR&QA in this area.
+bid.[^6] 4 - 4 2 0 0 - 86 - 8 significant role in the Flight Readiness Review process. The information available on this topic suggests that this was not the case. The Committee is concerned by the invisibility of SR&QA in this area.
 
 %%page 218%%
 
@@ -4950,7 +4940,7 @@ Testifying before the Committee, however, Mr. Mulloy argued that both levels wer
 
 > Mr. VOLKMER. "Even though . . . you continued to see erosion of the O-ring, you continued to waive the launch constraint?"
 
-5JSee also "Safety, Reliability and ality Assurance," Section VLB.Z.c(2)of this report. 6 4 This is documented in Section VI%Z.dl) of this report. s 6 PAS Record A09288, p. 1.
+5JSee also "Safety, Reliability and ality Assurance," Section VLB.Z.c(2)of this report.[^6] 4 This is documented in Section VI%Z.dl) of this report. s 6 PAS Record A09288, p. 1.
 
 Rogers Commission Report, Volume I, p. 159.
 
@@ -4986,9 +4976,7 @@ He called me and said they had just received some word earlier that the weatherm
 
 Mr. Ebeling wanted Mr. McDonald to get some accurate predicted temperatures for the Cape so he could make some calculations to determine what could be expected of the O-rings. McDonald told him he would get the temperature data for him and call him back. Mr. Carver Kennedy, Vice President of Space Services for Thiokol, working at the Kennedy Space Center, obtained the information. Mr. McDonald then relayed the information to Mr. Ebeling in Utah. The information indicated that the temperature was to get as low as 22" in the early morning hours, probably around 6:OO a.m., and that they were predicting a temperature of about 26" at the intended time of launch, 9:38 a.m. on the 28th.s2
 
-6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.[^8] 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shuttle Challenger Accident, March 19, 1986,
-
-6 1 Rogers Commission Report, Volume f V
+6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.[^8] 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shuttle Challenger Accident, March 19, 1986,[^6] 1 Rogers Commission Report, Volume f V
 
 > !; . 715.
 
@@ -5498,7 +5486,7 @@ RTI. Okay. We didn't see this when we had icing conditions before?
 
 RI. No, and they didn't run the showers all damn night,before. They ran the showers this time and ran'em, pretty heavily by the look of it, the drains froze up and the all overflowed.
 
-RTI. 6 h . . . .
+RTI.[^6] h . . . .
 
 RI. And I guess nobody watched it all night or, if the did, they didn't say anything. But, uh-is John [Peller, Rockwell Vice President &r Engineering] in yet?
 
@@ -6876,7 +6864,7 @@ E . T -- i n z q j. 2.7.1 N a t u r a l fnv i r o n o e n t . Tne H M L a h a l 
 
 %%page 314%%
 
-I 3 .[^2] . 6 .[^3] r*rmnnel i i2 i z i
+I 3 .[^2] .[^6] .[^3] r*rmnnel i i2 i z i
 
 > . . i : i I: ii ii I
 
@@ -8374,9 +8362,7 @@ It is 1. ortrnt to mot0 thot tho cruso rnd offoct o f tho putt rrrlor. fboro rro
 
 Thrro h a w boon f f v o ( I ) oc~urroncosduring flight whoro thors ras primary f i o l d joint "0" ring ororion. Thcro vas one car. whore tho rocondar "0" rln ras hoar affoctod rith no ororion. Tho ororion vlth tn, field folnt primary "0" rlngr is conrldorod b romo t o - b o moro critical than tho norrlo joint duo t o tho fact tgot during tho prorruro build up on tho p r i u r y "0" rin tho unprorrurirod fiold joint rocondrry rorl unroatr &a0 to f o h t rot t ion. Tho problom rlth tho unroating of tho rocondary "0" ring durlag joint rotation ha8 botn known for uito norno t h o . In ordor t o ollmlnatr thir roblom on tho FXC !iold joints capturo foaturo vas drslgnod uh!ch provontr tho ~ocondriyrorl from lifting off. Durin our dircurrlonr on this isrua rith MSFC, 8n rctlon war arsigno! for tho8 to idontlfy tho timing rrrociatod with tho unseatlag of tho rocondary '*O" ring and tho m 4 t i n # of tbo primary "0" rln durin rotation. How long it t a k a tho recondary "0" rfng to fift off during rotatlon and rbon in tho rerruro cyclo it lifts mro koy frctorr in tho dotor8inrtion of P t r criticality. Tho proront C O ~ ~ O I I SIs
 
-U ~that if tho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocondrry ''0" rfng will not rorvo Its intrndod purporo as r rodundont seal. Hovovor, rodundrnc door oxlrt during tbo Ignition cyclo, bhich tho most cri?icaI t h o . * t 1s rocommondod thrt ro rrrrn#o for WSFC t o provido an ovorrll brl0fing to you on tho SRll "0" rings, including friluro hlrtoty, currant status, and options for corrocting tho problo~r.
-
-6 4 - 4 2 0 0 - 86 - 1 3
+U ~that if tho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocondrry ''0" rfng will not rorvo Its intrndod purporo as r rodundont seal. Hovovor, rodundrnc door oxlrt during tbo Ignition cyclo, bhich tho most cri?icaI t h o . * t 1s rocommondod thrt ro rrrrn#o for WSFC t o provido an ovorrll brl0fing to you on tho SRll "0" rings, including friluro hlrtoty, currant status, and options for corrocting tho problo~r.[^6] 4 - 4 2 0 0 - 86 - 1 3
 
 %%page 378%%
 
@@ -8406,7 +8392,7 @@ c.
 
 d.
 
-P Q t E . 06 , ___
+P Q t E .[^6] , ___
 
 .
 
@@ -9068,7 +9054,9 @@ f
 
 [^4]: Rogers Commission Report, Volume 11, p. H-1.
 
-[^5]: bid. 0 %id. iNm.-The nozzle to case joint design is significantly different than the case field joint design w ich caused the Challenger accident. However, it is cited here because some of the prob- l e m are relevant to the failure of the aft field joint.]
+[^5]: bid.
+
+[^6]: id. iNm.-The nozzle to case joint design is significantly different than the case field joint design w ich caused the Challenger accident. However, it is cited here because some of the prob- l e m are relevant to the failure of the aft field joint.]
 
 [^7]: bid.
 
