@@ -2,6 +2,8 @@
 
 Issue [#99](https://github.com/reportsthatmatter/reportsthatmatter/issues/99). Two deliverables: a written study of Co-Star's visual language specific enough to produce new work in it, and a mark per report. This is the study, plus a working treatment and three directions rendered against real pages.
 
+**To add or change a plate, follow [`docs/plates.md`](../../plates.md)** — the working recipe. This document is the study and the record of how the direction was chosen.
+
 **Shipped 2026-09-13** — the plate direction for all ten reports, and the pilcrow-in-seal favicon. See "Shipped" at the bottom for what went live and where it differs from the study. The direction is Rufus's pick, from the mockups below.
 
 ---
@@ -104,6 +106,8 @@ The report's own hand-drawn engineering plate. Challenger p.48 is a technical-pe
 
 ### What is not done
 
+*As of the study, 2026-09-12 — both points below are since resolved: all ten reports have plates, and the Deepwater credit is confirmed. See "Shipped".*
+
 - Seven reports have no subject chosen, and four have no PDF cloned locally.
 - Deepwater's photograph is credited in the report to Transocean. The report is a public-domain U.S. Government work but that credit line needs checking before it ships. Recorded as unresolved in `sources.yaml`.
 - The Co-Star study sheets in `reference/` are their artwork, reduced and quoted for design study. If that is not wanted in a public repo, delete the two PNGs — the written analysis stands without them.
@@ -130,6 +134,8 @@ Two changes, independent of each other:
 | d · Pilcrow alone | Cleanest at every size, but loses the stamp quality, and the descender sits awkwardly against the wordmark. |
 
 Recommendation: **c**, with the full seal kept wherever it has 96px or more — share cards, the about page, `og:image`, print. SVGs are in `assets/brand/candidates/`.
+
+*Superseded in part when it shipped (2026-09-13): the share cards carry the report's plate in that slot instead, so the full seal is now used nowhere on the site. The pilcrow-in-seal is the only brand mark in use.*
 
 ---
 

@@ -1,5 +1,6 @@
 /* Rebuilds every candidate mark from the report PDFs, per the recipe in
- * docs/design/2026-09-12-imagery/sources.yaml.
+ * docs/design/2026-09-12-imagery/sources.yaml. How to add or change a plate,
+ * end to end: docs/plates.md.
  *
  *   pnpm marks                 # all of them
  *   pnpm marks columbia        # one report's

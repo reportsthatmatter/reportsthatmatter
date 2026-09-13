@@ -17,7 +17,7 @@ describe("report plates", () => {
     const { parse } = await import("yaml");
     const registry = parse(readFileSync("reports/registry.yaml", "utf8"));
     const missing = registry.reports.map((r: { id: string }) => r.id).filter((id: string) => !MARKS[id]);
-    expect(missing).toEqual([]);
+    expect(missing, `No plate for ${missing.join(", ")} — every published report needs one. Recipe: docs/plates.md`).toEqual([]);
   });
 
   it("sets each archive row's plate inside the 92px slot, at its own proportions", () => {

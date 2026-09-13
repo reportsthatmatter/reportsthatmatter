@@ -127,8 +127,8 @@
   passes: true
 
 - id: brand-mark
-  desc: The seal as favicon, header mark and on share cards
-  verify: /assets/brand/logo-64.png served; header renders it
+  desc: The pilcrow-in-seal as favicon and app icon; the wordmark alone in the header (#99, docs/plates.md)
+  verify: /assets/brand/pilcrow-32.png served and linked as the icon; header renders no image
   passes: true
 
 - id: deploy

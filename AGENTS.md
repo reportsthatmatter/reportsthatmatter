@@ -70,6 +70,8 @@ an interactive session.
 | `reports/manifest.yaml` | Where each report's build lives |
 | `reports/<id>/full.md` | An aggregated copy for serving. **The authority is the report's own repo** |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
+| `assets/marks/` | Each report's plate, committed: `<id>.webp` and `<id>-row.webp` — see [`docs/plates.md`](docs/plates.md) |
+| `scripts/imagery/` | Plate pipeline (`pnpm marks`) and the favicon renderer (`brand.mjs`) |
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |
@@ -201,6 +203,8 @@ mid-grey ink rather than black, classical serif for substance, uppercase mono
 for chrome, sharp corners, hairline rules, large whitespace. Tokens live at the
 top of `assets/styles.css`. EB Garamond / Inter / IBM Plex Mono stand in for
 Romana and Akkurat, which are licensed.
+
+**Every published report has a plate** — one treated image from its own evidence, in its archive row, report header and share cards. Adding a report means adding its plate in the same change; `tests/plates.test.ts` fails otherwise. The recipe is [`docs/plates.md`](docs/plates.md); the reasoning is the study in `docs/design/2026-09-12-imagery/`.
 
 ## Deploy
 

@@ -15,6 +15,7 @@ mechanisms, by different people/scripts, on different schedules.**
 | --- | --- | --- |
 | A report's text (a correction, a re-ingest) | `pnpm publish-report <id>` (or the report repo's own `rtm-publish`) | No — writes straight to R2 + flips a D1 pointer |
 | Site code, templates, styling, routes | `./scripts/deploy-cloudflare.sh` (`pnpm wrangler deploy`) | Yes |
+| A report's plate, a share card, or the favicon (`docs/plates.md`) | `./scripts/deploy-cloudflare.sh` — they are app assets, not report content | Yes |
 | A report that has never been published | needs a Worker deploy at least once (it is served from `assets/generated/`, which is baked into the deploy) | Yes, until first published |
 
 All ten reports are currently published (R2-pinned) — check with

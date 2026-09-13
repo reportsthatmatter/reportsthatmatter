@@ -23,8 +23,10 @@ for (const f of files) {
   (sets[set] ??= {})[report] = uri(f);
 }
 
-// The ten rows as the archive actually lists them, so an incomplete set is
-// seen for what it is: three marks among seven blanks.
+// The ten rows as the archive listed them in the study, so an incomplete set
+// is seen for what it is. Hard-coded: a report added since will not appear here
+// until it is added below — check new plates on the real /reports page instead
+// (docs/plates.md, step 5).
 const rows = [
   ["jack", "Report of Special Counsel Jack Smith, Volume One: The Election Case", "Jack Smith, Special Counsel, U.S. Department of Justice · January 2025"],
   ["psi", "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse", "U.S. Senate Permanent Subcommittee on Investigations · 13 April 2011"],
