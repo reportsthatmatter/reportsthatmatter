@@ -41,4 +41,27 @@ for (const size of sizes) {
   writeFileSync(join(root, `assets/brand/pilcrow-${size}.png`), png);
   console.log(`assets/brand/pilcrow-${size}.png`);
 }
+
+// The press-page lockup: the same seal beside the wordmark, matching the
+// navbar's markup so it's the same mark, not a redrawn approximation.
+await page.setContent(
+  `<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500&display=swap" rel="stylesheet">
+   <style>
+     html,body{margin:0;background:transparent}
+     #lockup{display:inline-flex;align-items:center;gap:28px;padding:12px}
+     #lockup svg{width:150px;height:150px;flex:0 0 auto}
+     #lockup span{font-family:"EB Garamond",serif;font-weight:500;font-size:108px;color:#252525;
+       letter-spacing:0.01em;white-space:nowrap}
+   </style>
+   <div id="lockup">${svg}<span>Reports that Matter</span></div>`,
+  { waitUntil: "networkidle" }
+);
+await page.evaluate(async () => {
+  await document.fonts.load('500 108px "EB Garamond"', "Reports that Matter");
+});
+await page.setViewportSize({ width: 1600, height: 300 });
+const lockupPng = await page.locator("#lockup").screenshot({ omitBackground: true });
+writeFileSync(join(root, "assets/brand/logo-lockup.png"), lockupPng);
+console.log("assets/brand/logo-lockup.png");
+
 await browser.close();

@@ -43,14 +43,23 @@ marks:
     set: plate
     report: columbia-accident
     pdf: archive/CAIB_lowres_full.pdf
-    page: 82
+    page: 98
     dpi: 200
-    crop: [843, 658, 650, 530]
+    crop: [545, 790, 390, 770]
     subject: >-
-      Figure 3.8-9 — the impact hole punched through Reinforced Carbon-Carbon
-      Panel 8 in the final foam-impact test. The finding itself.
+      Columbia on the mobile launcher platform in the Vehicle Assembly
+      Building, the same photograph as the cut mark above, rendered as a
+      plate instead.
     rights: Same as above.
-    treat: { black: 0.06, white: 0.90, cut: none }
+    treat: { black: 0.06, white: 0.86, grain: 80, cut: none }
+    caveat: >-
+      Replaced 2026-09-14 (issue #99 follow-up). The previous plate (p.82,
+      the RCC Panel 8 impact hole) read as an unidentifiable dark blob at
+      every size tested — Rufus flagged it as looking like it belonged to a
+      different report entirely. This is the same subject as the already-
+      shipped cut mark, chosen for it being unmistakably a Space Shuttle;
+      rendered as a plate rather than the cut silhouette to stay consistent
+      with the other nine reports' rectangular treatment.
 
   - id: deepwater
     set: cut
@@ -96,13 +105,28 @@ marks:
   - id: challenger
     set: plate
     report: challenger-accident
-    pdf: archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf
-    page: 56
-    dpi: 200
-    crop: [640, 700, 420, 420]
-    subject: The same drawing, cropped to the joint detail and left rectangular.
-    rights: Same as above.
-    treat: { black: 0.30, white: 0.82, grain: 30, cut: none }
+    external: "https://www.nasa.gov/wp-content/uploads/static/history/rogersrep/v1p22.jpg"
+    crop: [0, 0, 335, 726]
+    subject: >-
+      Challenger at liftoff, cropped to the launch photograph (dropping the
+      page's inset zoom and printed caption). NASA's own caption: "dark
+      smoke swirled out between the right hand booster and the External
+      Tank... first discernible at .678 seconds Mission Elapsed Time in the
+      vicinity of the right booster's aft field joint" — the photographic
+      evidence the Rogers Commission used to locate the failure, not a
+      decorative shot of the launch.
+    rights: >-
+      NASA work — public domain (NASA material is not protected by
+      copyright unless noted). Hosted on nasa.gov's own Rogers Commission
+      Report Volume I pages: nasa.gov/history/rogersrep/v1p22.htm.
+    treat: { black: 0.10, white: 0.92, grain: 70, cut: none }
+    caveat: >-
+      Replaced 2026-09-14 (issue #99 follow-up). challenger-accident's own
+      PDF is a pure bitonal OCR scan (like jack-smith) — no embedded
+      photographs anywhere; the previous plate and its cut alternate were
+      both the same hand-drawn O-ring diagram, so neither was actually a
+      better option. Sourced externally instead, same as leveson and
+      philipmorris, from NASA's own hosting of the Rogers Commission report.
 
   - id: litvinenko
     set: plate

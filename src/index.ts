@@ -4,6 +4,7 @@ import { loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
+import { renderPress } from "./templates/press";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
@@ -299,6 +300,7 @@ async function buildSearchResults(
 }
 
 app.get("/about", (c) => c.html(renderAbout()));
+app.get("/press", (c) => c.html(renderPress()));
 
 // The reader's own highlights. The server holds none of them — this is the
 // shell, and the browser fills it from local storage.
@@ -341,6 +343,7 @@ app.get("/sitemap.xml", async (c) => {
     { loc: "/", priority: "1.0" },
     { loc: "/reports", priority: "0.9" },
     { loc: "/about", priority: "0.7" },
+    { loc: "/press", priority: "0.3" },
     { loc: "/changelog", priority: "0.4" },
   ];
 

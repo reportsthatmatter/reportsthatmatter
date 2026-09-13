@@ -15,6 +15,7 @@ const DEFAULT_NAV: NavLink[] = [
   { label: "Search", href: "/search" },
   { label: "Highlights", href: "/highlights" },
   { label: "About", href: "/about" },
+  { label: "Press", href: "/press" },
   { label: "Changelog", href: "/changelog" },
 ];
 
@@ -88,6 +89,11 @@ export function renderLayout(
 <body>
 <header class="site-header wrap">
   <a class="wordmark" href="/">
+    <svg class="wordmark-icon" viewBox="0 0 100 100" fill="none" aria-hidden="true" focusable="false">
+      <circle cx="50" cy="50" r="47" stroke="currentColor" stroke-width="4.5" />
+      <circle cx="50" cy="50" r="39" stroke="currentColor" stroke-width="2.5" />
+      <text x="49.65" y="60.41" fill="currentColor" font-family="EB Garamond, Times New Roman, serif" font-size="58" text-anchor="middle">&#182;</text>
+    </svg>
     <span>Reports that Matter</span>
   </a>
   ${nav}
@@ -101,6 +107,7 @@ ${body}
       <a href="/search">Search</a>
       <a href="/highlights">Highlights</a>
       <a href="/about">About</a>
+      <a href="/press">Press</a>
       <a href="/changelog">Changelog</a>
     </nav>
   </div>

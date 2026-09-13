@@ -7,6 +7,18 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-14 — A logo in the navbar, a press page, and two plates replaced
+
+The pilcrow mark is back beside the site's name in the header — a plainer, unlettered version of the seal than the one dropped from there the day before, already proven legible at favicon size. A new [/press](https://reportsthatmatter.org/press) page carries the logo, the logotype, and the two together, in the sizes the site itself ships.
+
+Two of the ten reports' plates read poorly and are replaced. Columbia's showed an unrecognisable dark shape rather than anything identifiable as the report; it's now the shuttle stack in the Vehicle Assembly Building door, the same subject as a distinct candidate held from the earlier work. Challenger's report has no photographs anywhere in its own PDF — its plate was a hand-drawn diagram, same as the rejected direction for the mark beside it — so its plate now comes from NASA's own photograph of the smoke at the right booster's joint at liftoff, the evidence the Rogers Commission used to locate the failure.
+
+![Columbia's plate, before and after](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-14-navbar-press-plates/5-columbia-row-after.png)
+
+[Before and after, in full](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-14--navbar-icon-a-press-page-and-two-weak-plates-replaced).
+
+---
+
 ## 2026-09-13 — Every report gets a picture of its own evidence
 
 Each of the ten reports now carries a plate: one image, drawn wherever possible from the report's own pages, and chosen to show the thing the inquiry turned on rather than the harm it investigated. The hole punched through Columbia's wing panel in the foam test. The polonium readings table by table in the Pine Bar. The stairwell deviation that failed the North Tower's evacuation. It sits beside each title in the archive, above the title on the report's own page, and on every share card, all in one grain so the ten read as a set.

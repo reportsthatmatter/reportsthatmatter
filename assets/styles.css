@@ -108,6 +108,9 @@ hr {
 }
 
 .wordmark {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--serif);
   font-size: 1.5rem;
   line-height: 1;
@@ -117,13 +120,20 @@ hr {
   white-space: nowrap;
 }
 
-/* No icon beside it (#99): the seal's lettering is 3.6px a character at 30px,
- * so it read as a grey smudge. The wordmark alone is the mark, as on Co-Star's
- * own header; the pilcrow-in-seal carries the favicon and app icon instead.
+/* #99 dropped the lettered ring-seal from the nav: three arced words at
+ * nav size read as a grey smudge (3.6px a character at 30px). The pilcrow-
+ * in-seal here is a different, simpler mark — no lettering, just the glyph
+ * the favicon already proves legible down to 16px — so it doesn't hit the
+ * same failure.
  *
  * On a phone the wordmark used to be hidden, leaving the seal; with the full
  * name there, the nav beside it was squeezed into a column five rows tall.
  * Wrapping puts the nav on its own rows under the name instead. */
+.wordmark-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  flex: 0 0 auto;
+}
 @media (max-width: 30rem) {
   .site-header {
     flex-wrap: wrap;
@@ -274,6 +284,28 @@ hr {
 .col p {
   margin: 0;
   max-width: 42ch;
+}
+
+/* ---------- press page ---------- */
+
+.press-swatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  border: 1px solid var(--rule);
+  background: var(--canvas);
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+}
+
+.press-cell p {
+  margin: 0.6rem 0 0;
+  color: var(--muted);
 }
 
 /* ---------- report index ---------- */

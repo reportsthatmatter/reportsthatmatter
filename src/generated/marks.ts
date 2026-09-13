@@ -3,12 +3,12 @@
  * treated at 276px on its long edge, for the archive row. */
 export const MARKS: Readonly<Record<string, { width: number; height: number }>> = {
   "challenger-accident": {
-    "width": 660,
+    "width": 305,
     "height": 660
   },
   "columbia-accident": {
-    "width": 660,
-    "height": 538
+    "width": 334,
+    "height": 660
   },
   "jack-smith-vol1": {
     "width": 660,
