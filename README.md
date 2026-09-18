@@ -22,9 +22,9 @@ Cloudflare account: `office@atomatic.net`. Deploy with `pnpm wrangler deploy`.
 
 ## Contributing / picking this up
 
-Start from **[issue #77 — START HERE](https://github.com/reportsthatmatter/reportsthatmatter/issues/77)**:
-current state and a map of what to do next. House rules are in
-[AGENTS.md](AGENTS.md).
+Read [AGENTS.md](AGENTS.md) for the house rules, then run `bd dolt pull` and
+`bd ready` from this repository. Beads is the sole source for current work,
+priorities, dependencies, and blockers.
 
 ## Plans
 

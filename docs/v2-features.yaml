@@ -5,20 +5,14 @@
 # the goal pass — an entry that cannot be met is marked blocked, with a reason.
 #
 # Where things live:
-#   GitHub issue #77     START HERE — the map of what to do next
+#   Beads (`bd ready`)   active work, priority, ownership, and blockers
 #   AGENTS.md            house rules, the done condition, gotchas
 #   docs/ROADMAP.md      what we might build and why (the thinking)
-#   this file            what is done and what is next (the state)
+#   this file            product feature history and verification conditions
 #   GitHub issues        report candidates, one per report
 #
-# ---------------------------------------------------------------------------
-# START HERE  →  https://github.com/reportsthatmatter/reportsthatmatter/issues/77
-# ---------------------------------------------------------------------------
-# That issue is the entry point: current state, and a map of what is worth
-# doing next with enough context to pick one and go. This file is the detail
-# behind it — one entry per feature, with how each is verified.
-#
-# To resume:  ./scripts/init.sh   (bootstraps, then runs the full check)
+# To resume: `bd dolt pull`, then `bd ready`. Run `./scripts/init.sh` to
+# bootstrap a cold checkout and execute the full verification gate.
 #
 
 # --- shipped ---------------------------------------------------------------

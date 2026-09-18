@@ -3,14 +3,16 @@
 Reports that Matter turns hard-to-access public reports into web pages that can
 be read, searched, and cited by paragraph.
 
-## → Start here
+## → Begin here
 
-**[Issue #77 — START HERE](https://github.com/reportsthatmatter/reportsthatmatter/issues/77)**
-is the entry point: current state, and a map of the things worth doing next
-with enough context to pick one and go. Read it first. Keep it current — if you
-finish something on it, edit it.
+```bash
+git pull
+bd dolt pull
+bd ready
+```
 
-This file is the *house rules*. The issue is *what to do*.
+Beads is the entry point for current state and what to do next. This file is
+the *house rules*.
 **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** is *how it works* — report
 repos vs. this repo, publishing vs. deploying, search, the two fidelity gates
 — with a diagram. Read it before assuming a deploy is what ships a content
@@ -27,6 +29,18 @@ Do not maintain a separate next-work list. At session end run `bd dolt push`
 before committing and pushing. See [`docs/beads-sync.md`](docs/beads-sync.md)
 for commands and sync recovery. JSONL export is for inspection and
 interchange, not sync or backup.
+
+The database belongs to this central `reportsthatmatter/reportsthatmatter`
+repository. Tasks stay here even when their implementation is committed in a
+report's sibling repository or in `ingest`; do not create a separate Beads
+database in those repositories.
+
+If progress genuinely requires Rufus's decision or action, create a separate
+Bead labelled `needs-user`. State the exact request in its description, give it
+unambiguous acceptance criteria, and add it as a dependency of every Bead it
+blocks (`bd dep <needs-user-id> --blocks <blocked-id>`). A note that input would
+be useful is not a blocker. Continue under a safe, reasonable assumption when
+one is available.
 
 ## The done condition
 

@@ -104,5 +104,6 @@ with no why does not get built. When something becomes active work it moves into
 **Report candidates go in GitHub issues**, not here — there are already ~28,
 one per report, which is the right shape for them. This file is for features.
 
-**Where to start after a break:** the START HERE block at the top of
-`v2-features.yaml`. It names the next action and who owns it.
+**Where to start after a break:** run `bd dolt pull`, then `bd ready`. Beads
+owns active state; this roadmap records ideas and their rationale, not the work
+queue.

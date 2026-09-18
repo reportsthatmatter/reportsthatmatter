@@ -1,8 +1,8 @@
 # Architecture
 
 The current shape of the system, kept up to date as it changes. For *what to
-do next*, see [issue #77](https://github.com/reportsthatmatter/reportsthatmatter/issues/77)
-and Beads (`bd ready`). For house rules, see [AGENTS.md](../AGENTS.md). Older
+do next*, use Beads (`bd dolt pull`, then `bd ready`). For house rules, see
+[AGENTS.md](../AGENTS.md). Older
 design docs under `docs/plans/` record how we got here and are not kept
 current once superseded by this file.
 

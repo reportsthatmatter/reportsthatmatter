@@ -1,9 +1,13 @@
 # Beads sync
 
-This repository uses Beads with an embedded Dolt database. The shared Beads
-database is synchronized through the repository's GitHub-backed Dolt remote;
-the optional JSONL export is for inspection, viewers, and interchange, not for
-backup or cross-machine sync.
+The central `reportsthatmatter/reportsthatmatter` repository uses Beads with an
+embedded Dolt database. This is the only project Beads database: work remains
+in this queue when its implementation lands in a sibling report repository or
+in `ingest`. Do not initialize Beads separately in those repositories.
+
+The shared database is synchronized through this repository's GitHub-backed
+Dolt remote; the optional JSONL export is for inspection, viewers, and
+interchange, not for backup or cross-machine sync.
 
 ## Start a session
 
@@ -21,6 +25,20 @@ before starting any agent-actionable task, use labels for domain grouping and
 dependencies only for genuine blockers, and set `--external-ref` when the task
 has a related GitHub issue. Keep public discussion, report candidates, and
 broad epics on GitHub until there is a concrete task to perform.
+
+When a task genuinely requires Rufus's decision or action, create a separate
+Bead labelled `needs-user`. State the exact request and unambiguous acceptance
+criteria, then make it a dependency of every task it blocks:
+
+```bash
+bd create "Decision or action needed" --labels needs-user \
+  --description "Exact request and why it is required" \
+  --acceptance "Observable condition that resolves the request"
+bd dep <needs-user-id> --blocks <blocked-id>
+```
+
+Do not use the label for optional feedback or when work can safely continue
+under a reasonable assumption.
 
 ## Work with issues
 
