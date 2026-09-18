@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-18 — 18 Challenger scan errors leave the review queue
+
+The first prose batch in the Challenger report's remaining OCR queue has been checked against the GPO scan. Twenty-five page-scoped corrections restore damaged footnote numbers and definitions, the SRM O-ring Task Force title, and a table heading; 18 suspect tokens are now resolved rather than left for another reviewer.
+
+![Footnote 25 on printed page 211, after correction](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-18-challenger-ocr/2-after-page-211.png)
+
+[Before and after, in full](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-18--challenger-appendix-ocr-review).
+
+---
+
 ## 2026-09-14 — A logo in the navbar, a press page, and two plates replaced
 
 The pilcrow mark is back beside the site's name in the header — a plainer, unlettered version of the seal than the one dropped from there the day before, already proven legible at favicon size. A new [/press](https://reportsthatmatter.org/press) page carries the logo, the logotype, and the two together, in the sizes the site itself ships.

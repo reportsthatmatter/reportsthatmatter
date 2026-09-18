@@ -439,8 +439,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 154698,
-      "paragraphs": 2896,
+      "words": 154675,
+      "paragraphs": 2894,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -584,13 +584,13 @@
           "slug": "w-i-l-l-not-1-seal",
           "title": "W I L L NOT 1 SEAL",
           "paragraphs": 150,
-          "ids": "3e5e99d6a8f0"
+          "ids": "53f5505f3aa3"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 124,
-          "ids": "5b5ff7d2747e"
+          "paragraphs": 123,
+          "ids": "1bbee644eebc"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
@@ -602,13 +602,13 @@
           "slug": "launch-redlines",
           "title": "LAUNCH REDLINES",
           "paragraphs": 65,
-          "ids": "3778171d7de2"
+          "ids": "8dd188bdc8df"
         },
         {
           "slug": "ok134",
           "title": "OK.134",
-          "paragraphs": 66,
-          "ids": "4108a0633192"
+          "paragraphs": 65,
+          "ids": "27ef53dd2b29"
         },
         {
           "slug": "ixdefinitions-of-terms-and-acronyms",

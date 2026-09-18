@@ -5,7 +5,7 @@ published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
 footnotes: 90
-corrections: 31
+corrections: 56
 ---
 
 Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House Report 99-1016
@@ -4376,7 +4376,7 @@ a 1 O-ring squeeze is the distance, in fractions of an inch, that an O-ring is c
 
 %%page 195%%
 
-case and nozzle-to-case O-ring seal erosion pr0blems.~3Davids sent copies to Messrs. Weeks, Hamby, Herrington and Winterhalter.23" In the memo it was noted that there has been twelve instances of primary O-ring erosion during Shuttle flights. In addition, in one specific case there had also been erosion of the secondary O-ring seal. There were also two primary O-ring seals that were heat affected without erosion and two cases in which soot blewby the primary seals. In this memo it was noted that the prime suspect for the cause of erosion on the primary O-ring seals was the type of putty being used. It was Thiokol's position that during assembly leak check, or ignition, a hole could be formed through the putty which then initiated O-ring erosion due to a "jetting effect." It was even mentioned in this memo that Thiokol was seriously considering the deletion of putty on the QM-5 nozzle/case joint since they believed the putty was the prime cause of the erosion. Davids, however, had reservations about deleting the putty because he recognized the significance of the QM-5 firing in qualifying the FWC (Filament Wound Case) for flight.
+case and nozzle-to-case O-ring seal erosion problems.23 Davids sent copies to Messrs. Weeks, Hamby, Herrington and Winterhalter.23a In the memo it was noted that there has been twelve instances of primary O-ring erosion during Shuttle flights. In addition, in one specific case there had also been erosion of the secondary O-ring seal. There were also two primary O-ring seals that were heat affected without erosion and two cases in which soot blewby the primary seals. In this memo it was noted that the prime suspect for the cause of erosion on the primary O-ring seals was the type of putty being used. It was Thiokol's position that during assembly leak check, or ignition, a hole could be formed through the putty which then initiated O-ring erosion due to a "jetting effect." It was even mentioned in this memo that Thiokol was seriously considering the deletion of putty on the QM-5 nozzle/case joint since they believed the putty was the prime cause of the erosion. Davids, however, had reservations about deleting the putty because he recognized the significance of the QM-5 firing in qualifying the FWC (Filament Wound Case) for flight.
 
 In the matter of case-to-case O-ring erosion the memo noted that there had been five occurrences during flight where there was primary field joint O-ring erosion. There was also one case where the secondary O-ring was heat damaged with no erosion. The memo stated:
 
@@ -4388,11 +4388,11 @@ The memo continued:
 
 Lastly the memo noted:
 
-> The present consensus is that if the primary O-ring seats during ignition, and subsequently fails, the unseated secondary O-ring will not serve its intended purpose as a redundant seal. However, redundancy does exist during the ignition cycle, which is the most critical time.2s (See A p pendices VII-B and VII-C.)
+> The present consensus is that if the primary O-ring seats during ignition, and subsequently fails, the unseated secondary O-ring will not serve its intended purpose as a redundant seal. However, redundancy does exist during the ignition cycle, which is the most critical time.26 (See A p pendices VII-B and VII-C.)
 
-On August 2, 1985, Larry Wear, MSFC's SRM Element Manager, sent a letter to Joseph Kilminster, Thiokol's Vice President for Space Booster Programs, on the subject of SRM field joint second23 NASA, Irving Davids, "Case to Case and Nozzle to Case '0Ring Seal Erosion Problems," July 11 1985.
+On August 2, 1985, Larry Wear, MSFC's SRM Element Manager, sent a letter to Joseph Kilminster, Thiokol's Vice President for Space Booster Programs, on the subject of SRM field joint second23 NASA, Irving Davids, "Case to Case and Nozzle to Case 'O' Ring Seal Erosion Problems," July 11 1985.
 
-23. Mr. Weeks, Dep. Assoc. Administrator for Space Flight (Technical); Mr. Hamby, Dep. Dir., STS Program Integration; Mr.Herrington, De Dir. of Launch & Landing Operations; and Mr. k. Winterhalter, Acting E r . , Shuttle Propulsion z 4 hid., p. 2.[^86] bid.
+23a Mr. Weeks, Dep. Assoc. Administrator for Space Flight (Technical); Mr. Hamby, Dep. Dir., STS Program Integration; Mr.Herrington, De Dir. of Launch & Landing Operations; and Mr. k. Winterhalter, Acting E r . , Shuttle Propulsion z 4 hid., p. 2.[^86] bid.
 
 hid.
 
@@ -4460,17 +4460,15 @@ The presentation then included a chart titled "O-ring (Viton) Shore Hardness vs.
 
 > Degree F Shore Hardness 70 degrees 77 hardness 60 degrees 81 hardness 50 degrees 84 hardness 40 degrees 88 hardness 30 degrees 92 hardness 20 degrees 94 hardness 10 degrees 96 hardness
 
-33 A type of, utty made b another company that also was considered for use in the SRM.[^34] Thiokol, 8RM O-ring $ask Force Status and QM-5 Recommendations," TWR-15349, November 20, 1985.
+33 A type of, utty made b another company that also was considered for use in the SRM.[^34] Thiokol, SRM O-ring Task Force Status and QM-5 Recommendations," TWR-15349, November 20, 1985.
 
 Thiokol. "Temuerature Concern on SRM Joints," January 27, 1986, chart 2-1.[^35] -..~
 
 ~
 
-30 bid.[^3] 7 bid., Chart 2 2.
+36 Ibid.[^37] Ibid., Chart 2-2.[^38] Ibid., Chart 3-1.
 
-3s bid.. Chart 3-1.
-
-39 Kid.; Chart 4-1
+39 Ibid., Chart 4-1.
 
 %%page 199%%
 
@@ -4578,7 +4576,7 @@ Typical mechanical properties of D-6A steel:[^4] 9
 
 %%page 202%%
 
-> Temoerinc temcerature Tensile strength yield strength ks, E'~~a~~2i~n,50 Reduction in area, V=nolch impaci 'C 7 ksi cercenl percent energy fl-lb
+> Temoerinc temcerature Tensile strength yield strength ks, Elongation in 50 mm or 2 in., percent Reduction in area, V=nolch impaci 'C 7 ksi cercenl percent energy fl-lb
 
 - 150 300 299 211 8.5 19.c — 10
 
@@ -4730,7 +4728,7 @@ Mr. Mulloy's presentation at the January 15, 1986, Level 1 FRR does not indicate
 
 A ain, the focus of his presentation involved the changes made f in t e parachute recovery system. The SRM booster nozzle on STS 51-L would be separated at the apogee of the SRB flight path (following se aration of the boosters from the Shuttle vehicle) to pro-
 
-B tect the rogue parachute from debris, and the main parachutes were to be separated at water impact to reduce risks to the divers that assisted with recovery.2O
+B tect the rogue parachute from debris, and the main parachutes were to be separated at water impact to reduce risks to the divers that assisted with recovery.20
 
 Mulloy's presentation to the Associate Administrator was not no- ticeably different from the presentation be made to Mr. Aldrich, the Shuttle Program Manager, at the Level I1 readiness review the day before. In fact, the briefing charts are identical.21
 
@@ -4756,7 +4754,7 @@ For mission 41-G, Mulloy argued that "test shows maximum erosion possible less t
 
 In his presentation to the STS 51-E Level 1 FRR, Mulloy is seen on a videotape stating that:
 
-> The rationale that was developed after observing this erosion on STS-11 [41-B] was that it was a limited duration that was self-limiting in that as soon as the pressure in the cavity between the putty and the primary O-ring after the primary O-ring seats, or the pressure between the primary and the secondary O-ring equals the motor pressure, the flow stops and the erosion stops. The maximum erosion that we have seen previously is 53 thousandths [of an inch]-that was back on STS-2. The erosion that we saw on 51-C was 10 thousandths of an inch on one O-ring and 38 thousandths on the other, so we believe that because of the limited exposure and the fact that the leak check assures that the secondary O-ring is properly sealing against motor pressure and the fact that the duration is limited, and that we can take 95 thousandths erosion on a primary O-ring and seal against 3,000 psi which is three times the motor pressure, that this represents an acceptable risk.2s
+> The rationale that was developed after observing this erosion on STS-11 [41-B] was that it was a limited duration that was self-limiting in that as soon as the pressure in the cavity between the putty and the primary O-ring after the primary O-ring seats, or the pressure between the primary and the secondary O-ring equals the motor pressure, the flow stops and the erosion stops. The maximum erosion that we have seen previously is 53 thousandths [of an inch]-that was back on STS-2. The erosion that we saw on 51-C was 10 thousandths of an inch on one O-ring and 38 thousandths on the other, so we believe that because of the limited exposure and the fact that the leak check assures that the secondary O-ring is properly sealing against motor pressure and the fact that the duration is limited, and that we can take 95 thousandths erosion on a primary O-ring and seal against 3,000 psi which is three times the motor pressure, that this represents an acceptable risk.25
 
 Mulloy's confidence that the SRM seal could take "95 thousandths erosion on a primary O-ring and seal against 3,000 psi which is three times the motor pressure, . . ." is based on computer modelling of the joint performance. Dr. Feynman's analysis of the model, however, questions its use as the basis for declaring the seal problem "an acceptable risk."
 
@@ -4768,7 +4766,7 @@ was supposed a stream of hot gas impinged on the O-ring
 
 > other numbers, it was determined that the model agreed with erosion (to depth of one-third the radius of the ring). There is nothing much so wrong with this as believing the answer! Uncertainties appear everywhere. How strong the gas stream might be was unpredictable, it depended on holes formed in the putty. Blow-by showed that the ring might fail even though not, or only partially eroded
 
-24 Ibid., p. H-13. 2s Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42.
+24 Ibid., p. H-13. 25 Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42.
 
 %%page 212%%
 
@@ -4884,7 +4882,7 @@ The record was apparently opened on July 10, 1985, some two months following the
 
 > Analytical studies based on both impingement erosion and blowby erosion show that this phenomenon has an acceptable ceiling since implementing the above changes [in performance of the seal leak check and in stacking procedures]. Recent experience has been within the program data base. The seal improvement program plan will continue until the problem has been isolated and damage eliminated to the SRM seals.45
 
-An identical entry appears in PAS Record A07934, "Segment Joint Primary O-ring Charred." Though tracking problems with the field joint seals, work on the nozzle joint problem was included "as they are the same generic problem."4s
+An identical entry appears in PAS Record A07934, "Segment Joint Primary O-ring Charred." Though tracking problems with the field joint seals, work on the nozzle joint problem was included "as they are the same generic problem."46
 
 The logic behind this "resolution" of the O-ring problem is not readily apparent. As the field joint tracking report notes, "The 0- rings in the SRM segment ass[embl]y joints are designed as press[ure] seals & are not intended to be exposed to hot gases."47
 
@@ -4938,9 +4936,7 @@ The Committee, however, is concerned not only about the SR&QA organization at Ma
 
 Testifying before the Committee, however, Mr. Mulloy argued that both levels were informed.
 
-> Mr. VOLKMER. "Even though . . . you continued to see erosion of the O-ring, you continued to waive the launch constraint?"
-
-5JSee also "Safety, Reliability and ality Assurance," Section VLB.Z.c(2)of this report.[^6] 4 This is documented in Section VI%Z.dl) of this report. s 6 PAS Record A09288, p. 1.
+> Mr. VOLKMER. "Even though . . . you continued to see erosion of the O-ring, you continued to waive the launch constraint?"[^53] See also "Safety, Reliability and ality Assurance," Section VLB.Z.c(2)of this report.[^6] 4 This is documented in Section VI%Z.dl) of this report. s 6 PAS Record A09288, p. 1.
 
 Rogers Commission Report, Volume I, p. 159.
 
@@ -5124,7 +5120,7 @@ In testimony before the Committee on June 18, 1986, concerning the caucus and th
 
 > When we went off the line and caucused-one of the first statements that was made was that we would have to make a management decision by management people. And we continued very strongly to oppose that and we argued as vigorously as we could argue, and when you look up into people's eyes you know you have gone about as far as you can go. And so both Mr. Thompson and I just plain frankly backed off. You had to be there and you had to see the looks and feel the experience that it didn't really make any difference what further you were going to say, you were just not going to be heard.79
 
-At approximately 11 p.m. EST, the Thiokol/NASA teleconference resumed, with Mr. Kilminster stating that they had reassessed the problem, that the temperature effects were a concern, but that the data were admittedly inconclusive. He read the rationale recommending launch and stated that to be Thiokol's recommendation. Mr. Hardy of NASA requested that it be sent in writing by telefax both to Kennedy and to Marshall, and it was.8o
+At approximately 11 p.m. EST, the Thiokol/NASA teleconference resumed, with Mr. Kilminster stating that they had reassessed the problem, that the temperature effects were a concern, but that the data were admittedly inconclusive. He read the rationale recommending launch and stated that to be Thiokol's recommendation. Mr. Hardy of NASA requested that it be sent in writing by telefax both to Kennedy and to Marshall, and it was.80
 
 713bid.
 
@@ -5700,9 +5696,9 @@ FH. Okay, we may have a problem with propellant temperatures at that low level. 
 
 CF. Because of the amount of heat that the ground system's able to put in there?
 
-12 2Mr. George Jeffs, President, North American Space Operations, Rockwell International.
+122 Mr. George Jeffs, President, North American Space Operations, Rockwell International.
 
-Lz3Cmte. H,p., Transcript, July 25, 1986, pp. 71-74.
+123 Cmte. Hgs, Transcript, July 25, 1986, pp. 71-74.
 
 I24NASA, Launch Commit Criteria and Background," Revision C, Amendment 18, JSC- 16007, December 1, 1982, p. 5.1-4. See Appendix VIII-K. FH. That's right, they're giving us all they can right now. . . . I z 5
 
@@ -5764,7 +5760,7 @@ As for the effect of exceeding this redline, the launch commit criteria reads:
 
 '*@Ibid. 218.
 
-12' 01s &annel 245, pp. 219-20.[^1] 2 8 See Appendix VIII-L. '2OIbid.
+12' 01s &annel 245, pp. 219-20.[^1] 2 8 See Appendix VIII-L. 129 Ibid.
 
 130 "Launch Commit Criteria and Background," p. 5.1-4.
 
@@ -5968,13 +5964,9 @@ While there is no reason to believe that these waivers directly contributed to t
 
 %%page 251%%
 
-If the hydrogen tank was never emptied during the turnaround procedure, this would represent a violation of those criteria. Had the criteria been observed, STS-51L would have required an afternoon window on January 28, or it might have been necessary to attempt the launch on January 29. This has not been independently confirmed, however.
+If the hydrogen tank was never emptied during the turnaround procedure, this would represent a violation of those criteria. Had the criteria been observed, STS-51L would have required an afternoon window on January 28, or it might have been necessary to attempt the launch on January 29. This has not been independently confirmed, however.[^145] Discussion with Carver Kennedy, Thiokol Wasatch Operations, Brigham City, Utah. Sep tember 4.1986. General Kutyna also noted this in the Commission's hearing on February 14.
 
-14. W o n with Carver Kennedy,ThioLol Wasateh Operations, Brigham City, Utah. Sep tember 4.1986. General Kutyna aL0 nded thb in the Commimion'r hearing on February 14.
-
-Cornmimion Ibpon Volume N. 660). l S a0s ( 7 r
-
-141 Channel 245, p. 218.
+Rogers Commission Report, Volume IV, p. 660).[^146] OIS Channel 245, p. 218.
 
 p.
 
@@ -9186,7 +9178,7 @@ f
 
 [^9]: Rogers Commission Report, loc. cit.
 
-[^10]: bid. 1 ' Ibid. - Readiness 1 2 Robert Lindstrom. NASA. Marshall Soace Flight Center. "Shuttle Proiect Flight Review,i'~SOP~8000.1,~&cemb& 29, 1983, p 2. See Xppendix VIII-C. l 3 William Lucas, NASA, Marshall Space Flight Center, "MSFC Flight Readiness Review (FRR) Board for MSFC Elements for Mission 51-L," January 7, 1986, pp. 1-2. See Appendix .vm-n _*- I . I4Discussion with Mr. McDonald, September 4, 1986. Ibid.
+[^10]: bid. 1 ' Ibid. - Readiness 1 2 Robert Lindstrom. NASA. Marshall Soace Flight Center. "Shuttle Proiect Flight Review,i'~SOP~8000.1,~&cemb& 29, 1983, p 2. See Xppendix VIII-C. l 3 William Lucas, NASA, Marshall Space Flight Center, "MSFC Flight Readiness Review (FRR) Board for MSFC Elements for Mission 51-L," January 7, 1986, pp. 1-2. See Appendix .vm-n _*- I . 14 Discussion with Mr. McDonald, September 4, 1986. Ibid.
 
 [^30]: Rogers Commission Report, Volume V, p. 834.
 
