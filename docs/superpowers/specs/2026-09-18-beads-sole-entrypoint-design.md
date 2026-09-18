@@ -23,6 +23,24 @@ bd ready
 issues remain useful for public discussion, report candidates, and broad
 context, but they do not duplicate active task state.
 
+## Repository ownership
+
+The Beads database belongs to the central application repository,
+`reportsthatmatter/reportsthatmatter` (locally
+`/Users/rgrp/src/reportsthatmatter/reportsthatmatter`). Its embedded Dolt
+database is synchronized with that repository's configured `origin` by
+`bd dolt pull` and `bd dolt push`. The tracked `.beads/issues.jsonl` and
+`.beads/interactions.jsonl` files are inspection/interchange exports committed
+to the same repository; they are not the synchronization database.
+
+Individual report repositories and the shared `ingest` repository do not get
+their own Beads databases. A task remains in the central queue even when its
+implementation commits land in one or several sibling repositories. The Bead
+names those repositories, records their commits and verification, and links a
+related public GitHub issue with `--external-ref` where one exists. This keeps
+`bd ready` a genuinely complete project-wide view rather than a federation of
+queues that must be checked separately.
+
 Historical plans and specifications keep their references to issue #77 because
 those references describe the workflow at the time. Generated report content
 that happens to contain “#77” is unrelated and is not changed.
