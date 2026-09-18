@@ -78,3 +78,11 @@ reports:
     source_path: reports/uk-hillsborough-panel/full.md
     source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
     ingested: true
+
+  - id: uk-saville-inquiry
+    title: "The Report of the Bloody Sunday Inquiry, Volume I"
+    authors: "The Rt Hon The Lord Saville of Newdigate (Chairman), William Hoyt, John Toohey"
+    published_at: "15 June 2010"
+    source_path: reports/uk-saville-inquiry/full.md
+    source_url: "https://assets.publishing.service.gov.uk/media/5a7b7c8ced915d131105f8f4/0029_i.pdf"
+    ingested: true

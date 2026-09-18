@@ -291,3 +291,27 @@ marks:
       of the same front page and found none freely hosted — shipped as is,
       since it holds up at every size the site uses (92px row, 300px header,
       200px card imprint). Swap in a larger scan if one turns up.
+
+  - id: saville
+    set: plate
+    report: uk-saville-inquiry
+    pdf: archive/bloody-sunday-inquiry-vol1-hc29-i.pdf
+    page: 25
+    dpi: 200
+    # Measured 2026-09-18: the photograph's ink box on the 200dpi page is
+    # x 141-1116, y ~786-1510; tightened to the vehicle, stopping short of the
+    # figures at the photograph's right edge.
+    crop: [251, 890, 675, 460]
+    subject: >-
+      A Humber armoured personnel carrier — a "Pig" — in Londonderry on
+      Bloody Sunday, from the Glossary entry "APC" (printed p.20). Support
+      Company drove into the Bogside in these vehicles, and the report's
+      account of the arrest operation, and of who fired first, starts from
+      their arrival. The vehicle, not the shooting: avoided the casualty maps
+      (pp.65-76, which mark where people fell) and the Glossary's nail-bomb
+      photograph (p.31, a hand holding it).
+    rights: >-
+      Reproduced in the report (Crown copyright, Open Government Licence v3.0,
+      per the report repo's README); the report credits the photograph to
+      Robert White, "taken by Robert White on Bloody Sunday" (p.20).
+    treat: { black: 0.0, white: 0.97, grain: 55, cut: none }

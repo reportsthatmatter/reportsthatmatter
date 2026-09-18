@@ -26,6 +26,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 534,
     "height": 660
   },
+  "uk-saville-inquiry": {
+    "width": 660,
+    "height": 450
+  },
   "us-911-commission": {
     "width": 631,
     "height": 660

@@ -205,7 +205,8 @@
 
 - id: more-reports
   desc: >
-    Ten published. Added 2026-09-03: us-911-commission, us-deepwater-horizon,
+    Eleven published. Added 2026-09-18: uk-saville-inquiry (Volume I of X),
+    which needed four report-declared passes in @rtm/ingest v0.12.16. Added 2026-09-03: us-911-commission, us-deepwater-horizon,
     us-v-philip-morris, uk-hillsborough-panel — all born-digital, all clean,
     all passing the fidelity gate (retention 96.6–99.7%). ~22 candidates
     remain, curated as GitHub issues — Chilcot (#67), Saville (#39),

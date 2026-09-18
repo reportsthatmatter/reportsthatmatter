@@ -29,3 +29,5 @@ reports:
     dir: ../us-v-philip-morris
   - id: uk-hillsborough-panel
     dir: ../uk-hillsborough-panel
+  - id: uk-saville-inquiry
+    dir: ../uk-saville-inquiry
