@@ -3437,6 +3437,72 @@
           "ids": "750cbc80d29f"
         }
       ]
+    },
+    "uk-saville-inquiry": {
+      "words": 171539,
+      "paragraphs": 1932,
+      "sections": [
+        {
+          "slug": "front-matter",
+          "title": "Front matter",
+          "paragraphs": 252,
+          "ids": "f14fe93c1bd9"
+        },
+        {
+          "slug": "chapter-1-introduction",
+          "title": "Chapter 1: Introduction",
+          "paragraphs": 19,
+          "ids": "2d775852552c"
+        },
+        {
+          "slug": "chapter-2-outline-of-events-before-the-day",
+          "title": "Chapter 2: Outline of events before the day",
+          "paragraphs": 19,
+          "ids": "f758d9fb8387"
+        },
+        {
+          "slug": "chapter-3-the-events-of-the-day",
+          "title": "Chapter 3: The events of the day",
+          "paragraphs": 175,
+          "ids": "643e1ef3aa5f"
+        },
+        {
+          "slug": "chapter-4-the-question-of-responsibility",
+          "title": "Chapter 4: The question of responsibility",
+          "paragraphs": 36,
+          "ids": "63cef26d571a"
+        },
+        {
+          "slug": "chapter-5-the-overall-assessment",
+          "title": "Chapter 5: The overall assessment",
+          "paragraphs": 9,
+          "ids": "ce73fe50f5ad"
+        },
+        {
+          "slug": "chapter-6-introduction",
+          "title": "Chapter 6: Introduction",
+          "paragraphs": 6,
+          "ids": "7378a7f1349c"
+        },
+        {
+          "slug": "chapter-7-the-period-up-to-july",
+          "title": "Chapter 7: The period up to July",
+          "paragraphs": 136,
+          "ids": "abb3e064c5ce"
+        },
+        {
+          "slug": "chapter-8-the-period-from-august-to-december-1971",
+          "title": "Chapter 8: The period from August to December 1971",
+          "paragraphs": 242,
+          "ids": "3319e069e890"
+        },
+        {
+          "slug": "chapter-9-the-weeks-before-bloody-sunday",
+          "title": "Chapter 9: The weeks before Bloody Sunday",
+          "paragraphs": 1038,
+          "ids": "6b599963081b"
+        }
+      ]
     }
   }
 }
