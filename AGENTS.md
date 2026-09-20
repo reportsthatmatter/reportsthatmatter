@@ -17,6 +17,13 @@ the *house rules*.
 repos vs. this repo, publishing vs. deploying, search, the two fidelity gates
 — with a diagram. Read it before assuming a deploy is what ships a content
 change; it usually isn't (see its "what needs a deploy?" table).
+**[docs/report-preparation.md](docs/report-preparation.md)** is *how to prepare
+a report*: choosing and checking a source, the report's own repo, `ingest.ts`,
+registering, plate and share card, `PROCESSING.md`, shipping, and what to
+record afterwards. **Read it when you are adding a report or a further volume,
+re-ingesting one, or writing a report's processing notes; skip it for site
+code, design or deploys on their own.** It is a first draft: when a run
+teaches you something it got wrong or left out, fix it in the same change.
 
 ## Beads
 

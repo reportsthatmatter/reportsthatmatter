@@ -1,3 +1,5 @@
+> **Out of date.** This describes the layout of the old Official Inquiries site. For how reports are prepared today, see [`report-preparation.md`](report-preparation.md).
+
 Official Inquiries collects, preserves and presents key document from official inquries in a useful and usable form.
 
 How to contribute reports
