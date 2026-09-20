@@ -78,6 +78,21 @@ export async function openGenerated(
   }
 }
 
+/**
+ * A report's pre-rendered PROCESSING.md, or null if it has not written one.
+ *
+ * Read from the deploy's own assets, not from the content bucket: it is not
+ * part of a published version, so it changes with a deploy and no report's
+ * R2 pointer ever holds a copy.
+ */
+export async function loadProcessingNotes(
+  assets: AssetsBinding | undefined,
+  reportId: string
+): Promise<string | null> {
+  const response = await openGenerated(assets, `reports/${reportId}/processing.html`);
+  return response ? response.text() : null;
+}
+
 export async function loadReportMeta(content: ContentSource): Promise<PrerenderMeta | null> {
   const raw = await content.text("meta.json");
   if (raw === null) return null;

@@ -85,8 +85,28 @@ function runAggregate(): number {
       writeFileSync(target, markdown, "utf8");
       console.log(`  updated reports/${id}/full.md from ${dir}`);
     }
+    copyProcessingNotes(id, dir);
   }
   return 0;
+}
+
+/**
+ * A report's own account of how it was processed, if it has written one.
+ * Optional, unlike full.md: absent is normal, and the site shows no link.
+ * Copied by the same step as full.md for the same reason — a cold clone must
+ * build without a sibling checkout.
+ */
+function copyProcessingNotes(id: string, dir: string): void {
+  const source = join(dir, "PROCESSING.md");
+  const target = join(REPORTS, id, "PROCESSING.md");
+  if (!existsSync(source)) return;
+  if (resolve(source) === resolve(target)) return;
+  const text = readFileSync(source, "utf8");
+  const current = existsSync(target) ? readFileSync(target, "utf8") : null;
+  if (current !== text) {
+    writeFileSync(target, text, "utf8");
+    console.log(`  updated reports/${id}/PROCESSING.md from ${dir}`);
+  }
 }
 
 /** The suspects this report's reviewers have judged correct as they stand. */

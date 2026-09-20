@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-20 — Each report can say how its text was made
+
+A report can now carry its own page, "About this edition", linked from its contents: where the text came from, what the pipeline had to do to read it, and the places where it still differs from the printed page. The Bloody Sunday Inquiry has the first one. It lists what was fixed (1,439 of 1,451 notes linked to their paragraphs, 157 subsection headings recovered) and what was not: about 50 paragraphs split at a page break, roughly 140 that end mid-sentence because of map labels, twelve notes whose marker is missing from the PDF. The other reports show no such link until they have one.
+
+---
+
 ## 2026-09-18 — The Bloody Sunday Inquiry is published
 
 Lord Saville's report into the killings in Derry on 30 January 1972 is now in the archive: Volume I, the Principal Conclusions and Overall Assessment and the background chapters, nine chapters and 1,451 notes. Its notes sit beneath each paragraph and restart at 1 every time, so the pipeline now reads them where they are printed and links each to its own paragraph. Before, 392 references pointed at a single note. The telegrams and orders it quotes in capitals stay quotations instead of breaking into headings, and each chapter's own contents list names its 157 subsections.

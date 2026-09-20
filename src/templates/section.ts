@@ -72,7 +72,8 @@ export function renderReportOverview(
   // html, and #115's pre-rendered path only has that much to give it.
   sections: Pick<Section, "slug" | "title" | "level" | "page">[],
   stats: { words: number; pages?: number },
-  topMarked: TopPassage[] = []
+  topMarked: TopPassage[] = [],
+  options: { processingNotes?: boolean } = {}
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
@@ -102,6 +103,11 @@ export function renderReportOverview(
         ${
           meta.source_url
             ? `<p class="byline mono"><a href="${escapeHtml(meta.source_url)}" rel="nofollow">Original document ↗</a></p>`
+            : ""
+        }
+        ${
+          options.processingNotes
+            ? `<p class="byline mono"><a href="/reports/${escapeHtml(meta.id ?? "")}/processing">About this edition →</a></p>`
             : ""
         }
         <form class="search-form report-search" method="get" action="/search">

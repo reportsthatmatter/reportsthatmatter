@@ -240,6 +240,14 @@ check_contains /assets/styles.css "--canvas"
 check_contains /assets/share.js "Highlight-to-share"
 check_status /changelog 200
 check_contains /changelog "What has changed"
+
+# A report's own processing notes (PROCESSING.md) — served from the deploy's
+# assets, linked from the report only when it has written them.
+check_status /reports/uk-saville-inquiry/processing 200
+check_contains /reports/uk-saville-inquiry/processing "Known limitations"
+check_contains /reports/uk-saville-inquiry "About this edition"
+check_status /reports/jack-smith-vol1/processing 404
+check_absent  /reports/jack-smith-vol1 "About this edition"
 check_status /sitemap.xml 200
 check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
 check_status /robots.txt 200
