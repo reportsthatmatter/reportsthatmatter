@@ -8,7 +8,7 @@ How the text on Reports that Matter was made from the published PDF, and where i
 
 - **Source:** HC 29-I, published 15 June 2010, as hosted on [GOV.UK](https://assets.publishing.service.gov.uk/media/5a7b7c8ced915d131105f8f4/0029_i.pdf). Crown copyright, published under the Open Government Licence v3.0. The PDF is kept in the [report's repository](https://github.com/reportsthatmatter/uk-saville-inquiry) and pinned by SHA-256 (`f979d05c…97ea`).
 - **Covers:** Volume I only: the General Introduction, the Glossary, the Principal Conclusions and Overall Assessment, and the Background to Bloody Sunday (Chapters 1–9). Volumes II–X, the detailed evidence and findings, are not included.
-- **Size:** 489 PDF pages, roughly 170,000 words and 1,451 footnotes. Page numbers on this site are the report's printed page numbers. In the body of the report the PDF's own page numbers run five higher (printed page 46 is PDF page 51), and the review queue in the repository uses the PDF's.
+- **Size:** 493 PDF pages (489 carry text; four are blank), roughly 170,000 words and 1,451 footnotes. Page numbers on this site are the report's printed page numbers. In the body of the report the PDF's own page numbers run five higher (printed page 46 is PDF page 51), and the review queue in the repository uses the PDF's.
 - **Human corrections applied:** none.
 - **Flagged for human review:** 95 places where the scan may have been misread (53 possible "rn"/"m" confusions and 42 digits inside words). None has been judged yet. The digit cases are largely dates such as "8th" and evidence reference codes such as "G3B.48.9", which are correct as printed.
 

@@ -70,6 +70,8 @@ Every report should say honestly how its text was made and where it falls short.
 
 - Take every number from `fidelity.md`, `corrections.yaml` and `full.md`, and check it. Do not copy counts from memory or from a chat summary.
 - Write for a reader, in plain words, with no Bead ids. It is a public page.
+- Two numbers are easy to get wrong. The PDF's page count is `pdfinfo`'s, and the pipeline's `pages:` counts only pages with text (Saville: 493 and 489, four being blank). And the site's page numbers are the report's *printed* pages, which differ from PDF pages by an offset (five in Saville's body); measure the offset at a few points before stating it, and say which numbering `fidelity.md` uses.
+- Say what is missing. Figures are not extracted yet (see the images epic in Beads, `bd search "figures"`), so a report that has photographs or maps must list that under Known limitations.
 - It ships with a **deploy**, not with `publish-report`, because it is served from the deploy's assets rather than R2.
 - Add a `verify.sh` check for the new page.
 
