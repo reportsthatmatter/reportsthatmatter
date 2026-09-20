@@ -4,6 +4,7 @@ import { loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
+import { renderProcessing } from "./templates/processing";
 import { renderPress } from "./templates/press";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
@@ -17,6 +18,7 @@ import {
   loadFragment,
   loadFullBody,
   loadQuotedPassage,
+  loadProcessingNotes,
   type AssetsBinding,
   type PrerenderMeta,
 } from "./lib/prerendered";
@@ -538,9 +540,12 @@ app.get("/reports/:id", async (c) => {
   }
 
   const topMarked = await topMarkedPassages(c.env, reportId, meta, content);
+  const hasProcessingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
   c.header("x-rtm-content-version", content.version);
   return c.html(
-    renderReportOverview(report, meta.sections, { words: meta.words }, topMarked)
+    renderReportOverview(report, meta.sections, { words: meta.words }, topMarked, {
+      processingNotes: hasProcessingNotes,
+    })
   );
 });
 
@@ -644,6 +649,21 @@ app.get("/reports/:id/full", async (c) => {
     c.header("x-rtm-content-version", loaded.content.version);
     return c.html(renderReport(loaded.report, body, p, h));
   });
+});
+
+// Registered before `/:section`, which would otherwise read "processing" as a
+// section slug and 404. No report has a section by that name.
+app.get("/reports/:id/processing", async (c) => {
+  const reportId = c.req.param("id");
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const registry = await loadRegistry(sourceMode);
+  const report = registry.reports.find((entry: { id: string }) => entry.id === reportId);
+  if (!report) return c.html(renderNotFound(false), 404);
+
+  const notes = await loadProcessingNotes(c.env?.ASSETS, reportId);
+  if (notes === null) return c.html(renderNotFound(false), 404);
+
+  return c.html(renderProcessing(report, notes));
 });
 
 app.get("/reports/:id/:section", async (c) => {

@@ -37,13 +37,17 @@
  * paragraph, so the section page answers the same question — see
  * docs/plans/2026-09-04-content-publishing.md §8 step 1.
  *
+ * A report that has written its own PROCESSING.md also gets processing.html,
+ * likewise layout-free. It is not part of the published (R2) content, so it
+ * moves with a deploy, not with `pnpm publish-report`.
+ *
  * Plus sitemap-urls.json, the section-level entries /sitemap.xml no longer
  * has to render all four reports to produce.
  */
-import { mkdirSync, writeFileSync, readFileSync, rmSync } from "node:fs";
+import { mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
-import { renderArtifacts } from "@rtm/ingest";
+import { renderArtifacts, renderMarkdown } from "@rtm/ingest";
 
 const root = join(import.meta.dirname, "..");
 const outDir = join(root, "assets/generated");
@@ -76,6 +80,17 @@ for (const report of registry.reports) {
   for (const section of meta.sections) {
     writeText(join(outDir, `reports/${report.id}/fragments/${section.slug}.html`), fragments[section.slug]);
     sitemapEntries.push({ report: report.id, slug: section.slug });
+  }
+
+  const processingPath = join(root, `reports/${report.id}/PROCESSING.md`);
+  if (existsSync(processingPath)) {
+    // The page supplies its own title; the file's H1 is for whoever reads it
+    // in the report's repository.
+    const notes = readFileSync(processingPath, "utf8").replace(/^# .*\n+/, "");
+    // The renderer adds a "¶" permalink to every paragraph and list, which
+    // is what a report's text needs and a page about it does not.
+    const html = renderMarkdown(notes).replace(/<a class="permalink"[^>]*>¶<\/a>/g, "");
+    writeText(join(outDir, `reports/${report.id}/processing.html`), html);
   }
 
   console.log(
