@@ -1,0 +1,226 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# Background facts not in the report itself, verified 2026-09-25:
+#   - Theresa May, as Home Secretary, announced the public inquiry on 22 July
+#     2014: https://www.aljazeera.com/news/2014/7/22/uk-orders-inquiry-into-death-of-ex-soviet-spy
+#     and https://www.gov.uk/government/speeches/home-secretary-statement-on-litvinenko-inquiry-report
+#   - UK response to the report (asset freezes on Lugovoy and Kovtun, Russian
+#     ambassador summoned): gov.uk, Home Secretary's oral statement,
+#     https://www.gov.uk/government/speeches/home-secretary-statement-on-litvinenko-inquiry-report
+#   - Russia's Foreign Ministry dismissed the findings as politically motivated:
+#     https://www.npr.org/2016/01/21/463865361/russia-dismisses-british-report-on-killing-of-former-spy
+#   - Death from polonium 210 poisoning, 1-23 November 2006, corroborating the
+#     report's own account: https://www.npr.org/2021/09/21/1039224996/russia-alexander-litvinenko-european-court-human-rights-putin
+#   - European Court of Human Rights (Carter v Russia, 21 September 2021) found
+#     Russia responsible for the killing:
+#     https://www.rte.ie/news/world/2021/0921/1248045-alexander-litvinenko/ and
+#     https://www.asil.org/ILIB/european-human-rights-court-issues-judgment-litvinenko-case
+#   Everything else in `background` is drawn from the report's own Part 2
+#   (Introduction) and Part 10 (Summary of conclusions).
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+
+report: litvinenko-inquiry
+status: draft
+
+why_it_matters: >-
+  Sir Robert Owen's account of how Alexander Litvinenko, a former Russian
+  security officer living in London, was fatally poisoned with a rare
+  radioactive isotope in November 2006. The public inquiry took over from an
+  inquest that could not proceed because government documents bearing on the
+  case were too sensitive to be used in open court. Its findings go beyond his
+  two poisoners to the Russian state itself, concluding that the operation was
+  probably approved by Russia's president.
+
+background: |
+  Alexander Litvinenko was an officer in the Soviet and then Russian security
+  services, the KGB and latterly the FSB, until he was dismissed in 1998 after
+  publicly alleging illegal conduct within the FSB. He left Russia in 2000,
+  was granted asylum in the UK in 2001, and became a British citizen in
+  October 2006, working in London as a journalist and author, and a vocal
+  critic of President Vladimir Putin. On 1 November 2006 he fell ill after
+  meeting two visitors from Russia, Andrey Lugovoy and Dmitri Kovtun, for tea
+  at the Pine Bar of the Millennium Hotel in Mayfair. He was found to have
+  been poisoned with polonium 210, a rare radioactive isotope, and he died in
+  University College Hospital on 23 November 2006.
+
+  An inquest into his death, resumed in 2011, could not proceed because
+  government material bearing on Russian State responsibility was too
+  sensitive to be used in open court. At the request
+  of the coroner, and after his widow Marina Litvinenko successfully
+  challenged the Home Secretary's initial refusal in the High Court, Theresa
+  May announced on 22 July 2014 that a public inquiry would replace the
+  inquest. Sir Robert Owen, a High Court judge who had been the inquest's
+  Assistant Coroner, chaired it, hearing open and closed evidence over 34 days in 2015, and reported on
+  21 January 2016.
+
+  The UK government froze Lugovoy and Kovtun's British assets and summoned
+  Russia's ambassador; Russia has refused to extradite either man, citing its
+  constitution's bar on extraditing its own citizens, and its Foreign
+  Ministry dismissed the findings as politically motivated. Lugovoy has since
+  been elected to the Russian Duma and was awarded a state honour by
+  President Putin during the Inquiry's hearings. In 2021 the European Court
+  of Human Rights ruled that Russia was responsible for Litvinenko's killing.
+
+findings:
+  - text: Litvinenko died of acute radiation syndrome after ingesting a fatal dose of polonium 210 on 1 November 2006. The report finds he was not the victim of an accident, and did not take the poison himself.
+    cites: [10-6-medical-cause-litvinenko, 10-10-i-am-sure]
+    excerpt:
+      paragraph: 10-10-i-am-sure
+      quote: >-
+        I am sure that Mr Litvinenko did not ingest the polonium 210 either by
+        accident or to commit suicide. I am sure, rather, that he was
+        deliberately poisoned by others.
+
+  - text: The report finds that Andrey Lugovoy and Dmitri Kovtun placed the polonium 210 in the teapot Litvinenko drank from at the Pine Bar, intending to kill him, and that they had made an earlier attempt with the same poison two weeks before.
+    cites: [10-11-i-am-sure, 10-12-i-am-sure]
+    excerpt:
+      paragraph: 10-11-i-am-sure
+      quote: >-
+        I am sure that Mr Lugovoy and Mr Kovtun placed the polonium 210 in the
+        teapot at the Pine Bar on 1 November 2006. I am also sure that they
+        did this with the intention of poisoning Mr Litvinenko.
+
+  - text: The most important evidence against the two men, the report finds, is forensic - polonium 210 contamination in the plughole of Kovtun's bathroom at the Millennium Hotel, in lavatories near the Pine Bar that both men visited and Litvinenko did not, and in hotel bathrooms they used on earlier visits to London. That evidence alone, the Chairman writes, would have satisfied him that they were responsible.
+    cites: [8-71-i-have-referred, 8-72-first-extensive-testing, 8-73-second-secondary-contamination, 8-74-third-these-findings, 8-76-i-consider-evidence]
+
+  - text: Lugovoy and Kovtun were acting on behalf of others, the report finds, and it is probable that Lugovoy poisoned Litvinenko under the direction of the FSB, Russia's security service, with Kovtun acting under the same direction.
+    cites: [10-14-i-am-sure, 10-15-when-lugovoy-poisoned]
+    excerpt:
+      paragraph: 10-15-when-lugovoy-poisoned
+      quote: >-
+        When Mr Lugovoy poisoned Mr Litvinenko, it is probable that he did so
+        under the direction of the FSB. I would add that I regard that as a
+        strong probability. I have found that Mr Kovtun also took part in the
+        poisoning. I conclude therefore that he was also acting under FSB
+        direction, possibly indirectly through Mr Lugovoy but probably to his
+        knowledge.
+
+  - text: The report's final conclusion goes to the top of the Russian state, finding that the FSB operation to kill Litvinenko was probably approved by Nikolai Patrushev, then head of the FSB, and by President Putin.
+    cites: [9-215-taking-full-account, 10-16-fsb-operation-kill]
+    excerpt:
+      paragraph: 10-16-fsb-operation-kill
+      quote: >-
+        The FSB operation to kill Mr Litvinenko was probably approved by Mr
+        Patrushev and also by President Putin.
+
+  - text: The report sets out powerful motives within the Russian state for wanting Litvinenko dead - he was regarded as having betrayed the FSB, was reported to have been identified as working for British intelligence, and had repeatedly and personally attacked President Putin in public.
+    cites: [9-194-there-powerful-motives]
+
+  - text: The polonium's origin could not be traced conclusively to Russia, the report finds, but its use is itself a strong indicator of state involvement, since the isotope must come from a nuclear reactor and such reactors are, in general, under state control.
+    cites: [9-111-my-conclusion-reasons, 9-113-first-use-polonium]
+
+  - text: Russia has refused UK requests to extradite Lugovoy and Kovtun, citing its constitution's bar on extraditing its own citizens. Lugovoy has denied involvement, was elected to the Russian parliament, and received a state honour from President Putin during the Inquiry's hearings.
+    cites: [9-177-russia-has-refused, 9-183-i-have-already]
+
+reading_guide:
+  - section: part-10-summary-of-conclusions
+    why: The whole chain of findings in a couple of pages - how Litvinenko died, who poisoned him, and on whose orders.
+    excerpt:
+      paragraph: 10-8-i-am-sure
+      quote: >-
+        I am sure that Mr Litvinenko ingested the fatal dose of polonium 210
+        whilst drinking tea in the Pine Bar of the Millennium Hotel during the
+        afternoon of 1 November 2006.
+
+  - section: chapter-6-who-administered-the-poison
+    why: The forensic case against Lugovoy and Kovtun - the polonium trail through three hotel bathrooms, and the inconsistencies in the two men's own accounts of that afternoon.
+    excerpt:
+      paragraph: 8-87-lugovoy-initially-declined
+      quote: >-
+        Mr Lugovoy initially declined to give an account of the meeting at the
+        Pine Bar because, he said, the room had been covered by, "high
+        quality video equipment, which doubtless recorded the meeting". In
+        fact, there was no such video equipment in the Pine Bar, and it is
+        not credible that Mr Lugovoy, as a security professional, could have
+        mistakenly thought that there was.
+
+  - section: chapter-11-conclusions-regarding-russian-state-responsibility
+    why: Why the Chairman found a Russian State operation rather than a private killing - the polonium's likely source, Litvinenko's enemies within the FSB, and how Putin has treated Lugovoy since 2006.
+    excerpt:
+      paragraph: 9-192-fact-litvinenko-poisoned
+      quote: >-
+        The fact that Mr Litvinenko was poisoned with polonium 210 that had
+        been manufactured in a nuclear reactor suggests that Mr Lugovoy and
+        Mr Kovtun were acting for a state body, rather than (say) a criminal
+        organisation.
+
+  - section: chapter-12-russian-state-responsibility-involvement-of-nikolai-patrushev-and-pre
+    why: How the Chairman reached "probably approved" specifically for Patrushev and Putin, weighing expert evidence on who controls the FSB.
+    excerpt:
+      paragraph: 9-210-professor-service-confident
+      quote: >-
+        "The conclusion must be", Professor Service stated: "that Putin
+        generally endorsed what the agency got up to in the years through to
+        2006 and beyond and that Patrushev as its Director knew that he had
+        his President's support in its operations."
+
+  - section: part-2-introduction
+    why: Why an inquest became a public inquiry, and the standards of proof - "sure", "find", "probable" - that run through the whole report.
+    excerpt:
+      paragraph: 2-20-i-have-explained
+      quote: >-
+        I add that where in this Report I state that 'I am sure' I will have
+        found a fact to the criminal standard. When I use such expressions as
+        'I find' or 'I am satisfied' the standard of proof will have been the
+        ordinary civil standard of proof, namely the balance of probabilities.
+
+highlights:
+  - paragraph: 10-16-fsb-operation-kill
+    quote: The FSB operation to kill Mr Litvinenko was probably approved by Mr Patrushev and also by President Putin.
+    card: true
+  - paragraph: 4-4-same-day-president
+    quote: >-
+      For example, President Putin observed that, "the people that have done
+      this are not God, and Mr Litvinenko is, unfortunately, not Lazarus."
+    card: true
+  - paragraph: 8-87-lugovoy-initially-declined
+    quote: >-
+      Mr Lugovoy initially declined to give an account of the meeting at the
+      Pine Bar because, he said, the room had been covered by, "high quality
+      video equipment, which doubtless recorded the meeting". In fact, there
+      was no such video equipment in the Pine Bar, and it is not credible
+      that Mr Lugovoy, as a security professional, could have mistakenly
+      thought that there was.
+    card: true
+  - paragraph: 10-11-i-am-sure
+    quote: >-
+      I am sure that Mr Lugovoy and Mr Kovtun placed the polonium 210 in the
+      teapot at the Pine Bar on 1 November 2006. I am also sure that they did
+      this with the intention of poisoning Mr Litvinenko.
+  - paragraph: 8-125-taken-its-own
+    quote: On any view, it demonstrates that Mr Lugovoy approved of Mr Litvinenko's murder.
+  - paragraph: 9-192-fact-litvinenko-poisoned
+    quote: >-
+      The fact that Mr Litvinenko was poisoned with polonium 210 that had
+      been manufactured in a nuclear reactor suggests that Mr Lugovoy and Mr
+      Kovtun were acting for a state body, rather than (say) a criminal
+      organisation.
+  - paragraph: 10-10-i-am-sure
+    quote: >-
+      I am sure that Mr Litvinenko did not ingest the polonium 210 either by
+      accident or to commit suicide. I am sure, rather, that he was
+      deliberately poisoned by others.
+  - paragraph: 9-177-russia-has-refused
+    quote: >-
+      Russia has refused requests made by the British authorities to
+      extradite Mr Lugovoy and Mr Kovtun to face criminal charges in the UK.
+      No inferences can be drawn from this.
+  - paragraph: 9-183-i-have-already
+    quote: >-
+      However, I do accept that Mr Lugovoy's award, given in particular its
+      timing and public nature, can only be interpreted as a deliberate sign
+      of public support made to him by President Putin.
+  - paragraph: 9-210-professor-service-confident
+    quote: >-
+      "The conclusion must be", Professor Service stated: "that Putin
+      generally endorsed what the agency got up to in the years through to
+      2006 and beyond and that Patrushev as its Director knew that he had his
+      President's support in its operations."
+  - paragraph: 9-199-my-judgement-these
+    quote: In my judgement, these matters amount to strong circumstantial evidence of Russian State responsibility for the killing of Mr Litvinenko.
+  - paragraph: 9-187-open-evidence-i
+    quote: The open evidence that I have set out above establishes a strong circumstantial case that the Russian State was responsible for Mr Litvinenko's death.
+    card: true
