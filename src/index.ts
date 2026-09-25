@@ -11,6 +11,7 @@ import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
 import { EDITORIAL } from "./generated/editorial";
+import { showsEditorial } from "./templates/editorial";
 import { renderSearch, renderSnippet, type SearchResultView } from "./templates/search";
 import { encodeAnchor, selectorFor } from "../assets/anchor.js";
 import {
@@ -540,7 +541,11 @@ app.get("/reports/:id", async (c) => {
     }
   }
 
-  const topMarked = await topMarkedPassages(c.env, reportId, meta, content);
+  const draft = c.req.query("draft") !== undefined;
+  // A landing page shows no Most marked block, so it needs no D1 read for one.
+  const topMarked = showsEditorial(EDITORIAL[reportId], draft)
+    ? []
+    : await topMarkedPassages(c.env, reportId, meta, content);
   const hasProcessingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
   c.header("x-rtm-content-version", content.version);
   return c.html(
@@ -548,7 +553,7 @@ app.get("/reports/:id", async (c) => {
       processingNotes: hasProcessingNotes,
       editorial: EDITORIAL[reportId],
       // A draft editorial layer is previewed on the real page before approval.
-      draft: c.req.query("draft") !== undefined,
+      draft,
     })
   );
 });

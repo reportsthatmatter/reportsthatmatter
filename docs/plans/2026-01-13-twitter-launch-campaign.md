@@ -57,30 +57,32 @@ Source: Special Counsel Report, Vol. 1
 
 ### First Batch — Jack Smith Report Excerpts
 
+> **Corrected 2026-09-25 (reportsthatmatter-7z2).** The January draft of this list had four quotes that are not in the report: "You'll go down as a wimp", "It doesn't take courage to break the law. It takes courage to uphold the law.", a paraphrase of the "too honest" passage in words the report does not use ("gonna hate your guts"), and "When the defendant lost the 2020 presidential election, he resorted to crimes to try to stay in office." They have been removed. Every quote below is verbatim from `reports/jack-smith-vol1/full.md` as rendered, OCR spelling included. **Post only from `editorial/jack-smith-vol1.yaml`**, where `pnpm editorial` checks each quote on every build; this list is a record, not a source.
+
 #### Direct Quotes (Primary)
 
-1. **"So what?"**
-   Trump's response when an aide told him Pence had been rushed to a secure location.
+1. **"When an advisor at the White House learned this, he rushed to the dining room and informed Mr. Trump, who replied "So what?""**
+   2:24 p.m., January 6, minutes after the Secret Service evacuated Vice President Pence. Report p. 30.
 
-2. **"The details don't matter."**
-   Trump, when told his lawyer couldn't prove fraud allegations in court.
+2. **"to which Mr. Trump responded, "The details don't matter.""**
+   A Senior Advisor had told him Co-Conspirator 1 could not prove his fraud allegations in court. Report p. 36.
 
-3. **"You'll go down as a wimp."**
-   Trump to Pence, morning of January 6. (From Pence's handwritten notes)
+3. **"Mr. Trump told him that "hundreds of thousands" of people would "hate his guts" and think he was "stupid," and that Mr. Pence was "too honest.""**
+   Trump to Pence, after Pence refused to set aside electoral votes. Report p. 20.
 
-4. **"You're too honest. Hundreds of thousands are gonna hate your guts. People are gonna think you're stupid."**
-   Trump to Pence, January 1, 2021.
-
-5. **"It doesn't take courage to break the law. It takes courage to uphold the law."**
-   Pence's reply to Trump.
+4. **"On January 2, 2021, just days before the election results were to be certified, he called Georgia's Secretary of State and pressed him to "find 11,780 votes"-Mr. Biden's margin of victory in the state."**
+   Report p. 9.
 
 #### Conclusions/Findings (Secondary)
 
-6. **"The throughline of all of Mr. Trump's criminal efforts was deceit — knowingly false claims of election fraud."**
+5. **"The throughline of all of Mr. Trump's criminal efforts was deceit-knowingly false claims of election fraud"**
+   Report p. 2 (the sentence runs on across the page break).
 
-7. **"The admissible evidence was sufficient to obtain and sustain a conviction at trial."**
+6. **"Indeed, but for Mr. Trump's election and imminent return to the Presidency, the Office assessed that the admissible evidence was sufficient to obtain and sustain a conviction at trial."**
+   Report p. 137.
 
-8. **"When the defendant lost the 2020 presidential election, he resorted to crimes to try to stay in office."**
+7. **"In service of these efforts, Mr. Trump worked with other people to achieve a common plan: to overturn the election results and perpetuate himself in office."**
+   Report p. 2.
 
 ### Posting Cadence
 
