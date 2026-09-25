@@ -38,11 +38,12 @@ status: draft
 
 why_it_matters: >-
   Lord Saville's report into Bloody Sunday, when British paratroopers shot
-  dead thirteen civilians on a civil rights march in Derry/Londonderry on 30
+  dead thirteen people on a civil rights march in Derry/Londonderry on 30
   January 1972. His twelve-year inquiry, the longest and most expensive
   public inquiry in British legal history, re-examined a shooting that an
-  earlier tribunal had investigated in eleven weeks. Saville tested every
-  soldier's account against the evidence and rejected most of them. This
+  earlier tribunal had investigated in eleven weeks. It found that none of
+  those shot was posing a threat, and rejected the soldiers' claims that
+  they had fired at gunmen or bombers. This
   edition covers Volume I: the Tribunal's own conclusions and the background
   to the day.
 
@@ -51,7 +52,7 @@ background: |
   took place in Derry/Londonderry, in the north-west of Northern Ireland.
   British Army paratroopers of 1 PARA moved into the Bogside on an arrest
   operation; in the space of about ten minutes, soldiers shot dead thirteen
-  unarmed civilians and wounded a similar number. A fourteenth man, John
+  people and wounded a similar number. A fourteenth man, John
   Johnston, wounded that day, died some months later and is often counted
   among Bloody Sunday's victims.
 
@@ -96,7 +97,7 @@ findings:
         Our overall conclusion is that there was a serious and widespread
         loss of fire discipline among the soldiers of Support Company.
 
-  - text: Several soldiers said under oath that they had shot at gunmen or bomb-throwers. The Tribunal rejected those accounts as knowingly false.
+  - text: The soldiers who fired insisted that they had shot at gunmen or bombers. The Tribunal found that they had not, and rejected several of their accounts as knowingly untrue.
     cites: [3-102-further-shooting-rossville, 3-78-other-words-all]
     excerpt:
       paragraph: 3-102-further-shooting-rossville
@@ -121,7 +122,7 @@ findings:
   - text: Lieutenant Colonel Derek Wilford, the commanding officer of 1 PARA, sent soldiers in vehicles into the Bogside without authority and in breach of the order Brigadier MacLellan had given him.
     cites: [3-18-colonel-wilford-did, 4-18-colonel-wilford-failed]
 
-  - text: The report finds no evidence that the shootings were planned or foreseen by the United Kingdom or Northern Ireland Governments, or by the military authorities above Colonel Wilford.
+  - text: The report finds no evidence for the allegation that what happened on Bloody Sunday was intended, planned or foreseen by the authorities, and finds that the United Kingdom Government was at the time making genuine and serious attempts to work towards a peaceful political settlement.
     cites: [4-3-these-allegations-based, 4-4-order-consider-these]
 
   - text: Gerald Donaghey, a member of the IRA's youth wing, was probably carrying nail bombs when he was shot, but the report finds he was not preparing to throw one and was not shot because of them.
@@ -173,7 +174,7 @@ reading_guide:
 
   - section: chapter-7-the-period-up-to-july
     title: The period up to July 1971
-    why: The wider history the Tribunal thought necessary background - partition, gerrymandered council wards in Londonderry, and the civil rights marches of 1968-69.
+    why: The wider history the Tribunal thought necessary background - partition, the charge of gerrymandering in Londonderry's local government, and the civil rights marches of 1968-69.
     excerpt:
       paragraph: 7-58-these-events-led
       quote: >-
