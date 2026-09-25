@@ -29,6 +29,8 @@ export type HeadOptions = {
   image?: string;
   /** JSON-LD, already serialised. */
   structuredData?: string;
+  /** Keep the page out of search results — a preview of unapproved content. */
+  noindex?: boolean;
 };
 
 type LayoutOptions = HeadOptions & {
@@ -47,7 +49,7 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
   // reportsthatmatter-obw. A page with something more specific (a report's
   // own card, a curated quote) passes it; this is the floor everything else
   // lands on, rather than a bare-text preview.
-  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, structuredData } = options;
+  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, structuredData, noindex } = options;
 
   return `<!doctype html>
 <html lang="en">
@@ -56,7 +58,7 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>${escapeHtml(title)}</title>
 <meta name="description" content="${escapeHtml(description)}" />
-<meta property="og:title" content="${escapeHtml(title)}" />
+${noindex ? `<meta name="robots" content="noindex" />\n` : ""}<meta property="og:title" content="${escapeHtml(title)}" />
 <meta property="og:description" content="${escapeHtml(description)}" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}" />

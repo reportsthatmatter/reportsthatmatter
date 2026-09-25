@@ -50,6 +50,18 @@ else
   tail -20 /tmp/rtm-prerender.log
 fi
 
+step "Editorial layer"
+# Our summaries and excerpts (editorial/*.yaml) quote the reports. A quote the
+# report does not contain, or a citation to a paragraph that has moved, is
+# the one error this project cannot ship — so it is checked against the pages
+# just pre-rendered, and src/generated/editorial.ts rebuilt from them.
+if pnpm editorial >/tmp/rtm-editorial.log 2>&1; then
+  pass "every editorial quote is verbatim and every citation resolves"
+else
+  fail "pnpm editorial"
+  tail -30 /tmp/rtm-editorial.log
+fi
+
 step "Corpus blast radius"
 # Paragraph ids are permalinks, and they are produced *here*, downstream of
 # anything a report's own baseline.json covers. This is the only gate that
@@ -247,6 +259,10 @@ check_status /reports/uk-saville-inquiry/processing 200
 check_contains /reports/uk-saville-inquiry/processing "Known limitations"
 check_contains /reports/uk-saville-inquiry "About this edition"
 check_status /reports/jack-smith-vol1/processing 404
+
+# Our editorial layer (g0w.4). `?draft` shows it whether or not it is
+# approved yet, so this holds before and after approval.
+check_contains "/reports/jack-smith-vol1?draft" "Our note"
 check_absent  /reports/jack-smith-vol1 "About this edition"
 check_status /sitemap.xml 200
 check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"

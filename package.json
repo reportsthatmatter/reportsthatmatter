@@ -9,6 +9,7 @@
     "ingest": "tsx scripts/ingest/cli.ts",
     "dev": "wrangler dev --local",
     "cards": "tsx scripts/cards.mjs",
+    "editorial": "tsx scripts/editorial.mjs",
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",

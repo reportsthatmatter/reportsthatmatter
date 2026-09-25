@@ -10,6 +10,7 @@ import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
 import { renderHighlights } from "./templates/highlights";
 import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
+import { EDITORIAL } from "./generated/editorial";
 import { renderSearch, renderSnippet, type SearchResultView } from "./templates/search";
 import { encodeAnchor, selectorFor } from "../assets/anchor.js";
 import {
@@ -545,6 +546,9 @@ app.get("/reports/:id", async (c) => {
   return c.html(
     renderReportOverview(report, meta.sections, { words: meta.words }, topMarked, {
       processingNotes: hasProcessingNotes,
+      editorial: EDITORIAL[reportId],
+      // A draft editorial layer is previewed on the real page before approval.
+      draft: c.req.query("draft") !== undefined,
     })
   );
 });

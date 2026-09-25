@@ -91,6 +91,8 @@ an interactive session.
 | `reports/manifest.yaml` | Where each report's build lives |
 | `reports/<id>/full.md` | An aggregated copy for serving. **The authority is the report's own repo** |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
+| `editorial/<id>.yaml` | Our layer on a report: why it matters, cited findings, verbatim excerpts. `status: approved` to show it; `?draft` on the contents page previews a draft |
+| `scripts/editorial.mjs` | Checks every editorial quote verbatim against the pre-rendered report and writes `src/generated/editorial.ts` (`pnpm editorial`, after `pnpm prerender`) |
 | `assets/marks/` | Each report's plate, committed: `<id>.webp` and `<id>-row.webp` — see [`docs/plates.md`](docs/plates.md) |
 | `scripts/imagery/` | Plate pipeline (`pnpm marks`) and the favicon renderer (`brand.mjs`) |
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |

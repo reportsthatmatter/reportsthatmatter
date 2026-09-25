@@ -3,6 +3,8 @@ import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { quotedPassage, truncate, shareImage, frontispiece } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
+import { renderEditorial } from "./editorial";
+import type { Editorial } from "../lib/editorial";
 
 /** What the page shell needs of a section — not its html. */
 type SectionRef = Pick<Section, "slug" | "title">;
@@ -73,7 +75,7 @@ export function renderReportOverview(
   sections: Pick<Section, "slug" | "title" | "level" | "page">[],
   stats: { words: number; pages?: number },
   topMarked: TopPassage[] = [],
-  options: { processingNotes?: boolean } = {}
+  options: { processingNotes?: boolean; editorial?: Editorial; draft?: boolean } = {}
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
@@ -117,7 +119,7 @@ export function renderReportOverview(
         </form>
       </div>
     </header>
-
+    ${renderEditorial(options.editorial, { draft: options.draft })}
     <section class="section wrap">
       <p class="section-label mono">Contents</p>
       <ul class="report-list">${items}</ul>
@@ -130,12 +132,19 @@ export function renderReportOverview(
 </main>
 <script src="/assets/find-anchor.js" defer></script>`;
 
-  const description = `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
+  // An approved "why it matters" is the best one-line answer to "what is this?"
+  // there is — better in a search result than a title and a byline.
+  const description =
+    options.editorial?.status === "approved"
+      ? options.editorial.whyItMatters
+      : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
 
   return renderLayout(`${meta.title} — Reports that Matter`, body, {
     description,
     image: shareImage(meta),
     structuredData: reportJsonLd(meta, description),
+    // A draft shown for review must not be what a search engine keeps.
+    noindex: Boolean(options.draft && options.editorial && options.editorial.status !== "approved"),
   });
 }
 
