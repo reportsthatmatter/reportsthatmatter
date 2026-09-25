@@ -176,6 +176,23 @@ describe("extractParagraph", () => {
     expect(extractParagraph(html, "x")).toBe("He replied so what?");
   });
 
+  it("strips a long sidenote too, with its Show full note control (reportsthatmatter-g1f)", async () => {
+    // A note over 400 characters renders as `sidenote long`. Matching only
+    // `class="sidenote"` left Jack Smith's note 47 — fourteen SCO citations —
+    // in the paragraph's plain text, and so in its share preview and card.
+    const { extractParagraph } = await import("../src/templates/report");
+    const html =
+      '<p id="x"><a class="permalink" href="#x">¶</a>resolved in Mr. Trump\'s favor.' +
+      '<label class="sidenote-toggle" for="sn-47-49" aria-label="Note 47"><sup>47</sup></label>' +
+      '<input class="sidenote-checkbox" id="sn-47-49" type="checkbox" />' +
+      '<span class="sidenote long"><sup>47</sup> See,e.g., ECF No. 252 at 53 &amp; n.282; see, e.g., SCO-12949797 at 82-83 (Int. Tr.).' +
+      '<label class="sidenote-expand" for="sn-47-49">Show full note</label></span>' +
+      " Indeed, the co-conspirators deliberately withheld</p>";
+    expect(extractParagraph(html, "x")).toBe(
+      "resolved in Mr. Trump's favor. Indeed, the co-conspirators deliberately withheld"
+    );
+  });
+
   it("returns null for an unknown id", async () => {
     const { extractParagraph } = await import("../src/templates/report");
     expect(extractParagraph("<p id=\"a\">text</p>", "b")).toBeNull();

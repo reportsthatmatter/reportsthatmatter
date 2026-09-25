@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 68276,
-      "paragraphs": 469,
+      "words": 68239,
+      "paragraphs": 454,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -25,8 +25,8 @@
         {
           "slug": "the-results-of-the-investigation",
           "title": "THE RESULTS OF THE INVESTIGATION",
-          "paragraphs": 9,
-          "ids": "287b10692fe1"
+          "paragraphs": 7,
+          "ids": "371bab212251"
         },
         {
           "slug": "mr-trumps-pressure-on-state-officials",
@@ -37,8 +37,8 @@
         {
           "slug": "mr-trumps-fraudulent-elector-plan",
           "title": "Mr. Trump's Fraudulent Elector Plan",
-          "paragraphs": 9,
-          "ids": "2e7100e0b8b8"
+          "paragraphs": 6,
+          "ids": "c6dc163333cf"
         },
         {
           "slug": "mr-trumps-misuse-of-official-power-through-the-justice-department",
@@ -49,14 +49,14 @@
         {
           "slug": "mr-trumps-pressure-on-the-vice-president",
           "title": "Mr. Trump's Pressure on the Vice President",
-          "paragraphs": 6,
-          "ids": "643d9fe1407e"
+          "paragraphs": 4,
+          "ids": "49a1a7ac1f0b"
         },
         {
           "slug": "mr-trumps-supporters-attack-the-united-states-capitol",
           "title": "Mr. Trump's Supporters Attack the United States Capitol",
-          "paragraphs": 19,
-          "ids": "223cf6df0a7d"
+          "paragraphs": 18,
+          "ids": "c619d7be10da"
         },
         {
           "slug": "the-law",
@@ -67,14 +67,14 @@
         {
           "slug": "conspiracy-to-defraud-the-united-states-18-usc-371",
           "title": "Conspiracy to Defraud the United States (18 U.S.C. § 371)",
-          "paragraphs": 29,
-          "ids": "dff2fe8adf75"
+          "paragraphs": 25,
+          "ids": "065fe5c97014"
         },
         {
           "slug": "conspiracy-against-rights-18-usc-241",
           "title": "Conspiracy Against Rights (18 U.S.C. § 241)",
-          "paragraphs": 18,
-          "ids": "b67fb9c2f428"
+          "paragraphs": 16,
+          "ids": "2524b8678af6"
         },
         {
           "slug": "other-charges",
@@ -133,8 +133,8 @@
         {
           "slug": "threats-and-harassment-of-witnesses",
           "title": "Threats and Harassment of Witnesses",
-          "paragraphs": 9,
-          "ids": "8b5d016d2c1a"
+          "paragraphs": 8,
+          "ids": "e01dc4bf16cf"
         },
         {
           "slug": "mr-trumps-claims-of-executive-privilege",
@@ -205,14 +205,14 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 330600,
+      "words": 326815,
       "paragraphs": 2482,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
           "title": "PERMANENT SUBCOMMITTEE ON INVESTIGATIONS",
           "paragraphs": 74,
-          "ids": "af2652f36a5e"
+          "ids": "07a0063335a2"
         },
         {
           "slug": "subcommittee-investigation",
@@ -284,13 +284,13 @@
           "slug": "subcommittee-investigation-and-findings-of-fact",
           "title": "Subcommittee Investigation and Findings of Fact",
           "paragraphs": 35,
-          "ids": "a6e27b1307b5"
+          "ids": "3011c075dbef"
         },
         {
           "slug": "high-risk-lending-strategy",
           "title": "High Risk Lending Strategy",
           "paragraphs": 62,
-          "ids": "41d1eed7bc88"
+          "ids": "2d51ef141d2d"
         },
         {
           "slug": "shoddy-lending-practices",
@@ -368,7 +368,7 @@
           "slug": "subcommittee-investigation-and-findings-of-fact-3",
           "title": "Subcommittee Investigation and Findings of Fact",
           "paragraphs": 50,
-          "ids": "a3b9ec809574"
+          "ids": "a1f3fc5086e5"
         },
         {
           "slug": "mass-credit-rating-downgrades",
@@ -398,13 +398,13 @@
           "slug": "case-study-of-goldman-sachs-and-deutsche-bank",
           "title": "CASE STUDY OF GOLDMAN SACHS AND DEUTSCHE BANK",
           "paragraphs": 205,
-          "ids": "7d431345bb8e"
+          "ids": "cb015d2bd1dd"
         },
         {
           "slug": "conflict-between-client-interests-and-proprietary-trading-in-2007-goldman",
           "title": "Conflict Between Client Interests and Proprietary Trading. In 2007, Goldman",
           "paragraphs": 497,
-          "ids": "d2f087618fff"
+          "ids": "8db470087f08"
         },
         {
           "slug": "cdo-marks",
@@ -428,7 +428,7 @@
           "slug": "preventing-investment-bank-abuses",
           "title": "Preventing Investment Bank Abuses",
           "paragraphs": 14,
-          "ids": "3699c9a06887"
+          "ids": "86a49f23200a"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -439,8 +439,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 154675,
-      "paragraphs": 2894,
+      "words": 154430,
+      "paragraphs": 2895,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -481,8 +481,8 @@
         {
           "slug": "challenger-investigation-hearings",
           "title": "CHALLENGER INVESTIGATION HEARINGS",
-          "paragraphs": 13,
-          "ids": "0c1493e305fc"
+          "paragraphs": 14,
+          "ids": "b584b84b2187"
         },
         {
           "slug": "introduction-2",
@@ -542,7 +542,7 @@
           "slug": "hardware-development-and-production-2",
           "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
           "paragraphs": 199,
-          "ids": "eeb290e0fd5d"
+          "ids": "bc7b351a1a67"
         },
         {
           "slug": "2-operations",
@@ -2599,14 +2599,14 @@
       ]
     },
     "us-v-philip-morris": {
-      "words": 499053,
+      "words": 498626,
       "paragraphs": 2936,
       "sections": [
         {
           "slug": "united-states-district-court-for-the-district-of-columbia",
           "title": "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA",
           "paragraphs": 20,
-          "ids": "0168950947b1"
+          "ids": "0662212faca0"
         },
         {
           "slug": "defendants-researched-developed-and-utilized-various",
@@ -3375,6 +3375,12 @@
           "title": "Public Education and Countermarketing Campaign",
           "paragraphs": 13,
           "ids": "5617f76b449f"
+        },
+        {
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
         }
       ]
     },

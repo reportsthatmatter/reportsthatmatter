@@ -29,23 +29,23 @@ PHILIP MORRIS USA, INC., : (f/k/a Philip Morris, Inc.), et al., :
 
 ## TABLE OF CONTENTS
 
-I. INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^1]
+I. INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
 
-> A. Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^1] B. Preliminary Guidance for the Reader . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^5]
+> A. Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 B. Preliminary Guidance for the Reader . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
 
-II. PROCEDURAL HISTORY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^10]
+II. PROCEDURAL HISTORY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
 
 ## CREATION, NATURE, AND OPERATION OF
 
-THE ENTERPRISE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^15]
+THE ENTERPRISE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
 
 ### Pre-1953 Overview–The Rise in American Smoking
 
-> and the Status of Scientific Research on Smoking and Health . . . . . . . . . . . . . .[^16] B. Creation of the Enterprise . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^18]
+> and the Status of Scientific Research on Smoking and Health . . . . . . . . . . . . . . 16 B. Creation of the Enterprise . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
 
 ### TIRC/CTR -- Tobacco Industry Research Committee/Council
 
-for Tobacco Research-USA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .[^26]
+for Tobacco Research-USA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
 
 ### Selection and Approval of TIRC's Scientific Advisory
 
@@ -2725,7 +2725,7 @@ Consumer Unions] with the following program goals: "Relieve NGO pressure on WHO,
 
 431. In 1990, INFOTAB also issued an INFOTAB publication titled "Children & Smoking -- The Balanced View" that addressed various World Health Organization claims. It stated that tobacco is not addictive, and that there were inconsistent findings as to whether smoking causes low birth weight, birth defects, and delayed mental and physical development in infancy. 2070052572- 2578 (US 87151); 2501342105-2110 (US 20565).
 
-432. On January 19, 1990, Ron Loader, INFOTAB Director of Information Services, confirmed the first meeting of a worldwide industry working group at the offices of the Tobacco Institute in Washington, D.C. for the purpose of planning a Global Argumentation Project. The Global Argumentation Project was an effort to develop a standardized and comprehensive collection of argumentation papers on smoking and health issues, including ETS and youth marketing, which could be used by local management and National Manufacturing Associations ("NMAs") for lobbying, public information campaigns, or as basic documents for responding to public health advocates. Representatives from INFOTAB, the Tobacco Institute, Shook, Hardy & Bacon, and several European and United States cigarette manufacturers attended the meeting, including Kay Comer of BATCo, Cynthia von Maerestetten of Philip Morris, Jim Goold of RJR; Donald Hoel and Jim Newsome of Shook, Hardy & Bacon, and Charles Powers and Fred Panzer of the Tobacco Institute. It had been decided that for several reasons "it would be sensible to hold this first meeting in Washington" because "we need to involve the US TI at an early stage in order to take advantage of their detailed information/argumentation/lobbying materials developed over years in practical situations and needing personal discussion"; "most members of the Working Group are already in, or need to be in, the States (i.e.[^8] out of 11)"; and "it provides the opportunity for INFOTAB coordinators to review other information sources (e.g., RJR) at first hand." TIMN362946-2949 (US 62874); TIMN362950-2952 (US 62872); TIMN362918-2922 (US 62919).
+432. On January 19, 1990, Ron Loader, INFOTAB Director of Information Services, confirmed the first meeting of a worldwide industry working group at the offices of the Tobacco Institute in Washington, D.C. for the purpose of planning a Global Argumentation Project. The Global Argumentation Project was an effort to develop a standardized and comprehensive collection of argumentation papers on smoking and health issues, including ETS and youth marketing, which could be used by local management and National Manufacturing Associations ("NMAs") for lobbying, public information campaigns, or as basic documents for responding to public health advocates. Representatives from INFOTAB, the Tobacco Institute, Shook, Hardy & Bacon, and several European and United States cigarette manufacturers attended the meeting, including Kay Comer of BATCo, Cynthia von Maerestetten of Philip Morris, Jim Goold of RJR; Donald Hoel and Jim Newsome of Shook, Hardy & Bacon, and Charles Powers and Fred Panzer of the Tobacco Institute. It had been decided that for several reasons "it would be sensible to hold this first meeting in Washington" because "we need to involve the US TI at an early stage in order to take advantage of their detailed information/argumentation/lobbying materials developed over years in practical situations and needing personal discussion"; "most members of the Working Group are already in, or need to be in, the States (i.e. 8 out of 11)"; and "it provides the opportunity for INFOTAB coordinators to review other information sources (e.g., RJR) at first hand." TIMN362946-2949 (US 62874); TIMN362950-2952 (US 62872); TIMN362918-2922 (US 62919).
 
 %%page 228%%
 

@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-25 — Footnotes stay in the margin in the Jack Smith and Wall Street reports
+
+In the Jack Smith report, a footnote that ran over a page break, or whose first line the PDF set above its own number, landed in the text as a block of raw citations. That happened twelve times, splitting five paragraphs mid-sentence, including one the landing page links to ("…the co-conspirators deliberately / [citations] / withheld from the elector nominees…"). Those citations are now back in their notes, and the paragraphs are whole. In Wall Street and the Financial Crisis, page numbers on the contents page and the count in "75 out of 75" were being read as note markers. Because each number's notes are matched in order, that gave later notes the wrong text: the Executive Summary's first note showed an unrelated Goldman Sachs note. The same contents-page fix corrects the Challenger and Philip Morris reports.
+
+---
+
 ## 2026-09-25 — Reports open on a page about the report
 
 The Jack Smith report and Wall Street and the Financial Crisis now open on a landing page instead of bare contents. It gives the year, a short account of what the report was about and why it matters, what it found with a few key passages quoted, and the sections to read first, all above the contents. Our introduction is marked as ours: only words in quotation marks are the report's, every one is checked word for word against the text, and each link opens it in context. The year a report was published now leads its row in the archive and sits in every report header.
