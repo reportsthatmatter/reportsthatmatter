@@ -438,6 +438,79 @@ hr {
   color: var(--muted);
 }
 
+/* ---------- our note: why it matters, findings, passages (g0w.4) ---------- */
+
+.editorial-lede {
+  font-size: clamp(1.35rem, 2.4vw, 1.7rem);
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.findings {
+  margin: 0 0 3.5rem;
+  padding-left: 1.4rem;
+  max-width: 44em;
+}
+
+.findings li {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+.finding-cites {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-left: 0.35rem;
+}
+
+.finding-cites a {
+  color: var(--muted);
+}
+
+.finding-cites a + a {
+  margin-left: 0.4rem;
+}
+
+/* Mono capitals run wide; the prose measure .section p sets is too narrow for them. */
+.editorial p.meta,
+.editorial p.editorial-note {
+  max-width: 44em;
+}
+
+.editorial p.editorial-lede {
+  max-width: 38em;
+  margin-bottom: 3.5rem;
+}
+
+.editorial-note {
+  color: var(--muted);
+  margin-top: 2rem;
+}
+
+.more-passages summary {
+  cursor: pointer;
+  color: var(--ink);
+  padding-block: 1.5rem;
+}
+
+.more-passages[open] summary {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.more-passages > .marked-list li:first-child {
+  border-top: 0;
+}
+
+.editorial-draft {
+  border: 1px dashed var(--rule-strong);
+  padding: 0.75rem 1rem;
+  margin-bottom: 2.5rem;
+  color: var(--ink);
+}
+
 /* ---------- search (#100) ---------- */
 
 .search-form {
