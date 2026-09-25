@@ -52,8 +52,8 @@ background: |
   of the coroner, and after his widow Marina Litvinenko successfully
   challenged the Home Secretary's initial refusal in the High Court, Theresa
   May announced on 22 July 2014 that a public inquiry would replace the
-  inquest. Sir Robert Owen, the coroner and a former High Court judge, chaired
-  it, hearing open and closed evidence over 34 days in 2015, and reported on
+  inquest. Sir Robert Owen, a High Court judge who had been the inquest's
+  Assistant Coroner, chaired it, hearing open and closed evidence over 34 days in 2015, and reported on
   21 January 2016.
 
   The UK government froze Lugovoy and Kovtun's British assets and summoned
@@ -83,8 +83,8 @@ findings:
         teapot at the Pine Bar on 1 November 2006. I am also sure that they
         did this with the intention of poisoning Mr Litvinenko.
 
-  - text: The most important evidence against the two men, the report finds, is forensic - polonium 210 contamination traced through hotel bathrooms they used, and nowhere else Litvinenko visited that day besides the Pine Bar itself.
-    cites: [8-71-i-have-referred, 8-76-i-consider-evidence]
+  - text: The most important evidence against the two men, the report finds, is forensic - polonium 210 contamination in the plughole of Kovtun's bathroom at the Millennium Hotel, in lavatories near the Pine Bar that both men visited and Litvinenko did not, and in hotel bathrooms they used on earlier visits to London. That evidence alone, the Chairman writes, would have satisfied him that they were responsible.
+    cites: [8-71-i-have-referred, 8-72-first-extensive-testing, 8-73-second-secondary-contamination, 8-74-third-these-findings, 8-76-i-consider-evidence]
 
   - text: Lugovoy and Kovtun were acting on behalf of others, the report finds, and it is probable that Lugovoy poisoned Litvinenko under the direction of the FSB, Russia's security service, with Kovtun acting under the same direction.
     cites: [10-14-i-am-sure, 10-15-when-lugovoy-poisoned]
@@ -135,8 +135,7 @@ reading_guide:
         quality video equipment, which doubtless recorded the meeting". In
         fact, there was no such video equipment in the Pine Bar, and it is
         not credible that Mr Lugovoy, as a security professional, could have
-        mistakenly thought that there was. One is left, therefore, with the
-        conclusion that he was lying about this
+        mistakenly thought that there was.
 
   - section: chapter-11-conclusions-regarding-russian-state-responsibility
     why: Why the Chairman found a Russian State operation rather than a private killing - the polonium's likely source, Litvinenko's enemies within the FSB, and how Putin has treated Lugovoy since 2006.

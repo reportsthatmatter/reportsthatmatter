@@ -243,7 +243,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     "whyItMatters": "Sir Robert Owen's account of how Alexander Litvinenko, a former Russian security officer living in London, was fatally poisoned with a rare radioactive isotope in November 2006. The public inquiry took over from an inquest that could not proceed because government documents bearing on the case were too sensitive to be used in open court. Its findings go beyond his two poisoners to the Russian state itself, concluding that the operation was probably approved by Russia's president.",
     "background": [
       "Alexander Litvinenko was an officer in the Soviet and then Russian security services, the KGB and latterly the FSB, until he was dismissed in 1998 after publicly alleging illegal conduct within the FSB. He left Russia in 2000, was granted asylum in the UK in 2001, and became a British citizen in October 2006, working in London as a journalist and author, and a vocal critic of President Vladimir Putin. On 1 November 2006 he fell ill after meeting two visitors from Russia, Andrey Lugovoy and Dmitri Kovtun, for tea at the Pine Bar of the Millennium Hotel in Mayfair. He was found to have been poisoned with polonium 210, a rare radioactive isotope, and he died in University College Hospital on 23 November 2006.",
-      "An inquest into his death, resumed in 2011, could not proceed because government material bearing on Russian State responsibility was too sensitive to be used in open court. At the request of the coroner, and after his widow Marina Litvinenko successfully challenged the Home Secretary's initial refusal in the High Court, Theresa May announced on 22 July 2014 that a public inquiry would replace the inquest. Sir Robert Owen, the coroner and a former High Court judge, chaired it, hearing open and closed evidence over 34 days in 2015, and reported on 21 January 2016.",
+      "An inquest into his death, resumed in 2011, could not proceed because government material bearing on Russian State responsibility was too sensitive to be used in open court. At the request of the coroner, and after his widow Marina Litvinenko successfully challenged the Home Secretary's initial refusal in the High Court, Theresa May announced on 22 July 2014 that a public inquiry would replace the inquest. Sir Robert Owen, a High Court judge who had been the inquest's Assistant Coroner, chaired it, hearing open and closed evidence over 34 days in 2015, and reported on 21 January 2016.",
       "The UK government froze Lugovoy and Kovtun's British assets and summoned Russia's ambassador; Russia has refused to extradite either man, citing its constitution's bar on extraditing its own citizens, and its Foreign Ministry dismissed the findings as politically motivated. Lugovoy has since been elected to the Russian Duma and was awarded a state honour by President Putin during the Inquiry's hearings. In 2021 the European Court of Human Rights ruled that Russia was responsible for Litvinenko's killing."
     ],
     "findings": [
@@ -294,12 +294,27 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "The most important evidence against the two men, the report finds, is forensic - polonium 210 contamination traced through hotel bathrooms they used, and nowhere else Litvinenko visited that day besides the Pine Bar itself.",
+        "text": "The most important evidence against the two men, the report finds, is forensic - polonium 210 contamination in the plughole of Kovtun's bathroom at the Millennium Hotel, in lavatories near the Pine Bar that both men visited and Litvinenko did not, and in hotel bathrooms they used on earlier visits to London. That evidence alone, the Chairman writes, would have satisfied him that they were responsible.",
         "cites": [
           {
             "id": "8-71-i-have-referred",
             "page": 193,
             "href": "/reports/litvinenko-inquiry?p=8-71-i-have-referred"
+          },
+          {
+            "id": "8-72-first-extensive-testing",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-72-first-extensive-testing"
+          },
+          {
+            "id": "8-73-second-secondary-contamination",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-73-second-secondary-contamination"
+          },
+          {
+            "id": "8-74-third-these-findings",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-74-third-these-findings"
           },
           {
             "id": "8-76-i-consider-evidence",
@@ -416,11 +431,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "page": "193",
         "why": "The forensic case against Lugovoy and Kovtun - the polonium trail through three hotel bathrooms, and the inconsistencies in the two men's own accounts of that afternoon.",
         "excerpt": {
-          "quote": "Mr Lugovoy initially declined to give an account of the meeting at the Pine Bar because, he said, the room had been covered by, \"high quality video equipment, which doubtless recorded the meeting\". In fact, there was no such video equipment in the Pine Bar, and it is not credible that Mr Lugovoy, as a security professional, could have mistakenly thought that there was. One is left, therefore, with the conclusion that he was lying about this",
+          "quote": "Mr Lugovoy initially declined to give an account of the meeting at the Pine Bar because, he said, the room had been covered by, \"high quality video equipment, which doubtless recorded the meeting\". In fact, there was no such video equipment in the Pine Bar, and it is not credible that Mr Lugovoy, as a security professional, could have mistakenly thought that there was.",
           "cite": {
             "id": "8-87-lugovoy-initially-declined",
             "page": 195,
-            "href": "/reports/litvinenko-inquiry?p=8-87-lugovoy-initially-declined&h=8.87%20|Mr%20Lugovoy%20initially%20declined%20to%20give%20an%20account%20of%20the%20meeting%20at%20the%20Pine%20Bar%20because%2C%20he%20said%2C%20the%20room%20had%20been%20cove%E2%8B%AF%2C%20could%20have%20mistakenly%20thought%20that%20there%20was.%20One%20is%20left%2C%20therefore%2C%20with%20the%20conclusion%20that%20he%20was%20lying%20about%20this|%20(see%20paragraph%206.315)."
+            "href": "/reports/litvinenko-inquiry?p=8-87-lugovoy-initially-declined&h=8.87%20|Mr%20Lugovoy%20initially%20declined%20to%20give%20an%20account%20of%20the%20meeting%20at%20the%20Pine%20Bar%20because%2C%20he%20said%2C%20the%20room%20had%20been%20cove%E2%8B%AFe%20Bar%2C%20and%20it%20is%20not%20credible%20that%20Mr%20Lugovoy%2C%20as%20a%20security%20professional%2C%20could%20have%20mistakenly%20thought%20that%20there%20was.|%20One%20is%20left%2C%20therefore%2C"
           }
         }
       },
