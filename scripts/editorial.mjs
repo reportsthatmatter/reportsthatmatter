@@ -13,8 +13,12 @@
  * decides what a reader sees, so a draft can be previewed with `?draft` on
  * the contents page before it is approved. Exits 1 on any problem, listing
  * all of them.
+ *
+ * Also writes build/editorial-highlights.json: Rufus's highlights resolved to
+ * marks-table rows, for `pnpm seed-highlights` (g0w.11). Not bundled — the
+ * Worker never needs them; they reach readers through the marks table.
  */
-import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { resolveEditorial } from "../src/lib/editorial.ts";
@@ -26,6 +30,7 @@ const known = new Set(registry.reports.map((report) => report.id));
 
 const problems = [];
 const resolved = {};
+const highlights = [];
 
 const files = existsSync(dir) ? readdirSync(dir).filter((name) => name.endsWith(".yaml")).sort() : [];
 
@@ -48,13 +53,20 @@ for (const name of files) {
     continue;
   }
 
-  const result = resolveEditorial(source, readFileSync(bodyPath, "utf8"));
+  const structure = JSON.parse(
+    readFileSync(join(root, `assets/generated/reports/${source.report}/meta.json`), "utf8")
+  );
+  const result = resolveEditorial(source, readFileSync(bodyPath, "utf8"), structure);
   problems.push(...result.problems);
   resolved[source.report] = result.editorial;
+  highlights.push(...result.highlights);
 
+  const { findings, readingGuide } = result.editorial;
+  const quotes = findings.filter((f) => f.excerpt).length + readingGuide.filter((r) => r.excerpt).length;
   console.log(
     `  ${result.problems.length ? "✗" : "✓"} ${source.report} (${source.status}) — ` +
-      `${result.editorial.findings.length} findings, ${result.editorial.excerpts.length} excerpts`
+      `${findings.length} findings, ${readingGuide.length} to read, ${quotes} quotes on the page, ` +
+      `${result.highlights.length} highlights`
   );
 }
 
@@ -66,6 +78,9 @@ import type { Editorial } from "../lib/editorial";
 export const EDITORIAL: Readonly<Record<string, Editorial>> = ${JSON.stringify(resolved, null, 2)};
 `
 );
+
+mkdirSync(join(root, "build"), { recursive: true });
+writeFileSync(join(root, "build/editorial-highlights.json"), JSON.stringify(highlights, null, 2));
 
 if (problems.length) {
   console.error(`\n${problems.length} problem(s):`);

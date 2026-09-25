@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { placeQuote, resolveEditorial, type EditorialSource, type Editorial } from "../src/lib/editorial";
-import { renderEditorial } from "../src/templates/editorial";
+import { renderLanding, renderStandfirst, renderOurNote } from "../src/templates/editorial";
+import { publicationYear } from "../src/templates/report";
+import { renderReportList } from "../src/templates/index";
 import { renderReportOverview } from "../src/templates/section";
 import { EDITORIAL } from "../src/generated/editorial";
 import { decodeAnchor } from "../assets/anchor.js";
@@ -15,13 +17,29 @@ wisdom of no.&quot;</p>
 <a class="page-marker" id="page-147" href="#page-147">147</a>
 <p id="next" data-page="147">Unrelated.</p>`;
 
+const STRUCTURE = {
+  sections: [
+    { slug: "one", title: "One", page: "30" },
+    { slug: "two", title: "SHOUTED CAPTION", page: "146" },
+  ],
+  paragraphToSection: { "so-what": "one", "power-of-yes": "two", next: "two" },
+};
+
 function source(overrides: Partial<EditorialSource> = {}): EditorialSource {
   return {
     report: "demo",
     status: "draft",
     why_it_matters: "Why it matters.",
-    findings: [{ text: "A finding.", cites: ["so-what"] }],
-    excerpts: [{ paragraph: "so-what", quote: 'who replied "So what?"' }],
+    background: "First paragraph\nwraps.\n\nSecond paragraph.",
+    findings: [
+      {
+        text: "A finding.",
+        cites: ["so-what"],
+        excerpt: { paragraph: "so-what", quote: 'who replied "So what?"' },
+      },
+    ],
+    reading_guide: [{ section: "two", title: "Sales culture", why: "Start here." }],
+    highlights: [{ paragraph: "so-what", quote: 'replied "So what?"' }],
     ...overrides,
   };
 }
@@ -49,10 +67,12 @@ describe("placing a quote", () => {
 });
 
 describe("resolving an editorial file", () => {
-  it("resolves pages and links the exact words of an in-paragraph quote", () => {
-    const { editorial, problems } = resolveEditorial(source(), HTML);
+  it("resolves pages, sections and background, and links the exact words of a quote", () => {
+    const { editorial, problems } = resolveEditorial(source(), HTML, STRUCTURE);
     expect(problems).toEqual([]);
-    const cite = editorial.excerpts[0].cite;
+    expect(editorial.background).toEqual(["First paragraph wraps.", "Second paragraph."]);
+    expect(editorial.readingGuide[0]).toMatchObject({ slug: "two", title: "Sales culture", page: "146" });
+    const cite = editorial.findings[0].excerpt!.cite;
     expect(cite.page).toBe(30);
     const url = new URL(cite.href, "http://x");
     expect(url.pathname).toBe("/reports/demo");
@@ -60,91 +80,122 @@ describe("resolving an editorial file", () => {
     expect(decodeAnchor(url.searchParams.get("h"))?.exact).toBe('who replied "So what?"');
   });
 
-  it("reports every problem at once: a quote not in the text, a cite that does not exist", () => {
+  it("resolves a highlight to a marks row", () => {
+    const { highlights } = resolveEditorial(source(), HTML, STRUCTURE);
+    expect(highlights).toEqual([
+      expect.objectContaining({ report: "demo", section: "one", paragraph: "so-what", exact: 'replied "So what?"', page: 30 }),
+    ]);
+  });
+
+  it("reports every problem at once", () => {
     const { problems } = resolveEditorial(
       source({
-        findings: [{ text: "x", cites: ["gone"] }, { text: "y", cites: [] }],
-        excerpts: [{ paragraph: "so-what", quote: "You'll go down as a wimp" }],
+        findings: [
+          { text: "x", cites: ["gone"] },
+          { text: "y", cites: [], excerpt: { paragraph: "so-what", quote: "You'll go down as a wimp" } },
+        ],
+        reading_guide: [
+          { section: "nowhere", why: "?" },
+          { section: "one", why: "!", excerpt: { paragraph: "power-of-yes", quote: "The Power of Yes" } },
+        ],
+        highlights: [{ paragraph: "power-of-yes", quote: "the wisdom of no." }],
       }),
-      HTML
+      HTML,
+      STRUCTURE
     );
-    expect(problems).toHaveLength(3);
-    expect(problems.join("\n")).toMatch(/no paragraph "gone"/);
-    expect(problems.join("\n")).toMatch(/cites nothing/);
-    expect(problems.join("\n")).toMatch(/not found verbatim/);
+    const all = problems.join("\n");
+    expect(all).toMatch(/no paragraph "gone"/);
+    expect(all).toMatch(/cites nothing/);
+    expect(all).toMatch(/not found verbatim/);
+    expect(all).toMatch(/no section "nowhere"/);
+    expect(all).toMatch(/is not in section "one"/);
+    expect(all).toMatch(/block quotation, which cannot be marked/);
+    expect(problems).toHaveLength(6);
   });
 });
 
 const approved: Editorial = {
   status: "approved",
   whyItMatters: "The Special Counsel's account.",
-  findings: [{ text: "It was enough to convict.", cites: [{ id: "a", page: 137, href: "/reports/demo?p=a" }] }],
-  excerpts: [{ quote: "So what?", context: "2:24 p.m.", card: true, pick: true, cite: { id: "b", page: 30, href: "/reports/demo?p=b" } }],
+  background: ["What happened."],
+  findings: [
+    {
+      text: "It was enough to convict.",
+      cites: [{ id: "a", page: 137, href: "/reports/demo?p=a" }],
+      excerpt: { quote: "to which he replied.", cite: { id: "b", page: 30, href: "/reports/demo?p=b" } },
+    },
+  ],
+  readingGuide: [{ slug: "one", title: "The results", page: "3", why: "The case in brief." }],
 };
 
-describe("the rendered layer", () => {
-  it("is labelled as ours and links every finding and passage into the report", () => {
-    const html = renderEditorial(approved);
-    expect(html).toContain("Our note");
-    expect(html).toContain("Only the words in quotation marks are the report's");
+describe("the landing page", () => {
+  it("sets out background, findings and a reading guide, every one linking into the report", () => {
+    const html = renderLanding(approved, "demo");
+    expect(html).toContain("Background");
+    expect(html).toContain("What happened.");
     expect(html).toContain('href="/reports/demo?p=a"');
+    expect(html).toContain("“…to which he replied.”");
     expect(html).toContain('href="/reports/demo?p=b"');
-    expect(html).toContain("p. 137");
-    expect(html).toContain("“So what?”");
+    expect(html).toContain("Where to start reading");
+    expect(html).toContain('href="/reports/demo/one"');
   });
 
-  it("hides a draft unless asked, and marks it when shown", () => {
-    const draft = { ...approved, status: "draft" as const };
-    expect(renderEditorial(draft)).toBe("");
-    expect(renderEditorial(draft, { draft: true })).toContain("Draft — not yet approved");
-    expect(renderEditorial(approved, { draft: true })).not.toContain("Draft");
+  it("says whose words these are, and flags a draft", () => {
+    expect(renderOurNote(approved)).toContain("Only words in quotation marks are the report's own");
+    expect(renderOurNote(approved)).not.toContain("Draft");
+    expect(renderOurNote({ ...approved, status: "draft" })).toContain("Draft — not yet approved");
+    expect(renderStandfirst(approved)).toContain("The Special Counsel's account.");
   });
 
-  it("uses an approved why-it-matters as the page description; a draft preview is noindex", () => {
-    const meta = { id: "demo", title: "Demo report" };
-    const sections = [{ slug: "one", title: "One", level: 2 as const, page: "1" }];
+  const meta = { id: "demo", title: "Demo report", published_at: "13 April 2011" };
+  const sections = [{ slug: "one", title: "One", level: 2 as const, page: "1" }];
+
+  it("is the landing page only when approved, or a draft previewed with ?draft", () => {
     const live = renderReportOverview(meta, sections, { words: 10 }, [], { editorial: approved });
+    expect(live).toContain("Where to start reading");
     expect(live).toContain(`<meta name="description" content="The Special Counsel's account." />`);
     expect(live).not.toContain("noindex");
 
-    const preview = renderReportOverview(meta, sections, { words: 10 }, [], {
-      editorial: { ...approved, status: "draft" },
-      draft: true,
-    });
+    const draft = { ...approved, status: "draft" as const };
+    const hidden = renderReportOverview(meta, sections, { words: 10 }, [], { editorial: draft });
+    expect(hidden).not.toContain("Where to start reading");
+    expect(hidden).toContain("Contents");
+
+    const preview = renderReportOverview(meta, sections, { words: 10 }, [], { editorial: draft, draft: true });
+    expect(preview).toContain("Where to start reading");
     expect(preview).toContain('<meta name="robots" content="noindex" />');
-    expect(preview).not.toContain(`<meta name="description" content="The Special Counsel's account." />`);
+  });
+
+  it("is today's contents page for a report with no overview", () => {
+    const plain = renderReportOverview(meta, sections, { words: 10 });
+    expect(plain).not.toContain("landing-");
+    expect(plain).toContain("Contents");
+  });
+});
+
+describe("publication year", () => {
+  it("is read from the registry date", () => {
+    expect(publicationYear({ published_at: "13 April 2011" })).toBe("2011");
+    expect(publicationYear({ published_at: "January 2025" })).toBe("2025");
+    expect(publicationYear({ published_at: "October 1986" })).toBe("1986");
+    expect(publicationYear({})).toBeNull();
+  });
+
+  it("is in the report header and leads the archive row", () => {
+    const meta = { id: "demo", title: "Demo report", published_at: "13 April 2011", authors: "A Committee" };
+    const page = renderReportOverview(meta, [{ slug: "one", title: "One", level: 2 as const, page: "1" }], { words: 10 });
+    expect(page).toContain('<span class="kicker-year">2011</span>');
+    const list = renderReportList({ reports: [{ ...meta, source_path: "x" }] });
+    expect(list).toContain("13 April 2011 · A Committee");
   });
 });
 
 describe("the generated layer", () => {
-  it("covers only reports, with every passage cited to a printed page", () => {
+  it("links every quotation into its own report", () => {
     for (const [id, editorial] of Object.entries(EDITORIAL)) {
-      for (const excerpt of editorial.excerpts) {
-        expect(excerpt.cite.href.startsWith(`/reports/${id}?p=`)).toBe(true);
+      for (const finding of editorial.findings) {
+        if (finding.excerpt) expect(finding.excerpt.cite.href.startsWith(`/reports/${id}?p=`)).toBe(true);
       }
     }
-  });
-});
-
-describe("passage order and folding", () => {
-  const passage = (quote: string, pick = false) => ({
-    quote,
-    card: false,
-    pick,
-    cite: { id: quote, page: 1, href: `/reports/demo?p=${quote}` },
-  });
-
-  it("leads with picks, folds the rest, and marks a mid-sentence start", () => {
-    const html = renderEditorial({
-      ...approved,
-      excerpts: [
-        ...Array.from({ length: 7 }, (_, i) => passage(`Plain ${i}.`)),
-        passage("to which he replied.", true),
-      ],
-    });
-    expect(html.indexOf("…to which he replied.")).toBeLessThan(html.indexOf("Plain 0."));
-    expect(html).toContain("2 more passages");
-    expect(html.indexOf("<details")).toBeLessThan(html.indexOf("Plain 6."));
-    expect(html.indexOf("<details")).toBeGreaterThan(html.indexOf("Plain 4."));
   });
 });

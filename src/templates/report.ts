@@ -13,6 +13,15 @@ export type ReportMeta = {
 };
 
 /**
+ * The year a report was published, from its registry date ("13 April 2011",
+ * "January 2025"). A reader arriving from a link needs to know at a glance
+ * whether they are reading about 1986 or 2025 (reportsthatmatter-wz2).
+ */
+export function publicationYear(meta: Pick<ReportMeta, "published_at">): string | null {
+  return meta.published_at?.match(/\b(1[89]|20)\d{2}\b/)?.[0] ?? null;
+}
+
+/**
  * Pulls a paragraph's plain text out of the rendered HTML.
  *
  * Reading it back off the render rather than recomputing it from the markdown

@@ -26,7 +26,9 @@ export function renderReportList(registry: ReportRegistry): string {
 
   const items = registry.reports
     .map((report) => {
-      const meta = [report.authors, report.published_at].filter(Boolean).join(" · ");
+      // Date first: when a report was published is the first thing a reader
+      // needs to place it (reportsthatmatter-wz2).
+      const meta = [report.published_at, report.authors].filter(Boolean).join(" · ");
       return `<li>
         <a href="/reports/${escapeHtml(report.id)}">
           ${rowMark(report.id)}

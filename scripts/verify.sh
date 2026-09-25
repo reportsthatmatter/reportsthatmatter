@@ -260,9 +260,10 @@ check_contains /reports/uk-saville-inquiry/processing "Known limitations"
 check_contains /reports/uk-saville-inquiry "About this edition"
 check_status /reports/jack-smith-vol1/processing 404
 
-# Our editorial layer (g0w.4). `?draft` shows it whether or not it is
-# approved yet, so this holds before and after approval.
-check_contains "/reports/jack-smith-vol1?draft" "Our note"
+# A report's landing page (g0w.8): our layer, when the report has one.
+check_contains "/reports/jack-smith-vol1" "Where to start reading"
+# A report without one keeps the plain contents page.
+check_absent "/reports/challenger-accident" "Where to start reading"
 check_absent  /reports/jack-smith-vol1 "About this edition"
 check_status /sitemap.xml 200
 check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
