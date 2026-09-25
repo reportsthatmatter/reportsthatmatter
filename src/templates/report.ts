@@ -35,7 +35,8 @@ export function extractParagraph(html: string, id: string): string | null {
   return match[1]
     // Drop the whole sidenote apparatus — the citation text and the superscript
     // marker. Left in, a quoted passage reads "…delay it.4 In service of…".
-    .replace(/<span class="sidenote">[\s\S]*?<\/span>/g, "")
+    // Any sidenote class: a note over 400 characters is `sidenote long`.
+    .replace(/<span class="sidenote(?: [^"]*)?">[\s\S]*?<\/span>/g, "")
     .replace(/<label class="sidenote-toggle"[\s\S]*?<\/label>/g, "")
     .replace(/<[^>]+>/g, "")
     .replace(/&amp;/g, "&")

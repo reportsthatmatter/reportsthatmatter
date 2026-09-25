@@ -184,7 +184,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "instance-trump-co-conspirator-1-called",
             "page": 9,
-            "href": "/reports/jack-smith-vol1?p=instance-trump-co-conspirator-1-called&h=of%20fraud.%22).Show%20full%20note%20|Co-Conspirator%201%20not%20only%20failed%20to%20ever%20provide%20such%20evidence%2C%20but%20he%20conceded%20to%20the%20Arizona%20Speaker%20at%20an%20in-person%20meeting%20a%20week%20later%20that%20%22%5Bw%5De%20don't%20have%20the%20evidence%2C%20but%20we%20have%20lots%20of%20theories.%22|%20Despite%20this%20lack%20of"
+            "href": "/reports/jack-smith-vol1?p=instance-trump-co-conspirator-1-called&h=support%20his%20fraud%20claims.%20|Co-Conspirator%201%20not%20only%20failed%20to%20ever%20provide%20such%20evidence%2C%20but%20he%20conceded%20to%20the%20Arizona%20Speaker%20at%20an%20in-person%20meeting%20a%20week%20later%20that%20%22%5Bw%5De%20don't%20have%20the%20evidence%2C%20but%20we%20have%20lots%20of%20theories.%22|%20Despite%20this%20lack%20of"
           }
         }
       },

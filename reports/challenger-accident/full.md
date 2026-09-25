@@ -1124,11 +1124,11 @@ Days of hearings k!,w wm
 
 > t i
 
-June 10, 1986 ..........[^3] Hon. William P. Rogers, Chairman, Presidential Commission on the Space Shuttle Challenger
+June 10, 1986 .......... 3 Hon. William P. Rogers, Chairman, Presidential Commission on the Space Shuttle Challenger
 
 > Accident. Neil Armstrong, Vice Chairman. Dr. Alton Keel, Executive Director.
 
-June 11, 1986 ..........[^7] ...............Dr. James C. Fletcher, Administrator, NASA.
+June 11, 1986 .......... 7 ...............Dr. James C. Fletcher, Administrator, NASA.
 
 > RADM Richard Truly, Associate Administrator for Space Flight, NASA, accompanied by Mr. Edward Aldridge, Secretary of the Air Force, Washington, DC. A I M D. A!driih, Manager, N a f i a l Space Transportation System, NASA. Dr. William Graham, Deputy Administrator, NASA. Dr. Dan Germany, Leader, photo and TV Analysis Team, NASA. Capt. Robert L. Crippen, Astronaut, NASA.
 
@@ -1136,21 +1136,21 @@ June 12, 1986.......... 12 Dr. James C. Fletcher, Administrator, NASA.
 
 > Arnold D. Aldrich, Manager, National Space Transportation System, NASA. Mr. 1. Michael Weeks, Deputy Associate Administrator (Technical), Dffice of Space Flight, NASA. Dr. Milton A. Silvera, Chief Engineer, NASA. RADM Richard Truly, Associate Administrator for Space Flight, NASA. J.R. Thwnpscn, Vw Chairman, NASA, STS 51-L Design and Data Analysis Task Force, NASA. Dr. William Graham, Deputy Administrator, NASA REPRESENTATIVES FROM NASA's TASK TEAMS Dan Germany, Deputy Manager, Space Station Project Office, NASA, Johnson Space Center. John Thomas, Manager Ad Hoc, Solid Rocket Motor Design Team, Marshall Space Flight Center. Thomas 1. "Jack" Lee, Deputy Director, Marshall Space Flight Center. Thomas Hollway, Chief, Flight Director Dffice, NASA, Johnson Space Flight Center. Thomas Utsman, Deputy Director, NASA, Kennedy Space Center.
 
-June 17, 1986..........[^10] ............. Charles S. Locke, Chairman of the Board and Chief Executive Officer, Morton Thiokole.
+June 17, 1986.......... 10 ............. Charles S. Locke, Chairman of the Board and Chief Executive Officer, Morton Thiokole.
 
 > Joseph C. Kilminster, Vke President, Space Opwatins, Morton Thiokol. Allan 1. McDonald, Director, SRM Verification Task Force, Morton Thiokol. Roger M. Boisjoly, Staff Engineer, Morton Thiokol. U. Edwin Garrison, President, Aerospace Group, Morton Thiokol. Carver G. Kennedy, Vice President, Space Booster Programs, Morton Thiokol. Arnold R. Thompson. Supervisor, Structures Design, Morton Thiokol. Dr. William Graham, Deputy Administrator, NASA, accompanied by Thomas Moser, Deputy Administrator, Office of Space Flight, NASA. RADM Richard Truly, Associate Administrator for Space Flight, NASA. Dr. William Lucas, Director, Marshall Space Flight Center, accompanied by J. Wayne tittles, Deputy Director of Science and Engineering, Marshall Space Flight Center. Lawrence Mulloy, Assistant to the Director for Science and Engineering, Marshall Space Flight Center. Gerald W. Smith, Manager, Solid Rocket Booster Project, Marshall Space Flight Center. Stanley Reinartz (no comment), Manager, Special Projects Office, Marshall Space Flight Center. William Sneed, Assistant Director, Policy and Review, Marshall Space Flight Center.
 
-June 18, 1986 ......[^5] ............... U. Edwin Garrison, President, Aerospace Group, Morton Thioko!.
+June 18, 1986 ...... 5 ............... U. Edwin Garrison, President, Aerospace Group, Morton Thioko!.
 
 > Joseph C. Kilminster, Vice President, Morton Thiokol. Carver G. Kennedy, Vice President, Space Booster Program, Morton Thiokol. Allan J. McDonald, Director, SRM Verification Task Force, Morton Thiokol. Roger M. Boisjoly Staff Engineer, Morton Thiokol. Arnold R. Thompson, Supervisor, Structures Design, Morton Thiokol.
 
-June 25, 1986 ..........[^6] ............... Maj. Donald "Deke" K. Slayton, Brig. Gen. James A. McDivitt, Capt. John W. Young, Cot. Henry
+June 25, 1986 .......... 6 ............... Maj. Donald "Deke" K. Slayton, Brig. Gen. James A. McDivitt, Capt. John W. Young, Cot. Henry
 
-W. Hartsfield. Jr.. Comdr. Robert 1. Gibson, Gen. Thomas Stafford. July 15, 1986...........[^3] ............... George Jeffs, President, North American Space Operations. Roekwell International.
+W. Hartsfield. Jr.. Comdr. Robert 1. Gibson, Gen. Thomas Stafford. July 15, 1986........... 3 ............... George Jeffs, President, North American Space Operations. Roekwell International.
 
 > Richard M. Davis, President, Martin Marietta Michoud Aerospace. George Murphy, Executive Vice President and General Manager, United Technology Booster Production Co.
 
-July 16, 1986...........[^7] ............... E.D. Sargent, President, Lockhzed Space Operations Co. and Program Manager, Shuttle
+July 16, 1986........... 7 ............... E.D. Sargent, President, Lockhzed Space Operations Co. and Program Manager, Shuttle
 
 > Processing Contract, accompanied by Fred Haise, President, Grumman Technical Services Division. Carver Kennedy, Vice President, Space Booster Programs, Morton Thiokol. David Gwen, Lockheed Space Operations CO. and Deputy Program Manager, Kennedy Space Center.
 
@@ -1162,13 +1162,15 @@ Witnesses
 
 > Charlie Floyd, Systems Engineer, Lockheed Space Operations Co. James R. Dubay, President and General Manager, EG&G Florida, Inc., accompanied by Dr. Donald Kerr, Senior Vice President, EG&G Florida, Inc. George A. Faenza, Vice President and General Manager, McDonnell Douglas Astronautics Ca.
 
-July 23, 1986...........[^2] ............... Alan M. Lovelace, Vice President and General Manager, Space Systems Division, General
+July 23, 1986........... 2 ............... Alan M. Lovelace, Vice President and General Manager, Space Systems Division, General
 
 > Dynamics Carp. John F. Yardley, President, McDonnell Douglas Astronautics Co.
 
-July 24, 1986...........[^5] ............... Lt. Gen. James A. Abrahamson, Director, Strategic Defense Initiative, Department of Defense.
+July 24, 1986........... 5 ............... Lt. Gen. James A. Abrahamson, Director, Strategic Defense Initiative, Department of Defense.
 
-> Jesse W. Moore, Director, Johnson Space Center, NASA/Houston, Texas. Robert F. Thompson, Vice President, Space Stations, McOonnell Douglas Astronautics Ca. G.S. Lunney, President, Satellite Systems Division, Rockwell International. Arnold Aldrich, Manager, National Space Transportation System, Lyndon 6. Johnson Space Center. NAWHouston. Texas. Total............ 60 ..........[^1] Continued from June 17, Morton Thiokol only.
+> Jesse W. Moore, Director, Johnson Space Center, NASA/Houston, Texas. Robert F. Thompson, Vice President, Space Stations, McOonnell Douglas Astronautics Ca. G.S. Lunney, President, Satellite Systems Division, Rockwell International. Arnold Aldrich, Manager, National Space Transportation System, Lyndon 6. Johnson Space Center. NAWHouston. Texas. Total............ 60 ..........
+
+1 Continued from June 17, Morton Thiokol only.
 
 ## THE ACCIDENT
 
@@ -2350,9 +2352,9 @@ From the history unfolded to the Commission and Committee investigation, it is n
 
 Drogue chute ............................................... Primary deceleration..................................... Deleted. Nose wheel steering .................................... Asymmetric loads ......................................... Delete-emergency only. Tires ............................................................ One landing per tire ..................................... Same. Landing weight, abort (worst case) ...........225,000 Ib................................................... 240,000 Ib. Lightweight wheel brakes ........................... Emergency, drogue back up and final Primary deceleration and stop.
 
-deceleration. Wheel brake life .....................................[^5] landings dynamometer certified ................Same.
+deceleration. Wheel brake life ..................................... 5 landings dynamometer certified ................Same.
 
-> (Typical: Bombers.............................................. 40 landings. Airliners...............................................[^100] landings 5 max landings.[^1] emergency. (all without thrust reversal)
+> (Typical: Bombers.............................................. 40 landings. Airliners............................................... 100 landings 5 max landings.[^1] emergency. (all without thrust reversal)
 
 The whole operational load to decelerate, stop, and steer fell on what was originally the emergency backup brake system. The five landing design is impossible to fine tune to that degree and may yield only a design of imminent failure. It follows that every landing with the now increased normal and abort landing weights is a n engineered emergency. How much the increased demands and weight have intruded into the landing gear strut design factor of safety and margin are unknown, but certainly a concern.
 
@@ -3568,7 +3570,7 @@ Similar views were voiced by former Shuttle program manager Robert Thompson:
 
 > I think we have to look pretty deep in our organization to make sure we are keeping enough technical muscle in the organization to continually search for these pending problems that are somtines pretty subtle. Sometimes they just don't, as I say, announce themselves. So you have to be willing to expend the resources and keep that technical muscle in place and you have to put that technical muscle close to the heart of the issue so that they can perceive a problem if it is just beginning to occur.'5*
 
-It does not necessarily follow however, that reductions in the numbers of technical personnel automatically limit the ability of headquarters to identify and correct emerging problems. The adverse impact flows from those reductions that cut into crucial areas. Accordingly, the Committee is pleased that Admiral Truly has undertaken an examination "throughout the agency and particularly in . . . the Space Shuttle program" to make sure that 'we have not only the right numbers but the right kind of trained people .....[^1] 5 9 It is hoped that this analysis will identify appropriate technical staffing levels and positions that must be maintained if the agency is to properly perform its function.
+It does not necessarily follow however, that reductions in the numbers of technical personnel automatically limit the ability of headquarters to identify and correct emerging problems. The adverse impact flows from those reductions that cut into crucial areas. Accordingly, the Committee is pleased that Admiral Truly has undertaken an examination "throughout the agency and particularly in . . . the Space Shuttle program" to make sure that 'we have not only the right numbers but the right kind of trained people ..... 1 5 9 It is hoped that this analysis will identify appropriate technical staffing levels and positions that must be maintained if the agency is to properly perform its function.
 
 NASA technical expertise is further reduced by the departure of highly skilled employees. During fiscal year 1985, approximately 1500 employees left the agency, over one-half of these (784) were engineers, technicians and scientists. If present trends continue,
 
@@ -8404,7 +8406,7 @@ FLIGIIT READIt!ESS ,REVIEH
 
 . . . .. . . 0
 
-> t '-, . I . '. .:. . . ., . .. , * '. .. . . . . *. .. . . . . .[^8] . . . . . . .. .. .. . . . . . " , . '. .. .. iI . . . ...... . . . .. ... w
+> t '-, . I . '. .:. . . ., . .. , * '. .. . . . . *. .. . . . . . 8 . . . . . . .. .. .. . . . . . " , . '. .. .. iI . . . ...... . . . .. ... w
 
 ,i . . 00
 
