@@ -483,6 +483,241 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       }
     ]
   },
+  "uk-hillsborough-panel": {
+    "status": "draft",
+    "whyItMatters": "The Hillsborough Independent Panel's account of how 96 football supporters died in a crush at the 1989 FA Cup semi-final, and what happened to the truth about it over the next 23 years. Commissioned after sustained campaigning by bereaved families, the Panel examined over 450,000 pages of previously undisclosed documents. It found the fans were not the cause of the disaster, and sets out in detail how police statements were altered and unsubstantiated allegations against them took hold.",
+    "background": [
+      "On 15 April 1989 more than 50,000 people travelled to Hillsborough, Sheffield Wednesday's ground, for the FA Cup semi-final between Liverpool and Nottingham Forest. A crush developed in two overcrowded central pens on the Leppings Lane terrace after an exit gate was opened to relieve congestion outside; 96 men, women and children died as a consequence, and hundreds more were injured. A 97th, Andrew Devine, who suffered severe and irreversible brain damage at Hillsborough, died in 2021, and a coroner later found that he too had been unlawfully killed.",
+      "The disaster was investigated repeatedly in the years that followed. Lord Justice Taylor's judicial inquiry reported within months, identifying crowd mismanagement rather than the fans as the cause, but a private prosecution of the two most senior police officers failed and the original 1991 inquests returned verdicts of accidental death. Many bereaved families and survivors believed the full circumstances had still not been made public, and that unsubstantiated allegations made by police officers and reported in the press had left it widely assumed that fans' behaviour had contributed to the disaster. In December 2009, after a renewed campaign by the Hillsborough Family Support Group and Merseyside MPs, the Home Secretary appointed the Hillsborough Independent Panel, chaired by the Rt Revd James Jones, Bishop of Liverpool, with a remit of securing maximum public disclosure of official documents. Over more than two years it examined material from over 80 organisations, and reported to Parliament on 12 September 2012.",
+      "In the Commons that day, the Prime Minister, David Cameron, apologised for what he called a \"double injustice\": the failure to protect the crowd, and the way blame was later placed on those who died. In December 2012 the High Court quashed the original 1991 accidental-death verdicts, and fresh inquests held between 2014 and 2016 concluded, by a 7-2 majority, that the 96 had been unlawfully killed, that the match commander, David Duckenfield, was responsible for manslaughter by gross negligence, and that fans' behaviour had not caused or contributed to the disaster. Duckenfield was later tried twice for gross negligence manslaughter and acquitted in 2019; the former Sheffield Wednesday secretary Graham Mackrell was convicted that year of a safety offence, the only conviction to follow the disaster; and in 2021 a trial of two retired police officers and a solicitor over the statement amendments collapsed when the judge ruled there was no case for them to answer."
+    ],
+    "findings": [
+      {
+        "text": "The Panel found that multiple factors were responsible for the deaths, and that the fans were not the cause of the disaster.",
+        "cites": [
+          {
+            "id": "whole-point-justice-consists-precisely",
+            "page": null,
+            "href": "/reports/uk-hillsborough-panel?p=whole-point-justice-consists-precisely"
+          }
+        ],
+        "excerpt": {
+          "quote": "The disclosed documents show that multiple factors were responsible for the deaths of the 96 victims of the Hillsborough tragedy and that the fans were not the cause of the disaster.",
+          "cite": {
+            "id": "whole-point-justice-consists-precisely",
+            "page": null,
+            "href": "/reports/uk-hillsborough-panel?p=whole-point-justice-consists-precisely&h=family%20through%20affection.%20|The%20disclosed%20documents%20show%20that%20multiple%20factors%20were%20responsible%20for%20the%20deaths%20of%20the%2096%20victims%20of%20the%20Hillsborough%20tragedy%20and%20that%20the%20fans%20were%20not%20the%20cause%20of%20the%20disaster.|%20The%20disclosed%20documents"
+          }
+        }
+      },
+      {
+        "text": "The Panel found the crush was foreseeable. A similar crush had occurred on the same terrace in 1981, and further overcrowding recurred at the turnstiles in 1987 and on the terrace in 1988.",
+        "cites": [
+          {
+            "id": "1981-before-fa-cup-semi-final",
+            "page": 5,
+            "href": "/reports/uk-hillsborough-panel?p=1981-before-fa-cup-semi-final"
+          },
+          {
+            "id": "these-deficiencies-well-known-further",
+            "page": 6,
+            "href": "/reports/uk-hillsborough-panel?p=these-deficiencies-well-known-further"
+          }
+        ]
+      },
+      {
+        "text": "On the day, once an exit gate was opened to relieve crowding at the turnstiles, no instruction was given to direct the fans coming through it away from the already-overfull central pens.",
+        "cites": [
+          {
+            "id": "box-cctv-monitors-neither-chief",
+            "page": 101,
+            "href": "/reports/uk-hillsborough-panel?p=box-cctv-monitors-neither-chief"
+          }
+        ]
+      },
+      {
+        "text": "The major incident procedure was never activated at Ground Control, Force Control or Ambulance Control, even after staff there had begun describing the situation as a \"major incident\".",
+        "cites": [
+          {
+            "id": "continued-incomplete-communication-2-4",
+            "page": 137,
+            "href": "/reports/uk-hillsborough-panel?p=continued-incomplete-communication-2-4"
+          }
+        ]
+      },
+      {
+        "text": "The Coroner's decision to hear no evidence of events after 3.15pm rested on pathologists' evidence that all who died were by then beyond recovery. The Panel found this picture of a single, rapid pattern of death was unsustainable, and that a significant number of those who died may still have been alive, and might have survived with appropriate and timely intervention, after being removed from the pens.",
+        "cites": [
+          {
+            "id": "chapter-10-3-15pm-cut-off",
+            "page": 21,
+            "href": "/reports/uk-hillsborough-panel?p=chapter-10-3-15pm-cut-off"
+          },
+          {
+            "id": "underpinned-imposition-3-15pm-cut-off",
+            "page": 14,
+            "href": "/reports/uk-hillsborough-panel?p=underpinned-imposition-3-15pm-cut-off"
+          },
+          {
+            "id": "2-10-7-documents-considered",
+            "page": 292,
+            "href": "/reports/uk-hillsborough-panel?p=2-10-7-documents-considered"
+          }
+        ],
+        "excerpt": {
+          "quote": "The documents considered in Chapter 5 contain clear medical evidence that a significant number of those who died may have been alive after removal from the pens. These individuals might have survived given appropriate and timely intervention, but remained vulnerable while unconscious to the effects of a new event such as being positioned incorrectly or inhaling stomach contents.",
+          "cite": {
+            "id": "2-10-7-documents-considered",
+            "page": 292,
+            "href": "/reports/uk-hillsborough-panel?p=2-10-7-documents-considered&h=2.10.7%20|The%20documents%20considered%20in%20Chapter%205%20contain%20clear%20medical%20evidence%20that%20a%20significant%20number%20of%20those%20who%20died%20may%20hav%E2%8B%AFrable%20while%20unconscious%20to%20the%20effects%20of%20a%20new%20event%20such%20as%20being%20positioned%20incorrectly%20or%20inhaling%20stomach%20contents.|"
+          }
+        }
+      },
+      {
+        "text": "Blood alcohol levels were taken and read out at each victim's preliminary inquest hearing, feeding persistent claims that drinking had contributed to the disaster. The Panel found the weight placed on this evidence was inappropriate, and that an attempt to link later arrival with drunkenness was fundamentally flawed.",
+        "cites": [
+          {
+            "id": "each-preliminary-hearing-before-jury",
+            "page": 18,
+            "href": "/reports/uk-hillsborough-panel?p=each-preliminary-hearing-before-jury"
+          },
+          {
+            "id": "weight-placed-alcohol-face-objective",
+            "page": 14,
+            "href": "/reports/uk-hillsborough-panel?p=weight-placed-alcohol-face-objective"
+          },
+          {
+            "id": "also-show-available-evidence-significantly",
+            "page": 14,
+            "href": "/reports/uk-hillsborough-panel?p=also-show-available-evidence-significantly"
+          }
+        ]
+      },
+      {
+        "text": "Statements written by SYP officers were reviewed and altered before being submitted to the Taylor Inquiry. Of 164 statements marked for substantial amendment, 116 were changed to remove or alter comments unfavourable to the force, including 41 that downplayed criticism of its leadership and response.",
+        "cites": [
+          {
+            "id": "syp-team-130-significant-number",
+            "page": 23,
+            "href": "/reports/uk-hillsborough-panel?p=syp-team-130-significant-number"
+          },
+          {
+            "id": "police-response-inadequate-leadership-2",
+            "page": 322,
+            "href": "/reports/uk-hillsborough-panel?p=police-response-inadequate-leadership-2"
+          }
+        ],
+        "excerpt": {
+          "quote": "Some 116 of the 164 substantially amended statements removed or altered comments unfavourable to SYP. These included 41 statements in which alterations downplayed or removed criticisms made by officers of their leadership and of the police response to the disaster.",
+          "cite": {
+            "id": "police-response-inadequate-leadership-2",
+            "page": 322,
+            "href": "/reports/uk-hillsborough-panel?p=police-response-inadequate-leadership-2&h=or%20balance%20of%20statements.%20|Some%20116%20of%20the%20164%20substantially%20amended%20statements%20removed%20or%20altered%20comments%20unfavourable%20to%20SYP.%20These%20included%2041%20statements%20in%20which%20alterations%20downplayed%20or%20removed%20criticisms%20made%20by%20officers%20of%20their%20leadership%20and%20of%20the%20police%20response%20to%20the%20disaster.|%20These%20commonly%20included"
+          }
+        }
+      },
+      {
+        "text": "Allegations that Liverpool fans had picked pockets, urinated on police and assaulted officers giving first aid were published as \"THE TRUTH\" by The Sun four days after the disaster. The Panel found no evidence to support these allegations beyond a few isolated examples of aggressive or abusive behaviour.",
+        "cites": [
+          {
+            "id": "2-12-31-greatest-prominence",
+            "page": 345,
+            "href": "/reports/uk-hillsborough-panel?p=2-12-31-greatest-prominence"
+          },
+          {
+            "id": "2-12-83-wednesday-19",
+            "page": 351,
+            "href": "/reports/uk-hillsborough-panel?p=2-12-83-wednesday-19"
+          },
+          {
+            "id": "yet-from-mass-documents-television",
+            "page": 24,
+            "href": "/reports/uk-hillsborough-panel?p=yet-from-mass-documents-television"
+          }
+        ],
+        "excerpt": {
+          "quote": "The greatest prominence given to the story was in The Sun whose editor, Kelvin MacKenzie, cleared the front page and under the banner headline 'THE TRUTH' published three bullet points: 'Some fans picked pockets of victims; Some fans urinated on the brave cops; Some fans beat up PC giving life kiss'.",
+          "cite": {
+            "id": "2-12-31-greatest-prominence",
+            "page": 345,
+            "href": "/reports/uk-hillsborough-panel?p=2-12-31-greatest-prominence&h=2.12.31%20|The%20greatest%20prominence%20given%20to%20the%20story%20was%20in%20The%20Sun%20whose%20editor%2C%20Kelvin%20MacKenzie%2C%20cleared%20the%20front%20page%20and%20und%E2%8B%AFnts%3A%20'Some%20fans%20picked%20pockets%20of%20victims%3B%20Some%20fans%20urinated%20on%20the%20brave%20cops%3B%20Some%20fans%20beat%20up%20PC%20giving%20life%20kiss'.|27"
+          }
+        }
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "front-matter",
+        "title": "Report summary",
+        "page": "2",
+        "why": "The Panel's own chapter-by-chapter digest of the first four chapters — the risks ignored before 1989, the day itself, and the roles and responsibilities that went unresolved.",
+        "excerpt": {
+          "quote": "Ninety-six women, men and children died as a consequence of the crush, while hundreds more were injured and thousands traumatised.",
+          "cite": {
+            "id": "ninety-six-women-men-children-died",
+            "page": 2,
+            "href": "/reports/uk-hillsborough-panel?p=ninety-six-women-men-children-died&h=|Ninety-six%20women%2C%20men%20and%20children%20died%20as%20a%20consequence%20of%20the%20crush%2C%20while%20hundreds%20more%20were%20injured%20and%20thousands%20traumatised.|%20In%20the%20immediate"
+          }
+        }
+      },
+      {
+        "slug": "neither-syp-nor-the-south-yorkshire-metropolitan-ambulance-service-symas",
+        "title": "The rest of the report summary",
+        "page": "13",
+        "why": "Continues the chapter-by-chapter summary through the emergency response, the contested medical evidence, the 3.15pm cut-off, the altered statements and the unsubstantiated press allegations.",
+        "excerpt": {
+          "quote": "The Panel's access to all of the relevant records has confirmed that the notion of a single, unvarying and rapid pattern of death in all cases is unsustainable.",
+          "cite": {
+            "id": "underpinned-imposition-3-15pm-cut-off",
+            "page": 14,
+            "href": "/reports/uk-hillsborough-panel?p=underpinned-imposition-3-15pm-cut-off&h=response%20could%20not%20have%20helped.%20|The%20Panel's%20access%20to%20all%20of%20the%20relevant%20records%20has%20confirmed%20that%20the%20notion%20of%20a%20single%2C%20unvarying%20and%20rapid%20pattern%20of%20death%20in%20all%20cases%20is%20unsustainable.|%20Some%20of%20those%20who%20died"
+          }
+        }
+      },
+      {
+        "slug": "hillsborough",
+        "title": "The day itself, and the emergency response",
+        "page": "108",
+        "why": "The Panel's detailed reconstruction of the day and of the emergency response that followed it, drawing on control-room tapes and radio transcripts not previously made public.",
+        "excerpt": {
+          "quote": "Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.",
+          "cite": {
+            "id": "continued-incomplete-communication-2-4",
+            "page": 137,
+            "href": "/reports/uk-hillsborough-panel?p=continued-incomplete-communication-2-4&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|11%20Documents%20disclosed%20to"
+          }
+        }
+      },
+      {
+        "slug": "of-action-check-transcripts-submissions-by-swfc-re-fence-check-transcripts-and-f",
+        "title": "The coroner's inquiry and the 3.15pm cut-off",
+        "page": "247",
+        "why": "How the inquest was split into a hearing for each victim followed by a single generic hearing, and why the Coroner decided to hear no evidence of what happened after 3.15pm.",
+        "excerpt": {
+          "quote": "Dr Popper returned to the cut-off: 'we did not take much evidence after 3.15 in fact hardly any, and that was a deliberate decision of mine'.",
+          "cite": {
+            "id": "coroner-s-summing-up-subsequent",
+            "page": 297,
+            "href": "/reports/uk-hillsborough-panel?p=coroner-s-summing-up-subsequent&h=opening%20the%20generic%20hearing%2C%20|Dr%20Popper%20returned%20to%20the%20cut-off%3A%20'we%20did%20not%20take%20much%20evidence%20after%203.15%20in%20fact%20hardly%20any%2C%20and%20that%20was%20a%20deliberate%20decision%20of%20mine'.|15%20This%20decision%20was"
+          }
+        }
+      },
+      {
+        "slug": "memorandum-to-the-attorney-general-kevin-daniel-williams-deceased-application-un",
+        "title": "The altered statements, and 'The Truth'",
+        "page": "312",
+        "why": "How SYP officers' statements were reviewed and amended before the Taylor Inquiry, and how allegations against Liverpool fans reached The Sun's front page four days after the disaster.",
+        "excerpt": {
+          "quote": "A total of 164 statements were marked for amendments more substantial than simple corrections. Of these, 22 were amended to remove coarse or informal language.",
+          "cite": {
+            "id": "informal-coarse-language-2-11",
+            "page": 321,
+            "href": "/reports/uk-hillsborough-panel?p=informal-coarse-language-2-11&h=or%20coarse%20language%202.11.53%20|A%20total%20of%20164%20statements%20were%20marked%20for%20amendments%20more%20substantial%20than%20simple%20corrections.%20Of%20these%2C%2022%20were%20amended%20to%20remove%20coarse%20or%20informal%20language.|31"
+          }
+        }
+      }
+    ]
+  },
   "uk-saville-inquiry": {
     "status": "draft",
     "whyItMatters": "Lord Saville's report into Bloody Sunday, when British paratroopers shot dead thirteen people on a civil rights march in Derry/Londonderry on 30 January 1972. His twelve-year inquiry, the longest and most expensive public inquiry in British legal history, re-examined a shooting that an earlier tribunal had investigated in eleven weeks. It found that none of those shot was posing a threat, and rejected the soldiers' claims that they had fired at gunmen or bombers. This edition covers Volume I: the Tribunal's own conclusions and the background to the day.",
