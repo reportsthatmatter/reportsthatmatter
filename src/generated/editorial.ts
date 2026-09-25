@@ -238,6 +238,466 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       }
     ]
   },
+  "litvinenko-inquiry": {
+    "status": "draft",
+    "whyItMatters": "Sir Robert Owen's account of how Alexander Litvinenko, a former Russian security officer living in London, was fatally poisoned with a rare radioactive isotope in November 2006. The public inquiry took over from an inquest that could not proceed because government documents bearing on the case were too sensitive to be used in open court. Its findings go beyond his two poisoners to the Russian state itself, concluding that the operation was probably approved by Russia's president.",
+    "background": [
+      "Alexander Litvinenko was an officer in the Soviet and then Russian security services, the KGB and latterly the FSB, until he was dismissed in 1998 after publicly alleging illegal conduct within the FSB. He left Russia in 2000, was granted asylum in the UK in 2001, and became a British citizen in October 2006, working in London as a journalist and author, and a vocal critic of President Vladimir Putin. On 1 November 2006 he fell ill after meeting two visitors from Russia, Andrey Lugovoy and Dmitri Kovtun, for tea at the Pine Bar of the Millennium Hotel in Mayfair. He was found to have been poisoned with polonium 210, a rare radioactive isotope, and he died in University College Hospital on 23 November 2006.",
+      "An inquest into his death, resumed in 2011, could not proceed because government material bearing on Russian State responsibility was too sensitive to be used in open court. At the request of the coroner, and after his widow Marina Litvinenko successfully challenged the Home Secretary's initial refusal in the High Court, Theresa May announced on 22 July 2014 that a public inquiry would replace the inquest. Sir Robert Owen, a High Court judge who had been the inquest's Assistant Coroner, chaired it, hearing open and closed evidence over 34 days in 2015, and reported on 21 January 2016.",
+      "The UK government froze Lugovoy and Kovtun's British assets and summoned Russia's ambassador; Russia has refused to extradite either man, citing its constitution's bar on extraditing its own citizens, and its Foreign Ministry dismissed the findings as politically motivated. Lugovoy has since been elected to the Russian Duma and was awarded a state honour by President Putin during the Inquiry's hearings. In 2021 the European Court of Human Rights ruled that Russia was responsible for Litvinenko's killing."
+    ],
+    "findings": [
+      {
+        "text": "Litvinenko died of acute radiation syndrome after ingesting a fatal dose of polonium 210 on 1 November 2006. The report finds he was not the victim of an accident, and did not take the poison himself.",
+        "cites": [
+          {
+            "id": "10-6-medical-cause-litvinenko",
+            "page": 245,
+            "href": "/reports/litvinenko-inquiry?p=10-6-medical-cause-litvinenko"
+          },
+          {
+            "id": "10-10-i-am-sure",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-10-i-am-sure"
+          }
+        ],
+        "excerpt": {
+          "quote": "I am sure that Mr Litvinenko did not ingest the polonium 210 either by accident or to commit suicide. I am sure, rather, that he was deliberately poisoned by others.",
+          "cite": {
+            "id": "10-10-i-am-sure",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-10-i-am-sure&h=10.10%20|I%20am%20sure%20that%20Mr%20Litvinenko%20did%20not%20ingest%20the%20polonium%20210%20either%20by%20accident%20or%20to%20commit%20suicide.%20I%20am%20sure%2C%20rather%2C%20that%20he%20was%20deliberately%20poisoned%20by%20others.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that Andrey Lugovoy and Dmitri Kovtun placed the polonium 210 in the teapot Litvinenko drank from at the Pine Bar, intending to kill him, and that they had made an earlier attempt with the same poison two weeks before.",
+        "cites": [
+          {
+            "id": "10-11-i-am-sure",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-11-i-am-sure"
+          },
+          {
+            "id": "10-12-i-am-sure",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-12-i-am-sure"
+          }
+        ],
+        "excerpt": {
+          "quote": "I am sure that Mr Lugovoy and Mr Kovtun placed the polonium 210 in the teapot at the Pine Bar on 1 November 2006. I am also sure that they did this with the intention of poisoning Mr Litvinenko.",
+          "cite": {
+            "id": "10-11-i-am-sure",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-11-i-am-sure&h=10.11%20|I%20am%20sure%20that%20Mr%20Lugovoy%20and%20Mr%20Kovtun%20placed%20the%20polonium%20210%20in%20the%20teapot%20at%20the%20Pine%20Bar%20on%201%20November%202006.%20I%20am%20also%20sure%20that%20they%20did%20this%20with%20the%20intention%20of%20poisoning%20Mr%20Litvinenko.|"
+          }
+        }
+      },
+      {
+        "text": "The most important evidence against the two men, the report finds, is forensic - polonium 210 contamination in the plughole of Kovtun's bathroom at the Millennium Hotel, in lavatories near the Pine Bar that both men visited and Litvinenko did not, and in hotel bathrooms they used on earlier visits to London. That evidence alone, the Chairman writes, would have satisfied him that they were responsible.",
+        "cites": [
+          {
+            "id": "8-71-i-have-referred",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-71-i-have-referred"
+          },
+          {
+            "id": "8-72-first-extensive-testing",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-72-first-extensive-testing"
+          },
+          {
+            "id": "8-73-second-secondary-contamination",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-73-second-secondary-contamination"
+          },
+          {
+            "id": "8-74-third-these-findings",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-74-third-these-findings"
+          },
+          {
+            "id": "8-76-i-consider-evidence",
+            "page": 193,
+            "href": "/reports/litvinenko-inquiry?p=8-76-i-consider-evidence"
+          }
+        ]
+      },
+      {
+        "text": "Lugovoy and Kovtun were acting on behalf of others, the report finds, and it is probable that Lugovoy poisoned Litvinenko under the direction of the FSB, Russia's security service, with Kovtun acting under the same direction.",
+        "cites": [
+          {
+            "id": "10-14-i-am-sure",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-14-i-am-sure"
+          },
+          {
+            "id": "10-15-when-lugovoy-poisoned",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-15-when-lugovoy-poisoned"
+          }
+        ],
+        "excerpt": {
+          "quote": "When Mr Lugovoy poisoned Mr Litvinenko, it is probable that he did so under the direction of the FSB. I would add that I regard that as a strong probability. I have found that Mr Kovtun also took part in the poisoning. I conclude therefore that he was also acting under FSB direction, possibly indirectly through Mr Lugovoy but probably to his knowledge.",
+          "cite": {
+            "id": "10-15-when-lugovoy-poisoned",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-15-when-lugovoy-poisoned&h=10.15%20|When%20Mr%20Lugovoy%20poisoned%20Mr%20Litvinenko%2C%20it%20is%20probable%20that%20he%20did%20so%20under%20the%20direction%20of%20the%20FSB.%20I%20would%20add%20that%20I%E2%8B%AFefore%20that%20he%20was%20also%20acting%20under%20FSB%20direction%2C%20possibly%20indirectly%20through%20Mr%20Lugovoy%20but%20probably%20to%20his%20knowledge.|"
+          }
+        }
+      },
+      {
+        "text": "The report's final conclusion goes to the top of the Russian state, finding that the FSB operation to kill Litvinenko was probably approved by Nikolai Patrushev, then head of the FSB, and by President Putin.",
+        "cites": [
+          {
+            "id": "9-215-taking-full-account",
+            "page": 244,
+            "href": "/reports/litvinenko-inquiry?p=9-215-taking-full-account"
+          },
+          {
+            "id": "10-16-fsb-operation-kill",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-16-fsb-operation-kill"
+          }
+        ],
+        "excerpt": {
+          "quote": "The FSB operation to kill Mr Litvinenko was probably approved by Mr Patrushev and also by President Putin.",
+          "cite": {
+            "id": "10-16-fsb-operation-kill",
+            "page": 246,
+            "href": "/reports/litvinenko-inquiry?p=10-16-fsb-operation-kill&h=10.16%20|The%20FSB%20operation%20to%20kill%20Mr%20Litvinenko%20was%20probably%20approved%20by%20Mr%20Patrushev%20and%20also%20by%20President%20Putin.|"
+          }
+        }
+      },
+      {
+        "text": "The report sets out powerful motives within the Russian state for wanting Litvinenko dead - he was regarded as having betrayed the FSB, was reported to have been identified as working for British intelligence, and had repeatedly and personally attacked President Putin in public.",
+        "cites": [
+          {
+            "id": "9-194-there-powerful-motives",
+            "page": 239,
+            "href": "/reports/litvinenko-inquiry?p=9-194-there-powerful-motives"
+          }
+        ]
+      },
+      {
+        "text": "The polonium's origin could not be traced conclusively to Russia, the report finds, but its use is itself a strong indicator of state involvement, since the isotope must come from a nuclear reactor and such reactors are, in general, under state control.",
+        "cites": [
+          {
+            "id": "9-111-my-conclusion-reasons",
+            "page": 225,
+            "href": "/reports/litvinenko-inquiry?p=9-111-my-conclusion-reasons"
+          },
+          {
+            "id": "9-113-first-use-polonium",
+            "page": 225,
+            "href": "/reports/litvinenko-inquiry?p=9-113-first-use-polonium"
+          }
+        ]
+      },
+      {
+        "text": "Russia has refused UK requests to extradite Lugovoy and Kovtun, citing its constitution's bar on extraditing its own citizens. Lugovoy has denied involvement, was elected to the Russian parliament, and received a state honour from President Putin during the Inquiry's hearings.",
+        "cites": [
+          {
+            "id": "9-177-russia-has-refused",
+            "page": 237,
+            "href": "/reports/litvinenko-inquiry?p=9-177-russia-has-refused"
+          },
+          {
+            "id": "9-183-i-have-already",
+            "page": 238,
+            "href": "/reports/litvinenko-inquiry?p=9-183-i-have-already"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "part-10-summary-of-conclusions",
+        "title": "Part 10: Summary of conclusions",
+        "page": "246",
+        "why": "The whole chain of findings in a couple of pages - how Litvinenko died, who poisoned him, and on whose orders.",
+        "excerpt": {
+          "quote": "I am sure that Mr Litvinenko ingested the fatal dose of polonium 210 whilst drinking tea in the Pine Bar of the Millennium Hotel during the afternoon of 1 November 2006.",
+          "cite": {
+            "id": "10-8-i-am-sure",
+            "page": 245,
+            "href": "/reports/litvinenko-inquiry?p=10-8-i-am-sure&h=10.8%20|I%20am%20sure%20that%20Mr%20Litvinenko%20ingested%20the%20fatal%20dose%20of%20polonium%20210%20whilst%20drinking%20tea%20in%20the%20Pine%20Bar%20of%20the%20Millennium%20Hotel%20during%20the%20afternoon%20of%201%20November%202006.|"
+          }
+        }
+      },
+      {
+        "slug": "chapter-6-who-administered-the-poison",
+        "title": "Chapter 6: Who administered the poison?",
+        "page": "193",
+        "why": "The forensic case against Lugovoy and Kovtun - the polonium trail through three hotel bathrooms, and the inconsistencies in the two men's own accounts of that afternoon.",
+        "excerpt": {
+          "quote": "Mr Lugovoy initially declined to give an account of the meeting at the Pine Bar because, he said, the room had been covered by, \"high quality video equipment, which doubtless recorded the meeting\". In fact, there was no such video equipment in the Pine Bar, and it is not credible that Mr Lugovoy, as a security professional, could have mistakenly thought that there was.",
+          "cite": {
+            "id": "8-87-lugovoy-initially-declined",
+            "page": 195,
+            "href": "/reports/litvinenko-inquiry?p=8-87-lugovoy-initially-declined&h=8.87%20|Mr%20Lugovoy%20initially%20declined%20to%20give%20an%20account%20of%20the%20meeting%20at%20the%20Pine%20Bar%20because%2C%20he%20said%2C%20the%20room%20had%20been%20cove%E2%8B%AFe%20Bar%2C%20and%20it%20is%20not%20credible%20that%20Mr%20Lugovoy%2C%20as%20a%20security%20professional%2C%20could%20have%20mistakenly%20thought%20that%20there%20was.|%20One%20is%20left%2C%20therefore%2C"
+          }
+        }
+      },
+      {
+        "slug": "chapter-11-conclusions-regarding-russian-state-responsibility",
+        "title": "Chapter 11: Conclusions regarding Russian State responsibility",
+        "page": "240",
+        "why": "Why the Chairman found a Russian State operation rather than a private killing - the polonium's likely source, Litvinenko's enemies within the FSB, and how Putin has treated Lugovoy since 2006.",
+        "excerpt": {
+          "quote": "The fact that Mr Litvinenko was poisoned with polonium 210 that had been manufactured in a nuclear reactor suggests that Mr Lugovoy and Mr Kovtun were acting for a state body, rather than (say) a criminal organisation.",
+          "cite": {
+            "id": "9-192-fact-litvinenko-poisoned",
+            "page": 239,
+            "href": "/reports/litvinenko-inquiry?p=9-192-fact-litvinenko-poisoned&h=9.192%20|The%20fact%20that%20Mr%20Litvinenko%20was%20poisoned%20with%20polonium%20210%20that%20had%20been%20manufactured%20in%20a%20nuclear%20reactor%20suggests%20that%20Mr%20Lugovoy%20and%20Mr%20Kovtun%20were%20acting%20for%20a%20state%20body%2C%20rather%20than%20(say)%20a%20criminal%20organisation.|"
+          }
+        }
+      },
+      {
+        "slug": "chapter-12-russian-state-responsibility-involvement-of-nikolai-patrushev-and-pre",
+        "title": "Chapter 12: Russian State responsibility – involvement of Nikolai Patrushev and President Vladimir Putin",
+        "page": "242",
+        "why": "How the Chairman reached \"probably approved\" specifically for Patrushev and Putin, weighing expert evidence on who controls the FSB.",
+        "excerpt": {
+          "quote": "\"The conclusion must be\", Professor Service stated: \"that Putin generally endorsed what the agency got up to in the years through to 2006 and beyond and that Patrushev as its Director knew that he had his President's support in its operations.\"",
+          "cite": {
+            "id": "9-210-professor-service-confident",
+            "page": 243,
+            "href": "/reports/litvinenko-inquiry?p=9-210-professor-service-confident&h=FSB%20between%201999%20and%202008.%20|%22The%20conclusion%20must%20be%22%2C%20Professor%20Service%20stated%3A%20%22that%20Putin%20generally%20endorsed%20what%20the%20agency%20got%20up%20to%20in%20the%20years%20through%20to%202006%20and%20beyond%20and%20that%20Patrushev%20as%20its%20Director%20knew%20that%20he%20had%20his%20President's%20support%20in%20its%20operations.%22|"
+          }
+        }
+      },
+      {
+        "slug": "part-2-introduction",
+        "title": "Part 2: Introduction",
+        "page": "10",
+        "why": "Why an inquest became a public inquiry, and the standards of proof - \"sure\", \"find\", \"probable\" - that run through the whole report.",
+        "excerpt": {
+          "quote": "I add that where in this Report I state that 'I am sure' I will have found a fact to the criminal standard. When I use such expressions as 'I find' or 'I am satisfied' the standard of proof will have been the ordinary civil standard of proof, namely the balance of probabilities.",
+          "cite": {
+            "id": "2-20-i-have-explained",
+            "page": 10,
+            "href": "/reports/litvinenko-inquiry?p=2-20-i-have-explained&h=in%20the%20Baha%20Mousa%20Inquiry.%20|I%20add%20that%20where%20in%20this%20Report%20I%20state%20that%20'I%20am%20sure'%20I%20will%20have%20found%20a%20fact%20to%20the%20criminal%20standard.%20When%20I%20use%20such%20expressions%20as%20'I%20find'%20or%20'I%20am%20satisfied'%20the%20standard%20of%20proof%20will%20have%20been%20the%20ordinary%20civil%20standard%20of%20proof%2C%20namely%20the%20balance%20of%20probabilities.|%20Where%20it%20is%20obvious%20that"
+          }
+        }
+      }
+    ]
+  },
+  "uk-saville-inquiry": {
+    "status": "draft",
+    "whyItMatters": "Lord Saville's report into Bloody Sunday, when British paratroopers shot dead thirteen people on a civil rights march in Derry/Londonderry on 30 January 1972. His twelve-year inquiry, the longest and most expensive public inquiry in British legal history, re-examined a shooting that an earlier tribunal had investigated in eleven weeks. It found that none of those shot was posing a threat, and rejected the soldiers' claims that they had fired at gunmen or bombers. This edition covers Volume I: the Tribunal's own conclusions and the background to the day.",
+    "background": [
+      "On 30th January 1972 a civil rights march against internment without trial took place in Derry/Londonderry, in the north-west of Northern Ireland. British Army paratroopers of 1 PARA moved into the Bogside on an arrest operation; in the space of about ten minutes, soldiers shot dead thirteen people and wounded a similar number. A fourteenth man, John Johnston, wounded that day, died some months later and is often counted among Bloody Sunday's victims.",
+      "The first inquiry, led by Lord Widgery, the Lord Chief Justice of England, reported within eleven weeks and largely accepted the soldiers' evidence; it has long been regarded, including by the victims' families, as a whitewash. In 1998 the Prime Minister, Tony Blair, told the House of Commons that the weight of new material meant the events required re-examination, and set up the Bloody Sunday Inquiry under Lord Saville of Newdigate, sitting with two senior Commonwealth judges, William Hoyt and John Toohey. Over twelve years it heard from 921 witnesses, becoming the longest and most expensive public inquiry in British legal history. It reported in ten volumes on 15th June 2010. This edition covers Volume I only: the General Introduction, the Principal Conclusions and Overall Assessment, and the Background to Bloody Sunday. The other nine volumes, the detailed sector-by-sector evidence and findings, are not included here.",
+      "In the House of Commons on the day of publication, the Prime Minister, David Cameron, said the killings were \"unjustified and unjustifiable\" and apologised on the Government's behalf. The Public Prosecution Service later brought proceedings against one former soldier, tried as Soldier F for two of the killings in Glenfada Park North and five attempted murders; he was acquitted on all counts at Belfast Crown Court in October 2025."
+    ],
+    "findings": [
+      {
+        "text": "The report's central conclusion is that none of those shot by soldiers of Support Company was posing a threat, and that no warning was given before the soldiers opened fire.",
+        "cites": [
+          {
+            "id": "3-70-none-casualties-shot",
+            "page": 78,
+            "href": "/reports/uk-saville-inquiry?p=3-70-none-casualties-shot"
+          },
+          {
+            "id": "5-5-firing-soldiers-1",
+            "page": 100,
+            "href": "/reports/uk-saville-inquiry?p=5-5-firing-soldiers-1"
+          }
+        ],
+        "excerpt": {
+          "quote": "None of the casualties shot by soldiers of Support Company was armed with a firearm or (with the probable exception of Gerald Donaghey) a bomb of any description. None was posing any threat of causing death or serious injury. In no case was any warning given before soldiers opened fire.",
+          "cite": {
+            "id": "3-70-none-casualties-shot",
+            "page": 78,
+            "href": "/reports/uk-saville-inquiry?p=3-70-none-casualties-shot&h=3.70%20|None%20of%20the%20casualties%20shot%20by%20soldiers%20of%20Support%20Company%20was%20armed%20with%20a%20firearm%20or%20(with%20the%20probable%20exception%20of%20Gerald%20Donaghey)%20a%20bomb%20of%20any%20description.%20None%20was%20posing%20any%20threat%20of%20causing%20death%20or%20serious%20injury.%20In%20no%20case%20was%20any%20warning%20given%20before%20soldiers%20opened%20fire.|"
+          }
+        }
+      },
+      {
+        "text": "The Tribunal found a serious and widespread loss of fire discipline among the soldiers of Support Company once they went into the Bogside; immediate responsibility for the deaths and injuries lies with them.",
+        "cites": [
+          {
+            "id": "5-4-we-have-concluded",
+            "page": 99,
+            "href": "/reports/uk-saville-inquiry?p=5-4-we-have-concluded"
+          },
+          {
+            "id": "4-1-immediate-responsibility-deaths",
+            "page": 90,
+            "href": "/reports/uk-saville-inquiry?p=4-1-immediate-responsibility-deaths"
+          }
+        ],
+        "excerpt": {
+          "quote": "Our overall conclusion is that there was a serious and widespread loss of fire discipline among the soldiers of Support Company.",
+          "cite": {
+            "id": "5-4-we-have-concluded",
+            "page": 99,
+            "href": "/reports/uk-saville-inquiry?p=5-4-we-have-concluded&h=death%20or%20serious%20injury.%20|Our%20overall%20conclusion%20is%20that%20there%20was%20a%20serious%20and%20widespread%20loss%20of%20fire%20discipline%20among%20the%20soldiers%20of%20Support%20Company.|"
+          }
+        }
+      },
+      {
+        "text": "The soldiers who fired insisted that they had shot at gunmen or bombers. The Tribunal found that they had not, and rejected several of their accounts as knowingly untrue.",
+        "cites": [
+          {
+            "id": "3-102-further-shooting-rossville",
+            "page": 84,
+            "href": "/reports/uk-saville-inquiry?p=3-102-further-shooting-rossville"
+          },
+          {
+            "id": "3-78-other-words-all",
+            "page": 79,
+            "href": "/reports/uk-saville-inquiry?p=3-78-other-words-all"
+          }
+        ],
+        "excerpt": {
+          "quote": "As to the further shooting in Rossville Street, which caused the deaths of William Nash, John Young and Michael McDaid, Corporal P claimed that he fired at a man with a pistol; Lance Corporal J claimed that he fired at a nail bomber; and Corporal E claimed that he fired at a man with a pistol in the Rossville Flats. We reject each of these claims as knowingly untrue.",
+          "cite": {
+            "id": "3-102-further-shooting-rossville",
+            "page": 84,
+            "href": "/reports/uk-saville-inquiry?p=3-102-further-shooting-rossville&h=3.102%20|As%20to%20the%20further%20shooting%20in%20Rossville%20Street%2C%20which%20caused%20the%20deaths%20of%20William%20Nash%2C%20John%20Young%20and%20Michael%20McDaid%2C%20%E2%8B%AFclaimed%20that%20he%20fired%20at%20a%20man%20with%20a%20pistol%20in%20the%20Rossville%20Flats.%20We%20reject%20each%20of%20these%20claims%20as%20knowingly%20untrue.|%20We%20are%20sure%20that%20these"
+          }
+        }
+      },
+      {
+        "text": "No one threw or threatened to throw a nail or petrol bomb at the soldiers that day, contrary to the evidence some soldiers gave.",
+        "cites": [
+          {
+            "id": "3-76-despite-contrary-evidence",
+            "page": 79,
+            "href": "/reports/uk-saville-inquiry?p=3-76-despite-contrary-evidence"
+          }
+        ],
+        "excerpt": {
+          "quote": "Despite the contrary evidence given by soldiers, we have concluded that none of them fired in response to attacks or threatened attacks by nail or petrol bombers. No-one threw or threatened to throw a nail or petrol bomb at the soldiers on Bloody Sunday.",
+          "cite": {
+            "id": "3-76-despite-contrary-evidence",
+            "page": 79,
+            "href": "/reports/uk-saville-inquiry?p=3-76-despite-contrary-evidence&h=3.76%20|Despite%20the%20contrary%20evidence%20given%20by%20soldiers%2C%20we%20have%20concluded%20that%20none%20of%20them%20fired%20in%20response%20to%20attacks%20or%20threatened%20attacks%20by%20nail%20or%20petrol%20bombers.%20No-one%20threw%20or%20threatened%20to%20throw%20a%20nail%20or%20petrol%20bomb%20at%20the%20soldiers%20on%20Bloody%20Sunday.|%20There%20was%20some%20firing%20by"
+          }
+        }
+      },
+      {
+        "text": "Lieutenant Colonel Derek Wilford, the commanding officer of 1 PARA, sent soldiers in vehicles into the Bogside without authority and in breach of the order Brigadier MacLellan had given him.",
+        "cites": [
+          {
+            "id": "3-18-colonel-wilford-did",
+            "page": 59,
+            "href": "/reports/uk-saville-inquiry?p=3-18-colonel-wilford-did"
+          },
+          {
+            "id": "4-18-colonel-wilford-failed",
+            "page": 95,
+            "href": "/reports/uk-saville-inquiry?p=4-18-colonel-wilford-failed"
+          }
+        ]
+      },
+      {
+        "text": "The report finds no evidence for the allegation that what happened on Bloody Sunday was intended, planned or foreseen by the authorities, and finds that the United Kingdom Government was at the time making genuine and serious attempts to work towards a peaceful political settlement.",
+        "cites": [
+          {
+            "id": "4-3-these-allegations-based",
+            "page": 91,
+            "href": "/reports/uk-saville-inquiry?p=4-3-these-allegations-based"
+          },
+          {
+            "id": "4-4-order-consider-these",
+            "page": 91,
+            "href": "/reports/uk-saville-inquiry?p=4-4-order-consider-these"
+          }
+        ]
+      },
+      {
+        "text": "Gerald Donaghey, a member of the IRA's youth wing, was probably carrying nail bombs when he was shot, but the report finds he was not preparing to throw one and was not shot because of them.",
+        "cites": [
+          {
+            "id": "3-111-gerald-donaghey-taken",
+            "page": 86,
+            "href": "/reports/uk-saville-inquiry?p=3-111-gerald-donaghey-taken"
+          },
+          {
+            "id": "3-118-will-be-seen",
+            "page": 88,
+            "href": "/reports/uk-saville-inquiry?p=3-118-will-be-seen"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "chapter-5-the-overall-assessment",
+        "title": "The overall assessment",
+        "page": "100",
+        "why": "The Tribunal's conclusion in six short paragraphs - how the shooting began, why it spread, and what it calls \"a catastrophe for the people of Northern Ireland.\"",
+        "excerpt": {
+          "quote": "The firing by soldiers of 1 PARA on Bloody Sunday caused the deaths of 13 people and injury to a similar number, none of whom was posing a threat of causing death or serious injury. What happened on Bloody Sunday strengthened the Provisional IRA, increased nationalist resentment and hostility towards the Army and exacerbated the violent conflict of the years that followed. Bloody Sunday was a tragedy for the bereaved and the wounded, and a catastrophe for the people of Northern Ireland.",
+          "cite": {
+            "id": "5-5-firing-soldiers-1",
+            "page": 100,
+            "href": "/reports/uk-saville-inquiry?p=5-5-firing-soldiers-1&h=5.5%20|The%20firing%20by%20soldiers%20of%201%20PARA%20on%20Bloody%20Sunday%20caused%20the%20deaths%20of%2013%20people%20and%20injury%20to%20a%20similar%20number%2C%20none%20of%E2%8B%AFwed.%20Bloody%20Sunday%20was%20a%20tragedy%20for%20the%20bereaved%20and%20the%20wounded%2C%20and%20a%20catastrophe%20for%20the%20people%20of%20Northern%20Ireland.|"
+          }
+        }
+      },
+      {
+        "slug": "chapter-3-the-events-of-the-day",
+        "title": "Chapter 3: The events of the day",
+        "page": "53",
+        "why": "A reconstruction of the shootings, soldier by soldier and victim by victim, and the Tribunal's reasons for accepting or rejecting each soldier's account.",
+        "excerpt": {
+          "quote": "Jackie Duddy was running away from the soldiers when he was shot. He probably had a stone in his hand at the time.",
+          "cite": {
+            "id": "3-94-jackie-duddy-running",
+            "page": 82,
+            "href": "/reports/uk-saville-inquiry?p=3-94-jackie-duddy-running&h=3.94%20|Jackie%20Duddy%20was%20running%20away%20from%20the%20soldiers%20when%20he%20was%20shot.%20He%20probably%20had%20a%20stone%20in%20his%20hand%20at%20the%20time.|%20Private%20R%20may%20have"
+          }
+        }
+      },
+      {
+        "slug": "chapter-4-the-question-of-responsibility",
+        "title": "Chapter 4: The question of responsibility",
+        "page": "91",
+        "why": "Who, beyond the soldiers who fired, the Tribunal holds responsible for the deaths and injuries - and who it clears, including the generals and the Brigadier who gave the orders.",
+        "excerpt": {
+          "quote": "Colonel Wilford should have ordered his soldiers to stay in and around William Street and the northern end of Rossville Street. Instead, he sent them into the Bogside, where they chased people down Rossville Street, into the car park of the Rossville Flats, into Glenfada Park North and as far as Abbey Park.",
+          "cite": {
+            "id": "4-15-what-did-happen",
+            "page": 94,
+            "href": "/reports/uk-saville-inquiry?p=4-15-what-did-happen&h=MacLellan%20had%20then%20ordered.%20|Colonel%20Wilford%20should%20have%20ordered%20his%20soldiers%20to%20stay%20in%20and%20around%20William%20Street%20and%20the%20northern%20end%20of%20Rossville%20%E2%8B%AFople%20down%20Rossville%20Street%2C%20into%20the%20car%20park%20of%20the%20Rossville%20Flats%2C%20into%20Glenfada%20Park%20North%20and%20as%20far%20as%20Abbey%20Park.|"
+          }
+        }
+      },
+      {
+        "slug": "chapter-2-outline-of-events-before-the-day",
+        "title": "Chapter 2: Outline of events before the day",
+        "page": "50",
+        "why": "How a banned civil rights march became an arrest operation - the barriers, the changed route, and the decision to use 1 PARA.",
+        "excerpt": {
+          "quote": "To that end General Ford ordered that 1st Battalion, The Parachute Regiment (1 PARA), which was stationed near Belfast, should travel to Londonderry and be used as the arrest force.",
+          "cite": {
+            "id": "2-16-end-general-ford",
+            "page": 50,
+            "href": "/reports/uk-saville-inquiry?p=2-16-end-general-ford&h=2.16%20|To%20that%20end%20General%20Ford%20ordered%20that%201st%20Battalion%2C%20The%20Parachute%20Regiment%20(1%20PARA)%2C%20which%20was%20stationed%20near%20Belfast%2C%20should%20travel%20to%20Londonderry%20and%20be%20used%20as%20the%20arrest%20force.|"
+          }
+        }
+      },
+      {
+        "slug": "chapter-7-the-period-up-to-july",
+        "title": "The period up to July 1971",
+        "page": "106",
+        "why": "The wider history the Tribunal thought necessary background - partition, the charge of gerrymandering in Londonderry's local government, and the civil rights marches of 1968-69.",
+        "excerpt": {
+          "quote": "These events led to the establishment of the first \"no go \" areas in Londonderry. Residents of the Bogside and other predominantly Catholic parts of the city erected barricades and organised vigilante patrols to prevent the RUC or loyalist crowds from entering their neighbourhoods.",
+          "cite": {
+            "id": "7-58-these-events-led",
+            "page": 122,
+            "href": "/reports/uk-saville-inquiry?p=7-58-these-events-led&h=7.58%20|These%20events%20led%20to%20the%20establishment%20of%20the%20first%20%22no%20go%20%22%20areas%20in%20Londonderry.%20Residents%20of%20the%20Bogside%20and%20other%20predominantly%20Catholic%20parts%20of%20the%20city%20erected%20barricades%20and%20organised%20vigilante%20patrols%20to%20prevent%20the%20RUC%20or%20loyalist%20crowds%20from%20entering%20their%20neighbourhoods.|%20The%20famous%20slogan%2C%20%22You"
+          }
+        }
+      }
+    ]
+  },
   "us-psi-financial-crisis": {
     "status": "approved",
     "whyItMatters": "The U.S. Senate's two-year investigation into what caused the 2008 financial crisis, built on tens of millions of pages of the banks' own emails and documents. It names the institutions, quotes their people, and shows how a bank, its regulator, the rating agencies and Wall Street's investment banks each fed the collapse.",

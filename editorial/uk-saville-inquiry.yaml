@@ -1,0 +1,270 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# Naming: the report itself refers to the city throughout as "Londonderry" and
+# explains why at paragraph 7.17 (its official name at the time of publication).
+# Our own prose instead uses "Derry/Londonderry", the neutral form used by outlets
+# such as the BBC; quotations keep the report's own usage.
+#
+# This edition covers Volume I only (the General Introduction, the Principal
+# Conclusions and Overall Assessment, and the Background to Bloody Sunday,
+# Chapters 1-9); see reports/uk-saville-inquiry/PROCESSING.md. Volumes II-X
+# (the sector-by-sector evidence and findings) are not ingested, so the
+# reading guide below is drawn only from what this edition contains.
+#
+# Background facts not stated in the report itself, verified 2026-09-25:
+#   - Fourteenth victim, John Johnston, wounded on the day and died some
+#     months later: https://www.itv.com/news/utv/2022-01-27/the-victims-of-bloody-sunday
+#   - Widgery Tribunal reported 19 April 1972, 11 weeks after the event, and
+#     was widely regarded as a whitewash; Saville established by Tony Blair
+#     in 1998, panel of Saville/Hoyt/Toohey, heard 921 witnesses over 12
+#     years, cost around £195 million, the longest and most expensive public
+#     inquiry in British legal history, reported 15 June 2010:
+#     https://www.aljazeera.com/news/2010/6/15/relatives-seek-bloody-sunday-truth
+#     https://en.wikipedia.org/wiki/Bloody_Sunday_Inquiry
+#   - David Cameron's statement and apology to the Commons, 15 June 2010
+#     (primary source, Hansard):
+#     https://hansard.parliament.uk/commons/2010-06-15/debates/10061522000002/SavilleInquiry
+#   - Trial and acquittal of the former soldier tried as "Soldier F" for two
+#     of the Glenfada Park North killings and five attempted murders, Belfast
+#     Crown Court, October 2025:
+#     https://www.irishtimes.com/crime-law/courts/2025/10/23/bloody-sunday-trial-belfast-court-delivering-soldier-f-verdict/
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+
+report: uk-saville-inquiry
+status: draft
+
+why_it_matters: >-
+  Lord Saville's report into Bloody Sunday, when British paratroopers shot
+  dead thirteen people on a civil rights march in Derry/Londonderry on 30
+  January 1972. His twelve-year inquiry, the longest and most expensive
+  public inquiry in British legal history, re-examined a shooting that an
+  earlier tribunal had investigated in eleven weeks. It found that none of
+  those shot was posing a threat, and rejected the soldiers' claims that
+  they had fired at gunmen or bombers. This
+  edition covers Volume I: the Tribunal's own conclusions and the background
+  to the day.
+
+background: |
+  On 30th January 1972 a civil rights march against internment without trial
+  took place in Derry/Londonderry, in the north-west of Northern Ireland.
+  British Army paratroopers of 1 PARA moved into the Bogside on an arrest
+  operation; in the space of about ten minutes, soldiers shot dead thirteen
+  people and wounded a similar number. A fourteenth man, John
+  Johnston, wounded that day, died some months later and is often counted
+  among Bloody Sunday's victims.
+
+  The first inquiry, led by Lord Widgery, the Lord Chief Justice of England,
+  reported within eleven weeks and largely accepted the soldiers' evidence;
+  it has long been regarded, including by the victims' families, as a
+  whitewash. In 1998 the Prime Minister, Tony Blair, told the House of
+  Commons that the weight of new material meant the events required
+  re-examination, and set up the Bloody Sunday Inquiry under Lord Saville of
+  Newdigate, sitting with two senior Commonwealth judges, William Hoyt and
+  John Toohey. Over twelve years it heard from 921 witnesses, becoming the
+  longest and most expensive public inquiry in British legal history. It
+  reported in ten volumes on 15th June 2010. This edition covers Volume I
+  only: the General Introduction, the Principal Conclusions and Overall
+  Assessment, and the Background to Bloody Sunday. The other nine volumes,
+  the detailed sector-by-sector evidence and findings, are not included here.
+
+  In the House of Commons on the day of publication, the Prime Minister,
+  David Cameron, said the killings were "unjustified and unjustifiable" and
+  apologised on the Government's behalf. The Public Prosecution Service
+  later brought proceedings against one former soldier, tried as Soldier F
+  for two of the killings in Glenfada Park North and five attempted murders;
+  he was acquitted on all counts at Belfast Crown Court in October 2025.
+
+findings:
+  - text: The report's central conclusion is that none of those shot by soldiers of Support Company was posing a threat, and that no warning was given before the soldiers opened fire.
+    cites: [3-70-none-casualties-shot, 5-5-firing-soldiers-1]
+    excerpt:
+      paragraph: 3-70-none-casualties-shot
+      quote: >-
+        None of the casualties shot by soldiers of Support Company was armed
+        with a firearm or (with the probable exception of Gerald Donaghey) a
+        bomb of any description. None was posing any threat of causing death
+        or serious injury. In no case was any warning given before soldiers
+        opened fire.
+
+  - text: The Tribunal found a serious and widespread loss of fire discipline among the soldiers of Support Company once they went into the Bogside; immediate responsibility for the deaths and injuries lies with them.
+    cites: [5-4-we-have-concluded, 4-1-immediate-responsibility-deaths]
+    excerpt:
+      paragraph: 5-4-we-have-concluded
+      quote: >-
+        Our overall conclusion is that there was a serious and widespread
+        loss of fire discipline among the soldiers of Support Company.
+
+  - text: The soldiers who fired insisted that they had shot at gunmen or bombers. The Tribunal found that they had not, and rejected several of their accounts as knowingly untrue.
+    cites: [3-102-further-shooting-rossville, 3-78-other-words-all]
+    excerpt:
+      paragraph: 3-102-further-shooting-rossville
+      quote: >-
+        As to the further shooting in Rossville Street, which caused the
+        deaths of William Nash, John Young and Michael McDaid, Corporal P
+        claimed that he fired at a man with a pistol; Lance Corporal J
+        claimed that he fired at a nail bomber; and Corporal E claimed that
+        he fired at a man with a pistol in the Rossville Flats. We reject
+        each of these claims as knowingly untrue.
+
+  - text: No one threw or threatened to throw a nail or petrol bomb at the soldiers that day, contrary to the evidence some soldiers gave.
+    cites: [3-76-despite-contrary-evidence]
+    excerpt:
+      paragraph: 3-76-despite-contrary-evidence
+      quote: >-
+        Despite the contrary evidence given by soldiers, we have concluded
+        that none of them fired in response to attacks or threatened attacks
+        by nail or petrol bombers. No-one threw or threatened to throw a nail
+        or petrol bomb at the soldiers on Bloody Sunday.
+
+  - text: Lieutenant Colonel Derek Wilford, the commanding officer of 1 PARA, sent soldiers in vehicles into the Bogside without authority and in breach of the order Brigadier MacLellan had given him.
+    cites: [3-18-colonel-wilford-did, 4-18-colonel-wilford-failed]
+
+  - text: The report finds no evidence for the allegation that what happened on Bloody Sunday was intended, planned or foreseen by the authorities, and finds that the United Kingdom Government was at the time making genuine and serious attempts to work towards a peaceful political settlement.
+    cites: [4-3-these-allegations-based, 4-4-order-consider-these]
+
+  - text: Gerald Donaghey, a member of the IRA's youth wing, was probably carrying nail bombs when he was shot, but the report finds he was not preparing to throw one and was not shot because of them.
+    cites: [3-111-gerald-donaghey-taken, 3-118-will-be-seen]
+
+reading_guide:
+  - section: chapter-5-the-overall-assessment
+    title: The overall assessment
+    why: The Tribunal's conclusion in six short paragraphs - how the shooting began, why it spread, and what it calls "a catastrophe for the people of Northern Ireland."
+    excerpt:
+      paragraph: 5-5-firing-soldiers-1
+      quote: >-
+        The firing by soldiers of 1 PARA on Bloody Sunday caused the deaths
+        of 13 people and injury to a similar number, none of whom was posing
+        a threat of causing death or serious injury. What happened on Bloody
+        Sunday strengthened the Provisional IRA, increased nationalist
+        resentment and hostility towards the Army and exacerbated the
+        violent conflict of the years that followed. Bloody Sunday was a
+        tragedy for the bereaved and the wounded, and a catastrophe for the
+        people of Northern Ireland.
+
+  - section: chapter-3-the-events-of-the-day
+    why: A reconstruction of the shootings, soldier by soldier and victim by victim, and the Tribunal's reasons for accepting or rejecting each soldier's account.
+    excerpt:
+      paragraph: 3-94-jackie-duddy-running
+      quote: >-
+        Jackie Duddy was running away from the soldiers when he was shot. He
+        probably had a stone in his hand at the time.
+
+  - section: chapter-4-the-question-of-responsibility
+    why: Who, beyond the soldiers who fired, the Tribunal holds responsible for the deaths and injuries - and who it clears, including the generals and the Brigadier who gave the orders.
+    excerpt:
+      paragraph: 4-15-what-did-happen
+      quote: >-
+        Colonel Wilford should have ordered his soldiers to stay in and
+        around William Street and the northern end of Rossville Street.
+        Instead, he sent them into the Bogside, where they chased people
+        down Rossville Street, into the car park of the Rossville Flats,
+        into Glenfada Park North and as far as Abbey Park.
+
+  - section: chapter-2-outline-of-events-before-the-day
+    why: How a banned civil rights march became an arrest operation - the barriers, the changed route, and the decision to use 1 PARA.
+    excerpt:
+      paragraph: 2-16-end-general-ford
+      quote: >-
+        To that end General Ford ordered that 1st Battalion, The Parachute
+        Regiment (1 PARA), which was stationed near Belfast, should travel to
+        Londonderry and be used as the arrest force.
+
+  - section: chapter-7-the-period-up-to-july
+    title: The period up to July 1971
+    why: The wider history the Tribunal thought necessary background - partition, the charge of gerrymandering in Londonderry's local government, and the civil rights marches of 1968-69.
+    excerpt:
+      paragraph: 7-58-these-events-led
+      quote: >-
+        These events led to the establishment of the first "no go " areas in
+        Londonderry. Residents of the Bogside and other predominantly
+        Catholic parts of the city erected barricades and organised
+        vigilante patrols to prevent the RUC or loyalist crowds from
+        entering their neighbourhoods.
+
+highlights:
+  - paragraph: 3-70-none-casualties-shot
+    quote: >-
+      None of the casualties shot by soldiers of Support Company was armed
+      with a firearm or (with the probable exception of Gerald Donaghey) a
+      bomb of any description. None was posing any threat of causing death
+      or serious injury. In no case was any warning given before soldiers
+      opened fire.
+    card: true
+
+  - paragraph: 3-76-despite-contrary-evidence
+    quote: >-
+      Despite the contrary evidence given by soldiers, we have concluded
+      that none of them fired in response to attacks or threatened attacks
+      by nail or petrol bombers. No-one threw or threatened to throw a nail
+      or petrol bomb at the soldiers on Bloody Sunday.
+    card: true
+
+  - paragraph: 3-102-further-shooting-rossville
+    quote: >-
+      Corporal P claimed that he fired at a man with a pistol; Lance
+      Corporal J claimed that he fired at a nail bomber; and Corporal E
+      claimed that he fired at a man with a pistol in the Rossville Flats.
+      We reject each of these claims as knowingly untrue.
+
+  - paragraph: 3-101-rossville-street-lance
+    quote: >-
+      Initially Lance Corporal F said nothing about this shot but later he
+      admitted that he had fired, falsely claiming that this was at a nail
+      bomber.
+
+  - paragraph: 3-108-our-view-none
+    quote: >-
+      William McKinney and Jim Wray were both shot in the back and none of
+      the other casualties (with the possible exception of Daniel Gillespie)
+      appears to have been facing the soldiers when shot.
+    card: true
+
+  - paragraph: 3-109-all-four-soldiers
+    quote: >-
+      Jim Wray was shot for a second time in the back, probably as he lay
+      mortally wounded in the south-western corner of Glenfada Park North.
+      Whichever soldier was responsible for firing the second shot, we are
+      sure that he must have known that there was no possible justification
+      for shooting Jim Wray as he lay on the ground.
+    card: true
+
+  - paragraph: 3-106-we-are-sure
+    quote: >-
+      We are sure that the soldier who shot and injured Alexander Nash while
+      he was tending his dead or dying son William at the rubble barricade
+      could not have believed that he had or might have identified someone
+      posing a threat of causing death or serious injury.
+    card: true
+
+  - paragraph: 3-111-gerald-donaghey-taken
+    quote: >-
+      However, we are sure that Gerald Donaghey was not preparing or
+      attempting to throw a nail bomb when he was shot; and we are equally
+      sure that he was not shot because of his possession of nail bombs. He
+      was shot while trying to escape from the soldiers.
+
+  - paragraph: 5-5-firing-soldiers-1
+    quote: >-
+      Bloody Sunday was a tragedy for the bereaved and the wounded, and a
+      catastrophe for the people of Northern Ireland.
+    card: true
+
+  - paragraph: 5-4-we-have-concluded
+    quote: >-
+      Our overall conclusion is that there was a serious and widespread loss
+      of fire discipline among the soldiers of Support Company.
+
+  - paragraph: 1-1-object-inquiry-examine
+    quote: Thirteen civilians were killed by Army gunfire on the day.
+
+  - paragraph: 3-35-within-few-seconds
+    quote: >-
+      Within a few seconds after arriving, the four soldiers who had gone
+      into Glenfada Park North between them shot and mortally wounded
+      William McKinney (aged 26) and Jim Wray (aged 22); and shot and
+      injured Joe Friel (aged 20), Michael Quinn (aged 17), Joe Mahon (aged
+      16) and Patrick O'Donnell (aged 41).
+    card: true
