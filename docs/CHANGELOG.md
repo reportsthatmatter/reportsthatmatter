@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-25 — Reports open on a page about the report
+
+The Jack Smith report and Wall Street and the Financial Crisis now open on a landing page instead of bare contents. It gives the year, a short account of what the report was about and why it matters, what it found with a few key passages quoted, and the sections to read first, all above the contents. Our introduction is marked as ours: only words in quotation marks are the report's, every one is checked word for word against the text, and each link opens it in context. The year a report was published now leads its row in the archive and sits in every report header.
+
+![The Jack Smith report's landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-25-report-landing/2-after-jack-smith-header.png)
+
+[Before and after, in full](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-25--a-reports-landing-page-background-findings-where-to-start).
+
+---
+
 ## 2026-09-20 — Each report can say how its text was made
 
 A report can now carry its own page, "About this edition", linked from its contents: where the text came from, what the pipeline had to do to read it, and the places where it still differs from the printed page. The Bloody Sunday Inquiry has the first one. It lists what was fixed (1,439 of 1,451 notes linked to their paragraphs, 157 subsection headings recovered) and what was not: about 50 paragraphs split at a page break, roughly 140 that end mid-sentence because of map labels, twelve notes whose marker is missing from the PDF. The other reports show no such link until they have one.

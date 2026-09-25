@@ -1,9 +1,9 @@
 import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
-import { quotedPassage, truncate, shareImage, frontispiece } from "./report";
+import { quotedPassage, truncate, shareImage, frontispiece, publicationYear } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
-import { renderEditorial } from "./editorial";
+import { renderLanding, renderOurNote, renderStandfirst, showsEditorial } from "./editorial";
 import type { Editorial } from "../lib/editorial";
 
 /** What the page shell needs of a section — not its html. */
@@ -78,6 +78,10 @@ export function renderReportOverview(
   options: { processingNotes?: boolean; editorial?: Editorial; draft?: boolean } = {}
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
+  const year = publicationYear(meta);
+  // Our layer turns this page into the report's landing page (g0w.8); without
+  // one it is the contents page it always was.
+  const editorial = showsEditorial(options.editorial, options.draft) ? options.editorial : undefined;
 
   const items = sections
     .map((section) => {
@@ -98,8 +102,9 @@ export function renderReportOverview(
     <header class="report-header wrap">
       <div class="measure">
         ${frontispiece(meta.id)}
-        <p class="kicker mono">Report</p>
+        <p class="kicker mono">Report${year ? ` · <span class="kicker-year">${escapeHtml(year)}</span>` : ""}</p>
         <h1>${escapeHtml(meta.title)}</h1>
+        ${editorial ? renderStandfirst(editorial) : ""}
         ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}
         <p class="byline mono">${stats.pages ? `${stats.pages} pages · ` : ""}${stats.words.toLocaleString("en-GB")} words · ${sections.length} sections</p>
         ${
@@ -117,9 +122,10 @@ export function renderReportOverview(
           <input type="search" name="q" placeholder="Search this report…" aria-label="Search this report" />
           <button type="submit">Search</button>
         </form>
+        ${editorial ? renderOurNote(editorial) : ""}
       </div>
     </header>
-    ${renderEditorial(options.editorial, { draft: options.draft })}
+    ${editorial ? renderLanding(editorial, meta.id ?? "") : ""}
     <section class="section wrap">
       <p class="section-label mono">Contents</p>
       <ul class="report-list">${items}</ul>
@@ -178,7 +184,7 @@ export function renderSection(
   <article>
     <header class="report-header wrap">
       <div class="measure">
-        <p class="kicker mono"><a href="${escapeHtml(reportPath)}">${escapeHtml(meta.title)}</a></p>
+        <p class="kicker mono"><a href="${escapeHtml(reportPath)}">${escapeHtml(meta.title)}</a>${publicationYear(meta) ? ` · ${escapeHtml(publicationYear(meta)!)}` : ""}</p>
         <h1>${escapeHtml(section.title)}</h1>
         <p class="byline mono">Section ${index + 1} of ${sections.length}</p>
       </div>

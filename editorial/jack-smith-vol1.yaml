@@ -1,129 +1,178 @@
-# Our layer on this report: why it matters, what it found, passages worth reading.
-# Everything here is ours and is shown labelled as ours. Quotes are verbatim from
-# the rendered report (OCR quirks included) and every id must resolve.
-# status: draft until Rufus approves; only approved files render.
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report (OCR
+# quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      Rufus's highlights: seeded into the marks table, not printed here
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
 
 report: jack-smith-vol1
-status: draft
+status: approved
 
 why_it_matters: >-
-  The Special Counsel's account of the attempt to overturn the 2020 election,
-  written after the case against Donald Trump was dismissed because he had won
-  the 2024 election. The trial never happened. This is the evidence prosecutors
-  would have put to a jury, and their conclusion that it was enough to convict.
+  The Special Counsel's account of Donald Trump's attempt to overturn the 2020
+  election. The case was dropped when he won the 2024 election, so it never
+  reached a jury. This is the evidence prosecutors would have put before one,
+  and their conclusion that it was enough to convict.
+
+background: |
+  Joe Biden won the presidential election of November 2020. Donald Trump, the
+  sitting president, did not accept the result. Over the next two months he
+  and his allies pressed state officials to change their counts, organised
+  slates of electors in states he had lost, and pushed the Justice Department
+  and Vice President Mike Pence to stop the result being certified. On 6
+  January 2021, the day Congress met to certify it, a crowd of his supporters
+  broke into the Capitol.
+
+  In November 2022 the Attorney General appointed Jack Smith as Special
+  Counsel to investigate. A grand jury indicted Trump on four felony counts in
+  August 2023. In July 2024 the Supreme Court held that a president is immune
+  from prosecution for some official acts, and the charges were narrowed. Then
+  Trump won the November 2024 election. The Justice Department's long-standing
+  view is that a sitting president cannot be prosecuted, so the case was
+  dismissed.
+
+  Smith delivered this volume to the Attorney General on 7 January 2025, two
+  weeks before Trump's second inauguration, and it was made public days later.
+  It is the prosecution's case in the prosecutors' own words, never tested at
+  trial. Trump's lawyers argued that it should not be released and that it
+  violates the presumption of innocence; their letter is printed at the end of
+  the report.
 
 findings:
-  - text: The Special Counsel concluded the admissible evidence was sufficient to convict; the case was dropped only because Mr. Trump was elected President.
+  - text: The Special Counsel concluded the evidence was enough to convict. The case was dropped only because Trump was about to become President again.
     cites: [department-s-view-constitution-prohibits, remand-from-supreme-comi-s]
-  - text: Officials in his own Administration, his advisors, state officials and the courts told Mr. Trump there was no outcome-changing fraud; the report finds he knew he had lost.
+    excerpt:
+      paragraph: department-s-view-constitution-prohibits
+      quote: >-
+        Indeed, but for Mr. Trump's election and imminent return to the
+        Presidency, the Office assessed that the admissible evidence was
+        sufficient to obtain and sustain a conviction at trial.
+
+  - text: Trump was told, by his own officials, advisors, state officials and the courts, that there was no fraud that could have changed the result. The report finds he knew he had lost.
     cites: [fraud-and-evidence-shows-trump-used, acknowledged-sounded-crazy-before-publicly, trump-s-intent-spreading-knowing]
-  - text: He pressed state officials to ignore the vote count, only in states he had lost and only officials of his own party.
+    excerpt:
+      paragraph: acknowledged-sounded-crazy-before-publicly
+      quote: >-
+        Finally, at times, Mr. Trump made comments implicitly acknowledging that
+        he knew he had lost the election. For example, in a January 3, 2021
+        Oval Office meeting regarding a national security matter, Mr. Trump
+        stated in part, "[I]t's too late for us. We're going to give that to the
+        next guy," meaning President-elect Biden.
+
+  - text: He pressed state officials to set aside the vote count, only in states he had lost and only officials of his own party.
     cites: [one-trump-s-efforts-change, trump-similarly-leaned-other-state]
-  - text: False slates of electors were organised in seven states, and many of those electors were misled about how their certificates would be used.
+    excerpt:
+      paragraph: trump-similarly-leaned-other-state
+      quote: >-
+        On January 2, 2021, just days before the election results were to be
+        certified, he called Georgia's Secretary of State and pressed him to
+        "find 11,780 votes"-Mr. Biden's margin of victory in the state.
+
+  - text: Slates of electors were organised in seven states he had lost, and many of those electors were misled about how their certificates would be used.
     cites: [december-14-the-date-eca-required, most-part-co-conspirators-deceived-trump]
-  - text: He tried to put a compliant official in charge of the Justice Department and backed down only when warned of mass resignations.
+
+  - text: He tried to put a compliant official in charge of the Justice Department, backing down only when warned of mass resignations.
     cites: [throughout-post-election-period-justice-department, 2021-a-briefing-yielded-nothing-support]
-  - text: He pressured Vice President Pence, day after day, to set aside legitimate electoral votes.
-    cites: [repeated-conversations-day-after-day, january-4-two-days-before]
-  - text: On January 6 he sent the crowd to the Capitol, attacked Pence on Twitter while the riot was under way, and afterwards used the delay to push for more objections.
-    cites: [trump-told-crowd-a-crowd-his, trump-has-something-else-left, around-same-time-issued-his]
-  - text: Public attacks on officials, election workers and later witnesses were followed, repeatedly, by threats against them.
+
+  - text: He pressed Vice President Pence, day after day, to set aside legitimate electoral votes, then turned the crowd against him on January 6.
+    cites: [repeated-conversations-day-after-day, trump-has-something-else-left]
+    excerpt:
+      paragraph: trump-has-something-else-left
+      quote: >-
+        Then, at 2:24 p.m., sitting alone, Mr. Trump issued a Tweet attacking
+        Mr. Pence and fueling the riot: "Mike Pence didn't have the courage to
+        do what should have been done to protect our Country and our
+        Constitution, giving States a chance to certify a corrected set of
+        facts, not the fraudulent or inaccurate ones which they were asked to
+        previously certify. USA demands the truth!"
+
+  - text: His public attacks on officials, election workers and, later, witnesses were followed again and again by threats against them.
     cites: [trump-s-resort-intimidation-harassment, trump-also-targeted-private-citizens, same-pattern-transpired-after-trump]
 
-excerpts:
+reading_guide:
+  - section: the-results-of-the-investigation
+    title: The results of the investigation
+    why: The whole case in a few pages — what the Special Counsel says happened, and who the six unnamed co-conspirators were.
+    excerpt:
+      paragraph: set-forth-original-superseding-indictments
+      quote: >-
+        In service of these efforts, Mr. Trump worked with other people to
+        achieve a common plan: to overturn the election results and perpetuate
+        himself in office.
+
+  - section: mr-trumps-pressure-on-state-officials
+    why: The calls to Arizona, Georgia and Michigan, and what the officials on the other end told him.
+    excerpt:
+      paragraph: instance-trump-co-conspirator-1-called
+      quote: >-
+        Co-Conspirator 1 not only failed to ever provide such evidence, but he
+        conceded to the Arizona Speaker at an in-person meeting a week later
+        that "[w]e don't have the evidence, but we have lots of theories."
+
+  - section: mr-trumps-fraudulent-elector-plan
+    why: How electors were organised in seven states he lost, from the planning memos to December 14.
+    excerpt:
+      paragraph: one-campaign-s-agents-wrote
+      quote: >-
+        Two and a half hours later, he replied to his own email and, as cover,
+        wrote that "'alternative' votes is probably a better term than 'fake'
+        votes"
+
+  - section: mr-trumps-supporters-attack-the-united-states-capitol
+    why: January 6 hour by hour — the Ellipse speech, the march, and the afternoon in the White House dining room.
+    excerpt:
+      paragraph: rioters-capitol-had-been-motivated
+      quote: >-
+        Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and
+        other lawmakers, with some chanting, "Hang Mike Pence!"
+
+  - section: prosecuting-mr-trump-served-multiple-substantial-federal-interests
+    why: Why prosecute a former president at all — the prosecutors' argument, including what the police at the Capitol went through.
+
+  - section: mr-trumps-conduct-had-no-historical-analogue
+    why: Why this was not like the disputed elections of 1876, 1960 or 2000.
+    excerpt:
+      paragraph: trump-not-being-prosecuted-publicly
+      quote: >-
+        Mr. Trump was "not being prosecuted for publicly contesting the results
+        of the election; he is being prosecuted for knowingly making false
+        statements in furtherance of a criminal conspiracy and for obstruction
+        of election certification proceedings."
+
+highlights:
   - paragraph: trump-has-something-else-left
     quote: When an advisor at the White House learned this, he rushed to the dining room and informed Mr. Trump, who replied "So what?"
-    context: 2:24 p.m., January 6, after Mr. Trump tweeted an attack on Vice President Pence while rioters were inside the Capitol.
     card: true
-    pick: true
-
   - paragraph: running-mate-example-trump-s
     quote: to which Mr. Trump responded, "The details don't matter."
-    context: A Senior Advisor had told him Co-Conspirator 1 could not prove his fraud claims in court.
     card: true
-    pick: true
-
-  - paragraph: trump-similarly-leaned-other-state
-    quote: he called Georgia's Secretary of State and pressed him to "find 11,780 votes"-Mr. Biden's margin of victory in the state.
-    context: January 2, 2021, four days before the certification.
-    card: true
-    pick: true
-
-  - paragraph: instance-trump-co-conspirator-1-called
-    quote: he conceded to the Arizona Speaker at an in-person meeting a week later that "[w]e don't have the evidence, but we have lots of theories."
-    context: Co-Conspirator 1, after urging the Arizona legislature to replace the state's electors.
-    card: true
-    pick: true
-
-  - paragraph: throughout-post-election-period-justice-department
-    quote: Mr. Trump told the Acting Attorney General and Acting Deputy Attorney General that they should "just say that the election was corrupt and leave the rest to me and the Republican congressmen."
-    context: Justice Department officials had found no support for any of his fraud claims.
-    card: true
-
   - paragraph: repeated-conversations-day-after-day
     quote: Mr. Trump told him that "hundreds of thousands" of people would "hate his guts" and think he was "stupid," and that Mr. Pence was "too honest."
-    context: Mr. Pence had repeatedly refused to set aside legitimate electoral votes.
     card: true
-    pick: true
-
-  - paragraph: one-campaign-s-agents-wrote
-    quote: Two and a half hours later, he replied to his own email and, as cover, wrote that "'alternative' votes is probably a better term than 'fake' votes"
-    context: A Campaign agent, on the plan for electors in states Mr. Trump had lost.
+  - paragraph: throughout-post-election-period-justice-department
+    quote: Mr. Trump told the Acting Attorney General and Acting Deputy Attorney General that they should "just say that the election was corrupt and leave the rest to me and the Republican congressmen."
     card: true
-
-  - paragraph: withheld-from-elector-nommees-information
-    quote: one Trump elector nominee in Pennsylvania recognized the plan as "illegal" and an attempt "to overthrow the Government," and he declined to participate.
-
-  - paragraph: acknowledged-sounded-crazy-before-publicly
-    quote: Mr. Trump stated in part, "[I]t's too late for us. We're going to give that to the next guy," meaning President-elect Biden.
-    context: An Oval Office meeting on a national security matter, January 3, 2021.
-    card: true
-    pick: true
-
   - paragraph: trump-s-intent-spreading-knowing
     quote: When President-elect Biden appeared on television in November, Mr. Trump said to a staffer, "can you believe I lost to this f'ing guy?"
-    card: true
-
   - paragraph: days-later-december-19-trump
     quote: '"Statistically impossible to have lost the 2020 Election. Big protest in D.C. on January 6th. Be there, will be wild!"'
-    context: Mr. Trump's Tweet at 1:42 a.m. on December 19, 2020.
-    card: true
-
   - paragraph: trump-told-crowd-a-crowd-his
     quote: He also told the angry crowd that "if you don't fight like hell, you're not going to have a country anymore."
-    context: The Ellipse speech, January 6.
-
-  - paragraph: rioters-capitol-had-been-motivated
-    quote: Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and other lawmakers, with some chanting, "Hang Mike Pence!"
-    card: true
-
   - paragraph: during-siege-trump-s-supporters
     quote: >-
       one rioter shouted: "We were invited here! We were invited by the President of the United States!"
-    context: At the Capitol's East Front, as the crowd pushed past officers.
-    card: true
-
   - paragraph: january-6-rioters-assaulted-least
     quote: The January 6 rioters assaulted at least 140 law enforcement officers that day, and at least 123 defendants have been charged with using a deadly or dangerous weapon or causing serious bodily injury to law enforcement.
-    card: true
-
-  - paragraph: trump-also-targeted-private-citizens
-    quote: He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day
-    context: The report goes on to describe the threats that followed.
-
+  - paragraph: withheld-from-elector-nommees-information
+    quote: one Trump elector nominee in Pennsylvania recognized the plan as "illegal" and an attempt "to overthrow the Government," and he declined to participate.
   - paragraph: same-pattern-transpired-after-trump
     quote: The day after his arraignment, for example, Mr. Trump posted on the social media application Truth Social, "IF YOU GO AFTER ME, I'M COMING AFTER YOU!"
-
   - paragraph: trump-aimed-his-deceit-united
     quote: Until Mr. Trump obstructed it, this democratic process had operated in a peaceful and orderly manner for more than 130 years.
-    card: true
-
-  - paragraph: department-s-view-constitution-prohibits
-    quote: Indeed, but for Mr. Trump's election and imminent return to the Presidency, the Office assessed that the admissible evidence was sufficient to obtain and sustain a conviction at trial.
-    card: true
-    pick: true
-
   - paragraph: while-we-not-able-bring
     quote: While we were not able to bring the cases we charged to trial, I believe the fact that our team stood up for the rule of law matters.
-    context: Jack Smith's covering letter to the Attorney General, January 7, 2025.
-    card: true

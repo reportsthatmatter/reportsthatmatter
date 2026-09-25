@@ -1,111 +1,140 @@
-# Our layer on this report. See editorial/jack-smith-vol1.yaml for the rules.
-# A quote from a block quotation (which has no id of its own yet) names the
-# paragraph that introduces it; the check looks there and in the unlabelled
-# paragraphs that follow.
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. A quote from a block quotation (which has no id
+# of its own yet) names the paragraph that introduces it; highlights cannot use
+# block quotations at all until they have ids (reportsthatmatter-dam).
 
 report: us-psi-financial-crisis
-status: draft
+status: approved
 
 why_it_matters: >-
-  The U.S. Senate's two-year investigation into what caused the 2008 financial
-  crisis, built on tens of millions of pages of subpoenaed emails and internal
-  documents. It follows the money through four case studies: a bank, its
-  regulator, the two largest rating agencies, and two investment banks.
+  The U.S. Senate's two-year investigation into what caused the 2008
+  financial crisis, built on tens of millions of pages of the banks' own
+  emails and documents. It names the institutions, quotes their people, and
+  shows how a bank, its regulator, the rating agencies and Wall Street's
+  investment banks each fed the collapse.
+
+background: |
+  In September 2008 the American financial system came close to collapse.
+  Lehman Brothers failed; the government took over Fannie Mae, Freddie Mac
+  and AIG; and Washington Mutual became the largest bank failure in U.S.
+  history. The recession that followed cost millions of Americans their jobs
+  and their homes, and the crisis spread to banks around the world.
+
+  The Senate's Permanent Subcommittee on Investigations, chaired by Carl Levin
+  with Tom Coburn as its ranking Republican, spent two years asking how it
+  happened. It subpoenaed tens of millions of pages, held four hearings in
+  April 2010, and published this report, written jointly by the majority and
+  minority staff, in April 2011.
+
+  Its method is the case study, told through the institutions' own emails: a
+  lender (Washington Mutual), its regulator (the Office of Thrift
+  Supervision), the two largest credit rating agencies (Moody's and Standard &
+  Poor's), and two investment banks (Goldman Sachs and Deutsche Bank). Levin
+  referred the report to the Justice Department and the SEC; no criminal
+  charges followed.
 
 findings:
-  - text: Washington Mutual moved deliberately into high risk loans because Wall Street paid more for them; its subprime arm was known inside the bank as "a mess".
-    cites: [case-study-focuses-how-one, result-wamu-particularly-its-long, documents-obtained-subcommittee-reveal-wamu]
-  - text: The lenders were not the crisis's victims; their loans were its fuel.
-    cites: [subcommittee-investigation-indicates-unacceptable-lending]
-  - text: The regulator identified over 500 serious deficiencies at WaMu in five years and never took a public enforcement action or lowered its safety rating.
+  - text: Washington Mutual moved deliberately into high risk loans because Wall Street paid more for them. Lending like this, across the industry, was what set the crisis off.
+    cites: [case-study-focuses-how-one, documents-obtained-subcommittee-reveal-wamu, subcommittee-investigation-indicates-unacceptable-lending]
+    excerpt:
+      paragraph: subcommittee-investigation-indicates-unacceptable-lending
+      quote: >-
+        These lenders were not the victims of the financial crisis; the high
+        risk loans they issued were the fuel that ignited the financial crisis.
+
+  - text: The regulator saw the problems at WaMu year after year and never acted in public.
     cites: [despite-identifying-over-500-serious, agency-s-failure-restrain-wamu]
-  - text: Moody's and S&P, paid by the firms whose products they rated, gave AAA ratings to securities that later collapsed; over 90% of 2006-07 subprime AAA ratings were cut to junk.
+    excerpt:
+      paragraph: despite-identifying-over-500-serious
+      quote: >-
+        Despite identifying over 500 serious deficiencies in five years, OTS did
+        not once, from 2004 to 2008, take a public enforcement action against
+        Washington Mutual to correct its lending practices, nor did it lower the
+        bank's rating for safety and soundness.
+
+  - text: Moody's and S&P, paid by the firms whose products they rated, gave top ratings to securities that later collapsed. Over 90% of the AAA ratings on 2006 and 2007 subprime securities were later cut to junk.
     cites: [subcommittee-s-investigation-uncovered-host, traditionally-investments-holding-aaa-ratings, not-short-term-economic-interest]
-  - text: Goldman Sachs sold mortgage securities to clients while betting, undisclosed, against the market and in some cases against the very securities it was selling.
+    excerpt:
+      paragraph: looking-back-after-first-shock
+      quote: >-
+        Combined, these errors make us look either incompetent at credit
+        analysis, or like we sold our soul to the devil for revenue, or a little
+        bit of both.
+
+  - text: Goldman Sachs sold mortgage securities to its clients while betting against the market, and in some deals against the very securities it was selling, without telling them.
     cites: [throughout-2007-goldman-sold-rmbs, case-study-examines-detail-four]
-  - text: Deutsche Bank's top CDO trader called the assets "crap" and the market a "ponzi scheme" while the bank kept selling CDOs built from them.
+    excerpt:
+      paragraph: within-ten-days-sale-thomas
+      quote: >-
+        Within ten days of that sale, Thomas Montag, a senior Goldman executive,
+        sent an email to the Mortgage Department head, Daniel Sparks, stating:
+        "boy that timeberwof [Timberwolf] was one shitty deal."
+
+  - text: Deutsche Bank's top CDO trader called the assets "crap" and the market a "ponzi scheme" while the bank went on selling CDOs built from them.
     cites: [deutsche-bank-case-study-describes, subcommittee-also-examined-1-1]
+
   - text: The four causes were interlocking, and together they produced the crisis.
     cites: [four-causative-factors-examined-report]
 
-excerpts:
-  - paragraph: subcommittee-investigation-indicates-unacceptable-lending
-    quote: These lenders were not the victims of the financial crisis; the high risk loans they issued were the fuel that ignited the financial crisis.
-    card: true
-    pick: true
+reading_guide:
+  - section: subcommittee-investigation
+    title: Executive summary
+    why: The whole argument in twelve pages — four causes, four case studies, and what the Subcommittee recommended.
 
-  - paragraph: times-some-cra-analysts-openly
-    quote: >-
-      In an April 2007 instant message, an S&P analyst offered this cynical comment: "[W]e rate every deal[.] [I]t could be structured by cows and we would rate it."
-    card: true
-    pick: true
+  - section: high-risk-lending-strategy
+    title: Washington Mutual's high risk lending strategy
+    why: How a bank chose riskier loans on purpose, in its own planning documents.
 
-  - paragraph: times-some-cra-analysts-openly
-    quote: >-
-      One analyst wrote: "Rating agencies continue to create and [sic] even bigger monster – the CDO market. Let's hope we are all wealthy and retired by the time this house of cards falters."
-    context: S&P, December 2006, on a synthetic CDO squared.
-    card: true
-    pick: true
+  - section: walk-up-music-for-david-schneider-david-schneider
+    title: WaMu's sales culture
+    why: Loan officers rewarded for volume, and the one executive who pushed back on "The Power of Yes".
+    excerpt:
+      paragraph: when-asked-about-sales-culture
+      quote: >-
+        the power of yes absolutely needed to be balanced by the wisdom of no.
 
-  - paragraph: looking-back-after-first-shock
-    quote: these errors make us look either incompetent at credit analysis, or like we sold our soul to the devil for revenue, or a little bit of both.
-    context: An anonymous Moody's managing director, September 2007.
-    card: true
+  - section: regulatory-failures
+    title: Regulatory failures
+    why: Why the Office of Thrift Supervision never stopped it — deference to the bank, and a fight with the FDIC.
 
-  - paragraph: within-ten-days-sale-thomas
-    quote: 'Within ten days of that sale, Thomas Montag, a senior Goldman executive, sent an email to the Mortgage Department head, Daniel Sparks, stating: "boy that timeberwof [Timberwolf] was one shitty deal."'
-    context: Goldman went on marketing Timberwolf to clients; it lost 80% of its value within five months.
-    card: true
-    pick: true
+  - section: ratings-deficiencies
+    title: Inside the rating agencies
+    why: The analysts' own emails and instant messages about the securities they were rating.
+    excerpt:
+      paragraph: times-some-cra-analysts-openly
+      quote: >-
+        In an April 2007 instant message, an S&P analyst offered this cynical
+        comment: "[W]e rate every deal[.] [I]t could be structured by cows and
+        we would rate it."
 
+  - section: timberwolf-i
+    title: Timberwolf, one deal from start to finish
+    why: How Goldman sold a CDO to its clients while marking down the same securities on its own books.
+
+highlights:
   - paragraph: case-study-examines-detail-four
     quote: In the case of Hudson 1, for example, Goldman took 100% of the short side of the $2 billion CDO, betting against the assets referenced in the CDO, and sold the Hudson securities to investors without disclosing its short position.
     card: true
-
   - paragraph: throughout-2007-goldman-sold-rmbs
     quote: Throughout 2007, Goldman sold RMBS and CDO securities to its clients without disclosing its own net short position against the subprime market or its purchase of CDS contracts to gain from the loss in value of some of the very securities it was selling to its clients.
-
   - paragraph: one-point-lippmann-asked-buy
     quote: At one point, Mr. Lippmann was asked to buy a specific CDO security and responded that it "rarely trades," but he "would take it and try to dupe someone" into buying it.
-    context: Greg Lippmann, Deutsche Bank's top global CDO trader.
     card: true
-    pick: true
-
   - paragraph: december-2006-email-lippmann-wrote
     quote: '"[W]ho owns the cdos…insurance company and german and asian banks…and high grade cdos (can you say ponzi scheme)[?]"'
-    context: Lippmann to a client, December 2006.
-
-  - paragraph: when-asked-about-sales-culture
-    quote: the power of yes absolutely needed to be balanced by the wisdom of no.
-    context: WaMu's former Chief Credit Officer, on the bank's 2004 advertising slogan "The Power of Yes".
+  - paragraph: times-some-cra-analysts-openly
+    quote: >-
+      One analyst wrote: "Rating agencies continue to create and [sic] even bigger monster – the CDO market. Let's hope we are all wealthy and retired by the time this house of cards falters."
     card: true
-    pick: true
-
   - paragraph: result-wamu-particularly-its-long
     quote: Inside the bank, WaMu's President Steve Rotella described Long Beach as "terrible" and "a mess," with default rates that were "ugly."
-    card: true
-
   - paragraph: result-wamu-particularly-its-long
     quote: Internal reviews of two high volume WaMu loan centers, for example, described "extensive fraud" by employees who "willfully" circumvented bank policies.
-
   - paragraph: case-study-focuses-how-one
     quote: Over a four-year period, those higher risk loans grew from 19% of WaMu's loan originations in 2003, to 55% in 2006, while its lower risk, fixed rate loans fell from 64% to 25% of its originations.
-    card: true
-
-  - paragraph: despite-identifying-over-500-serious
-    quote: Despite identifying over 500 serious deficiencies in five years, OTS did not once, from 2004 to 2008, take a public enforcement action against Washington Mutual to correct its lending practices, nor did it lower the bank's rating for safety and soundness.
-    card: true
-    pick: true
-
   - paragraph: agency-s-failure-restrain-wamu
     quote: It was a regulatory approach with disastrous results.
-    context: On the Office of Thrift Supervision, which viewed the banks it regulated as "constituents".
-
   - paragraph: traditionally-investments-holding-aaa-ratings
     quote: Analysts have determined that over 90% of the AAA ratings given to subprime RMBS securities originated in 2006 and 2007 were later downgraded by the credit rating agencies to junk status.
-    card: true
-
   - paragraph: first-chapter-focuses-how-high
     quote: Had the sale not gone through, WaMu's failure might have exhausted the entire $45 billion Deposit Insurance Fund.
-    context: WaMu, the largest bank failure in U.S. history, was seized on September 25, 2008 and sold to JPMorgan Chase for $1.9 billion.
-    card: true

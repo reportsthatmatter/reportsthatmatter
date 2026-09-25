@@ -1,6 +1,7 @@
 /**
- * Our own layer on a report (reportsthatmatter-g0w): why it matters, what it
- * found, and passages worth reading — written by us, shown labelled as ours.
+ * Our own layer on a report (reportsthatmatter-g0w): the report's landing
+ * page — what it was about, why it matters, what it found, and how to read it
+ * — written by us and shown labelled as ours.
  *
  * Source is `editorial/<report-id>.yaml`. `scripts/editorial.mjs` checks every
  * quote against the pre-rendered report and writes the resolved result to
@@ -12,36 +13,60 @@
 import { extractParagraph } from "../templates/report";
 import { encodeAnchor, normalise, selectorFor } from "../../assets/anchor.js";
 
-/** As written in `editorial/<report-id>.yaml`. */
+/** A verbatim quotation from the report, and the paragraph it comes from. */
+export type QuoteSource = { paragraph: string; quote: string };
+
+/** As written in `editorial/<report-id>.yaml` (format v2, g0w.9). */
 export type EditorialSource = {
   report: string;
   status: "draft" | "approved";
+  /** One or two sentences: the standfirst, and the page's meta description. */
   why_it_matters: string;
-  findings: Array<{ text: string; cites: string[] }>;
-  excerpts: Array<{
-    paragraph: string;
-    quote: string;
-    context?: string;
-    card?: boolean;
-    pick?: boolean;
+  /** What the report was about, what happened, and why it still matters. Paragraphs split on blank lines. */
+  background?: string;
+  findings: Array<{ text: string; cites: string[]; excerpt?: QuoteSource }>;
+  /** "If you have half an hour": the sections to read, and why. */
+  reading_guide?: Array<{
+    section: string;
+    /** Our name for it, where the report's own heading is not usable (an extraction artefact, a shouted caption). */
+    title?: string;
+    why: string;
+    excerpt?: QuoteSource;
   }>;
+  /** Passages Rufus has highlighted: seeded into the marks table, not printed on the landing page. */
+  highlights?: Array<QuoteSource & { context?: string; card?: boolean }>;
 };
 
 /** A paragraph a finding or passage links to, resolved at build time. */
 export type Citation = { id: string; page: number | null; href: string };
 
+/** A verified quotation, with its link. */
+export type Quotation = { quote: string; cite: Citation };
+
 /** What the Worker renders: the source, with every reference checked and resolved. */
 export type Editorial = {
   status: "draft" | "approved";
   whyItMatters: string;
-  findings: Array<{ text: string; cites: Citation[] }>;
-  excerpts: Array<{
-    quote: string;
-    context?: string;
-    card: boolean;
-    pick: boolean;
-    cite: Citation;
-  }>;
+  background: string[];
+  findings: Array<{ text: string; cites: Citation[]; excerpt?: Quotation }>;
+  readingGuide: Array<{ slug: string; title: string; page: string | null; why: string; excerpt?: Quotation }>;
+};
+
+/** A highlight, resolved to a row the marks table can take. */
+export type ResolvedHighlight = {
+  report: string;
+  section: string;
+  paragraph: string;
+  exact: string;
+  prefix: string;
+  suffix: string;
+  page: number | null;
+};
+
+/** What the build knows of a report's structure, from its pre-rendered meta.json. */
+export type ReportStructure = {
+  sections: Array<{ slug: string; title: string; page?: string | null }>;
+  paragraphToSection: Record<string, string>;
 };
 
 /**
@@ -124,8 +149,9 @@ export function citationHref(reportId: string, id: string, paragraph?: string, q
  */
 export function resolveEditorial(
   source: EditorialSource,
-  html: string
-): { editorial: Editorial; problems: string[] } {
+  html: string,
+  structure: ReportStructure
+): { editorial: Editorial; highlights: ResolvedHighlight[]; problems: string[] } {
   const problems: string[] = [];
   const at = (where: string, reason: string) => problems.push(`${source.report}: ${where}: ${reason}`);
 
@@ -134,32 +160,79 @@ export function resolveEditorial(
 
   const cite = (id: string): Citation => ({ id, page: pageOf(html, id), href: citationHref(source.report, id) });
 
+  const quotation = (where: string, q: QuoteSource): Quotation => {
+    const placed = placeQuote(html, q.paragraph, q.quote);
+    if (!placed.ok) at(where, placed.reason);
+    const href =
+      placed.ok && placed.inParagraph
+        ? citationHref(source.report, q.paragraph, placed.paragraph, q.quote)
+        : citationHref(source.report, q.paragraph);
+    return { quote: q.quote.trim(), cite: { id: q.paragraph, page: pageOf(html, q.paragraph), href } };
+  };
+
+  const background = (source.background ?? "")
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+
   const findings = (source.findings ?? []).map((finding, i) => {
     if (!finding.cites?.length) at(`findings[${i}]`, "cites nothing; every finding must point into the report");
     for (const id of finding.cites ?? []) {
       if (extractParagraph(html, id) === null) at(`findings[${i}]`, `no paragraph "${id}"`);
     }
-    return { text: finding.text, cites: (finding.cites ?? []).map(cite) };
-  });
-
-  const excerpts = (source.excerpts ?? []).map((excerpt, i) => {
-    const placed = placeQuote(html, excerpt.paragraph, excerpt.quote);
-    if (!placed.ok) at(`excerpts[${i}]`, placed.reason);
-    const href =
-      placed.ok && placed.inParagraph
-        ? citationHref(source.report, excerpt.paragraph, placed.paragraph, excerpt.quote)
-        : citationHref(source.report, excerpt.paragraph);
     return {
-      quote: excerpt.quote,
-      ...(excerpt.context ? { context: excerpt.context } : {}),
-      card: Boolean(excerpt.card),
-      pick: Boolean(excerpt.pick),
-      cite: { id: excerpt.paragraph, page: pageOf(html, excerpt.paragraph), href },
+      text: finding.text,
+      cites: (finding.cites ?? []).map(cite),
+      ...(finding.excerpt ? { excerpt: quotation(`findings[${i}].excerpt`, finding.excerpt) } : {}),
     };
   });
 
+  const readingGuide = (source.reading_guide ?? []).map((item, i) => {
+    const section = structure.sections.find((s) => s.slug === item.section);
+    if (!section) at(`reading_guide[${i}]`, `no section "${item.section}"`);
+    if (item.excerpt && structure.paragraphToSection[item.excerpt.paragraph] !== item.section) {
+      at(`reading_guide[${i}].excerpt`, `paragraph "${item.excerpt.paragraph}" is not in section "${item.section}"`);
+    }
+    return {
+      slug: item.section,
+      title: item.title ?? section?.title ?? item.section,
+      page: section?.page ?? null,
+      why: item.why,
+      ...(item.excerpt ? { excerpt: quotation(`reading_guide[${i}].excerpt`, item.excerpt) } : {}),
+    };
+  });
+
+  const highlights: ResolvedHighlight[] = [];
+  (source.highlights ?? []).forEach((h, i) => {
+    const placed = placeQuote(html, h.paragraph, h.quote);
+    if (!placed.ok) return at(`highlights[${i}]`, placed.reason);
+    // A highlight marks words in a paragraph, so it has to be *in* one: a
+    // block quotation has no id to hang the mark on yet (reportsthatmatter-dam).
+    if (!placed.inParagraph) return at(`highlights[${i}]`, "quote is in a block quotation, which cannot be marked yet");
+    const text = comparable(placed.paragraph);
+    const exact = comparable(h.quote);
+    const start = text.indexOf(exact);
+    const selector = selectorFor(text, start, start + exact.length);
+    highlights.push({
+      report: source.report,
+      section: structure.paragraphToSection[h.paragraph] ?? "",
+      paragraph: h.paragraph,
+      exact: selector.exact,
+      prefix: selector.prefix,
+      suffix: selector.suffix,
+      page: pageOf(html, h.paragraph),
+    });
+  });
+
   return {
-    editorial: { status: source.status, whyItMatters: source.why_it_matters?.trim() ?? "", findings, excerpts },
+    editorial: {
+      status: source.status,
+      whyItMatters: source.why_it_matters?.trim() ?? "",
+      background,
+      findings,
+      readingGuide,
+    },
+    highlights,
     problems,
   };
 }
