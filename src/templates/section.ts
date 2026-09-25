@@ -133,7 +133,11 @@ export function renderReportOverview(
         <a href="/reports/${escapeHtml(meta.id ?? "")}/full">Read the whole report on one page →</a>
       </p>
     </section>
-    ${renderMostMarked(topMarked)}
+    ${
+      // A landing page is our introduction and a reading guide, nothing more
+      // (Rufus, 2026-09-25): marked passages show in the text itself.
+      editorial ? "" : renderMostMarked(topMarked)
+    }
   </article>
 </main>
 <script src="/assets/find-anchor.js" defer></script>`;

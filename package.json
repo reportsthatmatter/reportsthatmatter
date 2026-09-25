@@ -11,6 +11,7 @@
     "cards": "tsx scripts/cards.mjs",
     "editorial": "tsx scripts/editorial.mjs",
     "seed-highlights": "node scripts/seed-highlights.mjs",
+    "paragraphs": "tsx scripts/paragraphs.mjs",
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",

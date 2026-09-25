@@ -148,8 +148,10 @@ describe("GET /reports/:id/marks", () => {
 });
 
 describe("Most marked passages", () => {
+  // A report with no landing page: one with an approved editorial file
+  // leaves the block out by design (see tests/editorial.test.ts).
   it("shows a passage on the contents page once a reader has marked it", async () => {
-    const first = await app.request("http://localhost/reports/jack-smith-vol1/full");
+    const first = await app.request("http://localhost/reports/challenger-accident/full");
     const html = await first.text();
     const id = html.match(/<p id="([a-z0-9-]+)"/)?.[1];
     expect(id).toBeTruthy();
@@ -160,7 +162,7 @@ describe("Most marked passages", () => {
     await recordMark(
       DB,
       {
-        report: "jack-smith-vol1",
+        report: "challenger-accident",
         section: "the-law",
         paragraph: id!,
         exact,
@@ -174,7 +176,7 @@ describe("Most marked passages", () => {
     );
 
     const res = await app.request(
-      "http://localhost/reports/jack-smith-vol1",
+      "http://localhost/reports/challenger-accident",
       {},
       { DB, MARK_THRESHOLD: "1" }
     );
@@ -185,7 +187,7 @@ describe("Most marked passages", () => {
   });
 
   it("renders the contents page fine with no database configured", async () => {
-    const res = await app.request("http://localhost/reports/jack-smith-vol1");
+    const res = await app.request("http://localhost/reports/challenger-accident");
     expect(res.status).toBe(200);
     expect(await res.text()).not.toContain("Most marked passages");
   });

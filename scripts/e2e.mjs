@@ -409,9 +409,16 @@ if (firstReportId) {
     check(socialProof.hasNoMarginNote, "no margin note competing with the sidenote column");
 
     await page.goto(`${base}/reports/${firstReportId}`, { waitUntil: "networkidle" });
+    // A report with a landing page (g0w.8) deliberately has no Most marked
+    // block — marks show in the text, and the landing page carries only our
+    // introduction and reading guide. Any other report's contents page does.
+    const isLanding = (await page.locator("text=Where to start reading").count()) > 0;
+    const hasMostMarked = (await page.locator("text=Most marked passages").count()) > 0;
     check(
-      (await page.locator("text=Most marked passages").count()) > 0,
-      "the marked passage appears in the contents page's Most marked passages block"
+      isLanding ? !hasMostMarked : hasMostMarked,
+      isLanding
+        ? "a landing page leaves out the Most marked passages block"
+        : "the marked passage appears in the contents page's Most marked passages block"
     );
   } else {
     ok("social proof marking round trip (skipped — would write a real row to production D1)");

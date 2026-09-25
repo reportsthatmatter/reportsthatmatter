@@ -2,7 +2,9 @@ _site
 .sass-cache
 *.pyc
 .worktrees/
-.claude/
+.claude/*
+# Project skills are shared; the rest of .claude/ (local settings) is not.
+!.claude/skills/
 node_modules/
 .wrangler/
 .DS_Store

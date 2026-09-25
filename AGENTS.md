@@ -24,6 +24,11 @@ record afterwards. **Read it when you are adding a report or a further volume,
 re-ingesting one, or writing a report's processing notes; skip it for site
 code, design or deploys on their own.** It is a first draft: when a run
 teaches you something it got wrong or left out, fix it in the same change.
+**[docs/report-introductions.md](docs/report-introductions.md)** is *how to
+write a report's introduction*: the landing page's summary and reading guide
+in `editorial/<id>.yaml`, voice, verbatim quotations, highlights, and the
+draft-to-approved flow. **Read it before writing or revising any editorial
+file.** The `report-introduction` skill (`.claude/skills/`) points agents at it.
 
 ## Beads
 
@@ -92,6 +97,7 @@ an interactive session.
 | `reports/<id>/full.md` | An aggregated copy for serving. **The authority is the report's own repo** |
 | `scripts/cards.mjs` | Share cards → PNG (`pnpm cards`) |
 | `editorial/<id>.yaml` | A report's landing page: why it matters, background, cited findings with key quotations, a reading guide, and Rufus's highlights. `status: approved` to show it; `?draft` on the contents page previews a draft |
+| `scripts/paragraphs.mjs` | A report's paragraphs with ids, pages and sections, as the editorial check reads them (`pnpm paragraphs <id> [words]`) |
 | `scripts/editorial.mjs` | Checks every editorial quote verbatim against the pre-rendered report and writes `src/generated/editorial.ts` (`pnpm editorial`, after `pnpm prerender`). `pnpm seed-highlights [--remote]` then writes the file's highlights to the marks table |
 | `assets/marks/` | Each report's plate, committed: `<id>.webp` and `<id>-row.webp` — see [`docs/plates.md`](docs/plates.md) |
 | `scripts/imagery/` | Plate pipeline (`pnpm marks`) and the favicon renderer (`brand.mjs`) |

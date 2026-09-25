@@ -166,6 +166,12 @@ describe("the landing page", () => {
     expect(preview).toContain('<meta name="robots" content="noindex" />');
   });
 
+  it("leaves out Most marked passages on a landing page, and keeps it elsewhere", () => {
+    const top = [{ quote: "A marked passage.", url: "/reports/demo?p=x", readers: 2, page: 4 }];
+    expect(renderReportOverview(meta, sections, { words: 10 }, top, { editorial: approved })).not.toContain("Most marked passages");
+    expect(renderReportOverview(meta, sections, { words: 10 }, top)).toContain("Most marked passages");
+  });
+
   it("is today's contents page for a report with no overview", () => {
     const plain = renderReportOverview(meta, sections, { words: 10 });
     expect(plain).not.toContain("landing-");
