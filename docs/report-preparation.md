@@ -1,6 +1,6 @@
 # Preparing a report
 
-How a report gets from a source PDF to a published, trustworthy page on Reports that Matter. Read this when you are adding a report or a further volume of one, re-ingesting an existing report, or writing a report's processing notes. You do not need it for site code, design or deploys on their own; [`ARCHITECTURE.md`](ARCHITECTURE.md) and [`AGENTS.md`](../AGENTS.md) cover those.
+How a report gets from a source PDF to a published, trustworthy page on Reports that Matter. This is stage 1 of [the pipeline](report-pipeline.md): the text on its plain contents page, which ships on its own; the introduction and imagery follow as separate stages. Read this when you are adding a report or a further volume of one, re-ingesting an existing report, or writing a report's processing notes. You do not need it for site code, design or deploys on their own; [`ARCHITECTURE.md`](ARCHITECTURE.md) and [`AGENTS.md`](../AGENTS.md) cover those.
 
 **Status: first draft, written 2026-09-20** from the Bloody Sunday Inquiry (Saville, Vol I) ingest and the processing-notes trial. It has not yet been followed cold by someone who did not write it. When a run teaches you something this file got wrong or left out, fix it in the same change. Improvement work is tracked in Beads (`bd search "report-preparation"`).
 
