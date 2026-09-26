@@ -1,6 +1,6 @@
 # Writing a report's introduction
 
-How to write the introduction that turns a report's contents page into its landing page: the standfirst, the background, what it found, and where to start reading. Read this before writing or revising any `editorial/<report-id>.yaml`. For getting the report itself onto the site, see [`report-preparation.md`](report-preparation.md); for the code, [`ARCHITECTURE.md`](ARCHITECTURE.md).
+How to write the introduction that turns a report's contents page into its landing page: the standfirst, the background, what it found, and where to start reading. Read this before writing or revising any `editorial/<report-id>.yaml`. This is stage 2 of [the pipeline](report-pipeline.md). For getting the report itself onto the site (stage 1), see [`report-preparation.md`](report-preparation.md); for the code, [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 **Status: first version, 2026-09-25**, written from the Jack Smith and Wall Street introductions and Rufus's review of them. When writing one teaches you something this file got wrong or left out, fix it in the same change.
 
@@ -23,7 +23,7 @@ A report without an approved file keeps the plain contents page.
 
 | Field | What goes in it | Length |
 | --- | --- | --- |
-| `status` | `draft` until Rufus approves; then `approved` | |
+| `status` | `approved` when it ships (Rufus reviews the live page afterwards); `draft` only for work that needs a second opinion first | |
 | `why_it_matters` | The standfirst under the title. Also the page's meta description, so it is what search results show | 2–4 sentences, 50–80 words |
 | `background` | What happened, who commissioned the report and why, when it was published, and what followed. Paragraphs separated by a blank line | 2–4 paragraphs, 200–300 words |
 | `findings` | What the report found. Each has `text` (ours), `cites` (paragraph ids), and optionally an `excerpt` (a quotation) | 5–8 findings; 3–4 with excerpts |
@@ -98,12 +98,11 @@ A highlight must be inside a paragraph with an id. Block quotations have no id y
 1. **Set up** a sibling worktree as in [`report-preparation.md`](report-preparation.md) §2, then `pnpm prerender`.
 2. **Read the report's own summary and conclusions first**, then the sections they point to. `pnpm paragraphs <id>` prints the whole report by section; `pnpm paragraphs <id> <words…>` searches it.
 3. **Research the background** and verify every fact that is not in the report.
-4. **Write `editorial/<id>.yaml`** with `status: draft`.
+4. **Write `editorial/<id>.yaml`** with `status: approved`.
 5. **Check**: run `pnpm editorial` until it passes, then `./scripts/verify.sh`.
-6. **Review in the browser**: run `pnpm dev` and open `/reports/<id>?draft`. Read it as a stranger would. Does the standfirst make you want to read on? Does every quotation make sense alone? Does every link land somewhere readable?
-7. **Ship the draft**: PR, merge, deploy. Rufus reviews at `https://reportsthatmatter.org/reports/<id>?draft`. Drafts are hidden without `?draft` and are `noindex`.
-8. **Approve**: set `status: approved`, then PR, merge and deploy. After deploying, run `pnpm seed-highlights --remote`.
-9. **Record it**: add a `docs/CHANGELOG.md` entry and screenshots per AGENTS.md, and close the Bead.
+6. **Review in the browser**: run `pnpm dev` and open `/reports/<id>`. Read it as a stranger would. Does the standfirst make you want to read on? Does every quotation make sense alone? Does every link land somewhere readable?
+7. **Ship it**: PR, merge, deploy, then `pnpm seed-highlights --remote`. Do not wait for Rufus's review (Rufus, 2026-09-26); he reads the live page and his feedback becomes a follow-up change. (A `status: draft` file is hidden without `?draft` and is `noindex`; use it only when a second opinion must come before going live.)
+8. **Record it**: add a `docs/CHANGELOG.md` entry and screenshots per AGENTS.md, and close the Bead.
 
 ## Checklist
 
@@ -113,5 +112,5 @@ A highlight must be inside a paragraph with an id. Block quotations have no id y
 - [ ] 4–6 reading-guide sections in reading order, each with a `why`; `title` only where the heading is broken
 - [ ] 8–15 highlights, all inside paragraphs, the best marked `card: true`
 - [ ] `pnpm editorial` and `./scripts/verify.sh` pass
-- [ ] Reviewed at `?draft` as a cold reader
+- [ ] Reviewed in the browser as a cold reader
 - [ ] Beads filed for anything broken in the report text that you found on the way

@@ -13,6 +13,6 @@ The non-negotiables, in brief:
 2. **Every quotation verbatim, as rendered.** Copy from `pnpm paragraphs <id> [words]`, never from the PDF. `pnpm editorial` must pass. Never "fix" a quote; pick another passage.
 3. **Quotations must stand on their own.** Quote whole sentences, with enough of the paragraph to make sense without it.
 4. **Neutral, attributed, verified.** No judgment adjectives. Write "the report finds". Record the other side where the report prints it. Verify every background fact that is not in the report; if you can't, leave it out.
-5. **Draft first.** Use `status: draft`, review at `/reports/<id>?draft`, and let Rufus approve. Never set `approved` on your own unless Rufus has said to.
+5. **Ship approved.** Set `status: approved` and ship; Rufus reviews the live page later (2026-09-26). The introduction is stage 2 of `docs/report-pipeline.md`: it never waits for imagery (stage 3), and a hero image is its own Bead.
 
 Start from `editorial/jack-smith-vol1.yaml` as the reference shape. Work the checklist at the end of the guide before calling it done.

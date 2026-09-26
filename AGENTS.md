@@ -17,6 +17,10 @@ the *house rules*.
 repos vs. this repo, publishing vs. deploying, search, the two fidelity gates
 — with a diagram. Read it before assuming a deploy is what ships a content
 change; it usually isn't (see its "what needs a deploy?" table).
+**[docs/report-pipeline.md](docs/report-pipeline.md)** is *how a report
+ships*: three stages (text, introduction, imagery), each its own release and
+its own Bead per report, none waiting for review. Read it first for any
+report work; it points at the guide for each stage.
 **[docs/report-preparation.md](docs/report-preparation.md)** is *how to prepare
 a report*: choosing and checking a source, the report's own repo, `ingest.ts`,
 registering, plate and share card, `PROCESSING.md`, shipping, and what to
@@ -27,7 +31,7 @@ teaches you something it got wrong or left out, fix it in the same change.
 **[docs/report-introductions.md](docs/report-introductions.md)** is *how to
 write a report's introduction*: the landing page's summary and reading guide
 in `editorial/<id>.yaml`, voice, verbatim quotations, highlights, and the
-draft-to-approved flow. **Read it before writing or revising any editorial
+approved-on-ship flow. **Read it before writing or revising any editorial
 file.** The `report-introduction` skill (`.claude/skills/`) points agents at it.
 
 ## Beads
