@@ -5760,7 +5760,7 @@ You can talk to Cal Schomberg and he will verify the many times we have covered 
 
 We can and have generated parametric impact zone characterizations for many areas of the Orbiter for a few of our more typical ET foam loss areas. Of course, the impact/damage significance is always a function of debris size and density, impact velocity, and impact angle--these latter 2 being a function of the flight time at which the ET foam becomes debris. For STS-107 specifically, we have generated this info and provided it to Orbiter. Of course, even this is based on the ASSUMPTION [continued on next page] that the location and size of the debris is the same as occurred on STS-112------this cannot be verified until we receive the on-board ET separation R e pphoto
 
-> o r t Vevidence o l u m e I post A uOrbiter g u s t 2landing.[^3] We are requesting that this 1 5 5
+> o r t Vevidence o l u m e I post A uOrbiter g u s t 2landing. 003 We are requesting that this 1 5 5
 
 be expedited. I have the STS-107 Orbiter impact map based on the assumptions noted herein being
 
@@ -8904,7 +8904,7 @@ Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, I
 
 [^2]: Guidelines per NASA Policy Guideline 8621.
 
-[^5]: U.S.C. App § §1 et seq. (1972).
+[^3]: 5 U.S.C. App § §1 et seq. (1972).
 
 [^4]: JSC Form 564 (March 24, 2003).
 

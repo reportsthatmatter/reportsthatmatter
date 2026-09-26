@@ -4,7 +4,7 @@ authors: "The Right Honourable Lord Justice Leveson"
 published_at: "29 November 2012"
 source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
 pages: 2022
-footnotes: 8605
+footnotes: 8596
 ---
 
 The Leveson Inquiry culture, practices and ethics of the press
@@ -1031,7 +1031,7 @@ The questions (which provide a good overview of some of the issues which the Inq
 
 > "The Inquiry is now looking at the relationship between the press and the police. We're interested in hearing from professionals and the public with information and examples in response to the specific questions below. Your answers may be considered as potential evidence to the Inquiry and may be published in a redacted form as part of the Inquiry's evidence.
 
-> Culture, practices and ethics: 1. The Inquiry needs to understand how the relationship between the press and the police currently operates. The Inquiry would be interested in the experiences of police officers, other police staff, and journalists as to how the relationship between the press and the police works in practice. 2. The Inquiry would be interested in the experiences of police officers, other police staff, and journalists as to how the current Police Service policies and guidance in place to regulate the relationship between the press and the police work in practice. 3. The Inquiry would like to build up an overall picture of the nature and level of the interaction that currently exists between the police and the press. The Inquiry would therefore be interested to receive submissions on the type and frequency of contact which currently exists between police officers, other police staff, and the media (differentiating between local and national media contact), with examples where possible. 4. The internet,[^24] hour news and social media has brought new challenges for both the police and the press. The Inquiry would be interested in the experiences of police officers, other police staff, and journalists on how this may have altered the relationship, and whether the Police Service policies and guidance in place have kept pace with this changing environment, with examples where possible. 5. The Inquiry would be interested to receive views on the level of awareness and experience that exists within the Police Service of "media crime" (the unlawful interception of communications, bribery of officials by the media and harassment by paparazzi and journalists, for example), with examples where possible.
+> Culture, practices and ethics: 1. The Inquiry needs to understand how the relationship between the press and the police currently operates. The Inquiry would be interested in the experiences of police officers, other police staff, and journalists as to how the relationship between the press and the police works in practice. 2. The Inquiry would be interested in the experiences of police officers, other police staff, and journalists as to how the current Police Service policies and guidance in place to regulate the relationship between the press and the police work in practice. 3. The Inquiry would like to build up an overall picture of the nature and level of the interaction that currently exists between the police and the press. The Inquiry would therefore be interested to receive submissions on the type and frequency of contact which currently exists between police officers, other police staff, and the media (differentiating between local and national media contact), with examples where possible. 4. The internet, 24 hour news and social media has brought new challenges for both the police and the press. The Inquiry would be interested in the experiences of police officers, other police staff, and journalists on how this may have altered the relationship, and whether the Police Service policies and guidance in place have kept pace with this changing environment, with examples where possible. 5. The Inquiry would be interested to receive views on the level of awareness and experience that exists within the Police Service of "media crime" (the unlawful interception of communications, bribery of officials by the media and harassment by paparazzi and journalists, for example), with examples where possible.
 
 %%page 25%%
 
@@ -1257,13 +1257,13 @@ FurTher issues oF Law 1. Rule 13 of the Inquiry Rules 2006: the approach
 
 > person, the Inquiry Rules 2006 mandate that such a person must be warned of that criticism and given a reasonable opportunity to respond. I set out the background and the legal framework in a ruling on the Application of Rule 131 which I can do no better than repeat:
 
-> "8. One of the touchstones of the inquisitorial process prescribed by the 2005 [Inquiries] Act is the requirement of fairness to all. Whereas s. 17(1) of the Act provides that the procedure and conduct of the Inquiry shall be such as I direct, that provision is subject to s. 17(3) in these terms: "In making any decision as to the procedure or conduct of an inquiry, the chairman must act with fairness and with regard to the need to avoid any unnecessary cost (whether to public funds or to witnesses or others)." 9. No higher manifestation of that duty is apparent than that which deals with the requirement that those who may be criticised in any report have the opportunity afforded to them to deal with the basis of that criticism. The origin is to be found in the Royal Commission on Tribunals of Inquiry (Cmnd 3121, 1966) ("the Salmon Report") which proposed, among other recommendations, that before a person was called as a witness, he should be informed of any allegations which are made against him and the substance of the evidence in support of them: thus were born Salmon letters although over-rigid adherence has been recognised as 'unhelpful': see the observations of Sir Richard Scott VC (in (1995)[^111] LQR 596) to the effect that every inquiry must adapt its procedures to meet its own circumstances. 10. The next manifestation of this requirement (described as 'fair play in action' by Sachs LJ in Re Pergamon Press Ltd [1971] Ch 388 at 405) dealt with comment on proposed criticism. Mr Robert Maxwell's attempt to obtain sight of proposed draft conclusions was rejected in the Court of Appeal when Lawton LJ put the matter in this way: see Maxwell v Department of Trade and Industry [1974] QB 523 at page 541B- D: "Those who conduct inquiries have to base their decisions, findings, conclusions or opinions ... on the evidence. In my judgment they are no more bound to tell a witness likely to be criticised in their report what they have in mind to say about him than has a judge sitting alone who has to decide which of two conflicting witnesses is telling the truth. The judge must ensure that the witness whose credibility is suspected has a fair opportunity of correcting or contradicting the substance of what other witnesses have said or are expected to say which is in conflict with his testimony. Inspectors should do the same but I can see no reason why they should do any more." 11. Notwithstanding these judicial observations, the broad process was adopted by Lord Bingham in the BCCI Inquiry, by Sir Richard Scott in the Inquiry into Matrix Churchill and also by Sir John Chilcott in the Iraq Inquiry. This lack of clarity is itself unhelpful and potentially productive either of very substantial delay or satellite litigation (in each case with attendant cost) or both.
+> "8. One of the touchstones of the inquisitorial process prescribed by the 2005 [Inquiries] Act is the requirement of fairness to all. Whereas s. 17(1) of the Act provides that the procedure and conduct of the Inquiry shall be such as I direct, that provision is subject to s. 17(3) in these terms: "In making any decision as to the procedure or conduct of an inquiry, the chairman must act with fairness and with regard to the need to avoid any unnecessary cost (whether to public funds or to witnesses or others)." 9. No higher manifestation of that duty is apparent than that which deals with the requirement that those who may be criticised in any report have the opportunity afforded to them to deal with the basis of that criticism. The origin is to be found in the Royal Commission on Tribunals of Inquiry (Cmnd 3121, 1966) ("the Salmon Report") which proposed, among other recommendations, that before a person was called as a witness, he should be informed of any allegations which are made against him and the substance of the evidence in support of them: thus were born Salmon letters although over-rigid adherence has been recognised as 'unhelpful': see the observations of Sir Richard Scott VC (in (1995) 111 LQR 596) to the effect that every inquiry must adapt its procedures to meet its own circumstances. 10. The next manifestation of this requirement (described as 'fair play in action' by Sachs LJ in Re Pergamon Press Ltd [1971] Ch 388 at 405) dealt with comment on proposed criticism. Mr Robert Maxwell's attempt to obtain sight of proposed draft conclusions was rejected in the Court of Appeal when Lawton LJ put the matter in this way: see Maxwell v Department of Trade and Industry [1974] QB 523 at page 541B- D: "Those who conduct inquiries have to base their decisions, findings, conclusions or opinions ... on the evidence. In my judgment they are no more bound to tell a witness likely to be criticised in their report what they have in mind to say about him than has a judge sitting alone who has to decide which of two conflicting witnesses is telling the truth. The judge must ensure that the witness whose credibility is suspected has a fair opportunity of correcting or contradicting the substance of what other witnesses have said or are expected to say which is in conflict with his testimony. Inspectors should do the same but I can see no reason why they should do any more." 11. Notwithstanding these judicial observations, the broad process was adopted by Lord Bingham in the BCCI Inquiry, by Sir Richard Scott in the Inquiry into Matrix Churchill and also by Sir John Chilcott in the Iraq Inquiry. This lack of clarity is itself unhelpful and potentially productive either of very substantial delay or satellite litigation (in each case with attendant cost) or both.
 
 http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Application-of-Rule-13-of-the-Inquiry-Rules-2006.pdf
 
 %%page 39%%
 
-> 12. The 2005 Act (pursuant to which this Inquiry is being conducted) adopts a different and, in my judgment, self-contained approach to ensure fairness. First, s.[^21] of the Act provides that I may by notice require any person to provide evidence in the form of a written statement along with documents. Such notices have identified, in comprehensive terms, the issues with which the statement has been required to deal; where appropriate, it has identified relevant documents or other public statements which should be addressed. It cannot, of course, deal with evidence not then seen by the Inquiry but where issues of significance have arisen before the witness arrives, forewarning has been given and, if necessary, witnesses allowed time to deal with a matter for which they were not prepared. Where the issue has arisen only after the witness has given evidence, again if it is significant, second statements have been requested and obtained; more than one witness has been required to return to give further evidence. 13. The second (and most extensive) protection is provided by Rules 13-15 of the Inquiry Rules 2006 ('the 2006 Rules') which concern what are described as Warning Letters. Thus, Rule 13 provides: (1) The Chairman may send a warning letter to any person: (a) he considers maybe, or who has been, subject to criticism in the inquiry proceedings; or (b) about whom criticism may be inferred from evidence that has been given during the inquiry proceedings; or (c) who may be subject to criticism in the report, or any interim report. (2) The recipient of a warning letter may disclose it to his recognised legal representative. (3) The inquiry panel must not include any explicit or significant criticism of a person in the report, or in any interim report, unless (a) the chairman has sent that person a warning letter; and (b) the person has been given a reasonable opportunity to respond to the warning letter."
+> 12. The 2005 Act (pursuant to which this Inquiry is being conducted) adopts a different and, in my judgment, self-contained approach to ensure fairness. First, s. 21 of the Act provides that I may by notice require any person to provide evidence in the form of a written statement along with documents. Such notices have identified, in comprehensive terms, the issues with which the statement has been required to deal; where appropriate, it has identified relevant documents or other public statements which should be addressed. It cannot, of course, deal with evidence not then seen by the Inquiry but where issues of significance have arisen before the witness arrives, forewarning has been given and, if necessary, witnesses allowed time to deal with a matter for which they were not prepared. Where the issue has arisen only after the witness has given evidence, again if it is significant, second statements have been requested and obtained; more than one witness has been required to return to give further evidence. 13. The second (and most extensive) protection is provided by Rules 13-15 of the Inquiry Rules 2006 ('the 2006 Rules') which concern what are described as Warning Letters. Thus, Rule 13 provides: (1) The Chairman may send a warning letter to any person: (a) he considers maybe, or who has been, subject to criticism in the inquiry proceedings; or (b) about whom criticism may be inferred from evidence that has been given during the inquiry proceedings; or (c) who may be subject to criticism in the report, or any interim report. (2) The recipient of a warning letter may disclose it to his recognised legal representative. (3) The inquiry panel must not include any explicit or significant criticism of a person in the report, or in any interim report, unless (a) the chairman has sent that person a warning letter; and (b) the person has been given a reasonable opportunity to respond to the warning letter."
 
 1.2 In my ruling, I explained the ways in which I have sought to ensure that the Inquiry was conducted fairly and with full regard to the position of all who might be affected. In relation to Rule 13, therefore, I concluded that a warning addressed to a section of the press consisting of the national titles (even if a number of those have not been the subject of criticism or complaint) allowed each to make submissions as to the conclusions that I should draw as to the culture, practices and ethics of the press generally (as opposed to the specific conduct of individual titles although it has been made clear titles have been free to comment on stories which are identifiably referable to them). I went on to conclude not only that generic criticisms should be evidence based, but that the justification for my concerns should be "visible and capable of being understood both by those affected and by the public".2
 
@@ -1503,11 +1503,11 @@ These are precious and fundamental principles, to which great respect must be pa
 
 1.2 My attention has been drawn by press Core Participants to statements of the highest judicial authority which develop these points in a variety of ways.
 
-1.3 In R v Secretary of State for the Home Department, ex parte Simms (2000)[^2] A.C. 115, a case
+1.3 In R v Secretary of State for the Home Department, ex parte Simms (2000) 2 A.C. 115, a case
 
 > which held that any restriction on the interviewing of prisoners by journalists must be strictly justified, Lord Steyn explained at paragraph 126:
 
-> 'Freedom of expression is, of course, intrinsically important: it is valued for its own sake. But it is well recognised that it is also instrumentally important. It serves a number of broad objectives. First, it promotes the self-fulfilment of individuals in society. Secondly, in the famous words of Holmes J (echoing John Stuart Mill), 'the best of truth is the power of thought to get itself accepted in the competition of the market': Abrams v US (1919)[^250] U.S. 616, 630, per Holmes J (dissenting). Thirdly, freedom of speech is the lifeblood of democracy. The free flow of information and ideas informs political debate. It is a safety valve: people are more ready to accept
+> 'Freedom of expression is, of course, intrinsically important: it is valued for its own sake. But it is well recognised that it is also instrumentally important. It serves a number of broad objectives. First, it promotes the self-fulfilment of individuals in society. Secondly, in the famous words of Holmes J (echoing John Stuart Mill), 'the best of truth is the power of thought to get itself accepted in the competition of the market': Abrams v US (1919) 250 U.S. 616, 630, per Holmes J (dissenting). Thirdly, freedom of speech is the lifeblood of democracy. The free flow of information and ideas informs political debate. It is a safety valve: people are more ready to accept
 
 1 Speech, 1949 R (Laporte) v Chief Constable of Gloucestershire [2006] UKHL 55 decisions that go against them if they can in principle seek to influence them. It acts as a brake on the abuse of power by public officials. It facilitates the exposure of errors in the governance and administration of justice of the country: see Stone,
 
@@ -1519,11 +1519,11 @@ It is this last interest which is engaged in the present case. The applicants ar
 
 B in their cases the criminal justice system has failed, and that they have been wrongly convicted. They seek with the assistance of journalists, who have the resources to do the necessary investigations, to make public the wrongs which they allegedly suffered.'
 
-1.4 The point was developed in the speech of Lord Nicholls of Birkenhead in Reynolds v Times Newspapers Ltd (2001)[^1] A.C. 127, at paragraph 200:
+1.4 The point was developed in the speech of Lord Nicholls of Birkenhead in Reynolds v Times Newspapers Ltd (2001) 1 A.C. 127, at paragraph 200:
 
 'The high importance of freedom to impart and receive information and ideas has been stated so often and so eloquently that the point calls for no elaboration in this case. At a pragmatic level, freedom to disseminate and receive information on political matters is essential to the system of parliamentary democracy cherished in this country. This freedom enables those who elect representatives to Parliament to make an informed choice, regarding individuals as well as policies, and those elected to make informed decisions...Likewise, there is no need to elaborate on the importance of the role discharged by the media in the expression and communication of information and comment on political matters. Without freedom of expression by the media, freedom of expression would be a hollow concept.'
 
-1.5 The same point has been made with equal force in the European Court of Human Rights in Strasbourg. In Castells v Spain (1992)[^14] EHHR 445 a senator of an opposition political party in Spain published an article in a weekly magazine critical of the government, and was charged and convicted of insulting the government and disqualified from holding political office. During the trial, Senor Castells attempted to adduce evidence as to the truth of the article, but it was declared inadmissible by the Spanish Supreme Court. The Strasbourg Court held that his conviction constituted an unjustified interference with his right to freedom of expression under Article 10 of the ECHR. At paragraph 43 the Court observed:
+1.5 The same point has been made with equal force in the European Court of Human Rights in Strasbourg. In Castells v Spain (1992) 14 EHHR 445 a senator of an opposition political party in Spain published an article in a weekly magazine critical of the government, and was charged and convicted of insulting the government and disqualified from holding political office. During the trial, Senor Castells attempted to adduce evidence as to the truth of the article, but it was declared inadmissible by the Spanish Supreme Court. The Strasbourg Court held that his conviction constituted an unjustified interference with his right to freedom of expression under Article 10 of the ECHR. At paragraph 43 the Court observed:
 
 '...the pre-eminent role of the press in a State governed by the rule of law must not be forgotten.
 
@@ -2347,7 +2347,7 @@ C in content intended to appeal to a mass market included the introduction of te
 
 2.27 Although both The Sun and NI are conservative in outlook, the political loyalties of neither paper have been set in stone. Some commentators have argued that so influential has the tabloid become that it is able to decide the outcome of elections.36 Certainly, that was the clear inference of The Sun's front page headline following the Conservative election victory in April 1992, "It was The Sun wot won it".37
 
-2.28 Although The Sun and NoTW backed the Labour Party in the 1997,[^2001] and 2005 general elections, the relationship between the New Labour Government and the NI titles had grown increasingly strained. It is reported that ahead of the 2005 election, Mr Murdoch had said that Tony Blair "deserved one last chance".38 In late September 2009, on the day of Gordon
+2.28 Although The Sun and NoTW backed the Labour Party in the 1997, 2001 and 2005 general elections, the relationship between the New Labour Government and the NI titles had grown increasingly strained. It is reported that ahead of the 2005 election, Mr Murdoch had said that Tony Blair "deserved one last chance".38 In late September 2009, on the day of Gordon
 
 %%page 104%%
 
@@ -2405,7 +2405,7 @@ Prime Minister. That is the reality. I shall examine the facts and show why late
 
 2.36 Despite this opposition the deal had the support of the editorial staff and the unions, and went ahead. The purchase gave NI more than a 25% share of daily newspaper circulation and something over 30% of the Sunday market.
 
-2.37 Although The Times has a reputation for taking a generally conservative approach to matters of public policy and social issues, its support for political parties at general elections has varied. Indeed, on occasion The Times and The Sunday Times have backed different parties. Most recently, The Times supported the Labour Party in 1997,[^2001] and 2005 and the Conservatives in 2010. By contrast, The Sunday Times supported the Conservative Party at each of those elections.46
+2.37 Although The Times has a reputation for taking a generally conservative approach to matters of public policy and social issues, its support for political parties at general elections has varied. Indeed, on occasion The Times and The Sunday Times have backed different parties. Most recently, The Times supported the Labour Party in 1997, 2001 and 2005 and the Conservatives in 2010. By contrast, The Sunday Times supported the Conservative Party at each of those elections.46
 
 2.38 In February 2012 The Times had a circulation of 397,549. Although this is the second highest broadsheet circulation, it is some way behind the Daily Telegraph, and accounted for only 4.3% of national daily newspaper circulation in that month. By contrast, its sister paper The Sunday
 
@@ -3383,7 +3383,7 @@ C their holdings. Savings can be achieved where titles that are geographically c
 
 11. Magazines and periodicals
 
-11.1 The UK magazine market is substantial. There are some 3,000 consumer titles in the UK (this is separate from the 4,765 business to business magazines). The magazine industry has a value of £4.1bn, with an estimated 1.4bn copies sold or distributed annually, and consumers spending some £1.9bn a year buying magazines.446 ABC monitors some 515 consumer magazines published by 161 publishers with a total circulation of 54,751,905.[^110] of those
+11.1 The UK magazine market is substantial. There are some 3,000 consumer titles in the UK (this is separate from the 4,765 business to business magazines). The magazine industry has a value of £4.1bn, with an estimated 1.4bn copies sold or distributed annually, and consumers spending some £1.9bn a year buying magazines.446 ABC monitors some 515 consumer magazines published by 161 publishers with a total circulation of 54,751,905. 110 of those
 
 161 publishers publish only one title, with a further 36 publishing two to four titles. The four most prolific publishers publish 181 titles between them. As is to be expected in such a broad and varied market, circulation varies enormously. Of the seven consumer magazines that have circulation of over a million, four are supermarket magazines, two are TV listings magazines and the other is the National Trust Magazine. Other magazines circulated to members of particular associations (for example, Saga or RSPB) have very high individual circulation. Beyond that there is no obvious pattern or rhythm to levels of circulation, with lifestyle, health and celebrity magazines varying considerably in popularity by title. Most of these consumer magazines are specialist interest titles of varying sorts and are not engaged in the sort of news and current affairs reporting, or reporting on individuals, with which the
 
@@ -3405,7 +3405,7 @@ Editorial practices and ethics of the magazine titles C
 
 11.5 The Inquiry has heard evidence from the editors of three of the most popular weekly magazine titles in Britain: Heat, OK! and Hello! Magazines. It has been evident that there are some similarities with newspapers in terms of practices of the magazine newsroom, awareness and application of the Editors' Code of Practice, as well as the impact of technological change and the phenomenal growth of the internet as a source of news and information.
 
-11.6 Heat Magazine employs 32 members of staff. These include three news desk reporters, one features editor and a number of reviews editors. The rest of the team comprise the art and production team.453 Hello! Magazine has forty employees,[^19] of whom are either journalists or subeditors.454 OK! Magazine use only in-house journalists and employ 25 members of staff.455
+11.6 Heat Magazine employs 32 members of staff. These include three news desk reporters, one features editor and a number of reviews editors. The rest of the team comprise the art and production team.453 Hello! Magazine has forty employees, 19 of whom are either journalists or subeditors.454 OK! Magazine use only in-house journalists and employ 25 members of staff.455
 
 OK! Magazine
 
@@ -6486,11 +6486,11 @@ Maberly did so: "it quickly became apparent that contained within were names of 
 
 Count 1: Against both, conspiracy to intercept communications contrary to s1(1) of the Criminal Law Act 1977;
 
-Counts 2, 3, 7,[^10] and 13: Against both, interception of the voicemail messages of Helen Asprey contrary to s1(1) of RIPA;
+Counts 2, 3, 7, 10 and 13: Against both, interception of the voicemail messages of Helen Asprey contrary to s1(1) of RIPA;
 
-Counts 4, 6, 8,[^11] and 14: Against both, interception of the voicemail messages of Jamie Lowther-Pinkerton contrary to s1(1) of RIPA;
+Counts 4, 6, 8, 11 and 14: Against both, interception of the voicemail messages of Jamie Lowther-Pinkerton contrary to s1(1) of RIPA;
 
-Counts 5, 9,[^12] and 15: Against both, interception of the voicemail messages of Paddy Haverson contrary to s1(1) of RIPA;
+Counts 5, 9, 12 and 15: Against both, interception of the voicemail messages of Paddy Haverson contrary to s1(1) of RIPA;
 
 Counts 16-20: Against Mr Mulcaire only, interception of the voicemail messages of Max Clifford, Skylet Andrew, Graham Taylor, Simon Hughes and Elle Macpherson respectively contrary to s1(1) of RIPA.
 
@@ -6618,7 +6618,7 @@ Mr Clarke quoted in his witness statement from his evidence before the Home Affa
 
 Committee in July 2011:
 
-> "I took the view that it would be completely unrealistic, given that we were heading towards a prosecution of Goodman and Mulcaire, to then go to another department and say, 'We've got a prosecution running. We have a huge amount of material here that needs analysing. We don't know, given the uncertainties of the legal advice, whether there will be further offences coming from this or not. Would you like to devote 50, 60,[^70] officers for a protracted period to do this?' I took the judgment that that would be an unreasonable request and so I didn't make it."
+> "I took the view that it would be completely unrealistic, given that we were heading towards a prosecution of Goodman and Mulcaire, to then go to another department and say, 'We've got a prosecution running. We have a huge amount of material here that needs analysing. We don't know, given the uncertainties of the legal advice, whether there will be further offences coming from this or not. Would you like to devote 50, 60, 70 officers for a protracted period to do this?' I took the judgment that that would be an unreasonable request and so I didn't make it."
 
 5.25 Mr Clarke gave more detail about his rationale in his witness statement:255
 
@@ -7092,7 +7092,7 @@ NoTW once he had served his sentence providing he did not implicate in criminal 
 
 7.14 In the event, this view was not shared by Mr Hinton because on 5 February 2007 Mr Hinton wrote to Mr Goodman terminating his employment. The letter said:[^376]
 
-> "I recognise this episode followed many unblemished, and frequently distinguished, years of service to the News of the World. In view of this, and in recognition of the pressures on your family, it has been decided that upon your termination you will receive one year's salary. In all the circumstances, we would of course be entitled to make no payment whatever…You will be paid, through payroll, on 6 February 2007,[^12] months' base salary, subject to normal deductions of tax and nation insurance." E
+> "I recognise this episode followed many unblemished, and frequently distinguished, years of service to the News of the World. In view of this, and in recognition of the pressures on your family, it has been decided that upon your termination you will receive one year's salary. In all the circumstances, we would of course be entitled to make no payment whatever…You will be paid, through payroll, on 6 February 2007, 12 months' base salary, subject to normal deductions of tax and nation insurance." E
 
 7.15 The terms of the dismissal were considerably more generous than the terms of his employment required, but Mr Goodman was not content. On 2 March 2007, Mr Goodman wrote to Daniel Cloke, then head of Human Resources at NI, appealing against his dismissal. His first two grounds of appeal were first, that the decision was perverse because his actions were carried out with the full knowledge and support of executives at the NoTW and second, that the decision was inconsistent because others, who were still working for the NoTW, were engaged in the same illegal procedures.377
 
@@ -9022,7 +9022,7 @@ Published by TSO (The Stationery Office) and available from:
 
 Online www.tsoshop.co.uk
 
-Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries:[^870] 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders:[^870] 600 5533 E-mail: customer.services@tso.co.uk Textphone:[^870] 240 3701
+Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries: 0870 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders: 0870 600 5533 E-mail: customer.services@tso.co.uk Textphone: 0870 240 3701
 
 The Houses of Parliament Shop 12 Bridge Street, Parliament Square London SW1A 2JX Telephone orders: 020 7219 3890/General enquiries: 020 7219 3890 Fax orders: 020 7219 3866 Email: shop@parliament.uk Internet: http://www.shop.parliament.uk
 
@@ -9934,7 +9934,7 @@ take into account: a considerable body of other evidence to like effect but affe
 
 3.11 Sixth, the Inquiry heard from those with experience in the Press Complaints Commission (PCC) and the Press Board of Finance (PressBof), covering the existing system of regulation of the press and proposals for the future. The Inquiry heard from the past and current directors and chairs of the PCC, and the current chair of PressBof, Lord Black. The present chair of the PCC, Lord Hunt, assisted the Inquiry with the then current state of play regarding the industry's proposals for 'self-regulation' within a new contractual framework, and he returned to update me on this topic in Module Four.
 
-3.12 Finally, a different perspective on the approach to stories came from the Information Commissioner and the police. As for the Information Commissioner, the evidence from Operation Motorman provides a window on the way in which some journalistic investigations were conducted or information researched (albeit without the knowledge of those affected). Its significance is such that it is summarised in Part E, Chapter 3; the position is then subject to separate analysis in Part H. As for the police, their investigations are detailed in Part E, Chapters 2,[^4] and 5.
+3.12 Finally, a different perspective on the approach to stories came from the Information Commissioner and the police. As for the Information Commissioner, the evidence from Operation Motorman provides a window on the way in which some journalistic investigations were conducted or information researched (albeit without the knowledge of those affected). Its significance is such that it is summarised in Part E, Chapter 3; the position is then subject to separate analysis in Part H. As for the police, their investigations are detailed in Part E, Chapters 2, 4 and 5.
 
 3.13 This short summary scarcely gives the full flavour of the scope, range and scale of the evidence the Inquiry received during the first 40 days of its sitting. The live oral evidence, accompanying witness statements and exhibits, and the read-in evidence, including all the documentary evidence and submissions, add up to a very substantial mass of material, all of which has been sifted, read, considered and analysed with a view to drawing the Inquiry's generic conclusions. Recognising that this burden of material only represents a small proportion of F the evidence which might have been adduced had time and resources been greater, I should nonetheless record that I believe that the evidence that has been received is sufficient in terms of its quality and quantity to enable me to discharge my Terms of Reference.
 
@@ -9960,9 +9960,7 @@ Anne Diamond, and the actors Sienna Miller and Hugh Grant. These are all individ
 
 3.19 Further, the writer JK Rowling also told the Inquiry that she most emphatically does not seek fame or to benefit from her public persona, yet is still the subject of intense press interest.9
 
-3.20 This category of people with a public profile also includes a third sub-group: individuals who are famous only for their celebrity, or put another way the mere fact of their having entered the public eye. These people are those who actively participate in the 'celebrity industry,' actively pursuing publicity's sake, employing publicists to provide a steady stream of stories to the press and to inform paparazzi of their whereabouts, in order to ensure that they continue to appear in the public eye. This sub-group might reasonably be said to include, for example, some stars of reality television. Certainly in these cases, where the fame of the individual is linked to their exposure to the public through the press and other media, the relationship between individual and the press, and what is acceptable and what is unethical, is more nuanced. In such cases the public interest in what might otherwise be private matters may
-
-8 p86, lines 17-19, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of-Afternoon-Hearing- 21-November-2011.pdf p41, lines 2-8, JK Rowling, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of-Afternoon- Hearing-24-November-20112.pdf well be stronger and the nature of what can and cannot be considered private may be more difficult to determine.
+3.20 This category of people with a public profile also includes a third sub-group: individuals who are famous only for their celebrity, or put another way the mere fact of their having entered the public eye. These people are those who actively participate in the 'celebrity industry,' actively pursuing publicity's sake, employing publicists to provide a steady stream of stories to the press and to inform paparazzi of their whereabouts, in order to ensure that they continue to appear in the public eye. This sub-group might reasonably be said to include, for example, some stars of reality television. Certainly in these cases, where the fame of the individual is linked to their exposure to the public through the press and other media, the relationship between individual and the press, and what is acceptable and what is unethical, is more nuanced. In such cases the public interest in what might otherwise be private matters may well be stronger and the nature of what can and cannot be considered private may be more difficult to determine.
 
 %%page 447%%
 
@@ -15152,7 +15150,7 @@ Policing with Consent: The Role of the Press 1. Introduction
 
 1.3 Although this requires the Inquiry to consider the conduct of the police, that scrutiny only applies to the extent that that conduct meshes with the relationship between the police and the press, rather than more generally. The primary focus of the gathering of evidence has been directed towards possible recommendations for the future; inevitably, that has involved a reflective and analytical investigation of the past which identifies areas of practice which can be subject to critical appraisal. G
 
-1.4 During Module Two, the Inquiry heard oral evidence from 93 witnesses.[^36] of these were serving or former police officers, including the current Commissioner of the Metropolitan Police Service (MPS) and 11 Chief Constables. Evidence was also taken from 25 journalists. Much of the evidence has testified and paid tribute to the high standards maintained and hard work carried out by the Police Service, often in very challenging circumstances. There has been real support for the positive aspects of the relationship between the police and the press and the way in which they can work together (for example in relation to appeals for witnesses). However, the Inquiry has also heard evidence which leads me to conclude that the relationship is in need of recalibration. Bernard Hogan-Howe, the Commissioner of the MPS, conceded on arriving to the role in September 2011 that "…it is right to observe that those relations [that is to say, the relationship between the MPS and the media] were in neither a normal nor an entirely healthy state…".2 Furthermore, the Commissioner went on:3
+1.4 During Module Two, the Inquiry heard oral evidence from 93 witnesses. 36 of these were serving or former police officers, including the current Commissioner of the Metropolitan Police Service (MPS) and 11 Chief Constables. Evidence was also taken from 25 journalists. Much of the evidence has testified and paid tribute to the high standards maintained and hard work carried out by the Police Service, often in very challenging circumstances. There has been real support for the positive aspects of the relationship between the police and the press and the way in which they can work together (for example in relation to appeals for witnesses). However, the Inquiry has also heard evidence which leads me to conclude that the relationship is in need of recalibration. Bernard Hogan-Howe, the Commissioner of the MPS, conceded on arriving to the role in September 2011 that "…it is right to observe that those relations [that is to say, the relationship between the MPS and the media] were in neither a normal nor an entirely healthy state…".2 Furthermore, the Commissioner went on:3
 
 "I recognise that there is a need to review and improve our relationship with the media. It seems clear from recent events relating to phone hacking…that the
 
@@ -16406,7 +16404,7 @@ Professional Standards departments,220 whilst the vetting of police officers and
 
 > "… over the years it's been a chronic problem for the Police Service about unauthorised leaks of information, sometimes where officers and staff have used it for domestic purposes, but unauthorised, and occasionally – fairly rarely, but occasionally – where they've been paid for information that's been passed on to people who shouldn't have had it."
 
-With reference to a Freedom of Information request reported in the Telegraph in July 2011, G Commissioner Hogan-Howe confirmed that over 200 officers and support staff in the MPS had been disciplined for unlawfully accessing the Police National Computer in the previous ten years,[^106] of whom had accessed information in the last three years.226
+With reference to a Freedom of Information request reported in the Telegraph in July 2011, G Commissioner Hogan-Howe confirmed that over 200 officers and support staff in the MPS had been disciplined for unlawfully accessing the Police National Computer in the previous ten years, 106 of whom had accessed information in the last three years.226
 
 2.115 However, as I think Commissioner Hogan-Howe fairly pointed out, that must be taken against the millions of times that the PNC will have been accessed during the period in question. He said:227
 
@@ -17412,7 +17410,7 @@ G So we did a very big set piece, exclusive interview, me on him, in his office,
 
 4.45 Mr Wallis' relationship with Lord Condon was not simply one way, and he explained what he was seeking to gain from this type of informal interaction:566
 
-> "This was a sort of corporate/strategic relationship. It wasn't about trying to get a quick hit at a story. For instance, I think one of the things I mentioned elsewhere is the Police Bravery Awards. The Police Bravery Awards, which I happen to think is a great thing, got off the ground because of Sir Paul Condon. We, as the Sun, were a feisty, controversial organisation. We were quite happy to take a whack at anybody and we were seen in that way. We were trying to reach out to the police establishment, if you like, and to make them go along with an idea and it was going to be a struggle. Because of our relationship with Sir Paul, who realised that there may be more to us than simply the tabloid cliché, he became willing to back it and said, "Come what may, the Met will support this." I was then able to go to the head of the Police Federation, who also had a good trusting relationship with Sir Paul, and together, as a result of that, we were able to jointly go around the rest of the forces of Britain to say, Sir Paul and the Met are backing this. Why don't you? If you need to, have a conversation with the Met about why they're backing it." And as a result, something is still going I think 14,[^16] years later."
+> "This was a sort of corporate/strategic relationship. It wasn't about trying to get a quick hit at a story. For instance, I think one of the things I mentioned elsewhere is the Police Bravery Awards. The Police Bravery Awards, which I happen to think is a great thing, got off the ground because of Sir Paul Condon. We, as the Sun, were a feisty, controversial organisation. We were quite happy to take a whack at anybody and we were seen in that way. We were trying to reach out to the police establishment, if you like, and to make them go along with an idea and it was going to be a struggle. Because of our relationship with Sir Paul, who realised that there may be more to us than simply the tabloid cliché, he became willing to back it and said, "Come what may, the Met will support this." I was then able to go to the head of the Police Federation, who also had a good trusting relationship with Sir Paul, and together, as a result of that, we were able to jointly go around the rest of the forces of Britain to say, Sir Paul and the Met are backing this. Why don't you? If you need to, have a conversation with the Met about why they're backing it." And as a result, something is still going I think 14, 16 years later."
 
 4.46 Mr Wallis agreed therefore that this was a long-term strategy on his part, and not one that would necessarily produce an immediate return in terms of stories or exclusives for his newspaper. He said:567
 
@@ -18654,7 +18652,7 @@ He added that:999
 
 6.5 That being said, Lord Condon recognised the danger of simply accepting that the mere existence of the Inquiry had in fact provided a solution to some of the very important issues raised by the evidence that has been heard. This is particularly true given his diagnosis of the Police Service's historical cycle of malpractice, for he went on to conclude:1011
 
-> "… history tells us that unless your report [the final Inquiry report] has within it things which are not ephemeral but are enduring, that do demand checks, that do demand G action, that do allow auditing and monitoring and checking of these relationships, then the default position is in 10,[^15] years' time to get to that complacency point on that cycle again … I think the challenge is to find that something which avoids the massive bureaucracy, which will be superficial, and something that really hits the spot, that does encourage change that is lasting … there are issues around very strong national guidance around police behaviour in relation to the media, reinforcement of what is appropriate, condemnation of what is wrong, and so on."
+> "… history tells us that unless your report [the final Inquiry report] has within it things which are not ephemeral but are enduring, that do demand checks, that do demand G action, that do allow auditing and monitoring and checking of these relationships, then the default position is in 10, 15 years' time to get to that complacency point on that cycle again … I think the challenge is to find that something which avoids the massive bureaucracy, which will be superficial, and something that really hits the spot, that does encourage change that is lasting … there are issues around very strong national guidance around police behaviour in relation to the media, reinforcement of what is appropriate, condemnation of what is wrong, and so on."
 
 Lord Stevens
 
@@ -19570,7 +19568,7 @@ and pragmatic solutions need to be devised to address potentially intractable pr
 
 %%page 983%%
 
-> 'A. This is really difficult, because I just find it – John Stevens is an officer who worked for 40-odd years in the police. He lived his life,[^20] years, as a target for IRA assassination as he carried out the Stevens 3 Inquiries. He was the man who was the gangbuster in Northumbria. He came down here. He bust corruption in the Met. So the suggestion is that this man of integrity, of experience, of immense crime-fighting ability, is going to be seduced by me taking him down to Cecconi's and having steak and chips and a nice bottle of wine? I just can't begin to see where this comes from. All I'm saying is: have you ever had a working lunch? Have you ever had a working lunch with somebody more than once? Have you ever had a drink at that working lunch? You may well have not. I guarantee everybody in this room just about has and it is the way of the world. That is all I'm saying. I'm not suggesting – I certainly won't accept the idea that me going for dinner with a police officer is any different from a civil servant going for dinner with a businessman. I see no difference in it at all. I might be wrong, but – LORD JUSTICE LEVESON: I'm not sure you are wrong. A. I'm certain I'm not.'
+> 'A. This is really difficult, because I just find it – John Stevens is an officer who worked for 40-odd years in the police. He lived his life, 20 years, as a target for IRA assassination as he carried out the Stevens 3 Inquiries. He was the man who was the gangbuster in Northumbria. He came down here. He bust corruption in the Met. So the suggestion is that this man of integrity, of experience, of immense crime-fighting ability, is going to be seduced by me taking him down to Cecconi's and having steak and chips and a nice bottle of wine? I just can't begin to see where this comes from. All I'm saying is: have you ever had a working lunch? Have you ever had a working lunch with somebody more than once? Have you ever had a drink at that working lunch? You may well have not. I guarantee everybody in this room just about has and it is the way of the world. That is all I'm saying. I'm not suggesting – I certainly won't accept the idea that me going for dinner with a police officer is any different from a civil servant going for dinner with a businessman. I see no difference in it at all. I might be wrong, but – LORD JUSTICE LEVESON: I'm not sure you are wrong. A. I'm certain I'm not.'
 
 1.14 For ease of reference and understanding, I will set out my conclusions, and then my recommendations, in relation to the specific matters covered above.7 Often, I will draw on my earlier analysis, expanding it only where I need to place my conclusions into context. I should record that I have had regard to the detailed and helpful closing submissions lodged by the Core Participants in relation to Module Two (as with the other modules): save in isolated instances, I do not refer to these expressly, but they have aided the development of my thinking on these matters.
 
@@ -19806,7 +19804,7 @@ Published by TSO (The Stationery Office) and available from:
 
 Online www.tsoshop.co.uk
 
-Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries:[^870] 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders:[^870] 600 5533 E-mail: customer.services@tso.co.uk Textphone:[^870] 240 3701
+Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries: 0870 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders: 0870 600 5533 E-mail: customer.services@tso.co.uk Textphone: 0870 240 3701
 
 The Houses of Parliament Shop 12 Bridge Street, Parliament Square London SW1A 2JX Telephone orders: 020 7219 3890/General enquiries: 020 7219 3890 Fax orders: 020 7219 3866 Email: shop@parliament.uk Internet: http://www.shop.parliament.uk
 
@@ -21446,7 +21444,7 @@ The ICO and the Press today
 
 1.6 It is not necessary to consider Mr Graham's evidence to the Select Committee in detail, because the same ground was explored in the course of his evidence to the Inquiry. His general update to the Committee on the work of the ICO work with the press at that time is, however, interesting. He said:3
 
-"We started off by a general call to the industry which, indeed, was heeded to some extent in that the Editors' Code Committee eventually amended clause 10 of the Code, made it much tougher, and we have done a lot of work with the PCC in training editors. We have done a couple of seminars, one in London and one in Scotland, to make sure that journalists understand that this is serious. I saw a copy of the Editors' Code Handbook the other day and it makes it very clear that you mix with the Data Protection Act at your peril and you had better have a very solid public interest story very well documented, in order to do that. Chairman, the interesting question is why did not any of those titles that were listed in What Price Privacy Now? contact the Information Commissioner's Office and say, "This is terrible,[^45] of our journalists apparently have been doing this thing which we utterly condemn, tell us who they are", and we then might have been able to talk turkey. Interestingly, of 305 journalists, and we listed the total in the document, we have not had a single inquiry from a journalist saying, "Am I on that list? Was I doing something wrong?"
+"We started off by a general call to the industry which, indeed, was heeded to some extent in that the Editors' Code Committee eventually amended clause 10 of the Code, made it much tougher, and we have done a lot of work with the PCC in training editors. We have done a couple of seminars, one in London and one in Scotland, to make sure that journalists understand that this is serious. I saw a copy of the Editors' Code Handbook the other day and it makes it very clear that you mix with the Data Protection Act at your peril and you had better have a very solid public interest story very well documented, in order to do that. Chairman, the interesting question is why did not any of those titles that were listed in What Price Privacy Now? contact the Information Commissioner's Office and say, "This is terrible, 45 of our journalists apparently have been doing this thing which we utterly condemn, tell us who they are", and we then might have been able to talk turkey. Interestingly, of 305 journalists, and we listed the total in the document, we have not had a single inquiry from a journalist saying, "Am I on that list? Was I doing something wrong?"
 
 1.7 The Inquiry has also had to consider the question of the lack of press interest in pursuing the Motorman evidence but it is also important to look at the position from the perspective of the ICO. Its own stocktake, at the end of 2009, was that it was aware that Mr Thomas' political campaign had at best been only partially successful, and had also established a hostile response from the press. It knew that neither the ICO itself, nor evidently the press, H had followed up the Motorman evidence operationally, either in relation to the particulars of the state and use of the information itself, the conduct of individual journalists, or its own practices. Finally, it was on notice of the emergence of the phone hacking scandal.
 
@@ -24632,8 +24630,6 @@ Concerns of the press and lobbying
 
 3.23 I can quite understand how from Mr Blair's perspective, section 12 appeared to be a compromise; he after all was supportive of the press case for complete exemption from the scope of the HRA. But the evidence of Lord Wakeham and Mr Straw clearly demonstrates that complete immunity was unrealistic and unacceptable, not least from the point of view of public opinion.
 
-pp96-97 lines 4-16, Tony Blair, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Morning-Hearing-28-May-2012.pdf
-
 %%page 1269%%
 
 Aftermath
@@ -24730,7 +24726,7 @@ Evidence of lobbying behind the scenes: reasons for the policy I change
 
 4.18 The Prime Minister, Mr Brown, dined with Les Hinton, Murdoch MacLennan and Paul Dacre on 10 September 2007. Mr Hinton, then Executive Chairman of News International, did not give evidence to the Inquiry. Mr MacLennan gave evidence on 10 January 2012 but was not asked to deal with this occasion. The accounts I received from Mr Brown and Mr Dacre are different in emphasis if not in substance. Mr Brown's account of the dinner was as follows:157
 
-"A. I remember the issue. I told them, as we started the dinner, what my own view was. I didn't ask them for their view, I'm afraid. Maybe I should have. I told them what my view was, that there should be a public interest defence, and therefore it wasn't a question of them lobbying me. I was informing them that this was my view, but that Michael Wills, who was an excellent minister, and Jack Straw, who was doing a great job on this, were consulting people about how we could implement this in a way where there was a public interest defence but we weren't going to back off entirely the potential need for legislation. Q. Mr Dacre's account doesn't quite match that, Mr Brown. Under tab 34, he gave a speech to the Society of Editors conference on 9 November 2008. So it's about 16,[^17] months after the relevant date. A. Yes. Q. He says: "About 18 months ago [he means on 10 September 2007] I, Les Hinton of News International and Murdoch McLellan [sic] of the Telegraph, had dinner with the Prime Minister Gordon Brown. On the agenda was our deep concern that the newspaper industry was facing a number of very serious threats to its freedoms." Then he said: "The fourth issue we raised with Gordon Brown was a truly frightening amendment to the Data Protection Act." This is the amendment – A. I don't think there's any disagreement in these accounts. He had it on his agenda for the meeting. They raised it, but I told them as they raised it: "Look, this is my view." I didn't say, "I'm waiting to hear your view"; I told them: "This is my view." I remember this distinctly. I had already made up my mind before I went into the meeting, and I told Jack and Michael that there should be a public interest defence and that we should probably postpone the implementation of this clause. Look, at that time, of course, we didn't have all the information we now have about the abuse of this – of data by the media. At that time, there was no suggestion that there was I anything other than what was called the rogue hacker. But again, my instinct is still the same, that there ought to be a public interest defence. I know it's uncomfortable, because you are balancing off two freedoms, as we said at the beginning. You have this right that I would defend for people to have privacy, and you have this right of the media, I would say the individual, to express themselves and for the media to do this through a freedom of speech and therefore a willingness or ability to investigate things that are wrong, and you are balancing off these two freedoms. It seemed to me that we may end up with the custodial sentences, and that was an option that was left to us. We said we'd come back to this, but at that time we thought that – let us look at whether a public interest defence can be introduced into this legislation, which is what we did."
+"A. I remember the issue. I told them, as we started the dinner, what my own view was. I didn't ask them for their view, I'm afraid. Maybe I should have. I told them what my view was, that there should be a public interest defence, and therefore it wasn't a question of them lobbying me. I was informing them that this was my view, but that Michael Wills, who was an excellent minister, and Jack Straw, who was doing a great job on this, were consulting people about how we could implement this in a way where there was a public interest defence but we weren't going to back off entirely the potential need for legislation. Q. Mr Dacre's account doesn't quite match that, Mr Brown. Under tab 34, he gave a speech to the Society of Editors conference on 9 November 2008. So it's about 16, 17 months after the relevant date. A. Yes. Q. He says: "About 18 months ago [he means on 10 September 2007] I, Les Hinton of News International and Murdoch McLellan [sic] of the Telegraph, had dinner with the Prime Minister Gordon Brown. On the agenda was our deep concern that the newspaper industry was facing a number of very serious threats to its freedoms." Then he said: "The fourth issue we raised with Gordon Brown was a truly frightening amendment to the Data Protection Act." This is the amendment – A. I don't think there's any disagreement in these accounts. He had it on his agenda for the meeting. They raised it, but I told them as they raised it: "Look, this is my view." I didn't say, "I'm waiting to hear your view"; I told them: "This is my view." I remember this distinctly. I had already made up my mind before I went into the meeting, and I told Jack and Michael that there should be a public interest defence and that we should probably postpone the implementation of this clause. Look, at that time, of course, we didn't have all the information we now have about the abuse of this – of data by the media. At that time, there was no suggestion that there was I anything other than what was called the rogue hacker. But again, my instinct is still the same, that there ought to be a public interest defence. I know it's uncomfortable, because you are balancing off two freedoms, as we said at the beginning. You have this right that I would defend for people to have privacy, and you have this right of the media, I would say the individual, to express themselves and for the media to do this through a freedom of speech and therefore a willingness or ability to investigate things that are wrong, and you are balancing off these two freedoms. It seemed to me that we may end up with the custodial sentences, and that was an option that was left to us. We said we'd come back to this, but at that time we thought that – let us look at whether a public interest defence can be introduced into this legislation, which is what we did."
 
 %%page 1275%%
 
@@ -26534,7 +26530,7 @@ and:406
 
 5.155 But there were times when Mr Smith succumbed to Mr Michel's tactics and appeared momentarily at least to have been drawn in by the narrative of common cause. On one occasion he found himself joking with Mr Michel about an opponent of the bid. On another, he joined in criticism of Ofcom. He passed on information about the progress of the bid that would have been more properly communicated in a much more formal manner. He did not make formal notes of the communications. There is an issue (analysed below) about Mr Michel's source of confidential information about the Government's thinking as to the form which inquiries arising out of the phone hacking scandal would take: whatever the truth of the matter, Mr Smith should never have been running any risk of being the source of any but the most inconsequential information.
 
-5.156 The above impressions can be illustrated by reference to a few salient examples. On 10 January 2011, the telephone records showed three calls between Mr Michel and Mr Smith totalling 27 minutes,[^55] seconds.412 There is also an email from Mr Michel to James Murdoch and others. It is clear from the email that Mr Smith had told Mr Michel about the reaction of Ed Richards (of Ofcom) to the points on which Mr Hunt had sought clarification from him.413 Ultimately, Mr Smith did not dispute that he had done so and correctly pointed out that it had always been Mr Hunt's intention that News Corp should be informed of the clarifications that Mr Richards had provided. This is, however, an example of substantive information about the bid being communicated by Mr Smith in a very informal manner and without keeping a formal record. The e mail recorded in material part that:414 "[Jeremy Hunt/Adam Smith] saw Ed Richards today:
+5.156 The above impressions can be illustrated by reference to a few salient examples. On 10 January 2011, the telephone records showed three calls between Mr Michel and Mr Smith totalling 27 minutes, 55 seconds.412 There is also an email from Mr Michel to James Murdoch and others. It is clear from the email that Mr Smith had told Mr Michel about the reaction of Ed Richards (of Ofcom) to the points on which Mr Hunt had sought clarification from him.413 Ultimately, Mr Smith did not dispute that he had done so and correctly pointed out that it had always been Mr Hunt's intention that News Corp should be informed of the clarifications that Mr Richards had provided. This is, however, an example of substantive information about the bid being communicated by Mr Smith in a very informal manner and without keeping a formal record. The e mail recorded in material part that:414 "[Jeremy Hunt/Adam Smith] saw Ed Richards today:
 
 %%page 1394%%
 
@@ -27774,7 +27770,7 @@ Published by TSO (The Stationery Office) and available from:
 
 Online www.tsoshop.co.uk
 
-Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries:[^870] 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders:[^870] 600 5533 E-mail: customer.services@tso.co.uk Textphone:[^870] 240 3701
+Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries: 0870 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders: 0870 600 5533 E-mail: customer.services@tso.co.uk Textphone: 0870 240 3701
 
 The Houses of Parliament Shop 12 Bridge Street, Parliament Square London SW1A 2JX Telephone orders: 020 7219 3890/General enquiries: 020 7219 3890 Fax orders: 020 7219 3866 Email: shop@parliament.uk Internet: http://www.shop.parliament.uk
 
@@ -29294,7 +29290,7 @@ Baroness Buscombe has made clear, is that in contrast to ASBoF, PressBoF sought 
 
 3.7 It is also clear to me that the funding made available to the PCC is barely sufficient to enable it to conduct its complaints handling functions effectively. Further, in so limiting the funding available to the PCC, the organisation was unable to exercise other functions that might be properly expected of a regulator, for example, in relation to investigations into industry conduct, and the promotion of standards. Although in submissions to the Inquiry, Lord Black on behalf of PressBoF has disputed that the PCC is under-funded, I recall two other important pieces of evidence in this regard. First, the lack of funding was characterised by Baroness Buscombe as "a fundamental problem…I believe that the industry could have and should have done more to support the PCC in this regard, notwithstanding the sector's own commercial pressures".25 She continued:26
 
-> "[The PCC's] performance runs the risk of being compromised because of lack of adequate funding…whilst there has been a real desire on the part of all of us at the PCC to raise our game, a significant lack of resource makes this frankly impossible. The PCC functions because the 16 staff work very long hours and the current director [Stephen Abell] is working and on call 24 hours a day,[^7] days a week, as is the Head of Complaints and other staff members. This is simply not sustainable and is not reasonable or sensible given the nature of our work (critical judgment calls made within tight time constraints and its importance to society at large."
+> "[The PCC's] performance runs the risk of being compromised because of lack of adequate funding…whilst there has been a real desire on the part of all of us at the PCC to raise our game, a significant lack of resource makes this frankly impossible. The PCC functions because the 16 staff work very long hours and the current director [Stephen Abell] is working and on call 24 hours a day, 7 days a week, as is the Head of Complaints and other staff members. This is simply not sustainable and is not reasonable or sensible given the nature of our work (critical judgment calls made within tight time constraints and its importance to society at large."
 
 3.8 Second, in June 2010, at the request of PressBoF, the PCC Director Stephen Abell undertook a financial review of the organisation. His conclusions were summarised as follows:27
 
@@ -35293,7 +35289,7 @@ UN General Assembly Resolution 59(1) of 14 December 1946
 
 2.9 Further, the rationale for protecting the freedom of the press in contributing to debate in a democratic society has also been recognised. Lord Steyn observed in R v Secretary of State for the Home Department, Ex p Simms:10
 
-> "Freedom of expression is, of course, intrinsically important: it is valued for its own sake. But it is well recognised that it is also instrumentally important. It serves a number of broad objectives. First, it promotes the self-fulfilment of individuals in society. Secondly, in the famous words of Holmes J (echoing John Stuart Mill), 'the best test of truth is the power of the thought to get itself accepted in the competition of the market': Abrams v United States (1919)[^250] US 616, 630, per Holmes J (dissenting). Thirdly, freedom of speech is the lifeblood of democracy. The free flow of information and ideas informs political debate. It is a safety valve: people are more ready to accept decisions that go against them if they can in principle seek to influence them. It acts as a brake on the abuse of power by public officials. It facilitates the exposure of errors in the governance and administration of justice of the country."
+> "Freedom of expression is, of course, intrinsically important: it is valued for its own sake. But it is well recognised that it is also instrumentally important. It serves a number of broad objectives. First, it promotes the self-fulfilment of individuals in society. Secondly, in the famous words of Holmes J (echoing John Stuart Mill), 'the best test of truth is the power of the thought to get itself accepted in the competition of the market': Abrams v United States (1919) 250 US 616, 630, per Holmes J (dissenting). Thirdly, freedom of speech is the lifeblood of democracy. The free flow of information and ideas informs political debate. It is a safety valve: people are more ready to accept decisions that go against them if they can in principle seek to influence them. It acts as a brake on the abuse of power by public officials. It facilitates the exposure of errors in the governance and administration of justice of the country."
 
 Article 10 of the Convention
 
@@ -36419,7 +36415,7 @@ Penalty for breach of s55(1)
 
 4.69 The report "What Price Privacy Now?" set out in tabular form the publications which had been identified from documentation seized during Operation Motorman as being involved in the unlawful obtaining or procuring of personal data.398 The report noted at paragraph 5.8 that documents seized as part of Operation Motorman showed thousands of s55 offences and gave details of a number of identifiable reporters who had been supplied with information obtained unlawfully; implicating some 305 journalists.
 
-4.70 A summary of the penalties imposed following convictions for data protection offences is set out in Annex A of the report "What Price Privacy?" The table demonstrates that of the prosecutions pursued between 2002 and 2006 by the Information Commission,[^23] of 26 resulted in convictions. It was noted that prosecutions brought under the Act have generally resulted in low penalties: either minimal fines or conditional discharges. Between November
+4.70 A summary of the penalties imposed following convictions for data protection offences is set out in Annex A of the report "What Price Privacy?" The table demonstrates that of the prosecutions pursued between 2002 and 2006 by the Information Commission, 23 of 26 resulted in convictions. It was noted that prosecutions brought under the Act have generally resulted in low penalties: either minimal fines or conditional discharges. Between November
 
 %%page 1918%%
 
@@ -36595,7 +36591,7 @@ Computer hacking – Computer Misuse Act 1990
 
 5.13 The Computer Misuse Act 1990 was introduced in August 1990 following a Law Commission report surrounding computer misuse and the need to react to increasing technological development and potential abuse of this technology.441
 
-5.14 The Act provides, in ss1, 2,[^3] and 3A for criminal sanctions for unauthorised access to any material held on a computer and for impairment of the operation of a computer, with further sanctions if this is done with a view to the commission of a crime and for making, supplying or obtaining articles for use in the relevant offences.442
+5.14 The Act provides, in ss1, 2, 3 and 3A for criminal sanctions for unauthorised access to any material held on a computer and for impairment of the operation of a computer, with further sanctions if this is done with a view to the commission of a crime and for making, supplying or obtaining articles for use in the relevant offences.442
 
 5.15 The Computer Misuse Act introduced three new offences into UK criminal law which can be summarised in broad terms as follows: unauthorised access to computer material, unauthorised access with intent to commit a further offence, and unauthorised modification.
 
@@ -36697,7 +36693,7 @@ Falsification, forgery and counterfeiting
 
 Offences relating to identity documents
 
-5.49 The Identity Cards Act 2006 was repealed on 21 January 2011 by the Identity Documents Act 2010, although the offences created by s25 of the 2006 Act were re-enacted with consequential amendments in ss4,[^5] and 6 of the 2010 Act.
+5.49 The Identity Cards Act 2006 was repealed on 21 January 2011 by the Identity Documents Act 2010, although the offences created by s25 of the 2006 Act were re-enacted with consequential amendments in ss4, 5 and 6 of the 2010 Act.
 
 5.50 Section 4 provides that it is an offence for a person with an improper intention to have in their possession or under their control an identity document that is false and that they know or believe to be false, an identity document that was improperly obtained and that they know or believe to have been improperly obtained, or an identity document that relates to someone else.469
 
@@ -36739,7 +36735,7 @@ Making payments to public officials in order to obtain information
 
 %%page 1937%%
 
-5.61 The Bribery Act 2010 was brought into force on 1 July 2011 and sets out a consolidated scheme for bribery offences in the UK and abroad. Section 17 and Schedule 2 abolish the common law offences of bribery but leave intact the common law offence of misconduct in public office. New offences are created by ss1, 2,[^6] and 7 of the Bribery Act 2010. The Act does not have retrospective effect, and acts undertaken prior to the commencement date will be charged under the old law.
+5.61 The Bribery Act 2010 was brought into force on 1 July 2011 and sets out a consolidated scheme for bribery offences in the UK and abroad. Section 17 and Schedule 2 abolish the common law offences of bribery but leave intact the common law offence of misconduct in public office. New offences are created by ss1, 2, 6 and 7 of the Bribery Act 2010. The Act does not have retrospective effect, and acts undertaken prior to the commencement date will be charged under the old law.
 
 5.62 The key offences in the Act are ss1 (bribery of another person) and 2 (being bribed). The offences apply equally to the public and private sector.
 
@@ -36751,7 +36747,7 @@ Making payments to public officials in order to obtain information
 
 5.66 The third case is where the person requests, agrees to receive or accepts a financial or other advantage intending that, in consequence, a relevant function or activity should be performed improperly by themselves or another. The fourth case is where a person requests, agrees to receive or accepts a financial or other advantage, and the request, agreement or acceptance itself constitutes the improper performance by a person of a relevant function or activity. The fifth case is where a person requests, agrees to receive or accepts a financial or other advantage as a reward for the improper performance, whether by themselves or another, of a relevant function or activity. The sixth case is where, in anticipation of, or in consequence of a person requesting, agreeing to receive or accepting a financial or other advantage, a relevant function or activity is performed improperly by the person or another at the person's request or with the person's assent or acquiescence.478
 
-5.67 The Director of the Serious Fraud Office and the DPP published joint guidance on 30 March 2011 on the approach to prosecutorial decision-making in respect of offences under ss1,2,[^6] and 7 of the Act.
+5.67 The Director of the Serious Fraud Office and the DPP published joint guidance on 30 March 2011 on the approach to prosecutorial decision-making in respect of offences under ss1,2, 6 and 7 of the Act.
 
 %%page 1938%%
 
@@ -36779,7 +36775,7 @@ Restrictions on content of publications Official Secrets Act 1989
 
 5.75 Section 1 of the Official Secrets Act 1989 contains an offence relating to the disclosure of information and material by a person who is or has been a member of the security and intelligence services or has been notified they are subject to the OSA 1989. Section 2 creates the offence of damaging disclosure of defence information, s3 relates to damaging disclosure of material relating to international relations or other confidential information, documents or articles which were obtained from a State other than the UK or an international organisation, and s4 creates an offence of disclosure of information relevant to criminal investigations.484
 
-5.76 The House of Lords in R v Shayler held that ss1,[^3] and 4 do not entitle a defendant prosecuted under those provisions to be acquitted if they show that it was, or that they believed that it was, in the public or national interest to make the disclosure in question or if the jury concluded that it might have been, or the defendant might have believed it to have been in the public or national interest to make the disclosure in question.485 Lord Bingham held that:486
+5.76 The House of Lords in R v Shayler held that ss1, 3 and 4 do not entitle a defendant prosecuted under those provisions to be acquitted if they show that it was, or that they believed that it was, in the public or national interest to make the disclosure in question or if the jury concluded that it might have been, or the defendant might have believed it to have been in the public or national interest to make the disclosure in question.485 Lord Bingham held that:486
 
 > "It is in my opinion plain, giving sections 1(1)(a) and 4(1) and 3(a) their natural and ordinary meaning and reading them in the context of the OSA 1989 as a whole, that a defendant prosecuted under these sections is not entitled to be acquitted if he shows that it was or that he believed that it was in the public or national interest to make the disclosure in question or if the jury conclude that it may have been or that the defendant may have believed it to be in the public or national interest to make the disclosure in question. The sections impose no obligation on the prosecution to prove that the disclosure was not in the public interest and give the defendant no opportunity to show that the disclosure was in the public interest or that he thought it was. The sections leave no room for doubt, and if they did the 1988 white paper quoted above, which is a legitimate aid to construction, makes the intention of Parliament clear beyond argument."
 
@@ -37304,7 +37300,7 @@ Lord O'Donnell: • p14, on the link between leaking and pre-briefing and media 
 
 Jeremy Paxman: • para 2.12, on politicians telling journalists things to settle a score or undermine a colleague, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of- Jeremy-Paxman.pdf • para 2.13, on the politicisation of the government information service, http://www. levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Jeremy- Paxman.pdf • paras 2.10, that the media has an influence over public policy; 10.1, giving examples of governing in response to headlines, including amendments to legislation to reform the NHS, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness- Statement-of-Jeremy-Paxman.pdf • 121/23-122/19, that politicians caring too much about how they are portrayed in the media risks ending up with legislation like the Dangerous Dogs Act, http://www.levesoninquiry. org.uk/wp-content/uploads/2012/05/Transcript-of-Afternoon-Hearing-23-May-2012.pdf
 
-Jack Straw MP: • para 11, on the risk of politicians being influenced by the agendas of media organisations, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of- Jack-Straw-MP.pdf • para 24, on the risk of opposition politicians "playing fast and loose with statistics", http:// www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Jack- Straw-MP.pdf • 5/3-5/11, on most political stories being "knocking stories", and on relationships between particular journalists and opposition spokespeople; 5/12-5/17, on building relationships with correspondents to "build up stories and enjoy the results", http://www.levesoninquiry. org.uk/wp-content/uploads/2012/05/Transcript-of-Morning-Hearing-16-May-2012.pdf • 78/14-79/6, on the privileging of some journalists and newspapers over others, http:// www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning- Hearing-16-May-2012.pdf • 78/14-79/6, that specific newspapers or journalists were favoured by Downing Street or ministers, that these groups were "very, very incestuous", http://www.levesoninquiry. org.uk/wpcontent/uploads/2012/05/Transcript-of-Morning-Hearing-16-May-2012.pdf • paras 115, that the media plays an important role in the development of policy; 117, the political class has indulged the tendency of sections of the media to exercise power without responsibility; 119-122, that pressure from the press can be intense in certain policy areas, and that he had sometimes pursued a policy due to media coverage, http:// www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Jack- Straw-MP.pdf • paras 83-90, describing media lobbying and influence on the penalty for misuse of data; at para 91, the appointment of Paul Dacre to head the review of the 30 year rule and that Gordon Brown and Paul Dacre had discussed the appointment ahead of Gordon Brown becoming Prime Minister; at paras 102-111, describing media influence over the formation of s.[^12] of the Human Rights Act, • http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of- Jack-Straw-MP.pdf
+Jack Straw MP: • para 11, on the risk of politicians being influenced by the agendas of media organisations, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of- Jack-Straw-MP.pdf • para 24, on the risk of opposition politicians "playing fast and loose with statistics", http:// www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Jack- Straw-MP.pdf • 5/3-5/11, on most political stories being "knocking stories", and on relationships between particular journalists and opposition spokespeople; 5/12-5/17, on building relationships with correspondents to "build up stories and enjoy the results", http://www.levesoninquiry. org.uk/wp-content/uploads/2012/05/Transcript-of-Morning-Hearing-16-May-2012.pdf • 78/14-79/6, on the privileging of some journalists and newspapers over others, http:// www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning- Hearing-16-May-2012.pdf • 78/14-79/6, that specific newspapers or journalists were favoured by Downing Street or ministers, that these groups were "very, very incestuous", http://www.levesoninquiry. org.uk/wpcontent/uploads/2012/05/Transcript-of-Morning-Hearing-16-May-2012.pdf • paras 115, that the media plays an important role in the development of policy; 117, the political class has indulged the tendency of sections of the media to exercise power without responsibility; 119-122, that pressure from the press can be intense in certain policy areas, and that he had sometimes pursued a policy due to media coverage, http:// www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Jack- Straw-MP.pdf • paras 83-90, describing media lobbying and influence on the penalty for misuse of data; at para 91, the appointment of Paul Dacre to head the review of the 30 year rule and that Gordon Brown and Paul Dacre had discussed the appointment ahead of Gordon Brown becoming Prime Minister; at paras 102-111, describing media influence over the formation of s. 12 of the Human Rights Act, • http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of- Jack-Straw-MP.pdf
 
 %%page 1980%%
 
@@ -37364,7 +37360,7 @@ Published by TSO (The Stationery Office) and available from:
 
 Online www.tsoshop.co.uk
 
-Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries:[^870] 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders:[^870] 600 5533 E-mail: customer.services@tso.co.uk Textphone:[^870] 240 3701
+Mail, Telephone, Fax & E-mail TSO PO Box 29, Norwich, NR3 1GN Telephone orders/General enquiries: 0870 600 5522 Order through the Parliamentary Hotline Lo-Call 0845 7 023474 Fax orders: 0870 600 5533 E-mail: customer.services@tso.co.uk Textphone: 0870 240 3701
 
 The Houses of Parliament Shop 12 Bridge Street, Parliament Square London SW1A 2JX Telephone orders: 020 7219 3890/General enquiries: 020 7219 3890 Fax orders: 020 7219 3866 Email: shop@parliament.uk Internet: http://www.shop.parliament.uk
 
@@ -37770,9 +37766,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^8]: ibid
 
-[^2002]: daily figures from http://media.guardian.co.uk/presspublishing/tables/0,,811748,00.html; Sunday figures from http://media.guardian.co.uk/presspublishing/tables/0,,811755,00.html;
-
-[^2012]: figures from http://www.pressgazette.co.uk/abcs-three-national-dailies-increase-circulation-september
+[^9]: 2002 daily figures from http://media.guardian.co.uk/presspublishing/tables/0,,811748,00.html; 2002 Sunday figures from http://media.guardian.co.uk/presspublishing/tables/0,,811755,00.html; 2012 figures from http://www.pressgazette.co.uk/abcs-three-national-dailies-increase-circulation-september
 
 [^10]: PWC adspend study, http://www.iabuk.net/research/library/2012-h1-digital-adspend-results
 
@@ -38350,7 +38344,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^278]: p14, para 41, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Witness-Statement-of-Tony- Gallagher.pdf
 
-[^1]: January 2012 Report and Accounts for the Financial Year of the Telegraph Media Group Limited (published 21 March 2012)
+[^279]: 1 January 2012 Report and Accounts for the Financial Year of the Telegraph Media Group Limited (published 21 March 2012)
 
 [^280]: p10, para 30, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Witness-Statement-of-Murdoch- MacLennan.pdf
 
@@ -39154,9 +39148,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^49]: s58A(1 )
 
-[^50]: s58A (2). A newspaper company is an enterprise consisting in or involving the supply of newspapers (Section
-
-[^58]: A(3)). A "newspaper" is a daily, Sunday or local (other than daily or Sunday) newspaper circulating wholly or mainly in the UK or in a part of the UK (Section 44(10))
+[^50]: s58A (2). A newspaper company is an enterprise consisting in or involving the supply of newspapers (Section 58A(3)). A "newspaper" is a daily, Sunday or local (other than daily or Sunday) newspaper circulating wholly or mainly in the UK or in a part of the UK (Section 44(10))
 
 [^51]: p24, para 25.7, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/02/Witness-Statement-of-Ed-Richards. pdf
 
@@ -41350,9 +41342,13 @@ TSO@Blackwell and other Accredited Agents
 
 [^5]: see for instance Flood v Times Newspapers 2012 UKSC 11
 
-[^6]: http://www.levesoninquiry.org.uk/hearing/2011-11-14am/ http://www.levesoninquiry.org.uk/hearing/2011-11-
+[^6]: http://www.levesoninquiry.org.uk/hearing/2011-11-14am/ http://www.levesoninquiry.org.uk/hearing/2011-11- 14pm/
 
-[^14]: pm/
+[^7]: Part F, Chapter 5
+
+[^8]: p86, lines 17-19, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of-Afternoon-Hearing- 21-November-2011.pdf
+
+[^9]: p41, lines 2-8, JK Rowling, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of-Afternoon- Hearing-24-November-20112.pdf
 
 [^10]: pp31-32, lines 16-19, Gerry and Kate McCann, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/ Transcript-of-Afternoon-Hearing-23-November-2011.pdf
 
@@ -42420,9 +42416,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^44]: p24 passim, p25, lines 18-23, Peter Hill, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript- of-Afternoon-Hearing-12-January-2012.pdf
 
-[^45]: Exhibit PWH3 to the witness statement of Peter Hill (which included circulation figures for the Daily Express between
-
-[^1]: January 2007 and 4 January 2009) was provided to the Inquiry on a confidential basis. It has not been published as it includes commercially sensitive data
+[^45]: Exhibit PWH3 to the witness statement of Peter Hill (which included circulation figures for the Daily Express between 1 January 2007 and 4 January 2009) was provided to the Inquiry on a confidential basis. It has not been published as it includes commercially sensitive data
 
 [^46]: para 354, http://www.publications.parliament.uk/pa/cm200910/cmselect/cmcumeds/362/362i.pdf
 
@@ -42980,9 +42974,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^204]: p24, lines 12-18, Sienna Miller, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of- Morning-Hearing-24-November-2011.pdf
 
-[^205]: Hugh Grant and Ms Hong (Hugh Grant, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/ Supplemental-Witness-Statement-of-Hugh-Grant.pdf ; p1 para 6 –p2 para 7, http://www.levesoninquiry.org.uk/wp- content/uploads/2012/02/Second-Witness-Statement-of-Mark-Thomson.pdf);, p12 lines 3 – p13 lines 4, p14 lines 17 – p16 lines 8, Charlotte Church, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of- Afternoon-Hearing-28-November-20111.pdf; p25 lines 11 – p35 lines 10, Sienna Miller, http://www.levesoninquiry.org. uk/wp-content/uploads/2011/11/Transcript-of-Morning-Hearing-24-November-2011.pdf; and generally p87 lines 16-
-
-[^19]: and p88 lines 17-20, Paul McMullan, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript- of-Afternoon-Hearing-29-November-2011.pdf
+[^205]: Hugh Grant and Ms Hong (Hugh Grant, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/ Supplemental-Witness-Statement-of-Hugh-Grant.pdf ; p1 para 6 –p2 para 7, http://www.levesoninquiry.org.uk/wp- content/uploads/2012/02/Second-Witness-Statement-of-Mark-Thomson.pdf);, p12 lines 3 – p13 lines 4, p14 lines 17 – p16 lines 8, Charlotte Church, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of- Afternoon-Hearing-28-November-20111.pdf; p25 lines 11 – p35 lines 10, Sienna Miller, http://www.levesoninquiry.org. uk/wp-content/uploads/2011/11/Transcript-of-Morning-Hearing-24-November-2011.pdf; and generally p87 lines 16- 19 and p88 lines 17-20, Paul McMullan, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript- of-Afternoon-Hearing-29-November-2011.pdf
 
 [^206]: The Inquiry also heard evidence from Alastair Campbell as that invoices had been discovered as part of police investigations suggesting the Mirror had paid private investigators to place him, a member of his family, and Peter Mandelson under surveillance: p69, lines 2–6, Alastair Campbell, http://www.levesoninquiry.org.uk/wp-content/ uploads/2011/11/Transcript-of-Morning-Hearing-30-November-2011.pdf
 
@@ -47980,7 +47972,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^52]: pp36-7, lines 18-23, Kelvin MacKenzie, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript- of-Morning-Hearing-9-January-2012.pdf
 
-[^16]: September 1992, when the Government was forced to withdraw the pound from the European Exchange Rate Mechanism
+[^53]: 16 September 1992, when the Government was forced to withdraw the pound from the European Exchange Rate Mechanism
 
 [^54]: p20, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Witness-Statement-of-Sir-John-Major.pdf
 
@@ -49180,15 +49172,17 @@ TSO@Blackwell and other Accredited Agents
 
 [^131]: p31, lines 17-25, Jack Straw MP, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Morning-Hearing-16-May-2012.pdf
 
-[^315]: HC Official Report (6th series) col 536 (2 July 1998).
+[^132]: 315 HC Official Report (6th series) col 536 (2 July 1998).
 
 [^133]: in Application 13585/88: Observer and Guardian v United Kingdom (1991) 14 EHRR 153, para 60
 
-[^315]: HC Official Report (6th series) col 536 (2 July 1998).
+[^134]: 315 HC Official Report (6th series) col 536 (2 July 1998).
 
 [^135]: p15, paras 46-47, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Second-Witness-Statement-of- Lord-Wakeham.pdf
 
 [^136]: p36, line 14, Jack Straw, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning- Hearing-16-May-2012.pdf
+
+[^137]: pp96-97 lines 4-16, Tony Blair, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Morning-Hearing-28-May-2012.pdf
 
 [^138]: Lester A and Pannick D, Human Rights Law and Practice, (2009), P84.
 
@@ -49468,7 +49462,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^28]: 1993 UKHL 8; 1994 AC 531
 
-[^2001]: UKHL 67; 2002 2 AC 357, para 103
+[^29]: 2001 UKHL 67; 2002 2 AC 357, para 103
 
 [^30]: pp7-8, lines 22-9, Dr Vince Cable, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Morning-Hearing-30-May-2012.pdf
 
@@ -50768,9 +50762,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^33]: Reference is made to Article 8 of the ECHR
 
-[^34]: Goodwin v UK (1996) 22 EHRR 123 paragraph 39; see also Ashworth Hospital Authority v MGN Ltd [2002] 1 WLR
-
-[^2003]: and Mersey Care NHS Trust v Ackroyd [2007] EWCA Civ 101
+[^34]: Goodwin v UK (1996) 22 EHRR 123 paragraph 39; see also Ashworth Hospital Authority v MGN Ltd [2002] 1 WLR 2003 and Mersey Care NHS Trust v Ackroyd [2007] EWCA Civ 101
 
 [^35]: p23, line 13, Keir Starmer QC, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/02/Transcript-of- Afternoon-Hearing-8-February-2012.pdf
 
@@ -50796,9 +50788,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^46]: Para 6 of Schedule 5 of the Terrorism Act 2005
 
-[^47]: I do not ignore the considerations that flow from Article 10 of the ECHR and s. 10 of the Contempt of Court Act 1981 (as to which there is no material difference in principle: see Camelot Group plc v Centaur Communications [1999] QB
-
-[^124]: at 138G per Thorpe LJ). The courts will continue to have to consider these provisions and carry out a balancing exercise in any case involving the press even if the material is neither journalistic material or excluded within the PACE definitions: a summary of the position can be found in Shiv Malik v Manchester Crown Court [2008] EWHC 1362 (Admin) per Dyson LJ (as he then was) at paras 48 et seq
+[^47]: I do not ignore the considerations that flow from Article 10 of the ECHR and s. 10 of the Contempt of Court Act 1981 (as to which there is no material difference in principle: see Camelot Group plc v Centaur Communications [1999] QB 124 at 138G per Thorpe LJ). The courts will continue to have to consider these provisions and carry out a balancing exercise in any case involving the press even if the material is neither journalistic material or excluded within the PACE definitions: a summary of the position can be found in Shiv Malik v Manchester Crown Court [2008] EWHC 1362 (Admin) per Dyson LJ (as he then was) at paras 48 et seq
 
 [^8]: [2005] UKHL 61 at para 31
 
@@ -52702,9 +52692,9 @@ TSO@Blackwell and other Accredited Agents
 
 [^274]: p13, para 34-35, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Media- Regulation-Round-Table.pdf
 
-[^418]: US 2141 (1974)
+[^275]: 418 US 2141 (1974)
 
-[^62]: D+R 247 (1989)
+[^276]: 62 D+R 247 (1989)
 
 [^277]: p12, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/First-Submission-by-Sir-Louis-Blom-Cooper- QC.pdf
 
@@ -53590,7 +53580,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^38]: Loc. cit., at para 17 of dissenting opinion of Judge Bonello, joined by Judges David Thor Bjorgvinsson and Sikuta
 
-[^306]: HC Official Report (6th series) cols 775-777 (16 February 1998). See also pp28-41, [lines 23-16], Jack Straw, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning-Hearing-16-May-2012.pdf
+[^39]: 306 HC Official Report (6th series) cols 775-777 (16 February 1998). See also pp28-41, [lines 23-16], Jack Straw, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning-Hearing-16-May-2012.pdf
 
 [^40]: [2004] UKHL 44, at para 15
 
@@ -53606,9 +53596,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^46]: [2001] EWCA Civ 1142 at para 27
 
-[^47]: Imutran Ltd v Uncaged Campaigns Ltd [2001] 2 All ER 385 at paras 18–19, per Sir Andrew Morritt V-C. See also Re S (a child) (identification: restriction on publication) [2003] EWCA Civ 963 at para 52, Hale LJ confirmed that where a court has to consider both Art 8 and Art 10, "section 12(4) does not give one pre-eminence over the other". Hale LJ's comment was approved by Lord Hope in the House of Lords in Campbell v Mirror Group Newspapers Ltd [2004] UKHL 22, [2004]
-
-[^2]: AC 457, at para 111
+[^47]: Imutran Ltd v Uncaged Campaigns Ltd [2001] 2 All ER 385 at paras 18–19, per Sir Andrew Morritt V-C. See also Re S (a child) (identification: restriction on publication) [2003] EWCA Civ 963 at para 52, Hale LJ confirmed that where a court has to consider both Art 8 and Art 10, "section 12(4) does not give one pre-eminence over the other". Hale LJ's comment was approved by Lord Hope in the House of Lords in Campbell v Mirror Group Newspapers Ltd [2004] UKHL 22, [2004] 2 AC 457, at para 111
 
 [^48]: Lester, Pannick, Herberg, Human Rights Law and Practice (2009), Chapter B, Section 12, Section 2.12, footnote 1
 
@@ -53676,7 +53664,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^80]: The right to freedom of opinion and express on Human Rights Resolution 2005/38, 19 April 2005
 
-[^18]: January 1994, Official Journal of the European Communities No C 44/34
+[^81]: 18 January 1994, Official Journal of the European Communities No C 44/34
 
 [^82]: At paragraph 4 of the Explanatory Memorandum to the Recommendation
 
@@ -53722,9 +53710,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^103]: See for example the remarks of Leggatt LJ in Kaye v Robertson [1991] FSR 62, CA
 
-[^104]: In the Spycatcher case, AG v Guardian Newspapers (No 2) [1990] 1 AC 109 Lord Goff explained that the tort of breach of confidence encompassed the following principles: i) the principle of confidentiality only applies to information to the extent that it is confidential, ii) the duty of confidence applies neither to useless information, nor to trivia, iii) although the basis of the law's protection of confidence is that there is a public interest that confidences should be preserved public interest may be outweighed by some other countervailing public interest which favours disclosure. This approach was applied to try to protect information being imparted in circumstances of confidence and to seek to restrain publication of information to the world at large. See for example Prince Albert v Strange (1849)
-
-[^2]: De G & Sm 652; 1 Mac & G 25, matrimonial secrets, Argyll v Argyll [1967] Ch 302, and information about sexual relationships, Stephens v Avery [1988] 1 Ch 449
+[^104]: In the Spycatcher case, AG v Guardian Newspapers (No 2) [1990] 1 AC 109 Lord Goff explained that the tort of breach of confidence encompassed the following principles: i) the principle of confidentiality only applies to information to the extent that it is confidential, ii) the duty of confidence applies neither to useless information, nor to trivia, iii) although the basis of the law's protection of confidence is that there is a public interest that confidences should be preserved public interest may be outweighed by some other countervailing public interest which favours disclosure. This approach was applied to try to protect information being imparted in circumstances of confidence and to seek to restrain publication of information to the world at large. See for example Prince Albert v Strange (1849) 2 De G & Sm 652; 1 Mac & G 25, matrimonial secrets, Argyll v Argyll [1967] Ch 302, and information about sexual relationships, Stephens v Avery [1988] 1 Ch 449
 
 [^105]: See Douglas v Hello! Ltd (No 3) [2006] QB 125, Lord Phillips MR at para 53
 
@@ -53736,9 +53722,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^109]: See the judgment of Lords Phillips MR in Douglas v Hello! (No 6) [2006] QB 125
 
-[^110]: See comments of Lord Irvine of Lairg LC in the course of the debate on the Human Rights Bill HL Hansard 24 November 1997, col 771 and the submissions of the UK Government in the case of Spencer v United Kingdom (1998)
-
-[^25]: EHRR CD 105
+[^110]: See comments of Lord Irvine of Lairg LC in the course of the debate on the Human Rights Bill HL Hansard 24 November 1997, col 771 and the submissions of the UK Government in the case of Spencer v United Kingdom (1998) 25 EHRR CD 105
 
 [^111]: [2004] 2 AC 457
 
@@ -53892,9 +53876,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^186]: See for example HRH Prince of Wales [2007] 3 WLR 222, [2006] EWCA Civ 1776 at para 35
 
-[^187]: Maccaba v Lichtenstein [2004] EWHC 1577, [2004] EWHC 1577 (QB) at para 4; Lady Archer v Williams [2003] FSR
-
-[^689]: at para 34
+[^187]: Maccaba v Lichtenstein [2004] EWHC 1577, [2004] EWHC 1577 (QB) at para 4; Lady Archer v Williams [2003] FSR 689 at para 34
 
 [^188]: [2004] 2 AC 457 at paras 154, 157
 
@@ -54166,9 +54148,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^327]: Article 28
 
-[^328]: See Article 1(1). Lord Justice Buxton noted in Johnson v Medical Defence Union Ltd (No 2) [2007] EWCA Civ 262 at para
-
-[^16]: that "it is not easy to extract from [the Directive] any purpose other than the protection of privacy"
+[^328]: See Article 1(1). Lord Justice Buxton noted in Johnson v Medical Defence Union Ltd (No 2) [2007] EWCA Civ 262 at para 16 that "it is not easy to extract from [the Directive] any purpose other than the protection of privacy"
 
 [^329]: Article 5
 
@@ -54474,7 +54454,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^493]: Att-Gen v Sport Newspapers Ltd [1991] 1 WLR 1194 at 1200 per Bingham LJ
 
-[^494]: R v Bolam ex p Haigh (1949) 93 SJ 220; R v Daily Mirror Newspapers ex parte Smith [1927] 1 KB 845; Clarke ex parte Crippen (1910) 103 LTd 636; Parke [1903] 2 KB 432; comments of Lord Justice McCowan in Taylor (1993) 98 Cr App R
+[^494]: R v Bolam ex p Haigh (1949) 93 SJ 220; R v Daily Mirror Newspapers ex parte Smith [1927] 1 KB 845; Clarke ex parte Crippen (1910) 103 LTd 636; Parke [1903] 2 KB 432; comments of Lord Justice McCowan in Taylor (1993) 98 Cr App R 361
 
 [^495]: See Lord Diplock in Att-Gen v English [1983] AC 116 at 139
 

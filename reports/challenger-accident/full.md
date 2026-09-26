@@ -4,7 +4,7 @@ authors: "Committee on Science and Technology, U.S. House of Representatives"
 published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
-footnotes: 90
+footnotes: 82
 corrections: 56
 ---
 
@@ -1222,7 +1222,7 @@ THRUST AT LIFT-OFF (2,650,000 pounds)
 
 ## I/ FORWARO SEGMENT PROPELLANT
 
-> Atomized aluminum powder ( f u e l ) ,[^16] percent ,
+> Atomized aluminum powder ( f u e l ) , 16 percent ,
 
 'I
 
@@ -1776,7 +1776,7 @@ The following is the most probable sequence of the joint failure:
 
 9. The breach in the primary O-ring clogged with burned char and aluminum oxide from the -propellant- in less than 3 seconds, causing the smoke to stop.
 
-10. At 37 seconds,[^45] seconds and 58 seconds into the flight, the Space Shuttle encountered heavy turbulence, which forced the steering controls to cycle through changes more severe than previous flights.
+10. At 37 seconds, 45 seconds and 58 seconds into the flight, the Space Shuttle encountered heavy turbulence, which forced the steering controls to cycle through changes more severe than previous flights.
 
 %%page 64%%
 
@@ -2870,7 +2870,7 @@ Being a very complicated vehicle, the Shuttle demands a large trained workforce 
 
 Therefore, to focus on cost-per-flight can be misleading. A lower cost-per-flight, achieved by flying more often, would allow a lower price to be charged to users, but does not lower the cost of the program. Because NASA had committed to lower the price to customers of Shuttle flights, there was a pressure to do this by increasing the flight rate. Nevertheless, NASA never achieved its planned flight rate.
 
-For example, in 1976 NASA predicted 49 flights in fiscal 1984 and 58 in 1985..As late as August 15, 1983,[^45] days before the start of fiscal year 1984, NASA planned 9 flights for fiscal 1984 and 12 for 1985. NASA actually flew four Shuttle flights in fiscal 1984 and 8 in 1985.91Of course management worked hard to reduce this gap between plans and performance.
+For example, in 1976 NASA predicted 49 flights in fiscal 1984 and 58 in 1985..As late as August 15, 1983, 45 days before the start of fiscal year 1984, NASA planned 9 flights for fiscal 1984 and 12 for 1985. NASA actually flew four Shuttle flights in fiscal 1984 and 8 in 1985.91Of course management worked hard to reduce this gap between plans and performance.
 
 The emphasis on reducing costs per flight and delivering launch services has caused a very basic and pervasive pressure to increase the flight rate in the Shuttle program. This is well documented in Chapter VIII of the Rogers Conimission report.92
 
@@ -3028,9 +3028,9 @@ Training.-When training and other preparations is compressed, progam quality is 
 
 These errors apparently had no adverse impact on the mission, but indicate a breakdown of the discipline so necessary for a process as complex as launching a Shuttle.
 
-Shuttle crew training is an important part of mission preparation. The crew of 51-L had training loads as high as 70, 63, 65,[^59] and 58 hours in the several weeks before their launch. This was due to the fact that their training started some 3 weeks later than scheduled.
+Shuttle crew training is an important part of mission preparation. The crew of 51-L had training loads as high as 70, 63, 65, 59 and 58 hours in the several weeks before their launch. This was due to the fact that their training started some 3 weeks later than scheduled.
 
-It must be noted that the crew also had 3 easy weeks during this period. During the weeks which included Thanksgiving, Christmas and New Year's they only trained 31,[^27] and 49 hours, respectively. No harmful effects of compressed Shuttle crew training have been documented but common sense indicates that the situation must have been less than optimal.
+It must be noted that the crew also had 3 easy weeks during this period. During the weeks which included Thanksgiving, Christmas and New Year's they only trained 31, 27 and 49 hours, respectively. No harmful effects of compressed Shuttle crew training have been documented but common sense indicates that the situation must have been less than optimal.
 
 It will be recalled that the launch of flight 61-C, which immediately preceded 51-L, was delayed several times. It was originally scheduled to launch on December 18th and eventually launched on January 6th. The Commission report describes how the launch date slips for 61-C became a scheduling factor for the training through integrated simulations for 51-L.lo6 Delay of 61-C launch pushed a bow wave of tests at the Kennedy Space Center which required 51- L prime crew and/or mission control center resources and thereby
 
@@ -4974,7 +4974,9 @@ He called me and said they had just received some word earlier that the weatherm
 
 Mr. Ebeling wanted Mr. McDonald to get some accurate predicted temperatures for the Cape so he could make some calculations to determine what could be expected of the O-rings. McDonald told him he would get the temperature data for him and call him back. Mr. Carver Kennedy, Vice President of Space Services for Thiokol, working at the Kennedy Space Center, obtained the information. Mr. McDonald then relayed the information to Mr. Ebeling in Utah. The information indicated that the temperature was to get as low as 22" in the early morning hours, probably around 6:OO a.m., and that they were predicting a temperature of about 26" at the intended time of launch, 9:38 a.m. on the 28th.s2
 
-6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.[^8] 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shuttle Challenger Accident, March 19, 1986,[^6] 1 Rogers Commission Report, Volume f V
+6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.[^8] 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shuttle Challenger Accident, March 19, 1986,
+
+6 1 Rogers Commission Report, Volume f V
 
 > !; . 715.
 
@@ -5406,7 +5408,9 @@ LD. Okay, but we need to have Rockwell in there where we need to ready to talk.
 
 DIRECTOR. We can get Don in and we'll do that.
 
-97 Ibid.[^9] s Bid. pp. 579-81.[^9] Ibid., pp. 581-82.
+97 Ibid.[^9] s Bid. pp. 579-81.
+
+09 Ibid., pp. 581-82.
 
 %%page 237%%
 
@@ -7716,7 +7720,7 @@ OI NO. 100-ZG
 
 4.1.22 CRITICALITY:
 
-> a. - - (C54 HARDUARE) Enter 1,[^2] or 3 based on the definitions i n section 2.0 and t h e ground r u l e s contained i n section 4.3.1 and Appendix 8 . paragraph 3.1.1, sub-paragraph 1. b. (C67 - - FUNCTIONAL) Enter 1. 2,[^1] R , 2R or 3 based on the d e f i n i t i o n s i n section 2.0 and t h e ground r u l e s contained i n section 4.3.2 and Appendix 6, paragraph 3.1 .I, sub-paragraph 1.
+> a. - - (C54 HARDUARE) Enter 1, 2 or 3 based on the definitions i n section 2.0 and t h e ground r u l e s contained i n section 4.3.1 and Appendix 8 . paragraph 3.1.1, sub-paragraph 1. b. (C67 - - FUNCTIONAL) Enter 1. 2,[^1] R , 2R or 3 based on the d e f i n i t i o n s i n section 2.0 and t h e ground r u l e s contained i n section 4.3.2 and Appendix 6, paragraph 3.1 .I, sub-paragraph 1.
 
 nlALlf7R .
 
@@ -7930,7 +7934,7 @@ Jm
 
 > - 0 Y
 
-> *I..."[^1] ..................... . . Y -., .................. ...................... " ................. p1&
+> *I..." 01 ..................... . . Y -., .................. ...................... " ................. p1&
 
 > .. Q . C . . . . ..............- a,... . p. ry
 
@@ -8004,7 +8008,9 @@ NO E f f e c t
 
 C r i t i c a l i t y 2 f a i l u r e (modes) a r e defined as: ( 1 ) s i n g l e f a i l u r e s which would cause 'loss of mission", and ( 2 ) f a i l u r e s wherein the next associated f a i l u r e would cause 10% Of crew/vehicle (Appendix B. Section 3.1.1, Ground Rules, subparagraph 1).
 
-The following c h a r t (Mission Effects - C r i t i c a l i t y 2 F a i l u r e Modes) i s included a s a guideline f o r e n t r i e s under "EFFECTS ON MISSION". The term "abort decision" should only be used where there r e a l l y i s a decision.[^1] NO. 100-Zd
+The following c h a r t (Mission Effects - C r i t i c a l i t y 2 F a i l u r e Modes) i s included a s a guideline f o r e n t r i e s under "EFFECTS ON MISSION". The term "abort decision" should only be used where there r e a l l y i s a decision.
+
+01 NO. 100-Zd
 
 ## APPENDIX A
 
@@ -8040,7 +8046,9 @@ ASCENT PIIASE.
 
 6. ABORT UNLESS M l S S l O l l CAI4 B E COMPLETED Y!TII ONE MISSION 1 CAN BE COMPLETE0 I F ONE SSME SHUTS OOWN
 
-> SSME OUT. . BETUEEN 347.3 AllD 401.5 SECONDS OF ASCENT. MISSION 2 HAS NO ENGIIIE OUT M I S S I O N COMPLETION CAPABILITY.[^1] NO. 100-26
+> SSME OUT. . BETUEEN 347.3 AllD 401.5 SECONDS OF ASCENT. MISSION 2 HAS NO ENGIIIE OUT M I S S I O N COMPLETION CAPABILITY.
+
+01 NO. 100-26
 
 ## APPENDIX B '
 
@@ -8386,7 +8394,7 @@ c.
 
 d.
 
-P Q t E .[^6] , ___
+P Q t E . 06 , ___
 
 .
 
@@ -9134,9 +9142,7 @@ f
 
 [^167]: Ibid., pp. 123, 125.
 
-[^172]: Cmte Hgs, Transcript, June 12, 1986, p. 138.
-
-[^113]: Letter from Brian Russell, Manager MTI SRM Ignition System to James W. Thomas, Mar- shall Space Flight Center, August 9, 1985.
+[^172]: Cmte Hgs, Transcript, June 12, 1986, p. 138. 113 Letter from Brian Russell, Manager MTI SRM Ignition System to James W. Thomas, Mar- shall Space Flight Center, August 9, 1985.
 
 [^188]: Cmte Hgs, Transcript, July 24, 1986, pp. 80, 87.
 
@@ -9148,13 +9154,9 @@ f
 
 [^194]: Ibid.
 
-[^196]: Ibid., July 24, 1986, pp. 69-70
+[^196]: Ibid., July 24, 1986, pp. 69-70 19e Ibid., p. 17.
 
-[^19]: e Ibid., p. 17.
-
-[^197]: Ibid., June 25, 1986, p. 11.
-
-[^1]: g8 mid., July 24, 1986, p. 11.
+[^197]: Ibid., June 25, 1986, p. 11. 1g8 mid., July 24, 1986, p. 11.
 
 [^199]: Ibid., June 25, 1986, p. 52.
 
@@ -9172,11 +9174,9 @@ f
 
 [^55]: BM-Chemical Division, "Viton Fluoroelastomer," Undated, p. 1.
 
-[^56]: Ibid.
+[^56]: Ibid. 67 Department of Defense, "Milita Specification: Rubber, Fluorocarbon Elastomer, High Tern rature, Fluid, and Compreasion%t Resistant", MILR-83248A. February 17,1984. "rigid, p. 1. 6 9 Ibid p. 3. 6 0 N d A memorandum, William Ra "Visit to Precision Rubber Products Corporation and Parker Seal Company",EP 25 (19-23). JAbruary 6, 1979, p. 1. 6 1 Ibid. 6* bid., p. 2. 8s Ibid.
 
-[^67]: Department of Defense, "Milita Specification: Rubber, Fluorocarbon Elastomer, High Tern rature, Fluid, and Compreasion%t Resistant", MILR-83248A. February 17,1984. "rigid, p. 1. 6 9 Ibid p. 3. 6 0 N d A memorandum, William Ra "Visit to Precision Rubber Products Corporation and Parker Seal Company",EP 25 (19-23). JAbruary 6, 1979, p. 1. 6 1 Ibid. 6* bid., p. 2.
-
-[^8]: s Ibid. Discussions with Allan McDonald and Carver Kennedy, Thiokol (Wasatch Operations), Brigham City, Utah,, September 4, 1986.
+[^8]: Discussions with Allan McDonald and Carver Kennedy, Thiokol (Wasatch Operations), Brigham City, Utah,, September 4, 1986.
 
 [^9]: Rogers Commission Report, loc. cit.
 
@@ -9190,9 +9190,7 @@ f
 
 [^33]: Rogers Commission Report, Volume V, p. 784. a* bid., Chart 130 (p. H-66).
 
-[^37]: "The second breakdown in communications. . . ," Mr. Aldrich testified before the Commis- sion, "is the situation of the variety of reviews that were conducted last summer between the NASA Headquarters Organization and the Marshall Organ+tion on the ljoint eal.problem] and the fact that that waa not brou h t through my office in elther dlrectlon-that IS, it was not worked through by the NASA Heatquartera Organization nor when the Marshall Organization brought these concerns to be reported were we involved. And I believe that is a critical break- down in process and I think it is also against the documented reporting channels that the prc- gram IS sup to o rate to." Ro era Commission Report, Volume V, p. 1490. JmLarry N&, Marshall &ace F1' h t Center, "Fli ht Readiness Review SRM-24 (STS 6143,'' December 2, 1986, Charta 3-2; 3-2B. %e A pendix VfrI1-G.
-
-[^30]: y r ' O b i s ammission &port, Volume 11, p. . H-P
+[^37]: "The second breakdown in communications. . . ," Mr. Aldrich testified before the Commis- sion, "is the situation of the variety of reviews that were conducted last summer between the NASA Headquarters Organization and the Marshall Organ+tion on the ljoint eal.problem] and the fact that that waa not brou h t through my office in elther dlrectlon-that IS, it was not worked through by the NASA Heatquartera Organization nor when the Marshall Organization brought these concerns to be reported were we involved. And I believe that is a critical break- down in process and I think it is also against the documented reporting channels that the prc- gram IS sup to o rate to." Ro era Commission Report, Volume V, p. 1490. JmLarry N&, Marshall &ace F1' h t Center, "Fli ht Readiness Review SRM-24 (STS 6143,'' December 2, 1986, Charta 3-2; 3-2B. %e A pendix VfrI1-G. 30 y r ' O b i s ammission &port, Volume 11, p. . H-P
 
 [^84]: Rogers Commission Report, Volume IV. p. 721
 
