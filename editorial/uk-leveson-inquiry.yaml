@@ -1,0 +1,298 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# Scope: this edition ingests all four volumes of Leveson's Part 1 report (Parts
+# A-L, per reports/uk-leveson-inquiry/README.md and ingest.ts). Leveson's Part 2
+# (the fuller factual inquiry into News International and the police, deferred
+# pending criminal prosecutions) was cancelled by the Government in March 2018
+# and was never written; there is no Part 2 volume to ingest.
+#
+# Background facts not in the report itself, verified 2026-09-25:
+#   - News of the World hacked Milly Dowler's voicemail, revealed 4 July 2011;
+#     advertiser boycott; final edition 10 July 2011, after 168 years:
+#     https://www.aljazeera.com/news/2011/7/10/scandal-hit-uk-newspaper-shuts-down
+#     https://en.wikipedia.org/wiki/News_of_the_World
+#   - Cameron's 13 July 2011 statement announcing the Inquiry to Parliament is
+#     also recorded by the report itself, para 3.81 (paragraph id
+#     3-81-13-july-2011, section prime-minister-cameron-2010-present).
+#   - Royal Charter on press self-regulation sealed 30 October 2013:
+#     https://www.gov.uk/government/news/press-briefing-afternoon-30-october-2013
+#     https://en.wikipedia.org/wiki/Royal_Charter_on_self-regulation_of_the_press
+#   - IPSO not recognised as Leveson-compliant; IMPRESS recognised under the
+#     resulting scheme in 2016:
+#     https://commonslibrary.parliament.uk/research-briefings/cbp-7576/
+#     https://pressgazette.co.uk/news/ipso-v-impress-how-are-the-uks-press-regulators-doing/
+#   - Section 40 of the Crime and Courts Act 2013 never commenced; repealed by
+#     the Media Act 2024:
+#     https://pressgazette.co.uk/media_law/impress-dispute-resolution-section-40/
+#   - Part 2 cancelled by Matt Hancock's statement of 1 March 2018 ("no longer
+#     appropriate, proportionate or in the public interest"); Leveson said he
+#     "fundamentally disagreed":
+#     https://hansard.parliament.uk/commons/2018-03-01/debates/AE8A077E-3130-40BE-9F14-0DD177040D03/LevesonInquiry
+#     https://newsmediauk.org/blog/2018/11/29/high-court-upholds-government-decision-to-cancel-leveson-2/
+#   Everything else in `background` is drawn from the report's own front
+#   matter and Part A Chapter 1 (the Announcement).
+#
+# Ingestion defect found while writing this file (filed as a Bead): several
+# chapter headings are attached to the wrong body text. For example, the
+# heading "Chapter 7: Conclusions and recommendations for future regulation"
+# is attached at the very start of Part A (page ~3) and at its front-matter
+# TOC line, while that chapter's actual content (numbered paragraphs 7.1-7.12,
+# on the recommended regulatory model) sits ungrouped under the unrelated
+# heading '"GUARANTEE OF MEDIA FREEDOM' (slug guarantee-of-media-freedom-2,
+# p.1781). "PART H" (p.999) similarly swallows roughly 120 pages and several
+# real chapters into one section. `title` overrides below correct the
+# reading-guide labels; paragraph ids themselves are unaffected and resolve
+# correctly.
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+
+report: uk-leveson-inquiry
+status: draft
+
+why_it_matters: >-
+  Lord Justice Leveson's inquiry into the culture, practices and ethics of
+  the British press, set up in 2011 after the News of the World was found to
+  have hacked a murdered schoolgirl's phone. It examined the press's
+  relationship with the public, the police and politicians, and concluded
+  that decades of self-regulation had failed. Its central, still-contested
+  recommendation - a new independent regulator recognised in law - set the
+  terms of a fight over press freedom that continues today.
+
+background: |
+  In July 2011 it emerged that the News of the World, Britain's best-selling
+  Sunday newspaper, had hacked the voicemail of Milly Dowler, a schoolgirl
+  murdered in 2002, while she was still missing, on top of years of evidence
+  that hacking had also targeted celebrities and politicians. An advertiser
+  boycott followed; the paper published its final edition on 10 July 2011,
+  after 168 years.
+
+  On 13 July 2011 Prime Minister David Cameron announced a public inquiry
+  into the culture, practices and ethics of the press, chaired by Lord
+  Justice Sir Brian Leveson with six independent assessors. Because criminal
+  investigations into phone hacking and police corruption were still under
+  way, the terms of reference were split in two: Part 1, a broad inquiry into
+  press conduct and the case for new regulation, and Part 2, a narrower
+  inquiry into specific wrongdoing and the police response, once prosecutions
+  concluded. This report is Part 1. The Inquiry heard evidence over four
+  modules - the press and the public, the police, and politicians, and the
+  way forward - from November 2011, and Leveson presented his four-volume,
+  2,022-page report to Parliament on 29 November 2012.
+
+  The industry did not adopt the regulator Leveson recommended. Most national
+  publishers set up their own body, the Independent Press Standards
+  Organisation (IPSO), not recognised as compliant with the Inquiry's
+  recommendations; a smaller body, IMPRESS, won recognition under the
+  resulting scheme in 2016. The Government sealed a Royal Charter on press
+  self-regulation on 30 October 2013, but Section 40 of the Crime and Courts
+  Act 2013 - penalising publishers outside a recognised regulator in
+  litigation costs - was never brought into force, and was repealed in 2024.
+  In March 2018 the Government cancelled Part 2 of the Inquiry as "no longer
+  appropriate, proportionate or in the public interest"; Leveson said he
+  "fundamentally disagreed".
+
+findings:
+  - text: The Inquiry examined the Press Complaints Commission (PCC), the press's self-regulator since 1991, and found its failure to be structural rather than a matter of individual leadership - it lacked the power to enforce standards on an industry whose members judged compliance by their own self-interest.
+    cites: [1-1-press-complaints-commission, 1-2-follows-from-criticisms]
+    excerpt:
+      paragraph: 1-2-follows-from-criticisms
+      quote: >-
+        It follows from this that criticisms of the PCC have often been too
+        specifically directed and as such may have missed their mark; it is
+        the system as a whole which should be the accurate target. The way
+        in which the various parts interact is the hallmark of the system as
+        I have broadly defined it; in a less obvious but equally powerful
+        way it should also be regarded as the key descriptor of the
+        relationship that the industry has with the PCC. Although the
+        system as constituted in this manner unravelled, in spectacular
+        fashion, in July 2011, the inherent weakness was there for all to
+        see almost from the very start.
+
+  - text: Leveson recommends a new, voluntary self-regulatory body for the press, independent of both the industry and government, backed by legislation that would recognise it in law and give publishers incentives to join. He states that this recognition is not itself regulation of the press.
+    cites: [7-2-i-have-therefore, 7-4-order-give-effect, legislative-proposal-does-no-more]
+    excerpt:
+      paragraph: legislative-proposal-does-no-more
+      quote: >-
+        This legislative proposal does no more than ensure an appropriate
+        degree of independence and effectiveness on the part of the
+        self-regulatory body if the incentives described are to be made use
+        of. This is not, and cannot be characterised as, regulation of the
+        press.
+
+  - text: If the industry does not itself set up an adequately independent regulator, the report recommends that the Government legislate for a backstop regulator to apply and enforce a code of standards.
+    cites: [7-10-unfortunately-there-may, suffice-say-bearing-mind-my]
+
+  - text: The News of the World hacked Milly Dowler's phone in April 2002, as it later admitted to Surrey Police. The report finds, on the balance of probabilities, that this hacking was not the cause of the "false hope moment" widely blamed on it - the voicemail system's own automatic deletion of messages accounts for that - but confirms the phone was indeed hacked.
+    cites: [f-2-19-last-assertion, 2-15-would-be-otiose, 2-16-remains-worthwhile-underline]
+    excerpt:
+      paragraph: 2-16-remains-worthwhile-underline
+      quote: >-
+        But it remains worthwhile to underline that the essential gravamen
+        of the Guardian's original story of 4 July 2011, namely that Milly
+        Dowler's phone was hacked by or on the instructions of journalists
+        employed by the NoTW, was correct, and is now the subject of
+        criminal charges.
+
+  - text: Christopher Jefferies, the retired teacher arrested (but never charged) over the murder of his tenant Joanna Yeates in December 2010, was defamed and vilified by parts of the press while in police custody. He later won libel damages from eight newspapers, and two publishers were separately fined for contempt of court.
+    cites: [4-1-joanna-yeates-tenant, 4-8-ultimately-jefferies-successfully, 4-21-jefferies-victim-very]
+    excerpt:
+      paragraph: 4-21-jefferies-victim-very
+      quote: >-
+        Mr Jefferies was the victim of a very serious injustice perpetrated
+        by a significant section of the press. Without such reporting, it is
+        hard to accept that he would have found it necessary to change his
+        appearance and effectively lodge with friends for approximately
+        three months.
+
+  - text: The Inquiry examined the relationship between the press and the Metropolitan Police, prompted in part by the police's investigation into phone hacking. It found no widespread evidence of police corruption, but did find a damaging perception that the News of the World had an inappropriate degree of influence over the force, including some senior officers.
+    cites: [first-scale-problem-needs-be, 1-3-integrity-lies-heart, 1-4-i-mention-mps]
+
+reading_guide:
+  - section: guarantee-of-media-freedom-2
+    title: "Chapter 7: Conclusions and recommendations for future regulation"
+    why: Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.
+    excerpt:
+      paragraph: 7-2-i-have-therefore
+      quote: >-
+        I have therefore set out a vision of a voluntary independent
+        self-organised regulatory system that would provide an appropriate
+        degree of independence from the industry, coupled with satisfactory
+        powers to handle complaints, promote and enforce standards, and deal
+        with dispute resolution.
+
+  - section: part-l-summary-of-recommendations
+    title: "Part L: Summary of recommendations"
+    why: The recommendations themselves, numbered and grouped by topic, from the regulator's powers to the criminal law and police conduct.
+    excerpt:
+      paragraph: arbitration-service-22-board-should
+      quote: >-
+        The Board should provide an arbitral process in relation to civil
+        legal claims against subscribers, drawing on independent legal
+        experts of high reputation and ability on a cost-only basis to the
+        subscribing member. The process should be fair, quick and
+        inexpensive, inquisitorial and free for complainants to use (save
+        for a power to make an adverse order for the costs of the arbitrator
+        if proceedings are frivolous or vexatious). The arbitrator must have
+        the power to hold hearings where necessary but, equally, to dispense
+        with them where it is not necessary.
+
+  - section: the-press-complaints-commission-and-its-effectiveness
+    title: The Press Complaints Commission and its effectiveness
+    why: Why the Inquiry judged decades of voluntary self-regulation to have failed.
+    excerpt:
+      paragraph: 1-1-press-complaints-commission
+      quote: >-
+        The Press Complaints Commission (PCC) has always been a voluntary
+        system based on a network of implied contracts. Accordingly,
+        participation has been optional, and in the event never universal;
+        and has always been contingent on an evaluation by individual titles
+        or publishers of their self-interest. Newspapers notionally sign up,
+        and remain tied into the rules of the system, but only for the
+        period and to the extent that they judge that this is in their best
+        interests.
+
+  - section: the-dowlers
+    why: The phone-hacking case that brought down the News of the World and led to the Inquiry, including the Inquiry's own correction of one widely-reported detail about it.
+    excerpt:
+      paragraph: nor-i-pointed-out-4
+      quote: >-
+        The fact remains that the NoTW hacked the phone of a dead schoolgirl
+        called Milly Dowler. The revelation of that story rightly shocked
+        the public conscience in a way that other stories of phone hacking
+        may not have, but it also gave momentum to growing calls for light
+        to be shed on an unethical and unlawful practice of which there were
+        literally thousands of victims.
+
+  - section: chapter-the-press-and-the-police-conclusions-and-recommendations
+    title: "The press and the police: conclusions and recommendations"
+    why: Whether the closeness between the Metropolitan Police and the News of the World amounted to corruption, and what the Inquiry recommends instead.
+    excerpt:
+      paragraph: first-scale-problem-needs-be
+      quote: >-
+        First, the scale of the problem needs to be kept in proportion. The
+        Inquiry has not unearthed extensive evidence of police corruption
+        (noting, as it has done, the current position in relation to
+        Operation Elveden which is concerned with payments to public
+        officials generally); nor is there evidence satisfying the standard
+        of proof I am applying to findings of fact in this Inquiry, namely
+        the balance of probabilities, that significant numbers of police
+        officers lack integrity in one or more of the respects I have
+        examined earlier.
+
+highlights:
+  - paragraph: 4-21-jefferies-victim-very
+    quote: >-
+      Mr Jefferies was the victim of a very serious injustice perpetrated by
+      a significant section of the press. Without such reporting, it is hard
+      to accept that he would have found it necessary to change his
+      appearance and effectively lodge with friends for approximately three
+      months.
+    card: true
+
+  - paragraph: 2-16-remains-worthwhile-underline
+    quote: >-
+      the essential gravamen of the Guardian's original story of 4 July
+      2011, namely that Milly Dowler's phone was hacked by or on the
+      instructions of journalists employed by the NoTW, was correct, and is
+      now the subject of criminal charges.
+    card: true
+
+  - paragraph: legislative-proposal-does-no-more
+    quote: This is not, and cannot be characterised as, regulation of the press.
+    card: true
+
+  - paragraph: 1-2-follows-from-criticisms
+    quote: >-
+      Although the system as constituted in this manner unravelled, in
+      spectacular fashion, in July 2011, the inherent weakness was there for
+      all to see almost from the very start.
+    card: true
+
+  - paragraph: 3-28-overall-justifications-advanced
+    quote: >-
+      Overall the justifications advanced by Messrs Hill and Desmond for the
+      frankly appalling treatment of the McCanns were, as has been clearly
+      demonstrated, both self-serving and without foundation.
+
+  - paragraph: 3-12-if-ever-there
+    quote: >-
+      If ever there were an example of a story which ran totally out of
+      control, this is one. The appetite for 'news' became insatiable, and
+      once the original story had run its course the desire to find new
+      leads and 'angles' began to take over, with their corollary
+      tendencies of sensationalism and scandal.
+
+  - paragraph: first-scale-problem-needs-be
+    quote: >-
+      The Inquiry has not unearthed extensive evidence of police corruption
+      (noting, as it has done, the current position in relation to Operation
+      Elveden which is concerned with payments to public officials
+      generally); nor is there evidence satisfying the standard of proof I
+      am applying to findings of fact in this Inquiry, namely the balance of
+      probabilities, that significant numbers of police officers lack
+      integrity in one or more of the respects I have examined earlier.
+
+  - paragraph: suffice-say-bearing-mind-my
+    quote: >-
+      Suffice to say, bearing in mind my duty to consider the interests of
+      the public, my view is that there would then be no alternative but to
+      provide in legislation for a backstop regulator to apply and enforce a
+      Code.
+    card: true
+
+  - paragraph: 7-8-challenge-goes-too
+    quote: >-
+      I simply do not accept that these provisions will have a chilling
+      effect on free speech or press freedom.
+
+  - paragraph: 1-1-press-complaints-commission
+    quote: >-
+      The Press Complaints Commission (PCC) has always been a voluntary
+      system based on a network of implied contracts.
+
+  - paragraph: 3-23-another-revealing-answer
+    quote: >-
+      This was another revealing answer, since by it Mr Desmond revealed
+      what I consider to be a very disturbing philosophical approach to the
+      concepts of free speech and a free press.

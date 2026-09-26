@@ -483,6 +483,231 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       }
     ]
   },
+  "uk-leveson-inquiry": {
+    "status": "draft",
+    "whyItMatters": "Lord Justice Leveson's inquiry into the culture, practices and ethics of the British press, set up in 2011 after the News of the World was found to have hacked a murdered schoolgirl's phone. It examined the press's relationship with the public, the police and politicians, and concluded that decades of self-regulation had failed. Its central, still-contested recommendation - a new independent regulator recognised in law - set the terms of a fight over press freedom that continues today.",
+    "background": [
+      "In July 2011 it emerged that the News of the World, Britain's best-selling Sunday newspaper, had hacked the voicemail of Milly Dowler, a schoolgirl murdered in 2002, while she was still missing, on top of years of evidence that hacking had also targeted celebrities and politicians. An advertiser boycott followed; the paper published its final edition on 10 July 2011, after 168 years.",
+      "On 13 July 2011 Prime Minister David Cameron announced a public inquiry into the culture, practices and ethics of the press, chaired by Lord Justice Sir Brian Leveson with six independent assessors. Because criminal investigations into phone hacking and police corruption were still under way, the terms of reference were split in two: Part 1, a broad inquiry into press conduct and the case for new regulation, and Part 2, a narrower inquiry into specific wrongdoing and the police response, once prosecutions concluded. This report is Part 1. The Inquiry heard evidence over four modules - the press and the public, the police, and politicians, and the way forward - from November 2011, and Leveson presented his four-volume, 2,022-page report to Parliament on 29 November 2012.",
+      "The industry did not adopt the regulator Leveson recommended. Most national publishers set up their own body, the Independent Press Standards Organisation (IPSO), not recognised as compliant with the Inquiry's recommendations; a smaller body, IMPRESS, won recognition under the resulting scheme in 2016. The Government sealed a Royal Charter on press self-regulation on 30 October 2013, but Section 40 of the Crime and Courts Act 2013 - penalising publishers outside a recognised regulator in litigation costs - was never brought into force, and was repealed in 2024. In March 2018 the Government cancelled Part 2 of the Inquiry as \"no longer appropriate, proportionate or in the public interest\"; Leveson said he \"fundamentally disagreed\"."
+    ],
+    "findings": [
+      {
+        "text": "The Inquiry examined the Press Complaints Commission (PCC), the press's self-regulator since 1991, and found its failure to be structural rather than a matter of individual leadership - it lacked the power to enforce standards on an industry whose members judged compliance by their own self-interest.",
+        "cites": [
+          {
+            "id": "1-1-press-complaints-commission",
+            "page": 1515,
+            "href": "/reports/uk-leveson-inquiry?p=1-1-press-complaints-commission"
+          },
+          {
+            "id": "1-2-follows-from-criticisms",
+            "page": 1515,
+            "href": "/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms"
+          }
+        ],
+        "excerpt": {
+          "quote": "It follows from this that criticisms of the PCC have often been too specifically directed and as such may have missed their mark; it is the system as a whole which should be the accurate target. The way in which the various parts interact is the hallmark of the system as I have broadly defined it; in a less obvious but equally powerful way it should also be regarded as the key descriptor of the relationship that the industry has with the PCC. Although the system as constituted in this manner unravelled, in spectacular fashion, in July 2011, the inherent weakness was there for all to see almost from the very start.",
+          "cite": {
+            "id": "1-2-follows-from-criticisms",
+            "page": 1515,
+            "href": "/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms&h=1.2%20|It%20follows%20from%20this%20that%20criticisms%20of%20the%20PCC%20have%20often%20been%20too%20specifically%20directed%20and%20as%20such%20may%20have%20missed%20th%E2%8B%AFvelled%2C%20in%20spectacular%20fashion%2C%20in%20July%202011%2C%20the%20inherent%20weakness%20was%20there%20for%20all%20to%20see%20almost%20from%20the%20very%20start.|"
+          }
+        }
+      },
+      {
+        "text": "Leveson recommends a new, voluntary self-regulatory body for the press, independent of both the industry and government, backed by legislation that would recognise it in law and give publishers incentives to join. He states that this recognition is not itself regulation of the press.",
+        "cites": [
+          {
+            "id": "7-2-i-have-therefore",
+            "page": 1781,
+            "href": "/reports/uk-leveson-inquiry?p=7-2-i-have-therefore"
+          },
+          {
+            "id": "7-4-order-give-effect",
+            "page": 1781,
+            "href": "/reports/uk-leveson-inquiry?p=7-4-order-give-effect"
+          },
+          {
+            "id": "legislative-proposal-does-no-more",
+            "page": 1781,
+            "href": "/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more"
+          }
+        ],
+        "excerpt": {
+          "quote": "This legislative proposal does no more than ensure an appropriate degree of independence and effectiveness on the part of the self-regulatory body if the incentives described are to be made use of. This is not, and cannot be characterised as, regulation of the press.",
+          "cite": {
+            "id": "legislative-proposal-does-no-more",
+            "page": 1781,
+            "href": "/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=|This%20legislative%20proposal%20does%20no%20more%20than%20ensure%20an%20appropriate%20degree%20of%20independence%20and%20effectiveness%20on%20the%20part%20of%20the%20self-regulatory%20body%20if%20the%20incentives%20described%20are%20to%20be%20made%20use%20of.%20This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|"
+          }
+        }
+      },
+      {
+        "text": "If the industry does not itself set up an adequately independent regulator, the report recommends that the Government legislate for a backstop regulator to apply and enforce a code of standards.",
+        "cites": [
+          {
+            "id": "7-10-unfortunately-there-may",
+            "page": 1782,
+            "href": "/reports/uk-leveson-inquiry?p=7-10-unfortunately-there-may"
+          },
+          {
+            "id": "suffice-say-bearing-mind-my",
+            "page": 1782,
+            "href": "/reports/uk-leveson-inquiry?p=suffice-say-bearing-mind-my"
+          }
+        ]
+      },
+      {
+        "text": "The News of the World hacked Milly Dowler's phone in April 2002, as it later admitted to Surrey Police. The report finds, on the balance of probabilities, that this hacking was not the cause of the \"false hope moment\" widely blamed on it - the voicemail system's own automatic deletion of messages accounts for that - but confirms the phone was indeed hacked.",
+        "cites": [
+          {
+            "id": "f-2-19-last-assertion",
+            "page": 546,
+            "href": "/reports/uk-leveson-inquiry?p=f-2-19-last-assertion"
+          },
+          {
+            "id": "2-15-would-be-otiose",
+            "page": 545,
+            "href": "/reports/uk-leveson-inquiry?p=2-15-would-be-otiose"
+          },
+          {
+            "id": "2-16-remains-worthwhile-underline",
+            "page": 546,
+            "href": "/reports/uk-leveson-inquiry?p=2-16-remains-worthwhile-underline"
+          }
+        ],
+        "excerpt": {
+          "quote": "But it remains worthwhile to underline that the essential gravamen of the Guardian's original story of 4 July 2011, namely that Milly Dowler's phone was hacked by or on the instructions of journalists employed by the NoTW, was correct, and is now the subject of criminal charges.",
+          "cite": {
+            "id": "2-16-remains-worthwhile-underline",
+            "page": 546,
+            "href": "/reports/uk-leveson-inquiry?p=2-16-remains-worthwhile-underline&h=2.16%20|But%20it%20remains%20worthwhile%20to%20underline%20that%20the%20essential%20gravamen%20of%20the%20Guardian's%20original%20story%20of%204%20July%202011%2C%20namely%20that%20Milly%20Dowler's%20phone%20was%20hacked%20by%20or%20on%20the%20instructions%20of%20journalists%20employed%20by%20the%20NoTW%2C%20was%20correct%2C%20and%20is%20now%20the%20subject%20of%20criminal%20charges.|"
+          }
+        }
+      },
+      {
+        "text": "Christopher Jefferies, the retired teacher arrested (but never charged) over the murder of his tenant Joanna Yeates in December 2010, was defamed and vilified by parts of the press while in police custody. He later won libel damages from eight newspapers, and two publishers were separately fined for contempt of court.",
+        "cites": [
+          {
+            "id": "4-1-joanna-yeates-tenant",
+            "page": 558,
+            "href": "/reports/uk-leveson-inquiry?p=4-1-joanna-yeates-tenant"
+          },
+          {
+            "id": "4-8-ultimately-jefferies-successfully",
+            "page": 560,
+            "href": "/reports/uk-leveson-inquiry?p=4-8-ultimately-jefferies-successfully"
+          },
+          {
+            "id": "4-21-jefferies-victim-very",
+            "page": 564,
+            "href": "/reports/uk-leveson-inquiry?p=4-21-jefferies-victim-very"
+          }
+        ],
+        "excerpt": {
+          "quote": "Mr Jefferies was the victim of a very serious injustice perpetrated by a significant section of the press. Without such reporting, it is hard to accept that he would have found it necessary to change his appearance and effectively lodge with friends for approximately three months.",
+          "cite": {
+            "id": "4-21-jefferies-victim-very",
+            "page": 564,
+            "href": "/reports/uk-leveson-inquiry?p=4-21-jefferies-victim-very&h=4.21%20|Mr%20Jefferies%20was%20the%20victim%20of%20a%20very%20serious%20injustice%20perpetrated%20by%20a%20significant%20section%20of%20the%20press.%20Without%20such%20reporting%2C%20it%20is%20hard%20to%20accept%20that%20he%20would%20have%20found%20it%20necessary%20to%20change%20his%20appearance%20and%20effectively%20lodge%20with%20friends%20for%20approximately%20three%20months.|"
+          }
+        }
+      },
+      {
+        "text": "The Inquiry examined the relationship between the press and the Metropolitan Police, prompted in part by the police's investigation into phone hacking. It found no widespread evidence of police corruption, but did find a damaging perception that the News of the World had an inappropriate degree of influence over the force, including some senior officers.",
+        "cites": [
+          {
+            "id": "first-scale-problem-needs-be",
+            "page": 981,
+            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be"
+          },
+          {
+            "id": "1-3-integrity-lies-heart",
+            "page": 980,
+            "href": "/reports/uk-leveson-inquiry?p=1-3-integrity-lies-heart"
+          },
+          {
+            "id": "1-4-i-mention-mps",
+            "page": 980,
+            "href": "/reports/uk-leveson-inquiry?p=1-4-i-mention-mps"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "guarantee-of-media-freedom-2",
+        "title": "Chapter 7: Conclusions and recommendations for future regulation",
+        "page": "1781",
+        "why": "Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.",
+        "excerpt": {
+          "quote": "I have therefore set out a vision of a voluntary independent self-organised regulatory system that would provide an appropriate degree of independence from the industry, coupled with satisfactory powers to handle complaints, promote and enforce standards, and deal with dispute resolution.",
+          "cite": {
+            "id": "7-2-i-have-therefore",
+            "page": 1781,
+            "href": "/reports/uk-leveson-inquiry?p=7-2-i-have-therefore&h=7.2%20|I%20have%20therefore%20set%20out%20a%20vision%20of%20a%20voluntary%20independent%20self-organised%20regulatory%20system%20that%20would%20provide%20an%20appropriate%20degree%20of%20independence%20from%20the%20industry%2C%20coupled%20with%20satisfactory%20powers%20to%20handle%20complaints%2C%20promote%20and%20enforce%20standards%2C%20and%20deal%20with%20dispute%20resolution.|58"
+          }
+        }
+      },
+      {
+        "slug": "part-l-summary-of-recommendations",
+        "title": "Part L: Summary of recommendations",
+        "page": null,
+        "why": "The recommendations themselves, numbered and grouped by topic, from the regulator's powers to the criminal law and police conduct.",
+        "excerpt": {
+          "quote": "The Board should provide an arbitral process in relation to civil legal claims against subscribers, drawing on independent legal experts of high reputation and ability on a cost-only basis to the subscribing member. The process should be fair, quick and inexpensive, inquisitorial and free for complainants to use (save for a power to make an adverse order for the costs of the arbitrator if proceedings are frivolous or vexatious). The arbitrator must have the power to hold hearings where necessary but, equally, to dispense with them where it is not necessary.",
+          "cite": {
+            "id": "arbitration-service-22-board-should",
+            "page": 1801,
+            "href": "/reports/uk-leveson-inquiry?p=arbitration-service-22-board-should&h=Arbitration%20Service%2022.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|"
+          }
+        }
+      },
+      {
+        "slug": "the-press-complaints-commission-and-its-effectiveness",
+        "title": "The Press Complaints Commission and its effectiveness",
+        "page": "1516",
+        "why": "Why the Inquiry judged decades of voluntary self-regulation to have failed.",
+        "excerpt": {
+          "quote": "The Press Complaints Commission (PCC) has always been a voluntary system based on a network of implied contracts. Accordingly, participation has been optional, and in the event never universal; and has always been contingent on an evaluation by individual titles or publishers of their self-interest. Newspapers notionally sign up, and remain tied into the rules of the system, but only for the period and to the extent that they judge that this is in their best interests.",
+          "cite": {
+            "id": "1-1-press-complaints-commission",
+            "page": 1515,
+            "href": "/reports/uk-leveson-inquiry?p=1-1-press-complaints-commission&h=1.1%20|The%20Press%20Complaints%20Commission%20(PCC)%20has%20always%20been%20a%20voluntary%20system%20based%20on%20a%20network%20of%20implied%20contracts.%20Accord%E2%8B%AFthe%20rules%20of%20the%20system%2C%20but%20only%20for%20the%20period%20and%20to%20the%20extent%20that%20they%20judge%20that%20this%20is%20in%20their%20best%20interests.|%20The%20self-regulatory"
+          }
+        }
+      },
+      {
+        "slug": "the-dowlers",
+        "title": "The Dowlers",
+        "page": "543",
+        "why": "The phone-hacking case that brought down the News of the World and led to the Inquiry, including the Inquiry's own correction of one widely-reported detail about it.",
+        "excerpt": {
+          "quote": "The fact remains that the NoTW hacked the phone of a dead schoolgirl called Milly Dowler. The revelation of that story rightly shocked the public conscience in a way that other stories of phone hacking may not have, but it also gave momentum to growing calls for light to be shed on an unethical and unlawful practice of which there were literally thousands of victims.",
+          "cite": {
+            "id": "nor-i-pointed-out-4",
+            "page": 546,
+            "href": "/reports/uk-leveson-inquiry?p=nor-i-pointed-out-4&h=what%20some%20have%20suggested.16%20|The%20fact%20remains%20that%20the%20NoTW%20hacked%20the%20phone%20of%20a%20dead%20schoolgirl%20called%20Milly%20Dowler.%20The%20revelation%20of%20that%20story%20r%E2%8B%AFing%20calls%20for%20light%20to%20be%20shed%20on%20an%20unethical%20and%20unlawful%20practice%20of%20which%20there%20were%20literally%20thousands%20of%20victims.|%20In%20that%20context%2C%20whether"
+          }
+        }
+      },
+      {
+        "slug": "chapter-the-press-and-the-police-conclusions-and-recommendations",
+        "title": "The press and the police: conclusions and recommendations",
+        "page": "981",
+        "why": "Whether the closeness between the Metropolitan Police and the News of the World amounted to corruption, and what the Inquiry recommends instead.",
+        "excerpt": {
+          "quote": "First, the scale of the problem needs to be kept in proportion. The Inquiry has not unearthed extensive evidence of police corruption (noting, as it has done, the current position in relation to Operation Elveden which is concerned with payments to public officials generally); nor is there evidence satisfying the standard of proof I am applying to findings of fact in this Inquiry, namely the balance of probabilities, that significant numbers of police officers lack integrity in one or more of the respects I have examined earlier.",
+          "cite": {
+            "id": "first-scale-problem-needs-be",
+            "page": 981,
+            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be&h=|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|3%20Speculation%2C%20suspicion"
+          }
+        }
+      }
+    ]
+  },
   "uk-saville-inquiry": {
     "status": "draft",
     "whyItMatters": "Lord Saville's report into Bloody Sunday, when British paratroopers shot dead thirteen people on a civil rights march in Derry/Londonderry on 30 January 1972. His twelve-year inquiry, the longest and most expensive public inquiry in British legal history, re-examined a shooting that an earlier tribunal had investigated in eleven weeks. It found that none of those shot was posing a threat, and rejected the soldiers' claims that they had fired at gunmen or bombers. This edition covers Volume I: the Tribunal's own conclusions and the background to the day.",
