@@ -720,10 +720,10 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-leveson-inquiry": {
     "status": "draft",
-    "whyItMatters": "Lord Justice Leveson's inquiry into the culture, practices and ethics of the British press, set up in 2011 after the News of the World was found to have hacked a murdered schoolgirl's phone. It examined the press's relationship with the public, the police and politicians, and concluded that decades of self-regulation had failed. Its central, still-contested recommendation - a new independent regulator recognised in law - set the terms of a fight over press freedom that continues today.",
+    "whyItMatters": "Lord Justice Leveson's inquiry into the culture, practices and ethics of the British press, set up in 2011 after the News of the World was found to have hacked a murdered schoolgirl's phone. It examined the press's relationship with the public, the police and politicians, and concluded that decades of self-regulation had failed. Its central, still-contested recommendation - a new independent regulator recognised in law - set the terms of the debate over press regulation in the decade that followed.",
     "background": [
       "In July 2011 it emerged that the News of the World, Britain's best-selling Sunday newspaper, had hacked the voicemail of Milly Dowler, a schoolgirl murdered in 2002, while she was still missing, on top of years of evidence that hacking had also targeted celebrities and politicians. An advertiser boycott followed; the paper published its final edition on 10 July 2011, after 168 years.",
-      "On 13 July 2011 Prime Minister David Cameron announced a public inquiry into the culture, practices and ethics of the press, chaired by Lord Justice Sir Brian Leveson with six independent assessors. Because criminal investigations into phone hacking and police corruption were still under way, the terms of reference were split in two: Part 1, a broad inquiry into press conduct and the case for new regulation, and Part 2, a narrower inquiry into specific wrongdoing and the police response, once prosecutions concluded. This report is Part 1. The Inquiry heard evidence over four modules - the press and the public, the police, and politicians, and the way forward - from November 2011, and Leveson presented his four-volume, 2,022-page report to Parliament on 29 November 2012.",
+      "On 13 July 2011 Prime Minister David Cameron announced a public inquiry into the culture, practices and ethics of the press, chaired by Lord Justice Sir Brian Leveson with six independent assessors. Because criminal investigations into phone hacking and police corruption were still under way, the terms of reference were split in two: Part 1, a broad inquiry into press conduct and the case for new regulation, and Part 2, a narrower inquiry into specific wrongdoing and the police response, once prosecutions concluded. This report is Part 1. From November 2011 the Inquiry heard evidence in four modules: the press and the public; the press and the police; the press and politicians; and the future of regulation. Leveson presented his four-volume report to Parliament on 29 November 2012.",
       "The industry did not adopt the regulator Leveson recommended. Most national publishers set up their own body, the Independent Press Standards Organisation (IPSO), not recognised as compliant with the Inquiry's recommendations; a smaller body, IMPRESS, won recognition under the resulting scheme in 2016. The Government sealed a Royal Charter on press self-regulation on 30 October 2013, but Section 40 of the Crime and Courts Act 2013 - penalising publishers outside a recognised regulator in litigation costs - was never brought into force, and was repealed in 2024. In March 2018 the Government cancelled Part 2 of the Inquiry as \"no longer appropriate, proportionate or in the public interest\"; Leveson said he \"fundamentally disagreed\"."
     ],
     "findings": [
@@ -822,12 +822,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "Christopher Jefferies, the retired teacher arrested (but never charged) over the murder of his tenant Joanna Yeates in December 2010, was defamed and vilified by parts of the press while in police custody. He later won libel damages from eight newspapers, and two publishers were separately fined for contempt of court.",
+        "text": "Christopher Jefferies, the retired teacher arrested (but never charged) over the murder of his tenant Joanna Yeates in December 2010, was defamed and vilified by parts of the press while in police custody. He later brought successful libel proceedings against eight newspapers, and the Attorney General brought contempt of court proceedings over three of the articles.",
         "cites": [
           {
             "id": "4-1-joanna-yeates-tenant",
             "page": 558,
             "href": "/reports/uk-leveson-inquiry?p=4-1-joanna-yeates-tenant"
+          },
+          {
+            "id": "4-5-jefferies-gave-evidence",
+            "page": 559,
+            "href": "/reports/uk-leveson-inquiry?p=4-5-jefferies-gave-evidence"
           },
           {
             "id": "4-8-ultimately-jefferies-successfully",
