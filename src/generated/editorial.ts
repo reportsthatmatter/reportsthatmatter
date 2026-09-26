@@ -239,7 +239,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ]
   },
   "litvinenko-inquiry": {
-    "status": "draft",
+    "status": "approved",
     "whyItMatters": "Sir Robert Owen's account of how Alexander Litvinenko, a former Russian security officer living in London, was fatally poisoned with a rare radioactive isotope in November 2006. The public inquiry took over from an inquest that could not proceed because government documents bearing on the case were too sensitive to be used in open court. Its findings go beyond his two poisoners to the Russian state itself, concluding that the operation was probably approved by Russia's president.",
     "background": [
       "Alexander Litvinenko was an officer in the Soviet and then Russian security services, the KGB and latterly the FSB, until he was dismissed in 1998 after publicly alleging illegal conduct within the FSB. He left Russia in 2000, was granted asylum in the UK in 2001, and became a British citizen in October 2006, working in London as a journalist and author, and a vocal critic of President Vladimir Putin. On 1 November 2006 he fell ill after meeting two visitors from Russia, Andrey Lugovoy and Dmitri Kovtun, for tea at the Pine Bar of the Millennium Hotel in Mayfair. He was found to have been poisoned with polonium 210, a rare radioactive isotope, and he died in University College Hospital on 23 November 2006.",
@@ -484,7 +484,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ]
   },
   "uk-hillsborough-panel": {
-    "status": "draft",
+    "status": "approved",
     "whyItMatters": "The Hillsborough Independent Panel's account of how 96 football supporters died in a crush at the 1989 FA Cup semi-final, and what happened to the truth about it over the next 23 years. Commissioned after sustained campaigning by bereaved families, the Panel examined over 450,000 pages of previously undisclosed documents. It found the fans were not the cause of the disaster, and sets out in detail how police statements were altered and unsubstantiated allegations against them took hold.",
     "background": [
       "On 15 April 1989 more than 50,000 people travelled to Hillsborough, Sheffield Wednesday's ground, for the FA Cup semi-final between Liverpool and Nottingham Forest. A crush developed in two overcrowded central pens on the Leppings Lane terrace after an exit gate was opened to relieve congestion outside; 96 men, women and children died as a consequence, and hundreds more were injured. A 97th, Andrew Devine, who suffered severe and irreversible brain damage at Hillsborough, died in 2021, and a coroner later found that he too had been unlawfully killed.",
@@ -719,7 +719,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ]
   },
   "uk-leveson-inquiry": {
-    "status": "draft",
+    "status": "approved",
     "whyItMatters": "Lord Justice Leveson's inquiry into the culture, practices and ethics of the British press, set up in 2011 after the News of the World was found to have hacked a murdered schoolgirl's phone. It examined the press's relationship with the public, the police and politicians, and concluded that decades of self-regulation had failed. Its central, still-contested recommendation - a new independent regulator recognised in law - set the terms of the debate over press regulation in the decade that followed.",
     "background": [
       "In July 2011 it emerged that the News of the World, Britain's best-selling Sunday newspaper, had hacked the voicemail of Milly Dowler, a schoolgirl murdered in 2002, while she was still missing, on top of years of evidence that hacking had also targeted celebrities and politicians. An advertiser boycott followed; the paper published its final edition on 10 July 2011, after 168 years.",
@@ -949,7 +949,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ]
   },
   "uk-saville-inquiry": {
-    "status": "draft",
+    "status": "approved",
     "whyItMatters": "Lord Saville's report into Bloody Sunday, when British paratroopers shot dead thirteen people on a civil rights march in Derry/Londonderry on 30 January 1972. His twelve-year inquiry, the longest and most expensive public inquiry in British legal history, re-examined a shooting that an earlier tribunal had investigated in eleven weeks. It found that none of those shot was posing a threat, and rejected the soldiers' claims that they had fired at gunmen or bombers. This edition covers Volume I: the Tribunal's own conclusions and the background to the day.",
     "background": [
       "On 30th January 1972 a civil rights march against internment without trial took place in Derry/Londonderry, in the north-west of Northern Ireland. British Army paratroopers of 1 PARA moved into the Bogside on an arrest operation; in the space of about ten minutes, soldiers shot dead thirteen people and wounded a similar number. A fourteenth man, John Johnston, wounded that day, died some months later and is often counted among Bloody Sunday's victims.",
@@ -1164,7 +1164,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ]
   },
   "us-911-commission": {
-    "status": "draft",
+    "status": "approved",
     "whyItMatters": "The bipartisan Commission's account of how nineteen al Qaeda hijackers killed 2,973 people on 11 September 2001, and of the failures across the government that let them succeed. Congress created it to find out what happened and why; it interviewed more than 1,200 people and reported without dissent within two years. A quarter-century on, its central recommendations — a National Counterterrorism Center and a Director of National Intelligence — still shape how the United States organises against terrorism today.",
     "background": [
       "On the morning of 11 September 2001, nineteen hijackers directed by al Qaeda seized four commercial airliners taking off from airports on the East Coast. Two, American Airlines Flight 11 and United Airlines Flight 175, were flown into the twin towers of the World Trade Center in New York; a third, American Airlines Flight 77, struck the Pentagon; the fourth, United Airlines Flight 93, crashed in a field near Shanksville, Pennsylvania, after its passengers fought to retake the cockpit. The Commission counted 2,973 dead.",
