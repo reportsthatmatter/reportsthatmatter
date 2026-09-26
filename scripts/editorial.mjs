@@ -34,6 +34,18 @@ const highlights = [];
 
 const files = existsSync(dir) ? readdirSync(dir).filter((name) => name.endsWith(".yaml")).sort() : [];
 
+// Without the pre-rendered bodies nothing can be checked, and writing
+// src/generated/editorial.ts anyway would silently drop those reports from
+// it (reportsthatmatter-v4w). Stop before writing anything.
+const unrendered = files
+  .map((name) => name.replace(/\.yaml$/, ""))
+  .filter((id) => known.has(id) && !existsSync(join(root, `assets/generated/reports/${id}/full-body.html`)));
+if (unrendered.length) {
+  console.error(`No pre-rendered text for ${unrendered.join(", ")} in assets/generated/reports/.`);
+  console.error("Run pnpm prerender first. Nothing was written.");
+  process.exit(1);
+}
+
 for (const name of files) {
   const source = parse(readFileSync(join(dir, name), "utf8"));
   const expected = name.replace(/\.yaml$/, "");
@@ -48,10 +60,6 @@ for (const name of files) {
   }
 
   const bodyPath = join(root, `assets/generated/reports/${source.report}/full-body.html`);
-  if (!existsSync(bodyPath)) {
-    problems.push(`${name}: ${bodyPath} is missing — run pnpm prerender first`);
-    continue;
-  }
 
   const structure = JSON.parse(
     readFileSync(join(root, `assets/generated/reports/${source.report}/meta.json`), "utf8")
