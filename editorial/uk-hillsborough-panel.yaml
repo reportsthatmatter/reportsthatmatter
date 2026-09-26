@@ -1,0 +1,242 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# Extraction note (reportsthatmatter-r19): Hillsborough's real headings are set
+# by colour and size, not by any textual convention pdftotext can key on, so
+# only 9 sections were recovered and most are garbled fragments spanning many
+# real chapters. `reading_guide` below points at the closest available section
+# for each topic and overrides every one of its titles; each `why` describes
+# what is actually in that stretch of the report, established by reading the
+# section with `pnpm paragraphs`, not by trusting its heading.
+#
+# Background facts not stated in the report itself (it was published in 2012),
+# verified 2026-09-25:
+#   - Andrew Devine, injured at Hillsborough, died on 27 July 2021; a coroner
+#     found he had been unlawfully killed, making him the 97th victim:
+#     https://en.wikipedia.org/wiki/Andrew_Devine
+#     https://www.si.com/soccer/2021/07/29/liverpool-andrew-devine-hillsborough-disaster-97th-victim
+#   - David Cameron's Commons statement and "double injustice" apology,
+#     12 September 2012 (Hansard, primary source):
+#     https://hansard.parliament.uk/commons/2012-09-12/debates/12091223000003/Hillsborough
+#   - High Court quashed the original 1991 accidental-death verdicts,
+#     19 December 2012: https://gcnchambers.co.uk/hillsborough-the-decision-to-quash-the-accidental-death-verdicts/
+#   - 2016 inquests: unlawful-killing conclusion by a 7-2 majority, Duckenfield
+#     found responsible for manslaughter by gross negligence, fans' behaviour
+#     found not to have caused or contributed to the disaster, 26 April 2016:
+#     https://www.bindmans.com/news-insights/news/hillsborough-inquest-jury-finds-victims-were-unlawfully-killed-and-fans-wer/
+#   - Criminal trials: Duckenfield acquitted at retrial, 2019; Graham Mackrell
+#     (SWFC club secretary) convicted of a safety offence, 2019, the only
+#     conviction to follow the disaster:
+#     https://www.policeconduct.gov.uk/node/10808
+#   - 2021 trial of two retired officers and a solicitor for perverting the
+#     course of justice over the statement amendments collapsed, judge ruled
+#     no case to answer: https://www.rte.ie/news/uk/2021/0526/1223991-hillborough/
+#   Everything else in `background` and `findings` is drawn from the report's
+#   own foreword, Report summary and the 12 chapters of Part 2.
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+
+report: uk-hillsborough-panel
+status: draft
+
+why_it_matters: >-
+  The Hillsborough Independent Panel's account of how 96 football supporters
+  died in a crush at the 1989 FA Cup semi-final, and what happened to the
+  truth about it over the next 23 years. Commissioned after sustained
+  campaigning by bereaved families, the Panel examined over 450,000 pages of
+  previously undisclosed documents. It found the fans were not the cause of
+  the disaster, and sets out in detail how police statements were altered and
+  unsubstantiated allegations against them took hold.
+
+background: |
+  On 15 April 1989 more than 50,000 people travelled to Hillsborough, Sheffield Wednesday's ground, for the FA Cup semi-final between Liverpool and Nottingham Forest. A crush developed in two overcrowded central pens on the Leppings Lane terrace after an exit gate was opened to relieve congestion outside; 96 men, women and children died as a consequence, and hundreds more were injured. A 97th, Andrew Devine, who suffered severe and irreversible brain damage at Hillsborough, died in 2021, and a coroner later found that he too had been unlawfully killed.
+
+  The disaster was investigated repeatedly in the years that followed. Lord Justice Taylor's judicial inquiry reported within months, finding that the main reason for the disaster was the failure of police control. The original inquests returned verdicts of accidental death in 1991, and a private prosecution of the two most senior police officers in command on the day, brought by the Hillsborough Family Support Group in 1999-2000, ended without a conviction. Many bereaved families and survivors believed the full circumstances had still not been made public, and that unsubstantiated allegations made by police officers and reported in the press had left it widely assumed that fans' behaviour had contributed to the disaster. In December 2009, after a renewed campaign by the Hillsborough Family Support Group and Merseyside MPs, the Home Secretary appointed the Hillsborough Independent Panel, chaired by the Rt Revd James Jones, Bishop of Liverpool, with a remit of securing maximum public disclosure of official documents. Over more than two years it examined material from over 80 organisations, and reported to Parliament on 12 September 2012.
+
+  In the Commons that day, the Prime Minister, David Cameron, apologised for what he called a "double injustice": the failure to protect the crowd, and the way blame was later placed on those who died. In December 2012 the High Court quashed the original 1991 accidental-death verdicts, and fresh inquests held between 2014 and 2016 concluded, by a 7-2 majority, that the 96 had been unlawfully killed, that the match commander, David Duckenfield, was responsible for manslaughter by gross negligence, and that fans' behaviour had not caused or contributed to the disaster. Duckenfield was later tried twice for gross negligence manslaughter and acquitted in 2019; the former Sheffield Wednesday secretary Graham Mackrell was convicted that year of a safety offence, the only conviction to follow the disaster; and in 2021 a trial of two retired police officers and a solicitor over the statement amendments collapsed when the judge ruled there was no case for them to answer.
+
+findings:
+  - text: The Panel found that multiple factors were responsible for the deaths, and that the fans were not the cause of the disaster.
+    cites: [whole-point-justice-consists-precisely]
+    excerpt:
+      paragraph: whole-point-justice-consists-precisely
+      quote: >-
+        The disclosed documents show that multiple factors were responsible
+        for the deaths of the 96 victims of the Hillsborough tragedy and that
+        the fans were not the cause of the disaster.
+
+  - text: The Panel found the crush was foreseeable. A similar crush had occurred on the same terrace in 1981, and further overcrowding recurred at the turnstiles in 1987 and on the terrace in 1988.
+    cites: [1981-before-fa-cup-semi-final, these-deficiencies-well-known-further]
+
+  - text: On the day, once an exit gate was opened to relieve crowding at the turnstiles, no instruction was given to direct the fans coming through it away from the already-overfull central pens.
+    cites: [box-cctv-monitors-neither-chief]
+
+  - text: The major incident procedure was never activated at Ground Control, Force Control or Ambulance Control, even after staff there had begun describing the situation as a "major incident".
+    cites: [continued-incomplete-communication-2-4]
+
+  - text: The Coroner's decision to hear no evidence of events after 3.15pm rested on pathologists' evidence that all who died were by then beyond recovery. The Panel found this picture of a single, rapid pattern of death was unsustainable, and that a significant number of those who died may still have been alive, and might have survived with appropriate and timely intervention, after being removed from the pens.
+    cites: [chapter-10-3-15pm-cut-off, underpinned-imposition-3-15pm-cut-off, 2-10-7-documents-considered]
+    excerpt:
+      paragraph: 2-10-7-documents-considered
+      quote: >-
+        The documents considered in Chapter 5 contain clear medical evidence
+        that a significant number of those who died may have been alive after
+        removal from the pens. These individuals might have survived given
+        appropriate and timely intervention, but remained vulnerable while
+        unconscious to the effects of a new event such as being positioned
+        incorrectly or inhaling stomach contents.
+
+  - text: Blood alcohol levels were taken and read out at each victim's preliminary inquest hearing, feeding persistent claims that drinking had contributed to the disaster. The Panel found the weight placed on this evidence was inappropriate, and that an attempt to link later arrival with drunkenness was fundamentally flawed.
+    cites: [each-preliminary-hearing-before-jury, weight-placed-alcohol-face-objective, also-show-available-evidence-significantly]
+
+  - text: Statements written by SYP officers were reviewed and altered before being submitted to the Taylor Inquiry. Of 164 statements marked for substantial amendment, 116 were changed to remove or alter comments unfavourable to the force, including 41 that downplayed criticism of its leadership and response.
+    cites: [syp-team-130-significant-number, police-response-inadequate-leadership-2]
+    excerpt:
+      paragraph: police-response-inadequate-leadership-2
+      quote: >-
+        Some 116 of the 164 substantially amended statements removed or
+        altered comments unfavourable to SYP. These included 41 statements in
+        which alterations downplayed or removed criticisms made by officers
+        of their leadership and of the police response to the disaster.
+
+  - text: Allegations that Liverpool fans had picked pockets, urinated on police and assaulted officers giving first aid were published as "THE TRUTH" by The Sun four days after the disaster. The Panel found no evidence to support these allegations beyond a few isolated examples of aggressive or abusive behaviour.
+    cites: [2-12-31-greatest-prominence, 2-12-83-wednesday-19, yet-from-mass-documents-television]
+    excerpt:
+      paragraph: 2-12-31-greatest-prominence
+      quote: >-
+        The greatest prominence given to the story was in The Sun whose
+        editor, Kelvin MacKenzie, cleared the front page and under the banner
+        headline 'THE TRUTH' published three bullet points: 'Some fans picked
+        pockets of victims; Some fans urinated on the brave cops; Some fans
+        beat up PC giving life kiss'.
+
+reading_guide:
+  - section: front-matter
+    title: Report summary
+    why: The Panel's own chapter-by-chapter digest of the first four chapters — the risks ignored before 1989, the day itself, and the roles and responsibilities that went unresolved.
+    excerpt:
+      paragraph: ninety-six-women-men-children-died
+      quote: >-
+        Ninety-six women, men and children died as a consequence of the
+        crush, while hundreds more were injured and thousands traumatised.
+
+  - section: neither-syp-nor-the-south-yorkshire-metropolitan-ambulance-service-symas
+    title: The rest of the report summary
+    why: Continues the chapter-by-chapter summary through the emergency response, the contested medical evidence, the 3.15pm cut-off, the altered statements and the unsubstantiated press allegations.
+    excerpt:
+      paragraph: underpinned-imposition-3-15pm-cut-off
+      quote: >-
+        The Panel's access to all of the relevant records has confirmed that
+        the notion of a single, unvarying and rapid pattern of death in all
+        cases is unsustainable.
+
+  - section: hillsborough
+    title: The day itself, and the emergency response
+    why: The Panel's detailed reconstruction of the day and of the emergency response that followed it, drawing on control-room tapes and radio transcripts not previously made public.
+    excerpt:
+      paragraph: continued-incomplete-communication-2-4
+      quote: >-
+        Yet the documents confirm that no-one at these locations activated
+        the major incident procedure, not even in response to SO Eason's
+        3.21pm call.
+
+  - section: of-action-check-transcripts-submissions-by-swfc-re-fence-check-transcripts-and-f
+    title: The coroner's inquiry and the 3.15pm cut-off
+    why: How the inquest was split into a hearing for each victim followed by a single generic hearing, and why the Coroner decided to hear no evidence of what happened after 3.15pm.
+    excerpt:
+      paragraph: coroner-s-summing-up-subsequent
+      quote: >-
+        Dr Popper returned to the cut-off: 'we did not take much evidence
+        after 3.15 in fact hardly any, and that was a deliberate decision of
+        mine'.
+
+  - section: memorandum-to-the-attorney-general-kevin-daniel-williams-deceased-application-un
+    title: The altered statements, and 'The Truth'
+    why: How SYP officers' statements were reviewed and amended before the Taylor Inquiry, and how allegations against Liverpool fans reached The Sun's front page four days after the disaster.
+    excerpt:
+      paragraph: informal-coarse-language-2-11
+      quote: >-
+        A total of 164 statements were marked for amendments more substantial
+        than simple corrections. Of these, 22 were amended to remove coarse
+        or informal language.
+
+highlights:
+  - paragraph: ninety-six-women-men-children-died
+    quote: >-
+      Ninety-six women, men and children died as a consequence of the crush,
+      while hundreds more were injured and thousands traumatised.
+    card: true
+  - paragraph: whole-point-justice-consists-precisely
+    quote: >-
+      The disclosed documents show that multiple factors were responsible for
+      the deaths of the 96 victims of the Hillsborough tragedy and that the
+      fans were not the cause of the disaster.
+    card: true
+  - paragraph: these-deficiencies-well-known-further
+    quote: >-
+      These deficiencies were well known and further overcrowding problems at
+      the turnstiles in 1987 and on the terrace in 1988 were additional
+      indications of the inherent dangers to crowd safety. The risks were
+      known and the crush in 1989 was foreseeable.
+  - paragraph: box-cctv-monitors-neither-chief
+    quote: >-
+      On opening Gate C there was no instruction given to the SYP officers
+      inside the stadium to manage the flow and direction of the incoming
+      crowd.
+    card: true
+  - paragraph: continued-incomplete-communication-2-4
+    quote: >-
+      Yet the documents confirm that no-one at these locations activated the
+      major incident procedure, not even in response to SO Eason's 3.21pm
+      call.
+  - paragraph: underpinned-imposition-3-15pm-cut-off
+    quote: >-
+      The Panel's access to all of the relevant records has confirmed that
+      the notion of a single, unvarying and rapid pattern of death in all
+      cases is unsustainable.
+  - paragraph: 2-10-7-documents-considered
+    quote: >-
+      The documents considered in Chapter 5 contain clear medical evidence
+      that a significant number of those who died may have been alive after
+      removal from the pens. These individuals might have survived given
+      appropriate and timely intervention, but remained vulnerable while
+      unconscious to the effects of a new event such as being positioned
+      incorrectly or inhaling stomach contents.
+    card: true
+  - paragraph: weight-placed-alcohol-face-objective
+    quote: >-
+      The weight placed on alcohol in the face of objective evidence of a
+      pattern of consumption modest for a leisure event was inappropriate. It
+      has since fuelled persistent and unsustainable assertions about drunken
+      fan behaviour.
+  - paragraph: coroner-s-summing-up-subsequent
+    quote: >-
+      Dr Popper returned to the cut-off: 'we did not take much evidence after
+      3.15 in fact hardly any, and that was a deliberate decision of mine'.
+  - paragraph: police-response-inadequate-leadership-2
+    quote: >-
+      Some 116 of the 164 substantially amended statements removed or altered
+      comments unfavourable to SYP. These included 41 statements in which
+      alterations downplayed or removed criticisms made by officers of their
+      leadership and of the police response to the disaster.
+    card: true
+  - paragraph: informal-coarse-language-2-11
+    quote: >-
+      A total of 164 statements were marked for amendments more substantial
+      than simple corrections. Of these, 22 were amended to remove coarse or
+      informal language.
+  - paragraph: 2-12-31-greatest-prominence
+    quote: >-
+      The greatest prominence given to the story was in The Sun whose editor,
+      Kelvin MacKenzie, cleared the front page and under the banner headline
+      'THE TRUTH' published three bullet points: 'Some fans picked pockets of
+      victims; Some fans urinated on the brave cops; Some fans beat up PC
+      giving life kiss'.
+    card: true
+  - paragraph: yet-from-mass-documents-television
+    quote: >-
+      Yet, from the mass of documents, television and CCTV coverage disclosed
+      to the Panel there is no evidence to support these allegations other
+      than a few isolated examples of aggressive or verbally abusive
+      behaviour clearly reflecting frustration and desperation.
