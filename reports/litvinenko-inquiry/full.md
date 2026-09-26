@@ -4,7 +4,7 @@ authors: "Sir Robert Owen (Chairman)"
 published_at: "21 January 2016"
 source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
 pages: 329
-footnotes: 858
+footnotes: 857
 ---
 
 The Litvinenko Inquiry Report into the death of Alexander Litvinenko
@@ -237,7 +237,7 @@ Appendices
 
 1.7 I was greatly assisted by Solicitors and Counsel for the Core Participants who took part in the Inquiry: Ben Emmerson QC, Adam Straw and Elena Tsirlina for Marina and Anatoly Litvinenko; Richard Horwell QC, Saba Naqshbandi, Jenny Leonard and Prit Mandair for the MPS; Neil Garnham QC, Robert Wastell, Paul Bishop and Catherine Turtle for the Secretary of State; and David Evans QC, Alasdair Henderson and Simon Ramsden for AWE plc.
 
-1.8 My conclusions on the central issues in this Report are to be found at Parts 8,[^9] and 10. Those Parts of the Report, and the conclusions they contain, are based on the totality of the evidence that I have heard – that is, both the 'open' and the 'closed' evidence. The conclusions are mine and mine alone.
+1.8 My conclusions on the central issues in this Report are to be found at Parts 8, 9 and 10. Those Parts of the Report, and the conclusions they contain, are based on the totality of the evidence that I have heard – that is, both the 'open' and the 'closed' evidence. The conclusions are mine and mine alone.
 
 %%page 8%%
 
@@ -669,7 +669,7 @@ Close friends
 
 3.108 At this stage, I propose simply to introduce two men with whom Mr Litvinenko developed particularly strong friendships during this period.
 
-3.109 The first of these men was Vladimir Bukovsky. Mr Bukovsky, who came to give evidence to the Inquiry, was a Russian dissident who had spent many years in detention in Soviet Russia before being released to the West in 1976 in exchange for the general secretary of the Chilean Communist Party. It seems that either Mr Goldfarb or Mr Berezovsky put Mr Litvinenko in touch with Mr Bukovsky shortly after the family's arrival in the UK. The evidence from both Marina Litvinenko and Mr Bukovsky himself was that, thereafter, the two developed a very strong friendship. Mrs Litvinenko described Mr Bukovsky as Mr Litvinenko's "guru", and the "greatest contact" that he had.[^92] Mr Bukovsky said that he talked to Mr Litvinenko about the history of KGB repression during the twentieth century, of which Mr Litvinenko had previously been unaware. He said that Mr Litvinenko would sometimes telephone him "20,[^30] times a day, including the night time" and that Mr Litvinenko also travelled to see him at his home.[^93] It is clear to me that Mr Litvinenko's discussions with Mr Bukovsky were highly influential in the development of his political views.
+3.109 The first of these men was Vladimir Bukovsky. Mr Bukovsky, who came to give evidence to the Inquiry, was a Russian dissident who had spent many years in detention in Soviet Russia before being released to the West in 1976 in exchange for the general secretary of the Chilean Communist Party. It seems that either Mr Goldfarb or Mr Berezovsky put Mr Litvinenko in touch with Mr Bukovsky shortly after the family's arrival in the UK. The evidence from both Marina Litvinenko and Mr Bukovsky himself was that, thereafter, the two developed a very strong friendship. Mrs Litvinenko described Mr Bukovsky as Mr Litvinenko's "guru", and the "greatest contact" that he had.[^92] Mr Bukovsky said that he talked to Mr Litvinenko about the history of KGB repression during the twentieth century, of which Mr Litvinenko had previously been unaware. He said that Mr Litvinenko would sometimes telephone him "20, 30 times a day, including the night time" and that Mr Litvinenko also travelled to see him at his home.[^93] It is clear to me that Mr Litvinenko's discussions with Mr Bukovsky were highly influential in the development of his political views.
 
 3.110 The second of Mr Litvinenko's very close friends was Akhmed Zakayev. Mr Zakayev arrived in London in 2002 and claimed asylum. Like Mr Litvinenko, he was supported by Mr Berezovsky. Mr Zakayev was introduced to Mr Litvinenko by Mr Berezovsky, and Mr Zakayev subsequently chose to live with his family in a house very close to the Litvinenko's house in Muswell Hill. As Mr Zakayev put it in evidence, "Chechen people first choose the neighbour and then they buy the house. That's exactly what I did." He said that the two families became "very, very big friends, very close friends", who would see each other almost every day.[^94] Again, it is clear to me that his friendship with Mr Zakayev was an important influence on Mr Litvinenko's life in the years between 2002 and 2006. It was during this period, and no doubt a result of this friendship, that
 
@@ -3525,7 +3525,7 @@ The Litvinenko Inquiry unusual about the tea or the way that it had been drunk. 
 
 Part 6 | Chapters 1 to 8 | The polonium trail – events in October and November 2006
 
-> it, let's go. So, Volodia and I stayed, the two of us, and he stood up, approached his wife, Andrei, and then he brought his son,[^8] years old. He is such a boy, eight years old, wearing a jacket, he said, 'This is Uncle Sasha, shake his hand.' We shook hands, and he went (INAUDIBLE). So, then we came out."
+> it, let's go. So, Volodia and I stayed, the two of us, and he stood up, approached his wife, Andrei, and then he brought his son, 8 years old. He is such a boy, eight years old, wearing a jacket, he said, 'This is Uncle Sasha, shake his hand.' We shook hands, and he went (INAUDIBLE). So, then we came out."
 
 6.306 Mr Litvinenko's account gives rise to a number of observations.
 
@@ -4231,7 +4231,7 @@ Chapter 1: Introduction
 
 9.4 The structure of this Part will be as follows.
 
-9.5 In Chapter 2, Chapter 3, Chapter 4 and Chapter 5 I will consider whether any of the individuals and organisations listed at paragraphs 17, 19,[^20] and 21 of the List of Issues (see Appendix 3) (i.e. Boris Berezovsky, United Kingdom (UK) intelligence agencies, organised crime groups, Mario Scaramella, Chechen groups and Alexander Talik) had any involvement in Mr Litvinenko's death.
+9.5 In Chapter 2, Chapter 3, Chapter 4 and Chapter 5 I will consider whether any of the individuals and organisations listed at paragraphs 17, 19, 20 and 21 of the List of Issues (see Appendix 3) (i.e. Boris Berezovsky, United Kingdom (UK) intelligence agencies, organised crime groups, Mario Scaramella, Chechen groups and Alexander Talik) had any involvement in Mr Litvinenko's death.
 
 9.6 In Chapter 6, Chapter 7, Chapter 8, Chapter 9 and Chapter 10 I will analyse the evidence relating to various aspects of the issue at paragraph 18 of the List of Issues – the possible involvement of Russian State agencies in Mr Litvinenko's death.
 
@@ -6291,7 +6291,7 @@ Restrictions on the Disclosure or Publication of Evidence or Documents given, pr
 
 > and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^5] Otherwise than as is permitted by this Notice, no person, whether a member of the Core Inquiry Team or otherwise, may disclose or publish to any other person the Schedule to this Notice or any of the information contained in the documents identified in the Schedule to this Notice ("the Schedule material"). The Schedule to this Notice and the Schedule material are or refer to material which (i) was the subject of the Public Interest Immunity certificate issued by the Secretary of State for Foreign and Commonwealth Affairs and dated 7 February 2013 or (ii) had previously been shown to HM Assistant Coroner for Inner North West London during the course of the inquest into the death of Alexander Litvinenko.[^6] HMG advisers may disclose the contents of parts of the material referred to in the Schedule to this Notice to such other individuals and for such purposes as are identified in writing by the Minister to the Chairman.[^7] Save with the written agreement of the Minister, no reference shall be made by the Chairman to the Schedule material in any open ruling, judgment or report arising out of the Inquiry, or otherwise, unless it has been removed from the scope of this Notice by means of a letter under paragraph 15 below.
 
-Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12,[^13] and 14 below are imposed:
+Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12, 13 and 14 below are imposed:
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
@@ -6357,7 +6357,7 @@ Appendix 7 | Restriction Notices and Orders
 
 > considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^5] Otherwise than as is permitted by this Notice, no person, whether a member of the Core Inquiry Team or otherwise, may disclose or publish to any other person the Schedule to this Notice or any of the information contained in the documents identified in the Schedule to this Notice ("the Schedule material").[^6] HMG advisers may disclose the contents of parts of the material referred to in the Schedule to this Notice to such other individuals and for such purposes as are identified in writing by the Minister to the Chairman.[^7] Save with the written agreement of the Minister, no reference shall be made by the Chairman to the Schedule material in any open ruling, judgment or report arising out of the Inquiry, or otherwise, unless it has been removed from the scope of this Notice by means of a letter under paragraph 15 below.
 
-Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12,[^13] and 14 below are imposed:
+Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12, 13 and 14 below are imposed:
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
@@ -6425,7 +6425,7 @@ The Litvinenko Inquiry
 
 > considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^5] Otherwise than as is permitted by this Notice, no person, whether a member of the Core Inquiry Team or otherwise, may disclose or publish to any other person the Schedule to this Notice or any of the information contained in the documents identified in the Schedule to this Notice ("the Schedule material").[^6] HMG advisers may disclose the contents of parts of the material referred to in the Schedule to this Notice to such other individuals and for such purposes as are identified in writing by the Minister to the Chairman.[^7] Save with the written agreement of the Minister, no reference shall be made by the Chairman to the Schedule material in any open ruling, judgment or report arising out of the Inquiry, or otherwise, unless it has been removed from the scope of this Notice by means of a letter under paragraph 15 below.
 
-Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12,[^13] and 14 below are imposed:
+Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12, 13 and 14 below are imposed:
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
@@ -6489,7 +6489,7 @@ Appendix 7 | Restriction Notices and Orders
 
 > considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.[^5] Otherwise than as is permitted by this Notice, no person, whether a member of the Core Inquiry Team or otherwise, may disclose or publish to any other person the Schedule to this Notice or any of the information contained in the documents identified in the Schedule to this Notice ("the Schedule material").[^6] HMG advisers may disclose the contents of parts of the material referred to in the Schedule to this Notice to such other individuals and for such purposes as are identified in writing by the Minister to the Chairman.[^7] Save with the written agreement of the Minister, no reference shall be made by the Chairman to the Schedule material in any open ruling, judgment or report arising out of the Inquiry, or otherwise, unless it has been removed from the scope of this Notice by means of a letter under paragraph 15 below.
 
-Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12,[^13] and 14 below are imposed:
+Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restrictions referred to at paragraphs 9, 12, 13 and 14 below are imposed:
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
@@ -8593,9 +8593,7 @@ The Litvinenko Inquiry
 
 [^16]: The Chairman may invite the Minister to amend this Restriction Notice at any time upon providing the Minister with a draft of the proposed amendment and written reasons for it.
 
-[^17]: The Minister may amend this Restriction Notice at any time.
-
-[^9]: March 2015
+[^17]: The Minister may amend this Restriction Notice at any time. 9 March 2015
 
 [^10]: Hearings at which such material may be considered or referred to, and which are subject to such restrictions, are to be referred to as "closed hearings".
 

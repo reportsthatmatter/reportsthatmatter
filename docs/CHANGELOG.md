@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-26 — Fewer stray note links across seven reports; Wall Street's missing notes restored
+
+In Wall Street and the Financial Crisis, a note whose text began with a number ("2009 OTS Annual Report…", "12 U.S.C. § 1820") was read as a new note with that number. That left 25 notes defined twice and threw the note count off, so on later pages the notes weren't found and printed as body text. The count now holds: no note is defined twice, and notes such as 65, 91–93 and 604–609 are back in the margin. Across the archive, numbers that aren't note markers are no longer linked as notes: case citations ("265 U.S. 182, 188"), years after a date ("May 3, 1991"), counts ("2008, 119 years to the day"), document numbers, and lists ("paragraphs 17, 19, 20 and 21"). That removed about 60 false links in Philip Morris, 70 in Deepwater Horizon and 35 each in Jack Smith and Leveson, and 21 Philip Morris notes that were printed as body text are notes again. About 17 Wall Street notes long enough to fill a whole page still print in the body; that is next.
+
+---
+
 ## 2026-09-25 — Footnotes stay in the margin in the Jack Smith and Wall Street reports
 
 In the Jack Smith report, a footnote that ran over a page break, or whose first line the PDF set above its own number, landed in the text as a block of raw citations. That happened twelve times, splitting five paragraphs mid-sentence, including one the landing page links to ("…the co-conspirators deliberately / [citations] / withheld from the elector nominees…"). Those citations are now back in their notes, and the paragraphs are whole. In Wall Street and the Financial Crisis, page numbers on the contents page and the count in "75 out of 75" were being read as note markers. Because each number's notes are matched in order, that gave later notes the wrong text: the Executive Summary's first note showed an unrelated Goldman Sachs note. The same contents-page fix corrects the Challenger and Philip Morris reports.

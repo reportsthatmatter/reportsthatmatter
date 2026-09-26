@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 68239,
-      "paragraphs": 454,
+      "words": 66755,
+      "paragraphs": 455,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -85,8 +85,8 @@
         {
           "slug": "prosecuting-mr-trump-served-multiple-substantial-federal-interests",
           "title": "Prosecuting Mr. Trump Served Multiple Substantial Federal Interests",
-          "paragraphs": 32,
-          "ids": "c1bb3b4a9320"
+          "paragraphs": 33,
+          "ids": "3d09c3fe4394"
         },
         {
           "slug": "there-was-no-adequate-non-criminal-alternative-to-prosecution",
@@ -205,14 +205,14 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 326815,
-      "paragraphs": 2482,
+      "words": 325854,
+      "paragraphs": 2456,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
           "title": "PERMANENT SUBCOMMITTEE ON INVESTIGATIONS",
           "paragraphs": 74,
-          "ids": "07a0063335a2"
+          "ids": "453aa57f15e0"
         },
         {
           "slug": "subcommittee-investigation",
@@ -253,14 +253,14 @@
         {
           "slug": "market-oversight",
           "title": "Market Oversight",
-          "paragraphs": 25,
-          "ids": "bc09a28dbf28"
+          "paragraphs": 17,
+          "ids": "4a48ece8ff45"
         },
         {
           "slug": "government-sponsored-enterprises",
           "title": "Government Sponsored Enterprises",
-          "paragraphs": 12,
-          "ids": "cab1e31663a7"
+          "paragraphs": 9,
+          "ids": "3b86cf231771"
         },
         {
           "slug": "administrative-and-legislative-actions",
@@ -290,7 +290,7 @@
           "slug": "high-risk-lending-strategy",
           "title": "High Risk Lending Strategy",
           "paragraphs": 62,
-          "ids": "2d51ef141d2d"
+          "ids": "a2ebedcc6dc7"
         },
         {
           "slug": "shoddy-lending-practices",
@@ -308,7 +308,7 @@
           "slug": "polluting-the-financial-system",
           "title": "Polluting the Financial System",
           "paragraphs": 87,
-          "ids": "655e5ecc2c9b"
+          "ids": "fb8d824ed6be"
         },
         {
           "slug": "destructive-compensation-practices",
@@ -319,8 +319,8 @@
         {
           "slug": "walk-up-music-for-david-schneider-david-schneider",
           "title": "WALK-UP MUSIC FOR DAVID SCHNEIDER DAVID SCHNEIDER",
-          "paragraphs": 38,
-          "ids": "8f5e600f2d64"
+          "paragraphs": 36,
+          "ids": "95a168e78764"
         },
         {
           "slug": "preventing-high-risk-lending",
@@ -337,26 +337,26 @@
         {
           "slug": "subcommittee-investigation-and-findings-of-fact-2",
           "title": "Subcommittee Investigation and Findings of Fact",
-          "paragraphs": 24,
-          "ids": "cbce133dd096"
+          "paragraphs": 19,
+          "ids": "a25bedb52845"
         },
         {
           "slug": "washington-mutual-examination-history",
           "title": "Washington Mutual Examination History",
-          "paragraphs": 153,
-          "ids": "30db3d03bc83"
+          "paragraphs": 151,
+          "ids": "d791ccf9d215"
         },
         {
           "slug": "regulatory-failures",
           "title": "Regulatory Failures",
           "paragraphs": 124,
-          "ids": "b1d4f6aa9c75"
+          "ids": "e8e3708f5c9c"
         },
         {
           "slug": "preventing-regulatory-failures",
           "title": "Preventing Regulatory Failures",
-          "paragraphs": 17,
-          "ids": "6cc5680813b0"
+          "paragraphs": 11,
+          "ids": "14f9d4499dbe"
         },
         {
           "slug": "case-study-of-moodys-and-standard-poors",
@@ -404,7 +404,7 @@
           "slug": "conflict-between-client-interests-and-proprietary-trading-in-2007-goldman",
           "title": "Conflict Between Client Interests and Proprietary Trading. In 2007, Goldman",
           "paragraphs": 497,
-          "ids": "8db470087f08"
+          "ids": "290257d5ae30"
         },
         {
           "slug": "cdo-marks",
@@ -439,8 +439,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 154430,
-      "paragraphs": 2895,
+      "words": 155132,
+      "paragraphs": 2899,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -589,14 +589,14 @@
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 123,
-          "ids": "1bbee644eebc"
+          "paragraphs": 124,
+          "ids": "eddc5d3f8d3f"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
           "title": "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
-          "paragraphs": 305,
-          "ids": "e7104ef6e31a"
+          "paragraphs": 306,
+          "ids": "d08919db165d"
         },
         {
           "slug": "launch-redlines",
@@ -691,14 +691,14 @@
         {
           "slug": "42-revisions-submittals",
           "title": "4.2 REVISIONS & SUBMITTALS",
-          "paragraphs": 55,
-          "ids": "913a5a0ac9db"
+          "paragraphs": 57,
+          "ids": "812333c47890"
         },
         {
           "slug": "appendix",
           "title": "APPENDIX",
           "paragraphs": 14,
-          "ids": "a3ac77c5dbc6"
+          "ids": "3dd50a745dfc"
         },
         {
           "slug": "rubber-property-compression-set",
@@ -710,7 +710,7 @@
           "slug": "calculation-12-procedure",
           "title": "Calculation 12. Procedure",
           "paragraphs": 48,
-          "ids": "83d5a1553867"
+          "ids": "40624bd102c3"
         },
         {
           "slug": "0-omrsd",
@@ -739,7 +739,7 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 138186,
+      "words": 138037,
       "paragraphs": 2261,
       "sections": [
         {
@@ -1051,8 +1051,8 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1075702,
-      "paragraphs": 12778,
+      "words": 1075653,
+      "paragraphs": 12776,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
@@ -1088,7 +1088,7 @@
           "slug": "publication-of-parliamentary-reports-in",
           "title": "Publication of Parliamentary Reports in",
           "paragraphs": 543,
-          "ids": "69760da56b6d"
+          "ids": "c4e05187502a"
         },
         {
           "slug": "july-2009-the-guardian",
@@ -1123,8 +1123,8 @@
         {
           "slug": "appendices",
           "title": "APPENDICES",
-          "paragraphs": 729,
-          "ids": "15ff8f853920"
+          "paragraphs": 728,
+          "ids": "bf02fdfc1210"
         },
         {
           "slug": "the-dowlers",
@@ -1237,8 +1237,8 @@
         {
           "slug": "human-rights-act",
           "title": "Human Rights Act",
-          "paragraphs": 56,
-          "ids": "bec3be0c284b"
+          "paragraphs": 55,
+          "ids": "316c27fc147a"
         },
         {
           "slug": "data-protection-act",
@@ -1423,7 +1423,7 @@
       ]
     },
     "columbia-accident": {
-      "words": 168979,
+      "words": 168926,
       "paragraphs": 2920,
       "sections": [
         {
@@ -2053,8 +2053,8 @@
       ]
     },
     "us-911-commission": {
-      "words": 300468,
-      "paragraphs": 3027,
+      "words": 300576,
+      "paragraphs": 3022,
       "sections": [
         {
           "slug": "report",
@@ -2413,8 +2413,8 @@
         {
           "slug": "pdd-62-protection-against-unconventional-threats-to-the-homeland-and-americans-o",
           "title": "PDD-62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May",
-          "paragraphs": 257,
-          "ids": "ade162e504c0"
+          "paragraphs": 252,
+          "ids": "55b0e549ab15"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -2425,14 +2425,14 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 191454,
+      "words": 189254,
       "paragraphs": 1330,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
           "paragraphs": 196,
-          "ids": "b26ab403b100"
+          "ids": "14b95302b0b1"
         },
         {
           "slug": "santa-barbara-oil-spill",
@@ -2588,7 +2588,7 @@
           "slug": "index",
           "title": "INDEX",
           "paragraphs": 61,
-          "ids": "b7ec0c94d5cd"
+          "ids": "c00fbaf5066e"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -2599,8 +2599,8 @@
       ]
     },
     "us-v-philip-morris": {
-      "words": 498626,
-      "paragraphs": 2936,
+      "words": 496116,
+      "paragraphs": 2879,
       "sections": [
         {
           "slug": "united-states-district-court-for-the-district-of-columbia",
@@ -2833,26 +2833,14 @@
         {
           "slug": "ctr",
           "title": "CTR",
-          "paragraphs": 1,
-          "ids": "c2f5a089ea28"
-        },
-        {
-          "slug": "rj-reynolds",
-          "title": "R.J. Reynolds",
-          "paragraphs": 5,
-          "ids": "b397073b8400"
+          "paragraphs": 6,
+          "ids": "65f4bc031435"
         },
         {
           "slug": "tobacco-institute",
           "title": "Tobacco Institute",
-          "paragraphs": 1,
-          "ids": "d38bcb868338"
-        },
-        {
-          "slug": "tircctr",
-          "title": "TIRC/CTR",
-          "paragraphs": 1,
-          "ids": "48704df2e969"
+          "paragraphs": 2,
+          "ids": "799b14da9a6d"
         },
         {
           "slug": "cigarette-smoking-causes-disease",
@@ -3115,8 +3103,8 @@
         {
           "slug": "iapag",
           "title": "(IAPAG)",
-          "paragraphs": 54,
-          "ids": "e14db601433e"
+          "paragraphs": 55,
+          "ids": "5e3a04716660"
         },
         {
           "slug": "japanese-spousal-study-iemc-papers",
@@ -3127,20 +3115,20 @@
         {
           "slug": "defendants-made-false-and-misleading-public-statements-denying-that",
           "title": "Defendants Made False and Misleading Public Statements Denying that",
-          "paragraphs": 39,
-          "ids": "b9285f59d4b5"
+          "paragraphs": 35,
+          "ids": "221b8dededb5"
         },
         {
           "slug": "suppression-and-concealment-of-scientific-research",
           "title": "Suppression and Concealment of Scientific Research",
-          "paragraphs": 32,
-          "ids": "71c32abbfa57"
+          "paragraphs": 25,
+          "ids": "3f3cf69d6fa3"
         },
         {
           "slug": "document-destruction-policies",
           "title": "Document Destruction Policies",
-          "paragraphs": 93,
-          "ids": "8104b5e4d567"
+          "paragraphs": 83,
+          "ids": "85e957ed0471"
         },
         {
           "slug": "liggetts-settlement-agreement-with-various-states",
@@ -3272,7 +3260,7 @@
           "slug": "defendants-false-and-fraudulent-statements-representations-and",
           "title": "Defendants' False and Fraudulent Statements, Representations, and",
           "paragraphs": 17,
-          "ids": "b34e570ce020"
+          "ids": "2d533d1cca26"
         },
         {
           "slug": "defendants-have-violated-18-usc-1962d1818-defendants-assert-that-the-statements-",
@@ -3307,38 +3295,38 @@
         {
           "slug": "applicable-law",
           "title": "Applicable Law",
-          "paragraphs": 13,
-          "ids": "b0be90dc1b8b"
+          "paragraphs": 12,
+          "ids": "ac1059061a2c"
         },
         {
           "slug": "the-enterprises-scheme-to-defraud-presents-continuing-opportunities-for",
           "title": "The Enterprise's Scheme to Defraud Presents Continuing Opportunities for",
-          "paragraphs": 14,
-          "ids": "8286aee24fa2"
+          "paragraphs": 11,
+          "ids": "ff415ea49719"
         },
         {
           "slug": "the-msa-has-not-sufficiently-altered-defendants-conduct-to-justify-not",
           "title": "The MSA Has Not Sufficiently Altered Defendants' Conduct to Justify Not",
-          "paragraphs": 13,
-          "ids": "eaf9a693d31e"
+          "paragraphs": 12,
+          "ids": "4fe332700970"
         },
         {
           "slug": "ctr-2",
           "title": "CTR",
-          "paragraphs": 14,
-          "ids": "eec401bb61f9"
+          "paragraphs": 7,
+          "ids": "4366b009c8ae"
         },
         {
           "slug": "the-tobacco-institute",
           "title": "The Tobacco Institute",
-          "paragraphs": 24,
-          "ids": "fc438686b50f"
+          "paragraphs": 21,
+          "ids": "3cdca9f114bb"
         },
         {
           "slug": "legal-standards-governing-remedies",
           "title": "Legal Standards Governing Remedies",
-          "paragraphs": 23,
-          "ids": "87c9ff6128f5"
+          "paragraphs": 15,
+          "ids": "41160a09ca49"
         },
         {
           "slug": "section-v-e-defendants-know-that-health-concerns-are-the-primary-motivation-for-",
@@ -3349,20 +3337,20 @@
         {
           "slug": "section-v-c3-supra-public-statements-on-nicotine-manipulation-section-vf7-supra-",
           "title": "Section V: (C)(3), supra (public statements on nicotine manipulation); Section V(F)(7), supra (public statements on youth marketing); Section V(E)(4), supra (statements on \"light\" and \"low tar\" cigarettes). Evidence in the record also amply demonstrates that certain of Defendants' public statements communicating their positions on smoking and health issues continue to omit material information or present information in a misleading and incomplete fashion. For example, Reynolds's current website statement on the health effects of smoking continues to insist that smoking \"causes disease in some individuals\" only \"in combination with other factors.\" (JD 068012); see also Schindler TT,",
-          "paragraphs": 15,
-          "ids": "63a20416ff86"
+          "paragraphs": 14,
+          "ids": "86aef91ece9b"
         },
         {
           "slug": "disclosure-of-documents-and-disaggregated-marketing-data",
           "title": "Disclosure of Documents and Disaggregated Marketing Data",
-          "paragraphs": 36,
-          "ids": "dc104206d8fb"
+          "paragraphs": 27,
+          "ids": "52d2a2fbea02"
         },
         {
           "slug": "youth-smoking-reduction-targets",
           "title": "Youth Smoking Reduction Targets",
-          "paragraphs": 5,
-          "ids": "453a45ffc29e"
+          "paragraphs": 3,
+          "ids": "dd79c1c9092d"
         },
         {
           "slug": "corporate-structural-changes",
@@ -3373,8 +3361,8 @@
         {
           "slug": "public-education-and-countermarketing-campaign",
           "title": "Public Education and Countermarketing Campaign",
-          "paragraphs": 13,
-          "ids": "5617f76b449f"
+          "paragraphs": 11,
+          "ids": "9dfb2884eda0"
         },
         {
           "slug": "notes-not-linked-in-the-text",
