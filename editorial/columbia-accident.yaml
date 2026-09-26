@@ -1,0 +1,194 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report (OCR
+# quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      Rufus's highlights: seeded into the marks table, not printed here
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+#
+# Paragraph ids containing "ʼ" are avoided throughout: the ingest's paragraph
+# index skips them, so their links would not open in context.
+
+report: columbia-accident
+status: approved
+
+why_it_matters: >-
+  The independent board's account of why the Space Shuttle Columbia broke apart
+  in February 2003, killing its seven crew. It traces the loss to a piece of
+  foam and then, at greater length, to the NASA that let foam strikes become
+  routine and set aside its engineers' requests to photograph the damaged wing.
+  Its account of how organisations come to accept danger is still read far
+  beyond spaceflight.
+
+background: |
+  Columbia, the first Space Shuttle to fly in orbit, was launched on 16 January 2003
+  on STS-107, a 16-day science mission. On the morning of 1 February, as it
+  returned to Earth, it broke apart over Texas about 16 minutes before it was
+  due to land. All seven crew died, among them Ilan Ramon, Israel's first
+  astronaut. It was the second Shuttle lost, 17 years after Challenger in
+  January 1986.
+
+  NASA activated the Columbia Accident Investigation Board within hours, under
+  procedures set up after Challenger. Chaired by Harold Gehman, a retired US
+  Navy admiral, its 13 members broadened their inquiry from the
+  physical cause to NASA's history, budgets and culture. The report says its
+  investigators examined more than 30,000 documents and conducted more than 200
+  formal interviews, while more than 25,000 searchers recovered debris across
+  the western United States. Volume I was published on 26 August 2003, with 29
+  recommendations, 15 of them to be met before the Shuttle flew again. It is an
+  accident investigation, not a court: it names managers and describes their
+  decisions, but argues that NASA's problems cannot be solved by resignations
+  or transfers. Its chapter comparing Columbia with Challenger was written with
+  the sociologist Diane Vaughan, whose work on Challenger gave it the phrase
+  "normalization of deviance".
+
+  The Shuttle fleet was grounded for more than two years. Discovery returned to
+  flight on STS-114 in July 2005, but a large piece of foam came off its tank
+  and the fleet was grounded again until July 2006. In January 2004 President
+  George W. Bush announced a new space policy under which the Shuttle would be
+  retired once the International Space Station was complete; the last Shuttle
+  flight, by Atlantis, was in July 2011.
+
+findings:
+  - text: The Board finds that a piece of insulating foam from the External Tank struck the leading edge of Columbia's left wing during launch and breached it. On re-entry, superheated air entered the wing and melted its structure until the Orbiter broke apart.
+    cites: [physical-cause-loss-columbia-its, physical-cause-loss-columbia-its-2]
+    excerpt:
+      paragraph: physical-cause-loss-columbia-its
+      quote: >-
+        During re-entry this breach in the Thermal Protection System allowed
+        superheated air to penetrate through the leading edge insulation and
+        progressively melt the aluminum structure of the left wing, resulting in
+        a weakening of the structure until increasing aerodynamic forces caused
+        loss of control, failure of the wing, and breakup of the Orbiter. This
+        breakup occurred in a flight regime in which, given the current design
+        of the Orbiter, there was no possibility for the crew to survive.
+
+  - text: Foam had been coming off the tank since the first flight in 1981, against the design requirements. The report finds that NASA came to treat each strike as a maintenance problem rather than a danger, as it had treated O-ring erosion before Challenger.
+    cites: [despite-high-level-concern-after, small-logical-next-step-discovery, initial-shuttle-design-predicted-neither]
+    excerpt:
+      paragraph: small-logical-next-step-discovery
+      quote: >-
+        Foam debris anomalies came to be categorized by the reassuring term
+        "in-family," a formal classification indicating that new occurrences of
+        an anomaly were within the engineering experience base. "In-family" was
+        a strange term indeed for a violation of system requirements.
+
+  - text: The Board found the Shuttle Program under pressure to meet a fixed date, 19 February 2004, for launching a key part of the International Space Station, a deadline on which the White House and Congress had in effect put NASA on probation.
+    cites: [during-course-investigation-board-received, white-house-congress-had-put, nasa-headquarters-stressed-importance-date]
+
+  - text: During the flight, engineers asked three times for images of the damaged wing. Managers turned the requests down, having already judged foam no threat, and, the report finds, required the engineers to prove the Orbiter was unsafe.
+    cites: [would-be-first-three-discrete, opinions-shuttle-program-managers-debris, shuttle-program-mission-management-team]
+    excerpt:
+      paragraph: opinions-shuttle-program-managers-debris
+      quote: >-
+        Debris Assessment Team members had to prove unequivocally that a
+        safety-of-flight issue existed before Shuttle Program management would
+        move to obtain images of the left wing. The engineers found themselves
+        in the unusual position of having to prove that the situation was unsafe
+        – a reversal of the usual requirement to prove that a situation is safe.
+
+  - text: A study NASA carried out for the Board concluded that, had the damage been found early in the mission, a rescue by the Shuttle Atlantis would have been challenging but feasible.
+    cites: [its-study-these-two-options, rescue-considered-challenging-feasible-succeed]
+    excerpt:
+      paragraph: rescue-considered-challenging-feasible-succeed
+      quote: >-
+        This rescue was considered challenging but feasible. To succeed, it
+        required problem-free processing of Atlantis and a flawless launch
+        countdown. If Program managers had understood the threat that the bipod
+        foam strike posed and were able to unequivocally determine before Flight
+        Day Seven that there was potentially catastrophic damage to the left
+        wing, these repair and rescue plans would most likely have been
+        developed, and a rescue would have been conceivable.
+
+  - text: The Board concludes that NASA's organisation and culture were as much a cause as the foam. Its safety organisation lacked independence and stayed silent, and the Shuttle Program held authority over schedule, cost and safety at once.
+    cites: [organizational-causes-accident-are-rooted, board-investigated-columbia-accident-expected, evidence-supports-organizational-causes-also]
+
+  - text: The report finds "echoes" of Challenger throughout, and concludes that the organisational causes identified after 1986 had not been fixed. It holds the White House and Congress, as well as NASA, responsible for the pressures that produced them.
+    cites: [echoes-did-not-stop-there, series-engineering-decisions-normalized-technical, leaders-create-culture-their-responsibility]
+
+  - text: Beyond immediate fixes to foam, imaging and wing repair, the Board recommends separating technical authority from schedule and cost, an independent safety organisation, and replacing the Shuttle as soon as possible.
+    cites: [report-concludes-recommendations-some-which, through-its-recommendations-part-two, even-so-based-its-in-depth]
+
+reading_guide:
+  - section: executive-summary
+    title: Executive summary
+    why: The physical cause and the organisational causes in two pages, and how the report is laid out.
+
+  - section: 61-a-history-of-foam-anomalies
+    title: A history of foam anomalies
+    why: How foam came off the tank on flight after flight, and how NASA came to live with it.
+    excerpt:
+      paragraph: despite-high-level-concern-after
+      quote: >-
+        Photographic evidence of foam shedding exists for 65 of the 79 missions
+        for which imagery is available.
+
+  - section: 62-schedule-pressure
+    title: Schedule pressure
+    why: The February 2004 deadline for the Space Station, and what it did to the people preparing the Shuttle.
+    excerpt:
+      paragraph: nasa-headquarters-stressed-importance-date
+      quote: >-
+        A screen saver (see Figure 6.2-3) was mailed to managers in NASAʼs human
+        spaceflight program that depicted a clock counting down to February 19,
+        2004 – U.S. Core Complete.
+
+  - section: missed-opportunities
+    title: Decision-making during the flight
+    why: The Board's summary of the 16 days in orbit, when engineers sought images of the wing and managers declined them.
+    excerpt:
+      paragraph: shuttle-program-mission-management-team
+      quote: >-
+        Managersʼ claims that they didnʼt hear the engineersʼ concerns were due
+        in part to their not asking or listening.
+
+  - section: 64-possibility-of-rescue-or-repair
+    title: Possibility of rescue or repair
+    why: What could have been done had the damage been found, from a repair with scavenged metal and ice to a rescue by Atlantis.
+
+  - section: 82-failures-of-foresight-two-decision-histories-and-the-normalization-of-devianc
+    title: The normalisation of deviance
+    why: The chapter's core comparison of foam and the Challenger O-rings, and how warning signs became routine.
+    excerpt:
+      paragraph: initial-shuttle-design-predicted-neither
+      quote: >-
+        Engineers and managers incorporated worsening anomalies into the
+        engineering experience base, which functioned as an elastic waistband,
+        expanding to hold larger deviations from the original design.
+
+highlights:
+  - paragraph: order-understand-findings-recommendations-report
+    quote: It is our view that complex systems almost always fail in complex ways, and we believe it would be wrong to reduce the complexities and weaknesses associated with these systems to some simple explanation.
+    card: true
+  - paragraph: small-logical-next-step-discovery
+    quote: '"In-family" was a strange term indeed for a violation of system requirements.'
+    card: true
+  - paragraph: echoes-did-not-stop-there
+    quote: History is not just a backdrop or a scene-setter. History is cause.
+    card: true
+  - paragraph: shuttle-program-mission-management-team
+    quote: Managersʼ claims that they didnʼt hear the engineersʼ concerns were due in part to their not asking or listening.
+    card: true
+  - paragraph: initial-shuttle-design-predicted-neither
+    quote: Engineers understood what was happening, but they never understood why.
+  - paragraph: during-challenger-investigation-rogers-commission
+    quote: Taken one at a time, each decision seemed correct.
+  - paragraph: leaders-create-culture-their-responsibility
+    quote: Leaders create culture. It is their responsibility to change it.
+    card: true
+  - paragraph: leaders-create-culture-their-responsibility
+    quote: We cannot explore space on a fixed-cost basis.
+  - paragraph: strategies-must-increase-clarity-strength
+    quote: Twice in NASA history, the agency embarked on a slippery slope that resulted in catastrophe.
+  - paragraph: after-accident-program-managers-stated
+    quote: Managers did not seem to understand that as leaders they had a corresponding and perhaps greater obligation to create viable routes for the engineering community to express their views and receive information.
+  - paragraph: engineering-solutions-presented-management-should
+    quote: The very absence of a clear and open discussion of uncertainties and assumptions in the analysis presented should have caused management to probe further.
+  - paragraph: urgency-these-recommendations-derives-least
+    quote: That energy will inevitably dissipate over time.
+  - paragraph: view-board-previous-attempts-develop
+    quote: It is the view of the Board that the previous attempts to develop a replacement vehicle for the aging Shuttle represent a failure of national leadership.
