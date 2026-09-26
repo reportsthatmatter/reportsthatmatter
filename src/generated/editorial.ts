@@ -1163,6 +1163,251 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       }
     ]
   },
+  "us-911-commission": {
+    "status": "draft",
+    "whyItMatters": "The bipartisan Commission's account of how nineteen al Qaeda hijackers killed 2,973 people on 11 September 2001, and of the failures across the government that let them succeed. Congress created it to find out what happened and why; it interviewed more than 1,200 people and reported without dissent within two years. A quarter-century on, its central recommendations — a National Counterterrorism Center and a Director of National Intelligence — still shape how the United States organises against terrorism today.",
+    "background": [
+      "On the morning of 11 September 2001, nineteen hijackers directed by al Qaeda seized four commercial airliners taking off from airports on the East Coast. Two, American Airlines Flight 11 and United Airlines Flight 175, were flown into the twin towers of the World Trade Center in New York; a third, American Airlines Flight 77, struck the Pentagon; the fourth, United Airlines Flight 93, crashed in a field near Shanksville, Pennsylvania, after its passengers fought to retake the cockpit. The Commission counted 2,973 dead.",
+      "Congress and President George W. Bush created the National Commission on Terrorist Attacks Upon the United States by Public Law 107-306 on 27 November 2002, directing it to investigate the facts and circumstances of the attacks across intelligence, law enforcement, aviation, diplomacy, and border security. Its ten members, five Republicans and five Democrats, were chaired by Thomas Kean, a former Republican governor of New Jersey, with Lee Hamilton, a former Democratic congressman from Indiana, as vice chairman. The Commission reviewed more than 2.5 million pages of documents, interviewed more than 1,200 people in ten countries, and held nineteen days of public hearings before reporting, without dissent, on 22 July 2004.",
+      "Its most far-reaching recommendations became law within the year: the Intelligence Reform and Terrorism Prevention Act, signed on 17 December 2004, created a National Counterterrorism Center to plan and coordinate counterterrorism work across agencies, and a Director of National Intelligence to oversee the intelligence community as a whole — a role the Director of Central Intelligence had never had the authority to fill. Other recommendations were not adopted: the Commission's proposal to reorganise Congress's own oversight of intelligence into a single committee has never been carried out, and later congressional reviews have found the gap still open two decades on."
+    ],
+    "findings": [
+      {
+        "text": "Nineteen hijackers directed by al Qaeda seized four passenger aircraft and turned them into weapons, defeating every layer of security then in place. The Commission put the day's toll at 2,973 dead, the largest loss of life to a hostile attack on American soil in the nation's history.",
+        "cites": [
+          {
+            "id": "19-men-aboard-four-transcontinental",
+            "page": 4,
+            "href": "/reports/us-911-commission?p=19-men-aboard-four-transcontinental"
+          },
+          {
+            "id": "september-11-nation-suffered-largest",
+            "page": 311,
+            "href": "/reports/us-911-commission?p=september-11-nation-suffered-largest"
+          }
+        ],
+        "excerpt": {
+          "quote": "On September 11, the nation suffered the largest loss of life—2,973—on its soil as a result of hostile attack in its history.",
+          "cite": {
+            "id": "september-11-nation-suffered-largest",
+            "page": 311,
+            "href": "/reports/us-911-commission?p=september-11-nation-suffered-largest&h=|On%20September%2011%2C%20the%20nation%20suffered%20the%20largest%20loss%20of%20life%E2%80%942%2C973%E2%80%94on%20its%20soil%20as%20a%20result%20of%20hostile%20attack%20in%20its%20history.|%20The%20FDNY%20suffered%20343"
+          }
+        }
+      },
+      {
+        "text": "Intelligence agencies received a stream of warnings through the summer of 2001, including an August 6 briefing for President Bush titled \"Bin Ladin Determined to Strike in US.\" Director of Central Intelligence George Tenet told the Commission that \"the system was blinking red.\"",
+        "cites": [
+          {
+            "id": "during-spring-summer-2001-president",
+            "page": 260,
+            "href": "/reports/us-911-commission?p=during-spring-summer-2001-president"
+          },
+          {
+            "id": "tenet-told-us-his-world",
+            "page": 259,
+            "href": "/reports/us-911-commission?p=tenet-told-us-his-world"
+          }
+        ]
+      },
+      {
+        "text": "In August 2001 an FBI agent in Minneapolis suspected that a detained flight-school student, Zacarias Moussaoui, might be planning to hijack a plane. The report finds that the Minneapolis agents failed to persuade FBI headquarters that there was enough evidence to seek a warrant to search his computer before 11 September.",
+        "cites": [
+          {
+            "id": "fbi-agent-who-handled-case",
+            "page": 273,
+            "href": "/reports/us-911-commission?p=fbi-agent-who-handled-case"
+          },
+          {
+            "id": "there-substantial-disagreement-between-minneapolis",
+            "page": 275,
+            "href": "/reports/us-911-commission?p=there-substantial-disagreement-between-minneapolis"
+          },
+          {
+            "id": "fbi-also-learned-after-9",
+            "page": 275,
+            "href": "/reports/us-911-commission?p=fbi-also-learned-after-9"
+          }
+        ]
+      },
+      {
+        "text": "The CIA followed two future hijackers, Khalid al Mihdhar and Nawaf al Hazmi, to a meeting in Kuala Lumpur in January 2000 and then lost their trail. The report finds that no one alerted the immigration service or the FBI; the two arrived unnoticed in Los Angeles on 15 January 2000, and were not put on the State Department's watchlist until 24 August 2001.",
+        "cites": [
+          {
+            "id": "consider-example-case-mihdhar-hazmi",
+            "page": 353,
+            "href": "/reports/us-911-commission?p=consider-example-case-mihdhar-hazmi"
+          },
+          {
+            "id": "unfortunately-there-no-evidence-any",
+            "page": 354,
+            "href": "/reports/us-911-commission?p=unfortunately-there-no-evidence-any"
+          },
+          {
+            "id": "divided-up-work-mary-asked",
+            "page": 270,
+            "href": "/reports/us-911-commission?p=divided-up-work-mary-asked"
+          }
+        ]
+      },
+      {
+        "text": "Rather than assign blame to any single office or official, the Commission concluded that the attacks succeeded because of four kinds of failure — failures of imagination, policy, capabilities, and management — and that imagination was the hardest of the four to build into routine practice.",
+        "cites": [
+          {
+            "id": "we-believe-9-11-attacks",
+            "page": 339,
+            "href": "/reports/us-911-commission?p=we-believe-9-11-attacks"
+          },
+          {
+            "id": "therefore-crucial-find-way-routinizing",
+            "page": 344,
+            "href": "/reports/us-911-commission?p=therefore-crucial-find-way-routinizing"
+          }
+        ],
+        "excerpt": {
+          "quote": "We believe the 9/11 attacks revealed four kinds of failures: in imagination, policy, capabilities, and management.",
+          "cite": {
+            "id": "we-believe-9-11-attacks",
+            "page": 339,
+            "href": "/reports/us-911-commission?p=we-believe-9-11-attacks&h=|We%20believe%20the%209%2F11%20attacks%20revealed%20four%20kinds%20of%20failures%3A%20in%20imagination%2C%20policy%2C%20capabilities%2C%20and%20management.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that the air defence of 11 September was improvised, by a military unprepared for airliners turned into weapons. Fighters scrambled from Otis Air Force Base did not know where to fly; NEADS received nine minutes' notice before the first plane hit its target, and no advance notice at all before the second, third, or fourth.",
+        "cites": [
+          {
+            "id": "summary-neads-received-notice-hijacking",
+            "page": 21,
+            "href": "/reports/us-911-commission?p=summary-neads-received-notice-hijacking"
+          },
+          {
+            "id": "clarifying-record-defense-u-s",
+            "page": 31,
+            "href": "/reports/us-911-commission?p=clarifying-record-defense-u-s"
+          }
+        ]
+      },
+      {
+        "text": "The Commission recommended a National Counterterrorism Center to replace the separate, uncoordinated analytic centers then run by the CIA, the FBI, the Defense Intelligence Agency, and the Department of Homeland Security, giving one center joint authority over both intelligence and operational planning.",
+        "cites": [
+          {
+            "id": "primary-responsibility-terrorism-analysis-has",
+            "page": 401,
+            "href": "/reports/us-911-commission?p=primary-responsibility-terrorism-analysis-has"
+          },
+          {
+            "id": "recommendation-we-recommend-establishment-national",
+            "page": 403,
+            "href": "/reports/us-911-commission?p=recommendation-we-recommend-establishment-national"
+          }
+        ],
+        "excerpt": {
+          "quote": "We recommend the establishment of a National Counterterrorism Center (NCTC), built on the foundation of the existing Terrorist Threat Integration Center (TTIC).",
+          "cite": {
+            "id": "recommendation-we-recommend-establishment-national",
+            "page": 403,
+            "href": "/reports/us-911-commission?p=recommendation-we-recommend-establishment-national&h=Recommendation%3A%20|We%20recommend%20the%20establishment%20of%20a%20National%20Counterterrorism%20Center%20(NCTC)%2C%20built%20on%20the%20foundation%20of%20the%20existing%20Terrorist%20Threat%20Integration%20Center%20(TTIC).|%20Breaking%20the%20older%20mold"
+          }
+        }
+      },
+      {
+        "text": "It also recommended replacing the Director of Central Intelligence, a post that ran the CIA while holding little real authority over the other agencies it was meant to coordinate, with a National Intelligence Director responsible for the intelligence community as a whole.",
+        "cites": [
+          {
+            "id": "recommendation-current-position-director-central",
+            "page": 411,
+            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central"
+          },
+          {
+            "id": "there-are-disadvantages-separating-position",
+            "page": 414,
+            "href": "/reports/us-911-commission?p=there-are-disadvantages-separating-position"
+          }
+        ],
+        "excerpt": {
+          "quote": "The current position of Director of Central Intelligence should be replaced by a National Intelligence Director with two main areas of responsibility: (1) to oversee national intelligence centers on specific subjects of interest across the U.S. government and (2) to manage the national intelligence program and oversee the agencies that contribute to it.",
+          "cite": {
+            "id": "recommendation-current-position-director-central",
+            "page": 411,
+            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central&h=Recommendation%3A|The%20current%20position%20of%20Director%20of%20Central%20Intelligence%20should%20be%20replaced%20by%20a%20National%20Intelligence%20Director%20with%20two%E2%8B%AF%20the%20U.S.%20government%20and%20(2)%20to%20manage%20the%20national%20intelligence%20program%20and%20oversee%20the%20agencies%20that%20contribute%20to%20it.|"
+          }
+        }
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "11-inside-the-four-flights",
+        "title": "1.1 Inside the Four Flights",
+        "page": "2",
+        "why": "Minute by minute, how four hijacked airliners boarded, took off, and defeated the security and air-defence systems in place that morning.",
+        "excerpt": {
+          "quote": "They were planning to hijack these planes and turn them into large guided missiles, loaded with up to 11,400 gallons of jet fuel. By 8:00 A.M. on the morning of Tuesday, September 11, 2001, they had defeated all the security layers that America's civil aviation security system then had in place to prevent a hijacking.",
+          "cite": {
+            "id": "19-men-aboard-four-transcontinental",
+            "page": 4,
+            "href": "/reports/us-911-commission?p=19-men-aboard-four-transcontinental&h=transcontinental%20flights.21%20|They%20were%20planning%20to%20hijack%20these%20planes%20and%20turn%20them%20into%20large%20guided%20missiles%2C%20loaded%20with%20up%20to%2011%2C400%20gallons%20of%20%E2%8B%AFdefeated%20all%20the%20security%20layers%20that%20America's%20civil%20aviation%20security%20system%20then%20had%20in%20place%20to%20prevent%20a%20hijacking.|"
+          }
+        }
+      },
+      {
+        "slug": "the-system-was-blinking-red-81-the-summer-of-threat",
+        "title": "8.1 The Summer of Threat",
+        "page": "255",
+        "why": "The wave of intelligence warnings in the months before 9/11, and how little of what worried Washington reached the FBI agents who had, without knowing it, already found one of the plot's operatives.",
+        "excerpt": {
+          "quote": "The supervisor replied that was precisely his intent. He said he was \"trying to keep someone from taking a plane and crashing into the World Trade Center.\" The headquarters agent replied that this was not going to happen and that they did not know if Moussaoui was a terrorist.",
+          "cite": {
+            "id": "there-substantial-disagreement-between-minneapolis",
+            "page": 275,
+            "href": "/reports/us-911-commission?p=there-substantial-disagreement-between-minneapolis&h=intended%20to%20get%20people%20%22spun%20up.%22|The%20supervisor%20replied%20that%20was%20precisely%20his%20intent.%20He%20said%20he%20was%20%22trying%20to%20keep%20someone%20from%20taking%20a%20plane%20and%20crashing%20into%20the%20World%20Trade%20Center.%22%20The%20headquarters%20agent%20replied%20that%20this%20was%20not%20going%20to%20happen%20and%20that%20they%20did%20not%20know%20if%20Moussaoui%20was%20a%20terrorist.|101"
+          }
+        }
+      },
+      {
+        "slug": "111-imagination",
+        "title": "11.1 Imagination",
+        "page": "340",
+        "why": "The Commission's own diagnosis of why the attack succeeded — not one culprit but four kinds of failure — and why imagination was the hardest to build into routine practice.",
+        "excerpt": {
+          "quote": "It is therefore crucial to find a way of routinizing, even bureaucratizing, the exercise of imagination.",
+          "cite": {
+            "id": "therefore-crucial-find-way-routinizing",
+            "page": 344,
+            "href": "/reports/us-911-commission?p=therefore-crucial-find-way-routinizing&h=|It%20is%20therefore%20crucial%20to%20find%20a%20way%20of%20routinizing%2C%20even%20bureaucratizing%2C%20the%20exercise%20of%20imagination.|%20Doing%20so%20requires%20more"
+          }
+        }
+      },
+      {
+        "slug": "131-unity-of-effort-across-the-foreign-domestic-divide",
+        "title": "13.1 Unity of Effort Across the Foreign-Domestic Divide",
+        "page": "401",
+        "why": "The case for a National Counterterrorism Center, and how the Commission proposed it should work.",
+        "excerpt": {
+          "quote": "We recommend the establishment of a National Counterterrorism Center (NCTC), built on the foundation of the existing Terrorist Threat Integration Center (TTIC).",
+          "cite": {
+            "id": "recommendation-we-recommend-establishment-national",
+            "page": 403,
+            "href": "/reports/us-911-commission?p=recommendation-we-recommend-establishment-national&h=Recommendation%3A%20|We%20recommend%20the%20establishment%20of%20a%20National%20Counterterrorism%20Center%20(NCTC)%2C%20built%20on%20the%20foundation%20of%20the%20existing%20Terrorist%20Threat%20Integration%20Center%20(TTIC).|%20Breaking%20the%20older%20mold"
+          }
+        }
+      },
+      {
+        "slug": "132-unity-of-effort-in-the-intelligence-community",
+        "title": "13.2 Unity of Effort in the Intelligence Community",
+        "page": "408",
+        "why": "The case for a National Intelligence Director in place of the Director of Central Intelligence, and what authority the new office would and would not have.",
+        "excerpt": {
+          "quote": "The current position of Director of Central Intelligence should be replaced by a National Intelligence Director with two main areas of responsibility: (1) to oversee national intelligence centers on specific subjects of interest across the U.S. government and (2) to manage the national intelligence program and oversee the agencies that contribute to it.",
+          "cite": {
+            "id": "recommendation-current-position-director-central",
+            "page": 411,
+            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central&h=Recommendation%3A|The%20current%20position%20of%20Director%20of%20Central%20Intelligence%20should%20be%20replaced%20by%20a%20National%20Intelligence%20Director%20with%20two%E2%8B%AF%20the%20U.S.%20government%20and%20(2)%20to%20manage%20the%20national%20intelligence%20program%20and%20oversee%20the%20agencies%20that%20contribute%20to%20it.|"
+          }
+        }
+      }
+    ]
+  },
   "us-psi-financial-crisis": {
     "status": "approved",
     "whyItMatters": "The U.S. Senate's two-year investigation into what caused the 2008 financial crisis, built on tens of millions of pages of the banks' own emails and documents. It names the institutions, quotes their people, and shows how a bank, its regulator, the rating agencies and Wall Street's investment banks each fed the collapse.",
