@@ -25,6 +25,17 @@
 report: litvinenko-inquiry
 status: approved
 
+hero:
+  src: /assets/heroes/litvinenko-inquiry.webp
+  alt: >-
+    Alexander Litvinenko in a hospital bed at University College Hospital on 20
+    November 2006, three days before he died, his hair gone and heart-monitor
+    leads on his chest, looking at the camera.
+  credit: "University College Hospital, 20 November 2006 · Photo: Natasja Weitsz/Getty Images"
+  source: "https://www.theguardian.com/world/2016/jan/21/alexander-litvinenko-was-probably-murdered-on-personal-orders-of-putin"
+  licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
+  focus: "40% 35%"
+
 why_it_matters: >-
   Sir Robert Owen's account of how Alexander Litvinenko, a former Russian
   security officer living in London, was fatally poisoned with a rare

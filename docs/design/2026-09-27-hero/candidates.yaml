@@ -59,6 +59,19 @@ us-psi-financial-crisis:
     note: "Not downloaded - historic (1963), not contemporaneous with the 2008 crisis, included only as a fallback trading-floor image if the Lehman photo is rejected. Would need a caption making clear it is illustrative, not from 2008."
 
 litvinenko-inquiry:
+  # Shipped pick (2026-09-27, bead cdp.6). An identifiable man in distress in
+  # close-up, which the dignity line normally rules out; used because he asked
+  # for it to be taken and released, and his family released it. See sources.yaml.
+  - title: "Alexander Litvinenko in intensive care, University College Hospital, 20 November 2006"
+    page_url: "https://www.theguardian.com/world/2016/jan/21/alexander-litvinenko-was-probably-murdered-on-personal-orders-of-putin"
+    image_url: "https://media.guim.co.uk/a02963c081e0b8af4abefb59215ca80d0dfe1f9f/0_266_3872_2324/master/3872.jpg"
+    credit: "Natasja Weitsz/Getty Images"
+    licence: "Fair use (Getty Images copyright; not freely licensed)"
+    width: 3872
+    height: 2324
+    recommended: true
+    local_file: null
+    note: "The photograph the family released to the press three days before he died ('I want the world to see what they did to me'). The event itself. Shipped; the grave below is the fallback."
   - title: "Grave of Alexander Litvinenko, Highgate Cemetery"
     page_url: "https://commons.wikimedia.org/wiki/File:LitvinenkoGrave.JPG"
     image_url: "https://upload.wikimedia.org/wikipedia/commons/2/29/LitvinenkoGrave.JPG"
@@ -66,7 +79,7 @@ litvinenko-inquiry:
     licence: "Public domain (released by author)"
     width: 3072
     height: 2304
-    recommended: true
+    recommended: false
     local_file: "litvinenko-inquiry/litvinenko-grave-johnarmagh-REC.jpg"
     note: "Landscape orientation, dignified and specific (his actual grave), avoids any poisoning/hospital imagery. Weakest visual link to 'poisoning' as an event but the most respectful and rights-clean option found."
   - title: "Millennium Hotel, Mayfair"
@@ -81,6 +94,19 @@ litvinenko-inquiry:
     note: "GAP: this is where the poisoning occurred (bar meeting, 1 Nov 2006) and would be the most specific image, but the only Commons files found are far too small (640x480 and smaller) for a hero banner. Worth a targeted photo request or fair-use news photo if a better one is needed later."
 
 uk-saville-inquiry:
+  # Shipped pick (2026-09-27, bead cdp.5): a photograph of the day, per the
+  # pilot's rule. Fr Edward Daly's white-handkerchief photograph, the day's
+  # defining image, shows a dying boy being carried and fails the dignity line.
+  - title: "Bloody Sunday: soldiers take cover behind armoured vehicles while using CS gas, 30 January 1972"
+    page_url: "https://commons.wikimedia.org/wiki/File:Bloody_Sunday,_Londonderry_1972.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bloody_Sunday%2C_Londonderry_1972.jpg"
+    credit: "PA"
+    licence: "Public domain in the US per Commons (PD-US-no-notice); PA photograph, treated as fair use"
+    width: 2600
+    height: 1876
+    recommended: true
+    local_file: null
+    note: "Two soldiers behind their armoured vehicles at a barbed-wire barricade, a crowd in CS gas beyond. The event, black and white, no dead, no wounded, no identifiable face. Shipped."
   - title: "Free Derry Corner"
     page_url: "https://commons.wikimedia.org/wiki/File:Free_Derry_corner.JPG"
     image_url: "https://upload.wikimedia.org/wikipedia/commons/9/91/Free_Derry_corner.JPG"
@@ -88,7 +114,7 @@ uk-saville-inquiry:
     licence: "CC BY-SA 3.0 (also GFDL 1.2+)"
     width: 3617
     height: 2816
-    recommended: true
+    recommended: false
     local_file: "uk-saville-inquiry/free-derry-corner-gruenen-REC.jpg"
     note: "The mural/gable end marking the Bogside, the precise location of Bloody Sunday; no violence or injury depicted, widely recognisable, landscape and high-res. Good dignity/specificity balance per the brief's guidance."
   - title: "Bloody Sunday Memorial, Derry"
@@ -138,6 +164,17 @@ uk-hillsborough-panel:
     note: "The eternal-flame memorial with the 96 names - the most emotionally direct and dignified option, but portrait orientation and lower resolution limit banner cropping; good as an inside-page image even if not the hero."
 
 uk-leveson-inquiry:
+  # Shipped pick (2026-09-27, bead cdp.7): the scandal on the ground.
+  - title: "Colin Myler holds up the last News of the World, Wapping, 9 July 2011"
+    page_url: "https://www.theguardian.com/media/2021/jul/10/news-of-the-world-10-years-since-phone-hacking-scandal-brought-down-tabloid"
+    image_url: "https://media.guim.co.uk/e91b62d64a10e4f84818eb89e73d955d55c5cd3b/0_159_3000_1800/master/3000.jpg"
+    credit: "Carl Court/AFP/Getty Images"
+    licence: "Fair use (AFP/Getty Images copyright; not freely licensed)"
+    width: 3000
+    height: 1800
+    recommended: true
+    local_file: null
+    note: "The editor and applauding staff with the final edition, 'Thank you & goodbye', the night the paper closed over phone hacking. Shipped."
   - title: "The Royal Courts of Justice"
     page_url: "https://commons.wikimedia.org/wiki/File:The_Royal_Courts_of_Justice.jpg"
     image_url: "https://upload.wikimedia.org/wikipedia/commons/d/dd/The_Royal_Courts_of_Justice.jpg"
@@ -145,7 +182,7 @@ uk-leveson-inquiry:
     licence: "CC BY-SA 4.0"
     width: 3888
     height: 2592
-    recommended: true
+    recommended: false
     local_file: "uk-leveson-inquiry/royal-courts-of-justice-peel-REC.jpg"
     note: "Where the Leveson Inquiry's public hearings were actually held (2011-12); Gothic Revival facade reads well toned-down and crops cleanly to a wide banner. No single 'event' photo exists for this inquiry, so the venue is the strongest specific option."
   - title: "News International Building, Wapping"
@@ -194,6 +231,17 @@ challenger-accident:
     note: "The single most iconic and specific image of the event; no crew or wreckage visible, just the exhaust-plume fireball, so no dignity concern. Featured/Picture-of-the-day image on Wikipedia, licence well established."
 
 columbia-accident:
+  # Shipped pick (2026-09-27, bead cdp.11): the breakup itself.
+  - title: "Debris from Columbia streaks across the sky over Tyler, Texas, 1 February 2003"
+    page_url: "https://www.chron.com/news/houston-texas/article/15-years-ago-Space-Shuttle-Columbia-broke-up-12543159.php"
+    image_url: "https://s.hdnux.com/photos/71/07/77/14974949/4/rawImage.jpg"
+    credit: "Dr. Scott Lieberman/AP"
+    licence: "Fair use (AP copyright; not freely licensed)"
+    width: 1800
+    height: 969
+    recommended: true
+    local_file: null
+    note: "The most-used picture of the accident, taken from a back garden in Tyler. Largest copy found is 1800px. NASA's own ground images of the entry are 640px. Shipped."
   - title: "Grid with Columbia's Debris (reconstruction hangar)"
     page_url: "https://commons.wikimedia.org/wiki/File:Grid_with_Columbia%27s_Debris_-_GPN-2003-00081.jpg"
     image_url: "https://upload.wikimedia.org/wikipedia/commons/9/91/Grid_with_Columbia%27s_Debris_-_GPN-2003-00081.jpg"
@@ -201,7 +249,7 @@ columbia-accident:
     licence: "Public domain (NASA)"
     width: 3000
     height: 1955
-    recommended: true
+    recommended: false
     local_file: "columbia-accident/columbia-debris-grid-nasa-REC.jpg"
     note: "Shows the reconstruction-hangar floor grid used to reassemble the orbiter's debris, evoking the scale of the investigation without showing wreckage in a gruesome way. No breakup/contrail photo of comparable resolution and clean licence was found - flagged as a compromise pick tied to the investigation more than the mid-air breakup itself."
 
@@ -228,6 +276,17 @@ us-deepwater-horizon:
     note: "Wider shot including fireboats spraying water on the burning rig - good sense of scale/response effort, slightly busier composition than the recommended tight shot."
 
 us-v-philip-morris:
+  # Shipped pick (2026-09-27, bead cdp.13): the event most specific to the case.
+  - title: "Tobacco executives sworn in before the House health subcommittee, 14 April 1994"
+    page_url: "https://theintercept.com/2021/10/29/big-oil-tobacco-oversight-hearing/"
+    image_url: "https://theintercept.com/wp-content/uploads/2021/10/AP671396491902.jpg"
+    credit: "John Duricka/AP"
+    licence: "Fair use (AP copyright; not freely licensed)"
+    width: 3000
+    height: 2016
+    recommended: true
+    local_file: null
+    note: "The seven CEOs with right hands raised, Philip Morris's William Campbell nearest, on the day each swore nicotine was not addictive. Shipped."
   - title: "Surgeon General's warning on a cigarette pack"
     page_url: "https://commons.wikimedia.org/wiki/File:Surgeon_General%27s_warning_cigarettes.jpg"
     image_url: "https://upload.wikimedia.org/wikipedia/commons/4/43/Surgeon_General%27s_warning_cigarettes.jpg"
@@ -235,7 +294,7 @@ us-v-philip-morris:
     licence: "Public domain (US federal government work)"
     width: 3000
     height: 2000
-    recommended: true
+    recommended: false
     local_file: "us-v-philip-morris/cigarette-pack-warning-cdc-REC.jpg"
     note: "An opened pack with the health warning visible plus an ashtray with butts - directly evokes the subject matter (tobacco marketing and health-warning litigation) without needing a courthouse stand-in. No single 'event' photo exists for a civil RICO judgment, so an object shot is the strongest specific option."
   - title: "E. Barrett Prettyman Federal Courthouse, Washington DC"

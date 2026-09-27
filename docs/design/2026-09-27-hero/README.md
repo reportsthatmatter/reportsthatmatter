@@ -63,3 +63,7 @@ Settled in the pilot:
 - **The event, not the place, where a photograph of the event exists.** Hillsborough's research pick (a recent aerial of the stadium) was replaced by John Giles/PA's photograph of the Leppings Lane end on the day. A place or a memorial is the fallback, not the default.
 - **Fair use at the same size.** The band is the same for every report, so a fair-use image ships at the same 2400px as a free one; what keeps the use modest is the crop, the treatment and the credit, not a lower resolution.
 - **Crops lose something.** The Capitol photograph loses the gallows' crossbar on a laptop; the noose and the dome carry it. Check both widths and pick the focus that keeps the subject.
+
+## Rollout (2026-09-27, `reportsthatmatter-cdp.5`–`.13`)
+
+All eleven landing pages now have a hero. Five of the research picks were places or objects and were replaced by photographs of the event, four of them fair use: Bloody Sunday (PA, soldiers at a barricade, for the Free Derry Corner gable), Litvinenko (Natasja Weitsz/Getty, in hospital, for his grave), Leveson (Carl Court/AFP, the last News of the World, for the Royal Courts of Justice), Columbia (Dr. Scott Lieberman/AP, the breakup over Texas, for the debris hangar) and Philip Morris (John Duricka/AP, the seven CEOs sworn in, for a warning label). 9/11, Challenger, Deepwater Horizon and the Lehman headquarters on 15 September 2008 (Wall Street) shipped as picked. Each one's reasoning is in `sources.yaml`.

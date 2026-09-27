@@ -40,6 +40,17 @@
 report: challenger-accident
 status: approved
 
+hero:
+  src: /assets/heroes/challenger-accident.webp
+  alt: >-
+    The plume of smoke from the space shuttle Challenger over Florida on 28
+    January 1986, the two solid rocket boosters spiralling away from it and
+    debris trailing below.
+  credit: "Challenger, 28 January 1986 · Photo: NASA"
+  source: "https://commons.wikimedia.org/wiki/File:Challenger_explosion.jpg"
+  licence: Public domain (NASA)
+  focus: "50% 20%"
+
 why_it_matters: >-
   The US House of Representatives' own investigation of the Challenger
   disaster of 1986, written by the committee that authorised and funded NASA.

@@ -259,7 +259,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/challenger-accident.webp",
+      "width": 2400,
+      "height": 1944,
+      "small": {
+        "src": "/assets/heroes/challenger-accident-1200.webp",
+        "width": 1200
+      },
+      "credit": "Challenger, 28 January 1986 · Photo: NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Challenger_explosion.jpg",
+      "alt": "The plume of smoke from the space shuttle Challenger over Florida on 28 January 1986, the two solid rocket boosters spiralling away from it and debris trailing below.",
+      "focus": "50% 20%"
+    }
   },
   "columbia-accident": {
     "status": "approved",
@@ -522,7 +535,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/columbia-accident.webp",
+      "width": 1800,
+      "height": 969,
+      "small": {
+        "src": "/assets/heroes/columbia-accident-1200.webp",
+        "width": 1200
+      },
+      "credit": "Over Tyler, Texas, 1 February 2003 · Photo: Dr. Scott Lieberman/AP",
+      "source": "https://www.chron.com/news/houston-texas/article/15-years-ago-Space-Shuttle-Columbia-broke-up-12543159.php",
+      "alt": "Pieces of the space shuttle Columbia streaking across a blue sky over Tyler, Texas, on 1 February 2003, each a bright point trailing a long white plume.",
+      "focus": "50% 50%"
+    }
   },
   "jack-smith-vol1": {
     "status": "approved",
@@ -1016,7 +1042,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/litvinenko-inquiry.webp",
+      "width": 2400,
+      "height": 1440,
+      "small": {
+        "src": "/assets/heroes/litvinenko-inquiry-1200.webp",
+        "width": 1200
+      },
+      "credit": "University College Hospital, 20 November 2006 · Photo: Natasja Weitsz/Getty Images",
+      "source": "https://www.theguardian.com/world/2016/jan/21/alexander-litvinenko-was-probably-murdered-on-personal-orders-of-putin",
+      "alt": "Alexander Litvinenko in a hospital bed at University College Hospital on 20 November 2006, three days before he died, his hair gone and heart-monitor leads on his chest, looking at the camera.",
+      "focus": "40% 35%"
+    }
   },
   "uk-hillsborough-panel": {
     "status": "approved",
@@ -1494,7 +1533,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-leveson-inquiry.webp",
+      "width": 2400,
+      "height": 1440,
+      "small": {
+        "src": "/assets/heroes/uk-leveson-inquiry-1200.webp",
+        "width": 1200
+      },
+      "credit": "Wapping, London, 9 July 2011 · Photo: Carl Court/AFP/Getty Images",
+      "source": "https://www.theguardian.com/media/2021/jul/10/news-of-the-world-10-years-since-phone-hacking-scandal-brought-down-tabloid",
+      "alt": "News of the World editor Colin Myler, surrounded by applauding staff, holds up the paper's final edition, headlined \"Thank you & goodbye\", outside its offices on 9 July 2011.",
+      "focus": "50% 60%"
+    }
   },
   "uk-saville-inquiry": {
     "status": "approved",
@@ -1709,7 +1761,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-saville-inquiry.webp",
+      "width": 2400,
+      "height": 1732,
+      "small": {
+        "src": "/assets/heroes/uk-saville-inquiry-1200.webp",
+        "width": 1200
+      },
+      "credit": "Derry, 30 January 1972 · Photo: PA",
+      "source": "https://commons.wikimedia.org/wiki/File:Bloody_Sunday,_Londonderry_1972.jpg",
+      "alt": "Two British soldiers in helmets shelter behind their armoured vehicles at a barbed-wire barricade in Derry on 30 January 1972, stones on the road, with a crowd half-hidden in CS gas beyond.",
+      "focus": "50% 45%"
+    }
   },
   "us-911-commission": {
     "status": "approved",
@@ -1954,7 +2019,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-911-commission.webp",
+      "width": 2400,
+      "height": 851,
+      "small": {
+        "src": "/assets/heroes/us-911-commission-1200.webp",
+        "width": 1200
+      },
+      "credit": "Lower Manhattan, 11 September 2001 · Photo: Jeffrey Bary, CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Twin_Towers_Smoking.jpg",
+      "alt": "Lower Manhattan seen across the harbour from Brooklyn on the morning of 11 September 2001, both towers of the World Trade Center burning and a plume of smoke drifting across the sky.",
+      "focus": "60% 30%"
+    }
   },
   "us-deepwater-horizon": {
     "status": "approved",
@@ -2214,7 +2292,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-deepwater-horizon.webp",
+      "width": 2400,
+      "height": 1800,
+      "small": {
+        "src": "/assets/heroes/us-deepwater-horizon-1200.webp",
+        "width": 1200
+      },
+      "credit": "Gulf of Mexico, 21 April 2010 · Photo: US Coast Guard",
+      "source": "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg",
+      "alt": "Fire boats spray water on the Deepwater Horizon rig in the Gulf of Mexico on 21 April 2010, flames and black smoke pouring from it.",
+      "focus": "50% 25%"
+    }
   },
   "us-psi-financial-crisis": {
     "status": "approved",
@@ -2406,7 +2497,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "page": "542",
         "why": "How Goldman sold a CDO to its clients while marking down the same securities on its own books."
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-psi-financial-crisis.webp",
+      "width": 2400,
+      "height": 1600,
+      "small": {
+        "src": "/assets/heroes/us-psi-financial-crisis-1200.webp",
+        "width": 1200
+      },
+      "credit": "Lehman Brothers, New York, 15 September 2008 · Photo: Robert Scoble, CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-NYC-20080915.jpg",
+      "alt": "Television crews and onlookers on Seventh Avenue at night outside the lit headquarters of Lehman Brothers, its ticker reading \"SEP 15\", on the day the bank filed for bankruptcy.",
+      "focus": "50% 15%"
+    }
   },
   "us-v-philip-morris": {
     "status": "approved",
@@ -2677,6 +2781,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-v-philip-morris.webp",
+      "width": 2400,
+      "height": 1613,
+      "small": {
+        "src": "/assets/heroes/us-v-philip-morris-1200.webp",
+        "width": 1200
+      },
+      "credit": "House health subcommittee, 14 April 1994 · Photo: John Duricka/AP",
+      "source": "https://theintercept.com/2021/10/29/big-oil-tobacco-oversight-hearing/",
+      "alt": "The heads of seven tobacco companies stand with their right hands raised to be sworn in before a House subcommittee on 14 April 1994, Philip Morris's William Campbell nearest the camera behind his nameplate.",
+      "focus": "50% 25%"
+    }
   }
 };

@@ -31,6 +31,17 @@
 report: us-911-commission
 status: approved
 
+hero:
+  src: /assets/heroes/us-911-commission.webp
+  alt: >-
+    Lower Manhattan seen across the harbour from Brooklyn on the morning of 11
+    September 2001, both towers of the World Trade Center burning and a plume
+    of smoke drifting across the sky.
+  credit: "Lower Manhattan, 11 September 2001 · Photo: Jeffrey Bary, CC BY 2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Twin_Towers_Smoking.jpg"
+  licence: CC BY 2.0
+  focus: "60% 30%"
+
 why_it_matters: >-
   The bipartisan Commission's account of how nineteen al Qaeda hijackers
   killed 2,973 people on 11 September 2001, and of the failures across the

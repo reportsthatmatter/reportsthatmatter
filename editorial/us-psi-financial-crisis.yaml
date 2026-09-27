@@ -6,6 +6,17 @@
 report: us-psi-financial-crisis
 status: approved
 
+hero:
+  src: /assets/heroes/us-psi-financial-crisis.webp
+  alt: >-
+    Television crews and onlookers on Seventh Avenue at night outside the lit
+    headquarters of Lehman Brothers, its ticker reading "SEP 15", on the day
+    the bank filed for bankruptcy.
+  credit: "Lehman Brothers, New York, 15 September 2008 · Photo: Robert Scoble, CC BY 2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-NYC-20080915.jpg"
+  licence: CC BY 2.0
+  focus: "50% 15%"
+
 why_it_matters: >-
   The U.S. Senate's two-year investigation into what caused the 2008
   financial crisis, built on tens of millions of pages of the banks' own
