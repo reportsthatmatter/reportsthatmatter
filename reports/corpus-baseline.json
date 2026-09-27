@@ -2017,8 +2017,8 @@
       ]
     },
     "us-911-commission": {
-      "words": 300576,
-      "paragraphs": 3022,
+      "words": 299933,
+      "paragraphs": 3032,
       "sections": [
         {
           "slug": "report",
@@ -2040,7 +2040,7 @@
         },
         {
           "slug": "11-inside-the-four-flights",
-          "title": "1.1 INSIDE THE FOUR FLIGHTS",
+          "title": "1.1 Inside the Four Flights",
           "paragraphs": 93,
           "ids": "3aa01c8d8e1e"
         },
@@ -2052,193 +2052,223 @@
         },
         {
           "slug": "13-national-crisis-management",
-          "title": "1.3 NATIONAL CRISIS MANAGEMENT",
+          "title": "1.3 National Crisis Management",
           "paragraphs": 79,
           "ids": "96662291b0f5"
         },
         {
-          "slug": "the-foundation-of-the-new-terrorism-21-a-declaration-of-war",
-          "title": "THE FOUNDATION OF THE NEW TERRORISM 2.1 A DECLARATION OF WAR",
+          "slug": "21-a-declaration-of-war",
+          "title": "2.1 A Declaration of War",
           "paragraphs": 7,
           "ids": "7606a8e90e03"
         },
         {
           "slug": "22-bin-ladins-appeal-in-the-islamic-world",
-          "title": "2.2 BIN LADIN'S APPEAL IN THE ISLAMIC WORLD",
-          "paragraphs": 53,
-          "ids": "0f89ee1a2749"
+          "title": "2.2 Bin Ladin's Appeal in the Islamic World",
+          "paragraphs": 34,
+          "ids": "35627831d907"
         },
         {
-          "slug": "24-building-an-organization-declaring-war",
-          "title": "2.4 BUILDING AN ORGANIZATION, DECLARING WAR",
+          "slug": "23-the-rise-of-bin-ladin-and-al-qaeda-19881992",
+          "title": "2.3 The Rise of Bin Ladin and al Qaeda (1988–1992)",
+          "paragraphs": 19,
+          "ids": "056ecc85b95f"
+        },
+        {
+          "slug": "24-building-an-organization-declaring-war-on-the-united-states-19921996",
+          "title": "2.4 Building an Organization, Declaring War on the United States (1992–1996)",
           "paragraphs": 21,
-          "ids": "b97eea34b6bb"
+          "ids": "83db934c621d"
         },
         {
-          "slug": "25-al-qaedas-renewal-in-afghanistan",
-          "title": "2.5 AL QAEDA'S RENEWAL IN AFGHANISTAN",
-          "paragraphs": 37,
-          "ids": "4a3f31a3e96e"
+          "slug": "25-al-qaedas-renewal-in-afghanistan-19961998",
+          "title": "2.5 Al Qaeda's Renewal in Afghanistan (1996–1998)",
+          "paragraphs": 36,
+          "ids": "749e29b0e69e"
         },
         {
-          "slug": "the-first-world-trade-center-bombing",
-          "title": "THE FIRST WORLD TRADE CENTER BOMBING",
+          "slug": "31-from-the-old-terrorism-to-the-new-the-first-world-trade-center-bombing",
+          "title": "3.1 From the Old Terrorism to the New: The First World Trade Center Bombing",
           "paragraphs": 15,
           "ids": "9ab0f223174e"
         },
         {
-          "slug": "32-adaptationand-nonadaptationin-the-law-enforcement-community",
-          "title": "3.2 ADAPTATION—AND NONADAPTATION—IN THE LAW ENFORCEMENT COMMUNITY",
+          "slug": "32-adaptationand-nonadaptation-in-the-law-enforcement-community",
+          "title": "3.2 Adaptation—and Nonadaptation— . . . in the Law Enforcement Community",
           "paragraphs": 43,
           "ids": "aebe63e36b8b"
         },
         {
           "slug": "33-and-in-the-federal-aviation-administration",
-          "title": "3.3 . . .AND IN THE FEDERAL AVIATION ADMINISTRATION",
+          "title": "3.3 . . . and in the Federal Aviation Administration",
           "paragraphs": 15,
           "ids": "6c051be38e29"
         },
         {
           "slug": "34-and-in-the-intelligence-community",
-          "title": "3.4 . . .AND IN THE INTELLIGENCE COMMUNITY",
+          "title": "3.4 . . . and in the Intelligence Community",
           "paragraphs": 40,
           "ids": "53699f92760b"
         },
         {
           "slug": "35-and-in-the-state-department-and-the-defense-department",
-          "title": "3.5 . . .AND IN THE STATE DEPARTMENT AND THE DEFENSE DEPARTMENT",
-          "paragraphs": 68,
-          "ids": "e3d06425b0cd"
+          "title": "3.5 . . . and in the State Department and the Defense Department",
+          "paragraphs": 25,
+          "ids": "33dd61fea1e4"
         },
         {
-          "slug": "responses-to-al-qaedas-initial-assaults-41-before-the-bombings-in-kenya-and-tanz",
-          "title": "RESPONSES TO AL QAEDA'S INITIAL ASSAULTS 4.1 BEFORE THE BOMBINGS IN KENYA AND TANZANIA",
+          "slug": "36-and-in-the-white-house",
+          "title": "3.6 . . . and in the White House",
+          "paragraphs": 20,
+          "ids": "02c333bea40a"
+        },
+        {
+          "slug": "37-and-in-the-congress",
+          "title": "3.7 . . . and in the Congress",
+          "paragraphs": 23,
+          "ids": "2ea42ef243aa"
+        },
+        {
+          "slug": "41-before-the-bombings-in-kenya-and-tanzania",
+          "title": "4.1 Before the Bombings in Kenya and Tanzania",
           "paragraphs": 39,
           "ids": "bcfc8d88dddf"
         },
         {
-          "slug": "42-crisisaugust",
-          "title": "4.2 CRISIS:AUGUST",
+          "slug": "42-crisis-august-1998",
+          "title": "4.2 Crisis: August 1998",
           "paragraphs": 27,
           "ids": "c043ccfd51e0"
         },
         {
           "slug": "43-diplomacy",
-          "title": "4.3 DIPLOMACY",
+          "title": "4.3 Diplomacy",
           "paragraphs": 27,
           "ids": "034f682f9b37"
         },
         {
           "slug": "44-covert-action",
-          "title": "4.4 COVERT ACTION",
+          "title": "4.4 Covert Action",
           "paragraphs": 41,
           "ids": "3990cb53d1a2"
         },
         {
           "slug": "45-searching-for-fresh-options",
-          "title": "4.5 SEARCHING FOR FRESH OPTIONS",
+          "title": "4.5 Searching for Fresh Options",
           "paragraphs": 45,
           "ids": "34bd9460526c"
         },
         {
-          "slug": "al-qaeda-aims-at-the-american-homeland-51-terrorist-entrepreneurs",
-          "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND 5.1 TERRORIST ENTREPRENEURS",
+          "slug": "51-terrorist-entrepreneurs",
+          "title": "5.1 Terrorist Entrepreneurs",
           "paragraphs": 42,
           "ids": "6bb40282cb2a"
         },
         {
           "slug": "52-the-planes-operation",
-          "title": "5.2 THE \"PLANES OPERATION\"",
+          "title": "5.2 The \"Planes Operation\"",
           "paragraphs": 35,
           "ids": "281ff140cd83"
         },
         {
           "slug": "53-the-hamburg-contingent",
-          "title": "5.3 THE HAMBURG CONTINGENT",
+          "title": "5.3 The Hamburg Contingent",
           "paragraphs": 41,
           "ids": "7feabf622392"
         },
         {
           "slug": "54-a-money-trail",
-          "title": "5.4 A MONEY TRAIL?",
+          "title": "5.4 A Money Trail?",
           "paragraphs": 24,
           "ids": "8a87df92a719"
         },
         {
           "slug": "61-the-millennium-crisis",
-          "title": "6.1 THE MILLENNIUM CRISIS",
+          "title": "6.1 The Millennium Crisis",
           "paragraphs": 47,
           "ids": "864639613173"
         },
         {
-          "slug": "62-post-crisis-reflectionagenda-for",
-          "title": "6.2 POST-CRISIS REFLECTION:AGENDA FOR",
+          "slug": "62-post-crisis-reflection-agenda-for-2000",
+          "title": "6.2 Post-Crisis Reflection: Agenda for 2000",
           "paragraphs": 46,
           "ids": "4e7541bc2da5"
         },
         {
           "slug": "63-the-attack-on-the-uss-cole",
-          "title": "6.3 THE ATTACK ON THE USS COLE",
+          "title": "6.3 The Attack on the USS Cole",
           "paragraphs": 39,
           "ids": "a5673018ff0f"
         },
         {
           "slug": "64-change-and-continuity",
-          "title": "6.4 CHANGE AND CONTINUITY",
+          "title": "6.4 Change and Continuity",
           "paragraphs": 30,
           "ids": "9fc23bc6cc53"
         },
         {
           "slug": "65-the-new-administrations-approach",
-          "title": "6.5 THE NEW ADMINISTRATION'S APPROACH",
+          "title": "6.5 The New Administration's Approach",
           "paragraphs": 65,
           "ids": "bd64e9612407"
         },
         {
-          "slug": "the-attack-looms-71-first-arrivals-in-california",
-          "title": "THE ATTACK LOOMS 7.1 FIRST ARRIVALS IN CALIFORNIA",
+          "slug": "71-first-arrivals-in-california",
+          "title": "7.1 First Arrivals in California",
           "paragraphs": 46,
           "ids": "4a0f86e26fa0"
         },
         {
           "slug": "72-the-911-pilots-in-the-united-states",
-          "title": "7.2 THE 9/11 PILOTS IN THE UNITED STATES",
+          "title": "7.2 The 9/11 Pilots in the United States",
           "paragraphs": 53,
           "ids": "e9e0e05049c4"
         },
         {
           "slug": "73-assembling-the-teams",
-          "title": "7.3 ASSEMBLING THE TEAMS",
+          "title": "7.3 Assembling the Teams",
           "paragraphs": 51,
           "ids": "5c5772236263"
         },
         {
           "slug": "74-final-strategies-and-tactics",
-          "title": "7.4 FINAL STRATEGIES AND TACTICS",
+          "title": "7.4 Final Strategies and Tactics",
           "paragraphs": 67,
           "ids": "af2149baf034"
         },
         {
-          "slug": "the-system-was-blinking-red-81-the-summer-of-threat",
-          "title": "\"THE SYSTEM WAS BLINKING RED\" 8.1 THE SUMMER OF THREAT",
-          "paragraphs": 145,
-          "ids": "b582e2212dd7"
+          "slug": "81-the-summer-of-threat",
+          "title": "8.1 The Summer of Threat",
+          "paragraphs": 73,
+          "ids": "87c3d3274c90"
         },
         {
-          "slug": "heroism-and-horror-91-preparedness-as-of-september",
-          "title": "HEROISM AND HORROR 9.1 PREPAREDNESS AS OF SEPTEMBER",
-          "paragraphs": 202,
-          "ids": "d6714c8694ed"
+          "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
+          "title": "8.2 Late Leads—Mihdhar, Moussaoui, and KSM",
+          "paragraphs": 72,
+          "ids": "014e69a3c8ec"
+        },
+        {
+          "slug": "91-preparedness-as-of-september-11",
+          "title": "9.1 Preparedness as of September 11",
+          "paragraphs": 35,
+          "ids": "93fbb95219f1"
+        },
+        {
+          "slug": "92-september-11-2001",
+          "title": "9.2 September 11, 2001",
+          "paragraphs": 167,
+          "ids": "20fed216fa69"
         },
         {
           "slug": "93-emergency-response-at-the-pentagon",
-          "title": "9.3 EMERGENCY RESPONSE AT THE PENTAGON",
+          "title": "9.3 Emergency Response at the Pentagon",
           "paragraphs": 17,
           "ids": "99408351ffc6"
         },
         {
           "slug": "94-analysis",
-          "title": "9.4 ANALYSIS",
+          "title": "9.4 Analysis",
           "paragraphs": 41,
           "ids": "51410d8c6aec"
         },
@@ -2250,73 +2280,79 @@
         },
         {
           "slug": "101-immediate-responses-at-home",
-          "title": "10.1 IMMEDIATE RESPONSES AT HOME",
+          "title": "10.1 Immediate Responses at Home",
           "paragraphs": 23,
           "ids": "44aa3704b2c3"
         },
         {
           "slug": "102-planning-for-war",
-          "title": "10.2 PLANNING FOR WAR",
+          "title": "10.2 Planning for War",
           "paragraphs": 20,
           "ids": "d5f878dd5f1f"
         },
         {
-          "slug": "103-phase-twoand-the-question-of-iraq",
-          "title": "10.3 \"PHASE TWO\"AND THE QUESTION OF IRAQ",
+          "slug": "103-phase-two-and-the-question-of-iraq",
+          "title": "10.3 \"Phase Two\" and the Question of Iraq",
           "paragraphs": 25,
           "ids": "2ac30fb24418"
         },
         {
           "slug": "111-imagination",
-          "title": "11.1 IMAGINATION",
-          "paragraphs": 60,
-          "ids": "3e838fad8785"
+          "title": "11.1 Imagination",
+          "paragraphs": 43,
+          "ids": "b3aa627b1a72"
+        },
+        {
+          "slug": "112-policy",
+          "title": "11.2 Policy",
+          "paragraphs": 17,
+          "ids": "666e4e6e5dba"
         },
         {
           "slug": "113-capabilities",
-          "title": "11.3 CAPABILITIES",
+          "title": "11.3 Capabilities",
           "paragraphs": 12,
           "ids": "ef79d44722f2"
         },
         {
           "slug": "114-management",
-          "title": "11.4 MANAGEMENT",
+          "title": "11.4 Management",
           "paragraphs": 39,
           "ids": "a360efb076ac"
         },
         {
-          "slug": "a-global-strategy-121-reflecting-on-a-generational-challenge",
-          "title": "A GLOBAL STRATEGY 12.1 REFLECTING ON A GENERATIONAL CHALLENGE",
+          "slug": "121-reflecting-on-a-generational-challenge",
+          "title": "12.1 Reflecting on a Generational Challenge",
           "paragraphs": 33,
           "ids": "ac4bf80ddf1f"
         },
         {
           "slug": "122-attack-terrorists-and-their-organizations",
-          "title": "12.2 ATTACK TERRORISTS AND THEIR ORGANIZATIONS",
+          "title": "12.2 Attack Terrorists and Their Organizations",
           "paragraphs": 53,
           "ids": "ad6780a10f59"
         },
         {
           "slug": "123-prevent-the-continued-growth-of-islamist-terrorism",
-          "title": "12.3 PREVENT THE CONTINUED GROWTH OF ISLAMIST TERRORISM",
+          "title": "12.3 Prevent the Continued Growth of Islamist Terrorism",
           "paragraphs": 51,
           "ids": "7eff52f8c0f1"
         },
         {
           "slug": "124-protect-against-and-prepare-for-terrorist-attacks",
-          "title": "12.4 PROTECT AGAINST AND PREPARE FOR TERRORIST ATTACKS",
+          "title": "12.4 Protect against and Prepare for Terrorist Attacks",
           "paragraphs": 99,
           "ids": "d0f8d3fb8b6c"
         },
         {
           "slug": "131-unity-of-effort-across-the-foreign-domestic-divide",
-          "title": "13.1 UNITY OF EFFORT ACROSS THE FOREIGN-DOMESTIC DIVIDE",
+          "title": "13.1 Unity of Effort across the Foreign-Domestic Divide",
           "paragraphs": 41,
           "ids": "34843b0e02d5"
         },
         {
           "slug": "132-unity-of-effort-in-the-intelligence-community",
-          "title": "13.2 UNITY OF EFFORT IN THE INTELLIGENCE COMMUNITY",
+          "title": "13.2 Unity of Effort in the Intelligence Community",
           "paragraphs": 40,
           "ids": "d92d102c5e98"
         },
@@ -2328,19 +2364,19 @@
         },
         {
           "slug": "133-unity-of-effort-in-sharing-information",
-          "title": "13.3 UNITY OF EFFORT IN SHARING INFORMATION",
+          "title": "13.3 Unity of Effort in Sharing Information",
           "paragraphs": 15,
           "ids": "7181363aedc7"
         },
         {
           "slug": "134-unity-of-effort-in-the-congress",
-          "title": "13.4 UNITY OF EFFORT IN THE CONGRESS",
+          "title": "13.4 Unity of Effort in the Congress",
           "paragraphs": 16,
           "ids": "efe463b615dd"
         },
         {
           "slug": "135-organizing-americas-defenses-in-the-united-states",
-          "title": "13.5 ORGANIZING AMERICA'S DEFENSES IN THE UNITED STATES",
+          "title": "13.5 Organizing America's Defenses in the United States",
           "paragraphs": 34,
           "ids": "7d7b6fe5f697"
         },
@@ -2371,20 +2407,14 @@
         {
           "slug": "governments-evidentiary-proffer-supporting-the-admissibility-of-co-conspirator-s",
           "title": "Government's Evidentiary Proffer Supporting the Admissibility of Co-Conspirator Statements, United States",
-          "paragraphs": 130,
-          "ids": "411ce22ea103"
+          "paragraphs": 131,
+          "ids": "03ec9391b73e"
         },
         {
           "slug": "pdd-62-protection-against-unconventional-threats-to-the-homeland-and-americans-o",
           "title": "PDD-62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May",
-          "paragraphs": 252,
-          "ids": "55b0e549ab15"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 262,
+          "ids": "ef722b23c741"
         }
       ]
     },

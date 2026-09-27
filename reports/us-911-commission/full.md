@@ -4,7 +4,7 @@ authors: "National Commission on Terrorist Attacks Upon the United States"
 published_at: "22 July 2004"
 source_url: "https://www.9-11commission.gov/report/911Report.pdf"
 pages: 585
-footnotes: 5
+footnotes: 0
 ---
 
 THE 9/11
@@ -177,7 +177,7 @@ Tue sday, Se ptembe r 11, 20 01, dawned temperate and nearly cloudless in the ea
 
 For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey.Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
 
-## 1.1 INSIDE THE FOUR FLIGHTS
+## 1.1 Inside the Four Flights
 
 Boarding the Flights Boston:American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's Logan International Airport.1
 
@@ -383,7 +383,7 @@ The passengers continued their assault and at 10:02:23, a hijacker said,"Pull it
 
 Jarrah's objective was to crash his airliner into symbols of the American Republic, the Capitol or the White House. He was defeated by the alerted, unarmed passengers of United 93.
 
-## 1.2 IMPROVISING A HOMELAND DEFENSE
+## 1.2 Improvising a Homeland Defense
 
 The FAA and NORAD On 9/11, the defense of U.S. airspace depended on close interaction between two federal agencies: the FAA and the North American Aerospace Defense Command (NORAD).The most recent hijacking that involved U.S. air traffic controllers, FAA management, and military coordination had occurred in 1993.90 In order to understand how the two agencies interacted eight years later, we will review their missions, command and control structures, and working relationship on the morning of 9/11.
 
@@ -819,7 +819,7 @@ We now turn to the role of national leadership in the events that morning.
 
 %%page 35%%
 
-## 1.3 NATIONAL CRISIS MANAGEMENT
+## 1.3 National Crisis Management
 
 When American 11 struck the World Trade Center at 8:46, no one in the White House or traveling with the President knew that it had been hijacked.While that information circulated within the FAA, we found no evidence that the hijacking was reported to any other agency in Washington before 8:46.179
 
@@ -1009,7 +1009,9 @@ He was, and is, right. But the conflict did not begin on 9/11. It had been publi
 
 %%page 47%%
 
-## THE FOUNDATION OF THE NEW TERRORISM 2.1 A DECLARATION OF WAR
+## THE FOUNDATION OF THE NEW TERRORISM
+
+## 2.1 A Declaration of War
 
 In February 1998, the 40-year-old Saudi exile Usama Bin Ladin and a fugitive Egyptian physician,Ayman al Zawahiri, arranged from their Afghan headquarters for an Arabic newspaper in London to publish what they termed a fatwa issued in the name of a "World Islamic Front." A fatwa is normally an interpretation of Islamic law by a respected Islamic authority, but neither Bin Ladin, Zawahiri, nor the three others who signed this statement were scholars of Islamic law. Claiming that America had declared war against God and his messenger, they called for the murder of any American, anywhere on earth, as the "individual duty for every Muslim who can do it in any country in which it is possible to do it."1
 
@@ -1027,7 +1029,7 @@ Bin Ladin said in his ABC interview that he and his followers had been preparing
 
 Plans to attack the United States were developed with unwavering single- mindedness throughout the 1990s. Bin Ladin saw himself as called "to follow in the footsteps of the Messenger and to communicate his message to all nations,"5 and to serve as the rallying point and organizer of a new kind of war to destroy America and bring the world to Islam.
 
-## 2.2 BIN LADIN'S APPEAL IN THE ISLAMIC WORLD
+## 2.2 Bin Ladin's Appeal in the Islamic World
 
 It is the story of eccentric and violent ideas sprouting in the fertile ground of political and social turmoil. It is the story of an organization poised to seize its historical moment. How did Bin Ladin—with his call for the indiscriminate killing of Americans—win thousands of followers and some degree of approval from millions more?
 
@@ -1111,7 +1113,9 @@ By 1998, Bin Ladin had a distinctive appeal, as he focused on attacking America.
 
 Finally, Bin Ladin had another advantage: a substantial, worldwide organization. By the time he issued his February 1998 declaration of war, Bin Ladin had nurtured that organization for nearly ten years. He could attract, train, and use recruits for ever more ambitious attacks, rallying new adherents with each demonstration that his was the movement of the future.
 
-2.3 THE RISE OF BIN LADIN AND AL QAEDA (1988–1992) A decade of conflict in Afghanistan, from 1979 to 1989, gave Islamist extremists a rallying point and training field.A Communist government in Afghanistan gained power in 1978 but was unable to establish enduring control.At the end of 1979, the Soviet government sent in military units to ensure that the country would remain securely under Moscow's influence. The response was an Afghan national resistance movement that defeated Soviet forces.19
+## 2.3 The Rise of Bin Ladin and al Qaeda (1988–1992)
+
+A decade of conflict in Afghanistan, from 1979 to 1989, gave Islamist extremists a rallying point and training field.A Communist government in Afghanistan gained power in 1978 but was unable to establish enduring control.At the end of 1979, the Soviet government sent in military units to ensure that the country would remain securely under Moscow's influence. The response was an Afghan national resistance movement that defeated Soviet forces.19
 
 Young Muslims from around the world flocked to Afghanistan to join as volunteers in what was seen as a "holy war"—jihad—against an invader.The largest numbers came from the Middle East. Some were Saudis, and among them was Usama Bin Ladin.
 
@@ -1157,9 +1161,9 @@ This pattern of expansion through building alliances extended to the United Stat
 
 %%page 59%%
 
-## 2.4 BUILDING AN ORGANIZATION, DECLARING WAR
+## 2.4 Building an Organization, Declaring War on the United States (1992–1996)
 
-ON THE UNITED STATES (1992–1996) Bin Ladin began delivering diatribes against the United States before he left Saudi Arabia. He continued to do so after he arrived in Sudan. In early 1992, the al Qaeda leadership issued a fatwa calling for jihad against the Western "occupation" of Islamic lands. Specifically singling out U.S. forces for attack, the language resembled that which would appear in Bin Ladin's public fatwa in August 1996. In ensuing weeks, Bin Ladin delivered an often-repeated lec- ture on the need to cut off "the head of the snake."42
+Bin Ladin began delivering diatribes against the United States before he left Saudi Arabia. He continued to do so after he arrived in Sudan. In early 1992, the al Qaeda leadership issued a fatwa calling for jihad against the Western "occupation" of Islamic lands. Specifically singling out U.S. forces for attack, the language resembled that which would appear in Bin Ladin's public fatwa in August 1996. In ensuing weeks, Bin Ladin delivered an often-repeated lec- ture on the need to cut off "the head of the snake."42
 
 By this time, Bin Ladin was well-known and a senior figure among Islamist extremists, especially those in Egypt, the Arabian Peninsula, and the Afghanistan-Pakistan border region. Still, he was just one among many diverse terrorist barons. Some of Bin Ladin's close comrades were more peers than subordinates. For example, Usama Asmurai, also known as Wali Khan, worked with Bin Ladin in the early 1980s and helped him in the Philippines and in Tajikistan. The Egyptian spiritual guide based in New Jersey, the Blind Sheikh, whom Bin Ladin admired, was also in the network.Among sympathetic peers in Afghanistan were a few of the warlords still fighting for power and Abu Zubaydah, who helped operate a popular terrorist training camp near the border with Pakistan.There were also rootless but experienced operatives, such as Ramzi Yousef and Khalid Sheikh Mohammed, who—though not necessarily formal members of someone else's organization—were traveling around the world and joining in projects that were supported by or linked to Bin Ladin, the Blind Sheikh, or their associates.43
 
@@ -1209,9 +1213,9 @@ In February 1996, Sudanese officials began approaching officials from the
 
 United States and other governments, asking what actions of theirs might ease foreign pressure. In secret meetings with Saudi officials, Sudan offered to expel Bin Ladin to Saudi Arabia and asked the Saudis to pardon him. U.S. officials became aware of these secret discussions, certainly by March. Saudi officials apparently wanted Bin Ladin expelled from Sudan.They had already revoked his citizenship, however, and would not tolerate his presence in their country. And Bin Ladin may have no longer felt safe in Sudan, where he had already escaped at least one assassination attempt that he believed to have been the work of the Egyptian or Saudi regimes, or both. In any case, on May 19, 1996, Bin Ladin left Sudan—significantly weakened, despite his ambitions and organizational skills. He returned to Afghanistan.61
 
-## 2.5 AL QAEDA'S RENEWAL IN AFGHANISTAN
+## 2.5 Al Qaeda's Renewal in Afghanistan (1996–1998)
 
-(1996–1998) Bin Ladin flew on a leased aircraft from Khartoum to Jalalabad, with a refueling stopover in the United Arab Emirates.62 He was accompanied by family members and bodyguards, as well as by al Qaeda members who had been close associates since his organization's 1988 founding in Afghanistan. Dozens of additional militants arrived on later flights.63
+Bin Ladin flew on a leased aircraft from Khartoum to Jalalabad, with a refueling stopover in the United Arab Emirates.62 He was accompanied by family members and bodyguards, as well as by al Qaeda members who had been close associates since his organization's 1988 founding in Afghanistan. Dozens of additional militants arrived on later flights.63
 
 Though Bin Ladin's destination was Afghanistan, Pakistan was the nation that held the key to his ability to use Afghanistan as a base from which to revive his ambitious enterprise for war against the United States.
 
@@ -1301,9 +1305,7 @@ In chapte r 2, we described the growth of a new kind of terrorism, and a new ter
 
 We mention many personalities in this report. As in any study of the U.S. government, some of the most important characters are institutions. We will introduce various agencies, and how they adapted to a new kind of terrorism.
 
-3.1 FROM THE OLD TERRORISM TO THE NEW:
-
-## THE FIRST WORLD TRADE CENTER BOMBING
+## 3.1 From the Old Terrorism to the New: The First World Trade Center Bombing
 
 At 18 minutes after noon on February 26, 1993, a huge bomb went off beneath the two towers of the World Trade Center.This was not a suicide attack.The terrorists parked a truck bomb with a timing device on Level B-2 of the underground garage, then departed.The ensuing explosion opened a hole seven stories up. Six people died. More than a thousand were injured. An FBI agent at the scene described the relatively low number of fatalities as a miracle.1
 
@@ -1339,7 +1341,7 @@ The law enforcement process is concerned with proving the guilt of persons appre
 
 Fourth, although the bombing heightened awareness of a new terrorist danger, successful prosecutions contributed to widespread underestimation of the threat.The government's attorneys stressed the seriousness of the crimes, and put forward evidence of Yousef 's technical ingenuity.Yet the public image that persisted was not of clever Yousef but of stupid Salameh going back again and again to reclaim his $400 truck rental deposit.
 
-## 3.2 ADAPTATION—AND NONADAPTATION—IN THE LAW ENFORCEMENT COMMUNITY
+## 3.2 Adaptation—and Nonadaptation— . . . in the Law Enforcement Community
 
 Legal processes were the primary method for responding to these early mani- festations of a new type of terrorism. Our overview of U.S. capabilities for dealing with it thus begins with the nation's vast complex of law enforcement agencies.
 
@@ -1445,7 +1447,7 @@ The Bureau of Alcohol,Tobacco, and Firearms was used on occasion by the FBI as a
 
 Before 9/11, with the exception of one portion of the FBI, very little of the sprawling U.S. law enforcement community was engaged in countering terrorism. Moreover, law enforcement could be effective only after specific individuals were identified, a plot had formed, or an attack had already occurred. Responsible individuals had to be located, apprehended, and transported back to a U.S. court for prosecution. As FBI agents emphasized to us, the FBI and the Justice Department do not have cruise missiles.They declare war by indicting someone.They took on the lead role in addressing terrorism because they were asked to do so.49
 
-## 3.3 . . .AND IN THE FEDERAL AVIATION ADMINISTRATION
+## 3.3 . . . and in the Federal Aviation Administration
 
 The Federal Aviation Administration (FAA) within the Department of Transportation had been vested by Congress with the sometimes conflicting mandate of regulating the safety and security of U.S. civil aviation while also promoting the civil aviation industry.The FAA had a security mission to protect the users of commercial air transportation against terrorism and other criminal acts. In the years before 9/11, the FAA perceived sabotage as a greater threat to aviation than hijacking. First, no domestic hijacking had occurred in a decade. Second, the commercial aviation system was perceived as more vulnerable to explosives than to weapons such as firearms. Finally, explosives were perceived as deadlier than hijacking and therefore of greater consequence. In 1996, a presidential commission on aviation safety and security chaired by Vice President Al Gore reinforced the prevailing concern about sabotage and explosives on aircraft.The Gore Commission also flagged, as a new danger, the possibility of attack by surface-to-air missiles. Its 1997 final report did not discuss the possibility of suicide hijackings.50
 
@@ -1485,7 +1487,7 @@ In the absence of any recent aviation security incident and without "specific an
 
 %%page 86%%
 
-## 3.4 . . .AND IN THE INTELLIGENCE COMMUNITY
+## 3.4 . . . and in the Intelligence Community
 
 The National Security Act of 1947 created the position of Director of Central Intelligence (DCI). Independent from the departments of Defense, State, Justice, and other policy departments,the DCI heads the U.S.intelligence community and provides intelligence to federal entities.
 
@@ -1581,7 +1583,7 @@ Cuts in national security expenditures at the end of the Cold War led to budget 
 
 Yet at least for the CIA, part of the burden in tackling terrorism arose from the background we have described: an organization capable of attracting extraordinarily motivated people but institutionally averse to risk, with its capacity for covert action atrophied, predisposed to restrict the distribution of information, having difficulty assimilating new types of personnel, and accustomed to presenting descriptive reportage of the latest intelligence.The CIA, to put it another way, needed significant change in order to get maximum effect in counterterrorism. President Clinton appointed George Tenet as DCI in 1997, and by all accounts terrorism was a priority for him. But Tenet's own assessment, when questioned by the Commission, was that in 2004, the CIA's clandestine service was still at least five years away from being fully ready to play its counterterrorism role.85 And while Tenet was clearly the leader of the CIA, the intelligence community's confederated structure left open the question of who really was in charge of the entire U.S. intelligence effort.
 
-## 3.5 . . .AND IN THE STATE DEPARTMENT AND THE DEFENSE DEPARTMENT
+## 3.5 . . . and in the State Department and the Defense Department
 
 The State Department The Commission asked Deputy Secretary of State Richard Armitage in 2004 why the State Department had so long pursued what seemed, and ultimately proved, to be a hopeless effort to persuade the Taliban regime in Afghanistan to deport Bin Ladin. Armitage replied: "We do what the State Department does, we don't go out and fly bombers, we don't do things like that[;] . . . we do our part in these things."86
 
@@ -1643,7 +1645,9 @@ This lesson was applied, using Tomahawk missiles, early in the Clinton administr
 
 The 1986 attack in Libya and the 1993 attack on Iraq symbolized for the military establishment effective use of military power for counterterrorism— limited retaliation with air power, aimed at deterrence.What remained was the hard question of how deterrence could be effective when the adversary was a loose transnational network.
 
-3.6 . . .AND IN THE WHITE HOUSE Because coping with terrorism was not (and is not) the sole province of any component of the U.S. government, some coordinating mechanism is necessary.When terrorism was not a prominent issue, the State Department could perform this role. When the Iranian hostage crisis developed, this procedure went by the board: National Security Advisor Zbigniew Brzezinski took charge of crisis management.
+## 3.6 . . . and in the White House
+
+Because coping with terrorism was not (and is not) the sole province of any component of the U.S. government, some coordinating mechanism is necessary.When terrorism was not a prominent issue, the State Department could perform this role. When the Iranian hostage crisis developed, this procedure went by the board: National Security Advisor Zbigniew Brzezinski took charge of crisis management.
 
 The Reagan administration continued and formalized the practice of having presidential staff coordinate counterterrorism. After the killing of the marines in Beirut, President Reagan signed National Security Directive 138, calling for a "shift . . . from passive to active defense measures" and reprogramming or adding new resources to effect the shift. It directed the State Department "to intensify efforts to achieve cooperation of other governments" and the CIA to "intensify use of liaison and other intelligence capabilities and also to develop plans and capability to preempt groups and individuals planning strikes against U.S. interests."95
 
@@ -1691,7 +1695,9 @@ Third, we will undertake a concerted effort to prevent the spread and use of bio
 
 Clearly, the President's concern about terrorism had steadily risen. That heightened worry would become even more obvious early in 1999, when he addressed the National Academy of Sciences and presented his most somber account yet of what could happen if the United States were hit, unprepared, by terrorists wielding either weapons of mass destruction or potent cyberweapons.
 
-3.7 . . .AND IN THE CONGRESS Since the beginning of the Republic, few debates have been as hotly contested as the one over executive versus legislative powers.At the Constitutional Convention, the founders sought to create a strong executive but check its powers. They left those powers sufficiently ambiguous so that room was left for Congress and the president to struggle over the direction of the nation's security and foreign policies.
+## 3.7 . . . and in the Congress
+
+Since the beginning of the Republic, few debates have been as hotly contested as the one over executive versus legislative powers.At the Constitutional Convention, the founders sought to create a strong executive but check its powers. They left those powers sufficiently ambiguous so that room was left for Congress and the president to struggle over the direction of the nation's security and foreign policies.
 
 The most serious question has centered on whether or not the president needs congressional authorization to wage war. The current status of that debate seems to have settled into a recognition that a president can deploy military forces for small and limited operations, but needs at least congressional support if not explicit authorization for large and more open-ended military operations.
 
@@ -1749,7 +1755,9 @@ In fact, Congress had a distinct tendency to push questions of emerging national
 
 %%page 108%%
 
-## RESPONSES TO AL QAEDA'S INITIAL ASSAULTS 4.1 BEFORE THE BOMBINGS IN KENYA AND TANZANIA
+## RESPONSES TO AL QAEDA'S INITIAL ASSAULTS
+
+## 4.1 Before the Bombings in Kenya and Tanzania
 
 Although the 1995 National Intelligence Estimate had warned of a new type of terrorism, many officials continued to think of terrorists as agents of states (Saudi Hezbollah acting for Iran against Khobar Towers) or as domestic criminals (Timothy McVeigh in Oklahoma City).As we pointed out in chapter 3, the White House is not a natural locus for program management. Hence, government efforts to cope with terrorism were essentially the work of individual agencies.
 
@@ -1843,7 +1851,7 @@ Prince Turki followed up in meetings during the summer with Mullah Omar and othe
 
 On August 5, Clarke chaired a CSG meeting on Bin Ladin. In the discussion of what might be done, the note taker wrote,"there was a dearth of bright ideas around the table, despite a consensus that the [government] ought to pursue every avenue it can to address the problem."36
 
-## 4.2 CRISIS:AUGUST
+## 4.2 Crisis: August 1998
 
 On August 7, 1998, National Security Advisor Berger woke President Clinton with a phone call at 5:35 A.M. to tell him of the almost simultaneous bombings of the U.S. embassies in Nairobi, Kenya, and Dar es Salaam,Tanzania. Suspicion quickly focused on Bin Ladin. Unusually good intelligence, chiefly from the yearlong monitoring of al Qaeda's cell in Nairobi, soon firmly fixed responsibility on him and his associates.37
 
@@ -1911,7 +1919,7 @@ During the last week of August 1998, officials began considering possible follow
 
 Defense officials at a lower level, in the Office of the Assistant Secretary for Special Operations and Low-Intensity Conflict, tried to meet Slocombe's objections.They developed a plan that, unlike Clarke's, called not for particular strikes but instead for a broad change in national strategy and in the institutional approach of the Department of Defense, implying a possible need for large-scale operations across the whole spectrum of U.S. military capabilities. It urged the department to become a lead agency in driving a national counterterrorism strategy forward, to "champion a national effort to take up the gauntlet that international terrorists have thrown at our feet." The authors expressed concern that "we have not fundamentally altered our philosophy or our approach" even though the terrorist threat had grown.They outlined an eight-part strategy "to be more proactive and aggressive." The future, they warned, might bring "horrific attacks," in which case "we will have no choice nor, unfortunately, will we have a plan."The assistant secretary, Allen Holmes, took the paper to Slocombe's chief deputy, Jan Lodal, but it went no further. Its lead author recalls being told by Holmes that Lodal thought it was too aggressive. Holmes cannot recall what was said, and Lodal cannot remember the episode or the paper at all.61
 
-## 4.3 DIPLOMACY
+## 4.3 Diplomacy
 
 After the August missile strikes, diplomatic options to press the Taliban seemed no more promising than military options.The United States had issued a formal warning to the Taliban, and also to Sudan, that they would be held directly responsible for any attacks on Americans, wherever they occurred, carried out by the Bin Ladin network as long as they continued to provide sanctuary to it.62
 
@@ -1977,7 +1985,7 @@ At first, the Clinton administration hoped that Musharraf 's coup might create a
 
 By late 1999, more than a year after the embassy bombings, diplomacy with Pakistan, like the efforts with the Taliban, had, according to Under Secretary of State Thomas Pickering,"borne little fruit."100
 
-## 4.4 COVERT ACTION
+## 4.4 Covert Action
 
 As part of the response to the embassy bombings, President Clinton signed a Memorandum of Notification authorizing the CIA to let its tribal assets use force to capture Bin Ladin and his associates. CIA officers told the tribals that the plan to capture Bin Ladin, which had been "turned off " three months earlier,was back on.The memorandum also authorized the CIA to attack Bin Ladin in other ways. Also, an executive order froze financial holdings that could be linked to Bin Ladin.101
 
@@ -2089,7 +2097,7 @@ The tribals remained active collectors of intelligence, however, providing good 
 
 In February 1999,Allen proposed flying a U-2 mission over Afghanistan to build a baseline of intelligence outside the areas where the tribals had coverage. Clarke was nervous about such a mission because he continued to fear that Bin Ladin might leave for someplace less accessible. He wrote Deputy National Security Advisor Donald Kerrick that one reliable source reported Bin Ladin's having met with Iraqi officials, who "may have offered him asylum." Other intelligence sources said that some Taliban leaders, though not Mullah Omar, had urged Bin Ladin to go to Iraq. If Bin Ladin actually moved to Iraq, wrote Clarke, his network would be at Saddam Hussein's service, and it would be "virtually impossible" to find him. Better to get Bin Ladin in Afghanistan, Clarke declared.134 Berger suggested sending one U-2 flight, but Clarke opposed even this. It would require Pakistani approval, he wrote; and "Pak[istan's] intel[ligence service] is in bed with" Bin Ladin and would warn him that the United States was getting ready for a bombing campaign: "Armed with that knowledge, old wily Usama will likely boogie to Baghdad."135 Though told also by Bruce Riedel of the NSC staff that Saddam Hussein wanted Bin Ladin in Baghdad, Berger conditionally authorized a single U-2 flight.Allen meanwhile had found other ways of getting the information he wanted. So the U-2 flight never occurred.136
 
-## 4.5 SEARCHING FOR FRESH OPTIONS
+## 4.5 Searching for Fresh Options
 
 "Boots on the Ground?" Starting on the day the August 1998 strikes were launched, General Shelton had issued a planning order to prepare follow-on strikes and think beyond just using cruise missiles.137 The initial strikes had been called Operation Infinite Reach. The follow-on plans were given the code name Operation Infinite Resolve.
 
@@ -2201,7 +2209,9 @@ As mentioned earlier, such a protracted deployment of U.S. Special Operations Fo
 
 %%page 145%%
 
-## AL QAEDA AIMS AT THE AMERICAN HOMELAND 5.1 TERRORIST ENTREPRENEURS
+## AL QAEDA AIMS AT THE AMERICAN HOMELAND
+
+## 5.1 Terrorist Entrepreneurs
 
 By early 1999, al Qaeda was already a potent adversary of the United States. Bin Ladin and his chief of operations, Abu Hafs al Masri, also known as Mohammed Atef, occupied undisputed leadership positions atop al Qaeda's organizational structure. Within this structure, al Qaeda's worldwide terrorist operations relied heavily on the ideas and work of enterprising and strong- willed field commanders who enjoyed considerable autonomy.To understand how the organization actually worked and to introduce the origins of the 9/11 plot, we briefly examine three of these subordinate commanders: Khalid Sheikh Mohammed (KSM), Riduan Isamuddin (better known as Hambali), and Abd al Rahim al Nashiri. We will devote the most attention to Khalid Sheikh Mohammed, the chief manager of the "planes operation."
 
@@ -2303,7 +2313,7 @@ Ladin reportedly instructed him to case the Port of Aden, on the southern coast,
 
 Nashiri's success brought him instant status within al Qaeda. He later was recognized as the chief of al Qaeda operations in and around the Arabian Peninsula.While Nashiri continued to consult Bin Ladin on the planning of subsequent terrorist projects, he retained discretion in selecting operatives and devising attacks. In the two years between the Cole bombing and Nashiri's capture, he would supervise several more proposed operations for al Qaeda.The October 6, 2002, bombing of the French tanker Limburg in the Gulf of Aden also was Nashiri's handiwork. Although Bin Ladin urged Nashiri to continue plotting strikes against U.S. interests in the Persian Gulf, Nashiri maintains that he actually delayed one of these projects because of security concerns.31 Those concerns, it seems, were well placed, as Nashiri's November 2002 capture in the United Arab Emirates finally ended his career as a terrorist.
 
-## 5.2 THE "PLANES OPERATION"
+## 5.2 The "Planes Operation"
 
 According to KSM, he started to think about attacking the United States after Yousef returned to Pakistan following the 1993 World Trade Center bombing. Like Yousef, KSM reasoned he could best influence U.S. policy by targeting the country's economy. KSM and Yousef reportedly brainstormed together about what drove the U.S. economy. New York, which KSM considered the economic capital of the United States, therefore became the primary target. For similar reasons, California also became a target for KSM.32
 
@@ -2389,7 +2399,7 @@ Meanwhile, the next group of al Qaeda operatives destined for the planes operati
 
 Emirates, Lebanon, and Yemen—they had formed a close-knit group as students in Hamburg, Germany.The new recruits had come to Afghanistan aspiring to wage jihad in Chechnya. But al Qaeda quickly recognized their potential and enlisted them in its anti-U.S. jihad.
 
-## 5.3 THE HAMBURG CONTINGENT
+## 5.3 The Hamburg Contingent
 
 Although Bin Ladin,Atef, and KSM initially contemplated using established al Qaeda members to execute the planes operation, the late 1999 arrival in Kandahar of four aspiring jihadists from Germany suddenly presented a more attractive alternative. The Hamburg group shared the anti-U.S. fervor of the other candidates for the operation, but added the enormous advantages of flu- ency in English and familiarity with life in the West, based on years that each member of the group had spent living in Germany. Not surprisingly, Mohamed Atta, Ramzi Binalshibh, Marwan al Shehhi, and Ziad Jarrah would all become key players in the 9/11 conspiracy.
 
@@ -2498,7 +2508,7 @@ Moreover, certain al Qaeda members were charged with organizing passport collect
 
 The purpose of all this training was twofold: to develop an institutional capacity for document forgery and to enable operatives to make necessary adjustments in the field. It was well-known, for example, that if a Saudi traveled to Afghanistan via Pakistan, then on his return to Saudi Arabia his passport, bearing a Pakistani stamp, would be confiscated. So operatives either erased the Pakistani visas from their passports or traveled through Iran, which did not stamp visas directly into passports.109
 
-## 5.4 A MONEY TRAIL?
+## 5.4 A Money Trail?
 
 Bin Ladin and his aides did not need a very large sum to finance their planned attack on America. The 9/11 plotters eventually spent somewhere between $400,000 and $500,000 to plan and conduct their attack. Consistent with the importance of the project, al Qaeda funded the plotters. KSM provided his operatives with nearly all the money they needed to travel to the United States, train, and live. The plotters' tradecraft was not especially sophisticated, but it was good enough.They moved, stored, and spent their money in ordinary ways, easily defeating the detection mechanisms in place at the time.110 The origin of the funds remains unknown, although we have a general idea of how al Qaeda financed itself during the period leading up to 9/11.
 
@@ -2563,7 +2573,7 @@ President Clinton was deeply concerned about Bin Ladin. He and his national secu
 
 As the millennium approached, the most publicized worries were not about terrorism but about computer breakdowns—the Y2K scare. Some government officials were concerned that terrorists would take advantage of such breakdowns.3
 
-## 6.1 THE MILLENNIUM CRISIS
+## 6.1 The Millennium Crisis
 
 "Bodies Will Pile Up in Sacks" On November 30, 1999, Jordanian intelligence intercepted a telephone call between Abu Zubaydah, a longtime ally of Bin Ladin, and Khadr Abu Hoshar, a Palestinian extremist. Abu Zubaydah said, "The time for training is over." Suspecting that this was a signal for Abu Hoshar to commence a terrorist operation, Jordanian police arrested Abu Hoshar and 15 others and informed Washington.4
 
@@ -2675,7 +2685,7 @@ TIPOFF watchlist—either in January, when word arrived of Mihdhar's visa, or in
 
 None of this information—about Mihdhar's U.S. visa or Hazmi's travel to the United States—went to the FBI, and nothing more was done to track any of the three until January 2001, when the investigation of another bombing, that of the USS Cole, reignited interest in Khallad.We will return to that story in chapter 8.
 
-## 6.2 POST-CRISIS REFLECTION:AGENDA FOR
+## 6.2 Post-Crisis Reflection: Agenda for 2000
 
 After the millennium alert, elements of the U.S. government reviewed their performance.The CIA's leadership was told that while a number of plots had been disrupted, the millennium might be only the "kick-off " for a period of extended attacks.55 Clarke wrote Berger on January 11, 2000, that the CIA, the FBI, Justice, and the NSC staff had come to two main conclusions. First, U.S. disruption efforts thus far had "not put too much of a dent" in Bin Ladin's network. If the United States wanted to "roll back" the threat, disruption would have to proceed at "a markedly different tempo." Second,"sleeper cells" and "a variety of terrorist groups" had turned up at home.56 As one of Clarke's staff noted, only a "chance discovery" by U.S. Customs had prevented a possible attack.57 Berger gave his approval for the NSC staff to commence an "after-action review," anticipating new budget requests. He also asked DCI Tenet to review the CIA's counterterrorism strategy and come up with a plan for "where we go from here."58
 
@@ -2791,7 +2801,7 @@ During at least one trial mission, the Taliban spotted the Predator and scramble
 
 Still, Clarke was optimistic about Predator—as well as progress with disruptions of al Qaeda cells elsewhere. Berger was more cautious, praising the NSC staff 's performance but observing that this was no time for compla- cency. "Unfortunately," he wrote, "the light at the end of the tunnel is another tunnel."120
 
-## 6.3 THE ATTACK ON THE USS COLE
+## 6.3 The Attack on the USS Cole
 
 Early in chapter 5 we introduced, along with Khalid Sheikh Mohammed, two other men who became operational coordinators for al Qaeda: Khallad and Nashiri. As we explained, both were involved during 1998 and 1999 in preparing to attack a ship off the coast of Yemen with a boatload of explosives.They had originally targeted a commercial vessel, specifically an oil tanker, but Bin Ladin urged them to look for a U.S. warship instead. In January 2000, their team had attempted to attack a warship in the port of Aden, but the attempt failed when the suicide boat sank. More than nine months later, on October 12, 2000, al Qaeda operatives in a small boat laden with explosives attacked a U.S. Navy destroyer, the USS Cole.The blast ripped a hole in the side of the Cole, killing 17 members of the ship's crew and wounding at least 40.121
 
@@ -2889,7 +2899,7 @@ Clarke and his staff proposed a goal to "roll back" al Qaeda over a period of th
 
 %%page 198%%
 
-## 6.4 CHANGE AND CONTINUITY
+## 6.4 Change and Continuity
 
 On November 7, 2000,American voters went to the polls in what turned out to be one of the closest presidential contests in U.S. history—an election campaign during which there was a notable absence of serious discussion of the al Qaeda threat or terrorism. Election night became a 36-day legal fight. Until the Supreme Court's 5–4 ruling on December 12 and Vice President Al Gore's concession, no one knew whether Gore or his Republican opponent, Texas Governor George W. Bush, would become president in 2001.
 
@@ -2961,7 +2971,7 @@ At the meeting, the deputies endorsed covert aid to Uzbekistan. Regarding the No
 
 While Clarke remained concerned about the pace of the policy review, he now saw a greater possibility of persuading the deputies to recognize the changed nature of terrorism.193 The process of fleshing out that strategy was under way.
 
-## 6.5 THE NEW ADMINISTRATION'S APPROACH
+## 6.5 The New Administration's Approach
 
 The Bush administration in its first months faced many problems other than terrorism.They included the collapse of the Middle East peace process and, in April, a crisis over a U.S."spy plane" brought down in Chinese territory. The new administration also focused heavily on Russia, a new nuclear strategy that allowed missile defenses, Europe, Mexico, and the Persian Gulf.
 
@@ -3117,7 +3127,9 @@ Funding still needed to be located. The military component remained unclear. Pak
 
 %%page 215%%
 
-## THE ATTACK LOOMS 7.1 FIRST ARRIVALS IN CALIFORNIA
+## THE ATTACK LOOMS
+
+## 7.1 First Arrivals in California
 
 In chapter 5 we described the Southeast Asia travels of Nawaf al Hazmi, Khalid al Mihdhar, and others in January 2000 on the first part of the "planes operation." In that chapter we also described how Mihdhar was spotted in Kuala Lumpur early in January 2000, along with associates who were not identified, and then was lost to sight when the group passed through Bangkok. On January 15, Hazmi and Mihdhar arrived in Los Angeles. They spent about two weeks there before moving on to San Diego.1
 
@@ -3227,7 +3239,7 @@ Hazmi did not sever all contact with his friends in San Diego.According to Abdul
 
 The housemate who rented the room to Hazmi and Mihdhar during 2000 is an apparently law-abiding citizen with long-standing, friendly contacts among local police and FBI personnel. He did not see anything unusual enough in the behavior of Hazmi or Mihdhar to prompt him to report to his law enforcement contacts. Nor did those contacts ask him for information about his tenants/housemates.
 
-## 7.2 THE 9/11 PILOTS IN THE UNITED STATES
+## 7.2 The 9/11 Pilots in the United States
 
 The Hamburg Pilots Arrive in the United States In the early summer of 2000, the Hamburg group arrived in the United States to begin flight training. Marwan al Shehhi came on May 29, arriving in Newark on a flight from Brussels. He went to New York City and waited there for
 
@@ -3353,7 +3365,7 @@ Shehhi did meet with Atta's father, who stated in a post-9/11 interview that She
 
 Shehhi returned to Miami on May 2. That day, Atta and Jarrah were together, about 30 miles to the north, visiting a Department of Motor Vehicles office in Lauderdale Lakes, Florida, to get Florida driver's licenses. Back in Virginia, Hazmi and Hanjour were about to leave for Connecticut and New Jersey.As the summer approached, the lead operatives were settled in Florida and New Jersey, waiting for the rest of their contingent to join them.82
 
-## 7.3 ASSEMBLING THE TEAMS
+## 7.3 Assembling the Teams
 
 During the summer and early autumn of 2000, Bin Ladin and senior al Qaeda leaders in Afghanistan started selecting the muscle hijackers—the operatives who would storm the cockpits and control the passengers. Despite the phrase widely used to describe them, the so-called muscle hijackers were not at all physically imposing; most were between 5' 5" and 5' 7" in height.83
 
@@ -3485,7 +3497,7 @@ After 9/11, Iran and Hezbollah wished to conceal any past evidence of cooperatio
 
 We believe this topic requires further investigation by the U.S. government.
 
-## 7.4 FINAL STRATEGIES AND TACTICS
+## 7.4 Final Strategies and Tactics
 
 Final Preparations in the United States During the early summer of 2001, Atta, assisted by Shehhi, was busy coordinating the arrival of most of the muscle hijackers in southern Florida—picking them up at the airport, finding them places to stay, and helping them settle in the United States.129
 
@@ -3648,7 +3660,9 @@ Shehhi and his team targeting United Airlines Flight 175 from Logan Airport spen
 
 %%page 254%%
 
-## "THE SYSTEM WAS BLINKING RED" 8.1 THE SUMMER OF THREAT
+## "THE SYSTEM WAS BLINKING RED"
+
+## 8.1 The Summer of Threat
 
 As 2001 began, counterterrorism officials were receiving frequent but fragmentary reports about threats. Indeed, there appeared to be possible threats almost everywhere the United States had interests—including at home.
 
@@ -3826,7 +3840,9 @@ The terrorists exploited deep institutional failings within our government. The 
 
 %%page 266%%
 
-8.2 LATE LEADS—MIHDHAR, MOUSSAOUI,AND KSM In chapter 6 we discussed how intelligence agencies successfully detected some of the early travel in the planes operation, picking up the movements of Khalid al Mihdhar and identifying him, and seeing his travel converge with someone they perhaps could have identified but did not—Nawaf al Hazmi—as well as with less easily identifiable people such as Khallad and Abu Bara.These observations occurred in December 1999 and January 2000.The trail had been lost in January 2000 without a clear realization that it had been lost,and without much effort to pick it up again. Nor had the CIA placed Mihdhar on the State Department's watchlist for suspected terrorists, so that either an embassy or a port of entry might take note if Mihdhar showed up again.
+## 8.2 Late Leads—Mihdhar, Moussaoui, and KSM
+
+In chapter 6 we discussed how intelligence agencies successfully detected some of the early travel in the planes operation, picking up the movements of Khalid al Mihdhar and identifying him, and seeing his travel converge with someone they perhaps could have identified but did not—Nawaf al Hazmi—as well as with less easily identifiable people such as Khallad and Abu Bara.These observations occurred in December 1999 and January 2000.The trail had been lost in January 2000 without a clear realization that it had been lost,and without much effort to pick it up again. Nor had the CIA placed Mihdhar on the State Department's watchlist for suspected terrorists, so that either an embassy or a port of entry might take note if Mihdhar showed up again.
 
 On four occasions in 2001, the CIA, the FBI, or both had apparent opportunities to refocus on the significance of Hazmi and Mihdhar and reinvigorate the search for them. After reviewing those episodes we will turn to the handling of the Moussaoui case and some late leads regarding Khalid Sheikh Mohammed. January 2001: Identification of Khallad Almost one year after the original trail had been lost in Bangkok, the FBI and the CIA were working on the investigation of the Cole bombing.They learned of the link between a captured conspirator and a person called "Khallad."They also learned that Khallad was a senior security official for Bin Ladin who had helped direct the bombing (we introduced Khallad in chapter 5, and returned to his role in the Cole bombing in chapter 6).55
 
@@ -3996,7 +4012,9 @@ We see little evidence that the progress of the plot was disturbed by any govern
 
 %%page 278%%
 
-## HEROISM AND HORROR 9.1 PREPAREDNESS AS OF SEPTEMBER
+## HEROISM AND HORROR
+
+## 9.1 Preparedness as of September 11
 
 Emergency response is a product of preparedness. On the morning of September 11, 2001, the last best hope for the community of people working in or visiting the World Trade Center rested not with national policymakers but with private firms and local public servants, especially the first responders: fire, police, emergency medical service, and building safety professionals.
 
@@ -4082,7 +4100,9 @@ In July 2001, Mayor Giuliani updated a directive titled "Direction and Control o
 
 Nevertheless, the FDNY and NYPD each considered itself operationally autonomous.As of September 11, they were not prepared to comprehensively coordinate their efforts in responding to a major incident.The OEM had not overcome this problem.
 
-9.2 SEPTEMBER 11, 2001 As we turn to the events of September 11, we are mindful of the unfair perspective afforded by hindsight. Nevertheless, we will try to describe what happened in the following 102 minutes:
+## 9.2 September 11, 2001
+
+As we turn to the events of September 11, we are mindful of the unfair perspective afforded by hindsight. Nevertheless, we will try to describe what happened in the following 102 minutes:
 
 - the 17 minutes from the crash of the hijacked American Airlines Flight 11 into 1 World Trade Center (the North Tower) at 8:46 until the South Tower was hit
 - the 56 minutes from the crash of the hijacked United Airlines Flight 175 into 2 World Trade Center (the South Tower) at 9:03 until the collapse of the South Tower
@@ -4470,7 +4490,7 @@ On September 11, the nation suffered the largest loss of life—2,973—on its s
 
 Mayor Giuliani, along with the Police and Fire commissioners and the OEM director, moved quickly north and established an emergency operations command post at the Police Academy. Over the coming hours, weeks, and months, thousands of civilians and city, state, and federal employees devoted themselves around the clock to putting New York City back on its feet.189
 
-## 9.3 EMERGENCY RESPONSE AT THE PENTAGON
+## 9.3 Emergency Response at the Pentagon
 
 If it had happened on any other day, the disaster at the Pentagon would be remembered as a singular challenge and an extraordinary national story.Yet the calamity at the World Trade Center that same morning included catastrophic damage 1,000 feet above the ground that instantly imperiled tens of thousands of people.The two experiences are not comparable. Nonetheless, broader les© Tamara Beckwith, New York Post
 
@@ -4516,7 +4536,7 @@ Yet the Pentagon response encountered difficulties that echo those experienced i
 
 It is a fair inference, given the differing situations in New York City and Northern Virginia, that the problems in command, control, and communications that occurred at both sites will likely recur in any emergency of similar scale. The task looking forward is to enable first responders to respond in a coordinated manner with the greatest possible awareness of the situation.
 
-## 9.4 ANALYSIS
+## 9.4 Analysis
 
 Like the national defense effort described in chapter 1, the emergency response to the attacks on 9/11 was necessarily improvised. In New York, the FDNY, NYPD, the Port Authority,WTC employees, and the building occupants themselves did their best to cope with the effects of an unimaginable catastrophe—unfolding furiously over a mere 102 minutes—for which they were unprepared in terms of both training and mindset. As a result of the efforts of first responders, assistance from each other, and their own good instincts and goodwill, the vast majority of civilians below the impact zone were able to evacuate the towers.
 
@@ -4636,7 +4656,7 @@ In the late afternoon, the President overruled his aides' continuing reluctance 
 
 Following his speech, President Bush met again with his National Security Council (NSC), expanded to include Secretary of Transportation Norman Mineta and Joseph Allbaugh, the director of the Federal Emergency Management Agency.Secretary of State Colin Powell,who had returned from Peru after hearing of the attacks, joined the discussion.They reviewed the day's events.11
 
-## 10.1 IMMEDIATE RESPONSES AT HOME
+## 10.1 Immediate Responses at Home
 
 As the urgent domestic issues accumulated,White House Deputy Chief of Staff Joshua Bolten chaired a temporary "domestic consequences" group.12 The agenda in those first days is worth noting, partly as a checklist for future crisis planners. It began with problems of how to help victims and stanch the flowing losses to the American economy, such as
 
@@ -4697,7 +4717,7 @@ FBI was aware of the flights of Saudi nationals and was able to screen the passe
 
 The FBI interviewed all persons of interest on these flights prior to their departures.They concluded that none of the passengers was connected to the 9/11 attacks and have since found no evidence to change that conclusion. Our own independent review of the Saudi nationals involved confirms that no one with known links to terrorism departed on these flights.31
 
-## 10.2 PLANNING FOR WAR
+## 10.2 Planning for War
 
 By late in the evening of September 11, the President had addressed the nation on the terrible events of the day.Vice President Cheney described the President's mood as somber.32 The long day was not yet over.When the larger meeting that included his domestic department heads broke up, President Bush chaired a smaller meeting of top advisers, a group he would later call his "war council."33 This group usually includedVice President Cheney,Secretary of State Powell, Secretary of Defense Donald Rumsfeld, General Hugh Shelton, Vice Chairman of the Joint Chiefs (later to become chairman) General Myers, DCI Tenet,Attorney General Ashcroft, and FBI Director Robert Mueller. From the White House staff, National Security Advisor Condoleezza Rice and Chief of Staff Card were part of the core group, often joined by their deputies, Stephen Hadley and Joshua Bolten.
 
@@ -4753,7 +4773,7 @@ The pre-9/11 draft presidential directive on al Qaeda evolved into a new directi
 
 %%page 334%%
 
-## 10.3 "PHASE TWO"AND THE QUESTION OF IRAQ
+## 10.3 "Phase Two" and the Question of Iraq
 
 President Bush had wondered immediately after the attack whether Saddam Hussein's regime might have had a hand in it. Iraq had been an enemy of the United States for 11 years, and was the only place in the world where the United States was engaged in ongoing combat operations. As a former pilot, the President was struck by the apparent sophistication of the operation and some of the piloting, especially Hanjour's high-speed dive into the Pentagon. He told us he recalled Iraqi support for Palestinian suicide terrorists as well. Speculating about other possible states that could be involved, the President told us he also thought about Iran.59
 
@@ -4821,7 +4841,7 @@ As time passes, more documents become available, and the bare facts of what happ
 
 We believe the 9/11 attacks revealed four kinds of failures: in imagination, policy, capabilities, and management.
 
-## 11.1 IMAGINATION
+## 11.1 Imagination
 
 Historical Perspective The 9/11 attack was an event of surpassing disproportion. America had suffered surprise attacks before—Pearl Harbor is one well-known case, the 1950 Chinese attack in Korea another. But these were attacks by major powers.
 
@@ -4943,7 +4963,9 @@ The methods for detecting and then warning of surprise attack that the U.S. gove
 
 %%page 348%%
 
-11.2 POLICY The road to 9/11 again illustrates how the large, unwieldy U.S. government tended to underestimate a threat that grew ever greater.The terrorism fostered by Bin Ladin and al Qaeda was different from anything the government had faced before.The existing mechanisms for handling terrorist acts had been trial and punishment for acts committed by individuals; sanction, reprisal, deterrence, or war for acts by hostile governments.The actions of al Qaeda fit neither category. Its crimes were on a scale approaching acts of war, but they were committed by a loose, far-flung, nebulous conspiracy with no territories or citizens or assets that could be readily threatened, overwhelmed, or destroyed.
+## 11.2 Policy
+
+The road to 9/11 again illustrates how the large, unwieldy U.S. government tended to underestimate a threat that grew ever greater.The terrorism fostered by Bin Ladin and al Qaeda was different from anything the government had faced before.The existing mechanisms for handling terrorist acts had been trial and punishment for acts committed by individuals; sanction, reprisal, deterrence, or war for acts by hostile governments.The actions of al Qaeda fit neither category. Its crimes were on a scale approaching acts of war, but they were committed by a loose, far-flung, nebulous conspiracy with no territories or citizens or assets that could be readily threatened, overwhelmed, or destroyed.
 
 Early in 2001, DCI Tenet and Deputy Director for Operations James Pavitt gave an intelligence briefing to President-elect Bush, Vice President–elect Cheney, and Rice; it included the topic of al Qaeda. Pavitt recalled conveying that Bin Ladin was one of the gravest threats to the country.25
 
@@ -4981,7 +5003,7 @@ As evidence of al Qaeda's responsibility for the Cole attack came in during Nove
 
 After 9/11, President Bush announced that al Qaeda was responsible for the attack on the USS Cole. Before 9/11, neither president took any action. Bin Ladin's inference may well have been that attacks, at least at the level of the Cole, were risk free.29
 
-## 11.3 CAPABILITIES
+## 11.3 Capabilities
 
 Earlier chapters describe in detail the actions decided on by the Clinton and Bush administrations. Each president considered or authorized covert actions, a process that consumed considerable time—especially in the Clinton administration—and achieved little success beyond the collection of intelligence.After the August 1998 missile strikes in Afghanistan, naval vessels remained on station in or near the region, prepared to fire cruise missiles. General Hugh Shelton developed as many as 13 different strike options, and did not recommend any of them. The most extended debate on counterterrorism in the Bush administration before 9/11 had to do with missions for the unmanned Predator—whether to use it just to locate Bin Ladin or to wait until it was armed with a missile, so that it could find him and also attack him. Looking back, we are struck with the narrow and unimaginative menu of options for action offered to both President Clinton and President Bush.
 
@@ -5013,7 +5035,7 @@ Government agencies also sometimes display a tendency to match capabilities to m
 
 %%page 353%%
 
-## 11.4 MANAGEMENT
+## 11.4 Management
 
 Operational Management Earlier in this report we detailed various missed opportunities to thwart the 9/11 plot. Information was not shared, sometimes inadvertently or because of legal misunderstandings.Analysis was not pooled. Effective operations were not launched. Often the handoffs of information were lost across the divide separating the foreign and domestic agencies of the government.
 
@@ -5113,9 +5135,9 @@ Between May 2001 and September 11, there was very little in newspapers or on tel
 
 %%page 361%%
 
-## WHAT TO DO?
+## WHAT TO DO? A GLOBAL STRATEGY
 
-## A GLOBAL STRATEGY 12.1 REFLECTING ON A GENERATIONAL CHALLENGE
+## 12.1 Reflecting on a Generational Challenge
 
 Thre e year s afte r 9/11, Americans are still thinking and talking about how to protect our nation in this new era.The national debate continues.
 
@@ -5194,7 +5216,7 @@ We do not believe it is possible to defeat all terrorist attacks against America
 - No president can promise that a catastrophic attack like that of 9/11 will not happen again. History has shown that even the most vigilant and expert agencies cannot always prevent determined, suicidal attackers from reaching a target.
 - But the American people are entitled to expect their government to do its very best. They should expect that officials will have realistic objectives, clear guidance, and effective organization. They are entitled to see some standards for performance so they can judge, with the help of their elected representatives, whether the objectives are being met.
 
-## 12.2 ATTACK TERRORISTS AND THEIR ORGANIZATIONS
+## 12.2 Attack Terrorists and Their Organizations
 
 The U.S. government, joined by other governments around the world, is working through intelligence, law enforcement, military, financial, and diplomatic channels to identify, disrupt, capture, or kill individual terrorists.This effort was going on before 9/11 and it continues on a vastly enlarged scale. But to catch terrorists, a U.S. or foreign agency needs to be able to find and reach them.
 
@@ -5338,7 +5360,7 @@ Cooperation with Saudi Arabia against Islamist terrorism is very much in the U.S
 
 Recommendation:The problems in the U.S.-Saudi relationship must be confronted, openly. The United States and Saudi Arabia must determine if they can build a relationship that political leaders on both sides are prepared to publicly defend—a relationship about more than oil. It should include a shared commitment to political and economic reform, as Saudis make common cause with the outside world. It should include a shared interest in greater tolerance and cultural respect, translating into a commitment to fight the violent extremists who foment hatred.
 
-## 12.3 PREVENT THE CONTINUED GROWTH OF ISLAMIST TERRORISM
+## 12.3 Prevent the Continued Growth of Islamist Terrorism
 
 In October 2003, reflecting on progress after two years of waging the global war on terrorism, Defense Secretary Donald Rumsfeld asked his advisers:"Are we capturing, killing or deterring and dissuading more terrorists every day than the madrassas and the radical clerics are recruiting, training and deploying against us? Does the US need to fashion a broad, integrated plan to stop the next generation of terrorists? The US is putting relatively little effort into a long-range plan, but we are putting a great deal of effort into trying to stop terrorists. The cost-benefit ratio is against us! Our cost is billions against the terrorists' costs of millions."22
 
@@ -5462,7 +5484,7 @@ Public designation of terrorist financiers and organizations is still part of th
 
 Though progress apparently has been made, terrorists have shown considerable creativity in their methods of moving money. If al Qaeda is replaced by smaller, decentralized terrorist groups, the premise behind the government's efforts—that terrorists need a financial support network—may become outdated. Moreover, some terrorist operations do not rely on outside sources of money and may now be self-funding, either through legitimate employment or low-level criminal activity.30
 
-## 12.4 PROTECT AGAINST AND PREPARE FOR TERRORIST ATTACKS
+## 12.4 Protect against and Prepare for Terrorist Attacks
 
 In the nearly three years since 9/11,Americans have become better protected against terrorist attack. Some of the changes are due to government action, such as new precautions to protect aircraft.A portion can be attributed to the sheer scale of spending and effort. Publicity and the vigilance of ordinary Americans also make a difference.
 
@@ -5711,7 +5733,7 @@ The United States has the resources and the people.The government should combine
 - unifying and strengthening congressional oversight to improve quality and accountability; and
 - strengthening the FBI and homeland defenders.
 
-## 13.1 UNITY OF EFFORT ACROSS THE FOREIGN-DOMESTIC DIVIDE
+## 13.1 Unity of Effort across the Foreign-Domestic Divide
 
 Joint Action Much of the public commentary about the 9/11 attacks has dealt with "lost opportunities," some of which we reviewed in chapter 11.These are often characterized as problems of "watchlisting," of "information sharing," or of "connecting the dots." In chapter 11 we explained that these labels are too narrow. They describe the symptoms, not the disease.
 
@@ -5818,7 +5840,7 @@ An argument against change is that the nation is at war, and cannot afford to re
 
 %%page 407%%
 
-## 13.2 UNITY OF EFFORT IN THE INTELLIGENCE COMMUNITY
+## 13.2 Unity of Effort in the Intelligence Community
 
 In our first section, we concentrated on counterterrorism, discussing how to combine the analysis of information from all sources of intelligence with the joint planning of operations that draw on that analysis. In this section, we step back from looking just at the counterterrorism problem. We reflect on whether the government is organized adequately to direct resources and build the intelligence capabilities it will need not just for countering terrorism, but for the broader range of national security challenges in the decades ahead.
 
@@ -5983,7 +6005,7 @@ Recommendation: Finally, to combat the secrecy and complexity we have described,
 
 The specifics of the intelligence appropriation would remain classified, as they are today. Opponents of declassification argue that America's enemies could learn about intelligence capabilities by tracking the top-line appropriations figure.Yet the top-line figure by itself provides little insight into U.S. intelligence sources and methods. The U.S. government readily provides copious information about spending on its military forces, including military intelligence.The intelligence community should not be subject to that much disclosure. But when even aggregate categorical numbers remain hidden, it is hard to judge priorities and foster accountability.
 
-## 13.3 UNITY OF EFFORT IN SHARING INFORMATION
+## 13.3 Unity of Effort in Sharing Information
 
 Information Sharing We have already stressed the importance of intelligence analysis that can draw on all relevant sources of information. The biggest impediment to all-source analysis—to a greater likelihood of connecting the dots—is the human or systemic resistance to sharing information.
 
@@ -6027,7 +6049,7 @@ Recommendation: The president should lead the government-wide effort to bring th
 
 "This is government acting in new ways, to face new threats," the most recent Markle report explains."And while such change is necessary, it must be accomplished while engendering the people's trust that privacy and other civil liberties are being protected, that businesses are not being unduly burdened with requests for extraneous or useless information, that taxpayer money is being well spent, and that, ultimately, the network will be effective in protecting our security."The authors add: "Leadership is emerging from all levels of government and from many places in the private sector.What is needed now is a plan to accelerate these efforts, and public debate and consensus on the goals."18
 
-## 13.4 UNITY OF EFFORT IN THE CONGRESS
+## 13.4 Unity of Effort in the Congress
 
 Strengthen Congressional Oversight of Intelligence and Homeland Security Of all our recommendations, strengthening congressional oversight may be among the most difficult and important. So long as oversight is governed by current congressional rules and resolutions, we believe the American people will not get the security they want and need.The United States needs a strong, stable, and capable congressional committee structure to give America's national intelligence agencies oversight, support, and leadership.
 
@@ -6080,7 +6102,7 @@ Recommendation: Since a catastrophic attack could occur with little or no notice
 
 > sible use of force. Such a document could provide both notice and a checklist, inviting a president-elect to inquire and learn more.
 
-## 13.5 ORGANIZING AMERICA'S DEFENSES IN THE UNITED STATES
+## 13.5 Organizing America's Defenses in the United States
 
 The Future Role of the FBI We have considered proposals for a new agency dedicated to intelligence collection in the United States. Some call this a proposal for an "American MI- 5," although the analogy is weak—the actual British Security Service is a relatively small worldwide agency that combines duties assigned in the U.S. government to the Terrorist Threat Integration Center, the CIA, the FBI, and the Department of Homeland Security.
 
@@ -7265,9 +7287,23 @@ Usama Bin Ladin, Iran, and the NIF, Jan. 31, 1997; Intelligence report, Cooperat
 
 93. ABC News interview, "Terror Suspect: An Interview with Osama Bin Laden," Dec. 22, 1998 (conducted in Afghanistan by ABC News producer Rahimullah Yousafsai).
 
-%%page 472%%
+3 Counterterrorism Evolves
 
-of the Visa-Issuance Process Phase I: Circumstances Surrounding the Issuance of Visas to Sheikh Omar Ali Ahmed Abdel Rahman," Mar. 1994, pp. 6, 8, 36. On the informant's reports, see United States v. Rahman, 189 F.3d at 106–107. On the landmarks plot, see United States v. Rahman, 189 F.3d at 108–111, 123–127; Miller and Stone, The Cell, p. 116.
+1. Brief of the United States, United States v. Ramzi AhmedYousef, Lead No. 98-1041 (2d Cir. filed Aug. 25, 2000), pp. 42–43; John Miller and Michael Stone, with Chris Mitchell, The Cell: Inside the 9/11 Plot, and Why the FBI and CIA Failed to Stop It (Hyperion, 2002), pp. 95, 99.
+
+2. On President Clinton's tasking the NSC, see Richard Clarke interview (Dec. 18, 2003). On the role of different U.S. government agencies, see Steve Coll, Ghost War:The Secret History of the CIA,Afghanistan, and bin Laden, from the Soviet Invasion to September 10, 2001 (Penguin, 2004), p. 251.
+
+3.Trial testimony of Brian Parr, United States v.Yousef, No. S12 93 CR 180 (KTD) (S.D. N.Y.), Oct. 22, 1997 (transcript p. 4694).
+
+> 4. On the process of identification, see Joseph Malone interview (May 25, 2004). 5. United States v. Salameh, 152 F.3d 88, 107–108 (2d Cir. 1998); Miller and Stone, The Cell, pp. 104–105, 107,
+
+109. Abouhalima had fled to the Middle East after the bombing, and was picked up by Egyptian authorities and returned to the United States in late March 1993. Brief of the United States, United States v. Mohammed A. Salameh, Lead No. 94-1312 (2d Cir. filed Jan. 17, 1997), p. 64 and n. ***.
+
+6. United States v. Salameh, 152 F.3d at 107–108, n. 2; United States v.Yousef, 327 F.3d 56, 78–79 (2d Cir. 2003); Miller and Stone, The Cell, p. 119; Daniel Benjamin and Steven Simon, The Age of Sacred Terror (Random House, 2002), p. 12.
+
+7. On Rahman's ties to the Farouq mosque, see Miller and Stone, The Cell, pp. 54–55. On Rahman's message, see United States v. Rahman, 189 F.3d 88, 104 (2d Cir. 1999); Brief for the United States, United States v. Siddig Ibrahim Siddig Ali, Lead No. 96-1044 (2d Cir. filed July 3, 1997), pp. 10, 15. See also DOS Inspector General report,"Review of the Visa-Issuance Process Phase I: Circumstances Surrounding the Issuance of Visas to Sheikh Omar Ali Ahmed Abdel Rahman," Mar. 1994, pp. 6, 8, 36. On the informant's reports, see United States v. Rahman, 189 F.3d at 106–107. On the landmarks plot, see United States v. Rahman, 189 F.3d at 108–111, 123–127; Miller and Stone, The Cell, p. 116.
+
+%%page 472%%
 
 8.These prosecutions also had the unintended consequence of alerting some al Qaeda members to the U.S. government's interest in them. In February 1995, the government filed a confidential court document listing Usama Bin Ladin and scores of other people as possible co-conspirators in the New York City landmarks plot. Ali Mohamed, who was on the list, obtained a copy and faxed it to a close Bin Ladin aide for distribution. Statement of Ali Mohamed in support of change of plea, United States v.Ali Mohamed, No. S(7) 98 Cr. 1023 (S.D. N.Y.), Oct. 20, 2000 (transcript p. 29); Statements of Prosecutor and Judge, United States v. Bin Laden, No. S(7) 98 Cr. 1023 (S.D. N.Y.), Mar. 26, 2001 (transcript pp. 3338–3339); Patrick Fitzgerald interview (Jan. 28, 2004).
 
@@ -7341,7 +7377,7 @@ Larry Parkinson interview (Feb. 24, 2004). Because OIPR had ultimate authority t
 
 41. On Meissner's response, see Doris Meissner interview (Nov. 25, 2003). On the lookout unit, see Tim G. interview (Oct. 1, 2002). On the number of denials of entry, see Majority Staff Report, Hearing on "Foreign Terrorists in America: Five Years after the World Trade Center" before the Subcommittee on Technology,Terrorism, and Government Information of the Senate Judiciary Committee, Feb. 24, 1998, p. 145.
 
-42. Majority Staff Report, Hearing on "Foreign Terrorists in America: Five Years after the World Trade Center," Feb. 24, 1998, p. 152;[^8] U.S.C. § 1534(e)(1)(A). On the low level of removals, see Daniel Cadman interview (Oct. 9, 2003); Rocky Concepcion interview (June 15, 2004).
+42. Majority Staff Report, Hearing on "Foreign Terrorists in America: Five Years after the World Trade Center," Feb. 24, 1998, p. 152; 8 U.S.C. § 1534(e)(1)(A). On the low level of removals, see Daniel Cadman interview (Oct. 9, 2003); Rocky Concepcion interview (June 15, 2004).
 
 43. On the 1986 plan, see INS report, Investigations Division, "Alien Terrorists and Undesirables: A Contingency Plan," May 1986; Daniel Cadman interview (Oct. 17, 2003). On the 1995 plan, see INS memo, Bramhall to Bednarz and Hurst,"Draft Counter-Terrorism Strategy Outline,"Aug. 11, 1995. On the 1997 plan, see INS email, Cadman to others,"EAC briefing document," Dec. 5, 1997 (attachment titled "Counterterrorism/National Security Strategy and Casework Oversight"). On the work of the National Security Unit and the Intelligence Unit, see Daniel Cadman interview (Oct. 17, 2003); Cliff Landesman interview (Oct. 27, 2003).
 
@@ -8535,6 +8571,12 @@ Biegun to executive secretaries, "Summary of Conclusions for Sept. 10, 2001 Depu
 
 261. NSC memo, Hadley to Tenet, Sept. 10, 2001.
 
+7 The Attack Looms
+
+> 1. FBI report,"Summary of Penttbom Investigation," Feb. 29, 2004 (classified version), p. 16. 2. Intelligence report, interrogation of KSM, May 19, 2003.Although KSM's stated reasons for sending Hazmi
+
+and Mihdhar to California do not seem especially compelling, we have uncovered no evidence tending to establish any more plausible explanation for the California destination.The possibility that the two hijackers were pursuing another al Qaeda mission on the West Coast, while certainly conceivable—see, e.g., CIA analytic report,
+
 %%page 514%%
 
 "Alternate View:Two 11 September Hijackers Possibly Involved in Previous US Plot," CTC 2002-30064, July 5, 2002—conflicts with the organization's preference for having its 9/11 operatives concentrate on that mission exclusively.
@@ -9029,7 +9071,9 @@ records; 315N-NY-280350-302, serials 28398, 37864). In addition, Nawaf al Hazmi 
 
 %%page 533%%
 
-192. FBI report,"Hijackers Timeline," Dec. 5, 2003 (citing 315N-NY-280350, serial 2268; 315N-NY-280350- 302, serials 32036, 9873; 315N-NY-280350-LO, serial 2).[^8] "The System Was Blinking Red"
+192. FBI report,"Hijackers Timeline," Dec. 5, 2003 (citing 315N-NY-280350, serial 2268; 315N-NY-280350- 302, serials 32036, 9873; 315N-NY-280350-LO, serial 2).
+
+8 "The System Was Blinking Red"
 
 1. Beginning in December 1999, these briefings were conducted based on slides created by the CIA's Bin Ladin unit. See Richard interview (Dec. 11, 2003).We were able to review the slides to identify the subjects of the respective briefings.
 
@@ -9271,7 +9315,9 @@ initial British response, see British Security Service memo, re: Zacarias Moussa
 
 report, biographical information on Bin Ladin associates in Afghanistan, June 12, 2001. For the subsequent identification, see CIA cable, follow-up source on KSM, July 11, 2001.
 
-> 112. For the reporting identifying Mukhtar as KSM, see CIA cable, source information re: KSM,Aug. 28, 2001. 113. John interview (Apr. 2, 2004).[^9] Heroism and Horror
+> 112. For the reporting identifying Mukhtar as KSM, see CIA cable, source information re: KSM,Aug. 28, 2001. 113. John interview (Apr. 2, 2004).
+
+9 Heroism and Horror
 
 1. For the WTC's layout, see Port Authority diagrams, "World Trade Center Concourse Level," "Concourse Level," and "Plaza Level," undated. For the number of square feet of office space, see Federal Emergency Management Agency (FEMA) report, "World Trade Center Building Performance Study," undated. For the number of workers and passersby, see Port Authority briefing (May 13, 2004).
 
@@ -9445,7 +9491,31 @@ standard operating procedures, see PAPD interview 3, LaGuardia Airport Command (
 
 82. For the four people, see Civilian interview 1 (Mar. 2, 2004); Civilian interview 13 (Mar. 25, 2004); Civilian interview 4 (Mar. 16, 2004); Civilian interview 8 (Mar. 23, 2004). For the first person to descend stairwell A, see Civilian interview 13 (Mar. 25, 2004).
 
-83. For civilians ascending the stairs, see Civilian interview 8 (Mar. 23, 2004); Civilian interview 16 (Apr. 27, 2004); Civilian interview 1 (Mar. 2, 2004); Commission analysis of letters written to OSHA concerning the September 11 attacks. For the intention of the group ascending the stairwell and the conditions, see Civilian interview in offices or otherwise obstructed from proceeding, or were simply calling to seek advice. In any case, the 911 operators and FDNY dispatchers who advised them did not appear to be basing their advice on these or other factual considerations.
+83. For civilians ascending the stairs, see Civilian interview 8 (Mar. 23, 2004); Civilian interview 16 (Apr. 27, 2004); Civilian interview 1 (Mar. 2, 2004); Commission analysis of letters written to OSHA concerning the September 11 attacks. For the intention of the group ascending the stairwell and the conditions, see Civilian interview 8 (Mar. 23, 2004).
+
+84. On civilians finding locked doors, see, e.g., Civilian interview 16 (Apr. 27, 2004); Commission analysis of letters written to OSHA concerning the September 11 attacks. On the lock release order, see Port Authority transcripts of recorded Port Authority calls and radio channels, Sept. 11, 2001, vol. II, channel X, pp. 25–31; Port Authority response to Commission interrogatory, May 2004.The Security Command Center did not control access areas in the Observation Deck and other private tenant spaces. It is unknown whether there were any prior or subsequent orders or attempts to release the building's locks.
+
+85. For trouble descending, see Brian Clark testimony, May 18, 2004 (videotaped); Richard Fern testimony, May 18, 2004 (videotaped); Commission analysis of letters written to OSHA concerning the September 11 attacks. The conditions of stairwell C are unknown. For conditions in stairwells, see, e.g., Civilian Interview 1 (Mar. 2, 2004); Civilian Interview 13 (Mar. 25, 2004).
+
+86. For some civilians remaining, see Civilian interview 10 (Mar. 24, 2004). For some civilians ascending, see, e.g., Civilian interview 1 (Mar. 2, 2004); Civilian interview 11 (Mar. 25, 2004).
+
+87. For conditions in the 90s and 100s, see Commission analysis of 911/PAPD calls. For the 105th floor and the condition of the less affected area, see Civilian interview 16 (Apr. 27, 2004). For the other areas of the 105th, 88th, and 89th floors, see Commission analysis of 911/PAPD calls.
+
+88. For the callers, see Commission analysis of 911/PAPD calls.There are many variables to consider in determining whether, and to what extent, stairwell A was actually a viable exit. Knowing that the stairway was initially passable from at least the 91st floor down, we can conclude that it was likely open from top to bottom, on floors farther removed from the impact. However, in areas near the impact zone some doors leading to the stairwell may have jammed.We know that access to stairway A was possible from at least the 81st and 84th floors, and from several other floors between the 84th and 91st floor. It is likely that access was possible from floors higher up as well. It is not known, however, whether 911 callers had a clear path to the stairwell entrance from their locations. Damage caused by the impact of the plane, and the resulting smoke and heat, may have prevented some from being able to reach the entrance to the staircase; but the stated locations of at least some callers indicate that they were near stairwell A on their floor. Based on conditions described by civilians who descended stairwell A from at or above the impact zone, we conclude that stairwell A may have become effectively impassable as the morning progressed.
+
+> 89. Commission analysis of 911/PAPD calls. 90. Brian Clark testimony, May 18, 2004 (videotaped); Civilian interview 1 (Mar. 2, 2004); Commission analysis of 911/PAPD calls.
+
+> 91. Commission analysis of 911/PAPD calls. 92. Civilian interview 1 (Mar. 2, 2004); Civilian interview 8 (Mar. 23, 2004); Civilian interview 13 (Mar. 25,
+
+2004); Civilian interview 4 (Mar. 16, 2004); Commission analysis of 911/PAPD calls.
+
+93. OEM interview 1 (Feb. 12, 2004); PANYNJ interview 7 (June 2, 2004); Civilian interview 13 (Mar. 25, 2004); Civilian interview 1 (Mar. 2, 2004); Civilian interview 8 (Mar. 23, 2004).
+
+94. Civilian interview 8 (Mar. 23, 2004); Civilian interview 1 (Mar. 2, 2004); Civilian interview 4 (Mar. 16, 2004); Civilian interview 13 (Mar. 25, 2004); NYPD interview 15, ESU (Mar. 11, 2004).
+
+95. Civilian interview 6 (Mar. 22, 2004); Civilian interview 7 (Mar. 22, 2004) (quotation); Civilian interview 9 (Mar. 3, 2004); Civilian interview 14 (Apr. 7, 2004).
+
+96. Commission analysis of 911/PAPD calls. It is not clear whether callers from below the impact were trapped in offices or otherwise obstructed from proceeding, or were simply calling to seek advice. In any case, the 911 operators and FDNY dispatchers who advised them did not appear to be basing their advice on these or other factual considerations.
 
 %%page 547%%
 
@@ -9853,6 +9923,26 @@ Major General Del Dailey, commander of Joint Special Operations Command, also at
 
 86. DOD Special Operations Command and Central Command briefings (Sept. 15–16, 2003;Apr. 8–9, 2004; Apr. 28, 2004); Tommy Franks interview (Apr. 9, 2004). On death of Atef, see Daniel Benjamin and Steven Simon, Age of Sacred Terror, p. 349; Henry, "The CIA in Afghanistan, 2001–2002," Studies in Intelligence (classified version), vol. 47, no. 2 (2003), pp. 1, 11. See Donald Rumsfeld testimony, Mar. 23, 2004 (nearly two-thirds of the known leaders of al Qaeda had been killed or captured).
 
+11 Foresight—and Hindsight
+
+> 1. Roberta Wohlstetter, Pearl Harbor:Warning and Decision (Stanford Univ. Press, 1962), p. 387. 2. Intelligence Community analytic report, "The Foreign Terrorist Threat in the United States," NIE 95-13,
+
+July 1995, pp. v, vii–viii, 10–11, 13, 18.
+
+3. Intelligence Community analytic report,"The Foreign Terrorist Threat in the US: Revisiting Our 1995 Estimate," ICB 97-8,Apr. 1997, p. 1.
+
+> 4. For Bin Ladin being mentioned in only two other sentences, see ibid. 5.Titles are drawn from articles in the National Intelligence Daily and the Senior Executive Intelligence Brief. 6. John McLaughlin interview (Jan. 21, 2004). 7. Ibid.; Pattie Kindsvater interview (Sept. 12, 2003). 8.Tim Weiner,"U.S. Hard Put to Find Proof Bin Laden Directed Attacks," New York Times,Apr. 13, 1999, p.A1. 9. Paul R. Pillar, Terrorism and U.S. Foreign Policy (Brookings Institution Press, 2001), p. 23; see also ibid., pp. 5,
+
+21–22.
+
+10. For a concise statement of the role of the national estimate process, see Task force sponsored by the Council on Foreign Relations, Making Intelligence Smarter:The Future of U.S. Intelligence (Council on Foreign Relations, 1996), pp. 34–35 (additional views of Richard Betts).
+
+11.Waldo Heinrichs, Threshold of War: Franklin D. Roosevelt and American Entry into World War II (Oxford Univ. Press, 1988), p. 215.
+
+12.For the response being routine,see Gordon Prange,At DawnWe Slept:The Untold Story of Pearl Harbor (McGraw- Hill, 1981), pp. 732–733. For a brief summary of these routines and the reasons why the intercepts were not properly digested, see Graham Allison and Philip Zelikow, Essence of Decision, 2d ed. (Longman, 1999), p. 194, n. 72.
+
+13. PDBs were not routinely briefed to congressional leaders, though this item could have been in some other intelligence briefing. It was not circulated in the NID or SEIB. For the September 1998 report, see Intelligence report,"Terrorism: Possible Attack on a U.S. City," Sept. 8, 1998.
+
 %%page 561%%
 
 14. For the August report, see Intelligence report,"Terrorism: Alleged Threat by Arab Terrorists to Attack the World Trade Center in New York," Aug. 12, 1998. An FAA civil aviation security official believed the plan was improbable because Libyan planes were required to operate within airspace limitations and the Libyans did not possess aircraft with the necessary range to make good on the threat. Jack S. interview (June 13, 2004). On September 30, 1999, the FAA closed the file on the August report after investigation could not corroborate the report, and the source's credibility was deemed suspect. FAA report, Transportation Security Intelligence ICF Report 980162, undated; but see FAA/TSA rebuttal to the Joint Inquiry's Sept. 18, 2002, staff statement, undated, p. 1 (stating that the FAA did not formally analyze this threat).The Algerian hijackers had placed explosives in key areas of the cabin. However, there was some speculation in the media based on reports from a passenger aboard the plane that the hijackers had discussed crashing it into the Eiffel Tower. FAA report, FAA Intelligence Case File 94-305, undated.
@@ -10054,15 +10144,3 @@ and the Energy Department's intelligence entity, should not be funded out of the
 20.This recommendation, and measures to assist the Bureau in developing its intelligence cadre, are included in the report accompanying the Commerce, Justice and State Appropriations Act for Fiscal Year 2005, passed by the House of Representatives on July 7, 2004. H.R. Rep. No. 108-576, 108th Cong., 2d sess. (2004), p. 22.
 
 > 21. Letter from Ridge and others to Collins and Levin,Apr. 13, 2004. 22. For the directorate's current capability, see Patrick Hughes interview (Apr. 2, 2004).
-
-## Notes
-
-[^3]: Counterterrorism Evolves 1. Brief of the United States, United States v. Ramzi AhmedYousef, Lead No. 98-1041 (2d Cir. filed Aug. 25, 2000), pp. 42–43; John Miller and Michael Stone, with Chris Mitchell, The Cell: Inside the 9/11 Plot, and Why the FBI and CIA Failed to Stop It (Hyperion, 2002), pp. 95, 99. 2. On President Clinton's tasking the NSC, see Richard Clarke interview (Dec. 18, 2003). On the role of dif- ferent U.S. government agencies, see Steve Coll, Ghost War:The Secret History of the CIA,Afghanistan, and bin Laden, from the Soviet Invasion to September 10, 2001 (Penguin, 2004), p. 251. 3.Trial testimony of Brian Parr, United States v.Yousef, No. S12 93 CR 180 (KTD) (S.D. N.Y.), Oct. 22, 1997 (transcript p. 4694). 4. On the process of identification, see Joseph Malone interview (May 25, 2004). 5. United States v. Salameh, 152 F.3d 88, 107–108 (2d Cir. 1998); Miller and Stone, The Cell, pp. 104–105, 107, 109. Abouhalima had fled to the Middle East after the bombing, and was picked up by Egyptian authorities and returned to the United States in late March 1993. Brief of the United States, United States v. Mohammed A. Salameh, Lead No. 94-1312 (2d Cir. filed Jan. 17, 1997), p. 64 and n. ***. 6. United States v. Salameh, 152 F.3d at 107–108, n. 2; United States v.Yousef, 327 F.3d 56, 78–79 (2d Cir. 2003); Miller and Stone, The Cell, p. 119; Daniel Benjamin and Steven Simon, The Age of Sacred Terror (Random House, 2002), p. 12. 7. On Rahman's ties to the Farouq mosque, see Miller and Stone, The Cell, pp. 54–55. On Rahman's message, see United States v. Rahman, 189 F.3d 88, 104 (2d Cir. 1999); Brief for the United States, United States v. Siddig Ibrahim Siddig Ali, Lead No. 96-1044 (2d Cir. filed July 3, 1997), pp. 10, 15. See also DOS Inspector General report,"Review
-
-[^7]: The Attack Looms 1. FBI report,"Summary of Penttbom Investigation," Feb. 29, 2004 (classified version), p. 16. 2. Intelligence report, interrogation of KSM, May 19, 2003.Although KSM's stated reasons for sending Hazmi and Mihdhar to California do not seem especially compelling, we have uncovered no evidence tending to estab- lish any more plausible explanation for the California destination.The possibility that the two hijackers were pur- suing another al Qaeda mission on the West Coast, while certainly conceivable—see, e.g., CIA analytic report,
-
-[^8]: (Mar. 23, 2004). 84. On civilians finding locked doors, see, e.g., Civilian interview 16 (Apr. 27, 2004); Commission analysis of letters written to OSHA concerning the September 11 attacks. On the lock release order, see Port Authority tran- scripts of recorded Port Authority calls and radio channels, Sept. 11, 2001, vol. II, channel X, pp. 25–31; Port Author- ity response to Commission interrogatory, May 2004.The Security Command Center did not control access areas in the Observation Deck and other private tenant spaces. It is unknown whether there were any prior or subse- quent orders or attempts to release the building's locks. 85. For trouble descending, see Brian Clark testimony, May 18, 2004 (videotaped); Richard Fern testimony, May 18, 2004 (videotaped); Commission analysis of letters written to OSHA concerning the September 11 attacks. The conditions of stairwell C are unknown. For conditions in stairwells, see, e.g., Civilian Interview 1 (Mar. 2, 2004); Civilian Interview 13 (Mar. 25, 2004). 86. For some civilians remaining, see Civilian interview 10 (Mar. 24, 2004). For some civilians ascending, see, e.g., Civilian interview 1 (Mar. 2, 2004); Civilian interview 11 (Mar. 25, 2004). 87. For conditions in the 90s and 100s, see Commission analysis of 911/PAPD calls. For the 105th floor and the condition of the less affected area, see Civilian interview 16 (Apr. 27, 2004). For the other areas of the 105th, 88th, and 89th floors, see Commission analysis of 911/PAPD calls. 88. For the callers, see Commission analysis of 911/PAPD calls.There are many variables to consider in deter- mining whether, and to what extent, stairwell A was actually a viable exit. Knowing that the stairway was initially passable from at least the 91st floor down, we can conclude that it was likely open from top to bottom, on floors farther removed from the impact. However, in areas near the impact zone some doors leading to the stairwell may have jammed.We know that access to stairway A was possible from at least the 81st and 84th floors, and from sev- eral other floors between the 84th and 91st floor. It is likely that access was possible from floors higher up as well. It is not known, however, whether 911 callers had a clear path to the stairwell entrance from their locations. Dam- age caused by the impact of the plane, and the resulting smoke and heat, may have prevented some from being able to reach the entrance to the staircase; but the stated locations of at least some callers indicate that they were near stairwell A on their floor. Based on conditions described by civilians who descended stairwell A from at or above the impact zone, we conclude that stairwell A may have become effectively impassable as the morning progressed. 89. Commission analysis of 911/PAPD calls. 90. Brian Clark testimony, May 18, 2004 (videotaped); Civilian interview 1 (Mar. 2, 2004); Commission analy- sis of 911/PAPD calls. 91. Commission analysis of 911/PAPD calls. 92. Civilian interview 1 (Mar. 2, 2004); Civilian interview 8 (Mar. 23, 2004); Civilian interview 13 (Mar. 25, 2004); Civilian interview 4 (Mar. 16, 2004); Commission analysis of 911/PAPD calls. 93. OEM interview 1 (Feb. 12, 2004); PANYNJ interview 7 (June 2, 2004); Civilian interview 13 (Mar. 25, 2004); Civilian interview 1 (Mar. 2, 2004); Civilian interview 8 (Mar. 23, 2004). 94. Civilian interview 8 (Mar. 23, 2004); Civilian interview 1 (Mar. 2, 2004); Civilian interview 4 (Mar. 16, 2004); Civilian interview 13 (Mar. 25, 2004); NYPD interview 15, ESU (Mar. 11, 2004). 95. Civilian interview 6 (Mar. 22, 2004); Civilian interview 7 (Mar. 22, 2004) (quotation); Civilian interview
-
-[^9]: (Mar. 3, 2004); Civilian interview 14 (Apr. 7, 2004). 96. Commission analysis of 911/PAPD calls. It is not clear whether callers from below the impact were trapped
-
-[^11]: Foresight—and Hindsight 1. Roberta Wohlstetter, Pearl Harbor:Warning and Decision (Stanford Univ. Press, 1962), p. 387. 2. Intelligence Community analytic report, "The Foreign Terrorist Threat in the United States," NIE 95-13, July 1995, pp. v, vii–viii, 10–11, 13, 18. 3. Intelligence Community analytic report,"The Foreign Terrorist Threat in the US: Revisiting Our 1995 Esti- mate," ICB 97-8,Apr. 1997, p. 1. 4. For Bin Ladin being mentioned in only two other sentences, see ibid. 5.Titles are drawn from articles in the National Intelligence Daily and the Senior Executive Intelligence Brief. 6. John McLaughlin interview (Jan. 21, 2004). 7. Ibid.; Pattie Kindsvater interview (Sept. 12, 2003). 8.Tim Weiner,"U.S. Hard Put to Find Proof Bin Laden Directed Attacks," New York Times,Apr. 13, 1999, p.A1. 9. Paul R. Pillar, Terrorism and U.S. Foreign Policy (Brookings Institution Press, 2001), p. 23; see also ibid., pp. 5, 21–22. 10. For a concise statement of the role of the national estimate process, see Task force sponsored by the Coun- cil on Foreign Relations, Making Intelligence Smarter:The Future of U.S. Intelligence (Council on Foreign Relations, 1996), pp. 34–35 (additional views of Richard Betts). 11.Waldo Heinrichs, Threshold of War: Franklin D. Roosevelt and American Entry into World War II (Oxford Univ. Press, 1988), p. 215. 12.For the response being routine,see Gordon Prange,At DawnWe Slept:The Untold Story of Pearl Harbor (McGraw- Hill, 1981), pp. 732–733. For a brief summary of these routines and the reasons why the intercepts were not properly digested, see Graham Allison and Philip Zelikow, Essence of Decision, 2d ed. (Longman, 1999), p. 194, n. 72. 13. PDBs were not routinely briefed to congressional leaders, though this item could have been in some other intelligence briefing. It was not circulated in the NID or SEIB. For the September 1998 report, see Intelligence report,"Terrorism: Possible Attack on a U.S. City," Sept. 8, 1998.
