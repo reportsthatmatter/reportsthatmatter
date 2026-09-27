@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-27 — Introductions for Challenger, Columbia, Deepwater Horizon and Philip Morris
+
+The Challenger, Columbia, Deepwater Horizon and United States v. Philip Morris reports now open on the same landing page as Jack Smith and Wall Street: year, standfirst, background, what the report found (quoted, checked word for word), and where to start reading, all above the contents. Every report in the archive now has an introduction.
+
+![Deepwater Horizon's landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-27-four-more-intros/after-us-deepwater-horizon-desktop.png)
+
+[Before and after, in full](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-27--landing-pages-for-challenger-columbia-deepwater-horizon-and-philip-morris).
+
+---
+
 ## 2026-09-27 — A photograph of the event on two landing pages
 
 The Jack Smith report and the Hillsborough Independent Panel's report now open with a photograph of what they are about, in a full-width band above the title: the gallows the crowd built in front of the Capitol on 6 January 2021, and the Leppings Lane end at Hillsborough on 15 April 1989. The colour is toned down so the photograph sits with the rest of the site, each carries a credit line linking to its source, and on those two pages it takes the place of the report's plate. Every other page is unchanged. This is a pilot: if it holds up, the other reports follow.
