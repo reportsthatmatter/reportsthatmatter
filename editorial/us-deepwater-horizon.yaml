@@ -1,0 +1,226 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# Extraction notes (filed as reportsthatmatter-a0z and reportsthatmatter-eyc):
+#   - The report's chapter headings are not detected. The sections the pipeline
+#     made are figure captions ("SANTA BARBARA OIL SPILL", "MACONDO WELL",
+#     "MS AL LA GA"...) and Chapter 9's "The Need for..." subheads. The Foreword
+#     and Chapters 1-2 all sit under "Front matter". `reading_guide` therefore
+#     overrides titles to say which chapters each section actually holds.
+#     (reportsthatmatter-a0z)
+#   - Most body text on even-numbered pages is rendered as block quotations with
+#     no paragraph ids, including most of Chapter 9's recommendations and the
+#     Foreword's text after its list of conclusions. Quotes from those anchor to
+#     the introducing paragraph; highlights use only paragraphs with ids.
+#     (reportsthatmatter-eyc)
+#
+# Background facts not stated in the report itself, verified 2026-09-26:
+#   - Executive Order 13543, 21 May 2010, creating the Commission:
+#     https://www.federalregister.gov/documents/2010/05/26/2010-12805/national-commission-on-the-bp-deepwater-horizon-oil-spill-and-offshore-drilling
+#   - Co-chairs Bob Graham (former Florida governor and senator) and William K.
+#     Reilly (former EPA administrator):
+#     https://obamawhitehouse.archives.gov/the-press-office/weekly-address-president-obama-establishes-bipartisan-national-commission-bp-deepwa
+#     https://en.wikipedia.org/wiki/William_K._Reilly
+#   - Report released 11 January 2011:
+#     http://www.cnn.com/2011/US/01/11/gulf.oil.spill.report/
+#   - Chief Counsel's report (Fred Bartlit) released 17 February 2011:
+#     https://www.bartlit-beck.com/newsroom-news-155
+#   - MMS reorganisation completed 1 October 2011 (BOEM and BSEE):
+#     https://www.doi.gov/news/pressreleases/Interior-Department-Completes-Reorganization-of-the-Former-MMS
+#   - RESTORE Act, signed 6 July 2012, 80% of Clean Water Act penalties to Gulf
+#     restoration: https://www.congress.gov/crs-product/R43380
+#   - Liability cap: Congress did not change it; BOEM raised it by inflation
+#     adjustment from $75m to about $134m in December 2014, the most allowed
+#     without legislation:
+#     https://www.boem.gov/newsroom/press-releases/boem-adjusts-limit-liability-oil-spills-offshore-facilities
+#   - BP guilty plea: 14 counts incl. 11 of felony manslaughter, $4bn, accepted
+#     29 January 2013:
+#     https://www.justice.gov/archives/opa/pr/bp-exploration-and-production-inc-pleads-guilty-sentencedto-pay-record-4-billion-crimes
+#   - $20.8bn settlement approved 4 April 2016:
+#     https://www.doi.gov/restoration/historic-nrdar-settlement-reached-deepwater-horizon-spill
+#   Everything else (11 dead, 126 aboard, 87 days, capped 15 July, 4.9 million
+#   barrels, six-month effort, no subpoena power) is from the report itself.
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+
+report: us-deepwater-horizon
+status: approved
+
+why_it_matters: >-
+  The presidential commission's account of the blowout of BP's Macondo well on
+  20 April 2010, which killed 11 men on the Deepwater Horizon rig and caused
+  what it calls the largest accidental marine oil spill in US history. It finds
+  the disaster avoidable, traces it to failures of management at BP,
+  Halliburton and Transocean and to a regulator without the expertise to
+  oversee them, and sets out what industry and government must change.
+
+background: |
+  On the night of 20 April 2010, BP's Macondo well blew out beneath Transocean's drilling rig Deepwater Horizon, in nearly a mile of water in the Gulf of Mexico off Louisiana. Gas rising up the well reached the rig and exploded. Eleven of the 126 people on board were killed, and the rig sank two days later. Oil flowed for 87 days until the well was capped on 15 July; the government estimated that about 4.9 million barrels escaped.
+
+  President Barack Obama created the National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling by executive order on 21 May 2010, to find the disaster's root causes and recommend how to guard against such spills. Its seven members were chaired by Bob Graham, a former governor of and senator for Florida, and William K. Reilly, a former administrator of the Environmental Protection Agency. After six months' work, without power to compel testimony, it reported on 11 January 2011. Its chief counsel, Fred Bartlit, published a fuller technical account on 17 February 2011. The report's findings are a policy commission's, not a court's.
+
+  The Interior Department completed its split of the Minerals Management Service into leasing, safety and revenue bodies on 1 October 2011. In 2012 Congress passed the RESTORE Act, sending 80 percent of the Clean Water Act penalties from the spill to restoring the Gulf, as the Commission had recommended; it did not raise the $75 million cap on liability for damages, which regulators lifted only for inflation, to about $134 million, in 2014. In January 2013 BP pleaded guilty to 14 criminal counts, including 11 of manslaughter, and agreed to pay $4 billion. In April 2016 a federal judge approved a $20.8 billion settlement of the civil claims of the United States and five Gulf states.
+
+findings:
+  - text: The Commission concludes that the blowout could have been prevented. It traces its immediate causes to identifiable mistakes by BP, Halliburton and Transocean, and by government officials who relied too much on industry's assurances of safety.
+    cites: [result-our-investigation-we-conclude, deepwater-drilling-provides-nation-essential]
+    excerpt:
+      paragraph: result-our-investigation-we-conclude
+      quote: >-
+        The explosive loss of the Macondo well could have been prevented. The
+        immediate causes of the Macondo well blowout can be traced to a series
+        of identifiable mistakes made by BP, Halliburton, and Transocean that
+        reveal such systematic failures in risk management that they place in
+        doubt the safety culture of the entire industry.
+
+  - text: Regulation did not keep pace as drilling moved into deep water. The report finds that the Minerals Management Service was torn between collecting revenue and enforcing safety, and lacked the resources, training and engineering expertise to oversee the wells it approved; the officials who approved Macondo's permits were neither required nor equipped to assess what mattered most to its safety.
+    cites: [short-safety-risks-had-dramatically, many-hardworking-individual-public-servants, macondo-well-blowout-makes-all]
+
+  - text: On the evening of the blowout, the crew ran a negative-pressure test whose readings showed the well was not sealed. The report finds they explained the readings away, then missed further warning signs in the hour before the blowout.
+    cites: [given-risk-factors-surrounding-primary, sperry-sun-data-available-crew]
+
+  - text: The Commission calls the root cause a failure of industry management. Many decisions that raised the risk at Macondo also saved time and money, and none was subject to formal risk analysis. The Commission says it cannot tell whether anyone knowingly chose a riskier option to save money.
+    cites: [root-causes-failures-industry-government, decisionmaking-processes-macondo-did-not, commission-cannot-say-whether-any]
+    excerpt:
+      paragraph: root-causes-failures-industry-government
+      quote: >-
+        The most significant failure at Macondo—and the clear root cause of
+        the blowout—was a failure of industry management.
+
+  - text: Neither industry nor government was ready for a deepwater spill. BP's response plan listed walruses as a species of concern and named a wildlife expert who had died; for four weeks the official estimate of the flow was 5,000 barrels a day, far below the true figure.
+    cites: [commission-also-looked-effectiveness-response, if-bp-s-response-capacity, although-represented-five-fold-increase-over]
+    excerpt:
+      paragraph: commission-also-looked-effectiveness-response
+      quote: >-
+        But it is impossible to argue that the industry or the country was
+        prepared for a disaster of the magnitude of the Deepwater Horizon oil
+        spill. Twenty years after the Exxon Valdez spill in Alaska, the same
+        blunt response technologies—booms, dispersants, and skimmers—were
+        used, to limited effect.
+
+  - text: The spill struck a coast already in crisis. The report sets it against the loss of more than 2,300 square miles of Louisiana's wetlands since the 1927 flood, and calls for a restoration effort lasting decades.
+    cites: [deepwater-horizon-blowout-produced-largest, even-before-highly-visible-damages]
+
+  - text: Government oversight alone will not be enough, the Commission says; the industry must transform its own safety culture, and should set up a self-policing safety institute modelled on the one the nuclear industry created after Three Mile Island, kept apart from its lobbying body, the American Petroleum Institute.
+    cites: [chapter-examines-how-petroleum-companies, essential-features-self-policing-safety-organization, credibility-be-credible-any-industry-created]
+
+  - text: For government, it recommends an independent safety agency within the Interior Department, regulators funded by fees on industry, a much higher cap on liability for spills, and 80 percent of Clean Water Act penalties for restoring the Gulf.
+    cites: [although-proposed-reorganization-interior-s, oil-pollution-act-also-requires, order-funding-be-most-efficiently]
+    excerpt:
+      paragraph: although-proposed-reorganization-interior-s
+      quote: >-
+        Congress and the Department of the Interior should create an
+        independent agency within the Department of the Interior with
+        enforcement authority to oversee all aspects of offshore drilling
+        safety (operational and occupational), as well as the structural and
+        operational integrity of all offshore energy production facilities,
+        including both oil and gas production and renewable energy production.
+
+reading_guide:
+  - section: front-matter
+    title: "Foreword and Chapter 1: Sudden Death on the Gulf of Mexico"
+    why: The co-chairs' seven conclusions, then an hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.
+    excerpt:
+      paragraph: down-ezell-s-cabin-still
+      quote: >-
+        Down in Ezell's cabin, he was still watching TV when his phone rang.
+        It was assistant driller Steve Curtis calling, also from the rig
+        floor. "We have a situation. …The well is blown out. . . . We have mud
+        going to the crown."
+
+  - section: development-production-plan-development-production-plan-approved-production-well
+    title: "Chapters 3 to 5: Regulation, the Blowout and the Response"
+    why: From partway through Chapter 3 on the regulator, through Chapter 4's technical account of why the well failed, to the 87-day struggle to cap it.
+    excerpt:
+      paragraph: given-risk-factors-surrounding-primary
+      quote: >-
+        It appears instead they started from the assumption that the well
+        could not be flowing, and kept running tests and coming up with
+        various explanations until they had convinced themselves their
+        assumption was correct.
+
+  - section: macondo-well
+    title: "Chapter 8: Changing Business as Usual"
+    why: After the end of Chapter 7 on restoring the Gulf, the case for the industry to change its own safety culture, and how.
+    excerpt:
+      paragraph: chapter-eight-safety-not-proprietary
+      quote: The Deepwater Horizon blowout, explosion, and oil spill did not have to happen.
+
+  - section: the-need-for-a-new-independent-agency
+    title: "Chapter 9: The Need for a New, Independent Agency"
+    why: Why renaming and splitting the old regulator was not enough, and the independent safety agency the Commission proposed instead.
+    excerpt:
+      paragraph: although-proposed-reorganization-interior-s
+      quote: >-
+        Although the proposed reorganization of Interior's offshore leasing,
+        safety, and revenue management program represents a significant
+        improvement, it does not adequately address the deeper problem of
+        fully insulating the Department's safety and environmental protection
+        functions from the pressures to increase production and maximize
+        lease revenues.
+
+  - section: the-need-for-adequate-funding-for-safety-oversight-and-environmental
+    title: "Chapter 10: American Energy Policy and the Future of Offshore Drilling"
+    why: After the last of Chapter 9's recommendations, the Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.
+    excerpt:
+      paragraph: extent-which-offshore-drilling-contributes
+      quote: >-
+        The extent to which offshore drilling contributes to augmenting that
+        domestic supply depends importantly on rebuilding public faith in
+        existing offshore energy exploration and production.
+
+highlights:
+  - paragraph: years-before-macondo-blowout-neither
+    quote: The Deepwater Horizon disaster exhibits the costs of a culture of complacency.
+    card: true
+  - paragraph: deepwater-drilling-provides-nation-essential
+    quote: Notwithstanding those inherent risks, the accident of April 20 was avoidable.
+    card: true
+  - paragraph: short-safety-risks-had-dramatically
+    quote: >-
+      With the benefit of hindsight, the only question had become not whether
+      an accident would happen, but when. On April 20, 2010, that question was
+      answered.
+    card: true
+  - paragraph: given-risk-factors-surrounding-primary
+    quote: >-
+      It appears instead they started from the assumption that the well could
+      not be flowing, and kept running tests and coming up with various
+      explanations until they had convinced themselves their assumption was
+      correct.
+    card: true
+  - paragraph: time-halliburton-engineer-had-arrived
+    quote: >-
+      By the time the Halliburton engineer had arrived at the rig four days
+      earlier to help cement in the two-and-a-half-mile-deep Macondo well, some
+      crew members had dubbed it "the well from hell."
+  - paragraph: april-20-bp-macondo-well
+    quote: As of April 20, BP and the Macondo well were almost six weeks behind schedule and more than $58 million over budget.
+  - paragraph: anderson-no-man-i-ve
+    quote: 'Anderson: "No, man. . . . I''ve got this. . . . Go to bed. I''ve got it."'
+  - paragraph: if-bp-s-response-capacity
+    quote: >-
+      In the plan, BP had named Peter Lutz as a wildlife expert on whom it
+      would rely; he had died several years before BP submitted its plan. BP
+      listed seals and walruses as two species of concern in case of an oil
+      spill in the Gulf; these species never see Gulf waters.
+    card: true
+  - paragraph: commission-also-looked-effectiveness-response
+    quote: >-
+      Twenty years after the Exxon Valdez spill in Alaska, the same blunt
+      response technologies—booms, dispersants, and skimmers—were used, to
+      limited effect.
+    card: true
+  - paragraph: many-hardworking-individual-public-servants
+    quote: For a regulatory agency to fall so short of its essential safety mission is inexcusable.
+  - paragraph: frequency-unannounced-inspections-plummeted-108
+    quote: Precisely when the need for regulatory oversight intensified, the government's capacity for oversight diminished.
+    card: true
+  - paragraph: mms-sole-government-agency-charged
+    quote: >-
+      At most, MMS had four to five employees in Houston trying to oversee
+      BP's efforts. One employee described his experience as akin to standing
+      in a hurricane.
+  - paragraph: credibility-be-credible-any-industry-created
+    quote: As a consensus-based organization, the American Petroleum Institute (API) is culturally ill-suited to drive a safety revolution in the industry.
