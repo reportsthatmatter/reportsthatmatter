@@ -2,6 +2,528 @@
 import type { Editorial } from "../lib/editorial";
 
 export const EDITORIAL: Readonly<Record<string, Editorial>> = {
+  "challenger-accident": {
+    "status": "approved",
+    "whyItMatters": "The US House of Representatives' own investigation of the Challenger disaster of 1986, written by the committee that authorised and funded NASA. It agrees with the Rogers Commission on what failed but not on why, placing the blame on years of poor technical decisions rather than poor communication, and it names Congress among those who pushed NASA to fly too often.",
+    "background": [
+      "On 28 January 1986 the Space Shuttle Challenger broke apart 73 seconds after lifting off from Kennedy Space Center, killing its crew of seven, among them Christa McAuliffe, a schoolteacher flying under NASA's Teacher in Space Project. A seal in a joint of the right-hand solid rocket booster had failed after a night of freezing temperatures at the Cape.",
+      "That day the chairman of the House Committee on Science and Technology, Don Fuqua, told the House that the Committee would investigate. On 3 February President Reagan appointed a Presidential Commission under William P. Rogers, a former Secretary of State, whose members included Neil Armstrong, Sally Ride and Richard Feynman. The Committee chose not to duplicate that inquiry but to review it: once the Rogers Commission reported in June 1986, it held ten hearings with 60 witnesses, chaired by Robert A. Roe, and had full access to the Commission's database. The Committee approved this report on 7 October 1986, and it was published as House Report 99-1016 on 29 October. It is a congressional oversight report: it sets out findings and recommendations, and directed NASA to report back on each by 15 February 1987.",
+      "The Shuttle did not fly again for 32 months. Discovery returned it to flight on 29 September 1988, with a redesigned booster joint. After Columbia was lost in 2003, its investigation board devoted a chapter to comparing the two accidents, and found again a \"reliance on past success as a substitute for sound engineering practices\"."
+    ],
+    "findings": [
+      {
+        "text": "Like the Rogers Commission, the Committee concluded that the accident was caused by the failure of the aft field joint on the right-hand solid rocket motor, a faulty design that neither NASA nor its contractor, Morton Thiokol, fully understood.",
+        "cites": [
+          {
+            "id": "like-rogers-commission-committee-concluded",
+            "page": 4,
+            "href": "/reports/challenger-accident?p=like-rogers-commission-committee-concluded"
+          },
+          {
+            "id": "findings-2",
+            "page": 7,
+            "href": "/reports/challenger-accident?p=findings-2"
+          }
+        ]
+      },
+      {
+        "text": "Where the Commission pointed to a flawed decision-making process, the Committee concludes that the underlying problem was not poor communication but poor technical decision-making, over several years, by top NASA and Thiokol managers. Information on the joint's flaws had been presented to every level of Shuttle management.",
+        "cites": [
+          {
+            "id": "other-areas-committee-reached-somewhat",
+            "page": 4,
+            "href": "/reports/challenger-accident?p=other-areas-committee-reached-somewhat"
+          },
+          {
+            "id": "information-flaws-joint-design-problems",
+            "page": 5,
+            "href": "/reports/challenger-accident?p=information-flaws-joint-design-problems"
+          },
+          {
+            "id": "throughout-hearings-witnesses-said-had",
+            "page": 172,
+            "href": "/reports/challenger-accident?p=throughout-hearings-witnesses-said-had"
+          }
+        ],
+        "excerpt": {
+          "quote": "Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem.",
+          "cite": {
+            "id": "information-flaws-joint-design-problems",
+            "page": 5,
+            "href": "/reports/challenger-accident?p=information-flaws-joint-design-problems&h=|Information%20on%20the%20flaws%20in%20the%20joint%20design%20and%20on%20the%20problems%20encountered%20in%20missions%20prior%20to%2051-L%20was%20widely%20availa%E2%8B%AFthe%200rings%2C%20the%20NASA%20and%20Thiokol%20technical%20managers%20failed%20to%20understand%20or%20fully%20accept%20the%20seriousness%20of%20the%20problem.|"
+          }
+        }
+      },
+      {
+        "text": "Seals had been eroding on flight after flight. The report finds that NASA came to treat this damage as \"acceptable\" and \"within experience base\", and chose to keep flying while a measured, 27-month fix proceeded.",
+        "cites": [
+          {
+            "id": "after-ignition-solid-propellant-srm",
+            "page": 62,
+            "href": "/reports/challenger-accident?p=after-ignition-solid-propellant-srm"
+          },
+          {
+            "id": "nasa-chose-continue-fly-flawed",
+            "page": 5,
+            "href": "/reports/challenger-accident?p=nasa-chose-continue-fly-flawed"
+          },
+          {
+            "id": "committee-concurs-dr-feynman-s",
+            "page": 146,
+            "href": "/reports/challenger-accident?p=committee-concurs-dr-feynman-s"
+          }
+        ],
+        "excerpt": {
+          "quote": "The Committee concurs with Dr. Feynman's analysis that NASA had no understanding of the O-ring erosion phenomenon, and their rationale for accepting it was not based on sound engineering principles.",
+          "cite": {
+            "id": "committee-concurs-dr-feynman-s",
+            "page": 146,
+            "href": "/reports/challenger-accident?p=committee-concurs-dr-feynman-s&h=|The%20Committee%20concurs%20with%20Dr.%20Feynman's%20analysis%20that%20NASA%20had%20no%20understanding%20of%20the%20O-ring%20erosion%20phenomenon%2C%20and%20their%20rationale%20for%20accepting%20it%20was%20not%20based%20on%20sound%20engineering%20principles.|"
+          }
+        }
+      },
+      {
+        "text": "On the eve of the launch, Thiokol engineers warned that the cold would impair the seals. The report finds that the response of Marshall managers led Thiokol's management to set aside their own engineers' judgement and recommend launch, and that the decision rested on faulty engineering analysis.",
+        "cites": [
+          {
+            "id": "findings-3",
+            "page": 10,
+            "href": "/reports/challenger-accident?p=findings-3"
+          },
+          {
+            "id": "eve-launch-thiokol-engineers-attempted",
+            "page": 219,
+            "href": "/reports/challenger-accident?p=eve-launch-thiokol-engineers-attempted"
+          },
+          {
+            "id": "cern-about-delay-such-constraints",
+            "page": 220,
+            "href": "/reports/challenger-accident?p=cern-about-delay-such-constraints"
+          }
+        ],
+        "excerpt": {
+          "quote": "The decision to launch STS 51-L was based on a faulty engineering analysis of the SRM field joint seal behavior.",
+          "cite": {
+            "id": "findings-3",
+            "page": 10,
+            "href": "/reports/challenger-accident?p=findings-3"
+          }
+        }
+      },
+      {
+        "text": "The Committee found that NASA's drive for 24 flights a year created pressure that contributed directly to unsafe launch operations, and it acknowledges that the Committee itself, Congress and the Administration helped create that pressure.",
+        "cites": [
+          {
+            "id": "committee-found-nasa-s-drive",
+            "page": 2,
+            "href": "/reports/challenger-accident?p=committee-found-nasa-s-drive"
+          },
+          {
+            "id": "committee-congress-administration-have-played",
+            "page": 2,
+            "href": "/reports/challenger-accident?p=committee-congress-administration-have-played"
+          },
+          {
+            "id": "there-no-doubt-operating-pressures",
+            "page": 123,
+            "href": "/reports/challenger-accident?p=there-no-doubt-operating-pressures"
+          }
+        ],
+        "excerpt": {
+          "quote": "The Committee found that NASA's drive to achieve a launch schedule of 24 flights per year created pressure throughout the agency that directly contributed to unsafe launch operations.",
+          "cite": {
+            "id": "committee-found-nasa-s-drive",
+            "page": 2,
+            "href": "/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes"
+          }
+        }
+      },
+      {
+        "text": "The Committee confirms the Commission's finding that NASA's safety, reliability and quality assurance programmes were grossly inadequate, and finds nothing to show that NASA's safety staff ever evaluated the seal problem.",
+        "cites": [
+          {
+            "id": "concurrence-rogers-commission-committee-con",
+            "page": 4,
+            "href": "/reports/challenger-accident?p=concurrence-rogers-commission-committee-con"
+          },
+          {
+            "id": "second-there-nothing-show-what",
+            "page": 218,
+            "href": "/reports/challenger-accident?p=second-there-nothing-show-what"
+          }
+        ]
+      },
+      {
+        "text": "It goes beyond the Commission on other hardware, raising concerns about the margins of the Shuttle's main engines and recommending a new specification for its landing gear, tyres and brakes. It also finds that NASA's management waived its own launch commit criteria on the morning of the launch without a valid technical reason.",
+        "cites": [
+          {
+            "id": "space-shuttle-main-engine-we",
+            "page": 5,
+            "href": "/reports/challenger-accident?p=space-shuttle-main-engine-we"
+          },
+          {
+            "id": "committee-has-gone-beyond-rogers",
+            "page": 5,
+            "href": "/reports/challenger-accident?p=committee-has-gone-beyond-rogers"
+          },
+          {
+            "id": "nasa-s-management-waived-its",
+            "page": 11,
+            "href": "/reports/challenger-accident?p=nasa-s-management-waived-its"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "conclusions",
+        "title": "Conclusions",
+        "page": "4",
+        "why": "The Committee's verdict in a few pages, including where and why it parts company with the Rogers Commission, followed by a digest of every finding.",
+        "excerpt": {
+          "quote": "NASA management and the Congress must remember the lessons learned from the Challenger accident and never again set unreasonable goals which stress the system beyond its safe functioning.",
+          "cite": {
+            "id": "nasa-management-congress-must-remember",
+            "page": 4,
+            "href": "/reports/challenger-accident?p=nasa-management-congress-must-remember&h=|NASA%20management%20and%20the%20Congress%20must%20remember%20the%20lessons%20learned%20from%20the%20Challenger%20accident%20and%20never%20again%20set%20unreasonable%20goals%20which%20stress%20the%20system%20beyond%20its%20safe%20functioning.|"
+          }
+        }
+      },
+      {
+        "slug": "history",
+        "title": "History",
+        "page": "51",
+        "why": "The joint problem from the 1973 contract to the night before launch, set out as a chronology of what NASA and Thiokol knew and when.",
+        "excerpt": {
+          "quote": "At seven different times in the Shuttle Program, NASA and Thiokol managers made poor technical decisions that ultimately permitted continued flight of an unsafe Solid Rocket Motor design.",
+          "cite": {
+            "id": "seven-different-times-shuttle-program",
+            "page": 50,
+            "href": "/reports/challenger-accident?p=seven-different-times-shuttle-program&h=|At%20seven%20different%20times%20in%20the%20Shuttle%20Program%2C%20NASA%20and%20Thiokol%20managers%20made%20poor%20technical%20decisions%20that%20ultimately%20permitted%20continued%20flight%20of%20an%20unsafe%20Solid%20Rocket%20Motor%20design.|"
+          }
+        }
+      },
+      {
+        "slug": "summary-of-casing-joint-design",
+        "title": "Summary of Casing Joint Design",
+        "page": "61",
+        "why": "How the booster joint worked, why it failed, and how erosion of its seals came to be treated as acceptable.",
+        "excerpt": {
+          "quote": "But rather than identify this condition as a joint that didn't seal, that is, a joint that had already failed, NASA elected to regard a certain degree of erosion or blow-by as \"acceptable.\"",
+          "cite": {
+            "id": "after-ignition-solid-propellant-srm",
+            "page": 62,
+            "href": "/reports/challenger-accident?p=after-ignition-solid-propellant-srm&h=bypassed%20the%20primary%20O-ring.%20|But%20rather%20than%20identify%20this%20condition%20as%20a%20joint%20that%20didn't%20seal%2C%20that%20is%2C%20a%20joint%20that%20had%20already%20failed%2C%20NASA%20elected%20to%20regard%20a%20certain%20degree%20of%20erosion%20or%20blow-by%20as%20%22acceptable.%22|%20To%20make%20matters%20worse%2C"
+          }
+        }
+      },
+      {
+        "slug": "lockheed-shuttle-processing-contract-award-fee-history",
+        "title": "Pressures on Shuttle Operations",
+        "page": "117",
+        "why": "Where the pressure to fly more often came from, and what it did to training, planning and safety.",
+        "excerpt": {
+          "quote": "Without operating pressures the program might have been stopped months before the accident to redesign or at least understand the SRB joint. Without operating pressure the flight could have been stopped the night of January 27.",
+          "cite": {
+            "id": "there-no-doubt-operating-pressures",
+            "page": 123,
+            "href": "/reports/challenger-accident?p=there-no-doubt-operating-pressures&h=accident%20on%2051-L%20to%20happen.%20|Without%20operating%20pressures%20the%20program%20might%20have%20been%20stopped%20months%20before%20the%20accident%20to%20redesign%20or%20at%20least%20understand%20the%20SRB%20joint.%20Without%20operating%20pressure%20the%20flight%20could%20have%20been%20stopped%20the%20night%20of%20January%2027.|%20This%20is%20documented%20in"
+          }
+        }
+      },
+      {
+        "slug": "figure-2",
+        "title": "Technical Management",
+        "page": "141",
+        "why": "Why senior managers did not act on the seal problem, including a NASA manager's own account of how they talked themselves into it.",
+        "excerpt": {
+          "quote": "When we recognized that it had design deficiency, we did not fix it. Then we continued to fly with it, and rationalized why it was safe, and eventually concluded and convinced ourselves that it was an acceptable risk.",
+          "cite": {
+            "id": "why-then-did-top-technical",
+            "page": 161,
+            "href": "/reports/challenger-accident?p=why-then-did-top-technical"
+          }
+        }
+      },
+      {
+        "slug": "the-sts-51-l-launch-decision",
+        "title": "The STS 51-L Launch Decision",
+        "page": "208",
+        "why": "The flight readiness reviews, the teleconference of 27 January, and the ice on the launch pad the next morning.",
+        "excerpt": {
+          "quote": "Clearly evident is the fact that the Flight Readiness Review procedure cannot compensate for poor engineering analysis.",
+          "cite": {
+            "id": "clearly-evident-fact-flight-readiness",
+            "page": 215,
+            "href": "/reports/challenger-accident?p=clearly-evident-fact-flight-readiness&h=|Clearly%20evident%20is%20the%20fact%20that%20the%20Flight%20Readiness%20Review%20procedure%20cannot%20compensate%20for%20poor%20engineering%20analysis.|%20The%20FRR%20is%20similar%20to%20a"
+          }
+        }
+      }
+    ]
+  },
+  "columbia-accident": {
+    "status": "approved",
+    "whyItMatters": "The independent board's account of why the Space Shuttle Columbia broke apart in February 2003, killing its seven crew. It traces the loss to a piece of foam and then, at greater length, to the NASA that let foam strikes become routine and set aside its engineers' requests to photograph the damaged wing. Its account of how organisations come to accept danger is still read far beyond spaceflight.",
+    "background": [
+      "Columbia, the first Space Shuttle to fly in orbit, was launched on 16 January 2003 on STS-107, a 16-day science mission. On the morning of 1 February, as it returned to Earth, it broke apart over Texas about 16 minutes before it was due to land. All seven crew died, among them Ilan Ramon, Israel's first astronaut. It was the second Shuttle lost, 17 years after Challenger in January 1986.",
+      "NASA activated the Columbia Accident Investigation Board within hours, under procedures set up after Challenger. Chaired by Harold Gehman, a retired US Navy admiral, its 13 members broadened their inquiry from the physical cause to NASA's history, budgets and culture. The report says its investigators examined more than 30,000 documents and conducted more than 200 formal interviews, while more than 25,000 searchers recovered debris across the western United States. Volume I was published on 26 August 2003, with 29 recommendations, 15 of them to be met before the Shuttle flew again. It is an accident investigation, not a court: it names managers and describes their decisions, but argues that NASA's problems cannot be solved by resignations or transfers. Its chapter comparing Columbia with Challenger was written with the sociologist Diane Vaughan, whose work on Challenger gave it the phrase \"normalization of deviance\".",
+      "The Shuttle fleet was grounded for more than two years. Discovery returned to flight on STS-114 in July 2005, but a large piece of foam came off its tank and the fleet was grounded again until July 2006. In January 2004 President George W. Bush announced a new space policy under which the Shuttle would be retired once the International Space Station was complete; the last Shuttle flight, by Atlantis, was in July 2011."
+    ],
+    "findings": [
+      {
+        "text": "The Board finds that a piece of insulating foam from the External Tank struck the leading edge of Columbia's left wing during launch and breached it. On re-entry, superheated air entered the wing and melted its structure until the Orbiter broke apart.",
+        "cites": [
+          {
+            "id": "physical-cause-loss-columbia-its",
+            "page": 9,
+            "href": "/reports/columbia-accident?p=physical-cause-loss-columbia-its"
+          },
+          {
+            "id": "physical-cause-loss-columbia-its-2",
+            "page": 3,
+            "href": "/reports/columbia-accident?p=physical-cause-loss-columbia-its-2"
+          }
+        ],
+        "excerpt": {
+          "quote": "During re-entry this breach in the Thermal Protection System allowed superheated air to penetrate through the leading edge insulation and progressively melt the aluminum structure of the left wing, resulting in a weakening of the structure until increasing aerodynamic forces caused loss of control, failure of the wing, and breakup of the Orbiter. This breakup occurred in a flight regime in which, given the current design of the Orbiter, there was no possibility for the crew to survive.",
+          "cite": {
+            "id": "physical-cause-loss-columbia-its",
+            "page": 9,
+            "href": "/reports/columbia-accident?p=physical-cause-loss-columbia-its&h=Carbon-%20Carbon%20panel%20number%208.%20|During%20re-entry%20this%20breach%20in%20the%20Thermal%20Protection%20System%20allowed%20superheated%20air%20to%20penetrate%20through%20the%20leading%20ed%E2%8B%AF%20in%20a%20flight%20regime%20in%20which%2C%20given%20the%20current%20design%20of%20the%20Orbiter%2C%20there%20was%20no%20possibility%20for%20the%20crew%20to%20survive.|"
+          }
+        }
+      },
+      {
+        "text": "Foam had been coming off the tank since the first flight in 1981, against the design requirements. The report finds that NASA came to treat each strike as a maintenance problem rather than a danger, as it had treated O-ring erosion before Challenger.",
+        "cites": [
+          {
+            "id": "despite-high-level-concern-after",
+            "page": 122,
+            "href": "/reports/columbia-accident?p=despite-high-level-concern-after"
+          },
+          {
+            "id": "small-logical-next-step-discovery",
+            "page": 196,
+            "href": "/reports/columbia-accident?p=small-logical-next-step-discovery"
+          },
+          {
+            "id": "initial-shuttle-design-predicted-neither",
+            "page": 196,
+            "href": "/reports/columbia-accident?p=initial-shuttle-design-predicted-neither"
+          }
+        ],
+        "excerpt": {
+          "quote": "Foam debris anomalies came to be categorized by the reassuring term \"in-family,\" a formal classification indicating that new occurrences of an anomaly were within the engineering experience base. \"In-family\" was a strange term indeed for a violation of system requirements.",
+          "cite": {
+            "id": "small-logical-next-step-discovery",
+            "page": 196,
+            "href": "/reports/columbia-accident?p=small-logical-next-step-discovery&h=thorough%20hazard%20analysis.%20|Foam%20debris%20anomalies%20came%20to%20be%20categorized%20by%20the%20reassuring%20term%20%22in-family%2C%22%20a%20formal%20classification%20indicating%20that%20new%20occurrences%20of%20an%20anomaly%20were%20within%20the%20engineering%20experience%20base.%20%22In-family%22%20was%20a%20strange%20term%20indeed%20for%20a%20violation%20of%20system%20requirements.|%20Although%20%22in-family%22%20was"
+          }
+        }
+      },
+      {
+        "text": "The Board found the Shuttle Program under pressure to meet a fixed date, 19 February 2004, for launching a key part of the International Space Station, a deadline on which the White House and Congress had in effect put NASA on probation.",
+        "cites": [
+          {
+            "id": "during-course-investigation-board-received",
+            "page": 131,
+            "href": "/reports/columbia-accident?p=during-course-investigation-board-received"
+          },
+          {
+            "id": "white-house-congress-had-put",
+            "page": 117,
+            "href": "/reports/columbia-accident?p=white-house-congress-had-put"
+          },
+          {
+            "id": "nasa-headquarters-stressed-importance-date",
+            "page": 132,
+            "href": "/reports/columbia-accident?p=nasa-headquarters-stressed-importance-date"
+          }
+        ]
+      },
+      {
+        "text": "During the flight, engineers asked three times for images of the damaged wing. Managers turned the requests down, having already judged foam no threat, and, the report finds, required the engineers to prove the Orbiter was unsafe.",
+        "cites": [
+          {
+            "id": "would-be-first-three-discrete",
+            "page": 140,
+            "href": "/reports/columbia-accident?p=would-be-first-three-discrete"
+          },
+          {
+            "id": "opinions-shuttle-program-managers-debris",
+            "page": 169,
+            "href": "/reports/columbia-accident?p=opinions-shuttle-program-managers-debris"
+          },
+          {
+            "id": "shuttle-program-mission-management-team",
+            "page": 170,
+            "href": "/reports/columbia-accident?p=shuttle-program-mission-management-team"
+          }
+        ],
+        "excerpt": {
+          "quote": "Debris Assessment Team members had to prove unequivocally that a safety-of-flight issue existed before Shuttle Program management would move to obtain images of the left wing. The engineers found themselves in the unusual position of having to prove that the situation was unsafe – a reversal of the usual requirement to prove that a situation is safe.",
+          "cite": {
+            "id": "opinions-shuttle-program-managers-debris",
+            "page": 169,
+            "href": "/reports/columbia-accident?p=opinions-shuttle-program-managers-debris&h=get%20on%20with%20the%20mission%2C%20|Debris%20Assessment%20Team%20members%20had%20to%20prove%20unequivocally%20that%20a%20safety-of-flight%20issue%20existed%20before%20Shuttle%20Program%20m%E2%8B%AFf%20having%20to%20prove%20that%20the%20situation%20was%20unsafe%20%E2%80%93%20a%20reversal%20of%20the%20usual%20requirement%20to%20prove%20that%20a%20situation%20is%20safe.|"
+          }
+        }
+      },
+      {
+        "text": "A study NASA carried out for the Board concluded that, had the damage been found early in the mission, a rescue by the Shuttle Atlantis would have been challenging but feasible.",
+        "cites": [
+          {
+            "id": "its-study-these-two-options",
+            "page": 173,
+            "href": "/reports/columbia-accident?p=its-study-these-two-options"
+          },
+          {
+            "id": "rescue-considered-challenging-feasible-succeed",
+            "page": 174,
+            "href": "/reports/columbia-accident?p=rescue-considered-challenging-feasible-succeed"
+          }
+        ],
+        "excerpt": {
+          "quote": "This rescue was considered challenging but feasible. To succeed, it required problem-free processing of Atlantis and a flawless launch countdown. If Program managers had understood the threat that the bipod foam strike posed and were able to unequivocally determine before Flight Day Seven that there was potentially catastrophic damage to the left wing, these repair and rescue plans would most likely have been developed, and a rescue would have been conceivable.",
+          "cite": {
+            "id": "rescue-considered-challenging-feasible-succeed",
+            "page": 174,
+            "href": "/reports/columbia-accident?p=rescue-considered-challenging-feasible-succeed&h=|This%20rescue%20was%20considered%20challenging%20but%20feasible.%20To%20succeed%2C%20it%20required%20problem-free%20processing%20of%20Atlantis%20and%20a%20f%E2%8B%AFeft%20wing%2C%20these%20repair%20and%20rescue%20plans%20would%20most%20likely%20have%20been%20developed%2C%20and%20a%20rescue%20would%20have%20been%20conceivable.|%20For%20a%20detailed"
+          }
+        }
+      },
+      {
+        "text": "The Board concludes that NASA's organisation and culture were as much a cause as the foam. Its safety organisation lacked independence and stayed silent, and the Shuttle Program held authority over schedule, cost and safety at once.",
+        "cites": [
+          {
+            "id": "organizational-causes-accident-are-rooted",
+            "page": 9,
+            "href": "/reports/columbia-accident?p=organizational-causes-accident-are-rooted"
+          },
+          {
+            "id": "board-investigated-columbia-accident-expected",
+            "page": 177,
+            "href": "/reports/columbia-accident?p=board-investigated-columbia-accident-expected"
+          },
+          {
+            "id": "evidence-supports-organizational-causes-also",
+            "page": 192,
+            "href": "/reports/columbia-accident?p=evidence-supports-organizational-causes-also"
+          }
+        ]
+      },
+      {
+        "text": "The report finds \"echoes\" of Challenger throughout, and concludes that the organisational causes identified after 1986 had not been fixed. It holds the White House and Congress, as well as NASA, responsible for the pressures that produced them.",
+        "cites": [
+          {
+            "id": "echoes-did-not-stop-there",
+            "page": 195,
+            "href": "/reports/columbia-accident?p=echoes-did-not-stop-there"
+          },
+          {
+            "id": "series-engineering-decisions-normalized-technical",
+            "page": 197,
+            "href": "/reports/columbia-accident?p=series-engineering-decisions-normalized-technical"
+          },
+          {
+            "id": "leaders-create-culture-their-responsibility",
+            "page": 203,
+            "href": "/reports/columbia-accident?p=leaders-create-culture-their-responsibility"
+          }
+        ]
+      },
+      {
+        "text": "Beyond immediate fixes to foam, imaging and wing repair, the Board recommends separating technical authority from schedule and cost, an independent safety organisation, and replacing the Shuttle as soon as possible.",
+        "cites": [
+          {
+            "id": "report-concludes-recommendations-some-which",
+            "page": 9,
+            "href": "/reports/columbia-accident?p=report-concludes-recommendations-some-which"
+          },
+          {
+            "id": "through-its-recommendations-part-two",
+            "page": 208,
+            "href": "/reports/columbia-accident?p=through-its-recommendations-part-two"
+          },
+          {
+            "id": "even-so-based-its-in-depth",
+            "page": 210,
+            "href": "/reports/columbia-accident?p=even-so-based-its-in-depth"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "executive-summary",
+        "title": "Executive summary",
+        "page": "10",
+        "why": "The physical cause and the organisational causes in two pages, and how the report is laid out."
+      },
+      {
+        "slug": "61-a-history-of-foam-anomalies",
+        "title": "A history of foam anomalies",
+        "page": "122",
+        "why": "How foam came off the tank on flight after flight, and how NASA came to live with it.",
+        "excerpt": {
+          "quote": "Photographic evidence of foam shedding exists for 65 of the 79 missions for which imagery is available.",
+          "cite": {
+            "id": "despite-high-level-concern-after",
+            "page": 122,
+            "href": "/reports/columbia-accident?p=despite-high-level-concern-after&h=separate%20from%20the%20External%20Tank.%20|Photographic%20evidence%20of%20foam%20shedding%20exists%20for%2065%20of%20the%2079%20missions%20for%20which%20imagery%20is%20available.|%20Of%20the%2034%20missions%20for"
+          }
+        }
+      },
+      {
+        "slug": "62-schedule-pressure",
+        "title": "Schedule pressure",
+        "page": "132",
+        "why": "The February 2004 deadline for the Space Station, and what it did to the people preparing the Shuttle.",
+        "excerpt": {
+          "quote": "A screen saver (see Figure 6.2-3) was mailed to managers in NASAʼs human spaceflight program that depicted a clock counting down to February 19, 2004 – U.S. Core Complete.",
+          "cite": {
+            "id": "nasa-headquarters-stressed-importance-date",
+            "page": 132,
+            "href": "/reports/columbia-accident?p=nasa-headquarters-stressed-importance-date&h=this%20date%20in%20other%20ways.%20|A%20screen%20saver%20(see%20Figure%206.2-3)%20was%20mailed%20to%20managers%20in%20NASA%CA%BCs%20human%20spaceflight%20program%20that%20depicted%20a%20clock%20counting%20down%20to%20February%2019%2C%202004%20%E2%80%93%20U.S.%20Core%20Complete.|"
+          }
+        }
+      },
+      {
+        "slug": "missed-opportunities",
+        "title": "Decision-making during the flight",
+        "page": "168",
+        "why": "The Board's summary of the 16 days in orbit, when engineers sought images of the wing and managers declined them.",
+        "excerpt": {
+          "quote": "Managersʼ claims that they didnʼt hear the engineersʼ concerns were due in part to their not asking or listening.",
+          "cite": {
+            "id": "shuttle-program-mission-management-team",
+            "page": 170,
+            "href": "/reports/columbia-accident?p=shuttle-program-mission-management-team&h=of%20the%20damage%20on%20re-entry.%20|Managers%CA%BC%20claims%20that%20they%20didn%CA%BCt%20hear%20the%20engineers%CA%BC%20concerns%20were%20due%20in%20part%20to%20their%20not%20asking%20or%20listening.|"
+          }
+        }
+      },
+      {
+        "slug": "64-possibility-of-rescue-or-repair",
+        "title": "Possibility of rescue or repair",
+        "page": "174",
+        "why": "What could have been done had the damage been found, from a repair with scavenged metal and ice to a rescue by Atlantis."
+      },
+      {
+        "slug": "82-failures-of-foresight-two-decision-histories-and-the-normalization-of-devianc",
+        "title": "The normalisation of deviance",
+        "page": "197",
+        "why": "The chapter's core comparison of foam and the Challenger O-rings, and how warning signs became routine.",
+        "excerpt": {
+          "quote": "Engineers and managers incorporated worsening anomalies into the engineering experience base, which functioned as an elastic waistband, expanding to hold larger deviations from the original design.",
+          "cite": {
+            "id": "initial-shuttle-design-predicted-neither",
+            "page": 196,
+            "href": "/reports/columbia-accident?p=initial-shuttle-design-predicted-neither&h=now%20acting%20as%20predicted.%20|Engineers%20and%20managers%20incorporated%20worsening%20anomalies%20into%20the%20engineering%20experience%20base%2C%20which%20functioned%20as%20an%20elastic%20waistband%2C%20expanding%20to%20hold%20larger%20deviations%20from%20the%20original%20design.|%20Anomalies%20that%20did%20not"
+          }
+        }
+      }
+    ]
+  },
   "jack-smith-vol1": {
     "status": "approved",
     "whyItMatters": "The Special Counsel's account of Donald Trump's attempt to overturn the 2020 election. The case was dropped when he won the 2024 election, so it never reached a jury. This is the evidence prosecutors would have put before one, and their conclusion that it was enough to convict.",
@@ -1434,6 +1956,266 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       }
     ]
   },
+  "us-deepwater-horizon": {
+    "status": "approved",
+    "whyItMatters": "The presidential commission's account of the blowout of BP's Macondo well on 20 April 2010, which killed 11 men on the Deepwater Horizon rig and caused what it calls the largest accidental marine oil spill in US history. It finds the disaster avoidable, traces it to failures of management at BP, Halliburton and Transocean and to a regulator without the expertise to oversee them, and sets out what industry and government must change.",
+    "background": [
+      "On the night of 20 April 2010, BP's Macondo well blew out beneath Transocean's drilling rig Deepwater Horizon, in nearly a mile of water in the Gulf of Mexico off Louisiana. Gas rising up the well reached the rig and exploded. Eleven of the 126 people on board were killed, and the rig sank two days later. Oil flowed for 87 days until the well was capped on 15 July; the government estimated that about 4.9 million barrels escaped.",
+      "President Barack Obama created the National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling by executive order on 21 May 2010, to find the disaster's root causes and recommend how to guard against such spills. Its seven members were chaired by Bob Graham, a former governor of and senator for Florida, and William K. Reilly, a former administrator of the Environmental Protection Agency. After six months' work, without power to compel testimony, it reported on 11 January 2011. Its chief counsel, Fred Bartlit, published a fuller technical account on 17 February 2011. The report's findings are a policy commission's, not a court's.",
+      "The Interior Department completed its split of the Minerals Management Service into leasing, safety and revenue bodies on 1 October 2011. In 2012 Congress passed the RESTORE Act, sending 80 percent of the Clean Water Act penalties from the spill to restoring the Gulf, as the Commission had recommended; it did not raise the $75 million cap on liability for damages, which regulators lifted only for inflation, to about $134 million, in 2014. In January 2013 BP pleaded guilty to 14 criminal counts, including 11 of manslaughter, and agreed to pay $4 billion. In April 2016 a federal judge approved a $20.8 billion settlement of the civil claims of the United States and five Gulf states."
+    ],
+    "findings": [
+      {
+        "text": "The Commission concludes that the blowout could have been prevented. It traces its immediate causes to identifiable mistakes by BP, Halliburton and Transocean, and by government officials who relied too much on industry's assurances of safety.",
+        "cites": [
+          {
+            "id": "result-our-investigation-we-conclude",
+            "page": null,
+            "href": "/reports/us-deepwater-horizon?p=result-our-investigation-we-conclude"
+          },
+          {
+            "id": "deepwater-drilling-provides-nation-essential",
+            "page": 127,
+            "href": "/reports/us-deepwater-horizon?p=deepwater-drilling-provides-nation-essential"
+          }
+        ],
+        "excerpt": {
+          "quote": "The explosive loss of the Macondo well could have been prevented. The immediate causes of the Macondo well blowout can be traced to a series of identifiable mistakes made by BP, Halliburton, and Transocean that reveal such systematic failures in risk management that they place in doubt the safety culture of the entire industry.",
+          "cite": {
+            "id": "result-our-investigation-we-conclude",
+            "page": null,
+            "href": "/reports/us-deepwater-horizon?p=result-our-investigation-we-conclude"
+          }
+        }
+      },
+      {
+        "text": "Regulation did not keep pace as drilling moved into deep water. The report finds that the Minerals Management Service was torn between collecting revenue and enforcing safety, and lacked the resources, training and engineering expertise to oversee the wells it approved; the officials who approved Macondo's permits were neither required nor equipped to assess what mattered most to its safety.",
+        "cites": [
+          {
+            "id": "short-safety-risks-had-dramatically",
+            "page": 85,
+            "href": "/reports/us-deepwater-horizon?p=short-safety-risks-had-dramatically"
+          },
+          {
+            "id": "many-hardworking-individual-public-servants",
+            "page": 57,
+            "href": "/reports/us-deepwater-horizon?p=many-hardworking-individual-public-servants"
+          },
+          {
+            "id": "macondo-well-blowout-makes-all",
+            "page": 77,
+            "href": "/reports/us-deepwater-horizon?p=macondo-well-blowout-makes-all"
+          }
+        ]
+      },
+      {
+        "text": "On the evening of the blowout, the crew ran a negative-pressure test whose readings showed the well was not sealed. The report finds they explained the readings away, then missed further warning signs in the hour before the blowout.",
+        "cites": [
+          {
+            "id": "given-risk-factors-surrounding-primary",
+            "page": 119,
+            "href": "/reports/us-deepwater-horizon?p=given-risk-factors-surrounding-primary"
+          },
+          {
+            "id": "sperry-sun-data-available-crew",
+            "page": 121,
+            "href": "/reports/us-deepwater-horizon?p=sperry-sun-data-available-crew"
+          }
+        ]
+      },
+      {
+        "text": "The Commission calls the root cause a failure of industry management. Many decisions that raised the risk at Macondo also saved time and money, and none was subject to formal risk analysis. The Commission says it cannot tell whether anyone knowingly chose a riskier option to save money.",
+        "cites": [
+          {
+            "id": "root-causes-failures-industry-government",
+            "page": 122,
+            "href": "/reports/us-deepwater-horizon?p=root-causes-failures-industry-government"
+          },
+          {
+            "id": "decisionmaking-processes-macondo-did-not",
+            "page": 125,
+            "href": "/reports/us-deepwater-horizon?p=decisionmaking-processes-macondo-did-not"
+          },
+          {
+            "id": "commission-cannot-say-whether-any",
+            "page": 125,
+            "href": "/reports/us-deepwater-horizon?p=commission-cannot-say-whether-any"
+          }
+        ],
+        "excerpt": {
+          "quote": "The most significant failure at Macondo—and the clear root cause of the blowout—was a failure of industry management.",
+          "cite": {
+            "id": "root-causes-failures-industry-government",
+            "page": 122,
+            "href": "/reports/us-deepwater-horizon?p=root-causes-failures-industry-government"
+          }
+        }
+      },
+      {
+        "text": "Neither industry nor government was ready for a deepwater spill. BP's response plan listed walruses as a species of concern and named a wildlife expert who had died; for four weeks the official estimate of the flow was 5,000 barrels a day, far below the true figure.",
+        "cites": [
+          {
+            "id": "commission-also-looked-effectiveness-response",
+            "page": null,
+            "href": "/reports/us-deepwater-horizon?p=commission-also-looked-effectiveness-response"
+          },
+          {
+            "id": "if-bp-s-response-capacity",
+            "page": 133,
+            "href": "/reports/us-deepwater-horizon?p=if-bp-s-response-capacity"
+          },
+          {
+            "id": "although-represented-five-fold-increase-over",
+            "page": 133,
+            "href": "/reports/us-deepwater-horizon?p=although-represented-five-fold-increase-over"
+          }
+        ],
+        "excerpt": {
+          "quote": "But it is impossible to argue that the industry or the country was prepared for a disaster of the magnitude of the Deepwater Horizon oil spill. Twenty years after the Exxon Valdez spill in Alaska, the same blunt response technologies—booms, dispersants, and skimmers—were used, to limited effect.",
+          "cite": {
+            "id": "commission-also-looked-effectiveness-response",
+            "page": null,
+            "href": "/reports/us-deepwater-horizon?p=commission-also-looked-effectiveness-response&h=did%20not%20all%20come%20to%20pass.%20|But%20it%20is%20impossible%20to%20argue%20that%20the%20industry%20or%20the%20country%20was%20prepared%20for%20a%20disaster%20of%20the%20magnitude%20of%20the%20Deepwater%20Horizon%20oil%20spill.%20Twenty%20years%20after%20the%20Exxon%20Valdez%20spill%20in%20Alaska%2C%20the%20same%20blunt%20response%20technologies%E2%80%94booms%2C%20dispersants%2C%20and%20skimmers%E2%80%94were%20used%2C%20to%20limited%20effect.|%20On-the-ground"
+          }
+        }
+      },
+      {
+        "text": "The spill struck a coast already in crisis. The report sets it against the loss of more than 2,300 square miles of Louisiana's wetlands since the 1927 flood, and calls for a restoration effort lasting decades.",
+        "cites": [
+          {
+            "id": "deepwater-horizon-blowout-produced-largest",
+            "page": 173,
+            "href": "/reports/us-deepwater-horizon?p=deepwater-horizon-blowout-produced-largest"
+          },
+          {
+            "id": "even-before-highly-visible-damages",
+            "page": 197,
+            "href": "/reports/us-deepwater-horizon?p=even-before-highly-visible-damages"
+          }
+        ]
+      },
+      {
+        "text": "Government oversight alone will not be enough, the Commission says; the industry must transform its own safety culture, and should set up a self-policing safety institute modelled on the one the nuclear industry created after Three Mile Island, kept apart from its lobbying body, the American Petroleum Institute.",
+        "cites": [
+          {
+            "id": "chapter-examines-how-petroleum-companies",
+            "page": 217,
+            "href": "/reports/us-deepwater-horizon?p=chapter-examines-how-petroleum-companies"
+          },
+          {
+            "id": "essential-features-self-policing-safety-organization",
+            "page": 241,
+            "href": "/reports/us-deepwater-horizon?p=essential-features-self-policing-safety-organization"
+          },
+          {
+            "id": "credibility-be-credible-any-industry-created",
+            "page": 241,
+            "href": "/reports/us-deepwater-horizon?p=credibility-be-credible-any-industry-created"
+          }
+        ]
+      },
+      {
+        "text": "For government, it recommends an independent safety agency within the Interior Department, regulators funded by fees on industry, a much higher cap on liability for spills, and 80 percent of Clean Water Act penalties for restoring the Gulf.",
+        "cites": [
+          {
+            "id": "although-proposed-reorganization-interior-s",
+            "page": 255,
+            "href": "/reports/us-deepwater-horizon?p=although-proposed-reorganization-interior-s"
+          },
+          {
+            "id": "oil-pollution-act-also-requires",
+            "page": 283,
+            "href": "/reports/us-deepwater-horizon?p=oil-pollution-act-also-requires"
+          },
+          {
+            "id": "order-funding-be-most-efficiently",
+            "page": 279,
+            "href": "/reports/us-deepwater-horizon?p=order-funding-be-most-efficiently"
+          }
+        ],
+        "excerpt": {
+          "quote": "Congress and the Department of the Interior should create an independent agency within the Department of the Interior with enforcement authority to oversee all aspects of offshore drilling safety (operational and occupational), as well as the structural and operational integrity of all offshore energy production facilities, including both oil and gas production and renewable energy production.",
+          "cite": {
+            "id": "although-proposed-reorganization-interior-s",
+            "page": 255,
+            "href": "/reports/us-deepwater-horizon?p=although-proposed-reorganization-interior-s"
+          }
+        }
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "front-matter",
+        "title": "Foreword and Chapter 1: Sudden Death on the Gulf of Mexico",
+        "page": "1",
+        "why": "The co-chairs' seven conclusions, then an hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.",
+        "excerpt": {
+          "quote": "Down in Ezell's cabin, he was still watching TV when his phone rang. It was assistant driller Steve Curtis calling, also from the rig floor. \"We have a situation. …The well is blown out. . . . We have mud going to the crown.\"",
+          "cite": {
+            "id": "down-ezell-s-cabin-still",
+            "page": 8,
+            "href": "/reports/us-deepwater-horizon?p=down-ezell-s-cabin-still&h=|Down%20in%20Ezell's%20cabin%2C%20he%20was%20still%20watching%20TV%20when%20his%20phone%20rang.%20It%20was%20assistant%20driller%20Steve%20Curtis%20calling%2C%20also%20from%20the%20rig%20floor.%20%22We%20have%20a%20situation.%20%E2%80%A6The%20well%20is%20blown%20out.%20.%20.%20.%20We%20have%20mud%20going%20to%20the%20crown.%22|%20Ezell%20was%20horrified.%20%22Do"
+          }
+        }
+      },
+      {
+        "slug": "development-production-plan-development-production-plan-approved-production-well",
+        "title": "Chapters 3 to 5: Regulation, the Blowout and the Response",
+        "page": "62",
+        "why": "From partway through Chapter 3 on the regulator, through Chapter 4's technical account of why the well failed, to the 87-day struggle to cap it.",
+        "excerpt": {
+          "quote": "It appears instead they started from the assumption that the well could not be flowing, and kept running tests and coming up with various explanations until they had convinced themselves their assumption was correct.",
+          "cite": {
+            "id": "given-risk-factors-surrounding-primary",
+            "page": 119,
+            "href": "/reports/us-deepwater-horizon?p=given-risk-factors-surrounding-primary&h=job%20could%20have%20failed.141%20|It%20appears%20instead%20they%20started%20from%20the%20assumption%20that%20the%20well%20could%20not%20be%20flowing%2C%20and%20kept%20running%20tests%20and%20coming%20up%20with%20various%20explanations%20until%20they%20had%20convinced%20themselves%20their%20assumption%20was%20correct.|142"
+          }
+        }
+      },
+      {
+        "slug": "macondo-well",
+        "title": "Chapter 8: Changing Business as Usual",
+        "page": "199",
+        "why": "After the end of Chapter 7 on restoring the Gulf, the case for the industry to change its own safety culture, and how.",
+        "excerpt": {
+          "quote": "The Deepwater Horizon blowout, explosion, and oil spill did not have to happen.",
+          "cite": {
+            "id": "chapter-eight-safety-not-proprietary",
+            "page": 217,
+            "href": "/reports/us-deepwater-horizon?p=chapter-eight-safety-not-proprietary&h=Changing%20Business%20as%20Usual%20|The%20Deepwater%20Horizon%20blowout%2C%20explosion%2C%20and%20oil%20spill%20did%20not%20have%20to%20happen.|%20Previous%20chapters%20have"
+          }
+        }
+      },
+      {
+        "slug": "the-need-for-a-new-independent-agency",
+        "title": "Chapter 9: The Need for a New, Independent Agency",
+        "page": "255",
+        "why": "Why renaming and splitting the old regulator was not enough, and the independent safety agency the Commission proposed instead.",
+        "excerpt": {
+          "quote": "Although the proposed reorganization of Interior's offshore leasing, safety, and revenue management program represents a significant improvement, it does not adequately address the deeper problem of fully insulating the Department's safety and environmental protection functions from the pressures to increase production and maximize lease revenues.",
+          "cite": {
+            "id": "although-proposed-reorganization-interior-s",
+            "page": 255,
+            "href": "/reports/us-deepwater-horizon?p=although-proposed-reorganization-interior-s&h=|Although%20the%20proposed%20reorganization%20of%20Interior's%20offshore%20leasing%2C%20safety%2C%20and%20revenue%20management%20program%20represents%20a%E2%8B%AFt's%20safety%20and%20environmental%20protection%20functions%20from%20the%20pressures%20to%20increase%20production%20and%20maximize%20lease%20revenues.|"
+          }
+        }
+      },
+      {
+        "slug": "the-need-for-adequate-funding-for-safety-oversight-and-environmental",
+        "title": "Chapter 10: American Energy Policy and the Future of Offshore Drilling",
+        "page": "291",
+        "why": "After the last of Chapter 9's recommendations, the Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.",
+        "excerpt": {
+          "quote": "The extent to which offshore drilling contributes to augmenting that domestic supply depends importantly on rebuilding public faith in existing offshore energy exploration and production.",
+          "cite": {
+            "id": "extent-which-offshore-drilling-contributes",
+            "page": 305,
+            "href": "/reports/us-deepwater-horizon?p=extent-which-offshore-drilling-contributes&h=|The%20extent%20to%20which%20offshore%20drilling%20contributes%20to%20augmenting%20that%20domestic%20supply%20depends%20importantly%20on%20rebuilding%20public%20faith%20in%20existing%20offshore%20energy%20exploration%20and%20production.|%20That%20rebuilding%20begins"
+          }
+        }
+      }
+    ]
+  },
   "us-psi-financial-crisis": {
     "status": "approved",
     "whyItMatters": "The U.S. Senate's two-year investigation into what caused the 2008 financial crisis, built on tens of millions of pages of the banks' own emails and documents. It names the institutions, quotes their people, and shows how a bank, its regulator, the rating agencies and Wall Street's investment banks each fed the collapse.",
@@ -1623,6 +2405,277 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "title": "Timberwolf, one deal from start to finish",
         "page": "542",
         "why": "How Goldman sold a CDO to its clients while marking down the same securities on its own books."
+      }
+    ]
+  },
+  "us-v-philip-morris": {
+    "status": "approved",
+    "whyItMatters": "Judge Gladys Kessler's 2006 ruling that America's largest cigarette companies had deceived the public about smoking for some fifty years, in violation of the federal racketeering law. It is not an inquiry's view but a court's judgment, upheld on appeal. Built from a nine-month trial and the companies' own internal documents, it sets out what the industry knew about disease, addiction and \"light\" cigarettes, and what it said in public instead.",
+    "background": [
+      "In December 1953, as new studies linked cigarettes to lung cancer, executives from most of the leading American tobacco companies met at the Plaza Hotel in New York. On 4 January 1954 they announced a joint research committee in \"A Frank Statement to Cigarette Smokers\", published in 448 newspapers, which held that smoking had not been proven to cause disease. In November 1998 the companies settled the states' lawsuits against them in the Master Settlement Agreement.",
+      "On 22 September 1999 the Justice Department sued nine cigarette makers and parent companies, among them Philip Morris and Altria, R.J. Reynolds, Brown & Williamson, Lorillard and Liggett, and two industry bodies, the Tobacco Institute and the Council for Tobacco Research, under the civil racketeering law, RICO. Its claim to $289 billion of past profits was ruled out in 2005, when the appeals court held that the law allows only remedies that prevent future violations. The trial ran for nine months from September 2004, with 84 witnesses. Judge Kessler signed her opinion, shown here in its amended form, on 17 August 2006. She found for the Government on most but not all of its claims, and held that Liggett had withdrawn from the conspiracy. The court rejected the companies' arguments that the 1998 settlement had already changed their conduct and that their statements were protected speech.",
+      "On 22 May 2009 the Court of Appeals for the D.C. Circuit unanimously upheld the finding of liability and most of the remedies; on 28 June 2010 the Supreme Court declined to hear the case. The companies contested the corrective statements for years more. They began running in newspapers and on prime-time network television on 26 November 2017, later appeared on cigarette packs and company websites, and from July 2023 were posted in nearly 200,000 shops."
+    ],
+    "findings": [
+      {
+        "text": "The court found that the companies had conspired to violate RICO and had violated it, running a scheme to defraud smokers and potential smokers for financial gain that lasted some fifty years.",
+        "cites": [
+          {
+            "id": "following-voluminous-findings-fact-demonstrate",
+            "page": 32,
+            "href": "/reports/us-v-philip-morris?p=following-voluminous-findings-fact-demonstrate"
+          },
+          {
+            "id": "government-has-proven-enterprise-knowingly",
+            "page": 1531,
+            "href": "/reports/us-v-philip-morris?p=government-has-proven-enterprise-knowingly"
+          },
+          {
+            "id": "seven-year-history-extraordinarily-complex-case",
+            "page": 33,
+            "href": "/reports/us-v-philip-morris?p=seven-year-history-extraordinarily-complex-case"
+          }
+        ],
+        "excerpt": {
+          "quote": "In short, Defendants have marketed and sold their lethal product with zeal, with deception, with a single-minded focus on their financial success, and without regard for the human tragedy or social costs that success exacted.",
+          "cite": {
+            "id": "seven-year-history-extraordinarily-complex-case",
+            "page": 33,
+            "href": "/reports/us-v-philip-morris?p=seven-year-history-extraordinarily-complex-case&h=or%20cessation%20of%20smoking.%20|In%20short%2C%20Defendants%20have%20marketed%20and%20sold%20their%20lethal%20product%20with%20zeal%2C%20with%20deception%2C%20with%20a%20single-minded%20focus%20on%20their%20financial%20success%2C%20and%20without%20regard%20for%20the%20human%20tragedy%20or%20social%20costs%20that%20success%20exacted.|"
+          }
+        }
+      },
+      {
+        "text": "The court found that for at least 40 years the companies publicly denied that smoking causes disease, to keep up the appearance of an \"open controversy\", while their internal documents acknowledged the purpose of that strategy.",
+        "cites": [
+          {
+            "id": "using-sophisticated-well-organized-machinery-created",
+            "page": 1538,
+            "href": "/reports/us-v-philip-morris?p=using-sophisticated-well-organized-machinery-created"
+          },
+          {
+            "id": "paramount-significance-defendants-internal-documents",
+            "page": 1537,
+            "href": "/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents"
+          },
+          {
+            "id": "smoking-cause-significant-disease-death",
+            "page": 1535,
+            "href": "/reports/us-v-philip-morris?p=smoking-cause-significant-disease-death"
+          }
+        ],
+        "excerpt": {
+          "quote": "Similarly, an undated internal B&W document titled \"Smoking and Health Proposal\" explained: \"Doubt is our product since it is the best means of competing with the 'body of fact' that exists in the mind of the general public. It is also the means of establishing a controversy.\"",
+          "cite": {
+            "id": "paramount-significance-defendants-internal-documents",
+            "page": 1537,
+            "href": "/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents&h=TIMN0071488-91%20at%201489%20(US%2021302).%20|Similarly%2C%20an%20undated%20internal%20B%26W%20document%20titled%20%22Smoking%20and%20Health%20Proposal%22%20explained%3A%20%22Doubt%20is%20our%20product%20since%20it%20is%20the%20best%20means%20of%20competing%20with%20the%20'body%20of%20fact'%20that%20exists%20in%20the%20mind%20of%20the%20general%20public.%20It%20is%20also%20the%20means%20of%20establishing%20a%20controversy.%22|%20690010951-0959%20at%200959"
+          }
+        }
+      },
+      {
+        "text": "It found that the companies denied that nicotine is addictive, although they recognised it internally, and falsely denied that they controlled the nicotine their cigarettes deliver.",
+        "cites": [
+          {
+            "id": "defendants-have-made-continue-make",
+            "page": 1538,
+            "href": "/reports/us-v-philip-morris?p=defendants-have-made-continue-make"
+          },
+          {
+            "id": "indeed-day-none-defendant-cigarette",
+            "page": 1539,
+            "href": "/reports/us-v-philip-morris?p=indeed-day-none-defendant-cigarette"
+          },
+          {
+            "id": "defendants-spent-many-millions-dollars",
+            "page": 1543,
+            "href": "/reports/us-v-philip-morris?p=defendants-spent-many-millions-dollars"
+          }
+        ],
+        "excerpt": {
+          "quote": "Defendants spent many millions of dollars and thousands of scientist hours over decades to ensure that smokers of all brands consumed sufficient nicotine to establish and maintain addiction.",
+          "cite": {
+            "id": "defendants-spent-many-millions-dollars",
+            "page": 1543,
+            "href": "/reports/us-v-philip-morris?p=defendants-spent-many-millions-dollars&h=|Defendants%20spent%20many%20millions%20of%20dollars%20and%20thousands%20of%20scientist%20hours%20over%20decades%20to%20ensure%20that%20smokers%20of%20all%20brands%20consumed%20sufficient%20nicotine%20to%20establish%20and%20maintain%20addiction.|%20Defendants'%20own%20internal"
+          }
+        }
+      },
+      {
+        "text": "It found that the companies marketed \"light\" and \"low tar\" cigarettes to keep would-be quitters smoking, knowing for decades that they offered no meaningful reduction in risk.",
+        "cites": [
+          {
+            "id": "part-scheme-intercept-potential-quitters",
+            "page": 1544,
+            "href": "/reports/us-v-philip-morris?p=part-scheme-intercept-potential-quitters"
+          },
+          {
+            "id": "defendants-efforts-have-been-successful",
+            "page": 1545,
+            "href": "/reports/us-v-philip-morris?p=defendants-efforts-have-been-successful"
+          },
+          {
+            "id": "short-defendants-have-known-decades",
+            "page": 1545,
+            "href": "/reports/us-v-philip-morris?p=short-defendants-have-known-decades"
+          }
+        ]
+      },
+      {
+        "text": "It found that the companies recognised new teenage smokers as essential to their profits, marketed to young people, and publicly denied doing so.",
+        "cites": [
+          {
+            "id": "defendants-fraudulent-statements-stem-from",
+            "page": 1548,
+            "href": "/reports/us-v-philip-morris?p=defendants-fraudulent-statements-stem-from"
+          },
+          {
+            "id": "defendants-aggressively-pursued-youth-market",
+            "page": 1549,
+            "href": "/reports/us-v-philip-morris?p=defendants-aggressively-pursued-youth-market"
+          }
+        ],
+        "excerpt": {
+          "quote": "Defendants aggressively pursued the youth market, often not distinguishing those under 18 from those under 21, while publicly denying their activities. For example, Tobacco Institute spokesperson Brennan Dawson appeared on television and provided statements to newspapers, making such assertions as, \"If a child never picks up another cigarette, it would be fine with the tobacco industry.\"",
+          "cite": {
+            "id": "defendants-aggressively-pursued-youth-market",
+            "page": 1549,
+            "href": "/reports/us-v-philip-morris?p=defendants-aggressively-pursued-youth-market&h=|Defendants%20aggressively%20pursued%20the%20youth%20market%2C%20often%20not%20distinguishing%20those%20under%2018%20from%20those%20under%2021%2C%20while%20pub%E2%8B%AFs%2C%20making%20such%20assertions%20as%2C%20%22If%20a%20child%20never%20picks%20up%20another%20cigarette%2C%20it%20would%20be%20fine%20with%20the%20tobacco%20industry.%22|%20See%2C%20e.g.%2C%20(no%20bates)"
+          }
+        }
+      },
+      {
+        "text": "It found that the companies denied that secondhand smoke causes disease despite acknowledging its hazards internally, and that they suppressed, concealed and destroyed documents and research. The opinion singles out the central role of their lawyers.",
+        "cites": [
+          {
+            "id": "despite-their-internal-acknowledgment-hazards",
+            "page": 1553,
+            "href": "/reports/us-v-philip-morris?p=despite-their-internal-acknowledgment-hazards"
+          },
+          {
+            "id": "throughout-past-fifty-years-defendants",
+            "page": 1556,
+            "href": "/reports/us-v-philip-morris?p=throughout-past-fifty-years-defendants"
+          },
+          {
+            "id": "finally-word-must-be-said",
+            "page": 34,
+            "href": "/reports/us-v-philip-morris?p=finally-word-must-be-said"
+          }
+        ]
+      },
+      {
+        "text": "The court did not find every allegation proved. It held that the Government had not shown that the companies deliberately chose to sabotage the marketing and production of less hazardous cigarettes.",
+        "cites": [
+          {
+            "id": "court-concludes-government-has-failed",
+            "page": 768,
+            "href": "/reports/us-v-philip-morris?p=court-concludes-government-has-failed"
+          }
+        ]
+      },
+      {
+        "text": "Finding that the violations were likely to continue and that the 1998 settlement had not changed the companies' conduct enough, the court banned \"light\", \"low tar\" and similar descriptors and ordered corrective statements on five subjects.",
+        "cites": [
+          {
+            "id": "defendants-senior-executives-took-witness",
+            "page": 1634,
+            "href": "/reports/us-v-philip-morris?p=defendants-senior-executives-took-witness"
+          },
+          {
+            "id": "while-msa-has-made-significant",
+            "page": 1639,
+            "href": "/reports/us-v-philip-morris?p=while-msa-has-made-significant"
+          },
+          {
+            "id": "court-will-therefore-order-ban",
+            "page": 1660,
+            "href": "/reports/us-v-philip-morris?p=court-will-therefore-order-ban"
+          },
+          {
+            "id": "accordingly-court-will-structure-remedy",
+            "page": 1665,
+            "href": "/reports/us-v-philip-morris?p=accordingly-court-will-structure-remedy"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "introduction",
+        "title": "Introduction",
+        "page": "32",
+        "why": "The whole judgment in four pages — what the Government alleged, what the court found, the remedies it could and could not order, and a word on the lawyers.",
+        "excerpt": {
+          "quote": "At every stage, lawyers played an absolutely central role in the creation and perpetuation of the Enterprise and the implementation of its fraudulent schemes.",
+          "cite": {
+            "id": "finally-word-must-be-said",
+            "page": 34,
+            "href": "/reports/us-v-philip-morris?p=finally-word-must-be-said&h=addictiveness%20of%20nicotine.%20|At%20every%20stage%2C%20lawyers%20played%20an%20absolutely%20central%20role%20in%20the%20creation%20and%20perpetuation%20of%20the%20Enterprise%20and%20the%20implementation%20of%20its%20fraudulent%20schemes.|%20They%20devised%20and"
+          }
+        }
+      },
+      {
+        "slug": "pre-1953-overviewthe-rise-in-american-smoking-and-the-status-of-scientific",
+        "title": "Pre-1953 Overview — The Rise in American Smoking and the Status of Scientific Research on Smoking and Health",
+        "page": "47",
+        "why": "Where it began — the December 1953 meeting at the Plaza Hotel, the public relations firm Hill & Knowlton, and the \"Frank Statement\" of January 1954."
+      },
+      {
+        "slug": "defendants-falsely-denied-the-adverse-health-effects-of-smoking",
+        "title": "Defendants Falsely Denied the Adverse Health Effects of Smoking",
+        "page": "1536",
+        "why": "The court's conclusions on the central deception, with the internal memos that set out the \"open controversy\" strategy.",
+        "excerpt": {
+          "quote": "Using the sophisticated and well-organized machinery created to serve their agenda, Defendants fraudulently denied the adverse health effects of smoking for at least 40 years in order to sustain the appearance of an open controversy about the link between smoking and disease, and thereby maintain and enhance the cigarette market and their collective revenues.",
+          "cite": {
+            "id": "using-sophisticated-well-organized-machinery-created",
+            "page": 1538,
+            "href": "/reports/us-v-philip-morris?p=using-sophisticated-well-organized-machinery-created&h=|Using%20the%20sophisticated%20and%20well-organized%20machinery%20created%20to%20serve%20their%20agenda%2C%20Defendants%20fraudulently%20denied%20the%20a%E2%8B%AFe%20link%20between%20smoking%20and%20disease%2C%20and%20thereby%20maintain%20and%20enhance%20the%20cigarette%20market%20and%20their%20collective%20revenues.|"
+          }
+        }
+      },
+      {
+        "slug": "defendants-falsely-denied-that-they-market-to-youth",
+        "title": "Defendants Falsely Denied that They Market to Youth",
+        "page": "1549",
+        "why": "The court's conclusions on marketing to young people, and on the companies' public denials.",
+        "excerpt": {
+          "quote": "Defendants' fraudulent statements stem from their recognition, contained in internal documents written for decades, that new teenage smokers were essential to their continued profitability.",
+          "cite": {
+            "id": "defendants-fraudulent-statements-stem-from",
+            "page": 1548,
+            "href": "/reports/us-v-philip-morris?p=defendants-fraudulent-statements-stem-from&h=|Defendants'%20fraudulent%20statements%20stem%20from%20their%20recognition%2C%20contained%20in%20internal%20documents%20written%20for%20decades%2C%20that%20new%20teenage%20smokers%20were%20essential%20to%20their%20continued%20profitability.|%20See%20Findings%20of%20Fact"
+          }
+        }
+      },
+      {
+        "slug": "applicable-law",
+        "title": "Applicable Law",
+        "page": "1632",
+        "why": "Why the court concluded the companies had not changed — including what their senior executives said on the witness stand.",
+        "excerpt": {
+          "quote": "For example, during live testimony in January 2005, more than forty years after the 1964 Surgeon General's Report, Reynolds American Executive Chairman Andrew Schindler refused to admit that smoking causes disease.",
+          "cite": {
+            "id": "defendants-senior-executives-took-witness",
+            "page": 1634,
+            "href": "/reports/us-v-philip-morris?p=defendants-senior-executives-took-witness&h=permanent%20institutional%20change.%20|For%20example%2C%20during%20live%20testimony%20in%20January%202005%2C%20more%20than%20forty%20years%20after%20the%201964%20Surgeon%20General's%20Report%2C%20Reynolds%20American%20Executive%20Chairman%20Andrew%20Schindler%20refused%20to%20admit%20that%20smoking%20causes%20disease.|%20Schindler%20TT%2C%201%2F24%2F05%2C"
+          }
+        }
+      },
+      {
+        "slug": "section-v-e-defendants-know-that-health-concerns-are-the-primary-motivation-for-",
+        "title": "Remedies: Banning \"Light\" and \"Low Tar\"",
+        "page": "1658",
+        "why": "The remedy the court ordered first — a ban on descriptors that imply a cigarette is less harmful.",
+        "excerpt": {
+          "quote": "Accordingly, beginning January 1, 2007, Defendants are prohibited from using any descriptors indicating lower tar delivery -- including, but not limited to, \"low tar,\" \"light,\" \"mild,\" \"medium\" and \"ultra light\" -- which create the false impression that such cigarettes are less harmful to smokers.",
+          "cite": {
+            "id": "court-will-therefore-order-ban",
+            "page": 1660,
+            "href": "/reports/us-v-philip-morris?p=court-will-therefore-order-ban&h=the%20absence%20of%20such%20a%20ban.%20|Accordingly%2C%20beginning%20January%201%2C%202007%2C%20Defendants%20are%20prohibited%20from%20using%20any%20descriptors%20indicating%20lower%20tar%20delivery%20--%20including%2C%20but%20not%20limited%20to%2C%20%22low%20tar%2C%22%20%22light%2C%22%20%22mild%2C%22%20%22medium%22%20and%20%22ultra%20light%22%20--%20which%20create%20the%20false%20impression%20that%20such%20cigarettes%20are%20less%20harmful%20to%20smokers.|52"
+          }
+        }
       }
     ]
   }

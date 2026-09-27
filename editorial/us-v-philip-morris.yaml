@@ -1,0 +1,216 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# Extraction note: in this report the numbered Findings of Fact (the bulk of
+# the opinion) render as list items without paragraph ids, so they cannot be
+# cited; findings below cite the Introduction and the Conclusions of Law, whose
+# paragraphs do have ids. Several section headings are body or footnote text
+# ("Section V: (E). Defendants know ..."); reading_guide overrides the one it
+# uses. Filed as beads for the ingestion pipeline.
+#
+# Background facts not stated in the report itself, verified 2026-09-26:
+#   - Suit filed 22 September 1999:
+#     https://www.publichealthlawcenter.org/sites/default/files/resources/tclc-fs-DOJ-litigation-overview-2015.pdf
+#     https://en.wikipedia.org/wiki/United_States_v._Philip_Morris
+#   - D.C. Circuit, 22 May 2009, unanimously upheld liability and most remedies:
+#     https://www.publichealthlawcenter.org/litigation-tracker/united-states-and-tobacco-free-kids-action-fund-v-philip-morris-556-f3d-1095-dc
+#   - Supreme Court denied review, 28 June 2010: PHLC overview (above).
+#   - Corrective statements in newspapers and on prime-time network television
+#     from 26 November 2017, after years of litigation over their wording:
+#     https://www.publichealthlawcenter.org/commentary/171017/court-ordered-corrective-statements-take-effect-more-decade-after-ruling
+#     https://www.tobaccofreekids.org/press-releases/2017_11_20_corrective_statements
+#   - Also on cigarette packs and company websites; December 2022 order for
+#     signs in nearly 200,000 shops, posted from July 2023:
+#     https://www.tobaccofreekids.org/press-releases/2022_12_06_court-order-store-signs
+#     https://www.tobaccofreekids.org/press-releases/2023_07_01_tobacco-racketeering-verdict-corrective-statements
+#   Everything else (the 1953 Plaza Hotel meeting, the Frank Statement, the
+#   1998 Master Settlement Agreement, the 2005 appeal ruling on disgorgement,
+#   the trial) is drawn from the opinion itself.
+#
+# status: draft until Rufus approves; only approved files render without ?draft.
+
+report: us-v-philip-morris
+status: approved
+
+why_it_matters: >-
+  Judge Gladys Kessler's 2006 ruling that America's largest cigarette companies
+  had deceived the public about smoking for some fifty years, in violation of
+  the federal racketeering law. It is not an inquiry's view but a court's
+  judgment, upheld on appeal. Built from a nine-month trial and the companies'
+  own internal documents, it sets out what the industry knew about disease,
+  addiction and "light" cigarettes, and what it said in public instead.
+
+background: |
+  In December 1953, as new studies linked cigarettes to lung cancer, executives from most of the leading American tobacco companies met at the Plaza Hotel in New York. On 4 January 1954 they announced a joint research committee in "A Frank Statement to Cigarette Smokers", published in 448 newspapers, which held that smoking had not been proven to cause disease. In November 1998 the companies settled the states' lawsuits against them in the Master Settlement Agreement.
+
+  On 22 September 1999 the Justice Department sued nine cigarette makers and parent companies, among them Philip Morris and Altria, R.J. Reynolds, Brown & Williamson, Lorillard and Liggett, and two industry bodies, the Tobacco Institute and the Council for Tobacco Research, under the civil racketeering law, RICO. Its claim to $289 billion of past profits was ruled out in 2005, when the appeals court held that the law allows only remedies that prevent future violations. The trial ran for nine months from September 2004, with 84 witnesses. Judge Kessler signed her opinion, shown here in its amended form, on 17 August 2006. She found for the Government on most but not all of its claims, and held that Liggett had withdrawn from the conspiracy. The court rejected the companies' arguments that the 1998 settlement had already changed their conduct and that their statements were protected speech.
+
+  On 22 May 2009 the Court of Appeals for the D.C. Circuit unanimously upheld the finding of liability and most of the remedies; on 28 June 2010 the Supreme Court declined to hear the case. The companies contested the corrective statements for years more. They began running in newspapers and on prime-time network television on 26 November 2017, later appeared on cigarette packs and company websites, and from July 2023 were posted in nearly 200,000 shops.
+
+findings:
+  - text: The court found that the companies had conspired to violate RICO and had violated it, running a scheme to defraud smokers and potential smokers for financial gain that lasted some fifty years.
+    cites: [following-voluminous-findings-fact-demonstrate, government-has-proven-enterprise-knowingly, seven-year-history-extraordinarily-complex-case]
+    excerpt:
+      paragraph: seven-year-history-extraordinarily-complex-case
+      quote: >-
+        In short, Defendants have marketed and sold their lethal product with
+        zeal, with deception, with a single-minded focus on their financial
+        success, and without regard for the human tragedy or social costs that
+        success exacted.
+
+  - text: The court found that for at least 40 years the companies publicly denied that smoking causes disease, to keep up the appearance of an "open controversy", while their internal documents acknowledged the purpose of that strategy.
+    cites: [using-sophisticated-well-organized-machinery-created, paramount-significance-defendants-internal-documents, smoking-cause-significant-disease-death]
+    excerpt:
+      paragraph: paramount-significance-defendants-internal-documents
+      quote: >-
+        Similarly, an undated internal B&W document titled "Smoking and Health
+        Proposal" explained: "Doubt is our product since it is the best means
+        of competing with the 'body of fact' that exists in the mind of the
+        general public. It is also the means of establishing a controversy."
+
+  - text: It found that the companies denied that nicotine is addictive, although they recognised it internally, and falsely denied that they controlled the nicotine their cigarettes deliver.
+    cites: [defendants-have-made-continue-make, indeed-day-none-defendant-cigarette, defendants-spent-many-millions-dollars]
+    excerpt:
+      paragraph: defendants-spent-many-millions-dollars
+      quote: >-
+        Defendants spent many millions of dollars and thousands of scientist
+        hours over decades to ensure that smokers of all brands consumed
+        sufficient nicotine to establish and maintain addiction.
+
+  - text: It found that the companies marketed "light" and "low tar" cigarettes to keep would-be quitters smoking, knowing for decades that they offered no meaningful reduction in risk.
+    cites: [part-scheme-intercept-potential-quitters, defendants-efforts-have-been-successful, short-defendants-have-known-decades]
+
+  - text: It found that the companies recognised new teenage smokers as essential to their profits, marketed to young people, and publicly denied doing so.
+    cites: [defendants-fraudulent-statements-stem-from, defendants-aggressively-pursued-youth-market]
+    excerpt:
+      paragraph: defendants-aggressively-pursued-youth-market
+      quote: >-
+        Defendants aggressively pursued the youth market, often not
+        distinguishing those under 18 from those under 21, while publicly
+        denying their activities. For example, Tobacco Institute spokesperson
+        Brennan Dawson appeared on television and provided statements to
+        newspapers, making such assertions as, "If a child never picks up
+        another cigarette, it would be fine with the tobacco industry."
+
+  - text: It found that the companies denied that secondhand smoke causes disease despite acknowledging its hazards internally, and that they suppressed, concealed and destroyed documents and research. The opinion singles out the central role of their lawyers.
+    cites: [despite-their-internal-acknowledgment-hazards, throughout-past-fifty-years-defendants, finally-word-must-be-said]
+
+  - text: The court did not find every allegation proved. It held that the Government had not shown that the companies deliberately chose to sabotage the marketing and production of less hazardous cigarettes.
+    cites: [court-concludes-government-has-failed]
+
+  - text: Finding that the violations were likely to continue and that the 1998 settlement had not changed the companies' conduct enough, the court banned "light", "low tar" and similar descriptors and ordered corrective statements on five subjects.
+    cites: [defendants-senior-executives-took-witness, while-msa-has-made-significant, court-will-therefore-order-ban, accordingly-court-will-structure-remedy]
+
+reading_guide:
+  - section: introduction
+    title: Introduction
+    why: The whole judgment in four pages — what the Government alleged, what the court found, the remedies it could and could not order, and a word on the lawyers.
+    excerpt:
+      paragraph: finally-word-must-be-said
+      quote: >-
+        At every stage, lawyers played an absolutely central role in the
+        creation and perpetuation of the Enterprise and the implementation of
+        its fraudulent schemes.
+
+  - section: pre-1953-overviewthe-rise-in-american-smoking-and-the-status-of-scientific
+    title: Pre-1953 Overview — The Rise in American Smoking and the Status of Scientific Research on Smoking and Health
+    why: Where it began — the December 1953 meeting at the Plaza Hotel, the public relations firm Hill & Knowlton, and the "Frank Statement" of January 1954.
+
+  - section: defendants-falsely-denied-the-adverse-health-effects-of-smoking
+    why: The court's conclusions on the central deception, with the internal memos that set out the "open controversy" strategy.
+    excerpt:
+      paragraph: using-sophisticated-well-organized-machinery-created
+      quote: >-
+        Using the sophisticated and well-organized machinery created to serve
+        their agenda, Defendants fraudulently denied the adverse health effects
+        of smoking for at least 40 years in order to sustain the appearance of
+        an open controversy about the link between smoking and disease, and
+        thereby maintain and enhance the cigarette market and their collective
+        revenues.
+
+  - section: defendants-falsely-denied-that-they-market-to-youth
+    why: The court's conclusions on marketing to young people, and on the companies' public denials.
+    excerpt:
+      paragraph: defendants-fraudulent-statements-stem-from
+      quote: >-
+        Defendants' fraudulent statements stem from their recognition, contained
+        in internal documents written for decades, that new teenage smokers
+        were essential to their continued profitability.
+
+  - section: applicable-law
+    why: Why the court concluded the companies had not changed — including what their senior executives said on the witness stand.
+    excerpt:
+      paragraph: defendants-senior-executives-took-witness
+      quote: >-
+        For example, during live testimony in January 2005, more than forty
+        years after the 1964 Surgeon General's Report, Reynolds American
+        Executive Chairman Andrew Schindler refused to admit that smoking
+        causes disease.
+
+  - section: section-v-e-defendants-know-that-health-concerns-are-the-primary-motivation-for-
+    title: "Remedies: Banning \"Light\" and \"Low Tar\""
+    why: The remedy the court ordered first — a ban on descriptors that imply a cigarette is less harmful.
+    excerpt:
+      paragraph: court-will-therefore-order-ban
+      quote: >-
+        Accordingly, beginning January 1, 2007, Defendants are prohibited from
+        using any descriptors indicating lower tar delivery -- including, but
+        not limited to, "low tar," "light," "mild," "medium" and "ultra light"
+        -- which create the false impression that such cigarettes are less
+        harmful to smokers.
+
+highlights:
+  - paragraph: we-believe-products-we-make
+    quote: We believe the products we make are not injurious to health.
+    card: true
+  - paragraph: paramount-significance-defendants-internal-documents
+    quote: >-
+      "Doubt is our product since it is the best means of competing with the
+      'body of fact' that exists in the mind of the general public. It is also
+      the means of establishing a controversy."
+    card: true
+  - paragraph: paramount-significance-defendants-internal-documents
+    quote: >-
+      "Our basic position in the cigarette controversy is subject to the
+      charge, and may be subject to a finding, that we are making false or
+      misleading statements to promote the sale of cigarettes."
+    card: true
+  - paragraph: smoking-cause-significant-disease-death
+    quote: Cigarette smoking and exposure to secondhand smoke kills 440,000 Americans every year, or more than 1,200 every single day.
+    card: true
+  - paragraph: seven-year-history-extraordinarily-complex-case
+    quote: >-
+      In short, Defendants have marketed and sold their lethal product with
+      zeal, with deception, with a single-minded focus on their financial
+      success, and without regard for the human tragedy or social costs that
+      success exacted.
+    card: true
+  - paragraph: what-sad-disquieting-chapter-history
+    quote: What a sad and disquieting chapter in the history of an honorable and often courageous profession.
+  - paragraph: defendants-fraudulent-statements-stem-from
+    quote: >-
+      "Today's teenager is tomorrow's potential regular customer, and the
+      overwhelming majority of smokers first begin to smoke while still in
+      their teens.
+    card: true
+  - paragraph: defendants-aggressively-pursued-youth-market
+    quote: '"If a child never picks up another cigarette, it would be fine with the tobacco industry."'
+  - paragraph: defendants-senior-executives-took-witness
+    quote: >-
+      during live testimony in January 2005, more than forty years after the
+      1964 Surgeon General's Report, Reynolds American Executive Chairman
+      Andrew Schindler refused to admit that smoking causes disease.
+  - paragraph: indeed-day-none-defendant-cigarette
+    quote: Indeed, to this day none of Defendant cigarette manufacturers publicly admit that nicotine is an addictive drug delivered in cigarettes.
+  - paragraph: defendants-spent-many-millions-dollars
+    quote: >-
+      Defendants spent many millions of dollars and thousands of scientist
+      hours over decades to ensure that smokers of all brands consumed
+      sufficient nicotine to establish and maintain addiction.
+  - paragraph: despite-their-internal-acknowledgment-hazards
+    quote: >-
+      "In fact, there is little evidence -- and certainly nothing which proves
+      scientifically -- that cigarette smoke causes disease in nonsmokers."
+  - paragraph: there-therefore-no-reason-especially
+    quote: There is therefore no reason, especially given their long history of denial and deceit, to trust their assurances that they will not continue committing RICO violations denying their marketing to youth.

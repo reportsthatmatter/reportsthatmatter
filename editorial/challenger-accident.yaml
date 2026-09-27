@@ -1,0 +1,220 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and the rules. Every quote is verbatim from the rendered report
+# (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
+#
+# This is the House Committee on Science and Technology's report (House Report
+# 99-1016), not the Rogers Commission's. The Committee reviewed the
+# Commission's work and held its own hearings; the report says so itself
+# (sections `introduction` and `challenger-investigation-hearings`).
+#
+# Extraction note: many of this report's section headings are OCR artefacts or
+# shouted captions ("FIGURE", "W I L L NOT 1 SEAL", "Fletcher, the Solid Rocket
+# Motor Source Evaluation Board (SEB)"). `reading_guide` overrides the titles of
+# the sections it uses. The Conclusions' key sentence on "poor technical
+# decision-making" is split between a block quotation and the next paragraph
+# across a page break, so it cannot be quoted cleanly; it is paraphrased in
+# findings instead. Filed as reportsthatmatter-c1y (headings) and
+# reportsthatmatter-m2y (severed Conclusions sentence).
+#
+# Background facts not stated in the report itself, verified 2026-09-26:
+#   - Challenger broke apart 73 seconds into flight; the seven crew, including
+#     Christa McAuliffe of the Teacher in Space Project:
+#     https://www.nasa.gov/challenger-sts-51l-accident/
+#   - Rogers Commission: Executive Order 12546, chaired by William P. Rogers
+#     (former Secretary of State); members included Neil Armstrong, Sally Ride
+#     and Richard Feynman:
+#     https://en.wikipedia.org/wiki/Rogers_Commission_Report
+#   - Return to flight: STS-26, Discovery, 29 September 1988, after a 32-month
+#     hiatus, with a redesigned SRB field joint:
+#     https://www.nasa.gov/history/35-years-ago-sts-26-returns-the-space-shuttle-to-flight/
+#   - Columbia Accident Investigation Board, August 2003: chapter 8, "History
+#     as a Cause: Columbia and Challenger", and its finding of "reliance on past
+#     success as a substitute for sound engineering practices":
+#     https://www.nasa.gov/wp-content/uploads/static/history/columbia/reports/CAIBreportv1.pdf
+#   Everything else (dates of the Commission's creation and report, the
+#   Committee's hearings, approval and publication, the February 1987
+#   deadline) is from the report itself.
+#
+# status: approved on Rufus's standing instruction to ship intros without review.
+
+report: challenger-accident
+status: approved
+
+why_it_matters: >-
+  The US House of Representatives' own investigation of the Challenger
+  disaster of 1986, written by the committee that authorised and funded NASA.
+  It agrees with the Rogers Commission on what failed but not on why, placing
+  the blame on years of poor technical decisions rather than poor
+  communication, and it names Congress among those who pushed NASA to fly
+  too often.
+
+background: |
+  On 28 January 1986 the Space Shuttle Challenger broke apart 73 seconds after
+  lifting off from Kennedy Space Center, killing its crew of seven, among them
+  Christa McAuliffe, a schoolteacher flying under NASA's Teacher in Space
+  Project. A seal in a joint of the right-hand solid rocket booster had failed
+  after a night of freezing temperatures at the Cape.
+
+  That day the chairman of the House Committee on Science and Technology, Don
+  Fuqua, told the House that the Committee would investigate. On 3 February
+  President Reagan appointed a Presidential Commission under William P.
+  Rogers, a former Secretary of State, whose members included Neil Armstrong,
+  Sally Ride and Richard Feynman. The Committee chose not to duplicate that
+  inquiry but to review it: once the Rogers Commission reported in June 1986,
+  it held ten hearings with 60 witnesses, chaired by Robert A. Roe, and had
+  full access to the Commission's database. The Committee approved this report
+  on 7 October 1986, and it was published as House Report 99-1016 on 29
+  October. It is a congressional oversight report: it sets out findings and
+  recommendations, and directed NASA to report back on each by 15 February
+  1987.
+
+  The Shuttle did not fly again for 32 months. Discovery returned it to flight
+  on 29 September 1988, with a redesigned booster joint. After Columbia was lost
+  in 2003, its investigation board devoted a chapter to comparing the two
+  accidents, and found again a "reliance on past success as a substitute for
+  sound engineering practices".
+
+findings:
+  - text: Like the Rogers Commission, the Committee concluded that the accident was caused by the failure of the aft field joint on the right-hand solid rocket motor, a faulty design that neither NASA nor its contractor, Morton Thiokol, fully understood.
+    cites: [like-rogers-commission-committee-concluded, findings-2]
+
+  - text: Where the Commission pointed to a flawed decision-making process, the Committee concludes that the underlying problem was not poor communication but poor technical decision-making, over several years, by top NASA and Thiokol managers. Information on the joint's flaws had been presented to every level of Shuttle management.
+    cites: [other-areas-committee-reached-somewhat, information-flaws-joint-design-problems, throughout-hearings-witnesses-said-had]
+    excerpt:
+      paragraph: information-flaws-joint-design-problems
+      quote: >-
+        Information on the flaws in the joint design and on the problems
+        encountered in missions prior to 51-L was widely available and had
+        been presented to all levels of Shuttle management. Despite the
+        presence of significant amounts of information and the occurrence of
+        at least one detailed briefing at Headquarters on the difficulties
+        with the 0rings, the NASA and Thiokol technical managers failed to
+        understand or fully accept the seriousness of the problem.
+
+  - text: Seals had been eroding on flight after flight. The report finds that NASA came to treat this damage as "acceptable" and "within experience base", and chose to keep flying while a measured, 27-month fix proceeded.
+    cites: [after-ignition-solid-propellant-srm, nasa-chose-continue-fly-flawed, committee-concurs-dr-feynman-s]
+    excerpt:
+      paragraph: committee-concurs-dr-feynman-s
+      quote: >-
+        The Committee concurs with Dr. Feynman's analysis that NASA had no
+        understanding of the O-ring erosion phenomenon, and their rationale
+        for accepting it was not based on sound engineering principles.
+
+  - text: On the eve of the launch, Thiokol engineers warned that the cold would impair the seals. The report finds that the response of Marshall managers led Thiokol's management to set aside their own engineers' judgement and recommend launch, and that the decision rested on faulty engineering analysis.
+    cites: [findings-3, eve-launch-thiokol-engineers-attempted, cern-about-delay-such-constraints]
+    excerpt:
+      paragraph: findings-3
+      quote: >-
+        The decision to launch STS 51-L was based on a faulty engineering
+        analysis of the SRM field joint seal behavior.
+
+  - text: The Committee found that NASA's drive for 24 flights a year created pressure that contributed directly to unsafe launch operations, and it acknowledges that the Committee itself, Congress and the Administration helped create that pressure.
+    cites: [committee-found-nasa-s-drive, committee-congress-administration-have-played, there-no-doubt-operating-pressures]
+    excerpt:
+      paragraph: committee-found-nasa-s-drive
+      quote: >-
+        The Committee found that NASA's drive to achieve a launch schedule of
+        24 flights per year created pressure throughout the agency that
+        directly contributed to unsafe launch operations.
+
+  - text: The Committee confirms the Commission's finding that NASA's safety, reliability and quality assurance programmes were grossly inadequate, and finds nothing to show that NASA's safety staff ever evaluated the seal problem.
+    cites: [concurrence-rogers-commission-committee-con, second-there-nothing-show-what]
+
+  - text: It goes beyond the Commission on other hardware, raising concerns about the margins of the Shuttle's main engines and recommending a new specification for its landing gear, tyres and brakes. It also finds that NASA's management waived its own launch commit criteria on the morning of the launch without a valid technical reason.
+    cites: [space-shuttle-main-engine-we, committee-has-gone-beyond-rogers, nasa-s-management-waived-its]
+
+reading_guide:
+  - section: conclusions
+    title: Conclusions
+    why: The Committee's verdict in a few pages, including where and why it parts company with the Rogers Commission, followed by a digest of every finding.
+    excerpt:
+      paragraph: nasa-management-congress-must-remember
+      quote: >-
+        NASA management and the Congress must remember the lessons learned
+        from the Challenger accident and never again set unreasonable goals
+        which stress the system beyond its safe functioning.
+
+  - section: history
+    title: History
+    why: The joint problem from the 1973 contract to the night before launch, set out as a chronology of what NASA and Thiokol knew and when.
+    excerpt:
+      paragraph: seven-different-times-shuttle-program
+      quote: >-
+        At seven different times in the Shuttle Program, NASA and Thiokol
+        managers made poor technical decisions that ultimately permitted
+        continued flight of an unsafe Solid Rocket Motor design.
+
+  - section: summary-of-casing-joint-design
+    title: Summary of Casing Joint Design
+    why: How the booster joint worked, why it failed, and how erosion of its seals came to be treated as acceptable.
+    excerpt:
+      paragraph: after-ignition-solid-propellant-srm
+      quote: >-
+        But rather than identify this condition as a joint that didn't seal,
+        that is, a joint that had already failed, NASA elected to regard a
+        certain degree of erosion or blow-by as "acceptable."
+
+  - section: lockheed-shuttle-processing-contract-award-fee-history
+    title: Pressures on Shuttle Operations
+    why: Where the pressure to fly more often came from, and what it did to training, planning and safety.
+    excerpt:
+      paragraph: there-no-doubt-operating-pressures
+      quote: >-
+        Without operating pressures the program might have been stopped
+        months before the accident to redesign or at least understand the SRB
+        joint. Without operating pressure the flight could have been stopped
+        the night of January 27.
+
+  - section: figure-2
+    title: Technical Management
+    why: Why senior managers did not act on the seal problem, including a NASA manager's own account of how they talked themselves into it.
+    excerpt:
+      paragraph: why-then-did-top-technical
+      quote: >-
+        When we recognized that it had design deficiency, we did not fix it.
+        Then we continued to fly with it, and rationalized why it was safe,
+        and eventually concluded and convinced ourselves that it was an
+        acceptable risk.
+
+  - section: the-sts-51-l-launch-decision
+    title: The STS 51-L Launch Decision
+    why: The flight readiness reviews, the teleconference of 27 January, and the ice on the launch pad the next morning.
+    excerpt:
+      paragraph: clearly-evident-fact-flight-readiness
+      quote: >-
+        Clearly evident is the fact that the Flight Readiness Review
+        procedure cannot compensate for poor engineering analysis.
+
+highlights:
+  - paragraph: committee-found-nasa-s-drive
+    quote: The Committee found that NASA's drive to achieve a launch schedule of 24 flights per year created pressure throughout the agency that directly contributed to unsafe launch operations.
+    card: true
+  - paragraph: committee-congress-administration-have-played
+    quote: The Committee, the Congress, and the Administration have played a contributing role in creating this pressure.
+    card: true
+  - paragraph: what-we-committee-nasa-agency
+    quote: What we as a Committee, NASA as an agency, and the Nation as a whole, also must realize is that the lessons learned by the Challenger accident are universally applicable, not just for NASA but for governments, and for society.
+    card: true
+  - paragraph: nasa-chose-continue-fly-flawed
+    quote: NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program.
+  - paragraph: there-no-sense-urgency-their
+    quote: No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance.
+  - paragraph: committee-concurs-dr-feynman-s
+    quote: The Committee concurs with Dr. Feynman's analysis that NASA had no understanding of the O-ring erosion phenomenon, and their rationale for accepting it was not based on sound engineering principles.
+    card: true
+  - paragraph: executive-summary-help-seal-task
+    quote: Executive Summary. HELP! The seal task force is constantly being delayed by every possible means.
+    card: true
+  - paragraph: hindsight-fundamental-error-pervades-history
+    quote: In hindsight, a fundamental error that pervades the history of the seal erosion problem is this reliance on the "experience base" argument.
+  - paragraph: clearly-evident-fact-flight-readiness
+    quote: Clearly evident is the fact that the Flight Readiness Review procedure cannot compensate for poor engineering analysis.
+  - paragraph: there-no-doubt-operating-pressures
+    quote: Without operating pressure the flight could have been stopped the night of January 27.
+    card: true
+  - paragraph: should-also-be-recognized-report
+    quote: We are equally convinced, however, that the resulting decision to launch was arrived at as a logical conclusion of faulty premises, coupled with a failure to recognize the effect of temperature on the design.
+  - paragraph: nasa-s-management-waived-its
+    quote: NASA's management waived its own launch commit criteria on January 28, 1986, without a valid technical reason for doing so.
+  - paragraph: committee-has-long-been-proud
+    quote: However, all of us-NASA, the Committee, the Congress and the Nation-have learned from the Challenger tragedy that it is wisdom to do so, and it is a reflection of respect for the human fallibility that we all possess.

@@ -262,8 +262,10 @@ check_status /reports/jack-smith-vol1/processing 404
 
 # A report's landing page (g0w.8): our layer, when the report has one.
 check_contains "/reports/jack-smith-vol1" "Where to start reading"
-# A report without one keeps the plain contents page.
-check_absent "/reports/challenger-accident" "Where to start reading"
+# (Every report now has, or is about to have, a landing page, so there is no
+# stable report to check the plain contents page against here;
+# tests/social-proof-routes.test.ts covers it with the editorial layer mocked out.)
+check_contains "/reports/challenger-accident" "Where to start reading"
 check_absent  /reports/jack-smith-vol1 "About this edition"
 check_status /sitemap.xml 200
 check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
