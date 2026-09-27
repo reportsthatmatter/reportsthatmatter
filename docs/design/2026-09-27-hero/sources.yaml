@@ -70,3 +70,193 @@ heroes:
       The copy fetched is the Guardian's 3500px rendition of PA's picture, not
       a PA original. If the project ever licenses images, this is the one to
       license first (PA Images ref. via the Guardian's credit).
+
+  - report: uk-saville-inquiry
+    title: "Bloody Sunday: soldiers take cover behind armoured vehicles while using CS gas, Derry, 30 January 1972"
+    source: "https://commons.wikimedia.org/wiki/File:Bloody_Sunday,_Londonderry_1972.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bloody_Sunday%2C_Londonderry_1972.jpg"
+    creator: "PA"
+    licence: "Public domain in the US (PD-US-no-notice, per Commons); PA photograph, used here under fair use / fair dealing"
+    original: [2600, 1876]
+    subject: >-
+      The day itself: two soldiers in helmets behind their armoured vehicles at
+      a barbed-wire barricade, with a crowd half-hidden in CS gas beyond and
+      stones on the road. Black and white. It shows the Army and the civil
+      rights marchers face to face in the street, which is what Saville's
+      inquiry was about, with no dead, no wounded and no identifiable face.
+      Chosen over Fr Edward Daly's white handkerchief, the day's defining
+      photograph, because that one shows a dying boy being carried: it fails
+      the dignity line (docs/hero-images.md). Also chosen over the research
+      pick, the Free Derry Corner gable, which is the place, not the event.
+    rights: >-
+      Commons files this as public domain in the United States (published
+      1972 without a copyright notice; the file page links AP's newsroom
+      record) and credits PA. In the UK it is PA's photograph, so we treat it
+      as fair dealing like the Hillsborough picture: non-commercial,
+      public-interest commentary on the Saville Inquiry's report, toned down
+      and cropped to a banner, and credited. Rationale in full:
+      docs/hero-images.md.
+
+  - report: litvinenko-inquiry
+    title: "Alexander Litvinenko in the intensive care unit of University College Hospital, London, 20 November 2006"
+    source: "https://www.theguardian.com/world/2016/jan/21/alexander-litvinenko-was-probably-murdered-on-personal-orders-of-putin"
+    image: "https://media.guim.co.uk/a02963c081e0b8af4abefb59215ca80d0dfe1f9f/0_266_3872_2324/master/3872.jpg"
+    creator: "Natasja Weitsz/Getty Images"
+    licence: "Fair use (Getty Images; not freely licensed)"
+    original: [3872, 2324]
+    subject: >-
+      Litvinenko three days before he died, in a hospital gown with ECG leads
+      on his chest, hair gone, looking straight at the camera. The event
+      itself: the poisoning the Inquiry investigated, and what polonium-210
+      did. It is an identifiable man in distress in close-up, which the
+      dignity line normally rules out. We use it anyway, and deliberately:
+      Litvinenko asked for it to be taken and released ("I want the world to
+      see what they did to me"), his family released it to the press
+      themselves, and his widow Marina has stood beside it in public ever
+      since. It is the picture the family chose, not one taken of them. He is
+      composed, not in pain; nothing about it is gratuitous. The research
+      pick, his grave at Highgate, is the fallback if this is ever judged
+      wrong.
+    rights: >-
+      Copyright Getty Images (photographer Natasja Weitsz), distributed with
+      the family's consent on 25 November 2006; the copy fetched is the
+      Guardian's 3872px rendition from its report on the Inquiry's findings
+      (21 January 2016). Used under fair use / fair dealing for
+      non-commercial, public-interest commentary on the Litvinenko Inquiry's
+      report, toned down and cropped to a banner, and credited. Rationale in
+      full: docs/hero-images.md.
+
+  - report: uk-leveson-inquiry
+    title: "Colin Myler holds up the last News of the World outside News International, Wapping, 9 July 2011"
+    source: "https://www.theguardian.com/media/2021/jul/10/news-of-the-world-10-years-since-phone-hacking-scandal-brought-down-tabloid"
+    image: "https://media.guim.co.uk/e91b62d64a10e4f84818eb89e73d955d55c5cd3b/0_159_3000_1800/master/3000.jpg"
+    creator: "Carl Court/AFP/Getty Images"
+    licence: "Fair use (AFP/Getty Images; not freely licensed)"
+    original: [3000, 1800]
+    subject: >-
+      The editor, Colin Myler, with his staff applauding around him, holding
+      up the final edition, "Thank you & goodbye", on the evening the paper
+      closed over phone hacking. The scandal that caused the Leveson Inquiry,
+      at its turning point, in one picture; the headline reads even toned
+      down. Chosen over the research pick, the Royal Courts of Justice, which
+      is only where the Inquiry sat.
+    rights: >-
+      Copyright AFP/Getty Images (photographer Carl Court), as credited where
+      the Guardian ran it. Used under fair use / fair dealing for
+      non-commercial, public-interest commentary on the Leveson Inquiry's
+      report, toned down and cropped to a banner, and credited. Rationale in
+      full: docs/hero-images.md.
+
+  - report: us-911-commission
+    title: "Twin Towers Smoking (Brooklyn Promenade panorama)"
+    source: "https://commons.wikimedia.org/wiki/File:Twin_Towers_Smoking.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/22/Twin_Towers_Smoking.jpg"
+    creator: "Jeffrey Bary"
+    licence: "CC BY 2.0"
+    original: [3368, 1194]
+    subject: >-
+      Lower Manhattan from the Brooklyn Promenade on the morning of 11
+      September 2001, both towers burning and the smoke drifting across the
+      harbour. The event itself, at a distance: no one is in it. Already a
+      2.8:1 panorama, so the band loses little.
+    rights: >-
+      CC BY 2.0 (Author: Jeffrey Bary), as stated on the Commons file page.
+      Credit on the page: "Photo: Jeffrey Bary, CC BY 2.0", linked to it.
+
+  - report: us-psi-financial-crisis
+    title: "Lehman Brothers headquarters, New York, the night of 15 September 2008"
+    source: "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-NYC-20080915.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/49/Lehman_Brothers-NYC-20080915.jpg"
+    creator: "Robert Scoble"
+    licence: "CC BY 2.0"
+    original: [4368, 2912]
+    subject: >-
+      Television crews and onlookers on Seventh Avenue outside Lehman
+      Brothers' lit headquarters on the night it filed for bankruptcy, the
+      building's ticker reading "SEP 15". The crisis on the ground, on its
+      defining day. Considered and passed over: the photographs of Lehman
+      staff leaving with boxes (the iconic image, but close-ups of
+      identifiable people on a bad day, and the free copies are London's, not
+      New York's), and the PSI's own April 2010 hearing with Goldman Sachs
+      (more specific to the report, but no copy above 600px turned up).
+    rights: >-
+      CC BY 2.0 (Author: Robert Scoble), as stated on the Commons file page.
+      Credit on the page: "Photo: Robert Scoble, CC BY 2.0", linked to it.
+
+  - report: challenger-accident
+    title: "Challenger explosion, 28 January 1986"
+    source: "https://commons.wikimedia.org/wiki/File:Challenger_explosion.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Challenger_explosion.jpg"
+    creator: "NASA"
+    licence: "Public domain (NASA)"
+    original: [3555, 2879]
+    subject: >-
+      The plume 73 seconds after launch, with the solid rocket boosters
+      spiralling away from the cloud and debris trailing below it. The event
+      itself, and the image everyone remembers; nobody is visible.
+    rights: >-
+      Public domain as a work of NASA (Kennedy Space Center; NASA image
+      86-HC-220 / GPN-2004-00012), per the Commons file page.
+
+  - report: columbia-accident
+    title: "Debris from the space shuttle Columbia streaks across the sky over Tyler, Texas, 1 February 2003"
+    source: "https://www.chron.com/news/houston-texas/article/15-years-ago-Space-Shuttle-Columbia-broke-up-12543159.php"
+    image: "https://s.hdnux.com/photos/71/07/77/14974949/4/rawImage.jpg"
+    creator: "Dr. Scott Lieberman/AP"
+    licence: "Fair use (AP; not freely licensed)"
+    original: [1800, 969]
+    subject: >-
+      The breakup itself: the orbiter's pieces as bright heads with long
+      trails against a blue morning sky, photographed from a back garden in
+      Tyler by a local cardiologist and distributed by AP. The most-used
+      picture of the accident. Chosen over the research pick, NASA's hangar
+      of reassembled debris, which is the investigation, not the event. No
+      free photograph of the breakup exists at usable size: NASA's own
+      images of the entry are 640px ground-camera frames.
+    rights: >-
+      Copyright Associated Press (photographer Dr. Scott Lieberman), as
+      credited where the Houston Chronicle ran it. Used under fair use /
+      fair dealing for non-commercial, public-interest commentary on the
+      Columbia Accident Investigation Board's report, toned down and cropped
+      to a banner, and credited. Rationale in full: docs/hero-images.md.
+    caveat: >-
+      The largest copy found is 1800px wide, so the 2400px file is the
+      source at its own size (heroes.mjs never upscales); it is soft on a 2x
+      laptop screen, which the grain and the treatment largely hide.
+
+  - report: us-deepwater-horizon
+    title: "Deepwater Horizon offshore drilling unit on fire, 21 April 2010"
+    source: "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/82/Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg"
+    creator: "US Coast Guard"
+    licence: "Public domain (US federal government work)"
+    original: [3264, 2448]
+    subject: >-
+      Fire boats spraying the burning rig the morning after the blowout, a
+      column of flame and black smoke over the Gulf. The event itself; no
+      one is identifiable.
+    rights: >-
+      Public domain as a work of the US Coast Guard, per the Commons file
+      page.
+
+  - report: us-v-philip-morris
+    title: "Tobacco executives sworn in before the House health subcommittee, 14 April 1994"
+    source: "https://theintercept.com/2021/10/29/big-oil-tobacco-oversight-hearing/"
+    image: "https://theintercept.com/wp-content/uploads/2021/10/AP671396491902.jpg"
+    creator: "John Duricka/AP"
+    licence: "Fair use (AP; not freely licensed)"
+    original: [3000, 2016]
+    subject: >-
+      The heads of the seven largest US cigarette companies standing with
+      their right hands raised before Henry Waxman's subcommittee, Philip
+      Morris's William Campbell nearest the camera behind his nameplate, on
+      the day each swore he did not believe nicotine was addictive. Judge
+      Kessler's opinion turns on exactly this kind of public denial; the
+      picture only makes sense for this case. Chosen over the research pick,
+      a Surgeon General's warning on a pack.
+    rights: >-
+      Copyright Associated Press (photographer John Duricka), as credited
+      where The Intercept ran it. Used under fair use / fair dealing for
+      non-commercial, public-interest commentary on the judgment in United
+      States v. Philip Morris, toned down and cropped to a banner, and
+      credited. Rationale in full: docs/hero-images.md.

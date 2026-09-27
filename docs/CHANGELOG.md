@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-27 — A photograph of the event on every landing page
+
+The other nine reports now open the way Jack Smith and Hillsborough do, with a photograph of what they are about in a band above the title: the towers burning from Brooklyn, the Challenger plume, Columbia breaking up over Texas, the Deepwater Horizon rig on fire, Lehman Brothers' headquarters on the night it went bankrupt, the seven tobacco chiefs swearing nicotine was not addictive, soldiers at a barricade in Derry on Bloody Sunday, Alexander Litvinenko in hospital in the photograph he asked to be released, and the last News of the World. Five of these replace the first research picks, which showed a place or an object rather than the event. Each carries a credit line linking to its source.
+
+![The Philip Morris report's landing page, with its photograph](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-27-hero-images-all/after-us-v-philip-morris-desktop.png)
+
+[All nine, desktop and phone](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-27--a-photograph-of-the-event-on-every-landing-page).
+
+---
+
 ## 2026-09-27 — Introductions for Challenger, Columbia, Deepwater Horizon and Philip Morris
 
 The Challenger, Columbia, Deepwater Horizon and United States v. Philip Morris reports now open on the same landing page as Jack Smith and Wall Street: year, standfirst, background, what the report found (quoted, checked word for word), and where to start reading, all above the contents. Every report in the archive now has an introduction.

@@ -36,6 +36,17 @@
 report: uk-saville-inquiry
 status: approved
 
+hero:
+  src: /assets/heroes/uk-saville-inquiry.webp
+  alt: >-
+    Two British soldiers in helmets shelter behind their armoured vehicles at a
+    barbed-wire barricade in Derry on 30 January 1972, stones on the road, with
+    a crowd half-hidden in CS gas beyond.
+  credit: "Derry, 30 January 1972 · Photo: PA"
+  source: "https://commons.wikimedia.org/wiki/File:Bloody_Sunday,_Londonderry_1972.jpg"
+  licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
+  focus: "50% 45%"
+
 why_it_matters: >-
   Lord Saville's report into Bloody Sunday, when British paratroopers shot
   dead thirteen people on a civil rights march in Derry/Londonderry on 30

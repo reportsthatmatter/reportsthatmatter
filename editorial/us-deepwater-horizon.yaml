@@ -47,6 +47,16 @@
 report: us-deepwater-horizon
 status: approved
 
+hero:
+  src: /assets/heroes/us-deepwater-horizon.webp
+  alt: >-
+    Fire boats spray water on the Deepwater Horizon rig in the Gulf of Mexico
+    on 21 April 2010, flames and black smoke pouring from it.
+  credit: "Gulf of Mexico, 21 April 2010 · Photo: US Coast Guard"
+  source: "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg"
+  licence: Public domain (US federal government work)
+  focus: "50% 25%"
+
 why_it_matters: >-
   The presidential commission's account of the blowout of BP's Macondo well on
   20 April 2010, which killed 11 men on the Deepwater Horizon rig and caused

@@ -33,6 +33,17 @@
 report: us-v-philip-morris
 status: approved
 
+hero:
+  src: /assets/heroes/us-v-philip-morris.webp
+  alt: >-
+    The heads of seven tobacco companies stand with their right hands raised to
+    be sworn in before a House subcommittee on 14 April 1994, Philip Morris's
+    William Campbell nearest the camera behind his nameplate.
+  credit: "House health subcommittee, 14 April 1994 · Photo: John Duricka/AP"
+  source: "https://theintercept.com/2021/10/29/big-oil-tobacco-oversight-hearing/"
+  licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
+  focus: "50% 25%"
+
 why_it_matters: >-
   Judge Gladys Kessler's 2006 ruling that America's largest cigarette companies
   had deceived the public about smoking for some fifty years, in violation of

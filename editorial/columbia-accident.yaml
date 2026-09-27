@@ -16,6 +16,17 @@
 report: columbia-accident
 status: approved
 
+hero:
+  src: /assets/heroes/columbia-accident.webp
+  alt: >-
+    Pieces of the space shuttle Columbia streaking across a blue sky over
+    Tyler, Texas, on 1 February 2003, each a bright point trailing a long white
+    plume.
+  credit: "Over Tyler, Texas, 1 February 2003 · Photo: Dr. Scott Lieberman/AP"
+  source: "https://www.chron.com/news/houston-texas/article/15-years-ago-Space-Shuttle-Columbia-broke-up-12543159.php"
+  licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
+  focus: "50% 50%"
+
 why_it_matters: >-
   The independent board's account of why the Space Shuttle Columbia broke apart
   in February 2003, killing its seven crew. It traces the loss to a piece of

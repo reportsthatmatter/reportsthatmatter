@@ -51,6 +51,17 @@
 report: uk-leveson-inquiry
 status: approved
 
+hero:
+  src: /assets/heroes/uk-leveson-inquiry.webp
+  alt: >-
+    News of the World editor Colin Myler, surrounded by applauding staff, holds
+    up the paper's final edition, headlined "Thank you & goodbye", outside its
+    offices on 9 July 2011.
+  credit: "Wapping, London, 9 July 2011 · Photo: Carl Court/AFP/Getty Images"
+  source: "https://www.theguardian.com/media/2021/jul/10/news-of-the-world-10-years-since-phone-hacking-scandal-brought-down-tabloid"
+  licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
+  focus: "50% 60%"
+
 why_it_matters: >-
   Lord Justice Leveson's inquiry into the culture, practices and ethics of
   the British press, set up in 2011 after the News of the World was found to

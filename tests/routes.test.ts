@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { app } from "../src/index";
+import { EDITORIAL } from "../src/generated/editorial";
+import type { Editorial } from "../src/lib/editorial";
 
 describe("routes", () => {
   it("serves static assets", async () => {
@@ -411,6 +413,15 @@ describe("hero photographs (reportsthatmatter-cdp.3)", () => {
   for (const [id, credit] of [
     ["jack-smith-vol1", "Photo: Tyler Merbler, CC BY 2.0"],
     ["uk-hillsborough-panel", "Photo: John Giles/PA"],
+    ["uk-saville-inquiry", "Photo: PA"],
+    ["litvinenko-inquiry", "Photo: Natasja Weitsz/Getty Images"],
+    ["uk-leveson-inquiry", "Photo: Carl Court/AFP/Getty Images"],
+    ["us-911-commission", "Photo: Jeffrey Bary, CC BY 2.0"],
+    ["us-psi-financial-crisis", "Photo: Robert Scoble, CC BY 2.0"],
+    ["challenger-accident", "Photo: NASA"],
+    ["columbia-accident", "Photo: Dr. Scott Lieberman/AP"],
+    ["us-deepwater-horizon", "Photo: US Coast Guard"],
+    ["us-v-philip-morris", "Photo: John Duricka/AP"],
   ]) {
     it(`shows ${id}'s hero on its landing page, credited, instead of its plate`, async () => {
       const body = await (await app.request(`http://localhost/reports/${id}`)).text();
@@ -431,11 +442,23 @@ describe("hero photographs (reportsthatmatter-cdp.3)", () => {
     });
   }
 
+  // Every published report now has a hero (cdp.5-.13), so the no-hero case
+  // is a report's editorial with its hero taken out, as the next report to be
+  // added will be until its photograph is sourced.
   it("keeps the plate on a landing page without a hero", async () => {
-    const body = await (await app.request("http://localhost/reports/us-911-commission")).text();
-    expect(body).toContain("Where to start reading");
-    expect(body).not.toContain('class="report-hero"');
-    expect(body).toContain('class="frontispiece"');
+    const editorial = EDITORIAL as Record<string, Editorial>;
+    const id = "us-911-commission";
+    const saved = editorial[id];
+    const { hero: _hero, ...withoutHero } = saved;
+    editorial[id] = withoutHero;
+    try {
+      const body = await (await app.request(`http://localhost/reports/${id}`)).text();
+      expect(body).toContain("Where to start reading");
+      expect(body).not.toContain('class="report-hero"');
+      expect(body).toContain('class="frontispiece"');
+    } finally {
+      editorial[id] = saved;
+    }
   });
 });
 
