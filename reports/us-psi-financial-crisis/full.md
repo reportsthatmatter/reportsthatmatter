@@ -385,11 +385,7 @@ Recommendations on High Risk Lending
 
 Recommendations on Regulatory Failures
 
-> 1. Complete OTS Dismantling. The Office of the Comptroller of the Currency (OCC) should complete the dismantling of the Office of Thrift Supervision (OTS), despite attempts by some OTS officials to preserve the agency's identity and influence within the OCC. 2. Strengthen Enforcement. Federal banking regulators should conduct a review of their major financial institutions to identify those with ongoing, serious deficiencies, and review their enforcement approach to those institutions to eliminate any policy of deference to bank management, inflated CAMELS ratings, or use of short term profits to excuse high risk activities. 3. Strengthen CAMELS Ratings. Federal banking regulators should undertake a comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks.
-
-### Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council
-
-> should undertake a study to identify high risk lending practices at financial institutions, and evaluate the nature and significance of the impacts that these practices may have on U.S. financial systems as a whole.
+> 1. Complete OTS Dismantling. The Office of the Comptroller of the Currency (OCC) should complete the dismantling of the Office of Thrift Supervision (OTS), despite attempts by some OTS officials to preserve the agency's identity and influence within the OCC. 2. Strengthen Enforcement. Federal banking regulators should conduct a review of their major financial institutions to identify those with ongoing, serious deficiencies, and review their enforcement approach to those institutions to eliminate any policy of deference to bank management, inflated CAMELS ratings, or use of short term profits to excuse high risk activities. 3. Strengthen CAMELS Ratings. Federal banking regulators should undertake a comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks. 4. Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council should undertake a study to identify high risk lending practices at financial institutions, and evaluate the nature and significance of the impacts that these practices may have on U.S. financial systems as a whole.
 
 Recommendations on Inflated Credit Ratings
 
@@ -1641,21 +1637,7 @@ Ms. Feltgen told the Subcommittee that, although she was the Home Loans Chief Ri
 
 "Employee Goals
 
-GROWTH 35%
-
-### Achieve Net Income - $340 MM for
-
-### HL [Home Loan] Product Sales (Incl. Conduit)
-
-### Home Equity - $18B
-
-2. Subprime - $32B
-
-### Option ARM - $33B
-
-### Alt A - $10B
-
-### Customer Satisfaction (Total HL) – 55%"
+> GROWTH 35% 1. Achieve Net Income - $340 MM for 2007 2. HL [Home Loan] Product Sales (Incl. Conduit) 1. Home Equity - $18B 2. Subprime - $32B 3. Option ARM - $33B 4. Alt A - $10B 3. Customer Satisfaction (Total HL) – 55%"[^403]
 
 By conditioning her evaluation on whether her division hit pre-determined sales figures, the performance evaluation made her compensation more dependent upon the Home Loans division hitting revenue growth and product sales than upon her contributions to risk management.
 
@@ -2067,17 +2049,15 @@ However, his November 2006 letter to WaMu loan consultants showed no reticence a
 
 The 2005 President's Club retreat had taken place in Maui. The awards night was hosted by Magic Johnson. An excerpt of the script from the evening gives a sense of the proceedings:
 
-## "VOICE-OVER ANNOUNCER
-
-> Good evening ladies and gentleman and welcome to your President's Club 2005 Awards Night program!
+> "VOICE-OVER ANNOUNCER Good evening ladies and gentleman and welcome to your President's Club 2005 Awards Night program!
 
 > Please welcome the host of President's Club, the President of the Washington Mutual Home Loans Group, Mr. David Schneider!
 
 %%page 146%%
 
-## WALK-UP MUSIC FOR DAVID SCHNEIDER DAVID SCHNEIDER
+> WALK-UP MUSIC FOR DAVID SCHNEIDER
 
-> Thank you ladies and gentlemen, and welcome to this very special Awards Evening.
+> DAVID SCHNEIDER Thank you ladies and gentlemen, and welcome to this very special Awards Evening.
 
 > Wow, could you feel the energy and excitement tonight out on the Red Carpet?! Talk about star power!
 
@@ -3402,11 +3382,7 @@ financial markets and the economy, and safeguard the Deposit Insurance Fund, thi
 
 %%page 242%%
 
-3. Strengthen CAMELS Ratings. Federal banking regulators should undertake a comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks.
-
-### Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council
-
-should undertake a study to identify high risk lending practices at financial institutions, and evaluate the nature and significance of the impacts that these practices may have on U.S. financial systems as a whole.
+3. Strengthen CAMELS Ratings. Federal banking regulators should undertake a comprehensive review of the CAMELS ratings system to produce ratings that signal whether an institution is expected to operate in a safe and sound manner over a specified period of time, asset quality ratings that reflect embedded risks rather than short term profits, management ratings that reflect any ongoing failure to correct identified deficiencies, and composite ratings that discourage systemic risks. 4. Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council should undertake a study to identify high risk lending practices at financial institutions, and evaluate the nature and significance of the impacts that these practices may have on U.S. financial systems as a whole.
 
 %%page 243%%
 
@@ -4183,9 +4159,7 @@ One S&P senior manager, frustrated by an inability to get an answer on the retes
 
 In May 2006, S&P circulated a draft policy setting up what seemed to be an informal screening process "prior to transition date" to see how existing CDOs would be affected by the revised CDO model. The draft offered a convoluted approach in an apparent attempt to avoid retesting all existing CDOs, which included allowing the use of the prior "E2" model and review "by a special E3 committee." The draft policy read in part as follows:
 
-## "***PRIVILEGED AND CONFIDENTIAL - S&P DISCUSSION PURPOSES ONLY***
-
-> Prior to Transition Date (in preparation for final implementation of E3 for cash CDOs): • A large majority of the pre- E3 cash flow CDOs will be run through E3 in batch processes to see how the ratings look within the new model …
+> "***PRIVILEGED AND CONFIDENTIAL - S&P DISCUSSION PURPOSES ONLY*** Prior to Transition Date (in preparation for final implementation of E3 for cash CDOs): • A large majority of the pre- E3 cash flow CDOs will be run through E3 in batch processes to see how the ratings look within the new model …
 
 > - Ratings falling more than 3 notches +/- from the current tranche rating in the batch process will be reviewed in detail for any modeling, data, performance or other issues
 > - If any transactions are found to be passing/failing E3 by more than 3 notches due to performance reasons they will be handled through the regular surveillance process to see if the ratings are stable under current criteria (i.e., if they pass E2.4.3 using current cash flow assumptions the ratings will remain unchanged)
@@ -5040,9 +5014,7 @@ In connection with the hearing, the Subcommittee released a joint memorandum fro
 
 > 3. Shorting the Mortgage Market. As high risk mortgage delinquencies increased, and RMBS and CDO securities began to lose value, Goldman Sachs took a net short position on the mortgage market, remaining net short throughout 2007, and cashed in very large short positions, generating billions of dollars in gain.
 
-### Conflict Between Client Interests and Proprietary Trading. In 2007, Goldman
-
-> Sachs went beyond its role as market maker for clients seeking to buy or sell mortgage related securities, traded billions of dollars in mortgage related assets for the benefit of the firm without disclosing its proprietary positions to clients, and instructed its sales force to sell mortgage related assets, including high risk RMBS and CDO securities that Goldman Sachs wanted to get off its books, and utilizing key roles in CDO transactions to promote its own interests at the expense of investors, creating a conflict between the firm's proprietary interests and the interests of its clients.
+> 4. Conflict Between Client Interests and Proprietary Trading. In 2007, Goldman Sachs went beyond its role as market maker for clients seeking to buy or sell mortgage related securities, traded billions of dollars in mortgage related assets for the benefit of the firm without disclosing its proprietary positions to clients, and instructed its sales force to sell mortgage related assets, including high risk RMBS and CDO securities that Goldman Sachs wanted to get off its books, and utilizing key roles in CDO transactions to promote its own interests at the expense of investors, creating a conflict between the firm's proprietary interests and the interests of its clients.
 
 > 5. Abacus Transaction. Goldman Sachs structured, underwrote, and sold a synthetic CDO called Abacus 2007-AC1, did not disclose to the Moody's analyst overseeing the rating of the CDO that a hedge fund client taking a short position in the CDO had helped to select the referenced assets, and also did not disclose that fact to other investors.
 
@@ -7782,13 +7754,9 @@ When the Timberwolf collateral manager objected, Goldman backed down and allowed
 
 The Goldman Sachs case study identifies a number of practices that raise conflict of interest concerns. Those practices include the following.
 
-### Shorting Its Own Securities. In Hudson, Anderson, and Timberwolf, Goldman
+> 1. Shorting Its Own Securities. In Hudson, Anderson, and Timberwolf, Goldman marketed CDO securities to clients, took a substantial portion of the short side of the CDO, bet the CDO would fall in value, and profited from its short position at the expense of the clients to whom it sold the securities.
 
-> marketed CDO securities to clients, took a substantial portion of the short side of the CDO, bet the CDO would fall in value, and profited from its short position at the expense of the clients to whom it sold the securities.
-
-### Failing to Disclose Key Information to Investors. In Hudson, Anderson, and
-
-> Timberwolf, Goldman represented to potential investors that its interests "were aligned" with theirs or advertised its retention of a portion of the CDO's equity tranche, without disclosing that it had an even larger short position in the CDO and held a financial interest directly adverse to the investors to whom it was selling the CDO securities.
+> 2. Failing to Disclose Key Information to Investors. In Hudson, Anderson, and Timberwolf, Goldman represented to potential investors that its interests "were aligned" with theirs or advertised its retention of a portion of the CDO's equity tranche, without disclosing that it had an even larger short position in the CDO and held a financial interest directly adverse to the investors to whom it was selling the CDO securities.
 
 > 3. Misrepresenting Source of Assets. In Hudson, Goldman provided 100% of the CDO assets using CDS contracts it controlled and priced, transferred $1.2 billion of risk from its own inventory to the CDO, and told investors the assets had been "sourced from the Street," when they had been supplied solely by Goldman and not priced from transactions with third parties.
 

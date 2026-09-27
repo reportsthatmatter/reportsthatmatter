@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-27 — Wall Street's contents list only real sections
+
+Quoted exhibits in Wall Street and the Financial Crisis — an awards-night script, an S&P memo header, a sales-goals slide — were being read as section headings in its contents. They no longer are, and the numbered findings that follow them, "Conflict Between Client Interests and Proprietary Trading in 2007", "Failing to Disclose Key Information to Investors", among them, read as their own paragraphs again instead of being swallowed into a caption's heading.
+
+---
+
 ## 2026-09-26 — Fewer stray note links across seven reports; Wall Street's missing notes restored
 
 In Wall Street and the Financial Crisis, a note whose text began with a number ("2009 OTS Annual Report…", "12 U.S.C. § 1820") was read as a new note with that number. That left 25 notes defined twice and threw the note count off, so on later pages the notes weren't found and printed as body text. The count now holds: no note is defined twice, and notes such as 65, 91–93 and 604–609 are back in the margin. Across the archive, numbers that aren't note markers are no longer linked as notes: case citations ("265 U.S. 182, 188"), years after a date ("May 3, 1991"), counts ("2008, 119 years to the day"), document numbers, and lists ("paragraphs 17, 19, 20 and 21"). That removed about 60 false links in Philip Morris, 70 in Deepwater Horizon and 35 each in Jack Smith and Leveson, and 21 Philip Morris notes that were printed as body text are notes again. About 17 Wall Street notes long enough to fill a whole page still print in the body; that is next.
