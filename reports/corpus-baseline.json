@@ -205,8 +205,8 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 325854,
-      "paragraphs": 2456,
+      "words": 325863,
+      "paragraphs": 2454,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
@@ -217,14 +217,8 @@
         {
           "slug": "subcommittee-investigation",
           "title": "Subcommittee Investigation",
-          "paragraphs": 51,
-          "ids": "08d9861d166c"
-        },
-        {
-          "slug": "evaluate-impacts-of-high-risk-lending-the-financial-stability-oversight-council",
-          "title": "Evaluate Impacts of High Risk Lending. The Financial Stability Oversight Council",
-          "paragraphs": 3,
-          "ids": "f9f804b89bf3"
+          "paragraphs": 54,
+          "ids": "f383be78df84"
         },
         {
           "slug": "rise-of-too-big-to-fail-us-financial-institutions",
@@ -295,14 +289,8 @@
         {
           "slug": "shoddy-lending-practices",
           "title": "Shoddy Lending Practices",
-          "paragraphs": 141,
-          "ids": "f312ea0eb403"
-        },
-        {
-          "slug": "customer-satisfaction-total-hl-55",
-          "title": "Customer Satisfaction (Total HL) – 55%\"",
-          "paragraphs": 11,
-          "ids": "fb2b788453ea"
+          "paragraphs": 151,
+          "ids": "76c3cc4a6ee9"
         },
         {
           "slug": "polluting-the-financial-system",
@@ -313,14 +301,8 @@
         {
           "slug": "destructive-compensation-practices",
           "title": "Destructive Compensation Practices",
-          "paragraphs": 11,
-          "ids": "40e42fb703d2"
-        },
-        {
-          "slug": "walk-up-music-for-david-schneider-david-schneider",
-          "title": "WALK-UP MUSIC FOR DAVID SCHNEIDER DAVID SCHNEIDER",
-          "paragraphs": 36,
-          "ids": "95a168e78764"
+          "paragraphs": 47,
+          "ids": "1d261f35113e"
         },
         {
           "slug": "preventing-high-risk-lending",
@@ -355,8 +337,8 @@
         {
           "slug": "preventing-regulatory-failures",
           "title": "Preventing Regulatory Failures",
-          "paragraphs": 11,
-          "ids": "14f9d4499dbe"
+          "paragraphs": 10,
+          "ids": "cfa32037d258"
         },
         {
           "slug": "case-study-of-moodys-and-standard-poors",
@@ -379,14 +361,8 @@
         {
           "slug": "ratings-deficiencies",
           "title": "Ratings Deficiencies",
-          "paragraphs": 138,
-          "ids": "fed678e8bc88"
-        },
-        {
-          "slug": "privileged-and-confidential---sp-discussion-purposes-only",
-          "title": "\"PRIVILEGED AND CONFIDENTIAL - S&P DISCUSSION PURPOSES ONLY",
-          "paragraphs": 42,
-          "ids": "71ed47a71aea"
+          "paragraphs": 180,
+          "ids": "93f03a092504"
         },
         {
           "slug": "preventing-inflated-credit-ratings",
@@ -397,14 +373,8 @@
         {
           "slug": "case-study-of-goldman-sachs-and-deutsche-bank",
           "title": "CASE STUDY OF GOLDMAN SACHS AND DEUTSCHE BANK",
-          "paragraphs": 205,
-          "ids": "cb015d2bd1dd"
-        },
-        {
-          "slug": "conflict-between-client-interests-and-proprietary-trading-in-2007-goldman",
-          "title": "Conflict Between Client Interests and Proprietary Trading. In 2007, Goldman",
-          "paragraphs": 497,
-          "ids": "290257d5ae30"
+          "paragraphs": 702,
+          "ids": "60119e162dd6"
         },
         {
           "slug": "cdo-marks",
@@ -415,14 +385,8 @@
         {
           "slug": "timberwolf-i",
           "title": "Timberwolf I",
-          "paragraphs": 232,
-          "ids": "688421bc0b9f"
-        },
-        {
-          "slug": "failing-to-disclose-key-information-to-investors-in-hudson-anderson-and",
-          "title": "Failing to Disclose Key Information to Investors. In Hudson, Anderson, and",
-          "paragraphs": 115,
-          "ids": "526553d81aac"
+          "paragraphs": 347,
+          "ids": "25a56cd47545"
         },
         {
           "slug": "preventing-investment-bank-abuses",

@@ -1559,9 +1559,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "why": "How a bank chose riskier loans on purpose, in its own planning documents."
       },
       {
-        "slug": "walk-up-music-for-david-schneider-david-schneider",
-        "title": "WaMu's sales culture",
-        "page": "147",
+        "slug": "destructive-compensation-practices",
+        "title": "Washington Mutual's destructive compensation practices",
+        "page": "144",
         "why": "Loan officers rewarded for volume, and the one executive who pushed back on \"The Power of Yes\".",
         "excerpt": {
           "quote": "the power of yes absolutely needed to be balanced by the wisdom of no.",
