@@ -1,8 +1,14 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { app } from "../src/index";
 import { extractParagraph } from "../src/templates/report";
 import { RATE_LIMIT_PER_DAY, recordMark } from "../src/lib/marks";
 import { createFakeD1 } from "./support/fake-d1";
+
+// The Most marked block shows only on a plain contents page: an approved
+// landing page leaves it out by design (see tests/editorial.test.ts). Every
+// report now has, or will soon have, a landing page, so these tests run with
+// no editorial layer rather than depending on which reports still lack one.
+vi.mock("../src/generated/editorial", () => ({ EDITORIAL: {} }));
 
 const validPayload = {
   report: "jack-smith-vol1",
@@ -148,8 +154,8 @@ describe("GET /reports/:id/marks", () => {
 });
 
 describe("Most marked passages", () => {
-  // A report with no landing page: one with an approved editorial file
-  // leaves the block out by design (see tests/editorial.test.ts).
+  // Runs with no editorial layer (see the vi.mock above), so the contents
+  // page is the plain one that carries the block.
   it("shows a passage on the contents page once a reader has marked it", async () => {
     const first = await app.request("http://localhost/reports/challenger-accident/full");
     const html = await first.text();
