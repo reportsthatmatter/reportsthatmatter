@@ -10,7 +10,7 @@ A report reaches the site in stages, and each stage ships on its own. Nothing wa
 | --- | --- | --- | --- |
 | 1. Text | The transcribed report on its plain contents page, with its plate and share card | [`report-preparation.md`](report-preparation.md) | `stage-text` |
 | 2. Introduction | The landing page: standfirst, background, findings, reading guide, plus Rufus's highlights | [`report-introductions.md`](report-introductions.md) | `stage-intro` |
-| 3. Imagery | A hero photograph of the event on the landing page, with its credit | Hero-imagery epic, `reportsthatmatter-cdp` (to be folded into `report-introductions.md`) | `stage-imagery` |
+| 3. Imagery | A hero photograph of the event on the landing page, with its credit | [`hero-images.md`](hero-images.md); design in [`design/2026-09-27-hero/`](design/2026-09-27-hero/README.md) | `stage-imagery` |
 
 Later stages attach the same way as they are defined: processing notes (`PROCESSING.md`, `reportsthatmatter-wl0`) and figures from the PDF (`reportsthatmatter-699`).
 
@@ -26,5 +26,5 @@ Later stages attach the same way as they are defined: processing notes (`PROCESS
 Every stage is its own Bead per report, labelled with the stage, so `bd list --label stage-intro` (or `stage-imagery`) shows where each report stands.
 
 - **A new report** gets its stage 1 Bead (the ingest, e.g. `Ingest and publish the Chilcot Inquiry`) plus two children created at the same time: `Introduction and landing page: <report>` (`stage-intro`) and `Hero image: <report>` (`stage-imagery`). The stage 3 Bead depends on the stage 2 Bead. Beads will not let a child depend on its own parent, so a stage 2 Bead shows in `bd ready` before its text is live: check the parent is closed before starting it. Chilcot, Valukas and Duelfer (`reportsthatmatter-rcz`, `-b7z`, `-9br`) are set up this way.
-- **The existing eleven reports** have been through stage 1. Their introductions are the `reportsthatmatter-g0w.7.*` Beads (Jack Smith and Wall Street shipped before those existed), and their imagery Beads are created by `reportsthatmatter-cdp.4` once the pilot settles the design.
+- **The existing eleven reports** have been through stage 1. Their introductions are the `reportsthatmatter-g0w.7.*` Beads (Jack Smith and Wall Street shipped before those existed), and their imagery Beads are `reportsthatmatter-cdp.5`–`.15` (Jack Smith and Hillsborough shipped in the pilot, 2026-09-27).
 - **Closing a stage** means it is live in production, not merged. Close the Bead after the deploy (and, for text, the `publish-report` step).

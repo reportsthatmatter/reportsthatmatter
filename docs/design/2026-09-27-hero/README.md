@@ -53,3 +53,13 @@ A representative few of the 24 shots, on the Jack Smith landing page at 1440×10
 - **The files** are built by `pnpm heroes` (`scripts/imagery/heroes.mjs`) from `sources.yaml` in this directory, which records each photograph's source, creator, licence or fair-use basis, and treatment. Saturation 0.45, levels 16–244, grain ±10 of 255 at the midtones easing off at both ends, seeded; lossy WebP at quality 80. The raw photographs are not committed, as with the plates' external sources.
 - **The markup** is `renderHero()` in `src/templates/editorial.ts`, placed by `renderReportOverview()` above the report header, only when the landing page itself is shown (approved, or a draft under `?draft`); the frontispiece plate is then left out. The CSS class is `.report-hero`, not `.hero`: `.hero` is the homepage's padded, centred intro block, and inheriting it is what gave the mockup band its unwanted padding.
 - **Pilot images**: Jack Smith, Tyler Merbler's gallows before the Capitol dome (CC BY 2.0). Hillsborough, John Giles/PA's photograph of the Leppings Lane end on 15 April 1989 (fair use), not the research's modern aerial: Rufus asked for the event itself.
+
+## Decision after the pilot (2026-09-27, `reportsthatmatter-cdp.4`)
+
+Go. The pilot shipped on Jack Smith and Hillsborough (PR #168) and reads as intended: the photograph changes the page, and the text below it is untouched. It becomes stage 3 of [the pipeline](../../report-pipeline.md), with one Bead per report (`reportsthatmatter-cdp.5`–`.13` for the other nine; new reports get theirs with their introduction Bead). How to do one is [`hero-images.md`](../../hero-images.md).
+
+Settled in the pilot:
+
+- **The event, not the place, where a photograph of the event exists.** Hillsborough's research pick (a recent aerial of the stadium) was replaced by John Giles/PA's photograph of the Leppings Lane end on the day. A place or a memorial is the fallback, not the default.
+- **Fair use at the same size.** The band is the same for every report, so a fair-use image ships at the same 2400px as a free one; what keeps the use modest is the crop, the treatment and the credit, not a lower resolution.
+- **Crops lose something.** The Capitol photograph loses the gallows' crossbar on a laptop; the noose and the dome carry it. Check both widths and pick the focus that keeps the subject.
