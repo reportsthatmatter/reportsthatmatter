@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-27 — A photograph of the event on two landing pages
+
+The Jack Smith report and the Hillsborough Independent Panel's report now open with a photograph of what they are about, in a full-width band above the title: the gallows the crowd built in front of the Capitol on 6 January 2021, and the Leppings Lane end at Hillsborough on 15 April 1989. The colour is toned down so the photograph sits with the rest of the site, each carries a credit line linking to its source, and on those two pages it takes the place of the report's plate. Every other page is unchanged. This is a pilot: if it holds up, the other reports follow.
+
+![The Hillsborough report's landing page, with its photograph](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-09-27-hero-images/after-uk-hillsborough-panel-desktop.png)
+
+[Before and after, desktop and phone](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-09-27--a-photograph-of-the-event-on-two-landing-pages).
+
+---
+
 ## 2026-09-27 — The 9/11 Commission Report's sections, and its chapter 11 notes, restored
 
 Every numbered section of the 9/11 Commission Report is now its own section, titled as the report's contents titles it: "8.1 The Summer of Threat" rather than "THE SYSTEM WAS BLINKING RED" 8.1 THE SUMMER OF THREAT fused into one capitals heading. Six sections the text had lost into the paragraph below them are back, among them "9.2 September 11, 2001", "8.2 Late Leads—Mihdhar, Moussaoui, and KSM" and "11.2 Policy"; the contents now lists all 55. The report's notes are endnotes, but its notes pages were being read for footnotes, which produced five notes that nothing in the text pointed to; chapter 11's first thirteen notes had disappeared into one of them. They are back in the Notes under "11 Foresight—and Hindsight".

@@ -1,0 +1,250 @@
+# Hero image candidates per report (reportsthatmatter-cdp.2)
+# `local_file` names the research download (not committed); a shipped hero's
+# source is re-fetched from `image_url` by `pnpm heroes` via sources.yaml.
+# All free-licence credits verified on the actual Wikimedia Commons file page;
+# fair-use entries say so. How to choose: docs/hero-images.md.
+
+jack-smith-vol1:
+  - title: "2021 storming of the United States Capitol (DSC09156)"
+    page_url: "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09156_(50826223403).jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/2021_storming_of_the_United_States_Capitol_DSC09156_%2850826223403%29.jpg"
+    credit: "Tyler Merbler / Wikimedia Commons"
+    licence: "CC BY 2.0"
+    width: 3009
+    height: 1916
+    recommended: true
+    local_file: "jack-smith-vol1/capitol-storming-merbler-REC.jpg"
+    note: "Crowd on the Capitol steps/scaffolding during the 6 Jan 2021 storming; specific, dramatic, clean 16:9-ish crop, no visible injuries. Widely used and clearly rights-cleared Flickr-to-Commons transfer."
+  - title: "US Capitol January 6th 2021 during the riot"
+    page_url: "https://commons.wikimedia.org/wiki/File:US_Capitol_January_6th_2021_during_the_riot.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/5/54/US_Capitol_January_6th_2021_during_the_riot.jpg"
+    credit: "Kurt Kaiser"
+    licence: "CC0 1.0 (public domain dedication)"
+    width: 2087
+    height: 1565
+    recommended: false
+    local_file: "jack-smith-vol1/capitol-riot-kaiser-ALT.jpg"
+    note: "Alternate crowd/Capitol-front view, fully public domain (CC0), slightly lower resolution and a squarer 4:3 crop than the recommended pick."
+
+us-psi-financial-crisis:
+  - title: "Lehman Brothers HQ, New York, 15 Sept 2008"
+    page_url: "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-NYC-20080915.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/49/Lehman_Brothers-NYC-20080915.jpg"
+    credit: "Robert Scoble / Wikimedia Commons"
+    licence: "CC BY 2.0"
+    width: 4368
+    height: 2912
+    recommended: true
+    local_file: "us-psi-financial-crisis/lehman-brothers-hq-scoble-REC.jpg"
+    note: "Taken the actual day Lehman filed for bankruptcy - the single most specific 'this crisis' image available; Lehman collapse is a central subject of the PSI report. Crops well to a wide banner (building facade fills frame)."
+  - title: "Sign of the New York Stock Exchange, Broad Street"
+    page_url: "https://commons.wikimedia.org/wiki/File:Sign_of_the_New_York_Stock_Exchange,_Broad_Street.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/7/71/Sign_of_the_New_York_Stock_Exchange%2C_Broad_Street.jpg"
+    credit: "Billie Grace Ward / Wikimedia Commons"
+    licence: "CC0 1.0"
+    width: 4240
+    height: 2832
+    recommended: false
+    local_file: "us-psi-financial-crisis/nyse-sign-ward-ALT.jpg"
+    note: "Generic Wall Street identifier rather than crisis-specific; good backup if a less US-bank-specific image is wanted. Night shot, high contrast, crops well."
+  - title: "Floor of the New York Stock Exchange (1963)"
+    page_url: "https://commons.wikimedia.org/wiki/File:NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg"
+    credit: "Thomas J. O'Halloran, U.S. News & World Report collection, Library of Congress"
+    licence: "Public domain (LOC, no known restrictions)"
+    width: 4537
+    height: 3004
+    recommended: false
+    local_file: null
+    note: "Not downloaded - historic (1963), not contemporaneous with the 2008 crisis, included only as a fallback trading-floor image if the Lehman photo is rejected. Would need a caption making clear it is illustrative, not from 2008."
+
+litvinenko-inquiry:
+  - title: "Grave of Alexander Litvinenko, Highgate Cemetery"
+    page_url: "https://commons.wikimedia.org/wiki/File:LitvinenkoGrave.JPG"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/2/29/LitvinenkoGrave.JPG"
+    credit: "JohnArmagh / Wikimedia Commons"
+    licence: "Public domain (released by author)"
+    width: 3072
+    height: 2304
+    recommended: true
+    local_file: "litvinenko-inquiry/litvinenko-grave-johnarmagh-REC.jpg"
+    note: "Landscape orientation, dignified and specific (his actual grave), avoids any poisoning/hospital imagery. Weakest visual link to 'poisoning' as an event but the most respectful and rights-clean option found."
+  - title: "Millennium Hotel, Mayfair"
+    page_url: "https://commons.wikimedia.org/wiki/Category:Millennium_Hotel_Mayfair"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/Millennium_Hotel,_Mayfair.jpg"
+    credit: "unattributed (see Commons category)"
+    licence: "unverified, category only"
+    width: 640
+    height: 480
+    recommended: false
+    local_file: null
+    note: "GAP: this is where the poisoning occurred (bar meeting, 1 Nov 2006) and would be the most specific image, but the only Commons files found are far too small (640x480 and smaller) for a hero banner. Worth a targeted photo request or fair-use news photo if a better one is needed later."
+
+uk-saville-inquiry:
+  - title: "Free Derry Corner"
+    page_url: "https://commons.wikimedia.org/wiki/File:Free_Derry_corner.JPG"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/91/Free_Derry_corner.JPG"
+    credit: "Grünen / Wikimedia Commons"
+    licence: "CC BY-SA 3.0 (also GFDL 1.2+)"
+    width: 3617
+    height: 2816
+    recommended: true
+    local_file: "uk-saville-inquiry/free-derry-corner-gruenen-REC.jpg"
+    note: "The mural/gable end marking the Bogside, the precise location of Bloody Sunday; no violence or injury depicted, widely recognisable, landscape and high-res. Good dignity/specificity balance per the brief's guidance."
+  - title: "Bloody Sunday Memorial, Derry"
+    page_url: "https://commons.wikimedia.org/wiki/File:Bloody_Sunday_Memorial_Derry.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bloody_Sunday_Memorial_Derry.jpg"
+    credit: "Marc Liger / Wikimedia Commons"
+    licence: "CC BY-SA 3.0 (also 2.5/2.0/1.0, GFDL 1.2+)"
+    width: 1149
+    height: 1777
+    recommended: false
+    local_file: "uk-saville-inquiry/bloody-sunday-memorial-liger-ALT.jpg"
+    note: "The memorial itself, very dignified, but portrait orientation and modest resolution - would need a tight vertical-slice crop for a wide banner, so kept as backup only."
+
+uk-hillsborough-panel:
+  # Pilot pick (2026-09-27, bead cdp.3): Rufus asked for a photograph of the
+  # day itself, not the stadium today, with fair use acceptable. Commons has no
+  # 1989 photograph; enwiki's three are fair-use thumbnails (<=391px).
+  - title: "A Liverpool fan sits in the empty Hillsborough stadium on 15 April 1989"
+    page_url: "https://www.theguardian.com/football/2019/apr/15/liverpool-remembers-hillsborough-victims-on-30th-anniversary-of-disaster"
+    image_url: "https://media.guim.co.uk/e16a2b965e4ab7fac5df4346b785ec8b1661145e/0_43_3500_2100/master/3500.jpg"
+    credit: "John Giles/PA"
+    licence: "Fair use (PA Images copyright; not freely licensed)"
+    width: 3500
+    height: 2100
+    recommended: true
+    local_file: "uk-hillsborough-panel/leppings-lane-giles-pa-1989-FAIRUSE.jpg"
+    note: "The Leppings Lane end after the crush: empty terrace, perimeter fence, broken advertising boards used as stretchers, one supporter on the wall with his face in his hands (not identifiable). Black and white. The event, with no dead and no face in distress. Shipped as the pilot hero."
+  - title: "Hillsborough Stadium, Sheffield (aerial)"
+    page_url: "https://commons.wikimedia.org/wiki/File:Sheffield_wednesday_hillsborough_stadium.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sheffield_wednesday_hillsborough_stadium.jpg"
+    credit: "Arne Müseler / arne-mueseler.com / Wikimedia Commons"
+    licence: "CC BY-SA 3.0 DE"
+    width: 4550
+    height: 3407
+    recommended: false
+    local_file: "uk-hillsborough-panel/hillsborough-stadium-aerial-museler-REC.jpg"
+    note: "The stadium itself (2023, modernised since 1989 but recognisably the same ground), no crush/casualty imagery at all, very high resolution and landscape, crops well to a wide banner. Safest choice for family sensitivity."
+  - title: "Hillsborough Memorial, Anfield"
+    page_url: "https://commons.wikimedia.org/wiki/File:Hillsborough_Memorial,_Anfield.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hillsborough_Memorial%2C_Anfield.jpg"
+    credit: "Vincent Teeuwen / Wikimedia Commons"
+    licence: "CC BY 2.0"
+    width: 1425
+    height: 2004
+    recommended: false
+    local_file: "uk-hillsborough-panel/hillsborough-memorial-anfield-teeuwen-ALT.jpg"
+    note: "The eternal-flame memorial with the 96 names - the most emotionally direct and dignified option, but portrait orientation and lower resolution limit banner cropping; good as an inside-page image even if not the hero."
+
+uk-leveson-inquiry:
+  - title: "The Royal Courts of Justice"
+    page_url: "https://commons.wikimedia.org/wiki/File:The_Royal_Courts_of_Justice.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/d/dd/The_Royal_Courts_of_Justice.jpg"
+    credit: "Mike Peel (www.mikepeel.net) / Wikimedia Commons"
+    licence: "CC BY-SA 4.0"
+    width: 3888
+    height: 2592
+    recommended: true
+    local_file: "uk-leveson-inquiry/royal-courts-of-justice-peel-REC.jpg"
+    note: "Where the Leveson Inquiry's public hearings were actually held (2011-12); Gothic Revival facade reads well toned-down and crops cleanly to a wide banner. No single 'event' photo exists for this inquiry, so the venue is the strongest specific option."
+  - title: "News International Building, Wapping"
+    page_url: "https://www.geograph.org.uk/photo/2478979"
+    image_url: null
+    credit: "Roger Jones / Geograph Britain and Ireland (likely CC BY-SA 2.0, not yet verified on Commons)"
+    licence: "unverified"
+    width: null
+    height: null
+    recommended: false
+    local_file: null
+    note: "Not downloaded or licence-verified. Considered as a link to the phone-hacking scandal's origin (News of the World's former printing works), but weaker thematically than the Inquiry's own venue and needs a proper Commons file-page check before use."
+
+us-911-commission:
+  - title: "Twin Towers Smoking (Brooklyn Promenade panorama)"
+    page_url: "https://commons.wikimedia.org/wiki/File:Twin_Towers_Smoking.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Twin_Towers_Smoking.jpg"
+    credit: "Jeffrey Bary / Wikimedia Commons"
+    licence: "CC BY 2.0"
+    width: 3368
+    height: 1194
+    recommended: true
+    local_file: "us-911-commission/twin-towers-smoking-bary-REC.jpg"
+    note: "Near-2.8:1 panorama of both towers burning against the skyline - almost exactly the wide banner ratio already, minimal cropping needed, dignified (no people visible)."
+  - title: "Skyline of Manhattan with smoke billowing from the Twin Towers"
+    page_url: "https://commons.wikimedia.org/wiki/File:Skyline_of_Manhattan_with_smoke_billowing_from_the_Twin_Towers_(29385426736).jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/0/00/Skyline_of_Manhattan_with_smoke_billowing_from_the_Twin_Towers_%2829385426736%29.jpg"
+    credit: "New York District Attorney's office archive (photographer unattributed) / Wikimedia Commons"
+    licence: "Public Domain Mark 1.0"
+    width: 2500
+    height: 1666
+    recommended: false
+    local_file: "us-911-commission/skyline-smoke-nyda-ALT.jpg"
+    note: "Alternate wide skyline view, fully public domain, slightly less dramatic crop ratio than the panorama."
+
+challenger-accident:
+  - title: "Challenger explosion, 28 Jan 1986"
+    page_url: "https://commons.wikimedia.org/wiki/File:Challenger_explosion.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Challenger_explosion.jpg"
+    credit: "NASA (Kennedy Space Center; image 86-HC-220 / GPN-2004-00012)"
+    licence: "Public domain (NASA)"
+    width: 3555
+    height: 2879
+    recommended: true
+    local_file: "challenger-accident/challenger-explosion-nasa-REC.jpg"
+    note: "The single most iconic and specific image of the event; no crew or wreckage visible, just the exhaust-plume fireball, so no dignity concern. Featured/Picture-of-the-day image on Wikipedia, licence well established."
+
+columbia-accident:
+  - title: "Grid with Columbia's Debris (reconstruction hangar)"
+    page_url: "https://commons.wikimedia.org/wiki/File:Grid_with_Columbia%27s_Debris_-_GPN-2003-00081.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/91/Grid_with_Columbia%27s_Debris_-_GPN-2003-00081.jpg"
+    credit: "NASA / Kennedy Space Center"
+    licence: "Public domain (NASA)"
+    width: 3000
+    height: 1955
+    recommended: true
+    local_file: "columbia-accident/columbia-debris-grid-nasa-REC.jpg"
+    note: "Shows the reconstruction-hangar floor grid used to reassemble the orbiter's debris, evoking the scale of the investigation without showing wreckage in a gruesome way. No breakup/contrail photo of comparable resolution and clean licence was found - flagged as a compromise pick tied to the investigation more than the mid-air breakup itself."
+
+us-deepwater-horizon:
+  - title: "Deepwater Horizon offshore drilling unit on fire"
+    page_url: "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/8/82/Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg"
+    credit: "U.S. Coast Guard"
+    licence: "Public domain (US federal government work)"
+    width: 3264
+    height: 2448
+    recommended: true
+    local_file: "us-deepwater-horizon/deepwater-horizon-fire-uscg-REC.jpg"
+    note: "The rig itself ablaze, close-in and dramatic, no people visible. 4:3 crop needs trimming top/bottom for a wide banner but the flame/smoke column stays legible."
+  - title: "Fire boat response crews battle Deepwater Horizon blaze"
+    page_url: "https://commons.wikimedia.org/wiki/File:Defense.gov_photo_essay_100421-G-0000L-003.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Defense.gov_photo_essay_100421-G-0000L-003.jpg"
+    credit: "U.S. Coast Guard (Defense.gov photo essay 100421-G-0000L-003)"
+    licence: "Public domain (US federal government work)"
+    width: 3264
+    height: 2448
+    recommended: false
+    local_file: "us-deepwater-horizon/deepwater-horizon-fireboats-uscg-ALT.jpg"
+    note: "Wider shot including fireboats spraying water on the burning rig - good sense of scale/response effort, slightly busier composition than the recommended tight shot."
+
+us-v-philip-morris:
+  - title: "Surgeon General's warning on a cigarette pack"
+    page_url: "https://commons.wikimedia.org/wiki/File:Surgeon_General%27s_warning_cigarettes.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/43/Surgeon_General%27s_warning_cigarettes.jpg"
+    credit: "CDC / Debora Cartagena"
+    licence: "Public domain (US federal government work)"
+    width: 3000
+    height: 2000
+    recommended: true
+    local_file: "us-v-philip-morris/cigarette-pack-warning-cdc-REC.jpg"
+    note: "An opened pack with the health warning visible plus an ashtray with butts - directly evokes the subject matter (tobacco marketing and health-warning litigation) without needing a courthouse stand-in. No single 'event' photo exists for a civil RICO judgment, so an object shot is the strongest specific option."
+  - title: "E. Barrett Prettyman Federal Courthouse, Washington DC"
+    page_url: "https://commons.wikimedia.org/wiki/File:E._Barrett_Prettyman_Federal_Courthouse,_DC.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/49/E._Barrett_Prettyman_Federal_Courthouse%2C_DC.jpg"
+    credit: "AgnosticPreachersKid / Wikimedia Commons"
+    licence: "CC BY-SA 3.0 (also GFDL 1.2+)"
+    width: 2737
+    height: 2447
+    recommended: false
+    local_file: "us-v-philip-morris/prettyman-courthouse-apk-ALT.jpg"
+    note: "Where Judge Kessler's court (US District Court for DC) sits; a legitimate venue shot but less specific to tobacco than the cigarette-pack image, and near-square crop needs trimming for a wide banner."

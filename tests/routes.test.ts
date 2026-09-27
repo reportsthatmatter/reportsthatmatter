@@ -407,6 +407,38 @@ describe("split reports", () => {
   });
 });
 
+describe("hero photographs (reportsthatmatter-cdp.3)", () => {
+  for (const [id, credit] of [
+    ["jack-smith-vol1", "Photo: Tyler Merbler, CC BY 2.0"],
+    ["uk-hillsborough-panel", "Photo: John Giles/PA"],
+  ]) {
+    it(`shows ${id}'s hero on its landing page, credited, instead of its plate`, async () => {
+      const body = await (await app.request(`http://localhost/reports/${id}`)).text();
+      expect(body).toContain('<figure class="report-hero">');
+      expect(body).toContain(`src="/assets/heroes/${id}.webp"`);
+      expect(body).toContain(`/assets/heroes/${id}-1200.webp 1200w`);
+      expect(body).toContain(credit);
+      expect(body).not.toContain('class="frontispiece"');
+    });
+
+    it(`keeps ${id}'s hero off its other pages`, async () => {
+      const landing = await (await app.request(`http://localhost/reports/${id}`)).text();
+      const section = landing.match(new RegExp(`href="(/reports/${id}/[a-z0-9-]+)"`))![1];
+      for (const path of [`/reports/${id}/full`, section]) {
+        const body = await (await app.request(`http://localhost${path}`)).text();
+        expect(body).not.toContain('class="report-hero"');
+      }
+    });
+  }
+
+  it("keeps the plate on a landing page without a hero", async () => {
+    const body = await (await app.request("http://localhost/reports/us-911-commission")).text();
+    expect(body).toContain("Where to start reading");
+    expect(body).not.toContain('class="report-hero"');
+    expect(body).toContain('class="frontispiece"');
+  });
+});
+
 describe("crawlability", () => {
   it("lists every section in the sitemap", async () => {
     const res = await app.request("https://reportsthatmatter.org/sitemap.xml");

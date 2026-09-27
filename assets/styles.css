@@ -710,6 +710,44 @@ hr {
   margin-bottom: 1.5rem;
 }
 
+/* A landing page's hero photograph (reportsthatmatter-cdp.3): a full-bleed
+ * band above the report header, cropped from the focal point the editorial
+ * file names (set inline as object-position). No background and no padding:
+ * the photograph is the band. (Not `.hero`: that is the homepage's padded,
+ * centred intro.) Its muted colour, levels and grain are baked into the file,
+ * not applied here. Design: docs/design/2026-09-27-hero/. */
+.report-hero {
+  margin: 0;
+}
+
+.report-hero img {
+  display: block;
+  width: 100%;
+  height: clamp(200px, 30vw, 420px);
+  object-fit: cover;
+}
+
+.report-hero figcaption {
+  padding: 0.5rem var(--gutter) 0;
+  text-align: right;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.report-hero figcaption a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.report-hero figcaption a:hover {
+  color: var(--ink);
+}
+
+.report-header.has-hero {
+  padding-top: clamp(2rem, 4vw, 3.5rem);
+}
+
 /* A report's plate (#99), above its title. The img carries its own size
  * (fitted to 300x220 by frontispiece()); max-width keeps it inside a phone. */
 .report-header .frontispiece {

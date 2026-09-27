@@ -22,11 +22,18 @@ import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 
 import { join } from "node:path";
 import { parse } from "yaml";
 import { resolveEditorial } from "../src/lib/editorial.ts";
+import { webpSize } from "./imagery/webp.mjs";
 
 const root = join(import.meta.dirname, "..");
 const dir = join(root, "editorial");
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const known = new Set(registry.reports.map((report) => report.id));
+
+// A hero's files are read off disk: `/assets/heroes/x.webp` is assets/heroes/x.webp.
+const assetSize = (src) => {
+  const path = join(root, src.replace(/^\//, ""));
+  return existsSync(path) ? webpSize(readFileSync(path)) : null;
+};
 
 const problems = [];
 const resolved = {};
@@ -64,7 +71,7 @@ for (const name of files) {
   const structure = JSON.parse(
     readFileSync(join(root, `assets/generated/reports/${source.report}/meta.json`), "utf8")
   );
-  const result = resolveEditorial(source, readFileSync(bodyPath, "utf8"), structure);
+  const result = resolveEditorial(source, readFileSync(bodyPath, "utf8"), structure, assetSize);
   problems.push(...result.problems);
   resolved[source.report] = result.editorial;
   highlights.push(...result.highlights);
@@ -74,7 +81,7 @@ for (const name of files) {
   console.log(
     `  ${result.problems.length ? "✗" : "✓"} ${source.report} (${source.status}) — ` +
       `${findings.length} findings, ${readingGuide.length} to read, ${quotes} quotes on the page, ` +
-      `${result.highlights.length} highlights`
+      `${result.highlights.length} highlights${result.editorial.hero ? ", a hero" : ""}`
   );
 }
 

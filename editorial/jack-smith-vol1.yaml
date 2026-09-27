@@ -7,11 +7,24 @@
 #   findings        what it found; a few carry a key quotation
 #   reading_guide   where to start reading, section by section
 #   highlights      Rufus's highlights: seeded into the marks table, not printed here
+#   hero            optional: the photograph in a band above the header. The file
+#                   is built by `pnpm heroes`; its sourcing record is in
+#                   docs/design/2026-09-27-hero/sources.yaml (docs/hero-images.md)
 #
 # status: draft until Rufus approves; only approved files render without ?draft.
 
 report: jack-smith-vol1
 status: approved
+
+hero:
+  src: /assets/heroes/jack-smith-vol1.webp
+  alt: >-
+    A wooden gallows with an orange noose, built by the crowd on 6 January
+    2021, with the dome of the US Capitol framed between its posts.
+  credit: "The Capitol, 6 January 2021 · Photo: Tyler Merbler, CC BY 2.0"
+  source: "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09156_(50826223403).jpg"
+  licence: CC BY 2.0
+  focus: "50% 40%"
 
 why_it_matters: >-
   The Special Counsel's account of Donald Trump's attempt to overturn the 2020

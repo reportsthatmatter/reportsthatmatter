@@ -3,7 +3,7 @@ import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { quotedPassage, truncate, shareImage, frontispiece, publicationYear } from "./report";
 import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
-import { renderLanding, renderOurNote, renderStandfirst, showsEditorial } from "./editorial";
+import { renderHero, renderLanding, renderOurNote, renderStandfirst, showsEditorial } from "./editorial";
 import type { Editorial } from "../lib/editorial";
 
 /** What the page shell needs of a section — not its html. */
@@ -96,12 +96,17 @@ export function renderReportOverview(
     })
     .join("");
 
+  // A hero photograph replaces the plate on the landing page: two images
+  // compete (reportsthatmatter-cdp.1). The plate stays everywhere else.
+  const hero = editorial?.hero;
+
   const body = `
 <main>
   <article>
-    <header class="report-header wrap">
+    ${hero ? renderHero(hero) : ""}
+    <header class="report-header wrap${hero ? " has-hero" : ""}">
       <div class="measure">
-        ${frontispiece(meta.id)}
+        ${hero ? "" : frontispiece(meta.id)}
         <p class="kicker mono">Report${year ? ` · <span class="kicker-year">${escapeHtml(year)}</span>` : ""}</p>
         <h1>${escapeHtml(meta.title)}</h1>
         ${editorial ? renderStandfirst(editorial) : ""}

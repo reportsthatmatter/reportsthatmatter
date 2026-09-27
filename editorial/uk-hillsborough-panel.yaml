@@ -40,6 +40,18 @@
 report: uk-hillsborough-panel
 status: approved
 
+hero:
+  src: /assets/heroes/uk-hillsborough-panel.webp
+  alt: >-
+    The empty Leppings Lane terrace at Hillsborough after the crush on 15 April
+    1989, behind its perimeter fence, with broken advertising boards piled on
+    the pitch and a Liverpool supporter sitting alone on the wall, his face in
+    his hands.
+  credit: "Leppings Lane, Hillsborough, 15 April 1989 · Photo: John Giles/PA"
+  source: "https://www.theguardian.com/football/2019/apr/15/liverpool-remembers-hillsborough-victims-on-30th-anniversary-of-disaster"
+  licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
+  focus: "50% 45%"
+
 why_it_matters: >-
   The Hillsborough Independent Panel's account of how 96 football supporters
   died in a crush at the 1989 FA Cup semi-final, and what happened to the

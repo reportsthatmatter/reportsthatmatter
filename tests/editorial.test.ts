@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { placeQuote, resolveEditorial, type EditorialSource, type Editorial } from "../src/lib/editorial";
-import { renderLanding, renderStandfirst, renderOurNote } from "../src/templates/editorial";
+import { renderHero, renderLanding, renderStandfirst, renderOurNote } from "../src/templates/editorial";
 import { publicationYear } from "../src/templates/report";
 import { renderReportList } from "../src/templates/index";
 import { renderReportOverview } from "../src/templates/section";
@@ -114,6 +114,67 @@ describe("resolving an editorial file", () => {
   });
 });
 
+describe("a hero photograph", () => {
+  const hero = {
+    src: "/assets/heroes/demo.webp",
+    alt: "The gallows outside the Capitol.",
+    credit: "The Capitol, 6 January 2021 · Photo: T. M., CC BY 2.0",
+    source: "https://commons.wikimedia.org/wiki/File:x.jpg",
+    focus: "50% 40%",
+  };
+  const onDisk = (src: string) =>
+    ({ "/assets/heroes/demo.webp": { width: 2400, height: 1528 }, "/assets/heroes/demo-1200.webp": { width: 1200, height: 764 } })[src] ?? null;
+
+  it("resolves both widths and their sizes", () => {
+    const { editorial, problems } = resolveEditorial(source({ hero }), HTML, STRUCTURE, onDisk);
+    expect(problems).toEqual([]);
+    expect(editorial.hero).toEqual({
+      src: "/assets/heroes/demo.webp",
+      width: 2400,
+      height: 1528,
+      small: { src: "/assets/heroes/demo-1200.webp", width: 1200 },
+      credit: hero.credit,
+      source: hero.source,
+      alt: hero.alt,
+      focus: "50% 40%",
+    });
+  });
+
+  it("is optional", () => {
+    const { editorial, problems } = resolveEditorial(source(), HTML, STRUCTURE);
+    expect(problems).toEqual([]);
+    expect(editorial.hero).toBeUndefined();
+  });
+
+  it("requires alt text, a credit, a source link and the files on disk", () => {
+    const { editorial, problems } = resolveEditorial(
+      source({ hero: { ...hero, src: "/assets/heroes/gone.webp", alt: " ", credit: "", source: "commons", focus: "top" } }),
+      HTML,
+      STRUCTURE,
+      onDisk
+    );
+    const all = problems.join("\n");
+    expect(all).toMatch(/alt is required/);
+    expect(all).toMatch(/credit is required/);
+    expect(all).toMatch(/source must be/);
+    expect(all).toMatch(/focus must be/);
+    expect(all).toMatch(/no file for \/assets\/heroes\/gone\.webp/);
+    expect(all).toMatch(/no file for \/assets\/heroes\/gone-1200\.webp/);
+    expect(editorial.hero).toBeUndefined();
+  });
+
+  it("renders with a srcset, its size, its focal point and a credit linking to its source", () => {
+    const resolved = resolveEditorial(source({ hero }), HTML, STRUCTURE, onDisk).editorial.hero!;
+    const html = renderHero(resolved);
+    expect(html).toContain('<figure class="report-hero">');
+    expect(html).toContain('srcset="/assets/heroes/demo-1200.webp 1200w, /assets/heroes/demo.webp 2400w"');
+    expect(html).toContain('width="2400" height="1528"');
+    expect(html).toContain('alt="The gallows outside the Capitol."');
+    expect(html).toContain("object-position:50% 40%");
+    expect(html).toContain(`<a href="${hero.source}" rel="nofollow">The Capitol, 6 January 2021`);
+  });
+});
+
 const approved: Editorial = {
   status: "approved",
   whyItMatters: "The Special Counsel's account.",
@@ -164,6 +225,29 @@ describe("the landing page", () => {
     const preview = renderReportOverview(meta, sections, { words: 10 }, [], { editorial: draft, draft: true });
     expect(preview).toContain("Where to start reading");
     expect(preview).toContain('<meta name="robots" content="noindex" />');
+  });
+
+  it("puts a hero above the header in place of the plate, only when the landing page is shown", () => {
+    const hero = {
+      src: "/assets/heroes/columbia-accident.webp", width: 2400, height: 1200,
+      small: { src: "/assets/heroes/columbia-accident-1200.webp", width: 1200 },
+      credit: "Credit line", source: "https://example.org/photo", alt: "A photograph.", focus: "50% 50%",
+    };
+    const plated = { ...meta, id: "columbia-accident" };
+    const live = renderReportOverview(plated, sections, { words: 10 }, [], { editorial: { ...approved, hero } });
+    expect(live).toContain('<figure class="report-hero">');
+    expect(live.indexOf('<figure class="report-hero">')).toBeLessThan(live.indexOf('<header class="report-header'));
+    expect(live).not.toContain('class="frontispiece"');
+
+    const draft = { ...approved, status: "draft" as const, hero };
+    const hidden = renderReportOverview(plated, sections, { words: 10 }, [], { editorial: draft });
+    expect(hidden).not.toContain('class="report-hero"');
+    expect(hidden).toContain('class="frontispiece"');
+    expect(renderReportOverview(plated, sections, { words: 10 }, [], { editorial: draft, draft: true })).toContain('<figure class="report-hero">');
+
+    const noHero = renderReportOverview(plated, sections, { words: 10 }, [], { editorial: approved });
+    expect(noHero).not.toContain('class="report-hero"');
+    expect(noHero).toContain('class="frontispiece"');
   });
 
   it("leaves out Most marked passages on a landing page, and keeps it elsewhere", () => {
