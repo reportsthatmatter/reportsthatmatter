@@ -7,7 +7,35 @@ set -uo pipefail
 
 cd "$(dirname "$0")/.."
 
-PORT="${VERIFY_PORT:-8799}"
+# A per-run scratch dir for every log and fetched file this run produces.
+# Concurrent runs (two worktrees, two agents) each get their own — nothing here
+# is shared, so one run's failure can never show another run's output, and
+# nothing overwrites a peer's in-flight log. Removed on a clean exit; kept
+# (with its path printed) when anything failed, so the logs can still be read.
+RUN_DIR=$(mktemp -d "${TMPDIR:-/tmp}/rtm-verify.XXXXXX")
+FETCH_DIR="${RUN_DIR}/fetch"
+mkdir -p "$FETCH_DIR"
+
+# A free TCP port, picked by actually binding port 0 and reading back what the
+# OS assigned. Used both for the port `VERIFY_PORT` doesn't override and for
+# wrangler's inspector port, which has no override at all — fixed, either one
+# collides the instant two runs are live on the same machine (reportsthatmatter-9ew).
+free_port() {
+  node -e '
+    const net = require("net");
+    const srv = net.createServer();
+    srv.listen(0, "127.0.0.1", () => {
+      const { port } = srv.address();
+      srv.close(() => { process.stdout.write(String(port)); });
+    });
+  '
+}
+
+if [ -n "${VERIFY_PORT:-}" ]; then
+  PORT="$VERIFY_PORT"
+else
+  PORT=$(free_port)
+fi
 BASE="http://localhost:${PORT}"
 FAILED=0
 SERVER_PID=""
@@ -17,9 +45,15 @@ fail() { printf '  \033[31m✗\033[0m %s\n' "$1"; FAILED=$((FAILED + 1)); }
 step() { printf '\n\033[1m%s\033[0m\n' "$1"; }
 
 cleanup() {
+  local exit_code=$?
   if [ -n "$SERVER_PID" ]; then
     kill "$SERVER_PID" 2>/dev/null
     wait "$SERVER_PID" 2>/dev/null
+  fi
+  if [ "$exit_code" -eq 0 ]; then
+    rm -rf "$RUN_DIR"
+  else
+    printf '\n\033[33mLogs kept at %s\033[0m\n' "$RUN_DIR"
   fi
 }
 trap cleanup EXIT
@@ -30,11 +64,11 @@ step "Aggregate reports"
 # A report's authority is its own repo (reports/manifest.yaml). Copying here
 # before pre-rendering is what stops the site serving a stale copy of a report
 # that was edited where it actually lives.
-if pnpm ingest aggregate >/tmp/rtm-aggregate.log 2>&1; then
+if pnpm ingest aggregate >"${RUN_DIR}/aggregate.log" 2>&1; then
   pass "reports/ is current with each report's source of truth"
 else
   fail "pnpm ingest aggregate"
-  tail -20 /tmp/rtm-aggregate.log
+  tail -20 "${RUN_DIR}/aggregate.log"
 fi
 
 step "Pre-render"
@@ -43,11 +77,11 @@ step "Pre-render"
 # here, always, is what makes that safe: a markdown or template edit with no
 # matching `pnpm prerender` run would otherwise pass every check below
 # against stale output.
-if pnpm prerender >/tmp/rtm-prerender.log 2>&1; then
+if pnpm prerender >"${RUN_DIR}/prerender.log" 2>&1; then
   pass "assets/generated/ is current"
 else
   fail "pnpm prerender"
-  tail -20 /tmp/rtm-prerender.log
+  tail -20 "${RUN_DIR}/prerender.log"
 fi
 
 step "Editorial layer"
@@ -55,47 +89,47 @@ step "Editorial layer"
 # report does not contain, or a citation to a paragraph that has moved, is
 # the one error this project cannot ship — so it is checked against the pages
 # just pre-rendered, and src/generated/editorial.ts rebuilt from them.
-if pnpm editorial >/tmp/rtm-editorial.log 2>&1; then
+if pnpm editorial >"${RUN_DIR}/editorial.log" 2>&1; then
   pass "every editorial quote is verbatim and every citation resolves"
 else
   fail "pnpm editorial"
-  tail -30 /tmp/rtm-editorial.log
+  tail -30 "${RUN_DIR}/editorial.log"
 fi
 
 step "Corpus blast radius"
 # Paragraph ids are permalinks, and they are produced *here*, downstream of
 # anything a report's own baseline.json covers. This is the only gate that
 # would see src/lib/markdown.ts repointing every citation in the archive.
-if pnpm corpus check >/tmp/rtm-corpus.log 2>&1; then
+if pnpm corpus check >"${RUN_DIR}/corpus.log" 2>&1; then
   pass "every report's citable ids are where the baseline says"
 else
   fail "pnpm corpus check"
-  tail -30 /tmp/rtm-corpus.log
+  tail -30 "${RUN_DIR}/corpus.log"
 fi
 
 step "Typecheck"
-if pnpm typecheck >/tmp/rtm-typecheck.log 2>&1; then
+if pnpm typecheck >"${RUN_DIR}/typecheck.log" 2>&1; then
   pass "tsc --noEmit"
 else
   fail "tsc --noEmit"
-  tail -20 /tmp/rtm-typecheck.log
+  tail -20 "${RUN_DIR}/typecheck.log"
 fi
 
 step "Unit tests"
-if pnpm test >/tmp/rtm-test.log 2>&1; then
-  pass "$(grep -oE 'Tests +[0-9]+ passed' /tmp/rtm-test.log | tail -1)"
+if pnpm test >"${RUN_DIR}/test.log" 2>&1; then
+  pass "$(grep -oE 'Tests +[0-9]+ passed' "${RUN_DIR}/test.log" | tail -1)"
 else
   fail "vitest"
-  tail -30 /tmp/rtm-test.log
+  tail -30 "${RUN_DIR}/test.log"
 fi
 
 step "Ingestion fidelity"
 if [ -f scripts/ingest/cli.ts ] && [ -d reports/jack-smith-vol1 ]; then
-  if pnpm ingest verify >/tmp/rtm-ingest.log 2>&1; then
+  if pnpm ingest verify >"${RUN_DIR}/ingest.log" 2>&1; then
     pass "report fidelity checks"
   else
     fail "report fidelity checks"
-    tail -30 /tmp/rtm-ingest.log
+    tail -30 "${RUN_DIR}/ingest.log"
   fi
 else
   printf '  \033[33m–\033[0m ingestion not yet built; skipping\n'
@@ -105,11 +139,11 @@ step "Ingestion regression"
 # A heuristic change that moves any report's output fails here unless the
 # baseline moves with it. The Leveson fix changed three other reports
 # silently (#118); this is what would have caught it.
-if pnpm ingest check >/tmp/rtm-ingest-check.log 2>&1; then
+if pnpm ingest check >"${RUN_DIR}/ingest-check.log" 2>&1; then
   pass "every report matches its baseline"
 else
   fail "report output moved without a baseline update"
-  tail -30 /tmp/rtm-ingest-check.log
+  tail -30 "${RUN_DIR}/ingest-check.log"
 fi
 
 # ---------- live site checks ----------
@@ -135,11 +169,11 @@ if [ -n "${VERIFY_BASE:-}" ]; then
   # reindex step — rtm-publish, a report repo's self-publish CLI, is one such
   # path (reportsthatmatter-9j2). This is meaningless against local D1, which
   # never carries a real report_versions row, so it only runs here.
-  if pnpm check-search-staleness >/tmp/rtm-search-staleness.log 2>&1; then
+  if pnpm check-search-staleness >"${RUN_DIR}/search-staleness.log" 2>&1; then
     pass "search index matches what is published"
   else
     fail "search index has drifted from what is published"
-    tail -20 /tmp/rtm-search-staleness.log
+    tail -20 "${RUN_DIR}/search-staleness.log"
   fi
 else
   step "Database"
@@ -148,27 +182,31 @@ else
   # and a checkout mid-session both just work), then the search index (#100),
   # rebuilt from whatever pnpm prerender just wrote, so it can never test
   # against a stale one either.
-  if pnpm wrangler d1 migrations apply reportsthatmatter-marks --local >/tmp/rtm-d1-migrate.log 2>&1; then
+  if pnpm wrangler d1 migrations apply reportsthatmatter-marks --local >"${RUN_DIR}/d1-migrate.log" 2>&1; then
     pass "D1 migrations applied"
   else
     fail "D1 migrations"
-    tail -20 /tmp/rtm-d1-migrate.log
+    tail -20 "${RUN_DIR}/d1-migrate.log"
   fi
 
-  if pnpm index-search >/tmp/rtm-index-search.log 2>&1; then
-    if pnpm wrangler d1 execute reportsthatmatter-marks --local --file=build/search-index.sql >/tmp/rtm-index-apply.log 2>&1; then
+  if pnpm index-search >"${RUN_DIR}/index-search.log" 2>&1; then
+    if pnpm wrangler d1 execute reportsthatmatter-marks --local --file=build/search-index.sql >"${RUN_DIR}/index-apply.log" 2>&1; then
       pass "search index built and applied"
     else
       fail "applying the search index"
-      tail -20 /tmp/rtm-index-apply.log
+      tail -20 "${RUN_DIR}/index-apply.log"
     fi
   else
     fail "pnpm index-search"
-    tail -20 /tmp/rtm-index-search.log
+    tail -20 "${RUN_DIR}/index-search.log"
   fi
 
   step "Booting worker on :${PORT}"
-  pnpm wrangler dev --local --port "$PORT" >/tmp/rtm-wrangler.log 2>&1 &
+  # wrangler dev's inspector port has no override of its own and defaults to a
+  # fixed 9229 — the same collision VERIFY_PORT exists to avoid, just for
+  # devtools instead of HTTP, so it gets a free port too.
+  INSPECTOR_PORT=$(free_port)
+  pnpm wrangler dev --local --port "$PORT" --inspector-port "$INSPECTOR_PORT" >"${RUN_DIR}/wrangler.log" 2>&1 &
   SERVER_PID=$!
 
   for _ in $(seq 1 60); do
@@ -178,7 +216,7 @@ else
 
   if ! curl -sf "${BASE}/health" >/dev/null 2>&1; then
     fail "worker did not start"
-    tail -30 /tmp/rtm-wrangler.log
+    tail -30 "${RUN_DIR}/wrangler.log"
     printf '\n\033[31m%d check(s) failed\033[0m\n' "$FAILED"
     exit 1
   fi
@@ -211,8 +249,8 @@ check_status() {
 # Fetch to a file rather than piping into grep: `grep -q` exits on first match,
 # which SIGPIPEs curl, and under `pipefail` that turns a passing check into a
 # failing one on any response large enough to still be streaming.
-FETCH_DIR=$(mktemp -d)
-trap 'cleanup; rm -rf "$FETCH_DIR"' EXIT
+# (FETCH_DIR was created under RUN_DIR at the top; the one `cleanup` trap there
+# already covers it.)
 
 fetch() {
   local path="$1"
@@ -378,11 +416,11 @@ for id in $IDS; do
 done
 
 step "Browser end-to-end"
-if pnpm exec node scripts/e2e.mjs "$BASE" >/tmp/rtm-e2e.log 2>&1; then
-  while IFS= read -r line; do pass "$line"; done < <(grep '^ok ' /tmp/rtm-e2e.log | sed 's/^ok //')
+if pnpm exec node scripts/e2e.mjs "$BASE" >"${RUN_DIR}/e2e.log" 2>&1; then
+  while IFS= read -r line; do pass "$line"; done < <(grep '^ok ' "${RUN_DIR}/e2e.log" | sed 's/^ok //')
 else
   fail "browser checks"
-  tail -40 /tmp/rtm-e2e.log
+  tail -40 "${RUN_DIR}/e2e.log"
 fi
 
 # ---------- verdict ----------
