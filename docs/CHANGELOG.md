@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-27 — The 9/11 Commission Report's sections, and its chapter 11 notes, restored
+
+Every numbered section of the 9/11 Commission Report is now its own section, titled as the report's contents titles it: "8.1 The Summer of Threat" rather than "THE SYSTEM WAS BLINKING RED" 8.1 THE SUMMER OF THREAT fused into one capitals heading. Six sections the text had lost into the paragraph below them are back, among them "9.2 September 11, 2001", "8.2 Late Leads—Mihdhar, Moussaoui, and KSM" and "11.2 Policy"; the contents now lists all 55. The report's notes are endnotes, but its notes pages were being read for footnotes, which produced five notes that nothing in the text pointed to; chapter 11's first thirteen notes had disappeared into one of them. They are back in the Notes under "11 Foresight—and Hindsight".
+
+---
+
 ## 2026-09-27 — Wall Street's contents list only real sections
 
 Quoted exhibits in Wall Street and the Financial Crisis — an awards-night script, an S&P memo header, a sales-goals slide — were being read as section headings in its contents. They no longer are, and the numbered findings that follow them, "Conflict Between Client Interests and Proprietary Trading in 2007", "Failing to Disclose Key Information to Investors", among them, read as their own paragraphs again instead of being swallowed into a caption's heading.

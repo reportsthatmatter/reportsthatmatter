@@ -2,13 +2,9 @@
 # for the fields and the rules. Every quote is verbatim from the rendered report
 # (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
 #
-# Extraction note: this report's section headings are rendered in full capitals
-# by the pipeline, and several chapter banners (e.g. "THE SYSTEM WAS BLINKING
-# RED") are fused with the chapter's first numbered subsection into a single
-# heading. `reading_guide` below overrides the titles of the sections it uses,
-# to plain title case, following the precedent in uk-saville-inquiry.yaml and
-# us-psi-financial-crisis.yaml. Filed as reportsthatmatter-w8g for the
-# ingestion pipeline to fix generally.
+# Section headings are the report's own numbered sections, spelt as its
+# contents spells them ("8.1 The Summer of Threat"), so `reading_guide` needs
+# no title overrides.
 #
 # Background facts not stated in the report itself, verified 2026-09-26:
 #   - Thomas Kean (chairman) and Lee Hamilton (vice chairman):
@@ -130,7 +126,6 @@ findings:
 
 reading_guide:
   - section: 11-inside-the-four-flights
-    title: "1.1 Inside the Four Flights"
     why: Minute by minute, how four hijacked airliners boarded, took off, and defeated the security and air-defence systems in place that morning.
     excerpt:
       paragraph: 19-men-aboard-four-transcontinental
@@ -141,9 +136,8 @@ reading_guide:
         defeated all the security layers that America's civil aviation
         security system then had in place to prevent a hijacking.
 
-  - section: the-system-was-blinking-red-81-the-summer-of-threat
-    title: "8.1 The Summer of Threat"
-    why: The wave of intelligence warnings in the months before 9/11, and how little of what worried Washington reached the FBI agents who had, without knowing it, already found one of the plot's operatives.
+  - section: 82-late-leadsmihdhar-moussaoui-and-ksm
+    why: The late leads on Mihdhar, Moussaoui and KSM in the summer of 2001, and how little of what worried Washington reached the FBI agents who had, without knowing it, already found one of the plot's operatives.
     excerpt:
       paragraph: there-substantial-disagreement-between-minneapolis
       quote: >-
@@ -154,7 +148,6 @@ reading_guide:
         terrorist.
 
   - section: 111-imagination
-    title: "11.1 Imagination"
     why: The Commission's own diagnosis of why the attack succeeded — not one culprit but four kinds of failure — and why imagination was the hardest to build into routine practice.
     excerpt:
       paragraph: therefore-crucial-find-way-routinizing
@@ -163,7 +156,6 @@ reading_guide:
         bureaucratizing, the exercise of imagination.
 
   - section: 131-unity-of-effort-across-the-foreign-domestic-divide
-    title: "13.1 Unity of Effort Across the Foreign-Domestic Divide"
     why: The case for a National Counterterrorism Center, and how the Commission proposed it should work.
     excerpt:
       paragraph: recommendation-we-recommend-establishment-national
@@ -173,7 +165,6 @@ reading_guide:
         Integration Center (TTIC).
 
   - section: 132-unity-of-effort-in-the-intelligence-community
-    title: "13.2 Unity of Effort in the Intelligence Community"
     why: The case for a National Intelligence Director in place of the Director of Central Intelligence, and what authority the new office would and would not have.
     excerpt:
       paragraph: recommendation-current-position-director-central

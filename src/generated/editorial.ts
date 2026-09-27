@@ -1351,10 +1351,10 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "the-system-was-blinking-red-81-the-summer-of-threat",
-        "title": "8.1 The Summer of Threat",
-        "page": "255",
-        "why": "The wave of intelligence warnings in the months before 9/11, and how little of what worried Washington reached the FBI agents who had, without knowing it, already found one of the plot's operatives.",
+        "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
+        "title": "8.2 Late Leads—Mihdhar, Moussaoui, and KSM",
+        "page": "267",
+        "why": "The late leads on Mihdhar, Moussaoui and KSM in the summer of 2001, and how little of what worried Washington reached the FBI agents who had, without knowing it, already found one of the plot's operatives.",
         "excerpt": {
           "quote": "The supervisor replied that was precisely his intent. He said he was \"trying to keep someone from taking a plane and crashing into the World Trade Center.\" The headquarters agent replied that this was not going to happen and that they did not know if Moussaoui was a terrorist.",
           "cite": {
@@ -1380,7 +1380,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       },
       {
         "slug": "131-unity-of-effort-across-the-foreign-domestic-divide",
-        "title": "13.1 Unity of Effort Across the Foreign-Domestic Divide",
+        "title": "13.1 Unity of Effort across the Foreign-Domestic Divide",
         "page": "401",
         "why": "The case for a National Counterterrorism Center, and how the Commission proposed it should work.",
         "excerpt": {
