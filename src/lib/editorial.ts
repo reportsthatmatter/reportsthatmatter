@@ -16,6 +16,42 @@ import { encodeAnchor, normalise, selectorFor } from "../../assets/anchor.js";
 /** A verbatim quotation from the report, and the paragraph it comes from. */
 export type QuoteSource = { paragraph: string; quote: string };
 
+/**
+ * A landing page's hero photograph, as written in the editorial file
+ * (reportsthatmatter-cdp.3). The file itself is built by `pnpm heroes` from
+ * docs/design/2026-09-27-hero/sources.yaml, which holds the full sourcing
+ * record; this is what the page shows.
+ */
+export type HeroSource = {
+  /** The 2400px file, `/assets/heroes/<report-id>.webp`; its `-1200.webp` sibling must exist too. */
+  src: string;
+  /** The line under the image: what it shows, the date, photographer and licence. */
+  credit: string;
+  /** The page the credit links to: the photograph's source. */
+  source: string;
+  /** What the photograph shows. Required: it is content, not decoration. */
+  alt: string;
+  /** CSS object-position, so the subject survives the band's wide crop. Default "50% 50%". */
+  focus?: string;
+  /** For the record, e.g. "CC BY 2.0" or "Fair use"; not printed. */
+  licence?: string;
+};
+
+/** A hero resolved at build time, with the pixel size of each file. */
+export type Hero = {
+  src: string;
+  width: number;
+  height: number;
+  small: { src: string; width: number };
+  credit: string;
+  source: string;
+  alt: string;
+  focus: string;
+};
+
+/** How the build learns a hero file's pixel size: null when there is no such file. */
+export type AssetSize = (src: string) => { width: number; height: number } | null;
+
 /** As written in `editorial/<report-id>.yaml` (format v2, g0w.9). */
 export type EditorialSource = {
   report: string;
@@ -35,6 +71,8 @@ export type EditorialSource = {
   }>;
   /** Passages Rufus has highlighted: seeded into the marks table, not printed on the landing page. */
   highlights?: Array<QuoteSource & { context?: string; card?: boolean }>;
+  /** The landing page's hero photograph (reportsthatmatter-cdp): optional. */
+  hero?: HeroSource;
 };
 
 /** A paragraph a finding or passage links to, resolved at build time. */
@@ -50,6 +88,7 @@ export type Editorial = {
   background: string[];
   findings: Array<{ text: string; cites: Citation[]; excerpt?: Quotation }>;
   readingGuide: Array<{ slug: string; title: string; page: string | null; why: string; excerpt?: Quotation }>;
+  hero?: Hero;
 };
 
 /** A highlight, resolved to a row the marks table can take. */
@@ -150,7 +189,9 @@ export function citationHref(reportId: string, id: string, paragraph?: string, q
 export function resolveEditorial(
   source: EditorialSource,
   html: string,
-  structure: ReportStructure
+  structure: ReportStructure,
+  /** Required for a file with a hero; `scripts/editorial.mjs` reads it off assets/heroes/. */
+  assetSize?: AssetSize
 ): { editorial: Editorial; highlights: ResolvedHighlight[]; problems: string[] } {
   const problems: string[] = [];
   const at = (where: string, reason: string) => problems.push(`${source.report}: ${where}: ${reason}`);
@@ -224,6 +265,8 @@ export function resolveEditorial(
     });
   });
 
+  const hero = source.hero ? resolveHero(source.hero, (reason) => at("hero", reason), assetSize) : undefined;
+
   return {
     editorial: {
       status: source.status,
@@ -231,8 +274,53 @@ export function resolveEditorial(
       background,
       findings,
       readingGuide,
+      ...(hero ? { hero } : {}),
     },
     highlights,
     problems,
+  };
+}
+
+const HERO_SRC = /^\/assets\/heroes\/[a-z0-9-]+\.webp$/;
+const FOCUS = /^\d{1,3}(\.\d+)?% \d{1,3}(\.\d+)?%$/;
+
+/**
+ * Checks a hero and resolves its files' sizes. Alt text and a credit are
+ * required, the credit must link to a source, and both widths must exist on
+ * disk: a hero whose file is missing would ship a broken band at the top of
+ * the page.
+ */
+function resolveHero(hero: HeroSource, problem: (reason: string) => void, assetSize?: AssetSize): Hero | undefined {
+  let ok = true;
+  const fail = (reason: string) => { ok = false; problem(reason); };
+
+  if (!hero.alt?.trim()) fail("alt is required: describe what the photograph shows");
+  if (!hero.credit?.trim()) fail("credit is required");
+  if (!/^https?:\/\//.test(hero.source ?? "")) fail("source must be the photograph's http(s) page");
+  if (hero.focus !== undefined && !FOCUS.test(hero.focus)) fail(`focus must be "x% y%", not "${hero.focus}"`);
+  if (!HERO_SRC.test(hero.src ?? "")) {
+    fail(`src must be /assets/heroes/<name>.webp, not "${hero.src}"`);
+    return undefined;
+  }
+  const smallSrc = hero.src.replace(/\.webp$/, "-1200.webp");
+  if (!assetSize) {
+    fail("cannot check the hero files: no asset lookup given");
+    return undefined;
+  }
+  const large = assetSize(hero.src);
+  const small = assetSize(smallSrc);
+  if (!large) fail(`no file for ${hero.src}; run pnpm heroes`);
+  if (!small) fail(`no file for ${smallSrc}; run pnpm heroes`);
+  if (!ok || !large || !small) return undefined;
+
+  return {
+    src: hero.src,
+    width: large.width,
+    height: large.height,
+    small: { src: smallSrc, width: small.width },
+    credit: hero.credit.trim(),
+    source: hero.source,
+    alt: hero.alt.trim(),
+    focus: hero.focus ?? "50% 50%",
   };
 }

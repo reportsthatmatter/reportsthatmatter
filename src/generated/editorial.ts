@@ -236,7 +236,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/jack-smith-vol1.webp",
+      "width": 2400,
+      "height": 1528,
+      "small": {
+        "src": "/assets/heroes/jack-smith-vol1-1200.webp",
+        "width": 1200
+      },
+      "credit": "The Capitol, 6 January 2021 · Photo: Tyler Merbler, CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09156_(50826223403).jpg",
+      "alt": "A wooden gallows with an orange noose, built by the crowd on 6 January 2021, with the dome of the US Capitol framed between its posts.",
+      "focus": "50% 40%"
+    }
   },
   "litvinenko-inquiry": {
     "status": "approved",
@@ -716,7 +729,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-hillsborough-panel.webp",
+      "width": 2400,
+      "height": 1440,
+      "small": {
+        "src": "/assets/heroes/uk-hillsborough-panel-1200.webp",
+        "width": 1200
+      },
+      "credit": "Leppings Lane, Hillsborough, 15 April 1989 · Photo: John Giles/PA",
+      "source": "https://www.theguardian.com/football/2019/apr/15/liverpool-remembers-hillsborough-victims-on-30th-anniversary-of-disaster",
+      "alt": "The empty Leppings Lane terrace at Hillsborough after the crush on 15 April 1989, behind its perimeter fence, with broken advertising boards piled on the pitch and a Liverpool supporter sitting alone on the wall, his face in his hands.",
+      "focus": "50% 45%"
+    }
   },
   "uk-leveson-inquiry": {
     "status": "approved",

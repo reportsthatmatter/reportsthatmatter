@@ -1,0 +1,72 @@
+# Provenance and treatment for every report's landing-page hero photograph,
+# recorded the way sources.yaml records the plates (docs/design/2026-09-12-imagery/).
+#
+# `pnpm heroes` fetches each `image` (cached in the OS temp dir by URL hash),
+# treats it in a headless Chromium canvas and writes the two committed files:
+# assets/heroes/<report>.webp (2400px wide) and <report>-1200.webp. The raw
+# photographs are not committed; the recipe is. The treatment is seeded, so a
+# rebuild is byte-identical.
+#
+# What the page shows (src, alt, credit line, focal point) lives in the
+# report's editorial/<id>.yaml `hero` block, checked by `pnpm editorial`. This
+# file is the sourcing record: where it came from, whose it is, and on what
+# terms. Fair-use images say so here, not on the page. How to choose one:
+# docs/hero-images.md. The design: docs/design/2026-09-27-hero/README.md.
+
+defaults:
+  width: 2400         # the band is at most 1440 CSS px wide; 2400 is sharp on 2x at typical widths
+  small: 1200         # the srcset's second width, treated at its own size (grain is per output pixel)
+  saturation: 0.45    # colour kept, but it sits with the site's greys
+  black: 16           # levels: output black and white, so the photo sits on the #f7f7f7 page
+  white: 244
+  grain: 10           # light: ±10 of 255 at the midtones, easing off at both ends
+  seed: 1
+  quality: 80         # lossy WebP; lossless would be several MB a photograph
+
+heroes:
+  - report: jack-smith-vol1
+    title: "2021 storming of the United States Capitol (DSC09156)"
+    source: "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09156_(50826223403).jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/2021_storming_of_the_United_States_Capitol_DSC09156_%2850826223403%29.jpg"
+    creator: "Tyler Merbler"
+    licence: "CC BY 2.0"
+    original: [3009, 1916]
+    subject: >-
+      The gallows the crowd built near the Capitol on 6 January 2021, with the
+      dome framed between its uprights and the orange noose hanging from the
+      crossbar. The event itself, specifically: no picture of the day says
+      more plainly what the report is about, and nobody is in it.
+    rights: >-
+      CC BY 2.0, Flickr-to-Commons transfer reviewed on the Commons file page
+      (Author: Tyler Merbler from the United States). Credit on the page:
+      "Photo: Tyler Merbler, CC BY 2.0", linked to the Commons file page.
+
+  - report: uk-hillsborough-panel
+    title: "A Liverpool fan sits in the empty Hillsborough stadium on 15 April 1989"
+    source: "https://www.theguardian.com/football/2019/apr/15/liverpool-remembers-hillsborough-victims-on-30th-anniversary-of-disaster"
+    image: "https://media.guim.co.uk/e16a2b965e4ab7fac5df4346b785ec8b1661145e/0_43_3500_2100/master/3500.jpg"
+    creator: "John Giles/PA"
+    licence: "Fair use (PA Images; not freely licensed)"
+    original: [3500, 2100]
+    subject: >-
+      The Leppings Lane end after the crush, 15 April 1989: the empty terrace
+      behind its perimeter fence and overhang, the broken advertising boards
+      used as stretchers piled on the pitch edge, and one Liverpool supporter
+      sitting on the wall with his face in his hands. Black and white. The
+      event itself, as Rufus asked (2026-09-27), not the memorial: it shows
+      what the Panel's report is about without showing the dead or anyone's
+      face in distress — the one person in it cannot be identified.
+    rights: >-
+      Copyright PA Images (photographer John Giles), as credited where the
+      Guardian ran it. Used under fair use / fair dealing for non-commercial,
+      public-interest commentary: it accompanies our introduction to the
+      Hillsborough Independent Panel's report, identifies the event the report
+      concerns, is shown toned down and cropped to a banner rather than as a
+      substitute for the licensable photograph, and is credited to its source.
+      No free photograph of the day at usable size exists: Commons has none,
+      and English Wikipedia's three are themselves fair-use thumbnails
+      (at most 391px wide). Rationale in full: docs/hero-images.md.
+    caveat: >-
+      The copy fetched is the Guardian's 3500px rendition of PA's picture, not
+      a PA original. If the project ever licenses images, this is the one to
+      license first (PA Images ref. via the Guardian's credit).

@@ -104,7 +104,8 @@ an interactive session.
 | `scripts/paragraphs.mjs` | A report's paragraphs with ids, pages and sections, as the editorial check reads them (`pnpm paragraphs <id> [words]`) |
 | `scripts/editorial.mjs` | Checks every editorial quote verbatim against the pre-rendered report and writes `src/generated/editorial.ts` (`pnpm editorial`, after `pnpm prerender`). `pnpm seed-highlights [--remote]` then writes the file's highlights to the marks table |
 | `assets/marks/` | Each report's plate, committed: `<id>.webp` and `<id>-row.webp` — see [`docs/plates.md`](docs/plates.md) |
-| `scripts/imagery/` | Plate pipeline (`pnpm marks`) and the favicon renderer (`brand.mjs`) |
+| `assets/heroes/` | Landing-page hero photographs, committed: `<id>.webp` (2400w) and `<id>-1200.webp`, built by `pnpm heroes` from `docs/design/2026-09-27-hero/sources.yaml` — see [`docs/hero-images.md`](docs/hero-images.md) |
+| `scripts/imagery/` | Plate pipeline (`pnpm marks`), hero pipeline (`pnpm heroes`) and the favicon renderer (`brand.mjs`) |
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |

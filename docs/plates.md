@@ -113,3 +113,4 @@ If you edit the SVG, re-measure the glyph rather than nudging it by eye: its ink
 - **Leveson**'s source is 276×341, upscaled about 2.4×, and softer than the rest up close. Swap in a larger scan of the same front page if one turns up.
 - **The mockup script** lists the original ten reports by hand; a new report will not appear in `pnpm mark-mockups` until it is added to `rows`.
 - **A bolder landing-page image direction** (colour, CRT-style raster) is a separate register and deliberately not part of this pipeline — bead `reportsthatmatter-bea`.
+- **A landing page with a hero photograph** (`hero` in its editorial file) leaves the plate out of its header; the plate still shows in the archive row, on `/full` and on share cards. Heroes are a separate pipeline: [`docs/hero-images.md`](hero-images.md).

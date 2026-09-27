@@ -1,5 +1,5 @@
 import { escapeHtml } from "./layout";
-import type { Citation, Editorial, Quotation } from "../lib/editorial";
+import type { Citation, Editorial, Hero, Quotation } from "../lib/editorial";
 
 function pageLabel(cite: Citation): string {
   return cite.page ? `p. ${cite.page}` : "¶";
@@ -25,6 +25,20 @@ function pullQuote(quotation: Quotation): string {
  */
 export function showsEditorial(editorial: Editorial | undefined, draft?: boolean): editorial is Editorial {
   return Boolean(editorial && (editorial.status === "approved" || draft));
+}
+
+/**
+ * A landing page's hero (reportsthatmatter-cdp.3): the photograph in a
+ * full-bleed band above the report header, and one credit line under it that
+ * links to its source. The treatment is baked into the file; the CSS only
+ * crops it, from the focal point the editorial file names. Design:
+ * docs/design/2026-09-27-hero/README.md.
+ */
+export function renderHero(hero: Hero): string {
+  return `<figure class="report-hero">
+      <img src="${escapeHtml(hero.src)}" srcset="${escapeHtml(hero.small.src)} ${hero.small.width}w, ${escapeHtml(hero.src)} ${hero.width}w" sizes="100vw" alt="${escapeHtml(hero.alt)}" width="${hero.width}" height="${hero.height}" style="object-position:${escapeHtml(hero.focus)}" fetchpriority="high" />
+      <figcaption class="mono"><a href="${escapeHtml(hero.source)}" rel="nofollow">${escapeHtml(hero.credit)}</a></figcaption>
+    </figure>`;
 }
 
 /**

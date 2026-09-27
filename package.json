@@ -18,6 +18,7 @@
     "publish-report": "tsx scripts/publish-report.mjs",
     "check-search-staleness": "node scripts/check-search-staleness.mjs",
     "marks": "node scripts/imagery/build.mjs",
+    "heroes": "node scripts/imagery/heroes.mjs",
     "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups"
   },
   "devDependencies": {
