@@ -205,7 +205,7 @@ The crew members lost that morning were explorers in the finest tradition, and s
 
 After nearly seven months of investigation, the Board has been able to arrive at findings and recommendations aimed at significantly reducing the chances of further accidents. Our aim has been to improve Shuttle safety by multiple means, not just by correcting the specific faults that cost the nation this Orbiter and this crew. With that intent, the Board conducted not only an investigation of what happened to Columbia, but also – to determine the conditions that allowed the accident to occur – a safety evaluation of the entire Space Shuttle Program. Most of the Boardʼs efforts were undertaken in a completely open manner. By necessity, the safety evaluation was conducted partially out of the public view, since it included frank, off-the-record statements by a substantial number of people connected with the Shuttle program.
 
-In order to understand the findings and recommendations in this report, it is important to appreciate the way the Board looked at this accident. It is our view that complex systems almost always fail in complex ways, and we believe it would be wrong to reduce the complexities and weaknesses associated with these systems to some simple explanation. Too often, accident investigations blame a failure only on the last step in a complex process, when a more comprehensive understanding of that process could reveal that earlier steps might be equally or even more culpable. In this Boardʼs opinion, unless the technical, organizational, and cultural recommendations made in this report are implemented, little will have been accomplished to lessen the chance that an-
+In order to understand the findings and recommendations in this report, it is important to appreciate the way the Board looked at this accident. It is our view that complex systems almost always fail in complex ways, and we believe it would be wrong to reduce the complexities and weaknesses associated with these systems to some simple explanation. Too often, accident investigations blame a failure only on the last step in a complex process, when a more comprehensive understanding of that process could reveal that earlier steps might be equally or even more culpable. In this Boardʼs opinion, unless the technical, organizational, and cultural recommendations made in this report are implemented, little will have been accomplished to lessen the chance that another accident will follow.
 
 From its inception, the Board has considered itself an independent and public institution, accountable to the American public, the White House, Congress, the astronaut corps and their families, and NASA. With the support of these constitu- ents, the Board resolved to broaden the scope of the accident investigation into a far-reaching examination of NASAʼs operation of the Shuttle fleet. We have explored the impact of NASAʼs organizational history and practices on Shuttle safety, as well as the roles of public expectations and national policy-making.
 
@@ -217,7 +217,7 @@ NASA is a federal agency like no other. Its mission is unique, and its stunning 
 
 Named for a sloop that was the first American vessel to circumnavigate the Earth more than 200 years ago, in 1981 Columbia became the first spacecraft of its type to fly in Earth orbit and successfully completed 27 missions over more than two decades. During the STS-107 mission, Columbia and its crew traveled more than six million miles in 16 days.
 
-The Orbiterʼs destruction, just 16 minutes before scheduled touchdown, shows that space flight is still far from routine. It involves a substantial element of risk, which must be recognized, but never accepted with resignation. The seven Columbia astronauts believed that the risk was worth the reward. The Board salutes their courage and dedicates this other accident will follow. report to their memory.
+The Orbiterʼs destruction, just 16 minutes before scheduled touchdown, shows that space flight is still far from routine. It involves a substantial element of risk, which must be recognized, but never accepted with resignation. The seven Columbia astronauts believed that the risk was worth the reward. The Board salutes their courage and dedicates this report to their memory.
 
 Columbia inside the Orbiter Processing Facility on November 20, 2002.
 
@@ -257,7 +257,7 @@ Findings and recommendations are in the relevant chapters and all recommendation
 
 Volume I is organized into four parts: The Accident; Why the Accident Occurred; A Look Ahead; and various appendices. To put this accident in context, Parts One and Two begin with histories, after which the accident is described and then analyzed, leading to findings and recommendations. Part Three contains the Boardʼs views on what is needed to improve the safety of our voyage into space. Part Four is reference material. In addition to this first volume, there will be subsequent volumes that contain technical reports generated by the Columbia Accident Investigation Board and NASA, as well as volumes containing reference documentation and other related material.
 
-## PART ONE: THE ACCIDENT
+#### PART ONE: THE ACCIDENT
 
 Chapter 1 relates the history of the Space Shuttle Program before the Challenger accident. With the end looming for the Apollo moon exploration program, NASA unsuccess- fully attempted to get approval for an equally ambitious (and expensive) space exploration program. Most of the proposed programs started with space stations in low-Earth orbit and included a reliable, economical, medium-lift vehicle to travel safely to and from low-Earth orbit. After many failed attempts, and finally agreeing to what would be untenable compromises, NASA gained approval from the Nixon Administration to develop, on a fixed budget, only the transport vehicle. Because the Administration did not approve a low-Earth-orbit station, NASA had to create a mission for the vehicle. To satisfy the Administrationʼs requirement that the system be economically justifiable, the vehicle had to capture essentially all space launch business, and to do that, it had to meet wide-ranging requirements. These
 
@@ -289,7 +289,7 @@ analysis, which is an engineering tool for identifying every conceivable fault, 
 
 In addition, the Board analyzed the more plausible fault scenarios, including the impact of space weather, collisions with micrometeoroids or "space junk," willful damage, flight crew performance, and failure of some critical Shuttle hardware. The Board concludes in Chapter 4 that despite certain fault tree exceptions left "open" because they cannot be conclusively disproved, none of these factors caused or contributed to the accident. This chapter also contains findings and recommendations to make Space Shuttle operations safer.
 
-## PART TWO: WHY THE ACCIDENT OCCURRED
+#### PART TWO: WHY THE ACCIDENT OCCURRED
 
 Part Two, "Why the Accident Occurred," examines NASAʼs organizational, historical, and cultural factors, as well as how these factors contributed to the accident.
 
@@ -305,7 +305,7 @@ This chapter measures the Shuttle Programʼs practices against this organization
 
 Chapter 8, the final chapter in Part Two, draws from the previous chapters on history, budgets, culture, organization, and safety practices, and analyzes how all these factors contributed to this accident. The chapter opens with "echoes of Challenger" that compares the two accidents. This chapter captures the Boardʼs views of the need to adjust management to enhance safety margins in Shuttle operations, and reaffirms the Boardʼs position that without these changes, we have no confidence that other "corrective actions" will improve the safety of Shuttle operations. The changes we recommend will be difficult to accomplish – and will be internally resisted.
 
-## PART THREE: A LOOK AHEAD
+#### PART THREE: A LOOK AHEAD
 
 Part Three summarizes the Boardʼs conclusions on what needs to be done to resume our journey into space, lists significant observations the Board made that are unrelated to the accident but should be recorded, and provides a summary of the Boardʼs recommendations.
 
@@ -317,17 +317,17 @@ Chapter 10 contains findings, observations, and recommendations that the Board d
 
 Chapter 11 is a compilation of all the recommendations in the previous chapters.
 
-## PART FOUR: APPENDICES
+#### PART FOUR: APPENDICES
 
 Part Four of the report by the Columbia Accident Investigation Board contains material relevant to this volume organized in appendices. Additional, stand-alone volumes will contain more reference, background, and analysis ma- This Earth view of the Sinai Peninsula, Red Sea, Egypt, Nile River, terials. and the Mediterranean was taken from Columbia during STS-107.
 
 %%page 14%%
 
-## AN INTRODUCTION TO THE SPACE SHUTTLE
+#### AN INTRODUCTION TO THE SPACE SHUTTLE
 
 The Space Shuttle is one of the most complex machines ever devised. Its main elements – the Orbiter, Space Shuttle Main Engines, External Tank, and Solid Rocket Boosters – are assembled from more than 2.5 million parts, 230 miles of wire, 1,060 valves, and 1,440 circuit breakers. Weighing approximately 4.5 million- pounds at launch, the Space Shuttle accelerates to an orbital velocity of 17,500 miles per hour – 25 times faster than the speed of sound – in just over eight minutes. Once on orbit, the Orbiter must protect its crew from the vacuum of space while enabling astronauts to conduct scientific research, deploy and service satellites, and assemble the International Space Station. At the end of its mission, the Shuttle uses the Earthʼs atmosphere as a brake to decelerate from orbital velocity to a safe landing at 220 miles per hour, dissipating in the process all the energy it gained on its way into orbit.
 
-## THE ORBITER
+#### THE ORBITER
 
 The Orbiter is what is popularly referred to as "the Space Shuttle." About the size of a small commercial airliner, the Orbiter normally carries a crew of seven, including a Commander, Pilot, and five Mission or Payload Specialists. The Orbiter can accommodate a payload the size of a school bus weighing between 38,000 and 56,300 pounds depending on what orbit it is launched into. The Orbiterʼs upper flight deck is filled with equipment for flying and maneuvering the vehicle and controlling its remote manipulator arm. The mid-deck contains stowage lockers for food, equipment, supplies, and experiments, as well as a toilet, a hatch for entering and exiting the vehicle on the ground, and – in some instances – an airlock for doing so in orbit. During liftoff and landing, four crew members sit on the flight deck and the rest on the mid-deck.
 
@@ -337,23 +337,23 @@ To protect its thin aluminum structure during re-entry, the Orbiter is covered w
 
 to the desired shape at very high temperatures. The tiles, which protect most other areas of the Orbiter exposed to medium and high heating, are 90 percent air and 10 percent silica (similar to common sand). One-tenth the weight of ablative heat shields, which are designed to erode during re-entry and therefore can only be used once, the Shuttleʼs tiles are reusable. They come in varying strengths and sizes, depending on which area of the Orbiter they protect, and are designed to withstand either 1,200 or 2,300 degrees Fahrenheit. In a dramatic demonstration of how little heat the tiles transfer, one can place a blowtorch on one side of a tile and a bare hand on the other. The blankets, capable of withstanding either 700 or 1,200 degrees Fahrenheit, cover regions of the Orbiter that experience only moderate heating.
 
-## SPACE SHUTTLE MAIN ENGINES
+#### SPACE SHUTTLE MAIN ENGINES
 
 Each Orbiter has three main engines mounted at the aft fuselage. These engines use the most efficient propellants in the world – oxygen and hydrogen – at a rate of half a ton per second. At 100 percent power, each engine produces 375,000 pounds of thrust, four times that of the largest engine on commercial jets. The large bell-shaped nozzle on each engine can swivel 10.5 degrees up and down and 8.5 degrees left and right to provide steering control during ascent.
 
-## EXTERNAL TANK
+#### EXTERNAL TANK
 
 The three main engines burn propellant at a rate that would drain an average-size swimming pool in 20 seconds. The External Tank accommodates up to 143,351 gallons of liquid oxygen and 385,265 gallons of liquid hydrogen. In order to keep the super-cold propellants from boiling and to prevent ice from forming on the outside of the tank while it is sitting on the launch pad, the External Tank is covered with a one-inch-thick coating of insulating foam. This insulation is so effective that the surface of the External Tank feels only slightly cool to the touch, even though the liquid oxygen is stored at minus 297 degrees Fahrenheit and liquid hydrogen at minus 423 degrees Fahrenheit. This insulating foam also protects the tankʼs aluminum structure from aerodynamic heating during ascent. Although generally considered the least complex of the Shuttleʼs main components, in fact the External Tank is a remarkable engineering achievement. In addition to holding over 1.5 million pounds of cryogenic propellants, the 153.8-foot long tank must support the weight of the Orbiter while on the launch pad and absorb the 7.3 million pounds of thrust generated by the Solid Rocket Boosters and Space Shuttle Main Engines during launch and ascent. The External Tanks are manufactured in a plant near New
 
 %%page 15%%
 
-## THE SHUTTLE STACK
+#### THE SHUTTLE STACK
 
 > The first step in assembling a Space Shuttle for launch is stacking the Solid Rocket Booster segments on the Mobile Launch Platform. Eight large hold-down bolts at the base of the Solid Rocket Boosters will bear the weight of the entire Space Shuttle stack while it awaits launch. The External Tank is attached to the Solid Rocket Boosters, and the Orbiter is then attached to the External Tank at three points – two at its bottom and a "bipod" attachment near the nose. When the vehicle is ready to move out of the Vehicle Assembly Building, a Crawler-Transporter picks up the entire Mobile Launch Platform and carries it – at one mile per hour – to one of the two launch pads.
 
 Orleans and are transported by barge to the Kennedy Space Center in Florida. Unlike the Solid Rocket Boosters, which are reused, the External Tank is discarded during each mission, burning up in the Earthʼs atmosphere after being jettisoned from the Orbiter.
 
-## SOLID ROCKET BOOSTERS
+#### SOLID ROCKET BOOSTERS
 
 Despite their power, the Space Shuttle Main Engines alone are not sufficient to boost the vehicle to orbit – in fact, they provide only 15 percent of the necessary thrust. Two Solid Rocket Boosters attached to the External Tank generate the remaining 85 percent. Together, these two 149-foot long motors produce over six million pounds of thrust. The largest solid propellant rockets ever flown, these motors use an aluminum powder fuel and ammonium perchlorate oxidizer in a binder that has the feel and consistency of a pencil eraser.
 
@@ -363,7 +363,7 @@ Each of the Solid Rocket Boosters consists of 11 separate segments joined togeth
 
 %%page 16%%
 
-## AN INTRODUCTION TO NASA
+#### AN INTRODUCTION TO NASA
 
 "An Act to provide for research into the problems of flight within and outside the Earthʼs atmosphere, and for other purposes." With this simple preamble, the Congress and the President of the United States created the National Aeronautics and Space Administration (NASA) on October 1, 1958. Formed in response to the launch of Sputnik by the Soviet Union, NASA inherited the research-oriented National Advisory Committee for Aeronautics (NACA) and several other government organizations, and almost immediately began working on options for manned space flight. NASAʼs first high profile program was Project Mercury, an early effort to learn if humans could survive in space. Project Gemini followed with a more complex series of experiments to increase manʼs time in space and validate advanced concepts such as rendezvous. The efforts continued with Project Apollo, culminating in 1969 when Apollo 11 landed the first humans on the Moon. The return from orbit on July 24, 1975, of the crew from the Apollo-Soyuz Test Project began a six-year hiatus of American manned space flight. The launch of the first Space Shuttle in April 1981 brought Americans back into space, continuing today with the assembly and initial operations of the International Space Station.
 
@@ -371,7 +371,7 @@ In addition to the human space flight program, NASA also maintains an active (if
 
 NASA, like many federal agencies, is a heavily matrixed organization, meaning that the lines of authority are not necessarily straightforward. At the simplest level, there are three major types of entities involved in the Human Space Flight Program: NASA field centers, NASA programs carried out at those centers, and industrial and academic contractors. The centers provide the buildings, facilities, and support services for the various programs. The programs, along with field centers and Headquarters, hire civil servants and contractors from the private sector to support aspects of their enterprises.
 
-## THE LOCATIONS
+#### THE LOCATIONS
 
 NASA Headquarters, located in Washington D.C., is responsible for leadership and management across five strategic enterprises: Aerospace Technology, Biological and Physical Research, Earth Science, Space Science, and Human Exploration and Development of Space. NASA Headquarters also provides strategic management for the Space Shuttle and International Space Station programs.
 
@@ -383,9 +383,7 @@ The Marshall Space Flight Center, near Hunstville, Alabama, is home to most NASA
 
 > Projects Office located at Marshall—organizationally part of the Space Shuttle Program Office at Johnson—manages the manufacturing and support contracts to Boeing Rocketdyne for the Space Shuttle Main Engine (SSME), to Lockheed Martin for the External Tank (ET), and to ATK Thiokol Propulsion for the Reusable Solid Rocket Motor (RSRM, the major piece of the Solid Rocket Booster). Marshall is also involved in microgravity research and space product development programs that fly as payloads on the Space Shuttle.
 
-> The Stennis Space Center in Bay St. Louis, Mississippi, is the largest rocket propulsion test complex in the United States. Stennis
-
-> provides all of the testing facilities for the Space
+> The Stennis Space Center in Bay St. Louis, Mississippi, is the largest rocket propulsion test complex in the United States. Stennis provides all of the testing facilities for the Space
 
 %%page 17%%
 
@@ -407,7 +405,7 @@ Space Shuttle Space Shuttle supports the Space Shuttle Program in Administrative
 
 > Management Integration Office Business Office
 
-## (SFOC COTR)
+#### (SFOC COTR)
 
 KSC Integration Office these areas, as well as in basic aerodynamic and thermodynamic research.
 
@@ -425,43 +423,39 @@ The Space Shuttle Projects Office at Marshall manages the Reus- United Space All
 
 %%page 19%%
 
-Part One
+## Part One: The Accident
 
 "Building rockets is hard." Part of the problem is that space travel is in its infancy. Although humans have been launching orbital vehicles for almost 50 years now – about half the amount of time we have been flying airplanes – contrast the numbers. Since Sputnik, humans have launched just over 4,500 rockets towards orbit (not counting suborbital flights and small sounding rockets). During the first 50 years of aviation, there were over one million aircraft built. Almost all of the rockets were used only once; most of the airplanes were used more often.
 
 There is also the issue of performance. Airplanes slowly built their performance from the tens of miles per hour the Wright Brothers initially managed to the 4,520 mph that Major William J. Knight flew in the X-15A-2 research airplane during 1967. Aircraft designers and pilots would slightly push the envelope, stop and get comfortable with where they were, then push on. Orbital rockets, by contrast, must have all of their performance on the first (and often, only) flight. Physics dictates this – to reach orbit, without falling back to Earth, you have to exceed about 17,500 mph. If you cannot vary performance, then the only thing left to change is the amount of payload – the rocket designers began with small payloads and worked their way up.
 
-Rockets, by their very nature, are complex and unforgiving vehicles. They must be as light as possible, yet attain outstanding performance to get to orbit. Mankind is, however, getting better at building them. In the early days as often as not the vehicle exploded on or near the launch pad; that seldom happens any longer. It was not that different from early airplanes, which tended to crash about as often as they flew. Aircraft seldom crash these days, but rockets still fail between two-and-five percent of the time. This is true of just about any launch vehicle – Atlas, Delta, Soyuz, Shuttle – regardless of what nation builds it or what basic configuration is used; they all fail about the same amount of the time. Building and launching rockets is still a very dangerous
-
-The Accident ing a space vehicle will ever be as routine an undertaking as commercial air travel – certainly not in the lifetime of anybody who reads this. The scientists and engineers continually work on better ways, but if we want to continue going into outer space, we must continue to accept the risks.
+Rockets, by their very nature, are complex and unforgiving vehicles. They must be as light as possible, yet attain outstanding performance to get to orbit. Mankind is, however, getting better at building them. In the early days as often as not the vehicle exploded on or near the launch pad; that seldom happens any longer. It was not that different from early airplanes, which tended to crash about as often as they flew. Aircraft seldom crash these days, but rockets still fail between two-and-five percent of the time. This is true of just about any launch vehicle – Atlas, Delta, Soyuz, Shuttle – regardless of what nation builds it or what basic configuration is used; they all fail about the same amount of the time. Building and launching rockets is still a very dangerous business, and will continue to be so for the foreseeable future while we gain experience at it. It is unlikely that launching a space vehicle will ever be as routine an undertaking as commercial air travel – certainly not in the lifetime of anybody who reads this. The scientists and engineers continually work on better ways, but if we want to continue going into outer space, we must continue to accept the risks.
 
 Part One of the report of the Columbia Accident Investigation Board is organized into four chapters. In order to set the background for further discussion, Chapter 1 relates the history of the Space Shuttle Program before the Challenger accident. The events leading to the original approval of the Space Shuttle Program are recounted, as well as an examination of some of the promises made in order to gain that approval. In retrospect, many of these promises could never have been achieved. Chapter 2 documents the final flight of Columbia. As a straightforward record of the event, it contains no findings or recommendations. Chapter 3 reviews five analytical paths – aerodynamic, thermodynamic, sensor data timeline, debris reconstruction, and imaging evidence – to show that all five independently arrive at the same conclusion. Chapter 4 describes the investigation into other possible physical factors that might have contributed to the accident, but were subsequently dismissed as possible causes.
 
 Sunrise aboard Columbia on Flight Day 7.
 
-business, and will continue to be so for the foreseeable future while we gain experience at it. It is unlikely that launch-
+%%page 21%%
 
-%%page 1%%
-
-> The Evolution of the Space Shuttle Program
+## Chapter 1: The Evolution of the Space Shuttle Program
 
 More than two decades after its first flight, the Space Shuttle remains the only reusable spacecraft in the world capable of simultaneously putting multiple-person crews and heavy cargo into orbit, of deploying, servicing, and retrieving satellites, and of returning the products of on-orbit research to Earth. These capabilities are an important asset for the United States and its international partners in space. Current plans call for the Space Shuttle to play a central role in the U.S. human space flight program for years to come.
 
 The Space Shuttle Programʼs remarkable successes, however, come with high costs and tremendous risks. The February 1 disintegration of Columbia during re-entry, 17 years after Challenger was destroyed on ascent, is the most recent reminder that sending people into orbit and returning them safely to Earth remains a difficult and perilous endeavor.
 
-It is the view of the Columbia Accident Investigation Board that the Columbia accident is not a random event, but rather a product of the Space Shuttle Programʼs history and current management processes. Fully understanding how it happened requires an exploration of that history and management. This chapter charts how the Shuttle emerged from a series of political compromises that produced unreasonable expectations – even myths – about its performance, how the Challenger accident shattered those myths several years after NASA began acting upon them as fact, and how, in retrospect, the Shuttleʼs technically ambitious design resulted in an inherently vulnerable vehicle, the safe operation of which exceeded NASAʼs organizational capabilities as they existed at the time of the Columbia accident. The Boardʼs investigation of what caused the Columbia accident thus begins in the fields of East Texas but reaches more than 30 years into the past, to a series of economically and politically driven decisions that cast the Shuttle program in a role that its nascent technology could not support. To understand the cause of the Columbia accident is to understand how a program promis- ing reliability and cost efficiency resulted instead in a developmental vehicle that never achieved the fully operational
+It is the view of the Columbia Accident Investigation Board that the Columbia accident is not a random event, but rather a product of the Space Shuttle Programʼs history and current management processes. Fully understanding how it happened requires an exploration of that history and management. This chapter charts how the Shuttle emerged from a series of political compromises that produced unreasonable expectations – even myths – about its performance, how the Challenger accident shattered those myths several years after NASA began acting upon them as fact, and how, in retrospect, the Shuttleʼs technically ambitious design resulted in an inherently vulnerable vehicle, the safe operation of which exceeded NASAʼs organizational capabilities as they existed at the time of the Columbia accident. The Boardʼs investigation of what caused the Columbia accident thus begins in the fields of East Texas but reaches more than 30 years into the past, to a series of economically and politically driven decisions that cast the Shuttle program in a role that its nascent technology could not support. To understand the cause of the Columbia accident is to understand how a program promis- ing reliability and cost efficiency resulted instead in a developmental vehicle that never achieved the fully operational status NASA and the nation accorded it.
 
-## 1.1 GENESIS OF THE SPACE TRANSPORTATION SYSTEM
+## 1.1 Genesis of the Space Transportation System
 
 The origins of the Space Shuttle Program date to discussions on what should follow Project Apollo, the dramatic U.S. missions to the moon.1 NASA centered its post-Apollo plans on developing increasingly larger outposts in Earth orbit that would be launched atop Apolloʼs immense Saturn V booster. The space agency hoped to construct a 12-person space station by 1975; subsequent stations would support 50, then 100 people. Other stations would be placed in orbit around the moon and then be constructed on the lunar surface. In parallel, NASA would develop the capability for the manned exploration of Mars. The concept of a vehicle – or Space Shuttle – to take crews and supplies to and from low-Earth orbit arose as part of this grand vision (see Figure 1.1-1). To keep the costs of these trips to a minimum, NASA intended to develop a fully reusable vehicle.2
 
-Figure 1.1-1. Early concepts for the Space Shuttle envisioned a reusable two-stage vehicle with the reliability and versatility of a status NASA and the nation accorded it. commercial airliner.
+Figure 1.1-1. Early concepts for the Space Shuttle envisioned a reusable two-stage vehicle with the reliability and versatility of a commercial airliner.
 
 %%page 22%%
 
 NASAʼs vision of a constellation of space stations and jour- neying to Mars had little connection with political realities of the time. In his final year in office, President Lyndon Johnson gave highest priority to his Great Society programs and to dealing with the costs and domestic turmoil associated with the Vietnam war. Johnsonʼs successor, President Richard Nixon, also had no appetite for another large, expensive, Apollo-like space commitment. Nixon rejected NASAʼs ambitions with little hesitation and directed that the agencyʼs budget be cut as much as was politically feasible. With NASAʼs space station plans deferred and further production of the Saturn V launch vehicle cancelled, the Space Shuttle was the only manned space flight program that the space agency could hope to undertake. But without space stations to service, NASA needed a new rationale for the Shuttle. That rationale emerged from an intense three-year process of technical studies and political and budgetary negotiations that attempted to reconcile the conflicting interests of NASA, the Department of Defense, and the White House.3
 
-## 1.2 MERGING CONFLICTING INTERESTS
+## 1.2 Merging Conflicting Interests
 
 During 1970, NASAʼs leaders hoped to secure White House approval for developing a fully reusable vehicle to provide routine and low cost manned access to space. However, the staff of the White House Office of Management and Budget, charged by Nixon with reducing NASAʼs budget, was skeptical of the value of manned space flight, especially given its high costs. To overcome these objections, NASA turned to justifying the Space Shuttle on economic grounds. If the same vehicle, NASA argued, launched all government and private sector payloads and if that vehicle were reusable, then the total costs of launching and maintaining satellites could be dramatically reduced. Such an economic argument, however, hinged on the willingness of the Department of Defense to use the Shuttle to place national security payloads in orbit. When combined, commercial, scientific, and national security payloads would require 50 Space Shuttle missions per year. This was enough to justify – at least on paper – investing in the Shuttle.
 
@@ -483,9 +477,7 @@ It is the Boardʼs view that, in retrospect, the increased complexity of a Shutt
 
 In the end, the greatest compromise NASA made was not so much with any particular element of the technical design, but rather with the premise of the vehicle itself. NASA promised it could develop a Shuttle that would be launched almost on demand and would fly many missions each year. Throughout the history of the program, a gap has persisted between the rhetoric NASA has used to market the Space Shuttle and operational reality, leading to an enduring image of the Shuttle as capable of safely and routinely carrying out missions with little risk.
 
-1.3 SHUTTLE DEVELOPMENT, TESTING,
-
-## AND QUALIFICATION
+## 1.3 Shuttle Development, Testing, and Qualification
 
 The Space Shuttle was subjected to a variety of tests before its first flight. However, NASA conducted these tests somewhat differently than it had for previous spacecraft.8 The Space Shuttle Program philosophy was to ground-test key hardware elements such as the main engines, Solid Rocket Boosters, External Tank, and Orbiter separately and to use analytical models, not flight testing, to certify the integrated Space Shuttle system. During the Approach and Landing Tests (see Figure 1.3-1), crews verified that the Orbiter could successfully fly at low speeds and land safely; however, the Space Shuttle was not flown on an unmanned orbital test flight prior to its first mission – a significant change in philosophy compared to that of earlier American spacecraft.
 
@@ -495,7 +487,7 @@ The significant advances in technology that the Shuttleʼs design depended on le
 
 The Orbiter that was destined to be the first to fly into space was Columbia. In early 1979, NASA was beginning to feel the pressure of being behind schedule. Despite the fact that only 24,000 of the 30,000 Thermal Protection System tiles had been installed, NASA decided to fly Columbia from the manufacturing plant in Palmdale, California, to the Kennedy Space Center in March 1979. The rest of the tiles would be installed in Florida, thus allowing NASA to maintain the appearance of Columbiaʼs scheduled launch date. Problems with the main engines and the tiles were to leave Columbia grounded for two more years.
 
-## 1.4 THE SHUTTLE BECOMES "OPERATIONAL"
+## 1.4 The Shuttle Becomes "Operational"
 
 On the first Space Shuttle mission, STS-1,11 Columbia carried John W. Young and Robert L. Crippen to orbit on April 12, 1981, and returned them safely two days later to Edwards Air Force Base in California (see Figure 1.4-1). After three years of policy debate and nine years of development, the Shuttle returned U.S. astronauts to space for the first time since the Apollo-Soyuz Test Project flew in July 1975. Postflight inspection showed that Columbia suffered slight damage from excess Solid Rocket Booster ignition pressure and lost 16 tiles, with 148 others sustaining some damage. Over the following 15 months, Columbia was launched three more times. At the end of its fourth mission, on July 4, 1982, Columbia landed at Edwards where President Ronald Reagan declared to a nation celebrating Independence Day that "beginning with the next flight, the Columbia and her sister ships will be fully operational, ready to provide economical and routine access to space for scientific exploration, commercial ventures, and for tasks related to the national security" [emphasis added].12
 
@@ -507,7 +499,7 @@ Figure 1.4-1. The April 12, 1981, launch of STS-1, just seconds past 7 a.m., car
 
 denly facing a foreign challenger in launching commercial satellites. The European Space Agency decided in 1973 to develop Ariane, an expendable launch vehicle. Ariane first flew in December 1979 and by 1982 was actively competing with the Space Shuttle for commercial launch contracts. At this point, NASA still hoped that revenue from commercial launches would offset some or all of the Shuttleʼs operating costs. In an effort to attract commercial launch contracts, NASA heavily subsidized commercial launches by offering services for $42 million per launch, when actual costs were more than triple that figure.13 A 1983 NASA brochure titled We Deliver touted the Shuttle as "the most reliable, flexible, and cost-effective launch system in the world."14
 
-Figure 1.4-2. The crew of STS-5 successfully deployed two commercial communications satellites during the first "operational"
+Figure 1.4-2. The crew of STS-5 successfully deployed two commercial communications satellites during the first "operational" mission of the Space Shuttle.
 
 capabilities for space operations, retrieving two communications satellites that had suffered upper-stage misfires after launch, repairing another communications satellite on-orbit, and flying science missions with the pressurized European-built Spacelab module in its payload bay. The Shuttle took into space not only U.S. astronauts, but also citizens of Germany, Mexico, Canada, Saudi Arabia, France, the Netherlands, two payload specialists from commercial enterprises, and two U.S. legislators, Senator Jake Garn and Representative Bill Nelson. In 1985, when four Orbiters were in operation, the vehicles flew nine missions, the most launched in a single calendar year. By the end of 1985, the Shuttle had launched 24 communications satellites (see Figure 1.4-2) and had a backlog of 44 orders for future commercial launches.
 
@@ -515,11 +507,11 @@ On the surface, the program seemed to be progressing well. But those close to it
 
 Though assigned an operational role by NASA, during this period the Shuttle was in reality still in its early flight-test stage. As with any other first-generation technology, operators were learning more about its strengths and weaknesses from each flight, and making what changes they could, while still attempting to ramp up to the ambitious flight schedule NASA set forth years earlier. Already, the goal of launching 50 flights a year had given way to a goal of 24 flights per year by 1989. The per-mission cost was more than $140 million, a figure that when adjusted for inflation was seven times greater than what NASA projected over a decade earlier.16 More troubling, the pressure of maintaining the flight schedule created a management atmosphere that increasingly accepted less-than-specification performance of various components and systems, on the grounds that such deviations had not interfered with the success of previous flights.17
 
-## 1.5 THE CHALLENGER ACCIDENT
+## 1.5 The Challenger Accident
 
 The illusion that the Space Shuttle was an operational system, safe enough to carry legislators and a high-school teacher into orbit, was abruptly and tragically shattered on the morning of January 28, 1986, when Challenger was destroyed 73 seconds after launch during the 25th mission (see Figure 1.5-1). The seven-member crew perished.
 
-To investigate, President Reagan appointed the 13-member Presidential Commission on the Space Shuttle Challenger Accident, which soon became known as the Rogers Commission, after its chairman, former Secretary of State William P. Rogers.18 Early in its investigation, the Commission identified the mechanical cause of the accident to be the failure of the joint of one of the Solid Rocket Boosters. The Commission found that the design was not well understood by the engineers that operated it and that it had not been mission of the Space Shuttle. adequately tested.
+To investigate, President Reagan appointed the 13-member Presidential Commission on the Space Shuttle Challenger Accident, which soon became known as the Rogers Commission, after its chairman, former Secretary of State William P. Rogers.18 Early in its investigation, the Commission identified the mechanical cause of the accident to be the failure of the joint of one of the Solid Rocket Boosters. The Commission found that the design was not well understood by the engineers that operated it and that it had not been adequately tested.
 
 %%page 25%%
 
@@ -531,19 +523,19 @@ When the Rogers Commission discovered that, on the eve of the launch, NASA and a
 
 The Rogers Commission report, issued on June 6, 1986, recommended a redesign and recertification of the Solid Rocket Motor joint and seal and urged that an independent body oversee its qualification and testing. The report concluded that the drive to declare the Shuttle operational had put enormous pressures on the system and stretched its resources to the limit. Faulting NASA safety practices, the Commission also called for the creation of an independent NASA Office of Safety, Reliability, and Quality Assurance, reporting directly to the NASA Administrator, as well as structural changes in program management.20 (The Rogers Commission findings and recommendations are discussed in more detail in Chapter 5.) It would take NASA 32 months before the next Space Shuttle mission was launched. During this time, NASA initiated a series of longer-term vehicle upgrades, began the construction of the Orbiter Endeavour to replace Challenger, made significant organizational changes, and revised the Shuttle manifest to reflect a more realistic flight rate.
 
-The Challenger accident also prompted policy changes. On August 15, 1986, President Reagan announced that the Shuttle would no longer launch commercial satellites. As a result of the accident, the Department of Defense made a decision to launch all future military payloads on expendable launch vehicles, except the few remaining satellites that required
+The Challenger accident also prompted policy changes. On August 15, 1986, President Reagan announced that the Shuttle would no longer launch commercial satellites. As a result of the accident, the Department of Defense made a decision to launch all future military payloads on expendable launch vehicles, except the few remaining satellites that required the Shuttleʼs unique capabilities.
 
 lumbia accidents, the Space Shuttle Program achieved significant successes and also underwent organizational and managerial changes. The program had successfully launched several important research satellites and was providing most of the "heavy lifting" of components necessary to build the International Space Station (see Figure 1.5-2). But as the Board subsequently learned, things were not necessarily as they appeared. (The post-Challenger history of the Space Shuttle Program is the topic of Chapter 5.)
 
 Figure 1.5-2. The International Space Station as seen from an approaching Space Shuttle.
 
-## 1.6 CONCLUDING THOUGHTS
+## 1.6 Concluding Thoughts
 
 The Orbiter that carried the STS-107 crew to orbit 22 years after its first flight reflects the history of the Space Shuttle Program. When Columbia lifted off from Launch Complex 39-A at Kennedy Space Center on January 16, 2003, it su- perficially resembled the Orbiter that had first flown in 1981, and indeed many elements of its airframe dated back to its first flight. More than 44 percent of its tiles, and 41 of the 44 wing leading edge Reinforced Carbon-Carbon (RCC) panels were original equipment. But there were also many new systems in Columbia, from a modern "glass" cockpit to second-generation main engines.
 
-Although an engineering marvel that enables a wide-variety of on-orbit operations, including the assembly of the International Space Station, the Shuttle has few of the mission capabilities that NASA originally promised. It cannot be launched on demand, does not recoup its costs, no longer carries national security payloads, and is not cost-effective enough, nor allowed by law, to carry commercial satellites. Despite efforts to improve its safety, the Shuttle remains a complex and risky system that remains central to U.S. ambitions in space. Columbiaʼs failure to return home is a harsh reminder that the Space Shuttle is a developmental vehicle that operates not in routine flight but in the realm of dangerthe Shuttleʼs unique capabilities. ous exploration.
+Although an engineering marvel that enables a wide-variety of on-orbit operations, including the assembly of the International Space Station, the Shuttle has few of the mission capabilities that NASA originally promised. It cannot be launched on demand, does not recoup its costs, no longer carries national security payloads, and is not cost-effective enough, nor allowed by law, to carry commercial satellites. Despite efforts to improve its safety, the Shuttle remains a complex and risky system that remains central to U.S. ambitions in space. Columbiaʼs failure to return home is a harsh reminder that the Space Shuttle is a developmental vehicle that operates not in routine flight but in the realm of dangerous exploration.
 
-%%page 1#2%%
+## ENDNOTES FOR CHAPTER 1
 
 - The citations that contain a reference to "CAIB document" with CAB or — 9
 
@@ -553,25 +545,25 @@ Heppenheimer, Development of the Space Shuttle, p. 355.
 
 document in the Columbia Accident Investigation Board database maintained As Howard McCurdy, a historian of NASA, has noted: "With the by the Department of Justice and archived at the National Archives. now-familiar Shuttle configuration, NASA officials came close to meeting their cost estimate of $5.15 billion for phase one of the Shuttle
 
-%%page 2#2%%
+%%page 27%%
 
-Columbiaʼs Final Flight
+## Chapter 2: Columbiaʼs Final Flight
 
 Space Shuttle missions are not necessarily launched in the same order they are planned (or "manifested," as NASA calls the process). A variety of scheduling, funding, technical, and – occasionally – political reasons can cause the shuffling of missions over the course of the two to three years it takes to plan and launch a flight. This explains why the 113th mission of the Space Shuttle Program was called STS-107. It would be the 28th flight of Columbia.
 
 While the STS-107 mission will likely be remembered most for the way it ended, there was a great deal more to the dedicated science mission than its tragic conclusion. The planned microgravity research spanned life sciences, physical sciences, space and earth sciences, and education. More than 70 scientists were involved in the research that was conducted by Columbiaʼs seven-member crew over 16 days. This chapter outlines the history of STS-107 from its mission objectives and their rationale through the accident and its initial aftermath. The analysis of the accidentʼs causes follows in Chapter 3 and subsequent chapters.
 
-## 2.1 MISSION OBJECTIVES AND THEIR RATIONALES
+## 2.1 Mission Objectives and Their Rationales
 
 Throughout the 1990s, NASA flew a number of dedicated science missions, usually aboard Columbia because it was equipped for extended-duration missions and was not being used for Shuttle-Mir docking missions or the assembly of the International Space Station. On many of these missions, Columbia carried pressurized Spacelab or SPACEHAB modules that extended the habitable experiment space available and were intended as facilities for life sciences and microgravity research.
 
-In June 1997, the Flight Assignment Working Group at Johnson Space Center in Houston designated STS-107, tentatively scheduled for launch in the third quarter of Fiscal Year 2000, a "research module" flight. In July 1997, several committees of the National Academy of Scienceʼs Space Studies Board sent a letter to NASA Administrator Daniel Goldin recommending that NASA dedicate several future Shuttle missions to microgravity and life sciences. The purpose would be to train scientists to take full advantage of the International Space and to reduce the gap between the last planned Shuttle science mission and the start of science research aboard the Space Station.1 In March 1998, Goldin announced that STS-107, tentatively scheduled for launch in May 2000, would be a multi-disciplinary science mission modeled after STS-90, the Neurolab mission scheduled later in 1998.2 In October 1998, the Veterans Affairs and Housing and Urban Development and Independent Agencies Appropriations Conference Report expressed Congressʼ concern about the lack of Shuttle-based science missions in Fiscal Year 1999, and added $15 million to NASAʼs budget for STS-107. The following year the Conference Report reserved $40 million for a second science mission. NASA cancelled the second science mission in October 2002 and used the money for STS-107.
+In June 1997, the Flight Assignment Working Group at Johnson Space Center in Houston designated STS-107, tentatively scheduled for launch in the third quarter of Fiscal Year 2000, a "research module" flight. In July 1997, several committees of the National Academy of Scienceʼs Space Studies Board sent a letter to NASA Administrator Daniel Goldin recommending that NASA dedicate several future Shuttle missions to microgravity and life sciences. The purpose would be to train scientists to take full advantage of the International Space Stationʼs research capabilities once it became operational, and to reduce the gap between the last planned Shuttle science
+
+mission and the start of science research aboard the Space Station.1 In March 1998, Goldin announced that STS-107, tentatively scheduled for launch in May 2000, would be a multi-disciplinary science mission modeled after STS-90, the Neurolab mission scheduled later in 1998.2 In October 1998, the Veterans Affairs and Housing and Urban Development and Independent Agencies Appropriations Conference Report expressed Congressʼ concern about the lack of Shuttle-based science missions in Fiscal Year 1999, and added $15 million to NASAʼs budget for STS-107. The following year the Conference Report reserved $40 million for a second science mission. NASA cancelled the second science mission in October 2002 and used the money for STS-107.
 
 In addition to a variety of U.S. experiments assigned to STS-107, a joint U.S./Israeli space experiment – the Mediterranean-Israeli Dust Experiment, or MEIDEX – was added to STS-107 to be accompanied by an Israeli astronaut as part of an international cooperative effort aboard the Shuttle similar to those NASA had begun in the early 1980s. Triana, a deployable Earth-observing satellite, was also added to the mission to save NASA from having to buy a commercial launch to place the satellite in orbit. Political disagreements between Congress and the White House delayed Triana, and the satellite was replaced by the Fast Reaction Experiments Enabling Science, Technology, Applications, and Research (FREESTAR) payload, which was mounted behind the SPACEHAB Research Double Module.3
 
 Figure 2.1-1. Columbia, at the launch pad on January 15, 2003.
-
-Stationʼs research capabilities once it became operational,
 
 %%page 28%%
 
@@ -582,7 +574,7 @@ STS-107 was finally scheduled for launch on January 11, 2001. After 13 delays ov
 - Removal of Triana: This Earth-observing satellite was replaced with the FREESTAR payload.
 - Orbiter Maintenance Down Period: Columbiaʼs depot-level maintenance took six months longer than originally planned, primarily to correct problems encountered with Kapton wiring (see Chapter 4). This resulted in the STS-109 Hubble Space Telescope service mission be-
 
-## COLUMBIA
+#### COLUMBIA
 
 Columbia was named after a Boston-based sloop commanded by Captain Robert Gray, who noted while sailing to the Pacific Northwest a flow of muddy water fanning from the shore, and decided to explore what he deemed the "Great
 
@@ -596,7 +588,7 @@ Columbia had been manufactured to an early structural standard that resulted in 
 
 Station flight sometime after STS-107.
 
-> ing launched before STS-107 because it was considered more urgent.
+ing launched before STS-107 because it was considered more urgent.
 
 - Flowliner cracks: About one month before the planned July 19, 2002 launch date for STS-107, concerns about cracks in the Space Shuttle Main Engine propellant system flowliners caused a four-month grounding of the Orbiter fleet. (The flowliner, which is in the main propellant feed lines, mitigates turbulence across the flexible bellows to smooth the flow of propellant into the main engine low-pressure turbopump. It also protects the bellows from flow-induced vibration.) First discovered on Atlantis, the cracks were eventually discovered on each Orbiter; they were fixed by weld- ing and polishing. The grounding delayed the exchange of the Expedition 5 International Space Station crew with the Expedition 6 crew, which was scheduled for STS-113. To maintain the International Space Station assembly sequence while minimizing the delay in returning the Expedition 5 crew, both STS-112 and STS-113 were launched before STS-107.
 
@@ -622,11 +614,11 @@ William C. McCool, Pilot. McCool, 41, was a Commander in the U.S. Navy and a tes
 
 Michael P. Anderson, Payload Commander and Mission Specialist. Anderson, 43, was a Lieutenant Colonel in the U.S. Air Force, a former instructor pilot and tactical officer, and a veteran of STS-89. He received a B.S. in Physics/Astronomy from the University of Washington, and a M.S. in
 
-## T HE CREW
+#### T HE CREW
 
 Physics from Creighton University. A member of the Blue Team, Anderson worked with experiments including the Advanced Respiratory Monitoring System, Water Mist Fire Suppression, and Structures of Flame Balls at Low Lewis-number.
 
-David M. Brown, Mission Specialist. Brown, 46, was a Captain in the U.S. Navy, a naval aviator, and a naval flight surgeon. He received a B.S. in Biology from the College of William
+David M. Brown, Mission Specialist. Brown, 46, was a Captain in the U.S. Navy, a naval aviator, and a naval flight surgeon. He received a B.S. in Biology from the College of William and Mary and a M.D. from Eastern Virginia Medical School. A member
 
 of the Blue Team, Brown worked on the Laminar Soot Processes,
 
@@ -646,11 +638,9 @@ Laurel Clark, Mission Specialist. Clark, 41, was a Commander (Captain-Select) in
 
 Spaceflight, and the Vapor Compres-
 
-EW sion Distillation Flight Experiment.
+W sion Distillation Flight Experiment.
 
-> Ilan Ramon, Payload Specialist. Ramon, 48, was a Colonel in the Israeli Air Force, a fighter pilot, and Israelʼs first astronaut. Ramon received a B.S. in Electronics and Computer Engineering from the University of Tel Aviv, Israel. As a member of the Red Team, Ramon was the primary crew member responsible for the Mediterranean Israeli Dust Experiment (MEIDEX). He also worked on the Water Mist Fire Suppression and the Microbial Physiology Flight
-
-and Mary and a M.D. from Eastern Experiments Team experiments, Virginia Medical School. A member among others.
+> Ilan Ramon, Payload Specialist. Ramon, 48, was a Colonel in the Israeli Air Force, a fighter pilot, and Israelʼs first astronaut. Ramon received a B.S. in Electronics and Computer Engineering from the University of Tel Aviv, Israel. As a member of the Red Team, Ramon was the primary crew member responsible for the Mediterranean Israeli Dust Experiment (MEIDEX). He also worked on the Water Mist Fire Suppression and the Microbial Physiology Flight Experiments Team experiments, among others.
 
 %%page 30%%
 
@@ -668,7 +658,7 @@ Payload Preparation
 
 The payload bay configuration for STS-107 included the SPACEHAB access tunnel, SPACEHAB Research Double Module (RDM), the FREESTAR payload, the Orbital Ac-
 
-igure 2.1-3. The SPACEHAB Research Double Module as seen rom the aft flight deck windows of Columbia during STS-107. A hin slice of Earthʼs horizon is visible behind the vertical stabilizer.
+Figure 2.1-3. The SPACEHAB Research Double Module as seen from the aft flight deck windows of Columbia during STS-107. A thin slice of Earthʼs horizon is visible behind the vertical stabilizer.
 
 celeration Research Experiment, and an Extended Duration Orbiter pallet to accommodate the long flight time needed to conduct all the experiments. Additional experiments were stowed in the Orbiter mid-deck and on the SPACE- HAB roof (see Figures 2.1-3 and 2.1-4). The total liftoff payload weight for STS-107 was 24,536 pounds. Details on STS-107 payload preparations and on-orbit operations are in Appendix D.2.
 
@@ -676,13 +666,13 @@ Payload readiness reviews for STS-107 began in May 2002, with no significant abn
 
 %%page 31%%
 
-## 2.2 FLIGHT PREPARATION
+## 2.2 Flight Preparation
 
 Figure 2.1-4. The configuration of Columbiaʼs payload bay for
 
 STS-107.
 
-## FREESTAR
+#### FREESTAR
 
 > SPACEHAB Extended Research Duration Double Orbiter Module Pallet
 
@@ -718,17 +708,15 @@ The Delta Pre-Launch Mission Management Team Meeting was also chaired by the Act
 
 A Pre-Tanking Mission Management Team Meeting was also chaired by the Acting Manager of Launch Integration. This meeting was held at 12:10 a.m. on January 16. A problem with the Solid Rocket Booster External Tank Attachment ring was addressed for the first time. Recent mission life capability testing of the material in the ring plates revealed static strength properties below minimum requirements. There were concerns that, assuming worst-case flight
 
-## NASA TIMES
+#### NASA TIMES
 
-Like most engineering or technical operations, NASA generally uses Coordinated Universal Time (UTC, formerly called Greenwich Mean Time) as the standard reference for activities. This is, for convenience, often converted to local time in either Florida or Texas – this report uses Eastern Standard Time (EST) unless otherwise noted. In addition to the normal 24-hour clock,
-
-NASA tells time via several other methods, all tied to specific events. The most recognizable of these is "T minus (T–)" time that counts down to every launch in hours, minutes, and seconds. NASA also uses a less precise "L minus" (L–) time that tags events that happens days or weeks prior to launch. Later in this report there are references to "Entry Interface plus (EI+)" time that counts, in seconds, from when an Orbiter begins reentry. In all cases, if the time is "minus" then the event being counted toward has not happened yet; if the time is "plus" then the event has already occurred.
+Like most engineering or technical operations, NASA generally uses Coordinated Universal Time (UTC, formerly called Greenwich Mean Time) as the standard reference for activities. This is, for convenience, often converted to local time in either Florida or Texas – this report uses Eastern Standard Time (EST) unless otherwise noted. In addition to the normal 24-hour clock, NASA tells time via several other methods, all tied to specific events. The most recognizable of these is "T minus (T–)" time that counts down to every launch in hours, minutes, and seconds. NASA also uses a less precise "L minus" (L–) time that tags events that happens days or weeks prior to launch. Later in this report there are references to "Entry Interface plus (EI+)" time that counts, in seconds, from when an Orbiter begins reentry. In all cases, if the time is "minus" then the event being counted toward has not happened yet; if the time is "plus" then the event has already occurred.
 
 environments, the ring plate would not meet the safety factor requirement of 1.4 – that is, able to withstand 1.4 times the maximum load expected in operation. Based on analysis of the anticipated flight environment for STS-107, the need to meet the safety factor requirement of 1.4 was waived (see Chapter 10). No Launch Commit Criteria violations were noted, and the STS-107 final countdown began. The loading of propellants into the External Tank was delayed by some 70 minutes, until seven hours and 20 minutes before launch, due to an extended fuel cell calibration, a liquid oxygen replenish valve problem, and a Launch Processing System reconfiguration. The countdown continued normally, and at T–9 minutes the Launch Mission Management Team was polled for a GO/NO-GO launch decision. All members reported GO, and the Acting Manager of Launch Integration gave the final GO launch decision.
 
 Once the Orbiter clears the launch pad, responsibility passes from the Launch Director at the Kennedy Space Center to the Flight Director at Johnson Space Center. During flight, the mission is also evaluated from an engineering perspective in the Mission Evaluation Room, which is managed by Vehicle Engineering Office personnel. Any engineering analysis conducted during a mission is coordinated through and first presented to the Mission Evaluation Room, and is then presented by the Mission Evaluation Room manager to the Mission Management Team.
 
-## 2.3 LAUNCH SEQUENCE
+## 2.3 Launch Sequence
 
 The STS-107 launch countdown was scheduled to be about 24 hours longer than usual, primarily because of the extra time required to load cryogens for generating electricity and water into the Extended Duration Orbiter pallet, and for final stowage of plants, insects, and other unique science payloads. SPACEHAB stowage activities were about 90 minutes behind schedule, but the overall launch countdown was back on schedule when the communication system check was completed at L–24 hours.
 
@@ -782,7 +770,7 @@ Post-launch photographic analysis showed that one large piece and at least two s
 
 > Foam Debris
 
-igure 2.3-2. A shower of foam debris after the impact on olumbiaʼs left wing. The event was not observed in real time.
+Figure 2.3-2. A shower of foam debris after the impact on Columbiaʼs left wing. The event was not observed in real time.
 
 %%page 35%%
 
@@ -790,7 +778,7 @@ Arrival on Orbit
 
 Two minutes and seven seconds after launch, the Solid Rocket Boosters separated from the External Tank. They made a normal splashdown in the Atlantic Ocean and were subsequently recovered and returned to the Kennedy Space Center for inspection and refurbishment. Approximately eight and a half minutes after launch, the Space Shuttle Main Engines shut down normally, followed by the separation of the External Tank. At 11:20 a.m., a two-minute burn of the Orbital Maneuvering System engines began to position Columbia in its proper orbit, inclined 39 degrees to the equator and approximately 175 miles above Earth.
 
-## 2.4 ON-ORBIT EVENTS
+## 2.4 On-Orbit Events
 
 By 11:39 a.m. EST, one hour after launch, Columbia was in orbit and crew members entered the "post-insertion timeline." The crew immediately began to configure onboard systems for their 16-day stay in space.
 
@@ -850,7 +838,7 @@ Crew members conducted the missionʼs longest combustion test. Spiral moss growt
 
 roses and rice flowers. Experiments in the combustion chamber continued. Although the temperature in SPACEHAB was maintained, Mission Control estimated that about a half-gal- lon of water was unaccounted for, and began planning in-flight maintenance for the Water Separator Assembly.
 
-avid Brown stabilizes a digital video camera prior to a press onference in the SPACEHAB Research Double Module aboard olumbia during STS-107.
+David Brown stabilizes a digital video camera prior to a press conference in the SPACEHAB Research Double Module aboard Columbia during STS-107.
 
 Flight Day 10, Saturday, January 25
 
@@ -892,7 +880,7 @@ Rick Husband works with the Biological Research in Canister experiment on Columb
 
 Space Center. Suit checks confirmed that proper pressure would be maintained during re-entry and landing. The payload bay doors were closed. Husband and McCool configured the onboard computers with the re-entry software, and placed Columbia in the proper attitude for the de-orbit burn.
 
-## 2.5 DEBRIS STRIKE ANALYSIS AND REQUESTS FOR IMAGERY
+## 2.5 Debris Strike Analysis and Requests for Imagery
 
 As is done after every launch, within two hours of the liftoff the Intercenter Photo Working Group examined video from tracking cameras. An initial review did not reveal any unusual events. The next day, when the Intercenter Photo Working Group personnel received much higher resolution film that had been processed overnight, they noticed a debris strike at 81.9 seconds after launch.
 
@@ -910,7 +898,7 @@ Even after the Debris Assessment Teamʼs conclusion had been reported to the Mis
 
 William McCool talks to Mission Control from the aft flight deck of Columbia during STS-107.
 
-## 2.6 DE-ORBIT BURN AND RE-ENTRY EVENTS
+## 2.6 De-Orbit Burn and Re-Entry Events
 
 At 2:30 a.m. EST on February 1, 2003, the Entry Flight Control Team began duty in the Mission Control Center. The Flight Control Team was not working any issues or problems related to the planned de-orbit and re-entry of Columbia. In particular, the team indicated no concerns about the debris impact to the left wing during ascent, and treated the re-entry like any other.
 
@@ -946,7 +934,7 @@ Searchers found the tile in a field in Littlefield, Texas, just northwest of Lub
 
 At 8:59:32 a.m. (EI+923), a broken response from the mission commander was recorded: "Roger, [cut off in mid-word] …" It was the last communication from the crew and the last telemetry signal received in Mission Control. Videos made by observers on the ground at 9:00:18 a.m. (EI+969) revealed that the Orbiter was disintegrating.
 
-## 2.7 EVENTS IMMEDIATELY FOLLOWING THE ACCIDENT
+## 2.7 Events Immediately Following the Accident
 
 A series of events occurred immediately after the accident that would set the stage for the subsequent investigation.
 
@@ -968,19 +956,19 @@ This view was taken from Dallas. (Robert McCullough/© 2003 The This video was c
 
 %%page 42%%
 
-## MISSION CONTROL CENTER COMMUNICATIONS
+#### MISSION CONTROL CENTER COMMUNICATIONS
 
-At 8:49 a.m. Eastern Standard Time (EI+289), the Orbiterʼs flight control system began steering a precise course, or drag profile, with the initial roll command occurring about 30 seconds later. At 8:49:38 a.m., the Mission Control Guidance and Procedures officer called the Flight Director and indicated that the "closed-loop" guidance system had been initiated. GNC:
+At 8:49 a.m. Eastern Standard Time (EI+289), the Orbiterʼs flight control system began steering a precise course, or drag profile, with the initial roll command occurring about 30 seconds later. At 8:49:38 a.m., the Mission Control Guidance and Procedures officer called the Flight Director and indicated that the "closed-loop" guidance system had been initiated.
 
 The Maintenance, Mechanical, and Crew Systems (MMACS) officer and the Flight Director (Flight) had the following exchange beginning at 8:54:24 a.m. (EI+613).
 
-MMACS: "Flight – MMACS." Flight: "Go ahead, MMACS." MMACS: MMACS: "FYI, Iʼve just lost four separate temperature
+MMACS: "Flight – MMACS." Flight: "Go ahead, MMACS." MMACS: "FYI, Iʼve just lost four separate temperature
 
-> transducers on the left side of the vehicle, hydraulic return temperatures. Two of them on system one and MMACS: one in each of systems two and three."
+> transducers on the left side of the vehicle, hydraulic return temperatures. Two of them on system one and one in each of systems two and three."
 
-Flight: "Four hyd [hydraulic] return temps?" MMACS: "To the left outboard and left inboard elevon." MMACS: Flight: "Okay, is there anything common to them? DSC
+Flight: "Four hyd [hydraulic] return temps?" MMACS: "To the left outboard and left inboard elevon." Flight: "Okay, is there anything common to them? DSC
 
-> [discrete signal conditioner] or MDM [multiplexer- demultiplexer] or anything? I mean, youʼre telling me you lost them all at exactly the same time?" MMACS:
+> [discrete signal conditioner] or MDM [multiplexer- demultiplexer] or anything? I mean, youʼre telling me you lost them all at exactly the same time?"
 
 MMACS: "No, not exactly. They were within probably four or five seconds of each other." Flight: "Okay, where are those, where is that instrumentation located?" MMACS: "All four of them are located in the aft part of the
 
@@ -990,7 +978,11 @@ Flight: "No commonality."
 
 At 8:56:02 a.m. (EI+713), the conversation between the Flight Director and the MMACS officer continues:
 
-Flight: "MMACS, tell me again which systems theyʼre for." MMACS: "Thatʼs all three hydraulic systems. Itʼs ... two of them are to the left outboard elevon and two of them
+Flight: "MMACS, tell me again which systems theyʼre for." MMACS: "Thatʼs all three hydraulic systems. Itʼs ... two of
+
+> them are to the left outboard elevon and two of them to the left inboard."
+
+Flight: "Okay, I got you."
 
 The Flight Director then continues to discuss indications with other Mission Control Center personnel, including the Guidance, Navigation, and Control officer (GNC).
 
@@ -1012,8 +1004,6 @@ At 8:58:00 a.m. (EI+831), Columbia crossed the New Mexico- Texas state line. Wit
 
 MMACS: "Flight – MMACS." Flight: "Go." MMACS: "We just lost tire pressure on the left outboard and left inboard, both tires."
 
-to the left inboard." Flight: "Okay, I got you." [continued on next page]
-
 %%page 43%%
 
 The Flight Director then told the Capsule Communicator (CAP- COM) to let the crew know that Mission Control saw the messages and that the Flight Control Team was evaluating the indications and did not copy their last transmission.
@@ -1022,7 +1012,7 @@ CAPCOM: "And Columbia, Houston, we see your tire pressure messages and we did no
 
 At 8:59:32 a.m. (EI+923), Columbia was approaching Dallas, Texas, at 200,700 feet and Mach 18.1. At the same time, another broken call, the final call from Columbiaʼs commander, came on the air-to-ground voice loop:
 
-INCO: Commander: "Roger, [cut off in mid-word] …"
+Commander: "Roger, [cut off in mid-word] …"
 
 This call may have been about the backup flight system tire pressure fault-summary messages annunciated to the crew onboard, and seen in the telemetry by Mission Control personnel. An extended loss of signal began at 08:59:32.136 a.m. (EI+923). This was the last valid data accepted by the Mission Control computer stream, and no further real-time data updates occurred in Mission Control. This coincided with the approximate time when the Flight Control Team would expect a short-duration loss of signal during antenna switching, as the onboard communication system automatically reconfigured from the west Tracking and Data Relay System satellite to either the east satellite or to the ground station at Kennedy Space Center. The following exchange then took place on the Flight Director loop with the Instrumentation and Communication Office (INCO):
 
@@ -1042,9 +1032,9 @@ Flight: "Nose gear and right main gear down talkbacks?" MMACS: "Yes sir."
 
 At 9:00:18 a.m. (EI+969), the postflight video and imagery analyses indicate that a catastrophic event occurred. Bright flashes suddenly enveloped the Orbiter, followed by a dramatic change in the trail of superheated air. This is considered the most likely time of the main breakup of Columbia. Because the loss of signal had occurred 46 seconds earlier, Mission Control had no insight into this event. Mission Control continued to work the loss-of-signal problem to regain communication with Columbia:
 
-INCO: "Flight – INCO, I didnʼt expect, uh, this bad of a hit on comm [communications]." Flight: "GC [Ground Control officer] how far are we from GC:
+INCO: "Flight – INCO, I didnʼt expect, uh, this bad of a hit on comm [communications]." Flight: "GC [Ground Control officer] how far are we from
 
-UHF? Is that two-minute clock good?" GC: "Affirmative, Flight."
+UHF? Is that two-minute clock good?" GC: "Affirmative, Flight." GNC: "Flight – GNC." Flight: "Go."
 
 GNC: "If we have any reason to suspect any sort of
 
@@ -1075,8 +1065,6 @@ Flight: "Okay."
 The Flight Control Team still had no indications of any serious problems onboard the Orbiter. In Mission Control, there was no way to know the exact cause of the failed sensor measurements, and while there was concern for the extended loss of signal, the recourse was to continue to try to regain communications and in the meantime determine if the other systems, based on the last valid data, continued to appear as expected. The Flight Director told the CAPCOM to continue to try to raise Columbia via UHF:
 
 CAPCOM: "Columbia, Houston, UHF comm [communications] check." CAPCOM: "Columbia, Houston, UHF comm [communications] check." GC: "Flight – GC." Flight: "Go." GC: "MILA not reporting any RF [radio frequency] at this time."
-
-GNC: "Flight – GNC." Flight: "Go." [continued on next page]
 
 %%page 44%%
 
@@ -1126,9 +1114,7 @@ On the morning of February 1, a crackling boom that signaled the breakup of Colu
 
 The emergency response that began shortly after 8:00 a.m. CST Saturday morning grew into a massive effort to decon- taminate and recover debris strewn over an area that in Texas alone exceeded 2,000 square miles (see Figure 2.7-1). Local fire and police departments called in all personnel, who began responding to debris reports that by late afternoon were phoned in at a rate of 18 per minute.
 
-Within hours of the accident, President Bush declared East Texas a federal disaster area, enabling the dispatch of emergency response teams from the Federal Emergency Management Agency and Environmental Protection Agency. As the day wore on, county constables, volunteers on horseback, and local citizens headed into pine forests and bushy thickets in search of debris and crew remains, while National Guard units mobilized to assist local law- enforcement guard debris sites. Researchers from Stephen F. Austin University sent seven teams into the field with Global Positioning System units to mark the exact location of debris. The researchers and later searchers then used this data to update debris distribution on detailed Geographic
-
-Information System maps.
+Within hours of the accident, President Bush declared East Texas a federal disaster area, enabling the dispatch of emergency response teams from the Federal Emergency Management Agency and Environmental Protection Agency. As the day wore on, county constables, volunteers on horseback, and local citizens headed into pine forests and bushy thickets in search of debris and crew remains, while National Guard units mobilized to assist local law- enforcement guard debris sites. Researchers from Stephen F. Austin University sent seven teams into the field with Global Positioning System units to mark the exact location of debris. The researchers and later searchers then used this data to update debris distribution on detailed Geographic Information System maps.
 
 %%page 45%%
 
@@ -1158,7 +1144,7 @@ Air Search
 
 Air crews used 37 helicopters and seven fixed-wing aircraft to augment ground searchers by searching for debris farther out from the Orbiterʼs ground track, from two miles from the centerline to five miles on either side. Initially, these crews used advanced remote sensing technologies, including two satellite platforms, hyper-spectral and forward-looking in- frared scanners, forest penetration radars, and imagery from Lockheed U-2 reconnaissance aircraft. Because of the densi-
 
-igure 2.7-3. Tragically, a helicopter crash during the debris earch claimed the lives of Jules "Buzz" Mier (in black coat) and harles Krenek (yellow coat).
+Figure 2.7-3. Tragically, a helicopter crash during the debris search claimed the lives of Jules "Buzz" Mier (in black coat) and Charles Krenek (yellow coat).
 
 ty of the East Texas vegetation, the small sizes of the debris, and the inability of sensors to differentiate Orbiter material from other objects, these devices proved of little value. As a result, the detection work fell to spotter teams who visually scanned the terrain. Air search coordinators apportioned grids to allow a 50 percent probability of detection for a one- foot-square object. Civil Air Patrol volunteers and others in powered parachutes, a type of ultralight aircraft, also participated in the search, but were less successful than helicopter and fixed-wing air crews in retrieving debris. During the air search, a Bell 407 helicopter crashed in Angelina National Forest in San Augustine County after a mechanical failure. The accident took the lives of Jules F. "Buzz" Mier Jr., a contract pilot, and Charles Krenek, a Texas Forest Service employee, and injured three others (see Figure 2.7-3).
 
@@ -1194,7 +1180,9 @@ The debris collected (see Figure 2.7-4) by searchers aided the investigation in 
 
 Recovered debris allowed investigators to build a three-dimensional reconstruction of Columbiaʼs left wing leading edge, which was the basis for understanding the order in which the left wing structure came apart, and led investigators to determine that heat first entered the wing in the location where photo analysis indicated the foam had struck.
 
-%%page 2#3%%
+%%page 48%%
+
+## ENDNOTES FOR CHAPTER 2
 
 The citations that contain a reference to "CAIB document" with CAB or
 
@@ -1220,29 +1208,23 @@ Administrator, NASA, "Assessment of the Triana Mission, G-99-013, Final
 
 Report," September 10, 1999. See in particular footnote 3, concerning
 
-Although there is more volume of liquid hydrogen in the External Tank, liquid hydrogen is very light and its slosh effects are minimal and are generally ignored. At launch, the External Tank contains approximately
-
-1.4 million pounds (140,000 gallons) of liquid oxygen, but only 230,000 pounds (385,000 gallons) of liquid hydrogen.[^5]
-
-The Performance Enhancements (PE) flight profile flown by STS-107 is a combination of flight software and trajectory design changes that were introduced in late 1997 for STS-85. These changes to the ascent flight profile allow the Shuttle to carry some 1,600 pounds of additional payload on International Space Station assembly missions. Although developed to meet the Space Station payload lift requirement, a modified
-
-PE profile has been used for all Shuttle missions since it was introduced.
-
 Triana and the requirements of the Commercial Space Act, and Appendix
 
-C, "Accounting for Shuttle Costs." CAIB document CAB048-02680269.
+C, "Accounting for Shuttle Costs." CAIB document CAB048-02680269.[^4] Although there is more volume of liquid hydrogen in the External Tank, liquid hydrogen is very light and its slosh effects are minimal and are generally ignored. At launch, the External Tank contains approximately 1.4 million pounds (140,000 gallons) of liquid oxygen, but only 230,000 pounds (385,000 gallons) of liquid hydrogen.[^5]
 
-%%page 3%%
+The Performance Enhancements (PE) flight profile flown by STS-107 is a combination of flight software and trajectory design changes that were introduced in late 1997 for STS-85. These changes to the ascent flight profile allow the Shuttle to carry some 1,600 pounds of additional payload on International Space Station assembly missions. Although developed to meet the Space Station payload lift requirement, a modified PE profile has been used for all Shuttle missions since it was introduced.
+
+%%page 49%%
+
+## Chapter 3: Accident Analysis
 
 One of the central purposes of this investigation, like those for other kinds of accidents, was to identify the chain of circumstances that caused the Columbia accident. In this case the task was particularly challenging, because the breakup of the Orbiter occurred at hypersonic velocities and extremely high altitudes, and the debris was scattered over a wide area. Moreover, the initiating event preceded the accident by more than two weeks. In pursuit of the sequence of the cause, investigators developed a broad array of information sources. Evidence was derived from film and video of the launch, radar images of Columbia on orbit, and amateur video of debris shedding during the in-flight breakup. Data was obtained from sensors onboard the Orbiter – some of this data was downlinked during the flight, and some came from an on-board recorder that was recovered during the debris search. Analysis of the debris was particularly valuable to the investigation. Clues were to be found not only in the condition of the pieces, but also in their location – both where they had been on the Orbiter and where they were found on the ground. The investigation also included extensive computer modeling, impact tests, wind tunnel studies, and other analytical techniques. Each of these avenues of inquiry is described in this chapter.
 
 Because it became evident that the key event in the chain leading to the accident involved both the External Tank and one of the Orbiterʼs wings, the chapter includes a study of these two structures. The understanding of the accidentʼs physical cause that emerged from this investigation is summarized in the statement at the beginning of the chapter. Included in the chapter are the findings and recommendations of the Columbia Accident Investigation Board that are based on this examination of the physical evidence.
 
-## 3.1 THE PHYSICAL CAUSE
+## 3.1 The Physical Cause
 
 The physical cause of the loss of Columbia and its crew was a breach in the Thermal Protection System on the leading edge of the left wing. The breach was initiated by a piece of insulating foam that separated from the left bipod ramp of the External Tank and struck the wing in the vicinity of the lower half of Reinforced Carbon-Carbon panel 8 at 81.9 seconds after launch. During re-entry, this breach in the Thermal
-
-Analysis
 
 Protection System allowed superheated air to penetrate the leading-edge insulation and progressively melt the aluminum structure of the left wing, resulting in a weakening of the structure until increasing aerodynamic forces caused loss of control, failure of the wing, and breakup of the Orbiter.
 
@@ -1250,7 +1232,7 @@ Figure 3.1-1. Columbia sitting at Launch Complex 39-A. The upper circle shows th
 
 %%page 50%%
 
-3.2 THE EXTERNAL TANK AND FOAM Bipod Ramp
+## 3.2 The External Tank and Foam
 
 The External Tank is the largest element of the Space Shuttle. Because it is the common element to which the Solid Rocket
 
@@ -1272,17 +1254,21 @@ The propellant tanks are connected by the intertank, a 22.5- foot-long hollow cy
 
 The External Tank is attached to the Solid Rocket Boosters by bolts and fittings on the thrust panels and near the aft end of the liquid hydrogen tank. The Orbiter is attached to the Ex-
 
-> (+Y, Right Hand) Liquid Oxygen
+> Bipod Ramp (+Y, Right Hand) Liquid Oxygen
 
 Bipod Ramp FeedLine (–Y, Left Hand)
 
-> JackPad Standoff Intertank to Closeouts Liquid Hydrogen
+> JackPad Standoff
+
+Intertank to Closeouts
+
+> Liquid Hydrogen
 
 Tank Flange
 
 > Closeout Bipod Struts
 
-igure 3.2-2. The exterior of the left bipod attachment area show- ng the foam ramp that came off during the ascent of STS-107.
+Figure 3.2-2. The exterior of the left bipod attachment area showing the foam ramp that came off during the ascent of STS-107.
 
 ternal Tank by two umbilical fittings at the bottom (that also contain fluid and electrical connections) and by a "bipod" at the top. The bipod is attached to the External Tank by fittings at the right and left of the External Tank centerline. The bipod fittings, which are titanium forgings bolted to the External Tank, are forward (above) of the intertank-liquid hydrogen flange joint (see Figures 3.2-2 and 3.2-3). Each forging contains a spindle that attaches to one end of a bipod strut and rotates to compensate for External Tank shrinkage during the loading of cryogenic propellants.
 
@@ -1302,7 +1288,9 @@ Liquid Hydrogen Tank
 
 Bipod Fitting
 
-≈ 12 inches igure 3.2-3. Cutaway drawing of the bipod ramp and its associ- ted fittings and hardware.
+≈ 12 inches
+
+Figure 3.2-3. Cutaway drawing of the bipod ramp and its associated fittings and hardware.
 
 External Tank Thermal Protection System Materials
 
@@ -1336,7 +1324,7 @@ Throughout the history of the External Tank, factors unrelated to the insulation
 
 Most of the External Tank is insulated with three types of spray-on foam. NCFI 24-124, a polyisocyanurate foam applied with blowing agent HCFC 141b hydrochlorofluorocar-
 
-SS-1171 with closeouts LH2 Ice/Frost Ramps
+• BX-250 & SS-1171 with PDL-1034 closeouts LH2 Ice/Frost Ramps
 
 > • PDL-1034 LH2 PAL Ramps • BX-250 Aft Interfaces/Cable Trays/Covers LH2 Tank Barrel • BX-250 Thick/thin spray • BX-265 (unique for • NCFI 24-124 ET-93)
 
@@ -1378,7 +1366,9 @@ Significant analytical advancements have been made since the External Tank was f
 
 > 0.35 0.15 -0.05
 
--0.25 igure 3.2-5. Computational Fluid Dynamics was used to under- tand the complex flow fields and pressure coefficients around ipod strut. The flight conditions shown here approximate those resent when the left bipod foam ramp was lost from External ank 93 at Mach 2.46 at a 2.08-degree angle of attack.
+-0.25
+
+Figure 3.2-5. Computational Fluid Dynamics was used to understand the complex flow fields and pressure coefficients around bipod strut. The flight conditions shown here approximate those present when the left bipod foam ramp was lost from External Tank 93 at Mach 2.46 at a 2.08-degree angle of attack.
 
 Further complicating this problem, foam does not have the same properties in all directions, and there is also variability in the foam itself. Because it consists of small hollow cells, it does not have the same composition at every point. This combination of properties and composition makes foam extremely difficult to model analytically or to characterize physically. The great variability in its properties makes for difficulty in predicting its response in even relatively static conditions, much less during the launch and ascent of the Shuttle. And too little effort went into understanding the origins of this variability and its failure modes.
 
@@ -1406,7 +1396,7 @@ The precise reasons why the left bipod foam ramp was lost from the External Tank
 
 %%page 54%%
 
-## FOAM FRACTURE UNDER HYDROSTATIC PRESSURE
+#### FOAM FRACTURE UNDER HYDROSTATIC PRESSURE
 
 The Board has concluded that the physical cause of the breakup of Columbia upon re-entry was the result of damage to the Orbiterʼs Thermal Protection System, which occurred when a large piece of BX-250 foam insulation fell from the left (–Y) bipod assembly 81.7 seconds after launch and struck the leading edge of the left wing. As the External Tank is covered with insulating foam, it seemed to me essential that we understand the mechanisms that could cause foam to shed.
 
@@ -1416,7 +1406,9 @@ I approached this problem by trying to imagine the fracture mechanism by which f
 
 I glued a 1.25-inch-thick piece of BX-250 foam to a 0.25-inch-thick brass plate. The 3-by-3-inch plate had a 0.25-inch-diameter hole in its center, into which a brass tube was soldered. The tube was filled with a liquid dye, and the air pressure above the dye could be slowly raised, using a battery-operated tire pump to which a pressure regu- lator was attached until the fluid was forced through the foam to its outer surface. Not knowing what to expect, the first time I tried this experiment with my graduate student, Jim Baumgardner, we did so out on the loading dock of the Stanford Physics Department. If this process were to mimic the cryoejection of foam, we expected a violent explosion when the pressure burst through the surface. To keep from being showered with dye, we put the assembly in a closed cardboard box, and donned white lab coats.
 
-Instead of a loud explosion, we heard nothing. We found, though, that the pressure above the liquid began dropping once the gas pressure reached about 45 pounds per square inch. Releasing the pressure and opening the box, we found a thin crack, about a half-inch long, at the upper surface of the foam. Curious about the path the pressure had taken to reach the surface, I cut the foam off the brass plate, and made two vertical cuts through the foam in line with the crack. When I bent the foam in line with the crack, it separated into two sections along in its path through the foam. This path was along a flat plane, and was the shape of a teardrop that intersected perpendicular to the upper surface of the foam. Since the pressure could only exert force in the two directions perpendicular to this fault plane, it could not possibly result in the ejection of foam, because that would require a force perpendicular to the surface of the foam. I repeated this experiment with several pieces of foam and always found the same behavior.
+Instead of a loud explosion, we heard nothing. We found, though, that the pressure above the liquid began dropping once the gas pressure reached about 45 pounds per square inch. Releasing the pressure and opening the box, we found a thin crack, about a half-inch long, at the upper surface of the foam. Curious about the path the pressure had taken to reach the surface, I cut the foam off the brass plate, and made two vertical cuts through the foam in line with the crack. When I bent the foam in line with the crack, it separated into two sections along the crack. The dye served as a tracer for where the fluid had traveled in its path through the foam. This path was along a flat plane, and was
+
+the shape of a teardrop that intersected perpendicular to the upper surface of the foam. Since the pressure could only exert force in the two directions perpendicular to this fault plane, it could not possibly result in the ejection of foam, because that would require a force perpendicular to the surface of the foam. I repeated this experiment with several pieces of foam and always found the same behavior.
 
 I was curious why the path of the pressure fault was planar, and why it had propagated upward, nearly perpendicular to the outer surface of the foam. For this sample, and most of the samples that NASA had given me, the direction of growth of the foam was vertical, as evidenced by horizontal "knit lines" that result from successive applications of the sprayed foam. The knit lines are perpendicular to the growth direction. I then guessed that the growth of the pressure fault was influenced by the foamʼs direction of growth. To test this hypothesis, I found a piece of foam for which the growth direction was vertical near the top surface of the foam, but was at an approximately 45-degree angle to the vertical near the bottom. If my hypothesis were correct, the direction of growth of the pressure fault would follow the direction of growth of the foam, and hence would always intersect the knit lines at 90 degrees. Indeed, this was the case.
 
@@ -1426,7 +1418,7 @@ Because the pressure fault intersects perpendicular to the upper surface, hydros
 
 Experiments like this help us understand how foam shedding does (and doesnʼt) occur, because they elucidate the properties of "perfect" foam, free from voids and other defects. Thus, this behavior represents the true behavior of the foam, free from defects that may or may not have been present. In addition, these experiments are fast and cheap, since they can be carried out on relatively small pieces of foam in simple environments. Finally, we can understand why the observed behavior occurs from our understanding of the basic physical properties of the foam itself. By contrast, if you wish to mimic left bipod foam loss, keep in mind that such loss could have been detected only 7 times in 72 instances. Thus, not observing foam loss in a particular experiment will not insure that it would never happen under the same conditions at a later time. NASA is now undertaking both kinds of experiments, but it is the simple studies that so far have most contributed to our understanding of foam failure modes.
 
-Douglas Osheroff, Board Member the crack. The dye served as a tracer for where the fluid had traveled and variable application, and the results of that imperfect process, as well as severe load, thermal, pressure, vibration, acoustic, and structural launch and ascent conditions.
+Douglas Osheroff, Board Member and variable application, and the results of that imperfect process, as well as severe load, thermal, pressure, vibration, acoustic, and structural launch and ascent conditions.
 
 %%page 55%%
 
@@ -1436,37 +1428,25 @@ F3.2−1 NASA does not fully understand the mechanisms
 
 > that cause foam loss on almost all flights from larger areas of foam coverage and from areas that are sculpted by hand.
 
-F3.2−2 There are no qualified non-destructive evaluation
+F3.2−2 There are no qualified non-destructive evaluation techniques for the as-installed foam to determine the characteristics of the foam before flight.
 
-> techniques for the as-installed foam to determine the characteristics of the foam before flight.
+F3.2−3 Foam loss from an External Tank is unrelated to the tankʼs age and to its total pre-launch exposure to the elements. Therefore, the foam loss on STS-107 is unrelated to either the age or exposure of External Tank 93 before launch.
 
-F3.2−3 Foam loss from an External Tank is unrelated to
+F3.2−4 The Board found no indications of negligence in the application of the External Tank Thermal Protection System.
 
-> the tankʼs age and to its total pre-launch exposure to the elements. Therefore, the foam loss on STS-107 is unrelated to either the age or exposure of External Tank 93 before launch. F3.2−4 The Board found no indications of negligence
+F3.2−5 The Board found instances of left bipod ramp shedding on launch that NASA was not aware of, bringing the total known left bipod ramp shedding events to 7 out of 72 missions for which imagery of the launch or External Tank separation is available.
 
-> in the application of the External Tank Thermal Protection System.
+F3.2−6 Subsurface defects were found during the dissection of three bipod foam ramps, suggesting that similar defects were likely present in the left bipod ramp of External Tank 93 used on STS-107.
 
-F3.2−5 The Board found instances of left bipod ramp
+F3.2−7 Foam loss occurred on more than 80 percent of the 79 missions for which imagery was available to confirm or rule out foam loss.
 
-> shedding on launch that NASA was not aware of, bringing the total known left bipod ramp shedding events to 7 out of 72 missions for which imagery of the launch or External Tank separation is available.
+F3.2−8 Thirty percent of all missions lacked sufficient imagery to determine if foam had been lost.
 
-F3.2−6 Subsurface defects were found during the dissec-
-
-> tion of three bipod foam ramps, suggesting that similar defects were likely present in the left bipod ramp of External Tank 93 used on STS-107.
-
-F3.2−7 Foam loss occurred on more than 80 percent of
-
-> the 79 missions for which imagery was available to confirm or rule out foam loss.
-
-F3.2−8 Thirty percent of all missions lacked sufficient imagery to determine if foam had been lost. F3.2−9 Analysis of numerous separate variables indi-
-
-> cated that none could be identified as the sole initiating factor of bipod foam loss. The Board therefore concludes that a combination of several factors resulted in bipod foam loss.
+F3.2−9 Analysis of numerous separate variables indicated that none could be identified as the sole initiating factor of bipod foam loss. The Board therefore concludes that a combination of several factors resulted in bipod foam loss.
 
 Recommendation:
 
-R3.2-1 Initiate an aggressive program to eliminate all
-
-> External Tank Thermal Protection System debris-shedding at the source with particular emphasis on the region where the bipod struts attach to the External Tank.
+R3.2-1 Initiate an aggressive program to eliminate all External Tank Thermal Protection System debris-shedding at the source with particular emphasis on the region where the bipod struts attach to the External Tank.
 
 ## 3.3 WING LEADING EDGE STRUCTURAL SUBSYSTEM
 
@@ -1474,7 +1454,7 @@ The components of the Orbiterʼs wing leading edge provide the aerodynamic load 
 
 Fahrenheit. Key design requirements included flying 100 missions with minimal refurbishment, maintaining the aluminum wing structure at less than 350 degrees Fahrenheit, withstanding a kinetic energy impact of 0.006 foot-pounds, and the ability to withstand 1.4 times the load ever expected in operation.5 The requirements specifically stated that the
 
-## REINFORCED CARBON-CARBON (RCC)
+#### REINFORCED CARBON-CARBON (RCC)
 
 The basic RCC composite is a laminate of graphite-impregnated rayon fabric, further impregnated with phenolic resin and layered, one ply at a time, in a unique mold for each part, then cured, rough-trimmed, drilled, and inspected. The part is then packed in calcined coke and fired in a furnace to convert it to carbon and is made more dense by three cycles of furfuryl alcohol vacuum impregnation and firing.
 
@@ -1498,7 +1478,7 @@ Figure 3.3-1. There are 22 panels of Reinforced Carbon-Carbon on each wing, numb
 
 %%page 56%%
 
-Wing Leading Edge Damage Leading Edge Maintenance
+Wing Leading Edge Damage
 
 The risk of micrometeoroid or debris damage to the RCC panels has been evaluated several times. Hypervelocity impact testing, using nylon, glass, and aluminum projectiles, as well as low-velocity impact testing with ice, aluminum, steel, and lead projectiles, resulted in the addition of a 0.03- to 0.06-inch-thick layer of Nextel-440 fabric between the Inconel foil and Cerachrome insulation. Analysis of the design change predicts that the Orbiter could survive re-entry with a quarter-inch diameter hole in the lower surfaces of RCC panels 8 through 10 or with a one-inch hole in the rest of the RCC panels.
 
@@ -1506,7 +1486,9 @@ RCC components have been struck by objects throughout their operational life, bu
 
 Figure 3.3-2. Damage on the outer surface of RCC panel 10-right from Atlantis after STS-45.
 
-Figure 3.3-3. Damage on the inner surface of RCC panel 10-right
+Figure 3.3-3. Damage on the inner surface of RCC panel 10-right from Atlantis after STS-45.
+
+Leading Edge Maintenance
 
 Post-flight RCC component inspections for cracks, chips, scratches, pinholes, and abnormal discoloration are primarily visual, with tactile evaluations (pushing with a finger) of some regions. Boeing personnel at the Kennedy Space Center make minor repairs to the silicon carbide coating and surface defects.
 
@@ -1522,13 +1504,13 @@ Currently, mass loss of flown RCC components cannot be directly measured. Instea
 
 For the first five missions of Columbia, the RCC components were not coated with Type A sealant, and had shorter mission service lives than the RCC components on the other Orbiters. (Columbiaʼs panel 9 has the shortest mission service life of 50 flights as shown in Figure 3.3-4.) The predicted life for panel/T-seals 7 through 16 range from 54 to 97 flights.7
 
-Localized penetration of the protective coating on RCC components (pinholes) were first discovered on Columbia in 1992, after STS-50, Columbiaʼs 12th flight. Pinholes were later found in all Orbiters, and their quantity and size have increased as flights continue. Tests showed that pinholes were caused by zinc oxide contamination from a primer from Atlantis after STS-45. used on the launch pad.
+Localized penetration of the protective coating on RCC components (pinholes) were first discovered on Columbia in 1992, after STS-50, Columbiaʼs 12th flight. Pinholes were later found in all Orbiters, and their quantity and size have increased as flights continue. Tests showed that pinholes were caused by zinc oxide contamination from a primer used on the launch pad.
 
 %%page 57%%
 
 Columbia Wing Leading Edge
 
-- 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 — 18
+- 1 2 3 4 5 6 7 8 9 10 11 12 13 14 — 15
 
 Panel/T-Seal Assembly
 
@@ -1542,9 +1524,17 @@ Figure 3.3-4. The expected mission life for each of the wing leading edge RCC pa
 
 The Wing Leading Edge Structural System on Columbia.
 
-In October 1993, panel 12-right was removed from Columbia after its 15th flight for destructive evaluation. Optical and scanning electron microscope examinations of 15 pinholes revealed that a majority occurred along craze cracks in the thick regions of the silicon carbide layer. Pinhole glass chemistry revealed the presence of zinc, silicon, oxygen, and aluminum. There is no zinc in the leading edge support system, but the launch pad corrosion protection system uses an inorganic zinc primer under a coat of paint, and this coat of paint is not always refurbished after a launch. Rain samples from the Rotating Support Structure at Launch
+In October 1993, panel 12-right was removed from Columbia after its 15th flight for destructive evaluation. Optical and scanning electron microscope examinations of 15 pinholes revealed that a majority occurred along craze cracks in the thick regions of the silicon carbide layer. Pinhole glass chemistry revealed the presence of zinc, silicon, oxygen, and aluminum. There is no zinc in the leading edge support system, but the launch pad corrosion protection system uses an inorganic zinc primer under a coat of paint, and this coat of paint is not always refurbished after a launch. Rain
 
-Complex 39-A in July 1994 confirmed that rain washed the unprotected primer off the service structure and deposited it on RCC panels while the Orbiter sat on the launch pad. At the request of the Columbia Accident Investigation Board, rain samples were again collected in May 2003. The zinc the RCC panel cavity. A small space between the upper carrier panel and the RCC panel allows air pressure to equalize behind the RCC panels during ascent and re-entry.
+- 16 17 18 19 20 21 — 22
+
+samples from the Rotating Support Structure at Launch
+
+Complex 39-A in July 1994 confirmed that rain washed the unprotected primer off the service structure and deposited it on RCC panels while the Orbiter sat on the launch pad. At the request of the Columbia Accident Investigation Board, rain samples were again collected in May 2003. The zinc
+
+#### LEFT WING AND WING LEADING EDGE
+
+the RCC panel cavity. A small space between the upper carrier panel and the RCC panel allows air pressure to equalize behind the RCC panels during ascent and re-entry.
 
 The mid-wing area on the left wing, behind where the breach occurred, is supported by a series of trusses, as shown in red in the figure below. The mid-wing area is bounded in the front and back by the Xo1040 and Xo1191 cross spars, respectively. The numerical designation of each spar comes from its location along the Orbiterʼs X-axis; for example, the Xo1040 spar is 1,040 inches from the zero point on the X-axis. The cross spars provide the wingʼs structural integrity. Three major cross spars behind the Xo1191 spar provide the primary structural strength for the aft portion of the wing. The inboard portion of the mid-wing is the outer wall of the left wheel-well, and the outboard portion of the mid-wing is the wing leading edge spar, where the RCC panels attach.
 
@@ -1554,11 +1544,11 @@ Xo1191
 
 Xo1040
 
-The major internal support structures in the mid-wing are constructed from aluminum alloy. Since aluminum melts at 1,200 were destroyed and wing structural integrity was lost.
-
-degrees Fahrenheit, it is likely these truss tubes in the mid-wing fallout rate was generally less than previously recorded except for one location, which had the highest rate of zinc fallout of all the samples from both evaluations. Chemical analysis of the most recent rainwater samples determined the percentage of zinc to be consistently around nine percent, with that one exception.
+The major internal support structures in the mid-wing are constructed from aluminum alloy. Since aluminum melts at 1,200 degrees Fahrenheit, it is likely these truss tubes in the mid-wing were destroyed and wing structural integrity was lost.
 
 %%page 58%%
+
+fallout rate was generally less than previously recorded except for one location, which had the highest rate of zinc fallout of all the samples from both evaluations. Chemical analysis of the most recent rainwater samples determined the percentage of zinc to be consistently around nine percent, with that one exception.
 
 Specimens with pinholes were fabricated from RCC panel 12-right and arc-jet-tested, but the arc-jet testing did not substantially change the pinhole dimensions or substrate oxidation. (Arc jet testing is done in a wind tunnel with an electrical arc that provides an airflow of up to 2,800 degrees Fahrenheit.) As a result of the pinhole investigation, the sealant refurbishment process was revised to include clean- ing the part in a vacuum at 2,000 degrees Fahrenheit to bake out contaminants like zinc oxide and salt, and forcing sealant into pinholes.
 
@@ -1568,7 +1558,7 @@ In November 2001, white residue was discovered on about half the RCC panels on C
 
 The root cause of the white deposits on the surface of RCC parts was the breakdown of the sealant. This does not damage RCC material.
 
-Non-Destructive Evaluations of Reinforced Carbon- F3.3-1 Carbon Components
+Non-Destructive Evaluations of Reinforced Carbon- Carbon Components
 
 Over the 20 years of Space Shuttle operations, RCC has performed extremely well in the harsh environment it is exposed to during a mission. Within the last several years, a few instances of damage to RCC material have resulted in a re-examination of the current visual inspection process. Concerns about potential oxidation between the silicon carbide layer and the substrate and within the substrate has resulted in further efforts to develop improved Non-Destructive Evaluation methods and a better understanding of subsurface oxidation.
 
@@ -1580,59 +1570,37 @@ In April 2001, after STS-102, Columbiaʼs panel 10-left had a 0.2-inch by 0.3-in
 
 > Panel 8L (Discovery)
 
-igure 3.3-5. RCC panel 8-left from Discovery had to be scrapped fter STS-103 because of the damage shown here.
+Figure 3.3-5. RCC panel 8-left from Discovery had to be scrapped after STS-103 because of the damage shown here.
 
 Findings:
 
-F3.3-1 The original design specifications required the
+F3.3-1 The original design specifications required the RCC components to have essentially no impact resistance.
 
-> RCC components to have essentially no impact resistance.
+F3.3-2 Current inspection techniques are not adequate to assess structural integrity of the RCC components.
 
-F3.3-2 Current inspection techniques are not adequate
+F3.3-3 After manufacturerʼs acceptance non-destructive evaluation, only periodic visual and touch tests are conducted.
 
-> to assess structural integrity of the RCC components.
+F3.3-4 RCC components are weakened by mass loss caused by oxidation within the substrate, which accumulates with age. The extent of oxidation is not directly measurable, and the resulting mission life reduction is developed analytically.
 
-F3.3-3 After manufacturerʼs acceptance non-destructive
+F3.3-5 To date, only two flown RCC panels, having achieved 15 and 19 missions, have been destruc- tively tested to determine actual loss of strength due to oxidation.
 
-> evaluation, only periodic visual and touch tests are conducted.
-
-F3.3-4 RCC components are weakened by mass loss
-
-> caused by oxidation within the substrate, which accumulates with age. The extent of oxidation is not directly measurable, and the resulting mission life reduction is developed analytically.
-
-F3.3-5 To date, only two flown RCC panels, having
-
-> achieved 15 and 19 missions, have been destruc- tively tested to determine actual loss of strength due to oxidation.
-
-F3.3-6 Contamination from zinc leaching from a primer
-
-> under the paint topcoat on the launch pad structure increases the opportunities for localized oxidation.
+F3.3-6 Contamination from zinc leaching from a primer under the paint topcoat on the launch pad structure increases the opportunities for localized oxidation.
 
 %%page 59%%
 
 Recommendations:
 
-R3.3-1 Develop and implement a comprehensive in-
+R3.3-1 Develop and implement a comprehensive inspection plan to determine the structural integrity of all Reinforced Carbon-Carbon system components. This inspection plan should take advantage of advanced non-destructive inspection technology.
 
-> spection plan to determine the structural integrity of all Reinforced Carbon-Carbon system components. This inspection plan should take advantage of advanced non-destructive inspection technology.
+R3.3-2 Initiate a program designed to increase the Orbiterʼs ability to sustain minor debris damage by measures such as improved impact-resistant Reinforced Carbon-Carbon and acreage tiles. This program should determine the actual impact resistance of current materials and the effect of likely debris strikes.
 
-R3.3-2 Initiate a program designed to increase the
+R3.3-3 To the extent possible, increase the Orbiterʼs ability to successfully re-enter the Earthʼs atmosphere with minor leading edge structural sub-system damage.
 
-> Orbiterʼs ability to sustain minor debris damage by measures such as improved impact-resistant Reinforced Carbon-Carbon and acreage tiles. This program should determine the actual impact resistance of current materials and the effect of likely debris strikes.
+R3.3-4 In order to understand the true material characteristics of Reinforced Carbon-Carbon components, develop a comprehensive database of flown Reinforced Carbon-Carbon material characteristics by destructive testing and evaluation.
 
-R3.3-3 To the extent possible, increase the Orbiterʼs abil-
+R3.3-5 Improve the maintenance of launch pad structures to minimize the leaching of zinc primer onto Reinforced Carbon-Carbon components.
 
-> ity to successfully re-enter the Earthʼs atmosphere with minor leading edge structural sub-system damage.
-
-R3.3-4 In order to understand the true material character-
-
-> istics of Reinforced Carbon-Carbon components, develop a comprehensive database of flown Reinforced Carbon-Carbon material characteristics by destructive testing and evaluation.
-
-R3.3-5 Improve the maintenance of launch pad struc-
-
-> tures to minimize the leaching of zinc primer onto Reinforced Carbon-Carbon components.
-
-## 3.4 IMAGE AND TRANSPORT ANALYSES
+## 3.4 Image and Transport Analyses
 
 At 81.9 seconds after launch of STS-107, a sizable piece of foam struck the leading edge of Columbiaʼs left wing. Visual evidence established the source of the foam as the left bipod ramp area of the External Tank. The widely accepted implausibility of foam causing significant damage to the wing leading edge system led the Board to conduct independent tests to characterize the impact. While it was impossible to determine the precise impact parameters because of uncertainties about the foamʼs density, dimensions, shape, and initial velocity, intensive work by the Board, NASA, and contractors provided credible ranges for these elements. The
 
@@ -1646,7 +1614,9 @@ The investigation image analysis team included members from Johnson Space Center
 
 A 35-mm film camera, E212, which recorded the foam strike from 17 miles away, and video camera E208, which recorded it from 26 miles away, provided the best of the available evidence. Analysis of this visual evidence (see Figures 3.4-1 and 3.4-2) along with computer-aided design analysis, refined the potential impact area to less than 20 square feet in RCC panels 6 through 9 (see Figure 3.4-3), including a portion of the corresponding carrier panels and adjacent tiles. The investigation image analysis team found no conclusive visual evidence of post-impact debris flowing over the top of the wing.
 
-> Co mp ute d tra jec tor y
+Co
+
+> mp ute d tra jec tor y
 
 - 7 — 9
 
@@ -1675,7 +1645,7 @@ Despite the uncertainties and potential errors in the data, the Board concurred 
 - The foam that struck the wing was 24 (plus or minus 3) inches by 15 (plus or minus 3) inches. The foam shape could only be described as flat. (A subsequent transport analysis estimated a thickness.)
 - Ice was not present on the external surface of the bipod ramp during the last Ice Team camera scan prior to launch (at approximately T–5 minutes).
 - There was no visual evidence of the presence of other materials inside the bipod ramp.
-- The foam impact generated a cloud of pulverized debris
+- The foam impact generated a cloud of pulverized debris with very little component of velocity away from the wing.
 
 > Large angle of incidence
 
@@ -1699,21 +1669,15 @@ Imaging Issues
 
 The image analysis was hampered by the lack of high resolution and high speed ground-based cameras. The existing camera locations are a legacy of earlier NASA programs, and are not optimum for the high-inclination Space Shuttle missions to the International Space Station and oftentimes
 
-## THE ORBITER "RAN INTO" THE FOAM
+#### THE ORBITER "RAN INTO" THE FOAM
 
 "How could a lightweight piece of foam travel so fast and hit the wing at 545 miles per hour?"
 
-Just prior to separating from the External Tank, the foam was traveling with the Shuttle stack at about 1,568 mph (2,300 feet per second). Visual evidence shows that the foam debris impacted the wing approximately 0.161 seconds after separating from the External Tank. In that time, the velocity of the foam debris slowed from 1,568 mph to about 1,022 mph (1,500 feet per second). Therefore, the Orbiter hit the foam with a relative velocity of about 545 mph (800 feet per second). In essence, the foam debris slowed down and the
-
-Orbiter did not, so the Orbiter ran into the foam. The foam slowed down rapidly because such low-density objects have low ballistic coefficients, which means their speed rapidly decreases when they lose their means of propulsion.
-
-with very little component of velocity away from the wing.
+Just prior to separating from the External Tank, the foam was traveling with the Shuttle stack at about 1,568 mph (2,300 feet per second). Visual evidence shows that the foam debris impacted the wing approximately 0.161 seconds after separating from the External Tank. In that time, the velocity of the foam debris slowed from 1,568 mph to about 1,022 mph (1,500 feet per second). Therefore, the Orbiter hit the foam with a relative velocity of about 545 mph (800 feet per second). In essence, the foam debris slowed down and the Orbiter did not, so the Orbiter ran into the foam. The foam slowed down rapidly because such low-density objects have low ballistic coefficients, which means their speed rapidly decreases when they lose their means of propulsion.
 
 %%page 61%%
 
-Minimum Maximum Best Estimated Minimum Maximum Best Estimated
-
-> Impact Speed Impact (mph) Speed (mph) (mph)
+> Minimum Maximum Best Estimated Impact Speed Impact Impact Speed (mph) Speed (mph) (mph)
 
 - During STS-107 375 654 — 477
 
@@ -1737,41 +1701,35 @@ The input data to the transport analysis consisted of the computed airflow aroun
 
 The transport analysis team screened several of the image analysis teamʼs location estimates, based on the feasible aerodynamic characteristics of the foam and the laws of physics. Optical distortions caused by the atmospheric density gradients associated with the shock waves off the Orbiterʼs nose, External Tank, and Solid Rocket Boosters may have compromised the image analysis teamʼs three position estimates closest to the bipod ramp. In addition, the image analysis teamʼs position estimates closest to the wing were compromised by the lack of two camera views and the shock
 
-t Speed Volume Volume Volume mph) (cubic inches) (cubic inches) (cubic inches) 477 400 1,920 1,200 528 1,026 1,239 1,200
+d Minimum Maximum Best Estimated
 
-> region ahead of the wing, making triangulation impossible and requiring extrapolation. However, the transport analysis confirmed that the image analysis teamʼs estimates for the central portion of the foam trajectory were well within the computed flow field and the estimated range of aerodynamic characteristics of the foam.
+> Volume Volume Volume (cubic inches) (cubic inches) (cubic inches) 400 1,920 1,200 1,026 1,239 1,200
 
-> The team identified a relatively narrow range of foam impact velocities and ballistic coefficients. The ballistic coefficient of an object expresses the relative influence of weight and atmospheric drag on it, and is the primary aerodynamic characteristic of an object that does not produce lift. An object with a large ballistic coefficient, such as a cannon ball, has a trajectory that can be computed fairly accurately without accounting for drag. In contrast, the foam that struck the wing had a relatively small ballistic coefficient with a large drag force relative to its weight, which explains why it slowed down quickly after separating from the External Tank. Just prior to separation, the speed of the foam was equal to the speed of the Shuttle, about 1,568 mph (2,300 feet per second). Because of a large drag force, the foam slowed to about 1,022 mph (1,500 feet per second) in about 0.2 seconds, and the Shuttle struck the foam at a relative
+region ahead of the wing, making triangulation impossible and requiring extrapolation. However, the transport analysis confirmed that the image analysis teamʼs estimates for the central portion of the foam trajectory were well within the computed flow field and the estimated range of aerodynamic characteristics of the foam.
 
-> Figure 3.4-6. These are the results of a trajectory analysis that used a computational fluid dynamics approach in a program called CART-3D, a comprehensive (six-degree-of-freedom) computer simulation based on the laws of physics. This analysis used the aerodynamic and mass properties of bipod ramp foam, coupled with the complex flow field during ascent, to determine the likely position and velocity histories of the foam.
+The team identified a relatively narrow range of foam impact velocities and ballistic coefficients. The ballistic coefficient of an object expresses the relative influence of weight and atmospheric drag on it, and is the primary aerodynamic characteristic of an object that does not produce lift. An object with a large ballistic coefficient, such as a cannon ball, has a trajectory that can be computed fairly accurately without accounting for drag. In contrast, the foam that struck the wing had a relatively small ballistic coefficient with a large drag force relative to its weight, which explains why it slowed down quickly after separating from the External Tank. Just prior to separation, the speed of the foam was equal to the speed of the Shuttle, about 1,568 mph (2,300 feet per second). Because of a large drag force, the foam slowed to about 1,022 mph (1,500 feet per second) in about 0.2 seconds, and the Shuttle struck the foam at a relative
+
+Figure 3.4-6. These are the results of a trajectory analysis that used a computational fluid dynamics approach in a program called CART-3D, a comprehensive (six-degree-of-freedom) computer simulation based on the laws of physics. This analysis used the aerodynamic and mass properties of bipod ramp foam, coupled with the complex flow field during ascent, to determine the likely position and velocity histories of the foam.
 
 %%page 62%%
 
 on-board engineering quality imaging from the
 
-F3.4-4
-
 Velocity (ft/sec)
-
-F3.4-5
-
-F3.4-6
 
 > 0.5 1 1.5 2 2.5 Ballistic Number (psf)
 
-R3.4-1 Figure 3.4-7. The results of numerous possible trajectories based on various assumed sizes, shapes, and densities of the foam. Either the foam had a slightly higher ballistic coefficient and the Orbiter struck the foam at a lower speed relative to the Orbiter, or the foam was more compact and the wing struck the foam at a higher speed. The "best fit" box represents the overlay of the data from the image analysis with the transport analysis computations. This data enabled a final selection of projectile characteristics for impact testing. R3.4-2 speed of about 545 mph (800 feet per second). (See Ap- R3.4-3 pendix D.8.)
+Figure 3.4-7. The results of numerous possible trajectories based on various assumed sizes, shapes, and densities of the foam. Either the foam had a slightly higher ballistic coefficient and the Orbiter struck the foam at a lower speed relative to the Orbiter, or the foam was more compact and the wing struck the foam at a higher speed. The "best fit" box represents the overlay of the data from the image analysis with the transport analysis computations. This data enabled a final selection of projectile characteristics for impact testing.
+
+speed of about 545 mph (800 feet per second). (See Appendix D.8.)
 
 The undetermined and yet certainly irregular shape of the foam introduced substantial uncertainty about its estimated aerodynamic characteristics. Appendix D.8 contains an independent analysis conducted by the Board to confirm that the estimated range of ballistic coefficients of the foam in Figure 3.4-6 was credible, given the foam dimension results from the image analyses and the expected range of the foam density. Based on the results in Figure 3.4-7, the physical dimensions of the bipod ramp, and the sizes and shapes of the available barrels for the compressed-gas gun used in the impact test program described later in this chapter, the Board and the NASA Accident Investigation Team decided that a foam projectile 19 inches by 11.5 inches by 5.5 inches, weighing 1.67 pounds, and with a weight density of 2.4 pounds per cubic foot, would best represent the piece of foam that separated from the External Tank bipod ramp and was hit by the Orbiterʼs left wing. See Section 3.8 for a full discussion of the foam impact testing.
 
 Findings:
 
-F3.4-1 Photographic evidence during ascent indicates
+F3.4-1 Photographic evidence during ascent indicates the projectile that struck the Orbiter was the left bipod ramp foam.
 
-> the projectile that struck the Orbiter was the left bipod ramp foam.
-
-F3.4-2 The same photographic evidence, confirmed by
-
-> independent analysis, indicates the projectile struck the underside of the leading edge of the left wing in the vicinity of RCC panels 6 through 9 or the tiles directly behind, with a velocity of approximately 775 feet per second.
+F3.4-2 The same photographic evidence, confirmed by independent analysis, indicates the projectile struck the underside of the leading edge of the left wing in the vicinity of RCC panels 6 through 9 or the tiles directly behind, with a velocity of approximately 775 feet per second. F3.4-3 There is a requirement to obtain and downlink
 
 Shuttle during launch and ascent.
 
@@ -1779,39 +1737,23 @@ F3.4-4 The current long-range camera assets on the Kennedy Space Center and East
 
 Shuttle ascents.
 
-F3.4-5 Evaluation of STS-107 debris impact was hampered by lack of high resolution, high speed cameras (temporal and spatial imagery data). F3.4-6 Despite the lack of high quality visual evidence,
+F3.4-5 Evaluation of STS-107 debris impact was hampered by lack of high resolution, high speed cameras (temporal and spatial imagery data).
 
-> the information available about the foam impact during the mission was adequate to determine its effect on both the thermal tiles and RCC.
+F3.4-6 Despite the lack of high quality visual evidence, the information available about the foam impact during the mission was adequate to determine its effect on both the thermal tiles and RCC.[^3] Recommendations:
 
-Recommendations:
+R3.4-1 Upgrade the imaging system to be capable of providing a minimum of three useful views of the Space Shuttle from liftoff to at least Solid Rocket Booster separation, along any expected ascent azimuth. The operational status of these assets should be included in the Launch Commit Criteria for future launches. Consider using ships or aircraft to provide additional views of the Shuttle during ascent.
 
-R3.4-1 Upgrade the imaging system to be capable of
+R3.4-2 Provide a capability to obtain and downlink high-resolution images of the External Tank after it separates.
 
-> providing a minimum of three useful views of the Space Shuttle from liftoff to at least Solid Rocket Booster separation, along any expected ascent azimuth. The operational status of these assets should be included in the Launch Commit Criteria for future launches. Consider using ships or aircraft to provide additional views of the Shuttle during ascent.
+R3.4-3 Provide a capability to obtain and downlink high-resolution images of the underside of the Orbiter wing leading edge and forward section of both wingsʼ Thermal Protection System.
 
-R3.4-2 Provide a capability to obtain and downlink high-
-
-> resolution images of the External Tank after it separates.
-
-R3.4-3 Provide a capability to obtain and downlink high-
-
-> resolution images of the underside of the Orbiter wing leading edge and forward section of both wingsʼ Thermal Protection System.
-
-## 3.5 ON-ORBIT DEBRIS SEPARATION – THE "FLIGHT DAY 2" OBJECT
+## 3.5 On-Orbit Debris Separation – The "Flight Day 2" Object
 
 Immediately after the accident, Air Force Space Command began an in-depth review of its Space Surveillance Network data to determine if there were any detectable anomalies during the STS-107 mission. A review of the data resulted in no information regarding damage to the Orbiter. However, Air Force processing of Space Surveillance Network data yielded 3,180 separate radar or optical observations of the Orbiter from radar sites at Eglin, Beale, and Kirtland Air Force Bases, Cape Cod Air Force Station, the Air Force Space Commandʼs Maui Space Surveillance System in Hawaii, and the Navy Space Surveillance System. These observations, examined after the accident, showed a small object in orbit with Columbia. In accordance with the International Designator system, the object was named 2003- 003B (Columbia was designated 2003-003A). The timeline of significant events includes:
 
 1. January 17, 2003, 9:42 a.m. Eastern Standard Time:
 
-> Orbiter moves from tail-first to right-wing-first orientation
-
-2. January 17, 10:17 a.m.: Orbiter returns to tail-first orientation
-
-3. January 17, 3:57 p.m.: First confirmed sensor track of object 2003-003B
-
-4. January 17, 4:46 p.m.: Last confirmed sensor track for
-
-F3.4-3 There is a requirement to obtain and downlink this date
+Orbiter moves from tail-first to right-wing-first orientation 2. January 17, 10:17 a.m.: Orbiter returns to tail-first orientation 3. January 17, 3:57 p.m.: First confirmed sensor track of object 2003-003B 4. January 17, 4:46 p.m.: Last confirmed sensor track for this date
 
 %%page 63%%
 
@@ -1827,7 +1769,7 @@ Surveillance Network
 
 Events around the estimated separation time of the object were reviewed in great detail. Extensive on-board sensor data indicates that no unusual crew activities, telemetry data, or accelerations in Orbiter or payload can account for the release of an object. No external mechanical systems were active, nor were any translational (forward, backward, or sideways, as opposed to rotational) maneuvers attempted in this period. However, two attitude maneuvers were made: a 48-degree yaw maneuver to a left-wing-forward and payload-bay-to-Earth attitude from 9:42 to 9:46 a.m. EST), and
 
-## ON-ORBIT COLLISION AVOIDANCE
+#### ON-ORBIT COLLISION AVOIDANCE
 
 The Space Control Center, operated by the 21st Space Wingʼs
 
@@ -1867,13 +1809,7 @@ Although various Space Surveillance Network radars tracked the object, the only 
 
 > ~10.5" ~4"
 
-RCC Panel Fragment 37736
-
-RCC Panel Fragment 2018
-
-(From STS-107 Right Wing (From STS-107 Right Wing panel #10) panel #10)
-
-Figure 3.5-1. These representative RCC acreage pieces matched the radar cross-section of the Flight Day 2 object.
+RCC Panel Fragment 37736 RCC Panel Fragment 2018 (From STS-107 Right Wing (From STS-107 Right Wing panel #10) panel #10) mi les Figure 3.5-1. These representative RCC acreage pieces matched the radar cross-section of the Flight Day 2 object.[^6] miles
 
 In the Advanced Compact Range at the Air Force Research Laboratory in Dayton, Ohio, analysts tested 31 materials from the Orbiterʼs exterior and payload bay. Additional supercomputer radar cross-section predictions were made for Reinforced Carbon-Carbon T-seals. After exhaustive radar cross-section analysis and testing, coupled with ballistic analysis of the objectʼs orbital decay, only a fragment of RCC panel would match the UHF radar cross-section and ballistic coefficients observed by the Space Surveillance network. Such an RCC panel fragment must be approximately 140 square inches or greater in area to meet the observed radar cross-section characteristics. Figure 3.5-1 shows RCC panel fragments from Columbiaʼs right wing that represent those meeting the observed characteristics of object 2003-003B.10
 
@@ -1881,21 +1817,17 @@ Note that the Southwest Research Institute foam impact test on panel 8 (see Sect
 
 %%page 64%%
 
-Findings: CAIB/NAIT Working Scenario (Appendix D.7) and the Re-
+Findings:
 
-F3.5-1 The object seen on orbit with Columbia on Flight
+F3.5-1 The object seen on orbit with Columbia on Flight Day 2 through 4 matches the radar cross-section and area-to-mass measurements of an RCC panel fragment.
 
-> Day 2 through 4 matches the radar cross-section and area-to-mass measurements of an RCC panel fragment.
-
-F3.5-2 Though the Board could not positively identify
-
-> the Flight Day 2 object, the U.S. Air Force ex- clusionary test and analysis processes reduced the potential Flight Day 2 candidates to an RCC panel fragment.
+F3.5-2 Though the Board could not positively identify the Flight Day 2 object, the U.S. Air Force ex- clusionary test and analysis processes reduced the potential Flight Day 2 candidates to an RCC panel fragment.
 
 Recommendations:
 
 - None
 
-## 3.6 DE-ORBIT/RE-ENTRY
+## 3.6 De-Orbit/Re-Entry
 
 As Columbia re-entered Earthʼs atmosphere, sensors in the Orbiter relayed streams of data both to entry controllers on the ground at Johnson Space Center and to the Modular Auxiliary Data System recorder, which survived the breakup of the Orbiter and was recovered by ground search teams. This data – temperatures, pressures, and stresses – came from sensors located throughout the Orbiter. Entry controllers were unaware of any problems with re-entry until telemetry data indicated errant readings. During the investigation data from these two sources was used to make aerodynamic, aerothermal, and mechanical reconstructions of re-entry that showed how these stresses affected the Orbiter.
 
@@ -1933,7 +1865,7 @@ The re-entry analysis and testing focused on eight areas:
 
 For a complete compilation of all re-entry data, see the
 
-entry Timeline (Appendix D.9). The extensive aerothermal calculations and wind tunnel tests performed to investigate the observed re-entry phenomenon are documented in NASA report NSTS-37398.
+CAIB/NAIT Working Scenario (Appendix D.7) and the Reentry Timeline (Appendix D.9). The extensive aerothermal calculations and wind tunnel tests performed to investigate the observed re-entry phenomenon are documented in NASA report NSTS-37398.
 
 Re-Entry Environment
 
@@ -1947,7 +1879,7 @@ The Operational Flight Instrumentation monitors physical sensors and logic signa
 
 The Modular Auxiliary Data System is a supplemental instrumentation system that gathers Orbiter data for processing after the mission is completed. Inputs are almost exclusively physical sensor readings of temperatures, pressures, mechanical strains, accelerations, and vibrations. The Modular Auxiliary Data System usually records only the missionʼs first and last two hours (see Figure 3.6-1).
 
-The Orbiter Experiment instrumentation is an expanded suite of sensors for the Modular Auxiliary Data System that purposes. Because Columbia was the first Orbiter launched, was installed on Columbia for engineering development
+The Orbiter Experiment instrumentation is an expanded suite of sensors for the Modular Auxiliary Data System that was installed on Columbia for engineering development purposes. Because Columbia was the first Orbiter launched,
 
 %%page 65%%
 
@@ -2011,9 +1943,11 @@ Figure 3.6-3. The strain gauge (Sensor 1) on the back of the left wing leading e
 
 V07T9910A – Left Wing Leading Edge Spar Temperature
 
-600 48:59
+600 48:59 EI+487
 
-> STS - 073 STS - 090
+STS - 107
+
+> STS - 073 STS - 090 STS - 109
 
 Temperature (0F)
 
@@ -2021,7 +1955,7 @@ Temperature (0F)
 
 > -200 First off nominal indication -300
 
-- 0 100 200 300 400 500 — 600
+- 0 100 200 300 400 500 600 700 800 — 900
 
 > 44:09 Time (seconds from EI) 59:09
 
@@ -2033,39 +1967,25 @@ At EI+290, 20 seconds after Sensor 1 gave its first anomalous reading, Sensor 2,
 
 > 70 Clevis Temperatures 10" Hole with Sneak Flow
 
-## TEMPERATURE (F)
+#### TEMPERATURE (F)
 
-- 0 50 100 150 200 250 300 — 350
+- 0 50 100 150 200 250 300 350 400 — 450
 
 Time (seconds from EI)
 
 Figure 3.6-5. The analysis of the effect of a 10-inch hole in RCC panel 8 on Sensor 2 from EI to EI+500 seconds. The jagged line shows the actual flight data readings and the smooth line the calculated result for a 10-inch hole with some sneak flow of superheated air behind the spar insulation.
 
-> left wing leading edge spar, recorded the beginning of a gradual and abnormal rise in temperature from an expected
+left wing leading edge spar, recorded the beginning of a gradual and abnormal rise in temperature from an expected
 
-30 degrees Fahrenheit to 65 degrees at EI+493, when it then 107
+30 degrees Fahrenheit to 65 degrees at EI+493, when it then dropped to "off-scale low," a reading that drops off the scale at the low end of the sensorʼs range (see Figure 3.6-4). Sensor 2, one of the first to fail, did so abruptly. It had indicated only a mild warming of the RCC attachment clevis before the signal was lost.
 
-073 dropped to "off-scale low," a reading that drops off the scale 090 at the low end of the sensorʼs range (see Figure 3.6-4). Sen- 109 sor 2, one of the first to fail, did so abruptly. It had indicated
+A series of thermal analyses were performed for different sized holes in RCC panel 8 to compute the time required to heat Sensor 2 to the temperature recorded by the Modular
 
-> only a mild warming of the RCC attachment clevis before the signal was lost.
+Auxiliary Data System. To heat the clevis, various insula1000 tors would have to be bypassed with a small amount of leakage, or "sneak flow." Figure 3.6-5 shows the results of these calculations for, as an example, a 10-inch hole, and demonstrates that with sneak flow around the insulation, the temperature profile of the clevis sensor was closely matched by the engineering calculations. This is consistent with the same sneak flow required to match a similar but abnormal ascent temperature rise of the same sensor, which further supports the premise that the breach in the leading edge of the wing occurred during ascent. While the exact size of the breach will never be known, and may have been smaller or larger than 10 inches, these analyses do provide a plausible explanation for the observed rises in temperature sensor data during re-entry.
 
-A series of thermal analyses were performed for different
+Investigators initially theorized that the foam might have broken a T-seal and allowed superheated air to enter the wing between the RCC panels. However, the amount of T-seal debris from this area and subsequent aerothermal analysis showing this type of breach did not match the observed damage to the wing, led investigators to eliminate a missing T-seal as the source of the breach.
 
-> sized holes in RCC panel 8 to compute the time required to heat Sensor 2 to the temperature recorded by the Modular
-
-Auxiliary Data System. To heat the clevis, various insula-
-
-- 900 — 1000
-
-tors would have to be bypassed with a small amount of
-
-59:09 leakage, or "sneak flow." Figure 3.6-5 shows the results of
-
-> these calculations for, as an example, a 10-inch hole, and demonstrates that with sneak flow around the insulation, the temperature profile of the clevis sensor was closely matched by the engineering calculations. This is consistent with the same sneak flow required to match a similar but abnormal ascent temperature rise of the same sensor, which further supports the premise that the breach in the leading edge of the wing occurred during ascent. While the exact size of the breach will never be known, and may have been smaller or larger than 10 inches, these analyses do provide a plausible explanation for the observed rises in temperature sensor data during re-entry.
-
-> Investigators initially theorized that the foam might have broken a T-seal and allowed superheated air to enter the wing between the RCC panels. However, the amount of T-seal debris from this area and subsequent aerothermal analysis showing this type of breach did not match the observed damage to the wing, led investigators to eliminate a missing T-seal as the source of the breach.
-
-> Although abnormal, the re-entry temperature rise was slow and small compared to what would be expected if Sensor 2 were exposed to a blast of superheated air from an assumed breach in the RCC panels. The slow temperature rise is at-
+Although abnormal, the re-entry temperature rise was slow and small compared to what would be expected if Sensor 2 were exposed to a blast of superheated air from an assumed breach in the RCC panels. The slow temperature rise is at-
 
 V07T9666A – Left Wing Lower Surface Temperature
 
@@ -2079,13 +1999,13 @@ Degrees F
 
 > EI+496 STS - 109
 
-450 500 0 OSL
+500 0 OSL
 
 - 0 100 200 300 400 500 600 700 800 900 — 1000
 
 Time (seconds from EI)
 
-> Figure 3.6-6. As early as EI+370, Sensor 3 began reading significantly higher than on previous flights. Since this sensor was located in a thermal tile on the lower surface of the left wing, its temperatures are much higher than those for the other sensors.
+Figure 3.6-6. As early as EI+370, Sensor 3 began reading significantly higher than on previous flights. Since this sensor was located in a thermal tile on the lower surface of the left wing, its temperatures are much higher than those for the other sensors.
 
 %%page 67%%
 
@@ -2173,7 +2093,7 @@ V07T9913
 
 Degrees F
 
-- 0 100 200 300 400 500 — 600
+- 0 100 200 — 300
 
 44:09 Time (seconds from EI)
 
@@ -2185,13 +2105,19 @@ Other abnormalities also occurred during re-entry. Early in re-entry, the heatin
 
 To match this scenario, investigators had to postulate damage to the tiles on the upper carrier panel 9, in order to allow sufficient mass flow through the vent to cause the observed decrease in sidewall heating. No upper carrier panels were found from panels 9, 10, and 11, which supports this hypothesis. Although this can account for the abnormal temperatures on the body of the Orbiter and at the Orbital Maneuvering System pod, flight data and wind tunnel tests confirmed that this venting was not strong enough to alter the aerodynamic force on the Orbiter, and the aerodynamic analysis of mission data showed no change in Orbiter flight control parameters during this time.
 
-During re-entry, a change was noted in the rate of the temperature rise around the RCC chin panel clevis temperature sensor and two water supply nozzles on the left side of the fuselage, just aft of the main bulkhead that divides the crew cabin from the payload bay. Because these sensors were well forward of the damage in the left wing leading edge, it is still unclear how their indications fit into the failure scenario.
+During re-entry, a change was noted in the rate of the temperature rise around the RCC chin panel clevis temperature sensor and two water supply nozzles on the left side of the STS - 107 STS - 073 fuselage, just aft of the main bulkhead that divides the crew cabin from the payload bay. Because these sensors were well forward of the damage in the left wing leading edge, it is still
+
+STS - 109 unclear how their indications fit into the failure scenario.
 
 Sensor Loss and the Onset of Unusual Aerodynamic
 
 Effects (EI+500 through EI+611)
 
-Fourteen seconds after the loss of the first sensor wire on the wing leading edge spar at EI+487, a sensor wire in a bundle of some 150 wires that ran along the upper outside corner of the left wheel well showed a burn-through. In the next 50 seconds, more than 70 percent of the sensor wires in three cables in this area also burned through (see Figure 3.6-10). Investigators plotted the wiring run for every left-wing sensor, looking for a relationship between their location and time of failure.
+Reduced, off-nominal heating Fourteen seconds after the loss of the first sensor wire on the First off nominal indication wing leading edge spar at EI+487, a sensor wire in a bundle
+
+- 400 500 600 700 800 900 — 1000
+
+59:09 of some 150 wires that ran along the upper outside corner of the left wheel well showed a burn-through. In the next 50 seconds, more than 70 percent of the sensor wires in three cables in this area also burned through (see Figure 3.6-10). Investigators plotted the wiring run for every left-wing sensor, looking for a relationship between their location and time of failure.
 
 Only two sensor wires of 169 remained intact when the Modular Auxiliary Data System recorder stopped, indicat-Percent Loss of Sensor Signals Versus Time In Left Wing and Wing Leading Edge Wire Bundles
 
@@ -2200,8 +2126,6 @@ Only two sensor wires of 169 remained intact when the Modular Auxiliary Data Sys
 V09T9895A
 
 > Leading Edge (18 of 18)
-
-Bundle 1
 
 Wheel Well
 
@@ -2215,9 +2139,7 @@ Quantity of Sensor Signals Lost - %
 
 1st OI Starts Failure
 
-40 L Elevon Accel Fail
-
-- 450 500 — 550
+- 450 — 500
 
 > Sensors with Cables Along Loading Edge Start Loss 14 sec Earlier Than the 3 Bundles
 
@@ -2229,23 +2151,27 @@ Later computational fluid dynamics analysis of the mid-wing area behind the spar
 
 Aerodynamic roll and yaw forces began to differ from those on previous flights at about EI+500 (see Figure 3.6-12). Investigators used flight data to reconstruct the aerodynamic forces acting on the Orbiter. This reconstructed data was then compared to forces seen on other similar flights of Columbia
 
-> Bundle 3 (115 of 117) V07P8049A Bundle 4 (25 of 25)
+> Bundle 3 (115 of 117) V07P8049A
 
-V07P9197A
+Bundle 1 Bundle 4
 
-Starts Failure
+(25 of 25) (9 of 9)
 
-1st Orbiter Debris Event
+V07P9197A lure 5th OI Starts Failure
+
+L Elevon Accel Fail 1st Orbiter Debris Event
 
 Reversal of Roll Moment and start of Slow Aileron Trim Change
 
 Start LMG Struct Actuator Temp Rise
 
-6th OI Starts Failure 7th OI Starts Failure tion for 3 Bundles
+6th OI Starts Failure 7th OI Starts Failure
 
-- 600 650 700 750 — 800
+Flat Portion for 3 Bundles
 
-ime (seconds from EI) mph
+- 550 600 650 700 750 — 800
+
+Time (seconds from EI) mph
 
 Flow
 
@@ -2257,55 +2183,49 @@ Flow
 
 STS 107 Delta Rolling/Yawing Moment Coefficients
 
-0.0025
-
-Delta Cll (Roll Moment)
-
-Delta Cln (Yaw Moment)
-
-0.0020 Delta Cll Aero Model
-
-Delta Cln Aero Model
-
-Initial Roll
+> Off-Nominal Roll & Yaw 0.0025 LMG Brake Line Temps Start Off Nominal Trend Delta Cll (Roll Moment) - 13:52:41 Delta Cln (Yaw Moment)[^2] Temp Sensors Begin Off Nominal Response 0.0020 Delta Cll Aero Model - V09T9895A - Wing Front Spar Panel 9 Delta Cln Aero Model - V09T9849A - OB Elevon, Lower Surface - 13:52:49.5/51.4 Initial Roll
 
 Delta Roll/Yaw Moment Coefficient
 
 Wing Frnt Spar Panel 9 Temp
 
-0.0015 - 13:49:32 Wing LE 55 LWR Att. Clevis
+> 0.0015 - 13:49:32 Wing LE 55 LWR Att. Clevis Left INBD Elevon Lower Skin Temp - Start of Off Nominal Trend
 
-> RCC 10 - Start Off Nominal Trend - 13:52:56 Hydraulic System Left OUTBD / INBD Actuator Temp Increase - 13:51:14
+> RCC 10 - Start Off Nominal Trend - 13:52:56 - 13:51:14
 
-0.0010
+> 4 Left OMS Pod Surf Temp 0.0010 - Change in Existing
 
-0.0005
+Off Nominal Trend
+
+- 13:52:39/ 53:09
+
+> 0.0005 Alpha Mod
+
+Active
+
+> - 13:53:31
 
 0.000
 
--0.0005
+> -0.0005 Left Wing Lower Surface TC - Start Off Nominal Temp Increase - 13:50:19 Debris #1
 
-- 13:50:19
+- 13:53:44/48
 
-> -0.0010 Left OMS Pod TC BP 0731T - Start Off Nominal Trend
+> -0.0010 Left OMS Pod TC BP 0731T - Start Off Nominal Trend Debris #2
 
-- Reduced Rise Rate
+- Reduced Rise Rate - 13:53:46/50
 
-- 13:49:49
+> - 13:49:49 Debris #3 - 13:53:54/58 -0.0015 Left OMS Pod LRSI Surface Temp Debris #4 Left OMS Pod TC BP0732T Left OMS Pod TC BP0749T - 13:54:00/04
 
--0.0015 Left OMS Pod LRSI Surface Temp
+> - Start Off Nominal Trend LMG Brake Line Temp (D) Debris #5 - Reduced Rise Rate - Start Off Nominal Trend - 13:54:07/11 Debris #6 -0.0020 - 13:49:59 - 13:52:17
 
-> Left OMS Pod TC BP0732T Left OMS Pod TC BP0749T
+> Left Wing Spar Cap Left PLBD Surface TC BP3703T - Off Nominal Strain Increase LMG Brake Line Temp B
 
-> - Start Off Nominal Trend - Reduced Rise Rate -0.0020 - 13:49:59
-
-Left PLBD Surface TC BP3703T
-
-- Start Off Nominal Trend
+- Start Off Nominal Trend - 13:52:18 - Off Nominal Trend
 
 > - Reduced Rise Rate -0.0025 - 13:50:09
 
-49:00.0 50:00.0 51:00.0
+49:00.0 50:00.0 51:00.0 52:00.0 53:00.0 54:00.0
 
 Figure 3.6-12. At approximately EI+500 seconds, the aerodynamic roll and yaw forces began to diverge from those observed on previous flights. The blue line shows the Orbiterʼs tendency to yaw while the red line shows its tendency to roll. Nominal values would parallel the solid black line. Above the black line, the direction of the force is to the right, while below the black line, the force is to the left.
 
@@ -2313,47 +2233,67 @@ and to the forces predicted for STS-107. In the early phase of fight, these abno
 
 Between EI+530 and EI+562, four sensors on the left inboard elevon failed. These sensor readings were part of the data telemetered to the ground. Noting the system failures, the Maintenance, Mechanical, and Crew Systems officer notified the Flight Director of the failures. (See sidebar in Chapter 2 for a complete version of the Mission Control Center conversation about this data.)
 
-At EI+555, Columbia crossed the California coast. People on the ground now saw the damage developing on the Orbiter in the form of debris being shed, and documented this with video cameras. In the next 15 seconds, temperatures on the fuselage sidewall and the left Orbital Maneuvering System pod began to rise. Hypersonic wind tunnel tests indi-
+At EI+555, Columbia crossed the California coast. People on the ground now saw the damage developing on the Orbiter in the form of debris being shed, and documented this with video cameras. In the next 15 seconds, temperatures on the fuselage sidewall and the left Orbital Maneuvering System pod began to rise. Hypersonic wind tunnel tests indicated that the increased heating on the Orbital Maneuvering System pod and the roll and yaw changes were caused by
 
-Off-Nominal Roll & Yaw
+> Temperature Rise Rate Change - Hyd Sys 1 LMG UpLK UnIK Ln Temp
 
-> LMG Brake Line Temps Start Off Nominal Trend Temperature Rise Rate Change - Hyd Sys 1 LMG UpLK UnIK Ln Temp - 13:52:41 - Sys 3 LMG Brake Ret Line Temp 2 Temp Sensors Begin Off Nominal Response - LMG Brake Line Temp B, C Left Lower Wing Skin Temp - 13:56:16/22 - V09T9895A - Wing Front Spar Panel 9 - OSL - 13:57:28 - V09T9849A - OB Elevon, Lower Surface Left Upper Wing Skin Temp - 13:52:49.5/51.4 Left Upper Wing Skin Temp - OSL - 13:57:43 - Begin Off Niminal Trend
+> - Sys 3 LMG Brake Ret Line Temp - LMG Brake Line Temp B, C Left Lower Wing Skin Temp - 13:56:16/22 - OSL - 13:57:28 Left Upper Wing Skin Temp Left Upper Wing Skin Temp - OSL - 13:57:43 - Begin Off Niminal Trend
 
-- 13:56:24 vis Left INBD Elevon Lower Skin Temp
+- 13:56:24
 
-> - Start of Off Nominal Trend Left Main Gear Strut Start Sharp Aileron Trim
+> Left Main Gear Strut Start Sharp Aileron Trim
 
-> Elevon Return Line Temps - OSL - Temp Rise Rate Chg - 13:58:03 - 13:53:10 / 36 - 13:56:53 Sys 2 LH Brake 4 Left OMS Pod Surf Temp - Change in Existing Viv Return Temp Start Slow Alllegron Debris #11 MLG LH OB Tire - Start of sharp Off Nominal Trend Trim Change Dwnrd. Temp - 13:55:36/42 Pressure #1, #2 - 13:52:39/ 53:09 - 13:54:20 - 13:59:22 - Start Off Nom Debris #15 - 13:57:19/24 Alpha Mod Debris #9, #10 - 13:56:09/13 MLG LH OutBD & Active - 13:55:25/30 INBD Tire Pressure #1 - 13:53:31 - Pressure Trend to OSL - 13:58:32 Fuse Side Surf Temp Fuse Low Surf BF Temp Fuse Side Surf TC & - Start Off Nom Trend Left PLBD Surface TC - 13:57:09 - Temp Increase to OSH - 13:59:29
+Hydraulic System Left OUTBD / INBD Actuator Temp Increase Elevon Return Line Temps - OSL - Temp Rise Rate Chg - 13:58:03 - 13:53:10 / 36 - 13:56:53 Sys 2 LH Brake
 
-wer Surface TC ff Nominal BFS Fault Message (4) ncrease Tire Pressures 9 Debris #1
+Viv Return Temp Start Slow Alllegron Debris #11 MLG LH OB Tire - Start of sharp Trim Change Dwnrd. Temp
 
-> Debris #7 - 13:58:40/56 - 13:53:44/48 - 13:55:04/10
+- 13:55:36/42 Pressure #1, #2 - 13:54:20 - 13:59:22
 
-> Debris #2 1st Roll Reversal Initiation - 13:56:30 Mid Fuselage Bondline Temp Left Main Gear - 13:53:46/50 Complete - 13:46:55 & LH Aft Fus Sidewall Temp Downlock Indication Debris #3 - Off Nominal - Transferred ON - 13:53:54/58 - 13:54:22 - 13:59:06
+> - Start Off Nom Debris #15 - 13:57:19/24
 
-Debris #4
+Debris #9, #10 - 13:56:09/13 MLG LH OutBD &
 
-> - 13:54:00/04 Debris #13, #14 Flash #1
+- 13:55:25/30 INBD Tire Pressure #1
 
-LMG Brake Line Temp (D) Debris #5 - 13:54:33.3 - 13:55:55/59 Flash #1, #2
+> - Pressure Trend to OSL - 13:58:32 Fuse Side Surf Temp Fuse Low Surf BF Temp Fuse Side Surf TC & - Start Off Nom Trend Left PLBD Surface TC - 13:57:09 - Temp Increase to OSH - 13:59:29
 
-> - Start Off Nominal Trend - 13:54:07/11 Debris #6 - 13:57:53.7 - 13:52:17 - 13:54:35/37 Debris #12 - 13:57:59.5
+> BFS Fault Message (4) Tire Pressures
 
-Left Wing Spar Cap - 13:55:45/ Flash #2
+Debris #7 - 13:58:40/56
 
-> - Off Nominal Strain Increase LMG Brake Line Temp B Debris #8 - 13:57:59.5 Debris #7 - 13:52:18 - Off Nominal Trend - 13:55:21/27 58:01.5 - 13:57:19/29 - 13:54:10
+- 13:55:04/10
 
-0 52:00.0 53:00.0 54:00.0 55:00.0 56:00.0 57:00.0 58:00.0 59:00.0 00:00.0
+> 1st Roll Reversal Initiation - 13:56:30
 
-Time (min:sec)
+Mid Fuselage Bondline Temp Left Main Gear
 
-> substantial leading edge damage around RCC panel 9. Data on Orbiter temperature distribution as well as aerodynamic forces for various damage scenarios were obtained from wind tunnel testing.
+Complete - 13:46:55 & LH Aft Fus Sidewall Temp Downlock Indication
 
-> Figure 3.6-13 shows the comparison of surface temperature distribution with an undamaged Orbiter and one with an entire panel 9 removed. With panel 9 removed, a strong vortex flow structure is positioned to increase the temperature on the leading edge of the Orbital Maneuvering System pod. The aim is not to demonstrate that all of panel 9 was missing at this point, but rather to indicate that major damage to panels near panel 9 can shift the strong vortex flow pattern and change the Orbiterʼs temperature distribution to match the Modular Auxiliary Data System information. Wind tunnel tests also demonstrated that increasing damage to leading edge RCC panels would result in increasing drag and decreasing lift on the left wing.
+- Off Nominal - Transferred ON
 
-> Recovered debris showed that Inconel 718, which is only found in wing leading edge spanner beams and attachment
+- 13:54:22 - 13:59:06
 
-cated that the increased heating on the Orbital Maneuvering fittings, was deposited on the left Orbital Maneuvering Sys- System pod and the roll and yaw changes were caused by tem pod, verifying that airflow through the breach and out of the upper slot carried molten wing leading edge material back to the pod. Temperatures far exceeded those seen on previous re-entries and further confirmed that the wing leading-edge damage was increasing.
+Debris #13, #14 Flash #1
+
+- 13:54:33.3 - 13:55:55/59 Flash #1, #2 is #6 - 13:57:53.7
+
+- 13:54:35/37
+
+> Debris #12 - 13:57:59.5 - 13:55:45/ Flash #2
+
+p B Debris #8 - 13:57:59.5
+
+Debris #7 Trend - 13:55:21/27 58:01.5
+
+- 13:57:19/29 - 13:54:10
+
+55:00.0 56:00.0 57:00.0 58:00.0 59:00.0 00:00.0
+
+Time (min:sec) substantial leading edge damage around RCC panel 9. Data on Orbiter temperature distribution as well as aerodynamic forces for various damage scenarios were obtained from wind tunnel testing.
+
+Figure 3.6-13 shows the comparison of surface temperature distribution with an undamaged Orbiter and one with an entire panel 9 removed. With panel 9 removed, a strong vortex flow structure is positioned to increase the temperature on the leading edge of the Orbital Maneuvering System pod. The aim is not to demonstrate that all of panel 9 was missing at this point, but rather to indicate that major damage to panels near panel 9 can shift the strong vortex flow pattern and change the Orbiterʼs temperature distribution to match the Modular Auxiliary Data System information. Wind tunnel tests also demonstrated that increasing damage to leading edge RCC panels would result in increasing drag and decreasing lift on the left wing.
+
+Recovered debris showed that Inconel 718, which is only found in wing leading edge spanner beams and attachment fittings, was deposited on the left Orbital Maneuvering System pod, verifying that airflow through the breach and out of the upper slot carried molten wing leading edge material back to the pod. Temperatures far exceeded those seen on previous re-entries and further confirmed that the wing leading-edge damage was increasing.
 
 %%page 71%%
 
@@ -2381,7 +2321,7 @@ Effect of Missing RCC Panel on Orbiter RELATIVE HEATING RATE Mid-Fuselage Therma
 
 Figure 3.6-13. The effects of removing RCC panel 9 are shown in this figure. Note the brighter colors on the front of the OMS pod show increased heating, a phenomenon supported by both the OMS pod temperature sensors and the debris analysis.
 
-## THE KIRTLAND IMAGE
+#### THE KIRTLAND IMAGE
 
 As Columbia passed over Albuquerque, New Mexico, during re-entry (around EI+795), scientists at the Air Force Starfire
 
@@ -2393,9 +2333,7 @@ were high enough to substantially damage the wing skins, wing leading edge spar,
 
 Loss of Vehicle Control (EI+612 through EI+970)
 
-A rise in hydraulic line temperatures inside the left wheel well indicated that superheated air had penetrated the wheel well wall by EI+727. This temperature rise, telemetered to
-
-Mission Control, was noted by the Maintenance, Mechanical, and Crew Systems officer. The Orbiter initiated and completed its roll reversal by EI+766 and was positioned left-wing-down for this portion of re-entry. The Guidance and Flight Control Systems performed normally, although the aero-control surfaces (aileron trim) continued to counter- act the additional drag and lift from the left wing.
+A rise in hydraulic line temperatures inside the left wheel well indicated that superheated air had penetrated the wheel well wall by EI+727. This temperature rise, telemetered to Run 18 Mission Control, was noted by the Maintenance, Mechanical, and Crew Systems officer. The Orbiter initiated and completed its roll reversal by EI+766 and was positioned left-wing-down for this portion of re-entry. The Guidance and Flight Control Systems performed normally, although the aero-control surfaces (aileron trim) continued to counter- act the additional drag and lift from the left wing.
 
 At EI+790, two left main gear outboard tire pressure sensors began trending slightly upward, followed very shortly by going off-scale low, which indicated extreme heating of both the left inboard and outboard tires. The tires, with their large mass, would require substantial heating to produce the sensorsʼ slight temperature rise. Another sharp change in the rolling tendency of the Orbiter occurred at EI+834, along
 
@@ -2413,25 +2351,23 @@ Post-accident analysis of flight data that was generated after telemetry informa
 
 Findings:
 
-F3.6−1 The de-orbit burn and re-entry flight path were normal until just before Loss of Signal. F3.6−2 Columbia re-entered the atmosphere with a preexisting breach in the left wing. F3.6−3 Data from the Modular Auxiliary Data System
+F3.6−1 The de-orbit burn and re-entry flight path were normal until just before Loss of Signal.
 
-> recorder indicates the location of the breach was in the RCC panels on the left wing leading edge.
+F3.6−2 Columbia re-entered the atmosphere with a pre-existing breach in the left wing.
 
-F3.6−4 Abnormal heating events preceded abnormal aerodynamic events by several minutes. F3.6−5 By the time data indicating problems was teleme-
+F3.6−3 Data from the Modular Auxiliary Data System recorder indicates the location of the breach was in the RCC panels on the left wing leading edge.
 
-> tered to Mission Control Center, the Orbiter had already suffered damage from which it could not recover.
+F3.6−4 Abnormal heating events preceded abnormal aerodynamic events by several minutes.
+
+F3.6−5 By the time data indicating problems was telemetered to Mission Control Center, the Orbiter had already suffered damage from which it could not recover.
 
 Recommendations:
 
-R3.6-1 The Modular Auxiliary Data System instrumen-
+R3.6-1 The Modular Auxiliary Data System instrumentation and sensor suite on each Orbiter should be maintained and updated to include current sensor and data acquisition technologies.
 
-> tation and sensor suite on each Orbiter should be maintained and updated to include current sensor and data acquisition technologies.
+R3.6-2 The Modular Auxiliary Data System should be redesigned to include engineering performance and vehicle health information, and have the ability to be reconfigured during flight in order to allow certain data to be recorded, telemetered, or both, as needs change.
 
-R3.6-2 The Modular Auxiliary Data System should be
-
-> redesigned to include engineering performance and vehicle health information, and have the ability to be reconfigured during flight in order to allow certain data to be recorded, telemetered, or both, as needs change.
-
-## 3.7 DEBRIS ANALYSIS
+## 3.7 Debris Analysis
 
 The Board performed a detailed and exhaustive investigation of the debris that was recovered. While sensor data from the Orbiter pointed to early problems on the left wing, it could only isolate the breach to the general area of the left wing RCC panels. Forensics analysis independently determined that RCC panel 8 was the most likely site of the breach, and this was subsequently corroborated by other analyses. (See Appendix D.11.)
 
@@ -2459,7 +2395,7 @@ OML Surface
 
 IML Surface
 
-Figure 3.7-4. The outboard rib of panel 8 and the inboard rib of panel 9 showed signs of extreme heating and erosion. RCC erosion of this magnitude was not observed in any other location on
+Figure 3.7-4. The outboard rib of panel 8 and the inboard rib of panel 9 showed signs of extreme heating and erosion. RCC erosion of this magnitude was not observed in any other location on the Orbiter.
 
 from the Orbiter.
 
@@ -2473,7 +2409,7 @@ The location of debris on the ground also provided evidence of where the initial
 
 > Panel 7 Panel 8 Panel 9 Panel 10 Panel 11
 
-Figure 3.7-6. The tiles recovered farthest west all came from the area immediately behind left wing RCC panels 8 and 9. In the figure, each small box represents an individual tile on the lower surface of the left wing. The more red an individual tile appears, the Orbiter. the farther west it was found.
+Figure 3.7-6. The tiles recovered farthest west all came from the area immediately behind left wing RCC panels 8 and 9. In the figure, each small box represents an individual tile on the lower surface of the left wing. The more red an individual tile appears, the farther west it was found.
 
 %%page 75%%
 
@@ -2545,21 +2481,25 @@ Separation of the crew module/forward fuselage assembly from the rest of the Orb
 
 > 4 Sec of Data o -64 roll angle o 39 alpha o 1 beta :59:33-37
 
-> Ballistic Flight :00:01 EI + 953 MADS
+> Ballistic Flight :00:01 EI + 953
 
 Roll Alarm
 
-> :59:46 EI + 938 EI + 970
+> :59:46 EI + 938
 
 Altitude (kft), Heat Rate 1 Ft radius
 
 LOS 1
 
-> 150 :59:32 Unknown EI + 923
+> 150 :59:32 Unknown
+
+EI + 923
 
 (btu/ft ^2 sec)
 
 > 2 Final Sec of GPC Data 100 Cabin Pressure 14.64 Cabin Temperature 71.6 Cabin dp/dt 0.004 :00:03-05
+
+:59:31 :59:46 :00:01
 
 > and dynamic loading. Evaluations of fractures on both primary and secondary structure elements suggest that structural failures occurred at high temperatures and in some cases at high strain rates. An extensive trajectory reconstruction established the most likely breakup sequence, shown below.
 
@@ -2581,17 +2521,21 @@ Nominal Altitude
 
 Main Body
 
-- eakup (video) — 700
+- Breakup (video) — 700
 
-- sumed forward — 9
+- -assumed forward — 9
 
-lage separation
+fuselage separation
 
-- :00:20.6 — 650
+- MADS :00:20.6 — 650
 
-600 in Breach :00:50
+Recorder loses
 
-- SAT predicted) — 7
+8 power :00:18-19
+
+600 EI + 970 Cabin Breach :00:50
+
+- (ORSAT predicted) — 7
 
 - 148,800 ft 7.7 g's — 550
 
@@ -2605,7 +2549,9 @@ Equivalent Velocity (mph)
 
 :01:11.9
 
-400 t
+Attitude
+
+400 138,690 ft
 
 - 350 — 3
 
@@ -2617,13 +2563,15 @@ Cabin Items
 
 > (predicted) :00:57 –:01:21
 
+Ft. Worth Dallas
+
 - 200 — 0
 
-:59:31 :59:46 :00:01 :00:16 :00:31 :00:46 :01:01 :01:16 :01:31 :01:46 gesting that the breach in the RCC was through panel 8-left.
+:00:16 :00:31 :00:46 :01:01 :01:16 :01:31 :01:46 gesting that the breach in the RCC was through panel 8-left.
 
 %%page 78%%
 
-## BOARD TESTING
+#### BOARD TESTING
 
 NASA and the Board agreed that tests would be required and a test plan developed to validate an impact/breach scenario.
 
@@ -2649,19 +2597,15 @@ The preponderance of unique debris evidence in and near RCC panel 8-left strongl
 
 Findings:
 
-F3.7−1 Multiple indications from the debris analysis es-
+F3.7−1 Multiple indications from the debris analysis establish the point of heat intrusion as RCC panel 8-left.
 
-> tablish the point of heat intrusion as RCC panel 8-left.
-
-F3.7−2 The recovery of debris from the ground and its
-
-> reconstruction was critical to understanding the accident scenario.
+F3.7−2 The recovery of debris from the ground and its reconstruction was critical to understanding the accident scenario.
 
 Recommendations:
 
 - None
 
-## 3.8 IMPACT ANALYSIS AND TESTING
+## 3.8 Impact Analysis and Testing
 
 The importance of understanding this potential impact damage and the need to prove or disprove the impression that foam could not break an RCC panel prompted the investigation to develop computer models for foam impacts and undertake an impact-testing program of shooting pieces of foam at a mockup of the wing leading edge to re-create, to the extent practical, the actual STS-107 debris impact event.
 
@@ -2690,7 +2634,7 @@ T-Seal
 
 High speed cameras
 
-Compressed
+> Compressed gas tank
 
 the transport analysis of the panel being tested. The foamʼs rotational velocity was accounted for with a three-degree increase in the impact angle.
 
@@ -2706,11 +2650,11 @@ Flight Environment
 
 A comprehensive consideration of the Shuttleʼs flight environment, including temperature, pressure, and vibration, was required to establish the experimental protocol.
 
-Lights
+Lights 30 foot gun barrel
 
 > Wing Leading Edge Sub-Sytem
 
-gas tank Figure 3.8-1. Nitrogen-powered gun at the Southwest Research Institute used for the test series.
+Figure 3.8-1. Nitrogen-powered gun at the Southwest Research Institute used for the test series.
 
 %%page 80%%
 
@@ -2732,9 +2676,9 @@ The leading edge structural subsystem test target was designed to accommodate th
 
 > Panel 6 slot
 
-> Panel 9 Panel 8 Panel 7 T-Seal Panel 5
+> Panel 8 Panel 7 T-Seal Panel 5
 
-Figure 3.8-2. Test assembly that provided a structural mounting for RCC panel assemblies 5 to 10 and would accommodate some
+Figure 3.8-2. Test assembly that provided a structural mounting for RCC panel assemblies 5 to 10 and would accommodate some 200 sensors and other test equipment.
 
 most likely point of impact. Initially, analysis pointed to the main landing gear door. As the imaging and transport teams refined their assessments, the likely strike zone narrowed to RCC panels 6 through 9. Because of the long lead time to develop and produce the large complex test assemblies, investigators developed an adaptable test assembly (Figure 3.8-2) that would provide a structurally similar mounting for RCC panel assemblies 5 to 10 and would accommodate some 200 sensors, including high-speed cameras, strain and deflection gauges, accelerometers, and load cells.14
 
@@ -2750,9 +2694,9 @@ Test Projectile
 
 The preparation of BX-250 foam test projectiles used the same material and preparation processes that produced the foam bipod ramp. Foam was selected as the projectile material because foam was the most likely debris, and materials other than foam would represent a greater threat.
 
-Figure 3.8-3. A typical foam projectile, which has marks for determining position and velocity as well as blackened outlines for
+Panel 10 Panel 9
 
-200 sensors and other test equipment. indicating the impact footprint.
+Figure 3.8-3. A typical foam projectile, which has marks for determining position and velocity as well as blackened outlines for indicating the impact footprint.
 
 %%page 81%%
 
@@ -2816,17 +2760,13 @@ The conclusion that foam separated from the External Tank bipod ramp and struck 
 
 Findings:
 
-F3.8-1 The impact test program demonstrated that foam
+F3.8-1 The impact test program demonstrated that foam can cause a wide range of impact damage, from cracks to a 16- by 17-inch hole.
 
-> can cause a wide range of impact damage, from cracks to a 16- by 17-inch hole.
-
-F3.8-2 The wing leading edge Reinforced Carbon-Car-
-
-> bon composite material and associated support hardware are remarkably tough and have impact capabilities that far exceed the minimal impact resistance specified in their original design requirements. Nevertheless, these tests demonstrate that this inherent toughness can be exceeded by
+F3.8-2 The wing leading edge Reinforced Carbon-Carbon composite material and associated support hardware are remarkably tough and have impact capabilities that far exceed the minimal impact resistance specified in their original design requirements. Nevertheless, these tests demonstrate that this inherent toughness can be exceeded by
 
 impacts representative of those that occurred during Columbiaʼs ascent. The response of the wing leading edge to impacts is complex and can vary greatly, depending on the location of the impact, projectile mass, orientation, composition, and the material properties of the panel assembly, making analytic predictions of damage to RCC assemblies a challenge.17 Testing indicates the RCC panels and T-seals have much higher impact resistance than the design specifications call for. NASA has an inadequate number of spare Reinforced Carbon-Carbon panel assemblies. NASAʼs current tools, including the Crater model, are inadequate to evaluate Orbiter Thermal Protection System damage from debris impacts during pre-launch, on-orbit, and post-launch activity. The bipod ramp foam debris critically damaged the leading edge of Columbiaʼs left wing.
 
-ions:
+Recommendations:
 
 Obtain sufficent spare Reinforced Carbon-Carbon panel assemblies and associated support components to ensure that decisions related to Reinforced Carbon-Carbon maintenance are made on the basis of component specifications, free of external pressures relating to schedules, costs, or other considerations. Develop, validate, and maintain physics-based computer models to evaluate Thermal Protection System damage from debris impacts. These tools should provide realistic and timely estimates of any impact damage from possible debris from any source that may ultimately impact the Orbiter. Establish impact damage thresholds that trigger responsive corrective action, such as on-orbit inspection and repair, when indicated.
 
@@ -2834,9 +2774,13 @@ Obtain sufficent spare Reinforced Carbon-Carbon panel assemblies and associated 
 
 75 in2 86 in2
 
-> 6.5" 7"
+6.5"
 
-11. Three large pieces of debris from the panel face lodged within the hollow area behind the RCC panel.
+7"
+
+Figure 3.8-11. Three large pieces of debris from the panel face sheet were lodged within the hollow area behind the RCC panel.
+
+## ENDNOTES FOR CHAPTER 3
 
 The citations that contain a reference to "CAIB document" with CAB or
 
@@ -2880,33 +2824,49 @@ Team Final Report in Support of the Columbia Accident Investigation,"
 
 NSTS-37384, June 2003. CAIB document CTF076-15511657. See
 
-> This section based on information from the following reports: MIT Lincoln Laboratory "Report on Flight Day 2 Object Analysis;" Dr. Brian M. Kent, Dr. Kueichien C. Hill, and Captain John Gulick, "An Assessment of Potential Material Candidates for the ʻFlight Day 2ʼ Radar Object Observed During the NASA Mission STS-107 (Columbia)", Air Force Research Laboratory Final Summary Report AFRL-SNS-2003-001, July 20, 2003 (see Appendix E.2); Multiple briefings to the CAIB from Dr. Brian M. Kent, AFRL/SN (CAIB document CTF076-19782017); Briefing to the CAIB from HQ AFSPC/XPY, April 18, 2003 (CAIB document CAB066-13771388).
+Appendix E.2 for a copy of the report.
 
-> The water tanks from below the mid-deck floor, along with both Forward Reaction Control System propellant tanks were recovered in good condition.
+This section based on information from the following reports: MIT Lincoln
 
-> Enterprise was used for the initial Approach and Landing Tests and ground tests of the Orbiter, but was never used for orbital tests. The
+Laboratory "Report on Flight Day 2 Object Analysis;" Dr. Brian M. Kent, Dr. Kueichien C. Hill, and Captain John Gulick, "An Assessment of Potential Material Candidates for the ʻFlight Day 2ʼ Radar Object
 
-> vehicle is now held by the National Air and Space Museum. See Jenkins, Space Shuttle, pp. 205-223, for more information on Enterprise.
+Observed During the NASA Mission STS-107 (Columbia)", Air Force
 
-> Philip Kopfinger and Wanda Sigur, "Impact Test Results of BX-250 In Support of the Columbia Accident Investigation," ETTP-MS-03-021, July 17, 2003.
+Research Laboratory Final Summary Report AFRL-SNS-2003-001, July
+
+20, 2003 (see Appendix E.2); Multiple briefings to the CAIB from Dr. Brian M. Kent, AFRL/SN (CAIB document CTF076-19782017); Briefing to the CAIB from HQ AFSPC/XPY, April 18, 2003 (CAIB document
+
+CAB066-13771388).
+
+The water tanks from below the mid-deck floor, along with both Forward
+
+Reaction Control System propellant tanks were recovered in good condition.
+
+Enterprise was used for the initial Approach and Landing Tests and ground tests of the Orbiter, but was never used for orbital tests. The vehicle is now held by the National Air and Space Museum. See Jenkins,
+
+Space Shuttle, pp. 205-223, for more information on Enterprise.
+
+Philip Kopfinger and Wanda Sigur, "Impact Test Results of BX-250 In
+
+Support of the Columbia Accident Investigation," ETTP-MS-03-021, July
+
+17, 2003.
 
 Details of the test instrumentation are in Appendix D.12.
 
-> Evaluations of the adjustments in the angle of incidence to account for rotation are in Appendix D.12.
+Evaluations of the adjustments in the angle of incidence to account for rotation are in Appendix D.12. 16
 
-> The potential damage estimates had great uncertainty because the database of bending, tension, crushing, and other measures of failure were incomplete, particularly for RCC material.
-
-Appendix E.2 for a copy of the report.
+The potential damage estimates had great uncertainty because the database of bending, tension, crushing, and other measures of failure were incomplete, particularly for RCC material.
 
 %%page 85%%
 
-Other Factors Considered
+## Chapter 4: Other Factors Considered
 
 During its investigation, the Board evaluated every known factor that could have caused or contributed to the Columbia accident, such as the effects of space weather on the Orbiter during re-entry and the specters of sabotage and terrorism. In addition to the analysis/scenario investigations, the Board oversaw a NASA "fault tree" investigation, which accounts for every chain of events that could possibly cause a system to fail. Most of these factors were conclusively eliminated as having nothing to do with the accident; however, several factors have yet to be ruled out. Although deemed by the Board as unlikely to have contributed to the accident, these are still open and are being investigated further by NASA. In a few other cases, there is insufficient evidence to completely eliminate a factor, though most evidence indicates that it did not play a role in the accident. In the course of investigating these factors, the Board identified several serious problems that were not part of the accidentʼs causal chain but nonetheless have major implications for future missions.
 
 In this chapter, a discussion of these potential causal and contributing factors is divided into two sections. The first introduces the primary tool used to assess potential causes of the breakup: the fault tree. The second addresses fault tree items and particularly notable factors that raised concerns for this investigation and, more broadly, for the future operation of the Space Shuttle.
 
-## 4.1 FAULT TREE
+## 4.1 Fault Tree
 
 The NASA Accident Investigation Team investigated the accident using "fault trees," a common organizational tool in systems engineering. Fault trees are graphical represen- tations of every conceivable sequence of events that could cause a system to fail. The fault treeʼs uppermost level illustrates the events that could have directly caused the loss of Columbia by aerodynamic breakup during re-entry. Subsequent levels comprise all individual elements or factors that could cause the failure described immediately above it. In this way, all potential chains of causation that lead ultimately to the loss of Columbia can be diagrammed, and the behavior of every subsystem that was not a precipitating cause can be eliminated from consideration. Figure 4.1-1 depicts the fault tree structure for the Columbia accident investigation.
 
@@ -2954,7 +2914,7 @@ The open elements are grouped by their potential for contributing either directl
 
 Some of the element closure efforts will continue after this report is published. Some elements will never be closed, because there is insufficient data and analysis to uncondition- ally conclude that they did not contribute to the accident. For instance, heavy rain fell on Kennedy Space Center prior to the launch of STS-107. Could this abnormally heavy rainfall have compromised the External Tank bipod foam? Experiments showed that the foam did not tend to absorb rain, but the rain could not be ruled out entirely as having contributed to the accident. Fault tree elements that were not closed as of publication are listed in Appendix D.4.
 
-## 4.2 REMAINING FACTORS
+## 4.2 Remaining Factors
 
 Several significant factors caught the attention of the Board during the investigation. Although it appears that they were not causal in the STS-107 accident, they are presented here for completeness.
 
@@ -2964,7 +2924,7 @@ The fault tree review brought to light a significant problem with the Solid Rock
 
 Tank provoked a great deal of Board scrutiny.
 
-About two minutes after launch, the firing of pyrotechnic charges breaks each forward separation bolt into two pieces, allowing the spent Solid Rocket Boosters to separate from the External Tank (see Figure 4.2-1). Two "bolt catchers" on the External Tank each trap the upper half of a fired separation bolt, while the lower half stays attached to the Solid Rocket Booster. As a result, both halves are kept from flying free of the assembly and potentially hitting the Orbiter. Bolt catchers have a domed aluminum cover containing an aluminum honeycomb matrix that absorbs the fired boltʼs energy. The two upper bolt halves and their respective catchers subsequently remain connected to the External Tank, which burns up on re-entry, while the lower halves stay with the Solid Rocket Boosters that are recovered from the ocean.
+About two minutes after launch, the firing of pyrotechnic charges breaks each forward separation bolt into two pieces, allowing the spent Solid Rocket Boosters to separate from the External Tank (see Figure 4.2-1). Two "bolt catchers" on 0 the External Tank each trap the upper half of a fired separation bolt, while the lower half stays attached to the Solid Rocket Booster. As a result, both halves are kept from flying free of the assembly and potentially hitting the Orbiter. Bolt 135 catchers have a domed aluminum cover containing an aluminum honeycomb matrix that absorbs the fired boltʼs energy. The two upper bolt halves and their respective catchers subsequently remain connected to the External Tank, which burns up on re-entry, while the lower halves stay with the Solid Rocket Boosters that are recovered from the ocean.
 
 If one of the bolt catchers failed during STS-107, the resulting debris could have damaged Columbiaʼs wing leading edge. Concerns that the bolt catchers may have failed, causing metal debris to ricochet toward the Orbiter, arose because the configuration of the bolt catchers used on Shuttle missions differs in important ways from the design used in generated by a fired separation bolt. This means that the
 
@@ -3002,21 +2962,13 @@ Columbia, the impact of such a large object would likely have registered on the 
 
 Findings:
 
-F4.2-1 The certification of the bolt catchers flown on
+F4.2-1 The certification of the bolt catchers flown on STS-107 was accomplished by extrapolating analysis done on similar but not identical bolt catchers in original testing. No testing of flight hardware was performed.
 
-> STS-107 was accomplished by extrapolating analysis done on similar but not identical bolt catchers in original testing. No testing of flight hardware was performed.
+F4.2-2 Board-directed testing of a small sample size demonstrated that the "as-flown" bolt catchers do not have the required 1.4 margin of safety.
 
-F4.2-2 Board-directed testing of a small sample size
+F4.2-3 Quality assurance processes for bolt catchers (a Criticality 1 subsystem) were not adequate to assure contract compliance or product adequacy.
 
-> demonstrated that the "as-flown" bolt catchers do not have the required 1.4 margin of safety.
-
-F4.2-3 Quality assurance processes for bolt catchers (a
-
-> Criticality 1 subsystem) were not adequate to assure contract compliance or product adequacy.
-
-F4.2-4 An unknown metal object was seen separating
-
-> from the stack during Solid Rocket Booster separation during six Space Shuttle missions. These objects were not identified, but were characterized as of little to no concern.
+F4.2-4 An unknown metal object was seen separating from the stack during Solid Rocket Booster separation during six Space Shuttle missions. These objects were not identified, but were characterized as of little to no concern.
 
 Recommendations:
 
@@ -3042,27 +2994,21 @@ The first extensive scrutiny of Kapton wiring on any of the Orbiters occurred du
 
 %%page 89%%
 
-Other aspects of Shuttle operation may degrade Kapton Finding:
-
-wiring. In orbit, atomic oxygen acts as an oxidizing agent, causing chemical reactions and physical erosion that can lead to mass loss and surface property changes. Fortunately, actual exposure has been relatively limited, and inspections show that degradation is minimal. Laboratory tests on Kapton also confirm that on-orbit ultraviolet radiation can cause delamination, shrinkage, and wrinkling.
-
-R4.2-2
+Other aspects of Shuttle operation may degrade Kapton wiring. In orbit, atomic oxygen acts as an oxidizing agent, causing chemical reactions and physical erosion that can lead to mass loss and surface property changes. Fortunately, actual exposure has been relatively limited, and inspections show that degradation is minimal. Laboratory tests on Kapton also confirm that on-orbit ultraviolet radiation can cause delamination, shrinkage, and wrinkling.
 
 Figure 4.2-3. Typical wiring bundle inside Orbiter wing.
 
 A typical wiring bundle is shown in Figure 4.2-3. Wiring nonconformances are corrected by rerouting, reclamping, or installing additional insulation such as convoluted tubing, insulating tape, insulating sheets, heat shrink sleeving, and abrasion pads (see Figure 4.2-4). Testing has shown that wiring bundles usually stop arc tracking when wires are physically separated from one another. Further testing under conditions simulating the Shuttleʼs wiring environment demonstrated that arc tracking does not progress beyond six inches. Based on these results, Boeing recommended that NASA separate all critical paths from larger wire bundles and individually protect them for a minimum of six inches beyond their separation points.4 This recommendation is being adopted through modifications performed during scheduled
 
-Orbiter Major Modifications. For example, analysis of telemetered data from 14 of Columbiaʼs left wing sensors (hydraulic line/wing skin/wheel temperatures, tire pressures, and landing gear downlock position indication) provided failure signatures supporting the scenario of left-wing thermal intrusion, as opposed to a catastrophic failure (extensive arc tracking) of Kapton wiring. Actual NASA testing in the months following the accident, during which wiring bundles were subjected to intense heat (ovens, blowtorch, and arc jet), verified the failure signature analyses. Finally, extensive testing and analysis in years prior to STS-107 showed that, with the low currents and low voltages associated with the Orbiterʼs probability of arc tracking is commensurately low.
+Orbiter Major Modifications. For example, analysis of telemetered data from 14 of Columbiaʼs left wing sensors (hydraulic line/wing skin/wheel temperatures, tire pressures, and landing gear downlock position indication) provided failure signatures supporting the scenario of left-wing thermal intrusion, as opposed to a catastrophic failure (extensive arc tracking) of Kapton wiring. Actual NASA testing in the months following the accident, during which wiring bundles were subjected to intense heat (ovens, blowtorch, and arc jet), verified the failure signature analyses. Finally, extensive testing and analysis in years prior to STS-107 showed that, with the low currents and low voltages associated with the Orbiterʼs instrumentation system (such as those in the left wing), the probability of arc tracking is commensurately low.
 
-F4.2-5 Based on the extensive wiring inspections, main-
+Finding:
 
-> tenance, and modifications prior to STS-107, analysis of sensor/wiring failure signatures, and the alignment of the signatures with thermal intrusion into the wing, the Board found no evidence that Kapton wiring problems caused or contributed to this accident.
+F4.2-5 Based on the extensive wiring inspections, maintenance, and modifications prior to STS-107, analysis of sensor/wiring failure signatures, and the alignment of the signatures with thermal intrusion into the wing, the Board found no evidence that Kapton wiring problems caused or contributed to this accident.
 
 Recommendation:
 
-R4.2-2 As part of the Shuttle Service Life Extension Pro-
-
-> gram and potential 40-year service life, develop a state-of-the-art means to inspect all Orbiter wiring, including that which is inaccessible.
+R4.2-2 As part of the Shuttle Service Life Extension Program and potential 40-year service life, develop a state-of-the-art means to inspect all Orbiter wiring, including that which is inaccessible.
 
 Crushed Foam
 
@@ -3086,8 +3032,6 @@ Silicon Rubber Extrusion
 
 Figure 4.2-4. Typical wiring harness protection methods.
 
-instrumentation system (such as those in the left wing), the
-
 %%page 90%%
 
 The crushed foam was exposed when the bipod strut was removed. This constituted an unacceptable condition and required a Problem Report write-up.7
@@ -3102,9 +3046,7 @@ Pre-launch testing showed that the extent of crushed foam did not exceed limits.
 
 Finding:
 
-F4.2-6 Crushed foam does not appear to have contrib-
-
-> uted to the loss of the bipod foam ramp off the External Tank during the ascent of STS-107.
+F4.2-6 Crushed foam does not appear to have contributed to the loss of the bipod foam ramp off the External Tank during the ascent of STS-107.
 
 Recommendations:
 
@@ -3112,7 +3054,7 @@ Recommendations:
 
 Hypergolic Fuel Spill
 
-Concerns that hypergolic (ignites spontaneously when F4.2-8 mixed) fuel contamination might have contributed to the accident led the Board to investigate an August 20, 1999, hydrazine spill at Kennedy Space Center that occurred while Columbia was being prepared for shipment to the Boeing facility in Palmdale, California. The spill occurred when a maintenance technician disconnected a hydrazine fuel line without capping it. When the fuel line was placed on a maintenance platform, 2.25 ounces of the volatile, corrosive fuel dripped onto the trailing edge of the Orbiterʼs left inboard elevon. After the spill was cleaned up, two tiles were removed for inspection. No damage to the control surface skin or structure was found, and the tiles were replaced.12
+Concerns that hypergolic (ignites spontaneously when mixed) fuel contamination might have contributed to the accident led the Board to investigate an August 20, 1999, hydrazine spill at Kennedy Space Center that occurred while Columbia was being prepared for shipment to the Boeing facility in Palmdale, California. The spill occurred when a maintenance technician disconnected a hydrazine fuel line without capping it. When the fuel line was placed on a maintenance platform, 2.25 ounces of the volatile, corrosive fuel dripped onto the trailing edge of the Orbiterʼs left inboard elevon. After the spill was cleaned up, two tiles were removed for inspection. No damage to the control surface skin or structure was found, and the tiles were replaced.12
 
 United Space Alliance briefed all employees working with these systems on procedures to prevent another spill, and on
 
@@ -3250,17 +3192,15 @@ Military aircraft patrolled a 40-mile Federal Aviation Administration-restricted
 
 Findings:
 
-F4.2-12 The Board found no evidence that willful damage was a factor in this accident. F4.2-13 Two close-out processes at the Michoud Assem-
+F4.2-12 The Board found no evidence that willful damage was a factor in this accident.
 
-> bly Facility are currently able to be performed by a single person.
+F4.2-13 Two close-out processes at the Michoud Assembly Facility are currently able to be performed by a single person.
 
 F4.2-14 Photographs of every close out activity are not routinely taken.
 
 Recommendation:
 
-R4.2-3 Require that at least two employees attend all
-
-> final closeouts and intertank area hand-spraying procedures.
+R4.2-3 Require that at least two employees attend all final closeouts and intertank area hand-spraying procedures.
 
 Micrometeoroids and Orbital Debris Risks
 
@@ -3278,21 +3218,15 @@ To improve crew and vehicle safety over the next 10 to 20 years, the Board belie
 
 Findings:
 
-F4.2-15 There is little evidence that Columbia encoun-
-
-> tered either micrometeoroids or orbital debris on this flight.
+F4.2-15 There is little evidence that Columbia encountered either micrometeoroids or orbital debris on this flight.
 
 %%page 95%%
 
-F4.2-16 The Board found markedly different criteria for
-
-> margins of micrometeoroid and orbital debris safety between the International Space Station and the Shuttle.
+F4.2-16 The Board found markedly different criteria for margins of micrometeoroid and orbital debris safety between the International Space Station and the Shuttle.
 
 Recommendation:
 
-R4.2-4 Require the Space Shuttle to be operated with the
-
-> same degree of safety for micrometeoroid and orbital debris as the degree of safety calculated for the International Space Station. Change the micrometeoroid and orbital debris safety criteria from guidelines to requirements.
+R4.2-4 Require the Space Shuttle to be operated with the same degree of safety for micrometeoroid and orbital debris as the degree of safety calculated for the International Space Station. Change the micrometeoroid and orbital debris safety criteria from guidelines to requirements.
 
 Orbiter Major Modification
 
@@ -3300,9 +3234,7 @@ The Board investigated concerns that mistakes, mishaps, or human error during Co
 
 Findings:
 
-F4.2-17 Based on a thorough investigation of maintenance
-
-> records and interviews with maintenance personnel, the Board found no errors during Columbiaʼs most recent Orbiter Major Modification that contributed to the accident.
+F4.2-17 Based on a thorough investigation of maintenance records and interviews with maintenance personnel, the Board found no errors during Columbiaʼs most recent Orbiter Major Modification that contributed to the accident.
 
 Recommendations:
 
@@ -3314,13 +3246,15 @@ Problems with the Kennedy Space Center and United Space Alliance Foreign Object 
 
 Processing Debris then became:
 
-Any material, product, substance, tool or aid generally used during the processing of flight hardware that remains in the work area when not directly in use, or that is left unattended in the work area for any length of time during the processing of tasks, or that is left remaining or forgotten in the work area after the completion of a task or at the end of a work shift. Also any item, mate-
+Any material, product, substance, tool or aid generally used during the processing of flight hardware that remains in the work area when not directly in use, or that is left unattended in the work area for any length of time during the processing of tasks, or that is left remaining or forgotten in the work area after the completion of a task or at the end of a work shift. Also any item, material or substance in the work area that should be found and removed as part of standard housekeeping, Hazard
 
-> Recognition and Inspection Program (HRIP) walk- downs, or as part of "Clean As You Go" practices.14
+Recognition and Inspection Program (HRIP) walkdowns, or as part of "Clean As You Go" practices.14
 
 Foreign Object Debris then became:
 
-> Processing debris becomes FOD when it poses a potential risk to the Shuttle or any of its components, and only occurs when the debris is found during or subsequent to a final/flight Closeout Inspection, or subsequent to OMI S0007 ET Load SAF/FAC walkdown.15
+Processing debris becomes FOD when it poses a potential risk to the Shuttle or any of its components, and only occurs when the debris is found during or subsequent to a final/flight Closeout Inspection, or subsequent to OMI
+
+S0007 ET Load SAF/FAC walkdown.15
 
 These definitions are inconsistent with those of other NASA centers, Naval Reactor programs, the Department of Defense, commercial aviation, and National Aerospace FOD Prevention Inc. guidelines.16 They are unique to Kennedy Space Center and United Space Alliance.
 
@@ -3330,19 +3264,15 @@ The perception among many interviewees is that these novel definitions mitigate 
 
 Finding:
 
-F4.2-18 Since 2001, Kennedy Space Center has used a
-
-> non-standard approach to define foreign object debris. The industry standard term "Foreign Object Damage" has been divided into two categories, one of which is much more permissive.
+F4.2-18 Since 2001, Kennedy Space Center has used a non-standard approach to define foreign object debris. The industry standard term "Foreign Object Damage" has been divided into two categories, one of which is much more permissive.
 
 Recommendation:
 
-R4.2-5 Kennedy Space Center Quality Assurance and
-
-> United Space Alliance must return to the straightforward, industry-standard definition of "Foreign Object Debris," and eliminate any alternate or statistically deceptive definitions like "processing debris."
-
-rial or substance in the work area that should be found and removed as part of standard housekeeping, Hazard
+R4.2-5 Kennedy Space Center Quality Assurance and United Space Alliance must return to the straightforward, industry-standard definition of "Foreign Object Debris," and eliminate any alternate or statistically deceptive definitions like "processing debris."
 
 %%page 96%%
+
+## ENDNOTES FOR CHAPTER 4
 
 The citations that contain a reference to "CAIB document" with CAB or
 
@@ -3384,41 +3314,55 @@ August 1, 2002. 7
 
 PR ET-93-TS-00073, "There Is An Area Of Crushed Foam From The
 
+Installation Of The –Y Bipod," August 8, 2002.
+
 "Crushed Foam Testing." CAIB document CTF059-10561058.[^9]
 
-> PR ET-93-TS-00073, "There Is An Area Of Crushed Foam From The Installation Of The –Y Bipod," August 8, 2002; Meeting with John Blue, USA Engineer, Kennedy Space Center, March 10, 2003.
+PR ET-93-TS-00073, "There Is An Area Of Crushed Foam From The
+
+Installation Of The –Y Bipod," August 8, 2002; Meeting with John Blue,
+
+USA Engineer, Kennedy Space Center, March 10, 2003.[^10]
 
 Lockheed Martin drawing 80911019109-509, "BIPOD INSTL,ET/
 
-## ORB,FWD"
+#### ORB,FWD"
 
 "Crushed Foam Testing." CAIB document CTF059-10561058.[^12]
 
-> Minutes of Orbiter Structures Telecon meeting, June 19, 2001, held with NASA, KSC, USA, JSC, BNA-Downey, Huntington Beach and Palmdale. CAIB document CAB033-38743888.
+Minutes of Orbiter Structures Telecon meeting, June 19, 2001, held with
+
+NASA, KSC, USA, JSC, BNA-Downey, Huntington Beach and Palmdale.
+
+CAIB document CAB033-38743888. 13
 
 NASA Report NSTS-37398. 14
 
 Standard Operating Procedure, Foreign Object Debris (FOD) Reporting,
 
-> Revision A, Document Number SOP-O-0801-035, October 1, 2002, United Space Alliance, Kennedy Space Center, pg. 3.
+Revision A, Document Number SOP-O-0801-035, October 1, 2002,
+
+United Space Alliance, Kennedy Space Center, pg. 3.[^15]
 
 Ibid, pg. 2. 16
 
-> "An effective FOD prevention program identifies potential problems, corrects negative factors, provides awareness, effective employee training, and uses industry "lessons learned" for continued improvement. There is no mention of Processing Debris, but the guidance does address potential Foreign Object Damage and Foreign Object Debris. While NASA has done a good job of complying with almost every area of this guideline, the document addresses Foreign Object investigations in a singular sense: "All incidents of actual or potential FOD should be reported and investigated. These reports should be directed to the FOD Focal Point who should perform tracking and trending analysis. The focal point should also assure all affected personnel are aware of all potential (near mishap) and actual FOD reports to facilitate feedback (ʻlessons
+"An effective FOD prevention program identifies potential problems, corrects negative factors, provides awareness, effective employee training, and uses industry "lessons learned" for continued improvement.
 
-learnedʼ)." 17
+There is no mention of Processing Debris, but the guidance does address potential Foreign Object Damage and Foreign Object Debris. While
 
-> Space Flight Operations Contract, Performance Measurement System Reports for January 2003, February 2003, USA004840, issue 014,
+NASA has done a good job of complying with almost every area of this guideline, the document addresses Foreign Object investigations in a singular sense: "All incidents of actual or potential FOD should be reported and investigated. These reports should be directed to the FOD
 
-contract NAS9-2000.
+Focal Point who should perform tracking and trending analysis. The focal point should also assure all affected personnel are aware of all potential
 
-Installation Of The –Y Bipod," August 8, 2002.
+(near mishap) and actual FOD reports to facilitate feedback (ʻlessons learnedʼ)." 17
+
+Space Flight Operations Contract, Performance Measurement System
+
+Reports for January 2003, February 2003, USA004840, issue 014, contract NAS9-2000.
 
 %%page 97%%
 
-Part Two
-
-Why The Accident Occurred
+## Part Two: Why The Accident Occurred
 
 Many accident investigations do not go far enough. They identify the technical cause of the accident, and then connect it to a variant of "operator error" – the line worker who forgot to insert the bolt, the engineer who miscalculated the stress, or the manager who made the wrong decision. But this is seldom the entire issue. When the determinations of the causal chain are limited to the technical flaw and individual failure, typically the actions taken to prevent a similar event in the future are also limited: fix the technical problem and replace or retrain the individual responsible. Putting these corrections in place leads to another mistake – the belief that the problem is solved. The Board did not want to make these errors.
 
@@ -3436,15 +3380,17 @@ In Chapter 7, the Board presents its views of how high-risk activities should be
 
 %%page 99%%
 
+## Chapter 5: From Challenger to Columbia
+
 The Board is convinced that the factors that led to the Columbia accident go well beyond the physical mechanisms discussed in Chapter 3. The causal roots of the accident can also be traced, in part, to the turbulent post-Cold War policy environment in which NASA functioned during most of the years between the destruction of Challenger and the loss of Columbia. The end of the Cold War in the late 1980s meant that the most important political underpinning of NASAʼs Human Space Flight Program – U.S.-Soviet space competition – was lost, with no equally strong political objective to replace it. No longer able to justify its projects with the kind of urgency that the superpower struggle had provided, the agency could not obtain budget increases through the 1990s. Rather than adjust its ambitions to this new state of affairs, NASA continued to push an ambitious agenda of space science and exploration, including a costly Space Station Program.
 
 If NASA wanted to carry out that agenda, its only recourse, given its budget allocation, was to become more efficient, accomplishing more at less cost. The search for cost reductions led top NASA leaders over the past decade to downsize the Shuttle workforce, outsource various Shuttle Program responsibilities – including safety oversight – and consider eventual privatization of the Space Shuttle Program. The programʼs budget was reduced by 40 percent in purchasing power over the past decade and repeatedly raided to make up for Space Station cost overruns, even as the Program maintained a launch schedule in which the Shuttle, a developmental vehicle, was used in an operational mode. In addition, the uncertainty of top policymakers in the White House, Congress, and NASA as to how long the Shuttle would fly before being replaced resulted in the delay of upgrades needed to make the Shuttle safer and to extend its service life.
 
 The Space Shuttle Program has been transformed since the late 1980s implementation of post-Challenger management changes in ways that raise questions, addressed here and in later chapters of Part Two, about NASAʼs ability to safely
 
-hallenger Columbia operate the Space Shuttle. While it would be inaccurate to say that NASA managed the Space Shuttle Program at the time of the Columbia accident in the same manner it did prior to Challenger, there are unfortunate similarities between the agencyʼs performance and safety practices in both periods.
+operate the Space Shuttle. While it would be inaccurate to say that NASA managed the Space Shuttle Program at the time of the Columbia accident in the same manner it did prior to Challenger, there are unfortunate similarities between the agencyʼs performance and safety practices in both periods.
 
-## 5.1 THE CHALLENGER ACCIDENT AND ITS AFTERMATH
+## 5.1 The Challenger Accident and its Aftermath
 
 The inherently vulnerable design of the Space Shuttle, described in Chapter 1, was a product of policy and technological compromises made at the time of its approval in 1972. That approval process also produced unreasonable expectations, even myths, about the Shuttleʼs future performance that NASA tried futilely to fulfill as the Shuttle became "operational" in 1982. At first, NASA was able to maintain the image of the Shuttle as an operational vehicle. During its early years of operation, the Shuttle launched satellites, performed on-orbit research, and even took members of Congress into orbit. At the beginning of 1986, the goal of "routine access to space" established by President Ronald Reagan in 1982 was ostensibly being achieved. That appearance soon proved illusory. On the cold morning of January 28, 1986, the Shuttle Challenger broke apart 73 seconds into its climb towards orbit. On board were Francis R. Scobee, Michael J. Smith, Ellison S. Onizuka, Judith A. Resnick, Ronald E. McNair, Sharon Christa McAuliffe, and Gregory B. Jarvis. All perished.
 
@@ -3464,20 +3410,20 @@ Still another factor influenced the decisions that led to the accident. The Roge
 
 The Challenger accident had profound effects on the U.S. space program. On August 15, 1986, President Reagan announced that "NASA will no longer be in the business of launching private satellites." The accident ended Air Force and intelligence community reliance on the Shuttle to launch national security payloads, prompted the decision to abandon the yet-to-be-opened Shuttle launch site at Vandenberg Air Force Base, and forced the development of improved expendable launch vehicles.6 A 1992 White House advisory committee concluded that the recovery from the Challenger
 
-## SELECTED ROGERS COMMISSION RECOMMENDATIONS
+#### SELECTED ROGERS COMMISSION RECOMMENDATIONS
 
-> - "The faulty Solid Rocket Motor joint and seal must be changed. This could be a new design eliminating the joint or a redesign of the current joint and seal. No design options should be prematurely precluded because of schedule, cost or reliance on existing hardware. All Solid Rocket Motor joints should satisfy the following:
-> - "The joints should be fully understood, tested and verified."
-> - "The certification of the new design should include:
-> - Tests which duplicate the actual launch configuration as closely as possible.
-> - Tests over the full range of operating conditions, including temperature."
-> - "Full consideration should be given to conducting static firings of the exact flight configuration in a vertical attitude."
-> - "The Shuttle Program Structure should be reviewed. The project managers for the various elements of the Shuttle program felt more accountable to their center management than to the Shuttle program organization."
-> - "NASA should encourage the transition of qualified astronauts into agency management positions."
-> - "NASA should establish an Office of Safety, Reliability and Quality Assurance to be headed by an Associate Administrator, reporting directly to the NASA Administrator. It would have direct authority for safety, reliability, and quality assurance throughout the agency. The office should be assigned the work force to ensure adequate oversight of its functions and should be independent of other NASA functional and program responsibilities."
-> - "NASA should establish an STS Safety Advisory Panel reporting to the STS Program Manager. The charter of this panel should include Shuttle operational issues, launch commit criteria, flight rules, flight readiness and risk management."
-> - "The Commission found that Marshall Space Flight Center project managers, because of a tendency at Marshall to management isolation, failed to provide full and timely information bearing on the safety of flight 51-L [the Challenger mission] to other vital elements of Shuttle program management … NASA should take energetic steps to eliminate this tendency at Marshall Space Flight Center, whether by changes of personnel, organization, indoctrination or all three."
-> - "The nationʼs reliance on the Shuttle as its principal space launch capability created a relentless pressure on NASA to increase the flight rate … NASA must establish a flight rate that is consistent with its resources."5 disaster cost the country $12 billion, which included the cost of building the replacement Orbiter Endeavour.7
+- "The faulty Solid Rocket Motor joint and seal must be changed. This could be a new design eliminating the joint or a redesign of the current joint and seal. No design options should be prematurely precluded because of schedule, cost or reliance on existing hardware. All Solid Rocket Motor joints should satisfy the following:
+- "The joints should be fully understood, tested and verified."
+- "The certification of the new design should include:
+- Tests which duplicate the actual launch configuration as closely as possible.
+- Tests over the full range of operating conditions, including temperature."
+- "Full consideration should be given to conducting static firings of the exact flight configuration in a vertical attitude."
+- "The Shuttle Program Structure should be reviewed. The project managers for the various elements of the Shuttle program felt more accountable to their center management than to the Shuttle program organization."
+- "NASA should encourage the transition of qualified astronauts into agency management positions."
+- "NASA should establish an Office of Safety, Reliability and Quality Assurance to be headed by an Associate Administrator, reporting directly to the NASA Administrator. It would have direct authority for safety, reliability, and quality assurance throughout the agency. The office should be assigned the work force to ensure adequate oversight of its functions and should be independent of other NASA functional and program responsibilities."
+- "NASA should establish an STS Safety Advisory Panel reporting to the STS Program Manager. The charter of this panel should include Shuttle operational issues, launch commit criteria, flight rules, flight readiness and risk management."
+- "The Commission found that Marshall Space Flight Center project managers, because of a tendency at Marshall to management isolation, failed to provide full and timely information bearing on the safety of flight 51-L [the Challenger mission] to other vital elements of Shuttle program management … NASA should take energetic steps to eliminate this tendency at Marshall Space Flight Center, whether by changes of personnel, organization, indoctrination or all three."
+- "The nationʼs reliance on the Shuttle as its principal space launch capability created a relentless pressure on NASA to increase the flight rate … NASA must establish a flight rate that is consistent with its resources."5 disaster cost the country $12 billion, which included the cost of building the replacement Orbiter Endeavour.7
 
 It took NASA 32 months after the Challenger accident to redesign and requalify the Solid Rocket Booster and to return the Shuttle to flight. The first post-accident flight was launched on September 29, 1988. As the Shuttle returned to flight, NASA Associate Administrator for Space Flight
 
@@ -3497,13 +3443,15 @@ Shuttle could be readied for launch at or near whatever date was set. Tying the 
 
 In September 2001, testimony on the Shuttleʼs achievements during the preceding decade by NASAʼs then-Deputy Associate Administrator for Space Flight William Readdy indicated the assumptions under which NASA was operating during that period:
 
-> The Space Shuttle has made dramatic improvements in the capabilities, operations and safety of the system. The payload-to-orbit performance of the Space Shuttle has been significantly improved – by over 70 percent to the Space Station. The safety of the Space Shuttle has also been dramatically improved by reducing risk by more than a factor of five. In addition, the operability of the system has been significantly improved, with five minute launch windows – which would not have been attempted a decade ago – now becoming routine. This record of success is a testament to the quality and dedication of the Space Shuttle management team and workforce, both civil servants and contractors.11
+The Space Shuttle has made dramatic improvements in the capabilities, operations and safety of the system.
 
-## 5.2 THE NASA HUMAN SPACE FLIGHT CULTURE
+The payload-to-orbit performance of the Space Shuttle has been significantly improved – by over 70 percent to the Space Station. The safety of the Space Shuttle has also been dramatically improved by reducing risk by more than a factor of five. In addition, the operability of the system has been significantly improved, with five minute launch windows – which would not have been attempted a decade ago – now becoming routine. This record of success is a testament to the quality and dedication of the Space Shuttle management team and workforce, both civil servants and contractors.11
+
+## 5.2 The NASA Human Space Flight Culture
 
 Though NASA underwent many management reforms in the wake of the Challenger accident and appointed new directors at the Johnson, Marshall, and Kennedy centers, the agencyʼs powerful human space flight culture remained intact, as did many institutional practices, even if in a modified form. As a close observer of NASAʼs organizational culture has observed, "Cultural norms tend to be fairly resilient … The norms bounce back into shape after being stretched or bent. Beliefs held in common throughout the organization resist alteration."12 This culture, as will become clear across the chapters of Part Two of this report, acted over time to resist externally imposed change. By the eve of the Columbia accident, institutional practices that were in effect at the time of the Challenger accident – such as inadequate concern over deviations from expected performance, a silent safety program, and schedule pressure – had returned to NASA.
 
-## ORGANIZATIONAL CULTURE
+#### ORGANIZATIONAL CULTURE
 
 Organizational culture refers to the basic values, norms, beliefs, and practices that characterize the functioning of a particular institution. At the most basic level, organizational culture defines the assumptions that employees make as they carry out their work; it defines "the way we do things here."
 
@@ -3511,19 +3459,51 @@ An organizationʼs culture is a powerful force that persists through reorganizat
 
 The human space flight culture within NASA originated in the Cold War environment. The space agency itself was created in 1958 as a response to the Soviet launch of Sputnik, the first artificial Earth satellite. In 1961, President John F. Kennedy charged the new space agency with the task of reaching the moon before the end of the decade, and asked Congress and the American people to commit the immense resources for doing so, even though at the time NASA had only accumulated 15 minutes of human space flight experience. With its efforts linked to U.S.-Soviet competition for global leadership, there was a sense in the NASA workforce that the agency was engaged in a historic struggle central to the nationʼs agenda.
 
-The Apollo era created at NASA an exceptional "can-do" culture marked by tenacity in the face of seemingly impossible challenges. This culture valued the interaction among research and testing, hands-on engineering experience, and safely launch people into space.15 As will be discussed later a dependence on the exceptional quality of the its workforce in this chapter, as well as in Chapters 6, 7, and 8, the Board and leadership that provided in-house technical capability to views this cultural resistance as a fundamental impediment oversee the work of contractors. The culture also accepted to NASAʼs effective organizational performance. risk and failure as inevitable aspects of operating in space, even as it held as its highest value attention to detail in order 5.3 AN AGENCY TRYING TO DO TOO MUCH to lower the chances of failure. WITH TOO LITTLE
+The Apollo era created at NASA an exceptional "can-do" culture marked by tenacity in the face of seemingly impossible challenges. This culture valued the interaction among research and testing, hands-on engineering experience, and a dependence on the exceptional quality of the its workforce and leadership that provided in-house technical capability to oversee the work of contractors. The culture also accepted risk and failure as inevitable aspects of operating in space, even as it held as its highest value attention to detail in order to lower the chances of failure.
 
 %%page 102%%
 
-The dramatic Apollo 11 lunar landing in July 1969 fixed A strong indicator of the priority the national political lead- NASAʼs achievements in the national consciousness, and ership assigns to a federally funded activity is its budget. By in history. However, the numerous accolades in the wake that criterion, NASAʼs space activities have not been high of the moon landing also helped reinforce the NASA staffʼs on the list of national priorities over the past three decades faith in their organizational culture. Apollo successes created (see Figure 5.3-1). After a peak during the Apollo program, the powerful image of the space agency as a "perfect place," when NASAʼs budget was almost four percent of the federal as "the best organization that human beings could create to budget, NASAʼs budget since the early 1970s has hovered at accomplish selected goals."13 During Apollo, NASA was in one percent of federal spending or less. many respects a highly successful organization capable of achieving seemingly impossible feats. The continuing image 4.0 of NASA as a "perfect place" in the years after Apollo left NASA employees unable to recognize that NASA never had 3.5 been, and still was not, perfect, nor was it as symbolically 3.0
+The dramatic Apollo 11 lunar landing in July 1969 fixed NASAʼs achievements in the national consciousness, and in history. However, the numerous accolades in the wake of the moon landing also helped reinforce the NASA staffʼs faith in their organizational culture. Apollo successes created the powerful image of the space agency as a "perfect place," as "the best organization that human beings could create to accomplish selected goals."13 During Apollo, NASA was in many respects a highly successful organization capable of achieving seemingly impossible feats. The continuing image of NASA as a "perfect place" in the years after Apollo left NASA employees unable to recognize that NASA never had been, and still was not, perfect, nor was it as symbolically important in the continuing Cold War struggle as it had been for its first decade of existence. NASA personnel maintained a vision of their agency that was rooted in the glories of an earlier time, even as the world, and thus the context within which the space agency operated, changed around them.
 
-Percent of Federal Budget important in the continuing Cold War struggle as it had been 2.5 for its first decade of existence. NASA personnel maintained a vision of their agency that was rooted in the glories of an 2.0 earlier time, even as the world, and thus the context within 1.5 which the space agency operated, changed around them. 1.0
+As a result, NASAʼs human space flight culture never fully adapted to the Space Shuttle Program, with its goal of routine access to space rather than further exploration beyond low-Earth orbit. The Apollo-era organizational culture came to be in tension with the more bureaucratic space agency of the 1970s, whose focus turned from designing new spacecraft at any expense to repetitively flying a reusable vehicle on an ever-tightening budget. This trend toward bureaucracy and the associated increased reliance on contracting neces- sitated more effective communications and more extensive safety oversight processes than had been in place during the Apollo era, but the Rogers Commission found that such features were lacking.
 
-As a result, NASAʼs human space flight culture never fully 0.5 adapted to the Space Shuttle Program, with its goal of rou- 0.0
+In the aftermath of the Challenger accident, these contra- dictory forces prompted a resistance to externally imposed changes and an attempt to maintain the internal belief that NASA was still a "perfect place," alone in its ability to execute a program of human space flight. Within NASA centers, as Human Space Flight Program managers strove to maintain their view of the organization, they lost their ability to accept criticism, leading them to reject the recommendations of many boards and blue-ribbon panels, the Rogers Commission among them.
 
-- tine access to space rather than further exploration beyond 1959 1962 1965 1968 1971 1974 1977 1980 1983 1986 1989 1992 1995 1998 — 2001
+External criticism and doubt, rather than spurring NASA to change for the better, instead reinforced the will to "impose the party line vision on the environment, not to reconsider it," according to one authority on organizational behavior. This in turn led to "flawed decision making, self deception, introversion and a diminished curiosity about the world outside the perfect place."14 The NASA human space flight culture the Board found during its investigation manifested many of these characteristics, in particular a self-confidence about NASA possessing unique knowledge about how to
 
-low-Earth orbit. The Apollo-era organizational culture came to be in tension with the more bureaucratic space agency of the 1970s, whose focus turned from designing new space- Figure 5.3-1. NASA budget as a percentage of the Federal bud- craft at any expense to repetitively flying a reusable vehicle get. (Source: NASA History Office) on an ever-tightening budget. This trend toward bureaucracy and the associated increased reliance on contracting neces- sitated more effective communications and more extensive Particularly in recent years, as the national leadership has safety oversight processes than had been in place during the confronted the challenging task of allocating scarce public Apollo era, but the Rogers Commission found that such fea- resources across many competing demands, NASA has tures were lacking. had difficulty obtaining a budget allocation adequate to its continuing ambitions. In 1990, the White House chartered a In the aftermath of the Challenger accident, these contra- blue-ribbon committee chaired by aerospace executive Nor- dictory forces prompted a resistance to externally imposed man Augustine to conduct a sweeping review of NASA and changes and an attempt to maintain the internal belief that its programs in response to Shuttle problems and the flawed NASA was still a "perfect place," alone in its ability to mirror on the Hubble Space Telescope.16 The review found execute a program of human space flight. Within NASA that NASAʼs budget was inadequate for all the programs centers, as Human Space Flight Program managers strove to the agency was executing, saying that "NASA is currently maintain their view of the organization, they lost their ability over committed in terms of program obligations relative to to accept criticism, leading them to reject the recommenda- resources available–in short, it is trying to do too much, and tions of many boards and blue-ribbon panels, the Rogers allowing too little margin for the unexpected."17 "A reinvigo- Commission among them. rated space program," the Augustine committee went on to say, "will require real growth in the NASA budget of approx- External criticism and doubt, rather than spurring NASA to imately 10 percent per year (through the year 2000) reaching change for the better, instead reinforced the will to "impose a peak spending level of about $30 billion per year (in con- the party line vision on the environment, not to reconsider stant 1990 dollars) by about the year 2000." Translated into it," according to one authority on organizational behavior. the actual dollars of Fiscal Year 2000, that recommendation This in turn led to "flawed decision making, self deception, would have meant a NASA budget of over $40 billion; the introversion and a diminished curiosity about the world actual NASA budget for that year was $13.6 billion.18 outside the perfect place."14 The NASA human space flight culture the Board found during its investigation manifested During the past decade, neither the White House nor Con- many of these characteristics, in particular a self-confidence gress has been interested in "a reinvigorated space program." about NASA possessing unique knowledge about how to Instead, the goal has been a program that would continue to produce valuable scientific and symbolic payoffs for the nation without a need for increased budgets. Recent budget al- locations reflect this continuing policy reality. Between 1993 and 2002, the governmentʼs discretionary spending grew in purchasing power by more than 25 percent, defense spending by 15 percent, and non-defense spending by 40 percent (see Figure 5.3-2). NASAʼs budget, in comparison, showed little change, going from $14.31 billion in Fiscal Year 1993 to a low of $13.6 billion in Fiscal Year 2000, and increasing to $14.87 billion in Fiscal Year 2002. This represented a loss of 13 percent in purchasing power over the decade (see Figure 5.3-3).19
+safely launch people into space.15 As will be discussed later in this chapter, as well as in Chapters 6, 7, and 8, the Board views this cultural resistance as a fundamental impediment to NASAʼs effective organizational performance.
+
+## 5.3 An Agency Trying to Do Too Much With Too Little
+
+A strong indicator of the priority the national political leadership assigns to a federally funded activity is its budget. By that criterion, NASAʼs space activities have not been high on the list of national priorities over the past three decades (see Figure 5.3-1). After a peak during the Apollo program, when NASAʼs budget was almost four percent of the federal budget, NASAʼs budget since the early 1970s has hovered at one percent of federal spending or less.
+
+4.0
+
+3.5
+
+3.0
+
+Percent of Federal Budget
+
+2.5
+
+2.0
+
+1.5
+
+1.0
+
+0.5
+
+0.0
+
+- 1959 1962 1965 1968 1971 1974 1977 1980 1983 1986 1989 1992 1995 1998 — 2001
+
+Figure 5.3-1. NASA budget as a percentage of the Federal budget. (Source: NASA History Office)
+
+Particularly in recent years, as the national leadership has confronted the challenging task of allocating scarce public resources across many competing demands, NASA has had difficulty obtaining a budget allocation adequate to its continuing ambitions. In 1990, the White House chartered a blue-ribbon committee chaired by aerospace executive Norman Augustine to conduct a sweeping review of NASA and its programs in response to Shuttle problems and the flawed mirror on the Hubble Space Telescope.16 The review found that NASAʼs budget was inadequate for all the programs the agency was executing, saying that "NASA is currently over committed in terms of program obligations relative to resources available–in short, it is trying to do too much, and allowing too little margin for the unexpected."17 "A reinvigorated space program," the Augustine committee went on to say, "will require real growth in the NASA budget of approximately 10 percent per year (through the year 2000) reaching a peak spending level of about $30 billion per year (in constant 1990 dollars) by about the year 2000." Translated into the actual dollars of Fiscal Year 2000, that recommendation would have meant a NASA budget of over $40 billion; the actual NASA budget for that year was $13.6 billion.18
+
+During the past decade, neither the White House nor Congress has been interested in "a reinvigorated space program." Instead, the goal has been a program that would continue to produce valuable scientific and symbolic payoffs for the nation without a need for increased budgets. Recent budget al- locations reflect this continuing policy reality. Between 1993 and 2002, the governmentʼs discretionary spending grew in purchasing power by more than 25 percent, defense spending by 15 percent, and non-defense spending by 40 percent (see Figure 5.3-2). NASAʼs budget, in comparison, showed little change, going from $14.31 billion in Fiscal Year 1993 to a low of $13.6 billion in Fiscal Year 2000, and increasing to $14.87 billion in Fiscal Year 2002. This represented a loss of 13 percent in purchasing power over the decade (see Figure 5.3-3).19
 
 %%page 103%%
 
@@ -3533,17 +3513,15 @@ Change from Base Year 1993
 
 1.40
 
-1.30
+> 1.30 Non-Defense
 
-1.20
+> 1.20 Total Discretionary 1.10 Defense
 
-> Discretionary 1.10
-
-> 1.00 NASA 0.90 FY 1993 FY 1994 FY 1995 FY 1996 FY 1997 FY 1998
+> 1.00 NASA 0.90 FY 1993 FY 1994 FY 1995 FY 1996 FY 1997 FY 1998 FY 1999 FY 2000
 
 Figure 5.3-2. Changes in Federal spending from 1993 through 2002. (Source: NASA Office of Legislative Affairs)
 
-> Real Dollars Fiscal Year (in millions) 1965 5,250
+> Real Dollars Constant Dollars Fiscal Year (in millions) (in FY 2002 millions) 1965 5,250
 
 1975 3,229
 
@@ -3573,11 +3551,11 @@ Figure 5.3-2. Changes in Federal spending from 1993 through 2002. (Source: NASA 
 
 15,255
 
-Figure 5.3-3. NASA Budget. (Source: NASA and Office of Man-
+Figure 5.3-3. NASA Budget. (Source: NASA and Office of Management and Budget)
 
 > The lack of top-level interest in the space program led a 2002 review of the U.S. aerospace sector to observe that "a sense of lethargy has affected the space industry and community. Instead of the excitement and exuberance that dominated our early ventures into space, we at times seem almost apologetic about our continued investments in the space program."20
 
-## WHAT THE EXPERTS HAVE SAID
+#### WHAT THE EXPERTS HAVE SAID
 
 Warnings of a Shuttle Accident
 
@@ -3585,27 +3563,59 @@ Warnings of a Shuttle Accident
 
 > is 98 percent, there would be a 50-50 chance of losing an Orbiter within 34 flights … The probability of maintaining at least three Orbiters in the Shuttle fleet declines to less
 
-se than 50 percent after flight 113."21 ary -The Office of Technology Assessment, 1989 se
+than 50 percent after flight 113."21
+
+-The Office of Technology Assessment, 1989
 
 "And although it is a subject that meets with reluctance
 
-ASA to open discussion, and has therefore too often been relegated to silence, the statistical evidence indicates FY 2000 FY 2001 FY 2002
+> to open discussion, and has therefore too often been relegated to silence, the statistical evidence indicates
+
+FY 2001 FY 2002
 
 > that we are likely to lose another Space Shuttle in the next several years … probably before the planned Space Station is completely established on orbit. This would seem to be the weak link of the civil space program – unpleasant to recognize, involving all the uncertainties of statistics, and difficult to resolve." -The Augustine Committee, 1990
 
-ant Dollars
+lions) Shuttle as Developmental Vehicle 24,696
 
-002 millions) Shuttle as Developmental Vehicle
+> "Shuttle is also a complex system that has yet to demonstrate an ability to adhere to a fixed schedule"
 
-> 24,696 "Shuttle is also a complex system that has yet to demonstrate an ability to adhere to a fixed schedule" 10,079 -The Augustine Committee, 1990 11,643 NASA Human Space Flight Culture 17,060 "NASA has not been sufficiently responsive to valid criticism and the need for change."22 16,965 -The Augustine Committee, 1990 15,790
+10,079
 
-> 15,489 Faced with this budget situation, NASA had the choice of 14,994 either eliminating major programs or achieving greater efficiencies while maintaining its existing agenda. Agency lead- 14,641 ers chose to attempt the latter. They continued to develop the space station, continued robotic planetary and scientific 14,443 missions, and continued Shuttle-based missions for both scientific and symbolic purposes. In 1994 they took on the re- 14,202 sponsibility for developing an advanced technology launch vehicle in partnership with the private sector. They tried to 14,559 do this by becoming more efficient. "Faster, better, cheaper" became the NASA slogan of the 1990s.23 14,868 The flat budget at NASA particularly affected the hu- NA man space flight enterprise. During the decade before the Columbia accident, NASA rebalanced the share of its bud- NA get allocated to human space flight from 48 percent of agency funding in Fiscal Year 1991 to 38 percent in Fiscal Year 1999, with the remainder going mainly to other science and
+-The Augustine Committee, 1990 11,643
 
-agement and Budget) technology efforts. On NASAʼs fixed budget, that meant tion of Boris Yeltsin and halting the proliferation of nuclear
+NASA Human Space Flight Culture 17,060
+
+> "NASA has not been sufficiently responsive to valid criticism and the need for change."22
+
+16,965 -The Augustine Committee, 1990 15,790
+
+15,489
+
+Faced with this budget situation, NASA had the choice of 14,994
+
+> either eliminating major programs or achieving greater efficiencies while maintaining its existing agenda. Agency lead-
+
+14,641 ers chose to attempt the latter. They continued to develop the space station, continued robotic planetary and scientific
+
+14,443 missions, and continued Shuttle-based missions for both scientific and symbolic purposes. In 1994 they took on the re14,202 sponsibility for developing an advanced technology launch vehicle in partnership with the private sector. They tried to
+
+14,559 do this by becoming more efficient. "Faster, better, cheaper" became the NASA slogan of the 1990s.23 14,868
+
+The flat budget at NASA particularly affected the hu-
+
+NA
+
+> man space flight enterprise. During the decade before the Columbia accident, NASA rebalanced the share of its bud-
+
+NA
+
+> get allocated to human space flight from 48 percent of agency funding in Fiscal Year 1991 to 38 percent in Fiscal Year 1999, with the remainder going mainly to other science and technology efforts. On NASAʼs fixed budget, that meant
 
 %%page 104%%
 
-## EARMARKS
+tion of Boris Yeltsin and halting the proliferation of nuclear
+
+#### EARMARKS
 
 Pressure on NASAʼs budget has come not only from the
 
@@ -3645,7 +3655,7 @@ Fiscal Year 2002 earmarks represented "a net total of $540 million in reductions
 
 2003 3,208.0 3,252.8
 
-Figure 5.3-4. Space Shuttle Program Budget (in millions of dollars). (Source: NASA Office of Space Flight) * NASAʼs operating plan is the means for adjusting congressional appropriations among various activities during the fiscal year as changing
+Figure 5.3-4. Space Shuttle Program Budget (in millions of dollars). (Source: NASA Office of Space Flight) * NASAʼs operating plan is the means for adjusting congressional appropriations among various activities during the fiscal year as changing circumstances dictate. These changes must be approved by NASAʼs appropriation subcommittees before they can be put into effect. **This reduction primarily reflects the congressional cancellation of the Advanced Solid Rocket Motor Program
 
 weapons and the means to deliver them. Space Shuttle Program Budget Patterns
 
@@ -3679,27 +3689,17 @@ Operating Plan*
 
 –5.0 3,270.0 –8.9
 
-+44.8 circumstances dictate. These changes must be approved by NASAʼs appropriation subcommittees before they can be put into effect. **This reduction primarily reflects the congressional cancellation of the Advanced Solid Rocket Motor Program
++44.8
 
 %%page 105%%
 
-6000 40% Purchasing Power 45% Purchasing Power
-
-"Freeze Design"
-
 Constant FY 2002 Dollars in Millions
 
-> Policy 4500 (Kraft Report) Space Flight for High Priority
+- Flight Rate — 7
 
-> 3000 Initiated Space Shuttle
+91 92 Y93 Y94 Y95 Y96 Y97 Y98 Y99 Y00 Y01 Y02 Y03 Y04 Y05 Y06 Y07 Y08
 
-2500 Upgrades Prgrm
-
-2000 Operating Plan Actuals
-
-- Flight Rate 7 8 6 8 8 4 4 4 7 — 4
-
-> 91 92 Y93 Y94 Y95 Y96 Y97 Y98 Y99 Y00 Y01 Y02 Y03 Y04 Y05 Y06 Y07 Y08 FY FY F F F F F F F F F F F F F F F
+#### FY FY F F F
 
 Figure 5.3-5. NASA budget as a percentage of the Federal budget from 1991 to 2008. (Source: NASA Office of Space Flight)
 
@@ -3707,17 +3707,31 @@ This budget squeeze also came at a time when the Space Shuttle Program exhibited
 
 As Figure 5.3-5 indicates, most of the steep reductions in the Shuttle budget date back to the first half of the 1990s. In the second half of the decade, the White House Office of Management and Budget and NASA Headquarters held the Shuttle budget relatively level by deferring substantial funding for Shuttle upgrades and infrastructure improvements, while keeping pressure on NASA to limit increases in operating costs.
 
-## 5.4 TURBULENCE IN NASA HITS THE SPACE SHUTTLE PROGRAM
+## 5.4 Turbulence in NASA Hits the Space Shuttle Program
 
 In 1992 the White House replaced NASA Administrator Richard Truly with aerospace executive Daniel S. Goldin, a self-proclaimed "agent of change" who held office from April 1, 1992, to November 17, 2001 (in the process becoming the longest-serving NASA Administrator). Seeing "space exploration (manned and unmanned) as NASAʼs principal purpose with Mars as a destiny," as one management scholar observed, and favoring "administrative transformation" of NASA, Goldin engineered "not one or two policy changes, but a torrent of changes. This was not evolutionary change, but radical or discontinuous change."26 His tenure at NASA was one of continuous turmoil, to which the Space Shuttle Program was not immune. Of course, turbulence does not necessarily degrade organizational performance. In some cases, it accompanies pro- ductive change, and that is what Goldin hoped to achieve. He believed in the management approach advocated by W. Edwards Deming, who had developed a series of widely acclaimed management principles based on his work in Japan during the "economic miracle" of the 1980s. Goldin attempted to apply some of those principles to NASA, including the notion that a corporate headquarters should
 
-## CONGRESSIONAL BUDGET REDUCTIONS
+40% Purchasing Power 45% Purchasing Power
 
-In most years, Congress appropriates slightly less for the
+#### CONGRESSIONAL BUDGET REDUCTIONS
 
-Space Shuttle Program than the President requested; in some cases, these reductions have been requested by NASA during the final stages of budget deliberations. After its budget was passed by Congress, NASA further reduced the Shuttle budget in the agencyʼs operating plan–the plan by which
+"Freeze Design" In most years, Congress appropriates slightly less for the
 
-NASA actually allocates its appropriated budget during the fiscal year to react to changing program needs. These released funds were allocated to other activities, both within the human space flight program and in other parts of the agency. Changes in recent years include:
+Policy Initial Funding (Kraft Report) Space Flight for High Priority Space Shuttle Program than the President requested; in some
+
+> Operations Contract Safety Upgrades cases, these reductions have been requested by NASA during the final stages of budget deliberations. After its budget was
+
+passed by Congress, NASA further reduced the Shuttle Initiated Space Shuttle budget in the agencyʼs operating plan–the plan by which Upgrades Prgrm
+
+> 1st Flight to ISS NASA actually allocates its appropriated budget during
+
+Operating Plan Actuals
+
+> FY 2004 President's Budget the fiscal year to react to changing program needs. These
+
+8 6 8 8 4 4 4 7 4 6 5 5 5 5 5 released funds were allocated to other activities, both within the human space flight program and in other parts of the
+
+F F F F F F F F F F F F F agency. Changes in recent years include:
 
 Fiscal Year 1997
 
@@ -3725,53 +3739,21 @@ Fiscal Year 1997
 
 Station (ISS).
 
-Fiscal Year 1998
+> Fiscal Year 1998 • At NASAʼs request, Congress transferred $50 million to ISS. • NASA transferred $15 million to ISS.
 
-• At NASAʼs request, Congress transferred $50 million to
+> Fiscal Year 1999 • At NASAʼs request, Congress reduced Shuttle $31 million so NASA could fund other requirements. • NASA reduced Shuttle $32 million by deferring two flights; funds transferred to ISS. • NASA added $2.3 million from ISS to previous NASA request.
 
-ISS.
+> Fiscal Year 2000 • Congress added $25 million to Shuttle budget for upgrades and transferred $25 million from operations to upgrades. • NASA reduced Shuttle $11.5 million per government- wide rescission requirement and transferred $15.3 million to ISS.
 
-• NASA transferred $15 million to ISS.
+> Fiscal Year 2001 • At NASAʼs request, Congress reduced Shuttle budget by $40 million to fund Mars initiative. • NASA reduced Shuttle $6.9 million per rescission requirement.
 
-Fiscal Year 1999
+> Fiscal Year 2002 • Congress reduced Shuttle budget $50 million to reflect cancellation of electric Auxiliary Power Unit and added $20 million for Shuttle upgrades and $25 million for Vehicle Assembly Building repairs. • NASA transferred $7.6 million to fund Headquarters requirements and cut $1.2 million per rescission requirement. [Source: Marcia Smith, Congressional Research Service, Presentation at CAIB Public Hearing, June 12, 2003]
 
-• At NASAʼs request, Congress reduced Shuttle $31 million so NASA could fund other requirements.
-
-• NASA reduced Shuttle $32 million by deferring two flights; funds transferred to ISS.
-
-• NASA added $2.3 million from ISS to previous NASA request.
-
-Fiscal Year 2000
-
-• Congress added $25 million to Shuttle budget for up-
-
-> grades and transferred $25 million from operations to upgrades.
-
-• NASA reduced Shuttle $11.5 million per government-
-
-> wide rescission requirement and transferred $15.3 million to ISS.
-
-Fiscal Year 2001
-
-• At NASAʼs request, Congress reduced Shuttle budget by
-
-$40 million to fund Mars initiative.
-
-• NASA reduced Shuttle $6.9 million per rescission requirement.
-
-Fiscal Year 2002
-
-• Congress reduced Shuttle budget $50 million to reflect
-
-> cancellation of electric Auxiliary Power Unit and added $20 million for Shuttle upgrades and $25 million for Vehicle Assembly Building repairs.
-
-• NASA transferred $7.6 million to fund Headquarters re-
-
-> quirements and cut $1.2 million per rescission requirement.
-
-[Source: Marcia Smith, Congressional Research Service, Presentation at CAIB Public Hearing, June 12, 2003] t attempt to exert bureaucratic control over a complex ganization, but rather set strategic directions and provide erating units with the authority and resources needed to rsue those directions. Another Deming principle was that ecks and balances in an organization were unnecessary and sometimes counterproductive, and those carrying out the work should bear primary responsibility for its quality. It is arguable whether these business principles can readily be applied to a government agency operating under civil service rules and in a politicized environment. Nevertheless, Goldin sought to implement them throughout his tenure.27
+> not attempt to exert bureaucratic control over a complex organization, but rather set strategic directions and provide operating units with the authority and resources needed to pursue those directions. Another Deming principle was that checks and balances in an organization were unnecessary
 
 %%page 106%%
+
+and sometimes counterproductive, and those carrying out the work should bear primary responsibility for its quality. It is arguable whether these business principles can readily be applied to a government agency operating under civil service rules and in a politicized environment. Nevertheless, Goldin sought to implement them throughout his tenure.27
 
 Goldin made many positive changes in his decade at NASA. By bringing Russia into the Space Station partnership in 1993, Goldin developed a new post-Cold War rationale for the agency while managing to save a program that was politically faltering. The International Space Station became NASAʼs premier program, with the Shuttle serving in a supporting role. Goldin was also instrumental in gaining acceptance of the "faster, better, cheaper"28 approach to the planning of robotic missions and downsizing "an agency that was considered bloated and bureaucratic when he took it over."29
 
@@ -3811,7 +3793,7 @@ MSFC 9,298 8,635 8,210 7,837
 
 - Headquarters 85 74 70 — 37
 
-Figure 5.4-1. Space Shuttle Program workforce. [Source: NASA Office of Space Flight]
+Figure 5.4-1. Space Shuttle Program workforce. [Source: NASA Office of Space Flight] * Because Johnson Space Center manages the Space Flight Operations Contract, all United Space Alliance employees are counted as working for Johnson.
 
 Space Shuttle Program and thereby free up those skills for finishing the space station and beginning work on his pre- ferred objective–human exploration of Mars. Such a shift would return NASA to its exploratory mission. He was often at odds with those who continued to focus on the centrality of the Shuttle to NASAʼs future.
 
@@ -3839,7 +3821,7 @@ With Center infrastructure off-limits, this left the Space Shuttle budget as an 
 
 17,281 16,700 16,291 16,065 16,253 15,744
 
-10,556 10,525 10,733 10,854 11,414 11,445
+*10,556 10,525 10,733 10,854 11,414 11,445
 
 - 539 511 430 436 439 — 408
 
@@ -3848,8 +3830,6 @@ With Center infrastructure off-limits, this left the Space Shuttle budget as an 
 - 536 453 329 331 203 — 196
 
 - 0 0 0 0 0 — 0
-
-* Because Johnson Space Center manages the Space Flight Operations Contract, all United Space Alliance employees are counted as working for Johnson.
 
 %%page 107%%
 
@@ -3892,7 +3872,7 @@ The report made the following findings and recommendations:
 
 When he released his committeeʼs report, Kraft said that "if NASA wants to make more substantive gains in terms of efficiency, cost savings and better service to its customers, we think itʼs imperative they act on these recommendations … And we believe that these savings are real, achievable, and can be accomplished with no impact to the safe and successful operation of the Shuttle system."41
 
-Although the Kraft Report stressed that the dramatic changes it recommended could be made without compromising safety, there was considerable dissent about this claim. NASAʼs Aerospace Safety Advisory Panel – independent, but often not very influential – was particularly critical. In May 1995, the Panel noted that "the assumption [in the Kraft Report] that the Space Shuttle systems are now ʻmatureʼ smacks of a complacency which may lead to serious mishaps. The fact is that the Space Shuttle may never be mature enough to totally freeze the design." The Panel also noted that "the report dismisses the concerns of many credible sources by labeling honest reservations and the people who have made them as being partners in an unneeded ʻsafety shieldʼ conspiracy. Since only one more accident would kill the program and destroy far more than the spacecraft, it is extremely callous"
+Although the Kraft Report stressed that the dramatic changes it recommended could be made without compromising safety, there was considerable dissent about this claim. NASAʼs Aerospace Safety Advisory Panel – independent, but often not very influential – was particularly critical. In May 1995, the Panel noted that "the assumption [in the Kraft Report] that the Space Shuttle systems are now ʻmatureʼ smacks of a complacency which may lead to serious mishaps. The fact is that the Space Shuttle may never be mature enough to totally freeze the design." The Panel also noted that "the report dismisses the concerns of many credible sources by labeling honest reservations and the people who have made them as being partners in an unneeded ʻsafety shieldʼ conspiracy. Since only one more accident would kill the program and destroy far more than the spacecraft, it is extremely callous" to make such an accusation.42
 
 The notion that NASA would further reduce the number of civil servants working on the Shuttle Program prompted senior Kennedy Space Center engineer José Garcia to send to President Bill Clinton on August 25, 1995, a letter that stated, "The biggest threat to the safety of the crew since the Challenger disaster is presently underway at NASA." Garciaʼs particular concern was NASAʼs "efforts to delete the ʻchecks and balancesʼ system of processing Shuttles as a way of saving money … Historically NASA has employed two engineering teams at KSC, one contractor and one government, to cross check each other and prevent catastrophic errors … although this technique is expensive, it is effective, and it is the single most important factor that sets the Shuttleʼs success above that of any other launch vehicle … Anyone who doesnʼt have a hidden agenda or fear of losing his job would admit that you canʼt delete NASAʼs checks and balances system of Shuttle processing without affecting the safety of the Shuttle and crew."43
 
@@ -3902,13 +3882,13 @@ In November 1995, NASA awarded the operations contract to United Space Alliance 
 
 The Space Flight Operations Contract was designed to reward United Space Alliance for performance successes and penal- ize its performance failures. Before being eligible for any performance fees, United Space Alliance would have to meet a series of safety "gates," which were intended to ensure that safety remained the top priority in Shuttle operations. The contract also rewarded any cost reductions that United Space Alliance was able to achieve, with NASA taking 65 percent of any savings and United Space Alliance 35 percent.45
 
-NASA and United Space Alliance formally signed the Space Flight Operations Contract on October 1, 1996. Initially, only the major Lockheed Martin and Rockwell Shuttle contracts and a smaller Allied Signal Unisys contract were transferred to United Space Alliance. The initial contractual period was six years, from October 1996 to September 2002. NASA exercised an option for a two-year extension in 2002, and another two-year option exists. The total value of the contract through the current extension is estimated at $12.8 billion. United Space Alliance currently has approximately to make such an accusation.42 10,000 employees.
+NASA and United Space Alliance formally signed the Space Flight Operations Contract on October 1, 1996. Initially, only the major Lockheed Martin and Rockwell Shuttle contracts and a smaller Allied Signal Unisys contract were transferred to United Space Alliance. The initial contractual period was six years, from October 1996 to September 2002. NASA exercised an option for a two-year extension in 2002, and another two-year option exists. The total value of the contract through the current extension is estimated at $12.8 billion. United Space Alliance currently has approximately 10,000 employees.
 
 %%page 109%%
 
 The contract provided for additional consolidation and then
 
-## SPACE FLIGHT OPERATIONS CONTRACT
+#### SPACE FLIGHT OPERATIONS CONTRACT
 
 The Space Flight Operations Contract has two major areas of innovation:
 
@@ -3938,7 +3918,7 @@ Under the Space Flight Operations Contract, NASA has the following responsibilit
 - Developing requirements for major upgrades to all assets
 - Participating in the planning of Shuttle missions, the directing of launches, and the execution of flights
 - Performing surveillance and audits and obtaining technical insight into contractor activities
-- Deciding if and when to "commit to flight" for each mis-
+- Deciding if and when to "commit to flight" for each mission46
 
 privatization, when all remaining Shuttle operations would be transferred from NASA. Phase 2, scheduled for 1998- 2000, called for the transfer of Johnson Space Center-managed flight software and flight crew equipment contracts and the Marshall Space Center-managed contracts for the External Tank, Space Shuttle Main Engine, Reusable Solid Rocket Motor, and Solid Rocket Booster.
 
@@ -3954,11 +3934,11 @@ By August 2001, NASA Headquarters prepared for White House consideration a "Priv
 
 Dittemoreʼs plan recommended transferring 700 to 900 NASA employees to the private organization, including:
 
-> sion46 • Astronauts, including the flight crew members who operate the Shuttle
+- Astronauts, including the flight crew members who operate the Shuttle
 
 %%page 110%%
 
-- Program and project management, including Space 26,000
+- Program and project management, including Space
 
 Shuttle Main Engine, External Tank, Redesigned Solid
 
@@ -3984,6 +3964,8 @@ While the overall workforce at the NASA Centers involved in human space flight w
 
 By the end of the decade, NASA realized that staff reductions had gone too far. By early 2000, internal and external
 
+26,000
+
 24,000
 
 Full Time Persons Employment
@@ -4006,11 +3988,11 @@ Full Time Persons Employment
 
 - 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 — 2003
 
-igure 5.4-2. Downsizing of the overall NASA workforce and the ASA technical workforce.
+Figure 5.4-2. Downsizing of the overall NASA workforce and the NASA technical workforce.
 
 studies convinced NASA leaders that the workforce needed to be revitalized. These studies noted that "five years of buyouts and downsizing have led to serious skill imbal- ances and an overtaxed core workforce. As more employees have departed, the workload and stress [on those] remaining have increased, with a corresponding increase in the potential for impacts to operational capacity and safety."[^53] NASA announced that NASA workforce downsizing would stop short of the 17,500 target, and that its human space flight centers would immediately hire several hundred workers.
 
-## 5.5 WHEN TO REPLACE THE SPACE SHUTTLE?
+## 5.5 When to Replace the Space Shuttle?
 
 In addition to budget pressures, workforce reductions, management changes, and the transfer of government functions to the private sector, the Space Shuttle Program was beset during the past decade by uncertainty about when the Shuttle might be replaced. National policy has vacillated between treating the Shuttle as a "going out of business" program and anticipating two or more decades of Shuttle use. As a result, limited and inconsistent investments have been made in Shuttle upgrades and in revitalizing the infrastructure to support the continued use of the Shuttle.
 
@@ -4047,7 +4029,7 @@ This shifting date for Shuttle replacement has severely complicated decisions on
 
 %%page 112%%
 
-## PAST REPORTS REVIEWED
+#### PAST REPORTS REVIEWED
 
 During the course of the investigation, more than 50 past reports regarding NASA and the Space Shuttle Program were reviewed. The principal purpose of these reviews was to note what factors that reports examined, what findings were made, and what response, if any, NASA may have made to the findings. Board members then used these findings and responses as a benchmark during their investigation to compare to NASAʼs current programs. In addition to an extensive 300-page examination of every Aerospace Safety Advisory Panel report (see Appendix D.18), the reports listed on the accompanying chart were examined for specific factors related to the investigation. A complete listing of those past reportsʼ findings, plus the full text of the reports, is contained in Appendix D.18.
 
@@ -4093,41 +4075,15 @@ S&MA Ground Operations Report – 1999 • • Space Shuttle Independent Assessm
 
 %%page 113%%
 
-> Risk Infrastructure
+> Risk Infrastructure Communica-
 
-tions
+GAO: Human Capital & Safety – 2000 Independent Assessment JS-0032 – 2000 Independent Assessment JS-0034 – 2000 Independent Assessment JS-0045 – 2000 IG Audit Report 00-039 – 2000 NASA Independent Assessment Team – 2000 • Space Shuttle Program Annual Report – 2000 • ASAP Report – 2001 • GAO: NASA Critical Areas – 2001 GAO: Space Shuttle Safety – 2001 Independent Assessment JS-1014 – 2001 • Independent Assessment JS-1024 – 2001 • Independent Assessment KS-0003 – 2001 • Independent Assessment KS-1001 – 2001 Workforce Survey-KSC – 2001 Space Shuttle Program Annual Report – 2001 • SSP Processing Independent Assessment – 2001 ASAP Report – 2002 • GAO: Lessons Learned Process – 2002 Independent Assessment KS-1002 – 2002 Selected NASA Lessons Learned – 1992-2002 • NASA/Navy Benchmarking Exchange – 2002 Space Shuttle Program Annual Report – 2002 • ASAP Leading Indicators -- 2003 • NASA Quality Management System – 2003
 
-GAO: Human Capital & Safety – 2000 Independent Assessment JS-0032 – 2000 Independent Assessment JS-0034 – 2000 Independent Assessment JS-0045 – 2000 IG Audit Report 00-039 – 2000 NASA Independent Assessment Team – 2000 • Space Shuttle Program Annual Report – 2000 • ASAP Report – 2001 • GAO: NASA Critical Areas – 2001 GAO: Space Shuttle Safety – 2001 Independent Assessment JS-1014 – 2001 • Independent Assessment JS-1024 – 2001 • Independent Assessment KS-0003 – 2001 • Independent Assessment KS-1001 – 2001 Workforce Survey-KSC – 2001 Space Shuttle Program Annual Report – 2001 • SSP Processing Independent Assessment – 2001 ASAP Report – 2002 • GAO: Lessons Learned Process – 2002 Independent Assessment KS-1002 – 2002 Selected NASA Lessons Learned – 1992-2002 • NASA/Navy Benchmarking Exchange – 2002 • Space Shuttle Program Annual Report – 2002 • ASAP Leading Indicators -- 2003 • NASA Quality Management System – 2003
+Maintenance Quality Safety Workforce Contracts Security tions Management Issues Assurance Programs
 
-Maintenance munica- Quality Safety Workforce
+• • • • • • • • • • • • • • • • • • •
 
-Contracts Security tions Management Issues
-
-Assurance Programs
-
-> • •
-
-> • •
-
-• • • • •
-
-> • • • • • • • • • • •
-
-• • • • • • • • • •
-
-> • • • • •
-
-• •
-
-> • • • • • • • • •
-
-•
-
-• • • • • • • • • • • •
-
-• • • • • •
-
-• QAS Tiger Team Report – 2003 • Shuttle Business Environment – 2003 •
+• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • QAS Tiger Team Report – 2003 • Shuttle Business Environment – 2003 •
 
 %%page 114%%
 
@@ -4169,7 +4125,7 @@ Board investigators have identified deteriorating infrastructure associated with
 
 %%page 115%%
 
-## 5.6 A CHANGE IN NASA LEADERSHIP
+## 5.6 A Change in NASA Leadership
 
 Figure 5.5-4. Age of the Space Shuttle infrastructure. (Source: Con- nie Milton to Space Flight Advisory Council, 2000.
 
@@ -4203,13 +4159,15 @@ As a step in implementing the plan, NASA included $281.4 million in its Fiscal Y
 
 Figure 5.6-1. The Integrated Space Transportation Plan.
 
-## 5. 7 THE RETURN OF SCHEDULE PRESSURE
+## 5.7 The Return of Schedule Pressure
 
 The International Space Station has been the centerpiece of NASAʼs human space flight program in the 1990s. In several instances, funds for the Shuttle Program have paid for various International Space Station items. The Space Station has also affected the Space Shuttle Program schedule. By the time the functional cargo block Zarya, the Space Stationʼs first element, was launched from the Baikonur Cosmodrome in Kazakhstan in November 1998, the Space Station was two years behind schedule. The launch of STS-88, the first of many Shuttle missions assigned to station assembly, followed a month later. Another four assembly missions in 1999 and 2000 readied the station for its first permanent crew, Expedition 1, which arrived in late 2000.
 
 When the Bush Administration came to the White House in January 2001, the International Space Station program was $4 billion over its projected budget. The Administrationʼs Fiscal Year 2002 budget, released in February 2001, declared that the International Space Station would be limited to a "U.S Core Complete" configuration, a reduced design that could accommodate only three crew members. The last step in completing the U.S. portion of this configuration would be the addition of the Italian-supplied but U.S.- owned "Node 2," which would allow Europe and Japan to connect their laboratory modules to the Station. Launching Node 2 and thereby finishing "core complete" configuration became an important political and programmatic milestone (see Figure 5.7-1).
 
-Node 2 igure 5.7-1. The "Core Complete" configuration of the Interna- ional Space Station.
+Node 2
+
+Figure 5.7-1. The "Core Complete" configuration of the International Space Station.
 
 During congressional testimony in May of 2001, Sean OʼKeefe, who was then Deputy Director of the White House Office of Management and Budget, presented the Administrationʼs plan to bring International Space Station costs under control. The plan outlined a reduction in assembly and logistics flights to reach "core complete" configuration from 36 to 30. It also recommended redirecting about $1 billion in funding by canceling U.S. elements not yet completed, such as the habitation module and the X-38 Crew Return Vehicle. The X-38 would have allowed emergency evacuation and landing capability for a seven-member station crew. Without it, the crew was limited to three, the number that could fit into a Russian Soyuz crew rescue vehicle.
 
@@ -4235,9 +4193,7 @@ The concept presented by the task force of a decision gate in two years that cou
 
 Mr. OʼKeefe added in closing:
 
-A most important next step – one on which the success of all these reforms hinges – is to provide new leadership for NASA and its Human Space Flight activities. NASA has been well-served by Dan Goldin. New leadership is now necessary to continue moving the ball down the
-
-> field with the goal line in sight. The Administration rec- ognizes the importance of getting the right leaders in place as soon as possible, and I am personally engaged in making sure that this happens.
+A most important next step – one on which the success of all these reforms hinges – is to provide new leadership for NASA and its Human Space Flight activities. NASA has been well-served by Dan Goldin. New leadership is now necessary to continue moving the ball down the field with the goal line in sight. The Administration recognizes the importance of getting the right leaders in place as soon as possible, and I am personally engaged in making sure that this happens.
 
 A week later, Sean OʼKeefe was nominated by President Bush as the new NASA Administrator.
 
@@ -4251,7 +4207,7 @@ By November 2002, NASA had flown 16 Space Shuttle missions dedicated to Station 
 
 In 2002, this reality, and the events of the months that would follow, began to place additional schedule pressures on the Space Shuttle Program. Those pressures are discussed in Section 6.2.
 
-## 5.8 CONCLUSION
+## 5.8 Conclusion
 
 Over the last decade, the Space Shuttle Program has operated in a challenging and often turbulent environment. As discussed in this chapter, there were at least three major contributing factors to that environment:
 
@@ -4263,7 +4219,7 @@ Over the last decade, the Space Shuttle Program has operated in a challenging an
 
 The Board observes that this is hardly an environment in which those responsible for safe operation of the Shuttle can function without being influenced by external pressures. It is to the credit of Space Shuttle managers and the Shuttle workforce that the vehicle was able to achieve its program objectives for as long as it did.
 
-An examination of the Shuttle Programʼs history from Challenger to Columbia raises the question: Did the Space Shuttle Program budgets constrained by the White House and Congress threaten safe Shuttle operations? There is no straightforward answer. In 1994, an analysis of the Shuttle budget concluded that reductions made in the early 1990s represented a "healthy tightening up" of the program.77 Certainly those in the Office of Management and Budget and in NASAʼs congressional authorization and appropriations subcommittees thought they were providing enough resources to operate the Shuttle safely, while also taking into account the expected Shuttle lifetime and the many other demands on the Federal budget. NASA Headquarters agreed, at least until Administrator Goldin declared a "space launch crisis" in June 1999 and asked that additional resources for safety upgrades be added to the NASA budget. By 2001,
+An examination of the Shuttle Programʼs history from Challenger to Columbia raises the question: Did the Space Shuttle Program budgets constrained by the White House and Congress threaten safe Shuttle operations? There is no straightforward answer. In 1994, an analysis of the Shuttle budget concluded that reductions made in the early 1990s represented a "healthy tightening up" of the program.77 Certainly those in the Office of Management and Budget and in NASAʼs congressional authorization and appropriations subcommittees thought they were providing enough resources to operate the Shuttle safely, while also taking into account the expected Shuttle lifetime and the many other demands on the Federal budget. NASA Headquarters agreed, at least until Administrator Goldin declared a "space launch crisis" in June 1999 and asked that additional resources for safety upgrades be added to the NASA budget. By 2001, however, one experienced observer of the space program described the Shuttle workforce as "The Few, the Tired,"
 
 and suggested that "a decade of downsizing and budget tightening has left NASA exploring the universe with a less experienced staff and older equipment."78
 
@@ -4273,7 +4229,7 @@ An examination of the Programʼs management changes also leads to the question: 
 
 As the 21st century began, NASAʼs deeply ingrained human space flight culture – one that has evolved over 30 years as the basis for a more conservative, less technically and organizationally capable organization than the Apollo-era NASA – remained strong enough to resist external pressures for ad- aptation and change. At the time of the launch of STS-107, NASA retained too many negative (and also many positive) aspects of its traditional culture: "flawed decision making, self deception, introversion and a diminished curiosity about the world outside the perfect place."79 These characteristics were reflected in NASAʼs less than stellar performance before and during the STS-107 mission, which is described in the following chapters.
 
-however, one experienced observer of the space program described the Shuttle workforce as "The Few, the Tired,"
+## ENDNOTES FOR CHAPTER 5
 
 The citations that contain a reference to "CAIB document" with CAB or
 
@@ -4295,7 +4251,7 @@ Report of The National Commission for the Review of the National
 
 Reconnaissance Office: The NRO at the Crossroads, November 2000, p.
 
-### Roger Guillemette, "Vandenberg: Space Shuttle Launch and Landing
+#### Roger Guillemette, "Vandenberg: Space Shuttle Launch and Landing
 
 Site, Part 1," Spaceflight, October 1994, pp. 354-357, and Roger
 
@@ -4317,21 +4273,27 @@ Aviation Week & Space Technology, November 10, 1986, p. 30.[^10]
 
 > There are proposals for using other U.S. systems, in development but not yet ready for flight, to provide an alternate U.S. means of station access. These "Alternate Access to Space" proposals have not been evaluated
 
-by the Board.
+by the Board.[^11]
 
 > Testimony of William F. Readdy to the Subcommittee on Science, Technology and Space, U.S. Senate, September 6, 2001.
 
-> Bush administration space policy is discussed in Dan Quayle, Standing Firm: A Vice-Presidential Memoir (New York: Harper Collins, 1994), pp. 185-190.
+Bush administration space policy is discussed in Dan Quayle, Standing
 
-> Report of the Advisory Committee on the Future of the U.S. Space Program, December 1990. The quotes are from p. 2 of the reportʼs
+Firm: A Vice-Presidential Memoir (New York: Harper Collins, 1994), pp. 185-190. 17
 
-executive summary. 18
+Report of the Advisory Committee on the Future of the U.S. Space
 
-> Report of the Advisory Committee on the Future of the U.S. Space Program. Measured in terms of total national spending, the reportʼs
+Program, December 1990. The quotes are from p. 2 of the reportʼs executive summary. 18
 
-> recommendations would have returned NASA spending to 0.38 percent of U.S. Gross Domestic Product – a level of investment not seen since 1969.
+Report of the Advisory Committee on the Future of the U.S. Space
 
-> For Fiscal Years 1965-2002 in Real and Constant Dollars, see NASA, "Space Activities of the U.S. Government – in Millions of Real Year
+Program. Measured in terms of total national spending, the reportʼs recommendations would have returned NASA spending to 0.38 percent of U.S. Gross Domestic Product – a level of investment not seen since
+
+1969.
+
+For Fiscal Years 1965-2002 in Real and Constant Dollars, see NASA,
+
+"Space Activities of the U.S. Government – in Millions of Real Year
 
 Dollars," and "Space Activities of the U.S. Government – Adjusted for
 
@@ -4341,23 +4303,33 @@ Inflation," in Aeronautics and Space Report of the President – Fiscal Year
 
 2004, (Washington: Government Printing Office, 2003), pp. 70-75.
 
-> Commission on the Future of the U.S. Aerospace Industry, Final Report, November 18, 2002, p. 3-1.
+Commission on the Future of the U.S. Aerospace Industry, Final Report,
 
-> U.S. Congress, Office of Technology Assessment, "Shuttle Fleet Attrition if Orbiter Recovery Reliability is 98 Percent," August 1989, p. 6. From:
+November 18, 2002, p. 3-1. 21
 
-> Round Trip to Orbit: Human Space Flight Alternatives: Special Report, OTS-ISC-419.
+U.S. Congress, Office of Technology Assessment, "Shuttle Fleet Attrition if Orbiter Recovery Reliability is 98 Percent," August 1989, p. 6. From:
 
-> Report of the Advisory Committee on the Future of the U.S. Space Program.
+Round Trip to Orbit: Human Space Flight Alternatives: Special Report,
 
-> Howard E. McCurdy, Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program (Baltimore: The Johns Hopkins University Press, 2001).
+OTS-ISC-419.
 
-> Letter from Daniel Goldin to Representative James T. Walsh, October 4, 2001. CAIB document CAB065-01630169.
+Report of the Advisory Committee on the Future of the U.S. Space
+
+Program. 23
+
+Howard E. McCurdy, Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program (Baltimore: The Johns Hopkins University Press,
+
+2001).
+
+Letter from Daniel Goldin to Representative James T. Walsh, October 4,
+
+2001. CAIB document CAB065-01630169. 25
 
 Ibid. 26
 
-> Remaking of NASA (Washington: Price Waterhouse Coopers Endowment for the Business of Government, March 2001), pp. 12; 27-29.[^11] W. Henry Lambright, Transforming Government: Dan Goldin and the
+#### Henry Lambright, Transforming Government: Dan Goldin and the
 
-- 32 — 57
+Remaking of NASA (Washington: Price Waterhouse Coopers Endowment for the Business of Government, March 2001), pp. 12; 27-29.
 
 > For two recent works that apply the "Iron Triangle" concept to other policy areas, see Randall B. Ripley and Grace A. Franklin, Congress, the Bureaucracy and Public Policy, 5th Edition, (Pacific Grove, CA: Brooks/ Cole Publishing Company, 1991); and Paul C. Light, Forging Legislation: The Politics of Veterans Reform, (New York: W. W. Norton, 1992).
 
@@ -4419,19 +4391,25 @@ CAB015-1134; "Space Shuttle Privatization," CAIB document CAB015-
 
 Ron Dittemore, "Concept of Privatization of the Space Shuttle Program,"
 
-> The White House, Office of Science and Technology Policy, "Fact Sheet--National Space Transportation Policy," August 5, 1994, pp. 1-2, reprinted in Logsdon et al., Exploring the Unknown, Volume IV, pp. 626- 631.
+September 2001. CAIB document CTF005-0283.
+
+The White House, Office of Science and Technology Policy, "Fact
+
+Sheet--National Space Transportation Policy," August 5, 1994, pp. 1-2, reprinted in Logsdon et al., Exploring the Unknown, Volume IV, pp. 626631. 58
 
 Report of the Space Shuttle Management Independent Review Team, pp. 3-18. 59
 
-"Statement of William F. Readdy, Deputy Associate Administrator, Office
+"Statement of William F. Readdy, Deputy Associate Administrator, Office of Space Flight, National Aeronautics and Space Administration before the Subcommittee on Space and Aeronautics Committee on Science,
 
-> of Space Flight, National Aeronautics and Space Administration before the Subcommittee on Space and Aeronautics Committee on Science, House of Representatives," October 21, 1999. CAIB document CAB026- 0146.
+House of Representatives," October 21, 1999. CAIB document CAB0260146.
 
-> Letter from Daniel Goldin to Jacob Lew, Director, Office of Management and Budget, July 6, 1999.
+Letter from Daniel Goldin to Jacob Lew, Director, Office of Management and Budget, July 6, 1999. 61
 
 NASA, Space Shuttle Independent Assessment Team, "Report to the
 
-> Associate Administrator, Office of Space Flight, October-December 1999," March 7, 2000. CAIB document CTF017-0169.
+Associate Administrator, Office of Space Flight, October-December
+
+1999," March 7, 2000. CAIB document CTF017-0169. 62
 
 Ibid.
 
@@ -4441,13 +4419,21 @@ Dr. Richard Beck, Director, Resources Analysis Division, NASA, "Agency
 
 Budget Overview, FY 2003 Budget," February 6, 2002, p. 20. CAIB document CAB070-0001.
 
-> Space Flight Advisory Committee, NASA Office of Space Flight, Meeting Report, May 1-2, 2001, p. 7. CAIB document CTF017-0034.
+Space Flight Advisory Committee, NASA Office of Space Flight, Meeting
 
-> Senators Bill Nelson, Bob Graham, Mary Landrieu, John Breaux, and Orrin Hatch to Senator Barbara Mikulski, September 18, 2001.
+Report, May 1-2, 2001, p. 7. CAIB document CTF017-0034. 66
 
-> Space Flight Advisory Committee, NASA Office of Space Flight, Meeting Report, May 1-2, 2001, p. 7. CAIB document CTF017-0034.
+Senators Bill Nelson, Bob Graham, Mary Landrieu, John Breaux, and
 
-> Task Force on Space Shuttle Competitive Sourcing, Alternate Trajectories: Options for Competitive Sourcing of the Space Shuttle Program,
+Orrin Hatch to Senator Barbara Mikulski, September 18, 2001. 67
+
+Space Flight Advisory Committee, NASA Office of Space Flight, Meeting
+
+Report, May 1-2, 2001, p. 7. CAIB document CTF017-0034.
+
+Task Force on Space Shuttle Competitive Sourcing, Alternate Trajectories:
+
+Options for Competitive Sourcing of the Space Shuttle Program,
 
 Executive Summary, The RAND Corporation, 2002. CAIB document
 
@@ -4455,11 +4441,13 @@ CAB003-1614.
 
 NNBE Benchmarking Team, NASA Office of Safety & Mission Assurance and NAVSEA 92Q Submarine Safety & Quality Assurance Division,
 
-> "NASA/Navy Benchmarking Exchange (NNBE)," Interim Report, December 20, 2002. CAIB document CAB030-0392. The teamʼs final report was issued in July 2003.
+"NASA/Navy Benchmarking Exchange (NNBE)," Interim Report,
 
-NASA FY 2004 Congressional Budget, "Theme: Space Shuttle." [Excerpt
+December 20, 2002. CAIB document CAB030-0392. The teamʼs final report was issued in July 2003. 70
 
-> from NASA FY 2004 budget briefing book also known as the "IBPD Narrative"]. CAIB document CAB065-04190440.
+NASA FY 2004 Congressional Budget, "Theme: Space Shuttle." [Excerpt from NASA FY 2004 budget briefing book also known as the "IBPD
+
+Narrative"]. CAIB document CAB065-04190440. 71
 
 NASA, "Theme: Space Shuttle." CAIB document CAB065-04190440.
 
@@ -4469,27 +4457,35 @@ Budget, to the Subcommittee of the Committee on Appropriations, "Part
 
 1, National Aeronautics and Space Administration," Hearings Before a
 
-> Subcommittee of the Committee on Appropriations, United States House of Representatives, 107th Congress, 1st Sess., May 2001, p. 32.
+Subcommittee of the Committee on Appropriations, United States House of Representatives, 107th Congress, 1st Sess., May 2001, p. 32. 73
 
-> "Report by the International Space Station (ISS) Management and Cost Evaluation (IMCE) Task Force to the NASA Advisory Council,"
+"Report by the International Space Station (ISS) Management and
+
+Cost Evaluation (IMCE) Task Force to the NASA Advisory Council,"
 
 November 1, 2001, pp. 1-5. CAIB document CTF044-6016.
 
-> Testimony of Tom Young, Chairman, ISS Management and Cost Evaluation (IMCE) Task Force, to the Committee on Science, U.S. House of Representatives, "The Space Station Task Force Report," Hearing Before
+Testimony of Tom Young, Chairman, ISS Management and Cost
 
-> the Committee on Science, United States House of Representatives, 107th September 2001. CAIB document CTF005-0283. Congress, 1st Sess., November, 2001, p. 23.
+Evaluation (IMCE) Task Force, to the Committee on Science, U.S. House of
+
+Representatives, "The Space Station Task Force Report," Hearing Before the Committee on Science, United States House of Representatives, 107th
+
+Congress, 1st Sess., November, 2001, p. 23.
 
 %%page 121%%
+
+## Chapter 6: Decision Making at NASA
 
 The dwindling post-Cold War Shuttle budget that launched NASA leadership on a crusade for efficiency in the decade before Columbiaʼs final flight powerfully shaped the environment in which Shuttle managers worked. The increased organizational complexity, transitioning authority structures, and ambiguous working relationships that defined the restructured Space Shuttle Program in the 1990s created turbulence that repeatedly influenced decisions made before and during STS-107.
 
 This chapter connects Chapter 5ʼs analysis of NASAʼs broader policy environment to a focused scrutiny of Space Shuttle Program decisions that led to the STS-107 accident. Section 6.1 illustrates how foam debris losses that violated design requirements came to be defined by NASA management as an acceptable aspect of Shuttle missions, one that posed merely a maintenance "turnaround" problem rather than a safety-of-flight concern. Section 6.2 shows how, at a pivotal juncture just months before the Columbia accident, the management goal of completing Node 2 of the International Space Station on time encouraged Shuttle managers to continue flying, even after a significant bipod-foam debris strike on STS-112. Section 6.3 notes the decisions made during STS-107 in response to the bipod foam strike, and reveals how engineersʼ concerns about risk and safety were competing with – and were defeated by – managementʼs belief that foam could not hurt the Orbiter, as well as the need to keep on schedule. In relating a rescue and repair scenario that might have enabled the crewʼs safe return, Section 6.4 grapples with yet another latent assumption held by Shuttle managers during and after STS-107: that even if the foam strike had been discovered, nothing could have been done.
 
-## 6.1 A HISTORY OF FOAM ANOMALIES
+## 6.1 A History of Foam Anomalies
 
 The shedding of External Tank foam – the physical cause of the Columbia accident – had a long history. Damage caused by debris has occurred on every Space Shuttle flight, and most missions have had insulating foam shed during ascent. This raises an obvious question: Why did NASA continue
 
-ion Making at NASA flying the Shuttle with a known problem that violated design requirements? It would seem that the longer the Shuttle Program allowed debris to continue striking the Orbiters, the more opportunity existed to detect the serious threat it posed. But this is not what happened. Although engineers have made numerous changes in foam design and application in the 25 years that the External Tank has been in production, the problem of foam-shedding has not been solved, nor has the Orbiterʼs ability to tolerate impacts from foam or other debris been significantly improved.
+flying the Shuttle with a known problem that violated design requirements? It would seem that the longer the Shuttle Program allowed debris to continue striking the Orbiters, the more opportunity existed to detect the serious threat it posed. But this is not what happened. Although engineers have made numerous changes in foam design and application in the 25 years that the External Tank has been in production, the problem of foam-shedding has not been solved, nor has the Orbiterʼs ability to tolerate impacts from foam or other debris been significantly improved.
 
 The Need for Foam Insulation
 
@@ -4521,7 +4517,7 @@ On a series of four or five external tanks, the thermal insulation around the in
 
 We found significant amount of damage to one Orbiter after a flight and … on the subsequent flight we had a camera in the equivalent of the wheel well, which took a picture of the tank after separation, and we determined that this was in fact the cause of the damage. At that time, we wanted to be able to proceed with the launch program if it was acceptable … so we undertook discussions of what would be acceptable in terms of potential field repairs, and during those discussions, Rockwell was very conservative because, rightly, damage to the
 
-Orbiter TPS [Thermal Protection System] is damage to the Orbiter system, and it has a very stringent environ-
+Orbiter TPS [Thermal Protection System] is damage to the Orbiter system, and it has a very stringent environment to experience during the re-entry phase.
 
 Aldrich described the pieces of foam as "… half a foot square or a foot by half a foot, and some of them much smaller and localized to a specific area, but fairly high up on the tank. So they had a good shot at the Orbiter underbelly, and this is where we had the damage."5
 
@@ -4531,11 +4527,9 @@ Despite the high level of concern after STS-1 and through the Challenger acciden
 
 With each successful landing, it appears that NASA engineers and managers increasingly regarded the foam-shedding as inevitable, and as either unlikely to jeopardize safety or simply an acceptable risk. The distinction between foam loss and debris events also appears to have become blurred. NASA and contractor personnel came to view foam strikes not as a safety of flight issue, but rather a simple maintenance, or "turnaround" issue. In Flight Readiness Review documentation, Mission Management Team minutes, In- Flight Anomaly disposition reports, and elsewhere, what was originally considered a serious threat to the Orbiter
 
-## DEFINITIONS
+#### DEFINITIONS
 
-In Family: A reportable problem that was previously experienced, analyzed, and understood. Out of limits performance or discrepancies that have been previously experienced may be considered as in-family when specifically approved by the
-
-Space Shuttle Program or design project.8
+In Family: A reportable problem that was previously experienced, analyzed, and understood. Out of limits performance or discrepancies that have been previously experienced may be considered as in-family when specifically approved by the Space Shuttle Program or design project.8
 
 Out of Family: Operation or performance outside the expected performance range for a given parameter or which has not previously been experienced.9
 
@@ -4543,11 +4537,9 @@ Accepted Risk: The threat associated with a specific circumstance is known and u
 
 No Safety-of-Flight-Issue: The threat associated with a specific circumstance is known and understood and does not pose a threat to the crew and/or vehicle.
 
-ment to experience during the re-entry phase.
-
 %%page 123%%
 
-Flight STS-7 STS-32R STS-50 STS-52 STS-62 STS-112 STS-107
+Flight STS-7 STS-32R STS-50
 
 - ET # 06 25 — 45
 
@@ -4571,9 +4563,11 @@ Chunks of foam from the External Tankʼs forward bipod attachment, which connect
 
 Figure 6.1-2. The first known instance of bipod ramp shedding occurred on STS-7 which was launched on June 18, 1983.
 
+STS-52 STS-62 STS-112 STS-107
+
 - 55 62 115 — 93
 
-## LWT LWT SLWT LWT
+#### LWT LWT SLWT LWT
 
 Columbia Columbia Atlantis Columbia
 
@@ -4583,7 +4577,7 @@ Columbia Columbia Atlantis Columbia
 
 1:09:39 08:53:00 3:46:00 10:39:00
 
-## PM EDT AM EST PM EDT AM EDT
+#### PM EDT AM EST PM EDT AM EDT
 
 The first known bipod ramp foam loss occurred during STS-7, Challengerʼs second mission (see Figure 6.1-2). Images taken after External Tank separation revealed that a 19- by 12-inch piece of the left bipod ramp was missing, and that the External Tank had some 25 shallow divots in the foam just forward of the bipod struts and another 40 divots in the foam covering the lower External Tank. After the mission was completed, the Program Requirements Control Board cited the foam loss as an In-Flight Anomaly. Citing an event as an In-Flight Anomaly means that before the next launch, a specific NASA organization must resolve the problem or prove that it does not threaten the safety of the vehicle or crew.11
 
@@ -4595,7 +4589,7 @@ Figure 6.1-3. Only three months before the final launch of Columbia, the bipod r
 
 impact damage was shallow, the tile loss was not a result
 
-## UMBILICAL CAMERAS AND THE STATISTICS OF BIPOD RAMP LOSS
+#### UMBILICAL CAMERAS AND THE STATISTICS OF BIPOD RAMP LOSS
 
 Over the course of the 113 Space Shuttle missions, the left bipod ramp has shed significant pieces of foam at least seven times. (Foam-shedding from the right bipod ramp has never been confirmed. The right bipod ramp may be less subject to foam shedding because it is partially shielded from aerodynamic forces by the External Tankʼs liquid oxygen line.) The fact that five of these left bipod shedding events occurred on missions flown by Columbia sparked considerable Board debate. Although initially this appeared to be a improbable coincidence that would have caused the Board to fault NASA for improper trend analysis and lack of engineering curiosity, on closer inspection, the Board concluded that this "coincidence" is probably the result of a bias in the sample of known bipod foam-shedding. Before the Challenger accident, only
 
@@ -4627,11 +4621,11 @@ Because the bipod ramp shedding on STS-112 was significant, both in size and in 
 
 At the Program Requirements Control Board meeting following the return of STS-112, the Intercenter Photo Working Group recommended that the loss of bipod foam be classified as an In-Flight Anomaly. In a meeting chaired by
 
-## SPACE SHUTTLE PROGRAM
+#### SPACE SHUTTLE PROGRAM
 
 > Space Shuttle Projects Office (MSFC) NASA Marshall Space Flight Center, Huntsville, Alabama
 
-STS-112/ET-115 Bipod Ramp Foam Loss Date
+STS-112/ET-115 Bipod Ramp Foam Loss
 
 - Issue
 - Foam was lost on the STS-112/ET-115 –Y bipod ramp (~ 4" X 5" X 12") exposing the bipod housing SLA closeout
@@ -4640,33 +4634,43 @@ STS-112/ET-115 Bipod Ramp Foam Loss Date
 
 - More than 100 External Tanks have flown with only 3 documented instances of significant foam loss on a bipod ramp
 
-> many of the managers who would be actively involved with STS-107, including Linda Ham, the Program Requirements Control Board ultimately decided against such classification. Instead, after discussions with the Integration Office and the External Tank Project, the Program Requirements Control Board Chairman assigned an "action" to the External Tank Project to determine the root cause of the foam loss and to propose corrective action. This was inconsistent with previous practice, in which all other known bipod foam-shedding was designated as In-Flight Anomalies. The Program Requirements Control Board initially set December 5, 2002, as the date to report back on this action, even though STS-113 was scheduled to launch on November 10. The due date subsequently slipped until after the planned launch and return of STS-107. The Space Shuttle Program decided to fly not one but two missions before resolving the STS-112 foam loss.
+many of the managers who would be actively involved with STS-107, including Linda Ham, the Program Requirements Control Board ultimately decided against such classification. Instead, after discussions with the Integration Office and the External Tank Project, the Program Requirements Control Board Chairman assigned an "action" to the External Tank Project to determine the root cause of the foam loss and to propose corrective action. This was inconsistent with previous practice, in which all other known bipod foam-shedding was designated as In-Flight Anomalies. The Program Requirements Control Board initially set December 5, 2002, as the date to report back on this action, even though STS-113 was scheduled to launch on November 10. The due date subsequently slipped until after the planned launch and return of STS-107. The Space Shuttle Program decided to fly not one but two missions before resolving the STS-112 foam loss.
 
-> The Board wondered why NASA would treat the STS-112 foam loss differently than all others. What drove managers to reject the recommendation that the foam loss be deemed an In-Flight Anomaly? Why did they take the unprecedented step of scheduling not one but eventually two missions to fly before the External Tank Project was to report back on foam losses? It seems that Shuttle managers had become conditioned over time to not regard foam loss or debris as a safety-of-flight concern. As will be discussed in Section 6.2, the need to adhere to the Node 2 launch schedule also appears to have influenced their decision. Had the STS-113 mission been delayed beyond early December 2002, the Expedition 5 crew on board the Space Station would have exceeded its 180-day on-orbit limit, and the Node 2 launch date, a major management goal, would not be met.
+The Board wondered why NASA would treat the STS-112 foam loss differently than all others. What drove managers to reject the recommendation that the foam loss be deemed an In-Flight Anomaly? Why did they take the unprecedented step of scheduling not one but eventually two missions to fly before the External Tank Project was to report back on foam losses? It seems that Shuttle managers had become conditioned over time to not regard foam loss or debris as a safety-of-flight concern. As will be discussed in Section 6.2, the need to adhere to the Node 2 launch schedule also appears to have influenced their decision. Had the STS-113 mission been delayed beyond early December 2002, the Expedition 5 crew on board the Space Station would have exceeded its 180-day on-orbit limit, and the Node 2 launch date, a major management goal, would not be met.
 
-> Even though the results of the External Tank Project engineering analysis were not due until after STS-113, the foam-shedding was reported, or "briefed," at STS-113ʼs Flight Readiness Review on October 31, 2002, a meeting that Dittemore and Ham attended. Two slides from this brief (Figure 6.1-5) explain the disposition of bipod ramp foam loss on STS-112.
+Even though the results of the External Tank Project engineering analysis were not due until after STS-113, the foam-shedding was reported, or "briefed," at STS-113ʼs Flight Readiness Review on October 31, 2002, a meeting that Dittemore and Ham attended. Two slides from this brief (Figure 6.1-5) explain the disposition of bipod ramp foam loss on STS-112.
 
-## SPACE SHUTTLE PROGRAM
+#### SPACE SHUTTLE PROGRAM
 
 > Space Shuttle Projects Office (MSFC) NASA Marshall Space Flight Center, Huntsville, Alabama
 
-er, NASA/MP31 Presenter Jerry Smelser, NASA/MP31 02 Page 3
+Presenter Jerry Smelser, NASA/MP31 Presenter Jerry Smelser, NASA/MP31 Date October 31, 2002 Page 3
 
 STS-112/ET-115 Bipod Ramp Foam Loss Date October 31, 2002 Page 4
 
-> - Rationale for Flight
-> - Current bipod ramp closeout has not been changed since STS-54 (ET-51)
+- Rationale for Flight
+- Current bipod ramp closeout has not been changed since STS-54 (ET-51)
 
-> Prior to Foam Closeout • The Orbiter has not yet experienced "Safety of Flight" damage from loss of foam in After Final Foam Trim 112 flights (including 3 known flights with bipod ramp foam loss) • There have been no design / process / equipment changes over the last 60
+Prior to Foam Closeout
 
-m on
+• The Orbiter has not yet experienced "Safety
 
-ETs (flights) mp
+> of Flight" damage from loss of foam in After Final Foam Trim 112 flights (including 3 known flights with bipod ramp foam loss)
 
-> • All ramp closeout work (including ET-115 and ET-116) was performed by experienced practitioners (all over 20 years experience each) • Ramp foam application involves craftmanship in the use of Bipod Attach Fitting validated application processess • No change in Inspection / Process control / Post application handling, etc
+• There have been no design / process / equipment changes over the last 60 Missing Foam on
 
-> - Probability of loss of ramp TPS is no higher/no lower than previous flights
-> - The ET is safe to fly with no new concerns (and no added risk)
+ETs (flights) –Y Bipod Ramp
+
+• All ramp closeout work (including ET-115 and ET-116) was
+
+> performed by experienced practitioners (all over 20 years experience each)
+
+• Ramp foam application involves craftmanship in the use of Bipod Attach Fitting validated application processess
+
+• No change in Inspection / Process control / Post application handling, etc
+
+- Probability of loss of ramp TPS is no higher/no lower than previous flights
+- The ET is safe to fly with no new concerns (and no added risk)
 
 Figure 6.1-5. These two briefing slides are from the STS-113 Flight Readiness Review. The first and third bullets on the right-hand slide are incorrect since the design of the bipod ramp had changed several times since the flights listed on the slide.
 
@@ -4692,7 +4696,7 @@ The seventh and final known bipod ramp foam loss occurred on January 16, 2003, d
 
 %%page 127%%
 
-Other Foam/Debris Events num plate, Gibson stated during a presentation to the Board
+Other Foam/Debris Events
 
 To better understand how NASAʼs treatment of debris strikes evolved over time, the Board investigated missions where debris was shed from locations other than the External Tank bipod ramp. The number of debris strikes to the Orbitersʼ lower surface Thermal Protection System that resulted in tile damage greater than one inch in diameter is shown in Figure 6.1-6.17 The number of debris strikes may be small, but a single strike could damage several tiles (see Figure 6.1-7).
 
@@ -4710,15 +4714,17 @@ STS-17 Cause: SRB Ablative 150
 
 OV-099, Flight 6
 
-> STS-7 STS-50 STS-32R STS-52
+STS-7
+
+STS-32R
 
 STS-11 STS-16 STS-19 STS-23 STS-25 STS-27 STS-30 STS-32
 
-- 6 8 36 41 35 39 43 44 45 — 50
+- 6 — 8
 
 26R 29R 28R 33R
 
-that a burn-through may have occurred.20
+num plate, Gibson stated during a presentation to the Board that a burn-through may have occurred.20
 
 The Board notes the distinctly different ways in which the STS-27R and STS-107 debris strike events were treated. After the discovery of the debris strike on Flight Day Two of STS-27R, the crew was immediately directed to inspect the vehicle. More severe thermal damage – perhaps even a burn-through – may have occurred were it not for the aluminum plate at the site of the tile loss. Fourteen years later, when a debris strike was discovered on Flight Day Two of STS-107, Shuttle Program management declined to have the crew inspect the Orbiter for damage, declined to request on-orbit imaging, and ultimately discounted the possibility of a burn-through. In retrospect, the debris strike on STS-27R is a "strong signal" of the threat debris posed that should have been considered by Shuttle management when STS-107 suffered a similar debris strike. The Board views the failure to do so as an illustration of the lack of institutional memory in the Space Shuttle Program that supports the Boardʼs claim, discussed in Chapter 7, that NASA is not functioning as a learning organization.
 
@@ -4730,17 +4736,19 @@ Bipod Ramp Foam Loss Event
 
 > STS-87 OV-102, Flight 24 STS-73 Cause: ET Intertank Foam OV-102, Flight 18
 
-STS-112
+STS-50 STS-112 STS-42 STS-52 STS-62 STS-107 STS-35
 
-STS-107
+- 36 41 35 39 43 44 45 50 47 53 56 57 58 — 60
 
 - 65 68 63 71 69 74 75 77 79 81 83 94 86 89 91 88 93 99 99 92 98 100 105 109 111 — 113
+
+Space Shuttle Mission Number
 
 Figure 6.1-6. This chart shows the number of dings greater than one inch in diameter on the lower surface of the Orbiter after each mission from STS-6 through STS-113. Flights where the bipod ramp foam is known to have come off are marked with a red triangle.
 
 %%page 128%%
 
-## MISSION DATE COMMENTS
+#### MISSION DATE COMMENTS
 
 STS-1 April 12, 1981 Lots of debris damage. 300 tiles replaced.
 
@@ -4826,7 +4834,7 @@ Despite original design requirements that the External Tank not shed debris, and
 
 Assessments of foam-shedding and strikes were not thoroughly substantiated by engineering analysis, and the process for closing In-Flight Anomalies is not well-documented and appears to vary. Shuttle Program managers appear to have confused the notion of foam posing an "accepted risk" with foam not being a "safety-of-flight issue." At times, the pressure to meet the flight schedule appeared to cut short engineering efforts to resolve the foam-shedding problem.
 
-NASAʼs lack of understanding of foam properties and be- F6.1−2 havior must also be questioned. Although tests were conducted to develop and qualify foam for use on the External Tank, it appears there were large gaps in NASAʼs knowledge about this complex and variable material. Recent testing conducted at Marshall Space Flight Center and under the auspices of the Board indicate that mechanisms previously
+NASAʼs lack of understanding of foam properties and behavior must also be questioned. Although tests were conducted to develop and qualify foam for use on the External Tank, it appears there were large gaps in NASAʼs knowledge about this complex and variable material. Recent testing conducted at Marshall Space Flight Center and under the auspices of the Board indicate that mechanisms previously
 
 considered a prime source of foam loss, cryopumping and cryoingestion, are not feasible in the conditions experienced during tanking, launch, and ascent. Also, dissections of foam bipod ramps on External Tanks yet to be launched reveal subsurface flaws and defects that only now are being discovered and identified as contributing to the loss of foam from the bipod ramps.
 
@@ -4838,55 +4846,37 @@ There are several references to flights that had gone before. The acceptance and
 
 Findings
 
-F6.1−1 NASA has not followed its own rules and require-
+F6.1−1 NASA has not followed its own rules and requirements on foam-shedding. Although the agency continuously worked on the foam-shedding problem, the debris impact requirements have not been met on any mission.
 
-> ments on foam-shedding. Although the agency continuously worked on the foam-shedding problem, the debris impact requirements have not been met on any mission.
+F6.1−2 Foam-shedding, which had initially raised serious safety concerns, evolved into "in-family" or "no safety-of-flight" events or were deemed an "accepted risk."
 
-F6.1−2 Foam-shedding, which had initially raised seri-
-
-> ous safety concerns, evolved into "in-family" or "no safety-of-flight" events or were deemed an "accepted risk."
-
-F6.1−3 Five of the seven bipod ramp events occurred
-
-> on missions flown by Columbia, a seemingly high number. This observation is likely due to
+F6.1−3 Five of the seven bipod ramp events occurred on missions flown by Columbia, a seemingly high number. This observation is likely due to
 
 %%page 131%%
 
 > Columbia having been equipped with umbilical cameras earlier than other Orbiters.
 
-F6.1−4 There is lack of effective processes for feedback
+F6.1−4 There is lack of effective processes for feedback or integration among project elements in the resolution of In-Flight Anomalies.
 
-> or integration among project elements in the resolution of In-Flight Anomalies.
+F6.1−5 Foam bipod debris-shedding incidents on STS-52 and STS-62 were undetected at the time they occurred, and were not discovered until the Board directed NASA to examine External Tank separation images more closely.
 
-F6.1−5 Foam bipod debris-shedding incidents on STS-52
+F6.1−6 Foam bipod debris-shedding events were classified as In-Flight Anomalies up until STS-112, which was the first known bipod foam-shedding event not classified as an In-Flight Anomaly.
 
-> and STS-62 were undetected at the time they occurred, and were not discovered until the Board directed NASA to examine External Tank separation images more closely.
+F6.1−7 The STS-112 assignment for the External Tank Project to "identify the cause and corrective action of the bipod ramp foam loss event" was not due until after the planned launch of STS-113, and then slipped to after the launch of STS-107.
 
-F6.1−6 Foam bipod debris-shedding events were clas-
+F6.1−8 No External Tank configuration changes were made after the bipod foam loss on STS-112.
 
-> sified as In-Flight Anomalies up until STS-112, which was the first known bipod foam-shedding event not classified as an In-Flight Anomaly.
+F6.1−9 Although it is sometimes possible to obtain imagery of night launches because of light provided by the Solid Rocket Motor plume, no imagery was obtained for STS-113.
 
-F6.1−7 The STS-112 assignment for the External Tank
+F6.1−10 NASA failed to adequately perform trend analysis on foam losses. This greatly hampered the agencyʼs ability to make informed decisions about foam losses.
 
-> Project to "identify the cause and corrective action of the bipod ramp foam loss event" was not due until after the planned launch of STS-113, and then slipped to after the launch of STS-107.
-
-F6.1−8 No External Tank configuration changes were made after the bipod foam loss on STS-112. F6.1−9 Although it is sometimes possible to obtain imag-
-
-> ery of night launches because of light provided by the Solid Rocket Motor plume, no imagery was obtained for STS-113.
-
-F6.1−10 NASA failed to adequately perform trend analy-
-
-> sis on foam losses. This greatly hampered the agencyʼs ability to make informed decisions about foam losses.
-
-F6.1−11 Despite the constant shedding of foam, the Shut-
-
-> tle Program did little to harden the Orbiter against foam impacts through upgrades to the Thermal Protection System. Without impact resistance and strength requirements that are calibrated to the energy of debris likely to impact the Orbiter, certification of new Thermal Protection System tile will not adequately address the threat posed by debris.
+F6.1−11 Despite the constant shedding of foam, the Shuttle Program did little to harden the Orbiter against foam impacts through upgrades to the Thermal Protection System. Without impact resistance and strength requirements that are calibrated to the energy of debris likely to impact the Orbiter, certification of new Thermal Protection System tile will not adequately address the threat posed by debris.
 
 Recommendations:
 
 - None
 
-## 6.2 SCHEDULE PRESSURE
+## 6.2 Schedule Pressure
 
 Countdown to Space Station "Core Complete:" A Workforce Under Pressure
 
@@ -4930,7 +4920,7 @@ Margin (in months)
 
 - -2 1 — 2
 
-12.01 03.02 06.02
+12.01 03.02
 
 SSP Core Complete Schedule Threats
 
@@ -4952,9 +4942,11 @@ Figure 6.2-2 shows a slide from the International Space Station Program Manager�
 
 NASA Headquarters stressed the importance of this date in other ways. A screen saver (see Figure 6.2-3) was mailed to managers in NASAʼs human spaceflight program that depicted a clock counting down to February 19, 2004 – U.S. Core Complete.
 
+SSP Schedule Reserve
+
 > Late OMM start (Node 2 was on 1 OV-103)
 
-18 2 Moved Node2 to OV-105
+18 2 Moved Node2 to OV-105 6
 
 3 Accommodate 4S slip 1 week
 
@@ -4962,7 +4954,9 @@ NASA Headquarters stressed the importance of this date in other ways. A screen s
 
 - -9 — 9
 
-> 5 Moved OV-104 Str. Ins. to 9th flt -21 10
+-14 7 5 Moved OV-104 Str. Ins. to 9th flt
+
+-21 10
 
 > 6 Engine Flowliner cracks Reduced Structural Inspection
 
@@ -4970,7 +4964,7 @@ Requirements
 
 > 8 Accommodate 4S slip 9 O2 flexline leak/ SRMS damage 10 Defer reqmts; apply reserve
 
-09.02 12.02 Management action
+06.02 09.02 12.02 Management action
 
 > Schedule impact event Management Options • USA commit holiday/weekend reserves and apply additional resources (i.e., 3rd shift) to hold schedule (Note: 3rd shift not yet included) • HQ mitigate Range Cutout • HQ and ISS mitigate Soyuz conflict threat
 
@@ -4994,9 +4988,7 @@ Margin (in months)
 
 1.0 22.5 days 22.5 days
 
-0 days
-
-- 0.0 — 6
+0.0
 
 - -1.0 — 3
 
@@ -5018,7 +5010,7 @@ ISS Core Complete Schedule Threat
 
 Figure 6.2-3. NASA Headquarters distributed to NASA employees this computer screensaver counting down to February 19, 2004.
 
-capability to carry supplies to and from the Space Station, to rotate its crew, and to transport remaining Space Station segments and equipment. Still, managers felt it was a reast Schedule margin decreased 0.75
+capability to carry supplies to and from the Space Station, to rotate its crew, and to transport remaining Space Station segments and equipment. Still, managers felt it was a reat Schedule margin decreased 0.75
 
 > 1 month due to KSC Systems Test growth and closeouts growth
 
@@ -5034,7 +5026,7 @@ capability to carry supplies to and from the Space Station, to rotate its crew, 
 
 5 tasks in parallel, and adjusted
 
-7 powered-on testing to 3 7.5 days shifts/day/5days/week
+7 powered-on testing to 3 -67.5 days shifts/day/5days/week
 
 4/02 11/02 As of Date Schedule Time
 
@@ -5168,15 +5160,13 @@ The effect of the compressed schedule was also evident in the Mission Operations
 
 3/1/03
 
-- OV-104 16 16 — 16
+- OV-104 16 — 16
 
-8 9 26 3
+- 8 — 9
 
-> STS-114 ULF1 12A.1 5/23/03 Critical path
+> STS-114 ULF1 5/23/03 Critical path
 
 - OV-105 0 — 0
-
-- 18 — 9
 
 > STS-115 12/02 12A 11/02 02/03 05/03
 
@@ -5194,9 +5184,7 @@ Launch Launch Launch Launch Cutout Cutout Cutout Cutout
 
 - U/R 2 — 6
 
-STS-118
-
-7/24/03 13A.1 1/15/04
+STS-118 7/24/03 13A.1 1/15/04
 
 - 16 — 17
 
@@ -5208,7 +5196,7 @@ STS-116 STS-119 12A.1 15A
 
 - 0 — 0
 
-17 2 6 19 10 6
+9 17 2 6 19 10 6
 
 > STS-117 STS-120 13A Node 2 08/03 11/03 02/04
 
@@ -5240,55 +5228,43 @@ Figure 6.2-6. By December 2002, every bit of padding in the schedule had disappe
 
 [ORR=Orbiter Rollout Review, VAB=Vehicle Assembly Building, IFA=In-Flight Anomaly]
 
-In fact, most of Linda Hamʼs inquiries about the foam strike were not to determine what action to take during Columbiaʼs mission, but to understand the implications for STS-114. During a Mission Management Team meeting on January 21, she asked about the rationale put forward at the STS-113 Flight Readiness Review, which she had attended. Later that morning she reviewed the charts presented at that Flight Readiness Review. Her assessment, which she e-mailed to Shuttle Program Manager Ron Dittemore on F6.2-3 January 21, was "Rationale was lousy then and still is …" (See Section 6.3 for the e-mail.)
+In fact, most of Linda Hamʼs inquiries about the foam strike were not to determine what action to take during Columbiaʼs mission, but to understand the implications for STS-114. During a Mission Management Team meeting on January 21, she asked about the rationale put forward at the STS-113 Flight Readiness Review, which she had attended. Later that morning she reviewed the charts presented at that Flight Readiness Review. Her assessment, which she e-mailed to Shuttle Program Manager Ron Dittemore on January 21, was "Rationale was lousy then and still is …" (See Section 6.3 for the e-mail.)
 
-One of Hamʼs STS-114 duties was to chair a review to determine if the missionʼs Orbiter, Atlantis, should be rolled from the Orbiter Processing Facility to the Vehicle Assembly Building, per its pre-launch schedule. In the above e-mail to Ron Dittemore, Ham indicates a desire to have the same individual responsible for the "lousy" STS-113 flight rationale start working the foam shedding issue – and presumably present a new flight rationale – very soon. F6.2-4
+One of Hamʼs STS-114 duties was to chair a review to determine if the missionʼs Orbiter, Atlantis, should be rolled from the Orbiter Processing Facility to the Vehicle Assembly Building, per its pre-launch schedule. In the above e-mail to Ron Dittemore, Ham indicates a desire to have the same individual responsible for the "lousy" STS-113 flight rationale start working the foam shedding issue – and presumably present a new flight rationale – very soon.
 
-As STS-107 prepared for re-entry, Shuttle Program managers prepared for STS-114 flight rationale by arranging to have post-flight photographs taken of Columbiaʼs left wing rushed to Johnson Space Center for analysis. F6.2-5
+As STS-107 prepared for re-entry, Shuttle Program managers prepared for STS-114 flight rationale by arranging to have post-flight photographs taken of Columbiaʼs left wing rushed to Johnson Space Center for analysis.
 
-As will become clear in the next section, most of the Shuttle Programʼs concern about Columbiaʼs foam strike were not about the threat it might pose to the vehicle in orbit, but about the threat it might pose to the schedule. F6.2-6
+As will become clear in the next section, most of the Shuttle Programʼs concern about Columbiaʼs foam strike were not about the threat it might pose to the vehicle in orbit, but about the threat it might pose to the schedule.
 
 Conclusion
 
 The agencyʼs commitment to hold firm to a February 19, 2004, launch date for Node 2 influenced many of decisions in the months leading up to the launch of STS-107, and may well have subtly influenced the way managers handled the STS-112 foam strike and Columbiaʼs as well.
 
-When a program agrees to spend less money or accelerate a schedule beyond what the engineers and program man- R6.2-1 agers think is reasonable, a small amount of overall risk is added. These little pieces of risk add up until managers are no longer aware of the total program risk, and are, in fact, gambling. Little by little, NASA was accepting more and more risk in order to stay on schedule.
+When a program agrees to spend less money or accelerate a schedule beyond what the engineers and program managers think is reasonable, a small amount of overall risk is added. These little pieces of risk add up until managers are no longer aware of the total program risk, and are, in fact, gambling. Little by little, NASA was accepting more and more risk in order to stay on schedule.
 
 Findings
 
-F6.2-1 NASA Headquartersʼ focus was on the Node 2 launch date, February 19, 2004. F6.2-2 The intertwined nature of the Space Shuttle and
+F6.2-1 NASA Headquartersʼ focus was on the Node 2 launch date, February 19, 2004.
 
-> Space Station programs significantly increased the complexity of the schedule and made meeting the schedule far more challenging.
+F6.2-2 The intertwined nature of the Space Shuttle and Space Station programs significantly increased the complexity of the schedule and made meeting the schedule far more challenging.
 
-F6.2-3 The capabilities of the system were being
+F6.2-3 The capabilities of the system were being stretched to the limit to support the schedule. Projections into 2003 showed stress on vehicle processing at the Kennedy Space Center, on flight controller training at Johnson Space Center, and on Space Station crew rotation schedules. Effects of this stress included neglecting flight controller recertification requirements, extending crew rotation schedules, and adding incremental risk by scheduling additional Orbiter movements at Kennedy.
 
-> stretched to the limit to support the schedule. Projections into 2003 showed stress on vehicle processing at the Kennedy Space Center, on flight controller training at Johnson Space Center, and on Space Station crew rotation schedules. Effects of this stress included neglecting flight controller recertification requirements, extending crew rotation schedules, and adding incremental risk by scheduling additional Orbiter movements at Kennedy.
+F6.2-4 The four flights scheduled in the five months from October 2003, to February 2004, would have required a processing effort comparable to the effort immediately before the Challenger accident.
 
-F6.2-4 The four flights scheduled in the five months
+F6.2-5 There was no schedule margin to accommodate unforeseen problems. When flights come in rapid succession, there is no assurance that anomalies on one flight will be identified and appropriately addressed before the next flight.
 
-> from October 2003, to February 2004, would have required a processing effort comparable to the effort immediately before the Challenger accident.
+F6.2-6 The environment of the countdown to Node 2 and the importance of maintaining the schedule may have begun to influence managersʼ decisions, including those made about the STS-112 foam strike.
 
-F6.2-5 There was no schedule margin to accommodate
-
-> unforeseen problems. When flights come in rapid succession, there is no assurance that anomalies on one flight will be identified and appropriately addressed before the next flight.
-
-F6.2-6 The environment of the countdown to Node 2 and
-
-> the importance of maintaining the schedule may have begun to influence managersʼ decisions, including those made about the STS-112 foam strike.
-
-F6.2-7 During STS-107, Shuttle Program managers
-
-> were concerned with the foam strikeʼs possible effect on the launch schedule.
+F6.2-7 During STS-107, Shuttle Program managers were concerned with the foam strikeʼs possible effect on the launch schedule.
 
 Recommendation:
 
-R6.2-1 Adopt and maintain a Shuttle flight schedule that
-
-> is consistent with available resources. Although schedule deadlines are an important management tool, those deadlines must be regularly evaluated to ensure that any additional risk incurred to meet the schedule is recognized, understood, and acceptable.
+R6.2-1 Adopt and maintain a Shuttle flight schedule that is consistent with available resources. Although schedule deadlines are an important management tool, those deadlines must be regularly evaluated to ensure that any additional risk incurred to meet the schedule is recognized, understood, and acceptable.
 
 %%page 140%%
 
-6.3 DECISION-MAKING DURING THE FLIGHT OF STS-107
+## 6.3 Decision-Making During the Flight of STS-107
 
 Initial Foam Strike Identification
 
@@ -5300,7 +5276,7 @@ Of the dozen ground-based camera sites used to obtain images of the ascent for e
 
 Because they had no sufficiently resolved pictures with which to determine potential damage, and having never seen such a large piece of debris strike the Orbiter so late in ascent, Intercenter Photo Working Group members decided to ask for ground-based imagery of Columbia.
 
-## IMAGERY REQUEST
+#### IMAGERY REQUEST
 
 To accomplish this, the Intercenter Photo Working Groupʼs Chair, Bob Page, contacted Wayne Hale, the Shuttle Program Manager for Launch Integration at Kennedy Space Center, to request imagery of Columbiaʼs left wing on-orbit. Hale, who agreed to explore the possibility, holds a Top Secret clearance and was familiar with the process for requesting military imaging from his experience as a Mission Control Flight Director.
 
@@ -5334,13 +5310,13 @@ As far as the tile go in the wing leading edge area they are thicker than requir
 
 Mike Stoner
 
-## USA TPS SAM
+#### USA TPS SAM
 
 [RCC=Reinforced Carbon-Carbon, SSM=Sub-system Manager, WLE=Wing Leading Edge, TPS=Thermal Protection System, SAM= Sub-system Area Manager]
 
 %%page 142%%
 
-## ENGINEERING COORDINATION AT NASA AND UNITED SPACE ALLIANCE
+#### ENGINEERING COORDINATION AT NASA AND UNITED SPACE ALLIANCE
 
 After United Space Alliance became contractually responsible for most aspects of Shuttle operations,
 
@@ -5400,7 +5376,7 @@ Figure 6.3-1. The small cylinder at top illustrates the size of debris Crater wa
 
 %%page 144%%
 
-## THE CRATER MODEL
+#### THE CRATER MODEL
 
 > 0.0195(L/d)0.45(d)(ρP)0.27(V-V*)2/3 p= (ST)1/4(ρT)1/6
 
@@ -5458,7 +5434,7 @@ For the Thermal Protection System tile, Crater predicted damage deeper than the 
 
 To determine potential RCC damage, analysts used a Crater-like algorithm that was calibrated in 1984 by impact data from ice projectiles. At the time the algorithm was empirically tested, ice was considered the only realistic threat to RCC integrity. (See Appendix E.4, RCC Impact Analysis.) The Debris Assessment Team analysis indicated that impact angles greater than 15 degrees would result in RCC penetration. A separate "transport" analysis, which attempts to determine the path the debris took, identified 15 strike regions and angles of impact. Twelve transport scenarios predicted an impact in regions of Shuttle tile. Only one scenario predicted an impact on the RCC leading edge, at a 21-degree angle. Because the foam that struck Columbia was less dense than ice, Debris Assessment Team analysts used a qualitative extrapolation of the test data and engineering judgment to conclude that a foam impact angle up to 21 degrees would not penetrate the RCC. Although some engineers were uncomfortable with this extrapolation, no other analyses were performed to assess RCC damage. The Debris Assessment Team focused on analyzing the impact at locations other than the RCC leading edge. This may have been due, at least in part, to the transport analysis presentation and the long-standing belief that foam was not a threat to RCC panels. The assumptions and uncertainty embedded in this analysis were never fully presented to the Mission Evaluation Room or the Mission Management Team.
 
-## MISSED OPPORTUNITY
+#### MISSED OPPORTUNITY
 
 On Sunday, Rodney Rocha e-mailed a Johnson Space Center Engineering Directorate manager to ask if a Mission Action Request was in progress for Columbiaʼs crew to visually inspect the left wing for damage. Rocha never received an answer.
 
@@ -5538,7 +5514,7 @@ Hamʼs focus on examining the rationale for continuing to fly after the foam pro
 
 During this same Mission Management Team meeting, the Space Shuttle Integration Officeʼs Lambert Austin reported that engineers were reviewing long-range tracking film and that the foam debris that appeared to hit the left wing leading edge may have come from the bipod area of the External Tank. Austin said that the Engineering Directorate would continue to run analyses and compare this foam loss to that of STS-112. Austin also said that after STS-107 landed, engineers were anxious to see the crew-filmed footage of External Tank separation that might show the bipod ramp and therefore could be checked for missing foam.
 
-## MISSED OPPORTUNITY
+#### MISSED OPPORTUNITY
 
 Reviews of flight-deck footage confirm that on Flight Day One, Mission Specialist David Brown filmed parts of the External Tank separation with a Sony PD-100 Camcorder, and Payload Commander Mike Anderson photographed it with a Nikon F-5 camera with a 400-millimeter lens. Brown later downlinked 35 seconds of this video to the ground as part of his Flight Day One mission summary, but the bipod ramp area had rotated out of view, so no evidence of missing foam was seen when this footage was reviewed during the mission. However, after the Intercenter Photo Working Group caught the debris strike on January 17, ground personnel failed to ask Brown if he had additional footage of External Tank separation. Based on how crews are trained to film External Tank separation, the Board concludes Brown did in fact have more film than the 35 seconds he downlinked. Such footage may have confirmed that foam was missing from the bipod ramp area or could have identified other areas of missing foam. Austinʼs mention of the crewʼs filming of External Tank separation should have prompted someone at the meeting to ask Brown if he had more External Tank separation film, and if so, to downlink it immediately.
 
@@ -5562,15 +5538,13 @@ FYI-TPS took a hit-should not be a problem-status by end of week.
 
 -----Original Message----- From: SHACK, PAUL E. (JSC-EA42) (NASA) Sent: Tuesday, January 21, 2003 9:33 AM To: ROCHA, ALAN R. (RODNEY) (JSC-ES2) (NASA); SERIALE-GRUSH, JOYCE M. (JSC-EA) (NASA) Cc: KRAMER, JULIE A. (JSC-EA4) (NASA); MILLER, GLENN J. (JSC-EA) (NASA); RICKMAN, STEVEN L. (JSC-ES3)
 
-## (NASA); MADDEN, CHRISTOPHER B. (CHRIS) (JSC-ES3) (NASA)
+#### (NASA); MADDEN, CHRISTOPHER B. (CHRIS) (JSC-ES3) (NASA)
 
 Subject: RE: STS-107 Debris Analysis Team Plans
 
 This reminded me that at the STS-113 FRR the ET Project reported on foam loss from the Bipod Ramp during STS-112. The foam (estimated 4X5X12 inches) impacted the ET Attach Ring and dented an SRB electronics box cover.
 
-Their charts stated "ET TPS foam loss over the life of the Shuttle program has never been a 'Safety of Flight' issue". They were severely wire brushed over this and Brian O'Conner (Associate Administrator for Safety) asked for a hazard assessment for loss of foam.
-
-[continued on next page] The suspected cause for foam loss is trapped air pockets which expand due to altitude and aerother-
+Their charts stated "ET TPS foam loss over the life of the Shuttle program has never been a 'Safety of Flight' issue". They were severely wire brushed over this and Brian O'Conner (Associate Administrator for Safety) asked for a hazard assessment for loss of foam. The suspected cause for foam loss is trapped air pockets which expand due to altitude and aerother-
 
 - mal heating. Report Volume I August 2003 — 149
 
@@ -5596,11 +5570,11 @@ An entry in a Mission Evaluation Room console log included a 10:30 a.m. report t
 
 Bipod ramp which measured 26" x 10" caused damage to the left wing…to 1 tile and 20% of the adjacent tile. Same event occurred on STS-7 (no data available)."
 
-## MISSED OPPORTUNITY
+#### MISSED OPPORTUNITY
 
 The foam strike to STS-107 was mentioned by a speaker at an unrelated meeting of NASA Headquarters and National Imagery and Mapping Agency personnel, who then discussed a possible NASA request for Department of Defense imagery support. However, no action was taken.
 
-## IMAGERY REQUEST
+#### IMAGERY REQUEST
 
 Responding to concerns from his employees who were participating in the Debris Assessment Team, United Space Alliance manager Bob White called Lambert Austin on Flight Day Six to ask what it would take to get imagery of Columbia on orbit. They discussed the analytical debris damage work plan, as well as the belief of some integration team members that such imaging might be beneficial.
 
@@ -5626,7 +5600,7 @@ First Debris Assessment Team Meeting
 
 > On Flight Day Six, the Debris Assessment Team held its first formal meeting to finalize Orbiter damage estimates and their potential consequences. Some participants joined the proceedings via conference call.
 
-## IMAGERY REQUEST
+#### IMAGERY REQUEST
 
 > After two hours of discussing the Crater results and the need to learn precisely where the debris had hit Columbia, the Debris Assessment Team assigned its NASA Co-Chair, Rodney Rocha, to pursue a request for imagery of the vehicle on-orbit. Each team member supported the idea to seek imagery from an outside source. Rather than working the request up the usual mission chain of command through the Mission Evaluation Room to the Mission Management Team to the Flight Dynamics Officer, the Debris Assessment Team agreed, largely due to a lack of participation by Mission Management Team and Mission Evaluation Room managers, that Rocha would pursue the request through his division, the Engineering Directorate at Johnson Space Center. Rocha sent the following e-mail to Paul Shack shortly after the meeting adjourned.
 
@@ -5634,19 +5608,17 @@ First Debris Assessment Team Meeting
 
 EA) (NASA) Cc: SERIALE-GRUSH, JOYCE M. (JSC-EA) (NASA); ROGERS, JOSEPH E. (JOE) (JSC-ES2) (NASA); GALBREATH,
 
-## GREGORY F. (GREG) (JSC-ES2) (NASA)
+#### GREGORY F. (GREG) (JSC-ES2) (NASA)
 
 Subject: STS-107 Wing Debris Impact, Request for Outside Photo-Imaging Help
 
 Paul and Dave, The meeting participants (Boeing, USA, NASA ES2 and ES3, KSC) all agreed we will always have big uncertainties in any transport/trajectory analyses and applicability/extrapolation of the old Arc-Jet test data until we get definitive, better, clearer photos of the wing and body underside. Without better images it will be very difficult to even bound the problem and initialize thermal, trajectory, and structural analyses. Their answers may have a wide spread ranging from acceptable to not-acceptable to horrible, and no way to reduce uncertainty. Thus, giving MOD options for entry will be very difficult.
 
-[continued on next page]
-
 %%page 152%%
 
 > Paul and Dave, The meeting participants (Boeing, USA, NASA ES2 and ES3, KSC) all agreed we will always have big uncertainties in any transport/trajectory analyses ACCIDENT IN and VESTIGA applicability/extrapolation of the old Arc-Jet
 
-## TION BOARD
+#### TION BOARD
 
 > test data until we get definitive, better, clearer photos of the wing and body underside. Without better images it will be very difficult to even bound the problem and initialize thermal, trajectory, and structural analyses. Their answers may have a wide spread ranging from acceptable to not-acceptable to
 
@@ -5670,7 +5642,7 @@ Flight Day Seven, Wednesday, January 22, 2003
 
 Conversations and log entries on Flight Day Seven document how three requests for images (Bob Page to Wayne Hale, Bob White to Lambert Austin, and Rodney Rocha to Paul Shack) were ultimately dismissed by the Mission Management Team, and how the order to halt those requests was then interpreted by the Debris Assessment Team as a direct and final denial of their request for imagery.
 
-## MISSED OPPORTUNITY
+#### MISSED OPPORTUNITY
 
 On the morning of Flight Day Seven, Wayne Hale responded to the earlier Flight Day Two request from Bob Page and a call from Lambert Austin on Flight Day Five, during which Austin mentioned that "some analysts" from the Debris Assessment Team were interested in getting imagery. Hale called a Department of Defense representative at Kennedy Space Center (who was not the designated Department of Defense official for coordinating imagery requests) and asked that the military start the planning process for imaging Columbia on orbit.
 
@@ -5682,7 +5654,7 @@ Haleʼs earlier call to the Defense Department representative at Kennedy Space C
 
 After the Department of Defense representatives were called, Lambert Austin telephoned Linda Ham to inform her about the imagery requests that he and Hale had initiated. Austin also told Wayne Hale that he had asked Lieutenant Colonel Lee at the Department of Defense Manned Space Flight Support Office about what actions were necessary to get on-orbit imagery.
 
-## MISSED OPPORTUNITIES 5 AND
+#### MISSED OPPORTUNITIES 5 AND
 
 Mike Card, a NASA Headquarters manager from the Safety and Mission Assurance Office, called Mark Erminger at the Johnson Space Center Safety and Mission Assurance for Shuttle Safety Program and Bryan OʼConnor, Associate Administrator for Safety and Mission Assurance, to discuss a potential Department of Defense imaging request. Erminger said that he was told this was an "in-family" event. OʼConnor stated he would defer to Shuttle management in handling such a request. Despite two safety officials being contacted, one of whom was NASAʼs highest-ranking safety official, safety personnel took no actions to obtain imagery.
 
@@ -5692,7 +5664,7 @@ The following is an 8:09 a.m. entry in the Mission Evaluation Room Console log.
 
 MER=Mission Evaluation Room]
 
-## CANCELLATION OF THE REQUEST FOR IMAGERY
+#### CANCELLATION OF THE REQUEST FOR IMAGERY
 
 At 8:30 a.m., the NASA Department of Defense liaison officer called USSTRATCOM and cancelled the request for imagery. The reason given for the cancellation was that NASA had identified its own in-house resources and no longer needed the militaryʼs help. The NASA request to the Department of Defense to prepare to image Columbia on-orbit was both made and rescinded within 90 minutes.
 
@@ -5768,7 +5740,7 @@ be expedited. I have the STS-107 Orbiter impact map based on the assumptions not
 
 > Orbiter area impacted or a penetration in a critical function area that results in loss of that function. My recollection of the most critical Orbiter bottom acreage areas are the wing spar, main landing gear door seal and RCC panels...of course Cal COLUMBIA can give you a much better rundown.
 
-## ACCIDENT INVESTIGATION BOARD
+#### ACCIDENT INVESTIGATION BOARD
 
 > We can and have generated parametric impact zone characterizations for many areas of the Orbiter for a few of our more typical ET foam loss areas. Of course, the impact/damage significance is always a function of debris size and density, impact velocity, and impact angle--these latter 2 being a function
 
@@ -5834,7 +5806,7 @@ Flight Day Eight, Thursday, January 23, 2003
 
 The morning after Shuttle Program Management decided not to pursue on-orbit imagery, Rodney Rocha received a return call from Mission Operations Directorate representative Barbara Conte to discuss what kinds of imaging capabilities were available for STS-107.
 
-## MISSED OPPORTUNITY
+#### MISSED OPPORTUNITY
 
 Conte explained to Rocha that the Mission Operations Directorate at Johnson did have U.S. Air Force standard services for imaging the Shuttle during Solid Rocket Booster separation and External Tank separation. Conte explained that the Orbiter would probably have to fly over Hawaii to be imaged. The Board notes that this statement illustrates an unfamiliarity with National imaging assets. Hawaii is only one of many sites where relevant assets are based. Conte asked Rocha if he wanted her to pursue such a request through Missions Operations Directorate channels. Rocha said no, because he believed Program managers would still have to support such a request. Since they had already decided that imaging of potentially damaged areas was not necessary, Rocha thought it unlikely that the Debris Assessment Team could convince them otherwise without definitive data.
 
@@ -6048,7 +6020,7 @@ In the Mission Evaluation Room, a safety representative from Science Application
 
 SAIC=Science Applications International Corporation, SR&QA=Safety, Reliability, and Quality Assurance, MER=Mission Evaluation Room]
 
-## MISSED OPPORTUNITY
+#### MISSED OPPORTUNITY
 
 According to a Memorandum for the Record written by William Readdy, Associate Administrator for Space Flight, Readdy and Michael Card, from NASAʼs Safety and Mission Assurance Office, discussed an offer of Department of Defense imagery support for Columbia. This January 29, conversation ended with Readdy telling Card that NASA would accept the offer but because the Mission Management Team had concluded that this was not a safety-of-flight issue, the imagery should be gathered only on a low priority "not-to-interfere" basis. Ultimately, no imagery was taken.
 
@@ -6060,7 +6032,7 @@ Discovery and Initial Analysis of Debris Strike
 
 In the course of examining film and video images of Columbiaʼs ascent, the Intercenter Photo Working Group identified, on the day after launch, a large debris strike to the leading edge of Columbiaʼs left wing. Alarmed at seeing so severe a hit so late in ascent, and at not having a clear view of damage the strike might have caused, Intercenter Photo Working Group members alerted senior Program managers by phone and sent a digitized clip of the strike to hundreds of NASA personnel via e-mail. These actions initiated a contingency plan that brought together an interdisciplinary group of experts from NASA, Boeing, and the United Space Alliance to analyze the strike. So concerned were Intercenter Photo Working Group personnel that on the day they discovered the debris strike, they tapped their Chair, Bob Page, to see through a request to image the left wing with Department of Defense assets in anticipation of analysts needing these images to better determine potential damage. By the Boardʼs count, this would be the first of three requests to secure imagery of Columbia on-orbit during the 16-day mission.
 
-## IMAGERY REQUESTS
+#### IMAGERY REQUESTS
 
 1. Flight Day 2. Bob Page, Chair, Intercenter Photo Working Group to Wayne Hale, Shuttle Program Manager for Launch Integration at Kennedy Space Center (in person).
 
@@ -6074,7 +6046,7 @@ Shuttle Engineering Office (by e-mail).
 
 %%page 167%%
 
-## MISSED OPPORTUNITIES
+#### MISSED OPPORTUNITIES
 
 1. Flight Day 4. Rodney Rocha inquires if crew has been asked to inspect for damage. No response.
 
@@ -6162,13 +6134,9 @@ Findings
 
 Intercenter Photo Working Group
 
-F6.3-1 The foam strike was first seen by the Intercenter Photo Working Group on the morn-
+F6.3-1 The foam strike was first seen by the Intercenter Photo Working Group on the morning of Flight Day Two during the standard review of launch video and high-speed photography. The strike was larger than any seen in the past, and the group was concerned about possible damage to the Orbiter. No conclusive images of the strike existed. One camera that may have provided an additional view was out of focus because of an improperly maintained lens.
 
-> ing of Flight Day Two during the standard review of launch video and high-speed photography. The strike was larger than any seen in the past, and the group was concerned about possible damage to the Orbiter. No conclusive images of the strike existed. One camera that may have provided an additional view was out of focus because of an improperly maintained lens.
-
-F6.3-2 The Chair of the Intercenter Photo Working Group asked management to begin the
-
-> process of getting outside imagery to help in damage assessment. This request, the first of three, began its journey through the management hierarchy on Flight Day Two.
+F6.3-2 The Chair of the Intercenter Photo Working Group asked management to begin the process of getting outside imagery to help in damage assessment. This request, the first of three, began its journey through the management hierarchy on Flight Day Two.
 
 F6.3-3 The Intercenter Photo Working Group distributed its first report, including a digitized video clip and initial assessment of the strike, on Flight Day Two. This information
 
@@ -6176,109 +6144,75 @@ F6.3-3 The Intercenter Photo Working Group distributed its first report, includi
 
 > was widely disseminated to NASA and contractor engineers, Shuttle Program managers, and Mission Operations Directorate personnel.
 
-F6.3-4 Initial estimates of debris size, speed, and origin were remarkably accurate. Initial in-
-
-> formation available to managers stated that the debris originated in the left bipod area of the External Tank, was quite large, had a high velocity, and struck the underside of the left wing near its leading edge. The report stated that the debris could have hit the RCC or tile.
+F6.3-4 Initial estimates of debris size, speed, and origin were remarkably accurate. Initial information available to managers stated that the debris originated in the left bipod area of the External Tank, was quite large, had a high velocity, and struck the underside of the left wing near its leading edge. The report stated that the debris could have hit the RCC or tile.
 
 The Debris Assessment Team
 
-F6.3-5 A Debris Assessment Team began forming on Flight Day two to analyze the impact.
+F6.3-5 A Debris Assessment Team began forming on Flight Day two to analyze the impact. Once the debris strike was categorized as "out of family" by United Space Alliance, contractual obligations led to the Team being Co-Chaired by the cognizant contractor sub-system manager and her NASA counterpart. The team was not designated a Tiger Team by the Mission Evaluation Room or Mission Management Team.
 
-> Once the debris strike was categorized as "out of family" by United Space Alliance, contractual obligations led to the Team being Co-Chaired by the cognizant contractor sub-system manager and her NASA counterpart. The team was not designated a Tiger Team by the Mission Evaluation Room or Mission Management Team.
+F6.3-6 Though the Team was clearly reporting its plans (and final results) through the Mission Evaluation Room to the Mission Management Team, no Mission manager appeared to "own" the Teamʼs actions. The Mission Management Team, through the Mission Evaluation Room, provided no direction for team activities, and Shuttle managers did not formally consult the Teamʼs leaders about their progress or interim results.
 
-F6.3-6 Though the Team was clearly reporting its plans (and final results) through the Mis-
+F6.3-7 During an organizational meeting, the Team discussed the uncertainty of the data and the value of on-orbit imagery to "bound" their analysis. In its first official meeting the next day, the Team gave its NASA Co-Chair the action to request imagery of Columbia on-orbit.
 
-> sion Evaluation Room to the Mission Management Team, no Mission manager appeared to "own" the Teamʼs actions. The Mission Management Team, through the Mission Evaluation Room, provided no direction for team activities, and Shuttle managers did not formally consult the Teamʼs leaders about their progress or interim results.
+F6.3-8 The Team routed its request for imagery through Johnson Space Centerʼs Engineering Directorate rather than through the Mission Evaluation Room to the Mission Management Team to the Flight Dynamics Officer, the channel used during a mission. This routing diluted the urgency of their request. Managers viewed it as a non-critical engineering desire rather than a critical operational need.
 
-F6.3-7 During an organizational meeting, the Team discussed the uncertainty of the data
+F6.3-9 Team members never realized that managementʼs decision against seeking imagery was not intended as a direct or final response to their request.
 
-> and the value of on-orbit imagery to "bound" their analysis. In its first official meeting the next day, the Team gave its NASA Co-Chair the action to request imagery of Columbia on-orbit.
+F6.3-10 The Teamʼs assessment of possible tile damage was performed using an impact simulation that was well outside Craterʼs test database. The Boeing analyst was inexperienced in the use of Crater and the interpretation of its results. Engineers with extensive Thermal Protection System expertise at Huntington Beach were not actively involved in determining if the Crater results were properly interpreted.
 
-F6.3-8 The Team routed its request for imagery through Johnson Space Centerʼs Engineer-
+F6.3-11 Crater initially predicted tile damage deeper than the actual tile depth, but engineers used their judgment to conclude that damage would not penetrate the densified layer of tile. Similarly, RCC damage conclusions were based primarily on judgment and experience rather than analysis.
 
-> ing Directorate rather than through the Mission Evaluation Room to the Mission Management Team to the Flight Dynamics Officer, the channel used during a mission. This routing diluted the urgency of their request. Managers viewed it as a non-critical engineering desire rather than a critical operational need.
+F6.3-12 For a variety of reasons, including management failures, communication break- downs, inadequate imagery, inappropriate use of assessment tools, and flawed engineering judgments, the damage assessments contained substantial uncertainties.
 
-F6.3-9 Team members never realized that managementʼs decision against seeking imagery was not intended as a direct or final response to their request. F6.3-10 The Teamʼs assessment of possible tile damage was performed using an impact
+F6.3-13 The assumptions (and their uncertainties) used in the analysis were never presented or discussed in full to either the Mission Evaluation Room or the Mission Management Team.
 
-> simulation that was well outside Craterʼs test database. The Boeing analyst was inexperienced in the use of Crater and the interpretation of its results. Engineers with extensive Thermal Protection System expertise at Huntington Beach were not actively involved in determining if the Crater results were properly interpreted.
-
-F6.3-11 Crater initially predicted tile damage deeper than the actual tile depth, but engineers
-
-> used their judgment to conclude that damage would not penetrate the densified layer of tile. Similarly, RCC damage conclusions were based primarily on judgment and experience rather than analysis.
-
-F6.3-12 For a variety of reasons, including management failures, communication break-
-
-> downs, inadequate imagery, inappropriate use of assessment tools, and flawed engineering judgments, the damage assessments contained substantial uncertainties.
-
-F6.3-13 The assumptions (and their uncertainties) used in the analysis were never presented
-
-> or discussed in full to either the Mission Evaluation Room or the Mission Management Team.
-
-F6.3-14 While engineers and managers knew the foam could have struck RCC panels; the
-
-> briefings on the analysis to the Mission Evaluation Room and Mission Management Team did not address RCC damage, and neither Mission Evaluation Room nor Mission Management Team managers asked about it.
+F6.3-14 While engineers and managers knew the foam could have struck RCC panels; the briefings on the analysis to the Mission Evaluation Room and Mission Management Team did not address RCC damage, and neither Mission Evaluation Room nor Mission Management Team managers asked about it.
 
 Space Shuttle Program Management
 
-F6.3-15 There were lapses in leadership and communication that made it difficult for en-
+F6.3-15 There were lapses in leadership and communication that made it difficult for engineers to raise concerns or understand decisions. Management failed to actively engage in the analysis of potential damage caused by the foam strike.
 
-> gineers to raise concerns or understand decisions. Management failed to actively engage in the analysis of potential damage caused by the foam strike.
+F6.3-16 Mission Management Team meetings occurred infrequently (five times during a 16 day mission), not every day, as specified in Shuttle Program management rules.
 
-F6.3-16 Mission Management Team meetings occurred infrequently (five times during a 16 day mission), not every day, as specified in Shuttle Program management rules. F6.3-17 Shuttle Program Managers entered the mission with the belief, recently reinforced
-
-> by the STS-113 Flight Readiness Review, that a foam strike is not a safety-of-flight issue.
+F6.3-17 Shuttle Program Managers entered the mission with the belief, recently reinforced by the STS-113 Flight Readiness Review, that a foam strike is not a safety-of-flight issue.
 
 %%page 172%%
 
-F6.3-18 After Program managers learned about the foam strike, their belief that it would not
+F6.3-18 After Program managers learned about the foam strike, their belief that it would not be a problem was confirmed (early, and without analysis) by a trusted expert who was readily accessible and spoke from "experience." No one in management questioned this conclusion.
 
-> be a problem was confirmed (early, and without analysis) by a trusted expert who was readily accessible and spoke from "experience." No one in management questioned this conclusion.
+F6.3-19 Managers asked "Whoʼs requesting the photos?" instead of assessing the merits of the request. Management seemed more concerned about the staff following proper channels (even while they were themselves taking informal advice) than they were about the analysis.
 
-F6.3-19 Managers asked "Whoʼs requesting the photos?" instead of assessing the merits of
+F6.3-20 No one in the operational chain of command for STS-107 held a security clearance that would enable them to understand the capabilities and limitations of National imagery resources.
 
-> the request. Management seemed more concerned about the staff following proper channels (even while they were themselves taking informal advice) than they were about the analysis.
+F6.3-21 Managers associated with STS-107 began investigating the implications of the foam strike on the launch schedule, and took steps to expedite post-flight analysis.
 
-F6.3-20 No one in the operational chain of command for STS-107 held a security clearance
+F6.3-22 Program managers required engineers to prove that the debris strike created a safety-of-flight issue: that is, engineers had to produce evidence that the system was unsafe rather than prove that it was safe.
 
-> that would enable them to understand the capabilities and limitations of National imagery resources.
-
-F6.3-21 Managers associated with STS-107 began investigating the implications of the foam strike on the launch schedule, and took steps to expedite post-flight analysis. F6.3-22 Program managers required engineers to prove that the debris strike created a safety-
-
-> of-flight issue: that is, engineers had to produce evidence that the system was unsafe rather than prove that it was safe.
-
-F6.3-23 In both the Mission Evaluation Room and Mission Management Team meetings over
-
-> the Debris Assessment Teamʼs results, the focus was on the bottom line – was there a safety-of-flight issue, or not? There was little discussion of analysis, assumptions, issues, or ramifications.
+F6.3-23 In both the Mission Evaluation Room and Mission Management Team meetings over the Debris Assessment Teamʼs results, the focus was on the bottom line – was there a safety-of-flight issue, or not? There was little discussion of analysis, assumptions, issues, or ramifications.
 
 Communication
 
-F6.3-24 Communication did not flow effectively up to or down from Program managers. F6.3-25 Three independent requests for imagery were initiated. F6.3-26 Much of Program managersʼ information came through informal channels, which prevented relevant opinion and analysis from reaching decision makers. F6.3-27 Program Managers did not actively communicate with the Debris Assessment Team.
+F6.3-24 Communication did not flow effectively up to or down from Program managers. F6.3-25 Three independent requests for imagery were initiated.
 
-> Partly as a result of this, the Team went through institutional, not mission-related, channels with its request for imagery, and confusion surrounded the origin of imagery requests and their subsequent denial.
+F6.3-26 Much of Program managersʼ information came through informal channels, which prevented relevant opinion and analysis from reaching decision makers.
 
-F6.3-28 Communication was stifled by the Shuttle Program attempts to find out who had a
+F6.3-27 Program Managers did not actively communicate with the Debris Assessment Team. Partly as a result of this, the Team went through institutional, not mission-related, channels with its request for imagery, and confusion surrounded the origin of imagery requests and their subsequent denial.
 
-"mandatory requirement" for imagery.
+F6.3-28 Communication was stifled by the Shuttle Program attempts to find out who had a "mandatory requirement" for imagery.
 
 Safety Representativeʼs Role
 
-F6.3-29 Safety representatives from the appropriate organizations attended meetings of the
-
-> Debris Assessment Team, Mission Evaluation Room, and Mission Management Team, but were passive, and therefore were not a channel through which to voice concerns or dissenting views.
+F6.3-29 Safety representatives from the appropriate organizations attended meetings of the Debris Assessment Team, Mission Evaluation Room, and Mission Management Team, but were passive, and therefore were not a channel through which to voice concerns or dissenting views.
 
 Recommendation:
 
-R6.3-1 Implement an expanded training program in which the Mission Management Team
+R6.3-1 Implement an expanded training program in which the Mission Management Team faces potential crew and vehicle safety contingences beyond launch and ascent. These contingences should involve potential loss of Shuttle or crew, contain numerous uncertainties and unknowns, and require the Mission Management Team to assemble and interact with support organizations across NASA/Contractor lines and in various locations.
 
-> faces potential crew and vehicle safety contingences beyond launch and ascent. These contingences should involve potential loss of Shuttle or crew, contain numerous uncertainties and unknowns, and require the Mission Management Team to assemble and interact with support organizations across NASA/Contractor lines and in various locations.
-
-R6.3-2 Modify the Memorandum of Agreement with the National Imagery and Mapping
-
-> Agency (NIMA) to make the imaging of each Shuttle flight while on orbit a standard requirement.
+R6.3-2 Modify the Memorandum of Agreement with the National Imagery and Mapping Agency (NIMA) to make the imaging of each Shuttle flight while on orbit a standard requirement.
 
 %%page 173%%
 
-## 6.4 POSSIBILITY OF RESCUE OR REPAIR
+## 6.4 Possibility of Rescue or Repair
 
 To put the decisions made during the flight of STS-107 into perspective, the Board asked NASA to determine if there were options for the safe return of the STS-107 crew. In this study, NASA was to assume that the extent of damage to the leading edge of the left wing was determined by national imaging assets or by a spacewalk. NASA was then asked to evaluate the possibility of:
 
@@ -6314,33 +6248,29 @@ This rescue was considered challenging but feasible. To succeed, it required pro
 
 Findings:
 
-F6.4-1 The repair option, while logistically viable using
+F6.4-1 The repair option, while logistically viable using existing materials onboard Columbia, relied on so many uncertainties that NASA rated this option "high risk."
 
-> existing materials onboard Columbia, relied on so many uncertainties that NASA rated this option "high risk."
+F6.4-2 If Program managers were able to unequivocally determine before Flight Day Seven that there
 
 > was potentially catastrophic damage to the left wing, accelerated processing of Atlantis might have provided a window in which Atlantis could rendezvous with Columbia before Columbiaʼs limited consumables ran out.
 
 Recommendation:
 
-R6.4-1 For missions to the International Space Station,
-
-> develop a practicable capability to inspect and effect emergency repairs to the widest possible range of damage to the Thermal Protection System, including both tile and Reinforced Carbon- Carbon, taking advantage of the additional capabilities available when near to or docked at the International Space Station.
+R6.4-1 For missions to the International Space Station, develop a practicable capability to inspect and effect emergency repairs to the widest possible range of damage to the Thermal Protection System, including both tile and Reinforced Carbon- Carbon, taking advantage of the additional capabilities available when near to or docked at the International Space Station.
 
 > For non-Station missions, develop a comprehensive autonomous (independent of Station) inspection and repair capability to cover the widest possible range of damage scenarios.
 
 > Accomplish an on-orbit Thermal Protection System inspection, using appropriate assets and capabilities, early in all missions.
 
-> The ultimate objective should be a fully autonomous capability for all missions to address the possibility that an International Space Station mission fails to achieve the correct orbit, fails to dock successfully, or is damaged during or after
-
-F6.4-2 If Program managers were able to unequivocally undocking.
-
-determine before Flight Day Seven that there
+> The ultimate objective should be a fully autonomous capability for all missions to address the possibility that an International Space Station mission fails to achieve the correct orbit, fails to dock successfully, or is damaged during or after undocking.
 
 %%page 175%%
 
 > The crew cabin access arm in position against Columbia on Launch Complex 39-A.
 
 %%page 176%%
+
+## ENDNOTES FOR CHAPTER 6
 
 The citations that contain a reference to "CAIB document" with CAB or
 
@@ -6404,51 +6334,83 @@ Ibid. 24
 
 > STS-36 PRCB, IFA Closure Rationale for STS-35. CAIB document CAB029- 03620433.
 
-Identified by MSFC in PRACA database as "not a safety of flight"
+> Identified by MSFC in PRACA database as "not a safety of flight" concern. Briefed at post-STS-42 PRCB and STS-45 Flight Readiness Review.
 
-> "STS-45 Space Shuttle Mission Report," NSTS-08275, May 1992, pg. 17. CAIB document CTF003-00030006.
+"STS-45 Space Shuttle Mission Report," NSTS-08275, May 1992, pg. 17.
 
-> "STS-45 Space Shuttle Mission Report," NSTS-08275, May 1992. CAIB document CTF003-00030006.
+CAIB document CTF003-00030006. 28
 
-> Both STS-56 and STS-58 post mission PRCBs discussed the debris events and IFAs. Closeout rationale was based upon the events being considered "in family" and "within experience base."
+"STS-45 Space Shuttle Mission Report," NSTS-08275, May 1992. CAIB document CTF003-00030006. 29
 
-> "Problem Reporting and Corrective Action System Requirements," NSTS- 08126, Revision H, November 22, 2000, Appendix C, Definitions, Out of
+Both STS-56 and STS-58 post mission PRCBs discussed the debris events and IFAs. Closeout rationale was based upon the events being considered
+
+"in family" and "within experience base."
+
+"Problem Reporting and Corrective Action System Requirements," NSTS08126, Revision H, November 22, 2000, Appendix C, Definitions, Out of
 
 Family. CAIB document CTF044-28652894. 31
 
 Post STS-87 PRCBD, S 062127, 18 Dec 1997. 32
 
-### Elisabeth Paté-Cornell and Paul S. Fischbeck, "Risk Management
+#### Elisabeth Paté-Cornell and Paul S. Fischbeck, "Risk Management
 
-> for the Tiles of the Space Shuttle," pp. 64-86, Interfaces 24, January- February 1994. CAIB document CAB005-0141.
+for the Tiles of the Space Shuttle," pp. 64-86, Interfaces 24, January-
 
-> Letter to M. Elisabeth Paté-Cornell, Stanford University, from Benjamin Buchbinder, Risk Management Program Manager, NASA, 10 May 1993. CAIB document CAB038-36973698.
+February 1994. CAIB document CAB005-0141. 33
+
+Letter to M. Elisabeth Paté-Cornell, Stanford University, from Benjamin
+
+Buchbinder, Risk Management Program Manager, NASA, 10 May 1993.
+
+CAIB document CAB038-36973698. 34
 
 M. Elisabeth Paté-Cornell, "Follow-up on the Standard 1990 Study of the
 
-> Risk of Loss of Vehicle and Crew of the NASA Space Shuttle Due to Tile Failure," Report to the Columbia Accident Investigation Board, 18 June 2003. CAIB document CAB006-00970104.
+Risk of Loss of Vehicle and Crew of the NASA Space Shuttle Due to Tile
 
-> M. Litwinsk and G. Wilson, et al., "End-to-End TPS Upgrades Plan for Space Shuttle Orbiter," February 1997; K. Hinkle and G. Wilson, "Advancements in TPS," M&P Engineering, 22 October 1998.
+Failure," Report to the Columbia Accident Investigation Board, 18 June
 
-> Daniel B. Leiser, et al., "Toughened Uni-piece Fibrous Insulation (TUFI)" Patent #5,079,082, 7 January 1992.
+2003. CAIB document CAB006-00970104. 35
 
-> Karrie Hinkle, "High Density Tile for Enhanced Dimensional Stability," Briefing to Space Shuttle Program, October 19, 1998. CAIB document CAB033-32663280.
+M. Litwinsk and G. Wilson, et al., "End-to-End TPS Upgrades Plan for Space Shuttle Orbiter," February 1997; K. Hinkle and G. Wilson,
 
-> Daniel B. Leiser, "Present/Future Tile Thermal Protection Systems," A presentation to the CAIB (Group 1), 16 May 2003.
+"Advancements in TPS," M&P Engineering, 22 October 1998.
 
-> John Kowal, "Orbiter Thermal Protection System (TPS) Upgrades." Space Shuttle Upgrades Safety Panel Review, 10 February 2003.
+Daniel B. Leiser, et al., "Toughened Uni-piece Fibrous Insulation (TUFI)"
 
-> "Problem Reporting and Corrective Action System Requirements," NSTS-08126, Revision H, November 22, 2000. CAIB document CTF044-
+Patent #5,079,082, 7 January 1992. 37
 
-28652894. 41
+Karrie Hinkle, "High Density Tile for Enhanced Dimensional Stability,"
 
-> Diane Vaughan, The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA (Chicago: University of Chicago Press, 1996).
+Briefing to Space Shuttle Program, October 19, 1998. CAIB document
 
-> Richard Feynman, Minority Report on Challenger, The Pleasure of Finding Things Out, (New York: Perseus Publishing, 2002).
+CAB033-32663280.
+
+Daniel B. Leiser, "Present/Future Tile Thermal Protection Systems," A presentation to the CAIB (Group 1), 16 May 2003. 39
+
+John Kowal, "Orbiter Thermal Protection System (TPS) Upgrades." Space
+
+Shuttle Upgrades Safety Panel Review, 10 February 2003.
+
+"Problem Reporting and Corrective Action System Requirements,"
+
+NSTS-08126, Revision H, November 22, 2000. CAIB document CTF04428652894. 41
+
+Diane Vaughan, The Challenger Launch Decision: Risky Technology,
+
+Culture, and Deviance at NASA (Chicago: University of Chicago Press,
+
+1996). 42
+
+Richard Feynman, Minority Report on Challenger, The Pleasure of
+
+Finding Things Out, (New York: Perseus Publishing, 2002). 43
 
 See Appendix D.17 Tiger Team Checklists. 44
 
-> Allen J. Richardson and A. H. McHugh, "Hypervelocity Impact Penetration Equation for Metal By Multiple Regression Analysis,"
+Allen J. Richardson and A. H. McHugh, "Hypervelocity Impact
+
+Penetration Equation for Metal By Multiple Regression Analysis,"
 
 STR153, North American Aviation, Inc., March 1966. 45
 
@@ -6458,31 +6420,39 @@ Equation & Impact Test Data," 3 March 1985. 46
 
 "Review of Crater Program for Evaluating Impact Damage to Orbiter
 
-> TPS Tiles," presented at Boeing-Huntington Beach, 29 Apr 2003. CAIB document CTF070-29492999.
+TPS Tiles," presented at Boeing-Huntington Beach, 29 Apr 2003. CAIB document CTF070-29492999. 47
 
-### L. Rand, "Impact Testing of Orbiter HRSI Tiles," Texas Engineering
+#### L. Rand, "Impact Testing of Orbiter HRSI Tiles," Texas Engineering
 
-> Experiment Station Report (Texas A&M), 1979; Tests conducted by NASA (D. Arabian) ca. 1979.
+Experiment Station Report (Texas A&M), 1979; Tests conducted by
 
-> Drew L. Goodlin, "Orbiter Tile Impact Testing, Final Report", SwRI Project # 18-7503-005, March 5, 1999.
+NASA (D. Arabian) ca. 1979. 48
 
-> Allen J. Richardson, "Evaluation of Flight Experience & Test Results for Ice Impaction on Orbiter RCC & ACC Surfaces," Rockwell International, November 26, 1984.
+Drew L. Goodlin, "Orbiter Tile Impact Testing, Final Report", SwRI Project
 
-> Though this entry indicates that NASA contacted USSPACECOM, the correct entity is USSTRATCOM. USSPACECOM ceased to exist in October 2002.
+# 18-7503-005, March 5, 1999. 49
 
-> concern. Briefed at post-STS-42 PRCB and STS-45 Flight Readiness Review.
+Allen J. Richardson, "Evaluation of Flight Experience & Test Results for
+
+Ice Impaction on Orbiter RCC & ACC Surfaces," Rockwell International,
+
+November 26, 1984. 50
+
+Though this entry indicates that NASA contacted USSPACECOM, the correct entity is USSTRATCOM. USSPACECOM ceased to exist in
+
+October 2002.
 
 %%page 177%%
 
-> The Accidentʼs Organizational Causes
+## Chapter 7: The Accidentʼs Organizational Causes
 
 Many accident investigations make the same mistake in defining causes. They identify the widget that broke or mal- functioned, then locate the person most closely connected with the technical failure: the engineer who miscalculated an analysis, the operator who missed signals or pulled the wrong switches, the supervisor who failed to listen, or the manager who made bad decisions. When causal chains are limited to technical flaws and individual failures, the ensuing responses aimed at preventing a similar event in the future are equally limited: they aim to fix the technical problem and replace or retrain the individual responsible. Such corrections lead to a misguided and potentially disastrous belief that the underlying problem has been solved. The Board did not want to make these errors. A central piece of our expanded cause model involves NASA as an organizational whole.
 
-## ORGANIZATIONAL CAUSE STATEMENT
+#### ORGANIZATIONAL CAUSE STATEMENT
 
 The organizational causes of this accident are rooted in the Space Shuttle Programʼs history and culture, including the original compromises that were required to gain approval for the Shuttle Program, subsequent years of resource constraints, fluctuating priorities, schedule pressures, mischaracterizations of the Shuttle as operational rather than developmental, and lack of an agreed national vision. Cultural traits and organizational practices detrimental to safety and reliability were allowed to develop, including: reliance on past success as a substitute for sound engineering practices (such as testing to understand why systems were not performing in accordance with requirements/specifications); organizational barriers which prevented effective communication of critical safety information and stifled professional differences of opinion; lack of integrated management across program elements; and the evolution of an informal chain of command and decision-making processes that operated outside the organizationʼs rules.
 
-## UNDERSTANDING CAUSES
+#### UNDERSTANDING CAUSES
 
 In the Boardʼs view, NASAʼs organizational culture and structure had as much to do with this accident as the External Tank foam. Organizational culture refers to the values, norms, beliefs, and practices that govern how an institution functions. At the most basic level, organizational culture defines the assumptions that employees make as they carry out their work. It is a powerful force that can persist through reorganizations and the reassignment of key personnel.
 
@@ -6496,7 +6466,7 @@ Similarly, the Board expected to find NASAʼs Safety and Mission Assurance organ
 
 This chapter presents an organizational context for understanding the Columbia accident. Section 7.1 outlines a short history of safety at NASA, beginning in the pre-Apollo era when the agency reputedly had the finest system safety- engineering programs in the world. Section 7.2 discusses organizational theory and its importance to the Boardʼs investigation, and Section 7.3 examines the practices of three organizations that successfully manage high risk. Sections 7.4 and 7.5 look at NASA today and answer the question, "How could NASA have missed the foam signal?" by high- lighting the blind spots that rendered the Shuttle Programʼs risk perspective myopic. The Boardʼs conclusion and recommendations are presented in 7.6. (See Chapter 10 for a discussion of the differences between industrial safety and mission assurance/quality assurance.)
 
-## 7.1 ORGANIZATIONAL CAUSES: INSIGHTS FROM HISTORY
+## 7.1 Organizational Causes: Insights from History
 
 NASAʼs organizational culture is rooted in history and tradition. From NASAʼs inception in 1958 to the Challenger accident in 1986, the agencyʼs Safety, Reliability, and Quality Assurance (SRQA) activities, "although distinct disciplines," were "typically treated as one function in the design, development, and operations of NASAʼs manned space flight programs."1 Contractors and NASA engineers collaborated closely to assure the safety of human space flight. Solid engineering practices emphasized defining goals and relating system performance to them; establishing and using decision criteria; developing alternatives; modeling systems for analysis; and managing operations.2 Although a NASA Office of Reliability and Quality Assurance existed for a short time during the early 1960s, it was funded by the human space flight program. By 1963, the office disappeared from the agencyʼs organization charts. For the next few years, the only type of safety program that existed at NASA was a decentralized "loose federation" of risk assessment oversight run by each programʼs contractors and the project offices at each of the three Human Space Flight Centers.
 
@@ -6552,7 +6522,7 @@ In 2002, a 14-member Space Shuttle Competitive Task Force supported by the RAND 
 
 Based on these findings, the task force suggested that an Independent Safety Assurance function should be created that would hold one of "three keys" in the Certification of Flight Readiness process (NASA and the operating contractor would hold the other two), effectively giving this function the ability to stop any launch. Although in the Boardʼs view the "third key" Certification of Flight Readiness process is not a perfect solution, independent safety and verification functions are vital to continued Shuttle operations. This independent function should possess the authority to shut down the flight preparation processes or intervene post-launch when an anomaly occurs.
 
-## 7.2 ORGANIZATIONAL CAUSES: INSIGHTS FROM THEORY
+## 7.2 Organizational Causes: Insights from Theory
 
 To develop a thorough understanding of accident causes and risk, and to better interpret the chain of events that led to the Columbia accident, the Board turned to the contemporary social science literature on accidents and risk and sought insight from experts in High Reliability, Normal Accident, and Organizational Theory.12 Additionally, the Board held a forum, organized by the National Safety Council, to define the essential characteristics of a sound safety program.13
 
@@ -6580,7 +6550,17 @@ Evaluation Room is the single most compelling reason why communications were so 
 - Conditioned by Success: Even after it was clear from the launch videos that foam had struck the Orbiter in a manner never before seen, Space Shuttle Program managers were not unduly alarmed. They could not imagine why anyone would want a photo of something that could be fixed after landing. More importantly, learned attitudes about foam strikes diminished managementʼs wariness of their danger. The Shuttle Program turned "the experience of failure into the memory of success."18 Managers also failed to develop simple contingency plans for a re-entry emergency. They were convinced, without study, that nothing could be done about such an emergency. The intellectual curiosity and skepticism that a solid safety culture requires was almost entirely absent. Shuttle managers did not embrace safety-conscious attitudes. Instead, their attitudes were shaped and reinforced by an organization that, in this instance, was incapable of stepping back and gauging its biases. Bureaucracy and process trumped thoroughness and reason.
 - Significance of Redundancy: The Human Space Flight Program has compromised the many redundant processes, checks, and balances that should identify and correct small errors. Redundant systems essential to every
 
-> high-risk enterprise have fallen victim to bureaucratic efficiency. Years of workforce reductions and outsourcing have culled from NASAʼs workforce the layers of experience and hands-on systems knowledge that once provided a capacity for safety oversight. Safety and Mission Assurance personnel have been eliminated, ca- reers in safety have lost organizational prestige, and the Program now decides on its own how much safety and engineering oversight it needs. Aiming to align its inspection regime with the International Organization for Standardization 9000/9001 protocol, commonly used in industrial environments – environments very different than the Shuttle Program – the Human Space Flight Program shifted from a comprehensive "oversight" inspection process to a more limited "insight" process, cutting mandatory inspection points by more than half and leaving even fewer workers to make "second" or "third" Shuttle systems checks (see Chapter 10).
+high-risk enterprise have fallen victim to bureaucratic efficiency. Years of workforce reductions and outsourcing have culled from NASAʼs workforce the layers of experience and hands-on systems knowledge that once provided a capacity for safety oversight. Safety and
+
+Mission Assurance personnel have been eliminated, careers in safety have lost organizational prestige, and the
+
+Program now decides on its own how much safety and engineering oversight it needs. Aiming to align its inspection regime with the International Organization for
+
+Standardization 9000/9001 protocol, commonly used in industrial environments – environments very different than the Shuttle Program – the Human Space Flight
+
+Program shifted from a comprehensive "oversight" inspection process to a more limited "insight" process, cutting mandatory inspection points by more than half and leaving even fewer workers to make "second" or
+
+"third" Shuttle systems checks (see Chapter 10).
 
 Implications for the Shuttle Program Organization
 
@@ -6594,7 +6574,7 @@ The challenges to failure-free performance highlighted by these two theoretical 
 
 %%page 182%%
 
-## 7.3 ORGANIZATIONAL CAUSES: EVALUATING BEST SAFETY PRACTICES
+## 7.3 Organizational Causes: Evaluating Best Safety Practices
 
 Many of the principles of solid safety practice identified as crucial by independent reviews of NASA and in accident and risk literature are exhibited by organizations that, like NASA, operate risky technologies with little or no margin for error. While the Board appreciates that organizations dealing with high-risk technology cannot sustain accident-free performance indefinitely, evidence suggests that there are effective ways to minimize risk and limit the number of accidents.
 
@@ -6629,7 +6609,7 @@ These elements can be grouped into several thematic categories:
 - Retaining Knowledge: Naval Reactors uses many mechanisms to ensure knowledge is retained. The Director serves a minimum eight-year term, and the program documents the history of the rationale for every technical requirement. Key personnel in Headquarters routinely rotate into field positions to remain familiar with every aspect of operations, training, maintenance, development and the workforce. Current and past issues are discussed in open forum with the Director and immediate staff at "all-hands" informational meetings under an in-house professional development program. NASA lacks such a program.
 - Worst-Case Event Failures: Naval Reactors hazard analyses evaluate potential damage to the reactor plant, potential impact on people, and potential environmental impact. The Board identified NASAʼs failure to adequately prepare for a range of worst-case scenarios as a weakness in the agencyʼs safety and mission assurance training programs.
 
-## SUBSAFE
+#### SUBSAFE
 
 The Board observed the following during its study of the Navyʼs SUBSAFE Program.
 
@@ -6641,11 +6621,13 @@ The Board observed the following during its study of the Navyʼs SUBSAFE Program
 - The SUBSAFE structure is enhanced by the clarity, uniformity, and consistency of submarine safety requirements and responsibilities. Program managers are not permitted to "tailor" requirements without approval from the organization with final authority for technical requirements and the organization that verifies SUB- SAFEʼs compliance with critical design and process requirements.25
 - The SUBSAFE Program and implementing organization are relatively immune to budget pressures. NASAʼs program structure requires the Program Manager position to consider such issues, which forces the manager to juggle cost, schedule, and safety considerations. Independent advice on these issues is therefore inevitably subject to political and administrative pressure.
 - Compliance with critical SUBSAFE design and process requirements is independently verified by a highly capable centralized organization that also "owns" the processes and monitors the program for compliance.
-- Quantitative safety assessments in the Navy submarine program are deterministic rather than probabilistic. NASA does not have a quantitative, program-wide risk and safety database to support future design capabilities and assist risk assessment teams. paring Navy Programs with NASA nificant differences exist between NASA and Navy sub- ine programs.
+- Quantitative safety assessments in the Navy submarine program are deterministic rather than probabilistic. NASA does not have a quantitative, program-wide risk and safety database to support future design capabilities and assist risk assessment teams.
 
-- Requirements Ownership (Technical Authority):
+Comparing Navy Programs with NASA
 
-Both the SUBSAFE and Naval Reactorsʼ organizational
+Significant differences exist between NASA and Navy submarine programs.
+
+- Requirements Ownership (Technical Authority): Both the SUBSAFE and Naval Reactorsʼ organizational
 
 %%page 184%%
 
@@ -6669,9 +6651,7 @@ Conclusion
 
 The practices noted here suggest that responsibility and authority for decisions involving technical requirements and safety should rest with an independent technical authority. Organizations that successfully operate high-risk technologies have a major characteristic in common: they place a premium on safety and reliability by structuring their programs so that technical and safety engineering organizations own the process of determining, maintaining, and waiving technical requirements with a voice that is equal to yet independent of Program Managers, who are governed by cost, schedule and mission-accomplishment goals. The Naval Reactors Program, SUBSAFE program, and the Aerospace Corporation are examples of organizations that have in- vested in redundant technical authorities and processes to become highly reliable.
 
-7.4 ORGANIZATIONAL CAUSES:
-
-## A BROKEN SAFETY CULTURE
+## 7.4 Organizational Causes: A Broken Safety Culture
 
 Perhaps the most perplexing question the Board faced during its seven-month investigation into the Columbia accident was "How could NASA have missed the signals the foam was sending?" Answering this question was a challenge. The investigation revealed that in most cases, the Human Space Flight Program is extremely aggressive in reducing threats to safety. But we also know – in hindsight – that detection of the dangers posed by foam was impeded by "blind spots" in NASAʼs safety culture.
 
@@ -6689,57 +6669,57 @@ Safety Policy
 
 NASAʼs current philosophy for safety and mission assurance calls for centralized policy and oversight at Head-
 
+NASA Administrator
+
 Code M
 
 Office of Space Flight AA
 
-Deputy AA
+> Deputy AA JSC Center Director
 
-## ISS/SSP
+#### ISS/SSP
 
-> ISS Program Space Shuttle JSC Organization Manager Program Managers Manager
+Verbal Input
 
-> Shuttle Element Managers Endorse
+> ISS Program Space Shuttle JSC Organization SR & QA Director Manager Program Managers Manager
 
-Space Shuttle
+> Shuttle Element Managers Endorse Space Shuttle Space Shuttle Organization S & MA Manager Managers
 
-S & MA Manager
+Funding via Integrated Task Agreements
 
 > United Space Alliance Vice President SQ & MA
 
-> quarters and decentralized execution of safety programs at the enterprise, program, and project levels. Headquarters dictates what must be done, not how it should be done. The operational premise that logically follows is that safety is the responsibility of program and project managers. Managers are subsequently given flexibility to organize safety efforts as they see fit, while NASA Headquarters is charged with maintaining oversight through independent surveillance and assessment.28 NASA policy dictates that safety programs should be placed high enough in the organization, and be vested with enough authority and seniority, to "maintain independence." Signals of potential danger, anomalies, and critical information should, in principle, surface in the hazard identification process and be tracked with risk assessments supported by engineering analyses. In reality, such a process demands a more independent status than NASA has ever been willing to give its safety organizations, despite the recommendations of numerous outside experts over nearly two decades, including the Rogers Commission (1986), General Accounting Office (1990), and the Shuttle Independent Assessment Team (2000).
+quarters and decentralized execution of safety programs at the enterprise, program, and project levels. Headquarters dictates what must be done, not how it should be done. The operational premise that logically follows is that safety is the responsibility of program and project managers. Managers are subsequently given flexibility to organize safety efforts as they see fit, while NASA Headquarters is charged with maintaining oversight through independent surveillance and assessment.28 NASA policy dictates that safety programs should be placed high enough in the organization, and be vested with enough authority and seniority, to "maintain independence." Signals of potential danger, anomalies, and critical information should, in principle, surface in the hazard identification process and be tracked with risk assessments supported by engineering analyses. In reality, such a process demands a more independent status than NASA has ever been willing to give its safety organizations, despite the recommendations of numerous outside experts over nearly two decades, including the Rogers Commission (1986), General Accounting Office (1990), and the Shuttle Independent Assessment Team (2000).
 
 Safety Organization Structure
 
-> Center safety organizations that support the Shuttle Program are tailored to the missions they perform. Johnson and
+Center safety organizations that support the Shuttle Program are tailored to the missions they perform. Johnson and
 
-> Issue: Same Individual,[^4] roles that cross Center, Program and NASA Administrator Headquarters responsibilies
+> Issue: Same Individual,[^4] roles that cross Center, Program and
+
+or Headquarters responsibilies
 
 > Result: Failure of checks and balances
 
-> (Safety Advisor) Code Q Safety and Mission Assurance AA
+(Safety Advisor)
+
+> Code Q Safety and Mission Assurance AA
 
 Code Q MMT Letter
 
 > Space Shuttle SR & QA Manager
 
-or l Input JSC SR & QA
+#### JSC SR & QA
 
 Director
 
-& QA Director
-
 > Independent Space Shuttle Division Chief Assessment Office
-
-Space Shuttle
-
-Organization
-
-Managers d Task Agreements
 
 Responsibility
 
-Policy/Advice Figure 7.4-1. Independent safety checks and balance failure.
+Policy/Advice
+
+Figure 7.4-1. Independent safety checks and balance failure.
 
 %%page 186%%
 
@@ -6822,7 +6802,9 @@ The retention rationales appear biased toward proving that the design is "safe,"
 
 The report continues, "… the Committee has not found an independent, detailed analysis or assessment of the CIL retention rationale which considers all inputs to the risk assessment process."33 Ten years later, the Shuttle Independent Assessment Team reported "Risk Management process erosion created by the desire to reduce costs …" 34 The Shuttle Independent Assessment Team argued strongly that NASA Safety and Mission Assurance should be restored to its previous role of an independent oversight body, and Safety and Mission Assurance not be simply a "safety auditor."
 
-The Board found similar problems with integrated hazard analyses of debris strikes on the Orbiter. In addition, the information systems supporting the Shuttle – intended to be tools for decision-making – are extremely cumbersome and e following addresses the hazard tracking tools and major tabases in the Shuttle Program that promote risk manage- nt. • Hazard Analysis: A fundamental element of system safety is managing and controlling hazards. NASAʼs only guidance on hazard analysis is outlined in the
+The Board found similar problems with integrated hazard analyses of debris strikes on the Orbiter. In addition, the information systems supporting the Shuttle – intended to be tools for decision-making – are extremely cumbersome and difficult to use at any level.
+
+The following addresses the hazard tracking tools and major databases in the Shuttle Program that promote risk management. • Hazard Analysis: A fundamental element of system safety is managing and controlling hazards. NASAʼs only guidance on hazard analysis is outlined in the
 
 Methodology for Conduct of Space Shuttle Program
 
@@ -6842,7 +6824,7 @@ The Critical Item List (CIL) tracks 5,396 individual
 
 Shuttle hazards, of which 4,222 are termed "Critical-
 
-## SPACE SHUTTLE SAFETY UPGRADE PROGRAM
+#### SPACE SHUTTLE SAFETY UPGRADE PROGRAM
 
 NASA presented a Space Shuttle Safety Upgrade Initiative to Congress as part of its Fiscal Year 2001 budget in March 2000. This initiative sought to create a "Pro-active upgrade program to keep Shuttle flying safely and efficiently to 2012 and beyond to meet agency commitments and goals for human access to space."
 
@@ -6851,8 +6833,6 @@ The planned Shuttle safety upgrades included: Electric Auxiliary Power Unit, Imp
 However, as discussed in Chapter 5, every proposed safety upgrade – with a few exceptions – was either not approved or was deferred.
 
 The irony of the Space Shuttle Safety Upgrade Program was that the strategy placed emphasis on keeping the "Shuttle flying safely and efficiently to 2012 and beyond," yet the Space Flight Leadership Council accepted the upgrades only as long as they were financially feasible. Funding a safety upgrade in order to fly safely, and then canceling it for budgetary reasons, makes the concept of mission safety rather hollow.
-
-difficult to use at any level.
 
 %%page 189%%
 
@@ -6892,9 +6872,7 @@ Conclusions
 
 Throughout the course of this investigation, the Board found that the Shuttle Programʼs complexity demands highly effective communication. Yet integrated hazard reports and risk analyses are rarely communicated effectively, nor are the many databases used by Shuttle Program engineers and managers capable of translating operational experiences into effective risk management practices. Although the Space Shuttle system has conducted a relatively small number of missions, there is more than enough data to generate performance trends. As it is currently structured, the Shuttle Program does not use data-driven safety methodologies to their fullest advantage.
 
-## 7.5 ORGANIZATIONAL CAUSES: IMPACT OF
-
-A FLAWED SAFETY CULTURE ON STS-107
+## 7.5 Organizational Causes: Impact of a Flawed Safety Culture on STS-107
 
 In this section, the Board examines how and why an array of processes, groups, and individuals in the Shuttle Program failed to appreciate the severity and implications of the foam strike on STS-107. The Board believes that the Shuttle Program should have been able to detect the foam trend and more fully appreciate the danger it represented. Recall that "safety culture" refers to the collection of characteristics and attitudes in an organization – promoted by its leaders and internalized by its members – that makes safety an overriding priority. In the following analysis, the Board outlines shortcomings in the Space Shuttle Program, Debris Assessment Team, and Mission Management Team that resulted from a flawed safety culture.
 
@@ -6926,7 +6904,7 @@ Even though STS-107ʼs debris strike was 400 times larger than the objects Crate
 
 %%page 191%%
 
-## ENGINEERING BY VIEWGRAPHS
+#### ENGINEERING BY VIEWGRAPHS
 
 The Debris Assessment Team presented its analysis in a formal briefing to the Mission Evaluation Room that relied on Power- Point slides from Boeing. When engineering analyses and risk assessments are condensed to fit on a standard form or overhead slide, information is inevitably lost. In the process, the priority assigned to information can be easily misrepresented by its placement on a chart and the language that is used. Dr. Edward Tufte of Yale University, an expert in information presentation who also researched communications failures in the Challenger accident, studied how the slides used by the Debris Assessment Team in their briefing to the Mission Evaluation Room misrepresented key information.38
 
@@ -6948,19 +6926,35 @@ As information gets passed up an organization hierarchy, from people who do anal
 
 At many points during its investigation, the Board was surprised to receive similar presentation slides from NASA officials in place of technical reports. The Board views the endemic use of PowerPoint briefing slides instead of technical papers as an illustration of the problematic methods of technical communication at NASA.
 
-> The vaguely quantitative words "significant" and "significantly" are used 5 times on this slide, with de facto meanings ranging from "detectable in largely irrelevant calibration case study" to "an amount of damage so that everyone dies" to "a difference of 640-fold." None of these 5 usages appears to refer to the technical meaning of "statistical significance." The low resolution of PowerPoint slides promotes the use of compressed phrases like "Tile Penetration." As is the case here, such phrases may well be ambiquous.
+The vaguely quantitative words "significant" and
 
-> (The low resolution and large font generate 3 typographic orphans, lonely words dangling on a seperate line.)
+"significantly" are used 5 times on this slide, with de facto meanings ranging from "detectable in largely irrelevant calibration case study" to "an amount of damage so that everyone dies" to "a difference of 640-fold." None of these 5 usages appears to refer to the technical meaning of "statistical significance."
 
-> This vague pronoun reference "it" alludes to damage to the protective tiles,which caused the destruction of the Columbia. The slide weakens important material with ambiquous language (sentence fragments, passive voice, multiple meanings of "significant"). The 3 reports
+The low resolution of PowerPoint slides promotes the use of compressed phrases like "Tile Penetration."
 
-> were created by engineers for high-level NASA officials who were deciding whether the threat of wing damage required further investigation before the Columbia attempted return. The officials were satisfied that the reports indicated that the Columbia was not in danger,
+As is the case here, such phrases may well be ambiquous.
 
-and no attempts to further examine the threat were
+(The low resolution and large font generate 3 typographic orphans, lonely words dangling on a seperate line.)
 
-> made. The slides were part of an oral presentation and also were circulated as e-mail attachments. In this slide the same unit of measure for volume (cubic inches) is shown a different way every time 3cu. in 1920cu. in 3 cu. in rather than in clear and tidy exponential form 1920 in 3 . Perhaps the available font cannot show exponents. Shakiness in units of measurement provokes concern. Slides that use hierarchical bullet-outlines here do not handle statistical data and scientific notation gracefully. If PowerPoint is a corporate-mandated format for all engineering reports, then some competent scientific typography (rather than the PP market-pitch style) is essential. In this slide, the typography is so choppy and
+This vague pronoun reference "it" alludes to damage to the protective tiles,which caused the destruction of the
 
-clunky that it impedes understanding. The analysis by Dr. Edward Tufte of the slide from the Debris Assessment Team briefing. [SOFI=Spray-On Foam Insulation] who might have cautioned against using Crater so far outside its validated limits. Nor did safety personnel provide any additional oversight. NASA failed to connect the dots: the engineers who misinterpreted Crater – a tool already unsuited to the task at hand – were the very ones the Shuttle Program identified as engendering the most risk in their transition from Huntington Beach. The Board views this example as characteristic of the greater turbulence the Shuttle Program experienced in the decade before Columbia as a result of workforce reductions and management reforms.
+Columbia. The slide weakens important material with ambiquous language (sentence fragments, passive voice, multiple meanings of "significant"). The 3 reports were created by engineers for high-level NASA officials who were deciding whether the threat of wing damage required further investigation before the Columbia attempted return. The officials were satisfied that the reports indicated that the Columbia was not in danger, and no attempts to further examine the threat were 6 made. The slides were part of an oral presentation and also were circulated as e-mail attachments.
+
+In this slide the same unit of measure for volume
+
+(cubic inches) is shown a different way every time
+
+3cu. in 1920cu. in 3 cu. in rather than in clear and tidy exponential form 1920 in 3 .
+
+Perhaps the available font cannot show exponents.
+
+Shakiness in units of measurement provokes concern.
+
+Slides that use hierarchical bullet-outlines here do not handle statistical data and scientific notation gracefully.
+
+If PowerPoint is a corporate-mandated format for all engineering reports, then some competent scientific typography (rather than the PP market-pitch style) is essential. In this slide, the typography is so choppy and clunky that it impedes understanding.
+
+The analysis by Dr. Edward Tufte of the slide from the Debris Assessment Team briefing. [SOFI=Spray-On Foam Insulation] who might have cautioned against using Crater so far outside its validated limits. Nor did safety personnel provide any additional oversight. NASA failed to connect the dots: the engineers who misinterpreted Crater – a tool already unsuited to the task at hand – were the very ones the Shuttle Program identified as engendering the most risk in their transition from Huntington Beach. The Board views this example as characteristic of the greater turbulence the Shuttle Program experienced in the decade before Columbia as a result of workforce reductions and management reforms.
 
 %%page 192%%
 
@@ -6970,9 +6964,9 @@ In the Boardʼs view, the decision to fly STS-113 without a compelling explanati
 
 Status update meetings should provide an opportunity to raise concerns and hold discussions across structural and technical boundaries. The leader of such meetings must encourage participation and guarantee that problems are assessed and resolved fully. All voices must be heard, which can be difficult when facing a hierarchy. An employeeʼs location in the hierarchy can encourage silence. Organizations interested in safety must take steps to guarantee that all relevant information is presented to decision-makers. This did not happen in the meetings during the Columbia mission (see Chapter 6). For instance, e-mails from engineers at Johnson and Langley conveyed the depth of their concern about the foam strike, the questions they had about its implications, and the actions they wanted to take as a follow-up. However, these e-mails did not reach the Mission Management Team.
 
-The failure to convey the urgency of engineering concerns 7.6 was caused, at least in part, by organizational structure and spheres of authority. The Langley e-mails were circulated among co-workers at Johnson who explored the possible effects of the foam strike and its consequences for landing. Yet, like Debris Assessment Team Co-Chair Rodney Rocha, they kept their concerns within local channels and did not forward them to the Mission Management Team. They were separated from the decision-making process by distance and rank.
+The failure to convey the urgency of engineering concerns was caused, at least in part, by organizational structure and spheres of authority. The Langley e-mails were circulated among co-workers at Johnson who explored the possible effects of the foam strike and its consequences for landing. Yet, like Debris Assessment Team Co-Chair Rodney Rocha, they kept their concerns within local channels and did not forward them to the Mission Management Team. They were separated from the decision-making process by distance and rank.
 
-Similarly, Mission Management Team participants felt pres- sured to remain quiet unless discussion turned to their particular area of technological or system expertise, and, even then, to be brief. The initial damage assessment briefing prepared for the Mission Evaluation Room was cut down considerably in order to make it "fit" the schedule. Even so, it took 40 minutes. It was cut down further to a three-minute discussion topic at the Mission Management Team. Tapes of STS-107 Mission Management Team sessions reveal a no- F7.1-1 ticeable "rush" by the meetingʼs leader to the preconceived bottom line that there was "no safety-of-flight" issue (see Chapter 6). Program managers created huge barriers against dissenting opinions by stating preconceived conclusions based on subjective knowledge and experience, rather than
+Similarly, Mission Management Team participants felt pres- sured to remain quiet unless discussion turned to their particular area of technological or system expertise, and, even then, to be brief. The initial damage assessment briefing prepared for the Mission Evaluation Room was cut down considerably in order to make it "fit" the schedule. Even so, it took 40 minutes. It was cut down further to a three-minute discussion topic at the Mission Management Team. Tapes of STS-107 Mission Management Team sessions reveal a noticeable "rush" by the meetingʼs leader to the preconceived bottom line that there was "no safety-of-flight" issue (see Chapter 6). Program managers created huge barriers against dissenting opinions by stating preconceived conclusions based on subjective knowledge and experience, rather than
 
 on solid data. Managers demonstrated little concern for mission safety.
 
@@ -6984,73 +6978,49 @@ Safety Shortcomings
 
 The Board believes that the safety organization, due to a lack of capability and resources independent of the Shuttle Program, was not an effective voice in discussing technical issues or mission operations pertaining to STS-107. The safety personnel present in the Debris Assessment Team, Mission Evaluation Room, and on the Mission Management Team were largely silent during the events leading up to the loss of Columbia. That silence was not merely a failure of safety, but a failure of the entire organization.
 
-## 7.6 FINDINGS AND RECOMMENDATIONS
+## 7.6 Findings and Recommendations
 
 The evidence that supports the organizational causes also led the Board to conclude that NASAʼs current organization, which combines in the Shuttle Program all authority and responsibility for schedule, cost, manifest, safety, technical requirements, and waivers to technical requirements, is not an effective check and balance to achieve safety and mission assurance. Further, NASAʼs Office of Safety and Mission Assurance does not have the independence and authority that the Board and many outside reviews believe is necessary. Consequently, the Space Shuttle Program does not consistently demonstrate the characteristics of organizations that effectively manage high risk. Therefore, the Board offers the following Findings and Recommendations:
 
 Findings:
 
-F7.1-1 Throughout its history, NASA has consistently
-
-> struggled to achieve viable safety programs and adjust them to the constraints and vagaries of changing budgets. Yet, according to multiple high level independent reviews, NASAʼs safety system has fallen short of the mark.
+F7.1-1 Throughout its history, NASA has consistently struggled to achieve viable safety programs and adjust them to the constraints and vagaries of changing budgets. Yet, according to multiple high level independent reviews, NASAʼs safety system has fallen short of the mark.
 
 %%page 193%%
 
-F7.4-1 The Associate Administrator for Safety and Mis-
+F7.4-1 The Associate Administrator for Safety and Mission Assurance is not responsible for safety and mission assurance execution, as intended by the Rogers Commission, but is responsible for Safety and Mission Assurance policy, advice, coordination, and budgets. This view is consistent with NASAʼs recent philosophy of management at a strategic level at NASA Headquarters but contrary to the Rogersʼ Commission recommendation.
 
-> sion Assurance is not responsible for safety and mission assurance execution, as intended by the Rogers Commission, but is responsible for Safety and Mission Assurance policy, advice, coordination, and budgets. This view is consistent with NASAʼs recent philosophy of management at a strategic level at NASA Headquarters but contrary to the Rogersʼ Commission recommendation.
+F7.4-2 Safety and Mission Assurance organizations supporting the Shuttle Program are largely dependent upon the Program for funding, which hampers their status as independent advisors.
 
-F7.4-2 Safety and Mission Assurance organizations sup-
+F7.4-3 Over the last two decades, little to no progress has been made toward attaining integrated, independent, and detailed analyses of risk to the Space Shuttle system.
 
-> porting the Shuttle Program are largely dependent upon the Program for funding, which hampers their status as independent advisors.
+F7.4-4 System safety engineering and management is separated from mainstream engineering, is not vigorous enough to have an impact on system design, and is hidden in the other safety disciplines at NASA Headquarters.
 
-F7.4-3 Over the last two decades, little to no progress has
+F7.4-5 Risk information and data from hazard analyses are not communicated effectively to the risk assessment and mission assurance processes. The Board could not find adequate application of a process, database, or metric analysis tool that took an integrated, systemic view of the entire Space Shuttle system.
 
-> been made toward attaining integrated, independent, and detailed analyses of risk to the Space Shuttle system.
+F7.4-6 The Space Shuttle Systems Integration Office handles all Shuttle systems except the Orbiter. Therefore, it is not a true integration office.
 
-F7.4-4 System safety engineering and management is
+F7.4-7 When the Integration Office convenes the Integration Control Board, the Orbiter Office usually does not send a representative, and its staff makes verbal inputs only when requested.
 
-> separated from mainstream engineering, is not vigorous enough to have an impact on system design, and is hidden in the other safety disciplines at NASA Headquarters.
+F7.4-8 The Integration office did not have continuous responsibility to integrate responses to bipod foam shedding from various offices. Sometimes the Orbiter Office had responsibility, sometimes the External Tank Office at Marshall Space Flight Center had responsibility, and sometime the bipod shedding did not result in any designation of an In-Flight Anomaly. Integration did not occur.
 
-F7.4-5 Risk information and data from hazard analyses
+F7.4-9 NASA information databases such as The Problem Reporting and Corrective Action and the Web Program Compliance Assurance and Status System are marginally effective decision tools.
 
-> are not communicated effectively to the risk assessment and mission assurance processes. The Board could not find adequate application of a process, database, or metric analysis tool that took an integrated, systemic view of the entire Space Shuttle system.
+F7.4-10 Senior Safety, Reliability & Quality Assurance and element managers do not use the Lessons Learned Information System when making decisions. NASA subsequently does not have a constructive program to use past lessons to edu- cate engineers, managers, astronauts, or safety personnel.
 
-F7.4-6 The Space Shuttle Systems Integration Office
+F7.4-11 The Space Shuttle Program has a wealth of data tucked away in multiple databases without a convenient way to integrate and use the data for management, engineering, or safety decisions.
 
-> handles all Shuttle systems except the Orbiter. Therefore, it is not a true integration office.
-
-F7.4-7 When the Integration Office convenes the Inte-
-
-> gration Control Board, the Orbiter Office usually does not send a representative, and its staff makes verbal inputs only when requested.
-
-F7.4-8 The Integration office did not have continuous
-
-> responsibility to integrate responses to bipod foam shedding from various offices. Sometimes the Orbiter Office had responsibility, sometimes the External Tank Office at Marshall Space Flight Center had responsibility, and sometime the bipod shedding did not result in any designation of an In-Flight Anomaly. Integration did not occur.
-
-F7.4-9 NASA information databases such as The Prob-
-
-> lem Reporting and Corrective Action and the R7.5-2 Web Program Compliance Assurance and Status System are marginally effective decision tools.
-
-F7.4-10 Senior Safety, Reliability & Quality Assurance
-
-> and element managers do not use the Lessons R7.5-3 Learned Information System when making decisions. NASA subsequently does not have a constructive program to use past lessons to edu- cate engineers, managers, astronauts, or safety personnel.
-
-F7.4-11 The Space Shuttle Program has a wealth of data
-
-> tucked away in multiple databases without a convenient way to integrate and use the data for management, engineering, or safety decisions.
-
-F7.4-12 The dependence of Safety, Reliability & Quality
+F7.4-12 The dependence of Safety, Reliability & Quality Assurance personnel on Shuttle Program support limits their ability to oversee operations and
 
 > communicate potential problems throughout the organization.
 
-7.4-13 There are conflicting roles, responsibilities, and
+F7.4-13 There are conflicting roles, responsibilities, and
 
 > guidance in the Space Shuttle safety programs. The Safety & Mission Assurance Pre-Launch Assessment Review process is not recognized by the Space Shuttle Program as a requirement that must be followed (NSTS 22778). Failure to consistently apply the Pre-Launch Assessment Review as a requirements document creates confusion about roles and responsibilities in the NASA safety organization.
 
-ecommendations:
+Recommendations:
 
-7.5-1 Establish an independent Technical Engineer-
+R7.5-1 Establish an independent Technical Engineer-
 
 > ing Authority that is responsible for technical requirements and all waivers to them, and will build a disciplined, systematic approach to identifying, analyzing, and controlling hazards throughout the life cycle of the Shuttle System. The independent technical authority does the following as a minimum:
 
@@ -7065,17 +7035,17 @@ ecommendations:
 
 > The Technical Engineering Authority should be funded directly from NASA Headquarters, and should have no connection to or responsibility for schedule or program cost.
 
-7.5-2 NASA Headquarters Office of Safety and Mission
+R7.5-2 NASA Headquarters Office of Safety and Mission
 
 > Assurance should have direct line authority over the entire Space Shuttle Program safety organization and should be independently resourced.
 
-7.5-3 Reorganize the Space Shuttle Integration Office
+R7.5-3 Reorganize the Space Shuttle Integration Office
 
 > to make it capable of integrating all elements of the Space Shuttle Program, including the Orbiter.
 
-> Assurance personnel on Shuttle Program support limits their ability to oversee operations and
-
 %%page 194%%
+
+## ENDNOTES FOR CHAPTER 7
 
 The citations that contain a reference to "CAIB document" with CAB or CTF followed by seven to eleven digits, such as CAB001-0010, refer to a document in the Columbia Accident Investigation Board database maintained by the Department of Justice and archived at the National Archives.
 
@@ -7135,41 +7105,83 @@ Dr. Diane Vaughan, Boston College; Dr. David Woods, Ohio State
 
 Elisabeth Paté-Cornell; Dr. Douglas A. Wiegmann, University of Illinois at Urbana-Champaign; Dr. Nancy G. Leveson, Massachusetts Institute of
 
-> Dupont Corporation; Dr. M. Sam Mannan, Texas A&M University; and Mr. Alan C. McMillan, President and Chief Executive Officer, National Safety Council.
+Technology; Mr. James Wick, Intel Corporation; Ms. Deborah L. Grubbe,
 
-> Dr. David Woods of Ohio State University speaking to the Board on Hind- Sight Bias. April 28, 2003.
+Dupont Corporation; Dr. M. Sam Mannan, Texas A&M University; and
+
+Mr. Alan C. McMillan, President and Chief Executive Officer, National
+
+Safety Council. 17
+
+Dr. David Woods of Ohio State University speaking to the Board on Hind-
+
+Sight Bias. April 28, 2003. 18
 
 Sagan, The Limits of Safety, p.258. 19
 
 LaPorte and Consolini, "Working In Practice." 20
 
-> Notes from "NASA/Navy Benchmarking Exchange (NNBE), Interim Report, Observations & Opportunities Concerning Navy Submarine Program Safety Assurance," Joint NASA and Naval Sea Systems Command NNBE Interim Report, December 20, 2002.
+Notes from "NASA/Navy Benchmarking Exchange (NNBE), Interim
 
-> Theodore Rockwell, The Rickover Effect, How One Man Made a Difference. (Annapolis, Maryland: Naval Institute Press, 1992), p. 318.
+Report, Observations & Opportunities Concerning Navy Submarine
+
+Program Safety Assurance," Joint NASA and Naval Sea Systems
+
+Command NNBE Interim Report, December 20, 2002.
+
+Theodore Rockwell, The Rickover Effect, How One Man Made a
+
+Difference. (Annapolis, Maryland: Naval Institute Press, 1992), p. 318.
 
 Rockwell, Rickover, p. 320. 23
 
-> For more information, see Dr. Diane Vaughn, The Challenger Launch Decision, Risky Technology, Culture, and Deviance at NASA (Chicago: University of Chicago Press, 1996).
+For more information, see Dr. Diane Vaughn, The Challenger Launch
 
-> Presentation to the Board by Admiral Walter Cantrell, Aerospace Advisory Panel member, April 7, 2003.
+Decision, Risky Technology, Culture, and Deviance at NASA (Chicago:
 
-> Presentation to the Board by Admiral Walter Cantrell, Aerospace Advisory Panel member, April 7, 2003.
+University of Chicago Press, 1996).
 
-> Aerospaceʼs Launch Verification Process and its Contribution to Titan Risk Management, Briefing given to Board, May 21, 2003, Mr. Ken Holden, General Manager, Launch Verification Division.
+Presentation to the Board by Admiral Walter Cantrell, Aerospace
 
-> Joe Tomei, "ELV Launch Risk Assessment Briefing," 3rd Government/ Industry Mission Assurance Forum, Aerospace Corporation, September 24, 2002.
+Advisory Panel member, April 7, 2003. 25
 
-> NASA Policy Directive 8700.1A, "NASA Policy for Safety and Mission Success", Para 1.b, 5.b(1), 5.e(1), and 5.f(1).
+Presentation to the Board by Admiral Walter Cantrell, Aerospace
+
+Advisory Panel member, April 7, 2003.
+
+Aerospaceʼs Launch Verification Process and its Contribution to Titan Risk
+
+Management, Briefing given to Board, May 21, 2003, Mr. Ken Holden,
+
+General Manager, Launch Verification Division. 27
+
+Joe Tomei, "ELV Launch Risk Assessment Briefing," 3rd Government/
+
+Industry Mission Assurance Forum, Aerospace Corporation, September
+
+24, 2002.
+
+NASA Policy Directive 8700.1A, "NASA Policy for Safety and Mission
+
+Success", Para 1.b, 5.b(1), 5.e(1), and 5.f(1).
 
 Charles B. Perrow. Normal Accidents (New York: Basic Books, 1984). 30
 
-> A. Shenhar, "Project management style and the space shuttle program (part 2): A retrospective look," Project Management Journal, 23 (1), pp. 32-37.
+A. Shenhar, "Project management style and the space shuttle program
 
-> Harry McDonald, "SIAT Space Shuttle Independent Assessment Team Report."
+(part 2): A retrospective look," Project Management Journal, 23 (1), pp. 32-37. 31
+
+Harry McDonald, "SIAT Space Shuttle Independent Assessment Team
+
+Report." 32
 
 Ibid. 33
 
-> "Post Challenger Evaluation of Space Shuttle Risk Assessment and Management Report, National Academy Press 1988," section 5.1, pg. 40.
+"Post Challenger Evaluation of Space Shuttle Risk Assessment and
+
+Management Report, National Academy Press 1988," section 5.1, pg.
+
+40. 34
 
 Harry McDonald, "SIAT Space Shuttle Independent Assessment Team
 
@@ -7177,7 +7189,9 @@ Report." 35
 
 NSTS-22254 Rev B. Ibid.
 
-> GAO Report, "Survey of NASA Lessons Learned," GAO-01-1015R, September 5, 2001.
+GAO Report, "Survey of NASA Lessons Learned," GAO-01-1015R,
+
+September 5, 2001.
 
 E. Tufte, Beautiful Evidence (Cheshire, CT: Graphics Press). [in press.] 39
 
@@ -7185,15 +7199,15 @@ Ibid., Edward R. Tufte, "The Cognitive Style of PowerPoint," (Cheshire,
 
 CT: Graphics Press, May 2003).
 
-Technology; Mr. James Wick, Intel Corporation; Ms. Deborah L. Grubbe, Ibid.
+Ibid.
 
 %%page 195%%
 
-> History As Cause: Columbia and Challenger
+## Chapter 8: History As Cause: Columbia and Challenger
 
 The Board began its investigation with two central questions about NASA decisions. Why did NASA continue to fly with known foam debris problems in the years preceding the Columbia launch, and why did NASA managers conclude that the foam debris strike 81.9 seconds into Columbiaʼs flight was not a threat to the safety of the mission, despite the concerns of their engineers?
 
-## 8.1 ECHOES OF CHALLENGER
+## 8.1 Echoes of Challenger
 
 As the investigation progressed, Board member Dr. Sally Ride, who also served on the Rogers Commission, observed that there were "echoes" of Challenger in Columbia. Ironically, the Rogers Commission investigation into Challenger started with two remarkably similar central questions: Why did NASA continue to fly with known O-ring erosion problems in the years before the Challenger launch, and why, on the eve of the Challenger launch, did NASA managers decide that launching the mission in such cold temperatures was an acceptable risk, despite the concerns of their engineers?
 
@@ -7211,7 +7225,7 @@ The constraints under which the agency has operated throughout the Shuttle Progr
 
 Shuttle accidents. Although NASA leaders have played an important role, these constraints were not entirely of NASAʼs own making. The White House and Congress must recognize the role of their decisions in this accident and take responsibility for safety in the future.
 
-## 8.2 FAILURES OF FORESIGHT : TWO DECISION HISTORIES AND THE NORMALIZATION OF DEVIANCE
+## 8.2 Failures of Foresight: Two Decision Histories and the Normalization of Deviance
 
 Foam loss may have occurred on all missions, and left bipod ramp foam loss occurred on 10 percent of the flights for which visible evidence exists. The Board had a hard time understanding how, after the bitter lessons of Challenger, NASA could have failed to identify a similar trend. Rather than view the foam decision only in hindsight, the Board tried to see the foam incidents as NASA engineers and managers saw them as they made their decisions. This section gives an insider perspective: how NASA defined risk and how those definitions changed over time for both foam debris hits and O-ring erosion. In both cases, engineers and managers conducting risk assessments continually normalized the technical deviations they found.3 In all official engineering analyses and launch recommendations prior to the accidents, evidence that the design was not performing as expected was reinterpreted as acceptable and non-deviant, which diminished perceptions of risk throughout the agency.
 
@@ -7235,7 +7249,7 @@ foam shedding and potential damage to the Orbiter before Columbia. Furthermore, 
 
 During the Challenger investigation, Rogers Commission member Dr. Richard Feynman famously compared launching Shuttles with known problems to playing Russian roulette.12 But that characterization is only possible in hindsight. It is not how NASA personnel perceived the risks as they were being assessed, one launch at a time. Playing Russian roulette implies that the pistol-holder realizes that death might be imminent and still takes the risk. For both foam debris and O-ring erosion, fixes were in the works at the time of the accidents, but there was no rush to complete them because neither problem was defined as a show-stopper. Each time an incident occurred, the Flight Readiness process declared it safe to continue flying. Taken one at a time, each decision seemed correct. The agency allocated attention and resources to these two problems accordingly. The consequences of living with both of these anomalies were, in its view, minor. Not all engineers agreed in the months immediately preceding Challenger, but the dominant view at NASA – the managerial view – was, as one manager put it, "we were just eroding rubber O-rings," which was a low-cost problem.13 The financial consequences of foam debris also were relatively low: replacing tiles extended the turnaround time between launches. In both cases, NASA was comfortable with its analyses. Prior to each accident, the agency saw no greater consequences on the horizon.
 
-## 8.3 SYSTEM EFFECTS: THE IMPACT OF HISTORY AND POLITICS ON RISKY WORK
+## 8.3 System Effects: The Impact of History and Politics on Risky Work
 
 The series of engineering decisions that normalized technical deviations shows one way that history became cause in both accidents. But NASAʼs own history encouraged this pattern of flying with known flaws. Seventeen years separated the two accidents. NASA Administrators, Congresses, and political administrations changed. However, NASAʼs political and budgetary situation remained the same in principle as it had been since the inception of the Shuttle Program. NASA remained a politicized and vulnerable agency, dependent on key political players who accepted NASAʼs ambitious proposals and then imposed strict budget limits. Post-Challenger policy decisions made by the White House, Congress, and NASA leadership resulted in the agency reproducing many of the failings identified by the Rogers Commission. Policy constraints affected the Shuttle Programʼs organization culture, its structure, and the structure of the safety system. The three combined to keep NASA on its slippery slope toward Challenger and Columbia. NASA culture allowed flying with flaws when problems were defined as normal and routine; the structure of NASAʼs Shuttle Program blocked the flow of critical information up the hierarchy, so definitions of risk continued unaltered. Finally, a perennially weakened safety system, unable to critically analyze and intervene, had no choice but to ratify the existing risk assessments on these two problems. The following comparison shows that these system effects persisted through time, and affected engineering decisions in the years leading up to both accidents.
 
@@ -7255,9 +7269,7 @@ The last line of defense against errors is usually a safety system. But the prev
 
 %%page 199%%
 
-8.4 ORGANIZATION, CULTURE, AND
-
-## UNINTENDED CONSEQUENCES
+## 8.4 Organization, Culture, and Unintended Consequences
 
 A number of changes to the Space Shuttle Program structure made in response to policy decisions had the unintended effect of perpetuating dangerous aspects of pre-Challenger culture and continued the pattern of normalizing things that were not supposed to happen. At the same time that NASA leaders were emphasizing the importance of safety, their personnel cutbacks sent other signals. Streamlining and downsizing, which scarcely go unnoticed by employees, convey a message that efficiency is an important goal. The Shuttle/Space Station partnership affected both programs. Working evenings and weekends just to meet the International Space Station Node 2 deadline sent a signal to employees that schedule is important. When paired with the "faster, better, cheaper" NASA motto of the 1990s and cuts that dramatically decreased safety personnel, efficiency becomes a strong signal and safety a weak one. This kind of doublespeak by top administrators affects peopleʼs decisions and actions without them even realizing it.26
 
@@ -7267,7 +7279,7 @@ treating it as if it were.29 The Board found that even after the loss of Challen
 
 How could the lessons of Challenger have been forgotten so quickly? Again, history was a factor. First, if success is measured by launches and landings,31 the machine appeared to be working successfully prior to both accidents. Challenger was the 25th launch. Seventeen years and 87 missions passed without major incident. Second, previous policy decisions again had an impact. NASAʼs Apollo-era research and development culture and its prized deference to the technical expertise of its working engineers was overridden in the Space Shuttle era by "bureaucratic accountability" – an allegiance to hierarchy, procedure, and following the chain of command.32 Prior to Challenger, the can-do culture was a result not just of years of apparently successful launches, but of the cultural belief that the Shuttle Programʼs many structures, rigorous procedures, and detailed system of rules were responsible for those successes.33 The Board noted that the pre-Challenger layers of processes, boards, and panels that had produced a false sense of confidence in the system and its level of safety returned in full force prior to Columbia. NASA made many changes to the Space Shuttle Program structure after Challenger. The fact that many changes had been made supported a belief in the safety of the system, the invincibility of organizational and technical systems, and ultimately, a sense that the foam problem was understood.
 
-## 8.5 HISTORY AS CAUSE: TWO ACCIDENTS
+## 8.5 History as Cause: Two Accidents
 
 Risk, uncertainty, and history came together when unprecedented circumstances arose prior to both accidents. For Challenger, the weather prediction for launch time the next day was for cold temperatures that were out of the engineering experience base. For Columbia, a large foam hit – also outside the experience base – was discovered after launch. For the first case, all the discussion was pre-launch; for the second, it was post-launch. This initial difference determined the shape these two decision sequences took, the number of people who had information about the problem, and the locations of the involved parties.
 
@@ -7321,7 +7333,7 @@ NASAʼs safety system lacked the resources, independence, personnel, and authori
 
 NASAʼs "Silent Safety System" did nothing to alter the decision-making that immediately preceded both accidents. No safety representatives were present during the Challenger teleconference – no one even thought to call them.46 In the case of Columbia, safety representatives were present at Mission Evaluation Room, Mission Management Team, and Debris Assessment Team meetings. However, rather than critically question or actively participate in the analysis, the safety representatives simply listened and concurred.
 
-## 8.6 CHANGING NASAʼS ORGANIZATIONAL SYSTEM
+## 8.6 Changing NASAʼs Organizational System
 
 The echoes of Challenger in Columbia identified in this chapter have serious implications. These repeating patterns mean that flawed practices embedded in NASAʼs organizational system continued for 20 years and made substantial contributions to both accidents. The Columbia Accident Investigation Board noted the same problems as the Rogers Commission. An organization system failure calls for corrective measures that address all relevant levels of the organization, but the Boardʼs investigation shows that for all its cutting-edge technologies, "diving-catch" rescues, and imaginative plans for the technology and the future of space exploration, NASA has shown very little understanding of the inner workings of its own organization.
 
@@ -7337,15 +7349,17 @@ Changes in organizational structure should be made only with careful considerati
 
 Nonetheless, changes must be made. The Shuttle Programʼs structure is a source of problems, not just because of the way it impedes the flow of information, but because it has had effects on the culture that contradict safety goals.
 
-NASAʼs blind spot is it believes it has a strong safety cul-
-
-dent, robust capability to protect the systemʼs fundamental requirements and specifications inevitably compromised those requirements, and therefore increased risk. The Shuttle Programʼs structure created power distributions that need new structuring, rules, and management training to restore deference to technical experts, empower engineers to get resources they need, and allow safety concerns to be freely aired.
+NASAʼs blind spot is it believes it has a strong safety culture. Program history shows that the loss of a truly independent, robust capability to protect the systemʼs fundamental requirements and specifications inevitably compromised those requirements, and therefore increased risk. The Shuttle Programʼs structure created power distributions that need new structuring, rules, and management training to restore deference to technical experts, empower engineers to get resources they need, and allow safety concerns to be freely aired.
 
 Strategies must increase the clarity, strength, and presence of signals that challenge assumptions about risk. Twice in NASA history, the agency embarked on a slippery slope that resulted in catastrophe. Each decision, taken by itself, seemed correct, routine, and indeed, insignificant and unremarkable. Yet in retrospect, the cumulative effect was stunning. In both pre-accident periods, events unfolded over a long time and in small increments rather than in sudden and dramatic occurrences. NASAʼs challenge is to design systems that maximize the clarity of signals, amplify weak signals so they can be tracked, and account for missing signals. For both accidents there were moments when management definitions of risk might have been reversed were it not for the many missing signals – an absence of trend analysis, imagery data not obtained, concerns not voiced, information overlooked or dropped from briefings. A safety team must have equal and independent representation so that managers are not again lulled into complacency by shifting definitions of risk. It is obvious but worth acknowledging that people who are marginal and powerless in organizations may have useful information or opinions that they donʼt express. Even when these people are encouraged to speak, they find it intimidat- ing to contradict a leaderʼs strategy or a group consensus. Extra effort must be made to contribute all relevant information to discussions of risk. These strategies are important for all safety aspects, but especially necessary for ill-structured problems like O-rings and foam debris. Because ill-structured problems are less visible and therefore invite the normalization of deviance, they may be the most risky of all.
 
-Challenger launches on the ill-fated STS-33/51-L mission on January 28, 1986. The Orbiter would be destroyed 73 seconds later. ture. Program history shows that the loss of a truly indepen-The citations that contain a reference to "CAIB document" with CAB or
+Challenger launches on the ill-fated STS-33/51-L mission on January 28, 1986. The Orbiter would be destroyed 73 seconds later.
 
 %%page 204%%
+
+## ENDNOTES FOR CHAPTER 8
+
+The citations that contain a reference to "CAIB document" with CAB or
 
 CTF followed by seven to eleven digits, such as CAB001-0010, refer to a document in the Columbia Accident Investigation Board database maintained by the Department of Justice and archived at the National Archives.
 
@@ -7427,17 +7441,25 @@ Report of the Presidential Commission, Vol. I, pp. 171-173. 28
 
 Report of the Presidential Commission, Vol. I, pp. 173-174. 29
 
-> National Aeronautics and Space Administration, Aerospace Safety Advisory Panel, "National Aeronautics and Space Administration Annual
+National Aeronautics and Space Administration, Aerospace Safety
 
-> Report: Covering Calendar Year 1984," (Washington: Government Printing Office, 1985).
+Advisory Panel, "National Aeronautics and Space Administration Annual
+
+Report: Covering Calendar Year 1984," (Washington: Government
+
+Printing Office, 1985). 30
 
 Harry McDonald, Report of the Shuttle Independent Assessment Team. 31
 
-> Richard J. Feynman, "Personal Observations on Reliability of the Shuttle," Report of the Presidential Commission, Appendix F:1.
+Richard J. Feynman, "Personal Observations on Reliability of the
+
+Shuttle," Report of the Presidential Commission, Appendix F:1. 32
 
 Howard E. McCurdy, "The Decay of NASAʼs Technical Culture," Space
 
-> Policy (November 1989), pp. 301-10; See also Howard E. McCurdy, Inside NASA (Baltimore: Johns Hopkins University Press, 1993).
+Policy (November 1989), pp. 301-10; See also Howard E. McCurdy,
+
+Inside NASA (Baltimore: Johns Hopkins University Press, 1993). 33
 
 Diane Vaughan, "The Trickle-Down Effect: Policy Decisions, Risky Work, and the Challenger Tragedy," California Management Review, 39, 2,
 
@@ -7447,61 +7469,87 @@ Morton subsequently sold its propulsion division of Alcoa, and the company is no
 
 Report of the Presidential Commission, pp. 82-118. 36
 
-> For discussions of how frames and cultural beliefs shape perceptions, see, e.g., Lee Clarke, "The Disqualification Heuristic: When Do Organizations Misperceive Risk?" in Social Problems and Public Policy, vol. 5, ed. R. Ted Youn and William F. Freudenberg, (Greenwich, CT: JAI, 1993); William
+For discussions of how frames and cultural beliefs shape perceptions, see, e.g., Lee Clarke, "The Disqualification Heuristic: When Do Organizations
+
+Misperceive Risk?" in Social Problems and Public Policy, vol. 5, ed. R. Ted
+
+Youn and William F. Freudenberg, (Greenwich, CT: JAI, 1993); William
 
 Starbuck and Frances Milliken, "Executive Perceptual Filters – What They
 
 Notice and How They Make Sense," in The Executive Effect, Donald C. Hambrick, ed. (Greenwich, CT: JAI Press, 1988); Daniel Kahneman,
 
-> Paul Slovic, and Amos Tversky, eds. Judgment Under Uncertainty: Heuristics and Biases (Cambridge: Cambridge University Press, 1982);
+Paul Slovic, and Amos Tversky, eds. Judgment Under Uncertainty:
+
+Heuristics and Biases (Cambridge: Cambridge University Press, 1982);
 
 Carol A. Heimer, "Social Structure, Psychology, and the Estimation of
 
-> Risk." Annual Review of Sociology 14 (1988): 491-519; Stephen J. Pfohl, Predicting Dangerousness (Lexington, MA: Lexington Books, 1978).
+Risk." Annual Review of Sociology 14 (1988): 491-519; Stephen J. Pfohl,
 
-> Report of the Presidential Commission, Vol. IV: 791; Vaughan, The Challenger Launch Decision, p. 178.
+Predicting Dangerousness (Lexington, MA: Lexington Books, 1978).
+
+Report of the Presidential Commission, Vol. IV: 791; Vaughan, The
+
+Challenger Launch Decision, p. 178.
 
 Report of the Presidential Commission, Vol. I, pp. 91-92; Vol. IV, p. 612.
 
-> Report of the Presidential Commission, Vol. I, pp. 164-177; Chapter 6, this Report.
+Report of the Presidential Commission, Vol. I, pp. 164-177; Chapter 6, this Report.
 
 Report of the Presidential Commission, Vol. I, p. 90.
 
-Report of the Presidential Commission, Vol. IV, pp. 791. For details of
+Report of the Presidential Commission, Vol. IV, pp. 791. For details of teleconference and engineering analysis, see Roger M. Boisjoly, "Ethical
 
-> teleconference and engineering analysis, see Roger M. Boisjoly, "Ethical Decisions: Morton Thiokol and the Space Shuttle Challenger Disaster," American Society of Mechanical Engineers, (Boston: 1987), pp. 1-13.
+Decisions: Morton Thiokol and the Space Shuttle Challenger Disaster,"
+
+American Society of Mechanical Engineers, (Boston: 1987), pp. 1-13. 42
 
 Vaughan, The Challenger Launch Decision, pp. 358-361. 43
 
 Report of the Presidential Commission, Vol. I, pp. 88-89, 93. 44
 
-> Edward Wong, "E-Mail Writer Says He was Hypothesizing, Not Predicting Disaster," New York Times, 11 March 2003, Sec. A-20, Col.[^1] (excerpts from press conference, Col. 3).
+Edward Wong, "E-Mail Writer Says He was Hypothesizing, Not
+
+Predicting Disaster," New York Times, 11 March 2003, Sec. A-20, Col.[^1]
+
+(excerpts from press conference, Col. 3).
 
 Report of the Presidential Commission, Vol. I, pp. 92-95. 46
 
 Report of the Presidential Commission, Vol. I, p. 152. 47
 
-> Weick argues that in a risky situation, people need to learn how to "drop their tools:" learn to recognize when they are in unprecedented situations in which following the rules can be disastrous. See Karl E. Weick, "The Collapse of Sensemaking in Organizations: The Mann Gulch Disaster." Administrative Science Quarterly 38, 1993, pp. 628-652.
+Weick argues that in a risky situation, people need to learn how to "drop their tools:" learn to recognize when they are in unprecedented situations in which following the rules can be disastrous. See Karl E. Weick, "The
 
-> Lee Clarke, Mission Improbable: Using Fantasy Documents to Tame Disaster, (Chicago: University of Chicago Press, 1999); Charles Perrow, Normal Accidents, op. cit.; Scott Sagan, The Limits of Safety, op. cit.; Diane Vaughan, "The Dark Side of Organizations," Annual Review of Sociology, Vol. 25, 1999, pp. 271-305.
+Collapse of Sensemaking in Organizations: The Mann Gulch Disaster."
 
-Typically, after a public failure, the responsible organization makes
+Administrative Science Quarterly 38, 1993, pp. 628-652. 48
 
-> safety the priority. They sink resources into discovering what went wrong and lessons learned are on everyoneʼs minds. A boost in resources goes
+Lee Clarke, Mission Improbable: Using Fantasy Documents to Tame
 
-> to safety to build on those lessons in order to prevent another failure. But concentrating on rebuilding, repair, and safety takes energy and resources from other goals. As the crisis ebbs and normal functioning returns, institutional memory grows short. The tendency is then to
+Disaster, (Chicago: University of Chicago Press, 1999); Charles Perrow,
 
-> backslide, as external pressures force a return to operating goals. William R. Freudenberg, "Nothing Recedes Like Success? Risk Analysis
+Normal Accidents, op. cit.; Scott Sagan, The Limits of Safety, op. cit.;
 
-and the Organizational Amplification of Risks," Risk: Issues in Health and
+Diane Vaughan, "The Dark Side of Organizations," Annual Review of
 
-> Safety 3, 1: 1992, pp. 1-35; Richard H. Hall, Organizations: Structures, Processes, and Outcomes, (Prentice-Hall. 1998), pp. 184-204; James G. March, Lee S. Sproull, and Michal Tamuz, "Learning from Samples of
+Sociology, Vol. 25, 1999, pp. 271-305. 49
+
+Typically, after a public failure, the responsible organization makes safety the priority. They sink resources into discovering what went wrong and lessons learned are on everyoneʼs minds. A boost in resources goes to safety to build on those lessons in order to prevent another failure.
+
+But concentrating on rebuilding, repair, and safety takes energy and resources from other goals. As the crisis ebbs and normal functioning returns, institutional memory grows short. The tendency is then to backslide, as external pressures force a return to operating goals.
+
+William R. Freudenberg, "Nothing Recedes Like Success? Risk Analysis and the Organizational Amplification of Risks," Risk: Issues in Health and
+
+Safety 3, 1: 1992, pp. 1-35; Richard H. Hall, Organizations: Structures,
+
+Processes, and Outcomes, (Prentice-Hall. 1998), pp. 184-204; James G. March, Lee S. Sproull, and Michal Tamuz, "Learning from Samples of
 
 One or Fewer," Organization Science, 2, 1: February 1991, pp. 1-13.
 
 %%page 205%%
 
-Part Three
+## Part Three: A Look Ahead
 
 When itʼs dark, the stars come out … The same is true with people. When the tragedies of life turn a bright day into a frightening night, Godʼs stars come out and these stars are families who say although we grieve deeply as do the families of Apollo 1 and Challenger before us, the bold exploration of space must go on. These stars are the leaders in Government and in NASA who will not let the vision die. These stars are the next generation of astronauts, who like the prophets of old said,
 
@@ -7513,15 +7561,13 @@ As this report ends, the Board wants to recognize the outstanding people in NASA
 
 In Part Three the Board presents its views and recommendations for the steps needed to achieve that goal, of continuing our exploration of space, in a manner with improved safety.
 
-Chapter 9 discusses the near-term, mid-term and long-term implications for the future of human space flight. For the near term, NASA should submit to the Return-to-Flight Task Force a plan for implementing the return-to-flight recommendations. For the mid-term, the agency should focus on: the remaining Part One recommendations, the Part Two recommendations for organizational and cultural changes, and
+Chapter 9 discusses the near-term, mid-term and long-term implications for the future of human space flight. For the near term, NASA should submit to the Return-to-Flight Task Force a plan for implementing the return-to-flight recommendations. For the mid-term, the agency should focus on: the remaining Part One recommendations, the Part Two recommendations for organizational and cultural changes, and the Part Three recommendation for recertifying the Shuttle for use to 2020 or beyond. In setting the stage for a debate
 
-A Look Ahead on the long-term future of human space flight, the Board addresses the need for a national vision to direct the design of a new Space Transportation System.
+on the long-term future of human space flight, the Board addresses the need for a national vision to direct the design of a new Space Transportation System.
 
 Chapter 10 contains additional recommendations and the significant "look ahead" observations the Board made in the course of this investigation that were not directly related to the accident, but could be viewed as "weak signals" of future problems. The observations may be indications of serious future problems and must be addressed by NASA.
 
 Chapter 11 contains the recommendations made in Parts One, Two and Three, all issued with the resolve to continue human space flight.
-
-the Part Three recommendation for recertifying the Shuttle for use to 2020 or beyond. In setting the stage for a debate
 
 %%page 206%%
 
@@ -7529,7 +7575,7 @@ Columbia in the Vehicle Assembly Building at the Kennedy Space Center being read
 
 %%page 207%%
 
-> Implications for the Future of Human Space Flight
+## Chapter 9: Implications for the Future of Human Space Flight
 
 And while many memorials will be built to honor Co- speed. There is great risk in placing human beings atop a lumbiaʼs crew, their greatest memorial will be a vibrant machine that stores and then burns millions of pounds of space program with new missions carried out by a new dangerous propellants. Equally risky is having humans then generation of brave explorers. ride the machine back to Earth while it dissipates the orbital speed by converting the energy into heat, much like a meteor – Remarks by Vice President Richard B. Cheney, Memorial entering Earthʼs atmosphere. No alternatives to this pathway
 
@@ -7545,7 +7591,7 @@ This concentration of risk at the endpoints of flight is particularly true for c
 
 Because of the dangers of ascent and re-entry, because of the hostility of the space environment, and because we are still relative newcomers to this realm, operation of the Shuttle and indeed all human spaceflight must be viewed as a developmental activity. It is still far from a routine, operational undertaking. Throughout the Columbia accident investigation, the Board has commented on the widespread but erroneous perception of the Space Shuttle as somehow comparable to civil or military air transport. They are not comparable; the inherent risks of spaceflight are vastly higher, and our experience level with spaceflight is vastly lower. If Shuttle operations came to be viewed as routine, it was, at least in part, thanks to the skill and dedication of those involved in the program. They have made it look easy, though in fact it never was. The Board urges NASA leadership, the architects of U.S. space policy, and the American people to adopt a realistic understanding of the risks and rewards of venturing into space.
 
-## 9.1 NEAR-TERM: RETURN TO FLIGHT
+## 9.1 Near-Term: Return to Flight
 
 The Board supports return to flight for the Space Shuttle at the earliest date consistent with an overriding consideration: safety. The recognition of human spaceflight as a developmental activity requires a shift in focus from operations and meeting schedules to a concern for the risks involved. Necessary measures include:
 
@@ -7557,13 +7603,11 @@ The Board supports return to flight for the Space Shuttle at the earliest date c
 
 The Board has recommended improvements that are needed before the Shuttle Program returns to flight, as well as other measures to be adopted over the longer term – what might be considered "continuing to fly" recommendations. To ensure implementation of these longer-term recommendations, the Board makes the following recommendation, which should be included in the requirements for return-to-flight:
 
-R9.1-1 Prepare a detailed plan for defining, establishing,
+R9.1-1 Prepare a detailed plan for defining, establishing, transitioning, and implementing an independent Technical Engineering Authority, independent safety program, and a reorganized Space Shuttle Integration Office as described in R7.5-1, R7.5- 2, and R7.5-3. In addition, NASA should submit annual reports to Congress, as part of the budget review process, on its implementation activities.
 
-> transitioning, and implementing an independent Technical Engineering Authority, independent safety program, and a reorganized Space Shuttle Integration Office as described in R7.5-1, R7.5- 2, and R7.5-3. In addition, NASA should submit annual reports to Congress, as part of the budget review process, on its implementation activities.
+The complete list of the Boardʼs recommendations can be found in Chapter 11.
 
-The complete list of the Boardʼs recommendations can be
-
-## 9.2 MID-TERM: CONTINUING TO FLY
+## 9.2 Mid-Term: Continuing to Fly
 
 It is the view of the Board that the present Shuttle is not inherently unsafe. However, the observations and recommendations in this report are needed to make the vehicle safe enough to operate in the coming years. In order to continue operating the Shuttle for another decade or even more, which the Human Space Flight Program may find necessary, these significant measures must be taken:
 
@@ -7573,11 +7617,11 @@ It is the view of the Board that the present Shuttle is not inherently unsafe. H
 
 The urgency of these recommendations derives, at least in part, from the likely pattern of what is to come. In the near term, the recent memory of the Columbia accident will mo- tivate the entire NASA organization to scrupulous attention to detail and vigorous efforts to resolve elusive technical problems. That energy will inevitably dissipate over time. This decline in vigilance is a characteristic of many large organizations, and it has been demonstrated in NASAʼs own history. As reported in Part Two of this report, the Human Space Flight Program has at times compromised safety because of its organizational problems and cultural traits. That is the reason, in order to prevent the return of bad habits over time, that the Board makes the recommendations in Part Two calling for changes in the organization and culture of the Human Space Flight Program. These changes will take more time and effort than would be reasonable to expect prior to return to flight.
 
-Through its recommendations in Part Two, the Board has urged that NASAʼs Human Space Flight Program adopt the characteristics observed in high-reliability organizations. One is separating technical authority from the functions of managing schedules and cost. Another is an independent Safety and Mission Assurance organization. The third is the capability for effective systems integration. Perhaps even more challenging than these organizational changes are the cultural changes required. Within NASA, the cultural im- pediments to safe and effective Shuttle operations are real and substantial, as documented extensively in this report. The Boardʼs view is that cultural problems are unlikely to be corrected without top-level leadership. Such leadership will have to rid the system of practices and patterns that have been validated simply because they have been around so long. Examples include: the tendency to keep knowledge of problems contained within a Center or program; making technical decisions without in-depth, peer-reviewed technical analysis; and an unofficial hierarchy or caste system created by placing excessive power in one office. Such factors interfere with open communication, impede the sharing of lessons learned, cause duplication and unnecessary expen- diture of resources, prompt resistance to external advice, and create a burden for managers, among other undesirable outcomes. Collectively, these undesirable characteristics found in Chapter 11. threaten safety.
+Through its recommendations in Part Two, the Board has urged that NASAʼs Human Space Flight Program adopt the characteristics observed in high-reliability organizations. One is separating technical authority from the functions of managing schedules and cost. Another is an independent Safety and Mission Assurance organization. The third is the capability for effective systems integration. Perhaps even more challenging than these organizational changes are the cultural changes required. Within NASA, the cultural im- pediments to safe and effective Shuttle operations are real and substantial, as documented extensively in this report. The Boardʼs view is that cultural problems are unlikely to be corrected without top-level leadership. Such leadership will have to rid the system of practices and patterns that have been validated simply because they have been around so long. Examples include: the tendency to keep knowledge of problems contained within a Center or program; making technical decisions without in-depth, peer-reviewed technical analysis; and an unofficial hierarchy or caste system created by placing excessive power in one office. Such factors interfere with open communication, impede the sharing of lessons learned, cause duplication and unnecessary expen- diture of resources, prompt resistance to external advice, and create a burden for managers, among other undesirable outcomes. Collectively, these undesirable characteristics threaten safety.
 
 %%page 209%%
 
-Unlike return-to-flight recommendations, the Boardʼs management and cultural recommendations will take longer to implement, and the responses must be fine-tuned and adjusted during implementation. The question of how to follow up on NASAʼs implementation of these more subtle, but equally important recommendations remains unanswered. The Board is aware that response to these recommenda- R9.2-1 tions will be difficult to initiate, and they will encounter some degree of institutional resistance. Nevertheless, in the Boardʼs view, they are so critical to safer operation of the Shuttle fleet that they must be carried out completely. Since NASA is an independent agency answerable only to the White House and Congress, the ultimate responsibility for enforcement of the recommended corrective actions must reside with those governmental authorities.
+Unlike return-to-flight recommendations, the Boardʼs management and cultural recommendations will take longer to implement, and the responses must be fine-tuned and adjusted during implementation. The question of how to follow up on NASAʼs implementation of these more subtle, but equally important recommendations remains unanswered. The Board is aware that response to these recommendations will be difficult to initiate, and they will encounter some degree of institutional resistance. Nevertheless, in the Boardʼs view, they are so critical to safer operation of the Shuttle fleet that they must be carried out completely. Since NASA is an independent agency answerable only to the White House and Congress, the ultimate responsibility for enforcement of the recommended corrective actions must reside with those governmental authorities.
 
 Recertification
 
@@ -7593,11 +7637,9 @@ in equipment, infrastructure, and other areas. Aspects of the program are addres
 
 The Board makes the following recommendation regarding recertification:
 
-R9.2-1 Prior to operating the Shuttle beyond 2010,
+R9.2-1 Prior to operating the Shuttle beyond 2010, develop and conduct a vehicle recertification at the material, component, subsystem, and system levels. Recertification requirements should be included in the Service Life Extension Program.
 
-> develop and conduct a vehicle recertification at the material, component, subsystem, and system levels. Recertification requirements should be included in the Service Life Extension Program.
-
-## 9.3 LONG-TERM: FUTURE DIRECTIONS FOR THE U.S. IN SPACE
+## 9.3 Long-Term: Future Directions for the U.S. in Space
 
 The Board in its investigation has focused on the physical and organizational causes of the Columbia accident and the recommended actions required for future safe Shuttle operation. In the course of that investigation, however, two realities affecting those recommendations have become evident to the Board. One is the lack, over the past three decades, of any national mandate providing NASA a compelling mission requiring human presence in space. President John Kennedyʼs 1961 charge to send Americans to the moon and return them safely to Earth "before this decade is out" linked NASAʼs efforts to core Cold War national interests. Since the 1970s, NASA has not been charged with carrying out a similar high priority mission that would justify the expendi- ture of resources on a scale equivalent to those allocated for Project Apollo. The result is the agency has found it necessary to gain the support of diverse constituencies. NASA has had to participate in the give and take of the normal political process in order to obtain the resources needed to carry out its programs. NASA has usually failed to receive budgetary support consistent with its ambitions. The result, as noted throughout Part Two of the report, is an organization straining to do too much with too little.
 
@@ -7631,7 +7673,7 @@ This conclusion implies that whatever design NASA chooses should become the prim
 
 However, the Orbital Space Plane is seen by NASA as an interim system for transporting humans to orbit. NASA plans to make continuing investments in "next generation launch technology," with the hope that those investments will enable a decision by the end of this decade on what that next generation launch vehicle should be. This is a worthy goal, and should be pursued. The Board notes that this approach can only be successful: if it is sustained over the decade; if by the time a decision to develop a new vehicle is made there is a clearer idea of how the new space transportation system fits into the nationʼs overall plans for space; and if the U.S. government is willing at the time a development decision is made to commit the substantial resources required to implement it. One of the major problems with the way the Space Shuttle Program was carried out was an a priori fixed ceiling on development costs. That approach should not be repeated.
 
-It is the view of the Board that the previous attempts to develop a replacement vehicle for the aging Shuttle represent a failure of national leadership. The cause of the failure was continuing to expect major technological advances in that vehicle. With the amount of risk inherent in the Space Shuttle, the first step should be to reach an agreement that the overriding mission of the replacement system is to move humans safely and reliably into and out of Earth orbit. To demand more would be to fall into the same trap as all previous, unsuccessful, efforts. That being said, it seems to the Board that past and future investments in space launch technologies should certainly provide by 2010 or thereabouts the basis for developing a system, significantly improved over one designed 40 years earlier, for carrying humans to orbit and enabling their work in space. Continued U.S. leadership
+It is the view of the Board that the previous attempts to develop a replacement vehicle for the aging Shuttle represent a failure of national leadership. The cause of the failure was continuing to expect major technological advances in that vehicle. With the amount of risk inherent in the Space Shuttle, the first step should be to reach an agreement that the overriding mission of the replacement system is to move humans safely and reliably into and out of Earth orbit. To demand more would be to fall into the same trap as all previous, unsuccessful, efforts. That being said, it seems to the Board that past and future investments in space launch technologies should certainly provide by 2010 or thereabouts the basis for developing a system, significantly improved over one designed 40 years earlier, for carrying humans to orbit and enabling their work in space. Continued U.S. leadership in space is an important national objective. That leadership depends on a willingness to pay the costs of achieving it.
 
 Final Conclusions
 
@@ -7639,17 +7681,17 @@ The Boardʼs perspective assumes, of course, that the United States wants to ret
 
 Two proposals – a capsule (above) and a winged vehicle - for the Orbital Space Plane, courtesy of The Boeing Company.
 
-in space is an important national objective. That leadership depends on a willingness to pay the costs of achieving it.
+## ENDNOTES FOR CHAPTER 9
 
 The citations that contain a reference to "CAIB document" with CAB or CTF followed by seven to eleven digits, such as CAB001-0010, refer to a document in the Columbia Accident Investigation Board database maintained by the Department of Justice and archived at the National Archives.
 
 %%page 213%%
 
-> Other Significant Observations
+## Chapter 10: Other Significant Observations
 
 Although the Board now understands the combination of technical and organizational factors that contributed to the Columbia accident, the investigation did not immediately zero in on the causes identified in previous chapters. Instead, the Board explored a number of avenues and topics that, in the end, were not directly related to the cause of this accident. Nonetheless, these forays revealed technical, safety, and cultural issues that could impact the Space Shuttle Program, and, more broadly, the future of human space flight. The significant issues listed in this chapter are potentially serious matters that should be addresed by NASA because they fall into the category of "weak signals" that could be indications of future problems.
 
-## 10.1 PUBLIC SAFETY
+## 10.1 Public Safety
 
 Shortly after the breakup of Columbia over Texas, dramatic images of the Orbiterʼs debris surfaced: an intact spherical tank in an empty parking lot, an obliterated office rooftop, mangled metal along roadsides, charred chunks of material in fields. These images, combined with the large number of debris fragments that were recovered, compelled many to proclaim it was a "miracle" that no one on the ground had been hurt.1
 
@@ -7689,41 +7731,25 @@ space launch activities do not apply "where the Government is so substantially i
 
 Findings:
 
-F10.1-1 The Columbia accident demonstrated that Orbiter
+F10.1-1 The Columbia accident demonstrated that Orbiter breakup during re-entry has the potential to cause casualties among the general public.
 
-> breakup during re-entry has the potential to cause casualties among the general public.
+F10.1-2 Given the best information available to date, a formal risk analysis sponsored by the Board found that the lack of general-public casualties from Columbiaʼs break-up was the expected outcome.
 
-F10.1-2 Given the best information available to date,
+F10.1-3 The history of U.S. space flight has a flawless public safety record. Since the 1950s, hundreds of space flights have occurred without a single public injury.
 
-> a formal risk analysis sponsored by the Board found that the lack of general-public casualties from Columbiaʼs break-up was the expected outcome.
+F10.1-4 The FAA and U.S. space launch ranges have safety standards designed to ensure that the general public is exposed to less than a one-in-a-million chance of serious injury from the operation of space launch vehicles and unmanned aircraft.
 
-F10.1-3 The history of U.S. space flight has a flawless
-
-> public safety record. Since the 1950s, hundreds of space flights have occurred without a single public injury.
-
-F10.1-4 The FAA and U.S. space launch ranges have safe-
-
-> ty standards designed to ensure that the general public is exposed to less than a one-in-a-million chance of serious injury from the operation of space launch vehicles and unmanned aircraft.
-
-F10.1-5 NASA did not demonstrably follow public risk
-
-> acceptability standards during past Orbiter re-entries. NASA efforts are underway to define a national policy for the protection of public safety during all operations involving space launch vehicles.
+F10.1-5 NASA did not demonstrably follow public risk acceptability standards during past Orbiter re-entries. NASA efforts are underway to define a national policy for the protection of public safety during all operations involving space launch vehicles.
 
 Observations:
 
-O10.1-1 NASA should develop and implement a public
+O10.1-1 NASA should develop and implement a public risk acceptability policy for launch and re-entry of space vehicles and unmanned aircraft.
 
-> risk acceptability policy for launch and re-entry of space vehicles and unmanned aircraft.
+O10.1-2 NASA should develop and implement a plan to mitigate the risk that Shuttle flights pose to the general public.
 
-O10.1-2 NASA should develop and implement a plan to
+O10.1-3 NASA should study the debris recovered from Columbia to facilitate realistic estimates of the risk to the public during Orbiter re-entry.
 
-> mitigate the risk that Shuttle flights pose to the general public.
-
-O10.1-3 NASA should study the debris recovered from
-
-> Columbia to facilitate realistic estimates of the risk to the public during Orbiter re-entry.
-
-## 10.2 CREW ESCAPE AND SURVIVAL
+## 10.2 Crew Escape and Survival
 
 The Board has examined crew escape systems in historical context with a view to future improvements. It is important to note at the outset that Columbia broke up during a phase of flight that, given the current design of the Orbiter, offered no possibility of crew survival.
 
@@ -7745,9 +7771,9 @@ Post-Challenger: the Current System
 
 NASAʼs rejection of a crew escape system was severely criticized after the loss of Challenger. The Rogers Commission addressed the topic in a recommendation that combined the issues of launch abort and crew escape:20
 
-Launch Abort and Crew Escape. The Shuttle Program management considered first-stage abort options and crew escape options several times during the history of the program, but because of limited utility, technical
+Launch Abort and Crew Escape. The Shuttle Program management considered first-stage abort options and crew escape options several times during the history of the program, but because of limited utility, technical infeasibility, or program cost and schedule, no systems were implemented. The Commission recommends that
 
-> infeasibility, or program cost and schedule, no systems were implemented. The Commission recommends that NASA:
+NASA:
 
 > - Make all efforts to provide a crew escape system for use during controlled gliding flight.
 > - Make every effort to increase the range of flight conditions under which an emergency runway landing can be successfully conducted in the event that two or three main engines fail early in ascent.
@@ -7766,9 +7792,13 @@ NASAʼs 2003 Human-Rating Requirements and Guidelines for Space Flight Systems l
 
 2.5.4 Crew survival
 
-> 2.5.4.1 As part of the design process, program management (with approval from the CHMO [Chief Health and Medical Officer], AA for OSF [Associate Administrator for the Office of Spaceflight ], and AA for SMA [Associate Administrator for Safety and Mission Assurance] shall establish, assess, and document the program requirements for an acceptable life cycle cumulative probability of safe crew and passenger return. This probability requirement can be satisfied through the use of all available mechanisms including nominal mission completion, abort, safe haven, or crew escape.
+> 2.5.4.1 As part of the design process, program
 
-> 2.5.4.2 The cumulative probability of safe crew and passenger return shall address all missions planned for the life of the program, not just a single space flight system for a single mission.
+management (with approval from the CHMO [Chief Health and Medical Officer], AA for OSF [Associate Administrator for the Office of Spaceflight ], and AA for SMA [Associate Administrator for Safety and Mission Assurance] shall establish, assess, and document the program requirements for an acceptable life cycle cumulative probability of safe crew and passenger return. This probability requirement can be satisfied through the use of all available mechanisms including nominal mission completion, abort, safe haven, or crew escape.
+
+> 2.5.4.2 The cumulative probability of safe crew
+
+and passenger return shall address all missions planned for the life of the program, not just a single space flight system for a single mission.
 
 The overall probability of crew and passenger survival must meet the minimum program requirements (as defined in section 2.5.4.1) for the stated life of a space flight systems program.21 This approach is required to reflect the different technical challenges and levels of operational risk exposure on various types of missions. For example, low-Earth-orbit missions represent fundamentally different risks than does the first mission to Mars. Single-mission risk on the order of 0.99 for a beyond-Earth-orbit mission may be acceptable, but considerably better performance, on the order of 0.9999, is expected for a reusable low-Earth-orbit design that will make 100 or more flights.
 
@@ -7776,11 +7806,17 @@ The overall probability of crew and passenger survival must meet the minimum pro
 
 > 2.6.1 The capability for rapid crew and occupant egress shall be provided during all pre-launch activities.
 
-> 2.6.2 The capability for crew and occupant survival and recovery shall be provided on ascent using a combination of abort and escape.
+> 2.6.2 The capability for crew and occupant
 
-> 2.6.3 The capability for crew and occupant survival and recovery shall be provided during all other phases of flight (including on-orbit, reentry, and landing) using a combination of abort and escape, unless comprehensive safety and reliability analyses indicate that abort and escape capability is not required to meet crew survival requirements.
+survival and recovery shall be provided on ascent using a combination of abort and escape.
 
-> 2.6.4 Determinations regarding escape and abort shall be made based upon comprehensive safety and reliability analyses across all mission profiles.
+> 2.6.3 The capability for crew and occupant
+
+survival and recovery shall be provided during all other phases of flight (including on-orbit, reentry, and landing) using a combination of abort and escape, unless comprehensive safety and reliability analyses indicate that abort and escape capability is not required to meet crew survival requirements.
+
+> 2.6.4 Determinations regarding escape and
+
+abort shall be made based upon comprehensive safety and reliability analyses across all mission profiles.
 
 These new requirements focus on general crew survival rather than on particular crew escape systems. This provides a logical context for discussions of tradeoffs that will yield the best crew-survival outcome. Such tradeoffs include "mass-trades" – for example, an escape system could add weight to a vehicle, but in the process cause payload changes that require additional missions, thereby inherently increasing the overall exposure to risk.
 
@@ -7806,11 +7842,9 @@ Space flight is an inherently dangerous undertaking, and will remain so for the 
 
 Observations:
 
-O10.2-1 Future crewed-vehicle requirements should in-
+O10.2-1 Future crewed-vehicle requirements should incorporate the knowledge gained from the Challenger and Columbia accidents in assessing the feasibility of vehicles that could ensure crew survival even if the vehicle is destroyed.
 
-> corporate the knowledge gained from the Challenger and Columbia accidents in assessing the feasibility of vehicles that could ensure crew survival even if the vehicle is destroyed.
-
-## 10.3 SHUTTLE ENGINEERING DRAWINGS AND CLOSEOUT PHOTOGRAPHS
+## 10.3 Shuttle Engineering Drawings and Closeout Photographs
 
 In the years since the Shuttle was designed, NASA has not updated its engineering drawings or converted to computer-aided drafting systems. The Boardʼs review of these engineering drawings revealed numerous inaccuracies. In particular, the drawings do not incorporate many engineering changes made in the last two decades. Equally troubling was the difficulty in obtaining these drawings: it took up to four weeks to receive them, and, though some photographs were available as a short-term substitute, closeout photos took up to six weeks to obtain. (Closeout photos are pictures taken of Shuttle areas before they are sealed off for flight.) The Aerospace Safety Advisory Panel noted similar difficulties in its 2001 and 2002 reports.
 
@@ -7818,35 +7852,23 @@ The Board believes that the Shuttleʼs current engineering drawing system is ina
 
 Findings:
 
-F10.3-1 The engineering drawing system contains out-
+F10.3-1 The engineering drawing system contains out- dated information and is paper-based rather than computer-aided.
 
-> dated information and is paper-based rather than computer-aided.
+F10.3-2 The current drawing system cannot quickly portray Shuttle sub-systems for on-orbit troubleshooting.
 
-F10.3-2 The current drawing system cannot quickly
-
-> portray Shuttle sub-systems for on-orbit troubleshooting.
-
-F10.3-3 NASA normally uses closeout photographs but
-
-> lacks a clear system to define which critical sub-systems should have such photographs. The
-
-trieval of closeout photos.
+F10.3-3 NASA normally uses closeout photographs but lacks a clear system to define which critical sub-systems should have such photographs. The current system does not allow the immediate retrieval of closeout photos.
 
 Recommendations:
 
-R10.3-1 Develop an interim program of closeout pho-
+R10.3-1 Develop an interim program of closeout photographs for all critical sub-systems that differ from engineering drawings. Digitize the closeout photograph system so that images are immediately available for on-orbit troubleshooting.
 
-> tographs for all critical sub-systems that differ from engineering drawings. Digitize the closeout photograph system so that images are immediately available for on-orbit troubleshooting.
-
-R10.3-2 Provide adequate resources for a long-term pro-
-
-> gram to upgrade the Shuttle engineering drawing system including:
+R10.3-2 Provide adequate resources for a long-term program to upgrade the Shuttle engineering drawing system including:
 
 > - Reviewing drawings for accuracy
 > - Converting all drawings to a computer-aided drafting system
 > - Incorporating engineering changes
 
-## 10.4 INDUSTRIAL SAFETY AND QUALITY ASSURANCE
+## 10.4 Industrial Safety and Quality Assurance
 
 The industrial safety programs in place at NASA and its contractors are robust and in good health. However, the scope and depth of NASAʼs maintenance and quality assurance programs are troublesome. Though unrelated to the Columbia accident, the major deficiencies in these programs uncovered by the Board could potentially contribute to a future accident.
 
@@ -7856,11 +7878,11 @@ Industrial safety programs at NASA and its contractors— covering safety measur
 
 Figure 10.4-1. Safety posters at NASA and contractor facilities.
 
-current system does not allow the immediate re-Initiatives like Michoudʼs "This is Stupid" program and the United Space Allianceʼs "Time Out" cards empower employees to halt any operation under way if they believe industrial safety is being compromised (see Figure 10.4-2). For example, the Time Out program encourages and even rewards workers who report suspected safety problems to management.
-
 %%page 218%%
 
-## ASSERTIVE STATEMENT
+Initiatives like Michoudʼs "This is Stupid" program and the United Space Allianceʼs "Time Out" cards empower employees to halt any operation under way if they believe industrial safety is being compromised (see Figure 10.4-2). For example, the Time Out program encourages and even rewards workers who report suspected safety problems to management.
+
+#### ASSERTIVE STATEMENT
 
 OPENING Get person's attention.
 
@@ -7880,7 +7902,7 @@ think? Don't you agree? EVERY EMPLOYEE
 
 When all else fails, use "THIS IS STUPID!" to
 
-## HAS THE RIGHT
+#### HAS THE RIGHT
 
 alert PIC and others to potential for incident, injury, or accident.
 
@@ -7898,9 +7920,15 @@ As described in Part Two, after the Space Flight Operations Contract was establi
 
 Requirements Document (also called the Mandatory Inspections Document). United Space Alliance technicians must document an estimated 730,000 tasks to complete a single Shuttle maintenance flow at Kennedy Space Center. Nearly every task assessed as Criticality Code 1, 1R (redundant), or 2 is always inspected, as are any systems not verifiable by operational checks or tests prior to final preparations for flight.
 
-Nearly everyone interviewed at Kennedy indicated that the current inspection process is both inadequate and difficult to expand, even incrementally. One example was a longstanding request to add a main engine final review before transporting the engine to the Orbiter Processing Facility for installation. This request was first voiced two years before the launch of STS-107, and has been repeatedly denied due to inadequate staffing. In its place, NASA Mission Assurance conducts a final "informal" review. Adjusting government inspection tasks is constrained by institutional dogma that the status quo is based on strong engineering logic, and should need no adjustment. This mindset inhibits the ability of Quality Assurance to respond to an aging system, changing workforce dynamics, and improvement initiatives.
+Nearly everyone interviewed at Kennedy indicated that the current inspection process is both inadequate and difficult to expand, even incrementally. One example was a long-
 
-The Quality Planning Requirements Document, which defines inspection requirements, was well formulated but is not routinely reviewed. Indeed, NASA seems reluctant to add or subtract government inspections, particularly at Kennedy. Additions and subtractions are rare, and generally occur only as a response to obvious problems. For instance, NASA augmented wiring inspections after STS-93 in 1999, when a short circuit shut down two of Columbiaʼs Main Engine Controllers. Interviews confirmed that the current Requirements Document lacks numerous critical items, but conversely demands redundant and unnecessary inspections.
+TIME standing request to add a main engine final review before transporting the engine to the Orbiter Processing Facility for installation. This request was first voiced two years before the launch of STS-107, and has been repeatedly denied due
+
+OUT to inadequate staffing. In its place, NASA Mission Assurance conducts a final "informal" review. Adjusting government inspection tasks is constrained by institutional dogma that the status quo is based on strong engineering logic, and should need no adjustment. This mindset inhibits the ability of Quality Assurance to respond to an aging system, changing workforce dynamics, and improvement initiatives.
+
+#### TO CALL A TIME OUT
+
+A TIME OUT may be called with or without this card Ref: FPP E-02_18, Time-Out Policy The Quality Planning Requirements Document, which defines inspection requirements, was well formulated but is not routinely reviewed. Indeed, NASA seems reluctant to add or subtract government inspections, particularly at Kennedy. Additions and subtractions are rare, and generally occur only as a response to obvious problems. For instance, NASA augmented wiring inspections after STS-93 in 1999, when a short circuit shut down two of Columbiaʼs Main Engine Controllers. Interviews confirmed that the current Requirements Document lacks numerous critical items, but conversely demands redundant and unnecessary inspections.
 
 The NASA/United Space Alliance Quality Assurance processes at Kennedy are not fully integrated with each other, with Safety, Health, and Independent Assessment, or with Engineering Surveillance Programs. Individually, each plays a vital role in the control and assessment of the Shuttle as it comes together in the Orbiter Processing Facility and Vehicle Assembly Building. Were they to be carefully integrated, these programs could attain a nearly comprehensive quality control process. Marshall has a similar challenge. It
 
@@ -7920,9 +7948,9 @@ HEX Stamps Recorded FY01 thru FY03 (October 1, 2000 – April 2, 2003)
 
 Number of HEX Stamps
 
-> Part Incorrect Part Part FOD defective installation contaminated identification or damaged or fabrication
+> Part Incorrect Part defective installation contaminated identification or damaged or fabrication
 
-Figure 10.4-4. Rejection, or "Hex" stamps issued from October
+Figure 10.4-4. Rejection, or "Hex" stamps issued from October 2000 through April 2003.
 
 running a major airline, than to a research-and-development, non-operational flight test environment like that of the Space Shuttle. NASA technicians may perform a specific procedure only three or four times a year, in contrast with their airline counterparts, who perform procedures dozens of times each week. In NASAʼs own words regarding standardization, "ISO 9001 is not a management panacea, and is never a replacement for management taking responsibility for sound decision making." Indeed, many perceive International Standardization as emphasizing process over product.
 
@@ -7934,41 +7962,33 @@ Of the 141,127 inspections subject to rejection from October 2000 through March 
 
 Findings:
 
-F10.4-1 Shuttle System industrial safety programs are in good health. F10.4-2 The Quality Planning Requirements Document, which defines inspection conditions, was well
+F10.4-1 Shuttle System industrial safety programs are in good health. F10.4-2 The Quality Planning Requirements Document,
+
+Part FOD Open Incorrect which defines inspection conditions, was well work steps MIP
+
+HEX stamps categories
 
 > formulated. However, there is no requirement that it be routinely reviewed.
 
-F10.4-3 Kennedy Space Centerʼs current government mandatory inspection process is both inadequate
-
-2000 through April 2003. and difficult to expand, which inhibits the ability
+F10.4-3 Kennedy Space Centerʼs current government mandatory inspection process is both inadequate and difficult to expand, which inhibits the ability
 
 %%page 220%%
 
 > of Quality Assurance to process improvement initiatives.
 
-F10.4-4 Kennedyʼs quality assurance system encourages
-
-> inspectors to allow incorrect work to be corrected without being labeled "rejected." These opportunities hide "rejections," making it impossible to determine how often and on what items frequent rejections and errors occur.
+F10.4-4 Kennedyʼs quality assurance system encourages inspectors to allow incorrect work to be corrected without being labeled "rejected." These opportunities hide "rejections," making it impossible to determine how often and on what items frequent rejections and errors occur.
 
 Observations:
 
-O10.4-1 Perform an independently led, bottom-up review
+O10.4-1 Perform an independently led, bottom-up review of the Kennedy Space Center Quality Planning Requirements Document to address the entire quality assurance program and its administration. This review should include development of a responsive system to add or delete government mandatory inspections.
 
-> of the Kennedy Space Center Quality Planning Requirements Document to address the entire quality assurance program and its administration. This review should include development of a responsive system to add or delete government mandatory inspections.
+O10.4-2 Kennedy Space Centerʼs Quality Assurance programs should be consolidated under one Mission Assurance office, which reports to the Center Director.
 
-O10.4-2 Kennedy Space Centerʼs Quality Assurance
+O10.4-3 Kennedy Space Center quality assurance management must work with NASA and perhaps the Department of Defense to develop training programs for its personnel.
 
-> programs should be consolidated under one Mission Assurance office, which reports to the Center Director.
+O10.4-4 Kennedy Space Center should examine which areas of International Organization for Standardization 9000/9001 truly apply to a 20-year- old research and development system like the Space Shuttle.
 
-O10.4-3 Kennedy Space Center quality assurance man-
-
-> agement must work with NASA and perhaps the Department of Defense to develop training programs for its personnel.
-
-O10.4-4 Kennedy Space Center should examine which
-
-> areas of International Organization for Standardization 9000/9001 truly apply to a 20-year- old research and development system like the Space Shuttle.
-
-## 10.5 MAINTENANCE DOCUMENTATION
+## 10.5 Maintenance Documentation
 
 The Board reviewed Columbiaʼs maintenance records for any documentation problems, evidence of maintenance flaws, or significant omissions, and simultaneously investigated the organizations and management responsible for this documentation. The review revealed both inaccurate data entries and a widespread inability to find and correct these inaccuracies.
 
@@ -7982,19 +8002,13 @@ The current process includes three or more layers of oversight before paperwork 
 
 Observations:
 
-O10.5-1 Quality and Engineering review of work docu-
+O10.5-1 Quality and Engineering review of work documents for STS-114 should be accomplished using statistical sampling to ensure that a representative sample is evaluated and adequate feedback is communicated to resolve documentation problems.
 
-> ments for STS-114 should be accomplished using statistical sampling to ensure that a representative sample is evaluated and adequate feedback is communicated to resolve documentation problems.
+O10.5-2 NASA should implement United Space Allianceʼs suggestions for process improvement, which recommend including a statistical sampling of all future paperwork to identify recurring problems and implement corrective actions.
 
-O10.5-2 NASA should implement United Space Allianceʼs
+O10.5-3 NASA needs an oversight process to statistically sample the work performed and documented by Alliance technicians to ensure process control, compliance, and consistency.
 
-> suggestions for process improvement, which recommend including a statistical sampling of all future paperwork to identify recurring problems and implement corrective actions.
-
-O10.5-3 NASA needs an oversight process to statistically
-
-> sample the work performed and documented by Alliance technicians to ensure process control, compliance, and consistency.
-
-## 10.6 ORBITER MAINTENANCE DOWN PERIOD/ ORBITER MAJOR MODIFICATION
+## 10.6 Orbiter Maintenance Down Period/Orbiter Major Modification
 
 During the Orbiter Major Modification process, Orbiters are removed from service for inspections, maintenance, and modification. The process occurs every eight flights or three years.
 
@@ -8014,25 +8028,17 @@ An Air Force "benchmarking" visit in June 2003 highlighted the need for better p
 
 Observations:
 
-O10.6-1 The Space Shuttle Program Office must make
-
-> every effort to achieve greater stability, consistency, and predictability in Orbiter Major Modification planning, scheduling, and work standards (particularly in the number of modifications). Endless changes create unnecessary
+O10.6-1 The Space Shuttle Program Office must make every effort to achieve greater stability, consistency, and predictability in Orbiter Major Modification planning, scheduling, and work standards (particularly in the number of modifications). Endless changes create unnecessary
 
 > turmoil and can adversely impact quality and safety.
 
-O10.6-2 NASA and United Space Alliance managers
+O10.6-2 NASA and United Space Alliance managers must understand workforce and infrastructure requirements, match them against capabilities, and take actions to avoid exceeding thresholds.
 
-> must understand workforce and infrastructure requirements, match them against capabilities, and take actions to avoid exceeding thresholds.
+O10.6-3 NASA should continue to work with the U.S. Air Force, particularly in areas of program management that deal with aging systems, service life extension, planning and scheduling, workforce management, training, and quality assurance.
 
-O10.6-3 NASA should continue to work with the U.S. Air
+O10.6-4 The Space Shuttle Program Office must determine how it will effectively meet the challenges of inspecting and maintaining an aging Orbiter fleet before lengthening Orbiter Major Maintenance intervals.
 
-> Force, particularly in areas of program management that deal with aging systems, service life extension, planning and scheduling, workforce management, training, and quality assurance.
-
-O10.6-4 The Space Shuttle Program Office must deter-
-
-> mine how it will effectively meet the challenges of inspecting and maintaining an aging Orbiter fleet before lengthening Orbiter Major Maintenance intervals.
-
-## 10.7 ORBITER CORROSION
+## 10.7 Orbiter Corrosion
 
 Removing and replacing Thermal Protection System tiles sometimes results in damage to the anti-corrosion primer that covers the Orbitersʼ sheet metal skin. Tile replacement often occurs without first re-priming the primed aluminum substrate. The current repair practice allows Room Temperature Vulcanizing adhesive to be applied over a bare aluminum substrate (with no Koropon corrosion-inhibiting compound) when bonding tile to the Orbiter.
 
@@ -8048,45 +8054,41 @@ NASA has recently outlined a $70 million, 19-year program to assess and mitigate
 
 %%page 222%%
 
-Observations: 10.9 HOLD-DOWN POST CABLE ANOMALY
+Observations:
 
-O10.7-1 Additional and recurring evaluation of corrosion
+O10.7-1 Additional and recurring evaluation of corrosion damage should include non-destructive analysis of the potential impacts on structural integrity.
 
-> damage should include non-destructive analysis of the potential impacts on structural integrity.
+O10.7-2 Long-term corrosion detection should be a funding priority.
 
-O10.7-2 Long-term corrosion detection should be a funding priority. O10.7-3 Develop non-destructive evaluation inspections to find hidden corrosion. O10.7-4 Inspection requirements for corrosion due to
+O10.7-3 Develop non-destructive evaluation inspections to find hidden corrosion.
 
-> environmental exposure should first establish corrosion rates for Orbiter-specific environments, materials, and structural configurations. Consider applying Air Force corrosion prevention programs to the Orbiter.
+O10.7-4 Inspection requirements for corrosion due to environmental exposure should first establish corrosion rates for Orbiter-specific environments, materials, and structural configurations. Consider applying Air Force corrosion prevention programs to the Orbiter.
 
-10.8 BRITTLE FRACTURE OF A-286 BOLTS
+## 10.8 Brittle Fracture of A-286 Bolts
 
 Investigators sought to determine the cause of brittle fractures in the A-286 steel bolts that support the wingʼs lower carrier panels, which provide direct access to the interior of the Reinforced Carbon-Carbon (RCC) panels. Any misalign- ment of the carrier panels affects the continuity of airflow under the wing and can cause a "rough wing" (see Chapter 4). In the end, 57 of the 88 A-286 bolts on Columbiaʼs wings were recovered; 22 had brittle fractures. The fractures occurred equally in two groups of bolts in the same locations on each wing. Investigators determined that liquid metal embrittlement caused by aluminum vapor created by Columbiaʼs breakup could have contributed to these fractures, but the axial loads placed on the bolts when they separated from the carrier panel/box beam at temperatures approaching 2,000 degrees Fahrenheit likely caused the failures.
 
 Findings:
 
-F10.8-1 The present design and fabrication of the lower
+F10.8-1 The present design and fabrication of the lower carrier panel attachments are inadequate. The bolts can readily pull through the relatively large holes in the box beams.
 
-> carrier panel attachments are inadequate. The bolts can readily pull through the relatively large holes in the box beams.
+F10.8-2 The current design of the box beam in the lower carrier panel assembly exposes the attachment bolts to a rapid exchange of air along the wing, which enables the failure of numerous bolts.
 
-F10.8-2 The current design of the box beam in the lower
-
-> carrier panel assembly exposes the attachment bolts to a rapid exchange of air along the wing, which enables the failure of numerous bolts.
-
-F10.8-3 Primers and sealants such as Room Temperature
-
-> Vulcanizing 560 and Koropon may accelerate corrosion, particularly in tight crevices.
+F10.8-3 Primers and sealants such as Room Temperature Vulcanizing 560 and Koropon may accelerate corrosion, particularly in tight crevices.
 
 F10.8-4 The negligible compressive stresses that normally occur in A-286 bolts help protect against failure.
 
 Observations:
 
-O10.8-1 Teflon (material) and Molybdenum Disulfide
+O10.8-1 Teflon (material) and Molybdenum Disulfide (lubricant) should not be used in the carrier panel bolt assembly.
 
-> (lubricant) should not be used in the carrier panel bolt assembly.
+O10.8-2 Galvanic coupling between aluminum and steel alloys must be mitigated.
 
-O10.8-2 Galvanic coupling between aluminum and steel alloys must be mitigated. O10.8-3 The use of Room Temperature Vulcanizing 560 and Koropon should be reviewed. O10.8-4 Assuring the continued presence of compressive
+O10.8-3 The use of Room Temperature Vulcanizing 560 and Koropon should be reviewed.
 
-> stresses in A-286 bolts should be part of their acceptance and qualification procedures.
+O10.8-4 Assuring the continued presence of compressive stresses in A-286 bolts should be part of their acceptance and qualification procedures.
+
+## 10.9 Hold-Down Post Cable Anomaly
 
 Each of the two Solid Rocket Boosters is attached to the Mobile Launch Platform by four "hold down" bolts. A five- inch diameter restraint nut that contains two pyrotechnic initiators secures each of these bolts. The initiators sever the nuts when the Solid Rocket Boosters ignite, allowing the Space Shuttle stack to lift off. During launch, STS-112 suffered a failure in the Hold-Down Post and External Tank Vent Arm Systems that control the firing of initiators in each Solid Rocket Booster restraint nut. NASA had been warned that a recurrence of this type of failure could cause catastrophic failure of the Shuttle stack (see Appendix D.15).
 
@@ -8103,27 +8105,19 @@ However, prelaunch testing procedures have not changed and may not be able to id
 
 Findings:
 
-F10.9-1 The Hold-Down Post External Tank Vent Arm
-
-> System is a Criticality 1R (redundant) system. Before the anomaly on STS-112, and despite the high-criticality factor, the original cabling for this system was used repeatedly until it was visibly damaged. Replacing these cables after every flight and removing the Kapton will prevent bending and manipulation damage.
+F10.9-1 The Hold-Down Post External Tank Vent Arm System is a Criticality 1R (redundant) system. Before the anomaly on STS-112, and despite the high-criticality factor, the original cabling for this system was used repeatedly until it was visibly damaged. Replacing these cables after every flight and removing the Kapton will prevent bending and manipulation damage.
 
 %%page 223%%
 
-F10.9-2 NASA is unclear about the potential for damage
+F10.9-2 NASA is unclear about the potential for damage if the system malfunctions, or even if one nut fails to split. Several program managers were asked: What if the A system fails, and a B-system initiator fails simultaneously? The consensus was that the system would continue to burn on the pad or that the Solid Rocket Booster would rip free of the pad, causing potentially catastrophic damage to the Solid Rocket Booster skirt and nozzle maneuvering mechanism. However, they agree that the probability of this is extremely low.
 
-> if the system malfunctions, or even if one nut fails to split. Several program managers were asked: What if the A system fails, and a B-system initiator fails simultaneously? The consensus was that the system would continue to burn on the pad or that the Solid Rocket Booster would rip free of the pad, causing potentially catastrophic damage to the Solid Rocket Booster skirt and nozzle maneuvering mechanism. However, they agree that the probability of this is extremely low.
-
-F10.9-3 With the exception of STS-112ʼs anomaly, nu-
-
-> merous bolt hang-ups, and occasional Master Events Controller failures, these systems have a good record. In the early design stages, risk-mitigating options were considered, including strap- ping with either a wire that crosses over the nut from the A to B side, or with a toggle circuit that sends a signal to the opposite side when either initiator fires. Both options would eliminate the potential of a catastrophic dual failure. However, they could also create new failure potentials that may not reduce overall system risk. Todayʼs test and troubleshooting technology may have improved the ability to test circuits and potentially prevent intermittent failures, but it is not clear if NASA has explored these options.
+F10.9-3 With the exception of STS-112ʼs anomaly, numerous bolt hang-ups, and occasional Master Events Controller failures, these systems have a good record. In the early design stages, risk-mitigating options were considered, including strap- ping with either a wire that crosses over the nut from the A to B side, or with a toggle circuit that sends a signal to the opposite side when either initiator fires. Both options would eliminate the potential of a catastrophic dual failure. However, they could also create new failure potentials that may not reduce overall system risk. Todayʼs test and troubleshooting technology may have improved the ability to test circuits and potentially prevent intermittent failures, but it is not clear if NASA has explored these options.
 
 Observation:
 
-O10.9-1 NASA should consider a redesign of the system,
+O10.9-1 NASA should consider a redesign of the system, such as adding a cross-strapping cable, or conduct advanced testing for intermittent failure.
 
-> such as adding a cross-strapping cable, or conduct advanced testing for intermittent failure.
-
-## 10.10 SOLID ROCKET BOOSTER EXTERNAL TANK ATTACHMENT RING
+## 10.10 Solid Rocket Booster External Tank Attachment Ring
 
 In Chapter 4, the Board noted how NASAʼs reliance on "analysis" to validate Shuttle components led to the use of flawed bolt catchers. NASAʼs use of this flawed "analysis" technique is endemic. The Board has found that such analysis was invoked, with potentially dire consequences, on the Solid Rocket Booster External Tank Attach Ring. Tests showed that the tensile strength of several of these rings was well below minimum safety requirements. This problem was brought to NASAʼs attention shortly before the launch of STS-107. To accommodate the launch schedule, the External Tanking Meeting chair, after a cursory briefing without a full technical review, reduced the Attach Ringsʼ minimum required safety factor of 1.4 (that is, able to withstand 1.4 times the maximum load ever expected in operations) to 1.25. Though NASA has formulated short- and long-term corrections, its long-term plan has not yet been authorized.
 
@@ -8131,9 +8125,9 @@ Observation:
 
 O10.10-1 NASA should reinstate a safety factor of 1.4 for
 
-> the Attachment Rings—which invalidates the use of ring serial numbers 16 and 15 in their
+> the Attachment Rings—which invalidates the use of ring serial numbers 16 and 15 in their present state—and replace all deficient material in the Attachment Rings.
 
-## 10.11 TEST EQUIPMENT UPGRADES
+## 10.11 Test Equipment Upgrades
 
 Visits to NASA facilities (both government and contractor operated, as well as contractor facilities) and interviews with technicians revealed the use of 1970s-era oscilloscopes and other analog equipment. Currently available equipment is digital, and in other venues has proved to be less costly, easier to maintain, and more reliable and accurate. With the Shuttle forecast to fly through 2020, an upgrade to digital equipment would avoid the high maintenance, lack of parts, and dubious accuracy of equipment currently used. New equipment would require certification for its uses, but the benefit in accuracy, maintainability, and longevity would likely outweigh the drawbacks of certification costs.
 
@@ -8143,17 +8137,15 @@ O10.11-1 Assess NASA and contractor equipment to deter-
 
 > mine if an upgrade will provide the reliability and accuracy needed to maintain the Shuttle through 2020. Plan an aggressive certification program for replaced items so that new equipment can be put into operation as soon as possible.
 
-## 10.12 LEADERSHIP/MANAGERIAL TRAINING
+## 10.12 Leadership/Managerial Training
 
 Managers at many levels in NASA, from GS-14 to Associate Administrator, have taken their positions without following a recommended standard of training and education to prepare them for roles of increased responsibility. While NASA has a number of in-house academic training and career development opportunities, the timing and strategy for management and leadership development differs across organizations. Unlike other sectors of the Federal Government and the military, NASA does not have a standard agency-wide career planning process to prepare its junior and mid-level managers for advanced roles. These programs range from academic fellowships to civil service education programs to billets in military-sponsored programs, and will allow NASA to build a strong corps of potential leaders for future progression.
 
 Observation:
 
-10.12-1 NASA should implement an agency-wide strat-
+10.12-1 NASA should implement an agency-wide strategy for leadership and management training that provides a more consistent and integrated approach to career development. This strategy should identify the management and leadership skills, abilities, and experiences required for each level of advancement. NASA should continue to expand its leadership development partnerships with the Department of Defense and other external organizations.
 
-> egy for leadership and management training that provides a more consistent and integrated approach to career development. This strategy should identify the management and leadership skills, abilities, and experiences required for each level of advancement. NASA should continue to expand its leadership development partnerships with the Department of Defense and other external organizations.
-
-> present state—and replace all deficient material in the Attachment Rings.
+## ENDNOTES FOR CHAPTER 10
 
 The citations that contain a reference to "CAIB document" with CAB or
 
@@ -8191,37 +8183,63 @@ Fatalities from Unintentional Airplane Crashes," Risk Analysis, Vol. 21,
 
 No. 6, 2001.
 
-> Code of Federal Regulations (CFR) 14 CFR Part 415 Launch License, Federal Register Vol. 64, No. 76, April 21, 1999; Range Commanders Council Standard 321-02, "Common Risk Criteria for National Test Ranges," published by the Secretariat of the RCC U.S. Army White Sands Missile Range, NM 88002-5110, June 2002; "Mitigation of Orbital
+Ibid.
 
-> Debris," Notice of Proposed Rulemaking by the Federal Communications Commission, FCC 02-80, Federal Register Vol. 67, No. 86, Friday, May 3, 2002.
+Code of Federal Regulations (CFR) 14 CFR Part 415 Launch License,
 
-> Air Force launch safety standards define a Hazardous Launch Area, a controlled surface area and airspace, where individual risk of serious injury from a launch vehicle malfunction during the early phase of flight exceeds one in a million. Only personnel essential to the launch
+Federal Register Vol. 64, No. 76, April 21, 1999; Range Commanders
 
-> operation are permitted in this area. "Eastern and Western Range Requirements 127-1," March 1995, pp. 1-12 and Fig. 1-6.
+Council Standard 321-02, "Common Risk Criteria for National Test
 
-> Code of Federal Regulations (CFR) 14 CFR Part 431, Launch and Reentry of a Reusable Launch Vehicle, Section 35 paragraphs (a) and (b), Federal Register Vol. 65, No. 182, September 19, 2000, p. 56660.
+Ranges," published by the Secretariat of the RCC U.S. Army White Sands
 
-> "Reentry Survivability Analysis of Delta IV Launch Vehicle Upper Stage," JSC-29775, June 2002.
+Missile Range, NM 88002-5110, June 2002; "Mitigation of Orbital
 
-### Tobin, "Range Safety Risk Assessments For Kennedy Space Center,"
+Debris," Notice of Proposed Rulemaking by the Federal Communications
 
-> October 2002. CAIB document CTF059-22802288; "Space Shuttle Program Requirements Document," NSTS-07700, Vol. I, change no. 76, Section 5-1. CAIB document CAB024-04120475.
+Commission, FCC 02-80, Federal Register Vol. 67, No. 86, Friday, May
 
-> Here, ascent refers to (1) the Orbiter from liftoff to Main Engine Cut Off (MECO), (2) the Solid Rocket Boosters from liftoff to splashdown, and (3) the External Tank from liftoff to splashdown.
+3, 2002. 13
 
-> Pete Cadden, "Shuttle Launch Area Debris Risk," October 2002. CAIB document CTF059-22682279.
+Air Force launch safety standards define a Hazardous Launch Area, a controlled surface area and airspace, where individual risk of serious injury from a launch vehicle malfunction during the early phase of flight exceeds one in a million. Only personnel essential to the launch operation are permitted in this area. "Eastern and Western Range
+
+Requirements 127-1," March 1995, pp. 1-12 and Fig. 1-6. 14
+
+Code of Federal Regulations (CFR) 14 CFR Part 431, Launch and Reentry of a Reusable Launch Vehicle, Section 35 paragraphs (a) and (b),
+
+Federal Register Vol. 65, No. 182, September 19, 2000, p. 56660.[^15]
+
+"Reentry Survivability Analysis of Delta IV Launch Vehicle Upper Stage,"
+
+JSC-29775, June 2002. 16
+
+#### Tobin, "Range Safety Risk Assessments For Kennedy Space Center,"
+
+October 2002. CAIB document CTF059-22802288; "Space Shuttle
+
+Program Requirements Document," NSTS-07700, Vol. I, change no. 76,
+
+Section 5-1. CAIB document CAB024-04120475. 17
+
+Here, ascent refers to (1) the Orbiter from liftoff to Main Engine Cut Off
+
+(MECO), (2) the Solid Rocket Boosters from liftoff to splashdown, and (3) the External Tank from liftoff to splashdown. 18
+
+Pete Cadden, "Shuttle Launch Area Debris Risk," October 2002. CAIB document CTF059-22682279. 19
 
 See Dennis R. Jenkins, Space Shuttle: The History of the National Space
 
 Transportation System – The First 100 Missions (Cape Canaveral,
 
-FL, Specialty Press, 2001), pp. 205-212 for a complete description
+FL, Specialty Press, 2001), pp. 205-212 for a complete description of the Approach and Landing Tests and other testing conducted with
 
-> of the Approach and Landing Tests and other testing conducted with Enterprise.
+Enterprise. 20
 
-> Report of the Presidential Commission on the Space Shuttle Challenger Accident (Washington: Government Printing Office, 1986).
+Report of the Presidential Commission on the Space Shuttle Challenger
 
-> The pre-declared time period or number of missions over which the system is expected to operate without major redesign or redefinition.
+Accident (Washington: Government Printing Office, 1986). 21
+
+The pre-declared time period or number of missions over which the system is expected to operate without major redesign or redefinition. 22
 
 "A crew escape system shall be provided on Earth to Orbit vehicles for safe crew extraction and recovery from in-flight failures across the flight envelope from pre-launch to landing. The escape system shall have a probability of successful crew return of 0.99."
 
@@ -8229,95 +8247,73 @@ Report of the Aerospace Safety Advisory Panel Annual Report for 2002,
 
 (Washington: Government Printing Office, March 2002). CAIB document
 
-CTF014-25882645.[^9] Charlie Abner, "KSC Processing Review Team Final Summary," June 16,
+CTF014-25882645.
 
-> Ibid. 2003. CAIB document CTF063-11801276.
+Charlie Abner, "KSC Processing Review Team Final Summary," June 16,
+
+2003. CAIB document CTF063-11801276.
 
 %%page 225%%
 
-Recommendations
+## Chapter 11: Recommendations
 
 It is the Boardʼs opinion that good leadership can direct a culture to adapt to new realities. NASAʼs culture must change, and the Board intends the following recommendations to be steps toward effecting this change.
 
 Recommendations have been put forth in many of the chapters. In this chapter, the recommendations are grouped by subject area with the Return-to-Flight [RTF] tasks listed first within the subject area. Each Recommendation retains its number so the reader can refer to the related section for additional details. These recommendations are not listed in priority order.
 
-## PART ONE – THE ACCIDENT
+#### PART ONE – THE ACCIDENT
 
 Thermal Protection System
 
-R3.2-1 Initiate an aggressive program to eliminate all
+R3.2-1 Initiate an aggressive program to eliminate all External Tank Thermal Protection System debris-shedding at the source with particular emphasis on the region where the bipod struts attach to the External Tank. [RTF]
 
-> External Tank Thermal Protection System debris-shedding at the source with particular emphasis R3.3-3 on the region where the bipod struts attach to the External Tank. [RTF]
+R3.3-2 Initiate a program designed to increase the Orbiterʼs ability to sustain minor debris damage by measures such as improved impact-resistant Reinforced Carbon-Carbon and acreage tiles. This program should determine the actual impact resistance of current materials and the effect of likely debris strikes.
 
-R3.3-2 Initiate a program designed to increase the
+R3.3-1 Develop and implement a comprehensive inspection plan to determine the structural integrity of all Reinforced Carbon-Carbon system components. This inspection plan should take advantage of advanced non-destructive inspection technology. [RTF]
 
-> Orbiterʼs ability to sustain minor debris damage R3.3-4 by measures such as improved impact-resistant Reinforced Carbon-Carbon and acreage tiles. This program should determine the actual impact resistance of current materials and the effect of likely debris strikes. [RTF] R3.3-5
+R6.4-1 For missions to the International Space Station, develop a practicable capability to inspect and effect emergency repairs to the widest possible range of damage to the Thermal Protection System, including both tile and Reinforced Carbon-
 
-R3.3-1 Develop and implement a comprehensive inspec-
+> Carbon, taking advantage of the additional capabilities available when near to or docked at the International Space Station.
 
-> tion plan to determine the structural integrity of all Reinforced Carbon-Carbon system components. This inspection plan should take advantage R3.8-1 of advanced non-destructive inspection technology. [RTF]
+> For non-Station missions, develop a comprehensive autonomous (independent of Station) inspection and repair capability to cover the widest possible range of damage scenarios.
 
-R6.4-1 For missions to the International Space Station,
+> Accomplish an on-orbit Thermal Protection System inspection, using appropriate assets and capabilities, early in all missions.
 
-> develop a practicable capability to inspect and effect emergency repairs to the widest possible
+> The ultimate objective should be a fully autonomous capability for all missions to address the possibility that an International Space Station mission fails to achieve the correct orbit, fails to dock successfully, or is damaged during or after undocking. [RTF]
 
-Carbon, taking advantage of the additional capabilities available when near to or docked at the International Space Station.
+R3.3-3 To the extent possible, increase the Orbiterʼs ability to successfully re-enter Earthʼs atmosphere with minor leading edge structural sub-system damage.
 
-For non-Station missions, develop a comprehensive autonomous (independent of Station) inspection and repair capability to cover the widest possible range of damage scenarios.
+R3.3-4 In order to understand the true material characteristics of Reinforced Carbon-Carbon components, develop a comprehensive database of flown Reinforced Carbon-Carbon material characteristics by destructive testing and evaluation. [RTF]
 
-Accomplish an on-orbit Thermal Protection System inspection, using appropriate assets and capabilities, early in all missions.
+R3.3-5 Improve the maintenance of launch pad structures to minimize the leaching of zinc primer onto Reinforced Carbon-Carbon components.
 
-The ultimate objective should be a fully autonomous capability for all missions to address the possibility that an International Space Station mission fails to achieve the correct orbit, fails to dock successfully, or is damaged during or after undocking. [RTF]
-
-To the extent possible, increase the Orbiterʼs ability to successfully re-enter Earthʼs atmosphere with minor leading edge structural sub-system damage.
-
-In order to understand the true material characteristics of Reinforced Carbon-Carbon components, develop a comprehensive database of flown Reinforced Carbon-Carbon material characteristics by destructive testing and evaluation.
-
-Improve the maintenance of launch pad structures to minimize the leaching of zinc primer onto Reinforced Carbon-Carbon components.
-
-Obtain sufficient spare Reinforced Carbon-Carbon panel assemblies and associated support components to ensure that decisions on Reinforced Carbon-Carbon maintenance are made on the basis of component specifications, free of external pressures relating to schedules, costs, or other considerations.
-
-> range of damage to the Thermal Protection System, including both tile and Reinforced Carbon-
+R3.8-1 Obtain sufficient spare Reinforced Carbon-Carbon panel assemblies and associated support components to ensure that decisions on Reinforced Carbon-Carbon maintenance are made on the basis of component specifications, free of external pressures relating to schedules, costs, or other considerations.
 
 %%page 226%%
 
-R3.8-2 Develop, validate, and maintain physics-based
-
-> computer models to evaluate Thermal Protection System damage from debris impacts. These tools should provide realistic and timely estimates of any impact damage from possible debris from any source that may ultimately impact the Orbiter. Establish impact damage thresholds that trigger responsive corrective action, such as on-orbit inspection and repair, when indicated.
+R3.8-2 Develop, validate, and maintain physics-based computer models to evaluate Thermal Protection System damage from debris impacts. These tools should provide realistic and timely estimates of any impact damage from possible debris from any source that may ultimately impact the Orbiter. Establish impact damage thresholds that trigger responsive corrective action, such as on-orbit inspection and repair, when indicated.
 
 Imaging
 
-R3.4-1 Upgrade the imaging system to be capable of
+R3.4-1 Upgrade the imaging system to be capable of providing a minimum of three useful views of the Space Shuttle from liftoff to at least Solid Rocket Booster separation, along any expected ascent azimuth. The operational status of these assets should be included in the Launch Commit Criteria for future launches. Consider using ships or aircraft to provide additional views of the Shuttle during ascent.
 
-> providing a minimum of three useful views of the Space Shuttle from liftoff to at least Solid Rocket Booster separation, along any expected ascent azimuth. The operational status of these assets should be included in the Launch Commit Criteria for future launches. Consider using ships or aircraft to provide additional views of the Shuttle during ascent.
+R3.4-2 Provide a capability to obtain and downlink high-resolution images of the External Tank after it separates. [RTF]
 
-R3.4-2 Provide a capability to obtain and downlink
+R3.4-3 Provide a capability to obtain and downlink high-resolution images of the underside of the Orbiter wing leading edge and forward section of both wingsʼ Thermal Protection System.
 
-> high-resolution images of the External Tank after it separates. [RTF]
+> [RTF]
 
-R3.4-3 Provide a capability to obtain and downlink
-
-> high-resolution images of the underside of the Orbiter wing leading edge and forward section of both wingsʼ Thermal Protection System. [RTF]
-
-R6.3-2 Modify the Memorandum of Agreement with
-
-> the National Imagery and Mapping Agency to make the imaging of each Shuttle flight while on orbit a standard requirement. [RTF] R6.2-1
+R6.3-2 Modify the Memorandum of Agreement with the National Imagery and Mapping Agency to make the imaging of each Shuttle flight while on orbit a standard requirement. [RTF]
 
 Orbiter Sensor Data
 
-R3.6-1 The Modular Auxiliary Data System instrumen-
+R3.6-1 The Modular Auxiliary Data System instrumentation and sensor suite on each Orbiter should be maintained and updated to include current sensor and data acquisition technologies.
 
-> tation and sensor suite on each Orbiter should be maintained and updated to include current sensor and data acquisition technologies.
-
-R3.6-2 The Modular Auxiliary Data System should be
-
-> redesigned to include engineering performance and vehicle health information, and have the ability to be reconfigured during flight in order to allow certain data to be recorded, telemetered, or both as needs change.
+R3.6-2 The Modular Auxiliary Data System should be redesigned to include engineering performance and vehicle health information, and have the ability to be reconfigured during flight in order to allow certain data to be recorded, telemetered, or both as needs change.
 
 Wiring
 
-R4.2-2 As part of the Shuttle Service Life Extension
-
-> Program and potential 40-year service life, develop a state-of-the-art means to inspect all
+R4.2-2 As part of the Shuttle Service Life Extension Program and potential 40-year service life, develop a state-of-the-art means to inspect all Orbiter wiring, including that which is inaccessible.
 
 Bolt Catchers
 
@@ -8325,85 +8321,65 @@ R4.2-1 Test and qualify the flight hardware bolt catchers. [RTF]
 
 Closeouts
 
-R4.2-3 Require that at least two employees attend all
-
-> final closeouts and intertank area hand-spraying procedures. [RTF]
+R4.2-3 Require that at least two employees attend all final closeouts and intertank area hand-spraying procedures. [RTF]
 
 Micrometeoroid and Orbital Debris
 
-R4.2-4 Require the Space Shuttle to be operated with
-
-> the same degree of safety for micrometeoroid and orbital debris as the degree of safety calculated for the International Space Station. Change the micrometeoroid and orbital debris safety criteria from guidelines to requirements.
+R4.2-4 Require the Space Shuttle to be operated with the same degree of safety for micrometeoroid and orbital debris as the degree of safety calculated for the International Space Station. Change the micrometeoroid and orbital debris safety criteria from guidelines to requirements. [RTF]
 
 Foreign Object Debris
 
-R4.2-5 Kennedy Space Center Quality Assurance
+R4.2-5 Kennedy Space Center Quality Assurance and United Space Alliance must return to the straightforward, industry-standard definition of "Foreign Object Debris" and eliminate any alternate or statistically deceptive definitions like "processing debris." [RTF]
 
-> and United Space Alliance must return to the straightforward, industry-standard definition of "Foreign Object Debris" and eliminate any alternate or statistically deceptive definitions like "processing debris." [RTF]
-
-## PART TWO – WHY THE ACCIDENT OCCURRED
+#### PART TWO – WHY THE ACCIDENT OCCURRED
 
 Scheduling
 
-R6.2-1 Adopt and maintain a Shuttle flight schedule
-
-> that is consistent with available resources. Although schedule deadlines are an important management tool, those deadlines must be regularly evaluated to ensure that any additional risk incurred to meet the schedule is recognized, understood, and acceptable. [RTF]
+R6.2-1 Adopt and maintain a Shuttle flight schedule that is consistent with available resources. Although schedule deadlines are an important management tool, those deadlines must be regularly evaluated to ensure that any additional risk incurred to meet the schedule is recognized, understood, and acceptable. [RTF]
 
 Training
 
-R6.3-1 Implement an expanded training program in
-
-> which the Mission Management Team faces potential crew and vehicle safety contingencies beyond launch and ascent. These contingencies should involve potential loss of Shuttle or crew, contain numerous uncertainties and unknowns, and require the Mission Management Team to assemble and interact with support organizations across NASA/Contractor lines and in various locations. [RTF]
-
-> Orbiter wiring, including that which is inaccessible.
+R6.3-1 Implement an expanded training program in which the Mission Management Team faces potential crew and vehicle safety contingencies beyond launch and ascent. These contingencies should involve potential loss of Shuttle or crew, contain numerous uncertainties and unknowns, and require the Mission Management Team to assemble and interact with support organizations across NASA/Contractor lines and in various locations. [RTF]
 
 %%page 227%%
 
-Organization Recertification
+Organization
 
-R7.5-1 Establish an independent Technical Engineer-
+R7.5-1 Establish an independent Technical Engineering Authority that is responsible for technical requirements and all waivers to them, and will build a disciplined, systematic approach to identifying, analyzing, and controlling hazards throughout the life cycle of the Shuttle System. The independent technical authority does the following as a minimum:
 
-> ing Authority that is responsible for technical requirements and all waivers to them, and will build a disciplined, systematic approach to identifying, analyzing, and controlling hazards throughout the life cycle of the Shuttle System. The independent technical authority does the following as a minimum: • Develop and maintain technical standards for all Space Shuttle Program projects and elements • Be the sole waiver-granting authority for all technical standards • Conduct trend and risk analysis at the subsystem, system, and enterprise levels • Own the failure mode, effects analysis and hazard reporting systems • Conduct integrated hazard analysis • Decide what is and is not an anomalous event • Independently verify launch readiness • Approve the provisions of the recertification program called for in Recommendation R9.1-1.
+> • Develop and maintain technical standards for all Space Shuttle Program projects and elements • Be the sole waiver-granting authority for all technical standards • Conduct trend and risk analysis at the subsystem, system, and enterprise levels • Own the failure mode, effects analysis and hazard reporting systems • Conduct integrated hazard analysis • Decide what is and is not an anomalous event • Independently verify launch readiness • Approve the provisions of the recertification program called for in Recommendation R9.1-1.
 
 > The Technical Engineering Authority should be funded directly from NASA Headquarters, and should have no connection to or responsibility for schedule or program cost.
 
-R7.5-2 NASA Headquarters Office of Safety and Mis-
+R7.5-2 NASA Headquarters Office of Safety and Mission Assurance should have direct line authority over the entire Space Shuttle Program safety organization and should be independently resourced.
 
-> sion Assurance should have direct line authority over the entire Space Shuttle Program safety organization and should be independently resourced.
+R7.5-3 Reorganize the Space Shuttle Integration Office to make it capable of integrating all elements of the Space Shuttle Program, including the Orbiter.
 
-R7.5-3 Reorganize the Space Shuttle Integration Office
-
-> to make it capable of integrating all elements of the Space Shuttle Program, including the Orbiter.
-
-## PART THREE – A LOOK AHEAD
+#### PART THREE – A LOOK AHEAD
 
 Organization
 
-R9.1-1 Prepare a detailed plan for defining, establishing,
+R9.1-1 Prepare a detailed plan for defining, establishing, transitioning, and implementing an independent Technical Engineering Authority, independent safety program, and a reorganized Space Shuttle Integration Office as described in R7.5-1, R7.5- 2, and R7.5-3. In addition, NASA should submit annual reports to Congress, as part of the budget review process, on its implementation activities.
 
-> transitioning, and implementing an independent Technical Engineering Authority, independent safety program, and a reorganized Space Shuttle Integration Office as described in R7.5-1, R7.5- 2, and R7.5-3. In addition, NASA should submit annual reports to Congress, as part of the budget
+Recertification
 
-R9.2-1 Prior to operating the Shuttle beyond 2010,
-
-> develop and conduct a vehicle recertification at the material, component, subsystem, and system levels. Recertification requirements should be included in the Service Life Extension Program.
+R9.2-1 Prior to operating the Shuttle beyond 2010, develop and conduct a vehicle recertification at the material, component, subsystem, and system levels. Recertification requirements should be included in the Service Life Extension Program.
 
 Closeout Photos/Drawing System
 
-R10.3-1 Develop an interim program of closeout pho-
+R10.3-1 Develop an interim program of closeout photographs for all critical sub-systems that differ from engineering drawings. Digitize the closeout photograph system so that images are immediately available for on-orbit troubleshooting.
 
-> tographs for all critical sub-systems that differ from engineering drawings. Digitize the closeout photograph system so that images are immediately available for on-orbit troubleshooting. [RTF]
+> [RTF]
 
-R10.3-2 Provide adequate resources for a long-term pro-
+R10.3-2 Provide adequate resources for a long-term program to upgrade the Shuttle engineering drawing system including:
 
-> gram to upgrade the Shuttle engineering drawing system including: • Reviewing drawings for accuracy • Converting all drawings to a computer-aided drafting system • Incorporating engineering changes
+> • Reviewing drawings for accuracy • Converting all drawings to a computer-aided drafting system • Incorporating engineering changes
 
-> review process, on its implementation activities. [RTF]
+[RTF]
 
 %%page 229%%
 
-Part Four
-
-Appendices
+## Part Four: Appendices
 
 Sunrise from STS-107 on Flight Day 3
 
@@ -8413,7 +8389,9 @@ Columbia being transported to Launch Complex 39-A at the Kennedy Space Center, F
 
 %%page 231%%
 
-## APPENDIX A A.1 ACTIVATION OF THE COLUMBIA ACCIDENT INVESTIGATION BOARD
+## Appendix A: The Investigation
+
+## A.1 ACTIVATION OF THE COLUMBIA ACCIDENT INVESTIGATION BOARD
 
 At 8:59:32 a.m. Eastern Standard Time on Saturday, February 1, 2003, communication with the Shuttle Columbia was lost. Shortly after the planned landing time of 9:16 a.m., NASA declared a Shuttle Contingency and executed the Agency Contingency Action Plan for Space Flight Operations that had been established after the Space Shuttle Challenger accident in January 1986. As part of that plan, NASA Administrator Sean OʼKeefe deployed NASAʼs Mishap Investigation Team, activated the Headquarters Contingency Action Team, and, at 10:30 a.m., activated the International Space Station and Space Shuttle Mishap Interagency Investigation Board.
 
@@ -8426,8 +8404,6 @@ The International Space Station and Space Shuttle Mishap Interagency Investigati
 - Director, Aviation Safety Division, Volpe National Transportation Systems Center, Department of Transportation: Dr. James N. Hallock
 - Representative, U.S. Air Force Materiel Command: Major General John L. Barry
 - Director, NASA Field Center or NASA Program Associate Administrator (not related to mission): Vacant
-
-vestigation
 
 Upon activating the Board, Administrator OʼKeefe named Admiral Harold W. Gehman Jr., United States Navy (retired), as its Chair, and G. Scott Hubbard, Director of NASA Ames Research Center, as the NASA Field Center Director representative. In addition to these eight voting members, contingency procedures provided for adding two non-voting NASA representatives, who helped establish the Board during the first weeks of activity but then returned to their regular duties. They were Bryan D. OʼConnor, NASA Associate Administrator for Safety and Mission Assurance, who served as an ex-officio Member of the Board, and Theron M. Bradley Jr., NASA Chief Engineer, who served as the Boardʼs Executive Secretary. Upon the Boardʼs activation, two NASA officials, David Lengyel and Steven Schmidt, were dispatched to provide for the Boardʼs administrative needs. J. William Sikora, Chief Counsel of the Glenn Research Center in Cleveland, Ohio, was assigned as the counsel to the Board.
 
@@ -8455,7 +8431,7 @@ Additional Board Members
 
 To manage its burgeoning investigative responsibilities, the Board added additional members, each of whom brought to the Board a needed area of expertise. On February 6, the Board appointed Roger E. Tetrault, retired Chairman and Chief Executive Officer of McDermott International. On February 15, the Board appointed Sheila E. Widnall, Ph.D., Institute Professor and Professor of Aeronautics and Astronautics at the Massachusetts Institute of Technology and former Secretary of the Air Force. On March 5, the Board appointed Douglas D. Osheroff, Ph.D., Nobel Laureate in Physics and Chair of the Stanford Physics Department; Sally
 
-### Ride, Ph.D., Professor of Space Science at the University
+#### Ride, Ph.D., Professor of Space Science at the University
 
 of California at San Diego and the nationʼs first woman in space; and John M. Logsdon, Ph.D., Director of the Space Policy Institute at George Washington University. This brought the total number of Board members to 13, coinci- dentally the same number as the Presidential Commission on the Space Shuttle Challenger Accident.
 
@@ -8594,7 +8570,7 @@ Group Systems is a collaborative software tool that orga- nizes ideas and inform
 
 Investigation Organizer
 
-Investigation Organizer is a Web-based pre-decisional management and modeling tool designed by NASA to support mishap investigation teams. Investigation Organizer provides a central information repository that can be used by investigation teams to store digital products. The Board used Investigation Organizer to connect data from various
+Investigation Organizer is a Web-based pre-decisional management and modeling tool designed by NASA to support mishap investigation teams. Investigation Organizer provides a central information repository that can be used by investigation teams to store digital products. The Board used Investigation Organizer to connect data from various sources to the outline that guided its investigation. Investigation Organizer was developed, maintained, and hosted
 
 by NASA Ames Research Center. Access to Board files on Investigation Organizer was restricted to Board members and authorized staff.
 
@@ -8612,7 +8588,7 @@ All appropriate Board documentation and products will be stored for submission t
 
 National Archives and Records Administration Customer Services Division (NWCC) Room 2400 8601 Adelphi Road College Park, MD 20740-6011
 
-The National Archives and Records Administration can be contacted at 301.837.3130. More information is available at http://www.nara.gov. sources to the outline that guided its investigation. Investigation Organizer was developed, maintained, and hosted
+The National Archives and Records Administration can be contacted at 301.837.3130. More information is available at http://www.nara.gov.
 
 %%page 237%%
 
@@ -8656,19 +8632,17 @@ Mr. Allen Li, Director, Acquisition and Sourcing Management, General Accounting 
 
 %%page 239%%
 
-## APPENDIX B
+## Appendix B: Board Member Biographies
 
-> Board Member Biographies
-
-## ADMIRAL HAROLD W. GEHMAN JR. (RETIRED)
+#### ADMIRAL HAROLD W. GEHMAN JR. (RETIRED)
 
 Chairman, Columbia Accident Investigation Board. Formerly Co-Chairman of the Department of Defense review of the attack on the U.S.S. Cole. Before retiring, Gehman served as the NATO Supreme Allied Commander, Atlantic, Commander in Chief of the U.S. Joint Forces Command, and Vice Chief of Naval Operations for the U.S. Navy. Gehman earned a B.S. in Industrial Engineering from Penn State University and is a retired four star Admiral.
 
-## MAJOR GENERAL JOHN L. BARRY
+#### MAJOR GENERAL JOHN L. BARRY
 
 Executive Director for the Columbia Accident Investigation. Director, Plans and Programs, Headquarters Air Force Materiel Command, Wright-Patterson Air Force Base, Ohio. An honors graduate of the Air Force Academy with an MPA from Oklahoma University, Barry has an extensive background as a fighter pilot and Air Force commander: Squadron, Group and two Wings. A trained accident investigator, Barry has presided or served on numerous aircraft mishap boards. He was a White House Fellow at NASA during the Challenger mishap and was the White House liaison for NASA, served as the Military Assistant to the Secretary of Defense during Desert Storm and was the director of Strategic Planning for the U.S. Air Force.
 
-## BRIGADIER GENERAL DUANE W. DEAL
+#### BRIGADIER GENERAL DUANE W. DEAL
 
 Commander, 21st Space Wing, Peterson Air Force Base, Colorado. Currently in his eighth commander position in the U.S. Air Force, Deal has served on or presided over 12 investigations of space launch and aircraft incidents. Formerly a Research Fellow with the RAND Corporation and Fellow of the Harvard Center for International Affairs, he has flown seven aircraft types as an Air Force pilot, including the SR-71 Blackbird, and served as a crew commander in two space systems. Deal holds a B.S. in Physics and a M.S. in Counseling Psychology from Mississippi State University, as well as a M.S. in Systems Management from the University of Southern California.
 
@@ -8676,11 +8650,11 @@ Commander, 21st Space Wing, Peterson Air Force Base, Colorado. Currently in his 
 
 JAMES N. HALLOCK , PH.D. Manager, Aviation Safety Division, Volpe National Transportation Systems Center, Massachusetts. He has worked in the Apollo Optics Group of the MIT Instrumentation Lab and was a physicist at the NASA Electronics Research Center, where he developed a spacecraft attitude determining system. He joined the DOT Transportation Systems Center (now the Volpe Center) in 1970. Hallock received B.S., M.S. and Ph.D. degrees in Physics from the Massachusetts Institute of Technology (MIT). He is an expert in aircraft wake vortex behavior and has conducted safety analyses on air traffic control procedures, aircraft certification, and separation standards, as well as developed aviation-information and decision-support systems.
 
-## MAJOR GENERAL KENNETH W. HESS
+#### MAJOR GENERAL KENNETH W. HESS
 
 Commander, Air Force Safety Center, Kirtland Air Force Base, New Mexico, and Chief of Safety, United States Air Force, Headquarters U.S. Air Force, Washington, D.C. Hess entered the Air Force in 1969 and has flown operationally in seven aircraft types. He has commanded three Air Force wings – the 47th Flying Training Wing, 374th Airlift Wing, and 319th Air Refueling Wing – and commanded the U.S. 3rd Air Force, RAF Mildenhall, England. Hess also has extensive staff experience at the Joint Staff and U.S. Pacific Command. He holds a B.B.A. from Texas A&M University and a M.S. in Human Relations and Management from Webster College.
 
-## SCOTT HUBBARD
+#### SCOTT HUBBARD
 
 Director of the NASA Ames Research Center, California. Hubbard was the first Mars Program Director at NASA Headquarters, successfully restructuring the program after mission failures. Other NASA positions include Deputy Director for Research, Director of NASAʼs Astrobiology Institute, and Manager of the Lunar Prospector mission. Before joining NASA, he was Vice President of Canberra Semiconductor and Staff Scientist at the Lawrence Berkeley National Laboratory. Hubbard holds a B.A. in Physics-Astronomy from Vanderbilt University, and conducted graduate studies at the University of California, Berkeley. Hubbard is a Fellow of the American Institute of Aeronautics and Astronautics.
 
@@ -8692,15 +8666,15 @@ DOUGLAS D. OSHEROFF, PH.D. J. G. Jackson and C. J. Wood Professor of Physics and
 
 SALLY T. RIDE, PH.D. Professor of Physics, University of California, San Diego, and President and CEO of Imaginary Lines, Inc. The first American female astronaut in space, Ride served on the Presidential Commission investigating the Space Shuttle Challenger Accident. A Fellow of the American Physical Society and Board Member of the California Institute of Technology, she was formerly Director of NASAʼs Strategic Planning and served on the Space Studies Board and the Presidentʼs Committee of Advisors on Science and Technology. Ride has received the Jefferson Award for Public Service and twice been awarded the National Spaceflight Medal. She received a B.S. in Physics, a B.A. in English, and a M.S. and Ph.D. in Physics from Stanford University.
 
-## ROGER E. TETRAULT
+#### ROGER E. TETRAULT
 
 Retired Chairman and Chief Executive Officer, McDermott International. Tetrault has also served as Corporate Vice President and President of the Electric Boat Division and the Land Systems Division at General Dynamics, as well as Vice President and Group Executive of the Government Group at Babcock and Wilcox Company. He is a 1963 graduate of the U.S. Naval Academy and holds a MBA from Lynchburg College.
 
-## REAR ADMIRAL STEPHEN A. TURCOTTE
+#### REAR ADMIRAL STEPHEN A. TURCOTTE
 
 Commander, Naval Safety Center, Virginia. Formerly Commanding Officer of the Jacksonville Naval Air Station and Deputy Commander of the Joint Task Force Southwest Asia, Turcotte has also commanded an aviation squadron and served on the Joint Staff (Operations Division). A decorated aviator, he has flown more than 5,500 hours in 15 different aircraft and has extensive experience in aircraft maintenance and operations. Turcotte holds a B.S. in Political Science from Marquette University NROTC and masters degrees in National Security and Strategic Studies from the Naval War College, and in Management from Salve Regina University.
 
-## STEVEN B. WALLACE
+#### STEVEN B. WALLACE
 
 Director, Office of Accident Investigation, Federal Aviation Administration, Washington, D.C. Wallaceʼs previous FAA positions include Senior Representative at the U.S. Embassy in Rome, Italy, Manager of the Transport Airplane Directorate Standards Staff in Seattle, and Attorney/ Advisor in the New York and Seattle offices. He holds a B.S. in Psychology from Springfield College and a J.D. from St. Johnʼs University School of Law. Wallace is admitted to legal practice before New York State and Federal courts, and is a licensed commercial pilot with multiengine, instrument, and seaplane ratings.
 
@@ -8710,7 +8684,9 @@ Board Member photographs by Rick W. Stiles
 
 %%page 243%%
 
-## APPENDIX C ADVISORS TO THE CHAIR
+## Appendix C: Board Staff
+
+#### ADVISORS TO THE CHAIR
 
 James B. Bagian, M.D. Medical Consultant and
 
@@ -8718,95 +8694,79 @@ Chief Flight Surgeon Guion S. Bluford Jr. Executive Director for
 
 Investigative Activities Dennis R. Jenkins Investigator and Liaison to the Board
 
-## GROUP I: MANAGEMENT AND TREATMENT OF MATERIALS
+#### GROUP I: MANAGEMENT AND TREATMENT OF MATERIALS
 
-Charles A. Babish Investigator Col. Timothy D. Bair Investigator Lt. Col. Lawrence M. Butkus, P.E., Ph.D. Investigator CDR Michael J. Francis Investigator CAPT James T. Fraser, M.D. Investigator John F. Lehman Investigator Lt. Col. Christopher S. Mardis Investigator Col. David T. Nakayama Investigator Clare A. Paul Investigator Maj. Lisa Sayegh, Ph.D. Investigator CAPT John K. Schmidt, Ph.D. Investigator John R. Vallaster Investigator Capt. Steven J. Clark Researcher 1st Lt. Michael A. Daniels Support Staff 1st Lt. David L. Drummond Support Staff Joshua W. Lane Support Staff Ed Mackey Support Staff Jana M. Price, Ph.D. Support Staff Dana L. Schulze Support Staff
-
-Staff
+Charles A. Babish Investigator Col. Timothy D. Bair Investigator Lt. Col. Lawrence M. Butkus, P.E., Ph.D. Investigator CDR Michael J. Francis Investigator CAPT James T. Fraser, M.D. Investigator John F. Lehman Investigator Lt. Col. Christopher S. Mardis Investigator Col. David T. Nakayama Investigator Clare A. Paul Investigator Maj. Lisa Sayegh, Ph.D. Investigator CAPT John K. Schmidt, Ph.D. Investigator John R. Vallaster Investigator Capt. Steven J. Clark Researcher 1st Lt. Michael A. Daniels Support Staff 1st Lt. David L. Drummond Support Staff Joshua W. Lane Support Staff Ed Mackey Support Staff Jana M. Price, Ph.D. Support Staff Dana L. Schulze Support Staff Stacy L. Walpole Administrative Support
 
 Astronaut (ret.), Department of Veterans Affairs Astronaut (ret.)
 
-Consulting Engineer, Valador, Inc. Air Force Materiel Command Air Force Materiel Command Air Force Academy Naval Safety Center Naval Safety Center Defense Contract Management Agency Air Force Materiel Command Air Force Materiel Command Air Force Research Laboratory Air Force Materiel Command Naval Safety Center Naval Safety Center Air Force Materiel Command Air Force Materiel Command Air Force Space Command Analytical Graphics, Inc. Analytical Graphics, Inc. National Transportation Safety Board National Transportation Safety Board
-
-Stacy L. Walpole Administrative Support Valador, Inc. GROUP II: TRAINING, OPERATIONS, AND IN-FLIGHT PERFORMANCE
+Consulting Engineer, Valador, Inc. Air Force Materiel Command Air Force Materiel Command Air Force Academy Naval Safety Center Naval Safety Center Defense Contract Management Agency Air Force Materiel Command Air Force Materiel Command Air Force Research Laboratory Air Force Materiel Command Naval Safety Center Naval Safety Center Air Force Materiel Command Air Force Materiel Command Air Force Space Command Analytical Graphics, Inc. Analytical Graphics, Inc. National Transportation Safety Board National Transportation Safety Board Valador, Inc. GROUP II: TRAINING, OPERATIONS, AND IN-FLIGHT PERFORMANCE
 
 %%page 244%%
 
-> Lt. Col. Richard J. Burgess Investigator Daniel P. Diggins Investigator Gregory J. Phillips Investigator Lisa M. Reed Investigator Lt. Col. Donald J. White Investigator Diane Vaughan, Ph.D. Researcher Maj. Tracy G. Dillinger, Ph.D. Support Staff Lt. Matthew E. Granger Support Staff Maj. David L. Kral Support Staff Helen E. Cunningham Administrative Support
+> Lt. Col. Richard J. Burgess Daniel P. Diggins Gregory J. Phillips Lisa M. Reed Lt. Col. Donald J. White Diane Vaughan, Ph.D. Maj. Tracy G. Dillinger, Ph.D. Lt. Matthew E. Granger Maj. David L. Kral Helen E. Cunningham
 
-## GROUP III: ENGINEERING AND TECHNICAL ANALYSIS
+#### GROUP III: ENGINEERING AND TECHNICAL ANALYSIS
 
-James O. Arnold. Ph.D. Investigator
+> James O. Arnold. Ph.D. R. Bruce Darling, Ph.D. Lt. Col. Patrick A. Goodman G. Mark Tanner, P.E. Gregory T. Kovacs, Ph.D. Paul D. Wilde, Ph.D. Douglas R. Cooke Capt. David J. Bawcom Robert E. Carvalho Lisa Chu-Thielbar Capt. Anne-Marie Contreras Jay H. Grinstead Richard M. Keller Lt. Col. Robert J. Primbs, Jr. Ian B. Sturken YʼDhanna Daniels
 
-### Bruce Darling, Ph.D. Investigator
+#### GROUP IV: ORGANIZATION AND POLICY
 
-Lt. Col. Patrick A. Goodman Investigator
+> Dwayne A. Day, Ph.D David H. Onkst Richard H. Buenneke W. Henry Lambright, Ph.D. Roger D. Launius, Ph.D. Howard E. McCurdy, Ph.D. Jill B. Dyszynski Jonathan M. Krezel Chirag B. Vyas
 
-### Mark Tanner, P.E. Investigator
-
-> Gregory T. Kovacs, Ph.D. Investigator Paul D. Wilde, Ph.D. Investigator Douglas R. Cooke Advisor Capt. David J. Bawcom Support Staff Robert E. Carvalho Support Staff Lisa Chu-Thielbar Support Staff Capt. Anne-Marie Contreras Support Staff Jay H. Grinstead Support Staff Richard M. Keller Support Staff Lt. Col. Robert J. Primbs, Jr. Support Staff Ian B. Sturken Support Staff YʼDhanna Daniels Administrative Support
-
-## GROUP IV: ORGANIZATION AND POLICY
-
-> Dwayne A. Day, Ph.D Investigator David H. Onkst Researcher Richard H. Buenneke Consultant
-
-### Henry Lambright, Ph.D. Consultant
-
-> Roger D. Launius, Ph.D. Consultant Howard E. McCurdy, Ph.D. Consultant Jill B. Dyszynski Research Assistant Jonathan M. Krezel Research Assistant Chirag B. Vyas Research Assistant
-
-Air Force Safety Center Federal Aviation Administration National Transportation Safety Board Booz Allen Hamilton Air Force Safety Center Boston College Air Force Safety Center Air Force Safety Center Air Force Safety Center Valador, Inc. University of California, Santa Cruz University of Washington Air Force Space Command Valador, Inc. Consultant Stanford University Federal Aviation Administration NASA Johnson Space Center Air Force Space Command NASA Ames Research Center NASA Ames Research Center Air Force Space Command NASA Ames Research Center NASA Ames Research Center Air Force Space Command NASA Ames Research Center Honeywell Technology Solutions, Inc. Valador, Inc. Consultant American University The Aerospace Corporation Syracuse University National Air and Space Museum American University George Washington University George Washington University George Washington University
+Investigator Air Force Safety Center Investigator Federal Aviation Administration Investigator National Transportation Safety Board Investigator Booz Allen Hamilton Investigator Air Force Safety Center Researcher Boston College Support Staff Air Force Safety Center Support Staff Air Force Safety Center Support Staff Air Force Safety Center Administrative Support Valador, Inc. Investigator University of California, Santa Cruz Investigator University of Washington Investigator Air Force Space Command Investigator Valador, Inc. Consultant Investigator Stanford University Investigator Federal Aviation Administration Advisor NASA Johnson Space Center Support Staff Air Force Space Command Support Staff NASA Ames Research Center Support Staff NASA Ames Research Center Support Staff Air Force Space Command Support Staff NASA Ames Research Center Support Staff NASA Ames Research Center Support Staff Air Force Space Command Support Staff NASA Ames Research Center Administrative Support Honeywell Technology Solutions, Inc. Investigator Valador, Inc. Consultant Researcher American University Consultant The Aerospace Corporation Consultant Syracuse University Consultant National Air and Space Museum Consultant American University Research Assistant George Washington University Research Assistant George Washington University Research Assistant George Washington University
 
 %%page 245%%
 
-## INDEPENDENT ASSESSMENT TEAM
+#### INDEPENDENT ASSESSMENT TEAM
 
 James P. Mosquera Lead Investigator Ronald K. Gress Investigator James W. Smiley, Ph.D. Investigator David B. Pye Investigator CDR (Selectee) Johnny R. Wolfe Investigator John Bertin, Ph.D. Consultant Tim Foster Consultant Robert M. Hammond Consultant Daniel J. Heimerdinger, Ph.D. Consultant Arthur Heuer, Ph.D. Consultant Michael W. Miller Consultant Gary C. Olson Consultant Jacqueline A. Stemen Administrative Support
 
-## NASA REPRESENTATIVES
+#### NASA REPRESENTATIVES
 
 Col. (Selectee) Michael J. Bloomfield Astronaut Representative Theron M. Bradley, Jr. Executive Secretary Robert W. Cobb Observer Bryan D. OʼConnor Ex-Officio Board Member David M. Lengyel Executive Secretary for Administration Steven G. Schmidt Executive Secretary for Management
 
-### William Sikora, Esq. Board General Counsel
+#### William Sikora, Esq. Board General Counsel
 
-## EDITORIAL TEAM AND PRODUCTION STAFF
+#### EDITORIAL TEAM AND PRODUCTION STAFF
 
 Lester A. Reingold Lead Editor Christopher M. Kirchhoff Editor Patricia D. Trenner Copy Editor Ariel H. Simon Assistant Editor Joshua M. Limbaugh Layout Artist Joseph A. Reid Graphic Designer James M. Thoburn Website and Public Database Lead
 
-## PUBLIC AFFAIRS
+#### PUBLIC AFFAIRS
 
 Laura J. Brown Lead Public Affairs Officer Patricia L. Brach Public Affairs Officer
 
-Paul I. Schlamm Public Affairs Officer Terry Williams Public Affairs Officer Lt. Col. Tyrone Woodyard Public Affairs Officer
-
-Marie T. Jones Public Affairs Administrative Support
+Paul I. Schlamm Public Affairs Officer Terry Williams Public Affairs Officer Lt. Col. Tyrone Woodyard Public Affairs Officer Rick W. Stiles Photographer Marie T. Jones Public Affairs Administrative Support
 
 U.S. Navy Valador, Inc. Consultant Valador, Inc. Consultant Valador, Inc. Consultant Strategic Systems Program Valador, Inc. Consultant Valador, Inc. Consultant Valador, Inc. Valador, Inc. Valador, Inc. Consultant Valador, Inc. Consultant Valador, Inc. Consultant Valador, Inc. USAF/NASA Astronaut Office NASA Headquarters NASA Office of the Inspector General NASA Headquarters NASA Headquarters NASA Headquarters NASA Glenn Research Center
 
-Valador, Inc. Consultant Valador, Inc. Consultant Air & Space/Smithsonian Magazine Valador, Inc. Consultant Valador, Inc. Valador, Inc. Valador, Inc. Federal Aviation Administration Federal Emergency Management Agency National Transportation Safety Board National Transportation Safety Board Air Force Office of the Chief of Staff
-
-Valador, Inc. Rick W. Stiles Photographer Rick Stiles Photography
+Valador, Inc. Consultant Valador, Inc. Consultant Air & Space/Smithsonian Magazine Valador, Inc. Consultant Valador, Inc. Valador, Inc. Valador, Inc. Federal Aviation Administration Federal Emergency Management Agency National Transportation Safety Board National Transportation Safety Board Air Force Office of the Chief of Staff Rick Stiles Photography Valador, Inc.
 
 %%page 246%%
 
-> Keith Carney Press Conference/Hearing Support Clifford Feldman Press Conference/Hearing Support
+> Keith Carney Clifford Feldman
 
-## GOVERNMENT AFFAIRS
+#### GOVERNMENT AFFAIRS
 
-> Thomas L. Carter Lead Government Affairs Matthew J. Martin Government Affairs Capt. David R. Young Government Affairs Lt. Col. Wade J. Thompson Government Affairs Col. Jack F. Anthony Department of Defense Liason Paul E. Cormier, Esq. Counsel to the Chairman Frances C. Fisher ANSER Liaison Frank E. Hutchison Special Assistant Charles R. McKee Special Assistant
+> Thomas L. Carter Matthew J. Martin Capt. David R. Young Lt. Col. Wade J. Thompson Col. Jack F. Anthony Paul E. Cormier, Esq. Frances C. Fisher Frank E. Hutchison Charles R. McKee
 
-## ADMINISTRATIVE STAFF
+#### ADMINISTRATIVE STAFF
 
-> Lt. Charles W. Ensinger Administrative Support to the Chairman YNC(SS) Barry M. Fitzgibbons Administrative Support to the Chairman Christine F. Cole Administrative Support Jana T. Schultz Administrative Support Sharon J. Martin Budget Manager Anna K. "Kitty" Rogers Lead Travel Coordinator Trudy Davis Travel Coordinator Lillian M. Hudson Travel Coordinator Anita I. Abrego Investigation Software Support Kevin P. Bass Investigation Software Support Robert J. Navarro Investigation Software Support James F. Williams Investigation Software Support James McMahon Information Technology Michele OʼConnell Information Technology
+> Lt. Charles W. Ensinger YNC(SS) Barry M. Fitzgibbons Christine F. Cole Jana T. Schultz Sharon J. Martin Anna K. "Kitty" Rogers Trudy Davis Lillian M. Hudson Anita I. Abrego Kevin P. Bass Robert J. Navarro James F. Williams James McMahon Michele OʼConnell
 
-> Robert L. Binkley Information Technology Roberta B. Sherrard Information Technology Paula B. Frankel Recorder Mitchell L. Bage, Jr. Scheduler Rudy Gazarek Software Support Patrick Garrett Software Support Doug Griffen Software Support
+> Robert L. Binkley Roberta B. Sherrard Paula B. Frankel Mitchell L. Bage, Jr. Rudy Gazarek Patrick Garrett Doug Griffen
 
-## DOCUMENTATION SUPPORT
+#### DOCUMENTATION SUPPORT
 
-Clarisse Abramidis Director
+Clarisse Abramidis
 
-> Norman L. Bailey Information Technology Lead Michael R. Broschat Database Administrator
+> Norman L. Bailey Michael R. Broschat
 
-Federal Network, Inc. Federal Network, Inc. Government Relations Consultant Government Relations Consultant Kansas Air National Guard Air Combat Command Air Force Space Command Government Relations Consultant ANSER, Inc. ANSER, Inc. ANSER, Inc. Naval Safety Center Naval Safety Center NASA Johnson Space Center NASA Johnson Space Center Al-Razaq Computing Services Valador, Inc. Consultant Valador, Inc. Consultant Valador, Inc. Consultant NASA Ames Research Center NASA Ames Research Center NASA Ames Research Center NASA Ames Research Center NASA Marshall Space Flight Center Science Applications International Corporation NASA Dryden Flight Research Center NASA Dryden Flight Research Center Westover and Associates, Inc. Blackhawk GroupSystems.com, Inc. GroupSystems.com, Inc. GroupSystems.com, Inc. U.S. Department of Justice, Office of Litigation Support Aspen Systems Corporation Aspen Systems Corporation
+Press Conference/Hearing Support Federal Network, Inc. Press Conference/Hearing Support Federal Network, Inc. Lead Government Affairs Government Relations Consultant Government Affairs Government Relations Consultant Government Affairs Kansas Air National Guard Government Affairs Air Combat Command Department of Defense Liason Air Force Space Command Counsel to the Chairman Government Relations Consultant ANSER Liaison ANSER, Inc. Special Assistant ANSER, Inc. Special Assistant ANSER, Inc. Administrative Support to the Chairman Naval Safety Center Administrative Support to the Chairman Naval Safety Center Administrative Support NASA Johnson Space Center Administrative Support NASA Johnson Space Center Budget Manager Al-Razaq Computing Services Lead Travel Coordinator Valador, Inc. Consultant Travel Coordinator Valador, Inc. Consultant Travel Coordinator Valador, Inc. Consultant Investigation Software Support NASA Ames Research Center Investigation Software Support NASA Ames Research Center Investigation Software Support NASA Ames Research Center Investigation Software Support NASA Ames Research Center Information Technology NASA Marshall Space Flight Center Information Technology Science Applications
+
+International Corporation Information Technology NASA Dryden Flight Research Center Information Technology NASA Dryden Flight Research Center Recorder Westover and Associates, Inc. Scheduler Blackhawk Software Support GroupSystems.com, Inc. Software Support GroupSystems.com, Inc. Software Support GroupSystems.com, Inc. Director U.S. Department of Justice,
+
+Office of Litigation Support Information Technology Lead Aspen Systems Corporation Database Administrator Aspen Systems Corporation
 
 %%page 247%%
 
@@ -8824,7 +8784,7 @@ Vera M. Thorpe Contract Director
 
 David L. Vetal Lead Project Manager Shannon S. Wiggins Senior Paralegal, Group I Coordinator Susan Corbin TechDoc Support Carolyn Paquette TechDoc Support Joseph Prevo TechDoc Support
 
-## ADVISORS AND CONSULTANTS
+#### ADVISORS AND CONSULTANTS
 
 John C. Clark Advisor Vernon S. Ellingstad, Ph.D. Advisor Jeff Guzzetti Advisor Thomas E. Haueter Advisor Max D. Alexander Consultant Anthony M. Calomino, Ph.D. Consultant RADM Walter H. Cantrell, USN (Ret) Consultant Elisabeth Paté-Cornell, Ph.D Consultant Robert L. Crane, Ph.D. Consultant Peter J. Erbland, Ph.D. Consultant Jean R. Gebman, Ph.D. Consultant Leon R. Glicksman, Ph.D. Consultant Howard E. Goldstein Consultant Deborah L. Grubbe Consultant Mark F. Horstemeyer, Ph.D. Consultant Francis I. Hurwitz, Ph.D. Consultant Sylvia M. Johnson, Ph.D. Consultant Ralph L. Keeney, Ph.D. Consultant Brian M. Kent, Ph.D. Consultant Daniel B. Leiser, Ph.D. Consultant
 
@@ -8834,25 +8794,25 @@ National Transportation Safety Board National Transportation Safety Board Nation
 
 %%page 248%%
 
-Nancy G. Leveson, Ph.D. Consultant
+> Nancy G. Leveson, Ph.D. M. Sam Mannan, Ph.D. Robert A. Mantz, Ph.D. Alan C. McMillan Story Musgrave Theodore Nicholas, Ph.D.
 
-### Sam Mannan, Ph.D. Consultant
+> Larry P. Perkins Donald J. Rigali, Ph.D., P.E. Karlene H. Roberts, Ph.D. John R. Scully, Ph.D. George A. Slenski Roger W. Staehle, Ph.D. Ethiraj Venkatapathy, Ph.D. Karl E. Weick, Ph.D. Douglas A. Weigmann, Ph.D.
 
-> Robert A. Mantz, Ph.D. Consultant Alan C. McMillan Consultant Story Musgrave Consultant Theodore Nicholas, Ph.D. Consultant
-
-> Larry P. Perkins Consultant Donald J. Rigali, Ph.D., P.E. Consultant Karlene H. Roberts, Ph.D. Consultant John R. Scully, Ph.D. Consultant George A. Slenski Consultant Roger W. Staehle, Ph.D. Consultant Ethiraj Venkatapathy, Ph.D. Consultant Karl E. Weick, Ph.D. Consultant Douglas A. Weigmann, Ph.D. Consultant
-
-> James Wick Consultant David D. Woods, Ph.D. Consultant
+> James Wick David D. Woods, Ph.D.
 
 VALADOR, INC., BOARD SUPPORT CONTRACTOR
 
-> Kevin T. Mabie President and CEO Richard A. Kaplan Senior Vice President of Engineering and CIO Neda Akbarzadeh Contract Support Christy D. Blasingame Contract Support Kim Hunt Contract Support Charles M. Mitchell Contract Support Karen Bircher Transcriber Vicci Biono Transcriber Jeanette Hutcherson Transcriber Caye Liles Transcriber Jennifer North Transcriber Barbara Rowe Transcriber Terry Rogers Transcriber Susan Vick Transcriber Elizabeth Malek Support Staff Sally McGrath Support Staff Bridget D. Penk Public Database Support Ray Weal Public Database Support Robert Floodeen Website Support James Helmlinger Website Support
+> Kevin T. Mabie Richard A. Kaplan
 
-Massachusetts Institute of Technology Texas A&M University Air Force Research Laboratory National Safety Council Astronaut (Ret.) University of Dayton Research Institute Air Force Research Laboratory Valador, Inc. Consultant University of California, Berkeley University of Virginia Air Force Research Laboratory Roger W. Staehle Consulting NASA Ames Research Center University of Michigan University of Illinois, Urbana-Champaign Intel Corporation Ohio State University
+> Neda Akbarzadeh Christy D. Blasingame Kim Hunt Charles M. Mitchell Karen Bircher Vicci Biono Jeanette Hutcherson Caye Liles Jennifer North Barbara Rowe Terry Rogers Susan Vick Elizabeth Malek Sally McGrath Bridget D. Penk Ray Weal Robert Floodeen James Helmlinger Philippe E. Simard Mario A. Lounderman
 
-Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc. Valador, Inc.
+Consultant Massachusetts Institute of Technology Consultant Texas A&M University Consultant Air Force Research Laboratory Consultant National Safety Council Consultant Astronaut (Ret.) Consultant University of Dayton
 
-> Philippe E. Simard Website Support Valador, Inc. Mario A. Lounderman Graphic Designer Valador, Inc.
+Research Institute Consultant Air Force Research Laboratory Consultant Valador, Inc. Consultant Consultant University of California, Berkeley Consultant University of Virginia Consultant Air Force Research Laboratory Consultant Roger W. Staehle Consulting Consultant NASA Ames Research Center Consultant University of Michigan Consultant University of Illinois,
+
+Urbana-Champaign Consultant Intel Corporation Consultant Ohio State University
+
+President and CEO Valador, Inc. Senior Vice President of Engineering Valador, Inc. and CIO Contract Support Valador, Inc. Contract Support Valador, Inc. Contract Support Valador, Inc. Contract Support Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Transcriber Valador, Inc. Support Staff Valador, Inc. Support Staff Valador, Inc. Public Database Support Valador, Inc. Public Database Support Valador, Inc. Website Support Valador, Inc. Website Support Valador, Inc. Website Support Valador, Inc. Graphic Designer Valador, Inc.
 
 ## Notes
 

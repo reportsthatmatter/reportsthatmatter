@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — Page-break sentences, Deepwater's chapters, Philip Morris's findings, and Columbia's structure fixed
+
+Four fixes shipped together in `@rtm/ingest` v0.13.0. Jack Smith: sentences split across a page break — including one a skewed scan had set as a block quotation — are rejoined; the three examples raised on GitHub, "false claims of election fraud", "monitored legal developments regarding" and "claims that they were making", now read as continuous prose. Deepwater Horizon: chapter, part and appendix headings are read from the contents instead of being folded into figure captions or the paragraph below them. United States v. Philip Morris: the opinion's 4,088 numbered Findings of Fact are citable paragraphs rather than an unlinked list, and its headings come from the contents rather than body or footnote text. Columbia: its section structure is read from the contents — fixing the two-column regression that had pinned it to an older pipeline release — and paragraph ids containing an apostrophe-like character (ʼ) resolve again across the archive.
+
+---
+
 ## 2026-09-27 — A photograph of the event on every landing page
 
 The other nine reports now open the way Jack Smith and Hillsborough do, with a photograph of what they are about in a band above the title: the towers burning from Brooklyn, the Challenger plume, Columbia breaking up over Texas, the Deepwater Horizon rig on fire, Lehman Brothers' headquarters on the night it went bankrupt, the seven tobacco chiefs swearing nicotine was not addictive, soldiers at a barricade in Derry on Bloody Sunday, Alexander Litvinenko in hospital in the photograph he asked to be released, and the last News of the World. Five of these replace the first research picks, which showed a place or an object rather than the event. Each carries a credit line linking to its source.

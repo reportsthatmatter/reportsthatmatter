@@ -3,6 +3,8 @@
 **Date:** 2026-08-02
 **Status:** ready to execute — the drafting is done, the posting is Rufus's
 
+**Update, 2026-09-27 (reportsthatmatter-y2t.2):** Appendices A–C below were drafted when the site carried one report. There are now 11. They are rewritten here for the full archive, and for the channels actually decided on 2026-09-25: Bluesky (`@reportsthatmatter.org`) is the organisation's only account and carries both the launch thread and the pinned post; there is no organisation account on X. X carries only the personal-account thread, which Rufus posts by hand. Section 4 below is updated to match. Nothing is posted by an agent — see AGENTS.md, "No external posting, account creation, or scheduling."
+
 ---
 
 ## 1. The two channels, and why they are different
@@ -54,20 +56,19 @@ Options considered:
 ## 4. The launch sequence
 
 **T-1 day**
-- Submit to Search Console, submit the sitemap, request indexing on the report.
-- Create the `@ReportsThatMatter` account (handle check: `@ReportsThatMattr`, `@RTM_Reports` as fallbacks).
-- Post the pinned tweet on that account.
+- Submit to Search Console, submit the sitemap, request indexing on the reports already live.
+- Create `@reportsthatmatter.org` on Bluesky (reportsthatmatter-y2t.1), and hand over its app password. Verify Search Console and Bing.
+- Post the pinned post (Appendix B) on `@reportsthatmatter.org`.
 
 **T-0, morning (best engagement for political/news content is 9–11am ET)**
-- Post the thread from the personal account (drafted below).
-- Quote-tweet it from `@ReportsThatMatter`.
+- Rufus posts the X thread (Appendix A) by hand, from his personal account. There is no organisation account on X — decided 2026-09-25 — so this is the only X post in the sequence.
+- Post the Bluesky launch thread (Appendix B) from `@reportsthatmatter.org`.
 
 **T-0 onward**
-- One excerpt per day from the excerpt account, each using a card and linking to the passage.
-- Five cards are ready; the passages are in `docs/share-quotes.yaml`.
+- One excerpt a day from `@reportsthatmatter.org`: a verbatim quotation, its page, and a link to the passage — the format at Appendix C — built from the approved editorial highlights via the posting queue (reportsthatmatter-y2t.3) and posted by the scheduled poster (reportsthatmatter-y2t.4) once it exists; by hand until then.
 
 **T+3 days**
-- Check Search Console for impressions. If the report is not indexed, request indexing again.
+- Check Search Console for impressions. If a report is not indexed, request indexing again.
 - Check Cloudflare analytics: how many reached a report page, how far they read.
 
 ## 5. What success looks like
@@ -82,45 +83,106 @@ Vanity metrics to ignore: impressions on the thread, follower count.
 
 ---
 
-## Appendix A — the announcement thread (draft)
+## Appendix A — the X thread (draft), personal account
 
-Personal account. Plain, no hype; the material is strong enough.
+Rufus's personal account, posted by hand — there is no organisation account on X (decided 2026-09-25). Plain, no hype; the material is strong enough. Every quotation below is copied verbatim from the approved `editorial/<id>.yaml` files and checked against the rendered report by `pnpm editorial`.
 
 > **1/**
 > Important public reports — inquiries, investigations, official findings — are some of the most careful research ever done. And they're almost unreadable: 700-page scanned PDFs on government sites that break.
 >
-> I've been fixing that. reportsthatmatter.org
+> I've been fixing that. 11 reports live now: reportsthatmatter.org
 
 > **2/**
-> First up: the Jack Smith Special Counsel report on the 2020 election.
+> Among them: the Jack Smith report on Trump and the 2020 election, the Senate's report on the 2008 financial crisis, the 9/11 Commission, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko.
 >
-> 169 pages. Every paragraph has its own link. Footnotes sit in the margin next to the sentence they support, instead of 70 pages away.
+> Every paragraph in every one has its own link.
 
 > **3/**
 > The point is being able to cite the exact passage.
 >
 > Highlight any sentence and you get a permanent link straight to it — so an argument can point at the evidence, not at "somewhere in the PDF".
 >
-> [card: "So what?" + link]
+> [card: "When an advisor at the White House learned this, he rushed to the dining room and informed Mr. Trump, who replied "So what?"" + link to reportsthatmatter.org/reports/jack-smith-vol1/mr-trumps-supporters-attack-the-united-states-capitol?p=trump-has-something-else-left]
 
 > **4/**
-> Also live: the Senate's Wall Street and the Financial Crisis report (2011).
->
-> It had been converted badly years ago — 8,178 fragments, two headings in 645 pages. Rebuilt through a proper pipeline with automated checks that the text matches the source.
+> Some of these had never been properly digitised. The Senate's Wall Street and the Financial Crisis report (2011): 8,178 fragments, two headings, across 645 pages, when I found it. Rebuilt through a proper pipeline with automated checks that the text matches the source.
 
 > **5/**
 > No commentary. No spin. The documents, made readable.
 >
-> More reports coming. If there's one you think belongs, tell me.
+> More coming. If there's one you think belongs, tell me.
 >
 > reportsthatmatter.org
 
 **Notes**
 - Tweet 3 carries a card and is the one most likely to travel — it is the demo and the proof in one.
-- Tweet 4 is deliberately unglamorous. "We fixed a badly converted document" signals seriousness to the people who care about primary sources, and they are the audience worth having.
+- Tweet 4 is deliberately unglamorous. "We fixed a badly converted document" signals seriousness to the people who care about primary sources, and they are the audience worth having. (This is the same Senate report and the same fact as the January draft; it was true then and is true now.)
 - Avoid partisan framing entirely. The material is contested; the project's credibility depends on being the place both sides can cite.
+- Rufus posts this by hand; nothing here is posted by an agent.
 
-## Appendix B — pinned tweet, `@ReportsThatMatter`
+## Appendix B — Bluesky (`@reportsthatmatter.org`): launch thread and pinned post
+
+The organisation's only account (X has none — decided 2026-09-25). Same voice as the excerpt account it also runs: evidence first, no commentary (Appendix C). Every quotation is copied verbatim from the approved `editorial/<id>.yaml` files, checked by `pnpm editorial`, and linked with its own `?p=<paragraph-id>` deep link. Each post is under Bluesky's 300-grapheme limit (counted with `Intl.Segmenter`, grapheme granularity); the count is noted after each one.
+
+**Launch thread**
+
+> **1/6**
+> Public inquiries and investigations are some of the most careful research done — usually locked in 700-page PDFs that don't load, can't be searched, and can't link to one paragraph.
+>
+> We rebuilt 11 of them as web pages instead.
+>
+> reportsthatmatter.org
+
+*(249 graphemes)*
+
+> **2/6**
+> 11 reports so far, different countries and decades: the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko.
+
+*(263 graphemes)*
+
+> **3/6**
+> Each report is split into sections that load, and every paragraph has its own permanent link. Highlight any sentence and you get a link straight to that passage, not "somewhere in a PDF".
+
+*(187 graphemes)*
+
+> **4/6**
+> From the Special Counsel's report on the 2020 election:
+>
+> "Until Mr. Trump obstructed it, this democratic process had operated in a peaceful and orderly manner for more than 130 years."
+>
+> reportsthatmatter.org/reports/jack-smith-vol1/the-results-of-the-investigation?p=trump-aimed-his-deceit-united
+
+*(296 graphemes)*
+
+> **5/6**
+> From the Senate's report on the 2008 financial crisis, on the regulator that let Washington Mutual keep making unsafe loans:
+>
+> "It was a regulatory approach with disastrous results."
+>
+> reportsthatmatter.org/reports/us-psi-financial-crisis/subcommittee-investigation?p=agency-s-failure-restrain-wamu
+
+*(296 graphemes)*
+
+> **6/6**
+> No commentary. No spin. The documents, made readable.
+>
+> 11 reports and counting. If there's one you think belongs, tell us.
+>
+> reportsthatmatter.org
+
+*(145 graphemes)*
+
+**Alternative opening post (1/6), if a more concrete hook reads better:**
+
+> Investigations, inquiries, official findings — some of the most careful research that gets done. Most of it sits in scanned PDFs: no search, no section links, no way to point at one paragraph.
+>
+> 11 of them, rebuilt as web pages.
+>
+> reportsthatmatter.org
+
+*(250 graphemes)*
+
+**Pinned post**
 
 > Excerpts from public-interest reports — inquiries, investigations, official findings.
 >
@@ -128,9 +190,20 @@ Personal account. Plain, no hype; the material is strong enough.
 >
 > Every excerpt links to the exact paragraph in the full report.
 >
+> 11 reports and counting.
+>
 > reportsthatmatter.org
 
+*(230 graphemes)*
+
+**Notes**
+- Posts 4/6 and 5/6 are the demo-and-proof pair, one per report, each a full sentence that stands on its own without its surrounding paragraph (per `docs/report-introductions.md`, "Quotations must stand on their own").
+- No page numbers in the thread or pinned post: unlike the daily excerpt format (Appendix C), these link straight to the passage, and a `?p=` link is itself the checkable reference. Page numbers stay mandatory once the daily excerpt account starts (Appendix C).
+- Nothing here is posted, scheduled, or account-created by an agent — see AGENTS.md.
+
 ## Appendix C — excerpt format
+
+For the one-a-day excerpt posts from `@reportsthatmatter.org` once the posting queue (reportsthatmatter-y2t.3) and scheduled poster (reportsthatmatter-y2t.4) exist — not the launch thread or pinned post above, which are one-off and link directly to the passage instead.
 
 ```
 "[verbatim quote]"
