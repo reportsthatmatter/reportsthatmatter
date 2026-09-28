@@ -38,6 +38,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 438,
     "height": 660
   },
+  "us-lehman-examiner": {
+    "width": 660,
+    "height": 506
+  },
   "us-psi-financial-crisis": {
     "width": 660,
     "height": 660

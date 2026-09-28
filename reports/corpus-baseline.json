@@ -3491,6 +3491,60 @@
           "ids": "6b599963081b"
         }
       ]
+    },
+    "us-lehman-examiner": {
+      "words": 59892,
+      "paragraphs": 413,
+      "sections": [
+        {
+          "slug": "introduction",
+          "title": "INTRODUCTION",
+          "paragraphs": 30,
+          "ids": "153fcd6c1f4c"
+        },
+        {
+          "slug": "why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise",
+          "title": "Why Did Lehman Fail? Are There Colorable Causes of Action That Arise",
+          "paragraphs": 27,
+          "ids": "25b9d80416fa"
+        },
+        {
+          "slug": "document-collection-and-review",
+          "title": "Document Collection and Review",
+          "paragraphs": 5,
+          "ids": "39efc782ce98"
+        },
+        {
+          "slug": "systems-access",
+          "title": "Systems Access",
+          "paragraphs": 6,
+          "ids": "a7a94247428e"
+        },
+        {
+          "slug": "witness-interview-process",
+          "title": "Witness Interview Process",
+          "paragraphs": 10,
+          "ids": "8ba27a99302b"
+        },
+        {
+          "slug": "report-of-examiner-anton-r-valukas",
+          "title": "REPORT OF EXAMINER ANTON R. VALUKAS",
+          "paragraphs": 6,
+          "ids": "c00e703db544"
+        },
+        {
+          "slug": "business-and-risk-management",
+          "title": "Business and Risk Management",
+          "paragraphs": 329,
+          "ids": "8e80a88684e6"
+        },
+        {
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        }
+      ]
     }
   }
 }

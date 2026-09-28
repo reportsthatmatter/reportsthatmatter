@@ -7,6 +7,20 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — A twelfth report: the Lehman Brothers examiner (Volume 1)
+
+**Report of Anton R. Valukas, Examiner** (2010), the court-appointed
+investigation into Lehman Brothers' collapse — scoped to Volume 1 of 9
+(196 pages, 690 footnotes): the Introduction, Executive Summary and
+Procedural Background, and the Examiner's findings on Lehman's business and
+risk management. The official PDF opens with the whole nine-volume report's
+table of contents; it's excluded here as out of scope rather than ingested
+as loose bullet fragments (see the report's own README). The Examiner's
+"Repo 105" findings — the accounting device Lehman used to understate its
+leverage before each quarterly report — are in Volume 3, not yet on the site.
+
+---
+
 ## 2026-09-27 — A photograph of the event on every landing page
 
 The other nine reports now open the way Jack Smith and Hillsborough do, with a photograph of what they are about in a band above the title: the towers burning from Brooklyn, the Challenger plume, Columbia breaking up over Texas, the Deepwater Horizon rig on fire, Lehman Brothers' headquarters on the night it went bankrupt, the seven tobacco chiefs swearing nicotine was not addictive, soldiers at a barricade in Derry on Bloody Sunday, Alexander Litvinenko in hospital in the photograph he asked to be released, and the last News of the World. Five of these replace the first research picks, which showed a place or an object rather than the event. Each carries a credit line linking to its source.
