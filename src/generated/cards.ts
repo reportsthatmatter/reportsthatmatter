@@ -9,11 +9,13 @@ export const CARDS: ReadonlySet<string> = new Set([
   "jack-smith-vol1/set-forth-original-superseding-indictments",
   "jack-smith-vol1/trump-has-something-else-left",
   "litvinenko-inquiry/default",
+  "uk-chilcot-inquiry/default",
   "uk-hillsborough-panel/default",
   "uk-leveson-inquiry/default",
   "uk-saville-inquiry/default",
   "us-911-commission/default",
   "us-deepwater-horizon/default",
+  "us-lehman-examiner/default",
   "us-psi-financial-crisis/default",
   "us-v-philip-morris/default"
 ]);

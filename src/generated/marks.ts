@@ -18,6 +18,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 508,
     "height": 660
   },
+  "uk-chilcot-inquiry": {
+    "width": 660,
+    "height": 642
+  },
   "uk-hillsborough-panel": {
     "width": 608,
     "height": 660
@@ -37,6 +41,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
   "us-deepwater-horizon": {
     "width": 438,
     "height": 660
+  },
+  "us-lehman-examiner": {
+    "width": 660,
+    "height": 506
   },
   "us-psi-financial-crisis": {
     "width": 660,

@@ -315,3 +315,56 @@ marks:
       per the report repo's README); the report credits the photograph to
       Robert White, "taken by Robert White on Bloody Sunday" (p.20).
     treat: { black: 0.0, white: 0.97, grain: 55, cut: none }
+
+  - id: chilcot
+    set: plate
+    report: uk-chilcot-inquiry
+    pdf: archive/the-report-of-the-iraq-inquiry-executive-summary.pdf
+    page: 4
+    dpi: 350
+    # Logo ink measured at 255,133-886,747 on the 350dpi page (2026-09-28),
+    # box below adds ~5% margin. The Executive Summary's own text has no
+    # embedded photograph or figure (pdfimages: two small copyright-page
+    # icons and a full-page cover fill only) — this is the facsimile-mark
+    # fallback the brief names as its second preference, the same choice as
+    # Jack Smith's DOJ seal.
+    crop: [224, 103, 693, 674]
+    subject: >-
+      The Iraq Inquiry's own crest from the Chairman's signed letter of
+      transmittal to the Prime Minister (p.4 of the PDF, unpaginated in the
+      printed report), which opens this edition ahead of the Executive
+      Summary itself. No embedded photograph or figure exists anywhere in
+      this PDF.
+    rights: >-
+      Crown copyright 2016, Open Government Licence v3.0, per the report
+      repo's README. The crest is the Inquiry's own letterhead mark, not a
+      third-party image.
+    treat: { black: 0.20, white: 0.88, grain: 55, cut: none }
+
+  - id: valukas
+    set: plate
+    report: us-lehman-examiner
+    external: "https://upload.wikimedia.org/wikipedia/commons/7/79/NYC_Lehman_Brothers_building.jpg"
+    # Measured 2026-09-28 on the 3264x2448 original: the "LEHMAN BROTHERS"
+    # sign and the building's world-map curtain wall, corner to corner,
+    # stopping above the green digital signage floor below and short of the
+    # neighbouring towers either side.
+    crop: [945, 320, 1500, 1150]
+    subject: >-
+      The "LEHMAN BROTHERS" sign and the illuminated world-map wall atop the
+      firm's Times Square headquarters (745 Seventh Avenue), showing a clock
+      reading "8:32 AM MAR 31" — 31 March 2008, five and a half months before
+      the collapse, a going concern. The report's own PDF is born-digital text
+      with zero embedded images (`pdfimages -list` found none), so this is
+      sourced outside the report, like us-v-philip-morris and uk-leveson-
+      inquiry. Chosen over a photograph of the bankruptcy filing or the run on
+      the firm: the sign and the map are the firm's own identity, not the
+      event, and the map echoes the Introduction's own account of why the
+      firm failed — it borrowed "tens or hundreds of billions of dollars"
+      every day from counterparties worldwide, and "the moment repo
+      counterparties were to lose confidence in Lehman... Lehman would be
+      unable to fund itself." No people, no scene of the filing or the exit.
+    rights: >-
+      Arnoldius, 31 March 2008, Wikimedia Commons, CC BY-SA 3.0:
+      https://commons.wikimedia.org/wiki/File:NYC_Lehman_Brothers_building.jpg
+    treat: { black: 0.16, white: 0.78, grain: 35, cut: none }

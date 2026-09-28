@@ -86,3 +86,19 @@ reports:
     source_path: reports/uk-saville-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/5a7b7c8ced915d131105f8f4/0029_i.pdf"
     ingested: true
+
+  - id: uk-chilcot-inquiry
+    title: "The Report of the Iraq Inquiry — Executive Summary"
+    authors: "Sir John Chilcot (Chairman), Sir Lawrence Freedman, Sir Martin Gilbert, Baroness Usha Prashar, Sir Roderic Lyne"
+    published_at: "6 July 2016"
+    source_path: reports/uk-chilcot-inquiry/full.md
+    source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123123237mp_/http://www.iraqinquiry.org.uk/media/246416/the-report-of-the-iraq-inquiry_executive-summary.pdf"
+    ingested: true
+
+  - id: us-lehman-examiner
+    title: "Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings Inc., et al. — Volume 1"
+    authors: "Anton R. Valukas, Examiner (Jenner & Block LLP)"
+    published_at: "11 March 2010"
+    source_path: reports/us-lehman-examiner/full.md
+    source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
+    ingested: true

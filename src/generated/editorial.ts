@@ -218,9 +218,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "lockheed-shuttle-processing-contract-award-fee-history",
+        "slug": "2-operations",
         "title": "Pressures on Shuttle Operations",
-        "page": "117",
+        "page": "115",
         "why": "Where the pressure to fly more often came from, and what it did to training, planning and safety.",
         "excerpt": {
           "quote": "Without operating pressures the program might have been stopped months before the accident to redesign or at least understand the SRB joint. Without operating pressure the flight could have been stopped the night of January 27.",
@@ -232,9 +232,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "figure-2",
+        "slug": "technical-management-2",
         "title": "Technical Management",
-        "page": "141",
+        "page": "139",
         "why": "Why senior managers did not act on the seal problem, including a NASA manager's own account of how they talked themselves into it.",
         "excerpt": {
           "quote": "When we recognized that it had design deficiency, we did not fix it. Then we continued to fly with it, and rationalized why it was safe, and eventually concluded and convinced ourselves that it was an acceptable risk.",
@@ -1235,9 +1235,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "neither-syp-nor-the-south-yorkshire-metropolitan-ambulance-service-symas",
+        "slug": "front-matter",
         "title": "The rest of the report summary",
-        "page": "13",
+        "page": "2",
         "why": "Continues the chapter-by-chapter summary through the emergency response, the contested medical evidence, the 3.15pm cut-off, the altered statements and the unsubstantiated press allegations.",
         "excerpt": {
           "quote": "The Panel's access to all of the relevant records has confirmed that the notion of a single, unvarying and rapid pattern of death in all cases is unsustainable.",
@@ -1249,9 +1249,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "hillsborough",
+        "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
         "title": "The day itself, and the emergency response",
-        "page": "108",
+        "page": "132",
         "why": "The Panel's detailed reconstruction of the day and of the emergency response that followed it, drawing on control-room tapes and radio transcripts not previously made public.",
         "excerpt": {
           "quote": "Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.",
@@ -1263,9 +1263,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "of-action-check-transcripts-submissions-by-swfc-re-fence-check-transcripts-and-f",
+        "slug": "chapter-10-the-315pm-cut-off",
         "title": "The coroner's inquiry and the 3.15pm cut-off",
-        "page": "247",
+        "page": "292",
         "why": "How the inquest was split into a hearing for each victim followed by a single generic hearing, and why the Coroner decided to hear no evidence of what happened after 3.15pm.",
         "excerpt": {
           "quote": "Dr Popper returned to the cut-off: 'we did not take much evidence after 3.15 in fact hardly any, and that was a deliberate decision of mine'.",
@@ -1277,9 +1277,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "memorandum-to-the-attorney-general-kevin-daniel-williams-deceased-application-un",
+        "slug": "chapter-11-review-and-alteration-of-statements",
         "title": "The altered statements, and 'The Truth'",
-        "page": "312",
+        "page": "316",
         "why": "How SYP officers' statements were reviewed and amended before the Taylor Inquiry, and how allegations against Liverpool fans reached The Sun's front page four days after the disaster.",
         "excerpt": {
           "quote": "A total of 164 statements were marked for amendments more substantial than simple corrections. Of these, 22 were amended to remove coarse or informal language.",
@@ -1520,7 +1520,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "chapter-the-press-and-the-police-conclusions-and-recommendations",
+        "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
         "title": "The press and the police: conclusions and recommendations",
         "page": "981",
         "why": "Whether the closeness between the Metropolitan Police and the News of the World amounted to corruption, and what the Inquiry recommends instead.",
@@ -1959,7 +1959,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "19-men-aboard-four-transcontinental",
             "page": 4,
-            "href": "/reports/us-911-commission?p=19-men-aboard-four-transcontinental&h=transcontinental%20flights.21%20|They%20were%20planning%20to%20hijack%20these%20planes%20and%20turn%20them%20into%20large%20guided%20missiles%2C%20loaded%20with%20up%20to%2011%2C400%20gallons%20of%20%E2%8B%AFdefeated%20all%20the%20security%20layers%20that%20America's%20civil%20aviation%20security%20system%20then%20had%20in%20place%20to%20prevent%20a%20hijacking.|"
+            "href": "/reports/us-911-commission?p=19-men-aboard-four-transcontinental&h=transcontinental%20flights.%20|They%20were%20planning%20to%20hijack%20these%20planes%20and%20turn%20them%20into%20large%20guided%20missiles%2C%20loaded%20with%20up%20to%2011%2C400%20gallons%20of%20%E2%8B%AFdefeated%20all%20the%20security%20layers%20that%20America's%20civil%20aviation%20security%20system%20then%20had%20in%20place%20to%20prevent%20a%20hijacking.|"
           }
         }
       },
@@ -1973,7 +1973,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "there-substantial-disagreement-between-minneapolis",
             "page": 275,
-            "href": "/reports/us-911-commission?p=there-substantial-disagreement-between-minneapolis&h=intended%20to%20get%20people%20%22spun%20up.%22|The%20supervisor%20replied%20that%20was%20precisely%20his%20intent.%20He%20said%20he%20was%20%22trying%20to%20keep%20someone%20from%20taking%20a%20plane%20and%20crashing%20into%20the%20World%20Trade%20Center.%22%20The%20headquarters%20agent%20replied%20that%20this%20was%20not%20going%20to%20happen%20and%20that%20they%20did%20not%20know%20if%20Moussaoui%20was%20a%20terrorist.|101"
+            "href": "/reports/us-911-commission?p=there-substantial-disagreement-between-minneapolis&h=intended%20to%20get%20people%20%22spun%20up.%22|The%20supervisor%20replied%20that%20was%20precisely%20his%20intent.%20He%20said%20he%20was%20%22trying%20to%20keep%20someone%20from%20taking%20a%20plane%20and%20crashing%20into%20the%20World%20Trade%20Center.%22%20The%20headquarters%20agent%20replied%20that%20this%20was%20not%20going%20to%20happen%20and%20that%20they%20did%20not%20know%20if%20Moussaoui%20was%20a%20terrorist.|"
           }
         }
       },
