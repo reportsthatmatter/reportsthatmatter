@@ -123,13 +123,13 @@ Part III details the facts and analysis on the topics assigned by the Court to t
 
 %%page 15%%
 
-## EXECUTIVE SUMMARY OF THE EXAMINER'S CONCLUSIONS
+I. EXECUTIVE SUMMARY OF THE EXAMINER'S CONCLUSIONS
 
 The Order appointing the Examiner (the "Examiner Order") assigns ten specific bulleted topics for the Examiner to investigate; in addition, the Examiner Order directs the Examiner to perform the duties specified in Section 1106(a)(3) and (4) of the Bankruptcy Code, that is, to "file a statement of . . . any fact ascertained pertaining to fraud, dishonesty, incompetence, misconduct, mismanagement, or irregularity in the management of the affairs of the debtor, or to a cause of action available to the estate."[^56] Because the ten bulleted topics set out at pages 3‐4 of the Examiner Order overlap, the Examiner has grouped them into three substantive areas: (A) Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure? (B) Are There Administrative Claims or Colorable Claims for Preferences or Voidable Transfers? and (C) Are There Colorable Claims Arising Out of the Barclays Sale Transaction?
 
-### Why Did Lehman Fail? Are There Colorable Causes of Action That Arise
+### Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure?
 
-From Its Financial Condition and Failure? Section (A) addresses the fifth, eighth and tenth bullets of the Examiner Order:
+Section (A) addresses the fifth, eighth and tenth bullets of the Examiner Order:
 
 > [Bullet 10] The events that occurred from September 4, 2008 through September 15, 2008 or prior thereto that may have resulted in commencement of the LBHI Chapter 11 case. [Bullet 5] Whether there are colorable claims for breach of fiduciary duties and/or aiding or abetting any such breaches against the officers and directors of LBCC and/or other Debtors arising in connection with the financial condition of the Lehman enterprise prior to the commencement of the LBHI Chapter 11 case on September 15, 2008.
 
@@ -197,9 +197,7 @@ Accordingly, the report will detail the following subjects that the Examiner has
 
 > 6. Lehman's Interaction With Government Agencies – As part of the Examiner's overall investigation, it was necessary to consider the interaction between Lehman and the Government agencies who regulated and monitored Lehman; for example, Lehman officers suggested to the Examiner that he should consider, in the course of determining whether they had breached any fiduciary duties, the completeness of the disclosures they made to the Government.92
 
-### Are There Administrative Claims or Colorable Claims For Preferences or
-
-Voidable Transfers?
+### Are There Administrative Claims or Colorable Claims For Preferences or Voidable Transfers?
 
 Section (B) addresses the first, second, third, fourth, seventh and eighth bullets of the Examiner Order:
 
@@ -227,9 +225,9 @@ The Examiner has identified colorable claims that there were a limited number of
 
 The Examiner has determined that there are a limited number of colorable claims for avoidance actions against JPMorgan95 and Citibank.96
 
-### Do Colorable Claims Arise From Transfers of LBHI Affiliate Assets to
+### Do Colorable Claims Arise From Transfers of LBHI Affiliate Assets to Barclays, or From the Lehman ALI Transaction?
 
-Barclays, or From the Lehman ALI Transaction? Section (C) addresses the sixth and ninth bullets of the Examiner Order:
+Section (C) addresses the sixth and ninth bullets of the Examiner Order:
 
 > [Bullet 6] Whether assets of any LBHI Affiliates (other than Lehman Brothers, Inc.) were transferred to Barclays Capital Inc. as a result of the sale to Barclays Capital Inc. that was approved by order of the Bankruptcy Court entered September 20, 2008, and whether consequences to any LBHI Affiliate as a result of the consummation of the transaction created colorable causes of action that inure to the benefit of the creditors of such LBHI subsidiary or affiliate. [Bullet 9] The transfer of the capital stock of certain subsidiaries of LBI on or about September 19, 2008 to Lehman ALI Inc. In the course of reviewing whether affiliates other than LBI were adversely
 
@@ -243,7 +241,7 @@ The Examiner concludes that the transfer of capital stock to ALI served a legiti
 
 %%page 28%%
 
-## PROCEDURAL BACKGROUND AND NATURE OF THE EXAMINATION
+II. PROCEDURAL BACKGROUND AND NATURE OF THE EXAMINATION
 
 ### The Examiner's Authority
 
@@ -319,7 +317,7 @@ Throughout the course of the investigation, the Examiner conducted regular, week
 
 > * * * * * * * * * * * The Report now continues with the detail.
 
-## UNITED STATES BANKRUPTCY COURT SOUTHERN DISTRICT OF NEW YORK
+UNITED STATES BANKRUPTCY COURT SOUTHERN DISTRICT OF NEW YORK
 
 ‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐ x
 
@@ -329,7 +327,7 @@ Throughout the course of the investigation, the Examiner conducted regular, week
 
 ‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐ x
 
-## REPORT OF EXAMINER ANTON R. VALUKAS
+> REPORT OF EXAMINER ANTON R. VALUKAS
 
 Section III.A.1: Risk
 
@@ -477,11 +475,9 @@ Section III.A.1: Risk
 
 %%page 43%%
 
-## EXAMINER'S CONCLUSIONS
+III. EXAMINER'S CONCLUSIONS
 
-### Why Did Lehman Fail? Are There Colorable Causes of Action That Arise
-
-From Its Financial Condition and Failure?
+### Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure?
 
 ### Business and Risk Management
 
@@ -511,9 +507,9 @@ Accordingly, the Examiner investigated (1) whether there are colorable claims fo
 
 The Examiner concludes that the conduct of Lehman's officers, while subject to question in retrospect, falls within the business judgment rule and does not give rise to colorable claims. The Examiner concludes that Lehman's directors did not breach their duty to monitor Lehman's risks.
 
-> (1) The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty of Care by Failing to Observe Lehman's Risk Management Policies and Procedures Delaware law, which governs a Delaware corporation such as Lehman, sets a
+#### The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty of Care by Failing to Observe Lehman's Risk Management Policies and Procedures
 
-high bar for establishing a breach of the fiduciary duty of care.126 Officers' and directors' business decisions are generally protected from personal liability by the business judgment rule, and even if the business judgment rule does not apply, there is no liability unless the officer or director was grossly negligent. "In the duty of care context gross negligence has been defined as 'reckless indifference to or a deliberate disregard of the whole body of stockholders or actions which are without the bounds of reason.'"127
+Delaware law, which governs a Delaware corporation such as Lehman, sets a high bar for establishing a breach of the fiduciary duty of care.126 Officers' and directors' business decisions are generally protected from personal liability by the business judgment rule, and even if the business judgment rule does not apply, there is no liability unless the officer or director was grossly negligent. "In the duty of care context gross negligence has been defined as 'reckless indifference to or a deliberate disregard of the whole body of stockholders or actions which are without the bounds of reason.'"127
 
 %%page 48%%
 
@@ -557,9 +553,9 @@ Lehman's senior officers' conduct with respect to risk management was outside th
 
 Based upon their considerable business experience and successful track record, Lehman's senior managers decided to place a higher priority on increasing profits than on keeping the firm's risk level within the limits arising from its risk management policies and metrics. Lehman's senior managers were confident making business judgments based on their understanding of the markets, and did not feel constrained by the quantitative metrics generated by Lehman's risk management system. These decisions raise questions about the role of risk management in a complex financial institution, but they do not give rise to a colorable claim of the breach of the fiduciary duty of care given the high bar to liability established by Delaware law.
 
-> (2) The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty to Inform the Board of Directors Concerning the Level of Risk Lehman Had Assumed The Examiner finds insufficient evidence to support a determination that
+#### The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty to Inform the Board of Directors Concerning the Level of Risk Lehman Had Assumed
 
-Lehman's senior managers breached their fiduciary duty of candor, which required them to provide the Board with material reports concerning Lehman's risk and liquidity.146
+The Examiner finds insufficient evidence to support a determination that Lehman's senior managers breached their fiduciary duty of candor, which required them to provide the Board with material reports concerning Lehman's risk and liquidity.146
 
 The factual issues relevant to the duty of candor are the same risk management issues relevant to the duty of care. Lehman's officers did not disclose certain information concerning the amount or duration of the firm‐wide risk limit overages, their decisions to exceed certain concentration limits, or the limitations in the firm's stress testing. Nor did Lehman's officers disclose that Lehman's originations of Alt‐A mortgages – mortgages that were considered riskier than typical prime mortgages but not so risky as to be categorized as "subprime" – were exposing the firm to subprime mortgage risk, even as Lehman was curtailing originations of loans actually denominated as "subprime." Lehman's directors generally said that if such risk management issues were significant and long‐lasting, they would have liked to have received more information about them, but would not necessarily have taken action as a result.147
 
@@ -571,9 +567,9 @@ However, the Examiner found that Lehman's management did inform the Board, clear
 
 These disclosures were not so incomplete as to lead to the conclusion that Lehman's management misled the Board of Directors. Nor did Lehman's officers have a legal duty to disclose additional details to the Board. Lehman's risk limits and controls were designed primarily for management's internal use in making business decisions concerning the core issue faced by any financial institution: what business risks to take and what business risks to decline.150 While the overall risk management of the firm is an appropriate topic for board consideration, the day‐to‐day decisions are primarily the responsibility of officers, not directors.[^151]
 
-> (3) The Examiner Does Not Find Colorable Claims That Lehman's Directors Breached Their Fiduciary Duty by Failing to Monitor Lehman's Risk‐Taking Activities Lehman's corporate charter and related aspects of Delaware law protect its
+#### The Examiner Does Not Find Colorable Claims That Lehman's Directors Breached Their Fiduciary Duty by Failing to Monitor Lehman's Risk‐Taking Activities
 
-directors from personal liability based upon their business decisions. As a result, the directors cannot be held liable for a breach of the duty of care; rather the directors can be liable for inadequately monitoring Lehman's affairs only if their failure to monitor was so egregious as to rise to the level of a breach of the duty of loyalty or the duty of good faith. The Delaware courts have called this type of claim – referred to as a Caremark claim – "possibly the most difficult theory in corporation law upon which a plaintiff might hope to win a judgment."152
+Lehman's corporate charter and related aspects of Delaware law protect its directors from personal liability based upon their business decisions. As a result, the directors cannot be held liable for a breach of the duty of care; rather the directors can be liable for inadequately monitoring Lehman's affairs only if their failure to monitor was so egregious as to rise to the level of a breach of the duty of loyalty or the duty of good faith. The Delaware courts have called this type of claim – referred to as a Caremark claim – "possibly the most difficult theory in corporation law upon which a plaintiff might hope to win a judgment."152
 
 %%page 55%%
 
@@ -609,7 +605,7 @@ To explain the business and risk decisions that led Lehman management down this 
 
 b) Facts
 
-> (1) From Moving to Storage: Lehman Expands Its Principal Investments
+#### From Moving to Storage: Lehman Expands Its Principal Investments
 
 During the course of 2006, Lehman's management and Board made the deliberate business decision to increase the firm's risk profile generally, and to take more risk specifically with respect to principal investments with the firm's capital. This new strategy was directed by Lehman's highest officers – primarily Fuld, Joseph
 
@@ -621,9 +617,9 @@ Gregory (Lehman's President and Chief Operating Officer), and Hugh E. (Skip) McG
 
 This Section of the Report describes the principal investment strategy adopted by Lehman in 2006; explains the risks that this strategy posed to the firm; describes how Lehman's risk controls were applied (or not) to the new strategy; and explains the Board's understanding of, and agreement with, the new strategy.
 
-> (a) Lehman's Changed Business Strategy In 2006, Lehman made a significant change in its business strategy from a lower
+#### Lehman's Changed Business Strategy
 
-risk brokerage model to a higher risk, capital‐intensive banking model. Historically, Lehman described itself as being primarily in the moving business, not the storage business.158 Lehman, for the most part, did not use its balance sheet to acquire assets for its own investment; rather, Lehman acquired assets – such as commercial and residential real estate mortgages – primarily to move them by securitization or syndication and distribution to third parties.
+In 2006, Lehman made a significant change in its business strategy from a lower risk brokerage model to a higher risk, capital‐intensive banking model. Historically, Lehman described itself as being primarily in the moving business, not the storage business.158 Lehman, for the most part, did not use its balance sheet to acquire assets for its own investment; rather, Lehman acquired assets – such as commercial and residential real estate mortgages – primarily to move them by securitization or syndication and distribution to third parties.
 
 During 2006, Lehman's management decided to emphasize the storage business – using Lehman's balance sheet to acquire assets for longer‐term investment.159 Fuld believed that other banks were using their balance sheets to make more proprietary investments, that these investments were highly profitable relative to their risk in the then‐buoyant economic environment, and that Lehman was missing out on significant opportunities to do the same.160
 
@@ -641,9 +637,9 @@ The firm's aggressive growth strategy was apparent in various firm‐wide presen
 
 %%page 62%%
 
-> (b) The Increased Risk From Lehman's Changed Business Strategy The business strategy that Lehman pursued beginning in 2006 was risky in light
+#### The Increased Risk From Lehman's Changed Business Strategy
 
-of the firm's high leverage and small equity base. Commercial real estate investments, leveraged loans and other principal investments consumed more capital, entailed more risk, and were less liquid than Lehman's traditional lines of business.171
+The business strategy that Lehman pursued beginning in 2006 was risky in light of the firm's high leverage and small equity base. Commercial real estate investments, leveraged loans and other principal investments consumed more capital, entailed more risk, and were less liquid than Lehman's traditional lines of business.171
 
 The lack of liquidity increased the risk to the firm in several ways. Having a large volume of illiquid assets made it much more difficult for the firm to accomplish three important goals in a difficult financial environment: to raise cash; to hedge risks; or to sell assets to reduce the leverage in its balance sheet.
 
@@ -661,17 +657,17 @@ In a difficult financial environment, it also is important for financial institu
 
 During the declining market of 2007‐08, Lehman suffered from all these problems. Lehman had difficulty selling "sticky" assets and was unable to reduce its balance sheet quickly through typical means. Instead, Lehman expanded the volume of Repo 105 transactions that misleadingly and temporarily reduced its balance sheet solely for the purpose of the firm's public financial reports.184
 
-> (c) Application of Risk Controls to Changed Business Strategy Lehman's principal investments in illiquid assets presented new and increased
+#### Application of Risk Controls to Changed Business Strategy
 
-forms of risk to the firm, but Lehman's management did not recalibrate the firm's pre‐ existing risk controls to ensure that its new investments were properly evaluated, monitored and limited. If anything, to facilitate the new investment strategy, Lehman's management relaxed its controls in several ultimately fateful ways, discussed below. Lehman's senior officers took this tack notwithstanding their periodic statements to
+Lehman's principal investments in illiquid assets presented new and increased forms of risk to the firm, but Lehman's management did not recalibrate the firm's pre‐ existing risk controls to ensure that its new investments were properly evaluated, monitored and limited. If anything, to facilitate the new investment strategy, Lehman's management relaxed its controls in several ultimately fateful ways, discussed below. Lehman's senior officers took this tack notwithstanding their periodic statements to
 
 %%page 66%%
 
 Lehman's Board, the rating agencies, and the SEC that its risk management system was a rigorous independent check on the risks undertaken by its business lines.185
 
-> (i) Stress Testing Exclusions One of Lehman's major risk controls was stress testing. Historically, Lehman's
+#### Stress Testing Exclusions
 
-stress testing had not been designed to encompass the risks posed to the firm by principal investments in real estate and private equity, because those positions previously made up a small portion of Lehman's portfolio.186 Lehman did not revise its stress testing to address its evolving business strategy.
+One of Lehman's major risk controls was stress testing. Historically, Lehman's stress testing had not been designed to encompass the risks posed to the firm by principal investments in real estate and private equity, because those positions previously made up a small portion of Lehman's portfolio.186 Lehman did not revise its stress testing to address its evolving business strategy.
 
 Lehman was required by the SEC187 to conduct some form of regular stress testing on its portfolio to quantify the catastrophic loss it could suffer over a defined period of time.188 Lehman ran a series of stress tests based on 13 or 14 different scenarios.189 Some of the scenarios were historical events, such as the 1987 stock market crash or the 1998 Russian financial crisis, while other scenarios were hypothesized by Lehman's risk managers.190 Lehman's management represented to its external constituents that regular and comprehensive stress tests "were performed to evaluate the potential P&L impact on the Firm's portfolio of abnormal yet plausible market conditions."191 Stress testing was designed to measure "tail risk" – a one in ten year type event.
 
@@ -695,9 +691,9 @@ This exclusion was significant. Experimental stress tests conducted in 2008 show
 
 But these stress tests were conducted long after these assets had been acquired, and they were never shared with Lehman's senior management.204 For a more detailed discussion of Lehman's stress testing, see Appendix 8, Risk Management Organization and Controls.
 
-> (ii) Risk Appetite Limit Increase For Fiscal 2007 Lehman had a series of "risk appetite limits" that it considered the "center of its
+#### Risk Appetite Limit Increase For Fiscal 2007
 
-approach to risk."205 Risk appetite was a measure that aggregated the market risk, credit risk, and event risk faced by Lehman.206 Lehman had an elaborate set of procedures designed to calculate the "risk appetite usage" in each of its business lines, each of its divisions, and for the firm as a whole.207 These risk appetite usage figures were calculated every day.208
+Lehman had a series of "risk appetite limits" that it considered the "center of its approach to risk."205 Risk appetite was a measure that aggregated the market risk, credit risk, and event risk faced by Lehman.206 Lehman had an elaborate set of procedures designed to calculate the "risk appetite usage" in each of its business lines, each of its divisions, and for the firm as a whole.207 These risk appetite usage figures were calculated every day.208
 
 %%page 71%%
 
@@ -715,9 +711,9 @@ These increases in the risk appetite limits were somewhat controversial. The CRO
 
 Increasing the firm‐wide limit to $3.3 billion facilitated a rapid expansion of the firm's risk profile between 2006 and 2007. As described below, within the first few months of fiscal 2007, Lehman quickly used the full amount of the new $3.3 billion risk appetite limit – and then some. In late 2007 and early 2008, Lehman relaxed its risk appetite limits in several other ways, which are described below. For a more detailed discussion of Lehman's risk appetite limits, see Appendix 8, Risk Management Organization and Controls.
 
-> (iii) Decision Not To Enforce Single Transaction Limit In 2006, to facilitate the planned expansion of the leveraged loan business,
+#### Decision Not To Enforce Single Transaction Limit
 
-Lehman's Executive Committee decided to be more flexible with respect to the firm's single transaction limit.220 The single transaction limit was actually two limits – one limit applicable to the notional amount of the expected leveraged loan and a second limit applicable to a calculated amount that Lehman was at risk of losing on the leveraged loan. The limits were partly a function of Lehman's equity. Lehman had previously agreed with the rating agencies that it would adopt a single transaction limit akin to limits previously adopted by commercial banks.221
+In 2006, to facilitate the planned expansion of the leveraged loan business, Lehman's Executive Committee decided to be more flexible with respect to the firm's single transaction limit.220 The single transaction limit was actually two limits – one limit applicable to the notional amount of the expected leveraged loan and a second limit applicable to a calculated amount that Lehman was at risk of losing on the leveraged loan. The limits were partly a function of Lehman's equity. Lehman had previously agreed with the rating agencies that it would adopt a single transaction limit akin to limits previously adopted by commercial banks.221
 
 %%page 74%%
 
@@ -731,9 +727,9 @@ Like the decision to increase the firm‐wide risk appetite limit, the decision 
 
 %%page 76%%
 
-> (d) The Board's Approval of Lehman's Growth Strategy Lehman's Board fully embraced Lehman's growth strategy. In a January 2007
+#### The Board's Approval of Lehman's Growth Strategy
 
-Board meeting, the directors were informed of the large increase in the risk appetite limit for fiscal 2007, and of the firm's intention to expand its footprint in principal investments, and they agreed with Lehman's senior officers that Lehman needed to take more risk in order to compete.231 All of the directors told the Examiner that they agreed with Lehman's growth strategy at the time it was undertaken.232.
+Lehman's Board fully embraced Lehman's growth strategy. In a January 2007 Board meeting, the directors were informed of the large increase in the risk appetite limit for fiscal 2007, and of the firm's intention to expand its footprint in principal investments, and they agreed with Lehman's senior officers that Lehman needed to take more risk in order to compete.231 All of the directors told the Examiner that they agreed with Lehman's growth strategy at the time it was undertaken.232.
 
 Although the periodic materials that the Finance and Risk Committee233 received about the firm's stress testing disclosed that tests were conducted on the firm's "trading portfolio" and "We subject both our trading and our counterparty portfolio to stress tests,"234 management did not inform the Finance and Risk Committee that many of the firm's commercial real estate and private equity investments were excluded from the firm's stress tests.235
 
@@ -749,9 +745,9 @@ The Board also was not told that Lehman's management had decided not to apply th
 
 In sum, during the second half of 2006, Lehman began to pursue a more aggressive principal investment strategy, and it relaxed several risk limits to facilitate that strategy.
 
-> (2) Lehman Doubles Down: Lehman Continues Its Growth Strategy Despite the Onset of the Subprime Crisis Late in the second half of 2006, the first signs of weakness in the subprime
+#### Lehman Doubles Down: Lehman Continues Its Growth Strategy Despite the Onset of the Subprime Crisis
 
-residential mortgage market were apparent.242 For example, delinquency rates on subprime loans, which had hovered near 10% in 2004 and 2005, reached 13% by the end of 2006.243 In addition, after peaking in mid‐2006, housing prices began to decline steeply.244 This decline in prices threatened the subprime mortgage market because the market's health depended on continued price appreciation in housing.245 As a result, beginning in November 2006, significant widening of spreads on non‐investment grade tranches of home equity loans was evident.246 By the spring of 2007, the crisis had advanced to the point that several major subprime lenders had gone bankrupt or been acquired by stronger partners.247
+Late in the second half of 2006, the first signs of weakness in the subprime residential mortgage market were apparent.242 For example, delinquency rates on subprime loans, which had hovered near 10% in 2004 and 2005, reached 13% by the end of 2006.243 In addition, after peaking in mid‐2006, housing prices began to decline steeply.244 This decline in prices threatened the subprime mortgage market because the market's health depended on continued price appreciation in housing.245 As a result, beginning in November 2006, significant widening of spreads on non‐investment grade tranches of home equity loans was evident.246 By the spring of 2007, the crisis had advanced to the point that several major subprime lenders had gone bankrupt or been acquired by stronger partners.247
 
 %%page 79%%
 
@@ -771,9 +767,11 @@ This Section of the Examiner's Report discusses Lehman's actions with respect to
 
 Lehman's officers informed the Board of Directors of the continuing expansion of Lehman's balance sheet and risk‐taking.
 
-> (a) Lehman's Residential Mortgage Business (i) Lehman Decides to Curtail Subprime Originations but Continue to Pursue "Alt‐A" Originations In the second half of 2006, Lehman began to see the first cracks in the subprime
+#### Lehman's Residential Mortgage Business
 
-mortgage market.259 Lehman reacted to these signs by tightening its origination standards, particularly with respect to subprime mortgages,260 but Lehman continued to pursue growth in its mortgage origination business generally, particularly through its Alt‐A originator, Aurora.261 Alt‐A loans are a "somewhat loosely defined category between prime and subprime" that are "designed for borrowers with good credit records who do not meet standard guidelines for documentation requirements."262
+#### Lehman Decides to Curtail Subprime Originations but Continue to Pursue "Alt‐A" Originations
+
+In the second half of 2006, Lehman began to see the first cracks in the subprime mortgage market.259 Lehman reacted to these signs by tightening its origination standards, particularly with respect to subprime mortgages,260 but Lehman continued to pursue growth in its mortgage origination business generally, particularly through its Alt‐A originator, Aurora.261 Alt‐A loans are a "somewhat loosely defined category between prime and subprime" that are "designed for borrowers with good credit records who do not meet standard guidelines for documentation requirements."262
 
 %%page 83%%
 
@@ -817,9 +815,9 @@ To respond to these risks in its Alt‐A portfolio, in March 2007 Lehman underto
 
 %%page 90%%
 
-> (ii) The March 20, 2007 Board Meeting On March 20, 2007, the Mortgage Capital and Fixed Income Divisions gave a
+#### The March 20, 2007 Board Meeting
 
-presentation to Lehman's Board of Directors about the state of Lehman's residential mortgage origination and securitization business in light of the deepening subprime crisis.295 The presentation was given by David N. Sherr, the head of Lehman's Securitized Products Group; Theodore P. Janulis, the head of the Mortgage Capital Division; and Lana Franks Harber, Chief Administrative Officer ("CAO") of the Mortgage Capital Division.296
+On March 20, 2007, the Mortgage Capital and Fixed Income Divisions gave a presentation to Lehman's Board of Directors about the state of Lehman's residential mortgage origination and securitization business in light of the deepening subprime crisis.295 The presentation was given by David N. Sherr, the head of Lehman's Securitized Products Group; Theodore P. Janulis, the head of the Mortgage Capital Division; and Lana Franks Harber, Chief Administrative Officer ("CAO") of the Mortgage Capital Division.296
 
 While preparing to give this presentation, Harber e‐mailed one of her colleagues to inform him about a conversation that she had with Lehman's President, Joseph Gregory, about the presentation:
 
@@ -849,9 +847,9 @@ These losses were tempered by effective hedging strategies through at least 2007
 
 %%page 95%%
 
-> (b) The Explosion in Lehman's Leveraged Loan Business During the first half of fiscal 2007, the high yield market was active,
+#### The Explosion in Lehman's Leveraged Loan Business
 
-notwithstanding the onset of the crisis in the subprime residential mortgage market.318 Like other market actors during this period, Lehman participated in more leveraged finance deals than ever before and entered into deals that were generally bigger than the leveraged finance deals it had done in the past.319 Compared to its competitors, Lehman was the most aggressive lender per dollar of shareholder equity in the first half of 2007.320
+During the first half of fiscal 2007, the high yield market was active, notwithstanding the onset of the crisis in the subprime residential mortgage market.318 Like other market actors during this period, Lehman participated in more leveraged finance deals than ever before and entered into deals that were generally bigger than the leveraged finance deals it had done in the past.319 Compared to its competitors, Lehman was the most aggressive lender per dollar of shareholder equity in the first half of 2007.320
 
 Lehman continued down this path despite the fact that the terms of these deals became less and less favorable over time from an investment banking perspective. Because there was so much competition to finance these loans, sponsors were able to negotiate terms that significantly increased the risk to the banks. For example, according to some estimates, covenant light loans – loans that did not include previously standard covenants requiring the borrower to maintain certain levels of collateral, cash flow, and payment terms – increased from less than 1% of all leveraged loans in 2004 to over 18% by 2007 industry‐wide.321 Lenders such as Lehman also abandoned certain contractual protections (e.g., material adverse change provisions ("MACs"), up‐front syndication, and joint liability) that were previously standard in the leveraged loan industry.322 In some deals, Lehman was the only party to sign the legal documents, even though other banks were intended to commit to the loans; thus, Lehman initially bore all the risk.323 As of March 2007, the rating agencies "perceived loosening of [Lehman's] risk standards – particularly in leveraged lending. . . ."324 The Examiner has not investigated whether the contractual terms of Lehman's leveraged lending transactions were more aggressive than those of its competitors.
 
@@ -863,9 +861,9 @@ Between December 2006 and June 2007, Lehman participated in more than 11 leverag
 
 When the market started to slow, Lehman suddenly found itself with a huge volume of commitments on its books and a risk profile that was well above its high yield business's risk appetite limits. At the end of the second quarter of 2007, approximately $36 billion of contingent commitments remained on Lehman's books.328 FID was almost $20 billion over its net balance sheet limit for the quarter.329 Relatedly, as described below, Lehman soon vastly exceeded its risk appetite limits for the high yield business.
 
-> (i) Relaxation of Risk Controls to Accommodate Growth of Lehman's Leveraged Loans Business To accommodate the growth of Lehman's high yield lending activities, Lehman's
+#### Relaxation of Risk Controls to Accommodate Growth of Lehman's Leveraged Loans Business
 
-management decided to loosen several of the firm's risk controls that otherwise would have limited the firm's ability to engage in many of these deals. Most significantly, as discussed above, Lehman's senior management approved a number of deals that exceeded the firm's single transaction limit.
+To accommodate the growth of Lehman's high yield lending activities, Lehman's management decided to loosen several of the firm's risk controls that otherwise would have limited the firm's ability to engage in many of these deals. Most significantly, as discussed above, Lehman's senior management approved a number of deals that exceeded the firm's single transaction limit.
 
 %%page 98%%
 
@@ -881,7 +879,7 @@ Lehman's management made a conscious decision to exceed the risk appetite limits
 
 > the majority of the trading businesses focus is on revenues, with balance sheet, risk limit, capital or cost implications being a secondary concern. The fact that they haven't heard that those items matter [in] public forums from senior management recently reinforces this revenue oriented behavior implicitly. . . . Example which we've debated for years: was even a topic in [the Turnberry meeting in] FLA: Do we or don't we have a limit on how much HY LBO related lending/commitment exposure we can have at any given time? There has been no real "one firm" outcome to date in my opinion. I'm not the only one who has this view in FID.343
 
-> (c) Internal Opposition to Growth of Leveraged Loans Business
+#### Internal Opposition to Growth of Leveraged Loans Business
 
 Lehman's FID, including Gelband, Kirk, and Umezaki, opposed a number of the leveraged loan deals to which Lehman committed during this period, because they believed that these individual deals were too risky to justify their limited returns.344
 
@@ -905,9 +903,9 @@ Antoncic, the CRO, also opposed many of the transactions and the overall size of
 
 Fuld believed that FID and Gelband were not opposed to Lehman expanding its leveraged loan business.356 Fuld believed that FID simply did not want the leveraged loans on its own balance sheet, because it received credit for only half of the income.357 In contrast, IBD received credit for half of the income but bore no risk.358 Fuld considered Gelband's concerns an "intramural P+L grab," which concerned him.359
 
-> (d) Growth of Lehman's Commercial Real Estate Business at The Start of the Subprime Crisis At the same time that Lehman was rapidly growing its leveraged loan business,
+#### Growth of Lehman's Commercial Real Estate Business at The Start of the Subprime Crisis
 
-Lehman also dramatically increased its commercial real estate transactions. Lehman almost doubled GREG's balance sheet limit from $36.5 billion in the first quarter 2007 to $60.5 billion in the first quarter 2008, with GREG regularly exceeding its balance sheet limits.360 For instance, GREG exceeded its balance sheet limit by approximately $600 million in the third quarter 2007 ($56.6 billion balance sheet usage); by approximately $3.8 billion in the fourth quarter 2007 ($64.3 billion balance sheet usage); and by approximately $5.2 billion in the first quarter 2008 ($65.7 billion balance sheet usage).361
+At the same time that Lehman was rapidly growing its leveraged loan business, Lehman also dramatically increased its commercial real estate transactions. Lehman almost doubled GREG's balance sheet limit from $36.5 billion in the first quarter 2007 to $60.5 billion in the first quarter 2008, with GREG regularly exceeding its balance sheet limits.360 For instance, GREG exceeded its balance sheet limit by approximately $600 million in the third quarter 2007 ($56.6 billion balance sheet usage); by approximately $3.8 billion in the fourth quarter 2007 ($64.3 billion balance sheet usage); and by approximately $5.2 billion in the first quarter 2008 ($65.7 billion balance sheet usage).361
 
 %%page 104%%
 
@@ -923,9 +921,9 @@ GREG's balance sheet growth was largely the result of a series of large transact
 
 Because Lehman encountered subsequent difficulties in selling or securitizing portions of these deals, many of the above transactions remained among the largest exposures on Lehman's balance sheet as Lehman's financial condition deteriorated well into 2008.374
 
-> (i) Relaxation of Risk Controls to Accommodate Growth of Lehman's Commercial Real Estate Business As with the growth of the leveraged loan business, the growth of the commercial
+#### Relaxation of Risk Controls to Accommodate Growth of Lehman's Commercial Real Estate Business
 
-real estate business was facilitated first by an increase in the risk limits and then by a decision to exceed those limits. In a May 9, 2006 e‐mail to Umezaki, Paul A. Hughson,
+As with the growth of the leveraged loan business, the growth of the commercial real estate business was facilitated first by an increase in the risk limits and then by a decision to exceed those limits. In a May 9, 2006 e‐mail to Umezaki, Paul A. Hughson,
 
 %%page 106%%
 
@@ -937,17 +935,19 @@ Lehman's risk appetite limit for the real estate business increased from $600 mi
 
 Hughson that Lehman's commercial real estate group "[could not] keep adding deals without a plan to reduce the risk somehow," and that there needed to be a discussion with Nagioff "as [to ask whether he could] cut risk in other areas (HY?) to free up some room or [whether he would] be willing to sit out some opportunities."379 Management ultimately decided that GREG would not be held to any risk appetite limits.380
 
-> (ii) Internal Opposition to Growth of Commercial Real Estate Business As with the leveraged loan business, some Lehman executives voiced concerns
+#### Internal Opposition to Growth of Commercial Real Estate Business
 
-about the risk associated with Lehman's large concentration of commercial real estate positions on its balance sheet. But, again as with the leveraged loan business, Lehman's management decided to continue to grow the commercial real estate business notwithstanding those warnings, "because that was the strategic imperative of the firm."381 For example, on May 7, 2007, Goodman e‐mailed Antoncic about the Archstone transaction discussed below and said that O'Meara, then the CFO, "ha[d] significant concerns regarding overall size of [the real estate] book and how much of the firm's equity [was] tied up in such bridge equity deals."382 Lehman's risk managers were also concerned with the real estate bridge equity deals in which Lehman was participating.383 The bridge equity positions were considered particularly risky because Lehman's balance sheet would be directly affected by the declining market values of the underlying real estate if the firm failed to sell its bridge equity positions as planned.384
+As with the leveraged loan business, some Lehman executives voiced concerns about the risk associated with Lehman's large concentration of commercial real estate positions on its balance sheet. But, again as with the leveraged loan business, Lehman's management decided to continue to grow the commercial real estate business notwithstanding those warnings, "because that was the strategic imperative of the firm."381 For example, on May 7, 2007, Goodman e‐mailed Antoncic about the Archstone transaction discussed below and said that O'Meara, then the CFO, "ha[d] significant concerns regarding overall size of [the real estate] book and how much of the firm's equity [was] tied up in such bridge equity deals."382 Lehman's risk managers were also concerned with the real estate bridge equity deals in which Lehman was participating.383 The bridge equity positions were considered particularly risky because Lehman's balance sheet would be directly affected by the declining market values of the underlying real estate if the firm failed to sell its bridge equity positions as planned.384
 
 %%page 108%%
 
 Nevertheless, by late 2007, Lehman acquired a number of substantial bridge equity positions, both in the United States and overseas, including: $2.3 billion in Archstone;385 $574 million in ProLogis/Dermody portfolio;386 €475 million ($655 million) in Coeur Defense;387 $221 million in EOP Austin;388 and $195 million in the acquisition of the 200 Fifth Avenue building.389 As a result of these acquisitions, real estate bridge equity went from a negligible business to a multi‐billion dollar exposure in approximately 18 months.
 
-> (iii) Archstone a. Lehman's Commitment The enormous growth of Lehman's commercial real estate balance sheet
+#### Archstone
 
-culminated in Lehman's commitment to participate in an approximately $22 billion joint venture with Tishman Speyer for the acquisition of the publicly‐held Archstone REIT.390 Including units under construction, Archstone owned over 88,000 apartments, which were spread across more than 340 communities within the United States.391 Mark Walsh was the driving force behind this deal, but Fuld and Gregory strongly supported it as well.392
+#### Lehman's Commitment
+
+The enormous growth of Lehman's commercial real estate balance sheet culminated in Lehman's commitment to participate in an approximately $22 billion joint venture with Tishman Speyer for the acquisition of the publicly‐held Archstone REIT.390 Including units under construction, Archstone owned over 88,000 apartments, which were spread across more than 340 communities within the United States.391 Mark Walsh was the driving force behind this deal, but Fuld and Gregory strongly supported it as well.392
 
 %%page 109%%
 
@@ -967,9 +967,9 @@ Lehman planned to sell 50% of its remaining mezzanine debt and bridge equity pos
 
 %%page 112%%
 
-> b. Risk Management of Lehman's Archstone Commitment Archstone was repeatedly considered by both the Commitment Committee and
+#### Risk Management of Lehman's Archstone Commitment
 
-Executive Committee.407 These committees mandated significant alterations to the deal structure, including, most importantly, requiring Walsh to bring in at least one partner – ultimately BofA – to reduce the size of Lehman's commitment.408
+Archstone was repeatedly considered by both the Commitment Committee and Executive Committee.407 These committees mandated significant alterations to the deal structure, including, most importantly, requiring Walsh to bring in at least one partner – ultimately BofA – to reduce the size of Lehman's commitment.408
 
 Notwithstanding Archstone's consideration by the senior management of the firm, Lehman's risk managers said that they had minimal input in the decision to acquire Archstone.409 As a result, despite the extraordinary size and risk of Lehman's commitment to the transaction, Lehman's management did not conduct quantitative analyses of Lehman's exposure in advance of the risk Lehman was undertaking.410 For example, it does not appear that Lehman systematically analyzed the effect that the commitment would have on the firm's risk appetite levels, or conducted stress testing on the firm's burgeoning commercial real estate exposures, in advance of committing to the transaction. Because of the extraordinary size of the transaction, however – including especially an unprecedented bridge equity commitment – it was clear from the beginning that the Archstone commitment would cause Lehman to exceed its risk appetite limits.411
 
@@ -981,9 +981,9 @@ The Office of Thrift Supervision ("OTS") criticized Lehman's decision to enter i
 
 By contrast, the SEC told the Examiner that it was aware of the risk appetite limit excesses, and that it did not second‐guess Lehman's business decisions so long as the limit excesses were properly escalated within Lehman's management.416
 
-> (e) Nagioff's Replacement of Gelband as Head of FID On May 1, 2007, Lehman announced that Gelband, the then‐acting Global Head
+#### Nagioff's Replacement of Gelband as Head of FID
 
-of FID, had "decided to leave the Firm to pursue other interests," and that Roger Nagioff would assume the top FID position at Lehman.417 Internally, Lehman announced that the change was based on "philosophical differences" among Fuld, Gregory, and Gelband as to the direction to take to grow the business.418
+On May 1, 2007, Lehman announced that Gelband, the then‐acting Global Head of FID, had "decided to leave the Firm to pursue other interests," and that Roger Nagioff would assume the top FID position at Lehman.417 Internally, Lehman announced that the change was based on "philosophical differences" among Fuld, Gregory, and Gelband as to the direction to take to grow the business.418
 
 Gelband was removed from the position for several reasons, including that he was not aggressive enough in growing the business in accordance with Fuld's longterm revenue targets.419 Fuld and Gregory also clashed with Gelband with respect to growing the firm's energy business and its leveraged loan business.420
 
@@ -993,9 +993,9 @@ Fuld and Gregory chose Nagioff, then the CEO of Lehman Europe, to succeed Gelban
 
 %%page 116%%
 
-> (f) The Board of Directors' Awareness of Lehman's Increasing Risk Profile In a June 19, 2007 Board meeting, O'Meara presented the second quarter results
+#### The Board of Directors' Awareness of Lehman's Increasing Risk Profile
 
-to the Board.423 Lehman's management generally disclosed the firm's increased risk profile as well as the recently concluded Archstone deal. For example, O'Meara reported that the firm‐wide quarterly average risk appetite usage for the second quarter of 2007 was $2.6 billion against a limit of $3.3 billion,424 and the Board had an extended discussion concerning the fact that the increased risk usage was spread across the firm.425 In June 2007, however, Lehman's daily risk systems reflected that the firm was almost at the $3.3 billion risk appetite limit, not including the Archstone transaction – well above the $2.6 billion quarterly average.426
+In a June 19, 2007 Board meeting, O'Meara presented the second quarter results to the Board.423 Lehman's management generally disclosed the firm's increased risk profile as well as the recently concluded Archstone deal. For example, O'Meara reported that the firm‐wide quarterly average risk appetite usage for the second quarter of 2007 was $2.6 billion against a limit of $3.3 billion,424 and the Board had an extended discussion concerning the fact that the increased risk usage was spread across the firm.425 In June 2007, however, Lehman's daily risk systems reflected that the firm was almost at the $3.3 billion risk appetite limit, not including the Archstone transaction – well above the $2.6 billion quarterly average.426
 
 The inclusion of the Archstone transaction was certain to put Lehman well over both its firm‐wide risk appetite limit and its limit applicable to the real estate business.427 While the Archstone transaction was discussed at the June meeting,428
 
@@ -1003,9 +1003,9 @@ The inclusion of the Archstone transaction was certain to put Lehman well over b
 
 Lehman's management did not inform the Board until October 15, 2007 that Lehman had exceeded the firm‐wide risk appetite limit for more than four months.
 
-> (3) Early Warnings: Risk Limit Overages, Funding Concerns, and the Deepening Subprime Crisis From May to August 2007, the financial crisis that had previously been contained
+#### Early Warnings: Risk Limit Overages, Funding Concerns, and the Deepening Subprime Crisis
 
-to the subprime residential mortgage market began to spread to other markets, including the commercial real estate and credit markets, where Lehman was particularly active. These concerns escalated in June and July 2007, when two Bear Stearns hedge funds imploded, leading to panic in the credit markets and concerns more generally that the subprime crisis would spill into the broader economy.429 SEC Chairman Christopher Cox commented that "[o]ur concerns are with any potential systemic fallout."430
+From May to August 2007, the financial crisis that had previously been contained to the subprime residential mortgage market began to spread to other markets, including the commercial real estate and credit markets, where Lehman was particularly active. These concerns escalated in June and July 2007, when two Bear Stearns hedge funds imploded, leading to panic in the credit markets and concerns more generally that the subprime crisis would spill into the broader economy.429 SEC Chairman Christopher Cox commented that "[o]ur concerns are with any potential systemic fallout."430
 
 As a consequence of this gathering storm, in the first two weeks of July 2007, S&P placed $7.3 billion of residential mortgage related securities on negative ratings watch and announced a review of collateralized debt obligations ("CDOs") exposed to residential collateral; Moody's downgraded $5 billion of subprime mortgage bonds and placed 184 mortgage backed CDO tranches on downgrade review; and Fitch placed 33 classes of structured finance CDOs on credit watch negative.431 By the first week of August 2007, Germany's IKB announced major subprime‐related losses and required a bailout, American Home Mortgage filed for Chapter 11 bankruptcy, and the French bank BNP Paribas froze redemptions on three of its funds, citing an inability to value them in the current market.432
 
@@ -1017,9 +1017,9 @@ This Section discusses the concerns of Lehman's managers about the state of the 
 
 %%page 119%%
 
-> (a) Nagioff and Kirk Try to Limit Lehman's High Yield Business Nagioff began to discuss rolling back the growth of the firm's leveraged loan
+#### Nagioff and Kirk Try to Limit Lehman's High Yield Business
 
-business as soon as he became head of FID on May 2, 2007, but this decision was not fully effectuated until August 2007, by which time Lehman's leveraged loan exposure had grown to $35.8 billion as a result of $25.4 billion in new commitments.433
+Nagioff began to discuss rolling back the growth of the firm's leveraged loan business as soon as he became head of FID on May 2, 2007, but this decision was not fully effectuated until August 2007, by which time Lehman's leveraged loan exposure had grown to $35.8 billion as a result of $25.4 billion in new commitments.433
 
 Nagioff learned about the size of Lehman's leveraged loan exposures from Kirk, then Head of Global Credit Products.434 Lehman's leveraged loan business was "so gargantuan – the exposures jumped out at [him]."435 Nagioff and Kirk believed that this was "banker business, not broker business," which Lehman did not have the balance sheet to support.436 Nagioff also thought that the chance of a sudden market downturn was high, and that Lehman was making relatively small profits for taking increasingly large and illiquid risks.437 Nagioff was concerned because the tail risk of Lehman's leveraged loan business totaled billions of dollars.438
 
@@ -1047,9 +1047,9 @@ In the two months between Nagioff's conversation with Fuld on May 31 and the slo
 
 Nagioff was concerned that his efforts were too little too late: "Sadly in spite of killing BCE which was a 5!bn 'KKR disaster I am probably 3 months too late in the job….a big deal got pulled today and others are being restructured down….we are probably going to get punished for our stupidity."454 Two days later, Nagioff also wrote: "I now have the thing under control . . . if I had the job 6 months earlier we would not be where we are . . . let's hope it is only scratches."455
 
-> (b) July‐August 2007 Concerns Regarding Lehman's Ability to Fund Its Commitments By July 2007, after the Bear Stearns' funds' implosion, some Lehman executives
+#### July‐August 2007 Concerns Regarding Lehman's Ability to Fund Its Commitments
 
-were concerned that Lehman might not be able to fund all of its commitments.456 For example, Lehman had a maximum cumulative outflow funding model designed to ensure that Lehman had sufficient cash sources to meet the expected cash outflows in a stressed market environment.457 Under that model, in July 2007, the firm's "[L]iquidity Pool one year forward position [was] short $(0.4) billion."458
+By July 2007, after the Bear Stearns' funds' implosion, some Lehman executives were concerned that Lehman might not be able to fund all of its commitments.456 For example, Lehman had a maximum cumulative outflow funding model designed to ensure that Lehman had sufficient cash sources to meet the expected cash outflows in a stressed market environment.457 Under that model, in July 2007, the firm's "[L]iquidity Pool one year forward position [was] short $(0.4) billion."458
 
 %%page 124%%
 
@@ -1085,9 +1085,9 @@ Faced with this prospect, in early August 2007, Kirk, Lowitt and Nagioff decided
 
 At about the same time, the leveraged loan market generally collapsed, and new issues slowed to a trickle in the third quarter.478 Lehman's leveraged loan commitments thus halted in early August 2007, three months after Nagioff first concluded that Lehman's exposure was already "gargantuan," and two months after Nagioff's first conversation with Fuld about the issue.
 
-> (c) Lehman Delays the Archstone Closing Because of the funding concerns, Lehman delayed the closing on Archstone from
+#### Lehman Delays the Archstone Closing
 
-the originally anticipated August 2007 closing date to October 5, 2007.479 As the market crisis escalated in June and July 2007, Lehman attempted to syndicate its Archstone debt. But by late July 2007, the institutional market for commercial real estate was "virtually closed,"480 and Lehman's attempts at selling Archstone bridge equity largely failed.481
+Because of the funding concerns, Lehman delayed the closing on Archstone from the originally anticipated August 2007 closing date to October 5, 2007.479 As the market crisis escalated in June and July 2007, Lehman attempted to syndicate its Archstone debt. But by late July 2007, the institutional market for commercial real estate was "virtually closed,"480 and Lehman's attempts at selling Archstone bridge equity largely failed.481
 
 %%page 129%%
 
@@ -1105,9 +1105,9 @@ When Secretary of the Treasury Henry M. Paulson, Jr. learned late in 2007 that L
 
 %%page 131%%
 
-> (d) Lehman Increases the Risk Appetite Limit to Accommodate the Additional Risk Attributable to the Archstone Transaction The risk in Lehman's book was dramatically increasing during 2007.492 Lehman's
+#### Lehman Increases the Risk Appetite Limit to Accommodate the Additional Risk Attributable to the Archstone Transaction
 
-management reacted to the increasing risk appetite usage by increasing its limit amounts.
+The risk in Lehman's book was dramatically increasing during 2007.492 Lehman's management reacted to the increasing risk appetite usage by increasing its limit amounts.
 
 Although Lehman ordinarily included the risk appetite usage attributable to a transaction immediately after entering into the commitment for the transaction, Lehman did not include the very substantial increase in risk appetite usage attributable to Archstone in the risk appetite calculation for almost three months.493 At least one other real estate bridge equity transaction, Dermody/ProLogis, also was not included in risk appetite until that date.494
 
@@ -1127,9 +1127,9 @@ Lehman raised its firm‐wide risk appetite limit from $3.3 billion to $3.5 bill
 
 Archstone and Dermody/ProLogis bridge equity positions in the firm's risk appetite usage calculation, Goldfarb e‐mailed O'Meara and Antoncic: "I thought we increased [risk] appetite to reflect YTD performance?"502 Antoncic replied that they "did not close the loop on this" because of concerns related to a fourth‐quarter slowdown in revenues.503 Under the methodology for calculating the risk appetite limit, a slowdown in revenues would have reduced Lehman's ability to take risk. Similarly, in an October 2007 CSE meeting, Goodman informed the SEC that Lehman had increased its risk appetite limit, but "admitted that they probably shouldn't have raised the limit to $3.5b when they did, given that they were almost there and there wasn't enough headroom."504
 
-> (e) Cash Capital Concerns ALCO continued to have serious concerns about Lehman's cash capital and
+#### Cash Capital Concerns
 
-liquidity position. Until the final week of September 2007, Lehman did not expect its ending cash capital positions for the months of September, October, and November to meet the $2 billion minimum requirement.505 The average ending cash capital positions for September, October, and November 2007 were projected to be $0.05 billion, ‐$2.15 billion and ‐$1.75 billion respectively.506 The committee projected negative month end cash capital positions for the remainder of the year.507
+ALCO continued to have serious concerns about Lehman's cash capital and liquidity position. Until the final week of September 2007, Lehman did not expect its ending cash capital positions for the months of September, October, and November to meet the $2 billion minimum requirement.505 The average ending cash capital positions for September, October, and November 2007 were projected to be $0.05 billion, ‐$2.15 billion and ‐$1.75 billion respectively.506 The committee projected negative month end cash capital positions for the remainder of the year.507
 
 %%page 135%%
 
@@ -1151,19 +1151,19 @@ The dominant cause for the rapid decline in Lehman's equity position was a shift
 
 Thereafter, Lehman's cash capital and equity adequacy position temporarily improved. The improvement was the result of several factors. For one thing, the SEC changed the method of calculating the total capital ratio, and, as a result, Lehman picked up several percentage points and saved "roughly $4 billion in capital charges on average every month."525 In addition, Lehman was able to sell some of its leveraged loan positions, thereby raising cash capital and reducing its illiquid holdings.526
 
-> (f) Lehman's Termination of Its Residential Mortgage Originations During this same period, mid‐August 2007, Lehman decided to close BNC and
+#### Lehman's Termination of Its Residential Mortgage Originations
 
-cease subprime originations entirely.527 The anticipated turn in the residential mortgage market still had not arrived, and management could not justify Lehman's continued exposure to liability on the origination of subprime mortgages.528 In January 2008, Lehman's Aurora subsidiary suspended its origination through wholesale and correspondent channels, which represented the bulk of the program.529 Lehman had curtailed the flow of Mortgage Maker originations approximately five months earlier.530
+During this same period, mid‐August 2007, Lehman decided to close BNC and cease subprime originations entirely.527 The anticipated turn in the residential mortgage market still had not arrived, and management could not justify Lehman's continued exposure to liability on the origination of subprime mortgages.528 In January 2008, Lehman's Aurora subsidiary suspended its origination through wholesale and correspondent channels, which represented the bulk of the program.529 Lehman had curtailed the flow of Mortgage Maker originations approximately five months earlier.530
 
 %%page 139%%
 
-> (g) September, October, and November 2007 Meetings of Board of Directors Lehman had a series of Board meetings in the fall of 2007. At these meetings,
+#### September, October, and November 2007 Meetings of Board of Directors
 
-Lehman's management continued to report on the firm's elevated risk profile and concentration of real estate and leveraged loan risk, but did not present the Board with additional negative information concerning the firm's risk and liquidity profile.
+Lehman had a series of Board meetings in the fall of 2007. At these meetings, Lehman's management continued to report on the firm's elevated risk profile and concentration of real estate and leveraged loan risk, but did not present the Board with additional negative information concerning the firm's risk and liquidity profile.
 
-> (i) Risk Appetite Disclosures At the September 11, 2007 Finance and Risk Committee meeting, the Finance and
+#### Risk Appetite Disclosures
 
-Risk Committee was shown a presentation disclosing that the firm's average risk appetite usage rose from $2.12 billion in November 2006 to $3.27 billion in August 2007.531 In the presentation, the Committee was informed that while risk appetite usage had increased, Lehman still remained within its risk appetite limit.532 The Committee was informed of the recent increase in the risk appetite limit from $3.3 billion to $3.5 billion.533
+At the September 11, 2007 Finance and Risk Committee meeting, the Finance and Risk Committee was shown a presentation disclosing that the firm's average risk appetite usage rose from $2.12 billion in November 2006 to $3.27 billion in August 2007.531 In the presentation, the Committee was informed that while risk appetite usage had increased, Lehman still remained within its risk appetite limit.532 The Committee was informed of the recent increase in the risk appetite limit from $3.3 billion to $3.5 billion.533
 
 %%page 140%%
 
@@ -1217,7 +1217,7 @@ Firm‐wide Usage Firm‐wide Limit
 
 > Source: LehmanRisk Summary Note: Dates may reflect actual date, or the first business day after the event.
 
-(ii) Leveraged Loan Disclosures
+#### Leveraged Loan Disclosures
 
 Both the Finance and Risk Committee and the full Board were apprised of
 
@@ -1235,9 +1235,9 @@ The Board was not informed that the risk appetite usage of Lehman's leveraged lo
 
 %%page 147%%
 
-> (iii) Leverage Ratios and Balance Sheet Disclosures At these September 11, 2007 meetings, O'Meara also reported to the Finance and
+#### Leverage Ratios and Balance Sheet Disclosures
 
-Risk Committee that Lehman's net leverage ratio was in line with Lehman's peers.558 Management's presentation regarding the net leverage metric noted:
+At these September 11, 2007 meetings, O'Meara also reported to the Finance and Risk Committee that Lehman's net leverage ratio was in line with Lehman's peers.558 Management's presentation regarding the net leverage metric noted:
 
 > In the past, leverage was the key measure of equity adequacy. Between 2003 and 2006 we significantly reduced leverage. Low leverage was positively viewed by rating agencies and contributed to our 2005 upgrades. In 2006 and 2007, we worked with the regulatory and rating agencies to implement more accurate adequacy measures. As a result, we are comfortable with allowing our leverage to increase.559
 
@@ -1247,9 +1247,9 @@ O'Meara did not disclose the firm's use of Repo 105 transactions to manage its n
 
 %%page 148%%
 
-> (iv) Liquidity and Capital Disclosures Tonucci reported to the Board's Finance and Risk Committee that Lehman had
+#### Liquidity and Capital Disclosures
 
-record levels of liquidity and cash capital surplus at the end of the third quarter of 2007.562 He also reviewed Lehman's "liquidity pool year‐to‐date and over the last four years, noting the conservative nature of the firm's liquidity pool as compared to its peers, which [had] been recognized by the leading credit rating agencies."563
+Tonucci reported to the Board's Finance and Risk Committee that Lehman had record levels of liquidity and cash capital surplus at the end of the third quarter of 2007.562 He also reviewed Lehman's "liquidity pool year‐to‐date and over the last four years, noting the conservative nature of the firm's liquidity pool as compared to its peers, which [had] been recognized by the leading credit rating agencies."563
 
 The materials presented to the Board showed that Lehman had a third quarter "record" liquidity pool of $36 billion (an increase from $25.7 billion at the end of the second quarter 2007) and a cash capital position of $8.1 billion (an increase from $2.5 billion at the end of the second quarter) against a $2 billion policy minimum.564 The materials stated that Lehman did not project the need to tap the capital markets because Lehman had "significant liquidity to fund these activities."565 Management similarly emphasized to the full Board Lehman's conservative approach to funding its balance sheet and strong liquidity pool, but acknowledged that for the last two months liquidity had been more challenging to maintain.566
 
@@ -1261,9 +1261,9 @@ On September 20, 2007, Lehman issued a press release announcing that O'Meara wou
 
 %%page 150%%
 
-> (4) Late Reactions: Lehman Slowly Exits Its Illiquid Real Estate Investments The last quarter of 2007 and first quarter of 2008 – from September 2007 through
+#### Late Reactions: Lehman Slowly Exits Its Illiquid Real Estate Investments
 
-February 2008 – was a crucial juncture for Lehman. Lehman's overall balance sheet had grown by 37% during 2007,571 and much of the growth was concentrated in illiquid holdings that Lehman was already unable to sell without incurring significant losses.572 As a result, without the accounting device of Repo 105 transactions, FID was already well over its balance sheet limit of approximately $230 billion by $18 billion.573 Indeed, Lehman had been over its risk limits for the prior six months.574 In hindsight, this quarter may have been Lehman's final opportunity to take decisive action to improve its balance sheet before the near collapse of Bear Stearns changed the rules of the road for Lehman and all of its peer investment banks.
+The last quarter of 2007 and first quarter of 2008 – from September 2007 through February 2008 – was a crucial juncture for Lehman. Lehman's overall balance sheet had grown by 37% during 2007,571 and much of the growth was concentrated in illiquid holdings that Lehman was already unable to sell without incurring significant losses.572 As a result, without the accounting device of Repo 105 transactions, FID was already well over its balance sheet limit of approximately $230 billion by $18 billion.573 Indeed, Lehman had been over its risk limits for the prior six months.574 In hindsight, this quarter may have been Lehman's final opportunity to take decisive action to improve its balance sheet before the near collapse of Bear Stearns changed the rules of the road for Lehman and all of its peer investment banks.
 
 Before Bear Stearns' near collapse in March 2008, Lehman had two basic ways of reducing its leverage: (1) selling assets, to reduce the numerator in the net leverage formula; or (2) raising equity, to increase the denominator in the net leverage formula.
 
@@ -1279,9 +1279,9 @@ Fuld told the Examiner that he decided after the December 2007 holiday season to
 
 During the first quarter of 2008, Fuld also decided that Lehman would not raise equity unless it could do so at a premium.581 While many of Lehman's competitors entered into strategic transactions to raise equity in late 2007 and early 2008,582 Lehman did not want to signal weakness by raising equity at a discount,583 and, unlike its peers, had not yet suffered losses that might have signaled a more urgent need for such action.
 
-> (a) Fiscal 2008 Risk Appetite Limit Increase In October 2007, the firm‐wide risk appetite usage continued to increase, and for
+#### Fiscal 2008 Risk Appetite Limit Increase
 
-several days was more than $500 million over the limit; the limit excess peaked at almost 22% of the limit amount.584 The limit excess was partly the result of Lehman's decision to enter into several significant commercial real estate and leveraged loan transactions in May, June, and July 2007, which were gradually being funded and thus increasing Lehman's risk appetite usage; partly the result of Lehman's inability to securitize or syndicate those and other transactions; and partly the result of increased volatility in the market.585
+In October 2007, the firm‐wide risk appetite usage continued to increase, and for several days was more than $500 million over the limit; the limit excess peaked at almost 22% of the limit amount.584 The limit excess was partly the result of Lehman's decision to enter into several significant commercial real estate and leveraged loan transactions in May, June, and July 2007, which were gradually being funded and thus increasing Lehman's risk appetite usage; partly the result of Lehman's inability to securitize or syndicate those and other transactions; and partly the result of increased volatility in the market.585
 
 %%page 153%%
 
@@ -1293,9 +1293,9 @@ The 2008 risk appetite limit also was based on a very aggressive projected reven
 
 %%page 154%%
 
-> (b) January 2008 Meeting of Board of Directors On January 29, 2008, the Finance and Risk Committee and the entire Board met.
+#### January 2008 Meeting of Board of Directors
 
-During these meetings, management discussed the difficult market, but believed that it presented opportunities for Lehman to grow.591 Lehman's senior officers told the Board: "[The market environment] presents an opportunity for the firm to pursue a countercyclical growth strategy, similar to what it did during the 2001‐2002 downturn, to improve its competitive position and, over time, generate superior returns for our shareholders."592
+On January 29, 2008, the Finance and Risk Committee and the entire Board met. During these meetings, management discussed the difficult market, but believed that it presented opportunities for Lehman to grow.591 Lehman's senior officers told the Board: "[The market environment] presents an opportunity for the firm to pursue a countercyclical growth strategy, similar to what it did during the 2001‐2002 downturn, to improve its competitive position and, over time, generate superior returns for our shareholders."592
 
 Management provided the Finance and Risk Committee with an overview of Lehman's net assets and leverage levels and told the Committee that Lehman's balance sheet continued to grow across almost all asset classes and businesses.593 At the full Board meeting, Kaufman reported to the Board on Lehman's balance sheet growth and Lehman's year end increase in net leverage.594 Callan discussed Lehman's target leverage ratio with the Board and said that it would come back down.595
 
@@ -1307,15 +1307,15 @@ At these January meetings, Lehman's management also recommended the new risk app
 
 %%page 156%%
 
-> (c) Executive Turnover In January 2008, Nagioff decided for personal reasons to resign as global head of
+#### Executive Turnover
 
-FID.603 In addition, that month, Alex Kirk, co‐chief operating officer of FID since October 2007, left Lehman. Kirk agreed with Fuld that he would leave Lehman at about the same time.604
+In January 2008, Nagioff decided for personal reasons to resign as global head of FID.603 In addition, that month, Alex Kirk, co‐chief operating officer of FID since October 2007, left Lehman. Kirk agreed with Fuld that he would leave Lehman at about the same time.604
 
 %%page 157%%
 
-> (d) Commercial Real Estate Sell‐Off: Too Little, Too Late Although Lehman ultimately took aggressive action to reduce its balance sheet
+#### Commercial Real Estate Sell‐Off: Too Little, Too Late
 
-and thus its net leverage, Lehman's management did not make a firm‐wide decision to reduce these figures until well after the beginning of the risk appetite and balance sheet limit overages in mid‐2007. Moreover, even after Lehman's senior officers directed the business lines to reduce their balance sheets, it took several months for the reduction to be effectuated, particularly with respect to Lehman's illiquid holdings of commercial real estate assets.
+Although Lehman ultimately took aggressive action to reduce its balance sheet and thus its net leverage, Lehman's management did not make a firm‐wide decision to reduce these figures until well after the beginning of the risk appetite and balance sheet limit overages in mid‐2007. Moreover, even after Lehman's senior officers directed the business lines to reduce their balance sheets, it took several months for the reduction to be effectuated, particularly with respect to Lehman's illiquid holdings of commercial real estate assets.
 
 Although the firm persistently was over its balance sheet limits, and had been over the risk appetite limit since about June 1, 2007, the first written indication that the Risk Committee considered the risk limit overage was in October 2007.605 On October 2, 2007, O'Meara noted in an e‐mail that the Risk Committee agreed to "temporarily approve the Risk Appetite limit overage, due to the unusual circumstances in the marketplace today / recently, especially concerning Leveraged Finance and Real Estate businesses."606 Thus, Lehman's management decided not to reduce its risk position aggressively at that time.
 
@@ -1343,9 +1343,9 @@ Some witnesses believed that GREG was not aggressive enough in selling off its p
 
 Regardless of the reasons for Lehman's slow reaction to its oversized commercial real estate holdings, the fact remains that Lehman's balance sheet did not decline until the end of the second quarter of 2008, after Bear Stearns had already nearly collapsed.
 
-> (e) Lehman's Compensation Practices The Examiner considered, in the course of determining whether the officers and
+#### Lehman's Compensation Practices
 
-directors of Lehman breached their fiduciary duties, the impact that Lehman's compensation practices may have had on Lehman's conduct such as the expansion into potentially highly profitable, but riskier, lines of business, as discussed above.
+The Examiner considered, in the course of determining whether the officers and directors of Lehman breached their fiduciary duties, the impact that Lehman's compensation practices may have had on Lehman's conduct such as the expansion into potentially highly profitable, but riskier, lines of business, as discussed above.
 
 Lehman's compensation policy was designed, in theory, to penalize excessive risk taking. At times, FID businesses that exceeded balance sheet limits and breached risk limits faced diminution of their compensation pool.630 At other times, FID used a "Compensation Scorecard" that included risk‐weighted metrics such as return on risk equity and return on net balance sheet to determine compensation pool allocations.631 The FID Compensation Committee assessed performance against VaR, balance sheet usage, and risk appetite.632
 
@@ -1371,9 +1371,11 @@ Lehman's senior officers – Fuld and Gregory in particular – had sizeable hol
 
 %%page 164%%
 
-> (1) The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty of Care by Failing to Observe Lehman's Risk Management Policies and Procedures (a) Legal Standard To assert a colorable duty of care claim concerning corporate conduct, the
+#### The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty of Care by Failing to Observe Lehman's Risk Management Policies and Procedures
 
-plaintiff must first overcome the protection of the business judgment rule. Under the traditional business judgment rule as it applies to directors, there is a "presumption that in making a business decision the directors of a corporation acted on an informed basis, in good faith and in the honest belief that the action taken was in the best interests of the company."636 Thus, "a court will not substitute its judgment for that of the board if the latter's decision can be 'attributed to any rational business purpose.'"637
+#### Legal Standard
+
+To assert a colorable duty of care claim concerning corporate conduct, the plaintiff must first overcome the protection of the business judgment rule. Under the traditional business judgment rule as it applies to directors, there is a "presumption that in making a business decision the directors of a corporation acted on an informed basis, in good faith and in the honest belief that the action taken was in the best interests of the company."636 Thus, "a court will not substitute its judgment for that of the board if the latter's decision can be 'attributed to any rational business purpose.'"637
 
 The business judgment rule has rarely been applied to officers. However, based upon a recent decision by the Delaware Supreme Court638 holding that the fiduciary duties of directors and officers are identical, the Examiner concludes that Delaware courts will likely hold, at a minimum, that officers are protected by the business judgment rule whenever they act under an express delegation of authority from the Board; the Delaware courts are also likely to hold that officers are protected by the rule whenever they act within the scope of their discretion even if not pursuant to express delegation by the Board.639
 
@@ -1387,9 +1389,9 @@ Overcoming the business judgment rule and establishing gross negligence are part
 
 %%page 166%%
 
-> (b) Background The Examiner finds insufficient evidence to support a claim that any Lehman
+#### Background
 
-officer breached the fiduciary duty of care in connection with managing the risks associated with the more aggressive business strategy Lehman adopted in 2006.
+The Examiner finds insufficient evidence to support a claim that any Lehman officer breached the fiduciary duty of care in connection with managing the risks associated with the more aggressive business strategy Lehman adopted in 2006.
 
 As mentioned above, Lehman's business strategy in 2006 and 2007 was premised on using more of its balance sheet to increase its principal investments. In addition to the risks in the proprietary investments themselves, many of the firm's proprietary investments entailed a commitment by Lehman to a much larger amount of debt or equity than Lehman ultimately expected to retain for itself. Although these bridge equity and bridge debt transactions were risky, Lehman's management decided to engage in these transactions because they were profitable in their own right, because they helped Lehman participate in more and larger deals, and because they helped Lehman to develop long‐term client relationships.
 
@@ -1421,9 +1423,9 @@ Moreover, a breach of the duty of care claim would rely heavily on the testimony
 
 %%page 171%%
 
-> (i) Countercyclical Growth Strategy with Respect to Residential Mortgage Origination The Examiner does not find that Lehman's countercyclical growth strategy with
+#### Countercyclical Growth Strategy with Respect to Residential Mortgage Origination
 
-respect to its residential mortgage origination gives rise to a colorable duty of care claim. Lehman's management took significant steps to curtail and control its origination of subprime mortgages, including discontinuing certain mortgage programs, installing improved risk management systems, and replacing management of its subprime originator. Lehman's management also successfully hedged its subprime mortgage risk, at least until early 2008, and avoided some of the catastrophic investments that other financial institutions made in the mortgage market, for example in CDOs.
+The Examiner does not find that Lehman's countercyclical growth strategy with respect to its residential mortgage origination gives rise to a colorable duty of care claim. Lehman's management took significant steps to curtail and control its origination of subprime mortgages, including discontinuing certain mortgage programs, installing improved risk management systems, and replacing management of its subprime originator. Lehman's management also successfully hedged its subprime mortgage risk, at least until early 2008, and avoided some of the catastrophic investments that other financial institutions made in the mortgage market, for example in CDOs.
 
 Lehman's management can be second‐guessed, perhaps, for its decision to continue originating Alt‐A mortgages through its Aurora subsidiary even as it was curtailing the origination of subprime mortgages through its BNC subsidiary, and for failing to curtail its subprime mortgage originations more quickly. As described above, however, these business decisions were part of Lehman's strategy to benefit from a consolidation in the mortgage origination industry. In 2007, Lehman curtailed origination of riskier segments of its Alt‐A production after it became evident that these riskier segments were performing as poorly as subprime loans.
 
@@ -1431,9 +1433,9 @@ The business judgment rule shields from judicial review the foregoing decisions 
 
 %%page 172%%
 
-> (ii) Lehman's Concentration of Risk in Its Commercial Real Estate Business As described above, Lehman entered into large commercial real estate
+#### Lehman's Concentration of Risk in Its Commercial Real Estate Business
 
-transactions during the course of 2007, including transactions that left Lehman with a substantial investment in bridge equity. The most significant of these transactions was Archstone.
+As described above, Lehman entered into large commercial real estate transactions during the course of 2007, including transactions that left Lehman with a substantial investment in bridge equity. The most significant of these transactions was Archstone.
 
 Lehman entered into these commercial real estate bridge equity transactions at a precarious time in the financial markets. After the onset of the subprime mortgage crisis in December 2006 or January 2007, there was a risk of contagion to the commercial real estate market. Lehman's officers recognized this risk but concluded that it was manageable.647 Although in hindsight this conclusion was wrong, the Examiner cannot conclude that at the time it was reckless or irrational.
 
@@ -1457,9 +1459,9 @@ Executive Committee and Commitment Committee meetings over a period of weeks, mo
 
 The Examiner thus concludes that there is no colorable claim of breach of fiduciary duty on the part of Lehman's officers. Lehman management's decision to exceed its limit for this business and invest heavily in commercial real estate is protected by the business judgment rule. That rule does not operate retroactively to judge a business decision based on its ultimate failure, but instead focuses on the reasons for making that decision as of the time and in the context in which it was made. The officers' decision not to follow the guidance of its internal and voluntary risk management system does not give rise to a breach of the duty of care.
 
-> (iii) Concentrated Investments in Leveraged Loans As described above, Lehman's principal investment strategy also included
+#### Concentrated Investments in Leveraged Loans
 
-participating in leveraged loan transactions. This business grew spectacularly in 2006 and the first half of 2007. Many of these loans were made to private equity firms, or sponsors, who were purchasing companies as part of leveraged buy‐outs. These transactions were risky for Lehman because they consumed tremendous amounts of capital, were made on terms that strongly favored the borrowers, and often involved bridge equity or bridge debt that Lehman hoped to distribute to other financial institutions (but was committed to keep for itself if it was unable to do so).
+As described above, Lehman's principal investment strategy also included participating in leveraged loan transactions. This business grew spectacularly in 2006 and the first half of 2007. Many of these loans were made to private equity firms, or sponsors, who were purchasing companies as part of leveraged buy‐outs. These transactions were risky for Lehman because they consumed tremendous amounts of capital, were made on terms that strongly favored the borrowers, and often involved bridge equity or bridge debt that Lehman hoped to distribute to other financial institutions (but was committed to keep for itself if it was unable to do so).
 
 %%page 176%%
 
@@ -1555,9 +1557,9 @@ Although Lehman's decision to enter into huge illiquid transactions during a rec
 
 %%page 179%%
 
-> (iv) Firm‐Wide Risk Appetite Excesses The Examiner also considered whether Lehman's handling of its overall risk
+#### Firm‐Wide Risk Appetite Excesses
 
-limits was a breach of the duty of care. As described above, Lehman's management decided to treat the firm's risk appetite limit as a soft limit rather than as a meaningful constraint on management's assumption of risk.
+The Examiner also considered whether Lehman's handling of its overall risk limits was a breach of the duty of care. As described above, Lehman's management decided to treat the firm's risk appetite limit as a soft limit rather than as a meaningful constraint on management's assumption of risk.
 
 Lehman decided to exceed the firm‐wide risk appetite limit at several junctures. First, though Lehman dramatically increased the limit for fiscal 2007, Lehman nevertheless approached the new limit by May 2007. Lehman entered into Archstone and several other bridge equity transactions notwithstanding the obvious fact that those transactions would immediately put Lehman over its firm‐wide risk appetite limits.657
 
@@ -1581,13 +1583,13 @@ Although Lehman's risk appetite limits ultimately provided little or no limiting
 
 any legal constraints on the scope of management's authority. And because business in general and investment banking in particular is an inherently risky enterprise, Lehman's management was entitled to pursue a countercyclical growth strategy based on its evaluation of the markets and of Lehman's business, even if that strategy necessarily posed a risk to the firm. Moreover, Lehman's risk appetite limit overages were reported to the SEC. The Examiner does not find that management's decision to increase and then exceed Lehman's risk appetite levels gives rise to a colorable claim for breach of fiduciary duties.
 
-> (v) Firm‐Wide Balance Sheet Limits Lehman also failed to apply its balance sheet limits in late 2007. Application of
+#### Firm‐Wide Balance Sheet Limits
 
-these limits would also have restricted Lehman's risk‐taking. Instead, Lehman dramatically increased the size of its balance sheet, and used increasingly large volumes of Repo 105 transactions to create the appearance that the firm's net leverage ratio remained within a reasonable range of such ratios established by the rating agencies.660
+Lehman also failed to apply its balance sheet limits in late 2007. Application of these limits would also have restricted Lehman's risk‐taking. Instead, Lehman dramatically increased the size of its balance sheet, and used increasingly large volumes of Repo 105 transactions to create the appearance that the firm's net leverage ratio remained within a reasonable range of such ratios established by the rating agencies.660
 
-> (vi) Stress Testing As described above, Lehman's stress tests suffered from a significant flaw.
+#### Stress Testing
 
-Although Lehman made a strategic decision in 2006 to take more principal risk, Lehman did not modify its stress tests to include the risks arising from many of its principal investments – including its real estate investments other than commercial mortgage660 For further detail regarding the Repo 105 transactions, see Section III.A.4 of this Report.
+As described above, Lehman's stress tests suffered from a significant flaw. Although Lehman made a strategic decision in 2006 to take more principal risk, Lehman did not modify its stress tests to include the risks arising from many of its principal investments – including its real estate investments other than commercial mortgage660 For further detail regarding the Repo 105 transactions, see Section III.A.4 of this Report.
 
 %%page 182%%
 
@@ -1595,15 +1597,17 @@ backed securities ("CMBS"), its private equity investments, and, during a crucia
 
 But stress tests, like risk limits, are an instrument available for use of management as it deems appropriate; Lehman's management was not legally required to make business decisions based on the results of stress testing.662 Moreover, the SEC was aware that Lehman's stress tests excluded untraded investments and did not question the exclusion, because historically it had been the norm to limit stress tests only to traded positions.663 Based on these facts, the Examiner does not find that Lehman management's use of the stress tests gives rise to a colorable claim for a breach of the duty of care.
 
-> (vii) Summary: Officers' Duty of Care The Examiner reviewed extensive evidence concerning Lehman's senior officers'
+#### Summary: Officers' Duty of Care
 
-decision to disregard the guidance provided by Lehman's risk management system as they implemented the firm's aggressive business strategy in 2006 and 2007. That evidence goes to the heart of Lehman's ultimate financial failure because the illiquid investments acquired during that period could not be sold off sufficiently quickly, and Lehman's liquidity and confidence suffered as a result. When the run on Lehman began in September 2008, Lehman lacked the liquidity to survive. Thus, Lehman's collapse can be traced in part to Lehman management's adoption of a countercyclical growth strategy in 2006 and 2007. Although management turned out to be wrong in their business judgments, the evidence does not establish that management's actions and decisions were so reckless and irrational as to give rise to a colorable claim of breach of fiduciary duty.
+The Examiner reviewed extensive evidence concerning Lehman's senior officers' decision to disregard the guidance provided by Lehman's risk management system as they implemented the firm's aggressive business strategy in 2006 and 2007. That evidence goes to the heart of Lehman's ultimate financial failure because the illiquid investments acquired during that period could not be sold off sufficiently quickly, and Lehman's liquidity and confidence suffered as a result. When the run on Lehman began in September 2008, Lehman lacked the liquidity to survive. Thus, Lehman's collapse can be traced in part to Lehman management's adoption of a countercyclical growth strategy in 2006 and 2007. Although management turned out to be wrong in their business judgments, the evidence does not establish that management's actions and decisions were so reckless and irrational as to give rise to a colorable claim of breach of fiduciary duty.
 
 %%page 183%%
 
-> [B]usiness failure is an ever‐present risk. The business judgment rule exists precisely to ensure that directors and managers acting in good faith may pursue risky strategies that seem to promise great profit. If the mere fact that a strategy turned out poorly is in itself sufficient to create an inference that the directors who approved it breached their fiduciary duties, the business judgment rule will have been denuded of much of its utility.664 (2) The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty to Inform the Board of Directors Concerning the Level of Risk Lehman Had Assumed The Examiner also does not find a colorable claim that, during the period from
+> [B]usiness failure is an ever‐present risk. The business judgment rule exists precisely to ensure that directors and managers acting in good faith may pursue risky strategies that seem to promise great profit. If the mere fact that a strategy turned out poorly is in itself sufficient to create an inference that the directors who approved it breached their fiduciary duties, the business judgment rule will have been denuded of much of its utility.664
 
-May 2007 through January 2008, Lehman's senior officers breached their duty of candor with respect to their disclosures to the Board of Directors concerning Lehman's risk management system. Lehman's management gave the Board regular reports concerning the state of the firm's business, including reports containing quantitative risk, balance sheet, revenue, and other metrics. Lehman's management also discussed market conditions and their potential impact on the firm with the Board. The Examiner did not find evidence that managers knowingly made false statements to the Board.
+#### The Examiner Does Not Find Colorable Claims That Lehman's Senior Officers Breached Their Fiduciary Duty to Inform the Board of Directors Concerning the Level of Risk Lehman Had Assumed
+
+The Examiner also does not find a colorable claim that, during the period from May 2007 through January 2008, Lehman's senior officers breached their duty of candor with respect to their disclosures to the Board of Directors concerning Lehman's risk management system. Lehman's management gave the Board regular reports concerning the state of the firm's business, including reports containing quantitative risk, balance sheet, revenue, and other metrics. Lehman's management also discussed market conditions and their potential impact on the firm with the Board. The Examiner did not find evidence that managers knowingly made false statements to the Board.
 
 %%page 184%%
 
@@ -1637,9 +1641,9 @@ Applying the standard of proof requiring at least gross negligence and perhaps i
 
 %%page 188%%
 
-> (3) The Examiner Does Not Find Colorable Claims That Lehman's Directors Breached Their Fiduciary Duty by Failing to Monitor Lehman's Risk‐Taking Activities
+#### The Examiner Does Not Find Colorable Claims That Lehman's Directors Breached Their Fiduciary Duty by Failing to Monitor Lehman's Risk‐Taking Activities
 
-> (a) Lehman's Directors are Protected From Duty of Care Liability by the Exculpatory Clause and the Business Judgment Rule
+#### Lehman's Directors are Protected From Duty of Care Liability by the Exculpatory Clause and the Business Judgment Rule
 
 Corporate directors' duty of care is a duty of informed decision making.671 It involves the process by which directors make business decisions, not the content of those decisions.672 However, directors are generally afforded additional protection by the business‐judgment rule, a judicial presumption that a court should "not substitute its judgment for that of the board if the latter's decision can be 'attributed to any rational business purpose.'"673
 
@@ -1659,21 +1663,25 @@ Therefore, Delaware has chosen to impose personal liability only on those direct
 
 %%page 190%%
 
-> failed to undertake their responsibilities would they breach their duty of loyalty.678 (b) Lehman's Directors Did Not Violate Their Duty of Loyalty A director's duty of loyalty "[e]ssentially . . . mandates that the best interest of
+> failed to undertake their responsibilities would they breach their duty of loyalty.678
 
-the corporation and its shareholders take precedence over any interest possessed by a director, officer or controlling shareholder and not shared by the stockholders generally."679 The duty of loyalty chiefly involves situations in which directors utilize their positions to confer special benefits onto themselves or majority stockholders.680 These situations are frequently referred to as "self‐dealing" or "interested" situations.681 "A director is considered interested when he will receive a personal financial benefit from a transaction that is not equally shared by the stockholders."682 Directors are also considered interested where their motivations in executing a business decision appear to be subservient to the interests of a majority stockholder.683
+#### Lehman's Directors Did Not Violate Their Duty of Loyalty
+
+A director's duty of loyalty "[e]ssentially . . . mandates that the best interest of the corporation and its shareholders take precedence over any interest possessed by a director, officer or controlling shareholder and not shared by the stockholders generally."679 The duty of loyalty chiefly involves situations in which directors utilize their positions to confer special benefits onto themselves or majority stockholders.680 These situations are frequently referred to as "self‐dealing" or "interested" situations.681 "A director is considered interested when he will receive a personal financial benefit from a transaction that is not equally shared by the stockholders."682 Directors are also considered interested where their motivations in executing a business decision appear to be subservient to the interests of a majority stockholder.683
 
 The Examiner has found no evidence of self‐dealing by Lehman's directors, and Lehman did not have a majority stockholding interest.
 
 %%page 191%%
 
-> (c) Lehman's Directors Did Not Violate Their Duty to Monitor Under Delaware law, directors have a fiduciary duty to monitor management's
+#### Lehman's Directors Did Not Violate Their Duty to Monitor
 
-compliance with corporate reporting and control systems. The Delaware Supreme Court has adopted the Caremark standard "for assessing director oversight liability."684 Under Caremark, the fiduciary duty to monitor management is breached if "(a) the directors utterly failed to implement any reporting or information system or controls; or (b) having implemented such a system or controls, consciously failed to monitor or oversee its operations thus disabling themselves from being informed of risks or problems requiring their attention."685 The Delaware Supreme Court stressed, however, that a director can be held liable only for a "conscious" failure to fulfill the oversight function:
+Under Delaware law, directors have a fiduciary duty to monitor management's compliance with corporate reporting and control systems. The Delaware Supreme Court has adopted the Caremark standard "for assessing director oversight liability."684 Under Caremark, the fiduciary duty to monitor management is breached if "(a) the directors utterly failed to implement any reporting or information system or controls; or (b) having implemented such a system or controls, consciously failed to monitor or oversee its operations thus disabling themselves from being informed of risks or problems requiring their attention."685 The Delaware Supreme Court stressed, however, that a director can be held liable only for a "conscious" failure to fulfill the oversight function:
 
-> [I]mposition of liability requires a showing that the directors knew that they were not discharging their fiduciary obligations. Where directors fail to act in the face of a known duty to act, thereby demonstrating a conscious disregard for their responsibilities, they breach their duty of loyalty by failing to discharge that fiduciary obligation in good faith.686 (i) Application of Caremark to Risk Oversight: In re Citigroup Inc. In the Citigroup case, the Delaware Chancery Court rejected a claim that
+> [I]mposition of liability requires a showing that the directors knew that they were not discharging their fiduciary obligations. Where directors fail to act in the face of a known duty to act, thereby demonstrating a conscious disregard for their responsibilities, they breach their duty of loyalty by failing to discharge that fiduciary obligation in good faith.686
 
-Citigroup's current and former directors and officers had "breached their fiduciary duties by failing to properly monitor and manage the risks the Company faced from problems in the subprime lending market and for failing to properly disclose Citigroup's exposure to subprime assets."687 The complaint alleged various theories of liability including a breach of the duty to monitor under Caremark. Plaintiffs based their claim on several "red flags" that allegedly "should have given defendants notice of the problems that were brewing in the real estate and credit markets."688 Noting that the supposed red flags "amount[ed] to little more than portions of public documents that reflected the worsening conditions in the subprime mortgage market and in the economy generally," the Court found the allegations legally insufficient "to show that the directors were or should have been aware of any wrongdoing at the Company or were consciously disregarding a duty somehow to prevent Citigroup from suffering losses."689
+#### Application of Caremark to Risk Oversight: In re Citigroup Inc
+
+In the Citigroup case, the Delaware Chancery Court rejected a claim that Citigroup's current and former directors and officers had "breached their fiduciary duties by failing to properly monitor and manage the risks the Company faced from problems in the subprime lending market and for failing to properly disclose Citigroup's exposure to subprime assets."687 The complaint alleged various theories of liability including a breach of the duty to monitor under Caremark. Plaintiffs based their claim on several "red flags" that allegedly "should have given defendants notice of the problems that were brewing in the real estate and credit markets."688 Noting that the supposed red flags "amount[ed] to little more than portions of public documents that reflected the worsening conditions in the subprime mortgage market and in the economy generally," the Court found the allegations legally insufficient "to show that the directors were or should have been aware of any wrongdoing at the Company or were consciously disregarding a duty somehow to prevent Citigroup from suffering losses."689
 
 %%page 192%%
 
@@ -1689,9 +1697,11 @@ The Court held that plaintiffs had failed to tie the Caremark claim to a failure
 
 go beyond "signs in the market that reflected worsening conditions and suggested that conditions may deteriorate even further. . . ."692 The Court was protective of directors facing personal liability because the risk assumed by their corporation resulted in losses:
 
-> Oversight duties under Delaware law are not designed to subject directors, even expert directors, to personal liability for failure to predict the future and to properly evaluate business risk.693 (ii) Application of Caremark and Citigroup to Lehman's Directors The Examiner does not find that Lehman's directors breached their Caremark
+> Oversight duties under Delaware law are not designed to subject directors, even expert directors, to personal liability for failure to predict the future and to properly evaluate business risk.693
 
-duty to monitor management's compliance with the law.
+#### Application of Caremark and Citigroup to Lehman's Directors
+
+The Examiner does not find that Lehman's directors breached their Caremark duty to monitor management's compliance with the law.
 
 First, the Examiner does not find that "the directors utterly failed to implement any reporting or information system or controls."694 As explained above, the Board received regular information at every Board meeting concerning the firm's risk, liquidity, and balance sheet situation. The Board also created a Finance and Risk Committee to receive considerably more detailed information about these topics. Moreover, the Board received regular reports about the firm's risk management systems and controls. The directors plainly implemented a sufficient reporting system and controls.
 

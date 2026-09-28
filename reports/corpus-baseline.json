@@ -205,8 +205,8 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 325863,
-      "paragraphs": 2454,
+      "words": 325837,
+      "paragraphs": 2425,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
@@ -349,8 +349,8 @@
         {
           "slug": "subcommittee-investigation-and-findings-of-fact-3",
           "title": "Subcommittee Investigation and Findings of Fact",
-          "paragraphs": 50,
-          "ids": "a1f3fc5086e5"
+          "paragraphs": 49,
+          "ids": "53b125702c42"
         },
         {
           "slug": "mass-credit-rating-downgrades",
@@ -373,20 +373,20 @@
         {
           "slug": "case-study-of-goldman-sachs-and-deutsche-bank",
           "title": "CASE STUDY OF GOLDMAN SACHS AND DEUTSCHE BANK",
-          "paragraphs": 702,
-          "ids": "60119e162dd6"
+          "paragraphs": 683,
+          "ids": "1e6abc150bb9"
         },
         {
           "slug": "cdo-marks",
           "title": "CDO Marks",
-          "paragraphs": 136,
-          "ids": "b69680017e1d"
+          "paragraphs": 134,
+          "ids": "249343448f49"
         },
         {
           "slug": "timberwolf-i",
           "title": "Timberwolf I",
-          "paragraphs": 347,
-          "ids": "25a56cd47545"
+          "paragraphs": 340,
+          "ids": "e2a3afeea02c"
         },
         {
           "slug": "preventing-investment-bank-abuses",
@@ -403,8 +403,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 155132,
-      "paragraphs": 2899,
+      "words": 154985,
+      "paragraphs": 2866,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -439,8 +439,8 @@
         {
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
-          "paragraphs": 66,
-          "ids": "f6a4e027324a"
+          "paragraphs": 65,
+          "ids": "7e63f6695446"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -451,20 +451,32 @@
         {
           "slug": "introduction-2",
           "title": "INTRODUCTION",
-          "paragraphs": 55,
-          "ids": "925beedd8db5"
+          "paragraphs": 15,
+          "ids": "026fa6c61beb"
+        },
+        {
+          "slug": "i-forwaro-segment-propellant",
+          "title": "I/ FORWARO SEGMENT PROPELLANT",
+          "paragraphs": 12,
+          "ids": "17efe39062eb"
+        },
+        {
+          "slug": "procure-materials-and-components-produ-and-assemble-an-operational-motor-in",
+          "title": "PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN",
+          "paragraphs": 20,
+          "ids": "461c4b77292a"
         },
         {
           "slug": "history",
           "title": "HISTORY",
-          "paragraphs": 12,
-          "ids": "2c85e3c7d327"
+          "paragraphs": 9,
+          "ids": "075495de2eb5"
         },
         {
-          "slug": "fletcher-the-solid-rocket-motor-source-evaluation-board-seb",
-          "title": "Fletcher, the Solid Rocket Motor Source Evaluation Board (SEB)",
-          "paragraphs": 66,
-          "ids": "41b8c0de4d17"
+          "slug": "test-and-control-features",
+          "title": "TEST AND CONTROL FEATURES",
+          "paragraphs": 68,
+          "ids": "7678e1e0f4eb"
         },
         {
           "slug": "summary-of-significant-observations",
@@ -511,116 +523,80 @@
         {
           "slug": "2-operations",
           "title": "2 . OPERATIONS",
-          "paragraphs": 10,
-          "ids": "e0eb1d53e8f4"
-        },
-        {
-          "slug": "lockheed-shuttle-processing-contract-award-fee-history",
-          "title": "LOCKHEED SHUTTLE PROCESSING CONTRACT-AWARD FEE HISTORY",
-          "paragraphs": 78,
-          "ids": "9c8af216a37e"
-        },
-        {
-          "slug": "figure",
-          "title": "FIGURE",
-          "paragraphs": 88,
-          "ids": "aee97769583c"
+          "paragraphs": 176,
+          "ids": "9659e88b73db"
         },
         {
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
-          "paragraphs": 7,
-          "ids": "8a5853ae15ce"
+          "paragraphs": 314,
+          "ids": "0bb54e20cf50"
         },
         {
-          "slug": "figure-2",
-          "title": "FIGURE",
-          "paragraphs": 178,
-          "ids": "ac9a437232d3"
-        },
-        {
-          "slug": "organization-a-n-d-policy-management",
-          "title": "ORGANIZATION A N D POLICY MANAGEMENT",
-          "paragraphs": 134,
-          "ids": "02f45c60e372"
-        },
-        {
-          "slug": "w-i-l-l-not-1-seal",
-          "title": "W I L L NOT 1 SEAL",
-          "paragraphs": 150,
-          "ids": "53f5505f3aa3"
+          "slug": "downstream-proper-posit-ion-i-figurevii-1",
+          "title": "DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1",
+          "paragraphs": 155,
+          "ids": "ea5d727c8167"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
           "paragraphs": 124,
-          "ids": "eddc5d3f8d3f"
+          "ids": "528b09ba5ae1"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
           "title": "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
-          "paragraphs": 306,
-          "ids": "d08919db165d"
+          "paragraphs": 304,
+          "ids": "3e2cca1e3d44"
         },
         {
           "slug": "launch-redlines",
           "title": "LAUNCH REDLINES",
-          "paragraphs": 65,
-          "ids": "8dd188bdc8df"
-        },
-        {
-          "slug": "ok134",
-          "title": "OK.134",
-          "paragraphs": 65,
-          "ids": "27ef53dd2b29"
+          "paragraphs": 129,
+          "ids": "e4d0682e4ffc"
         },
         {
           "slug": "ixdefinitions-of-terms-and-acronyms",
           "title": "IX.DEFINITIONS OF TERMS AND ACRONYMS",
-          "paragraphs": 10,
-          "ids": "51049ee1610d"
+          "paragraphs": 7,
+          "ids": "acac06950e64"
         },
         {
-          "slug": "txiokol-chemical-corporation",
-          "title": "TXIOKOL CHEMICAL CORPORATION",
-          "paragraphs": 24,
-          "ids": "20be86573104"
+          "slug": "xational-aeronautics-and-space-admiyistratiov",
+          "title": "XATIONAL AERONAUTICS AND SPACE ADMIYISTRATIOV",
+          "paragraphs": 25,
+          "ids": "bab898922d5c"
         },
         {
           "slug": "30-approach",
           "title": "3.0 APPROACH",
-          "paragraphs": 47,
-          "ids": "d706a5a2b44c"
+          "paragraphs": 41,
+          "ids": "9772f70eff7f"
         },
         {
-          "slug": "c-bunhr-20-i",
-          "title": "C. Bunhr 20 I",
+          "slug": "i-kdler-1-el2",
+          "title": "I?. Kdler 1 El2",
           "paragraphs": 75,
-          "ids": "bbe47500bd62"
+          "ids": "137619921eb2"
         },
         {
           "slug": "o-rings-and-putty",
           "title": "O-RINGS AND PUTTY",
-          "paragraphs": 40,
-          "ids": "85be7a08a8f8"
-        },
-        {
-          "slug": "terrestrial-environment-climatic-criteria",
-          "title": "TERRESTRIAL ENVIRONMENT (CLIMATIC) CRITERIA",
-          "paragraphs": 50,
-          "ids": "b0d2dd345d6e"
+          "paragraphs": 87,
+          "ids": "347b38c79c28"
         },
         {
           "slug": "space-shuttle-s-o-l-i-d-rocket-hwor-pnojoct-operational-flight",
           "title": "SPACE SHUTTLE S O L I D ROCKET HWOR PNOJOCT OPERATIONAL FLIGHT",
-          "paragraphs": 39,
-          "ids": "e0fcbb42be7c"
+          "paragraphs": 38,
+          "ids": "c4cb06a0fff2"
         },
         {
           "slug": "panel-on-tecbrical-evaluation-of-rasas-ppoposed-bzdesicii",
           "title": "PANEL ON TECBRICAL EVALUATION OF RASA'S PPOPOSED BZDESICII",
           "paragraphs": 150,
-          "ids": "9f2ec2258846"
+          "ids": "123dd78dc3ef"
         },
         {
           "slug": "criticality-potential-effect-of-failure",
@@ -632,7 +608,7 @@
           "slug": "33-analysis-reouirements",
           "title": "3.3 ANALYSIS REOUIREMENTS",
           "paragraphs": 34,
-          "ids": "64f55e42f79f"
+          "ids": "7ee54ce734d2"
         },
         {
           "slug": "eclss-subsystem",
@@ -656,43 +632,43 @@
           "slug": "42-revisions-submittals",
           "title": "4.2 REVISIONS & SUBMITTALS",
           "paragraphs": 57,
-          "ids": "812333c47890"
+          "ids": "5e2674e057d9"
         },
         {
-          "slug": "appendix",
-          "title": "APPENDIX",
+          "slug": "appendix-8",
+          "title": "APPENDIX 8",
           "paragraphs": 14,
           "ids": "3dd50a745dfc"
         },
         {
           "slug": "rubber-property-compression-set",
           "title": "RUBBER PROPERTY-COMPRESSION SET'",
-          "paragraphs": 39,
-          "ids": "2569ad061fc5"
+          "paragraphs": 38,
+          "ids": "a2d97345d2ae"
         },
         {
           "slug": "calculation-12-procedure",
           "title": "Calculation 12. Procedure",
-          "paragraphs": 48,
-          "ids": "40624bd102c3"
+          "paragraphs": 43,
+          "ids": "e1ff934fc5d1"
         },
         {
           "slug": "0-omrsd",
           "title": "0 OMRSD",
           "paragraphs": 17,
-          "ids": "02bab0b2f852"
+          "ids": "9a727cc15176"
         },
         {
           "slug": "shuttle-w-0-3-e-c-t-s-frr-requireuents",
           "title": "SHUTTLE W 0 3 E C T S FRR REQUIREUENTS",
-          "paragraphs": 101,
-          "ids": "3364828d2c45"
+          "paragraphs": 93,
+          "ids": "c8f2b595ea07"
         },
         {
-          "slug": "i-incheu-j",
-          "title": "I INCHEU J",
-          "paragraphs": 50,
-          "ids": "d849969ff4d6"
+          "slug": "perfornance-acceptable-no",
+          "title": "PERFORNANCE ACCEPTABLE NO",
+          "paragraphs": 56,
+          "ids": "6ae9ebb42c64"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -1015,7 +991,7 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1075653,
+      "words": 1075655,
       "paragraphs": 12780,
       "sections": [
         {
@@ -1145,8 +1121,8 @@
           "ids": "5b512d5bb14b"
         },
         {
-          "slug": "chapter-the-press-and-the-police-conclusions-and-recommendations",
-          "title": "CHAPTER THE PRESS AND THE POLICE: CONCLUSIONS AND RECOMMENDATIONS",
+          "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
+          "title": "CHAPTER 4 THE PRESS AND THE POLICE: CONCLUSIONS AND RECOMMENDATIONS",
           "paragraphs": 119,
           "ids": "561762cfcb19"
         },
@@ -1373,8 +1349,8 @@
           "ids": "40d69c2c4d7d"
         },
         {
-          "slug": "part-i-chapter",
-          "title": "PART I CHAPTER",
+          "slug": "part-i-chapter-8",
+          "title": "PART I CHAPTER 8",
           "paragraphs": 126,
           "ids": "af19f4acd80d"
         },
@@ -1873,8 +1849,8 @@
       ]
     },
     "us-911-commission": {
-      "words": 299933,
-      "paragraphs": 3034,
+      "words": 304917,
+      "paragraphs": 2577,
       "sections": [
         {
           "slug": "report",
@@ -1913,8 +1889,8 @@
           "ids": "96662291b0f5"
         },
         {
-          "slug": "21-a-declaration-of-war",
-          "title": "2.1 A Declaration of War",
+          "slug": "the-foundation-of-the-new-terrorism",
+          "title": "THE FOUNDATION OF THE NEW TERRORISM",
           "paragraphs": 7,
           "ids": "7606a8e90e03"
         },
@@ -1985,8 +1961,8 @@
           "ids": "2ea42ef243aa"
         },
         {
-          "slug": "41-before-the-bombings-in-kenya-and-tanzania",
-          "title": "4.1 Before the Bombings in Kenya and Tanzania",
+          "slug": "responses-to-al-qaedas-initial-assaults",
+          "title": "RESPONSES TO AL QAEDA'S INITIAL ASSAULTS",
           "paragraphs": 39,
           "ids": "bcfc8d88dddf"
         },
@@ -2015,8 +1991,8 @@
           "ids": "34bd9460526c"
         },
         {
-          "slug": "51-terrorist-entrepreneurs",
-          "title": "5.1 Terrorist Entrepreneurs",
+          "slug": "al-qaeda-aims-at-the-american-homeland",
+          "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND",
           "paragraphs": 42,
           "ids": "6bb40282cb2a"
         },
@@ -2035,14 +2011,20 @@
         {
           "slug": "54-a-money-trail",
           "title": "5.4 A Money Trail?",
-          "paragraphs": 24,
-          "ids": "8a87df92a719"
+          "paragraphs": 21,
+          "ids": "7e44a333fe9c"
+        },
+        {
+          "slug": "from-threat-to-threat",
+          "title": "FROM THREAT TO THREAT",
+          "paragraphs": 3,
+          "ids": "59dc6e92cfd9"
         },
         {
           "slug": "61-the-millennium-crisis",
           "title": "6.1 The Millennium Crisis",
           "paragraphs": 47,
-          "ids": "864639613173"
+          "ids": "1391f4d30072"
         },
         {
           "slug": "62-post-crisis-reflection-agenda-for-2000",
@@ -2069,8 +2051,8 @@
           "ids": "bd64e9612407"
         },
         {
-          "slug": "71-first-arrivals-in-california",
-          "title": "7.1 First Arrivals in California",
+          "slug": "the-attack-looms",
+          "title": "THE ATTACK LOOMS",
           "paragraphs": 46,
           "ids": "4a0f86e26fa0"
         },
@@ -2078,7 +2060,7 @@
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
           "paragraphs": 54,
-          "ids": "073128fbcf79"
+          "ids": "493642e0ef82"
         },
         {
           "slug": "73-assembling-the-teams",
@@ -2093,8 +2075,8 @@
           "ids": "af2149baf034"
         },
         {
-          "slug": "81-the-summer-of-threat",
-          "title": "8.1 The Summer of Threat",
+          "slug": "the-system-was-blinking-red",
+          "title": "\"THE SYSTEM WAS BLINKING RED\"",
           "paragraphs": 73,
           "ids": "87c3d3274c90"
         },
@@ -2105,8 +2087,8 @@
           "ids": "41a703d6f656"
         },
         {
-          "slug": "91-preparedness-as-of-september-11",
-          "title": "9.1 Preparedness as of September 11",
+          "slug": "heroism-and-horror",
+          "title": "HEROISM AND HORROR",
           "paragraphs": 35,
           "ids": "93fbb95219f1"
         },
@@ -2177,8 +2159,8 @@
           "ids": "a360efb076ac"
         },
         {
-          "slug": "121-reflecting-on-a-generational-challenge",
-          "title": "12.1 Reflecting on a Generational Challenge",
+          "slug": "what-to-do-a-global-strategy",
+          "title": "WHAT TO DO? A GLOBAL STRATEGY",
           "paragraphs": 33,
           "ids": "ac4bf80ddf1f"
         },
@@ -2257,20 +2239,14 @@
         {
           "slug": "notes",
           "title": "NOTES",
-          "paragraphs": 70,
-          "ids": "78421059163a"
+          "paragraphs": 6,
+          "ids": "8865b59c7829"
         },
         {
-          "slug": "governments-evidentiary-proffer-supporting-the-admissibility-of-co-conspirator-s",
-          "title": "Government's Evidentiary Proffer Supporting the Admissibility of Co-Conspirator Statements, United States",
-          "paragraphs": 131,
-          "ids": "03ec9391b73e"
-        },
-        {
-          "slug": "pdd-62-protection-against-unconventional-threats-to-the-homeland-and-americans-o",
-          "title": "PDD-62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May",
-          "paragraphs": 262,
-          "ids": "ef722b23c741"
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
         }
       ]
     },
@@ -3223,62 +3199,128 @@
       ]
     },
     "uk-hillsborough-panel": {
-      "words": 202437,
-      "paragraphs": 3077,
+      "words": 202623,
+      "paragraphs": 3114,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
-          "paragraphs": 92,
-          "ids": "f1c20c5ab742"
+          "paragraphs": 156,
+          "ids": "ac289051121a"
         },
         {
-          "slug": "neither-syp-nor-the-south-yorkshire-metropolitan-ambulance-service-symas",
-          "title": "Neither SYP nor the South Yorkshire Metropolitan Ambulance Service (SYMAS)",
-          "paragraphs": 693,
-          "ids": "0b23de4993bf"
+          "slug": "part-1-hillsborough-what-was-known",
+          "title": "Part 1: Hillsborough: 'what was known'",
+          "paragraphs": 311,
+          "ids": "6d48dee6c8b5"
         },
         {
-          "slug": "hillsborough",
-          "title": "HILLSBOROUGH",
-          "paragraphs": 745,
-          "ids": "3a17943c62b7"
+          "slug": "part-2-hillsborough-what-is-added-to-public-understanding",
+          "title": "Part 2: Hillsborough: 'what is added to public understanding'",
+          "paragraphs": 182,
+          "ids": "d55d2d97e7ef"
         },
         {
-          "slug": "sheffield-city-council",
-          "title": "Sheffield City Council",
-          "paragraphs": 314,
-          "ids": "71b84acb0d71"
+          "slug": "chapter-2-the-moment-of",
+          "title": "Chapter 2: The 'moment' of",
+          "paragraphs": 114,
+          "ids": "d2e8cfea95a8"
         },
         {
-          "slug": "of-action-check-transcripts-submissions-by-swfc-re-fence-check-transcripts-and-f",
-          "title": "OF ACTION: CHECK TRANSCRIPTS & SUBMISSIONS BY SWFC RE FENCE. CHECK TRANSCRIPTS AND FINAL SUBMISSIONS BY SHEFFIELD WEDNESDAY FOOTBALL CLUB RE ADDITIONAL GATE IN THE RADIAL FENCE IN",
-          "paragraphs": 406,
-          "ids": "10d5f25ef7fe"
+          "slug": "chapter-3-custom-practice-roles-responsibilities",
+          "title": "Chapter 3: Custom, practice, roles, responsibilities",
+          "paragraphs": 216,
+          "ids": "e8423ee74bfc"
         },
         {
-          "slug": "18-to-her-majestys-attorney-general-the-humble-memorial-of-sandra-stringer-and-d",
-          "title": "18. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA",
-          "paragraphs": 78,
-          "ids": "667bfd63f799"
+          "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
+          "title": "Chapter 4: Emergency response and aftermath: 'routinely requested to attend'",
+          "paragraphs": 212,
+          "ids": "47adf2d68779"
         },
         {
-          "slug": "57-to-her-majestys-attorney-general-the-humble-memorial-of-sandra-stringer-and-d",
-          "title": "57. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA",
-          "paragraphs": 22,
-          "ids": "d3a585e5e1b5"
+          "slug": "chapter-5-medical-evidence-the-testimony-of-the-dead",
+          "title": "Chapter 5: Medical evidence: the testimony of the dead",
+          "paragraphs": 138,
+          "ids": "03608ca6ae00"
         },
         {
-          "slug": "memorandum-to-the-attorney-general-kevin-daniel-williams-deceased-application-un",
-          "title": "Memorandum to the Attorney General, 'KEVIN DANIEL WILLIAMS (DECEASED) APPLICATION UNDER SECTION",
-          "paragraphs": 412,
-          "ids": "f5487e499f60"
+          "slug": "chapter-6-parallel-investigations",
+          "title": "Chapter 6: Parallel investigations",
+          "paragraphs": 350,
+          "ids": "b08cc9dd9786"
         },
         {
-          "slug": "shame-of-boozy-yobs50",
-          "title": "SHAME OF BOOZY YOBS'.50",
-          "paragraphs": 315,
-          "ids": "750cbc80d29f"
+          "slug": "chapter-7-civil-litigation",
+          "title": "Chapter 7: Civil litigation",
+          "paragraphs": 282,
+          "ids": "b5da2457236c"
+        },
+        {
+          "slug": "chapter-8-the-coroners-inquiry-from-the-immediate-aftermath-to-the-preliminary-h",
+          "title": "Chapter 8: The Coroner's inquiry: from the immediate aftermath to the preliminary hearings",
+          "paragraphs": 113,
+          "ids": "5351f310be15"
+        },
+        {
+          "slug": "chapter-9-the-generic-hearing-judicial-review-and-continuing-controversies",
+          "title": "Chapter 9: The generic hearing, Judicial Review and continuing controversies",
+          "paragraphs": 154,
+          "ids": "0825c8da110c"
+        },
+        {
+          "slug": "chapter-10-the-315pm-cut-off",
+          "title": "Chapter 10: The 3.15pm cut-off",
+          "paragraphs": 164,
+          "ids": "23037a5efea4"
+        },
+        {
+          "slug": "chapter-11-review-and-alteration-of-statements",
+          "title": "Chapter 11: Review and alteration of statements",
+          "paragraphs": 259,
+          "ids": "9927b6c65b14"
+        },
+        {
+          "slug": "chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs",
+          "title": "Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations",
+          "paragraphs": 235,
+          "ids": "3247bb326c2d"
+        },
+        {
+          "slug": "part-3-the-permanent-archive-for-the-hillsborough-disaster",
+          "title": "Part 3: The Permanent Archive for the Hillsborough Disaster",
+          "paragraphs": 80,
+          "ids": "b57cf8b977cf"
+        },
+        {
+          "slug": "appendix-1-hillsborough-independent-panel-terms-of-reference",
+          "title": "Appendix 1: Hillsborough Independent Panel terms of reference",
+          "paragraphs": 33,
+          "ids": "f84fa763f1d0"
+        },
+        {
+          "slug": "appendix-2-disclosure-process",
+          "title": "Appendix 2: Disclosure process",
+          "paragraphs": 46,
+          "ids": "2a9beca120bd"
+        },
+        {
+          "slug": "appendix-3-research-process-and-method",
+          "title": "Appendix 3: Research process and method",
+          "paragraphs": 29,
+          "ids": "84f72e0432be"
+        },
+        {
+          "slug": "appendix-4-retained-tissue-following-post-mortem-examination",
+          "title": "Appendix 4: Retained tissue following post mortem examination",
+          "paragraphs": 13,
+          "ids": "c6c0d9aad3e6"
+        },
+        {
+          "slug": "appendix-5-freedom-of-information-and-parliamentary-debate",
+          "title": "Appendix 5: Freedom of information and Parliamentary debate",
+          "paragraphs": 27,
+          "ids": "eddd45578884"
         }
       ]
     },
@@ -3349,14 +3391,92 @@
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 59930,
-      "paragraphs": 113,
+      "words": 59832,
+      "paragraphs": 64,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
-          "paragraphs": 50,
-          "ids": "bac7dc576782"
+          "paragraphs": 13,
+          "ids": "a6507e3bfeca"
+        },
+        {
+          "slug": "preconflict-strategy-and-planning",
+          "title": "Pre‑conflict strategy and planning",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "uk-policy-before-911",
+          "title": "UK policy before 9/11",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "the-impact-of-911",
+          "title": "The impact of 9/11",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "decision-to-take-the-un-route",
+          "title": "Decision to take the UN route",
+          "paragraphs": 8,
+          "ids": "c85f6511b464"
+        },
+        {
+          "slug": "was-iraq-a-serious-or-imminent-threat",
+          "title": "Was Iraq a serious or imminent threat?",
+          "paragraphs": 2,
+          "ids": "82c0240e18f0"
+        },
+        {
+          "slug": "collective-responsibility",
+          "title": "Collective responsibility",
+          "paragraphs": 3,
+          "ids": "c673a62fdb5a"
+        },
+        {
+          "slug": "advice-on-the-legal-basis-for-military-action",
+          "title": "Advice on the legal basis for military action",
+          "paragraphs": 1,
+          "ids": "12c054258fbe"
+        },
+        {
+          "slug": "lord-goldsmiths-advice-of-7-march-2003",
+          "title": "Lord Goldsmith's advice of 7 March 2003",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "cabinet-17-march-2003",
+          "title": "Cabinet, 17 March 2003",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "iraq-wmd-assessments-prejuly-2002",
+          "title": "Iraq WMD assessments, pre‑July 2002",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "iraq-wmd-assessments-july-to-september-2002",
+          "title": "Iraq WMD assessments, July to September 2002",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "iraq-wmd-assessments-october-2002-to-march-2003",
+          "title": "Iraq WMD assessments, October 2002 to March 2003",
+          "paragraphs": 1,
+          "ids": "9f16e94dbd71"
+        },
+        {
+          "slug": "the-failure-to-plan-or-prepare-for-known-risks",
+          "title": "The failure to plan or prepare for known risks",
+          "paragraphs": 3,
+          "ids": "e67a814e6caa"
         },
         {
           "slug": "looting-in-basra",
@@ -3419,10 +3539,142 @@
           "ids": "b6a501183f71"
         },
         {
-          "slug": "the-beginning-of-the-end",
-          "title": "THE BEGINNING OF THE END",
-          "paragraphs": 59,
-          "ids": "22d73f89b367"
+          "slug": "did-the-uk-achieve-its-objectives-in-iraq",
+          "title": "Did the UK achieve its objectives in Iraq?",
+          "paragraphs": 1,
+          "ids": "c95da3712560"
+        },
+        {
+          "slug": "development-of-uk-strategy-and-options-911-to-early-january-2002",
+          "title": "Development of UK strategy and options, 9/11 to early January 2002",
+          "paragraphs": 1,
+          "ids": "e7450f456380"
+        },
+        {
+          "slug": "development-of-uk-strategy-and-options-april-to-july-2002",
+          "title": "Development of UK strategy and options, April to July 2002",
+          "paragraphs": 3,
+          "ids": "bd4cd92310c2"
+        },
+        {
+          "slug": "development-of-uk-strategy-and-options-1-february-to-7-march-2003",
+          "title": "Development of UK strategy and options, 1 February to 7 March 2003",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "the-search-for-wmd",
+          "title": "The search for WMD",
+          "paragraphs": 3,
+          "ids": "8b919acf191e"
+        },
+        {
+          "slug": "development-of-the-military-options-for-an-invasion-of-iraq",
+          "title": "Development of the military options for an invasion of Iraq",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "the-decision-to-go-to-war",
+          "title": "The decision to go to war",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "weapons-of-mass-destruction",
+          "title": "Weapons of mass destruction",
+          "paragraphs": 1,
+          "ids": "f90c31402de7"
+        },
+        {
+          "slug": "the-postconflict-period",
+          "title": "The post‑conflict period",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "reconstruction",
+          "title": "Reconstruction",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "debaathification",
+          "title": "De‑Ba'athification",
+          "paragraphs": 1,
+          "ids": "df7099d94f9b"
+        },
+        {
+          "slug": "resources",
+          "title": "Resources",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "civilian-personnel",
+          "title": "Civilian personnel",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "timeline-of-events",
+          "title": "Timeline of events",
+          "paragraphs": 19,
+          "ids": "bc86e01f3f81"
+        },
+        {
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        }
+      ]
+    },
+    "us-lehman-examiner": {
+      "words": 59835,
+      "paragraphs": 414,
+      "sections": [
+        {
+          "slug": "introduction",
+          "title": "INTRODUCTION",
+          "paragraphs": 31,
+          "ids": "b59e3c551164"
+        },
+        {
+          "slug": "why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise-from-its-fin",
+          "title": "Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure?",
+          "paragraphs": 27,
+          "ids": "8e630feeff5e"
+        },
+        {
+          "slug": "document-collection-and-review",
+          "title": "Document Collection and Review",
+          "paragraphs": 5,
+          "ids": "39efc782ce98"
+        },
+        {
+          "slug": "systems-access",
+          "title": "Systems Access",
+          "paragraphs": 6,
+          "ids": "a7a94247428e"
+        },
+        {
+          "slug": "witness-interview-process",
+          "title": "Witness Interview Process",
+          "paragraphs": 4,
+          "ids": "5267b905946c"
+        },
+        {
+          "slug": "cooperation-and-coordination-with-the-government-and-parties",
+          "title": "Cooperation and Coordination With the Government and Parties",
+          "paragraphs": 13,
+          "ids": "229cc854e354"
+        },
+        {
+          "slug": "business-and-risk-management",
+          "title": "Business and Risk Management",
+          "paragraphs": 328,
+          "ids": "9f72b96f4c10"
         },
         {
           "slug": "notes-not-linked-in-the-text",
