@@ -2,18 +2,15 @@
 # for the fields and the rules. Every quote is verbatim from the rendered report
 # (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
 #
-# Extraction notes (filed as reportsthatmatter-a0z and reportsthatmatter-eyc):
-#   - The report's chapter headings are not detected. The sections the pipeline
-#     made are figure captions ("SANTA BARBARA OIL SPILL", "MACONDO WELL",
-#     "MS AL LA GA"...) and Chapter 9's "The Need for..." subheads. The Foreword
-#     and Chapters 1-2 all sit under "Front matter". `reading_guide` therefore
-#     overrides titles to say which chapters each section actually holds.
-#     (reportsthatmatter-a0z)
-#   - Most body text on even-numbered pages is rendered as block quotations with
-#     no paragraph ids, including most of Chapter 9's recommendations and the
-#     Foreword's text after its list of conclusions. Quotes from those anchor to
-#     the introducing paragraph; highlights use only paragraphs with ids.
-#     (reportsthatmatter-eyc)
+# Extraction notes:
+#   - Sections are the Foreword, the three Parts, the chapters, Chapter 9's
+#     "The Need for..." subheads, the endnotes and appendices
+#     (reportsthatmatter-a0z). A short section is folded into the one before
+#     it, so Chapter 1 sits in "Part I", Chapter 4 in "Part II", and Chapters
+#     8 and the start of 9 in "Part III"; `reading_guide` titles say so.
+#   - Even-numbered pages are prose with paragraph ids again
+#     (reportsthatmatter-eyc); a few passages set beside photographs are
+#     still block quotations.
 #
 # Background facts not stated in the report itself, verified 2026-09-26:
 #   - Executive Order 13543, 21 May 2010, creating the Commission:
@@ -85,15 +82,15 @@ findings:
         doubt the safety culture of the entire industry.
 
   - text: Regulation did not keep pace as drilling moved into deep water. The report finds that the Minerals Management Service was torn between collecting revenue and enforcing safety, and lacked the resources, training and engineering expertise to oversee the wells it approved; the officials who approved Macondo's permits were neither required nor equipped to assess what mattered most to its safety.
-    cites: [short-safety-risks-had-dramatically, many-hardworking-individual-public-servants, macondo-well-blowout-makes-all]
+    cites: [short-safety-risks-had-dramatically, april-20-inherent-risks-decades, macondo-well-blowout-makes-all]
 
   - text: On the evening of the blowout, the crew ran a negative-pressure test whose readings showed the well was not sealed. The report finds they explained the readings away, then missed further warning signs in the hour before the blowout.
     cites: [given-risk-factors-surrounding-primary, sperry-sun-data-available-crew]
 
   - text: The Commission calls the root cause a failure of industry management. Many decisions that raised the risk at Macondo also saved time and money, and none was subject to formal risk analysis. The Commission says it cannot tell whether anyone knowingly chose a riskier option to save money.
-    cites: [root-causes-failures-industry-government, decisionmaking-processes-macondo-did-not, commission-cannot-say-whether-any]
+    cites: [root-causes-failures-industry-government, most-significant-failure-macondo-clear, decisionmaking-processes-macondo-did-not, commission-cannot-say-whether-any]
     excerpt:
-      paragraph: root-causes-failures-industry-government
+      paragraph: most-significant-failure-macondo-clear
       quote: >-
         The most significant failure at Macondo—and the clear root cause of
         the blowout—was a failure of industry management.
@@ -116,9 +113,9 @@ findings:
     cites: [chapter-examines-how-petroleum-companies, essential-features-self-policing-safety-organization, credibility-be-credible-any-industry-created]
 
   - text: For government, it recommends an independent safety agency within the Interior Department, regulators funded by fees on industry, a much higher cap on liability for spills, and 80 percent of Clean Water Act penalties for restoring the Gulf.
-    cites: [although-proposed-reorganization-interior-s, oil-pollution-act-also-requires, order-funding-be-most-efficiently]
+    cites: [recommendations-a4-congress-department-interior, oil-pollution-act-also-requires, order-funding-be-most-efficiently]
     excerpt:
-      paragraph: although-proposed-reorganization-interior-s
+      paragraph: recommendations-a4-congress-department-interior
       quote: >-
         Congress and the Department of the Interior should create an
         independent agency within the Department of the Interior with
@@ -128,9 +125,9 @@ findings:
         including both oil and gas production and renewable energy production.
 
 reading_guide:
-  - section: front-matter
-    title: "Foreword and Chapter 1: Sudden Death on the Gulf of Mexico"
-    why: The co-chairs' seven conclusions, then an hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.
+  - section: part-i-the-path-to-tragedy
+    title: "Part I and Chapter 1: Sudden Death on the Gulf of Mexico"
+    why: An hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.
     excerpt:
       paragraph: down-ezell-s-cabin-still
       quote: >-
@@ -139,9 +136,9 @@ reading_guide:
         floor. "We have a situation. …The well is blown out. . . . We have mud
         going to the crown."
 
-  - section: development-production-plan-development-production-plan-approved-production-well
-    title: "Chapters 3 to 5: Regulation, the Blowout and the Response"
-    why: From partway through Chapter 3 on the regulator, through Chapter 4's technical account of why the well failed, to the 87-day struggle to cap it.
+  - section: part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster
+    title: "Part II and Chapter 4: The Macondo Well and the Blowout"
+    why: The Commission's technical account of why the well failed, from the cement job to the warning signs missed in the last hour.
     excerpt:
       paragraph: given-risk-factors-surrounding-primary
       quote: >-
@@ -150,11 +147,11 @@ reading_guide:
         various explanations until they had convinced themselves their
         assumption was correct.
 
-  - section: macondo-well
-    title: "Chapter 8: Changing Business as Usual"
-    why: After the end of Chapter 7 on restoring the Gulf, the case for the industry to change its own safety culture, and how.
+  - section: part-iii-lessons-learned-industry-government-energy-policy
+    title: "Part III and Chapter 8: Changing Business as Usual"
+    why: The case for the industry to change its own safety culture, and how.
     excerpt:
-      paragraph: chapter-eight-safety-not-proprietary
+      paragraph: deepwater-horizon-blowout-explosion-oil
       quote: The Deepwater Horizon blowout, explosion, and oil spill did not have to happen.
 
   - section: the-need-for-a-new-independent-agency
@@ -170,9 +167,9 @@ reading_guide:
         functions from the pressures to increase production and maximize
         lease revenues.
 
-  - section: the-need-for-adequate-funding-for-safety-oversight-and-environmental
+  - section: chapter-ten-american-energy-policy-and-the-future-of-offshore-drilling
     title: "Chapter 10: American Energy Policy and the Future of Offshore Drilling"
-    why: After the last of Chapter 9's recommendations, the Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.
+    why: The Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.
     excerpt:
       paragraph: extent-which-offshore-drilling-contributes
       quote: >-
@@ -207,7 +204,7 @@ highlights:
       crew members had dubbed it "the well from hell."
   - paragraph: april-20-bp-macondo-well
     quote: As of April 20, BP and the Macondo well were almost six weeks behind schedule and more than $58 million over budget.
-  - paragraph: anderson-no-man-i-ve
+  - paragraph: ezell-do-you-need-any
     quote: 'Anderson: "No, man. . . . I''ve got this. . . . Go to bed. I''ve got it."'
   - paragraph: if-bp-s-response-capacity
     quote: >-
@@ -222,7 +219,7 @@ highlights:
       response technologies—booms, dispersants, and skimmers—were used, to
       limited effect.
     card: true
-  - paragraph: many-hardworking-individual-public-servants
+  - paragraph: april-20-inherent-risks-decades
     quote: For a regulatory agency to fall so short of its essential safety mission is inexcusable.
   - paragraph: frequency-unannounced-inspections-plummeted-108
     quote: Precisely when the need for regulatory oversight intensified, the government's capacity for oversight diminished.
