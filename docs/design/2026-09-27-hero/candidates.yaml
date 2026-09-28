@@ -307,3 +307,77 @@ us-v-philip-morris:
     recommended: false
     local_file: "us-v-philip-morris/prettyman-courthouse-apk-ALT.jpg"
     note: "Where Judge Kessler's court (US District Court for DC) sits; a legitimate venue shot but less specific to tobacco than the cigarette-pack image, and near-square crop needs trimming for a wide banner."
+
+uk-chilcot-inquiry:
+  - title: "Challenger 2 Main Battle Tank patrolling outside Basra, Iraq, 1 June 2004"
+    page_url: "https://commons.wikimedia.org/wiki/File:Challenger_2_Main_Battle_Tank_patrolling_outside_Basra,_Iraq_MOD_45148325.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/3/30/Challenger_2_Main_Battle_Tank_patrolling_outside_Basra%2C_Iraq_MOD_45148325.jpg"
+    credit: "Graeme Main / UK MOD, Wikimedia Commons"
+    licence: "Open Government Licence v1.0"
+    width: 4064
+    height: 2704
+    recommended: true
+    local_file: null
+    note: "A Challenger 2 firing on patrol outside Basra during Operation Telic 4: the British deployment the Inquiry examined, specific and dramatic, no one identifiable. Crops well at both 3.4:1 and 2:1, the barrel and dust holding the frame."
+  - title: "Sir John Chilcot presents the Iraq Inquiry Report, QEII Centre, 6 July 2016"
+    page_url: "https://www.gettyimages.com/photos/john-chilcot"
+    image_url: null
+    credit: "Getty Images / Reuters / AFP (various photographers)"
+    licence: "Copyrighted; no freely licensed or cleanly-mirrored copy found at usable size"
+    width: null
+    height: null
+    recommended: false
+    local_file: null
+    note: "The report's own launch moment, the closest analogue to the presenting-the-report shots used for other inquiries, but the Iraq Inquiry Commons category holds only the logo and the executive-summary PDF, and no news site was found serving a clean, large, non-watermarked copy of the Getty/Reuters/AFP press-conference photographs within a reasonable search. Fell back to the event the report investigates instead."
+  - title: "British Army teaches US Marines a vehicle checkpoint, Iraq, 3 April 2003"
+    page_url: "https://commons.wikimedia.org/wiki/File:3rd_Battalion,_Parachute_Regiment_in_support_of_Operation_IRAQI_FREEDOM_DM-SD-04-07489.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/e/eb/3rd_Battalion%2C_Parachute_Regiment_in_support_of_Operation_IRAQI_FREEDOM_DM-SD-04-07489.jpg"
+    credit: "SGT Mauricio Campino, USMC, Wikimedia Commons"
+    licence: "Public domain (US federal government work)"
+    width: 3000
+    height: 2400
+    recommended: false
+    local_file: null
+    note: "Free and high-resolution, but a posed training demonstration rather than the event itself, and a US Marine Corps photo of a training exchange rather than the British Army on operations. The Basra tank photograph is both more dramatic and more specific."
+
+us-lehman-examiner:
+  - title: "The Lehman Brothers sign for auction at Christie's, London, October 2010"
+    page_url: "https://commons.wikimedia.org/wiki/File:London_-_Lehman_Brothers_-_3868.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/d/db/London_-_Lehman_Brothers_-_3868.jpg"
+    credit: "Jorge Royan / Wikimedia Commons"
+    licence: "CC BY-SA 3.0"
+    width: 4368
+    height: 2912
+    recommended: true
+    local_file: null
+    note: "The corporate sign, salvaged from the collapsed bank's European HQ and sold as ephemera two years on: specific to Lehman by name, distinct from the Wall Street/PSI hero (the headquarters at night on the bankruptcy filing itself), and free-licensed. A television cameraman filming it, unidentifiable from behind, is the only person in frame. Crops well at both 3.4:1 and 2:1 with the sign kept in the upper two-thirds."
+  - title: "Anton Valukas testifies on the Examiner's Report, House Financial Services Committee, 20 April 2010"
+    page_url: "https://www.gettyimages.com/photos/anton-valukas"
+    image_url: null
+    credit: "Getty Images / AP (various photographers)"
+    licence: "Copyrighted; no freely licensed or cleanly-mirrored copy found at usable size"
+    width: null
+    height: null
+    recommended: false
+    local_file: null
+    note: "The most specific possible image for this report, the Examiner presenting his own findings to Congress, but only Getty/AP hold it, and no news article was found serving a clean, large copy the way the Guardian did for Hillsborough and Litvinenko. Worth revisiting if a mirror turns up."
+  - title: "Lehman Brothers employees leaving with boxes, September 2008"
+    page_url: null
+    image_url: null
+    credit: "various (AP/Getty/Reuters)"
+    licence: "Copyrighted; no free copy found at usable resolution on this search"
+    width: null
+    height: null
+    recommended: false
+    local_file: null
+    note: "The iconic image of the collapse, but close-ups of identifiable staff on the day they lost their jobs sit uneasily with the dignity line, and despite a Commons search (and a note on the PSI report's candidates that a free London copy existed) no freely licensed copy at usable size turned up here."
+  - title: "Lehman Brothers headquarters, New York, 15 September 2008 (Robert Scoble)"
+    page_url: "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-NYC-20080915.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/49/Lehman_Brothers-NYC-20080915.jpg"
+    credit: "Robert Scoble / Wikimedia Commons"
+    licence: "CC BY 2.0"
+    width: 4368
+    height: 2912
+    recommended: false
+    local_file: null
+    note: "Already shipped as the hero for us-psi-financial-crisis (Wall Street/PSI report); reusing it here would duplicate that page's image, which is why Rufus's brief asked for something distinct."
