@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — An introduction for the Iraq Inquiry, and hero photographs for both
+
+The Iraq Inquiry (Chilcot) Executive Summary now has a landing page: a standfirst, background, seven findings with quotations and a six-section reading guide. Both it and the Lehman Brothers examiner's report now carry a hero photograph — a Challenger 2 tank on patrol outside Basra in 2004, and the salvaged Lehman Brothers sign at Christie's in 2010 — sourced and credited in `docs/design/2026-09-27-hero/sources.yaml`.
+
 ## 2026-09-28 — Chilcot's numbered paragraphs are citable; a citable-density check
 
 The Iraq Inquiry Executive Summary numbers its 892 paragraphs "13.", "20."
@@ -21,6 +25,10 @@ Chilcot; Litvinenko, Leveson, Hillsborough and Challenger also number "N."
 at the margin but are unaffected. Also new: a corpus-wide check that a
 report's paragraph ids per 1,000 words aren't implausibly low, the kind of
 check that would have caught this on day one (reportsthatmatter-4qw).
+
+## 2026-09-28 — An introduction for the Lehman Brothers examiner report
+
+The Valukas Report's landing page now opens with a standfirst, background, seven findings with quotations and a four-section reading guide. It covers Volume 1; Repo 105 is summarised from the Executive Summary, and the page says plainly that the full Repo 105 analysis (Volume 3) is coming.
 
 ## 2026-09-28 — A thirteenth report: the Iraq Inquiry (Chilcot); 9/11, PSI, Hillsborough, Challenger and Leveson text fixed
 

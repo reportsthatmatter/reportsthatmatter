@@ -1,0 +1,167 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve. See
+# docs/report-introductions.md.
+#
+# Section slugs follow the headings the pipeline recovered (reportsthatmatter-ixe):
+# some paragraphs sit under the section before their printed heading.
+
+report: uk-chilcot-inquiry
+status: approved
+
+hero:
+  src: /assets/heroes/uk-chilcot-inquiry.webp
+  alt: >-
+    A British Challenger 2 tank firing on patrol in open desert outside Basra
+    on 1 June 2004, smoke from its barrel and dust thrown up by its tracks,
+    with barbed wire in the foreground.
+  credit: "Outside Basra, 1 June 2004 · Photo: Graeme Main/MOD, OGL v1.0"
+  source: "https://commons.wikimedia.org/wiki/File:Challenger_2_Main_Battle_Tank_patrolling_outside_Basra,_Iraq_MOD_45148325.jpg"
+  licence: Open Government Licence v1.0
+
+why_it_matters: >-
+  The official inquiry into why the United Kingdom joined the 2003 invasion of
+  Iraq and what followed, summarised by the Inquiry itself. Over seven years
+  Sir John Chilcot's committee examined how the decision was made, how
+  intelligence about weapons that were never found was presented, how the war
+  was judged legal, and why the UK did not achieve its objectives. It remains
+  the fullest official account of how Britain went to war.
+
+background: |
+  In March 2003 the United Kingdom joined the US-led invasion of Iraq. Cabinet decided on 17 March to take part, and the House of Commons endorsed the decision the next day. The Government's case rested on the threat from Iraq's weapons of mass destruction, which were never found. UK forces then held responsibility for security in south-east Iraq until 2009; 179 British service personnel died there.
+
+  On 15 June 2009 the Prime Minister, Gordon Brown, announced an inquiry by a committee of Privy Counsellors chaired by Sir John Chilcot, covering UK policy from 2001, when military action first became a possibility, to the withdrawal of UK troops in 2009. It took evidence in public hearings from November 2009 to February 2011 and read the Government's own papers, many of which it published. The report, some 2.6 million words in twelve volumes, was published on 6 July 2016. This is its Executive Summary: the Inquiry's own 150-page digest of its conclusions and lessons.
+
+  As Sir John Chilcot said in his statement on publication, the Inquiry "has not expressed a view on whether military action was legal", a question he said "could, of course, only be resolved by a properly constituted and internationally recognised Court". On the day of publication Tony Blair expressed "more sorrow, regret and apology than you may ever know or can believe", while maintaining that "there were no lies, parliament and cabinet were not misled, there was no secret commitment to war". His evidence to the Inquiry is quoted throughout the report.
+
+findings:
+  - text: The Inquiry concludes that the UK joined the invasion before the peaceful options for disarming Iraq had been exhausted, and that military action was not a last resort.
+    cites: [20-inquiry-s-view-diplomatic, 339-time-parliamentary-vote-18, 19-early-march-us-administration]
+    excerpt:
+      paragraph: 20-inquiry-s-view-diplomatic
+      quote: >-
+        In the Inquiry's view, the diplomatic options had not at that stage been
+        exhausted. Military action was therefore not a last resort.
+
+  - text: The relationship with the United States was a determining factor. The US had decided on regime change and set the timetable; Mr Blair committed the UK to stand with President Bush while seeking to take the issue through the UN.
+    cites: [uk-s-relationship-us-359, 16-timing-military-action-entirely, 93-blair-s-note-president]
+
+  - text: The report finds that judgements about Iraq's weapons were presented with a certainty the intelligence did not justify, and that the possibility Iraq no longer had them was never examined. It found no evidence that No.10 improperly influenced the September 2002 dossier.
+    cites: [329-no-stage-proposition-iraq, 330-intelligence-assessments-used-prepare, 533-jic-accepted-ownership-dossier]
+    excerpt:
+      paragraph: 330-intelligence-assessments-used-prepare
+      quote: >-
+        Intelligence and assessments were used to prepare material to be used to
+        support Government statements in a way which conveyed certainty without
+        acknowledging the limitations of the intelligence.
+
+  - text: The Inquiry finds the way the legal basis for war was settled "far from satisfactory". The Attorney General advised that there was, on balance, a secure legal basis only on 13 March 2003, and Cabinet was not told of the legal uncertainties.
+    cites: [432-circumstances-which-ultimately-decided, 433-not-until-13-march, 492-cabinet-however-being-asked]
+    excerpt:
+      paragraph: 432-circumstances-which-ultimately-decided
+      quote: >-
+        The circumstances in which it was ultimately decided that there was a
+        legal basis for UK participation were far from satisfactory.
+
+  - text: Mr Blair had been advised that invading Iraq would increase the threat to the UK from Al Qaida and its affiliates.
+    cites: [predicted-increase-threat-uk-result, 346-jic-continued-warn-march, 355-baroness-manningham-buller-subsequently]
+
+  - text: Although the risks of the aftermath were known, the report finds that planning for it was inadequate, with no one in Government responsible for all of it.
+    cites: [592-december-2002-mod-described, 609-absence-single-person-responsible, 858-although-uk-expected-be]
+    excerpt:
+      paragraph: 858-although-uk-expected-be
+      quote: >-
+        Although the UK expected to be involved in Iraq for a lengthy period
+        after the conflict, the Government was unprepared for the role in which
+        the UK found itself from April 2003. Much of what went wrong stemmed from
+        that lack of preparation.
+
+  - text: The UK did not achieve its objectives. The Iraq of 2009 "fell far short of strategic success", its sectarian divisions made worse by the Coalition's own decisions.
+    cites: [792-iraq-2009-certainly-did, 797-gap-between-ambitious-objectives, 857-uk-did-not-achieve]
+
+reading_guide:
+  - section: preconflict-strategy-and-planning
+    why: The Inquiry's own two-page account of the road to war, from 9/11 to the vote in the House of Commons.
+    excerpt:
+      paragraph: 23-blair-asked-parliament-endorse
+      quote: >-
+        Mr Blair asked Parliament to endorse a decision to invade and occupy a
+        sovereign nation, without the support of a Security Council resolution
+        explicitly authorising the use of force. Parliament endorsed that choice.
+
+  - section: the-impact-of-911
+    why: How policy moved from containment to confrontation after 9/11, and Mr Blair's private notes to President Bush.
+    excerpt:
+      paragraph: 94-note-began
+      quote: >-
+        I will be with you, whatever. But this is the moment to assess bluntly
+        the difficulties.
+
+  - section: was-iraq-a-serious-or-imminent-threat
+    why: The Inquiry's answer to the central question, including the warnings that war would raise the terrorist threat to the UK.
+    excerpt:
+      paragraph: 329-no-stage-proposition-iraq
+      quote: >-
+        At no stage was the proposition that Iraq might no longer have chemical,
+        biological or nuclear weapons or programmes identified and examined by
+        either the JIC or the policy community.
+
+  - section: advice-on-the-legal-basis-for-military-action
+    why: How the Attorney General's advice changed between January and March 2003, and what Cabinet was and was not told.
+    excerpt:
+      paragraph: 436-apart-from-no-10
+      quote: >-
+        Apart from No.10's response to the letter of 14 March, sent the following
+        day, in terms that can only be described as perfunctory, no formal record
+        was made of that decision and the precise grounds on which it was made
+        remain unclear.
+
+  - section: the-failure-to-plan-or-prepare-for-known-risks
+    why: Why the UK was unready for the occupation, department by department.
+    excerpt:
+      paragraph: 609-absence-single-person-responsible
+      quote: >-
+        In the absence of a single person responsible for overseeing all aspects
+        of planning and preparation, departments pursued complementary, but
+        separate, objectives. Gaps in UK capabilities were overlooked.
+
+  - section: did-the-uk-achieve-its-objectives-in-iraq
+    why: The Inquiry's verdict on the six years of occupation and what they left behind.
+    excerpt:
+      paragraph: 792-iraq-2009-certainly-did
+      quote: >-
+        The Iraq of 2009 certainly did not meet the UK's objectives as described
+        in January 2003: it fell far short of strategic success.
+
+highlights:
+  - paragraph: 20-inquiry-s-view-diplomatic
+    quote: In the Inquiry's view, the diplomatic options had not at that stage been exhausted. Military action was therefore not a last resort.
+    card: true
+  - paragraph: 432-circumstances-which-ultimately-decided
+    quote: The circumstances in which it was ultimately decided that there was a legal basis for UK participation were far from satisfactory.
+    card: true
+  - paragraph: 16-timing-military-action-entirely
+    quote: The timing of military action was entirely driven by the US Administration.
+    card: true
+  - paragraph: 329-no-stage-proposition-iraq
+    quote: At no stage was the proposition that Iraq might no longer have chemical, biological or nuclear weapons or programmes identified and examined by either the JIC or the policy community.
+    card: true
+  - paragraph: introduction-1-2003-first-time
+    quote: In 2003, for the first time since the Second World War, the United Kingdom took part in an opposed invasion and full‑scale occupation of a sovereign State – Iraq.
+  - paragraph: 3-consequences-invasion-conflict-within
+    quote: It left families bereaved and many individuals wounded, mentally as well as physically.
+  - paragraph: 54-although-there-no-evidence
+    quote: Although there was no evidence of links between Iraq and Al Qaida, Mr Blair encouraged President Bush to address the issue of Iraq in the context of a wider strategy to confront terrorism after the attacks of 9/11.
+  - paragraph: 355-baroness-manningham-buller-subsequently
+    quote: Baroness Manningham‑Buller subsequently added that if Ministers had read the JIC Assessments they could "have had no doubt" about that risk.
+  - paragraph: 436-apart-from-no-10
+    quote: no formal record was made of that decision and the precise grounds on which it was made remain unclear.
+  - paragraph: 858-although-uk-expected-be
+    quote: Much of what went wrong stemmed from that lack of preparation.
+  - paragraph: 857-uk-did-not-achieve
+    quote: The UK did not achieve its objectives, despite the best efforts and acceptance of risk in a dangerous environment by military and civilian personnel.
+    card: true
+  - paragraph: 827-democratic-system-public-support
+    quote: It is therefore important to guard against overstating what military action might achieve and against any tendency to play down the risks.
+  - paragraph: 830-military-timetable-should-not
+    quote: A military timetable should not be allowed to dictate a diplomatic timetable.

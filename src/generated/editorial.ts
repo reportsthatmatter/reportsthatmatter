@@ -1057,6 +1057,288 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "40% 35%"
     }
   },
+  "uk-chilcot-inquiry": {
+    "status": "approved",
+    "whyItMatters": "The official inquiry into why the United Kingdom joined the 2003 invasion of Iraq and what followed, summarised by the Inquiry itself. Over seven years Sir John Chilcot's committee examined how the decision was made, how intelligence about weapons that were never found was presented, how the war was judged legal, and why the UK did not achieve its objectives. It remains the fullest official account of how Britain went to war.",
+    "background": [
+      "In March 2003 the United Kingdom joined the US-led invasion of Iraq. Cabinet decided on 17 March to take part, and the House of Commons endorsed the decision the next day. The Government's case rested on the threat from Iraq's weapons of mass destruction, which were never found. UK forces then held responsibility for security in south-east Iraq until 2009; 179 British service personnel died there.",
+      "On 15 June 2009 the Prime Minister, Gordon Brown, announced an inquiry by a committee of Privy Counsellors chaired by Sir John Chilcot, covering UK policy from 2001, when military action first became a possibility, to the withdrawal of UK troops in 2009. It took evidence in public hearings from November 2009 to February 2011 and read the Government's own papers, many of which it published. The report, some 2.6 million words in twelve volumes, was published on 6 July 2016. This is its Executive Summary: the Inquiry's own 150-page digest of its conclusions and lessons.",
+      "As Sir John Chilcot said in his statement on publication, the Inquiry \"has not expressed a view on whether military action was legal\", a question he said \"could, of course, only be resolved by a properly constituted and internationally recognised Court\". On the day of publication Tony Blair expressed \"more sorrow, regret and apology than you may ever know or can believe\", while maintaining that \"there were no lies, parliament and cabinet were not misled, there was no secret commitment to war\". His evidence to the Inquiry is quoted throughout the report."
+    ],
+    "findings": [
+      {
+        "text": "The Inquiry concludes that the UK joined the invasion before the peaceful options for disarming Iraq had been exhausted, and that military action was not a last resort.",
+        "cites": [
+          {
+            "id": "20-inquiry-s-view-diplomatic",
+            "page": 6,
+            "href": "/reports/uk-chilcot-inquiry?p=20-inquiry-s-view-diplomatic"
+          },
+          {
+            "id": "339-time-parliamentary-vote-18",
+            "page": 47,
+            "href": "/reports/uk-chilcot-inquiry?p=339-time-parliamentary-vote-18"
+          },
+          {
+            "id": "19-early-march-us-administration",
+            "page": 6,
+            "href": "/reports/uk-chilcot-inquiry?p=19-early-march-us-administration"
+          }
+        ],
+        "excerpt": {
+          "quote": "In the Inquiry's view, the diplomatic options had not at that stage been exhausted. Military action was therefore not a last resort.",
+          "cite": {
+            "id": "20-inquiry-s-view-diplomatic",
+            "page": 6,
+            "href": "/reports/uk-chilcot-inquiry?p=20-inquiry-s-view-diplomatic&h=20.%20|In%20the%20Inquiry's%20view%2C%20the%20diplomatic%20options%20had%20not%20at%20that%20stage%20been%20exhausted.%20Military%20action%20was%20therefore%20not%20a%20last%20resort.|"
+          }
+        }
+      },
+      {
+        "text": "The relationship with the United States was a determining factor. The US had decided on regime change and set the timetable; Mr Blair committed the UK to stand with President Bush while seeking to take the issue through the UN.",
+        "cites": [
+          {
+            "id": "uk-s-relationship-us-359",
+            "page": 51,
+            "href": "/reports/uk-chilcot-inquiry?p=uk-s-relationship-us-359"
+          },
+          {
+            "id": "16-timing-military-action-entirely",
+            "page": 5,
+            "href": "/reports/uk-chilcot-inquiry?p=16-timing-military-action-entirely"
+          },
+          {
+            "id": "93-blair-s-note-president",
+            "page": 15,
+            "href": "/reports/uk-chilcot-inquiry?p=93-blair-s-note-president"
+          }
+        ]
+      },
+      {
+        "text": "The report finds that judgements about Iraq's weapons were presented with a certainty the intelligence did not justify, and that the possibility Iraq no longer had them was never examined. It found no evidence that No.10 improperly influenced the September 2002 dossier.",
+        "cites": [
+          {
+            "id": "329-no-stage-proposition-iraq",
+            "page": 45,
+            "href": "/reports/uk-chilcot-inquiry?p=329-no-stage-proposition-iraq"
+          },
+          {
+            "id": "330-intelligence-assessments-used-prepare",
+            "page": 46,
+            "href": "/reports/uk-chilcot-inquiry?p=330-intelligence-assessments-used-prepare"
+          },
+          {
+            "id": "533-jic-accepted-ownership-dossier",
+            "page": 73,
+            "href": "/reports/uk-chilcot-inquiry?p=533-jic-accepted-ownership-dossier"
+          }
+        ],
+        "excerpt": {
+          "quote": "Intelligence and assessments were used to prepare material to be used to support Government statements in a way which conveyed certainty without acknowledging the limitations of the intelligence.",
+          "cite": {
+            "id": "330-intelligence-assessments-used-prepare",
+            "page": 46,
+            "href": "/reports/uk-chilcot-inquiry?p=330-intelligence-assessments-used-prepare&h=330.%20|Intelligence%20and%20assessments%20were%20used%20to%20prepare%20material%20to%20be%20used%20to%20support%20Government%20statements%20in%20a%20way%20which%20conveyed%20certainty%20without%20acknowledging%20the%20limitations%20of%20the%20intelligence.|"
+          }
+        }
+      },
+      {
+        "text": "The Inquiry finds the way the legal basis for war was settled \"far from satisfactory\". The Attorney General advised that there was, on balance, a secure legal basis only on 13 March 2003, and Cabinet was not told of the legal uncertainties.",
+        "cites": [
+          {
+            "id": "432-circumstances-which-ultimately-decided",
+            "page": 62,
+            "href": "/reports/uk-chilcot-inquiry?p=432-circumstances-which-ultimately-decided"
+          },
+          {
+            "id": "433-not-until-13-march",
+            "page": 62,
+            "href": "/reports/uk-chilcot-inquiry?p=433-not-until-13-march"
+          },
+          {
+            "id": "492-cabinet-however-being-asked",
+            "page": 68,
+            "href": "/reports/uk-chilcot-inquiry?p=492-cabinet-however-being-asked"
+          }
+        ],
+        "excerpt": {
+          "quote": "The circumstances in which it was ultimately decided that there was a legal basis for UK participation were far from satisfactory.",
+          "cite": {
+            "id": "432-circumstances-which-ultimately-decided",
+            "page": 62,
+            "href": "/reports/uk-chilcot-inquiry?p=432-circumstances-which-ultimately-decided&h=432.%20|The%20circumstances%20in%20which%20it%20was%20ultimately%20decided%20that%20there%20was%20a%20legal%20basis%20for%20UK%20participation%20were%20far%20from%20satisfactory.|"
+          }
+        }
+      },
+      {
+        "text": "Mr Blair had been advised that invading Iraq would increase the threat to the UK from Al Qaida and its affiliates.",
+        "cites": [
+          {
+            "id": "predicted-increase-threat-uk-result",
+            "page": 47,
+            "href": "/reports/uk-chilcot-inquiry?p=predicted-increase-threat-uk-result"
+          },
+          {
+            "id": "346-jic-continued-warn-march",
+            "page": 48,
+            "href": "/reports/uk-chilcot-inquiry?p=346-jic-continued-warn-march"
+          },
+          {
+            "id": "355-baroness-manningham-buller-subsequently",
+            "page": 50,
+            "href": "/reports/uk-chilcot-inquiry?p=355-baroness-manningham-buller-subsequently"
+          }
+        ]
+      },
+      {
+        "text": "Although the risks of the aftermath were known, the report finds that planning for it was inadequate, with no one in Government responsible for all of it.",
+        "cites": [
+          {
+            "id": "592-december-2002-mod-described",
+            "page": 79,
+            "href": "/reports/uk-chilcot-inquiry?p=592-december-2002-mod-described"
+          },
+          {
+            "id": "609-absence-single-person-responsible",
+            "page": 81,
+            "href": "/reports/uk-chilcot-inquiry?p=609-absence-single-person-responsible"
+          },
+          {
+            "id": "858-although-uk-expected-be",
+            "page": 134,
+            "href": "/reports/uk-chilcot-inquiry?p=858-although-uk-expected-be"
+          }
+        ],
+        "excerpt": {
+          "quote": "Although the UK expected to be involved in Iraq for a lengthy period after the conflict, the Government was unprepared for the role in which the UK found itself from April 2003. Much of what went wrong stemmed from that lack of preparation.",
+          "cite": {
+            "id": "858-although-uk-expected-be",
+            "page": 134,
+            "href": "/reports/uk-chilcot-inquiry?p=858-although-uk-expected-be&h=858.%20|Although%20the%20UK%20expected%20to%20be%20involved%20in%20Iraq%20for%20a%20lengthy%20period%20after%20the%20conflict%2C%20the%20Government%20was%20unprepared%20for%20the%20role%20in%20which%20the%20UK%20found%20itself%20from%20April%202003.%20Much%20of%20what%20went%20wrong%20stemmed%20from%20that%20lack%20of%20preparation.|"
+          }
+        }
+      },
+      {
+        "text": "The UK did not achieve its objectives. The Iraq of 2009 \"fell far short of strategic success\", its sectarian divisions made worse by the Coalition's own decisions.",
+        "cites": [
+          {
+            "id": "792-iraq-2009-certainly-did",
+            "page": 109,
+            "href": "/reports/uk-chilcot-inquiry?p=792-iraq-2009-certainly-did"
+          },
+          {
+            "id": "797-gap-between-ambitious-objectives",
+            "page": 110,
+            "href": "/reports/uk-chilcot-inquiry?p=797-gap-between-ambitious-objectives"
+          },
+          {
+            "id": "857-uk-did-not-achieve",
+            "page": 134,
+            "href": "/reports/uk-chilcot-inquiry?p=857-uk-did-not-achieve"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "preconflict-strategy-and-planning",
+        "title": "Pre‑conflict strategy and planning",
+        "page": "6",
+        "why": "The Inquiry's own two-page account of the road to war, from 9/11 to the vote in the House of Commons.",
+        "excerpt": {
+          "quote": "Mr Blair asked Parliament to endorse a decision to invade and occupy a sovereign nation, without the support of a Security Council resolution explicitly authorising the use of force. Parliament endorsed that choice.",
+          "cite": {
+            "id": "23-blair-asked-parliament-endorse",
+            "page": 6,
+            "href": "/reports/uk-chilcot-inquiry?p=23-blair-asked-parliament-endorse&h=23.%20|Mr%20Blair%20asked%20Parliament%20to%20endorse%20a%20decision%20to%20invade%20and%20occupy%20a%20sovereign%20nation%2C%20without%20the%20support%20of%20a%20Security%20Council%20resolution%20explicitly%20authorising%20the%20use%20of%20force.%20Parliament%20endorsed%20that%20choice.|"
+          }
+        }
+      },
+      {
+        "slug": "the-impact-of-911",
+        "title": "The impact of 9/11",
+        "page": "11",
+        "why": "How policy moved from containment to confrontation after 9/11, and Mr Blair's private notes to President Bush.",
+        "excerpt": {
+          "quote": "I will be with you, whatever. But this is the moment to assess bluntly the difficulties.",
+          "cite": {
+            "id": "94-note-began",
+            "page": 15,
+            "href": "/reports/uk-chilcot-inquiry?p=94-note-began"
+          }
+        }
+      },
+      {
+        "slug": "was-iraq-a-serious-or-imminent-threat",
+        "title": "Was Iraq a serious or imminent threat?",
+        "page": "41",
+        "why": "The Inquiry's answer to the central question, including the warnings that war would raise the terrorist threat to the UK.",
+        "excerpt": {
+          "quote": "At no stage was the proposition that Iraq might no longer have chemical, biological or nuclear weapons or programmes identified and examined by either the JIC or the policy community.",
+          "cite": {
+            "id": "329-no-stage-proposition-iraq",
+            "page": 45,
+            "href": "/reports/uk-chilcot-inquiry?p=329-no-stage-proposition-iraq&h=329.%20|At%20no%20stage%20was%20the%20proposition%20that%20Iraq%20might%20no%20longer%20have%20chemical%2C%20biological%20or%20nuclear%20weapons%20or%20programmes%20identified%20and%20examined%20by%20either%20the%20JIC%20or%20the%20policy%20community.|"
+          }
+        }
+      },
+      {
+        "slug": "advice-on-the-legal-basis-for-military-action",
+        "title": "Advice on the legal basis for military action",
+        "page": "63",
+        "why": "How the Attorney General's advice changed between January and March 2003, and what Cabinet was and was not told.",
+        "excerpt": {
+          "quote": "Apart from No.10's response to the letter of 14 March, sent the following day, in terms that can only be described as perfunctory, no formal record was made of that decision and the precise grounds on which it was made remain unclear.",
+          "cite": {
+            "id": "436-apart-from-no-10",
+            "page": 63,
+            "href": "/reports/uk-chilcot-inquiry?p=436-apart-from-no-10&h=436.%20|Apart%20from%20No.10's%20response%20to%20the%20letter%20of%2014%20March%2C%20sent%20the%20following%20day%2C%20in%20terms%20that%20can%20only%20be%20described%20as%20perfunctory%2C%20no%20formal%20record%20was%20made%20of%20that%20decision%20and%20the%20precise%20grounds%20on%20which%20it%20was%20made%20remain%20unclear.|"
+          }
+        }
+      },
+      {
+        "slug": "the-failure-to-plan-or-prepare-for-known-risks",
+        "title": "The failure to plan or prepare for known risks",
+        "page": "79",
+        "why": "Why the UK was unready for the occupation, department by department.",
+        "excerpt": {
+          "quote": "In the absence of a single person responsible for overseeing all aspects of planning and preparation, departments pursued complementary, but separate, objectives. Gaps in UK capabilities were overlooked.",
+          "cite": {
+            "id": "609-absence-single-person-responsible",
+            "page": 81,
+            "href": "/reports/uk-chilcot-inquiry?p=609-absence-single-person-responsible&h=609.%20|In%20the%20absence%20of%20a%20single%20person%20responsible%20for%20overseeing%20all%20aspects%20of%20planning%20and%20preparation%2C%20departments%20pursued%20complementary%2C%20but%20separate%2C%20objectives.%20Gaps%20in%20UK%20capabilities%20were%20overlooked.|"
+          }
+        }
+      },
+      {
+        "slug": "did-the-uk-achieve-its-objectives-in-iraq",
+        "title": "Did the UK achieve its objectives in Iraq?",
+        "page": "110",
+        "why": "The Inquiry's verdict on the six years of occupation and what they left behind.",
+        "excerpt": {
+          "quote": "The Iraq of 2009 certainly did not meet the UK's objectives as described in January 2003: it fell far short of strategic success.",
+          "cite": {
+            "id": "792-iraq-2009-certainly-did",
+            "page": 109,
+            "href": "/reports/uk-chilcot-inquiry?p=792-iraq-2009-certainly-did&h=792.%20|The%20Iraq%20of%202009%20certainly%20did%20not%20meet%20the%20UK's%20objectives%20as%20described%20in%20January%202003%3A%20it%20fell%20far%20short%20of%20strategic%20success.|%20Although%20the%20borders%20of"
+          }
+        }
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-chilcot-inquiry.webp",
+      "width": 2400,
+      "height": 1597,
+      "small": {
+        "src": "/assets/heroes/uk-chilcot-inquiry-1200.webp",
+        "width": 1200
+      },
+      "credit": "Outside Basra, 1 June 2004 · Photo: Graeme Main/MOD, OGL v1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Challenger_2_Main_Battle_Tank_patrolling_outside_Basra,_Iraq_MOD_45148325.jpg",
+      "alt": "A British Challenger 2 tank firing on patrol in open desert outside Basra on 1 June 2004, smoke from its barrel and dust thrown up by its tracks, with barbed wire in the foreground.",
+      "focus": "50% 50%"
+    }
+  },
   "uk-hillsborough-panel": {
     "status": "approved",
     "whyItMatters": "The Hillsborough Independent Panel's account of how 96 football supporters died in a crush at the 1989 FA Cup semi-final, and what happened to the truth about it over the next 23 years. Commissioned after sustained campaigning by bereaved families, the Panel examined over 450,000 pages of previously undisclosed documents. It found the fans were not the cause of the disaster, and sets out in detail how police statements were altered and unsubstantiated allegations against them took hold.",
@@ -2310,6 +2592,225 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "source": "https://commons.wikimedia.org/wiki/File:Deepwater_Horizon_offshore_drilling_unit_on_fire.jpg",
       "alt": "Fire boats spray water on the Deepwater Horizon rig in the Gulf of Mexico on 21 April 2010, flames and black smoke pouring from it.",
       "focus": "50% 25%"
+    }
+  },
+  "us-lehman-examiner": {
+    "status": "approved",
+    "whyItMatters": "The court-appointed examiner's report on why Lehman Brothers, the largest bankruptcy in U.S. history, collapsed in September 2008. Drawing on some 34 million pages of documents and more than 250 interviews, it traces the firm's move into risky, hard-to-sell assets, and sets out Repo 105, the accounting device Lehman used to move $50 billion of assets off its balance sheet at quarter-end.",
+    "background": [
+      "On 15 September 2008 Lehman Brothers Holdings filed for Chapter 11 protection, the largest bankruptcy ever filed, after a weekend in which the U.S. Government declined to fund a rescue and a sale to Barclays fell through. The Dow Jones index fell 504 points that day; within weeks AIG had been bailed out and Congress had passed the $700 billion Troubled Asset Relief Program.",
+      "In January 2009 the U.S. Bankruptcy Court for the Southern District of New York ordered the appointment of an examiner to investigate why Lehman failed and whether its estate had claims against anyone. The U.S. Trustee appointed Anton R. Valukas, who retained the law firm Jenner & Block as counsel and Duff & Phelps as financial advisers; his team reviewed some 34 million pages of documents and interviewed more than 250 people. The report, about 2,200 pages in nine volumes, was made public on 11 March 2010. An examiner's report is not a verdict: a \"colorable\" claim, in the examiner's terms, is one with enough credible evidence to go before a court, not a finding of liability.",
+      "This edition is Volume 1: the introduction, the executive summary of all the examiner's conclusions, how the investigation was run, and Section III.A.1 on Lehman's business and risk management. The full analysis of Repo 105 (Section III.A.4, in Volume 3) is coming next; the executive summary here sets out its main findings.",
+      "In December 2010 New York's Attorney General sued Ernst & Young over Repo 105; the firm settled in 2015 for $10 million without admitting wrongdoing. The SEC closed its investigation in 2012 without bringing charges, and no Lehman executive was prosecuted."
+    ],
+    "findings": [
+      {
+        "text": "The examiner finds that Lehman failed because it lost the confidence of the lenders it borrowed from every day, and that the blame is shared between its executives, the investment bank business model and Government agencies.",
+        "cites": [
+          {
+            "id": "there-are-many-reasons-lehman",
+            "page": 2,
+            "href": "/reports/us-lehman-examiner?p=there-are-many-reasons-lehman"
+          },
+          {
+            "id": "lehman-s-financial-plight-consequences",
+            "page": 3,
+            "href": "/reports/us-lehman-examiner?p=lehman-s-financial-plight-consequences"
+          },
+          {
+            "id": "lehman-s-business-model-not",
+            "page": 3,
+            "href": "/reports/us-lehman-examiner?p=lehman-s-business-model-not"
+          }
+        ],
+        "excerpt": {
+          "quote": "There are many reasons Lehman failed, and the responsibility is shared. Lehman was more the consequence than the cause of a deteriorating economic climate.",
+          "cite": {
+            "id": "there-are-many-reasons-lehman",
+            "page": 2,
+            "href": "/reports/us-lehman-examiner?p=there-are-many-reasons-lehman&h=|There%20are%20many%20reasons%20Lehman%20failed%2C%20and%20the%20responsibility%20is%20shared.%20Lehman%20was%20more%20the%20consequence%20than%20the%20cause%20of%20a%20deteriorating%20economic%20climate.|"
+          }
+        }
+      },
+      {
+        "text": "From 2006 Lehman chose to grow aggressively, taking on commercial real estate, leveraged loans and private equity that it could not sell in a downturn, and kept going after the subprime crisis began, repeatedly exceeding its own risk limits.",
+        "cites": [
+          {
+            "id": "2006-lehman-made-deliberate-decision",
+            "page": 4,
+            "href": "/reports/us-lehman-examiner?p=2006-lehman-made-deliberate-decision"
+          },
+          {
+            "id": "lehman-continued-even-intensified-high",
+            "page": 43,
+            "href": "/reports/us-lehman-examiner?p=lehman-continued-even-intensified-high"
+          },
+          {
+            "id": "increase-lehman-s-net-assets",
+            "page": 57,
+            "href": "/reports/us-lehman-examiner?p=increase-lehman-s-net-assets"
+          }
+        ],
+        "excerpt": {
+          "quote": "In 2006, Lehman made the deliberate decision to embark upon an aggressive growth strategy, to take on significantly greater risk, and to substantially increase leverage on its capital.",
+          "cite": {
+            "id": "2006-lehman-made-deliberate-decision",
+            "page": 4,
+            "href": "/reports/us-lehman-examiner?p=2006-lehman-made-deliberate-decision&h=|In%202006%2C%20Lehman%20made%20the%20deliberate%20decision%20to%20embark%20upon%20an%20aggressive%20growth%20strategy%2C%20to%20take%20on%20significantly%20greater%20risk%2C%20and%20to%20substantially%20increase%20leverage%20on%20its%20capital.|12%20In%202007%2C%20as%20the"
+          }
+        }
+      },
+      {
+        "text": "The examiner concludes that these risk decisions, though poor in hindsight, were within the business judgment rule, and finds no colorable claims against Lehman's officers or directors over risk management.",
+        "cites": [
+          {
+            "id": "examiner-concludes-conduct-lehman-s",
+            "page": 47,
+            "href": "/reports/us-lehman-examiner?p=examiner-concludes-conduct-lehman-s"
+          },
+          {
+            "id": "based-upon-their-considerable-business",
+            "page": 52,
+            "href": "/reports/us-lehman-examiner?p=based-upon-their-considerable-business"
+          },
+          {
+            "id": "examiner-finds-insufficient-evidence-breach",
+            "page": 55,
+            "href": "/reports/us-lehman-examiner?p=examiner-finds-insufficient-evidence-breach"
+          }
+        ]
+      },
+      {
+        "text": "To keep that confidence, the report finds, Lehman painted a misleading picture of its finances. Through Repo 105 it temporarily removed about $50 billion of assets from its balance sheet at the end of two quarters in 2008, and disclosed this to no one, not even its own Board.",
+        "cites": [
+          {
+            "id": "buy-itself-more-time-maintain",
+            "page": 5,
+            "href": "/reports/us-lehman-examiner?p=buy-itself-more-time-maintain"
+          },
+          {
+            "id": "lehman-did-not-disclose-however",
+            "page": 6,
+            "href": "/reports/us-lehman-examiner?p=lehman-did-not-disclose-however"
+          },
+          {
+            "id": "lehman-did-not-disclose-its",
+            "page": 7,
+            "href": "/reports/us-lehman-examiner?p=lehman-did-not-disclose-its"
+          }
+        ],
+        "excerpt": {
+          "quote": "Although Repo 105 transactions may not have been inherently improper, there is a colorable claim that their sole function as employed by Lehman was balance sheet manipulation.",
+          "cite": {
+            "id": "although-repo-105-transactions-may",
+            "page": 18,
+            "href": "/reports/us-lehman-examiner?p=although-repo-105-transactions-may&h=|Although%20Repo%20105%20transactions%20may%20not%20have%20been%20inherently%20improper%2C%20there%20is%20a%20colorable%20claim%20that%20their%20sole%20function%20as%20employed%20by%20Lehman%20was%20balance%20sheet%20manipulation.|%20Lehman's%20own%20accounting"
+          }
+        }
+      },
+      {
+        "text": "Lehman also overstated its liquidity. The pool it reported as $41 billion held, two days later, less than $2 billion that could readily be turned into cash.",
+        "cites": [
+          {
+            "id": "lehman-did-not-publicly-disclose",
+            "page": 9,
+            "href": "/reports/us-lehman-examiner?p=lehman-did-not-publicly-disclose"
+          }
+        ],
+        "excerpt": {
+          "quote": "By September 12, two days after it publicly reported a $41 billion liquidity pool, the pool actually contained less than $2 billion of readily monetizable assets.",
+          "cite": {
+            "id": "lehman-did-not-publicly-disclose",
+            "page": 9,
+            "href": "/reports/us-lehman-examiner?p=lehman-did-not-publicly-disclose&h=become%20actual%20pledges.36%20|By%20September%2012%2C%20two%20days%20after%20it%20publicly%20reported%20a%20%2441%20billion%20liquidity%20pool%2C%20the%20pool%20actually%20contained%20less%20than%20%242%20billion%20of%20readily%20monetizable%20assets.|37"
+          }
+        }
+      },
+      {
+        "text": "The examiner finds colorable claims against CEO Richard Fuld and three chief financial officers for certifying misleading financial statements, and against the auditor Ernst & Young, which was told about Repo 105 by a Lehman senior vice president, Matthew Lee, and did not pass his allegations on to the Board's Audit Committee.",
+        "cites": [
+          {
+            "id": "business-decisions-brought-lehman-its",
+            "page": 16,
+            "href": "/reports/us-lehman-examiner?p=business-decisions-brought-lehman-its"
+          },
+          {
+            "id": "may-2008-lehman-senior-vice",
+            "page": 21,
+            "href": "/reports/us-lehman-examiner?p=may-2008-lehman-senior-vice"
+          }
+        ]
+      },
+      {
+        "text": "In the final weekend the Government concluded that it had no legal authority to put capital into Lehman, and a rescue by Barclays collapsed when the U.K. regulator would not waive a shareholder vote.",
+        "cites": [
+          {
+            "id": "over-weekend-september-12-14",
+            "page": 11,
+            "href": "/reports/us-lehman-examiner?p=over-weekend-september-12-14"
+          },
+          {
+            "id": "appeared-early-september-14-deal",
+            "page": 12,
+            "href": "/reports/us-lehman-examiner?p=appeared-early-september-14-deal"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "introduction",
+        "title": "Introduction",
+        "page": "1",
+        "why": "The whole story in fourteen pages, from record earnings in January 2008 to bankruptcy in September.",
+        "excerpt": {
+          "quote": "But to buy itself more time, to maintain that critical confidence, Lehman painted a misleading picture of its financial condition.",
+          "cite": {
+            "id": "buy-itself-more-time-maintain",
+            "page": 5,
+            "href": "/reports/us-lehman-examiner?p=buy-itself-more-time-maintain&h=|But%20to%20buy%20itself%20more%20time%2C%20to%20maintain%20that%20critical%20confidence%2C%20Lehman%20painted%20a%20misleading%20picture%20of%20its%20financial%20condition.|"
+          }
+        }
+      },
+      {
+        "slug": "why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise-from-its-fin",
+        "title": "Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure?",
+        "page": "16",
+        "why": "The examiner's conclusions in brief, including Repo 105 and the case against Ernst & Young, and what he means by a \"colorable\" claim."
+      },
+      {
+        "slug": "business-and-risk-management",
+        "title": "Business and Risk Management",
+        "page": "44",
+        "why": "How Lehman overrode its own risk limits, removed a senior manager judged not aggressive enough, and committed to the Archstone deal.",
+        "excerpt": {
+          "quote": "Months later, Antoncic, for example, reflected back on the general consensus that the markets were in trouble: \"every one saw the train wreck coming. 64k question is why didn't anyone get out of the way???\"",
+          "cite": {
+            "id": "nagioff-also-had-broader-concerns",
+            "page": 120,
+            "href": "/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=in%20a%20%22credit%20bubble.%22439%20|Months%20later%2C%20Antoncic%2C%20for%20example%2C%20reflected%20back%20on%20the%20general%20consensus%20that%20the%20markets%20were%20in%20trouble%3A%20%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|440"
+          }
+        }
+      },
+      {
+        "slug": "document-collection-and-review",
+        "title": "Document Collection and Review",
+        "page": "31",
+        "why": "The scale of the investigation, from three petabytes of Lehman data down to the 34 million pages the examiner reviewed."
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-lehman-examiner.webp",
+      "width": 2400,
+      "height": 1600,
+      "small": {
+        "src": "/assets/heroes/us-lehman-examiner-1200.webp",
+        "width": 1200
+      },
+      "credit": "Christie's, London, September 2010 · Photo: Jorge Royan, CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:London_-_Lehman_Brothers_-_3868.jpg",
+      "alt": "A television camera crew filming Lehman Brothers' illuminated corporate sign in a Christie's shop window, London, beside a card advertising the sale of \"Lehman Brothers: Artwork & Ephemera.\"",
+      "focus": "65% 35%"
     }
   },
   "us-psi-financial-crisis": {
