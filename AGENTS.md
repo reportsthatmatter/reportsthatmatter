@@ -103,6 +103,8 @@ an interactive session.
 | `editorial/<id>.yaml` | A report's landing page: why it matters, background, cited findings with key quotations, a reading guide, and Rufus's highlights. `status: approved` to show it; `?draft` on the contents page previews a draft |
 | `scripts/paragraphs.mjs` | A report's paragraphs with ids, pages and sections, as the editorial check reads them (`pnpm paragraphs <id> [words]`) |
 | `scripts/editorial.mjs` | Checks every editorial quote verbatim against the pre-rendered report and writes `src/generated/editorial.ts` (`pnpm editorial`, after `pnpm prerender`). `pnpm seed-highlights [--remote]` then writes the file's highlights to the marks table |
+| `marketing/queue.yaml` | The Bluesky posting queue, built by `pnpm posts` from every approved editorial file's `card: true` highlights plus `docs/share-quotes.yaml` — see [`docs/posts-queue.md`](docs/posts-queue.md). Idempotent and hand-off point for the scheduled poster (reportsthatmatter-y2t.4); makes no network request |
+| `scripts/posts.mjs`, `src/lib/posts.ts` | `pnpm posts`'s CLI and its testable logic: quote/id checking reuses `src/lib/editorial.ts`, never repeats it |
 | `assets/marks/` | Each report's plate, committed: `<id>.webp` and `<id>-row.webp` — see [`docs/plates.md`](docs/plates.md) |
 | `assets/heroes/` | Landing-page hero photographs, committed: `<id>.webp` (2400w) and `<id>-1200.webp`, built by `pnpm heroes` from `docs/design/2026-09-27-hero/sources.yaml` — see [`docs/hero-images.md`](docs/hero-images.md) |
 | `scripts/imagery/` | Plate pipeline (`pnpm marks`), hero pipeline (`pnpm heroes`) and the favicon renderer (`brand.mjs`) |
