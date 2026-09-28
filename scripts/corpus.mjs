@@ -30,6 +30,7 @@ import { createHash } from "node:crypto";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { extractPassages } from "@rtm/ingest";
+import { paragraphDensityCheck, MIN_PARAGRAPH_IDS_PER_1000_WORDS } from "../src/lib/density.ts";
 
 const root = join(import.meta.dirname, "..");
 const BASELINE = join(root, "reports/corpus-baseline.json");
@@ -173,12 +174,38 @@ for (const id of Object.keys(baseline)) {
   }
 }
 
+// A report can move nothing and still be broken: a baseline records whatever
+// shipped, not whether it was right, which is exactly how uk-chilcot-inquiry's
+// 892 numbered paragraphs — written to Markdown as a bare ordered list, no
+// paragraph id — passed this check for a full release (reportsthatmatter-4qw).
+// Density is checked unconditionally, not just on a baseline diff.
+let implausible = 0;
+for (const [id, report] of Object.entries(corpus)) {
+  const { ok, perThousandWords } = paragraphDensityCheck(report.words, report.paragraphs);
+  if (!ok) {
+    console.log(
+      `  ✗ ${id} — implausibly low citable-paragraph density: ${perThousandWords.toFixed(2)}/1,000 words`
+    );
+    implausible++;
+  }
+}
+failed += implausible;
+
 if (failed) {
-  console.log(
-    `\n${failed} report(s) moved. A paragraph id is a permalink: if these ids changed,\n` +
-      `every citation pointing at them changed too. Read the diff, then accept it\n` +
-      `deliberately with \`pnpm corpus accept\` — never to make the check quiet.`
-  );
+  if (failed - implausible > 0) {
+    console.log(
+      `\n${failed - implausible} report(s) moved. A paragraph id is a permalink: if these ids changed,\n` +
+        `every citation pointing at them changed too. Read the diff, then accept it\n` +
+        `deliberately with \`pnpm corpus accept\` — never to make the check quiet.`
+    );
+  }
+  if (implausible) {
+    console.log(
+      `\n${implausible} report(s) have an implausibly low citable-paragraph density (< ${MIN_PARAGRAPH_IDS_PER_1000_WORDS}` +
+        `/1,000 words). That usually means paragraphs are reaching Markdown as a list, a heading, or\n` +
+        `some other shape with no id — never weaken this to make it quiet; find why the ids are missing.`
+    );
+  }
   process.exit(1);
 }
 

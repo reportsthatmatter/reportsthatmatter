@@ -3391,230 +3391,230 @@
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 59832,
-      "paragraphs": 64,
+      "words": 61616,
+      "paragraphs": 956,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
-          "paragraphs": 13,
-          "ids": "a6507e3bfeca"
+          "paragraphs": 21,
+          "ids": "2a0c5366cf5c"
         },
         {
           "slug": "preconflict-strategy-and-planning",
           "title": "Pre‑conflict strategy and planning",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 16,
+          "ids": "1f77743d95fc"
         },
         {
           "slug": "uk-policy-before-911",
           "title": "UK policy before 9/11",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 20,
+          "ids": "82d10160f94d"
         },
         {
           "slug": "the-impact-of-911",
           "title": "The impact of 9/11",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 54,
+          "ids": "98539186da67"
         },
         {
           "slug": "decision-to-take-the-un-route",
           "title": "Decision to take the UN route",
-          "paragraphs": 8,
-          "ids": "c85f6511b464"
+          "paragraphs": 200,
+          "ids": "e6c1136808f2"
         },
         {
           "slug": "was-iraq-a-serious-or-imminent-threat",
           "title": "Was Iraq a serious or imminent threat?",
-          "paragraphs": 2,
-          "ids": "82c0240e18f0"
+          "paragraphs": 95,
+          "ids": "3abb88784424"
         },
         {
           "slug": "collective-responsibility",
           "title": "Collective responsibility",
-          "paragraphs": 3,
-          "ids": "c673a62fdb5a"
+          "paragraphs": 42,
+          "ids": "4c1babbf30f3"
         },
         {
           "slug": "advice-on-the-legal-basis-for-military-action",
           "title": "Advice on the legal basis for military action",
-          "paragraphs": 1,
-          "ids": "12c054258fbe"
+          "paragraphs": 27,
+          "ids": "4528d4fa2bb4"
         },
         {
           "slug": "lord-goldsmiths-advice-of-7-march-2003",
           "title": "Lord Goldsmith's advice of 7 March 2003",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 25,
+          "ids": "5080967f7115"
         },
         {
           "slug": "cabinet-17-march-2003",
           "title": "Cabinet, 17 March 2003",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 13,
+          "ids": "1d61fcce63a4"
         },
         {
           "slug": "iraq-wmd-assessments-prejuly-2002",
           "title": "Iraq WMD assessments, pre‑July 2002",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 23,
+          "ids": "68104b7c5ca1"
         },
         {
           "slug": "iraq-wmd-assessments-july-to-september-2002",
           "title": "Iraq WMD assessments, July to September 2002",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 33,
+          "ids": "f6a518735cc7"
         },
         {
           "slug": "iraq-wmd-assessments-october-2002-to-march-2003",
           "title": "Iraq WMD assessments, October 2002 to March 2003",
-          "paragraphs": 1,
-          "ids": "9f16e94dbd71"
+          "paragraphs": 38,
+          "ids": "25310890d9f0"
         },
         {
           "slug": "the-failure-to-plan-or-prepare-for-known-risks",
           "title": "The failure to plan or prepare for known risks",
-          "paragraphs": 3,
-          "ids": "e67a814e6caa"
+          "paragraphs": 50,
+          "ids": "aad3d94e6d74"
         },
         {
           "slug": "looting-in-basra",
           "title": "LOOTING IN BASRA",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 11,
+          "ids": "2efac1007771"
         },
         {
           "slug": "looting-in-baghdad",
           "title": "LOOTING IN BAGHDAD",
-          "paragraphs": 1,
-          "ids": "9e27c93a5e61"
+          "paragraphs": 13,
+          "ids": "f7cdc07420ca"
         },
         {
           "slug": "uk-influence-on-the-coalition-provisional-authority",
           "title": "UK INFLUENCE ON THE COALITION PROVISIONAL AUTHORITY",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 19,
+          "ids": "4b40c53ea220"
         },
         {
           "slug": "a-decline-in-security",
           "title": "A DECLINE IN SECURITY",
-          "paragraphs": 1,
-          "ids": "70dd37c11434"
+          "paragraphs": 29,
+          "ids": "332aab6cfde5"
         },
         {
           "slug": "planning-for-withdrawal",
           "title": "PLANNING FOR WITHDRAWAL",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 11,
+          "ids": "38d52524ee6b"
         },
         {
           "slug": "the-impact-of-afghanistan",
           "title": "THE IMPACT OF AFGHANISTAN",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 13,
+          "ids": "a07a5faba2e2"
         },
         {
           "slug": "iraqiisation",
           "title": "IRAQIISATION",
-          "paragraphs": 1,
-          "ids": "430ea115adb6"
+          "paragraphs": 14,
+          "ids": "ff418d7fb01e"
         },
         {
           "slug": "a-major-divergence-in-strategy",
           "title": "A MAJOR DIVERGENCE IN STRATEGY",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 6,
+          "ids": "08d900eccb89"
         },
         {
           "slug": "a-possible-civil-war",
           "title": "A POSSIBLE CIVIL WAR",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 21,
+          "ids": "c90254c1b42d"
         },
         {
           "slug": "force-level-review",
           "title": "FORCE LEVEL REVIEW",
-          "paragraphs": 1,
-          "ids": "b6a501183f71"
+          "paragraphs": 16,
+          "ids": "10d55313fcfd"
         },
         {
           "slug": "did-the-uk-achieve-its-objectives-in-iraq",
           "title": "Did the UK achieve its objectives in Iraq?",
-          "paragraphs": 1,
-          "ids": "c95da3712560"
+          "paragraphs": 12,
+          "ids": "5a4813449dd9"
         },
         {
           "slug": "development-of-uk-strategy-and-options-911-to-early-january-2002",
           "title": "Development of UK strategy and options, 9/11 to early January 2002",
-          "paragraphs": 1,
-          "ids": "e7450f456380"
+          "paragraphs": 2,
+          "ids": "e13c6313c322"
         },
         {
           "slug": "development-of-uk-strategy-and-options-april-to-july-2002",
           "title": "Development of UK strategy and options, April to July 2002",
-          "paragraphs": 3,
-          "ids": "bd4cd92310c2"
+          "paragraphs": 4,
+          "ids": "7a2732cf8997"
         },
         {
           "slug": "development-of-uk-strategy-and-options-1-february-to-7-march-2003",
           "title": "Development of UK strategy and options, 1 February to 7 March 2003",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 4,
+          "ids": "e4da74a3bbae"
         },
         {
           "slug": "the-search-for-wmd",
           "title": "The search for WMD",
-          "paragraphs": 3,
-          "ids": "8b919acf191e"
+          "paragraphs": 4,
+          "ids": "898f215bc393"
         },
         {
           "slug": "development-of-the-military-options-for-an-invasion-of-iraq",
           "title": "Development of the military options for an invasion of Iraq",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 16,
+          "ids": "0e97206ef549"
         },
         {
           "slug": "the-decision-to-go-to-war",
           "title": "The decision to go to war",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 8,
+          "ids": "b21c48cac7a1"
         },
         {
           "slug": "weapons-of-mass-destruction",
           "title": "Weapons of mass destruction",
-          "paragraphs": 1,
-          "ids": "f90c31402de7"
+          "paragraphs": 21,
+          "ids": "1a956be03afa"
         },
         {
           "slug": "the-postconflict-period",
           "title": "The post‑conflict period",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 10,
+          "ids": "41bcd4bcf975"
         },
         {
           "slug": "reconstruction",
           "title": "Reconstruction",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 14,
+          "ids": "969ee3978c1b"
         },
         {
           "slug": "debaathification",
           "title": "De‑Ba'athification",
-          "paragraphs": 1,
-          "ids": "df7099d94f9b"
+          "paragraphs": 8,
+          "ids": "23de42646ecf"
         },
         {
           "slug": "resources",
           "title": "Resources",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 13,
+          "ids": "c73b55d8b883"
         },
         {
           "slug": "civilian-personnel",
           "title": "Civilian personnel",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 11,
+          "ids": "f81125b24fe0"
         },
         {
           "slug": "timeline-of-events",
