@@ -67,9 +67,9 @@ findings:
         sufficient to obtain and sustain a conviction at trial.
 
   - text: Trump was told, by his own officials, advisors, state officials and the courts, that there was no fraud that could have changed the result. The report finds he knew he had lost.
-    cites: [fraud-and-evidence-shows-trump-used, acknowledged-sounded-crazy-before-publicly, trump-s-intent-spreading-knowing]
+    cites: [set-forth-original-superseding-indictments, trump-s-false-claims-included, trump-s-intent-spreading-knowing]
     excerpt:
-      paragraph: acknowledged-sounded-crazy-before-publicly
+      paragraph: trump-s-false-claims-included
       quote: >-
         Finally, at times, Mr. Trump made comments implicitly acknowledging that
         he knew he had lost the election. For example, in a January 3, 2021
@@ -130,7 +130,7 @@ reading_guide:
   - section: mr-trumps-fraudulent-elector-plan
     why: How electors were organised in seven states he lost, from the planning memos to December 14.
     excerpt:
-      paragraph: one-campaign-s-agents-wrote
+      paragraph: most-part-co-conspirators-deceived-trump
       quote: >-
         Two and a half hours later, he replied to his own email and, as cover,
         wrote that "'alternative' votes is probably a better term than 'fake'

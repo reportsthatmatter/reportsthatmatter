@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 66755,
-      "paragraphs": 455,
+      "words": 66748,
+      "paragraphs": 448,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -25,8 +25,8 @@
         {
           "slug": "the-results-of-the-investigation",
           "title": "THE RESULTS OF THE INVESTIGATION",
-          "paragraphs": 7,
-          "ids": "371bab212251"
+          "paragraphs": 4,
+          "ids": "a70edd5342ae"
         },
         {
           "slug": "mr-trumps-pressure-on-state-officials",
@@ -37,8 +37,8 @@
         {
           "slug": "mr-trumps-fraudulent-elector-plan",
           "title": "Mr. Trump's Fraudulent Elector Plan",
-          "paragraphs": 6,
-          "ids": "c6dc163333cf"
+          "paragraphs": 5,
+          "ids": "aa2ae370fc2f"
         },
         {
           "slug": "mr-trumps-misuse-of-official-power-through-the-justice-department",
@@ -85,8 +85,8 @@
         {
           "slug": "prosecuting-mr-trump-served-multiple-substantial-federal-interests",
           "title": "Prosecuting Mr. Trump Served Multiple Substantial Federal Interests",
-          "paragraphs": 33,
-          "ids": "3d09c3fe4394"
+          "paragraphs": 32,
+          "ids": "e4b317b162d3"
         },
         {
           "slug": "there-was-no-adequate-non-criminal-alternative-to-prosecution",
@@ -133,8 +133,8 @@
         {
           "slug": "threats-and-harassment-of-witnesses",
           "title": "Threats and Harassment of Witnesses",
-          "paragraphs": 8,
-          "ids": "e01dc4bf16cf"
+          "paragraphs": 7,
+          "ids": "d1694bf4c867"
         },
         {
           "slug": "mr-trumps-claims-of-executive-privilege",
@@ -145,8 +145,8 @@
         {
           "slug": "prosecutorial-decisions-during-the-charging-stage",
           "title": "Prosecutorial Decisions During the Charging Stage",
-          "paragraphs": 5,
-          "ids": "f8a7461aea1a"
+          "paragraphs": 4,
+          "ids": "3291ac29c70d"
         },
         {
           "slug": "immunity-litigation",
