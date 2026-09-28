@@ -7,6 +7,21 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — Chilcot's numbered paragraphs are citable; a citable-density check
+
+The Iraq Inquiry Executive Summary numbers its 892 paragraphs "13.", "20."
+straight through, at the left margin. Written to Markdown as a bare "20. …",
+each one was an ordered-list item to Markdown with no paragraph id: only 64
+of 956 citable units on the page could be cited, quoted in the introduction,
+highlighted or linked — including every conclusion, such as paragraph 20
+("the diplomatic options had not at that stage been exhausted") and
+paragraph 432 (the legal basis was "far from satisfactory"). `@rtm/ingest`
+v0.14.1 adds `escapeNumberedParagraphs()`, an opt-in pass declared only by
+Chilcot; Litvinenko, Leveson, Hillsborough and Challenger also number "N."
+at the margin but are unaffected. Also new: a corpus-wide check that a
+report's paragraph ids per 1,000 words aren't implausibly low, the kind of
+check that would have caught this on day one (reportsthatmatter-4qw).
+
 ## 2026-09-28 — A thirteenth report: the Iraq Inquiry (Chilcot); 9/11, PSI, Hillsborough, Challenger and Leveson text fixed
 
 **The Report of the Iraq Inquiry — Executive Summary** (2016), Sir John Chilcot's account of the UK's decision to go to war: 69 of its 88 contents-listed section headings had no heading shape of their own — no capital, number or label — and previously ran straight into the paragraph after them; all are now recovered. Also in `@rtm/ingest` v0.14.0: the 9/11 Commission's printed Notes appendix now reads as linked endnotes under real chapter headings instead of running-together body text; PSI's footnotes that spill over a whole page no longer print as ordinary paragraphs (17 leaked down to 3); Hillsborough's Parts, Chapters and Appendices are recovered as real structure; Challenger drops its remaining caption and OCR-garble headings; and Leveson's headings ending "CHAPTER n"/"APPENDIX n" keep their number.
