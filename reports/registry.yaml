@@ -94,3 +94,11 @@ reports:
     source_path: reports/uk-chilcot-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123123237mp_/http://www.iraqinquiry.org.uk/media/246416/the-report-of-the-iraq-inquiry_executive-summary.pdf"
     ingested: true
+
+  - id: us-lehman-examiner
+    title: "Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings Inc., et al. — Volume 1"
+    authors: "Anton R. Valukas, Examiner (Jenner & Block LLP)"
+    published_at: "11 March 2010"
+    source_path: reports/us-lehman-examiner/full.md
+    source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
+    ingested: true

@@ -15,6 +15,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "uk-saville-inquiry/default",
   "us-911-commission/default",
   "us-deepwater-horizon/default",
+  "us-lehman-examiner/default",
   "us-psi-financial-crisis/default",
   "us-v-philip-morris/default"
 ]);

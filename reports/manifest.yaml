@@ -33,3 +33,5 @@ reports:
     dir: ../uk-saville-inquiry
   - id: uk-chilcot-inquiry
     dir: ../uk-chilcot-inquiry
+  - id: us-lehman-examiner
+    dir: ../us-lehman-examiner

@@ -7,6 +7,18 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — A twelfth report: the Lehman Brothers examiner (Volume 1)
+
+**Report of Anton R. Valukas, Examiner** (2010), the court-appointed
+investigation into Lehman Brothers' collapse — scoped to Volume 1 of 9
+(196 pages, 690 footnotes): the Introduction, Executive Summary and
+Procedural Background, and the Examiner's findings on Lehman's business and
+risk management. The official PDF opens with the whole nine-volume report's
+table of contents; it's excluded here as out of scope rather than ingested
+as loose bullet fragments (see the report's own README). The Examiner's
+"Repo 105" findings — the accounting device Lehman used to understate its
+leverage before each quarterly report — are in Volume 3, not yet on the site.
+
 ## 2026-09-28 — Page-break sentences, Deepwater's chapters, Philip Morris's findings, and Columbia's structure fixed
 
 Four fixes shipped together in `@rtm/ingest` v0.13.0. Jack Smith: sentences split across a page break — including one a skewed scan had set as a block quotation — are rejoined; the three examples raised on GitHub, "false claims of election fraud", "monitored legal developments regarding" and "claims that they were making", now read as continuous prose. Deepwater Horizon: chapter, part and appendix headings are read from the contents instead of being folded into figure captions or the paragraph below them. United States v. Philip Morris: the opinion's 4,088 numbered Findings of Fact are citable paragraphs rather than an unlinked list, and its headings come from the contents rather than body or footnote text. Columbia: its section structure is read from the contents — fixing the two-column regression that had pinned it to an older pipeline release — and paragraph ids containing an apostrophe-like character (ʼ) resolve again across the archive.
