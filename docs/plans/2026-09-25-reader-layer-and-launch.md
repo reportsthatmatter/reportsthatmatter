@@ -74,6 +74,12 @@ Written 2026-09-25. Ties together the three directions Rufus raised: summaries a
 - Block quotations have no ids, so some of the best lines can't be deep-linked (`reportsthatmatter-dam`).
 - Footnote text leaks into the body paragraphs where launch traffic will land (`reportsthatmatter-g1f`). This now blocks the launch milestone.
 
+## Started 2026-09-28
+
+- B3 (`reportsthatmatter-y2t.3`) done: `pnpm posts` builds `marketing/queue.yaml` from every approved editorial file's `card: true` highlights plus `docs/share-quotes.yaml`, checked with `src/lib/editorial.ts`'s own verbatim/id logic, enforcing Bluesky's 300-grapheme limit and Appendix C's format. Idempotent (append-only; a `posted_url` or an assigned date is never touched by a rerun), round-robin across reports since y2t.5 has no calendar data yet. A static local preview at `build/posts-preview.html`. Details in [`docs/posts-queue.md`](../posts-queue.md).
+- Of 61 approved `card: true` highlights across the 11 reports, 46 resolve into the queue today; 15 don't (12 over the 300-grapheme limit, 3 with no page number) — expected, since highlights were chosen for on-page reading, not for fitting a tweet. Two `docs/share-quotes.yaml` entries for Jack Smith are stale against the current pre-rendered text (their wording predates the editorial rewrite of those same paragraphs) and are skipped, not fatal.
+- Gap worth closing next: `scripts/cards.mjs` doesn't yet render a card per editorial `card: true` highlight, only per `docs/share-quotes.yaml` entry. 45 of the 46 queued items use a report's plain default card rather than one matching their quote. Extending `pnpm cards` to cover editorial highlights (and folding `share-quotes.yaml` into the editorial files, track A6) would fix this.
+
 ## Beads
 
 - Reader layer: `reportsthatmatter-g0w` (.1 to .7). It supersedes `ix4`, which is now closed.
