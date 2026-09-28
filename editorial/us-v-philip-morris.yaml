@@ -2,12 +2,12 @@
 # for the fields and the rules. Every quote is verbatim from the rendered report
 # (OCR quirks included) and is checked by `pnpm editorial`; every id must resolve.
 #
-# Extraction note: in this report the numbered Findings of Fact (the bulk of
-# the opinion) render as list items without paragraph ids, so they cannot be
-# cited; findings below cite the Introduction and the Conclusions of Law, whose
-# paragraphs do have ids. Several section headings are body or footnote text
-# ("Section V: (E). Defendants know ..."); reading_guide overrides the one it
-# uses. Filed as beads for the ingestion pipeline.
+# Extraction note: the numbered Findings of Fact are citable paragraphs whose
+# ids open with the finding's number ("2018-after-weighing-evaluating-all");
+# until reportsthatmatter-9ek they rendered as list items without ids, which is
+# why most findings below cite the Introduction and the Conclusions of Law.
+# Section headings come from the opinion's own table of contents
+# (reportsthatmatter-72f).
 #
 # Background facts not stated in the report itself, verified 2026-09-26:
 #   - Suit filed 22 September 1999:
@@ -108,13 +108,13 @@ findings:
     cites: [despite-their-internal-acknowledgment-hazards, throughout-past-fifty-years-defendants, finally-word-must-be-said]
 
   - text: The court did not find every allegation proved. It held that the Government had not shown that the companies deliberately chose to sabotage the marketing and production of less hazardous cigarettes.
-    cites: [court-concludes-government-has-failed]
+    cites: [2018-after-weighing-evaluating-all]
 
   - text: Finding that the violations were likely to continue and that the 1998 settlement had not changed the companies' conduct enough, the court banned "light", "low tar" and similar descriptors and ordered corrective statements on five subjects.
     cites: [defendants-senior-executives-took-witness, while-msa-has-made-significant, court-will-therefore-order-ban, accordingly-court-will-structure-remedy]
 
 reading_guide:
-  - section: introduction
+  - section: overview
     title: Introduction
     why: The whole judgment in four pages — what the Government alleged, what the court found, the remedies it could and could not order, and a word on the lawyers.
     excerpt:
@@ -124,8 +124,7 @@ reading_guide:
         creation and perpetuation of the Enterprise and the implementation of
         its fraudulent schemes.
 
-  - section: pre-1953-overviewthe-rise-in-american-smoking-and-the-status-of-scientific
-    title: Pre-1953 Overview — The Rise in American Smoking and the Status of Scientific Research on Smoking and Health
+  - section: creation-of-the-enterprise
     why: Where it began — the December 1953 meeting at the Plaza Hotel, the public relations firm Hill & Knowlton, and the "Frank Statement" of January 1954.
 
   - section: defendants-falsely-denied-the-adverse-health-effects-of-smoking
@@ -159,7 +158,7 @@ reading_guide:
         Executive Chairman Andrew Schindler refused to admit that smoking
         causes disease.
 
-  - section: section-v-e-defendants-know-that-health-concerns-are-the-primary-motivation-for-
+  - section: prohibition-of-brand-descriptors
     title: "Remedies: Banning \"Light\" and \"Low Tar\""
     why: The remedy the court ordered first — a ban on descriptors that imply a cigarette is less harmful.
     excerpt:
