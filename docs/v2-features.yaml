@@ -205,11 +205,16 @@
 
 - id: more-reports
   desc: >
-    Eleven published. Added 2026-09-18: uk-saville-inquiry (Volume I of X),
+    Twelve published. Added 2026-09-28: uk-chilcot-inquiry (the Iraq
+    Inquiry's Executive Summary — the full 12-volume report is a separate
+    scoping decision, reportsthatmatter-0a7), built with
+    runningFurniture(), quoteInset(4), numberedParagraphs() and
+    listedHeadings() in @rtm/ingest v0.12.21. Added 2026-09-18:
+    uk-saville-inquiry (Volume I of X),
     which needed four report-declared passes in @rtm/ingest v0.12.16. Added 2026-09-03: us-911-commission, us-deepwater-horizon,
     us-v-philip-morris, uk-hillsborough-panel — all born-digital, all clean,
-    all passing the fidelity gate (retention 96.6–99.7%). ~22 candidates
-    remain, curated as GitHub issues — Chilcot (#67), Saville (#39),
+    all passing the fidelity gate (retention 96.6–99.7%). ~21 candidates
+    remain, curated as GitHub issues — Saville (#39),
     Valukas (#24), Duelfer (#34), Grenfell (#92), Deepwater's separate
     chief-counsel report, and more. FCIC (#57/#102 — the PDF drops every
     digit on extraction) is still ruled out. Each report gets its own repo
@@ -220,6 +225,9 @@
   followups: >
     uk-hillsborough-panel headings are visual (colour/weight), invisible to
     pdftotext, so it sections poorly — see the ingestion-quality issue.
+    uk-chilcot-inquiry: 75 of 88 contents-listed headings have no
+    distinguishing marker (no caps, numbering or division label) and are
+    not recovered as structure — reportsthatmatter-ixe.
 
 - id: text-out-of-order
   desc: >
