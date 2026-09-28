@@ -3493,14 +3493,14 @@
       ]
     },
     "us-duelfer-report": {
-      "words": 168029,
-      "paragraphs": 3020,
+      "words": 167217,
+      "paragraphs": 2766,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
-          "paragraphs": 3020,
-          "ids": "cf206e20498a"
+          "paragraphs": 2766,
+          "ids": "f4d77c7490f3"
         },
         {
           "slug": "notes-not-linked-in-the-text",

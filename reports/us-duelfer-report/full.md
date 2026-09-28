@@ -113,7 +113,7 @@ Regime Strategic Intent
 
 Saddam Husayn, January 1991
 
-- Contents Regime Strategic Key Findings — 1
+- Contents Key Findings — 1
 
 - Who Made Iraq's Strategic Decisions and Determined WMD Policy — 5
 
@@ -241,7 +241,7 @@ Saddam Husayn, January 1991
 
 ii
 
-- Annexes Regime Strategic A. The Quartet—Influence and Disharmony Among Saddam's Lieutenants — 69
+- Annexes A. The Quartet—Influence and Disharmony Among Saddam's Lieutenants — 69
 
 - B. Iraq's Intelligence Services — 73
 
@@ -253,9 +253,7 @@ iii iv
 
 %%page 1#5%%
 
-Key Findings Regime Strategic
-
-Saddam Husayn so dominated the Iraqi Regime that its strategic intent was his alone. He wanted to end sanctions while preserving the capability to reconstitute his weapons of mass destruction (WMD) when sanctions were lifted. • Saddam totally dominated the Regime's strategic decision making. He initiated most of the strategic thinking upon which decisions were made, whether in matters of war and peace (such as invading Kuwait), maintaining WMD as a national strategic goal, or on how Iraq was to position itself in the international community. Loyal dissent was discouraged and constructive variations to the implementation of his wishes on strategic issues were rare. Saddam was the Regime in a strategic sense and his intent became Iraq's strategic policy.
+Key Findings Saddam Husayn so dominated the Iraqi Regime that its strategic intent was his alone. He wanted to end sanctions while preserving the capability to reconstitute his weapons of mass destruction (WMD) when sanctions were lifted. • Saddam totally dominated the Regime's strategic decision making. He initiated most of the strategic thinking upon which decisions were made, whether in matters of war and peace (such as invading Kuwait), maintaining WMD as a national strategic goal, or on how Iraq was to position itself in the international community. Loyal dissent was discouraged and constructive variations to the implementation of his wishes on strategic issues were rare. Saddam was the Regime in a strategic sense and his intent became Iraq's strategic policy.
 
 - Saddam's primary goal from 1991 to 2003 was to have UN sanctions lifted, while maintaining the security of the Regime. He sought to balance the need to cooperate with UN inspections—to gain support for lifting sanctions—with his intention to preserve Iraq's intellectual capital for WMD with a minimum of foreign intrusiveness and loss of face. Indeed, this remained the goal to the end of the Regime, as the starting of any WMD program, conspicuous or otherwise, risked undoing the progress achieved in eroding sanctions and jeopardizing a political end to the embargo and international monitoring.
 - The introduction of the Oil-For-Food program (OFF) in late 1996 was a key turning point for the Regime. OFF rescued Baghdad's economy from a terminal decline created by sanctions. The Regime quickly came to see that OFF could be corrupted to acquire foreign exchange both to further undermine sanctions and to provide the means to enhance dual-use infrastructure and potential WMD-related development.
@@ -280,15 +278,13 @@ Analysts used subsource development and document exploitation to crosscheck deta
 
 %%page 3#4%%
 
-Former Iraqi Regime Officials Varied in Their Level of Cooperation Regime Strategic
+Former Iraqi Regime Officials Varied in Their Level of Cooperation
 
 The quality of cooperation and assistance provided to ISG by former senior Iraqi Regime officials in custody varied widely. Some obstructed all attempts to elicit information on WMD and illicit activities of the former Regime. Others, however, were keen to help clarify every issue, sometimes to the point of self-incrimination. The two extremes of cooperation are epitomized by 'Ali Hasan Al Majid—a key Presidential Adviser and RCC member—and Sabir 'Abd-al-Aziz Husayn Al Duri, a former Lieutenant General who served in both the Directorate of General Military Intelligence and the Iraqi Intelligence Service. 'Ali Hasan Al Majid was loquacious on many subjects, but remained adamant in denying any involvement in the use of CW in attacks on the Kurds and dissembling in any discussion of the subject. His circumlocution extends to most other sensitive subjects of Regime behavior. By contrast, Sabir has been forthcoming to the point of direct association with a wide range of Iraqi activities, including the management of Kuwaiti prisoners, the organization of assassinations abroad by the former Iraqi Intelligence Service (IIS), and the torture of political prisoners.
 
 %%page 5#3%%
 
-> Who Made Iraq's Strategic Decisions and Determined WMD
-
-Policy
+> Who Made Iraq's Strategic Decisions and Determined WMD Policy
 
 Saddam's Place in the Regime
 
@@ -308,7 +304,11 @@ Republican Guard (RG), Special Republican Guard
 
 - Tariq 'Aziz 'Issa says that Saddam had enhanced the role of the tribal leaders, giving them money, weapons, land and authority, to turn them into an instrument of support for himself.
 
-Personalized Rule Saddam dominated all Iraqi institutions by the early 1990s and increasingly administered by personal direction. Major strategic decisions were made by Saddam's fiat alone, although subordinates acted upon what they perceived to be indirect or implied orders from him. Moreover, Saddam, particularly early in his rule, was fond of micromanagement in all aspects of government. • Former advisors suggest that Saddam was healthy, rational and deliberate. He would ponder key decisions—such as the invasion of Kuwait—for months a As a convention, "Military Industrialization Commission" is used throughout this text to refer to the Arabic Name Hi'at al-Tasnia but share his thoughts with few advisors. He was Regime Strategic cool under pressure. Even his firmest supporters, such as 'Abd Hamid Mahmud Al Khatab Al Nasiri, the former presidential secretary from 1991 to 2003, characterize his decision-making style as secretive.
+Personalized Rule Saddam dominated all Iraqi institutions by the early 1990s and increasingly administered by personal direction. Major strategic decisions were made by Saddam's fiat alone, although subordinates acted upon what they perceived to be indirect or implied orders from him. Moreover, Saddam, particularly early in his rule, was fond of micromanagement in all aspects of government. • Former advisors suggest that Saddam was healthy, rational and deliberate. He would ponder key decisions—such as the invasion of Kuwait—for months a As a convention, "Military Industrialization Commission" is used throughout this text to refer to the Arabic Name Hi'at al-Tasnia
+
+Al-'Askarri. Other translations of the name include Organization of Military Industrialization (OMI) and Military Industrial Organization (MIO). All refer to the same institution.
+
+but share his thoughts with few advisors. He was cool under pressure. Even his firmest supporters, such as 'Abd Hamid Mahmud Al Khatab Al Nasiri, the former presidential secretary from 1991 to 2003, characterize his decision-making style as secretive.
 
 - 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh— former Deputy Prime Minister from 2001 to 2003 and Minister of Military Industrialization from 1997 to 2003—believed there was a "big gap" between Saddam and his advisors and that, despite the lengthy pondering of an issue, he could be emotive at the point of decision. For example, Huwaysh, while not in a position of power at the time, pointed to the sudden and unconsultative manner in which Saddam ordered the invasion of Kuwait, despite the amount of planning and forethought that had gone into the scheme.
 - Saddam had shown a detailed, technical interest in military affairs during the Iran-Iraq war, frequently visiting army units and giving direct instructions, whether or not the defense minister or the chief-of-staff was present. In contrast, limited evidence suggests that after 1991 Saddam attempted to detach himself from the minutiae of working with the UN.
@@ -318,13 +318,11 @@ Saddam's Unsettled Lieutenants
 
 Most of Saddam's key lieutenants were active, experienced and committed to the Regime, but by the mid-1990s they were tightly constrained by their fear of Saddam, isolation and a loss of power. Many accepted the limits of their personal influence in return for membership in a privileged class, because of a personal identification with the goals of the Regime and realization of the personal consequences should it fall.
 
-Al-'Askarri. Other translations of the name include Organization of Military Industrialization (OMI) and Military Industrial Organization (MIO). All refer to the same institution.
-
 %%page 6#2%%
 
-Key Iraqi Organizations and Officials (2003) (Note: Names bolded and italicized have been interviewed by ISG) President Saddam Husayn
+Key Iraqi Organizations and Officials (2003) (Note: Names bolded and italicized have been interviewed by ISG)
 
-Prime Minister Vice President Vice President Secretary of the President Deputy Prime Ministers
+President Prime Minister Vice President Vice President Secretary of the President Deputy Prime Ministers
 
 Chairman, Presidential Diwan Minister of Foreign Affairs Minister of Defense Army Chief-of-Staff Minister of Military Industrialization National Monitoring Directorate Committee of Three (Military Matters)
 
@@ -338,17 +336,13 @@ National Security Council
 
 Higher Inspection Committee
 
-Saddam Husayn Taha Muhyi-al-Din Ma'ruf [still at large] Taha Yasin Ramadan Al Jizrawi 'Abd Hamid Mahmud Al Khatab Al Nasiri Tariq 'Aziz 'Issa Ahmad Husayn Khudayr Al Samarra'i Hikmat Mizban Ibrahim Al 'Azzawi 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh Ahmad Husayn Khudayr Al Samarra'i Naji Sabri Ahmad Al Hadithi Staff Gen. Sultan Hashim Ahmad Al Ta'i Staff Gen. Ibrahim Ahmad 'Abd-al-Sattar Muhammad 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh Husam Muhammad Amin Al Yasin, Director Qusay Saddam Husayn [deceased] Staff Gen. Sultan Hashim Ahmad Al Ta'i Staff Gen. Husayn Rashid Muhammad 'Arab Al Tikriti
+Saddam Husayn Saddam Husayn Taha Muhyi-al-Din Ma'ruf [still at large] Taha Yasin Ramadan Al Jizrawi 'Abd Hamid Mahmud Al Khatab Al Nasiri Tariq 'Aziz 'Issa Ahmad Husayn Khudayr Al Samarra'i Hikmat Mizban Ibrahim Al 'Azzawi 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh Ahmad Husayn Khudayr Al Samarra'i Naji Sabri Ahmad Al Hadithi Staff Gen. Sultan Hashim Ahmad Al Ta'i Staff Gen. Ibrahim Ahmad 'Abd-al-Sattar Muhammad 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh Husam Muhammad Amin Al Yasin, Director Qusay Saddam Husayn [deceased] Staff Gen. Sultan Hashim Ahmad Al Ta'i Staff Gen. Husayn Rashid Muhammad 'Arab Al Tikriti
 
 Heads of all major departments
 
-Saddam Husayn (Chairman) 'Izzat Ibrahim Al Duri (Vice-Chairman) [still at large] Taha Yasin Ramadan Al Jizrawi Taha Muhyi-al-Din Ma'ruf [still at large] Tariq 'Aziz 'Issa 'Ali Hasan Al Majid Mizban Khadr Hadi 'Izzat Ibrahim Al Duri [still at large] Taha Yasin Ramadan Al Jizrawi Tariq 'Aziz 'Issa 'Ali Hasan Al Majid 'Izzat Ibrahim Al Duri (Chairman) [still at large] 'Abd Hamid Mahmud Al Khatab Al Nasiri (Secretary) Qusay Saddam Husayn, Special Security Organization [deceased] Tahir Jalil Habbush, IIS [still at large] Zuhayr Talib 'Abd-al-Sattar, DGMI Rafi' 'Abd-al-Latif Tulfah Al Nasiri, Directorate of General Security [still at large] Taha Yasin Ramadan Al Jizrawi (Chairman 2002-2003) Tariq 'Aziz Issa (Chairman 1991-1998) 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh Naji Sabri Ahmad Al Hadithi Husam Muhammad Amin Al Yasin Qusay Saddam Husayn [deceased]
-
-> 'Amir Muhammad Rashid Al 'Ubaydi 'Amir Hamudi Hasan Al Sa'adi (scientific advisor) Ja'far Diya' Ja'far Hashim (scientific advisor)
+Saddam Husayn (Chairman) 'Izzat Ibrahim Al Duri (Vice-Chairman) [still at large] Taha Yasin Ramadan Al Jizrawi Taha Muhyi-al-Din Ma'ruf [still at large] Tariq 'Aziz 'Issa 'Ali Hasan Al Majid Mizban Khadr Hadi 'Izzat Ibrahim Al Duri [still at large] Taha Yasin Ramadan Al Jizrawi Tariq 'Aziz 'Issa 'Ali Hasan Al Majid 'Izzat Ibrahim Al Duri (Chairman) [still at large] 'Abd Hamid Mahmud Al Khatab Al Nasiri (Secretary) Qusay Saddam Husayn, Special Security Organization [deceased] Tahir Jalil Habbush, IIS [still at large] Zuhayr Talib 'Abd-al-Sattar, DGMI Rafi' 'Abd-al-Latif Tulfah Al Nasiri, Directorate of General Security [still at large] Taha Yasin Ramadan Al Jizrawi (Chairman 2002-2003) Tariq 'Aziz Issa (Chairman 1991-1998) 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh Naji Sabri Ahmad Al Hadithi Husam Muhammad Amin Al Yasin Qusay Saddam Husayn [deceased] 'Amir Muhammad Rashid Al 'Ubaydi 'Amir Hamudi Hasan Al Sa'adi (scientific advisor) Ja'far Diya' Ja'far Hashim (scientific advisor) in Iraq as "power and an iron fist." He was happy
 
 %%page 7#2%%
-
-in Iraq as "power and an iron fist." He was happy
 
 - Tariq 'Aziz described the requirements for a leader initially with Saddam's use of these attributes and
 
@@ -360,22 +354,22 @@ in Iraq as "power and an iron fist." He was happy
 
 A Few Key Players in an Insular Environment
 
-Iraq's policymaking on national security issues, including WMD, rested with Saddam and major decisions were by his fiat. He consulted a few long-serving advisors, but large deliberative bodies like the RCC, the Ba'th Party leadership, Cabinet, Ministries, the military or the intelligence agencies and industrial establishment were incidental to critical decisions. Saddam reserved the right to make final decisions, and former advisors reveal that he often disregarded their advice. Saddam made few
+Iraq's policymaking on national security issues, including WMD, rested with Saddam and major decisions were by his fiat. He consulted a few long-serving advisors, but large deliberative bodies like the RCC, the Ba'th Party leadership, Cabinet, Ministries, the military or the intelligence agencies and industrial establishment were incidental to critical decisions. Saddam reserved the right to make final decisions, and former advisors reveal that he often disregarded their advice. Saddam made few public statements regarding WMD, and his delibera- tions were tightly compartmented and undocumented after the 1980s. Saddam's advisors have revealed
 
-Life Near Saddam—A Characterization Regime Strategic
+Life Near Saddam—A Characterization
 
 Saddam's Iraq was similar to other dictatorships. The primary characteristics of such regimes are: (1) an almost exclusive reliance upon a single decision- maker, his perceptions and objectives; (2) fear and intimidation; (3) little dissent from the "leader's" views; (4) compartmented expertise with little or no cross-fertilization; (5) the passing of misinformation through the chain of command; (6) internal personal conflicts among second and third tier leadership; (7) a second level of leadership whose power and influence is derived entirely from above, not particularly from the constituencies they represent; (8) avoidance of responsibility. Toward the end of his rule Saddam became more reclusive and relied even less upon advisors for decision-making, while turning more and more to relatives.
 
 much about a deliberate, secretive decision-making style, which accounts for the lack of information (for example, the lack of documentary evidence) on his strategic intent for WMD. Many, however, believe that Saddam would have resumed WMD programs after sanctions were lifted.
 
-- Saddam maintained continuity and secrecy by repeatedly turning to a few individuals and small- compartmented committees for foreign policy and national security advice. Tariq 'Aziz, although deputy prime minister, served as the pre-eminent foreign policy advisor from the early years of the Regime until 2001. Saddam praised 'Aziz for his knowledge of the west and foreign affairs, in general, despite 'Aziz falling out of favor in the later stages of the Regime. Two successive committees deliberated over foreign policy issues referred to them by Saddam: the Political Operations Room (1991 to mid-1990s), and its successor the Committee of Four (the "Quartet" from1996 to 2003), (see Annex A, The Quartet—Influence and Disharmony Among Saddam's Lieutenants for additional information). Additionally, Iraq established the Higher Committee in 1991 to orchestrate relations with UN Weapons inspectors (see section on the Higher public statements regarding WMD, and his delibera- Committee). tions were tightly compartmented and undocumented after the 1980s. Saddam's advisors have revealed
+- Saddam maintained continuity and secrecy by repeatedly turning to a few individuals and small- compartmented committees for foreign policy and national security advice. Tariq 'Aziz, although deputy prime minister, served as the pre-eminent foreign policy advisor from the early years of the Regime until 2001. Saddam praised 'Aziz for his knowledge of the west and foreign affairs, in general, despite 'Aziz falling out of favor in the later stages of the Regime. Two successive committees deliberated over foreign policy issues referred to them by Saddam: the Political Operations Room (1991 to mid-1990s), and its successor the Committee of Four (the "Quartet" from1996 to 2003), (see Annex A, The Quartet—Influence and Disharmony Among Saddam's Lieutenants for additional information). Additionally, Iraq established the Higher Committee in 1991 to orchestrate relations with UN Weapons inspectors (see section on the Higher Committee).
 
 %%page 8#2%%
 
 - Party and governmental organizations implemented and legitimized Saddam's foreign policy decisions more than they directed them. Saddam routinely met with the Cabinet, its committees and the RCC, but participants say they often had little latitude. He also met frequently with key technocrats, such as the Minister of Military Industrialization, who oversaw MIC. Detainees from various organizations suggest they carried out national security policy rather than created it, although Huwaysh had considerable autonomy in his planning efforts. Nonetheless, even as a favored technocrat, Huwaysh found his decisions subject to Saddam's changes.
 - Saddam lacked a full grasp of international affairs, according to Tariq 'Aziz. Saddam perceived Iraqi foreign policy through the prism of the Arab world and Arabic language. He listened to the Arabic services of Voice of America and the BBC, and his press officers would read him translations of foreign media, but he appeared more interested in books and topics about the Arab world. Secretary of the President 'Abd claimed that Saddam was open to American culture—he watched classic US movies—and that he did not perceive the US- Iraqi relationship to be necessarily one of conflict. Saddam told a US interviewer he tried to understand Western culture, and admitted he relied on movies to achieve this.
 
-Saddam Calls the Shots Saddam's command style with subordinates was verbal and direct. Detainees frequently mention verbal instructions from Saddam. His subordinates regarded these commands, whether given in private or in public, as something to be taken seriously and at face value. Saddam was explicit—particularly on issues of a personal or state security nature, which were one and the same to him. The Regime did not take action on WMD or security issues in a documented way using the Iraqi equivalent of public
+Saddam Calls the Shots Saddam's command style with subordinates was verbal and direct. Detainees frequently mention verbal instructions from Saddam. His subordinates regarded these commands, whether given in private or in public, as something to be taken seriously and at face value. Saddam was explicit—particularly on issues of a personal or state security nature, which were one and the same to him. The Regime did not take action on WMD or security issues in a documented way using the Iraqi equivalent of public policy statements, cabinet minutes or written presidential executive orders.
 
 Former Director of the Directorate of General Military Intelligence Discusses Information for Strategic Operational Planning
 
@@ -386,21 +380,18 @@ Former Director of the Directorate of General Military Intelligence Discusses In
 
 Saddam's custom of verbal instructions to subordinates on key issues was a preference driven largely by his security concerns, which fitted well with the style and capability of Iraqi public administration. • Close documentation of decision-making chains was incomplete in Iraq, and there was inconsistency in what was recorded. Regime policy files on security issues have not been found following the fall of the Regime and—judging by the ashes found in Iraqi Government offices—may have been com- prehensively destroyed. We do not have a complete paper trail of the execution of Saddam's decisions on state security issues or WMD at a senior level. But there is some documentary evidence.
 
-policy statements, cabinet minutes or written presidential executive orders.
-
 %%page 9#2%%
 
 - Instead, voluminous files were often kept on personnel management issues, and trivial and non- official aspects of even very junior personnel were recorded.
-
 - Official record keeping was highly inconsistent in content and form. Access to electronic information technology varied widely. Even manual typewrit- ers were not available in some places. Pre-electronic copying systems such as carbon paper do not appear to have been widespread. Hand-written records (including many of limited legibility) are common. A high level order in the 1980s directed that Top Secret orders were to be hand-written to avoid the need for typing staff to see them.
 
 Saddam's subordinates feared him and sought to anticipate his wishes on matters where he had not yet issued characteristically clear and unquestion- able orders. At the very least they would seek to avoid outcomes he was known to detest or dislike. Senior subordinates would in these circumstances issue instructions reflecting what they believed was Saddam's line of thinking on an issue. His more experienced associates, such as Ramadan, found Saddam to be predictable and they were able to work to the limits of his tolerance. That said, fear of Saddam meant that rumor about his wishes could acquire considerable force and make Regime attempts to change course sometimes awkward to implement. MIC staff, for example, initially did not believe that Saddam had decided to abandon the program to withhold information from inspectors. They were accustomed to the earlier Saddam-endorsed policy of deception, and feared transgressing what they earlier knew to be Saddam's wishes. Vice President Ramadan had to be dispatched in early 2003 to personally explain the new policy to skeptical and fearful MIC staff.
 
 - Ramadan spoke for three hours at a mass meeting of MIC staff in 2003 to overcome their skepticism, according to Huwaysh.
 
-Saddam's penchant for both centralized verbal instruction and administrative compartmentation lent itself to accidental or intended competition among subordinates. Compartmentation, when accompanied by his encouragement of backchannel
+Saddam's penchant for both centralized verbal instruction and administrative compartmentation lent itself to accidental or intended competition among subordinates. Compartmentation, when accompanied by his encouragement of backchannel communication, (see Harvesting Ideas and Advice
 
-in Byzantine Setting section), occasionally led to two Regime Strategic (or more) teams working the same problem. This was particularly the case in security and intelligence issues, allowing the possibility that more than one "order" might be given. Saddam was normally able to realign projects when he needed to but checks and balances among political and security forces of the Regime remained a feature of his rule to the end.
+in Byzantine Setting section), occasionally led to two (or more) teams working the same problem. This was particularly the case in security and intelligence issues, allowing the possibility that more than one "order" might be given. Saddam was normally able to realign projects when he needed to but checks and balances among political and security forces of the Regime remained a feature of his rule to the end.
 
 - Intended competition resulting from two competing "orders" possibly occurred in WMD activities. For example, the Regime had two competing ballistic missile programs under Ra'ad Jasim Isma'il Al Adhami and Muzhir Sadiq Saba' Al Tamimi in 1994, as well as the separate development of two different binary CW rounds by the Al Muthanna State Establishment (MSE) and the Technical Research Centre (TRC) in the late 1980s.
 
@@ -408,13 +399,13 @@ Saddam Shows the Way
 
 Saddam gave periodic unambiguous guidance to a wider audience than his immediate subordinates. He wrote his own speeches. He was unafraid of detail and personally intervened with instructions in all areas of government administration at all levels. Problems arose if Saddam or his lieutenants had not given junior subordinates his views on an issue, leaving them in doubt about policy or their authority in a system where conformity was valued and failure to follow orders often brutally punished. Initia- tive suffered and the system could be inflexible as it worked on old interpretations of Saddam's wishes. This latter problem became acute after 1998 when Saddam became more reclusive and his comprehensive speeches became less frequent. A problem also arose when subordinates occasionally moved ahead of Saddam's decisions, relying on older guidance to anticipate his wishes.
 
-- During a custodial interview, Saddam said major speeches he drafted and gave, such as the June 2000 speech, on why Iraq could not give up its strategic weapons capability if its neighbors did not, were intended to shape internal and external conditions, in this case the positions of both Iran and the UN. communication, (see Harvesting Ideas and Advice notably that of Foreign Minister Naji Sabri Ahmad Setting
+- During a custodial interview, Saddam said major speeches he drafted and gave, such as the June 2000 speech, on why Iraq could not give up its strategic weapons capability if its neighbors did not, were intended to shape internal and external conditions, in this case the positions of both Iran and the UN.
 
 %%page 10#2%%
 
 Al Hadithi to the UN General Assembly on
 
-- Saddam also wrote key speeches of officials,
+- Saddam also wrote key speeches of officials, notably that of Foreign Minister Naji Sabri Ahmad
 
 19 September 2002, following President Bush's
 
@@ -427,9 +418,9 @@ Al Hadithi to the UN General Assembly on
 
 Saddam was strictly opposed to corruption—in the sense of Regime personnel soliciting bribes or expro- priating public assets—on the part of family members or subordinate members of the Regime, seeing it as corrosive of respect for authority. Personal corruption could be punished drastically and Saddam issued many directions about what he expected in terms of personal financial behavior. Instead, Saddam reserved for himself the right to dispense the fruits of the Regime, thereby making those who benefited from power sure they were doing so exclusively at his will.
 
-- According to 'Ali Hasan Al Majid, Saddam required all official personnel to submit periodic inventories of their assets. Assets could not be above "sufficient" levels, nor could assets be listed under other people's names. He directed that half
+- According to 'Ali Hasan Al Majid, Saddam required all official personnel to submit periodic inventories of their assets. Assets could not be above "sufficient" levels, nor could assets be listed under other people's names. He directed that half of hidden property be given as a reward to whoever reported the deception.
 
-Harvesting Ideas and Advice in a Byzantine
+Harvesting Ideas and Advice in a Byzantine Setting
 
 Saddam did not encourage advice from subordinates unless he had first signaled he wanted it. Advisory groups he established, such as the Committee of Four (the Quartet) on foreign, political and strategic policy, considered only those issues he referred to them. Committees generally assumed Saddam already had a preferred position on such issues and commonly spent time trying to guess what it was and tailor their advice to it. More conscientious members of the Regime sought to work around sycophantic or timid superiors by cultivating alternative, direct lines of communication to Saddam—a development that pleased Saddam because it put another check on subordinates. The result, however, was a corrosive gossip culture in senior government circles that further undercut any semblance of developing policy through conventional government procedures.
 
@@ -437,7 +428,7 @@ Saddam did not encourage advice from subordinates unless he had first signaled h
 - 'Izzat Ibrahim Al Duri, Ramadan, and 'Ali Hasan Al Majid in the Quartet would usually argue for whatever policy they thought Saddam would want, according to Tariq 'Aziz.
 - In some areas, alternative channels were formalized. Special Security Organization (SSO) personnel were able to regularly bypass superiors, and senior SSO officers bypassed the SSO Director if they had links to Qusay Saddam Husayn. Similarly, certain sections of the SSO could bypass the SSO Director and report straight to Saddam.
 - Saddam claimed he regularly met with the Iraqi people as he found them to be the best source of accurate information. Additionally, Saddam said he found women to be great sources of information, particularly within the various government ministries.
-- Saddam's interest in science meant that some Iraqi weapons-related scientists were able to use back channels to by-pass military industry gatekeepers such as Huwaysh. This enabled them to sometimes of hidden property be given as a reward to whoever reported the deception. secure Saddam's support for odd or marginal programs of little use to defense. For example, retired defense scientist 'Imad 'Abd-al-Latif 'Abd-al-Ridha secured Saddam's backing in January 2000 for the
+- Saddam's interest in science meant that some Iraqi weapons-related scientists were able to use back channels to by-pass military industry gatekeepers such as Huwaysh. This enabled them to sometimes secure Saddam's support for odd or marginal programs of little use to defense. For example, retired defense scientist 'Imad 'Abd-al-Latif 'Abd-al-Ridha secured Saddam's backing in January 2000 for the
 
 %%page 11#2%%
 
@@ -450,10 +441,9 @@ Weaving a Culture of Lies
 The growth of a culture of lying to superiors hurt policymaking more than did the attendant gossip. Lying to superiors was driven by fear of the Regime and the inability to achieve results as resources deteriorated under sanctions in the first half of the 1990s. Lack of structural checks and balances allowed false information to affect Iraqi decision making with disastrous effects. Saddam knew his subordinates had a tendency to lie, but his earlier efforts to check their claims by "ground-truthing" them through personal tours of inspection decreased by 1998 as he became more reclusive.
 
 - Tariq 'Aziz asserts that before Operation Iraqi Freedom, the Iraqi military lied to Saddam about its preparedness, which led Saddam to grossly miscalculate Iraq's ability to deter an attack.
-- Several sources claim that reporting up the party, government, and military chain of command became less trustworthy before Operation Iraqi Freedom. Key commanders overstated their combat readiness and willingness to fight, and Saddam no longer sought ground truth by visiting units and asking pointed questions as he had during the Iran- Iraq war. He instead relied upon reports by officers who later admitted misleading Saddam about mili-
+- Several sources claim that reporting up the party, government, and military chain of command became less trustworthy before Operation Iraqi Freedom. Key commanders overstated their combat readiness and willingness to fight, and Saddam no longer sought ground truth by visiting units and asking pointed questions as he had during the Iran- Iraq war. He instead relied upon reports by officers who later admitted misleading Saddam about military readiness out of fear for their lives.
 
-- 'Abd said key Regime members "habitually" con- Regime Strategic cealed from Saddam unpleasant realities of Iraq's industrial and military capabilities and of public opinion. Fear of the loss of position motivated this deception, which continued until the final days of the Regime.
-
+- 'Abd said key Regime members "habitually" concealed from Saddam unpleasant realities of Iraq's industrial and military capabilities and of public opinion. Fear of the loss of position motivated this deception, which continued until the final days of the Regime.
 - Asked how Saddam treated people who brought him bad news, 'Ali Hasan Al Majid replied, "I don't know." ISG assesses that 'Ali Hasan Al Majid has never known any instance of anybody bringing bad news to Saddam.
 
 Saddam Became Increasingly Inaccessible
@@ -461,7 +451,7 @@ Saddam Became Increasingly Inaccessible
 Saddam encouraged a sense of his omnipotence among his subordinates, a condition that increased after 1998 as Saddam became more physically reclusive. The former workaholic and micromanager appeared less engaged after this time, although he would involve himself in issues of interest, such as air defense. Saddam's inaccessibility was driven by an extreme fear of assassination and also apparently by a personal prioritization of other activities, including writing. While there is no evidence Saddam's control of the Regime slipped, many of his lieutenants saw a sharp lessening of Saddam's attention to detail and an absence of his previous desire to "ground proof" high level advice through field inspections. They suggest his formerly detailed interest in military affairs diminished compared to that shown during the Iran-Iraq war or Desert Storm.
 
 - By Saddam's own account, he had only used a telephone twice since 1990, for fear of being located for a US attack.
-- According to Ramadan, he never phoned Saddam directly after 1991, never privately socialized with him and was often unable to locate Saddam for days, even in periods of crisis. Simply locat- ing Saddam could be a problem even for senior officials. Ramadan said, "Sometimes it would take three days to get in touch with Saddam." tary readiness out of fear for their lives.
+- According to Ramadan, he never phoned Saddam directly after 1991, never privately socialized with him and was often unable to locate Saddam for days, even in periods of crisis. Simply locat- ing Saddam could be a problem even for senior officials. Ramadan said, "Sometimes it would take three days to get in touch with Saddam."
 
 %%page 12#2%%
 
@@ -469,7 +459,7 @@ Saddam encouraged a sense of his omnipotence among his subordinates, a condition
 - According to 'Ali Hasan Al Majid, notice of RCC meetings was given only hours and sometimes minutes before they occurred; it was normal for RCC members to be collected by official cars, and then be switched to different cars between the pickup point and the meeting place, and sometimes the meeting place would be changed as well.
 - Despite the extensive measures used to protect Saddam, his family, and senior leaders, an assassination attempt in December 1996 seriously wounded 'Uday Saddam Husayn. This critical failure of the Regime's security infrastructure is likely to have contributed significantly to Saddam's withdrawal.
 - Saddam was more reclusive during his last years as president, according to a former senior official. He lost much of his contact with the government. He still attended RCC meetings, but he met only infrequently with the Quartet. Beginning in 1999, "when he was writing his novels," Saddam would often come to his ministers' meetings unprepared. "He had not even read the summary notes his staff prepared for him for the meeting," according to the Minister of Military Industrialization.
-- Tariq 'Aziz stated that during the 1990s, Saddam became less involved in tactical issues and concentrated more on strategic matters. During the late 1990s, he spent more time in his palaces; subordinates had to forward documents to him because they could no longer communicate directly
+- Tariq 'Aziz stated that during the 1990s, Saddam became less involved in tactical issues and concentrated more on strategic matters. During the late 1990s, he spent more time in his palaces; subordinates had to forward documents to him because they could no longer communicate directly with him. 'Aziz claims that in the months before Operation Iraqi Freedom, he had little interaction
 
 with Saddam and he was reduced to spending the time watching TV and reading newspapers (part of 'Aziz's isolation was a result of the growing prominence, at 'Aziz's expense, of Foreign Minister Naji Sabri). Although Saddam still sought detailed reporting, he did not process it with the diligence that characterized his approach to paperwork a decade earlier. In 'Aziz's view, Saddam listened less to advisory boards such as the Quartet and rejected their advice more frequently. Instead, he turned more toward family members, such as Qusay.
 
@@ -479,15 +469,13 @@ Saddam used violence liberally as an administrative method, to ensure loyalty, r
 
 - In 1979, during Saddam's transition from Vice President to President, he directed the execution of a "number of the leadership" for supposedly plotting with Syrian Ba'thists against him. Tariq 'Aziz described this episode as the cruelest action he witnessed under Saddam.
 - Huwaysh confirmed that in 1982, Saddam ordered the execution of his Health Minister Riyad Al 'Ani (a relative of Huwaysh) and delivery of the dismembered body to the victim's wife. Riyad, in response to an appeal by Saddam for creative ideas on how to end the war with Iran, had made the fatal mistake of suggesting that Saddam temporarily resign and resume office after peace was achieved.
-- Muhsin Khadr Al Khafaji, Ba'th Party Chairman in the Al Qadisiyah Governorate, "never refused to do anything he was asked to by Saddam as he fully expected to be executed if he failed to comply with orders given to him. In the 1980s, (he) witnessed a number of soldiers being executed after they with him. 'Aziz claims that in the months before deserted."
-
-Operation Iraqi Freedom, he had little interaction by Threat of the Iraqi Government
+- Muhsin Khadr Al Khafaji, Ba'th Party Chairman in the Al Qadisiyah Governorate, "never refused to do anything he was asked to by Saddam as he fully expected to be executed if he failed to comply with orders given to him. In the 1980s, (he) witnessed a number of soldiers being executed after they deserted."
 
 %%page 13%%
 
-Saddam's Use of Execution—Management
+Fear of Presidential violence was widespread under
 
-Fear of Presidential violence was widespread under the former Regime, but some situations merited explicit threats. The return from Jordan in February 1996 of Saddam's son-in-law, Husayn Kamil Hasan Al Majid, "the traitor," was such an event. This SSO administrative order was found after Operation Iraqi Freedom:
+Saddam's Use of Execution—Management by Threat the former Regime, but some situations merited explicit threats. The return from Jordan in February 1996 of Saddam's son-in-law, Husayn Kamil Hasan Al Majid, "the traitor," was such an event. This SSO administrative order was found after Operation Iraqi Freedom:
 
 An administrative order
 
@@ -497,7 +485,7 @@ The traitor Husayn Kamil Hasan is to be treated as any citizens in the state and
 
 This order is posted by the Security Unit division manager and it is timed below. Dated 20 Feb 96.
 
-Saddam's Effect on the Workings Regime Strategic
+> Saddam's Effect on the Workings of the Iraqi Government
 
 Suspicion of Structures
 
@@ -507,9 +495,7 @@ Saddam profoundly distrusted constitutional structures because they risked accru
 
 Powerless Structures
 
-Iraq under Saddam had all the formal decisionmaking structures and staff of a modern state, but they did not make national strategic policy. Iraq possessed a skilled foreign ministry and able technocrats in all branches of government. They could route proposals upward in the Regime almost to its end, but not if they conflicted with Saddam's strategic intent or if they proposed an alternate national strategy. Iraq possessed a full array of government organs familiar to any "Western" country: president, national assembly, judiciary, civil service; but their actual functions and relationship with each other bore no resemblance to Western counterparts. Instead, they filled control or cosmetic roles in support of Saddam's dictatorship. They played little part in the effective chain of command under Saddam, and
-
-> they did not exercise a decision-making or executive role comparable to nominally similar organs in Western states.
+Iraq under Saddam had all the formal decisionmaking structures and staff of a modern state, but they did not make national strategic policy. Iraq possessed a skilled foreign ministry and able technocrats in all branches of government. They could route proposals upward in the Regime almost to its end, but not if they conflicted with Saddam's strategic intent or if they proposed an alternate national strategy. Iraq possessed a full array of government organs familiar to any "Western" country: president, national assembly, judiciary, civil service; but their actual functions and relationship with each other bore no resemblance to Western counterparts. Instead, they filled control or cosmetic roles in support of Saddam's dictatorship. They played little part in the effective chain of command under Saddam, and they did not exercise a decision-making or executive role comparable to nominally similar organs in Western states.
 
 %%page 14%%
 
@@ -543,11 +529,9 @@ Saddam created a committee called the Political Operations Room after 1991 as a 
 
 - Important decisions were left to Saddam, although the committee sought to react quickly to secondary political developments by issuing statements and comments according to Tariq 'Aziz.
 
-Saddam created the Committee of Four, or Quartet, in 1996 as a foreign policy advisory body to replace
+Saddam created the Committee of Four, or Quartet, in 1996 as a foreign policy advisory body to replace the Political Operations Room. 'Izzat Ibrahim Al Duri
 
-served as the informal chair and Tariq 'Aziz, Vice Regime Strategic President Taha Yasin Ramadan and 'Ali Hasan Al
-
-Majid, who was put on the committee to monitor the others, served as members. Saddam set the agenda, which was ad hoc and varied. The Quartet might consider WMD-related topics such as UNSCOM cooperation, but it did not address overall strategy for acquiring or employing WMD, according to Tariq 'Aziz.
+served as the informal chair and Tariq 'Aziz, Vice President Taha Yasin Ramadan and 'Ali Hasan Al Majid, who was put on the committee to monitor the others, served as members. Saddam set the agenda, which was ad hoc and varied. The Quartet might consider WMD-related topics such as UNSCOM cooperation, but it did not address overall strategy for acquiring or employing WMD, according to Tariq 'Aziz.
 
 Neither the Political Operations Room nor the Quartet had a policymaking role. Instead, they offered advice, but only on issues referred to them by Saddam. They had none of the proactive or directive powers normally associated with such senior committees in the West or elsewhere. Moreover, they were weakened by the Byzantine administrative practices common to the higher levels of the Regime. • The Quartet addressed an extensive range of topics, including policies toward Russia, France, Syria, the UN and the Kurds. It also discussed the Arab-Israeli situation and the dispatch of envoys. 'Izzat Ibrahim would prepare a few working minutes, uncoor- dinated with any of the other members, after the meeting and forward them to Saddam.
 
@@ -555,7 +539,7 @@ Neither the Political Operations Room nor the Quartet had a policymaking role. I
 
 The RCC also considered foreign policy issues but usually in the form of briefings from Saddam or expert staff and usually did little more than endorse the decision Saddam had already determined. It served increasingly as a forum for Saddam to make announcements or as a face-saving foil to explain Iraq's policy changes.
 
-- Saddam would on occasion elicit foreign policy advice from the RCC, but would not accept it very often, even after lengthy discussion, according to former Vice President Ramadan. The RCC at other times would simply parrot what they knew was Saddam's opinion. Saddam was more inclined to accept RCC advice about more junior level government appointments. the Political Operations Room. 'Izzat Ibrahim Al Duri
+- Saddam would on occasion elicit foreign policy advice from the RCC, but would not accept it very often, even after lengthy discussion, according to former Vice President Ramadan. The RCC at other times would simply parrot what they knew was Saddam's opinion. Saddam was more inclined to accept RCC advice about more junior level government appointments.
 
 %%page 16%%
 
@@ -576,26 +560,22 @@ Saddam had direct command of the Iraqi intelligence services and the armed force
 
 - The intelligence services collected foreign intelligence and relayed the raw reporting to Saddam via his presidential secretary. The Regime tightly controlled dissemination of such material. Material going to Saddam would not necessarily be shared with the responsible deputy prime minister or the military.
 
-Saddam's hold on the state and its security infrastructure extended to the military-industrial complex. MIC oversaw Iraq's substantial and centrally planned military-industrial infrastructure. MIC at certain times in its history covered all industries and most activities that supported the research, development, production and weaponization of CBW agents and missile delivery systems. While as an institution MIC had organizational continuity, substantively there were two cumstances and its links to a prominent leader. Both leaders were close protégés of Saddam and answered
-
-MICs, each distinguishable by unique historical cirated the first MIC in 1987, which continued in various directly and continuously to him. Husayn Kamil creforms—including a major overhaul in 1992—until his flight to Jordan in 1995. 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh restructured the organization in 1997 into its second form, which remained until the onset of Operation Iraqi Freedom.
+Saddam's hold on the state and its security infrastructure extended to the military-industrial complex. MIC oversaw Iraq's substantial and centrally planned military-industrial infrastructure. MIC at certain times in its history covered all industries and most activities that supported the research, development, production and weaponization of CBW agents and missile delivery systems. While as an institution MIC had organizational continuity, substantively there were two MICs, each distinguishable by unique historical circumstances and its links to a prominent leader. Both leaders were close protégés of Saddam and answered ated the first MIC in 1987, which continued in various forms—including a major overhaul in 1992—until directly and continuously to him. Husayn Kamil crehis flight to Jordan in 1995. 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh restructured the organization in 1997 into its second form, which remained until the onset of Operation Iraqi Freedom.
 
 %%page 17%%
 
 Both Husayn Kamil and Huwaysh represent partial anomalies in Saddam's command and control structure. Saddam was interested in their loyalty, discretion and ability to achieve results. The assets they com- manded were not threats to his rule in the way the army or the Ba'th Party could be. Both Husayn Kamil and Huwaysh were therefore given more license and less direct oversight than the army leadership or the RCC, although Saddam would often ask about particular projects or facilities. Ironically, in Husayn Kamil's case, this lack of oversight eventually created major problems for the Regime.
 
 - When Husayn Kamil assumed responsibility for military scientific research and industry in 1987, Saddam gave him broad administrative and financial authority to consolidate Iraq's research, development, and industrial resources into military capabilities essential for winning the Iran-Iraq war. Husayn Kamil had notable successes, developing long-range missiles and BW and CW capabilities for Saddam. In the aftermath of Desert Storm, Husayn Kamil used MIC in attempts to conceal banned weapons and deceive UNSCOM inspectors. His capricious and self-serving leadership of MIC and lack of accountability eventually destroyed its institutional integrity, a process further aggravated by his departure in 1995.
-- By 1997, MIC was on the verge of collapse. The Ministry of Defense, MIC's primary customer, had lost confidence in its ability to meet military production requirements. To halt the slide, Saddam plucked 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh from nine years of bureaucratic exile, and installed him as the Minister of Military Industrialization. Huwaysh instituted strict organizational and financial reforms, centered on mandatory planning and personnel accountability. By 2002, MIC was
+- By 1997, MIC was on the verge of collapse. The Ministry of Defense, MIC's primary customer, had lost confidence in its ability to meet military production requirements. To halt the slide, Saddam plucked 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh from nine years of bureaucratic exile, and installed him as the Minister of Military Industrialization. Huwaysh instituted strict organizational and financial reforms, centered on mandatory planning and personnel accountability. By 2002, MIC was thriving, its total revenues increasing over forty fold as had its revenue base, despite continuing UN sanctions and coalition attacks on its facilities.
 
-The Military Industrialization Commission Regime Strategic
+The Military Industrialization Commission
 
 As an institution, the MIC had historical continuity emerging in the 1980s from the State Organization for Technical Industries (SOTI) as the "Military Industrialization Organization," progressing through the Ministry of Industry and Military Industrialization (MIMI), and finally in 1991, transforming into the MIC.
 
 MIC ran Iraq's military-industrial complex, including at certain times, all weaponization of chemical and biological agents and delivery systems. Iraq's nuclear program, however, was separate from MIC's institutional framework through much of its history. Desert Storm destroyed much of Iraq's military-industrial infrastructure, including many chemical bombs and rockets. But, despite the war, some of Iraq's WMD arsenal remained intact, and was preserved by MIC. MIC assisted in concealing banned weapons and attempting to deceive the UN weapon inspectors up until 1995, when Husayn Kamil Hasan Al Majid, Saddam's son-in-law and MIC director, fled to Jordan (see the "Husayn Kamil" text box for additional information).
 
 By 1997, the Iraqi Ministry of Defense (MoD) had lost faith in the ability of MIC to develop or produce the goods required of it. Re-creation of MIC began in 1997 under Huwaysh, who by 1999 had reorganized and completely restructured the organization. Saddam's growing confidence in Huwaysh saw him eventually appointed as the Minister of Military Industrialization and, later, as one of the Deputy Prime Ministers of Iraq. MIC's re-emergence provided the research, development and industrial base upon which Saddam hoped to rebuild and modernize Iraq's military-industrial capabilities. Huwaysh introduced mandatory planning, financial oversight and personal accountability in order to set the organization on a modern accountable management base. Salaries were raised and re-engagement with the MoD took place. Universities were encouraged to contribute to MIC projects and research, while production was outsourced to the private sector, with considerable success.
-
-thriving, its total revenues increasing over forty fold as had its revenue base, despite continuing UN sanctions and coalition attacks on its facilities.
 
 %%page 18%%
 
@@ -609,7 +589,7 @@ Saddam made shells of state institutions that in most other countries would be o
 
 Saddam and Fiscal Policy
 
-Saddam ignored his economic advisors in the Ministries of Finance and Planning with respect to strategic planning. For example, Saddam entered the Iran-Iraq war heedless of Ministry warnings about the economic consequences. He had no plan or strategy for how the war was to be financed and generally displayed little interest in economic policy. He showed little concern about adjusting disastrous economic policies (such as those causing inflation) in the interests of social stability. He did, however, pay close attention to disbursements. He made sure he could take the credit for public sector pay raises or special allocations such as bonuses to particular sections of
+Saddam ignored his economic advisors in the Ministries of Finance and Planning with respect to strategic planning. For example, Saddam entered the Iran-Iraq war heedless of Ministry warnings about the economic consequences. He had no plan or strategy for how the war was to be financed and generally displayed little interest in economic policy. He showed little concern about adjusting disastrous economic policies (such as those causing inflation) in the interests of social stability. He did, however, pay close attention to disbursements. He made sure he could take the credit for public sector pay raises or special allocations such as bonuses to particular sections of the Iraqi population. He took less interest in whether such outlays were affordable or their effect on fiscal management.
 
 • A senior Iraqi Finance Ministry official said the
 
@@ -619,13 +599,11 @@ Saddam ignored his economic advisors in the Ministries of Finance and Planning w
 
 'Azzawi as Finance Minister in 1995 and Deputy Prime Minister and head of the Financial Committee in 1999. He reported directly to Saddam and not to the cabinet. Saddam gave direct instructions to Hikmat on how to allocate funds for salaries, bonuses, farm subsidies and to adjust ration prices, according to 'Ali Hasan Al Majid.
 
-- Financial matters were Saddam's third governmental priority after security and political management, but ahead of technical, industrial and social administration according to Huwaysh reviewing in 2004 the last years of Saddam's governance. Huwaysh's description of Saddam's financial discussions, however, shows Saddam was preoccupied with disbursals and cash flow, not fiscal policy or macro- economic management. Huwaysh based his view of Saddam's priorities on the order of precedence of the four Deputy Prime Ministers who were responsible respectively for international security (Tariq 'Aziz), political management through the Presidential Diwan (Ahmad Husayn Khudayr Al Samarra'i), Finance (Hikmat) and finally Huwaysh. the Iraqi population. He took less interest in whether such outlays were affordable or their effect on fiscal management.
+- Financial matters were Saddam's third governmental priority after security and political management, but ahead of technical, industrial and social administration according to Huwaysh reviewing in 2004 the last years of Saddam's governance. Huwaysh's description of Saddam's financial discussions, however, shows Saddam was preoccupied with disbursals and cash flow, not fiscal policy or macro- economic management. Huwaysh based his view of Saddam's priorities on the order of precedence of the four Deputy Prime Ministers who were responsible respectively for international security (Tariq 'Aziz), political management through the Presidential Diwan (Ahmad Husayn Khudayr Al Samarra'i), Finance (Hikmat) and finally Huwaysh. ostracized for nine years. He believed he only
 
 %%page 19%%
 
-Subordinates 1988 after a clash with Husayn Kamil and was
-
-How Saddam Saw His
+> How Saddam Saw His Subordinates
 
 Mining Respect and Expertise
 
@@ -639,9 +617,9 @@ Saddam feared that his subordinates could gather enough strength to challenge hi
 
 Kuwait, but could not dissuade Saddam. Asked why he did not resign in protest, he denied he thought he would be killed, but said, " . . . there would be no income, no job." Tariq 'Aziz denied Saddam killed anyone personally while President. "But he would tell the security services to take care of things [dissenters], and they would take care of it."
 
-- Ramadan believed that from late 2002, Iraqi policy toward the UN and the United States was taking the Regime toward a disastrous war, but he said, "I couldn't convince Saddam that an attack was
+- Ramadan believed that from late 2002, Iraqi policy toward the UN and the United States was taking the Regime toward a disastrous war, but he said, "I couldn't convince Saddam that an attack was coming. I didn't try that hard. He was monitoring my performance in managing [UN] inspectors."
 
-- Huwaysh was sacked as Minister of Industry in Regime Strategic ostracized for nine years. He believed he only avoided prison because of Ramadan's intervention with Saddam. According to Huwaysh, no minister ever argued in meetings against Saddam's stated position because it " . . . was unforgivable. It would be suicide."
+- Huwaysh was sacked as Minister of Industry in 1988 after a clash with Husayn Kamil and was avoided prison because of Ramadan's intervention with Saddam. According to Huwaysh, no minister ever argued in meetings against Saddam's stated position because it " . . . was unforgivable. It would be suicide."
 
 - 'Ali Hasan Al Majid said he feared Saddam and cited the killing of many people close to Saddam as the basis of his fear.
 - Huwaysh said Saddam "loved the use of force."
@@ -650,16 +628,16 @@ Kuwait, but could not dissuade Saddam. Asked why he did not resign in protest, h
 
 Dazzled by Science
 
-Saddam was awed by science and inspired by the possibilities it offered for national development and military power. Saddam had an enthusiastic attitude toward science dating back to when, in the early 1970s, he found himself in charge of the Iraqi Atomic Energy Commission (IAEC) as part of his responsibilities as Vice President. Saddam venerated Iraq's history as a center of scientific achievement under individuals like the famous mathematician and astron- omer Ibn-al-Haytham (c. 965 AD—c. 1040 AD). He retained a respect for many aspects of science to the end, but became less interested in detail and more detached from developments in Iraq's scientific infrastructure. • Deputy Prime Minister Huwaysh believed Saddam had "a special affection for his nuclear scientists" from the inception of the Iraqi nuclear program in coming. I didn't try that hard. He was monitoring the 1970s.
-
-my performance in managing [UN] inspectors."
+Saddam was awed by science and inspired by the possibilities it offered for national development and military power. Saddam had an enthusiastic attitude toward science dating back to when, in the early 1970s, he found himself in charge of the Iraqi Atomic Energy Commission (IAEC) as part of his responsibilities as Vice President. Saddam venerated Iraq's history as a center of scientific achievement under individuals like the famous mathematician and astron- omer Ibn-al-Haytham (c. 965 AD—c. 1040 AD). He retained a respect for many aspects of science to the end, but became less interested in detail and more detached from developments in Iraq's scientific infrastructure. • Deputy Prime Minister Huwaysh believed Saddam had "a special affection for his nuclear scientists" from the inception of the Iraqi nuclear program in the 1970s.
 
 %%page 20%%
 
 - 'Ali Hasan Al Majid noted Saddam's expansion of "A Man Can Be Destroyed, But Not Defeated" the university system " . . . to the point of [having] a university in every governorate of the country." Ernest Hemingway, "The Old Man and the Sea"
-- Saddam kept three scientific advisers on his staff: 'Amir Hamudi Hasan Al Sa'adi, former deputy Saddam's fondness for certain examples of Western director at MIC, who held that position since 1994, culture was highly selective and did not reflect a 'Amir Muhammad Rashid Al 'Ubaydi, the former sophisticated awareness of Western cultural values Minister of Oil, and Ja'far Diya' Ja'far Hashim, or motivations. Saddam—not unlike other dicta- former head of PC-3. tors throughout history—fixed upon foreign cultural examples to reinforce his view of himself and his own behavior, not to moderate it through the development of a broader, global or more inclu- sive perspective. One of Saddam's favorite books is Ernest Hemingway's The Old Man and The Sea, the Nobel Prize-winning story of one man—Santiago, a poor Cuban fisherman—and his struggle to master the challenges posed by nature. Saddam's affinity for Hemingway's story is understandable, given the former president's background, rise to power, con- ception of himself and Hemingway's use of a rustic setting similar to Tikrit to express timeless themes. In Hemingway's story, Santiago hooks a great marlin, which drags his boat out to sea. When the marlin finally dies, Santiago fights a losing battle to defend his prize from sharks, which reduce the great fish, by the time he returns to his village, to a skeleton. The story sheds light on Saddam's view of the world and his place in it. The parallels that Saddam may have drawn between himself and Santiago were in their willingness to endure suffering and hardship to prove a point and in their willingness to inflict pain on the victims of their struggles to accomplish their objectives. Saddam's rise to "greatness" is marked by jail and exile, as well as violence. Saddam tended to characterize, in a very Hemingway-esque way, his life as a relentless struggle against overwhelming odds, but carried out with courage, perseverance and dignity. Certainly in the context of the "Mother of All Battles"—his name for the 1991 Gulf War—and his subsequent struggle against UN sanctions, Saddam showed a stubborn- ness arising from such a mindset and a refusal to accept conventional definitions of defeat. Much like Santiago, ultimately left with only the marlin's skeleton as the trophy of his success, to Saddam even a hollow victory was by his reckoning a real one. was concern for his personal security. He stated that
+- Saddam kept three scientific advisers on his staff: 'Amir Hamudi Hasan Al Sa'adi, former deputy Saddam's fondness for certain examples of Western director at MIC, who held that position since 1994, culture was highly selective and did not reflect a 'Amir Muhammad Rashid Al 'Ubaydi, the former sophisticated awareness of Western cultural values Minister of Oil, and Ja'far Diya' Ja'far Hashim, or motivations. Saddam—not unlike other dicta- former head of PC-3. tors throughout history—fixed upon foreign cultural examples to reinforce his view of himself and his own behavior, not to moderate it through the development of a broader, global or more inclu- sive perspective. One of Saddam's favorite books is Ernest Hemingway's The Old Man and The Sea, the Nobel Prize-winning story of one man—Santiago, a poor Cuban fisherman—and his struggle to master the challenges posed by nature. Saddam's affinity for Hemingway's story is understandable, given the former president's background, rise to power, con- ception of himself and Hemingway's use of a rustic setting similar to Tikrit to express timeless themes. In Hemingway's story, Santiago hooks a great marlin, which drags his boat out to sea. When the marlin finally dies, Santiago fights a losing battle to defend his prize from sharks, which reduce the great fish, by the time he returns to his village, to a skeleton. The story sheds light on Saddam's view of the world and his place in it. The parallels that Saddam may have drawn between himself and Santiago were in their willingness to endure suffering and hardship to prove a point and in their willingness to inflict pain on the victims of their struggles to accomplish their objectives. Saddam's rise to "greatness" is marked by jail and exile, as well as violence. Saddam tended to characterize, in a very Hemingway-esque way, his life as a relentless struggle against overwhelming odds, but carried out with courage, perseverance and dignity. Certainly in the context of the "Mother of All Battles"—his name for the 1991 Gulf War—and his subsequent struggle against UN sanctions, Saddam showed a stubborn- ness arising from such a mindset and a refusal to accept conventional definitions of defeat. Much like Santiago, ultimately left with only the marlin's skeleton as the trophy of his success, to Saddam even a hollow victory was by his reckoning a real one.
 
 %%page 21%%
+
+> was concern for his personal security. He stated that by building many palaces the US would be unable
 
 How Saddam Saw Himself
 
@@ -675,9 +653,9 @@ Saddam's Personal Security
 
 Saddam thought he was under constant threat and he prioritized his personal safety above all administrative issues. 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh said Saddam put the priority for personal safety at the absolute peak of a hierarchy of interests. Some of his fear was well founded, but he grew increasingly paranoid as the 1990s progressed. His personal security measures were extreme. For example, the SSO operated a laboratory specifically for the testing of Saddam's food. An outgrowth of his fear was the building of multiple palaces, in part designed to foil attempts by attackers or assassins to locate him. The palaces also reflected the fact that Saddam increasingly saw himself as the state and that what was good for him was good for Iraq.
 
-- Saddam went on a palace and mosque building extravaganza in the late 1990s, employing 7000
+- Saddam went on a palace and mosque building extravaganza in the late 1990s, employing 7000 construction workers, when much of the economy
 
-was at the point of collapse. His rationale for this Regime Strategic by building many palaces the US would be unable to ascertain his whereabouts and thus target him.
+was at the point of collapse. His rationale for this to ascertain his whereabouts and thus target him.
 
 - Military officers as senior as the Commander of the SRG, who was responsible for physical protection of Presidential palaces, were barred from entering any palace without prior written permission.
 - Huwaysh attributed much of this paranoia to Saddam's sense of betrayal following the defection of Husayn Kamil in 1995, who he had previously seen as close to him as a son. The attempt on 'Uday's life in December 1996 also had a deep impact on Saddam, because the extensive security infrastructure designed to protect him and his family failed in a spectacular and public way. The attack marks the start of Saddam's decreased visibility with senior officials and increased preoccupation with Regime security.
@@ -686,7 +664,7 @@ Saddam the Dynasty Founder
 
 Saddam's resort to dynastic and familial means of running Iraq did the most to undermine institutional decision-making. Saddam saw the state in personal terms and his career was marked by a steady retreat from the Ba'thist ideal of a modern state to governance modeled on a rural Arab clan. His administration became reliant on family and clan members throughout the 1990s. Tariq 'Aziz and Taha Yasin Ramadan commented on the growing and corrosive influence of the Tikriti clan on state control at this time. Relatives dominated leadership positions and progressively diminished the policy (as opposed to coercive) role of the Ba'th Party. Every senior non-Tikriti in the Regime has pointed to Saddam's increasing and destructive resort to family and clan members to staff sensitive government positions. Nevertheless, while inclined toward a dynastic succession, Saddam prioritized preservation of his legacy. He was still searching for a competent and reliable succession that would guarantee his legacy at the time of his fall.
 
-- Saddam gradually shifted his reliance on advice from technocrats to family members from 1995 onward, according to Tariq 'Aziz. This favored construction workers, when much of the economy as 'Ali Hasan Al Majid, weakened good decision- family, who was not necessarily competent, such making, according to former Vice President Ramadan. Nonetheless it was accepted as a seemingly normal part of administration in Iraq.
+- Saddam gradually shifted his reliance on advice from technocrats to family members from 1995 onward, according to Tariq 'Aziz. This favored as 'Ali Hasan Al Majid, weakened good decision- family, who was not necessarily competent, such making, according to former Vice President Ramadan. Nonetheless it was accepted as a seemingly normal part of administration in Iraq.
 
 %%page 22%%
 
@@ -709,13 +687,9 @@ Different sources portray Qusay Saddam Husayn, Saddam's potential successor, as 
 
 Saddam and His Sense of Legacy
 
-Saddam was most concerned with his legacy, and he saw it in grand historic terms. His management of the present was always with a view to its appearance in the future, and this tended to distort foreign protagonists' perceptions of his current motivations. He wanted to be remembered as a ruler who had been as significant to Iraq as Hammurabi, Nebuchadnezzar
-
-> and Salah-al-Din [Saladin]. His problem lay in how to define and to achieve this greatness. Even what it was
+Saddam was most concerned with his legacy, and he saw it in grand historic terms. His management of the present was always with a view to its appearance in the future, and this tended to distort foreign protagonists' perceptions of his current motivations. He wanted to be remembered as a ruler who had been as significant to Iraq as Hammurabi, Nebuchadnezzar and Salah-al-Din [Saladin]. His problem lay in how to define and to achieve this greatness. Even what it was his family. Saddam wanted a dynasty as seemingly to consist of was hazy. His drive to preserve his place in Iraqi history outweighed even his feelings toward the best way to guarantee his legacy, but he was clear about the distinction between dynasty and legacy and of the two, he was most concerned about legacy. At the time of the fall of the Regime, he was leaning toward Qusay as successor, but with his second son still very much on probation.
 
 %%page 23%%
-
-to consist of was hazy. His drive to preserve his place in Iraqi history outweighed even his feelings toward his family. Saddam wanted a dynasty as seemingly the best way to guarantee his legacy, but he was clear about the distinction between dynasty and legacy and of the two, he was most concerned about legacy. At the time of the fall of the Regime, he was leaning toward Qusay as successor, but with his second son still very much on probation.
 
 - A US interviewer noted Saddam spoke of his place in Iraqi history and his family in the same context, but showed a far greater concern for the former.
 
@@ -727,26 +701,22 @@ Saddam "dreamed of making Iraq the biggest power in the region and the Middle Ea
 
 - According to Huwaysh, Saddam's economic vision for Iraq—looking out ten years—was a recreation of Iraq's industrial strength and a planned manufacturing economy that would not be dependent on oil exports. Saddam, however, had no plans for an information-based or service sector economy, nor was there a place for tourism. The likelihood was that even with peace and no sanctions, Iraq would have been as self-isolated and unconnected to a free world as it ever had been under his rule.
 
-> Desire . . . Dominance and Regime Strategic Deterrence Through WMD
+> Desire . . . Dominance and Deterrence Through WMD
 
 Saddam's Role in WMD Policy
 
 Saddam's centrality to the Regime's political structure meant that he was the hub of Iraqi WMD policy and intent. His personalized and intricate administrative methods meant that control of WMD development and its deployment was never far from his touch (see the "Excerpts from a Closed-Door Meeting" inset). His chain of command for WMD was optimized for his control rather than to ensure the participation of Iraq's normal political, administrative or military structures. Under this arrangement, the absence of information about WMD in routine structures and the Iraqi military's order of battle would not mean it did not exist. Even so, if WMD existed, its absence from Iraqi military formations and planning when war was imminent in 2003 would be hard to explain. As with past use, Saddam would have rigorously and personally controlled the relevant formations, and have had sole release authority. Saddam's doctrine in the Iran-Iraq war was to separate WMD control from the military's leadership, but to have its use available (and controlled by security agencies) if military operations required it.
 
-The defense ministry and the senior military staffs formulated national war plans, but according to Staff Gen. Sultan Hashim Ahmad Al Ta'i, the former Minister of Defense, these organizations did not incorporate WMD in their planning, training, and supply systems during the Iran-Iraq war. Sultan's recollec- tion, however seems thin given the likely degree of planning and training necessary for the extensive use of CW by both sides during the conflict. • During and after the late 1990s, the few times Saddam evidently asked about the potential of certain Iraqi WMD options suggest he was not consistently focused on this issue. He asked ad hoc
-
-> questions about feasibility of reconstituting programs and confined his confidences to hinting that Iraq might reconstitute WMD after sanctions. While
+The defense ministry and the senior military staffs formulated national war plans, but according to Staff Gen. Sultan Hashim Ahmad Al Ta'i, the former Minister of Defense, these organizations did not incorporate WMD in their planning, training, and supply systems during the Iran-Iraq war. Sultan's recollec- tion, however seems thin given the likely degree of planning and training necessary for the extensive use of CW by both sides during the conflict. • During and after the late 1990s, the few times Saddam evidently asked about the potential of certain Iraqi WMD options suggest he was not consistently focused on this issue. He asked ad hoc questions about feasibility of reconstituting programs and confined his confidences to hinting that Iraq might reconstitute WMD after sanctions. While he may have said he had the desire, no source has claimed that Saddam had an explicit strategy or program for the development or use of WMD during the sanctions period. Given the sensitivity of the subject, however, to share such thinking with anybody but a few close associates would have been out of character for Saddam. This lack of a formal statement would chime with his autocratic style of governance—especially given past experience with UN inspections searching for documents.
 
 %%page 24%%
-
-he may have said he had the desire, no source has claimed that Saddam had an explicit strategy or program for the development or use of WMD during the sanctions period. Given the sensitivity of the subject, however, to share such thinking with anybody but a few close associates would have been out of character for Saddam. This lack of a formal statement would chime with his autocratic style of governance—especially given past experience with UN inspections searching for documents.
 
 - Saddam spoke often in one-to-one sessions with first Husayn Kamil and later Huwaysh on research and industrial issues supporting WMD. There are no indications that Saddam issued detailed written instructions to either individual to direct WMD work.
 - There are multiple references, however, to Saddam ordering the MIC to pursue military technology "pet projects" he had received from other government agencies, individual scientists, or academics. Often the projects' proponents had exaggerated their technical merits to obtain Saddam's backing. Desperate to find and exploit any potential military advantage, Saddam would direct the projects for further research and development. However, none of these projects involved WMD.
 
 Saddam's rationale for the possession of WMD derived from a need for survival and domination. This included a mixture of individual, ethnic, and nationalistic pride as well as national security concerns particularly regarding Iran. Saddam wanted personal greatness, a powerful Iraq that could project influence on the world stage, and a succession that guaranteed both. Saddam sought the further industrialization of Iraq, held great hopes for Iraqi science, and saw himself as the liberator of Palestine. His vision was clearest—and seemingly most achievable—in terms of leaving Iraq militarily strong, within appropriate borders and safe from external aggressors, especially Iran. WMD was one of the means to these interrelated ends.
 
-Saddam felt that any country that had the techno-
+Saddam felt that any country that had the technological ability to develop WMD had an intrinsic
 
 right to do so. He saw WMD as both a symbol and a normal process of modernity. Saddam's national security policy demanded victory in war, deterrence of hostile neighbors (including infiltration into Iraq), and prestige and strategic influence throughout the Arab world. These concerns led Iraq to develop and maintain WMD programs.
 
@@ -757,13 +727,12 @@ What Saddam Thought: The Perceived Successes of WMD
 
 The former Regime viewed the four WMD areas (nuclear, chemical, biological, and missiles) differ- ently. Differences between the views are explained by a complex web of historical military significance, level of prestige it afforded Iraq, capability as a deterrent or a coercive tool, and technical factors such as cost and difficulty of production. We would expect to see varying levels of attention to the four programs and varying efforts to prepare for, or engage in, actions to restart them. Saddam concluded that Iraq's use of CW prevented Iran, with its much greater population and tolerance for casualties, from completely overrunning Iraqi forces, according to former Vice President Ramadan. Iraq used CW extensively in the Iran-Iraq war (1980-88) to repel the Iranian army.
 
-- Iraq suffered from a quantitative imbalance between its conventional forces and those of Iran. of WMD had beaten Iran. Even Taha Yasin Rama-
-
-- Saddam's subordinates realized that the tactical use logical ability to develop WMD had an intrinsic
+- Iraq suffered from a quantitative imbalance between its conventional forces and those of Iran.
+- Saddam's subordinates realized that the tactical use of WMD had beaten Iran. Even Taha Yasin Rama-
 
 %%page 25%%
 
-Iraq's Use of CW in 1991 Against Internal Unrest Regime Strategic
+Iraq's Use of CW in 1991 Against Internal Unrest
 
 The former Regime also saw chemical weapons as a tool to control domestic unrest, in addition to their war-fighting role. In March 1991, the former Regime used multiple helicopter sorties to drop CW-filled bombs on rebel groups as a part of its strategy to end the revolt in the South. That the Regime would consider this option with Coalition forces still operating within Iraq's boundaries demonstrates both the dire nature of the situation and the Regime's faith in "special weapons."
 
@@ -771,6 +740,7 @@ The former Regime also saw chemical weapons as a tool to control domestic unrest
 - In the early morning of 7 March 1991 an unidentified Iraqi requested permission to use "liquids" against rebels in and around An Najaf. Regime forces intended to use the "liquid" to defeat dug-in forces as part of a larger assault.
 - Husayn Kamil, then Director of MIC, ordered senior officials in the chemical weapons program to ready CW for use against the revolt. His initial instruction was to use VX. When informed that no VX was available he ordered mustard to be used. However, mustard was ruled out and Sarin selected because the persistence of mustard made it more likely to be detected.
 - On or about 7 March 1991, R-400 aerial bombs located at the Tamuz Airbase were readied for use. Al Muthanna State Establishment (MSE) technicians mixed the two components of the Iraqi "binary" nerve agent system inside the R- 400s. Explosive burster charges were loaded into the bombs and the weapons assembled near the runway.
+- Helicopters from nearby bases flew to Tamuz, were armed with the Sarin-laden R-400s and other
 
 conventional ordnance. Dozens of sorties were flown against Shi'a rebels in Karbala and the surrounding areas. A senior participant from the CW program estimates that 10 to 20 R-400s were used. Other reporting suggests as many as 32 R-400s may have been dropped. As of March 1991, about a dozen MI-8 helicopters were staged at Tamuz Airbase.
 
@@ -778,7 +748,7 @@ conventional ordnance. Dozens of sorties were flown against Shi'a rebels in Karb
 - Following the initial helicopter sorties, the senior chemical weapons program officer overseeing the operation received an angry call from Husayn Kamil's office. The caller said the attacks had been unsuccessful and further measures were required. The R-400s were designed for high-speed delivery from higher altitude and most likely did not acti- vate properly when dropped from a slow-moving helicopter.
 - As an alternative to the R-400s, the Al Muthanna State Establishment began filling CS (tear gas) into large aerial bombs. Over the next two weeks helicopters departed Tamuz Air Base loaded with CS-filled bombs. One participant estimated that more than 200 CS filled aerial bombs were used on rebel targets in and around Karbala and Najaf.
 - Trailers loaded with mustard-filled aerial bombs were also transported to the Tamuz Air Base. A participant in the operation stated that mustard gas was not used on the rebels because of the likelihood of discovery by the Coalition. According to the source, the mustard filled bombs were never unloaded and were not used.
-- Reports of attacks in 1991 from refugees and Iraqi military deserters include descriptions of a range of CW and improvised poisons used in the areas around Karbala, Najaf, Nasiriyah, as well as • Helicopters from nearby bases flew to Tamuz, Basrah. were armed with the Sarin-laden R-400s and other dan, one of Saddam's more independent-minded underlings, acknowledged that the use of CW saved
+- Reports of attacks in 1991 from refugees and Iraqi military deserters include descriptions of a range of CW and improvised poisons used in the areas around Karbala, Najaf, Nasiriyah, as well as Basrah. dan, one of Saddam's more independent-minded underlings, acknowledged that the use of CW saved
 
 %%page 26%%
 
@@ -792,15 +762,15 @@ Saddam concluded that missile strikes on Tehran, late in the Iran-Iraq war, alon
 - Saddam's logic was that the "war of the cities"— when Al Husayn missiles were fired at Iranian targets from February to April 1988—had shown that Tehran was more vulnerable to missiles because its population density was greater than Baghdad's. This gave Iraq a strategic incentive to maintain ballistic-missile capabilities.
 - According to Saddam, Iraq accelerated its missile development after Iran demonstrated the range capability of its imported ballistic missiles in the 1980s. Saddam said missile technology had been important to Iraq because Iraq could build its own ballistic missiles whereas Iran could not.
 
-Saddam saw Iraq's nuclear program as a logical result of scientific and technical progress and was unconvinced by the notion of non-proliferation. He considered nuclear programs a symbol of a modern
+Saddam saw Iraq's nuclear program as a logical result of scientific and technical progress and was unconvinced by the notion of non-proliferation. He considered nuclear programs a symbol of a modern nation, indicative of technological progress, a by-
 
 product of economic development, and essential to political freedom at the international level (what he described as "strategic balance"). He wanted nuclear weapons to guarantee his legacy and to compete with powerful and antagonistic neighbors; to him, nuclear weapons were necessary for Iraq to survive. Saddam wished to keep the IAEC active and his scientists employed and continuing their research. "I," maintained Saddam, "am the Godfather of the IAEC and I love the IAEC." In a captured audio tape, Saddam said in a conversation (of unknown date) with Tariq 'Aziz and other unidentified senior officials:
 
 This conversation was very useful. We have had a look at the international situation, and arrange (present tense) our present and future steps during these studies. I believe that the USA is concentrating on the Far East, and all of the areas of South East Asia, for two main reasons—Korea and Pakistan. The existence of the nuclear weapons in other countries makes the USA and Europe get worried. Having nuclear weapons in these areas, with their economic situation known by the US, gives these countries a chance to face the European countries and the Americans. A long time ago economic recovery existed in only in two areas of the world. In the last fifteen years Japan appears to have improved itself to what they see now. Not only Japan but all of these countries have developed economically. When it appears that there are nuclear weapons in Korea others will be allowed, under the doctrine of "self defense and balance of power," to create the same industry. As a result, when South Korea or Japan decides to create nuclear weapons they won't need a long time to produce it. The money and the weapons will be in an area outside Europe and the USA. At the same time there will be more pressure on China to stop their [South Korea or Japan's] nuclear experiments. When nuclear centers are allowed in different places this pressure will decrease, and China will have the chance to develop its nuclear programs with less pressure from USA and Europe. As a result, as it was previously with China, with the high technology, will put the USA and Europe in the situation we mentioned before: they will be worried about their international trading and their international effect. This is what the USA is interested in.
 
-nation, indicative of technological progress, a by-Excerpts from a Closed-Door Meeting Regime Strategic Between Saddam and Senior Personnel, January
-
 %%page 27%%
+
+Excerpts from a Closed-Door Meeting Between Saddam and Senior Personnel, January
 
 The Iraqi Regime routinely, almost obsessively, engaged in the recording of its high level meetings, not in the conventional documentary form of more ordinary bureaucracies, but by way of audio and videotapes. Despite the highly secret and sensitive nature of CBW, even discussions in this area are known to have been recorded in this manner. Below is an example of an audio recording recovered by ISG, probably made during the second week of January 1991. Saddam and senior officials move from making routine, even jocular, small talk about ceremonial clothing, to engaging in a detailed discussion of chemical and biological weapons. The following are excerpts from a conversation lasting a quarter of an hour between Saddam, director of the MIC Husayn Kamil Hasan Al Majid, Iraqi Air Force Commander Muzahim Sa'b Hasan Muhammad Al Nasiri, and, at least, one other senior official in which they discuss the prospect for WMD attacks on Saudi and Israeli cities (see Annex D "Saddam's Personal Involvement in WMD Planning" for the complete meeting transcript).
 
@@ -834,7 +804,7 @@ Iraq began a nuclear program shortly after the Ba'thists took power in 1968. The
 
 Coalition bombing during Desert Storm, however, significantly damaged Iraq's nuclear facilities and the imposition of UN sanctions and inspections teams after the war further hobbled the program. It appears Saddam shifted tactics to preserve what he could of his program (scientific talent, dual-use equipment, and designs) while simultaneously attempting to rid Iraq of sanctions.
 
-In comparison to Iraq's nuclear and CW programs, the BW program was more dependent upon a smaller body of individual expertise. Iraq's BW program began in the 1970s under President Ahmad Hasan Al Bakr. Scientists conducted research into fundamental aspects of bacteria, toxins, and viruses, emphasizing production, pathogenicity, dissemination and storage of agents, such as Clostridium botulinum, spores of Bacillus anthracis, and influenza. Despite investing considerable effort in this first attempt, Iraq's BW program faltered. In 1979, after Saddam assumed the Presidency, Iraq reorganized its CW and BW effort. Iraq rebuilt and expanded the infrastructure for BW research between 1979 and 1985, but undertook little work on military applications, aside from assassination-related research for the IIS (see Annex B "Iraq's Intelligence Services" for additional information). At the height of the Iran-Iraq war in 1985, the Regime revitalized the BW program. A new BW group was recruited and research began on gas gangrene and botulinum toxin. In 1986, the Regime developed a 5-year plan leading to weaponization of BW agents. By early 1990, Iraq was methodically advancing toward the addition of a BW component to its WMD
+In comparison to Iraq's nuclear and CW programs, the BW program was more dependent upon a smaller body of individual expertise. Iraq's BW program began in the 1970s under President Ahmad Hasan Al Bakr. Scientists conducted research into fundamental aspects of bacteria, toxins, and viruses, emphasizing production, pathogenicity, dissemination and storage of agents, such as Clostridium botulinum, spores of Bacillus anthracis, and influenza. Despite investing considerable effort in this first attempt, Iraq's BW program faltered. In 1979, after Saddam assumed the Presidency, Iraq reorganized its CW and BW effort. Iraq rebuilt and expanded the infrastructure for BW research between 1979 and 1985, but undertook little work on military applications, aside from assassination-related research for the IIS (see Annex B "Iraq's Intelligence Services" for additional information). At the height of the Iran-Iraq war in 1985, the Regime revitalized the BW program. A new BW group was recruited and research began on gas gangrene and botulinum toxin. In 1986, the Regime developed a 5-year plan leading to weaponization of BW agents. By early 1990, Iraq was methodically advancing toward the addition of a BW component to its WMD arsenal. In April 1990, Husayn Kamil gave orders to
 
 weaponize BW as quickly as possible and by August 1990, when Iraq invaded Kuwait, the BW program had moved into high gear to field BW-filled weapons. By the time of Desert Storm, Iraq had a BW program that included production of large quantities of several agents—anthrax, botulinum toxin, Clostridium perfringens, aflatoxin, and small quantities of ricin. Iraq successfully weaponized some of these agents into ballistic missiles, aerial bombs, artillery shells, and aircraft spray tanks.
 
@@ -842,7 +812,7 @@ The Coalition destroyed all of Iraq's known BW facilities and bombed some of the
 
 What Saddam Thought: External Concerns
 
-Saddam viewed Iraq as "underdeveloped" and therefore vulnerable to regional and global adversaries. Senior Regime members generally ranked Tehran first and Tel Aviv as a more distant second as their primary adversaries, but no Iraqi decisionarsenal. In April 1990, Husayn Kamil gave orders to maker asserted that either country was an imminent challenge between 1991 and 2003. Late during this period, Saddam became concerned about the growing military imbalance between Iran and Iraq; Iran was making significant advances in WMD while Iraq was being deprived of the opportunity to maintain or advance its WMD capacity. He also privately told his top advisors, on multiple occasions, that he sought to establish a strategic balance between the Arabs and Israel, a different objective from deterring an Iranian strategic attack or blunting an Iranian invasion.
+Saddam viewed Iraq as "underdeveloped" and therefore vulnerable to regional and global adversaries. Senior Regime members generally ranked Tehran first and Tel Aviv as a more distant second as their primary adversaries, but no Iraqi decisionmaker asserted that either country was an imminent challenge between 1991 and 2003. Late during this period, Saddam became concerned about the growing military imbalance between Iran and Iraq; Iran was making significant advances in WMD while Iraq was being deprived of the opportunity to maintain or advance its WMD capacity. He also privately told his top advisors, on multiple occasions, that he sought to establish a strategic balance between the Arabs and Israel, a different objective from deterring an Iranian strategic attack or blunting an Iranian invasion.
 
 %%page 29%%
 
@@ -855,8 +825,7 @@ Saddam believed that WMD was necessary to counter Iran. He saw Iran as Iraq's ab
 - Saddam considered WMD as the only sure counterbalance to an enemy developing WMD of its own. He said Iran was the main concern because it wanted to annex southern Iraq. Saddam said US air strikes were less of a worry than an Iranian land attack.
 - Ramadan thought WMD programs might only be suspended for a short period of time in order to normalize Iraq's relations with the international community, and would have to be resumed if no substitute counterbalance to Iran was forthcoming.
 
-- Saddam and the Quartet discussed Iran many times, Regime Strategic according to officials close to Saddam. Both 'Aziz and Huwaysh have stated in interviews that Saddam's main focus was the danger from Iran.
-
+- Saddam and the Quartet discussed Iran many times, according to officials close to Saddam. Both 'Aziz and Huwaysh have stated in interviews that Saddam's main focus was the danger from Iran.
 - Iran attacked a Mujahiddin è Khaliq (MEK) facility in April 2001 with more than 60 rockets. Earlier strikes on MEK targets had occurred in November 1994 and June 1999, but Iran had only fired a small number of rockets.
 
 Saddam was very concerned about Iranian military production capabilities, particularly its nuclear weapons program, according to former Vice President Ramadan. A Ministry of Defense conference concluded in January 2003 that Iranian WMD posed a looming menace to Iraq and the region, according to a sensitive source. Attended by 200 senior officers, the conference discussed Iran's pursuit of nuclear weapons, acquisition of suitable delivery systems, and possession of missiles capable of carrying CW or BW warheads over a range of 1,000 kilometers. Saddam believed that Iran had benefited from the breakup of the former Soviet Union by gaining access to WMD as well as conventional technologies.
@@ -876,7 +845,7 @@ Iraq's intelligence services collected foreign intelligence on Iran and relayed 
 - IIS conducted extensive collection operations against Iran, according to a former IIS senior officer and various captured documents. Intelligence collection as a whole targeted Iran's weapons programs, its nuclear program, economic issues, and international relations. Human intelligence sources were the primary means of intelligence collection against Iran, supported by signals intelligence conducted by the IIS Directorate for Signals Intelligence (M17).
 - IIS had assigned 150 officers to work the Iranian target, according to a former senior IIS officer. The IIS relied heavily on the MEK and independent assets in every province to monitor Iranian military and WMD developments. The Iraqis also studied Jane's publications for information on foreign weapons systems. One senior officer spotlighted how important the Internet was to their understanding of general threat capabilities. preparedness. Some Iraqis also believed the international community would halt if not deter an Iranian invasion. Saddam accordingly decided to use diplomacy as his primary tool against Iran, but he never wielded it successfully. Iraq really had no coherent policy on how to deal with Tehran after Desert Storm, although, from the Iraqi point of view, the immediate risk was deemed to be low.
 
-- According to the former Iraqi Army Chief-of-Staff (COS), Iran would have difficulty conducting a large surprise attack because Iraq would detect the extensive mobilization required for it. Iraqi forward observers would detect Iranian troops as they
+- According to the former Iraqi Army Chief-of-Staff (COS), Iran would have difficulty conducting a large surprise attack because Iraq would detect the extensive mobilization required for it. Iraqi forward observers would detect Iranian troops as they assembled along probable invasion corridors.
 
 - DGMI maintained over 10,000 files on Iranian order of battle, including 3,000 photographs, according to a former intelligence officer. Intelligence reports with detailed, tactical information about Iranian infiltration attempts also were forwarded directly to Saddam, according to captured documents.
 
@@ -886,25 +855,23 @@ Iraq's intelligence services collected foreign intelligence on Iran and relayed 
 
 - Iraqi units were at least as good as their Iranian counterparts. The former Iraqi Army COS said Iran enjoyed quantitative—not qualitative—ground superiority, according to the former defense minister. Although sanctions would have had a major impact, Iraqi forces arrayed along the border could survive the first two echelons of an Iranian invading force without resorting to WMD. After that they would be overrun.
 
-- One senior Regime official, however, said that although the Iranian threat was real, Saddam exaggerated it. Iraq considered Iran a historical enemy with desires for Iraqi territory. assembled along probable invasion corridors.
+- One senior Regime official, however, said that although the Iranian threat was real, Saddam exaggerated it. Iraq considered Iran a historical enemy with desires for Iraqi territory.
 
 %%page 31%%
 
-Israel The United States Regime Strategic
+Israel
 
 "There can never be stability, security or peace in the region so long as there are immigrant Jews usurping the land of Palestine," Saddam Husayn, Baghdad TV political discussion, 17 January 2001
 
-Saddam's attitude toward Israel, although reflecting defensive concerns, was hostile. Saddam considered Israel the common enemy of all Arabs and this mir- rored the attitudes of the Arab street in their opposition to a Zionist state. Moreover, it was reported that he considered himself the next Salah-al-Din (Saladin) with a divine mission to liberate Jerusalem. This was a tactic to win popular support in countries like Egypt, Saudi Arabia, and Jordan. He was aware of his prestige as a champion of Palestine against Israel and consistently called for the liberation of Palestine from the "river to the sea" and warned that any Arab ruler who abandoned the Palestinians would "pay a heavy price." In February 2001, he said publicly: "When we speak about the enemies of Iraq, this means the enemies of the Arab nation. When we speak about the enemies of the Arab nation, we mean the enemies of Iraq. This is because Iraq is in the heart, mind, and chest of the Arab nation," Saddam implied, according to the former presidential secretary, that Iraq would resume WMD programs after sanctions in order to restore the "strategic balance" within the region. Saddam was conscious of Israel's WMD arsenal and saw Israel as a formidable challenge to Arab interests. Israel appeared to be a rival that had strategic dominance because it possessed WMD and the ability to build relations with countries neighboring Iraq, such as Turkey and Iran, which could destabilize Iraq from within using the Shi'a or Kurds. Iraq faced a more focused risk of air and missile strikes from Israeli strategic forces, rather than a ground attack. According to a former senior official, Israel's bombing of Iraq's Osirak nuclear reactor spurred Saddam to build up Iraq's military to confront Israel in the early 1980s. Other Iraqi policy makers stated they could otherwise do little to influence Israel. Saddam judged Israel to be a lesser adversary than Iran because Israel could not invade Iraq, according to former Vice President
+Saddam's attitude toward Israel, although reflecting defensive concerns, was hostile. Saddam considered Israel the common enemy of all Arabs and this mir- rored the attitudes of the Arab street in their opposition to a Zionist state. Moreover, it was reported that he considered himself the next Salah-al-Din (Saladin) with a divine mission to liberate Jerusalem. This was a tactic to win popular support in countries like Egypt, Saudi Arabia, and Jordan. He was aware of his prestige as a champion of Palestine against Israel and consistently called for the liberation of Palestine from the "river to the sea" and warned that any Arab ruler who abandoned the Palestinians would "pay a heavy price." In February 2001, he said publicly: "When we speak about the enemies of Iraq, this means the enemies of the Arab nation. When we speak about the enemies of the Arab nation, we mean the enemies of Iraq. This is because Iraq is in the heart, mind, and chest of the Arab nation," Saddam implied, according to the former presidential secretary, that Iraq would resume WMD programs after sanctions in order to restore the "strategic balance" within the region. Saddam was conscious of Israel's WMD arsenal and saw Israel as a formidable challenge to Arab interests. Israel appeared to be a rival that had strategic dominance because it possessed WMD and the ability to build relations with countries neighboring Iraq, such as Turkey and Iran, which could destabilize Iraq from within using the Shi'a or Kurds. Iraq faced a more focused risk of air and missile strikes from Israeli strategic forces, rather than a ground attack. According to a former senior official, Israel's bombing of Iraq's Osirak nuclear reactor spurred Saddam to build up Iraq's military to confront Israel in the early 1980s. Other Iraqi policy makers stated they could otherwise do little to influence Israel. Saddam judged Israel to be a lesser adversary than Iran because Israel could not invade Iraq, according to former Vice President Ramadan.
+
+The United States
 
 Saddam did not consider the United States a natural adversary, as he did Iran and Israel, and he hoped that Iraq might again enjoy improved relations with the United States, according to Tariq 'Aziz and the presidential secretary. Tariq 'Aziz pointed to a series of issues, which occurred between the end of the Iran-Iraq war and 1991, to explain why Saddam failed to improve relations with the United States: Irangate (the covert supplying of Iran with missiles, leaked in 1986), a continuing US fleet presence in the Gulf, suspected CIA links with Kurds and Iraqi dissidents and the withdrawal of agricultural export credits. After Irangate, Saddam believed that Washington could not be trusted and that it was out to get him personally. His outlook encouraged him to attack Kuwait, and helps explain his later half-hearted concessions to the West. These concerns collectively indicated to Saddam that there was no hope of a positive relationship with the United States in the period before the attack on Kuwait. Although the United States was not considered a natural adversary, some Iraqi decision-makers viewed it as Iraq's most pressing concern, according to former Vice President Ramadan. Throughout the 1990s, Saddam and the Ba'th Regime considered full-scale invasion by US forces to be the most dangerous potential threat to unseating the Regime, although Saddam rated the probability of an invasion as very low. Throughout the UNSCOM period, Iraqi leaders extended a number of feelers to the United States through senior UNSCOM personnel offering strategic concessions in return for an end to sanctions. The stumbling block in these feelers was the apparent Iraqi priority on maintaining both the Saddam Regime and the option of Iraqi WMD. • In a custodial debriefing, Saddam said he wanted to develop better relations with the US over the latter part of the 1990s. He said, however, that he was not given a chance because the US refused to listen to anything Iraq had to say.
 
-- In 2004, Charles Duelfer of ISG said that between 1994 and 1998, both he and UNSCOM Executive Chairman Rolf Ekeus were approached multiple
-
-Ramadan. times by senior Iraqis with the message that Baghfriend in the region bar none."
+- In 2004, Charles Duelfer of ISG said that between 1994 and 1998, both he and UNSCOM Executive Chairman Rolf Ekeus were approached multiple times by senior Iraqis with the message that Bagh- friend in the region bar none." dad wanted a dialogue with the United States, and that Iraq was in a position to be Washington's "best
 
 %%page 32%%
-
-dad wanted a dialogue with the United States, and that Iraq was in a position to be Washington's "best
 
 While Iran was a more enduring enemy, after 1991, the temporary challenge from the United States posed a more immediate danger. Those who had detailed information about US capabilities also concluded there was little Iraq could do to counter a US invasion. Iraqi military commanders who did perceive the risk of invasion realized that the imbalance in power between Iraq and the United States was so disparate that they were incapable of halting a US invasion. Even if Iraq's military performed better during Operation Iraqi Freedom, Iraq would only have increased the number of Coalition casualties without altering the war's outcome, according to the former defense minister.
 
@@ -926,9 +893,7 @@ Saddam, however, portrayed the United States and Israel as inseparable and belie
 
 %%page 33%%
 
-Saddam's handling of Iraq's response to the 9/11 attacks probably reflects a lack of understanding of
-
-US politics and may explain why Baghdad failed to appreciate how profoundly US attitudes had changed following September 2001. Saddam's poor understanding of US attitudes contributed to flawed decision-making, according to Tariq 'Aziz. According to 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, Saddam rejected advice from his cabinet to offer condolences after the attacks: • Ministers discussing the attacks recommended that
+Saddam's handling of Iraq's response to the 9/11 attacks probably reflects a lack of understanding of US politics and may explain why Baghdad failed to appreciate how profoundly US attitudes had changed following September 2001. Saddam's poor understanding of US attitudes contributed to flawed decision-making, according to Tariq 'Aziz. According to 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, Saddam rejected advice from his cabinet to offer condolences after the attacks: • Ministers discussing the attacks recommended that
 
 Iraq should issue an official statement condemning the terrorists and offering condolences to the people of the United States, despite American hostility toward Iraq.
 
@@ -937,19 +902,15 @@ Iraq should issue an official statement condemning the terrorists and offering c
 - Saddam dismissed these concerns, but he authorized Tariq 'Aziz to pursue a "people to people" program by privately expressing condolences individually to a few US citizens (the persons named were once US officials but held no official offices in 2001).
 - Iraq's media was unique among Middle Eastern services in praising the attackers, according to the Foreign Broadcast Information Service.
 
-Former Iraqi officials concluded, time and time again, that the threat inherent in their WMD arsenal and weapons delivery systems helped preserve
+Former Iraqi officials concluded, time and time again, that the threat inherent in their WMD arsenal and weapons delivery systems helped preserve Saddam's Regime.
 
-• In April 1990, Saddam threatened "by God, we will Regime Strategic make fire eat up half of Israel, if it tried [to strike] against Iraq." Saddam's statement was part of a lengthy speech in which he denied having a nuclear weapons program. His warning might have been meant to deter Israel from preemptively attacking an industrial facility, which manufactured electrical capacitors alleged to be used in the trigger of a nuclear device, as it had done when it struck the Osirak reactor in June 1981. • Prior to Desert Storm, Saddam threatened to use missile- and aircraft-delivered chemical and biological munitions to deter Israel and the coalition from attacking Iraq or at worst unseating the Regime. Former Iraqi officials concluded the threat inherent in their WMD arsenal and delivery systems helped preserve the Regime when Coalition Forces did not invade Baghdad in 1991.
+• In April 1990, Saddam threatened "by God, we will make fire eat up half of Israel, if it tried [to strike] against Iraq." Saddam's statement was part of a lengthy speech in which he denied having a nuclear weapons program. His warning might have been meant to deter Israel from preemptively attacking an industrial facility, which manufactured electrical capacitors alleged to be used in the trigger of a nuclear device, as it had done when it struck the Osirak reactor in June 1981. • Prior to Desert Storm, Saddam threatened to use missile- and aircraft-delivered chemical and biological munitions to deter Israel and the coalition from attacking Iraq or at worst unseating the Regime. Former Iraqi officials concluded the threat inherent in their WMD arsenal and delivery systems helped preserve the Regime when Coalition Forces did not invade Baghdad in 1991.
 
 - Saddam's public and private statements in 1990 and 1991 reveal that Iraq envisioned using WMD against Israel and invading Coalition Forces under certain conditions. Iraq later declared to UNSCOM inspectors that just prior to the Gulf war it dispersed CBW munitions to selected airfields and other locations. This included 75 "special warheads" for the Al Husayn missile deployed at four sites, with the warheads and missile bodies stored separately. Iraq told UNSCOM these weapons were only to be used in response to a nuclear attack on Baghdad, and that the government had delegated retaliatory authority to field commanders. (See "Excerpts from a Closed Door Meeting" inset below for additional information).
 - Public statements, intensified research and development, production, weaponization, and dispersal of WMD suggest that Saddam sought the option of using WMD strategically before and during Desert Storm. He hoped to prolong the war with the United States, expecting that the US population would grow war-weary and stop the attack.
-- Saddam announced on the eve of the ground campaign that the Al Husayn missile was "capable of carrying nuclear, chemical and biological warheads." He warned that Iraq "will use weapons
-
-Saddam's Regime.
+- Saddam announced on the eve of the ground campaign that the Al Husayn missile was "capable of carrying nuclear, chemical and biological warheads." He warned that Iraq "will use weapons that will match the weapons used against us by our enemy, but in any case, under no circumstances shall we ever relinquish Iraq." He explained that
 
 %%page 34%%
-
-that will match the weapons used against us by our enemy, but in any case, under no circumstances shall we ever relinquish Iraq." He explained that
 
 "Iraq" included territory extending from "Zakho in the north to the sea in the south, all of Iraq."
 
@@ -961,7 +922,7 @@ The Iran-Iraq war and the ongoing suppression of internal unrest taught Saddam t
 
 Al Majid. He stated that Saddam wanted to avoid appearing weak and did not reveal he was deceiving the world about the presence of WMD.
 
-- The UN's inconclusive assessment of Iraq's possession of WMD, in Saddam's view, gave pause to Iran. Saddam was concerned that the UN inspection process would expose Iraq's vulnerability, thereby
+- The UN's inconclusive assessment of Iraq's possession of WMD, in Saddam's view, gave pause to Iran. Saddam was concerned that the UN inspection process would expose Iraq's vulnerability, thereby magnifying the effect of Iran's own capability.
 
 Saddam compared the analogy of a warrior striking the wrist of another, with the potential effect of the UN inspection process. He clarified by saying that, despite the strength of the arm, striking the wrist or elbow can be a more decisive blow to incapaci- tate the entire arm; knowledge of your opponents' weaknesses is a weapon in itself.
 
@@ -969,7 +930,7 @@ Saddam's Prioritization of Getting Out From Under Sanctions
 
 Iraq's invasion of Kuwait on 2 August 1990 led to the imposition of comprehensive and mandatory trade and financial sanctions under UNSCR 661 of 6 August 1990. These sanctions remained in place after the military ceasefire on 28 February 1991. The "Political Ceasefire" incorporated in UNSCR 687 of 3 April 1991 explicitly linked Iraq's WMD disarmament to Iraq's right to resume oil exports. Withdrawal of wider sanctions was made dependent on this step.
 
-Saddam continually underestimated the economic consequences of his actions. His belief that sanctions would prove ineffective led him to conclude he could avoid WMD disarmament. (Saddam may have been encouraged in this belief by a miss-appreciation of the relative effectiveness of sanctions against the apartheid regime in South Africa.) As early as 1992, however, Saddam began to form a more sober impression of the power of sanctions and their deleterious effect on Iraq. The compounding economic, military, and infrastructure damage caused by sanctions—not to mention their effect on internal opinion in Iraq—focused Saddam by the mid-90s on the need to lift sanctions before any thought of resuming WMD development could be entertained. Saddam's proximate objective was therefore lifting sanctions, but efforts had to be compatible with preservation of Regime security. While it appears that Iraq, by the mid-1990s, was essentially free of militarily significant WMD stocks, Saddam's perceived requirement to bluff about WMD capabilities made it too dangerous to clearly reveal magnifying the effect of Iran's own capability.
+Saddam continually underestimated the economic consequences of his actions. His belief that sanctions would prove ineffective led him to conclude he could avoid WMD disarmament. (Saddam may have been encouraged in this belief by a miss-appreciation of the relative effectiveness of sanctions against the apartheid regime in South Africa.) As early as 1992, however, Saddam began to form a more sober impression of the power of sanctions and their deleterious effect on Iraq. The compounding economic, military, and infrastructure damage caused by sanctions—not to mention their effect on internal opinion in Iraq—focused Saddam by the mid-90s on the need to lift sanctions before any thought of resuming WMD development could be entertained. Saddam's proximate objective was therefore lifting sanctions, but efforts had to be compatible with preservation of Regime security. While it appears that Iraq, by the mid-1990s, was essentially free of militarily significant WMD stocks, Saddam's perceived requirement to bluff about WMD capabilities made it too dangerous to clearly reveal
 
 %%page 35%%
 
@@ -985,7 +946,7 @@ As part of his efforts to escape sanctions, Saddam launched a vigorous campaign 
 
 Baghdad on the roofs of taxis, the procession led by a throng of professional mourners." There is only one problem, the program observes: because there are not enough dead babies around, the Regime prevents parents from burying infants immediately, as is the Muslim tradition, to create more powerful propaganda. An Iraqi taxi driver interviewed on the program observed, "They would collect bodies of children who had died months before and been held for mass processions." A Western source visited an
 
-Buying Your Way Out Regime Strategic
+Buying Your Way Out
 
 As a way of generating international support, the Regime gave to others an economic stake in the Regime's survival; an example of this is the curious cash disbursement to a senior member of Russian Intelligence.
 
@@ -1005,7 +966,7 @@ Oil prices increased slightly more than a dollar a barrel between November and D
 
 - Saddam reduced Iraqi oil exports from January through March 2000 in an effort to force the delivery of spare parts held up by UN Committee 661. The price of a barrel of oil increased from $23 in December 1999 to $27 in March. The UN released the parts, Saddam started exporting, and the cost of a barrel of oil fell to $22 in April.
 - When the United States and United Kingdom announced plans in June 2001 to impose "smart sanctions," Saddam once more stopped exporting oil to halt the effort. This time, however, the price of a barrel of oil declined to $23 in July from a price of $25 in May. Saddam restarted exporting the following month, August.
-- The Iraqi Presidential Council in September 2000 received a staff paper proposing that Iraq threaten to withdraw oil from the OFF program to induce upward pressure on world oil prices. The paper
+- The Iraqi Presidential Council in September 2000 received a staff paper proposing that Iraq threaten to withdraw oil from the OFF program to induce upward pressure on world oil prices. The paper claimed that this would compel the United States
 
 Figure 1. Average oil price per year (1973-2003).
 
@@ -1014,8 +975,6 @@ and United Kingdom to remove their objections to contracts being held up in UN C
 - In addition, Saddam introduced a "surcharge" on Iraqi oil exports in September 2000. The UN objected to the surcharge because it would give Iraq more money than it was authorized under the OFF program. Attempting to defeat the UN's objections, Saddam once again stopped oil exports in December, and between December 2000 and January 2001 oil increased by 3 dollars a barrel but thereafter declined. Saddam restarted oil exports but the surcharge stayed in place, although "under the table."
 
 The former Regime also used Iraq's oil resources to seek diplomatic support for the lifting or easing of sanctions. According to Rashid, in early 1997 Foreign Minister 'Aziz and Vice President Ramadan approached him to propose selling oil only to those who were "friendly" toward the former Regime. By "friendly," Rashid said that 'Aziz and Ramadan meant "those nations that would help [Iraq] get sanctions lifted or individuals who were influential with their government leaders and who could persuade them to help get sanctions lifted." Saddam ordered the proposal be undertaken. • Saddam gave preferential treatment to Russian and French companies hoping for Russian and French support on the UN Security Council. (See the Regime Finance and Procurement chapter for additional information.)
-
-claimed that this would compel the United States
 
 %%page 37%%
 
@@ -1033,7 +992,7 @@ Iraq's Surcharge on Oil and Regime Decision Making
 
 The description of the surcharge episode by the former Minister of Oil, 'Amir Muhammad Rashid Al 'Ubaydi, while a detainee, provides an interesting example of the Regime's decision-making process.
 
-In the autumn of 2000 the talk of a surcharge began. Saddam never asked me about the surcharge. He talked to a group of sycophants who simply told him he had a great idea. Huwaysh would make a recommendation and Saddam would follow him blindly. Huwaysh suggested 10 percent [suggesting 10 percent of the oil company's profit margin]. I never attended a meeting and without me it was not a proper meeting. Ramadan formed a committee to determine how to divert some fixed part of the buyer's profit margin to the Iraqi Government. The idea was supported by both Ramadan and 'Aziz. They finally agreed on 10 percent a barrel. What happened? The professionals (France, Italy, Spain, Russia) refused to buy from us. [The effect of the surcharge was to remove Iraqi oil from the market.] However, the individuals with whom we were trading had contracts with the trading companies. I went to the trading companies to get them to share their profit margin with us. They refused. Saddam was very critical of my efforts but I didn't care if I lost my job. A new committee was formed. This committee
+In the autumn of 2000 the talk of a surcharge began. Saddam never asked me about the surcharge. He talked to a group of sycophants who simply told him he had a great idea. Huwaysh would make a recommendation and Saddam would follow him blindly. Huwaysh suggested 10 percent [suggesting 10 percent of the oil company's profit margin]. I never attended a meeting and without me it was not a proper meeting. Ramadan formed a committee to determine how to divert some fixed part of the buyer's profit margin to the Iraqi Government. The idea was supported by both Ramadan and 'Aziz. They finally agreed on 10 percent a barrel. What happened? The professionals (France, Italy, Spain, Russia) refused to buy from us. [The effect of the surcharge was to remove Iraqi oil from the market.] However, the individuals with whom we were trading had contracts with the trading companies. I went to the trading companies to get them to share their profit margin with us. They refused. Saddam was very critical of my efforts but I didn't care if I lost my job. A new committee was formed. This committee included the sycophants and the "genius." When I went to the meeting I brought the three top experts
 
 from SOMO (State Oil Marketing Organization). They told the committee that it was impossible to do more than 10 cents a barrel. Nevertheless, the committee recommended 50 cents. What happened? They stopped buying from us. Our exports were about 2.2 to 3.1 mbd over the time period in question.
 
@@ -1041,9 +1000,9 @@ After two weeks I went to Saddam and got him to lower the price to 40 cents. Our
 
 A third meeting was held. I participated together with SOMO. 'Aziz and Ramadan supported me, but they were afraid to speak up. Finally we decided on 30 cents a barrel selling to the US and 25 cents a barrel selling to Europe. Now the problem became how to explain the situation to OPEC. We couldn't tell them about the surcharge because it was illegal. Of course we thought the oil was Iraq's and we could do what we wished with it. But that was not the international situation. This situation remained through part of 2002. I decided to fight. No one was lifting Iraqi oil. I talked to Foreign Minister 'Aziz and he pointed out that we had lost all our friends. So we finally went back to 10 cents a barrel for the last part of 2002. Overall, we lost $10,000,000 in exports.
 
-included the sycophants and the "genius." When I went to the meeting I brought the three top experts been exploited. Development of these reserves in
-
 %%page 39%%
+
+been exploited. Development of these reserves in
 
 Iraq's Relationship With Russia
 
@@ -1053,11 +1012,9 @@ The former Iraqi Regime sought a relationship with Russia to engage in extensive
 - 1999: A Russian delegation traveled to Iraq to provide expertise on airframes and guidance systems for missiles.
 - Under OFF, 32 percent of the Iraqi contracts went to Russia.
 
-Iraqi attempts to use oil gifts to influence Russian policy makers were on a lavish and almost indiscrim- inate scale. Oil voucher gifts were directed across the political spectrum targeting the new oligarch class, Russian political parties and officials. Lukoil, a Russian oligarch-controlled company received in excess of 65 million barrels (amounting to a profit of nearly 10 million dollars); other oligarch companies such as Gazprom and Yukos received lesser amounts; the Liberal Democratic Party leader Zhirinovsky was a recipient, as was the Russian Communist party and the Foreign Ministry itself, according to Iraqi
+Iraqi attempts to use oil gifts to influence Russian policy makers were on a lavish and almost indiscrim- inate scale. Oil voucher gifts were directed across the political spectrum targeting the new oligarch class, Russian political parties and officials. Lukoil, a Russian oligarch-controlled company received in excess of 65 million barrels (amounting to a profit of nearly 10 million dollars); other oligarch companies such as Gazprom and Yukos received lesser amounts; the Liberal Democratic Party leader Zhirinovsky was a recipient, as was the Russian Communist party and the Foreign Ministry itself, according to Iraqi documents. (See Oil Voucher Allocations within the Regime Finance and Procurement chapter for additional information.)
 
-• In 1991, only 15 of Iraq's 73 discovered fields had Regime Strategic the post-sanctions period would provide the former Regime with greater leverage in the world oil market. Accordingly, Iraq entered into lucrative oil exploration and exploitation contracts. The lion's share of these contracts went to Russian companies. For example, Lukoil received a $4 billion contract in 1997 to develop the second Qurna field, and in April 2001 Zarubezhchneft and Tatneft received a contract worth $11.1 billion to drill in three Iraqi oil fields. In 2002, a contract was negotiated—but not signed—for Russian firms to begin exploration of several Iraqi oil fields over a ten-year period. Execution of these contracts was to commence during sanctions and be fully implemented once sanction had been lifted. Iraq hoped these contracts would provide Russia, and other nations, with a significant economic interest in pushing for the removal of sanctions.
-
-documents. (See Oil Voucher Allocations within the Regime Finance and Procurement chapter for additional information.)
+• In 1991, only 15 of Iraq's 73 discovered fields had the post-sanctions period would provide the former Regime with greater leverage in the world oil market. Accordingly, Iraq entered into lucrative oil exploration and exploitation contracts. The lion's share of these contracts went to Russian companies. For example, Lukoil received a $4 billion contract in 1997 to develop the second Qurna field, and in April 2001 Zarubezhchneft and Tatneft received a contract worth $11.1 billion to drill in three Iraqi oil fields. In 2002, a contract was negotiated—but not signed—for Russian firms to begin exploration of several Iraqi oil fields over a ten-year period. Execution of these contracts was to commence during sanctions and be fully implemented once sanction had been lifted. Iraq hoped these contracts would provide Russia, and other nations, with a significant economic interest in pushing for the removal of sanctions.
 
 %%page 40%%
 
@@ -1067,21 +1024,17 @@ The former Iraqi Regime sought a relationship the sanctions. Saddam's Regime, in
 
 - In 1988, Iraq paid 1 million dollars to the French Socialist Party, according to a captured IIS report dated 9 September 1992. 'Abd-al-Razzaq Al Hashimi, former Iraqi ambassador to France, handed the money to French Defense Minister Pierre Joxe, according the report. The IIS instructed 'Abd-al-Razzaq to "utilize it to remind French Defense Minister, Pierre Joxe, indirectly about Iraq's previous positions toward France, in general, and the French Socialist party, in particular."
 - 'Aziz says he personally awarded several French individuals substantial oil allotments. According to 'Aziz, both parties understood that resale of the oil was to be reciprocated through efforts to lift UN sanctions, or through opposition to American initiatives within the UNSC.
-- As of June 2000, Iraq had awarded short term con-
+- As of June 2000, Iraq had awarded short term contracts under the OFF program to France totaling $1.78 billion, equaling approximately 15 percent of the oil contracts allocated under the OFF program.
 
 (See the Regime Finance and Procurement chapter.)
 
 The IIS flagged two groups of people to influence French policy in the UNSC: French Governmental officials and influential French citizens. IIS documents recovered by ISG identify those persons of interest, to include ministers and politicians, journalists, and business people. On 25 January 2004, the Baghdad periodical Al Mada published a list of names of companies, individuals and other groups that received oil allocations from the former Regime under the auspices of the OFF program. These influential individuals often had little prior connection to the oil industry and generally engaged European oil companies to lift the oil, but were still in a position to extract a substantial profit for themselves. Individuals named included Charles Pascua, a former French Interior Minister, who received almost 11 million barrels; Patrick Maugein, whom the Iraqis considered a conduit to Chirac (which we have not confirmed), who received 13 million barrels through his Dutch- registered company, Michel Grimard, founder of the French-Iraqi Export Club, who received over 5.5 million barrels through Swiss companies and the Iraqi-French Friendship Society, which received over 10 million barrels. The French oil companies Total and SOCAP received over 105 million and 93 million barrels, respectively (see Oil Voucher Allocations of the Regime Finance and Procurement chapter for additional information).
 
-tracts under the OFF program to France totaling
-
-$1.78 billion, equaling approximately 15 percent of the oil contracts allocated under the OFF program.
-
 %%page 41%%
 
-WMD Intent resources and led Iraq towards a period of insolvency
+and decline. Further, the war taught Saddam the
 
-Realizing Saddam's Veiled
+> Realizing Saddam's Veiled WMD Intent
 
 Regime Strategy and WMD Timeline
 
@@ -1099,7 +1052,7 @@ Ambition (1980-1991)
 
 The opening years of Saddam's Regime are defined by a period of ambition. The 1980 to 1991 period is dominated by the Iran-Iraq war and its aftershock.
 
-The war was costly in financial, human and materiel Regime Strategic and decline. Further, the war taught Saddam the importance of WMD to national and Regime survival; in doing so, however, it also highlighted Iraq's active WMD program to the world. A sharp increase in the price of oil in 1979, following a series of earlier spikes, provided Saddam with a financial base that he hoped to use to improve Iraq's civilian infrastructure and modernize its military.
+The war was costly in financial, human and materiel resources and led Iraq towards a period of insolvency importance of WMD to national and Regime survival; in doing so, however, it also highlighted Iraq's active WMD program to the world. A sharp increase in the price of oil in 1979, following a series of earlier spikes, provided Saddam with a financial base that he hoped to use to improve Iraq's civilian infrastructure and modernize its military.
 
 Indeed the 1979 gains created a new plateau for higher prices (more than $30 a barrel) through the mid-1980s and created a hard currency windfall for
 
@@ -1125,13 +1078,11 @@ The costliness of the Iran-Iraq war and the resulting invasion of Kuwait ushered
 
 UNSCR 715, passed on 11 October 1991, required Iraq's unconditional acceptance of an ongoing monitoring and verification presence to verify Iraq's compliance with the weapons-related provisions of UNSCR 687 (1991). UNSCR 715 also required national implementing legislation to ban future Iraqi WMD work. The former Regime refused to accept these provisions until November 1993. (However, national implementing legislation was not enacted until February 2003.) The former Regime objected to the open-ended nature of long-term monitoring, because Iraq equated the presence of inspectors with the continuation of sanctions. As this wran- gling continued, sanctions took their toll on the Iraqi economy—government and private-sector revenues collapsed, rampant inflation undermined business confidence, and Iraqis at all levels were impover- ished—and the former Regime in late 1994 threatened to end cooperation with inspectors unless the oil embargo was lifted. The Iraqi Government was unable to invest in rebuilding its infrastructure, already dev- astated by the Desert Storm and the Iran-Iraq war.
 
-The "no-fly zones" over northern and southern Iraq, patrolled by Coalition aircraft, were an affront to Iraqi sovereignty. Although severely weakened militarily, Iraq used troop movements into southern Iraq in 1994 to threaten the Kuwaitis and into northern Iraq in 1996 to punish disaffected Kurds. Internally, the departure to Jordan in August 1995 of Saddam's son-in-law and close confidante Husayn Kamil created further disarray among senior members of the Iraqi Regime. Through it all, Saddam endured and his
-
-> desire to end sanctions and rebuild his WMD capability persisted.
+The "no-fly zones" over northern and southern Iraq, patrolled by Coalition aircraft, were an affront to Iraqi sovereignty. Although severely weakened militarily, Iraq used troop movements into southern Iraq in 1994 to threaten the Kuwaitis and into northern Iraq in 1996 to punish disaffected Kurds. Internally, the departure to Jordan in August 1995 of Saddam's son-in-law and close confidante Husayn Kamil created further disarray among senior members of the Iraqi Regime. Through it all, Saddam endured and his desire to end sanctions and rebuild his WMD capability persisted.
 
 %%page 43%%
 
-Selected UN Security Council Resolutions Regime Strategic
+Selected UN Security Council Resolutions
 
 UNSCR 687, 3 April 1991—created UNSCOM and required Iraq to accept "the destruction, removal, or rendering harmless, under international supervision" of its chemical and biological weapons and missiles with a range greater than 150 kilometers and their associated programs, stocks, components, research, and facilities. The International Atomic Energy Agency (IAEA) was charged with abolition of Iraq's nuclear weapons program.
 
@@ -1143,7 +1094,7 @@ UNSCR 712, 2 September 1991—Authorizes immediate release of funds from escrow 
 
 UNSCR 715, 11 October 1991—approved UNSCOM and IAEA plans for Ongoing Monitoring and Verification (OMV) to prevent Iraq from reconstituting its WMD programs.
 
-UNSCR 986, 14 April 1995—allowed Iraq to export $1,000,000,000 of petroleum and petroleum products every 90 days, placed the funds in an escrow account, and allowed Iraq to purchase food, medicines, and
+UNSCR 986, 14 April 1995—allowed Iraq to export $1,000,000,000 of petroleum and petroleum products every 90 days, placed the funds in an escrow account, and allowed Iraq to purchase food, medicines, and humanitarian supplies with the proceeds. Laid the groundwork of what came to be known as the Oil-For- Food Program.
 
 UNSCR 1051, 27 March 1996—approved a mechanism for monitoring Iraqi imports and exports as required by UNSCR 715. The mechanism allowed the UN and the IAEA to monitor the import of dual-use goods in Iraq.
 
@@ -1157,21 +1108,19 @@ UNSCR 1284, 17 December 1999—established UNMOVIC to take over the responsibili
 
 UNSCR 1441, 8 November 2002—declared Iraq in material breach of its obligations under previous resolutions including UNSCR 687, required new weapons declarations from Iraq, and included strin- gent provisions for Iraqi compliance, including access to all sites, interviews with scientists, and landing and over flight rights.
 
-humanitarian supplies with the proceeds. Laid the groundwork of what came to be known as the Oil-For- Food Program.
-
 %%page 44%%
 
-WMD sions that he did not consider ballistic missiles to be WMD and therefore Iraq should not be subject
+be WMD and therefore Iraq should not be subject
 
-Scientific Research and Intention to Reconstitute
+Scientific Research and Intention to Reconstitute WMD
 
 Many former Iraqi officials close to Saddam either heard him say or inferred that he intended to resume WMD programs when sanctions were lifted. Those around him at the time do not believe that he made a decision to permanently abandon WMD programs.Saddam encouraged Iraqi officials to preserve the nation's scientific brain trust essential for WMD. Saddam told his advisors as early as 1991 that he wanted to keep Iraq's nuclear scientists fully employed. This theme of preserving personnel resources persisted throughout the sanctions period.
 
 - Saddam's primary concern was retaining a cadre of skilled scientists to facilitate reconstitution of WMD programs after sanctions were lifted, according to former science advisor Ja'far Diya' Ja'far Hashim. Saddam communicated his policy in several meetings with officials from MIC, Ministry of Industry and Minerals, and the IAEC in 1991-1992. Saddam instructed general directors of Iraqi state establishments and other state entities to prevent key scientists from the pre-1991 WMD program from leaving the country. This retention of scientists was Iraq's only step taken to prepare for a resumption of WMD, in Ja'far's opinion.
 - Presidential secretary 'Abd Hamid Mahmud wrote that in 1991 Saddam told the scientists that they should "preserve plans in their minds" and "keep the brains of Iraq's scientists fresh." Iraq was to destroy everything apart from knowledge, which would be used to reconstitute a WMD program.
-- Saddam wanted people to keep knowledge in their heads rather than retain documents that could have been exposed, according to former Deputy Prime Minister Tariq 'Aziz. Nuclear scientists were told in general terms that the program was over after 1991, and Tariq 'Aziz inferred that the scientists understood that they should not keep documents or equipment. 'Aziz also noted that if Saddam had the same opportunity as he did in the 1980s, he probably would have resumed research on nuclear
+- Saddam wanted people to keep knowledge in their heads rather than retain documents that could have been exposed, according to former Deputy Prime Minister Tariq 'Aziz. Nuclear scientists were told in general terms that the program was over after 1991, and Tariq 'Aziz inferred that the scientists understood that they should not keep documents or equipment. 'Aziz also noted that if Saddam had the same opportunity as he did in the 1980s, he probably would have resumed research on nuclear weapons.
 
-- Ja'far said that Saddam stated on several occa- to missile restrictions. Ja'far was unaware of any WMD activities in Iraq after Desert Storm, but said he thought Saddam would reconstitute all WMD disciplines when sanctions were lifted, although he cautioned that he never heard Saddam say this explicitly. Several former senior Regime officials also contended that nuclear weapons would have been important—if not central—components of Saddam's future WMD force.
+- Ja'far said that Saddam stated on several occasions that he did not consider ballistic missiles to to missile restrictions. Ja'far was unaware of any WMD activities in Iraq after Desert Storm, but said he thought Saddam would reconstitute all WMD disciplines when sanctions were lifted, although he cautioned that he never heard Saddam say this explicitly. Several former senior Regime officials also contended that nuclear weapons would have been important—if not central—components of Saddam's future WMD force.
 
 - According to two senior Iraqi scientists, in 1993 Husayn Kamil, then the Minister of Military Industrialization, announced in a speech to a large audience of WMD scientists at the Space Research Center in Baghdad that WMD programs would resume and be expanded, when UNSCOM inspectors left Iraq. Husayn Kamil's intimate relationship with Saddam added particular credibility to his remarks.
 
@@ -1179,21 +1128,19 @@ Reaction to Sanctions
 
 Baghdad reluctantly submitted to inspections, declaring only part of its ballistic missile and chemical warfare programs to the UN, but not its nuclear weapon and biological warfare programs, which it attempted to hide from inspectors. In 1991, Husayn Kamil and Qusay Saddam Husayn attempted to retain Iraq's WMD and theater missile capability by using MIC, along with the SSO, RG, SRG, and Surface-to- Surface Missile Command to conceal banned weapons and deceive UNSCOM inspectors.
 
-- MIC organizations–the Technical Research Center and the Al Muthanna State Establishment–dispersed Iraq's biological and chemical bombs and missile warheads in cooperation with the Iraqi Air Force and Surface-to-Surface Missile Command prior to Desert Storm. These undeclared or partially declared weapons remained in dispersal sites, allegedly, until July 1991. weapons.
+- MIC organizations–the Technical Research Center and the Al Muthanna State Establishment–dispersed Iraq's biological and chemical bombs and missile warheads in cooperation with the Iraqi Air Force and Surface-to-Surface Missile Command prior to Desert Storm. These undeclared or partially declared weapons remained in dispersal sites, allegedly, until July 1991.
 
 %%page 45%%
 
-Husayn Kamil Regime Strategic Born in 1955 within the Al Majid branch of Saddam's family, Husayn Kamil was the son of Saddam's first cousin on his father's side, Kamil Hasan Al Majid. More importantly, Husayn Kamil became Saddam's son-in-law, married in 1983 to Saddam's eldest and favorite daughter, Raghad. Husayn Kamil began his rise to power within the Regime's security services as part of Saddam's personal detail. According to Tariq 'Aziz, Husayn Kamil was a second lieutenant when Saddam became president in July 1979. In 1983, Saddam appointed him Director of the SSO and later Supervisor, or "Overseer"(Mushrif), of the RG (including the SRG). In effect, he controlled all of Saddam's security organizations, an unprecedented level of trust for any single individual. In 1987, Saddam appointed Husayn Kamil as Overseer of Military Industrialization. He rose to Minister of Industry and Military Industrialization (MIMI) in 1988 after acquiring the Ministries of Heavy Industry and Light Industry as well as exerting control over the Ministry of Petroleum, the Atomic Energy Commission, and Petrochemical Complex 3 (Iraq's clandestine nuclear program). By 1990, Husayn Kamil was, very likely, the second most powerful man in Iraq. Husayn Kamil received broad administrative and financial authority from Saddam to consolidate both Iraq's research and development programs, and its industrial resources into military production, including WMD and missile delivery systems production. Although not technically trained, Kamil oversaw Iraq's program to modify the Regime's SCUD missiles to the longer-range Al Husayn variant, and the development and production of nerve agents, including Tabun, Sarin and VX.
+Husayn Kamil Born in 1955 within the Al Majid branch of Saddam's family, Husayn Kamil was the son of Saddam's first cousin on his father's side, Kamil Hasan Al Majid. More importantly, Husayn Kamil became Saddam's son-in-law, married in 1983 to Saddam's eldest and favorite daughter, Raghad. Husayn Kamil began his rise to power within the Regime's security services as part of Saddam's personal detail. According to Tariq 'Aziz, Husayn Kamil was a second lieutenant when Saddam became president in July 1979. In 1983, Saddam appointed him Director of the SSO and later Supervisor, or "Overseer"(Mushrif), of the RG (including the SRG). In effect, he controlled all of Saddam's security organizations, an unprecedented level of trust for any single individual. In 1987, Saddam appointed Husayn Kamil as Overseer of Military Industrialization. He rose to Minister of Industry and Military Industrialization (MIMI) in 1988 after acquiring the Ministries of Heavy Industry and Light Industry as well as exerting control over the Ministry of Petroleum, the Atomic Energy Commission, and Petrochemical Complex 3 (Iraq's clandestine nuclear program). By 1990, Husayn Kamil was, very likely, the second most powerful man in Iraq. Husayn Kamil received broad administrative and financial authority from Saddam to consolidate both Iraq's research and development programs, and its industrial resources into military production, including WMD and missile delivery systems production. Although not technically trained, Kamil oversaw Iraq's program to modify the Regime's SCUD missiles to the longer-range Al Husayn variant, and the development and production of nerve agents, including Tabun, Sarin and VX.
 
-His relationship with Saddam gave Husayn Kamil opportunities to act outside the law and with minimal personal and fiscal oversight. Because of his family ties and proximity to Saddam, he could have anyone fired or placed under suspicion. Although 'Amir Hamudi Hasan Al Sa'adi was the Deputy Director of MIC and a key subordinate, Kamil did not rely on deputies. A former subordinate noted: "Husayn Kamil did not have a right-hand man, as he was too arrogant." His successor at MIC, who was also one could control him and everyone feared him."
+His relationship with Saddam gave Husayn Kamil opportunities to act outside the law and with minimal personal and fiscal oversight. Because of his family ties and proximity to Saddam, he could have anyone fired or placed under suspicion. Although 'Amir Hamudi Hasan Al Sa'adi was the Deputy Director of MIC and a key subordinate, Kamil did not rely on deputies. A former subordinate noted: "Husayn Kamil did not have a right-hand man, as he was too arrogant." His successor at MIC, who was also one of Kamil's former subordinates said, "No one in MIC could control him and everyone feared him."
 
 > Saddam Husayn's family (top)—Husayn Kamil on far left; Kamil in uniform (left).
 
 By 1995 the impact of sanctions meant Iraq was on the verge of bankruptcy—Kamil's capricious and self-serving oversight of MIC, his lack of accountability, and the intrusive nature of UN inspections combined to erode Iraq's military industrial capability. Husayn Kamil, his brother Saddam Kamil, and their wives and children (Saddam Husayn's grandchildren) fled Iraq and sought political asylum in Jordan on 9 August 1995. Various reasons may explain why Husayn Kamil left Iraq. The most important reason may have been the growing tension between him and his bitter family- rival 'Uday Saddam Husayn. According to King Hussein of Jordan, "as far as we know, this was a family crisis, in the personal context, for a fairly long period." A further explanation revolves around the terrible state of the Iraqi economy under sanctions and the possibility that he wanted to escape Iraq before a popular or tribal revolt unseated Saddam and his family. For his part, Husyan Kamil said Saddam's rule had "lost its creditability on the international and Arab level," and that his defection "shows to what extent the situation in Iraq has deteriorated." The Iraqi media and leadership first accused him of financial improprieties, and then said he was "no more than an employee in this state and his responsibilities were limited." Finally, they made him the ultimate "fall guy" for all Iraq's problems—from the Regime's decision to invade Kuwait, to Iraq's duplici- tous relations with UNSCOM.
 
-Despite the level of invective on both sides, Husayn of Kamil's former subordinates said, "No one in MIC
-
-Kamil, Saddam Kamil, and their families decided
+Despite the level of invective on both sides, Husayn Kamil, Saddam Kamil, and their families decided
 
 %%page 46%%
 
@@ -1206,7 +1153,7 @@ Husayn Kamil (continued) to return to Iraq in February 1996, supposedly with the
 Senior Regime members failed to anticipate the duration of sanctions and the rigor of UN inspections.
 
 - Saddam initially expected the sanctions would last no more than three years, and many Iraqis doubted the sanctions would be so comprehensive, according to several detainee interviews. These perceptions probably persuaded senior Regime leaders that they could weather a short-lived sanctions regime by making limited concessions, hiding much of their pre-existing weapons and documentation, and even expanding biological warfare potential by enhancing dual-use facilities.
-- Following unexpectedly thorough inspections, Saddam ordered Husayn Kamil in July 1991 to destroy unilaterally large numbers of undeclared weapons and related materials to conceal Iraq's WMD capabilities. This destruction–and Iraq's failure to document the destruction–greatly com-
+- Following unexpectedly thorough inspections, Saddam ordered Husayn Kamil in July 1991 to destroy unilaterally large numbers of undeclared weapons and related materials to conceal Iraq's WMD capabilities. This destruction–and Iraq's failure to document the destruction–greatly complicated UN verification efforts and thereby pro-
 
 Saddam, their father, their sister and her children were killed in the ensuing shoot-out. Saddam Husayn "explicitly endorsed the killings, which, as he saw them, 'purified' and healed the family by amputat- ing from the 'hand' an 'ailing finger.'" Trying at the same time to distance himself, however, he assured his listeners that, had he been notified about it ahead of time, he would have prevented the assault, because "when I pardon, I mean it."
 
@@ -1218,18 +1165,16 @@ longed UN economic sanctions on Iraq. According to Iraqi Presidential Advisor 'A
 
 Husayn Kamil's Departure
 
-Senior Iraqi officials—especially Saddam—were caught off-guard by Husayn Kamil's flight to Jordan in August 1995. The Regime was forced to quickly assess what the fallout would be from any revelations and what damage they would inflict on Iraqi plicated UN verification efforts and thereby procredibility with UNSCOM. Iraqi demands to end sanctions and threats to stop cooperation with
+Senior Iraqi officials—especially Saddam—were caught off-guard by Husayn Kamil's flight to Jordan in August 1995. The Regime was forced to quickly assess what the fallout would be from any revelations and what damage they would inflict on Iraqi credibility with UNSCOM. Iraqi demands to end sanctions and threats to stop cooperation with UNSCOM became increasingly shrill in the two months prior to Husayn Kamil's defection. Vice President Ramadan said on 14 June that Iraq had decided "not to continue cooperation with the Council" if UNSCOM Executive Chairman Rolf Ekeus' 19 June 1995 report to the UNSC did not bring about "a positive position that contributes to ending the siege imposed on Iraq." On 17 July, the anniversary of the Ba'th party revolution, Saddam again threatened to stop cooperation with the UN unless sanctions were lifted. Two days later, after meetings with his Egyptian counterpart, Iraqi Foreign Minister Muhammad Sa'id Kazim Al Sahaf insisted that Iraq had complied with its obligations under UNSC resolutions and demanded the oil embargo and other sanctions be lifted by the UNSC after the next review on 14 September.
 
 %%page 47%%
-
-UNSCOM became increasingly shrill in the two months prior to Husayn Kamil's defection. Vice President Ramadan said on 14 June that Iraq had decided "not to continue cooperation with the Council" if UNSCOM Executive Chairman Rolf Ekeus' 19 June 1995 report to the UNSC did not bring about "a positive position that contributes to ending the siege imposed on Iraq." On 17 July, the anniversary of the Ba'th party revolution, Saddam again threatened to stop cooperation with the UN unless sanctions were lifted. Two days later, after meetings with his Egyptian counterpart, Iraqi Foreign Minister Muhammad Sa'id Kazim Al Sahaf insisted that Iraq had complied with its obligations under UNSC resolutions and demanded the oil embargo and other sanctions be lifted by the UNSC after the next review on 14 September.
 
 By the time Husayn Kamil fled, Iraq already had submitted another "full, final, and complete declaration (FFCD)" on its biological program to UNSCOM. On 1 July 1995, Iraq had admitted to the production of bulk biological agent, but had denied weaponizing it. To maintain the appearance of cooperation, however, Iraq had to provide more information to inspectors and withdraw the earlier FFCD. After making such strident demands of Rolf Ekeus and the UN, Iraq was now forced—to great embarrassment—to withdraw its threat to cease cooperation with UNSCOM and admit that its biological program was more extensive than previously acknowledged.
 
 - Husayn Kamil's flight set the stage for further disclosures to the UN, particularly in the BW and nuclear fields. The UN responded by destroying extensive dual-use facilities critical to the BW program, such as the facilities at Al Hakam and Al Dawrah. The revelations also triggered conten- tious UNSCOM inspections in 1996 designed to counter Regime deception efforts and led to show- downs over access to sensitive facilities, including presidential sites.
-- After Husayn Kamil's departure, about 500 scientists and other nuclear officials assembled and signed documents affirming they would hide neither
+- After Husayn Kamil's departure, about 500 scientists and other nuclear officials assembled and signed documents affirming they would hide neither equipment nor documents, according to a former nuclear scientist.
 
-- The director of the National Monitoring Director- Regime Strategic ate (NMD) responded to Husayn Kamil's departure by installing representatives in each ministry and company, according to the former Minister of Military Industrialization 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh. These individuals, fully aware of all the UNSC resolutions, were to report any violations to the NMD. When they detected potential violations, such as trying to procure materials and conducting illicit research, they halted them.
+- The director of the National Monitoring Directorate (NMD) responded to Husayn Kamil's departure by installing representatives in each ministry and company, according to the former Minister of Military Industrialization 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh. These individuals, fully aware of all the UNSC resolutions, were to report any violations to the NMD. When they detected potential violations, such as trying to procure materials and conducting illicit research, they halted them.
 
 Cooperating With UNSCOM While Preserving WMD
 
@@ -1238,7 +1183,7 @@ Iraq attempted to balance competing desires to appear to cooperate with the UN a
 - According to 'Abd Hamid Mahmud, Saddam privately told him that Iraq would reacquire WMD post-sanctions and that he was concerned about Iraq's vulnerability to Israeli WMD and Iran's growing nuclear threat.
 - Baghdad tried to balance perceived opportunities offered by denial and deception, and diplomacy, against costs imposed by the continuation of sanctions, the UN's introduction of more rigorous inspection techniques, and Coalition air attacks.
 - Saddam repeatedly told his ministers not to participate in WMD-related activity, according to Tariq 'Aziz.
-- A former MIC employee stated he was directed to sign an affidavit in 1993 acknowledging he understood that he was under orders to comply with UN restrictions and that the penalty for non-compliance was death. He signed a similar affidavit in 1994- equipment nor documents, according to a former nuclear scientist.
+- A former MIC employee stated he was directed to sign an affidavit in 1993 acknowledging he understood that he was under orders to comply with UN restrictions and that the penalty for non-compliance was death. He signed a similar affidavit in 1994-
 
 %%page 48%%
 
@@ -1273,7 +1218,7 @@ The release of long-concealed WMD documentation planted at Husayn Kamil's farm i
 
 - The Iraqi leadership required WMD scientists to sign an agreement in 1996 indicating that they would turn over any WMD documents in their houses and that failure to do so could lead to execution, according to reporting.
 
-- Huwaysh, in 1997 ordered his employees to sign Regime Strategic statements certifying they did not have any WMD-related documents or equipment. The penalty for non-compliance was death. His scientists relinquished rooms full of documents, which MIC turned over to the National Monitoring Directorate. Huwaysh was unsure what the NMD ultimately did with them.
+- Huwaysh, in 1997 ordered his employees to sign statements certifying they did not have any WMD-related documents or equipment. The penalty for non-compliance was death. His scientists relinquished rooms full of documents, which MIC turned over to the National Monitoring Directorate. Huwaysh was unsure what the NMD ultimately did with them.
 
 Although Iraq's release of the "chicken farm" documents initially created a more positive atmosphere with UNSCOM, the relationship grew strained as UNSCOM and the IAEA inspections became more aggressive. The release destroyed the international community's confidence in the credibility of follow-on Iraqi declarations of cooperation. UNSCOM concluded that it had been successfully deceived by Iraq and that the deception effort was controlled and orchestrated by the highest levels of the former Regime. UNSCOM therefore directed its efforts at facilities associated with very senior members of the Regime and designed inspections to uncover documents rather than weapons. The situation eventually reached an impasse then escalated to crisis and conflict. From this experience, Iraq learned to equate cooperation with UNSCOM with increased scrutiny, prolonged sanctions, and the threat of war. In response, Baghdad sought relief via a weakening of the sanctions regime rather than compliance with it.
 
@@ -1281,13 +1226,9 @@ Looking Ahead to Resume WMD Programs
 
 The Regime made a token effort to comply with the disarmament process, but the Iraqis never intended to meet the spirit of the UNSC's resolutions. Out- ward acts of compliance belied a covert desire to resume WMD activities. Several senior officials also either inferred or heard Saddam say that he reserved the right to resume WMD research after sanctions.
 
-- Presidential secretary 'Abd Hamid Mahmud, while a detainee, wrote: "If the sanctions would have been lifted and there is no UN monitoring, then it was possible for Saddam to continue his WMD activities and in my estimation it would have been done in a total secrecy and [with] concealment because he gained from 1991 and UN decisions." But in
-
-> another debrief, Huwaysh said it would take 6 months to reconstitute a mustard program.
+- Presidential secretary 'Abd Hamid Mahmud, while a detainee, wrote: "If the sanctions would have been lifted and there is no UN monitoring, then it was possible for Saddam to continue his WMD activities and in my estimation it would have been done in a total secrecy and [with] concealment because he gained from 1991 and UN decisions." But in another debrief, Huwaysh said it would take 6 months to reconstitute a mustard program. he would tell the UN about the hidden documents
 
 %%page 50%%
-
-he would tell the UN about the hidden documents
 
 The Saga of the "Chicken Farm" Documents
 
@@ -1295,15 +1236,13 @@ Husayn Kamil Hasan Al Majid and Qusay Saddam Husayn were behind an effort to con
 
 A separate effort collected the documents of the PC-3 nuclear weapons organization. Security personnel hid these documents for a time in Duliyah and Tarmi- yah. Some nuclear documents were also loaded into a railroad car and shuttled between Baghdad and Hadithah in western Iraq. The documents were later delivered to a house that belonged SRG training officer Lt. Col. Sufyan Mahir Hasan Al Ghudayri in the Ghaziliyah section of Baghdad. After Sufyan transferred to the Republican Guard in 1993, SRG Chief of Staff Col. Walid Hamid Tawfiq Al Nasiri took control of the documents and moved them to a new safe house in the Hay at-Tashri section of Baghdad near the Republican Palace.
 
-An SRG element led by Col. Najah Hasan 'Ali Al Najar was also selected to conceal several truckloads of metals—aluminum billets and maraging steel disks—that had been purchased for the uranium centrifuge enrichment program. The SRG loaded this material onto civilian trucks and drove them to various locations outside of Baghdad to evade inspectors. Col. Walid also managed and coordinated this
+An SRG element led by Col. Najah Hasan 'Ali Al Najar was also selected to conceal several truckloads of metals—aluminum billets and maraging steel disks—that had been purchased for the uranium centrifuge enrichment program. The SRG loaded this material onto civilian trucks and drove them to various locations outside of Baghdad to evade inspectors. Col. Walid also managed and coordinated this activity.
 
 Husayn Kamil's flight to Jordan raised concerns that and materials. Qusay summoned Col. Walid to his office and quizzed Walid about the documents. Walid explained to Qusay about the Hay at-Tashri safe house. Shortly after this meeting, Walid was ordered by his former SRG commander, Kamal Mustafa 'Abdallah Sultan Al Nasiri to move the documents out of Baghdad. Walid used seven to nine SRG trucks to haul the documents to a farm near 'Aqarquf, west of Baghdad, where they were stored for a number of days. When Walid inquired of Kamal Mustafa what he should do with the documents, and Kamal Mustafa told him to burn them. After nearly two days of burn- ing, Walid and his crew destroyed approximately a quarter of the documents.
 
 At that point, Walid was contacted by Khalid Kulayb 'Awani Juma', the head of the SSO Republican Guard Security Directorate, who ordered that the documents be moved to Salman Pak and from there to a final destination. Walid and a convoy of trucks carried the boxes of documents in the middle of the night to Salman Pak where they were guided to Husayn Kamil's "chicken farm" near Al Suwayrah. A number of people in civilian clothes met the convoy when it arrived at the farm and directed the unloading of the vehicles. The boxes of documents were all unloaded at the farm by 7 o'clock in the morning. Walid also reportedly called Col. Najah the same night and directed Najah to meet his convoy of trucks containing the aluminum and steel at the SRG office in Al Amiriyah. Col. Walid subsequently led the convoy to Husayn Kamil's farm where these vehicles were also unloaded.
 
-UNSCOM Executive Chairman Rolf Ekeus and IAEA Action Team leader Mauricio Zifferero were in Baghdad at the invitation of the Iraqi Government. They had conducted several days of talks with the Iraqis and were about to depart for Amman, Jordan to talk with Husayn Kamil. Husam Muhammad Amin Al Yasin, Director General of the National Monitoring Directorate (NMD), received a telephone call from presidential secretary 'Abd Hamid Mahmud Al Khatab Al Nasiri explaining that Ekeus and Zifferactivity. ero should view some documents found at Husayn
-
-Kamil's farm.
+UNSCOM Executive Chairman Rolf Ekeus and IAEA Action Team leader Mauricio Zifferero were in Baghdad at the invitation of the Iraqi Government. They had conducted several days of talks with the Iraqis and were about to depart for Amman, Jordan to talk with Husayn Kamil. Husam Muhammad Amin Al Yasin, Director General of the National Monitoring Directorate (NMD), received a telephone call from presidential secretary 'Abd Hamid Mahmud Al Khatab Al Nasiri explaining that Ekeus and Zifferero should view some documents found at Husayn Kamil's farm.
 
 %%page 51%%
 
@@ -1315,9 +1254,9 @@ Reportedly, the original plan for the documents was to burn them all, and Walid 
 
 - Saddam had said that after sanctions Iraq would resume production of WMD to "achieve international balance and protect the dignity of Iraq and Iraqis and the Arab nations," according to former presidential secretary 'Abd. 'Abd wrote while a detainee, "He [Saddam] would say if only Iraq possessed the nuclear weapon then no one would commit acts of aggression on it or any other Arab country, and the Palestinian issue would be solved peacefully because of Iraq."
 - Saddam would have restarted WMD programs, beginning with the nuclear program, after sanctions, according to Tariq 'Aziz. Saddam never formally stated this intention, according to 'Aziz, but he did not believe other countries in the region should be able to have WMD when Iraq could not. 'Aziz assessed that Iraq could have a WMD capability within two years of the end of sanctions.
-- Saddam's intent to maintain and compartment WMD capabilities was well known and often acknowledged by high level authorities, according to a senior Al Kindi General Company official. The Minister of Military Industrialization allegedly told the source that Saddam wanted a WMD program "on the shelf." Huwaysh, in a written statement, explained instead that Saddam briefed senior officials on several occasions saying, "We do not intend or aspire to return to our previous programs to produce WMD, if the Security Council abides by its obligations pertaining to these resolutions [UNSCR 687, paragraph 14]." Saddam reiterated this point in a cabinet meeting in 2002, according to Dr. Humam 'Abd-al-Khaliq 'Abd-al-Ghafur, the former Minister of Higher Education and Scientific
+- Saddam's intent to maintain and compartment WMD capabilities was well known and often acknowledged by high level authorities, according to a senior Al Kindi General Company official. The Minister of Military Industrialization allegedly told the source that Saddam wanted a WMD program "on the shelf." Huwaysh, in a written statement, explained instead that Saddam briefed senior officials on several occasions saying, "We do not intend or aspire to return to our previous programs to produce WMD, if the Security Council abides by its obligations pertaining to these resolutions [UNSCR 687, paragraph 14]." Saddam reiterated this point in a cabinet meeting in 2002, according to Dr. Humam 'Abd-al-Khaliq 'Abd-al-Ghafur, the former Minister of Higher Education and Scientific Research.
 
-Regime Strategic the materials to his "chicken farm." When inspectors examined the material at the farm, they noticed the presence of pebbles among the dust on top of the document boxes, as though someone had simply thrown dirt on top of the boxes in an attempt to make it appear that the boxes had been at the farm for a long time. When the UN began an inquiry into how the documents were discovered at the farm, the Iraqis produced several fanciful stories that quickly unraveled.
+the materials to his "chicken farm." When inspectors examined the material at the farm, they noticed the presence of pebbles among the dust on top of the document boxes, as though someone had simply thrown dirt on top of the boxes in an attempt to make it appear that the boxes had been at the farm for a long time. When the UN began an inquiry into how the documents were discovered at the farm, the Iraqis produced several fanciful stories that quickly unraveled.
 
 - Huwaysh believed that Saddam would base his decision regarding future Iraqi WMD development on how the UNSC followed through on its promise in paragraph 14 to establish "in the Middle East a zone free from weapons of mass destruction and all missiles for their delivery." If this promise was not fulfilled, Iraq should be free to act in its own interests. During an earlier debrief Huwaysh speculated that Iraq would have reconstituted many of its proscribed programs within five years if OIF had not occurred.
 - During a custodial interview, Saddam, when asked whether he would reconstitute WMD programs after sanctions were lifted, implied that Iraq would have done what was necessary.
@@ -1326,9 +1265,7 @@ Guarding WMD Capabilities
 
 The abortive efforts to outwardly comply with the UN inspection process from 1995 onward slowly shifted to increased efforts to minimize the impact of the inspection process on Regime security, military, and industrial and research capabilities. Throughout 1997-1998, Iraq continued efforts to hinder UNSCOM inspections through site sanitiza- tion, warning inspection sites prior to the inspectors' arrival, concealment of sensitive documentation, and intelligence collection on the UN mission.
 
-- Increasingly after September 1997, Iraq burned documents, barred access to sites to UNSCOM, banned US inspectors, and threatened to shoot down UNSCOM U-2 missions until the UN forced
-
-Research. compliance in November of the same year.
+- Increasingly after September 1997, Iraq burned documents, barred access to sites to UNSCOM, banned US inspectors, and threatened to shoot down UNSCOM U-2 missions until the UN forced compliance in November of the same year.
 
 %%page 52%%
 
@@ -1343,8 +1280,7 @@ UNMOVIC inspection convoys, according to a former senior Iraqi official. The IIS
 Husayn or were seeking military or security information. The IIS believed that UNSCR 1441 was very tough and that it was important to engage in counterintelligence activities to protect against the loss of important information. IIS "minders" traveled with communications intercept equipment in their vehicles in order to listen to UNSCOM communications while on the move, though this strategy was not used against UNMOVIC in 2002 and 2004 out of fear of detection.
 
 - In the early and mid-1990s, the IIS was tasked with clandestine monitoring of UNSCOM weapons inspectors and their communications, as well as attempting to recruit or turn UNSCOM members, according to a former IIS official. As soon as the UNSCOM mission began focusing on presidential sites, the SSO became actively involved in the inspection process.
-
-tions, according to foreign government information. The IIS developed penetrations within the UN and basic surveillance in country to learn future inspection plans. IIS officials also had the responsibility of organizing protests at UNMOVIC inspection sites.
+- IIS personnel were directed to contact facilities and personnel in advance of UNMOVIC site inspections, according to foreign government information. The IIS developed penetrations within the UN and basic surveillance in country to learn future inspection plans. IIS officials also had the responsibility of organizing protests at UNMOVIC inspection sites.
 
 - According to presidential secretary 'Abd Hamid
 
@@ -1352,11 +1288,11 @@ Mahmud Al Khatab Al Nasiri, during the mid-to- late 1990s Saddam issued a presid
 
 - The IIS Directorate of Signals Intelligence (M17) conducted surveillance and collection activities directed against UNSCOM and the UN, according to a former M17 officer. As with the rest of the IIS effort, M17's objectives were the identification of spies and intelligence activities and the determination of inspection sites before the inspection took place. M17 used a number of techniques including signals intelligence collection from fixed sites and mobile platforms, the bugging of hotel rooms, and eavesdropping on inspector conversations. The IIS also intercepted inspectors' phone calls. As noted above, M17 did not carry out these activities during 2002 and 2003.
 
-- During UNMOVIC inspections in 2002 and 2003, the IIS was determined not to allow inspection teams to gather intelligence as the Iraqis perceived had been done in the past. Members of the IIS Directorate of Counterintelligence (M5) dramatically increased their physical observation of UN personnel during site visits, having as many as five minders per inspector. The IIS also attempted to be extremely cautious in monitoring UNMOVIC inspections in order to avoid international incidents or being caught hindering inspection activities. • IIS personnel were directed to contact facilities and personnel in advance of UNMOVIC site inspec-
+- During UNMOVIC inspections in 2002 and 2003, the IIS was determined not to allow inspection teams to gather intelligence as the Iraqis perceived had been done in the past. Members of the IIS Directorate of Counterintelligence (M5) dramatically increased their physical observation of UN personnel during site visits, having as many as five minders per inspector. The IIS also attempted to be extremely cautious in monitoring UNMOVIC inspections in order to avoid international incidents or being caught hindering inspection activities.
 
 %%page 53%%
 
-Security Services (continued) Regime Strategic
+Security Services (continued)
 
 The Special Security Organization (SSO) The SSO was primarily responsible for the security of the President and other key members of the Regime, security of Presidential palaces and facilities, and ensuring the loyalty of key military units, principally the RG and SRG. SSO personnel also played an important coordinating role between Husayn Kamil Hasan Al Majid and the SRG elements that engaged in concealment of weapons, documents, and materials in the early 1990s. An SSO element also coordinated flight planning for UNSCOM and UNMOVIC aviation elements and provided warning of UN flight activities to the Iraqi Government. The SSO reportedly worked with the IIS to develop a database of inspectors.
 
@@ -1373,9 +1309,7 @@ Iraq's Internal Monitoring Apparatus: The NMD and MIC Programs
 In 1998, after the Air Force Document incident, Saddam personally ordered the establishment of a Document Committee under the purview of the NMD to purge all MIC establishments of records of past- prohibited programs to prevent their discovery.
 
 - The NMD oversaw the destruction of redundant copies of declared documents, as well as continued the concealment of documents of past programs that would cause additional problems with the UN. Financial documents that were deemed too valuable to destroy but too controversial to declare were placed in a lockbox in the care of a special agent of the IIS.
-- According to NMD Director Husam Muhammad Amin, the NMD continued in its role of enforcing UNSC resolutions, despite its subordination to MIC and the departure of UNSCOM inspectors on 15 December 1998. For example, the NMD carried out
-
-> the destruction of missile production components, such as the 300-gallon mixer, that MIC had reconstructed against UNSC resolutions in 2002. This
+- According to NMD Director Husam Muhammad Amin, the NMD continued in its role of enforcing UNSC resolutions, despite its subordination to MIC and the departure of UNSCOM inspectors on 15 December 1998. For example, the NMD carried out the destruction of missile production components, such as the 300-gallon mixer, that MIC had reconstructed against UNSC resolutions in 2002. This
 
 %%page 54%%
 
@@ -1393,7 +1327,7 @@ The inspection team felt that this document could be helpful in their efforts to
 
 %%page 55%%
 
-VX Warhead Samples & The Iraqi Air Force Regime Strategic Document Story (continued) copy. The chief inspector objected to these restrictions after which Iraqi officials seized the document from the chief inspector's hands and refused UNSCOM any further access to the papers. According to Amin, Iraq considered any documentation or discussions detailing the use of chemical weapons to be a red- line issue. Iraq did not want to declare anything that documented use of chemical weapons for fear the documentation could be used against Iraq in lawsuits. Iraqi Regime leadership was concerned Iran would seek legal reparations for the death and suffering of Iranian citizens due to Iraq's use of CW in the 1980s.
+VX Warhead Samples & The Iraqi Air Force Document Story (continued) copy. The chief inspector objected to these restrictions after which Iraqi officials seized the document from the chief inspector's hands and refused UNSCOM any further access to the papers. According to Amin, Iraq considered any documentation or discussions detailing the use of chemical weapons to be a red- line issue. Iraq did not want to declare anything that documented use of chemical weapons for fear the documentation could be used against Iraq in lawsuits. Iraqi Regime leadership was concerned Iran would seek legal reparations for the death and suffering of Iranian citizens due to Iraq's use of CW in the 1980s.
 
 role prompted MIC to undertake an internal deception campaign to withhold information regarding the procurement of dual-use material from the
 
@@ -1423,23 +1357,19 @@ its results on 27 March 1999 and recommended to the Security Council that it cre
 
 Despite the end of the former Regime's cooperation with UNSCOM, the OFF program continued without interruption. The UNSC not only renewed the original OFF mandate under UNSCR 986, but raised the revenue ceiling for Iraqi oil exports in October 1999 with UNSCR 1266. The ceiling was then eliminated with UNSCR 1284 (although the resolution reaffirmed sanctions). While the former Regime managed to collect significant hard currency revenues by illicitly exploiting the OFF contracting process, Saddam chafed under OFF controls, even as benefits to the Iraqi people increased and the UNSC raised oil production ceilings. On 17 July 1999, in a speech commemorating the 31st anniversary of the Ba'thist revolution in Iraq, Saddam stated, "Arab oil must be for the Arabs. It has become clear now that the oil is for foreigners . . . . The United States determines the amounts and prices of oil, with the help of its fleets and the occupation forces . . . in the Arabian Gulf countries [and is] now dictating to others what they should sell or manufacture, the goods and commodities they purchase, how much and how many. Such a situation makes economic progress an unattainable wish in our greater Arab homeland."
 
-The former Regime attempted to use Iraq's oil resources to leverage the world community, and from 1999 to 2001 repeatedly—but with varying success—reduced or suspended oil production in an attempt to influence decision-making in the Security
+The former Regime attempted to use Iraq's oil resources to leverage the world community, and from 1999 to 2001 repeatedly—but with varying success—reduced or suspended oil production in an attempt to influence decision-making in the Security Council. Iraq controlled the contracting process for both selling its oil and arranging purchases of humanitarian goods and it took advantage of lax UN oversight. To try to garner diplomatic support in the UN, the former Regime ensured that Chinese, French and Russian energy firms, as well as others representing states sympathetic to Iraq, were prominent recipients of oil contracts. Iraq also manipulated oil contracts by imposing an illegal "surcharge" on every barrel sold. Furthermore, Iraq's neighbors Syria and Turkey negotiated formal, but technically illegal trade protocols which allowed Iraq to provide oil at discounted prices for hard currency or items it could not obtain through OFF. Trade with Syria flourished, providing Iraq with the largest share of its illegal hard currency revenues by 2002. (See Syrian Trade Protocol, under the Regime Finance and Procurement chapter for additional information.)
 
 %%page 57%%
 
-Council. Iraq controlled the contracting process for both selling its oil and arranging purchases of humanitarian goods and it took advantage of lax UN oversight. To try to garner diplomatic support in the UN, the former Regime ensured that Chinese, French and Russian energy firms, as well as others representing states sympathetic to Iraq, were prominent recipients of oil contracts. Iraq also manipulated oil contracts by imposing an illegal "surcharge" on every barrel sold. Furthermore, Iraq's neighbors Syria and Turkey negotiated formal, but technically illegal trade protocols which allowed Iraq to provide oil at discounted prices for hard currency or items it could not obtain through OFF. Trade with Syria flourished, providing Iraq with the largest share of its illegal hard currency revenues by 2002. (See Syrian Trade Protocol, under the Regime Finance and Procurement chapter for additional information.)
-
 Saddam invested his growing reserves of hard currency in rebuilding his military-industrial complex, increasing its access to dual-use items and materials, and creating numerous military research and development projects. He also emphasized restoring the viability of the IAEC and Iraq's former nuclear scientists. The departure of UN inspectors and Iraq's refusal to allow their return permitted MIC to purchase previously restricted dual-use materials and equipment that it needed for both weapons development and civilian applications. In addition, MIC had greater flexibility in adapting civilian technology to military use. Yet without inspectors to certify Iraq's ultimate compliance with UNSC resolutions, the UN could perpetuate sanctions indefinitely. The actions of Minister of Military Industrialization 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh reflected this situation: he said he gave explicit directions to MIC leadership and workforce to avoid any activities that would jeopardize lifting UN sanctions. But, according to reports from his subordinates, he disregarded UN restrictions, acting, as if Saddam had instructed him to do so and justifying his actions by telling his employees that no matter how much evidence Iraq provided it would never satisfy the UN. For example, Huwaysh authorized in 2000 the repair of two 300-gallon mixers, and two solid propellant casting chambers in 2002
 
-(all rendered inoperable by UNSCOM inspectors in Regime Strategic 1992), for possible use in building solid propellant missiles that exceeded the 150 km range restriction fixed by UNSCR 687.
+(all rendered inoperable by UNSCOM inspectors in 1992), for possible use in building solid propellant missiles that exceeded the 150 km range restriction fixed by UNSCR 687.
 
 While international sympathy for the plight of the Iraqi people increased and support for sanctions progressively eroded, Saddam was unable to capitalize on these shifting moods to strengthen his bargaining position with the UN. Isolated internally by his paranoia over personal security, and externally by his misreading of international events, Saddam missed a major opportunity to reduce tensions with the United States following the 11 September 2001 terrorist attacks. By failing to condemn the attacks and express sympathy to the American people, Saddam reinforced US suspicions about his connections to Al Qa'ida and certified Iraq's credentials as a rogue state. He told his ministers that after all the hardships the Iraqi people had suffered under sanctions he could not extend official condolences to the United States, the government most responsible for blocking sanctions relief. From a practical standpoint, Saddam probably also believed—mistakenly—that his behavior toward the United States was of little consequence, as sanctions were on the verge of collapse.
 
 Nullifying All Obligations To UNSC Resolutions
 
-Saddam, angered by sanctions, inspections, and the Desert Fox attacks, unilaterally abrogated Iraq's compliance with all UNSC resolutions—including the 1991 Gulf war ceasefire—with a secret RCC resolution, according to both presidential secretary 'Abd Hamid Mahmud and Diwan Chairman Ahmad Husayn Khudayr. Tension within the former Regime over the inspections process had been building since 1995, but Saddam did not formalize his decision to cut Iraq free from UN-imposed limitations until 1998. The RCC resolution was unique because of its confidential nature, according to Ahmad Husayn. The RCC never repealed the resolution nor published it. The secret RCC resolution most likely represented—beyond a personal and impetuous swipe by Saddam at those he saw as his tormentors—an attempt by Saddam to create a legal foundation for
-
-> future action, as well as preserve his standing in Iraqi history.
+Saddam, angered by sanctions, inspections, and the Desert Fox attacks, unilaterally abrogated Iraq's compliance with all UNSC resolutions—including the 1991 Gulf war ceasefire—with a secret RCC resolution, according to both presidential secretary 'Abd Hamid Mahmud and Diwan Chairman Ahmad Husayn Khudayr. Tension within the former Regime over the inspections process had been building since 1995, but Saddam did not formalize his decision to cut Iraq free from UN-imposed limitations until 1998. The RCC resolution was unique because of its confidential nature, according to Ahmad Husayn. The RCC never repealed the resolution nor published it. The secret RCC resolution most likely represented—beyond a personal and impetuous swipe by Saddam at those he saw as his tormentors—an attempt by Saddam to create a legal foundation for future action, as well as preserve his standing in Iraqi history.
 
 %%page 58%%
 
@@ -1447,28 +1377,22 @@ Saddam, angered by sanctions, inspections, and the Desert Fox attacks, unilatera
 - The RCC resolution formally ended all Iraqi agreements to abide by UNSC resolutions. Ahmad Husayn Khudayr recalled that Saddam's text ordered Iraq to reject every UNSC decision taken since the 1991 Gulf war, including UNSCR 687. Ahmad said the resolution was worded in careful legal terms and "denied all the previously accepted [UNSC resolutions] without any remaining trace of them [in the Iraqi Government]."
 - Saddam stressed to all those present in the office that his decision was secret and not to disclose it until the decision was publicly announced. According to 'Abd this admonition was also passed to RCC members.
 - Later that evening, Saddam addressed the RCC; Tariq 'Aziz, Taha Yasin Ramadan, and Taha Muhyi- al-Din Ma'ruf were among those present. Saddam asked the group's opinion of his draft resolution. 'Abd remembered, "Tariq 'Aziz started talking, because he has an experience in international foreign politics and was following the UNSC resolutions from 1991 to 1998, and also a leader of the committee that worked with the WMD inspectors in Iraq. He supported the resolution along with Ramadan and Taha Muhyi-al-Din Ma'ruf."
-- Saddam signed three copies of the RCC-approved resolution. One was passed to 'Izzat Ibrahim Al Duri, another went to Ahmad Husayn Khudayr, and the last was held by 'Abd. According to both 'Abd and Ahmad the resolution was kept secret for the remainder of the Regime. 'Abd noted, however, that
-
-tion." The secret nature of the RCC resolution meant that it did not see widespread implementation in ongoing administrative processes, notably NMD operations.
+- Saddam signed three copies of the RCC-approved resolution. One was passed to 'Izzat Ibrahim Al Duri, another went to Ahmad Husayn Khudayr, and the last was held by 'Abd. According to both 'Abd and Ahmad the resolution was kept secret for the remainder of the Regime. 'Abd noted, however, that Saddam said, "One day I will declare this resolution." The secret nature of the RCC resolution meant that it did not see widespread implementation in ongoing administrative processes, notably NMD operations.
 
 We do not know what measures were taken by the former Regime after the secret resolution was approved, but a number of events may be linked to it. The former Regime made public statements and undertook potential WMD-related activities that would seem to follow from the December 1998 RCC resolution (for more information, see examples from 1999 in the "Preserving and Restoring WMD Assets and Expertise" sub-section below). 'Abd and Ahmad, however, claim that they know of no specific responses by the former Regime to the resolution. 'Abd stated that no action was taken because the secret resolution—despite its apparent gravity—was not distributed and remained limited to the three original copies.
 
 - Taha Yasin Ramadan, also present for the secret RCC decision, held a press conference shortly after the end of the Desert Fox campaign and repeatedly termed Iraq's compliance with UN requirements as something in the past: "The same applies to the blockade, which has lasted too long and which is now behind us," he declared. "There are no terms [to end the conflict]. We don't accept any conditions. Everything in the past is behind us now." "I am not talking about the details. What I am saying is that all that has to do with inspections, monitoring, and weapons of mass destruction is now behind us." UN inspectors were denied access to Iraq until late 2002, when the threat of war caused Saddam to relent.
-- Struggling to explain Saddam's motives behind the secret resolution, Ahmad Husayn Khudayr offered that Saddam might have been attempting to save "face" by publicly accepting UN mandates but rejecting them in private. By doing this he could then reveal the resolution in the future and claim that he had never really stopped fighting. However, Ahmad's reasoning is debatable: Saddam passed the secret order in the midst of an attack—suggesting a more resolute frame of mind—rather than immediately prior to an act of forced compliance.
-
-Saddam said, "One day I will declare this resoluand Expertise a large budget increase for IAEC and increased
+- Struggling to explain Saddam's motives behind the secret resolution, Ahmad Husayn Khudayr offered that Saddam might have been attempting to save "face" by publicly accepting UN mandates but rejecting them in private. By doing this he could then reveal the resolution in the future and claim that he had never really stopped fighting. However, Ahmad's reasoning is debatable: Saddam passed the secret order in the midst of an attack—suggesting a more resolute frame of mind—rather than immediately prior to an act of forced compliance. salaries tenfold from 2001 to 2003. He also directed
 
 %%page 59%%
 
-Preserving and Restoring WMD Infrastructure
+Preserving and Restoring WMD Infrastructure and Expertise
 
 There is an extensive, yet fragmentary and circum- stantial, body of evidence suggesting that Saddam pursued a strategy to maintain a capability to return to WMD after sanctions were lifted by preserving assets and expertise. In addition to preserved capability, we have clear evidence of his intent to resume WMD as soon as sanctions were lifted. The infrequent and uninformed questions ascribed to him by former senior Iraqis may betray a lack of deep background knowledge and suggest that he had not been following the efforts closely. Alternatively, Saddam may not have fully trusted those with whom he was discussing these programs. Both factors were probably at play. All sources, however, suggest that Saddam encouraged compartmentalization and would have discussed something as sensitive as WMD with as few people as possible.
 
 - Between 1996 and 2002, the overall MIC budget increased over forty-fold from ID 15.5 billion to ID 700 billion. By 2003 it had grown to ID 1 trillion. MIC's hard currency allocations in 2002 amounted to approximately $364 million. MIC sponsorship of technical research projects at Iraqi universities sky- rocketed from about 40 projects in 1997 to 3,200 in 2002. MIC workforce expanded by fifty percent in three years, from 42,000 employees in 1999 to 63,000 in 2002.
 - According to a mid-level IIS official, the IIS successfully targeted scientists from Russia, Belarus, Poland, Bulgaria, Yugoslavia, China, and several other countries to acquire new military and defense-related technologies for Iraq. Payments were made in US dollars. The Iraqi Government also recruited foreign scientists to work in Iraq as freelance consultants. Presumably these scientists, plus their Iraqi colleagues, provided the resident "know how" to reconstitute WMD within two years once sanctions were over, as one former high-ranking Iraqi official said was possible.
-- Saddam met with his senior nuclear scientists in 1999 and offered to provide them with whatever
-
-ter of Military Industrialization. Saddam directed Regime Strategic salaries tenfold from 2001 to 2003. He also directed the head of the IAEC to keep nuclear scientists together, instituted new laws and regulations to increase privileges for IAEC scientists and invested in numerous new projects. He also convened frequent meetings with the IAEC to highlight new achievements.
+- Saddam met with his senior nuclear scientists in 1999 and offered to provide them with whatever they needed, and increased funding began to flow to the IAEC in 2001, according to the former Minister of Military Industrialization. Saddam directed a large budget increase for IAEC and increased the head of the IAEC to keep nuclear scientists together, instituted new laws and regulations to increase privileges for IAEC scientists and invested in numerous new projects. He also convened frequent meetings with the IAEC to highlight new achievements.
 
 - Saddam asked in 1999 how long it would take to build a production line for CW agents, according to the former Minister of Military Industrialization. Huwaysh investigated and responded that experts could readily prepare a production line for mustard, which could be produced within six months. VX and Sarin production was more complicated and would take longer. Huwaysh relayed this answer to Saddam, who never requested follow-up information. An Iraqi CW expert separately estimated Iraq would require only a few days to start producing mustard—if it was prepared to sacrifice the production equipment.
 
@@ -1476,7 +1400,7 @@ ter of Military Industrialization. Saddam directed Regime Strategic salaries ten
 
 VX program, alleged that Saddam had been looking for chemical weapons scientists in 2000 to begin production in a second location, according to reporting.
 
-- Huwaysh stated that in 2001 Saddam approached him after a ministers' meeting and asked, "Do you have any programs going on that I don't know about," implying chemical or biological weapons programs. Huwaysh answered no, absolutely not. He assumed that Saddam was testing him, so Huwaysh added that because these programs were prohibited by the UN, he could not pursue them unless Saddam ordered it. Huwaysh said Saddam seemed satisfied, asked no further questions, and directed no follow-up actions. The incident was perplexing to Huwaysh, because he wondered why Saddam would ask him this question. While he had no evidence of WMD programs outside MIC, Huwaysh speculated that Qusay had the ability within the SSO to compartmentalize projects and select individuals to do special work. they needed, and increased funding began to flow to the IAEC in 2001, according to the former Minis-
+- Huwaysh stated that in 2001 Saddam approached him after a ministers' meeting and asked, "Do you have any programs going on that I don't know about," implying chemical or biological weapons programs. Huwaysh answered no, absolutely not. He assumed that Saddam was testing him, so Huwaysh added that because these programs were prohibited by the UN, he could not pursue them unless Saddam ordered it. Huwaysh said Saddam seemed satisfied, asked no further questions, and directed no follow-up actions. The incident was perplexing to Huwaysh, because he wondered why Saddam would ask him this question. While he had no evidence of WMD programs outside MIC, Huwaysh speculated that Qusay had the ability within the SSO to compartmentalize projects and select individuals to do special work.
 
 %%page 60%%
 
@@ -1500,7 +1424,6 @@ Baghdad made little overall progress in lifting sanctions between December 1998 
 %%page 61%%
 
 - The Regime also sought diplomatic support for the lifting or easing of sanctions by tying other countries' interests to Iraq's through allocating contracts under the OFF program and entering into lucrative construction projects to be executed when sanctions were lifted. In addition, Iraq held conferences to recruit and cultivate "agents of influence" to build pressure for lifting sanctions.
-
 - Iraq negotiated a $40 billion agreement for Russian exploration of several oil fields over a 10-year period. Follow-on contracts called for the construction of a pipeline running from southern to northern Iraq. Performance would start upon the lifting of sanctions. Under OFF, 32 percent of the Iraqi contracts went to Russia. The Iraqis gave preferential treatment to Russian companies mainly to try to gain Russia's support on the UNSC. The Russians, French, Ukrainians, and others succeeded in reducing the amount of OFF money Iraq paid to the UN Compensation Committee (for Gulf war reparations) from 30 to 25 percent thus adding significantly to Iraq's income stream.
 - The Regime sought a favorable relationship with France because France was influential as a permanent member of the UNSC and was in a good position to help Iraq with lifting sanctions.
 - Iraq awarded short term contracts under OFF to companies around the world. As of June 2000, French companies had contracts totaling $1.78 billion.
@@ -1508,13 +1431,11 @@ Baghdad made little overall progress in lifting sanctions between December 1998 
 
 Miscalculation (2002-2003)
 
-The Miscalculation phase was marked by a series of poor strategic decisions that left Saddam isolated and exposed internationally. This period was triggered by the ill-considered reaction of the Regime— Regime Strategic driven personally by Saddam—to the 9/11 terrorist attack. This refusal to publicly condemn the terrorist action led to further international isolation and opprobrium. This was the first of several miscalcula- tions that inexorably led to Operation Iraqi Freedom in 2003.
+The Miscalculation phase was marked by a series of poor strategic decisions that left Saddam isolated and exposed internationally. This period was triggered by the ill-considered reaction of the Regime— driven personally by Saddam—to the 9/11 terrorist attack. This refusal to publicly condemn the terrorist action led to further international isolation and opprobrium. This was the first of several miscalcula- tions that inexorably led to Operation Iraqi Freedom in 2003.
 
 Following President George W. Bush's State of the Union speech on 29 January 2002, senior members of the Iraqi Government were nervous about both Iraq's inclusion in the "Axis of Evil," and the promise that "the United States of America will not permit the world's most dangerous regimes to threaten us with the world's most destructive weapons." Some ministers recognized that the United States intended to take direct unilateral action, if it perceived that its national security was endangered, and argued that the best course of action was to "step forward and have a talk with the Americans." Also concerned with the assertion of a connection between Iraq and its "terrorist allies," they felt they must "clarify" to the Americans that "we are not with the terrorists." Saddam's attitude, however, toward rapprochement with the UN was well known and remained unchanged. He had posed to his ministers on numerous occasions the following rhetorical question: "We can have sanctions with inspectors or sanctions without inspectors; which do you want?" The implied answer was "we're going to have sanctions one way or the other for a long time because of the hostile attitude of the United States and Great Britain." Iraqi statements on renewing cooperation with the UN varied, perhaps indicating a clash between the private views of some officials and Saddam's policy. Vice President Ramadan on 10 February 2002 told journalists at the opening of the Syrian Products Exhibition in Baghdad that Iraq was ready to entertain a dialogue with the UN Secretary-General for "return of international inspectors to Iraq without any preconditions." Four days later Iraqi Foreign Minister Naji Sabri "ruled out that Iraq would send any signals to the UN regarding its readiness to agree on the return of international inspectors."
 
-Dialogue, however, did begin between Iraq and the UN. Senior-level talks occurred in March and
-
-May 2002 at UN Headquarters in New York among
+Dialogue, however, did begin between Iraq and the UN. Senior-level talks occurred in March and May 2002 at UN Headquarters in New York among
 
 %%page 62%%
 
@@ -1528,9 +1449,7 @@ the international community. UNSCR 1441 required that Iraq "provide UNMOVIC and 
 
 Having held out for so long, Saddam initially did not accept much of what UNSCR 1441 required. Although Russia and France were putting pressure on Iraq, Saddam felt the risk of war and even invasion warranted re-acceptance of inspections. According to Vice President Ramadan, Saddam eventually permitted UNMOVIC greater latitude than he had initially intended. Military leaders were instructed at a meeting in December 2002 to "cooperate completely" with the inspectors, believing full cooperation was Iraq's best hope for sanctions relief in the face of US provocation. According to a former NMD official, one of the Regime's main concerns prior to UNMOVIC inspections was interviews of scientists. When asked why the former Regime was so worried if there was nothing to hide, the source stated that any such meeting with foreigners was seen as a threat to the security of the Regime.
 
-Iraq's cooperation with UN inspectors was typically uneven, and ultimately the Coalition considered the Regime's efforts to be too little, too late. By January 2003, Saddam believed military action was inevitable. He also felt that Iraqi forces were prepared to hold off the invaders for at least a month, even without WMD, and that they would not penetrate as far as Baghdad. He failed to consult advisors who believed otherwise, and his inner circle reinforced his misperceptions. Consequently, when Operation Iraqi Freedom began, the Iraqi armed forces had no effective military response. Saddam was surprised by the swiftness of Iraq's defeat. The quick end to Saddam's Regime brought a similarly rapid end to its pursuit of
-
-> sanctions relief, a goal it had been palpably close to achieving.
+Iraq's cooperation with UN inspectors was typically uneven, and ultimately the Coalition considered the Regime's efforts to be too little, too late. By January 2003, Saddam believed military action was inevitable. He also felt that Iraqi forces were prepared to hold off the invaders for at least a month, even without WMD, and that they would not penetrate as far as Baghdad. He failed to consult advisors who believed otherwise, and his inner circle reinforced his misperceptions. Consequently, when Operation Iraqi Freedom began, the Iraqi armed forces had no effective military response. Saddam was surprised by the swiftness of Iraq's defeat. The quick end to Saddam's Regime brought a similarly rapid end to its pursuit of sanctions relief, a goal it had been palpably close to achieving.
 
 %%page 63%%
 
@@ -1545,7 +1464,7 @@ Iraq allowed the IAEA and UNMOVIC to resume inspections in November 2002 in the 
 - The Higher Committee gradually addressed UNSC concerns as Ramadan relaxed Baghdad's original opposition to the UN resuming U-2 flights and conducting private, unmonitored interviews with Iraqi scientists. These actions eliminated major stumbling blocks in potential Iraqi cooperation with UNMOVIC.
 - Saddam hoped to get sanctions lifted in return for hosting a set of UN inspections that found no evidence of WMD, according to statements ascribed
 
-to him by a former senior officer. The govern- Regime Strategic inspections to ensure they possessed no WMD-associated equipment.
+to him by a former senior officer. The governinspections to ensure they possessed no WMD-associated equipment.
 
 - Upon the direction of UNMOVIC, Baghdad started destroying its Al Samud II ballistic missiles 1 March 2003 despite disagreements over the actual operational range of the missile.
 - Beginning on 27 November 2002 until the UN withdrew all its personnel on 18 March 2003, UNMOVIC completed 731 inspections at 411 sites, including 88 sites it had visited for the first time.
@@ -1566,7 +1485,7 @@ Iraq engaged in denial and deception activities to safeguard national security a
 
 - According to a former senior SSO officer, prior to any UN inspection visits, the SSO leadership would instruct the chiefs of each SSO directorate to conceal anything to do with the President or his family, any documents referring to the Scientific Directorate, documents pertaining to human rights violations, documents pertaining to prisoners in custody, and photos of senior Regime personnel.
 - The IIS was determined not to allow UN inspection teams to gather intelligence at sensitive sites, which the Iraqis feared had been done in the past. Members of the Directorate of Counterintelligence (M5) heightened their physical observation of UN personnel during site visits to prevent this, according to sensitive reporting from a source with excellent access.
-- Huwaysh instructed MIC general directors to conceal sensitive material and documents from UN inspectors. This was done to prevent inspectors from discovering numerous purchases of illicit conventional weapons and military equipment from firms in Russia, Belarus, and the Former Republic
+- Huwaysh instructed MIC general directors to conceal sensitive material and documents from UN inspectors. This was done to prevent inspectors from discovering numerous purchases of illicit conventional weapons and military equipment from firms in Russia, Belarus, and the Former Republic of Yugoslavia.
 
 - Saddam was convinced that the UN inspectors could pinpoint his exact location, allowing US warplanes to bomb him, according to a former high-level Iraqi Government official. As a result, in late 1998 when inspectors visited a Ba'th Party Headquarters, Saddam issued orders not to give them access. Saddam did this to prevent the inspectors from knowing his whereabouts, not because he had something to hide, according to the source.
 
@@ -1578,7 +1497,7 @@ ISG has not found evidence that Saddam Husayn possessed WMD stocks in 2003, but 
 
 - 'Amir Hamudi Hasan Al Sa'adi told an emissary from the RG leadership, on 27 January 2003, that if Saddam had WMD, he would use it, according to a former officer with direct knowledge of Iraqi military ground operations and planning.
 - According to a former senior RG official, Iraq had dismantled or destroyed all of its WMD assets and manufacturing facilities. Had Saddam possessed WMD assets, he would have used them to counter the Coalition invasion.
-- If he had CW, Saddam would have used it against Coalition Forces to save the Regime, according to a of Yugoslavia. former senior official. use—or even the threat of use—of WMD after
+- If he had CW, Saddam would have used it against Coalition Forces to save the Regime, according to a former senior official. use—or even the threat of use—of WMD after
 
 %%page 65%%
 
@@ -1592,9 +1511,9 @@ Senior military officers and former Regime officials were uncertain about the ex
 
 - Prior to December 2002, Saddam told his generals to concentrate on their jobs and leave the rest to him, because he had "something in his hand" (i.e. "something up his sleeve"), according to Minister of Military Industrialization 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh.
 - Saddam surprised his generals when he informed them he had no WMD in December 2002 because his boasting had led many to believe Iraq had some hidden capability, according to Tariq 'Aziz. Saddam had never suggested to them that Iraq lacked WMD. Military morale dropped rapidly when he told senior officers they would have to fight the United States without WMD.
-- Saddam spoke at several meetings, including those of the joint RCC-Ba'th National Command and the ministerial council, and with military commanders in late 2002, explicitly to notify them Iraq had no
+- Saddam spoke at several meetings, including those of the joint RCC-Ba'th National Command and the ministerial council, and with military commanders in late 2002, explicitly to notify them Iraq had no WMD, according to the former presidential secretary. Saddam called upon other senior officials to corroborate what he was saying.
 
-Iraq's Movement of Critical Defense Assets Regime Strategic
+Iraq's Movement of Critical Defense Assets
 
 From the mid-1990s to Operation Iraqi Freedom, Iraq continued to move and conceal key air defense equipment and other military assets to ensure their survivability. Interviews with former Regime officials indicate that the Iraqis felt threatened after President Bush's "Axis of Evil" speech on 29 January 2002, and they increased movements of critical military equipment soon afterward.
 
@@ -1602,8 +1521,6 @@ From the mid-1990s to Operation Iraqi Freedom, Iraq continued to move and concea
 - Between August 2002 and early January 2003, the Iraqi military had taken measures to prepare for an anticipated US military attack on Iraq, according to a former IIS official. These measures included the movement and hiding of military equipment and weapons. Army leaders at bases throughout Iraq were ordered to identify alternate locations and to transfer equipment and heavy machinery to off-base locations, taking advantage of farms and homes to hide items.
 
 A recovered 2002 document outlines the Iraqi evacuation plan to protect key military industries and equipment from Coalition air strikes or threats. The former Regime developed these concepts in response to les- sons learned after Desert Storm and Desert Fox. The report outlines the importance of utilizing a properly concealed Iraqi railroad system along with trucks and pre-equipped trailers to move important laboratories, equipment, and machinery.
-
-WMD, according to the former presidential secretary. Saddam called upon other senior officials to corroborate what he was saying.
 
 %%page 66%%
 
@@ -1646,9 +1563,9 @@ They thought there would be a few air strikes and maybe some operations in the s
 - Saddam was convinced that a show of force would be sufficient to deter an invasion. The United States would seek to avoid another Vietnam, according to a former senior Ba'th party member.
 - Saddam had concluded time was on his side and that the Coalition would never be allowed to attack, according to the former science advisor.
 
-If WMD stocks existed, timing was the problem. The Coalition attack moved so rapidly that Saddam and when he realized the end of the Regime was near, he was not prepared tactically to use any
+If WMD stocks existed, timing was the problem. The Coalition attack moved so rapidly that Saddam was unable to exercise any options to use WMD and when he realized the end of the Regime was near, he was not prepared tactically to use any
 
-Tariq 'Aziz on Saddam's Overconfidence Regime Strategic
+Tariq 'Aziz on Saddam's Overconfidence
 
 Debrief, 23 June 2004
 
@@ -1659,7 +1576,7 @@ Debriefer: Wasn't he aware of the buildup of forces in the region? 'Aziz: Of cou
 WMD he might have had. Based on the statements of former senior officers, the Iraqi military—including the RG—allegedly had no plans for employing WMD, had not practiced tactical use of WMD since 1991, had no available stockpiles of WMD, had not deployed any WMD to tactical units, and had no special infrastructure in place for handling WMD.
 
 - The 2nd RG Corps had chemical defense battalions, according to the former Al Quds Forces Chief-of-Staff, but these battalions left their equipment in their barracks during Operation Iraqi Freedom because the corps commander was confident the Coalition would not use CBW against Iraq. They probably would have retained this equipment had the commanders envisioned using CBW munitions in the 2nd RG Corps.
-- The RG did not use its special ammunition distribution system before either the Gulf war or Operation was unable to exercise any options to use WMD
+- The RG did not use its special ammunition distribution system before either the Gulf war or Operation
 
 %%page 68%%
 
@@ -1670,19 +1587,17 @@ OIF. Even if units had received chemical ammunition, they would have buried it, 
 - General 'Amir Husayn Al Samarra'i, commander of the Iraqi chemical corps, said the Iraqi army had no plans to use chemical weapons during OIF, according to reporting. If there had been a strategy for regular army forces to use chemical weapons, he would have known about it.
 - The Commander of 2nd RG Corps stated it was his firm belief that Iraq did not have chemical weapons.
 
-If WMD existed, Saddam may have opted not to use it for larger strategic or political reasons, because he did not think Coalition military action would unseat him. If he used WMD, Saddam would have shown that he had been lying all along to the international community and would lose whatever residual politi-
+If WMD existed, Saddam may have opted not to use it for larger strategic or political reasons, because he did not think Coalition military action would unseat him. If he used WMD, Saddam would have shown that he had been lying all along to the international community and would lose whatever residual political support he might have retained in the UNSC. From the standpoint of Regime survival, once he
 
 used WMD against Coalition forces, he would fore- close the chance to outlast an occupation. Based on his experience with past coalition attacks, Saddam actually had more options by not using WMD, and if those failed, WMD always remained as the final alternative. Although the Iraqi Government might be threatened by a Coalition attack, Saddam—the ultimate survivor—believed if he could hold out long enough, he could create political and strategic opportunities for international sympathy and regional support to blunt an invasion.
 
 - Asked by a US interviewer in 2004, why he had not used WMD against the Coalition during Desert Storm, Saddam replied, "Do you think we are mad? What would the world have thought of us? We would have completely discredited those who had supported us."
 - Iraqi use of WMD would deeply embarrass France and Russia, who cultivated Iraq.
-- Use of WMD during Operation Iraqi Freedom would serve to justify US and UK prewar claims about Iraq's illegal weapons capabilities. Such a justification would also serve to add resolve to those managing the occupation. cal support he might have retained in the UNSC. From the standpoint of Regime survival, once he
+- Use of WMD during Operation Iraqi Freedom would serve to justify US and UK prewar claims about Iraq's illegal weapons capabilities. Such a justification would also serve to add resolve to those managing the occupation.
 
 %%page 69%%
 
-> Annex A Regime Strategic The Quartet—Influence and Disharmony
-
-Among Saddam's Lieutenants
+> Annex A The Quartet—Influence and Disharmony Among Saddam's Lieutenants
 
 The Quartet comprised four of Saddam Husayn's most senior lieutenants in the last years of his rule and provided high-level advice to Saddam on challenges facing Iraq. The four were as experienced, committed and loyal individuals as Saddam had available. Nonetheless, little of their advice was taken that did not conform to Saddam's existing views. That a group as senior as the Quartet had so little influence on the Regime's strategic policy indicates that the strategic intent of the Regime was Saddam's alone. The Quartet had differing views on Iraq's way forward on WMD, but the more cautious preferences within the group had little influence over Saddam's actions.
 
@@ -1702,7 +1617,7 @@ The Quartet comprised some of the Regime's most senior and experienced individua
 
 - Personal divisions in the group hindered any attempt to influence Saddam as US pressure on Iraq began to mount, particularly after 2000. Two Quartet members claim to have been private dissenters from the policy of obstructing WMD disarmament, but there is no evidence they attempted to press Saddam on the issue through the Quartet. Quartet members were personally distrustful of colleagues to the point of fear. Mutual distrust and the group's widely varied experience of the outside world limited its ability to speak decisively on strategic and foreign issues.
 - Longstanding conflicting lines of communication to Saddam further eroded the Quartet's effectiveness and solidarity. Backchannel communications to Saddam were a fixture of his rule. Saddam's growing reclusiveness after the mid-nineties increased this practice and the Quartet was immune neither to its members using backchannels against colleagues nor to disrupting effects of such practices on the body's effectiveness. 'Izzat Ibrahim reported his summary of Quartet recommendations, often only to have them contradicted by Tariq in separate discussions with Saddam.
-- The Quartet, however, was solidly united on issues unrelated to Iraq's external problems. All Quartet members espoused hate of Shi'a, Kurds, democrats, communists, clerics, monarchists, free markets and most other Arabs. This unity did not transfer to a common coherent view of the wider world or create
+- The Quartet, however, was solidly united on issues unrelated to Iraq's external problems. All Quartet members espoused hate of Shi'a, Kurds, democrats, communists, clerics, monarchists, free markets and most other Arabs. This unity did not transfer to a common coherent view of the wider world or create a common assessment of how to deal with Iraq's confrontation with the Coalition, or how to manage the crisis.
 
 - Despite a limited ability to shape policy, the Quartet still carried considerable prestige among more junior levels of the Regime. The Quartet's existence reassured Regime supporters that Saddam's decisions had the benefit of the best minds in the leadership. Conversely, the individual networks of subordinates and followers of Quartet members meant that there was some transmission of Saddam's intentions through government. The Quartet was seen from below as powerful, even though—as the Regime evolved—senior lieutenants such as the Quartet members were personally little more than reflections of Saddam's own authority.
 
@@ -1711,7 +1626,7 @@ Chains of Command
 Saddam was formerly an able administrator within standard civil service and military structures, but starting in the mid-1990s, his methods changed dramatically. Saddam duplicated his mastery of formal administration with increasing resort to a network of family and personal relationships, using verbal instructions heedless of formal chains of command. His motives appear to have been a combination of increasing obsession with personal security and a prioritization of personal interests.
 
 - This development blurred Iraq's formal mechanisms for developing state policy. Saddam had always retained the prerogative of final policy determination, but the process by which he formed policy became progressively less clear, even to senior participants in the system.
-- As Saddam became less wedded to formal processes, the Quartet—an advisory body to begin with—was poorly placed to lock into formal chains of command and determine outcomes. a common assessment of how to deal with Iraq's confrontation with the Coalition, or how to manage the crisis. the West, which was coincidental with such change.
+- As Saddam became less wedded to formal processes, the Quartet—an advisory body to begin with—was poorly placed to lock into formal chains of command and determine outcomes. the West, which was coincidental with such change.
 
 %%page 71%%
 
@@ -1725,7 +1640,7 @@ With the partial exception of Tariq 'Aziz, the Quartet had only a limited and ha
 - Saddam may have been closer to the mark in his sense that ultimate US policy in Iraq was Regime change. According to 'Aziz, Saddam decided at the time of Irangate (the covert supply of missiles to Iran in 1987) that the United States could not be trusted to support Baghdad. 'Ali Hasan said that in the 1990s Congressional calls for the overthrow of Saddam meant that there was no prospect of a strategic dialogue with Washington.
 - The Quartet had little appreciation of global change since the end of the Cold War or how it affected Iraq's interests and options. Instead, they focused
 
-unilaterally on Iraq's deteriorating relationship with Regime Strategic
+unilaterally on Iraq's deteriorating relationship with
 
 They did not seek to capitalize on Iraq's potential significance in global trade through its place in the oil market. The Quartet never deliberated over globalization as a concept and how to position Iraq within it.
 
@@ -1737,9 +1652,7 @@ Regime Strategic Goals
 
 The Quartet had a common set of strategic goals, which were driven by Saddam. All Quartet members prioritized security against Iran before all else. They saw Iran as bigger, hostile and that it had in the years since the Iran-Iraq war overtaken Iraq in WMD development. The Quartet recognized no progress toward containing Iran would be possible without first getting out of sanctions.
 
-- The Quartet did not publicly advocate a particular strategic role for Iraq. Privately, it was not a propo- nent of regional hegemonism, whether over Kuwait, or the region, nor did it consider the use of WMD to that end. Ramadan and 'Aziz had thought the attack on Kuwait was folly and Ramadan opposed it in the
-
-RCC.
+- The Quartet did not publicly advocate a particular strategic role for Iraq. Privately, it was not a propo- nent of regional hegemonism, whether over Kuwait, or the region, nor did it consider the use of WMD to that end. Ramadan and 'Aziz had thought the attack on Kuwait was folly and Ramadan opposed it in the RCC.
 
 %%page 72%%
 
@@ -1751,7 +1664,7 @@ All Quartet members were convinced that WMD had saved Iraq in the war against Ir
 
 - Nuclear weapons (rather than WMD generically) were not a Quartet issue. Among the leadership, nuclear weapons as a goal appears to have been a particular priority of Saddam himself. 'Aziz believes Saddam was 'fully committed to obtaining a nuclear weapon' throughout his career, but there is no evidence that Quartet members were enthusiastic about a nuclear program and no hint of Saddam referring the issue to the Quartet at any stage.
 - Ramadan said that he, and to a lesser extent Tariq, opposed WMD in the later sanctions period because it created more problems than benefits. Ramadan during UNMOVIC tried to ensure Iraq had no WMD, in particular by pursuing an untrammeled access policy, but alleges he was frustrated by Saddam and his relatives.
-- Indeed, it was on the cost/benefit analysis of WMD in terms of Iraq's economy and diplomatic relations that the most distinct policy cleavage in the Quartet emerged. Ramadan, and to a lesser extent Tariq, believed strongly that Iraq's advantage lay in get-
+- Indeed, it was on the cost/benefit analysis of WMD in terms of Iraq's economy and diplomatic relations that the most distinct policy cleavage in the Quartet emerged. Ramadan, and to a lesser extent Tariq, believed strongly that Iraq's advantage lay in getting rid of WMD. Such a move would lift sanctions, normalize relations with the West and then allow reassessment of how to deal with Iran. Ramadan
 
 and 'Aziz would not have ruled out a return to WMD, but they were more focused on the outcome of containing Iran rather than the means. 'Ali Hasan and 'Izzat Ibrahim were more motivated by catering to Saddam's views, and neither advocated any alternative thinking about WMD and containing Iran. Therefore, there was a divergence of ends versus means, with Saddam having a totemic attachment to WMD despite the costs, a view not shared by all Quartet members.
 
@@ -1762,13 +1675,9 @@ Fear and Loathing in Baghdad
 
 Saddam did not trust the Quartet in a personal security sense. Only 'Izzat Ibrahim was allowed to drive himself to meetings with Saddam (the others were collected and driven in darkened limousines), though his mobility seems to have been curtailed toward the end. Quartet members were physically frightened of Saddam. Ramadan recalls a continuing fear of incar- ceration and that his son-in-law was jailed for two years. 'Aziz's son Zayyid had also been jailed for a period. 'Ali Hasan also was seen by his peers as fearful, despite his blood relationship and toadying.
 
-ting rid of WMD. Such a move would lift sanctions, normalize relations with the West and then allow reassessment of how to deal with Iran. Ramadan
-
 %%page 73%%
 
-> Annex B Regime Strategic Iraq's Intelligence Services
-
-Overview
+> Annex B Iraq's Intelligence Services
 
 Iraq used multiple intelligence services to collect on the Regime's various international and local concerns. The Iraqi Intelligence Service was the former Regime's largest intelligence service; the Directorate of General Military Intelligence and the Directorate of General Security supported the Regime on a smaller scale.
 
@@ -1787,7 +1696,9 @@ This portion of the Report is largely based on testimony from former Regime offi
 
 %%page 74%%
 
-> The Iraqi Intelligence Structure of M4 Service • M4/1 Arab Countries
+> Service • M4/1 Arab Countries
+
+The Iraqi Intelligence
 
 IIS Structure and Functions The original mission of the Iraqi Intelligence Service (IIS), commonly known as the Mukhabarat, was foreign intelligence collection, domestic counterintelligence, and clandestine operations—standard activities for intelligence Tahir Jalil Habbush. services worldwide—but the former Regime also used the service, beginning in late 1997, as a tool for the Military Industrial Commission (MIC) and its illicit procurement efforts. The IIS consisted of over twenty compartmented directorates, under the leadership of Tahir Jalil Habbush. The IIS also assisted in the obstruction of UN inspection missions and concealment of sensitive materials, equipment, and documentation for the former Iraqi Regime.
 
@@ -1795,7 +1706,9 @@ M1, Office of the Director M1 was the executive directorate of the IIS. Subordin
 
 M2, Directorate of Administration and Accounting This directorate managed daily administrative affairs and provided the following services: salaries and retirement services; logistic support, including vehicles and medical services; and liaison with government ministries and directorates. M2 also supervised house rentals for each IIS directorate. Every directorate maintained at least one safehouse for relocating operations from regular directorate offices. Husayn Muhsin Hasan, M2's director, held his position for the eight years prior to OIF.
 
-M3, Directorate of Data Processing and Information Security Commonly referred to as the Computer Director-
+M3, Directorate of Data Processing and Information Security Commonly referred to as the Computer Directorate, and often mistakenly translated as Finance, M3 focused on the training and use of information tech-
+
+Structure of M4
 
 –M4/1/1 Syria, Lebanon, and Jordan –M4/1/2 Egypt and Sudan –M4/1/3 Morocco, Tunisia, and Algeria –M4/1/4 Saudi Arabia, Kuwait, and the Gulf States • M4/2 Iran and Turkey
 
@@ -1814,21 +1727,23 @@ M4, Directorate of Foreign Intelligence M4 was the primary directorate for forei
 
 A fifth division within M4 targeted Iraqi opposition groups operating outside of Iraq. That division, however, was separated from M4 in 1997 and re-designated M40. The M4 and M5 directorates exchanged information whenever members of either directorate discovered intelligence related to the other directorate's responsibilities.
 
-ate, and often mistakenly translated as Finance, M3 focused on the training and use of information tech-The Scientific and Technical Intelligence Department,
-
 %%page 75%%
+
+The Scientific and Technical Intelligence Department,
 
 The Scientific and Technical Intelligence Department headed by Muthanna Muhammad Ahmad Al Bayatti aided MIC's "Special Office" to facilitate the procurement of sensitive items and material through foreign channels (see Regime Finance and Procurement chapter for additional information).
 
 M5, Directorate of Counterintelligence M5 conducted domestic monitoring and counterintelligence operations within Iraq. Five divisions within M5 focused on specific regions of interest—similar to M4, its sister directorate. Muhammad 'Abd-al- Wahhab Fada'am was the M5 Director from 2000 until the fall of the former Regime; he was preceded by Ma'ad Ibrahim Al Duri (1996-2000) and Khalil Ibrahim 'Abdallah Al Nasiri (1994-1996).
 
+Section M5/4/14 monitored all international organizations operating within Iraq, including the UN.
+
 As stated by a former manager within the M5 Directorate, "It [M5/4/14] monitored the UN inspectors because that was its mission." Shakir Karhut headed this section until OIF and worked under Mu'ayyid 'Abd-al-Jalil, the head of M5/4. According to high level officials within the former Regime, these two were heavily involved in collection efforts against the UN.
 
-The IIS General Affairs Division (M5/5) is the most recent sub-directorate. It was specifically created to act as the "catch-all" for M5 operations within Iraq. Section 18 operated more than 40 domestic businesses within Iraq, such as restaurants, hotels, travel services, souvenir shops, and truck service centers, in order to collect information on foreigners routinely entering Iraq. Other sections reportedly monitored foreign journalists, the media, and foreign students Section M5/4/14 monitored all international orga- within Iraq. nizations operating within Iraq, including the UN.
+The IIS General Affairs Division (M5/5) is the most recent sub-directorate. It was specifically created to act as the "catch-all" for M5 operations within Iraq. Section 18 operated more than 40 domestic businesses within Iraq, such as restaurants, hotels, travel services, souvenir shops, and truck service centers, in order to collect information on foreigners routinely entering Iraq. Other sections reportedly monitored foreign journalists, the media, and foreign students within Iraq.
 
 %%page 76%%
 
-Structure of M5 IIS Regional Directorates
+Structure of M5
 
 - M5/1 Iran, Turkey, Israel –Section 1 – Iran
 
@@ -1872,6 +1787,14 @@ Structure of M5 IIS Regional Directorates
 
 –Embassy Security
 
+–Section 18 – Domestic Projects
+
+—1 – Cover Businesses within Baghdad
+
+—2 – Cover Businesses outside of Baghdad
+
+IIS Regional Directorates
+
 The IIS had regional offices for local collection, which carried out the functions of various national-level IIS directorates in the local governorates. These regional offices were called directorates despite their small size and limited capabilities. While they were not subordinate to the M5 Directorate, they fell under M5 administratively.
 
 - M51 The Northern Directorate (Ninawa) located in Mosul
@@ -1885,12 +1808,6 @@ The IIS had regional offices for local collection, which carried out the functio
 - M59 The Wasit Directorate located in Al Kut
 
 The IIS functional directorates, such as M4, M5, M20, and M22, had liaison offices within these regional directorates. Tasking would be passed down from the national-level to the local offices for collection or protection missions.
-
-–Section 18 – Domestic Projects
-
-—1 – Cover Businesses within Baghdad
-
-—2 – Cover Businesses outside of Baghdad
 
 %%page 77%%
 
@@ -1908,9 +1825,9 @@ Palestinian organizations, receiving guests, providing hospitality, and arrangin
 
 The source also stated that the M8 director reported directly to Tariq 'Aziz on matters concerning Palestinians coming to Iraq from Syria.
 
-M9, Directorate of Communications M9 dealt with landline and wireless communications requirements between all IIS directorates. The IIS primarily used landlines for communications security; wireless communications were used only as an alternative if the land lines were down. The last director
+M9, Directorate of Communications M9 dealt with landline and wireless communications requirements between all IIS directorates. The IIS primarily used landlines for communications security; wireless communications were used only as an alternative if the land lines were down. The last director of M9 was Shibli Muhammad 'Ali. Information is not yet available in regards to when M9 assumed its benign role of communications.
 
-Structure of M9/J (1980 to 1990) Regime Strategic
+Structure of M9/J (1980 to 1990)
 
 M9/J, headed by Dr. Muhammad from 1980 to 1987, consisted of at least five sections until 1984: Administration and Archives, Analysis and Biology Testing and Concealment, Evaluations, Implementation, and the Special Material sections. After 1984, M9/J restructured its five branches:
 
@@ -1929,8 +1846,6 @@ Dr. Al Azmirli, after leaving M9/J in 1987, acted as a technical and scientific 
 
 Al Azmirli as head of M9/J, however by 1988, Dr. Mukhlif could not directly report to the IIS director as in the past. He was required to report to a General Director (directorate level) and a "technical advisor." Mukhlif would see the department through its next transformation in 1990, but he was replaced by Dr. 'Amir 'Awan Juma'a Al Tikriti in 1991.
 
-of M9 was Shibli Muhammad 'Ali. Information is not yet available in regards to when M9 assumed its benign role of communications.
-
 %%page 78%%
 
 From 1980-1990, M9 developed chemical and biological weapons, produced toxins, poisons, and lethal devices for intelligence or assassination operations, and tested its products on prisoners. In the early 1980s M9 was known as the IIS Science and Technology Directorate, which had four divisions: Engineering, Chemical, Mechanical, and Electronics. M9/J, a subordinate section headed by Dr. Muhammad 'Abd-al-Mun'im Al Azmirli, established labs after the start of the Iran-Iraq War for the development of chemical and biological weapons. According to Nu'man 'Ali Muhammad Al Tikriti, a former department director within M9/J, prisoners from Al Hakamiyah Prison were used and killed by M9's products in late 1983 (see Iraq's Chemical Weapons Program and Iraq's Biological Weapons Program chapters for additional information).
@@ -1941,7 +1856,7 @@ M10, Directorate of Studies and Research M10, also referred to as the "analytic 
 
 M11, The Training and Preparation Institute The Training and Preparation staff, approximately 70 employees, prepared lectures and intelligence courses for both new and current IIS officers and employees on a yearly curriculum. The director of M11 was Mu'affiq Saleh Al 'Ali Al Tikriti.
 
-M12, Directorate of Accounting Headed by Nazar Yasin Al Maslawi, M12 was responsible for domestic and foreign bank accounts
+M12, Directorate of Accounting Headed by Nazar Yasin Al Maslawi, M12 was responsible for domestic and foreign bank accounts and IIS financial matters. Sub-directorates managed
 
 expenditures, financial archives, and salaries, as well as supporting the comptroller. Each IIS directorate had an M12 officer to handle all accounting affairs of that directorate, such as the distribution of salaries, purchasing of equipment, food, clothing, and other directorate specific items.
 
@@ -1951,11 +1866,9 @@ M14, Directorate of Special Operations M14, directed by Muhammad Khudayr Sabah A
 
 M15, Directorate of Legal Affairs M15 provided the IIS officers and employees with legal advice, handled all employees' legal cases, reviewed all new laws that pertained to IIS officers, and implemented the laws and regulations within the IIS. While it served all of IIS, M15 primarily assisted M1 and M2.
 
-and IIS financial matters. Sub-directorates managed
-
 %%page 79%%
 
-Structure of M14 Structure of M16 (2000 to 2003) Regime Strategic
+Structure of M14
 
 - Special Operations Department, composed of a foreign and a domestic section, performed government-sanctioned assassinations inside or outside of Iraq.
 - The "Tiger Group" was similar to Special Operations, except that it was primarily comprised of suicide bombers.
@@ -1964,16 +1877,16 @@ Structure of M14 Structure of M16 (2000 to 2003) Regime Strategic
 - The Administrative Department provided support services such as administration, finances, communications, and logistics.
 - The Anti-Iranian Department infiltrated operatives into Iran for intelligence collection and operated against Iranian groups attempting to enter Iraq.
 
-M16, Directorate of Criminology M16 was created when M9/J was extracted from M9 and designated as its own directorate in 1990. The directorate retained the organizational structure of M9/J except for the Explosives Section, which was also designated as its own directorate, the Al Ghafiqi Project (M21). The services M16 provided in the fields of chemical and biological science, criminal investigation and forensic sciences, chemical and poison production, and intelligence support offer insight to its nickname, the "Directorate of Special Logistics." Nu'man 'Ali Muhammad Al Tikriti was M16's last director having served from 1996 until 2003. In late 2001 or early 2002, M16 requested assistance from the IIS Scientific and Technical Intelligence Department (M4/4/5) to acquire specialized equipment for M16. Devices were requested for atomic absorption, infrared, and ultraviolet spectrophotom- eters for the analysis of chemical substances; x-ray and bomb detection devices which were planned for use in Iraqi embassies; materials used to detect and exploit latent fingerprints for criminal investigations;
+M16, Directorate of Criminology M16 was created when M9/J was extracted from M9 and designated as its own directorate in 1990. The directorate retained the organizational structure of M9/J except for the Explosives Section, which was also designated as its own directorate, the Al Ghafiqi Project (M21). The services M16 provided in the fields of chemical and biological science, criminal investigation and forensic sciences, chemical and poison production, and intelligence support offer insight to its nickname, the "Directorate of Special Logistics." Nu'man 'Ali Muhammad Al Tikriti was M16's last director having served from 1996 until 2003. In late 2001 or early 2002, M16 requested assistance from the IIS Scientific and Technical Intelligence Department (M4/4/5) to acquire specialized equipment for M16. Devices were requested for atomic absorption, infrared, and ultraviolet spectrophotom- eters for the analysis of chemical substances; x-ray and bomb detection devices which were planned for use in Iraqi embassies; materials used to detect and exploit latent fingerprints for criminal investigations; and a device used to test for forged or falsified documentation requested by the Secret Communications Directorate.
 
-• The Secret Communications Division was responsible for document seals and stamps, document authentication, and mail security. The division also worked on improving secret and invisible inks. • The Physiochemical Analysis and Forensic Criminal Investigations performed various testing on foods and medicines, e.g. it tested for bacteria and viruses in food, dairy products, and water. The forensics department specialized in fingerprints, ballistics, forgery, and the protection of diplomatic mail.
+Structure of M16 (2000 to 2003)
 
+- The Secret Communications Division was responsible for document seals and stamps, document authentication, and mail security. The division also worked on improving secret and invisible inks.
+- The Physiochemical Analysis and Forensic Criminal Investigations performed various testing on foods and medicines, e.g. it tested for bacteria and viruses in food, dairy products, and water. The forensics department specialized in fingerprints, ballistics, forgery, and the protection of diplomatic mail.
 - The Chemical Preparation Division conducted theoretical and practical research on toxic materials, poisons, and anesthetics for operational use by other IIS directorates, such as M4 or M5.
 - The Explosives Division, also known as "Section 27," was responsible for detecting and disabling of explosive devices relating to the mail or vehicles, as well as producing such devices for the IIS. This division was a hybrid between M16's former explosive ordinance disposal section and the former M21 Al Ghafiqi Project.
 
 M17, Directorate of Signals Intelligence M17 monitored, collected, and analyzed external signals and voice communications. The signals intelligence project, formerly known as "Project 858," was almost completely destroyed during the first Gulf War. Following the war, the project was resurrected and re-designated the "Hadi Project." Responsibility for it was passed between Iraq's intelligence and security services until a presidential decree in the late 1990s brought it permanently into the IIS as M17. The directorate was the largest in the IIS, consisting of four divisions and two branches, and employing between 2,000 to 2,500 personnel. Khalid Karim Khalifa Braish Al 'Ajili was the director of M17 from 1995 to the beginning of OIF. M17 was the pinnacle of Iraqi signals intelligence. It monitored internal Iraqi communications to ensure communications security, intercepted foreign military communications, and collected against foreign embassies, UN Headquarters, and, from 1995 to 1998, UN inspectors.
-
-and a device used to test for forged or falsified documentation requested by the Secret Communications Directorate.
 
 %%page 80%%
 
@@ -1991,7 +1904,7 @@ After M9/J was reassigned as M16 in 1990, it was headed by Dr. 'Amir 'Awni Juma'
 
 According to captured documentation, on 29 September 1999 the IIS Director approved the decon- struction of the Special Materials Division, as well as M21, the Al Ghafiqi Project. The Special Materials Section was reorganized so that the Explosives Detection and Treatment Section could merge with the Al Ghafiqi Project under M16 for the "unification of technical specialties…since the defensive work is so closely tied with offensive work." The Radiation Detection utility was to remain with M16.
 
-A consulting agency for the IIS Director proposed that the Chemical Production Section become an independent division subordinate to M16, comprised of a Chemical Supply Department and an Intelligence Applications Department. Its duties at the time of reorganization consisted of preparing substances which paralyzes the individuals' functionality, preparing tranquilizers and hypnotics for intelligence uses, preparing safe instant lethal substances, and cam- ouflaging these substances by various means such as
+A consulting agency for the IIS Director proposed that the Chemical Production Section become an independent division subordinate to M16, comprised of a Chemical Supply Department and an Intelligence Applications Department. Its duties at the time of reorganization consisted of preparing substances which paralyzes the individuals' functionality, preparing tranquilizers and hypnotics for intelligence uses, preparing safe instant lethal substances, and cam- ouflaging these substances by various means such as drinks or medicine. This was the last restructuring of M16 prior to OIF. (See the M21 section for additional information on the Al Ghafiqi Project.)
 
 Structure of M17
 
@@ -2017,33 +1930,42 @@ Structure of M17
 
 –Administration –Translation –Military Communications –Civilian Communications
 
-–COMSEC Analysis –Encrypted Communications Analysis drinks or medicine. This was the last restructuring of M16 prior to OIF. (See the M21 section for additional information on the Al Ghafiqi Project.)
+–COMSEC Analysis –Encrypted Communications Analysis
 
 %%page 81%%
 
-M18, Directorate of Residency Structure of M18 Regime Strategic M18 issued visas, determined residency status, and enforced immigration laws for all Arabs and foreigners living in Iraq.
+M18 issued visas, determined residency status, and
+
+M18, Directorate of Residency enforced immigration laws for all Arabs and foreigners living in Iraq.
 
 M19, Directorate of Commercial Projects The Directorate of Commercial Projects ran front companies to help illicit procurement and importation of dual-use materiel and other prohibited items into Iraq. The Foreign Branch oversaw the management of trade with overseas front companies, such as MIC's Al Basha'ir Trade Company, Ltd., and the Syrian firms SES Trade Company and the MAS Economic Group. The Domestic Branch oversaw the management of numerous small businesses throughout Iraq to financially supplement IIS operations, usage by the IIS, such as print shops for forgery, and strategic surveillance of foreign interests. In 1997, M19 director Mana' 'Abdallah Rashid ordered a halt to all Foreign Branch operations as a result of the failure of one of its companies to deliver spare parts, tires, batteries, electronic equipment, and vehicles. At the same time, the manager of the Domestic Branch was jailed for attempting to smuggle copper out of Iraq. These two incidents led to the permanent closure and subsequent salvage of the Directorate of Commercial Projects. M19 was disbanded and its sections were reassigned to the M4 and M5 Directorates. The Foreign Branch projects were re-designated as M4/8 under the Directorate of Foreign Intelligence. The Domestic Branch projects were re-designated as M5/5/18 under the Directorate of Counterintelligence (see Regime Finance and Procurement for additional information on illicit procurement).
 
-M20, Directorate of Surveillance The Directorate of Surveillance monitored individual targets with human surveillance and may have been involved in collection against UN inspectors. M20, with three field intelligence units and an administrative branch, was directly subordinate to the IIS Deputy Director. Support requests had to first be approved by the Deputy Director before tasking was executed. Requests also had to provide specific information on targets and the intended location of surveillance. Restricted manpower and resources, however, limited collection periods to approximately seven to ten days. Akram 'Umar Salih Al Tikriti was
+M20, Directorate of Surveillance The Directorate of Surveillance monitored individual targets with human surveillance and may have been involved in collection against UN inspectors. M20, with three field intelligence units and an administrative branch, was directly subordinate to the IIS Deputy Director. Support requests had to first be approved by the Deputy Director before tasking was executed. Requests also had to provide specific information on targets and the intended location of surveillance. Restricted manpower and resources, however, limited collection periods to approximately seven to ten days. Akram 'Umar Salih Al Tikriti was the director of M20 from 2000 to OIF.
 
-• M18/1 The Arab Division: responsible for all Arab immigrants regardless of country • M18/2 The Foreigners Division: responsible for all non-Arab immigrants • M18/3 The Airport Division: a satellite office located at the point-of-entry
+Structure of M18
 
+- M18/1 The Arab Division: responsible for all Arab immigrants regardless of country
+- M18/2 The Foreigners Division: responsible for all non-Arab immigrants
+- M18/3 The Airport Division: a satellite office located at the point-of-entry
 - M18/4 The Regional Division: satellite office located at the various regional governorates and points of origin.
 
-M21, The Al Ghafiqi Project The Al Ghafiqi Project existed to make explosive devices for the IIS to be used in assassination and demolition operations. The Explosives Section of M9/J was extracted from the M9 Directorate in 1990 and assigned as its own directorate, M21; at the same time, the remainder of M9/J was also extracted and designated as M16. The name Al Ghafiqi, referring to a geographic area between Saudi Arabia and Kuwait, was most likely attached to the project in 1990 as it was designated as an independent directorate. The project is also known as "sheen 27," where 'sheen' is the first letter in the word for Section, however, this was not seen until after 2000. Khalil Ibrahim Fayad Al Sabahi was the director of the former Explosives Section since 1986, and he continued to head the organization as the M21 Director until his departure in 1996. Dr. 'Amir 'Awni Juma'a, who was previously the M16 director until 1996, was the superintendent of the Al Ghafiqi Project during the negotiations to integrate Al Ghafiqi into M16 in 1999. Badi'a Muhammad Salih was the director of the project, which was decommissioned in 2000 and reassigned to M16. No one person constructed an entire explosive device alone. The construction process drifted through the sections of the directorate. An improvised explosive device (IED) began in the Chemistry Department which developed the explosive materials for the device, the Electronics Department prepared the timers and wiring of the IED, and the Mechanical Department produced the igniters and designed the IED. Al Ghafiqi constantly invented new designs or methods to conceal explosives; books, briefcases, belts, vests, thermoses, car seats, floor mats, and facial tissue boxes were all used to conceal PE4, C4, the director of M20 from 2000 to OIF. RDX, or TNT.
+M21, The Al Ghafiqi Project The Al Ghafiqi Project existed to make explosive devices for the IIS to be used in assassination and demolition operations. The Explosives Section of M9/J was extracted from the M9 Directorate in 1990 and assigned as its own directorate, M21; at the same time, the remainder of M9/J was also extracted and designated as M16. The name Al Ghafiqi, referring to a geographic area between Saudi Arabia and Kuwait, was most likely attached to the project in 1990 as it was designated as an independent directorate. The project is also known as "sheen 27," where 'sheen' is the first letter in the word for Section, however, this was not seen until after 2000. Khalil Ibrahim Fayad Al Sabahi was the director of the former Explosives Section since 1986, and he continued to head the organization as the M21 Director until his departure in 1996. Dr. 'Amir 'Awni Juma'a, who was previously the M16 director until 1996, was the superintendent of the Al Ghafiqi Project during the negotiations to integrate Al Ghafiqi into M16 in 1999. Badi'a Muhammad Salih was the director of the project, which was decommissioned in 2000 and reassigned to M16. No one person constructed an entire explosive device alone. The construction process drifted through the sections of the directorate. An improvised explosive device (IED) began in the Chemistry Department which developed the explosive materials for the device, the Electronics Department prepared the timers and wiring of the IED, and the Mechanical Department produced the igniters and designed the IED. Al Ghafiqi constantly invented new designs or methods to conceal explosives; books, briefcases, belts, vests, thermoses, car seats, floor mats, and facial tissue boxes were all used to conceal PE4, C4, RDX, or TNT.
 
 %%page 82%%
 
-M22, Directorate of Protective Services Structure of M23 The Directorate of Protective Services was similar in composition to a light infantry battalion and it protected IIS facilities along with the Ba'th Party national leadership. Its most recent director prior to OIF was Khassam Ibrahim Omar Ayyub Al Tikriti. M22 provided external security at IIS sites, while M6 handled internal security issues—similar to the way that the SRG and SSO handled security at presidential palaces.
+The Directorate of Protective Services was similar
+
+M22, Directorate of Protective Services in composition to a light infantry battalion and it protected IIS facilities along with the Ba'th Party national leadership. Its most recent director prior to OIF was Khassam Ibrahim Omar Ayyub Al Tikriti. M22 provided external security at IIS sites, while M6 handled internal security issues—similar to the way that the SRG and SSO handled security at presidential palaces.
 
 Three subordinate divisions in M22 carried out various physical security missions for the IIS Headquarters in Baghdad, the Mujahiddin è Khaliq (Iranians opposed to the current Iranian Regime), and the IIS Regional Offices (M51 through M59). M22 personnel guarded all IIS safehouses, and M22 personnel may have been present in the event of the transportation of WMD materiel, because it had previously provided convoy security for the shipment of light weapons.
 
 M23, Directorate of Military Industries Also known as "Al Munzhumah," M23 provided security for all MIC and IAEC sites, and it assisted the Natioal Monitoring Directorate (NMD) with purging MIC facilities of documents to be safeguarded from the UN. An Iraqi Regular Army unit was commonly co-located at MIC facilities for external protection, but M23 handled security within the facility, as well as the security staff manning gates at industrial complexes, weapons manufacturing plants, chemical production plants, and MIC offices. M23 also provided limited security for three MIC companies: Armos, Al Basha'ir, and Al Mufakhir—all front companies for illicit MIC procurement. We do not know to what extent M23 provided security for these companies. The last director of M23 was 'Abd-al-Hamid Sulayman Ibrahim Al Huraymis Al Nasiri.
 
-M23 officers also were involved in NMD document concealment and destruction efforts. In August 1998, Saddam ended cooperation with UNSCOM inspections, and soon after he ordered the creation of a NMD committee to purge all MIC records of sensitive documentation related to past prohibited programs. While many documents had already been declared, some were given to M23 agent 'Ayad Qatan Talab,
+M23 officers also were involved in NMD document concealment and destruction efforts. In August 1998, Saddam ended cooperation with UNSCOM inspections, and soon after he ordered the creation of a NMD committee to purge all MIC records of sensitive documentation related to past prohibited programs. While many documents had already been declared, some were given to M23 agent 'Ayad Qatan Talab, the director of M23/6/1 Counter-Espionage Section, to keep in a lockbox. These documents have not yet been recovered.
 
-• M23/1 Human Resources –M23/1/1 Military Personnel
+Structure of M23
+
+- M23/1 Human Resources –M23/1/1 Military Personnel
 
 –M23/1/2 Civilian Personnel –M23/1/3 Personnel Management –M23/1/4 Passports and Visas • M23/2 Internal Security
 
@@ -2061,20 +1983,21 @@ M23 officers also were involved in NMD document concealment and destruction effo
 
 M40, Directorate of Opposition Group Activities M40 targeted opposition groups based overseas, such as the Al Dawa Party, the Communist Party, and the Wahhabis. M40 tasked its satellite offices around Iraq to monitor coalition forces prior to OIF, but limited resources prevented any measurable success. A civilian, 'Isam Khudhayr 'Abbas Al Dulaymi Al Awani, was the director of M40 from 1990 to 9 April 2003. At that point, according to a former M40 officer, all M40 officers were told to burn their documents and go home. "It was over," the source said, "the IIS did not exist anymore."
 
-the director of M23/6/1 Counter-Espionage Section, to keep in a lockbox. These documents have not yet been recovered.
-
 %%page 83%%
 
-Structure of M40 The Directorate of Regime Strategic
+Structure of M40 The Directorate of
 
-General Military Intelligence
+General Military Intelligence • M40/1 Monitors the Al Wafaq Party, Communist
 
-- M40/1 Monitors the Al Wafaq Party, Communist Party, and Separatists The Directorate of General Military
-- M40/2 Monitors the Al Dawa Party, Al Majlis Party, Intelligence (DGMI) was Iraq's and the Wahhabis main military intelligence service. The DGMI collected intelligence
-- M40/3 Monitors the Kurds on the military capabilities of the countries adjacent
-- M40/4 Monitors external threats, Al Mu'tamar, and to Iraq, as well as Kurdish forces. The director of Independents DGMI, Staff Lt. Gen. Zuhayr Talib 'Abd-al-Sattar, reported directly to the Presidential Secretary, despite
-- M40/5 Operations against the Kurds the subordination of the DGMI to the Ministry of
-- M40/6 Monitors the Al Yazidis, Al Saabiah, and Al Defense. Ashurin In addition to military analysis and targeting, the DGMI acted as an internal police force within the Iraqi military by assigning DGMI Intelligence Officers to each military unit down to the battalion level. Technically, the officer's mission was intelligence support, but the majority of the officer's work centered on controlling corruption and theft within the unit. Just as the SSO placed political officers within the Republican Guard, the DGMI placed intelligence officers within the military services to monitor troops. This organization has also been recognized as the General Military Intelligence Directorate (GMID), General Directorate of Military Intelligence (GDMI), Directorate of Military Intelligence (DMI), Military Intelligence Directorate (MID), and the Istikhbarat, the shortened version of its Arabic name: Mudiriyah Al Istikhbarat Al 'Askriah Al 'Ammah.
+Party, and Separatists The Directorate of General Military • M40/2 Monitors the Al Dawa Party, Al Majlis Party, Intelligence (DGMI) was Iraq's and the Wahhabis main military intelligence service.
+
+The DGMI collected intelligence • M40/3 Monitors the Kurds on the military capabilities of the countries adjacent • M40/4 Monitors external threats, Al Mu'tamar, and to Iraq, as well as Kurdish forces. The director of
+
+Independents DGMI, Staff Lt. Gen. Zuhayr Talib 'Abd-al-Sattar, reported directly to the Presidential Secretary, despite • M40/5 Operations against the Kurds the subordination of the DGMI to the Ministry of • M40/6 Monitors the Al Yazidis, Al Saabiah, and Al Defense.
+
+Ashurin
+
+> In addition to military analysis and targeting, the DGMI acted as an internal police force within the Iraqi military by assigning DGMI Intelligence Officers to each military unit down to the battalion level. Technically, the officer's mission was intelligence support, but the majority of the officer's work centered on controlling corruption and theft within the unit. Just as the SSO placed political officers within the Republican Guard, the DGMI placed intelligence officers within the military services to monitor troops. This organization has also been recognized as the General Military Intelligence Directorate (GMID), General Directorate of Military Intelligence (GDMI), Directorate of Military Intelligence (DMI), Military Intelligence Directorate (MID), and the Istikhbarat, the shortened version of its Arabic name: Mudiriyah Al Istikhbarat Al 'Askriah Al 'Ammah.
 
 > The Directorate of General Security
 
@@ -2082,9 +2005,7 @@ General Military Intelligence
 
 %%page 85%%
 
-> Annex C Regime Strategic Iraq's Security Services
-
-Overview
+> Annex C Iraq's Security Services
 
 The former Regime's security services protected the President, secured the presidential palace grounds, and guaranteed loyalty to the Regime. These organizations, however, also concealed information and material from United Nations weapon inspectors. This annex will provide a view of the most recent organizational structure of these security services.
 
@@ -2096,7 +2017,9 @@ This portion of the Report is largely based on testimony from former Regime offi
 
 %%page 86%%
 
-> 'Izzat Ibrahim Al Duri 'Abd Hamid Mahmud Chairman Al Khatab Al Nasiri Secretary General
+Secretary General
+
+> 'Izzat Ibrahim Al Duri Chairman
 
 > Zuhayr Talib Qusay Saddam 'Abd-al-Sattar Husayn Director, DGMI Director, SSO
 
@@ -2104,7 +2027,9 @@ The National Security Council
 
 The National Security Council provided a forum for cooperation between Iraq's security and intelligence agencies regarding overlapping issues among the agencies and joint-service projects. It was comprised of 'Izzat Ibrahim Al Duri, 'Abd Hamid Mahmud Al Khatab Al Nasiri, and the directors of the four main security and intelligence organizations—the Special Security Organization (SSO), the Iraqi Intelligence Service (IIS), the Directorate of General Military Intelligence (DGMI), and the Directorate of General Security (DGS).
 
-'Izzat Ibrahim, Vice-President and the Vice-Chairman of the Revolutionary Command Council (RCC), acted as the chairman, and 'Abd acted as the Secretary General of the National Security Council. The Council did not have regular preplanned meetings, but it met periodically at 'Izzat's headquarters at Al Admani Palace in Baghdad to address any problems or issues that had emerged since the last meeting. Despite these meetings most problems—big or small—were brought directly to Saddam by the agen-
+'Izzat Ibrahim, Vice-President and the Vice-Chairman of the Revolutionary Command Council (RCC), acted as the chairman, and 'Abd acted as the Secretary General of the National Security Council. The Council did not have regular preplanned meetings, but it met periodically at 'Izzat's headquarters at Al Admani Palace in Baghdad to address any problems or issues that had emerged since the last meeting. Despite these meetings most problems—big or small—were brought directly to Saddam by the agencies' directors.
+
+'Abd Hamid Mahmud Al Khatab Al Nasiri
 
 Tahir Jalil Habbush Rafi' 'Abd-al-Latif
 
@@ -2114,13 +2039,9 @@ The presidential secretary, 'Abd, screened almost all of the reporting sent to t
 
 The presidential secretary had a higher status than Qusay prior to 2001. Qusay, as Director of the SSO, still had to report to 'Abd despite being the President's son. Qusay was no longer within 'Abd's chain of responsibility after Qusay was elected to the Ba'th Party Leadership in May 2001, however, the SSO was still required to report to the presidential secretary.
 
-cies' directors.
-
 %%page 87%%
 
-> The Special Security Fannar Zibin Al Hasan Regime Strategic Organization During the first Gulf War, Fannar Zibin Al Hasan,
-
-> a cousin of Saddam, directed the SSO. Fannar was a figurehead. Qusay Saddam Husayn, who was
+> The Special Security Fannar Zibin Al Hasan Organization During the first Gulf War, Fannar Zibin Al Hasan, a cousin of Saddam, directed the SSO. Fannar was a figurehead. Qusay Saddam Husayn, who was
 
 Saddam Husayn formed the Special Security Orga- appointed by Saddam to be the deputy director, actu- nization (Jihaz al-Amn al-Khass in Arabic) shortly ally led the organization. Little is known about the after he became President in 1979. The assurance of SSO leadership from 1989 to 1991. Regime stability required a wide spectrum of support and services, and Saddam relied on the expertise of
 
@@ -2182,9 +2103,7 @@ Suhayl replaced Sulayman 'Ulwan Ibrahim Al Huraymis Al Nasiri who served as Qusa
 
 The director's office had four sections that handled allocation of residential properties for SSO employees, administration of SSO computers, financial oversight, and the inter-office and outgoing mail.
 
-The Directorate of Security Affairs The Directorate of Security Affairs, the second tier of presidential protection, consisted of two sections that were charged with the security of presidential palaces,
-
-> the office of the presidency, and Ba'th Party offices and headquarters. Made up of over 1,700 personnel,
+The Directorate of Security Affairs The Directorate of Security Affairs, the second tier of presidential protection, consisted of two sections that were charged with the security of presidential palaces, the office of the presidency, and Ba'th Party offices and headquarters. Made up of over 1,700 personnel,
 
 %%page 89%%
 
@@ -2226,9 +2145,9 @@ SSO Security Officers underwent a special three- month course held by the SSO, c
 
 %%page 90%%
 
-Duties of the SSO Palace Security The SSO Security Branch
-
 Similar in mission to the RG Security Directorate or
+
+Duties of the SSO Palace Security
 
 The Directorate of Security Affairs oversaw the security details within the presidential palaces and facilities of the Iraqi Regime. While the Special Republican Guard (SRG) maintained the perimeter and main entrance gate security, the Directorate of Security Affairs provided close-protection internal security measures: • Access control for incoming and outgoing palace visitors, to include verifying authorizations, security badges, personal and vehicular searches. • Verifying personnel records for all inside and outside palace workers with the assistance of the
 
@@ -2237,11 +2156,11 @@ Directorate of General Security (DGS).
 - Escorting or monitoring all workers (janitors, waiters, contractors, etc.) in the presidential palaces.
 - Requesting and validating annual security clear- ances from the Directorate of General Security for all enlisted and commissioned SRG personnel. by the other soldiers. In the event of disloyalty or a security breach, the security officer would report the event directly to the director of RG Security. For example, a security officer at the battalion level would not be required to pass the information through the brigade and division security offices. The Director of RG Security could bypass the SSO Director because of his special link with Qusay.
 
-The Directorate of Communications Secure communications between strategic Regime facilities was the responsibility of the Directorate of Communications, directed by Head Engineer Safa' Shakir Taha. This directorate established and maintained landline and wireless communications for all palaces, directorates, presidential and Diwan offices, and Republican Guard headquarters. Two departments within the directorate specialized in wireless and landline communications systems. The Landline Department was headed by Engineer Salam 'Aziz; the Wireless Department was headed by Engineer 'Abd-
+The Directorate of Communications Secure communications between strategic Regime facilities was the responsibility of the Directorate of Communications, directed by Head Engineer Safa' Shakir Taha. This directorate established and maintained landline and wireless communications for all palaces, directorates, presidential and Diwan offices, and Republican Guard headquarters. Two departments within the directorate specialized in wireless and landline communications systems. The Landline Department was headed by Engineer Salam 'Aziz; the Wireless Department was headed by Engineer 'Abdal-Rahman.
 
-a police department's Internal Affairs division, the SSO Security Branch monitored the personnel of the Special Security Organization. A cousin of Qusay, Fatik Karim Sulayman Al Majid, was the last known director of this branch. Fatik had almost constant access to Saddam, because the SSO Security Branch was Saddam's window into Qusay's inner circle. Saddam appointed strong loyalists, all of whom were members of his personal guard staff, to each of the security and intelligence services near the beginning of 2001. All of these positions reported the activities of their various agencies to Fatik, Director of the SSO Security Branch. Khalid Najim 'Abdallah Sultan Al Majid Al Tikriti was appointed to head the IIS Security Branch (M6), Haytham Sulayman Al Majid was appointed to head the Security Branch for the Directorate of General Military Intelligence, and Salim 'Abd-al-Qatar Sulayman was appointed to head the respective security element of the Directorate of General Security. Cross-checking of the various services placed the SSO in a superior position over these agencies. For example, the IIS was not informed of SSO operations, but the SSO would be informed of all IIS operations; only the liaison officers between the two organizations would communicate officially. If the IIS became aware of a Ba'th Party member plotting action against the Regime, the case would be passed directly to the SSO. However, if the IIS wished to keep a case, Saddam most likely would have been consulted.
+The SSO Security Branch a police department's Internal Affairs division, the SSO Security Branch monitored the personnel of the Special Security Organization. A cousin of Qusay, Fatik Karim Sulayman Al Majid, was the last known director of this branch. Fatik had almost constant access to Saddam, because the SSO Security Branch was Saddam's window into Qusay's inner circle. Saddam appointed strong loyalists, all of whom were members of his personal guard staff, to each of the security and intelligence services near the beginning of 2001. All of these positions reported the activities of their various agencies to Fatik, Director of the SSO Security Branch. Khalid Najim 'Abdallah Sultan Al Majid Al Tikriti was appointed to head the IIS Security Branch (M6), Haytham Sulayman Al Majid was appointed to head the Security Branch for the Directorate of General Military Intelligence, and Salim 'Abd-al-Qatar Sulayman was appointed to head the respective security element of the Directorate of General Security. Cross-checking of the various services placed the SSO in a superior position over these agencies. For example, the IIS was not informed of SSO operations, but the SSO would be informed of all IIS operations; only the liaison officers between the two organizations would communicate officially. If the IIS became aware of a Ba'th Party member plotting action against the Regime, the case would be passed directly to the SSO. However, if the IIS wished to keep a case, Saddam most likely would have been consulted.
 
-The Surveillance and Information Branch The Surveillance and Information Branch was tasked with monitoring Iraqi officials, all employees within the office of the presidency, and other designated targets, to identify individuals of questionable loyalty. The director of this branch, Rafi' Hamid Muhammad Al Sagmani, oversaw the operations of two sub-sections, the Telecommunications Monitoring Section, headed by Muhammad Ra'uf Ghassub, and the Human Surveillance Section, headed by Harith Al Duri. Rafi' was another of Qusay's close associates al-Rahman. within the SSO.
+The Surveillance and Information Branch The Surveillance and Information Branch was tasked with monitoring Iraqi officials, all employees within the office of the presidency, and other designated targets, to identify individuals of questionable loyalty. The director of this branch, Rafi' Hamid Muhammad Al Sagmani, oversaw the operations of two sub-sections, the Telecommunications Monitoring Section, headed by Muhammad Ra'uf Ghassub, and the Human Surveillance Section, headed by Harith Al Duri. Rafi' was another of Qusay's close associates within the SSO.
 
 %%page 91%%
 
@@ -2261,19 +2180,19 @@ Administration Branch The administrative branch of the SSO, which was headed by 
 
 Vehicles Branch Despite having its own motor pool and vehicles, the SSO attempted to acquire parts or maintenance for its own vehicles from the Special Republican Guard. Lt. Col. 'Isam Mahmud 'Abdallah Al Tikriti headed the transport assets of the SSO.
 
-The Scientific Branch Regime Strategic
+The Scientific Branch
 
 President's food. All food, clothing, and presidential supplies were acquired through the Ministry of Health or the Ministry of Trade. This branch was headed by Dr. Sabah Shuhab Ahmad Al Sumaydi. His two immediate subordinates were Dr. 'Adnan Ibrahim, Head of the Department of Chemistry, and Dr. Mujaz Tawfiq, Head of the Department of Biology. The lab tested anything specifically for the president, including clothing, and its function was very secretive, even within the SSO. For example, Qusay planned to refuse acknowledgement that the lab belonged to the SSO, even if confronted by UN inspectors about the lab. The lab was previously declared as belonging to the Ministry of Trade, which originally set up the lab for the SSO. Therefore, UN inspectors examined the lab under the assumption that it belonged to the Ministry of Trade, yet, fully aware of the lab's true function with regard to Saddam. Had the SSO acknowledged its ownership of the lab, it would have further increased the level of distrust between inspectors and Iraq.
 
 The Special Security Institute While many SSO officers were already seasoned from prior intelligence service positions, all SSO officers were trained in Baghdad at the Special Security Institute, directed by Khalid Kulayb 'Awani. The
 
-Institute's primary mission was to educate SSO, SRG, and presidential office employees on all aspects of governmental security, including military training, political indoctrination, and security of presidential sites. It operated on a yearly schedule with classes beginning on the seventh day of January, a two-month vacation in July and August, and completion of the annual curriculum in December. The basic course for Special Security Officers lasted three months at the Institute in the Al-Jihad district of Baghdad. The course consisted of physical security training relating to different types of facilities and premises, personnel security and search techniques, the debriefing of casual contacts, and methods used by hostile intelligence services to recruit sources. This course turned company-grade Republican Guard
-
-> officers into SSO Security Officers, who subsequently were embedded into military units.
+Institute's primary mission was to educate SSO, SRG, and presidential office employees on all aspects of governmental security, including military training, political indoctrination, and security of presidential sites. It operated on a yearly schedule with classes beginning on the seventh day of January, a two-month vacation in July and August, and completion of the annual curriculum in December. The basic course for Special Security Officers lasted three months at the Institute in the Al-Jihad district of Baghdad. The course consisted of physical security training relating to different types of facilities and premises, personnel security and search techniques, the debriefing of casual contacts, and methods used by hostile intelligence services to recruit sources. This course turned company-grade Republican Guard officers into SSO Security Officers, who subsequently were embedded into military units.
 
 %%page 92%%
 
-The Security Unit Collaboration With Other Services The SSO had a battalion-sized unit responsible for the security of strategically important roads around Baghdad and Tikrit. Hasan Na'amah Hamid Al Alusi replaced Col. 'Uday Al Habbus as the commander of the Security Unit in 2001. The unit consisted of four companies and a command element. The first company was composed of police patrol cars, the second company were also police vehicles, including recovery vehicles, for traffic enforcement, the third and fourth companies were foot-patrols mainly recruited from the SRG.
+The SSO had a battalion-sized unit responsible for
+
+The Security Unit the security of strategically important roads around Baghdad and Tikrit. Hasan Na'amah Hamid Al Alusi replaced Col. 'Uday Al Habbus as the commander of the Security Unit in 2001. The unit consisted of four companies and a command element. The first company was composed of police patrol cars, the second company were also police vehicles, including recovery vehicles, for traffic enforcement, the third and fourth companies were foot-patrols mainly recruited from the SRG.
 
 The unit's main focus was the route between the Baghdad International Airport and the Republican Palace in Baghdad. Similar service was provided by the unit on other routes, but with less manpower requirements. These security operations were, generally, permanent assignments; the Security Unit was rarely tasked with other assignments.
 
@@ -2281,15 +2200,15 @@ Public Opinion Department The Public Opinion Department collected information on
 
 Legal Department The Legal Department, led by Judge Basim 'Umar Al Tikriti, was responsible for all legal cases involving employees of the SSO.
 
-Research Department The Research Department, headed by Dr. Mu'ayyid Al Tikriti, conducted a joint computer project with the Military Industrial Commission, according to former senior officers within the SSO command leadership. Allegedly, this section was comprised of four or five employees in addition to Dr. Mu'ayyid and was
+Research Department The Research Department, headed by Dr. Mu'ayyid Al Tikriti, conducted a joint computer project with the Military Industrial Commission, according to former senior officers within the SSO command leadership. Allegedly, this section was comprised of four or five employees in addition to Dr. Mu'ayyid and was financed through the SSO. Neither Walid nor Hani, despite their senior positions within the SSO, knew much about the department's sensitive activities.
+
+Collaboration With Other Services
 
 The SSO collaborated with every Iraqi security or intelligence service on a limited scale—each service had a specific charter but overlapping responsibilities were common. Moreover, all of Iraq's services were monitored for loyalty to the Regime.
 
 The SSO had links to every security and intelligence service of Iraq for political reasons, but it did not vet the reporting of the various agencies. All of the services shared similar reporting chains, however. Once a report had been seen by the director of the relevant service, it followed one of two paths: if the report related to administrative or financial matters, it went to the Presidential Diwan; if the report related to intelligence or security, it went to the Presidential Secretary.
 
 The security and intelligence services relied on each other for operational missions as well. The SSO would be informed if an agency had a security breach or suspected disloyalty among its ranks. Alternatively, the SSO tasked the Directorate of General Security for background checks and the Iraqi Intelligence Service and the Directorate of General Military Intelligence for collection strategies and technologies.
-
-financed through the SSO. Neither Walid nor Hani, despite their senior positions within the SSO, knew much about the department's sensitive activities.
 
 %%page 93%%
 
@@ -2309,17 +2228,15 @@ Qusay, in the role of the "Honorable Supervisor" of the Republican Guard, like h
 
 The Special Republican Guard
 
-The primary mission of the Special Republican Guard
+The primary mission of the Special Republican Guard (SRG) was to secure and protect presidential areas
 
-and other sites sensitive to national security. Although Regime Strategic officers also conducted all personal and vehicular searches and internal security. The SRG was responsible for manning gate guards and securing the grounds, perimeter, and surrounding areas. Even the SRG Commander, Brig. Barzan 'Abd-al-Ghafur Sulayman Al Majid, was not permitted to enter any presidential grounds without prior approval. Saddam ensured that all military units were kept far enough away in order to prevent any potential coup.
+and other sites sensitive to national security. Although officers also conducted all personal and vehicular searches and internal security. The SRG was responsible for manning gate guards and securing the grounds, perimeter, and surrounding areas. Even the SRG Commander, Brig. Barzan 'Abd-al-Ghafur Sulayman Al Majid, was not permitted to enter any presidential grounds without prior approval. Saddam ensured that all military units were kept far enough away in order to prevent any potential coup.
 
 The SRG was originally a large brigade composed of seven battalion-sized elements referred to as Regiments. The SRG bulked up to the size of a division in 1992 when the threat to the government increased, although it had never— before or after the threat—been trained for coup suppression. The SRG maintained its large Barzan 'Abd al-Ghafur stature until early 2000, when the branch could not support its own logistic requirements and was reduced from four brigades to one. It was again augmented to divisional size before Operation Iraqi Freedom, but the SRG units played no role in combat as maneuver units during Operations Desert Storm or Iraqi Freedom.
 
 The chain of command within the SRG was strictly controlled, given the proximity of military troops to Saddam. Orders could only be passed down from the RG Secretariat to the SRG commander. The SSO at times would attempt to commandeer SRG assets for ad hoc tasks, but the SRG Commander would refuse to allocate a single vehicle without an official written order from the RG Secretariat.
 
-The SRG, under the direction of the SSO, participated in WMD-related concealment activities from 1991 to 1995. Equipment, documents, and other unidentified sensitive materials from the Military Industrialization Commission were loaded on trucks and stored at SRG facilities in order to according to numerous sources.
-
-prevent their discovery by UNSCOM inspectors, (SRG) was to secure and protect presidential areas
+The SRG, under the direction of the SSO, participated in WMD-related concealment activities from 1991 to 1995. Equipment, documents, and other unidentified sensitive materials from the Military Industrialization Commission were loaded on trucks and stored at SRG facilities in order to prevent their discovery by UNSCOM inspectors, according to numerous sources.
 
 %%page 94%%
 
@@ -2327,15 +2244,13 @@ Republican Guard Organizational Structure.
 
 %%page 95%%
 
-The Republican Guard Forces Command Regime Strategic
+The Republican Guard Forces Command
 
 The primary mission of the Republican Guard Forces Command (RGFC) was to safeguard Regime stability and to protect the Regime from both foreign and domestic enemies. RGFC units helped repel the Iranian invasion in the mid to late 1980s, invaded Kuwait in 1990, sup- Sayf Al-Din pressed the Shi'a and Kurdish uprisings in the 1990s, and briefly defended the approaches to Baghdad in 2003. The mission of the RGFC resembled that of the Regular Army—tactical defense of the Regime and nation. The RGFC was composed of two corps-sized elements that were "supervised" by Qusay, but Staff Lt. Gen. Sayf-al-Din Fulayyih Hasan Taha Al Rawi, as Chief of Staff, was the operational commander. The original corps, the Allahu Akbar Operations Command (1st RG Corps), was dispersed in the northern half of Iraq and the other, the Fat'h Al Mubayyin Operations Command (2nd RG Corps), in the southern half of Iraq. Each corps had three division-sized elements referred to as a "Forces Command" and an independent Special Forces Brigade. Two of these divisions were garrisoned in Mosul and Krikuk to support the Regular Army in the north, three heavy (armored) divisions protected the approaches to Baghdad, and one infantry division was garrisoned in Al Kut. The RGFC was the last and the heaviest armed tier of Regime security. While it was essential to the protection of the Regime, Saddam kept the units away from Baghdad to prevent their involvement in any military-led coups.
 
 %%page 97%%
 
-> Annex D Regime Strategic Saddam's Personal Involvement
-
-in WMD Planning
+> Annex D Saddam's Personal Involvement in WMD Planning
 
 The Iraq Survey Group recovered this recording of Saddam and senior officials discussing the use of WMD. This discussion was part of a more general meeting which would appear from the content to have taken place during the second week of January, 1991. This is of particular interest as it provides a compelling demonstra- tion of Saddam's personal interest and involvement in WMD planning and preparation.
 
@@ -2355,7 +2270,7 @@ Speaker 2: Sir, the design of the suit is with a white shirt and a collar (neck 
 
 Husayn Kamil: Absolutely right, sir.
 
-Saddam: Then work on it and make the corrections to the sizes. Speaker 2: Sir, we will amend it to be exactly with the neck line. Saddam: Even if it appears a little bit. Now when
+Saddam: Then work on it and make the corrections to the sizes. Speaker 2: Sir, we will amend it to be exactly with the neck line. Saddam: Even if it appears a little bit. Now when some one wears a suit, of course the shirt line will appear a little bit, but here I prefer not to have it obvious.
 
 Speaker 2: Sir, you can see that nobody is wearing it.
 
@@ -2363,7 +2278,9 @@ Saddam: It's forgotten, but now I will ask Abu Muthanna, because he is the best 
 
 Saddam: I want to make sure that—close the door please [door slams)]—the germ and chemical warheads, as well as the chemical and germ bombs, are available to the "concerned people," so that in case we ordered an attack, they can do it without missing any of their targets?
 
-Husayn Kamil: Sir, if you'll allow me. Some of the chemicals now are distributed, this is according to the last report from the Minister of Defense, which was submitted to you sir. Chemical warheads are stored and are ready at Air Bases, and they know how and when to deal with, as well as arm these heads. Also, some other artillery machines and rockets (missiles) are available from the army. While some of the empty "stuff" is available for us, our position is very good, and we don't have any operational problems. Moreover, in the past, many substantial items and materials were imported; now, we were able to establish a local project, which was established to comply with daily production. Also, another bigger project will be finalized within a month, as well as a third project in the coming two to three months that will keep us on the safe side, in terms of supply. We, Sir, only deal in common materials like phosphorus, ethyl alcohol and methyl [interrupted]. Saddam: Etc. . . . this is not important to me. Husayn Kamil: So, Sir, regarding the germs and [he some one wears a suit, of course the shirt line will pauses]. appear a little bit, but here I prefer not to have it obvious. Saddam: And the Chemicals.
+Husayn Kamil: Sir, if you'll allow me. Some of the chemicals now are distributed, this is according to the last report from the Minister of Defense, which was submitted to you sir. Chemical warheads are stored and are ready at Air Bases, and they know how and when to deal with, as well as arm these heads. Also, some other artillery machines and rockets (missiles) are available from the army. While some of the empty "stuff" is available for us, our position is very good, and we don't have any operational problems. Moreover, in the past, many substantial items and materials were imported; now, we were able to establish a local project, which was established to comply with daily production. Also, another bigger project will be finalized within a month, as well as a third project in the coming two to three months that will keep us on the safe side, in terms of supply. We, Sir, only deal in common materials like phosphorus, ethyl alcohol and methyl [interrupted]. Saddam: Etc. . . . this is not important to me. Husayn Kamil: So, Sir, regarding the germs and [he pauses].
+
+Saddam: And the Chemicals.
 
 %%page 98%%
 
@@ -2405,11 +2322,11 @@ Saddam: We don't want to depend on one option. The missiles will be intercepted 
 
 Husayn Kamil: Sir, it is available and stored "some- where," but if you, Sir, order us to transfer it, we are a bit worried it will cause contamination. It has been stored for 45 to 47 years, and yet has not been certified as being safe (uncontaminated). Sir, it had been experimented on only once and some of the employees, Sir, were contaminated.
 
--Time 07:36-08:20, Saddam: I want as soon as possible, if we are not transferring the weapons, to issue a clear order to the "concerned people" that the weapon should be in their hands ASAP. I might even give them a "non-return access. " [Translator Comment: to have access to the weapons; to take them with them and not to return them]. I will give them an order stating that at "one moment," if I 'm not there and you don't hear my voice, you will hear somebody else's voice, so you can receive the order from him, and then you can go attack your targets. I want the weapons to be distributed to targets; I want Riyadh and Jeddah, which are the biggest Saudi cities with all the decision makers, and the Saudi rulers live there. This is for the germ and chemical weapons. Husayn Kamil: In terms of chemical weapons, we have an excellent situation and good grip on them them]. establishment is the one responsible for commuting
+-Time 07:36-08:20, Saddam: I want as soon as possible, if we are not transferring the weapons, to issue a clear order to the "concerned people" that the weapon should be in their hands ASAP. I might even give them a "non-return access. " [Translator Comment: to have access to the weapons; to take them with them and not to return them]. I will give them an order stating that at "one moment," if I 'm not there and you don't hear my voice, you will hear somebody else's voice, so you can receive the order from him, and then you can go attack your targets. I want the weapons to be distributed to targets; I want Riyadh and Jeddah, which are the biggest Saudi cities with all the decision makers, and the Saudi rulers live there. This is for the germ and chemical weapons. Husayn Kamil: In terms of chemical weapons, we have an excellent situation and good grip on them the weapon and supervising how it is used.
 
 %%page 99%%
 
-[Translator Comment: they are in good control of
+[Translator Comment: they are in good control of them].
 
 Saddam: Only in case we are obliged and there is a great necessity to put them into action. Also, all the Israeli cities, all of them. Of course you should concentrate on Tel Aviv, since it is their center.
 
@@ -2423,7 +2340,7 @@ Saddam: Anyways, it is our duty to think of all the bad scenarios of this missio
 
 Husayn Kamil: We are really in good control of it sir. Saddam: No, I mean it should be with the "taking action" people. [Translator Comment: the people who will execute the command; implementers.]
 
-Husayn Kamil: Sir, the chemical is available and our Regime Strategic the weapon and supervising how it is used.
+Husayn Kamil: Sir, the chemical is available and our establishment is the one responsible for commuting
 
 Saddam: Excellent. Do you have anything stocked in the establishment stores?
 
@@ -2443,7 +2360,7 @@ Speaker 2: Sir, Economically important targets such as refineries, power plants 
 
 Husayn Kamil: Sir, these vital locations must be added to the mission and become priority targets to the biological & chemical weapons, because this will end all sorts of life. People are drinking water from these desalination plants and getting their fuel from refineries, thus ending the mission. Saddam: Muzahim has already written these locations down and will take care of it, Refineries and [interrupted]. Muzahim: The Refineries and desalination plants, Sir. Saddam: May God help us do it. Then there was no conversation. Saddam: We will never lower our heads as long as we are alive, even if we have to destroy everybody. The recording continues after this for a further 48 minutes, in which the participants discuss other military matters, such as senior command appointments and low-level defensive preparations. There was no further discussion of WMD.
 
-and Procurement
+> Regime Finance and Procurement
 
 We have said with certainty that the embargo will not be lifted by a Security Council Resolution, but will corrode by itself.
 
@@ -2459,13 +2376,13 @@ We have said with certainty that the embargo will not be lifted by a Security Co
 
 - Ambition (1980-91) — 9
 
-- Regime Finance Decline (1991-96) — 9
+- Decline (1991-96) — 9
 
 - Recovery (1996-98) — 9
 
 - Transition and Miscalculation (1999-2003) — 10
 
-- and Procurement Directing and Budgeting Iraq's Illicit Procurement — 11
+- Directing and Budgeting Iraq's Illicit Procurement — 11
 
 - Overview — 11
 
@@ -2625,13 +2542,13 @@ ii
 
 - Items Procured by the IIS — 79
 
-- Regime Finance IIS Front Companies — 80
+- IIS Front Companies — 80
 
 - Special Security Organization — 82
 
 - Iraqi Atomic Energy Commission — 83
 
-- and Procurement Ministry of Transport and Communication — 83
+- Ministry of Transport and Communication — 83
 
 - Mission and Key Procurement Companies under the MoTC — 83
 
@@ -2775,17 +2692,13 @@ iv
 
 A Word on the Scope of This Chapter
 
-This chapter of the Comprehensive Report details the evolution of Iraq's campaign to evade and overcome the UN ban on its import of material related to Weapons of Mass Destruction and conventional military forces. It also describes Iraq's effort to use the sale of its oil to hasten the end of the entire sanctions regime. Because this chapter deals with Iraq's international trade and finance, half of the picture rests with entities outside
-
-Regime Finance Iraq—countries, companies, and individuals. To tell the story, ISG had to describe—usually naming—Iraq's trade partners or entities Iraq thought sympathetic to its plight. Most of those individuals or entities are clearly identified in Iraqi documents, some of which were substantiated through interviews with former Iraqi Regime officials. ISG names those individuals and and Procurement entities here in the interest of candor, clarity, and thoroughness. But it is not in ISG's mandate or capabilities to investigate or judge those non-Iraqi individuals or entities. And in many cases, the Iraqi documents and detainees stop short of confirming that a particular transaction was consummated, or that a courted foreign government official said "yes" to Iraqi blandishments. ISG also must point out that some Iraqi trade was legal and legitimate under the UN Oil-For-Food Program. It is important to understand that the Iraqi Regime used both sanctioned and unsanctioned trade to buy influence and gain allies. But Iraq's intent to circumvent sanctions by no means incriminates those who may have in some cases unwittingly provided unsanctioned commodities to Iraq. ISG would like to emphasize that this report does not intend to analyze or assess the legal implications for non-Iraqis.
+This chapter of the Comprehensive Report details the evolution of Iraq's campaign to evade and overcome the UN ban on its import of material related to Weapons of Mass Destruction and conventional military forces. It also describes Iraq's effort to use the sale of its oil to hasten the end of the entire sanctions regime. Because this chapter deals with Iraq's international trade and finance, half of the picture rests with entities outside Iraq—countries, companies, and individuals. To tell the story, ISG had to describe—usually naming—Iraq's trade partners or entities Iraq thought sympathetic to its plight. Most of those individuals or entities are clearly identified in Iraqi documents, some of which were substantiated through interviews with former Iraqi Regime officials. ISG names those individuals and entities here in the interest of candor, clarity, and thoroughness. But it is not in ISG's mandate or capabilities to investigate or judge those non-Iraqi individuals or entities. And in many cases, the Iraqi documents and detainees stop short of confirming that a particular transaction was consummated, or that a courted foreign government official said "yes" to Iraqi blandishments. ISG also must point out that some Iraqi trade was legal and legitimate under the UN Oil-For-Food Program. It is important to understand that the Iraqi Regime used both sanctioned and unsanctioned trade to buy influence and gain allies. But Iraq's intent to circumvent sanctions by no means incriminates those who may have in some cases unwittingly provided unsanctioned commodities to Iraq. ISG would like to emphasize that this report does not intend to analyze or assess the legal implications for non-Iraqis.
 
 %%page 3#5%%
 
 Key Findings
 
-Throughout the 1990s and up to OIF (March 2003), Saddam focused on one set of objectives: the survival of himself, his Regime, and his legacy. To secure those objectives, Saddam needed to exploit Iraqi oil assets, to portray a strong military capability to deter internal and external threats, and to foster his image as an Arab leader. Saddam recognized that the reconstitution of Iraqi WMD enhanced both his security and image. Consequently, Saddam needed to end UN-imposed sanctions to fulfill his goals.
-
-Regime Finance Saddam severely under estimated the economic and military costs of invading Iran in 1980 and Kuwait in 1990, as well as underestimating the subsequent international condemnation of his invasion of Kuwait. He did not anticipate this condemnation, nor the subsequent imposition, comprehensiveness, severity, and longevand Procurement ity of UN sanctions. His initial belief that UN sanctions would not last, resulting in his country's economic decline, changed by 1998 when the UNSC did not lift sanctions after he believed resolutions were fulfilled. Although Saddam had reluctantly accepted the UN's Oil for Food (OFF) program by 1996, he soon recognized its economic value and additional opportunities for further manipulation and influence of the UNSC Iraq 661 Sanctions Committee member states. Therefore, he resigned himself to the continuation of UN sanctions understanding that they would become a "paper tiger" regardless of continued US resolve to maintain them. Throughout sanctions, Saddam continually directed his advisors to formulate and implement strategies, policies, and methods to terminate the UN's sanctions regime established by UNSCR 661. The Regime devised an effective diplomatic and economic strategy of generating revenue and procuring illicit goods utilizing the Iraqi intelligence, banking, industrial, and military apparatus that eroded United Nations' member states and other international players' resolve to enforce compliance, while capitalizing politically on its humanitarian crisis. • From Saddam's perspective, UN sanctions hindered his ability to rule Iraq with complete authority and autonomy. In the long run, UN sanctions also interfered with his efforts to establish a historic legacy.
+Throughout the 1990s and up to OIF (March 2003), Saddam focused on one set of objectives: the survival of himself, his Regime, and his legacy. To secure those objectives, Saddam needed to exploit Iraqi oil assets, to portray a strong military capability to deter internal and external threats, and to foster his image as an Arab leader. Saddam recognized that the reconstitution of Iraqi WMD enhanced both his security and image. Consequently, Saddam needed to end UN-imposed sanctions to fulfill his goals. Saddam severely under estimated the economic and military costs of invading Iran in 1980 and Kuwait in 1990, as well as underestimating the subsequent international condemnation of his invasion of Kuwait. He did not anticipate this condemnation, nor the subsequent imposition, comprehensiveness, severity, and longevity of UN sanctions. His initial belief that UN sanctions would not last, resulting in his country's economic decline, changed by 1998 when the UNSC did not lift sanctions after he believed resolutions were fulfilled. Although Saddam had reluctantly accepted the UN's Oil for Food (OFF) program by 1996, he soon recognized its economic value and additional opportunities for further manipulation and influence of the UNSC Iraq 661 Sanctions Committee member states. Therefore, he resigned himself to the continuation of UN sanctions understanding that they would become a "paper tiger" regardless of continued US resolve to maintain them. Throughout sanctions, Saddam continually directed his advisors to formulate and implement strategies, policies, and methods to terminate the UN's sanctions regime established by UNSCR 661. The Regime devised an effective diplomatic and economic strategy of generating revenue and procuring illicit goods utilizing the Iraqi intelligence, banking, industrial, and military apparatus that eroded United Nations' member states and other international players' resolve to enforce compliance, while capitalizing politically on its humanitarian crisis. • From Saddam's perspective, UN sanctions hindered his ability to rule Iraq with complete authority and autonomy. In the long run, UN sanctions also interfered with his efforts to establish a historic legacy.
 
 According to Saddam and his senior advisors, the UN, at the behest of the US, placed an economic strangle hold on Iraq. The UN controlled Saddam's main source of revenue (oil exports) and determined what Iraq could import.
 
@@ -2814,11 +2727,7 @@ Consequently, the IIS facilitated the import of UN sanctioned and dual-use goods
 
 - The Ministry of Oil (MoO) controlled the oil voucher distribution program that used oil to influence UN members to support Iraq's goals. Saddam personally approved and removed all names of voucher recipients. He made all modifications to the list, adding or deleting names at will. Other senior Iraqi leaders could nominate or recommend an individual or organization to be added or removed from the voucher list, and ad hoc allocation committees met to review and update the allocations.
 
-Iraq under Saddam successfully devised various methods to acquire and import items prohibited under UN
-
-Regime Finance sanctions. Numerous Iraqi and foreign trade intermediaries disguised illicit items, hid the identity of the end user, and/or changed the final destination of the commodity to get it to the region. For a cut of the profits, these trade intermediaries moved, and in many cases smuggled, the prohibited items through land, sea, and air entry points along the Iraqi border.
-
-and Procurement By mid-2000 the exponential growth of Iraq's illicit revenue, increased international sympathy for Iraq's humanitarian plight, and increased complicity by Iraqi's neighbors led elements within Saddam's Regime to boast that the UN sanctions were slowly eroding. In July 2000, the ruling Iraqi Ba'thist paper, Al-Thawrah, claimed victory over UN sanctions, stating that Iraq was accelerating its pace to develop its national economy despite the UN "blockade." In August 2001, Iraqi Foreign Minister Sabri stated in an Al-Jazirah TV interview that UN sanctions efforts had collapsed at the same time Baghdad had been making steady progress on its economic, military, Arab relations, and international affairs. • Companies in Syria, Jordan, Lebanon, Turkey, UAE, and Yemen assisted Saddam with the acquisition of prohibited items through deceptive trade practices. In the case of Syria and Yemen, this included support from agencies or personnel within the government itself.
+Iraq under Saddam successfully devised various methods to acquire and import items prohibited under UN sanctions. Numerous Iraqi and foreign trade intermediaries disguised illicit items, hid the identity of the end user, and/or changed the final destination of the commodity to get it to the region. For a cut of the profits, these trade intermediaries moved, and in many cases smuggled, the prohibited items through land, sea, and air entry points along the Iraqi border. By mid-2000 the exponential growth of Iraq's illicit revenue, increased international sympathy for Iraq's humanitarian plight, and increased complicity by Iraqi's neighbors led elements within Saddam's Regime to boast that the UN sanctions were slowly eroding. In July 2000, the ruling Iraqi Ba'thist paper, Al-Thawrah, claimed victory over UN sanctions, stating that Iraq was accelerating its pace to develop its national economy despite the UN "blockade." In August 2001, Iraqi Foreign Minister Sabri stated in an Al-Jazirah TV interview that UN sanctions efforts had collapsed at the same time Baghdad had been making steady progress on its economic, military, Arab relations, and international affairs. • Companies in Syria, Jordan, Lebanon, Turkey, UAE, and Yemen assisted Saddam with the acquisition of prohibited items through deceptive trade practices. In the case of Syria and Yemen, this included support from agencies or personnel within the government itself.
 
 - Numerous ministries in Saddam's Regime facilitated the smuggling of illicit goods through Iraq's borders, ports, and airports. The Iraqi Intelligence Service (IIS) and the Military Industiralization Commission (MIC), however, were directly responsible for skirting UN monitoring and importing prohibited items for Saddam.
 
@@ -2826,13 +2735,11 @@ and Procurement By mid-2000 the exponential growth of Iraq's illicit revenue, in
 
 Chapter Summary
 
-The Regime Finance and Procurement chapter focuses on the economic means, key actors and organizations, foreign suppliers, and procurement mechanisms used by Saddam to pursue his set of objectives: survival of himself, his Regime, and his legacy. The first section of the chapter provides an historic background divided into key economic phases. The chapter then examines Saddam's major revenue streams outside the UN sanc-
-
-Regime Finance tions regime: bilateral trade Protocols, UN OFF oil surcharges, commodity kickbacks, and "cash sales" or oil smuggling activities. ISG estimates the total amount of revenue earned between 1991 and 2003, while paying special attention to money earned after the introduction of the OFF program. ISG also addresses how the Regime used its oil assets to influence non-Iraqi individuals by means of an institutionalized, secret oil voucher and Procurement program. Following the revenue section, the chapter identifies the Iraqi Regime's key individuals, ministries, organizations, and private entities within the Regime that were involved in Saddam's procurement and revenue activities. Next, the section identifies foreign suppliers—governments, state-owned and private firms, and/or individual agents that engaged in the export of goods in contravention of UN resolutions. In some cases, ISG has uncovered foreign government activity and knowledge that ranged from tacit approval to active complicity. In other cases, firms engaged in the illegal activities without their government's consent or knowledge. Moreover, ISG's investigation exposed Iraqi and foreign trade intermediaries' deceptive methods used to purchase, acquire, and import UN-banned items. Finally, this chapter provides several annexes that give more detail on the spectrum of issues examined in the procurement chapter of ISG's report. Annex A consists of translations of Iraq's major trade Protocols; Annex B is an oil voucher recipient list that ISG obtained from Iraq's State Oil Marketing Organization (SOMO). Annex C relates to Iraq's normal governmental budgetary process, while Annex D provides general Iraqi economic data. Annex E outlines ISG's illicit earnings sources and estimation methodology, and Annex F provides an illustrative oil smuggling case study. Annex G explains Iraq's banking system, and Annex H lists Iraqi-related UN Security Council Resolutions. Annexes I and J reveal suspected Iraqi dual-use and conventional weapons procurement transactions, while Annex K lists suspected companies engaged in military-related trade with Iraq. Finally, Annex L provides a list of procurement acronyms found throughout this section.
+The Regime Finance and Procurement chapter focuses on the economic means, key actors and organizations, foreign suppliers, and procurement mechanisms used by Saddam to pursue his set of objectives: survival of himself, his Regime, and his legacy. The first section of the chapter provides an historic background divided into key economic phases. The chapter then examines Saddam's major revenue streams outside the UN sanctions regime: bilateral trade Protocols, UN OFF oil surcharges, commodity kickbacks, and "cash sales" or oil smuggling activities. ISG estimates the total amount of revenue earned between 1991 and 2003, while paying special attention to money earned after the introduction of the OFF program. ISG also addresses how the Regime used its oil assets to influence non-Iraqi individuals by means of an institutionalized, secret oil voucher program. Following the revenue section, the chapter identifies the Iraqi Regime's key individuals, ministries, organizations, and private entities within the Regime that were involved in Saddam's procurement and revenue activities. Next, the section identifies foreign suppliers—governments, state-owned and private firms, and/or individual agents that engaged in the export of goods in contravention of UN resolutions. In some cases, ISG has uncovered foreign government activity and knowledge that ranged from tacit approval to active complicity. In other cases, firms engaged in the illegal activities without their government's consent or knowledge. Moreover, ISG's investigation exposed Iraqi and foreign trade intermediaries' deceptive methods used to purchase, acquire, and import UN-banned items. Finally, this chapter provides several annexes that give more detail on the spectrum of issues examined in the procurement chapter of ISG's report. Annex A consists of translations of Iraq's major trade Protocols; Annex B is an oil voucher recipient list that ISG obtained from Iraq's State Oil Marketing Organization (SOMO). Annex C relates to Iraq's normal governmental budgetary process, while Annex D provides general Iraqi economic data. Annex E outlines ISG's illicit earnings sources and estimation methodology, and Annex F provides an illustrative oil smuggling case study. Annex G explains Iraq's banking system, and Annex H lists Iraqi-related UN Security Council Resolutions. Annexes I and J reveal suspected Iraqi dual-use and conventional weapons procurement transactions, while Annex K lists suspected companies engaged in military-related trade with Iraq. Finally, Annex L provides a list of procurement acronyms found throughout this section.
 
 %%page 9#3%%
 
-The Regime Timeline Decline (1991-96)
+The Regime Timeline
 
 For an overview of Iraqi WMD programs and policy choices, readers should consult the Regime Timeline chart, enclosed as a separate foldout and in tabular form at the back of ISG report. Covering the period from 1980 to 2003, the timeline shows specific events bearing on the Regime's efforts in the BW, CW, delivery systems and nuclear realms and their chronological relationship with political and military developments that had direct bearing on the Regime's policy choices.
 
@@ -2842,21 +2749,15 @@ Ambition (1980-91)
 
 During the Ambition phase in Iraq, Saddam and his Regime practiced open, traditional procurement of conventional weapons and developed clandestine methods for obtaining WMD materials and dual-use items. Iraq's oil wealth allowed Saddam to overcome the inherent inefficiencies of a centrally planned economy. After the costly war with Iran, Saddam's procurement efforts focused primarily on restocking Iraq's war materials. These defense-related procurement goals, however, were hindered by economic weakness. In the later part of this period, the Iraqi economy began to falter, saddled with a high international debt from the war, rising costs of maintaining a generous welfare state, low international oil prices, and the high cost entailed in weapons and WMD programs. Saddam's ill-conceived, shortsighted economic reforms in 1987 and reactionary price controls, nationalization, and subsidies in 1989 pushed the Iraqi economy further into crisis. Capping the Ambition phase, Saddam chose to fight his way out of economic crises by invading Kuwait.
 
-In the post-Gulf war decline phase, the possession of WMD remained important to the Regime. Saddam's procurement of conventional weapons and WMD, however, was hindered severely by a potent combination of international monitoring and a collapsing
+Decline (1991-96)
 
-Regime Finance oil-based economy. These constraints were compounded by the decision not to make full WMD disclosures and the subsequent attempt to remove WMD signatures through unilateral destruction.
-
-and Procurement The poor handling of the WMD disclosures further hardened the international community. UN sanctions, resulting from Saddam's refusal to comply with UN resolutions, froze the Regime's export of oil and import of commodities—cutting off Saddam's ability to generate the revenue needed for illicit purchases on international arms and dual-use markets. The Iraqi economy also suffered under UN sanctions during this period as gross domestic product (GDP) per capita fell from $2304 in 1989 to an estimated $495 in 1995. The decline in the street-value of the Iraqi Dinar rendered the average Iraqi citizen's savings worthless, casting the Iraqi middle-class into poverty. Simultaneously, this period of decline exhibited an increase in corruption, incompetence, and patronage throughout Saddam's Regime. Husayn Kamil's flight to Jordan in 1995 and Saddam's handling of the issue led to further WMD disclosures and subsequent international opprobrium. Saddam retained a desire for WMD, but economic growth and the ending of sanctions became the over- riding concern as the economy hit rock bottom in late 1995. The combination of these factors motivated Saddam's decision to accept UNSCR 986, the UN OFF program in 1996.
+In the post-Gulf war decline phase, the possession of WMD remained important to the Regime. Saddam's procurement of conventional weapons and WMD, however, was hindered severely by a potent combination of international monitoring and a collapsing oil-based economy. These constraints were compounded by the decision not to make full WMD disclosures and the subsequent attempt to remove WMD signatures through unilateral destruction. The poor handling of the WMD disclosures further hardened the international community. UN sanctions, resulting from Saddam's refusal to comply with UN resolutions, froze the Regime's export of oil and import of commodities—cutting off Saddam's ability to generate the revenue needed for illicit purchases on international arms and dual-use markets. The Iraqi economy also suffered under UN sanctions during this period as gross domestic product (GDP) per capita fell from $2304 in 1989 to an estimated $495 in 1995. The decline in the street-value of the Iraqi Dinar rendered the average Iraqi citizen's savings worthless, casting the Iraqi middle-class into poverty. Simultaneously, this period of decline exhibited an increase in corruption, incompetence, and patronage throughout Saddam's Regime. Husayn Kamil's flight to Jordan in 1995 and Saddam's handling of the issue led to further WMD disclosures and subsequent international opprobrium. Saddam retained a desire for WMD, but economic growth and the ending of sanctions became the over- riding concern as the economy hit rock bottom in late 1995. The combination of these factors motivated Saddam's decision to accept UNSCR 986, the UN OFF program in 1996.
 
 Recovery (1996-98)
 
-The Recovery phase was ushered in by Saddam's acceptance of UNSC 986 and the UN OFF Program. Trade fostered under the OFF program starting in 1997 allowed Saddam to pursue numerous illicit revenue earning schemes, which began generating
-
-> significant amounts of cash outside of the auspices of the UN. With the legitimate side of the OFF program
+The Recovery phase was ushered in by Saddam's acceptance of UNSC 986 and the UN OFF Program. Trade fostered under the OFF program starting in 1997 allowed Saddam to pursue numerous illicit revenue earning schemes, which began generating significant amounts of cash outside of the auspices of the UN. With the legitimate side of the OFF program providing the Iraqi population with economic relief, Saddam was free to develop illicit procurement programs to arm his Regime against perceived and real threats. By the end of this period, Iraq had developed a growing underground network of trade intermediaries, front companies, and international suppliers willing to trade oil or hard currency for conventional weapons, WMD precursors, and dual-use technology. After 1996, the state of the Iraqi economy no longer threatened Saddam's hold on power in Iraq, and economic recovery underpinned a more confident Regime posture.
 
 %%page 10#3%%
-
-providing the Iraqi population with economic relief, Saddam was free to develop illicit procurement programs to arm his Regime against perceived and real threats. By the end of this period, Iraq had developed a growing underground network of trade intermediaries, front companies, and international suppliers willing to trade oil or hard currency for conventional weapons, WMD precursors, and dual-use technology. After 1996, the state of the Iraqi economy no longer threatened Saddam's hold on power in Iraq, and economic recovery underpinned a more confident Regime posture.
 
 Transition and Miscalculation (1999-2003)
 
@@ -2864,9 +2765,9 @@ The Transition and Miscalculation phases opened with Iraq's suspension of cooper
 
 %%page 11#3%%
 
-> Illicit Procurement were official bilateral cooperative agreements approved by officials of the countries involved (see
+approved by officials of the countries involved (see
 
-Directing and Budgeting Iraq's
+> Directing and Budgeting Iraq's Illicit Procurement
 
 Overview
 
@@ -2880,25 +2781,18 @@ President and presidential secretary's Role in Illicit Procurement
 
 The highest levels of the government, including the President and the presidential secretary, used trade Protocols and other cooperative agreements after 1991 as vehicles to circumvent UN sanctions and to facilitate the continued arming of Iraq. Iraq negotiated bilateral trade agreements called "Protocols" with Syria, Jordan, Turkey, and Egypt and less formal cooperative trade agreements with several East
 
-European countries such as Belarus, Poland, Ukraine,
+European countries such as Belarus, Poland, Ukraine, and Russia.
 
-• The Syria, Jordan, Turkey, and Egypt Protocols
+• The Syria, Jordan, Turkey, and Egypt Protocols were official bilateral cooperative agreements
 
 Annex A: Translations of Iraq's Bilateral Trade Protocols).
 
-- According to press reporting, Tariq 'Aziz 'Issa trav-
-
-Regime Finance eled to Moscow on 25-26 January 2002. Recovered documents also indicate that 'Aziz delivered a letter to Moscow in person, and he met with senior Russian leaders.
-
-and Procurement
-
+- According to press reporting, Tariq 'Aziz 'Issa traveled to Moscow on 25-26 January 2002. Recovered documents also indicate that 'Aziz delivered a letter to Moscow in person, and he met with senior Russian leaders.
 - Belarusian President Lukashenko and Saddam developed a special relationship in which Lukashenko agreed to support Saddam because of the Iraqi President's support of the 2001 Belarusian Presidential elections.
 
 Saddam approved and directed the illicit procurement relationships that Iraq had with other countries in order to improve Iraq's military capabilities against regional threats. The presidential secretary, 'Abd Hamid Mahmud, was a member of the committee that was formed to task the IIS via IIS Director Tahir Jalil Habbush to procure technology for the MIC. In accordance with Saddam's instructions to the Minister of Military Industrialization to improve Iraq's missile capabilities, the MIC-IIS joint effort was to emphasize the support to Iraq's missile programs. The oil vouchers that the Regime would give to those who supported his Regime goals further emphasized Saddam's influence over these trade agreements. The presidential secretary along with Vice President Taha Yasin Ramadan facilitated the issuance of these vouchers and approved other trade arrangements by handling the paperwork involved and giving approval on behalf of Saddam for allocation of the oil shares.
 
-Reportedly, Russian, Ukrainian, and Belarusian individuals, who in Baghdad's view, had contributed in some special way to Iraq's security, received oil vouchers at the request of Saddam (for the full list, see Annex B: Known Oil Voucher Recipients). Some and Russia.
-
-> of these persons have also been identified in Iraqi military procurement efforts (see Table 1).
+Reportedly, Russian, Ukrainian, and Belarusian individuals, who in Baghdad's view, had contributed in some special way to Iraq's security, received oil vouchers at the request of Saddam (for the full list, see Annex B: Known Oil Voucher Recipients). Some of these persons have also been identified in Iraqi military procurement efforts (see Table 1).
 
 %%page 12#3%%
 
@@ -2922,9 +2816,7 @@ security organizations submitted written requests for additional funds either to
 
 %%page 13#2%%
 
-Figure 1. Organization of the presidential Diwan,
-
-March 1991.
+Figure 1. Organization of the presidential Diwan, March 1991.
 
 - Organizations seeking budget supplements could also schedule a personal appointment with Saddam.
 
@@ -2935,11 +2827,11 @@ The Chairman of the Diwan, Ahmad Husayn Khudayr al-Samarra'i, maintains that he 
 Minister of Finance stated that documents containing details of the request, such as project information or justification, were kept at the Chairman of the Diwan's office, or with the presidential secretary, depending on where the request had been submitted. In addition, captured documents suggest the Chairman of the Diwan had at least some knowledge of military and security matters.
 
 - In April 1996, al-Samarra'i provided a cover note for paperwork covering Protocols with a Georgian entity for a military aircraft industrialization complex.
-- In April 2002, al-Samarra'i provided a cover note for paperwork concerning problems with a contract between the MIC and the Moldavian company Bal- combe for an assault rifle (7.62 x 39mm) ordinance production line.
+- In April 2002, al-Samarra'i provided a cover note for paperwork concerning problems with a contract between the MIC and the Moldavian company Bal- combe for an assault rifle (7.62 x 39mm) ordinance production line. large government forum and was processed directly
 
 %%page 14#2%%
 
-Budgeting Iraqi Procurement • Income and property taxes. large government forum and was processed directly
+Budgeting Iraqi Procurement
 
 Off-budget and secret budget planning bypassed between the Ministry of Finance (MoF) and the Presidency, between the requesting organization and the Presidency, or between the requesting organization and Saddam. The former Regime relied heavily on liquidating assets (forcing the Central Bank of Iraq to print more money) to meet its yearly budget shortfalls.
 
@@ -2951,10 +2843,11 @@ General Government Budget The general government budget, made up of current and 
 
 Because of the economic constraints following the war with Iran (see Economics Section), it became difficult for the Regime to draft and adhere to an accurate budget. Figures estimated in January diverged considerably by the end of the fiscal year. Also, because of Saddam's patronage policies, the Presidential accounts were reportedly routinely overdrawn by 15 percent, and about 50 percent of the infrastructure expenditure was spent by Saddam.
 
-On-budget revenue—revenue included in the general government budget—came from sources such as:
+Sources of Government Revenue On-budget revenue—revenue included in the general government budget—came from sources such as:
 
-• Customs duties and tariffs.
+• Income and property taxes.
 
+- Customs duties and tariffs.
 - A percentage of the profits from government-owned institutions and businesses such as banks and insurance companies.
 - The revenues of leased state properties.
 - The municipalities.
@@ -2972,19 +2865,15 @@ Supplemental Budget Submission Procedure There were two methods for ministries a
 
 - The other was to go directly to the Presidential Diwan or the Presidential Secretariat.
 
-Sources of Government Revenue
-
 %%page 15#2%%
 
-Iraq's National Budget 1991-2002
+Iraq's National Budget 1991-2002 1997, there was a 66.8-percent increase in revenues
 
-As illustrated in Figure 2, from 1991 to 1995, Iraqi revenues decreased by an average of 34.3 percent. From 1996 to 2001 revenues increased by an average of 42.3 percent. The reason for the 143.7-percent increase in revenues in 1996 is unclear because significant oil revenues from the UN Oil-for-Food Program (OFF) would not have been realized until early 1997. Some of this increase, however, is probably a result of revenues rising from such a low base. In over 1996—a large increase that would be consistent with an increase in revenues from OFF. Expenditures also decreased from 1991 to 1995, but by an average of 28.2 percent. From 1995 to 2001, expenditures increased by an average of 16.8 percent—highlighted
+As illustrated in Figure 2, from 1991 to 1995, Iraqi revenues decreased by an average of 34.3 percent. From 1996 to 2001 revenues increased by an average of 42.3 percent. The reason for the 143.7-percent increase in revenues in 1996 is unclear because significant oil revenues from the UN Oil-for-Food Program (OFF) would not have been realized until early 1997. Some of this increase, however, is probably a result of revenues rising from such a low base. In
 
-Regime Finance by a 49.5-percent increase in 2001. At the same time, over the 10 years since 1991, the government budget deficit decreased from $1.6 billion to $410 million (see Annex C: Iraq's Budgetary Process).
+over 1996—a large increase that would be consistent with an increase in revenues from OFF. Expenditures also decreased from 1991 to 1995, but by an average of 28.2 percent. From 1995 to 2001, expenditures increased by an average of 16.8 percent—highlighted by a 49.5-percent increase in 2001. At the same time, over the 10 years since 1991, the government budget deficit decreased from $1.6 billion to $410 million (see Annex C: Iraq's Budgetary Process).
 
-and Procurement
-
-1997, there was a 66.8-percent increase in revenues Figure 2. The Iraqi state general government budget, and the Director of the CBI have also described
+Figure 2. The Iraqi state general government budget, and the Director of the CBI have also described
 
 %%page 16#2%%
 
@@ -3001,7 +2890,7 @@ Chairman of the Presidential Diwan or the Secretary of the Council of Ministers 
 
 The second method was reserved for the military and security service entities such as the IIS, the MoD, MIC, and other security organizations that submitted requests for additional funds to the President. The information on this procedure is often contradictory (see Figure 4).
 
-- According to the MoF, the Iraqi security organizations submitted written requests for additional funds to the President, through either the Chairman of the Presidential Diwan or the head of the Presidential Secretariat. The latter, who was also the secretary of the NSC, probably handled all requests from any security organization, and may have been preferred by some organizational heads as he was considered
+- According to the MoF, the Iraqi security organizations submitted written requests for additional funds to the President, through either the Chairman of the Presidential Diwan or the head of the Presidential Secretariat. The latter, who was also the secretary of the NSC, probably handled all requests from any security organization, and may have been preferred by some organizational heads as he was considered to be closer to the President.
 
 - The head of the MIC, the Minister of Defense, approaching the Diwan for supplementary funds. The Chairman of the Diwan and presidential secretary were sometimes unaware of requests made to one another. Saddam reportedly did this to limit the number of people who had access to expenditure data. Requests sent to the Presidential Diwan were sometimes sent to the Diwan's Economic Department for study. The Chairman of the Presidential Diwan sometimes directed the head of the Economic Department to discuss the request with the concerned minister. Both Khalil Yasin Al Ma'muri, the Secretary of the CoM, and Muhammad Mahdi Salih, the Trade Minister, were former heads of the Economic Department.
 
@@ -3014,7 +2903,7 @@ Approval and Authorization of Supplemental Funding While Saddam was the primary 
 
 Approvals for all other ministries would be issued in writing to the concerned ministry and the MoF (It is unclear whether this includes the IIS, MoD, MIC, and Iraqi security organizations).
 
-- Disbursal orders sent to the MoF contained the date, signature of approving authority, amount, but no information about the request. Documents containing details of the request, such as project infor- to be closer to the President.
+- Disbursal orders sent to the MoF contained the date, signature of approving authority, amount, but no information about the request. Documents containing details of the request, such as project infor-
 
 %%page 17#2%%
 
@@ -3071,13 +2960,11 @@ Regime stability.
 
 - The UN OFF oil voucher program provided
 
-Saddam with a useful method of rewarding countries, organizations and individuals willing to
+Saddam with a useful method of rewarding countries, organizations and individuals willing to co-operate with Iraq to subvert UN sanctions.
 
 Iraqi Economy's Role in Illicit Procurement
 
-Union's centrally planned economic model. Saddam sought to centrally plan all facets of the state economy and utilized "Five Year Plans" to optimize the use of national resources. Viewing the Iraqi
-
-Regime Finance economy from Saddam's perspective, ISG assesses it underwent distinct phases from 1980 through to OIF: "ambition," "decline," "recovery," "transition," and "miscalculation." Readers may find it useful to and Procurement refer to the Timeline summary chart at the end of the chapter.
+Union's centrally planned economic model. Saddam sought to centrally plan all facets of the state economy and utilized "Five Year Plans" to optimize the use of national resources. Viewing the Iraqi economy from Saddam's perspective, ISG assesses it underwent distinct phases from 1980 through to OIF: "ambition," "decline," "recovery," "transition," and "miscalculation." Readers may find it useful to refer to the Timeline summary chart at the end of the chapter.
 
 Economic Ambition (1980-91)
 
@@ -3093,9 +2980,9 @@ Economic Data (1989-2003)].
 
 The economic burdens resulting from the Iran-
 
-Iraq war led Saddam to abandon Ba'th-socialist economic policies that dominated in the 1960s and co-operate with Iraq to subvert UN sanctions.
+Iraq war led Saddam to abandon Ba'th-socialist economic policies that dominated in the 1960s and
 
-> 1970s. In 1987, Saddam attempted to turn the Iraqi economy around with abrupt economic reforms,
+1970s. In 1987, Saddam attempted to turn the Iraqi economy around with abrupt economic reforms,
 
 %%page 20#2%%
 
@@ -3112,7 +2999,7 @@ including abolishing universal employment labor laws
 - As a result, thousands of government workers were jobless.
 - Bus companies, gas stations, department stores, agricultural businesses, and factories were left outside the responsibility of the government.
 
-Rather than shocking the Iraqi economy into performing, these measures, by 1989, deepened the economic crisis and accelerated the collapse of living standards for most Iraqis. Sensing a threat to the viability of the Regime, Saddam again imposed price controls, renationalized some former state enterprises, and raised industrial and agricultural subsidies. The Iraqi economy was pushed to crisis by Saddam's inability to address or resolve a number of economic realities: • The rising cost of maintaining the Iraqi welfare state, which was among the more generous and comprehensive systems in the Arab world.
+Rather than shocking the Iraqi economy into perform- ing, these measures, by 1989, deepened the economic crisis and accelerated the collapse of living standards for most Iraqis. Sensing a threat to the viability of the Regime, Saddam again imposed price controls, renationalized some former state enterprises, and raised industrial and agricultural subsidies. The Iraqi economy was pushed to crisis by Saddam's inability to address or resolve a number of economic realities: • The rising cost of maintaining the Iraqi welfare state, which was among the more generous and comprehensive systems in the Arab world.
 
 - Low oil prices on the international markets, which Saddam associated with Kuwait and its conducting "economic warfare" against Iraq.
 - The lingering debt from the war with Iran.
@@ -3120,13 +3007,11 @@ Rather than shocking the Iraqi economy into performing, these measures, by 1989,
 
 Saddam chose to fight his way out of economic crisis by invading Kuwait.
 
-Economic Decline (1991-96) Rather than rescuing the Iraqi economy, the invasion of Kuwait resulted in even greater fiscal strains as Saddam found himself in a second costly war, this time facing a US-led Coalition. After Saddam's defeat in Kuwait, the UN trade sanctions placed on Iraq following the invasion remained in place. These sanctions, supported by over 150 nations, cut Iraq's ability to export oil, its main revenue generator. After Desert Storm, Saddam also had to contend with compensation claims made for reparations of damage inflicted during the invasion and occupation
+Economic Decline (1991-96) Rather than rescuing the Iraqi economy, the invasion of Kuwait resulted in even greater fiscal strains as Saddam found himself in a second costly war, this time facing a US-led Coalition. After Saddam's defeat in Kuwait, the UN trade sanctions placed on Iraq following the invasion remained in place. These sanctions, supported by over 150 nations, cut Iraq's ability to export oil, its main revenue generator. After Desert Storm, Saddam also had to contend with compensation claims made for reparations of damage inflicted during the invasion and occupation of Kuwait.
 
 Collecting Compensation for the First Gulf War
 
-The United Nations Compensation Commission (UNCC) was responsible for processing and collecting such claims as authorized by UNSCR 692. With the insistence of Moscow, the UN readdressed the revenue
-
-Regime Finance allocation of Iraqi oil revenue. In June 2000 it voted for the UNSC-adopted UNSCR 1330 that changed the percentage of oil allocated to the UNCC from 30 percent (UNSCR 705) to 25 percent. The UNCC and Procurement estimated that the reduction to 25 percent would generate an extra $275 million in Phase XII of the OFF program for the Iraqi Regime. As of 7 May 2004, claims totaling $266 billion have been adjudicated, and claims worth $48 billion have been awarded by the UNCC. Additional claims worth $83 billion need to be resolved.
+The United Nations Compensation Commission (UNCC) was responsible for processing and collecting such claims as authorized by UNSCR 692. With the insistence of Moscow, the UN readdressed the revenue allocation of Iraqi oil revenue. In June 2000 it voted for the UNSC-adopted UNSCR 1330 that changed the percentage of oil allocated to the UNCC from 30 percent (UNSCR 705) to 25 percent. The UNCC estimated that the reduction to 25 percent would generate an extra $275 million in Phase XII of the OFF program for the Iraqi Regime. As of 7 May 2004, claims totaling $266 billion have been adjudicated, and claims worth $48 billion have been awarded by the UNCC. Additional claims worth $83 billion need to be resolved.
 
 As Saddam stubbornly refused to comply with UN Resolutions in the early 1990s, the Iraqi economy crashed to a low point in 1995. • From 1989 to 1995, Iraq's GDP per capita fell from $2304 to $495. Some estimates reveal that the Iraqi per capita GDP never rose above $507 from 1991 to 1996.
 
@@ -3134,7 +3019,7 @@ As Saddam stubbornly refused to comply with UN Resolutions in the early 1990s, t
 - Simultaneously, the street dinar exchange rate rose from 10 ID per $1 in 1991 to 1674 ID per $1 in 1995.
 - During this same period, income inequality became a larger problem because the limited wealth was concentrated in the hands of Regime loyalists and elite traders, while the average Iraqi subsisted on much less income. Equally significant, by 1995 the plummeting dinar consumed the savings of the average Iraqi, causing the Iraqi middle class to virtually cease to exist.
 
-This period of economic decline also resulted in a dramatic increase in corruption, incompetence, and patronage in all facets of government. A good of Kuwait. example of the Regime's incompetence in economic matters was illustrated when the government set up a Directorate in 1992 to combat economic crimes under Ibrahim Al Battawi, who reported directly to Watban Ibrahim Hasan Al Tikriti, the Interior Minister and Saddam's brother. The task of the Directorate was to punish merchants and traders guilty of "profiteering." In July 1992, the Regime summarily executed 42 merchants in front of their shops in Baghdad's market district. Saddam felt that the duty of the private sector was to provide goods and services to the Iraqi people while constraining price increases. These merchants were found to be shirking their "duty."
+This period of economic decline also resulted in a dramatic increase in corruption, incompetence, and patronage in all facets of government. A good example of the Regime's incompetence in economic matters was illustrated when the government set up a Directorate in 1992 to combat economic crimes under Ibrahim Al Battawi, who reported directly to Watban Ibrahim Hasan Al Tikriti, the Interior Minister and Saddam's brother. The task of the Directorate was to punish merchants and traders guilty of "profiteering." In July 1992, the Regime summarily executed 42 merchants in front of their shops in Baghdad's market district. Saddam felt that the duty of the private sector was to provide goods and services to the Iraqi people while constraining price increases. These merchants were found to be shirking their "duty."
 
 %%page 22#2%%
 
@@ -3148,7 +3033,7 @@ UN-approved oil exports from Iraq began in December 1996. The trade fostered und
 - According to the UN International Children's Emergency Fund (UNICEF), Iraq's chronic malnu- trition rate dropped from 32 percent in 1996 to just over 20 percent in 1999.
 - Iraqi oil production jumped from under 1 million barrels per day (bbl/d) in 1997 to 2.5 million bbl/d in mid-2000.
 
-Economic Transition and Miscalculation (1999- 2003) After 2000, Iraq's economic growth slowed for a
+Economic Transition and Miscalculation (1999- 2003) After 2000, Iraq's economic growth slowed for a number of reasons, most involving the production and sale of oil. As the Iraqi economy improved,
 
 Saddam began to restrict oil production to influence the price of oil in the world market and to leverage political influence. Additionally, Iraq's oil sector could not meet demand because of years of poor reservoir management, corrosion problems at various oil facilities, deterioration of water injection facilities, lack of spare parts, and damage to oil storage and pumping facilities. These petroleum infrastructure problems limited Saddam's ability to export oil and hampered the Regime's ability to sustain the economic growth shown in 1997 to 2000.
 
@@ -3164,13 +3049,9 @@ Iraq's Revenue Sources
 
 During UN sanctions on Iraq, from August 1990 until OIF in March 2003, Saddam's Regime earned an estimated $11.3 billion utilizing four primary illicit sources of hard currency income. The UN OFF program became Saddam's sole legitimate means to generate revenue outside of Iraq (see Figures 7, 8, and 9):
 
-number of reasons, most involving the production and sale of oil. As the Iraqi economy improved,
-
 %%page 23#2%%
 
 > Behind the scenes, the Iraqi government illegallly generated billions of dollars in revenue through illegal surcharges it placed on UN approval oil sales, kickbacks it secretly received on top of UN approval contracts for purchase of commercial goods, and from illegal/secret cash border sales and smuggling of oil.
-
-Regime Finance and Procurement
 
 Figure 7. Saddam's legitimate and illicit oil revenue process.
 
@@ -3220,22 +3101,19 @@ ISG does not have complete Iraqi data for Iraq's effective earnings from the Jor
 
 Jordan deposited its credit payments for Iraqi oil, into an account at the CBJ on behalf of the CBI. Funds were then disbursed to suppliers by the CBJ by order of the CBI.
 
-- In March 2003, prior to OIF, Iraq had an estimated $444 million dollars in its trade account in Jordan. With total deposits to the trade account during the sanctions Regime estimated at about $4.4 billion and $444 million remaining at the end of the war, Iraq would have spent almost $4 billion on Jorda-
+- In March 2003, prior to OIF, Iraq had an estimated $444 million dollars in its trade account in Jordan. With total deposits to the trade account during the sanctions Regime estimated at about $4.4 billion and $444 million remaining at the end of the war, Iraq would have spent almost $4 billion on Jordanian origin goods and reexports under the Protocol agreement.
 
 The Jordan Protocol is generally referred to (by Jordanian and Iraqi officials) as a 100 percent credit account, with no cash being provided to Iraq. SOMO information and a senior MoT official, however, indicated a small portion of the trade was 60 percent credit and 40 percent cash.
 
-Regime Finance • SOMO documents list oil sales to the Jordanian Ministry of Energy and Minerals on a 60-percent credit, 40-percent cash basis. Contracts of this type are listed only for 2002 and are valued at only $6.2 and Procurement million.
-
+- SOMO documents list oil sales to the Jordanian Ministry of Energy and Minerals on a 60-percent credit, 40-percent cash basis. Contracts of this type are listed only for 2002 and are valued at only $6.2 million.
 - A high-level Iraqi MoT official stated that Jordan's payments to Iraq for the cash portion of the trade Protocol was negotiated between the CBI and Jordan and provided specific written instructions about how to transfer the funds to Iraq. ISG has no further information on this aspect of the Jordan-Iraq trade Protocol.
 - A MoO official stated his ministry had two accounts in Jordan funded by the Protocol. This could refer, in part, to the 40-percent cash portion of the trade, although the accounts held almost $80 million while this trade only earned $6.2 million.
 - According to SOMO's database, the 60-percent earnings were deposited in the Jordan National Bank. The 40-percent cash earnings were deposited in the Ahli Bank, where much of Iraq's cash earnings from other Protocols were deposited. These, along with cash earnings from other sources, could account for the funds in the Ministry's accounts.
 - It is possible, maybe even likely, that Iraqi oil sales under the 60/40 arrangement, sales to the Jordanian military, and purchases that resulted in $1 billion in debt owed to Jordan are not technically part of the trade Protocol. Nevertheless, given the government to government nature of these transactions, they were accounted for here instead of as private-sector exports.
 
-Syria Trade Protocol. Iraq's trade Protocol with Syria was Iraq's primary illicit income source from 2000 until OIF in March 2003. With Syria facing increased political pressure from the US, opening relations with Iraq seemed attractive for both political and financial reasons. Negotiations began, and the Protocol was signed before former President Hafiz nian origin goods and reexports under the Protocol agreement.
+Syria Trade Protocol. Iraq's trade Protocol with Syria was Iraq's primary illicit income source from 2000 until OIF in March 2003. With Syria facing increased political pressure from the US, opening relations with Iraq seemed attractive for both political and financial reasons. Negotiations began, and the Protocol was signed before former President Hafiz al-Asad died on 10 June 2000. The relationship probably accelerated when al-Asad's son, Bashar al-Asad, became President on 17 July 2000. For Baghdad, the relationship was attractive because Syria could buy significantly more oil at better financial terms than Iraq's other available illicit markets and Damascus was more willing than any other neighboring state to allow military goods to be shipped to Iraq through its territory.
 
 %%page 26#2%%
-
-al-Asad died on 10 June 2000. The relationship probably accelerated when al-Asad's son, Bashar al-Asad, became President on 17 July 2000. For Baghdad, the relationship was attractive because Syria could buy significantly more oil at better financial terms than Iraq's other available illicit markets and Damascus was more willing than any other neighboring state to allow military goods to be shipped to Iraq through its territory.
 
 - SOMO and the Syrian Oil Marketing Office negotiated the bilateral trade Protocol in Baghdad from 27 to 29 May 2000. Contracts were written under the Protocol from June 2000 through March 2003 (see Annex A: Translations of Iraq's Bilateral Trade Protocols).
 - Under the agreement, Iraq exported crude, gas oil, fuel oil, gasoline, base oil, LPG and asphalt to Syria by pipeline and/or tanker truck.
@@ -3244,7 +3122,7 @@ Iraq's total earnings over the life of the Protocol were about $2.8 billion (see
 
 - Iraq charged Syria roughly $6 less than the authorized price for crude under the UN OFF program. Gas oil was sold for $75 per metric ton and fuel oil was sold for $20 per metric ton, both significantly discounted from world prices. These shipments allowed Syria to export its own crude oil at market prices instead of having to use it for domestic consumption.
 - Under the Syrian Protocol, 60 percent of Iraq's earnings were deposited in a SOMO account in the Commercial Bank of Syria for use in buying Syrian goods or foreign-made items purchased through Syria.
-- Iraqi sources' statements concerning the disposition of the remaining 40 percent cash payment are not clear. The best information, however, seems to indicate the cash was first deposited in a Commercial Bank of Syria cash account. Once this account reached $1 million, the funds were transferred to an account at the Syrian Lebanese Commercial Bank in Beirut, Lebanon. One source states this account
+- Iraqi sources' statements concerning the disposition of the remaining 40 percent cash payment are not clear. The best information, however, seems to indicate the cash was first deposited in a Commercial Bank of Syria cash account. Once this account reached $1 million, the funds were transferred to an account at the Syrian Lebanese Commercial Bank in Beirut, Lebanon. One source states this account was in Lebanon, another in Damascus. SOMO eventually transferred the money to CBI accounts in Baghdad, possibly by courier.
 
 - According to SOMO records, $1.18 billion in contracts were written drawing on the SOMO (presumably credit) account with Syria. If 60 percent ($1.68 billion) of Iraq's total earnings of $2.8 billion were deposited in that account during the existence of the Protocol, there would be $500 million remaining in unspent funds at the end of the war. All of these contracts probably had not been completed before OIF. This, and the possibility of other small accounts, probably explains the $842 million in total Iraqi funds remaining in Syria at the outbreak of OIF.
 
@@ -3256,15 +3134,9 @@ Turkey Trade Protocol. Trade under the Turkey-Iraq Protocol was a significant so
 
 Iraq's total earnings over the life of the Protocol were $710 million (see Figure 12).
 
-was in Lebanon, another in Damascus. SOMO eventually transferred the money to CBI accounts in
-
-Baghdad, possibly by courier.
-
 %%page 27#2%%
 
-Figure 10. Iraq's estimated earnings from the Jordan Protocol (million US $).
-
-Figure 11. Iraq's estimated earnings from the Syria
+Figure 10. Iraq's estimated earnings from the Jordan Protocol (million US $). Figure 11. Iraq's estimated earnings from the Syria
 
 Protocol (million US $).
 
@@ -3273,17 +3145,11 @@ Figure 12. Iraq's estimated earnings from the Turkey Protocol (million US $).
 - Iraq charged Turkey roughly $6 less than the authorized price for crude under the UN OFF program. The low price served as an incentive for Turkey to participate in the scheme.
 - Under the Turkish agreement, 70 percent ($497 million) of Iraq's earnings were to be deposited into an account at the Turkey Halk Bankasi A.S. The account was under the name of TPIC, but the control of SOMO. This account was to be used by SOMO to pay Turkish companies for goods and services delivered and rendered to Iraqi organizations.
 - According to a senior SOMO official, some of these funds were transferred to interest bearing accounts. As of January 2004, SOMO held $157 million in these accounts and had earned almost $7.7 million in interest since October 2000.
-- Iraqi statements about the amount of cash deposited are inconsistent, but the best information indicates the remaining 30 percent in cash ($213 million) was deposited in a SOMO account at the Saradar Bank in Lebanon. Some of these funds may eventually have been transferred to a CBI account at the Syrian
-
-and Procurement
+- Iraqi statements about the amount of cash deposited are inconsistent, but the best information indicates the remaining 30 percent in cash ($213 million) was deposited in a SOMO account at the Saradar Bank in Lebanon. Some of these funds may eventually have been transferred to a CBI account at the Syrian Lebanese Commercial Bank. SOMO eventually transferred the money to CBI accounts in Baghdad, possibly by courier.
 
 - Iraqi statements about cash deposits are again inconsistent, but a SOMO foreign account balance sheet showed the TPIC (70 percent) account containing over $195 million just prior to OIF. Another report states Turkish entities owe Iraq $265 million but also mentions an account balance in January 2004 of $234 million. At least in the case of the $234 million, the accounting included both the Protocol credit account ($52 million) and some savings accounts ($182 million). If 70 percent ($497 million) of Iraq's total earnings of $710 million were deposited in this account, and $195 million (assuming the lower figure) was remaining at the end of the war, Iraq would have spent about $302 million on Turkish goods and reexports under the Protocol agreement. The value of contracts signed using SOMO accounts amounted to $303.5 million according to SOMO records. Some of these contracts almost certainly were not completed prior to OIF.
 
-Egypt Trade Protocol. Iraq and Egypt participated in a relatively short-lived Protocol from late 2001 to early 2002. ISG does not have access to documents outlining this agreement, but, according to a senior Iraqi official, the deal involved the MIC-related com-
-
-Lebanese Commercial Bank. SOMO eventually pany, Al-Husan.
-
-transferred the money to CBI accounts in Baghdad, possibly by courier.
+Egypt Trade Protocol. Iraq and Egypt participated in a relatively short-lived Protocol from late 2001 to early 2002. ISG does not have access to documents outlining this agreement, but, according to a senior Iraqi official, the deal involved the MIC-related company, Al-Husan.
 
 %%page 28#2%%
 
@@ -3315,15 +3181,11 @@ Disposition of UN OFF Funds As of 19 November 2003, Iraq's oil exports under the
 
 Oil Vouchers and Allocations Throughout the UN OFF Program, Iraq used a clandestine oil allocation voucher program that involved the granting of oil certificates to certain individuals or organizations to compensate them for their services or efforts in undermining the resolve of the international community to enforce UNSC resolutions. Saddam also used the voucher program as a means of influencing people and organizations that might help the Regime. By the end of the final phase (13) of the UN OFF Program, Iraq had allocated 4.4 billion barrels of oil to approved recipients. However, only 3.4 billion barrels were actually lifted (loaded and exported)—the same figure reported by the UN.
 
-- The oil allocation program was implemented
-
-> through an opaque voucher program overseen and approved by Saddam and managed at the most senior levels of the Iraqi Regime.
+- The oil allocation program was implemented through an opaque voucher program overseen and approved by Saddam and managed at the most senior levels of the Iraqi Regime.
 
 %%page 29#2%%
 
-Figure 13. Oil earnings for each calendar year
-
-(13 phases of the UN OFF Program), 1997-2003.
+Figure 13. Oil earnings for each calendar year (13 phases of the UN OFF Program), 1997-2003.
 
 - Starting in Phase 3 of the UN OFF program, until OIF, the Iraqi Regime began to politicize the allocations process by giving quantities of oil to individuals and political parties it favored.
 - According to Tariq 'Aziz, Taha Yasin Ramadan, and Hikmat Mizban Ibrahim Al 'Azzawi, the oil voucher program was managed on an ad hoc basis by the Regime officials listed in Figure 14.
@@ -3333,9 +3195,7 @@ Oil Voucher Process The MoO normally distributed the secret oil allocations in s
 
 Annex B: Known Oil Voucher Recipients). However, Saddam personally approved and removed all names on the voucher recipient lists.
 
-This voucher program was documented in detail in a complete listing maintained by Vice President Ramadan and the Minister for Oil, 'Amir Rashid. If a change was requested by telephone by Saddam or any other top official, either the MoO or SOMO rendered a detailed memo for the record of the conversation. A senior Iraqi official, ambassador, the IIS, or Saddam himself would recommend a specific recipient (i.e. company, individual, or organization) and the recommended amount of the allocation. That recommendation was then considered by the ad hoc committee and balanced against the total amount of oil available for export under the UN program disbursement. When former Vice President Ramadan finalized the recipient list, it was sent to'Amir Rashid. The official at SOMO in charge of issuing the final allocation vouchers (making the disbursements) stated that Tariq 'Aziz would give the final list to him. He believed that it was 'Aziz that finalized the list upon the direction of
-
-Saddam.
+This voucher program was documented in detail in a complete listing maintained by Vice President Ramadan and the Minister for Oil, 'Amir Rashid. If a change was requested by telephone by Saddam or any other top official, either the MoO or SOMO rendered a detailed memo for the record of the conversation. A senior Iraqi official, ambassador, the IIS, or Saddam himself would recommend a specific recipient (i.e. company, individual, or organization) and the recommended amount of the allocation. That recommendation was then considered by the ad hoc committee and balanced against the total amount of oil available for export under the UN program disbursement. When former Vice President Ramadan finalized the recipient list, it was sent to'Amir Rashid. The official at SOMO in charge of issuing the final allocation vouchers (making the disbursements) stated that Tariq 'Aziz would give the final list to him. He believed that it was 'Aziz that finalized the list upon the direction of Saddam.
 
 %%page 30#2%%
 
@@ -3375,13 +3235,13 @@ Former Director of the Military Industrialization Commission (MIC).
 
 > nts In general, secret oil allocations were awarded to: • Traditional oil companies that owned refineries.
 
-> - Different personalities and parties, which were labeled "special allocations" or "gifts." This group included Benon Sevan, the former UN Chief of the
-
-> Office of Iraq Program (OIP), numerous individuals including Russian, Yugoslav, Ukrainian, and French citizens.
+> - Different personalities and parties, which were labeled "special allocations" or "gifts." This group included Benon Sevan, the former UN Chief of the Office of Iraq Program (OIP), numerous individuals including Russian, Yugoslav, Ukrainian, and French citizens.
 
 %%page 31#2%%
 
-Figure 15. Large differences in the later phases between the amount allocated under the voucher system and the amount actually lifted was due to disruptions in Iraq's oil exports.
+Figure 15. Large differences in the later phases between the amount allocated under the voucher system and the amount actually lifted was due to disruptions in
+
+Iraq's oil exports.
 
 Figure 16. The nationality of secret oil voucher recipients by volume of oil allocated.
 
@@ -3433,21 +3293,13 @@ Figure 17. Selected secret oil voucher recipients.
 
 %%page 33#2%%
 
-Leaders former Iraqi Oil Minister, implicates Muwafiq Ayyub
-
-Iraqi Oil Vouchers Provided to International
-
-The following select individuals (see Figure 17) include world leaders, senior politicians and corporate officials, were approved by the ad hoc committee as recipients of oil vouchers under this program (see Annex B: Known Oil Voucher Recipients for a more complete listing).
+Iraqi Oil Vouchers Provided to International Leaders The following select individuals (see Figure 17) include world leaders, senior politicians and corporate officials, were approved by the ad hoc committee as recipients of oil vouchers under this program (see Annex B: Known Oil Voucher Recipients for a more complete listing).
 
 The voucher list provided by SOMO includes Russian members of government, politicians, and businessmen. The former Iraqi Vice President Ramadan stated that he believed the Russian Government was sympathetic to the plight of Iraq and strongly against the sanctions imposed upon it and that most of the parties of the Russian Parliament (Duma) supported Iraq's position. He stated that many Russian companies were dealing with the Iraqi ministries in charge of exports, and that this was no secret because many of the Russian Ministers visited Iraq regularly to aid this activity.
 
 American and British Oil Voucher Recipients According to a former high-ranking Iraqi official with direct access to the information, there are two Americans and one UK citizen listed as recipients on the list of Iraq's illicit oil allocation program (although at least three names are annotated "American" on the Iraqi lists). Deputy Prime Minster Tariq 'Aziz was the principal point of contact for handling all high profile foreign recipients, all American recipients and most other non-Arab voucher recipients, called "internationals", who lived in countries outside of the Arab world.
 
-Benon Sevan's Use of Iraqi Oil Vouchers At the center of the day-to-day operations of the UN's $64 billion OFF program, Sevan who spent his entire career at the UN, received oil allocations through various companies that he recommended to the Iraqi government . This arrangement reportedly began soon after the OFF program started in December 1996. An investigation by the Iraqi Governing Council has uncovered a letter linking Sevan to a Panamanian-registered company called African Middle East Petroleum Company. The letter, dated 10 August 1998, from Saddam Zayn Hasan, the executive manager of SOMO, and addressed to 'Amir Rashid, the in playing a role in setting up the deal. The letter says: "Muwafiq Ayyub of the Iraqi mission in New York informed us by telephone that the above-mentioned company has been recommended by his Excellency Mr. Sevan, director of the Iraqi program at the UN,
-
-Regime Finance during his recent trip to Baghdad." A second page detailed the "Quantity of Oil Allocated and given to Mr. Benon Sevan," listing a total of 7.3 million barrels of oil as the "quantity executed."
-
-and Procurement
+Benon Sevan's Use of Iraqi Oil Vouchers At the center of the day-to-day operations of the UN's $64 billion OFF program, Sevan who spent his entire career at the UN, received oil allocations through various companies that he recommended to the Iraqi government . This arrangement reportedly began soon after the OFF program started in December 1996. An investigation by the Iraqi Governing Council has uncovered a letter linking Sevan to a Panamanian-registered company called African Middle East Petroleum Company. The letter, dated 10 August 1998, from Saddam Zayn Hasan, the executive manager of SOMO, and addressed to 'Amir Rashid, the former Iraqi Oil Minister, implicates Muwafiq Ayyub in playing a role in setting up the deal. The letter says: "Muwafiq Ayyub of the Iraqi mission in New York informed us by telephone that the above-mentioned company has been recommended by his Excellency Mr. Sevan, director of the Iraqi program at the UN, during his recent trip to Baghdad." A second page detailed the "Quantity of Oil Allocated and given to Mr. Benon Sevan," listing a total of 7.3 million barrels of oil as the "quantity executed."
 
 A source at SOMO confirmed that Sevan received allocations by way of a Cypriot company or the Panamanian registered, the African Middle East Petroleum Company. According to the source, when the Chairman of the Iraqi UN OFF Committee, Ramadan, saw any company with Sevan's name in parenthesis next to it (they were numerous, according to the source) on the proposed voucher recipient list, Ramadan automatically gave approval to issue the vouchers associated with that account. • SOMO voucher documents only list Sevan in relation to the African Middle East Petroleum Company. ISG has no further information on the role of a Cypriot company or any other company.
 
@@ -3467,7 +3319,7 @@ Oil Export Surcharges In addition to income from the trade Protocols and the UN 
 
 UN OFF program. According to SOMO records, the surcharge was charged on 1,117 million barrels of oil between phases 8-12. The total contract value for the surcharges was $265.3 million.
 
-- Iraq actually collected only $228.6 million in surcharge payments from September 2000 until March 2003 (see Figure 19). Iraq was unable to
+- Iraq actually collected only $228.6 million in surcharge payments from September 2000 until March 2003 (see Figure 19). Iraq was unable to collect $36.7 million in surcharges. (see Annex E: Illicit Earnings Sources and Estimation Methodology)
 
 The Legality of Oil Voucher Allocations
 
@@ -3475,15 +3327,10 @@ The Oil Voucher Allocation system was set up by the former Regime of Iraq in ord
 
 The UN approved all companies lifting oil under the OFF program and accounted for all the Iraqi oil lifted by authorized oil lifting firms. However, some entities and individuals may have abused this system by using an intermediary to lift and sell the oil allocated to them by Iraq under the voucher system. For example, according to oil voucher registers recovered from SOMO and statements by Iraqi authorities, several private individuals and political organizations were listed as a voucher recipient. However, an intermediary (a UN registered oil lifter) was used to pick these vouchers and actually lifted the oil under a UN approved contract. In this example, the UN was not aware that an individual or political organization was involved in, and was profiting from, the transaction. Consequently, if individuals or organizations knowingly received profits from these oil sales they were taking part in actions which were not sanctioned by the UN OFF program. ISG has no direct evidence linking these individuals or political organization to actually receiving the proceeds from these oil allocations. However, individuals and organizations are named as being on the list for oil allocations, statements from Iraqi officials support the fact that these entities received oil allocations, and evidence that Iraq entered into contracts with the intermediaries that actually lifted these allocations exist. In conclusion, the Oil Voucher Allocation program is another example of how Saddam's Regime strove to undermine UN sanctions and the OFF process while garnering favor with well placed individuals and entities that would be able to favorably act on Iraq's behalf on the political scene.
 
-collect $36.7 million in surcharges. (see Annex E:
-
-Illicit Earnings Sources and Estimation Methodology)
-
 %%page 35#2%%
 
 - Payments were usually made to SOMO bank accounts in Jordan and Lebanon, but $61 million was delivered in cash to Iraqi embassies, usually Moscow by Russian entities, according to SOMO documents. Ten other Iraqi embassies were used in this way including: Hanoi, Vietnam, Ankara, Turkey and Geneva, Switzerland.
 - Some companies preferred to pay Iraqi embassies directly out of fear for public disclosure of the illegal arrangements. This may explain the preference to conduct such business with cash.
-
 - Payments were mostly made in US dollars, but a few times they were made in Euros. The cash was later moved to Baghdad from the embassies via diplomatic pouch and deposited in the SOMO accounts at the CBI or Rafidian banks.
 
 A former senior Iraqi official with direct access to the information stated that Saddam first ordered companies be charged a flat rate of 15 percent of their profits as the surcharge, but the companies refused to pay. Saddam then pursued a 50-cent per barrel surcharge that his advisors warned him was not workable. When Saddam realized they were right, he allowed the surcharge to be dropped to 30 cents and then finally to 10 cents. Ten cents was the amount first charged by SOMO in September 2000. • Some companies, particularly the French, refused to pay the surcharge.
@@ -3492,21 +3339,17 @@ A former senior Iraqi official with direct access to the information stated that
 
 Iraq tolerated the refusal of some companies to pay the 10-cent per barrel surcharge until the end of the 8th phase (5 December 2000) in order to avoid their refusal to ship the oil and reduce Iraq's projected exports. • The 10-cent surcharge was increased in January
 
-2001 during the 9th phase to 35 cents a barrel for sales to the US and 25 cents per barrel for sales
+2001 during the 9th phase to 35 cents a barrel for sales to the US and 25 cents per barrel for sales to other countries. The surcharges continued into phase 12 at 15 cents per barrel to all customers (see
+
+Figure 20).
 
 The surcharge system was an open secret. The subject was discussed by the media and by worldwide oil market. It was known the former Regime received income from its sales that were deposited in special accounts outside of Iraq.
 
-- The system continued until October 2001 when the
+- The system continued until October 2001 when the UK and US took unilateral action to eliminate the excess profit that allowed surcharges to be paid.
 
-Regime Finance UK and US took unilateral action to eliminate the excess profit that allowed surcharges to be paid.
-
-and Procurement How Surcharges Were Collected The buyers agreeing to the surcharges did so with a pledge to pay. Iraq's main leverage to enforce payment was to deny the buyer future contracts until he made good on his debt. Iraq exercised this option in the case of the African Middle East Petroleum Company, according to SOMO documents. By the 12th phase, there were 42 entities receiving oil export allocations that were not allowed to sign contracts because they had not fully paid their surcharges.
+How Surcharges Were Collected The buyers agreeing to the surcharges did so with a pledge to pay. Iraq's main leverage to enforce payment was to deny the buyer future contracts until he made good on his debt. Iraq exercised this option in the case of the African Middle East Petroleum Company, according to SOMO documents. By the 12th phase, there were 42 entities receiving oil export allocations that were not allowed to sign contracts because they had not fully paid their surcharges.
 
 Kickbacks on Commercial Goods Import Contracts The fourth revenue source for Saddam's Regime was kickbacks from UN OFF program commercial goods contracts being imported into Iraq. According to a former senior MoT official, beginning with the 8th phase in June 2000, Iraq began to demand a kickback on all UN OFF program import contracts to generate illicit income. The amount of the kickback could vary, but generally was around 10 percent. ISG suspects, however, that Iraq had been receiving similar types of kickbacks since the beginning of the UN OFF program to varying degrees. Contracts were written for 10 percent above the actual price and the supplier company would deposit this amount into Iraqi accounts. The fee was often included for spare parts or after sales service. The fee was often applied, particularly in Jordan, through the mechanism of the supplier providing a 10 percent performance bond in advance, which was then automatically transferred to an Iraqi account when the supplier was paid for the goods.
-
-to other countries. The surcharges continued into phase 12 at 15 cents per barrel to all customers (see
-
-Figure 20).
 
 %%page 36#2%%
 
@@ -3526,7 +3369,7 @@ Figure 19. Iraq's estimated earnings from OFF oil surcharges (million US $).
 
 Figure 20. Surcharge amounts charged in US cents per barrel for each OFF phase.
 
-- A source described how it often worked for one front company. For instance, the Al-Eman Group would sign a contract with Iraq and deposit the 10 percent performance bond in an escrow holding account. When the goods were delivered to Iraq, the UN Iraq account would pay the full contract price to Al-Eman. At that point, the Jordan National Bank would automatically kick back the performance
+- A source described how it often worked for one front company. For instance, the Al-Eman Group would sign a contract with Iraq and deposit the 10 percent performance bond in an escrow holding account. When the goods were delivered to Iraq, the UN Iraq account would pay the full contract price to Al-Eman. At that point, the Jordan National Bank would automatically kick back the performance bond to an Iraqi account instead of returning it to Al- Eman, as would normally be the case.
 
 A former senior Iraqi official with direct access to the information believed Sharif to be a Malaysian resident and an owner or high level executive of the company Mastek.
 
@@ -3534,15 +3377,11 @@ A Qatari national and owner of the private airline Gulf Eagle (not a regular com
 
 (late)
 
-> - ISG does not have information from Iraqi sources regarding the revenue earned from these kickbacks; but ISG estimates, using a 10 percent average, that these kickbacks totaled approximately $1.512 billion from late 2000 until OIF (see Figure 21). For more information on the methodology used to generate this estimate, see Annex E: Illicit Earnings Sources and Estimation Methodology. bond to an Iraqi account instead of returning it to
-
-Al- Eman, as would normally be the case.
+> - ISG does not have information from Iraqi sources regarding the revenue earned from these kickbacks; but ISG estimates, using a 10 percent average, that these kickbacks totaled approximately $1.512 billion from late 2000 until OIF (see Figure 21). For more information on the methodology used to generate this estimate, see Annex E: Illicit Earnings Sources and Estimation Methodology.
 
 %%page 37#2%%
 
-accounts controlled by the Iraqi ministry involved sections).
-
-According to senior MoT and official sources, kickback payments were deposited into temporary with the contract at banks in Jordan and Lebanon. These "bridge" accounts were not in the name of the ministry, but used false names to disassociate the Iraqi government from the transaction. Within 24 hours, the funds were transferred to a CBI account at the same bank. At the end of each day, the ministry bridge accounts had a zero balance. Kickback payments also were made to at least two Iraqi front companies: Alia in Jordan and Al-Wasel & Babel in the UAE. Ultimately, the kickback funds were couriered back to the CBI in Iraq.
+According to senior MoT and official sources, kickback payments were deposited into temporary accounts controlled by the Iraqi ministry involved with the contract at banks in Jordan and Lebanon. These "bridge" accounts were not in the name of the ministry, but used false names to disassociate the Iraqi government from the transaction. Within 24 hours, the funds were transferred to a CBI account at the same bank. At the end of each day, the ministry bridge accounts had a zero balance. Kickback payments also were made to at least two Iraqi front companies: Alia in Jordan and Al-Wasel & Babel in the UAE. Ultimately, the kickback funds were couriered back to the CBI in Iraq.
 
 Each individual ministry that engaged in the import kickback contract scheme had copies of their respective contracts or deals. The MoT was responsible for monitoring these contracts but was not involved in negotiating the terms. The ministries illustrated in Figure 22 engaged in the 10 percent scheme.
 
@@ -3553,11 +3392,9 @@ Although the kickback was paid to the particular ministry that entered into the 
 
 Another method of generating kickbacks from UN OFF import contracts emerged in the later years of the UN OFF program. This method was based on deceiving the UN over the quality of the items being imported to Iraq. For this illicit revenue scheme, Iraq arranged for a co-operative supplier to obtain a legitimate UN OFF contract specifying "first- quality" humanitarian goods. Iraq would then be authorized under UN OFF to pay top quality prices for the items via the UN OFF-controlled accounts. In reality, however, the co-operative supplier sub- stituted cheap, poor-quality goods for the contract. This generated very high profits for the co-operative supplier. Saddam then arranged for the excess profits to be returned to Iraq via diplomatic channels, after the co-operative supplier took its "fee." This revenue scheme was particularly nefarious since it left the
 
-people of Iraq with second-quality, sometime useless, humanitarian goods (see the Use of Foreign Banks
+people of Iraq with second-quality, sometime useless, humanitarian goods (see the Use of Foreign Banks sections).
 
-Private-Sector Oil Sales Iraq's trade with private-sector businessmen during
-
-Regime Finance the sanctions period provided a $1.5 billion supplement to illicit money earned from kickbacks and surcharges related to the UN OFF program and Protocols with neighbor states (see Figure 23). Iraqis and Procurement also refer to this trade as "border trade" or "smuggling." (see Annex F: Iraqi Oil Smuggling for a case study on this topic.)
+Private-Sector Oil Sales Iraq's trade with private-sector businessmen during the sanctions period provided a $1.5 billion supplement to illicit money earned from kickbacks and surcharges related to the UN OFF program and Protocols with neighbor states (see Figure 23). Iraqis also refer to this trade as "border trade" or "smuggling." (see Annex F: Iraqi Oil Smuggling for a case study on this topic.)
 
 - These sales began almost immediately after sanctions were implemented, with examples dating back to at least 1993.
 - Iraq exported crude oil, petroleum products, and dry goods such as dates and barley. ISG has very little information about the volume or earnings from the dry goods portion of the trade, but estimates earnings of about $30 million annually.
@@ -3566,7 +3403,7 @@ Regime Finance the sanctions period provided a $1.5 billion supplement to illici
 Private-sector sales were made by SOMO, but outside the UN OFF oil export program and the trade Protocols with Jordan, Syria, Turkey, and Egypt. SOMO information on these sales covers from 1998 until OIF. SOMO information on these sales cover part of 1998 until OIF. According to SOMO, payment for these sales amounted to $992 million, and was made in three ways:
 
 - Some contracts were listed as "cash." According to the SOMO Invoice and Contract Data Base, these contracts were signed from June 1997 through March 2003 and were for all types of petroleum products (gas oil, fuel oil, asphalt, etc.) as well as small amounts of crude oil. These cargoes were shipped through the Arabian Gulf, Turkey, Jordan, Syria, and possibly Lebanon. The contracts were valued at $560 million and $523 million was actually collected.
-- Another category of contracts was "goods/barter." These contracts were signed from January 1998 through March 2003 and were primarily for fuel oil and gas oil. Like the cash contracts above, these cargoes were shipped through the Arabian Gulf, Turkey, Jordan, Syria, and possibly Lebanon. The to be received by specific Iraqi ministries, SOMO month. contracts were valued at $469 million. Because these were barter contracts as payment for goods received no cash in payment.
+- Another category of contracts was "goods/barter." These contracts were signed from January 1998 through March 2003 and were primarily for fuel oil and gas oil. Like the cash contracts above, these cargoes were shipped through the Arabian Gulf, Turkey, Jordan, Syria, and possibly Lebanon. The contracts were valued at $469 million. Because these were barter contracts as payment for goods to be received by specific Iraqi ministries, SOMO received no cash in payment.
 
 %%page 38#2%%
 
@@ -3580,7 +3417,7 @@ SOMO lists its cash, barter, and dinar contracts as being destined for the "Nort
 
 According to a number of Iraqi officials, the money earned from private sector border trade was primarily deposited into accounts in Lebanon and Jordan controlled by the CBI (see Figure 24).
 
-• The accounts were kept in US dollars, except for one account in Euros that was closed after one
+• The accounts were kept in US dollars, except for one account in Euros that was closed after one month.
 
 - One account was maintained in the Rafidian Bank, Mosul, Iraq branch. This account handled earnings from the private-sector trade through the North.
 - The "SOMO Office" in Basrah handled earnings from private sales through the South. ISG does not know if this means there was a corresponding Rafidian Bank account to handle these earnings in the South.
@@ -3601,9 +3438,7 @@ Ministry of Oil (MoO) Ministry of Housing Ministry of Education
 
 Ministry of Water & Sani- Ministry of Telecommuni-
 
-The Electricity Board
-
-> and Procurement tation cations
+> The Electricity Board tation cations
 
 Ministry of Health Ministry of Trade Ministry of Agriculture Figure 22. Iraqi ministries involved in OFF kickbacks.
 
@@ -3615,11 +3450,11 @@ Figure 24. Total amounts received in Iraqi bank This SOMO information is differe
 
 - For example, according to SOMO records, one around and resell it for profits could have been of the most active purchasers of Iraqi crude was anyone from small-inexperienced oil dealers and a Swiss-based company named Glencore. It paid companies, or even businessmen and companies $3,222,780 in illegal surcharges during the period being bribed or rewarded for various reasons by the of the program. The company denies any inappro- Iraqi government. priate dealings with the Iraqi government outside of the UN OFF program. • According to SOMO records and senior MoO officials, oil surcharges were deposited into Iraq's
 
-Determining who paid surcharges, and for what bank accounts. Only designated, trusted Oil Minis- amounts for each oil transaction will take some time. try employees withdrew the cash and brought it to Iraqi oil shipments passed through many parties Baghdad on a regular basis. before being delivered to end recipients, the large oil refineries and companies outside Iraq. The parties or oil agents that first bought the oil only to turn accounts. generating illicit revenue.
+Determining who paid surcharges, and for what bank accounts. Only designated, trusted Oil Minis- amounts for each oil transaction will take some time. try employees withdrew the cash and brought it to Iraqi oil shipments passed through many parties Baghdad on a regular basis. before being delivered to end recipients, the large oil refineries and companies outside Iraq. The parties or oil agents that first bought the oil only to turn
 
 %%page 40#2%%
 
-- An estimated $2 billion is believed to be left from the illicit funds deposited in foreign Iraqi bank
+- An estimated $2 billion is believed to be left from the illicit funds deposited in foreign Iraqi bank accounts.
 - As of February 2004, over $750 million had been recovered from these accounts and returned to Iraq, according to the US Treasury Department.
 
 Saddam directed SOMO to set up accounts at the National Bank of Jordan, also known as the Ahli Bank of Jordan. SOMO created separate accounts both for surcharge payments and for Protocol-generated revenue. Three surcharge accounts were created, one each for the deposits of US dollars, Francs, and eventually Euros. The two required signatories on these accounts were SOMO employees.
@@ -3630,7 +3465,7 @@ Funds from SOMO accounts had to be released by a SOMO order. Payments from accou
 
 SOMO's Relationship to the MoO While SOMO's role was to sell Iraq's oil and handle some of the funds derived from those sales, the MoO's role was primarily to procure goods and services needed by the oil sector. As part of this effort the MoO would collect the 10 percent fee on import contracts. • A former Oil Ministry official in charge of contracting for maintenance equipment and spare parts stated they would accept a low bid and require another 10 percent be added to the contract. Iraqi officials believed 10 percent could be easily hidden from the UN. For example, if the bid were for
 
-$1 million, the supplier would be told to make it $1.1 million. This scheme was quite effective for
+$1 million, the supplier would be told to make it $1.1 million. This scheme was quite effective for generating illicit revenue.
 
 - The MoO has bank accounts at several different locations and in several different countries. SOMO's 13 accounts were separate from the MoO. According to a high-level source at the MoO, the Ministry had only basic information relative to the SOMO accounts, such as the name of the financial institution, the account holder's name, and the name of the person who had signatory authority on the account.
 - The source stated that the MoO had this information so that they could transfer funds to the accounts when oil was sold. According to a source at the Ministry, the MoO is currently trying to recover funds from some of these accounts, particularly in Jordan, and return the money to Baghdad.
@@ -3645,13 +3480,9 @@ Official Oil Accounts SOMO held a variety of bank accounts to manage and control
 
 > SOMO Account Balances Outside of Iraq Account Balance in
 
-Country Account Name Bank Name Type US $
+Country Account Name
 
-> Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim
-
-> Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim
-
-> Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim Jordan 'Ali Rajab & Yaqdan
+> Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim Saddam Zibin, 'Ali Rajab & Jordan Yaqdan Hasan Ibrahim Jordan 'Ali Rajab & Yaqdan
 
 Lebanon SOMO
 
@@ -3671,15 +3502,15 @@ Malaysia SOMO
 
 Switzerland SOMO TOTAL
 
-Figure 25. SOMO accounts balances outside of Iraq
+Figure 25. SOMO accounts balances outside of Iraq (data provided by SOMO in January 2004).
+
+Bank Name Type US $
 
 Ahli Bank, Jordan Cash Account 5,247,427
 
-Regime Finance
-
 Ahli Bank, Jordan Cash Account 33,190
 
-Ahli Bank, Jordan Cash Account 5,138 and Procurement
+Ahli Bank, Jordan Cash Account 5,138
 
 Ahli Bank, Jordan Cash Account 991,544
 
@@ -3699,7 +3530,7 @@ Iraqi Embassy, Geneva Cash Account 710,000
 
 1,312,182,052
 
-(data provided by SOMO in January 2004). Figure 26. Key individuals involved in Iraqi oil accounts in Jordan.
+Figure 26. Key individuals involved in Iraqi oil accounts in Jordan.
 
 %%page 42#2%%
 
@@ -3719,9 +3550,7 @@ Figure 27 shows the SOMO non-surcharge accounts through TPIC maintained at the H
 These oil surcharge payments were deposited into several accounts at banks located in Jordan and Lebanon. Names of these banks included the Jordanian National Bank (Ahli Bank), the Sardar Bank, and the Fransabank in Lebanon (see Figure 29). Escrow accounts were opened in the name of SOMO however these other numbered accounts were opened by Director General of SOMO, Rafid 'Abd-al-Halim Jasim or his Deputy and the Director of Finance or his Deputy for the deposit of surcharges. • The various accounts at the Ahli Bank were created to receive cash, which flowed in from surcharges, the Protocol accounts, and from payments received through border trade cash sales.
 
 - The amounts listed for the CBI and the Rafidian Bank are accounts that were still open in early 2004.
-- The two al-Wasel & Babel accounts were for US Dollars and Euros. They were only open for one or two months before being closed out. Al-Wasel
-
-> & Babel is a partially state owned oil and banking enterprise in the UAE 51 percent of which is state
+- The two al-Wasel & Babel accounts were for US Dollars and Euros. They were only open for one or two months before being closed out. Al-Wasel & Babel is a partially state owned oil and banking enterprise in the UAE 51 percent of which is state
 
 %%page 43#2%%
 
@@ -3740,7 +3569,6 @@ Represents additional crude sales outside of the OFF program. Figure 30. Bank ac
 owned while UAE investors own the other 49 percent. This business was used to move goods outside
 
 - Three accounts are shown at the Fransabank in Lebanon. They were Euro accounts, however, the balances have been converted to US Dollars for this chart.
-
 - Two of these accounts were set up to receive oil surcharge amounts while the third account (marked with an *) shows the total proceeds received by Iraq for the sale of crude oil outside of the UN MOU and not just for the surcharge amounts.
 
 Figure 30 is a graphic representation of the data in the chart above. It illustrates how the surcharge revenues were distributed among the associated SOMO bank accounts. Figure 31 lists the Iraqi bank accounts, which were established to receive cash payments from illegal border sales of crude oil.
@@ -3758,11 +3586,8 @@ Statements by 'Isam Rashid Huwaysh, Former Director of the CBI
 
 Custodial debriefings revealed that:
 
-- The CBI funded government departments through payments to the Ministry of Finance. The Presiden-
-
-Regime Finance tial Diwan was the only department that received money directly from the CBI.
-
-- The CBI distributed cash only on the instruction and Procurement of the Minister of Finance to the Rafidian and Rashid Banks. The Diwan transferred money to their accounts. On instruction from the Minister of Finance, Treasury Bonds were issued to cover cash taken from the CBI.
+- The CBI funded government departments through payments to the Ministry of Finance. The Presidential Diwan was the only department that received money directly from the CBI.
+- The CBI distributed cash only on the instruction of the Minister of Finance to the Rafidian and Rashid Banks. The Diwan transferred money to their accounts. On instruction from the Minister of Finance, Treasury Bonds were issued to cover cash taken from the CBI.
 
 Iraq's ability to successfully transfer billions of dollars of its illicitly earned oil revenues from its various global accounts to international suppliers, front companies, domestic government and business entities, and foreign governments (see Annex G: Iraq's Banking System for more details on the origins of the Iraqi banking system).
 
@@ -3776,21 +3601,19 @@ Figure 32. Total amounts received in Iraqi bank accounts from border trade "cash
 
 CBI's Role in Licensing Money Exchangers Prior to OIF, the Exchange Department of the CBI was responsible for licensing the approximately 250 licensed money exchangers in the business of con- verting currency of one country into the currency of another country. Money exchangers were required to obtain a license from the MoT, and present it to the CBI in order to register as a money exchanger. Some money exchangers mark their currency for identification purposes and to assist in the prevention of counterfeiting.
 
-CBI's Role in Tracking Foreign Accounts for Iraq The CBI Investment Department maintained a book
+CBI's Role in Tracking Foreign Accounts for Iraq The CBI Investment Department maintained a book that contained all foreign accounts opened by the bank, including the numbered or bridge accounts
 
 opened in Lebanon and Jordan. The bridge accounts concealed the fact that foreign companies were making payments to Iraq. Under this system, illicit foreign payments appeared to be going to an account opened in a personal or numbered account. Then the foreign banks immediately transferred proceeds from the bridge account to a CBI account.
 
 CBI maintained accounts in foreign countries specifically for the transfer and distribution of funds to third parties. The Investment Department of the CBI did not conduct normal banking activity after the United Nations imposed sanctions on Iraq in 1990 because its access to overseas accounts, and investment opportunities in particular were tightly limited and controlled.
 
-that contained all foreign accounts opened by the bank, including the numbered or bridge accounts
-
 %%page 47#2%%
 
 However, the Foreign Accounts section of the Investment Department still maintained vigilance over the CBI accounts that had been frozen around the world in order to track the accrual of interest in these accounts.
 
-- This section also maintained the hidden overseas accounts in Lebanon and Jordan, which the former
+- This section also maintained the hidden overseas accounts in Lebanon and Jordan, which the former Regime used for earnings from the ten percent contract kickback scheme and oil surcharges payments. An Investment Department officer of the CBI was directly responsible for transferring foreign currency funds from the CBI's hidden overseas accounts in Lebanon and Jordan to separate accounts held by the former Regime leadership and the IIS in overseas banks.
 
-Regime used for earnings from the ten percent contract kickback scheme and oil surcharges payments. An Investment Department officer of the CBI was directly responsible for transferring foreign currency funds from the CBI's hidden overseas accounts in Lebanon and Jordan to separate accounts held by the former Regime leadership and the IIS in overseas banks. In late 1999, the state-owned Rafidian Bank took over the CBI's role in managing Iraqi government funds abroad, mostly through Rafidian's Amman branch.
+In late 1999, the state-owned Rafidian Bank took over the CBI's role in managing Iraqi government funds abroad, mostly through Rafidian's Amman branch.
 
 The Central Bank of Iraq did not possess any authority for auditing the foreign currency account activities of overseas assets of the Rasheed Bank, the Rafidian Bank, or the Iraqi government ministries. In 1994, the Cabinet of Ministers decided to give the Rasheed and Rafidian Banks as well as Iraqi government ministries the authority to open their own overseas accounts independent of CBI controls or authority. As a result, the CBI was no longer able to determine the foreign currency holdings of these institutions. When directed by the EAC, CBI would transfer foreign currency funds from its overseas accounts in Jordanian and Lebanese banks into ministries' accounts, often those held at the Rafidian Bank in Amman, Jordan or Beirut, Lebanon. In theory, the EAC would only direct CBI to transfer funds into another government bank or ministry overseas account to fund an import purchase. The EAC transfer of funds' request, however, only indicated the recipient Iraqi organization, the amount, and the bank account number to which the funds were sent. CBI officials had no means for establishing the end use or final destination of the transferred funds.
 
@@ -3798,9 +3621,7 @@ The Central Bank of Iraq did not possess any authority for auditing the foreign 
 
 have been possible only if conducted through the overseas branches of the Rafidian and Rasheed banks or other government ministries' accounts.
 
-CBI Director 'Isam Rashid Huwaysh wrote several letters to the cabinet ministers requesting increased controls, or at least auditing capability, over foreign
-
-Regime Finance currency transactions conducted by the Rafidian and Rasheed banks and government ministries. In early March 2003, with the imminent threat of war, the cabinet ordered government ministries with overseas and Procurement accounts to transfer all their foreign currency funds to CBI accounts in overseas banks. This was done in order to provide greater security for government funds that had been dispersed in these various overseas accounts, but not yet utilized. • In early 2003, Saddam convened a meeting during which he ordered the removal of $1 billion from the CBI in order to avoid the risk of all the money being destroyed in one location in the event of an allied attack. Present at the meeting were the Minister of Finance, the Minister of Trade, the Director of the MIC, the presidential secretary, the Chairman of the Presidential Diwan, and the Director of the CBI.
+CBI Director 'Isam Rashid Huwaysh wrote several letters to the cabinet ministers requesting increased controls, or at least auditing capability, over foreign currency transactions conducted by the Rafidian and Rasheed banks and government ministries. In early March 2003, with the imminent threat of war, the cabinet ordered government ministries with overseas accounts to transfer all their foreign currency funds to CBI accounts in overseas banks. This was done in order to provide greater security for government funds that had been dispersed in these various overseas accounts, but not yet utilized. • In early 2003, Saddam convened a meeting during which he ordered the removal of $1 billion from the CBI in order to avoid the risk of all the money being destroyed in one location in the event of an allied attack. Present at the meeting were the Minister of Finance, the Minister of Trade, the Director of the MIC, the presidential secretary, the Chairman of the Presidential Diwan, and the Director of the CBI.
 
 - Two weeks before the outbreak of the war in March 2003, Saddam formed a committee that was responsible for the distribution of funds. The committee consisted of the Minister of Finance, the Chairman of the Presidential Diwan, the presidential secretary and Saddam's son, Qusay Saddam Husayn al- Tikriti. The group visited the CBI and inspected the boxes that contained the $1 billion. The money was stored in 50-kilogram boxes that contained either $100 notes or 500 notes.
 - According to multiple Iraqi officials, including the CBI Director, Qusay, along with SSO Assistant Director Hani 'Abd-al-Latif Tulfah Al Nasiri, and approximately 50 other people, appeared at the CBI on 19 March 2003 and removed the boxes of money. The money was then distributed to different ministries, including the MoT, which received eight boxes of money. After the war, the MoT boxes were turned in to the proper authorities through 'Adnan Al Adhamiyyah, head of the MoT Legal Department. Overall, most of the money was recovered except for about $130 million.
@@ -3819,9 +3640,7 @@ passage through the border, with the currency. Typically, the funds authorized w
 
 At the beginning of 2000, each ministry and governmental agency established accounts with banks in Syria, Jordan and Lebanon, in the names of selected employees within each of their respective organizations. The Iraqi government used its Rafidian and Rasheed banks in these countries because of their direct links to Baghdad. After MIC contracted for the procurement of goods or materials they would send instructions to the bank to transfer the amount of the contract value into an account for the supplier or middleman. The recipient would be credited with the funds, but the funds would not actually be released until after delivery of the products.
 
-The Use of Foreign Banks Before the 1991 Gulf War, the Regime had funds in accounts in the US, Europe, Turkey and Japan. After 1991, the Regime shifted its assets into accounts in Jordan, Lebanon, Belarus, Egypt and Syria. An agreement was drafted with Sudan but never completed.
-
-> Accounts appeared in the names of the CBI and the SOMO.
+The Use of Foreign Banks Before the 1991 Gulf War, the Regime had funds in accounts in the US, Europe, Turkey and Japan. After 1991, the Regime shifted its assets into accounts in Jordan, Lebanon, Belarus, Egypt and Syria. An agreement was drafted with Sudan but never completed. Accounts appeared in the names of the CBI and the SOMO.
 
 %%page 49#2%%
 
@@ -3831,17 +3650,13 @@ Since 1993, as a result of the financial obligations and economic strains of two
 
 Prior to 2001, the amount in these accounts was minimal. CBI selected Jordanian and Lebanese Banks for the establishment of overseas accounts based upon prior relations with the bank or based upon competitive bids tendered by various banks that sent representatives to Baghdad seeking the Regime's banking business. When selecting a new bank, CBI would consult international banking records and consider the additional level of interest the foreign bank would offer above the international bank interest rate. Usually, this interest rate would be between 0.5 and 0.8 percent above the international bank rate, usually the London rate.
 
-According to a senior Iraqi finance officer, when CBI planned to open a new account, the bank would send two investment department officials to either Jordan or Lebanon with an official letter. When the Regime
+According to a senior Iraqi finance officer, when CBI planned to open a new account, the bank would send two investment department officials to either Jordan or Lebanon with an official letter. When the Regime requested CBI draw upon the accounts to transfer foreign currency cash to Baghdad, CBI would send
 
-a delegation of three CBI officials, one with account signatory power, to the foreign bank with an official letter from the CBI. It usually took a week to ten days for the banks to prepare the cash, since the banks usually did not maintain large amounts of foreign currency cash on the premises. Then, the cash, the amounts of which usually ranged between $5-10 mil-
-
-Regime Finance lion, was delivered to the Iraqi Embassy and put in diplomatic pouches for transport back to Baghdad by vehicle. CBI Director 'Isam Rashid Huwaysh himself once carried $10 million in his vehicle on his return and Procurement trip from Beirut to Baghdad.
+a delegation of three CBI officials, one with account signatory power, to the foreign bank with an official letter from the CBI. It usually took a week to ten days for the banks to prepare the cash, since the banks usually did not maintain large amounts of foreign currency cash on the premises. Then, the cash, the amounts of which usually ranged between $5-10 million, was delivered to the Iraqi Embassy and put in diplomatic pouches for transport back to Baghdad by vehicle. CBI Director 'Isam Rashid Huwaysh himself once carried $10 million in his vehicle on his return trip from Beirut to Baghdad.
 
 Use of Banks in Lebanon 16 Lebanese banks were used to hide Iraqi cash, which was physically trucked to Baghdad by the IIS when accounts reached a predetermined level, according to a high-ranking Iraqi official. A committee consisting of the Ministers of Trade, Treasury, Commerce, the director of the CBI and the Diwan secretary sent CBI officials abroad to collect this cash, according to the former head of the Diwan.
 
 Use of Banks in Jordan Much of Iraq's money in Jordan was held in private accounts operated by the Iraqi Embassy in Amman or the Iraqi Trading Office. It was standard practice to have two signatories for the accounts as a security measure to prevent theft. Double-signatory Iraqi accounts in Jordan could only be government accounts. Of particular interest was the Jordanian Branch of the Rafidian Bank, which was established purely for use of the Iraqi government; the United Bank for Investment was also important, because of its establishment for use by Saddam's family. Transactions were never made by telex or electronic transfer, because it was feared these would be detected by the US or UK. Instead, those wishing to buy oil, or other commodities such as sheep, outside of the OFF program would pay cash to an account at Rafidian Bank in Amman. Further cash transfers would then be made to other banks, including the Hong Kong and Shanghai Banking Corporation (HSBC) in Amman, where possible Regime money remained. Transfers of cash to other countries would be hand-carried using the diplomatic bag to avoid the need to send money electronically. Money was sent to Europe in order to procure goods for Iraq, but was never sent there for secrecy, as the controls over the financial system made it too difficult.
-
-requested CBI draw upon the accounts to transfer foreign currency cash to Baghdad, CBI would send
 
 %%page 50#2%%
 
@@ -3851,7 +3666,7 @@ In order to make payments to Iraq for the cash, an arrangement was negotiated an
 
 According to a high-ranking Jordanian banking official, the CBI had no accounts with the Central Bank of Jordan and the only relationship between the two was through the implementation of the bilateral oil for goods barter Protocol. The CBJ worked diligently with the MoT, industry and the Customs Directorate to ensure proper valuation of Protocol shipments, because over-valuation had been a problem.
 
-Use of Banks in Syria The Syrian connection became much more widely used after the February 1999 ascension of King 'Abdallah II in Jordan and the June 2000 ascension of Syrian President Bashar al-Asad. King 'Abdallah II's government began to create more problems for the Iraqi Regime with regard to importing products from Jordan. Consequently, Iraq turned to Damascus who offered a much friendlier atmosphere for goods not
+Use of Banks in Syria The Syrian connection became much more widely used after the February 1999 ascension of King 'Abdallah II in Jordan and the June 2000 ascension of Syrian President Bashar al-Asad. King 'Abdallah II's government began to create more problems for the Iraqi Regime with regard to importing products from Jordan. Consequently, Iraq turned to Damascus who offered a much friendlier atmosphere for goods not sanctioned by the UN.
 
 The Commercial Bank of Syria was the repository of funds used by the Iraqi government to purchase goods and materials both prohibited and allowed under UN sanctions. The fair market value of oil and oil products would be deposited by Syrian buyers into an account in the Commercial Bank of Syria. Each ministry in the Iraqi government had use of these funds; however, there were quotas set for the amounts they would be able to use. The top four ministries with access to these funds in descending order included the MoO, the MoT, the Ministry of Industry (MoI) and the MIC. The orders to disburse funds through this account would come from the Iraqi Minister of Oil. It is estimated that there could be $500 million held in this account.
 
@@ -3859,11 +3674,9 @@ Use of Banks in Turkey SOMO and the Turkish Petroleum International Company (TIP
 
 Use of Banks in Egypt A high-ranking official in Iraqi banking stated that this trade agreement began around 2001 and continued through 2002. SOMO set up bank accounts at the Al Ahli Bank in Egypt through which payment was made for the purchase of oil from Iraq. SOMO officials had signatory authority over the accounts. This trade agreement was set up by the MoT and MoO and was not within the guidelines of the UN OFF program.
 
-Some Egyptian government officials helped the government of Iraq to obtain hard currency illegally via the UN OFF program. It is unclear whom in the Egyptian Government was providing the assistance and who was aware of this activity. Under this illicit system, the Egyptian government officials would sign a contract with the Government of Iraq to purchase a certain amount of approved humanitarian goods for a set price under the UN OFF Program. The contract would specify that the goods shipped would be first- quality merchandise. In actuality, the goods shipped would be second-quality goods. When the UN paid the Egyptian Government officials for the first-quality goods, the Egyptian Government officials would sanctioned by the UN.
+Some Egyptian government officials helped the government of Iraq to obtain hard currency illegally via the UN OFF program. It is unclear whom in the Egyptian Government was providing the assistance and who was aware of this activity. Under this illicit system, the Egyptian government officials would sign a contract with the Government of Iraq to purchase a certain amount of approved humanitarian goods for a set price under the UN OFF Program. The contract would specify that the goods shipped would be first- quality merchandise. In actuality, the goods shipped would be second-quality goods. When the UN paid the Egyptian Government officials for the first-quality goods, the Egyptian Government officials would distribute the funds for the second-quality products, take a small margin of profit for them, and convert the remaining money into US dollars or gold bullion and deposit the money into the Rafidian Bank or directly into the CBI. When this hard currency was received in Baghdad, the Iraqi government would pack bundles of US one hundred dollar bills into bags and boxes and distribute them to the Iraqi embassies abroad. However, after the arrest of the Iraqi IIS Chief of Station in Amman, the Iraqi government moved their primary transit point to Damascus out of fear that the couriers would be arrested while crossing the Jordanian border.
 
 %%page 51#2%%
-
-distribute the funds for the second-quality products, take a small margin of profit for them, and convert the remaining money into US dollars or gold bullion and deposit the money into the Rafidian Bank or directly into the CBI. When this hard currency was received in Baghdad, the Iraqi government would pack bundles of US one hundred dollar bills into bags and boxes and distribute them to the Iraqi embassies abroad. However, after the arrest of the Iraqi IIS Chief of Station in Amman, the Iraqi government moved their primary transit point to Damascus out of fear that the couriers would be arrested while crossing the Jordanian border.
 
 Use of Banks in Belarus The CBI used Infobank in Belarus to hide Regime assets in employee-named accounts. These accounts held funds accumulated through the kickback of funds from import contracts under the UN OFF program. Huwaysh, former Director of the MIC, estimated that there was $1 million in this account and the Iraqi MIC had $1.5 million for procurement of Belarusian goods in this account. However, that actual total was $7.5 million (see Iraq's Illicit Revenue section).
 
@@ -3877,7 +3690,7 @@ Presidential Diwan, and the Director of the CBI.
 
 - At the committee's second meeting, the Director of the CBI stated that Iraq had already brought back to Iraq up to $200 million worth of gold. The gold was purchased through an unidentified bank in Beirut and secured in CBI vaults.
 
-Regime Finance The Role of Cash Transactions The CBI provided foreign currency in cash to Saddam through an official funding mechanism established to release cash from CBI reserves to the Presidential and Procurement Office. The Presidential Office did not have a fixed budget, and CBI often received messages requesting foreign currency for release to the Presidential Office. The amounts ranged from thousands of US dollars up to $1 million, which were always paid in cash in foreign currency. The Presidential Office was the only entity that would ever request money in cash from the CBI, but the requests never exceeded $1 million. The Presidential Office stated that the cash was used for overseas travel, for government business, and medical reasons. The CBI Credit Department accounted for the cash sent to the Presidential Office in the same way that it accounted for funds used by Iraqi ministries. The ministries, however, never received foreign currency cash. If the ministries needed Iraqi dinars for domestic purposes, they would obtain it from their respective Rafidian bank accounts. Saddam seldom interfered in the affairs or business of the CBI. As a standard practice, CBI intra-governmental relations focused on the Cabinet of Ministers, the Ministry of Finance, and the Presidential Office Staff. The authorization for CBI to release cash to the Presidential Office usually came from either the Presidential Office Chief of Staff or the Vice Chairman of the Cabinet of Ministers. Some notable exceptions were Saddam's post-1993 annual special requests for cash and his last request for cash on 19 March 2003, when he authorized Qusay to withdraw $1 billion from the CBI.
+The Role of Cash Transactions The CBI provided foreign currency in cash to Saddam through an official funding mechanism established to release cash from CBI reserves to the Presidential Office. The Presidential Office did not have a fixed budget, and CBI often received messages requesting foreign currency for release to the Presidential Office. The amounts ranged from thousands of US dollars up to $1 million, which were always paid in cash in foreign currency. The Presidential Office was the only entity that would ever request money in cash from the CBI, but the requests never exceeded $1 million. The Presidential Office stated that the cash was used for overseas travel, for government business, and medical reasons. The CBI Credit Department accounted for the cash sent to the Presidential Office in the same way that it accounted for funds used by Iraqi ministries. The ministries, however, never received foreign currency cash. If the ministries needed Iraqi dinars for domestic purposes, they would obtain it from their respective Rafidian bank accounts. Saddam seldom interfered in the affairs or business of the CBI. As a standard practice, CBI intra-governmental relations focused on the Cabinet of Ministers, the Ministry of Finance, and the Presidential Office Staff. The authorization for CBI to release cash to the Presidential Office usually came from either the Presidential Office Chief of Staff or the Vice Chairman of the Cabinet of Ministers. Some notable exceptions were Saddam's post-1993 annual special requests for cash and his last request for cash on 19 March 2003, when he authorized Qusay to withdraw $1 billion from the CBI.
 
 Iraq's Gold Reserves The CBI vaults contained four tons of gold reserves as of early June 2003. The value of these gold reserves was insignificant in comparison to the bank's level of cash reserves. CBI began accumulating these gold reserves in 2001 by purchasing gold in relatively small quantities on a frequent basis from Lebanese banks in which the former Iraqi Regime had large foreign currency deposits. As a standard purchase procedure, the respective Lebanese banks supplying the gold would deliver it to the Iraqi Embassy in Beirut for shipment to CBI vaults in Baghdad via diplomatic pouch. The CBI bought gold in amounts ranging from 100 to 500 kilograms per purchase. This amount of gold could be shipped easily by diplomatic pouch. Also, CBI bought gold in small quantities in order to avoid raising the market level of gold in Lebanon and to avoid scrutiny by the US. The Regime did not remove any of the gold from CBI vaults during the war with coalition forces. • The CBI Investment Department Director General
 
@@ -3887,20 +3700,16 @@ Asrar 'Abd al-Husayn was directly responsible for management of the gold purchas
 
 Dr. 'Isam Rashid Huwaysh, however, retained final responsibility for supervision of the gold purchase program.
 
-- The Regime implemented the gold purchase in 2001 upon the recommendation of Dr. 'Isam and against the opposition of Minister of Finance Hikmat Mizban Ibrahim. 'Isam was concerned that Saddam and his sons could easily remove cash
+- The Regime implemented the gold purchase in 2001 upon the recommendation of Dr. 'Isam and against the opposition of Minister of Finance Hikmat Mizban Ibrahim. 'Isam was concerned that Saddam and his sons could easily remove cash reserves whenever they wanted or could easily use the cash reserves in purchasing weapons from foreign suppliers.
 
 - Gold, on the other hand, was heavy and could not be easily removed, ensuring that the CBI would retain these reserves, even if the Regime decided to remove the cash reserves. 'Isam, however, could not use this argument to convince Saddam to begin a gold purchase program, and he instead argued that the gold reserves could not be destroyed in the event of bombing and fire at the bank during a war.
 - Saddam accepted this latter argument and authorized the gold purchased beginning in 2001. Prior to the outbreak war with coalition forces, the Regime did not have any plan for dispersing the gold upon commencement of hostilities.
 
 The Rafidian Bank central office in Baghdad had an unknown but relatively small quantity of gold in its vault as of 19 March 2003. Under the former Regime, Iraqis were not allowed to sell their gold overseas, but many people attempted to smuggle their personal gold out of Iraq to take advantage of the higher prices in overseas markets and to secure foreign currency. When these smugglers were caught, the government confiscated the gold and put it in the vault of the Rafidian Bank. Iraqi ministries did not retain any gold.
 
-reserves whenever they wanted or could easily use the cash reserves in purchasing weapons from foreign suppliers.
-
 %%page 53#2%%
 
-and Front Companies Transactions):
-
-> Executing Illicit Procurement in Iraq: Ministries, Commissions,
+> Executing Illicit Procurement in Iraq: Ministries, Commissions, and Front Companies
 
 Overview
 
@@ -3911,13 +3720,11 @@ Government to facilitate his illicit procurement programs. Almost every Ministry
 - The MoT established bilateral trade Protocols that were used to hide prohibited trade. The Ministry used commercial attaches to pay for illicit procurement.
 - The MoD developed requirements, hosted and conducted foreign visits, and procured conventional military goods, the export of which breached UN sanctions.
 - The banking system established foreign accounts to hold illicit hard currency until it could be used for procurement or smuggled into Baghdad.
-- The MHESR conducted dual-use research; procured and developed technical expertise in WMD-related fields and procured key technologies through university systems. to include potentially-WMD related or dual-use items (see Annex I: Suspected Iraqi Dual-Use Procurement
+- The MHESR conducted dual-use research; procured and developed technical expertise in WMD-related fields and procured key technologies through university systems.
 
-- The MIC, headed by 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh since 1997, and its associated front companies led Iraqi efforts to obtain prohib-
+Saddam, however, relied on three organizations in particular for the procurement of prohibited materials to include potentially-WMD related or dual-use items (see Annex I: Suspected Iraqi Dual-Use Procurement Transactions): • The MIC, headed by 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh since 1997, and its associated front companies led Iraqi efforts to obtain prohibited military hardware and dual-use goods.
 
-Regime Finance ited military hardware and dual-use goods.
-
-- The IIS was directed by Saddam to assist the MIC with procurement in 1998. and Procurement
+- The IIS was directed by Saddam to assist the MIC with procurement in 1998.
 
 - The Iraqi Atomic Energy Commission (IEAC) pursued its own illicit procurement goals, occasionally with MIC assistance.
 
@@ -3927,11 +3734,11 @@ Directed by Saddam, the MFA helped the former Regime in its quest to end UN sanc
 
 The MFA also assisted the implementation of financial transactions and provided physical sanctuaries and political/diplomatic/commercial covers for other
 
-Iraqi intelligence officials involved in procurement activities across Iraq's borders. According to a former chief of the Iraqi interests section in Syria, it was common practice for embassies to forward foreign
-
-Saddam, however, relied on three organizations in cash from the CBI overseas accounts in Lebanon, to particular for the procurement of prohibited materials system. Iraq's plenipotentiary. • He specifically mentions the Iraqi Embassy in its vault in Baghdad via diplomatic pouch and courier
+Iraqi intelligence officials involved in procurement activities across Iraq's borders. According to a former chief of the Iraqi interests section in Syria, it was common practice for embassies to forward foreign cash from the CBI overseas accounts in Lebanon, to
 
 %%page 54#2%%
+
+- He specifically mentions the Iraqi Embassy in its vault in Baghdad via diplomatic pouch and courier system.
 
 Beirut, Lebanon and the Iraqi interests section at the Algerian Embassy in Damascus, Syria, undertaking such activity.
 
@@ -3950,9 +3757,9 @@ Oil Minister for oil and gas contracts. The Russian business delegation was supp
 
 - In 2002, Baghdad sent a scientific delegation to
 
-Belarus and China in order to stay current on all
+Belarus and China in order to stay current on all aspects of nuclear physics and to procure a Chinese fiber optics communication system.
 
-Figure 34. Tariq 'Aziz—
+> Figure 34. Tariq 'Aziz— Iraq's plenipotentiary.
 
 MFA-IIS Connections The MFA also supported IIS operations by offering its agents political and economic cover to conduct economic and political espionage. Besides providing traditional covers for IIS agents, the MFA cooperated closely with the IIS on other functions. A former IIS officer also stated that all MFA diplomatic couriers were IIS officers and were monitored by the IIS's Directorate of Internal Security (M6). Moreover, at Iraqi consulates and embassies where IIS officer presence was absent, MFA personnel filled in as their representatives. While ISG does not know the full extent of MFA's role in assisting the IIS in conducting illicit activity, it has found other indicators of the breadth and nature of the IIS' activities from captured documents.
 
@@ -3963,13 +3770,11 @@ Iraq, according to one former IIS agent.
 
 - Outside of Iraq, Iraqi embassies provided the IIS with the only means of secure communications outside of the diplomatic courier services. Iraqi embassies transmitted ciphered faxes to foreign posts.
 
-However, the majority of posts had manual codebooks while major posts like Washington, Paris, aspects of nuclear physics and to procure a Chinese
+However, the majority of posts had manual codebooks while major posts like Washington, Paris,
 
-Moscow and South African were given machines fiber optics communication system.
+Moscow and South African were given machines incoming faxes. The IIS personnel deciphered all necessary to accommodate the large amount of faxes, according to a former IIS officer.
 
 %%page 55#2%%
-
-necessary to accommodate the large amount of Smart Sanctions incoming faxes. The IIS personnel deciphered all faxes, according to a former IIS officer.
 
 MFA's UN Sanctions Counter-Strategy The MFA formulated and implemented a strategy aimed at ending the UN sanctions and breaching its subsequent UN OFF program by diplomatic and economic means. Iraq pursued its related goals of ending UN sanctions and the UN OFF program by enlisting the help of three permanent UNSC members: Russia, France and China. Iraq believed it managed to varying degrees of success to influence these permanent UNSC members from strictly enforcing previously agreed UN resolutions and from initiating additional resolutions that further debili- tated the Iraqi economy. By offering permanent and non-permanent Security Council members economic "carrots and sticks," Iraq belived it managed to partially influence voting at the UNSC. Iraq's economic "carrots" included offering companies from those countries lucrative oil, reconstruction, agricultural and commercial goods, and weapon systems contracts. In contrast, the Iraqi "sticks" included not only redirect- ing those contracts to other more "pro-Iraqi" companies, but held the threat of forfeiture of foreign debts – totaling between approximately $116-250 billion. Saddam expressed confidence that France and Russia would support Iraq's efforts to further erode the UN sanctions regime.
 
@@ -3978,9 +3783,9 @@ MFA's UN Sanctions Counter-Strategy The MFA formulated and implemented a strateg
 
 Iraqi-Russian Relations. Saddam's Regime needed both Moscow's political clout in the UN and its economic expertise and resources to sustain his Regime from the 1990s until OIF. Numerous trips taken by then Iraqi Deputy Prime Minister Tariq 'Aziz to Moscow served as a good indicator of the Russians' opinion of Iraq's dependence on Russia.
 
-In early July 2001, the US and the UK withdrew their joint-proposal to revamp the UN existing sanctions regime, called "Smart Sanctions," because of Russian, Chinese, and French opposition. The US/UK proposal attempted to restructure two key elements
+Smart Sanctions
 
-Regime Finance of the existing sanctions regime: illicit procurement of weapons and dual-use goods and illicit genera- tion of revenue from Iraqi oil sales outside the UN's OFF program. In contrast, the Russian draft resoluand Procurement tion proposed to reduce the current percentage to the Compensation fund another 5 percent to 20 percent of total value of Iraqi oil exports – and increase the total amount in Iraq's escrow account to $600 million to pay other expenses in accordance with UNSCR 1175(1998) and 1284 (1999) (see Annex H: UNSCR Applicable to Iraq). The UN estimated that each 5 percent reduction in payments to the United Nations Compensation Commission (UNCC) added about $275 million in Iraq's coffers per each UN OFF six-month phase.
+In early July 2001, the US and the UK withdrew their joint-proposal to revamp the UN existing sanctions regime, called "Smart Sanctions," because of Russian, Chinese, and French opposition. The US/UK proposal attempted to restructure two key elements of the existing sanctions regime: illicit procurement of weapons and dual-use goods and illicit genera- tion of revenue from Iraqi oil sales outside the UN's OFF program. In contrast, the Russian draft resolution proposed to reduce the current percentage to the Compensation fund another 5 percent to 20 percent of total value of Iraqi oil exports – and increase the total amount in Iraq's escrow account to $600 million to pay other expenses in accordance with UNSCR 1175(1998) and 1284 (1999) (see Annex H: UNSCR Applicable to Iraq). The UN estimated that each 5 percent reduction in payments to the United Nations Compensation Commission (UNCC) added about $275 million in Iraq's coffers per each UN OFF six-month phase.
 
 - According to news reports, in July 2001, Tariq 'Aziz expressed gratitude to Russia for its efforts to pass UNSCR 1360 which continued the UN's OFF program for a tenth phase. Moreover, Iraq promised to economically reward Russia's support by placing it at the head of the list for receiving UN contracts under the UN OFF program.
 
@@ -4014,9 +3819,9 @@ The MoT coordinated economic activities between other Iraqi Government ministrie
 
 - Legitimate channels under the auspices of the UN sanctions regime and the UN OFF.
 - Cooperative preferential trade protocol agreements with Syria, Jordan, Turkey, and Egypt.
-- Common trade agreements, albeit in contravention of UN sanctions, with other partners. the MoT provided a limited role in the procurement of illicit goods such as military weaponry or WMD
+- Common trade agreements, albeit in contravention of UN sanctions, with other partners.
 
-In addition to these traditional procurement roles,
+In addition to these traditional procurement roles, the MoT provided a limited role in the procurement of illicit goods such as military weaponry or WMD
 
 %%page 57#2%%
 
@@ -4024,12 +3829,12 @@ Figure 35. Iraq and surrounding countries.
 
 technologies for the Regime. To supplement this procurement activity, the MIC and MoD used their own methods to procure communications systems, ammunition, security equipment, and computers. 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, Director of the MIC, however, stated that the MIC was able to import the raw materials it needed and did not need to use any other ministry's funds to purchase goods and services abroad.
 
-Nevertheless, the importance of the MoT in illicit procurement should not be dismissed. The MoT's trade deals with willing countries and foreign companies provided Iraqi military and security entities, such as the MoD, Special Republican Guard (SRG), IIS, and the Diwan, with the access and connections needed to ultimately procure dual-use and sanctioned goods and services. In contravention of UN sanctions and resolutions, the MoT provided "cover" contracts for
+Nevertheless, the importance of the MoT in illicit procurement should not be dismissed. The MoT's trade deals with willing countries and foreign companies provided Iraqi military and security entities, such as the MoD, Special Republican Guard (SRG), IIS, and the Diwan, with the access and connections needed to ultimately procure dual-use and sanctioned goods and services. In contravention of UN sanctions and resolutions, the MoT provided "cover" contracts for ammunition, communication systems, and other military materiel for the MoD, SRG, IIS, and the Diwan.
 
 MoT's Role in Procurement For the most part, the MoT procured legitimate civilian goods both legally under UN OFF, as well as illicitly through bilateral trade protocols and other unregulated trade agreements. The MoT played one of its most important roles in the execution of the UN OFF Program, including:
 
 - Coordinating other ministries' import requirements into a "Distribution Plan." After UN approval, this consolidated plan served as the basic import schedule for goods and services imported under each six month UN OFF phase.
-- A few non-ministerial organizations, including the MIC and Iraqi Atomic Energy Commission (IAEC), were not permitted to purchase items under UN OFF. These ministries or departments relied on the MoT to procure common goods for them via UN ammunition, communication systems, and other mili- OFF. tary materiel for the MoD, SRG, IIS, and the Diwan.
+- A few non-ministerial organizations, including the MIC and Iraqi Atomic Energy Commission (IAEC), were not permitted to purchase items under UN OFF. These ministries or departments relied on the MoT to procure common goods for them via UN OFF.
 
 %%page 58#2%%
 
@@ -4062,14 +3867,12 @@ China. In many of these offices, there was only a single employee, but the offic
 - According to the trade minister, CA in the trade protocol states (Jordan, Syria, and Turkey) were aware of the bank accounts used to transfer protocol cash profits (30 to 40 percent of all contracts) into Iraq.
 - CAs in Jordan, and to a lesser extent, Syria and Turkey, also followed up on all Iraqi Government financial transactions from the trade Protocols.
 
-In the mid-1990s, the Jordan desk was the most important CA for Iraq. The Amman Commercial Counselor and his deputy were responsible for facilitating all UN OFF contracts, the trade protocol business (the Syria and Turkey protocols did not exist until after 1999), and any additional private trade from the military and security service entities. Facilitating these contracts focused on opening letters of credit in Jordanian banks and following up with
+In the mid-1990s, the Jordan desk was the most important CA for Iraq. The Amman Commercial Counselor and his deputy were responsible for facilitating all UN OFF contracts, the trade protocol business (the Syria and Turkey protocols did not exist until after 1999), and any additional private trade from the military and security service entities. Facilitating these contracts focused on opening letters of credit in Jordanian banks and following up with payment when receipt of the goods was confirmed in Baghdad. The CA accountant followed contract implementation, tax collection, and tracked any fees.
 
 • As an example, captured documentation details that individuals at the CA's office in Amman opened letters of credit for the payment of $2.275 million to a Lebanese company in 2000.
 
-- Supporting documentation shows that this was for BMP-2 IFV 30-mm cannon barrel-manufacturing
-
-Regime Finance technology from the Former Federal Republic of Yugoslavia (FRY). • There is no indication, however, from the docuand Procurement mentation that the CA staff was aware of the exact nature of the contract.
-
+- Supporting documentation shows that this was for BMP-2 IFV 30-mm cannon barrel-manufacturing technology from the Former Federal Republic of Yugoslavia (FRY).
+- There is no indication, however, from the documentation that the CA staff was aware of the exact nature of the contract.
 - In the late 1990s the importance of the CA's office in Jordan declined. A year before OIF, the MIC removed cash from the CA's office in Jordan because of weak activity, and appointed a military representative to represent its interests.
 
 According to the former Minister of Trade, the MIC, and SOMO arranged contracts with Syria directly through the CA in Syria and the Commercial Bank in Syria. It is more likely, however, that the CA in Syria had a less active role with MIC and SOMO, particularly in the payments process, because business in Syria was conducted through payment on supply rather than letters of credit. • Supporting intelligence shows in one case that SOMO authorized the 5th Syrian Commercial Bank in Damascus to transfer funds directly to a Syrian middleman working for the Syrian-based SES with no mention of the CA.
@@ -4077,8 +3880,6 @@ According to the former Minister of Trade, the MIC, and SOMO arranged contracts 
 - In May 2002 Iraq's Al-Basha'ir Trading Company instructed SES where and how to distribute funds received from Iraq's Oil Ministry (probably on behalf of Iraqi military).
 
 As with the Syrian Protocol, the January 2000 Turkish Protocol operated on a payment on supply basis, and therefore probably did not involve the CA in Turkey.
-
-payment when receipt of the goods was confirmed in Baghdad. The CA accountant followed contract implementation, tax collection, and tracked any fees.
 
 %%page 60#2%%
 
@@ -4094,9 +3895,7 @@ MoD's Procurement Leadership at the Onset of Operation Iraqi Freedom
 
 Minister of Defense: Staff Gen. Sultan Hashim Ahmad Al Ta'i. As the Minister of Defense, he approved all MoD procurement proposals submitted by the Chief of Staff. Sultan was also a member of the "Committee of Three" which had oversight and control over the Iraqi defense budget.
 
-Chief of Staff: Staff. Gen. Ibrahim Ahmad 'Abd-al-
-
-Sattar Muhammad. Ibrahim was directly responsible for MoD procurement activities. He could reject, but not grant final approval on MoD procurement decisions. Director of Weapons and Supplies: Staff Maj. Gen. Talib 'Uwayn Juma'h Taha Al Tikriti. Taleb was responsible for coordinating MoD weapons procurement via the MIC from 1999 to 2003.
+Chief of Staff: Staff. Gen. Ibrahim Ahmad 'Abd-al- Sattar Muhammad. Ibrahim was directly responsible for MoD procurement activities. He could reject, but not grant final approval on MoD procurement decisions. Director of Weapons and Supplies: Staff Maj. Gen. Talib 'Uwayn Juma'h Taha Al Tikriti. Taleb was responsible for coordinating MoD weapons procurement via the MIC from 1999 to 2003.
 
 Director of Armaments and Supplies: Staff Maj. Gen. Nabil Rahman Ahmad. Nabil was responsible for the procurement of products such as military uniforms, supplies, and other consumable items used to support military operations.
 
@@ -4112,9 +3911,7 @@ UN sanctions after Operation Desert Storm severely hindered the MoD's overt proc
 
 RG and SRG.
 
-MoD Procurement Leadership
-
-Regime Finance The Minister of Defense reviewed all MoD procurement and, in coordination with the Presidential Diwan, could approve MoD procurement requirements up to $2 million. The MoD Chief of Staff and Procurement (CoS) and subordinate supply directors processed and coordinated procurement requirements for approval at higher levels, but could not approve MoD procurement. For procurement requirements greater than $2 million, the Minister of Defense was required to participate in a more deliberative process involving the MIC, presidential secretary, and the President. The MoD did not have final approval authority for these high cost procurement programs.
+MoD Procurement Leadership The Minister of Defense reviewed all MoD procurement and, in coordination with the Presidential Diwan, could approve MoD procurement requirements up to $2 million. The MoD Chief of Staff (CoS) and subordinate supply directors processed and coordinated procurement requirements for approval at higher levels, but could not approve MoD procurement. For procurement requirements greater than $2 million, the Minister of Defense was required to participate in a more deliberative process involving the MIC, presidential secretary, and the President. The MoD did not have final approval authority for these high cost procurement programs.
 
 MoD Procurement Directorates According to Sultan Hashim Ahmad Al-Ta'i, the former Minister of Defence, the MoD was divided into directorates, the two largest being the Directorate of Armament and the Directorate of Weapons and Supplies. These two Directorates were the MoD's primary procurement organizations (see Figure 37).
 
@@ -4132,7 +3929,7 @@ Figure 37. Ministry of Defense leadership hierarchy (from 1997 to 2003).
 - After 1997, Staff Gen. Sultan dealt directly with the head of the MIC, 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, and his two deputies, Daghir Muhammad Mahmud and Muzahim Sa'b Hasan Muhammad Al Nasiri, on substantive procurement issues.
 - The Directorate of Weapons and Supplies coordinated with the MIC on MoD procurement projects via regular meetings. These meetings addressed a range of day-to-day procurement issues, including the mechanics of requesting and delivering items, financing procurement contracts, addressing complaints over late deliveries, and adjudicating problems related to poor quality equipment.
 
-According to Staff Gen. Sultan, the Directorate of Weapons and Supplies participated in several MIC-coordinated defense procurement delegations each year, providing expertise in weapons pricing and how foreign systems could best improve Iraq's defense capabilities.
+According to Staff Gen. Sultan, the Directorate of Weapons and Supplies participated in several MIC-coordinated defense procurement delegations each year, providing expertise in weapons pricing and how foreign systems could best improve Iraq's defense capabilities. • When Iraq hosted these delegations, the MIC handled, negotiated, and signed procurement contracts on behalf of the MoD.
 
 the MIC abroad Staff Maj. Gen Talib was subordi- nated to the MIC leadership.
 
@@ -4145,20 +3942,13 @@ Budgeting and Financing Military Procurement As with the other Iraqi ministries,
 
 In sharp contrast to the MoD's formal budget, the supplemental MoD budget was controlled by Saddam and was used for illicit procurement of prohibited items. • Typically, Iraqi military units identified requirements and forwarded them up the chain of the command to the directorate head.
 
-- The director reviewed and forward procurement requirements to the Chief or Deputy Chief of Staff who would review the procurement recommendations and forward them to them to the Minister of Defense.
-- When Iraq hosted these delegations, the MIC handled, negotiated, and signed procurement contracts on behalf of the MoD. within their formal budgets, the defense minister
+- The director reviewed and forward procurement requirements to the Chief or Deputy Chief of Staff who would review the procurement recommendations and forward them to them to the Minister of Defense. within their formal budgets, the defense minister
 
 %%page 63#2%%
 
 Although other Iraqi ministries were required to work could request more money from the Presidential Diwan. On some occasions, however, the MoD supplemental budget requests were routed through Saddam's secretary, 'Abd Hamid Mahmud Al Khatab Al Nasiri, who could make decisions more rapidly than the Diwan.
 
-- Although 'Abd has stated that he had no role in MoD procurement, ISG judges that he played a role in high-priority procurement for the MoD, based on his position and statements by another high-level
-
-Iraqi military officer. This officer asserted that a
-
-September 2002 supplemental request for Internet satellite communications for the MoD was routed through the presidential secretary. The Secretariat subsequently arranged for the purchase through a
-
-Syrian company.
+- Although 'Abd has stated that he had no role in MoD procurement, ISG judges that he played a role in high-priority procurement for the MoD, based on his position and statements by another high-level Iraqi military officer. This officer asserted that a September 2002 supplemental request for Internet satellite communications for the MoD was routed through the presidential secretary. The Secretariat subsequently arranged for the purchase through a Syrian company.
 
 Ultimately, Saddam personally approved the funding for classified MoD, MIC, and IIS projects; informed the governmental bodies of his approval via his secretary, and used 'Abd to distribute supplemental funding for the projects.
 
@@ -4168,11 +3958,9 @@ Conference" held every three months at the MIC headquarters in Baghdad.
 
 Dual-Use Goods Defined
 
-"Dual-Use Goods" are items that might be of use to the military, but were not specially or originally designed or modified for military use. The term "goods" includes equipment, chemicals, materials, components (including spare parts), technology, and
+"Dual-Use Goods" are items that might be of use to the military, but were not specially or originally designed or modified for military use. The term "goods" includes equipment, chemicals, materials, components (including spare parts), technology, and software.
 
-Regime Finance software.
-
-The term "dual-use goods" can be contrasted with "military goods" that were specially or originally and Procurement designed for use by the military.
+The term "dual-use goods" can be contrasted with "military goods" that were specially or originally designed for use by the military.
 
 UN Sanctions on the Procurement of Conventional Military Goods
 
@@ -4200,9 +3988,7 @@ The RG and SRG requested weapons systems and other military goods via the MoD. T
 
 - Maj. Gen. Mahmud also monitored the manufacture of supplies for the RG. Consequently, he attended a monthly meeting at the MIC with the Commander and Directors of the RG.
 - Qusay reportedly respected Mahmud's. technical expertise as evidenced by choosing him to represent the RG in overseas delegations.
-- Mahmud also enjoyed a close relationship with
-
-> 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, the head of the MIC, most likely because they were related.
+- Mahmud also enjoyed a close relationship with 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, the head of the MIC, most likely because they were related.
 
 %%page 65#2%%
 
@@ -4212,11 +3998,7 @@ RG and SRG Procurement Process. According to Staff Lt. Gen. Kamal Mustafa 'Abdal
 
 - Between 2000 and 2002, the Iraqi Government purchased thousands of supply and personnel transport vehicles for the RG and SRG by the Ministry of Transportation and Communication (MoTC). Turkey, Russia, France, Germany, and South Korea supplied these vehicles, according to a former senior Iraqi cabinet minister.
 
-According to captured documents and other evidence the MoD, MIC, and its associated front companies obtained conventional goods for the RG and SRG from Russia, Syria, and Belarus. (For more details on these breaches of UN sanctions see Annex J: The Procurement of Conventional Military Goods in Breach of United Nations Sanctions). The RG and
-
-Regime Finance
-
-SRG most likely used their operational budgets to purchase common military supplies and consumable materials. As with the rest of the MoD, the RG and SRG also benefited from other ministries purchasing and Procurement dual-use goods on their behalf.
+According to captured documents and other evidence the MoD, MIC, and its associated front companies obtained conventional goods for the RG and SRG from Russia, Syria, and Belarus. (For more details on these breaches of UN sanctions see Annex J: The Procurement of Conventional Military Goods in Breach of United Nations Sanctions). The RG and SRG most likely used their operational budgets to purchase common military supplies and consumable materials. As with the rest of the MoD, the RG and SRG also benefited from other ministries purchasing dual-use goods on their behalf.
 
 After the requested equipment was delivered to Iraq, the MoD Directorate of Weapons and Supplies sent the Office of the Secretariat an official letter notify- ing that the equipment was available. Once the goods were delivered to the RG and deemed acceptable, the Secretariat authorized the MoO to pay the appropriate ministry or commission.
 
@@ -4224,13 +4006,9 @@ Military Industrialization Commission
 
 By the late 1990s, Iraq was eagerly trying to acquire foreign military goods and technical expertise for its conventional military and missile programs using a network of Iraqi front companies, some with close relationships to high-ranking foreign government officials. The billions of dollars of revenue generated by the various protocols, illicit surcharges, and oil smuggling schemes drove the explosive growth in military imports. This allowed MIC to smuggle millions of dollars worth of military equipment into Iraq in contravention of UN sanctions.
 
-Procurement Leadership in the MIC From its founding in 1987, the MIC was directly subordinate to the Office of the Presidency. It eventually consisted of 10 research companies, 36 manufacturing companies, eight training centers, two stand-alone units; three front companies and the headquarters office (see Figure 39). The headquarters, located in Baghdad had two deputies and nine
-
-> directorates: administrative and financial, commerce, research and development, projects, technical, internal monitoring, legal, training and procurement, and
+Procurement Leadership in the MIC From its founding in 1987, the MIC was directly subordinate to the Office of the Presidency. It eventually consisted of 10 research companies, 36 manufacturing companies, eight training centers, two stand-alone units; three front companies and the headquarters office (see Figure 39). The headquarters, located in Baghdad had two deputies and nine directorates: administrative and financial, commerce, research and development, projects, technical, internal monitoring, legal, training and procurement, and the National Monitoring Directorate. The Minister's office consisted of the Secretary's Office, the Secret Correspondence Office, the Special Correspondence Office handling mail between MIC and the ministries and between the headquarters' directorates and the individual companies.
 
 %%page 66#2%%
-
-the National Monitoring Directorate. The Minister's office consisted of the Secretary's Office, the Secret Correspondence Office, the Special Correspondence Office handling mail between MIC and the ministries and between the headquarters' directorates and the individual companies.
 
 MIC: Beneficiary of Illicit Funds Revenues from oil protocols with Jordan, Syria, and Turkey increased the MIC budget by approximately 6,400 percent between 1996 and 2003. During this period, MIC Director and Deputy Prime Minister, 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh (see Figure 40), transformed the MIC into a more efficient and profitable bureaucracy.
 
@@ -4278,25 +4056,22 @@ Items Procured by the MIC via Front Companies Iraq's MIC had two primary avenues
 Fair and advertised them in Iraqi trade papers.
 
 - The MIC received bids on the tenders from potential suppliers indicating price, terms; for example, 'X' offered to provide some equipment for $1 million. Bids on the tenders from potential suppliers were submitted to a MIC import committee. Originally there was just one import committee, but the volume of imports grew in later years to the point where a second import committee was established to handle the volume. The import committees met every night at the Baghdad International Trade Fair site.
-- The import committees would then take the original tenders and subject them to a rebidding process. For example, company 'Y' could offer to supply the same equipment as company 'X,' but for $500,000 less than its competitor's bid, a large saving compared to the original price. Through this process, the import committees saved the MIC millions of dollars. The committees issued quarterly reports on the amounts of money saved. Huwaysh was very proud of this bidding process and often gave the committee members bonuses based on the amount
+- The import committees would then take the original tenders and subject them to a rebidding process. For example, company 'Y' could offer to supply the same equipment as company 'X,' but for $500,000 less than its competitor's bid, a large saving compared to the original price. Through this process, the import committees saved the MIC millions of dollars. The committees issued quarterly reports on the amounts of money saved. Huwaysh was very proud of this bidding process and often gave the committee members bonuses based on the amount of money saved.
 
 - The MIC issued a contract when the import committee accepted a bid on the goods. ISG speculates that the contracted companies were then responsible for obtaining the goods—importing them from Jordan, Syria, Turkey, or elsewhere as necessary— and delivering them to the MIC customer.
-
-Regime Finance • Engineers from the MIC Technical Directorate always headed the import committees. Other members of the committees included representatives from the MIC Commercial, Administration and and Procurement Finance, and Legal Directorates, along with an IIS representative from MIC security.
+- Engineers from the MIC Technical Directorate always headed the import committees. Other members of the committees included representatives from the MIC Commercial, Administration and Finance, and Legal Directorates, along with an IIS representative from MIC security.
 
 Items Procured via the MIC's Link to Iraqi Intelligence The other procurement avenue operated through the MIC "Special Office" and enlisted the IIS to locate suppliers of particularly sensitive or obviously military items, such as weapons and ammunition (for more details see the IIS procurement section of this chapter and the RSI IIS annex). Items purchased through the Special Office were then shipped to Iraq via third countries using front companies as buyers. MIC procurement companies played a key role in these import activities, as did several front companies with ties to top Syrian leaders. During the annual budget formulation process, managers of MIC facilities identified imported products that their enterprises needed to support their production plans for the following year. The MIC and the IIS formed a special channel for importing sensitive goods and services—dual-use or related to weapons and munitions manufacturing—particularly those that required the assistance of foreign government officials. A source within the MIC Commercial Directorate stated that the IIS was "involved in everything." The IIS was the final authority on MIC contracts due to its direct relationship with Saddam.
 
 In November 1997, Saddam approved a MIC proposal to enlist the IIS to develop new procurement, technology transfer, and technical assistance channels to supplement the existing MIC Commercial Directorate channels, according to a source with direct access.
 
-- Huwaysh formed the MIC-IIS relationship to support Iraq's missile program after Saddam instructed him to improve Iraq's missile capabilities. of money saved.
+- Huwaysh formed the MIC-IIS relationship to support Iraq's missile program after Saddam instructed him to improve Iraq's missile capabilities.
 
 %%page 70#2%%
 
-Daham Ibrahim Al Hasan Al Tikriti in October Expert
-
 1999 and the subsequent appointment of Tahir Jalil
 
-- Ties flourished after the death of IIS Director Rafi'
+- Ties flourished after the death of IIS Director Rafi' Daham Ibrahim Al Hasan Al Tikriti in October
 
 Habbush as IIS Director. A Joint MIC—IIS nomination group initially directed the joint effort.
 
@@ -4312,7 +4087,9 @@ According to an Iraqi official, the IIS's procurement activities operated throug
 
 An Iraqi official described the coordination process (see Figure 42). • MIC requirements—for information, materials, technology, or technical assistance—were sent upward from MIC manufacturing establishments to
 
-Dr. Hadi Tarish Zabun: The MIC's Procurement
+Huwaysh.
+
+Dr. Hadi Tarish Zabun: The MIC's Procurement Expert
 
 MIC Director Huwaysh considered Dr. Hadi Tarish Zabun as his right-hand man for conducting foreign procurement deals. Dr. Zabun was the acting Director General of the Al Milad Company (MIC's largest domestic research and development company) prior to taking over the MIC Directorate of Research and Development and the MIC Special Office. He also served as Huwaysh's expert on the missile industry.
 
@@ -4323,10 +4100,7 @@ MIC Director Huwaysh considered Dr. Hadi Tarish Zabun as his right-hand man for 
 When the field officer located potential sellers or received bids, the Director of M4/4/5 would work with Dr. Zabun to broker a meeting between prin- ciples in MIC and the desk officer and others involved in the procurement effort. • Typical participants in these meeting included Dr. Zabun, the M4/4/5 director, their deputies, the M4/ 4/5 desk officer who was involved in setting up the transaction, personnel from the MIC establishment seeking the procurement, the heads of the MIC Commercial and Finance Directorates, and often Munir Mamduh Awad al-Kubaysi, head of the MIC procurement company Al-Basha'ir.
 
 - This group probably considered the terms of the proposed deal and discussed methods of transport and payment for the goods.
-
-Huwaysh.
-
-> • Huwaysh probably made the final decision on most major procurement actions.
+- Huwaysh probably made the final decision on most major procurement actions.
 
 %%page 71#2%%
 
@@ -4360,12 +4134,7 @@ The Al-Basha'ir Trading Company. The MIC established the Al-Basha'ir front compa
 
 %%page 73#2%%
 
-- Contrary to some sources, Al-Basha'ir was owned and operated by the MIC. Munir's history with the
-
-IIS and the fact that many other members of the
-
-Al-Basha'ir staff were also IIS officers, led many to assume Al-Basha'ir was an IIS front company.
-
+- Contrary to some sources, Al-Basha'ir was owned and operated by the MIC. Munir's history with the IIS and the fact that many other members of the Al-Basha'ir staff were also IIS officers, led many to assume Al-Basha'ir was an IIS front company.
 - The last chairman of Al-Basha'ir's board of directors was the head of the MIC's Administration and Finance Directorate, Raja Hasan Ali Al-Khazraji.
 
 ISG judges that several Regime members exerted varying degrees of influence over the Al-Basha'ir procurement process. There is, however, conflicting reporting of who was in control of Al-Basha'ir procurement. Several sources have stated that it was the MIC Director, 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh. Reportedly, Qusay Saddam Husayn al- Tikriti and a committee comprised of senior officials of the SSO met with Al-Basha'ir trustees to direct the procurement of prohibited materials and to authorize payments.
@@ -4374,16 +4143,12 @@ ISG judges that several Regime members exerted varying degrees of influence over
 - Qusay made all final decisions on procurement and expenditures.
 - Prior to Qusay, Husayn Kamil Hasan Al Majid, Saddam Husayn's, son-in-law held this position.
 
-Al-Basha'ir participated in the bidding process for the MIC by splitting the company into foreign and domestic sections. The split allowed Al-Basha'ir to increase its ability to communicate within the company and its offices abroad and for the import of
+Al-Basha'ir participated in the bidding process for the MIC by splitting the company into foreign and domestic sections. The split allowed Al-Basha'ir to increase its ability to communicate within the company and its offices abroad and for the import of military and security-related equipment. One set of
 
 documents would show the actual items to be procured and then the Al-Basha'ir trustees would prepare a second set of procurement documents with benign end-use items to conceal the true nature of the illicit activity.
 
-- For example, Al-Basha'ir described spare tank parts
-
-Regime Finance as air conditioning systems. Al-Basha'ir would then prepare the bank transfers for the seemingly innocuous items.
-
-and Procurement • One set of papers for the actual items were either given to the SSO, or in some cases taken to the homes of some of the Al-Basha'ir officials.
-
+- For example, Al-Basha'ir described spare tank parts as air conditioning systems. Al-Basha'ir would then prepare the bank transfers for the seemingly innocuous items.
+- One set of papers for the actual items were either given to the SSO, or in some cases taken to the homes of some of the Al-Basha'ir officials.
 - The company would offer small contracts to the Iraqi companies, while large contracts would be based on a recommendation from the Director of the IIS, 'Uday, Qusay, Vice President Ramadan or Saddam.
 
 Munir Mamduh 'Awad was largely responsible for Al-Basha'ir's success, according to an Iraqi official with direct access to the information. He ran the company well and maintained a close relationship with the IIS. As a result of this relationship, Al-Basha'ir could use its IIS liaison, Majid Ibrahim Sulayman, to facilitate purchases with IIS field stations around the world.
@@ -4391,7 +4156,7 @@ Munir Mamduh 'Awad was largely responsible for Al-Basha'ir's success, according 
 Munir also had a close relationship to the Shalish family and with other prominent personalities in Syria, and he opened the connection with the SES International in Syria. Dr. Asif Shalish was head of the Syrian firm SES, while his uncle, Dhu-al-Himma 'Isaa Shalish, owned the company and is the Chief of Presidential Security for his cousin, President Bashar al-Asad. Close relations with the Syrians allowed Al- Basha'ir to garner the bulk of the trade through Syria, which became the primary route for Iraq's illicit imports over the last years before OIF.
 
 - The SES and Lama companies are two of the major holding companies for Al-Basha'ir goods in Syria.
-- Fifty-four percent of all MIC purchases through the Syrian Protocol were through Al-Basha'ir, according to captured SOMO documents. military and security-related equipment. One set of
+- Fifty-four percent of all MIC purchases through the Syrian Protocol were through Al-Basha'ir, according to captured SOMO documents.
 
 %%page 74#2%%
 
@@ -4422,9 +4187,7 @@ Captured documents detail an agreement in 2002 between Iraq and Russian experts,
 - Some $100,000 for the Russian Standard Military Specifications system.
 - Another $500,000 for the Schematic Diagram System.
 
-According to Huwaysh, although the company was organized primarily to do business with Russia, in 2002 the MIC granted ARMOS access to other
-
-> potential markets, including Bulgaria and Ukraine. This new access was similar to that of Al-Basha'ir.
+According to Huwaysh, although the company was organized primarily to do business with Russia, in 2002 the MIC granted ARMOS access to other potential markets, including Bulgaria and Ukraine. This new access was similar to that of Al-Basha'ir.
 
 %%page 75#2%%
 
@@ -4440,29 +4203,25 @@ Figure 45. Chemicals for liquid propellant for sale by the MAS Economic Group to
 
 - In May 2002, ARMOS was offered Bulgarian elec- tro-chemical gun-barrel machining (ECM) from a Cypriot gray arms broker, Green Shield.
 
-Al-Mafakher for Commercial Agencies and Export Company. The MIC established the Al-Mafakher for Commercial Agencies and Export Company, Ltd in
-
-2001. Adil Nafik, a former Al-Basha'ir Deputy Director, managed Al-Mafakher. According to a former MIC employee, the company was considered ineffective, mainly because of its inefficient staff and the fact that it was a newly established business.
+Al-Mafakher for Commercial Agencies and Export Company. The MIC established the Al-Mafakher for Commercial Agencies and Export Company, Ltd in 2001. Adil Nafik, a former Al-Basha'ir Deputy Director, managed Al-Mafakher. According to a former MIC employee, the company was considered ineffective, mainly because of its inefficient staff and the fact that it was a newly established business.
 
 - Al-Mafakher was much smaller than Al-Basha'ir— with just six employees—and conducted only 1 percent of Al-Basha'ir's business.
 - Al-Mafakher had investment abroad, including a 50-percent share in Elba House in Jordan and a 25-percent stake in a Tunisian company, possibly named Parabolica, which manufactured leaf springs for automobiles.
 
 Iraqi Intelligence Service Saddam used the IIS to undertake the most sensitive procurement missions. Consequently, the IIS facilitated the import of restricted dual-use and military goods into Iraq through Syria, Jordan, Belarus, and Turkey. The IIS had representatives in most of Iraq's embassies in these foreign countries using a variety of official covers. One type of cover was the "commercial attaches" that were sent to make contacts with foreign businesses, set up front companies, and facilitate the banking process and transfers of funds as determined and approved by the senior officials within the government (see MoT Section, Facilitating Illicit Trade through Commercial Attaches). In June 2002, two IIS employees were transferred to the MFA and sent to work at the Iraqi Embassy in Belarus under the cover title of "attache," according to a letters written between the IIS and MFA. • From 1994-1997, the IIS M19 Directorate of Commercial Projects used front companies to import prohibited items, according to reporting.
 
-- A general order by Saddam in 1998 to collect tech-
+- A general order by Saddam in 1998 to collect technology with military applications led to the forma- tion of a committee consisting of the presidential
 
 secretary 'Abd Hamid Mahmud, IIS Director Tahir Jalil Habbush, MIC Director 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, and the head of the Directorate of General Military Intelligence. This committee tasked Habbush to procure technologies when Huwaysh deemed the items to be of a sensitive nature.
 
-Regime Finance
-
-- In 1998, after Saddam Husayn issued a general order for the use of IIS in developing new procurement relationships, the IIS dissolved M19 and and Procurement transferred procurement efforts to the M4 Directorate of Foreign Intelligence who had more direct access, infrastructure, and developed relationships with foreign countries, according to multiples sources.
+- In 1998, after Saddam Husayn issued a general order for the use of IIS in developing new procurement relationships, the IIS dissolved M19 and transferred procurement efforts to the M4 Directorate of Foreign Intelligence who had more direct access, infrastructure, and developed relationships with foreign countries, according to multiples sources.
 
 IIS Procurement Leadership and Mission IIS Procurement under the direction of Tahir Jalil Habbush (see Figure 46) was part of a collaborative effort headed by the MIC to obtain equipment, materials, and expertise for Iraq despite UN sanctions. In 1997, Saddam approved a MIC proposal to enlist IIS to develop new procurement, technology transfer, and technical assistance channels outside of Iraq. Within the IIS, primary procurement activities took place in the Scientific and Technical Information Office (M4/4/5).
 
 - Prior to 1998, the IIS M-19 Directorate had both a Domestic Branch that dealt with Iraqi companies and a Foreign Branch that dealt with foreign trade, according to a former IIS officer with direct access. The Foreign Branch was headed by Sadak Shaban.
 - In accordance with a 1997 mandate from Saddam to improve Iraq's missile capabilities, the MIC and IIS formed a joint effort to accomplish this goal, according to a senior MIC official. The participants included head of the IIS Scientific Intelligence Section and the director of the IIS.
 
-The IIS officers stationed outside of Iraq were in a good position to carry out the mission of the MIC and IIS procurement without drawing the attention of the international community. IIS officers generally reported back to the Scientific and Technical nology with military applications led to the formation of a committee consisting of the presidential
+The IIS officers stationed outside of Iraq were in a good position to carry out the mission of the MIC and IIS procurement without drawing the attention of the international community. IIS officers generally reported back to the Scientific and Technical
 
 %%page 78#2%%
 
@@ -4514,9 +4273,7 @@ IIS Procurement Cooperation with Foreign Intelligence Services IIS also used its
 
 MIC, and the Presidential Bureau to Syria. The discussions yielded an agreement that Syria would facilitate the transportation of material coming to Iraq by changing shipping documents to make the military equipment look like ordinary civil items, as well as changing end-user certificates to the Syrian Ministry of Defense.
 
-Regime Finance
-
-- Iraq had contracts with a Belarusian company— Belmetalenergo (BME)—and a joint Russian- Belarusian firm—Electric-Gaz-Com (EGC)—to and Procurement import missile technology, parts and expertise. All contracted goods with Belarus were sent through Syria. The SES International would implement contracts for transportation of the goods to Iraq under the protection of Syrian intelligence for a fee of 10 percent of the contract price.
+- Iraq had contracts with a Belarusian company— Belmetalenergo (BME)—and a joint Russian- Belarusian firm—Electric-Gaz-Com (EGC)—to import missile technology, parts and expertise. All contracted goods with Belarus were sent through Syria. The SES International would implement contracts for transportation of the goods to Iraq under the protection of Syrian intelligence for a fee of 10 percent of the contract price.
 
 Items Procured by the IIS In accordance with Saddam's instructions to MIC Director 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, the MIC-IIS relationship was formed to support Iraq's various missile programs. Although missile programs may have been the reason for the cooperative effort, the IIS also procured for the telecommunications industry, scientific research and development community, and the military. The following are examples of IIS deals that involved the procurement of such items: • In February 2003, Saddam ordered Al-Basha'ir head Munir Mamduh Awad al-Kubaysi, Al-Milad Company Director General Sa'ad Abbass, and IIS M4/4/5 procurement officer for Syria and Bulgaria Majid Ibrahim Salman al-Jabburi to travel to Damascus, Syria to negotiate the purchase of SA- 11 and Igla surface-to-air missiles, according to a source with good access. This team negotiated with 'Abd-al-Qadir Nurallah, manager of the Nurallah Company, to purchase the missiles from a Bulgarian firm, to provide end-user certificates, and to ship the weapons to Iraq.
 
@@ -4535,9 +4292,7 @@ Directorate, previously known as the M19 Directorate. As of 1994, M4/8 was organ
 
 The Domestic Section, also known as Section One, was primarily responsible for creating front companies inside Iraq and facilitating trade with these companies to import/export oil, batteries, copper and food products. Section One also maintained front companies in the restaurant and retail businesses on behalf of the IIS Directorate of Counterintelligence (M-5). These M-5 front companies included the Al- Zaytun and Al-Amhassi restaurants (see Figure 47). Although M-5 owned these business establishments, they were leased to Iraqi nationals who were not associated with the Iraqi Government. Section One managed a total of eight companies within the trade, travel, and hauling industries, but as of June 2003, Al- Dala and Al-Yarmuk travel companies were the only front companies still operating in Baghdad. The Foreign Section, also known as Section Two, conducted covert trade with overseas companies. Sadiq Sha'ban was the director of this section from 1994 to 1995 Salih Faraj was director in 1995, Sadiq Sha'bi from 1995 to 1997, and Husayn al-Ani from 1997 to 2003.
 
-The Trading Section, also known as Section Three, dealt with the import and export computers, electronic equipment, listening devices, copper, and industrial products for use within the IIS and other government agencies. Starting in 1995, this section, while it was housed within the Projects Department, operated directly under the management of the IIS General Director. According to a former high-level official at the IIS, Walid Hadi, who served as the section's director from 1989 until 2003, basically became a figurehead from 1995. In 1997, M-19 Director Mana 'Abdallah Rashid ordered a halt to all the activities of Section Two, because of the failure of one of the sections companies to deliver spare parts, tires, batteries, electronic equipment, and vehicles to the Office of the Presidency. During this same period, Hassan Khushnaw,
-
-> the manager of a Section One front company, Al-Wadi Al-Akhad Trading, was caught attempting to smuggle copper out of Iraq. Khusnaw was subsequently
+The Trading Section, also known as Section Three, dealt with the import and export computers, electronic equipment, listening devices, copper, and industrial products for use within the IIS and other government agencies. Starting in 1995, this section, while it was housed within the Projects Department, operated directly under the management of the IIS General Director. According to a former high-level official at the IIS, Walid Hadi, who served as the section's director from 1989 until 2003, basically became a figurehead from 1995. In 1997, M-19 Director Mana 'Abdallah Rashid ordered a halt to all the activities of Section Two, because of the failure of one of the sections companies to deliver spare parts, tires, batteries, electronic equipment, and vehicles to the Office of the Presidency. During this same period, Hassan Khushnaw, the manager of a Section One front company, Al-Wadi Al-Akhad Trading, was caught attempting to smuggle copper out of Iraq. Khusnaw was subsequently
 
 %%page 81#2%%
 
@@ -4558,13 +4313,14 @@ The IIS used companies that had contact with the outside world as a means of col
 
 Samara, Karbala and Najaf.
 
-- The IIS created the company as a way to gain access to the Iranian tourists once they were within Iraq and collected information through casual illici-
+- The IIS created the company as a way to gain access to the Iranian tourists once they were within Iraq and collected information through casual illici- tation.
 
 Special Security Organization
 
 ISG has found little evidence that the SSO was used to procure WMD materials, prohibited or dual-use goods. This finding is consistent with the SSO's mission of domestic only operations and inherent primary mission of securing Regime sites and leaders and monitoring the citizenry to ensure loyalty. The SSO associated laboratory, the Food Examination and Analysis Laboratory (FEAL), conducted food testing but there is no evidence to date that FEAL used illicit channels to procure equipment for Iraq. • Amir Ibrahim Jasim al-Tikriti, a member of the SSO and a relative of Saddam, was sent to Poland in 2000 to work on his doctorate in mathematics. Although there he procured Volga engines and batteries on behalf of the IIS for Iraq, according to claims. The same source stated that this procurement relationship was largely a result of Amir's relationship to Saddam and not because of his SSO affiliation.
 
-- According to authorization and shipping documents, between 1993 and March 2003, the State Company for Marketing Drugs and Medical Appliances, Kimadia, shipped dual-use chemicals and culture media to Iraq's SSO. The items were supplied to SSO's Walid Khalid. tation. • All of the employees of the company were IIS employees. strove to revitalize the IAEC capabilities. The chief
+- According to authorization and shipping documents, between 1993 and March 2003, the State Company for Marketing Drugs and Medical Appliances, Kimadia, shipped dual-use chemicals and culture media to Iraq's SSO. The items were supplied to SSO's Walid Khalid.
+- All of the employees of the company were IIS employees. strove to revitalize the IAEC capabilities. The chief
 
 %%page 83#2%%
 
@@ -4573,7 +4329,6 @@ Iraqi Atomic Energy Commission
 According to multiple Iraqi sources, the IAEC was responsible for the development and retention of nuclear expertise in Iraq. The IAEC most likely relied on its own procurement department for acquiring materials and technology.
 
 - A foreign intelligence service revealed in 2002 that the IAEC was pursuing procurement contracts from a South African company for HF communications systems and 16,000 channel receivers.
-
 - Captured documents dated 2002 show direct negotiations with several Indian institutions for medical and chemical technology transfers.
 - Other documents dated 2002 reveal contracts to obtain vacuum furnaces manufactured in Russia.
 
@@ -4587,10 +4342,8 @@ In January 2002, according to a detained senior MIC official, Saddam directed th
 still functioning up to the Coalition invasion in 2003, improvements under the program included:
 
 - Creation of new machine tools workshop at Tuwaitha outfitted with new generic machine tools, including CNC machines (see Figure 49).
-
-Regime Finance • Improvement of the IAEC's nonnuclear technical and manufacturing capabilities.
-
-and Procurement • Budget increases that resulted in ten-fold salary increases and new recruiting efforts for IAEC scientists.
+- Improvement of the IAEC's nonnuclear technical and manufacturing capabilities.
+- Budget increases that resulted in ten-fold salary increases and new recruiting efforts for IAEC scientists.
 
 The IAEC's procurement relationship with the IIS dates back to the late 1990s. The IIS procurement channel was reportedly reserved for sensitive foreign technical information and items prohibited by the UN sanctions. March 2002 IIS internal documents describe the creation of a committee to obtain resources for the IAEC.
 
@@ -4619,9 +4372,7 @@ The MHESR Research and Development Directorate, headed by Hasan Salih (and later
 - Twenty professors assisted the Al-Samud factory. They worked to solve technical problems and provide training for staff members at the factory. According to one source, however, many Iraqis considered the overall effort of limited value.
 - MIC missile experts also worked closely with the universities, in some cases supervising students with graduate research and in other cases teaching students at the universities.
 
-Huwaysh involved himself in each phase of MIC-sponsored projects with the MHESR, including project applications, planning, development, and implementation. Huwaysh reviewed and approved all project proposals submitted by university deans, department heads or faculty advisers within Iraq. After receiving Huwaysh's approval, the company and the university staff would discuss and agree to the parameters of the project. Then MIC opened the project up to a normal bidding process, inviting different institutions, including foreign nationals from Jordan and Syria, to tender bids for the project proposals. After scrutinizing incoming bids, university department heads conducted and then submitted a feasibil-
-
-> ity assessment of the proposal to the MIC. The MIC chose the final bidder; the contract price would be discussed when the contract had been finalized.
+Huwaysh involved himself in each phase of MIC-sponsored projects with the MHESR, including project applications, planning, development, and implementation. Huwaysh reviewed and approved all project proposals submitted by university deans, department heads or faculty advisers within Iraq. After receiving Huwaysh's approval, the company and the university staff would discuss and agree to the parameters of the project. Then MIC opened the project up to a normal bidding process, inviting different institutions, including foreign nationals from Jordan and Syria, to tender bids for the project proposals. After scrutinizing incoming bids, university department heads conducted and then submitted a feasibility assessment of the proposal to the MIC. The MIC chose the final bidder; the contract price would be discussed when the contract had been finalized.
 
 %%page 85#2%%
 
@@ -4632,9 +4383,7 @@ MIC Research Support at Universities
 Documentary evidence reveals that MIC and its companies divided their research projects among Iraq's major universities.
 
 - Baghdad University and Mustansiriyah University provided general multi-discipline support to MIC projects.
-
 - Mosul University provided support to the MIC in the areas of remote sensing and chemistry.
-
 - In another case, Basrah University provided support in polymer chemistry.
 
 Other examples of specific projects sponsored by MIC companies include:
@@ -4649,11 +4398,7 @@ Other examples of specific projects sponsored by MIC companies include:
 
 Exploitation of Academic Exchanges for
 
-Iraq's academic exchange program—for both students and professors—was used to facilitate the transfer of dual-use technology, using home universities as false end users to illicitly acquire goods in support of Iraq's WMD programs. By sending
-
-Regime Finance students and professors abroad, Iraq may also have been using both students and professors to transfer, support and advance Iraq's intellectual and WMD "infrastructure."
-
-and Procurement
+Iraq's academic exchange program—for both students and professors—was used to facilitate the transfer of dual-use technology, using home universities as false end users to illicitly acquire goods in support of Iraq's WMD programs. By sending students and professors abroad, Iraq may also have been using both students and professors to transfer, support and advance Iraq's intellectual and WMD "infrastructure."
 
 - In 2000, Amir Ibrahim Jasim al-Tikriti, a member of the SSO, was sent to Poland to continue his mathematics doctorate on the assumption that he would return to the SSO upon completion of his studies. During that time in Poland, ISG judges that the IIS recruited or tasked al-Tikriti to facilitate the purchase of Volga missile engines for the Iraq's Al- Samud II missile program. ISG has corroborating evidence that the MIC trading company ARMOS signed the contract(s) with a Polish firm for the Volga engines, and that the IIS controlled the entire acquisition.
 - According to reporting, approximately 250 Volga engines were purchased from a stock of old missiles and sent back to Iraq possibly with complicity of the Iraqi Embassy in Warsaw. Al-Karamah purchased the engines and originally stored them at the Samud factory, and then moved them to Ibn Al-Haytham.
@@ -4674,7 +4419,7 @@ from Jordan to Iraq via the Iraqi Embassy. Jordan
 The MoA also used the MIC to obtain goods that were deemed especially difficult to procure given the restrictions of UN sanctions. At the same time, the MIC would occasionally identify the MoA as a false end user to obtain restricted dual-use goods.
 
 - Between 1992 and 1998, the MIC was responsible for all chemical procurement in Iraq. The MIC brought active ingredients into the country using false bills of lading, formulated the product, and then distributed the final product to the appropriate ministry. For example, the MIC smuggled insec- ticides—probably Malathion and Parathion—into Iraq, formulated them at Al-Tariq, and subsequently provided them to the MoA.
-- In late 2002, MIC and IIS directed Iraqi businessman, Sattan Al Ga'awd (who may also be known as Sattam Al-Gaaod), to approach a Croatian engineer, Miroslav, and other Croatians to purchase restricted precursor chemicals from Croatia. According to an Iraqi businessman with direct access, Al Ga'awd was tasked for this activity due to his close working relationship in the past with the Iraqi Government. The end user of the chemicals was reportedly
+- In late 2002, MIC and IIS directed Iraqi businessman, Sattan Al Ga'awd (who may also be known as Sattam Al-Gaaod), to approach a Croatian engineer, Miroslav, and other Croatians to purchase restricted precursor chemicals from Croatia. According to an Iraqi businessman with direct access, Al Ga'awd was tasked for this activity due to his close working relationship in the past with the Iraqi Government. The end user of the chemicals was reportedly the MoA but the actual recipient was said to be involved in CW activities, according to the same source.
 
 Ministry of Interior
 
@@ -4685,8 +4430,6 @@ Front Company Conglomerates: Al-Eman and Al-Handal
 In addition to the major front companies already mentioned in this report, the Iraqi Government and its citizens set up hundreds of other front companies both within the country and around the world for the purpose of smuggling prohibited items into the country. ISG now knows of over 230 of these front companies, many of which were created for a single transaction and never used again. There were, however, several major front companies that participated in the majority of this illicit business, some of which were government-sponsored and one large conglom- erate, Al-Eman, which was privately owned.
 
 The term "Iraqi front company" has become pervasive in terms of Iraq's procurement networks. One definition of an Iraqi front company is an Iraqi company or Iraqi controlled company, operating either within Iraq or abroad that knowingly partakes in international commerce with the intent to acquire goods or services for an Iraqi client using deceptive trade practices. Deceptive practices could include misleading or colluding with suppliers, intermediaries, or others involved in the acquisition, shipping, or payment processes. This would include such actions as misrepresenting the origin or final destination of goods, or misidentifying the goods, the end user, or end use. Complicating matters, many of these companies were involved in legitimate trade, with illicit activity playing a less significant role. The association of the IIS with a company also suggested Iraqi influence and front activity.
-
-the MoA but the actual recipient was said to be involved in CW activities, according to the same source.
 
 %%page 87#2%%
 
@@ -4705,7 +4448,7 @@ Al-Eman, directed by Sattam Hamid Farhan Al- Ga'awd (Al Ga'aod) (see Figure 51) 
 - The accountants in Al-Eman are key figures with the best overall knowledge of the company's activities.
 - Al-Eman did considerable business with Syria through the "Syrian Protocol," an arrangement of false purchases and kickbacks that laundered funds for Iraqi purchases.
 
-The Al-Eman Group was also involved in the OFF kickback scheme through the Jordan National Bank and embassy commercial attaches. Upon completion of services under UN OFF, the Banque Nationale de Paris deposited payments in the National Bank of Jordan, which provided banking services to Al-Eman. The National Bank of Jordan automatically deducted a 10-percent performance/kickback from the UN OFF ited the kickback amount into accounts controlled
+The Al-Eman Group was also involved in the OFF kickback scheme through the Jordan National Bank and embassy commercial attaches. Upon completion of services under UN OFF, the Banque Nationale de Paris deposited payments in the National Bank of Jordan, which provided banking services to Al-Eman. The National Bank of Jordan automatically deducted a 10-percent performance/kickback from the UN OFF payment. The National Bank of Jordan then deposited the kickback amount into accounts controlled
 
 Al Ga'awd's Ties to Iraqi Leadership
 
@@ -4718,7 +4461,7 @@ Al Ga'awd's was one of Saddam's most trusted con- fidants in conducting clandest
 The Al-Eman Network Dozens of companies were included in the Al-Eman network, most of which were either owned or operated by members of the Al-Gaaod family. The following table (see Figure 52) is a sampling of some of the Al-Eman companies and their role in acquiring materials for the Iraqi government: Key Al-Eman Owners: Sattam Hamid Farhan Al Ga'awd and his Family. Extended family plays a key role in Al-Eman operations. As of March 2003, three of Sattam Hamid Farhan Al Ga'awd's cousins ran subsidiary or affiliated companies in the network.
 
 - Jalal Al Ga'awd owns the subsidiary Sajaya.
-- Talal Al Ga'awd functions in a public relations role payment. The National Bank of Jordan then depos- for the family.
+- Talal Al Ga'awd functions in a public relations role for the family.
 
 %%page 89#2%%
 
@@ -4730,9 +4473,9 @@ Figure 52. The Al-Eman Network.
 
 %%page 90#2%%
 
-pany. his connections with the IIS to import items prohibited by the UN, including chemicals.
+ited by the UN, including chemicals.
 
-- Hamid Al Ga'awd is owner of the Al-Yanbu Com-
+- Hamid Al Ga'awd is owner of the Al-Yanbu Company.
 
 The Iraqi Regime arrested both Talal and Hamid Al Ga'awd in 1996 as a result of unspecified financial and contractual problems related to deals with the MoA. As of late 2001, Sattam Hamid Farhan Al Ga'awd's brother, 'Abd-al-Salam Farhan Al Ga'awd was running a firm called Al-Arab Agencies. This company was used for shipping, operating primarily out of Basrah. Al-Arab handled many of the firm's transport requirements and petroleum exports via the Gulf.
 
@@ -4746,7 +4489,7 @@ Sattam Al Ga'awd's Relationship with the IIS. Al Ga'awd has denied being involve
 
 - His brothers, Abd al-Salam Farhan Al Ga'awd, Abd al-Salam Farhan Al Ga'awd, Abd al-Salam Farhan Al Ga'awd, and Najib Hamid Farhan Al Ga'awd were all members of the IIS.
 
-- Sattam Hamid Farhan Al Ga'awd was able to use
+- Sattam Hamid Farhan Al Ga'awd was able to use his connections with the IIS to import items prohib-
 
 The IIS frequently used businessmen with international connections to import goods, including nonmilitary goods, into Iraq. Al Ga'awd associates suspected he had IIS links based on a number of factors.
 
@@ -4770,9 +4513,9 @@ front that oversees and monitors tourists coming into Baghdad to visit holy site
 
 %%page 93#2%%
 
-> Commodities 1991 to 1996 ISG has identified entities from three countries that
+ISG has identified entities from three countries that
 
-Supplying Iraq With Prohibited
+> Supplying Iraq With Prohibited Commodities
 
 Overview
 
@@ -4784,11 +4527,9 @@ Despite UN sanctions, many countries and companies engaged in prohibited procure
 - The number of countries and companies supporting Saddam's schemes to undermine UN sanctions increased dramatically over time from 1995 to 2003 (see figure 54).
 - A few neighboring countries such as Jordan, Syria, Turkey, Egypt, and Yemen, entered into bilateral trade agreements with Iraq. These agreements provided an avenue for increasing trade coordination and eventually led to sanctions violations.
 
-The countries supporting Iraq's illicit procurement changed over time. These changes reflected trends based on Saddam Husayn's ability to generate hard currency to buy items and the willingness of the international community to criticize those countries selling prohibited goods to the Regime. The following sections addressing each country have been grouped according to when evidence indicates they began sup-
+The countries supporting Iraq's illicit procurement changed over time. These changes reflected trends based on Saddam Husayn's ability to generate hard currency to buy items and the willingness of the international community to criticize those countries selling prohibited goods to the Regime. The following sections addressing each country have been grouped according to when evidence indicates they began supporting Saddam's illicit procurement programs.
 
-Procurement Suppliers During the Decline Phase, began supporting Iraq with illicit procurement during the post-Gulf war "decline" phase in the Regime: Romania, Ukraine, and Jordan. Romania and Ukraine
-
-Regime Finance had just emerged from the Soviet bloc with an excess of military hardware and expertise and a need for hard currency. Jordan, which profited primarily from allowing transshipment, argued that Iraq was a major and Procurement trading partner before 1991 and trade with Iraq was a necessity.
+Procurement Suppliers During the Decline Phase, 1991 to 1996 began supporting Iraq with illicit procurement during the post-Gulf war "decline" phase in the Regime: Romania, Ukraine, and Jordan. Romania and Ukraine had just emerged from the Soviet bloc with an excess of military hardware and expertise and a need for hard currency. Jordan, which profited primarily from allowing transshipment, argued that Iraq was a major trading partner before 1991 and trade with Iraq was a necessity.
 
 Romania According to a high-level official of the former Iraqi Regime, trade between Iraq and Romania flourished during the Ceauscescu era (1965 to 1989). The IIS had an active presence in Romania throughout this period and MIC engineers were active in procurement programs directed from the Iraqi Embassy in Bucharest.
 
@@ -4797,7 +4538,7 @@ Romania According to a high-level official of the former Iraqi Regime, trade bet
 According to documents identified by UNSCOM in Operation Tea Cup, Iraq reestablished a procurement relationship with the Romanian firm Aerofina in February 1994. The Iraqis and Romanians conducted two to three delegation visits between Bucharest and Baghdad to discuss sending Romanian missile experts to Iraq to assist with design and guidance control problems in the Al Fat'h missile, later called the Al Samud, and to obtain missile parts and related raw materials.
 
 - By August 1994, several procurement contracts had reportedly been signed.
-- In November 1995, Iraqi sent a letter to Aerofina requesting that the missile repair part shipments be temporarily stopped due to concerns over the quality of the goods. porting Saddam's illicit procurement programs.
+- In November 1995, Iraqi sent a letter to Aerofina requesting that the missile repair part shipments be temporarily stopped due to concerns over the quality of the goods.
 
 %%page 94#2%%
 
@@ -4813,10 +4554,7 @@ UNSCOM's Operation Tea Cup (1997 to 1998)
 
 From 1997 to 1998, UNSCOM inspectors conducted "Operation Teacup," an operation designed to reveal Iraq's efforts to procure prohibited military and WMD-related goods.
 
-- The operation was launched after the defection of Saddam's son-in-law, Husayn Kamil, in 1995. Thousands of WMD-related documents were captured by the UN at Husayn Kamil's chicken farm, including the Al Samud contracts (see the Husayn
-
-Kamil and The Saga of the "Chicken Farm" Documents insets in the Regime Strategic Intent chapter.)
-
+- The operation was launched after the defection of Saddam's son-in-law, Husayn Kamil, in 1995. Thousands of WMD-related documents were captured by the UN at Husayn Kamil's chicken farm, including the Al Samud contracts (see the Husayn Kamil and The Saga of the "Chicken Farm" Documents insets in the Regime Strategic Intent chapter.)
 - In this operation, Iraqi buyers (including Dr. Hashim Halil Ibrahim Al 'Azawi) negotiating with Romanians for prohibited gyroscopes were video- taped.
 - As a result of UNSCOM's operation, the Romanian Government acknowledged in 1998 that Aerofina sold Iraq weapons parts in 1994 via an intermediary company in Jordan.
 
@@ -4824,22 +4562,18 @@ According to a source with good access, a Romanian source provided analytical eq
 
 In March 1998, Iraqi intelligence conducted an operation to smuggle weapons and military equipment from Romania in violation of UN sanctions, according to a reliable source. Walid al-Rawi, an IIS agent stationed in Romania, was sending pictures of tanks and military equipment available for sale from Romania back to Baghdad. An Iraqi diplomatic pouch was used to transfer the photographs. There is no further information concerning the type, number, or source of the conventional military goods purchased.
 
-- Al-Rawi used Qatar and Dubai in the UAE as transshipment points for the illicit goods. Bribes were
+- Al-Rawi used Qatar and Dubai in the UAE as transshipment points for the illicit goods. Bribes were used to circumvent customs inspections at ports.
 
 Walid Al Rawi obtained financing for the miliapproved, the cash was reportedly sent to Romania via Geneva.
 
-According to captured documents, Romania's Uzinexport SA was contracting in October 2001 to
-
-Regime Finance provide Iraq with equipment, machinery and materials linked to a magnet production line for an Iraqi V-belt drive project. This company worked with a mix of Iraqi front companies and intermediaries that were and Procurement representing the MIC, the Iraqi lead for the project. The magnets—assembled by the Iraqis with Romanian help—could have been suitable for systems used to spin gas centrifuge rotors for the enrichment of uranium. Although there is no evidence that the magnets were employed in the production of gas centrifuges, the capability to indigenously produce magnets would have allowed Iraq to maintain knowledge and skill- sets in this area.
+According to captured documents, Romania's Uzinexport SA was contracting in October 2001 to provide Iraq with equipment, machinery and materials linked to a magnet production line for an Iraqi V-belt drive project. This company worked with a mix of Iraqi front companies and intermediaries that were representing the MIC, the Iraqi lead for the project. The magnets—assembled by the Iraqis with Romanian help—could have been suitable for systems used to spin gas centrifuge rotors for the enrichment of uranium. Although there is no evidence that the magnets were employed in the production of gas centrifuges, the capability to indigenously produce magnets would have allowed Iraq to maintain knowledge and skill- sets in this area.
 
 - The various front companies and trade intermediaries involved in the project included the Jordanian branch of the Iraqi firm Al-Sirat, the Jabir Bin- Hayyan General Company, the Aa'ly El-Phrates company, and the Ali Al-Furat Trading Company. Jordan may have also been used as a transshipment point for the magnet technology.
 - Captured documents indicate that the total sum of the contract awarded to Uzinexport for the V-belt project was $4,607,546. This was paid though a combination of cash, letters of credit, oil, and raw materials.
 
-Ukraine Ukraine was one of the first countries involved in illicit military-related procurement with Iraq after the first Gulf war. Iraqi delegation visits to Ukraine were first evident in 1995. These visits were reciprocated in Iraq from 1998 to 2003. The highest-levels of the Ukrainian Government were reportedly complicit in this illicit trade as demonstrated by negotiations conducted in regard to the sale of a Kolchuga antiaircraft radar system to Iraq in 2000. In addition, Ukrainian state and private exporting companies independently facilitated the transfer of prohibited used to circumvent customs inspections at ports.
+Ukraine Ukraine was one of the first countries involved in illicit military-related procurement with Iraq after the first Gulf war. Iraqi delegation visits to Ukraine were first evident in 1995. These visits were reciprocated in Iraq from 1998 to 2003. The highest-levels of the Ukrainian Government were reportedly complicit in this illicit trade as demonstrated by negotiations conducted in regard to the sale of a Kolchuga antiaircraft radar system to Iraq in 2000. In addition, Ukrainian state and private exporting companies independently facilitated the transfer of prohibited technologies and equipment, mainly in the missile field, to the embargoed Regime.
 
 %%page 96%%
-
-field, to the embargoed Regime. Company technologies and equipment, mainly in the missile
 
 According to IIS memos to the Iraqi Embassy in Kiev, Ukraine, was an important political ally for Iraq. After the initial business contacts in the mid- 1990s, the government of Iraq embarked in a diplomatic exchange with Ukraine in 2001. ISG judges that Saddam's goal with this relationship was to gain access to Ukraine's significant military production facilities, including a large portion of the former Soviet space and rocket industry.
 
@@ -4851,7 +4585,7 @@ ISG has recovered further documentation disclosing representatives from Ukrainia
 - By 1998, the Iraqi Al-Karamah State Establishment hosted numerous visits from Ukrainian suppliers seeking contracts assisting Iraq with its missile program.
 - Mr. Yuri Orshansky, from the Ukrainian Company MontElect, led the Ukrainian visits. Orshansky's relationship with Iraq began in September 1993 when he arrived in Baghdad accompanied by Dr. Yuri Ayzenberg from the Ukrainian firm Khartron, a known company with missile guidance system design capability. Within 2 months, an Iraqi delegation reciprocated the visit to Ukraine.
 
-Professor Yuri Orshansky and the MontElect
+Professor Yuri Orshansky and the MontElect Company
 
 Yuri Orshansky, a professor of electronics and director of the Ukrainian MontElect Company, was the key facilitator between Saddam's Regime and Ukraine.
 
@@ -4868,7 +4602,6 @@ Orshansky continued to visit Iraq in 1998 to 2003 and, through his company MontE
 %%page 97#2%%
 
 - The technology included guidance components for surface-to-air missiles, assistance in the development of batteries for the latest antiaircraft missiles, providing equipment for missile research and possibly assisting in the establishment of a college for training of missile expertise.
-
 - Cooperation was initiated by Iraq requesting quotes on a test stand for rocket motors, a series of gyroscopes and accelerometers for missile-guidance systems and high precision machine tools for manufacturing missile components.
 
 In 2000, the Ukraine-Iraq relationship became public-knowledge when the Ukrainian Government was implicated in selling Iraq a Kolchuga antiaircraft radar system. President Leonid Kuchma was accused of personally approving the Kolchuga sale, worth $100 million, via a Jordanian intermediary.
@@ -4879,11 +4612,9 @@ In 2000, the Ukraine-Iraq relationship became public-knowledge when the Ukrainia
 
 to Iraq. After this deal, Ukraine and Iraq signed a trade and technical cooperation agreement in Octoin November 2001.
 
-The Iraqi IIS, MIC, and the associated MIC front companies also acquired military-related goods from
+The Iraqi IIS, MIC, and the associated MIC front companies also acquired military-related goods from Ukraine. According to information obtained in an interview with the former MIC Director 'Abd-al- Tawab 'Abdallah Al Mullah Huwaysh:
 
-Regime Finance Ukraine. According to information obtained in an interview with the former MIC Director 'Abd-al- Tawab 'Abdallah Al Mullah Huwaysh:
-
-and Procurement • In 2001, the IIS purchased five motors for unmanned aerial vehicles (UAVs) from the Ukrainian company Orliss for the MIC and Ibn Fernas. The Orliss company representative was by a female physi- cian named Olga Vladimirovna. The motors were allegedly transported from Ukraine to Iraqi via Iraqi diplomatic pouch.
+- In 2001, the IIS purchased five motors for unmanned aerial vehicles (UAVs) from the Ukrainian company Orliss for the MIC and Ibn Fernas. The Orliss company representative was by a female physi- cian named Olga Vladimirovna. The motors were allegedly transported from Ukraine to Iraqi via Iraqi diplomatic pouch.
 
 - In another instance an "Olga" (most likely Ms. Vladimirovna from Orliss) was known to have assisted the MIC with a carbon fiber filament winding and insulating material project. She was also the point of contact, in late 2002, for a contract with an unspecified Ukrainian supplier for missile engines and gyroscopes, but none of these items were ever delivered. The MIC only received some models of the gyroscopes.
 
@@ -4932,29 +4663,23 @@ Embassy to Jordan in Amman. The firm did not manufacture goods; it simply acted 
 
 Iraq.
 
-- The MIC procured banned items with the assistance of the Iraqi CA in Jordan. In 2000, a former high-ranking Iraqi official stated that a payment of $2.275 million was made to a Lebanese company for BMP-2 (armored vehicle) 30-mm cannon barrel-manufacturing technology. This technology originated with an arms firm called Yugoimport-
-
-FDSP, a firm based in the former Federal Republic of Yugoslavia known for violating UN sanctions on
-
-Iraq.
+- The MIC procured banned items with the assistance of the Iraqi CA in Jordan. In 2000, a former high-ranking Iraqi official stated that a payment of $2.275 million was made to a Lebanese company for BMP-2 (armored vehicle) 30-mm cannon barrel-manufacturing technology. This technology originated with an arms firm called Yugoimport- FDSP, a firm based in the former Federal Republic of Yugoslavia known for violating UN sanctions on Iraq.
 
 Methods Used To Hide Illicit Procurement via Jordan. According to a high-level source from the Al-Eman network, the Jordanian Government aided Iraqi efforts to conceal its illicit trade activity through its decision announced in October 2000 to terminate an inspection agreement with Lloyd's Registry. This agreement, in force since 1993, permitted Lloyd's to inspect goods coming through the Port of Aqaba. All OFF goods were monitored at all points of entry. Lloyd's, however, was not required to report illicit cargo (see Ministry of Transport section).
 
 - An Iraqi customs official with direct access believed that the IIS operated several front company offices at the Turaybil checkpoint on the Iraq-Jordan border. These included Al-Etimad and Al-Basha'ir. Any goods destined for these companies received special treatment at the border.
 
-A Jordanian businessman with extensive business contacts with the former Iraqi Regime asserted that official Jordanian approval was required for all trade with Iraq. Individual shipments had to be approved by the Jordanian security committee; the goods were sometimes photographed. Fawaz Zurequat, a possible Jordanian intelligence officer, who may have been imprisoned after 1999 because of his involvement with trading with Iraq, was a key Jordanian contact in
+A Jordanian businessman with extensive business contacts with the former Iraqi Regime asserted that official Jordanian approval was required for all trade with Iraq. Individual shipments had to be approved by the Jordanian security committee; the goods were sometimes photographed. Fawaz Zurequat, a possible Jordanian intelligence officer, who may have been imprisoned after 1999 because of his involvement with trading with Iraq, was a key Jordanian contact in this process.
 
 • An Iraqi customs official believed that the trade with Jordan was very useful for acquiring prohibited goods, particularly vehicles and computers. The Iraqi Directorate of General Military Intelligence (DGMI) had two shipments per week through Turaybil after 2000—Iraqi customs officials were not permitted to check these goods.
 
-Transport Routes for Procurement via Jordan. Iraq Regime Finance had formal agreements with Jordan during the 1990s. Jordan was the primary route through which Iraqi and Procurement material moved. The IIS had a presence at key Jordanian transport nodes.
+Transport Routes for Procurement via Jordan. Iraq had formal agreements with Jordan during the 1990s. Jordan was the primary route through which Iraqi material moved. The IIS had a presence at key Jordanian transport nodes.
 
 - 'Abd-al-Karim Jasim (Abu Lika) was the IIS representative at Al-Aqaba Port for three years until OIF.
 - Turaybil on the border of Iraq and Jordan was the main entry point for illicit trade. A former high-ranking government official asserted that the IIS, DGMI, and the Directorate of General Security (DGS) had large offices there and enjoyed close liaison relationships with their Jordanian intelligence counterparts. Maj. Gen. Jihad Bannawi was head of the IIS section at Turaybil.
 - Al-Eman had its own shipping division to transport goods to Iraq. It shipped goods through the Jordanian, Syrian, and Turkish official border checkpoints according to an Iraqi businessman, the supplier shipped goods through Aqaba Port or Amman airport.
 
 Financing Procurement via Jordan. After 1999, the most important Jordanian contribution in assisting Iraq's illicit procurement apparatus was access to Jordan's financial and banking systems. An Iraqi businessman assessed that before 1996, 95 percent of Iraqi trade was conducted through Jordanian Government-run banks. After 1996, Jordanian banks handled only 30 percent of that trade, mostly from Russia. Document exploitation reveals that the Central Bank of Iraq (CBI) and the Iraqi SOMO provided the funds to Jordanian banks, which were spent by MIC, Iraqi front companies, Iraqi intelligence organs, and the commercial and military attachés present in the Iraqi Embassy in Jordan.
-
-this process.
 
 %%page 102%%
 
@@ -4977,19 +4702,19 @@ Military and security entities openly contracted with Syrian companies under the
 
 %%page 103%%
 
-This information is based on the contracting entity, not necessarily the beneficiary entity.
+This information is based on the contracting entity, not necessarily the beneficiary entity. Figure 57. Allocation of the goods portion of the Syrian
 
-Figure 57. Allocation of the goods portion of the Syrian Protocol, 2000-2003.
+Protocol, 2000-2003.
 
 imports may have been destined for these end users is not known. The SOMO database does not mention any MIC transactions that were not explicitly contracted for by MIC (see Figure 57).
 
 Most of Iraq's military imports transited Syria by several trading companies, including some headed by high-ranking Syrian government officials, who competed for business with Iraq. Syrian traders were often paid under the auspices of the Syrian protocol, according to multiple sources. According to a captured letter dated 2 March 2002 and written on the letterhead of a MIC front company, Al-Basha'ir, a former MIC Deputy Director stated that the North Korean Tosong Trading Company would "be financed according to the Iraqi-Syrian Protocol…through SES International."
 
-• According to the MIC Director 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, Syrian traders who imported weapons and materials for Iraq worked extensively with MIC front companies. The Syrian traders were also required to share their profits with the other traders. The owner of the Syrian trading company SES, for example, frequently complained that he had to give up too much of his profits to the other traders.
+- The Central Bank of Syria was the repository of funds used by Iraq to purchase goods and materials both prohibited and allowed under UN sanctions.
 
+- According to the MIC Director 'Abd-al-Tawab 'Abdallah Al Mullah Huwaysh, Syrian traders who imported weapons and materials for Iraq worked extensively with MIC front companies. The Syrian traders were also required to share their profits with the other traders. The owner of the Syrian trading company SES, for example, frequently complained that he had to give up too much of his profits to the other traders.
 - Dhu al-Himma Shalish, head of Syrian Presidential Security and a relative of Syrian President Bashar al-Asad, owned the SES International, and was heavily involved in the Iraqi weapons trade, according to a source with direct access.
 - Dhu al-Himma's nephew Assif Shalish managed SES and its subordinates.
-- The Central Bank of Syria was the repository of funds used by Iraq to purchase goods and materials both prohibited and allowed under UN sanctions.
 
 %%page 104%%
 
@@ -5029,12 +4754,9 @@ The MIC was the only military or security entity that openly contracted with Tur
 - The MIC contracted for $28 million worth of goods—9 percent of the total procurement noted.
 - Of this $28 million, 137 contracts were signed with at least 24 different companies. The single largest Turkish supplier seems to be Ozgin Cinko Bakirve Metal Mamulleri, Imalat Sanayi, although the name
 
-was listed in seven different ways. This company accounted for a total of 30 contracts with MIC worth over $10 million—36 percent of MIC's total contract value. Although the SOMO database does not include specific information about the goods contracted for, the beneficiary companies listed include MIC research centers and manufacturing
+was listed in seven different ways. This company accounted for a total of 30 contracts with MIC worth over $10 million—36 percent of MIC's total contract value. Although the SOMO database does not include specific information about the goods contracted for, the beneficiary companies listed include MIC research centers and manufacturing companies.
 
-Regime Finance companies.
-
-- In contrast to Iraq's arrangement with Syria, the MoD did not import goods from Turkey under its and Procurement own name. It did, however, import goods through the Ministries of Trade and Transport, according to the SOMO database. The MoT imported goods valued at $2.7 million (10 percent of its total contracts) and the MoTC imported goods valued at $48.9 million (59 percent of its total contracts) for MoD. Therefore, MoD's share of total contracts was $51.6 million or 17 percent of the total contract value.
-
+- In contrast to Iraq's arrangement with Syria, the MoD did not import goods from Turkey under its own name. It did, however, import goods through the Ministries of Trade and Transport, according to the SOMO database. The MoT imported goods valued at $2.7 million (10 percent of its total contracts) and the MoTC imported goods valued at $48.9 million (59 percent of its total contracts) for MoD. Therefore, MoD's share of total contracts was $51.6 million or 17 percent of the total contract value.
 - Because the MoT sometimes acted on behalf of other entities, it is possible some of the MoT transactions not specifically mentioned as being on behalf of the MoD as mentioned above also were destined for Iraqi security, industrial, and research facilities. How much of these other MoT imports may have been destined for these end users is not known.
 
 In addition to the Turkish demand for cheap Iraqi oil and oil products, the Turkish government also tolerated, if not welcomed, the flourishing, mainly illicit trade conducted in the northern Iraqi free trade zone. Turkey and Iraq engaged in direct military trade for common military use materials. For example, documentary sources reveal that in 1997 the IIS, the DGMI, and the Iraqi Military Attaché in Ankara dealt with the Turkish firm Sigma Gida IAS SAN VE TIC Ltd for the sale to Iraq of fireproof military clothing; 150,000 meters of material were purchased for $27 per meter. In lieu of cash, Iraq paid in oil.
@@ -5051,13 +4773,9 @@ Financial Flows Between Iraq and Turkey. High-level sources affirm that both Ira
 
 Company), but run for the benefit of SOMO, at the Turkiye Halk Bankasi A.S. (also known as Halkbank), a Turkish state-owned bank. This indicates a fair degree of complicity in illicit activity between Iraq and Turkish state institutions. According to the 16 January 2000 Protocol, 70 percent of the value of the crude imported by Turkey under the Protocol would be deposited in Halkbank. The remaining 30 percent would be deposited directly by the crude purchaser to accounts at the Saradar Bank in Lebanon or the Ahli Bank in Jordan that were designated by SOMO. Tekfen, a Turkish oil company, was the only company to deposit money into the Ahli Bank. Other Turkish oil companies paid into the Saradar Bank.
 
-According to open sources, since 2000 the UN OFF program, the trade protocol and other illicit Turkish oil importation, generated over $1 billion per year for Iraq. This revenue, however, pales in comparison to the $2.5 billion in bilateral trade that took place in 1990. SOMO documents state $710.3 million was collected from the Turkish Protocol from contracts signed between July 2000 and February 2003.
-
-> According to SOMO documents, it is estimated SOMO collected $538.4 million in barter goods and
+According to open sources, since 2000 the UN OFF program, the trade protocol and other illicit Turkish oil importation, generated over $1 billion per year for Iraq. This revenue, however, pales in comparison to the $2.5 billion in bilateral trade that took place in 1990. SOMO documents state $710.3 million was collected from the Turkish Protocol from contracts signed between July 2000 and February 2003. According to SOMO documents, it is estimated SOMO collected $538.4 million in barter goods and cash through private sector trade outside the Protocol between November 1997 and March 2003. ISG lacks information about earnings prior to these periods.
 
 %%page 107%%
-
-cash through private sector trade outside the Protocol between November 1997 and March 2003. ISG lacks information about earnings prior to these periods.
 
 Former Regime personnel indicate that the SOMO account at Halkbank was used exclusively for Iraq to pay Turkish companies for the sale of goods and services delivered to Iraq. The goods included oil sector equipment, industrial equipment and raw materials, communications and transport goods, and building materials. The total amount deposited in the account at Halkbank was $499,232,952. The total withdrawn equaled $302,305,033, leaving a balance before OIF of $196,927,919.
 
@@ -5069,17 +4787,12 @@ South Korea Illicit trade between South Korean companies and Iraq was largely li
 
 As with other suppliers, Iraq used a network of front companies and intermediaries to conceal its activity with South Korean companies. These companies refused to directly supply Iraq resulting in their use of third party intermediaries from India, Jordan, and Syria to facilitate trade.
 
-Regime Finance • In 2000, the MIC signed a contract with a South Korean company for technical expertise in establishing an indigenous computer design and production facility in Iraq. The contract included South and Procurement Korean technical assistance for the production of computers for military purposes and the manufacture of circuit boards. The contract for South Korean technical expertise was signed for $14.4 million.
-
+- In 2000, the MIC signed a contract with a South Korean company for technical expertise in establishing an indigenous computer design and production facility in Iraq. The contract included South Korean technical assistance for the production of computers for military purposes and the manufacture of circuit boards. The contract for South Korean technical expertise was signed for $14.4 million.
 - In 2000, the IIS technology transfer division used two front companies (the Iraqi company Galala and an Indian front company, United Commodities) to procure computers, technical expertise, and training on computer design and production. Upon completion of this training, the MIC established an indigenous computer design and production line. This example illustrates the use of multiple front companies to hide the IIS role in the transaction.
 - Exploited documentation illustrated that the MIC Commercial Department, through Dr. Hadi Tarish Zabun, Director General of Scientific Research facilitated "special contracts" for computers for a radar system and fiber optics for the communications system in 2001.
-- In 2000, the Iraqi company Al 'Izz (Al-Ezz) represented MIC in negotiations with a South Korean company named LG Innotech, which specialized in optical fiber and digital exchanges. According to captured documents, LG Innotech agreed to provide the MIC a total of 530 notebook-type hardened CPU systems specially designed for military use. The Iraqi Regime planned to integrate the $11.35 million of CPUs into its air defense systems and artillery fire control mechanisms. According to the same document, LG Innotech ultimately fulfilled more than 80 percent of the contract. This contract
-
-> also used a third party and negotiated in parallel with the LG Innotech military CPU contract.
+- In 2000, the Iraqi company Al 'Izz (Al-Ezz) represented MIC in negotiations with a South Korean company named LG Innotech, which specialized in optical fiber and digital exchanges. According to captured documents, LG Innotech agreed to provide the MIC a total of 530 notebook-type hardened CPU systems specially designed for military use. The Iraqi Regime planned to integrate the $11.35 million of CPUs into its air defense systems and artillery fire control mechanisms. According to the same document, LG Innotech ultimately fulfilled more than 80 percent of the contract. This contract also used a third party and negotiated in parallel with the LG Innotech military CPU contract. in the summer of 2001, following a MIC visit to
 
 %%page 108%%
-
-in the summer of 2001, following a MIC visit to
 
 Most of the transactions involving prohibited goods between companies from South Korea and Iraq began
 
@@ -5093,7 +4806,7 @@ Seoul. The May to June 2001 visit was designed to develop contacts with South Ko
 Another element of illicit trade with South Korean companies focused on procuring fiber optics telecommunication technology with potential military applications.
 
 - In 2001, the MIC's Commercial Department signed a contract for fiber optics with the South Korean company Armitel. Payment, however, was not made because the equipment provided did not meet Iraqi specifications.
-- The IIS coordinated with one of its agents to bring a delegation of experts from Armitel. Their senior expert, Dr. Lee, visited Baghdad and as a result,
+- The IIS coordinated with one of its agents to bring a delegation of experts from Armitel. Their senior expert, Dr. Lee, visited Baghdad and as a result, signed many contracts with the Iraqi MoTC, specifically in the field of fiber-optic communications
 
 and military communications. These contracts were valued at $75 million.
 
@@ -5101,11 +4814,9 @@ and military communications. These contracts were valued at $75 million.
 
 People's Republic of China Although China stated publicly on multiple occasions its position that Iraq should fully comply with all UN Security Council resolutions and cooperate with the Security Council and the Secretary General, firms in China supplied the former Iraqi Regime with limited but critical items, including gyroscopes, accelerometers, graphite, and telecommunications through connections established by MIC, its front companies, and the IIS. However, there is no evidence to suggest the Chinese Government complicity in supplying prohibited goods to Iraq. It is likely that newly priva- tized state-owned companies were willing to circumvent export controls and official UN monitoring to supply prohibited goods. In supplying prohibited goods, Chinese companies would frequently employ third countries and intermediaries to transship commodities into Iraq. The Chinese-Iraqi procurement relationship was both politically problematic and economically pragmatic in nature, but it ultimately provided Iraq with prohibited items, mainly telecommunication equipments, and items with ballistic missile applications. This relationship allowed Iraq to improve its indigenous missile capabilities.
 
-Multiple sources clearly demonstrate that Iraq's procurement goal with Chinese firms was to overcome weakness in missile inertial guidance capabilities caused by a lack of technical expertise and components. Iraq had limited capabilities in indigenously manufacturing gyroscopes and accurate accelerometers, compounded by the inability to purchase high precision machinery and equipment. Chinese comsigned many contracts with the Iraqi MoTC, specifically in the field of fiber-optic communications
+Multiple sources clearly demonstrate that Iraq's procurement goal with Chinese firms was to overcome weakness in missile inertial guidance capabilities caused by a lack of technical expertise and components. Iraq had limited capabilities in indigenously manufacturing gyroscopes and accurate accelerometers, compounded by the inability to purchase high precision machinery and equipment. Chinese com-Chinese Assistance in Iraqi Telecommunications
 
 %%page 109%%
-
-Chinese Assistance in Iraqi Telecommunications
 
 One area of robust cooperation between Chinese firms and Iraq was telecommunications. These technologies had both military and civilian uses. Saddam's Regime used Chinese circuits and fiber optics to connect static command, control, and communication (C3) bases. UN sanctions impeded rehabilitation of the telecommunications sector. This equipment was sanctioned because of the nature of modern communications systems, which could be used both for civil or military purposes. These obstacles were overcome by the Iraqi Regime by acquiring materials for cash and procuring materials illicitly, outside the purview of the UN.
 
@@ -5113,19 +4824,14 @@ One Chinese company, illicitly provided transmission equipment and switches to I
 
 panies willingly supplied these types of items to the Iraqi Regime.
 
-- In the fall of 2000, Iraq sought 200 gyros, suitable for use in Russian and Chinese cruise missiles, and machine tools with missile applications from
+- In the fall of 2000, Iraq sought 200 gyros, suitable for use in Russian and Chinese cruise missiles, and machine tools with missile applications from NORINCO, a Chinese military supplier that has
 
 Other companies were also present in Iraq. A summary of their activity is given below:
 
-- A Chinese company agreed to provide switches to Iraq as part of a large switching project for Bagh-
-
-Regime Finance dad prior to Operation Iraqi Freedom. Working with a second Chinese firm, this company participated in a bid for a project in Iraq not sanctioned by the UN. In late 2002 this company submitted a and Procurement bid for a large switching system for Iraq.
-
+- A Chinese company agreed to provide switches to Iraq as part of a large switching project for Baghdad prior to Operation Iraqi Freedom. Working with a second Chinese firm, this company participated in a bid for a project in Iraq not sanctioned by the UN. In late 2002 this company submitted a bid for a large switching system for Iraq.
 - Reporting indicated that another Chinese company, working through a second Chinese company, had supplied switches to Iraq. This company's switches were used for both unsanctioned and sanctioned projects in Iraq. This company illicitly supplied the switches for the Jordan Project, a fiber-optic network in Baghdad that was completed in late 2000. This company might have been involved in supplying switches with more capabilities than specified in an UN approved project. been sanctioned many times by the United States, twice in 2004. (No delivery established.)
 
-- Contracts were initiated in 2000 between Al-Rawa and a Chinese firm, for test equipment associated with inertial guidance systems, including a one-
-
-NORINCO, a Chinese military supplier that has axis turntable for testing gyroscopes. (No delivery established.)
+- Contracts were initiated in 2000 between Al-Rawa and a Chinese firm, for test equipment associated with inertial guidance systems, including a one- axis turntable for testing gyroscopes. (No delivery established.)
 
 %%page 110%%
 
@@ -5136,7 +4842,7 @@ Iraq also sought dual-use items with potential ballistic missile applications fr
 - Al-Najah Company, working through an Indian intermediary, purchased supplies of Chinese missile-grade graphite during August and September 2001.
 - In January 2003, Al-Merbab General Trading Company and Al-Ramig sought a supply of chemicals, both of which have applications in liquid rocket propellants, from Chinese companies. The Chinese companies, however, refused to sell chemicals to the Middle East because of its potential weapons application.
 
-From the Iraqi perspective, MIC and IIS attempts to illicitly acquire goods from Chinese firms were problematic. MIC and Chinese suppliers conducted many committee meetings and had other contracts, but most meetings never ended in any signed contracts. According to a high-ranking official in the
+From the Iraqi perspective, MIC and IIS attempts to illicitly acquire goods from Chinese firms were problematic. MIC and Chinese suppliers conducted many committee meetings and had other contracts, but most meetings never ended in any signed contracts. According to a high-ranking official in the MIC of unknown reliability, Chinese firms used its
 
 military and dual-use contracts with the MIC as leverage in its attempts to obtain discount-priced Iraqi oil.
 
@@ -5149,8 +4855,6 @@ As with other suppliers, Iraq procured illicit goods from Chinese companies behi
 
 - As in many other cases, the Syrian-based SES International Corporation was used as an intermediary between Chinese companies and Iraq. In
 
-MIC of unknown reliability, Chinese firms used its
-
 %%page 111%%
 
 October 2001, Syrian technicians were dispatched to China on Iraq's behalf to contact influential
@@ -5159,28 +4863,24 @@ Chinese air defense companies. Follow-on meetings were to be held in Beijing and
 
 Indian affiliated, UAE-based firm was also used as an intermediary to facilitate trade in graphite and ballistic missile-related goods from Chinese firms.
 
-- In conjunction with the use of brokers and intermediaries, the IIS employed Chinese personnel as IIS agents to obtain prohibited goods and build relations between entities. In one case, the IIS tasked
-
-Professor Xu Guan, a member of the Chinese high committee for electronic warfare to collect information on laser-tracking systems, laser guidance systems and information on cooperation between Iran and China. The IIS also stationed its own officers at the Iraqi Embassy in China to manage the Iraqi-
-
-Chinese relationship and facilitate trade.
+- In conjunction with the use of brokers and intermediaries, the IIS employed Chinese personnel as IIS agents to obtain prohibited goods and build relations between entities. In one case, the IIS tasked Professor Xu Guan, a member of the Chinese high committee for electronic warfare to collect information on laser-tracking systems, laser guidance systems and information on cooperation between Iran and China. The IIS also stationed its own officers at the Iraqi Embassy in China to manage the Iraqi- Chinese relationship and facilitate trade.
 
 France The French-Iraqi procurement relationship existed within a larger bi-lateral political relationship, which was turbulent and problematic throughout the 1990s up until OIF. From Saddam Husayn's perspective, the relationship was built on Iraq's hopes to influence a permanent membership on the UN Security Council against the United States and UK (see the Ministry of Foreign Affairs section).
 
 - Illustrating Iraq's persistent efforts to curry favor in Paris, France was one of the top three countries with companies or individuals receiving secret oil vouchers (see the Oil Voucher section). Iraq also submitted numerous contracts under the UN OFF program to companies in France totaling $2.9 billion.
 - In 2001, Tariq Aziz characterized the French approach to UN sanctions as adhering to the letter of sanctions but not the spirit. This was demonstrated by the presence of French CAs in Baghdad, working to promote the interests of French companies while assisting them in avoiding UN sanctions.
 
-Behind this political maneuvering, ISG has found
+Behind this political maneuvering, ISG has found evidence that French companies, after 1998, sought and formed procurement relationships with Saddam's
 
 Regime. These relationships could have been renewed partnerships developed before 1991 when France was a major conventional arms supplier for the Iraqi Regime. These procurement transactions included offers and contracts for conventional weapons systems and negotiations for possible WMD-related mobile laboratories.
 
-Recovered documents dated December 1998 and Sep- Regime Finance tember 1999 indicate that the French company Lura supplied a tank carrier to the Iraqi MoD. A French and Procurement expert, "Mr. Claude," arrived in Iraq in September 1999 to provide training and offer technical expertise on the carrier.
+Recovered documents dated December 1998 and September 1999 indicate that the French company Lura supplied a tank carrier to the Iraqi MoD. A French expert, "Mr. Claude," arrived in Iraq in September 1999 to provide training and offer technical expertise on the carrier.
 
 By 1999, recovered documents show that multiple French firms displayed a willingness to supply parts for Iraqi conventional military items, mainly related to aircraft.
 
 - Documents from the Al-Hadhar Trade Company, dated November 1999, describe a delegation of French companies that had participated in an International Exhibition in Baghdad. One of the companies was willing to collaborate and supply spare parts for the French Mirage aircraft.
 - IIS documents dated from December 1999 to January 2000 show that the Deputy General Manager of a French company called SOFEMA planned to visit Iraq on 15 January 2000 on behalf of a number of French military companies to "seek possible trading between the two countries." An accompanying top secret document from the DGMI, M6 Section, corroborates this meeting and further ties the purpose to Iraqi air defense capabilities.
-- Another recovered letter, dated September 1999, illustrated the approval of a meeting by the DGMI M6 Section with the Head of the Iraqi-French Friendship Society, Mr. William Libras. Libras offered to supply Iraq with western manufactured helicopters. This was followed with a letter indicating contact between Al-Hadhar Trade and the French suppliers stating that the French companies "have the ability to update the aircraft and add any system you request." evidence that French companies, after 1998, sought and formed procurement relationships with Saddam's
+- Another recovered letter, dated September 1999, illustrated the approval of a meeting by the DGMI M6 Section with the Head of the Iraqi-French Friendship Society, Mr. William Libras. Libras offered to supply Iraq with western manufactured helicopters. This was followed with a letter indicating contact between Al-Hadhar Trade and the French suppliers stating that the French companies "have the ability to update the aircraft and add any system you request."
 
 %%page 112%%
 
@@ -5200,33 +4900,25 @@ A source that was a senior executive in the MIC stated that the former Federal R
 
 - Reportedly, Mahmud Muhammad Muzaffar was in charge of the Yugoslav procurement connection and was universally liked within the MIC. The Iraqi Government sent him under diplomatic cover to work as a scientific advisor at the Iraqi embassy in Belgrade. When Yugoslav companies spoke to Muzaffar about doing business with Iraq, he would connect their company contacts to MIC representatives.
 - Yugoslav Federal was a military institution under the management of the Yugoslav Ministry of Defense. It was responsible for overseeing several Yugoslav military production companies.
-- Yugoslav Federal signed the foreign trade contracts on behalf of these military production companies in exchange for a certain percentage of the profits. companies. Federal Republic of Yugoslavia. The time limit for
+- Yugoslav Federal signed the foreign trade contracts on behalf of these military production companies in exchange for a certain percentage of the profits.
 
 %%page 113%%
 
-- Yugoslav Federal also supplied materials and expertise directly to Iraq from the Yugoslav production
+- Yugoslav Federal also supplied materials and expertise directly to Iraq from the Yugoslav production companies.
 
 A senior executive at the MIC stated that the financial transfers between Yugoslavia and Iraq were under the supervision of the Belarusian Infobank. Infobank also issued security bonds for the advance payment portions of the contracts.
 
-- The contracts were signed pursuant to the Iraqi-
-
-Syrian Protocol where the payments were made through a third party, usually a Syrian-based company.
-
+- The contracts were signed pursuant to the Iraqi- Syrian Protocol where the payments were made through a third party, usually a Syrian-based company.
 - This Syrian company would pay the contract amount to the Belarusian bank in exchange for a 10- to 12-percent cut of the value of the contract.
 
 According to the senior executive of the MIC mentioned above, the former Yugoslavian Government was represented commercially through the use of experts and ex-military personnel to assist in the transfer of technology and technical expertise for new military projects. The coordination was under the direct supervision of the MIC Director, 'Abdal-Tawab 'Abdallah Al Mullah Huwaysh, Dr. Hadi Tarish Zabun, head of special procurement at the MIC, and the Iraqi Deputy Minister of Defense. This source also stated that the President of Yugoslavia opened accounts in Amman, Jordan. under the Lebanese cover company MEGA.
 
 In October 2002, Stabilization Forces (SFOR), Bosnia and Herzegovina, conducted an inspection of the ORAO Aviation Company, in Bijeljin, Bosnia and Herzegovina. Over 60 computer hard drives and a large number of documents were seized. Among the captured documents was a five-page memorandum that documents the discussions and agreements between ORAO, Al-Salafa, and the Iraqi Ministry of Defense concerning the illegal shipment of R13-300 and R25-300 jet engines for military aircraft.
 
-- Included in the memorandum is an agenda for the enlargement of existing capacities for overhaul of
+- Included in the memorandum is an agenda for the enlargement of existing capacities for overhaul of R13-300 and R25-300 jet engines.
 
-- The agenda also included a realization of an old agreement for overhaul of the engines in the former the delivery and assembly of equipment was to be up to nine months.
-
-- Other documents captured indicated that the MIC
-
-Regime Finance front company Al-Basha'ir was also involved in the deal, as well as Yugoimport. According to a contract between the two companies, the total amount of the deal was worth $8.5 million.
-
-and Procurement
+- The agenda also included a realization of an old agreement for overhaul of the engines in the former Federal Republic of Yugoslavia. The time limit for the delivery and assembly of equipment was to be up to nine months.
+- Other documents captured indicated that the MIC front company Al-Basha'ir was also involved in the deal, as well as Yugoimport. According to a contract between the two companies, the total amount of the deal was worth $8.5 million.
 
 Al-Basha'ir was to be responsible for transporting the equipment from Syria to Baghdad for a total price of $300,000.
 
@@ -5237,8 +4929,6 @@ Al-Salafa is an Iraqi company that is a part of the Al- Eman network of front co
 Bulgaria Although the procurement relationship began in 1998, from 2000 until the start of OIF, the MIC conducted business with the Bulgarian JEFF Company, a company that the IIS recommended the MIC use. The JEFF Company's headquarters was located in Sofia, Bulgaria. According to a senior executive in the MIC, the Bulgarian government was aware of the dealings between the JEFF Company and Iraq. ISG cannot confirm this claim. The MIC used the Al- Basha'ir Company to coordinate contracts with JEFF. To establish a contract, JEFF personnel would travel to Iraq to meet with the Al-Basha'ir Company or vice versa. Al-Basha'ir would then deliver the contract to the Commercial Department of the MIC where an arrangement for the contractual payment would be made.
 
 Reportedly, Bulgarian companies exported numerous military items to Iraq after 2000 in violation of UN sanctions (see figure 59).
-
-R13-300 and R25-300 jet engines.
 
 %%page 114%%
 
@@ -5281,13 +4971,9 @@ For the final two phases in Saddam's Regime, "Transition" and "Miscalculation," 
 
 Russia Although the Russian Government has denied being involved in supplying weapons to Iraq, there is a significant amount of captured documentation showing contracts between Iraq and Russian companies. In fact, because Russian companies offered so many military items, the MIC and a Russian general named Anatoliy Ivanovich Makros established a joint front company called ARMOS in 1998 just to handle the large volume of Russian business (see also the ARMOS section). The Russian-Iraqi trade was also assisted through bribes to Russian customs officials, according to a former Iraqi diplomat.
 
-This former Iraqi diplomat further described how Iraq's embassy personnel smuggled illicit goods on weekly charter flights from Moscow, through Damas-
-
-> cus, to Baghdad from 2001 until OIF. These prohibited goods included high-technology military items such as radar jammers, global positioning system
+This former Iraqi diplomat further described how Iraq's embassy personnel smuggled illicit goods on weekly charter flights from Moscow, through Damascus, to Baghdad from 2001 until OIF. These prohibited goods included high-technology military items such as radar jammers, global positioning system jammers, night-vision devices, and small missile components. Some flights were not inspected, even though they were reported to the UN. Cash and equipment were reportedly also smuggled into or out of Iraq in bimonthly diplomatic courier runs to Moscow.
 
 %%page 117%%
-
-jammers, night-vision devices, and small missile components. Some flights were not inspected, even though they were reported to the UN. Cash and equipment were reportedly also smuggled into or out of Iraq in bimonthly diplomatic courier runs to Moscow.
 
 In early 2003, the Russian company, Rosoboronexport, offered to sell and deliver several weapons systems to Iraq. Rosoboronexport had Igla-S shoul- der-fired SAMs and Kornet anti-tank missiles available for immediate sale to Iraq, and was prepared to sell larger medium-to-long range advanced (SA-11 and SA-15) air defense systems and T-90 tanks, according to the trip report and a high-level source in the former Iraqi Government.
 
@@ -5295,16 +4981,14 @@ In early 2003, the Russian company, Rosoboronexport, offered to sell and deliver
 - The Iraqi delegation requested air defense equipment, antitank weapons, and night vision devices. Iraq also desired to upgrade existing air defense equipment (SA-6 and SA-8) and radars.
 - According to the trip report, four contracts were signed between Rosoboronexport and four Iraqi companies: Hittin, Al-Karamah, Al-Milad, and Al 'Ubur.
 
-According to Iraqi documents, Rosoboronexport executives demanded that they be permitted to ship the weapons through a third country with false end-user certificates. The Russian side emphasized that Rosoboronexport is a government agency and it cannot be involved with directly supplying Iraq with weapons. Other Russian officials offered to send equipment and technical experts to Iraq under the cover of OFF contracts. Before returning to Baghdad, the Iraqi delegation stopped in Damascus to
+According to Iraqi documents, Rosoboronexport executives demanded that they be permitted to ship the weapons through a third country with false end-user certificates. The Russian side emphasized that Rosoboronexport is a government agency and it cannot be involved with directly supplying Iraq with weapons. Other Russian officials offered to send equipment and technical experts to Iraq under the cover of OFF contracts. Before returning to Baghdad, the Iraqi delegation stopped in Damascus to obtain false end-user certificates from the Syrian Ministry of Defense for the first items to be shipped, the MANPADS and antitank missiles.
 
 • Although some of the equipment was shipped, ISG does not know how much of the equipment was actually received in Iraq before Operation Iraqi Freedom.
 
-Many of the contracts signed with Russian companies, were for technical assistance, according to an
-
-Regime Finance Iraqi official with direct access to the information. These offers included contracts with TECHNO- MASH employees for technical assistance in developing guidance and control systems, aerodynamic and Procurement structures, and a test bench for missile engines. Iraq also signed a contract for the transfer of technology for the manufacture of laser rods to be used in laser range finders. The Mansur Factory in Iraq was to be the main recipient of this technology. Other contracts with Russian companies are detailed in the following:
+Many of the contracts signed with Russian companies, were for technical assistance, according to an Iraqi official with direct access to the information. These offers included contracts with TECHNO- MASH employees for technical assistance in developing guidance and control systems, aerodynamic structures, and a test bench for missile engines. Iraq also signed a contract for the transfer of technology for the manufacture of laser rods to be used in laser range finders. The Mansur Factory in Iraq was to be the main recipient of this technology. Other contracts with Russian companies are detailed in the following:
 
 - The Russian Company, Systemtech was run by a Russian missile scientist named Alexander Degtyarev. Most of the dealings with this company were connected with missile guidance and control, and contracts were valued at around $20 million.
-- According to captured documents, in November 2002, the Umm Al-Ma'arik General Company negotiated two draft contracts with the Russian company Uliss, in support of the "Saddam The Lion" Tank Project. They notified the Commercial Directorate of the MIC that contract number 2002/ AM/8 had been concluded. On 10 February 2003, MIC Deputy Director Daghir Muhammad Mahmud approved the contract. obtain false end-user certificates from the Syrian Ministry of Defense for the first items to be shipped, the MANPADS and antitank missiles.
+- According to captured documents, in November 2002, the Umm Al-Ma'arik General Company negotiated two draft contracts with the Russian company Uliss, in support of the "Saddam The Lion" Tank Project. They notified the Commercial Directorate of the MIC that contract number 2002/ AM/8 had been concluded. On 10 February 2003, MIC Deputy Director Daghir Muhammad Mahmud approved the contract.
 
 %%page 118%%
 
@@ -5320,34 +5004,25 @@ North Korean and Iraqi procurement relations began in 1999 when the MIC requeste
 
 The Director of the MIC formally invited a North Korean delegation to visit Iraq in late 1999. The Director of North Korea's Defense Industry Department of the Korean Worker's Party eventually visited Baghdad in October 2000, working through a Jordanian intermediary. Multiple sources suggest Iraq's initial procurement goal with North Korea was to obtain long-range missile technology.
 
-- August 1999 correspondence between the IIS
+- August 1999 correspondence between the IIS Director and a North Korean company called the Changwang Group (variant Chang Kwang or Chang Gwang), a known company associated with
 
 weapons-related sales, discussed the supply of
 
 "technology for SSMs with a range of 1,300 km and land-to-sea missiles with a range of 300 km."
 
-The Changwang Group proposed a multitiered sale of weapons and equipment and "special technology" for the manufacture and upgrade of jamming systems, air defense radar, early warning radars,
+The Changwang Group proposed a multitiered sale of weapons and equipment and "special technology" for the manufacture and upgrade of jamming systems, air defense radar, early warning radars, and the SA-2 missile.
 
-Regime Finance and the SA-2 missile.
-
-- In a recovered transcript of a telephone conversation prior to the October 2000 meeting, senior and Procurement officials at the MIC and the IIS noted topics for discussion with the North Korean delegation would be the development of SSMs. The Iraqi delegation at the meeting included SSM Commander Staff Maj. Gen. Najim 'Abdallah Muhammad. Ensuing discussions during the meeting focused on the transfer of military equipment including a short-range "Tochka-like" ballistic missile that the North Korean firm said could be purchased from Russia.
-
+- In a recovered transcript of a telephone conversation prior to the October 2000 meeting, senior officials at the MIC and the IIS noted topics for discussion with the North Korean delegation would be the development of SSMs. The Iraqi delegation at the meeting included SSM Commander Staff Maj. Gen. Najim 'Abdallah Muhammad. Ensuing discussions during the meeting focused on the transfer of military equipment including a short-range "Tochka-like" ballistic missile that the North Korean firm said could be purchased from Russia.
 - A captured MoD memo dated 12 October 2000 summarized the October 2000 meetings, stating that SSM Commander Najim had discussed Tochka, Scud, and No Dong missiles with a range of 1,500 km.
 - Staff Lt. Gen. Muzahim Sa'b Hasan Muhammad Al Nasiri, a Senior MIC Deputy and a main player in procurement negotiations with North Korea, in interviews has adamantly denied the discussion of longer-range missiles with the North Koreans.
 
 Documentary evidence shows that, by mid-2001, Iraq had signed $10 million of military-related procurement contracts with North Korean companies.
 
-- The contracts from late 2000 included a deal with the Al-Harith Company, believed to be associated with Iraqi air defense development, and the Al- Karamah State Establishment, known to procure technology for missile guidance development, to improve Iraqi SSM guidance and control technology, and to upgrade the Iraqi Volga missile homing head by adding infrared sensors.
-
-Director and a North Korean company called the Changwang Group (variant Chang Kwang or
-
-Chang Gwang), a known company associated with improve Iraqi missile systems using North Korean RPG-7).
+- The contracts from late 2000 included a deal with the Al-Harith Company, believed to be associated with Iraqi air defense development, and the Al- Karamah State Establishment, known to procure technology for missile guidance development, to improve Iraqi SSM guidance and control technology, and to upgrade the Iraqi Volga missile homing head by adding infrared sensors. parts. These contracts were signed with the Al-
 
 %%page 120%%
 
-parts. These contracts were signed with the Al-
-
-- The missile contracts in 2001 were designed to
+- The missile contracts in 2001 were designed to improve Iraqi missile systems using North Korean
 
 Kamarah State Establishment, the Al-Harith General Company, and the Hittin General Company, which is associated with the development of Iraqi heavy weaponry. Fifteen percent of this contract was reportedly completed and was paid for through a Syrian company to the North Korean Embassy in
 
@@ -5362,7 +5037,7 @@ As the Iraqi-North Korean procurement relationship matured, it broadened from mi
 
 This series of contracts also specified numerous technology transfers from North Korea to Iraq to allow Saddam to design and implement laser head riding for anti-tank missile applications and to manufacture:
 
-• PG-7 rockets (an Egyptian variant of the Russian
+• PG-7 rockets (an Egyptian variant of the Russian RPG-7).
 
 - Night-vision devices.
 - Six-barrel 30-mm guns.
@@ -5381,9 +5056,7 @@ As with its other suppliers, Iraq used its accustomed methods to obtain illicit 
 
 Transportation Routes From North Korea to Iraq ISG has found evidence suggesting that North Korea planned to pass goods through Syria to Iraq. Captured documents reveal North Korean ships planned to use Syrian ports to deliver goods destined for Iraq. Occasionally, North Korea would insist on the use of aircraft to Syria to expedite delivery and reduce the risk of discovery of the illicit goods.
 
-Payment Methods for North Korean Contracts
-
-Recovered contracts and records of negotiations identify the use of financial routing via Beirut, Lebanon and Damascus, Syria to conceal Iraq as the end user of the goods. A recovered letter from the Al-Basha'ir to the Tosong Technology Trading Corporation, dated 2 March 2002 dictated that 'contracts' would be financed according to the Iraqi-Syrian Protocol. This bilateral trade Protocol used both cash and - credit to pay for commodities via Syria.
+Payment Methods for North Korean Contracts Recovered contracts and records of negotiations identify the use of financial routing via Beirut, Lebanon and Damascus, Syria to conceal Iraq as the end user of the goods. A recovered letter from the Al-Basha'ir to the Tosong Technology Trading Corporation, dated 2 March 2002 dictated that 'contracts' would be financed according to the Iraqi-Syrian Protocol. This bilateral trade Protocol used both cash and - credit to pay for commodities via Syria.
 
 Poland A Polish based front company engaged in illicit trade with Iraq played a limited, but important role in Saddam's efforts to develop Iraq's missile programs. Equipment supplied by this Polish based front company between 2001 and 2003, such as SA-2 (surface-to-air) Volga missile engines and guidance systems, were necessary for the Al Samud II missile program.
 
@@ -5392,11 +5065,8 @@ Iraq acquired Polish SA-2 Volga missile engines for their Al Samud II missiles. 
 - Iraq signed four contracts to acquire Volga SA-2 engines between January 2001 and August 2002.
 
 - These engines were to be procured for the Al-Karamah State Establishment, through the ARMOS Trading Company (an Iraqi-Russian procurement organ) and a company located in Poland called Ewex, a front company supported by the IIS.
-- Iraq paid approximately $1.3 million for 96
-
-Regime Finance engines.
-
-- Ewex used Polish scrap dealers and middlemen to gather Volga rocket components from scrap yards and Procurement in Poland operated by the Polish military property agency.
+- Iraq paid approximately $1.3 million for 96 engines.
+- Ewex used Polish scrap dealers and middlemen to gather Volga rocket components from scrap yards in Poland operated by the Polish military property agency.
 
 Former Regime officials corroborate that ARMOS also signed a contract or contracts with the Iraqis to obtain Volga engines from individuals in Poland. The Volga engines were removed from missiles that had been decommissioned. The Volga missile engine procurement was entirely controlled by the IIS, according to debriefs of high-level former Regime officials.
 
@@ -5404,19 +5074,15 @@ Former Regime officials corroborate that ARMOS also signed a contract or contrac
 
 As mentioned in the Higher Education section, Amir Ibrahim Jasim al-Tikriti, a doctorate student in Poland linked to the IIS and SSO, facilitated the procurement of at least 50 more SA-2 engines and as many gyroscopes, missile sensors and acid batteries for missiles from Ewex in early 2003. 'Amir Ibrahim Jasim was the cofounder of Ewex and was supervised by Husan 'Abd al-Latif, an IIS officer working with the Energy Department of the IIS Scientific and Technical Information Office in Baghdad.
 
-Methods Used To Hide Transshipment to Iraq According to documentary evidence, dated June 2001, the Iraqi Government and the Ewex Company attempted to conceal the illicit procurement of missile engines from the international community. According
-
-> to open sources, Polish authorities arrested Ewex company officials in 2003 on suspicion of illegal arms deliveries to Baghdad. Documents recovered
+Methods Used To Hide Transshipment to Iraq According to documentary evidence, dated June 2001, the Iraqi Government and the Ewex Company attempted to conceal the illicit procurement of missile engines from the international community. According to open sources, Polish authorities arrested Ewex company officials in 2003 on suspicion of illegal arms deliveries to Baghdad. Documents recovered by Polish police included Ewex contracts with the well-known Iraqi front company called Al-Basha'ir, shipping documents, extracts from the Polish trade register, payment orders, and letters from Ewex directly to its Iraqi business partners.
 
 %%page 122%%
-
-by Polish police included Ewex contracts with the well-known Iraqi front company called Al-Basha'ir, shipping documents, extracts from the Polish trade register, payment orders, and letters from Ewex directly to its Iraqi business partners.
 
 A high-level former Regime official stated that MIC Special Office Director Hadi Tarish Zabun, IIS Scientific and Technical Information Branch Officer Hadi 'Awda Sabhan, and Al-Karamah State Establishment Director General Dr. Muzhir (Modher) Sadiq Saba' al-Tamimi met to discuss how to conceal this particular illicit transaction from the UN. Dr. Muzhir had previously led the Iraqi long-range missile program. The documents regarding the deal were eventually transferred for safekeeping to Ayyab Qattan Talib, an officer from the IIS M23 directorate that oversees military industry security.
 
 The parties to the transshipment of Volga missiles included personnel from the Iraqi embassy in Warsaw, Iraqi intelligence officers, and Iraqi businessmen. These parties clandestinely transported Volga missile engines through Syria, according to a high-level official in the former Regime. Ewex representative, Amir Ibrahim Jasim al-Tikriti during April 2002, requested an extension of the shipping time for illicit transfers because shipments would have had to proceed via many channels, particularly by circuitous transport routes, in order to conceal the contents from prying UN inspectors or foreign intelligence agencies. In 2002, three shipments of engines and spare parts were transferred; the third shipment arrived in Tartus, Syria, and was moved to Baghdad by the Al-Karamah State Establishment. The third shipment contained 32 Volga engines and 750 related materials. In addition, the MIC contracted to deliver Volga engines to Iraq, from Poland, via Jordan as insurance against the interdiction of Syria-bound shipments. According to multiple sources, Polish missile parts also entered Iraq at the Al-Walid border crossing (see also the border crossings map).
 
-Polish-Iraqi Procurement Financial Flows Numerous contracts, memoranda, and references
+Polish-Iraqi Procurement Financial Flows Numerous contracts, memoranda, and references detail the transfer of payments for the Volga missiles. In one contract, original date unknown, Ewex
 
 transferred $500,080 for the purchase of an unspecified number of Volga missile engines, which were delivered in June 2001. Raja Hasan Al-Khazraji, General Manager of the Commercial Affairs Department, wrote requesting the release of funds for final contractual payments. There are also letters written by Dr. Zabun to settle payment without deductions for damaged materials on condition that compensation will be included in future contracts. A contract also stipulates that ARMOS Trading Company received a commission of $3,750.
 
@@ -5424,7 +5090,7 @@ Dr. Muzhir, wrote a memorandum concerning contract number 2/2001, in which he re
 
 Other correspondence exists between the Commercial Affairs Department General Manager, Raja Hasan Ali, the MIC and Al-Karamah discussing charging late penalties and compensation for damaged items. Further correspondence rejects the charges and authorizes full payment of the contracted amount of $1,263,360 million to Ewex for Volga engines shipped through Syria. Bank accounts used at the Jordan National Bank (Special Banking) to pay for SA-2 Volga missile imports up until at least June 2001, include 501083/14 and 12429.
 
-India ISG judges that the Government of India was not directly involved in supplying Iraq with military or dual-use items, but several Indian companies were active in illicit trade, particularly, NEC Engineering Pvt. Ltd. When Indian authorities discovered the detail the transfer of payments for the Volga missiles. In one contract, original date unknown, Ewex
+India ISG judges that the Government of India was not directly involved in supplying Iraq with military or dual-use items, but several Indian companies were active in illicit trade, particularly, NEC Engineering Pvt. Ltd. When Indian authorities discovered the
 
 %%page 123%%
 
@@ -5445,7 +5111,7 @@ Al-Najah was the primary front company in Iraq used by the MIC manufacturing com
 
 Prior to the 1991 Gulf war, Iraq had experimented with the use of carbon fibers to provide high strength and light weight for some of its missile components. Al-Rashid was instrumental in missile development prior to the Gulf war and in the years that followed. In May of 2000 NEC contracted with the Al-Rashid General, Co., to provide 40 kg of "Grade A" carbon fibers. Carbon fibers, while dual-use material, have extensive use in missiles and nuclear equipment. Figure 62 is an excerpt from captured documents regarding this contract.
 
-NEC engineers provided Iraq with crucial infrastruc-
+NEC engineers provided Iraq with crucial infrastructure development for its missile program and other programs. For example, NEC designed and built an
 
 ammonium perchlorate (AP) production plant for Iraq. AP is an essential ingredient for modern solid propellant production. It is the oxidizer for a solid propellant and constitutes over half of the propellant's weight.
 
@@ -5459,8 +5125,6 @@ When the Indian Government became aware of NEC's activities in 2001, New Delhi l
 
 Other Indian companies involved in supplying Iraq with prohibited items include the Arab Scientific Bureau (ASB) and Inaya Trading. ASB and Inaya Trading were involved in the procurement of chemicals associated with liquid-propellant missile systems and with chemical production and handling equipment. According to documents recovered during an ISG investigation of the ASB, there were numerous inquiries from Iraq and corresponding offers to supply liquid-propellant missile-associated components. Solicited or offered items included:
 
-ture development for its missile program and other programs. For example, NEC designed and built an
-
 %%page 125%%
 
 Figure 63. Selected contracts between NEC and Iraqi companies.
@@ -5470,11 +5134,11 @@ Figure 63. Selected contracts between NEC and Iraqi companies.
 - One hundred nitric acid pumps for 99.99 percent nitric acid.
 - Unsymmetric dimethylhydrazine (UDMH), a liquid fuel use for improved performance in liquid rocket propellants.
 - Diethylene triamine (DETA), a liquid fuel used in liquid propellant missiles.
-- Other chemicals sought by Iraq included hydrazine, hydrogen peroxide, xylidene, and triethylamine, which are chemicals commonly used for fuels and
+- Other chemicals sought by Iraq included hydrazine, hydrogen peroxide, xylidene, and triethylamine, which are chemicals commonly used for fuels and oxidizers by liquid-propellant missiles.
 
 Belarus Belarus was the largest supplier of sophisticated high-technology conventional weapons to Iraq from 2001 until the fall of the Regime. Complicity in this illicit trade was exhibited at the highest levels of the Belarusian Government. Belarusian state establishments and companies implemented cooperation agreements with Iraq to transfer technology, equipment, and expertise to the embargoed Regime.
 
-- The Iraqis constantly worked to improve the illicit trade relationship with Belarus despite the absence of a formal trade agreement between the two countries. The illicit trade relationship allowed Iraq to obtain high-technology military equipment. Belarus was relatively advanced in military research and development including air defense and elec- oxidizers by liquid-propellant missiles. tronic warfare.
+- The Iraqis constantly worked to improve the illicit trade relationship with Belarus despite the absence of a formal trade agreement between the two countries. The illicit trade relationship allowed Iraq to obtain high-technology military equipment. Belarus was relatively advanced in military research and development including air defense and electronic warfare.
 
 %%page 126%%
 
@@ -5487,7 +5151,7 @@ A former high-ranking Iraqi government official says that diplomatic relations b
 
 Key Belarusian Individuals Linked to Illicit Trade With Iraq The following Belarusian individuals were instrumental in driving forward the illicit trade with Iraq:
 
-mittee for Commercial and Economic Cooperation.
+- Vladimir Zamitalin. Ex-deputy to the head of the Presidential Bureau and former head of the Belarusian side of the combined Iraqi-Belarusian Committee for Commercial and Economic Cooperation.
 
 He was in charge of the special military cooperation with Iraq and functioned as a secret envoy between
 
@@ -5499,27 +5163,18 @@ President Lukashenko and Saddam.
 - Professor Kandrinko. Director of the communications department at a Belarusian concern called AGAT. He played a successful role in negotiations with Salah Al-Din state company and concluded many contracts concerning the manufacture of communication sets.
 - Professor Kloshko. A scientist who led the department of telemetric systems for surface-to-surface missiles and had many contracts with the MIC.
 - General Petr Rokoshevskiy. Deputy for arming and training in the Belarusian MoD. Rokoshevskiy had a role in activating military cooperation with Iraq. This involved working with the Iraqi MoD, SRG, and the MIC for supplying rocket propelled grenades (RPG-7), munitions, and laser-directed Konkurs antitank rounds. He played a major role in signing a contract with the Iraqi MoD and the MIC for training 20 officer engineers of the SRG in using the S-300 PMU-1 (SA-20) air defense system at the Belarusian military academy. Rokoshevskiy was also involved in signing contracts for supplying engines for T-72 and T-55 tanks, MiG-29 fighter jets, and BMP-1 mechanized infantry fighting vehicles.
-- Vladimir Zamitalin. Ex-deputy to the head of the Presidential Bureau and former head of the Belarusian side of the combined Iraqi-Belarusian Com-
 
 %%page 127%%
 
-Belarus tracts with the Iraqi Al-Karamah State Establishment
-
-Materials, Equipment and Services Provided by
-
-Belarus exported a range of military goods to Iraq. This illicit trade was organized and executed by a number of Belarusian companies. Captured documents reveal that in December 2002, Balmorals Ventures Ltd. implemented contract 148/2002 with the
-
-Al-Kindi General Company to deliver electronic components to the value of $70,367. This price included the cost of delivery to Syria and onward shipment to Baghdad. The goods could have been components for a radar jamming system.
+Materials, Equipment and Services Provided by Belarus Belarus exported a range of military goods to Iraq. This illicit trade was organized and executed by a number of Belarusian companies. Captured documents reveal that in December 2002, Balmorals Ventures Ltd. implemented contract 148/2002 with the Al-Kindi General Company to deliver electronic components to the value of $70,367. This price included the cost of delivery to Syria and onward shipment to Baghdad. The goods could have been components for a radar jamming system.
 
 Viktor Shevtsov was the director of Infobank and of another Belarusian company involved in illicit trade with Iraq named BelarusianMetalEnergo (BME). Infobank helped finance deals with Iraq and, according to Huwaysh, may have been run by Belarusian intelligence. BME was involved in supplying castings and machinery for T-72 tanks, and modernizing SA-2 air defense missiles and associated radar systems. BME had many multimillion dollar contracts with Iraq and worked closely with Infobank to finance illicit trade. Shevtsov organized, at his own personal expense, trips on-board Belarusian airlines from Minsk to Baghdad. These flights transported experts and directors of Belarusian companies connected to Iraq as well as technical and military equipment destined for Iraqi ministries.
 
 Alexander Degtyarev was also a major player in the illicit trade business with Iraq. Degtyarev was a Russian scientist whose specialty was missile guidance and control. Shevtsov introduced Degtyarev to the Iraqi MIC. Degtyarev owned the Belarusian companies named Systemtech and ElectricGazCom (EGC), which had contracts with Infobank and Iraq to supply radars plus control and guidance systems for SA-2 missiles. The latter equipment was transported through Syria and paid for through Syrian banking institutions. Degtyarev was a regular visitor to Iraq, traveling there every two weeks according to a high-level MIC official and a mid-level former Iraqi civil servant with direct access to the information.
 
-A high-level MIC official stated that EGC signed conto build a facility for the manufacturing and testing of control and guidance systems for surface-to-surface missiles such as al-Samud. This trade also included the sale of gyroscopes and accelerometer testing stages. In addition, ECG signed contracts with the Al-
+A high-level MIC official stated that EGC signed contracts with the Iraqi Al-Karamah State Establishment to build a facility for the manufacturing and testing of control and guidance systems for surface-to-surface missiles such as al-Samud. This trade also included the sale of gyroscopes and accelerometer testing stages. In addition, ECG signed contracts with the Al- Batani State Company for the technology transfer of manufacturing systems for an Iraqi satellite research project.
 
-Regime Finance Batani State Company for the technology transfer of manufacturing systems for an Iraqi satellite research project.
-
-and Procurement A former Iraqi official revealed that President Aleksandr Lukashenko as a vehicle for illicit trade with Iraq promoted a joint Belarusian-Iraqi company. Lukashenko was anxious that illicit trade should continue on a regular basis and requested that a firm called Belarus Afta be established in Baghdad as a clearinghouse for illicit military trade.
+A former Iraqi official revealed that President Aleksandr Lukashenko as a vehicle for illicit trade with Iraq promoted a joint Belarusian-Iraqi company. Lukashenko was anxious that illicit trade should continue on a regular basis and requested that a firm called Belarus Afta be established in Baghdad as a clearinghouse for illicit military trade.
 
 - Radar technology and air defense were the most crucial export commodities to Iraq from Belarus. Captured documents and a mid-level Iraqi military officer with direct access to the information affirm that there was joint Belarus-Iraqi development of an improved P-18 (Mod Spoon Rest) early warning radar between November 2000 and March 2003. This radar was employed at Al-Habbaniyah Air Defense Center against Coalition aircraft during OIF.
 - Systemtech provided assistance in the fields of research, testing, and project implementation. Dr Raskovka was the senior Systemtech official helping the Iraqis, visiting Iraq every 3 to 4 months for 3 years. The Iraqis wanted to purchase an S-300 air defense system. Contracts were signed and training undertaken, but the pure logistic problems of supplying the system without alerting the international community were insurmountable.
@@ -5550,9 +5205,7 @@ Even during the prelude to OIF, the illicit Belarusian military trade with Iraq 
 
 %%page 129%%
 
-Payments From Iraq to Belarus The main revenue stream for funding illicit trade with
-
-Iraq came from the Iraq-Syria Trade Protocol. The amount of illicit military trade between Belarus and Iraq was significant according to captured documents, with Belarusian Governments receiving nearly $114 million in payments from Iraq.
+Payments From Iraq to Belarus The main revenue stream for funding illicit trade with Iraq came from the Iraq-Syria Trade Protocol. The amount of illicit military trade between Belarus and Iraq was significant according to captured documents, with Belarusian Governments receiving nearly $114 million in payments from Iraq.
 
 According to a detainee, the critical financial element in the illicit trade process between Belarus and Iraq was Infobank. Belarus demanded to be paid 75 percent of the contract price in hard currency before delivery of any goods. Iraq did not agree to this. Therefore, Infobank agreed to provide bridging funds, including the 75 percent up-front fee, to finance illicit deals between Belarus and Iraq for a fee of 15 percent of any contract. According to a high-level Regime source with direct access, kickbacks paid to Iraq by Belarusian companies for exports to Iraq under the UN OFF Program were kept at the Infobank to fund future illicit Iraqi imports from Belarus. A senior former executive in the Iraqi MIC believes that Infobank had a total of $7 million of Iraqi money in its accounts before OIF. Infobank also financed illicit military trade between Iraq and Yugoimport-FDSP of Serbia, paying equivalent up-front fees, according to a former senior executive in the MIC.
 
@@ -5560,11 +5213,9 @@ Taiwan Although a limited supplier of prohibited goods to Iraq, companies from T
 
 The earliest evidence of Iraq's procurement relationship with Taiwan dates back to January 2001, when Iraq sought military equipment and dual-use goods from companies in Taiwan. In an apparent attempt to
 
-circumvent UN sanctions, Dr. Khalid Sulayman of the Iraq-based company ETIK for General Trading Limited approached the Taiwanese arms brokerage firm, Epnon International Limited, seeking 150 engines for T-72 and T-55 tanks, 200 engines for the T-62 tank, and 100 engines for the BMP-1 and BMP-2 armored personnel carriers. The engines were to be in com-
+circumvent UN sanctions, Dr. Khalid Sulayman of the Iraq-based company ETIK for General Trading Limited approached the Taiwanese arms brokerage firm, Epnon International Limited, seeking 150 engines for T-72 and T-55 tanks, 200 engines for the T-62 tank, and 100 engines for the BMP-1 and BMP-2 armored personnel carriers. The engines were to be in complete and new condition.
 
-Regime Finance plete and new condition.
-
-Although Epnon's prices were higher than other sources, ETIK learned that it did business without the and Procurement need for official papers. The deal was originally struc- tured as cash only; however, under-the-table transaction with the payments made in advance occurred, and an agreement was eventually reached for half the payment for the engines to be in cash, and the other half in oil.
+Although Epnon's prices were higher than other sources, ETIK learned that it did business without the need for official papers. The deal was originally struc- tured as cash only; however, under-the-table transaction with the payments made in advance occurred, and an agreement was eventually reached for half the payment for the engines to be in cash, and the other half in oil.
 
 - ISG has found no evidence that these engines were delivered to Iraq.
 
@@ -5572,9 +5223,7 @@ There is limited information on the supply of CNC machines to Iraq, but during U
 
 - During an inspection in 1998 of the Al Rashid General Company's Dhu-al-Fiqar (Tho Al Fekar) Plant at the Taji Metals Complex, UNSCOM inspectors found four new Hartford vertical machining centers, with one machine installed and being used on Ababil-50 motor bulkheads. The four machines, made by the She Hong Machinery Company Limited, were three-axis vertical machining center with an indexing fourth axis and a 20-tool carousel.
 - The inspectors considered these modern, standard quality CNC machines suitable for good quality aerospace and missile-related applications. Later in 1998, another inspection at the Dhu-al-Fiqar (Tho Al Fekar) Mechanical Plant reported another four Hartford CNC machines milling Ababil-50 rocket nozzles. The team identified that three of these machines possessed a computer-controlled turntable.
-- ISG cannot confirm that these CNC machines were
-
-> purchased directly from sources in Taiwan. It is equally likely that these machines were obtained from unknown third parties.
+- ISG cannot confirm that these CNC machines were purchased directly from sources in Taiwan. It is equally likely that these machines were obtained from unknown third parties.
 
 %%page 130%%
 
@@ -5585,7 +5234,7 @@ In 2001, the IAEC and MIC were working to obtain CNC machines to modernize Iraq'
 - In July 2002, Iraq asked a Jordanian company to seek a new quote from a company in Taiwan for a gun-drilling machine, earlier quoted at a price of $146,000.
 - January 2003 bids for CNC wire-cutting machines from Taiwan were also revealed in documentation from the Al Badr State Company, a subsidiary of the MIC.
 
-Iraq took active measures to ensure that illicit trade for machine tools from Taiwan was concealed. Recovered correspondence from Al-Basha'ir expressed that the wording of the contract conducted by Mr. 'Abdal-Razzaq Al Falahi should not make reference to Al-Basha'ir and that monies should be deposited in a static account for all transactions. Correspondence
+Iraq took active measures to ensure that illicit trade for machine tools from Taiwan was concealed. Recovered correspondence from Al-Basha'ir expressed that the wording of the contract conducted by Mr. 'Abdal-Razzaq Al Falahi should not make reference to Al-Basha'ir and that monies should be deposited in a static account for all transactions. Correspondence from a MIC-run company also indicated that bids from companies in Taiwan were under the auspices of the Iraqi and Syrian agreements, implying that goods
 
 obtained from Taiwan would be transshipped through front companies operating out of Syria or that Syrian front companies would act as intermediaries and facilitate delivery of the procured equipment.
 
@@ -5599,14 +5248,13 @@ Following Operation Desert Storm and UN sanctions, procurement from Egypt was li
 
 Trade in nitric acid, a precursor in the manufacture of solid propellant also flourished following the destruction of the Al Qa'Qa State Company Nitric Plant in December 1998, during Operation Desert Fox.
 
-- A senior official from the MIC stated that Iraq had a secret agreement with Egypt during 2001 to 2002 to have nitric acid shipped from Egypt through Syria to Iraq. It is unclear how many tons of nitric acid Iraq received from this secret agreement. from a MIC-run company also indicated that bids from companies in Taiwan were under the auspices of the Iraqi and Syrian agreements, implying that goods
+- A senior official from the MIC stated that Iraq had a secret agreement with Egypt during 2001 to 2002 to have nitric acid shipped from Egypt through Syria to Iraq. It is unclear how many tons of nitric acid Iraq received from this secret agreement.
 
 %%page 131%%
 
 Many transactions for prohibited goods were orchestrated through a trade protocol sponsored by the Iraqi MoO. The second Deputy Director for the MIC, Daghir Muhammad Mahmud, was responsible for monitoring these transactions.
 
 - A source with direct access estimated that there was approximately $50 million in the trade protocol account. Goods and materials were occasionally procured on a cash basis from Egypt, but the majority of the protocol was based on oil transshipped through Jordan.
-
 - M-23 officers from Balad, Iraq often accompanied MIC personnel to Egypt and between 2000 and 2003. M-23 was responsible for the physical security of MIC facilities and personnel. 'Abd-al-Hamid Sulayman Al Nasiri, the Director of M-23, personally went to Egypt under the auspices of the IAEC about six months before OIF.
 
 According to a senior Iraqi official from the MIC, the Egyptian state was involved in illicit trade with Iraq. Known Syrian procurement agents for Iraqi front companies also assisted in some of these transactions. It is also apparent that the Syria-Iraq Trade Protocol facilitated illicit trade from Egypt. Individual brokers and Iraqi foreign nationals in Egypt may have also initiated illicit trade, motivated by the lure of corporate and individual profits.
@@ -5619,7 +5267,7 @@ Yemen Improving bilateral relations between Sana'a and Baghdad in the late 1990s
 
 After 2000, Yemen became a state trade intermediary for Iraq, providing Baghdad with "end-user" cover for military goods prohibited by UN sanctions and resolutions. There is no evidence, however, that Yemen was complicit in the procurement of WMD-related commodities.
 
-Regime Finance Throughout the 1990s, Yemeni President Ali 'Abdallah Salih publicly supported UN sanctions against Iraq, but he remained concerned about the humanitarian impact on Iraq's citizens. Starting in February and Procurement 1997, senior members of the Yemeni Government privately argued that Yemen should unilaterally abro- gate the UN sanctions on Iraq. They contended that lifting the embargo would help to provide the Iraqi people with much-needed humanitarian assistance and enhance regional stability. By 1999, President Salih was beginning to publicly criticize the United States and the UK for the imposition of no fly zones over Iraqi airspace and the UN embargo.
+Throughout the 1990s, Yemeni President Ali 'Abdallah Salih publicly supported UN sanctions against Iraq, but he remained concerned about the humanitarian impact on Iraq's citizens. Starting in February 1997, senior members of the Yemeni Government privately argued that Yemen should unilaterally abro- gate the UN sanctions on Iraq. They contended that lifting the embargo would help to provide the Iraqi people with much-needed humanitarian assistance and enhance regional stability. By 1999, President Salih was beginning to publicly criticize the United States and the UK for the imposition of no fly zones over Iraqi airspace and the UN embargo.
 
 Opening Conventional Trade With Yemen for Oil and Cash In addition to increasingly pro-Iraqi rhetoric, Yemen and Iraq also built closer trade ties in 1999. Through regularly scheduled Iraqi-Yemeni Joint Committee meetings, Iraq and Yemen had signed trade agreements and Memoranda of Understanding aimed at strengthening bilateral ties, sparking economic growth, and exchanging energy experts in the field of natural gas and petroleum exploration. The two countries also signed a customs treaty, whereby no duties would be paid on the transfer of goods between Iraq and Yemen. Although these agreements were within the guidelines set forth by UNSCR 986, they provided an avenue for increasing trade coordination and eventually led to sanctions violations.
 
@@ -5637,7 +5285,7 @@ By November 2000, another session of the Yemeni Iraqi Joint Committee, led by 'A
 - To provide 60 scholarships for Yemeni students to study at Baghdad University.
 - To the exchange of experts to take place in the fields of agriculture and telecommunications.
 
-Yemen Emerges as an Intermediary for Iraqi Illicit Imports Several high-ranking Iraqi, Yemeni, and Syrian Government officials met to discuss the establishment of an illicit trade protocol between February and July 2001. The purpose of these particular meetings centered on formulating and implementing a plan that would allow Iraq to acquire Russian- manufactured military spares through a complicated supply chain and front company network. The main participants in the meetings were the Iraqi Ministry of Defense General Secretary, the Yemeni Ambassador, and Firas Talas, the son of the former Syrian Defense Minister Lt. Gen. Mustafa Talas. A Yemeni business-
+Yemen Emerges as an Intermediary for Iraqi Illicit Imports Several high-ranking Iraqi, Yemeni, and Syrian Government officials met to discuss the establishment of an illicit trade protocol between February and July 2001. The purpose of these particular meetings centered on formulating and implementing a plan that would allow Iraq to acquire Russian- manufactured military spares through a complicated supply chain and front company network. The main participants in the meetings were the Iraqi Ministry of Defense General Secretary, the Yemeni Ambassador, and Firas Talas, the son of the former Syrian Defense Minister Lt. Gen. Mustafa Talas. A Yemeni businessman named Sharar 'Abd-al-Haq brokered the illicit Yemeni business transactions.
 
 • Lt. Gen. Mustafa Talas, while absent from the meeting, provided a letter, which stated that he recently met Dimitrof Mikhail, president of Russian Company of Iron Export. Dimitrof, a former senior Russian intelligence official, had agreed to supply spare parts without requesting the identity of the end user.
 
@@ -5647,20 +5295,22 @@ Yemen Emerges as an Intermediary for Iraqi Illicit Imports Several high-ranking 
 
 According to recovered documents, President Salih called his brother, the Yemeni Air Force Commander, after this meeting and told him to provide Iraq with spare parts even if they needed to take them from Yemeni stocks. He also ordered his brother to acquire more materials from Russia.
 
-- Reportedly, in early December 2001, the Iraqi Air Force had received spare parts for MiG-29 fighter aircraft, mainly through Tartus, Syria. No further information is available as to the origin of the aircraft parts. It is likely that these items were purchased via the Russian/Yemen/Syria supply chain. man named Sharar 'Abd-al-Haq brokered the illicit Yemeni business transactions.
+- Reportedly, in early December 2001, the Iraqi Air Force had received spare parts for MiG-29 fighter aircraft, mainly through Tartus, Syria. No further information is available as to the origin of the aircraft parts. It is likely that these items were purchased via the Russian/Yemen/Syria supply chain.
 
 %%page 133%%
 
-> Importing Prohibited Deceptive Trade Practices Commodities Supporting Illicit Procurement
-
-Overview Use of Trade Intermediaries
+> Importing Prohibited Commodities
 
 Iraq under Saddam Husayn used various methods to acquire and import items prohibited under UN sanctions. Numerous Iraqi and foreign trade intermediaries disguised illicit items, hid the identity of the end user, obtained false end-user certificates, and/or changed the final destination of the commodity to get it to the region. For a cut of the profits, these trade intermediaries moved, and in many cases smuggled, the prohibited items to land, sea, and air border entry points along the Iraqi border.
 
 - Companies in Syria, Jordan, Lebanon, Turkey, UAE, and Yemen assisted Saddam with the acquisition of prohibited items through deceptive trade practices. In the case of Syria and Yemen, this included support from agencies or personnel within the government itself.
 - Numerous ministries in Saddam's Regime facilitated the smuggling of illicit goods through Iraq's borders, ports, and airports. The IIS and MIC, however, were directly responsible for skirting UN monitoring and importing prohibited items for Saddam.
 
-Regime Finance Trade intermediaries were a specific subcategory of front company that served as middle-men or agents for illicit procurement between the Iraq clients and international suppliers. On the surface they were and Procurement transport-related businesses such as freight or shipping companies that disguised the routing, destination, or purpose of acquired goods. They were either foreign or domestic companies and charged a percentage of the contract fee for their services. There were three types of Iraqi trade intermediaries:
+> Deceptive Trade Practices Supporting Illicit Procurement
+
+Use of Trade Intermediaries
+
+Trade intermediaries were a specific subcategory of front company that served as middle-men or agents for illicit procurement between the Iraq clients and international suppliers. On the surface they were transport-related businesses such as freight or shipping companies that disguised the routing, destination, or purpose of acquired goods. They were either foreign or domestic companies and charged a percentage of the contract fee for their services. There were three types of Iraqi trade intermediaries:
 
 - Companies in full collusion with the former Regime (often these were owned or operated by the Regime).
 - Intermediaries willing to overlook ambiguous or partially completed trade documents if the profit margin was sufficient.
@@ -5668,9 +5318,7 @@ Regime Finance Trade intermediaries were a specific subcategory of front company
 
 The conditions for illicit trade via intermediaries were set by the reestablishment of normal trade under the 1996 UN OFF Program and the bilateral trade protocols with Jordan, Syria, and Turkey. These protocols provided effective cover for illicit trade to occur, establishing legitimate linkages between trading companies, and making it more difficult to monitor compliance with UN sanctions.
 
-- Iraqi trade companies established branch offices in neighboring countries or to call on the support of affiliated/sister companies operating abroad. Sometimes these branch offices/sister companies represented the primary office for soliciting offers from foreign suppliers. These relationships gave the
-
-> appearance that commercial business was being conducted with business clients in the neighboring country, rather than Iraq.
+- Iraqi trade companies established branch offices in neighboring countries or to call on the support of affiliated/sister companies operating abroad. Sometimes these branch offices/sister companies represented the primary office for soliciting offers from foreign suppliers. These relationships gave the appearance that commercial business was being conducted with business clients in the neighboring country, rather than Iraq.
 
 %%page 134%%
 
@@ -5689,17 +5337,13 @@ Disguising the Nature of Prohibited Goods The Iraqi Regime skirted UN restrictio
 
 - In 1999, the MIC imported Georgian T-55 and T-72 tank engines under cover contracts for agricultural equipment, according to documents corroborated by a high-level MIC official (see figure 64).
 - Translated correspondence between the Iraqi front company Al-Rawa'a Trading Company and Al- Karamah detailed November 2000 plans to alter shipping documents for agricultural towing batteries (military use) to describe them as batteries for ambulances. Muhammad Talib Muhammad, director of Al-Rawa'a, was concerned because, if the batteries were discovered during inspection upon arrival in Iraq, it could create a "crisis." The purpose of altering the documents was clearly to describe the batteries dual use rather than military use, thereby making it easier to bring them into the country.
-- In February 2003, the Russian state arms export company, Rosoboronexport, and other Russian companies planned to sell advanced antiaircraft and antitank missile systems to Iraq, according to a document signed by the head of MIC security recovered at the IIS Headquarters in Baghdad. The Iraqis and Russians planned to ship the prohibited goods using UN OFF cover contracts to disguise the items as illumination devices, water pumps, and
-
-> assorted agricultural equipment. ISG does not know if this equipment was shipped to Iraq before the start of Operation Iraqi Freedom.
+- In February 2003, the Russian state arms export company, Rosoboronexport, and other Russian companies planned to sell advanced antiaircraft and antitank missile systems to Iraq, according to a document signed by the head of MIC security recovered at the IIS Headquarters in Baghdad. The Iraqis and Russians planned to ship the prohibited goods using UN OFF cover contracts to disguise the items as illumination devices, water pumps, and assorted agricultural equipment. ISG does not know if this equipment was shipped to Iraq before the start of Operation Iraqi Freedom.
 
 %%page 135%%
 
 International Commodity Deception:
 
-The Spherical Aluminum Powder Case Study The lure of high profits brought unscrupulous trade intermediaries to Iraq to offer their "services." Iraq's
-
-Al Badr Bureau Trading and Engineering Firm sought bids on spherical aluminum powder, a key component for solid rocket propellant, through a Pakistani trade intermediary. After three attempts to purchase the powder failed, the intermediary's managing director sought other means to obtain the powder for Al Badr. Throughout the trade negotiations, both Amanatullah and Dr. Farhan Ghazar, the Al Badr representative, were aware the powder was a prohibited military item.
+The Spherical Aluminum Powder Case Study The lure of high profits brought unscrupulous trade intermediaries to Iraq to offer their "services." Iraq's Al Badr Bureau Trading and Engineering Firm sought bids on spherical aluminum powder, a key component for solid rocket propellant, through a Pakistani trade intermediary. After three attempts to purchase the powder failed, the intermediary's managing director sought other means to obtain the powder for Al Badr. Throughout the trade negotiations, both Amanatullah and Dr. Farhan Ghazar, the Al Badr representative, were aware the powder was a prohibited military item.
 
 - In late April 2002, the Pakistani intermediary proposed shipping the powder to Iraq through Pakistan and then Syria using "falsified shipping documents" listing a different material in the shipping containers. He requested Dr. Ghazar's assistance to create these false invoices.
 - By mid-May, he had identified an unnamed British manufacturer that was prepared to ship the powder to Karachi and passed the company's end-user certificate to Dr. Ghazar, as a metallurgist, who should have no trouble falsifying the document.
@@ -5710,9 +5354,7 @@ In addition to disguising the identity of the item, trade intermediaries employe
 
 • The Pakistani intermediary and Ghazar also sought possible nonmilitary end uses for the powder that could be listed on the British certificate.
 
-Regime Finance
-
-- After completing the planning for the illicit shipment, he and Dr. Ghazar sought to assure his Iraqi clients that his Pakistani company was fully pre- and Procurement pared to handle this sensitive project and any future requests for other Iraqi customers.
+- After completing the planning for the illicit shipment, he and Dr. Ghazar sought to assure his Iraqi clients that his Pakistani company was fully prepared to handle this sensitive project and any future requests for other Iraqi customers.
 
 Throughout the summer and fall of 2002, the Pakistani intermediary continued to try to close the contract for spherical aluminum powder with Iraq. He made a trip to Iraq with samples in July and mailed samples to Dr. Ghazar in October 2002. Had Iraq agreed to the shipment in November 2002, the Pakistani intermediary's own delivery estimates would have had the powder delivered to Pakistan from a British firm no earlier than February 2003. Therefore, it is unlikely Iraq was able to obtain the aluminum powder before OIF. Nevertheless, this case illustrates the methods used by Iraq and its illicit trade intermediaries to evade UN sanctions and international monitoring.
 
@@ -5727,7 +5369,7 @@ Talas, routinely signed false end-user certificates for weapons dealers, general
 
 Circumvention of UN Sanctions Importing Missile-Related Materials in 1998
 
-To avoid UN inspectors' possible detection of sanctioned materials, Iraqi officials would instead find alternate methods to get what they needed. The Al Fat'h missile project illustrates how the Iraqis managed to avoid UN detection. Documents captured at the MIC Headquarters reveal the MIC's March 1998 plan to purchase dual-use materials, including: ammonium perchlorate, aluminum powder, carbon fiber, and phenolic resin for use in the Al Fat'h missile project. After discovery of these materials by the UN, Iraqi officials were instructed to submit a form B-1 by Richard Butler, Chairman of UNSCOM. This form detailed Iraq's plans to use 20 tons of ammonium perchlorate and 3 tons aluminum powder to manufacture composite solid propellant for the Al Fat'h motor. It also described a need for 350 kilograms of carbon fiber to insulate parts of the Al Fat'h motor. The materials were to be shipped through Jordan by the Iraqi company Al 'Ayan, with Al Wadha Commercial Agencies Company, possibly a subsidiary of Al-Eman, acting as an intermediary. A letter, classified "Top Secret" by the Iraqi Government, from Al 'Ayan Trading Company to the MIC summarized the inability to ship the ammonium perchlorate, aluminum powder, carbon fiber, and pheno-
+To avoid UN inspectors' possible detection of sanctioned materials, Iraqi officials would instead find alternate methods to get what they needed. The Al Fat'h missile project illustrates how the Iraqis managed to avoid UN detection. Documents captured at the MIC Headquarters reveal the MIC's March 1998 plan to purchase dual-use materials, including: ammonium perchlorate, aluminum powder, carbon fiber, and phenolic resin for use in the Al Fat'h missile project. After discovery of these materials by the UN, Iraqi officials were instructed to submit a form B-1 by Richard Butler, Chairman of UNSCOM. This form detailed Iraq's plans to use 20 tons of ammonium perchlorate and 3 tons aluminum powder to manufacture composite solid propellant for the Al Fat'h motor. It also described a need for 350 kilograms of carbon fiber to insulate parts of the Al Fat'h motor. The materials were to be shipped through Jordan by the Iraqi company Al 'Ayan, with Al Wadha Commercial Agencies Company, possibly a subsidiary of Al-Eman, acting as an intermediary. A letter, classified "Top Secret" by the Iraqi Government, from Al 'Ayan Trading Company to the MIC summarized the inability to ship the ammonium perchlorate, aluminum powder, carbon fiber, and phenolic resin because of the UN restrictions on Jordan in shipping those materials for the missile program. Al 'Ayan suggested the following solution:
 
 • Advise the beneficiary to contact the supplier to publicize the "cancellation" of the contract with Al 'Ayan.
 
@@ -5738,8 +5380,6 @@ To avoid UN inspectors' possible detection of sanctioned materials, Iraqi offici
 
 The contract would increase in value by 20 percent of the actual sum to compensate Al 'Ayan for aiding Iraq in acquisition of prohibited materials.
 
-lic resin because of the UN restrictions on Jordan in shipping those materials for the missile program. Al 'Ayan suggested the following solution:
-
 %%page 137%%
 
 international scrutiny was to simply list a neighbor-
@@ -5748,21 +5388,17 @@ Disguising the Commodity's Destination Perhaps the most basic method for Iraq to
 
 - According to a report, the Al Raya Company, an IIS front company, requested weapons from Syrian or Jordanian arms dealers. The merchant would acquire the goods in Syria or Jordan and move them into Iraq through the Jordanian Free Commercial Zone. This free trade zone was controlled by the Jordanian Ministry of Finance and Jordanian Intelligence Service and it served as an effective conduit for importing prohibited items through Jordan to Iraq. This report corroborates other reporting on the role of Jordan prior to 1999.
 - After 1999, the MIC's Al-Basha'ir Company served as a primary conduit for handling illicit shipments via Syria. At the MIC's request, Syrian trade companies obtained specific items for Iraq, primarily from suppliers in Russia, Bulgaria, Ukraine, and other Eastern European countries. When delivered to Syria, Al-Basha'ir took delivery of the commodities under the oversight and assistance of Syrian government officials. These officials normally received a 12.5-percent mark-up as a kickback to ensure goods moved from Syria to Iraq without dis- ruption. Al-Basha'ir then smuggled the items into Iraq and delivered them to MIC.
-- In another case, seized documents reveal that in 2000 the Indian NEC Company delivered "100 explosive capsule units for the RPG-7" to the Al-
+- In another case, seized documents reveal that in 2000 the Indian NEC Company delivered "100 explosive capsule units for the RPG-7" to the Al- Basha'ir Company in Iraq by leasing "a private plane which delivered the shipment directly to Syria with great difficulty."
 
 > Use of Illicit Smuggling and Transportation Networks
 
-Iraq has been at the center of various trade routes for centuries. Historically, this trade involved illicit activity, or smuggling, to escape taxes or to evade
-
-Regime Finance governmental oversight. Despite the imposition of sanctions by the United Nations in 1990, Iraq managed to circumvent UN sanctions through long- established business relationships with its neighbors, cross-state tribal connections, and use of ancient and Procurement smuggling routes. Contemporary smuggling methods used by Iraqi trade companies used the entire spectrum of smuggling methods: disguising illicit shipments as legitimate cargo; hiding illicit goods in legitimate shipments; avoiding customs inspections; and for high priority, low-volume shipments, using Iraqi diplomatic couriers.
+Iraq has been at the center of various trade routes for centuries. Historically, this trade involved illicit activity, or smuggling, to escape taxes or to evade governmental oversight. Despite the imposition of sanctions by the United Nations in 1990, Iraq managed to circumvent UN sanctions through long- established business relationships with its neighbors, cross-state tribal connections, and use of ancient smuggling routes. Contemporary smuggling methods used by Iraqi trade companies used the entire spectrum of smuggling methods: disguising illicit shipments as legitimate cargo; hiding illicit goods in legitimate shipments; avoiding customs inspections; and for high priority, low-volume shipments, using Iraqi diplomatic couriers.
 
 Captured documents indicate that there were approximately 500 official and unofficial border crossing points between Iraq and Syria, Jordan, Saudi Arabia, Kuwait, and Iran. According to the documents, there were also other border checkpoints between Iraq and Turkey and between Iran under Kurdish control. Despite the number of possible crossings, almost all goods entered Iraq at just five major border crossings and the port of Umm Qasr.
 
 - Only goods supplied under the UN OFF Program were subject to UN inspection at the four permitted border points; Turaybil/Al-Karamah on the Jordanian-Iraqi border, Tanf/Al Qaim on the Syrian-Iraqi border, Habur Bridge/Zakho on the Turkish-Iraqi border, Ar'ar on the Saudi-Iraqi border and the port of Umm Qasr on the Gulf.
 
 A mid-level Iraqi official asserted that Iraq signed a formal transport agreement in the 1990s. These agreements ensured that before 1999 Jordan was the primary conduit of illicit trade with Iraq. The change in the Iraqi-Jordanian relationship was promoted by a combination of improvement in Iraqi-Syrian relations, and Jordanian concern over increased political scrutiny in the United States.
-
-Basha'ir Company in Iraq by leasing "a private plane which delivered the shipment directly to Syria with great difficulty."
 
 %%page 138%%
 
@@ -5783,17 +5419,9 @@ One such Border Check Point (BCP) facility was located at Turaybil. The activity
 - Turaybil contained an IIS office, an ILTC office, an SSO office, and a Directorate of Military Intelligence office, according to information relayed by an Iraqi customs inspector with direct access. The "Orient Company" was often listed as the sender of equipment, with Iraqi front companies, including Al-Basha'ir, Al-Faris, Hatteem and Al-Faw, served as the consignees. The "Orient Company" was the most common cover name for illicit IIS-assisted shipments into Iraq—the company did not exist.
 - The volume of traffic at the Turaybil border crossing meant that it would not be possible to ade- quately inspect traffic entering Iraq.
 
-According to a captured document, days before OIF, the JEFF Corporation of Bulgaria offered and was prepared to export 500 Igla MANPADS missiles, 50 grip stocks, and two inspection platforms to Iraq. There is no evidence that the contract was fulfilled. The Iraqi front company named Al-Basha'ir, however, subcontracted the Nurallah Transportation Company
-
-> of Damascus to ship the embargoed goods from a Lebanese port to Al-Basha'ir warehouses, and then on to Baghdad. The goods would take a total of three
+According to a captured document, days before OIF, the JEFF Corporation of Bulgaria offered and was prepared to export 500 Igla MANPADS missiles, 50 grip stocks, and two inspection platforms to Iraq. There is no evidence that the contract was fulfilled. The Iraqi front company named Al-Basha'ir, however, subcontracted the Nurallah Transportation Company of Damascus to ship the embargoed goods from a Lebanese port to Al-Basha'ir warehouses, and then on to Baghdad. The goods would take a total of three months to reach Baghdad from Bulgaria via the sea and multiple shipments by truck. An Iraqi businessman has confirmed that illicit equipment arriving in Damascus from Minsk, Belarus, was transferred to Baghdad via Syrian roads and railways.
 
 %%page 139%%
-
-man has confirmed that illicit equipment arriving in entry points.
-
-months to reach Baghdad from Bulgaria via the sea and multiple shipments by truck. An Iraqi business-
-
-Damascus from Minsk, Belarus, was transferred to Baghdad via Syrian roads and railways.
 
 Open sources detail how the Habur bridge or gate near Zakho on the border with Turkey was also a scene of illicit smuggling. The large volume of traffic across Habur bridge (see Figure 65) hindered the adequate monitoring of cargo. Recent open sources point to the fact that UN monitors were able to inspect only one in every 200 trucks that crossed into Iraq via this route.
 
@@ -5801,15 +5429,11 @@ Other sources suggest that Iraq may have also received goods smuggled in by truc
 
 There are a dozen official entry points into Iraq from the neighboring countries (see figure 66) of Jordan, Syria, Turkey, Iran, Kuwait, and Saudi Arabia, three air entry points at Baghdad, Basra, and Mosul and two main ports at Umm Qasr and Al-Basrah. As indicated on the map, the UN monitored only five border crossings. The primary reason for the UN's oversight centered on the UN OFF Program. UNSCOM weapons inspectors seldom visited Iraq's border control points because they were based in Baghdad. The UN contracted two private companies from 1996 to 2003 (Lloyds Register and later a Swiss company called Cotecna) to authenticate and certify the arrival of humanitarian supplies under the UN OFF Program at three land border points. (A fourth was added just prior to OIF and the port of Umm Qasr (see figure 67).
 
-This left at least two major border crossings and
+This left at least two major border crossings and Baghdad's airport completely unmonitored. Even at the monitored crossings, cargo not approved by the UN could freely enter Iraq because UN monitors only
 
-UN could freely enter Iraq because UN monitors only
+dealt with UN OFF cargo. Any non-UN cargo could freely enter Iraq at either monitored or unmonitored entry points.
 
-dealt with UN OFF cargo. Any non-UN cargo could freely enter Iraq at either monitored or unmonitored
-
-Smuggling by Sea During the sanction years, traders used a pool of
-
-Regime Finance private dhows, barges, and tankers to smuggle oil out and commodities into and out of Iraq's southern ports with relative ease. It is possible that easily concealed military and dual-use items could have been transand Procurement ported by this method.
+Smuggling by Sea During the sanction years, traders used a pool of private dhows, barges, and tankers to smuggle oil out and commodities into and out of Iraq's southern ports with relative ease. It is possible that easily concealed military and dual-use items could have been transported by this method.
 
 Smuggling via Jordanian Ports The port of Aqaba in Jordan served as a maritime transshipment point. Beginning in the mid-1990s, Lloyds Register provided monitoring of goods arriving at Aqaba, but Jordan terminated the contract in 2000. The IIS had a representative in Aqaba, overseeing illicit trade including shipments made by a Middle Eastern firm.
 
@@ -5818,10 +5442,8 @@ From 1996 to March 2001, Muhammad Al-Khatib, a Jordanian businessman, became the
 - Al-Khatib was identified as the consignee.
 - All voyages involved transshipment, at least one via Dubai.
 - Goods were unloaded at Aqaba port by Al-Khatib and reloaded onto Al-Khatib company trucks for onward transit to Iraq.
-- All payments by Iraq were made to Al-Khatib with Al-Khatib paying other players in the logistics and
+- All payments by Iraq were made to Al-Khatib with Al-Khatib paying other players in the logistics and supply chain.
 - Iraq submitted tenders to NEC through Al-Khatib.
-
-Baghdad's airport completely unmonitored. Even at supply chain. the monitored crossings, cargo not approved by the
 
 %%page 140%%
 
@@ -5861,9 +5483,7 @@ In 2000, a metric ton of crude oil was worth about $205. A metric ton of crude o
 
 > Annex A Translations of Iraq's Bilateral Trade Protocols
 
-This annex contains translations and copies of the Jordan (partial), Syria, and Turkey trade
-
-Regime Finance Protocol agreements with Iraq. Iraq and Egypt participated in a relatively short-lived Protocol that earned Iraq about $33 million in late 2001 and early 2002. ISG does not have access to and Procurement documents outlining this agreement.
+This annex contains translations and copies of the Jordan (partial), Syria, and Turkey trade Protocol agreements with Iraq. Iraq and Egypt participated in a relatively short-lived Protocol that earned Iraq about $33 million in late 2001 and early 2002. ISG does not have access to documents outlining this agreement.
 
 Jordan-Iraq Trade Protocol
 
@@ -5903,9 +5523,7 @@ Minerals
 
 During the meetings that convened at the Oil Marketing Company in Baghdad between November 19th 21st of 2002, concerning the Iraqi and Jordanian study related to the supply of crude oil and its derivatives from Iraq to Jordan for the local consumption for year 2003, have concluded the following:
 
-> Firstly: Quantities and daily average: Regime Finance A. Crude oil: The two parties agree that the Iraqi side shall supply a total quantity of crude oil in 2003 esti-
-
-and Procurement mated to be 4.04 million tons, (plus or minus 10%) to be distributed in the months of the year, in accordance with the following daily average (ton/day):
+> Firstly: Quantities and daily average: A. Crude oil: The two parties agree that the Iraqi side shall supply a total quantity of crude oil in 2003 estimated to be 4.04 million tons, (plus or minus 10%) to be distributed in the months of the year, in accordance with the following daily average (ton/day):
 
 > Quantity (ton/ Quantity (ton/ Month day) Month day) January 12,000 July 12,000 February 12,000 August 11,000 March 12,000 September 11,000 April 12,000 October 11,000 May 4,000 November 12,000 June 12,000 December 12,000
 
@@ -5989,9 +5607,9 @@ plus 40 dollars per metric ton.
 
 The price of one barrel from regular benzene for vehicles on a basis of (C&F) Al-Zarqua is equal to the monthly average of the price of benzene for vehicles published in the bulletin of Argus Asia Products Report, titled FOB the Arab Gulf, minus $2 for every barrel and payment shall be made in cash.
 
-> Regime Finance Thirdly: Transportation fare: The Jordanian Oil Refinery Company shall pay the transportation costs of gas, liquid oil, and
+> Thirdly: Transportation fare: The Jordanian Oil Refinery Company shall pay the transportation costs of gas, liquid oil, and
 
-other expenditures for sold quantities on the basis of (C&F) base on notice from the Oil Marketing Company, and it will be deducted from the total value of the product, as much as $15 per ton for the gas oil and Procurement and in the amount of $50 per ton for the liquid gas and $17 per ton for benzene as transportation fees.
+other expenditures for sold quantities on the basis of (C&F) base on notice from the Oil Marketing Company, and it will be deducted from the total value of the product, as much as $15 per ton for the gas oil and in the amount of $50 per ton for the liquid gas and $17 per ton for benzene as transportation fees.
 
 The Iraqi side shall continue to carry the liquid gas in case it wasn't possible to transport the quantity demanded. The Jordanian Oil Refinery Company can transport some of the quota based on its ability.
 
@@ -6049,9 +5667,7 @@ D. Arrangements and communication will be maintained regarding road maintenance 
 
 Secondly: oil derivatives The Iraqi side will continue to ship the needs of Jordan's oil production for 2003. Quantities and daily and monthly averages were decided based on agreement number 2/2002 signed by both parties, on 11/21/2002 as follow: 1) Heating Oil a) Shipping cost per ton from 1/1/2003 through 1/31/2003 will be as follows:
 
-> Regime Finance From To Jordanian Dinar/Ton Bayji Al Zarqaa 13.054 Al Aqabah 17.640 Al Dowrah Al Zarqaa 11.604
-
-> and Procurement Al Aqabah 17.0227
+> From To Jordanian Dinar/Ton Bayji Al Zarqaa 13.054 Al Aqabah 17.640 Al Dowrah Al Zarqaa 11.604 Al Aqabah 17.0227
 
 > b) Shipping cost to and from different locations will be set starting 2/1/2003 in Jordanian Dinar per ton according to the following formula:
 
@@ -6103,9 +5719,9 @@ B. The Jordanian Refining Company shall pay any discrepancies in shipping cost f
 
 Fifteenth: Based on the Jordanian request, the Oil Production and Distributing Company offered to ship the extra quantities of the liquid gas imported through Al Aqabah port to its storage locations in Al Zarqaa, Amman, and Irbid using its own tankers according to a separate agreement to be signed between the Oil Production and Distribution Company and the Jordanian Refining Company Ltd., similar to the agreements signed in earlier years.
 
-Regime Finance Sixteenth: The Distribution Company or its authorities will ship the oil derivatives, request the Jordanian Oil Refining Company according to its regulation to pay the shipping cost and receive all dues directly.
+Sixteenth: The Distribution Company or its authorities will ship the oil derivatives, request the Jordanian Oil Refining Company according to its regulation to pay the shipping cost and receive all dues directly.
 
-and Procurement Seventeenth: The Oil Production and Distribution Company will be exempted from all applicable fees existing in the Kingdom of Jordan.
+Seventeenth: The Oil Production and Distribution Company will be exempted from all applicable fees existing in the Kingdom of Jordan.
 
 Eighteenth: This agreement is expandable to include any additional needed periods pending an acceptance by both parties.
 
@@ -6123,13 +5739,13 @@ Jordanian Side Iraqi Side
 
 %%page 154%%
 
-Syria-Iraq Trade Protocol Turkey-Iraq Trade Protocol
+Syria-Iraq Trade Protocol
 
 The Iraq-Syria Trade Protocol was negotiated from 27 to 29 May 2000 in Baghdad. The primary participants were the SOMO and the Iraqi State Oil Marketing Organization. The document (See Figures 1 and 2) was signed for Iraq by Saddam Zayn Hasan, Authorized Director of SOMO, and for Syria by Dr. Dawwud Haydar (Daood Haidar), Chief of the Syrian Oil Marketing Office.
 
-The main details of the Turkey-Iraq Protocol were agreed to at meetings between Iraqi and Turkish delegations in early 2000. Minutes of meetings were signed on 16 January 2000 (Mosul), 29 February 2000 (Baghdad), and 16 May 2000 (location unknown). The 16 January document (See Figure 3) was signed for Iraq by 'Amir Rashid Minister of Oil, Republic of Iraq, and for Turkey by Kursad Tuzmen, Undersecretary for Foreign Trade, Republic of Turkey. It was decided that a joint team of experts
+Turkey-Iraq Trade Protocol
 
-> from the two sides would meet every three months to review the progress of the implementation of the trade Protocol.
+The main details of the Turkey-Iraq Protocol were agreed to at meetings between Iraqi and Turkish delegations in early 2000. Minutes of meetings were signed on 16 January 2000 (Mosul), 29 February 2000 (Baghdad), and 16 May 2000 (location unknown). The 16 January document (See Figure 3) was signed for Iraq by 'Amir Rashid Minister of Oil, Republic of Iraq, and for Turkey by Kursad Tuzmen, Undersecretary for Foreign Trade, Republic of Turkey. It was decided that a joint team of experts from the two sides would meet every three months to review the progress of the implementation of the trade Protocol.
 
 %%page 155%%
 
@@ -6141,9 +5757,7 @@ Figure 1. The Iraq-Syria
 
 %%page 157%%
 
-Figure 2. Iraq-Syria Trade Protocol Annexes: Appendix 1 (top left), Appendix 2 (top right),
-
-Appendix 3 (bottom).
+Figure 2. Iraq-Syria Trade Protocol Annexes: Appendix 1 (top left), Appendix 2 (top right), Appendix 3 (bottom).
 
 %%page 158%%
 
@@ -6151,9 +5765,9 @@ Trade Protocol Agreement.
 
 %%page 167%%
 
-> Annex B It is important to note that, in many cases, the individ- lists never converted their allocations into finalized
+lists never converted their allocations into finalized
 
-Known Oil Voucher Recipients
+> Annex B Known Oil Voucher Recipients
 
 This annex contains the 13 secret lists maintained by Vice President Taha Yasin Ramadan al-Jizrawi and the Minister for Oil, Amir Rashid Muhammad al-Ubaydi.
 
@@ -6165,15 +5779,11 @@ These lists contain the following information:
 - The estimated profit earned by allocation holders during that period in US dollars per barrel. This figure is SOMO's estimation based on the price differential between Iraq's prices and the market price for crude.
 - The allocation holder (including their nationality) and the name of the company lifting the oil on their behalf.
 
-- The quantity of oil allocated for each individual,
+- The quantity of oil allocated for each individual, company, or organization.
 
-ual, company, or organization named on the SOMO contracts (signed by SOMO). These contracts were required to draw the vouchers to actually lift the oil. In other cases, voucher recipients never lifted all the oil designated in their vouchers, while others,
+It is important to note that, in many cases, the individual, company, or organization named on the SOMO contracts (signed by SOMO). These contracts were required to draw the vouchers to actually lift the oil. In other cases, voucher recipients never lifted all the oil designated in their vouchers, while others, on occasion, lifted more than their share. It is also important to note that, in many cases, receiving an oil voucher and lifting the oil was a legitimate transaction under the Oil For Food Program. The former Regime imposed a 10-cent per barrel surcharge on the oil allocations starting in the middle of the eighth UN OFF phase (September 2000). Recipients were instructed to deposit the surcharges in specific bank accounts held by Iraq in Jordan and Lebanon or to deliver the cash to one of Iraq's Embassies. SOMO was directed to refuse allocation contracts to anyone not willing to pay the surcharge. Many individuals, companies, and organizations refused to pay this surcharge. As a result, the ninth phase list reflects only the names of recipients who agreed to the surcharge and actually lifted oil. After the ninth phase, Saddam instructed SOMO not to sign any voucher contracts for individuals, companies, or organizations until they paid their past due surcharges. These unused allocations are evident in the phase 10 to 13 lists. This arrangement persisted through April 2003 when OIF commenced.
 
-Regime Finance on occasion, lifted more than their share. It is also important to note that, in many cases, receiving an oil voucher and lifting the oil was a legitimate transaction under the Oil For Food Program.
-
-and Procurement The former Regime imposed a 10-cent per barrel surcharge on the oil allocations starting in the middle of the eighth UN OFF phase (September 2000). Recipients were instructed to deposit the surcharges in specific bank accounts held by Iraq in Jordan and Lebanon or to deliver the cash to one of Iraq's Embassies. SOMO was directed to refuse allocation contracts to anyone not willing to pay the surcharge. Many individuals, companies, and organizations refused to pay this surcharge. As a result, the ninth phase list reflects only the names of recipients who agreed to the surcharge and actually lifted oil. After the ninth phase, Saddam instructed SOMO not to sign any voucher contracts for individuals, companies, or organizations until they paid their past due surcharges. These unused allocations are evident in the phase 10 to 13 lists. This arrangement persisted through April 2003 when OIF commenced.
-
-company, or organization. • The quantity of oil lifted by that allocation holder during that period.
+- The quantity of oil lifted by that allocation holder during that period.
 
 %%page 168%%
 
@@ -6181,9 +5791,9 @@ List
 
 %%page 201%%
 
-> Annex C In the early 1980s, as a result of fluctuations in eco- Iraq suspended its use of long-term economic plan-
+Iraq suspended its use of long-term economic plan-
 
-Iraq's Budgetary Process
+> Annex C Iraq's Budgetary Process
 
 Key Budgetary Actors
 
@@ -6196,11 +5806,9 @@ Ministry of Finance The MOF oversaw the formulation of the general government bu
 Ministry of Planning The Ministry of Planning (MoP) also negotiated with each ministry to arrive at an acceptable budget figure for their respective projects.
 
 - Projects submitted from each ministry formed the Regime's capital spending (infrastructure expenditure) budget input to the general government budget.
-- This ministry was responsible for large projects designed to improve production and foster development in various sectors of the economy, particularly within the ministries of industry and agriculture, as well as the MoO and MoD, according to the Direc-
+- This ministry was responsible for large projects designed to improve production and foster development in various sectors of the economy, particularly within the ministries of industry and agriculture, as well as the MoO and MoD, according to the Director of the CBI.
 
-nomic resources and the effects of the war with Iran, ning. In 2001 and 2002, the former Regime restored the use of five-year and ten-year plans, respectively, as long-term planning tools. According to Iraqi press reports, the five-year plan was designed to foster
-
-Regime Finance economic development, distribute resources among government projects, and improve the country's production capabilities. The ten-year plan was concerned with long-term economic policy to achieve high and Procurement economic growth rates. The Planning Commission worked with the EAC to create the ten-year plan and probably worked with the EAC on the five-year plan as well.
+In the early 1980s, as a result of fluctuations in economic resources and the effects of the war with Iran, ning. In 2001 and 2002, the former Regime restored the use of five-year and ten-year plans, respectively, as long-term planning tools. According to Iraqi press reports, the five-year plan was designed to foster economic development, distribute resources among government projects, and improve the country's production capabilities. The ten-year plan was concerned with long-term economic policy to achieve high economic growth rates. The Planning Commission worked with the EAC to create the ten-year plan and probably worked with the EAC on the five-year plan as well.
 
 - In November 1994, Law No. 24 established the Planning Commission, abolished the MoP and took over all its rights and duties.
 - In August 2002, an RCC decree reestablished the MoP (Some details of Law No. 24 continued to apply) and abolished the Planning Commission. The MoP "assumed its tasks, jurisdiction, rights, and obligations." This decree appointed 'Abd-al- Mun'im Al Khatab, former head of the Planning Commission since the mid 1990s, as Minister of Planning.
@@ -6209,9 +5817,7 @@ Economic Affairs Committee In late 1995, Saddam re-established the EAC to handle
 
 - Upon approval by the finance and planning ministries, the combined operating and capital/project budgets would go to the EAC—subcommittee of the CoM—for approval.
 
-Members of the EAC were also heads of ministries and organizations within the régime. The chairman of the EAC was Deputy Prime Minister and Mintor of the CBI. ister of Finance Hikmat. The MIC Head, 'Abd-al-
-
-Tawab 'Abdallah Al Mullah Huwaysh was the vice included the:
+Members of the EAC were also heads of ministries and organizations within the régime. The chairman of the EAC was Deputy Prime Minister and Minister of Finance Hikmat. The MIC Head, 'Abd-al- Tawab 'Abdallah Al Mullah Huwaysh was the vice included the:
 
 %%page 202%%
 
@@ -6255,19 +5861,16 @@ While the MIC and the MoD were partially funded by minister of finance-led EAC b
 
 Budget Review and Approval
 
-After review by the EAC, budget recommendations
-
-> were sent to the CoM for approval, where the budget became law. The RCC rubberstamped the CoM's
+After review by the EAC, budget recommendations were sent to the CoM for approval, where the budget became law. The RCC rubberstamped the CoM's the president.
 
 %%page 203%%
 
-the president.
-
 Those organizations whose budgets were not decision and issued a presidential decree signed by
 
-Presidential Diwan Financial Accounts Department Any decision in any area that needed Saddam's signature, approval, comment or review had to be routed through one of the Diwan's departments. Fiscal decisions were routed to the Presidential Diwan's Financial Accounts Department.
+Presidential Diwan Financial Accounts Department Any decision in any area that needed Saddam's signature, approval, comment or review had to be routed through one of the Diwan's departments. Fiscal decisions were routed to the Presidential Diwan's Financial Accounts Department. • This department was responsible for reviewing government budget decisions, ministry requests for budget increases, new financial allocations, and any other financial matters except those for the IIS,
 
-- This department was responsible for reviewing government budget decisions, ministry requests for budget increases, new financial allocations, and any other financial matters except those for the IIS, SSO, and DGMI.
+SSO, and DGMI.
+
 - Any ministry or organization's financial request outside of the annually allocated budget was to be sent to the president for review and or approval through this directorate.
 - The department also managed domestic banking accounts reserved for the payment of employee salaries and Diwan expenditures.
 
@@ -6275,9 +5878,7 @@ Budget Execution According to the minister of finance, funds were disbursed mont
 
 - The MoF, however, did not have authority to approve disbursals involving the Presidential Secretariat, the Presidential Diwan, the IIS, the Directorate of General Security (DGS), and certain secret MoD and MIC expenses.
 
-Role of the National Security Council reviewed by the Presidential Diwan's Financial Accounts Department were presented to the NSC. Vice President and RCC Vice-Chairman Izzat Ibrahim al-Duri chaired the NSC with the head of the
-
-Regime Finance Presidential Secretariat, 'Abd Hamid Mahmud—the Secretary of the NSC. Because both 'Izzat Ibrahim and 'Abd headed NSC meetings, it is unclear who precisely exercised the most power. However, the and Procurement Presidential secretary was influential. The NSC met a few times each year, as necessary, to discuss budget, security, and intelligence issues (for additional information on the NSC, see the Security Services Annex). Other members of the NSC included the following: • Interior Minister.
+Role of the National Security Council reviewed by the Presidential Diwan's Financial Accounts Department were presented to the NSC. Vice President and RCC Vice-Chairman Izzat Ibrahim al-Duri chaired the NSC with the head of the Presidential Secretariat, 'Abd Hamid Mahmud—the Secretary of the NSC. Because both 'Izzat Ibrahim and 'Abd headed NSC meetings, it is unclear who precisely exercised the most power. However, the Presidential secretary was influential. The NSC met a few times each year, as necessary, to discuss budget, security, and intelligence issues (for additional information on the NSC, see the Security Services Annex). Other members of the NSC included the following: • Interior Minister.
 
 - Foreign Minister.
 - Qusay Saddam Husayn, head of the RG.
@@ -6301,38 +5902,29 @@ Figure 5. The Iraqi general budget process for secret and off-budget issues.
 
 %%page 205%%
 
-- The NSC Auditing Division sent a note to the Secretariat, approving the funds transfer. Depending upon the sensitivity of the request, the Auditing Division would suggest adding the requested funds to the organization's budget after receiving approval from Saddam. The NSC Secretariat would send a note to Saddam with the Auditing Division's sug- gestion. Upon the President's approval, the NSC
-
-Secretariat would send a note to the MoF informing it of Saddam's decision.
-
-- The NSC sometimes sent a note within the Secretariat and to the requesting organization about
+- The NSC Auditing Division sent a note to the Secretariat, approving the funds transfer. Depending upon the sensitivity of the request, the Auditing Division would suggest adding the requested funds to the organization's budget after receiving approval from Saddam. The NSC Secretariat would send a note to Saddam with the Auditing Division's sug- gestion. Upon the President's approval, the NSC Secretariat would send a note to the MoF informing it of Saddam's decision.
+- The NSC sometimes sent a note within the Secretariat and to the requesting organization about the NSC's decision and to inform the MoF that it should add the funds to the concerned organization's budget.
 
 - Finally, the NSC Secretariat sent a note to the Minister's office in the MoF informing it of the NSC's decision.
 - According to the minister of finance, the Presidential Diwan probably also viewed NSC budget proposals before they were sent to the MoF.
 
-Regime Finance and Procurement the NSC's decision and to inform the MoF that it should add the funds to the concerned organization's budget.
-
 %%page 207%%
 
-> Annex D Sources of Revenue Iraq Economic Data (1989-2003) Iraq's oil development began in 1901. The Iraq
+> Iraq Economic Data (1989-2003) Iraq's oil development began in 1901. The Iraq
 
-Under the rule of Saddam, economic data were considered state secrets; thus, reliable data for the era was limited. According to the Economist Intelligence
+Annex D
 
-Unit data (see Figure 6), Iraq's GDP stood at roughly $38 billion in 1989, measured in constant 2003 dollars. From 1990 until Saddam accepted the terms and conditions of UN Resolution 986 in 1996 the GDP in Iraq remained at less than 30 percent of the 1989 value. In the 1996 to 2002 period, the data shows a gradual recovery as GDP increased from $10.6 billion in 1996 to $33 billion in 2000 before dropping back to $29 billion in 2001.
+Under the rule of Saddam, economic data were considered state secrets; thus, reliable data for the era was limited. According to the Economist Intelligence Unit data (see Figure 6), Iraq's GDP stood at roughly $38 billion in 1989, measured in constant 2003 dollars. From 1990 until Saddam accepted the terms and conditions of UN Resolution 986 in 1996 the GDP in Iraq remained at less than 30 percent of the 1989 value. In the 1996 to 2002 period, the data shows a gradual recovery as GDP increased from $10.6 billion in 1996 to $33 billion in 2000 before dropping back to $29 billion in 2001.
 
 Per capita GDP during the period followed the downward trend seen in overall GDP. GDP per capita went from approximately $2304 in 1989 to $938 in 1990. From 1991 until 1996 per capita GDP never rose above $507. During this period income inequality was a problem as the wealth was concentrated in the hands of Regime loyalists and traders while most Iraqis subsisted on much less income.
 
 In comparison to the estimates in Figure 6, the CBI published a statistical bulletin with GDP data in current prices (Figure 7). The data used in figure 7 were acquired in 2004 at the CBI. It should be noted that the validity or reliability of the data is unknown. Because of the lack of specific economic data, it is difficult to disaggregate the Iraq GDP into sectors. It is estimated that in 1989 (Figure 8) oil comprised approximately 61 percent of the economy. However, following the invasion of Kuwait and sanctions on the oil exports, this steadily declined until 1996 when the UN OFF program allowed Iraq to resume controlled export of oil using UN approved contracts. The Agricultural sector of the GDP, although larger than some neighboring states, was quite small when compared to oil and services. Iraq's fertile agricultural land covers about one-fifth of its territory and has allowed Iraq to sustain a noteworthy agricultural system that is based mostly on barley and dates.
 
-National Oil Company (INOC) was formed in 1964, and with Iraqi oil nationalization between 1972 and 1975, INOC took over from the international oil companies previously running the country's oil industry.
+Sources of Revenue
 
-Regime Finance
+National Oil Company (INOC) was formed in 1964, and with Iraqi oil nationalization between 1972 and 1975, INOC took over from the international oil companies previously running the country's oil industry. In 1987, INOC was dissolved and merged with the MoO. Before the Gulf War, oil accounted for more than 60 percent of the country's GDP and 95 percent of foreign currency earnings. Following Iraq's invasion of Kuwait in 1990 and the embargo on Iraqi oil exports, Iraqi oil production fell to 10 percent of its prewar level from 3.5 million barrels per day in July 1990 (Figure 9) to around 350,000 barrels per day in July 1991. UN-approved oil exports began in December 1996 after Iraq finally accepted UNSCR 986 (passed in April 1995). However, Iraq's oil sector continued to suffer from years of poor oil reservoir management; corrosion problems at various oil facilities; deterioration of water injection facilities; lack of spare parts, materials, equipment, and damage to oil storage and pumping facilities.
 
-In 1987, INOC was dissolved and merged with the MoO. Before the Gulf War, oil accounted for more than 60 percent of the country's GDP and 95 percent of foreign currency earnings. Following Iraq's and Procurement invasion of Kuwait in 1990 and the embargo on Iraqi oil exports, Iraqi oil production fell to 10 percent of its prewar level from 3.5 million barrels per day in July 1990 (Figure 9) to around 350,000 barrels per day in July 1991. UN-approved oil exports began in December 1996 after Iraq finally accepted UNSCR 986 (passed in April 1995). However, Iraq's oil sector continued to suffer from years of poor oil reservoir management; corrosion problems at various oil facilities; deterioration of water injection facilities; lack of spare parts, materials, equipment, and damage to oil storage and pumping facilities.
-
-Unlike most Gulf States, Iraq has considerable agricultural potential. About 12 percent of its land is arable, of which 4 percent is irrigated. Another 9 percent is suitable for grazing and 3 percent is forested. However, during Saddam's reign, Iraq did not effectively use its agricultural potential. Under the Ba'th party, activity in the food and agriculture sectors of the economy continued to decline. Government expenditures on agriculture dropped from 18 percent of total government expenditures in 1976 to less than 10 percent in 1980 and continued to decline during the Iran-Iraq war. Under Saddam, as a result of drought, lack of inputs, poor methods and weak administration, Iraq was unable to achieve agricultural production levels near its potential. Following the first Gulf war, the irrigation systems fell into disrepair and much of the irrigated cropland in central and southern Iraq was badly damaged by salinization. Rapid population growth during the past three decades, coupled with limited arable land and an overall stagnation in agricultural production has steadily increased Iraq's dependence on imports to meet domestic food needs. By 2002, under the UN OFF program, between 80
-
-> percent and 100 percent of Iraq's food staples were imported. However, Iraq remained self-sufficient in fruits and vegetables.
+Unlike most Gulf States, Iraq has considerable agricultural potential. About 12 percent of its land is arable, of which 4 percent is irrigated. Another 9 percent is suitable for grazing and 3 percent is forested. However, during Saddam's reign, Iraq did not effectively use its agricultural potential. Under the Ba'th party, activity in the food and agriculture sectors of the economy continued to decline. Government expenditures on agriculture dropped from 18 percent of total government expenditures in 1976 to less than 10 percent in 1980 and continued to decline during the Iran-Iraq war. Under Saddam, as a result of drought, lack of inputs, poor methods and weak administration, Iraq was unable to achieve agricultural production levels near its potential. Following the first Gulf war, the irrigation systems fell into disrepair and much of the irrigated cropland in central and southern Iraq was badly damaged by salinization. Rapid population growth during the past three decades, coupled with limited arable land and an overall stagnation in agricultural production has steadily increased Iraq's dependence on imports to meet domestic food needs. By 2002, under the UN OFF program, between 80 percent and 100 percent of Iraq's food staples were imported. However, Iraq remained self-sufficient in fruits and vegetables.
 
 %%page 208%%
 
@@ -6343,8 +5935,6 @@ Figure 7. GDP in current prices.
 %%page 209%%
 
 Figure 8. Sectoral composition of Iraq's GDP, 1989.
-
-Regime Finance
 
 Figure 9. Iraq oil production,
 
@@ -6358,15 +5948,13 @@ Industrial development, diversification and manufacturing have gone through nume
 
 Foreign Debt
 
-Iraq's indebtedness has been the result primarily of the war with Iran. Iraq traditionally had been free of foreign debt and had accumulated foreign reserves that reached $35 billion by 1980. These reserves were exhausted in the early stages of the war with Iran. It is estimated that from 1980 to 1989 Iraq's arms purchases alone totaled $54.7 billion. Following the war, Iraq was faced with the dilemma of paying off short-term debts to western creditors estimated between $35 to 45 billion at high interest rates. However, the Regime resisted western attempts through the International Monetary Fund (IMF) and World Bank to reschedule the debt primarily because Baghdad believed it could negotiate more favorable terms dealing with countries bilaterally.
+Iraq's indebtedness has been the result primarily of the war with Iran. Iraq traditionally had been free of foreign debt and had accumulated foreign reserves that reached $35 billion by 1980. These reserves were exhausted in the early stages of the war with Iran. It is estimated that from 1980 to 1989 Iraq's arms purchases alone totaled $54.7 billion. Following the war, Iraq was faced with the dilemma of paying off short-term debts to western creditors estimated between $35 to 45 billion at high interest rates. However, the Regime resisted western attempts through the International Monetary Fund (IMF) and World Bank to reschedule the debt primarily because Baghdad believed it could negotiate more favorable terms dealing with countries bilaterally. Iraq's foreign debt was comprised of western credit provided for military assistance, development finance and export guarantees. This assistance has been
 
 estimated at $35 billion in principal. The former via the Paris Club during the 1980s and 1990s for the development and production of military programs (Figure 10). Gulf States such as Saudi Arabia, Kuwait and the United Arab Emirates provided an additional $30 to 40 billion in financing to fight Iran (Figure 11). Although the Gulf States considered the financial support provided to Iraq to be a loan, Iraq believed that the Gulf States were required to provide help to Iraq in its fight to prevent the spread of radical Iranian fundamentalism.
 
 In addition to the money borrowed by Iraq during the 1980s, Iraq has had compensation claims made for reparations of damage inflicted during the invasion and occupation of Kuwait during 1990 and 1991. The United Nations Compensation Commission (UNCC) was responsible for processing and collecting such claims as authorized by UNSCR 692. The OFF program provided that 30 percent of Iraq's oil sales would be used to settle compensation claims authorized by the UNCC. This figure was reduced to 25 percent in December 2000 and was set at 5 percent when oil exports resumed after OIF. As of 7 May 2004, claims totaling $266 billion have been adjudicated and claims worth $48 billion have been awarded by the UNCC. Additional claims worth $83 billion need to be resolved.
 
 Another source of potential financial obligations accrued by Iraq since 1990 were contracts signed with countries such as Russia, UAE, Egypt, China, France, and the Netherlands mainly in the energy and telecommunications sectors. Because of UN Sanctions during the period, the contracts were not executed. It is uncertain if these contracts will be honored in the future. Iraq's total foreign debt compared to GDP from 1989 until 2003 was not sustainable (Figure 12). Iraq was borrowing much faster than it was producing for over a decade (see Figure 13).
-
-Iraq's foreign debt was comprised of western credit provided for military assistance, development finance and export guarantees. This assistance has been
 
 %%page 211%%
 
@@ -6382,23 +5970,21 @@ Figure 13. Iraq public debt (Central Bank of Iraq 2004).
 
 %%page 213%%
 
-Balance of Payments/Exchange Rates Employment
+Balance of Payments/Exchange Rates
 
 The Balance of Payments (BoP) is an account of all transactions between one country and all other countries—transactions that are measured in terms of receipts and payments. From the US perspective, a receipt represents any dollars flowing into the country or any transaction that require the exchange of foreign currency into dollars. A payment represents dollars flowing out of the country or any transaction that requires the conversion of dollars into some other currency. The CBI Department of Research and Statistics provided statistics on Iraq's Balance of Payments, which are summarized (Figures 14 and 15).
 
 Exchange rates are important during these transactions because they represent the linkage between one country and its partners in the global economy. Exchange rates affect the relative price of goods being traded (exports and imports), the valuation of assets, and the yield on those assets. The CBI pegged its official rate between $3 to 3.38 per dinar in the 1970s. The last official exchange rate of $3.11 per dinar was set in 1982. During the 1970s the official and market rates generally corresponded and by 1980 the country had $35 billion in foreign exchange reserves. Because of the war with Iran that figure had fallen to $2 billion by 1987. The currency depreciated rapidly in the unofficial market during the Iraq-Iran war and after the first Gulf War the pace of depreciation increased further. During 1997 to 2003, the exchange rate fluctuated between 1500 -2000ID per $1 and was fairly steady at about 1950 ID to $1 in recent years. Although the Regime did not alter the official exchange rate after 1983, it acknowledged the rate differential in 1999 by allowing state run banks to exchange hard currency at the rate of 2000 ID to $1. According to the statistical bulletin published by CBI (Figure 16) the numbers projected by sources in the US are consistent, with numbers reported internally. It is important to note that the validity and reliability of the data provided by CBI has not yet been evaluated.
 
-Iraq's economy suffered from under-employment, an economic affliction that was typical of oil-based economies. Iraq's oil sector historically generated about 60 percent of Iraq's GDP, but only employed two to three percent of Iraq's labor force. Unem-
+Employment
 
-Regime Finance ployment has risen significantly during the period of 1988-2003. Unemployment in Iraq during 2003 was estimated to be around 28 percent of the labor force. Some 40 percent of the employed are estimated and Procurement to work in the public sector, many in marginalized economic activities, in difficult conditions, and for minimal pay. Women represent about 52 percent of Iraq's population, but constitute only 23 percent of the formal workforce, mostly as middle level professionals in the public and service sectors and in rural areas as seasonal agricultural workers.
+Iraq's economy suffered from under-employment, an economic affliction that was typical of oil-based economies. Iraq's oil sector historically generated about 60 percent of Iraq's GDP, but only employed two to three percent of Iraq's labor force. Unemployment has risen significantly during the period of 1988-2003. Unemployment in Iraq during 2003 was estimated to be around 28 percent of the labor force. Some 40 percent of the employed are estimated to work in the public sector, many in marginalized economic activities, in difficult conditions, and for minimal pay. Women represent about 52 percent of Iraq's population, but constitute only 23 percent of the formal workforce, mostly as middle level professionals in the public and service sectors and in rural areas as seasonal agricultural workers.
 
 Over the long run, labor markets are affected by demographics, changes in productivity and the rate of growth in potential output. In the short run, these markets will reflect volatility in the level of economic activity. The unemployment rate in Iraq represents the ratio of those actively seeking work and the total number of people in the labor force. Iraq's economy was powered mainly by state run centrally controlled government entities. Although Saddam did encourage privatization during the 1980s, this was not successful because of the continuing conflicts and lack of financing and support for private business owners in Iraq.
 
 Social Conditions and Indicators
 
-Following the war with Iran in 1988, Iraq was ranked 50th out of 130 countries on the 1990 UNDP Human Development Index (HDI). This index measures national achievements in health, education, and per capita GDP. Iraq was close to the top of the "medium human development" category, a reflection of the Government's continued investment in basic social services. By 1995, Iraq had declined to 106th out of 174 countries and by 2000 it had plummeted
-
-> to 126th, falling behind Bolivia, Egypt, Mongolia and Gabon and close to the bottom of the "medium human development" category.
+Following the war with Iran in 1988, Iraq was ranked 50th out of 130 countries on the 1990 UNDP Human Development Index (HDI). This index measures national achievements in health, education, and per capita GDP. Iraq was close to the top of the "medium human development" category, a reflection of the Government's continued investment in basic social services. By 1995, Iraq had declined to 106th out of 174 countries and by 2000 it had plummeted to 126th, falling behind Bolivia, Egypt, Mongolia and Gabon and close to the bottom of the "medium human development" category.
 
 %%page 214%%
 
@@ -6410,23 +5996,17 @@ Figure 15. Balance of payments.
 
 Figure 16. Exchange rate ID/USD.
 
-and Procurement
-
 According to the HDI, an Iraqi born in 1987 could expect to live 65 years while citizens in bordering Jordan had a life expectancy of 67 years. By 1998 an Iraqi was expected to live only 63.8 years while a Jordanian saw an increase in life expectancy 70.4 years in 1998. Compared to Jordan, where the literacy rate rose from 75 percent in 1985 to 88.6 percent in 1998, Iraq's had dropped from 89 percent to 73.5 percent. In 1990, Iraq ranked three places above Jordan on the HDI. In 2000, Iraq placed 34 below Jordan.
 
 %%page 217%%
 
-Annex E Turkey Protocol
-
-> Illicit Earnings Sources and Estimation Methodology
+> Annex E Illicit Earnings Sources and Estimation Methodology
 
 Figure 17 and the subsequent notes describe how ISG derived its estimates for Iraq's various illicit revenue streams.
 
 Jordan Protocol
 
-Iraq has provided little data on the earnings from the
-
-Jordanian Protocol. • Data for 1991-95 is an ISG estimate based on accumulated Iraqi debt owed to Jordan over this period of $1 billion—averaging $200 million in "income" for each of the five years. To this was added an estimate for the amount of trade to be financed by
+Iraq has provided little data on the earnings from the Jordanian Protocol. • Data for 1991-95 is an ISG estimate based on accumulated Iraqi debt owed to Jordan over this period of $1 billion—averaging $200 million in "income" for each of the five years. To this was added an estimate for the amount of trade to be financed by
 
 Jordan under the trade Protocol of $200 million per year. This provides a total of $400 million per year.
 
@@ -6434,13 +6014,11 @@ Jordan under the trade Protocol of $200 million per year. This provides a total 
 - Data for 1999-2001 is based on SOMO data for the value of invoices with Jordan under the general trade Protocol as well as a 60 percent credit, 40th percent cash arrangement with Jordan's Ministry of Energy and Mineral Resources. SOMO did not provide actual collections for this period so the invoice figure was adjusted downward based on the average difference (70 percent) between invoices and actual collections in 2002 and 2003. Seventy percent of the SOMO invoice figure is used to estimate Iraq's actual collections.
 - Data for 2002-2003 is based on SOMO actual collections under the trade Protocol and 60/40 arrangements.
 
-Syria Protocol Data is based on SOMO actual collections. The program did not exist prior to 2000. Any exports to Syria prior to 2000 would be accounted for as private sector
+Syria Protocol Data is based on SOMO actual collections. The program did not exist prior to 2000. Any exports to Syria prior to 2000 would be accounted for as private sector trade.
 
-Data is based on SOMO actual collections. The program did not exist prior to 2000. Any exports to Turkey prior to 2000 would be accounted for as private sector trade.
+Turkey Protocol Data is based on SOMO actual collections. The program did not exist prior to 2000. Any exports to Turkey prior to 2000 would be accounted for as private sector trade.
 
-Regime Finance
-
-Egypt Protocol Data is based on SOMO actual collections. The program existed only in 2001 and 2002. There is no evidence that oil exports to Egypt occurred except in and Procurement these years.
+Egypt Protocol Data is based on SOMO actual collections. The program existed only in 2001 and 2002. There is no evidence that oil exports to Egypt occurred except in these years.
 
 Import Kickbacks This program did not exist prior to 2000. Iraq has provided little data on earnings from the UN OFF import kickback scheme. Data for 2000-2003 is based on:
 
@@ -6449,20 +6027,18 @@ Import Kickbacks This program did not exist prior to 2000. Iraq has provided lit
 - UN data that over $16 billion in funds remained unspent when OIF started—more than the $10 billion in earnings from phases 12 and 13 and indicating those earnings did not result in actual kickbacks received by Iraq.
 - An assessment that lags between earnings and contract signings in the UN OFF procurement program resulted in the money earned in phase 7 of the program (prior to the implementation of the kickback scheme) actually being used to sign contracts and obtain kickbacks in phase 8 and later—when the kickback program was in effect.
 
-The total value of contracts signed for and delivered by the UN under the UN OFF program was $31 billion. Based on UN data as of December 2002, 93.7 percent of all contracts were signed by Baghdad. The trade. UN signed the rest for the Kurdish North. Consequently, ISG estimates the value of contracts signed a Figure 17. Iraqi illicit earnings by type, 1991-2003 (million US $).a Figure 18. Kickback earnings calculations.
+The total value of contracts signed for and delivered by the UN under the UN OFF program was $31 billion. Based on UN data as of December 2002, 93.7 percent of all contracts were signed by Baghdad. The UN signed the rest for the Kurdish North. Consequently, ISG estimates the value of contracts signed a Figure 17. Iraqi illicit earnings by type, 1991-2003 (million US $).a Figure 18. Kickback earnings calculations.
 
 %%page 218%%
 
 by Baghdad and paid for by the UN over the life of the program amounted to $29.047 billion.
 
-The earnings from each phase were calculated as a percentage of total UN OFF earnings (See Figure 18). This percent was then applied to total contracts signed by Baghdad and paid for by the UN ($29.047 billion)
-
-Iraq earned roughly 10 percent of the contract value
+The earnings from each phase were calculated as a percentage of total UN OFF earnings (See Figure 18). This percent was then applied to total contracts signed by Baghdad and paid for by the UN ($29.047 billion) to obtain an estimate for actual contracts per phase. Iraq earned roughly 10 percent of the contract value
 
 as a kickback so the contract value for each phase was multiplied by 10 percent. The phases, which roughly account for half a year each, were then allocated to years to obtain the estimate for kickback earnings per year, as follows:
 
 - Phase 7 for 2000.
-- Phases 8-9 for 2001. to obtain an estimate for actual contracts per phase. were estimated at $30 million in each year based
+- Phases 8-9 for 2001. were estimated at $30 million in each year based
 
 %%page 219%%
 
@@ -6473,31 +6049,21 @@ Oil Surcharges
 
 Data is based on SOMO actual collections. The program did not exist prior to 2000. Private Sector
 
-Data for 1991-98 is based on an ISG estimate for the value of cash and barter trade conducted by the Iraqi government with private sector entities outside any
+Data for 1991-98 is based on an ISG estimate for the value of cash and barter trade conducted by the Iraqi government with private sector entities outside any Protocol or UN OFF program arrangements during the period. The estimate is based on Iraqi oil export volume and price trends through the period via the
 
-Gulf, Turkey, and Syrian routes. Dry cargo exports on approximate cargo volumes and prices. Data for 1999-2003 is based on SOMO actual collections for cash transactions and the invoice value for barter trade (no cash or credit "collections" were realized from the barter trade). SOMO included only partial
-
-Regime Finance data for 1998, so the ISG estimate was used for that year. Dry cargo exports were estimated at $30 million in each year based on approximate cargo volumes and prices.
-
-and Procurement
-
-Protocol or UN OFF program arrangements during the period. The estimate is based on Iraqi oil export volume and price trends through the period via the
+Gulf, Turkey, and Syrian routes. Dry cargo exports on approximate cargo volumes and prices. Data for 1999-2003 is based on SOMO actual collections for cash transactions and the invoice value for barter trade (no cash or credit "collections" were realized from the barter trade). SOMO included only partial data for 1998, so the ISG estimate was used for that year. Dry cargo exports were estimated at $30 million in each year based on approximate cargo volumes and prices.
 
 %%page 221%%
 
 > Annex F for weapons and dual-use materials, as well as many Iraqi Oil Smuggling legitimate day-to-day goods and supplies. In addition to dealing with oil, this company traded in items
 
-Captured documents recovered shortly after OIF such as construction materials, foodstuffs, and power indicate that between 1992 and 2003 Iraq exported generators to cover its real activity, which was coor- crude oil and other oil products to many countries dinating with neighboring countries to facilitate the purchase of illicit military equipment.
-
-Regime Finance or their nationals, who wittingly breached United Nations sanctions. UNSCR 661 restricted all member
+Captured documents recovered shortly after OIF such as construction materials, foodstuffs, and power indicate that between 1992 and 2003 Iraq exported generators to cover its real activity, which was coor- crude oil and other oil products to many countries dinating with neighboring countries to facilitate the or their nationals, who wittingly breached United purchase of illicit military equipment. Nations sanctions. UNSCR 661 restricted all member
 
 • A former employee of more than 15 years of the states from importing any goods, including oil and its
 
 IIS, Munir Mamduh 'Awad Al Kubaysi, headed Al- derivatives, originating from Iraq.
 
-Basha'ir. Because of the IIS connections, relations
-
-> and Procurement between Al-Basha'ir and the IIS were especially close. In addition to those ties with the IIS, the
+> Basha'ir. Because of the IIS connections, relations between Al-Basha'ir and the IIS were especially close. In addition to those ties with the IIS, the
 
 Case Study operation of the company was handled closely by the MIC. The captured documents listed below indicate how Iraq arranged the illicit transshipment of oil with The last chairman of Al-Bashair's board of Direc- buyers by reference to signed contracts, letters, check tors was the head of the MIC's Administration and payments and telex messages. This study includes Finance Directorate, Raja Hasan Ali Al-Khazraji. summaries of contracts and letters exchanged between
 
@@ -6539,9 +6105,9 @@ Second Party: Al-Walid Importing & Exporting Company Limited
 
 > Address / Baghdad / Jamilah District /Al-Talibiyyah /Safi-al-Din Street P. O. Box 5223
 
-Regime Finance In accordance with the second party offer and approved by the first party, it was agreed that the second party would buy the Iraqi gas oil products in order to export it out of Iraq by land through Turkey, according to the following conditions:
+In accordance with the second party offer and approved by the first party, it was agreed that the second party would buy the Iraqi gas oil products in order to export it out of Iraq by land through Turkey, according to the following conditions:
 
-> and Procurement 1. Name of the Product: Iraqi gas oil
+1. Name of the Product: Iraqi gas oil
 
 2. Quantity:
 
@@ -6613,7 +6179,7 @@ Figure 22 is a contract between the national Iranian Petroleum Distribution Comp
 
 Soon after, A. J. Khazamipour and Rashi International sent another letter dated 29 November 1993 (see Figure 25) to Mr. Goran of Pediment Holding requesting that he pay $40,000 for a deposit for the project.
 
-A copy of two checks (see Figure 26) made out to Mr. Regime Finance Moini for the "deposit concerning diesel operations." One check is $40,000 for the deposit and the second for $6,250 covering the 25-percent commission fees. The signature in the check's signature block resemand Procurement bles the signature of A. J. Khazamipour from the previous letters discovered from a named US company .
+A copy of two checks (see Figure 26) made out to Mr. Moini for the "deposit concerning diesel operations." One check is $40,000 for the deposit and the second for $6,250 covering the 25-percent commission fees. The signature in the check's signature block resem- bles the signature of A. J. Khazamipour from the previous letters discovered from a named US company .
 
 Figure 27 is a contract for petroleum products between the seller, Wadi Hajar Trading Company, Ltd., of Baghdad and the buyer, Pediment, Ltd., Limassol, Cyprus. The contract discusses the options of using barges or pipelines. Interestingly, it is specified that the transport of the oil products might be by road tankers. The contract stipulates that the buyer undertakes to issue a letter of guarantee for a value of $1million.
 
@@ -6625,15 +6191,15 @@ Figure 28 is a letter addressed to Mr. Muhammad Said Kuba from Pediment Holdings
 
 %%page 227%%
 
-> Company Tehran, Iran and Pediment Holdings Tehran.
+Pediment Holdings Tehran.
 
 %%page 228%%
 
-> Company Tehran, Iran and Pediment Holdings Tehran
+Pediment Holdings Tehran
 
 %%page 229%%
 
-> Company Tehran, Iran and Pediment Holdings Tehran
+Pediment Holdings Tehran
 
 %%page 230%%
 
@@ -6721,9 +6287,9 @@ Figure 35 is a letter dated 30 December 1993 to a Mr. Jamal Fariz, Manager of th
 
 %%page 251%%
 
-> Annex G did not think it was safe to put their money in banks. banks of Iraq, including branches, establishment date
+banks of Iraq, including branches, establishment date
 
-Iraq's Banking System
+> Annex G Iraq's Banking System
 
 Origins of the Iraqi Banking System
 
@@ -6731,15 +6297,11 @@ In imitation of Egyptian leader Abdul Nasser's nationalist/socialist policies, t
 
 In response to Rafidian Bank's inability to service the country's banking needs, in the early 1970s the CBI and the MoF proposed to the government that a new state-owned bank be licensed. As a result, in 1988 Rasheed Bank, also owned by the MoF, was licensed. In addition to serving the private sector, Rasheed Bank and Rafidian Bank soon took over much of the banking business of state-owned enterprises, relieving CBI of that function. The Ministry of Finance was responsible for overseeing budgets of several ministries as well as the state-operated banking system. Currently, the six state-owned banks (Rafidian, Rasheed, the Agricultural, the Industrial, the Real Estate, and the Socialist) account for about 93 percent of banking system assets. There are also 18 private banks with capital- ization of $25 million and deposits of $107 million.
 
-The 18 private banks were established in an effort to handle local depositors' financial needs and reform as well as modernize the banking sector. These
+The 18 private banks were established in an effort to handle local depositors' financial needs and reform as well as modernize the banking sector. These banks remained small, in part because most Iraqis did not think it was safe to put their money in banks. Figure 36 lists both the state and privately owned and capital assets remaining after OIF.
 
-Figure 36 lists both the state and privately owned and capital assets remaining after OIF.
-
-Regime Finance Organization of the CBI
+Organization of the CBI
 
 The CBI was composed of five main departments, plus support elements (see Figure 37).
-
-and Procurement
 
 - Department of Investment. This department maintained account information for foreign accounts.
 - Department of Accounting. This department maintained the employee accounts of the CBI.
@@ -6751,7 +6313,7 @@ The Iraqi MoF was headed by Hikmat Mizban Ibrahim from 1995 to 2003. Hikmat was 
 
 - When hard currency was collected in the CBI, it was allocated to the ministries that needed hard currency to buy things internationally, such as the
 
-Ministry of Health. Because hard currency was in such short supply, the ministries that received it had banks remained small, in part because most Iraqis to pay it back in Iraqi Dinars.
+Ministry of Health. Because hard currency was in such short supply, the ministries that received it had to pay it back in Iraqi Dinars.
 
 %%page 252%%
 
@@ -6777,15 +6339,11 @@ Specialized Credit Banks Iraq also used four specialized state-owned banks: the 
 
 Privately Owned Banks In the face of decreasing foreign currency reserves held in country and an increasing illiquid domestic banking system, the CBI and MoF in approximately 1992 successfully petitioned the government to allow the licensing of new private commercial banks. By February 2003, there were approximately 18 private commercial banks. These private banks offered superior service, were more computerized, and were faster growing than the state-owned banks. By early 2003, the private banks held the majority of private-sector accounts and deposits, although the government ministries and state-owned enterprises still banked primarily with state-owned banks. Private banks were set up with capital from individuals. Under Iraqi banking laws, no one individual was allowed to own more than a five-percent share holding in a private bank. The quality of management of the private banks was better than the government- managed banks. The private banks were able to offer better salaries, and attract the best candidates from the banking sector.
 
-> According to a senior Iraqi Government official, in order to evade controls under international sanctions, the government of Saddam used private commercial
+According to a senior Iraqi Government official, in order to evade controls under international sanctions, the government of Saddam used private commercial banks would not be as closely monitored by the UN banks for some transactions in the belief that private as the state owned banks and the CBI.
 
 %%page 255%%
 
-banks for some transactions in the belief that private The Hawala banks would not be as closely monitored by the UN as the state owned banks and the CBI.
-
-Middle East Bank 'Uday Saddam Husayn owned shares in the Middle
-
-East Bank. The Middle East Bank is one of the largest private banks in Iraq. Uday also controlled the appointees and directors of the bank.
+Middle East Bank 'Uday Saddam Husayn owned shares in the Middle East Bank. The Middle East Bank is one of the largest private banks in Iraq. Uday also controlled the appointees and directors of the bank.
 
 Islamic Bank The Islamic Bank was unconventionally established. Formed by the Humayim family, the bank was established on a decree from the RCC, which was contrary to Iraqi banking rules and regulations. Money of Ba'th Party Members and supporters of the Regime was deposited into this bank.
 
@@ -6795,12 +6353,12 @@ The hawala system was the most common informal payment system used in Iraq under
 
 Before OIF, there was no regulation of the hawala system in Iraq and the use of them was outlawed. Regardless, illegal hawalas were often used by the average Iraqi individual or company to transfer funds from expatriate communities to the homeland. The
 
-The term "hawala" means "transfer" or "wire" in Arabic banking terms. The word hawala comes from the Arabic root hwl, meaning to "change" or "transform." In common Arabic usage, hawala are performed in three different ways—two of which are
+The Hawala
 
-Regime Finance legal:
+The term "hawala" means "transfer" or "wire" in Arabic banking terms. The word hawala comes from the Arabic root hwl, meaning to "change" or "transform." In common Arabic usage, hawala are performed in three different ways—two of which are legal:
 
-- Hawalas through Iraqi banks are synonymous with bank money transfers. Bank hawalas are legal. and Procurement • Illegal hawala transfers are based on an ancient informal banking system used throughout South Asia and the Middle East to transfer money across distances past legal and financial barriers. In modern times, unlicensed money exchangers use this process, coupled with modern telecommunications to discreetly transfer money.
-
+- Hawalas through Iraqi banks are synonymous with bank money transfers. Bank hawalas are legal.
+- Illegal hawala transfers are based on an ancient informal banking system used throughout South Asia and the Middle East to transfer money across distances past legal and financial barriers. In modern times, unlicensed money exchangers use this process, coupled with modern telecommunications to discreetly transfer money.
 - Hawalas made using the old process via licensed money exchangers are considered legal. Not all money exchangers perform hawalas. illicit system is reliable and efficient and is preferred because it is faster and less expensive than bank hawalas.
 
 - The speed is due to the lack of paperwork and bureaucracy, while the cost effectiveness is due to not having to deal with a bank's artificial, higher exchange rates. However, the anonymity and lack of traceable documentation make this system vulnerable to abuse by individuals and groups transferring funds to finance illegal activities.
@@ -6815,9 +6373,7 @@ Iraq through the normal banking system, the illegal hawala system was used to mo
 
 %%page 257%%
 
-Annex H UNSCR 1051 (1996) of 27 March 1996 estab-
-
-> UN Security Council Resolutions Applicable to Iraq
+> Annex H UN Security Council Resolutions Applicable to Iraq
 
 The following information from the Office of the Spokesman for the United Nations UNSG summarizes the Chapter VII resolutions applicable to Iraq between 1990 and 2003. Emphasis has been added.
 
@@ -6827,21 +6383,17 @@ UNSCR 687 (1991) of 3 April 1991, the cease-fire resolution, declared that the f
 
 UNSCR 712 (1991) of 19 September 1991 allowed for a partial lifting of the embargo, which would have enabled Iraq to sell some oil to use the proceeds for humanitarian purposes. In return, Iraq would have been subject to strict UN monitoring of the contracts and distribution of humanitarian goods bought with the oil revenues.
 
-UNSCR 986 (1995) of 14 April 1995 enables Iraq to sell up to $1 billion of oil every 90 days and use the proceeds for humanitarian supplies to the country. On 20 May 1996, the UN and the Government of Iraq concluded the MoU that codified the practical arrangements for the implementation of the UN OFF agreement. The sanctions committee subsequently adopted on 8 August 1996 the Procedures for the implementation of UNSCR 986. On 9 December 1996, the UNSG reported to the Security Council (S/1996/1015) that all the steps necessary to ensure the effective implementation of UNSCR 986 had been concluded. As a result, UNSCR 986 went into effect at 00.01 hours Eastern Standard Time on 10 December 1996. The first food shipment arrived in Iraq on
+UNSCR 986 (1995) of 14 April 1995 enables Iraq to sell up to $1 billion of oil every 90 days and use the proceeds for humanitarian supplies to the country. On 20 May 1996, the UN and the Government of Iraq concluded the MoU that codified the practical arrangements for the implementation of the UN OFF agreement. The sanctions committee subsequently adopted on 8 August 1996 the Procedures for the implementation of UNSCR 986. On 9 December 1996, the UNSG reported to the Security Council (S/1996/1015) that all the steps necessary to ensure the effective implementation of UNSCR 986 had been concluded. As a result, UNSCR 986 went into effect at 00.01 hours Eastern Standard Time on 10 December 1996. The first food shipment arrived in Iraq on 20 March 1997.
 
-lished the export/import monitoring system for Iraq. Iraq and countries exporting to Iraq must notify UNSCOM and the IAEA regarding the supply of "dual-use" items to Iraq. Such items are subject to inspection upon their arrival in Iraq as well as at the site where the items will be used.
+UNSCR 1051 (1996) of 27 March 1996 established the export/import monitoring system for Iraq. Iraq and countries exporting to Iraq must notify UNSCOM and the IAEA regarding the supply of "dual-use" items to Iraq. Such items are subject to inspection upon their arrival in Iraq as well as at the site where the items will be used.
 
-Regime Finance
-
-UNSCR 1111 (1997) of 4 June 1997 decided that the provisions of UNSCR 986, except those contained in paragraphs 4,11 and 12, shall remain in force for and Procurement another period of 180 days beginning at 00.01 hours, Eastern Daylight Time, on 8 June 1997. Further decided to conduct a thorough review of all aspects of the implementation of this resolution 90 days after the entry into force of paragraph 1 and again prior to the end of the 180 day period, on receipt of the reports referred to in paragraphs 3 and 4, and expressed its intention, prior to the end of the 180 day period, to consider favorably renewal of the provisions of this resolution, provided that the reports referred to in paragraphs 3 and 4 indicate that those provisions are being satisfactorily implemented.
+UNSCR 1111 (1997) of 4 June 1997 decided that the provisions of UNSCR 986, except those contained in paragraphs 4,11 and 12, shall remain in force for another period of 180 days beginning at 00.01 hours, Eastern Daylight Time, on 8 June 1997. Further decided to conduct a thorough review of all aspects of the implementation of this resolution 90 days after the entry into force of paragraph 1 and again prior to the end of the 180 day period, on receipt of the reports referred to in paragraphs 3 and 4, and expressed its intention, prior to the end of the 180 day period, to consider favorably renewal of the provisions of this resolution, provided that the reports referred to in paragraphs 3 and 4 indicate that those provisions are being satisfactorily implemented.
 
 UNSCR 1115 (1997) of 21 June 1997 decided not to conduct the reviews provided for in paragraphs 21 and 28 of UNSCR 687 (1991) until after the Special Commission submits its next consolidated progress report due on 11 October 1997, after which time those reviews will resume in accordance with UNSCR 687.
 
 UNSCR 1129 (1997) of 12 September 1997 decided that the provisions of UNSCR 1111 should remain in force, except that States are authorized to permit the import of petroleum and petroleum products originating in Iraq, including financial and other essential transactions directly relating thereto, sufficient to produce a sum not exceeding a total of one billion United States dollars within a period of 120 days from 00.01 hours, Eastern Daylight Time, on 8 June 1997 and, thereafter, a sum not exceeding a total of one billion United States dollars within a period of 60 days from 00.01 hours, Eastern Daylight Time, on 4 October 1997; and decided further that the provisions of paragraph 1 shall apply only to the period of implementation of UNSCR 1111.
 
-UNSCR 1134 (1997) dated 23 October 1997 expressed the firm intention, if Iraq does not comply with paragraphs 2 and 3 of UNSCR 1115, to adopt
-
-20 March 1997. measures which would oblige all States to prevent without delay the entry into or transit through their territories of all Iraqi officials and members of the Iraqi armed forces who are responsible for or participate in the instances of non-compliance of paragraphs 2 and 3 of UNSCR 1115. It decided not to conduct the reviews provided for in paragraphs 21 and 28 of UNSCR 687 until after the next consolidated progress report of the Special Commission, due on 11 April 1998, after which those reviews will resume in accordance with UNSCR 687, beginning on 26 April 1998.
+UNSCR 1134 (1997) dated 23 October 1997 expressed the firm intention, if Iraq does not comply with paragraphs 2 and 3 of UNSCR 1115, to adopt measures which would oblige all States to prevent without delay the entry into or transit through their territories of all Iraqi officials and members of the Iraqi armed forces who are responsible for or participate in the instances of non-compliance of paragraphs 2 and 3 of UNSCR 1115. It decided not to conduct the reviews provided for in paragraphs 21 and 28 of UNSCR 687 until after the next consolidated progress report of the Special Commission, due on 11 April 1998, after which those reviews will resume in accordance with UNSCR 687, beginning on 26 April 1998.
 
 %%page 258%%
 
@@ -6849,17 +6401,11 @@ UNSCR 1137 (1997) dated 12 November 1997 imposed travel restrictions on all Iraq
 
 • Also by UNSCR 1153, the Security Council decided that the authorization given to States by paragraph 1 of UNSCR 986 shall permit the import of petroleum and petroleum products originating in Iraq, including financial and other essential transactions directly relating thereto, sufficient to produce a sum, in the 180-day period referred to in paragraph 1 of UNSCR 1153, not exceeding a total of 5.256 billion United States dollars, of which the amounts recommended by the UNSG for the food/ nutrition and health sectors should be allocated on a priority basis, and of which between 682 million United States dollars and 788 million United States dollars shall be used for the purpose referred to in paragraph 8 (b) of UNSCR 986, except that if less than 5.256 billion United States dollars worth of petroleum or petroleum products is sold during the 180 days period, particular attention will be paid to meeting the urgent humanitarian needs in the food/ nutrition and health sectors and the UNSG may provide a proportionately smaller amount for the purpose referred to in paragraph 8 (b) of UNSCR 986.
 
-By UNSCR 1158 (1998) of 25 March 1998 the Security Council decided that the provisions of UNSCR 1143 shall remain in force, subject to the provisions of UNSCR 1153, except that States are authorized to permit the import of petroleum and petroleum products originating in Iraq, including financial and other essential transactions directly relating thereto, any new distribution plan agreed by the Govern- 25 May 1999.
+By UNSCR 1158 (1998) of 25 March 1998 the Security Council decided that the provisions of UNSCR 1143 shall remain in force, subject to the provisions of UNSCR 1153, except that States are authorized to permit the import of petroleum and petroleum products originating in Iraq, including financial and other essential transactions directly relating thereto,
 
 %%page 259%%
 
-- UNSCR 1175 also noted that the distribution plan approved by the UNSG on 29 May 1998, or ment of Iraq and the UNSG, will remain in effect, as required, for each subsequent periodic renewal of the temporary humanitarian arrangements for
-
-Iraq and that, for this purpose, the plan will be kept under constant review and amended as necessary through the agreement of the UNSG and the
-
-Government of Iraq and in a manner consistent with
-
-UNSCR 1153.
+- UNSCR 1175 also noted that the distribution plan approved by the UNSG on 29 May 1998, or any new distribution plan agreed by the Government of Iraq and the UNSG, will remain in effect, as required, for each subsequent periodic renewal of the temporary humanitarian arrangements for Iraq and that, for this purpose, the plan will be kept under constant review and amended as necessary through the agreement of the UNSG and the Government of Iraq and in a manner consistent with UNSCR 1153.
 
 UNSCR 1194 (1998) of 9 September 1998 decided not to conduct the review scheduled for October 1998 provided for in paragraphs 21 and 28 of UNSCR 687, and not to conduct any further such reviews until Iraq rescinds its above-mentioned decision of 5 August 1998 and the Special Commission and the IAEA report to the Council that they are satisfied that they have been able to exercise the full range of activities provided for in their mandates, including inspections.
 
@@ -6869,11 +6415,9 @@ By UNSCR 1210 (1998) of 24 November 1998, the Security Council decided that the 
 
 In January 1999, the Security Council decided to establish three panels on disarmament, humanitarian issues and prisoners of war and Kuwaiti property to discuss options that would lead to the full implementation of all relevant Security Council resolutions concerning Iraq. Ambassador Amorim (Brazil) chaired all three panels. He submitted the panels' reports in the spring of 1999 (S/1999/356), and the Council considered the recommendations contained therein.
 
-UNSCR 1242 (1999) of 21 May 1999, extended the UN OFF program for a further 180 days starting on
+UNSCR 1242 (1999) of 21 May 1999, extended the UN OFF program for a further 180 days starting on 25 May 1999.
 
-UNSCR 1266 (1999) of 4 October 1999 decided that paragraph 2 of UNSCR 1153, as extended by UNSCR 1242, shall be modified to the extent necessary to
-
-Regime Finance authorize States to permit the import of petroleum and petroleum products originating in Iraq, including financial and other essential transactions directly related thereto, sufficient to produce an additional and Procurement sum, beyond that provided for by UNSCR 1242, equivalent to the total shortfall of revenues authorized but not generated under UNSCR 1210 and 1153, 3.04 billion United States dollars, within the period of 180 days from 00.01 hours, eastern standard time, on 25 May 1999. UNSCR 1281 (1999) of 10 December 1999, extended the UN OFF program for a further 180 days starting on 12 December 1999 (phase VII).
+UNSCR 1266 (1999) of 4 October 1999 decided that paragraph 2 of UNSCR 1153, as extended by UNSCR 1242, shall be modified to the extent necessary to authorize States to permit the import of petroleum and petroleum products originating in Iraq, including financial and other essential transactions directly related thereto, sufficient to produce an additional sum, beyond that provided for by UNSCR 1242, equivalent to the total shortfall of revenues authorized but not generated under UNSCR 1210 and 1153, 3.04 billion United States dollars, within the period of 180 days from 00.01 hours, eastern standard time, on 25 May 1999. UNSCR 1281 (1999) of 10 December 1999, extended the UN OFF program for a further 180 days starting on 12 December 1999 (phase VII).
 
 On 17 December 1999, after several months of intensive consultations, the Security Council adopted UNSCR 1284 (1999), stressing the need for a comprehensive approach to the full implementation of all relevant Security Council resolutions and Iraq compliance with these resolutions. The resolution established the United Nations Monitoring, Verification and Inspection Commission (UNMOVIC) to undertake the responsibilities of the former UNSCOM, which was charged with monitoring the elimination of weapons of mass destruction in Iraq. The resolution also removed the ceiling on Iraqi oil exports and provided for additional specific arrangements for facilitating humanitarian supplies to Iraq, including the conditional suspension of the sanctions Regime.
 
@@ -6886,20 +6430,18 @@ Then, on 14 May 2002, the Security Council unanimously adopted UNSCR 1409 (2002)
 On 28 March 2003, the Security Council unanimously adopted UNSCR 1472 (2003), making technical and temporary adjustments to the UN OFF program on an interim and exceptional basis, so as to ensure the implementation of approved contracts concluded by the Government of Iraq for the relief of the Iraqi people.
 
 - The resolution authorizes the UNSG and representatives designated by him to establish alternative locations, inside and outside Iraq, for the delivery, inspection and authenticated confirmation of humanitarian supplies and equipment under the program.
-- It also authorizes him, among other things, to review as a matter of urgency the approved funded and non-funded contracts concluded by the Iraqi Government and to contact suppliers of those contracts and, when necessary, to require them to
+- It also authorizes him, among other things, to review as a matter of urgency the approved funded and non-funded contracts concluded by the Iraqi Government and to contact suppliers of those contracts and, when necessary, to require them to delay, accelerate or divert shipments. It also allows him to negotiate and execute new contracts for essential medical items.
 
 On 25 April 2003, the Council unanimously adopted UNSCR 1476 (2003), extending the provisions of UNSCR 1472 until 3 June 2003.
 
 The Security Council formally ended all sanctions, except those related to the sale or supply to Iraq of arms and related material, other than those required by the occupying powers to serve the purposes of Security Council resolutions, in UNSCR 1483 (2003), which was adopted on 22 May 2003 by a vote of 14-0 with one country not participating in the vote.
 
 - The resolution states that, with the exception of the arms prohibitions noted above, all other sanctions established by UNSCR 661 and subsequent resolutions "shall no longer apply."
-- It also requests that the UNSG will continue the exercise of his responsibilities under UNSCRs 1472 and 1476 for a period of six months, and will terminate within this time period, in the most cost effective manner, the ongoing operations of the UN OFF Program. delay, accelerate or divert shipments. It also allows him to negotiate and execute new contracts for essential medical items.
+- It also requests that the UNSG will continue the exercise of his responsibilities under UNSCRs 1472 and 1476 for a period of six months, and will terminate within this time period, in the most cost effective manner, the ongoing operations of the UN OFF Program.
 
 %%page 261%%
 
-Annex I included equipment, component parts, technology,
-
-> Suspected WMD-Related Dual- Use Goods and Procurement Transactions
+> Annex I Suspected WMD-Related Dual- Use Goods and Procurement Transactions
 
 The following is a list of procurement transactions, contracts, attempted transactions, or contract tenders of products of suspected dual-use goods. The section below lists terms used by ISG throughout the report and this particular annex, as well as summarizes specific UNSCR affecting member states' obligations in exporting dual-use and military goods to Iraq.
 
@@ -6908,11 +6450,9 @@ The following is a list of procurement transactions, contracts, attempted transa
 
 UN for their consideration and approval.
 
-- Prohibited Military Goods: UNSCR 661 and 687 prohibited UN member states from exporting mili- and software (including software used for the development and production of military goods).
+- Prohibited Military Goods: UNSCR 661 and 687 prohibited UN member states from exporting military goods to Iraq. Therefore, any goods "specially designed" or "modified" for military use were banned for export to Iraq (prohibited). "Goods" included equipment, component parts, technology, and software (including software used for the development and production of military goods).
 
-The goods described below appear to be dual-use as specified by the 1051 or the GRL, and consequently could have been of use to Iraq for the development,
-
-Regime Finance production or use of WMD. However, without full technical specifications of the items or knowledge of whether UN approval was granted for these exports, ISG cannot determine whether UN sanctions were and Procurement actually breached with the procurement transactions summarized below. Investigating possible breaches of sanctions relating to the export of dual-use goods is outside the scope of ISG.
+The goods described below appear to be dual-use as specified by the 1051 or the GRL, and consequently could have been of use to Iraq for the development, production or use of WMD. However, without full technical specifications of the items or knowledge of whether UN approval was granted for these exports, ISG cannot determine whether UN sanctions were actually breached with the procurement transactions summarized below. Investigating possible breaches of sanctions relating to the export of dual-use goods is outside the scope of ISG.
 
 Chemical Dual-Use Related Procurement
 
@@ -6930,11 +6470,7 @@ German company for 20 mobile laboratory trucks in August 2001. The end-user for 
 
 Sewage.
 
-tary goods to Iraq. Therefore, any goods "specially designed" or "modified" for military use were banned for export to Iraq (prohibited). "Goods"
-
 %%page 262%%
-
-Companies Companies
 
 Possible Violations of UN Sanctions by Indian
 
@@ -6951,9 +6487,9 @@ Sales of Biomedical Equipment Technology and Services by Swiss Companies
 
 "unlimited" budget.
 
-- Its stated research areas were the breeding of ani-
+- Its stated research areas were the breeding of ani- mals such as cows and sheep and certain types of crops.
 
-Possible Breaches of UN Sanctions by Austrian
+Possible Breaches of UN Sanctions by Austrian Companies
 
 2001—Negotiations To Procure Autoclaves AGMEST and the Al Rafad Scientific Bureau for Promoting Drugs and Medical Appliances, both located in Baghdad, negotiated a contract for the Iraqi Ministry of Health for autoclaves from an Austrian firm in early 2001.
 
@@ -6963,8 +6499,6 @@ Possible Breaches of UN Sanctions by Austrian
 Possible Breaches of UN Sanctions by German Companies
 
 2001—Attempts To Acquire Biotechnology and Biological Weapons-Related Technology and Expertise The Amman, Jordan office of the Iraqi front company Winter International forwarded offers for dual-use laboratory equipment from a German firm to the Winter International office in Baghdad, in March 2001. The end-user of this equipment was purported to be the Iraqi MoI. The equipment offered included: • An electrophoresis system including a special atomizer with rubber bellows for producing reagent mists. This system can be used for recombinant DNA process-cloning and many other molecular biology applications.
-
-mals such as cows and sheep and certain types of crops.
 
 %%page 263%%
 
@@ -6981,19 +6515,19 @@ Possible Breaches of UN Sanctions by Italian Companies
 
 2002—Attempt To Procure Biotechnology and Bio Weapons Related Technology and Expertise In January 2002, the Al-Mazd Group for Medical and Engineering Systems and Technology (AGMEST) in Baghdad requested a quotation for 10 freeze dryers through the Iraqi Ministry of Health from an Italian firm.
 
-2002—Attempt To Procure Dual-Use Autoclaves In March 2002 the Iraqi firm Al Mutasem Engi-
+2002—Attempt To Procure Dual-Use Autoclaves In March 2002 the Iraqi firm Al Mutasem Engineering used a Jordanian intermediary company, to contact an Italian firm and receive a price quote for dual-use autoclaves.
 
 • Autoclaves are commonly used in laboratories to sterilize equipment. They are not a vital part of a BW program as there are other means to sterilize equipment.
 
-Regime Finance Possible Breaches of UN Sanctions by Turkish Companies and Procurement 2002—Procurement of CBW Protective Equipment A Turkish firm sold and transferred atropine autoinjectors to the Iraqi government starting in August 2002. The company also provided coordination in response to Iraqi requests for chemical protective equipment, unspecified laboratory chemicals and biological growth media.
+Possible Breaches of UN Sanctions by Turkish Companies
+
+2002—Procurement of CBW Protective Equipment A Turkish firm sold and transferred atropine autoinjectors to the Iraqi government starting in August 2002. The company also provided coordination in response to Iraqi requests for chemical protective equipment, unspecified laboratory chemicals and biological growth media.
 
 - In December 2002, the same firm continued to work with the Iraqi government on a new order for atropine autoinjectors and was also working to fill Iraqi orders for additional CBW protective equipment; specifically 600 microbial decontamination systems, 600 CBW protective kits including protective masks and garments, and 10 sterilizers.
 
 Possible Breaches of UN Sanctions by Indian Companies
 
 2002—Attempt To Procure Biotechnology Equipment According to reports, an Indian export company provided a quotation for a dry powder injection-filling project at the Al-Anaam Pharmaceutical Company packaging plant in Baghdad.
-
-neering used a Jordanian intermediary company, to contact an Italian firm and receive a price quote for dual-use autoclaves.
 
 %%page 264%%
 
@@ -7029,11 +6563,9 @@ Possible Breaches of UN Sanctions by Romanian Companies
 %%page 265%%
 
 - Al-Tahadi did not receive equipment or materials from this contract.
-- The contract included an output capacity of one ton of magnets per year, raw materials for two years, training for two years, and equipment. The equipment included a 25kg induction furnace, electric
+- The contract included an output capacity of one ton of magnets per year, raw materials for two years, training for two years, and equipment. The equipment included a 25kg induction furnace, electric furnaces for heat-treating, facilities for producing molds, facilities for measurements and magnetiza- tion, and magnetic annealing furnaces.
 
-Regime Finance furnaces for heat-treating, facilities for producing molds, facilities for measurements and magnetization, and magnetic annealing furnaces.
-
-and Procurement Al-Tahadi did not have a plan for acquiring the raw materials after the two year contract expired because these materials were readily available. The AlNiCo production lines did not include the sintering process. The magnets specified in the contract were ring magnets, cubicle magnets and cylindrical magnets with a mass of 0.5 to 500 grams.
+Al-Tahadi did not have a plan for acquiring the raw materials after the two year contract expired because these materials were readily available. The AlNiCo production lines did not include the sintering process. The magnets specified in the contract were ring magnets, cubicle magnets and cylindrical magnets with a mass of 0.5 to 500 grams.
 
 Delivery Systems Procurement
 
@@ -7041,7 +6573,9 @@ For a listing of Iraq's illicit procurement of missile delivery systems commodit
 
 %%page 267%%
 
-> Annex J The United Nations Sanctions on Iraq The Procurement of Conventional
+The Procurement of Conventional
+
+Annex J
 
 > Military Goods in Breach of UN Sanctions
 
@@ -7052,23 +6586,19 @@ Many individuals, foreign companies, and some countries knowingly violated UN sa
 Iraqi efforts to obtain military goods and related technologies in the mid-1990s until OIF in March 2003 can be divided into several categories: raw materials; consumables; and military goods. Iraq sought materials such as steel, aluminum and titanium to supply its military manufacturing industry. Under Saddam, Iraq constantly needed spare parts for manufacturing and for military equipment. As with any military organization, the Iraqi military always required consumables such as batteries, tires, and ammunition. ISG judges that Iraq's most pressing requirement, however, was for military equipment.
 
 - For potential suppliers, the sale of military equipment offered the strongest profit margins.
-- Since the beginning of sanctions in 1990, Saddam successfully acquired a wide range of military goods or their component parts for SAM sys-
+- Since the beginning of sanctions in 1990, Saddam successfully acquired a wide range of military goods or their component parts for SAM systems, main battle tanks, anti-tank guided missiles (ATGM), combat aircraft, GPS jammers, and night-vision equipment.
 
-The UNSC passed numerous resolutions from 1990 to 2003 prohibiting member states to export, military goods and technology to Saddam's Regime, placing financial constraints on UN members conducting
+The United Nations Sanctions on Iraq
 
-Regime Finance business with Iraq, establishing WMD and military restrictions on Iraq, and the formulation and implementation of the UN OFF program. UNSC passed two UNSCR, 661 (1990) and 687 (1991) that specifiand Procurement cally prohibited the export of military goods to Iraq by UN members. Paragraph 24 of UNSCR 687 reads:
+The UNSC passed numerous resolutions from 1990 to 2003 prohibiting member states to export, military goods and technology to Saddam's Regime, placing financial constraints on UN members conducting business with Iraq, establishing WMD and military restrictions on Iraq, and the formulation and implementation of the UN OFF program. UNSC passed two UNSCR, 661 (1990) and 687 (1991) that specifically prohibited the export of military goods to Iraq by UN members. Paragraph 24 of UNSCR 687 reads:
 
 In accordance with UNSCR 661 and subsequent related resolutions and until a further decision is taken by the Security Council, all States shall continue to prevent the sale or supply or promotion or facilitation of such sale or supply, to Iraq by their nationals or from their territories or using their flag vessel or aircraft, of; arms and related material of all types, specifically including the sale or transfer through other means of all forms of conventional military equipment including paramilitary forces and spare parts and components and their means of production for such equipment.
 
 These restrictions included prohibitions on the licensing of military technology and other transfer arrangements used in the production, utilization, or stockpiling of military items. These UNSCR also prohibited the use of personnel or materials for training or technical support services relating to the design, development, manufacture, use, maintenance, or support of military goods.
 
-- Throughout this investigation, ISG has exploited information from captured documents from various Iraqi ministries and agencies and debriefings of both detainees and willing sources from the former Iraqi Regime. Examples found by ISG, provided below, represent only a small cross section of the total illicit dealings with Iraq. However, a full investigation of all violations of UNSCR vis-à-vis Iraq is outside the scope of ISG's investigation. tems, main battle tanks, anti-tank guided missiles
-
-(ATGM), combat aircraft, GPS jammers, and nightvision equipment.
+- Throughout this investigation, ISG has exploited information from captured documents from various Iraqi ministries and agencies and debriefings of both detainees and willing sources from the former Iraqi Regime. Examples found by ISG, provided below, represent only a small cross section of the total illicit dealings with Iraq. However, a full investigation of all violations of UNSCR vis-à-vis Iraq is outside the scope of ISG's investigation.
 
 %%page 268%%
-
-Companies Military Goods
 
 Recovered papers indicate that a Ukrainian company
 
@@ -7082,9 +6612,9 @@ Summary of Ukrainian involvement 1995-2003: Documents obtained by ISG indicate t
 
 2001-2002: Ukrainian Company May Have Supplied Military Goods to Iraq A source indicates that a Ukrainian company supplied components for UAV.
 
-- In 2001 and 2002, the Ukrainian company, Orliss, provided UAV components, such as engines and gyroscopes, to the Iraqi Government. The individual from Orliss who handled these transactions
+- In 2001 and 2002, the Ukrainian company, Orliss, provided UAV components, such as engines and gyroscopes, to the Iraqi Government. The individual from Orliss who handled these transactions was Olga Vladimirovna, Director of the Orliss Company. Vladimirovna provided her business card to several individuals at the Ibn Firnas Company.
 
-2003: Papers Indicate Ukraine Company Supplied was offering to supply military equipment in early 2003.
+2003: Papers Indicate Ukraine Company Supplied Military Goods was offering to supply military equipment in early 2003.
 
 - Recovered documents indicate that the Al-Karamah State Establishment purchased equipment through ARMOS Trading Company in Baghdad from the Mont Elect Company, Ukraine before January 2003. Two payments were made of $405,000.00 for the equipment. Signatures on the document included representatives from: ARMOS; Al-Karamah State Establishment; Sa'ad General Company; Al-Karamah; Dr. Sergei Semonov, for the Montelect Establishment, and the Trade Office of the MIC.
 
@@ -7093,19 +6623,13 @@ Possible Breaches of UN Sanctions by Cypriot Companies
 1997: Cypriot Company Offered T-72 Tanks, Anti- Aircraft Missile Systems, and Sniper Rifles Recovered documents refer to a Cypriot company's offer of military goods; including tanks, anti-tank weapons, and anti-aircraft weapons systems.
 
 - A letter dated 23 August 1997 from a Cypriot company F and F Dawn, Ltd. (located in Limassol, with offices also in Paris) shows that the General Manager, Ahmad Fayiz Al Mirabi, offered military goods to the Al-Basha'ir Company and Mr. Munir Mamduh 'Awad.
-- A second letter, marked 'Top Secret', from the Office of Army Chief of Staff Maj. Gen. Aziz Ahmad Husayn to the DGMI, dated 21 September 1997, refers to an offer to sell Baghdad "tanks (142 T-72 with a possible total of 300), bombers, missiles (Tow-2 /anti-tank), anti-aircraft missiles system (Stinger) and Barrett USA semi-auto sniper was Olga Vladimirovna, Director of the Orliss rifles."
-
-Company. Vladimirovna provided her business card to several individuals at the Ibn Firnas Company.
+- A second letter, marked 'Top Secret', from the Office of Army Chief of Staff Maj. Gen. Aziz Ahmad Husayn to the DGMI, dated 21 September 1997, refers to an offer to sell Baghdad "tanks (142 T-72 with a possible total of 300), bombers, missiles (Tow-2 /anti-tank), anti-aircraft missiles system (Stinger) and Barrett USA semi-auto sniper rifles." to send a technical expert to train some specialists
 
 %%page 269%%
 
-Companies the ministry to take over and inspect the vehicle, to send a technical expert to train some specialists
-
 Possible Breaches of UN Sanctions by French
 
-Summary of French involvement 1998-2003: Some French businessmen sought business with Iraq during this period. In one instance, a French businessman brought a tank carrier to a weapons convention in
-
-Baghdad, and in another instance, a French electronic warfare expert visited Iraq. In addition, the MIC attempted to acquire components for the French-manufactured Roland missile system.
+Summary of French involvement 1998-2003: Some French businessmen sought business with Iraq during this period. In one instance, a French businessman brought a tank carrier to a weapons convention in Baghdad, and in another instance, a French electronic warfare expert visited Iraq. In addition, the MIC attempted to acquire components for the French-manufactured Roland missile system.
 
 1998-1999: Tank Carrier Imported to Iraq A letter from Aqra General Trade Company Baghdad dated 18 November 1998 requests an entry visa and reads, ''Find attached herein a copy of the passport of Jean Claude, a French citizen and the manager of the French company Lura. Mr. Claude will bring a tank carrier model to the MOD that will be supplied to Baghdad by the end of this month. Kindly facilitate the procedures to issue him an entry visa to Iraq, considering that our company will bear his stay expenses in Baghdad.'' • A second letter from Aqra General Trade Company
 
@@ -7114,23 +6638,17 @@ Baghdad dated 8 December 1998 reads, ''Reference to our letter we would like to 
 Claude an entry visa to Iraq ASAP.''
 
 - A letter to the Electrical and Mechanical Engineering Directorate from the MoD Armament and Equipping Directorate dated 12 September 1999 reads, ''kindly acknowledge that Mr. Jean Claude, Manager of the French Company, Lura visited the country on Saturday, 11/09 to operate the Rescue and Armor Transport Vehicle stored at Modern Vehicles storehouse. Kindly appoint an officer to escort the afore-mentioned with the technicians for three or four days.''
-- Another letter to the Armament and Equipping Directorate dated 18 September 1999 from the
+- Another letter to the Armament and Equipping Directorate dated 18 September 1999 from the Manager of the Aqra Company, states, "During the visit Mr. Jean Claude, Commercial Manager of the French company, made to Baghdad, it was
 
-agreed, in the presence of the committee formed by how to operate the vehicle. Kindly take the necessary actions to issue entry visas for Jean Claude, the Commercial manager and Philippe Robert, the
+agreed, in the presence of the committee formed by the ministry to take over and inspect the vehicle, how to operate the vehicle. Kindly take the necessary actions to issue entry visas for Jean Claude, the Commercial manager and Philippe Robert, the
 
 Technical Expert.''
 
-Regime Finance
-
-1999-2000: Deputy General Manager of French Company Visits Iraq and Procurement Recovered documents include letters dated December 1999 and January 2000 that show that the Deputy General Manager of a French company called SOFEMA planned to visit Iraq on 15 January 2000 on behalf of a number of French Military Companies. Mr. Dominique Salini's 29 December 1999 introduction letter from the al-Hadar Company is included in the textbox below. A subsequent letter to the GMID M6 Section from the head of Air Defense Security dated 3 January 2000 requests an opinion on holding a meeting with a representative from the IIS and Salini.
+1999-2000: Deputy General Manager of French Company Visits Iraq Recovered documents include letters dated December 1999 and January 2000 that show that the Deputy General Manager of a French company called SOFEMA planned to visit Iraq on 15 January 2000 on behalf of a number of French Military Companies. Mr. Dominique Salini's 29 December 1999 introduction letter from the al-Hadar Company is included in the textbox below. A subsequent letter to the GMID M6 Section from the head of Air Defense Security dated 3 January 2000 requests an opinion on holding a meeting with a representative from the IIS and Salini.
 
 2002: Documents Indicate French Experts Visited Iraq and Agreed to Military Technology Transfer A recovered document indicates that a French electronic warfare/radar expert met with representatives of the Al Kindi Research Facility in November 2002. The purpose of the meetings was to facilitate military-related microwave, direction finding, and passive radar technology transfer. The translated documents include military-related technology transfers and Iraqi contractual agreements with foreign manufacturers. ISG also acquired two meeting logs among the documents.
 
-- The subject meeting log indicated that on 3 November 2002 an individual identified as a French expert and referred to as Mr. Cloud (possibly Mr. Claude from the prior paragraphs), visited the Al Kindi Electronic Warfare/Radar Research, Development, Test and Evaluation Center. The Log states that the office of Muhammad Fadil financed Mr. Cloud's visits to Iraq. Fadil brought Cloud to Iraq on 2 pre-
-
-Manager of the Aqra Company, states, "During vious occasions.
-
-the visit Mr. Jean Claude, Commercial Manager of the French company, made to Baghdad, it was
+- The subject meeting log indicated that on 3 November 2002 an individual identified as a French expert and referred to as Mr. Cloud (possibly Mr. Claude from the prior paragraphs), visited the Al Kindi Electronic Warfare/Radar Research, Development, Test and Evaluation Center. The Log states that the office of Muhammad Fadil financed Mr. Cloud's visits to Iraq. Fadil brought Cloud to Iraq on 2 previous occasions.
 
 %%page 270%%
 
@@ -7144,11 +6662,7 @@ Letters Dealing With a Planned Visit of Mr. Salini of the French SOFEMA Company 
 
 Our Greeting,
 
-Mr. Dominique Salini is visiting Iraq. He is the Deputy General Manager Commercial of French Company SOFEMA, which is considered marketing company representing a lot of French military companies. We kindly
-
-Regime Finance request a meeting to discuss your needs with him. He will visit Iraq between the period 15/1/2000 to 19/1/2000. Attached is the company catalog for reviewing. With all our respect.
-
-and Procurement Attachment: Company catalog. Deputy Manager 'Isam Al 'Aqidi Copy for the branch 29/12 Bulgaria - Sivishtov 5250 – St. T. Milanovich No.10 A – Telefax: 00359631-25577 Iraq – Baghdad – Al-Masbah Tel: 7172829- Fax: 7172738 – Telex: 213175 ISAM – P.O. Box: 4245, Sabe Abkar - Baghdad
+Mr. Dominique Salini is visiting Iraq. He is the Deputy General Manager Commercial of French Company SOFEMA, which is considered marketing company representing a lot of French military companies. We kindly request a meeting to discuss your needs with him. He will visit Iraq between the period 15/1/2000 to 19/1/2000. Attached is the company catalog for reviewing. With all our respect. Attachment: Company catalog. Deputy Manager 'Isam Al 'Aqidi Copy for the branch 29/12 Bulgaria - Sivishtov 5250 – St. T. Milanovich No.10 A – Telefax: 00359631-25577 Iraq – Baghdad – Al-Masbah Tel: 7172829- Fax: 7172738 – Telex: 213175 ISAM – P.O. Box: 4245, Sabe Abkar - Baghdad
 
 %%page 272%%
 
@@ -7175,13 +6689,7 @@ Majda later provided samples of night vision goggles and protective Kevlar devic
 
 %%page 273%%
 
-- Majda further stated she was ready to import
-
-"set valves from either types, 12 sets of each at
-
-$250,000" as requested by the MIC Deputy Minister. Majda agreed to deliver these items within
-
-10 days of signing of an agreement. She further mentioned that "the French side" was ready to implement this agreement and take care of the documentation process regarding shipping and warranty certification, but that she would need some money to cover this process. Majda stated she was ready to provide a bond accepted from the Iraqi side towards a down payment and she provided complete specifications for both sets of valves.
+- Majda further stated she was ready to import "set valves from either types, 12 sets of each at $250,000" as requested by the MIC Deputy Minister. Majda agreed to deliver these items within 10 days of signing of an agreement. She further mentioned that "the French side" was ready to implement this agreement and take care of the documentation process regarding shipping and war- ranty certification, but that she would need some money to cover this process. Majda stated she was ready to provide a bond accepted from the Iraqi side towards a down payment and she provided complete specifications for both sets of valves.
 
 Possible Breaches of UN Sanctions by North Korean Companies
 
@@ -7193,9 +6701,7 @@ The letter indicates that permission for the MIC and the MoD had been granted to
 
 - A letter dated 28 February 2000, shows that the
 
-North Korean Defense Industry Department of Korean Workers Party officially invited an Iraqi military delegation to visit North Korea. The visit
-
-Regime Finance was arranged to show North Korea's willingness to supply Iraq with military equipment and to allow for discussions between military experts. The letter later states that the North Koreans believed the and Procurement proposed visit would open good relations between the militaries "against the common enemies."
+North Korean Defense Industry Department of Korean Workers Party officially invited an Iraqi military delegation to visit North Korea. The visit was arranged to show North Korea's willingness to supply Iraq with military equipment and to allow for discussions between military experts. The letter later states that the North Koreans believed the proposed visit would open good relations between the militaries "against the common enemies."
 
 - A letter from the Defense Industry Department of
 
@@ -7265,9 +6771,7 @@ SAMs, including, "early warning systems, SAM/2
 
 T, and SAM/2 A."
 
-- A captured telephone contact note dated 10 October 2000 confirmed that the first meeting with the North Korean delegation was planned for 11 October
-
-2000 with the MIC Director in attendance. The note specified that the Iraqi attendees would include staff from the Director, Armament and Accommodations,
+- A captured telephone contact note dated 10 October 2000 confirmed that the first meeting with the North Korean delegation was planned for 11 October 2000 with the MIC Director in attendance. The note specified that the Iraqi attendees would include staff from the Director, Armament and Accommodations,
 
 %%page 275%%
 
@@ -7277,9 +6781,7 @@ Defense Command, Communications Administration, a Navy Representative and a SSM 
 
 Representative.
 
-2000: Contracts Negotiated for Iraqi Defense Programs
-
-Information from a former high ranking official who worked in the MIC, corroborated by captured documents, indicates that Iraq and North Korea had negotiated contracts worth $10 million to support the Iraqi military programs by mid-2001. These contracts included a Volga air-defense missile homing head, ammunition, small machines, and spare parts. • Between the end of 2000 and the beginning of
+2000: Contracts Negotiated for Iraqi Defense Programs Information from a former high ranking official who worked in the MIC, corroborated by captured documents, indicates that Iraq and North Korea had negotiated contracts worth $10 million to support the Iraqi military programs by mid-2001. These contracts included a Volga air-defense missile homing head, ammunition, small machines, and spare parts. • Between the end of 2000 and the beginning of
 
 2001, North Korea and Iraq reportedly began discussing contracts supporting the Iraqi missile program, particularly for guidance and control systems. While the head of the MIC, 'Abd-al-
 
@@ -7291,12 +6793,11 @@ Tawab 'Abdallah Al Mullah Huwaysh, handled the negotiations with the North Korea
 
 consist of 2 gyros, 3 accelerometers, and an onboard computer. The first installment was for 10 kits. North Korea, however, rejected the proposal in the near term, but agreed to study it further.
 
-- The Syrian companies Lama and SES allegedly facilitated the Iraq-North Korea contracts, charg-
+- The Syrian companies Lama and SES allegedly facilitated the Iraq-North Korea contracts, charging an additional 10-15 percent commission on the contract value. (See also the Front Company discussion.)
 
-Regime Finance ing an additional 10-15 percent commission on the contract value. (See also the Front Company discussion.)
+Recovered documents from 2001 corroborate the information given by this source. These documents show that a North Korean company signed four contracts and discussed others with Iraq. This included the supply of missile components, a deal to modify radars and the Volga missile system, the supply of engineers, an agreement for ammunition manufacturing equipment, and the supply of components for ammunition. These contracts were between the Iraqi companies Al-Karamah, Hittin, and Al Harith and the North Korean Hesong Trading Corporation, based in Pyongyang. The goods were to be shipped to Syria and then onto Baghdad.
 
-and Procurement Recovered documents from 2001 corroborate the information given by this source. These documents show that a North Korean company signed four contracts and discussed others with Iraq. This included the supply of missile components, a deal to modify radars and the Volga missile system, the supply of engineers, an agreement for ammunition manufacturing equipment, and the supply of components for ammunition. These contracts were between the Iraqi companies Al-Karamah, Hittin, and Al Harith and the North Korean Hesong Trading Corporation, based in Pyongyang. The goods were to be shipped to Syria and then onto Baghdad. • The first contract was for the procurement of components for short-range missiles, associated test equipment, installation in Iraq, and for the training of Iraqi engineers.
-
+- The first contract was for the procurement of components for short-range missiles, associated test equipment, installation in Iraq, and for the training of Iraqi engineers.
 - The second contract was for the modification of ABARONA, P-15 radars, and modifications to the Volga System (S-75), including technology transfer and the supply of 20 North Korean engineers.
 - The third contract was for an automatic copying machine for the manufacture of 122mm guns, a screw filling machine, and TNT for munitions.
 - The fourth contract was for fuses for 57mm antiaircraft gun ammunition, RPG-7 projectiles, and delay mechanisms for the RPG-7.
@@ -7331,24 +6832,18 @@ Summary of the Russian involvement 1999-2003: Russian engineers visited Baghdad 
 %%page 277%%
 
 - In April 1999, seven Russian engineers spent three months in Baghdad providing technical assistance to Iraq's al-Samud liquid-propellant missile program. The group of engineers included a Russian expert in engines, two experts in guidance and control, an expert in airframes, one who worked on test benches, a lab tester, and one expert in the supply of machines and parts. Each Russian had an individual contract for an unknown amount of money for their technical expertise.
-
 - The visit also included a $10 million contract for parts and machines such as a flow forming machine, a milling machine, a furnace, and raw materials. These machines and equipment were housed at the Al-Karamah State Establishment.
 - The MIC arranged and funded the contract with the Russians. The IIS directorate within the MIC, however, oversaw the contract. IIS officers occasionally attended meetings between the Russians and the Iraqi representatives from the Al-Karamah State Establishment.
 - From January to February 2003, a Russian technical team reportedly visited Iraq to train Iraqi technicians on upgrading an air defense system. The Russians conducted the training in Baghdad.
 
 2000-2001: Russian Establishment Offered Military Goods According to captured documents, a Russian company offered to prepare military air defense equipment and a written proposal to supply a defense system called the S-300.
 
-- A letter dated 4 September 2000 from the authorized Manager of the Al Maimana General Trading Co. Ltd., to Intelligent Agent nr993 of the DGMI reads, "we are enclosing you the offer of the Russian Lemz Establishment which includes the possibility of preparing equipment of air defense (radars, communications equipment, land services
+- A letter dated 4 September 2000 from the authorized Manager of the Al Maimana General Trading Co. Ltd., to Intelligent Agent nr993 of the DGMI reads, "we are enclosing you the offer of the Russian Lemz Establishment which includes the possibility of preparing equipment of air defense (radars, communications equipment, land services equipment etc)."
 
-- A second letter dated 16 November 2000 to intelligence agent nr993 of the DGMI reads "Since we have connections with many Russian and French companies that showed its readiness to deal with us in the field of importing equipment of air defense and its spare material, our company, Al Maymana General Trading Company, Ltd., is
-
-Regime Finance happy to present its services to you in the field of importing the materials and the equipment that you need to serve our great Iraq and from a Russian and European origins."
-
-and Procurement
-
+- A second letter dated 16 November 2000 to intelligence agent nr993 of the DGMI reads "Since we have connections with many Russian and French companies that showed its readiness to deal with us in the field of importing equipment of air defense and its spare material, our company, Al Maymana General Trading Company, Ltd., is happy to present its services to you in the field of importing the materials and the equipment that you need to serve our great Iraq and from a Russian and European origins."
 - A third letter dated 3 March 2001, to Intelligence Agent nr993 states, "Our Company, Al Maymana General Trading Company Ltd has done great efforts to provide the armed forces to serve our great Iraq and its leader Saddam Husayn (may God keep him safe). Through our job, a credible side has proposed the possibility of a Russian Air Defense system, type S-300 PMU (four launching sites with 36-70 missiles) and entering it to the country."
 
-2001: Offer to Supply Rockets and Technology Sources and documents suggest that Iraq was actively seeking to obtain the SS-26/Iskander missile from Russia. • Document exploitation has revealed that Firas Talas, the son of former Syrian Defense Minister Lt. Gen. Mustafa Talas, visited Iraq in July 2001 and discussed a variety of missile systems and components he could supply through Russia. Firas offered to sell Iraq the S-300 SAM and the 270km range SS-26/Iskander-E short-range ballistic missile, or to provide assistance to help Iraq produce the Iskander. Firas claimed that he had previously met with Izakoff, the former Defense Minister of the Soviet Union, who told him that his [Izakoff's] friend owned documents for "TEMPS" missiles called "Sterlite" in the West. Reportedly, Izakoff said the missiles had a range of 1,500 km and were very accurate. Tlas said Izakoff claimed that the missiles were destroyed by Mikhail Gorbachev, but that Izakoff could supply the documents so that Iraq equipment etc)." could produce them.
+2001: Offer to Supply Rockets and Technology Sources and documents suggest that Iraq was actively seeking to obtain the SS-26/Iskander missile from Russia. • Document exploitation has revealed that Firas Talas, the son of former Syrian Defense Minister Lt. Gen. Mustafa Talas, visited Iraq in July 2001 and discussed a variety of missile systems and components he could supply through Russia. Firas offered to sell Iraq the S-300 SAM and the 270km range SS-26/Iskander-E short-range ballistic missile, or to provide assistance to help Iraq produce the Iskander. Firas claimed that he had previously met with Izakoff, the former Defense Minister of the Soviet Union, who told him that his [Izakoff's] friend owned documents for "TEMPS" missiles called "Sterlite" in the West. Reportedly, Izakoff said the missiles had a range of 1,500 km and were very accurate. Tlas said Izakoff claimed that the missiles were destroyed by Mikhail Gorbachev, but that Izakoff could supply the documents so that Iraq could produce them.
 
 %%page 278%%
 
@@ -7382,13 +6877,9 @@ The company also informed the Iraqi MoD and IIS that they are upgrading the BM-2
 
 %%page 279%%
 
-- The letter also indicates that 'Iyad carried out the first stage of manufacturing a digital computer for Al-Karamah and that he received an invitation from a Russian company to visit factories in Moscow to obtain detailed knowledge of other products. The letter is from the Al-Karamah State Establishment and is directed to the deputy of the Minister's
+- The letter also indicates that 'Iyad carried out the first stage of manufacturing a digital computer for Al-Karamah and that he received an invitation from a Russian company to visit factories in Moscow to obtain detailed knowledge of other products. The letter is from the Al-Karamah State Establishment and is directed to the deputy of the Minister's Council President and the MIC Minister.
 
-Council President and the MIC Minister.
-
-2002: Russian and Belarusian Companies Supply
-
-Missile Test Equipment Recovered documents refer to the procurement of missile test equipment from Russia and Belarus.
+2002: Russian and Belarusian Companies Supply Missile Test Equipment Recovered documents refer to the procurement of missile test equipment from Russia and Belarus.
 
 - A contract from the Al Kindi General Company dated 18 June 2002 is addressed to, "The agreement of the Deputy Prime Minister- the Minister of MIC…to buy the following subjects: checking system of gyroscope with two axes, thermal rooms, and checking vehicles system."
 - This signed contract between the Russian System- nikh Company and Al-Karamah State Establishment does not indicate preparation of a checking system of the gyroscope with 3-axis because of the limited investment available from the Al-Karamah and Al-Milad companies. However, the information recorded reads, "it should be known that we have a possibility to get 3 axes information by using 2 axes with adding specified programming with coordinating with Belarus side."
@@ -7399,23 +6890,15 @@ MIC Minister proposed the procurement of Russian missile technology and equipmen
 
 2001.
 
-special offer from a Russian military expert named "Yosbov" included a study of the development, manufacture, assembly, and use of missiles, with a total cost of $100,000 for Russian and English languages copies and $70,000 for Russian language only. The documentation states that, this technology would particularly "contribute in developing
+- One technology description refers to a Russian special "military standard specification." The
 
-Regime Finance [Iraq's] space and missile programs."
+special offer from a Russian military expert named "Yosbov" included a study of the development, manufacture, assembly, and use of missiles, with a total cost of $100,000 for Russian and English languages copies and $70,000 for Russian language only. The documentation states that, this technology would particularly "contribute in developing [Iraq's] space and missile programs."
 
-- Another desired technology includes a telemetering system which was described as, "urgently and Procurement needed for missile program especially Al-Samud and Al-Fat'h missiles." Dr. Zabun described this telemetering system as having a frequency range of between 2.1 to 2.4 GHz with 500 usable channels and an output microwave power of 15 watts. Also, Dr. Zabun listed a requirement for a smaller size unit to fit into the missiles. The radio frequency transmission range for the missile package was specified at 200 km.
-
-- There was also an arrangement for supplying 20
-
-"loaded parts," for 20 experiments. These ground parts were to be placed in three data receiving points transmitted to the missile-monitoring center to allow for analysis and missile tracking. This contract included spare parts, accessories, and a transfer of technology allowing for the design and manufacture of the telemetering equipment in Iraq.
-
+- Another desired technology includes a telemetering system which was described as, "urgently needed for missile program especially Al-Samud and Al-Fat'h missiles." Dr. Zabun described this telemetering system as having a frequency range of between 2.1 to 2.4 GHz with 500 usable channels and an output microwave power of 15 watts. Also, Dr. Zabun listed a requirement for a smaller size unit to fit into the missiles. The radio frequency transmission range for the missile package was specified at 200 km.
+- There was also an arrangement for supplying 20 "loaded parts," for 20 experiments. These ground parts were to be placed in three data receiving points transmitted to the missile-monitoring center to allow for analysis and missile tracking. This contract included spare parts, accessories, and a transfer of technology allowing for the design and manufacture of the telemetering equipment in Iraq.
 - The telemetering system offered three receiving and transmitting stations with accessories in addition to an operating room equipped with computers and programs for displaying and analyzing data. The offer also included a training course conducted by five Russian experts in Iraq for five Iraqi engineers.
-
 - Dr. Zabun anticipated that the Iraqi cadre training would be conducted in two stages, the first in Moscow, for six specialists and for 600 hours, and the second in Iraq for one month under Russian specialist supervision.
-
-- ARMOS, a MIC-run Iraqi-Russian front company, served as liaison between the MIC and the Russian suppliers. The Iraq military attaché in Moscow provided the contracts and related documents to the
-
-Russians for signature. • One technology description refers to a Russian special "military standard specification." The
+- ARMOS, a MIC-run Iraqi-Russian front company, served as liaison between the MIC and the Russian suppliers. The Iraq military attaché in Moscow provided the contracts and related documents to the Russians for signature.
 
 %%page 280%%
 
@@ -7450,7 +6933,6 @@ Summary of Bulgarian Involvement 1999-2002: Bulgarian companies contracted to up
 Company General Manager also stated that he is ready to discuss means of supply, quantity, and price with the DGMI.
 
 - In another letter, SARA-M referred to an Iraqi request to supply radiators and tanks air pressures devices, stating that SARA-M can provide 100 radiators and "T- 55 tanks air pressures devices" to stores in Baghdad.
-
 - The SARA-M representative also offered a quotation for Russian-origin aircraft wheels. The wheels were apparently stored in special warehouses in Bulgaria and were ready for deliver to Baghdad.
 - In another letter, SARA-M offered to supply Iraq with night vision goggles. It states that the goggles were "for the infantry, chopper pilots, and tank drivers. An offer is made to send Iraq samples to be checked."
 
@@ -7458,13 +6940,11 @@ Company General Manager also stated that he is ready to discuss means of supply,
 
 - The MIC invited a delegation from the JEFF Bulgarian Company to Iraq to negotiate technical offers on updating tanks and missiles, (several types including Perchora—SA-3) providing spare parts, fighter/helicopter engines, and various other military equipment. In addition, they discussed the transfer of technology related to a number of "important and sensitive projects." The negotiations ended with signing a number of contracts to the amount of $50 million.
 - The MIC requested that the JEFF Bulgarian Company submit a formal invitation to visit the helicopter and engine maintenance factories specified in the final contract.
-- The JEFF Bulgarian, Co., invited four people to visit Bulgaria to view equipment and jet fighter
+- The JEFF Bulgarian, Co., invited four people to visit Bulgaria to view equipment and jet fighter engine workshops.
 
-- The MIC proposed that Mr. Majid Ibrahim Salman (also called Majid Muhammed Isma'il) serve as the Iraqi representative for the technology transfer, negotiating with the company, maintaining an ongoing relationship with experts, and controlling the operations. The JEFF Bulgarian, Co., agreed to bear all expenses for Salman's accommodations
+- The MIC proposed that Mr. Majid Ibrahim Salman (also called Majid Muhammed Isma'il) serve as the Iraqi representative for the technology transfer, negotiating with the company, maintaining an ongoing relationship with experts, and controlling the operations. The JEFF Bulgarian, Co., agreed to bear all expenses for Salman's accommodations and hospitality. The IIS financed a two-day visit in Syria for Salman. The IIS Deputy Minister signed the instructions on 3 September 2001.
 
-Regime Finance and hospitality. The IIS financed a two-day visit in Syria for Salman. The IIS Deputy Minister signed the instructions on 3 September 2001.
-
-Federal Republic of Yugoslavia (now called Serbia and Procurement and Montenegro) Possible Breaches of UN Sanctions Summary of Yugoslav involvement 1999- 2002: Representatives from several Yugoslavian companies reportedly visited Iraq in 1999 and 2001 to discuss missile components and related support sales. In 2001, a Yugoslavian company also offered to provide Iraq with parts for 125mm tank main guns.
+Federal Republic of Yugoslavia (now called Serbia and Montenegro) Possible Breaches of UN Sanctions Summary of Yugoslav involvement 1999- 2002: Representatives from several Yugoslavian companies reportedly visited Iraq in 1999 and 2001 to discuss missile components and related support sales. In 2001, a Yugoslavian company also offered to provide Iraq with parts for 125mm tank main guns.
 
 1999: Federal Republic of Yugoslavian (FRY) Delegations Visit Iraq Information supplied by an Iraqi Scientist indicates that the Al-Karamah State Establishment hosted FRY delegations in 1999.
 
@@ -7473,7 +6953,7 @@ Federal Republic of Yugoslavia (now called Serbia and Procurement and Montenegro
 
 2001: Iraqi Delegation Visits FRY To Discuss Missile Technology According to a high-ranking Al-Kindi official, senior Iraqi military officials and businessmen visited FRY in mid-2001 to discuss Iraq's air defense and missile testing capability.
 
-- The Iraqi Minister of Defense, General Sultan Hashim Ahmad Al-Ta'i, reportedly led the delega- engine workshops. tion to Serbia. The delegation also included the
+- The Iraqi Minister of Defense, General Sultan Hashim Ahmad Al-Ta'i, reportedly led the delegation to Serbia. The delegation also included the
 
 %%page 282%%
 
@@ -7486,7 +6966,7 @@ Sa'ad Dawwud Al Shamma', and several high ranking Iraqi air defense officials.
 
 2001: Offer To Supply 125mm Tank Main Gun Components Recovered documents demonstrate a Yugoslav company's offer to supply parts for a 125mm gun. The gun was part of an Iraqi tank called 'Saddam The Lion.'
 
-- A letter dated 8 June 2001, from Col Krsta Grujovic of Yugoimport was sent to the General Manager of the Saddam General Company and reads as follows: "referring to preparation of the parts of 125 mm gun, we would like to point out the following; although we know the availability of technical schemes with you, the producing company intents sending a copy of these schemes for signature from both sides. In order to be approved for delivery purpose and to make sure that there are no mis- takes in documents, we will submit these schemes in two weeks. There are some parts available for the producing company and mechanical operations were done until semi-finial stage. The producing
+- A letter dated 8 June 2001, from Col Krsta Grujovic of Yugoimport was sent to the General Manager of the Saddam General Company and reads as follows: "referring to preparation of the parts of 125 mm gun, we would like to point out the following; although we know the availability of technical schemes with you, the producing company intents sending a copy of these schemes for signature from both sides. In order to be approved for delivery purpose and to make sure that there are no mis- takes in documents, we will submit these schemes in two weeks. There are some parts available for the producing company and mechanical operations were done until semi-finial stage. The producing company intents to provide these parts to gain time and not charging you price difference. The schemes of these parts will be submitted in two weeks."
 
 - A handwritten internal memo, dated 5 July 2001 was attached to the Yugoimport letter. This memo, addressed to the projects department, was signed by Ra'ad Sabah, the Manager of Saddam General Company. The memo's heading indicates that the gun parts and technology (schemes and drawings) mentioned are designed for a tank gun, "for the product Saddam the Lion."
 
@@ -7504,8 +6984,6 @@ Sa'ad Dawwud Al Shamma', and several high ranking Iraqi air defense officials.
 —Navigation
 
 —Modification of charging the missile with fuel and oxidants facilities for the missile maintaining."
-
-company intents to provide these parts to gain time and not charging you price difference. The schemes of these parts will be submitted in two weeks."
 
 %%page 283%%
 
@@ -7526,9 +7004,7 @@ also discussed acquisition of GPS jamming and technology. Specific upgrades focu
 
 Perchora air defense radar system and acquisition of new missile guidance systems to increase missile engagement ranges.
 
-Regime Finance
-
-2002: Contracts To Supply Gyros and Guidance Equipment Recovered documents show that a Belarusian comand Procurement pany representative was contracted to procure missile guidance and control equipment for Iraq in 2002.
+2002: Contracts To Supply Gyros and Guidance Equipment Recovered documents show that a Belarusian company representative was contracted to procure missile guidance and control equipment for Iraq in 2002.
 
 - Notes of a meeting state that representatives of a Belarusian entity called EGC conducted technical discussions with Iraq from 10 to 17 February 2002. These negotiations ended with signing an agreement no. 209/2002 totaling $5,053,971. EGC acknowledged through this agreement that they would supply control and guidance missile system (CGMS) equipment needed by the Al-Karamah State Establishment.
 - Additional notes from the 10 to 17 February 2002 meeting refer to another contract with EGC worth $20,771,700. This agreement was for the supply of laboratory and experimental equipment necessary to "implement scientific research for CGMS and improve quality and production."
@@ -7538,9 +7014,7 @@ Regime Finance
 
 Infobank.
 
-—The remaining amount "shall be paid in cash
-
-> within ten days after receiving the shipment," according to both contracts.
+—The remaining amount "shall be paid in cash within ten days after receiving the shipment," according to both contracts.
 
 %%page 284%%
 
@@ -7567,23 +7041,20 @@ note in the margins of this letter instructs ''immediately make payment of 15 pe
 
 Possible Syrian Breaches of UN Sanctions
 
-Summary of Syrian involvement 2001-2003: With the assistance of Firas Talas, the son of the former Syrian Defense Minister, Damascus offered Iraq missile technology and fuels. Firas Talas and the MAS Economic Group offered Iraq the services of South
-
-African engineer, Chinese, and Syrian Engineers in 2002. Firas Talas made several additional visits to Iraq and signed several military contracts. Syria also offered the services of a French expert who expressed his wish to visit Iraq to provide details about documents. Syria also planned to supply Iraq with spare parts for a 155mm weapon system in March 2003.
+Summary of Syrian involvement 2001-2003: With the assistance of Firas Talas, the son of the former Syrian Defense Minister, Damascus offered Iraq missile technology and fuels. Firas Talas and the MAS Economic Group offered Iraq the services of South African engineer, Chinese, and Syrian Engineers in 2002. Firas Talas made several additional visits to Iraq and signed several military contracts. Syria also offered the services of a French expert who expressed his wish to visit Iraq to provide details about documents. Syria also planned to supply Iraq with spare parts for a 155mm weapon system in March 2003.
 
 2001: Correspondence and Meetings Referring to Supplying Military Goods Documents recovered indicate that Firas Talas met with former Russian senior officials who offered to supply Iraq with military equipment and technology, including production technology relating to surface-to-surface missiles with a range of 700 km. ISG believes that in this particular case Firas Talas was acting as a facilitator attempting to supply Iraq with goods of Russian origin, goods from Yemen, and experts from China, South Africa, and Syria. • A recovered letter, dated 12 May 2001, was sent to the Iraqi MOD from the Chairman of the Board of the MAS Economic Group offering cooperation in supplying military goods through bids and tenders.
 
 - Sources and documents suggest that Iraq was actively seeking to obtain the SS-26/Iskander missile from Russia.
-- Document exploitation has revealed that Firas Tlas, the son of former Syrian Defense Minister Lt. Gen. Mustafa Talas, visited Iraq in July 2001 and discussed a variety of missile systems and components he could supply through Russia. Firas offered to sell Iraq the S-300 SAM and the 270km range SS-26/Iskander-E short-range ballistic missile, or to provide assistance to help Iraq produce the Iskander. Firas claimed that he had previously met with Izakoff, the former Defense Minister of the Soviet Union, who told him that his [Izakoff's] friend
+- Document exploitation has revealed that Firas Tlas, the son of former Syrian Defense Minister Lt. Gen. Mustafa Talas, visited Iraq in July 2001 and discussed a variety of missile systems and components he could supply through Russia. Firas offered to sell Iraq the S-300 SAM and the 270km range SS-26/Iskander-E short-range ballistic missile, or to provide assistance to help Iraq produce the Iskander. Firas claimed that he had previously met with Izakoff, the former Defense Minister of the Soviet Union, who told him that his [Izakoff's] friend owned documents for "TEMPS" missiles called
 
 "Sterlite" in the West. Reportedly, Izakoff said the accurate. Talas said Izakoff claimed that missiles were destroyed by Mikhail Gorbachev, but that Izakoff could supply the documents so that Iraq could produce them.
 
-Regime Finance • Huwaysh claimed that Iraq had contacted both Syrian and Russian entities to discuss Iraq acquiring the Iskander missile in 2002. Russia would not export any military hardware with out an endand Procurement user certificate signed by the issuing government agency, which is the capacity in which Syria would have served.
-
+- Huwaysh claimed that Iraq had contacted both Syrian and Russian entities to discuss Iraq acquiring the Iskander missile in 2002. Russia would not export any military hardware with out an end-user certificate signed by the issuing government agency, which is the capacity in which Syria would have served.
 - Talas also mentioned that he met with a Yemeni tradesman called "Shahir 'Abd-al-Haq." During this meeting, the tradesman said the Iraqi Minister of Defense sent him to see Talas to help import Yemeni spare military parts into Iraq. These Yemeni contracts included parts for MiG-21, a PMP pontoon bridge, and Ilyushin 76 military transport aircraft.
 - Tlas clarified that Shahir accompanied him on the plane when he arrived in Iraq on 29 Jun 2001. Talas was surprised when Shahir was not allowed access to Iraq and that he met with Tariq 'Aziz, the Deputy Prime Minister, at the airport. Later Aziz told Talas that Shahir was not allowed to enter Iraq because he "co-operates with the Israeli intelligence."
 - In an internal memo from Major Quays Mahdi of the DGMI, referred to his attendance at a 1 August 2001 meeting. with a four-person Russian delegation, Mr. Talas, and representatives of the Iraqi Air Defense, Air Force, and Army Aviation commands. According to this memo, the meeting took place in the Commanding Officer's Club. The Iraqi Directorates represented were: Armaments, Electrical Mechanical Engineering, and Missiles. Staff Chief Marshall Sa'ad of the MoD directed the meeting.
-- The Russian delegation at this meeting in August 2001 included Paris Ivanovish, a specialist in the fields of the Volga and Bichora systems, as well as owned documents for "TEMPS" missiles called being a representative of a military factory that spe- cializes in air defense; Georgi Sergeevich Pitrov an specialist in air to air missiles and the Deputy Head of the Ukrainian Government Office called "Log;"
+- The Russian delegation at this meeting in August 2001 included Paris Ivanovish, a specialist in the fields of the Volga and Bichora systems, as well as being a representative of a military factory that spe- cializes in air defense; Georgi Sergeevich Pitrov an specialist in air to air missiles and the Deputy Head of the Ukrainian Government Office called "Log;"
 
 %%page 286%%
 
@@ -7597,7 +7068,7 @@ Kaziulin.
 
 2002: Procurement of Military Goods and Services for Iraq Documents recovered show that ARMOS requested a bid for for rocket fuel from the Syrian MAS Economic Group in 2002. The company Director of MAS was Firas Talas, the son of former Syrian Defense Minister. Firas was also involved in a Chinese offer in 2002 to help with the Iraqi Air Defense System.
 
-- A letter from Dr. Siham-al-Din Khayri Al 'Ali, the Deputy Director of ARMOS Trading, dated 15 October 2002, requested a bid from the MAS Eco-
+- A letter from Dr. Siham-al-Din Khayri Al 'Ali, the Deputy Director of ARMOS Trading, dated 15 October 2002, requested a bid from the MAS Economic Group for rocket fuel. One of the types of fuel listed included one entry for 15 tons of hydrazine at 97-percent purity.
 
 - A recovered letter from Firas Talas, dated 21 October 2002, states, "Technicians from the Syria have been dispatched to China to deal with some quite influential companies (companies that have a great influence upon the Chinese government) and that these companies have expressed their desire to co-operate with Iraq for a modernization of the air defense systems." The letter further states that the meeting should take place, "in either Damascus or in Peking and that they held no objection to the idea of sending a delegation to visit Peking."
 - Another letter from Talas, also dated 21 October 2002, relays to "Abu Mustafa" that technicians from "our side have been sent to China in order to do business with esteemed powerful companies with the government and that they have complied positively to co-operate with you to develop the Air defense Systems." Also, that associate meetings should be held in Damascus or Beijing and that there was no objection to sending a delegation invitation letter to visit them. The letter gives regards and a wish to visit Mustafa soon in Baghdad.
@@ -7605,8 +7076,6 @@ Kaziulin.
 2003: MAS Economic Group Facilitates French Military Sales Catalogue Dissemination An internal DGMI memo from Lt. Col. Imad Salih dated 13 January 2003, refers to a Syrian MAS Economic Group letter with 5 attached CDs and catalogues from a French expert named Eric Joubert. The Syrian Company was facilitating the supply of the French technology. The documents contained information and equipment lists of interest to the DGMI directorate and the Iraqi intelligence service. Joubert expressed his wish to visit Iraq to give more details about the CDs and catalogues.
 
 2003: Contract for Supply of Spare Parts for 155mm Weapon Systems Recovered documents indicate that a Syrian company agreed to supply Iraq with Syrian Defense establishment components of 155 mm weapon systems.
-
-nomic Group for rocket fuel. One of the types of fuel listed included one entry for 15 tons of hydrazine at 97-percent purity.
 
 %%page 287%%
 
@@ -7624,11 +7093,7 @@ SES will supply the MIC with 100 parts for the
 
 $2,574,000.
 
-- The contract specified a guarantee deposit letter from the Al Mawarid Bank, Beirut, Lebanon for
-
-$514,000 as a down payment on the deal. The deposit letter was to be directed to a "Jasim Ahmad
-
-Hasan and a Hashim Karim 'Abbas" in regards to the sponsoring of a representative of the SES International Corporation.
+- The contract specified a guarantee deposit letter from the Al Mawarid Bank, Beirut, Lebanon for $514,000 as a down payment on the deal. The deposit letter was to be directed to a "Jasim Ahmad Hasan and a Hashim Karim 'Abbas" in regards to the sponsoring of a representative of the SES International Corporation.
 
 Possibel Breaches of UN Sanctions by Jordanian Companies
 
@@ -7640,22 +7105,19 @@ Company) to the ARMOS Trading Company Baghdad refers to a presentation given by 
 
 (tender no. 2000/56/70).
 
-- Specifications indicate that this proposed technical transfer was for the production of .22 caliber ammunition. The proposal included: a block diagram, "know how" documents, installation, supervision over equipment installation, trial run and performance tests on equipment, and technical assistance. Annual production capacity amounts were estimated as 25 million rounds. This produc-
+- Specifications indicate that this proposed technical transfer was for the production of .22 caliber ammunition. The proposal included: a block diagram, "know how" documents, installation, supervision over equipment installation, trial run and performance tests on equipment, and technical assistance. Annual production capacity amounts were estimated as 25 million rounds. This production line cost $ 9,466,015.
 
 Possible Yemeni Breaches of UN Sanctions
 
-2001: Government of Yemen Offers to supply Military Goods to Iraq Recovered documents refer to the Yemen Ambassador meeting with the Iraqi military to discuss a list
+2001: Government of Yemen Offers to supply Military Goods to Iraq Recovered documents refer to the Yemen Ambassador meeting with the Iraqi military to discuss a list of guaranteed military materials. According to the documents, the President of Yemen gave his blessing to support the effort to supply military goods to Iraq.
 
-Regime Finance of guaranteed military materials. According to the documents, the President of Yemen gave his blessing to support the effort to supply military goods to Iraq.
-
-and Procurement • A letter from the Iraqi Defense Minister Sultan Hashim Ahmad dated 23 March 2001 speaks of a meeting with the Republic of Yemen's Ambassador, Mr. 'Abd-al-Malik Sa'id. The letter states that Yemen had been helping the Iraqi Armed forces through a Yemeni business-man named Mr. Shahir 'Abd-al-Haq.
-
+- A letter from the Iraqi Defense Minister Sultan Hashim Ahmad dated 23 March 2001 speaks of a meeting with the Republic of Yemen's Ambassador, Mr. 'Abd-al-Malik Sa'id. The letter states that Yemen had been helping the Iraqi Armed forces through a Yemeni business-man named Mr. Shahir 'Abd-al-Haq.
 - Reference is given to a meeting held 19 February 2001, were the Yemeni side was ready to export military materials from Yemen and Ethiopia to Iraq. The letter indicates the President of Yemen, Ali 'Abdallah Salih, gave his blessing to the deal and that the Iraqis were given guarantees for the spare parts. These parts were specifically drawn from the stocks of the Yemeni armed forces, air force, army aviation and included armor, trucks, and weapons.
-- A follow-up meeting was held on 22 March 2001, which included the Yemeni Ambassador and Mr. Shahir. Shahir and the Ambassador provided the Iraqi military with a list of guaranteed available military materials and prices. Shahir also revealed that he had met with the President Salih who had given his blessing for these efforts and support. The letter indicates that the President Salah, "believes that the support of Iraq with the proposed exports is necessary" and he had made calls to his brother, an Air Force Commander, asking him to present everything possible to Iraq, even if he has to take supplies from the Yemeni Air Force and ask Russia and others for replacement material. tion line cost $ 9,466,015. nese technology procurement relationship. 'Abd-al-
+- A follow-up meeting was held on 22 March 2001, which included the Yemeni Ambassador and Mr. Shahir. Shahir and the Ambassador provided the Iraqi military with a list of guaranteed available military materials and prices. Shahir also revealed that he had met with the President Salih who had given his blessing for these efforts and support. The letter indicates that the President Salah, "believes that the support of Iraq with the proposed exports is necessary" and he had made calls to his brother, an Air Force Commander, asking him to present everything possible to Iraq, even if he has to take supplies from the Yemeni Air Force and ask Russia and others for replacement material. nese technology procurement relationship. 'Abd-al-
 
 %%page 288%%
 
-Possible Breaches of UN Sanctions by Chinese Companies
+Possible Breaches of UN Sanctions by Chinese
 
 Summary of Chinese involvement 2001-2003: According to multiple sources, Chinese companies provided Iraq with limited rocket guidance software, missile gyros, and accelerometers. Chinese companies also attempted to sell the former Regime jamming equipment.
 
@@ -7692,49 +7154,39 @@ Launcher, and spare parts for the P-14 Oborona.
 
 Possible Breaches of UN Sanctions by Indian Companies
 
-2002: Indian Individual Coordinated the Purchase of Missile-Related Materials for Iraq
+2002: Indian Individual Coordinated the Purchase of Missile-Related Materials for Iraq According to recovered documents, an Indian and Iraqi national negotiated for the procurement of conventional military goods for Iraq.
 
 • Between November and December 2002, an individual from India and an Iraqi, negotiated the procurement of goods, including turbojet engines for Mig-23 and Mig-29 aircraft, diesel engines for tanks, a radar system, and ammunition.
 
-- The Baghdad office of the Arabic Scientific Bureau
-
-Regime Finance and Inaya Trading were also involved in the attempted procurement of dual-use chemicals associated with missile propellant uses. However, the documents do not indicate if contracts were signed and Procurement or if shipments took place.
-
-According to recovered documents, an Indian and Iraqi national negotiated for the procurement of conventional military goods for Iraq.
+- The Baghdad office of the Arabic Scientific Bureau and Inaya Trading were also involved in the attempted procurement of dual-use chemicals associated with missile propellant uses. However, the documents do not indicate if contracts were signed or if shipments took place.
 
 %%page 291%%
 
-Annex K of companies that were involved in supplying the
-
-> Suspected Intermediary and Front Companies Associated With Iraq
+> Annex K Suspected Intermediary and Front Companies Associated With Iraq
 
 The companies listed in this annex have been reported in the Intelligence Community as front companies involved with the former Iraqi Regime. Because there are different interpretations as to what makes a company a front as opposed to a trade intermediary or manufacturer, this list can be seen as an example
 
-Company Name Across Continents Trading Agency Adel Commercial Bureau Al-Abidin Investment Company Al-Ahliyah for Trading Agencies and Exports, Ltd. Al-Ali Trading Co. Al-Amia (AKA Global) Company Al-Anmar Company Al-Basha'ir Company Al-Bir Company for International Trade Al-Dahma International Trading Establishment Al-Dellah Travel and Tourism Company Al-Doha Trading Company Al-Eman Al-Enbuah Al-Faris State Company, Ministry of Industry and Minerals Al-Fattah Corporation Al-Fitra Trading Company Al-Furat Rent-A-Car Al-Ghery International Company Al-Hamra Company Al-Handal General Trading Company
+Company Name Across Continents Trading Agency Adel Commercial Bureau Al-Abidin Investment Company Al-Ahliyah for Trading Agencies and Exports, Ltd. Al-Ali Trading Co. Al-Amia (AKA Global) Company Al-Anmar Company Al-Basha'ir Company Al-Bir Company for International Trade Al-Dahma International Trading Establishment Al-Dellah Travel and Tourism Company Al-Doha Trading Company Al-Eman Al-Enbuah Al-Faris State Company, Ministry of Industry and Minerals Al-Fattah Corporation Al-Fitra Trading Company Al-Furat Rent-A-Car Al-Ghery International Company Al-Hamra Company Al-Handal General Trading Company Al-Hashimy Trading Company Al-Hikma Company Al-Huda Export and Import EST
 
-Iraqi government with prohibited conventional weapons and dual-use materials. At least two of the MIC domestic manufacturing companies, Al-Nida and Al-Rashid, have been mistaken for front companies in prior reporting. However, these companies still used known front companies such as the MIC's
+of companies that were involved in supplying the Iraqi government with prohibited conventional weapons and dual-use materials. At least two of the MIC domestic manufacturing companies, Al-Nida and Al-Rashid, have been mistaken for front companies in prior reporting. However, these companies still used known front companies such as the MIC's Al-Basha'ir and Syria's SES as middlemen when procuring materials for production. Other companies that were manufacturers or trading companies may also have been mistaken as front companies.
 
-Regime Finance Al-Basha'ir and Syria's SES as middlemen when procuring materials for production. Other companies that were manufacturers or trading companies may also have been mistaken as front companies.
-
-> and Procurement Location Baghdad, Iraq Baghdad, Iraq UAE Baghdad, Iraq
+> Location Baghdad, Iraq Baghdad, Iraq UAE Baghdad, Iraq
 
 > Amman, Jordan Baghdad, Iraq Amman Jordan Baghdad, Iraq
 
 > Baghdad, Iraq Amman, Jordan
 
-> Baghdad, Iraq Amman, Jordan Baghdad, Iraq UAE Baghdad, Iraq UAE Dubai, UAE
-
-Al-Hashimy Trading Company Baghdad Al-Hikma Company Baghdad, Iraq Al-Huda Export and Import EST Jordan
+> Baghdad, Iraq Amman, Jordan Baghdad, Iraq UAE Baghdad, Iraq UAE Dubai, UAE Baghdad Baghdad, Iraq Jordan
 
 %%page 292%%
 
-Al-Husan Baghdad, Iraq Al-Jawhara Al-Khaleejeya
+Al-Jawhara Al-Khaleejeya
 
-Al-Hussaini Company for Trading Agency
+Al-Husan Al-Hussaini Company for Trading Agency
 
-Al-Karamah State Establishment Al-Karradah Al-Kawther Company Al-Kibba Trading Agencies, Ltd. Al-Maymana Trade Group Al-Maeeny Engineering Bureau Al-Mersal Commercial Agencies Al-Mihrab Company Al-Mufakher Al-Naizak Trading Establishment Al-Najah Company Al-Noras Al-Rafed Bureau Al-Rawa'a Trading Company Al-Riat Al-Riaya Trading Company Al-Sabah International Al-Sadera Al-Safoh Office General Trading Al-Said Group for Industry and International Trade Al-Saiham Company Al-Salam General Company Al-Salman Trading Company Al-Savivem Company Al-Sidra Trading Co. Al-Tuhfa Co. for General Trading, Ltd. Al-Wadhah Co for General Trade, Ltd. Al-Yisr Trading Company Al-Zaghal Industrial Company
+Al-Karamah State Establishment Al-Karradah Al-Kawther Company Al-Kibba Trading Agencies, Ltd. Al-Maymana Trade Group Al-Maeeny Engineering Bureau Al-Mersal Commercial Agencies Al-Mihrab Company Al-Mufakher Al-Naizak Trading Establishment Al-Najah Company Al-Noras Al-Rafed Bureau Al-Rawa'a Trading Company Al-Riat Al-Riaya Trading Company Al-Sabah International Al-Sadera Al-Safoh Office General Trading Al-Said Group for Industry and International Trade Al-Saiham Company Al-Salam General Company Al-Salman Trading Company Al-Savivem Company Al-Sidra Trading Co. Al-Tuhfa Co. for General Trading, Ltd. Al-Wadhah Co for General Trade, Ltd. Al-Yisr Trading Company Al-Zaghal Industrial Company Arabic Computer Systems Company Arabic Scientific Bureau ARMOS Trading Company
 
-Arabic Scientific Bureau
+Baghdad, Iraq
 
 Baghdad, Iraq
 
@@ -7786,55 +7238,37 @@ Amman, Jordan
 
 Baghdad, Iraq.
 
-Arabic Computer Systems Company UAE ARMOS Trading Company Baghdad, Iraq
+Baghdad, Iraq
 
 %%page 293%%
 
-Atera Manufacturing Baghdad, Iraq Dulaymi Company Doha, Qatar
+Atera Manufacturing Daei International Trading Co., Ltd. Dulaymi Company Elba Elite Scientific Co., Ltd. General Trading Ghadar Engineering and Contracting Co. Global Trade and Investment Haraq General Trading Hayar Trading Company Hidhab Al-Reef Company for General Trading Hutten General Co. IBT Trading Inaya Company for Trade Agencies, Ltd. International Company for Cleaners Production International Industrial Development (IID) Irad International Trading Company Ishtar Trading Kadhum M. Al-Wakil & Shamsh Co., Ltd. Khaled el-Wer of the Trading and Agriculture General Company (TAGCO) Khalid Al-Delaimi Co. Khalifa Bin Jassim Trading Co. LAMA Limo Investments, Ltd Lootah General Trading Company Mamad Al-Azawi Engineering Mayamin Trading MEGA Mesopotamia Trade Co., Ltd Middle East Trading Millennium Murgam Trading Company Nibal Electronics Nile Air Conditioning Company
 
-Daei International Trading Co., Ltd. Elba Elite Scientific Co., Ltd. General Trading Ghadar Engineering and Contracting Co. Global Trade and Investment
+> Baghdad, Iraq Baghdad, Iraq Doha, Qatar Jordan Amman, Jordan Baghdad, Iraq Amman, Jordan Lebanon Mosul, Iraq UAE Baghdad, Iraq Baghdad, Iraq Baghdad, Iraq Baghdad, Iraq Amman, Jordan Baghdad, Iraq UAE Baghdad, Iraq Baghdad, Iraq
 
-Haraq General Trading Hayar Trading Company Hidhab Al-Reef Company for General Trading Hutten General Co. IBT Trading Inaya Company for Trade Agencies, Ltd. International Company for Cleaners Production International Industrial Development (IID) Irad International Trading Company Ishtar Trading Kadhum M. Al-Wakil & Shamsh Co., Ltd. Khaled el-Wer of the Trading and Agriculture General Company (TAGCO) Khalid Al-Delaimi Co. Khalifa Bin Jassim Trading Co. LAMA Limo Investments, Ltd Lootah General Trading Company Mamad Al-Azawi Engineering Mayamin Trading MEGA Mesopotamia Trade Co., Ltd Middle East Trading Millennium
+al Amman, Jordan
 
-Baghdad, Iraq
+> Baghdad, Iraq Dubai, UAE Syria Baghdad, Iraq
 
-Jordan Amman, Jordan
-
-Regime Finance Baghdad, Iraq Amman, Jordan Lebanon and Procurement Mosul, Iraq UAE Baghdad, Iraq Baghdad, Iraq Baghdad, Iraq Baghdad, Iraq Amman, Jordan Baghdad, Iraq UAE Baghdad, Iraq Baghdad, Iraq Amman, Jordan
-
-Baghdad, Iraq Dubai, UAE Syria Baghdad, Iraq
-
-Baghdad, Iraq Baghdad, Iraq Lebanon Baghdad Jordan Moscow, Russia
-
-Murgam Trading Company UAE Nibal Electronics Nile Air Conditioning Company UAE
+> Baghdad, Iraq Baghdad, Iraq Lebanon Baghdad Jordan Moscow, Russia
 
 %%page 294%%
 
-Nurallah Company Damascus, Syria
+Nurallah Company Orkid General Trading Co. Phoenix International Trading Company Of Lebanon Retired Officers Bureau (ROB) Sabah Al Faisal and Partners Co. Sajaya General Trade Company, Ltd. Samid Land and Maritime Shipping and Transportation Company Sawfiya Brothers Company SES International Corporation SIAM Premium Products Tariq Al-Samlama The Abdulla Group The Hams Company for Business Engineering Services The Mesopotamia Company, Ltd. Tigres Trading Company Toros International Trading Co. Trans Dubai Company Ur Company Upper Euphrates Company Waliya Opel Indigas Company Yasin & Middle East Scientific Group SFOR
 
-Orkid General Trading Co. Phoenix International Trading Company Of Lebanon Retired Officers Bureau (ROB) Sabah Al Faisal and Partners Co. Sajaya General Trade Company, Ltd. Samid Land and Maritime Shipping and Transportation Company Sawfiya Brothers Company SES International Corporation SIAM Premium Products Tariq Al-Samlama The Abdulla Group The Hams Company for Business Engineering Services The Mesopotamia Company, Ltd. Tigres Trading Company Toros International Trading Co. Trans Dubai Company Ur Company Upper Euphrates Company
-
-Yasin & Middle East Scientific Group
-
-Baghdad, Iraq Beirut, Lebanon
+Damascus, Syria Baghdad, Iraq Beirut, Lebanon
 
 Amman, Jordan Baghdad, Iraq UAE
 
 UAE Damascus, Syria China Baghdad, Iraq
 
-Amman, Jordan Baghdad, Iraq Baghdad, Iraq Baghdad, Iraq Dubai, UAE UAE UAE
-
-Jordan
-
-Waliya Opel Indigas Company UAE SFOR Stabilization Forces
+Amman, Jordan Baghdad, Iraq Baghdad, Iraq Baghdad, Iraq Dubai, UAE UAE UAE Jordan Stabilization Forces
 
 %%page 295%%
 
 > Annex L Procurement Acronyms
 
-Acronym Meaning ABS Scientific Bureau for Drug Information and Medical Appliances
-
-Regime Finance AEST Albostangy Equipment Services and Trade AP ammonium perchlorate ARADET Arab Company for Detergent Chemicals and Procurement ARC Arabian Russian Company of Jordan ARI acute respiratory infections ASB Arabic Scientific Bureau ATGM anti-tank guided missile AWACS airborne warning and control systems AZ-11 a type of liquid rocket propellant, composed of 2 components (DETA and UDMH), according to captured documents bbl/d barrels per day BCP Border Control Checkpoints BME Belmetalenergo BOP Balance of Payments BW Biological Weapons CA Commercial Attaché CAEC Abrasive Import and Export Corporation CBI Central Bank of Iraq CBJ Central Bank of Jordan CBS Central Bank of Syria CBW Chemical and biological weapons CCD Charge coupled device CGMS Control and Guidance Missile System CIA Central Intelligence Agency CNC Computer numeric controlled machines or devices CoM Council of Ministers CoS Chief of Staff CPA Coalition Provision Authority CPMIEC China Precision Machinery Import and Export Corporation CPU Central Processing Unit
+Acronym Meaning ABS Scientific Bureau for Drug Information and Medical Appliances AEST Albostangy Equipment Services and Trade AP ammonium perchlorate ARADET Arab Company for Detergent Chemicals ARC Arabian Russian Company of Jordan ARI acute respiratory infections ASB Arabic Scientific Bureau ATGM anti-tank guided missile AWACS airborne warning and control systems AZ-11 a type of liquid rocket propellant, composed of 2 components (DETA and UDMH), according to captured documents bbl/d barrels per day BCP Border Control Checkpoints BME Belmetalenergo BOP Balance of Payments BW Biological Weapons CA Commercial Attaché CAEC Abrasive Import and Export Corporation CBI Central Bank of Iraq CBJ Central Bank of Jordan CBS Central Bank of Syria CBW Chemical and biological weapons CCD Charge coupled device CGMS Control and Guidance Missile System CIA Central Intelligence Agency CNC Computer numeric controlled machines or devices CoM Council of Ministers CoS Chief of Staff CPA Coalition Provision Authority CPMIEC China Precision Machinery Import and Export Corporation CPU Central Processing Unit
 
 %%page 296%%
 
@@ -7844,9 +7278,9 @@ CW Chemical weapons DETA diethylenetriamine: one of the two components of AZ-11,
 
 ID Iraqi Dinar IFAT A Swiss-based, Consen subsidiary established in August 1983 IID International Industrial Development IIS Iraqi Intelligence Service IIS M19 The primary IIS body handling procurement of specialized items.
 
-> Regime Finance Redesignated as M4/8 in recent years, and also was known as the Technical Consultation Company or the Trade Office
+> Redesignated as M4/8 in recent years, and also was known as the Technical Consultation Company or the Trade Office
 
-IIS M23 MIC Security Directorate and Procurement IIS M4 Foreign Clandestine Operations branch of the Iraqi Intelligence Service or Directorate of Secret Service IIS M4/8 Formerly the IIS M19, organized into three different sections, the internal section, the foreign section, and the trading section IIS Section The internal section primarily responsible for creating front companies One inside Iraq and facilitating trade with these companies to import/export oil, batteries, copper and food products ILTC Iraqi Land Transportation Company IMF International Monetary Fund INOC Iraq National Oil Company ISG Iraq Survey Group ITU International Telecommunication Union JD Joint Delegation KGB Komitet Gosudarstvennoy Bezopasnosti KOMID North Korea's Korea Mining Development Corporation. Previously known as the External Technology General Corporation (ETGC) LU Launcher units IIS M-5 The IIS Directorate of Counterintelligence or Counterespionage Directorate MABOT Mina al Bakr Offshore Terminal MANPADS Man portable Air Defense Systems MFA Ministry of Foreign Affairs MHESR Ministry of Higher Education and Scientific Research MIC Military Industrialization Commission MoA Ministry of Agriculture MoD Ministry of Defense MoF Ministry of Finance MoH Ministry of Health MoI Ministry of Industry
+IIS M23 MIC Security Directorate IIS M4 Foreign Clandestine Operations branch of the Iraqi Intelligence Service or Directorate of Secret Service IIS M4/8 Formerly the IIS M19, organized into three different sections, the internal section, the foreign section, and the trading section IIS Section The internal section primarily responsible for creating front companies One inside Iraq and facilitating trade with these companies to import/export oil, batteries, copper and food products ILTC Iraqi Land Transportation Company IMF International Monetary Fund INOC Iraq National Oil Company ISG Iraq Survey Group ITU International Telecommunication Union JD Joint Delegation KGB Komitet Gosudarstvennoy Bezopasnosti KOMID North Korea's Korea Mining Development Corporation. Previously known as the External Technology General Corporation (ETGC) LU Launcher units IIS M-5 The IIS Directorate of Counterintelligence or Counterespionage Directorate MABOT Mina al Bakr Offshore Terminal MANPADS Man portable Air Defense Systems MFA Ministry of Foreign Affairs MHESR Ministry of Higher Education and Scientific Research MIC Military Industrialization Commission MoA Ministry of Agriculture MoD Ministry of Defense MoF Ministry of Finance MoH Ministry of Health MoI Ministry of Industry
 
 %%page 298%%
 
@@ -7858,9 +7292,7 @@ TIS Thermal imagery sight TOSSCO Technical Oilfield Services and Supply Company 
 
 %%page 299%%
 
-TTC Thermal tracking camera UAE United Arab Emirates UAV Unmanned Aerial Vehicle UDMH One of the two components of AZ-11, a liquid rocket propellant UHF Ultra -High Frequency
-
-Regime Finance UN United Nations UNCC United Nations Compensation Commission UNDP United Nations Development Program and Procurement UNESCO United Nations Educational Scientific and Cultural Organization UNICEF United Nations International Children's Emergency Fund UNMOVIC United Nations Monitoring Verification & Inspection Commission UNOPS United Nations Operations UNSC United Nations Security Council UNSCOM United Nations Special Commission UNSCR United Nations Security Council Resolution UNSYG UN Secretary General UTL United Telecommunications Limited VHF Very High Frequency WFP World Food Program WHO World Health Organization WMD Weapons of Mass Destruction
+TTC Thermal tracking camera UAE United Arab Emirates UAV Unmanned Aerial Vehicle UDMH One of the two components of AZ-11, a liquid rocket propellant UHF Ultra -High Frequency UN United Nations UNCC United Nations Compensation Commission UNDP United Nations Development Program UNESCO United Nations Educational Scientific and Cultural Organization UNICEF United Nations International Children's Emergency Fund UNMOVIC United Nations Monitoring Verification & Inspection Commission UNOPS United Nations Operations UNSC United Nations Security Council UNSCOM United Nations Special Commission UNSCR United Nations Security Council Resolution UNSYG UN Secretary General UTL United Telecommunications Limited VHF Very High Frequency WFP World Food Program WHO World Health Organization WMD Weapons of Mass Destruction
 
 %%page 1#7%%
 
@@ -7916,7 +7348,7 @@ NUC
 
 %%page 2#6%%
 
-27 POL Mar-88 CW used against Kurdish city of Halabja
+27 POL Mar-88
 
 - 28 NUC — 1988
 
@@ -7952,7 +7384,9 @@ POL 06-Aug-90
 
 BW Sep-90
 
-LIS abandoned as a uranium enrichment process War of the Cities ends Construction of dedicated BW agent production plant (Al Hakam) begins BW broadened with addition of fungal toxins Iraq begins magnetic-bearing centrifuge program Construction begins on Al Athir nuclear weapons fabrication & assembly facility under Al Husayn project (Group 4) German engineers provide centrifuge design data Al Muthanna stops CW agent production and focuses on research Iran and Iraq agree to ceasefire
+BW Sep-90
+
+CW used against Kurdish city of Halabja LIS abandoned as a uranium enrichment process War of the Cities ends Construction of dedicated BW agent production plant (Al Hakam) begins BW broadened with addition of fungal toxins Iraq begins magnetic-bearing centrifuge program Construction begins on Al Athir nuclear weapons fabrication & assembly facility under Al Husayn project (Group 4) German engineers provide centrifuge design data Al Muthanna stops CW agent production and focuses on research Iran and Iraq agree to ceasefire
 
 Husayn Kamil takes control of combined Iraqi nuclear weapons program
 
@@ -7962,9 +7396,7 @@ First bulk production run of Botulinum toxin at Al Hakam Office 3000 officially 
 
 Muthanna EDC acquires carbon fiber rotors from a German supplier Iraq arranges for a winding machine and carbon fiber (reaches Jordan July
 
-1992) Saddam accuses neighbors of threatening Iraq via low oil prices Tariq 'Aziz accuses Kuwait of stealing Iraqi oil Iraq deploys a range of CW around Iraq before invasion of Kuwait Iraq invades Kuwait United Nations Security Council Resolution (UNSCR) 661 establishes embargo on Iraq Al Dawrah Foot & Mouth Disease Vaccine (FMDV) plant annexed by BW for agent production and virus R&D Agricultural Water and Resources Center annexed by BW for aflatoxin produc-
-
-> BW Sep-90 tion
+1992) Saddam accuses neighbors of threatening Iraq via low oil prices Tariq 'Aziz accuses Kuwait of stealing Iraqi oil Iraq deploys a range of CW around Iraq before invasion of Kuwait Iraq invades Kuwait United Nations Security Council Resolution (UNSCR) 661 establishes embargo on Iraq Al Dawrah Foot & Mouth Disease Vaccine (FMDV) plant annexed by BW for agent production and virus R&D Agricultural Water and Resources Center annexed by BW for aflatoxin production
 
 %%page 3#6%%
 
@@ -8066,6 +7498,8 @@ BW
 
 1991 107 DS Dec 1991 108
 
+POL Feb 1992
+
 Husayn Kamil orders retention of WMD know-how documentation and small amounts of key WMD materiel UNSCOM starts weapons inspections; first CW inspection at MSE
 
 (U-2, CW-1) Iraqi High Level Committee formed to address retention of proscribed materiel Saddam states: "Sanctions will last no more than 3 years" Husayn Kamil orders retention of 2 missiles and some missile parts Special Republican Guard (SRG) officers receive orders from Qusay to move/ conceal MIC materials Iraq completes destruction of declared SCUD-type missiles under UNSCOM supervision IAEA seizure of EMIS components prompts Iraqi admission of large EMIS program Husayn Kamil tells 'Abd Hamid Mahmoud it is unnecessary to declare BW programs and will order scientists to hide evidence at home Unilateral missile destruction Unexpectedly robust UN inspections lead Iraq to start unilateral destruction, as later claimed by regime Iraq receives nine flow-forming machines from Germany CW and all BW munitions unilaterally destroyed, according to subsequent
@@ -8080,7 +7514,7 @@ MIC forms Al Basha'ir front company to obtain items for Ministry of Defense
 
 (MoD), IAEC UNSCR 715 calls for unconditional acceptance of inspectors and ongoing monitoring/verification Decision to dissolve Technical Research Center (TRC): implemented over the following year Unilateral destruction of remaining 2 missiles completed Husayn Kamil appointed Supervising Minister, responsible for MIC, Oil, MIM,
 
-> POL Feb 1992 & head of Economic Committee
+& head of Economic Committee
 
 %%page 5#5%%
 
@@ -8250,7 +7684,7 @@ POL 23-Feb-98
 
 BW
 
-223 CW Apr 1998 224 POL 28-Apr-98
+1998 223 CW Apr 1998 224 POL 28-Apr-98
 
 Huwaysh orders MIC employees to sign statements certifying they do not have
 
@@ -8262,11 +7696,7 @@ Large laser research contract between MIC and Technology University initiated
 
 Many nuclear scientists have migrated to other high priority programs such as air defense, infrastructure repair, rebuilding industrial base Technical Evaluation Meetings (TEM) conclude Iraq has not fully disclosed
 
-CW, missile activities Inner circle views Saddam as increasingly reclusive Iraq rejects UN's proposal to increase oil exports UNSCR 1153 expands Iraqi oil sales to $5.256B/year Memorandum of Understanding (MOU) with UN Secretary General on inspection of Presidential sites BW Technical Evaluation Meetings conclude Iraq has not fully disclosed BW
-
-VX discovered on missile warhead fragments UNSC decides to continue sanctions; reinstates 60 day reviews
-
-1998 programs
+CW, missile activities Inner circle views Saddam as increasingly reclusive Iraq rejects UN's proposal to increase oil exports UNSCR 1153 expands Iraqi oil sales to $5.256B/year Memorandum of Understanding (MOU) with UN Secretary General on inspection of Presidential sites BW Technical Evaluation Meetings conclude Iraq has not fully disclosed BW programs VX discovered on missile warhead fragments UNSC decides to continue sanctions; reinstates 60 day reviews
 
 %%page 9#4%%
 
@@ -8448,6 +7878,8 @@ NUC 334 POL Mid 2002 335
 
 DS Sept 2002
 
+POL Sept 2002
+
 337 CW Sep 02
 
 Iraq misinterprets US reaction to events of 9/11; adopts ill-conceived diplomatic position
@@ -8472,11 +7904,7 @@ MIC sponsors 3200 research projects in Iraqi universities (up from 40 in 1997)
 
 MIC builds explosive test facility capable of researching shaped charges
 
-Iraq begins production of 81mm aluminum tubes for rockets CAD designs for a launcher accommodating missiles up to 1m in diameter; 9m in length Higher Committee, once controlled by Tariq 'Aziz, is reconstituted to deal with
-
-Over 900,000 nerve agent antidote autoinjectors had been purchased
-
-> POL Sept 2002 inspections, headed by Taha Ramadan
+Iraq begins production of 81mm aluminum tubes for rockets CAD designs for a launcher accommodating missiles up to 1m in diameter; 9m in length Higher Committee, once controlled by Tariq 'Aziz, is reconstituted to deal with inspections, headed by Taha Ramadan Over 900,000 nerve agent antidote autoinjectors had been purchased
 
 %%page 13#3%%
 
@@ -8558,7 +7986,7 @@ PROC Early 2003
 
 PROC Early March
 
-373 POL 06-Mar-03 374 POL 10-Mar-03 375 POL 18-Mar-03 376 POL 19-Mar-03
+373 POL 06-Mar-03 374 POL 10-Mar-03 375 POL 18-Mar-03 376 POL 19-Mar-03 377 Late March
 
 POL
 
@@ -8573,8 +8001,6 @@ Russia, Syria, and Ukraine leads to further sanctions erosion MIC has accumulate
 Finance, President of the Diwan, Presidential Secretary, and Qusay Husayn UNMOVIC publishes report - Unresolved Disarmament Issues (Clusters) France threatens veto of UN resolution authorizing war; later opposes OIF UNMOVIC and IAEA depart Iraq Initiation of hostilities
 
 Saddam implies to military leaders that he has secret weapon
-
-377 Late March
 
 ## Notes
 
