@@ -69,7 +69,19 @@ describe("candidateId", () => {
 
 describe("formatPost", () => {
   it("follows Appendix C: verbatim quote, blank line, em-dash source line with the page", () => {
-    expect(formatPost("So what?", "The Demo Report", 30)).toBe('"So what?"\n\n— The Demo Report, p. 30');
+    expect(formatPost("So what?", "The Demo Report", 30)).toBe("“So what?”\n\n— The Demo Report, p. 30");
+  });
+
+  it("nests a quotation inside the quote as single curly quotes, so it doesn't collide with the outer ones", () => {
+    // Straight "..." wrapped in outer "..." reads as three quote marks in a
+    // row; standard nesting (outer “ ”, inner ‘ ’) is unambiguous instead.
+    expect(formatPost('he replied "So what?"', "The Demo Report", 30)).toBe(
+      "“he replied ‘So what?’”\n\n— The Demo Report, p. 30"
+    );
+  });
+
+  it("alternates opening and closing marks across more than one nested quotation", () => {
+    expect(formatPost('he said "a" then "b"', "The Demo Report", 1)).toBe("“he said ‘a’ then ‘b’”\n\n— The Demo Report, p. 1");
   });
 });
 
@@ -78,7 +90,7 @@ describe("resolveCandidate", () => {
     const result = resolveCandidate(candidate(), HTML, CARDS, "https://example.org");
     expect(result.ok).toBe(true);
     if (!result.ok) return;
-    expect(result.item.text).toBe('"When an advisor rushed to tell Mr. Trump, he replied "So what?""\n\n— The Demo Report, p. 30');
+    expect(result.item.text).toBe("“When an advisor rushed to tell Mr. Trump, he replied ‘So what?’”\n\n— The Demo Report, p. 30");
     expect(result.item.card).toBe("assets/cards/demo/so-what.png");
     expect(result.item.cardIsDefault).toBe(false);
     const url = new URL(result.item.link);

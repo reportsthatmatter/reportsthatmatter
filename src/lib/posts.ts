@@ -80,13 +80,32 @@ export type ResolvedPost = {
 };
 
 /**
+ * The quote wrapped in outer double quotes collides with any straight double
+ * quote already inside it (a quotation within the quotation — Trump's own
+ * words, say) — `"...he replied "So what?""` reads as three quotes, not one.
+ * Standard nesting fixes it: typographic outer quotes, and every inner
+ * straight double quote alternates to an opening or closing single quote.
+ * Only the *display* text changes — the quote used for the verbatim check
+ * and the `?h=` anchor is untouched, so this never risks misquoting.
+ */
+function nestQuotes(quote: string): string {
+  let opening = true;
+  const inner = quote.replace(/"/g, () => {
+    const mark = opening ? "‘" : "’";
+    opening = !opening;
+    return mark;
+  });
+  return `“${inner}”`;
+}
+
+/**
  * Appendix C's excerpt format (`docs/plans/2026-08-02-launch-and-seo.md`):
  * the verbatim quote, then a neutral, always-page-numbered source line. No
  * commentary, ever — that rule is enforced by never taking a "why this
  * matters" field here, only the quote and the citation.
  */
 export function formatPost(quote: string, reportTitle: string, page: number): string {
-  return `"${quote.trim()}"\n\n— ${reportTitle}, p. ${page}`;
+  return `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, p. ${page}`;
 }
 
 /**
