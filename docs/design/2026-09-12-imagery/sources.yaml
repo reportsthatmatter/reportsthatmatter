@@ -315,3 +315,40 @@ marks:
       per the report repo's README); the report credits the photograph to
       Robert White, "taken by Robert White on Bloody Sunday" (p.20).
     treat: { black: 0.0, white: 0.97, grain: 55, cut: none }
+
+  - id: duelfer
+    set: plate
+    report: us-duelfer-report
+    pdf: archive/duelfer-report-vol1.pdf
+    page: 105
+    dpi: 220
+    # Seal ink measured on the 220dpi page (2026-09-28) at approximately
+    # x 513-756, y 855-1069; the box below centres it with ~10% margin.
+    # y0 raised from 840 to 850 — the original caught a printed hairline rule
+    # (separating the page's "Overview" text from the seal row) along the top
+    # edge.
+    crop: [495, 850, 270, 230]
+    subject: >-
+      The Iraqi Intelligence Service emblem, one of three intelligence-service
+      seals reproduced in Annex B, "Iraq's Intelligence Services" (printed
+      p.73), Regime Strategic Intent chapter — the Regime's internal security
+      apparatus that Volume I's finding turns on: multiple, competing services
+      built to conceal WMD activity from both outsiders and each other.
+      Deliberately not a photograph of Saddam, a weapon, or a captured
+      document's dense typed text (illegible as a treated plate) — the seal is
+      the exhibit's own graphic mark, in the second-preference tier of the
+      recipe (an emblem on the source's own page, not a photograph).
+    rights: >-
+      Reproduced from a U.S. Government work (public domain). The emblem
+      itself is a foreign (former Iraqi regime) intelligence service's
+      insignia, reproduced here for historical identification, the same way
+      the report itself reproduces it.
+    treat: { black: 0.15, white: 0.90, grain: 70, cut: none }
+    caveat: >-
+      Source is embedded in the PDF at native ~250×220px (poppler reports its
+      placed resolution as 218ppi) — well under this pipeline's 660px target,
+      so the plate is upscaled roughly 2.7x, similar to Leveson's known-soft
+      case. It is bold two-tone line art (a solid globe/crosshair mark, no
+      photographic detail to lose), so it holds up better under upscaling than
+      a soft-edged photograph would; re-check if a larger reproduction of the
+      same emblem turns up.

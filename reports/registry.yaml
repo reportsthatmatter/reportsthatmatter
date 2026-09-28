@@ -86,3 +86,11 @@ reports:
     source_path: reports/uk-saville-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/5a7b7c8ced915d131105f8f4/0029_i.pdf"
     ingested: true
+
+  - id: us-duelfer-report
+    title: "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD, Volume I"
+    authors: "Charles Duelfer, Special Advisor to the Director of Central Intelligence"
+    published_at: "30 September 2004"
+    source_path: reports/us-duelfer-report/full.md
+    source_url: "https://www.govinfo.gov/content/pkg/GPO-DUELFERREPORT/pdf/GPO-DUELFERREPORT-1.pdf"
+    ingested: true
