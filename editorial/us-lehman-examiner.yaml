@@ -21,6 +21,17 @@
 report: us-lehman-examiner
 status: approved
 
+hero:
+  src: /assets/heroes/us-lehman-examiner.webp
+  alt: >-
+    A television camera crew filming Lehman Brothers' illuminated corporate
+    sign in a Christie's shop window, London, beside a card advertising the
+    sale of "Lehman Brothers: Artwork & Ephemera."
+  credit: "Christie's, London, September 2010 · Photo: Jorge Royan, CC BY-SA 3.0"
+  source: "https://commons.wikimedia.org/wiki/File:London_-_Lehman_Brothers_-_3868.jpg"
+  licence: CC BY-SA 3.0
+  focus: "65% 35%"
+
 why_it_matters: >-
   The court-appointed examiner's report on why Lehman Brothers, the largest
   bankruptcy in U.S. history, collapsed in September 2008. Drawing on some 34

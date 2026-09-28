@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — An introduction for the Iraq Inquiry, and hero photographs for both
+
+The Iraq Inquiry (Chilcot) Executive Summary now has a landing page: a standfirst, background, seven findings with quotations and a six-section reading guide. Both it and the Lehman Brothers examiner's report now carry a hero photograph — a Challenger 2 tank on patrol outside Basra in 2004, and the salvaged Lehman Brothers sign at Christie's in 2010 — sourced and credited in `docs/design/2026-09-27-hero/sources.yaml`.
+
 ## 2026-09-28 — Chilcot's numbered paragraphs are citable; a citable-density check
 
 The Iraq Inquiry Executive Summary numbers its 892 paragraphs "13.", "20."
