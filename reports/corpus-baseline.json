@@ -2017,8 +2017,8 @@
       ]
     },
     "us-911-commission": {
-      "words": 299933,
-      "paragraphs": 3032,
+      "words": 304917,
+      "paragraphs": 2575,
       "sections": [
         {
           "slug": "report",
@@ -2057,8 +2057,8 @@
           "ids": "96662291b0f5"
         },
         {
-          "slug": "21-a-declaration-of-war",
-          "title": "2.1 A Declaration of War",
+          "slug": "the-foundation-of-the-new-terrorism",
+          "title": "THE FOUNDATION OF THE NEW TERRORISM",
           "paragraphs": 7,
           "ids": "7606a8e90e03"
         },
@@ -2129,8 +2129,8 @@
           "ids": "2ea42ef243aa"
         },
         {
-          "slug": "41-before-the-bombings-in-kenya-and-tanzania",
-          "title": "4.1 Before the Bombings in Kenya and Tanzania",
+          "slug": "responses-to-al-qaedas-initial-assaults",
+          "title": "RESPONSES TO AL QAEDA'S INITIAL ASSAULTS",
           "paragraphs": 39,
           "ids": "bcfc8d88dddf"
         },
@@ -2159,8 +2159,8 @@
           "ids": "34bd9460526c"
         },
         {
-          "slug": "51-terrorist-entrepreneurs",
-          "title": "5.1 Terrorist Entrepreneurs",
+          "slug": "al-qaeda-aims-at-the-american-homeland",
+          "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND",
           "paragraphs": 42,
           "ids": "6bb40282cb2a"
         },
@@ -2179,14 +2179,20 @@
         {
           "slug": "54-a-money-trail",
           "title": "5.4 A Money Trail?",
-          "paragraphs": 24,
-          "ids": "8a87df92a719"
+          "paragraphs": 21,
+          "ids": "7e44a333fe9c"
+        },
+        {
+          "slug": "from-threat-to-threat",
+          "title": "FROM THREAT TO THREAT",
+          "paragraphs": 3,
+          "ids": "59dc6e92cfd9"
         },
         {
           "slug": "61-the-millennium-crisis",
           "title": "6.1 The Millennium Crisis",
           "paragraphs": 47,
-          "ids": "864639613173"
+          "ids": "1391f4d30072"
         },
         {
           "slug": "62-post-crisis-reflection-agenda-for-2000",
@@ -2213,8 +2219,8 @@
           "ids": "bd64e9612407"
         },
         {
-          "slug": "71-first-arrivals-in-california",
-          "title": "7.1 First Arrivals in California",
+          "slug": "the-attack-looms",
+          "title": "THE ATTACK LOOMS",
           "paragraphs": 46,
           "ids": "4a0f86e26fa0"
         },
@@ -2222,7 +2228,7 @@
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
           "paragraphs": 53,
-          "ids": "e9e0e05049c4"
+          "ids": "38bd973273a9"
         },
         {
           "slug": "73-assembling-the-teams",
@@ -2237,8 +2243,8 @@
           "ids": "af2149baf034"
         },
         {
-          "slug": "81-the-summer-of-threat",
-          "title": "8.1 The Summer of Threat",
+          "slug": "the-system-was-blinking-red",
+          "title": "\"THE SYSTEM WAS BLINKING RED\"",
           "paragraphs": 73,
           "ids": "87c3d3274c90"
         },
@@ -2249,8 +2255,8 @@
           "ids": "014e69a3c8ec"
         },
         {
-          "slug": "91-preparedness-as-of-september-11",
-          "title": "9.1 Preparedness as of September 11",
+          "slug": "heroism-and-horror",
+          "title": "HEROISM AND HORROR",
           "paragraphs": 35,
           "ids": "93fbb95219f1"
         },
@@ -2321,8 +2327,8 @@
           "ids": "a360efb076ac"
         },
         {
-          "slug": "121-reflecting-on-a-generational-challenge",
-          "title": "12.1 Reflecting on a Generational Challenge",
+          "slug": "what-to-do-a-global-strategy",
+          "title": "WHAT TO DO? A GLOBAL STRATEGY",
           "paragraphs": 33,
           "ids": "ac4bf80ddf1f"
         },
@@ -2401,20 +2407,14 @@
         {
           "slug": "notes",
           "title": "NOTES",
-          "paragraphs": 70,
-          "ids": "78421059163a"
+          "paragraphs": 6,
+          "ids": "8865b59c7829"
         },
         {
-          "slug": "governments-evidentiary-proffer-supporting-the-admissibility-of-co-conspirator-s",
-          "title": "Government's Evidentiary Proffer Supporting the Admissibility of Co-Conspirator Statements, United States",
-          "paragraphs": 131,
-          "ids": "03ec9391b73e"
-        },
-        {
-          "slug": "pdd-62-protection-against-unconventional-threats-to-the-homeland-and-americans-o",
-          "title": "PDD-62, \"Protection Against Unconventional Threats to the Homeland and Americans Overseas,\" May",
-          "paragraphs": 262,
-          "ids": "ef722b23c741"
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
         }
       ]
     },
