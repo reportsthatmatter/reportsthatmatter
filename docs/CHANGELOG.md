@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-09-28 — A thirteenth report: the Iraq Inquiry (Chilcot); 9/11, PSI, Hillsborough, Challenger and Leveson text fixed
+
+**The Report of the Iraq Inquiry — Executive Summary** (2016), Sir John Chilcot's account of the UK's decision to go to war: 69 of its 88 contents-listed section headings had no heading shape of their own — no capital, number or label — and previously ran straight into the paragraph after them; all are now recovered. Also in `@rtm/ingest` v0.14.0: the 9/11 Commission's printed Notes appendix now reads as linked endnotes under real chapter headings instead of running-together body text; PSI's footnotes that spill over a whole page no longer print as ordinary paragraphs (17 leaked down to 3); Hillsborough's Parts, Chapters and Appendices are recovered as real structure; Challenger drops its remaining caption and OCR-garble headings; and Leveson's headings ending "CHAPTER n"/"APPENDIX n" keep their number.
+
 ## 2026-09-28 — A twelfth report: the Lehman Brothers examiner (Volume 1)
 
 **Report of Anton R. Valukas, Examiner** (2010), the court-appointed
