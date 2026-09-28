@@ -38,6 +38,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 438,
     "height": 660
   },
+  "us-duelfer-report": {
+    "width": 660,
+    "height": 562
+  },
   "us-psi-financial-crisis": {
     "width": 660,
     "height": 660

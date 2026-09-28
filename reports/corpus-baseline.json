@@ -3491,6 +3491,24 @@
           "ids": "6b599963081b"
         }
       ]
+    },
+    "us-duelfer-report": {
+      "words": 168029,
+      "paragraphs": 3020,
+      "sections": [
+        {
+          "slug": "front-matter",
+          "title": "Front matter",
+          "paragraphs": 3020,
+          "ids": "cf206e20498a"
+        },
+        {
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        }
+      ]
     }
   }
 }
