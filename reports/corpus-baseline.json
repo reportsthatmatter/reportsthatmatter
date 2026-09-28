@@ -3347,6 +3347,90 @@
           "ids": "6b599963081b"
         }
       ]
+    },
+    "uk-chilcot-inquiry": {
+      "words": 59930,
+      "paragraphs": 113,
+      "sections": [
+        {
+          "slug": "front-matter",
+          "title": "Front matter",
+          "paragraphs": 50,
+          "ids": "bac7dc576782"
+        },
+        {
+          "slug": "looting-in-basra",
+          "title": "LOOTING IN BASRA",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "looting-in-baghdad",
+          "title": "LOOTING IN BAGHDAD",
+          "paragraphs": 1,
+          "ids": "9e27c93a5e61"
+        },
+        {
+          "slug": "uk-influence-on-the-coalition-provisional-authority",
+          "title": "UK INFLUENCE ON THE COALITION PROVISIONAL AUTHORITY",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "a-decline-in-security",
+          "title": "A DECLINE IN SECURITY",
+          "paragraphs": 1,
+          "ids": "70dd37c11434"
+        },
+        {
+          "slug": "planning-for-withdrawal",
+          "title": "PLANNING FOR WITHDRAWAL",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "the-impact-of-afghanistan",
+          "title": "THE IMPACT OF AFGHANISTAN",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "iraqiisation",
+          "title": "IRAQIISATION",
+          "paragraphs": 1,
+          "ids": "430ea115adb6"
+        },
+        {
+          "slug": "a-major-divergence-in-strategy",
+          "title": "A MAJOR DIVERGENCE IN STRATEGY",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "a-possible-civil-war",
+          "title": "A POSSIBLE CIVIL WAR",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        },
+        {
+          "slug": "force-level-review",
+          "title": "FORCE LEVEL REVIEW",
+          "paragraphs": 1,
+          "ids": "b6a501183f71"
+        },
+        {
+          "slug": "the-beginning-of-the-end",
+          "title": "THE BEGINNING OF THE END",
+          "paragraphs": 59,
+          "ids": "22d73f89b367"
+        },
+        {
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
+        }
+      ]
     }
   }
 }

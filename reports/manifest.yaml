@@ -31,3 +31,5 @@ reports:
     dir: ../uk-hillsborough-panel
   - id: uk-saville-inquiry
     dir: ../uk-saville-inquiry
+  - id: uk-chilcot-inquiry
+    dir: ../uk-chilcot-inquiry
