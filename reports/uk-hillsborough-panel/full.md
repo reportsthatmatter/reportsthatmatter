@@ -335,9 +335,7 @@ Chapter 4. Emergency response and aftermath: 'routinely requested to attend' The
 
 42. Ambulance control room transcripts show that Ambulance Service officers, present specifically to respond to a major incident rather than have any crowd control brief, were slower than police to identify and realise the severity of the crush despite being close to the central pens.
 
-### Neither SYP nor the South Yorkshire Metropolitan Ambulance Service (SYMAS)
-
-fully activated the major incident procedure. Communications between all emergency services were imprecise and inappropriately worded, leading to delay, misunderstanding and a failure to deploy officers to take control and coordinate the emergency response.
+43. Neither SYP nor the South Yorkshire Metropolitan Ambulance Service (SYMAS) fully activated the major incident procedure. Communications between all emergency services were imprecise and inappropriately worded, leading to delay, misunderstanding and a failure to deploy officers to take control and coordinate the emergency response.
 
 44. Only the two major Sheffield hospitals correctly activated their major incident procedures, relying on staff judgement and information received from an ambulance crew member about radio traffic he had overheard.
 
@@ -737,9 +735,7 @@ Police Federation a 'free hand' and his support.
 
 > the vast number of disclosed documents and many hours of video material to verify the serious allegations of exceptional levels of drunkenness, ticketlessness or violence among Liverpool fans. There was no evidence that fans had conspired to arrive late at the stadium and force entry and no evidence that they stole from the dead and dying. Documents show that fans became frustrated by the inadequate response to the unfolding tragedy. The vast majority of fans on the pitch assisted in rescuing and evacuating the injured and the dead.
 
-%%page 1%%
-
-Hillsborough: 'what was known'
+## Part 1: Hillsborough: 'what was known'
 
 1.1 On 15 April 1989 Liverpool and Nottingham Forest were scheduled to play in the semi-final of the world's oldest and most celebrated soccer competition – the Football Association Cup (FA Cup).
 
@@ -1436,7 +1432,7 @@ Beyond the private prosecution
 
 1.278 Following meetings between the HFSG, Merseyside MPs and the Home Secretary, in December 2009 the Home Secretary, Alan Johnson, announced the appointment of the Hillsborough Independent Panel and published its terms of reference.
 
-Hillsborough: 'what is added to public understanding'
+## Part 2: Hillsborough: 'what is added to public understanding'
 
 Within its terms of reference the Hillsborough Independent Panel was given responsibility for deciding on the detailed content of its Report. It was envisaged by the Government that the Report would provide an overview of the documents and other material made available by the contributing organisations.
 
@@ -1454,7 +1450,7 @@ Chapter 11 returns to the contentious issue of the process adopted by the South 
 
 - Part 2 Hillsborough: 'what is added to public understanding' — 59
 
-1981–1989: unheeded warnings, the seeds of disaster
+### Chapter 1: 1981–1989: unheeded warnings, the seeds of disaster
 
 Introduction 2.1.1 When disasters occur it is rare that causation can be attributed to one single overarching act or omission. Even when there is unequivocal evidence that such a single action by an individual or individuals occurred or there was negligence, the historical context and the immediate circumstances are vital ingredients to understanding and explaining how a failure or failures in systems, and the judgements of those responsible, came together. Because systems, their design and monitoring, and their operators evolve over time they are susceptible to custom and practice. For that reason, particularly in situations where people gather in large numbers as travellers, spectators or participants, public events are regulated and managed to create the safest possible environment. That responsibility falls on the owners and, if appropriate, the hirers of the facility, on those responsible for managing and policing people before, during and after the event and on those responsible for responding effectively and efficiently to any emergency should it occur.
 
@@ -1494,7 +1490,9 @@ Managing the crowd in the stadium 2.1.8 In addition to opening the perimeter gat
 
 Post-match meeting 2.1.12 Eric England was SWFC Secretary and after the match an acrimonious meeting took place in his office. It was attended by Chief Constable JH Brownlow, ACC Goslin and SWFC Chairman, Bert McGee. The 30-minute meeting focused on the crushing outside the stadium and on the terrace. The SWFC representatives were extremely critical of the police
 
-10. Transcript of interview and written submission of Superintendent Roger Greenwood to West Midlands Police, 29 June 11. Statement of turnstile operator, 13 May 1989, SYP000038700001, pp78-82. 12. Minutes of the 1981 SYP debriefing, undated, SYP000096520001.
+10. Transcript of interview and written submission of Superintendent Roger Greenwood to West Midlands Police, 29 June
+
+1990, SYP000038920001, pp18-20. 11. Statement of turnstile operator, 13 May 1989, SYP000038700001, pp78-82. 12. Minutes of the 1981 SYP debriefing, undated, SYP000096520001.
 
 %%page 64%%
 
@@ -1548,7 +1546,9 @@ SYP000096970001, pp4-13. Includes Appendix A which is the procedure regarding ap
 
 See also Home Office circular no. 136/78 – The Safety of Sports Grounds (Designation) Order 1978, 23 August
 
-1978, sent to the Chief Executive of the County Council and the Director General of the Greater London Council, 26. Letter from SWFC to Eastwood & Partners, 1 December 1978, SYP000096970001, p57. SYCC were informed of
+1978, sent to the Chief Executive of the County Council and the Director General of the Greater London Council,
+
+SYP000096970001, pp14-15. 26. Letter from SWFC to Eastwood & Partners, 1 December 1978, SYP000096970001, p57. SYCC were informed of
 
 Eastwood & Partners' appointment by letter, 1 December 1978, SYP000096970001, p55.
 
@@ -1566,7 +1566,7 @@ Leppings Lane terrace capacity 2.1.33 In February 1979 a meeting of the Officer 
 
 2.1.34 Eastwoods calculated the Leppings Lane terrace capacity, including the north-west corner, as 10,100, noting that 'exits serving this part of the terraces are very adequate in width and there will be no difficulty in emptying in eight minutes'.29 An attached, but unattributed, handwritten note reads: '4½ min'. The North Stand exits were assessed as being less than the recommended width of 1.1m but Eastwoods noted 'we do not consider this to be of great consequence'. Gangways were also well below the recommended width but this finding was also dismissed: 'it is clearly appropriate to take into account the general nature of the stand, the number as well as the width of the gangways, and above all the ease and speed with which spectators can evacuate the stand'.
 
-27. Report to South Yorkshire County Council on ground capacity of Sheffield Wednesday Football Club in connection with application for certificate of ground safety, prepared by Eastwood & Partners, January 1979, SYP000038710001, pp48-57. 28. Minutes of the Officer Working Party meeting, 12 February 1979, SYP000038720001, p361. 29. Report to South Yorkshire County Council on ground capacity of Sheffield Wednesday Football Club in connection with application for certificate of ground safety, prepared by Eastwood & Partners, January 1979, SYP000038710001,
+27. Report to South Yorkshire County Council on ground capacity of Sheffield Wednesday Football Club in connection with application for certificate of ground safety, prepared by Eastwood & Partners, January 1979, SYP000038710001, pp48-57. 28. Minutes of the Officer Working Party meeting, 12 February 1979, SYP000038720001, p361. 29. Report to South Yorkshire County Council on ground capacity of Sheffield Wednesday Football Club in connection with application for certificate of ground safety, prepared by Eastwood & Partners, January 1979, SYP000038710001, pp54-57.
 
 %%page 68%%
 
@@ -1616,9 +1616,13 @@ Fire Safety and Safety at Sports Venues document can be found at SYP000096970001
 
 Eastwood & Partners, 18 July 1980, SYP000096970001, p105. 40. See for example annual inspection report for 1980 at SYP000096970001, pp108-115; report for 1981 at
 
-SYP000096970001, pp155-156; report for 1982 at SYP000096970001, pp163-164; report for 1983 at would provide access between the three areas, fastened open during matches to allow movement when necessary.41
+SYP000096970001, pp155-156; report for 1982 at SYP000096970001, pp163-164; report for 1983 at
+
+SYP000096970001, pp174-175.
 
 %%page 70%%
+
+would provide access between the three areas, fastened open during matches to allow movement when necessary.41
 
 2.1.47 Dr Eastwood envisaged that the discrete areas would be 'serviced and served by individual and specific dedicated facilities'.42 While the introduction of radial fences was accepted, the proposal to provide each area with access via discrete turnstiles and dedicated facilities was not pursued. Thus there would be no way of knowing accurately how many fans were in each area.
 
@@ -1670,7 +1674,9 @@ Gates in the perimeter fence 2.1.60 Following the modifications, there were seve
 
 57. Letter from Eastwood & Partners to SYCC, 8 May 1985, SYP000038710001, p94. 58. Letter from SYCC to Eastwood & Partners, 10 May 1985, SYP000038710001, p95. 59. Letter from Eastwood & Partners to SWFC, 17 June 1985, SYP000038710001, pp96-97. 60. Dr Eastwood's submission to Lord Justice Taylor, SYP000096940001, p22. 61. Minutes of Officer Working Party meeting, 29 July 1985, SYP000038710001, pp151-152. 62. Letter from Eastwood & Partners to Corderoy & Co., 26 September 1985, SYP000038710001, p98. 63. West Midlands Police interview with Graham Mackrell, Club Secretary, 22 June 1990, SYP000038890001, pp89-90. 64. Letter from Eastwood & Partners to SWFC, 15 January 1988, SYP000096970001, pp499-500. See also letter from Fire Service to SCC, 18 February 1987, regarding their inspection of the ground on 17 November 1986,
 
-SYP000096970001, pp472-476. 65. Letter from Eastwood & Partners to SCC, 3 February 1988, SYP000096970001, pp501-506. 66. Phone memorandum between Inspector Calvert and John Strange (Eastwood & Partners), 23 February 1988, arranging to meet on 25 February 1988 to inspect the new gate release devices, SYP000096970001, p607. 67. Letter from Eastwood & Partners to Specialist Welding & Engineering Services Ltd., 26 February 1988, 68. Phone memorandum between Mr Strange (Eastwood & Partners) and Specialist Welding & Engineering Services Ltd., of a close mesh net on the gates as the existing mesh was too large, allowing the devices to be tampered with.69
+SYP000096970001, pp472-476. 65. Letter from Eastwood & Partners to SCC, 3 February 1988, SYP000096970001, pp501-506. 66. Phone memorandum between Inspector Calvert and John Strange (Eastwood & Partners), 23 February 1988, arranging to meet on 25 February 1988 to inspect the new gate release devices, SYP000096970001, p607. 67. Letter from Eastwood & Partners to Specialist Welding & Engineering Services Ltd., 26 February 1988,
+
+SYP000096970001, p605. 68. Phone memorandum between Mr Strange (Eastwood & Partners) and Specialist Welding & Engineering Services Ltd., of a close mesh net on the gates as the existing mesh was too large, allowing the devices to be tampered with.69
 
 %%page 73%%
 
@@ -1698,9 +1704,11 @@ The removal of barrier 144 2.1.67 After a further lateral fence was introduced, 
 
 74. West Midlands Police interview with Graham Mackrell, 22 June 1990, SYP000038890001, pp142-146. 75. Letter from SYCC to Eastwood & Partners, 14 November 1985, updating them on a meeting of the Officer Working
 
-Party of 13 November 1985, SCC000001960001, pp282-283. 76. Statement of Arthur Butler, Principal District Surveyor with Sheffield City Council, 27 July 1990, SYP000038720001, pp350-352. 77. Letter from Eastwood & Partners to SWFC, 2 August 1988, SYP000096970001, p546. 78. Statement of Arthur Butler, Principal District Surveyor with Sheffield City Council, 27 July 1990, SYP000038720001, that while not being a 'technical expert' he had presumed the potential consequences of removing parts of the barrier had been taken into account.79 The partial removal of barrier 144 materially affected pen 3's capacity and 'its removal made it the more easy for fans coming down the tunnel to spread out into the pen and we believe that its absence did result in a greater flow down the pen'.80
+Party of 13 November 1985, SCC000001960001, pp282-283. 76. Statement of Arthur Butler, Principal District Surveyor with Sheffield City Council, 27 July 1990, SYP000038720001, pp350-352. 77. Letter from Eastwood & Partners to SWFC, 2 August 1988, SYP000096970001, p546. 78. Statement of Arthur Butler, Principal District Surveyor with Sheffield City Council, 27 July 1990, SYP000038720001, p352.
 
 %%page 76%%
+
+that while not being a 'technical expert' he had presumed the potential consequences of removing parts of the barrier had been taken into account.79 The partial removal of barrier 144 materially affected pen 3's capacity and 'its removal made it the more easy for fans coming down the tunnel to spread out into the pen and we believe that its absence did result in a greater flow down the pen'.80
 
 2.1.70 In their eventual submission to the Director of Public Prosecutions (DPP) following the disaster, West Midlands Police investigators concluded that at the time of the terrace alterations neither SWFC nor Eastwoods could have foreseen the influx onto the terrace.81
 
@@ -1854,7 +1862,9 @@ Debriefing: who knew what after the 1988 Semi-Final? 2.1.110 The 1988 Semi-Final
 
 132. West Midlands Police interview with Superintendent Murray, 25 June 1990, SYP000038900001, pp41-43. 133. West Midlands Police interview with ACC Jackson, 28 June 1990, SYP000038910001, pp14-16. 134. Superintendent Murray debrief for 1988 Semi-Final to Chief Superintendent Mole, 14 May 1988, SYP000047780001, p277. 135. Three-page debrief on 1988 match from Operations Room duty Sergeant to C/Supt Herold, 11 April 1988,
 
-SYP000047780001, pp278-280. 136. Internal police minute from C/Supt for Operations and Traffic to ACC for Operations, 26 April 1988, 137. West Midlands Police interview with Superintendent Roger Marshall, 19 June 1990, SYP000038880001, pp16-21. 138. SYP submission to Lord Justice Taylor, SYP000047780001, pp362-363.
+SYP000047780001, pp278-280. 136. Internal police minute from C/Supt for Operations and Traffic to ACC for Operations, 26 April 1988,
+
+SYP000047780001, pp282-283. 137. West Midlands Police interview with Superintendent Roger Marshall, 19 June 1990, SYP000038880001, pp16-21. 138. SYP submission to Lord Justice Taylor, SYP000047780001, pp362-363.
 
 %%page 85%%
 
@@ -1888,7 +1898,7 @@ Report noted, of the stadium's 54,000 capacity, over 24,000 fans were channelled
 
 %%page 87%%
 
-The 'moment' of 1989
+### Chapter 2: The 'moment' of
 
 2.2.1 Part 1 of this Report establishes the recent historical context to the 1989 Semi-Final at Hillsborough, coincidentally a repeat of the previous year's match between Liverpool and Nottingham Forest.
 
@@ -1928,7 +1938,7 @@ The 1989 FA Cup Semi-Final 2.2.9 According to Graham Mackrell, the SWFC Secretar
 
 Pre-match briefings 2.2.18 C/Supt Duckenfield briefed senior officers the day before the match, his notes emphasising public order and crowd safety. They contained no reference to crowd safety issues from the previous year. He emphasised that as it was an all-ticket match, 'if supporters do not have a ticket then whatever they say they will not be allowed into the ground' as 'safety limits' had to be protected.10 2.2.19 He noted that the 'stadium has been divided to ensure maximum segregation and to reduce any possibility of public disorder'. As it would be 'full to capacity' and some officers 'may never have experienced a football match of this nature' the priority was 'to ensure the safety of spectators and you must make sure you know the escape routes and that you are fully conversant with your responsibilities should a crisis arise'. He stated: 'I cannot stress too highly the word "Safety"'. 2.2.20 Superintendent Roger Greenwood was Ground Commander inside the stadium and raised the issue of overcrowding, specifically because there was concern to avoid a situation in which Liverpool fans who gained tickets for the Spion Kop would be transferred to the Leppings Lane terrace, thus repeating the events of 1981. 2.2.21 He briefed Inspectors under his command not to transfer Liverpool supporters from the Spion Kop to the Leppings Lane terrace, contrary to the instructions in the Operational Order. His briefing concentrated on public order problems: 'the question of supporters from the Leppings Lane terrace being hauled up by fellow supporters into the West Stand [seated area] at half time thus creating over capacity in the West Stand'.11 2.2.22 Further, given the experience of the 1988 Semi-Final, 'it was quite foreseeable that there would be a large element of Liverpool supporters who by whatsoever means would be purchasing tickets for the Spion Kop'. This 'problem had been evident last year and … cordoning Police officers had come under threat to personal safety'. 2.2.23 He advised that 'generally speaking if things are going well for Liverpool supporters crowd management should be reasonably well achieved, however should things in any way not go well [with] them then they had proved extremely difficult to contain and moods would easily change'.
 
-8. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, p66. 9. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001, pp53-54. 10. Chief Superintendent Duckenfield's briefing notes for the 1989 FA Cup Semi-Final, 14 April 1989, SYP000038820001, pp318-323. 11. Notes of Superintendent Greenwood's briefing on 14 April 1989, document dated 20 April 1989, SYP000010690001,
+8. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, p66. 9. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001, pp53-54. 10. Chief Superintendent Duckenfield's briefing notes for the 1989 FA Cup Semi-Final, 14 April 1989, SYP000038820001, pp318-323. 11. Notes of Superintendent Greenwood's briefing on 14 April 1989, document dated 20 April 1989, SYP000010690001, pp2-3.
 
 - Chapter 2 The 'moment' of 1989 — 89
 
@@ -1956,7 +1966,9 @@ Graham Delaney, SYP000038800001, p334. 14. West Midlands Police interview with S
 
 SYP000038880001, p31. 15. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
 
-SYP000038880001, p45. 17. Document giving comparison of Operational Orders at Hillsborough Football Ground, SYP000027020001, p3.
+SYP000038880001, p45.
+
+SYP000038880001, pp55-56. 17. Document giving comparison of Operational Orders at Hillsborough Football Ground, SYP000027020001, p3.
 
 %%page 91%%
 
@@ -1978,7 +1990,9 @@ SYP000038880001, p45. 17. Document giving comparison of Operational Orders at Hi
 
 2.2.39 While the 'Operational Orders emphasized the need to prevent spectators gaining access to the pitch ... the function of the perimeter fence gates in providing a means of escape in certain eventualities, particularly crushing, was not referred to'. Consequently, in the pre-match briefing at the stadium on the day, and in earlier briefings, SYP officers 'on the ground do not appear to have been made aware of the dangers of crushing in the pens particularly if they became overcrowded'. 18. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
 
-SYP000038880001, p26. 19. Document giving comparison of Operational Orders at Hillsborough Football Ground, SYP000027020001, pp9-10. 20. Transcript of Chief Superintendent Mole's evidence to Lord Justice Taylor, day 7, 24 May 1989, SWF000002030001, 21. Final submission of South Yorkshire Fire Service and Civil Defence Authority to Lord Justice Taylor,
+SYP000038880001, p26. 19. Document giving comparison of Operational Orders at Hillsborough Football Ground, SYP000027020001, pp9-10. 20. Transcript of Chief Superintendent Mole's evidence to Lord Justice Taylor, day 7, 24 May 1989, SWF000002030001, pp68-69. 21. Final submission of South Yorkshire Fire Service and Civil Defence Authority to Lord Justice Taylor,
+
+SYP000098170001, p17.
 
 %%page 92%%
 
@@ -1996,7 +2010,7 @@ At the conclusion of the game the gates from the terraces to the pitch both open
 
 The wire meshing on the perimeter fence was also ripped out by the fans to gain access to the track. Others simply climbed over the fence and dropped onto the track. Others had climbed over during the match and were either escorted from the track or returned when approached by Police Officers.
 
-22. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp71-77. 23. South Yorkshire Police submission to Lord Justice Taylor, Part IV: Policing at Hillsborough, SYP000096730001, 24. Treasury Council submission to Lord Justice Taylor, SYP000098180001, p19.
+22. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp71-77. 23. South Yorkshire Police submission to Lord Justice Taylor, Part IV: Policing at Hillsborough, SYP000096730001, pp7-23. 24. Treasury Council submission to Lord Justice Taylor, SYP000098180001, p19.
 
 %%page 93%%
 
@@ -2008,7 +2022,9 @@ Policed that match and other matches involving Liverpool over the last two years
 
 25. Statement of PC Peter Smith, 29 April 1989, SYP000038810001, pp189-190. 26. Statement of Inspector Roger Greenwood, 3 May 1989, SYP000038790001, p117. 27. South Yorkshire Police submission to Lord Justice Taylor, Part IV: Policing at Hillsborough, SYP000096730001, p49. 28. Minutes of meeting with Counsel, 26 April 1989, SYP000096360001, p65. 29. Appendix to a report by British Transport Police re. arrangement and experiences at 1989 FA Cup Semi-Final at
 
-Hillsborough, 10 April 1989, SYP000097420001, pp10-11. 30. Extract from Control Room log book, 15 April 1989, SYP000121610001, pp21-25. 31. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp152-157. 32. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001,
+Hillsborough, 10 April 1989, SYP000097420001, pp10-11. 30. Extract from Control Room log book, 15 April 1989, SYP000121610001, pp21-25. 31. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp152-157. 32. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001, pp66-68.
+
+pp79-80.
 
 %%page 94%%
 
@@ -2028,9 +2044,15 @@ The build-up to kick-off 2.2.58 Supt Marshall stated that at 2pm he was on the o
 
 Lord Justice Taylor, HOM000026040001, p42. 37. See Chief Superintendent Mole's understanding of the grounds for delaying kick-off, relating to his experience in
 
-1987, in Chapter 1. 38. Statement of Glen Kirton, Head of External Affairs at the Football Association, 17 May 1989, SYP000038700001, p151. 39. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990, packed crowd at the approach to the turnstiles. This moment was caught on CCTV. He was unable to make direct contact with the Control Box, and he changed channels to contact Hammerton Road Police Station to pass a message to the Control Box. 2.2.61 On reflection he considered that more officers or better organisation would not have helped as he estimated six to eight thousand people in the crush.41 The situation at the turnstiles became severe, he claimed, because there had been a failure in intelligence and the police resources available were inadequate to respond effectively. 2.2.62 It is evident from the disclosed documents that the situation in the Control Box after 2.35pm became chaotic. There were constant incoming calls and radio messages, the radio system failed and police reinforcements were sent to Leppings Lane under the wrong assumption that there was crowd disorder. 2.2.63 Yet the main focus remained on the Spion Kop where trouble was anticipated because officers expected Liverpool fans to gain entry among Nottingham Forest fans. Supt Murray was unclear in his recollection of the precise time, but by 2.45pm he stated that he was aware of a serious crowd problem on the Leppings Lane terrace and responded to subsequent radio requests for reinforcements.42
+1987, in Chapter 1. 38. Statement of Glen Kirton, Head of External Affairs at the Football Association, 17 May 1989, SYP000038700001, p151. 39. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
+
+SYP000038880001, pp60-71.
+
+SYP000038880001, p102.
 
 %%page 95%%
+
+packed crowd at the approach to the turnstiles. This moment was caught on CCTV. He was unable to make direct contact with the Control Box, and he changed channels to contact Hammerton Road Police Station to pass a message to the Control Box. 2.2.61 On reflection he considered that more officers or better organisation would not have helped as he estimated six to eight thousand people in the crush.41 The situation at the turnstiles became severe, he claimed, because there had been a failure in intelligence and the police resources available were inadequate to respond effectively. 2.2.62 It is evident from the disclosed documents that the situation in the Control Box after 2.35pm became chaotic. There were constant incoming calls and radio messages, the radio system failed and police reinforcements were sent to Leppings Lane under the wrong assumption that there was crowd disorder. 2.2.63 Yet the main focus remained on the Spion Kop where trouble was anticipated because officers expected Liverpool fans to gain entry among Nottingham Forest fans. Supt Murray was unclear in his recollection of the precise time, but by 2.45pm he stated that he was aware of a serious crowd problem on the Leppings Lane terrace and responded to subsequent radio requests for reinforcements.42
 
 Opening the exit gates 2.2.64 A low, gated metal fence separated the outer concourse at the turnstiles and the street approach along Leppings Lane. In 1988, all but one of these gates leading from the road into the outer concourse were closed, whereas in 1989 all but one were open.43 2.2.65 Video coverage from 1988 showed these gates on the outer concourse closed from 11am. A 1989 video showed that, in this instance, they were not closed until an attempt was made once congestion was recognised.44 ACC Jackson was unable to explain the difference in approach but blamed a small element of the crowd who had been drinking and were anxious to gain entry into the stadium.45 2.2.66 As congestion built to dangerous levels, Supt Marshall radioed an urgent request for stadium exit gates, close to the turnstiles, to be opened to allow fans into the ground. In his message he stated that there was a real possibility of fatalities if relief was not immediate. 2.2.67 In his WMP interview for the criminal investigation, Supt Marshall stated that as he was unaware that the exit gates were identified as A, B and C he had not named the gate that should be opened. He acknowledged that there were other means to identify each gate. He stated that he had no information about the crowd inside the stadium and assumed, '[t]here must be nobody on the terrace cause there's all these people here trying to get in'.46 2.2.68 Supt Marshall considered he had no option to direct fans elsewhere as they 'wouldn't have gone ... this is the problem that people seem to so desperately to fail to appreciate that there were thousands and thousands of people, many of whom had far too
 
@@ -2039,6 +2061,8 @@ Opening the exit gates 2.2.64 A low, gated metal fence separated the outer conco
 SYP000038880001, pp107-110. 42. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001, p112. 43. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
 
 SYP000038880001, pp88-89. 44. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp91-92. 45. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp102-103.
+
+SYP000038880001, p74.
 
 %%page 96%%
 
@@ -2060,7 +2084,9 @@ Consequences of opening the gates 2.2.74 At the time Supt Murray was concerned a
 
 SYP000038880001, pp113-114. 48. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
 
-SYP000038880001, pp119-129. 49. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001, pp117-135. 50. WMP report to the DPP, Part VII, SYP000038850001, p69. 52. Recollection of PC Brown, 19 April 1989, SYP000096810001, pp4-6.
+SYP000038880001, pp119-129. 49. West Midlands Police interview with Superintendent Murray for report to the DPP, 25 June 1990, SYP000038900001, pp117-135. 50. WMP report to the DPP, Part VII, SYP000038850001, p69.
+
+pp137-146. 52. Recollection of PC Brown, 19 April 1989, SYP000096810001, pp4-6.
 
 %%page 97%%
 
@@ -2084,6 +2110,10 @@ After the crush 2.2.78 Supt Murray later reflected that, in the Control Box, he 
 
 SYP000038920001, pp29-30. 59. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
 
+SYP000038880001, pp128-129.
+
+pp179-192.
+
 %%page 98%%
 
 Supt Murray then contacted various officers and gave them directions. Utilising another officer's radio, he called for 'a fleet of ambulances'.
@@ -2104,7 +2134,9 @@ Supt Murray then contacted various officers and gave them directions. Utilising 
 
 61. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp158-180. 62. West Midlands Police interview with Superintendent Greenwood for report to the DPP, 29 June 1990,
 
-SYP000038920001, pp29-30. 63. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990, 64. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, p182. 65. Written statement of Mr Mackrell to Lord Justice Taylor, 26 June 1989, SYP000096840001, p419.
+SYP000038920001, pp29-30. 63. West Midlands Police interview with Superintendent Roger Marshall for report to the DPP, 19 June 1990,
+
+SYP000038880001, pp130-135. 64. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, p182. 65. Written statement of Mr Mackrell to Lord Justice Taylor, 26 June 1989, SYP000096840001, p419.
 
 %%page 99%%
 
@@ -2128,7 +2160,9 @@ Constable, Mr Jackson … We were told that when the gate had been forced there 
 
 2.2.97 Former Match Commander C/Supt Mole arrived at the stadium having heard a request on the radio for additional support at Hillsborough. At around 4.45pm he was briefed by ACC Jackson who then left Hillsborough with Supt Murray and
 
-66. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, p184. 67. Statement of Graham Kelly, Chief Executive of the FA, HOM000001380001, p6. 68. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp170-225. 70. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp188-230.
+66. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, p184. 67. Statement of Graham Kelly, Chief Executive of the FA, HOM000001380001, p6. 68. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp170-225.
+
+SYP000038880001, p135. 70. West Midlands Police interview with ACC Jackson for report to the DPP, 28 June 1990, SYP000038910001, pp188-230.
 
 %%page 100%%
 
@@ -2149,7 +2183,7 @@ C/Supt Duckenfield to brief the Chief Constable and his Deputy at headquarters a
 
 Box and CCTV monitors, neither Chief Superintendent Duckenfield nor his assistant, the experienced Superintendent Bernard Murray, anticipated the impact on the already packed central pens of fans descending the tunnel directly opposite Gate C. • On opening Gate C there was no instruction given to the SYP officers inside the stadium to manage the flow and direction of the incoming crowd. • From the documents provided to the Panel it is clear that the crush at the Leppings Lane turnstiles outside the stadium was not caused by fans arriving 'late' for the kick-off. The turnstiles were inadequate to process the crowd safely, and the rate of entry insufficient to prevent a dangerous build-up of people outside the ground.
 
-Custom, practice, roles, responsibilities
+### Chapter 3: Custom, practice, roles, responsibilities
 
 2.3.1 As established in Part 1 and in the previous chapters, and central to the submissions to the Panel from bereaved families, key issues of concern focus on crowd management, crowd safety and the condition of the stadium.
 
@@ -2236,11 +2270,7 @@ David Walker, SYP000038760001, p292.
 
 %%page 107%%
 
-SHEFFIELD WEDNESDAY F.C.
-
-## HILLSBOROUGH
-
-Figure 4: Layout of the turnstiles at Leppings Lane, April 1989 Original available at SCC000002050001, p56.
+SHEFFIELD WEDNESDAY F.C. HILLSBOROUGH Figure 4: Layout of the turnstiles at Leppings Lane, April 1989 Original available at SCC000002050001, p56.
 
 %%page 108%%
 
@@ -2342,6 +2372,8 @@ SYP000038790001, pp190-197. 35. CI Creaser's evidence to the Coroner, SYP0001103
 
 SYP000116060001, p275. 37. PCA, draft disciplinary charges, 30 September 1991, SYP000094930001, p24. 38. Statement of John Stalker, former Deputy Chief Constable of Greater Manchester, 20 August 1990,
 
+SYP000116060001, p275.
+
 %%page 113%%
 
 2.3.64 Yet 'it was impossible to move sideways beyond the limits of the radial fences and outside help was essential in redistribution of supporters from one pen to another'. Police Constable Peter Smith described how in his experience fans 'find their own level' by climbing over the lateral fences between pens.39 The system also failed to consider the rate of evacuation in an emergency.
@@ -2432,7 +2464,9 @@ This is mentioned because the police failure to close off the tunnel prior to au
 
 2.3.99 Significant in this statement is the WMP conclusion that the police failure to anticipate that mass entry through Gate C would result in most fans descending the tunnel opposite into the already packed central pens.
 
-57. Hillsborough Disaster Inquiry – Phase 1, Written Submission of the Football Association, with SYP resumé, 58. WMP's submission to the DPP, Part V, SYP000038790001, p26.
+57. Hillsborough Disaster Inquiry – Phase 1, Written Submission of the Football Association, with SYP resumé,
+
+SYP000098190001, pp2-3. 58. WMP's submission to the DPP, Part V, SYP000038790001, p26.
 
 %%page 118%%
 
@@ -2685,7 +2719,7 @@ Duckenfield, crowd distribution between the Leppings Lane terrace pens was the r
 
 Mole and Chief Superintendent Duckenfield admitted their awareness of the practice of occasionally restricting access to the tunnel to prevent overcrowding in the central pens.
 
-Emergency response and aftermath: 'routinely requested to attend'
+### Chapter 4: Emergency response and aftermath: 'routinely requested to attend'
 
 What was already known 2.4.1 As spectators became crushed by the growing pressure within the central pens, they began to suffer serious consequences, principally from the severe restriction of their ability to breathe. Without recognition of their predicament, release from the intolerable pressure and urgent immediate care, they were in mortal peril. 2.4.2 As discussed in Part 1, the initial police response was conditioned by their focus on potential crowd disorder, and initially spectators were unable to convey what was happening. Their attempts to escape by climbing fences, particularly the perimeter fence, were misinterpreted as an attempted pitch invasion, and police reinforcements were summoned. 2.4.3 When the reality and severity of the disaster was realised, the other emergency services were notified. Police officers eventually opened the perimeter gates and began to drag injured spectators through the small openings, while others were pulled over the fences. 2.4.4 Less injured spectators managed to tear holes in the perimeter fencing to allow escape, and some exited through the tunnel at the rear when pressure lessened. Others climbed over the lateral fences or were pulled up into the stand above the terrace. When the Fire Service eventually arrived with cutting equipment that could have speeded evacuation, the pens had emptied. 2.4.5 As spectators emerged or were dragged onto the pitch, it was clear that many were injured, unconscious or close to death. Amid scenes of chaos, some police officers began to resuscitate casualties, quickly aided by the less injured spectators, some of the few ambulance staff and the St John Ambulance personnel present. 2.4.6 The South Yorkshire Metropolitan Ambulance Service (SYMAS) despatched ambulances, mostly via Penistone Road North to the area close to the gymnasium at the base of the North Stand. This was diagonally across the full length of the pitch, and as word spread spectators tore down advertising hoardings as makeshift stretchers to carry the injured. 2.4.7 Inevitably, given the growing realisation of the seriousness of the disaster, some fans were desperate at what they perceived as a slow rescue response, venting their anger at officials. A few Liverpool fans, goaded by Nottingham Forest fans on the packed terrace
 
@@ -2871,7 +2905,9 @@ Rescue and resuscitation 2.4.75 In the absence of a coordinated immediate respon
 
 Scale of the disaster becomes apparent 2.4.77 It rapidly became apparent to rescuers that a number of those evacuated from the pens were unconscious, some with no breathing or pulse. Fans and police attempted resuscitation, usually including chest compression (external cardiac massage) and mouth-to-mouth resuscitation. 2.4.78 In many cases, the injured person's mouth and throat were clogged with regurgitated stomach contents, making mouth-to-mouth resuscitation difficult as well as unpleasant. As the scale and seriousness of the disaster became apparent doctors and nurses among the spectators converged from all parts of the stadium. They took over resuscitation of the casualties they first encountered. Some realised they could spread their experience and skills more widely by delegating resuscitation to willing volunteers, directing and coaching their efforts. 2.4.79 When ambulances began to arrive outside the gymnasium in response to the call from Ambulance Control, staff left their vehicles and went to the Leppings Lane end of the ground on foot, running almost the full length of the pitch. Once there, some added to the resuscitation attempts and others removed those who were injured to the gymnasium which was the casualty clearing point designated in the Hillsborough incident plan. The first ambulance vehicle arrived at 3.17pm.17 2.4.80 Only a few stretchers were available, and fans placed casualties on advertising hoardings torn from around the pitch. They ran towards the gymnasium. At least two
 
-16. Letter to the Taylor Inquiry from Dibb Lupton Broomhead (Solicitors) – Ambulance Service submission, 17. Statement of Station Officer Paul Eason, YAS000001490001, p8.
+16. Letter to the Taylor Inquiry from Dibb Lupton Broomhead (Solicitors) – Ambulance Service submission,
+
+HOM000018310001, pp21-22. 17. Statement of Station Officer Paul Eason, YAS000001490001, p8.
 
 %%page 141%%
 
@@ -2947,7 +2983,7 @@ Lack of leadership 2.4.93 The lack of leadership and coordination within the gym
 
 2.4.95 Ambulance Control then tried unsuccessfully to contact either DCAO Hopkins or SO Eason, and subsequently any duty officer at the ground. Finally it requested any vehicle to locate any duty officer who should contact control.
 
-27. Statement of Staff Nurse, Liverpool, SYP000086360001, p6. 28. Witness Statement of Detective Superintendent Graham McKay, South Yorkshire Police, SYP000008020001, 29. Ambulance Control Room Tape Transcripts, 15 April 1989, SYP000014030001, pp97-99.
+27. Statement of Staff Nurse, Liverpool, SYP000086360001, p6. 28. Witness Statement of Detective Superintendent Graham McKay, South Yorkshire Police, SYP000008020001, pp13-16. 29. Ambulance Control Room Tape Transcripts, 15 April 1989, SYP000014030001, pp97-99.
 
 %%page 144%%
 
@@ -3009,7 +3045,9 @@ Employees and Members of the Public whilst they are on your premises? ...
 
 There are, however, areas where the level of care which we [SYMAS] can provide, of necessity, exceed [sic] those which can be provided by the Voluntary Societies.
 
-36. Letter to the Taylor Inquiry from Dibb Lupton Broomhead (Solicitors) – Ambulance Service submission, 37. Statement of Chief Ambulance Officer Albert Page, YAS000001940001, p25.
+36. Letter to the Taylor Inquiry from Dibb Lupton Broomhead (Solicitors) – Ambulance Service submission,
+
+HOM000018310001, pp11-15. 37. Statement of Chief Ambulance Officer Albert Page, YAS000001940001, p25.
 
 %%page 147%%
 
@@ -3039,7 +3077,7 @@ I still cannot understand why the local Health Authority's Major Medical Disaste
 
 2.4.118 This is clearly not a maverick view from a disaffected minority but the considered opinion of the majority of professionals present from the outset.
 
-38. Letter from SYMAS to SWFC, April 1988, YAS000002360001, p126. All the named activities would require extended trained (paramedic) ambulance staff. 39. Statement of Dr Alexander Loch, Medical Practitioner, SYP000087960001, p7. 40. Statement of Tim Cooke, Professor of Surgery, Glasgow, SYP000065110001, p5. 41. Statement of Dr Peter Marsh, Casualty Officer, London, SYP000086990001, p8. 42. Statement of Dr Caroline Altoft, General Practitioner, SYP000081700001, p7. 43. Statement of Dr Glyn Phillips, Medical Practitioner, SYP000096240001, p20. 44. Statement of Dr John Ashton, Medical Practitioner and Senior Lecturer, Liverpool, 19 April 1989, SYP000096240001, 45. Statement of Mr FJ Eccleston, Nurse Manager, SYP000096240001, p39.
+38. Letter from SYMAS to SWFC, April 1988, YAS000002360001, p126. All the named activities would require extended trained (paramedic) ambulance staff. 39. Statement of Dr Alexander Loch, Medical Practitioner, SYP000087960001, p7. 40. Statement of Tim Cooke, Professor of Surgery, Glasgow, SYP000065110001, p5. 41. Statement of Dr Peter Marsh, Casualty Officer, London, SYP000086990001, p8. 42. Statement of Dr Caroline Altoft, General Practitioner, SYP000081700001, p7. 43. Statement of Dr Glyn Phillips, Medical Practitioner, SYP000096240001, p20. 44. Statement of Dr John Ashton, Medical Practitioner and Senior Lecturer, Liverpool, 19 April 1989, SYP000096240001, p30. 45. Statement of Mr FJ Eccleston, Nurse Manager, SYP000096240001, p39.
 
 %%page 148%%
 
@@ -3155,7 +3193,7 @@ Centre was being implemented.65
 
 2.4.154 He 'then gave instructions for relatives and friends of the deceased, who had congregated outside the temporary mortuary, to be transported to Hammerton Road Police
 
-64. Statement of Mr James Wardrope, SYP000096370001, p211. 65. Witness Statement of Detective Chief Superintendent Terence Addis, South Yorkshire Police, SYP000081480001,
+64. Statement of Mr James Wardrope, SYP000096370001, p211. 65. Witness Statement of Detective Chief Superintendent Terence Addis, South Yorkshire Police, SYP000081480001, pp4-5.
 
 %%page 153%%
 
@@ -3177,7 +3215,7 @@ The police were not yet organised, but asked us if there was anywhere immediatel
 
 2.4.161 The impending chaos was, in part, a consequence of an influx of people offering help:
 
-66. File of papers relating to the procedures of the Resumed Inquest and Post Mortems, part 1, SYC000001360001, 67. Witness Statement of Detective Superintendent Graham McKay, South Yorkshire Police, SYP000008020001, p18.
+66. File of papers relating to the procedures of the Resumed Inquest and Post Mortems, part 1, SYC000001360001, p242. 67. Witness Statement of Detective Superintendent Graham McKay, South Yorkshire Police, SYP000008020001, p18.
 
 %%page 154%%
 
@@ -3189,7 +3227,7 @@ Treatment of the bereaved 2.4.162 Lack of information also contributed to the im
 
 2.4.164 At the gymnasium, initially they queued outside. Later they were accommodated elsewhere in the gymnasium. Some faced long waits periodically punctuated by clearly audible cries of distress from those viewing the bodies of their loved ones and, for the first time, experiencing the certain knowledge of their loss. 2.4.165 Many of the bereaved wished to hold or touch their loved ones. Some were granted their wish, albeit briefly, but many were refused. They were told that the body was the property of the Coroner. 2.4.166 They were then taken quickly to another area of the gymnasium to be questioned by police officers, envisaged by the Coroner as merely confirming the identification: 'As soon as this identification had been positively done the officer responsible for that body would accompany the identifier and take a written statement from them, giving the identification'.71 2.4.167 As communicated by Det C/Supt Addis, this simple confirmation became something more: 'If a positive identification ensured [sic], then the Police Officer would accompany the person identifying the body to a nearby area where they would be joined by a detective and details of identification, medical background of the deceased, where possible, and the details of the [sic] surrounding the death, if known, would be obtained in statement form'.72
 
-69. Report of Hillsborough Symposium, 19 July 1990, JWR000000250001, p196. 70. Witness Statement of Detective Superintendent Graham McKay, South Yorkshire Police, SYP000008020001, p19. 71. File of papers relating to the procedures of the Resumed Inquest and Post Mortems, part 1, SYC000001360001, 72. Witness Statement of Detective Chief Superintendent Terence Addis, South Yorkshire Police, SYP000081480001, p6.
+69. Report of Hillsborough Symposium, 19 July 1990, JWR000000250001, p196. 70. Witness Statement of Detective Superintendent Graham McKay, South Yorkshire Police, SYP000008020001, p19. 71. File of papers relating to the procedures of the Resumed Inquest and Post Mortems, part 1, SYC000001360001, p243. 72. Witness Statement of Detective Chief Superintendent Terence Addis, South Yorkshire Police, SYP000081480001, p6.
 
 %%page 155%%
 
@@ -3229,7 +3267,7 @@ Treatment of the bereaved 2.4.162 Lack of information also contributed to the im
 - Previously, the emergency services' response has been considered in the context of the Taylor Inquiry and the inquests. Medical evidence to both maintained that all who died were irreversibly and fatally injured in the initial crush, and no response could have changed the outcome. As shown in Chapter 5, the disclosed documents demonstrate that this evidence was flawed and some, partially asphyxiated, survived for a significant period.
 - It is not possible to establish whether a more effective emergency response would have saved the life of any one individual who died. Given the evidence disclosed to the Panel of more prolonged survival of some people with partial asphyxiation, however, a swifter, more appropriate, better focused and properly equipped response had the potential to save more lives.
 
-Medical evidence: the testimony of the dead
+### Chapter 5: Medical evidence: the testimony of the dead
 
 What was already known 2.5.1 Evidence relating to the cause of death was central to the 95 'mini-inquests' conducted by the South Yorkshire West District Coroner, Dr Stefan Popper, alongside the summaries from West Midlands Police about the place of death. Three features recurred across the medical and pathological evidence given to the inquests. 2.5.2 First, traumatic asphyxia was a central feature, in most cases as the underlying cause of death. Second, in their evidence the pathologists presented a common account that consciousness would have been lost within a matter of seconds and irreversible brain damage would have occurred in minutes. 2.5.3 Taken together, these features presented an unvarying picture of a uniform, rapid process that led inevitably to death once an irresistible pressure had built up within the central pens. As such, as discussed in Chapter 10, it underpinned the Coroner's decision to impose a 3.15pm cut-off on evidence presented at the generic stage of the inquests. 2.5.4 The third recurring feature was the emphasis attached to alcohol, as the blood alcohol level of the deceased was read to the court at the start of each 'mini-inquest' and immediately reported in the media. 2.5.5 The disclosed documents add significant new information on each of these crucial aspects of the medical evidence. The first part of this chapter considers the evidence available from systematic review of the pathology reports. The second part highlights the significance of the Coroner's exceptional decision to take blood alcohol samples from the deceased, and how the results were presented.
 
@@ -3313,7 +3351,7 @@ Access to post mortem records 2.5.34 Dr West had access to only eight post morte
 
 2.5.35 In 28, however, the findings described clearly do not support the occurrence of 'classic' traumatic asphyxia with venous obstruction, and in a further 16 a significant degree of venous obstruction is unlikely from the description given. (In 11 the appearances were insufficiently clearly described to decide, while in the 96th, death occurred after a prolonged period in hospital by which time the initial changes had reversed.)
 
-22. Written opinion of Dr I West, Department of Forensic Medicine, Guy's Hospital, 20 August 1992, SYC000001280001,
+22. Written opinion of Dr I West, Department of Forensic Medicine, Guy's Hospital, 20 August 1992, SYC000001280001, pp66-71.
 
 %%page 164%%
 
@@ -3355,7 +3393,9 @@ It should be noted that the Coroner did not say that all those who died did so b
 
 3.15, or that the medical evidence was to this effect … Nor did he say that all those who became unconscious subsequently died. The evidence was that it was only those people whose chests were in a state of permanent fixation as a result of the crush for four to six minutes, so that they could not breathe at all for that time, whose condition was irreversible.26 2.5.55 The evidence that in some people respiration and circulation continued for a significant period, from the release of compression until they died, clearly challenges the assumption that their condition was irreversible. Some in this condition survived after treatment in an intensive care unit, while some died at the ground. It is likely that what happened to them during that period played a major part in determining the outcome. 2.5.56 This point was clearly illustrated by Dr James Burns, a forensic pathologist who reviewed a single post mortem report at the request of a bereaved family:
 
-... in the case of a person removed from the enclosure at, say, 3.10pm and who was unconscious, but not brain dead, and was then placed in a position other than the correct 'recovery' position, or who, having been placed in the correct position, such a position was not maintained, a feared consequence, an inadequate airway, may well have produced a prolonged state of unconsciousness, with death eventually occurring at a much later time than 3.15pm.27 2.5.57 Dr Burns and Dr West had access only to a few post mortem reports of those who died at Hillsborough. A systematic review of all disclosed reports shows that 28 clearly had no signs of venous compression and that traumatic asphyxia, at least in its 'classic' form, was not an appropriate description of the cause of death. 26. Scrutiny of evidence relating to the Hillsborough football stadium disaster, by Lord Justice Stuart-Smith, 27. Letter from Dr James Burns to Brian Thompson & Partners solicitors, 11 March 1991, SYP000096240001, pp46-47.
+... in the case of a person removed from the enclosure at, say, 3.10pm and who was unconscious, but not brain dead, and was then placed in a position other than the correct 'recovery' position, or who, having been placed in the correct position, such a position was not maintained, a feared consequence, an inadequate airway, may well have produced a prolonged state of unconsciousness, with death eventually occurring at a much later time than 3.15pm.27 2.5.57 Dr Burns and Dr West had access only to a few post mortem reports of those who died at Hillsborough. A systematic review of all disclosed reports shows that 28 clearly had no signs of venous compression and that traumatic asphyxia, at least in its 'classic' form, was not an appropriate description of the cause of death. 26. Scrutiny of evidence relating to the Hillsborough football stadium disaster, by Lord Justice Stuart-Smith,
+
+HOM000045010001, p48. 27. Letter from Dr James Burns to Brian Thompson & Partners solicitors, 11 March 1991, SYP000096240001, pp46-47.
 
 %%page 167%%
 
@@ -3573,7 +3613,7 @@ Blood alcohol levels in survivors 2.5.115 It was known that blood alcohol levels
 - The disclosed documents show that blood alcohol levels were tested in some survivors who attended hospital, as well as in all those who died. There is no record of these tests or their results in the medical notes of survivors, and in some there was no apparent medical reason for the test. The extent of this testing remains unknown.
 - There was no evidence to support the proposition that alcohol played any part in the genesis of the disaster and it is regrettable that those in positions of responsibility created and promoted a portrayal of drunkenness as contributing to the occurrence of the disaster and the ensuing loss of life without substantiating evidence.
 
-Parallel investigations
+### Chapter 6: Parallel investigations
 
 2.6.1 As stated in Part 1, a tragedy on the scale of the Hillsborough disaster witnessed by thousands of people in the stadium, millions on television and recorded in detail by photographs, television and CCTV resulted in immediate recrimination and blame. In a volatile climate of shock, distress and reaction the investigation of, and inquiry into, the causes, context and circumstances of the disaster were initiated.
 
@@ -3629,7 +3669,11 @@ South Yorkshire Police: briefing the Prime Minister 2.6.13 At 9.00am on 16 April
 
 2.6.19 There would be 'some form of judicial enquiry' but, CC Wright stated, SYP had 'nothing to fear at all in a sense'. They had 'taken decisions ... done things on the basis of what we saw and in what circumstances presented themselves to us ... let's have it as it's been up to now, open, straight forward, no intention to try and blur'.
 
-2. Internal Home Office memorandum, 4 May 1989, HOM000007740001, p1. 3. Home Office file note entitled 'Link Between Taylor Inquiry and West Midlands Police Inquiry', undated, 4. Notes of Chief Constable's briefing with operational staff engaged on FA Cup duties, 9.00am 16 April 1989,
+2. Internal Home Office memorandum, 4 May 1989, HOM000007740001, p1. 3. Home Office file note entitled 'Link Between Taylor Inquiry and West Midlands Police Inquiry', undated,
+
+HOM000007610001, p1. 4. Notes of Chief Constable's briefing with operational staff engaged on FA Cup duties, 9.00am 16 April 1989,
+
+SYP000096360001, pp19-42.
 
 %%page 184%%
 
@@ -3724,6 +3768,8 @@ HOM000002700001, pp4-5. 18. 'Salmon' letter sent by fax from David Brummell, Ass
 
 1989, TSO000000260001, pp1-2. 19. Chief Superintendents Mole and Wain and Chief Inspectors Drabble, Brooke and Bettison. 20. Minutes of SYP meeting with Counsel, 26 April 1989, SYP000096360001, pp58-104. 21. The 'Wain Report', undated, SYP000096980001. 22. Minutes of a meeting held to discuss the SYP presentation of evidence to Lord Justice Taylor, 26 April 1989,
 
+SYP000097190001, pp1-12.
+
 %%page 188%%
 
 2.6.40 Addressing the later meeting Deputy Chief Constable Peter Hayes reported 'people' stating 'they had never seen ... so many non-ticket holders arriving, so much alcohol brought to the football match and therefore having to be consumed or disposed of at the turnstiles'.23 Fans were obdurate and at the turnstiles they 'were trying to bribe their way into the match'.
@@ -3748,9 +3794,11 @@ The Wain Report 2.6.43 An early version of the Wain Report was submitted to the 
 
 Counsel's written submission 2.6.49 SYP Counsel's written submission to the Taylor Inquiry drew on the Wain Report, responding also to evidence at the oral hearings.29 As WMP's investigation was proceeding, it argued that 'it may be unsafe, even if it were considered possible, to come to what might strictly be described as findings of fact'. Further, it could be 'dangerous to attempt anything more than an impression or a general view (which in any event may ultimately be demonstrated to have been mistaken)'. 2.6.50 SYP's Counsel rejected criticisms of the police, claiming that the crush in Leppings Lane was not a consequence of poor planning by the police as it 'was no more reasonable, in the absence of intelligence, to assume that no-one would turn up than it would have been to have assumed that some thousands would present themselves for admission after 2.30pm such that they would have no real prospect of getting in before the kick-off'. 2.6.51 The concentration of fans outside the stadium, stated SYP Counsel, 'occurred quite quickly'. It consisted of those without tickets, 'latecomers' and 'a considerable number of persons who had taken drink'. It had been suggested by 'a number of observers' that it 'appeared' to be an unprecedented 'concerted action'. 2.6.52 It was further claimed that whether by 'design, the effect of alcohol or simple selfish arrogance, it is plain that there was a considerable relentless disregard of the safety and wellbeing of others by some fans'. Consequently SYP Counsel submitted 'that such behaviour and to the extent encountered on that day could not reasonably have been anticipated and, when it occurred, it was not in the circumstances possible to deal with it'. 2.6.53 SYP Counsel's written submission was supplemented by a report from Detective Inspector King who, after the disaster, was assigned to investigate 'the behaviour pattern of Liverpool Football Club Supporters at matches played away from home'.30 His report was provided to WMP. DI King concluded that '[i]t does appear that there is a nucleus of Liverpool supporters (unidentified) who do travel to matches played away from Liverpool without tickets and cause severe problems'. 2.6.54 Consequently, 'rather than soak up Police manpower' police forces considered it preferable 'to allow them into the ground ... rather than them cause havoc in the town their team is playing'. DI King concluded that there was 'no direct evidence to support this' yet 'fans do appear to know this'. 2.6.55 Despite a lack of material evidence, DI King's conclusion supported the SYP suggestion that there had been a possible 'conspiracy' to force entry at Hillsborough. WMP, who investigated the notion of 'conspiracy' at the request of SYP, 'found a total of thirteen persons who describe some kind of pre-determined intention to enter the ground without
 
-29. Submission to Lord Justice Taylor on behalf of South Yorkshire Police, 6 July 1989, HOM000018350001, pp9-40. 30. Report by Detective Inspector King 'Re: Previous Behaviour Liverpool Fans', 6 July 1989, SYP000097880001, tickets' and 'many other statements identify significant numbers of supporters without tickets'.31 2.6.56 They estimated 'in excess of 2,000' fans had arrived ticketless, but 'we do not believe that there was a major "conspiracy" as such, rather a continuation of a well established practice by many supporters to visit the ground for this particular match and purchase a ticket'. There was a 'sizeable hard-core', WMP found, who will attempt 'to enter the ground by fair means or foul' but it did not constitute 'one large conspiracy'. It was 'opportunism which collectively could be significant'.
+29. Submission to Lord Justice Taylor on behalf of South Yorkshire Police, 6 July 1989, HOM000018350001, pp9-40. 30. Report by Detective Inspector King 'Re: Previous Behaviour Liverpool Fans', 6 July 1989, SYP000097880001, pp2-10.
 
 %%page 190%%
+
+tickets' and 'many other statements identify significant numbers of supporters without tickets'.31 2.6.56 They estimated 'in excess of 2,000' fans had arrived ticketless, but 'we do not believe that there was a major "conspiracy" as such, rather a continuation of a well established practice by many supporters to visit the ground for this particular match and purchase a ticket'. There was a 'sizeable hard-core', WMP found, who will attempt 'to enter the ground by fair means or foul' but it did not constitute 'one large conspiracy'. It was 'opportunism which collectively could be significant'.
 
 2.6.57 SYP also requested WMP to investigate a suggestion that the barrier in pen 3 had 'collapsed at a time before the police were obliged to open the gates at Leppings Lane'.32
 
@@ -3786,9 +3834,11 @@ Sheffield Wednesday Football Club's submission to the Taylor Inquiry 2.6.70 In i
 
 2.6.71 The Club submitted that it was 'clearly regrettable in the extreme that the Safety Certificate was allowed to become seriously out of date'. Accepting that parts of the stadium did not comply with the safety certificate and Green Guide, 'no material alterations were ever made which were not requested by a member of the working party [which included the Council, the police and fire service] and/or discussed and agreed with the working party'.
 
-2.6.72 It was recognised that all Liverpool fans entering via the Leppings Lane turnstiles 'inevitably' created 'additional strain'. Yet 'the very worst that could realistically have been 37. 'The Hillsborough Inquiry – Update IV' by CC Peter Wright, 30 June 1989, SYP000098080001. 38. Written submission to the Taylor Inquiry from Sheffield Wednesday Football Club, undated, HOM000019260001, anticipated was that the kick-off might have to be delayed', and this only 'if Liverpool supporters ... ignored in substantial numbers the advice in their own supporters' magazine to arrive early to take account of the fact that the turnstiles would open at 11.30 – which they did'.
+2.6.72 It was recognised that all Liverpool fans entering via the Leppings Lane turnstiles 'inevitably' created 'additional strain'. Yet 'the very worst that could realistically have been 37. 'The Hillsborough Inquiry – Update IV' by CC Peter Wright, 30 June 1989, SYP000098080001. 38. Written submission to the Taylor Inquiry from Sheffield Wednesday Football Club, undated, HOM000019260001, pp1-15.
 
 %%page 192%%
+
+anticipated was that the kick-off might have to be delayed', and this only 'if Liverpool supporters ... ignored in substantial numbers the advice in their own supporters' magazine to arrive early to take account of the fact that the turnstiles would open at 11.30 – which they did'.
 
 2.6.73 Concerning the pens, the 'legitimate criticism which has to be faced … is that they needed to be monitored for over-crowding if they were not to become … dangerous'. But the Club 'had confirmed with the senior responsible police officer (Supt. Mole) that the Police were monitoring the pens'. 2.6.74 The pens, the Club claimed, had been constructed to prevent a repeat of the 1981 crush on the terrace 'on the advice of experts, in response to a police suggestion and in accordance with the local authority's permission'. It would be 'unfair to criticise the club' for acting on this advice. 2.6.75 The Club submitted that the 'tragedy occurred because Gate C was opened, without any preparation, and approximately 2,000 people were allowed to enter pens 3 and 4 at a rapid and uncontrolled rate and at a time when those pens were both full'. Other 'subsidiary "causes"' required examination but 'none of them caused this tragedy'.
 
@@ -3833,6 +3883,8 @@ Responses to written submissions 2.6.89 The disclosed documents illustrate the i
 Formal reports to the Taylor Inquiry Reports from West Midlands Police 2.6.94 As the Taylor Inquiry progressed, the WMP investigation was ongoing, involving as many as 440 officers.50 Assistant Chief Constable Mervyn Jones managed the investigation on behalf of his Chief Constable, submitting reports to the Taylor Inquiry, via the Treasury Solicitor and Home Office.
 
 43. Note by Freshfields solicitor concerning a consultation with John Dyson QC, Julian Gibson-Watt and Herbert Smith to discuss oral submissions, 13 July 1989, FFA000005360001. 44. The FA had been criticised for not taking a more active role in ensuring the safety of Hillsborough as a venue. 45. SYP comments on the submissions on behalf of the injured and bereaved, 12 July 1989, SYP000098140001, p2. 46. SYP comments on the submission on behalf of SWFC, 14 July 1989, SYP000098200001, p3. 47. SYP comments on the submission on behalf of Dr Eastwood, 13 July 1989, SYP000098160001, p2. 48. SYP comments on the submission on behalf of Sheffield City Council, 11 July 1989, SYP000098120001, p2. 49. SYP comments on the submission on behalf of Treasury Counsel, 13 July 1989, SYP000098180001, p2. 50. Organisational structure of the West Midlands Police Inquiry into the Hillsborough Disaster, 24 April 1989,
+
+SYP000006050001.
 
 %%page 195%%
 
@@ -3976,7 +4028,9 @@ Football Spectators Bill and the Taylor Inquiry 2.6.150 From government papers d
 
 SPA000000120001, p13. 83. Letter from Martin Flannery MP to Sheffield Star, 12 August 1989, MFL000000020001, p5. 84. Minutes of South Yorkshire Police Authority meeting held on 14 August 1989, SPA000000130001. For Peter Wright's letter of resignation see SPA000000120001, p21. 85. Letter from the Hillsborough Family Support Group (HFSG) to the Home Office, 21 August 1989, HOM000014700001.
 
-The HFSG was advised that the decision was for the Authority alone and that the Home Secretary had no power to overrule. See letter to the HFSG, 22 August 1989, HOM000014730001. 86. Letter from Martin Flannery MP to other MPs, 19 September 1989, MFL000000020001, p22. 87. Letter from Peter Wright to Sir Jack Layden, Chairman of South Yorkshire Police Authority, 31 January 1990, 88. Letter from Colin Moynihan, Minister for Sport, to Members of Parliament, 12 April 1989, COO000000830001.
+The HFSG was advised that the decision was for the Authority alone and that the Home Secretary had no power to overrule. See letter to the HFSG, 22 August 1989, HOM000014730001. 86. Letter from Martin Flannery MP to other MPs, 19 September 1989, MFL000000020001, p22. 87. Letter from Peter Wright to Sir Jack Layden, Chairman of South Yorkshire Police Authority, 31 January 1990,
+
+SPA000000350001. 88. Letter from Colin Moynihan, Minister for Sport, to Members of Parliament, 12 April 1989, COO000000830001.
 
 %%page 202%%
 
@@ -4074,6 +4128,8 @@ The Phillips Report 2.6.177 SYP commissioned two expert reports: on policing (Ph
 
 SYP000116060001. 104. Association of Chief Police Officers submission to the Taylor Inquiry, June 1989, HOM000009640001. 105. The 'Phillips Report' by JD Phillips, Deputy Chief Constable of Devon and Cornwall Constabulary, 30 August 1990,
 
+SYP000116060001.
+
 %%page 206%%
 
 2.6.184 DCC Phillips considered that the decision to open Gate C and other gates was correct. He disagreed with LJ Taylor that the failure to close the tunnel providing access to the central pens was a serious blunder, but conceded that there was 'some error of judgement' in not accommodating the distribution of the crowd once the gates had been opened.
@@ -4141,11 +4197,11 @@ Green, Director of Public Prosecutions, to CC Peter Wright, CPS000003140001, p10
 
 2.6.202 The report focused on four potential targets for prosecution:
 
-### South Yorkshire Police
+1. South Yorkshire Police
 
 2. Sheffield Wednesday Football Club and their safety engineers
 
-### Sheffield City Council
+3. Sheffield City Council
 
 4. Fans.
 
@@ -4165,7 +4221,7 @@ Green, Director of Public Prosecutions, to CC Peter Wright, CPS000003140001, p10
 
 2.6.208 Further, the failure to ensure that perimeter gates met Green Guide standards again demonstrated 'the unsatisfactory way in which the Club and Eastwoods chose to ignore a safety issue'. Yet, in conclusion, 'as with the Club, the events left Eastwoods' control once the decision was made to open the gates at 1452 hours'. The submission recommended interviews with key individuals but considered there was insufficient evidence to pursue a corporate manslaughter charge against SWFC or Eastwoods. 2.6.209 Regarding the possible prosecution of Dr Eastwood as an individual, however, the failure to reconsider the capacity of the Leppings Lane terrace after the changes of 1981 and 1985 'may be considered as a serious omission which in itself contributed to the disaster'. Nevertheless, '[w]hether the lack of care was sufficiently reckless to consider Dr Eastwood for Culpable Manslaughter seems unlikely'. The development of the Leppings Lane end and the 'lack of attention to safety' provided possibly 'strong mitigating factors in considering the culpability of South Yorkshire Police and Chief Superintendent Duckenfield'. 2.6.210 The report concluded that 'Sheffield City Council (and their predecessors, South Yorkshire County Council) had not dealt with the Safety Certificate correctly as is required by the 1975 Safety at Sports Grounds Act'. 2.6.211 Further, 'the Council, through its records and its employees, has acted in a careless manner'. Yet this did 'not amount to a reckless disregard for safety'.112 The Council's carelessness 'may have led to the enormity of the disaster', but the decision to open Gate C was not its responsibility, nor could it have been foreseen. 2.6.212 There was insufficient evidence to consider corporate manslaughter and though 'an alternative offence of Culpable Malfeasance may have been committed ... given the remoteness of the amendments to the Safety Certificate to the disaster itself, it would be inappropriate to pursue such a prosecution'. 2.6.213 Finally, there was no evidence available 'to prove that an individual or a group of supporters [were] responsible for a major criminal offence'. The submission recommended that the behaviour of fans required examination: 'The extent to which the effects of alcohol played a part, the late arrival of many thousands of Liverpool supporters and even perhaps their own failure to recognise the distress of fellow supporters in pens 3 and 4 are important issues in this disaster investigation'. 2.6.214 The report accepted that 'the evidence on which Lord Justice Taylor drew his conclusions has not been added to significantly', yet there were 'aspects of this disaster which in the opinion of the Investigating Officer may not have been given sufficient prominence [by LJ Taylor]; for example, the role of supporters'.
 
-112. Continuing quotes from Part 7 – Report to the Director of Public Prosecutions, SYP000038850001. This quote from
+112. Continuing quotes from Part 7 – Report to the Director of Public Prosecutions, SYP000038850001. This quote from p149.
 
 %%page 210%%
 
@@ -4189,7 +4245,9 @@ Consideration by the Director of Public Prosecutions 2.6.217 Gareth Williams QC 
 
 SYP000038890001; Superintendent Murray at SYP000038900001; Assistant Chief Constable Jackson at
 
-SYP000038910001; Superintendent Greenwood at SYP000038920001; Chief Superintendent Duckenfield at 114. Letter from CC Sharp to Michael Kennedy, 1 August 1990, CPS000004820001. 115. Joint Opinion by Gareth Williams QC and Peter Birts QC, 6 August 1990, CPS000003270001, pp77-116.
+SYP000038910001; Superintendent Greenwood at SYP000038920001; Chief Superintendent Duckenfield at
+
+SYP000038930001. 114. Letter from CC Sharp to Michael Kennedy, 1 August 1990, CPS000004820001. 115. Joint Opinion by Gareth Williams QC and Peter Birts QC, 6 August 1990, CPS000003270001, pp77-116.
 
 %%page 211%%
 
@@ -4245,7 +4303,9 @@ Complaints and disciplinary investigations 2.6.257 Investigations into complaint
 
 2.6.260 In response, bereaved families complained about the 'distressing innuendo, insinuation and veiled hints that additional evidence, not revealed to Lord Justice Taylor, will
 
-117. Press release: 'THE HILLSBOROUGH FOOTBALL STADIUM DISASTER', 30 August 1990, CPS000004930001, p13. 118. Letter from Attorney General to Douglas Hoyle MP, 29 November 1990, CPS000005010001. 119. Several documents within Crown Prosecution Service file CPS000003250001. 120. File note 'Hillsborough – Legal/Inquest Proceedings – Progress Report' written by DCC Peter Hayes, 18 September 121. Sheffield Star, 'Coroner will reveal the true story', 5 February 1990, SYP000123600001, p126.
+117. Press release: 'THE HILLSBOROUGH FOOTBALL STADIUM DISASTER', 30 August 1990, CPS000004930001, p13. 118. Letter from Attorney General to Douglas Hoyle MP, 29 November 1990, CPS000005010001. 119. Several documents within Crown Prosecution Service file CPS000003250001. 120. File note 'Hillsborough – Legal/Inquest Proceedings – Progress Report' written by DCC Peter Hayes, 18 September
+
+1990, SYP000118480001, pp23-24. 121. Sheffield Star, 'Coroner will reveal the true story', 5 February 1990, SYP000123600001, p126.
 
 %%page 215%%
 
@@ -4353,6 +4413,8 @@ CC Sharp had also concluded that complaints against ACC Jackson were unsubstanti
 
 SYP000123570001, pp58-63. 145. Letter from Stephen Walker to Richard Payne, 31 May 1991, SYP000123570001, pp37-48. 146. Counsel's advice from Richard Payne, undated, SYP000094930001, pp91-125. 147. Letter from ACC Moore, South Yorkshire Police, to Brigadier Pownall, Police Complaints Authority, 26 July 1991,
 
+SYP000123570001, p17.
+
 %%page 219%%
 
 2.6.287 Brigadier Pownall forcefully rejected both submissions.148 He questioned the propriety of CC Sharp's letter, writing that 'we did not feel it was altogether appropriate for the investigating officer to set out so fully his views on the disciplinary action to be taken'. He also criticised the lack of thoroughness underpinning Mr Payne's opinion, stating that it was 'selective' and had failed to reflect 'some important points'.
@@ -4375,7 +4437,7 @@ SYP000123570001, p9. 149. South Yorkshire Police press release, 12 July 1991, SY
 
 SYP000123580001, p301 and pp306-311. 151. Note for file of discussion with Brigadier Pownall, Police Complaints Authority, 22 July 1991, SYP000123580001, p289. 152. Instructions to Counsel, 25 July 1991, SYP000110390001. 153. Counsel's advice, 9 October 1991, SYP000123580001, pp180-188. 154. Memorandum from Superintendent Fell to Chief Superintendent Mole, 5 September 1991, SYP000123580001, p257. 155. Note of telephone conversation between ACC Moore, South Yorkshire Police, and Brigadier Pownall, Police
 
-Complaints Authority, 29 August 1991, SYP000123580001, p262. 156. Memorandum from Superintendent Fell to Assistant Chief Constable Moore, 23 September 1991, SYP000123580001,
+Complaints Authority, 29 August 1991, SYP000123580001, p262. 156. Memorandum from Superintendent Fell to Assistant Chief Constable Moore, 23 September 1991, SYP000123580001, p255.
 
 %%page 220%%
 
@@ -4403,9 +4465,13 @@ Complaints Authority, 29 August 1991, SYP000123580001, p262. 156. Memorandum fro
 
 Complaints Authority, 25 September 1991, SYP000123580001, p251. 158. Letter from Brigadier Pownall, Police Complaints Authority, to ACC Moore, South Yorkshire Police, 30 September
 
-1991, SYP000123580001, pp219-230. 159. Advice from Counsel, 9 October 1991, SYP000123580001, pp180-188. 160. The evidence considered 'untrue' is not specified. 161. 'Problem preventing progress of the Hillsborough tribunal' by Superintendent Fell, 21 October 1991, such statements'. Given that the PCA had already 'certified ... that it was satisfied with the investigation' setting up a team was 'difficult to countenance'.
+1991, SYP000123580001, pp219-230. 159. Advice from Counsel, 9 October 1991, SYP000123580001, pp180-188. 160. The evidence considered 'untrue' is not specified. 161. 'Problem preventing progress of the Hillsborough tribunal' by Superintendent Fell, 21 October 1991,
+
+SYP000123580001, pp172-179.
 
 %%page 221%%
+
+such statements'. Given that the PCA had already 'certified ... that it was satisfied with the investigation' setting up a team was 'difficult to countenance'.
 
 2.6.304 Supt Fell reiterated the issue concerning officers' recollections, some of which 'were supplemented by further recollections'. He considered that 'some' recollections 'were perhaps influenced by advice as to what was required for the purpose of the Taylor Inquiry and civil litigation'.
 
@@ -4425,9 +4491,15 @@ Complaints Authority, 25 September 1991, SYP000123580001, p251. 158. Letter from
 
 162. Letter from ACC Moore, South Yorkshire Police, to Brigadier Pownall, Police Complaints Authority, 24 October 1991,
 
-SYP000123580001, p161. 163. Letter from ACC Moore, South Yorkshire Police, to Judge Petre, Police Complaints Authority, 29 October 1991, 164. Letter from Trevor Hicks to Chief Constable Richard Wells, South Yorkshire Police, 23 October 1991, feelings like this have still to submit themselves to the processes of the world of legal detail'.165
+SYP000123580001, p161. 163. Letter from ACC Moore, South Yorkshire Police, to Judge Petre, Police Complaints Authority, 29 October 1991,
+
+SYP000123580001, pp124-156. 164. Letter from Trevor Hicks to Chief Constable Richard Wells, South Yorkshire Police, 23 October 1991,
+
+SYP000123580001, p167.
 
 %%page 222%%
+
+feelings like this have still to submit themselves to the processes of the world of legal detail'.165
 
 2.6.312 He reassured Mr Hicks that SYP had 'let no grass grow under our feet' and had instructed Counsel to draw up disciplinary charges. It was, however, 'very difficult for anyone to finalise arrangements for the hearing while the details of charges have yet to be agreed between the South Yorkshire Police and the Police Complaints Authority'. C/Supt Duckenfield's illness was a 'further complication'. The assessment of his illness was 'not a matter for police officers, it is a matter of medical advice'. A report from 'a police staff surgeon' was awaited.
 
@@ -4445,7 +4517,9 @@ SYP000123580001, p161. 163. Letter from ACC Moore, South Yorkshire Police, to Ju
 
 165. Statement by CC Wells, South Yorkshire Police, undated, SYP000123580001, pp163-164. 166. South Yorkshire Police press release, 29 October 1991, SYP000123580001, p123. 167. Advice from Counsel, SYP000123580001, p88. 168. Draft disciplinary charge, 26 November 1991, SYP000123580001, p39. 169. Letter from ACC Roche, West Midlands Police, to ACC Moore, South Yorkshire Police, 20 December 1991,
 
-SYP000123580001, p14. 170. Letter from ACC Moore, South Yorkshire Police, to Judge Petre, Police Complaints Authority, 12 December 1991, 171. Statement by the Police Complaints Authority, 13 January 1992, SYP000123580001, pp9-13.
+SYP000123580001, p14. 170. Letter from ACC Moore, South Yorkshire Police, to Judge Petre, Police Complaints Authority, 12 December 1991,
+
+SYP000123580001, p27. 171. Statement by the Police Complaints Authority, 13 January 1992, SYP000123580001, pp9-13.
 
 %%page 223%%
 
@@ -4481,7 +4555,7 @@ Conclusion: what is added to public understanding • Documents disclosed to the
 - In reaching a decision on criminal prosecutions, the Director of Public Prosecutions was advised that responsibility for the disaster lay with SWFC, Eastwood & Partners engineers, Sheffield City Council and SYP. While the most significant proportion of responsibility was attributed to SYP, it was considered that the legal case for manslaughter or any other criminal offence could not be established.
 - Disciplinary proceedings against Chief Superintendent David Duckenfield and Superintendent Bernard Murray were brought only following a direction from the Police Complaints Authority (PCA). Responding to legal advice, SYP had decided that disciplinary charges should not be brought. The PCA was concerned that subsequent delays in bringing disciplinary proceedings were 'tactical'. A significant cause of the delay was the impact of the 'review and alteration' of SYP statements and their evidential unreliability.
 
-Civil litigation
+### Chapter 7: Civil litigation
 
 2.7.1 Part 1, Hillsborough: 'what was known', included an overview of the litigation pursued through the civil courts. In the light of the material now disclosed, this chapter reveals the 'behind the scenes' context, particularly concerning the apportionment of culpability for the disaster through the 'contribution hearings'.
 
@@ -4523,9 +4597,13 @@ The response of the police officer who had released the information was to hold 
 
 > I find it negligent on their behalf to first state they were entitled to view the record if they weren't so entitled and secondly then to release a copy of the convictions along with a copy of my covering letter to the solicitor's representing [the claimant].
 
-The issue appears to have been resolved following a conversation between the solicitors involved. SYP000160100001, p2 onwards. 3. 'HILLSBOROUGH DISASTER – MEETING TO DISCUSS INSURANCE AND LEGAL IMPLICATIONS', 19 April 1989, compensation, officials at the Home Office noted that the issue of compensation would be complex and protracted.
+The issue appears to have been resolved following a conversation between the solicitors involved. SYP000160100001, p2 onwards. 3. 'HILLSBOROUGH DISASTER – MEETING TO DISCUSS INSURANCE AND LEGAL IMPLICATIONS', 19 April 1989,
+
+SYP000123590001, pp280-90.
 
 %%page 229%%
+
+compensation, officials at the Home Office noted that the issue of compensation would be complex and protracted.
 
 2.7.10 It was 'by no means clear that someone or some organisation will be found to be liable'. In marked contrast to other disasters, such as the Clapham rail disaster, this ruled out automatic compensation. Officials considered it inevitable that the legal process would have to be pursued until liability was established in court.4
 
@@ -4959,7 +5037,9 @@ Commissioned reports 2.7.101 As discussed in Chapter 6, David Phillips, Deputy C
 
 66. Action taken by the South Yorkshire Police, 13 June 1990, SYP000110320001, p4. 67. Action taken by the South Yorkshire Police, 25 June 1990, SYP000110340001, p30. From the document: 'NATURE
 
-## OF ACTION: CHECK TRANSCRIPTS & SUBMISSIONS BY SWFC RE FENCE. CHECK TRANSCRIPTS AND FINAL SUBMISSIONS BY SHEFFIELD WEDNESDAY FOOTBALL CLUB RE ADDITIONAL GATE IN THE RADIAL FENCE IN
+OF ACTION: CHECK TRANSCRIPTS & SUBMISSIONS BY SWFC RE FENCE. CHECK TRANSCRIPTS AND FINAL
+
+SUBMISSIONS BY SHEFFIELD WEDNESDAY FOOTBALL CLUB RE ADDITIONAL GATE IN THE RADIAL FENCE IN
 
 LEPPINGS LANE TERRACES ... RESULT OF ACTION: Checked. Nothing of value'. 68. Memorandum from DI Cleverley to C/Supt Wain, 16 June 1990, SYP000098370001, p4. 69. Memorandum from DI Cleverley to C/Supt Wain, 13 July 1990, SYP000098410001, pp2-6. 70. Letter from Peter Metcalf, Hammond Suddards, to DCC Peter Hayes, 19 July 1990, SYP000118290001, p4. 71. Letter from Peter Metcalf, Hammond Suddards, to DCC Peter Hayes, 30 August 1990, SYP000116060001, pp1-2.
 
@@ -4991,7 +5071,7 @@ Superintendent Marshall until the situation forced itself on him, was a major ca
 
 That, and the lack of police deployment across the mouth of the terrace tunnel, were in my view, the two serious flaws in the South Yorkshire Police operation.73
 
-2.7.104 Mr Metcalf invited comments on the Stalker Report from the action team. He was satisfied, however, that the Phillips Report dealt reasonably well with Mr Stalker's criticism of the police handling of the crowd outside the turnstiles in Leppings Lane. 72. Report of JD Phillips, Deputy Chief Constable, Devon and Cornwall Constabulary, August 1990, SYP000116060001, 73. Report of John Stalker, 20 August 1990, SYP000116060001, p278.
+2.7.104 Mr Metcalf invited comments on the Stalker Report from the action team. He was satisfied, however, that the Phillips Report dealt reasonably well with Mr Stalker's criticism of the police handling of the crowd outside the turnstiles in Leppings Lane. 72. Report of JD Phillips, Deputy Chief Constable, Devon and Cornwall Constabulary, August 1990, SYP000116060001, p174. 73. Report of John Stalker, 20 August 1990, SYP000116060001, p278.
 
 %%page 248%%
 
@@ -5063,7 +5143,7 @@ Compensation claims and settlements 2.7.125 Compensation payments to SYP officer
 
 2.7.126 South Yorkshire Police Authority's Finance and General Purposes Committee met on 8 December 1989 to consider the implications of the decision to settle some compensation claims from the bereaved and injured. Press reports that estimated the final cost of claims as £50 million were noted, but regarded as speculation fuelled mainly by solicitors acting for the claimants. The Police Authority's public liability insurance cover with MMI was limited to £8.5 million.
 
-81. Letter from Peter Metcalf, Hammond Suddards, to DCC Peter Hayes, 19 February 1992, SYP000160160001, pp1-3. 82. Letter from Superintendent AM Hepworth to C Bone, Hillsborough Scrutiny, 23 December 1997, SYP000160110001, 83. See below for details and source in relation to this figure.
+81. Letter from Peter Metcalf, Hammond Suddards, to DCC Peter Hayes, 19 February 1992, SYP000160160001, pp1-3. 82. Letter from Superintendent AM Hepworth to C Bone, Hillsborough Scrutiny, 23 December 1997, SYP000160110001, pp8-9. 83. See below for details and source in relation to this figure.
 
 %%page 251%%
 
@@ -5091,6 +5171,8 @@ SPA000000760001. 85. Internal Home Office memorandum, 1 December 1989, HOM000006
 
 HOM000013850001. 87. Letter from M Addison, Home Office to RC Johnson, South Yorkshire Police Authority, 6 November 1989,
 
+SPA000000250001.
+
 %%page 252%%
 
 2.7.132 There followed a different approach from the Police Authority. Having agreed to pay compensation to those claimants meeting certain criteria, there was concern that the statutory figure for bereavement under the Fatal Accidents Act 1976 was only £3,500.
@@ -5113,7 +5195,11 @@ HOM000013850001. 87. Letter from M Addison, Home Office to RC Johnson, South Yor
 
 HOM000036010001, p5. 89. Letter from Elizabeth Steel, Hillsborough Steering Committee to a firm of Solicitors: Hillsborough Group Bulletin 12,
 
-29 December 1989, FAM000000190001, p10. 90. 'SOUTH YORKSHIRE POLICE FINANCE AND GENERAL PURPOSES COMMITTEE', 6 January 1995, 91. 'SOUTH YORKSHIRE POLICE AUTHORITY, REPORT OF THE CLERK AND TREASURER', 15 March 1996,
+29 December 1989, FAM000000190001, p10. 90. 'SOUTH YORKSHIRE POLICE FINANCE AND GENERAL PURPOSES COMMITTEE', 6 January 1995,
+
+SPA000000830001. 91. 'SOUTH YORKSHIRE POLICE AUTHORITY, REPORT OF THE CLERK AND TREASURER', 15 March 1996,
+
+SPA000000850001.
 
 %%page 253%%
 
@@ -5150,7 +5236,7 @@ Conclusion: what is added to public understanding • The decision by SYP to set
 
 %%page 255%%
 
-The Coroner's inquiry: from the immediate aftermath to the preliminary hearings
+### Chapter 8: The Coroner's inquiry: from the immediate aftermath to the preliminary hearings
 
 Introduction 2.8.1 As discussed in Part 1, the Hillsborough inquests were controversial in their organisation, conduct and outcome. The South Yorkshire West District Coroner, Dr Stefan Popper, considered that the medical evidence determined that all who died received their fatal injuries from a common cause – the crush on the terraces. He repeatedly compared the deaths at Hillsborough with deaths in a car crash. In determining 'how' people died, therefore, he focused on the circumstances of the crush rather than the effectiveness of rescue and resuscitation attempts.
 
@@ -5330,7 +5416,7 @@ Mini-inquests 2.8.66 Given the DPP's continuing consideration of possible prosec
 
 2.8.74 Two weeks later, however, Dr Popper reversed his decision on preliminary hearings. Responding to a letter sent to the DPP's office by the Hillsborough Steering Committee (solicitors for the bereaved),31 he stated: 'it might be both helpful and advantageous if I were to resume the Inquests in early Spring for the purposes of taking the medical evidence, together with non-controversial evidence such as the location of the deceased, either alive or dead or both within the ground'. Evidence would be restricted and a 'degree of control of the proceedings would be required'.
 
-30. File note, 'Meeting at Nechells Police Station Birmingham with Supt Taylor and C. I. Tobe [sic] to discuss various aspects of the Hillsborough Inquiry', 24 January 1990, SPP000001480001, pp1-2. 31. Letter from Dr Popper to Mr Newell, DPP, Director of Headquarters Case Work, 15 February 1990, SYC000001410001,
+30. File note, 'Meeting at Nechells Police Station Birmingham with Supt Taylor and C. I. Tobe [sic] to discuss various aspects of the Hillsborough Inquiry', 24 January 1990, SPP000001480001, pp1-2. 31. Letter from Dr Popper to Mr Newell, DPP, Director of Headquarters Case Work, 15 February 1990, SYC000001410001, p148.
 
 %%page 265%%
 
@@ -5368,7 +5454,7 @@ The vast majority will accept it in the spirit in which it's done. The press wil
 
 36. Meeting to discuss inquests, 22 February 1990, SYC000001390001, pp63-65. 37. File note, 'MEETING WITH MERVYN JONES, MR METCALFE [sic] AND MR FRASER TO DISCUSS THE
 
-HILLSBOROUGH FOOTBALL DISASTER INQUESTS HELD ON 26TH FEBRUARY 1990', HOM000035600001, 38. File note, 'MEETING WITH MERVYN JONES, MR METCALFE [sic] AND MR FRASER TO DISCUSS THE
+HILLSBOROUGH FOOTBALL DISASTER INQUESTS HELD ON 26TH FEBRUARY 1990', HOM000035600001, pp11-12. 38. File note, 'MEETING WITH MERVYN JONES, MR METCALFE [sic] AND MR FRASER TO DISCUSS THE
 
 HILLSBOROUGH FOOTBALL DISASTER INQUESTS HELD ON 26TH FEBRUARY 1990', HOM000035600001, p15.
 
@@ -5424,7 +5510,7 @@ SPP000000720001, pp2-6.
 
 of the evidence. This undermined its reliability and this became a serious issue of concern regarding 'sufficiency' of inquiry. • This process, while agreed by the bereaved families' legal representatives, was accepted on the assumption that questions and inconsistencies within summaries would be fully examined at the generic stage of the inquests. This occurred only in a limited number of cases. • Following the mini-inquests, the families' legal representatives conveyed their clients' satisfaction with the process to the Coroner. Yet families' correspondence demonstrates serious concerns regarding what they considered to be a flawed process which left many questions unanswered.
 
-The generic hearing, Judicial Review and continuing controversies
+### Chapter 9: The generic hearing, Judicial Review and continuing controversies
 
 Introduction 2.9.1 In June 1990, one month after the conclusion of the mini-inquests, the Coroner, Dr Stefan Popper, wrote to solicitor Ian Rothera enclosing proposed instructions to Counsel, Michael Powers.1 He speculated on the implications for the inquests should criminal prosecutions not materialise. 2.9.2 The inquests would be resumed, but as a public inquiry had been held, he questioned 'how much further work' would have 'to be undertaken by the Coroner and his Jury' with a view to reaching a verdict. The scope of the inquests would be important to establish. He asked: 'How large a "circle" does the word "how" encompass' and 'To what extent do the questions of "why did it happen" and "who is to blame" fall within the compass of the word "how"?' 2.9.3 Dr Popper considered imposing strict limitations: 'One view' could be 'to restrict the question of "how" to the establishment simply of the fact that a crush occurred within the terraces, but not to explore the reasons for this, taken together with the medical cause of death, the Jury could be invited to bring in a verdict'. 2.9.4 He recognised it was unlikely such a restriction 'would satisfy anyone', could be challenged on the grounds of insufficiency of inquiry and would prevent consideration of an unlawfully killed verdict because it would not allow the jury 'to be satisfied beyond a reasonable doubt that the criteria for such a verdict had been fulfilled'. 2.9.5 A full inquiry, he suggested, would focus on:
 
@@ -5462,7 +5548,7 @@ Preparation for the generic stage of the inquests 2.9.6 On 1 April 1990 Leslie S
 
 2.9.13 He noted that while it was 'understood and acknowledged that strictly speaking a Coroner's Inquest should not seek to determine either civil or criminal liability', the
 
-2. Notes between Mr M Kennedy and Mr C Newell, 17 and 18 June 1990, CPS000004700001, pp2-3. 3. Papers relating to the position of coroner's officer, SYC000009880001. 4. File note, 'Meeting with M. Jones, S. Beechey, C. Highton and S.L.P. [Popper]', 14 August 1990, SPP000001610001,
+2. Notes between Mr M Kennedy and Mr C Newell, 17 and 18 June 1990, CPS000004700001, pp2-3. 3. Papers relating to the position of coroner's officer, SYC000009880001. 4. File note, 'Meeting with M. Jones, S. Beechey, C. Highton and S.L.P. [Popper]', 14 August 1990, SPP000001610001, pp1-4.
 
 %%page 273%%
 
@@ -5634,7 +5720,9 @@ The verdict and bereaved families' concerns 2.9.77 As the opening of the resumed
 - the lack of contact at the Medico-Legal Centre because of the glass partition
 - in some instances, police officers had been rude or curt with people.
 
-34. Letter from Dolores Steele to Hillsborough Steering Committee, 12 November 1990, SPP000003640001, p1. 35. Letter from Miss Steel, Hillsborough Steering Committee, to Dr Popper, 30 April 1991, SPP000001060001, p1. 36. Letter from Miss Steel, Hillsborough Steering Committee, to David Phillips & Partners, 16 July 1991, 37. Letter from Dr Popper to Mr J D K Burton, 27 September 1991, SPP000002990001, pp1-2.
+34. Letter from Dolores Steele to Hillsborough Steering Committee, 12 November 1990, SPP000003640001, p1. 35. Letter from Miss Steel, Hillsborough Steering Committee, to Dr Popper, 30 April 1991, SPP000001060001, p1. 36. Letter from Miss Steel, Hillsborough Steering Committee, to David Phillips & Partners, 16 July 1991,
+
+SYP000094820001, p9. 37. Letter from Dr Popper to Mr J D K Burton, 27 September 1991, SPP000002990001, pp1-2.
 
 %%page 282%%
 
@@ -5808,7 +5896,7 @@ Coroner demonstrate strong differences of opinion regarding the status of the in
 - Lord Justice Stuart-Smith raised concerns with the Coroner that families had been misled into believing that questions that remained unanswered at the mini-inquests would be addressed at the generic stage. The Coroner reassured him that, wherever relevant, this was achieved, although subsequent correspondence from families suggests otherwise.
 - While Lord Justice Stuart-Smith recognised the complexities and difficulties facing the Coroner, he considered that the generic hearing became 'out of control'. He suggested that it might have been more appropriate to have adopted the findings of the Taylor Inquiry than to have conducted a generic hearing.
 
-The 3.15pm cut-off
+### Chapter 10: The 3.15pm cut-off
 
 2.10.1 The Coroner's decision to impose a restriction on evidence presented to the jury at the inquests became public knowledge after the completion of the 'mini-inquests' and immediately prior to the resumption of the inquests in generic form. Of the Coroner's decisions this restriction was, and remains, of profound concern to the bereaved families. Yet, as revealed in Chapter 9, it was a restriction agreed by lawyers representing the bereaved.
 
@@ -5952,7 +6040,7 @@ Memorial to the Attorney General and the Judicial Review 2.10.62 On 15 April 199
 
 2.10.67 On 6 April 1993, the High Court granted leave to six families to apply for judicial review of the inquest verdicts of accidental death on grounds similar to those put before the Attorney General.21 It was argued that negligence had been accepted by the Police Authority, the Coroner had wrongly instituted mini-inquests and the medical opinion that deaths were 'instantaneous' was now contested. The evidence summarised and presented at the mini-inquests by WMP officers had prevented necessary examination which had been 'flawed and tardy'. Taking these and several other arguments into account, Mr Justice Macpherson ruled that 'a case can be sensibly argued' in support of the challenge.
 
-## 18. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA
+18. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA
 
 CARLILE (the mother and sister of Paul Carlile) JOHN AND THERESA GLOVER (the father and mother of Ian Glover)
 
@@ -6008,9 +6096,11 @@ AGO000000520001, pp1-3. 29. From CC Wells to Mr Paul Pugh, Home Office OPPU, 20 
 
 2.10.83 Months later the HFSG submission continued to resonate within the Attorney General's office. Dame Barbara Mills, then Director of Public Prosecutions (DPP), wrote to the Attorney General presenting the background to the case and detailing previous judgments.33 She noted that the HFSG had 'continued to press for more and more inquiries into the cause of the disaster'. 2.10.84 Its 'new evidence' centred on video-tape footage, a statement and an affidavit from Sheffield Wednesday Football Club's design and maintenance engineer responsible for CCTV coverage and from Dr Walker who had attempted resuscitation at the Northern General Hospital. In assessing the video material and the engineer's evidence Dame Barbara considered that 'his criticisms come nowhere near the standard of proof required for criminal liability'. 2.10.85 Regarding Dr Walker's evidence she stated that there was 'no evidence ... that anyone with serious crush injuries could have survived' given that '[i]rrevocable brain damage will ensue within four to six minutes of the crushing'. She concluded that 'there is no new evidence as alleged by the HFSG and their legal representatives, and therefore no grounds for reopening the police investigation into the Hillsborough disaster'.
 
-The Stuart-Smith Scrutiny 2.10.86 Two months later the recently elected Labour Government's Home Secretary, Jack Straw, noted that the 'alleged new evidence and allegations made in the Granada television programme' had been examined at the Home Office, and also by the Attorney General and the DPP.34 These considerations had found 'no evidence to justify a new public enquiry, a re-opening of the inquest, or the prosecution of individuals'. 2.10.87 However, he was 'certain that public concern will not be allayed by a reassurance from the Home Office that there is no new evidence' (emphasis in original). Consequently he proposed 'an independent examination of the alleged new evidence by a senior legal figure – a respected judge ... or perhaps a senior Counsel ... sufficiently senior and respected to command public confidence' (as noted in Part 1, this became the 'scrutiny' of 'new evidence' conducted by Lord Justice Stuart-Smith). 2.10.88 A handwritten comment on a document, from the Prime Minister's Private Secretary for Home Affairs to Liz Lloyd of the Number 10 Policy Unit, questioned Mr Straw's proposal: 'Liz, doesn't this strike you as a silly precedent?' Ms Lloyd wrote to the Prime Minister, Tony Blair, disclosing Mr Straw's position and the rationale behind the Scrutiny proposal: 'JS does not believe there is sufficient new evidence for a) a new inquiry, b) reopening the inquest or c) prosecution of individuals. However, he believes that this is not publicly acceptable unless it comes from an independent source'.35 2.10.89 A handwritten note from the Private Secretary added that it was not necessary 'to intervene on this, but we should watch for JS setting up too many inquiries of this kind'. An additional note, apparently written by the Prime Minister, asked 'Why? What is the point?'. 2.10.90 Ms Lloyd wrote to Mr Blair two weeks later referring to his scepticism concerning the need to 'look anew' at Hillsborough.36 She stated that Mr Straw considered the Scrutiny necessary because 'he and others had given assurance before the election that the new 33. Letter from Dame Barbara Mills to John Morris QC MP, Attorney General, 9 May 1997, AGO000000570001, pp4-6. 34. Letter from Jack Straw Home Secretary to John Morris QC MP, Attorney General, 5 June 1997, COO000001360001, pp1-2. 35. Memorandum from Liz Lloyd, Number 10 Policy Unit, to Prime Minister, Tony Blair, 9 June 1997, COO000001200001, p1. 36. Memorandum from Liz Lloyd, Number 10 Policy Unit, to Prime Minister, Tony Blair, 26 June 1997, COO000001350001, evidence would be examined'. An added comment from Mr Blair's Private Secretary noted: 'I understand your caution, but the Home Secretary is really too far into this (and was before the election) to pull back now'.
+The Stuart-Smith Scrutiny 2.10.86 Two months later the recently elected Labour Government's Home Secretary, Jack Straw, noted that the 'alleged new evidence and allegations made in the Granada television programme' had been examined at the Home Office, and also by the Attorney General and the DPP.34 These considerations had found 'no evidence to justify a new public enquiry, a re-opening of the inquest, or the prosecution of individuals'. 2.10.87 However, he was 'certain that public concern will not be allayed by a reassurance from the Home Office that there is no new evidence' (emphasis in original). Consequently he proposed 'an independent examination of the alleged new evidence by a senior legal figure – a respected judge ... or perhaps a senior Counsel ... sufficiently senior and respected to command public confidence' (as noted in Part 1, this became the 'scrutiny' of 'new evidence' conducted by Lord Justice Stuart-Smith). 2.10.88 A handwritten comment on a document, from the Prime Minister's Private Secretary for Home Affairs to Liz Lloyd of the Number 10 Policy Unit, questioned Mr Straw's proposal: 'Liz, doesn't this strike you as a silly precedent?' Ms Lloyd wrote to the Prime Minister, Tony Blair, disclosing Mr Straw's position and the rationale behind the Scrutiny proposal: 'JS does not believe there is sufficient new evidence for a) a new inquiry, b) reopening the inquest or c) prosecution of individuals. However, he believes that this is not publicly acceptable unless it comes from an independent source'.35 2.10.89 A handwritten note from the Private Secretary added that it was not necessary 'to intervene on this, but we should watch for JS setting up too many inquiries of this kind'. An additional note, apparently written by the Prime Minister, asked 'Why? What is the point?'. 2.10.90 Ms Lloyd wrote to Mr Blair two weeks later referring to his scepticism concerning the need to 'look anew' at Hillsborough.36 She stated that Mr Straw considered the Scrutiny necessary because 'he and others had given assurance before the election that the new 33. Letter from Dame Barbara Mills to John Morris QC MP, Attorney General, 9 May 1997, AGO000000570001, pp4-6. 34. Letter from Jack Straw Home Secretary to John Morris QC MP, Attorney General, 5 June 1997, COO000001360001, pp1-2. 35. Memorandum from Liz Lloyd, Number 10 Policy Unit, to Prime Minister, Tony Blair, 9 June 1997, COO000001200001, p1. 36. Memorandum from Liz Lloyd, Number 10 Policy Unit, to Prime Minister, Tony Blair, 26 June 1997, COO000001350001, pp1-2.
 
 %%page 303%%
+
+evidence would be examined'. An added comment from Mr Blair's Private Secretary noted: 'I understand your caution, but the Home Secretary is really too far into this (and was before the election) to pull back now'.
 
 2.10.91 Within SYP the Stuart-Smith Scrutiny was considered to be a result of 'pressure from bereaved relatives and others who allege that hitherto unseen video recordings have been unearthed and that there is new evidence to suggest that victims were dying after
 
@@ -6030,7 +6120,9 @@ The Stuart-Smith Scrutiny 2.10.86 Two months later the recently elected Labour G
 
 37. Letter from Mr Nicholas Owston, Winkworth and Pemberton Solicitors, to Mr Alan Walker, Force Solicitor, 29 July
 
-1997, SYP000096270001, p54. 38. Letter from Mr Nicholas Owston, Winkworth and Pemberton Solicitors, to Mr Alan Walker, Force Solicitor, 5 August 39. Letter from ACC Ian Daines, South Yorkshire Police, to Mr Nicholas Owston, Winkworth and Pemberton Solicitors,
+1997, SYP000096270001, p54. 38. Letter from Mr Nicholas Owston, Winkworth and Pemberton Solicitors, to Mr Alan Walker, Force Solicitor, 5 August
+
+1997, SYP000096270001, pp61-62. 39. Letter from ACC Ian Daines, South Yorkshire Police, to Mr Nicholas Owston, Winkworth and Pemberton Solicitors,
 
 6 August 1997, SYP000096270001, p64.
 
@@ -6072,7 +6164,9 @@ The Stuart-Smith Scrutiny 2.10.86 Two months later the recently elected Labour G
 
 2.10.113 He considered that there 'was no such evidence' and 'he did not know of any novus actus interveniens after 3.15'. The jury was aware that not all who were crushed had died. Mr King was unaware that 'Mr Fraser [the families' solicitor] had agreed to the 3.15 cut-off point' or whether, 'as now alleged', the Coroner 'misled families into believing that the questions of where and when people died would be looked at again during the main inquests'. Mr King stated that his 'efforts' had been 'directed to creating an overall picture of what happened and not to establishing the precise circumstances in which particular individuals died'.
 
-47. Letter from CP Dorries HM Coroner to Dr DN Slater, 26 November 1997, SPP000000140001, p1. 48. Letter from Dr DN Slater, Rotherham Hospital NHS Trust, to Lord Justice Stuart-Smith, 4 December 1997, 49. Note of Hillsborough Scrutiny meeting, 8 December 1997, HOM000039460001.
+47. Letter from CP Dorries HM Coroner to Dr DN Slater, 26 November 1997, SPP000000140001, p1. 48. Letter from Dr DN Slater, Rotherham Hospital NHS Trust, to Lord Justice Stuart-Smith, 4 December 1997,
+
+HOM000039920001, pp1-9. 49. Note of Hillsborough Scrutiny meeting, 8 December 1997, HOM000039460001.
 
 %%page 306%%
 
@@ -6136,9 +6230,7 @@ Memorial to the Attorney General, 1992 2.10.136 In the Memorial presented to the
 
 Coroner (Dr Popper) or from Dr Slater, the pathologist. In paragraph 2.10.150 below, Dr Slater suggests that it was he
 
-– and not Dr Popper – who spoke to PC Bruder. 56. Memorandum from SJ Wooler to the Attorney General, 6 February 1992, pp1-4.
-
-## 57. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA
+– and not Dr Popper – who spoke to PC Bruder. 56. Memorandum from SJ Wooler to the Attorney General, 6 February 1992, pp1-4. 57. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA
 
 CARLILE (the mother and sister of Paul Carlile) JOHN AND THERESA GLOVER (the father and mother of Ian Glover)
 
@@ -6174,6 +6266,8 @@ CORONER'S ACT 1988', 13 March 1996, AGO000000480001, pp1-7.
 
 2.10.151 He also stated that he had not been involved in drafting the second statement and 'its contents contain information that did not arise during the course of our conversation'. 60. Letter from Dr DN Slater, Rotherham Hospital NHS Trust, to Lord Justice Stuart-Smith, 4 December 1997,
 
+HOM000039920001, p10.
+
 %%page 311%%
 
 Dr Slater was 'personally aware of no pressure from HM Coroner or the police to pressurise PC Bruder to change his evidence' and neither had he (Dr Slater) been under pressure 'to make my pathological evidence fit any presumptive 3.15pm cut-off point'.
@@ -6192,7 +6286,7 @@ Memorial to the Attorney General, 2005 2.10.152 A further submission was made by
 
 2.10.158 Reflecting on these documents it is instructive that in 1992 it was conceded that a case could be made for a new inquest yet by 2006 the refusals were distinctly more unequivocal, based on advice that hardened progressively even as more professional opinion accumulated to challenge the original pathologists' views.
 
-### Memorandum to the Attorney General, 'KEVIN DANIEL WILLIAMS (DECEASED) APPLICATION UNDER SECTION
+61. Memorandum to the Attorney General, 'KEVIN DANIEL WILLIAMS (DECEASED) APPLICATION UNDER SECTION
 
 13[1][B] OF THE CORONER'S ACT 1988', 11 January 2006, AGO000001240001, pp2-14. 62. Internal note prepared by Lord Goldsmith, Attorney General, 5 February 2006, AGO000001300001, p1.
 
@@ -6217,7 +6311,7 @@ Memorial to the Attorney General, 2005 2.10.152 A further submission was made by
 - In the well-documented case of Kevin Williams and successive submissions by his family to the Attorney General, the initial pathologist's opinion appeared definitive, but further authoritative opinions raised significant doubts about the accuracy of that initial opinion.
 - The documents disclosed show that, considered alongside the restrictions placed by the Coroner on the examination of the evidence presented to the mini-inquests and the presentation of the pathologists' medical opinion as incontrovertible, the imposition of the 3.15pm cut-off severely limited examination of the rescue, evacuation and treatment of those who died. This raised profound concerns regarding sufficiency of inquiry and examination of evidence.
 
-Review and alteration of statements
+### Chapter 11: Review and alteration of statements
 
 2.11.1 As discussed in Part 1, statements made by South Yorkshire Police (SYP) officers in the form of handwritten recollections of their experiences on the day of the disaster underwent an unprecedented process of review and alteration before their submission to the official inquiry.
 
@@ -6397,7 +6491,11 @@ SYP000101040001, p9. 34. Statement of PC Stephen Mercer (unamended), 27 April 19
 
 SYP000100140001, p5. 35. Statement of PC Kenneth Frost (unamended), 28 April 1989, SYP000117100001, p5. Amended version:
 
-SYP000100220001, p5. 36. Statement of PC John Hood (unamended), 17 May 1989, SYP000120660001, p2. Amended version: 37. Statement of PC Maxwell Groome (unamended), 4 May 1989, SYP000113620001, p4. Amended version:
+SYP000100220001, p5. 36. Statement of PC John Hood (unamended), 17 May 1989, SYP000120660001, p2. Amended version:
+
+SYP00008153000, p5. 37. Statement of PC Maxwell Groome (unamended), 4 May 1989, SYP000113620001, p4. Amended version:
+
+SYP000078330001, p6.
 
 %%page 323%%
 
@@ -6431,7 +6529,9 @@ Through out [sic] the time I was on the pitch or at the rear of the stand I saw 
 
 SYP000078330001, p8. 39. Statement of PC Maxwell Groome (unamended), 4 May 1989, SYP000113620001, pp4-5. Amended version:
 
-SYP000078330001, p7. 40. Statement of PC Alan Wadsworth (unamended), undated, SYP000101960001, p7. Amended version: 41. Statement of PC Morledge (unamended), undated, SYP000102770001, p3. Amended version: SYP000108180001, p5.
+SYP000078330001, p7. 40. Statement of PC Alan Wadsworth (unamended), undated, SYP000101960001, p7. Amended version:
+
+SYP000108020001, p7. 41. Statement of PC Morledge (unamended), undated, SYP000102770001, p3. Amended version: SYP000108180001, p5.
 
 %%page 324%%
 
@@ -6479,7 +6579,9 @@ At around 2.45 p.m. the crowding became intense and shoulder to shoulder pushing
 
 47. Statement of PC Keith Bradley (amended version), SYP000085350001, p5. 48. Statement of PC Philip Dexter (unamended), 28 April 1989, SYP000117400001, p5. Amended version:
 
-SYP000082190001, p6. 49. Statement of PC James Grant (unamended), 28 April 1989, SYP000117490001, p8. Amended version: 50. Statement of PC Kevin Bennett (unamended), 9 May 1989, SYP000120000001, p7. 51. Statement of PC Kevin Bennett (amended version), SYP000082950001, p7.
+SYP000082190001, p6. 49. Statement of PC James Grant (unamended), 28 April 1989, SYP000117490001, p8. Amended version:
+
+SYP000100360001, p7. 50. Statement of PC Kevin Bennett (unamended), 9 May 1989, SYP000120000001, p7. 51. Statement of PC Kevin Bennett (amended version), SYP000082950001, p7.
 
 %%page 326%%
 
@@ -6537,7 +6639,9 @@ SYP000101060001, p14. 58. Statement of PC Martin McLoughlin (unamended), undated
 
 SYP000107890001, p3. 59. Statement of PC Mark Hone (unamended), undated, SYP000103240001, p1. Amended version: SYP000083940001, p4. 60. Statement of PC SR Smith (unamended), 17 May 1989, SYP000120650001, pp6-7. Amended version:
 
-SYP000101220001, p5. 61. Statement of Inspector Trevor Harvey (unamended), 3 May 1989, SYP000118840001, p3. Amended version: 62. Statement of PC Joy Dearden (unamended), undated, SYP000102570001, p3. Amended version: SYP000108140001,
+SYP000101220001, p5. 61. Statement of Inspector Trevor Harvey (unamended), 3 May 1989, SYP000118840001, p3. Amended version:
+
+SYP000100680001, p3. 62. Statement of PC Joy Dearden (unamended), undated, SYP000102570001, p3. Amended version: SYP000108140001, p2.
 
 %%page 328%%
 
@@ -6829,7 +6933,7 @@ The Inquiry team considered there to be 'absolutely no reason' why opinion shoul
 - Lord Justice Stuart-Smith accepted that SYP edited those statements that were 'unhelpful to the police case' but 'at worst this was an error of judgement' as there were only a few examples 'where matters of fact were excluded'. The process reflected an 'understandable desire' to protect the interests of a Force on the 'defensive'. Yet Lord Justice Stuart-Smith found no 'irregularity or malpractice'. There had been no negative consequences for the Taylor Inquiry, the criminal investigations, the disciplinary proceedings or the coronial inquiry.
 - The documents disclosed to the Panel show that the review and alteration of statements extended to the South Yorkshire Metropolitan Ambulance Service (SYMAS) and its solicitors. While there is variation in the amendments, in a number of cases they deflected criticisms and emphasised the efficiency of the SYMAS response.
 
-Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations
+### Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations
 
 Introduction 2.12.1 This chapter responds to bereaved families' and survivors' concerns to demonstrate how the documents disclosed to the Panel add to public understanding of the background to, and sources of, the initial media coverage. The Panel has also researched the documents to trace how unproven and unsubstantiated allegations, rejected by Lord Justice Taylor, persisted after the publication of his Interim Report and gained wide public acceptance. 2.12.2 As it became increasingly evident that people were trapped, dying and injured in the central pens, Chief Superintendent David Duckenfield told Football Association (FA) representatives that Liverpool fans had broken into the stadium and rushed down the tunnel into the packed central pens causing the fatal crush. 2.12.3 His untruthful allegation was broadcast internationally, establishing the immediate portrayal of the unfolding disaster as a further example of soccer-related crowd violence. Indeed, as the previous chapters have shown, the immediate South Yorkshire Police (SYP) reaction was to view through a lens of hooliganism the fans attempting to escape the fatal crush. 2.12.4 The media coverage on the evening of the disaster, and in the morning press on Sunday 16 April, was a confused mix of allegation and counter-allegation alongside controversial pictures of fans' faces, distorted and lifeless, pressed against the perimeter fence while others lay motionless on the pitch. 2.12.5 Jacques Georges, President of UEFA (European football's governing body), condemned Liverpool fans as 'beasts'. Survivors recounted a different story, emphasising overcrowding, lack of stewarding and inadequate emergency response. 2.12.6 On 18 and 19 April, however, more serious allegations against Liverpool fans were made from seemingly reliable sources, first in Sheffield newspapers and then in the nationals. Unnamed sources, supported by the South Yorkshire Police Federation Secretary, Police Constable Paul Middup, and a local Conservative MP, Irvine Patnick, claimed that many Liverpool fans had deliberately arrived late at the stadium. 2.12.7 They were portrayed as predominantly ticketless, drunk, aggressive and determined to force entry. In the throes of the disaster it was alleged that they had assaulted police officers, urinated on officers and the dying, stolen from the dead and verbally sexually abused a lifeless young woman.
 
@@ -7187,11 +7291,7 @@ ensure that the information regarding fans' behaviour was logged, for 'if anybod
 
 The Taylor Inquiry 2.12.118 As the Taylor Inquiry entered its initial stages of oral evidence The Times reported an editorial published in the Police Federation's journal, Police, in which an unequivocal connection to football hooliganism had been made. It had stated:
 
-Within days of Hillsborough the hooligan was being rehabilitated faster than the oxyacetylene torches were toppling fences. It is as though all the years of mayhem, all the fighting, kicking, destruction, stabbings and deaths linked to soccer violence have been expunged from people's consciousness by one mind numbing tragedy.46 2.12.119 Following C/Supt Duckenfield's evidence claiming that he had lied about fans forcing entry into the stadium to prevent a riot, three newspapers headlined one phrase in Superintendent Roger Marshall's evidence regarding fans' behaviour: 'selfish brutality'.47 2.12.120 Each report stated that Supt Marshall, the officer responsible for crowd management outside the stadium at the Leppings Lane end who had requested the opening of Gate C, had never experienced 'such scenes of chaos and mindless determination as supporters cried out and fought each other to get through the turnstiles'. The 'blind necessity' to gain entry was fuelled by alcohol. He alleged that he had been spat on and a fan had tried to push him from a bridge into the river. 2.12.121 Supt Marshall's evidence was endorsed by Chief Inspector Robert Creaser whose comment that Liverpool fans 'behaved like lager louts' was also widely reported. A police officer, Police Constable Graham Duffy, alleged that the crush at the turnstiles was planned, reported in the Daily Mail as a 'storming' of the stadium.48 2.12.122 Superintendent Morgan was reported as stating that Liverpool fans had been 'painted whiter than white' and that the 'riot' at the turnstiles 'would have been sorted' had the police 'had 20 support units in riot gear' available.49 2.12.123 Although it is clear that there was serious overcrowding in the immediate approaches to the Leppings Lane end, the view that this was caused by fighting, brutality or riotous behaviour is not supported by the statements of others present nor by the CCTV footage. 2.12.124 Another SYP Sergeant added to the conspiracy theory that fans had planned an 'invasion' at Hillsborough and his comment that they behaved like 'animals' was widely and prominently reported. The Sun's headline was '"ANIMALS STAMPED ON HURT FANS"
-
-## SHAME OF BOOZY YOBS'.50
-
-2.12.125 Over a period of 35 days of evidence from witnesses, the proportion of daily coverage given by national newspapers was: police evidence – 17 days; other professionals
+Within days of Hillsborough the hooligan was being rehabilitated faster than the oxyacetylene torches were toppling fences. It is as though all the years of mayhem, all the fighting, kicking, destruction, stabbings and deaths linked to soccer violence have been expunged from people's consciousness by one mind numbing tragedy.46 2.12.119 Following C/Supt Duckenfield's evidence claiming that he had lied about fans forcing entry into the stadium to prevent a riot, three newspapers headlined one phrase in Superintendent Roger Marshall's evidence regarding fans' behaviour: 'selfish brutality'.47 2.12.120 Each report stated that Supt Marshall, the officer responsible for crowd management outside the stadium at the Leppings Lane end who had requested the opening of Gate C, had never experienced 'such scenes of chaos and mindless determination as supporters cried out and fought each other to get through the turnstiles'. The 'blind necessity' to gain entry was fuelled by alcohol. He alleged that he had been spat on and a fan had tried to push him from a bridge into the river. 2.12.121 Supt Marshall's evidence was endorsed by Chief Inspector Robert Creaser whose comment that Liverpool fans 'behaved like lager louts' was also widely reported. A police officer, Police Constable Graham Duffy, alleged that the crush at the turnstiles was planned, reported in the Daily Mail as a 'storming' of the stadium.48 2.12.122 Superintendent Morgan was reported as stating that Liverpool fans had been 'painted whiter than white' and that the 'riot' at the turnstiles 'would have been sorted' had the police 'had 20 support units in riot gear' available.49 2.12.123 Although it is clear that there was serious overcrowding in the immediate approaches to the Leppings Lane end, the view that this was caused by fighting, brutality or riotous behaviour is not supported by the statements of others present nor by the CCTV footage. 2.12.124 Another SYP Sergeant added to the conspiracy theory that fans had planned an 'invasion' at Hillsborough and his comment that they behaved like 'animals' was widely and prominently reported. The Sun's headline was '"ANIMALS STAMPED ON HURT FANS" SHAME OF BOOZY YOBS'.50 2.12.125 Over a period of 35 days of evidence from witnesses, the proportion of daily coverage given by national newspapers was: police evidence – 17 days; other professionals
 
 46. Reported in The Times, 15 May 1989. 47. The Times; The Independent; Daily Telegraph, 31 May 1989. 48. Daily Mail, 7 June 1989. 49. Daily Express, 8 June 1989. 50. The Sun, 9 June 1989.
 
@@ -7251,9 +7351,13 @@ The Police Federation responds to the Taylor Interim Report 2.12.143 A month aft
 
 56. Meeting with Mr Michael Shersby MP on 6 September, Private Office, 7 September 1989, CJ Walters, Principal Private
 
-Secretary HOM000011510001, p2. 57. Meeting at South Yorkshire Police Federation Headquarters, Tuesday 3 October 1989, Morning session, strictures on how it was built, access roads etc'. He noted where the deaths occurred and the collapsed barrier in pen 3. He stated that the pens were estimated, from a headcount on a photograph taken at 3.05pm, to be 'at least 50% over capacity' and proposed that overcrowding contributed to the collapsed barrier.
+Secretary HOM000011510001, p2. 57. Meeting at South Yorkshire Police Federation Headquarters, Tuesday 3 October 1989, Morning session,
+
+SYP000046060001, pp3-22.
 
 %%page 360%%
+
+strictures on how it was built, access roads etc'. He noted where the deaths occurred and the collapsed barrier in pen 3. He stated that the pens were estimated, from a headcount on a photograph taken at 3.05pm, to be 'at least 50% over capacity' and proposed that overcrowding contributed to the collapsed barrier.
 
 2.12.153 Fans 'went in the pen because they came down the tunnel' and they 'went down the tunnel because they came through Emergency Gate C'.
 
@@ -7401,7 +7505,7 @@ Mr and Mrs Hicks to South Yorkshire Police Authority, 7 February 1990, SYP000123
 - In a press interview the South Yorkshire Chief Constable, Peter Wright, also criticised the findings of the Interim Report and expressed confidence that a 'different picture' would emerge at the inquests. His comments drew many complaints and were investigated by WMP. It was decided that no breach of discipline had occurred.
 - Consistent with Lord Justice Taylor's findings, the Panel found no evidence among the vast number of disclosed documents and many hours of video material to verify the serious allegations of exceptional levels of drunkenness, ticketlessness or violence among Liverpool fans. There was no evidence that fans had conspired to arrive late at the stadium and force entry and no evidence that they stole from the dead and dying. Documents show that fans became frustrated by the inadequate response to the unfolding tragedy. The vast majority of fans on the pitch assisted in rescuing and evacuating the injured and the dead.
 
-The Permanent Archive for the Hillsborough Disaster
+## Part 3: The Permanent Archive for the Hillsborough Disaster
 
 > Assembled and proposed to be held permanently for the benefit of the families and the public by the Hillsborough Independent Panel
 
@@ -7587,7 +7691,7 @@ Recommendation 8 The digital archive and the audio-visual material should remain
 
 Recommendation 9 The digital archive, including audio-visual material, eventually should be permanently archived at The National Archives.
 
-Hillsborough Independent Panel terms of reference
+## Appendix 1: Hillsborough Independent Panel terms of reference
 
 The Hillsborough disaster was a personal tragedy for hundreds of people and an event of major national and international significance in the subsequent minimisation of safety risks at football matches and similar sporting events.
 
@@ -7679,7 +7783,7 @@ Secretariat and practicalities 18. The work of the independent panel will be sup
 
 20. Members of the independent panel will receive a daily allowance at rates to be published, and repayment of actual travel and subsistence expenses in accordance with Home Office rules for senior civil servants.
 
-Disclosure process
+## Appendix 2: Disclosure process
 
 When the Home Secretary announced the establishment of the Hillsborough Independent Panel on 15 December 2009 he also published the terms of reference and a protocol which would govern its work (see Appendix 1).
 
@@ -7792,7 +7896,7 @@ Our report The Panel's obligations regarding publishing a report were establishe
 
 The research and analysis underpinning the Panel's report has been led by Panel member Professor Phil Scraton and a team of researchers. All documents and other material disclosed to the Panel have been available to the research team. Individual Panel members have provided expert support to the researchers in their specialist areas. Appendix 3 provides an account of the research process and the methodology adopted.
 
-Research process and method
+## Appendix 3: Research process and method
 
 In terms of the broader context and immediate circumstances in which they occur and their short-term and longer-term aftermath, disasters involving multiple deaths and injuries are complex events impacting on the bereaved, survivors, rescuers, their families and their communities. To understand that complexity, in terms of causation and investigation, it has been suggested that disasters and their consequences should be considered as a sequence of distinct but inter-related 'phases'.
 
@@ -7856,7 +7960,7 @@ The contributing organisations met with Panel members to discuss the text, but w
 
 Where appropriate, and based only on factual accuracy rather than interpretation, modifications were made to the text. Objections raised that were considered as matters of interpretation were discounted. The Panel is grateful to the main contributing organisations for their participation in this process.
 
-Retained tissue following post mortem examination
+## Appendix 4: Retained tissue following post mortem examination
 
 During the Panel's scrutiny of documents relating to evidence from the pathologists who carried out the post mortem examinations, it became clear that in ten cases tissue had been removed for further examination. This is an essential part of any post mortem in which the findings are not immediately clear and microscopic examination is necessary for confirmation or clarification.
 
@@ -7886,7 +7990,7 @@ More than half of the families requested testing for themselves, and several of 
 
 The Panel will make no further comment concerning this issue, which remains a confidential matter for the bereaved families directly involved.
 
-Freedom of information and Parliamentary debate
+## Appendix 5: Freedom of information and Parliamentary debate
 
 Freedom of information request Prior to the appointment of the Hillsborough Independent Panel, the BBC had made a freedom of information (FOI) request to access Cabinet papers covering the days following the Hillsborough disaster. This had been refused and the BBC appealed to the Information Commissioner. In July 2011 the Commissioner, Christopher Graham, ruled that 'the specific content of the information in question would add to public knowledge and understanding about the reaction of various parties to that event, including the government of the day, in the early aftermath'. His ruling provoked concern that information had been purposefully withheld from public scrutiny. He considered it irrelevant that the Panel was engaged in negotiating disclosure of documents, noting that the initial request had been made before the Panel's appointment. The Cabinet Office appealed the Commissioner's ruling, stating 'the government's view is that it is in the public interest for the process that is under way through the Hillsborough Independent Panel be allowed to take its course', including the established principle 'to disclose information to the Hillsborough families first'. Given that it was negotiating the disclosure of all Cabinet and government documents relating to Hillsborough, the Panel was concerned to safeguard the principle of researching all disclosed documents in context. Whereas the BBC's application covered a period of less than a month, the Panel's commitment to disclosure extended over two decades. The Panel issued the following statement on 20 August 2011:
 
