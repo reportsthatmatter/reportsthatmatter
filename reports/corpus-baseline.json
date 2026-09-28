@@ -2,13 +2,13 @@
   "reports": {
     "jack-smith-vol1": {
       "words": 66748,
-      "paragraphs": 448,
+      "paragraphs": 449,
       "sections": [
         {
           "slug": "delivery-by-hand",
           "title": "DELIVERY BY HAND",
-          "paragraphs": 23,
-          "ids": "ca5e7bc4efae"
+          "paragraphs": 24,
+          "ids": "5a6f130b6819"
         },
         {
           "slug": "the-certification-of-the-electoral-college-vote",
@@ -1016,7 +1016,7 @@
     },
     "uk-leveson-inquiry": {
       "words": 1075653,
-      "paragraphs": 12776,
+      "paragraphs": 12780,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
@@ -1243,8 +1243,8 @@
         {
           "slug": "december-2010-july-2011-the-rt-hon-jeremy-hunt",
           "title": "December 2010 – July 2011: The Rt Hon Jeremy Hunt",
-          "paragraphs": 349,
-          "ids": "6df2c8735a6d"
+          "paragraphs": 351,
+          "ids": "fea380b6a25d"
         },
         {
           "slug": "news-corp-and-the-rt-hon-alex-salmond-msp",
@@ -1327,8 +1327,8 @@
         {
           "slug": "the-press-council-of-ireland-and-the-press",
           "title": "The Press Council of Ireland and the Press",
-          "paragraphs": 558,
-          "ids": "41c1221595e0"
+          "paragraphs": 560,
+          "ids": "da8079ebf412"
         },
         {
           "slug": "guarantee-of-media-freedom-2",
@@ -1388,7 +1388,7 @@
     },
     "columbia-accident": {
       "words": 169614,
-      "paragraphs": 3172,
+      "paragraphs": 3344,
       "sections": [
         {
           "slug": "in-memoriam",
@@ -1399,38 +1399,38 @@
         {
           "slug": "board-statement",
           "title": "BOARD STATEMENT",
-          "paragraphs": 11,
-          "ids": "13a607fd6489"
+          "paragraphs": 12,
+          "ids": "32108f013973"
         },
         {
           "slug": "executive-summary",
           "title": "EXECUTIVE SUMMARY",
-          "paragraphs": 8,
-          "ids": "824f2021f1c8"
+          "paragraphs": 10,
+          "ids": "34eebfc5e1a1"
         },
         {
           "slug": "report-synopsis",
           "title": "REPORT SYNOPSIS",
-          "paragraphs": 56,
-          "ids": "12ec1cf1d3ef"
+          "paragraphs": 60,
+          "ids": "062e0e989fc9"
         },
         {
           "slug": "part-one-the-accident",
           "title": "Part One: The Accident",
-          "paragraphs": 9,
-          "ids": "fc8057ac918e"
+          "paragraphs": 11,
+          "ids": "7642a7fdce96"
         },
         {
           "slug": "12-merging-conflicting-interests",
           "title": "1.2 Merging Conflicting Interests",
-          "paragraphs": 6,
-          "ids": "8d2307e2fbdf"
+          "paragraphs": 9,
+          "ids": "ed25b8a77640"
         },
         {
           "slug": "13-shuttle-development-testing-and-qualification",
           "title": "1.3 Shuttle Development, Testing, and Qualification",
-          "paragraphs": 3,
-          "ids": "f044a023d395"
+          "paragraphs": 4,
+          "ids": "245501583f8d"
         },
         {
           "slug": "14-the-shuttle-becomes-operational",
@@ -1447,32 +1447,32 @@
         {
           "slug": "21-mission-objectives-and-their-rationales",
           "title": "2.1 Mission Objectives and Their Rationales",
-          "paragraphs": 47,
-          "ids": "ef36aa5880c3"
+          "paragraphs": 48,
+          "ids": "a67b99a2e6f6"
         },
         {
           "slug": "22-flight-preparation",
           "title": "2.2 Flight Preparation",
-          "paragraphs": 19,
-          "ids": "d0d057892e00"
+          "paragraphs": 20,
+          "ids": "83ef55445248"
         },
         {
           "slug": "23-launch-sequence",
           "title": "2.3 Launch Sequence",
-          "paragraphs": 25,
-          "ids": "313ebbd51cae"
+          "paragraphs": 26,
+          "ids": "c64032973d2b"
         },
         {
           "slug": "24-on-orbit-events",
           "title": "2.4 On-Orbit Events",
-          "paragraphs": 46,
-          "ids": "c5fcffdf4c5f"
+          "paragraphs": 48,
+          "ids": "bfe2290fdf00"
         },
         {
           "slug": "25-debris-strike-analysis-and-requests-for-imagery",
           "title": "2.5 Debris Strike Analysis and Requests for Imagery",
-          "paragraphs": 6,
-          "ids": "cdf2d6f6dd20"
+          "paragraphs": 7,
+          "ids": "6dbdcb3c9ed9"
         },
         {
           "slug": "26-de-orbit-burn-and-re-entry-events",
@@ -1483,8 +1483,8 @@
         {
           "slug": "27-events-immediately-following-the-accident",
           "title": "2.7 Events Immediately Following the Accident",
-          "paragraphs": 93,
-          "ids": "926a280b1cf0"
+          "paragraphs": 97,
+          "ids": "986e76ecf794"
         },
         {
           "slug": "endnotes-for-chapter-2",
@@ -1495,14 +1495,14 @@
         {
           "slug": "32-the-external-tank-and-foam",
           "title": "3.2 The External Tank and Foam",
-          "paragraphs": 81,
-          "ids": "99bead6b9f73"
+          "paragraphs": 82,
+          "ids": "e32e95071a4a"
         },
         {
           "slug": "33-wing-leading-edge-structural-subsystem",
           "title": "3.3 WING LEADING EDGE STRUCTURAL SUBSYSTEM",
-          "paragraphs": 62,
-          "ids": "bbc3b417cfae"
+          "paragraphs": 65,
+          "ids": "2cc4ce18be78"
         },
         {
           "slug": "34-image-and-transport-analyses",
@@ -1513,26 +1513,26 @@
         {
           "slug": "35-on-orbit-debris-separation-the-flight-day-2-object",
           "title": "3.5 On-Orbit Debris Separation – The \"Flight Day 2\" Object",
-          "paragraphs": 30,
-          "ids": "7e1bf35c8a86"
+          "paragraphs": 31,
+          "ids": "6c62b8cb8550"
         },
         {
           "slug": "36-de-orbitre-entry",
           "title": "3.6 De-Orbit/Re-Entry",
-          "paragraphs": 189,
-          "ids": "4fa023eb7841"
+          "paragraphs": 190,
+          "ids": "e98d7b867681"
         },
         {
           "slug": "37-debris-analysis",
           "title": "3.7 Debris Analysis",
-          "paragraphs": 91,
-          "ids": "401b2387da29"
+          "paragraphs": 94,
+          "ids": "e29d1e6891ae"
         },
         {
           "slug": "38-impact-analysis-and-testing",
           "title": "3.8 Impact Analysis and Testing",
-          "paragraphs": 73,
-          "ids": "14687b5e46cc"
+          "paragraphs": 74,
+          "ids": "2e254edfe8a4"
         },
         {
           "slug": "endnotes-for-chapter-3",
@@ -1549,8 +1549,8 @@
         {
           "slug": "42-remaining-factors",
           "title": "4.2 Remaining Factors",
-          "paragraphs": 159,
-          "ids": "5be8e7567209"
+          "paragraphs": 166,
+          "ids": "21d39740dca3"
         },
         {
           "slug": "endnotes-for-chapter-4",
@@ -1561,80 +1561,80 @@
         {
           "slug": "part-two-why-the-accident-occurred",
           "title": "Part Two: Why The Accident Occurred",
-          "paragraphs": 10,
-          "ids": "5c389e772af8"
+          "paragraphs": 11,
+          "ids": "8341c744b3d3"
         },
         {
           "slug": "51-the-challenger-accident-and-its-aftermath",
           "title": "5.1 The Challenger Accident and its Aftermath",
-          "paragraphs": 18,
-          "ids": "7729855af6bf"
+          "paragraphs": 19,
+          "ids": "59bd928ff09d"
         },
         {
           "slug": "52-the-nasa-human-space-flight-culture",
           "title": "5.2 The NASA Human Space Flight Culture",
-          "paragraphs": 8,
-          "ids": "60a7b8d276fa"
+          "paragraphs": 10,
+          "ids": "8d787b6ee03d"
         },
         {
           "slug": "53-an-agency-trying-to-do-too-much-with-too-little",
           "title": "5.3 An Agency Trying to Do Too Much With Too Little",
-          "paragraphs": 92,
-          "ids": "d3ca7a2deae3"
+          "paragraphs": 94,
+          "ids": "f1f7998dc8a6"
         },
         {
           "slug": "54-turbulence-in-nasa-hits-the-space-shuttle-program",
           "title": "5.4 Turbulence in NASA Hits the Space Shuttle Program",
-          "paragraphs": 101,
-          "ids": "97aa3dab4c39"
+          "paragraphs": 105,
+          "ids": "a663009a69b5"
         },
         {
           "slug": "55-when-to-replace-the-space-shuttle",
           "title": "5.5 When to Replace the Space Shuttle?",
-          "paragraphs": 45,
-          "ids": "4d0e5470fdd9"
+          "paragraphs": 50,
+          "ids": "4c0bfb99d1a8"
         },
         {
           "slug": "56-a-change-in-nasa-leadership",
           "title": "5.6 A Change in NASA Leadership",
-          "paragraphs": 13,
-          "ids": "a7fedb66d7f5"
+          "paragraphs": 14,
+          "ids": "06860efcd11d"
         },
         {
           "slug": "57-the-return-of-schedule-pressure",
           "title": "5.7 The Return of Schedule Pressure",
-          "paragraphs": 18,
-          "ids": "e3d7585c6017"
+          "paragraphs": 22,
+          "ids": "22e890c7ad23"
         },
         {
           "slug": "58-conclusion",
           "title": "5.8 Conclusion",
-          "paragraphs": 4,
-          "ids": "abc976dd6fbe"
+          "paragraphs": 8,
+          "ids": "2d0c72af2aa3"
         },
         {
           "slug": "endnotes-for-chapter-5",
           "title": "ENDNOTES FOR CHAPTER 5",
-          "paragraphs": 98,
-          "ids": "7cab902a1b00"
+          "paragraphs": 102,
+          "ids": "7ab754bb60bf"
         },
         {
           "slug": "61-a-history-of-foam-anomalies",
           "title": "6.1 A History of Foam Anomalies",
-          "paragraphs": 161,
-          "ids": "e26cb56831e2"
+          "paragraphs": 167,
+          "ids": "6625548f618e"
         },
         {
           "slug": "62-schedule-pressure",
           "title": "6.2 Schedule Pressure",
-          "paragraphs": 126,
-          "ids": "71b41c016f80"
+          "paragraphs": 135,
+          "ids": "3a27fde1c31a"
         },
         {
           "slug": "63-decision-making-during-the-flight-of-sts-107",
           "title": "6.3 Decision-Making During the Flight of STS-107",
-          "paragraphs": 322,
-          "ids": "2a973dc0d334"
+          "paragraphs": 349,
+          "ids": "522b0c73815e"
         },
         {
           "slug": "64-possibility-of-rescue-or-repair",
@@ -1645,44 +1645,44 @@
         {
           "slug": "endnotes-for-chapter-6",
           "title": "ENDNOTES FOR CHAPTER 6",
-          "paragraphs": 59,
-          "ids": "56611287ccc3"
+          "paragraphs": 61,
+          "ids": "2c8c245e40d3"
         },
         {
           "slug": "chapter-7-the-accidents-organizational-causes",
           "title": "Chapter 7: The Accidentʼs Organizational Causes",
-          "paragraphs": 4,
-          "ids": "e498e6efc0e3"
+          "paragraphs": 7,
+          "ids": "87626e0f1b69"
         },
         {
           "slug": "71-organizational-causes-insights-from-history",
           "title": "7.1 Organizational Causes: Insights from History",
-          "paragraphs": 21,
-          "ids": "d740a995cda0"
+          "paragraphs": 23,
+          "ids": "f0d6a01e9e02"
         },
         {
           "slug": "72-organizational-causes-insights-from-theory",
           "title": "7.2 Organizational Causes: Insights from Theory",
-          "paragraphs": 18,
-          "ids": "6f9aa2c6229c"
+          "paragraphs": 21,
+          "ids": "a3e2766818b6"
         },
         {
           "slug": "73-organizational-causes-evaluating-best-safety-practices",
           "title": "7.3 Organizational Causes: Evaluating Best Safety Practices",
-          "paragraphs": 25,
-          "ids": "b4bd958969dc"
+          "paragraphs": 27,
+          "ids": "712112a661d1"
         },
         {
           "slug": "74-organizational-causes-a-broken-safety-culture",
           "title": "7.4 Organizational Causes: A Broken Safety Culture",
-          "paragraphs": 80,
-          "ids": "20b8915101f2"
+          "paragraphs": 88,
+          "ids": "003c37a3024d"
         },
         {
           "slug": "75-organizational-causes-impact-of-a-flawed-safety-culture-on-sts-107",
           "title": "7.5 Organizational Causes: Impact of a Flawed Safety Culture on STS-107",
-          "paragraphs": 43,
-          "ids": "71724ec95630"
+          "paragraphs": 45,
+          "ids": "62ced20f07d4"
         },
         {
           "slug": "76-findings-and-recommendations",
@@ -1693,26 +1693,26 @@
         {
           "slug": "endnotes-for-chapter-7",
           "title": "ENDNOTES FOR CHAPTER 7",
-          "paragraphs": 61,
-          "ids": "bc5de20f6cee"
+          "paragraphs": 65,
+          "ids": "efdf1b76174f"
         },
         {
           "slug": "81-echoes-of-challenger",
           "title": "8.1 Echoes of Challenger",
-          "paragraphs": 5,
-          "ids": "4b4bebcfbcb9"
+          "paragraphs": 7,
+          "ids": "11465bb381ed"
         },
         {
           "slug": "82-failures-of-foresight-two-decision-histories-and-the-normalization-of-devianc",
           "title": "8.2 Failures of Foresight: Two Decision Histories and the Normalization of Deviance",
-          "paragraphs": 9,
-          "ids": "a032894a1a8b"
+          "paragraphs": 10,
+          "ids": "b0e5c37ecf20"
         },
         {
           "slug": "83-system-effects-the-impact-of-history-and-politics-on-risky-work",
           "title": "8.3 System Effects: The Impact of History and Politics on Risky Work",
-          "paragraphs": 6,
-          "ids": "0761138a67b8"
+          "paragraphs": 7,
+          "ids": "2b9421832f6b"
         },
         {
           "slug": "84-organization-culture-and-unintended-consequences",
@@ -1723,68 +1723,68 @@
         {
           "slug": "85-history-as-cause-two-accidents",
           "title": "8.5 History as Cause: Two Accidents",
-          "paragraphs": 19,
-          "ids": "5fbbd00a91d6"
+          "paragraphs": 23,
+          "ids": "2e5afe09f750"
         },
         {
           "slug": "86-changing-nasas-organizational-system",
           "title": "8.6 Changing NASAʼs Organizational System",
-          "paragraphs": 8,
-          "ids": "61d5822317c2"
+          "paragraphs": 9,
+          "ids": "543e9f4482af"
         },
         {
           "slug": "endnotes-for-chapter-8",
           "title": "ENDNOTES FOR CHAPTER 8",
-          "paragraphs": 82,
-          "ids": "0dc6126d7b94"
+          "paragraphs": 83,
+          "ids": "6f681200d5fc"
         },
         {
           "slug": "part-three-a-look-ahead",
           "title": "Part Three: A Look Ahead",
-          "paragraphs": 8,
-          "ids": "0befc9276a27"
+          "paragraphs": 9,
+          "ids": "c8409bfa02e9"
         },
         {
           "slug": "chapter-9-implications-for-the-future-of-human-space-flight",
           "title": "Chapter 9: Implications for the Future of Human Space Flight",
-          "paragraphs": 9,
-          "ids": "c068e28831e6"
+          "paragraphs": 10,
+          "ids": "0cdae18425aa"
         },
         {
           "slug": "92-mid-term-continuing-to-fly",
           "title": "9.2 Mid-Term: Continuing to Fly",
-          "paragraphs": 12,
-          "ids": "df2b7247eb93"
+          "paragraphs": 13,
+          "ids": "ddc65d5c3ea0"
         },
         {
           "slug": "93-long-term-future-directions-for-the-us-in-space",
           "title": "9.3 Long-Term: Future Directions for the U.S. in Space",
-          "paragraphs": 18,
-          "ids": "e97871dea885"
+          "paragraphs": 20,
+          "ids": "4c70e68a70f7"
         },
         {
           "slug": "101-public-safety",
           "title": "10.1 Public Safety",
-          "paragraphs": 25,
-          "ids": "01b56ceffd39"
+          "paragraphs": 27,
+          "ids": "eee5330aa5f4"
         },
         {
           "slug": "102-crew-escape-and-survival",
           "title": "10.2 Crew Escape and Survival",
-          "paragraphs": 41,
-          "ids": "5f189647a082"
+          "paragraphs": 45,
+          "ids": "375580b28521"
         },
         {
           "slug": "104-industrial-safety-and-quality-assurance",
           "title": "10.4 Industrial Safety and Quality Assurance",
-          "paragraphs": 45,
-          "ids": "d3d7b98c88ed"
+          "paragraphs": 49,
+          "ids": "1841e6c1e7a4"
         },
         {
           "slug": "105-maintenance-documentation",
           "title": "10.5 Maintenance Documentation",
-          "paragraphs": 7,
-          "ids": "37704022cef2"
+          "paragraphs": 9,
+          "ids": "5accfd47a032"
         },
         {
           "slug": "106-orbiter-maintenance-down-periodorbiter-major-modification",
@@ -1801,8 +1801,8 @@
         {
           "slug": "109-hold-down-post-cable-anomaly",
           "title": "10.9 Hold-Down Post Cable Anomaly",
-          "paragraphs": 19,
-          "ids": "2650e6c44f8e"
+          "paragraphs": 20,
+          "ids": "e25d552e9102"
         },
         {
           "slug": "endnotes-for-chapter-10",
@@ -1813,20 +1813,20 @@
         {
           "slug": "chapter-11-recommendations",
           "title": "Chapter 11: Recommendations",
-          "paragraphs": 47,
-          "ids": "81ca15944998"
+          "paragraphs": 48,
+          "ids": "82b6d3658e4e"
         },
         {
           "slug": "a1-activation-of-the-columbia-accident-investigation-board",
           "title": "A.1 ACTIVATION OF THE COLUMBIA ACCIDENT INVESTIGATION BOARD",
-          "paragraphs": 5,
-          "ids": "d0039cfae49e"
+          "paragraphs": 6,
+          "ids": "8a295fe3ad9b"
         },
         {
           "slug": "a2-board-charter-and-organization",
           "title": "A.2 BOARD CHARTER AND ORGANIZATION",
-          "paragraphs": 7,
-          "ids": "d724f272f6b4"
+          "paragraphs": 9,
+          "ids": "e8082843c469"
         },
         {
           "slug": "a3-investigation-process-and-scope",
@@ -1837,14 +1837,14 @@
         {
           "slug": "a4-board-policies-and-procedures",
           "title": "A.4 BOARD POLICIES AND PROCEDURES",
-          "paragraphs": 17,
-          "ids": "aedab3b3eaf2"
+          "paragraphs": 19,
+          "ids": "e551261a45a4"
         },
         {
           "slug": "a5-investigation-interface-with-nasa",
           "title": "A.5 INVESTIGATION INTERFACE WITH NASA",
-          "paragraphs": 9,
-          "ids": "8f773c38b9a2"
+          "paragraphs": 10,
+          "ids": "f7f5b21be55b"
         },
         {
           "slug": "a6-board-documentation-system",
@@ -1855,8 +1855,8 @@
         {
           "slug": "a7-list-of-public-hearings",
           "title": "A.7 LIST OF PUBLIC HEARINGS",
-          "paragraphs": 16,
-          "ids": "79d9d9c04427"
+          "paragraphs": 17,
+          "ids": "57d30a3246ef"
         },
         {
           "slug": "appendix-b-board-member-biographies",
@@ -1874,7 +1874,7 @@
     },
     "us-911-commission": {
       "words": 299933,
-      "paragraphs": 3032,
+      "paragraphs": 3034,
       "sections": [
         {
           "slug": "report",
@@ -2077,8 +2077,8 @@
         {
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
-          "paragraphs": 53,
-          "ids": "e9e0e05049c4"
+          "paragraphs": 54,
+          "ids": "073128fbcf79"
         },
         {
           "slug": "73-assembling-the-teams",
@@ -2101,8 +2101,8 @@
         {
           "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
           "title": "8.2 Late Leads—Mihdhar, Moussaoui, and KSM",
-          "paragraphs": 72,
-          "ids": "014e69a3c8ec"
+          "paragraphs": 73,
+          "ids": "41a703d6f656"
         },
         {
           "slug": "91-preparedness-as-of-september-11",
@@ -2275,170 +2275,206 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 189254,
-      "paragraphs": 1330,
+      "words": 190727,
+      "paragraphs": 2059,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
-          "paragraphs": 196,
-          "ids": "14b95302b0b1"
+          "paragraphs": 48,
+          "ids": "d33f011f2279"
         },
         {
-          "slug": "santa-barbara-oil-spill",
-          "title": "SANTA BARBARA OIL SPILL",
-          "paragraphs": 25,
-          "ids": "8ca18cb5233e"
+          "slug": "foreword",
+          "title": "Foreword",
+          "paragraphs": 38,
+          "ids": "e6722d5c0472"
         },
         {
-          "slug": "auger-tension-leg-platform",
-          "title": "AUGER TENSION-LEG PLATFORM",
-          "paragraphs": 72,
-          "ids": "f75030df5697"
+          "slug": "part-i-the-path-to-tragedy",
+          "title": "Part I: The Path to Tragedy",
+          "paragraphs": 123,
+          "ids": "1c3f1dd08b55"
         },
         {
-          "slug": "development-production-plan-development-production-plan-approved-production-well",
-          "title": "DEVELOPMENT & PRODUCTION PLAN DEVELOPMENT & PRODUCTION PLAN APPROVED PRODUCTION WELL APPLICATION FIRST OIL / GAS PRODUCTION",
-          "paragraphs": 401,
-          "ids": "b8fac889d66c"
+          "slug": "chapter-two-each-oil-well-has-its-own-personality-the-history-of-offshore-oil-an",
+          "title": "Chapter Two: \"Each oil well has its own personality\" The History of Offshore Oil and Gas in the United States",
+          "paragraphs": 163,
+          "ids": "d57904ba4ea6"
         },
         {
-          "slug": "shellfish-corals",
-          "title": "SHELLFISH CORALS",
-          "paragraphs": 10,
-          "ids": "9fa81ca98bae"
+          "slug": "chapter-three-it-was-like-pulling-teeth-oversightand-oversightsin-regulating-dee",
+          "title": "Chapter Three: \"It was like pulling teeth.\" Oversight—and Oversights—in Regulating Deepwater Energy Exploration and Production in the Gulf of Mexico",
+          "paragraphs": 191,
+          "ids": "e4eda524ed4f"
         },
         {
-          "slug": "ms-al-la-ga",
-          "title": "MS AL LA GA",
-          "paragraphs": 45,
-          "ids": "a38025d1ddb2"
+          "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
+          "title": "Part II: Explosion and Aftermath: The Causes and Consequences of the Disaster",
+          "paragraphs": 214,
+          "ids": "16efbdfbc732"
         },
         {
-          "slug": "macondo-well",
-          "title": "MACONDO WELL",
-          "paragraphs": 144,
-          "ids": "8adeb3dac19a"
+          "slug": "chapter-five-youre-in-it-now-up-to-your-neck-response-and-containment",
+          "title": "Chapter Five: \"You're in it now, up to your neck!\" Response and Containment",
+          "paragraphs": 217,
+          "ids": "789bd0037640"
+        },
+        {
+          "slug": "chapter-six-the-worst-environmental-disaster-america-has-ever-faced-oiling-a-ric",
+          "title": "Chapter Six: \"The worst environmental disaster America has ever faced.\" Oiling a Rich Environment: Impacts and Assessment",
+          "paragraphs": 129,
+          "ids": "52cae6740d62"
+        },
+        {
+          "slug": "chapter-seven-people-have-plan-fatigue-theyve-been-planned-to-death-recovery-and",
+          "title": "Chapter Seven: \"People have plan fatigue . . . they've been planned to death\" Recovery and Restoration",
+          "paragraphs": 92,
+          "ids": "8cfdb2c60a47"
+        },
+        {
+          "slug": "part-iii-lessons-learned-industry-government-energy-policy",
+          "title": "Part III: Lessons Learned: Industry, Government, Energy Policy",
+          "paragraphs": 147,
+          "ids": "517356990f58"
         },
         {
           "slug": "the-need-for-a-new-approach-to-risk-assessment-and-management",
           "title": "The Need for a New Approach to Risk Assessment and Management",
-          "paragraphs": 5,
-          "ids": "02ec9d062a7e"
+          "paragraphs": 15,
+          "ids": "b798b67eed77"
         },
         {
           "slug": "the-need-for-a-new-independent-agency",
           "title": "The Need for a New, Independent Agency",
-          "paragraphs": 15,
-          "ids": "01f11f5ab8e3"
+          "paragraphs": 23,
+          "ids": "897d1b6ac508"
         },
         {
           "slug": "safeguarding-the-environment",
           "title": "Safeguarding the Environment",
-          "paragraphs": 6,
-          "ids": "26c35529cbf7"
+          "paragraphs": 9,
+          "ids": "f2b1b4a5131b"
         },
         {
           "slug": "the-need-for-greater-interagency-consultation",
           "title": "The Need for Greater Interagency Consultation",
-          "paragraphs": 9,
-          "ids": "a8cbe483de93"
+          "paragraphs": 11,
+          "ids": "ec124ee3a1da"
         },
         {
           "slug": "the-need-for-improved-oil-spill-response-planning",
           "title": "The Need for Improved Oil Spill Response Planning",
-          "paragraphs": 4,
-          "ids": "eff701df6541"
+          "paragraphs": 9,
+          "ids": "40b94f5b539c"
         },
         {
           "slug": "the-need-for-a-new-approach-to-handling-spills-of-national-significance",
           "title": "The Need for a New Approach to Handling Spills of National Significance",
-          "paragraphs": 4,
-          "ids": "e44361f9081b"
+          "paragraphs": 5,
+          "ids": "9628893d1784"
         },
         {
           "slug": "the-need-to-strengthen-state-and-local-involvement",
           "title": "The Need to Strengthen State and Local Involvement",
-          "paragraphs": 3,
-          "ids": "caa783972a8a"
+          "paragraphs": 6,
+          "ids": "794c30f06723"
         },
         {
-          "slug": "the-need-for-increased-research-and-development-to-improve-spill",
-          "title": "The Need for Increased Research and Development to Improve Spill",
-          "paragraphs": 12,
-          "ids": "bb43e07099ee"
+          "slug": "the-need-for-increased-research-and-development-to-improve-spill-response",
+          "title": "The Need for Increased Research and Development to Improve Spill Response",
+          "paragraphs": 24,
+          "ids": "5faf60f9a6ba"
         },
         {
           "slug": "the-need-for-a-more-robust-well-design-and-approval-process",
           "title": "The Need for a More Robust Well Design and Approval Process",
-          "paragraphs": 6,
-          "ids": "e4327049efc7"
+          "paragraphs": 10,
+          "ids": "f8146097a578"
         },
         {
-          "slug": "the-need-for-fair-transparent-compensatory-restoration-based-on-natural",
-          "title": "The Need for Fair, Transparent Compensatory Restoration Based on Natural",
-          "paragraphs": 4,
-          "ids": "70438b34526b"
+          "slug": "the-need-for-fair-transparent-compensatory-restoration-based-on-natural-resource",
+          "title": "The Need for Fair, Transparent Compensatory Restoration Based on Natural Resource Damage Assessments",
+          "paragraphs": 5,
+          "ids": "0b95d8c77457"
         },
         {
-          "slug": "the-need-to-address-human-health-impacts-especially-among-response",
-          "title": "The Need to Address Human Health Impacts, Especially Among Response",
-          "paragraphs": 2,
-          "ids": "1de7bc7ab1e9"
+          "slug": "the-need-to-address-human-health-impacts-especially-among-response-workers-and-i",
+          "title": "The Need to Address Human Health Impacts, Especially Among Response Workers and in Affected Communities",
+          "paragraphs": 7,
+          "ids": "2090ff67ab40"
         },
         {
           "slug": "the-need-to-restore-consumer-confidence",
           "title": "The Need to Restore Consumer Confidence",
-          "paragraphs": 8,
-          "ids": "1ef6a2a421ad"
+          "paragraphs": 14,
+          "ids": "a9f26161576a"
         },
         {
           "slug": "the-need-for-better-tools-to-balance-economic-and-environmental-interests",
           "title": "The Need for Better Tools to Balance Economic and Environmental Interests",
-          "paragraphs": 4,
-          "ids": "a54af558ab53"
+          "paragraphs": 8,
+          "ids": "11ccc364b2a9"
         },
         {
           "slug": "the-need-to-increase-existing-limitations-on-responsible-party-liability",
           "title": "The Need to Increase Existing Limitations on Responsible Party Liability",
-          "paragraphs": 9,
-          "ids": "ae81d873241b"
+          "paragraphs": 18,
+          "ids": "e6ad184899c2"
         },
         {
           "slug": "the-need-for-assessment-of-the-existing-claims-process",
           "title": "The Need for Assessment of the Existing Claims Process",
           "paragraphs": 4,
-          "ids": "309918f801f1"
+          "ids": "d611b11dc387"
         },
         {
           "slug": "the-need-for-congressional-awareness-and-engagement",
           "title": "The Need for Congressional Awareness and Engagement",
-          "paragraphs": 4,
-          "ids": "58468ce51f98"
+          "paragraphs": 7,
+          "ids": "ded974e1bdaa"
         },
         {
-          "slug": "the-need-for-adequate-funding-for-safety-oversight-and-environmental",
-          "title": "The Need for Adequate Funding for Safety Oversight and Environmental",
-          "paragraphs": 31,
-          "ids": "c52caa2ab2b7"
+          "slug": "the-need-for-adequate-funding-for-safety-oversight-and-environmental-review",
+          "title": "The Need for Adequate Funding for Safety Oversight and Environmental Review",
+          "paragraphs": 4,
+          "ids": "c72d8038f860"
+        },
+        {
+          "slug": "chapter-ten-american-energy-policy-and-the-future-of-offshore-drilling",
+          "title": "Chapter Ten: American Energy Policy and the Future of Offshore Drilling",
+          "paragraphs": 53,
+          "ids": "8e9d9f106a4e"
         },
         {
           "slug": "endnotes",
-          "title": "ENDNOTES",
-          "paragraphs": 223,
-          "ids": "d983e9007afa"
+          "title": "Endnotes",
+          "paragraphs": 294,
+          "ids": "bf5325e86c6a"
+        },
+        {
+          "slug": "appendix-a-commission-members",
+          "title": "Appendix A: Commission Members",
+          "paragraphs": 11,
+          "ids": "d19080bf9660"
+        },
+        {
+          "slug": "appendix-c-executive-order---national-commission-on-the-bp-deepwater-horizon-oil",
+          "title": "Appendix C: Executive Order-- National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling",
+          "paragraphs": 33,
+          "ids": "e48d430b7182"
         },
         {
           "slug": "jackson-eaton-scott-mckee",
           "title": "Jackson Eaton Scott McKee",
-          "paragraphs": 23,
-          "ids": "ee2bfd2d63d9"
+          "paragraphs": 28,
+          "ids": "9c16d7436aa0"
         },
         {
           "slug": "index",
-          "title": "INDEX",
-          "paragraphs": 61,
-          "ids": "c00fbaf5066e"
+          "title": "Index",
+          "paragraphs": 99,
+          "ids": "2d4462da08af"
         },
         {
           "slug": "notes-not-linked-in-the-text",

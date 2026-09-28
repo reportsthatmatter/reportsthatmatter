@@ -293,7 +293,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           },
           {
             "id": "physical-cause-loss-columbia-its-2",
-            "page": 3,
+            "page": 49,
             "href": "/reports/columbia-accident?p=physical-cause-loss-columbia-its-2"
           }
         ],
@@ -502,9 +502,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "missed-opportunities",
+        "slug": "63-decision-making-during-the-flight-of-sts-107",
         "title": "Decision-making during the flight",
-        "page": "168",
+        "page": "141",
         "why": "The Board's summary of the 16 days in orbit, when engineers sought images of the wing and managers declined them.",
         "excerpt": {
           "quote": "Managersʼ claims that they didnʼt hear the engineersʼ concerns were due in part to their not asking or listening.",
@@ -586,14 +586,14 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "Trump was told, by his own officials, advisors, state officials and the courts, that there was no fraud that could have changed the result. The report finds he knew he had lost.",
         "cites": [
           {
-            "id": "fraud-and-evidence-shows-trump-used",
-            "page": 4,
-            "href": "/reports/jack-smith-vol1?p=fraud-and-evidence-shows-trump-used"
+            "id": "set-forth-original-superseding-indictments",
+            "page": 2,
+            "href": "/reports/jack-smith-vol1?p=set-forth-original-superseding-indictments"
           },
           {
-            "id": "acknowledged-sounded-crazy-before-publicly",
-            "page": 7,
-            "href": "/reports/jack-smith-vol1?p=acknowledged-sounded-crazy-before-publicly"
+            "id": "trump-s-false-claims-included",
+            "page": 4,
+            "href": "/reports/jack-smith-vol1?p=trump-s-false-claims-included"
           },
           {
             "id": "trump-s-intent-spreading-knowing",
@@ -604,9 +604,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "Finally, at times, Mr. Trump made comments implicitly acknowledging that he knew he had lost the election. For example, in a January 3, 2021 Oval Office meeting regarding a national security matter, Mr. Trump stated in part, \"[I]t's too late for us. We're going to give that to the next guy,\" meaning President-elect Biden.",
           "cite": {
-            "id": "acknowledged-sounded-crazy-before-publicly",
-            "page": 7,
-            "href": "/reports/jack-smith-vol1?p=acknowledged-sounded-crazy-before-publicly&h=publicly%20amplified%20them.%20|Finally%2C%20at%20times%2C%20Mr.%20Trump%20made%20comments%20implicitly%20acknowledging%20that%20he%20knew%20he%20had%20lost%20the%20election.%20For%20example%2C%20%E2%8B%AFTrump%20stated%20in%20part%2C%20%22%5BI%5Dt's%20too%20late%20for%20us.%20We're%20going%20to%20give%20that%20to%20the%20next%20guy%2C%22%20meaning%20President-elect%20Biden.|"
+            "id": "trump-s-false-claims-included",
+            "page": 4,
+            "href": "/reports/jack-smith-vol1?p=trump-s-false-claims-included&h=publicly%20amplified%20them.%20|Finally%2C%20at%20times%2C%20Mr.%20Trump%20made%20comments%20implicitly%20acknowledging%20that%20he%20knew%20he%20had%20lost%20the%20election.%20For%20example%2C%20%E2%8B%AFTrump%20stated%20in%20part%2C%20%22%5BI%5Dt's%20too%20late%20for%20us.%20We're%20going%20to%20give%20that%20to%20the%20next%20guy%2C%22%20meaning%20President-elect%20Biden.|"
           }
         }
       },
@@ -744,9 +744,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "Two and a half hours later, he replied to his own email and, as cover, wrote that \"'alternative' votes is probably a better term than 'fake' votes\"",
           "cite": {
-            "id": "one-campaign-s-agents-wrote",
-            "page": 15,
-            "href": "/reports/jack-smith-vol1?p=one-campaign-s-agents-wrote&h=%22%5Bk%5Dind%20ofwild%2Fcreative.%22%20|Two%20and%20a%20half%20hours%20later%2C%20he%20replied%20to%20his%20own%20email%20and%2C%20as%20cover%2C%20wrote%20that%20%22'alternative'%20votes%20is%20probably%20a%20better%20term%20than%20'fake'%20votes%22|%20and%20that%20he%20agreed%20with"
+            "id": "most-part-co-conspirators-deceived-trump",
+            "page": 13,
+            "href": "/reports/jack-smith-vol1?p=most-part-co-conspirators-deceived-trump&h=%22%5Bk%5Dind%20ofwild%2Fcreative.%22%20|Two%20and%20a%20half%20hours%20later%2C%20he%20replied%20to%20his%20own%20email%20and%2C%20as%20cover%2C%20wrote%20that%20%22'alternative'%20votes%20is%20probably%20a%20better%20term%20than%20'fake'%20votes%22|%20and%20that%20he%20agreed%20with"
           }
         }
       },
@@ -2075,9 +2075,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-deepwater-horizon?p=short-safety-risks-had-dramatically"
           },
           {
-            "id": "many-hardworking-individual-public-servants",
-            "page": 57,
-            "href": "/reports/us-deepwater-horizon?p=many-hardworking-individual-public-servants"
+            "id": "april-20-inherent-risks-decades",
+            "page": 56,
+            "href": "/reports/us-deepwater-horizon?p=april-20-inherent-risks-decades"
           },
           {
             "id": "macondo-well-blowout-makes-all",
@@ -2110,6 +2110,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-deepwater-horizon?p=root-causes-failures-industry-government"
           },
           {
+            "id": "most-significant-failure-macondo-clear",
+            "page": 122,
+            "href": "/reports/us-deepwater-horizon?p=most-significant-failure-macondo-clear"
+          },
+          {
             "id": "decisionmaking-processes-macondo-did-not",
             "page": 125,
             "href": "/reports/us-deepwater-horizon?p=decisionmaking-processes-macondo-did-not"
@@ -2123,9 +2128,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "The most significant failure at Macondo—and the clear root cause of the blowout—was a failure of industry management.",
           "cite": {
-            "id": "root-causes-failures-industry-government",
+            "id": "most-significant-failure-macondo-clear",
             "page": 122,
-            "href": "/reports/us-deepwater-horizon?p=root-causes-failures-industry-government"
+            "href": "/reports/us-deepwater-horizon?p=most-significant-failure-macondo-clear&h=|The%20most%20significant%20failure%20at%20Macondo%E2%80%94and%20the%20clear%20root%20cause%20of%20the%20blowout%E2%80%94was%20a%20failure%20of%20industry%20management.|%20Most%2C%20if%20not%20all%2C%20of%20the"
           }
         }
       },
@@ -2196,9 +2201,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "For government, it recommends an independent safety agency within the Interior Department, regulators funded by fees on industry, a much higher cap on liability for spills, and 80 percent of Clean Water Act penalties for restoring the Gulf.",
         "cites": [
           {
-            "id": "although-proposed-reorganization-interior-s",
-            "page": 255,
-            "href": "/reports/us-deepwater-horizon?p=although-proposed-reorganization-interior-s"
+            "id": "recommendations-a4-congress-department-interior",
+            "page": 256,
+            "href": "/reports/us-deepwater-horizon?p=recommendations-a4-congress-department-interior"
           },
           {
             "id": "oil-pollution-act-also-requires",
@@ -2214,19 +2219,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "Congress and the Department of the Interior should create an independent agency within the Department of the Interior with enforcement authority to oversee all aspects of offshore drilling safety (operational and occupational), as well as the structural and operational integrity of all offshore energy production facilities, including both oil and gas production and renewable energy production.",
           "cite": {
-            "id": "although-proposed-reorganization-interior-s",
-            "page": 255,
-            "href": "/reports/us-deepwater-horizon?p=although-proposed-reorganization-interior-s"
+            "id": "recommendations-a4-congress-department-interior",
+            "page": 256,
+            "href": "/reports/us-deepwater-horizon?p=recommendations-a4-congress-department-interior&h=Recommendations%20A4%3A%20|Congress%20and%20the%20Department%20of%20the%20Interior%20should%20create%20an%20independent%20agency%20within%20the%20Department%20of%20the%20Interior%20wi%E2%8B%AFity%20of%20all%20offshore%20energy%20production%20facilities%2C%20including%20both%20oil%20and%20gas%20production%20and%20renewable%20energy%20production.|"
           }
         }
       }
     ],
     "readingGuide": [
       {
-        "slug": "front-matter",
-        "title": "Foreword and Chapter 1: Sudden Death on the Gulf of Mexico",
+        "slug": "part-i-the-path-to-tragedy",
+        "title": "Part I and Chapter 1: Sudden Death on the Gulf of Mexico",
         "page": "1",
-        "why": "The co-chairs' seven conclusions, then an hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.",
+        "why": "An hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.",
         "excerpt": {
           "quote": "Down in Ezell's cabin, he was still watching TV when his phone rang. It was assistant driller Steve Curtis calling, also from the rig floor. \"We have a situation. …The well is blown out. . . . We have mud going to the crown.\"",
           "cite": {
@@ -2237,10 +2242,10 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "development-production-plan-development-production-plan-approved-production-well",
-        "title": "Chapters 3 to 5: Regulation, the Blowout and the Response",
-        "page": "62",
-        "why": "From partway through Chapter 3 on the regulator, through Chapter 4's technical account of why the well failed, to the 87-day struggle to cap it.",
+        "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
+        "title": "Part II and Chapter 4: The Macondo Well and the Blowout",
+        "page": "89",
+        "why": "The Commission's technical account of why the well failed, from the cement job to the warning signs missed in the last hour.",
         "excerpt": {
           "quote": "It appears instead they started from the assumption that the well could not be flowing, and kept running tests and coming up with various explanations until they had convinced themselves their assumption was correct.",
           "cite": {
@@ -2251,16 +2256,16 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "macondo-well",
-        "title": "Chapter 8: Changing Business as Usual",
-        "page": "199",
-        "why": "After the end of Chapter 7 on restoring the Gulf, the case for the industry to change its own safety culture, and how.",
+        "slug": "part-iii-lessons-learned-industry-government-energy-policy",
+        "title": "Part III and Chapter 8: Changing Business as Usual",
+        "page": "217",
+        "why": "The case for the industry to change its own safety culture, and how.",
         "excerpt": {
           "quote": "The Deepwater Horizon blowout, explosion, and oil spill did not have to happen.",
           "cite": {
-            "id": "chapter-eight-safety-not-proprietary",
+            "id": "deepwater-horizon-blowout-explosion-oil",
             "page": 217,
-            "href": "/reports/us-deepwater-horizon?p=chapter-eight-safety-not-proprietary&h=Changing%20Business%20as%20Usual%20|The%20Deepwater%20Horizon%20blowout%2C%20explosion%2C%20and%20oil%20spill%20did%20not%20have%20to%20happen.|%20Previous%20chapters%20have"
+            "href": "/reports/us-deepwater-horizon?p=deepwater-horizon-blowout-explosion-oil&h=|The%20Deepwater%20Horizon%20blowout%2C%20explosion%2C%20and%20oil%20spill%20did%20not%20have%20to%20happen.|%20Previous%20chapters%20have"
           }
         }
       },
@@ -2279,10 +2284,10 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "the-need-for-adequate-funding-for-safety-oversight-and-environmental",
+        "slug": "chapter-ten-american-energy-policy-and-the-future-of-offshore-drilling",
         "title": "Chapter 10: American Energy Policy and the Future of Offshore Drilling",
-        "page": "291",
-        "why": "After the last of Chapter 9's recommendations, the Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.",
+        "page": "294",
+        "why": "The Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.",
         "excerpt": {
           "quote": "The extent to which offshore drilling contributes to augmenting that domestic supply depends importantly on rebuilding public faith in existing offshore energy exploration and production.",
           "cite": {
@@ -2672,9 +2677,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The court did not find every allegation proved. It held that the Government had not shown that the companies deliberately chose to sabotage the marketing and production of less hazardous cigarettes.",
         "cites": [
           {
-            "id": "court-concludes-government-has-failed",
+            "id": "2018-after-weighing-evaluating-all",
             "page": 768,
-            "href": "/reports/us-v-philip-morris?p=court-concludes-government-has-failed"
+            "href": "/reports/us-v-philip-morris?p=2018-after-weighing-evaluating-all"
           }
         ]
       },
@@ -2706,7 +2711,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ],
     "readingGuide": [
       {
-        "slug": "introduction",
+        "slug": "overview",
         "title": "Introduction",
         "page": "32",
         "why": "The whole judgment in four pages — what the Government alleged, what the court found, the remedies it could and could not order, and a word on the lawyers.",
@@ -2720,9 +2725,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "pre-1953-overviewthe-rise-in-american-smoking-and-the-status-of-scientific",
-        "title": "Pre-1953 Overview — The Rise in American Smoking and the Status of Scientific Research on Smoking and Health",
-        "page": "47",
+        "slug": "creation-of-the-enterprise",
+        "title": "Creation of the Enterprise",
+        "page": "49",
         "why": "Where it began — the December 1953 meeting at the Plaza Hotel, the public relations firm Hill & Knowlton, and the \"Frank Statement\" of January 1954."
       },
       {
@@ -2768,7 +2773,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "section-v-e-defendants-know-that-health-concerns-are-the-primary-motivation-for-",
+        "slug": "prohibition-of-brand-descriptors",
         "title": "Remedies: Banning \"Light\" and \"Low Tar\"",
         "page": "1658",
         "why": "The remedy the court ordered first — a ban on descriptors that imply a cigarette is less harmful.",
