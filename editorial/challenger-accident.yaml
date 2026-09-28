@@ -7,14 +7,26 @@
 # Commission's work and held its own hearings; the report says so itself
 # (sections `introduction` and `challenger-investigation-hearings`).
 #
-# Extraction note: many of this report's section headings are OCR artefacts or
-# shouted captions ("FIGURE", "W I L L NOT 1 SEAL", "Fletcher, the Solid Rocket
-# Motor Source Evaluation Board (SEB)"). `reading_guide` overrides the titles of
-# the sections it uses. The Conclusions' key sentence on "poor technical
-# decision-making" is split between a block quotation and the next paragraph
-# across a page break, so it cannot be quoted cleanly; it is paraphrased in
-# findings instead. Filed as reportsthatmatter-c1y (headings) and
-# reportsthatmatter-m2y (severed Conclusions sentence).
+# Extraction note: this report's contents page lists only its ten top-level
+# chapters, not one of its many subsections, so most of the ~200 captions and
+# OCR garble ("FIGURE", "W I L L NOT 1 SEAL", "Fletcher, the Solid Rocket Motor
+# Source Evaluation Board (SEB)") that were mis-read as section headings have
+# been dropped in the pipeline (reportsthatmatter-c1y, ingest.ts's
+# `dropCaptionHeadings`); a residue of appendix noise remains. Two
+# `reading_guide` entries below (`2-operations`, `technical-management-2`) used
+# to point at the fake "FIGURE" sections that sat in front of the real ones;
+# their `section:` was repointed once those fakes were removed, and their
+# `title:` override is kept because "2. OPERATIONS" and the report's own
+# capitals are not a reader-facing title on their own.
+#
+# The Conclusions' key sentence on "poor technical decision-making" is split
+# between a block quotation and the next paragraph across a page break, so it
+# cannot be quoted cleanly; it is paraphrased in findings instead. Filed as
+# reportsthatmatter-m2y — Challenger should adopt @rtm/ingest's
+# `pageBreakContinuations()` pass (reportsthatmatter-ca3), which is now
+# declared in ingest.ts and fixes the parallel instance in Issue 2, Finding 2,
+# but not this one: the quotation does not resume as a quotation on the next
+# page, which is a shape that pass does not yet cover.
 #
 # Background facts not stated in the report itself, verified 2026-09-26:
 #   - Challenger broke apart 73 seconds into flight; the seven crew, including
@@ -165,7 +177,7 @@ reading_guide:
         that is, a joint that had already failed, NASA elected to regard a
         certain degree of erosion or blow-by as "acceptable."
 
-  - section: lockheed-shuttle-processing-contract-award-fee-history
+  - section: 2-operations
     title: Pressures on Shuttle Operations
     why: Where the pressure to fly more often came from, and what it did to training, planning and safety.
     excerpt:
@@ -176,7 +188,7 @@ reading_guide:
         joint. Without operating pressure the flight could have been stopped
         the night of January 27.
 
-  - section: figure-2
+  - section: technical-management-2
     title: Technical Management
     why: Why senior managers did not act on the seal problem, including a NASA manager's own account of how they talked themselves into it.
     excerpt:

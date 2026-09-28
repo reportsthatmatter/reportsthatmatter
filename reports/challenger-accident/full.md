@@ -1084,13 +1084,9 @@ On February 5, the Chairman, Mr. Fuqua, and Mr. Lujan, wrote a letter to Chairma
 
 On January 27, 1967, astronauts Virgil Grissom, Edward White I1 and Roger Chafee were killed when their Apollo spacecraft was destroyed by fire on the launch pad.
 
-(35)
+(35) the activities of your Commission. At the conclusion of the Commission's work, we will undertake a thorough review of your report; we expect that this review will be similar to the review and hearings held after the Apollo 204 fire and the Apollo 13 incident.2 It is our understanding that the Commission is tasked with completing its report in 120 days. In light of this fact, we would like to request your appearance before the Science and Technology Committee during the first week in
 
 %%page 36%%
-
-> the activities of your Commission. At the conclusion of the Commission's work, we will undertake a thorough review of your report; we expect that this review will be similar to the review and hearings held after the Apollo 204 fire and the Apollo 13 incident.2 It is our understanding that the Commission is tasked
-
-with completing its report in 120 days. In light of this fact, we would like to request your appearance before the Science and Technology Committee during the first week in
 
 June, or within one week of your final report, should you complete it sooner.
 
@@ -1206,8 +1202,6 @@ L
 
 TER
 
-## FIGURE
-
 V-1
 
 %%page 42%%
@@ -1230,17 +1224,9 @@ THRUST AT LIFT-OFF (2,650,000 pounds)
 
 SREI SEGMENT I yon o x i d e powder
 
-(catalyst), 0 .[^1] 7 percent ( v a r i e s )
-
-## . SRM AFT CENTER
-
-> polybutadiene a c r y l i c a c i d a c r y l o n i t r i le ( b i n d e r ) , 12 percent
-
-## WEIGHT
+> (catalyst), 0 .[^1] 7 percent ( v a r i e s ) polybutadiene a c r y l i c a c i d a c r y l o n i t r i le ( b i n d e r ) , 12 percent
 
 > AFT SEGMENT ' Empty: (193.000 p o u n d s ) P r o p e I l a n t : ( 1 ,[^1] 0 7 , 0 0 0 pounds) WITH NOZZLE Gross: (1,300,000 pounds)
-
-## AFT SKIRT
 
 FIGUREV-2
 
@@ -1248,15 +1234,9 @@ Each motor case is made of 11 individual weld-free steel segments (Figure V-3). 
 
 %%page 43%%
 
-## FORWARO SEGMENT
-
 AFT
 
-## CENTER SEGMENT
-
 AFT
-
-## SEGMENT FIGURE
 
 V-3
 
@@ -1276,67 +1256,35 @@ The following chart describes the principal steps in the evolution, flight, and 
 
 - 1 — 7
 
-## PROGRAH DIRECTION BY
-
-..
-
-## 1 DEFINE PROGRAM REQUIREMENTS AND VERIFY
-
-> THAT OBJECTIVES ARE CONSISTENTLY MET. NASA
+> .. THAT OBJECTIVES ARE CONSISTENTLY MET. NASA
 
 ## CONTRACTOR DESIGN DESIGN THE MOTOR TO MEET ALL PERFORMANC REQUIREMENTS DURING ALL ANTICIPATED
 
-CONDITIONS OF FLIGHT.
-
-## MORTON THIOKOL
-
-> (_' ., TESTING AND ASSURE THAT DESIGN MEETS ALL REQUlREMEh
-
-## MORTON THIOKOL
-
-NASA
+> CONDITIONS OF FLIGHT. (_' ., TESTING AND ASSURE THAT DESIGN MEETS ALL REQUlREMEh NASA
 
 ## PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN
 
 ACCORDANCE WITH THE DESIGN.
 
-## MORTON THIOKOL ROHR INDUSTRIES PARKER SEAL COMPANY
-
 > .. LOAD, TRANSPORT, UNLOAD AND STORE MOTOR SEGMENTS.
-
-## MORTON THIOKOL
 
 0 STACK I NG ASSEMBLE MOTOR SEGMENTS IN PREPARATION .
 
 FOR FLIGHT.
 
-## MORTON THIOKOL
-
 F ' i
-
-## REVIEW AND DECISION ON LAUNCH, IGNITE
 
 > MOTORS, SEPARATE AN0 RECOVER SPENT MOTOf NASA
 
-## MORTON THIOKOL REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH
-
 SPECIFICATIONS.
 
-## MORTON THIOKOL FIGURE
-
 V-4
-
-## FIGURE
 
 V-4
 
 %%page 46%%
 
-Because of the difficulty the reader may find in understanding the NASA Flight Readiness Review for the Solid Rocket Booster for Flight 51-L and the terms used to describe the steps in the process, the following chart describes the level of review, office conducting the review, and the scope of the review. In addition to the following meeting chart, there were numerous other ad hoc meetings on the SRMs including the meeting between NASA and Thiokol personnel during the evening before the launch of Flight 51-L.
-
-## TABLE I.-FLIGHT READINESS REVIEWS
-
-[STS-5111
+Because of the difficulty the reader may find in understanding the NASA Flight Readiness Review for the Solid Rocket Booster for Flight 51-L and the terms used to describe the steps in the process, the following chart describes the level of review, office conducting the review, and the scope of the review. In addition to the following meeting chart, there were numerous other ad hoc meetings on the SRMs including the meeting between NASA and Thiokol personnel during the evening before the launch of Flight 51-L. [STS-5111
 
 Level and date Reviewing office %ope of review
 
@@ -1374,31 +1322,21 @@ Considerable reference will be made to the "joint design" throughout this sectio
 
 'INS
 
-## FIGURE
-
 V-5
 
 %%page 48%%
 
 ## A, JOINT I M MORYAL ALIGNMENT (NO GAPS BETYEEN O-RINGS AND TAME) TANG P PRESSURE POINT LOCKING
 
-/ PIN
-
-CLEV I s
+/ PIN CLEV I s
 
 %%page 49%%
 
 ## B . JO I NT POTATED (OUT OF ALIGNFENTI -\7 PROPELLPNT PRESSUPE
 
-l- TY
-
-## FIGURE
-
-V-7
+> l- TY V-7
 
 %%page 50%%
-
-## ROCKETMOTORS
 
 ## SOLID
 
@@ -1452,11 +1390,7 @@ Functional leak check of dual seals prior to test or use;
 
 Material migration/compatibility tests to demonstrate suitability. *
 
-November 19, 1973.-In its report to NASA Administrator James
-
-### Fletcher, the Solid Rocket Motor Source Evaluation Board (SEB)
-
-evaluated the proposals generated by the Solid Rocket Motor RFP. Thiokol scored 124 out of a possible 200 points for its motor design, the lowest score among the four competitors. The only design strength identified by the Board: "Case joint leakcheck capability increases reliability and improves checkout operations." lC
+November 19, 1973.-In its report to NASA Administrator James evaluated the proposals generated by the Solid Rocket Motor RFP. Thiokol scored 124 out of a possible 200 points for its motor design, the lowest score among the four competitors. The only design strength identified by the Board: "Case joint leakcheck capability increases reliability and improves checkout operations." lC
 
 NASA, Marshall Space Flight Center, "Request for Proposal: Space Shuttle Program Solid Rock Motor Project," RFP 8-1-4-94-98401, Volume 1, July 16, 1973, pp. 1-3, 1-4.
 
@@ -2784,8 +2718,6 @@ In a press release dated September 5, 1986, NASA announced that it has extended 
 
 Lockheed's award fees at the Kennedy Space Center have not been at the highest possible levels due to mishaps and management problems. The contractor has received the following award fees for Shuttle processing at KSC:
 
-## LOCKHEED SHUTTLE PROCESSING CONTRACT-AWARD FEE HISTORY
-
 > Percent of Period From : ! ; :A Rating adjective Rating maximum Award fee mre award lee earned earned
 
 First ............................................... Oct. 1, 1983 ............ $6,618,880 Excellent ............... 90.0 80 $5,295,104 Second........................................... Apr. 1, 1984 ............ 1,299,404 Good ..................... 78.5 32 415,809 Third .............................................. Oct. 1, 1984 ............ 1,308,554 (;ood ..................... 76.0 24 314,053 Fourth............................................ Apr. 1, 1985 ............ 1,308,554 Excellent ............... 91.0 84 1,099,185 Fifth............................................... Oct. 1, 1985 ............ 1,308,554 Very good ............. 89.0 76 994,501 Sixth .............................................. Apr.1,1986 ............ 1,296,664 ( 1 ) ....................... (I) (l) (')[^1] To be determined.
@@ -2950,8 +2882,6 @@ The launch production process template is displayed schematically on Figure VI-2
 
 %%page 6#2%%
 
-## GENERIC TEMPLATE (CIR 7.7 MO)
-
 1s 14 13 12 11 10 9 8 7 6 5 4 3 2 1 s
 
 I I I I I I I I I I I I I I I
@@ -2999,8 +2929,6 @@ I 1 I
 > 0 L.3 b.5 1-7.7
 
 VI-2
-
-## FIGURE
 
 %%page 126%%
 
@@ -3262,8 +3190,6 @@ The process of risk management as applied to systems such as the Shuttle can be 
 
 %%page 140%%
 
-## FIGURE
-
 VIGi
 
 %%page 141%%
@@ -3338,11 +3264,9 @@ Recommendations
 
 No single system exists for establishing and dealing with launch constraints within the Shuttle Program; for example, Marshall maintains their own system through their Problem Assessment Center (PAC) to deal with problems affecting the propulsion system. In testimony before the Rogers Commission, Mr. Mulloy explained that the system was established to provide visability for problems relating to the propulsion system and a "launch constraint" was in effect a flag to alert the Project Office to address the problem at the Flight Readiness Review.
 
-A launch constraint means that we have to address the observations, see if we have seen anything on the previous
+A launch constraint means that we have to address the observations, see if we have seen anything on the previous flight that changes our previous rationale, and address that at the Flight Readiness Review. 132
 
 %%page 145%%
-
-> flight that changes our previous rationale, and address that at the Flight Readiness Review. 132
 
 The NSTS Program Manager stated that he was unaware that a launch constraint had been imposed as a result of the O-ring erosion. Unawareness of this launch constraint was also claimed by the Level I Program Office and key Thiokol personnel: Mssrs. Ebeling, Kilminster, Russell, McDonald, and Boisjoly.[^33]
 
@@ -3774,8 +3698,6 @@ Design changes at the contractor level are processed through several levels of t
 
 The Committee questions, however, whether the complex and extensive processes involved in NASA's change control management system allow for sufficient distinction between minor changes and the significant changes. For example, the systems requires the same level of management attention to as minor a change as moving Velcro strips on the Orbiter as it is applied to all Criticality 1 item such as changing a turbo-pump on the SSME.
 
-## ORGANIZATION A N D POLICY MANAGEMENT
-
 a. Management Structure
 
 Issue 1
@@ -4166,11 +4088,7 @@ Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 
 ## UPSTREAM WRONG) POSITION
 
--
-
-## DOWNSTREAM SECONDARY
-
-> 0-R ING h E A T E D
+> - 0-R ING h E A T E D
 
 ## DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1
 
@@ -4186,13 +4104,9 @@ A t ignition, blowby occurred, either with erosion of the primary O-ring or with
 
 %%page 186%%
 
-## -SPAC I NG
-
 "Too TIGHT"
 
 O-RING
-
-## W I L L NOT 1 SEAL
 
 %%page 187%%
 
@@ -4994,17 +4908,17 @@ Mr. McDonald then called Mr. Cecil Houston, the Resident Manager for the Marshal
 
 ## TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE
 
-ON JRNUARY 27. 1986 e.tKennedvwm.Florlda Th I okol A1 I an McDonal d D t r e c t o r , Sol I d Rocket Motor Program
+> ON JRNUARY 27. 1986 e.tKennedvwm.Florlda
+
+Th I okol A1 I an McDonal d D t r e c t o r , Sol I d Rocket Motor Program
 
 Offfce Th f okol Jack Buchanan Manager, KSC Resldent O f f l c e MSFC Lawrence Mu1 I oy Manager, Sol 1 d Rocket Booster P r o j e c t
 
-Offfce MSFC Stan1 ey Relnartz Manager, S h u t t l e ProJects O f f f c e MSFC Judson Lovfngood Deputy Manager, S h u t t l e P r o j e c t s O f f l c e
+Offfce MSFC Stan1 ey Relnartz Manager, S h u t t l e ProJects O f f f c e MSFC Judson Lovfngood Deputy Manager, S h u t t l e P r o j e c t s O f f l c e MSFC George Hardy Deputy D l r e c t o r f o r Sclence and
 
-MSFC George Hardy Deputy D l r e c t o r f o r Sclence and
+> Engl neerf ng AtJhlokdKaza.mODeratfons,Ytatr
 
-Engl neerf ng
-
-AtJhlokdKaza.mODeratfons,Ytatr Th I okol J e r a l d Mason Senlor V f c e Presfdent, Wasatch
+Th I okol J e r a l d Mason Senlor V f c e Presfdent, Wasatch
 
 Operatlons Th I okol C.G. Wlggins V l c e P r e s l d e n t and General Manager,
 
@@ -5828,8 +5742,6 @@ D. Go ahead.
 
 UNK. Yeah, it is effectively 51L, I think we are in good shape.
 
-## OK.134
-
 Later on the morning of the 28th, the following discussion occurred:
 
 D. FR[Firing Room] 2, this is FR[Firing Room] 1.
@@ -5940,13 +5852,9 @@ Mr. Mulloy testified before the Commission that:
 
 1*0 NASA,"Space Shuttle News Reference," !?81, p. 2-40. 1'1 "Lauch Commit Criteria and Background, Amendment 20, p. G-23. Ira hid., p. G-1 143 hid.
 
-64-420 0 - 86 - 9
+64-420 0 - 86 - 9 ria relative to temperatures. It was felt there was a need to look at the recovery battery temperatures that are in the forward skirt of the SRB and the fuel service module temperatures that are in the fuel service modules for the thrust vector control system in the aft skirt of the solid rocket booster. The input received back by me was that they did not feel that would be of any concern. They were going to continue to look at it, and if any concern arose they would let me know.
 
 %%page 250%%
-
-> ria relative to temperatures. It was felt there was a need to look at the recovery battery temperatures that are in the forward skirt of the SRB and the fuel service module temperatures that are in the fuel service modules for the thrust vector control system in the aft skirt of the solid rocket booster. The input received back by me was that they did not
-
-feel that would be of any concern. They were going to continue to look at it, and if any concern arose they would let me know.
 
 I went to the 2:OO Mission Management Team and reported that there were no constraints to the solid rocket booster for a 24-hour turnaround, that we had taken a look at the recovery battery temperatures and the fuel service module. We did not feel at this time that there would be any Launch Commit Criteria for the low temperature limits that were established for those systems, but that we were continuing to assess that; should anything change in that regard, I would so report that."
 
@@ -6010,11 +5918,7 @@ R E R Y TC 4moF: 30-1
 
 (255)
 
-* * * * * * *
-
-## TXIOKOL CHEMICAL CORPORATION
-
-r v
+* * * * * * * r v
 
 Tkiokol presented an approach to the SRM Program which clearly focused on m a x i m u m utilization of existing facilities a d low early year funding. In-house production efforr would be accomplished in the Wasatch Division,.Utah facility.
 
@@ -6056,9 +5960,7 @@ In :he area of Key Personnel, the prcposed Procra!!. 5irect3r was considered exc
 
 %%page 260%%
 
-V-B
-
-DRNO. 5-6
+> V-B DRNO. 5-6
 
 ## NATIONAL AERONAUTICS A N D SPACE AD=-RATION GEORGE C. M A - U SPACE ?- CENTER
 
@@ -6102,17 +6004,9 @@ a ~ l l results of pravioua amall rcala motor taat result.. Norton Thiokol alao 
 
 > ,, . I , 1.
 
-m-14359
+m-14359 3.1 Analyria The following teat. s h a l l be p e r f o r u d on tb vacuum putty ma a m i n i m . If furchar t e s t i n g is r e q u i r d . i t a b l l be p e r f o r u d and documented. Sow of t h e t e s t a are c u r r e n t l y bein# porforwd on t h e a x l e t i n s putty, but are l i s t e d t o amsure t h a t presently e r a i l a b l e d a t a ara e-rised in th. a n s u i w report. These teat. v i l l h a t o k repeated on any p o t m t i a l now putty. (See s e c t i o n 3.1.5) 3.1.1 Chomical Composition An e n a l ~ s i . v i l l be performod on tb. putty t o deternine a o l i d s content, u b e e t o a f i b e r (or other f i l l e r ) content. chromate c o n t m t . binder u b u p , and a11 other applicable tests d e a c r i b d in SN4-2847, h t W . Vacuum Seal.
 
 %%page 263%%
-
-> 3.1 Analyria The following teat. s h a l l be p e r f o r u d on tb vacuum putty ma a
-
-m i n i m . If furchar t e s t i n g is r e q u i r d . i t a b l l be p e r f o r u d and documented. Sow of t h e t e s t a are c u r r e n t l y bein# porforwd on t h e a x l e t i n s putty, but are l i s t e d t o amsure t h a t presently e r a i l a b l e d a t a ara e-rised in th. a n s u i w report. These teat. v i l l h a t o k repeated on any p o t m t i a l now putty. (See s e c t i o n 3.1.5)
-
-> 3.1.1 Chomical Composition An e n a l ~ s i . v i l l be performod on tb. putty t o deternine a o l i d s
-
-content, u b e e t o a f i b e r (or other f i l l e r ) content. chromate c o n t m t . binder u b u p , and a11 other applicable tests d e a c r i b d in SN4-2847, h t W . Vacuum Seal.
 
 > 3.1.2 Physical Properties Taets a h a l l be developod .ad conducted t o datermine dheeive
 
@@ -6184,13 +6078,9 @@ An a n a l y s i r w i l l be p e r f o m e d t o sssean t h e r e s u l t s o f
 
 I , j o i n t a are a h w n i n f i g u r e r 1 and 2 f o r HPn-SRH and Tvc-SRII, respectively.
 
-1VR-14359
+1VR-14359 3.S hviou and Witnear T e u A n v i w md u i t n r r r toam ahall bo eatobl1rh.d corraiating of uporionced onginearr from Norton T h i o b l and RA8A t o inopect .nd aa0e.a a l l toat roaulta. ~ n o u l o u aeoaditionr of joint. f m f l o r a motor. s h a l l bo c r i t i c a l l y 1nap.cc.d wrb.ra of thia to-. fbo t o u w i l l dotornin* tho courao of oction t o bo t a b n om intenwdiato md firm1 r o m ~ l t obecaw avallablo.
 
 %%page 266%%
-
-> 3.S hviou and Witnear T e u A n v i w md u i t n r r r toam ahall bo eatobl1rh.d corraiating of
-
-uporionced onginearr from Norton T h i o b l and RA8A t o inopect .nd aa0e.a a l l toat roaulta. ~ n o u l o u aeoaditionr of joint. f m f l o r a motor. s h a l l bo c r i t i c a l l y 1nap.cc.d wrb.ra of thia to-. fbo t o u w i l l dotornin* tho courao of oction t o bo t a b n om intenwdiato md firm1 r o m ~ l t obecaw avallablo.
 
 The attaehod achodulo reflaeta tho tin ~ v a i l o b l et o caplet. the taotin# and qualification of tho preeodlng i t a h
 
@@ -6245,8 +6135,6 @@ S. B. P m d h t o n 1 20 1
 - 1. 8. b78r 1 — 281
 
 - K. 1. Cekhardt — 281
-
-### C. Bunhr 20 I
 
 - K. L. Uollmh8UPt — 201
 
@@ -6364,13 +6252,9 @@ positloning cycle.
 
 t u r e range should be d u p l l c r t r d as close as posslble. Type 11 zlnc chmmat. 0 sealant should be usrd for a l l tests.
 
-w
+w b. lbrrlo C I x d msIng/ACt S-nt Boss Joint - Perfom t e i t s with f u l l m l r h r r d r r o to @ccgmpllshtho o b J c t l v r In Ita 1. rbove. Iho test dosI9ned to d o t a r ~ l mO-ring bloodback r a t e nod not be repeated.
 
 %%page 276%%
-
-> b. lbrrlo C I x d msIng/ACt S-nt Boss Joint - Perfom t e i t s with f u l l
-
-m l r h r r d r r o to @ccgmpllshtho o b J c t l v r In Ita 1. rbove. Iho test dosI9ned to d o t a r ~ l mO-ring bloodback r a t e nod not be repeated.
 
 c. I s n I t n Mapter/Caso forward Srgwnt Boss JoInt - P r f o t n tests r I t h f u l l r t r l o h r d u r o to reccrpllsh t b l objUtlvos ln Ita 8 . above. T a t s t o d r t m l n e p m s u r e v r l u r r q u f r d t o posltion the s r l i s not r m l r e d . I t 1s hI9hly d r s l r r b l e to c m p t r t e thoso tests prior to strcktng o f STS-12. Questions concerning t h i s r a o r r n d u should be referred to Ic. Leon Ray, 3-3809.
 
@@ -6434,9 +6318,7 @@ N
 
 %%page 282%%
 
-PC 026418
-
-> il 'JY %- I
+> PC 026418 il 'JY %- I
 
 A
 
@@ -6662,11 +6544,7 @@ NASA IM X - U 7 9
 
 GUIDELINS FOR USE IN AEROSPACE l@HlCLE DEVELOPMENT, 1973 REVISION
 
-......
-
-NA3A
-
-George C. Manball Space Flight Center Marsball ,!$ace Flight Center, Alabama
+...... NA3A George C. Manball Space Flight Center Marsball ,!$ace Flight Center, Alabama
 
 %%page 299%%
 
@@ -6750,9 +6628,9 @@ SD 74-SH-0144D
 
 DECEMBER 1977 SDM BASELINE
 
-> Contract NM9-14000 IRD UO. St-699TZ ms 2.2.1 Prepared by
+> Contract NM9-14000 IRD UO. St-699TZ ms 2.2.1 Prepared by Approved by I
 
-Approved by I m o d *nrlyrir Shuttlo h r o Scioncer
+m o d *nrlyrir Shuttlo h r o Scioncer
 
 %%page 306%%
 
@@ -6810,9 +6688,9 @@ George C. Marshall Space - Fight Center Marsball Space Fight Center, Alabama b
 
 > 1 35.73 k - L 11.85
 
-31 1
+> 31 1 M a h m t..p.rrcotu for tho U rida of tha loll- condition
 
-M a h m t..p.rrcotu for tho U rida of tha loll- condition intarfacur
+intarfacur
 
 > - 3- 27
 
@@ -6838,13 +6716,9 @@ DR NO. 2-2
 
 > Norton TniokeA, Ino. liriatoh oivirion
 
-P.U. nox s 2 4 , w i g n u city, man w ) o 2 UUl/d63-3511
+P.U. nox s 2 4 , w i g n u city, man w ) o 2 UUl/d63-3511 S p e c i f i c a s i o n ho. C n l - 3 3 3 3 Date:[^1] 1 F e o r u a r y 1984 Page I- 33 maintenance and r e f u r O l s h o r n t o p o r r t i o n r . 3.2.6.3 Ptrsonn'rl Safety. Provlriona f o r personno1 s r f o t y s h ~ l l DI i n aCcOrdJnC0 u i t h t h e f O l l O U i a f :
 
 %%page 313%%
-
-> S p e c i f i c a s i o n ho. C n l - 3 3 3 3 Date:[^1] 1 F e o r u a r y 1984 Page I- 33
-
-maintenance and r e f u r O l s h o r n t o p o r r t i o n r . 3.2.6.3 Ptrsonn'rl Safety. Provlriona f o r personno1 s r f o t y s h ~ l l DI i n aCcOrdJnC0 u i t h t h e f O l l O U i a f :
 
 > J. SdfOty D . V i C O S . K n O W n J u r d r W l C h c a n n o t DO 01iSinJt.d t h r o y l h d e r i g n S O l O C t i O n J h J l l be r e d w e d t o an acceptable l o v e 1 t h r o y h t h e use o f . a p p r o p r i a t e s a f e t y d o v i c a r aa p a r t of tno 8yStmS, suorystem, 0.r equipment 0 . d a r n i n g Dovices. Unero i t l a - n o t p o r r i ~ l et o p r e c l u d c t h o e x i s t e n c o o r o c c u r r e n c e of J know nazard, d e v l c e r r h r l l Do e r p l e y e d f o r t h e t i m e l y d e t e c t i o n o f t h o c o n d i t i o n and eke ger.eration o f an adequute warnina a i g n a l . Warning a i i c a l a acd t h e i r J p p l i C J t i O n S h a l l b e dO J i g n8 6 to minirim Oh. p r O b J D i l i t y o f w o n g S i g n J l J o r o f impropor personnel r e a c t i o n t o t h e r i g o a l .
 
@@ -7186,11 +7060,9 @@ I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I 1 I I I 
 
 > I I
 
-I I I I I I I Pese 3 JI'[^3] j
+I I I I I I I Pese 3 JI'[^3] j i Failure mce Effects Analysis I 2 IRA-26N I I 1 suopzcza l - t i s u m i t updates a t 6-nonth intervals rith s a i t t a l linked t o nearest schedule CIL i I m submtttal. I
 
 %%page 324%%
-
-> i Failure mce Effects Analysis I 2 IRA-26N I I 1 suopzcza l - t i s u m i t updates a t 6-nonth intervals rith s a i t t a l linked t o nearest schedule CIL i I m submtttal. I
 
 '- I I
 
@@ -8072,7 +7944,7 @@ The following ground r u l e s and c r i t e r i a a r e of a general category f
 
 01: NO. 100-26,
 
-## APPENDIX
+## APPENDIX 8
 
 Page 2of 6
 
@@ -8262,13 +8134,9 @@ METHOD A-COMPRESSION SET UNDER vision shall be made by the use of bolts and nuts
 
 7. I Dial Micromeler-A dial micrometer, for have essentially the same characteristics as de- measuring specimen thickness, in accordance scribed in 7.2. I , but calibration is not required. with Practice 3767, Method A 1. A suitable compression device is shown in Fig. 7.2 Compression Device, consisting of a force 2. application spring and two parallel compression 7.3 flures-The plates between which the test platesassembled by means ofa frame or threaded specimen is compressed shall be made of steel of bolt in such a manner that the device shall be sufficient thickness to withstand the compressive portable and self-contained after the force has stresses without bending. The surfaces against been applied and that the parallelism of the plates which the specimen is held shall have a highly shall be maintained. The force may be applied in polished chromium-plated finish and shall be accordance with either 7.2. I or 7.2.2. cleaned thoroughly and wiped dry before each
 
-7.2.1 Culibrured Spring Force Applicurion- test. The required force shall be applied by a screw 7.4 Oven, conforming to the specification for mechanism for compressing a calibrated spring a Type IIB laboratory oven given in Specification the proper amount. The spring shall be of E 145. properly heat-treated spring steel with ends ground and perpendicular to the longitudinal 8. Procedure axis of the spring. A suitable compression device 8.1 Original Thickness Measurement-Mea- is shown in Fig. I . The spring shall conform to sure the original thickness of the specimen to the the following requirements: nearest 0.02 mm (0.001 in.). Place the specimen
+7.2.1 Culibrured Spring Force Applicurion- test. The required force shall be applied by a screw 7.4 Oven, conforming to the specification for mechanism for compressing a calibrated spring a Type IIB laboratory oven given in Specification the proper amount. The spring shall be of E 145. properly heat-treated spring steel with ends ground and perpendicular to the longitudinal 8. Procedure axis of the spring. A suitable compression device 8.1 Original Thickness Measurement-Mea- is shown in Fig. I . The spring shall conform to sure the original thickness of the specimen to the the following requirements: nearest 0.02 mm (0.001 in.). Place the specimen @I D395 on the anvil of the dial micrometer so that the 9. Calculation presser foot will indicate the thickness at the 9.1 Calculate the compression set as a per- central portion of the top and bottom faces. centage of the original thickness as follows:
 
 %%page 4#3%%
-
-> @I D395
-
-on the anvil of the dial micrometer so that the 9. Calculation presser foot will indicate the thickness at the 9.1 Calculate the compression set as a per- central portion of the top and bottom faces. centage of the original thickness as follows:
 
 8.2 Application of Compressive Force-Assemble the specimens in the compression device, C A = I(t. - ~,)/lol x 100 (1) using extreme care to place them exactly in the where: center between the plates to avoid tilting. If the C, = compression set (Method A) as a percent- calibrated spring device (Fig. 1) is used, apply the age of the original thickness, compressive force by tightening the screw until I, = original thickness (8. I), and the deflection as read from the scale is equivalent fi = final thickness (8.5). to that shown on the calibration curve for the spring corresponding to a force of 1.8 kN (400 10. Report lbf). With the external loading device (Fig. 2), 10.1 The report shall include the following: apply this force to the asembly in the compres- 10. I. I Original dimensions of the test speci- sion machine or by adding required masses, but men, including the original thickness, f, in the latter case, take care to add the mass 10.I .2 Actual compressive force on the speci- gradually without shock. Tighten the nuts and men as determined from the calibration curve of bolts just sufficiently to hold the initial deflec- the spring and spring deflection reading (7.2.1) tions of the specimen and spring. It is imperative or as applied by an external force (7.2.2), that no additional force be applied in tightening 10.I .3 Thickness of the test specimen 30 min the bolts. after removal from the clamp, f,,
 
@@ -8376,23 +8244,15 @@ VII-c
 
 %%page 380%%
 
-VIII-A
-
-NASA
+## VIII-A NASA
 
 STS St-L
 
 ## . PROGRAM DIRLCTIVE
 
-G,ff 1.;'a.
+G,ff 1.;'a. b. c. d.
 
 %%page 381%%
-
-b.
-
-c.
-
-d.
 
 P Q t E . 06 , ___
 
@@ -8706,9 +8566,7 @@ I
 
 ## 0 READINESS STATMENT
 
-SRB-2
-
-> /. J
+> SRB-2 /. J
 
 > STS 51-L SICNIf ICAHT CONfICURATION DIFFERENCE CHANGE REASON BASIS FOR ClRTIFICATION . ** ------ ------- -._______---_-_--
 
@@ -8906,11 +8764,7 @@ PC 0 3 7 7 1 1 w
 
 8ZP
 
-" W w am J1U EIIDSIUN L E N O I H IINCHEB) 1.0 7.0 IIEAT AYFECTEU L f N U l l f . 22.0 23.0
-
-## I INCHEU J
-
-E I U D I C U OEI'TJI INCIlEE> ,017 ,037 DEGREE L O C h T I O N 9 + 6 OEUREEU 0 OEO
+" W w am J1U EIIDSIUN L E N O I H IINCHEB) 1.0 7.0 IIEAT AYFECTEU L f N U l l f . 22.0 23.0 E I U D I C U OEI'TJI INCIlEE> ,017 ,037 DEGREE L O C h T I O N 9 + 6 OEUREEU 0 OEO
 
 P n
 
