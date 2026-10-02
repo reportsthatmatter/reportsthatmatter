@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-02 — The Lehman introduction now covers Repo 105
+
+The Valukas Report's landing page now draws on Volume 3: its Repo 105 findings cite and quote the examiner's own Repo 105 analysis rather than the executive summary's précis of it — what the device was, the $38.6–$50.38 billion it took off the balance sheet at quarter-end, the absence of any business purpose, who was not told, and the claims against Lehman's officers and Ernst & Young — and the reading guide sends readers to the Repo 105 section. Three passages from it are added to the highlights.
+
 ## 2026-10-02 — Text fixes across twelve reports (ingest v0.15.0), and Repo 105 for Lehman
 
 The Valukas Report now includes Volume 3, Repo 105 (the accounting-device analysis), as a section of the Lehman Brothers examiner's report, with its footnotes linked: 941 of its 1,094 notes, up from one. `@rtm/ingest` v0.15.0 carries a batch of fixes that moved most of the archive. Deepwater Horizon regains 279 paragraphs that had been fused into their neighbours, and Challenger 65. Litvinenko loses 241 running titles and tabs that had been set as paragraphs, and its lettered sub-items stop being cut into a quotation (prose run into a quotation: 251 down to 77). Leveson's page-break splits fall from 36 to 5 and its bogus "Chapter 7" section is gone. The Iraq Inquiry has all 88 of its contents-listed headings (68 before). 9/11 gets its contents as entries, 120 sub-headings and 371 endnotes linked that were not. Hillsborough, Saville, Columbia, Philip Morris, PSI and Jack Smith move by a handful of paragraphs each, mostly false footnote links removed. Paragraph ids moved in all of these, so any link into a moved paragraph on those pages may land at the top of its section.
