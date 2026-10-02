@@ -16,6 +16,7 @@
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",
+    "quality": "tsx scripts/quality.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",
     "check-search-staleness": "node scripts/check-search-staleness.mjs",
     "marks": "node scripts/imagery/build.mjs",

@@ -112,6 +112,7 @@ an interactive session.
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |
 | `reports/corpus-baseline.json` | Every report's citable ids, for `pnpm corpus check` |
+| `reports/quality-budget.yaml` | Per-report maximum counts for each quality signal, for `pnpm quality check` (signals in `src/lib/quality/`; `pnpm quality report` prints them all) |
 | `src/lib/content.ts` | Which store a report is read from — R2 at a pinned hash, or the deploy |
 | `src/lib/publish.ts` | Content hashing, per-report tokens, what a version must contain |
 | `docs/v2-features.yaml` | What is done and what is next |
@@ -172,6 +173,18 @@ an interactive session.
   that particular hole; the general lesson is that a check which cannot fail on
   the broken output is not evidence. When adding one, run it against the broken
   version and watch it fail before trusting it.
+- **A text bug closes on a failing check.** A bug bead about a report's text
+  (a severed sentence, a stray marker, a missing heading, furniture in the body)
+  closes only when a signal in `pnpm quality check` (or, once b78.4 lands, a
+  golden page) fails on the pre-fix output and passes on the fix, and the quality
+  catalogue (`docs/design/2026-10-02-quality-harness-catalogue.md` §3) has the
+  example, the bead id and the signal's name. If no signal can see the defect,
+  add the signal first. A fix that lowers a count also lowers its budget:
+  `pnpm quality ratchet <id>`. Raising a budget is a hand edit with a
+  `# why: <bead id>` comment; `pnpm quality baseline --why <reason>` is for the
+  integrator, after a re-ingest, once the diff has been read. Reader reports
+  arrive through the `text-defect` issue template with the `reader-report`
+  label; the bead gets the label and `--external-ref` to the issue.
 - **Don't modify tests to make them pass** — fix the code. (Do fix tests whose
   fixtures are unrealistic; several early ones were.)
 - **Paragraph ids are the product.** They derive from the paragraph's opening

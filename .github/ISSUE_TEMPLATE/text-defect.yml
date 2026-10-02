@@ -1,0 +1,50 @@
+name: Problem with a report's text
+description: Something in a report reads wrongly: a sentence cut in half, a stray number, a missing heading, text in the wrong place.
+labels: ["reader-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. The more exactly you point at the passage, the faster it is fixed, and every report becomes a permanent check so the same problem cannot return.
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: The address of the page you were reading. A link from the share popover, which carries the paragraph, is best.
+      placeholder: https://reportsthatmatter.org/reports/…
+    validations:
+      required: true
+  - type: textarea
+    id: passage
+    attributes:
+      label: The paragraph id or the text itself
+      description: The `?p=` id from the link, or paste the words around the problem.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - A sentence is cut in half (a paragraph ends mid-sentence, or the rest is set as a quotation)
+        - A footnote number is stuck to a word instead of being a note
+        - Text from a footnote or endnote sits in the body
+        - A heading is missing, merged into a paragraph, or cut short
+        - Something that is not a heading is a heading (a caption, a label)
+        - A whole page is indented or quoted as if it were a quotation
+        - A running head, page number or banner is repeated in the text
+        - A contents page shows as ordinary text or a list
+        - Garbled text from a bad scan
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What you expected
+      description: Optional. What the original document says, and the page number in it.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional. Paste or drag an image here.

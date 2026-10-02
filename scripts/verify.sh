@@ -107,6 +107,21 @@ else
   tail -30 "${RUN_DIR}/corpus.log"
 fi
 
+step "Quality signals"
+# Per-report counts of the defects readers have found (severed sentences,
+# unlinked footnote markers, furniture, missing headings, <h1>, ...) against
+# reports/quality-budget.yaml. Budgets start at the corpus's counts and only
+# ratchet down, so this is green today and fails on any regression, or on a new
+# report shipping above the corpus's typical level. It reads the aggregated
+# full.md and the pages just pre-rendered above, so peer noise in a report repo
+# cannot reach it. See docs/design/2026-10-02-quality-harness-plan.md.
+if pnpm quality check >"${RUN_DIR}/quality.log" 2>&1; then
+  pass "every report is within its quality budget"
+else
+  fail "pnpm quality check"
+  tail -40 "${RUN_DIR}/quality.log"
+fi
+
 step "Typecheck"
 if pnpm typecheck >"${RUN_DIR}/typecheck.log" 2>&1; then
   pass "tsc --noEmit"
