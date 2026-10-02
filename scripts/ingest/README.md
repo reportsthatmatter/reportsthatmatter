@@ -6,7 +6,7 @@ over the reports in `reports/`.
 
 ```bash
 pnpm ingest run <id>        # rebuild one report from reports/<id>/ingest.ts
-pnpm ingest verify          # fidelity gates against the real source PDFs
+pnpm ingest verify          # fidelity gates against the real source PDFs, then the layout oracle (measure-only; --no-oracle, --findings)
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
 ```
