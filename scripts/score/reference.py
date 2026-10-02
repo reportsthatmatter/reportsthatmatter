@@ -117,7 +117,7 @@ REFERENCES = {
     "uk-hillsborough-panel": {
         "set": "held-out",
         "adapter": "tagged",
-        "edition": "The panel website's HTML (Wayback captures, 2013-2016) where captured, and the PDF's own structure tree (tagged PDF, InDesign styles) for the rest",
+        "edition": "The panel website's HTML (Wayback captures) where captured, and the PDF's own structure tree (tagged PDF, InDesign styles) for the rest",
         "licence": CROWN,
         "numbered": True,
         "notes_by_size": True,
