@@ -112,7 +112,7 @@ findings:
         imagination, policy, capabilities, and management.
 
   - text: The report finds that the air defence of 11 September was improvised, by a military unprepared for airliners turned into weapons. Fighters scrambled from Otis Air Force Base did not know where to fly; NEADS received nine minutes' notice before the first plane hit its target, and no advance notice at all before the second, third, or fourth.
-    cites: [summary-neads-received-notice-hijacking, clarifying-record-defense-u-s]
+    cites: [summary-neads-received-notice-hijacking, defense-u-s-airspace-9]
 
   - text: The Commission recommended a National Counterterrorism Center to replace the separate, uncoordinated analytic centers then run by the CIA, the FBI, the Defense Intelligence Agency, and the Department of Homeland Security, giving one center joint authority over both intelligence and operational planning.
     cites: [primary-responsibility-terrorism-analysis-has, recommendation-we-recommend-establishment-national]
@@ -227,7 +227,7 @@ highlights:
   - paragraph: september-11-nation-suffered-largest
     quote: On September 11, the nation suffered the largest loss of life—2,973—on its soil as a result of hostile attack in its history.
     card: true
-  - paragraph: khalid-sheikh-mohammed-no-one
+  - paragraph: no-one-exemplifies-model-terrorist
     quote: No one exemplifies the model of the terrorist entrepreneur more clearly than Khalid Sheikh Mohammed, the principal architect of the 9/11 attacks.
   - paragraph: calculus-becomes-important-story-both
     quote: >-
