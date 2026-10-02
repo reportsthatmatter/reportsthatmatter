@@ -12,33 +12,33 @@
 
 defaults:
   per1k:
-    severed-into-quote: 0.146
-    severed-paragraph: 0.026
-    bare-footnote-marker: 0.768
-    note-text-in-body: 0.075
+    severed-into-quote: 0.135
+    severed-paragraph: 0.032
+    bare-footnote-marker: 0.682
+    note-text-in-body: 0.093
     note-citation-vocabulary: 0
-    furniture-paragraph: 0.092
-    contents-entry-without-heading: 0.276
+    furniture-paragraph: 0.089
+    contents-entry-without-heading: 0.155
     heading-density: 0
-    heading-repeated: 0.003
-    heading-function-word: 0
+    heading-repeated: 0
+    heading-function-word: 0.001
     heading-marker: 0
-    heading-long: 0.014
+    heading-long: 0.015
     printed-page-reversal: 0
     rendered-h1: 0
     ids-per-1k-words: 0
   max:
-    rendered-ol-words-share: 7
-    quote-share-parity: 1
+    rendered-ol-words-share: 5
+    quote-share-parity: 2
 
 reports:
   challenger-accident:
-    severed-into-quote: 93
-    severed-paragraph: 55
+    severed-into-quote: 97  # why: post v0.15.0 integration
+    severed-paragraph: 53
     bare-footnote-marker: 119
-    note-text-in-body: 51
+    note-text-in-body: 68  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
-    furniture-paragraph: 373
+    furniture-paragraph: 372
     contents-entry-without-heading: 56
     heading-density: 0
     heading-repeated: 2
@@ -51,10 +51,10 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   columbia-accident:
-    severed-into-quote: 62
+    severed-into-quote: 59
     severed-paragraph: 74
     bare-footnote-marker: 179
-    note-text-in-body: 28
+    note-text-in-body: 29  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 75
     contents-entry-without-heading: 73
@@ -64,15 +64,15 @@ reports:
     heading-marker: 0
     heading-long: 0
     printed-page-reversal: 0
-    rendered-h1: 1
+    rendered-h1: 0
     rendered-ol-words-share: 1
     ids-per-1k-words: 0
     quote-share-parity: 1
   jack-smith-vol1:
-    severed-into-quote: 4
+    severed-into-quote: 3
     severed-paragraph: 5
     bare-footnote-marker: 0
-    note-text-in-body: 5
+    note-text-in-body: 9  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 0
     contents-entry-without-heading: 9
@@ -85,25 +85,25 @@ reports:
     rendered-h1: 0
     rendered-ol-words-share: 2
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: post v0.15.0 integration
   litvinenko-inquiry:
-    severed-into-quote: 244
-    severed-paragraph: 84
+    severed-into-quote: 103
+    severed-paragraph: 139  # why: post v0.15.0 integration
     bare-footnote-marker: 92
-    note-text-in-body: 11
+    note-text-in-body: 59  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
-    furniture-paragraph: 227
+    furniture-paragraph: 12
     contents-entry-without-heading: 77
     heading-density: 0
-    heading-repeated: 1
+    heading-repeated: 0
     heading-function-word: 0
     heading-marker: 0
     heading-long: 2
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 5
+    rendered-ol-words-share: 7  # why: post v0.15.0 integration
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: post v0.15.0 integration
   uk-chilcot-inquiry:
     severed-into-quote: 12
     severed-paragraph: 0
@@ -111,19 +111,19 @@ reports:
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
-    contents-entry-without-heading: 17
-    heading-density: 0
+    contents-entry-without-heading: 1
+    heading-density: 1  # why: post v0.15.0 integration
     heading-repeated: 1
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 0
+    heading-long: 3  # why: post v0.15.0 integration
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 7
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-hillsborough-panel:
-    severed-into-quote: 24
+    severed-into-quote: 20
     severed-paragraph: 0
     bare-footnote-marker: 453
     note-text-in-body: 0
@@ -141,15 +141,15 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-leveson-inquiry:
-    severed-into-quote: 438
-    severed-paragraph: 28
-    bare-footnote-marker: 6454
-    note-text-in-body: 8
+    severed-into-quote: 408
+    severed-paragraph: 25
+    bare-footnote-marker: 6456  # why: post v0.15.0 integration
+    note-text-in-body: 15  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
-    furniture-paragraph: 191
-    contents-entry-without-heading: 1451
+    furniture-paragraph: 178
+    contents-entry-without-heading: 1233
     heading-density: 0
-    heading-repeated: 4
+    heading-repeated: 3
     heading-function-word: 1
     heading-marker: 0
     heading-long: 0
@@ -159,13 +159,13 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-saville-inquiry:
-    severed-into-quote: 25
+    severed-into-quote: 23
     severed-paragraph: 3
     bare-footnote-marker: 10
     note-text-in-body: 16
     note-citation-vocabulary: 0
     furniture-paragraph: 17
-    contents-entry-without-heading: 192
+    contents-entry-without-heading: 191
     heading-density: 0
     heading-repeated: 0
     heading-function-word: 1
@@ -177,13 +177,13 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-911-commission:
-    severed-into-quote: 38
-    severed-paragraph: 6
-    bare-footnote-marker: 43
+    severed-into-quote: 35
+    severed-paragraph: 4
+    bare-footnote-marker: 2
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
-    contents-entry-without-heading: 0
+    contents-entry-without-heading: 12  # why: post v0.15.0 integration
     heading-density: 0
     heading-repeated: 0
     heading-function-word: 0
@@ -191,14 +191,14 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 8
+    rendered-ol-words-share: 1
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-deepwater-horizon:
     severed-into-quote: 9
-    severed-paragraph: 5
+    severed-paragraph: 6  # why: post v0.15.0 integration
     bare-footnote-marker: 1021
-    note-text-in-body: 28
+    note-text-in-body: 269  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 25
     contents-entry-without-heading: 29
@@ -209,25 +209,25 @@ reports:
     heading-long: 9
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 2
+    rendered-ol-words-share: 3  # why: post v0.15.0 integration
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-lehman-examiner:
-    severed-into-quote: 6
-    severed-paragraph: 9
-    bare-footnote-marker: 478
-    note-text-in-body: 3
+    severed-into-quote: 21  # why: post v0.15.0 integration
+    severed-paragraph: 22  # why: post v0.15.0 integration
+    bare-footnote-marker: 22
+    note-text-in-body: 5  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
-    furniture-paragraph: 0
-    contents-entry-without-heading: 42
+    furniture-paragraph: 5  # why: post v0.15.0 integration
+    contents-entry-without-heading: 46  # why: post v0.15.0 integration
     heading-density: 0
     heading-repeated: 0
-    heading-function-word: 0
-    heading-marker: 0
-    heading-long: 12
+    heading-function-word: 1  # why: post v0.15.0 integration
+    heading-marker: 1  # why: post v0.15.0 integration
+    heading-long: 34  # why: post v0.15.0 integration
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 43
+    rendered-ol-words-share: 5
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-psi-financial-crisis:
@@ -244,7 +244,7 @@ reports:
     heading-marker: 0
     heading-long: 0
     printed-page-reversal: 0
-    rendered-h1: 2
+    rendered-h1: 0
     rendered-ol-words-share: 15
     ids-per-1k-words: 0
     quote-share-parity: 2
@@ -252,15 +252,15 @@ reports:
     severed-into-quote: 248
     severed-paragraph: 3
     bare-footnote-marker: 52
-    note-text-in-body: 45
+    note-text-in-body: 48  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 45
     contents-entry-without-heading: 11
     heading-density: 0
     heading-repeated: 15
     heading-function-word: 0
-    heading-marker: 1
-    heading-long: 61
+    heading-marker: 0
+    heading-long: 60
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 2
