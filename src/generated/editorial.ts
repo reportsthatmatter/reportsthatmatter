@@ -46,11 +46,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         ],
         "excerpt": {
-          "quote": "Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem.",
+          "quote": "Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0- rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem.",
           "cite": {
             "id": "information-flaws-joint-design-problems",
             "page": 5,
-            "href": "/reports/challenger-accident?p=information-flaws-joint-design-problems&h=|Information%20on%20the%20flaws%20in%20the%20joint%20design%20and%20on%20the%20problems%20encountered%20in%20missions%20prior%20to%2051-L%20was%20widely%20availa%E2%8B%AFthe%200rings%2C%20the%20NASA%20and%20Thiokol%20technical%20managers%20failed%20to%20understand%20or%20fully%20accept%20the%20seriousness%20of%20the%20problem.|"
+            "href": "/reports/challenger-accident?p=information-flaws-joint-design-problems&h=|Information%20on%20the%20flaws%20in%20the%20joint%20design%20and%20on%20the%20problems%20encountered%20in%20missions%20prior%20to%2051-L%20was%20widely%20availa%E2%8B%AFe%200-%20rings%2C%20the%20NASA%20and%20Thiokol%20technical%20managers%20failed%20to%20understand%20or%20fully%20accept%20the%20seriousness%20of%20the%20problem.|%20There%20was%20no%20sense%20of"
           }
         }
       },
@@ -63,9 +63,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/challenger-accident?p=after-ignition-solid-propellant-srm"
           },
           {
-            "id": "nasa-chose-continue-fly-flawed",
+            "id": "information-flaws-joint-design-problems",
             "page": 5,
-            "href": "/reports/challenger-accident?p=nasa-chose-continue-fly-flawed"
+            "href": "/reports/challenger-accident?p=information-flaws-joint-design-problems"
           },
           {
             "id": "committee-concurs-dr-feynman-s",
@@ -157,9 +157,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "It goes beyond the Commission on other hardware, raising concerns about the margins of the Shuttle's main engines and recommending a new specification for its landing gear, tyres and brakes. It also finds that NASA's management waived its own launch commit criteria on the morning of the launch without a valid technical reason.",
         "cites": [
           {
-            "id": "space-shuttle-main-engine-we",
+            "id": "committee-has-more-concerns-than",
             "page": 5,
-            "href": "/reports/challenger-accident?p=space-shuttle-main-engine-we"
+            "href": "/reports/challenger-accident?p=committee-has-more-concerns-than"
           },
           {
             "id": "committee-has-gone-beyond-rogers",
@@ -1098,9 +1098,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The relationship with the United States was a determining factor. The US had decided on regime change and set the timetable; Mr Blair committed the UK to stand with President Bush while seeking to take the issue through the UN.",
         "cites": [
           {
-            "id": "uk-s-relationship-us-359",
+            "id": "359-uk-s-relationship-us",
             "page": 51,
-            "href": "/reports/uk-chilcot-inquiry?p=uk-s-relationship-us-359"
+            "href": "/reports/uk-chilcot-inquiry?p=359-uk-s-relationship-us"
           },
           {
             "id": "16-timing-military-action-entirely",
@@ -1174,9 +1174,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "Mr Blair had been advised that invading Iraq would increase the threat to the UK from Al Qaida and its affiliates.",
         "cites": [
           {
-            "id": "predicted-increase-threat-uk-result",
+            "id": "340-blair-had-been-advised",
             "page": 47,
-            "href": "/reports/uk-chilcot-inquiry?p=predicted-increase-threat-uk-result"
+            "href": "/reports/uk-chilcot-inquiry?p=340-blair-had-been-advised"
           },
           {
             "id": "346-jic-continued-warn-march",
@@ -1283,23 +1283,23 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "advice-on-the-legal-basis-for-military-action",
-        "title": "Advice on the legal basis for military action",
-        "page": "63",
-        "why": "How the Attorney General's advice changed between January and March 2003, and what Cabinet was and was not told.",
+        "slug": "lord-goldsmiths-advice-of-7-march-2003",
+        "title": "Lord Goldsmith's advice of 7 March 2003",
+        "page": "66",
+        "why": "How the Attorney General's advice moved between 7 and 13 March 2003, from \"the safest legal course\" to a \"better view\".",
         "excerpt": {
-          "quote": "Apart from No.10's response to the letter of 14 March, sent the following day, in terms that can only be described as perfunctory, no formal record was made of that decision and the precise grounds on which it was made remain unclear.",
+          "quote": "Lord Goldsmith concluded on 13 March that, on balance, the \"better view\" was that the conditions for the operation of the revival argument were met in this case, meaning that there was a lawful basis for the use of force without a further resolution beyond resolution 1441.",
           "cite": {
-            "id": "436-apart-from-no-10",
-            "page": 63,
-            "href": "/reports/uk-chilcot-inquiry?p=436-apart-from-no-10&h=436.%20|Apart%20from%20No.10's%20response%20to%20the%20letter%20of%2014%20March%2C%20sent%20the%20following%20day%2C%20in%20terms%20that%20can%20only%20be%20described%20as%20perfunctory%2C%20no%20formal%20record%20was%20made%20of%20that%20decision%20and%20the%20precise%20grounds%20on%20which%20it%20was%20made%20remain%20unclear.|"
+            "id": "471-lord-goldsmith-concluded-13",
+            "page": 66,
+            "href": "/reports/uk-chilcot-inquiry?p=471-lord-goldsmith-concluded-13&h=471.%20|Lord%20Goldsmith%20concluded%20on%2013%20March%20that%2C%20on%20balance%2C%20the%20%22better%20view%22%20was%20that%20the%20conditions%20for%20the%20operation%20of%20the%20revival%20argument%20were%20met%20in%20this%20case%2C%20meaning%20that%20there%20was%20a%20lawful%20basis%20for%20the%20use%20of%20force%20without%20a%20further%20resolution%20beyond%20resolution%201441.|"
           }
         }
       },
       {
-        "slug": "the-failure-to-plan-or-prepare-for-known-risks",
-        "title": "The failure to plan or prepare for known risks",
-        "page": "79",
+        "slug": "the-planning-process-and-decisionmaking",
+        "title": "The planning process and decision‑making",
+        "page": "82",
         "why": "Why the UK was unready for the occupation, department by department.",
         "excerpt": {
           "quote": "In the absence of a single person responsible for overseeing all aspects of planning and preparation, departments pursued complementary, but separate, objectives. Gaps in UK capabilities were overlooked.",
@@ -1321,6 +1321,48 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "792-iraq-2009-certainly-did",
             "page": 109,
             "href": "/reports/uk-chilcot-inquiry?p=792-iraq-2009-certainly-did&h=792.%20|The%20Iraq%20of%202009%20certainly%20did%20not%20meet%20the%20UK's%20objectives%20as%20described%20in%20January%202003%3A%20it%20fell%20far%20short%20of%20strategic%20success.|%20Although%20the%20borders%20of"
+          }
+        }
+      },
+      {
+        "slug": "the-decision-to-go-to-war",
+        "title": "The decision to go to war",
+        "page": "130",
+        "why": "The first of the Inquiry's lessons, on how a Government should weigh a decision to use force, and what it owes the public in making it.",
+        "excerpt": {
+          "quote": "When the potential for military action arises, the Government should not commit to a firm political objective before it is clear that it can be achieved.",
+          "cite": {
+            "id": "828-when-potential-military-action",
+            "page": 129,
+            "href": "/reports/uk-chilcot-inquiry?p=828-when-potential-military-action&h=828.%20|When%20the%20potential%20for%20military%20action%20arises%2C%20the%20Government%20should%20not%20commit%20to%20a%20firm%20political%20objective%20before%20it%20is%20clear%20that%20it%20can%20be%20achieved.|%20Regular%20reassessment%20is"
+          }
+        }
+      },
+      {
+        "slug": "weapons-of-mass-destruction",
+        "title": "Weapons of mass destruction",
+        "page": "131",
+        "why": "The Inquiry's lessons on intelligence, and on the invasion itself, including why assessed intelligence must not be organised into an argument for policy.",
+        "excerpt": {
+          "quote": "Organising the evidence in order to present an argument in the language of Ministerial statements produces a quite different type of document.",
+          "cite": {
+            "id": "837-nature-two-functions-fundamentally",
+            "page": 131,
+            "href": "/reports/uk-chilcot-inquiry?p=837-nature-two-functions-fundamentally&h=evidence%20than%20it%20can%20bear.%20|Organising%20the%20evidence%20in%20order%20to%20present%20an%20argument%20in%20the%20language%20of%20Ministerial%20statements%20produces%20a%20quite%20different%20type%20of%20document.|"
+          }
+        }
+      },
+      {
+        "slug": "reconstruction",
+        "title": "Reconstruction",
+        "page": "136",
+        "why": "The lessons of the occupation, on why reconstruction is so hard and what better planning could and could not have done.",
+        "excerpt": {
+          "quote": "The starting point for all discussions of reconstruction in circumstances comparable to those in Iraq between 2003 and 2009 must be that this is an area where progress will be extremely difficult.",
+          "cite": {
+            "id": "866-starting-point-all-discussions",
+            "page": 135,
+            "href": "/reports/uk-chilcot-inquiry?p=866-starting-point-all-discussions&h=866.%20|The%20starting%20point%20for%20all%20discussions%20of%20reconstruction%20in%20circumstances%20comparable%20to%20those%20in%20Iraq%20between%202003%20and%202009%20must%20be%20that%20this%20is%20an%20area%20where%20progress%20will%20be%20extremely%20difficult.|"
           }
         }
       }
@@ -1746,9 +1788,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ],
     "readingGuide": [
       {
-        "slug": "guarantee-of-media-freedom-2",
+        "slug": "chapter-7",
         "title": "Chapter 7: Conclusions and recommendations for future regulation",
-        "page": "1781",
+        "page": "1749",
         "why": "Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.",
         "excerpt": {
           "quote": "I have therefore set out a vision of a voluntary independent self-organised regulatory system that would provide an appropriate degree of independence from the industry, coupled with satisfactory powers to handle complaints, promote and enforce standards, and deal with dispute resolution.",
@@ -1768,13 +1810,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "The Board should provide an arbitral process in relation to civil legal claims against subscribers, drawing on independent legal experts of high reputation and ability on a cost-only basis to the subscribing member. The process should be fair, quick and inexpensive, inquisitorial and free for complainants to use (save for a power to make an adverse order for the costs of the arbitrator if proceedings are frivolous or vexatious). The arbitrator must have the power to hold hearings where necessary but, equally, to dispense with them where it is not necessary.",
           "cite": {
             "id": "arbitration-service-22-board-should",
-            "page": 1801,
+            "page": 1799,
             "href": "/reports/uk-leveson-inquiry?p=arbitration-service-22-board-should&h=Arbitration%20Service%2022.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|"
           }
         }
       },
       {
-        "slug": "the-press-complaints-commission-and-its-effectiveness",
+        "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
         "title": "The Press Complaints Commission and its effectiveness",
         "page": "1516",
         "why": "Why the Inquiry judged decades of voluntary self-regulation to have failed.",
@@ -2177,9 +2219,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-911-commission?p=summary-neads-received-notice-hijacking"
           },
           {
-            "id": "clarifying-record-defense-u-s",
+            "id": "defense-u-s-airspace-9",
             "page": 31,
-            "href": "/reports/us-911-commission?p=clarifying-record-defense-u-s"
+            "href": "/reports/us-911-commission?p=defense-u-s-airspace-9"
           }
         ]
       },
@@ -2656,7 +2698,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "2006-lehman-made-deliberate-decision",
             "page": 4,
-            "href": "/reports/us-lehman-examiner?p=2006-lehman-made-deliberate-decision&h=|In%202006%2C%20Lehman%20made%20the%20deliberate%20decision%20to%20embark%20upon%20an%20aggressive%20growth%20strategy%2C%20to%20take%20on%20significantly%20greater%20risk%2C%20and%20to%20substantially%20increase%20leverage%20on%20its%20capital.|12%20In%202007%2C%20as%20the"
+            "href": "/reports/us-lehman-examiner?p=2006-lehman-made-deliberate-decision&h=|In%202006%2C%20Lehman%20made%20the%20deliberate%20decision%20to%20embark%20upon%20an%20aggressive%20growth%20strategy%2C%20to%20take%20on%20significantly%20greater%20risk%2C%20and%20to%20substantially%20increase%20leverage%20on%20its%20capital.|%20In%202007%2C%20as%20the"
           }
         }
       },
@@ -2722,7 +2764,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "lehman-did-not-publicly-disclose",
             "page": 9,
-            "href": "/reports/us-lehman-examiner?p=lehman-did-not-publicly-disclose&h=become%20actual%20pledges.36%20|By%20September%2012%2C%20two%20days%20after%20it%20publicly%20reported%20a%20%2441%20billion%20liquidity%20pool%2C%20the%20pool%20actually%20contained%20less%20than%20%242%20billion%20of%20readily%20monetizable%20assets.|37"
+            "href": "/reports/us-lehman-examiner?p=lehman-did-not-publicly-disclose&h=had%20become%20actual%20pledges.%20|By%20September%2012%2C%20two%20days%20after%20it%20publicly%20reported%20a%20%2441%20billion%20liquidity%20pool%2C%20the%20pool%20actually%20contained%20less%20than%20%242%20billion%20of%20readily%20monetizable%20assets.|"
           }
         }
       },
@@ -2788,7 +2830,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "nagioff-also-had-broader-concerns",
             "page": 120,
-            "href": "/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=in%20a%20%22credit%20bubble.%22439%20|Months%20later%2C%20Antoncic%2C%20for%20example%2C%20reflected%20back%20on%20the%20general%20consensus%20that%20the%20markets%20were%20in%20trouble%3A%20%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|440"
+            "href": "/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=operating%20in%20a%20%22credit%20bubble.%22%20|Months%20later%2C%20Antoncic%2C%20for%20example%2C%20reflected%20back%20on%20the%20general%20consensus%20that%20the%20markets%20were%20in%20trouble%3A%20%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|440"
           }
         }
       },

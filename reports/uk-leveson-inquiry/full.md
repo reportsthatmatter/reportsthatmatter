@@ -749,7 +749,9 @@ Assessors, to Counsel and to the entire Inquiry team (whose names are set out in
 
 2.1 From the outset, challenges were mounted by a number of press interests to the way in which the Inquiry was set up and, in particular, to the experience, role and responsibility of the Assessors. Having obtained cross party support for their appointment, when identifying them by name,10 the Prime Minister said of them "these people have been chosen not only for their expertise in the media, broadcasting, regulation and policing, but for their complete independence from the interested parties."
 
-2.2 At the opening session of the Inquiry, I spoke of the Assessors having "a central role in the work" so that the report would be a "collaborative effort" and that if a particular recommendation was not unanimous, "I shall make the contrary view clear." It was argued that this would make the Assessors into members of the panel pursuant to s4 of the Inquiries Act 2005 and that they lacked balance on the basis that their number included nobody with tabloid or midmarket newspaper experience.[^4] http://www.levesoninquiry.org.uk/people/assessors/sir-david-bell/ http://www.levesoninquiry.org.uk/people/assessors/shami-chakrabarti/
+2.2 At the opening session of the Inquiry, I spoke of the Assessors having "a central role in the work" so that the report would be a "collaborative effort" and that if a particular recommendation was not unanimous, "I shall make the contrary view clear." It was argued that this would make the Assessors into members of the panel pursuant to s4 of the Inquiries Act 2005 and that they lacked balance on the basis that their number included nobody with tabloid or midmarket newspaper experience.
+
+4 http://www.levesoninquiry.org.uk/people/assessors/sir-david-bell/ http://www.levesoninquiry.org.uk/people/assessors/shami-chakrabarti/
 
 %%page 7%%
 
@@ -913,7 +915,9 @@ Broadcasting
 
 It would also serve to increase the day to day pressure on Counsel and all others participating in the work of the Inquiry. On the other hand, I recognised the significant public interest in what the Inquiry was doing and seeking to achieve, along with the very real importance in ensuring that the evidence was available for all to see in a form that was unmediated by press or other reporting. I dealt with my concern in relation to the witnesses who complained of press intrusion by ensuring that all who gave oral evidence were volunteers and understood that their evidence would be streamed on the website and available to be seen in the future;
 
-it is for that reason that I particularly recognised the value of their participation when each gave evidence.[^6] At the third seminar, Mr Dacre said: "While I abhor statutory controls, there's one area where Parliament can help the press. Some way must be found to compel all newspaper owners to fund and participate in self-regulation." http:// www.levesoninquiry.org.uk/wp-content/uploads/2011/11/RPC_DOCS1-12374597-v1-PAUL_DACRE_S_SEMINAR_ SPEECH.pdf. That is no longer his position: on 15 June 2012, he submitted: "In retrospect, after hearing some of the devastating evidence to the Inquiry in the third module, I regret this suggestion because I now fear that ANY parliamentary involvement would be the "thin edge of the wedge" which could result in fuller statutory control of the press": p5, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Submission-by-Paul-Dacre1.pdf http://www.levesoninquiry.org.uk/about/opening-remarks/
+it is for that reason that I particularly recognised the value of their participation when each gave evidence.
+
+6 At the third seminar, Mr Dacre said: "While I abhor statutory controls, there's one area where Parliament can help the press. Some way must be found to compel all newspaper owners to fund and participate in self-regulation." http:// www.levesoninquiry.org.uk/wp-content/uploads/2011/11/RPC_DOCS1-12374597-v1-PAUL_DACRE_S_SEMINAR_ SPEECH.pdf. That is no longer his position: on 15 June 2012, he submitted: "In retrospect, after hearing some of the devastating evidence to the Inquiry in the third module, I regret this suggestion because I now fear that ANY parliamentary involvement would be the "thin edge of the wedge" which could result in fuller statutory control of the press": p5, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Submission-by-Paul-Dacre1.pdf http://www.levesoninquiry.org.uk/about/opening-remarks/
 
 %%page 17%%
 
@@ -4702,7 +4706,9 @@ Operation Motorman and then to phone hacking following Operation Caryatid). That
 
 Parliament, as well as among the public more widely, about the behaviour of some parts of the press and the perceived failure of the Press Council, then the self-regulatory body for the press, to take effective action to deal with such behaviour.
 
-2.3 Sir David's first report was published in June 1990. At that stage, he did not advocate the introduction of statutory controls. Rather, he recommended that the existing, and by this point largely discredited, Press Council should be abolished and replaced with a new selfregulatory organisation, the Press Complaints Commission, which should deal with the many and substantive concerns that had been raised around the behaviour of some parts of the press. The new PCC would have 18 months to demonstrate "that non-statutory self-regulation can be made to work effectively."[^1] Part J, Chapter 3 Part D, Chapter 1
+2.3 Sir David's first report was published in June 1990. At that stage, he did not advocate the introduction of statutory controls. Rather, he recommended that the existing, and by this point largely discredited, Press Council should be abolished and replaced with a new selfregulatory organisation, the Press Complaints Commission, which should deal with the many and substantive concerns that had been raised around the behaviour of some parts of the press. The new PCC would have 18 months to demonstrate "that non-statutory self-regulation can be made to work effectively."
+
+1 Part J, Chapter 3 Part D, Chapter 1
 
 %%page 220%%
 
@@ -5380,7 +5386,9 @@ E then passing that information to private investigators, who would in turn pass
 
 (c) to report to the Crown Prosecution Service and the Police Complaints Authority.
 
-1.4 Through an analysis of a "huge amount of evidence" the police discovered a network of companies and individuals throughout the UK, acting as investigators, who were sourcing information on demand, either directly from a person serving with the police or through a third party.2 In particular, the police found that a small number of police officers who had retired from the Devon and Cornwall Police had set themselves up as private investigators for the commercial market and were obtaining information from former colleagues who were still working within the police service or other agencies, such as the Department for Work and Pensions. The information was then passed through a network of individuals before it reached the ultimate customer. In most cases that ultimate customer was three or four links up the chain.[^1] http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-T-ACC-Russell-Middleton.pdf p76, line 1, DCI Middleton, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning- Hearing-9-May-2012.pdf
+1.4 Through an analysis of a "huge amount of evidence" the police discovered a network of companies and individuals throughout the UK, acting as investigators, who were sourcing information on demand, either directly from a person serving with the police or through a third party.2 In particular, the police found that a small number of police officers who had retired from the Devon and Cornwall Police had set themselves up as private investigators for the commercial market and were obtaining information from former colleagues who were still working within the police service or other agencies, such as the Department for Work and Pensions. The information was then passed through a network of individuals before it reached the ultimate customer. In most cases that ultimate customer was three or four links up the chain.
+
+1 http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-T-ACC-Russell-Middleton.pdf p76, line 1, DCI Middleton, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of-Morning- Hearing-9-May-2012.pdf
 
 %%page 252%%
 
@@ -5616,7 +5624,9 @@ Nelsonian eye to the obvious, or the close to obvious (with the result that ther
 
 4.1 The Information Commissioner formed the view that the material obtained during the course of Operation Motorman was of sufficient quality and quantity to bring criminal proceedings against the private detective Mr Whittamore and his associates involved in the blagging and obtaining of personal information. However, the evidence obtained by the ICO overlapped to some extent with the material obtained by the MPS and therefore the prosecutions led by the CPS in relation to the offences of corruption and conspiracy were given priority, being offences of a more serious nature.35
 
-4.2 The evidence discovered by the MPS had highlighted the unauthorised supply of information from the PNC by a civilian police employee, and the CPS charged four individuals; namely E Steve Whittamore, John Boyall, Alan King and Paul Marshall with corruption offences.[^19] incidents were covered by the indictment,[^12] in respect of Criminal Record Office offences and seven in relation to vehicle checks from the PNC. Two of the accused pleaded guilty to the corruption charges. On 6 April 2005, the Crown amended the indictment to include two offences under the DPA. Mr Whittamore and Mr Boyall pleaded guilty to offences under s55 of the DPA.36
+4.2 The evidence discovered by the MPS had highlighted the unauthorised supply of information from the PNC by a civilian police employee, and the CPS charged four individuals; namely E Steve Whittamore, John Boyall, Alan King and Paul Marshall with corruption offences.
+
+19 incidents were covered by the indictment,[^12] in respect of Criminal Record Office offences and seven in relation to vehicle checks from the PNC. Two of the accused pleaded guilty to the corruption charges. On 6 April 2005, the Crown amended the indictment to include two offences under the DPA. Mr Whittamore and Mr Boyall pleaded guilty to offences under s55 of the DPA.36
 
 4.3 On 15 April 2005, His Honour Judge Samuels QC, sitting at Blackfriars Crown Court, sentenced the four defendants. HHJ Samuels QC stated that: "the vice of the primary conspiracy was to make known to the press information which on any view ought to have been confidential, and was bound at its lowest to cause immense embarrassment to members of the public who required the state to maintain confidentiality in their affairs".37 However, the judge considered himself circumscribed by two factors. First, Paul Marshall had already been given a conditional discharge at an earlier trial in respect of unrelated offences, his mitigation being that he was seriously ill; in the court's view, Mr Marshall could not now be given a higher sentence for a less serious offence, and his co-defendants could not be treated less leniently either. Second, the personal circumstances of each of the defendants (as argued before the judge) meant that the court considered that it could not impose a fine. Consequently, each defendant received a conditional discharge.
 
@@ -10386,7 +10396,9 @@ American jurists, Warren and Brandeis, writing in the Harvard Law Review in 1890
 
 1.4 The reference to the need to satisfy a prurient taste hints at the commercial pressures operating on the press as long ago as 1890. More recently, Sir John Major writing at the very end of the twentieth century put the point somewhat differently:2
 
-> "Across Fleet Street, sensational and exclusive stories sold extra copies – straight reporting did not. Accuracy suffered, squandered for something, anything, 'new'. Quotes were reconstructed, leaks and splashes abounded, confidentiality was not respected and reputations sacrificed for a few days' hysterical splash."[^1] Major, Sir J, The Autobiography, p359
+> "Across Fleet Street, sensational and exclusive stories sold extra copies – straight reporting did not. Accuracy suffered, squandered for something, anything, 'new'. Quotes were reconstructed, leaks and splashes abounded, confidentiality was not respected and reputations sacrificed for a few days' hysterical splash."
+
+1 Major, Sir J, The Autobiography, p359
 
 %%page 472%%
 
@@ -19470,7 +19482,9 @@ Public confidence is in the process of being restored by the work of the MPS sin
 
 1.4 I mention the MPS specifically in the context of the investigation into phone hacking, but I am able to go further. The problems in the relationship between the police and the press covered by the evidence adduced during the course of Module Two of the Inquiry almost exclusively related to the MPS; save for isolated examples, typically arising when an event of national newsworthiness arose in the regions, the 43 police forces2 outside the metropolis enjoy sound relationships with the press, and the conduct of each gives rise to no concern.
 
-I will touch on possible explanations for this later.[^1] Part E Chapter 4 2 I take the figure of 44 as the total number of police forces in England and Wales. I do not intend to exclude Scotland and Northern Ireland from my general observations on this issue, although I recognise that the Inquiry received much less evidence about them
+I will touch on possible explanations for this later.
+
+1 Part E Chapter 4 2 I take the figure of 44 as the total number of police forces in England and Wales. I do not intend to exclude Scotland and Northern Ireland from my general observations on this issue, although I recognise that the Inquiry received much less evidence about them
 
 %%page 981%%
 
@@ -21382,7 +21396,9 @@ In the circumstances, a real question must remain as to whether these missed opp
 
 1.8 Notwithstanding this assessment, the ICO had concluded that there was no imperative for it to engage further with the culture, practices and ethics of the press. In particular, Mr Graham expressed the view to the Select Committee in relation to the PCC that "We do not have any formal relationship with them, but I just accept that they do press standards and we do data protection and, where those two things cross over, then we probably need to talk."
 
-1.9 The two things clearly do cross over. In concluding this Part of the Report, assessing the current state of the role and functions of the ICO, and making recommendations for the future, the focus returns to the key themes of the Motorman case, but viewed now from the contemporary perspective. Those themes are:[^3] Q1807, Christopher Graham, http://www.publications.parliament.uk/pa/cm200910/cmselect/ cmcumeds/362/9090206.htm
+1.9 The two things clearly do cross over. In concluding this Part of the Report, assessing the current state of the role and functions of the ICO, and making recommendations for the future, the focus returns to the key themes of the Motorman case, but viewed now from the contemporary perspective. Those themes are:
+
+3 Q1807, Christopher Graham, http://www.publications.parliament.uk/pa/cm200910/cmselect/ cmcumeds/362/9090206.htm
 
 %%page 1056%%
 
@@ -21412,7 +21428,9 @@ In the circumstances, a real question must remain as to whether these missed opp
 
 "Q. What I am trying to do is ascertain responsibility in the system for getting this right. … Are you convinced that these practices have now ended in newsrooms up and down the country?" A: "I am not in a position to know." Q. "What I am trying to understand is that the decision you took, which, by the way, I think was the right decision, to blow this open, bring it into the public domain and try and effect massive change in the way journalists run about their work, I can understand why in a resource-sensitive area that is what you did, but what I cannot understand is why you have not gone back to see whether that has been successful or not or what gauge of success there is." A: "How can we measure it? Do we go to editors and say, 'Have you come across any examples of journalists that have stepped over the line?'" Q. "Is there anyone in this country who would know whether these practices are still going on other than editors and journalists in the newsrooms?" A: "Well, editors and journalists must know; it is a self-regulatory system." Q. "So, when they tell us that they think that they have thoroughly investigated the matter and they have put it right, do you think they could possibly have done that if they do not know the list of journalists that you have got on your files?" A: "I think there might be information which would identify some of those journalists because some of the invoices quite clearly indicate that there have been blags in relation to particular stories and invoice numbers. Surely, their records should be able to cross-reference that to a particular journalist, and sometimes the invoices cross-reference the stories, so editors could examine their business and perhaps identify which journalists were or were not." H " Q: " I think you could perhaps be a little proactive just to ensure that they have certainly done that or that they certainly have the information about the people who were at it?" A: "I understand what the Committee is saying, but you are not dealing with a regulator who is not proactive; we are proactive on a very wide front. … There are lots of ways we could spend our time."
 
-2.6 The due diligence point itself resolved itself into a number of sub-issues relating to the question of specific follow-up to Motorman; the strategic follow-up to Mr Thomas's political campaign, the response to the phone hacking scandal, and the position of the ICO in relation to the press today. These will be discussed in turn.[^6] Q1844-Q1851, Christopher Graham, http://www.publications.parliament.uk/pa/cm200910/cmselect/ cmcumeds/362/9090208.htm
+2.6 The due diligence point itself resolved itself into a number of sub-issues relating to the question of specific follow-up to Motorman; the strategic follow-up to Mr Thomas's political campaign, the response to the phone hacking scandal, and the position of the ICO in relation to the press today. These will be discussed in turn.
+
+6 Q1844-Q1851, Christopher Graham, http://www.publications.parliament.uk/pa/cm200910/cmselect/ cmcumeds/362/9090208.htm
 
 %%page 1058%%
 
@@ -22246,7 +22264,9 @@ I practices and ethics of the press surfaced in public debate. However, on each 
 
 1.20 This Part then canvasses some wider contemporary political perspectives. My overall conclusions and recommendations follow.
 
-1.21 The Report addresses one final matter in this Part. The public concern which led to this Inquiry stands at the end of a long line of surges in public concern. Each has been followed by a political response which has not adequately addressed that concern. This all has to be viewed in the context of press/political relationships which themselves appear to have had problematic dimensions. Thus, the approach to this Inquiry also deserves consideration.[^2] Part D, Chapter 1 3 Part H
+1.21 The Report addresses one final matter in this Part. The public concern which led to this Inquiry stands at the end of a long line of surges in public concern. Each has been followed by a political response which has not adequately addressed that concern. This all has to be viewed in the context of press/political relationships which themselves appear to have had problematic dimensions. Thus, the approach to this Inquiry also deserves consideration.
+
+2 Part D, Chapter 1 3 Part H
 
 %%page 1121%%
 
@@ -28528,7 +28548,9 @@ xi parT J aspects of regulation: the law and the press complaints commission
 
 J fraud would such an inquiry have ever been set up.
 
-Of course not."[^1] paras 82 and 87, Mosley v News Group Newspapers Ltd [2008] EWHC QB 1777 p2, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Kelvin-MacKenzie.pdf
+Of course not."
+
+1 paras 82 and 87, Mosley v News Group Newspapers Ltd [2008] EWHC QB 1777 p2, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Kelvin-MacKenzie.pdf
 
 %%page 1481%%
 
@@ -33305,7 +33327,9 @@ Engage
 
 3.6 The Inquiry has seen no evidence of a lack of engagement on the part of those outside of the media. On the other hand the partial approach to reporting in the press either the extent (or even the existence) of problems with press ethics has been exemplified by reporting of the phone-hacking scandal from the very beginning. It is widely, and rightly, recognised that there would not have been the public concentration on these issues of press culture and ethics had not an investigative journalist, (Nick Davies), with a support of national newspaper (The Guardian), not pursued phone-hacking determinedly. On the other side of the scale, the rest of the press, together with the PCC, were keen to paint the Mulcaire case as that of one rogue reporter.11
 
-3.7 The nature of the problems identified by the Inquiry suggest that the tools of engagement, whilst potentially complementary, are unlikely to be sufficient by themselves to change behaviour.[^10] p21, lines 14-21, Nick Davies, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of- Afternoon-Hearing-29-November-2011.pdf p2, Alan Rusbridger, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Alan-Rushbridger.pdf
+3.7 The nature of the problems identified by the Inquiry suggest that the tools of engagement, whilst potentially complementary, are unlikely to be sufficient by themselves to change behaviour.
+
+10 p21, lines 14-21, Nick Davies, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Transcript-of- Afternoon-Hearing-29-November-2011.pdf p2, Alan Rusbridger, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Alan-Rushbridger.pdf
 
 K 11 It is also possible to point to the way in which the Inquiry has been reported, in particular relating to the different arguments for alternatives to improved self regulation along the lines proposed by PressBoF. The press is, of course, entitled to be partisan but the extent to which there has been any balanced discussion or analysis of the arguments is, at least, open to debate
 
@@ -36149,7 +36173,9 @@ Data Protection Act 1984
 
 Data Protection Directive
 
-4.10 Directive 95/46/EC of the European Parliament and of the Council on the protection of individuals with regard to the processing of personal data and on the free movement of such data (the Data Protection Directive) was adopted on 24 October 1995 and required implementation by October 1998. The Directive itself was a response to the Organisation for Economic Co-operation and Development guidelines and adopts a number of the same principles.[^324] s3
+4.10 Directive 95/46/EC of the European Parliament and of the Council on the protection of individuals with regard to the processing of personal data and on the free movement of such data (the Data Protection Directive) was adopted on 24 October 1995 and required implementation by October 1998. The Directive itself was a response to the Organisation for Economic Co-operation and Development guidelines and adopts a number of the same principles.
+
+324 s3
 
 %%page 1905%%
 

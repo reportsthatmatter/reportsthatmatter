@@ -45,9 +45,7 @@ Contents
 
 - Chapter 7. Civil litigation — 227
 
-Chapter 8. The Coroner's inquiry: from the immediate aftermath to the
-
-- preliminary hearings — 255
+- Chapter 8. The Coroner's inquiry: from the immediate aftermath to the preliminary hearings — 255
 
 - Chapter 9. The generic hearing, Judicial Review and continuing controversies — 271
 
@@ -55,9 +53,7 @@ Chapter 8. The Coroner's inquiry: from the immediate aftermath to the
 
 - Chapter 11. Review and alteration of statements — 315
 
-Chapter 12. Behind the headlines: the origins, promotion and reproduction of
-
-- unsubstantiated allegations — 341
+- Chapter 12. Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations — 341
 
 - Part 3: The Permanent Archive for the Hillsborough Disaster — 369
 

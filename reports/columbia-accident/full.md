@@ -1210,7 +1210,9 @@ Report," September 10, 1999. See in particular footnote 3, concerning
 
 Triana and the requirements of the Commercial Space Act, and Appendix
 
-C, "Accounting for Shuttle Costs." CAIB document CAB048-02680269.[^4] Although there is more volume of liquid hydrogen in the External Tank, liquid hydrogen is very light and its slosh effects are minimal and are generally ignored. At launch, the External Tank contains approximately 1.4 million pounds (140,000 gallons) of liquid oxygen, but only 230,000 pounds (385,000 gallons) of liquid hydrogen.[^5]
+C, "Accounting for Shuttle Costs." CAIB document CAB048-02680269.
+
+4 Although there is more volume of liquid hydrogen in the External Tank, liquid hydrogen is very light and its slosh effects are minimal and are generally ignored. At launch, the External Tank contains approximately 1.4 million pounds (140,000 gallons) of liquid oxygen, but only 230,000 pounds (385,000 gallons) of liquid hydrogen.[^5]
 
 The Performance Enhancements (PE) flight profile flown by STS-107 is a combination of flight software and trajectory design changes that were introduced in late 1997 for STS-85. These changes to the ascent flight profile allow the Shuttle to carry some 1,600 pounds of additional payload on International Space Station assembly missions. Although developed to meet the Space Station payload lift requirement, a modified PE profile has been used for all Shuttle missions since it was introduced.
 
@@ -1468,7 +1470,9 @@ Reinforced Carbon-Carbon
 
 The development of Reinforced Carbon-Carbon (RCC) as part of the Thermal Protection System was key to meeting the wing leading edge design requirements. Developed by Ling-Temco-Vought (now Lockheed Martin Missiles and Fire Control), RCC is used for the Orbiter nose cap, chin panel, forward External Tank attachment point, and wing leading edge panels and T-seals. RCC is a hard structural material, with reasonable strength across its operational temperature range (minus 250 degrees Fahrenheit to 3,000 degrees). Its low thermal expansion coefficient minimizes thermal shock and thermoelastic stress.
 
-Each wing leading edge consists of 22 RCC panels (see Figure 3.3-1), numbered from 1 to 22 moving outward on each wing (the nomenclature is "5-left" or "5-right" to differentiate, for example, the two number 5 panels). Because the shape of the wing changes from inboard to outboard, each panel is unique.[^1] 2 3
+Each wing leading edge consists of 22 RCC panels (see Figure 3.3-1), numbered from 1 to 22 moving outward on each wing (the nomenclature is "5-left" or "5-right" to differentiate, for example, the two number 5 panels). Because the shape of the wing changes from inboard to outboard, each panel is unique.
+
+1 2 3
 
 4 5
 
@@ -2387,7 +2391,9 @@ Tiles recovered from the lower left wing yielded their own interesting clues. Th
 
 %%page 74%%
 
-Figure 3.7-3. Superheated airflow caused erosion in tiles around the RCC panel 8 and 9 interface. The tiles shown are from behind the area where the superheated air exited from the slot in Figure 3.7-2. These tiles showed much greater thermal damage than other tiles in this area and chemical analysis showed the presence of metals only found in wing leading edge components.[^8] and 9 interface. Chemical analysis shows that these carrier panel tiles were covered with molten Inconel, which is found in wing leading edge attachment fittings, and other metals coming from inside the RCC cavity. Slumping and heavy erosion of this magnitude is not noted on tiles from anywhere else on the Orbiter.
+Figure 3.7-3. Superheated airflow caused erosion in tiles around the RCC panel 8 and 9 interface. The tiles shown are from behind the area where the superheated air exited from the slot in Figure 3.7-2. These tiles showed much greater thermal damage than other tiles in this area and chemical analysis showed the presence of metals only found in wing leading edge components.
+
+8 and 9 interface. Chemical analysis shows that these carrier panel tiles were covered with molten Inconel, which is found in wing leading edge attachment fittings, and other metals coming from inside the RCC cavity. Slumping and heavy erosion of this magnitude is not noted on tiles from anywhere else on the Orbiter.
 
 Failure modes of recovered tiles from the left and the right wing also differ. Most right wing tiles were simply broken off the wing due to aerodynamic forces, which indicates that they failed due to physical overload at breakup, not because of heat. Most of the tiles on the left wing behind RCC panels 8 and 9 show significant evidence of backside heating of the wing skin and failure of the adhesive that held the tiles on the wing. This pattern of failure suggests that heat penetrated the left wing cavity and then heated the aluminum skin from the inside out. As the aluminum skin was heated,
 
