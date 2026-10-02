@@ -33,8 +33,8 @@ defaults:
 
 reports:
   challenger-accident:
-    severed-into-quote: 97  # why: post v0.15.0 integration
-    severed-paragraph: 53
+    severed-into-quote: 87
+    severed-paragraph: 50
     bare-footnote-marker: 119
     note-text-in-body: 68  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -87,8 +87,8 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
   litvinenko-inquiry:
-    severed-into-quote: 103
-    severed-paragraph: 139  # why: post v0.15.0 integration
+    severed-into-quote: 87
+    severed-paragraph: 6
     bare-footnote-marker: 92
     note-text-in-body: 59  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -142,7 +142,7 @@ reports:
     quote-share-parity: 2
   uk-leveson-inquiry:
     severed-into-quote: 408
-    severed-paragraph: 25
+    severed-paragraph: 24
     bare-footnote-marker: 6456  # why: post v0.15.0 integration
     note-text-in-body: 15  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -159,8 +159,8 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-saville-inquiry:
-    severed-into-quote: 23
-    severed-paragraph: 3
+    severed-into-quote: 16
+    severed-paragraph: 1
     bare-footnote-marker: 10
     note-text-in-body: 16
     note-citation-vocabulary: 0
@@ -213,7 +213,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-lehman-examiner:
-    severed-into-quote: 21  # why: post v0.15.0 integration
+    severed-into-quote: 20
     severed-paragraph: 22  # why: post v0.15.0 integration
     bare-footnote-marker: 22
     note-text-in-body: 5  # why: post v0.15.0 integration
@@ -231,7 +231,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-psi-financial-crisis:
-    severed-into-quote: 44
+    severed-into-quote: 43
     severed-paragraph: 41
     bare-footnote-marker: 16
     note-text-in-body: 6
@@ -249,8 +249,8 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-v-philip-morris:
-    severed-into-quote: 248
-    severed-paragraph: 3
+    severed-into-quote: 247
+    severed-paragraph: 2
     bare-footnote-marker: 52
     note-text-in-body: 48  # why: post v0.15.0 integration
     note-citation-vocabulary: 0

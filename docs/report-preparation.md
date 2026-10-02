@@ -8,7 +8,7 @@ How a report gets from a source PDF to a published, trustworthy page on Reports 
 
 1. Pick the report and check its PDF's text layer.
 2. Set up a sibling worktree and the report's own repo.
-3. Write `ingest.ts`, run it, and read the output.
+3. Write `ingest.ts`, run it, run `pnpm quality report <id>` and read the excerpts, then read the output.
 4. Register the report and accept its baselines.
 5. Add its plate and share card.
 6. Write its `PROCESSING.md`.
@@ -46,7 +46,7 @@ Very large reports (Saville is ten volumes, about 5,000 pages) need a scoping de
 
 Never hand-edit `full.md`; the next ingest overwrites it. If you are writing a correction to undo something the parser did, you needed a different pass.
 
-**Read the output, not just the counts.** Every serious defect in this project passed the tests first. For a new report, open the rendered pages and check specifically: paragraphs that end or begin mid-sentence, especially at page breaks; footnotes (do the markers and definitions match, and does any one note absorb many references?); headings (are chapters and subsections real, and are quoted capitals or numbered lists being mistaken for headings?); stray characters such as `�`; facing pages laid out at different margins; anything from maps, tables or figures leaking into the prose. Saville had all of these, and its first ingest looked plausible.
+**Read the output, not just the counts.** Run `pnpm quality report <id>` first: it counts severed sentences, unlinked footnote markers, furniture and missing headings, and `pnpm quality check` lists the first excerpts of any signal over budget; read those excerpts against the rendered page. A new report is held to the corpus's median rate until it has its own budgets (see [`quality-harness.md`](quality-harness.md)). Every serious defect in this project passed the tests first. For a new report, open the rendered pages and check specifically: paragraphs that end or begin mid-sentence, especially at page breaks; footnotes (do the markers and definitions match, and does any one note absorb many references?); headings (are chapters and subsections real, and are quoted capitals or numbered lists being mistaken for headings?); stray characters such as `�`; facing pages laid out at different margins; anything from maps, tables or figures leaking into the prose. Saville had all of these, and its first ingest looked plausible.
 
 **If the pipeline needs a change**, that is a release of `@rtm/ingest` (a separate repo, pinned by tag), then a deliberate version bump in this repo and in the report's repo, then `pnpm ingest check`. Release order matters: merge the pipeline PR first, then tag the *post-merge commit on `main`*. A tag cut on a PR branch is unreachable from `main` once the PR is squash-merged, and a git-dependency pin resolves the tag to whatever commit it points at. Do not tag by hand: from an up-to-date `main` of the ingest repo, run `pnpm release X.Y.Z` (add `--dry-run` first). It refuses unless on clean, up-to-date `main` with no existing tag, rebuilds and checks `dist/`, runs the tests, bumps `package.json`, commits `chore: release vX.Y.Z`, tags and pushes. A shared pass must leave every other report's output byte-identical unless you meant otherwise, which is what the two baseline gates below are for.
 

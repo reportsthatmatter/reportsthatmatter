@@ -30,3 +30,12 @@ release it there, then bump the pin here and re-run `pnpm ingest check`. That
 friction is deliberate — it is what makes each report adopt improvements
 knowingly rather than having them arrive unannounced, which is the failure
 that motivated the split.
+
+The pin-bump PR carries a quality report. After the re-ingest, run
+`pnpm quality report --diff origin/main` and paste the table into the PR body:
+it lists every report's count for every signal against
+`reports/quality-last.json`, the counts recorded at the last release, with
+regressions marked `▲`. A regression needs a bead; an improvement is locked in
+with `pnpm quality ratchet`. Once the release has shipped, `pnpm quality ratchet
+--record` and commit `reports/quality-last.json`. A new report's first ingest:
+`pnpm quality report <id>` and read the excerpts.

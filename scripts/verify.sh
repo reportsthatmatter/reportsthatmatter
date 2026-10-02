@@ -117,6 +117,9 @@ step "Quality signals"
 # cannot reach it. See docs/design/2026-10-02-quality-harness-plan.md.
 if pnpm quality check >"${RUN_DIR}/quality.log" 2>&1; then
   pass "every report is within its quality budget"
+  # Fixes lower counts; a budget left above its count is slack a regression can hide in.
+  hint=$(pnpm --silent quality hint 2>/dev/null)
+  [ -n "$hint" ] && printf '    %s\n' "$hint"
 else
   fail "pnpm quality check"
   tail -40 "${RUN_DIR}/quality.log"

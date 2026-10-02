@@ -96,6 +96,15 @@ const files = [
   })),
 ];
 
+// The report's own quality row (counts, budgets, last release) goes in the publish log; never blocks.
+try {
+  process.stdout.write(
+    execFileSync("pnpm", ["--silent", "quality", "row", reportId], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })
+  );
+} catch {
+  console.log(`(no quality row for ${reportId}: run pnpm quality row ${reportId})`);
+}
+
 const manifest = await manifestFor(files);
 const hash = typeof rollbackTo === "string" ? rollbackTo : await contentHash(manifest);
 const bytes = files.reduce((total, file) => total + Buffer.byteLength(file.body), 0);
