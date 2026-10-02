@@ -111,11 +111,11 @@ findings:
         been presented to all levels of Shuttle management. Despite the
         presence of significant amounts of information and the occurrence of
         at least one detailed briefing at Headquarters on the difficulties
-        with the 0rings, the NASA and Thiokol technical managers failed to
+        with the 0- rings, the NASA and Thiokol technical managers failed to
         understand or fully accept the seriousness of the problem.
 
   - text: Seals had been eroding on flight after flight. The report finds that NASA came to treat this damage as "acceptable" and "within experience base", and chose to keep flying while a measured, 27-month fix proceeded.
-    cites: [after-ignition-solid-propellant-srm, nasa-chose-continue-fly-flawed, committee-concurs-dr-feynman-s]
+    cites: [after-ignition-solid-propellant-srm, information-flaws-joint-design-problems, committee-concurs-dr-feynman-s]
     excerpt:
       paragraph: committee-concurs-dr-feynman-s
       quote: >-
@@ -144,7 +144,7 @@ findings:
     cites: [concurrence-rogers-commission-committee-con, second-there-nothing-show-what]
 
   - text: It goes beyond the Commission on other hardware, raising concerns about the margins of the Shuttle's main engines and recommending a new specification for its landing gear, tyres and brakes. It also finds that NASA's management waived its own launch commit criteria on the morning of the launch without a valid technical reason.
-    cites: [space-shuttle-main-engine-we, committee-has-gone-beyond-rogers, nasa-s-management-waived-its]
+    cites: [committee-has-more-concerns-than, committee-has-gone-beyond-rogers, nasa-s-management-waived-its]
 
 reading_guide:
   - section: conclusions
@@ -218,9 +218,9 @@ highlights:
   - paragraph: what-we-committee-nasa-agency
     quote: What we as a Committee, NASA as an agency, and the Nation as a whole, also must realize is that the lessons learned by the Challenger accident are universally applicable, not just for NASA but for governments, and for society.
     card: true
-  - paragraph: nasa-chose-continue-fly-flawed
+  - paragraph: information-flaws-joint-design-problems
     quote: NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program.
-  - paragraph: there-no-sense-urgency-their
+  - paragraph: information-flaws-joint-design-problems
     quote: No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance.
   - paragraph: committee-concurs-dr-feynman-s
     quote: The Committee concurs with Dr. Feynman's analysis that NASA had no understanding of the O-ring erosion phenomenon, and their rationale for accepting it was not based on sound engineering principles.
