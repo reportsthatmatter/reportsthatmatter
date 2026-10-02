@@ -3,7 +3,9 @@
  * Report ingestion.
  *
  *   pnpm ingest run <pdf> [<pdf>...] --id <slug> --title "..." [--authors "..."] [--published 2025]
- *   pnpm ingest verify [<slug>] [--no-oracle] [--findings]
+ *   pnpm ingest verify [<slug>] [--no-oracle] [--no-golden] [--findings] [--explain]
+ *   pnpm ingest outline <slug>                  one line per PDF page: headings, block counts (to choose golden pages)
+ *   pnpm ingest page <slug> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]
  *
  * `run` writes reports/<slug>/full.md plus a fidelity report; `verify` re-runs
  * the checks against what is already committed. More than one PDF concatenates
@@ -16,7 +18,7 @@
  * page 12 and another's.
  */
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { basename, join, resolve } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { pathToFileURL } from "node:url";
 import {
@@ -26,22 +28,33 @@ import {
   IngestResult,
   Page,
   PipelineDef,
+  ASSERTION_KINDS,
+  checkGoldenPage,
   checkVolume,
   computeBaseline,
   correctionVocabulary,
   diffBaselines,
+  draftGolden,
   extractPages,
+  finalBlocks,
   ingestPageGroups,
   measureLayout,
   ORACLE_SIGNALS,
   openLayout,
+  pageFixture,
   parseCorrections,
+  parseGolden,
   parseDismissals,
   popplerVersion,
   popplerWarning,
   resolvePasses,
+  renderPage,
   resolveVolume,
   runChecks,
+  scoreOracle,
+  layoutXml,
+  type OracleReport,
+  type PageCounts,
 } from "@rtm/ingest";
 
 const ROOT = join(import.meta.dirname, "../..");
@@ -58,7 +71,15 @@ function reportDirs(): Map<string, string> {
   const raw = parseYaml(readFileSync(join(REPORTS, "manifest.yaml"), "utf8")) as {
     reports?: Array<{ id: string; dir: string }>;
   };
-  return new Map((raw.reports ?? []).map((entry) => [entry.id, join(ROOT, entry.dir)]));
+  // RTM_REPORT_DIRS=<dir>: use <dir>/<repo> where it exists, so a report repo's git worktree
+  // (golden.yaml, an ingest.ts under change) is read instead of the shared checkout.
+  const override = process.env.RTM_REPORT_DIRS;
+  return new Map(
+    (raw.reports ?? []).map((entry) => {
+      const alt = override ? join(resolve(override), basename(entry.dir)) : undefined;
+      return [entry.id, alt && existsSync(alt) ? alt : join(ROOT, entry.dir)];
+    })
+  );
 }
 
 function reportDir(id: string): string {
@@ -307,6 +328,7 @@ async function runVerify(args: string[]): Promise<number> {
   const targets = only ? entries.filter((e) => e.id === only) : entries;
 
   let allOk = true;
+  const allRows: Array<{ oracle: PageCounts | undefined; truth: Partial<PageCounts> }> = [];
   for (const target of targets) {
     if (!target.ingested) {
       console.log(`\n${target.id}`);
@@ -358,35 +380,190 @@ async function runVerify(args: string[]): Promise<number> {
       ) && allOk;
 
     // The layout oracle: what the PDF's layout says against what the pipeline
-    // produced. Measure-only, never fails the run (plan §3.3).
-    if (!flags.includes("--no-oracle")) {
+    // produced. Measure-only, never fails the run (plan §3.3). Golden pages
+    // (plan §3.2) do fail it, and give the oracle's signals a precision.
+    const wantOracle = !flags.includes("--no-oracle");
+    const wantGolden = !flags.includes("--no-golden");
+    if (wantOracle || wantGolden) {
+      let result: IngestResult | undefined;
+      let report: OracleReport | undefined;
       try {
         const started = Date.now();
-        const result = await regenerate(target.id);
-        const report = measureLayout(layoutFor(def), result.blocks ?? [], result.footnotes);
-        const seconds = ((Date.now() - started) / 1000).toFixed(1);
-        console.log(
-          `  · layout oracle (${seconds}s) — ` +
-            ORACLE_SIGNALS.map((signal) => `${signal} ${report.counts[signal]}`).join(", ") +
-            `\n      expected: ${report.expected.headings} headings, ${report.expected.markers} markers, ` +
-            `${report.expected.paragraphStarts} paragraph starts, ${report.expected.quoteRuns} quote runs; ` +
-            `unlocated: ${report.unlocated.headings} headings, ${report.unlocated.paragraphStarts} paragraphs, ${report.unlocated.quotes} quotes`
-        );
-        writeFileSync(join(reportDir(target.id), ".cache", "oracle.json"), `${JSON.stringify(report, null, 1)}\n`, "utf8");
-        if (flags.includes("--findings")) {
-          for (const signal of ORACLE_SIGNALS) {
-            for (const f of report.findings.filter((x) => x.signal === signal).slice(0, 5)) {
-              console.log(`      ${signal} · vol ${f.volume} p.${f.page} · ${f.text}`);
+        result = await regenerate(target.id);
+        if (wantOracle) {
+          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes);
+          const seconds = ((Date.now() - started) / 1000).toFixed(1);
+          console.log(
+            `  · layout oracle (${seconds}s) — ` +
+              ORACLE_SIGNALS.map((signal) => `${signal} ${report!.counts[signal]}`).join(", ") +
+              `\n      expected: ${report.expected.headings} headings, ${report.expected.markers} markers, ` +
+              `${report.expected.paragraphStarts} paragraph starts, ${report.expected.quoteRuns} quote runs; ` +
+              `unlocated: ${report.unlocated.headings} headings, ${report.unlocated.paragraphStarts} paragraphs, ${report.unlocated.quotes} quotes`
+          );
+          writeFileSync(join(reportDir(target.id), ".cache", "oracle.json"), `${JSON.stringify(report, null, 1)}\n`, "utf8");
+          if (flags.includes("--findings")) {
+            for (const signal of ORACLE_SIGNALS) {
+              for (const f of report.findings.filter((x) => x.signal === signal).slice(0, 5)) {
+                console.log(`      ${signal} · vol ${f.volume} p.${f.page} · ${f.text}`);
+              }
             }
           }
         }
       } catch (error) {
         console.log(`  · layout oracle skipped: ${error instanceof Error ? error.message : String(error)}`);
       }
+      if (wantGolden && result) {
+        const g = await goldenChecks(target.id, result, report, flags.includes("--explain"));
+        allOk = g.ok && allOk;
+        if (report && g.rows.length) {
+          allRows.push(...g.rows);
+          const scores = scoreOracle(g.rows).filter((x) => x.tp + x.fp + x.fn > 0);
+          if (scores.length) console.log(`      oracle on golden pages: ${scores.map((x) => `${x.signal} tp${x.tp}/fp${x.fp}/fn${x.fn}`).join(", ")}`);
+        }
+      }
     }
   }
 
+  if (allRows.length && !only) {
+    // The oracle's precision and recall against every golden page of every report (docs/quality-harness.md).
+    console.log("\noracle against golden pages, all reports (tp = counted and true, fp = counted and not true, fn = true and not counted)");
+    console.log("  signal                  tp    fp    fn  precision  recall");
+    for (const x of scoreOracle(allRows)) {
+      if (x.tp + x.fp + x.fn === 0) continue;
+      const pct = (a: number, b: number) => (b ? `${Math.round((100 * a) / b)}%` : "n/a");
+      console.log(
+        `  ${x.signal.padEnd(22)} ${String(x.tp).padStart(4)} ${String(x.fp).padStart(5)} ${String(x.fn).padStart(5)}  ${pct(x.tp, x.tp + x.fp).padStart(9)}  ${pct(x.tp, x.tp + x.fn).padStart(6)}`
+      );
+    }
+  }
   return allOk ? 0 : 1;
+}
+
+/**
+ * The report's golden pages (`<report repo>/golden.yaml`, quality-harness plan
+ * §3.2): each entry is a page's true structure, read off the page image, and
+ * must match what the pipeline regenerates. A page marked `xfail: <bead>` is a
+ * known defect: it must still fail (so the defect stays visible) and a pass
+ * that fixes it fails the run until the xfail is removed.
+ */
+async function goldenChecks(
+  id: string,
+  result: IngestResult,
+  oracle: OracleReport | undefined,
+  explain = false
+): Promise<{ ok: boolean; rows: Array<{ oracle: PageCounts | undefined; truth: Partial<PageCounts> }>; pages: number }> {
+  const path = join(reportDir(id), "golden.yaml");
+  const none = { ok: true, rows: [], pages: 0 };
+  if (!existsSync(path)) {
+    console.log("  \x1b[33m–\x1b[0m no golden.yaml");
+    return none;
+  }
+  const golden = parseGolden(readFileSync(path, "utf8"));
+  if (!result.linkedText) console.log("  \x1b[33m!\x1b[0m the pipeline did not return each block's final text; golden pages compare re-linked block text");
+  let ok = true;
+  let passed = 0;
+  let knownFailures = 0;
+  const rows: Array<{ oracle: PageCounts | undefined; truth: Partial<PageCounts> }> = [];
+  for (const page of golden.pages) {
+    const r = checkGoldenPage(page, finalBlocks(result), result.footnotes, { relink: !result.linkedText });
+    rows.push({ oracle: oracle?.pages[`${page.volume}:${page.pdf}`], truth: r.truth });
+    if (explain && oracle) {
+      // where the oracle and the page's entry disagree, with what the oracle saw
+      for (const signal of ORACLE_SIGNALS) {
+        const t = r.truth[signal];
+        const o = oracle.pages[`${page.volume}:${page.pdf}`]?.[signal] ?? 0;
+        if (t === undefined || o === t) continue;
+        console.log(`      oracle≠golden vol ${page.volume} p.${page.pdf} ${signal}: oracle ${o}, golden ${t}`);
+        for (const f of oracle.findings.filter((x) => x.signal === signal && x.volume === page.volume && x.page === page.pdf).slice(0, 4)) console.log(`          · ${f.text}`);
+      }
+    }
+    const tag = `${page.volume > 1 ? `vol ${page.volume} ` : ""}p.${page.pdf}${page.printed !== undefined ? ` (printed ${page.printed})` : ""}`;
+    // An xfail page may fail in the assertions it names (`xfail_only`, else any), must fail in at least one
+    // of them, and must pass in the rest: so a page that is red for a known reason still catches a new regression.
+    const allowed = page.xfail ? (page.xfail_only ?? ASSERTION_KINDS) : [];
+    const unexpected = r.failing.filter((k) => !allowed.includes(k));
+    const known = r.failing.filter((k) => allowed.includes(k));
+    if (r.problems.length === 0 && !page.xfail) {
+      passed++;
+    } else if (page.xfail && known.length === 0 && unexpected.length === 0) {
+      ok = false;
+      console.log(`  \x1b[31m✗\x1b[0m golden ${tag}: passes now but is marked xfail ${page.xfail}; remove the xfail`);
+    } else if (page.xfail && unexpected.length === 0) {
+      knownFailures++;
+      console.log(`  \x1b[33m~\x1b[0m golden ${tag}: known failure ${page.xfail} [${r.failing.join(", ")}] — ${r.problems[0]}`);
+    } else {
+      ok = false;
+      console.log(`  \x1b[31m✗\x1b[0m golden ${tag}: ${r.problems[0]}`);
+      for (const more of r.problems.slice(1, 6)) console.log(`        ${more}`);
+      if (page.xfail) console.log(`        (marked xfail ${page.xfail} for ${[...allowed].join(", ")} only; failing now in ${unexpected.join(", ")})`);
+    }
+  }
+  console.log(
+    `  ${ok ? "\x1b[32m✓\x1b[0m" : "\x1b[31m✗\x1b[0m"} golden pages — ${passed}/${golden.pages.length} match the PDF` +
+      (knownFailures ? `, ${knownFailures} known failure(s)` : "")
+  );
+  return { ok, rows, pages: golden.pages.length };
+}
+
+/** `pnpm ingest outline`: what each page started, to choose golden pages from. */
+async function runOutline(argv: string[]): Promise<number> {
+  const id = argv[0];
+  if (!id) {
+    console.error("Usage: pnpm ingest outline <report-id>");
+    return 1;
+  }
+  const result = await regenerate(id);
+  const pages = new Map<string, { v: number; p: number; h: string[]; para: number; quote: number; list: number }>();
+  for (const b of result.blocks ?? []) {
+    if (!b.at) continue;
+    const k = `${b.at.volume}:${b.at.pdfIndex}`;
+    const e = pages.get(k) ?? { v: b.at.volume, p: b.at.pdfIndex, h: [], para: 0, quote: 0, list: 0 };
+    if (b.kind === "heading") e.h.push(`${"#".repeat(b.level)} ${b.text.slice(0, 50)}`);
+    else if (b.kind === "paragraph") e.para++;
+    else if (b.kind === "quote") e.quote++;
+    else if (b.kind === "list") e.list++;
+    pages.set(k, e);
+  }
+  const notes = new Map<string, number>();
+  for (const n of result.footnotes) notes.set(`${n.volume ?? 1}:${n.pdfIndex}`, (notes.get(`${n.volume ?? 1}:${n.pdfIndex}`) ?? 0) + 1);
+  for (const e of pages.values()) {
+    console.log(
+      `v${e.v} p.${String(e.p).padStart(4)}  ${e.para}p ${e.quote}q ${e.list}l ${notes.get(`${e.v}:${e.p}`) ?? 0}n  ${e.h.join(" | ")}`
+    );
+  }
+  return 0;
+}
+
+/** `pnpm ingest page`: one page's layout lines beside the pipeline's blocks, a draft golden entry, a fixture. */
+async function runPage(argv: string[]): Promise<number> {
+  const [id, vol, pdf] = argv.filter((a) => !a.startsWith("--") && argv[argv.indexOf(a) - 1] !== "--fixture" && argv[argv.indexOf(a) - 1] !== "--fixture-dir");
+  const volume = Number(vol);
+  const pdfPage = Number(pdf);
+  if (!id || !Number.isInteger(volume) || !Number.isInteger(pdfPage)) {
+    console.error("Usage: pnpm ingest page <report-id> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]");
+    return 1;
+  }
+  const def = await loadDefinition(id);
+  const result = await regenerate(id);
+  const layout = layoutFor(def);
+  const flags = argv.filter((a) => a.startsWith("--"));
+  if (flags.includes("--draft")) {
+    console.log(draftGolden(result.blocks ?? [], result.footnotes, layout, volume, pdfPage));
+  } else {
+    console.log(renderPage(id, layout, result.blocks ?? [], result.footnotes, volume, pdfPage));
+  }
+  const name = arg(argv, "fixture");
+  if (name) {
+    const pdfPath = resolveVolume(def, def.volumes[volume - 1], reportDir(id));
+    const xml = layoutXml(pdfPath, join(reportDir(id), ".cache"));
+    const fixture = pageFixture(`${id} volume ${volume} PDF page ${pdfPage}`, xml, result.blocks ?? [], result.footnotes, volume, pdfPage);
+    const dir = arg(argv, "fixture-dir") ?? join(reportDir(id), ".cache", "fixtures");
+    mkdirSync(dir, { recursive: true });
+    const file = join(dir, `${name}.json`);
+    writeFileSync(file, `${JSON.stringify(fixture, null, 1)}\n`, "utf8");
+    console.log(`\nwrote fixture ${file}\n  (copy it to ingest/tests/fixtures/oracle/ to use it in a test)`);
+  }
+  return 0;
 }
 
 /** Regenerates a report from its definition, in memory, writing nothing. */
@@ -466,6 +643,8 @@ const [command, ...rest] = process.argv.slice(2);
 let code = 0;
 if (command === "run") code = await runIngest(rest);
 else if (command === "verify" || command === undefined) code = await runVerify(rest);
+else if (command === "outline") code = await runOutline(rest);
+else if (command === "page") code = await runPage(rest);
 else if (command === "baseline") code = await runBaseline(rest);
 else if (command === "check") code = await runCheck(rest);
 else if (command === "aggregate") code = runAggregate();
