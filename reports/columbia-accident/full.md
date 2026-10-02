@@ -5286,11 +5286,9 @@ Shortly after confirming the debris hit, Intercenter Photo Working Group members
 
 Mission Managementʼs Response to the Foam Strike
 
-As soon as the Intercenter Working Group report was distributed, engineers and technical managers from NASA, United Space Alliance, and Boeing began responding. Engineers and managers from Kennedy Space Center called engineers and Program managers at Johnson Space Center. United Space Alliance and Boeing employees exchanged e-mails with details of the initial film analysis and the work in progress to determine the result of the impact. Details of the strike, actions taken in response to the impact, and records of telephone conversations were documented in the Mission Control operational log. The following section recounts in
+As soon as the Intercenter Working Group report was distributed, engineers and technical managers from NASA, United Space Alliance, and Boeing began responding. Engineers and managers from Kennedy Space Center called engineers and Program managers at Johnson Space Center. United Space Alliance and Boeing employees exchanged e-mails with details of the initial film analysis and the work in progress to determine the result of the impact. Details of the strike, actions taken in response to the impact, and records of telephone conversations were documented in the Mission Control operational log. The following section recounts in chronological order many of these exchanges and provides insight into why, in spite of the debris strikeʼs severity, NASA managers ultimately declined to request images of Columbiaʼs left wing on-orbit.
 
 %%page 141%%
-
-> chronological order many of these exchanges and provides insight into why, in spite of the debris strikeʼs severity, NASA managers ultimately declined to request images of Columbiaʼs left wing on-orbit.
 
 Flight Day Two, Friday, January 17, 2003
 
@@ -6138,11 +6136,9 @@ F6.3-1 The foam strike was first seen by the Intercenter Photo Working Group on 
 
 F6.3-2 The Chair of the Intercenter Photo Working Group asked management to begin the process of getting outside imagery to help in damage assessment. This request, the first of three, began its journey through the management hierarchy on Flight Day Two.
 
-F6.3-3 The Intercenter Photo Working Group distributed its first report, including a digitized video clip and initial assessment of the strike, on Flight Day Two. This information
+F6.3-3 The Intercenter Photo Working Group distributed its first report, including a digitized video clip and initial assessment of the strike, on Flight Day Two. This information was widely disseminated to NASA and contractor engineers, Shuttle Program managers, and Mission Operations Directorate personnel.
 
 %%page 171%%
-
-> was widely disseminated to NASA and contractor engineers, Shuttle Program managers, and Mission Operations Directorate personnel.
 
 F6.3-4 Initial estimates of debris size, speed, and origin were remarkably accurate. Initial information available to managers stated that the debris originated in the left bipod area of the External Tank, was quite large, had a high velocity, and struck the underside of the left wing near its leading edge. The report stated that the debris could have hit the RCC or tile.
 
@@ -6430,7 +6426,7 @@ NASA (D. Arabian) ca. 1979. 48
 
 Drew L. Goodlin, "Orbiter Tile Impact Testing, Final Report", SwRI Project
 
-# 18-7503-005, March 5, 1999. 49
+\# 18-7503-005, March 5, 1999. 49
 
 Allen J. Richardson, "Evaluation of Flight Experience & Test Results for
 
@@ -7970,11 +7966,9 @@ HEX stamps categories
 
 > formulated. However, there is no requirement that it be routinely reviewed.
 
-F10.4-3 Kennedy Space Centerʼs current government mandatory inspection process is both inadequate and difficult to expand, which inhibits the ability
+F10.4-3 Kennedy Space Centerʼs current government mandatory inspection process is both inadequate and difficult to expand, which inhibits the ability of Quality Assurance to process improvement initiatives.
 
 %%page 220%%
-
-> of Quality Assurance to process improvement initiatives.
 
 F10.4-4 Kennedyʼs quality assurance system encourages inspectors to allow incorrect work to be corrected without being labeled "rejected." These opportunities hide "rejections," making it impossible to determine how often and on what items frequent rejections and errors occur.
 
