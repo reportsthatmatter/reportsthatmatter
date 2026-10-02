@@ -3,7 +3,7 @@
  * Report ingestion.
  *
  *   pnpm ingest run <pdf> [<pdf>...] --id <slug> --title "..." [--authors "..."] [--published 2025]
- *   pnpm ingest verify [<slug>]
+ *   pnpm ingest verify [<slug>] [--no-oracle] [--findings]
  *
  * `run` writes reports/<slug>/full.md plus a fidelity report; `verify` re-runs
  * the checks against what is already committed. More than one PDF concatenates
@@ -32,6 +32,9 @@ import {
   diffBaselines,
   extractPages,
   ingestPageGroups,
+  measureLayout,
+  ORACLE_SIGNALS,
+  openLayout,
   parseCorrections,
   parseDismissals,
   popplerVersion,
@@ -138,6 +141,18 @@ async function loadDefinition(id: string): Promise<PipelineDef> {
   return module.default as PipelineDef;
 }
 
+/**
+ * The report's source PDFs as a lazy line layout, cached under the report
+ * repo's `.cache/` (self-ignoring), for passes that gate on layout and for
+ * the oracle. Costs nothing until something asks for a line.
+ */
+function layoutFor(def: PipelineDef) {
+  return openLayout(
+    def.volumes.map((volume) => resolveVolume(def, volume, reportDir(def.id))),
+    join(reportDir(def.id), ".cache")
+  );
+}
+
 function arg(flags: string[], name: string): string | undefined {
   const i = flags.indexOf(`--${name}`);
   return i === -1 ? undefined : flags[i + 1];
@@ -196,7 +211,8 @@ async function runIngest(argv: string[]): Promise<number> {
       source_url: def.source_url,
     },
     resolvePasses(def),
-    loadCorrections(id)
+    loadCorrections(id),
+    { layout: layoutFor(def) }
   );
 
   return writeReport(id, def.title, result, loadCorrections(id), loadDismissals(id));
@@ -271,7 +287,9 @@ function writeReport(
   return ok ? 0 : 1;
 }
 
-async function runVerify(argv: string[]): Promise<number> {
+async function runVerify(args: string[]): Promise<number> {
+  const flags = args.filter((a) => a.startsWith("--"));
+  const argv = args.filter((a) => !a.startsWith("--"));
   const registryPath = join(REPORTS, "registry.yaml");
   const registry = readFileSync(registryPath, "utf8");
 
@@ -338,6 +356,34 @@ async function runVerify(argv: string[]): Promise<number> {
         target.id,
         runChecks(sourceText, markdown, correctionVocabulary(loadCorrections(target.id)))
       ) && allOk;
+
+    // The layout oracle: what the PDF's layout says against what the pipeline
+    // produced. Measure-only, never fails the run (plan §3.3).
+    if (!flags.includes("--no-oracle")) {
+      try {
+        const started = Date.now();
+        const result = await regenerate(target.id);
+        const report = measureLayout(layoutFor(def), result.blocks ?? [], result.footnotes);
+        const seconds = ((Date.now() - started) / 1000).toFixed(1);
+        console.log(
+          `  · layout oracle (${seconds}s) — ` +
+            ORACLE_SIGNALS.map((signal) => `${signal} ${report.counts[signal]}`).join(", ") +
+            `\n      expected: ${report.expected.headings} headings, ${report.expected.markers} markers, ` +
+            `${report.expected.paragraphStarts} paragraph starts, ${report.expected.quoteRuns} quote runs; ` +
+            `unlocated: ${report.unlocated.headings} headings, ${report.unlocated.paragraphStarts} paragraphs, ${report.unlocated.quotes} quotes`
+        );
+        writeFileSync(join(reportDir(target.id), ".cache", "oracle.json"), `${JSON.stringify(report, null, 1)}\n`, "utf8");
+        if (flags.includes("--findings")) {
+          for (const signal of ORACLE_SIGNALS) {
+            for (const f of report.findings.filter((x) => x.signal === signal).slice(0, 5)) {
+              console.log(`      ${signal} · vol ${f.volume} p.${f.page} · ${f.text}`);
+            }
+          }
+        }
+      } catch (error) {
+        console.log(`  · layout oracle skipped: ${error instanceof Error ? error.message : String(error)}`);
+      }
+    }
   }
 
   return allOk ? 0 : 1;
@@ -358,7 +404,8 @@ async function regenerate(id: string): Promise<IngestResult> {
       source_url: def.source_url,
     },
     resolvePasses(def),
-    loadCorrections(id)
+    loadCorrections(id),
+    { layout: layoutFor(def) }
   );
 }
 

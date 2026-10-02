@@ -89,7 +89,7 @@ for (const id of list) {
   const signals = evaluateSignals({ markdown, html, meta }, result);
 
   // decision dataset
-  const layout = flag("--no-layout") ? null : loadLayout(repo, join(out, ".cache", id));
+  const layout = flag("--no-layout") ? null : loadLayout(repo);
   const decisions = decisionRows(id, result, layout);
   writeFileSync(join(dir, "decisions.jsonl"), decisions.map((r) => JSON.stringify(r)).join("\n") + "\n");
 
