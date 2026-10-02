@@ -9,6 +9,7 @@
  */
 import { paragraphDensityCheck } from "../density";
 import { endsSentence, frontMatterPages, pageNumber, stripMarkers, toBlocks, type Block } from "./blocks";
+import { bodyOf, noteDefinitions, pairNoteReferences } from "./note-pairing";
 
 export type Meta = {
   words: number;
@@ -468,6 +469,72 @@ export const quoteShareParity: Signal = {
   },
 };
 
+// ---------------------------------------------------------------- notes that open the wrong note (G)
+
+const REFERENCE = /\[\^(\d+(?:-\d+)?)\]/g;
+const SIDENOTE = /<span class="sidenote(?: long)?"><sup>[^<]*<\/sup> ([\s\S]*?)(?:<label class="sidenote-expand"[^>]*>Show full note<\/label>)?<\/span>/g;
+
+const unescapeText = (value: string) => value.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+
+type Pairing = { label: string; excerpt: string; defined: boolean; expected: string | null };
+
+/**
+ * Every `[^N]` reference in the body with the definition it belongs to: a label defined once is
+ * that note; a repeated label (numbering that restarts per chapter) is paired by alignment, which
+ * a stray marker cannot shift. `expected` is null for a reference no definition pairs with.
+ */
+function notePairings(markdown: string): Pairing[] {
+  const defs = noteDefinitions(markdown);
+  const body = bodyOf(markdown);
+  const refs = [...body.matchAll(REFERENCE)];
+  const paired = pairNoteReferences(refs.map((m) => m[1]), defs.map((d) => d.label));
+  const byLabel = new Map<string, string[]>();
+  for (const d of defs) byLabel.set(d.label, [...(byLabel.get(d.label) ?? []), d.text]);
+  return refs.map((m, i) => {
+    const at = m.index ?? 0;
+    const list = byLabel.get(m[1]);
+    return {
+      label: m[1],
+      excerpt: body.slice(Math.max(0, at - 50), at + m[0].length + 20),
+      defined: !!list,
+      expected: list && paired[i] !== null ? list[paired[i]!] : null,
+    };
+  });
+}
+
+export const noteMarkerWrongNote: Signal = {
+  id: "note-marker-wrong-note",
+  kind: "count",
+  cls: "G",
+  doc: "A marker whose rendered sidenote is not the definition it belongs to: a repeated note label (numbering that restarts per chapter) resolved by count, so one stray marker made every later one open the previous chapter's note (9/11 `Tue sday, Se ptembe r 11,[^20] 01`, 148 markers; reportsthatmatter-apk). Compares the rendered page's sidenotes with the alignment of references to definitions, so it also fails on a renderer that goes back to counting.",
+  run: (input) => {
+    // Only references with a definition render a sidenote; the others stay as `[^N]` text.
+    const shown = notePairings(input.markdown).filter((p) => p.defined);
+    const rendered = [...input.html.matchAll(SIDENOTE)].map((m) => unescapeText(m[1]).trim());
+    if (shown.length !== rendered.length) {
+      return [{ signal: "note-marker-wrong-note", page: null, excerpt: `${shown.length} references with notes, ${rendered.length} rendered sidenotes: cannot compare` }];
+    }
+    const out: Finding[] = [];
+    shown.forEach((p, i) => {
+      if (p.expected !== null && rendered[i] !== p.expected) {
+        out.push({ signal: "note-marker-wrong-note", page: null, excerpt: clip(`${p.excerpt} → opens "${rendered[i]}", belongs to "${p.expected}"`, 260) });
+      }
+    });
+    return out;
+  },
+};
+
+export const noteMarkerUnpaired: Signal = {
+  id: "note-marker-unpaired",
+  kind: "count",
+  cls: "G",
+  doc: "A reference to a repeated note label that no definition pairs with in reading order: a spurious marker (a year split `20 01`, a count read as a note) or a note cited twice. The root defect behind note-marker-wrong-note; each one is a place the text or the notes lost a number.",
+  run: (input) =>
+    notePairings(input.markdown)
+      .filter((p) => p.defined && p.expected === null)
+      .map((p) => ({ signal: "note-marker-unpaired", page: null, excerpt: clip(p.excerpt) })),
+};
+
 // ---------------------------------------------------------------- registry
 
 export const SIGNALS: Signal[] = [
@@ -475,6 +542,8 @@ export const SIGNALS: Signal[] = [
   severedParagraph,
   severedParagraphCapital,
   bareFootnoteMarker,
+  noteMarkerWrongNote,
+  noteMarkerUnpaired,
   noteTextInBody,
   noteCitationVocabulary,
   furnitureParagraph,

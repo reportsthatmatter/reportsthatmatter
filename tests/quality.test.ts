@@ -12,6 +12,8 @@ import {
   measure,
   SIGNALS,
   noteCitationVocabulary,
+  noteMarkerUnpaired,
+  noteMarkerWrongNote,
   noteTextInBody,
   olWordsShare,
   printedPageReversal,
@@ -110,6 +112,39 @@ describe("bare-footnote-marker (F)", () => {
   it("ignores linked markers, decimal figures and paragraph numbers", () => {
     const md = "I have tried to be impartial.[^15] I underline that.\n\nThe fee was $38.6 Billion in total and see para 2.3 for more.";
     expect(bareFootnoteMarker.run(input(md))).toEqual([]);
+  });
+});
+
+describe("note-marker-wrong-note and note-marker-unpaired (G)", () => {
+  // 9/11, live: numbering restarts per chapter, so [^20] is defined once per chapter. The ch.1
+  // drop-cap garble `Tue sday, Se ptembe r 11,[^20] 01` took chapter 1's note 20 under count-based
+  // pairing and every later [^20] opened the previous chapter's note (reportsthatmatter-apk).
+  const notes = "## Notes\n\n[^1]: c1 n1.\n\n[^20]: c1 n20.\n\n[^1]: c2 n1.\n\n[^20]: c2 n20.";
+  const garbled = `Tue sday, Se ptembe r 11,[^20] 01, dawned.\n\nA.[^1] B.[^20]\n\n## Two\n\nA.[^1] B.[^20]\n\n${notes}`;
+  const side = (text: string) => `<label class="sidenote-toggle" for="x"><sup>1</sup></label><input class="sidenote-checkbox" id="x" type="checkbox" /><span class="sidenote"><sup>1</sup> ${text}</span>`;
+  const rendered = (...texts: string[]) => `<p>${texts.map(side).join(" ")}</p>`;
+
+  it("fails when a repeated label opens the previous chapter's note", () => {
+    // The count-based result: the stray marker took c1 n20, so chapter 1's B takes c2 n1's neighbour.
+    const wrong = rendered("c1 n20.", "c1 n1.", "c2 n20.", "c2 n1.", "c2 n20.");
+    const found = noteMarkerWrongNote.run(input(garbled, { html: wrong }));
+    expect(found.length).toBeGreaterThan(0);
+    expect(found[0].excerpt).toContain("belongs to");
+  });
+  it("passes when every marker opens its own note, the stray one included as unpaired", () => {
+    const right = rendered("c1 n20.", "c1 n1.", "c1 n20.", "c2 n1.", "c2 n20.");
+    expect(noteMarkerWrongNote.run(input(garbled, { html: right }))).toEqual([]);
+  });
+  it("counts the stray marker as unpaired, and nothing in the corrected text", () => {
+    const unpaired = noteMarkerUnpaired.run(input(garbled));
+    expect(unpaired).toHaveLength(1);
+    expect(unpaired[0].excerpt).toContain("Se ptembe r 11,[^20]");
+    expect(noteMarkerUnpaired.run(input(garbled.replace("Tue sday, Se ptembe r 11,[^20] 01", "Tuesday, September 11, 2001")))).toEqual([]);
+  });
+  it("leaves labels defined once, and unlinked references, alone", () => {
+    const md = "A.[^1] B.[^9]\n\n## Notes\n\n[^1]: only.";
+    expect(noteMarkerUnpaired.run(input(md))).toEqual([]);
+    expect(noteMarkerWrongNote.run(input(md, { html: rendered("only.") + "[^9]" }))).toEqual([]);
   });
 });
 

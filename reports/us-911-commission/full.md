@@ -5,6 +5,7 @@ published_at: "22 July 2004"
 source_url: "https://www.9-11commission.gov/report/911Report.pdf"
 pages: 585
 footnotes: 1749
+corrections: 1
 ---
 
 THE 9/11
@@ -283,7 +284,7 @@ THE 9/11
 
 ## "WE HAVE SOME PLANES"
 
-Tue sday, Se ptembe r 11,[^20] 01, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington,Virginia, to the Pentagon.Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
+Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington,Virginia, to the Pentagon.Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
 
 For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey.Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
 
