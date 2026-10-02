@@ -872,11 +872,9 @@ Does NASA have an adequate level of in-house technical expertise to manage the S
 
 Findings
 
-1. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquarters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space
+1. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquarters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space Flight also suffered a decline in staff. The decreases may have limited the ability of those offices to perform their review functions.
 
 %%page 28%%
-
-Flight also suffered a decline in staff. The decreases may have limited the ability of those offices to perform their review functions.
 
 2. The information presented to NASA headquarters on August 19, 1985 was sufficient to require immediate and concentrated efforts to remedy the joint design flaws. The fact that NASA did not take stronger action to solve this problem indicates that its top technical staff did not fully accept or understand the seriousness of the joint problem.
 
@@ -2466,11 +2464,9 @@ There has been considerable discussion through the years about the advantages an
 
 There have been recorded instances of spacecraft being struck by lightening during the launch.47 A t least some of the astronaut corps feel strongly that the ET RSS creates an unnecessary risk to the crew.
 
-The Committee has been informed that the ET RSS was included during the design phase because of a range safety requirement.
+The Committee has been informed that the ET RSS was included during the design phase because of a range safety requirement. The question that should be asked is: "DOthe relative risks.and advantages of an ET RSS justify its inclusion as a part of the STS?"
 
 %%page 105%%
-
-The question that should be asked is: "DOthe relative risks.and advantages of an ET RSS justify its inclusion as a part of the STS?"
 
 Therefore, the Committee believes that as part of an overall review of safety requirements, the Administrator should ensure that NASA and the appropriate Air Force officials responsible for range safety requirements review RSS requirements as they apply to the ET.
 
@@ -2538,11 +2534,9 @@ Recommendations
 
 2. NASA should conduct a thorough review to ensure that all manufacturing processes involving Criticality 1 and 1R hardware components of prime and secondary contractors are appropriately designated "critical" processes. Discussion
 
-"Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board." 57 Failure of Criticality 1 and
+"Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board." 57 Failure of Criticality 1 and 1R components or systems will result in loss of vehicle and/or crew. The Commission's investigation revealed that the O-ring used in the case joint, whose failure led to the destruction of 51-L, was not designated a critical NASA personnel explained that O-ring production was not so classified because final O-ring inspection occurred at KSC.
 
 %%page 108%%
-
-1R components or systems will result in loss of vehicle and/or crew. The Commission's investigation revealed that the O-ring used in the case joint, whose failure led to the destruction of 51-L, was not designated a critical NASA personnel explained that O-ring production was not so classified because final O-ring inspection occurred at KSC.
 
 NASA's safety, reliability and quality assurance (SR&QA) philosophy is that you cannot inspect quality into products, rather you must build it in. It is questionable, then, why NASA would choose to rely solely upon O-ring inspection for quality control and not emphasize the criticality of the O-ring production process to the 0- ring manufacturers and their employees.
 
@@ -2778,11 +2772,9 @@ More important that the average overtime rates was the overtime for certain empl
 
 Research has shown that when overtime becomes excessive, worker efficiency decreases and the potential for human error rises. Noteworthy in this regard is Lockheed's review of 264 incidents that caused property damage in 1984 and 1985. More than 50 percent of these incidents were attributable to human error, including procedural deviations, miscommunications and safety violations.86 On one occasion a potentially catastrophic error occurred just minutes before a scrubbed launch of Shuttle flight 61-C on January 6, 1986, when 18,000 pounds of liquid oxygen were inadvertently drained from the Shuttle's External Tank. The investigation which followed cited operator fatigue as one of the major factors contributing to this incident. The operators had been on duty at the console for eleven hours during the third day of working 12-hour night shifts. If the launch had not been held 31 seconds before lift off, the mission might not have achieved orbit.87
 
-The adequacy of and adherence to Operations and Maintenance Instructions (OMI's) have been raised as areas of concern leading to quality and safety problems. Review of various SPC mishap reports and of the procedures leading to the launch of 51-L and earlier
+The adequacy of and adherence to Operations and Maintenance Instructions (OMI's) have been raised as areas of concern leading to quality and safety problems. Review of various SPC mishap reports and of the procedures leading to the launch of 51-L and earlier Shuttle flights highlight both the need for review and update of inadequate OMI's and the need for improved contractor performance in implementing adequate O M I ' S . ~ ~
 
 %%page 119%%
-
-Shuttle flights highlight both the need for review and update of inadequate OMI's and the need for improved contractor performance in implementing adequate O M I ' S . ~ ~
 
 NASA's own review of flight 51-L showed several examples of improperly implemented procedures. The most serious error occurred when a console operator improperly closed the liquid hydrogen disconnect valve to the External Tank liquid hydrogen manifold. Although the valve appeared to function during 51-L, improper valve operation could have doomed 51-L just as surely as the failed rocket booster. As important as the failure to follow the OM1 was the fact that the valve closure problem was never documented. Without proper documentation a full assessment of the problem was not made prior to launch of 51-L.89 This lack of documentation is reminiscent of what occurred during "de-stacking" of Solid Rocket Motor segments from STS-9. Although destacking revealed water in the joints, this incident was never documented-an oversight which ultimately may have prevented an appreciation of the dangers of ice formation in booster joints during a cold-weather launch.s0 b. Pressures on Shuttle Operations
 

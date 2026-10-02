@@ -1024,11 +1024,9 @@ The Vice President stated that he called the President to discuss the rules of e
 
 The Vice President's military aide told us he believed the Vice President spoke to the President just after entering the conference room, but he did not hear what they said. Rice, who entered the room shortly after the Vice President and sat next to him, remembered hearing him inform the President,"Sir, the CAPs are up. Sir, they're going to want to know what to do." Then she recalled hearing him say, "Yes sir." She believed this conversation occurred a few minutes, perhaps five, after they entered the conference room.[^215]
 
-We believe this call would have taken place sometime before 10:10 to 10:15.
+We believe this call would have taken place sometime before 10:10 to 10:15. Among the sources that reflect other important events of that morning, there is no documentary evidence for this call, but the relevant sources are incomplete. Others nearby who were taking notes, such as the Vice President's chief of staff, Scooter Libby, who sat next to him, and Mrs. Cheney, did not note a call between the President and Vice President immediately after the Vice President entered the conference room.[^216]
 
 %%page 41%%
-
-Among the sources that reflect other important events of that morning, there is no documentary evidence for this call, but the relevant sources are incomplete. Others nearby who were taking notes, such as the Vice President's chief of staff, Scooter Libby, who sat next to him, and Mrs. Cheney, did not note a call between the President and Vice President immediately after the Vice President entered the conference room.[^216]
 
 At 10:02, the communicators in the shelter began receiving reports from the Secret Service of an inbound aircraft—presumably hijacked—heading toward Washington.That aircraft was United 93.The Secret Service was getting this information directly from the FAA.The FAA may have been tracking the progress of United 93 on a display that showed its projected path to Washington, not its actual radar return.Thus, the Secret Service was relying on projections and was not aware the plane was already down in Pennsylvania.[^217]
 
@@ -1160,11 +1158,9 @@ Usama Bin Ladin at a news conference in Afghanistan in 1998 inveighed against th
 
 Islam (a word that literally means "surrender to the will of God") arose in Arabia with what Muslims believe are a series of revelations to the Prophet Mohammed from the one and only God, the God of Abraham and of Jesus. These revelations, conveyed by the angel Gabriel, are recorded in the Qur'an. Muslims believe that these revelations, given to the greatest and last of a chain of prophets stretching from Abraham through Jesus, complete God's message to humanity. The Hadith, which recount Mohammed's sayings and deeds as recorded by his contemporaries, are another fundamental source. A third key element is the Sharia, the code of law derived from the Qur'an and the Hadith.
 
-Islam is divided into two main branches, Sunni and Shia. Soon after the
+Islam is divided into two main branches, Sunni and Shia. Soon after the Prophet's death, the question of choosing a new leader, or caliph, for the Muslim community, or Ummah, arose. Initially, his successors could be drawn from the Prophet's contemporaries, but with time, this was no longer possible.Those who became the Shia held that any leader of the Ummah must be a direct descendant of the Prophet; those who became the Sunni argued that lineal descent was not required if the candidate met other standards of faith and knowledge.After bloody struggles, the Sunni became (and remain) the majority sect. (The Shia are dominant in Iran.) The Caliphate—the institutionalized leadership of the Ummah—thus was a Sunni institution that continued until 1924, first under Arab and eventually under Ottoman Turkish control.
 
 %%page 50%%
-
-Prophet's death, the question of choosing a new leader, or caliph, for the Muslim community, or Ummah, arose. Initially, his successors could be drawn from the Prophet's contemporaries, but with time, this was no longer possible.Those who became the Shia held that any leader of the Ummah must be a direct descendant of the Prophet; those who became the Sunni argued that lineal descent was not required if the candidate met other standards of faith and knowledge.After bloody struggles, the Sunni became (and remain) the majority sect. (The Shia are dominant in Iran.) The Caliphate—the institutionalized leadership of the Ummah—thus was a Sunni institution that continued until 1924, first under Arab and eventually under Ottoman Turkish control.
 
 Many Muslims look back at the century after the revelations to the Prophet Mohammed as a golden age. Its memory is strongest among the Arabs.What happened then—the spread of Islam from the Arabian Peninsula throughout the Middle East, North Africa, and even into Europe within less than a century—seemed, and seems, miraculous.[^6] Nostalgia for Islam's past glory remains a powerful force.
 
@@ -1338,11 +1334,9 @@ Bin Ladin also began to have serious money problems. International pressure on S
 
 Money problems proved costly to Bin Ladin in other ways. Jamal Ahmed al Fadl, a Sudanese-born Arab, had spent time in the United States and had been recruited for the Afghan war through the Farouq mosque in Brooklyn. He had joined al Qaeda and taken the oath of fealty to Bin Ladin, serving as one of his business agents. Then Bin Ladin discovered that Fadl had skimmed about $110,000, and he asked for restitution. Fadl resented receiving a salary of only $500 a month while some of the Egyptians in al Qaeda were given $1,200 a month. He defected and became a star informant for the United States. Also testifying about al Qaeda in a U.S. court was L'Houssaine Kherchtou, who told of breaking with Bin Ladin because of Bin Ladin's professed inability to provide him with money when his wife needed a caesarian section.[^60]
 
-In February 1996, Sudanese officials began approaching officials from the
+In February 1996, Sudanese officials began approaching officials from the United States and other governments, asking what actions of theirs might ease foreign pressure. In secret meetings with Saudi officials, Sudan offered to expel Bin Ladin to Saudi Arabia and asked the Saudis to pardon him. U.S. officials became aware of these secret discussions, certainly by March. Saudi officials apparently wanted Bin Ladin expelled from Sudan.They had already revoked his citizenship, however, and would not tolerate his presence in their country. And Bin Ladin may have no longer felt safe in Sudan, where he had already escaped at least one assassination attempt that he believed to have been the work of the Egyptian or Saudi regimes, or both. In any case, on May 19, 1996, Bin Ladin left Sudan—significantly weakened, despite his ambitions and organizational skills. He returned to Afghanistan.[^61]
 
 %%page 63%%
-
-United States and other governments, asking what actions of theirs might ease foreign pressure. In secret meetings with Saudi officials, Sudan offered to expel Bin Ladin to Saudi Arabia and asked the Saudis to pardon him. U.S. officials became aware of these secret discussions, certainly by March. Saudi officials apparently wanted Bin Ladin expelled from Sudan.They had already revoked his citizenship, however, and would not tolerate his presence in their country. And Bin Ladin may have no longer felt safe in Sudan, where he had already escaped at least one assassination attempt that he believed to have been the work of the Egyptian or Saudi regimes, or both. In any case, on May 19, 1996, Bin Ladin left Sudan—significantly weakened, despite his ambitions and organizational skills. He returned to Afghanistan.[^61]
 
 ### 2.5 Al Qaeda's Renewal in Afghanistan (1996–1998)
 
@@ -1358,11 +1352,9 @@ Pakistan's rulers found these multitudes of ardent young Afghans a source of pot
 
 %%page 64%%
 
-It is unlikely that Bin Ladin could have returned to Afghanistan had Pakistan disapproved. The Pakistani military intelligence service probably had advance knowledge of his coming, and its officers may have facilitated his travel. During his entire time in Sudan, he had maintained guesthouses and training camps in Pakistan and Afghanistan.These were part of a larger network used by diverse organizations for recruiting and training fighters for Islamic insur- gencies in such places as Tajikistan, Kashmir, and Chechnya. Pakistani intelligence officers reportedly introduced Bin Ladin to Taliban leaders in Kandahar, their main base of power, to aid his reassertion of control over camps near
+It is unlikely that Bin Ladin could have returned to Afghanistan had Pakistan disapproved. The Pakistani military intelligence service probably had advance knowledge of his coming, and its officers may have facilitated his travel. During his entire time in Sudan, he had maintained guesthouses and training camps in Pakistan and Afghanistan.These were part of a larger network used by diverse organizations for recruiting and training fighters for Islamic insur- gencies in such places as Tajikistan, Kashmir, and Chechnya. Pakistani intelligence officers reportedly introduced Bin Ladin to Taliban leaders in Kandahar, their main base of power, to aid his reassertion of control over camps near Khowst, out of an apparent hope that he would now expand the camps and make them available for training Kashmiri militants.[^67]
 
 %%page 65%%
-
-Khowst, out of an apparent hope that he would now expand the camps and make them available for training Kashmiri militants.[^67]
 
 Yet Bin Ladin was in his weakest position since his early days in the war against the Soviet Union.The Sudanese government had canceled the registration of the main business enterprises he had set up there and then put some of them up for public sale. According to a senior al Qaeda detainee, the government of Sudan seized everything Bin Ladin had possessed there.[^68]
 
@@ -1570,11 +1562,9 @@ Inspectors at the ports of entry were not asked to focus on terrorists. Inspecto
 
 In 1996, a new law enabled the INS to enter into agreements with state and local law enforcement agencies through which the INS provided training and the local agencies exercised immigration enforcement authority. Terrorist watchlists were not available to them. Mayors in cities with large immigrant populations sometimes imposed limits on city employee cooperation with federal immigration agents.A large population lives outside the legal framework. Fraudulent documents could be easily obtained. Congress kept the number of INS agents static in the face of the overwhelming problem.[^46]
 
-The chief vehicle for INS and for state and local participation in law enforcement was the Joint Terrorism Task Force (JTTF), first tried out in New York City in 1980 in response to a spate of incidents involving domestic terrorist organizations.This task force was managed by the New York Field Office of the FBI, and its existence provided an opportunity to exchange information and, as happened after the first World Trade Center bombing, to enlist local officers, as well as other agency representatives, as partners in the FBI investigation.The FBI expanded the number of JTTFs throughout the 1990s, and by
+The chief vehicle for INS and for state and local participation in law enforcement was the Joint Terrorism Task Force (JTTF), first tried out in New York City in 1980 in response to a spate of incidents involving domestic terrorist organizations.This task force was managed by the New York Field Office of the FBI, and its existence provided an opportunity to exchange information and, as happened after the first World Trade Center bombing, to enlist local officers, as well as other agency representatives, as partners in the FBI investigation.The FBI expanded the number of JTTFs throughout the 1990s, and by 9/11 there were 34.While useful, the JTTFs had limitations.They set priorities in accordance with regional and field office concerns, and most were not fully staffed. Many state and local entities believed they had little to gain from having a full-time representative on a JTTF.[^47]
 
 %%page 82%%
-
-9/11 there were 34.While useful, the JTTFs had limitations.They set priorities in accordance with regional and field office concerns, and most were not fully staffed. Many state and local entities believed they had little to gain from having a full-time representative on a JTTF.[^47]
 
 Other federal law enforcement resources, also not seriously enlisted for counterterrorism, were to be found in the Treasury Department.
 
@@ -1610,11 +1600,9 @@ While FAA rules did not expressly prohibit knives with blades under 4 inches lon
 
 Several years prior to 9/11, an FAA requirement for screeners to conduct "continuous" and "random" hand searches of carry-on luggage at checkpoints had been replaced by explosive trace detection or had simply become ignored by the air carriers. Therefore, secondary screening of individuals and their carry-on bags to identify weapons (other than bombs) was nonexistent, except for passengers who triggered the metal detectors. Even when small knives were detected by secondary screening, they were usually returned to the traveler. Reportedly, the 9/11 hijackers were instructed to use items that would be undetectable by airport checkpoints.[^58]
 
-In the pre-9/11 security system, the air carriers played a major role. As the
+In the pre-9/11 security system, the air carriers played a major role. As the Inspector General of the Department of Transportation told us, there were great pressures from the air carriers to control security costs and to "limit the impact of security requirements on aviation operations, so that the industry could concentrate on its primary mission of moving passengers and aircraft. . . . [T]hose counterpressures in turn manifested themselves as significant weaknesses in security."A longtime FAA security official described the air carriers' approach to security regulation as "decry, deny and delay" and told us that while "the air carriers had seen the enlightened hand of self-interest with respect to safety, they hadn't seen it in the security arena."[^59]
 
 %%page 85%%
-
-Inspector General of the Department of Transportation told us, there were great pressures from the air carriers to control security costs and to "limit the impact of security requirements on aviation operations, so that the industry could concentrate on its primary mission of moving passengers and aircraft. . . . [T]hose counterpressures in turn manifested themselves as significant weaknesses in security."A longtime FAA security official described the air carriers' approach to security regulation as "decry, deny and delay" and told us that while "the air carriers had seen the enlightened hand of self-interest with respect to safety, they hadn't seen it in the security arena."[^59]
 
 The final layer, security on board commercial aircraft, was not designed to counter suicide hijackings.The FAA-approved "Common Strategy" had been elaborated over decades of experience with scores of hijackings, beginning in the 1960s. It taught flight crews that the best way to deal with hijackers was to accommodate their demands, get the plane to land safely, and then let law enforcement or the military handle the situation. According to the FAA, the record had shown that the longer a hijacking persisted, the more likely it was to end peacefully.The strategy operated on the fundamental assumption that hijackers issue negotiable demands (most often for asylum or the release of prisoners) and that, as one FAA official put it,"suicide wasn't in the game plan" of hijackers. FAA training material provided no guidance for flight crews should violence occur.[^60]
 
@@ -1764,11 +1752,9 @@ The Department of Defense is the behemoth among federal agencies.With an annual 
 
 Because of the necessary and demanding focus on the differing mission of each service, and their long and proud traditions, the Army, Navy, Air Force, and Marine Corps have often fought ferociously over roles and missions in war fighting and over budgets and posts of leadership. Two developments diminished this competition.
 
-The first was the passage by Congress in 1986 of the Goldwater-Nichols
+The first was the passage by Congress in 1986 of the Goldwater-Nichols Act, which, among other things, mandated that promotion to high rank required some period of duty with a different service or with a joint (i.e., multiservice) command.This had strong and immediate effects, loosening the loyalties of senior officers to their separate services and causing them to think more broadly about the military establishment as a whole.[^90] However, it also may have lessened the diversity of military advice and options presented to the president.The Goldwater-Nichols example is seen by some as having lessons applicable to lessening competition and increasing cooperation in other parts of the federal bureaucracy, particularly the law enforcement and intelligence communities.
 
 %%page 96%%
-
-Act, which, among other things, mandated that promotion to high rank required some period of duty with a different service or with a joint (i.e., multiservice) command.This had strong and immediate effects, loosening the loyalties of senior officers to their separate services and causing them to think more broadly about the military establishment as a whole.[^90] However, it also may have lessened the diversity of military advice and options presented to the president.The Goldwater-Nichols example is seen by some as having lessons applicable to lessening competition and increasing cooperation in other parts of the federal bureaucracy, particularly the law enforcement and intelligence communities.
 
 The second, related development was a significant transfer of planning and command responsibilities from the service chiefs and their staffs to the joint and unified commands outside of Washington, especially those for Strategic Forces and for four regions: Europe, the Pacific, the Center, and the South. Posts in these commands became prized assignments for ambitious officers, and the voices of their five commanders in chief became as influential as those of the service chiefs.
 
@@ -1888,11 +1874,9 @@ The Department of Defense and its congressional authorizing committees rose in o
 
 Congress as a whole, like the executive branch, adjusted slowly to the rise of transnational terrorism as a threat to national security. In particular, the growing threat and capabilities of Bin Ladin were not understood in Congress.As the most representative branch of the federal government, Congress closely tracks trends in what public opinion and the electorate identify as key issues. In the years before September 11, terrorism seldom registered as important. To the extent that terrorism did break through and engage the attention of the Congress as a whole, it would briefly command attention after a specific incident, and then return to a lower rung on the public policy agenda.
 
-Several points about Congress are worth noting. First, Congress always has a strong orientation toward domestic affairs. It usually takes on foreign policy and national security issues after threats are identified and articulated by the administration. In the absence of such a detailed—and repeated—articulation, national security tends not to rise very high on the list of congressional priorities. Presidents are selective in their use of political capital for international issues.
+Several points about Congress are worth noting. First, Congress always has a strong orientation toward domestic affairs. It usually takes on foreign policy and national security issues after threats are identified and articulated by the administration. In the absence of such a detailed—and repeated—articulation, national security tends not to rise very high on the list of congressional priorities. Presidents are selective in their use of political capital for international issues. In the decade before 9/11, presidential discussion of and congressional and public attention to foreign affairs and national security were dominated by other issues—among them, Haiti, Bosnia, Russia, China, Somalia, Kosovo, NATO enlargement, the Middle East peace process, missile defense, and globalization.Terrorism infrequently took center stage; and when it did, the context was often terrorists' tactics—a chemical, biological, nuclear, or computer threat—not terrorist organizations.[^107]
 
 %%page 105%%
-
-In the decade before 9/11, presidential discussion of and congressional and public attention to foreign affairs and national security were dominated by other issues—among them, Haiti, Bosnia, Russia, China, Somalia, Kosovo, NATO enlargement, the Middle East peace process, missile defense, and globalization.Terrorism infrequently took center stage; and when it did, the context was often terrorists' tactics—a chemical, biological, nuclear, or computer threat—not terrorist organizations.[^107]
 
 Second, Congress tends to follow the overall lead of the president on budget issues with respect to national security matters.There are often sharp arguments about individual programs and internal priorities, but by and large the overall funding authorized and appropriated by the Congress comes out close to the president's request. This tendency was certainly illustrated by the downward trends in spending on defense, intelligence, and foreign affairs in the first part of the 1990s. The White House, to be sure, read the political signals coming from Capitol Hill, but the Congress largely acceded to the executive branch's funding requests. In the second half of the decade, Congress appropriated some 98 percent of what the administration requested for intelligence programs.Apart from the Gingrich supplemental of $1.5 billion for overall intelligence programs in fiscal year 1999, the key decisions on overall allocation of resources for national security issues in the decade before 9/11—including counterterrorism funding—were made in the president's Office of Management and Budget.[^108]
 
@@ -1962,11 +1946,9 @@ In sum, in late 1997 and the spring of 1998, the lead U.S. agencies each pursued
 
 Initially, the DCI's Counterterrorist Center and its Bin Ladin unit considered a plan to ambush Bin Ladin when he traveled between Kandahar, the Taliban capital where he sometimes stayed the night, and his primary residence at the time,Tarnak Farms. After the Afghan tribals reported that they had tried such an ambush and failed, the Center gave up on it, despite suspicions that the tribals' story might be fiction.Thereafter, the capture plan focused on a nighttime raid on Tarnak Farms.[^17]
 
-A compound of about 80 concrete or mud-brick buildings surrounded by a 10-foot wall,Tarnak Farms was located in an isolated desert area on the outskirts of the Kandahar airport. CIA officers were able to map the entire site, identifying the houses that belonged to Bin Ladin's wives and the one where
+A compound of about 80 concrete or mud-brick buildings surrounded by a 10-foot wall,Tarnak Farms was located in an isolated desert area on the outskirts of the Kandahar airport. CIA officers were able to map the entire site, identifying the houses that belonged to Bin Ladin's wives and the one where Bin Ladin himself was most likely to sleep.Working with the tribals, they drew up plans for the raid.They ran two complete rehearsals in the United States during the fall of 1997.[^18]
 
 %%page 112%%
-
-Bin Ladin himself was most likely to sleep.Working with the tribals, they drew up plans for the raid.They ran two complete rehearsals in the United States during the fall of 1997.[^18]
 
 By early 1998, planners at the Counterterrorist Center were ready to come back to the White House to seek formal approval. Tenet apparently walked National Security Advisor Sandy Berger through the basic plan on February 13. One group of tribals would subdue the guards, enter Tarnak Farms stealthily, grab Bin Ladin, take him to a desert site outside Kandahar, and turn him over to a second group.This second group of tribals would take him to a desert landing zone already tested in the 1997 Kansi capture. From there, a CIA plane would take him to New York, an Arab capital, or wherever he was to be arraigned. Briefing papers prepared by the Counterterrorist Center acknowledged that hitches might develop. People might be killed, and Bin Ladin's supporters might retaliate, perhaps taking U.S. citizens in Kandahar hostage. But the briefing papers also noted that there was risk in not acting. "Sooner or later," they said, "Bin Ladin will attack U.S. interests, perhaps using WMD [weapons of mass destruction]."[^19]
 
@@ -2052,11 +2034,9 @@ The period after the August 1998 embassy bombings was critical in shaping U.S. p
 
 Despite the availability of information that al Qaeda was a global network, in 1998 policymakers knew little about the organization. The reams of new information that the CIA's Bin Ladin unit had been developing since 1996 had not been pulled together and synthesized for the rest of the government. Indeed, analysts in the unit felt that they were viewed as alarmists even within the CIA. A National Intelligence Estimate on terrorism in 1997 had only briefly mentioned Bin Ladin, and no subsequent national estimate would authoritatively evaluate the terrorism danger until after 9/11. Policymakers knew there was a dangerous individual, Usama Bin Ladin, whom they had been trying to capture and bring to trial. Documents at the time referred to Bin Ladin "and his associates" or Bin Ladin and his "network." They did not emphasize the existence of a structured worldwide organization gearing up to train thousands of potential terrorists.[^53]
 
-In the critical days and weeks after the August 1998 attacks, senior policymakers in the Clinton administration had to reevaluate the threat posed by Bin
+In the critical days and weeks after the August 1998 attacks, senior policymakers in the Clinton administration had to reevaluate the threat posed by Bin Ladin.Was this just a new and especially venomous version of the ordinary terrorist threat America had lived with for decades, or was it radically new, posing a danger beyond any yet experienced?
 
 %%page 119%%
-
-Ladin.Was this just a new and especially venomous version of the ordinary terrorist threat America had lived with for decades, or was it radically new, posing a danger beyond any yet experienced?
 
 Even after the embassy attacks, Bin Ladin had been responsible for the deaths of fewer than 50 Americans, most of them overseas. An NSC staffer working for Richard Clarke told us the threat was seen as one that could cause hundreds of casualties, not thousands.[^54] Even officials who acknowledge a vital threat intellectually may not be ready to act on such beliefs at great cost or at high risk.
 
@@ -2088,11 +2068,9 @@ After the August missile strikes, diplomatic options to press the Taliban seemed
 
 For a brief moment, it had seemed as if the August strikes might have shocked the Taliban into thinking of giving up Bin Ladin. On August 22, the reclusive Mullah Omar told a working-level State Department official that the strikes were counterproductive but added that he would be open to a dialogue with the United States on Bin Ladin's presence in Afghanistan.[^63] Meeting in Islamabad with William Milam, the U.S. ambassador to Pakistan,Taliban delegates said it was against their culture to expel someone seeking sanctuary but asked what would happen to Bin Ladin should he be sent to Saudi Arabia.[^64]
 
-Yet in September 1998, when the Saudi emissary, Prince Turki, asked Mullah Omar whether he would keep his earlier promise to expel Bin Ladin, the
+Yet in September 1998, when the Saudi emissary, Prince Turki, asked Mullah Omar whether he would keep his earlier promise to expel Bin Ladin, the Taliban leader said no. Both sides shouted at each other, with Mullah Omar denouncing the Saudi government. Riyadh then suspended its diplomatic relations with the Taliban regime. (Saudi Arabia, Pakistan, and the United Arab Emirates were the only countries that recognized the Taliban as the legitimate government of Afghanistan.) Crown Prince Abdullah told President Clinton and Vice President Gore about this when he visited Washington in late September. His account confirmed reports that the U.S. government had received independently.[^65]
 
 %%page 122%%
-
-Taliban leader said no. Both sides shouted at each other, with Mullah Omar denouncing the Saudi government. Riyadh then suspended its diplomatic relations with the Taliban regime. (Saudi Arabia, Pakistan, and the United Arab Emirates were the only countries that recognized the Taliban as the legitimate government of Afghanistan.) Crown Prince Abdullah told President Clinton and Vice President Gore about this when he visited Washington in late September. His account confirmed reports that the U.S. government had received independently.[^65]
 
 Other efforts with the Saudi government centered on improving intelligence sharing and permitting U.S. agents to interrogate prisoners in Saudi custody.The history of such cooperation in 1997 and 1998 had been strained.[^66] Several officials told us, in particular, that the United States could not get direct access to an important al Qaeda financial official, Madani al Tayyib, who had been detained by the Saudi government in 1997.[^67] Though U.S. officials repeatedly raised the issue, the Saudis provided limited information. In his September 1998 meeting with Crown Prince Abdullah,Vice President Gore, while thanking the Saudi government for their responsiveness, renewed the request for direct U.S. access to Tayyib.[^68] The United States never obtained this access.
 
@@ -2122,11 +2100,9 @@ The cautiousness of the South Asia bureau was reinforced when, in May 1999, Paki
 
 Discussion within the Clinton administration on Afghanistan then concentrated on two main alternatives.The first, championed by Riedel and Assistant Secretary of State Karl Inderfurth, was to undertake a major diplomatic effort to end the Afghan civil war and install a national unity government.The second, favored by Sheehan, Clarke, and the CIA, called for labeling the Taliban a terrorist group and ultimately funneling secret aid to its chief foe, the Northern Alliance.This dispute would go back and forth throughout 1999 and ultimately become entangled with debate about enlisting the Northern Alliance as an ally for covert action.[^84]
 
-Another diplomatic option may have been available: nurturing Afghan exile groups as a possible moderate governing alternative to the Taliban. In late 1999, Washington provided some support for talks among the leaders of exile Afghan groups, including the ousted Rome-based King Zahir Shah and Hamid Karzai, about bolstering anti-Taliban forces inside Afghanistan and linking the
+Another diplomatic option may have been available: nurturing Afghan exile groups as a possible moderate governing alternative to the Taliban. In late 1999, Washington provided some support for talks among the leaders of exile Afghan groups, including the ousted Rome-based King Zahir Shah and Hamid Karzai, about bolstering anti-Taliban forces inside Afghanistan and linking the Northern Alliance with Pashtun groups. One U.S. diplomat later told us that the exile groups were not ready to move forward and that coordinating frac- tious groups residing in Bonn, Rome, and Cyprus proved extremely difficult.[^85]
 
 %%page 125%%
-
-Northern Alliance with Pashtun groups. One U.S. diplomat later told us that the exile groups were not ready to move forward and that coordinating frac- tious groups residing in Bonn, Rome, and Cyprus proved extremely difficult.[^85]
 
 Frustrated by the Taliban's resistance, two senior State Department officials suggested asking the Saudis to offer the Taliban $250 million for Bin Ladin. Clarke opposed having the United States facilitate a "huge grant to a regime as heinous as the Taliban" and suggested that the idea might not seem attractive to either Secretary Albright or First Lady Hillary Rodham Clinton—both critics of the Taliban's record on women's rights.[^86] The proposal seems to have quietly died.
 
@@ -2152,11 +2128,9 @@ By late 1999, more than a year after the embassy bombings, diplomacy with Pakist
 
 As part of the response to the embassy bombings, President Clinton signed a Memorandum of Notification authorizing the CIA to let its tribal assets use force to capture Bin Ladin and his associates. CIA officers told the tribals that the plan to capture Bin Ladin, which had been "turned off " three months earlier,was back on.The memorandum also authorized the CIA to attack Bin Ladin in other ways. Also, an executive order froze financial holdings that could be linked to Bin Ladin.[^101]
 
-The counterterrorism staff at CIA thought it was gaining a better understanding of Bin Ladin and his network. In preparation for briefing the Senate
+The counterterrorism staff at CIA thought it was gaining a better understanding of Bin Ladin and his network. In preparation for briefing the Senate Select Committee on Intelligence on September 2,Tenet was told that the intelligence community knew more about Bin Ladin's network "than about any other top tier terrorist organization."[^102]
 
 %%page 127%%
-
-Select Committee on Intelligence on September 2,Tenet was told that the intelligence community knew more about Bin Ladin's network "than about any other top tier terrorist organization."[^102]
 
 The CIA was using this knowledge to disrupt a number of Bin Ladin–associated cells.Working with Albanian authorities, CIA operatives had raided an al Qaeda forgery operation and another terrorist cell in Tirana.These operations may have disrupted a planned attack on the U.S. embassy in Tirana, and did lead to the rendition of a number of al Qaeda–related terrorist operatives.After the embassy bombings, there were arrests in Azerbaijan, Italy, and Britain. Several terrorists were sent to an Arab country.The CIA described working with FBI operatives to prevent a planned attack on the U.S. embassy in Uganda, and a number of suspects were arrested. On September 16, Abu Hajer, one of Bin Ladin's deputies in Sudan and the head of his computer operations and weapons procurement, was arrested in Germany. He was the most important Bin Ladin lieutenant captured thus far. Clarke commented to Berger with satisfaction that August and September had brought the "greatest number of terrorist arrests in a short period of time that we have ever arranged/facilitated."[^103]
 
@@ -2362,11 +2336,9 @@ In fall 1999, DCI Tenet unveiled the CIA's new Bin Ladin strategy. It was called
 
 With a new operational strategy,the CIA evaluated its capture options.None scored high marks.The CIA had no confidence in the Pakistani effort. In the event that Bin Ladin traveled to the Kandahar region in southern Afghanistan, the tribal network there was unlikely to attack a heavily guarded Bin Ladin; the Counterterrorist Center rated the chance of success at less than 10 percent.To the northwest, the Uzbeks might be ready for a cross-border sortie in six months; their chance of success was also rated at less than 10 percent.[^192]
 
-In the northeast were Massoud's Northern Alliance forces—perhaps the CIA's best option. In late October, a group of officers from the Counterterrorist Center flew into the Panjshir Valley to meet up with Massoud, a hazardous journey in rickety helicopters that would be repeated several times in the future. Massoud appeared committed to helping the United States collect intelligence on Bin Ladin's activities and whereabouts and agreed to try to capture him if the opportunity arose. The Bin Ladin unit was satisfied that its reporting on Bin Ladin would now have a second source. But it also knew that Massoud would act against Bin Ladin only if his own interests and those of the
+In the northeast were Massoud's Northern Alliance forces—perhaps the CIA's best option. In late October, a group of officers from the Counterterrorist Center flew into the Panjshir Valley to meet up with Massoud, a hazardous journey in rickety helicopters that would be repeated several times in the future. Massoud appeared committed to helping the United States collect intelligence on Bin Ladin's activities and whereabouts and agreed to try to capture him if the opportunity arose. The Bin Ladin unit was satisfied that its reporting on Bin Ladin would now have a second source. But it also knew that Massoud would act against Bin Ladin only if his own interests and those of the United States intersected. By early December, the CIA rated this possibility at less than 15 percent.[^193]
 
 %%page 143%%
-
-United States intersected. By early December, the CIA rated this possibility at less than 15 percent.[^193]
 
 Finally, the CIA considered the possibility of putting U.S. personnel on the ground in Afghanistan.The CIA had been discussing this option with Special Operations Command and found enthusiasm on the working level but reluctance at higher levels. CIA saw a 95 percent chance of Special Operations Command forces capturing Bin Ladin if deployed—but less than a 5 percent chance of such a deployment. Sending CIA officers into Afghanistan was to be considered "if the gain clearly outweighs the risk"—but at this time no such gains presented themselves to warrant the risk.[^194]
 
@@ -2404,11 +2376,9 @@ We have nonetheless decided to include information from captured
 
 Although he apparently did not attract attention for extreme Islamist beliefs or activities while in the United States, KSM plunged into the anti-Soviet Afghan jihad soon after graduating from college.Visiting Pakistan for the first time in early 1987, he traveled to Peshawar, where his brother Zahid introduced him to the famous Afghan mujahid Abdul Rasul Sayyaf, head of the Hizbul- Ittihad El-Islami (Islamic Union Party). Sayyaf became KSM's mentor and provided KSM with military training at Sayyaf 's Sada camp. KSM claims he then fought the Soviets and remained at the front for three months before being summoned to perform administrative duties for Abdullah Azzam. KSM next took a job working for an electronics firm that catered to the communications needs of Afghan groups, where he learned about drills used to excavate caves in Afghanistan.[^4]
 
-Between 1988 and 1992, KSM helped run a nongovernmental organization
+Between 1988 and 1992, KSM helped run a nongovernmental organization (NGO) in Peshawar and Jalalabad; sponsored by Sayyaf, it was designed to aid young Afghan mujahideen. In 1992, KSM spent some time fighting alongside the mujahideen in Bosnia and supporting that effort with financial donations. After returning briefly to Pakistan, he moved his family to Qatar at the suggestion of the former minister of Islamic affairs of Qatar, Sheikh Abdallah bin Khalid bin Hamad al Thani. KSM took a position in Qatar as project engineer with the Qatari Ministry of Electricity and Water. Although he engaged in extensive international travel during his tenure at the ministry—much of it in furtherance of terrorist activity—KSM would hold his position there until early 1996, when he fled to Pakistan to avoid capture by U.S. authorities.[^5]
 
 %%page 147%%
-
-(NGO) in Peshawar and Jalalabad; sponsored by Sayyaf, it was designed to aid young Afghan mujahideen. In 1992, KSM spent some time fighting alongside the mujahideen in Bosnia and supporting that effort with financial donations. After returning briefly to Pakistan, he moved his family to Qatar at the suggestion of the former minister of Islamic affairs of Qatar, Sheikh Abdallah bin Khalid bin Hamad al Thani. KSM took a position in Qatar as project engineer with the Qatari Ministry of Electricity and Water. Although he engaged in extensive international travel during his tenure at the ministry—much of it in furtherance of terrorist activity—KSM would hold his position there until early 1996, when he fled to Pakistan to avoid capture by U.S. authorities.[^5]
 
 KSM first came to the attention of U.S. law enforcement as a result of his cameo role in the first World Trade Center bombing. According to KSM, he learned of RamziYousef 's intention to launch an attack inside the United States in 1991 or 1992, when Yousef was receiving explosives training in Afghanistan. During the fall of 1992, while Yousef was building the bomb he would use in that attack, KSM and Yousef had numerous telephone conversations during which Yousef discussed his progress and sought additional funding. On November 3, 1992, KSM wired $660 from Qatar to the bank account of Yousef 's co-conspirator, Mohammed Salameh. KSM does not appear to have contributed any more substantially to this operation.[^6]
 
@@ -2474,11 +2444,9 @@ Nashiri returned to Afghanistan,probably in 1997,primarily to check on relatives
 
 At some point, Nashiri joined al Qaeda. His cousin, Jihad Mohammad Ali al Makki, also known as Azzam, was a suicide bomber for the Nairobi attack. Nashiri traveled between Yemen and Afghanistan. In late 1998, Nashiri proposed mounting an attack against a U.S. vessel. Bin Ladin approved. He directed Nashiri to start the planning and send operatives to Yemen, and he later provided money.[^29]
 
-Nashiri reported directly to Bin Ladin, the only other person who, according to Nashiri, knew all the details of the operation.When Nashiri had difficulty finding U.S. naval vessels to attack along the western coast of Yemen, Bin
+Nashiri reported directly to Bin Ladin, the only other person who, according to Nashiri, knew all the details of the operation.When Nashiri had difficulty finding U.S. naval vessels to attack along the western coast of Yemen, Bin Ladin reportedly instructed him to case the Port of Aden, on the southern coast, instead.[^30] The eventual result was an attempted attack on the USS The Sullivans in January 2000 and the successful attack, in October 2000, on the USS Cole.
 
 %%page 153%%
-
-Ladin reportedly instructed him to case the Port of Aden, on the southern coast, instead.[^30] The eventual result was an attempted attack on the USS The Sullivans in January 2000 and the successful attack, in October 2000, on the USS Cole.
 
 Nashiri's success brought him instant status within al Qaeda. He later was recognized as the chief of al Qaeda operations in and around the Arabian Peninsula.While Nashiri continued to consult Bin Ladin on the planning of subsequent terrorist projects, he retained discretion in selecting operatives and devising attacks. In the two years between the Cole bombing and Nashiri's capture, he would supervise several more proposed operations for al Qaeda.The October 6, 2002, bombing of the French tanker Limburg in the Gulf of Aden also was Nashiri's handiwork. Although Bin Ladin urged Nashiri to continue plotting strikes against U.S. interests in the Persian Gulf, Nashiri maintains that he actually delayed one of these projects because of security concerns.[^31] Those concerns, it seems, were well placed, as Nashiri's November 2002 capture in the United Arab Emirates finally ended his career as a terrorist.
 
@@ -2526,11 +2494,9 @@ The first part of the planes operation—crashing hijacked aircraft into U.S. ta
 
 #### Training and Deployment to Kuala Lumpur
 
-In the fall of 1999, the four operatives selected by Bin Ladin for the planes operation were chosen to attend an elite training course at al Qaeda's Mes Aynak camp in Afghanistan. Bin Ladin personally selected the veteran fighters who received this training, and several of them were destined for important operations. One example is Ibrahim al Thawar, or Nibras, who would participate in the October 12, 2000, suicide attack on the USS Cole.According to KSM, this training was not given specifically in preparation for the planes operation or any other particular al Qaeda venture. Although KSM claims not to have been involved with the training or to have met with the future 9/11 hijackers at Mes
+In the fall of 1999, the four operatives selected by Bin Ladin for the planes operation were chosen to attend an elite training course at al Qaeda's Mes Aynak camp in Afghanistan. Bin Ladin personally selected the veteran fighters who received this training, and several of them were destined for important operations. One example is Ibrahim al Thawar, or Nibras, who would participate in the October 12, 2000, suicide attack on the USS Cole.According to KSM, this training was not given specifically in preparation for the planes operation or any other particular al Qaeda venture. Although KSM claims not to have been involved with the training or to have met with the future 9/11 hijackers at Mes Aynak, he says he did visit the camp while traveling from Kandahar to Kabul with Bin Ladin and others.[^48]
 
 %%page 157%%
-
-Aynak, he says he did visit the camp while traveling from Kandahar to Kabul with Bin Ladin and others.[^48]
 
 The Mes Aynak training camp was located in an abandoned Russian cop- per mine near Kabul.The camp opened in 1999, after the United States had destroyed the training camp near Khowst with cruise missiles in August 1998, and before the Taliban granted al Qaeda permission to open the al Faruq camp in Kandahar.Thus, for a brief period in 1999, Mes Aynak was the only al Qaeda camp operating in Afghanistan. It offered a full range of instruction, including an advanced commando course taught by senior al Qaeda member Sayf al Adl. Bin Ladin paid particular attention to the 1999 training session.When Salah al Din, the trainer for the session, complained about the number of trainees and said that no more than 20 could be handled at once, Bin Ladin insisted that everyone he had selected receive the training.[^49]
 
@@ -2566,11 +2532,9 @@ In Bangkok, Khallad took Hazmi and Mihdhar to one hotel, then went to another ho
 
 Bin Ladin canceled the East Asia part of the planes operation in the spring of 2000. He evidently decided it would be too difficult to coordinate this attack with the operation in the United States.As for Hazmi and Mihdhar, they had left Bangkok a few days before Khallad and arrived in Los Angeles on January 15, 2000.[^63]
 
-Meanwhile, the next group of al Qaeda operatives destined for the planes operation had just surfaced in Afghanistan. As Hazmi and Mihdhar were deploying from Asia to the United States, al Qaeda's leadership was recruiting and training four Western-educated men who had recently arrived in Kandahar.Though they hailed from four different countries—Egypt, the United Arab
+Meanwhile, the next group of al Qaeda operatives destined for the planes operation had just surfaced in Afghanistan. As Hazmi and Mihdhar were deploying from Asia to the United States, al Qaeda's leadership was recruiting and training four Western-educated men who had recently arrived in Kandahar.Though they hailed from four different countries—Egypt, the United Arab Emirates, Lebanon, and Yemen—they had formed a close-knit group as students in Hamburg, Germany.The new recruits had come to Afghanistan aspiring to wage jihad in Chechnya. But al Qaeda quickly recognized their potential and enlisted them in its anti-U.S. jihad.
 
 %%page 160%%
-
-Emirates, Lebanon, and Yemen—they had formed a close-knit group as students in Hamburg, Germany.The new recruits had come to Afghanistan aspiring to wage jihad in Chechnya. But al Qaeda quickly recognized their potential and enlisted them in its anti-U.S. jihad.
 
 ### 5.3 The Hamburg Contingent
 
@@ -2796,11 +2760,9 @@ Then, on December 14, an Algerian jihadist was caught bringing a load of explosi
 
 #### Ressam’s Arrest
 
-Ahmed Ressam, 23, had illegally immigrated to Canada in 1994. Using a fal- sified passport and a bogus story about persecution in Algeria, Ressam entered
+Ahmed Ressam, 23, had illegally immigrated to Canada in 1994. Using a fal- sified passport and a bogus story about persecution in Algeria, Ressam entered Montreal and claimed political asylum. For the next few years he supported himself with petty crime. Recruited by an alumnus of Abu Zubaydah's Khaldan camp, Ressam trained in Afghanistan in 1998, learning, among other things, how to place cyanide near the air intake of a building to achieve maximum lethality at minimum personal risk. Having joined other Algerians in planning a possible attack on a U.S. airport or consulate, Ressam left Afghanistan in early 1999 carrying precursor chemicals for explosives disguised in toiletry bottles, a notebook containing bomb assembly instructions, and $12,000. Back in Canada, he went about procuring weapons, chemicals, and false papers.[^18]
 
 %%page 177%%
-
-Montreal and claimed political asylum. For the next few years he supported himself with petty crime. Recruited by an alumnus of Abu Zubaydah's Khaldan camp, Ressam trained in Afghanistan in 1998, learning, among other things, how to place cyanide near the air intake of a building to achieve maximum lethality at minimum personal risk. Having joined other Algerians in planning a possible attack on a U.S. airport or consulate, Ressam left Afghanistan in early 1999 carrying precursor chemicals for explosives disguised in toiletry bottles, a notebook containing bomb assembly instructions, and $12,000. Back in Canada, he went about procuring weapons, chemicals, and false papers.[^18]
 
 In early summer 1999, having learned that not all of his colleagues could get the travel documents to enter Canada, Ressam decided to carry out the plan alone. By the end of the summer he had chosen three Los Angeles–area airports as potential targets, ultimately fixing on Los Angeles International (LAX) as the largest and easiest to operate in surreptitiously. He bought or stole chemicals and equipment for his bomb, obtaining advice from three Algerian friends, all of whom were wanted by authorities in France for their roles in past terrorist attacks there. Ressam also acquired new confederates. He promised to help a New York–based partner,Abdelghani Meskini, get training in Afghanistan if Meskini would help him maneuver in the United States.[^19]
 
@@ -2876,11 +2838,9 @@ On January 8, the surveillance teams reported that three of the Arabs had sudden
 
 The Counterterrorist Center (CTC) had briefed the CIA leadership on the gathering in Kuala Lumpur, and the information had been passed on to Berger and the NSC staff and to Director Freeh and others at the FBI (though the FBI noted that the CIA had the lead and would let the FBI know if a domestic angle arose).The head of the Bin Ladin unit kept providing updates, unaware at first even that the Arabs had left Kuala Lumpur, let alone that their trail had been lost in Bangkok.[^50] When this bad news arrived, the names were put on a Thai watchlist so that Thai authorities could inform the United States if any of them departed from Thailand.[^51]
 
-Several weeks later, CIA officers in Kuala Lumpur prodded colleagues in Bangkok for additional information regarding the three travelers.[^52] In early March 2000, Bangkok reported that Nawaf al Hazmi, now identified for the first time with his full name, had departed on January 15 on a United Airlines flight to Los Angeles. As for Khalid al Mihdhar, there was no report of his departure even though he had accompanied Hazmi on the United flight to Los Angeles.[^53] No one outside of the Counterterrorist Center was told any of this. The CIA did not try to register Mihdhar or Hazmi with the State Department's
+Several weeks later, CIA officers in Kuala Lumpur prodded colleagues in Bangkok for additional information regarding the three travelers.[^52] In early March 2000, Bangkok reported that Nawaf al Hazmi, now identified for the first time with his full name, had departed on January 15 on a United Airlines flight to Los Angeles. As for Khalid al Mihdhar, there was no report of his departure even though he had accompanied Hazmi on the United flight to Los Angeles.[^53] No one outside of the Counterterrorist Center was told any of this. The CIA did not try to register Mihdhar or Hazmi with the State Department's TIPOFF watchlist—either in January, when word arrived of Mihdhar's visa, or in March, when word came that Hazmi, too, had had a U.S. visa and a ticket to Los Angeles.[^54]
 
 %%page 182%%
-
-TIPOFF watchlist—either in January, when word arrived of Mihdhar's visa, or in March, when word came that Hazmi, too, had had a U.S. visa and a ticket to Los Angeles.[^54]
 
 None of this information—about Mihdhar's U.S. visa or Hazmi's travel to the United States—went to the FBI, and nothing more was done to track any of the three until January 2001, when the investigation of another bombing, that of the USS Cole, reignited interest in Khallad.We will return to that story in chapter 8.
 
@@ -2892,11 +2852,9 @@ The NSC staff advised Berger that the United States had only been "nib- bling at
 
 #### Pressing Pakistan
 
-While this process moved along, diplomacy continued its rounds. Direct pressure on the Taliban had proved unsuccessful. As one NSC staff note put it,
+While this process moved along, diplomacy continued its rounds. Direct pressure on the Taliban had proved unsuccessful. As one NSC staff note put it, "Under the Taliban, Afghanistan is not so much a state sponsor of terrorism as it is a state sponsored by terrorists."[^61] In early 2000, the United States began a high-level effort to persuade Pakistan to use its influence over the Taliban.
 
 %%page 183%%
-
-"Under the Taliban, Afghanistan is not so much a state sponsor of terrorism as it is a state sponsored by terrorists."[^61] In early 2000, the United States began a high-level effort to persuade Pakistan to use its influence over the Taliban.
 
 In January 2000, Assistant Secretary of State Karl Inderfurth and the State Department's counterterrorism coordinator, Michael Sheehan, met with General Musharraf in Islamabad, dangling before him the possibility of a presidential visit in March as a reward for Pakistani cooperation. Such a visit was coveted by Musharraf,partly as a sign of his government's legitimacy.He told the two envoys that he would meet with Mullah Omar and press him on Bin Ladin.They left, however, reporting to Washington that Pakistan was unlikely in fact to do anything,"given what it sees as the benefits of Taliban control of Afghanistan."[^62]
 
@@ -2922,11 +2880,9 @@ To Clarke, this seemed evidence that the CIA's leadership did not give sufficien
 
 The dispute had large managerial implications, for Clarke had found allies in the Office of Management and Budget (OMB).They had supplied him with the figures he used to argue that CIA spending on counterterrorism from its baseline budget had shown almost no increase.[^77]
 
-Berger met twice with Tenet in April to try to resolve the dispute. The Deputies Committee met later in the month to review fiscal year 2000 and 2001 budget priorities and offsets for the CIA and other agencies. In the end,
+Berger met twice with Tenet in April to try to resolve the dispute. The Deputies Committee met later in the month to review fiscal year 2000 and 2001 budget priorities and offsets for the CIA and other agencies. In the end, Tenet obtained a modest supplemental appropriation, which funded counterterrorism without requiring much reprogramming of baseline funds. But the CIA still believed that it remained underfunded for counterterrorism.[^78]
 
 %%page 185%%
-
-Tenet obtained a modest supplemental appropriation, which funded counterterrorism without requiring much reprogramming of baseline funds. But the CIA still believed that it remained underfunded for counterterrorism.[^78]
 
 #### Terrorist Financing
 
@@ -2996,11 +2952,9 @@ One option was to use a small, unmanned U.S. Air Force drone called the Predator
 
 The Small Group backed Afghan Eyes at the end of June 2000. By mid-July, testing was completed and the equipment was ready, but legal issues were still being ironed out.[^114] By August 11, the principals had agreed to deploy the Predator.[^115] The NSC staff considered how to use the information the drones would be relaying from Afghanistan. Clarke's deputy, Roger Cressey, wrote to Berger that emergency CSG and Principals Committee meetings might be needed to act on video coming in from the Predator if it proved able to lock in Bin Ladin's location. In the memo's margin, Berger wrote that before considering action,"I will want more than verified location: we will need, at least, data on pattern of movements to provide some assurance he will remain in place." President Clinton was kept up to date.[^116]
 
-On September 7, the Predator flew for the first time over Afghanistan.When
+On September 7, the Predator flew for the first time over Afghanistan.When Clarke saw video taken during the trial flight, he described the imagery to Berger as "truly astonishing," and he argued immediately for more flights seeking to find Bin Ladin and target him for cruise missile or air attack. Even if Bin Ladin were not found, Clarke said, Predator missions might identify additional worthwhile targets, such as other al Qaeda leaders or stocks of chemical or biological weapons.[^117]
 
 %%page 190%%
-
-Clarke saw video taken during the trial flight, he described the imagery to Berger as "truly astonishing," and he argued immediately for more flights seeking to find Bin Ladin and target him for cruise missile or air attack. Even if Bin Ladin were not found, Clarke said, Predator missions might identify additional worthwhile targets, such as other al Qaeda leaders or stocks of chemical or biological weapons.[^117]
 
 Clarke was not alone in his enthusiasm. He had backing from Cofer Black and Charles Allen at the CIA.Ten out of 15 trial missions of the Predator over Afghanistan were rated successful. On the first flight, a Predator saw a security detail around a tall man in a white robe at Bin Ladin's Tarnak Farms compound outside Kandahar. After a second sighting of the "man in white" at the compound on September 28, intelligence community analysts determined that he was probably Bin Ladin.[^118]
 
@@ -3078,11 +3032,9 @@ This, President Clinton and Berger told us, was not the conclusion they needed i
 
 Other advisers have echoed this concern. Some of Secretary Albright's advisers warned her at the time to be sure the evidence conclusively linked Bin Ladin to the Cole before considering any response, especially a military one, because such action might inflame the Islamic world and increase support for the Taliban. Defense Secretary Cohen told us it would not have been prudent to risk killing civilians based only on an assumption that al Qaeda was responsible. General Shelton added that there was an outstanding question as to who was responsible and what the targets were.[^147]
 
-Clarke recalled that while the Pentagon and the State Department had reservations about retaliation, the issue never came to a head because the FBI and the CIA never reached a firm conclusion. He thought they were "holding back." He said he did not know why, but his impression was that Tenet and
+Clarke recalled that while the Pentagon and the State Department had reservations about retaliation, the issue never came to a head because the FBI and the CIA never reached a firm conclusion. He thought they were "holding back." He said he did not know why, but his impression was that Tenet and Reno possibly thought the White House "didn't really want to know," since the principals' discussions by November suggested that there was not much White House interest in conducting further military operations against Afghanistan in the administration's last weeks. He thought that, instead, President Clinton, Berger, and Secretary Albright were concentrating on a last- minute push for a peace agreement between the Palestinians and the Israelis.[^148]
 
 %%page 196%%
-
-Reno possibly thought the White House "didn't really want to know," since the principals' discussions by November suggested that there was not much White House interest in conducting further military operations against Afghanistan in the administration's last weeks. He thought that, instead, President Clinton, Berger, and Secretary Albright were concentrating on a last- minute push for a peace agreement between the Palestinians and the Israelis.[^148]
 
 Some of Clarke's fellow counterterrorism officials, such as the State Department's Sheehan and the FBI's Watson, shared his disappointment that no military response occurred at the time. Clarke recently recalled that an angry Sheehan asked rhetorically of Defense officials:"Does al Qaeda have to attack the Pentagon to get their attention?"[^149]
 
@@ -3160,11 +3112,9 @@ The national security advisor did not respond directly to Clarke's memorandum. N
 
 On January 25,Tenet briefed the President on the Cole investigation.The written briefing repeated for top officials of the new administration what the CIA had told the Clinton White House in November.This included the "preliminary judgment" that al Qaeda was responsible, with the caveat that no evidence had yet been found that Bin Ladin himself ordered the attack.Tenet told us he had no recollection of a conversation with the President about this briefing.[^176]
 
-In his January 25 memo, Clarke had advised Rice that the government should respond to the Cole attack, but "should take advantage of the policy that
+In his January 25 memo, Clarke had advised Rice that the government should respond to the Cole attack, but "should take advantage of the policy that 'we will respond at a time, place and manner of our own choosing' and not be forced into knee-jerk responses."[^177] Before Vice President Cheney visited the CIA in mid-February, Clarke sent him a memo—outside the usual White House document-management system—suggesting that he ask CIA officials "what additional information is needed before CIA can definitively conclude that al-Qida was responsible" for the Cole.[^178] In March 2001, the CIA's briefing slides for Rice were still describing the CIA's "preliminary judgment" that a "strong circumstantial case" could be made against al Qaeda but noting that the CIA continued to lack "conclusive information on external command and control" of the attack.[^179] Clarke and his aides continued to provide Rice and Hadley with evidence reinforcing the case against al Qaeda and urging action.[^180]
 
 %%page 202%%
-
-'we will respond at a time, place and manner of our own choosing' and not be forced into knee-jerk responses."[^177] Before Vice President Cheney visited the CIA in mid-February, Clarke sent him a memo—outside the usual White House document-management system—suggesting that he ask CIA officials "what additional information is needed before CIA can definitively conclude that al-Qida was responsible" for the Cole.[^178] In March 2001, the CIA's briefing slides for Rice were still describing the CIA's "preliminary judgment" that a "strong circumstantial case" could be made against al Qaeda but noting that the CIA continued to lack "conclusive information on external command and control" of the attack.[^179] Clarke and his aides continued to provide Rice and Hadley with evidence reinforcing the case against al Qaeda and urging action.[^180]
 
 The President explained to us that he had been concerned lest an ineffec- tual air strike just serve to give Bin Ladin a propaganda advantage. He said he had not been told about Clinton administration warnings to the Taliban.The President told us that he had concluded that the United States must use ground forces for a job like this.[^181]
 
@@ -3304,11 +3254,9 @@ Third, the Hellfire warhead carried by the Predator needed work. It had been bui
 
 White House officials had seen the Predator video of the "man in white." On July 11, Hadley tried to hurry along preparation of the armed system. He directed McLaughlin, Wolfowitz, and Joint Chiefs Vice Chairman Richard Myers to deploy Predators capable of being armed no later than September 1. He also directed that they have cost-sharing arrangements in place by August 1. Rice told us that this attempt by Hadley to dictate a solution had failed and that she eventually had to intervene herself.[^243]
 
-On August 1, the Deputies Committee met again to discuss the armed
+On August 1, the Deputies Committee met again to discuss the armed Predator.They concluded that it was legal for the CIA to kill Bin Ladin or one of his deputies with the Predator. Such strikes would be acts of self-defense that would not violate the ban on assassinations in Executive Order 12333.The big issues—who would pay for what, who would authorize strikes, and who would pull the trigger—were left for the principals to settle.The Defense Department representatives did not take positions on these issues.[^244]
 
 %%page 212%%
-
-Predator.They concluded that it was legal for the CIA to kill Bin Ladin or one of his deputies with the Predator. Such strikes would be acts of self-defense that would not violate the ban on assassinations in Executive Order 12333.The big issues—who would pay for what, who would authorize strikes, and who would pull the trigger—were left for the principals to settle.The Defense Department representatives did not take positions on these issues.[^244]
 
 The CIA's McLaughlin had also been reticent. When Hadley circulated a memorandum attempting to prod the deputies to reach agreement, McLaughlin sent it back with a handwritten comment on the cost-sharing: "we question whether it is advisable to make such an investment before the decision is taken on flying an armed Predator." For Clarke, this came close to being a final straw. He angrily asked Rice to call Tenet."Either al Qida is a threat worth acting against or it is not," Clarke wrote."CIA leadership has to decide which it is and cease these bi-polar mood swings."[^245]
 
@@ -3368,11 +3316,9 @@ Hazmi and Mihdhar were ill-prepared for a mission in the United States. Their on
 
 It would therefore be plausible that they or KSM would have tried to identify, in advance, a friendly contact for them in the United States. In detention, KSM denies that al Qaeda had any agents in Southern California.We do not credit this denial.[^4] We believe it is unlikely that Hazmi and Mihdhar—neither of whom, in contrast to the Hamburg group, had any prior exposure to life in the West—would have come to the United States without arranging to receive assistance from one or more individuals informed in advance of their arrival.[^5]
 
-KSM says that though he told others involved in the conspiracy to stay away from mosques and to avoid establishing personal contacts, he made an exception in this case and instructed Hazmi and Mihdhar to pose as newly arrived
+KSM says that though he told others involved in the conspiracy to stay away from mosques and to avoid establishing personal contacts, he made an exception in this case and instructed Hazmi and Mihdhar to pose as newly arrived Saudi students and seek assistance at local mosques. He counted on their breaking off any such relationships once they moved to the East Coast.[^6] Our inability to ascertain the activities of Hazmi and Mihdhar during their first two weeks in the United States may reflect al Qaeda tradecraft designed to protect the identity of anyone who may have assisted them during that period.
 
 %%page 216%%
-
-Saudi students and seek assistance at local mosques. He counted on their breaking off any such relationships once they moved to the East Coast.[^6] Our inability to ascertain the activities of Hazmi and Mihdhar during their first two weeks in the United States may reflect al Qaeda tradecraft designed to protect the identity of anyone who may have assisted them during that period.
 
 Hazmi and Mihdhar were directed to enroll in English-language classes upon arriving in Southern California, so that they could begin pilot training as soon as possible. KSM claims to have steered the two to San Diego on the basis of his own research,which supposedly included thumbing through a San Diego phone book acquired at a Karachi flea market. Contradicting himself, he also says that, as instructed, they attempted to enroll in three language schools in Los Angeles.[^7]
 
@@ -3474,11 +3420,9 @@ The housemate who rented the room to Hazmi and Mihdhar during 2000 is an apparen
 
 ### 7.2 The 9/11 Pilots in the United States
 
-The Hamburg Pilots Arrive in the United States In the early summer of 2000, the Hamburg group arrived in the United States to begin flight training. Marwan al Shehhi came on May 29, arriving in Newark on a flight from Brussels. He went to New York City and waited there for
+The Hamburg Pilots Arrive in the United States In the early summer of 2000, the Hamburg group arrived in the United States to begin flight training. Marwan al Shehhi came on May 29, arriving in Newark on a flight from Brussels. He went to New York City and waited there for Mohamed Atta to join him. On June 2, Atta traveled to the Czech Republic by bus from Germany and then flew from Prague to Newark the next day. According to Ramzi Binalshibh,Atta did not meet with anyone in Prague; he simply believed it would contribute to operational security to fly out of Prague rather than Hamburg, the departure point for much of his previous international travel.[^45]
 
 %%page 224%%
-
-Mohamed Atta to join him. On June 2, Atta traveled to the Czech Republic by bus from Germany and then flew from Prague to Newark the next day. According to Ramzi Binalshibh,Atta did not meet with anyone in Prague; he simply believed it would contribute to operational security to fly out of Prague rather than Hamburg, the departure point for much of his previous international travel.[^45]
 
 Atta and Shehhi had not settled on where they would obtain their flight training. In contrast, Ziad Jarrah had already arranged to attend the Florida Flight Training Center (FFTC) in Venice, Florida. Jarrah arrived in Newark on June 27 and then flew to Venice. He immediately began the private pilot program at FFTC, intending to get a multi-engine license. Jarrah moved in with some of the flight instructors affiliated with his school and bought a car.[^46]
 
@@ -3592,11 +3536,9 @@ Within a few weeks, Hanjour, Hazmi, and several other operatives moved to Paters
 
 Atta and Shehhi had already returned to Florida. On April 11, they moved into an apartment in Coral Springs.Atta stayed in Florida, awaiting the arrival of the first muscle hijackers.[^80]
 
-Shehhi, on the other hand, bought a ticket to Cairo and flew there from Miami on April 18. We do not know much more about Shehhi's reason for traveling to Egypt in April than we know about his January trip to Morocco.
+Shehhi, on the other hand, bought a ticket to Cairo and flew there from Miami on April 18. We do not know much more about Shehhi's reason for traveling to Egypt in April than we know about his January trip to Morocco. Shehhi did meet with Atta's father, who stated in a post-9/11 interview that Shehhi just wanted to pick up Atta's international driver's license and some money.This story is not credible.Atta already had the license with him and presented it during a traffic stop on April 26 while Shehhi was still abroad. Shehhi spent about two weeks in Egypt, obviously more time than would have been needed just to meet with Atta's father. Shehhi could have traveled elsewhere during this time, but no records indicating additional travel have been discovered.[^81]
 
 %%page 231%%
-
-Shehhi did meet with Atta's father, who stated in a post-9/11 interview that Shehhi just wanted to pick up Atta's international driver's license and some money.This story is not credible.Atta already had the license with him and presented it during a traffic stop on April 26 while Shehhi was still abroad. Shehhi spent about two weeks in Egypt, obviously more time than would have been needed just to meet with Atta's father. Shehhi could have traveled elsewhere during this time, but no records indicating additional travel have been discovered.[^81]
 
 Shehhi returned to Miami on May 2. That day, Atta and Jarrah were together, about 30 miles to the north, visiting a Department of Motor Vehicles office in Lauderdale Lakes, Florida, to get Florida driver's licenses. Back in Virginia, Hazmi and Hanjour were about to leave for Connecticut and New Jersey.As the summer approached, the lead operatives were settled in Florida and New Jersey, waiting for the rest of their contingent to join them.[^82]
 
@@ -3716,11 +3658,9 @@ Also in October 2000, two future muscle hijackers, Mohand al Shehri and Hamza al
 
 In mid-November, we believe, three of the future muscle hijackers,Wail al Shehri,Waleed al Shehri, and Ahmed al Nami, all of whom had obtained their U.S. visas in late October, traveled in a group from Saudi Arabia to Beirut and then onward to Iran. An associate of a senior Hezbollah operative was on the same flight that took the future hijackers to Iran. Hezbollah officials in Beirut and Iran were expecting the arrival of a group during the same time period. The travel of this group was important enough to merit the attention of senior figures in Hezbollah.[^124]
 
-Later in November, two future muscle hijackers, Satam al Suqami and Majed
+Later in November, two future muscle hijackers, Satam al Suqami and Majed Moqed, flew into Iran from Bahrain. In February 2001, Khalid al Mihdhar may have taken a flight from Syria to Iran, and then traveled further within Iran to a point near the Afghan border.[^125]
 
 %%page 241%%
-
-Moqed, flew into Iran from Bahrain. In February 2001, Khalid al Mihdhar may have taken a flight from Syria to Iran, and then traveled further within Iran to a point near the Afghan border.[^125]
 
 KSM and Binalshibh have confirmed that several of the 9/11 hijackers (at least eight, according to Binalshibh) transited Iran on their way to or from Afghanistan, taking advantage of the Iranian practice of not stamping Saudi passports.They deny any other reason for the hijackers' travel to Iran.They also deny any relationship between the hijackers and Hezbollah.[^126]
 
@@ -3804,11 +3744,9 @@ Binalshibh picked up Jarrah at the airport in Dusseldorf on July 25. Jarrah want
 
 While Jarrah was in Germany, Binalshibh and Moussaoui were in contact to arrange for the transfer of funds. Binalshibh received two wire transfers from Hawsawi in the UAE totaling $15,000 and, within days, relayed almost all of this money to Moussaoui in two installments.[^157]
 
-Moussaoui had been taking flight lessons at the Airman Flight School in Norman, Oklahoma, since February but stopped in late May.Although at that point he had only about 50 hours of flight time and no solo flights to his credit, Moussaoui began making inquiries about flight materials and simulator training for Boeing 747s. On July 10, he put down a $1,500 deposit for flight simulator training at Pan Am International Flight Academy in Eagan, Minnesota, and by the end of the month, he had received a simulator schedule to train from
+Moussaoui had been taking flight lessons at the Airman Flight School in Norman, Oklahoma, since February but stopped in late May.Although at that point he had only about 50 hours of flight time and no solo flights to his credit, Moussaoui began making inquiries about flight materials and simulator training for Boeing 747s. On July 10, he put down a $1,500 deposit for flight simulator training at Pan Am International Flight Academy in Eagan, Minnesota, and by the end of the month, he had received a simulator schedule to train from August 13 through August 20. Moussaoui also purchased two knives and inquired of two manufacturers of GPS equipment whether their products could be converted for aeronautical use—activities that closely resembled those of the 9/11 hijackers during their final preparations for the attacks.[^158]
 
 %%page 247%%
-
-August 13 through August 20. Moussaoui also purchased two knives and inquired of two manufacturers of GPS equipment whether their products could be converted for aeronautical use—activities that closely resembled those of the 9/11 hijackers during their final preparations for the attacks.[^158]
 
 On August 10, shortly after getting the money from Binalshibh, Moussaoui left Oklahoma with a friend and drove to Minnesota.Three days later, Moussaoui paid the $6,800 balance owed for his flight simulator training at Pan Am in cash and began his training. His conduct, however, raised the suspicions of his flight instructor. It was unusual for a student with so little training to be learning to fly large jets without any intention of obtaining a pilot's license or other goal. On August 16, once the instructor reported his suspicion to the authorities, Moussaoui was arrested by the INS on immigration charges.[^159]
 
@@ -4117,11 +4055,9 @@ In June 2000, Mihdhar left California and returned to Yemen. It is possible that
 
 By mid-May 2001, as the threat reports were surging, a CIA official detailed to the International Terrorism Operations Section at the FBI wondered where the attacks might occur.We will call him "John." Recalling the episode about the Kuala Lumpur travel of Mihdhar and his associates, "John" searched the CIA's databases for information regarding the travel. On May 15, he and an official at the CIA reexamined many of the old cables from early 2000, including the information that Mihdhar had a U.S. visa, and that Hazmi had come to Los Angeles on January 15, 2000.[^63]
 
-The CIA official who reviewed the cables took no action regarding them.
+The CIA official who reviewed the cables took no action regarding them. "John," however, began a lengthy exchange with a CIA analyst, whom we will call "Dave," to figure out what these cables meant. "John" was aware of how dangerous Khallad was—at one point calling him a "major league killer." He concluded that "something bad was definitely up." Despite the U.S. links evident in this traffic, "John" made no effort to determine whether any of these individuals was in the United States. He did not raise that possibility with his FBI counterpart. He was focused on Malaysia.[^64]
 
 %%page 268%%
-
-"John," however, began a lengthy exchange with a CIA analyst, whom we will call "Dave," to figure out what these cables meant. "John" was aware of how dangerous Khallad was—at one point calling him a "major league killer." He concluded that "something bad was definitely up." Despite the U.S. links evident in this traffic, "John" made no effort to determine whether any of these individuals was in the United States. He did not raise that possibility with his FBI counterpart. He was focused on Malaysia.[^64]
 
 "John" described the CIA as an agency that tended to play a "zone defense." He was worrying solely about Southeast Asia, not the United States. In contrast, he told us, the FBI tends to play "man-to-man."[^65]
 
@@ -4295,11 +4231,9 @@ The World Trade Center Complex as of 9/11 floor below the mezzanine. All three s
 
 Doors leading to the roof were locked. There was no rooftop evacuation plan. The roofs of both the North Tower and the South Tower were sloped and cluttered surfaces with radiation hazards, making them impractical for helicopter landings and as staging areas for civilians. Although the South Tower roof had a helipad, it did not meet 1994 Federal Aviation Administration guidelines.[^4]
 
-The 1993 Terrorist Bombing of the WTC and the Port Authority's Response. Unlike most of America, New York City and specifically the World
+The 1993 Terrorist Bombing of the WTC and the Port Authority's Response. Unlike most of America, New York City and specifically the World Trade Center had been the target of terrorist attacks before 9/11.At 12:18 P.M. on February 26, 1993, a 1,500-pound bomb stashed in a rental van was detonated on a parking garage ramp beneath the Twin Towers.The explosion killed six people, injured about 1,000 more, and exposed vulnerabilities in the World Trade Center's and the city's emergency preparedness.[^5]
 
 %%page 280%%
-
-Trade Center had been the target of terrorist attacks before 9/11.At 12:18 P.M. on February 26, 1993, a 1,500-pound bomb stashed in a rental van was detonated on a parking garage ramp beneath the Twin Towers.The explosion killed six people, injured about 1,000 more, and exposed vulnerabilities in the World Trade Center's and the city's emergency preparedness.[^5]
 
 The towers lost power and communications capability. Generators had to be shut down to ensure safety, and elevators stopped.The public-address system and emergency lighting systems failed. The unlit stairwells filled with smoke and were so dark as to be impassable. Rescue efforts by the Fire Department of New York (FDNY) were hampered by the inability of its radios to function in buildings as large as the Twin Towers.The 911 emergency call system was overwhelmed.The general evacuation of the towers' occupants via the stairwells took more than four hours.[^6]
 
@@ -4465,11 +4399,9 @@ At 8:50, the Aviation Unit of the NYPD dispatched two helicopters to the WTC to 
 
 At 8:56, an NYPD ESU team asked to be picked up at the Wall Street hel- iport to initiate rooftop rescues. At 8:58, however, after assessing the North Tower roof, a helicopter pilot advised the ESU team that they could not land on the roof, because "it is too engulfed in flames and heavy smoke condition."[^65]
 
-By 9:00, a third NYPD helicopter was responding to the WTC complex.
+By 9:00, a third NYPD helicopter was responding to the WTC complex. NYPD helicopters and ESU officers remained on the scene throughout the morning, prepared to commence rescue operations on the roof if conditions improved. Both FDNY and NYPD protocols called for FDNY personnel to be placed in NYPD helicopters in the event of an attempted rooftop rescue at a high-rise fire. No FDNY personnel were placed in NYPD helicopters on September 11.66
 
 %%page 292%%
-
-NYPD helicopters and ESU officers remained on the scene throughout the morning, prepared to commence rescue operations on the roof if conditions improved. Both FDNY and NYPD protocols called for FDNY personnel to be placed in NYPD helicopters in the event of an attempted rooftop rescue at a high-rise fire. No FDNY personnel were placed in NYPD helicopters on September 11.[^66]
 
 The 911 operators and FDNY dispatchers were not advised that rooftop rescues were not being undertaken.They thus were not able to communicate this fact to callers, some of whom spoke of attempting to climb to the roof.[^67]
 
@@ -4631,11 +4563,9 @@ Between 9:45 and 9:58, the ascending battalion chief continued to lead FDNY oper
 
 FDNY Command and Control Outside the Towers. The overall command post consisted of senior chiefs, commissioners, the field communications van (Field Comm), numerous units that began to arrive after the South Tower was hit, and EMS chiefs and personnel.[^130]
 
-Field Comm's two main functions were to relay information between the overall operations command post and FDNY dispatch and to track all units operating at the scene on a large magnetic board. Both of these missions were severely compromised by the magnitude of the disaster on September 11. First, the means of transmitting information were unreliable. For example, while FDNY dispatch advised Field Comm that 100 people were reported via 911 to be trapped on the 105th floor of the North Tower, and Field Comm then attempted to convey that report to chiefs at the outdoor command post, this information did not reach the North Tower lobby. Second, Field Comm's ability to keep track of which units were operating where was limited, because many units reported directly to the North Tower, the South Tower, or the Marriott.Third, efforts to track units by listening to tactical 1 were severely hampered by the number of units using that channel; as many people tried to speak at once, their transmissions overlapped and often became indecipherable. In the opinion of one of the members of the Field
+Field Comm's two main functions were to relay information between the overall operations command post and FDNY dispatch and to track all units operating at the scene on a large magnetic board. Both of these missions were severely compromised by the magnitude of the disaster on September 11. First, the means of transmitting information were unreliable. For example, while FDNY dispatch advised Field Comm that 100 people were reported via 911 to be trapped on the 105th floor of the North Tower, and Field Comm then attempted to convey that report to chiefs at the outdoor command post, this information did not reach the North Tower lobby. Second, Field Comm's ability to keep track of which units were operating where was limited, because many units reported directly to the North Tower, the South Tower, or the Marriott.Third, efforts to track units by listening to tactical 1 were severely hampered by the number of units using that channel; as many people tried to speak at once, their transmissions overlapped and often became indecipherable. In the opinion of one of the members of the Field Comm group, tactical 1 simply was not designed to handle the number of units operating on it that morning.[^131]
 
 %%page 302%%
-
-Comm group, tactical 1 simply was not designed to handle the number of units operating on it that morning.[^131]
 
 The primary Field Comm van had access to the NYPD's Special Operations channel (used by NYPD Aviation), but it was in the garage for repairs on September 11.The backup van lacked that capability.[^132]
 
@@ -4817,11 +4747,9 @@ While no emergency response is flawless, the response to the 9/11 terrorist atta
 
 Local, regional, state, and federal agencies immediately responded to the Pentagon attack. In addition to county fire, police, and sheriff 's departments, the response was assisted by the Metropolitan Washington Airports Authority, Ronald Reagan Washington National Airport Fire Department, Fort Myer Fire Department, the Virginia State Police, the Virginia Department of Emergency Management, the FBI, FEMA, a National Medical Response Team, the Bureau of Alcohol,Tobacco, and Firearms, and numerous military personnel within the Military District of Washington.[^194]
 
-Command was established at 9:41.At the same time, the Arlington County Emergency Communications Center contacted the fire departments of Fair- fax County, Alexandria, and the District of Columbia to request mutual aid.
+Command was established at 9:41.At the same time, the Arlington County Emergency Communications Center contacted the fire departments of Fair- fax County, Alexandria, and the District of Columbia to request mutual aid. The incident command post provided a clear view of and access to the crash site, allowing the incident commander to assess the situation at all times.[^195]
 
 %%page 315%%
-
-The incident command post provided a clear view of and access to the crash site, allowing the incident commander to assess the situation at all times.[^195]
 
 At 9:55, the incident commander ordered an evacuation of the Pentagon impact area because a partial collapse was imminent; it occurred at 9:57, and no first responder was injured.[^196]
 
@@ -5010,11 +4938,9 @@ Third, we believe that the FBI conducted a satisfactory screening of
 
 Saudi nationals who left the United States on charter flights.[^28] The
 
-Saudi government was advised of and agreed to the FBI's requirements that passengers be identified and checked against various databases before the flights departed.[^29] The Federal Aviation Administration representative working in the FBI operations center made sure that the
+Saudi government was advised of and agreed to the FBI's requirements that passengers be identified and checked against various databases before the flights departed.[^29] The Federal Aviation Administration representative working in the FBI operations center made sure that the FBI was aware of the flights of Saudi nationals and was able to screen the passengers before they were allowed to depart.[^30]
 
 %%page 330%%
-
-FBI was aware of the flights of Saudi nationals and was able to screen the passengers before they were allowed to depart.[^30]
 
 The FBI interviewed all persons of interest on these flights prior to their departures.They concluded that none of the passengers was connected to the 9/11 attacks and have since found no evidence to change that conclusion. Our own independent review of the Saudi nationals involved confirms that no one with known links to terrorism departed on these flights.[^31]
 
@@ -5212,11 +5138,9 @@ Yet these scenarios were slow to work their way into the thinking of aviation se
 
 In late 1998, reports came in of a possible al Qaeda plan to hijack a plane. One, a December 4 Presidential Daily Briefing for President Clinton (reprinted in chapter 4), brought the focus back to more traditional hostage taking; it reported Bin Ladin's involvement in planning a hijack operation to free prisoners such as the "Blind Sheikh," Omar Abdel Rahman. Had the contents of this PDB been brought to the attention of a wider group, including key members of Congress, it might have brought much more attention to the need for permanent changes in domestic airport and airline security procedures.[^13]
 
-Threat reports also mentioned the possibility of using an aircraft filled with explosives. The most prominent of these mentioned a possible plot to fly an explosives-laden aircraft into a U.S. city. This report, circulated in September 1998, originated from a source who had walked into an American consulate in East Asia. In August of the same year, the intelligence community had received information that a group of Libyans hoped to crash a plane into the
+Threat reports also mentioned the possibility of using an aircraft filled with explosives. The most prominent of these mentioned a possible plot to fly an explosives-laden aircraft into a U.S. city. This report, circulated in September 1998, originated from a source who had walked into an American consulate in East Asia. In August of the same year, the intelligence community had received information that a group of Libyans hoped to crash a plane into the World Trade Center. In neither case could the information be corroborated. In addition, an Algerian group hijacked an airliner in 1994, most likely intending to blow it up over Paris, but possibly to crash it into the Eiffel Tower.[^14]
 
 %%page 345%%
-
-World Trade Center. In neither case could the information be corroborated. In addition, an Algerian group hijacked an airliner in 1994, most likely intending to blow it up over Paris, but possibly to crash it into the Eiffel Tower.[^14]
 
 In 1994, a private airplane had crashed onto the south lawn of the White House. In early 1995,Abdul Hakim Murad—Ramzi Yousef 's accomplice in the Manila airlines bombing plot—told Philippine authorities that he and Yousef had discussed flying a plane into CIA headquarters.[^15]
 
@@ -5697,11 +5621,9 @@ Support for the United States has plummeted. Polls taken in Islamic countries af
 
 Many of these views are at best uninformed about the United States and, at worst, informed by cartoonish stereotypes, the coarse expression of a fash- ionable "Occidentalism" among intellectuals who caricature U.S. values and policies. Local newspapers and the few influential satellite broadcasters—like al Jazeera—often reinforce the jihadist theme that portrays the United States as anti-Muslim.[^25]
 
-The small percentage of Muslims who are fully committed to Usama Bin Ladin's version of Islam are impervious to persuasion. It is among the large majority of Arabs and Muslims that we must encourage reform, freedom, democracy, and opportunity, even though our own promotion of these messages is limited in its effectiveness simply because we are its carriers. Muslims themselves will have to reflect upon such basic issues as the concept of jihad, the position of women, and the place of non-Muslim minorities.The United
+The small percentage of Muslims who are fully committed to Usama Bin Ladin's version of Islam are impervious to persuasion. It is among the large majority of Arabs and Muslims that we must encourage reform, freedom, democracy, and opportunity, even though our own promotion of these messages is limited in its effectiveness simply because we are its carriers. Muslims themselves will have to reflect upon such basic issues as the concept of jihad, the position of women, and the place of non-Muslim minorities.The United States can promote moderation, but cannot ensure its ascendancy. Only Muslims can do this.
 
 %%page 376%%
-
-States can promote moderation, but cannot ensure its ascendancy. Only Muslims can do this.
 
 The setting is difficult.The combined gross domestic product of the 22 countries in the Arab League is less than the GDP of Spain. Forty percent of adult Arabs are illiterate, two-thirds of them women. One-third of the broader Middle East lives on less than two dollars a day. Less than 2 percent of the population has access to the Internet. The majority of older Arab youths have expressed a desire to emigrate to other countries, particularly those in Europe.[^26]
 
@@ -5759,11 +5681,9 @@ These new international efforts can create durable habits of visible cooperation
 
 Coalition warfare also requires coalition policies on what to do with enemy captives.Allegations that the United States abused prisoners in its custody make it harder to build the diplomatic, political, and military alliances the government will need. The United States should work with friends to develop mutually agreed-on principles for the detention and humane treatment of captured international terrorists who are not being held under a particular country's criminal laws. Countries such as Britain,Australia, and Muslim friends, are committed to fighting terrorists.America should be able to reconcile its views on how to balance humanity and security with our nation's commitment to these same goals.
 
-The United States and some of its allies do not accept the application of full Geneva Convention treatment of prisoners of war to captured terrorists.Those
+The United States and some of its allies do not accept the application of full Geneva Convention treatment of prisoners of war to captured terrorists.Those Conventions establish a minimum set of standards for prisoners in internal conflicts. Since the international struggle against Islamist terrorism is not internal, those provisions do not formally apply, but they are commonly accepted as basic standards for humane treatment.
 
 %%page 380%%
-
-Conventions establish a minimum set of standards for prisoners in internal conflicts. Since the international struggle against Islamist terrorism is not internal, those provisions do not formally apply, but they are commonly accepted as basic standards for humane treatment.
 
 Recommendation: The United States should engage its friends to develop a common coalition approach toward the detention and humane treatment of captured terrorists. New principles might draw upon Article 3 of the Geneva Conventions on the law of armed conflict. That article was specifically designed for those cases in which the usual laws of war did not apply. Its minimum standards are generally accepted throughout the world as customary international law.
 
@@ -5777,11 +5697,9 @@ A nuclear bomb can be built with a relatively small amount of nuclear material. 
 
 The coalition strategies we have discussed to combat Islamist terrorism should therefore be combined with a parallel, vital effort to prevent and counter the proliferation of weapons of mass destruction (WMD).We recommend several initiatives in this area.
 
-Strengthen Counterproliferation Efforts. While efforts to shut down Libya's illegal nuclear program have been generally successful, Pakistan's illicit trade and the nuclear smuggling networks of Pakistani scientist A.Q. Khan have revealed that the spread of nuclear weapons is a problem of global dimensions. Attempts to deal with Iran's nuclear program are still underway.Therefore, the
+Strengthen Counterproliferation Efforts. While efforts to shut down Libya's illegal nuclear program have been generally successful, Pakistan's illicit trade and the nuclear smuggling networks of Pakistani scientist A.Q. Khan have revealed that the spread of nuclear weapons is a problem of global dimensions. Attempts to deal with Iran's nuclear program are still underway.Therefore, the United States should work with the international community to develop laws and an international legal regime with universal jurisdiction to enable the capture, interdiction, and prosecution of such smugglers by any state in the world where they do not disclose their activities.
 
 %%page 381%%
-
-United States should work with the international community to develop laws and an international legal regime with universal jurisdiction to enable the capture, interdiction, and prosecution of such smugglers by any state in the world where they do not disclose their activities.
 
 Expand the Proliferation Security Initiative. In May 2003, the Bush administration announced the Proliferation Security Initiative (PSI): nations in a willing partnership combining their national capabilities to use military, economic, and diplomatic tools to interdict threatening shipments of WMD and missile-related technology.
 
@@ -5907,11 +5825,9 @@ So far, however, only visitors who acquire visas to travel to the United States 
 
 > through the United States to a third country, without having to obtain a U.S. visa, has been suspended. Because "transit without visa" can be exploited by terrorists to enter the United States, the program should not be reinstated unless and until transit passage areas can be fully secured to prevent passengers from illegally exiting the airport.
 
-Inspectors adjudicating entries of the 9/11 hijackers lacked adequate information and knowledge of the rules. All points in the border system—from consular offices to immigration services offices—will need appropriate electronic access to an individual's file. Scattered units at Homeland Security and the State
+Inspectors adjudicating entries of the 9/11 hijackers lacked adequate information and knowledge of the rules. All points in the border system—from consular offices to immigration services offices—will need appropriate electronic access to an individual's file. Scattered units at Homeland Security and the State Department perform screening and data mining: instead, a government-wide team of border and transportation officials should be working together.A modern border and immigration system should combine a biometric entry-exit system with accessible files on visitors and immigrants, along with intelligence on indicators of terrorist travel.
 
 %%page 389%%
-
-Department perform screening and data mining: instead, a government-wide team of border and transportation officials should be working together.A modern border and immigration system should combine a biometric entry-exit system with accessible files on visitors and immigrants, along with intelligence on indicators of terrorist travel.
 
 Our border screening system should check people efficiently and welcome friends. Admitting large numbers of students, scholars, businesspeople, and tourists fuels our economy, cultural vitality, and political reach. There is evidence that the present system is disrupting travel to the United States. Overall, visa applications in 2003 were down over 32 percent since 2001. In the Middle East, they declined about 46 percent.Training and the design of security measures should be continuously adjusted.[^38]
 
@@ -6632,11 +6548,9 @@ Abdullah bin Abdul Aziz Crown Prince and de facto regent of Saudi Arabia, 1995�
 
 Intelligence Directorate, 1999–2001 Mohammed Farrah Somali warlord who challenged U.S. presence in
 
-Aidid Somalia in the early 1990s (deceased)
+Aidid Somalia in the early 1990s (deceased) Ali Abdul Aziz Ali (a.k.a.Ammar al Baluchi) Pakistani; KSM's nephew;
 
 %%page 434%%
-
-Ali Abdul Aziz Ali (a.k.a.Ammar al Baluchi) Pakistani; KSM's nephew;
 
 financial and travel facilitator for 9/11 plot Ahmad Khalil Ibrahim Iraqi intelligence officer who allegedly met with
 
@@ -6850,11 +6764,9 @@ Central Intelligence Agency
 
 Borders,Transportation, and Managing Risk Hart Senate Office Building,Washington, D.C. January 26–27, 2004 The Border Security System Prior to September 11 Mary A. Ryan, former Assistant Secretary for Consular Affairs, Department of State Doris Meissner, former Commissioner, Immigration and Naturalization Service, Department of Justice An Incident in Florida Jose E. Melendez-Perez, Inspector, Customs and Border Protection,
 
-Department of Homeland Security Visas and Watchlisting Today Maura Harty,Assistant Secretary for Consular Affairs, Department of State Russell E.Travers, Deputy Director, Information Sharing and Knowledge
+Department of Homeland Security Visas and Watchlisting Today Maura Harty,Assistant Secretary for Consular Affairs, Department of State Russell E.Travers, Deputy Director, Information Sharing and Knowledge Management Department,Terrorist Threat Integration Center, Central Intelligence Agency Donna A. Bucella, Director,Terrorist Screening Center, Federal Bureau of Investigation The Response to September 11 on the Borders James Ziglar, former Commissioner, Immigration and Naturalization Service,
 
 %%page 444%%
-
-Management Department,Terrorist Threat Integration Center, Central Intelligence Agency Donna A. Bucella, Director,Terrorist Screening Center, Federal Bureau of Investigation The Response to September 11 on the Borders James Ziglar, former Commissioner, Immigration and Naturalization Service,
 
 Department of Justice Robert C. Bonner, Commissioner, Customs and Border Protection,
 

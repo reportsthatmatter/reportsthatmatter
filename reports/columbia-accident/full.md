@@ -692,11 +692,9 @@ The Launch Readiness Review is conducted within one month of the launch to certi
 
 A Flight Readiness Review, which is chaired by the Office of Space Flight Associate Administrator, usually occurs about two weeks before launch and provides senior NASA management with a summary of the certification and verification of the Space Shuttle vehicle, flight crew, payloads, and rationales for accepting residual risk. In cases where the Flight Preparation Process has not been successfully completed, Certification of Flight Readiness exceptions will be made, and presented at the Pre-Launch Mission Management Team Review for disposition. The final Flight Readiness Review for STS-107 was held on January 9, 2003, a week prior to launch. Representatives of all organizations except Flight Crew, Ferry Readiness, and Department of Defense Space Shuttle Support made presentations. Safety, Reliability & Quality Assurance summarized the work performed on the Ball Strut Tie Rod Assembly crack, defective booster connector pin, booster separation motor propellant paint chip contamination, and STS-113 Main Engine 1 nozzle leak (see Appendix E.1 for the briefing charts). None of the work performed on these items affected the launch.
 
-Certificate of Flight Readiness: No actions were assigned during the Flight Readiness Review. One exception was included in the Certificate of Flight Readiness pending the completion of testing on the Ball Strut Tie Rod Assembly.
+Certificate of Flight Readiness: No actions were assigned during the Flight Readiness Review. One exception was included in the Certificate of Flight Readiness pending the completion of testing on the Ball Strut Tie Rod Assembly. Testing was to be completed on January 15. This exception was to be closed with final flight rationale at the STS-107 Pre-launch Mission Management Team meeting. All principal managers and organizations indicated their readiness to support the mission.
 
 %%page 32%%
-
-Testing was to be completed on January 15. This exception was to be closed with final flight rationale at the STS-107 Pre-launch Mission Management Team meeting. All principal managers and organizations indicated their readiness to support the mission.
 
 Normally, a Mission Management Team – consisting of managers from Engineering, System Integration, the Space Flight Operations Contract Office, the Shuttle Safety Office, and the Johnson Space Center directors of flight crew operations, mission operations, and space and life sciences – convenes two days before launch and is maintained until the Orbiter safely lands. The Mission Management Team Chair reports directly to the Shuttle Program Manager.
 
@@ -3431,11 +3429,9 @@ The Challenger accident had profound effects on the U.S. space program. On Augus
 - "The Commission found that Marshall Space Flight Center project managers, because of a tendency at Marshall to management isolation, failed to provide full and timely information bearing on the safety of flight 51-L [the Challenger mission] to other vital elements of Shuttle program management … NASA should take energetic steps to eliminate this tendency at Marshall Space Flight Center, whether by changes of personnel, organization, indoctrination or all three."
 - "The nationʼs reliance on the Shuttle as its principal space launch capability created a relentless pressure on NASA to increase the flight rate … NASA must establish a flight rate that is consistent with its resources."5 disaster cost the country $12 billion, which included the cost of building the replacement Orbiter Endeavour.7
 
-It took NASA 32 months after the Challenger accident to redesign and requalify the Solid Rocket Booster and to return the Shuttle to flight. The first post-accident flight was launched on September 29, 1988. As the Shuttle returned to flight, NASA Associate Administrator for Space Flight
+It took NASA 32 months after the Challenger accident to redesign and requalify the Solid Rocket Booster and to return the Shuttle to flight. The first post-accident flight was launched on September 29, 1988. As the Shuttle returned to flight, NASA Associate Administrator for Space Flight Richard Truly commented, "We will always have to treat it [the Shuttle] like an R&D test program, even many years into the future. I donʼt think calling it operational fooled anybody within the program … It was a signal to the public that shouldnʼt have been sent."8
 
 %%page 101%%
-
-Richard Truly commented, "We will always have to treat it [the Shuttle] like an R&D test program, even many years into the future. I donʼt think calling it operational fooled anybody within the program … It was a signal to the public that shouldnʼt have been sent."8
 
 The Shuttle Program After Return to Flight
 
@@ -4802,11 +4798,9 @@ Figure 6.1-7. The Board identified 14 flights that had significant Thermal Prote
 
 and attention to tile damage assessments varies with severity tank to the intertank. An In-Flight Anomaly was assigned and that detailed records could be augmented to ease trend to the External Tank Project, which closed it by stating that maintenance" (emphasis added).22 In other words, Space there was no increase in Orbiter Thermal Protection System Shuttle Program personnel knew that the monitoring of damage and that it was "not a safety-of-flight concern."24 tile damage was inadequate and that clear trends could be The Board notes that it was in a discussion at the STS-36 more readily identified if monitoring was improved, but no Flight Readiness Review that NASA first identified this such improvements were made. The Board also noted that problem as a turnaround issue.25 Per established procedures, an STS-27R investigation team recommendation correlated NASA was still designating foam-loss events as In-Flight to the Columbia accident 14 years later: "It is recommended Anomalies and continued to make various corrective ac- that the program actively solicit design improvements ditions, such as drilling more vent holes and improving the rected toward eliminating debris sources or minimizing foam application process. damage potential."23
 
-Discovery was launched on STS-42 on January 22, 1992. A Another instance of non-bipod foam damage occurred on total of 159 hits on the Orbiter Thermal Protection System STS-35. Post-flight inspections of Columbia after STS-35 in were noted after landing. Two 8- to 12-inch-diameter div- December 1990, showed a higher-than-average amount of ots in the External Tank intertank area were noted during damage on the Orbiterʼs lower surface. A review of External post-External Tank separation photo evaluation, and these Tank separation film revealed approximately 10 areas of pieces of foam were identified as the most probable sources missing foam on the flange connecting the liquid hydrogen of the damage. The External Tank Project was assigned an
+Discovery was launched on STS-42 on January 22, 1992. A Another instance of non-bipod foam damage occurred on total of 159 hits on the Orbiter Thermal Protection System STS-35. Post-flight inspections of Columbia after STS-35 in were noted after landing. Two 8- to 12-inch-diameter div- December 1990, showed a higher-than-average amount of ots in the External Tank intertank area were noted during damage on the Orbiterʼs lower surface. A review of External post-External Tank separation photo evaluation, and these Tank separation film revealed approximately 10 areas of pieces of foam were identified as the most probable sources missing foam on the flange connecting the liquid hydrogen of the damage. The External Tank Project was assigned an In-Flight Anomaly, and the incident was later described as an unexplained or isolated event. However, at later Flight Readiness Reviews, the Marshall Space Flight Center briefed this as being "not a safety-of-flight" concern.26 The next flight, STS-45, would be the first mission launched before the foam-loss In-Flight Anomaly was closed.
 
 %%page 129%%
-
-In-Flight Anomaly, and the incident was later described as an unexplained or isolated event. However, at later Flight Readiness Reviews, the Marshall Space Flight Center briefed this as being "not a safety-of-flight" concern.26 The next flight, STS-45, would be the first mission launched before the foam-loss In-Flight Anomaly was closed.
 
 On March 24, 1992, Atlantis was launched on STS-45. Post-mission inspection revealed exposed substrate on the upper surface of right wing leading edge Reinforced Carbon-Carbon (RCC) panel 10 caused by two gouges, one 1.9 inches by 1.6 inches and the other 0.4 inches by 1 inch.27 Before the next flight, an In-Flight Anomaly assigned to the Orbiter Project was closed as "unexplained," but "most likely orbital debris."28 Despite this closure, the Safety and Mission Assurance Office expressed concern as late as the pre-launch Mission Management Team meeting two days before the launch of STS-49. Nevertheless, the mission was cleared for launch. Later laboratory tests identified pieces of man-made debris lodged in the RCC, including stainless steel, aluminum, and titanium, but no conclusion was made about the source of the debris. (The Board notes that this indicates there were transport mechanisms available to determine the path the debris took to impact the wing leading edge. See Section 3.4.)
 
@@ -7221,11 +7215,9 @@ This chapter shows that both accidents were "failures of foresight" in which his
 
 Connecting the parts of NASAʼs organizational system and drawing the parallels with Challenger demonstrate three things. First, despite all the post-Challenger changes at NASA and the agencyʼs notable achievements since, the causes of the institutional failure responsible for Challenger have not been fixed. Second, the Board strongly believes that if these persistent, systemic flaws are not resolved, the scene is set for another accident. Therefore, the recommendations for change are not only for fixing the Shuttleʼs technical system, but also for fixing each part of the organizational system that produced Columbiaʼs failure. Third, the Boardʼs focus on the context in which decision making occurred does not mean that individuals are not responsible and accountable. To the contrary, individuals always must assume responsibility for their actions. What it does mean is that NASAʼs problems cannot be solved simply by retirements, resignations, or transferring personnel.2
 
-The constraints under which the agency has operated throughout the Shuttle Program have contributed to both
+The constraints under which the agency has operated throughout the Shuttle Program have contributed to both Shuttle accidents. Although NASA leaders have played an important role, these constraints were not entirely of NASAʼs own making. The White House and Congress must recognize the role of their decisions in this accident and take responsibility for safety in the future.
 
 %%page 196%%
-
-Shuttle accidents. Although NASA leaders have played an important role, these constraints were not entirely of NASAʼs own making. The White House and Congress must recognize the role of their decisions in this accident and take responsibility for safety in the future.
 
 ## 8.2 Failures of Foresight: Two Decision Histories and the Normalization of Deviance
 
@@ -8766,11 +8758,9 @@ Press Conference/Hearing Support Federal Network, Inc. Press Conference/Hearing 
 
 International Corporation Information Technology NASA Dryden Flight Research Center Information Technology NASA Dryden Flight Research Center Recorder Westover and Associates, Inc. Scheduler Blackhawk Software Support GroupSystems.com, Inc. Software Support GroupSystems.com, Inc. Software Support GroupSystems.com, Inc. Director U.S. Department of Justice,
 
-Office of Litigation Support Information Technology Lead Aspen Systems Corporation Database Administrator Aspen Systems Corporation
+Office of Litigation Support Information Technology Lead Aspen Systems Corporation Database Administrator Aspen Systems Corporation Jennifer L. Bukvics Lead Project Manager Bethany C. Frye Paralegal Donna J. Fudge Senior Paralegal, Group II Coordinator Elizabeth G. Henderson Case Manager
 
 %%page 247%%
-
-Jennifer L. Bukvics Lead Project Manager Bethany C. Frye Paralegal Donna J. Fudge Senior Paralegal, Group II Coordinator Elizabeth G. Henderson Case Manager
 
 Ronald K. Hourihane Network Administrator Kenneth B. Hulsey Senior Paralegal, IAT Coordinator
 
