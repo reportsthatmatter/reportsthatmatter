@@ -96,7 +96,7 @@ reports:
     ingested: true
 
   - id: us-lehman-examiner
-    title: "Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings Inc., et al. — Volume 1"
+    title: "Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings Inc., et al. — Volumes 1 and 3"
     authors: "Anton R. Valukas, Examiner (Jenner & Block LLP)"
     published_at: "11 March 2010"
     source_path: reports/us-lehman-examiner/full.md
