@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "node scripts/prerender-stamp.mjs && tsc --noEmit",
     "verify": "./scripts/verify.sh",
     "ingest": "tsx scripts/ingest/cli.ts",
     "dev": "wrangler dev --local",
@@ -13,6 +13,7 @@
     "posts": "tsx scripts/posts.mjs",
     "seed-highlights": "node scripts/seed-highlights.mjs",
     "paragraphs": "tsx scripts/paragraphs.mjs",
+    "bootstrap": "CI=true pnpm install && pnpm prerender",
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",

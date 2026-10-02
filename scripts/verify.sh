@@ -77,7 +77,9 @@ step "Pre-render"
 # here, always, is what makes that safe: a markdown or template edit with no
 # matching `pnpm prerender` run would otherwise pass every check below
 # against stale output.
-if pnpm prerender >"${RUN_DIR}/prerender.log" 2>&1; then
+# The stamp check afterwards (reportsthatmatter-ue9) proves the output matches
+# its inputs, the same test corpus/quality check and vitest apply on their own.
+if pnpm prerender >"${RUN_DIR}/prerender.log" 2>&1 && node scripts/prerender-stamp.mjs >>"${RUN_DIR}/prerender.log" 2>&1; then
   pass "assets/generated/ is current"
 else
   fail "pnpm prerender"

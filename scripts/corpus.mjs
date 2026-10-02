@@ -30,6 +30,7 @@ import { createHash } from "node:crypto";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { extractPassages } from "@rtm/ingest";
+import { assertFresh } from "./prerender-stamp.mjs";
 import { paragraphDensityCheck, MIN_PARAGRAPH_IDS_PER_1000_WORDS } from "../src/lib/density.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -147,6 +148,7 @@ if (!existsSync(BASELINE)) {
   process.exit(1);
 }
 
+assertFresh("pnpm corpus check");
 const baseline = JSON.parse(readFileSync(BASELINE, "utf8")).reports;
 const corpus = currentCorpus();
 let failed = 0;

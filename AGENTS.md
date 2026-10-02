@@ -68,6 +68,8 @@ Typecheck, unit tests, ingestion fidelity, HTTP assertions against a live
 worker, then browser checks (layout, measure, overflow, permalinks, the share
 popover, console errors). **A change is not finished until this exits 0.**
 
+A fresh checkout or worktree needs `pnpm bootstrap` first (`CI=true pnpm install`, then `pnpm prerender`). Several checks read `assets/generated/`, which is gitignored build output. `pnpm prerender` stamps it with a hash of its inputs (every `reports/*/full.md` and `PROCESSING.md`, the registry, the `@rtm/ingest` pin and installed copy, `scripts/prerender.mjs`); `pnpm corpus check`, `pnpm quality check`, `pnpm typecheck` and `pnpm test` refuse with "Run: pnpm prerender" when the stamp no longer matches, rather than passing against stale output. `verify.sh` re-runs prerender itself. (`pnpm setup` is a pnpm built-in, which is why the script is called `bootstrap`.)
+
 ```bash
 ./scripts/init.sh                                    # cold start, then verify
 VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh   # against production
@@ -161,6 +163,8 @@ an interactive session.
   re-run `pnpm ingest check`. That friction is the point — it is what makes a
   report adopt an improvement knowingly instead of having it arrive
   unannounced, which is how one fix silently changed three reports.
+  The step-by-step for releasing and linking an unreleased ingest is
+  [`scripts/ingest/README.md`](scripts/ingest/README.md), "Changing the library".
   **Every ingest release or pin-bump PR carries its quality numbers**: the
   integrator runs `pnpm quality report --diff origin/main` after the re-ingest
   and pastes the table into the PR body (every regression needs a bead; every
