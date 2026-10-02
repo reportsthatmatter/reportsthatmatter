@@ -2461,8 +2461,8 @@
       ]
     },
     "us-v-philip-morris": {
-      "words": 490576,
-      "paragraphs": 6107,
+      "words": 489754,
+      "paragraphs": 6110,
       "sections": [
         {
           "slug": "united-states-district-court-for-the-district-of-columbia",
@@ -2983,8 +2983,8 @@
         {
           "slug": "introduction-2",
           "title": "Introduction",
-          "paragraphs": 6,
-          "ids": "350f5a68d263"
+          "paragraphs": 7,
+          "ids": "4c4c42d24b1e"
         },
         {
           "slug": "defendants-engaged-in-a-scheme-to-defraud-smokers-and-potential-smokers",
@@ -3091,8 +3091,8 @@
         {
           "slug": "defendants-engaged-in-a-pattern-of-racketeering-activity-in-furtherance-of-the-s",
           "title": "Defendants Engaged in a Pattern of Racketeering Activity in Furtherance of the Scheme to Defraud",
-          "paragraphs": 16,
-          "ids": "bc6ad9cceea4"
+          "paragraphs": 17,
+          "ids": "1244fc854efe"
         },
         {
           "slug": "defendants-acted-with-the-specific-intent-to-defraud-or-deceive",
@@ -3103,8 +3103,8 @@
         {
           "slug": "defendants-false-and-fraudulent-statements-representations-and-promises-were-mat",
           "title": "Defendants' False and Fraudulent Statements, Representations, and Promises Were Material",
-          "paragraphs": 17,
-          "ids": "63f8e52c8e3e"
+          "paragraphs": 18,
+          "ids": "eb2ee2b7d301"
         },
         {
           "slug": "applicable-case-law",
@@ -3158,7 +3158,7 @@
           "slug": "legal-standards-governing-remedies",
           "title": "Legal Standards Governing Remedies",
           "paragraphs": 15,
-          "ids": "e30b07b982d4"
+          "ids": "47ce6f411907"
         },
         {
           "slug": "prohibition-of-brand-descriptors",
