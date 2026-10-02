@@ -107,9 +107,7 @@ VOLUME II
 
 - Chapter 10: The five sectors — 1
 
-Sector 1: Military Dispositions, the Civil Rights March and Events
-
-- in William Street — 3
+- Sector 1: Military Dispositions, the Civil Rights March and Events in William Street — 3
 
 - Chapter 11: The layout of this part of the city — 7
 
@@ -205,9 +203,7 @@ Chapter 45: The situation in the Eden Place waste ground and the car park of the
 
 - Chapter 49: The question of gunfire directed at the soldiers — 277
 
-Chapter 50: The question of low velocity gunfire directed at Major Loden
-
-- and others — 305
+- Chapter 50: The question of low velocity gunfire directed at Major Loden and others — 305
 
 - Chapter 51: Firing by the soldiers in Sector 2 — 340
 
@@ -217,9 +213,7 @@ Chapter 52: Summary of the shots and targets claimed by the soldiers of
 
 - Chapter 53: Summary of the firing soldiers' evidence of incoming fire — 490
 
-Chapter 54: General summary and consideration of the evidence of the soldiers
-
-- of Mortar Platoon in Sector 2 — 497
+- Chapter 54: General summary and consideration of the evidence of the soldiers of Mortar Platoon in Sector 2 — 497
 
 VOLUME IV Sector 2: The Launch of the Arrest Operation and Events in the Area
 
@@ -243,9 +237,7 @@ VOLUME IV Sector 2: The Launch of the Arrest Operation and Events in the Area
 
 - Chapter 62: The shooting posture of the soldiers who fired in Sector 2 — 210
 
-Chapter 63: Civilian evidence relating to the position on the ground of the
-
-- soldiers who shot those hit by gunfire — 220
+- Chapter 63: Civilian evidence relating to the position on the ground of the soldiers who shot those hit by gunfire — 220
 
 - Chapter 64: The soldiers responsible for the Sector 2 casualties — 249
 
@@ -263,9 +255,7 @@ VOLUME V
 
 - Chapter 69: The movement of the soldiers — 33
 
-Chapter 70: The actions of civilians in Rossville Street on and after the arrival
-
-- of the Army vehicles — 60
+- Chapter 70: The actions of civilians in Rossville Street on and after the arrival of the Army vehicles — 60
 
 - Chapter 71: Rioters coming from the Columbcille Court alleyway — 69
 
@@ -321,9 +311,7 @@ VOLUME VI
 
 - Chapter 91: The layout of this part of the city — 12
 
-Chapter 92: Civilian evidence of the situation immediately before and as soldiers
-
-- entered Glenfada Park North — 18
+- Chapter 92: Civilian evidence of the situation immediately before and as soldiers entered Glenfada Park North — 18
 
 - Chapter 93: The movement of soldiers into Glenfada Park North — 32
 
@@ -331,9 +319,7 @@ Chapter 92: Civilian evidence of the situation immediately before and as soldier
 
 %%page 7%%
 
-Chapter 95: The arrival of Corporal E, Lance Corporal F, Private G and Private H
-
-- in Glenfada Park North — 61
+- Chapter 95: The arrival of Corporal E, Lance Corporal F, Private G and Private H in Glenfada Park North — 61
 
 - Chapter 96: The movements and actions of other members of Anti-Tank Platoon — 63
 
@@ -345,9 +331,7 @@ Chapter 95: The arrival of Corporal E, Lance Corporal F, Private G and Private H
 
 - Chapter 100: Consideration of the soldiers' evidence — 105
 
-Chapter 101: Civilian evidence of the situation in Glenfada Park North as the
-
-- soldiers arrived and opened fire — 112
+- Chapter 101: Civilian evidence of the situation in Glenfada Park North as the soldiers arrived and opened fire — 112
 
 - Chapter 102: Civilian evidence of soldiers firing in Glenfada Park North — 145
 
@@ -383,9 +367,7 @@ VOLUME VII Sector 5: Events in the Area South of the Rossville Flats 1
 
 - Chapter 116: The layout of this part of the city — 5
 
-Chapter 117: The movement of people through the gap between Blocks 2 and 3
-
-- of the Rossville Flats — 30
+- Chapter 117: The movement of people through the gap between Blocks 2 and 3 of the Rossville Flats — 30
 
 - Chapter 118: The casualties in Sector 5 — 50
 
@@ -427,9 +409,7 @@ Chapter 132: The arrival of Corporal 150 and Gerald Donaghey at the Regimental
 
 - Aid Post — 568
 
-Chapter 133: Events after the arrival of Corporal 150 and Gerald Donaghey at
-
-- the Regimental Aid Post — 570
+- Chapter 133: Events after the arrival of Corporal 150 and Gerald Donaghey at the Regimental Aid Post — 570
 
 - Chapter 134: Evidence from Royal Ulster Constabulary officers — 579
 
@@ -493,9 +473,7 @@ Chapter 160: The treatment of the arrestees escorted to Fort George by the
 
 - Provost Detachment — 399
 
-Chapter 161: The treatment of the arrestees escorted to Fort George by members
-
-- of C Company — 453
+- Chapter 161: The treatment of the arrestees escorted to Fort George by members of C Company — 453
 
 - Chapter 162: Identification of arrestees by soldiers at Fort George — 465
 
@@ -557,9 +535,7 @@ Army and Police Communications 147
 
 - Chapter 185: The Army monitoring of radio nets on 30th January 1972 — 166
 
-Chapter 186: Civilian monitoring of Army and Royal Ulster Constabulary radio
-
-- transmissions on 30th January 1972 — 176
+- Chapter 186: Civilian monitoring of Army and Royal Ulster Constabulary radio transmissions on 30th January 1972 — 176
 
 - Chapter 187: Call signs — 181
 
@@ -595,9 +571,7 @@ VOLUME X
 
 - A1.2: Representation before the Inquiry — 27
 
-Appendix 2: Opening Statement, Principal Rulings of the Tribunal
-
-- and the Decisions of Various Courts — 37
+- Appendix 2: Opening Statement, Principal Rulings of the Tribunal and the Decisions of Various Courts — 37
 
 - Bibliography — 539
 
@@ -929,9 +903,7 @@ Page
 
 - The arrest of civilians — 3.120
 
-Chapter 4: The question of responsibility for the deaths
-
-- and injuries on Bloody Sunday — 90
+- Chapter 4: The question of responsibility for the deaths and injuries on Bloody Sunday — 90
 
 - The United Kingdom and Northern Ireland Governments and the Army — 4.2
 
@@ -5889,11 +5861,9 @@ Mr. Faulkner recognised that the civil disobedience parades in the coming weeken
 
 Mr. Faulkner said that the I.R.A. campaign was going through a very dirty phase at present, with attacks on policemen. He referred to the eight men who had recently been taken into custody by the Republican police, but had subsequently been released, although they were apparently carrying guns.
 
-Reverting to the situation of internment and the possibility of reducing it, Mr. Faulkner said that of 700 interned or detained, 240 were officers of the provisional I.R.A and 90 were officers of the official I.R.A. He thought that there were probably about 200 'volunteers' in detention who could be among the first to be considered for release. There were probably about 200 wanted men on the run in the Republic. It was not
+Reverting to the situation of internment and the possibility of reducing it, Mr. Faulkner said that of 700 interned or detained, 240 were officers of the provisional I.R.A and 90 were officers of the official I.R.A. He thought that there were probably about 200 'volunteers' in detention who could be among the first to be considered for release. There were probably about 200 wanted men on the run in the Republic. It was not generally appreciated that since internment, about 200 men had been arrested on arms and explosive charges and had been convicted. This showed that the authorities were not relying only upon internment.
 
 %%page 398%%
-
-> generally appreciated that since internment, about 200 men had been arrested on arms and explosive charges and had been convicted. This showed that the authorities were not relying only upon internment.
 
 > The Prime Minister thanked Mr. Faulkner for coming and said that he would look forward to a general discussion with him later about possible political moves.
 
@@ -6647,11 +6617,9 @@ Shooting was the very last thing that was in anybody's mind."
 
 40. Immediately after the O Group, I asked Brigadier MacLellan if I could speak with him in his office. There was no-one else present and the meeting lasted a few minutes. I told him that 1 Para should not be used in Londonderry: they did not know the area and would go in blind. I said that I should be given the role of 1 Para and they could take over the blocking role allocated to 1R ANGLIAN and that this would be more acceptable all round. (As the Province Reserve battalion, the Paras had operated in all areas of the Province other than Londonderry. From my understanding, they seldom operated for any length of time as we resident battalions in Londonderry … Derry and Belfast were as different as chalk and cheese, and our job in Derry at the time was to maintain a containment line, albeit in an aggressive manner, which was so different to the role required of units in Belfast).
 
-41. Brigadier MacLellan told me that the decision to employ 1 Para had been made 'at the highest level' and he was not in a position to change anything. He said 'it was not for me to fight the case'. He gave me the strong impression that it was not his decision to use 1 Para for this operation. I understood his reference to 'the highest level' to mean that the decision had been taken at Government level as, in my opinion, no
+41. Brigadier MacLellan told me that the decision to employ 1 Para had been made 'at the highest level' and he was not in a position to change anything. He said 'it was not for me to fight the case'. He gave me the strong impression that it was not his decision to use 1 Para for this operation. I understood his reference to 'the highest level' to mean that the decision had been taken at Government level as, in my opinion, no military commander would place a battalion in a situation where the troops did not know the ground over which they may be required to deploy nor have knowledge of any local 'conditions'.
 
 %%page 446%%
-
-> military commander would place a battalion in a situation where the troops did not know the ground over which they may be required to deploy nor have knowledge of any local 'conditions'.
 
 > 42. Brigadier MacLellan was obviously in a no win situation. With his short experience of operations in Londonderry he had, in my opinion, been sat upon by those, also, with little knowledge of Londonderry. I asked that my views should be relayed immediately to HQ Northern Ireland. I do not know if this was ever done. After I left this meeting, I also spoke with the Brigade Major and told him of my conversation with Brigadier MacLellan. He sympathised but said nothing could be done to change the orders. I asked Lieutenant Colonel Steele to contact Lieutenant Colonel Wilford to say I would be available for any information or advice he may need for his operation. I do not know if Lieutenant Colonel Steele ever relayed my offer, but Lieutenant Colonel Wilford did not contact me before, on, or after 30 January 1972."
 

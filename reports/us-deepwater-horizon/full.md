@@ -7,9 +7,11 @@ pages: 386
 footnotes: 794
 ---
 
-i i
+%%page i%%
 
-Dedication This report is dedicated to the 11 men who lost their lives on the Deepwater Horizon rig on April 20, 2010 and to their families, in hope that this report will help minimize the chance of another such disaster ever happening again. Jason Anderson Aaron Dale Burkeen Donald Clark Stephen Curtis Gordon Jones Roy Wyatt Kemp Karl Dale Kleppinger, Jr. Blair Manuel Dewey Revette Shane Roshto Adam Weise ii
+Dedication This report is dedicated to the 11 men who lost their lives on the Deepwater Horizon rig on April 20, 2010 and to their families, in hope that this report will help minimize the chance of another such disaster ever happening again. Jason Anderson Aaron Dale Burkeen Donald Clark Stephen Curtis Gordon Jones Roy Wyatt Kemp Karl Dale Kleppinger, Jr. Blair Manuel Dewey Revette Shane Roshto Adam Weise
+
+%%page ii%%
 
 Acknowledgements We wish to acknowledge the many individuals and organizations, government officials and agencies alike that offered their views and insights to the Commission. We would especially like to express our gratitude to the Coast Guard's Incident Specific Preparedness Review (ISPR) for allowing Commission staff to participate in its interviews and discussions, which was invaluable to the preparation of this report. (A copy of the Coast Guard's ISPR report can be found at the Commission's website at www.oilspillcommission. gov). We would also like to thank Chevron for performing the cement tests that proved so critical to our investigation into the Macondo well blowout.
 
@@ -25,9 +27,19 @@ This report contains links to many Web sites. Once you access another site throu
 
 Cover Photo: © Steadfast TV
 
-ISBN: 978-0-16-087371-3 iii iii
+ISBN: 978-0-16-087371-3
 
-Deep Water The Gulf Oil Disaster and the Future of Offshore Drilling Report to the President National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling January 2011 iv
+%%page iii%%
+
+Deep Water The Gulf Oil Disaster and the Future of Offshore Drilling
+
+Report to the President
+
+National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling
+
+January 2011
+
+%%page iv%%
 
 Commission Members
 
@@ -43,7 +55,9 @@ Terry D. Garcia
 
 Cherry A. Murray
 
-Fran Ulmer v v
+Fran Ulmer
+
+%%page v%%
 
 Table of Contents Foreword vi
 
@@ -115,7 +129,7 @@ Appendices
 
 - Index — 368
 
-vi
+%%page vi%%
 
 Photo: Susan Walsh, Associated Press
 
@@ -129,7 +143,7 @@ On May 22, 2010, President Barack Obama announced the creation of the National C
 
 This report is the result of an intense six-month effort to fulfill the President's charge.
 
-vii vii
+%%page vii%%
 
 From the outset, the Commissioners have been determined to learn the essential lessons so expensively revealed in the tragic loss of life at the Deepwater Horizon and the severe damages that ensued. The Commission's aim has been to provide the President, policymakers, industry, and the American people a clear, accessible, accurate, and fair account of the largest oil spill in U.S history: the context for the well itself, how the explosion and spill happened, and how industry and government scrambled to respond to an unprecedented emergency. This was our first obligation: determine what happened, why it happened, and explain it to Americans everywhere.
 
@@ -141,7 +155,9 @@ As a result of our investigation, we conclude:
 - To assure human safety and environmental protection, regulatory oversight of leasing, energy exploration, and production require reforms even beyond those significant reforms already initiated since the Deepwater Horizon disaster. Fundamental reform will be needed in both the structure of those in charge of regulatory oversight and their internal decisionmaking process to ensure their political autonomy, technical expertise, and their full consideration of environmental protection concerns.
 - Because regulatory oversight alone will not be sufficient to ensure adequate safety, the oil and gas industry will need to take its own, unilateral steps to increase dramatically safety throughout the industry, including self-policing mechanisms that supplement governmental enforcement.
 - The technology, laws and regulations, and practices for containing, responding to, and cleaning up spills lag behind the real risks associated with deepwater drilling into large, high-pressure reservoirs of oil and gas located far offshore and thousands of feet below the ocean's surface. Government must close the existing gap and industry must support rather than resist that effort.
-- Scientific understanding of environmental conditions in sensitive environments in deep Gulf waters, along the region's coastal habitats, and in areas proposed for more drilling, such as the Arctic, is inadequate. The same is true of the human and natural impacts of oil spills. viii
+- Scientific understanding of environmental conditions in sensitive environments in deep Gulf waters, along the region's coastal habitats, and in areas proposed for more drilling, such as the Arctic, is inadequate. The same is true of the human and natural impacts of oil spills.
+
+%%page viii%%
 
 We reach these conclusions, and make necessary recommendations, in a constructive spirit: we aim to promote changes that will make American offshore energy exploration and production far safer, today and in the future.
 
@@ -153,7 +169,7 @@ Why was a corporation drilling for oil in mile-deep water 49 miles off the Louis
 
 Even as land-based oil production extended as far as the northern Alaska frontier, the oil and gas industry began to move offshore. The industry first moved into shallow water and eventually into deepwater, where technological advances have opened up vast new reserves of oil and gas in remote areas—in recent decades, much deeper under the water's surface and farther offshore than ever before. The Deepwater Horizon was drilling the Macondo well under 5,000 feet of Gulf water, and then over 13,000 feet under the sea floor to the hydrocarbon reservoir below. It is a complex, even dazzling, enterprise. The remarkable advances that have propelled the move to deepwater drilling merit comparison with exploring outer space. The Commission is respectful and admiring of the industry's technological capability.
 
-ix ix
+%%page ix%%
 
 But drilling in deepwater brings new risks, not yet completely addressed by the reviews of where it is safe to drill, what could go wrong, and how to respond if something does go awry. The drilling rigs themselves bristle with potentially dangerous machinery. The deepwater environment is cold, dark, distant, and under high pressures—and the oil and gas reservoirs, when found, exist at even higher pressures (thousands of pounds per square inch), compounding the risks if a well gets out of control. The Deepwater Horizon and Macondo well vividly illustrated all of those very real risks. When a failure happens at such depths, regaining control is a formidable engineering challenge—and the costs of failure, we now know, can be catastrophically high.
 
@@ -167,7 +183,7 @@ The Commission also looked at the effectiveness of the response to the spill. Th
 
 *The chief counsel's investigation was no doubt complicated by the lack of subpoena power. Nonetheless, Chief Counsel Bartlit did an extraordinary job building the record and interpreting what he learned. He used his considerable powers of persuasion along with other tools at his disposal to engage the involved companies in constructive and informative exchanges.
 
-x
+%%page x%%
 
 If we are to make future deepwater drilling safer and more environmentally responsible, we will need to address all these deficiencies together; a piecemeal approach will surely leave us vulnerable to future crises in the communities and natural environments most exposed to offshore energy exploration and production.
 
@@ -179,7 +195,9 @@ But those benefits have imposed their costs. The bayous and wetlands of Louisian
 
 We advocate beginning such an effort, seriously and soon, as a suitable response to the damage and disruption caused by the Deepwater Horizon emergency. It is a fair recognition not only of the costs that energy exploitation in the Gulf has, for decades, imposed on the landscape and habitats—and the other economic activities they support—but also of the certainty that Americans will continue to develop the region's offshore energy resources.
 
-For the simple fact is that the bulk of our newly discovered petroleum reserves, and the best prospects for future discoveries, lie not on land, but under water. To date, we have xi xi made the decision as a nation to exploit the Gulf 's offshore energy resources—ruling much of the Florida, Atlantic, and Pacific coasts out of bounds for drilling. The choice of how aggressively to exploit these resources, wherever they may be found, has profound implications for the future of U.S. energy policy, for our need to understand and assure the integrity of fragile environmental resources, and for the way Americans think about our economy and our security. Although much work is being done to improve the fuel- efficiency of vehicles and to develop alternative fuels, we cannot realistically walk away from these offshore oil resources in the near future. So we must be much better prepared to exploit such resources with far greater care.
+For the simple fact is that the bulk of our newly discovered petroleum reserves, and the best prospects for future discoveries, lie not on land, but under water. To date, we have made the decision as a nation to exploit the Gulf 's offshore energy resources—ruling much of the Florida, Atlantic, and Pacific coasts out of bounds for drilling. The choice of how aggressively to exploit these resources, wherever they may be found, has profound implications for the future of U.S. energy policy, for our need to understand and assure the integrity of fragile environmental resources, and for the way Americans think about our economy and our security. Although much work is being done to improve the fuel- efficiency of vehicles and to develop alternative fuels, we cannot realistically walk away from these offshore oil resources in the near future. So we must be much better prepared to exploit such resources with far greater care.
+
+%%page xi%%
 
 The Commission and Its Work While we took a broad view of the spill, it could not be exhaustive. There is still much we do not know—for instance, the blowout preventer, the last line of defense against loss of well control, is still being analyzed; and the Deepwater Horizon itself, after its explosive destruction, remained out of reach during our investigation. The understandable, immediate need to provide answers and concrete suggestions trumped the benefits of a longer, more comprehensive investigation. And as we know from other spills, their environmental consequences play out over decades—and often in unexpected ways. Instead, the Commission focused on areas we thought most likely to inform practical recommendations. Those recommendations are presented in the spirit of transforming America into the global leader for safe and effective offshore drilling operations. Just as this Commission learned from the experiences of other nations in developing our recommendations, the lessons learned from the Deepwater Horizon disaster are not confined to our own government and industry, but relevant to rest of the world.
 
@@ -191,7 +209,7 @@ Chapters 1 through 3 describe the events of April 20th on the Deepwater Horizon,
 
 Chapters 4 through 7 lay out the results of our investigation in detail, highlighting the crucial issues we believe must inform policy going forward: the specific engineering and operating choices made in drilling the Macondo well, the attempts to contain and respond to the oil spill, and the impacts of the spill on the region's natural resources, economy, and people—in the context of the progressive degradation of the Mississippi Delta environment.
 
-xii
+%%page xii%%
 
 Chapters 8 through 10 present our recommendations for reforms in business practices, regulatory oversight, and broader policy concerns. We recognize that the improvements we advocate all come with costs and all will take time to implement. But inaction, as we are deeply aware, runs the risk of real costs, too: in more lost lives, in broad damage to the regional economy and its long-term viability, and in further tens of billions of dollars of avoidable clean-up costs. Indeed, if the clear challenges are not addressed and another disaster happens, the entire offshore energy enterprise is threatened—and with it, the nation's economy and security. We suggest a better option: build from this tragedy in a way that makes the Gulf more resilient, the country's energy supplies more secure, our workers safer, and our cherished natural resources better protected.
 
@@ -201,7 +219,9 @@ Finally, to the American people, we reiterate that extracting the energy resourc
 
 Bob Graham, Co-Chair
 
-William K. Reilly, Co-Chair xiii xiii xiii
+William K. Reilly, Co-Chair
+
+%%page xiii%%
 
 ## Part I: The Path to Tragedy
 
@@ -501,13 +521,13 @@ On board the Bankston, the atmosphere was grim. The crew was forbidden to call h
 
 The survivors sat on the boat in shock and watched the firestorm on the rig rage unabated, its plume of black smoke boiling up high into the night. At 1:30 a.m., the rig listed and rotated in the wake of more secondary explosions. Work boats, which had begun arriving and spraying water on the rig in response to the Mayday call, moved back.179 By 2:50 a.m., the Deepwater Horizon had spun 180 degrees and, its dynamic positioners dead, moved 1,600 feet from the well. By 3:15 a.m., when the U.S. Coast Guard cutter Pompano arrived on the scene,180 the rig was listing heavily. Dennis Martinez realized his dead father's ring, which he removed only when working, was still on the rig.181
 
-The three men in the Ramblin' Wreck had continued to scour the waters near the rig, looking for survivors or the dead. Several times, they spotted what they thought might be
+The three men in the Ramblin' Wreck had continued to scour the waters near the rig, looking for survivors or the dead. Several times, they spotted what they thought might be a body, only to find it was debris.182 They heard rumbling sounds coming from deep below the surface of the water—possibly underwater explosions as the rig burned, exploded, listed, and drifted. Frightened, they still kept to their search. After rescue boats came on the scene, they ferried medical supplies between one of those and the Bankston. At 3:00 a.m., the three fishermen headed home.
 
 %%page 18%%
 
 "I could see nothing but flames way past the crown," chief engineer Steve Bertone recalled of the dramatic moments before he ordered crew members to abandon the rig. Of the 115 survivors,[^16] were seriously injured and medevaced to hospitals. Ninety-nine others, including Bertone, were transported to the mainland by the rescue vessel Bankston. Roughly 36 hours after the first explosion, Deepwater Horizon sank to the bottom. It was April 22—Earth Day.
 
-Gerald Herbert/Associated Press a body, only to find it was debris.182 They heard rumbling sounds coming from deep below the surface of the water—possibly underwater explosions as the rig burned, exploded, listed, and drifted. Frightened, they still kept to their search. After rescue boats came on the scene, they ferried medical supplies between one of those and the Bankston. At 3:00 a.m., the three fishermen headed home.
+Gerald Herbert/Associated Press
 
 On the Bankston, the Deepwater Horizon crew deeply wished they could do the same. As the largest boat in the vicinity, the Bankston had been ordered by the Coast Guard to stay put while the search and rescue effort unfolded. The search helicopters buzzed overhead, methodically surveying one sector after another. Once the 16 injured were evacuated, said Bertone, "[I] made my way up to one of the upper levels and sat there and watched the rig burn."183 As oil and gas exploded up and out of the riser, the towering flames set fire to tanks and pipes, sending yet more roiling black smoke high into the sky.
 
@@ -933,11 +953,11 @@ As President Obama spoke, Transocean's Deepwater Horizon—fresh from completing
 
 The Deepwater Horizon rig sank on April 22, 2010, two days after the Macondo well blowout and explosion that killed 11 workers. Not long after the tragedy, its repercussions shifted to the Minerals Management Service (MMS), the federal agency responsible for overseeing the well's drilling and operation. Nineteen days after the rig sank, Secretary of the Interior Ken Salazar announced his intention to strip MMS's safety and environmental enforcement responsibilities away from its leasing, revenue collection, and permitting functions, and to place the former within a "separate and independent" entity.1 A week later, he announced MMS would be reorganized into three separate entities with distinct missions: a Bureau of Ocean Energy Management; a Bureau of Safety and Environmental Enforcement; and an Office of Natural Resources Revenue.2 And, by June 19, the Secretary had discarded the "MMS" name altogether.3 Like the Deepwater Horizon, MMS had ceased to exist.
 
-The rig's demise signals the conflicted evolution— and severe shortcomings—of federal regulation of offshore oil drilling in the United States, and particularly of MMS oversight of deepwater
+The rig's demise signals the conflicted evolution— and severe shortcomings—of federal regulation of offshore oil drilling in the United States, and particularly of MMS oversight of deepwater drilling in the Gulf of Mexico. The regulatory context for the leasing procedures and safety and environmental oversight that led up to the Macondo blowout took shape in the 1970s, when two conflicting priorities dominated the political landscape. The first to appear, in the early 1970s, was the public mandate for environmental protection, which prompted enactment of an extraordinary series of sweeping regulatory laws intended, in the language of the National Environmental Policy Act, to "create and maintain conditions under which man and nature can exist in productive harmony."4 The second was the nation's drive for energy independence; it led to new policies designed to increase domestic production and decrease American reliance on foreign energy supplies. Oil served as a catalyst for both: the Santa Barbara oil spill in 1969 helped to promote passage of demanding environmental protection mandates, and the OPEC oil embargo of 1973 amplified the urgency of efforts to make the nation more energy self-sufficient.
 
 The often competing goals of energy independence and environmental protection collide at the Department of the Interior, which historically has held broad regulatory authority in both realms. For nearly three decades a single departmental agency, the Minerals Management Service, was at the center of the offshore-oil saga.
 
-Mark Wilson/Getty Images drilling in the Gulf of Mexico. The regulatory context for the leasing procedures and safety and environmental oversight that led up to the Macondo blowout took shape in the 1970s, when two conflicting priorities dominated the political landscape. The first to appear, in the early 1970s, was the public mandate for environmental protection, which prompted enactment of an extraordinary series of sweeping regulatory laws intended, in the language of the National Environmental Policy Act, to "create and maintain conditions under which man and nature can exist in productive harmony."4 The second was the nation's drive for energy independence; it led to new policies designed to increase domestic production and decrease American reliance on foreign energy supplies. Oil served as a catalyst for both: the Santa Barbara oil spill in 1969 helped to promote passage of demanding environmental protection mandates, and the OPEC oil embargo of 1973 amplified the urgency of efforts to make the nation more energy self-sufficient.
+Mark Wilson/Getty Images
 
 %%page 56%%
 
@@ -1099,7 +1119,7 @@ Secretary Watt organized two distinct programs within his newly-minted MMS: the 
 
 The Billion-Acre Leasing Land Rush It did not take long for Secretary Watt to make sure that his new agency was fully engaged. In July 1982, just after MMS's birth, he issued a new five-year plan that envisioned leasing nearly one billion acres of the outer continental shelf from August 1982 to June 1987—18 times the 55 million acres offered by the first five-year plan of June 1980. To meet this ambitious program, he scheduled 41 sales over the ensuing five years; divided the billion acres into 18 planning areas, ranging in size from 8 million to 133 million acres; and established a streamlined process for leasing in those areas. Under this new process, MMS would no longer lease just those tracts previously designated by industry to be of interest, but would instead offer vast acreage on an "area-wide" basis.58
 
-As described in Chapter 2, area-wide leasing promoted significant new discoveries of large oil-bearing formations in contrast to the smaller fields found in shallower depths. Those additional discoveries in fact led to major technological advances and increased exploration of oil and gas reservoirs in Gulf waters. But the federal revenues generated fell short of expectations. With such a large increase in supply, the price offered for leases declined. The Sierra Club claimed that Secretary Watt's plans for accelerated leasing would cost the U.S. Treasury $77 billion over the five-year period.59 Moreover, the Gulf states persuaded Congress to increase their share of leasing revenues as compensation for physical drainage of oil and gas from reservoirs within state jurisdiction by offshore activities of federal lessees. In 1986, Congress amended the federal law to guarantee that the Gulf states would receive 27 percent of the revenues from leases in the federal zone three nautical miles
+As described in Chapter 2, area-wide leasing promoted significant new discoveries of large oil-bearing formations in contrast to the smaller fields found in shallower depths. Those additional discoveries in fact led to major technological advances and increased exploration of oil and gas reservoirs in Gulf waters. But the federal revenues generated fell short of expectations. With such a large increase in supply, the price offered for leases declined. The Sierra Club claimed that Secretary Watt's plans for accelerated leasing would cost the U.S. Treasury $77 billion over the five-year period.59 Moreover, the Gulf states persuaded Congress to increase their share of leasing revenues as compensation for physical drainage of oil and gas from reservoirs within state jurisdiction by offshore activities of federal lessees. In 1986, Congress amended the federal law to guarantee that the Gulf states would receive 27 percent of the revenues from leases in the federal zone three nautical miles beyond state waters.60 Previously the law had provided only that states should receive a "fair and equitable" portion of those revenues, an ambiguous standard that invited disagreement between the federal and state governments concerning what that portion should be.
 
 %%page 66%%
 
@@ -1107,7 +1127,7 @@ Watt and Reagan
 
 In January 1982, President Reagan's Interior Secretary, James Watt, created the Minerals Management Service (MMS) in support of his goal to open unprecedented reaches of U.S. territorial waters to oil and gas exploration. MMS had a conflicting and ultimately disastrous mandate: to both regulate offshore energy leases and collect the revenue they generated.
 
-Frank Johnston/The Washington Post via Getty Images beyond state waters.60 Previously the law had provided only that states should receive a "fair and equitable" portion of those revenues, an ambiguous standard that invited disagreement between the federal and state governments concerning what that portion should be.
+Frank Johnston/The Washington Post via Getty Images
 
 The Gulf of Mexico's still-more-special status. The distinction first drawn in the 1978 Act between offshore drilling in the Gulf of Mexico and in other parts of the nation was widened further during the 1980s and 1990s. What began as a policy allowing offshore drilling in the Gulf under a more relaxed regulatory regime than applied elsewhere gradually became a policy of allowing offshore drilling, as a practical matter, almost only in the Gulf.
 
@@ -2535,7 +2555,7 @@ Higher up the water column, light and temperature gradually increase and the asc
 
 Overhead are multitudes of seabirds—among them brown pelicans, northern gannets, and laughing gulls—that in turn feed in the ocean and coastal estuaries.14 Dozens of bird species fly the Mississippi migration route each year, a major attraction for bird watchers, who flock to coastal Louisiana and Texas to catch a glimpse of migrating and resident shorebirds and nesting seabirds. Some of these birds feed on estuarine shrimp, fish, and crabs; others depend on shellfish and other small organisms that populate the expansive mudflats. Larger wading birds stalk their prey in the shallow water of mangroves, marshes, and other habitats that shelter fish and frogs. Raptors, including ospreys, bald eagles, and peregrine falcons, also pluck their prey from any of these environments and carry it to their perches.
 
-As the unprecedented volume of oil gushing from the Macondo blowout reached the surface, it had the potential to affect all of these marine and coastal organisms and to wash into the salt marshes, mudflats, mangroves, and sandy beaches—each in its way an
+As the unprecedented volume of oil gushing from the Macondo blowout reached the surface, it had the potential to affect all of these marine and coastal organisms and to wash into the salt marshes, mudflats, mangroves, and sandy beaches—each in its way an essential habitat at one or more stages of many species' lifecycles.15 And these marine and coastal species are so interdependent that a significant effect on any one has the potential to disturb several existing populations in this complex food web.16
 
 %%page 176%%
 
@@ -2543,7 +2563,7 @@ Oiled Sargassum
 
 Wildlife biologist Mark Dodd surveys a raft of oil-soaked sargassum, also known as gulfweed. The floating beds are home to snails, shrimp, crabs, and other small creatures that—oiled or not—are ingested by turtles, dolphins, tuna, and game fish.
 
-Blair Witherington/FWC essential habitat at one or more stages of many species' lifecycles.15 And these marine and coastal species are so interdependent that a significant effect on any one has the potential to disturb several existing populations in this complex food web.16
+Blair Witherington/FWC
 
 Encountering oil. Organisms are exposed to oil through ingestion, filtration, inhalation, absorption, and fouling.17 Predators may ingest oil while eating other oiled organisms or mistaking oil globules for food. Filter feeders—including some fish, oysters, shrimp, krill, jellyfish, corals, sponges, and whale sharks—will ingest minute oil particles suspended in the water column. Surface-breathing mammals and reptiles surrounded by an oil slick may inhale oily water or its fumes. Birds are highly vulnerable to having their feathers oiled, reducing their ability to properly regulate body temperature.18 Moderate to heavy external oiling of animals can inhibit their ability to walk, fly, swim, and eat. Similarly, oiling of plants can impede their ability to transpire and conduct photosynthesis, and oiling of coastal sediments can smother the plants they anchor and the many organisms that live below.
 
@@ -2597,7 +2617,9 @@ Turtle in East Grande Terre Island, LA
 
 Sad testament to the spill, a sea turtle lies dead beside the black tide that took its life along East Grand Terre Island in Louisiana. As of November 2010, the carcasses of more than 600 of the endangered reptiles had been collected. Countless others undoubtedly perished.
 
-Benjamin Lowy/Edit by Getty Images in water, oil and lipids do mix very well, so high concentrations of petroleum can be found in the fat-rich tissues of the liver, brain, kidneys, and ovaries. Muscle generally has the lowest lipid concentrations, but fish with fatty flesh can accumulate more oil than leaner species.43 Oil constituents can be transferred through the food chain: heavier hydrocarbons can be passed from water to phytoplankton and then to zooplankton, or from sediments to polychaete worms and eventually to fish.44 Because animals that are several steps up the food chain, like small fish, have the capability to metabolize hydrocarbons fairly rapidly, their predators will actually not accumulate much from eating them. Accordingly, bioaccumulation of toxic oil components does occur in fish, but biomagnification, with increasingly higher concentrations in animals at each level, does not occur.45
+Benjamin Lowy/Edit by Getty Images
+
+in water, oil and lipids do mix very well, so high concentrations of petroleum can be found in the fat-rich tissues of the liver, brain, kidneys, and ovaries. Muscle generally has the lowest lipid concentrations, but fish with fatty flesh can accumulate more oil than leaner species.43 Oil constituents can be transferred through the food chain: heavier hydrocarbons can be passed from water to phytoplankton and then to zooplankton, or from sediments to polychaete worms and eventually to fish.44 Because animals that are several steps up the food chain, like small fish, have the capability to metabolize hydrocarbons fairly rapidly, their predators will actually not accumulate much from eating them. Accordingly, bioaccumulation of toxic oil components does occur in fish, but biomagnification, with increasingly higher concentrations in animals at each level, does not occur.45
 
 It would be impossible to sample and assess each of the thousands of marine fish and other species inhabiting the open-ocean water column. But scientists monitoring the spill along the shorelines and aboard research vessels have sampled plankton, shellfish, fish, water, sediment, and other environmental media to better understand the potential impacts on all terrestrial and marine organisms.46 Tens of thousands of samples have been collected. They will likely analyze the samples to determine concentrations of oil and dispersants, and combine that information with existing data on species populations and distributions to model the potential impact of contamination in the water column on different species. In addition, large fish—like bluefin tuna and whale sharks (the world's largest fish)— mammals, and turtles are being tagged with tracking devices so scientists can follow their movements in the hope of learning how they have been affected by the spill.47 By overlaying maps of the extent of the oil spill, derived from satellite images from the European Space Agency, with simulations of bluefin tuna spawning grounds and models of larval development, the Ocean Foundation estimated that the spill could have affected 20 percent of the 2010 season's population of bluefin tuna larvae, further placing at risk an already severely overfished species.48
 
@@ -3463,15 +3485,7 @@ This chapter presents the Commission's recommendations for addressing the causes
 
 ### Improving the Safety of Offshore Operations
 
-### Safeguarding the Environment
-
-### Strengthening Oil Spill Response, Planning, and Capacity
-
-### Advancing Well-Containment Capabilities
-
-E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf
-
-### Ensuring Financial Responsibility
+> B. Safeguarding the Environment C. Strengthening Oil Spill Response, Planning, and Capacity D. Advancing Well-Containment Capabilities E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf F. Ensuring Financial Responsibility
 
 ### Promoting Congressional Engagement to Ensure Responsible Offshore Drilling
 
@@ -4179,7 +4193,9 @@ Chapter One 1 Internal Halliburton document (HAL_0011208); Testimony of Nathanie
 
 %%page 313%%
 
-U.S. Geological Survey, NARA.[^27] Kash et al., Energy Under the Oceans, 104.[^28] Robert E. Kallman and Eugene D. Wheeler, Coastal Crude in a Sea of Conflict (San Luis Obispo: Blake Printery and
+U.S. Geological Survey, NARA.[^27] Kash et al., Energy Under the Oceans, 104.
+
+28 Robert E. Kallman and Eugene D. Wheeler, Coastal Crude in a Sea of Conflict (San Luis Obispo: Blake Printery and
 
 Publishing, 1984), 63.[^29] Riley E. Dunlap and Angela G. Mertig, American Environmentalism: The U.S. Environmental Movement, 1970–1990
 
@@ -4201,21 +4217,41 @@ Central Classified Files, 1969–1972, Box 136, Part 13, RG 48, Records of the S
 
 6079, Houston, TX, May 1989).[^34] Peter Lovie, "Classification and Certification of Offshore Drilling Units," in The Technology of Offshore Drilling,
 
-Completion and Production, ETA Offshore Seminars, (Tulsa: The Petroleum Publishing Company, 1976), 389–413.[^35] Dunn, "Deepwater Production."[^36] See data in National Academy of Sciences, Committee on Assessment of Safety of OCS Activities, Safety and Offshore
+Completion and Production, ETA Offshore Seminars, (Tulsa: The Petroleum Publishing Company, 1976), 389–413.[^35] Dunn, "Deepwater Production."
+
+36 See data in National Academy of Sciences, Committee on Assessment of Safety of OCS Activities, Safety and Offshore
 
 Oil (Washington D.C.: National Academy Press, 1981).[^37] E. P. Danenberger, "Outer Continental Shelf Drilling Blowouts, 1971-1991" (OTC Paper 7248, Houston, TX, May
 
-1993).[^38] U.S. Energy Information Administration (EIA), "Petroleum," Table 5.13.c, in Annual Energy Review 2009 (Washington, D.C.: U.S. EIA, 2010), http://www.eia.gov/emeu/aer/petro.html.[^39] "Bidders Snub Most Deepwater Tracts," Oil and Gas Journal (April 8, 1974): 36.[^40] Priest, The Offshore Imperative, 191–195.[^41] Stephen P.J. Cossey, "Celebrations Began with Cognac," AAPG Explorer (September 2004), http://www.aapg.org/ explorer/2004/09sep/gom_history.cfm.[^42] Priest, The Offshore Imperative, 196–201.[^43] Pratt, Priest, and Castaneda, Offshore Pioneers, 83–90.[^44] "Gulf Lease Sale Shatters Two Records," Oil & Gas Journal (October 6, 1980): 34; Charlie Blackburn, quoted in Priest,
+1993).[^38] U.S. Energy Information Administration (EIA), "Petroleum," Table 5.13.c, in Annual Energy Review 2009 (Washington, D.C.: U.S. EIA, 2010), http://www.eia.gov/emeu/aer/petro.html.[^39] "Bidders Snub Most Deepwater Tracts," Oil and Gas Journal (April 8, 1974): 36.
+
+40 Priest, The Offshore Imperative, 191–195.
+
+41 Stephen P.J. Cossey, "Celebrations Began with Cognac," AAPG Explorer (September 2004), http://www.aapg.org/ explorer/2004/09sep/gom_history.cfm.[^42] Priest, The Offshore Imperative, 196–201.
+
+43 Pratt, Priest, and Castaneda, Offshore Pioneers, 83–90.
+
+44 "Gulf Lease Sale Shatters Two Records," Oil & Gas Journal (October 6, 1980): 34; Charlie Blackburn, quoted in Priest,
 
 The Offshore Imperative, 216; D.A. Holmes, "1970-1986 Lookback of Offshore Lease Sales in the Gulf of Mexico
 
-Cenozoic," interoffice memorandum, Shell Offshore Inc., August 24, 1987.[^45] Priest, The Offshore Imperative, 209–215.[^46] Juan Carlos Boué with Edgar Jones, A Question of Rigs, of Rules, or of Rigging the Rules? Upstream Profits and Taxes in U.S. Gulf Offshore Oil and Gas (Oxford: Oxford University Press, 2007), 17.[^47] Rich Sears, "A Brief History of Deepwater" (draft prepared for the National Commission, August 2010).[^48] Paul Voosen, "Gulf of Mexico's Deepwater Oil Industry Is Built on Pillars of Salt," New York Times, July 28, 2010;
+Cenozoic," interoffice memorandum, Shell Offshore Inc., August 24, 1987.[^45] Priest, The Offshore Imperative, 209–215.
 
-Gary Steffens and Neil Braunsdorf, "The Gulf of Mexico Deepwater Play:[^50] Years from Concept to Commercial Reality" (AAPG Distinguished Lecture Series, 1997–1998).[^49] Priest, The Offshore Imperative, 218–220.[^50] Juan Carlos Boué and Gerardo Lyando, U.S. Gulf Offshore Oil: Petroleum Leasing and Taxation and Their Impact on
+46 Juan Carlos Boué with Edgar Jones, A Question of Rigs, of Rules, or of Rigging the Rules? Upstream Profits and Taxes in U.S. Gulf Offshore Oil and Gas (Oxford: Oxford University Press, 2007), 17.[^47] Rich Sears, "A Brief History of Deepwater" (draft prepared for the National Commission, August 2010).
+
+48 Paul Voosen, "Gulf of Mexico's Deepwater Oil Industry Is Built on Pillars of Salt," New York Times, July 28, 2010;
+
+Gary Steffens and Neil Braunsdorf, "The Gulf of Mexico Deepwater Play:[^50] Years from Concept to Commercial Reality" (AAPG Distinguished Lecture Series, 1997–1998).[^49] Priest, The Offshore Imperative, 218–220.
+
+50 Juan Carlos Boué and Gerardo Lyando, U.S. Gulf Offshore Oil: Petroleum Leasing and Taxation and Their Impact on
 
 Industry Structure, Competition, Production, and Fiscal Revenues (Oxford: Oxford Energy Institute, 2002).[^51] Bureau of Ocean Energy Management, Regulation, and Enforcement (BOEMRE), "Gulf of Mexico Oil and Gas Leasing
 
-Offerings," http://www.gomr.boemre.gov/homepg/lsesale/swiler/swiler.html.[^52] Priest, The Offshore Imperative, 221–222.[^53] "The Time to Start Looking is Now," Shell News no. 4 (1984): 16.[^54] By 1990, Americans consumed less gasoline on a per capita basis (437 gallons per year) than they did in 1979. U.S. Energy Information Administration (EIA), Annual Energy Review, Petroleum, Table 5.13.c, http://www.eia.gov/ emeu/aer/petro.html.[^55] On the forgotten victory of energy conservation and efficiency, see Jay Hakes, A Declaration of Energy Independence:
+Offerings," http://www.gomr.boemre.gov/homepg/lsesale/swiler/swiler.html.[^52] Priest, The Offshore Imperative, 221–222.
+
+53 "The Time to Start Looking is Now," Shell News no. 4 (1984): 16.
+
+54 By 1990, Americans consumed less gasoline on a per capita basis (437 gallons per year) than they did in 1979. U.S. Energy Information Administration (EIA), Annual Energy Review, Petroleum, Table 5.13.c, http://www.eia.gov/ emeu/aer/petro.html.[^55] On the forgotten victory of energy conservation and efficiency, see Jay Hakes, A Declaration of Energy Independence:
 
 How Freedom from Foreign Oil Can Improve National Security, Our Economy, and the Environment (Hoboken: John
 
@@ -4223,11 +4259,29 @@ Wiley & Sons, 2008), 41–71.
 
 %%page 314%%
 
-56 Robert Gramling, Oil on the Edge: Offshore Development, Conflict, Gridlock (Albany, NY: SUNY Press, 1996), 118.[^57] "Bullwinkle Takes Shape," Shell News no. 6 (1987): 2–7; "Rising Above the Crowd," Shell News no. 6 (1988): 28–34.[^58] "How Conoco Developed the Tension-Leg Platform," Ocean Industry, August 1984, 35–46.[^59] Tom Curtis, "Lifestyles of the Rich and Bankrupt," Texas Monthly, March 1988, 90.[^60] Congress of the United States, Office of Technology Assessment, Oil and Gas Technologies for the Arctic and Deepwater: Summary (Washington: GPO, 1985), 22–23.[^61] On the struggle over Bristol Bay, see Charles Frederick Lester, "The Search for Dialogue in the Administrative State:
+56 Robert Gramling, Oil on the Edge: Offshore Development, Conflict, Gridlock (Albany, NY: SUNY Press, 1996), 118.
+
+57 "Bullwinkle Takes Shape," Shell News no. 6 (1987): 2–7; "Rising Above the Crowd," Shell News no. 6 (1988): 28–34.
+
+58 "How Conoco Developed the Tension-Leg Platform," Ocean Industry, August 1984, 35–46.
+
+59 Tom Curtis, "Lifestyles of the Rich and Bankrupt," Texas Monthly, March 1988, 90.
+
+60 Congress of the United States, Office of Technology Assessment, Oil and Gas Technologies for the Arctic and Deepwater: Summary (Washington: GPO, 1985), 22–23.[^61] On the struggle over Bristol Bay, see Charles Frederick Lester, "The Search for Dialogue in the Administrative State:
 
 The Politics, Policy, and Law of Offshore Development" (Ph.D. dissertation, University of California, Berkeley, 1992),
 
-113–146.[^62] Priest, The Offshore Imperative, 209–215.[^63] Steffens and Braunsdorf, "The Gulf of Mexico Deepwater Play."[^64] BOEMRE, "Gulf of Mexico Oil and Gas Leasing Offerings," http://www.gomr.boemre.gov/homepg/lsesale/swiler/ swiler.html.[^65] Priest, The Offshore Imperative, 237–251.[^66] Ibid., 254–255.[^67] Ibid., 253–261; "Launch Pad into the Deep," Houston Chronicle, August 17, 1997.[^68] Bob Horton quoted in Tom Bower, Oil: Money, Politics, and Power in the 21st Century (New York: Grand Central
+113–146.[^62] Priest, The Offshore Imperative, 209–215.
+
+63 Steffens and Braunsdorf, "The Gulf of Mexico Deepwater Play."
+
+64 BOEMRE, "Gulf of Mexico Oil and Gas Leasing Offerings," http://www.gomr.boemre.gov/homepg/lsesale/swiler/ swiler.html.[^65] Priest, The Offshore Imperative, 237–251.
+
+66 Ibid., 254–255.
+
+67 Ibid., 253–261; "Launch Pad into the Deep," Houston Chronicle, August 17, 1997.
+
+68 Bob Horton quoted in Tom Bower, Oil: Money, Politics, and Power in the 21st Century (New York: Grand Central
 
 Publishing, 2009), 19.[^69] William A. Schneider, "3-D Seismic: A Historical Note," The Leading Edge (March 1998): 375; "Looking Ahead in Marine and Land Geophysics—A Conversation with Woody Nestvold and Ian Jack," The Leading Edge (October 1995):
 
@@ -4239,11 +4293,29 @@ November 22, 2006), 16. This topic paper was one of 38 working documents used to
 
 Petroleum Council study, Facing the Hard Truths About Energy http://www.npchardtruthsreport.org/.[^72] Susanne S. Pagano, "Offshore Drilling, Production—New Waves of Technology," Sea Technology (April 1991): 19–21;
 
-"There's Oil Down There . . . Way Down There," Texas Shores 31, no. 1 (Spring 1998): 14–15.[^73] Priest, The Offshore Imperative, 243–251.[^74] "Shell Marks Progress in Deepwater Gulf," Oil & Gas Journal 93, no. 46 (November 13, 1995); "Debottlenecking
+"There's Oil Down There . . . Way Down There," Texas Shores 31, no. 1 (Spring 1998): 14–15.[^73] Priest, The Offshore Imperative, 243–251.
 
-Removes Auger Production Constraints," Oil & Gas Journal 94, no. 46 (November 11, 1996).[^75] Priest, The Offshore Imperative, 251–253.[^76] Press Release, Minerals Management Service, Shell to Pay $49 Million in Settlement Agreement with Minerals Management Service, August 5, 2003.[^77] Boué and Jones, A Question of Rigs, 130.[^78] F. Jay Schempf, "New Study Finds Port Fourchon 'Vital' to U.S. Economy," Offshore (March 1, 2008).[^79] D.G. Godfrey et al., "The Mars Project Overview" (OTC Paper 8368, Houston, TX, May 1997).[^80] Ibid.[^81] David Ernst and Andrew M.J. Steinhubl, "Alliances in Upstream Oil and Gas," McKinsey Quarterly 2 (1997).[^82] Jeff Ryser, "Hot Play in the Gulf," Texas Business (August 1995): 33.[^83] "The Cloning of Mars," Shell News 64, no. 1 (1996): 8–13; Michael Davis, "Shell Oil Goes Deep in Gulf," Houston
+74 "Shell Marks Progress in Deepwater Gulf," Oil & Gas Journal 93, no. 46 (November 13, 1995); "Debottlenecking
 
-Chronicle, April 9, 1999; Priest, The Offshore Imperative, 260–262.[^84] Mary Judice, "Out of the LOOP," Times Picayune, September 17, 1995; C.G. Steube, "Addressing Transportation Needs for Deepwater Gulf of Mexico" (OTC Paper 13169, Houston, TX, April/May 2001).[^85] Boué and Jones, A Question of Rigs, 17.[^86] Bureau of Ocean Energy Management, Regulation, and Enforcement (BOEMRE), "Installations, Removals, and Cumulative Totals of Offshore Production Facilities in Federal Waters: 1959-2010," www.boemre.gov/stats/PDFs/OCSPlatformActivity.pdf.[^87] Dolly Jorgenson, "An Oasis in a Watery Desert: Discourses on an Industrial Ecosystem in the Gulf of Mexico Rigs-to-
+Removes Auger Production Constraints," Oil & Gas Journal 94, no. 46 (November 11, 1996).[^75] Priest, The Offshore Imperative, 251–253.
+
+76 Press Release, Minerals Management Service, Shell to Pay $49 Million in Settlement Agreement with Minerals Management Service, August 5, 2003.[^77] Boué and Jones, A Question of Rigs, 130.
+
+78 F. Jay Schempf, "New Study Finds Port Fourchon 'Vital' to U.S. Economy," Offshore (March 1, 2008).
+
+79 D.G. Godfrey et al., "The Mars Project Overview" (OTC Paper 8368, Houston, TX, May 1997).
+
+80 Ibid.
+
+81 David Ernst and Andrew M.J. Steinhubl, "Alliances in Upstream Oil and Gas," McKinsey Quarterly 2 (1997).
+
+82 Jeff Ryser, "Hot Play in the Gulf," Texas Business (August 1995): 33.
+
+83 "The Cloning of Mars," Shell News 64, no. 1 (1996): 8–13; Michael Davis, "Shell Oil Goes Deep in Gulf," Houston
+
+Chronicle, April 9, 1999; Priest, The Offshore Imperative, 260–262.[^84] Mary Judice, "Out of the LOOP," Times Picayune, September 17, 1995; C.G. Steube, "Addressing Transportation Needs for Deepwater Gulf of Mexico" (OTC Paper 13169, Houston, TX, April/May 2001).[^85] Boué and Jones, A Question of Rigs, 17.
+
+86 Bureau of Ocean Energy Management, Regulation, and Enforcement (BOEMRE), "Installations, Removals, and Cumulative Totals of Offshore Production Facilities in Federal Waters: 1959-2010," www.boemre.gov/stats/PDFs/OCSPlatformActivity.pdf.[^87] Dolly Jorgenson, "An Oasis in a Watery Desert: Discourses on an Industrial Ecosystem in the Gulf of Mexico Rigs-to-
 
 Reefs Program," History and Technology 25, no. 4 (November 2009): 343–364.[^88] Press Release, Minerals Management Service, High Bids Total $307 Million in Central Gulf of Mexico Lease Sale 152,
 
@@ -4253,27 +4325,53 @@ May 10, 1995, http://www.boemre.gov/ooc/press/1995/50037.txt.[^89] Voosen, "Gulf
 
 Monthly (February 1996): 140–141.[^90] Scott L. Montgomery and Dwight Moore, "Subsalt Play, Gulf of Mexico: A Review," AAPG Bulletin 81, no. 6 (June
 
-1997): 875–876.[^91] Rhonda Duey, "Pioneering a Global Play," Hart's E&P (July 1, 2009); Thorpe, "Oil and Water," 142.[^92] R.R. Israel et al., "Challenges Evolve for Directional Drilling Through Salt in Deepwater Gulf of Mexico," Drilling
+1997): 875–876.[^91] Rhonda Duey, "Pioneering a Global Play," Hart's E&P (July 1, 2009); Thorpe, "Oil and Water," 142.
 
-Contractor (May/June 2008), http://drillingcontractor.org/challenges-evolve-for-directional-drilling-through-saltin-deepwater-gulf-of-mexico-1622.[^93] David Ivanovich, "Gulf is Heart of Deepwater Drilling," Houston Chronicle, May 4, 1997.[^94] Brian Knowlton, "Oil Growth Boomerangs on Houston," International Herald Tribune, April 1, 2002.[^95] David Townshend, "Golden Triangle Dominates," Petroleum Economist, October 2002.[^96] Tim Colton and LaVar Huntziner, A Brief History of Shipbuilding in Recent Times (Alexandria, VA: CNA Corporation,
+92 R.R. Israel et al., "Challenges Evolve for Directional Drilling Through Salt in Deepwater Gulf of Mexico," Drilling
+
+Contractor (May/June 2008), http://drillingcontractor.org/challenges-evolve-for-directional-drilling-through-saltin-deepwater-gulf-of-mexico-1622.[^93] David Ivanovich, "Gulf is Heart of Deepwater Drilling," Houston Chronicle, May 4, 1997.
+
+94 Brian Knowlton, "Oil Growth Boomerangs on Houston," International Herald Tribune, April 1, 2002.
+
+95 David Townshend, "Golden Triangle Dominates," Petroleum Economist, October 2002.
+
+96 Tim Colton and LaVar Huntziner, A Brief History of Shipbuilding in Recent Times (Alexandria, VA: CNA Corporation,
 
 2002); Mike Hunt and Lenny Gary, "Gulf of Mexico Fabrication Yards Built 5,500 Platforms Over 50 Years," Offshore
 
 (January 2000).[^97] Ronald W. Ferrier, The History of the British Petroleum Company, Vol. 1: The Developing Years, 1901–1932 (Cambridge: Cambridge University Press, 1982); J.H. Bamberg, The History of British Petroleum, Vol. 2: The Anglo-Iranian Years, 1928–1945 (Cambridge: Cambridge University Press, 1994); and James Bamberg, British Petroleum and
 
-Global Oil, 1950–1975: The Challenge of Nationalism (Cambridge: Cambridge University Press, 2000).[^98] Agis Salpukas, "BP Amoco's Leader Remakes An Oil Giant, Again," New York Times, April 1, 1999.[^99] Kathy Shirley, "Vision Led to Crazy Horse Find," AAPG Explorer, March 2002.[^100] Ibid.[^101] Kristen Hays, "After All of Thunder Horse's Problems, BP Looks Ahead To Seeing A Return On Its Enormous Investment In The Platform, Payoff Is A Long Time in Coming," Houston Chronicle, November 18, 2007.[^102] Ibid.[^103] Peter Lehner with Bob Deans, In Deep Water: The Anatomy of a Disaster, the Fate of the Gulf, and Ending Our Oil
+Global Oil, 1950–1975: The Challenge of Nationalism (Cambridge: Cambridge University Press, 2000).[^98] Agis Salpukas, "BP Amoco's Leader Remakes An Oil Giant, Again," New York Times, April 1, 1999.
 
-Addiction (New York: The Experiment, 2010), 63.[^104] "Deepwater GOM New Focus of BP Growth Strategy," Oil & Gas Journal 100, no. 33 (August 19, 2002): 36.[^105] Neela Banerjee,"This Oil's Domestic, but It's Deep and It's Risky," New York Times, August 11, 2002.[^106] "The Jack-2 Perspective," Oil & Gas Journal 104, no. 34 (September 11, 2006): 17.[^107] B.F. Thurmond, D.B.L. Walker, H.H. Banon, A.B. Luberski, M.W. Jones, and R.R. Peters, "Challenges and Decisions in
+99 Kathy Shirley, "Vision Led to Crazy Horse Find," AAPG Explorer, March 2002.
+
+100 Ibid.
+
+101 Kristen Hays, "After All of Thunder Horse's Problems, BP Looks Ahead To Seeing A Return On Its Enormous Investment In The Platform, Payoff Is A Long Time in Coming," Houston Chronicle, November 18, 2007.[^102] Ibid.
+
+103 Peter Lehner with Bob Deans, In Deep Water: The Anatomy of a Disaster, the Fate of the Gulf, and Ending Our Oil
+
+Addiction (New York: The Experiment, 2010), 63.[^104] "Deepwater GOM New Focus of BP Growth Strategy," Oil & Gas Journal 100, no. 33 (August 19, 2002): 36.
+
+105 Neela Banerjee,"This Oil's Domestic, but It's Deep and It's Risky," New York Times, August 11, 2002.
+
+106 "The Jack-2 Perspective," Oil & Gas Journal 104, no. 34 (September 11, 2006): 17.
+
+107 B.F. Thurmond, D.B.L. Walker, H.H. Banon, A.B. Luberski, M.W. Jones, and R.R. Peters, "Challenges and Decisions in
 
 Developing Multiple Deepwater Fields" (OTC Paper 16573, Houston, TX, May 2004).[^108] K.L. Marshall and G.H. Smith, "Inspection Management Experience for a Fleet of Spars in the Gulf of Mexico" (OTC
 
 Paper 17619, Houston, TX, May 2005); C. Jim Thibodeaux, R. Don Vardeman, and Charles E. Kindel, "Nansen/
 
-Boomvang Projects: Overview and Project Management" (OTC Paper 14089, Houston, TX, May 2002).[^109] Thurmond et al., "Challenges and Decisions in Developing Multiple Deepwater Fields."[^110] Bill Kirton, Gary Wulf, and Bill Henderson, "Thunder Horse Drilling Riser Break—The Road to Recovery" (SPE Paper
+Boomvang Projects: Overview and Project Management" (OTC Paper 14089, Houston, TX, May 2002).[^109] Thurmond et al., "Challenges and Decisions in Developing Multiple Deepwater Fields."
+
+110 Bill Kirton, Gary Wulf, and Bill Henderson, "Thunder Horse Drilling Riser Break—The Road to Recovery" (SPE Paper
 
 90628, 2004).[^111] Simon Todd and Dan Replogle, "Thunder Horse and Atlantis: The Development and Operation of Twin Giants in the
 
-Deepwater Gulf of Mexico" (OTC Paper 20395, Houston, TX, May 2010).[^112] Ibid.[^113] Laurel Brubacker Calkins, "BP Sued by Watchdog Group over Atlantis Platform," Bloomberg, September 13, 2010, http://www.bloomberg.com/news/2010-09-10/bp-sued-over-alleged-safety-gaps-at-atlantis-production-platform.html.[^114] Det Norske Veritas, Pipeline Damage Assessment from Hurricane Ivan in the Gulf of Mexico, (Minerals Management
+Deepwater Gulf of Mexico" (OTC Paper 20395, Houston, TX, May 2010).[^112] Ibid.
+
+113 Laurel Brubacker Calkins, "BP Sued by Watchdog Group over Atlantis Platform," Bloomberg, September 13, 2010, http://www.bloomberg.com/news/2010-09-10/bp-sued-over-alleged-safety-gaps-at-atlantis-production-platform.html.[^114] Det Norske Veritas, Pipeline Damage Assessment from Hurricane Ivan in the Gulf of Mexico, (Minerals Management
 
 Service Report No. 440 38570, May 8, 2006). Includes data on damages from hurricanes through 2005.[^115] Lesley D. Nixon et al., Deepwater Gulf of Mexico 2009: Interim Report of 2008 Highlights (OCS Report, MMS 2009016, 2009), https://www.gomr.mms.gov/homepg/espis/espisfront.asp.[^116] "BP Taps Vast Pool of Crude in Deepest Oil Well," Associated Press, September 2, 2009; Brett Clanton, "Shell's Perdido
 
@@ -4289,7 +4387,9 @@ Ever Deeper," Drilling Contractor (May/June 2007).[^119] Mary C. Boatman and Jen
 
 2000-017, U.S. Department of Interior, Minerals Management Service, Gulf of Mexico OCS Region, 2000).[^120] Fergus Addison, Kevin Kennelley, and Fikry Botros, "Future Challenges for Deepwater Developments" (OTC Paper
 
-20404, Houston, TX, May 2010).[^121] Center for Biological Diversity v. U.S. Department of the Interior, 563 F.3d 466 (D.C. Cir. 2009).[^122] The White House, Office of the Press Secretary, Remarks by the President in a Discussion on Jobs and the Economy in Charlotte, North Carolina, April 2, 2010, http://www.whitehouse.gov/the-press-office/remarks-president-adiscussion-jobs-and-economy-charlotte-north-carolina.[^123] Gabriel Garcia Marquez, One Hundred Years of Solitude, translated by Gregory Rambassa (New York: Avon Books,
+20404, Houston, TX, May 2010).[^121] Center for Biological Diversity v. U.S. Department of the Interior, 563 F.3d 466 (D.C. Cir. 2009).
+
+122 The White House, Office of the Press Secretary, Remarks by the President in a Discussion on Jobs and the Economy in Charlotte, North Carolina, April 2, 2010, http://www.whitehouse.gov/the-press-office/remarks-president-adiscussion-jobs-and-economy-charlotte-north-carolina.[^123] Gabriel Garcia Marquez, One Hundred Years of Solitude, translated by Gregory Rambassa (New York: Avon Books,
 
 1970), 212.
 
@@ -4307,11 +4407,31 @@ Management, Regulation, and Enforcement, No. 3302 (June 18, 2010), http://www.do
 
 %%page 320%%
 
-> go into operation. Finding qualified crews to operate these increasingly high tech drilling rigs is a major worry for drilling companies.").[^111] 33 C.F.R. § 140.1.[^112] 46 C.F.R. pt. 2.
+> go into operation. Finding qualified crews to operate these increasingly high tech drilling rigs is a major worry for drilling companies.").[^111] 33 C.F.R. § 140.1.
+
+112 46 C.F.R. pt. 2.
 
 %%page 321%%
 
-139 16 U.S.C. §§ 1801-1891d.[^140] 16 U.S.C. §§ 1531-1544.[^141] 16 U.S.C. §§ 1361-1423h.[^142] 16 U.S.C. §§ 1431-1445c-1.[^143] 33 U.S.C. §§ 1251-1387.[^144] 33 U.S.C. §§ 2701-2762.[^145] Exec. Order No. 12,777, 56 Fed. Reg. 54,757 (October 22, 1991).[^146] 43 U.S.C. §1344.[^147] 43 U.S.C. §1340(c)(1).[^148] It appears to be understood that the meaning of this language is that an environmental impact statement is not required for the Gulf of Mexico, but it should be pointed out that is not the compelled or obvious reading of the language. The provision can also be fairly read to say no more than at least one impact statement has to be prepared for areas outside the Gulf and not address the issue, one way or another, concerning the application of NEPA within the Gulf. That potentially significant nuance, however, is beyond the scope of this report's inquiry.[^149] National Environmental Policy Act; Revised Implementing Procedures, 45 Fed. Reg. 75336 (proposed Nov. 14, 1980)
+139 16 U.S.C. §§ 1801-1891d.
+
+140 16 U.S.C. §§ 1531-1544.
+
+141 16 U.S.C. §§ 1361-1423h.
+
+142 16 U.S.C. §§ 1431-1445c-1.
+
+143 33 U.S.C. §§ 1251-1387.
+
+144 33 U.S.C. §§ 2701-2762.
+
+145 Exec. Order No. 12,777, 56 Fed. Reg. 54,757 (October 22, 1991).
+
+146 43 U.S.C. §1344.
+
+147 43 U.S.C. §1340(c)(1).
+
+148 It appears to be understood that the meaning of this language is that an environmental impact statement is not required for the Gulf of Mexico, but it should be pointed out that is not the compelled or obvious reading of the language. The provision can also be fairly read to say no more than at least one impact statement has to be prepared for areas outside the Gulf and not address the issue, one way or another, concerning the application of NEPA within the Gulf. That potentially significant nuance, however, is beyond the scope of this report's inquiry.[^149] National Environmental Policy Act; Revised Implementing Procedures, 45 Fed. Reg. 75336 (proposed Nov. 14, 1980)
 
 (proposed NEPA rules); National Environmental Policy Act; Revised Implementing Procedures, 46 Fed. Reg. 7485
 
@@ -4319,13 +4439,21 @@ Management, Regulation, and Enforcement, No. 3302 (June 18, 2010), http://www.do
 
 151 U.S. Department of the Interior, Outer Continental Shelf Safety Oversight Board, Report to the Secretary of the
 
-Interior (September 1, 2010), 20.[^152] Ibid.[^153] 516 Departmental Manual 15.4.C (providing for exceptions from categorical exclusion in certain "extraordinary circumstances," including when there are highly uncertain and potentially significant environmental effects).[^154] 51 Fed. Reg. 15,624 (1986).[^155] NOAA Fisheries Service, Southeast Regional Office, letter to MMS dated July 1, 1999 (subsequently updated in 2006,
+Interior (September 1, 2010), 20.[^152] Ibid.
+
+153 516 Departmental Manual 15.4.C (providing for exceptions from categorical exclusion in certain "extraordinary circumstances," including when there are highly uncertain and potentially significant environmental effects).[^154] 51 Fed. Reg. 15,624 (1986).
+
+155 NOAA Fisheries Service, Southeast Regional Office, letter to MMS dated July 1, 1999 (subsequently updated in 2006,
 
 2007, and 2008).[^156] Essential Fish Habitat Assessment for the Minerals Management Service Programmatic Consultation for Gulf of
 
 Mexico Outer Continental Shelf (OCS) Oil and Gas Activities (June 4, 1999).[^157] NOAA Fisheries Service, Southeast Regional Office, letter to MMS dated July 1, 1999 (subsequently updated in 2006,
 
-2007, and 2008).[^158] 30 C.F.R. § 254.21.[^159] 30 C.F.R. § 254.23.[^160] The Response Group on behalf of ExxonMobil, Gulf of Mexico Regional Oil Spill Response Plan (August 2009), Rev.
+2007, and 2008).[^158] 30 C.F.R. § 254.21.
+
+159 30 C.F.R. § 254.23.
+
+160 The Response Group on behalf of ExxonMobil, Gulf of Mexico Regional Oil Spill Response Plan (August 2009), Rev.
 
 5; The Response Group on behalf of ConocoPhillips, Gulf of Mexico Regional Oil Spill Response Plan (April 2010),
 
@@ -4347,13 +4475,27 @@ mony of John Smith, Hearing before the National Commission, November 9, 2010, 14
 
 %%page 328%%
 
-11 40 C.F.R. § 300.305(c).[^12] Press Release, White House, Statement by the Press Secretary on the President's Oval Office Meeting to Discuss the
+11 40 C.F.R. § 300.305(c).
 
-Situation in the Gulf of Mexico, April 22, 2010.[^13] 40 C.F.R. § 300.175(b).[^14] Leslie Kaufman, "Search Ends for Missing Oil Rig Workers," New York Times, April 23, 2010.[^15] Press Release, Unified Command, Unified Command Continues to Respond to Deepwater Horizon, April 25, 2010.[^16] Interview with Coast Guard official, August 27, 2010.[^17] BP, Initial Exploration Plan, Mississippi Canyon Block 252 (February 23, 2009), § 2.6.[^18] Doug Suttles, interview with Commission staff, October 13, 2010; Interviews with Minerals Management Service officials, October 15, 2010; Interview with well control expert, October 14, 2010.[^19] Press Release, BP, Work Begins To Drill Relief Well To Stop Oil Spill, May 4, 2010; White House, Ongoing Response
+12 Press Release, White House, Statement by the Press Secretary on the President's Oval Office Meeting to Discuss the
+
+Situation in the Gulf of Mexico, April 22, 2010.[^13] 40 C.F.R. § 300.175(b).
+
+14 Leslie Kaufman, "Search Ends for Missing Oil Rig Workers," New York Times, April 23, 2010.
+
+15 Press Release, Unified Command, Unified Command Continues to Respond to Deepwater Horizon, April 25, 2010.
+
+16 Interview with Coast Guard official, August 27, 2010.
+
+17 BP, Initial Exploration Plan, Mississippi Canyon Block 252 (February 23, 2009), § 2.6.
+
+18 Doug Suttles, interview with Commission staff, October 13, 2010; Interviews with Minerals Management Service officials, October 15, 2010; Interview with well control expert, October 14, 2010.[^19] Press Release, BP, Work Begins To Drill Relief Well To Stop Oil Spill, May 4, 2010; White House, Ongoing Response
 
 Timeline, May 17, 2010; David Hayes, memo to Commission staff, November 12, 2010.[^20] Joe Stephens and Mary Pat Flaherty, "Oil Industry Cleanup Organization Swamped by BP Spill," Washington Post,
 
-June 29, 2010.[^21] The Response Group on behalf of BP, Regional Oil Spill Response Plan-Gulf of Mexico (June 30, 2009), App. H: 40.[^22] Jonathan Ramseur, Oil Spills in U.S. Coastal Waters: Background, Governance, and Issues for Congress (Congressional Research Service, 2008), 2.[^23] Joint Industry Oil Spill Preparedness and Response Task Force, Joint Industry Recommendations to Improve Oil Spill
+June 29, 2010.[^21] The Response Group on behalf of BP, Regional Oil Spill Response Plan-Gulf of Mexico (June 30, 2009), App. H: 40.
+
+22 Jonathan Ramseur, Oil Spills in U.S. Coastal Waters: Background, Governance, and Issues for Congress (Congressional Research Service, 2008), 2.[^23] Joint Industry Oil Spill Preparedness and Response Task Force, Joint Industry Recommendations to Improve Oil Spill
 
 Preparedness and Response (September 3, 2010), V-3, V-5; Henry Fountain, "Advances in Oil Spill Cleanup Lag Since
 
@@ -4361,17 +4503,47 @@ Valdez," New York Times, June 24, 2010.[^24] Sarah L. Milton et al., "Obituary P
 
 Spill Response Plan-Gulf of Mexico App. F:19, § 11:7, App. E.[^25] Opening Statement of Chairman Edward Markey, "Drilling Down on America's Energy Future: Safety, Security, and
 
-Clean Energy," Hearing Before the House Committee on Energy and Commerce, Subcommittee on Energy and Environment, 111th Congress (June 15, 2010).[^26] Interview with NOAA scientist, August 20, 2010; Interview with NOAA scientist, October 13, 2010.[^27] NOAA Scientist, Estimation of the Oil Released from Deepwater Horizon Incident, April 26, 2010; Mark Miller, e-mail to Martha Garcia, June 14, 2010.[^28] Interview with NOAA scientist, August 30, 2010; Interview with NOAA scientist, October 13, 2010.[^29] Press Conference, Admiral Mary Landry and Doug Suttles, New Orleans, LA, April 28, 2010.[^30] Press Release, Deepwater Horizon Incident Joint Information Center Update: The Ongoing Administration-Wide
+Clean Energy," Hearing Before the House Committee on Energy and Commerce, Subcommittee on Energy and Environment, 111th Congress (June 15, 2010).[^26] Interview with NOAA scientist, August 20, 2010; Interview with NOAA scientist, October 13, 2010.
 
-Response to the BP Deepwater Horizon Oil Spill, July 15, 2010.[^31] Paul Purpura, "Guard Troops Going Home," Times-Picayune, October 21, 2010.[^32] 40 C.F.R. § 300.322(b).[^33] 40 C.F.R. § 300.305(d).[^34] Clifford Krauss, "Oil Spill's Blow to BP's Image May Eclipse Its Cost," New York Times, April 29, 2010.[^35] Office of Science and Technology, First Report of the President's Panel on Oil Spills (1969), 9.[^36] Interview with well control expert, October 14, 2010.[^37] Transcript, Office of the Press Secretary, Press Briefing on the BP Oil Spill in the Gulf Coast, April 29, 2010.[^38] Transcript, State of the Union with Candy Crowley, CNN, May 2, 2010.[^39] 40 C.F.R. § 300.323; Campbell Robertson, "White House Takes a Bigger Role in the Oil Spill Cleanup," New York
+27 NOAA Scientist, Estimation of the Oil Released from Deepwater Horizon Incident, April 26, 2010; Mark Miller, e-mail to Martha Garcia, June 14, 2010.[^28] Interview with NOAA scientist, August 30, 2010; Interview with NOAA scientist, October 13, 2010.
 
-Times, April 29, 2010.[^40] 40 C.F.R. § 300.5.[^41] 40 C.F.R. § 300.323(c).[^42] Interview with Coast Guard official, November 12, 2010.[^43] Press Release, Deepwater Horizon Incident Joint Information Center, Coast Guard Commandant Admiral Thad Allen
+29 Press Conference, Admiral Mary Landry and Doug Suttles, New Orleans, LA, April 28, 2010.
+
+30 Press Release, Deepwater Horizon Incident Joint Information Center Update: The Ongoing Administration-Wide
+
+Response to the BP Deepwater Horizon Oil Spill, July 15, 2010.[^31] Paul Purpura, "Guard Troops Going Home," Times-Picayune, October 21, 2010.
+
+32 40 C.F.R. § 300.322(b).
+
+33 40 C.F.R. § 300.305(d).
+
+34 Clifford Krauss, "Oil Spill's Blow to BP's Image May Eclipse Its Cost," New York Times, April 29, 2010.
+
+35 Office of Science and Technology, First Report of the President's Panel on Oil Spills (1969), 9.
+
+36 Interview with well control expert, October 14, 2010.
+
+37 Transcript, Office of the Press Secretary, Press Briefing on the BP Oil Spill in the Gulf Coast, April 29, 2010.
+
+38 Transcript, State of the Union with Candy Crowley, CNN, May 2, 2010.
+
+39 40 C.F.R. § 300.323; Campbell Robertson, "White House Takes a Bigger Role in the Oil Spill Cleanup," New York
+
+Times, April 29, 2010.[^40] 40 C.F.R. § 300.5.
+
+41 40 C.F.R. § 300.323(c).
+
+42 Interview with Coast Guard official, November 12, 2010.
+
+43 Press Release, Deepwater Horizon Incident Joint Information Center, Coast Guard Commandant Admiral Thad Allen
 
 Designated National Incident Commandant For Continued Response To BP Oil Spill, May 1, 2010.[^44] Thom Shanker, "Commander Accustomed to Scrutiny and Crises," New York Times, September 10, 2005; Matthew
 
 L. Wald, "A New, Experienced Protector for Navy in Home Waters," New York Times, November 9, 2001; Elizabeth
 
-Bumiller, "Casualty of Firestorm: Outrage, Bush, and FEMA Chief," New York Times, September 10, 2005.[^45] Editorial, "Allen Candid About Recovery," Advocate, December 11, 2005.[^46] Jim Tankersley, "The Government's 'Rock Star' in Charge of the Oil Spill," Los Angeles Times, June 1, 2010.
+Bumiller, "Casualty of Firestorm: Outrage, Bush, and FEMA Chief," New York Times, September 10, 2005.[^45] Editorial, "Allen Candid About Recovery," Advocate, December 11, 2005.
+
+46 Jim Tankersley, "The Government's 'Rock Star' in Charge of the Oil Spill," Los Angeles Times, June 1, 2010.
 
 %%page 329%%
 
@@ -4379,9 +4551,23 @@ Bumiller, "Casualty of Firestorm: Outrage, Bush, and FEMA Chief," New York Times
 
 104–5.[^48] Henry Fountain, "Notes from Wake of Blowout Outline Obstacles and Frustration," New York Times, June 21, 2010;
 
-Non-public BP document, May 6, 2010.[^49] Testimony of Harry Thierens, 106.[^50] Government science advisor, e-mail to Commission staff, October 7, 2010; Testimony of William Stringfellow, Hearing before the Deepwater Horizon Joint Investigation Team, August 25, 2010, 352.[^51] BP, Deepwater Horizon Accident Investigation Report (September 8, 2010), 150.[^52] Non-public BP document, May 7, 2010.[^53] David Barstow et al., "Regulators Failed to Address Risks in Oil Rig Fail-Safe Device," New York Times, June 20, 2010;
+Non-public BP document, May 6, 2010.[^49] Testimony of Harry Thierens, 106.
 
-Interview with senior administration official, November 8, 2010.[^54] FEMA, "Disasters Declared by Year or State," http://www.fema.gov/news/disaster_totals_annual.fema.[^55] 42 U.S.C. §§ 5121-5206.[^56] 40 C.F.R. § 300.105(c)(3).[^57] Interview with government official, August 24, 2010.[^58] Press Release, Office of the Governor, Governor Jindal Issues State Declaration of Emergency for Oil Leak, April 29,
+50 Government science advisor, e-mail to Commission staff, October 7, 2010; Testimony of William Stringfellow, Hearing before the Deepwater Horizon Joint Investigation Team, August 25, 2010, 352.[^51] BP, Deepwater Horizon Accident Investigation Report (September 8, 2010), 150.
+
+52 Non-public BP document, May 7, 2010.
+
+53 David Barstow et al., "Regulators Failed to Address Risks in Oil Rig Fail-Safe Device," New York Times, June 20, 2010;
+
+Interview with senior administration official, November 8, 2010.[^54] FEMA, "Disasters Declared by Year or State," http://www.fema.gov/news/disaster_totals_annual.fema.
+
+55 42 U.S.C. §§ 5121-5206.
+
+56 40 C.F.R. § 300.105(c)(3).
+
+57 Interview with government official, August 24, 2010.
+
+58 Press Release, Office of the Governor, Governor Jindal Issues State Declaration of Emergency for Oil Leak, April 29,
 
 2010.[^59] Press Release, Governor Barbour Issues State of Emergency for Mississippi Gulf Coast, April 30, 2010; Press Release,
 
@@ -4391,13 +4577,25 @@ Florida, Office of the Governor, Executive Order Number 10-99 (Emergency Managem
 
 30, 2010.[^60] Interview with government official, August 24, 2010; Interview with government official, September 13, 2010;
 
-Interview with government official, September 15, 2010.[^61] Interview with Coast Guard official, August 31, 2010.[^62] Interview with BP official, October 22, 2010; Interview with government official, October 5, 2010; Interview with government official, August 24, 2010; Interview with Coast Guard official, August 25, 2010.[^63] La. Rev. Stat. § 29: 727.[^64] Interview with government official, October 8, 2010.[^65] Interview with Coast Guard official, October 20, 2010.[^66] Interview with government official, October 8, 2010; Interview with government official, October 14, 2010.[^67] Testimony of Admiral Thad Allen, National Incident Commander, Hearing before the National Commission, September 27, 2010.[^68] Press Release, In Precautionary Move, LDWF and DHH Announce Closures Due to Oil Spill, April 30, 2010; Press
+Interview with government official, September 15, 2010.[^61] Interview with Coast Guard official, August 31, 2010.
+
+62 Interview with BP official, October 22, 2010; Interview with government official, October 5, 2010; Interview with government official, August 24, 2010; Interview with Coast Guard official, August 25, 2010.[^63] La. Rev. Stat. § 29: 727.
+
+64 Interview with government official, October 8, 2010.
+
+65 Interview with Coast Guard official, October 20, 2010.
+
+66 Interview with government official, October 8, 2010; Interview with government official, October 14, 2010.
+
+67 Testimony of Admiral Thad Allen, National Incident Commander, Hearing before the National Commission, September 27, 2010.[^68] Press Release, In Precautionary Move, LDWF and DHH Announce Closures Due to Oil Spill, April 30, 2010; Press
 
 Release, Alabama Department of Conservation and Natural Resources, Some State Waters Closed to Fishing, June 2,
 
 2010; Press Release, Mississippi Department of Marine Resources, Revised Precautionary Closure: Portions of Mississippi Marine Waters Reopen to Commercial and Recreational Fishing, June 4, 2010; Florida Fish and Wildlife Conservation Commission, Order No. EO 10-29, Emergency Closure of State Waters of the Gulf of Mexico in response to the
 
-Deepwater Horizon Oil Spill, June 13, 2010.[^69] NOAA, Office of Response and Restoration, Oil Forecast Outlook (April 23, 2010).[^70] Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Emergency Fisheries Closure in the Gulf of Mexico Due to the Deepwater Horizon Oil Spill, 75 Fed. Reg. 24,822 (May 6, 2010); NOAA Fisheries Service, Deepwater Horizon/
+Deepwater Horizon Oil Spill, June 13, 2010.[^69] NOAA, Office of Response and Restoration, Oil Forecast Outlook (April 23, 2010).
+
+70 Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Emergency Fisheries Closure in the Gulf of Mexico Due to the Deepwater Horizon Oil Spill, 75 Fed. Reg. 24,822 (May 6, 2010); NOAA Fisheries Service, Deepwater Horizon/
 
 BP Oil Spill: Size and Percent Coverage of Fishing Closures Due to BP Oil Spill (November 15, 2010), http://sero.nmfs.
 
@@ -4405,19 +4603,41 @@ noaa.gov/ClosureSizeandPercentCoverage.htm.[^71] Fisheries of the Caribbean, Gul
 
 Gulf of Mexico Due to the Deepwater Horizon Oil Spill, 75 Fed. Reg. 26,679 (May 12, 2010); NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Closures Due to BP Oil Spill.[^72] Fisheries of the Caribbean, Gulf of Mexico, and South Atlantic; Emergency Fisheries Closures in the Southeast Region
 
-Due to the Deepwater Horizon Oil Spill; Amendment 2, 75 Fed. Reg. 27,217 (May 14, 2010).[^73] NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Closures Due to BP Oil Spill.[^74] Interview with government official, October 12, 2010.[^75] BP, "Factsheet on BP Vessels of Opportunity Program" (July 7, 2010), 4, http://www.bp.com/liveassets/bp_internet/ globalbp/globalbp_uk_english/incident_response/STAGING/local_assets/downloads_pdfs/factsheet_bp_vessels_of_opportunity_program.pdf.[^76] National Incident Command, National Incident Commander Strategy Implementation Plan Version 5.0 (2010),
+Due to the Deepwater Horizon Oil Spill; Amendment 2, 75 Fed. Reg. 27,217 (May 14, 2010).[^73] NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Closures Due to BP Oil Spill.
+
+74 Interview with government official, October 12, 2010.
+
+75 BP, "Factsheet on BP Vessels of Opportunity Program" (July 7, 2010), 4, http://www.bp.com/liveassets/bp_internet/ globalbp/globalbp_uk_english/incident_response/STAGING/local_assets/downloads_pdfs/factsheet_bp_vessels_of_opportunity_program.pdf.[^76] National Incident Command, National Incident Commander Strategy Implementation Plan Version 5.0 (2010),
 
 474–75.
 
 %%page 330%%
 
-77 BP, Factsheet on BP Vessels of Opportunity Program, 2.[^78] Bruce Nolan, "Many Vietnamese fishers isolated by language from oil spill aid," Times-Picayune, May 7, 2010;
+77 BP, Factsheet on BP Vessels of Opportunity Program, 2.
 
-Mireya Navarro, "Spill Takes Toll on Gulf Workers' Psyches," New York Times, June 16, 2010; Jessica Ravitz, "Vietnamese Fishermen in Gulf Fight to Not Get Lost in Translation," CNN, June 25, 2010.[^79] BP, Factsheet on BP Vessels of Opportunity Program 5.[^80] Interview with BP official, October 22, 2010.[^81] 40 C.F.R. § 300.150.[^82] Rebecca Bratspies et al., From Ship to Shore: Reforming the National Contingency Plan to Improve Protections for Oil
+78 Bruce Nolan, "Many Vietnamese fishers isolated by language from oil spill aid," Times-Picayune, May 7, 2010;
+
+Mireya Navarro, "Spill Takes Toll on Gulf Workers' Psyches," New York Times, June 16, 2010; Jessica Ravitz, "Vietnamese Fishermen in Gulf Fight to Not Get Lost in Translation," CNN, June 25, 2010.[^79] BP, Factsheet on BP Vessels of Opportunity Program 5.
+
+80 Interview with BP official, October 22, 2010.
+
+81 40 C.F.R. § 300.150.
+
+82 Rebecca Bratspies et al., From Ship to Shore: Reforming the National Contingency Plan to Improve Protections for Oil
 
 Spill Cleanup Workers (Center for Progressive Reform, September 2010), 8–9.[^83] Interview with responder, November 17, 2010; Bryan Walsh, "Assessing the Health Effects of the Oil Spill," Time,
 
-June 25, 2010.[^84] Scott Deitchman, interview with Commission staff, November 29, 2010.[^85] Nicole Lurie, interview with Commission staff, October 6, 2010.[^86] Ibid.[^87] Deitchman, interview; Lurie, interview; Strategy Implementation Plan, 252.[^88] Molly Reid, "Only One Oil-slicked Bird Rescued so far from Gulf of Mexico Oil Spill," Times-Picayune, April 30, 2010.[^89] U.S. Fish and Wildlife Service, "Cumulative Impacts to Wildlife and Actions to Protect Wildlife in the Gulf of Mexico"
+June 25, 2010.[^84] Scott Deitchman, interview with Commission staff, November 29, 2010.
+
+85 Nicole Lurie, interview with Commission staff, October 6, 2010.
+
+86 Ibid.
+
+87 Deitchman, interview; Lurie, interview; Strategy Implementation Plan, 252.
+
+88 Molly Reid, "Only One Oil-slicked Bird Rescued so far from Gulf of Mexico Oil Spill," Times-Picayune, April 30, 2010.
+
+89 U.S. Fish and Wildlife Service, "Cumulative Impacts to Wildlife and Actions to Protect Wildlife in the Gulf of Mexico"
 
 (November 25, 2010), http://www.fws.gov/home/dhoilspill/pdfs/CumulativeImpactsBP.pdf.[^90] U.S. Fish and Wildlife Service, "Oil Spill Response" (May 2010), http://www.fws.gov/home/dhoilspill/pdfs/OilSpill-
 
@@ -4431,9 +4651,15 @@ Spills," Hearing Before the House Committee on Science and Technology, 111th Con
 
 "Advances in Oil Spill Cleanup Lag Since Valdez."[^95] Press Release, Deepwater Horizon Joint Information Center, New Effort to Collect; Review Oil Spill Response Solutions
 
-Announced, June 4, 2010.[^96] Commander Todd Offutt, e-mail to Commission staff, November 17, 2010.[^97] Interview with Coast Guard official, September 2, 2010.[^98] White House Office of the Press Secretary, Press Briefing by Press Secretary Robert Gibbs and National Incident Commander Thad Allen, July 1, 2010; U.S. Department of State, Deepwater Horizon Oil Spill Response: International
+Announced, June 4, 2010.[^96] Commander Todd Offutt, e-mail to Commission staff, November 17, 2010.
 
-Offers of Assistance from Governments and International Bodies Chart, June 18, 2010.[^99] 46 U.S.C. § 688.[^100] Interview with Coast Guard officials, August 3, 2010; API Joint Oil Spill Preparedness and Response Task Force, interview with Commission staff, October 12, 2010; Scott Segal and Kevin Ewing, interview with Commission staff,
+97 Interview with Coast Guard official, September 2, 2010.
+
+98 White House Office of the Press Secretary, Press Briefing by Press Secretary Robert Gibbs and National Incident Commander Thad Allen, July 1, 2010; U.S. Department of State, Deepwater Horizon Oil Spill Response: International
+
+Offers of Assistance from Governments and International Bodies Chart, June 18, 2010.[^99] 46 U.S.C. § 688.
+
+100 Interview with Coast Guard officials, August 3, 2010; API Joint Oil Spill Preparedness and Response Task Force, interview with Commission staff, October 12, 2010; Scott Segal and Kevin Ewing, interview with Commission staff,
 
 October 14, 2010; H. Clayton Cook Jr., Letter to the Editor, "Don't Blame Delays on Jones Act," Wall Street Journal,
 
@@ -4441,11 +4667,15 @@ July 20, 2010; U.S. Department of Homeland Security, Jones Act Fact Sheet (July 
 
 Center, Admiral Allen Provides Guidance to Ensure Expedited Jones Act Waiver Processing Should It Be Needed, June
 
-15, 2010.[^102] Non-public Coast Guard documents, June 29, 2010, June 30, 2010, and July 9, 2010.[^103] Coastal Response Research Center, Research & Development Needs for Making Decisions Regarding Dispersing Oil
+15, 2010.[^102] Non-public Coast Guard documents, June 29, 2010, June 30, 2010, and July 9, 2010.
+
+103 Coastal Response Research Center, Research & Development Needs for Making Decisions Regarding Dispersing Oil
 
 (April 2006), 1.[^104] Ramon Antonia Vargas, "Oil is Leaking from Well at Deepwater Horizon Explosion Site," Times-Picayune, April 24,
 
-2010.[^105] Interview with Coast Guard official, October 29, 2010.[^106] National Research Council, Committee on Understanding Oil Spill Dispersants, Oil Spill Dispersants: Efficacy and
+2010.[^105] Interview with Coast Guard official, October 29, 2010.
+
+106 National Research Council, Committee on Understanding Oil Spill Dispersants, Oil Spill Dispersants: Efficacy and
 
 Effects (2005), 2.[^107] Coastal Response Research Center, 1.[^108] National Research Council, Oil Spill Dispersants, 196, 274.
 
@@ -4453,35 +4683,79 @@ Effects (2005), 2.[^107] Coastal Response Research Center, 1.[^108] National Res
 
 109 Merv Fingas, A Review of Literature Related to Oil Spill Dispersants, 1997-2008 (September 2008),[^18] http://www.
 
-pwsrcac.org/docs/d0053000.pdf.[^110] Ibid., 25.[^111] Non-public Coast Guard document, April 23, 2010.[^112] RRT-6, FOSC Dispersant Pre-Approval Guidelines And Checklist (2001), iii-iv, http://www.losco.state.la.us/pdf_ docs/RRT6_Dispersant_Preapproval_2001.pdf; Region IV Regional Response Team Response and Technology Committee Dispersant Workgroup, Use of Dispersants in Region IV (1996), ii-1, http://www.nrt.org/production/NRT/
+pwsrcac.org/docs/d0053000.pdf.[^110] Ibid., 25.
 
-RRTHome.nsf/Resources/DUP/$file/1-RRT4DISP.PDF.[^113] 40 C.F.R. § 300.910(a).[^114] S.L. Ross Environmental Research, Ltd., Technology Assessment of the Use of Dispersants on Spills from Drilling and
+111 Non-public Coast Guard document, April 23, 2010.
 
-Production Facilities in the Gulf of Mexico Outer Continental Shelf (December 2000), Summary-1; Robert J. Fiocco and Alun Lewis, "Oil Spill Dispersants,"[^1] Pure Applied Chemistry (1999): 31.[^115] 40 C.F.R. § 300.910(b).[^116] Figures on the volume of dispersant use are either taken directly from, or calculated based on data in, the Operations and Ongoing Response daily reports for the Deepwater Horizon Response, available at www.restorethegulf.gov.[^117] 40 C.F.R. § 300.915 (a)(8).[^118] David Biello, "Is Using Dispersants on the BP Gulf Oil Spill Fighting Pollution with Pollution?" Scientific American,
+112 RRT-6, FOSC Dispersant Pre-Approval Guidelines And Checklist (2001), iii-iv, http://www.losco.state.la.us/pdf_ docs/RRT6_Dispersant_Preapproval_2001.pdf; Region IV Regional Response Team Response and Technology Committee Dispersant Workgroup, Use of Dispersants in Region IV (1996), ii-1, http://www.nrt.org/production/NRT/
 
-June 18, 2010.[^119] 40 C.F.R. § 300.915;[^40] C.F.R. Part 300 Appendix C.[^120] National Research Council, Oil Spill Dispersants, 68–69; Samuel K. Skinner and William K. Reilly, The Exxon Valdez
+RRTHome.nsf/Resources/DUP/$file/1-RRT4DISP.PDF.[^113] 40 C.F.R. § 300.910(a).
 
-Oil Spill: A Report to the President (May 1989), 17, App. A.[^121] David Hammer, "BP Clashes with Critics on Gulf of Mexico Oil Crisis Response," Times-Picayune, May 31, 2010.[^122] Elana Schor, "BP Continues to Use Surface Dispersants in Gulf Despite EPA Directive," New York Times, June 24,
+114 S.L. Ross Environmental Research, Ltd., Technology Assessment of the Use of Dispersants on Spills from Drilling and
 
-2010.[^123] Ernest Scheyder, "Nalco CEO on Gulf Coast to Defend Dispersant," Reuters, June 3, 2010.[^124] Interview with NOAA scientist, October, 21, 2010; Testimony of Lisa Jackson, Hearing before the National Commission, September 27, 2010.[^125] Dana Tulis and Mathy Stanislaus, interview with Commission staff, October 1, 2010.[^126] Kenneth Meade, e-mail to Commission staff, September 27, 2010.[^127] Tim Webb, "BP Boss Tony Hayward Admits Job is on the Line Over Deepwater Oil Spill," The Guardian, May 14,
+Production Facilities in the Gulf of Mexico Outer Continental Shelf (December 2000), Summary-1; Robert J. Fiocco and Alun Lewis, "Oil Spill Dispersants,"[^1] Pure Applied Chemistry (1999): 31.[^115] 40 C.F.R. § 300.910(b).
 
-2010.[^128] Tulis and Stanislaus, interview.[^129] EPA, Dispersant Monitoring and Assessment Directive for Subsurface Dispersant Application, May 10, 2010; EPA,
+116 Figures on the volume of dispersant use are either taken directly from, or calculated based on data in, the Operations and Ongoing Response daily reports for the Deepwater Horizon Response, available at www.restorethegulf.gov.[^117] 40 C.F.R. § 300.915 (a)(8).
+
+118 David Biello, "Is Using Dispersants on the BP Gulf Oil Spill Fighting Pollution with Pollution?" Scientific American,
+
+June 18, 2010.[^119] 40 C.F.R. § 300.915; 40 C.F.R. Part 300 Appendix C.[^120] National Research Council, Oil Spill Dispersants, 68–69; Samuel K. Skinner and William K. Reilly, The Exxon Valdez
+
+Oil Spill: A Report to the President (May 1989), 17, App. A.[^121] David Hammer, "BP Clashes with Critics on Gulf of Mexico Oil Crisis Response," Times-Picayune, May 31, 2010.
+
+122 Elana Schor, "BP Continues to Use Surface Dispersants in Gulf Despite EPA Directive," New York Times, June 24,
+
+2010.[^123] Ernest Scheyder, "Nalco CEO on Gulf Coast to Defend Dispersant," Reuters, June 3, 2010.
+
+124 Interview with NOAA scientist, October, 21, 2010; Testimony of Lisa Jackson, Hearing before the National Commission, September 27, 2010.[^125] Dana Tulis and Mathy Stanislaus, interview with Commission staff, October 1, 2010.
+
+126 Kenneth Meade, e-mail to Commission staff, September 27, 2010.
+
+127 Tim Webb, "BP Boss Tony Hayward Admits Job is on the Line Over Deepwater Oil Spill," The Guardian, May 14,
+
+2010.[^128] Tulis and Stanislaus, interview.
+
+129 EPA, Dispersant Monitoring and Assessment Directive for Subsurface Dispersant Application, May 10, 2010; EPA,
 
 Dispersant Monitoring and Assessment Directive for Subsurface Dispersant Application—Addendum 1, May 14,
 
-2010; EPA, Dispersant Monitoring and Assessment Directive, May 20, 2010; EPA, Dispersant Monitoring and Assessment Directive—Addendum 3, May 26, 2010.[^130] Testimony of Lisa Jackson, September 27, 2010.[^131] Richard Lynch, interview with Commission staff, October 13, 2010; Suttles, interview.[^132] Press Release, BP, Work Begins to Drill Relief Well to Stop Oil Spill, May 4, 2010.[^133] Press Release, White House, The Ongoing Administration-Wide Response to the Deepwater BP Oil Spill, May 6, 2010;
+2010; EPA, Dispersant Monitoring and Assessment Directive, May 20, 2010; EPA, Dispersant Monitoring and Assessment Directive—Addendum 3, May 26, 2010.[^130] Testimony of Lisa Jackson, September 27, 2010.
+
+131 Richard Lynch, interview with Commission staff, October 13, 2010; Suttles, interview.
+
+132 Press Release, BP, Work Begins to Drill Relief Well to Stop Oil Spill, May 4, 2010.
+
+133 Press Release, White House, The Ongoing Administration-Wide Response to the Deepwater BP Oil Spill, May 6, 2010;
 
 "Deepwater Team Attempts To Put 100-Tonne Box over Blown-out Oil Well," Associated Press, May 7, 2010; Matthew Bigg, "Oil From Gulf Spill Creeps Ashore in Louisiana," Reuters, May 6, 2010.[^134] Ian Urbina, Justin Gillis, and Clifford Krauss, "On Defensive, BP Readies Dome to Contain Spill," New York Times,
 
-May 3, 2010.[^135] Suttles, interview; Lynch, interview.[^136] Non-public BP document, May 7, 2010.[^137] Interview with well control expert, October 14, 2010; Interview with drilling expert, October 1, 2010.[^138] Lynch, interview.[^139] Campbell Robertson, "New Setback in Attempt to Contain Gulf Oil Spill," New York Times, May 8, 2010.[^140] Lynch, interview.[^141] Clifford Krauss, Henry Fountain, and John M. Broder, "Acrimony Behind the Scenes of Gulf Oil Spill," New York
+May 3, 2010.[^135] Suttles, interview; Lynch, interview.
+
+136 Non-public BP document, May 7, 2010.
+
+137 Interview with well control expert, October 14, 2010; Interview with drilling expert, October 1, 2010.
+
+138 Lynch, interview.
+
+139 Campbell Robertson, "New Setback in Attempt to Contain Gulf Oil Spill," New York Times, May 8, 2010.
+
+140 Lynch, interview.
+
+141 Clifford Krauss, Henry Fountain, and John M. Broder, "Acrimony Behind the Scenes of Gulf Oil Spill," New York
 
 Times, August 26, 2010.[^142] Interview with U.S. Geological Survey official, October 21, 2010.
 
 %%page 332%%
 
-143 Suttles, interview.[^144] Interview with U.S. Geological Survey official, October 21, 2010; Interview with Minerals Management Service official, October 15, 2010; Interview with well control expert, October 14, 2010.[^145] Sam Dolnick and Henry Fountain, "Unable to Stanch Oil, BP Will Try To Gather It," New York Times, May 5, 2010.[^146] Clifford Krauss and Michael Cooper, "Cap Slows Gulf Oil Leak as Engineers Move Cautiously," New York Times, June
+143 Suttles, interview.
 
-5, 2010.[^147] Lynch, interview.[^148] Jeremy Hsu, "Why Don't We Just Drop a Nuclear Bomb on the Gulf Oil Spill?" Christian Science Monitor, May 13,
+144 Interview with U.S. Geological Survey official, October 21, 2010; Interview with Minerals Management Service official, October 15, 2010; Interview with well control expert, October 14, 2010.[^145] Sam Dolnick and Henry Fountain, "Unable to Stanch Oil, BP Will Try To Gather It," New York Times, May 5, 2010.
+
+146 Clifford Krauss and Michael Cooper, "Cap Slows Gulf Oil Leak as Engineers Move Cautiously," New York Times, June
+
+5, 2010.[^147] Lynch, interview.
+
+148 Jeremy Hsu, "Why Don't We Just Drop a Nuclear Bomb on the Gulf Oil Spill?" Christian Science Monitor, May 13,
 
 2010.[^149] Testimony of Richard Camilli, "Sizing up the BP Oil Spill: Science and Engineering Measuring Methods," Briefing
 
@@ -4493,13 +4767,25 @@ Congress (May 19, 2010).[^150] John Amos, "Gulf Oil Spill Rate Must Be Much High
 
 Oil Spill—Bigger Than Exxon Valdez," Skytruth.org, April 28, 2010, http://blog.skytruth.org/2010/04/gulf-oilspill-bigger-than-exxon-valdez.html; John Amos, "Gulf Oil Spill—New Spill Calculation—Exxon Valdez Surpassed
 
-Today," Skytruth.org, May 1, 2010,http://blog.skytruth.org/2010/05/gulf-oil-spill-new-spill-rate.html.[^151] Richard Harris, "Gulf Spill May Far Exceed Official Estimates," National Public Radio, May 14, 2010, http:// www.npr.org/templates/story/story.php?storyId=126809525.[^152] Testimony of Steven Wereley (Professor, Purdue University), "Sizing up the BP Oil Spill: Science and Engineering
+Today," Skytruth.org, May 1, 2010,http://blog.skytruth.org/2010/05/gulf-oil-spill-new-spill-rate.html.
+
+151 Richard Harris, "Gulf Spill May Far Exceed Official Estimates," National Public Radio, May 14, 2010, http:// www.npr.org/templates/story/story.php?storyId=126809525.
+
+152 Testimony of Steven Wereley (Professor, Purdue University), "Sizing up the BP Oil Spill: Science and Engineering
 
 Measuring Methods," Briefing Before the Subcommittee on Energy and Environment of the House Committee on
 
-Energy and Commerce, 111th Congress (May 19, 2010).[^153] Harris, "Gulf Spill May Far Exceed Official Estimates."[^154] Transcript, Marcia McNutt, Deepwater Blowout Containment Conference, September 22, 2010.[^155] Press Release, Deepwater Horizon Incident Joint Information Center, Flow Rate Group Provides Preliminary Best
+Energy and Commerce, 111th Congress (May 19, 2010).[^153] Harris, "Gulf Spill May Far Exceed Official Estimates."
 
-Estimate of Oil Flowing From BP Oil Well, May 27, 2010.[^156] Marcia McNutt, Summary Preliminary Report from the Flow Rate Technical Group (June 2, 2010).[^157] Admiral Thad Allen, letter to Honorable Edward J. Markey, October 1, 2010, 12.[^158] Press Release, U.S Department of Energy, Secretary Salazar and Secretary Chu To Meet with Scientists and Engineers at BP Houston Command Center, May 11, 2010.[^159] Interview with U.S. Department of Energy official, November 8, 2010; Interview with government science advisor,
+154 Transcript, Marcia McNutt, Deepwater Blowout Containment Conference, September 22, 2010.
+
+155 Press Release, Deepwater Horizon Incident Joint Information Center, Flow Rate Group Provides Preliminary Best
+
+Estimate of Oil Flowing From BP Oil Well, May 27, 2010.[^156] Marcia McNutt, Summary Preliminary Report from the Flow Rate Technical Group (June 2, 2010).
+
+157 Admiral Thad Allen, letter to Honorable Edward J. Markey, October 1, 2010, 12.
+
+158 Press Release, U.S Department of Energy, Secretary Salazar and Secretary Chu To Meet with Scientists and Engineers at BP Houston Command Center, May 11, 2010.[^159] Interview with U.S. Department of Energy official, November 8, 2010; Interview with government science advisor,
 
 October 5, 2010; Interview with government science advisor, October 6, 2010.[^160] Kenneth Chang and Andrew Revkin, "At a Sleek Bioenergy Lab, a Lens on a Cabinet Pick," New York Times, December
 
@@ -4507,15 +4793,33 @@ October 5, 2010; Interview with government science advisor, October 6, 2010.[^16
 
 18, 2010; Interview with government science advisor, October 5, 2010.[^163] Interview with government science advisor, October 1, 2010; Interview with U.S. Department of Energy scientist,
 
-October 26, 2010.[^164] "Leno: 'Junk Shot,'" New York Times, June 1, 2010.[^165] Campbell Robertson, Clifford Krauss, and John M. Broder, "Oil Hits Home, Spreading Arc of Frustration," New York
+October 26, 2010.[^164] "Leno: 'Junk Shot,'" New York Times, June 1, 2010.
 
-Times, May 24, 2010.[^166] Lynch, interview.[^167] Non-public U.S. Department of Energy document, May 17, 2010; Non-public U.S. Department of Energy document, May 19, 2010.[^168] Tooms, interview.[^169] Interview with U.S. Department of the Interior official, October 21, 2010.[^170] Interview with government science advisor, October 6, 2010.[^171] Non-public BP document, May 31, 2010.[^172] Suttles, interview.[^173] Interview with government science advisor, October 6, 2010; Suttles, interview; Tooms, interview.[^174] Interview with Minerals Management Service official, October 15, 2010; Interview with well control expert, October
+165 Campbell Robertson, Clifford Krauss, and John M. Broder, "Oil Hits Home, Spreading Arc of Frustration," New York
+
+Times, May 24, 2010.[^166] Lynch, interview.
+
+167 Non-public U.S. Department of Energy document, May 17, 2010; Non-public U.S. Department of Energy document, May 19, 2010.[^168] Tooms, interview.
+
+169 Interview with U.S. Department of the Interior official, October 21, 2010.
+
+170 Interview with government science advisor, October 6, 2010.
+
+171 Non-public BP document, May 31, 2010.
+
+172 Suttles, interview.
+
+173 Interview with government science advisor, October 6, 2010; Suttles, interview; Tooms, interview.
+
+174 Interview with Minerals Management Service official, October 15, 2010; Interview with well control expert, October
 
 14, 2010.
 
 %%page 333%%
 
-175 Robertson, Krauss, and Broder, "Oil Hits Home, Spreading Arc of Frustration."[^176] Mimi Hall, Rick Jervis, and Allen Levin, "Is Oil Spill Becoming Obama's Katrina?," USA Today, May 27, 2010.
+175 Robertson, Krauss, and Broder, "Oil Hits Home, Spreading Arc of Frustration."
+
+176 Mimi Hall, Rick Jervis, and Allen Levin, "Is Oil Spill Becoming Obama's Katrina?," USA Today, May 27, 2010.
 
 %%page 334%%
 
@@ -4523,7 +4827,9 @@ ing Plan, May 17, 2010.
 
 %%page 338%%
 
-September 8, 2010.[^7] Brian Hamacher, "Wind Keeps Oil From Loop Current & Away From Florida Shores," Associated Press, July 19, 2010.[^8] Richard Camilli et al., "Tracking Hydrocarbon Plume Transport and Biodegradation at Deepwater Horizon," Science
+September 8, 2010.[^7] Brian Hamacher, "Wind Keeps Oil From Loop Current & Away From Florida Shores," Associated Press, July 19, 2010.
+
+8 Richard Camilli et al., "Tracking Hydrocarbon Plume Transport and Biodegradation at Deepwater Horizon," Science
 
 330, no. 6001 (2010): 201–204; David Valentine et al., "Propane Respiration Jump-Starts Microbial Response to a
 
@@ -4537,35 +4843,71 @@ Oil-Degrading Bacteria", Science 330, no. 6001 (2010): 208–211.[^9] Alan Krupn
 
 HistoricalSpillsGulfofMexico.pdf.[^12] Darryl L. Felder and David K. Camp, Gulf of Mexico Origin, Waters, and Biota: Volume I, Biodiversity (Corpus Christi,
 
-TX: Texas A&M University Press, 2009).[^13] Ibid.[^14] Christine Ribic et al., "Distribution of Seabirds in the Northern Gulf of Mexico in Relation to Mesoscale Features:
+TX: Texas A&M University Press, 2009).[^13] Ibid.
+
+14 Christine Ribic et al., "Distribution of Seabirds in the Northern Gulf of Mexico in Relation to Mesoscale Features:
 
 Initial Observations," ICES Journal of Marine Science 54 (1997): 545–551.[^15] S. Heileman and N. Rabalais, Gulf of Mexico: Large Marine Ecosystem Brief #5 (NOAA, 2009), http://www.lme.
 
-noaa.gov/index.php?option=com_content&view=article&id=51:lme5&catid=41:briefs&Itemid=72.[^16] David Biello, "The BP Spill's Growing Toll on the Sea Life of the Gulf," Yale Environment 360, June 9, 2010, http:// e360.yale.edu/content/feature.msp?id=2284.[^17] Holly K. Ober, Effects of Oil Spills on Marine and Coastal Wildlife (University of Florida, May 2010).[^18] International Bird Rescue Research Center, How Oil Affects Birds: Just a little bit of oil can be deadly (2010), http:// www.ibrrc.org/pdfs/IBRRC-How-oil-affects-birds.pdf.[^19] Camilli et al., "Tracking Hydrocarbon Plume Transport," 201–204.[^20] Oil Budget Calculator Technical Documentation.[^21] White House, Ongoing Administration-Wide Response to the Deepwater BP Oil Spill: By the Numbers to Date (August
+noaa.gov/index.php?option=com_content&view=article&id=51:lme5&catid=41:briefs&Itemid=72.[^16] David Biello, "The BP Spill's Growing Toll on the Sea Life of the Gulf," Yale Environment 360, June 9, 2010, http:// e360.yale.edu/content/feature.msp?id=2284.[^17] Holly K. Ober, Effects of Oil Spills on Marine and Coastal Wildlife (University of Florida, May 2010).
+
+18 International Bird Rescue Research Center, How Oil Affects Birds: Just a little bit of oil can be deadly (2010), http:// www.ibrrc.org/pdfs/IBRRC-How-oil-affects-birds.pdf.[^19] Camilli et al., "Tracking Hydrocarbon Plume Transport," 201–204.
+
+20 Oil Budget Calculator Technical Documentation.
+
+21 White House, Ongoing Administration-Wide Response to the Deepwater BP Oil Spill: By the Numbers to Date (August
 
 23, 2010), http://www.restorethegulf.gov/release/2010/08/23/ongoing-administration-wide-response-deepwaterbp-oil-spill.[^22] Unified Area Command, Shoreline Clean-up and Assessment Technique (SCAT) Map -- Maximum Oiling by Zone:
 
 Florida, November 11, 2010.[^23] Audubon Society, Oil and Birds: Too Close for Comfort. Louisiana's Coast Six Months into the BP Disaster (October
 
-2010).[^24] Dr. Holly Bik (University of New Hampshire), interview with Commission staff, October 28, 2010.[^25] NOAA, Environmental Sensitivity Index: Alabama (August 2007), 1, http://response.restoration.noaa.gov/book_ shelf/1458_SampleESI_AL2007.pdf.[^26] Joseph Dineen, Tidal Flat Habitats (Smithsonian Institution, 2010), http://www.sms.si.edu/irlspec/Tidal_Flats.htm.[^27] V. Grossi et al., "Burial, Exportation and Degradation of Acyclic Petroleum Hydrocarbons Following a Simulated Oil
+2010).[^24] Dr. Holly Bik (University of New Hampshire), interview with Commission staff, October 28, 2010.
+
+25 NOAA, Environmental Sensitivity Index: Alabama (August 2007), 1, http://response.restoration.noaa.gov/book_ shelf/1458_SampleESI_AL2007.pdf.[^26] Joseph Dineen, Tidal Flat Habitats (Smithsonian Institution, 2010), http://www.sms.si.edu/irlspec/Tidal_Flats.htm.
+
+27 V. Grossi et al., "Burial, Exportation and Degradation of Acyclic Petroleum Hydrocarbons Following a Simulated Oil
 
 Spill in Bioturbated Mediterranean Coastal Sediments," Chemosphere 48, no. 9 (2002): 947–954.[^28] Qianxin Lin and Irving Mendelssohn, "Evaluation of Tolerance Limits for Restoration and Phytoremediation with
 
 Spartina Alterniflora in Crude Oil-Contaminated Coastal Salt Marshes," in Proceedings of the 2008 International
 
-Oil Spill Conference (Washington, D.C.: American Petroleum Institute, 2008), 869-874, http://www.iosc.org/papers/2008%20148.pdf.[^29] Jeffrey Ball, "Storm-Tossed Boom Complicates Spill Cleanup," Wall Street Journal, July 27, 2010.[^30] Dr. Eugene Turner (Professor, Louisiana State University), e-mail to Commission staff, November 24, 2010.[^31] Dr. Eugene Turner (Professor, Louisiana State University), interview with Commission staff, November 4, 2010.[^32] Bob Marshall, "Oysters are uniquely sensitive to Gulf of Mexico oil spill," Times-Picayune, May 25, 2010.[^33] NOAA, MC252 Shoreline Current Oiling Situation Map – LA: As of 8/03/2010; Louisiana Department of Wildlife and
+Oil Spill Conference (Washington, D.C.: American Petroleum Institute, 2008), 869-874, http://www.iosc.org/papers/2008%20148.pdf.[^29] Jeffrey Ball, "Storm-Tossed Boom Complicates Spill Cleanup," Wall Street Journal, July 27, 2010.
+
+30 Dr. Eugene Turner (Professor, Louisiana State University), e-mail to Commission staff, November 24, 2010.
+
+31 Dr. Eugene Turner (Professor, Louisiana State University), interview with Commission staff, November 4, 2010.
+
+32 Bob Marshall, "Oysters are uniquely sensitive to Gulf of Mexico oil spill," Times-Picayune, May 25, 2010.
+
+33 NOAA, MC252 Shoreline Current Oiling Situation Map – LA: As of 8/03/2010; Louisiana Department of Wildlife and
 
 Fisheries, Oil Spill Response: Closure Maps, http://www.wlf.louisiana.gov/oilspill.[^34] Nicole Santa Cruz and P.J. Huffstutter, "Effort to Keep Oil Spill at Bay Tips Ecological Balance," Los Angeles Times,
 
 August 3, 2010.[^35] L. Scott Mills, Michael E. Soule and Daniel F. Doak, "The keystone-species concept in ecology and conservation,"
 
-BioScience 43, no. 4 (1993): 219–224.[^36] Mississippi Department of Marine Resources, Rebuilding Mississippi's Oyster Reefs (Fall 2009).[^37] Scott McMillion, The Reef Makers (Nature Conservancy, 2010).
+BioScience 43, no. 4 (1993): 219–224.[^36] Mississippi Department of Marine Resources, Rebuilding Mississippi's Oyster Reefs (Fall 2009).
+
+37 Scott McMillion, The Reef Makers (Nature Conservancy, 2010).
 
 %%page 339%%
 
 38 "The effect of the oil spill on Gulf fisheries: An Interview with Harriet Perry," Mississippi Public Broadcasting, August
 
-17, 2010.[^39] Harriet Perry, interview with Commission staff, October 28, 2010.[^40] Ibid.[^41] 16 U.S.C. § 1802(10).[^42] NOAA, Affected Gulf Resources (2010), http://www.gulfspillrestoration.noaa.gov/oil-spill/affected-gulf-resources/.[^43] NOAA, Bioaccumulation of Oil Chemicals in Seafood (May 2010).[^44] Ibid.[^45] Biello, "The BP Spill's Growing Toll On the Sea Life of the Gulf."[^46] NOAA, Affected Gulf Resources; National Incident Command Joint Analysis Group, Review of Preliminary Data to
+17, 2010.[^39] Harriet Perry, interview with Commission staff, October 28, 2010.
+
+40 Ibid.
+
+41 16 U.S.C. § 1802(10).
+
+42 NOAA, Affected Gulf Resources (2010), http://www.gulfspillrestoration.noaa.gov/oil-spill/affected-gulf-resources/.
+
+43 NOAA, Bioaccumulation of Oil Chemicals in Seafood (May 2010).
+
+44 Ibid.
+
+45 Biello, "The BP Spill's Growing Toll On the Sea Life of the Gulf."
+
+46 NOAA, Affected Gulf Resources; National Incident Command Joint Analysis Group, Review of Preliminary Data to
 
 Examine Oxygen Levels In the Vicinity of MC252#1: May 8 to August 9, 2010 (August 16, 2010).[^47] NOAA, Mississippi Canyon 252 Incident: Work Plan for the Collection of Data to Determine Impacts of the Deepwater
 
@@ -4579,21 +4921,39 @@ September 28, 2010.[^48] "Bluefin Tuna Hit Hard by 'Deepwater Horizon' Disaster,
 
 April 29, 2010.[^50] Unified Area Command, Deepwater Horizon Response Consolidated Fish and Wildlife Collection Report (November 1,
 
-2010).[^51] Steve Hampton, Estimating Bird Mortality (California Department of Fish and Game, November 2004).[^52] Testimony of Jane Lyder, Deputy Assistant Secretary Fish and Wildlife and Parks, Hearing before the National Commission, September 28, 2010.[^53] Our Natural Resources at Risk: The Short and Long-Term Impacts of the Deepwater Horizon Oil Spill, Before the
+2010).[^51] Steve Hampton, Estimating Bird Mortality (California Department of Fish and Game, November 2004).
+
+52 Testimony of Jane Lyder, Deputy Assistant Secretary Fish and Wildlife and Parks, Hearing before the National Commission, September 28, 2010.[^53] Our Natural Resources at Risk: The Short and Long-Term Impacts of the Deepwater Horizon Oil Spill, Before the
 
 House Subcommittee on Insular Affairs, Oceans, and Wildlife, 111th Cong. (June 10, 2010) (Statement of Timothy
 
-Ragen, Executive Director of the U.S. Marine Mammal Commission).[^54] NOAA, Affected Gulf Resources.[^55] Unified Area Command, Deepwater Horizon Response Consolidated Fish and Wildlife Collection Report.[^56] NOAA, Sea Turtles, Dolphins, and Whales and the Gulf of Mexico Oil Spill (2010), http://www.nmfs.noaa.gov/pr/ health/oilspill.htm.[^57] Joseph Schuman, "Dead Sperm Whale Found Near BP Oil Spill," AOL News, June 17, 2010.[^58] NOAA, Sea Turtles, Dolphins, and Whales and the Gulf of Mexico Oil Spill.[^59] Camilli et al., "Tracking Hydrocarbon Plume Transport"; Valentine et al., "Propane Respiration Jump-Starts Microbial
+Ragen, Executive Director of the U.S. Marine Mammal Commission).[^54] NOAA, Affected Gulf Resources.
+
+55 Unified Area Command, Deepwater Horizon Response Consolidated Fish and Wildlife Collection Report.
+
+56 NOAA, Sea Turtles, Dolphins, and Whales and the Gulf of Mexico Oil Spill (2010), http://www.nmfs.noaa.gov/pr/ health/oilspill.htm.[^57] Joseph Schuman, "Dead Sperm Whale Found Near BP Oil Spill," AOL News, June 17, 2010.
+
+58 NOAA, Sea Turtles, Dolphins, and Whales and the Gulf of Mexico Oil Spill.
+
+59 Camilli et al., "Tracking Hydrocarbon Plume Transport"; Valentine et al., "Propane Respiration Jump-Starts Microbial
 
 Response to a Deep Oil Spill"; Hazen et al., "Deep-Sea Oil Plume Enriches Indigenous Oil-Degrading Bacteria."[^60] National Incident Command Joint Analysis Group, Review of Preliminary Data to Examine Oxygen Levels In the
 
-Vicinity of MC252#1: May 8 to August 9, 2010 (August 16, 2010).[^61] Ibid.[^62] Ibid.[^63] A. Diercks et al., "Characterization of Subsurface Polycyclic Aromatic Hydrocarbons at the Deepwater Horizon Site,"
+Vicinity of MC252#1: May 8 to August 9, 2010 (August 16, 2010).[^61] Ibid.
 
-Geophysical Research Letters 37 (2010).[^64] Oil Budget Calculator Technical Documentation.[^65] Cain Burdeau and Seth Borenstein, "Where's the oil? On the Gulf floor, scientists say," Associated Press, September 13,
+62 Ibid.
+
+63 A. Diercks et al., "Characterization of Subsurface Polycyclic Aromatic Hydrocarbons at the Deepwater Horizon Site,"
+
+Geophysical Research Letters 37 (2010).[^64] Oil Budget Calculator Technical Documentation.
+
+65 Cain Burdeau and Seth Borenstein, "Where's the oil? On the Gulf floor, scientists say," Associated Press, September 13,
 
 2010; Steve Newborn, "Oil Found Deep in Gulf is Toxic to Tiny Marine Life," WUSF News, August 17, 2010, http:// www.wusf.usf.edu/news/2010/08/17/oil_found_deep_in_gulf_is_toxic_to_tiny_marine_life.[^66] Mark Schrope, "Oil spill cruise finds field of dead coral: Scientific Expedition Assesses Deep-Sea Damage in the Gulf of
 
-Mexico," Nature News, November 5, 2010, http://www.nature.com/news/2010/101105/full/news.2010.589.html.[^67] NOAA, "10 Famous Spills" (NOAA Incident News), http://www.incidentnews.gov/famous.[^68] Kim B. Ritchie and Brian D. Keller, eds., A Scientific Forum on the Gulf of Mexico: The Islands in the Stream Concept
+Mexico," Nature News, November 5, 2010, http://www.nature.com/news/2010/101105/full/news.2010.589.html.[^67] NOAA, "10 Famous Spills" (NOAA Incident News), http://www.incidentnews.gov/famous.
+
+68 Kim B. Ritchie and Brian D. Keller, eds., A Scientific Forum on the Gulf of Mexico: The Islands in the Stream Concept
 
 (NOAA, January 23, 2008), 6–8; John Farrington and Judith McDowell, "Mixing Oil and Water: Tracking the Sources and Impacts of Oil Pollution in the Marine Environment," Oceanus Magazine 42, no. 3 (2004): 1–4, http://www.
 
@@ -4601,9 +4961,21 @@ Mexico," Nature News, November 5, 2010, http://www.nature.com/news/2010/101105/f
 
 whoi.edu/cms/files/dfino/2005/4/v42n3-farrington_2285.pdf; Elliott A. Norse and John Amos, "Impacts, Perception, and Policy Implications of the Deepwater Horizon Oil and Gas Disaster," Environmental Law Reporter 40, no. 11 (2010): 11071; Deepwater Horizon Oil Spill: Scientific Symposium Meeting Summary (Consortium for Ocean
 
-Leadership, June 23, 2010), 15–16.[^69] 33 U.S.C. § 2706.[^70] 15 C.F.R. § 990.30; NOAA, Injury Assessment: Guidance Document for Natural Resource Damage Assessment Under the Oil Pollution Act of 1990 (August 1996).[^71] NOAA, Gulf Spill Restoration: Co-Trustees (2010), http://www.gulfspillrestoration.noaa.gov/about-us/co-trustees/.[^72] Discharge of Oil From Deepwater Horizon/Macondo Well, Gulf of Mexico; Intent to Conduct Restoration Planning, 75
+Leadership, June 23, 2010), 15–16.[^69] 33 U.S.C. § 2706.
 
-Fed. Reg. 60,800 (Oct. 1, 2010).[^73] NOAA, Gulf Spill Restoration: Co-Trustees.[^74] 15 C.F.R. § 990.10.[^75] 15 C.F.R. § 990.30.[^76] Ritchie and Keller, eds., A Scientific Forum on the Gulf of Mexico: The Islands in the Stream Concept, 6–8.[^77] 15 C.F.R. § 990.30; NOAA, Injury Assessment: Guidance Document for Natural Resource Damage Assessment Under the Oil Pollution Act of 1990.[^78] S.M. Gagliano, "Canals, Dredging, and Land Reclamation in the Louisiana Coastal Zone" in Hydrologic and Geologic
+70 15 C.F.R. § 990.30; NOAA, Injury Assessment: Guidance Document for Natural Resource Damage Assessment Under the Oil Pollution Act of 1990 (August 1996).[^71] NOAA, Gulf Spill Restoration: Co-Trustees (2010), http://www.gulfspillrestoration.noaa.gov/about-us/co-trustees/.
+
+72 Discharge of Oil From Deepwater Horizon/Macondo Well, Gulf of Mexico; Intent to Conduct Restoration Planning, 75
+
+Fed. Reg. 60,800 (Oct. 1, 2010).[^73] NOAA, Gulf Spill Restoration: Co-Trustees.
+
+74 15 C.F.R. § 990.10.
+
+75 15 C.F.R. § 990.30.
+
+76 Ritchie and Keller, eds., A Scientific Forum on the Gulf of Mexico: The Islands in the Stream Concept, 6–8.
+
+77 15 C.F.R. § 990.30; NOAA, Injury Assessment: Guidance Document for Natural Resource Damage Assessment Under the Oil Pollution Act of 1990.[^78] S.M. Gagliano, "Canals, Dredging, and Land Reclamation in the Louisiana Coastal Zone" in Hydrologic and Geologic
 
 Studies of Coastal Louisiana, Report no. 14 (Center for Wetland Studies, Louisiana State University, 1973); Robert A. Morton et al., Rapid Subsidence and Historical Wetland Loss in the Mississippi Delta Plain: Likely Causes and Future
 
@@ -4621,7 +4993,11 @@ Nesting and Hatchling Loggerhead Sea Turtles; NOAA, Mississippi Canyon 252: Prea
 
 Potential Exposure and Injuries of Nesting and Hatchling Kemp's Ridley Turtles; Testimony of Steve Murawski,
 
-September 28, 2010.[^81] Shaila Dewan, "The Oil Spill's Money Squeeze," New York Times, September 12, 2010.[^82] Press Release, National Science Foundation, Gulf Oil Spill: NSF Awards Grant to Study Effects of Oil and Dispersants on Louisiana Salt Marsh Ecosystem, August 16, 2010.[^83] Phil Taylor (Head, Oceans Section, Division of Ocean Sciences, National Science Foundation), e-mail to Commission staff, December 9, 2010.[^84] Dewan, "The Oil Spill's Money Squeeze."[^85] Press Release, BP, BP and the Gulf of Mexico Alliance Announce Implementation of BP's $500 Million Independent
+September 28, 2010.[^81] Shaila Dewan, "The Oil Spill's Money Squeeze," New York Times, September 12, 2010.
+
+82 Press Release, National Science Foundation, Gulf Oil Spill: NSF Awards Grant to Study Effects of Oil and Dispersants on Louisiana Salt Marsh Ecosystem, August 16, 2010.[^83] Phil Taylor (Head, Oceans Section, Division of Ocean Sciences, National Science Foundation), e-mail to Commission staff, December 9, 2010.[^84] Dewan, "The Oil Spill's Money Squeeze."
+
+85 Press Release, BP, BP and the Gulf of Mexico Alliance Announce Implementation of BP's $500 Million Independent
 
 Research Initiative, September 29, 2010, http://www.bp.com/genericarticle.do?categoryId=2012968&content
 
@@ -4631,11 +5007,15 @@ Id=7065262.[^86] Sea Grant, Oil Spill in the Gulf of Mexico: Deepwater Horizon O
 
 Tourism, Regional Effects on Perception/BP Oil Spill Survey Wave 1 Results (June 30, 2010); University of Minnesota Food Industry Center, "Continuous Consumer Confidence in Food Safety/Defense Tracking" (presentation, FDA
 
-Symposium, September 16, 2010).[^88] U.S. Census Bureau: 2007 Economic Census, 2007 Summary Tables: Selected Statistics by Economic Sector.[^89] NOAA, Deepwater Horizon/BP Oil Spill: Federal Fisheries Closure and Other Information (2010), http://sero.nmfs.
+Symposium, September 16, 2010).[^88] U.S. Census Bureau: 2007 Economic Census, 2007 Summary Tables: Selected Statistics by Economic Sector.
+
+89 NOAA, Deepwater Horizon/BP Oil Spill: Federal Fisheries Closure and Other Information (2010), http://sero.nmfs.
 
 noaa.gov/deepwater_horizon_oil_spill.htm.[^90] Testimony of Timothy Fitzgerald, Environmental Defense Fund, Hearing before the National Commission, September
 
-28, 2010.[^91] Testimony of Lt. Gov. Scott Angelle, Louisiana, Hearing before the National Commission, September 28, 2010.[^92] Campbell Robertson, "As Claims for Spill Losses Shift to Administrator, Queries Follow," New York Times, August 23,
+28, 2010.[^91] Testimony of Lt. Gov. Scott Angelle, Louisiana, Hearing before the National Commission, September 28, 2010.
+
+92 Campbell Robertson, "As Claims for Spill Losses Shift to Administrator, Queries Follow," New York Times, August 23,
 
 2010.[^93] Rob Shaw, "Clearwater BP Office Shells out for Claims," Tampa Bay Online, August 8, 2010, http://www2.tbo.com/ content/2010/aug/08/na-clearwater-bp-office-shells-out-for-claims/.[^94] David Fahrenthold and Kimberly Kindy, "Six Months After the Spill, BP's Money is Changing the Gulf as Much as the
 
@@ -4647,53 +5027,99 @@ Coast Economy (September 16, 2010), http://www.esa.doc.gov/drilling_moratorium.p
 
 June 16, 2010, http://www.bp.com/genericarticle.do?categoryId=2012968&contentId=7062966; Steven Mufson,
 
-"BP Details Plan for $20 Billion Claim Fund for Oil Spill in the Gulf of Mexico," Washington Post," June 17, 2010.[^97] Gulf Coast Claims Facility, GCCF Program Statistics - Overall Summary, November 23, 2010.[^98] Kenneth Feinberg, Final Report of the Special Master for the September 11th Victim Compensation Fund of 2001,
+"BP Details Plan for $20 Billion Claim Fund for Oil Spill in the Gulf of Mexico," Washington Post," June 17, 2010.[^97] Gulf Coast Claims Facility, GCCF Program Statistics - Overall Summary, November 23, 2010.
 
-Volume 1 (2010).[^99] 33 U.S.C. § 2702(b)(2)(E). The Oil Pollution Act recognizes the following categories of damages: (1) injury to natural resources (recoverable by federal or state trustees); (2) loss of real or personal property and any resultant economic losses (recoverable by an owner of that property); (3) loss of subsistence use of natural resources (recoverable by a subsistence user); (4) loss of revenues resulting from destruction of property or natural resource injury (recoverable by a government claimant); (5) loss of profits or impairment of earning capacity resulting from property loss or natural resource injury (recoverable by any claimant); and (6) costs of providing extra public services during or after spill response (recoverable by a government claimant);[^33] U.S.C. § 2702(b)(2).[^100] David Segal, "Should BP's Money Go Where the Oil Didn't?," New York Times, October 23, 2010 (noting that Kenneth Feinberg has "hired one of the country's foremost scholars on torts . . . to write a memorandum about the validity and value of proximity claims.").[^101] John Flesher, "Gold Rush On The Gulf: Researchers Clamor For Cash," ABC News, September 29, 2010.[^102] Mary Rickard, "Gulf Coast oil spill chills seafood industry," Reuters, May 12, 2010; Kat Kinsman and Sarah LeTrent,
+98 Kenneth Feinberg, Final Report of the Special Master for the September 11th Victim Compensation Fund of 2001,
 
-"Gulf Coast Chefs, Fishermen Fight Tide of Misinformation," CNN, May 12, 2010.[^103] NOAA, NOAA's Oil Spill Response: Fish Stocks in the Gulf of Mexico (May 12, 2010), http://www.response.restoration.noaa.gov/book_shelf/1886_Fish-Stocks-Gulf-fact-sheetv2.pdf.[^104] U.S. Energy Information Administration, Gulf of Mexico Fact Sheet (October 2010), http://www.eia.doe.gov/special/gulf_of_mexico/index.cfm.[^105] EPA, General Facts about the Gulf of Mexico, http://www.epa.gov/gmpo/about/facts.html#resources.[^106] NOAA, The Gulf of Mexico at a Glance: A Tool for the Gulf of Mexico Alliance and the American Public (June 2008), http://gulfofmexicoalliance.org/pdfs/gulf_glance_1008.pdf.[^107] U.S. Census Bureau: 2007 Economic Census, Statistics by Economic Sector. Compiled data from Gulf coast counties using the following industry codes: 451110, 487210, 713990, 114210, 721214, 532292, 721110, 721120,
+Volume 1 (2010).[^99] 33 U.S.C. § 2702(b)(2)(E). The Oil Pollution Act recognizes the following categories of damages: (1) injury to natural resources (recoverable by federal or state trustees); (2) loss of real or personal property and any resultant economic losses (recoverable by an owner of that property); (3) loss of subsistence use of natural resources (recoverable by a subsistence user); (4) loss of revenues resulting from destruction of property or natural resource injury (recoverable by a government claimant); (5) loss of profits or impairment of earning capacity resulting from property loss or natural resource injury (recoverable by any claimant); and (6) costs of providing extra public services during or after spill response (recoverable by a government claimant); 33 U.S.C. § 2702(b)(2).[^100] David Segal, "Should BP's Money Go Where the Oil Didn't?," New York Times, October 23, 2010 (noting that Kenneth Feinberg has "hired one of the country's foremost scholars on torts . . . to write a memorandum about the validity and value of proximity claims.").[^101] John Flesher, "Gold Rush On The Gulf: Researchers Clamor For Cash," ABC News, September 29, 2010.
 
-712190, 721199, 114111, 114112, 114119, 311711, 311712, 424490, 445220, 424420, 424460.[^108] NOAA, NOAA's Oil Spill Response: Fish Stocks in the Gulf of Mexico (May 12, 2010), http://www.response.restoration.noaa.gov/book_shelf/1886_Fish-Stocks-Gulf-fact-sheetv2.pdf.[^109] Ibid.[^110] NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Area Closures Due to BP Oil Spill
+102 Mary Rickard, "Gulf Coast oil spill chills seafood industry," Reuters, May 12, 2010; Kat Kinsman and Sarah LeTrent,
+
+"Gulf Coast Chefs, Fishermen Fight Tide of Misinformation," CNN, May 12, 2010.[^103] NOAA, NOAA's Oil Spill Response: Fish Stocks in the Gulf of Mexico (May 12, 2010), http://www.response.restoration.noaa.gov/book_shelf/1886_Fish-Stocks-Gulf-fact-sheetv2.pdf.[^104] U.S. Energy Information Administration, Gulf of Mexico Fact Sheet (October 2010), http://www.eia.doe.gov/special/gulf_of_mexico/index.cfm.[^105] EPA, General Facts about the Gulf of Mexico, http://www.epa.gov/gmpo/about/facts.html#resources.
+
+106 NOAA, The Gulf of Mexico at a Glance: A Tool for the Gulf of Mexico Alliance and the American Public (June 2008), http://gulfofmexicoalliance.org/pdfs/gulf_glance_1008.pdf.[^107] U.S. Census Bureau: 2007 Economic Census, Statistics by Economic Sector. Compiled data from Gulf coast counties using the following industry codes: 451110, 487210, 713990, 114210, 721214, 532292, 721110, 721120,
+
+712190, 721199, 114111, 114112, 114119, 311711, 311712, 424490, 445220, 424420, 424460.[^108] NOAA, NOAA's Oil Spill Response: Fish Stocks in the Gulf of Mexico (May 12, 2010), http://www.response.restoration.noaa.gov/book_shelf/1886_Fish-Stocks-Gulf-fact-sheetv2.pdf.[^109] Ibid.
+
+110 NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Area Closures Due to BP Oil Spill
 
 (2010), http://sero.nmfs.noaa.gov/ClosureSizeandPercentCoverage.htm.[^111] NOAA, Protocol for Interpretation and Use of Sensory Testing and Analytical Chemistry Results for Re-Opening Oil-
 
-Impacted Areas Closed to Seafood Harvesting (June 18, 2010).[^112] NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Area Closures Due to BP Oil Spill.[^113] Rob Holbert, "Spreading the Word about Gulf Seafood," Lagniappe 215, October 5, 2010.[^114] Testimony of William Walker, Executive Director Mississippi Department of Marine Resources, Hearing before the
+Impacted Areas Closed to Seafood Harvesting (June 18, 2010).[^112] NOAA, Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Area Closures Due to BP Oil Spill.
+
+113 Rob Holbert, "Spreading the Word about Gulf Seafood," Lagniappe 215, October 5, 2010.
+
+114 Testimony of William Walker, Executive Director Mississippi Department of Marine Resources, Hearing before the
 
 National Commission, September 28, 2010.[^115] Remarks of Jane Lubchenco, NOAA Administrator, American Bar Association's Section of Environment, Energy, and Resources Law Summit, New Orleans, September 30, 2010, http://www.noaanews.noaa.gov/stories2010/20101001_lubchenco_seer.html.[^116] Brad Jacobson, "Is Gulf Seafood Really Safe to Eat? Government Withholding Key Data on Seafood Testing, Scientists
 
-Say," AlterNet, October 7, 2010, http://www.alternet.org/food/148433/is_gulf_seafood_really_safe_to_eat_government_withholding_key_data_on_seafood_testing,_scientists_say.[^117] Travis Pillow, "Low Ball Spill Estimates May Have Hurt Florida Tourism," The Florida Independent, October 7, 2010.[^118] Testimony of Timothy Fitzgerald, Environmental Defense Fund, Hearing before the National Commission, September
+Say," AlterNet, October 7, 2010, http://www.alternet.org/food/148433/is_gulf_seafood_really_safe_to_eat_government_withholding_key_data_on_seafood_testing,_scientists_say.[^117] Travis Pillow, "Low Ball Spill Estimates May Have Hurt Florida Tourism," The Florida Independent, October 7, 2010.
 
-28, 2010.[^119] Jean R. Kinsey et al., "Index of Consumer Confidence in the Safety of the Food System," American Journal of Agricultural Economics 91, No. 5 (2009): 1470–1476 (citing H.G. Zucker, "The Variable Nature of News Media Influence," in Communication Yearbook 2, ed. B.D. Ruben [New Brunswick, NJ: Transaction Books, 1978], 225–40).[^120] Holbert, "Spreading the Word about Gulf Seafood."[^121] Wendy Kaufman, "Gulf Seafood Industry Works to Wipe Oil Off Image," National Public Radio, August 20, 2010.[^122] Press Release, NOAA, NOAA and FDA Announce Chemical Test for Dispersant in Gulf Seafood; All Samples Test Within Safety Threshold, October 29, 2010, http://www.noaanews.noaa.gov/stories2010/20101029_seafood.html.
+118 Testimony of Timothy Fitzgerald, Environmental Defense Fund, Hearing before the National Commission, September
+
+28, 2010.[^119] Jean R. Kinsey et al., "Index of Consumer Confidence in the Safety of the Food System," American Journal of Agricultural Economics 91, No. 5 (2009): 1470–1476 (citing H.G. Zucker, "The Variable Nature of News Media Influence," in Communication Yearbook 2, ed. B.D. Ruben [New Brunswick, NJ: Transaction Books, 1978], 225–40).[^120] Holbert, "Spreading the Word about Gulf Seafood."
+
+121 Wendy Kaufman, "Gulf Seafood Industry Works to Wipe Oil Off Image," National Public Radio, August 20, 2010.
+
+122 Press Release, NOAA, NOAA and FDA Announce Chemical Test for Dispersant in Gulf Seafood; All Samples Test Within Safety Threshold, October 29, 2010, http://www.noaanews.noaa.gov/stories2010/20101029_seafood.html.
 
 %%page 342%%
 
 123 Press Release, BP, Seafood Safety, Tourism and Coastal Restoration Funding Announced, November 1, 2010, http://
 
-> www.louisianagulfresponse.com/go/doc/3047/940587/; Press Release, Florida Department of Agriculture and Consumer Services, Bronson Announces That BP Will Pay $20 Million To Fund Seafood Inspections, Marketing Efforts In Wake Of Oil Spill, October 25, 2010. http://www.doacs.state.fl.us/press/2010/10252010_2.html.[^124] Paul Quinlan, "Gulf Spill: Ala., La. fighting over potential billions in BP penalties," Energy & Environment Daily,
+> www.louisianagulfresponse.com/go/doc/3047/940587/; Press Release, Florida Department of Agriculture and Consumer Services, Bronson Announces That BP Will Pay $20 Million To Fund Seafood Inspections, Marketing Efforts In Wake Of Oil Spill, October 25, 2010. http://www.doacs.state.fl.us/press/2010/10252010_2.html.
+
+124 Paul Quinlan, "Gulf Spill: Ala., La. fighting over potential billions in BP penalties," Energy & Environment Daily,
 
 November 23, 2010.[^125] U.S. Census Bureau: 2007 Economic Census, Statistics by Economic Sector. Compiled data from Gulf coast coun-
 
-> ties using the following industry codes: 451110, 487210, 713990, 114210, 721214, 532292, 721110, 721120, 712190, 721199.[^126] Ibid.[^127] Testimony of Keith Overton, Louisiana Shrimp Association, Hearing before the National Commission, July 12, 2010.[^128] Testimony of Michael Hecht, President Greater New Orleans Inc., Hearing before the National Commission, July 12,
+> ties using the following industry codes: 451110, 487210, 713990, 114210, 721214, 532292, 721110, 721120, 712190, 721199.
+
+126 Ibid.
+
+127 Testimony of Keith Overton, Louisiana Shrimp Association, Hearing before the National Commission, July 12, 2010.
+
+128 Testimony of Michael Hecht, President Greater New Orleans Inc., Hearing before the National Commission, July 12,
 
 2010.[^129] Louisiana Office of Tourism, Effects on Perception/BP Oil Spill Survey Wave 2 Results (August 16, 2010), http://crt.
 
 louisiana.gov/tourism/research/Documents/2010-11/NationalOilSpillReport20100816.pdf.[^130] Matthew R. Lee and Troy C. Blanchard, Health Impacts of Deepwater Horizon Oil Disaster on Coastal Louisiana Resi-
 
-> dents (Louisiana State University, July 2010), http://www.lsu.edu/pa/mediacenter/tipsheets/spill/publichealthre- port_2.pdf.[^131] Ibid.[^132] Brian Skoloff, "Final Well Sealing Small Comfort to Gulf Residents," ABC News, Sept. 16, 2010.[^133] Testimony of Grace Scire, Gulf Coast Regional Director, Boat People SOS, Hearing before the National Commission,
+> dents (Louisiana State University, July 2010), http://www.lsu.edu/pa/mediacenter/tipsheets/spill/publichealthre- port_2.pdf.
+
+131 Ibid.
+
+132 Brian Skoloff, "Final Well Sealing Small Comfort to Gulf Residents," ABC News, Sept. 16, 2010.
+
+133 Testimony of Grace Scire, Gulf Coast Regional Director, Boat People SOS, Hearing before the National Commission,
 
 July 13, 2010.[^134] Administration health officials (Department of Human Health Services, National Institute of Health, National
 
-> Institute of Environmental Health Sciences, and Occupational Safety and Health Administration), interviews with Commission staff, October 5, 2010.[^135] Dan Witters, "Gulf Coast Residents Worse Off Emotionally after BP Oil Spill," Gallup, September 28, 2010, http:// www.gallup.com/poll/143240/gulf-coast-residents-worse-off-emotionally-oil-spill.aspx.[^136] Jonathan White (Program policy Analyst, Administration for Children & Families), e-mail to Commission staff,
+> Institute of Environmental Health Sciences, and Occupational Safety and Health Administration), interviews with Commission staff, October 5, 2010.
+
+135 Dan Witters, "Gulf Coast Residents Worse Off Emotionally after BP Oil Spill," Gallup, September 28, 2010, http:// www.gallup.com/poll/143240/gulf-coast-residents-worse-off-emotionally-oil-spill.aspx.[^136] Jonathan White (Program policy Analyst, Administration for Children & Families), e-mail to Commission staff,
 
 November 16, 2010.[^137] David Abramson et al., Impact on Children and Families of the Deepwater Horizon Oil Spill: Preliminary Findings of the Coastal Population Impact Study (National Center for Disaster Preparedness, August 3, 2010).[^138] Matthew Lee et al., Health Impacts of Deepwater Horizon Oil Disaster on Coastal Louisiana Residents, (Louisiana
 
-State University, July 2010).[^139] Abramson et al., Impact on Children and Families of the Deepwater Horizon Oil Spill.[^140] Ibid.,9.
+State University, July 2010).[^139] Abramson et al., Impact on Children and Families of the Deepwater Horizon Oil Spill.
 
-Ibid.[^142] Testimony of Grace Scire.[^143] Sharon Cohen, "Vietnamese 'Lost' as Gulf Oil Spill Hits Community Hard," Associated Press, July 11, 2010.[^144] Hearing on Ensuring Justice for Victims of the Gulf Coast Oil Disaster, Before the Committee on the Judiciary, 111th
+140 Ibid.,9.
 
-Cong. (2010) (statement of Kenneth Feinberg, Administrator, Gulf Coast Claims Facility).[^145] Hearing before the National Commission, Panel 5: Community and Ecological Impacts, July 13, 2010.[^146] Brenda Robichaux (Houma Nation), interview with Commission staff, October 2010.[^147] Lawrence Palinkas et al., "Community Patterns of Psychiatric Disorders after the Exxon Valdez Oil Spill," American
+Ibid.[^142] Testimony of Grace Scire.
 
-Journal of Psychiatry 150 (1993): 1517-1523.[^148] Ibid.[^149] Catalina Arata et al., "Coping with Technological Disaster: An Application of the Conservation of Resources Model to the Exxon Valdez Oil Spill," International Society for Traumatic Stress 13, no. 1 (2000): 23–39.[^150] Stephen Braud and Jack Kruse, eds., Synthesis: Three Decades of Research on Socioeconomic Effects Related to Offshore Petroleum Development in Coastal Alaska (Minerals Management Service, May 2009), 306.[^151] Gina Solomon and Sarah Janssen, "Health Effects of the Gulf Oil Spill," Journal of the American Medical Association
+143 Sharon Cohen, "Vietnamese 'Lost' as Gulf Oil Spill Hits Community Hard," Associated Press, July 11, 2010.
+
+144 Hearing on Ensuring Justice for Victims of the Gulf Coast Oil Disaster, Before the Committee on the Judiciary, 111th
+
+Cong. (2010) (statement of Kenneth Feinberg, Administrator, Gulf Coast Claims Facility).[^145] Hearing before the National Commission, Panel 5: Community and Ecological Impacts, July 13, 2010.
+
+146 Brenda Robichaux (Houma Nation), interview with Commission staff, October 2010.
+
+147 Lawrence Palinkas et al., "Community Patterns of Psychiatric Disorders after the Exxon Valdez Oil Spill," American
+
+Journal of Psychiatry 150 (1993): 1517-1523.[^148] Ibid.
+
+149 Catalina Arata et al., "Coping with Technological Disaster: An Application of the Conservation of Resources Model to the Exxon Valdez Oil Spill," International Society for Traumatic Stress 13, no. 1 (2000): 23–39.[^150] Stephen Braud and Jack Kruse, eds., Synthesis: Three Decades of Research on Socioeconomic Effects Related to Offshore Petroleum Development in Coastal Alaska (Minerals Management Service, May 2009), 306.[^151] Gina Solomon and Sarah Janssen, "Health Effects of the Gulf Oil Spill," Journal of the American Medical Association
 
 304, no. 10 (2010): 1118–1119.[^152] Hearing on Ensuring Justice for Victims of the Gulf Coast Oil Disaster, Before the Committee on the Judiciary, 111th
 
@@ -4703,23 +5129,37 @@ Cong. (2010) (statement of Kenneth Feinberg, Administrator, Gulf Coast Claims Fa
 
 %%page 343%%
 
-154 National Institutes of Health officials, interviews with Commission staff, October 2010.[^155] Louisiana Office of Public Health, State Narrative for Louisiana: Maternal and Child Health Title V Block Grant,
+154 National Institutes of Health officials, interviews with Commission staff, October 2010.
+
+155 Louisiana Office of Public Health, State Narrative for Louisiana: Maternal and Child Health Title V Block Grant,
 
 Application for 2008/Annual Report for 2006 (October 4, 2007); See also "Agenda, Interagency Meeting – Gulf Oil
 
-Spill Workers' Study" (NIH Campus, Bethesda, Maryland, August 19, 2010), http://www.niehs.nih.gov/about/od/ programs/docs/agenda-aug19-2010.pdf.[^156] Editorial, "Ruling in Charity Hospital case is a significant victory: An editorial," Times-Picayune, April 4, 2010.[^157] Robin Rudowitz, Diane Rowland, and Adele Shartzer, "Health Care In New Orleans Before and After Hurricane Katrina," Health Affairs 25, no. 5 (2006): 393–406.[^158] Ibid.[^159] Louisiana Office of Public Health, State Narrative for Louisiana: Maternal and Child Health Title V Block Grant.[^160] U.S. Government Accountability Office, Hurricane Katrina: Federal Grants Have Helped Health Care Organizations
+Spill Workers' Study" (NIH Campus, Bethesda, Maryland, August 19, 2010), http://www.niehs.nih.gov/about/od/ programs/docs/agenda-aug19-2010.pdf.[^156] Editorial, "Ruling in Charity Hospital case is a significant victory: An editorial," Times-Picayune, April 4, 2010.
+
+157 Robin Rudowitz, Diane Rowland, and Adele Shartzer, "Health Care In New Orleans Before and After Hurricane Katrina," Health Affairs 25, no. 5 (2006): 393–406.[^158] Ibid.
+
+159 Louisiana Office of Public Health, State Narrative for Louisiana: Maternal and Child Health Title V Block Grant.
+
+160 U.S. Government Accountability Office, Hurricane Katrina: Federal Grants Have Helped Health Care Organizations
 
 Provide Primary Care, but Challenges Remain (July 2009).[^161] Karen B. DeSalvo, "Community Health Clinics: Bringing Quality Care Closer to New Orleanians," in The New Orleans Index at Five, Amy Liu and Allison Plyer, eds. (Brookings Institution, August 2010).
 
 Chapter Seven 1 Louisiana Coastal Protection and Restoration Authority, Fiscal Year 2011 Annual Plan: Integrated Ecosystem
 
-Restoration and Hurricane Protection in Coastal Louisiana (April 2010), 2–3.[^2] U.S. Environmental Protection Agency, Mississippi River Gulf of Mexico Watershed Nutrient Task Force, Hypoxia 101, http://www.epa.gov/owow_keep/msbasin/hypoxia101.htm.[^3] Complaint at ¶ 28, Louisiana v. Triton Asset Leasing GmBH al., No. 2:10-cv-03059 (E.D. La. September 14, 2010).[^4] Ray Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill (September 28,
+Restoration and Hurricane Protection in Coastal Louisiana (April 2010), 2–3.[^2] U.S. Environmental Protection Agency, Mississippi River Gulf of Mexico Watershed Nutrient Task Force, Hypoxia 101, http://www.epa.gov/owow_keep/msbasin/hypoxia101.htm.[^3] Complaint at ¶ 28, Louisiana v. Triton Asset Leasing GmBH al., No. 2:10-cv-03059 (E.D. La. September 14, 2010).
+
+4 Ray Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill (September 28,
 
 2010).[^5] Charles Simenstad et al., "When is Restoration Not? Incorporating Landscape-Scale Processes to Restore Self-Sustaining
 
 Ecosystems in Coastal Wetland Restoration," Ecological Engineering 26, no. 1 (2006): 28, 31.[^6] For background about "resiliency," see C.S. Holling, "Resilience and Stability of Ecological Systems," Annual Review of
 
-Ecology and Systematics 24 (1973): 1–23.[^7] Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill, 26.[^8] U.S. Geological Survey, The Gulf of Mexico Hypoxic Zone, http://toxics.usgs.gov/hypoxia/hypoxic_zone.html.[^9] Mississippi River/Gulf of Mexico Watershed Nutrient Task Force, Gulf Hypoxia Action Plan 2008—For Reducing,
+Ecology and Systematics 24 (1973): 1–23.[^7] Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill, 26.
+
+8 U.S. Geological Survey, The Gulf of Mexico Hypoxic Zone, http://toxics.usgs.gov/hypoxia/hypoxic_zone.html.
+
+9 Mississippi River/Gulf of Mexico Watershed Nutrient Task Force, Gulf Hypoxia Action Plan 2008—For Reducing,
 
 Mitigating, and Controlling Hypoxia in the Northern Gulf of Mexico and Improving Water Quality in the Mississippi
 
@@ -4739,7 +5179,9 @@ Biology Institute), interview with Commission staff, October 18, 2010; Larry McK
 
 Management), interview with Commission staff, October 21, 2010; Barry Gold (Moore Foundation), interview with
 
-Commission staff, Sept. 13, 2010.[^14] NOAA, Coastal and Marine Spatial Planning Examples, http://www.msp.noaa.gov/examples/index.html.[^15] United Nations Educational, Scientific and Cultural Organization (UNESCO), Marine Spatial Planning Initiative: Norway, http://www.unesco-ioc-marinesp.be/spatial_management_practice/norway.[^16] Bureau of Ocean Energy Management, Regulation and Enforcement, Outer Continental Shelf Lands Act, http://www.
+Commission staff, Sept. 13, 2010.[^14] NOAA, Coastal and Marine Spatial Planning Examples, http://www.msp.noaa.gov/examples/index.html.
+
+15 United Nations Educational, Scientific and Cultural Organization (UNESCO), Marine Spatial Planning Initiative: Norway, http://www.unesco-ioc-marinesp.be/spatial_management_practice/norway.[^16] Bureau of Ocean Energy Management, Regulation and Enforcement, Outer Continental Shelf Lands Act, http://www.
 
 gomr.boemre.gov/homepg/regulate/regs/laws/ocslasht.html.[^17] For geospatial maps on uses of Gulf resources, see NOAA, Multipurpose Marine Cadastre, http://csc-s-web-p.csc.
 
@@ -4747,37 +5189,137 @@ noaa.gov/MMC.[^18] Cornelius Hammer et al., "Framework of stock-recovery strateg
 
 %%page 344%%
 
-ICES Journal of Marine Science 67 (2010): 1849–1855.[^19] For background overview of deltaic science described in this section, see, e.g., Committee on the Restoration and Protection of Coastal Louisiana, Drawing Louisiana's New Map: Addressing Land Loss in Coastal Louisiana (National Research Council, 2006), 29–42; James M. Coleman, Harry H. Roberts, and Gregory W. Stone, "Mississippi River Delta: An Overview," Journal of Coastal Research 14, no. 3 (1998): 698–716; John W. Day Jr. et al., "Restoration of the Mississippi Delta: Lessons from Hurricanes Katrina and Rita," Science 315, no. 5819 (2007): 1679–1684.[^20] "Storm Death Toll at 31 as Floodwaters Recede," CNN, May 6, 2010; Paul Kemp, "Use the Mississippi River to stop the oil," CNN, June 13, 2010. The approximate travel time of water along the Ohio and then Mississippi Rivers can be estimated by noting the sequence of peak water levels along the river, in the National Weather Service's Lower Mississippi River Forecast Center, particularly the summary data for weeks ending in May 5, 2010, and May 12, 2010. River Summary Archives for these dates and the rest of 2010 can be found here: http://www.srh.noaa.gov/ lmrfc/?n=riversummaryarchive.[^21] For description of Atchafalaya diversion, see, e.g., Martin Reuss, Designing the Bayous: The Control of Water in the Atchafalaya Basin, 1800-1995 (Alexandria, VA: Texas A&M University Press, 2004).[^22] U.S. Geological Survey, Northern Gulf of Mexico (NGOM) Ecosystem Change and Hazard Susceptibility Project— Overview (2010), http://ngom.usgs.gov/overview/intro.html.[^23] Kevin Kosar, Disaster Response and Appointment of a Recovery Czar: The Executive Branch's Response to the Flood of 1927 (Congressional Research Service, 2005).[^24] 33 U.S.C. § 702c (1928).[^25] U.S. Army Corps of Engineers, The Mississippi River & Tributaries (Mr&T) Project (2010), http://www.mvn.usace. army.mil/bcarre/missproj.asp.[^26] Testimony of Senator Mary Landrieu, Louisiana, Hearing before the National Commission, September 28, 2010.[^27] Coastal Wetlands Planning, Protection, And Restoration Act: Summary of Wetland Benefits for Priority List Projects (2010), http://www.lacoast.gov/reports/wva/CWPPRA%20project%20benefits%202010-06-18.pdf; U.S. Army Corps of Engineers, Louisiana Coastal Area Ecosystem Restoration Plan (2010), http://www.lca.gov/.[^28] Robert H. Meade and John A. Moody. "Causes for the decline of suspended-sediment discharge in the Mississippi River system, 1940-2007," Hydrological Process 24 (2010): 35–49; Robert B. Jacobson, Dale W. Blevins and Chance J. Bitner, "Sediment Regime Constraints on River Restoration—an Example from the Lower Missouri River," Geological Society of America Special Papers 451 (2009): 1–22.[^29] Day et al., "Restoration of the Mississippi Delta: Lessons from Hurricanes Katrina and Rita," 1682.[^30] Robert Morton et al., Rapid Subsidence and Historical Wetland Loss in the Mississippi Delta Plain: Likely Causes and Future Implications, (U.S. Geological Survey, 2005).[^31] John Barras et al., Land Area Change in Coastal Louisiana—a Multidecadal Perspective (from 1956 to 2006) (U.S. Geological Survey, 2008).[^32] Torbjorn Tornqvist et al., "Mississippi Delta Subsidence Primarily Caused by Compaction of Holocene Strata," Nature Geoscience 1 (2008): 173–176.[^33] Roy Dokka, "Modern-Day Tectonic Subsidence in Coastal Louisiana," Geology 34, no. 4 (2006): 281–84.[^34] Robert Morton, "Evidence of Regional Subsidence and Associated Interior Wetland Loss Induced by Hydrocarbon Production, Gulf Coast Region, USA," Environmental Geology 50 (2006): 261–74.[^35] Committee on the Restoration and Protection of Coastal Louisiana, Drawing Louisiana's New Map: Addressing Land Loss in Coastal Louisiana (National Research Council, 2006), 48.[^36] James G. Gosselink, "Comments on 'Wetland Loss in the Northern Gulf of Mexico: Multiple Hardworking Hypoth- eses,'" Estuaries 24, no. 4 (August 2001), 636–651.[^37] James B. Johnston, Donald R. Cahoon and Megan K. La Peyre, Outer Continental Shelf (OCS)-Related Pipelines and Navigation Canals in the Western and Central Gulf of Mexico: Relative Impacts on Wetland Habitats and Effectiveness of Mitigation (Minerals Management Service, 2009), 157.[^38] Richard Campanella, Time and Place in New Orleans: Past Geographies in the Present Day (Gretna, LA: Pelican Publishing Company, Inc., 2002), 78; Panama Canal Authority, Frequently asked questions, http://www.pancanal.com/ eng/general/canal-faqs/index.html.[^39] U.S. Army Corps of Engineers, Integrated Final Report to Congress and Legislative Environmental Impact Statement for the Mississippi River—Gulf Outlet Deep-Draft De-Authorization Study (June 2008), 6.[^40] Gary P. Shaffer et al., "The MRGO Navigation Project: A Massive Human-Induced Environmental, Economic, and Storm Disaster," Journal of Coastal Research, Special Issue 54 (2009): 206–224; R.H. Caffey and B. Leblanc, 'Closing' the Mississippi River Gulf Outlet: Environmental and Economic Considerations (LACoast.gov, 2002).[^41] Day et al., "Restoration of the Mississippi Delta: Lessons from Hurricanes Katrina and Rita," 1679–1684.[^42] U.S. Army Corps of Engineers, MRGO Navigation Channel Closure (2010), http://www.mrgo.gov/MRGO_Closure. aspx.[^43] James Coleman, "James P. Morgan: Scientific Contributions," Journal of Coastal Research 14, no. 3 (1998): 868–69.
+ICES Journal of Marine Science 67 (2010): 1849–1855.[^19] For background overview of deltaic science described in this section, see, e.g., Committee on the Restoration and Protection of Coastal Louisiana, Drawing Louisiana's New Map: Addressing Land Loss in Coastal Louisiana (National Research Council, 2006), 29–42; James M. Coleman, Harry H. Roberts, and Gregory W. Stone, "Mississippi River Delta: An Overview," Journal of Coastal Research 14, no. 3 (1998): 698–716; John W. Day Jr. et al., "Restoration of the Mississippi Delta: Lessons from Hurricanes Katrina and Rita," Science 315, no. 5819 (2007): 1679–1684.[^20] "Storm Death Toll at 31 as Floodwaters Recede," CNN, May 6, 2010; Paul Kemp, "Use the Mississippi River to stop the oil," CNN, June 13, 2010. The approximate travel time of water along the Ohio and then Mississippi Rivers can be estimated by noting the sequence of peak water levels along the river, in the National Weather Service's Lower Mississippi River Forecast Center, particularly the summary data for weeks ending in May 5, 2010, and May 12, 2010. River Summary Archives for these dates and the rest of 2010 can be found here: http://www.srh.noaa.gov/ lmrfc/?n=riversummaryarchive.[^21] For description of Atchafalaya diversion, see, e.g., Martin Reuss, Designing the Bayous: The Control of Water in the Atchafalaya Basin, 1800-1995 (Alexandria, VA: Texas A&M University Press, 2004).[^22] U.S. Geological Survey, Northern Gulf of Mexico (NGOM) Ecosystem Change and Hazard Susceptibility Project— Overview (2010), http://ngom.usgs.gov/overview/intro.html.[^23] Kevin Kosar, Disaster Response and Appointment of a Recovery Czar: The Executive Branch's Response to the Flood of 1927 (Congressional Research Service, 2005).[^24] 33 U.S.C. § 702c (1928).
+
+25 U.S. Army Corps of Engineers, The Mississippi River & Tributaries (Mr&T) Project (2010), http://www.mvn.usace. army.mil/bcarre/missproj.asp.[^26] Testimony of Senator Mary Landrieu, Louisiana, Hearing before the National Commission, September 28, 2010.
+
+27 Coastal Wetlands Planning, Protection, And Restoration Act: Summary of Wetland Benefits for Priority List Projects (2010), http://www.lacoast.gov/reports/wva/CWPPRA%20project%20benefits%202010-06-18.pdf; U.S. Army Corps of Engineers, Louisiana Coastal Area Ecosystem Restoration Plan (2010), http://www.lca.gov/.[^28] Robert H. Meade and John A. Moody. "Causes for the decline of suspended-sediment discharge in the Mississippi River system, 1940-2007," Hydrological Process 24 (2010): 35–49; Robert B. Jacobson, Dale W. Blevins and Chance J. Bitner, "Sediment Regime Constraints on River Restoration—an Example from the Lower Missouri River," Geological Society of America Special Papers 451 (2009): 1–22.[^29] Day et al., "Restoration of the Mississippi Delta: Lessons from Hurricanes Katrina and Rita," 1682.
+
+30 Robert Morton et al., Rapid Subsidence and Historical Wetland Loss in the Mississippi Delta Plain: Likely Causes and Future Implications, (U.S. Geological Survey, 2005).[^31] John Barras et al., Land Area Change in Coastal Louisiana—a Multidecadal Perspective (from 1956 to 2006) (U.S. Geological Survey, 2008).[^32] Torbjorn Tornqvist et al., "Mississippi Delta Subsidence Primarily Caused by Compaction of Holocene Strata," Nature Geoscience 1 (2008): 173–176.[^33] Roy Dokka, "Modern-Day Tectonic Subsidence in Coastal Louisiana," Geology 34, no. 4 (2006): 281–84.
+
+34 Robert Morton, "Evidence of Regional Subsidence and Associated Interior Wetland Loss Induced by Hydrocarbon Production, Gulf Coast Region, USA," Environmental Geology 50 (2006): 261–74.[^35] Committee on the Restoration and Protection of Coastal Louisiana, Drawing Louisiana's New Map: Addressing Land Loss in Coastal Louisiana (National Research Council, 2006), 48.[^36] James G. Gosselink, "Comments on 'Wetland Loss in the Northern Gulf of Mexico: Multiple Hardworking Hypoth- eses,'" Estuaries 24, no. 4 (August 2001), 636–651.[^37] James B. Johnston, Donald R. Cahoon and Megan K. La Peyre, Outer Continental Shelf (OCS)-Related Pipelines and Navigation Canals in the Western and Central Gulf of Mexico: Relative Impacts on Wetland Habitats and Effectiveness of Mitigation (Minerals Management Service, 2009), 157.[^38] Richard Campanella, Time and Place in New Orleans: Past Geographies in the Present Day (Gretna, LA: Pelican Publishing Company, Inc., 2002), 78; Panama Canal Authority, Frequently asked questions, http://www.pancanal.com/ eng/general/canal-faqs/index.html.[^39] U.S. Army Corps of Engineers, Integrated Final Report to Congress and Legislative Environmental Impact Statement for the Mississippi River—Gulf Outlet Deep-Draft De-Authorization Study (June 2008), 6.[^40] Gary P. Shaffer et al., "The MRGO Navigation Project: A Massive Human-Induced Environmental, Economic, and Storm Disaster," Journal of Coastal Research, Special Issue 54 (2009): 206–224; R.H. Caffey and B. Leblanc, 'Closing' the Mississippi River Gulf Outlet: Environmental and Economic Considerations (LACoast.gov, 2002).[^41] Day et al., "Restoration of the Mississippi Delta: Lessons from Hurricanes Katrina and Rita," 1679–1684.
+
+42 U.S. Army Corps of Engineers, MRGO Navigation Channel Closure (2010), http://www.mrgo.gov/MRGO_Closure. aspx.[^43] James Coleman, "James P. Morgan: Scientific Contributions," Journal of Coastal Research 14, no. 3 (1998): 868–69.
 
 %%page 345%%
 
-44 Avenal v. United States, 33 Fed. Cl. 778 (1995).[^45] National Research Council, Panel on River Basin and Coastal Systems Planning, Committee to Assess the U.S. Army Corps of Engineers Methods of Analysis and Peer Review for Water Resources Project Planning, River Basins and Coastal Systems Planning Within the U.S. Army Corps of Engineers (2004): 104.[^46] S.M. Gagliano, "Canals, Dredging, and Land Reclamation in the Louisiana Coastal Zone" in Hydrologic and Geologic Studies of Coastal Louisiana, Report no. 14 (Center for Wetland Studies, Louisiana State University, 1973).[^47] N.J. Craig, R.E. Turner, and J.W. Day Jr., "Land Loss in Coastal Louisiana (U.S.A.)" Environmental Management 3, no. 2 (1979): 133–144.[^48] Paul Kemp, Vice-President, National Audobon Society, interview with Commission staff, October 7, 2010.[^49] Denise Reed, "Seeing the Future of the Louisiana Coast," in After the Storm: Restoring America's Gulf Coast Wetlands, A Special Report of the National Wetlands Newsletter (Washington, D.C.: Environmental Law Institute, 2006), 45.[^50] Michael Blum and Harry Roberts, "Drowning of the Mississippi Delta due to Insufficient Sediment Supply and Global Sea-Level Rise," Nature Geoscience (June 28, 2009): 489–490.[^51] U.S. General Accountability Office, Coastal Wetlands: Lessons Learned from Past Efforts in Louisiana Could Help Guide Future Restoration and Protection (December 14, 2007), 10.[^52] U.S. Army Corps of Engineers, Coastal Wetlands Planning, Protection & Restoration Act (2010), http://www.mvn. usace.army.mil/pd/cwppra_mission.htm.[^53] Mark Schleifstein, "Breaux Act Anniversary Marks 20 Years of Coastal Restoration Progress," Times-Picayune, April 8, 2010; Caring for Coastal Wetlands: The Coastal Wetlands Planning, Protection and Restoration Act (LaCoast.gov, November 2007), http://lacoast.gov/new/Pubs/Report_data/Caring.aspx.[^54] Louisiana Wetlands Conservation and Restoration Task Force and the Wetlands Conservation and Restoration Authority, Coast 2050: Toward a Sustainable Coastal Louisiana, an Executive Summary (Louisiana Department of Natural Resources, 1998).[^55] Joel Bourne, "Gone with the Water," National Geographic, October 2004; Water Resources Development Act of 2007, Pub. L. No. 110-114, Title VII, 121 Stat. 1041, 1270–1283 (2007).[^56] State of Louisiana, Coastal Protection & Restoration: Funding Sources, http://www.coastal.la.gov/index.cfm?md=pa gebuilder&tmp=home&nid=123&pnid=79&pid=82&catid=0&elid=0.[^57] Donald T. Resio and Joannes J. Westerink, "Modeling the physics of storm surges," Physics Today 61, no. 9 (September 2008): 32–38.[^58] Louisiana Office of Coastal Protection and Restoration, Library, Coastal Initiatives & Programs, "http://coastal.la.gov/ index.cfm?md=pagebuilder&tmp=home&nid=82&pnid=76&pid=77&catid=0&elid=0 ("Donaldsonville to the Gulf Panel" and "Morganza to the Gulf Project").[^59] U.S. Army Corps of Engineers, Mississippi Coastal Improvement Program (MsCIP) Interim Report (2006).[^60] Supplemental Appropriations Act of 2009, H.R. 2346, Title IV.[^61] U.S. Army Corps of Engineers, Louisiana Coastal Protection and Restoration (LACPR): Final Technical Report (June 2009).[^62] Louisiana Coastal Protection and Restoration Authority, Fiscal Year 2008 Annual Plan: Ecosystem Restoration and Hurricane Protection in Coastal Louisiana (April 2007); Coastal Protection and Restoration Authority of Louisiana, Fiscal Year 2011 Annual Plan: Integrated Ecosystem Restoration and Hurricane Protection in Coastal Louisiana, (Baton Rouge, 2010): xiii.[^63] Bureau of Ocean Energy Management, Regulation and Enforcement, Coastal Impact Assistance Program (CIAP), http://www.boemre.gov/offshore/ciapmain.htm.[^64] Bureau of Ocean Energy Management, Regulation and Enforcement, Gulf of Mexico Energy Security Act (GOMESA), http://www.boemre.gov/offshore/GOMESARevenueSharing.htm.[^65] White House Council on Environmental Quality, Gulf Coast Ecosystem Restoration, http://www.whitehouse.gov/ administration/eop/ceq/initiatives/gulfcoast.[^66] Louisiana-Mississippi Gulf Coast Ecosystem Restoration Working Group, Roadmap for Restoring Ecosystem Resiliency and Sustainability (March 2010).[^67] Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill.[^68] Executive Order 13554: Establishing the Gulf Coast Ecosystem Restoration Task Force, 75 Fed. Reg. 62313, October 5, 2010.[^69] Frank Donze, "Gulf Coast Restoration Chief Ray Mabus has no Oil Spill Answers Just Yet," Times-Picayune, June 29, 2010.[^70] Estimate based on John Barras, Land Area Change in Coastal Louisiana—a Multidecadal Perspective (from 1956 to 2006) (U.S.Geological Survey, 2008).[^71] Louisiana-Mississippi Gulf Coast Ecosystem Restoration Working Group, Roadmap for Restoring Ecosystem Resiliency and Sustainability, 2–3.
+44 Avenal v. United States, 33 Fed. Cl. 778 (1995).
+
+45 National Research Council, Panel on River Basin and Coastal Systems Planning, Committee to Assess the U.S. Army Corps of Engineers Methods of Analysis and Peer Review for Water Resources Project Planning, River Basins and Coastal Systems Planning Within the U.S. Army Corps of Engineers (2004): 104.[^46] S.M. Gagliano, "Canals, Dredging, and Land Reclamation in the Louisiana Coastal Zone" in Hydrologic and Geologic Studies of Coastal Louisiana, Report no. 14 (Center for Wetland Studies, Louisiana State University, 1973).[^47] N.J. Craig, R.E. Turner, and J.W. Day Jr., "Land Loss in Coastal Louisiana (U.S.A.)" Environmental Management 3, no. 2 (1979): 133–144.[^48] Paul Kemp, Vice-President, National Audobon Society, interview with Commission staff, October 7, 2010.
+
+49 Denise Reed, "Seeing the Future of the Louisiana Coast," in After the Storm: Restoring America's Gulf Coast Wetlands, A Special Report of the National Wetlands Newsletter (Washington, D.C.: Environmental Law Institute, 2006), 45.[^50] Michael Blum and Harry Roberts, "Drowning of the Mississippi Delta due to Insufficient Sediment Supply and Global Sea-Level Rise," Nature Geoscience (June 28, 2009): 489–490.[^51] U.S. General Accountability Office, Coastal Wetlands: Lessons Learned from Past Efforts in Louisiana Could Help Guide Future Restoration and Protection (December 14, 2007), 10.[^52] U.S. Army Corps of Engineers, Coastal Wetlands Planning, Protection & Restoration Act (2010), http://www.mvn. usace.army.mil/pd/cwppra_mission.htm.[^53] Mark Schleifstein, "Breaux Act Anniversary Marks 20 Years of Coastal Restoration Progress," Times-Picayune, April 8, 2010; Caring for Coastal Wetlands: The Coastal Wetlands Planning, Protection and Restoration Act (LaCoast.gov, November 2007), http://lacoast.gov/new/Pubs/Report_data/Caring.aspx.[^54] Louisiana Wetlands Conservation and Restoration Task Force and the Wetlands Conservation and Restoration Authority, Coast 2050: Toward a Sustainable Coastal Louisiana, an Executive Summary (Louisiana Department of Natural Resources, 1998).[^55] Joel Bourne, "Gone with the Water," National Geographic, October 2004; Water Resources Development Act of 2007, Pub. L. No. 110-114, Title VII, 121 Stat. 1041, 1270–1283 (2007).[^56] State of Louisiana, Coastal Protection & Restoration: Funding Sources, http://www.coastal.la.gov/index.cfm?md=pa gebuilder&tmp=home&nid=123&pnid=79&pid=82&catid=0&elid=0.[^57] Donald T. Resio and Joannes J. Westerink, "Modeling the physics of storm surges," Physics Today 61, no. 9 (September 2008): 32–38.[^58] Louisiana Office of Coastal Protection and Restoration, Library, Coastal Initiatives & Programs, "http://coastal.la.gov/ index.cfm?md=pagebuilder&tmp=home&nid=82&pnid=76&pid=77&catid=0&elid=0 ("Donaldsonville to the Gulf Panel" and "Morganza to the Gulf Project").[^59] U.S. Army Corps of Engineers, Mississippi Coastal Improvement Program (MsCIP) Interim Report (2006).
+
+60 Supplemental Appropriations Act of 2009, H.R. 2346, Title IV.
+
+61 U.S. Army Corps of Engineers, Louisiana Coastal Protection and Restoration (LACPR): Final Technical Report (June 2009).[^62] Louisiana Coastal Protection and Restoration Authority, Fiscal Year 2008 Annual Plan: Ecosystem Restoration and Hurricane Protection in Coastal Louisiana (April 2007); Coastal Protection and Restoration Authority of Louisiana, Fiscal Year 2011 Annual Plan: Integrated Ecosystem Restoration and Hurricane Protection in Coastal Louisiana, (Baton Rouge, 2010): xiii.[^63] Bureau of Ocean Energy Management, Regulation and Enforcement, Coastal Impact Assistance Program (CIAP), http://www.boemre.gov/offshore/ciapmain.htm.[^64] Bureau of Ocean Energy Management, Regulation and Enforcement, Gulf of Mexico Energy Security Act (GOMESA), http://www.boemre.gov/offshore/GOMESARevenueSharing.htm.[^65] White House Council on Environmental Quality, Gulf Coast Ecosystem Restoration, http://www.whitehouse.gov/ administration/eop/ceq/initiatives/gulfcoast.[^66] Louisiana-Mississippi Gulf Coast Ecosystem Restoration Working Group, Roadmap for Restoring Ecosystem Resiliency and Sustainability (March 2010).[^67] Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill.
+
+68 Executive Order 13554: Establishing the Gulf Coast Ecosystem Restoration Task Force, 75 Fed. Reg. 62313, October 5, 2010.[^69] Frank Donze, "Gulf Coast Restoration Chief Ray Mabus has no Oil Spill Answers Just Yet," Times-Picayune, June 29, 2010.[^70] Estimate based on John Barras, Land Area Change in Coastal Louisiana—a Multidecadal Perspective (from 1956 to 2006) (U.S.Geological Survey, 2008).[^71] Louisiana-Mississippi Gulf Coast Ecosystem Restoration Working Group, Roadmap for Restoring Ecosystem Resiliency and Sustainability, 2–3.
 
 %%page 346%%
 
-72 Testimony of Brian McPeek, Regional Managing Director for North America, The Nature Conservancy, Hearing before the National Commission, September 28, 2010.[^73] Testimony of James T.B. Tripp, Senior Counsel, Environmental Defense Fund, Hearing before the National Commission, Sept 28, 2010; Testimony of Brian McPeek.[^74] Gulf of Mexico Energy Security Act of 2006, Pub. L. 109-432.[^75] 33 U.S.C. § 2706(e).[^76] 33 U.S.C. § 1321(b)(7);[^40] C.F.R. § 19.4. According to the current official government estimate, the Macondo well released approximately 4.9 million barrels of oil over the course of the spill (±10 percent), roughly 830,000 barrels of which were captured at the wellhead using the top hat and other devices. Deepwater Horizon MC252 Gulf Incident Oil Budget (August 1, 2010), http://www.noaanews.noaa.gov/stories2010/PDFs/DeepwaterHorizonOil- Budget20100801.pdf); Joel Achenbach and David Fahrenthold, "Oil spill dumped 4.9 million barrels into Gulf of Mexico, latest measure shows," Washington Post, August 3, 2010 (range is $4.5 billion to $18 billion, based on estimated 4.1 million barrels discharged); Jonathan Tilove, "BP disputes government estimates of volume of Gulf of Mexico oil spill;" Times-Picayune, December 3, 2010 (penalties could be as high as $21 billion, based on estimate of 4.9 million barrels discharged). BP has not released its own estimate for the total release from the well, but it disputes the government's figures on the grounds that, among other things, they fail to take into account "significant flow impediments" and "rely on incomplete or inaccurate information, rest in large part on assumptions that have not been validated, and are subject to far greater uncertainties than have been acknowledged." BP, letter to the National Commission, October 21, 2010, 1, 4.[^77] Testimony of Richard Stewart, New York University School of Law, Hearing before the National Commission, September 28, 2010.[^78] 33 U.S.C. § 1319(c)(1).[^79] 33 U.S.C. § 1319(c)(2).[^80] 26 U.S.C. § 9509.
+72 Testimony of Brian McPeek, Regional Managing Director for North America, The Nature Conservancy, Hearing before the National Commission, September 28, 2010.[^73] Testimony of James T.B. Tripp, Senior Counsel, Environmental Defense Fund, Hearing before the National Commission, Sept 28, 2010; Testimony of Brian McPeek.[^74] Gulf of Mexico Energy Security Act of 2006, Pub. L. 109-432.
+
+75 33 U.S.C. § 2706(e).
+
+76 33 U.S.C. § 1321(b)(7); 40 C.F.R. § 19.4. According to the current official government estimate, the Macondo well released approximately 4.9 million barrels of oil over the course of the spill (±10 percent), roughly 830,000 barrels of which were captured at the wellhead using the top hat and other devices. Deepwater Horizon MC252 Gulf Incident Oil Budget (August 1, 2010), http://www.noaanews.noaa.gov/stories2010/PDFs/DeepwaterHorizonOil- Budget20100801.pdf); Joel Achenbach and David Fahrenthold, "Oil spill dumped 4.9 million barrels into Gulf of Mexico, latest measure shows," Washington Post, August 3, 2010 (range is $4.5 billion to $18 billion, based on estimated 4.1 million barrels discharged); Jonathan Tilove, "BP disputes government estimates of volume of Gulf of Mexico oil spill;" Times-Picayune, December 3, 2010 (penalties could be as high as $21 billion, based on estimate of 4.9 million barrels discharged). BP has not released its own estimate for the total release from the well, but it disputes the government's figures on the grounds that, among other things, they fail to take into account "significant flow impediments" and "rely on incomplete or inaccurate information, rest in large part on assumptions that have not been validated, and are subject to far greater uncertainties than have been acknowledged." BP, letter to the National Commission, October 21, 2010, 1, 4.[^77] Testimony of Richard Stewart, New York University School of Law, Hearing before the National Commission, September 28, 2010.[^78] 33 U.S.C. § 1319(c)(1).
+
+79 33 U.S.C. § 1319(c)(2).
+
+80 26 U.S.C. § 9509.
 
 %%page 347%%
 
-9 Andrew B. Wilson, "BP's Disaster: No Surprise to Folks in the Know," CBS, June 22, 2010, http://www.cbsnews.com/ stories/2010/06/22/opinion/main6605248.shtml.[^10] Oberon Houston, email message to Commission staff.[^11] The Report of the BP US Refineries Independent Safety Review Panel, (January 2007).[^12] U.S. Chemical Safety and Hazard Investigation Board, Investigation Report: Refinery Explosion and Fire (March
+9 Andrew B. Wilson, "BP's Disaster: No Surprise to Folks in the Know," CBS, June 22, 2010, http://www.cbsnews.com/ stories/2010/06/22/opinion/main6605248.shtml.[^10] Oberon Houston, email message to Commission staff.
 
-2007),145, http://www.csb.gov/assets/document/CSBFinalReportBP.pdf.[^13] Testimony of Carolyn W. Merritt, Chairman and Chief Executive Officer, U.S. Chemical Safety Board, before the U.S. Senate Committee on Environment and Public Works, Subcommittee on Transportation Safety, Infrastructure Security, and Water Quality, July 10, 2007.[^14] Ibid.[^15] U.S. Chemical Safety and Hazard Investigation Board, Investigation Report: Refinery Explosion and Fire, 19-20.[^16] Ibid.[^17] Ibid.[^18] The Report of the BP US Refineries Independent Safety Review Panel.[^19] Ibid.[^20] Ibid., 224.[^21] Ibid.,[^165]
+11 The Report of the BP US Refineries Independent Safety Review Panel, (January 2007).
 
-22 "BP's Alaskan Oil Spill Triggers Lawsuit," 815 TCE: The Chemical Engineer (May 2009): 9.[^23] Ibid.[^24] Ibid.[^25] "BP Faces Lawsuits for 2006 Spills,"[^32] Oil Spill Intelligence Report, no. 17 (April 16, 2009); "BP Settles with Royalty
+12 U.S. Chemical Safety and Hazard Investigation Board, Investigation Report: Refinery Explosion and Fire (March
 
-Trust,"[^32] Oil Spill Intelligence Report, no. 22 (May 21, 2009).[^26] The Report of the BP US Refineries Independent Safety Review Panel, 1.[^27] Ibid., XVII.[^28] L. Duane Wilson, Independent Expert Third Annual Report, 2001 covering January-December 2009 (March 2010): 4.[^29] Ibid., 25–26.[^30] Elmer Danenberger, interview with Commission staff, December 9, 2010.[^31] BP, Deepwater Horizon Accident Investigation Report (September 8, 2010).[^32] "BP Report Attacked," New Scientist, 2 October, 2010, 4.[^33] Richard Sears, e-mail message to Commission staff, November 23, 2010.[^34] Consulting Services Lloyd's Register EMEA Aberdeen Energy, North American Division Summary Report (March
+2007),145, http://www.csb.gov/assets/document/CSBFinalReportBP.pdf.[^13] Testimony of Carolyn W. Merritt, Chairman and Chief Executive Officer, U.S. Chemical Safety Board, before the U.S. Senate Committee on Environment and Public Works, Subcommittee on Transportation Safety, Infrastructure Security, and Water Quality, July 10, 2007.[^14] Ibid.
 
-2010).[^35] Ibid., App. C, 6.[^36] Ibid., App. C, 8, 11.[^37] Ibid., 10-11.[^38] Ibid., 29.[^39] Halliburton, History of Halliburton, http://www.halliburton.com/AboutUs/default.aspx?navid=970&pageid=2312.[^40] Ibid.[^41] Russell Gold and Ben Casselman, "Drilling Process Attracts Scrutiny in Rig Explosion," Wall Street Journal, April 30,
+15 U.S. Chemical Safety and Hazard Investigation Board, Investigation Report: Refinery Explosion and Fire, 19-20.
+
+16 Ibid.
+
+17 Ibid.
+
+18 The Report of the BP US Refineries Independent Safety Review Panel.
+
+19 Ibid.
+
+20 Ibid., 224.
+
+21 Ibid.,[^165]
+
+22 "BP's Alaskan Oil Spill Triggers Lawsuit," 815 TCE: The Chemical Engineer (May 2009): 9.
+
+23 Ibid.
+
+24 Ibid.
+
+25 "BP Faces Lawsuits for 2006 Spills,"[^32] Oil Spill Intelligence Report, no. 17 (April 16, 2009); "BP Settles with Royalty
+
+Trust,"[^32] Oil Spill Intelligence Report, no. 22 (May 21, 2009).[^26] The Report of the BP US Refineries Independent Safety Review Panel, 1.
+
+27 Ibid., XVII.
+
+28 L. Duane Wilson, Independent Expert Third Annual Report, 2001 covering January-December 2009 (March 2010): 4.
+
+29 Ibid., 25–26.
+
+30 Elmer Danenberger, interview with Commission staff, December 9, 2010.
+
+31 BP, Deepwater Horizon Accident Investigation Report (September 8, 2010).
+
+32 "BP Report Attacked," New Scientist, 2 October, 2010, 4.
+
+33 Richard Sears, e-mail message to Commission staff, November 23, 2010.
+
+34 Consulting Services Lloyd's Register EMEA Aberdeen Energy, North American Division Summary Report (March
+
+2010).[^35] Ibid., App. C, 6.
+
+36 Ibid., App. C, 8, 11.
+
+37 Ibid., 10-11.
+
+38 Ibid., 29.
+
+39 Halliburton, History of Halliburton, http://www.halliburton.com/AboutUs/default.aspx?navid=970&pageid=2312.
+
+40 Ibid.
+
+41 Russell Gold and Ben Casselman, "Drilling Process Attracts Scrutiny in Rig Explosion," Wall Street Journal, April 30,
 
 2010.[^42] Montara Commission of Inquiry, Report of the Montara Commission of Inquiry, (June 17, 2010), http://www.ret.
 
-gov.au/Department/Documents/MIR/Montara-Report.pdf.[^43] Ibid., 63.[^44] Ibid.[^45] Commission staff created this map and associated table using loss of well control data available on BOEMRE's Incident Statistics and Summary webpage. Although efforts were made to accurately capture and illustrate every loss of well control from 1996-2009 in the U.S. Gulf of Mexico, the data presented does not purport to be comprehensive, but instead illustrative of the fact that losses of well control, blowouts, potential catastrophes, and near misses are more frequent than commonly reported and publicized.[^46] Commission staff analysis of International Regulators Forum International Association of Drilling Contractors and
+gov.au/Department/Documents/MIR/Montara-Report.pdf.[^43] Ibid., 63.
+
+44 Ibid.
+
+45 Commission staff created this map and associated table using loss of well control data available on BOEMRE's Incident Statistics and Summary webpage. Although efforts were made to accurately capture and illustrate every loss of well control from 1996-2009 in the U.S. Gulf of Mexico, the data presented does not purport to be comprehensive, but instead illustrative of the fact that losses of well control, blowouts, potential catastrophes, and near misses are more frequent than commonly reported and publicized.[^46] Commission staff analysis of International Regulators Forum International Association of Drilling Contractors and
 
 International Association of Oil and Gas Producers data. See http://www.irfoffshoresafety.com/country/performance/, http://www.iadc.org/asp.htm, and http://www.ogp.org.uk/index.asp?main=publications/main.asp.
 
 %%page 348%%
 
-47 Testimony of Eric Milito, Upstream Director, American Petroleum Institute, "The Deepwater Horizon Incident: Are The Minerals Management Service Regulations Doing The Job?" Hearing Before the Subcommittee on Energy and Mineral Resources of the House Committee on Natural Resources, 111th Congress (2010) ("Since 1924, API has developed industry standards and practices that promote reliability and safety through the use of proven engineering practices. . . . API standards are developed through a collaborative effort among industry experts, technical experts from government, and other interested stakeholders. The industry has helped create more than 500 standards, including some 240 exploration and production standards that address offshore operations.")[^48] American Petroleum Institute, API 2010 Publics Programs and Services Catalog (March 2010), http://www.api.org/ Standards/upload/2010_Catalog_web.pdf.[^49] American Petroleum Institute, "Certifications recognized around the world," Training and Certifications Program brochure (August 9, 2009), http://www.api.org/certifications/upload/ENGLISH_SUMMARY_BROCH.pdf.[^50] Testimony of Eric Milito ("Seventy-eight of these standards are referenced in Minerals Management Service regulations."). For MMS rulemakings that incorporate industry standards into regulations over time, see Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 61 Fed. Reg. 60,019 (November 26, 1996); Oil and Gas and Sulphur Operations in the Outer Continental Shelf—Pipelines and Pipeline Rights-of-Way, 72 Fed. Reg. 56,442 (October 3, 2007); Press Release, Minerals Management Service, Minerals Management Service to Adopt the Latest Edition of Industry Standard on Fixed Offshore Production Platforms, April 21, 2003, http://www.boemre.gov/ooc/ press/2003/press4-21.htm.[^51] Letter from Allen Verret, Offshore Operators Committee, and Tim Sampson, American Petroleum Institute, to the U.S. Minerals Management Service (September 15, 2009), http://www.scribd.com/doc/30588089/Joint-API-OOC-Letter- to-MMS; American Petroleum Institute and Offshore Operators Committee, "Safety and Environmental Management Systems for Outer Continental Shelf Oil and Gas Operations," Public Comment (September 15, 2009), http://www. boemre.gov/federalregister/PublicComments/AD15SafetyEnvMgmtSysforOCSOilGasOperations/OOCAPICom- mentLetter9-15-09.pdf; American Petroleum Institute, "Postlease Operations Safety," Public Comment (July 1, 1998), http://www.boemre.gov/federalregister/PublicComments/Sub_A_Comments/prorule.pdf, http://www.boemre.gov/ federalregister/PublicComments/Sub_A_Comments/subacomm.pdf.[^52] Commission staff held several meetings during August and September 2010 with representatives of major oil and gas companies during which the role of API in standard setting processing, including the impact of API's broader advocacy role on those standards, was discussed.[^53] T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?" (Offshore Technology Conference [OTC] Paper 8111, May 1996).[^54] Letter from Allen Verret, Offshore Operators Committee, and Tim Sampson, American Petroleum Institute, to the U.S. Minerals Management Service (September 15, 2009), http://www.scribd.com/doc/30588089/Joint-API-OOC-Letter- to-MMS; Offshore Operators Committee and American Petroleum Institute, "Oil, Gas, and Sulphur Operations in the Outer Continental Shelf (OCS)—Safety and Environmental Management Systems," Public Comment (May 22, 2006).[^55] T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?"[^56] Oil and Gas and Sulphur Operations in the Outer Continental Shelf—Safety and Environmental Management Systems, 75 Fed. Reg.[^199] (October 15, 2010).[^57] T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?"[^58] Elmer Danenberger, interview with Commission staff, December 9, 2010.[^59] Testimony of Tad W. Patzek, "Beneath the Surface of the BP Spill: What's Happening Now, What's Needed Next," Briefing Before the Subcommitee on Energy and Environment of the House Committee on Energy and Commerce, 111th Congess (2010): 4.[^60] Ibid.[^61] Ibid.[^62] Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010.[^63] Federal Aviation Administration, "Mission," http://www.faa.gov/about/mission/.[^64] Federal Aviation Administration, "Delegation and Designee Background," http://www.faa.gov/about/history/del- des_background/.[^65] Federal Aviation Administration, "Designees and Delegations: Designated Engineering Representative (DER)," http:// www.faa.gov/other_visit/aviation_industry/designees_delegations/designee_types/der/; Nancy Leveson (MIT), interview with Commission staff, October 13, 2010.[^66] Federal Aviation Administration, "Delegation and Designee Background," http://www.faa.gov/about/history/del- des_background/.[^67] Leveson, interview.[^68] Ibid.[^69] Nancy Leveson, Safeware: System Safety and Computers 556 (Boston: Addison-Wesley, 1995).[^70] Ibid.
+47 Testimony of Eric Milito, Upstream Director, American Petroleum Institute, "The Deepwater Horizon Incident: Are The Minerals Management Service Regulations Doing The Job?" Hearing Before the Subcommittee on Energy and Mineral Resources of the House Committee on Natural Resources, 111th Congress (2010) ("Since 1924, API has developed industry standards and practices that promote reliability and safety through the use of proven engineering practices. . . . API standards are developed through a collaborative effort among industry experts, technical experts from government, and other interested stakeholders. The industry has helped create more than 500 standards, including some 240 exploration and production standards that address offshore operations.")[^48] American Petroleum Institute, API 2010 Publics Programs and Services Catalog (March 2010), http://www.api.org/ Standards/upload/2010_Catalog_web.pdf.[^49] American Petroleum Institute, "Certifications recognized around the world," Training and Certifications Program brochure (August 9, 2009), http://www.api.org/certifications/upload/ENGLISH_SUMMARY_BROCH.pdf.[^50] Testimony of Eric Milito ("Seventy-eight of these standards are referenced in Minerals Management Service regulations."). For MMS rulemakings that incorporate industry standards into regulations over time, see Oil and Gas and Sulphur Operations in the Outer Continental Shelf, 61 Fed. Reg. 60,019 (November 26, 1996); Oil and Gas and Sulphur Operations in the Outer Continental Shelf—Pipelines and Pipeline Rights-of-Way, 72 Fed. Reg. 56,442 (October 3, 2007); Press Release, Minerals Management Service, Minerals Management Service to Adopt the Latest Edition of Industry Standard on Fixed Offshore Production Platforms, April 21, 2003, http://www.boemre.gov/ooc/ press/2003/press4-21.htm.[^51] Letter from Allen Verret, Offshore Operators Committee, and Tim Sampson, American Petroleum Institute, to the U.S. Minerals Management Service (September 15, 2009), http://www.scribd.com/doc/30588089/Joint-API-OOC-Letter- to-MMS; American Petroleum Institute and Offshore Operators Committee, "Safety and Environmental Management Systems for Outer Continental Shelf Oil and Gas Operations," Public Comment (September 15, 2009), http://www. boemre.gov/federalregister/PublicComments/AD15SafetyEnvMgmtSysforOCSOilGasOperations/OOCAPICom- mentLetter9-15-09.pdf; American Petroleum Institute, "Postlease Operations Safety," Public Comment (July 1, 1998), http://www.boemre.gov/federalregister/PublicComments/Sub_A_Comments/prorule.pdf, http://www.boemre.gov/ federalregister/PublicComments/Sub_A_Comments/subacomm.pdf.[^52] Commission staff held several meetings during August and September 2010 with representatives of major oil and gas companies during which the role of API in standard setting processing, including the impact of API's broader advocacy role on those standards, was discussed.[^53] T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?" (Offshore Technology Conference [OTC] Paper 8111, May 1996).[^54] Letter from Allen Verret, Offshore Operators Committee, and Tim Sampson, American Petroleum Institute, to the U.S. Minerals Management Service (September 15, 2009), http://www.scribd.com/doc/30588089/Joint-API-OOC-Letter- to-MMS; Offshore Operators Committee and American Petroleum Institute, "Oil, Gas, and Sulphur Operations in the Outer Continental Shelf (OCS)—Safety and Environmental Management Systems," Public Comment (May 22, 2006).[^55] T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?"
+
+56 Oil and Gas and Sulphur Operations in the Outer Continental Shelf—Safety and Environmental Management Systems, 75 Fed. Reg.[^199] (October 15, 2010).[^57] T.A.F. Powell, "US Voluntary SEMP Initiative: Holy Grail or Poisoned Chalice?"
+
+58 Elmer Danenberger, interview with Commission staff, December 9, 2010.
+
+59 Testimony of Tad W. Patzek, "Beneath the Surface of the BP Spill: What's Happening Now, What's Needed Next," Briefing Before the Subcommitee on Energy and Environment of the House Committee on Energy and Commerce, 111th Congess (2010): 4.[^60] Ibid.
+
+61 Ibid.
+
+62 Testimony of James Ellis, Institute of Nuclear Power Operations, Hearing before the National Commission, August 25, 2010.[^63] Federal Aviation Administration, "Mission," http://www.faa.gov/about/mission/.
+
+64 Federal Aviation Administration, "Delegation and Designee Background," http://www.faa.gov/about/history/del- des_background/.[^65] Federal Aviation Administration, "Designees and Delegations: Designated Engineering Representative (DER)," http:// www.faa.gov/other_visit/aviation_industry/designees_delegations/designee_types/der/; Nancy Leveson (MIT), interview with Commission staff, October 13, 2010.[^66] Federal Aviation Administration, "Delegation and Designee Background," http://www.faa.gov/about/history/del- des_background/.[^67] Leveson, interview.
+
+68 Ibid.[^69] Nancy Leveson, Safeware: System Safety and Computers 556 (Boston: Addison-Wesley, 1995).
+
+70 Ibid.
 
 %%page 349%%
 
@@ -4785,7 +5327,19 @@ International Association of Oil and Gas Producers data. See http://www.irfoffsh
 
 %%page 353%%
 
-21 30 C.F.R. §§ 250.410-418.[^22] 30 C.F.R. § 250.418(j).[^23] Transcript, Deepwater Blowout Containment Conference (September 22, 2010), http://www.doi.gov/news/video/ Deepwater-Blowout-Containment-Conference.cfm.[^24] Doug Suttles, interview with Commission staff, October 13, 2010.[^25] Response workers generally must be trained pursuant to the Hazardous Waste Operations and Emergency Response ("HAZWOPER") regulation administered by the Occupational Safety and Health Administration.[^29] C.F.R. § 1910.120. This regulation requires specific training and medical surveillance and monitoring for workers dealing with hazardous materials. While this regulation presumably applied to formal response contractors after the Deepwater Horizon spill, it was not applied consistently to citizen responders who also require its protections.[^26] Public information should further be provided in languages and formats that are understandable to individuals with limited English proficiency and individuals with disabilities. ESF #8—Public Health and Medical Services Annex at 7.[^27] Indeed, the Public Health and Medical Services Annex provides for long-term monitoring of potentially exposed individuals, requiring the Department of Health and Human Services to "assist[] State, tribal, and local officials in establishing a registry of potentially exposed individuals . . . and conducting long-term monitoring of this population for potential long-term health effects." ESF #8 – Public Health and Medical Services Annex at 9-10; Rebecca Bratspies, et al., From Ship to Shore: Reforming the National Contingency Plan to Improve Protections for Oil Spill Cleanup Workers (Center for Progressive Reform, September 2010).[^28] Whether or not respirators should be required for cleanup workers emerged as a major controversy in the response.[^29] Ray Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill (September 2010); Exec. Order No. 13554, 75 Fed. Reg. 62313–62317 (October 8, 2010).[^30] Federal liability for damages is not the only potential liability that could result from an offshore drilling incident. Under the Oil Pollution Act, drillers are strictly liable for removal costs. Companies can also be subject to federal civil and criminal penalties as well as unlimited liability for damages under some state laws. These liabilities presumably drive business to internalize risk and mitigate safety, though not as fully as they might if damages liability were not capped.[^31] Gulf Coast Claims Facility, Frequently Asked Questions, http://www.restorethegulf.gov/sites/default/files/imported_ pdfs/library/assets/gccf-faqs.pdf.[^32] Gulf Coast Claims Facility, Frequently Asked Questions, http://www.gulfcoastclaimsfacility.com/faq#Q9. Government claims for loss of revenue are being handled by BP: http://www.bp.com/governmentclaims. A $60 million BP fund is in place for real estate claims across the five Gulf states and is being administered by National Catastrophe Adjusters, a claims adjustment firm: www.gulfreclaims.com; Kathy Jumper, "Realtors Tap National Catastrophe Adjusters To Administer Oil Spill Claims," Press-Register, August 24, 2010, http://blog.al.com/live/2010/08/realtors_oil_claims.html. BP has set aside $100 million for rig workers who experience hardship due to the moratorium, to be administered by the Gulf Coast Restoration and Protection Foundation: http://www.gcrpf.org/. Claims for repairs or damage to vessels involved in the Vessel of Opportunity program are being handled by BP.[^33] Letter from Thomas J. Perrelli, Associate Attorney General, Department of Justice, to Kenneth Feinberg, September 17, 2010.[^34] "Leader on BP Claims Blames Fraud for Slow Payouts", Associated Press, October 5, 2010.[^35] Press Release, Gulf Coast Claims Facility, Feinberg Announces Faster and More Generous Payments from GCCF, September 25, 2010, http://www.gulfcoastclaimsfacility.com/press6.php; Press Release, Gulf Coast Claims Facility, Feinberg Announces Clarification Regarding Geographic Proximity, October 4, 2010, http://www.gulfcoastclaimsfacility.com/press7.php; Editorial, "Are Victims of the Gulf Oil Spill Getting What They Deserve?," Washington Post, November 25, 2010, http://www.gulfcoastclaimsfacility.com/pressA.php; Siobhan Hughes and Ryan December, "Feinberg Softens His Stance on Claims From Spill," Wall Street Journal, November 26, 2010.[^36] Gulf Coast Claims Facility, GCCF Program Statistics—Overall Summary, Gulf Coast Claims Facility, December 11, 2010, http://www.gulfcoastclaimsfacility.com/GCCF_Overall_Status_Report.pdf.[^37] Minerals Management Service, Budget Justifications and Performance Information Fiscal Year 2011.[^38] 43 U.S.C. § 1337(b)(6).
+21 30 C.F.R. §§ 250.410-418.
+
+22 30 C.F.R. § 250.418(j).
+
+23 Transcript, Deepwater Blowout Containment Conference (September 22, 2010), http://www.doi.gov/news/video/ Deepwater-Blowout-Containment-Conference.cfm.[^24] Doug Suttles, interview with Commission staff, October 13, 2010.
+
+25 Response workers generally must be trained pursuant to the Hazardous Waste Operations and Emergency Response ("HAZWOPER") regulation administered by the Occupational Safety and Health Administration. 29 C.F.R. § 1910.120. This regulation requires specific training and medical surveillance and monitoring for workers dealing with hazardous materials. While this regulation presumably applied to formal response contractors after the Deepwater Horizon spill, it was not applied consistently to citizen responders who also require its protections.[^26] Public information should further be provided in languages and formats that are understandable to individuals with limited English proficiency and individuals with disabilities. ESF #8—Public Health and Medical Services Annex at 7.[^27] Indeed, the Public Health and Medical Services Annex provides for long-term monitoring of potentially exposed individuals, requiring the Department of Health and Human Services to "assist[] State, tribal, and local officials in establishing a registry of potentially exposed individuals . . . and conducting long-term monitoring of this population for potential long-term health effects." ESF #8 – Public Health and Medical Services Annex at 9-10; Rebecca Bratspies, et al., From Ship to Shore: Reforming the National Contingency Plan to Improve Protections for Oil Spill Cleanup Workers (Center for Progressive Reform, September 2010).[^28] Whether or not respirators should be required for cleanup workers emerged as a major controversy in the response.
+
+29 Ray Mabus, America's Gulf Coast: A Long Term Recovery Plan after the Deepwater Horizon Oil Spill (September 2010); Exec. Order No. 13554, 75 Fed. Reg. 62313–62317 (October 8, 2010).[^30] Federal liability for damages is not the only potential liability that could result from an offshore drilling incident. Under the Oil Pollution Act, drillers are strictly liable for removal costs. Companies can also be subject to federal civil and criminal penalties as well as unlimited liability for damages under some state laws. These liabilities presumably drive business to internalize risk and mitigate safety, though not as fully as they might if damages liability were not capped.[^31] Gulf Coast Claims Facility, Frequently Asked Questions, http://www.restorethegulf.gov/sites/default/files/imported_ pdfs/library/assets/gccf-faqs.pdf.[^32] Gulf Coast Claims Facility, Frequently Asked Questions, http://www.gulfcoastclaimsfacility.com/faq#Q9. Government claims for loss of revenue are being handled by BP: http://www.bp.com/governmentclaims. A $60 million BP fund is in place for real estate claims across the five Gulf states and is being administered by National Catastrophe Adjusters, a claims adjustment firm: www.gulfreclaims.com; Kathy Jumper, "Realtors Tap National Catastrophe Adjusters To Administer Oil Spill Claims," Press-Register, August 24, 2010, http://blog.al.com/live/2010/08/realtors_oil_claims.html. BP has set aside $100 million for rig workers who experience hardship due to the moratorium, to be administered by the Gulf Coast Restoration and Protection Foundation: http://www.gcrpf.org/. Claims for repairs or damage to vessels involved in the Vessel of Opportunity program are being handled by BP.[^33] Letter from Thomas J. Perrelli, Associate Attorney General, Department of Justice, to Kenneth Feinberg, September 17, 2010.[^34] "Leader on BP Claims Blames Fraud for Slow Payouts", Associated Press, October 5, 2010.
+
+35 Press Release, Gulf Coast Claims Facility, Feinberg Announces Faster and More Generous Payments from GCCF, September 25, 2010, http://www.gulfcoastclaimsfacility.com/press6.php; Press Release, Gulf Coast Claims Facility, Feinberg Announces Clarification Regarding Geographic Proximity, October 4, 2010, http://www.gulfcoastclaimsfacility.com/press7.php; Editorial, "Are Victims of the Gulf Oil Spill Getting What They Deserve?," Washington Post, November 25, 2010, http://www.gulfcoastclaimsfacility.com/pressA.php; Siobhan Hughes and Ryan December, "Feinberg Softens His Stance on Claims From Spill," Wall Street Journal, November 26, 2010.[^36] Gulf Coast Claims Facility, GCCF Program Statistics—Overall Summary, Gulf Coast Claims Facility, December 11, 2010, http://www.gulfcoastclaimsfacility.com/GCCF_Overall_Status_Report.pdf.[^37] Minerals Management Service, Budget Justifications and Performance Information Fiscal Year 2011.
+
+38 43 U.S.C. § 1337(b)(6).
 
 Chapter Ten 1 Energy Information Administration, Annual Energy Review 2009 (August 19, 2010), Table 5.2, 131, http://www.eia. doe.gov/emeu/aer/pdf/pages/sec5_7.pdf.[^2] Energy Information Administration, Annual Energy Outlook 2010 (April, 2010), 75, http://www.eia.doe.gov/oiaf/ aeo/pdf/0383(2010).pdf.[^3] Technically recoverable reserves, however, are very different from proven reserves, because the former unlike the latter includes reserves that may well be as a practical manner be too expensive to recover.[^4] Energy Information Administration, Annual Energy Review 2008 (June 26, 2009), Table 4.1, 99, http://www.eia.
 
@@ -4799,9 +5353,13 @@ gov/emeu/aer/pdf/pages/sec2.pdf. (Most of the remaining transportation fuels cam
 
 National Academies Press, 2010), xi.[^8] Energy Information Administration, Annual Energy Review 2009, Tables 4.2, 5.1, 101, 129 (calculated from tables) http://www.eia.doe.gov/aer/pdf/aer.pdf.[^9] Ibid., Table 11.5, 315.
 
-10Ibid., Tables 11.4, 11.10, 313, 325 (calculated based on tables). "Proved reserves" represent only a small part of can be ultimately recovered and are estimated by different standards around the world.[^11] Ibid., Table 5.17, 167, http://www.eia.gov/emeu/aer/pdf/pages/sec5_43.pdf.[^12] Ibid., Table 3.5, 77. http://www.eia.gov/emeu/aer/pdf/pages/sec3_11.pdf
+10Ibid., Tables 11.4, 11.10, 313, 325 (calculated based on tables). "Proved reserves" represent only a small part of can be ultimately recovered and are estimated by different standards around the world.[^11] Ibid., Table 5.17, 167, http://www.eia.gov/emeu/aer/pdf/pages/sec5_43.pdf.
 
-13 Stephen Brown and Hillard Huntington, "Estimating U.S. Oil Security Premiums: EMF OP 68," September 2009.[^14] Census Bureau, "Trade in Goods (Imports, Exports and Trade Balance) with China 1985-2010," http://www.census.
+12 Ibid., Table 3.5, 77. http://www.eia.gov/emeu/aer/pdf/pages/sec3_11.pdf
+
+13 Stephen Brown and Hillard Huntington, "Estimating U.S. Oil Security Premiums: EMF OP 68," September 2009.
+
+14 Census Bureau, "Trade in Goods (Imports, Exports and Trade Balance) with China 1985-2010," http://www.census.
 
 gov/foreign-trade/balance/c5700.html#2010.[^15] Light-Duty Vehicle Greenhouse Gas Emission Standards and Corporate Average Fuel Economy Standards,[^75] Fed.
 
@@ -4813,17 +5371,31 @@ Information Administration, Annual Energy Review 2009 (August 19, 2010), Figure 
 
 Academies Press, 2009); National Research Council, Limiting the Magnitude of Future Climate Change (Washington
 
-D.C.: National Academies Press, 2010).[^18] President's Council of Advisors on Science and Technology, Report to the President on Accelerating the Pace of Change in Energy Technologies through an Integrated Federal Energy Policy (Washington D.C.: Executive Office of the President, 2010).[^19] "Shares," Gazprom, http://www.gazprom.com/investors/stock/.[^20] "The Other Way Out," Economist, November 19, 2010; Energy Information Administration, "Country Analysis
+D.C.: National Academies Press, 2010).[^18] President's Council of Advisors on Science and Technology, Report to the President on Accelerating the Pace of Change in Energy Technologies through an Integrated Federal Energy Policy (Washington D.C.: Executive Office of the President, 2010).[^19] "Shares," Gazprom, http://www.gazprom.com/investors/stock/.
+
+20 "The Other Way Out," Economist, November 19, 2010; Energy Information Administration, "Country Analysis
 
 Briefs: Mexico," June 2010.[^21] There are also massive natural gas resources in and off Alaska, but until a pipeline is built to the lower 48 states, the gas cannot be brought to market and used.[^22] Department of the Interior, "Estimated Undiscovered, Economically Recoverable Resources," http://www.doi.gov/ whatwedo/energy/ocs/upload/UERR-map-2012-2017-80-NoYear-Note.pdf.[^23] Bureau of Ocean Energy Management, "Lease Sales," December 2, 2010, http://alaska.boemre.gov/lease/hlease/
 
 LeasingTables/lease_sales.pdf; Minerals Management Service, "Summary of Company Bids," February 7, 2008, http://alaska.boemre.gov/cproject/Chukchi193/193Saleday/Sale%20193%20Sum%20of%20Co%20Bids%20by%20
 
-Co%20Code.pdf.[^24] Energy Information Administration, Annual Energy Review 2009, Table 5.2, 131.[^25] Energy Information Administration, Annual Energy Outlook 2011, Table A14.[^26] Unpublished information provided to the Commission by the Energy Information Administration.[^27] Northern Economics, Economic Analysis of Future Offshore Oil and Gas Development: Beaufort Sea, Chukchi Sea,
+Co%20Code.pdf.[^24] Energy Information Administration, Annual Energy Review 2009, Table 5.2, 131.
 
-North Aleutian Basin (March 2009), ES-7, 9.[^28] Audobon Alaska, "Chukchi Sea," http://ak.audubon.org/issues-action/chukchi-sea.[^29] Press Release, Department of the Interior, U.S. Fish and Wildlife Service Announces Final Designation of Polar Bear
+25 Energy Information Administration, Annual Energy Outlook 2011, Table A14.
 
-Critical Habitat, November 24, 2010.[^30] Lori Quakenbush, "Bowhead Whale," Alaska Department of Fish & Game, September 22, 2010.[^31] Ibid.[^32] Ronald O'Rourke, Changes in the Arctic: Background and Issues for Congress (Congressional Research Service, October 15, 2010),[^31] ("On June 25, 2010, the Coast Guard announced that Polar Sea had suffered an unexpected engine casualty and consequently will likely be unavailable for operation until at least January 2011.").[^33] The Arctic Council is a multinational and intergovernmental group. Members include the governments of Canada,
+26 Unpublished information provided to the Commission by the Energy Information Administration.
+
+27 Northern Economics, Economic Analysis of Future Offshore Oil and Gas Development: Beaufort Sea, Chukchi Sea,
+
+North Aleutian Basin (March 2009), ES-7, 9.[^28] Audobon Alaska, "Chukchi Sea," http://ak.audubon.org/issues-action/chukchi-sea.
+
+29 Press Release, Department of the Interior, U.S. Fish and Wildlife Service Announces Final Designation of Polar Bear
+
+Critical Habitat, November 24, 2010.[^30] Lori Quakenbush, "Bowhead Whale," Alaska Department of Fish & Game, September 22, 2010.
+
+31 Ibid.
+
+32 Ronald O'Rourke, Changes in the Arctic: Background and Issues for Congress (Congressional Research Service, October 15, 2010),[^31] ("On June 25, 2010, the Coast Guard announced that Polar Sea had suffered an unexpected engine casualty and consequently will likely be unavailable for operation until at least January 2011.").[^33] The Arctic Council is a multinational and intergovernmental group. Members include the governments of Canada,
 
 %%page 355%%
 
@@ -4925,15 +5497,7 @@ May 21, 2010.
 
 Richard Lazarus, Executive Director Tracy Terry, Deputy Director Fred Bartlit, Chief Counsel Jay Hakes, Director of Policy & Research
 
-Priya Aiyar David Greenberg Deputy Chief Counsel Senior Policy Advisor Felicia Barnes Brent Harris Analyst Counsel Adam Benthem Lisa K. Hemmer Analyst Senior Legal Advisor Gordon Binder Joe Hernandez Senior Policy Advisor Analyst Paul Bledsoe Joel Hewett Senior Policy Advisor Analyst Jed J. Borghei Christiana James Counsel Staff Assistant
-
-### Hobson Bryan Jill Jonnes
-
-Analyst Senior Researcher Edwin H. Clark, II Nancy Kete Director of Operations Senior Analyst Kate Clark Caitlin Klevorick Senior Analyst Policy Advisor Dave Cohen Emily Lindow Press Secretary Senior Analyst Cindy Drucker Claire Luby Director of Public Engagement Assistant to the Executive Director Katherine Duncan Bethany Mabee Analyst Communications Coordinator
-
-### Jackson Eaton Scott McKee
-
-Counsel Analyst Michelle Farmer Claudia A. McMurray Executive Legal Assistant Senior Counsel for Congressional and
+Priya Aiyar David Greenberg Deputy Chief Counsel Senior Policy Advisor Felicia Barnes Brent Harris Analyst Counsel Adam Benthem Lisa K. Hemmer Analyst Senior Legal Advisor Gordon Binder Joe Hernandez Senior Policy Advisor Analyst Paul Bledsoe Joel Hewett Senior Policy Advisor Analyst Jed J. Borghei Christiana James Counsel Staff Assistant C. Hobson Bryan Jill Jonnes Analyst Senior Researcher Edwin H. Clark, II Nancy Kete Director of Operations Senior Analyst Kate Clark Caitlin Klevorick Senior Analyst Policy Advisor Dave Cohen Emily Lindow Press Secretary Senior Analyst Cindy Drucker Claire Luby Director of Public Engagement Assistant to the Executive Director Katherine Duncan Bethany Mabee Analyst Communications Coordinator J. Jackson Eaton Scott McKee Counsel Analyst Michelle Farmer Claudia A. McMurray Executive Legal Assistant Senior Counsel for Congressional and
 
 State Relations Sean Grimsley Deputy Chief Counsel
 

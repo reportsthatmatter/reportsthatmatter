@@ -1210,7 +1210,9 @@ Report," September 10, 1999. See in particular footnote 3, concerning
 
 Triana and the requirements of the Commercial Space Act, and Appendix
 
-C, "Accounting for Shuttle Costs." CAIB document CAB048-02680269.[^4] Although there is more volume of liquid hydrogen in the External Tank, liquid hydrogen is very light and its slosh effects are minimal and are generally ignored. At launch, the External Tank contains approximately 1.4 million pounds (140,000 gallons) of liquid oxygen, but only 230,000 pounds (385,000 gallons) of liquid hydrogen.[^5]
+C, "Accounting for Shuttle Costs." CAIB document CAB048-02680269.
+
+4 Although there is more volume of liquid hydrogen in the External Tank, liquid hydrogen is very light and its slosh effects are minimal and are generally ignored. At launch, the External Tank contains approximately 1.4 million pounds (140,000 gallons) of liquid oxygen, but only 230,000 pounds (385,000 gallons) of liquid hydrogen.[^5]
 
 The Performance Enhancements (PE) flight profile flown by STS-107 is a combination of flight software and trajectory design changes that were introduced in late 1997 for STS-85. These changes to the ascent flight profile allow the Shuttle to carry some 1,600 pounds of additional payload on International Space Station assembly missions. Although developed to meet the Space Station payload lift requirement, a modified PE profile has been used for all Shuttle missions since it was introduced.
 
@@ -1468,7 +1470,9 @@ Reinforced Carbon-Carbon
 
 The development of Reinforced Carbon-Carbon (RCC) as part of the Thermal Protection System was key to meeting the wing leading edge design requirements. Developed by Ling-Temco-Vought (now Lockheed Martin Missiles and Fire Control), RCC is used for the Orbiter nose cap, chin panel, forward External Tank attachment point, and wing leading edge panels and T-seals. RCC is a hard structural material, with reasonable strength across its operational temperature range (minus 250 degrees Fahrenheit to 3,000 degrees). Its low thermal expansion coefficient minimizes thermal shock and thermoelastic stress.
 
-Each wing leading edge consists of 22 RCC panels (see Figure 3.3-1), numbered from 1 to 22 moving outward on each wing (the nomenclature is "5-left" or "5-right" to differentiate, for example, the two number 5 panels). Because the shape of the wing changes from inboard to outboard, each panel is unique.[^1] 2 3
+Each wing leading edge consists of 22 RCC panels (see Figure 3.3-1), numbered from 1 to 22 moving outward on each wing (the nomenclature is "5-left" or "5-right" to differentiate, for example, the two number 5 panels). Because the shape of the wing changes from inboard to outboard, each panel is unique.
+
+1 2 3
 
 4 5
 
@@ -2387,7 +2391,9 @@ Tiles recovered from the lower left wing yielded their own interesting clues. Th
 
 %%page 74%%
 
-Figure 3.7-3. Superheated airflow caused erosion in tiles around the RCC panel 8 and 9 interface. The tiles shown are from behind the area where the superheated air exited from the slot in Figure 3.7-2. These tiles showed much greater thermal damage than other tiles in this area and chemical analysis showed the presence of metals only found in wing leading edge components.[^8] and 9 interface. Chemical analysis shows that these carrier panel tiles were covered with molten Inconel, which is found in wing leading edge attachment fittings, and other metals coming from inside the RCC cavity. Slumping and heavy erosion of this magnitude is not noted on tiles from anywhere else on the Orbiter.
+Figure 3.7-3. Superheated airflow caused erosion in tiles around the RCC panel 8 and 9 interface. The tiles shown are from behind the area where the superheated air exited from the slot in Figure 3.7-2. These tiles showed much greater thermal damage than other tiles in this area and chemical analysis showed the presence of metals only found in wing leading edge components.
+
+8 and 9 interface. Chemical analysis shows that these carrier panel tiles were covered with molten Inconel, which is found in wing leading edge attachment fittings, and other metals coming from inside the RCC cavity. Slumping and heavy erosion of this magnitude is not noted on tiles from anywhere else on the Orbiter.
 
 Failure modes of recovered tiles from the left and the right wing also differ. Most right wing tiles were simply broken off the wing due to aerodynamic forces, which indicates that they failed due to physical overload at breakup, not because of heat. Most of the tiles on the left wing behind RCC panels 8 and 9 show significant evidence of backside heating of the wing skin and failure of the adhesive that held the tiles on the wing. This pattern of failure suggests that heat penetrated the left wing cavity and then heated the aluminum skin from the inside out. As the aluminum skin was heated,
 
@@ -5286,11 +5292,9 @@ Shortly after confirming the debris hit, Intercenter Photo Working Group members
 
 Mission Managementʼs Response to the Foam Strike
 
-As soon as the Intercenter Working Group report was distributed, engineers and technical managers from NASA, United Space Alliance, and Boeing began responding. Engineers and managers from Kennedy Space Center called engineers and Program managers at Johnson Space Center. United Space Alliance and Boeing employees exchanged e-mails with details of the initial film analysis and the work in progress to determine the result of the impact. Details of the strike, actions taken in response to the impact, and records of telephone conversations were documented in the Mission Control operational log. The following section recounts in
+As soon as the Intercenter Working Group report was distributed, engineers and technical managers from NASA, United Space Alliance, and Boeing began responding. Engineers and managers from Kennedy Space Center called engineers and Program managers at Johnson Space Center. United Space Alliance and Boeing employees exchanged e-mails with details of the initial film analysis and the work in progress to determine the result of the impact. Details of the strike, actions taken in response to the impact, and records of telephone conversations were documented in the Mission Control operational log. The following section recounts in chronological order many of these exchanges and provides insight into why, in spite of the debris strikeʼs severity, NASA managers ultimately declined to request images of Columbiaʼs left wing on-orbit.
 
 %%page 141%%
-
-> chronological order many of these exchanges and provides insight into why, in spite of the debris strikeʼs severity, NASA managers ultimately declined to request images of Columbiaʼs left wing on-orbit.
 
 Flight Day Two, Friday, January 17, 2003
 
@@ -6138,11 +6142,9 @@ F6.3-1 The foam strike was first seen by the Intercenter Photo Working Group on 
 
 F6.3-2 The Chair of the Intercenter Photo Working Group asked management to begin the process of getting outside imagery to help in damage assessment. This request, the first of three, began its journey through the management hierarchy on Flight Day Two.
 
-F6.3-3 The Intercenter Photo Working Group distributed its first report, including a digitized video clip and initial assessment of the strike, on Flight Day Two. This information
+F6.3-3 The Intercenter Photo Working Group distributed its first report, including a digitized video clip and initial assessment of the strike, on Flight Day Two. This information was widely disseminated to NASA and contractor engineers, Shuttle Program managers, and Mission Operations Directorate personnel.
 
 %%page 171%%
-
-> was widely disseminated to NASA and contractor engineers, Shuttle Program managers, and Mission Operations Directorate personnel.
 
 F6.3-4 Initial estimates of debris size, speed, and origin were remarkably accurate. Initial information available to managers stated that the debris originated in the left bipod area of the External Tank, was quite large, had a high velocity, and struck the underside of the left wing near its leading edge. The report stated that the debris could have hit the RCC or tile.
 
@@ -6430,7 +6432,7 @@ NASA (D. Arabian) ca. 1979. 48
 
 Drew L. Goodlin, "Orbiter Tile Impact Testing, Final Report", SwRI Project
 
-# 18-7503-005, March 5, 1999. 49
+\# 18-7503-005, March 5, 1999. 49
 
 Allen J. Richardson, "Evaluation of Flight Experience & Test Results for
 
@@ -7970,11 +7972,9 @@ HEX stamps categories
 
 > formulated. However, there is no requirement that it be routinely reviewed.
 
-F10.4-3 Kennedy Space Centerʼs current government mandatory inspection process is both inadequate and difficult to expand, which inhibits the ability
+F10.4-3 Kennedy Space Centerʼs current government mandatory inspection process is both inadequate and difficult to expand, which inhibits the ability of Quality Assurance to process improvement initiatives.
 
 %%page 220%%
-
-> of Quality Assurance to process improvement initiatives.
 
 F10.4-4 Kennedyʼs quality assurance system encourages inspectors to allow incorrect work to be corrected without being labeled "rejected." These opportunities hide "rejections," making it impossible to determine how often and on what items frequent rejections and errors occur.
 

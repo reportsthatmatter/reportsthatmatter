@@ -54,7 +54,9 @@ HC 264
 
 - Was Iraq a serious or imminent threat? — 40
 
-- The predicted increase in the threat to the UK as a result of military action in Iraq .[^47] The UK's relationship with the US — 51
+- The predicted increase in the threat to the UK as a result of military action in Iraq — 47
+
+- The UK's relationship with the US — 51
 
 - Decision‑making — 54
 
@@ -212,7 +214,9 @@ HC 264
 
 %%page 4%%
 
-Introduction 1. In 2003, for the first time since the Second World War, the United Kingdom took part in an opposed invasion and full‑scale occupation of a sovereign State – Iraq. Cabinet decided on 17 March to join the US‑led invasion of Iraq, assuming there was no last‑minute capitulation by Saddam Hussein. That decision was ratified by Parliament the next day and implemented the night after that.
+### Introduction
+
+1\. In 2003, for the first time since the Second World War, the United Kingdom took part in an opposed invasion and full‑scale occupation of a sovereign State – Iraq. Cabinet decided on 17 March to join the US‑led invasion of Iraq, assuming there was no last‑minute capitulation by Saddam Hussein. That decision was ratified by Parliament the next day and implemented the night after that.
 
 2\. Until 28 June 2004, the UK was a joint Occupying Power in Iraq. For the next five years, UK forces remained in Iraq with responsibility for security in the South‑East; and the UK sought to assist with stabilisation and reconstruction.
 
@@ -554,7 +558,9 @@ Introduction 1. In 2003, for the first time since the Second World War, the Unit
 
 %%page 19%%
 
-Negotiation of resolution 1441 119. There were significant differences between the US and UK positions, and between them and China, France and Russia about the substance of the strategy to be adopted, including the role of the Security Council in determining whether peaceful means had been exhausted and the use of force to secure disarmament was justified.
+### Negotiation of resolution 1441
+
+119\. There were significant differences between the US and UK positions, and between them and China, France and Russia about the substance of the strategy to be adopted, including the role of the Security Council in determining whether peaceful means had been exhausted and the use of force to secure disarmament was justified.
 
 120\. Those differences resulted in difficult negotiations over more than eight weeks before the unanimous adoption of resolution 1441 on 8 November 2002.
 
@@ -597,7 +603,9 @@ Negotiation of resolution 1441 119. There were significant differences between t
 
 %%page 21%%
 
-The prospect of military action 135. Following Iraq's submission of the declaration on its chemical, biological, nuclear and ballistic missile programmes to the UN on 7 December, and before the inspectors had properly begun their task, the US concluded that Saddam Hussein was not going to take the final opportunity offered by resolution 1441 to comply with his obligations.
+### The prospect of military action
+
+135\. Following Iraq's submission of the declaration on its chemical, biological, nuclear and ballistic missile programmes to the UN on 7 December, and before the inspectors had properly begun their task, the US concluded that Saddam Hussein was not going to take the final opportunity offered by resolution 1441 to comply with his obligations.
 
 136\. Mr Blair was advised on 11 December that there was impatience in the US Administration and it was looking at military action as early as mid‑February 2003.44
 
@@ -661,7 +669,9 @@ The prospect of military action 135. Following Iraq's submission of the declarat
 
 %%page 24%%
 
-The gap between the Permanent Members of the Security Council widens 162. In their reports to the Security Council on 14 February:
+### The gap between the Permanent Members of the Security Council widens
+
+162\. In their reports to the Security Council on 14 February:
 
 > - Dr Blix reported that UNMOVIC had not found any weapons of mass destruction and the items that were not accounted for might not exist, but Iraq needed to provide the evidence to answer the questions, not belittle them.
 > - Dr Mohamed ElBaradei, Director General of the International Atomic Energy Agency (IAEA), reported that the IAEA had found no evidence of ongoing prohibited nuclear or nuclear‑related activities in Iraq although a number of issues were still under investigation.62
@@ -788,7 +798,9 @@ The gap between the Permanent Members of the Security Council widens 162. In the
 
 213\. Lord Goldsmith sent his formal advice to Mr Blair on 7 March.97
 
-The end of the UN route 214. When Mr Blair spoke to President Bush at 6pm on 7 March he emphasised the importance of securing nine positive votes98 in the Security Council for Parliamentary approval for UK military action.99
+### The end of the UN route
+
+214\. When Mr Blair spoke to President Bush at 6pm on 7 March he emphasised the importance of securing nine positive votes98 in the Security Council for Parliamentary approval for UK military action.99
 
 215\. Mr Blair argued that while the 17 March deadline in the draft resolution was not sufficient for Iraq to disarm fully, it was sufficient to make a judgement on whether Saddam Hussein had had a change of heart. If Iraq started to co‑operate, the inspectors could have as much time as they liked.
 
@@ -1004,7 +1016,9 @@ The end of the UN route 214. When Mr Blair spoke to President Bush at 6pm on 7 M
 
 > "... should lose no opportunity to propagate the reason, at every level and as widely as possible, why we had arrived at a diplomatic impasse, and why it was necessary to take action against Iraq. France had not been prepared to accept that Iraq's failure to comply with its obligations should lead to the use of force to achieve compliance."142
 
-Why Iraq? Why now? 294. In his memoir, Mr Blair described his speech opening the debate on 18 March as "the most important speech I had ever made".143
+### Why Iraq? Why now?
+
+294\. In his memoir, Mr Blair described his speech opening the debate on 18 March as "the most important speech I had ever made".143
 
 295\. Mr Blair framed the decision for the House of Commons as a "tough" and "stark" choice between "retreat" and holding firm to the course of action the Government had set. Mr Blair stated that he believed "passionately" in the latter. He deployed a wide range of arguments to explain the grounds for military action and to make a persuasive case for the Government's policy.144
 
@@ -1166,7 +1180,9 @@ Why Iraq? Why now? 294. In his memoir, Mr Blair described his speech opening the
 
 339\. At the time of the Parliamentary vote of 18 March, diplomatic options had not been exhausted. The point had not been reached where military action was the last resort.
 
-The predicted increase in the threat to the UK as a result of military action in Iraq 340. Mr Blair had been advised that an invasion of Iraq was expected to increase the threat to the UK and UK interests from Al Qaida and its affiliates.
+### The predicted increase in the threat to the UK as a result of military action in Iraq
+
+340\. Mr Blair had been advised that an invasion of Iraq was expected to increase the threat to the UK and UK interests from Al Qaida and its affiliates.
 
 341\. Asked about the risk that attacking Iraq with cruise missiles would "act as a recruiting sergeant for a young generation throughout the Islamic and Arab world", Mr Blair responded that:
 
@@ -1246,7 +1262,9 @@ The predicted increase in the threat to the UK as a result of military action in
 
 > In any event, following 9/11 and Afghanistan we were a terrorist target and, as recent events in Europe and the US show, irrespective of Iraq, there are ample justifications such terrorists will use as excuses for terrorism."172
 
-The UK's relationship with the US 359. The UK's relationship with the US was a determining factor in the Government's decisions over Iraq.
+### The UK's relationship with the US
+
+359\. The UK's relationship with the US was a determining factor in the Government's decisions over Iraq.
 
 360\. It was the US Administration which decided in late 2001 to make dealing with the problem of Saddam Hussein's regime the second priority, after the ousting of the Taliban in Afghanistan, in the "Global War on Terror". In that period, the US Administration turned against a strategy of continued containment of Iraq, which it was pursuing before the 9/11 attacks.
 
@@ -1502,7 +1520,9 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 440\. A determination by the Security Council on whether Iraq was in fact in material breach of resolution 1441 would have furthered the UK's aspiration to uphold the authority of the Council.
 
-The timing of Lord Goldsmith's advice on the interpretation of resolution 1441 441. Following the adoption of resolution 1441, a decision was taken to delay the receipt of formal advice from Lord Goldsmith.
+### The timing of Lord Goldsmith's advice on the interpretation of resolution 1441
+
+441\. Following the adoption of resolution 1441, a decision was taken to delay the receipt of formal advice from Lord Goldsmith.
 
 442\. On 11 November 2002, Mr Powell told Lord Goldsmith that there should be a meeting some time before Christmas to discuss the legal position.
 
@@ -1843,7 +1863,9 @@ The timing of Lord Goldsmith's advice on the interpretation of resolution 1441 4
 
 %%page 77%%
 
-The search for WMD 571. Section 4.4 considers the impact of the failure to find stockpiles of WMD in Iraq in the months immediately after the invasion, and of the emerging conclusions of the Iraq Survey Group (ISG), on:
+### The search for WMD
+
+571\. Section 4.4 considers the impact of the failure to find stockpiles of WMD in Iraq in the months immediately after the invasion, and of the emerging conclusions of the Iraq Survey Group (ISG), on:
 
 > - the Government's response to demands for an independent judge‑led inquiry into pre‑conflict intelligence on Iraq; and
 > - the Government's public presentation of the nature of the threat from Saddam Hussein's regime and the decision to go to war.
@@ -1932,7 +1954,9 @@ The search for WMD 571. Section 4.4 considers the impact of the failure to find 
 
 %%page 81%%
 
-The planning process and decision‑making 602. As a junior partner in the Coalition, the UK worked within a planning framework established by the US. It had limited influence over a process dominated increasingly by the US military.
+### The planning process and decision‑making
+
+602\. As a junior partner in the Coalition, the UK worked within a planning framework established by the US. It had limited influence over a process dominated increasingly by the US military.
 
 603\. The creation of the Ad Hoc Group on Iraq in September 2002 and the Iraq Planning Unit in February 2003 improved co‑ordination across government at official level, but neither body carried sufficient authority to establish a unified planning process across the four principal departments involved – the FCO, the MOD, DFID and the Treasury – or between military and civilian planners.
 
@@ -2109,7 +2133,9 @@ The planning process and decision‑making 602. As a junior partner in the Coali
 
 %%page 89%%
 
-UK INFLUENCE ON POST‑INVASION STRATEGY: RESOLUTION 1483 655. On 21 March 2003, the day after the start of the invasion, Mr Powell and Sir David Manning, two of Mr Blair's closest advisers, offered him advice on how to influence the post‑invasion US agenda. Key among their concerns was the need for post‑conflict administrative arrangements to have the legitimacy conferred by UN endorsement. Such UK plans for the post‑conflict period as had been developed relied on the deployment of an international reconstruction effort to Iraq. Controversy surrounding the launch of the invasion made that challenging to deliver; the absence of UN endorsement would make it close to impossible.
+## UK INFLUENCE ON POST‑INVASION STRATEGY: RESOLUTION 1483
+
+655\. On 21 March 2003, the day after the start of the invasion, Mr Powell and Sir David Manning, two of Mr Blair's closest advisers, offered him advice on how to influence the post‑invasion US agenda. Key among their concerns was the need for post‑conflict administrative arrangements to have the legitimacy conferred by UN endorsement. Such UK plans for the post‑conflict period as had been developed relied on the deployment of an international reconstruction effort to Iraq. Controversy surrounding the launch of the invasion made that challenging to deliver; the absence of UN endorsement would make it close to impossible.
 
 656\. Discussion between the US and UK on the content of a new UN Security Council resolution began the same day. Resolution 1483 (2003) was eventually adopted on 22 May.
 
@@ -2251,7 +2277,7 @@ UK INFLUENCE ON POST‑INVASION STRATEGY: RESOLUTION 1483 655. On 21 March 2003,
 
 %%page 97%%
 
-Transition
+### Transition
 
 ## UK INFLUENCE ON US STRATEGY POST‑CPA
 
@@ -2361,7 +2387,7 @@ Transition
 
 %%page 103%%
 
-Preparation for withdrawal
+### Preparation for withdrawal
 
 ## A MAJOR DIVERGENCE IN STRATEGY
 
@@ -2513,7 +2539,7 @@ General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker,
 
 %%page 111%%
 
-Key findings
+### Key findings
 
 ### Development of UK strategy and options, 9/11 to early January 2002
 
@@ -2527,7 +2553,9 @@ Key findings
 > - The tactics chosen by Mr Blair were to emphasise the threat which Iraq might pose, rather than a more balanced consideration of both Iraq's capabilities and intent; and to offer the UK's support for President Bush in an effort to influence his decisions on how to proceed.
 > - That remained Mr Blair's approach in the months that followed.
 
-Development of UK strategy and options, January to April 2002 – "axis of evil" to Crawford 800. The following key findings are from Section 3.2:
+### Development of UK strategy and options, January to April 2002 – "axis of evil" to Crawford
+
+800\. The following key findings are from Section 3.2:
 
 > - The UK continued to pursue implementation of the "smarter" economic sanctions regime in the first months of 2002, but continuing divisions between Permanent Members of the Security Council meant there was no agreement on the way forward.
 > - In public statements at the end of February and in the first week of March 2002, Mr Blair and Mr Straw set out the view that Iraq was a threat which had to be dealt with.
@@ -2546,7 +2574,9 @@ Development of UK strategy and options, January to April 2002 – "axis of evil"
 > - Mr Blair told President Bush that the UN was the simplest way to encapsulate a "casus belli" in some defining way, with an ultimatum to Iraq once military forces started to build up in October. That might be backed by a UN resolution.
 > - Mr Blair's Note, which had not been discussed or agreed with his colleagues, set the UK on a path leading to diplomatic activity in the UN and the possibility of participation in military action in a way that would make it very difficult for the UK subsequently to withdraw its support for the US.
 
-Development of UK strategy and options, late July to 14 September 2002 802. The following key findings are from Section 3.4:
+### Development of UK strategy and options, late July to 14 September 2002
+
+802\. The following key findings are from Section 3.4:
 
 > - In discussions with the US over the summer of 2002, Mr Blair and Mr Straw sought to persuade the US Administration to secure multilateral support before taking action on Iraq; and to do so through the UN. They proposed a strategy in which the first objective was to offer Iraq the opportunity and last chance to comply with its obligations to disarm.
 > - If Iraq did not take that opportunity and military action was required, the UK was seeking to establish conditions whereby such action would command multilateral support and be taken with the authority of the Security Council.
@@ -2557,14 +2587,18 @@ Development of UK strategy and options, late July to 14 September 2002 802. The 
 > - The UK made a significant contribution to President Bush's decision, announced on 12 September, to take the issue of Iraq back to the UN.
 > - Statements made by China, France and Russia after President Bush's speech highlighted the different positions of the five Permanent Members of the Security Council, in particular about the role of the Council in deciding whether military action was justified. As a result, the negotiation of resolution 1441 was complex and difficult.
 
-Development of UK strategy and options, September to November 2002 – the negotiation of resolution 1441 803. The following key findings are from Section 3.5:
+### Development of UK strategy and options, September to November 2002 – the negotiation of resolution 1441
+
+803\. The following key findings are from Section 3.5:
 
 > - The declared objective of the US and UK was to obtain international support within the framework of the UN for a strategy of coercive diplomacy for the disarmament of Iraq. For the UK, regime change was a means to achieve disarmament, not an objective in its own right.
 > - The negotiation of resolution 1441 reflected a broad consensus in the UN Security Council on the need to achieve the disarmament of Iraq.
 > - To secure consensus in the Security Council despite the different positions of the US and France and Russia, resolution 1441 was a compromise containing drafting 'fixes'.
 > - That created deliberate ambiguities on a number of key issues including: the level of non‑compliance with resolution 1441 which would constitute a material breach; by whom that determination would be made; and whether there would be a second resolution explicitly authorising the use of force.
 
-Development of UK strategy and options, November 2002 to January 2003 804. The following key findings are from Section 3.6:
+### Development of UK strategy and options, November 2002 to January 2003
+
+804\. The following key findings are from Section 3.6:
 
 > - Following the adoption of resolution 1441, the UK was pursuing a strategy of coercive diplomacy to secure the disarmament of Iraq. The hope was that this might be achieved by peaceful means, but views differed on how likely that would be.
 > - The UK Government remained convinced that Iraq had retained prohibited weapons and was pursuing chemical, biological and ballistic missile programmes in contravention of its obligations to disarm; and that the absence of evidence of weapons and programmes was the result of a successful policy of concealment.
@@ -2667,7 +2701,9 @@ Development of UK strategy and options, November 2002 to January 2003 804. The f
 
 %%page 119%%
 
-Advice on the legal basis for military action, November 2002 to March 2003 810. The following key findings are from Section 5:
+### Advice on the legal basis for military action, November 2002 to March 2003
+
+810\. The following key findings are from Section 5:
 
 - On 9 December, formal 'instructions' to provide advice were sent to Lord Goldsmith. They were sent by the FCO on behalf of the FCO and the MOD as well as No.10. The instructions made it clear that Lord Goldsmith should not provide an immediate response.
 - Until 27 February, No.10 could not have been sure that Lord Goldsmith would advise that there was a basis on which military action against Iraq could be taken in the absence of a further decision of the Security Council.
@@ -2948,7 +2984,9 @@ Advice on the legal basis for military action, November 2002 to March 2003 810. 
 
 > "We agree. The JIC plays a crucial role in providing the Government with objective assessments on a range of issues of importance to national interests."283
 
-The invasion of Iraq 849. The military plan for the invasion of Iraq depended for success on a rapid advance on Baghdad, including convincing the Iraqi population of the Coalition's determination to remove the regime.
+### The invasion of Iraq
+
+849\. The military plan for the invasion of Iraq depended for success on a rapid advance on Baghdad, including convincing the Iraqi population of the Coalition's determination to remove the regime.
 
 850\. By the end of March, the Government had recognised the need for sustained communication of key strategic messages and improved capabilities to reach a range of audiences in the UK, Iraq and the wider international community. But there was clearly a need for more robust arrangements to integrate Coalition efforts in the UK, US and the forces deployed in Iraq.
 
@@ -3045,7 +3083,9 @@ The invasion of Iraq 849. The military plan for the invasion of Iraq depended fo
 
 %%page 138%%
 
-Security Sector Reform 884. An SSR strategy should define the functions of different elements of the relevant security sector and the structures needed to perform those functions. Considering those questions should drive a robust debate about how security requirements might change over time.
+### Security Sector Reform
+
+884\. An SSR strategy should define the functions of different elements of the relevant security sector and the structures needed to perform those functions. Considering those questions should drive a robust debate about how security requirements might change over time.
 
 885\. An understanding of the many different models that exist internationally for internal security, policing and criminal justice is essential. But those models cannot be considered in isolation because what works in one country will not necessarily work in another which may have very different traditions. It is therefore critical for the SSR strategy to take full account of the history, culture and inherited practices of the country or region in question. The strategy also needs to be informed by the views and aspirations of the local population.
 

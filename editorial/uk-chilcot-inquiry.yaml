@@ -44,7 +44,7 @@ findings:
         exhausted. Military action was therefore not a last resort.
 
   - text: The relationship with the United States was a determining factor. The US had decided on regime change and set the timetable; Mr Blair committed the UK to stand with President Bush while seeking to take the issue through the UN.
-    cites: [uk-s-relationship-us-359, 16-timing-military-action-entirely, 93-blair-s-note-president]
+    cites: [359-uk-s-relationship-us, 16-timing-military-action-entirely, 93-blair-s-note-president]
 
   - text: The report finds that judgements about Iraq's weapons were presented with a certainty the intelligence did not justify, and that the possibility Iraq no longer had them was never examined. It found no evidence that No.10 improperly influenced the September 2002 dossier.
     cites: [329-no-stage-proposition-iraq, 330-intelligence-assessments-used-prepare, 533-jic-accepted-ownership-dossier]
@@ -64,7 +64,7 @@ findings:
         legal basis for UK participation were far from satisfactory.
 
   - text: Mr Blair had been advised that invading Iraq would increase the threat to the UK from Al Qaida and its affiliates.
-    cites: [predicted-increase-threat-uk-result, 346-jic-continued-warn-march, 355-baroness-manningham-buller-subsequently]
+    cites: [340-blair-had-been-advised, 346-jic-continued-warn-march, 355-baroness-manningham-buller-subsequently]
 
   - text: Although the risks of the aftermath were known, the report finds that planning for it was inadequate, with no one in Government responsible for all of it.
     cites: [592-december-2002-mod-described, 609-absence-single-person-responsible, 858-although-uk-expected-be]
@@ -106,17 +106,14 @@ reading_guide:
         biological or nuclear weapons or programmes identified and examined by
         either the JIC or the policy community.
 
-  - section: advice-on-the-legal-basis-for-military-action
-    why: How the Attorney General's advice changed between January and March 2003, and what Cabinet was and was not told.
+  - section: lord-goldsmiths-advice-of-7-march-2003
+    why: How the Attorney General's advice moved between 7 and 13 March 2003, from "the safest legal course" to a "better view".
     excerpt:
-      paragraph: 436-apart-from-no-10
+      paragraph: 471-lord-goldsmith-concluded-13
       quote: >-
-        Apart from No.10's response to the letter of 14 March, sent the following
-        day, in terms that can only be described as perfunctory, no formal record
-        was made of that decision and the precise grounds on which it was made
-        remain unclear.
+        Lord Goldsmith concluded on 13 March that, on balance, the "better view" was that the conditions for the operation of the revival argument were met in this case, meaning that there was a lawful basis for the use of force without a further resolution beyond resolution 1441.
 
-  - section: the-failure-to-plan-or-prepare-for-known-risks
+  - section: the-planning-process-and-decisionmaking
     why: Why the UK was unready for the occupation, department by department.
     excerpt:
       paragraph: 609-absence-single-person-responsible
@@ -133,6 +130,32 @@ reading_guide:
         The Iraq of 2009 certainly did not meet the UK's objectives as described
         in January 2003: it fell far short of strategic success.
 
+  - section: the-decision-to-go-to-war
+    why: The first of the Inquiry's lessons, on how a Government should weigh a decision to use force, and what it owes the public in making it.
+    excerpt:
+      paragraph: 828-when-potential-military-action
+      quote: >-
+        When the potential for military action arises, the Government should not
+        commit to a firm political objective before it is clear that it can be
+        achieved.
+
+  - section: weapons-of-mass-destruction
+    why: The Inquiry's lessons on intelligence, and on the invasion itself, including why assessed intelligence must not be organised into an argument for policy.
+    excerpt:
+      paragraph: 837-nature-two-functions-fundamentally
+      quote: >-
+        Organising the evidence in order to present an argument in the language
+        of Ministerial statements produces a quite different type of document.
+
+  - section: reconstruction
+    why: The lessons of the occupation, on why reconstruction is so hard and what better planning could and could not have done.
+    excerpt:
+      paragraph: 866-starting-point-all-discussions
+      quote: >-
+        The starting point for all discussions of reconstruction in circumstances
+        comparable to those in Iraq between 2003 and 2009 must be that this is an
+        area where progress will be extremely difficult.
+
 highlights:
   - paragraph: 20-inquiry-s-view-diplomatic
     quote: In the Inquiry's view, the diplomatic options had not at that stage been exhausted. Military action was therefore not a last resort.
@@ -146,7 +169,7 @@ highlights:
   - paragraph: 329-no-stage-proposition-iraq
     quote: At no stage was the proposition that Iraq might no longer have chemical, biological or nuclear weapons or programmes identified and examined by either the JIC or the policy community.
     card: true
-  - paragraph: introduction-1-2003-first-time
+  - paragraph: 1-2003-first-time-since
     quote: In 2003, for the first time since the Second World War, the United Kingdom took part in an opposed invasion and full‑scale occupation of a sovereign State – Iraq.
   - paragraph: 3-consequences-invasion-conflict-within
     quote: It left families bereaved and many individuals wounded, mentally as well as physically.
