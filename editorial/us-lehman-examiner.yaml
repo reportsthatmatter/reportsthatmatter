@@ -1,12 +1,11 @@
 # Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
 # for the fields and the rules.
 #
-# This edition covers Volume 1 only: the Introduction, the Executive Summary,
-# the procedural background and Section III.A.1 (Business and Risk
-# Management). Repo 105 (Section III.A.4, Volume 3) is summarised here from the
-# Executive Summary; its full analysis is the next volume to be added
-# (reportsthatmatter-dnv). When it lands, point the Repo 105 finding and a
-# reading-guide item at it.
+# This edition covers Volumes 1 and 3: the Introduction, the Executive
+# Summary, the procedural background, Section III.A.1 (Business and Risk
+# Management) and Section III.A.4 (Repo 105, one section page, slug repo-105;
+# reportsthatmatter-nk3). The Repo 105 findings cite that section, not the
+# Executive Summary's précis of it.
 #
 # Paragraphs avoided because of known text defects: page-break splits
 # (reportsthatmatter-1xr) in counterparties-because-did-not-have,
@@ -17,6 +16,10 @@
 # officers-directors-concerning-lehman-s. Footnote markers left in the text
 # (reportsthatmatter-0bf) follow sentence-final periods, so every quotation
 # here ends at a period or closing quotation mark before a marker.
+# In Repo 105, lehman-s-publicly-reported-net loses its continuation (the
+# reported 16.1x/15.4x/12.1x leverage figures) to an ordered-list misparse
+# (reportsthatmatter-xqu), and lehman-never-publicly-disclosed-its /
+# lehman-s-use-repo-105 are a page-break split; neither is quoted here.
 
 report: us-lehman-examiner
 status: approved
@@ -36,16 +39,16 @@ why_it_matters: >-
   The court-appointed examiner's report on why Lehman Brothers, the largest
   bankruptcy in U.S. history, collapsed in September 2008. Drawing on some 34
   million pages of documents and more than 250 interviews, it traces the
-  firm's move into risky, hard-to-sell assets, and sets out Repo 105, the
-  accounting device Lehman used to move $50 billion of assets off its balance
-  sheet at quarter-end.
+  firm's move into risky, hard-to-sell assets, and sets out in full Repo 105,
+  the accounting device Lehman used to move as much as $50 billion of assets
+  off its balance sheet at quarter-end, and who knew.
 
 background: |
   On 15 September 2008 Lehman Brothers Holdings filed for Chapter 11 protection, the largest bankruptcy ever filed, after a weekend in which the U.S. Government declined to fund a rescue and a sale to Barclays fell through. The Dow Jones index fell 504 points that day; within weeks AIG had been bailed out and Congress had passed the $700 billion Troubled Asset Relief Program.
 
   In January 2009 the U.S. Bankruptcy Court for the Southern District of New York ordered the appointment of an examiner to investigate why Lehman failed and whether its estate had claims against anyone. The U.S. Trustee appointed Anton R. Valukas, who retained the law firm Jenner & Block as counsel and Duff & Phelps as financial advisers; his team reviewed some 34 million pages of documents and interviewed more than 250 people. The report, about 2,200 pages in nine volumes, was made public on 11 March 2010. An examiner's report is not a verdict: a "colorable" claim, in the examiner's terms, is one with enough credible evidence to go before a court, not a finding of liability.
 
-  This edition is Volume 1: the introduction, the executive summary of all the examiner's conclusions, how the investigation was run, and Section III.A.1 on Lehman's business and risk management. The full analysis of Repo 105 (Section III.A.4, in Volume 3) is coming next; the executive summary here sets out its main findings.
+  This edition holds Volumes 1 and 3: the introduction, the executive summary of all the examiner's conclusions, how the investigation was run, Section III.A.1 on Lehman's business and risk management, and Section III.A.4, the examiner's full analysis of Repo 105, the part of the report it is best known for. That section prints the officers' and Ernst & Young's accounts alongside the evidence, including Richard Fuld's denial that he recalled Repo 105.
 
   In December 2010 New York's Attorney General sued Ernst & Young over Repo 105; the firm settled in 2015 for $10 million without admitting wrongdoing. The SEC closed its investigation in 2012 without bringing charges, and no Lehman executive was prosecuted.
 
@@ -59,26 +62,29 @@ findings:
         Lehman was more the consequence than the cause of a deteriorating
         economic climate.
 
-  - text: From 2006 Lehman chose to grow aggressively, taking on commercial real estate, leveraged loans and private equity that it could not sell in a downturn, and kept going after the subprime crisis began, repeatedly exceeding its own risk limits.
-    cites: [2006-lehman-made-deliberate-decision, lehman-continued-even-intensified-high, increase-lehman-s-net-assets]
-    excerpt:
-      paragraph: 2006-lehman-made-deliberate-decision
-      quote: >-
-        In 2006, Lehman made the deliberate decision to embark upon an
-        aggressive growth strategy, to take on significantly greater risk, and
-        to substantially increase leverage on its capital.
+  - text: From 2006 Lehman chose to grow aggressively, taking on commercial real estate, leveraged loans and private equity that it could not sell in a downturn, and kept going after the subprime crisis began, repeatedly exceeding its own risk limits. The examiner concludes that these decisions, though poor in hindsight, were within the business judgment rule, and finds no colorable claims against Lehman's officers or directors over risk management.
+    cites: [2006-lehman-made-deliberate-decision, lehman-continued-even-intensified-high, examiner-concludes-conduct-lehman-s]
 
-  - text: The examiner concludes that these risk decisions, though poor in hindsight, were within the business judgment rule, and finds no colorable claims against Lehman's officers or directors over risk management.
-    cites: [examiner-concludes-conduct-lehman-s, based-upon-their-considerable-business, examiner-finds-insufficient-evidence-breach]
+  - text: Repo 105 transactions were ordinary short-term repo borrowings that Lehman booked as sales, the report finds, so that securities left its balance sheet for seven to ten days around each quarter-end. At quarter-end Lehman's net balance sheet was about $38.6 billion lower than it would otherwise have been in late 2007, $49.1 billion in early 2008 and $50.38 billion in mid-2008. Unable to find a U.S. law firm to support the accounting, Lehman ran the programme through its London broker-dealer under an English-law opinion from Linklaters.
+    cites: [lehman-employed-off-balance-sheet, despite-belief-lehman-personnel-none, lehman-first-introduced-its-repo]
 
-  - text: To keep that confidence, the report finds, Lehman painted a misleading picture of its finances. Through Repo 105 it temporarily removed about $50 billion of assets from its balance sheet at the end of two quarters in 2008, and disclosed this to no one, not even its own Board.
-    cites: [buy-itself-more-time-maintain, lehman-did-not-disclose-however, lehman-did-not-disclose-its]
+  - text: The examiner finds that the transactions had no business purpose beyond the accounting effect. They cost more than ordinary repos, Lehman ran them above its own internal caps at every quarter-end from mid-2007, and its own staff called them "window‐dressing" and "another drug we r on".
+    cites: [when-pressed-identify-any-legitimate, while-not-referenced-incorporated-into, lehman-dramatically-ramped-up-its]
     excerpt:
-      paragraph: although-repo-105-transactions-may
+      paragraph: when-pressed-identify-any-legitimate
       quote: >-
-        Although Repo 105 transactions may not have been inherently improper,
-        there is a colorable claim that their sole function as employed by
-        Lehman was balance sheet manipulation.
+        Repo 105 transactions were not used for a business purpose, but instead
+        for an accounting purpose: to reduce Lehman's publicly reported net
+        leverage and net balance sheet.
+
+  - text: Lehman disclosed Repo 105 to no one, the report finds, while telling analysts it was cutting leverage by selling assets. Its directors, the rating agencies and regulators told the examiner they would have wanted to know, and the examiner concludes that a trier of fact could find the omission made Lehman's financial statements materially misleading.
+    cites: [way-unbeknownst-investing-public-rating, lehman-s-directors-rating-agencies, trier-fact-could-find-lehman]
+    excerpt:
+      paragraph: way-unbeknownst-investing-public-rating
+      quote: >-
+        In this way, unbeknownst to the investing public, rating agencies,
+        Government regulators, and Lehman's Board of Directors, Lehman reverse
+        engineered the firm's net leverage ratio for public consumption.
 
   - text: Lehman also overstated its liquidity. The pool it reported as $41 billion held, two days later, less than $2 billion that could readily be turned into cash.
     cites: [lehman-did-not-publicly-disclose]
@@ -89,8 +95,8 @@ findings:
         liquidity pool, the pool actually contained less than $2 billion of
         readily monetizable assets.
 
-  - text: The examiner finds colorable claims against CEO Richard Fuld and three chief financial officers for certifying misleading financial statements, and against the auditor Ernst & Young, which was told about Repo 105 by a Lehman senior vice president, Matthew Lee, and did not pass his allegations on to the Board's Audit Committee.
-    cites: [business-decisions-brought-lehman-its, may-2008-lehman-senior-vice]
+  - text: The examiner finds colorable claims of breach of fiduciary duty against CEO Richard Fuld and three chief financial officers, Chris O'Meara, Erin Callan and Ian Lowitt, for filing reports that hid Repo 105, and finds Fuld knew or should have known of the $49.1 billion figure by March 2008. Fuld told the examiner he did not recall Repo 105, which the report says a fact-finder would have to weigh against other evidence. Separately, the examiner finds colorable claims of malpractice against the auditor Ernst & Young, which a Lehman senior vice president, Matthew Lee, told about the $50 billion in June 2008, and which did not tell the Board's Audit Committee; the report notes it may have valid defences.
+    cites: [examiner-concludes-there-sufficient-evidence, there-sufficient-evidence-support-determination-2, june-13-2008-day-after]
 
   - text: In the final weekend the Government concluded that it had no legal authority to put capital into Lehman, and a rescue by Barclays collapsed when the U.K. regulator would not waive a shareholder vote.
     cites: [over-weekend-september-12-14, appeared-early-september-14-deal]
@@ -107,6 +113,17 @@ reading_guide:
 
   - section: why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise-from-its-fin
     why: The examiner's conclusions in brief, including Repo 105 and the case against Ernst & Young, and what he means by a "colorable" claim.
+
+  - section: repo-105
+    why: The examiner's full analysis of Repo 105, the core of the report at some 320 pages, opening with a summary of how the device worked, the e-mails that show what it was for, and the claims against Lehman's officers and Ernst & Young.
+    excerpt:
+      paragraph: lehman-employed-off-balance-sheet
+      quote: >-
+        Lehman employed off‐balance sheet devices, known within Lehman as "Repo
+        105" and "Repo 108" transactions, to temporarily remove securities
+        inventory from its balance sheet, usually for a period of seven to ten
+        days, and to create a materially misleading picture of the firm's
+        financial condition in late 2007 and 2008.
 
   - section: business-and-risk-management
     why: How Lehman overrode its own risk limits, removed a senior manager judged not aggressive enough, and committed to the Archstone deal.
@@ -132,8 +149,6 @@ highlights:
   - paragraph: contemporaneous-lehman-e-mails-describe
     quote: Lehman's Global Financial Controller confirmed that "the only purpose or motive for [Repo 105] transactions was reduction in the balance sheet" and that "there was no substance to the transactions."
     card: true
-  - paragraph: although-repo-105-transactions-may
-    quote: Lehman's own accounting personnel described Repo 105 transactions as an "accounting gimmick"
   - paragraph: lehman-did-not-disclose-its
     quote: Lehman did not disclose its use – or the significant magnitude of its use – of Repo 105 to the Government, to the rating agencies, to its investors, or to its own Board of Directors.
   - paragraph: may-2008-lehman-senior-vice
@@ -151,3 +166,11 @@ highlights:
     quote: Gelband was removed from the position for several reasons, including that he was not aggressive enough in growing the business in accordance with Fuld's longterm revenue targets.
   - paragraph: so-too-other-investment-banks
     quote: It is no coincidence that no major investment bank still exists with that model.
+  - paragraph: lehman-dramatically-ramped-up-its
+    quote: 'In an April 2008 e‐mail asking if he was familiar with the use of Repo 105 transactions to reduce net balance sheet, Bart McDade, Lehman''s former Head of Equities (2005–2008) and President and Chief Operating Officer (June–September 2008), replied: "I am very aware . . . it is another drug we r on."'
+    card: true
+  - paragraph: lehman-s-reliance-upon-repo
+    quote: 'In another May 21, 2008 e‐mail, the head of Liquid Markets asked: "Are we going to make the FID Europe [balance sheet] target," which elicited the response: "V close . . . anything that moves is getting 105''d."'
+    card: true
+  - paragraph: trier-fact-could-find-lehman
+    quote: Repo 105 moved net leverage not by tenths, but by whole points.
