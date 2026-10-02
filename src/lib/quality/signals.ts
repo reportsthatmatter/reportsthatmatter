@@ -70,6 +70,8 @@ const proseBlocks = (input: QualityInput) => toBlocks(input.markdown);
 
 /** Lower case, or punctuation no sentence opens on. */
 const CONTINUES = /^[a-zà-ÿ,;)]/;
+/** A lettered or roman sub-item ("b. On 4 November ..."): a new item, not a continuation (reportsthatmatter-0wm). */
+const ITEM_LABEL = /^\(?(?:[a-z]|[ivx]{1,4})[.)]\s+\S/;
 const OPENS_QUOTATION = /^["“‘'[(]/;
 
 type Severed = { kind: "quote" | "paragraph" | "capitalised"; before: Block; after: Block; crossed: boolean };
@@ -86,6 +88,7 @@ function severed(input: QualityInput): Severed[] {
     if (j >= blocks.length) continue;
     const after = blocks[j];
     const crossed = j > i + 1;
+    if (ITEM_LABEL.test(after.text.replace(/^>\s*/, ""))) continue;
     if (after.kind === "quote") {
       if (/^-/.test(after.text) || OPENS_QUOTATION.test(after.text)) continue;
       if (CONTINUES.test(after.text)) out.push({ kind: "quote", before, after, crossed });

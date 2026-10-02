@@ -147,7 +147,9 @@ function reportChecks(label: string, checks: ReturnType<typeof runChecks>): bool
   console.log(`\n${label}`);
   let ok = true;
   for (const check of checks) {
-    console.log(`  ${check.ok ? "[32m✓[0m" : "[31m✗[0m"} ${check.name} — ${check.detail}`);
+    // Informational checks (ingest >= the release after v0.15.0) measure without gating.
+    const info = (check as { info?: boolean }).info;
+    console.log(`  ${info ? "·" : check.ok ? "[32m✓[0m" : "[31m✗[0m"} ${check.name} — ${check.detail}`);
     if (!check.ok) ok = false;
   }
   return ok;

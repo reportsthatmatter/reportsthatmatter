@@ -127,16 +127,23 @@ an interactive session.
   `corrections.yaml` for the human judgements the pipeline cannot make, applied
   deterministically so output stays reproducible — #106, now stage 5 of #118.
   Until that exists, the rule is absolute.)
-- **Know a change's blast radius before you commit it.** Two gates, one per
-  stage, both in `verify.sh`:
+- **Know a change's blast radius before you commit it.** Three gates, all in `verify.sh`:
   - `pnpm ingest check` covers each report's **markdown** against the
     `baseline.json` in its own repo. Accept a move with
     `pnpm ingest baseline <id>`.
   - `pnpm corpus check` covers what this repo renders **from** that markdown —
     every section's citable paragraph ids, against `reports/corpus-baseline.json`.
     Accept a move with `pnpm corpus accept [<id>]`.
+  - `pnpm quality check` covers what a *reader* sees in each report — severed
+    sentences, unlinked footnote markers, furniture, missing headings — as
+    per-report counts against `reports/quality-budget.yaml`. Budgets only
+    ratchet down: after a fix, `pnpm quality ratchet [--dry-run]` lowers them to
+    the new counts (verify.sh prints "N budgets can be ratcheted" when any sits
+    10% or more above its count). **Raising one is a hand edit with a
+    `# why: <bead id>` comment on the line**; check fails an uncommented raise
+    against `HEAD`. See [`docs/quality-harness.md`](docs/quality-harness.md).
 
-  Both exist because a fix aimed at Leveson silently changed three other
+  The first two exist because a fix aimed at Leveson silently changed three other
   reports. The second was added later, and closed a real hole: `paragraphId()`
   lives in `src/lib/markdown.ts`, one stage *downstream* of anything a report
   has a pin on, so until then an edit there could repoint every citation in
@@ -153,6 +160,13 @@ an interactive session.
   re-run `pnpm ingest check`. That friction is the point — it is what makes a
   report adopt an improvement knowingly instead of having it arrive
   unannounced, which is how one fix silently changed three reports.
+  **Every ingest release or pin-bump PR carries its quality numbers**: the
+  integrator runs `pnpm quality report --diff origin/main` after the re-ingest
+  and pastes the table into the PR body (every regression needs a bead; every
+  improvement gets `pnpm quality ratchet`). After the release ships, run
+  `pnpm quality ratchet --record` and commit `reports/quality-last.json`, so the
+  next release is diffed against this one. `pnpm publish-report <id>` prints that
+  report's own quality row before it uploads.
 - **Never weaken a fidelity check to make a report pass.** If a report cannot
   meet the gate, mark it `ingested: false` in the registry and record why. The
   checks exist to find exactly what a weakened check would hide.

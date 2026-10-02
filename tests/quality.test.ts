@@ -24,7 +24,8 @@ import {
   endsSentence,
   type QualityInput,
 } from "../src/lib/quality";
-import { deriveDefaults, budgetFor, exceeded, parseBudgetFile, raisedBudgets, ratchet, serializeBudgetFile } from "../src/lib/quality/budget";
+import { deriveDefaults, budgetFor, exceeded, parseBudgetFile, raisedBudgets, ratchet, ratchetable, serializeBudgetFile } from "../src/lib/quality/budget";
+import { diffTable, parseRecorded, serializeRecorded } from "../src/lib/quality/diff";
 
 // Fixtures are cut from the live corpus examples in
 // docs/design/2026-10-02-quality-harness-catalogue.md. Each signal is shown the
@@ -287,6 +288,66 @@ describe("budgets", () => {
     const text = serializeBudgetFile(file());
     expect(text).toContain("bare-footnote-marker: 4  # why: reportsthatmatter-xyz");
     expect(serializeBudgetFile(parseBudgetFile(text))).toBe(text);
+  });
+
+  it("does not call a `# why:` with no reason a reason, and ignores lowered budgets", () => {
+    const before = file();
+    const raised = serializeBudgetFile(before).replace("severed-into-quote: 10", "severed-into-quote: 12  # why:");
+    expect(raisedBudgets(before, parseBudgetFile(raised))[0].why).toBeNull();
+    const lowered = serializeBudgetFile(before).replace("severed-into-quote: 10", "severed-into-quote: 3");
+    expect(raisedBudgets(before, parseBudgetFile(lowered))).toEqual([]);
+  });
+
+  describe("ratchetable", () => {
+    it("lists only budgets at least 10% above their count", () => {
+      const slack = ratchetable(file(), "r1", counts({ "severed-into-quote": 9, "bare-footnote-marker": 4 }));
+      expect(slack.map((s) => s.signal)).toEqual(["severed-into-quote"]);
+      expect(ratchetable(file(), "r1", counts({ "severed-into-quote": 10, "bare-footnote-marker": 4 }))).toEqual([]);
+      expect(ratchetable(file(), "nobody", counts())).toEqual([]);
+    });
+  });
+
+  describe("quality report --diff", () => {
+    const last = { ingest: "v0.15.0", recorded: "2026-10-02", reports: { r1: counts({ "severed-into-quote": 10, "bare-footnote-marker": 4 }) } };
+    it("shows deltas, marks a gated regression and counts improvements", () => {
+      const now = { r1: counts({ "severed-into-quote": 7, "bare-footnote-marker": 6 }) };
+      const table = diffTable(last, now, "origin/main");
+      expect(table).toContain("| severed-into-quote | 7 (−3) |");
+      expect(table).toContain("| bare-footnote-marker | 6 (+2 ▲) |");
+      expect(table).toContain("Regressions (1)");
+      expect(table).toContain("r1 bare-footnote-marker 4 → 6");
+      expect(table).toContain("Improvements (1)");
+    });
+    it("does not mark an advisory increase, and says so when clean", () => {
+      const now = { r1: counts({ "severed-into-quote": 10, "bare-footnote-marker": 4, "severed-paragraph-capital": 9 }) };
+      const table = diffTable(last, now, "HEAD");
+      expect(table).toContain("(advisory) | 9 (+9) |");
+      expect(table).toContain("No regressions.");
+    });
+    it("marks a report new since the record, and copes with no record at all", () => {
+      expect(diffTable(last, { r1: counts(), r2: counts() }, "HEAD")).toContain("0 (new)");
+      expect(diffTable(null, { r1: counts() }, "origin/main")).toContain("nothing to compare with");
+    });
+    it("round-trips the record with reports sorted", () => {
+      const text = serializeRecorded({ ...last, reports: { b: counts(), a: counts() } });
+      expect(Object.keys(parseRecorded(text).reports)).toEqual(["a", "b"]);
+    });
+  });
+});
+
+describe("lettered sub-items (reportsthatmatter-0wm)", () => {
+  // Litvinenko, live after letteredItems: two correct items, the first without a full stop.
+  const items = [
+    "a. Mr Litvinenko had suffered severe abdominal pain, vomiting and diarrhoea[^112]",
+    "b. On 4 November he was seen again by the same doctor;",
+  ].join("\n\n");
+  it("does not read an item label as the continuation of the item above", () => {
+    expect(severedParagraph.run(input(items))).toHaveLength(0);
+    expect(severedIntoQuote.run(input(items.replace("b. On", "> b. On")))).toHaveLength(0);
+    expect(severedParagraph.run(input(items.replace("b. On", "(ii) On")))).toHaveLength(0);
+  });
+  it("still counts a real continuation that starts lower case", () => {
+    expect(severedParagraph.run(input("Mr Litvinenko had suffered severe abdominal pain and\n\nvomiting on 4 November."))).toHaveLength(1);
   });
 });
 

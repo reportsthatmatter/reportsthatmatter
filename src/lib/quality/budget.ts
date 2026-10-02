@@ -172,3 +172,22 @@ export function ratchet(file: BudgetFile, report: string, counts: Record<string,
   }
   return { next, lowered };
 }
+
+/** A budget this far above its count (a fraction of the budget) is worth ratcheting. */
+export const RATCHET_SLACK = 0.1;
+
+export type Slack = { report: string; signal: string; budget: number; count: number };
+
+/**
+ * Explicit budgets sitting at least 10% above the current count (`count <= 0.9 * budget`):
+ * the ones `pnpm quality ratchet` would meaningfully tighten. verify.sh prints their number.
+ */
+export function ratchetable(file: BudgetFile, report: string, counts: Record<string, number>): Slack[] {
+  const out: Slack[] = [];
+  for (const signal of GATED) {
+    const budget = file.reports[report]?.budgets[signal.id];
+    if (budget === undefined || budget <= 0) continue;
+    if (counts[signal.id] <= budget * (1 - RATCHET_SLACK)) out.push({ report, signal: signal.id, budget, count: counts[signal.id] });
+  }
+  return out;
+}
