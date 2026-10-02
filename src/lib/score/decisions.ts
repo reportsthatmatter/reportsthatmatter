@@ -17,6 +17,7 @@
  */
 import { align } from "./align";
 import type { Line } from "./layout";
+import { prepareLayout } from "./layout";
 import type { ScoreResult } from "./score";
 import { BOUNDARY_TYPES, TOLERANCE } from "./score";
 import { tokens } from "./tokens";
@@ -102,7 +103,25 @@ const anyIn = (xs: number[], a: number, b: number) => {
   return k < xs.length && xs[k] <= b;
 };
 
-export function decisionRows(report: string, result: ScoreResult, layout: Line[] | null): Row[] {
+/**
+ * How far to trust a boundary row's reference label (38s.12): the reference is itself a pipeline output
+ * (tags, scraped HTML) with known quirks, and adjudicating held-out page breaks against the PDF found it wrong
+ * on 10%. `low` when the row has a shape the quirks produce; `adjudicated` rows are overwritten by
+ * `applyAdjudication` from the report's `reference/adjudicated.yaml`.
+ */
+export function labelFlags(r: Row): string[] {
+  const flags: string[] = [];
+  if (r.ref_boundary === null || r.ref_boundary === undefined) return flags;
+  const unfinished = r.prev_ends_sentence === false && r.prev_ends_hyphen !== true ? true : r.prev_ends_hyphen === true;
+  if (r.ref_boundary === true && unfinished && r.next_first === "lower") flags.push("ref-splits-lowercase-after-unfinished");
+  else if (r.ref_boundary === true && unfinished && r.crosses_page === true && !r.next_starts_label && ["paragraph", "quote", "list"].includes(String(r.ref_next_type))) flags.push("ref-splits-unfinished-at-page-break");
+  if (r.ref_boundary === false && r.next_starts_label === true) flags.push("ref-joins-labelled-line");
+  if (r.ref_next_type === "note" || r.ref_next_type === "table" || r.ref_prev_type === "note" || r.ref_prev_type === "table") flags.push("ref-note-or-table");
+  return flags;
+}
+
+export function decisionRows(report: string, result: ScoreResult, rawLayout: Line[] | null): Row[] {
+  const layout = rawLayout ? prepareLayout(rawLayout) : null;
   const d = result.detail;
   const { ours, refBody, O, R, body } = d;
   const rows: Row[] = [];
@@ -139,20 +158,33 @@ export function decisionRows(report: string, result: ScoreResult, layout: Line[]
       if (first[li] < 0) first[li] = p;
       last[li] = p;
     });
+    // The line's first / last word's position in the other stream. A line none of whose words aligned (Chilcot's
+    // names are missing from the tags, so some whole lines are) borrows the nearest aligned word on a neighbouring
+    // line, within about six lines of words, and says so with `near`.
+    const SPAN = 60;
     const firstMapped = (li: number, m: Int32Array) => {
-      for (let p = first[li]; p >= 0 && p <= last[li]; p++) if (m[p] >= 0) return { p, v: m[p] - (p - first[li]) };
+      for (let p = first[li]; p >= 0 && p < m.length && p <= last[li] + SPAN; p++) if (m[p] >= 0) return { p, v: m[p] - (p - first[li]), near: p > last[li] };
       return null;
     };
     const lastMapped = (li: number, m: Int32Array) => {
       // the last aligned word itself: trailing unaligned words are usually a footnote number
-      for (let p = last[li]; p >= first[li] && p >= 0; p--) if (m[p] >= 0) return { p, v: m[p] };
+      for (let p = last[li]; p >= Math.max(0, first[li] - SPAN); p--) if (m[p] >= 0) return { p, v: m[p], near: p < first[li] };
       return null;
     };
+    const share = (li: number, m: Int32Array) => {
+      let n = 0;
+      for (let p = first[li]; p <= last[li]; p++) if (m[p] >= 0) n++;
+      return n / (last[li] - first[li] + 1);
+    };
+    // A body line is one whose words are in the reference, or in ours (the reference may lack words: names
+    // marked up as links) and that is not a footnote line; running heads and page numbers are in neither.
     const bodyLine = (li: number) => {
-      if (first[li] < 0) return false;
-      let m = 0;
-      for (let p = first[li]; p <= last[li]; p++) if (toR.map[p] >= 0) m++;
-      return m / (last[li] - first[li] + 1) >= 0.5;
+      const L = lines[li];
+      if (first[li] < 0 || L.note) return false;
+      if (share(li, toR.map) >= 0.5) return true;
+      // running heads and page numbers sit in the margins and may match words elsewhere in ours (its contents list)
+      const margin = L.top < 0.08 * L.pageHeight || L.top > 0.92 * L.pageHeight;
+      return !margin && share(li, toO.map) >= 0.5;
     };
     let prev = -1;
     for (let li = 0; li < lines.length; li++) {
@@ -165,7 +197,8 @@ export function decisionRows(report: string, result: ScoreResult, layout: Line[]
         if (a && b && b.v <= a.v) b.v = a.v + 1;
         if (a && b && b.v - a.v <= 3 + (b.p - a.p)) {
           const rk = R.owner[Math.min(b.v, R.words.length - 1)];
-          const included = d.refIncluded[rk];
+          // a line none of whose words are in the reference (its tags dropped the paragraph) has no reference answer
+          const included = d.refIncluded[rk] && !a.near && !b.near;
           const refBoundary = anyIn(refStarts, a.v, b.v);
           if (ao && bo && bo.v <= ao.v) bo.v = ao.v + 1;
           const ourBoundary = ao && bo ? anyIn(ourStarts, ao.v, bo.v) : null;
@@ -173,7 +206,7 @@ export function decisionRows(report: string, result: ScoreResult, layout: Line[]
           const L1 = lines[prev];
           const L2 = lines[li];
           const ob = bo ? ours.body[O.owner[Math.min(bo.v, O.words.length - 1)]] : null;
-          rows.push({
+          const row: Row = {
             report,
             decision: "boundary",
             source: "layout",
@@ -187,7 +220,11 @@ export function decisionRows(report: string, result: ScoreResult, layout: Line[]
             ours_next_type: ob?.type ?? null,
             correct: included ? ok : null,
             crosses_page: L1.page !== L2.page,
+            column: L2.column ?? null,
             skipped_lines: li - prev - 1,
+            prev_ref_unaligned: a.near,
+            next_ref_unaligned: b.near,
+            ref_covered: included,
             gap_after: L1.page === L2.page ? L2.top - (L1.top + L1.height) : null,
             line_spacing: L1.page === L2.page ? L2.top - L1.top : null,
             font_change: L1.font !== L2.font,
@@ -198,7 +235,11 @@ export function decisionRows(report: string, result: ScoreResult, layout: Line[]
             ...lineFeatures("next", L2, stats, modalSize),
             prev_text: L1.text.slice(-60),
             next_text: L2.text.slice(0, 60),
-          });
+          };
+          const flags = labelFlags(row);
+          row.label_confidence = included ? (flags.length ? "low" : "high") : null;
+          row.label_flags = included ? (flags.length ? flags.join(",") : null) : a.near || b.near ? "line-not-in-reference" : null;
+          rows.push(row);
         }
       }
       prev = li;
@@ -263,6 +304,13 @@ export function decisionRows(report: string, result: ScoreResult, layout: Line[]
     const ob = i >= 0 ? ours.body[O.owner[i]] : null;
     const L = lineOfOur && i >= 0 && lineOfOur[i] >= 0 ? lines[lineOfOur[i]] : undefined;
     rows.push({ report, decision: "marker", page: L?.page ?? null, printed_page: ob?.page ?? null, pid: ob?.pid ?? null, label: m.label, ref_marker: true, outcome: m.outcome, correct: m.outcome === "linked", line_superscript: L?.superscript ?? null, before: R.words.slice(Math.max(0, m.rpos - 6), m.rpos).join(" "), after: R.words.slice(m.rpos, m.rpos + 4).join(" ") });
+  }
+  for (const r of rows) {
+    if (r.decision === "boundary" && r.label_confidence === undefined) {
+      const flags = labelFlags(r);
+      r.label_confidence = r.ref_boundary === null || r.ref_boundary === undefined ? null : flags.length ? "low" : "high";
+      r.label_flags = flags.length ? flags.join(",") : null;
+    }
   }
   return rows;
 }

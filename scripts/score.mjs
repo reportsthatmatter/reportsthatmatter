@@ -5,6 +5,7 @@
  *   pnpm score --all --holdout     # the held-out set instead (report scores only; never tune on these)
  *     --out <dir>                  # where to write (default score-out/)
  *     --no-layout                  # skip pdftohtml layout features in the decision dataset
+ *     --adjudicate-draft           # also write <out>/<id>/adjudicated-draft.yaml: 20 random + 10 disagreeing page breaks to adjudicate
  *     --json                       # also print the summary as JSON
  *
  * Reads reports/<id>/full.md (as aggregated) and <repo>/reference/{manifest.json,blocks.jsonl}
@@ -26,6 +27,7 @@ import { errorReport, summaryRow, summaryTable } from "../src/lib/score/report.t
 import { evaluateSignals, signalsTable } from "../src/lib/score/signals.ts";
 import { decisionRows } from "../src/lib/score/decisions.ts";
 import { loadLayout } from "../src/lib/score/layout.ts";
+import { adjudicationMarkdown, adjudicationStats, applyAdjudication, draftAdjudication, loadAdjudicated } from "../src/lib/score/adjudicated.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
@@ -91,21 +93,36 @@ for (const id of list) {
   // decision dataset
   const layout = flag("--no-layout") ? null : loadLayout(repo);
   const decisions = decisionRows(id, result, layout);
+  // the reference's own error rate: page breaks adjudicated against the PDF (reference/adjudicated.yaml)
+  if (flag("--adjudicate-draft")) writeFileSync(join(dir, "adjudicated-draft.yaml"), draftAdjudication(id, decisions));
+  const adjFile = loadAdjudicated(repo);
+  const adjPairs = adjFile ? applyAdjudication(decisions, adjFile) : [];
+  const adj = adjFile ? adjudicationStats(adjPairs) : null;
   writeFileSync(join(dir, "decisions.jsonl"), decisions.map((r) => JSON.stringify(r)).join("\n") + "\n");
 
   const row = summaryRow(id, ref.manifest, result);
-  rows.push({ row, signals });
-  writeFileSync(join(dir, "errors.md"), errorReport(id, ref.manifest, result, signals));
+  rows.push({ row, signals, adj });
+  let errors = errorReport(id, ref.manifest, result, signals);
+  if (adj) errors = errors.replace("\n## Excluded stretches", "\n" + adjudicationMarkdown(adj, adjFile, adjPairs) + "\n## Excluded stretches");
+  else errors = errors.replace("\n## Excluded stretches", "\n## Reference error rate at page breaks\n\nNo `reference/adjudicated.yaml` in the report repo: the reference's own error rate is unknown.\n\n## Excluded stretches");
+  writeFileSync(join(dir, "errors.md"), errors);
   writeFileSync(join(dir, "signals.md"), signalsTable(id, signals));
   const { detail, examples, ...rest } = result;
-  writeFileSync(join(dir, "score.json"), JSON.stringify({ id, manifest: { set: ref.manifest.set, edition: ref.manifest.edition, version: ref.manifest.version }, ...rest, examples: examples.length, signals }, null, 1) + "\n");
+  writeFileSync(join(dir, "score.json"), JSON.stringify({ id, manifest: { set: ref.manifest.set, edition: ref.manifest.edition, version: ref.manifest.version }, ...rest, examples: examples.length, signals, adjudication: adj }, null, 1) + "\n");
   const b = row;
   console.log(
-    `${id}: boundaries P ${fmt(b.boundaryP)} R ${fmt(b.boundaryR)} F1 ${fmt(b.boundaryF1)} · headings P ${fmt(b.headingP)} R ${fmt(b.headingR)} level ${fmt(b.headingLevel)} · markers P ${fmt(b.markerP)} R ${fmt(b.markerR)} · WER ${fmt(b.wer)} · OOV ${(b.oov * 100).toFixed(2)}% · ${decisions.length} decisions · ${((Date.now() - t0) / 1000).toFixed(1)}s → ${join(dir, "errors.md")}`,
+    `${id}: boundaries P ${fmt(b.boundaryP)} R ${fmt(b.boundaryR)} F1 ${fmt(b.boundaryF1)} · headings P ${fmt(b.headingP)} R ${fmt(b.headingR)} level ${fmt(b.headingLevel)} · markers P ${fmt(b.markerP)} R ${fmt(b.markerR)} · WER ${fmt(b.wer)} · OOV ${(b.oov * 100).toFixed(2)}% · reference page-break error ${adj ? `${adj.referenceWrong}/${adj.judged} = ${adj.referenceErrorRate === null ? "n/a" : fmt(adj.referenceErrorRate)}` : "not adjudicated"} · ${decisions.length} decisions · ${((Date.now() - t0) / 1000).toFixed(1)}s → ${join(dir, "errors.md")}`,
   );
 }
 if (rows.length) {
-  const md = summaryTable(rows.map((r) => r.row), rows.map((r) => r.signals));
+  let md = summaryTable(rows.map((r) => r.row), rows.map((r) => r.signals));
+  const adjTable = ["", "## The reference's own error rate at page breaks", "", "Page breaks adjudicated against the PDF (`reference/adjudicated.yaml`): how often the reference and our text are wrong at them. The reference's error rate is the ceiling on trusting any page-break score above.", "", "| report | adjudicated | no reference answer | judged | reference wrong | reference error rate (95% interval) | wrong or no answer | ours wrong | our error rate |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|"];
+  for (const r of rows) {
+    const a = r.adj;
+    const p = (x) => (x === null || x === undefined ? "n/a" : fmt(x));
+    adjTable.push(a ? `| ${r.row.id} | ${a.breaks} | ${a.uncovered} | ${a.judged} | ${a.referenceWrong} | ${p(a.referenceErrorRate)}${a.referenceErrorCI ? ` (${p(a.referenceErrorCI[0])} to ${p(a.referenceErrorCI[1])})` : ""} | ${p(a.referenceUnusableRate)} | ${a.oursWrong}/${a.oursJudged} | ${p(a.oursErrorRate)} |` : `| ${r.row.id} | none | | | | not adjudicated | | | |`);
+  }
+  md += adjTable.join("\n") + "\n";
   writeFileSync(join(out, flag("--holdout") ? "summary-holdout.md" : "summary.md"), md);
   console.log("\n" + md.split("\n## ")[0]);
   if (flag("--json")) console.log(JSON.stringify(rows.map((r) => r.row), null, 1));

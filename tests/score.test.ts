@@ -3,8 +3,10 @@ import { align } from "../src/lib/score/align";
 import { parseOurs, inlineText } from "../src/lib/score/ours";
 import { parseReferenceLines } from "../src/lib/score/reference";
 import { score, prf } from "../src/lib/score/score";
-import { decisionRows } from "../src/lib/score/decisions";
-import { parsePdfXml } from "../src/lib/score/layout";
+import { decisionRows, labelFlags } from "../src/lib/score/decisions";
+import { parsePdfXml, prepareLayout } from "../src/lib/score/layout";
+import type { Line } from "../src/lib/score/layout";
+import { adjudicationStats, applyAdjudication, draftAdjudication, matchRow } from "../src/lib/score/adjudicated";
 import { evaluateSignals } from "../src/lib/score/signals";
 import { tokens, tokensBefore } from "../src/lib/score/tokens";
 import { renderArtifacts } from "@rtm/ingest";
@@ -220,5 +222,90 @@ describe("parsePdfXml", () => {
     expect(lines[0].superscript).toBe(true);
     expect(lines[1].bold).toBe(true);
     expect(lines[1].page).toBe(3);
+  });
+});
+
+const line = (page: number, top: number, left: number, text: string, extra: Partial<Line> = {}): Line => ({
+  page, pageHeight: 1000, pageWidth: 800, top, left, width: Math.max(40, text.length * 6), height: 14, size: 12, font: "0", family: "Bembo", color: "#000", bold: false, italic: false, superscript: false, text, ...extra,
+});
+
+describe("prepareLayout", () => {
+  it("orders a two-column page column by column, with a full-width line closing the band", () => {
+    const rows: Line[] = [];
+    for (let i = 0; i < 9; i++) {
+      // interleaved as a stream might emit them: left, right, left, right ...
+      rows.push(line(1, 100 + i * 20, 50, `left column line number ${i} of text`, { width: 300 }));
+      rows.push(line(1, 100 + i * 20, 430, `right column line number ${i} of text`, { width: 300 }));
+    }
+    const out = prepareLayout(rows).map((l) => l.text);
+    expect(out.slice(0, 9).every((t) => t.startsWith("left"))).toBe(true);
+    expect(out.slice(9).every((t) => t.startsWith("right"))).toBe(true);
+    expect(prepareLayout(rows).every((l) => l.column === 0 || l.column === 1)).toBe(true);
+  });
+  it("marks the small lines at the foot of a page as notes, not the last body line", () => {
+    const body = Array.from({ length: 12 }, (_, i) => line(1, 100 + i * 20, 100, `a long enough body line of running text ${i}`, { width: 500 }));
+    const notes = [line(1, 800, 100, "1. Letter from Mr X to Mr Y, 4 March 1989, p12", { size: 9, width: 400 }), line(1, 815, 100, "2. Minute of a meeting, p3", { size: 9, width: 300 })];
+    const out = prepareLayout([...body, ...notes]);
+    expect(out.filter((l) => l.note).map((l) => l.text)).toEqual(notes.map((l) => l.text));
+    expect(out.filter((l) => !l.note)).toHaveLength(12);
+  });
+  it("joins a hanging paragraph label to the text beside it, whichever order they were emitted in", () => {
+    const rows = [line(1, 200, 120, "The situation in Londonderry was serious. By this stage the", { width: 500 }), line(1, 200, 60, "2.6", { width: 20 }), line(1, 220, 120, "nationalist community had largely turned against the soldiers", { width: 500 })];
+    const out = prepareLayout(rows);
+    expect(out.map((l) => l.text.slice(0, 20))).toEqual(["2.6 The situation in", "nationalist communit"]);
+    expect(out[0].left).toBe(60);
+  });
+});
+
+describe("label confidence", () => {
+  it("flags a reference split that follows an unfinished sentence in lower case", () => {
+    expect(labelFlags({ ref_boundary: true, prev_ends_sentence: false, prev_ends_hyphen: false, next_first: "lower", crosses_page: true, ref_next_type: "paragraph" })).toContain("ref-splits-lowercase-after-unfinished");
+    expect(labelFlags({ ref_boundary: true, prev_ends_sentence: true, next_first: "upper", crosses_page: true, ref_next_type: "paragraph" })).toEqual([]);
+  });
+  it("flags a reference that joins a numbered line, and says nothing where the reference has no answer", () => {
+    expect(labelFlags({ ref_boundary: false, next_starts_label: true })).toContain("ref-joins-labelled-line");
+    expect(labelFlags({ ref_boundary: null, next_starts_label: true })).toEqual([]);
+  });
+});
+
+describe("adjudicated page breaks", () => {
+  const rows = [
+    { decision: "boundary", source: "layout", crosses_page: true, page: 10, next_text: "and hove [sic] to do the whole job", prev_text: "have a Judicial Review", ref_boundary: true, ours_boundary: false },
+    { decision: "boundary", source: "layout", crosses_page: true, page: 11, next_text: "2.8.54 On 23 June 1989 he met", prev_text: "correctly", ref_boundary: true, ours_boundary: true },
+    { decision: "boundary", source: "layout", crosses_page: true, page: 12, next_text: "the fans", prev_text: "goaded by", ref_boundary: null, ours_boundary: false },
+  ] as never[];
+  const file = {
+    report: "x",
+    breaks: [
+      { page: 10, prev: "Judicial Review", next: "and hove [sic]", verdict: "join" as const, stratum: "random" as const },
+      { page: 11, prev: "correctly", next: "2.8.54 On 23 June", verdict: "split" as const, stratum: "random" as const },
+      { page: 12, prev: "goaded by", next: "the fans", verdict: "join" as const, stratum: "disagreement" as const },
+      { page: 99, prev: "", next: "nowhere", verdict: "join" as const },
+      { page: 10, prev: "", next: "x", verdict: "unjudgeable" as const },
+    ],
+  };
+  it("matches an adjudication to its page-break row by page and opening words", () => {
+    expect(matchRow(rows, file.breaks[0])).toBe(rows[0]);
+    expect(matchRow(rows, file.breaks[3])).toBeNull();
+  });
+  it("counts the reference wrong where it disagrees with the verdict, and leaves uncovered rows out", () => {
+    const pairs = applyAdjudication(rows, file);
+    const s = adjudicationStats(pairs);
+    expect(s.judged).toBe(2);
+    expect(s.referenceWrong).toBe(1); // row 0: reference split, truth join
+    expect(s.referenceErrorRate).toBe(0.5);
+    expect(s.uncovered).toBe(1);
+    expect(s.unmatched).toBe(1);
+    expect(s.unjudgeable).toBe(1);
+    expect(s.referenceWrongAs.splitWhereJoin).toBe(1);
+    expect(s.oursWrong).toBe(0);
+    expect(s.oursJudged).toBe(3);
+  });
+  it("drafts a seeded sample, random first and then disagreements", () => {
+    const pool = Array.from({ length: 60 }, (_, i) => ({ decision: "boundary", source: "layout", crosses_page: true, page: i + 2, ref_boundary: i % 2 === 0, ours_boundary: i % 3 === 0, ref_next_type: "paragraph", prev_text: "a", next_text: "b" })) as never[];
+    const a = draftAdjudication("r", pool, 5, 3);
+    expect(a).toBe(draftAdjudication("r", pool, 5, 3));
+    expect((a.match(/stratum: random/g) ?? []).length).toBe(5);
+    expect((a.match(/stratum: disagreement/g) ?? []).length).toBe(3);
   });
 });

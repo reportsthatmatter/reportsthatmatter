@@ -10,18 +10,29 @@ pnpm score --all                      # the development set: every report whose 
 pnpm score --all --holdout            # the held-out set: report scores only, never tune passes on these
   --out <dir>                         # default score-out/ (gitignored)
   --no-layout                         # skip pdftohtml layout features in the decision dataset
+  --adjudicate-draft                  # also write <out>/<id>/adjudicated-draft.yaml: 20 random + 10 disagreeing page breaks to adjudicate
 ```
 
 Each run writes, per report, to `score-out/<id>/`:
 
-- `errors.md`: summary, excluded stretches, the block-type confusion matrix, a per-section table, the b78.2 signals' precision and recall against the scorer, then the worst examples per metric, clustered by shape (page break or not, previous block finished or not, types either side), each with the printed page, the paragraph id (`?p=`) and the `full.md` line. Read this first.
+- `errors.md`: summary, the reference's own error rate at page breaks (below), excluded stretches, the block-type confusion matrix, a per-section table, the b78.2 signals' precision and recall against the scorer, then the worst examples per metric, clustered by shape (page break or not, previous block finished or not, types either side), each with the printed page, the paragraph id (`?p=`) and the `full.md` line. Read this first.
 - `score.json`: every number in machine-readable form.
 - `signals.md`: the b78.2 signals against the scorer's errors.
 - `decisions.jsonl`: the labelled decision dataset (below), the input to 38s.8.
 
-and `score-out/summary.md` (or `summary-holdout.md`) across reports: the score table, the top error clusters, and the pooled signal table.
+and `score-out/summary.md` (or `summary-holdout.md`) across reports: the score table, the reference error rates, the top error clusters, and the pooled signal table.
 
 Reference editions live in each report repo under `reference/`: `manifest.json` (edition, set, licence, source URLs and SHA-256 of every mirrored file, normaliser, caveats, and a `version` block where the editions differ) and `blocks.jsonl`. To test against report-repo branches, `RTM_REPO_ROOT=<dir>` reads `<dir>/<repo>` instead of the sibling checkout.
+
+## The reference's own error rate: `reference/adjudicated.yaml`
+
+Every reference edition is itself a pipeline output (tag trees, scraped HTML, OCR) and is wrong somewhere, worst at page breaks, where the question is whether a paragraph runs on. Each report repo commits `reference/adjudicated.yaml`: 30 page breaks decided by reading the PDF (`pdftotext` of the two pages and, where the text did not settle it, the rendered page image; `image: true` marks those), 20 drawn at random with a seeded shuffle from every page break the reference covers and 10 where our text and the reference disagree. Each entry has the physical `page` of the first line after the break, the dataset's `prev` and `next` lines, `verdict: join | split | unjudgeable`, `stratum: random | disagreement`, and a `note` where the call was made by content (a layout with no first-line indent and no spacing cue at a page top cannot be settled from the page alone). `pnpm score` matches each to the dataset's page-break row and reports, in `errors.md`, `score.json` and the summary table:
+
+- the reference's error rate (adjudicated verdict against the reference's label), with a 95% Wilson interval, and ours;
+- how many adjudicated breaks the reference has no answer for (a line none of whose words are in it: Chilcot's tags drop paragraphs whose names were links) and the combined "wrong or no answer" rate;
+- the random stratum alone, the unbiased sample.
+
+Rows matched to an adjudication get `adjudicated`, `label_confidence: adjudicated`, `correct_adjudicated_ref` and `correct_adjudicated_ours` in `decisions.jsonl`. To make one for a new report: `pnpm score <id> --adjudicate-draft`, read each break, fill in the verdicts, commit the file beside `blocks.jsonl`. Re-draw only when the layout parsing changes; the matching is by page, so an old file keeps working.
 
 ## Adding or rebuilding a reference
 
@@ -32,6 +43,8 @@ python3 scripts/score/reference.py list
 python3 scripts/score/reference.py fetch <id>    # download into <repo>/reference/raw/, record URL + SHA-256
 python3 scripts/score/reference.py build <id>    # raw (or archive/ PDF tags) -> blocks.jsonl, update manifest.json
 ```
+
+Hillsborough is a hybrid (`html_overlay`): the panel website's Wayback pages (mirrored under `reference/raw/`, `captured` URL per page in the manifest) where they hold a stretch, the PDF's tags for the rest (see [`design/2026-10-02-alignment-scorer.md`](design/2026-10-02-alignment-scorer.md), 38s.12).
 
 A new reference is an entry in `REFERENCES` (edition, set, licence, files, caveats, `version` if it is a different version of the text) and, for a new format, an adapter that emits blocks: `{type: heading|paragraph|quote|list|note|table|contents, level, num, text, section, markers: [{label, offset, note}]}`, notes as `{type: note, id, label, text}`. Footnote markers are removed from `text` and kept at their character offset. Commit the report repo's `reference/` on a branch and open a PR, like any report change.
 
@@ -48,6 +61,8 @@ A new reference is an entry in `REFERENCES` (edition, set, licence, files, cavea
 `decisions.jsonl` has one row per pipeline decision, with `ref_*` labels from the reference (null where it does not cover the text) and `ours_*` for what we did; `correct` compares them.
 
 - `decision: boundary`, `source: layout`: every break between two printed lines of body text (from `pdftohtml -xml`, cached under the report repo's `.cache/` by `@rtm/ingest`). Labels `ref_boundary`, `ours_boundary`, `ref_next_type`. Features: `crosses_page`, `skipped_lines` (furniture or notes between), `gap_after`, `line_spacing`, `font_change`, `size_change`, and for `prev_` and `next_` line: text shape (`chars`, `words`, `first` character class, `last` character, `ends_sentence`, `ends_hyphen`, `starts_label`, `caps_ratio`, `opens_quote`, `closes_quote`) and layout (`page`, `top_rel`, `left`, `indent` from the page's modal left, `right_gap`, `width_rel`, `size`, `size_rel`, `bold`, `italic`, `font`, `color`, `superscript`). Filter `ref_next_type` to paragraph, quote, list, heading or contents to leave out table rows.
+- Label confidence (boundary rows): `label_confidence` is `high`, `low` or `adjudicated` (null where the reference has no answer), with `label_flags` listing why a row is `low`: `ref-splits-lowercase-after-unfinished` (the reference starts a block in lower case after an unfinished one: a page-run fragment, a caption between paragraph halves), `ref-splits-unfinished-at-page-break`, `ref-joins-labelled-line` (the reference runs a numbered or bulleted line on) and `ref-note-or-table`. `ref_covered` is false, and `ref_boundary` null, where a line is in neither side's aligned words (`label_flags: line-not-in-reference`). Train and score on `high` and `adjudicated` rows, or report both.
+- How lines are chosen (`prepareLayout`, 38s.12): on a two-column page (8 or more narrow lines in each half, under a fifth spanning the middle) lines are read column by column, a full-width line closing the band above it; on other pages by top then left, and a hanging paragraph label or bullet ("2.5", "\u2022") is joined to the text beside it. A page's trailing run of lines set below 0.9 of its modal size is footnote text (`note`), never its last body line. A body line is one whose words are in the reference, or in ours when it is not in a page margin (the reference may lack words); the break row pairs the last body line with the first of the next page, and a line with no aligned word of its own borrows the nearest one for its position (`prev_ref_unaligned`, `next_ref_unaligned`).
 - `decision: block`: every block of ours: `ours_type` against `ref_type` (the reference type of most of its words; `note` when its words are the reference's notes), with text shape and its first line's layout.
 - `decision: heading`: blocks of 25 words or fewer and every heading: `ref_heading`, `ref_level`, `ours_heading`, `ours_level`.
 - `decision: marker`: every reference footnote marker and its `outcome` (linked, wrong-note, bare, missing).
