@@ -48,6 +48,7 @@ import { mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts, renderMarkdown } from "@rtm/ingest";
+import { writeStamp } from "./prerender-stamp.mjs";
 
 const root = join(import.meta.dirname, "..");
 const outDir = join(root, "assets/generated");
@@ -99,5 +100,6 @@ for (const report of registry.reports) {
 }
 
 writeJSON(join(outDir, "sitemap-urls.json"), sitemapEntries);
+writeStamp();
 
 console.log(`\nPre-rendered ${registry.reports.length} report(s) to assets/generated/`);

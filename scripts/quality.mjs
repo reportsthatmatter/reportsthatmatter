@@ -24,6 +24,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts } from "@rtm/ingest";
+import { assertFresh } from "./prerender-stamp.mjs";
 import { measure } from "../src/lib/quality/index.ts";
 import { SIGNALS } from "../src/lib/quality/signals.ts";
 import {
@@ -267,7 +268,10 @@ function cmdBaseline(args) {
 }
 
 const [cmd, ...args] = process.argv.slice(2);
-if (cmd === "check") cmdCheck();
+if (cmd === "check") {
+  assertFresh("pnpm quality check");
+  cmdCheck();
+}
 else if (cmd === "report") cmdReport(args);
 else if (cmd === "ratchet") cmdRatchet(args);
 else if (cmd === "hint") cmdHint();
