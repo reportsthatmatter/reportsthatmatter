@@ -54,3 +54,45 @@ export function parseReferenceLines(jsonl: string): RefBlock[] {
     .filter(Boolean)
     .map((l, i) => ({ markers: [], level: null, num: null, section: "", i, ...JSON.parse(l) }) as RefBlock);
 }
+
+/**
+ * A served full.md as a reference edition: for a report built from a clean
+ * edition (`cleanEdition` in its ingest.ts), the text the site serves is the
+ * answer key its PDF ingest, kept as a shadow, is scored against
+ * (`pnpm score <id> --shadow`, reportsthatmatter-ivg.1). Body blocks keep
+ * their type, level and markers; each note definition becomes a note whose
+ * id its markers name.
+ */
+export function referenceFromMarkdown(ours: { body: OurBlockLike[]; notes: OurBlockLike[] }): RefBlock[] {
+  const out: RefBlock[] = [];
+  const noteId = (k: number) => `n${k}`;
+  // the closing "## Notes" the pipeline writes over the definitions is not the report's
+  const body = ours.body.at(-1)?.type === "heading" && ours.body.at(-1)?.text === "Notes" ? ours.body.slice(0, -1) : ours.body;
+  for (const b of body) {
+    out.push({
+      i: out.length,
+      type: b.type === "contents" ? "contents" : (b.type as RefType),
+      level: b.level,
+      num: null,
+      text: b.text,
+      section: b.section,
+      markers: b.markers.map((m) => ({ label: m.label, offset: m.offset, note: m.note === null ? null : noteId(m.note) })),
+    });
+  }
+  ours.notes.forEach((n, k) => {
+    out.push({ i: out.length, type: "note", level: null, num: null, text: n.text, section: "Notes", markers: [], id: noteId(k), label: n.label?.replace(/-\d+$/, "") });
+  });
+  const owner = new Map<string, number>();
+  for (const blk of out) for (const m of blk.markers) if (m.note && !owner.has(m.note)) owner.set(m.note, blk.i);
+  for (const blk of out) if (blk.type === "note") blk.ref = owner.get(blk.id!) ?? null;
+  return out;
+}
+
+type OurBlockLike = {
+  type: string;
+  level: number | null;
+  text: string;
+  section: string;
+  label?: string;
+  markers: { label: string; offset: number; note: number | null }[];
+};
