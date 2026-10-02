@@ -561,11 +561,9 @@ Like RMBS mortgage pools and cash CDOs, synthetic and hybrid CDOs pooled the pay
 
 Ratings Used to Market RMBS and CDOs. Wall Street firms helped design RMBS and CDO securities, worked with the credit rating agencies to obtain ratings for the securities, and sold the securities to investors like pension funds, insurance companies, university endowments, municipalities, and hedge funds. Without investment grade ratings, Wall Street firms would have had a more difficult time selling structured finance products to investors, because each investor would have had to perform its own due diligence review of the product. In addition, their sales would have been restricted by federal and state regulations limiting certain institutional investors to the purchase of instruments carrying investment grade credit ratings. Still other regulations conditioned capital reserve requirements on the credit ratings assigned to a bank's investments. Investment grade credit ratings, thus, purported to simplify the investors' due diligence review, ensured some investors could make a purchase, reduced banks' capital calls, and otherwise enhanced the sales of the structured finance products. Here's how one federal bank regulator's handbook put it:
 
-> "The rating agencies perform a critical role in structured finance – evaluating the credit quality of the transactions. Such agencies are considered credible because they possess
+> "The rating agencies perform a critical role in structured finance – evaluating the credit quality of the transactions. Such agencies are considered credible because they possess the expertise to evaluate various underlying asset types, and because they do not have a financial interest in a security's cost or yield. Ratings are important because investors generally accept ratings by the major public rating agencies in lieu of conducting a due diligence investigation of the underlying assets and the servicer."[^42]
 
 %%page 30%%
-
-> the expertise to evaluate various underlying asset types, and because they do not have a financial interest in a security's cost or yield. Ratings are important because investors generally accept ratings by the major public rating agencies in lieu of conducting a due diligence investigation of the underlying assets and the servicer."[^42]
 
 The more complex and opaque the structured finance instruments became, the more reliant investors were on high credit ratings for the instruments to be marketable.
 
@@ -703,11 +701,9 @@ Throughout their history, Fannie Mae and Freddie Mac were able to bundle the mor
 
 > "Because of their [Fannie Mae and Freddie Mac] size and interconnectedness with other financial institutions, they posed substantial systemic risk—the risk that their failure could impose very high costs on the financial system and the economy. The GSEs' market power also allowed them to use their profits partly to benefit their other stakeholders rather than exclusively to benefit mortgage borrowers. The implicit guarantee created an incentive for the GSEs to take excessive risks: Stakeholders would benefit when gambles paid off, but taxpayers would absorb the losses when they did not. …
 
-> One way that Fannie Mae and Freddie Mac increased risk was by expanding the volume of mortgages and MBSs held in their portfolios, which exposed them to the risk of losses
+> One way that Fannie Mae and Freddie Mac increased risk was by expanding the volume of mortgages and MBSs held in their portfolios, which exposed them to the risk of losses from changes in interest or prepayment rates. Over the past decade, the two GSEs also increased their exposure to default losses by investing in lower-quality mortgages, such as subprime and Alt-A loans."[^98]
 
 %%page 43%%
-
-> from changes in interest or prepayment rates. Over the past decade, the two GSEs also increased their exposure to default losses by investing in lower-quality mortgages, such as subprime and Alt-A loans."[^98]
 
 The risks embedded in their mortgage portfolios finally overwhelmed the GSEs in September 2008, and both Fannie Mae and Freddie Mac were taken into conservatorship by the federal government. Since that time, the Treasury Department has spent nearly $150 billion to support the two GSEs, a total which projections show could rise to as high as $363 billion.[^99]
 
@@ -1029,11 +1025,9 @@ Mr. Vanasek shared his concerns with Mr. Killinger. At the Subcommittee's hearin
 
 Mr. Killinger replied:
 
-> "Thanks Jim. Overall, it appears we are making some good progress. Hopefully, the Regulators will agree that we are making some progress. I suspect the toughest thing for us will be to navigate through a period of high home prices, increased competitive conditions for reduced underwriting standards, and our need to grow the balance sheet. I
+> "Thanks Jim. Overall, it appears we are making some good progress. Hopefully, the Regulators will agree that we are making some progress. I suspect the toughest thing for us will be to navigate through a period of high home prices, increased competitive conditions for reduced underwriting standards, and our need to grow the balance sheet. I have never seen such a high risk housing market as market after market thinks they are unique and for whatever reason are not likely to experience price declines. This typically signifies a bubble."
 
 %%page 68%%
-
-> have never seen such a high risk housing market as market after market thinks they are unique and for whatever reason are not likely to experience price declines. This typically signifies a bubble."
 
 Mr. Vanasek agreed:
 
@@ -1071,11 +1065,9 @@ Despite warning against unsustainable housing prices in March 2005, Mr. Killinge
 
 Contrary to Mr. Killinger's hearing testimony, the 2006 memorandum indicates an expansion of WaMu's high risk home lending, rather than any curtailment:
 
-> "We are refining our home loans business model to significantly curtail low margin Government and conventional fixed rate originations and servicing, and to significantly
+> "We are refining our home loans business model to significantly curtail low margin Government and conventional fixed rate originations and servicing, and to significantly increase our origination and servicing of high margin home equity, Alt. A, sub prime and option ARMs. Action steps include merging Longbeach sub prime and the prime business under common management, merging correspondent activities into our correspondent channel, getting out of Government lending, curtailing conventional fixed rate production, expanding distribution of targeted high margin products through all distribution channels and potentially selling MSRs [Mortgage Servicing Rights] of low margin products. We expect these actions to result in significantly higher profitability and lower volatility over time."[^189]
 
 %%page 71%%
-
-> increase our origination and servicing of high margin home equity, Alt. A, sub prime and option ARMs. Action steps include merging Longbeach sub prime and the prime business under common management, merging correspondent activities into our correspondent channel, getting out of Government lending, curtailing conventional fixed rate production, expanding distribution of targeted high margin products through all distribution channels and potentially selling MSRs [Mortgage Servicing Rights] of low margin products. We expect these actions to result in significantly higher profitability and lower volatility over time."[^189]
 
 The April 16, 2006 "Home Loans Discussion" presentation by Home Loans President David Schneider, discussed above, also confirms WaMu's ongoing efforts to shift its loan business toward high risk lending. Page four of that presentation, entitled, "Shift to Higher Margin Products," shows two pie charts under the heading, "WaMu Volume by Product."[^190] One chart depicts loan volume for 2005, and the second chart depicts projected loan volume for 2008:
 
@@ -1113,11 +1105,9 @@ While the memorandum's section on home loan strategy no longer focused on overal
 
 The testimony of other WaMu executives further confirms the bank's implementation of its High Risk Lending Strategy. Ronald Cathcart, who joined WaMu in 2006, to become the company's Chief Risk Officer, testified:
 
-> "The company's strategic plan to shift its portfolios towards higher margin products was already underway when I arrived at WaMu. Basically, this strategy involved moving away from traditional mortgage lending into alternative lending programs involving adjustable-rate mortgages as well as into subprime products. The strategic shift to
+> "The company's strategic plan to shift its portfolios towards higher margin products was already underway when I arrived at WaMu. Basically, this strategy involved moving away from traditional mortgage lending into alternative lending programs involving adjustable-rate mortgages as well as into subprime products. The strategic shift to higher-margin products resulted in the bank taking on a higher degree of credit risk because there was a greater chance that borrowers would default."[^194]
 
 %%page 73%%
-
-> higher-margin products resulted in the bank taking on a higher degree of credit risk because there was a greater chance that borrowers would default."[^194]
 
 Likewise, Steven Rotella, WaMu's President and Chief Operating Officer, who began with the bank in January 2005, testified before the Subcommittee:
 
@@ -1129,11 +1119,9 @@ Mr. Killinger replied by email the next day: "Regarding Longbeach, I think there
 
 Mr. Rotella replied to Mr. Killinger's email later on October 16, 2005. He continued to emphasize the importance of focusing on high risk lending, referring to his previous experience as a mortgage banker at JPMorgan Chase:
 
-> "We did these kinds of analyses all the time at Chase which led us to run as fast as we could into home eq, alt a, subprime (our investment banking brethren stopped us from going too far here). We viewed prime as a source of scale benefits in servicing for the other areas and a conduit of higher margin product and aimed to hold our prime servicing
+> "We did these kinds of analyses all the time at Chase which led us to run as fast as we could into home eq, alt a, subprime (our investment banking brethren stopped us from going too far here). We viewed prime as a source of scale benefits in servicing for the other areas and a conduit of higher margin product and aimed to hold our prime servicing flat to down. I feel strongly that where we need to land is a new home loan unit that includes prime, heq, and subprime. It is a far superior model."[^201]
 
 %%page 74%%
-
-> flat to down. I feel strongly that where we need to land is a new home loan unit that includes prime, heq, and subprime. It is a far superior model."[^201]
 
 In July 2008, just two months before the collapse of WaMu, Home Loans President David Schneider prepared an internal presentation entitled, "Home Loans Story, External & Internal Views."[^202] The presentation was retrospective, providing timelines of WaMu's major strategy, policy, and personnel changes. The first substantive page of the presentation bears the heading, "Three fundamental business shifts occurred in Home Loans this millennium which shaped its performance and position in a volatile competitive landscape":
 
@@ -1437,11 +1425,9 @@ The presentation noted that the loan delinquency rate for Luis Fragoso, the loan
 
 Three months prior to its formal presentation on the fraud, the Risk Mitigation Team supplied a lengthy email with its fraud findings to colleagues in the credit risk department. The August 2005 email provided spreadsheets containing data collected on the loans from the two offices as well as figures about the types of loans reviewed and fraud found.[^327] Among other information, it indicated that at the Downey office,[^83] loans had been reviewed, including 28 originated by the WaMu loan officer Thomas Ramirez, and 54 submitted to him by third party brokers; while at the Montebello office,[^48] loans had been reviewed, including 19 originated by the WaMu loan officer Luis Fragoso and 29 submitted to him by third party brokers. The email was forwarded by a credit risk officer to WaMu's Chief Risk Officer Jim Vanasek, with the following comment:
 
-> "As you requested in our Enterprise Fraud Committee meeting last Friday, the attached email contains a high-level summary of the investigations the Home Loans Risk Mit team has conducted on [the two offices] over the past year and a half, based on loans that were referred to them. … As you can see, among the referred cases there is an extremely high
+> "As you requested in our Enterprise Fraud Committee meeting last Friday, the attached email contains a high-level summary of the investigations the Home Loans Risk Mit team has conducted on [the two offices] over the past year and a half, based on loans that were referred to them. … As you can see, among the referred cases there is an extremely high incidence of confirmed fraud (58% for Ramirez, 83% for Fragoso) …. [Additional analysis] will allow us to substantially validate what we suspect, which is that the incidence of fraud in this area is greater than with other producers."[^328]
 
 %%page 98%%
-
-> incidence of confirmed fraud (58% for Ramirez, 83% for Fragoso) …. [Additional analysis] will allow us to substantially validate what we suspect, which is that the incidence of fraud in this area is greater than with other producers."[^328]
 
 At the Subcommittee hearing, Mr. Vanasek agreed these were "eye popping" rates of fraud.[^329]
 
@@ -1541,11 +1527,9 @@ The report following the first focus group with WaMu loan consultants and mortga
 
 The second focus group with existing Option ARM customers showed they were also unenthusiastic about the product. The focus group report stated:
 
-> "In general, people do not seem to have a good understanding of their mortgage and its terms. What understanding they do have is framed by the concept of a 30-year fixed mortgage. Option ARMs are very complicated and need to be explained in simple, easy
+> "In general, people do not seem to have a good understanding of their mortgage and its terms. What understanding they do have is framed by the concept of a 30-year fixed mortgage. Option ARMs are very complicated and need to be explained in simple, easy to understand terms, prospective borrowers need to be educated about the loan – this is not a product that sells itself."[^367]
 
 %%page 106%%
-
-> to understand terms, prospective borrowers need to be educated about the loan – this is not a product that sells itself."[^367]
 
 The focus group identified several reasons that borrowers were leery of Option ARMs and suggested ways to address the unease: "Helping prospective borrowers understand payment and interest rate caps may mitigate fears of wild monthly payment swings .… Similarly, fears about negative amortization, a concept also not very well understood by the participants, could be reduced or eliminated by showing how much residential properties in the local market have appreciated over time."[^368]
 
@@ -1599,11 +1583,9 @@ At the time it formally adopted its High Risk Lending Strategy, WaMu executives 
 
 > -Selecting best available credit loss models -Developing analytical framework foundation -Identifying key strategy components per Regulatory Guidance documents
 
-> "A strong governance process will be important as peak loss rates associated with this higher risk lending strategy will occur with a several year lag and the correlation between high risk loan products is important. For these reasons, the Credit Department will pro-
+> "A strong governance process will be important as peak loss rates associated with this higher risk lending strategy will occur with a several year lag and the correlation between high risk loan products is important. For these reasons, the Credit Department will proactively review and manage the implementation of the Strategic Plan and provide quarterly feedback and recommendations to the Executive Committee and timely reporting to the Board."[^390]
 
 %%page 110%%
-
-> actively review and manage the implementation of the Strategic Plan and provide quarterly feedback and recommendations to the Executive Committee and timely reporting to the Board."[^390]
 
 The robust risk management system contemplated by in the January 2005 memorandum, which was critical to the success of the High Risk Lending Strategy, was never meaningfully implemented. To the contrary, risk managers were marginalized, undermined, and often ignored. As former Chief Risk Manager Jim Vanasek testified at the April 13 Subcommittee hearing:
 
@@ -1761,11 +1743,9 @@ In November 2006, while attending the Asset Backed Securities East Conference fo
 
 In March 2007, an analysis by JPMorgan Chase again singled out Long Beach securities for having the worst delinquency rates among the subprime securities tracked by the ABX Index:
 
-> "Washington Mutual Inc.'s subprime bonds are suffering from some of the worst rates of delinquency among securities in benchmark indexes, according to JPMorgan Chase & Co. research. … Delinquencies of 60 days or more on loans supporting WaMu's Long Beach LBMLT 2006-1 issue jumped … to 19.44 percent … the highest among the 20
+> "Washington Mutual Inc.'s subprime bonds are suffering from some of the worst rates of delinquency among securities in benchmark indexes, according to JPMorgan Chase & Co. research. … Delinquencies of 60 days or more on loans supporting WaMu's Long Beach LBMLT 2006-1 issue jumped … to 19.44 percent … the highest among the 20 bonds in the widely watched ABX-HE 06-2 index of bonds backed by residential loans to risky borrowers."[^445]
 
 %%page 124%%
-
-> bonds in the widely watched ABX-HE 06-2 index of bonds backed by residential loans to risky borrowers."[^445]
 
 In July 2007, Moody's and S&P downgraded the credit ratings of hundreds of subprime RMBS and CDO securities, due to rising mortgage delinquencies and defaults. Included were approximately 40 Long Beach securities.[^446] A July 12, 2007 presentation prepared by Moody's to explain its ratings action shows that Long Beach was responsible for only 6% of all the subprime RMBS securities issued in 2006, but received 14% of the subprime RMBS ratings downgrades that day.[^447] Only Fremont had a worse ratio.
 
@@ -1843,11 +1823,9 @@ Mr. Beck's message indicated that recently issued Option ARM loans were not perf
 
 Four days later, on Sunday, February 18, Mr. Schneider replied to the email chain by requesting Ms. Feltgen's thoughts. Later that day, Ms. Feltgen responded with additional analysis and an offer to help further analyze the Option ARM delinquencies:
 
-> "The results described below are similar to what my team has been observing. California, Option ARMs, large loan size ($1 to $2.5 million) have been the fastest increasing delinquency rates in the SFR [Single Family Residence] portfolio. Although the low FICO loans have … higher absolute delinquency rates, the higher FICOs have been increasing at a faster pace than the low FICOs. Our California concentration is getting close to 50% and many submarkets within California actually have declining house prices according to the most recent OFHEO [Office of Federal Housing Enterprise Oversight] data from third quarter of 2006. There is a meltdown in the subprime market which is creating a 'flight to quality'. I was talking to Robert Williams just after his
+> "The results described below are similar to what my team has been observing. California, Option ARMs, large loan size ($1 to $2.5 million) have been the fastest increasing delinquency rates in the SFR [Single Family Residence] portfolio. Although the low FICO loans have … higher absolute delinquency rates, the higher FICOs have been increasing at a faster pace than the low FICOs. Our California concentration is getting close to 50% and many submarkets within California actually have declining house prices according to the most recent OFHEO [Office of Federal Housing Enterprise Oversight] data from third quarter of 2006. There is a meltdown in the subprime market which is creating a 'flight to quality'. I was talking to Robert Williams just after his return from the Asia trip where he and Alan Magleby talked to potential investors for upcoming covered bond deals backed by our mortgages. There is still strong interest around the world in USA residential mortgages. Gain on sale margins for Option ARMs are attractive. This seems to me to be a great time to sell as many Option ARMs as we possibly can. Kerry Killinger was certainly encouraging us to think seriously about it at the MBR [Monthly Business Review] last week. What can I do to help? David, would your team like any help on determining the impact of selling certain groupings of Option ARMs on overall delinquencies? Let me know where we can help. Thanks."[^462]
 
 %%page 129%%
-
-> return from the Asia trip where he and Alan Magleby talked to potential investors for upcoming covered bond deals backed by our mortgages. There is still strong interest around the world in USA residential mortgages. Gain on sale margins for Option ARMs are attractive. This seems to me to be a great time to sell as many Option ARMs as we possibly can. Kerry Killinger was certainly encouraging us to think seriously about it at the MBR [Monthly Business Review] last week. What can I do to help? David, would your team like any help on determining the impact of selling certain groupings of Option ARMs on overall delinquencies? Let me know where we can help. Thanks."[^462]
 
 As Chief Risk Officer in WaMu's Home Loans division, Ms. Feltgen pointed out some counterintuitive features of the latest delinquencies, noting that the fastest increases in delinquencies occurred in large loans and loans with high FICO scores. She also noted that the subprime meltdown had led to a "flight to quality," and that foreign investors still had a strong interest in U.S. residential mortgages, suggesting that WaMu might be able to sell its likely-to-go delinquent Option ARMs to those foreign investors. From her perspective as a risk manager, she urged selling "as many Option ARMs as we can."
 
@@ -2093,11 +2071,9 @@ The Long Beach and Washington Mutual compensation systems encouraged high volume
 
 Long Beach and Washington Mutual loan officers received more money per loan for originating higher risk loans and for exceeding established loan targets. Loan processing personnel were compensated according to the speed and number of the loans they processed. Loan officers and their sales associates received still more compensation if they charged borrowers higher interest rates or points than required in bank rate sheets specifying loan prices, or included prepayment penalties in the loan agreements. That added compensation created incentives to increase loan profitability, but not loan quality. A 2008 OTS review elaborated:
 
-> "[T]he review defines an origination culture focused more heavily on production volume rather than quality. An example of this was a finding that production personnel were allowed to participate in aspects of the income, employment, or asset verification process, a clear conflict of interest. … Prior OTS examinations have raised similar issues
+> "[T]he review defines an origination culture focused more heavily on production volume rather than quality. An example of this was a finding that production personnel were allowed to participate in aspects of the income, employment, or asset verification process, a clear conflict of interest. … Prior OTS examinations have raised similar issues including the need to implement incentive compensation programs to place greater emphasis on loan quality."[^548]
 
 %%page 148%%
-
-> including the need to implement incentive compensation programs to place greater emphasis on loan quality."[^548]
 
 (a) Long Beach Account Executives
 
@@ -2169,11 +2145,9 @@ About a year after this email was sent, the FBI began to question Mr. Ngo about 
 
 Mr. Ngo later pled guilty to perjury and agreed to testify against his Long Beach sales associate, Joel Blanford. Long Beach paid Mr. Blanford more than $1 million in commissions each year from 2003-2005. According to the Department of Justice:
 
-> "NGO admitted in his plea agreement that most of the payments were to ensure that fraudulent loan applications were processed and funded. NGO also admitted he received payments from Long Beach Mortgage sales representatives to push applications through the funding process. He knew many of these applications were fraudulent, and he and
+> "NGO admitted in his plea agreement that most of the payments were to ensure that fraudulent loan applications were processed and funded. NGO also admitted he received payments from Long Beach Mortgage sales representatives to push applications through the funding process. He knew many of these applications were fraudulent, and he and others took steps to 'fix' applications by creating false documents or adding false information to the applications or the loan file."[^567]
 
 %%page 153%%
-
-> others took steps to 'fix' applications by creating false documents or adding false information to the applications or the loan file."[^567]
 
 (3) WaMu Executive Compensation
 
@@ -2325,11 +2299,9 @@ The Levin-Coburn memorandum contained joint findings of fact regarding the role 
 
 > 6. FDIC Shortfalls. The FDIC, the backup regulator of Washington Mutual, was unable to conduct the analysis it wanted to evaluate the risk posed by the bank to the Deposit Insurance Fund, did not prevail against unreasonable actions taken by OTS to limit its examination authority, and did not initiate its own enforcement action against the bank in light of ongoing opposition by the primary federal bank regulators to FDIC enforcement authority.
 
-> 7. Recommendations Over Enforceable Requirements. Federal bank regulators undermined efforts to end unsafe and unsound mortgage practices at U.S. banks by issuing guidance instead of enforceable regulations limiting those practices, failing to
+> 7. Recommendations Over Enforceable Requirements. Federal bank regulators undermined efforts to end unsafe and unsound mortgage practices at U.S. banks by issuing guidance instead of enforceable regulations limiting those practices, failing to prohibit many high risk mortgage practices, and failing to set clear deadlines for bank compliance.
 
 %%page 165%%
-
-> prohibit many high risk mortgage practices, and failing to set clear deadlines for bank compliance.
 
 > 8. Failure to Recognize Systemic Risk. OTS and the FDIC allowed Washington Mutual and Long Beach to reduce their own risk by selling hundreds of billions of dollars of high risk mortgage backed securities that polluted the financial system with poorly performing loans, undermined investor confidence in the secondary mortgage market, and contributed to massive credit rating downgrades, investor losses, disrupted markets, and the U.S. financial crisis.
 
@@ -2393,11 +2365,9 @@ Integration Issues. During the 1990s, as described in the prior chapter, WaMu em
 
 OTS was concerned about and critical of WaMu's integration efforts. In a 2004 Report on Examination (ROE), OTS wrote:
 
-> "Our review disclosed that past rapid growth through acquisition and unprecedented mortgage refinance activity placed significant operational strain on [Washington Mutual] during the early part of the review period. Beginning in the second half of 2003, market conditions deteriorated, and the failure of [Washington Mutual] to fully integrate past mortgage banking acquisitions, address operational issues, and realize expectations from
+> "Our review disclosed that past rapid growth through acquisition and unprecedented mortgage refinance activity placed significant operational strain on [Washington Mutual] during the early part of the review period. Beginning in the second half of 2003, market conditions deteriorated, and the failure of [Washington Mutual] to fully integrate past mortgage banking acquisitions, address operational issues, and realize expectations from certain major IT initiatives exposed the institution's infrastructure weaknesses and began to negatively impact operating results."[^608]
 
 %%page 170%%
-
-> certain major IT initiatives exposed the institution's infrastructure weaknesses and began to negatively impact operating results."[^608]
 
 Long Beach. One of WaMu's acquisitions, in 1999, was Long Beach Mortgage Company (Long Beach), a subprime lender that became a source of significant management, asset quality, and risk problems. Long Beach's headquarters were located in Long Beach, California, but as a subsidiary of Washington Mutual Inc., the parent holding company of Washington Mutual Bank, it was subject to regulation by the State of Washington Department of Financial Institutions and the FDIC. Long Beach's business model was to purchase subprime loans from third party mortgage brokers and lenders and then sell or securitize the loans for sale to investors.
 
@@ -2509,11 +2479,9 @@ The OTS ROE concluded: "Underwriting of SFR loans remains less than satisfactory
 
 The next month, when OTS conducted a field visit to follow up on some of the problems identified earlier, it concluded:
 
-> "The level of SFR [Single Family Residential] underwriting exceptions in our samples has been an ongoing examination issue for several years and one that management has found difficult to address. The institution instituted a major organizational/staffing
+> "The level of SFR [Single Family Residential] underwriting exceptions in our samples has been an ongoing examination issue for several years and one that management has found difficult to address. The institution instituted a major organizational/staffing realignment in September 2003 and has continued to make additional adjustments since that time to address accumulating control issues."[^653]
 
 %%page 179%%
-
-> realignment in September 2003 and has continued to make additional adjustments since that time to address accumulating control issues."[^653]
 
 2005 Lending Deficiencies. In early 2005, OTS elevated the problems with the bank's lending standards to the attention of the WaMu Board of Directors. In a letter to the Board, OTS wrote:
 
@@ -2543,11 +2511,9 @@ no better, and the acceleration of high risk loan delinquencies and defaults thr
 
 By July 2007, the major credit rating agencies had begun mass ratings downgrades of hundreds of mortgage backed securities, the subprime secondary market froze, and WaMu was left holding billions of dollars worth of suddenly unmarketable subprime and other high risk loans. In September, the OTS ROE for the year concluded:
 
-> "Underwriting policies, procedures, and practices were in need of improvement, particularly with respect to stated income lending. Based on our current findings, and the
+> "Underwriting policies, procedures, and practices were in need of improvement, particularly with respect to stated income lending. Based on our current findings, and the fact that a number of similar concerns were raised at prior examinations, we concluded that too much emphasis was placed on loan production, often at the expense of loan quality."[^663]
 
 %%page 181%%
-
-> fact that a number of similar concerns were raised at prior examinations, we concluded that too much emphasis was placed on loan production, often at the expense of loan quality."[^663]
 
 The ROE also reported on an unsatisfactory review of loans that had been originated by Long Beach and warned that, if the problems were not promptly corrected, "heightened supervisory action would be taken":
 
@@ -2639,11 +2605,9 @@ In June 2008, OTS issued a Findings Memorandum reacting to a WaMu internal revie
 
 As referenced above, in July 2008, two months before the bank's failure, OTS made a presentation to the WaMu Board which, among other problems, criticized its risk management efforts:
 
-> "An adequate [Enterprise Risk Management] function still does not exist although this has been an MRBA [Matter Requiring Board Attention] for some time. Critical as a check and balance for profit oriented units[.] Necessary to ensure that critical risks are
+> "An adequate [Enterprise Risk Management] function still does not exist although this has been an MRBA [Matter Requiring Board Attention] for some time. Critical as a check and balance for profit oriented units[.] Necessary to ensure that critical risks are identified, measured, monitored and communicated[.] Even more critical given increased credit, market, and operational risk."[^688]
 
 %%page 187%%
-
-> identified, measured, monitored and communicated[.] Even more critical given increased credit, market, and operational risk."[^688]
 
 Failure to Correct Poor Risk Management. By neglecting to exercise its enforcement authority, OTS chronicled WaMu's inadequate risk management practices over a period of years, but ultimately failed to change its course of action. During a hearing of the Subcommittee, the Department of the Treasury Inspector General, Eric Thorson, whose office conducted an in-depth review of WaMu's regulatory oversight, testified:
 
@@ -2807,11 +2771,9 @@ Two weeks later, on July 31, both OTS and the FDIC met with the WaMu Board of Di
 
 the FDIC Chairman, Sheila Bair, suggested that the bank's condition merited a downgrade in its CAMELS rating to a 4, signaling a troubled bank.[^766] The head of OTS sent an email to the head of the FDIC responding that "rating WaMu a 4 would be a big error":
 
-> "In my view rating WaMu a 4 would be a big error in judging the facts in this situation. It would appear to be a rating resulting from fear and not a rating based on the condition
+> "In my view rating WaMu a 4 would be a big error in judging the facts in this situation. It would appear to be a rating resulting from fear and not a rating based on the condition of the institution. WaMu has both the capital and the liquidity to justify a 3 rating. It seems based on email exchanges which have taken place that FDIC supervisory staff in San Francisco is under pressure by the fear in Washington to downgrade this institution. … [P]rior to such action I would request a[n FDIC] Board meeting to consider the proper rating on this institution."[^767]
 
 %%page 201%%
-
-> of the institution. WaMu has both the capital and the liquidity to justify a 3 rating. It seems based on email exchanges which have taken place that FDIC supervisory staff in San Francisco is under pressure by the fear in Washington to downgrade this institution. … [P]rior to such action I would request a[n FDIC] Board meeting to consider the proper rating on this institution."[^767]
 
 The FDIC Chairman responded: "We will follow the appropriate procedures if the staff cannot agree."[^768]
 
@@ -2875,11 +2837,9 @@ In October 2006, John Carter with the FDIC sent Michael Finn of OTS a letter rep
 
 On November 10, 2006, Mr. Finn responded with a letter that, again, refused to allow the FDIC to participate in the WaMu examination:
 
-> "OTS does not seek to have FDIC staff actively participate in our examination activities and conclusions at Washington Mutual. We do understand your need for access to
+> "OTS does not seek to have FDIC staff actively participate in our examination activities and conclusions at Washington Mutual. We do understand your need for access to examination information and your need to meet with OTS staff to discuss our supervisory activities at Washington Mutual. To facilitate this information sharing and discussions, we have agreed to allow your Dedicated Examiner … to conduct his FDIC risk assessment activities on site at Washington Mutual when our examination team is on site. All FDIC requests for information should continue to be funneled through our examiner-in-charge."[^782]
 
 %%page 205%%
-
-> examination information and your need to meet with OTS staff to discuss our supervisory activities at Washington Mutual. To facilitate this information sharing and discussions, we have agreed to allow your Dedicated Examiner … to conduct his FDIC risk assessment activities on site at Washington Mutual when our examination team is on site. All FDIC requests for information should continue to be funneled through our examiner-in-charge."[^782]
 
 The OTS letter also restricted the ability of the FDIC to place more than one examiner on site at WaMu, even though the bank, with $300 billion in assets, was one of the largest insured institutions in the country and was engaged in a high risk lending strategy:
 
@@ -2907,11 +2867,9 @@ At the Subcommittee hearing, when asked about these incidents, the FDIC Chairman
 
 Both the Treasury and the FDIC Inspectors General were critical of OTS' actions. In response to a question about "[w]hether or not OTS should have allowed the FDIC to help" with the examinations of WaMu, FDIC IG Rymer responded:
 
-> "[I]t is clear to me that they [OTS] should have. … [T]hey [the FDIC] had concerns and those concerns were principally driven by its own LIDI analysis. … [T]here is no question in my mind that the FDIC's request for back-up authority, simply given the
+> "[I]t is clear to me that they [OTS] should have. … [T]hey [the FDIC] had concerns and those concerns were principally driven by its own LIDI analysis. … [T]here is no question in my mind that the FDIC's request for back-up authority, simply given the sheer size of WaMu, was, to me, enough reason for FDIC to ask for back-up authority."[^791]
 
 %%page 207%%
-
-> sheer size of WaMu, was, to me, enough reason for FDIC to ask for back-up authority."[^791]
 
 Treasury IG Thorson agreed:
 
@@ -2923,11 +2881,9 @@ about the friction between the two agencies. In response to a question about the
 
 participation in the oversight of Washington Mutual Bank and deliberately took actions that limited the FDIC oversight, even in the face of a deteriorating $300 billion institution whose failure could have exhausted the entire Deposit Insurance Fund. After contrasting OTS' hard- edged treatment of the FDIC with the collaborative approach it took towards WaMu, Senator Levin observed:
 
-> "About the only time OTS showed backbone was against another agency's moving, in your view, into your turf. Boy, that really got your dander up. That got your blood pressure up. I do not see your blood pressure getting up against a bank which is engaged
+> "About the only time OTS showed backbone was against another agency's moving, in your view, into your turf. Boy, that really got your dander up. That got your blood pressure up. I do not see your blood pressure getting up against a bank which is engaged in the kind of dangerous practices that the bank engaged in, dangerous to their solvency, dangerous to their investors, dangerous to their depositors, dangerous to this economy."[^795]
 
 %%page 208%%
-
-> in the kind of dangerous practices that the bank engaged in, dangerous to their solvency, dangerous to their investors, dangerous to their depositors, dangerous to this economy."[^795]
 
 Because OTS has been abolished, its turf war with the FDIC is over. But witnesses from the FDIC told the Subcommittee that the remaining banking regulators also sometimes resist its participation in bank oversight. In particular, a senior FDIC official told the Subcommittee that, although the FDIC has the statutory authority to take an enforcement action against a bank, the FDIC has never used that authority because the other regulators would view it as "an act of war." The WaMu case history demonstrates how important it is for our federal regulators to view each other as partners rather than adversaries in the effort to ensure the safety and soundness of U.S. financial institutions.
 
@@ -2983,11 +2939,9 @@ On another occasion in July 2008, Mr. Reich sent an email to Mr. Killinger infor
 
 > We almost always do an MOU for 3-rated institutions, and if someone were looking over our shoulders, they would probably be surprised we don't already have one in place. …
 
-> So as much as I would like to be able to say a Board Resolution is the appropriate regulatory response, I don't really believe it is. I do believe we need to do an MOU. We
+> So as much as I would like to be able to say a Board Resolution is the appropriate regulatory response, I don't really believe it is. I do believe we need to do an MOU. We don't consider it a disclosable event, and we also think the investment community won't be surprised if they learn of it, and would probably only be surprised to learn one didn't already exist.
 
 %%page 211%%
-
-> don't consider it a disclosable event, and we also think the investment community won't be surprised if they learn of it, and would probably only be surprised to learn one didn't already exist.
 
 > Again, I'm sorry to communicate this decision by email, but I'm scheduled to be out of the office next week myself and wanted you to have this information.
 
@@ -3109,11 +3063,9 @@ OTS examiner wrote:
 
 The OTS Examiner-in-Charge responded with a lengthy email criticizing outdated, unclear OTS standards on the acceptable loan error rate for a portfolio of subprime loans:
 
-> "Unfortunately, our sampling standards are 10 years old and we have no standards of acceptance really. It depends on our own comfort levels, which differ. … Moreover, our guidance requires that an exception be SIGNIFICANT, which ... we have over time interpreted as loans that should not have been made. … While we may (and have) questioned the reasonableness of these standards, they are all we have at this time. If our tolerance for some reason is now a lot lower than our handbook standards, it would be nice to have this clarified. I have always used these standards as rough benchmarks and not absolutes myself, upping my expectations for higher risk portfolios. … It would be
+> "Unfortunately, our sampling standards are 10 years old and we have no standards of acceptance really. It depends on our own comfort levels, which differ. … Moreover, our guidance requires that an exception be SIGNIFICANT, which ... we have over time interpreted as loans that should not have been made. … While we may (and have) questioned the reasonableness of these standards, they are all we have at this time. If our tolerance for some reason is now a lot lower than our handbook standards, it would be nice to have this clarified. I have always used these standards as rough benchmarks and not absolutes myself, upping my expectations for higher risk portfolios. … It would be nice if they [higher risk loan portfolios] could meet even higher expectations, but that would require us to agree on what the standard should be."[^822] At another point, the same Examiner-in-Charge wrote a long email discussing issues
 
 %%page 218%%
-
-> nice if they [higher risk loan portfolios] could meet even higher expectations, but that would require us to agree on what the standard should be."[^822] At another point, the same Examiner-in-Charge wrote a long email discussing issues
 
 related to a decision by WaMu to qualify borrowers for adjustable rate mortgages using an interest rate that was less than the highest rate that could be charged under the loan. He complained that it was difficult to force WaMu to comply with the OTS "policy of underwriting at or near the fully indexed rate," when "in terms of policy, I am not sure we have ever had a really hard rule that institutions MUST underwrite to the fully indexed rate."[^823] He also noted that OTS sometimes made an exception to that rule for loans held for sale.
 
@@ -3168,11 +3120,9 @@ Mr. Dochow responded that he was already in regular contact with OTS officials i
 
 sections of the OTS handbook barred WaMu from issuing NINA loans, even when those loans were originated for sale to Wall Street:
 
-> "The Handbook guidance Section 212 states that no-doc loans (NINAs) are unsafe and unsound loans (Pg. 212.7). Furthermore, even if the no-doc (NINA) loans are originated and held for sale the guidance indicates (pg. 212.8) the association must use prudent underwriting and documentation standards and we have already concluded they are unsafe and unsound. Even if the institution holds the loans for a short period of time. … [T]his is a hot topic in DC and we are getting a significant amount of push back from the
+> "The Handbook guidance Section 212 states that no-doc loans (NINAs) are unsafe and unsound loans (Pg. 212.7). Furthermore, even if the no-doc (NINA) loans are originated and held for sale the guidance indicates (pg. 212.8) the association must use prudent underwriting and documentation standards and we have already concluded they are unsafe and unsound. Even if the institution holds the loans for a short period of time. … [T]his is a hot topic in DC and we are getting a significant amount of push back from the industry. … At this point I don't think a memo is the best avenue, I think we need to request in writing that WAMU respond to us on how the NINA's comply with the handbook guidance?"
 
 %%page 223%%
-
-> industry. … At this point I don't think a memo is the best avenue, I think we need to request in writing that WAMU respond to us on how the NINA's comply with the handbook guidance?"
 
 The WaMu Examiner-in-Charge, Benjamin Franklin, responded:
 
@@ -3690,11 +3640,9 @@ Moody's and S&P began issuing public warnings about problems in the mortgage mar
 
 Both S&P and Moody's published a number of articles indicating the potential for deterioration in RMBS performance.[^1037] For example, in September 2005, S&P published a report entitled, "Who Will Be Left Holding the Bag?" The report contained this strong warning:
 
-> "It's a question that comes to mind whenever one price increase after another – say, for ridiculously expensive homes – leaves each succeeding buyer out on the end of a longer
+> "It's a question that comes to mind whenever one price increase after another – say, for ridiculously expensive homes – leaves each succeeding buyer out on the end of a longer and longer limb: When the limb finally breaks, who's going to get hurt? In the red-hot U.S. housing market, that's no longer a theoretical riddle. Investors are starting to ask which real estate vehicles carry the most risk – and if mortgage defaults surge, who will end up suffering the most."[^1038]
 
 %%page 269%%
-
-> and longer limb: When the limb finally breaks, who's going to get hurt? In the red-hot U.S. housing market, that's no longer a theoretical riddle. Investors are starting to ask which real estate vehicles carry the most risk – and if mortgage defaults surge, who will end up suffering the most."[^1038]
 
 Internal Moody's and S&P emails further demonstrate that senior management and ratings personnel were aware of the deteriorating mortgage market and increasing credit risk. In June 2005, for example, an outside mortgage broker who had seen the head of S&P's RMBS Group, Susan Barnes, on a television program sent her an email warning about the "seeds of destruction" in the financial markets. He noted that no one at the time seemed interested in fixing the looming problems:
 
@@ -3712,11 +3660,9 @@ An email among several S&P employees a few months later circulated an article en
 
 Government Warnings. At the same time the credit rating agencies were publishing reports and circulating articles internally about the deteriorating mortgage market, several government agencies issued public warnings about lax lending standards and increasing mortgage fraud. A 2004 quarterly report by the FDIC, for example, sounded an alarm over the likelihood of more high risk loan delinquencies:
 
-> "[I]t is unlikely that home prices are poised to plunge nationwide, even when mortgage rates rise .... The greater risk to insured institutions is the potential for increased credit delinquencies and losses among highly leveraged, subprime, and ARM borrowers. These
+> "[I]t is unlikely that home prices are poised to plunge nationwide, even when mortgage rates rise .... The greater risk to insured institutions is the potential for increased credit delinquencies and losses among highly leveraged, subprime, and ARM borrowers. These high-risk segments of mortgage lending may drive overall mortgage loss rates higher if home prices decline or interest rates rise."[^1047]
 
 %%page 271%%
-
-> high-risk segments of mortgage lending may drive overall mortgage loss rates higher if home prices decline or interest rates rise."[^1047]
 
 In 2005, in its 11th Annual Survey on Credit Underwriting Practices, the Office of the Comptroller of the Currency (OCC), which oversees nationally chartered banks, described a significant lowering of retail lending standards, noting it was the first time in the survey's history that a net lowering of retail lending practices had been observed. The OCC wrote:
 
@@ -3984,11 +3930,9 @@ Ms. Barnes: Yes, Mr. Chairman.[^1115]
 
 Moody's CEO, Ray McDaniel echoed this concern during the hearing:
 
-> Senator Levin: There are a lot of interesting things there that your Chief Credit Officer, Mr. Kimball, wrote in October of 2007 …. One of the things he wrote, and this is under market share, he says in paragraph five, 'Ideally, competition would be primarily on the basis of ratings quality' – that is ideally – 'with a second component of price and a third
+> Senator Levin: There are a lot of interesting things there that your Chief Credit Officer, Mr. Kimball, wrote in October of 2007 …. One of the things he wrote, and this is under market share, he says in paragraph five, 'Ideally, competition would be primarily on the basis of ratings quality' – that is ideally – 'with a second component of price and a third component of service. Unfortunately, of the three competitive factors, rating quality is proving the least powerful.' … 'It turns out that ratings quality has surprisingly few friends; issuers want high ratings; investors don't want rating downgrades; short-sighted bankers labor short-sightedly to game the rating agencies for a few extra basis points on execution.' Would you agree with that?
 
 %%page 288%%
-
-> component of service. Unfortunately, of the three competitive factors, rating quality is proving the least powerful.' … 'It turns out that ratings quality has surprisingly few friends; issuers want high ratings; investors don't want rating downgrades; short-sighted bankers labor short-sightedly to game the rating agencies for a few extra basis points on execution.' Would you agree with that?
 
 > Mr. McDaniel: In this section, he is talking about the issue of rating shopping, and I agree that that existed then and exists now.[^1116]
 
@@ -4283,11 +4227,9 @@ In December 2006, she wrote:
 
 In February 2007, she expressed concerns about having adequate resources to address potential downgrades in RMBS:
 
-> "I talked to Tommy yesterday and he thinks that the [RMBS] ratings are not going to hold through 2007. He asked me to begin discussing taking rating actions earlier on the
+> "I talked to Tommy yesterday and he thinks that the [RMBS] ratings are not going to hold through 2007. He asked me to begin discussing taking rating actions earlier on the poor performing deals. I have been thinking about this for much of the night. We do not have the resources to support what we are doing now. A new process, without the right support, would be overwhelming. ... My group is under serious pressure to respond to the burgeoning poor performance of sub-prime deals. … we are really falling behind. … I am seeing evidence that I really need to add staff to keep up with what is going on with sub prime and mortgage performance in general, NOW."[^1198]
 
 %%page 309%%
-
-> poor performing deals. I have been thinking about this for much of the night. We do not have the resources to support what we are doing now. A new process, without the right support, would be overwhelming. ... My group is under serious pressure to respond to the burgeoning poor performance of sub-prime deals. … we are really falling behind. … I am seeing evidence that I really need to add staff to keep up with what is going on with sub prime and mortgage performance in general, NOW."[^1198]
 
 In April 2007, a managing director at S&P in the Structured Finance Group wrote an email confirming the staffing shortages in the RMBS Surveillance Group:
 
@@ -5300,11 +5242,9 @@ Internal documents indicate that the directions given to the Mortgage Department
 
 The next day, December 15, 2006, Mr. Montag forwarded Mr. Sparks' email to Mr. Viniar asking: "is this a fair summary?"1648 Mr. Viniar replied: "Yes." Mr. Viniar noted:
 
-> "On ABX, the position is reasonably sensible but is just too big. Might have to spend a little to size it appropriately. On everything else my basic message was let's be aggressive distributing things because there will be very good opportunities as the markets [go] into
+> "On ABX, the position is reasonably sensible but is just too big. Might have to spend a little to size it appropriately. On everything else my basic message was let's be aggressive distributing things because there will be very good opportunities as the markets [go] into what is likely to be even greater distress and we want to be in a position to take advantage of them."1649
 
 %%page 406%%
-
-> what is likely to be even greater distress and we want to be in a position to take advantage of them."1649
 
 In response to the Viniar meeting, the Mortgage Department took immediate action. It began selling its long ABX positions outright when possible and entering into large single name CDS shorts to offset its remaining long assets. Goldman personnel developed a chart depicting the long positions the Mortgage Department had taken on BBB and BBB- rated ABX assets.1650 This chart also showed how quickly the Mortgage Department moved after the Viniar meeting to offset those long positions by amassing single name RMBS and CDS short positions.
 
@@ -5610,11 +5550,9 @@ Goldman documents show there was a plan and an attempt to conduct a short squeez
 
 On May 18, 2007, a Friday, the ABS Desk marked down the value of many of its clients' CDS short positions. On Monday, May 21, Mr. Salem sent an email to Mr. Swenson and Edwin Chin entitled, "A few things . . . pain-related."1746
 
-> "Guys r gonna complain about their marks [hedge fund] already emailed me. I would talk about the recent flow of OWICS [offers] and the levels ... they have been trading as the
+> "Guys r gonna complain about their marks [hedge fund] already emailed me. I would talk about the recent flow of OWICS [offers] and the levels ... they have been trading as the reason we moved marks on Friday. ... [Another customer] lost 6 pct based on fridays moves."1747
 
 %%page 427%%
-
-> reason we moved marks on Friday. ... [Another customer] lost 6 pct based on fridays moves."1747
 
 That same day, a Goldman sales representative sent Mr. Chin a complaint from a hedge fund customer named Stanfield Capital regarding the lower values assigned to its CDS short positions. The sales representative wrote:
 
@@ -5632,11 +5570,9 @@ On May 24, 2007, the Stanfield trader wrote to Goldman that he had thought the p
 
 > Also, from where our BBB trade was marked last Friday ... [t]his trade is tighter by 35% as well. ...
 
-> I had always thought that these trades were meant to be the start of a partnership building of future business between Stanfield and Goldman Sachs. I know we are big boys and we did the trade there is no doubt of that. What I am attempting to do is either cut our losses and
+> I had always thought that these trades were meant to be the start of a partnership building of future business between Stanfield and Goldman Sachs. I know we are big boys and we did the trade there is no doubt of that. What I am attempting to do is either cut our losses and get out or determine what I can say to keep this trade on .... I've lost a lot of credi[b]ility on the desk with this trade. Maybe I was naive to trust the pitch on the trade. It has cost me a lot."1750
 
 %%page 428%%
-
-> get out or determine what I can say to keep this trade on .... I've lost a lot of credi[b]ility on the desk with this trade. Maybe I was naive to trust the pitch on the trade. It has cost me a lot."1750
 
 A week later, on May 31, 2007, Stark Investments indicated interest in buying a short on certain RMBS securities backed by home equity loans. The Goldman sales representative trying to close the sale emailed SPG personnel that the client was hesitating due to Goldman's valuations which were "drastically different" from other dealers:
 
@@ -5700,11 +5636,9 @@ The creditors of the Bear Stearns hedge funds met with Bear Stearns management i
 
 Goldman's Structured Product Group (SPG) took the collapse of the Bear Stearns hedge funds as the signal to begin rebuilding its net short position. As Joshua Birnbaum, the head ABX trader on the SPG Desk, later wrote:
 
-> "[T]he Bear Stearns Asset Management (BSAM) situation changed everything. I felt that this mark-to-market event for CDO risk would begin a further unraveling in mortgage
+> "[T]he Bear Stearns Asset Management (BSAM) situation changed everything. I felt that this mark-to-market event for CDO risk would begin a further unraveling in mortgage credit. Again, when the prevailing opinion in the department was to remain close to home, I pushed everyone on the [SPG] desk to sell risk aggressively and quickly. We sold billions of index and single name risk."1780
 
 %%page 434%%
-
-> credit. Again, when the prevailing opinion in the department was to remain close to home, I pushed everyone on the [SPG] desk to sell risk aggressively and quickly. We sold billions of index and single name risk."1780
 
 In a later internal presentation for Goldman senior executives which Mr. Birnbaum drafted for another purpose,1781 Mr. Birnbaum wrote that, after the Bear Stearns funds collapsed, SPG's Trading Desks went net short outright and that the shorts were not a hedge for long positions:
 
@@ -6502,11 +6436,9 @@ During June and July, additional sales took place in Japan, Korea, Taiwan, and A
 
 Despite the sales in June and July, Goldman continued to have a significant inventory of unsold CDO securities. On August 15, 2007, Mr. Mullen even made a casual reference to "our cdo business which remains unsaleable."2122 If Goldman's CDOs remained unsaleable, however, it was not for lack of trying. In August and September 2007, Goldman switched from its targeted customer approach to issuing broad directives to its entire sales force in the United States and abroad urging them to concentrate on its CDO securities. On August 17, 2007, for example, the SPG Trading Desk issued a new directive to certain salespersons asking them to place a priority on selling interests in two Timberwolf super senior tranches.2123 These tranches were first in line to receive payments within the CDO and so had the lowest risk. Super senior CDO positions were often sold through CDS contracts, sometimes called super senior swaps, in which the customer took the long side and the CDO originator took the short side, and that's what Goldman wanted the sales force to market. But the following week, on August 23, 2007, Goldman sent a new directive to the sales force urging them to find customers willing to take the short side of the super senior tranches, so the Mortgage Department could take the long side and cover some of its shorts.2124 When asked his opinion of the directive, the head of Japan sales office expressed skepticism about sales to Asian customers:
 
-> "The only question in my mind is that we have not seen many accounts pushing hard to find ways to get short (typically they are long only). That being said, the reality of the current
+> "The only question in my mind is that we have not seen many accounts pushing hard to find ways to get short (typically they are long only). That being said, the reality of the current market may have finally sunk in and investors may be able to convince their boards [n]ow to put on this sort of trade."2125
 
 %%page 502%%
-
-> market may have finally sunk in and investors may be able to convince their boards [n]ow to put on this sort of trade."2125
 
 On September 5, 2007, notwithstanding "the reality of the current market," the SPG Trading Desk issued a "Refresh of Axe Priorities" to its entire sales force.2126 The directive placed a priority on selling Goldman's residual CDO equity tranches as well as a variety of other assets to help Goldman cover and lock in the profits from its big short. Mr. Sparks emailed senior sales executives:
 
@@ -6516,11 +6448,9 @@ Mr. Sparks forwarded this email to Mr. Cohn, who responded "Great to see."2128 O
 
 Goldman has at times suggested that many of its CDO sales were not the result of affirmative client solicitations and recommendations made by the firm, but were in response to client requests–generally known as "reverse inquiries." In a letter to the Financial Crisis Inquiry Commission, for example, Goldman's General Counsel, Gregory Palm, made the following statement about Goldman's role as an underwriter of synthetic CDOs:
 
-> "Goldman Sachs' CDOs containing primarily residential mortgage-related synthetic assets were initially created in response to the request of a sophisticated institutional investor that approached the firm specifically seeking that particular exposure. Reverse inquiries from clients were a common feature of this market. ... These transactions often are initiated by our clients, and when proposed by us are often in response to previously expressed
+> "Goldman Sachs' CDOs containing primarily residential mortgage-related synthetic assets were initially created in response to the request of a sophisticated institutional investor that approached the firm specifically seeking that particular exposure. Reverse inquiries from clients were a common feature of this market. ... These transactions often are initiated by our clients, and when proposed by us are often in response to previously expressed investment interests of the client. We are responding to our clients' desires either to establish, or to increase or decrease, their exposure to a position based on their own investment views."2130
 
 %%page 503%%
-
-> investment interests of the client. We are responding to our clients' desires either to establish, or to increase or decrease, their exposure to a position based on their own investment views."2130
 
 Mr. Palm's characterization of Goldman as playing only a passive, responsive role is at odds with the firm's documented and concerted efforts to market its CDO securities in the face of investor disinterest and falling values. Throughout 2007, Goldman issued directives to its sales force to sell specific CDO securities on a "first priority" basis. It expanded its selling efforts to "nontraditional buyers" as well as to banks, hedge funds, and other clients in Asia, Europe, and the Middle East. It offered its sales force substantial incentives, such as "ginormous" sales credits, to push the sales to clients.2131 Under its CDO Gameplan, Goldman "targeted" four primary and 35 secondary clients for CDO sales, and celebrated selling CDO securities to several of them. The weight of this evidence demonstrates that Goldman was soliciting sales rather than responding solely to client inquiries.
 
@@ -6876,11 +6806,9 @@ Falling Mortgage Market. During the same time period in which the Anderson singl
 
 Goldman was also aware that its longtime customer, New Century, was in financial distress. On February 7, 2007, New Century announced publicly it would be restating its 2006 earnings, causing a sharp drop in the company's share price. On February 8, 2007, Goldman's Chief Credit Officer Craig Broderick sent Mr. Sparks and others a press clipping about New Century and warned:
 
-> "[T]his is a materially adverse development. The issues involve inadequate [early payment default] provisions and marks on residuals .... [I]n a confidence sensitive industry it will be
+> "[T]his is a materially adverse development. The issues involve inadequate [early payment default] provisions and marks on residuals .... [I]n a confidence sensitive industry it will be ugly even if all problems have been identified. ... We have a call with the company in a few minutes (to be led by Dan Sparks)."[^2315]
 
 %%page 535%%
-
-> ugly even if all problems have been identified. ... We have a call with the company in a few minutes (to be led by Dan Sparks)."[^2315]
 
 On some occasions, Mr. Sparks addressed negative news about New Century in the same email he discussed liquidating assets in warehouse accounts for upcoming CDOs. On March 8, 2007, for example, Mr. Sparks noted in an email to senior executives: "New Century remains a problem" due to loans experiencing early payment defaults, and informed them that the Mortgage Department had "liquidated a few deals and could liquidate a couple more."2316
 
@@ -6892,11 +6820,9 @@ Three days later, David Rosenblum, head of Goldman's Collateralized Loan Obligat
 
 On February 24, 2007, a Saturday, several persons from the Mortgage Department worked to analyze the costs of unwinding and liquidating the assets collected for the Anderson CDO. Deeb Salem, a trader on the ABS Desk, estimated that unwinding Anderson would result in a $60 million loss due to the falling value of its single name CDS.2320 On the same day, Mr. Ostrem sent his colleagues this explanation of why the losses in the CDO warehouse accounts were growing so rapidly:
 
-> "Each warehouse is marked by either (a) MTM [mark-to-market] on each asset or (b) mark to model [MTModel] which involves taking the portfolio through the expected CDO execution and calculating Goldman's P&L [profit and loss] given current market yields on debt and equity. MTM is preferred if CDO execution is highly uncertain or portfolio is
+> "Each warehouse is marked by either (a) MTM [mark-to-market] on each asset or (b) mark to model [MTModel] which involves taking the portfolio through the expected CDO execution and calculating Goldman's P&L [profit and loss] given current market yields on debt and equity. MTM is preferred if CDO execution is highly uncertain or portfolio is small. Both the MTM and the MTModel take into account risk sharing arrangements with 3rd parties.
 
 %%page 536%%
-
-> small. Both the MTM and the MTModel take into account risk sharing arrangements with 3rd parties.
 
 > As CDO execution has become more uncertain we have moved a couple warehouses closer to their MTM which has significantly increased our losses. Also, our MTModel results have shown losses as expected liability spreads have widened significantly and the overall strength of the CDO market has waned due to fundamental credit decline in 06/07 in RMBS subprime (90+% of assets) and increased co[r]relation between ABX/TABX levels and mezz debt levels in CDOs. We expect this co[r]relation to increase volatility in our warehouse marks for the [sic] a while (this series of events have happened quickly within the last month and the co[r]relation is getting closer to 1 as global markets get more familiar with fundamentals in subprime and trading levels in ABX/TABX).
 
@@ -6922,11 +6848,9 @@ The talking points described Goldman as holding up to 50% of the equity tranche 
 
 The large number of poor assets referenced in Anderson raised investor questions and was an impediment to sales.2330 One potential investor wrote to a Goldman sales representative explaining its decision not to purchase the Anderson securities:
 
-> "We're going to pass on this deal for a number of reasons: Two bonds . . . have been downgraded or are on negative watch; Another 12 bonds in the portfolio are negatively impacted by the downgrades lower in the capital structure; 28% of the portfolio is failing
+> "We're going to pass on this deal for a number of reasons: Two bonds . . . have been downgraded or are on negative watch; Another 12 bonds in the portfolio are negatively impacted by the downgrades lower in the capital structure; 28% of the portfolio is failing delinquency triggers; We show that a lot of these bonds will take principal hits; Not crazy about the deal structure given the quality of the portfolio."2331
 
 %%page 538%%
-
-> delinquency triggers; We show that a lot of these bonds will take principal hits; Not crazy about the deal structure given the quality of the portfolio."2331
 
 Other investors expressed concerns that the CDO would be downgraded.2332 Goldman did not disclose to these investors that it had almost canceled the CDO, due to its assets' falling values.
 
@@ -7220,11 +7144,9 @@ Jonathan Egol, chief architect of the Abacus structure and head of the Correlati
 
 A colleague replied:
 
-> "There are more managers out there than just GSC / Faxtor. The way I look at it, the easiest managers to work with should be used for our own axes. Managers that are a bit more
+> "There are more managers out there than just GSC / Faxtor. The way I look at it, the easiest managers to work with should be used for our own axes. Managers that are a bit more difficult should be used for trades like Paulson given how axed Paulson seems to be (i.e. I'm betting they can give on certain terms and overall portfolio increase)."2506
 
 %%page 564%%
-
-> difficult should be used for trades like Paulson given how axed Paulson seems to be (i.e. I'm betting they can give on certain terms and overall portfolio increase)."2506
 
 On January 4, 2007, on behalf of Paulson, Goldman approached GSC Partners as well as two other companies to act as the portfolio selection agent for the Abacus CDO.2507 Following a meeting among representatives of Goldman, Paulson, and GSC, Mr. Tourre sent an email to his colleagues summarizing the meeting and indicating that Paulson was also looking for a portfolio selection agent that would be willing to accept many of the reference assets it identified:
 
@@ -7750,11 +7672,9 @@ Whether acting as an underwriter or placement agent, a major part of the investm
 
 The Supreme Court has held that a fact is material if there is a "substantial likelihood that the disclosure of the omitted fact would have been viewed by the reasonable investor as having significantly altered the 'total mix' of information made available."[^2678] The SEC has provided this additional guidance:
 
-> "'The question of materiality, it is universally agreed, is an objective one, involving the significance of an omitted or misrepresented fact to a reasonable investor.' '[T]he reaction of individual investors is not determinative of materiality, since the standard is objective, not subjective.' '[M]ateriality depends on the significance the reasonable investor would place on the withheld or misrepresented information.' Although in general materiality is primarily a factual inquiry, 'the question of materiality is to be resolved as a matter of law when the information is 'so obviously important [or
+> "'The question of materiality, it is universally agreed, is an objective one, involving the significance of an omitted or misrepresented fact to a reasonable investor.' '[T]he reaction of individual investors is not determinative of materiality, since the standard is objective, not subjective.' '[M]ateriality depends on the significance the reasonable investor would place on the withheld or misrepresented information.' Although in general materiality is primarily a factual inquiry, 'the question of materiality is to be resolved as a matter of law when the information is 'so obviously important [or unimportant] to an investor, that reasonable minds cannot differ on the question of materiality.'"[^2679]
 
 %%page 606%%
-
-> unimportant] to an investor, that reasonable minds cannot differ on the question of materiality.'"[^2679]
 
 Unlike when a broker-dealer is acting as a market maker, a broker-dealer acting as an underwriter or placement agent has an obligation to disclose material information to every investor it solicits, including the existence of any material conflict of interest or adverse interest. This duty arises from two sources: the duties of an underwriter specifically, and the duties of a broker-dealer generally, when making an investment recommendation to a customer.
 
@@ -7788,11 +7708,9 @@ A broker-dealer violates the suitability rule if it makes a recommendation that 
 
 Suitability rules are intended to prevent abuses that contributed to the stock crash of 1929 and the Great Depression of the 1930s, when Senators investigating investment bank activities at the time wrote the following:
 
-> "[Investors] must believe that their investment banker would not offer them the bonds unless the banker believed them to be safe. This throws a heavy responsibility upon the banker. He may and does make mistakes. There is no way that he can avoid making mistakes because he is human and because in this world, things are only relatively secure. There is no such thing as absolute security. But while the banker may make mistakes, he
+> "[Investors] must believe that their investment banker would not offer them the bonds unless the banker believed them to be safe. This throws a heavy responsibility upon the banker. He may and does make mistakes. There is no way that he can avoid making mistakes because he is human and because in this world, things are only relatively secure. There is no such thing as absolute security. But while the banker may make mistakes, he must never make the mistake of offering investments to his clients which he does not believe to be good."[^2693]
 
 %%page 609%%
-
-> must never make the mistake of offering investments to his clients which he does not believe to be good."[^2693]
 
 Investment Advisers. For investment banks that act, not just as a broker-dealer, underwriter, or placement agent, but also as an investment adviser to their customers, federal securities laws impose still a higher legal duty. When acting as an investment adviser, the law imposes a fiduciary obligation on the investment bank to act in the "best interests of its clients."[^2694] A person qualifies as an "investment adviser" under the Investment Advisers Act if that person: provides advice regarding securities, is in the business of providing such advice, and provides that advice for compensation.[^2695] A broker-dealer, however, is excluded from the Investment Advisers Act if the performance of its investment advisory services is "solely" incidental to its business as a broker-dealer, and the broker-dealer does not receive "special compensation" for providing those advisory services.[^2696] Because Goldman appears to have acted primarily as an underwriter, placement agent, or broker-dealer in carrying out its securitization activities, this section analyzes Goldman's conduct in that context and not in the context of an investment adviser.[^2697]
 
@@ -7820,11 +7738,9 @@ Senator Collins: Mr. Swenson?
 
 Mr. Tourre made similar representations in his prepared testimony to the Subcommittee:
 
-> "Between 2004 and 2007, my job was primarily to make markets for clients. I made markets by connecting clients who wished to take a long exposure to an asset – meaning they anticipated the value of the asset would rise – with clients who wished to take a short exposure to an asset – meaning they anticipated the value of the asset would fall. I
+> "Between 2004 and 2007, my job was primarily to make markets for clients. I made markets by connecting clients who wished to take a long exposure to an asset – meaning they anticipated the value of the asset would rise – with clients who wished to take a short exposure to an asset – meaning they anticipated the value of the asset would fall. I was an intermediary between highly sophisticated professional investors – all of which were institutions. None of my clients were individual, retail investors."[^2700]
 
 %%page 611%%
-
-> was an intermediary between highly sophisticated professional investors – all of which were institutions. None of my clients were individual, retail investors."[^2700]
 
 In another exchange, when Subcommittee Chairman Levin asked Goldman CEO Lloyd Blankfein about the firm's duty as an underwriter and placement agent to disclose its adverse interests when selling its CDO securities to potential investors, Mr. Blankfein responded that market makers had no such disclosure obligations:
 

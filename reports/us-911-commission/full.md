@@ -1058,11 +1058,9 @@ It is not clear how the shootdown order was communicated within NORAD. But we kn
 
 In upstate New York, NEADS personnel first learned of the shootdown order from this message:
 
-> Floor Leadership: You need to read this. . . .The Region Commander has declared that we can shoot down aircraft that do not respond to our direction. Copy that? Controllers: Copy that, sir. Floor Leadership: So if you're trying to divert somebody and he won't divert— Controllers: DO [Director of Operations] is saying no. Floor Leadership: No? It came over the chat. . . .You got a conflict on that direction? Controllers: Right now no, but— Floor Leadership: Okay? Okay, you read that from the Vice President, right? Vice President has cleared. Vice President has cleared us to
+> Floor Leadership: You need to read this. . . .The Region Commander has declared that we can shoot down aircraft that do not respond to our direction. Copy that? Controllers: Copy that, sir. Floor Leadership: So if you're trying to divert somebody and he won't divert— Controllers: DO [Director of Operations] is saying no. Floor Leadership: No? It came over the chat. . . .You got a conflict on that direction? Controllers: Right now no, but— Floor Leadership: Okay? Okay, you read that from the Vice President, right? Vice President has cleared. Vice President has cleared us to intercept traffic and shoot them down if they do not respond per [General Arnold].[^230]
 
 %%page 43%%
-
-> intercept traffic and shoot them down if they do not respond per [General Arnold].[^230]
 
 In interviews with us, NEADS personnel expressed considerable confusion over the nature and effect of the order.
 

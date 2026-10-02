@@ -3774,11 +3774,9 @@ With regard to the appropriate role of the Program Manager (Level 11),there was 
 
 When asked if the program management should remain at JSC, Mr. Moore, who is currently Director of JSC, replied:
 
-> I think that is certainly a topic that is going to be studied very, very carefully. I think there are a couple of options that can be looked at that would keep the major parts of program management that has been in operation at the Johnson Space Center at the Johnson Center. There are a lot of tools, roots and capabilities. I think, on the other hand, there should be some looks at the Office of Space Flight for finding some way to strengthen
+> I think that is certainly a topic that is going to be studied very, very carefully. I think there are a couple of options that can be looked at that would keep the major parts of program management that has been in operation at the Johnson Space Center at the Johnson Center. There are a lot of tools, roots and capabilities. I think, on the other hand, there should be some looks at the Office of Space Flight for finding some way to strengthen the overall program management in the Office of Space Flight. And one concept might be to have a Shuttle Program Director within the Office of Space Flight and working with the Level I1 program office at the Johnson Space Center. My answer is, I believe the Level I1 program office, with some strengthening, and the level I program office, with some strengthening-we can make it work and it should remain at the Johnson Space Center.
 
 %%page 168%%
-
-> the overall program management in the Office of Space Flight. And one concept might be to have a Shuttle Program Director within the Office of Space Flight and working with the Level I1 program office at the Johnson Space Center. My answer is, I believe the Level I1 program office, with some strengthening, and the level I program office, with some strengthening-we can make it work and it should remain at the Johnson Space Center.
 
 This was in direct contrast to the view held by John Yardley, former Associate Administrator for Space Flight. In discussing the Rogers Commission's recommendations, he stated:
 

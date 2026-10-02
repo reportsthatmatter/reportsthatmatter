@@ -1031,11 +1031,9 @@ Membership of Boris Berezovsky's circle
 
 4.20 This friendship, however, did not last. As Professor Service has explained:
 
-> "Tension between Putin and Berezovski started almost as soon as Yeltsin resigned the Presidency in December 1999. Berezovski relished the reputation of king- maker. He claimed responsibility for Putin's rise to the Presidency, and no doubt his
+> "Tension between Putin and Berezovski started almost as soon as Yeltsin resigned the Presidency in December 1999. Berezovski relished the reputation of king- maker. He claimed responsibility for Putin's rise to the Presidency, and no doubt his bouncy condescension grated upon Putin. When Putin took decisions that clashed with Berezovski's interests, Berezovski instructed the national TV station under his control to criticise Putin. Berezovski quickly lost the contest. Putin told him directly that no businessman, however high and mighty, was going to determine public policy any longer."[^15]
 
 %%page 55%%
-
-> bouncy condescension grated upon Putin. When Putin took decisions that clashed with Berezovski's interests, Berezovski instructed the national TV station under his control to criticise Putin. Berezovski quickly lost the contest. Putin told him directly that no businessman, however high and mighty, was going to determine public policy any longer."[^15]
 
 4.21 Mr Berezovsky left Russia at the end of 2000 and became a political exile in London, where he claimed, and was ultimately granted, asylum. I heard evidence from Professor Service, Mr Goldfarb and others that, following his arrival in London, Mr Berezovsky used his great wealth to become a vocal critic of President Putin, and to fund others to do likewise. It was also clear that Mr Litvinenko played a leading role in this respect – as Professor Service put it, "Berezovski encouraged and financed emigres who shared his hostility to Putin, and Litvinenko was the most prominent and ebullient of them."[^16] Another of this group of emigres in Mr Berezovsky's circle was the Chechen leader Akhmed Zakayev. As I have mentioned above, Mr Litvinenko and Mr Zakayev became very close friends, and their two families lived so close to each other that they regarded themselves as neighbours.
 
@@ -1179,11 +1177,9 @@ Mr Goldfarb went on, however, to describe how the second shipment in early 2003,
 
 > That means that, as a general rule, the government will NCND whether the agencies are carrying out or have carried out an operation or investigation into a particular person or group, have a relationship with a particular person, hold particular information on a person or have shared information about that person with any other agencies, whether within the UK or elsewhere.
 
-> In order to be effective, the NCND principle must be applied consistently, including when no activity has taken place and a denial could be made perfectly properly. If the government were prepared to deny a particular activity in one instance, the inference might well be drawn that the absence of a denial in another amounted to
+> In order to be effective, the NCND principle must be applied consistently, including when no activity has taken place and a denial could be made perfectly properly. If the government were prepared to deny a particular activity in one instance, the inference might well be drawn that the absence of a denial in another amounted to confirmation of the alleged activity. If the government were forced to depart from the NCND principle in one case, it would create a clear risk of serious harm to essential UK national security interests. It could, furthermore, potentially put lives at risk."[^64]
 
 %%page 65%%
-
-> confirmation of the alleged activity. If the government were forced to depart from the NCND principle in one case, it would create a clear risk of serious harm to essential UK national security interests. It could, furthermore, potentially put lives at risk."[^64]
 
 Later in the opening statement, Mr Garnham quoted a passage from the judgment of Lord Carswell in the Scappaticci case:[^65]
 
@@ -1549,11 +1545,9 @@ Insulting (unizhenie) national dignity;
 
 5.8 Professor Service commented on this provision in trenchant terms. He said:
 
-> "The amendment is a mere listing of categories rather than a careful legislative definition. The language is extravagantly vague, and more than one category allows for unfettered repressive activity by the authorities. The item on the slandering of holders of public office is remarkable for the room it gives to treat any strident critique of the President or other leading officials as extremism. The wording is so expansive as to enable the authorities, if such were to be their desire, to act
+> "The amendment is a mere listing of categories rather than a careful legislative definition. The language is extravagantly vague, and more than one category allows for unfettered repressive activity by the authorities. The item on the slandering of holders of public office is remarkable for the room it gives to treat any strident critique of the President or other leading officials as extremism. The wording is so expansive as to enable the authorities, if such were to be their desire, to act against every kind of unfair criticism – or indeed any criticism that they deem to be unfair."[^4]
 
 %%page 88%%
-
-> against every kind of unfair criticism – or indeed any criticism that they deem to be unfair."[^4]
 
 The perceived threat
 
@@ -1669,11 +1663,9 @@ Putin knee[le]d, lifted the boy's T-shirt and kissed his stomach.
 
 > The Institute officials feared to report this to their own superiors, which would cause an unpleasant investigation. They decided it was easier just to avoid sending Putin abroad under some pretext. Such a solution is not unusual for the secret services.
 
-> Many years later, when Putin became the FSB director and was preparing for the presidency, he began to seek and destroy any compromising materials collected against him by the secret services over earlier years. It was not difficult, provided he himself was the FSB director. Among other things, Putin found videotapes in
+> Many years later, when Putin became the FSB director and was preparing for the presidency, he began to seek and destroy any compromising materials collected against him by the secret services over earlier years. It was not difficult, provided he himself was the FSB director. Among other things, Putin found videotapes in the FSB Internal Security directorate, which showed him making sex with some underage boys.
 
 %%page 93%%
-
-> the FSB Internal Security directorate, which showed him making sex with some underage boys.
 
 > Interestingly, the video was recorded in the same conspiratorial flat in Polyanka Street in Moscow where Russian Prosecutor-General Yuri Skuratov was secretly video-taped with two prostitutes. Later, in the famous scandal, Putin (on Roman Abramovich's instructions) blackmailed Skuratov with these tapes and tried to persuade the Prosecutor-General to resign. In that conversation, Putin mentioned to Skuratov that he himself was also secretly video-taped making sex at the same bed. (But of course, he did not tell it was pedophilia [sic] rather than normal sex.) Later, Skuratov wrote about this in his book Variant Drakona (pp.153-154)."
 
@@ -1695,11 +1687,9 @@ Putin knee[le]d, lifted the boy's T-shirt and kissed his stomach.
 
 > In this connection I would like to tell you what Sasha had told Dmitry Kovtun not long before his death, when we met together in October of last year. During our dinner at one of the Chinatown restaurants in London, Litvinenko, enlarging on the subject of ways to make money, touched upon the resumed negotiations between Russia and the UK regarding Berezovsky's extradition. Lamenting the fact that Berezovsky did not appreciate the services rendered to him by Litvinenko, who allegedly saved his life more than once, Litvinenko told Kovtun, that he had the most important materials of a compromising nature, regarding the illegal activity of Berezovsky on the UK territory. If any part of the documents pertaining to the circumstances of his obtaining the refugee status were to be made public, then he (Berezovsky) would have huge problems. Litvinenko hinted to Dima, that especially now, when Russia raised an issue with the UK of extraditing Berezovsky, it would be very opportune to let Berezovsky know that such materials exist, and to put a value of several million dollars on them. Still being financially dependent on Berezovsky – Berezovsky was paying his son's tuition fees and the family's accommodation in London – Litvinenko asked Kovtun to find a reliable person, whom he would introduce to Berezovsky, which person would be able to familiarise Berezovsky with the materials, compromising him. Litvinenko was absolutely sure of the success of this enterprise, referring to the explosive nature and authenticity of the compromising materials that he possessed. Since the conversation took place when I left the table, Litvinenko asked Kovtun to keep that conversation between them, fearing that I, as a person who could contact Berezovsky at any point, would expose Litvinenko's idea to him.
 
-> Not willing to participate in all that even indirectly, not taking Litvinenko seriously, Kovtun and I decided it prudent to forget this conversation as soon as possible. However recalling now the details of my meetings with Litvinenko, his conviction
+> Not willing to participate in all that even indirectly, not taking Litvinenko seriously, Kovtun and I decided it prudent to forget this conversation as soon as possible. However recalling now the details of my meetings with Litvinenko, his conviction that the compromising materials he possessed could have fundamentally changed his (Litvinenko's) reduced financial circumstances, I can suppose that he did not abandon the idea of blackmailing Berezovsky which could have led to such lamentable consequences for him."[^19]
 
 %%page 95%%
-
-> that the compromising materials he possessed could have fundamentally changed his (Litvinenko's) reduced financial circumstances, I can suppose that he did not abandon the idea of blackmailing Berezovsky which could have led to such lamentable consequences for him."[^19]
 
 5.33 There is evidence that Mr Lugovoy, Mr Kovtun and Mr Litvinenko had dinner together in a restaurant in Chinatown on 17 October 2006, and it would appear to have been that evening to which Mr Lugovoy was referring in his speech at the press conference.
 
@@ -1885,11 +1875,9 @@ i. Mr Attew's evidence was that the Shvets due diligence report on Mr Ivanov cau
 
 5.82 When Anatoly Litvinenko gave evidence before me, he frankly admitted that although he could remember visiting the Tower with his father, he did not recall what his father had said to him on that occasion. But he confirmed that the words that I have quoted above were entirely consistent with what he knew of his father's feelings. He said:
 
-> "… he would always go on about the integrity of this nation… the honesty and transparency with which judicial processes were carried out as well as the honesty
+> "… he would always go on about the integrity of this nation… the honesty and transparency with which judicial processes were carried out as well as the honesty of the police and how deeply [this] contrasted with the regime under which he grew up and the system in which he served."[^76]
 
 %%page 107%%
-
-> of the police and how deeply [this] contrasted with the regime under which he grew up and the system in which he served."[^76]
 
 5.83 By coincidence, the British citizenship ceremony that the Litvinenko family attended at Haringey Civic Centre took place on the same day as the memorial meeting for Anna Politkovskaya at Westminster. Marina Litvinenko told me that she had gone home after the citizenship ceremony, but Mr Litvinenko had gone to the memorial at Westminster, taking Anatoly with him. She explained that Mr Litvinenko had felt it to be very important that he should go and pay tribute to Ms Politkovskaya.[^77]
 
@@ -2149,11 +2137,9 @@ Arrival in London
 
 > b. On 1 December 2006, an official at the British Embassy in Moscow named Mr Knott notified both the Russian authorities and Transaero of the concern as to possible contamination of the aircraft, and of the advice that they should be tested before they next flew[^39]
 
-> c. On the same day, Mr Knott was informed both by officials in the office of Mr Gennadiy Onishchenko, the then Russian Chief Public Health Officer, and by Mr Alexander Tarrenets, the Deputy Director of Security for Transaero, that
+> c. On the same day, Mr Knott was informed both by officials in the office of Mr Gennadiy Onishchenko, the then Russian Chief Public Health Officer, and by Mr Alexander Tarrenets, the Deputy Director of Security for Transaero, that both planes had in fact already been tested and that no contamination had been found[^40]
 
 %%page 122%%
-
-> both planes had in fact already been tested and that no contamination had been found[^40]
 
 d. In fact, aircraft EI-DNM flew into Heathrow on that day, 1 December 2006, and was tested for contamination by AWE scientists. They discovered secondary alpha radiation contamination in the area of the seats on which Mr Kovtun and Mr Lugovoy had sat on the flight on 18 October[^41]
 
@@ -2427,11 +2413,9 @@ Events of the evening of 17 October
 
 6.147 Several years after the press conference, in 2011, Mr Lugovoy provided a lengthy witness statement in the course of the Terluk libel proceedings. One section of that statement was devoted to a detailed narrative account of the meetings that he and Mr Kovtun had had with Mr Litvinenko in October and November 2006. In that statement, Mr Lugovoy made no mention at all of anything that Mr Litvinenko said at the Golden Dragon restaurant – whether in terms of a private discussion between Mr Litvinenko and Mr Kovtun concerning Mr Berezovsky (as Mr Lugovoy had described at the press conference) or in terms of a discussion about Russians in Spain, as Mr Kovtun now asserts. Nor did he say anything about a discussion between Mr Kovtun and Mr Litvinenko on 16 October while they were waiting for a cab. Rather, Mr Lugovoy gave an account of a conversation between Mr Kovtun and Mr Litvinenko that had supposedly taken place earlier in the day on 17 October. Paragraph 127 of this statement read as follows:[^134]
 
-> "We, that is Mr Litvinenko, Mr Kovtun and I, had a meeting at 18.00 with RISC on 17 October 2007 [sic]. After the meeting at RISC, when we were walking back to the hotel, Mr Litvinenko was walking next to Mr Kovtun some distance ahead of me. I was speaking on my mobile phone. Whilst we were walking I could not hear what Mr Litvinenko was saying to Mr Kovtun. However, later that day Mr Kovtun told me that Mr Litvinenko resumed his complaint that Mr Berezovsky was not treating him fairly and that he simply could not survive on the money that Mr Berezovsky was paying to him. He said that he knew information regarding Mr Berezovsky that was worth a great deal of money. He said that he needed to find someone
+> "We, that is Mr Litvinenko, Mr Kovtun and I, had a meeting at 18.00 with RISC on 17 October 2007 [sic]. After the meeting at RISC, when we were walking back to the hotel, Mr Litvinenko was walking next to Mr Kovtun some distance ahead of me. I was speaking on my mobile phone. Whilst we were walking I could not hear what Mr Litvinenko was saying to Mr Kovtun. However, later that day Mr Kovtun told me that Mr Litvinenko resumed his complaint that Mr Berezovsky was not treating him fairly and that he simply could not survive on the money that Mr Berezovsky was paying to him. He said that he knew information regarding Mr Berezovsky that was worth a great deal of money. He said that he needed to find someone substantial and trustworthy who could sell this information without the source of the information coming back to himself."
 
 %%page 140%%
-
-> substantial and trustworthy who could sell this information without the source of the information coming back to himself."
 
 6.148 I have previously referred to these two accounts in chapter 4 of Part 5 above. I have set them out here again in order to demonstrate the very significant discrepancies that exist between the accounts that have been given by Mr Lugovoy and Mr Kovtun over the years, ending in the statement that Mr Kovtun provided to the Inquiry in June 2015. Clearly, had Mr Kovtun (or, for that matter, Mr Lugovoy) given oral evidence to the Inquiry, these discrepancies would have been addressed. Equally clearly, in the absence of any explanation from either of the men, I am not in a position to place any weight on these parts of their accounts. Arguably, the matter goes further than that. The differences between the accounts are so marked that I might be driven to conclude that Mr Lugovoy and Mr Kovtun have been deliberately attempting to mislead those attempting to discover the truth about these events, including myself. I shall return to this matter in due course.
 
@@ -2639,11 +2623,9 @@ D3's account
 
 Q: What did he say to you word for word?
 
-> A: Dmitri asked whether I knew Litvinenko or had heard of him. I answered no. Dmitri said word for word, 'Litvinenko was a traitor, there is blood on his hands.' He went on to say that Litvinenko does deals with Chechnya and then he asked me whether I knew a cook who was working in London. I told him
+> A: Dmitri asked whether I knew Litvinenko or had heard of him. I answered no. Dmitri said word for word, 'Litvinenko was a traitor, there is blood on his hands.' He went on to say that Litvinenko does deals with Chechnya and then he asked me whether I knew a cook who was working in London. I told him witness C2. Witness C2 was a cook at Il Porto and he told me that he wanted to go to England. I cannot say whether witness C2 is his first name or surname. Also, I do not know actually whether witness C2 ever went to England. I gave Dmitri the name without knowing exactly whether he was in fact in England. I cannot remember the exact words. Dmitri said that he had a very expensive poison and needed the cook to administer it to Litvinenko. I cannot remember whether Dmitri said he had the poison. I did not take seriously what Dmitri said. I thought it was just talk.
 
 %%page 152%%
-
-> witness C2. Witness C2 was a cook at Il Porto and he told me that he wanted to go to England. I cannot say whether witness C2 is his first name or surname. Also, I do not know actually whether witness C2 ever went to England. I gave Dmitri the name without knowing exactly whether he was in fact in England. I cannot remember the exact words. Dmitri said that he had a very expensive poison and needed the cook to administer it to Litvinenko. I cannot remember whether Dmitri said he had the poison. I did not take seriously what Dmitri said. I thought it was just talk.
 
 Q: Try once more to remember the exact words?
 
@@ -2661,11 +2643,9 @@ Q: Did he say anything else on the way to the casino?
 
 6.216 Mr Kovtun provided a response to D3's evidence in his statement dated 2 June 2015. He said:[^196]
 
-> "I would add that during that meeting D-3 and his friend [D5] were smoking heroin; I was shocked to see D-3 doing this because he had never done it before. [D5] by contrast, is a heroin addict with a long record for using hard drugs. I was very pained by those circumstances. It is entirely possible that it was in fact the use of
+> "I would add that during that meeting D-3 and his friend [D5] were smoking heroin; I was shocked to see D-3 doing this because he had never done it before. [D5] by contrast, is a heroin addict with a long record for using hard drugs. I was very pained by those circumstances. It is entirely possible that it was in fact the use of heroin that would explain the preposterous and untruthful statements made by witness D-3 in relation to me. I should be grateful if you would verify the fact that the witness D-3 uses heroin."
 
 %%page 153%%
-
-> heroin that would explain the preposterous and untruthful statements made by witness D-3 in relation to me. I should be grateful if you would verify the fact that the witness D-3 uses heroin."
 
 6.217 Mr Kovtun did not identify precisely what he meant by D3's "preposterous and untruthful statements", and since he declined to give oral evidence to the Inquiry it was not possible to ask him to be more specific. I assume that he rejects the entirety of the alleged conversation that I have set out above.
 
@@ -2799,11 +2779,9 @@ f. CCTV footage at the Millennium Hotel shows Mr Lugovoy and Mr Kovtun arriving 
 
 6.257 Dr Shadrin recalled that there had been a meeting on that day and that he had had some general discussions with Mr Lugovoy and Mr Kovtun about possible new projects, but his main memory appears to have been of Mr Lugovoy and Mr Kovtun discussing the football with Mrs Davison and Mr Gorokov. He said:
 
-> "… frankly I don't remember that we actually discussed anything. Basically I was trying to explain Lugovoy the steps that he needs to undertake to develop the
+> "… frankly I don't remember that we actually discussed anything. Basically I was trying to explain Lugovoy the steps that he needs to undertake to develop the projects and the procedure that he has to adhere, but I don't know whether he actually listened to me very carefully."[^235]
 
 %%page 161%%
-
-> projects and the procedure that he has to adhere, but I don't know whether he actually listened to me very carefully."[^235]
 
 When asked whether he remembered Mr Kovtun being present, Dr Shadrin said:
 
@@ -2985,11 +2963,9 @@ Plan of the Pine Bar283
 
 6.305 Mr Litvinenko went on to describe Mr Kovtun (who he called 'Volodia') coming to sit at the table and the conversation about the next day's planned meeting with Mr Quirke. He said that they were talking for about 20 minutes. He mentioned a 'tall Russian' coming to the table, which is probably a reference to Mr Sokolenko arriving back in the hotel with Mrs Lugovoya and the children. In describing the end of the meeting, Mr Litvinenko said:[^286]
 
-> "In the end [Lugovoy] looked at his watch, he said my wife is about to come. There in the hall Andrei's wife turned up, she was waving her hand and he said, that's
+> "In the end [Lugovoy] looked at his watch, he said my wife is about to come. There in the hall Andrei's wife turned up, she was waving her hand and he said, that's it, let's go. So, Volodia and I stayed, the two of us, and he stood up, approached his wife, Andrei, and then he brought his son, 8 years old. He is such a boy, eight years old, wearing a jacket, he said, 'This is Uncle Sasha, shake his hand.' We shook hands, and he went (INAUDIBLE). So, then we came out."
 
 %%page 173%%
-
-> it, let's go. So, Volodia and I stayed, the two of us, and he stood up, approached his wife, Andrei, and then he brought his son, 8 years old. He is such a boy, eight years old, wearing a jacket, he said, 'This is Uncle Sasha, shake his hand.' We shook hands, and he went (INAUDIBLE). So, then we came out."
 
 6.306 Mr Litvinenko's account gives rise to a number of observations.
 
@@ -3531,11 +3507,9 @@ Contamination of Lugovoy and Kovtun and their families
 
 8.151 In an article in the Sunday Times, Mr Franchetti quoted a Russian source named Mr Kondaurov, who stated:[^22]
 
-> "Let's for the sake of argument, assume that I had been in charge of such an operation… and let's assume Lugovoy was involved. I would have told him as
+> "Let's for the sake of argument, assume that I had been in charge of such an operation… and let's assume Lugovoy was involved. I would have told him as little as possible. Agents are used all the time without knowing the full details of an operation."
 
 %%page 206%%
-
-> little as possible. Agents are used all the time without knowing the full details of an operation."
 
 8.152 I think that Mr Kondaurov's analysis was sound. I regard it as likely that, whilst Mr Lugovoy and Mr Kovtun knew that they were poisoning Mr Litvinenko, they did not know the name or the properties of the poison that they had been given to use. I note in passing that Mr Kovtun did not refer to polonium 210 in his conversation with D3.
 
@@ -3751,11 +3725,9 @@ Forensic matching/fingerprinting of polonium 210 samples
 
 9.60 In Death of a Dissident, the book that they published in 2007, Alex Goldfarb and Marina Litvinenko advanced what has been described as a 'fingerprint' theory, suggesting that every batch of commercially produced polonium 210 contains characteristic and detectable impurities, by which it can subsequently be traced and identified. What they said was as follows:[^19]
 
-> "When Polonium-210 decays – its half-life is 138 days, meaning that half of any given amount decays in the first 138 days, followed by a fourth in the next 138 days, and so on – it turns into lead, a nonradioactive metal. As the amount of polonium decreases, the amount of lead increases. By measuring the proportion of
+> "When Polonium-210 decays – its half-life is 138 days, meaning that half of any given amount decays in the first 138 days, followed by a fourth in the next 138 days, and so on – it turns into lead, a nonradioactive metal. As the amount of polonium decreases, the amount of lead increases. By measuring the proportion of lead in a sample of polonium, an investigator can figure out how old the sample is and establish the precise date it was produced. Moreover, the production process leaves characteristic isotope impurities in every batch. By comparing the lead content and the impurities present in two samples of polonium, an investigator should be able to say whether they came from the same batch, produced in the same laboratory on the same day.
 
 %%page 218%%
-
-> lead in a sample of polonium, an investigator can figure out how old the sample is and establish the precise date it was produced. Moreover, the production process leaves characteristic isotope impurities in every batch. By comparing the lead content and the impurities present in two samples of polonium, an investigator should be able to say whether they came from the same batch, produced in the same laboratory on the same day.
 
 > Samples of Russian polonium have presumably been available to British law enforcement from American sources. The Polonium-210 found in Sasha's body has by now undoubtedly been checked against the Polonium-210 exported to the United States. From the level of lead and the isotope composition, the investigators should have been able to unequivocally establish the batch and production date of the poison. ..."
 
@@ -3989,11 +3961,9 @@ Mr Goldfarb said that Mr Shchekochikhin did not lose his hair as he died but tha
 
 9.142 In the course of his oral evidence to me, Professor Dombey repeated an observation that he had previously made in an article in the London Review of Books.[^61] He said that, on the hypothesis that Mr Litvinenko had been deliberately poisoned with polonium 210 in a killing sponsored by the Russian State, it was reasonable to assume that the poison would have been tested on others in advance. Professor Dombey identified two cases that might indicate such testing. One was the case of Mr Tsepov, to which I have already referred. The other was the case of a Chechen man named Lecha Islamov. In the article to which I have referred, Professor Dombey had this to say about the Islamov case:[^62]
 
-> "In April 2004, it was reported that Lecha Islamov, a Chechen guerrilla commander serving a nine-year prison sentence, had died after being admitted to hospital in Volgograd with a mysterious illness. 'Sources close to the convict,' ran a report in the Chechnya Weekly, '... suspect he may have been poisoned by Russia's
+> "In April 2004, it was reported that Lecha Islamov, a Chechen guerrilla commander serving a nine-year prison sentence, had died after being admitted to hospital in Volgograd with a mysterious illness. 'Sources close to the convict,' ran a report in the Chechnya Weekly, '... suspect he may have been poisoned by Russia's security agencies ... Islamov's symptoms – including hair loss and massive blisters – were said to be inexplicable to the doctors who have been trying to treat him.' Islamov's relatives said that he'd told them his jailers had summoned him several days before his death for an 'informal conversation', during which he was given a snack and some tea. 'He began to feel ill within five minutes,' they said, 'as he was being taken back to his cell'."
 
 %%page 231%%
-
-> security agencies ... Islamov's symptoms – including hair loss and massive blisters – were said to be inexplicable to the doctors who have been trying to treat him.' Islamov's relatives said that he'd told them his jailers had summoned him several days before his death for an 'informal conversation', during which he was given a snack and some tea. 'He began to feel ill within five minutes,' they said, 'as he was being taken back to his cell'."
 
 9.143 Mr Zakayev gave a very similar account of Mr Islamov's death when he gave oral evidence to the Inquiry. He told me that Mr Islamov had been a prisoner in Lefortovo prison, the FSB prison in Moscow, and that Mr Islamov had been convinced that he had been poisoned by a cup of tea given to him by prison staff 12 days before he died.[^63]
 
