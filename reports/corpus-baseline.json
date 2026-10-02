@@ -991,26 +991,20 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1075655,
-      "paragraphs": 12780,
+      "words": 1075780,
+      "paragraphs": 12733,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
           "title": "PRACTICES AND ETHICS OF THE PRESS REPORT",
-          "paragraphs": 41,
-          "ids": "b3bcbe3dc909"
-        },
-        {
-          "slug": "chapter-7-conclusions-and-recommendations-for-future-regulation",
-          "title": "Chapter 7: Conclusions and recommendations for future regulation",
-          "paragraphs": 550,
-          "ids": "27127ac6a8b3"
+          "paragraphs": 582,
+          "ids": "4842845408a9"
         },
         {
           "slug": "news-corporation",
           "title": "News Corporation",
-          "paragraphs": 1187,
-          "ids": "0bc1f1196649"
+          "paragraphs": 1188,
+          "ids": "978e9fcb5395"
         },
         {
           "slug": "operation-reproof",
@@ -1028,19 +1022,19 @@
           "slug": "publication-of-parliamentary-reports-in",
           "title": "Publication of Parliamentary Reports in",
           "paragraphs": 543,
-          "ids": "c4e05187502a"
+          "ids": "a510e7c159ed"
         },
         {
           "slug": "july-2009-the-guardian",
           "title": "July 2009: The Guardian",
-          "paragraphs": 338,
-          "ids": "b97e70c5eb1a"
+          "paragraphs": 337,
+          "ids": "51040fecef37"
         },
         {
           "slug": "september-2010-the-new-york-times",
           "title": "September 2010: The New York Times",
           "paragraphs": 151,
-          "ids": "e8cbeac4113f"
+          "ids": "072f4ea677fc"
         },
         {
           "slug": "police-inquiries-operations-weeting-elveden-and-tuleta",
@@ -1057,14 +1051,26 @@
         {
           "slug": "practices-and-ethics-of-the-press",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
-          "paragraphs": 41,
-          "ids": "175282a936c3"
+          "paragraphs": 35,
+          "ids": "e50b8113a084"
         },
         {
-          "slug": "appendices",
-          "title": "APPENDICES",
-          "paragraphs": 728,
-          "ids": "bf02fdfc1210"
+          "slug": "chapter-1-introduction-1-overview",
+          "title": "Chapter 1: Introduction 1. Overview",
+          "paragraphs": 75,
+          "ids": "f44144271e25"
+        },
+        {
+          "slug": "chapter-2-good-practice-1-the-value-and-virtues-of-the-uk-press-overview",
+          "title": "Chapter 2: Good Practice 1. The value and virtues of the UK press Overview",
+          "paragraphs": 313,
+          "ids": "db1e15a860df"
+        },
+        {
+          "slug": "chapter-4-some-practices-at-the-news-of-the-world-1-introduction",
+          "title": "Chapter 4: Some practices at the News of the World 1. Introduction",
+          "paragraphs": 335,
+          "ids": "09ec9f53960a"
         },
         {
           "slug": "the-dowlers",
@@ -1087,32 +1093,38 @@
         {
           "slug": "sebastian-bowles",
           "title": "Sebastian Bowles",
-          "paragraphs": 781,
-          "ids": "5245343383ef"
+          "paragraphs": 782,
+          "ids": "85ef42d8ce18"
         },
         {
           "slug": "love-celeb-gossip-so-do-we-send-us-your-story",
           "title": "LOVE CELEB GOSSIP? SO DO WE, SEND US YOUR STORY!",
-          "paragraphs": 319,
-          "ids": "cf141119cefb"
+          "paragraphs": 272,
+          "ids": "7701001f4907"
+        },
+        {
+          "slug": "chapter-1-policing-with-consent-the-role-of-the-press-1-introduction",
+          "title": "Chapter 1: Policing with Consent: The Role of the Press 1. Introduction",
+          "paragraphs": 46,
+          "ids": "5f354650d35f"
         },
         {
           "slug": "metropolitan-police-service-the-commissioners",
           "title": "Metropolitan Police Service: the Commissioners",
           "paragraphs": 173,
-          "ids": "bd8a1d30dbcf"
+          "ids": "ce0915352375"
         },
         {
           "slug": "the-press-and-the-police-the-harm-and-the-response",
           "title": "THE PRESS AND THE POLICE: THE HARM AND THE RESPONSE",
-          "paragraphs": 946,
-          "ids": "c91a469e2bbc"
+          "paragraphs": 939,
+          "ids": "375bef051885"
         },
         {
           "slug": "independent-police-complaints-commission-ipcc",
           "title": "Independent Police Complaints Commission (IPCC)",
-          "paragraphs": 106,
-          "ids": "09b93943b8a8"
+          "paragraphs": 105,
+          "ids": "c1baab993ffe"
         },
         {
           "slug": "association-of-chief-police-officers-acpo",
@@ -1129,14 +1141,50 @@
         {
           "slug": "practices-and-ethics-of-the-press-2",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
-          "paragraphs": 45,
-          "ids": "767932bc896c"
+          "paragraphs": 36,
+          "ids": "2f37269aed5d"
         },
         {
-          "slug": "part-h",
-          "title": "PART H",
-          "paragraphs": 705,
-          "ids": "f4a436bffc0e"
+          "slug": "chapter-1-1-background",
+          "title": "Chapter 1: 1. Background",
+          "paragraphs": 17,
+          "ids": "d7ca8e3d5547"
+        },
+        {
+          "slug": "chapter-2-operation-motorman-1-the-investigation",
+          "title": "Chapter 2: Operation Motorman 1. The investigation",
+          "paragraphs": 176,
+          "ids": "9f44562a6597"
+        },
+        {
+          "slug": "chapter-3-other-possible-regulatory-options-1-criminal-proceedings-in-respect-of",
+          "title": "Chapter 3: Other Possible Regulatory Options 1. Criminal proceedings in respect of journalists",
+          "paragraphs": 137,
+          "ids": "8612406be7c5"
+        },
+        {
+          "slug": "chapter-4-the-ico-and-the-press-today",
+          "title": "Chapter 4: The ICO and the Press today",
+          "paragraphs": 47,
+          "ids": "210f40bd4e32"
+        },
+        {
+          "slug": "chapter-5-issues-about-the-legal-framework-1-the-current-views-of-the-ico",
+          "title": "Chapter 5: Issues about the Legal Framework 1. The current views of the ICO",
+          "paragraphs": 205,
+          "ids": "93879bc8e96f"
+        },
+        {
+          "slug": "chapter-6-the-relationship-the-ico-and-the-press-1-too-big-for-us",
+          "title": "Chapter 6: The Relationship: the ICO and the Press 1. \"Too big for us?\"",
+          "paragraphs": 82,
+          "ids": "1ff94e6faacf"
+        },
+        {
+          "slug": "chapter-7-summary-of-recommendations",
+          "title": "Chapter 7: Summary of recommendations",
+          "paragraphs": 32,
+          "ids": "b60582f57ec0"
         },
         {
           "slug": "prime-minister-thatcher-1979-1990",
@@ -1147,8 +1195,14 @@
         {
           "slug": "prime-minister-major-1990-1997",
           "title": "Prime Minister Major: 1990-1997",
-          "paragraphs": 116,
-          "ids": "b7d94f49a864"
+          "paragraphs": 46,
+          "ids": "a91507cb2d5e"
+        },
+        {
+          "slug": "chapter-3-new-labour-1-the-1992-general-election",
+          "title": "Chapter 3: New Labour 1. The 1992 general election",
+          "paragraphs": 69,
+          "ids": "1c921805d456"
         },
         {
           "slug": "prime-minister-blair-1997",
@@ -1159,8 +1213,14 @@
         {
           "slug": "prime-minister-brown-2007",
           "title": "Prime Minister Brown: 2007 –",
-          "paragraphs": 384,
-          "ids": "21eb9ed8a5a7"
+          "paragraphs": 75,
+          "ids": "681d8761fe8c"
+        },
+        {
+          "slug": "chapter-4-the-conservative-revival-and-the-coalition1",
+          "title": "Chapter 4: The Conservative Revival and the Coalition1",
+          "paragraphs": 308,
+          "ids": "6bd4a6233045"
         },
         {
           "slug": "prime-minister-cameron-2010-present",
@@ -1195,18 +1255,12 @@
         {
           "slug": "possible-steps-to-strengthen-regulation-of-content",
           "title": "POSSIBLE STEPS TO STRENGTHEN REGULATION OF CONTENT",
-          "paragraphs": 47,
-          "ids": "3eeca4e32b82"
+          "paragraphs": 70,
+          "ids": "360091bb28f3"
         },
         {
-          "slug": "media-plurality-public-interest-consideration",
-          "title": "\"MEDIA PLURALITY PUBLIC INTEREST CONSIDERATION",
-          "paragraphs": 23,
-          "ids": "0721cade1dd1"
-        },
-        {
-          "slug": "media-policy-the-bskyb-bid",
-          "title": "MEDIA POLICY: THE BSKYB BID",
+          "slug": "chapter-6-media-policy-the-bskyb-bid",
+          "title": "CHAPTER 6 MEDIA POLICY: THE BSKYB BID",
           "paragraphs": 62,
           "ids": "27f3cf7e33ff"
         },
@@ -1255,68 +1309,80 @@
         {
           "slug": "the-rt-hon-michael-gove-mp",
           "title": "The Rt Hon Michael Gove MP",
-          "paragraphs": 7,
-          "ids": "483f3cd3ad93"
+          "paragraphs": 10,
+          "ids": "783efd5321b7"
         },
         {
-          "slug": "the-rt-hon-george-osborne-mp",
-          "title": "The Rt Hon George Osborne MP",
-          "paragraphs": 331,
-          "ids": "5989789024d7"
+          "slug": "chapter-8-conclusions-and-recommendations",
+          "title": "Chapter 8: Conclusions And Recommendations",
+          "paragraphs": 212,
+          "ids": "1c1874eaa886"
+        },
+        {
+          "slug": "chapter-9-plurality-and-media-ownership-conclusions-and-recommendations-1-introd",
+          "title": "Chapter 9: Plurality and Media Ownership: conclusions and recommendations 1. Introduction",
+          "paragraphs": 114,
+          "ids": "47da45bac09d"
         },
         {
           "slug": "practices-and-ethics-of-the-press-3",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
-          "paragraphs": 41,
-          "ids": "4025b4e4f633"
+          "paragraphs": 35,
+          "ids": "de9088597ac7"
         },
         {
-          "slug": "appendices-2",
-          "title": "APPENDICES",
-          "paragraphs": 208,
-          "ids": "43e5abbb7a33"
+          "slug": "chapter-1-introduction",
+          "title": "Chapter 1: Introduction",
+          "paragraphs": 113,
+          "ids": "73881179ea1b"
         },
         {
-          "slug": "the-press-complaints-commission-and-its-effectiveness",
-          "title": "THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
-          "paragraphs": 607,
-          "ids": "f08c5e9869ea"
+          "slug": "chapter-3-the-civil-law",
+          "title": "Chapter 3: The Civil Law",
+          "paragraphs": 88,
+          "ids": "8328d23eef75"
+        },
+        {
+          "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
+          "title": "CHAPTER 4 THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
+          "paragraphs": 425,
+          "ids": "76c59a0d5334"
+        },
+        {
+          "slug": "chapter-1-criteria-for-a-regulatory-solution",
+          "title": "Chapter 1: Criteria For A Regulatory Solution",
+          "paragraphs": 186,
+          "ids": "6d38dacaffb0"
         },
         {
           "slug": "the-industry-funding-body",
           "title": "The Industry Funding Body",
-          "paragraphs": 456,
-          "ids": "f064534c1140"
+          "paragraphs": 461,
+          "ids": "e3d4b8d1acfa"
         },
         {
           "slug": "the-code",
           "title": "The Code",
-          "paragraphs": 143,
-          "ids": "239cab34dd79"
-        },
-        {
-          "slug": "guarantee-of-media-freedom",
-          "title": "\"GUARANTEE OF MEDIA FREEDOM",
-          "paragraphs": 20,
-          "ids": "1b957072d890"
+          "paragraphs": 166,
+          "ids": "a2cdac1f28b3"
         },
         {
           "slug": "the-press-council-of-ireland-and-the-press",
           "title": "The Press Council of Ireland and the Press",
-          "paragraphs": 560,
-          "ids": "da8079ebf412"
+          "paragraphs": 326,
+          "ids": "bac7380375ab"
         },
         {
-          "slug": "guarantee-of-media-freedom-2",
-          "title": "\"GUARANTEE OF MEDIA FREEDOM",
-          "paragraphs": 16,
-          "ids": "9071bea997a9"
+          "slug": "chapter-7",
+          "title": "CHAPTER 7",
+          "paragraphs": 251,
+          "ids": "1f1a2bba8164"
         },
         {
-          "slug": "the-alternatives",
-          "title": "THE ALTERNATIVES",
-          "paragraphs": 138,
-          "ids": "fbf29bb1f35a"
+          "slug": "chapter-8-the-alternatives",
+          "title": "CHAPTER 8 THE ALTERNATIVES",
+          "paragraphs": 139,
+          "ids": "b123ac0bd593"
         },
         {
           "slug": "part-l-summary-of-recommendations",
@@ -1327,20 +1393,20 @@
         {
           "slug": "the-report-of-the-law-commission-on-aggravated-exemplary-and-restitutionary-dama",
           "title": "The Report of the Law Commission on Aggravated, Exemplary and Restitutionary Damages",
-          "paragraphs": 117,
-          "ids": "43b8ba196221"
+          "paragraphs": 118,
+          "ids": "d8d84079d9d0"
         },
         {
           "slug": "engage",
           "title": "ENGAGE",
-          "paragraphs": 129,
-          "ids": "8c8d1bbec170"
+          "paragraphs": 130,
+          "ids": "39661134a1ab"
         },
         {
           "slug": "civil-law",
           "title": "Civil Law",
-          "paragraphs": 410,
-          "ids": "bec1b1b5637f"
+          "paragraphs": 411,
+          "ids": "90297a3de7cb"
         },
         {
           "slug": "section-55-data-protection-act",
@@ -1351,8 +1417,8 @@
         {
           "slug": "part-i-chapter-8",
           "title": "PART I CHAPTER 8",
-          "paragraphs": 126,
-          "ids": "af19f4acd80d"
+          "paragraphs": 125,
+          "ids": "2f49ed35c46c"
         },
         {
           "slug": "notes-not-linked-in-the-text",

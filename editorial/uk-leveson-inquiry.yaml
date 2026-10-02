@@ -34,17 +34,16 @@
 #   Everything else in `background` is drawn from the report's own front
 #   matter and Part A Chapter 1 (the Announcement).
 #
-# Ingestion defect found while writing this file (filed as a Bead): several
-# chapter headings are attached to the wrong body text. For example, the
-# heading "Chapter 7: Conclusions and recommendations for future regulation"
-# is attached at the very start of Part A (page ~3) and at its front-matter
-# TOC line, while that chapter's actual content (numbered paragraphs 7.1-7.12,
-# on the recommended regulatory model) sits ungrouped under the unrelated
-# heading '"GUARANTEE OF MEDIA FREEDOM' (slug guarantee-of-media-freedom-2,
-# p.1781). "PART H" (p.999) similarly swallows roughly 120 pages and several
-# real chapters into one section. `title` overrides below correct the
-# reading-guide labels; paragraph ids themselves are unaffected and resolve
-# correctly.
+# Ingestion defect found while writing this file (reportsthatmatter-djy):
+# several chapter headings were attached to the wrong body text. Since the
+# 2026-10-02 re-ingest, the wrapped contents entry no longer opens a bogus
+# "Chapter 7" section at the start of Part A, the quoted clause title
+# '"GUARANTEE OF MEDIA FREEDOM' is no longer a heading, and Part K's real
+# Chapter 7 (paras 7.1-7.12 included) is one section, slug `chapter-7`, whose
+# heading reads only "CHAPTER 7" (its small-caps title is not recovered).
+# Part H is split into its chapters. Most Parts and many chapters still have
+# no heading of their own (reportsthatmatter-r0w), so `title` overrides
+# below still correct the reading-guide labels; paragraph ids are unaffected.
 #
 # status: draft until Rufus approves; only approved files render without ?draft.
 
@@ -160,7 +159,7 @@ findings:
     cites: [first-scale-problem-needs-be, 1-3-integrity-lies-heart, 1-4-i-mention-mps]
 
 reading_guide:
-  - section: guarantee-of-media-freedom-2
+  - section: chapter-7
     title: "Chapter 7: Conclusions and recommendations for future regulation"
     why: Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.
     excerpt:
@@ -188,7 +187,7 @@ reading_guide:
         the power to hold hearings where necessary but, equally, to dispense
         with them where it is not necessary.
 
-  - section: the-press-complaints-commission-and-its-effectiveness
+  - section: chapter-4-the-press-complaints-commission-and-its-effectiveness
     title: The Press Complaints Commission and its effectiveness
     why: Why the Inquiry judged decades of voluntary self-regulation to have failed.
     excerpt:
