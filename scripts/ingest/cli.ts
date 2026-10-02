@@ -491,6 +491,8 @@ async function goldenChecks(
     } else if (page.xfail && unexpected.length === 0) {
       knownFailures++;
       console.log(`  \x1b[33m~\x1b[0m golden ${tag}: known failure ${page.xfail} [${r.failing.join(", ")}] — ${r.problems[0]}`);
+      const fixed = page.xfail_only?.filter((k) => !r.failing.includes(k)) ?? [];
+      if (fixed.length) console.log(`        now passing: ${fixed.join(", ")} (narrow xfail_only)`);
     } else {
       ok = false;
       console.log(`  \x1b[31m✗\x1b[0m golden ${tag}: ${r.problems[0]}`);

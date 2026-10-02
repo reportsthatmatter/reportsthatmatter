@@ -6,10 +6,14 @@ over the reports in `reports/`.
 
 ```bash
 pnpm ingest run <id>        # rebuild one report from reports/<id>/ingest.ts
-pnpm ingest verify          # fidelity gates against the real source PDFs, then the layout oracle (measure-only; --no-oracle, --findings)
+pnpm ingest verify          # fidelity gates against the real source PDFs, the layout oracle (measure-only; --no-oracle, --findings), then each report's golden pages (golden.yaml; --no-golden, --explain)
+pnpm ingest page <id> <vol> <pdfPage> [--draft] [--fixture <name>]   # one page's layout lines beside the blocks made; a draft golden entry; a test fixture
+pnpm ingest outline <id>    # one line per PDF page (headings, block counts) to choose golden pages from
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
 ```
+
+Golden pages (`<report repo>/golden.yaml`) are verified ground truth for a few PDF pages per report: `verify` fails when a regeneration no longer matches one, and a page the pipeline is known to get wrong is marked `xfail: <bead>` so it stays visible without failing the run. Format, how to write an entry and the oracle's measured precision: [`docs/quality-harness.md`](../../docs/quality-harness.md). `RTM_REPORT_DIRS=<dir>` reads report repos from `<dir>/<repo>` (git worktrees) where they exist.
 
 ## Where a fix goes
 

@@ -146,6 +146,13 @@ an interactive session.
     `# why: <bead id>` comment on the line**; check fails an uncommented raise
     against `HEAD`. See [`docs/quality-harness.md`](docs/quality-harness.md).
 
+  A fourth is in `pnpm ingest verify`: each report repo's `golden.yaml` holds
+  PDF pages whose true structure was read off the page image, and verify fails
+  when a regeneration no longer matches one. A page the pipeline gets wrong is
+  `xfail: <bead>` (with `xfail_only` kinds), so it stays visible without
+  failing the run. Write one with `pnpm ingest page <id> <vol> <pdfPage>
+  --draft`; see [`docs/quality-harness.md`](docs/quality-harness.md).
+
   The first two exist because a fix aimed at Leveson silently changed three other
   reports. The second was added later, and closed a real hole: `paragraphId()`
   lives in `src/lib/markdown.ts`, one stage *downstream* of anything a report
