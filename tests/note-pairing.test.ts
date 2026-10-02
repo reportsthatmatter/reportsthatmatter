@@ -1,8 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { bodyOf, noteDefinitions, pairNoteReferences } from "../src/lib/quality/note-pairing";
 
-// Same cases as @rtm/ingest's resolveNoteReferences (tests/markdown.test.ts): this is a copy until
-// the pin carries it (reportsthatmatter-apk), so the two must agree.
+// Same cases as @rtm/ingest's resolveNoteReferences (tests/markdown.test.ts), which is re-exported here.
 describe("pairNoteReferences", () => {
   it("pairs repeated labels by alignment and leaves the rest to the caller", () => {
     expect(pairNoteReferences(["7", "1", "1"], ["7", "1", "1"])).toEqual([0, 0, 1]);

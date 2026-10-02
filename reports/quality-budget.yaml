@@ -58,7 +58,7 @@ reports:
     severed-into-quote: 59
     severed-paragraph: 74
     bare-footnote-marker: 179
-    note-marker-wrong-note: 7
+    note-marker-wrong-note: 0
     note-marker-unpaired: 13
     note-text-in-body: 29  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -98,7 +98,7 @@ reports:
     severed-into-quote: 87
     severed-paragraph: 6
     bare-footnote-marker: 92
-    note-marker-wrong-note: 94
+    note-marker-wrong-note: 0
     note-marker-unpaired: 20
     note-text-in-body: 59  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -158,7 +158,7 @@ reports:
     severed-into-quote: 408
     severed-paragraph: 24
     bare-footnote-marker: 6456  # why: post v0.15.0 integration
-    note-marker-wrong-note: 196
+    note-marker-wrong-note: 0
     note-marker-unpaired: 25
     note-text-in-body: 15  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -198,7 +198,7 @@ reports:
     severed-into-quote: 35
     severed-paragraph: 4
     bare-footnote-marker: 2
-    note-marker-wrong-note: 122
+    note-marker-wrong-note: 0
     note-marker-unpaired: 12
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -211,14 +211,14 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 1
+    rendered-ol-words-share: 2  # why: reportsthatmatter-apk (1.1%: correct sidenotes shrank the word total across a whole-point boundary)
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-deepwater-horizon:
     severed-into-quote: 9
     severed-paragraph: 6  # why: post v0.15.0 integration
     bare-footnote-marker: 1021
-    note-marker-wrong-note: 112
+    note-marker-wrong-note: 0
     note-marker-unpaired: 416
     note-text-in-body: 269  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
@@ -231,14 +231,14 @@ reports:
     heading-long: 9
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 3  # why: post v0.15.0 integration
+    rendered-ol-words-share: 4  # why: reportsthatmatter-apk (3.6%: sidenotes now paired correctly inside list items; budget was 3)
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-lehman-examiner:
     severed-into-quote: 20
     severed-paragraph: 22  # why: post v0.15.0 integration
     bare-footnote-marker: 22
-    note-marker-wrong-note: 1
+    note-marker-wrong-note: 0
     note-marker-unpaired: 1
     note-text-in-body: 5  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
