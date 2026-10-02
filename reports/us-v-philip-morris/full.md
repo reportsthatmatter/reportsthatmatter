@@ -1279,11 +1279,9 @@ We believe the products we make are not injurious to health.
 
 > 1. We are pledging aid and assistance to the research effort into all phases of tobacco use and health. This joint financial aid will of course be in addition to what is already being contributed by individual companies.
 
-> 2. For this purpose we are establishing a joint industry group consisting initially of the undersigned. This group will be
+> 2. For this purpose we are establishing a joint industry group consisting initially of the undersigned. This group will be known as TOBACCO INDUSTRY RESEARCH COMMITTEE ["TIRC"].
 
 %%page 56%%
-
-> known as TOBACCO INDUSTRY RESEARCH COMMITTEE ["TIRC"].
 
 > 3. In charge of the research activities of the Committee will be a scientist of unimpeachable integrity and national repute. In addition there will be an Advisory Board of scientists disinterested in the cigarette industry. A group of distinguished men [sic] from medicine, science, and education will be invited to serve on this Board. These scientists will advise the Committee on its research activities.
 
@@ -1449,11 +1447,9 @@ TLT0903177-3180 (US 87527); TLT0903166-3169 (US 87528); TLT0903208-3211 (US 8836
 
 61\. Defendants' denials of the link between smoking and disease kept away many excellent researchers. In an October 1969 memorandum to Ross R. Millhiser of Philip Morris, Helmut Wakeham, Vice President and Director of Research for Philip Morris, expressed concern that
 
-> the efforts of the tobacco industry through CTR and the American Medical Association have failed to involve the best investigators. At the beginning of our support of smoking and health research, this
+> the efforts of the tobacco industry through CTR and the American Medical Association have failed to involve the best investigators. At the beginning of our support of smoking and health research, this failure may have been connected with our consistent denial of the statistics and our continued assertion that there is nothing to the cigarette causation hypothesis.
 
 %%page 74%%
-
-> failure may have been connected with our consistent denial of the statistics and our continued assertion that there is nothing to the cigarette causation hypothesis.
 
 1001609594-9595 (US 21437).
 
@@ -1511,11 +1507,9 @@ TINY0003106-3116 (US 21369); 105408490-8499 at 8495 (US 21135), (US 76169); Bran
 
 75\. One of the reasons that Paul Kotin decided to resign from the SAB was that he was disturbed by "the going out and requesting the submission of grants, of applications for grants. And I felt this circumvented the original foundation for the SAB, at least for my membership in the SAB." Kotin PD, Falise v. American , 7/6/00, 67:10-69:24. Kotin had served on the TIRC SAB from 1954 to 1965. Kotin PD, Falise v. American , 7/6/00, 9:9-15. Another reason for Kotin's resignation was reported by visitors from the United Kingdom's Tobacco Research Council in October 1964:
 
-> The recent [CTR] Annual Report by Dr. Little was severely criticised by the U.S. Surgeon General at a Washington press conference. Dr. Kotin was also highly critical of it and talks privately of resigning
+> The recent [CTR] Annual Report by Dr. Little was severely criticised by the U.S. Surgeon General at a Washington press conference. Dr. Kotin was also highly critical of it and talks privately of resigning from the S.A.B. if another report of the same nature is going to be published next year.
 
 %%page 79%%
-
-> from the S.A.B. if another report of the same nature is going to be published next year.
 
 512678484-8499 (US 51653); 1003119099-9135 (US 20152), (US 35649*); 105407261-7329 (JE 34739); see also Kotin PD, Falise v. American , 7/6/00, 72:19-73:14; Kotin PD, Falise v. American, 7/7/00, 190:2-192:17, 197:13-198:2.
 
@@ -1720,11 +1714,9 @@ Brandt WD, 90:4-19; BWX0011174-1187 at 1176 (US 21773).
 
 115\. The Tobacco Institute was a trade association. According to its 1958 Certificate of Incorporation, the Tobacco Institute was formed
 
-> to promote a better understanding by the public of the tobacco industry and its place in the national economy; to cooperate with governmental agencies and public officials with reference to the tobacco industry; to collect and disseminate information relating to the use of tobacco; to collect and disseminate scientific and medical material relating to tobacco; to collect and disseminate information relating to the tobacco industry published or released by any governmental agency, federal or state, or derived from other sources
+> to promote a better understanding by the public of the tobacco industry and its place in the national economy; to cooperate with governmental agencies and public officials with reference to the tobacco industry; to collect and disseminate information relating to the use of tobacco; to collect and disseminate scientific and medical material relating to tobacco; to collect and disseminate information relating to the tobacco industry published or released by any governmental agency, federal or state, or derived from other sources independent of the industry; to collect and disseminate information relating to legislative and administrative developments, federal or state, affecting the tobacco industry; to promote public good will.
 
 %%page 98%%
-
-> independent of the industry; to collect and disseminate information relating to legislative and administrative developments, federal or state, affecting the tobacco industry; to promote public good will.
 
 (no bates) (US 21291); see also (no bates) (US 87552).
 
@@ -2490,11 +2482,9 @@ Harold L. Stewart; Guiseppe Teti; Thomas; J.R. Trinidad; James A. Wakefield; Joh
 
 292\. A February 9, 1978 memorandum from William Shinn of Shook, Hardy & Bacon to Thomas Ahrensfeld, General Counsel for Philip Morris; Max Crohn, Assistant General Counsel for Reynolds; Joseph Greer, Vice President and General Counsel for Liggett; Arnold Henson, General Counsel for American; Ernest Pepples, Vice President and General Counsel for B&W; and Arthur Stevens, General Counsel for Lorillard, stated in part:
 
-> Some of you have asked for additional information concerning funding through Special Account No. 4. This account is administered by Jacob & Medinger and Ed Jacob and I have reviewed the enclosed report. I also enclose a memorandum with regard to funding of projects and would appreciate your advice if you find this to be
+> Some of you have asked for additional information concerning funding through Special Account No. 4. This account is administered by Jacob & Medinger and Ed Jacob and I have reviewed the enclosed report. I also enclose a memorandum with regard to funding of projects and would appreciate your advice if you find this to be incorrect in any way. There is probably no need for you to retain those notes once you have satisfied yourself of the current situation.
 
 %%page 170%%
-
-> incorrect in any way. There is probably no need for you to retain those notes once you have satisfied yourself of the current situation.
 
 503655086-5088 at 5086 (US 20720); 503655086-5088 (US 75190).
 
@@ -2638,11 +2628,9 @@ Industry representatives held meetings and reported to the companies' General Co
 
 325\. At a 1967 ITC meeting held at CTR, with representatives present from CTR, Chadbourne & Parke, Liggett, American, B&W, Reynolds, Lorillard and Philip Morris, Osdene of Philip Morris reported that
 
-> Dr. Hockett stated that CTR is moving into an era of active collaboration with the industry and they wish to make the technical committee more effective by including biologists. . . . Programs will be developed in which Hockett wishes to use the industry technical committee people to give advice which will go into the development
+> Dr. Hockett stated that CTR is moving into an era of active collaboration with the industry and they wish to make the technical committee more effective by including biologists. . . . Programs will be developed in which Hockett wishes to use the industry technical committee people to give advice which will go into the development of plans for submission to the SAB. C.C. Little would like to meet with this committee either before or after the SAB meeting. He feels that this would be an opportunity to build a creative future and that CTR would move with more speed.
 
 %%page 185%%
-
-> of plans for submission to the SAB. C.C. Little would like to meet with this committee either before or after the SAB meeting. He feels that this would be an opportunity to build a creative future and that CTR would move with more speed.
 
 682011463-1466 (US 86418); 1001609316-9320 (US 86419).
 
@@ -2684,11 +2672,9 @@ ATX300008549-8551 (US 58614).
 
 334\. Participation by industry representatives proved valuable by allowing Defendants to keep abreast of what the United States Government was doing with respect to smoking and health issues. Their participation also provided a mechanism by which Defendants could try to influence the United States Government's activities in the smoking and health arena. An undated B&W document, discussing United States Department of Health, Education and Welfare activity in the 1960s, clearly articulated the reasons for Defendants' participation on the TWG:
 
-> Of these four actions [taken by the United States Department of Health, Education and Welfare with respect to smoking and health issues], the first three [developing epidemiological evidence linking smoking and certain diseases; launching a program to alert the public about the dangers of smoking; and pushing for legislation which would reduce cigarette consumption] have been of such immediate concern that they have received most of the attention of the tobacco
+> Of these four actions [taken by the United States Department of Health, Education and Welfare with respect to smoking and health issues], the first three [developing epidemiological evidence linking smoking and certain diseases; launching a program to alert the public about the dangers of smoking; and pushing for legislation which would reduce cigarette consumption] have been of such immediate concern that they have received most of the attention of the tobacco industry. However, the later [initiating a research program designed to produce a "less hazardous cigarette"] is probably as important, or perhaps more important for the long-term future of the industry. Although work in this area is in its initial stages, the direction of this work seems clearly indicated and should be evaluated.
 
 %%page 189%%
-
-> industry. However, the later [initiating a research program designed to produce a "less hazardous cigarette"] is probably as important, or perhaps more important for the long-term future of the industry. Although work in this area is in its initial stages, the direction of this work seems clearly indicated and should be evaluated.
 
 ***
 
@@ -3510,11 +3496,9 @@ VXA2510117-0126 at 0125 (US 63604) (Doll & Hill, Smoking and Carcinoma of the Lu
 
 549\. Noted historian Charles Webster observed of the first Doll and Hill paper, published in 1950:
 
-> This modest paper is now regarded as a classic. From these findings emerged the realization that smoking has been responsible for as many deaths per annum as were claimed by the great cholera
+> This modest paper is now regarded as a classic. From these findings emerged the realization that smoking has been responsible for as many deaths per annum as were claimed by the great cholera epidemics of the nineteenth century. Smoking was thus established as a major cause of preventable disease.
 
 %%page 258%%
-
-> epidemics of the nineteenth century. Smoking was thus established as a major cause of preventable disease.
 
 VXA2510301-0310 at 0301 (US 63589) (Webster, Charles, Tobacco Smoking Addiction: A Challenge to the National Health Service, British Journal of Addiction, 79:7 (1984)); Brandt WD, 46:4-47:23.
 
@@ -3584,11 +3568,9 @@ VXA2510127-0142 at 0139 (US 63603) (emphasis in original) (Doll, Richard, and A.
 
 ***
 
-> Such assumptions [that smoking caused cancer] stimulated some investigators to begin an enthusiastic hunt for the "component" or "components" in tobacco smoke that can be blamed for the unproved cause-and-effect relationship as well as for the reported production of
+> Such assumptions [that smoking caused cancer] stimulated some investigators to begin an enthusiastic hunt for the "component" or "components" in tobacco smoke that can be blamed for the unproved cause-and-effect relationship as well as for the reported production of skin cancer in some experiments with certain strains of laboratory mice.
 
 %%page 265%%
-
-> skin cancer in some experiments with certain strains of laboratory mice.
 
 501773418-3466 at 3428-3429 (US 20686) (emphasis in original); Brandt WD, 86:4-88:5.
 
@@ -3708,11 +3690,9 @@ VXA2510046-0054 at 0052-0053 (US 63608) (Burney, Leroy E., Smoking and Lung Canc
 
 583\. While Dr. Burney believed the link between smoking and disease was significant, his article did not come to a categorical conclusion. The PHS itself labeled Dr. Burney's conclusion "weasel words" that were necessitated by the strong disagreement over the issue within the agency itself. Brandt TT, 9/27/04, 707:4-708:3, 722:1-12; (no bates) (JD 022706 at 1) (Letter from L.C. Robbins, M.D., Chief, Cancer Control Program, to H.S. Diehl, M.D. (July 8, 1960)). The debate over what was proof of a "cause" is unmistakable in the early drafts of the Surgeon General's 1959 statement. To try to reach agreement on how the PHS would describe the evidence and the relationship, a number of drafts were circulated. (no bates) (JD 004252 at 611). Weeks before publication, in a November 1959 draft marked "final," the PHS planned to state that the area was "highly controversial," that there was "no scientific proof" of causation, and that the Surgeon General's article would "admit[] this":
 
-> [W]e feel justified to make a further observation which seems pretty well established. There exists no scientific proof that smoking causes
+> [W]e feel justified to make a further observation which seems pretty well established. There exists no scientific proof that smoking causes lung cancer. Even the Surgeon General's special article admits this. . . . Today we have this "coincidence" of a statistical relationship between smoking and lung cancer. The pathological evidence of the relationship between the two, if not weak, is at least highly controversial.
 
 %%page 273%%
-
-> lung cancer. Even the Surgeon General's special article admits this. . . . Today we have this "coincidence" of a statistical relationship between smoking and lung cancer. The pathological evidence of the relationship between the two, if not weak, is at least highly controversial.
 
 (no bates) (JD 020373 at 1).
 
@@ -3760,11 +3740,9 @@ VXA2510068-0098 at 0068, 0091 (US 63607) (Cornfield, Jerome, et al., Smoking and
 
 590\. In 1962, yet another thorough and far-reaching assessment of the scientific evidence reached the same conclusions as previous studies. The British Royal College of Physicians, after two years of investigation, stated, "[d]iseases associated with smoking now cause so many deaths that they present one of the most challenging opportunities for preventive medicine today." The report concluded:
 
-> The strong statistical association between smoking, especially of cigarettes, and lung cancer is most simply explained on a causal
+> The strong statistical association between smoking, especially of cigarettes, and lung cancer is most simply explained on a causal basis. . . . The conclusion that smoking is an important cause of lung cancer implies that if the habit ceased, the death rate from lung cancer would eventually fall to a fraction, perhaps to one fifth or even, among men, to one tenth of the present level. Since the present annual number of deaths attributed to lung cancer before the age of retirement is some 12,000 . . . a large amount of premature shortening of life is at issue.
 
 %%page 277%%
-
-> basis. . . . The conclusion that smoking is an important cause of lung cancer implies that if the habit ceased, the death rate from lung cancer would eventually fall to a fraction, perhaps to one fifth or even, among men, to one tenth of the present level. Since the present annual number of deaths attributed to lung cancer before the age of retirement is some 12,000 . . . a large amount of premature shortening of life is at issue.
 
 (no bates) (JD 001007); Brandt WD, 78:2-17.
 
@@ -3800,11 +3778,9 @@ Surgeon General Burney and Dr. Heller of the NCI testified about the agreement b
 
 (no bates) (JD 11816 at 160). Dr. Heller further explained the agreement among scientists.
 
-> Taking the country as a whole . . . I would say the majority of them concur in this viewpoint. There are certain individuals . . . who do not agree. . . . This is
+> Taking the country as a whole . . . I would say the majority of them concur in this viewpoint. There are certain individuals . . . who do not agree. . . . This is characteristic of science in general, where there is a difference of opinion on many subjects. However, when one analyzes it to the utmost, there is not as much difference as one might think on the surface. . . . My best guess is that 75 percent of the physicians or scientists who have knowledge and some competence in this area would concur with this formula.
 
 %%page 280%%
-
-> characteristic of science in general, where there is a difference of opinion on many subjects. However, when one analyzes it to the utmost, there is not as much difference as one might think on the surface. . . . My best guess is that 75 percent of the physicians or scientists who have knowledge and some competence in this area would concur with this formula.
 
 Id. at 161.
 
@@ -3870,11 +3846,9 @@ Rodgman further wrote of the studies undertaken using standard Camel cigarettes:
 
 ***
 
-> In their [Liggett's] opinion T.I.R.C. has done little if anything constructive, the constantly re-iterated "not proven" statements in the face of mounting contrary evidence has thoroughly discredited T.I.R.C., and the S.A.B. of T.I.R.C. is supporting almost without exception projects which are not related directly to smoking and lung cancer. Liggetts [sic] felt that the problem was sufficiently serious to justify large-scale investment by the Company directly in experimental research on smoke and cancer, accepting privately that
+> In their [Liggett's] opinion T.I.R.C. has done little if anything constructive, the constantly re-iterated "not proven" statements in the face of mounting contrary evidence has thoroughly discredited T.I.R.C., and the S.A.B. of T.I.R.C. is supporting almost without exception projects which are not related directly to smoking and lung cancer. Liggetts [sic] felt that the problem was sufficiently serious to justify large-scale investment by the Company directly in experimental research on smoke and cancer, accepting privately that a strong case against tobacco had been made out and avoiding any public comment until their own research had provided something concrete to offer.
 
 %%page 285%%
-
-> a strong case against tobacco had been made out and avoiding any public comment until their own research had provided something concrete to offer.
 
 ***
 
@@ -3952,11 +3926,9 @@ These findings were marked "confidential." 2021382496-2498 at 2496 (US 20345).
 
 ***
 
-> Which brings me to another, and even more important current problem! -- the current medical propaganda being directed against the cigarette industry by a small number of doctors and a large number of magazines, and newspapers. As many, if not more, distinguished scientists have disputed the arbitrary statements of the few doctors. As many, if not more, distinguished researchers, have pointed out other factors such as air pollution rather than cigarette smoking. There are many scientists who question the statistics and even doubt the fact that there is a health question involved in cigarette smoking. Yet, who rated the headlines when the charges were made? Unfortunately, the cigarette industry. Where were the denials and counterclaims? You sometimes had to use a microscope to find them. . . . If we had any thought or knowledge that in any way we
+> Which brings me to another, and even more important current problem! -- the current medical propaganda being directed against the cigarette industry by a small number of doctors and a large number of magazines, and newspapers. As many, if not more, distinguished scientists have disputed the arbitrary statements of the few doctors. As many, if not more, distinguished researchers, have pointed out other factors such as air pollution rather than cigarette smoking. There are many scientists who question the statistics and even doubt the fact that there is a health question involved in cigarette smoking. Yet, who rated the headlines when the charges were made? Unfortunately, the cigarette industry. Where were the denials and counterclaims? You sometimes had to use a microscope to find them. . . . If we had any thought or knowledge that in any way we were selling a product harmful to consumers, we would stop business tomorrow.
 
 %%page 290%%
-
-> were selling a product harmful to consumers, we would stop business tomorrow.
 
 2022239339-9343 at 9339, 9341 (US 21766) (emphasis in original); Brandt WD, 49:23-50:10.
 
@@ -4016,11 +3988,9 @@ MNAT00515648-5651 at 5648 (US 72185); Brandt WD, 84:10-85:2.
 
 ***
 
-> Published in the November 28 issue of the Journal of the American Medical Association, the article signed by the Surgeon General
+> Published in the November 28 issue of the Journal of the American Medical Association, the article signed by the Surgeon General presented a selection of published data about smoking as related to lung cancer. Anticipating the appearance of the Burney article and learning of its contents in advance of publication, it was possible to provide the press promptly with statements from Dr. C.C. Little, Mr. James P. Richards, president of The Tobacco Institute, and others. Press stories used the tobacco industry comment in covering the Surgeon General's article.
 
 %%page 294%%
-
-> presented a selection of published data about smoking as related to lung cancer. Anticipating the appearance of the Burney article and learning of its contents in advance of publication, it was possible to provide the press promptly with statements from Dr. C.C. Little, Mr. James P. Richards, president of The Tobacco Institute, and others. Press stories used the tobacco industry comment in covering the Surgeon General's article.
 
 HT0145148-5150 at 5148 (US 21177); Brandt WD, 92:23-94:7.
 
@@ -4070,11 +4040,9 @@ TIMN0098597-8598 at 8598 (US 21270).
 
 632\. In September 1963, the Tobacco Institute issued a publication titled "Tobacco and The Public Interest." It provided: "[t]here ought to be a respite from theories, resolutions and emotional statements for a time at least, so that scientists can objectively evaluate what is known and what is not known." He reaffirmed Defendants' purported commitment to research to find necessary facts:
 
-> That is what this industry has tried to do in the past, through the research program of the [TIRC]. And that is what we shall do in the
+> That is what this industry has tried to do in the past, through the research program of the [TIRC]. And that is what we shall do in the future, until enough facts are known to provide solutions to the health questions involved.
 
 %%page 297%%
-
-> future, until enough facts are known to provide solutions to the health questions involved.
 
 TIMN0104251-4256 at 4254, 4256 (US 21316).
 
@@ -4158,11 +4126,9 @@ Public Health Service) advise our patient, the American public, about smoking?" 
 
 > implies the precision with which one component of an associated pair can be utilized to predict the occurrence of the other, i.e. how frequently the presence of one variable (e.g., lung cancer) will predict, in the same individual, the presence of another (e.g., cigarette smoking).
 
-> In a discussion of the specificity of the relationship between any factor possibly causal in character and a disease it may produce, it must be recognized that rarely, if ever, in our biologic universe, does the presence of an agent invariably predict the occurrence of a disease. Second, but not less
+> In a discussion of the specificity of the relationship between any factor possibly causal in character and a disease it may produce, it must be recognized that rarely, if ever, in our biologic universe, does the presence of an agent invariably predict the occurrence of a disease. Second, but not less important, is our growing recognition that a given disease may have multiple causes.
 
 %%page 305%%
-
-> important, is our growing recognition that a given disease may have multiple causes.
 
 > In the current case, the specificity of the association was especially strong. The Report explained, "of the total load of lung cancer in males about 90 percent is associated with cigarette smoking."
 
@@ -4182,11 +4148,9 @@ VXA1601844-2232 at 2033-2036 (US 64057) (1964 Surgeon General Report); Brandt WD
 
 655\. The 387-page 1964 Surgeon General's Report, citing 7,000 articles, came to the following conclusions:
 
-> Cigarette smoking is associated with a 70 percent increase in the age-specific death rates of males. The total number of excess deaths causally related to cigarette smoking in the U.S. population cannot be
+> Cigarette smoking is associated with a 70 percent increase in the age-specific death rates of males. The total number of excess deaths causally related to cigarette smoking in the U.S. population cannot be accurately estimated. In view of the continuing and mounting evidence from many sources, it is the judgment of the Committee that cigarette smoking contributes substantially to mortality from certain specific diseases and to the overall death rate.
 
 %%page 306%%
-
-> accurately estimated. In view of the continuing and mounting evidence from many sources, it is the judgment of the Committee that cigarette smoking contributes substantially to mortality from certain specific diseases and to the overall death rate.
 
 ***
 
@@ -4522,11 +4486,9 @@ TIMN0071488-1491 at 1489 (US 21302).
 
 725\. Defendants realized that they needed to change public opinion in order to sustain the viability of the tobacco industry given the fact that there was little, if any, evidence to support their position. In an August 10, 1967 RJR memorandum from J.S. Dowdell to C.B. Wade, Dowdell acknowledged:
 
-> Despite the fact that the industry has very little, if any, positive evidence upon which to base the aggressive campaign necessary at this late date to materially change public opinion, public attitudes can be changed. At least to the extent that the majority who now believe smoking is a proven cause of lung cancer could become doubtful; and, others who are now skeptical could be convinced that before the industry is further penalized more evidence is required. However, the unfavorable opinion on the hazards of smoking will remain definitely high, and will not shift in a favorable direction, until positive action
+> Despite the fact that the industry has very little, if any, positive evidence upon which to base the aggressive campaign necessary at this late date to materially change public opinion, public attitudes can be changed. At least to the extent that the majority who now believe smoking is a proven cause of lung cancer could become doubtful; and, others who are now skeptical could be convinced that before the industry is further penalized more evidence is required. However, the unfavorable opinion on the hazards of smoking will remain definitely high, and will not shift in a favorable direction, until positive action is taken by the industry to counter the anti-smoking propaganda and publicity.
 
 %%page 331%%
-
-> is taken by the industry to counter the anti-smoking propaganda and publicity.
 
 Dowdell advocated that the Tobacco Institute Executive Committee approve the 1967 Public Relations Program and begin an aggressive public relations campaign. 500006192-6194 at 6193 (US 47761) (emphasis in original).
 
@@ -4548,11 +4510,9 @@ Dowdell advocated that the Tobacco Institute Executive Committee approve the 196
 
 ***
 
-> Do Smokers have common sense? We in the tobacco industry believe they do, and that millions of reasonable and responsible men
+> Do Smokers have common sense? We in the tobacco industry believe they do, and that millions of reasonable and responsible men and women who smoke will not be misled by the campaign of fear that is conducted against smoking. We believe that these emotional charges are no substitute for objective facts gathered from research.
 
 %%page 333%%
-
-> and women who smoke will not be misled by the campaign of fear that is conducted against smoking. We believe that these emotional charges are no substitute for objective facts gathered from research.
 
 2010008819-8822 at 8820 (US 20300).
 
@@ -4562,11 +4522,9 @@ Dowdell advocated that the Tobacco Institute Executive Committee approve the 196
 
 734\. In December 1970, the Tobacco Institute issued yet another statement, published as an advertisement in major American newspapers, titled "The Question about Smoking and Health Is Still a Question":
 
-> [A] major portion of this scientific inquiry has been financed by the people who know the most about cigarettes and have a great desire to learn the truth . . . the tobacco industry. And the industry has committed itself to this task in the most objective and scientific way possible . . .1115 reports in all. Through this work much valuable data have been produced about lung cancer, heart disease, chronic respiratory ailments and other diseases. However, there's still a lot more to be learned. . . . There are eminent scientists who believe that the question of smoking and health is an open one and that research in this area must go forward. From the beginning, the tobacco industry has believed that the American people deserve objective, scientific answers. With this same credo in mind, the tobacco industry stands ready today to make new commitments for additional
+> [A] major portion of this scientific inquiry has been financed by the people who know the most about cigarettes and have a great desire to learn the truth . . . the tobacco industry. And the industry has committed itself to this task in the most objective and scientific way possible . . .1115 reports in all. Through this work much valuable data have been produced about lung cancer, heart disease, chronic respiratory ailments and other diseases. However, there's still a lot more to be learned. . . . There are eminent scientists who believe that the question of smoking and health is an open one and that research in this area must go forward. From the beginning, the tobacco industry has believed that the American people deserve objective, scientific answers. With this same credo in mind, the tobacco industry stands ready today to make new commitments for additional valid scientific research that offers to shed light on new facets of smoking and health.
 
 %%page 334%%
-
-> valid scientific research that offers to shed light on new facets of smoking and health.
 
 The "eminent scientists" in such pronouncements were never identified. Defendants widely distributed reprints of the advertisement and provided it to every member of Congress with a personal letter from Horace Kornegay, President of the Tobacco Institute. TIMN0081352-1352 (US 21305); 2010008873-8873 (US 22010); 1005132832-2832 (US 21666); 2010008878-8879 (US 36514); 500004807-4809 at 4807 (US 20608); Brandt WD, 128:14-129:11.
 
@@ -4626,11 +4584,9 @@ TIMN0120596-0597 at 0597 (US 21321).
 
 > On the litigation front for which the strategy was designed, it has been successful. While we have not lost a liability case, this is not because juries have rejected the anti-smoking arguments.
 
-> On the political front, the strategy has helped make possible an orderly retreat. But it is fair to say that it has not stemmed the
+> On the political front, the strategy has helped make possible an orderly retreat. But it is fair to say that it has not stemmed the pressure for new legislation, despite the major concessions we have made.
 
 %%page 338%%
-
-> pressure for new legislation, despite the major concessions we have made.
 
 > On the public opinion front, however, our situation has deteriorated and will continue to worsen. This erosion will have an adverse effect on the other fronts, because here is where the beliefs, attitudes and actions of judges, juries, elected officials and government employees are formed.
 
@@ -4698,11 +4654,9 @@ TIFL0522279-2280 at 2280 (US 21424).
 
 755\. Defendants also continued to insist publicly that there was no need to undertake research to develop "safer" cigarettes, since they asserted that the cigarettes then being sold were not harmful to health. In June 1978, William Dwyer, Vice President of the Tobacco Institute, explained in an article titled "Smoking: A Free Choice":
 
-> A question often asked of the tobacco industry is whether researchers are developing a "safe" cigarette. A variation of that question is whether low "tar" nicotine cigarettes are safer. The tobacco industry is convinced that no cigarette has been proved unsafe. Therefore, they regard any suggestion of a "safe" or "safer" cigarette as tortured logic. The reduced "tar" and nicotine cigarettes represent about 20 percent of sales and are in the marketplace because of consumer
+> A question often asked of the tobacco industry is whether researchers are developing a "safe" cigarette. A variation of that question is whether low "tar" nicotine cigarettes are safer. The tobacco industry is convinced that no cigarette has been proved unsafe. Therefore, they regard any suggestion of a "safe" or "safer" cigarette as tortured logic. The reduced "tar" and nicotine cigarettes represent about 20 percent of sales and are in the marketplace because of consumer demand. That demand obviously reflects the personal preferences of smokers.
 
 %%page 342%%
-
-> demand. That demand obviously reflects the personal preferences of smokers.
 
 TIMN0074796-4800 at 4797 (US 21480).
 
@@ -4780,11 +4734,9 @@ TIEX0007587-8106 at 7589 (US 87061).
 
 775\. In 1983, the Tobacco Institute published a pamphlet titled "Tobacco Industry Research on Smoking and Health: A $120 Million Commitment." This pamphlet stated:
 
-> Since the first questions were raised about smoking as a possible health factor, the tobacco industry has believed that the American
+> Since the first questions were raised about smoking as a possible health factor, the tobacco industry has believed that the American people deserve objective, scientific answers. The industry has committed itself to this task.
 
 %%page 348%%
-
-> people deserve objective, scientific answers. The industry has committed itself to this task.
 
 2045377870-7876 at 7871 (US 20460).
 
@@ -5082,11 +5034,9 @@ Diagnostic and Statistical Manual ("DSM-III"). Even then, the syndromes were cal
 
 A. Yes, I do.
 
-> Q. Do you agree or disagree with what the Surgeon General said about similarities existing between the pharmacologic and
+> Q. Do you agree or disagree with what the Surgeon General said about similarities existing between the pharmacologic and behavioral properties that determine tobacco addiction and those that determine addiction to drugs such as heroin and cocaine?
 
 %%page 373%%
-
-> behavioral properties that determine tobacco addiction and those that determine addiction to drugs such as heroin and cocaine?
 
 A. I agree there are similarities.
 
@@ -5218,11 +5168,9 @@ Henningfield WD, 110:9-22. Indeed, the tobacco industry itself has used these te
 
 894\. In a June 1966 report titled "Market Potential of a Health Cigarette," Philip Morris researchers Dunn and Myron Johnston stated that without nicotine, a health cigarette would not sell:
 
-> [A]ny health cigarette must compromise between health implications on the one hand and flavor and nicotine on the other. . . . Flavor and
+> [A]ny health cigarette must compromise between health implications on the one hand and flavor and nicotine on the other. . . . Flavor and nicotine are both necessary to sell a cigarette. A cigarette that does not deliver nicotine cannot satisfy the habituated smoker and cannot lead to habituation, and therefore would almost certainly fail.
 
 %%page 384%%
-
-> nicotine are both necessary to sell a cigarette. A cigarette that does not deliver nicotine cannot satisfy the habituated smoker and cannot lead to habituation, and therefore would almost certainly fail.
 
 1001913853-3878 at 3860 (US 20123).
 
@@ -5236,11 +5184,9 @@ Henningfield WD, 110:9-22. Indeed, the tobacco industry itself has used these te
 
 > We have then as our first premise, that the primary motivation for smoking is to obtain the pharmacological effect of nicotine.
 
-> In the past we at R & D have said that we're not in the cigarette business, we're in the smoke business. It might be more pointed to observe that the cigarette is the vehicle of smoke, smoke is the
+> In the past we at R & D have said that we're not in the cigarette business, we're in the smoke business. It might be more pointed to observe that the cigarette is the vehicle of smoke, smoke is the vehicle of nicotine, and nicotine is the agent of a pleasurable body response. . . .
 
 %%page 385%%
-
-> vehicle of nicotine, and nicotine is the agent of a pleasurable body response. . . .
 
 > This primary incentive to smoking gets obscured by the overlay secondary incentives, which have been superimposed upon the habit. Psychoanalysts have speculated about the importance of the sucking behavior, describing it as oral regression. Psychologists have proposed that the smoker is projecting an ego-image with puffing and his halo of smoke. One frequently hears "I have to have something to do with my hands" as a reason. All are perhaps operative motives, but we hold that none are adequate to sustain the habit in the absence of nicotine. . . .
 
@@ -5308,11 +5254,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 907\. In a May 8, 1974 presentation to Philip Morris USA President Clifford Goldsmith, Dunn explained how in-house research suggested that smokers titrate or regulate their smoke intake to get what they want out of the smoke:
 
-> I'm sure you are aware of our belief that people smoke for rewards they get from smoke at the pharmacological level. . . . It's simply not an adequate explanation to say that smoking is a habit, or that it is
+> I'm sure you are aware of our belief that people smoke for rewards they get from smoke at the pharmacological level. . . . It's simply not an adequate explanation to say that smoking is a habit, or that it is social behavior. A smoker is introducing something into his system that he wants. Certain components of smoke, most likely nicotine, act upon his system in some undetermined way to give him some undetermined pleasure. If this is true, then we expect the smoker to seek to take in that amount of smoke that does the job best for him. He is going to regulate his intake to suit his need. . . We are hypothesizing that the smoker titrates (regulates) his smoke intake to suit his dosage needs.
 
 %%page 389%%
-
-> social behavior. A smoker is introducing something into his system that he wants. Certain components of smoke, most likely nicotine, act upon his system in some undetermined way to give him some undetermined pleasure. If this is true, then we expect the smoker to seek to take in that amount of smoke that does the job best for him. He is going to regulate his intake to suit his need. . . We are hypothesizing that the smoker titrates (regulates) his smoke intake to suit his dosage needs.
 
 100324972-4976 at 4972-4973 (US 85248).
 
@@ -5342,11 +5286,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 913\. In a September 8, 1975 letter to long-time Philip Morris-funded researcher Stanley Schachter, a psychology professor at Columbia University, Dunn discussed a reduction in nicotine in Marlboro cigarettes and acknowledged the existence of smoker's compensation to obtain more nicotine, which he referred to as "the goodies":
 
-> Thus to accommodate to the 15% reduction in available Marlboro nicotine, the smoker who was getting 50% of the available nicotine into his blood from the Marlboro delivering 1.3 mg of nicotine into a smoking machine and now must get 59% of what the current Marlboro offers him. He can take bigger puffs, or inhale more from the supply drawn into the mouth (we have varying quantities of residual smoke in the mouth at the end of an inhalation) or for more
+> Thus to accommodate to the 15% reduction in available Marlboro nicotine, the smoker who was getting 50% of the available nicotine into his blood from the Marlboro delivering 1.3 mg of nicotine into a smoking machine and now must get 59% of what the current Marlboro offers him. He can take bigger puffs, or inhale more from the supply drawn into the mouth (we have varying quantities of residual smoke in the mouth at the end of an inhalation) or for more efficient extraction of the goodies, he can draw it in deeper or hold it in longer.
 
 %%page 391%%
-
-> efficient extraction of the goodies, he can draw it in deeper or hold it in longer.
 
 1000738509-8510 at 8510 (US 85251).
 
@@ -5412,11 +5354,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 929\. Dr. Dunn also revealed the concerns of the industry's attorneys that the issue of nicotine addiction could enhance the claims of smokers' lawsuits:
 
-> The psychopharmacology of nicotine is a highly vexatious topic. It is where the action is for those doing fundamental research on smoking, and from where most likely will come significant scientific developments profoundly influencing the industry. Yet it is where our attorneys least want us to be, for two reasons. It is important to have these two reasons expressed and distinguished from one another. The first reason is the oldest and most implicit in the legal strategy employed over the years in defending corporations within the industry from the claims of heirs and estates of deceased smokers: "We within the industry are ignorant of any relationships between smoking and disease. Within our laboratories no work is being conducted on biological systems." That posture has moderated considerably as our attorneys have come to acknowledge that the original carte blanche
+> The psychopharmacology of nicotine is a highly vexatious topic. It is where the action is for those doing fundamental research on smoking, and from where most likely will come significant scientific developments profoundly influencing the industry. Yet it is where our attorneys least want us to be, for two reasons. It is important to have these two reasons expressed and distinguished from one another. The first reason is the oldest and most implicit in the legal strategy employed over the years in defending corporations within the industry from the claims of heirs and estates of deceased smokers: "We within the industry are ignorant of any relationships between smoking and disease. Within our laboratories no work is being conducted on biological systems." That posture has moderated considerably as our attorneys have come to acknowledge that the original carte blanche avoidance of all biological research is not required in order to plead ignorance about any pathological relationship between smoke and smoker.
 
 %%page 396%%
-
-> avoidance of all biological research is not required in order to plead ignorance about any pathological relationship between smoke and smoker.
 
 1000127789-7790 (US 34422).
 
@@ -5432,11 +5372,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 933\. Dunn wrote another memorandum dated March 24, 1980 to Seligman relating to a parallel effort at Philip Morris to create cigarettes with even higher nicotine to tar ratios, stating:
 
-> If even only some smokers smoke for the nicotine effect (I personally believe most regular smokers do) then in today's climate we would do
+> If even only some smokers smoke for the nicotine effect (I personally believe most regular smokers do) then in today's climate we would do well to have a low TPM [total particulate matter, or tar] and CO [carbon monoxide] delivering cigarette that can supply adequate nicotine.
 
 %%page 397%%
-
-> well to have a low TPM [total particulate matter, or tar] and CO [carbon monoxide] delivering cigarette that can supply adequate nicotine.
 
 1003285586-5586 (US 22029).
 
@@ -5538,11 +5476,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 961\. Teague later stated in his report that:
 
-> If nicotine is the sine qua non of tobacco products and tobacco products are recognized as being attractive dosage forms of nicotine, then it is logical to design our products -- and where possible, our advertising -- around nicotine delivery rather than 'tar' delivery or flavor. To do this we need to develop new data on such things as the physiological effects of nicotine, the rate of absorption and elimination of nicotine delivered in different doses at different
+> If nicotine is the sine qua non of tobacco products and tobacco products are recognized as being attractive dosage forms of nicotine, then it is logical to design our products -- and where possible, our advertising -- around nicotine delivery rather than 'tar' delivery or flavor. To do this we need to develop new data on such things as the physiological effects of nicotine, the rate of absorption and elimination of nicotine delivered in different doses at different frequencies and by different routes, and ways of enhancing or diminishing nicotine effects and "satisfactions."
 
 %%page 406%%
-
-> frequencies and by different routes, and ways of enhancing or diminishing nicotine effects and "satisfactions."
 
 500915683-5691 at 5685-5686 (US 20659) (emphasis in original).
 
@@ -5562,11 +5498,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 > 3. Sponsor in-depth studies of the physiological, psychological and other effects of nicotine, aimed at demonstrating the beneficial effects of nicotine and at disproving allegations that nicotine produces major adverse effects.
 
-> 4. Study, design and evaluate new or improved systems for delivery of nicotine which will provide the minimum
+> 4. Study, design and evaluate new or improved systems for delivery of nicotine which will provide the minimum satisfying amount of nicotine in attractive form, free of allegedly harmful combustion products.
 
 %%page 407%%
-
-> satisfying amount of nicotine in attractive form, free of allegedly harmful combustion products.
 
 > 5. Study means for enhancing nicotine satisfaction via synergists, alteration of pH, or other means, to minimize dose level and maximize desired effects.
 
@@ -5582,11 +5516,9 @@ Think of a puff of smoke as the vehicle of nicotine. . . .
 
 > In essence, a cigarette is a system for delivery of nicotine to the smoker in attractive, useful form. At "normal" smoke pH, or at below about 6.0, essentially all of the smoke nicotine is chemically combined with acidic substances, hence is non-volatile and relatively slowly absorbed by the smoker. As the smoke pH increases above about 6.0, an increasing proportion of the total smoke nicotine occurs in "free" form, which is volatile, rapidly absorbed by the smoker, and believed to be instantly perceived as nicotine "kick". . . .
 
-> As a result of its higher smoke pH, the current Marlboro, despite a two-thirds reduction in smoke "tar" and nicotine over the years,
+> As a result of its higher smoke pH, the current Marlboro, despite a two-thirds reduction in smoke "tar" and nicotine over the years, calculates to have essentially the same amount of "free" nicotine in its smoke as did the early WINSTON. . . .
 
 %%page 408%%
-
-> calculates to have essentially the same amount of "free" nicotine in its smoke as did the early WINSTON. . . .
 
 > In addition to enhancing nicotine "kick," increasing the pH (increasing alkalinity) of smoke above about 6.0 causes other changes, particularly when the increase in smoke pH is achieved by adding ammonia to the blend.
 
@@ -5628,11 +5560,9 @@ This statement reveals both RJR's continuing view of smokers as "nicotine seeker
 
 978\. After Dr. Benowitz published his 1983 groundbreaking paper on compensation by smokers of low nicotine yield products, see Benowitz WD, 67:10-18, RJR scientist John Robinson wrote a critique of the paper to Dr. Alan Rodgman in which he stated:
 
-> The paper itself expresses what we in Biobehavioral have felt for quite some time. That is, smokers smoke differently than the FTC machine and may very well smoke to obtain a certain level of nicotine
+> The paper itself expresses what we in Biobehavioral have felt for quite some time. That is, smokers smoke differently than the FTC machine and may very well smoke to obtain a certain level of nicotine in their bloodstream. If a given level of nicotine in the blood is the final goal of a smoker, one would predict that he would smoke an FFT [full flavor tar] and ULT [ultra low tar] cigarette differently.
 
 %%page 412%%
-
-> in their bloodstream. If a given level of nicotine in the blood is the final goal of a smoker, one would predict that he would smoke an FFT [full flavor tar] and ULT [ultra low tar] cigarette differently.
 
 510994429-4429 (US 85274).
 
@@ -5712,11 +5642,9 @@ This statement reveals both RJR's continuing view of smokers as "nicotine seeker
 
 994\. Ellis described in another section of his memorandum the outcome of BATCo's efforts to learn about nicotine and its role in smoking. He further delineated some of the concrete conclusions which the BATCo research had reached, reiterating unequivocally that BATCo believed nicotine was addictive and explaining graphically the relationship of the research to addiction:
 
-> As a result of these various researches we now possess a knowledge of the effects of nicotine far more extensive than exists in published scientific literature. It is indeed so extensive and represents so much
+> As a result of these various researches we now possess a knowledge of the effects of nicotine far more extensive than exists in published scientific literature. It is indeed so extensive and represents so much new thought that it is not easy to condense the material of these several reports and working papers without over-simplification.
 
 %%page 418%%
-
-> new thought that it is not easy to condense the material of these several reports and working papers without over-simplification.
 
 > Nicotine, however administered, rapidly gets into the blood stream and the lymph system, and once there has a number of varied effects. . . . By far the most important effect is that of mobilising the resources of the body to resist stress. That this occurs has been known from the earliest days of smoking but no explanation exists in the published literature. Battelle [Laboratories] have now carried out experiments which are beginning to show how nicotine enters into the mechanism of this vital reaction. . . .
 
@@ -5728,11 +5656,9 @@ This statement reveals both RJR's continuing view of smokers as "nicotine seeker
 
 995\. The two additional "phenomena" that Ellis referred to in his February 1962 memorandum were responsible for nicotine addiction were tolerance and withdrawal:
 
-> Experiments have so far only been carried out with rats, but with these it is found that certain rats become tolerant to repeated doses and after a while show the usual nicotine reactions but only on a very diminished scale. The interesting point is that these tolerant or nicotine-conditioned rats are found to have a greatly enhanced power of detoxification of nicotine in their liver. Crudely put, they can stand up to high continuous doses of nicotine just because their liver has developed the ability to dispose of it more rapidly and efficiently. . . . As long as the smoker keeps to his normal regime and the nicotine level in his blood remains high there is a steady job for these [liver] enzymes, and the whole situation is normal and under control. But if now the smoker stops smoking and there is no longer nicotine in his blood then in the liver there is this supply of enzymes with nothing to work on. In fact, they proceed to work on other material passing through the liver, with consequent disturbance of the body's working
+> Experiments have so far only been carried out with rats, but with these it is found that certain rats become tolerant to repeated doses and after a while show the usual nicotine reactions but only on a very diminished scale. The interesting point is that these tolerant or nicotine-conditioned rats are found to have a greatly enhanced power of detoxification of nicotine in their liver. Crudely put, they can stand up to high continuous doses of nicotine just because their liver has developed the ability to dispose of it more rapidly and efficiently. . . . As long as the smoker keeps to his normal regime and the nicotine level in his blood remains high there is a steady job for these [liver] enzymes, and the whole situation is normal and under control. But if now the smoker stops smoking and there is no longer nicotine in his blood then in the liver there is this supply of enzymes with nothing to work on. In fact, they proceed to work on other material passing through the liver, with consequent disturbance of the body's working and with all sorts of alarm signals sent back to the brain. The effects of unbalanced enzymes is not unlike unbalanced nicotine, and the abstaining smoker experiences physiological reactions as acute as a novice who starts smoking. When to this one adds the longing for that immediate stimulation to resist stress that comes from smoking a cigarette it would appear that we are making progress towards understanding addiction. . . .
 
 %%page 419%%
-
-> and with all sorts of alarm signals sent back to the brain. The effects of unbalanced enzymes is not unlike unbalanced nicotine, and the abstaining smoker experiences physiological reactions as acute as a novice who starts smoking. When to this one adds the longing for that immediate stimulation to resist stress that comes from smoking a cigarette it would appear that we are making progress towards understanding addiction. . . .
 
 > Thus we have already greatly increased our knowledge of the manifold ways in which nicotine affects the body and, in particular, have identified and studied separately the stress resisting mechanism and the other effect on the liver which we believe is responsible for addiction.
 
@@ -5826,11 +5752,9 @@ FUTURE POLICY.
 
 1014\. BATCo scientists understood that the addictive impact and potential of nicotine is enhanced by the speed at which, and form in which, it reaches the brain. An August 7, 1964 memorandum from H.D. Anderson, Vice President of Research and Development, to BATCo President, Sir Richard P. Dobson, discussed the enhancement of nicotine "kick" through the addition of potassium carbonate to tobacco:
 
-> There seems no doubt that the "kick" of a cigarette is due to the concentration of nicotine in the blood-stream which it achieves and
+> There seems no doubt that the "kick" of a cigarette is due to the concentration of nicotine in the blood-stream which it achieves and this is a product of the quantity of nicotine in the smoke and the speed of transfer of that nicotine from the smoke to the blood-stream.
 
 %%page 426%%
-
-> this is a product of the quantity of nicotine in the smoke and the speed of transfer of that nicotine from the smoke to the blood-stream.
 
 > Nicotine is in the smoke in two forms as free nicotine base (think of ammonia) and as a nicotine salt (think of ammonium chloride) and it is almost certain that the free nicotine base is absorbed faster into the blood-stream. Thus the effect of this potassium carbonate treatment, even though it does reduce the total quantity of nicotine in the smoke, may be to enhance the effect of what is left until it is equal or maybe greater in physiological effect than in the original smoke.
 
@@ -5874,11 +5798,9 @@ WAS0433494-3500 at 3497 (US 86690).
 
 > At the physiological level the major part of the satisfaction of smoking is derived from nicotine and the first section of this note is concerned with optimising nicotine usage, increasing the delivery of smoking mixtures deficient in nicotine, and attempting to anticipate some "health" problems that may arise with changes in current practices.
 
-> At present the cigarette industry depends on nicotine as the principal pharmacological agent in confirming the smoking habit. This could be dangerous commercially, since it may well be that legal restrictions are imposed on the nicotine delivery of cigarettes if the medical evidence shows beyond reasonable doubt that the long-term
+> At present the cigarette industry depends on nicotine as the principal pharmacological agent in confirming the smoking habit. This could be dangerous commercially, since it may well be that legal restrictions are imposed on the nicotine delivery of cigarettes if the medical evidence shows beyond reasonable doubt that the long-term effects of nicotine are harmful. The industry is far more vulnerable to restrictions on the use of nicotine, than attempts at restricting, say, carcinogens or "tar." Consequently, the second sections considers some possibilities of finding alternatives to nicotine that could supplement or replace nicotine in a cigarette.
 
 %%page 429%%
-
-> effects of nicotine are harmful. The industry is far more vulnerable to restrictions on the use of nicotine, than attempts at restricting, say, carcinogens or "tar." Consequently, the second sections considers some possibilities of finding alternatives to nicotine that could supplement or replace nicotine in a cigarette.
 
 680050592-0608 at 0593 (US 85280).
 
@@ -5922,11 +5844,9 @@ WAS0433494-3500 at 3497 (US 86690).
 
 In the discussion section of the report, the authors stated:
 
-> These results may be interpreted on the basis that some subjects have a greater demand for nicotine than others. It is also clear that the dose of nicotine required per unit of time is very variable. Some subjects
+> These results may be interpreted on the basis that some subjects have a greater demand for nicotine than others. It is also clear that the dose of nicotine required per unit of time is very variable. Some subjects require a small intake of nicotine taken frequently . . . others require a large amount but infrequently. . . . These differences in nicotine demand and the pattern of nicotine intake may reflect metabolic differences between smokers.
 
 %%page 432%%
-
-> require a small intake of nicotine taken frequently . . . others require a large amount but infrequently. . . . These differences in nicotine demand and the pattern of nicotine intake may reflect metabolic differences between smokers.
 
 650014873-4901 at 4885-86 (US 53405).
 
@@ -5982,11 +5902,9 @@ In the discussion section of the report, the authors stated:
 
 1042\. In a June 27, 1978 document titled "Compensation for Changed Delivery," BATCo scientist D.E. Creighton stated that:
 
-> Numerous experiments have been carried out in Hamburg, Montreal, and Southampton within the company as well as many other experiments by research workers in independent organizations, that
+> Numerous experiments have been carried out in Hamburg, Montreal, and Southampton within the company as well as many other experiments by research workers in independent organizations, that show that generally smokers do change their smoking patterns in response to changes in the machine smoked deliveries of cigarettes. . . . In general, a majority of habitual smokers compensate for changed delivery, if they change to a lower delivery brand than their usual brand. If they choose lower delivery brand which has a higher tar to nicotine ratio than their usual brand (which is often the case with lower delivery products) the smokers will in fact increase the amounts of tar and gas phase that they take in, in order to take in the same amount of nicotine.
 
 %%page 437%%
-
-> show that generally smokers do change their smoking patterns in response to changes in the machine smoked deliveries of cigarettes. . . . In general, a majority of habitual smokers compensate for changed delivery, if they change to a lower delivery brand than their usual brand. If they choose lower delivery brand which has a higher tar to nicotine ratio than their usual brand (which is often the case with lower delivery products) the smokers will in fact increase the amounts of tar and gas phase that they take in, in order to take in the same amount of nicotine.
 
 10553905-3915 at 3906, 3913 (US 76170).
 
@@ -6234,11 +6152,9 @@ S. Physiological Strength or Potency
 
 1088\. This 1967 report commissioned by B&W summarized the responses of some 1,400 smokers and included the following commentary:
 
-> Most smokers see themselves as addicts. . . . Many fear they'd "fall apart" if they quit. . . . Interpretively, the typical smoker feels guilty
+> Most smokers see themselves as addicts. . . . Many fear they'd "fall apart" if they quit. . . . Interpretively, the typical smoker feels guilty and anxious about smoking but impotent to control it. Psychologically, most smokers feel trapped.
 
 %%page 455%%
-
-> and anxious about smoking but impotent to control it. Psychologically, most smokers feel trapped.
 
 > Speculatively, the decision to smoke is psychologically motivated. Once that decision is made, smoking frequency is physiologically determined, with the addiction becoming more severe as smokers grow older.
 
@@ -6335,11 +6251,9 @@ Id. at 1513.
 
 1104\. An August 24, 1978 B&W memorandum to M. J. McQue from Assistant Brand Manager H. David Steele titled "Future Consumer Reaction to Nicotine" stated: "Very few consumers are aware of the effects of nicotine, i.e., its addictive nature and that nicotine is a poison." 665043966-3966 (US 21485); 776078962-8962 (US 87137).
 
-> Is there not some way open now to use the knowledge we have gained in this area of tobacco and smoke research to give B&W a competitive advantage over its competition? It appears that we have sufficient expertise available to "build" a lowered mg tar cigarette which will deliver as much "free nicotine" as a Marlboro, Winston,
+> Is there not some way open now to use the knowledge we have gained in this area of tobacco and smoke research to give B&W a competitive advantage over its competition? It appears that we have sufficient expertise available to "build" a lowered mg tar cigarette which will deliver as much "free nicotine" as a Marlboro, Winston, or Kent without increasing the total nicotine delivery above that of a "Light" product.
 
 %%page 461%%
-
-> or Kent without increasing the total nicotine delivery above that of a "Light" product.
 
 654005805-5807 at 5806 (US 85447).
 
@@ -6413,11 +6327,9 @@ Id. at 1513.
 
 1125\. A 1976 Lorillard internal review of nicotine scientific literature by H.S. Tong reported the following with respect to smoker compensation:
 
-> A review has been made of the literature on the pharmacology of smoke-dose nicotine with the goal of discovering some indications of threshold dose and optimum doses of nicotine in the average cigarette smokers. . . . It seems that, within limits, smokers can and do control their nicotine intake from smoke by varying their smoking techniques. Nicotine has numerous sites of action and the response is an algebraic sum of its actions. . . . It seems that smokers smoke
+> A review has been made of the literature on the pharmacology of smoke-dose nicotine with the goal of discovering some indications of threshold dose and optimum doses of nicotine in the average cigarette smokers. . . . It seems that, within limits, smokers can and do control their nicotine intake from smoke by varying their smoking techniques. Nicotine has numerous sites of action and the response is an algebraic sum of its actions. . . . It seems that smokers smoke for both calming and stimulant effects. In a subjective study, test subjects reported that they found cigarettes of 0.8 mg to be acceptable.
 
 %%page 468%%
-
-> for both calming and stimulant effects. In a subjective study, test subjects reported that they found cigarettes of 0.8 mg to be acceptable.
 
 > Despite the lack of definitive knowledge, it seems probable that smokers choose cigarette smoking for sensual, psychological, social, cultural, and pharmacological effects. The pharmacological effects are most likely due to the action of nicotine since the presence of a variety of other chemical components in the smoke in all probability is below their threshold level. . . . It is well known that the pharmacologic effects of nicotine at various sites are dependent on the dose, the dose schedule, and duration of exposure. Smoke dose nicotine has a stimulant action. It stimulates ganglia, and, therefore, it activates both the sympathetic and parasympathetic nervous systems simultaneously, the ultimate effects are the algebraic sum of its actions. Research in drug addiction indicates that the CNS [central nervous system] is the prime site of drug action. In order to understand the precise action of nicotine in the smoke habit, the CNS should be the logical site for study. . . .
 
@@ -6443,11 +6355,9 @@ Id. at 1513.
 
 1129\. Lorillard knew that nicotine shared attributes of opiates, and sought to use this knowledge to its advantage. A March 16, 1978 memorandum by Lorillard scientist R.S. Marmor summarized a lecture given at Lorillard by industry-funded scientist Leo Abood titled "In Search of a Site and Mechanism for Nicotine's Action on the Brain." Marmor reported that:
 
-> Prof. Abood's lecture here on "In Search of a Site and Mechanism for Nicotine's Action on the Brain" was well attended and well received. . . . Theorizing that nicotine's activity is due to an
+> Prof. Abood's lecture here on "In Search of a Site and Mechanism for Nicotine's Action on the Brain" was well attended and well received. . . . Theorizing that nicotine's activity is due to an accidental mimicry of some normally present but as yet unknown brain peptide (analogous entirely to the recent opiate-enkephalin research findings), it might be possible to determine the structure of this peptide from information about the receptor site. In any case, information we gain on the mechanism of nicotine activity may be useful in determining how to adjust physiological impact in our cigarettes. We intend to support Prof. Abood by supplying samples and performing some synthetic and computer work.
 
 %%page 470%%
-
-> accidental mimicry of some normally present but as yet unknown brain peptide (analogous entirely to the recent opiate-enkephalin research findings), it might be possible to determine the structure of this peptide from information about the receptor site. In any case, information we gain on the mechanism of nicotine activity may be useful in determining how to adjust physiological impact in our cigarettes. We intend to support Prof. Abood by supplying samples and performing some synthetic and computer work.
 
 00110371-0371 (US 34404).
 
@@ -6691,11 +6601,9 @@ RJR's position on addiction failed to mention nicotine at all. 522879046-9047 at
 
 > Cigarette smoking is not addictive and cannot be equated to hard drug use. Many millions of smokers have been able to quit smoking.
 
-> The smoker decides if, when and how much he wishes to smoke and is not motivated as is the hard drug user to get a "fix" by whatever
+> The smoker decides if, when and how much he wishes to smoke and is not motivated as is the hard drug user to get a "fix" by whatever means possible, including criminal acts. Most smokers are able to quit without assistance.
 
 %%page 487%%
-
-> means possible, including criminal acts. Most smokers are able to quit without assistance.
 
 2070052572-2578 at 2577 (US 87151).
 
@@ -6893,11 +6801,9 @@ CORTI1731-1738 (US 87735).
 
 1231\. The Tobacco Institute published another press release dated July 12, 1990, stating that Blau had once again testified before a House Subcommittee denying the addictiveness of cigarettes. The Tobacco Institute provided the following in its press release, once again omitting any mention of the tie between Blau and the cigarette manufacturer Defendants:
 
-> The proposed "addiction" warning label is likewise unjustified. Dr. Theodore H. Blau, a practicing clinical psychologist from Tampa, Florida, said that, "In my view, labeling tobacco use 'addictive' is misleading and potentially harmful to the American public." Blau noted that -- unlike heroin addicts, cocaine addicts and alcoholics who are in the process of giving up these drugs -- the alleged "withdrawal symptoms" which some smokers report when giving up smoking are "generally the same kinds of frustrations that one would expect to see when someone discontinues any well-established and well liked habit. Such symptoms as missing the habit and mild
+> The proposed "addiction" warning label is likewise unjustified. Dr. Theodore H. Blau, a practicing clinical psychologist from Tampa, Florida, said that, "In my view, labeling tobacco use 'addictive' is misleading and potentially harmful to the American public." Blau noted that -- unlike heroin addicts, cocaine addicts and alcoholics who are in the process of giving up these drugs -- the alleged "withdrawal symptoms" which some smokers report when giving up smoking are "generally the same kinds of frustrations that one would expect to see when someone discontinues any well-established and well liked habit. Such symptoms as missing the habit and mild irritability are similar to the reactions experienced by those who give up coffee or sweets.
 
 %%page 501%%
-
-> irritability are similar to the reactions experienced by those who give up coffee or sweets.
 
 TIMN0026755-6757 at 6757 (US 85379).
 
@@ -6907,11 +6813,9 @@ TIMN0026755-6757 at 6757 (US 85379).
 
 1234\. During this same interview, Ms. Dawson admitted making the following statement regarding the addictiveness of nicotine:
 
-> Well, first of all, let's understand that -- that sometimes we use the word "addiction" in very broad terms. We talk about being, you know, news junkies. We talk about being chocoholics. We -- you know, we -- we put all these broad terms[.] . . . But when we talk about addiction in a classical sense, we're talking about things like, you know, heroin and alcohol, for example, where you're either intoxicated and you can't make a decent decision, or you're in such
+> Well, first of all, let's understand that -- that sometimes we use the word "addiction" in very broad terms. We talk about being, you know, news junkies. We talk about being chocoholics. We -- you know, we -- we put all these broad terms[.] . . . But when we talk about addiction in a classical sense, we're talking about things like, you know, heroin and alcohol, for example, where you're either intoxicated and you can't make a decent decision, or you're in such physical withdrawal that you're probably in the hospital. And there's nothing about nicotine specifically that classifies it as such.
 
 %%page 502%%
-
-> physical withdrawal that you're probably in the hospital. And there's nothing about nicotine specifically that classifies it as such.
 
 Id. at 0459-0460; Dawson WD, 45:7-48:23.
 
@@ -7121,11 +7025,9 @@ TIMN0107822-7823 at 7823 (US 21275).
 
 1298\. In 1986, Dr. DeNoble and Dr. Mele presented their findings on behavioral tolerance development to nicotine in rats to the Federation of American Societies for Experimental Biology in St. Louis, Missouri. In April that year, Philip Morris Companies Assistant General Counsel Eric A. Taussig sent each scientist a letter which stated in part:
 
-> As you are aware, upon your employment at Philip Morris . . . you signed an agreement (a copy of which is enclosed) requiring you to keep confidential, unless expressly permitted otherwise, research developed while an employee of the Company. The disclosure of
+> As you are aware, upon your employment at Philip Morris . . . you signed an agreement (a copy of which is enclosed) requiring you to keep confidential, unless expressly permitted otherwise, research developed while an employee of the Company. The disclosure of such information as a result of your employment at Philip Morris without permission constitutes a breach of your agreement with the Company. In the future, you are expected to comply with the terms of the agreement.
 
 %%page 520%%
-
-> such information as a result of your employment at Philip Morris without permission constitutes a breach of your agreement with the Company. In the future, you are expected to comply with the terms of the agreement.
 
 DeNoble WD, 39:12-42:20; Mele WD, 28:13-30:22; 2047340350-0350 (US 22772); 2077541354- 1354 (US 44603).
 
@@ -7151,11 +7053,9 @@ D. Why Was Research Stopped
 
 > According to DeNoble, "we were the only tobacco company that I knew of, or that anybody else knew of, doing work with whole animals, live whole animals, and because of the nature of the research, that is, looking at self-administration, looking at the effects of nicotine on the brain function, the research was held restricted to upper management only."
 
-> DeNoble discussed the effect of his research on the company with Dr. Charles, Dr. Osdene, Dr. Pages, Mr. McDow, Max Hausermann, Mr. Pollock, and Jim Remington. . . . "The downside was that we were
+> DeNoble discussed the effect of his research on the company with Dr. Charles, Dr. Osdene, Dr. Pages, Mr. McDow, Max Hausermann, Mr. Pollock, and Jim Remington. . . . "The downside was that we were doing whole animal research, which looked to them like we were doing Federal Drug Administration [sic] research."
 
 %%page 522%%
-
-> doing whole animal research, which looked to them like we were doing Federal Drug Administration [sic] research."
 
 > DeNoble understood that the research he was doing could undermine the public posture Philip Morris was taking with outsiders.
 
@@ -7295,11 +7195,9 @@ BATCo report from Dr. Haselbach titled "A Tentative Hypothesis on Nicotine Addic
 
 > In addition, the possibility for involvement by the U.S. Food and Drug Administration would be heightened by company or industry promotion of the theme of this report, as it will be generally perceived.
 
-> If such matters as the "Functional Significance" document and the Conference binders, enclosed herewith, are not already routinely vetted with BATCo lawyers, you may want to consider involving
+> If such matters as the "Functional Significance" document and the Conference binders, enclosed herewith, are not already routinely vetted with BATCo lawyers, you may want to consider involving them more closely in both the conceptual and the drafting stages of these projects. Thank you very much for your help in this area of great concern for us.
 
 %%page 533%%
-
-> them more closely in both the conceptual and the drafting stages of these projects. Thank you very much for your help in this area of great concern for us.
 
 521016786-6786 (US 22129).
 
@@ -7349,11 +7247,9 @@ BATCo report from Dr. Haselbach titled "A Tentative Hypothesis on Nicotine Addic
 
 > Hardy: Smoking behavior should be part of C.T.R. program as long as it is not "pro-company" but is kept "pro-industry."
 
-> Hetsko: No problem if it is generated by SAB. This is a totally different area from what SAB has been dealing with. Doesn't want
+> Hetsko: No problem if it is generated by SAB. This is a totally different area from what SAB has been dealing with. Doesn't want another book "to haunt us," as the one from the "Caribbean Caper" did.
 
 %%page 536%%
-
-> another book "to haunt us," as the one from the "Caribbean Caper" did.
 
 > Yeaman: We take our direction from our members – the industry members. C.T.R. so far is clean of F.T.C. investigation, except possibly for the St. Martin conference.
 
@@ -7441,11 +7337,9 @@ And he wonders if this is why we might not be interested. 686052246-2246 (US 885
 
 1357\. In the "Conclusions" section of Roe and Cohen's draft "Nicotine Monograph," the authors emphasized that:
 
-> The present worldwide campaign toward low-tar, low nicotine cigarettes faces the problem that nicotine-seeking smokers will need to inhale more smoke to obtain their nicotine requirement and in
+> The present worldwide campaign toward low-tar, low nicotine cigarettes faces the problem that nicotine-seeking smokers will need to inhale more smoke to obtain their nicotine requirement and in doing so inhale more tar. . . . Because of the weak absorption of nicotine from buccal and alimentary systems, chewing nicotine gum as a possible alternative vehicle to smoke inhalation would prove much less satisfying to the craving cigarette inhaler .
 
 %%page 542%%
-
-> doing so inhale more tar. . . . Because of the weak absorption of nicotine from buccal and alimentary systems, chewing nicotine gum as a possible alternative vehicle to smoke inhalation would prove much less satisfying to the craving cigarette inhaler .
 
 1000138177-8234 at 8221 (US 87174).
 
@@ -7547,11 +7441,9 @@ The evidence spelled out above is simply overwhelming that Defendants knew that 
 
 > C.R. Green and D. Lynm raised the questions concerning the minimum level of nicotine required for smoker satisfaction.
 
-> R.L. Rowland asked if every possible variable had been investigated for its effect upon nicotine delivery to the smoker. It may be
+> R.L. Rowland asked if every possible variable had been investigated for its effect upon nicotine delivery to the smoker. It may be generally accepted that the delivery of nicotine is changed by changing the type of tobacco leaf which is used in the cigarette. But, holding constant the tobacco which makes up the cigarette, are we cognizant of all other factors in cigarette manufacture which would change the nicotine delivery, particularly any factors which would allow a decrease in tar delivery without the accompanying proportional decrease in nicotine delivery.
 
 %%page 552%%
-
-> generally accepted that the delivery of nicotine is changed by changing the type of tobacco leaf which is used in the cigarette. But, holding constant the tobacco which makes up the cigarette, are we cognizant of all other factors in cigarette manufacture which would change the nicotine delivery, particularly any factors which would allow a decrease in tar delivery without the accompanying proportional decrease in nicotine delivery.
 
 505243357-3365 at 3357, 3359, 3360, 3362 and 3365 (US 86944).
 
@@ -7933,11 +7825,9 @@ It was also found that "Compound W added to tobacco has little effect on the ove
 
 1473\. A draft presentation located in a 1969 file of Alexander Spears, Lorillard's CEO, describes Lorillard's research efforts:
 
-> The research activities on the physiological element are concerned with nicotine. The quantity of nicotine required for the stimulus is mediated to the nicotine content of the cigarette by several factors: (1) absorption rate into the bloodstream, once the nicotine has deposited on the respiratory tract; (2) fraction of inhaled nicotine
+> The research activities on the physiological element are concerned with nicotine. The quantity of nicotine required for the stimulus is mediated to the nicotine content of the cigarette by several factors: (1) absorption rate into the bloodstream, once the nicotine has deposited on the respiratory tract; (2) fraction of inhaled nicotine which is deposited in [the] respiratory tract (pH dependence); (3) concentration of nicotine in the smoke and (4) transfer rate of nicotine from the tobacco to the mainstream smoke.
 
 %%page 584%%
-
-> which is deposited in [the] respiratory tract (pH dependence); (3) concentration of nicotine in the smoke and (4) transfer rate of nicotine from the tobacco to the mainstream smoke.
 
 Spears further stated that "it would be useful to have a wider range of control over nicotine than now exists, through the selection of tobacco and the physical construction of the smoking article. Within one year, it is expected that tobacco modifications can be made to optimize absorption of smoke nicotine." 87667736-7740 at 7737 (US 56302*). In an undated paper, titled "Factors Affecting Smoke Delivery of Nicotine and Carbon Monoxide," Spears identified several factors that affect the nicotine yield of a cigarette and stated: "Through [a] combination of these variables, plant genetics and commercial processes, . . . it is possible to manipulate the yield of nicotine from about .1 mg to 4 mg per cigarette." 00044998-5021 at 5001-5002 (US 34208).
 
@@ -8199,11 +8089,9 @@ Farone WD, 44:2-13. Burley is a strain of tobacco with a higher alkaloid content
 
 1541\. In an August 18, 1983 memorandum from G.M. Stewart to J.D. Frederickson, Stewart reported the results of Reynolds's research concerning the modification of tobacco blends, stating:
 
-> [T]obaccos [] with varied levels of ammoniation products, nicotine and expansion can be produced in pilot plant quantities for evaluation as components of new and existing blends. Such modified tobaccos
+> [T]obaccos [] with varied levels of ammoniation products, nicotine and expansion can be produced in pilot plant quantities for evaluation as components of new and existing blends. Such modified tobaccos may provide new ways to control nicotine delivery and modify smoking characteristics.
 
 %%page 610%%
-
-> may provide new ways to control nicotine delivery and modify smoking characteristics.
 
 504140118-0127 at 0118 (US 85495).
 
@@ -8477,11 +8365,9 @@ Despite numerous public statements that "nicotine follows tar," i.e., that the a
 
 1621\. In the same 1979 paper, Schori again explained the misleading nature of machine-measured nicotine yields with respect to free nicotine:
 
-> The way in which nicotine is typically reported can be misleading. This is due to the manner in which nicotine determinations are made. For instance, cigarettes X and Y may both be reported to deliver (based upon the standard smoking machine test)[^2] mg. nicotine/cigt. However, a given smoker may actually inhale much more free nicotine from cigarette X than from cigarette Y. Likewise, cigarette W may deliver 1 mg. nicotine/cigt. while cigarette Z delivers 2 mg. nicotine/cigt. Yet a given smoker may inhale equal amounts of free nicotine from cigarettes W and Z. This paradox results from the fact
+> The way in which nicotine is typically reported can be misleading. This is due to the manner in which nicotine determinations are made. For instance, cigarettes X and Y may both be reported to deliver (based upon the standard smoking machine test)[^2] mg. nicotine/cigt. However, a given smoker may actually inhale much more free nicotine from cigarette X than from cigarette Y. Likewise, cigarette W may deliver 1 mg. nicotine/cigt. while cigarette Z delivers 2 mg. nicotine/cigt. Yet a given smoker may inhale equal amounts of free nicotine from cigarettes W and Z. This paradox results from the fact that in making the nicotine delivery determinations strong bases are employed to free or release the nicotine from its bonds with other elements. . . . Thus, the amount of free nicotine available to the smoker is determined by the degree of alkalinity (or pH) of the smoke as well as his own degree of alkalinity.
 
 %%page 637%%
-
-> that in making the nicotine delivery determinations strong bases are employed to free or release the nicotine from its bonds with other elements. . . . Thus, the amount of free nicotine available to the smoker is determined by the degree of alkalinity (or pH) of the smoke as well as his own degree of alkalinity.
 
 542001986-1996 at 1988-1989 (US 53135).
 
@@ -8807,11 +8693,9 @@ Researchers for Lorillard studied possible cigarette additives that would facili
 
 1707\. During the April 14, 1994 hearing, the CEOs testified under oath and before television cameras to the following:18
 
-> Philip Morris did knowingly cause to be transmitted the testimony of President and Chief Executive Officer William I. Campbell. Campbell denied that nicotine is addictive, denied that Philip Morris
+> Philip Morris did knowingly cause to be transmitted the testimony of President and Chief Executive Officer William I. Campbell. Campbell denied that nicotine is addictive, denied that Philip Morris research establishes that smoking is addictive, and denied that Philip Morris manipulates the amount of nicotine contained in cigarettes.
 
 %%page 668%%
-
-> research establishes that smoking is addictive, and denied that Philip Morris manipulates the amount of nicotine contained in cigarettes.
 
 > RJR did knowingly cause to be transmitted the testimony of Chairman and Chief Executive Officer James Johnston. Johnston denied that nicotine is addictive and denied that RJR manipulates the amount of nicotine contained in cigarettes.
 
@@ -9247,11 +9131,9 @@ Ernst Wynder and Dietrich Hoffman published an article stating that reduction of
 
 > With these [invivo mucus flow and respiratory dynamics] tests as criteria we did put together a charcoal filter product with performance superior to anything in the market place. That product was known as Saratoga. Physiologically it was an outstanding cigarette. Unfortunately then after much discussion we decided not to tell the physiological story which might have appealed to a health conscious segment of the market. The product as test marketed didn't have good 'taste' and consequently was unacceptable to the public ignorant of its physiological superiority.
 
-> Strenuous efforts by Manufacturing, Leaf, and R & D to improve the taste of Saratoga were underway when the Smoking and Health Report was issued. These efforts resulted in Philip Morris USA Multifilter which has both good taste and good physiological
+> Strenuous efforts by Manufacturing, Leaf, and R & D to improve the taste of Saratoga were underway when the Smoking and Health Report was issued. These efforts resulted in Philip Morris USA Multifilter which has both good taste and good physiological performance and which was introduced into the market place last spring.
 
 %%page 703%%
-
-> performance and which was introduced into the market place last spring.
 
 > For this product we did embark on a publication and endorsement program but it was, I fear, a case of "too little and too late." The imposition of FTC rules and the Industry Advertising Code took the starch out of the program although we did make an oral presentation of the mucus flow results at a scientific meeting in Chicago.
 
@@ -9513,11 +9395,9 @@ Light brand). The primary factors limiting the overall acceptance of Premier in 
 
 1905\. Premier encountered some resistance from public health advocates, as well. In March 1988, FDA Commissioner Frank Young summarized his meeting with public health groups, stating that
 
-> [t]he health professional groups believe that FDA should assert regulatory jurisdiction over this product. They said that there were many unknown variables regarding whether this was actually a safer
+> [t]he health professional groups believe that FDA should assert regulatory jurisdiction over this product. They said that there were many unknown variables regarding whether this was actually a safer alternative to smoking conventional cigarettes. They argued that the abuse potential with this type of product could actually be higher because the general public perceives this to be a safer alternative and they firmly believe that FDA is the appropriate agency to regulate this product. . . . The health professional groups also said that introduction of this product to the market will encourage a segment of the population to continue to smoke who probably would have stopped smoking conventional cigarettes. They believe a growing population of people in this country are trying to stop smoking and the introduction of this product may encourage these people to continue to smoke and may encourage people to start to smoke at a younger age.
 
 %%page 727%%
-
-> alternative to smoking conventional cigarettes. They argued that the abuse potential with this type of product could actually be higher because the general public perceives this to be a safer alternative and they firmly believe that FDA is the appropriate agency to regulate this product. . . . The health professional groups also said that introduction of this product to the market will encourage a segment of the population to continue to smoke who probably would have stopped smoking conventional cigarettes. They believe a growing population of people in this country are trying to stop smoking and the introduction of this product may encourage these people to continue to smoke and may encourage people to start to smoke at a younger age.
 
 HHS0741270-1271 (JD 065276).
 
@@ -10160,11 +10040,9 @@ On December 17, 1959, the FTC informed tobacco manufacturers that it henceforth 
 
 2064\. The FTC's press release announcing its decision clearly described the limitations of the standardized test method it was adopting. (no bates) (JE 061264 at 1-2). The FTC stated:
 
-> No test can precisely duplicate conditions of actual human smoking and, within fairly wide limits, no one method can be said to be either "right" or "wrong." The Commission considers it most important that the test results be based on a reasonable standardized method and that they be capable of being presented to the public in a manner that is readily understandable. . . . [T]he public interest requires that all test results presented to the public be based on a uniform method used by all laboratories. Use of more than one testing method would produce
+> No test can precisely duplicate conditions of actual human smoking and, within fairly wide limits, no one method can be said to be either "right" or "wrong." The Commission considers it most important that the test results be based on a reasonable standardized method and that they be capable of being presented to the public in a manner that is readily understandable. . . . [T]he public interest requires that all test results presented to the public be based on a uniform method used by all laboratories. Use of more than one testing method would produce different results which would only serve to confuse or mislead the public.
 
 %%page 782%%
-
-> different results which would only serve to confuse or mislead the public.
 
 > The Cambridge Filter Method does not and cannot measure these many variations in human smoking habits. . . . It does not measure all of the tar and nicotine in any cigarette, but only that in the smoke drawn in the standardized machine smoking according to the prescribed method. Thus, the purpose of testing is not to determine the amount of tar and nicotine inhaled by any human smoker, but rather to determine the amount of tar and nicotine generated when a cigarette is smoked by machine in accordance with the prescribed method.
 
@@ -10224,11 +10102,9 @@ Benowitz WD, 56:6-23.
 
 > No two human smokers smoke in the same way. No individual smoker always smokes in the same fashion. The speed at which one smokes varies both among smokers, and usually also varies with the same individual under different circumstances even within the same day. Some take long puffs (or draws); some take short puffs. That variation affects the tar and nicotine quantity in the smoke generated.
 
-> Even with the same type of cigarette, individual smokers take a different number of puffs per cigarette depending upon the circumstances. When concentrating, or talking, the number of puffs is usually less. When listening, or required to listen to another person talking, the number of puffs per cigarette, as well as duration of each puff, usually increases. Smoking rates while reading a book may differ from smoking rates while viewing a television program. The number of puffs and puff duration (as well as butt length) will vary
+> Even with the same type of cigarette, individual smokers take a different number of puffs per cigarette depending upon the circumstances. When concentrating, or talking, the number of puffs is usually less. When listening, or required to listen to another person talking, the number of puffs per cigarette, as well as duration of each puff, usually increases. Smoking rates while reading a book may differ from smoking rates while viewing a television program. The number of puffs and puff duration (as well as butt length) will vary according to emotional state. Some smokers customarily put their cigarettes down in an ashtray where they burn between puffs; other smokers constantly hold cigarettes in their mouths; others hold them between their fingers.
 
 %%page 787%%
-
-> according to emotional state. Some smokers customarily put their cigarettes down in an ashtray where they burn between puffs; other smokers constantly hold cigarettes in their mouths; others hold them between their fingers.
 
 (no bates) (JD 040254 at 2); 03573029-3030 at 3029 (US 22244).
 
@@ -10238,11 +10114,9 @@ Benowitz WD, 56:6-23.
 
 2081\. Defendants suggested an analogy between the FTC tar and nicotine yields and automobile gas mileage estimates, intimating that they are both useful, albeit imperfect. As Dr. Henningfield explained, this comparison is not valid:
 
-> [W]e know through that [gas mileage] rating system that if you buy a car with a better gas mileage rating, virtually no matter how you drive it, you're going to get better mileage than a car with a worse rating. But in cigarettes, by just subtle changes in the way you smoke and things that most people don't even know about, the ventilation and the channels and the burn accelerants and all these different
+> [W]e know through that [gas mileage] rating system that if you buy a car with a better gas mileage rating, virtually no matter how you drive it, you're going to get better mileage than a car with a worse rating. But in cigarettes, by just subtle changes in the way you smoke and things that most people don't even know about, the ventilation and the channels and the burn accelerants and all these different tricks, makes those two cigarettes look the same. Thus, for example, when humans smoke Marlboro cigarettes . . . Marlboro Lights can yield approximately twice as much nicotine as the Regulars are claimed to deliver by the standard FTC method. Marlboro Ultra Lights can deliver three times their advertised rating and most of the Carlton brands can deliver seven or more times their advertised rating.
 
 %%page 788%%
-
-> tricks, makes those two cigarettes look the same. Thus, for example, when humans smoke Marlboro cigarettes . . . Marlboro Lights can yield approximately twice as much nicotine as the Regulars are claimed to deliver by the standard FTC method. Marlboro Ultra Lights can deliver three times their advertised rating and most of the Carlton brands can deliver seven or more times their advertised rating.
 
 Henningfield WD, 83:14-84:10.
 
@@ -10322,11 +10196,9 @@ Benowitz WD, 66:9-68:5.
 
 2101\. In cross-sectional studies where the participants themselves choose the tar level of their cigarettes, there is a "very shallow slope" or "very tiny slope across the range of tar and nicotine" comparing the nicotine intake of smokers of various tar levels, demonstrating that smokers who smoke cigarettes of widely varied FTC tar levels are ingesting similar amounts of nicotine. This data indicates that compensation is essentially complete. As Dr. Burns explained, the fact that lower tar smokers may show, on the whole, slightly lower levels of nicotine than higher tar smokers does not mean that the lower levels are the result of the type of cigarette, but rather that the nicotine quota of smokers able to smoke lower tar cigarettes is customarily lower:
 
-> The effect is one that one would expect to be present as a small slope, since one would expect that high yield smokers would be likely to have higher nicotine levels and that the very lowest yield cigarette smokers would be there because they don't need much nicotine. That's independent of the brand of cigarettes they smoke. That's why they chose those brands. It's not an effect of the brand that they smoke. And so you would expect to see a small slope. The fact that
+> The effect is one that one would expect to be present as a small slope, since one would expect that high yield smokers would be likely to have higher nicotine levels and that the very lowest yield cigarette smokers would be there because they don't need much nicotine. That's independent of the brand of cigarettes they smoke. That's why they chose those brands. It's not an effect of the brand that they smoke. And so you would expect to see a small slope. The fact that the slope is as small as it is suggests that . . . there is full compensation on a population level when people in the natural setting move from one brand to another.
 
 %%page 794%%
-
-> the slope is as small as it is suggests that . . . there is full compensation on a population level when people in the natural setting move from one brand to another.
 
 Dr. Benowitz's 1983 study, which showed this "very shallow slope," has been "replicated [in]numerable times by other scientists," and "those studies show basically the same picture, that there's a very shallow slope between the machine yield and cotinine levels." Burns TT, 2/16/05, 13541:8-13542:14; Benowitz WD, 67:10-18 (discussing his 1983 cross-sectional study); Benowitz TT, 11/1/04, 4564:13-15; Benowitz TT, 11/2/04, 4826:13-4827:5; see also Burns TT, 2/16/05, 13547:7-11 (indicating that the Gori and Lynch compensation study "was presented and examined in [Monograph 13] by Dr. Benowitz and was part of the data that was examined in that chapter that reached the conclusion that compensation was essentially complete").26
 
@@ -10354,11 +10226,9 @@ Farone, fact and expert witness and former Director of Applied Research at Phili
 
 2107\. Dr. Burns, an editor of the 1981 Surgeon General's Report as well as "an author, editor or reviewer for each of the annual Reports of the U.S. Surgeon General on the Health Consequences of Smoking since 1975," concluded that, in his expert opinion,
 
-> had the information available to the tobacco industry been available to the scientists preparing the 1981 Surgeon General's Report, that Report would not have drawn the erroneous conclusion that lower tar cigarettes produced lower risk or have made the recommendation that
+> had the information available to the tobacco industry been available to the scientists preparing the 1981 Surgeon General's Report, that Report would not have drawn the erroneous conclusion that lower tar cigarettes produced lower risk or have made the recommendation that smokers who could not quit were "well advised to switch to cigarettes yielding less 'tar' and nicotine."
 
 %%page 797%%
-
-> smokers who could not quit were "well advised to switch to cigarettes yielding less 'tar' and nicotine."
 
 Burns WD, 1:10-15, 12:10-11, 36:3-37:12, 55:17-56:13, 56:21-57:17; Burns TT, 2/15/05, 13311:9- 15; Burns TT, 2/16/05, 13666:25-13667:24 ("Had that information been available to us, we would not have then offered the recommendation to the population of the United States that it would be a good idea to shift to these products."); see also Burns WD, 56:14-20 ("The Surgeon General clearly expressed a concern [in the 1981 Report] about reduced yield smoking leading to compensatory increases in smoking behaviors; but, at that time, the public health community was not aware of the role of nicotine addiction in altering puffing behavior, the elasticity of delivery designed into cigarettes then on the market which facilitated compensation on the part of the smoker, or the observations made by the industry that showed compensation was essentially complete for some 'light' cigarettes. Had we known that, the recommendation would not have been made."); Burns WD, 38:10-13 (indicating that "some of the same concerns [relating to the lack of a health benefit to lower tar cigarettes] were expressed in the 1989 Surgeon General's Report").
 
@@ -10390,11 +10260,9 @@ Samet WD, 167:13-168:2.
 
 2111\. Recent studies, including the National Cancer Institute's Monograph 13 and the 2004 Surgeon General's Report, have confirmed that low tar and filtered cigarettes are no less harmful than conventional delivery and unfiltered cigarettes. The 2001 NCI Monograph 13, "Risks Associated With Smoking Cigarettes With Low Machine Measured Yields of Tar and Nicotine" ("Monograph 13") concluded:
 
-> Epidemiological and other scientific evidence, including patterns of mortality from smoking-caused diseases, does not indicate a benefit to the public health from changes in cigarette design and manufacturing over the last fifty years. . . . Widespread adoption of lower yield cigarettes in the United States has not prevented the sustained increase in lung cancer among older smokers. . . . Considering the overall exposure data for individuals selecting their own brands, there is little reason to expect that smokers of low yield
+> Epidemiological and other scientific evidence, including patterns of mortality from smoking-caused diseases, does not indicate a benefit to the public health from changes in cigarette design and manufacturing over the last fifty years. . . . Widespread adoption of lower yield cigarettes in the United States has not prevented the sustained increase in lung cancer among older smokers. . . . Considering the overall exposure data for individuals selecting their own brands, there is little reason to expect that smokers of low yield cigarettes will have a lower risk of disease than those who smoked higher yield cigarettes.
 
 %%page 800%%
-
-> cigarettes will have a lower risk of disease than those who smoked higher yield cigarettes.
 
 DXA0310399-0650 at 0422-0423, 0473 (US 58700).
 
@@ -10442,11 +10310,9 @@ Samet TT, 11/29/04, 1168:12-16; 1169:2-18.
 
 2121\. Echoing the conclusions of Monograph 13 and the 2004 Surgeon General's Report, a January 2004 article in the British Medical Journal reported on a study intended "to assess the risk of lung cancer in smokers of medium tar filter cigarettes compared with smokers of low tar and very low tar cigarettes":
 
-> There was no difference in risk among men who smoked brands rated as very low tar . . . or low tar . . . compared with those who smoked medium tar brands. The same was seen for women. . . . Men and women who smoked very low tar . . . and low tar . . . brands had risks
+> There was no difference in risk among men who smoked brands rated as very low tar . . . or low tar . . . compared with those who smoked medium tar brands. The same was seen for women. . . . Men and women who smoked very low tar . . . and low tar . . . brands had risks of lung cancer indistinguishable from those who smoked medium tar . . . brands. . . . Our finding that there was no difference in the risk of lung cancer between people who smoked medium tar filter, low tar filter, and very low tar filter cigarettes is consistent with evidence of compensatory smoking.
 
 %%page 804%%
-
-> of lung cancer indistinguishable from those who smoked medium tar . . . brands. . . . Our finding that there was no difference in the risk of lung cancer between people who smoked medium tar filter, low tar filter, and very low tar filter cigarettes is consistent with evidence of compensatory smoking.
 
 TLT1020160-0167 at 0160, 0164, 0166 (US 88622).
 
@@ -10848,11 +10714,9 @@ The document ends with the statement that "[t]he thoughts and philosophies expre
 
 2205\. John Robinson, RJR's Principal Scientist in psychopharmacology, wrote a July 25, 1983 memorandum to Alan Rodgman, titled "Critique of Smokers of Low-Yield Cigarettes Do Not Consume Less Nicotine," which essentially agreed with the conclusions in an article written by Dr. Neal Benowitz showing that smokers compensate to obtain a stable nicotine dose in their bloodstream. The article stated:
 
-> The paper itself expresses what we, in behavioral, have "felt" for quite some time. That is, smokers smoke differently than the FTC machine and may very well smoke to obtain a certain level of nicotine in their bloodstream. If a given level of nicotine in the blood is the final goal of a smoker, one would predict that he would smoke an FFT [full-flavor tar] and ULT [ultra low tar] cigarette differently. If the smoker could obtain the same nicotine in his bloodstream from an FFT and ULT cigarette by modifying his puffing/inhaling pattern, it would be expected that the blood cotinine level would be the same after smoking either cigarette on a regular basis . . . the data reported in this paper remind us of the HMSM experiment done with the German Camel and Marlboro cigarettes. While there were certain imperfections in this experiment, you may recall that the smokers apparently obtained almost exactly the same amount of nicotine no matter which of the four cigarettes they smoked. This was one of the first indications that smokers may, in fact, smoke to obtain a certain
+> The paper itself expresses what we, in behavioral, have "felt" for quite some time. That is, smokers smoke differently than the FTC machine and may very well smoke to obtain a certain level of nicotine in their bloodstream. If a given level of nicotine in the blood is the final goal of a smoker, one would predict that he would smoke an FFT [full-flavor tar] and ULT [ultra low tar] cigarette differently. If the smoker could obtain the same nicotine in his bloodstream from an FFT and ULT cigarette by modifying his puffing/inhaling pattern, it would be expected that the blood cotinine level would be the same after smoking either cigarette on a regular basis . . . the data reported in this paper remind us of the HMSM experiment done with the German Camel and Marlboro cigarettes. While there were certain imperfections in this experiment, you may recall that the smokers apparently obtained almost exactly the same amount of nicotine no matter which of the four cigarettes they smoked. This was one of the first indications that smokers may, in fact, smoke to obtain a certain level of nicotine in their bloodstream. Data like these made me feel that the data reported in this current publication are probably correct.
 
 %%page 839%%
-
-> level of nicotine in their bloodstream. Data like these made me feel that the data reported in this current publication are probably correct.
 
 502680871-0871 (US 49198); see also 508978013-8025 at 8014 (US 20819) (acknowledging that smokers who switched to low-tar products typically "compensated," and indicating that a smoker "has his or her own nicotine requirement from each cigarette" and "adjusts [his/her] smoking maneuver" to obtain the desired level of nicotine").
 
@@ -10902,11 +10766,9 @@ The report also stated: "An increase in puff volume, but not puff duration, mean
 
 2215\. A June 17, 1975 BATCo document, "Compensation for Changed Delivery," sent to several BATCo employees, including David Geoff Felton, Senior Scientist for BATCo Ltd.'s Research and Development Department, acknowledged that smokers compensate to achieve a stable dose of nicotine:
 
-> A number of experiments . . . have been interpreted as showing that compensation for changed delivery does occur. . . . Our own results showed that when the [tar] to nicotine ratio was changed more smoke was taken from the lower delivery cigarette. . . . My own view is that
+> A number of experiments . . . have been interpreted as showing that compensation for changed delivery does occur. . . . Our own results showed that when the [tar] to nicotine ratio was changed more smoke was taken from the lower delivery cigarette. . . . My own view is that compensation for changed delivery of nicotine does occur. . . . The weight of evidence at present available is for nicotine compensation [referring to several studies].
 
 %%page 843%%
-
-> compensation for changed delivery of nicotine does occur. . . . The weight of evidence at present available is for nicotine compensation [referring to several studies].
 
 105658168-8179, 8168, 8178 (US 85418).
 
@@ -10952,11 +10814,9 @@ The study further concluded that "[d]ue to the differences in the delivery of in
 
 2224\. A May 6, 1992 BATCo report, titled "Topics In Smoking and Health 'Bible'" stated:
 
-> [T]he expression of product smoke deliveries in the form of a league table, while understandable, can be misleading. There can be no guarantee that a smoker who switches from one product to another delivering a lower "tar" value will thereby reduce his intake of "tar." He may well alter the way he smokes the second product in some subtle fashion and so adjust his intake of smoke to fit his needs. In this way, he may inadvertently increase his intake of other substances in the smoke. League tables and delivery data on products may, therefore, be misleading to the consumer, who will be unaware of the sub-conscious ways in which he manipulates his own behaviour . . . smokers of higher delivery cigarettes may find that they need to smoke more low delivery cigarettes to achieve the same satisfaction. . . . Increasingly smokers will accept the alleged harmfulness of smoking, and while wishing to continue will look for health reassurance brands. . . . Smoking behaviour is also of
+> [T]he expression of product smoke deliveries in the form of a league table, while understandable, can be misleading. There can be no guarantee that a smoker who switches from one product to another delivering a lower "tar" value will thereby reduce his intake of "tar." He may well alter the way he smokes the second product in some subtle fashion and so adjust his intake of smoke to fit his needs. In this way, he may inadvertently increase his intake of other substances in the smoke. League tables and delivery data on products may, therefore, be misleading to the consumer, who will be unaware of the sub-conscious ways in which he manipulates his own behaviour . . . smokers of higher delivery cigarettes may find that they need to smoke more low delivery cigarettes to achieve the same satisfaction. . . . Increasingly smokers will accept the alleged harmfulness of smoking, and while wishing to continue will look for health reassurance brands. . . . Smoking behaviour is also of importance. For example research into the effects of low tar and nicotine cigarettes on ease of quitting smoking will be undertaken.
 
 %%page 847%%
-
-> importance. For example research into the effects of low tar and nicotine cigarettes on ease of quitting smoking will be undertaken.
 
 500887584-7709 at 7606-7607, 7614, 7679, 7704 (US 20656).
 
@@ -11036,11 +10896,9 @@ Farone TT, 10/7/04, 1865:9-23.
 
 2243\. Defendants' own expert, A. Clifton Lilly, Vice President of Technology and Research for Philip Morris, demonstrated that Philip Morris did not intend to market Merit as a "lighter tasting" cigarette, but rather as one that tasted just like a full flavor cigarette, yet with a health benefit. Lilly testified that:
 
-> The Merit brand, as I remember, came out in 1976. . . . R&D did a lot of basic research on taking tobacco and actually getting compounds for a flavor system that were the most flavorful ones in
+> The Merit brand, as I remember, came out in 1976. . . . R&D did a lot of basic research on taking tobacco and actually getting compounds for a flavor system that were the most flavorful ones in smoke, so that the cigarette would be lower tar but taste like it was more like the popular cigarettes, and they were all at that time full flavor.
 
 %%page 854%%
-
-> smoke, so that the cigarette would be lower tar but taste like it was more like the popular cigarettes, and they were all at that time full flavor.
 
 Lilly PD, Engle v. R.J. Reynolds Tobacco Co., 5/7/98, 34:3-39:2.
 
@@ -11227,11 +11085,9 @@ Packaging May Contribute To The Low Awareness Of The 'Lowest' Tar Positioning By
 
 2284\. In a document, titled "What is a Light Cigarette," dated September 29, 1998, BATCo scientist David Creighton described two "main types of Lights smokers[:] Those who start smoking Lights . . . and those who have been smoking a full flavour product and wish to switch down to a Lights." Creighton explicitly acknowledged that Lights smokers who "switch down" do so because they believe it is a "conscious . . . exchange" of taste for "the reassurance of the lower tar delivery":
 
-> [T]he down switcher, who has been used to a higher taste level[,] would prefer to maintain as much taste as possible with the
+> [T]he down switcher, who has been used to a higher taste level[,] would prefer to maintain as much taste as possible with the reassurance of the lower tar delivery of a Lights. . . . The down switcher makes a conscious decision to give up some taste satisfaction in exchange for the lower delivery potential.
 
 %%page 870%%
-
-> reassurance of the lower tar delivery of a Lights. . . . The down switcher makes a conscious decision to give up some taste satisfaction in exchange for the lower delivery potential.
 
 770009958-9964 at 9962 (US 78253).
 
@@ -11275,11 +11131,9 @@ ATC0494235-4235 (US 87912).
 
 2292\. A June 1978 Report prepared for Lorillard by Foote, Cone & Belding Advertising, Inc., "to assist Lorillard in understanding the . . . attitudes of reduced-tar smokers and their motivations in selecting brands" relayed smokers' beliefs that lower tar cigarettes had an unsatisfying lack of taste, and indicated that a low tar cigarette "with good taste" had not yet been developed, stating:
 
-> The major problem with [ultra low tar] brands was decided lack of taste/smoking impact. "Sucking on a straw in an empty glass -- nothing" was a typical reference to such brands. In point of fact, this was probably very close to the truth. . . . There is every reason to believe that ultimate technological breakthroughs will yield a tobacco product that is low in tar, with good taste. In that event, ultra low-tar
+> The major problem with [ultra low tar] brands was decided lack of taste/smoking impact. "Sucking on a straw in an empty glass -- nothing" was a typical reference to such brands. In point of fact, this was probably very close to the truth. . . . There is every reason to believe that ultimate technological breakthroughs will yield a tobacco product that is low in tar, with good taste. In that event, ultra low-tar products will serve as a viable net for all smokers who desire reduced tar plus the satisfaction of good taste.
 
 %%page 873%%
-
-> products will serve as a viable net for all smokers who desire reduced tar plus the satisfaction of good taste.
 
 03297227-7249 at 7229, 7233, 7246 (US 88631).
 
@@ -11391,11 +11245,9 @@ ATC0494235-4235 (US 87912).
 
 > 1971: "You don't cop out. Why should your cigarette? Vantage doesn't cop out. It's the only full-flavor cigarette with low 'tar' and nicotine." (no bates) (US 3545).
 
-> 1974: "Instead of telling us not to smoke, maybe they should tell us what to smoke. For years, a lot of people have been telling the smoking public not to smoke cigarettes, especially cigarettes with high 'tar' and nicotine. But the simple fact is that now more Americans are smoking than ever before. Evidently many people like to smoke and will keep on . . . no
+> 1974: "Instead of telling us not to smoke, maybe they should tell us what to smoke. For years, a lot of people have been telling the smoking public not to smoke cigarettes, especially cigarettes with high 'tar' and nicotine. But the simple fact is that now more Americans are smoking than ever before. Evidently many people like to smoke and will keep on . . . no matter what anyone says or how many times they say it. Since the cigarette critics are concerned about high 'tar' and nicotine, we would like to offer a constructive proposal. Perhaps instead of telling us not to smoke cigarettes, they can tell us what to smoke. For instance, perhaps they ought to recommend that the American public smoke Vantage cigarettes." (no bates) (US 4403); Schindler WD, 79:9-23.
 
 %%page 881%%
-
-> matter what anyone says or how many times they say it. Since the cigarette critics are concerned about high 'tar' and nicotine, we would like to offer a constructive proposal. Perhaps instead of telling us not to smoke cigarettes, they can tell us what to smoke. For instance, perhaps they ought to recommend that the American public smoke Vantage cigarettes." (no bates) (US 4403); Schindler WD, 79:9-23.
 
 > 1976: "To smoke or not to smoke. That is the question. With all the slings and arrows that have been aimed at smoking, you may well be wondering why you smoke at all." (no bates) (US 5198); Schindler WD, 78:18-79:8.
 
@@ -11421,11 +11273,9 @@ ATC0494235-4235 (US 87912).
 
 2318\. An August 5, 1980 RJR memorandum marked "RJR SECRET" from M. D. Shannon to Dr. W. M. Henly and Dr. R. A. Lloyd (all three were RJR researchers), titled "Project HR," stated:
 
-> ULT ["Ultra Low Tar"] smokers. . . . Very health conscious -- These smokers are well aware of the smoking and health controversy and have switched to ULT products in an effort to decrease "tar" intake. Many of these smokers are victims of pressure from peers and loved ones to quit or reduce smoking. Therefore, they smoke ULT brands to "get people off their backs. . . ." Feelings of guilt about smoking are very strong . . . . Many would like to quit smoking but cannot. This tends to fuel their low self-esteem. . . . These smokers do not feel good about themselves. [S]everal concepts were developed to appeal to these smokers: 1. To convince the HR target that the new brand represents a payoff or reward for his forced decision to sacrifice by going down in "tar" level. . . . 2. To convince the HR target that the new brand is a reflection of his rational, sensible decision to
+> ULT ["Ultra Low Tar"] smokers. . . . Very health conscious -- These smokers are well aware of the smoking and health controversy and have switched to ULT products in an effort to decrease "tar" intake. Many of these smokers are victims of pressure from peers and loved ones to quit or reduce smoking. Therefore, they smoke ULT brands to "get people off their backs. . . ." Feelings of guilt about smoking are very strong . . . . Many would like to quit smoking but cannot. This tends to fuel their low self-esteem. . . . These smokers do not feel good about themselves. [S]everal concepts were developed to appeal to these smokers: 1. To convince the HR target that the new brand represents a payoff or reward for his forced decision to sacrifice by going down in "tar" level. . . . 2. To convince the HR target that the new brand is a reflection of his rational, sensible decision to switch to a low "tar. . . ." Again an attempt is made to make him feel better about smoking . . . . Advertisements were developed . . . to address these concepts and present them in a manner that would be positively received by the target audience.
 
 %%page 883%%
-
-> switch to a low "tar. . . ." Again an attempt is made to make him feel better about smoking . . . . Advertisements were developed . . . to address these concepts and present them in a manner that would be positively received by the target audience.
 
 500251567-1570 at 1567-1569 (US 21563).
 
@@ -11691,11 +11541,9 @@ ATC2746877-6887 at 6877, 6878, 6887 (US 59009); compare with 1000861953-1953 (US
 
 2369\. In a July 2, 1984 letter to the FTC from Samuel B. Witt III, RJR Vice President, General Counsel, and Secretary, Witt stated:
 
-> [T]he Commission has also asked for comment on broad questions concerning "smoker compensation. . . ." In their submissions [in response,] health organizations take the position (which is not correct) that the average smoker will get the same amount of "tar" and nicotine from higher and lower "tar" cigarettes, therefore making
+> [T]he Commission has also asked for comment on broad questions concerning "smoker compensation. . . ." In their submissions [in response,] health organizations take the position (which is not correct) that the average smoker will get the same amount of "tar" and nicotine from higher and lower "tar" cigarettes, therefore making the Commission's numbers irrelevant to the consumer. RJRT, on the other hand, maintains that the average smoker will get less "tar" from smoking a low "tar" cigarette than he or she will receive from smoking a higher "tar" product, and that the average smoker of low "tar" cigarettes does not smoke more cigarettes than the average smoker of higher "tar" cigarettes.
 
 %%page 905%%
-
-> the Commission's numbers irrelevant to the consumer. RJRT, on the other hand, maintains that the average smoker will get less "tar" from smoking a low "tar" cigarette than he or she will receive from smoking a higher "tar" product, and that the average smoker of low "tar" cigarettes does not smoke more cigarettes than the average smoker of higher "tar" cigarettes.
 
 2025045756-5761 at 5760 (US 22247).
 
@@ -11879,11 +11727,9 @@ Bonhomme WD, 12:6-11; 13:17-19; 15:1-4; 16:1-7; 43:11-14.
 
 2406\. This contemplated name change is documented in a June 23, 1995 internal Philip Morris memorandum, titled "Merit 'Filter' vs. 'Lights' Test -- Research Proposal," from Lauren Schwed, Philip Morris Analyst, to Jodi Sansone, then Brand Manager for Merit at Philip Morris USA, and Rebecca Gordon, a Philip Morris USA Assistant Brand Manager under Sansone. The memorandum described the motivation behind an attached consumer research study as follows:
 
-> Merit is considering changing the name on the Parent pack from "Filter" to "Lights" in order to clarify the tar level of the cigarette. There is a thought that changing the wording on the pack to replace the word "Filter" with the word "Lights" would help clarify what the
+> Merit is considering changing the name on the Parent pack from "Filter" to "Lights" in order to clarify the tar level of the cigarette. There is a thought that changing the wording on the pack to replace the word "Filter" with the word "Lights" would help clarify what the true tar level is for Merit Parent. However, there is some concern that changing the name to "Lights" could possibly detract from the brand's flavor heritage.
 
 %%page 920%%
-
-> true tar level is for Merit Parent. However, there is some concern that changing the name to "Lights" could possibly detract from the brand's flavor heritage.
 
 2045628330-8330 (US 26955).
 
@@ -12117,11 +11963,9 @@ ADV029 0247-0249 (US 10614).
 
 2464\. A January 1979 study prepared for Philip Morris stated:
 
-> These ultra low tar smokers indicated that they are aware of the low tar levels in their brands and that they switched to them specifically because of advertising calling this fact to their attention. . . . As lower and lower tar brands become available, it would appear smokers are subject to advertising pressure and brand availability, and the opportunity for switching obviously occurs. . . . Characteristics of ultra low tar smokers were: people who want to quit . . . more interested in health. . . . When asked how they happened to switch to the brand they are now smoking many of the Carlton smokers cited advertising and tar and nicotine ratings. . . . When Carlton ads were shown in the groups, it was obvious that most respondents had seen them and were aware of the copy claims. It was these claims and other Carlton ads to which smokers referred prior to exposure and
+> These ultra low tar smokers indicated that they are aware of the low tar levels in their brands and that they switched to them specifically because of advertising calling this fact to their attention. . . . As lower and lower tar brands become available, it would appear smokers are subject to advertising pressure and brand availability, and the opportunity for switching obviously occurs. . . . Characteristics of ultra low tar smokers were: people who want to quit . . . more interested in health. . . . When asked how they happened to switch to the brand they are now smoking many of the Carlton smokers cited advertising and tar and nicotine ratings. . . . When Carlton ads were shown in the groups, it was obvious that most respondents had seen them and were aware of the copy claims. It was these claims and other Carlton ads to which smokers referred prior to exposure and when discussing the fact that advertising had been one of the factors causing them to try the brand. This would seem to indicate that ultra low tar smokers are paying attention to and being attracted by the advertising. Respondents . . . appeared to react favorably to the Triumph ads. They said that 3 mg. tar was within the ultra low tar range implying that it represented a safer cigarette.
 
 %%page 939%%
-
-> when discussing the fact that advertising had been one of the factors causing them to try the brand. This would seem to indicate that ultra low tar smokers are paying attention to and being attracted by the advertising. Respondents . . . appeared to react favorably to the Triumph ads. They said that 3 mg. tar was within the ultra low tar range implying that it represented a safer cigarette.
 
 2040066740-6766 at 6747, 6748, 6751-52, 6754, 6756, 6757 (US 20435).
 
@@ -12153,11 +11997,9 @@ ADV029 0247-0249 (US 10614).
 
 2469\. A 1990 Philip Morris document relating to "New Brand Development" in Pakistan revealed Philip Morris's knowledge that cigarette packaging can communicate "mildness" to consumers anxious about the "health/safety issue":
 
-> There was little doubt that the pack design with its reliance upon the central gold panel against a white background effectively projected the impression of a very mild cigarette. . . . The evidence as a whole seemed to indicate, in fact, that anxiety about the health safety issue had not yet reached the level where avowedly very mild
+> There was little doubt that the pack design with its reliance upon the central gold panel against a white background effectively projected the impression of a very mild cigarette. . . . The evidence as a whole seemed to indicate, in fact, that anxiety about the health safety issue had not yet reached the level where avowedly very mild cigarettes . . . could expect an extensive franchise. . . . Over time, anxiety levels would rise, as they have done in other markets and when this happened mild/light brands . . . would begin to achieve respectable sales.
 
 %%page 941%%
-
-> cigarettes . . . could expect an extensive franchise. . . . Over time, anxiety levels would rise, as they have done in other markets and when this happened mild/light brands . . . would begin to achieve respectable sales.
 
 2504008471-8519 at 8478, 8518 (US 85013).
 
@@ -12215,11 +12057,9 @@ Merlo PD, Price, 10/2/02, 96:24-101:24.
 
 2482\. Philip Morris further states on its website:
 
-> Because smokers have varying preferences, Philip Morris USA offers products with differing yields of tar and nicotine, as measured by machine methods. We believe that it is appropriate to continue to
+> Because smokers have varying preferences, Philip Morris USA offers products with differing yields of tar and nicotine, as measured by machine methods. We believe that it is appropriate to continue to differentiate our brands on this basis and that descriptors such as "lights," "ultra-lights," "medium" and "mild" help communicate these differences to adult smokers.
 
 %%page 946%%
-
-> differentiate our brands on this basis and that descriptors such as "lights," "ultra-lights," "medium" and "mild" help communicate these differences to adult smokers.
 
 TLT0770066-0088 at 0077 (US 72408); see also PM3000185282-5319 at 5289 (June 2003 Philip Morris website stating same and further stating "we believe that [low tar brand] descriptors serve as useful points of comparison for cigarette brands regarding characteristics such as strength of taste and reported tar yields . . .") (US 88095).
 
@@ -12319,11 +12159,9 @@ My impression was that Doral is less harmful.
 
 2494\. Vantage advertisements from the 1970s used purported testimonials characterizing Vantage as delivering low tar to smokers and thereby reducing the health risk from smoking:
 
-> 1972: "Why I smoke Vantage. I read the papers. I watch TV. I hear the things some of them are saying about smoking. . . . And then, frankly, all that the critics say about 'tar' and nicotine has to make an impression. Fact is, they don't make me feel
+> 1972: "Why I smoke Vantage. I read the papers. I watch TV. I hear the things some of them are saying about smoking. . . . And then, frankly, all that the critics say about 'tar' and nicotine has to make an impression. Fact is, they don't make me feel guilty about smoking Vantage." (no bates) (US 3683); Biglan WD, 377:12-379:22.
 
 %%page 951%%
-
-> guilty about smoking Vantage." (no bates) (US 3683); Biglan WD, 377:12-379:22.
 
 > 1977: "Smoking. Here's what I'm doing about it . . . like a lot of people I'm . . . aware of what's being said [about the harm of cigarette smoking]. And like a lot of people I began searching for a cigarette that could give me the taste I like with less tar. . . . Vantage. It's everything the ads say it is. . . . What am I doing about smoking? I'm smoking Vantage." (no bates) (US 5578); see also (no bates) (US 324) (1978 Vantage advertisement in Rolling Stone magazine noting same).
 
@@ -12335,11 +12173,9 @@ My impression was that Doral is less harmful.
 
 > 1978: "'Why I choose to smoke. . . . I'm not deaf to what's being said about tar. So I searched out a cigarette that would give me taste with low tar. . . . Vantage has all the taste I enjoy yet, surprisingly, much less tar than my old brand." ADV017 1589-1591 (US 5756).
 
-> 1978: "'Vantage gives us more taste and less to argue about. My husband and I . . . [are] both aware of the things being said against high tar. So there we were facing each other every day, smoking our high-tar cigarettes and daring each other to switch to something lower. . . . Today, we both smoke Vantage. You could say we're getting less tar and we're
+> 1978: "'Vantage gives us more taste and less to argue about. My husband and I . . . [are] both aware of the things being said against high tar. So there we were facing each other every day, smoking our high-tar cigarettes and daring each other to switch to something lower. . . . Today, we both smoke Vantage. You could say we're getting less tar and we're getting along -- with Vantage." ADV108 0001-0003 (US 87504).
 
 %%page 952%%
-
-> getting along -- with Vantage." ADV108 0001-0003 (US 87504).
 
 > 1978: "These days, why do I smoke? . . . . With all the talk about smoking and high tar, it didn't take much imagination for me to conclude that the cigarette of the future would taste good and probably be low in tar as well. . . . Then I discovered Vantage. It was my kind of cigarette. It gave me taste. Pleasure. And the low tar I was looking for." (no bates) (US 295).
 
@@ -12351,11 +12187,9 @@ See also Orlowsky WD, 73:1-76:22 (discussing US 5578; 324; 239; 87456; 87457; an
 
 2495\. The following advertisements for Vantage from the 1970s are clearly encouraging health conscious smokers to switch to Vantage:
 
-> 1974: "Maybe the people who criticize smoking should stare the facts in the face. Then they might recommend that if you've decided to smoke, but are concerned about 'tar' and nicotine, you might smoke Vantage. Vantage offers smokers the rich, tobacco flavor they've come to appreciate. With a substantial cut in 'tar' and nicotine. So if you're one of those smokers who is now deciding between high 'tar' and nicotine cigarettes that taste good, and low 'tar' and nicotine cigarettes that taste like nothing, you might appreciate Vantage. . . . Vantage is
+> 1974: "Maybe the people who criticize smoking should stare the facts in the face. Then they might recommend that if you've decided to smoke, but are concerned about 'tar' and nicotine, you might smoke Vantage. Vantage offers smokers the rich, tobacco flavor they've come to appreciate. With a substantial cut in 'tar' and nicotine. So if you're one of those smokers who is now deciding between high 'tar' and nicotine cigarettes that taste good, and low 'tar' and nicotine cigarettes that taste like nothing, you might appreciate Vantage. . . . Vantage is both high in flavor and low in 'tar' and nicotine." 03496228-6630 at 6313 (US 20057).
 
 %%page 953%%
-
-> both high in flavor and low in 'tar' and nicotine." 03496228-6630 at 6313 (US 20057).
 
 > 1976: "Are you still smoking? In the years since the criticism against smoking first appeared, many people have given up cigarettes. But many more people haven't. . . . [W]e'd like to talk to. . . . [t]hat even larger group of people who are still smoking today. If you're a smoker, you've probably heard the charges leveled against 'tar' and nicotine. You may have become concerned. And chances are you even tried to do something about it. Like trying . . . low 'tar' and nicotine cigarettes. . . . Vantage cuts down substantially on the 'tar' and nicotine you may have become concerned about. . . . So, if you still smoke, but would like to cut down on 'tar' and nicotine, Vantage is one cigarette you should seriously consider."
 
@@ -12377,11 +12211,9 @@ See also Orlowsky WD, 73:1-76:22 (discussing US 5578; 324; 239; 87456; 87457; an
 
 2500\. An April 1982 research study, titled "Vantage and Merit Smokers," prepared for RJR by Social Research, Inc., stated:
 
-> Both Vantage and Merit smokers have similar early smoking histories . . . switching to lighter cigarettes to relieve physical symptoms and as an acknowledgment of increased concerns about alleged health hazards. . . . [Quoting a Vantage smoker]: "They are lighter, lower in tar and nicotine. . . . They are satisfying like a full-tar cigarette, but they are better for my health. . . . The filter seems strong and effective as a trap for 'harmful' ingredients." Vantage smokers believe that the filter itself is strong enough to catch these impurities. . . . These ideas make them think the end product is a milder and more "healthful" smoke. . . . [Quoting a Vantage smoker]: "I like the filter because
+> Both Vantage and Merit smokers have similar early smoking histories . . . switching to lighter cigarettes to relieve physical symptoms and as an acknowledgment of increased concerns about alleged health hazards. . . . [Quoting a Vantage smoker]: "They are lighter, lower in tar and nicotine. . . . They are satisfying like a full-tar cigarette, but they are better for my health. . . . The filter seems strong and effective as a trap for 'harmful' ingredients." Vantage smokers believe that the filter itself is strong enough to catch these impurities. . . . These ideas make them think the end product is a milder and more "healthful" smoke. . . . [Quoting a Vantage smoker]: "I like the filter because there's a lot of it, like it's filtering out a lot of the harmful things, like the tar."
 
 %%page 955%%
-
-> there's a lot of it, like it's filtering out a lot of the harmful things, like the tar."
 
 511469097-9250 at 9105, 9116 (US 20842) (emphasis in original); Orlowsky WD, 72:17-23; 81:4-8.
 
@@ -12415,11 +12247,9 @@ The report went on to indicate that, when respondents were asked what the words 
 
 2507\. A November 17, 1975 report prepared for RJR by Rosenfeld, Sirowitz & Lawson, Inc., titled "An Evaluation of the 120MM Market and Its Potential for RJR," stated:
 
-> Currently RJR divides the total cigarette market into three basic categories: Full Flavor; Medium Flavor; High Filtration. However,
+> Currently RJR divides the total cigarette market into three basic categories: Full Flavor; Medium Flavor; High Filtration. However, the recent rapid growth of the High Filtration segment, may be a signal that the consumer is beginning to be more health conscious than ever before, and will be even more so as time goes on. If this is the case, we believe that consumers will ultimately divide the market into three categories which in their minds would be categorized as: "Least Safe Brands" "Safer Brands" "Safest Brands."
 
 %%page 957%%
-
-> the recent rapid growth of the High Filtration segment, may be a signal that the consumer is beginning to be more health conscious than ever before, and will be even more so as time goes on. If this is the case, we believe that consumers will ultimately divide the market into three categories which in their minds would be categorized as: "Least Safe Brands" "Safer Brands" "Safest Brands."
 
 The RJR report defined the "Safer" and "Safest" brand categories as follows:
 
@@ -12451,11 +12281,9 @@ The document further stated: "ULT smokers perceive low tar claims to be credible
 
 2514\. RJR's website further stated:
 
-> Our company, like other cigarette manufacturers, uses brand descriptors such as "full flavor," "lights" and "ultra lights" to differentiate cigarette brand-styles in terms of such characteristics as
+> Our company, like other cigarette manufacturers, uses brand descriptors such as "full flavor," "lights" and "ultra lights" to differentiate cigarette brand-styles in terms of such characteristics as strength of taste, and reported "tar" and nicotine yield. These terms do not, and are not meant to, imply that any cigarette brand-style or any category of cigarettes is safer than any other.
 
 %%page 960%%
-
-> strength of taste, and reported "tar" and nicotine yield. These terms do not, and are not meant to, imply that any cigarette brand-style or any category of cigarettes is safer than any other.
 
 TLT0770095-0128 at 0111 (US 72410); Schindler WD, 64:19-65:3.
 
@@ -12503,11 +12331,9 @@ Smith further explained that, for those smokers, her research has found that the
 
 2527\. A July 27, 2000 document prepared for B&W by Kay Harwood Marketing Analysts, Inc., titled "Topline Report of Findings for Carlton Advertising Research," indicated that smokers continue to view Carlton cigarettes as healthier, stating: "Focus groups were allowed to submit two words in addition to those suggested by the group hosts. Among the words independently chosen to describe Carlton cigarettes were 'feeling healthier' and 'healthier.'" Among the Report's 'Key Findings' are the statements from the focus groups in response to several Carlton campaigns. The statements include:
 
-> Healthier -- trying to sell a healthy cigarette -- Very few people have realized that Ultra is better . . . Purity/better for you. . . . Fewer people have health problems smoking this brand . . . . This cigarette is best for you . . . better for you. . . . Clean & improved -- healthier brand; less nicotine. . . . Healthier living. . . . Carlton is healthier for you. . . . Gives next to nothing harmful -- means healthier -- Carlton is healthier for you . . . safe cigarette. . . . They are much better for you -- A healthier cigarette. . . . Healthier. . . . This is the best for you -- lowest in bad stuff. . . . Better for you, lighter smoke. . . . Carlton will make you happier and healthier. . . . Health-minded, concerned people (get healthier). . . . The safe cigarette -- Cut down
+> Healthier -- trying to sell a healthy cigarette -- Very few people have realized that Ultra is better . . . Purity/better for you. . . . Fewer people have health problems smoking this brand . . . . This cigarette is best for you . . . better for you. . . . Clean & improved -- healthier brand; less nicotine. . . . Healthier living. . . . Carlton is healthier for you. . . . Gives next to nothing harmful -- means healthier -- Carlton is healthier for you . . . safe cigarette. . . . They are much better for you -- A healthier cigarette. . . . Healthier. . . . This is the best for you -- lowest in bad stuff. . . . Better for you, lighter smoke. . . . Carlton will make you happier and healthier. . . . Health-minded, concerned people (get healthier). . . . The safe cigarette -- Cut down your risk -- Light and less harmful. . . . This will save you -- this is the solution you have been waiting for.
 
 %%page 965%%
-
-> your risk -- Light and less harmful. . . . This will save you -- this is the solution you have been waiting for.
 
 250255336-5347 at 5340, 5343-5347 (US 22031). These statements were repeated in an August 8, 2000 document prepared for B&W by Kay Harwood, Marketing Analysts, Inc. titled "Carlton Advertising Research: Report of Key Findings." 250255060-5075 at 5064, 5066-5068, 5071-5075 (US 22170).
 
@@ -12735,11 +12561,9 @@ The "Conclusions" Section stated: "Light brands are primarily perceived as . . .
 
 2571\. A 1999 BATCo presentation on marketing in Europe bearing the headings "Research" and "Heathrow Proposition" stated that many smokers want to "trade down" in tar in order to minimize risk and harm caused by their cigarettes:
 
-> [S]trong potential for a new low tar brand -- many smokers looking to trade down. . . . Low tar Minimise Risk, Maximise Pleasure. . . . New Product Proposition Low tar product with smoother yet fuller
+> [S]trong potential for a new low tar brand -- many smokers looking to trade down. . . . Low tar Minimise Risk, Maximise Pleasure. . . . New Product Proposition Low tar product with smoother yet fuller smoking experience[.] All, bar quitters, welcome proposition -- more fun/enjoyment, less harm.
 
 %%page 981%%
-
-> smoking experience[.] All, bar quitters, welcome proposition -- more fun/enjoyment, less harm.
 
 321628040-8076 at 8056, 8059, 8061 (US 22060).
 
@@ -12781,11 +12605,9 @@ ATX040070514-0519 at 0514(US 21125); see also ADV011 1575-1579 (US 3028); ADV107
 
 > 1975: "U.S. Government Report shows only one is lowest . . . Carlton." (US 88691).
 
-> 1978: "U.S. GOVERNMENT REPORT: CARLTON LOWEST. Carlton claim confirmed. Many cigarettes are using national advertising to identify themselves as 'low tar.' Consumers, however, should find out just how low these brands are–or
+> 1978: "U.S. GOVERNMENT REPORT: CARLTON LOWEST. Carlton claim confirmed. Many cigarettes are using national advertising to identify themselves as 'low tar.' Consumers, however, should find out just how low these brands are–or aren't. Based on U.S. Government Report:[^14] Carltons, Box or Menthol, have less tar than one Vantage.[^11] Carltons, Box or Menthol, have less tar than one Merit.[^11] Carltons, Box or Menthol, have less tar than one Kent Golden Lights.[^6] Carltons, Box or Menthol, have less tar than one True. . . . This same report confirms of all brands, Carlton Box to be the lowest with less than 0.5 mg. tar and 0.05 mg. nicotine." (US 5961); (US 5978).
 
 %%page 984%%
-
-> aren't. Based on U.S. Government Report:[^14] Carltons, Box or Menthol, have less tar than one Vantage.[^11] Carltons, Box or Menthol, have less tar than one Merit.[^11] Carltons, Box or Menthol, have less tar than one Kent Golden Lights.[^6] Carltons, Box or Menthol, have less tar than one True. . . . This same report confirms of all brands, Carlton Box to be the lowest with less than 0.5 mg. tar and 0.05 mg. nicotine." (US 5961); (US 5978).
 
 > 1978: "Carlton is lowest. See how Carlton stacks down in tar. Look at the latest U.S. Government figures [table comparing Carlton favorably with Winston Lights, Vantage, Salem Lights, Kent Golden Lights, Merit and True cigarettes]" (US 5811); (US 5707).
 
@@ -12807,11 +12629,9 @@ ATX040070514-0519 (US 21125); 03496228-6630 at 6309, 6310, 6580 (US 20057).
 
 2585\. A 1983 letter to H.W. Bahrenburg, American Tobacco Product Manager, from Tom Keane of Laurence, Charles & Free, Inc., discussed advertisements for American's Carlton cigarettes, stating that American would proceed with the advertisement that best communicated that Carlton was "'lowest'" in tar and nicotine:
 
-> Our recommendation was to go with the Bad -- "Compare" with the "U.S. Gov't Report." This ad did very well in the general low-tar area and in fact it was the only ad which showed a "lowest" playback on
+> Our recommendation was to go with the Bad -- "Compare" with the "U.S. Gov't Report." This ad did very well in the general low-tar area and in fact it was the only ad which showed a "lowest" playback on the primary question -- "What do you get out of this ad?". . . . [W]e are proceeding with "Compare" and "U.S. Gov't" on the new . . . ad.
 
 %%page 986%%
-
-> the primary question -- "What do you get out of this ad?". . . . [W]e are proceeding with "Compare" and "U.S. Gov't" on the new . . . ad.
 
 The advertisements attached to the letter stated: "Compare to your brand. . . . Box King -- lowest of all brands -- less than 0.01 mg. tar, 0.002 mg. nic. Carlton is lowest. . . . U.S. Gov't Report -- no brand lower than Carlton Box King -- less than 0.5 mg. tar, 0.05 mg. nic. . . . FTC Report Mar. '83." 991034809-4816 at 4809, 4816 (US 85113); see also (US 7536) (1983 Carlton advertisement that appeared in Sports Illustrated magazine).
 
@@ -12823,11 +12643,9 @@ The advertisements attached to the letter stated: "Compare to your brand. . . . 
 
 Another Carlton advertisement campaign from the late 1980s also had lowest tar as its centerpiece and implied a United States Government endorsement, listing Carlton as having lower tar than Philip Morris's Merit and RJR's Vantage cigarettes:
 
-> If you smoke. . . . Here's the latest comparative information for smokers who want lower tar & nicotine. . . . CARLTON became the first brand to put these figures right on the pack. . . . In the last 21 reports issued by the U.S. Government, no cigarette has tested lower
+> If you smoke. . . . Here's the latest comparative information for smokers who want lower tar & nicotine. . . . CARLTON became the first brand to put these figures right on the pack. . . . In the last 21 reports issued by the U.S. Government, no cigarette has tested lower than Carlton. . . . If you are interested in the tar content of your cigarette, you should compare the tar content of your cigarette vs CARLTON. If you are interested in the lowest . . . LATEST U.S. GOV'T REPORT CONFIRMS: no brand lower than Carlton Box King.
 
 %%page 987%%
-
-> than Carlton. . . . If you are interested in the tar content of your cigarette, you should compare the tar content of your cigarette vs CARLTON. If you are interested in the lowest . . . LATEST U.S. GOV'T REPORT CONFIRMS: no brand lower than Carlton Box King.
 
 MNAT00746229-6229 (US 21230); (US 8246) (1986 Carlton advertisement that appeared in Sports Illustrated magazine).
 
@@ -12897,11 +12715,9 @@ The "General Wrap-Up" stated: "Although the American public is considerably more
 
 The report added that
 
-> Kent and micronite filter may be, after years of advertising, strongly associated in smokers minds. . . . Prior research suggests that dropping micronite for five years had little effect on Kent's health filter image. This does not mean, however, that if Kent had not
+> Kent and micronite filter may be, after years of advertising, strongly associated in smokers minds. . . . Prior research suggests that dropping micronite for five years had little effect on Kent's health filter image. This does not mean, however, that if Kent had not dropped micronite for those 5 years that Kent might not have been even more strongly perceived as a health brand.
 
 %%page 992%%
-
-> dropped micronite for those 5 years that Kent might not have been even more strongly perceived as a health brand.
 
 03340192-0201 at 0195-0196 (US 29265) (emphasis in original).
 
@@ -12941,11 +12757,9 @@ The report added that
 
 2609\. Lorillard's True advertisements from the mid-1970s portrayed True as an acceptable alternative to quitting smoking, as the following examples show:
 
-> 1974: "My wife bugged me into it, would you believe it? It seemed every time I'd light up a cigarette, my wife would put on that look . . . So, we had one of our little talks. . . . Look hon, I said . . . would it make you feel better if I changed to a low tar
+> 1974: "My wife bugged me into it, would you believe it? It seemed every time I'd light up a cigarette, my wife would put on that look . . . So, we had one of our little talks. . . . Look hon, I said . . . would it make you feel better if I changed to a low tar and nicotine cigarette? She smiled. So I bought a pack of True next morning." 01767161-7161 (US 74702).
 
 %%page 995%%
-
-> and nicotine cigarette? She smiled. So I bought a pack of True next morning." 01767161-7161 (US 74702).
 
 > 1975: "Considering all I'd heard, I decided to either quit or smoke True. I smoke True." (no bates) (US 4853); (no bates) (US 4939); (no bates) (US 5000) (1976 advertisement in Sports Illustrated magazine noting same); Biglan WD, 233:20- 235:22.
 
@@ -13009,11 +12823,9 @@ The document further stated: "The most recent 6 year period has followed the tra
 
 2619\. A June 14, 1978 Lorillard document stated:
 
-> There is a major opportunity for a brand which can simultaneously satisfy smokers and address the concerns arising from the cigarette controversy. 1. Very low tar products -- line extensions and independent brands -- have been the fastest growing cigarette segment during the last two years which indicates that an ever increasing number of 'concerned' smokers are striving to go as low in tar as possible while still getting acceptable taste. There is no reason to believe that these smokers have found their ultimate reduced tar brand. More likely, they are prime candidates to move even lower over time. Comparing 1976 with 1977 sales, the ultra low tar segment grew 14% and is now accounting for a total of 24 billion
+> There is a major opportunity for a brand which can simultaneously satisfy smokers and address the concerns arising from the cigarette controversy. 1. Very low tar products -- line extensions and independent brands -- have been the fastest growing cigarette segment during the last two years which indicates that an ever increasing number of 'concerned' smokers are striving to go as low in tar as possible while still getting acceptable taste. There is no reason to believe that these smokers have found their ultimate reduced tar brand. More likely, they are prime candidates to move even lower over time. Comparing 1976 with 1977 sales, the ultra low tar segment grew 14% and is now accounting for a total of 24 billion units. We project that by 1981, the category will increase to 47 billion units, a growth of 96%."
 
 %%page 999%%
-
-> units. We project that by 1981, the category will increase to 47 billion units, a growth of 96%."
 
 00138232-8233 at 8232 (US 74655) (emphasis in original).
 
@@ -13217,11 +13029,9 @@ VXA1240104-0567 at 0272 (US 64316).
 
 2656\. In her 2000 Report the Surgeon General rejected Defendants' claims that their main purpose in advertising is to maintain brand loyalty and increase market share among current smokers and found that "[c]onsiderable evidence" supported the hypothesis that "advertising and promotion recruit new smokers." The Surgeon General stated:
 
-> Attempts to regulate advertising and promotion of tobacco products were initiated in the United States almost immediately after the appearance of the 1964 report to the Surgeon General on the health consequences of smoking. Underlying these attempts is the hypothesis that advertising and promotion recruit new smokers and retain current ones, thereby perpetuating a great risk to public health. The tobacco industry asserts that the purpose of marketing is to maintain brand loyalty. Considerable evidence has accumulated
+> Attempts to regulate advertising and promotion of tobacco products were initiated in the United States almost immediately after the appearance of the 1964 report to the Surgeon General on the health consequences of smoking. Underlying these attempts is the hypothesis that advertising and promotion recruit new smokers and retain current ones, thereby perpetuating a great risk to public health. The tobacco industry asserts that the purpose of marketing is to maintain brand loyalty. Considerable evidence has accumulated showing that advertising and promotion are perhaps the main motivators for adopting and maintaining tobacco use.
 
 %%page 1014%%
-
-> showing that advertising and promotion are perhaps the main motivators for adopting and maintaining tobacco use.
 
 Id. at 0129.
 
@@ -13257,11 +13067,9 @@ CXA0240054-0325 at 0079 (US 72977).
 
 2661\. Regarding the numerous studies which examine the role of tobacco advertising and promotion in smoking initiation, NCI's Monograph 14 concluded that:
 
-> When [these studies are] viewed as a group, . . . the conclusion that there is a causal relationship between tobacco marketing and smoking
+> When [these studies are] viewed as a group, . . . the conclusion that there is a causal relationship between tobacco marketing and smoking initiation seems unassailable. . . . . [T]obacco advertisements are particularly attractive to adolescents who, for one reason or another, are looking for an identity that the images are carefully designed to offer.
 
 %%page 1016%%
-
-> initiation seems unassailable. . . . . [T]obacco advertisements are particularly attractive to adolescents who, for one reason or another, are looking for an identity that the images are carefully designed to offer.
 
 #### Independent Studies Have Found that Marketing Is a Substantial Contributing Factor to Youth Smoking Initiation
 
@@ -13363,11 +13171,9 @@ A. Yes.
 
 > Q. Dr. Eriksen, your testimony at lines 20 of page 92 through line 5 of 93, was "That the language that I've used in my depositions and testimony and statement that there will be consistency between using the term contributing factor and a cause implying -- as long as it's understood it's not being said to be the only cause, but it's one factor among many or one cause among many. I would generally be comfortable with that being used interchangeably." And is that consistent with the testimony that you were providing today?
 
-> A. It certainly was my intent to be consistent with that. . . . I'm comfortable with using cause if it's one cause of many. It's in
+> A. It certainly was my intent to be consistent with that. . . . I'm comfortable with using cause if it's one cause of many. It's in my written testimony to that effect, and that's how I believed I was answering the question in the context of cause. If it's meant the only cause, I don't agree that's the only cause. But if it's one cause of many I'm comfortable with using the term cause.
 
 %%page 1025%%
-
-> my written testimony to that effect, and that's how I believed I was answering the question in the context of cause. If it's meant the only cause, I don't agree that's the only cause. But if it's one cause of many I'm comfortable with using the term cause.
 
 > Q. So by choosing the term "substantial contributing factor," you meant to indicate that marketing was one cause among many?
 
@@ -13413,11 +13219,9 @@ Defendants. Finally, many of their conclusions were consistent, even though they
 
 2696\. In his 1998 Report, the Surgeon General concluded:
 
-> The tobacco companies both in the past and present invest an enormous amount of money in cigarette advertising and promotion. The dollars invested, and the artful way that advertising and
+> The tobacco companies both in the past and present invest an enormous amount of money in cigarette advertising and promotion. The dollars invested, and the artful way that advertising and promotion are employed, make cigarettes a ubiquitous part of the American culture and landscape accessible to teenagers. Testimony of the tobacco companies' employees and many internal documents demonstrate that the tobacco companies' ubiquitous marketing communications have been well planned and far reaching in terms of making cigarette smoking an ever present part of our culture.
 
 %%page 1029%%
-
-> promotion are employed, make cigarettes a ubiquitous part of the American culture and landscape accessible to teenagers. Testimony of the tobacco companies' employees and many internal documents demonstrate that the tobacco companies' ubiquitous marketing communications have been well planned and far reaching in terms of making cigarette smoking an ever present part of our culture.
 
 Cigarette brand names, logos, and advertising messages are pervasive. (no bates) (US 64831) (1998 Surgeon General Report at 220). While cigarette industry advertising and sales promotion strategies have changed quickly over the years in response to different types of regulation, cigarette products still maintain a very high profile in terms of images and messages reaching teenagers. By making their cigarette products and messages ubiquitous, the tobacco companies normalize smoking and make smoking an acceptable behavior among adolescents. Tobacco companies' plans indicate their intent to make their brands an ever-present part of the culture, "while becoming a fabric of the community." 2041940822-0852 at 0822 (US 38244).
 
@@ -13515,11 +13319,9 @@ Almost one third of seniors who smoked a pack a day thought that they, too, woul
 
 2723\. In a June 12, 1970 memorandum, "Suggestions for Research to Answer Questions Raised on Philip Morris Benchmark Study," Steve Fountaine, a Philip Morris employee, discussed the discrepancy between the reported results on a market share survey and Marlboro's actual sales share. Fountaine stated that this discrepancy was "due to the fact that Marlboro has such a high percentage of its smokers among the types of young people our survey misses of necessity (on campus college students, those in the military and those under 18 years of age.)" This memorandum set forth a detailed proposal for research into the smoking habits of young people aged fourteen to seventeen:
 
-> To get a reading on the smoker percentage and Marlboro share among teenagers not covered in the Benchmark study we recommend interviewing young people at summer recreation centers (at beaches
+> To get a reading on the smoker percentage and Marlboro share among teenagers not covered in the Benchmark study we recommend interviewing young people at summer recreation centers (at beaches public pools, lakes, etc.). . . . In our opinion, this suggested approach will provide a good reading on the Marlboro share among very young smokers, as well as adding information on college student smoking habits.
 
 %%page 1039%%
-
-> public pools, lakes, etc.). . . . In our opinion, this suggested approach will provide a good reading on the Marlboro share among very young smokers, as well as adding information on college student smoking habits.
 
 2026234664-4669 at 4664, 4665-4667 (US 20424). Since 1968, Marlboro's share of the youngest demographic group has always been substantially higher than Marlboro's overall market share. Morgan PT, Minnesota v. Philip Morris, 4/24/98, 13907:12-19.
 
@@ -13551,11 +13353,9 @@ Almost one third of seniors who smoked a pack a day thought that they, too, woul
 
 2729\. The study referenced above prepared by the Roper Organization in July 1974 for Philip Morris was titled "A Study of Smoking Habits Among Young Smokers," and found that "Marlboro is the starting brand for young whites, and Kool is the starting brand for young blacks." The study questionnaire asked respondents when they started smoking and included a category for fourteen and under. The study report also stated:
 
-> We are not sure that anything can be done to halt a major exodus if one gets going among the young. This group follows the crowd, and we don't pretend to know what gets them going for one thing or
+> We are not sure that anything can be done to halt a major exodus if one gets going among the young. This group follows the crowd, and we don't pretend to know what gets them going for one thing or another. Certainly [Philip] Morris should continue efforts for Marlboro in the youth market.
 
 %%page 1042%%
-
-> another. Certainly [Philip] Morris should continue efforts for Marlboro in the youth market.
 
 1002646151-6185 at 6152, 6154-6157 (US 20140).
 
@@ -13651,11 +13451,9 @@ Johnston further stated:
 
 The report further stated:
 
-> Marlboro's growth and, presumably, its position as the brand of choice among new smokers, coincided with the Marlboro Country campaign. That was certainly a remarkable campaign and one that
+> Marlboro's growth and, presumably, its position as the brand of choice among new smokers, coincided with the Marlboro Country campaign. That was certainly a remarkable campaign and one that probably did appeal to young people, but not one that marketers would have been likely to have composed to attract young people in the 1960s.
 
 %%page 1048%%
-
-> probably did appeal to young people, but not one that marketers would have been likely to have composed to attract young people in the 1960s.
 
 2001265000-5045 at 5012, 5030 (US 20299).
 
@@ -13889,11 +13687,9 @@ The report further stated: "Both the male and female respondents thought of the 
 
 2794\. In February and March 1984, Lorillard conducted focus groups of young menthol smokers ages eighteen to twenty-four. A February 20, 1984 Lorillard document titled "Topic Guide -- Young Menthol Smokers" provided ways for an interviewer to gather information about young smokers. This document included a list of questions to ask young adults, including:
 
-> How many packs do you usually buy at a time? . . . When you buy cigarettes in a store, do you notice it if some brand has a special display? . . . Sometimes you might get a small free sample pack of a brand. Have you ever bought the brand later based on trying the sample? . . . How do you think of the cost of cigarettes compared to other things you buy -- expensive, cheap, or what? . . . Quite often there are brands on display that are being promoted at a lower price than other brands. When you see that type of offer do you ever take advantage of the lower price? . . . What do you think of the idea of being able to buy cigarettes in packs of 10 cigarettes, which would be
+> How many packs do you usually buy at a time? . . . When you buy cigarettes in a store, do you notice it if some brand has a special display? . . . Sometimes you might get a small free sample pack of a brand. Have you ever bought the brand later based on trying the sample? . . . How do you think of the cost of cigarettes compared to other things you buy -- expensive, cheap, or what? . . . Quite often there are brands on display that are being promoted at a lower price than other brands. When you see that type of offer do you ever take advantage of the lower price? . . . What do you think of the idea of being able to buy cigarettes in packs of 10 cigarettes, which would be priced at half of what you now pay for a pack? Under what circumstances can you imagine yourself buying a 10-pack?
 
 %%page 1067%%
-
-> priced at half of what you now pay for a pack? Under what circumstances can you imagine yourself buying a 10-pack?
 
 85377724-7729 at 7725-7727 (US 21078). In a March 8, 1984 memorandum, titled "Young Menthol Smoker Focus Groups," to S.T. Jones, Lorillard Director of Product Development and Marketing Research, Laurie Moroz discussed "observations and hypotheses" from these focus groups and stated: "the females in the 18 to 24 year old age group are more experimental and open to new brands than males." 85377682-7682 (US 87806); 85377680-7681 at 7680 (US 87807).
 
@@ -13941,11 +13737,9 @@ This report also stated that "Lorillard's Newport brand recognizes younger adult
 
 2804\. A July 1968 document "[p]repared for the American Tobacco Company," titled "The Position of Brighton in the St. Louis Market," stated:
 
-> The purpose of the study is to provide American Tobacco with consumer feedback on the impact of the Brighton brand. Such feedback, beyond the customary sales information that is presently available, would greatly aid the company in realistically assessing the sales performance -- not only of Brighton -- but of other new brands in test markets, and would aid the company in instituting changes in
+> The purpose of the study is to provide American Tobacco with consumer feedback on the impact of the Brighton brand. Such feedback, beyond the customary sales information that is presently available, would greatly aid the company in realistically assessing the sales performance -- not only of Brighton -- but of other new brands in test markets, and would aid the company in instituting changes in strategy (advertising, packaging, etc.) to maximize the success of new brands.
 
 %%page 1071%%
-
-> strategy (advertising, packaging, etc.) to maximize the success of new brands.
 
 The researchers telephoned approximately 4,500 individuals in the age groups of sixteen to twenty, twenty-one to thirty-four, thirty-five to forty-nine, and fifty and over. In addition, "Age and sex quotas were assigned so as to yield the correct proportions of teen-age contacts and adult male and female contacts." MNAT00405881-5912 at 5883-5585 (US 88157).
 
@@ -14343,11 +14137,9 @@ The report further stated: "The 16 to 20 year-old begins smoking for psychosocia
 
 2898\. In a December 12, 1984 Philip Morris report, titled "Cigarette Market History and Interpretation," John E. Tindall, Senior Scientist at Philip Morris, stated that, in order to discover why certain brands have captured the young smokers,
 
-> [w]e need not try to understand why young people have a herd instinct. From their choices of food, clothes, transportation, entertainment, heros [sic], friends, hangouts, etc., it is clear that they
+> [w]e need not try to understand why young people have a herd instinct. From their choices of food, clothes, transportation, entertainment, heros [sic], friends, hangouts, etc., it is clear that they do. More important to us (and probably to many other product categories) is why they make certain choices instead of others.
 
 %%page 1104%%
-
-> do. More important to us (and probably to many other product categories) is why they make certain choices instead of others.
 
 2001265000-5045 at 5030 (US 20299).
 
@@ -14531,11 +14323,9 @@ B&W designed its marketing campaigns around themes that would exploit these atti
 
 2934\. A May 26, 1975 report, titled "What Have We Learned From People? A Conceptual Summarization of 18 Focus Groups Interviews on the Subject of Smoking," was prepared for B&W by the Ted Bates Agency. A section of the report titled "How Can We Introduce Starters and Switchers to our Brands," stated: "With only very few exceptions, young people start to smoke because of their peer group." The document also stated that
 
-> an attempt to reach young smokers, starters should be based . . . on the following parameters: [p]resent the cigarette as one of a few initiations into the adult world. Present the cigarette as part of the illicit pleasure category of products and activities. . . . Consider a sampling technique to allow the young starters to actually try your brand . . . . In your ads create a situation taken from the day-to-day
+> an attempt to reach young smokers, starters should be based . . . on the following parameters: [p]resent the cigarette as one of a few initiations into the adult world. Present the cigarette as part of the illicit pleasure category of products and activities. . . . Consider a sampling technique to allow the young starters to actually try your brand . . . . In your ads create a situation taken from the day-to-day life of the young smoker but in an elegant manner have this situation touch on the basic symbols of the growing-up, maturity process. To the best of your ability (considering some legal constraints) relate the cigarette to "pot," wine, beer, sex, etc.
 
 %%page 1118%%
-
-> life of the young smoker but in an elegant manner have this situation touch on the basic symbols of the growing-up, maturity process. To the best of your ability (considering some legal constraints) relate the cigarette to "pot," wine, beer, sex, etc.
 
 680092632- 2668 at 2664-2665 (US 21693); 170043558-3593 at 3581-3582 (US 20293); 679018003-8278 (US 87928).
 
@@ -14579,11 +14369,9 @@ Marlboro Menthol through a contemporary exploitation of the Kool Indy car progra
 
 2946\. Numerous public officials, including the then-Governor of Florida and several state Attorneys General, have expressed their dismay at B&W's "B Kool" advertising campaign because of its appeal to youth. On October 22, 1997, Governor Lawton Chiles of Florida wrote to B&W stating:
 
-> I am very disturbed by B&W's most recent advertising campaign for Kool menthol cigarettes. This so-called "B Kool" campaign appears to be yet another flagrant attempt by Big Tobacco to hook another generation of teens. In addition, it clearly violates the spirit of the
+> I am very disturbed by B&W's most recent advertising campaign for Kool menthol cigarettes. This so-called "B Kool" campaign appears to be yet another flagrant attempt by Big Tobacco to hook another generation of teens. In addition, it clearly violates the spirit of the settlement agreement reached between the State of Florida and Big Tobacco.
 
 %%page 1122%%
-
-> settlement agreement reached between the State of Florida and Big Tobacco.
 
 The letter criticized the use of a young female model in the campaign who "looks like a teenager from head to toe" and the use of billboards. The Governor concluded his letter by requesting that B&W remove "these offensive billboards immediately . . . and immediately halt this campaign." 282208267-8267 (US 22099).
 
@@ -14637,11 +14425,9 @@ Maine Attorney General and Chair of the Tobacco Enforcement Committee, in a Marc
 
 2954\. A March 22, 1982 document, titled "Export Family Strategy," discussed marketing strategy for Export cigarettes, RJR's leading Canadian brand:
 
-> It is hypothesized that very young starter smokers choose Export "A" because it provides them with an instant badge of masculinity, appeals to their rebellious nature and establishes their position amongst their peers. . . . It is at this transition point (ages 18-24) that Export "A" is declining in its ability to hold the young adult males as they go through the maturing process, due to its out-dated irrelevant image. . . . Since we cannot direct our media or our creative [campaigns] to starter smokers, the optimal target group is young adult smokers between the ages of 18-24. . . . The key influencing factor to initial brand selection amongst new smokers appears to be conformity to what their friends smoke . . . . While Export "A" appears to be chosen as a first brand based on this key influencing
+> It is hypothesized that very young starter smokers choose Export "A" because it provides them with an instant badge of masculinity, appeals to their rebellious nature and establishes their position amongst their peers. . . . It is at this transition point (ages 18-24) that Export "A" is declining in its ability to hold the young adult males as they go through the maturing process, due to its out-dated irrelevant image. . . . Since we cannot direct our media or our creative [campaigns] to starter smokers, the optimal target group is young adult smokers between the ages of 18-24. . . . The key influencing factor to initial brand selection amongst new smokers appears to be conformity to what their friends smoke . . . . While Export "A" appears to be chosen as a first brand based on this key influencing factor, we must strive for peer group acceptability throughout the maturing process, for all the Export brands.
 
 %%page 1127%%
-
-> factor, we must strive for peer group acceptability throughout the maturing process, for all the Export brands.
 
 800057286-7321 at 7299 at 7302 (US 21057).
 
@@ -14749,11 +14535,9 @@ The report indicated that "advertising will be developed with the objective of c
 
 2974\. A 1988 RJR document, titled "Camel Advertising Development White Paper" provided the roadmap for RJR's repositioning of Camel with the Joe Camel campaign in order to reduce Marlboro's majority share of the young smoker market: "[O]nly about 5% of all smokers start smoking after the age of 24 . . . . The majority of younger adult smokers will stay loyal to their first brand choice." It stated that Camel's current image, conveyed through advertising, was too "old," and that advertising using younger models and themes that appealed to youth (independence, rebelliousness, etc.) could make Camel's image younger:
 
-> Camel's current existing market image (i.e., brand perceptions, not advertising perceptions) includes aspects that are highly consistent with the wants of younger adult males . . . including: independence, doesn't follow crowd, lives by own set of rules, stands up for beliefs, not afraid to express individuality, enjoys being different, won't settle for ordinary. . . . The major weaknesses in Camel's in-market image is that it is not considered by younger adult smokers to be
+> Camel's current existing market image (i.e., brand perceptions, not advertising perceptions) includes aspects that are highly consistent with the wants of younger adult males . . . including: independence, doesn't follow crowd, lives by own set of rules, stands up for beliefs, not afraid to express individuality, enjoys being different, won't settle for ordinary. . . . The major weaknesses in Camel's in-market image is that it is not considered by younger adult smokers to be contemporary, and thus is not relevant. Negative perceptions include: . . . a lot older than me. . . . In order to fully target the younger adult market, Camel must displace Marlboro as the younger adult brand. Simply speaking, Marlboro is the younger adult smoker market. . . . Marlboro's key strength relates to peer acceptability and belonging. . . . Marlboro is perceived by younger adult smokers as a brand which provides a sense of belonging to the peer group. . . . The [Camel] advertising should elicit an emotional response to positively motivate target smokers to rethink their brand choice. . . . In order to stimulate [youths] to think about brand alternatives, the advertising and brand personality must "jolt" the target consumer. Since Camel does not have a demonstrably different or unique product (rational) benefit to sell, this jolt needs to be based on an emotional response and is unlikely to be accomplished with advertising which looks conventional or traditional. Studies have shown that the so-called "hot buttons" for younger adults include some of the following themes: Escape into imagination. . . . Excitement/fun is success: Younger adults center their lives on having fun in every way possible and at every time possible. Their definition of success is "enjoying today" which differentiates them from older smokers.
 
 %%page 1136%%
-
-> contemporary, and thus is not relevant. Negative perceptions include: . . . a lot older than me. . . . In order to fully target the younger adult market, Camel must displace Marlboro as the younger adult brand. Simply speaking, Marlboro is the younger adult smoker market. . . . Marlboro's key strength relates to peer acceptability and belonging. . . . Marlboro is perceived by younger adult smokers as a brand which provides a sense of belonging to the peer group. . . . The [Camel] advertising should elicit an emotional response to positively motivate target smokers to rethink their brand choice. . . . In order to stimulate [youths] to think about brand alternatives, the advertising and brand personality must "jolt" the target consumer. Since Camel does not have a demonstrably different or unique product (rational) benefit to sell, this jolt needs to be based on an emotional response and is unlikely to be accomplished with advertising which looks conventional or traditional. Studies have shown that the so-called "hot buttons" for younger adults include some of the following themes: Escape into imagination. . . . Excitement/fun is success: Younger adults center their lives on having fun in every way possible and at every time possible. Their definition of success is "enjoying today" which differentiates them from older smokers.
 
 506768775-8784 at 8777, 8779-8783 (US 20764) (emphasis in original).
 
@@ -14891,11 +14675,9 @@ Johnston postulated that, with any general increase in cigarette prices, "I woul
 
 3008\. On September 4, 1997, James J. Morgan, President and Chief Executive Officer of Philip Morris USA, testified that
 
-> I believe that . . . higher prices in the industry, whether by excise tax or manufacturer's price increases . . . affect industry consumption, and . . . they lower industry consumption. And I believe that there are two groups of people who are . . . impacted the most by higher prices . . . and . . . both [groups have] the least disposable income. One is what I would call young adult smokers . . . people who smoke who are
+> I believe that . . . higher prices in the industry, whether by excise tax or manufacturer's price increases . . . affect industry consumption, and . . . they lower industry consumption. And I believe that there are two groups of people who are . . . impacted the most by higher prices . . . and . . . both [groups have] the least disposable income. One is what I would call young adult smokers . . . people who smoke who are arguably strapped of . . . cash, and the other [group] would be older people on fixed incomes who are also strapped of cash.
 
 %%page 1148%%
-
-> arguably strapped of . . . cash, and the other [group] would be older people on fixed incomes who are also strapped of cash.
 
 Morgan PD, Minnesota v. Philip Morris, 9/4/97, 219:23-220:15.
 
@@ -14921,11 +14703,9 @@ Morgan PD, Minnesota v. Philip Morris, 9/4/97, 219:23-220:15.
 
 3016\. A March 20, 1992 Lorillard memorandum from S.R. Benson to S.T. Jones, Director of Product Development and Marketing Research, regarding "Price Sensitivity By Age" stated that
 
-> there is some evidence that the younger adult smokers currently smoking a full price brand may be demonstrating a sensitivity towards price . . . it is clear that the younger adult, 18-24 smoker
+> there is some evidence that the younger adult smokers currently smoking a full price brand may be demonstrating a sensitivity towards price . . . it is clear that the younger adult, 18-24 smoker group, although still smoking a full price brand, 'claim' a greater sensitivity towards price than the older age groups.
 
 %%page 1150%%
-
-> group, although still smoking a full price brand, 'claim' a greater sensitivity towards price than the older age groups.
 
 82849666-9667 at 9666 (US 55569).
 
@@ -15584,11 +15364,9 @@ In describing its "marketing practices," Philip Morris states, "Philip Morris US
 
 3204\. According to Martin Orlowsky, CEO of Lorillard:
 
-> Lorillard does not and will not design or implement any marketing or promotional program intended to encourage youth to smoke cigarettes, and will continue to utilize only those advertising, promotional and marketing materials that do not, directly or indirectly, target youth. . . . Lorillard does not and will not advertise its products in publications directed primarily to persons under 21 years of age, including school, college or university media (such as athletic, theatrical or other programs), comic books or comic supplements. . . . Lorillard's advertising does not and will not depict
+> Lorillard does not and will not design or implement any marketing or promotional program intended to encourage youth to smoke cigarettes, and will continue to utilize only those advertising, promotional and marketing materials that do not, directly or indirectly, target youth. . . . Lorillard does not and will not advertise its products in publications directed primarily to persons under 21 years of age, including school, college or university media (such as athletic, theatrical or other programs), comic books or comic supplements. . . . Lorillard's advertising does not and will not depict as a smoker anyone who is or has been well known as an athlete, nor does it or will it show any smoker participating in, or obviously just having participated in, a physical activity requiring stamina or athletic conditioning beyond that of normal recreation . . . and Lorillard does not and will not take any action the primary purpose of which is to initiate, maintain, or increase the incidence of youth smoking.
 
 %%page 1210%%
-
-> as a smoker anyone who is or has been well known as an athlete, nor does it or will it show any smoker participating in, or obviously just having participated in, a physical activity requiring stamina or athletic conditioning beyond that of normal recreation . . . and Lorillard does not and will not take any action the primary purpose of which is to initiate, maintain, or increase the incidence of youth smoking.
 
 Orlowsky WD, 8:23-9:11; 82225801-5805 at 5803-5805 (US 55455).
 
@@ -15650,11 +15428,9 @@ TIOK0001287-1288 (US 78789).
 
 3219\. On the nationally televised ABC program 20/20, broadcast on October 20, 1983, Ann Browder, a Tobacco Institute spokesperson, stated: "We feel very strongly that cigarette smoking is an adult custom that one should not even consider until they've reached the age of maturity" and that the "age of maturity is 21." Browder also stated that
 
-> [c]igarette manufacturers are not interested in obtaining new business from teenagers. . . . We've been in business very well, thank you, for
+> [c]igarette manufacturers are not interested in obtaining new business from teenagers. . . . We've been in business very well, thank you, for sometime now without attempting to hook kids. We do everything possible to discourage teenage smoking.
 
 %%page 1215%%
-
-> sometime now without attempting to hook kids. We do everything possible to discourage teenage smoking.
 
 680286673-6686 at 6675-6676 (US 20999); 690149518-9531 at 9520-9521 (US 21046).
 
@@ -15814,11 +15590,9 @@ Brands: "Philip Morris does not market its products to minors and we do not want
 
 3258\. In response to a shareholder inquiry regarding youth smoking at a shareholder meeting in 1996, the Lorillard Board of Directors stated that
 
-> [f]or over 30 years, Lorillard and other cigarette manufacturers have opposed smoking by minors. The voluntary code of the cigarette industry, to which Lorillard fully subscribes, contains a variety of provisions designed to discourage youth smoking . . . and a variety of
+> [f]or over 30 years, Lorillard and other cigarette manufacturers have opposed smoking by minors. The voluntary code of the cigarette industry, to which Lorillard fully subscribes, contains a variety of provisions designed to discourage youth smoking . . . and a variety of restrictions strictly limiting the distribution of product samples. These efforts have been supplemented and enhanced over the years.
 
 %%page 1226%%
-
-> restrictions strictly limiting the distribution of product samples. These efforts have been supplemented and enhanced over the years.
 
 91762567-2592 at 2585-2586 (US 22080).
 
@@ -15938,11 +15712,9 @@ TLT0770001-0065 at 0024 (US 72407).
 
 3283\. A January 17, 1984 RJR document, titled "Questions and Answers," stated:
 
-> We do not target our advertising to minors. . . . We do not develop marketing plans against young people, we do not advertise to young people, we do not conduct consumer surveys among young people,
+> We do not target our advertising to minors. . . . We do not develop marketing plans against young people, we do not advertise to young people, we do not conduct consumer surveys among young people, and we have no intention of ever making any efforts to bring them into our market.
 
 %%page 1233%%
-
-> and we have no intention of ever making any efforts to bring them into our market.
 
 502276627-6637 at 6633 (US 20698).
 
@@ -15978,11 +15750,9 @@ The letter further stated that "peer pressure is the main influence prompting ch
 
 3291\. At a 1999 RJR shareholder meeting, in response to a shareholder inquiry regarding youth smoking, the RJR Board of Directors claimed that
 
-> Reynolds has policies and practices in place to assure that its advertising is responsible, and directed to adult and not underage smokers. Reynolds's policy prohibits any advertising research involving subjects under the age of 21. In their research about proposed new advertising, consistent with good qualitative research practices, Reynolds's researchers ask study participants whether the proposed ads are perceived as being for persons younger or older than
+> Reynolds has policies and practices in place to assure that its advertising is responsible, and directed to adult and not underage smokers. Reynolds's policy prohibits any advertising research involving subjects under the age of 21. In their research about proposed new advertising, consistent with good qualitative research practices, Reynolds's researchers ask study participants whether the proposed ads are perceived as being for persons younger or older than or about the same age as the study participants. If an ad is thought to have particular interest to persons younger than 21, it is not used.
 
 %%page 1236%%
-
-> or about the same age as the study participants. If an ad is thought to have particular interest to persons younger than 21, it is not used.
 
 519439239-9268 at 9262 (US 87748).
 
@@ -16048,11 +15818,9 @@ The letter further stated that "peer pressure is the main influence prompting ch
 
 > a. Consistency of the Association. Nearly all the retrospective and prospective studies produced comparable results, despite the fact that different methods were employed for collecting data.
 
-> b. Strength of the Association: the ratio of lung cancer rates for smokers versus non-smokers. The Committee assessed the
+> b. Strength of the Association: the ratio of lung cancer rates for smokers versus non-smokers. The Committee assessed the significance of the dose effect phenomenon, finding that risk increased with amount smoked. According to the Report:
 
 %%page 1243%%
-
-> significance of the dose effect phenomenon, finding that risk increased with amount smoked. According to the Report:
 
 > [A]verage smokers of cigarettes have a 9- to 10-fold risk of developing lung cancer, and heavy smokers, at least a 20-fold risk. Thus it would appear that the strength of the association between cigarette smoking and lung cancer must be judged to be high.
 
@@ -16132,11 +15900,9 @@ SGR). In addition, scientists had reached the important conclusion that n-nitros
 
 > Children of parents who smoke are more likely to have bronchitis and pneumonia during the first year of life, and this may be due to their being exposed to cigarette smoke in the atmosphere.
 
-> Levels of carbon monoxide which can be reached in cigarette smoke-filled environments have been shown to decrease the exercise duration required to induce angina pectoris in patients with coronary
+> Levels of carbon monoxide which can be reached in cigarette smoke-filled environments have been shown to decrease the exercise duration required to induce angina pectoris in patients with coronary artery disease . . . [and to] reduce the exercise time until onset of dyspnea in patients with hypoxic chronic lung disease."
 
 %%page 1250%%
-
-> artery disease . . . [and to] reduce the exercise time until onset of dyspnea in patients with hypoxic chronic lung disease."
 
 VXA1604926-6020 at 5449-5450 (US 64071); see Samet TT, 9/29/04, 1045:15-24.
 
@@ -16224,11 +15990,9 @@ VXA1600406-0824 at 0714 (US 64066).
 
 3342\. The EPA Risk Assessment recited the scientific standard and the types of evidence that EPA considered in concluding that secondhand smoke was a Group A carcinogen. Except for examining six more years of scientific endeavor, the types of evidence that were evaluated by the EPA were the same as those considered by the Surgeon General, the NRC, and IARC in 1986.
 
-> The weight-of-evidence analysis for lung cancer hazard identification is developed in accordance with U.S. EPA's Guidelines for Carcinogen Risk Assessment (U.S. EPA, 1986a) and established principles for evaluating epidemiological studies. The analysis
+> The weight-of-evidence analysis for lung cancer hazard identification is developed in accordance with U.S. EPA's Guidelines for Carcinogen Risk Assessment (U.S. EPA, 1986a) and established principles for evaluating epidemiological studies. The analysis considers animal bioassays and genotoxicity studies, as well as biological measurements of human uptake of tobacco smoke components and epidemiologic data on active and passive smoking. The availability of abundant and consistent human data at actual environmental levels of exposure to the specific agent (mixture) of concern, allows a hazard identification to be made with a high degree of certainty. The conclusive evidence of the dose-related lung carcinogenicity of MS in active smokers (Chapter 4), coupled with information on the chemical similarities of MS and ETS and evidence of ETS uptake in smokers (Chapter 3), is sufficient by itself to establish ETS as a known human lung carcinogen, or "Group A" carcinogen under U.S. EPA's carcinogen classification system. In addition, the document concludes that the overall results of 30 epidemiological studies on lung cancer and passive smoking (Chapter 5), using spousal smoking as a surrogate of ETS exposure for female never smokers, similarly justify a Group A classification.
 
 %%page 1257%%
-
-> considers animal bioassays and genotoxicity studies, as well as biological measurements of human uptake of tobacco smoke components and epidemiologic data on active and passive smoking. The availability of abundant and consistent human data at actual environmental levels of exposure to the specific agent (mixture) of concern, allows a hazard identification to be made with a high degree of certainty. The conclusive evidence of the dose-related lung carcinogenicity of MS in active smokers (Chapter 4), coupled with information on the chemical similarities of MS and ETS and evidence of ETS uptake in smokers (Chapter 3), is sufficient by itself to establish ETS as a known human lung carcinogen, or "Group A" carcinogen under U.S. EPA's carcinogen classification system. In addition, the document concludes that the overall results of 30 epidemiological studies on lung cancer and passive smoking (Chapter 5), using spousal smoking as a surrogate of ETS exposure for female never smokers, similarly justify a Group A classification.
 
 DXA0390094-0699 at 0116-0117 (US 88654).
 
@@ -16472,11 +16236,9 @@ Fractions, and Neutral Fractions Activities in the Salmonella/Microsome Assay," 
 
 > In this context the most important question is: which SS-components are responsible for the irritative (biological) effects of SS. . . .
 
-> Our 1st starting point to clarify these questions came from previous inhalation studies which showed that the irritative activity of SS was nearly 4 times higher than that of mainstream smoke (MS), based on body weight development and histological changes in the nasal mucosa and the larynx. The comparison of the smoke composition of MS with SS shows that in SS the concentrations of aldehydes and
+> Our 1st starting point to clarify these questions came from previous inhalation studies which showed that the irritative activity of SS was nearly 4 times higher than that of mainstream smoke (MS), based on body weight development and histological changes in the nasal mucosa and the larynx. The comparison of the smoke composition of MS with SS shows that in SS the concentrations of aldehydes and ammonia are much higher than in MS. Therefore, it was supposed that these components are responsible for the irritative effects of SS.
 
 %%page 1276%%
-
-> ammonia are much higher than in MS. Therefore, it was supposed that these components are responsible for the irritative effects of SS.
 
 2028986635-6654 at 6635-6636 (US 89330).
 
@@ -16572,11 +16334,9 @@ Fractions, and Neutral Fractions Activities in the Salmonella/Microsome Assay," 
 
 > Toxicity Testing. At the April meeting, Dr. Osdene (PM) requested delaying further discussions on the Deskin (RJR) proposal until May. Dr. Pages (PM) now reports that PM has had a toxicity project on ETS going on for three years in a Cologne, Germany laboratory. . . . Animals are whole body exposed to sidestream smoke greatly diluted with air. Exposure is carried out in a chamber in which diluted sidestream smoke is continuously fed while exhausting an equal volume of chamber air. Both rats and hamsters are being exposed. Animals are exposed seven hours/day for 21 consecutive days. . . .
 
-> At higher concentrations of particulate,[^20] ug/m3 and 60 ug/m3, histological changes occur. The changes at 60 ug/m3 are greater than
+> At higher concentrations of particulate,[^20] ug/m3 and 60 ug/m3, histological changes occur. The changes at 60 ug/m3 are greater than at 20 ug/m3. Changes are reversible with cessation of exposure. PM estimates that the diluted sidestream is about three times as active as mainstream smoke at some concentrations of particulate.
 
 %%page 1281%%
-
-> at 20 ug/m3. Changes are reversible with cessation of exposure. PM estimates that the diluted sidestream is about three times as active as mainstream smoke at some concentrations of particulate.
 
 655042500-2503 at 2502 (US 22921*); 505347180-7186 at 7185 (US 85779); 504933596-3702 (US 24219).
 
@@ -16872,11 +16632,9 @@ TLT0601093-1095 at 1094 (US 65131); TLT0601100-1104 at 1101-1102 (US 65133).
 
 > Indoor air testing/surveys, by ACVA. The purpose of the project was to show that the "vast majority of [indoor air] complaints are directly caused by airborne dust, bacteria, and/or fungi" as well as poor ventilation, "and not to the presence of ETS." Approved funding via ETSAG: $13,800.
 
-> Portable air sampler, developed by Reynolds. The purpose of the sampler was to take "measurements" of air in aircraft, restaurants,
+> Portable air sampler, developed by Reynolds. The purpose of the sampler was to take "measurements" of air in aircraft, restaurants, homes, and workplaces, to show that everyday indoor air contains very small amounts of ETS. While the sampler was created by Reynolds, "scientists from PM, B&W, Lorillard and Reynolds will participate." Testing was carried out in numerous cities -- including New York, Ottawa, Dallas, and others -- using the Reynolds apparatus. The results were then used to resist smoking restrictions in those cities.
 
 %%page 1301%%
-
-> homes, and workplaces, to show that everyday indoor air contains very small amounts of ETS. While the sampler was created by Reynolds, "scientists from PM, B&W, Lorillard and Reynolds will participate." Testing was carried out in numerous cities -- including New York, Ottawa, Dallas, and others -- using the Reynolds apparatus. The results were then used to resist smoking restrictions in those cities.
 
 > Epidemiological and other scientific critiques, by industry consultants Lee Husting, Theodor Sterling, David Sterling, Demetrios Moschandreas, Marvin Kastenbaum, and James Kilpatrick. The purpose of these critiques was to cast doubt on the epidemiological studies showing an association between passive smoking and lung cancer. Known approved funding via ETSAG: $198,034 (Husting); $70,000 (D. Sterling).
 
@@ -17082,11 +16840,9 @@ TIDN0002710-2719 at 2711 (US 65548); 506617595-7596 (US 20760).
 
 3494\. In an October 8, 1987 memorandum from Helmut Gaisch, Director of FTR's Science and Technology, to Lee Pollak, in-house counsel in New York, Gaisch advised that Operation Downunder was being implemented in Europe with other cigarette companies and Covington & Burling. Gaisch described the link between Downunder and the recruitment of scientific consultants, or "whitecoats" as they were called, who would work on behalf of the industry throughout the world:
 
-> Within the framework of the scientific part of "Downunder," we are involved in the process of enlisting the assistance of scientific experts on a world-wide basis. As there are other tobacco companies involved, e.g. RJR, John Rupp of C&B has been charged with coordinating this part of the project. . . . I have personally arranged
+> Within the framework of the scientific part of "Downunder," we are involved in the process of enlisting the assistance of scientific experts on a world-wide basis. As there are other tobacco companies involved, e.g. RJR, John Rupp of C&B has been charged with coordinating this part of the project. . . . I have personally arranged meetings of John Rupp with key "whitecoats" in a number of European countries.
 
 %%page 1317%%
-
-> meetings of John Rupp with key "whitecoats" in a number of European countries.
 
 2501000364-0365 at 0365 (US 45866).
 
@@ -17450,11 +17206,9 @@ AFCO v. Tobacco Institute (Aust) (1991) 27 FCR 149; upheld on appeal Tobacco Ins
 
 3582\. A September 2, 1993 Philip Morris memorandum discussing the IARC study warned that:
 
-> The results are anticipated to have significant credibility both because this study consists of original research and because IARC itself has a solid reputation. Preliminary indications suggest that the study may
+> The results are anticipated to have significant credibility both because this study consists of original research and because IARC itself has a solid reputation. Preliminary indications suggest that the study may find a very weak, but positive link between ETS exposure and lung cancer in non-smokers.
 
 %%page 1343%%
-
-> find a very weak, but positive link between ETS exposure and lung cancer in non-smokers.
 
 2501117793-7797 at 7793 (US 27932).
 
@@ -17772,11 +17526,9 @@ IAPAG and CEHHT came from Covington & Burling, even though the money originated 
 
 > Scientific Witness Team. TI now has 23 consulting scientists whose businesses are to market their scientific expertise. Their principal mission is to testify before state and local legislative bodies on ETS and indoor air quality issues. They also respond to adverse articles in scientific technical, and general audience publications by submitting letters to editors. They attend and report on meetings of scientific organizations. . . . Members of the scientific witness team have made 48 legislative appearances and conducted 30 media tours to date this year. . . .
 
-> Foreign Scientists. This strategy is to bring a "foreign" perspective on ETS science to U.S. journalists through the use of the industry's overseas consulting scientists. Through editorial board briefings and
+> Foreign Scientists. This strategy is to bring a "foreign" perspective on ETS science to U.S. journalists through the use of the industry's overseas consulting scientists. Through editorial board briefings and interviews with science and health reporters, these scientists will suggest that the U.S. understanding of ETS science is skewed by anti-smoker media hype, and that the U.S. response to ETS science is out of step with the rest of the world. . . . Next year we anticipate foreign scientists conducting at least one media tour per month in connection with attendance at scientific meetings.
 
 %%page 1365%%
-
-> interviews with science and health reporters, these scientists will suggest that the U.S. understanding of ETS science is skewed by anti-smoker media hype, and that the U.S. response to ETS science is out of step with the rest of the world. . . . Next year we anticipate foreign scientists conducting at least one media tour per month in connection with attendance at scientific meetings.
 
 TIDN0004239-4248 at 4239-4240 (US 75287).
 
@@ -17818,11 +17570,9 @@ None of the letters disclosed that tobacco industry money had funded them. TIMN0
 
 3655\. In 1989, ARIA created an organization called Indoor Air International (IAI), a group to address scientific issues related to indoor air quality around the world. In a March 1, 1990, memorandum on the European Consultancy Program, John Rupp noted:
 
-> Our consultants have created the world's only learned scientific society addressing questions of indoor air quality. The society (Indoor Air International) is seeking memberships from all those interested in IAQ issues throughout the world. It will soon have its own periodic newsletter . . . its own scientific journal. . . . The
+> Our consultants have created the world's only learned scientific society addressing questions of indoor air quality. The society (Indoor Air International) is seeking memberships from all those interested in IAQ issues throughout the world. It will soon have its own periodic newsletter . . . its own scientific journal. . . . The society will sponsor meetings and conferences . . . and thus can serve as an independent and accepted source of ideas and research regarding IAQ to the public and the scientific community. . . . We are of course including Asian and American consultants in the society, so as to provide worldwide coverage on IAQ issues.
 
 %%page 1368%%
-
-> society will sponsor meetings and conferences . . . and thus can serve as an independent and accepted source of ideas and research regarding IAQ to the public and the scientific community. . . . We are of course including Asian and American consultants in the society, so as to provide worldwide coverage on IAQ issues.
 
 2500048956-8969 at 8960 (US 27901).
 
@@ -17848,11 +17598,9 @@ None of the letters disclosed that tobacco industry money had funded them. TIMN0
 
 3661\. Geoffrey Bible, Executive Vice President of Philip Morris International, was kept informed as to the progress and achievements of the ETS Consultancy Program, and specifically ARIA and IAI. In 1991 Helmut Gaisch provided Bible an update:
 
-> ARIA, an informal group, and IAI, a registered association, have made quite some progress during the recent months. It should be stressed that most act independently and are seen to be independent of us. IAI, Indoor Air International, who deal with the broad topic of the indoor environment, have a newsletter and a learned journal
+> ARIA, an informal group, and IAI, a registered association, have made quite some progress during the recent months. It should be stressed that most act independently and are seen to be independent of us. IAI, Indoor Air International, who deal with the broad topic of the indoor environment, have a newsletter and a learned journal published by the respected Swiss scientific publishing house Karger. IAI have conducted large and successful international meetings in Lisbon and Montreux. IAI will jointly sponsor meetings in the near future with universities, government agencies and independent societies in Paris, Pavia, Perogia, Budapest, Prague, Bangkok, Bratislava, Athens and Rotterdam. . . . IAI members have met with governmental ministers and officials in several countries. . . . In all, no other resource gives the industry any similar access to the scientific community, government and those who make decisions about IAQ issues and standards. The key to this success is that an institution of growing professional authority was created, an institution that has developed an identity of its own.
 
 %%page 1370%%
-
-> published by the respected Swiss scientific publishing house Karger. IAI have conducted large and successful international meetings in Lisbon and Montreux. IAI will jointly sponsor meetings in the near future with universities, government agencies and independent societies in Paris, Pavia, Perogia, Budapest, Prague, Bangkok, Bratislava, Athens and Rotterdam. . . . IAI members have met with governmental ministers and officials in several countries. . . . In all, no other resource gives the industry any similar access to the scientific community, government and those who make decisions about IAQ issues and standards. The key to this success is that an institution of growing professional authority was created, an institution that has developed an identity of its own.
 
 2023856111A-6112 at 6111A-6112 (US 23708*).
 
@@ -17951,11 +17699,9 @@ WD, 12:19-14:16 (1985 home study); 51:8-53:13 (New York City study); 36:10-37:7 
 
 3686\. The 1974 Bermuda papers were incorporated into a broad industry "Position Paper" on passive/public smoking distributed to Defendants as part of the operations of ICOSI, the international tobacco industry group. ICOSI distributed this "Position Paper" in order to coordinate the responses of the manufacturers on a number of smoking and health issues. With respect to passive smoking, the position paper stated:
 
-> In 1974, a workshop (organized by, among others, Dr. Rylander of the Universities of Geneva and Gothenburg) was attended by scientists from all over the world to consider the health consequences of
+> In 1974, a workshop (organized by, among others, Dr. Rylander of the Universities of Geneva and Gothenburg) was attended by scientists from all over the world to consider the health consequences of atmospheric tobacco smoke. These scientists were unable to conclude that cigarette smoking is a hazard to non-smokers.
 
 %%page 1379%%
-
-> atmospheric tobacco smoke. These scientists were unable to conclude that cigarette smoking is a hazard to non-smokers.
 
 513886735-6773 at 6737-6738 (US 87377); 500876807-6812 (US 87378).
 
@@ -18237,11 +17983,9 @@ PAPERS
 
 3747\. The American Journal of Epidemiology (AJE) rejected the paper on the basis of flaws that, in its view, could not be remedied. The editor-in-chief informed Lee in his May 17, 1994 letter:
 
-> Both reviewers found the overall response rate of 33% to be unacceptable, particularly since generalizations are made to population-based studies. Furthermore, the sampling approach is not adequately described and a "semi-random" approach may not be unbiased. Can the results obtained in the 1990s be extrapolated to the
+> Both reviewers found the overall response rate of 33% to be unacceptable, particularly since generalizations are made to population-based studies. Furthermore, the sampling approach is not adequately described and a "semi-random" approach may not be unbiased. Can the results obtained in the 1990s be extrapolated to the reported studies, particularly the cohort study of Hirayama in which the smoking information was collected decades earlier?
 
 %%page 1400%%
-
-> reported studies, particularly the cohort study of Hirayama in which the smoking information was collected decades earlier?
 
 > The reviewers also questioned the basis of the estimation of the misclassification bias and the criteria used to select the factors that you considered as potential confounding factors. Both reviewers identified a number of other limitations of the manuscript, including errors in the tables and possible miscalculations. Given the low response rate, revision would not address the principal concern of the two reviewers.
 
@@ -18443,11 +18187,9 @@ TIMN0121194-1205 at 1196 (US 85358). Previous ads had already generated 10,000 r
 
 3798\. In October 1983, the Tobacco Institute ran another advertisement in the series called "Answers to the most asked questions about cigarettes," posing the question "What happens to cigarette smoke in the air?" The ad ran in the Wall Street Journal and other news media. Among other things, the ad stated,
 
-> Even the U.S. Surgeon General, an outspoken critic of smoking, said in 1982 that the available evidence is not sufficient to conclude that other people's smoke causes disease in nonsmokers. The fact is, no
+> Even the U.S. Surgeon General, an outspoken critic of smoking, said in 1982 that the available evidence is not sufficient to conclude that other people's smoke causes disease in nonsmokers. The fact is, no claim of adverse health effect of cigarette smoke on a healthy nonsmoker has yet been proved.
 
 %%page 1416%%
-
-> claim of adverse health effect of cigarette smoke on a healthy nonsmoker has yet been proved.
 
 TLT0601093-1095 at 1094 (US 65131); TLT0601100-1104 at 1101-1102 (US 65133).
 
@@ -18489,11 +18231,9 @@ TLT0601093-1095 at 1094 (US 65131); TLT0601100-1104 at 1101-1102 (US 65133).
 
 3807\. In November 1989, EPA had requested comments on a draft document titled "Environmental Tobacco Smoke: A Compendium of Technical Information," a companion document to the upcoming ETS Risk Assessment. TI11951245-1685 at 1251 (US 85699). In its February 1990 comments to EPA, the Tobacco Institute relied heavily on the conclusions of the McGill symposium, an industry funded and managed conference discussed Section V(G)(6)(a)((7))((e)), supra, but did not disclose the connection:
 
-> In addition, we would like to point out that in November of this past year, a symposium on ETS involving some 80 scientists from 20 countries was held at McGill University in Montreal. The proceedings of the symposium reflect a thorough, up-to-date discussion of the relevant literature. We believe that the results of this conference -- which concluded, overall, that ETS has not been shown to present a health hazard to nonsmokers -- should be carefully considered in
+> In addition, we would like to point out that in November of this past year, a symposium on ETS involving some 80 scientists from 20 countries was held at McGill University in Montreal. The proceedings of the symposium reflect a thorough, up-to-date discussion of the relevant literature. We believe that the results of this conference -- which concluded, overall, that ETS has not been shown to present a health hazard to nonsmokers -- should be carefully considered in further development of the EPA Compendium. Accordingly, we are transmitting copies of the McGill proceedings for use by EPA and its consulting authors.
 
 %%page 1419%%
-
-> further development of the EPA Compendium. Accordingly, we are transmitting copies of the McGill proceedings for use by EPA and its consulting authors.
 
 TI11951245-1685 at 1254 (US 85699).
 
@@ -18641,11 +18381,9 @@ TLT0231830-TLT0231910 at 1844 (US 76316).
 
 3841\. The draft was forwarded to Roger Walk, a Philip Morris scientist in Europe (and INBIFO Scientific Adviser), who forwarded his comments to Raymond Lau. According to an undated Philip Morris document, a Philip Morris employee reviewed Walk's and Lau's comments, then responded to Desel with the following revision to the paragraph on lung cancer and heart disease:
 
-> The conclusions reached by governmental authorities and the public health community with respect to lung cancer and heart disease in
+> The conclusions reached by governmental authorities and the public health community with respect to lung cancer and heart disease in non-smoking adults are based on a large number of scientific studies that have investigated the association of reported ETS exposure with these health end points. These studies have shown a small, but generally consistent, increase in the relative risk of contracting these diseases for non-smokers reportedly exposed to ETS.
 
 %%page 1431%%
-
-> non-smoking adults are based on a large number of scientific studies that have investigated the association of reported ETS exposure with these health end points. These studies have shown a small, but generally consistent, increase in the relative risk of contracting these diseases for non-smokers reportedly exposed to ETS.
 
 2085126542-6544 at 6542 (US 92059).
 
@@ -18851,11 +18589,9 @@ Id. at 61:3-6.
 
 3894\. At the NYC meeting, lawyers Nick Cannar and Kendrick Wells:
 
-> agreed that the cost sharing agreement would be revised to specifically state that BATCo owned the documents that it created
+> agreed that the cost sharing agreement would be revised to specifically state that BATCo owned the documents that it created and that it could demand them back at any time. So, for example, the thought was that if lawsuits in the United States were seeking documents created by the Fundamental Research Center, then BATCo could demand all copies of the documents back from the United States and Brown & Williamson would be saved from having to produce them in litigation.
 
 %%page 1449%%
-
-> and that it could demand them back at any time. So, for example, the thought was that if lawsuits in the United States were seeking documents created by the Fundamental Research Center, then BATCo could demand all copies of the documents back from the United States and Brown & Williamson would be saved from having to produce them in litigation.
 
 Wigand WD, 28:14-29:4.
 
@@ -18863,11 +18599,9 @@ Wigand WD, 28:14-29:4.
 
 3896\. In a May 1991 memorandum from Kendrick Wells to Mick McGraw, B&W General Counsel, Wells wrote:
 
-> Jeff [Wigand] believes that he now sends me a copy of all documents from BATCo . . . in the nature of meeting reports and scientific memos. He also sends appropriate scientific research reports. I told him that it was important that we had an opportunity to review the BATCo. materials. As a case in point, I recommended that we should follow up with BATCo. on statements made in a set of studies done
+> Jeff [Wigand] believes that he now sends me a copy of all documents from BATCo . . . in the nature of meeting reports and scientific memos. He also sends appropriate scientific research reports. I told him that it was important that we had an opportunity to review the BATCo. materials. As a case in point, I recommended that we should follow up with BATCo. on statements made in a set of studies done for BATCo. at Harwell. They include statements that means are available which will remove minute foreign materials from tobacco. B&W R&D looked at this question a year or so ago and decided that no such means existed. The question could be involved in a safer product claim. Thus, we should communicate with BATCo. to discuss their assertion that such means are available.
 
 %%page 1450%%
-
-> for BATCo. at Harwell. They include statements that means are available which will remove minute foreign materials from tobacco. B&W R&D looked at this question a year or so ago and decided that no such means existed. The question could be involved in a safer product claim. Thus, we should communicate with BATCo. to discuss their assertion that such means are available.
 
 680901663-1665 at 1664 (US 79219); see also Wigand WD, 76:25-77:28.
 
@@ -18963,11 +18697,9 @@ Department could tell the scientists that these sorts of statements could have a
 
 ***
 
-> Therefore, I am advising Jerry Osmalov to continue sending samples to Neuchatel for transshipment to INBIFO. If this procedure is
+> Therefore, I am advising Jerry Osmalov to continue sending samples to Neuchatel for transshipment to INBIFO. If this procedure is unacceptable to you, perhaps we should consider a "dummy" mailing address in Koln for the receipt of samples. The written analytical data will still have to be routed through FTR if we are to avoid direct contact with INBIFO and Philip Morris U.S.A.
 
 %%page 1456%%
-
-> unacceptable to you, perhaps we should consider a "dummy" mailing address in Koln for the receipt of samples. The written analytical data will still have to be routed through FTR if we are to avoid direct contact with INBIFO and Philip Morris U.S.A.
 
 2000512794-2795 (US 20295).
 
@@ -19163,11 +18895,9 @@ Legal for BATCo and the Director of Legal Services for Wills. Cannar played a ce
 
 Cannar TT, 06/21/04 order (US 16236),39 3:16-21, 4:9-14. With respect to Cannar's repeated assertions against self-incrimination, Justice Brownie found the assertions "spectacularly" suspect given that when the self-incrimination claim was overruled, Cannar would simply assert a lack of memory. In this regard, Justice Brownie stated:
 
-> some of the objections can scarcely be regarded as reasonably taken. For example, he did not commence to work for any tobacco company until 1981, but he claimed privilege against self-incrimination in respect of such matters as his graduating in law in 1969 and the
+> some of the objections can scarcely be regarded as reasonably taken. For example, he did not commence to work for any tobacco company until 1981, but he claimed privilege against self-incrimination in respect of such matters as his graduating in law in 1969 and the details of his legal career before 1981. These are merely the most spectacularly unimpressive claims for privilege.
 
 %%page 1471%%
-
-> details of his legal career before 1981. These are merely the most spectacularly unimpressive claims for privilege.
 
 ***
 
@@ -19209,11 +18939,9 @@ Gulson WD, 16:21-17:7, 17:24-18:6.
 
 Gulson WD, 29:20-30:5. Foyle also wrote:
 
-> For purposes of this exercise it can be assumed that, over the years, Wills has received copies of most of the sensitive documents generated by BATCo but that most of these (with the exception of the
+> For purposes of this exercise it can be assumed that, over the years, Wills has received copies of most of the sensitive documents generated by BATCo but that most of these (with the exception of the research reports) will have been destroyed as a result of the [1985] retention policy. It should also be assumed that a number of Wills employees have a detailed knowledge of the subjects to which many of the sensitive documents referred.
 
 %%page 1475%%
-
-> research reports) will have been destroyed as a result of the [1985] retention policy. It should also be assumed that a number of Wills employees have a detailed knowledge of the subjects to which many of the sensitive documents referred.
 
 McCabe at ¶ 98.
 
@@ -19345,11 +19073,9 @@ Id. at 16:22-24.
 
 3972\. A primary focus of the Wills Document Retention Policy and the related policies at other BAT Group operating companies was to prevent any weak links in terms of the production of scientific documents in litigation by one BAT Group company that would come back to haunt, by attribution, another BAT Group company. The concern was explained by Wills in-house counsel, Frederick Gulson as follows:
 
-> The central research facility for the various BAT Group operating companies around the world was located at Southampton in England. Research from Southampton would be distributed to the other BAT Group companies around the world, including Wills. In addition, other BAT operating companies had their own research departments and facilities of varying sizes. The facility at Wills was not particularly big, but there were more significant research facilities at some of the larger operating companies, including Brown & Williamson in the United States, and BAT Germany's operating company in Hamburg. The companies all shared research. If incriminating smoking and health research documents were discovered by the public or a plaintiff in Australia, not only would the documents have been shared with the rest of the BAT Group companies, it probably came from one of the other BAT Group companies. As a result, a failure by Wills to safeguard sensitive
+> The central research facility for the various BAT Group operating companies around the world was located at Southampton in England. Research from Southampton would be distributed to the other BAT Group companies around the world, including Wills. In addition, other BAT operating companies had their own research departments and facilities of varying sizes. The facility at Wills was not particularly big, but there were more significant research facilities at some of the larger operating companies, including Brown & Williamson in the United States, and BAT Germany's operating company in Hamburg. The companies all shared research. If incriminating smoking and health research documents were discovered by the public or a plaintiff in Australia, not only would the documents have been shared with the rest of the BAT Group companies, it probably came from one of the other BAT Group companies. As a result, a failure by Wills to safeguard sensitive documents in Australia, would threaten BAT operating companies across the globe. It was for this reason that the Document Retention Policy received such attention.
 
 %%page 1484%%
-
-> documents in Australia, would threaten BAT operating companies across the globe. It was for this reason that the Document Retention Policy received such attention.
 
 Id. at 6:4-24, 9:24-10:16.
 
@@ -19685,11 +19411,9 @@ manipulation, and low tar cigarettes, in order to protect themselves from smokin
 
 4049\. The MSA states:
 
-> (q) Prohibition on Agreements to Suppress Research. No Participating Manufacturer may enter into any contract, combination or conspiracy with any other Tobacco Product Manufacturer that has the purpose or effect of: (1) limiting competition in the production or distribution of information about health hazards or other consequences of the use of their products; (2) limiting or suppressing research into smoking
+> (q) Prohibition on Agreements to Suppress Research. No Participating Manufacturer may enter into any contract, combination or conspiracy with any other Tobacco Product Manufacturer that has the purpose or effect of: (1) limiting competition in the production or distribution of information about health hazards or other consequences of the use of their products; (2) limiting or suppressing research into smoking and health; or (3) limiting or suppressing research into the marketing or development of new products. . . .
 
 %%page 1513%%
-
-> and health; or (3) limiting or suppressing research into the marketing or development of new products. . . .
 
 (no bates) (JD045158 at §III(q)).
 
@@ -19713,11 +19437,9 @@ manipulation, and low tar cigarettes, in order to protect themselves from smokin
 
 > -- so-called "Brand Name Merchandise" -- caps, jackets, bags or similar apparel or consumer merchandise bearing tobacco brand names;
 
-> -- payments for product placement -- in other words, payments to another person or entity to "use, display or make reference
+> -- payments for product placement -- in other words, payments to another person or entity to "use, display or make reference to" any tobacco product in any "motion picture, television show, theatrical production or other live performance, live or recorded performance of music, commercial film or video, or video game";
 
 %%page 1514%%
-
-> to" any tobacco product in any "motion picture, television show, theatrical production or other live performance, live or recorded performance of music, commercial film or video, or video game";
 
 > -- distribution of free samples of tobacco products except in adult-only facilities;
 
@@ -19969,11 +19691,9 @@ See, e.g., Sedima, S.P.R.L. v. Imrex Co., 473 U.S. 479, 496-97 (1985); United St
 
 All the alleged predicate racketeering acts in this case involve mail or wire fraud offenses, in violation of 18 U.S.C. § 1341 or § 1343. The mail fraud statute, 18 U.S.C. § 1341, provides in relevant part:
 
-> Whoever, having devised or intending to devise any scheme or artifice to defraud, or for obtaining money or property by means of
+> Whoever, having devised or intending to devise any scheme or artifice to defraud, or for obtaining money or property by means of false or fraudulent pretenses, representations, or promises . . . for the purpose of executing such scheme or artifice or attempting so to do, [mails or causes the mailing of any matter] . . . shall be fined under this title or imprisoned not more than 20 years, or both.
 
 %%page 1530%%
-
-> false or fraudulent pretenses, representations, or promises . . . for the purpose of executing such scheme or artifice or attempting so to do, [mails or causes the mailing of any matter] . . . shall be fined under this title or imprisoned not more than 20 years, or both.
 
 To establish an offense under § 1341 (or § 1343), the plaintiff must prove by a preponderance of evidence the following elements:
 
@@ -21273,11 +20993,9 @@ In Warner-Lambert, the D.C. Circuit upheld the FTC's order which required Warner
 
 The Court explained, in language that is particularly applicable to this case, that:
 
-> To be sure, current and future advertising of Listerine, when viewed in isolation, may not contain any statements which are themselves
+> To be sure, current and future advertising of Listerine, when viewed in isolation, may not contain any statements which are themselves false or deceptive. But reality counsels that such advertisements cannot be viewed in isolation; they must be seen against the background of over 50 years in which Listerine has been proclaimed and purchased as a remedy for colds. When viewed from this perspective, advertising which fails to rebut the prior claims as to Listerine's efficacy inevitably builds upon those claims; continued advertising continues the deception, albeit implicitly rather than explicitly. . . . Under this reasoning the First Amendment presents no direct obstacle. The Commission is not regulating truthful speech protected by the First Amendment, but is merely requiring certain statements which, if not present in current and future advertisements, would render those advertisements themselves part of the continuing deception of the public.
 
 %%page 1664%%
-
-> false or deceptive. But reality counsels that such advertisements cannot be viewed in isolation; they must be seen against the background of over 50 years in which Listerine has been proclaimed and purchased as a remedy for colds. When viewed from this perspective, advertising which fails to rebut the prior claims as to Listerine's efficacy inevitably builds upon those claims; continued advertising continues the deception, albeit implicitly rather than explicitly. . . . Under this reasoning the First Amendment presents no direct obstacle. The Commission is not regulating truthful speech protected by the First Amendment, but is merely requiring certain statements which, if not present in current and future advertisements, would render those advertisements themselves part of the continuing deception of the public.
 
 Id. at 769.
 

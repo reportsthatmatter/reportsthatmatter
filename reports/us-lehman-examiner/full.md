@@ -187,11 +187,9 @@ Accordingly, the report will detail the following subjects that the Examiner has
 
 > 3. Survival – The Examiner has explored this subject because it is central to the question whether the officers and directors discharged their fiduciary duties. The Examiner finds no colorable claims.[^89]
 
-> 4. Repo 105 – The Examiner has explored this subject after uncovering the issue in the course of his investigation. The Examiner finds there are colorable claims against Richard Fuld, Jr., Christopher O'Meara, Erin Callan, and Ian Lowitt in connection with their failure to disclose the use of the practice and
+> 4. Repo 105 – The Examiner has explored this subject after uncovering the issue in the course of his investigation. The Examiner finds there are colorable claims against Richard Fuld, Jr., Christopher O'Meara, Erin Callan, and Ian Lowitt in connection with their failure to disclose the use of the practice and against Ernst & Young for its failure to meet professional standards in connection with that lack of disclosure.[^90]
 
 %%page 24%%
-
-> against Ernst & Young for its failure to meet professional standards in connection with that lack of disclosure.[^90]
 
 > 5. Secured Lenders – The Examiner has explored this subject because it was specifically assigned as part of the Examiner Order and because the subject was addressed in multiple communications with the parties. The Examiner finds colorable claims against JPMorgan Chase ("Chase") and CitiBank in connection with modifications of guaranty agreements and demands for collateral in the final days of Lehman's existence.[^91] The demands for collateral by Lehman's Lenders had direct impact on Lehman's liquidity pool; Lehman's available liquidity is central to the question of why Lehman failed.
 
@@ -201,11 +199,9 @@ Accordingly, the report will detail the following subjects that the Examiner has
 
 Section (B) addresses the first, second, third, fourth, seventh and eighth bullets of the Examiner Order:
 
-> [Bullet 1] Whether LBCC [Lehman Brothers Commercial Corporation] or any other entity that currently is an LBHI Chapter 11 debtor subsidiary or affiliate ("LBHI Affiliate(s)") has any administrative claims against LBHI resulting from LBHI's cash
+> [Bullet 1] Whether LBCC [Lehman Brothers Commercial Corporation] or any other entity that currently is an LBHI Chapter 11 debtor subsidiary or affiliate ("LBHI Affiliate(s)") has any administrative claims against LBHI resulting from LBHI's cash sweeps of cash balances, if any, from September 15, 2008, the commencement date of LBHI's Chapter 11 case, through the date that such applicable LBHI affiliate commenced its Chapter 11 case.
 
 %%page 25%%
-
-> sweeps of cash balances, if any, from September 15, 2008, the commencement date of LBHI's Chapter 11 case, through the date that such applicable LBHI affiliate commenced its Chapter 11 case.
 
 > [Bullet 2] All voluntary and involuntary transfers to, and transactions with, affiliates, insiders and creditors of LBCC or its affiliates, in respect of foreign exchange transactions and other assets that were in the possession or control of LBHI Affiliates at any time commencing on September 15, 2008 through the day that each LBHI Affiliate commenced its Chapter 11 case.
 
@@ -533,11 +529,9 @@ Lehman's risk management system as part of its process of making investment deci
 
 > ● Lehman did not strictly apply its balance sheet limits, which were designed to contain the overall risk of the firm and maintain the firm's leverage ratio within the range required by the credit rating agencies, but instead decided to exceed those limits. To mitigate the apparent effect of these overages, Lehman used Repo 105 transactions to take assets temporarily off the balance sheet before the ends of reporting periods. (The Repo 105 transactions are discussed in Section III.A.4 of this Report.)[^140]
 
-> ● Lehman's management decided to treat primary firm‐wide risk limit – the risk appetite limit – as a "soft" guideline, notwithstanding Lehman's
+> ● Lehman's management decided to treat primary firm‐wide risk limit – the risk appetite limit – as a "soft" guideline, notwithstanding Lehman's representations to the Securities Exchange Commission ("SEC") and the Board that the risk appetite limit was a meaningful constraint on Lehman's risk‐taking.[^141] Lehman management's decision not to enforce the risk appetite limit was apparent in several ways:
 
 %%page 51%%
-
-> representations to the Securities Exchange Commission ("SEC") and the Board that the risk appetite limit was a meaningful constraint on Lehman's risk‐taking.[^141] Lehman management's decision not to enforce the risk appetite limit was apparent in several ways:
 
 > ○ Between December 2006 and December 2007, Lehman raised its firm‐ wide risk appetite limit three times, going from $2.3 to $4.0 billion.[^142]
 
@@ -821,11 +815,9 @@ On March 20, 2007, the Mortgage Capital and Fixed Income Divisions gave a presen
 
 While preparing to give this presentation, Harber e‐mailed one of her colleagues to inform him about a conversation that she had with Lehman's President, Joseph Gregory, about the presentation:
 
-> Board is not sophisticated around subprime market – Joe doesn't want too much detail. He wants to candidly talk about the risks to Lehman but be
+> Board is not sophisticated around subprime market – Joe doesn't want too much detail. He wants to candidly talk about the risks to Lehman but be optimistic and constructive – talk about the opportunities that this market creates and how we are uniquely positioned to take advantage of them.[^297] Consistent with this direction, the Board presentation emphasized that Lehman's
 
 %%page 91%%
-
-> optimistic and constructive – talk about the opportunities that this market creates and how we are uniquely positioned to take advantage of them.[^297] Consistent with this direction, the Board presentation emphasized that Lehman's
 
 management considered the crisis an opportunity to pursue a countercyclical strategy.[^298] The March 2007 Board presentation first noted the difficulties in the subprime market, including the fact that seven of the top twenty subprime originators had already been sold to stronger partners or gone bankrupt and that the business was significantly less profitable than in past years because of lower origination volumes, lower sale and securitization margins, and increased loan loss reserves.[^299] The presentation further noted that in response to these market events, Lehman had improved BNC's risk and credit profile, tightened its lending criteria, retained new management, and significantly reduced headcount.[^300]
 
@@ -1649,21 +1641,17 @@ Corporate directors' duty of care is a duty of informed decision making.[^671] I
 
 Lehman, like many Delaware corporations, immunized its directors from claims of breaching the duty of care. Lehman's certificate of incorporation provides:
 
-> A director shall not be personally liable to the Corporation or its stockholders for monetary damages for breach of fiduciary duty as a director; provided that this sentence shall not eliminate or limit the liability of a director (i) for any breach of his duty of loyalty to the Corporation or its stockholders, (ii) for acts or omissions not in good faith or which involve intentional misconduct or a knowing violation of law, (iii) under Section 174 of [the Delaware General Corporation Law], or (iv)
+> A director shall not be personally liable to the Corporation or its stockholders for monetary damages for breach of fiduciary duty as a director; provided that this sentence shall not eliminate or limit the liability of a director (i) for any breach of his duty of loyalty to the Corporation or its stockholders, (ii) for acts or omissions not in good faith or which involve intentional misconduct or a knowing violation of law, (iii) under Section 174 of [the Delaware General Corporation Law], or (iv) for any transaction from which the director derives an improper personal benefit.[^674] The wording of this clause is nearly identical to that in Section 102(b)(7) of the
 
 %%page 189%%
-
-> for any transaction from which the director derives an improper personal benefit.[^674] The wording of this clause is nearly identical to that in Section 102(b)(7) of the
 
 Delaware General Corporate Law, which authorizes a corporation to exculpate its directors from personal liability for breaches of fiduciary duties, except in the four exceptions stated in the statute: conduct violating the directors' duty of loyalty; acts or omissions not in good faith; intentional misconduct; and knowing violations of law.[^675] Courts uphold such a clause to protect directors from liability provided that the conduct in question does not violate their duty of loyalty.[^676] In addition, Delaware protects directors from personal liability to the extent their decisions are based on information provided to them by management.[^677]
 
 Therefore, Delaware has chosen to impose personal liability only on those directors who have handled their responsibility in a reckless or irrational manner:
 
-> Directors' decisions must be reasonable, not perfect. "In the transactional context, [an] extreme set of facts [is] required to sustain a disloyalty claim premised on the notion that disinterested directors were intentionally disregarding their duties." . . . Only if they knowingly and completely
+> Directors' decisions must be reasonable, not perfect. "In the transactional context, [an] extreme set of facts [is] required to sustain a disloyalty claim premised on the notion that disinterested directors were intentionally disregarding their duties." . . . Only if they knowingly and completely failed to undertake their responsibilities would they breach their duty of loyalty.[^678]
 
 %%page 190%%
-
-> failed to undertake their responsibilities would they breach their duty of loyalty.[^678]
 
 #### Lehman's Directors Did Not Violate Their Duty of Loyalty
 
@@ -2269,11 +2257,9 @@ Excerpted here is certain of the policy's more pertinent language:
 
 > ● "Re‐characterization of a repo from a secured financing transaction to a sale of inventory and a forward to repurchase assets is allowed only if we can demonstrate we have relinquished control of the transferred assets."[^2991]
 
-> ● "When [certain identified] criteria are met, the assets transferred are removed from our balance sheet and an asset under a derivative contract is
+> ● "When [certain identified] criteria are met, the assets transferred are removed from our balance sheet and an asset under a derivative contract is recorded to reflect that we will repurchase, under a forward contract, the transferred assets."[^2992]
 
 %%page 777%%
-
-> recorded to reflect that we will repurchase, under a forward contract, the transferred assets."[^2992]
 
 #### The Accounting Purpose of the Larger Haircut
 
@@ -2485,11 +2471,9 @@ Statements of numerous senior Lehman personnel also confirm that Lehman was focu
 
 > ● Murtaza Bhallo, Business/Risk Manager in Proprietary Trading Group for Liquid Markets, said that beginning in 2007, there was a "squeeze" on Lehman's balance sheet, and that Lehman personnel were worried about reporting the level of Lehman's assets against Lehman's equity (i.e., leverage ratio).3095
 
-> ● Anuraj Bismal, a former Senior Vice President in Lehman's Balance Sheet Group, said that Lehman's meeting of its leverage ratio target was the most critical piece ("a very hot topic") for senior management by the end of 2007.[^3096] Bismal said that balance sheet targets and leverage ratio targets
+> ● Anuraj Bismal, a former Senior Vice President in Lehman's Balance Sheet Group, said that Lehman's meeting of its leverage ratio target was the most critical piece ("a very hot topic") for senior management by the end of 2007.[^3096] Bismal said that balance sheet targets and leverage ratio targets were "absolutely about how rating agencies would view Lehman, and also creditors and the investing public."[^3097]
 
 %%page 809%%
-
-> were "absolutely about how rating agencies would view Lehman, and also creditors and the investing public."[^3097]
 
 > ● John Feraca, the former head of the Secured Funding Desk in Lehman's Prime Services group, said that in late 2007, as the industry was changing and entering a crisis period, Lehman made certain commitments to deleverage.[^3098]
 
@@ -2545,11 +2529,9 @@ Following Fuld's directive, and in connection with McDade's balance sheet point 
 
 Other documents contemporaneous to McDade's presentation to the Executive Committee demonstrate that the issue of balance sheet and leverage reduction was being discussed at the highest levels of senior Lehman management:[^3141]
 
-> ● An April 1, 2008 internal Lehman presentation by Eric Felder, then‐United States Head of Credit Products, highlighted how the market's mood and perception of risk had changed, and Lehman started to penalize brokers for maintaining high leverage.[^3142] According to the presentation: "brokers will
+> ● An April 1, 2008 internal Lehman presentation by Eric Felder, then‐United States Head of Credit Products, highlighted how the market's mood and perception of risk had changed, and Lehman started to penalize brokers for maintaining high leverage.[^3142] According to the presentation: "brokers will be forced to de‐lever to maintain ratings and access to low‐cost debt."[^3143] Indeed, a ratings downgrade could lead to counterparty demands that Lehman post additional collateral for secured financing.[^3144]
 
 %%page 818%%
-
-> be forced to de‐lever to maintain ratings and access to low‐cost debt."[^3143] Indeed, a ratings downgrade could lead to counterparty demands that Lehman post additional collateral for secured financing.[^3144]
 
 > ● An April 2008 "Leverage Analysis" report sent to Tonucci and Reilly compared Lehman's first quarter 2008 leverage ratios and balance sheet by business with the same measurements for Lehman's fourth quarter 2003.[^3145] It also compared Lehman's and its competitors' net leverage ratios and net assets.
 
@@ -2799,11 +2781,9 @@ In addition to documents demonstrating that Lehman, internally, continued to foc
 
 > ● "Lehman is the most levered large investment bank to the fixed income market, and hence a more challenging fixed income market (with higher long‐term interest rates, lower volatility and wider credit spreads) could hurt them the most . . . . While Lehman reduced gross leverage from 32x to 25x, increased their liquidity pool from $34B to $45B, & drove reductions across most troubled asset classes (& reduced total assets by $130B, or 17%), we await more details on total remaining troubled assets in aggregate as well as a L‐III or illiquid asset update to help answer the question of whether $6B in incremental capital raise is sufficient."[^3276]
 
-> ● "The company's gross leverage ratio improved to 24.3x (vs. 31.7x in 1Q08) and its net leverage ratio decreased to 12.0x, down from 15.4x in the prior
+> ● "The company's gross leverage ratio improved to 24.3x (vs. 31.7x in 1Q08) and its net leverage ratio decreased to 12.0x, down from 15.4x in the prior quarter. The improvement in the leverage ratios were driven by lower asset levels, partially offset by a drop in equity as the firm delevered its balance sheet. Lehman noted that it had finished the balance sheet de‐leveraging it wanted to achieve, but it had not achieved the balance sheet mix that it wanted. So, we sense the company will continue to opportunistically dispose of mortgage‐related exposures and leveraged lending."[^3277]
 
 %%page 853%%
-
-> quarter. The improvement in the leverage ratios were driven by lower asset levels, partially offset by a drop in equity as the firm delevered its balance sheet. Lehman noted that it had finished the balance sheet de‐leveraging it wanted to achieve, but it had not achieved the balance sheet mix that it wanted. So, we sense the company will continue to opportunistically dispose of mortgage‐related exposures and leveraged lending."[^3277]
 
 #### The Purpose of Lehman's Repo 105 Program Was to Reverse Engineer Publicly Reported Financial Results
 
@@ -3003,11 +2983,9 @@ Nothing prevented Lehman from engaging in a traditional overnight repo transacti
 
 A Repo 105 transaction was more expensive to Lehman than an ordinary repo transaction for several reasons:[^3375]
 
-> ● Repo 105 transactions generally carried a higher yield, that is, the interest rate the counterparty charged Lehman for the borrowing.[^3376] "[C]ertain of
+> ● Repo 105 transactions generally carried a higher yield, that is, the interest rate the counterparty charged Lehman for the borrowing.[^3376] "[C]ertain of our counterparties charge very expensive levels [for Repo 105], so we cannot retain those types of trades for any longer than necessary."[^3377]
 
 %%page 879%%
-
-> our counterparties charge very expensive levels [for Repo 105], so we cannot retain those types of trades for any longer than necessary."[^3377]
 
 > ● As set forth above, Repo 105 transactions were required to carry a higher margin or haircut (e.g., the minimum five percent haircut for Repo 105 transactions, as opposed to a two percent haircut for an ordinary repo transaction using highly liquid collateral), which Lehman itself had to fund.[^3378] That is, Lehman would have had to fund the additional haircut by either dipping into its equity or through long term borrowings.[^3379] John
 
@@ -3399,11 +3377,9 @@ Repo 105 program:
 
 > ● In August 2007, Kentaro Umezaki wrote to O'Meara and others: "FYI: John Feraca is working on Repo 105 for our IG mortgage and real estate assets to reduce our Q3 balance sheet. We've agreed we'd regroup on Tuesday to see to what extent we can utilize that facility for Qend."[^3545] The following day, Reilly replied to O'Meara alone: "I thought 105 would be a better answer than the cds structure we talked about. May be no appetite."[^3546]
 
-> ● Another August 2007 e‐mail chain regarding Repo 105 usage was forwarded to O'Meara from Reilly.[^3547] Around the same time that Grieb recommended to Lehman's Accounting Policy Group that Lehman use the Repo 105 program to remove from the balance sheet certain residual positions from mortgage‐backed securitizations, Reilly was pursuing a similar effort.[^3548] In a series of e‐mails from August 2007, Reilly unsuccessful attempted to transfer non‐agency mortgage‐backed securities into the Repo 105 program.[^3549] Reilly
+> ● Another August 2007 e‐mail chain regarding Repo 105 usage was forwarded to O'Meara from Reilly.[^3547] Around the same time that Grieb recommended to Lehman's Accounting Policy Group that Lehman use the Repo 105 program to remove from the balance sheet certain residual positions from mortgage‐backed securitizations, Reilly was pursuing a similar effort.[^3548] In a series of e‐mails from August 2007, Reilly unsuccessful attempted to transfer non‐agency mortgage‐backed securities into the Repo 105 program.[^3549] Reilly enlisted the help of John Feraca and David Sherr in this effort so that Lehman could reduce its mortgage positions through the Repo 105 program.[^3550] Notably, Reilly kept O'Meara informed of these efforts by forwarding to him the e‐mail communications with Feraca and Sherr.[^3551] At the same time, per O'Meara's request, Grieb made inquiries regarding a potential credit default swap structure for Lehman's RMBS and CMBS securities in addition to the plan to move them into the Repo 105 program.[^3552] Specifically, O'Meara told Reilly that "the plan is to do both [Repo 105 and credit default swap] if all checks out fine with legal and accounting."[^3553]
 
 %%page 926%%
-
-> enlisted the help of John Feraca and David Sherr in this effort so that Lehman could reduce its mortgage positions through the Repo 105 program.[^3550] Notably, Reilly kept O'Meara informed of these efforts by forwarding to him the e‐mail communications with Feraca and Sherr.[^3551] At the same time, per O'Meara's request, Grieb made inquiries regarding a potential credit default swap structure for Lehman's RMBS and CMBS securities in addition to the plan to move them into the Repo 105 program.[^3552] Specifically, O'Meara told Reilly that "the plan is to do both [Repo 105 and credit default swap] if all checks out fine with legal and accounting."[^3553]
 
 Documents also establish that O'Meara continued to be involved in Lehman's
 
@@ -3477,11 +3453,9 @@ Callan, however, attended the March 28, 2008 Executive Committee meeting request
 
 During her tenure as CFO, Callan received numerous other documents that referenced Lehman's use of Repo 105 transactions to meet balance sheet targets.
 
-> ● In a January 2008 e‐mail, Reilly forwarded Callan an e‐mail in which McGarvey informed Bernard that Rates (a business within the Fixed Income Division) was running over its balance sheet target for December 2007 by $72.3 billion and that a contributing factor was that Rates was using $18 billion less in Repo 105 transactions in December 2007 because there was
+> ● In a January 2008 e‐mail, Reilly forwarded Callan an e‐mail in which McGarvey informed Bernard that Rates (a business within the Fixed Income Division) was running over its balance sheet target for December 2007 by $72.3 billion and that a contributing factor was that Rates was using $18 billion less in Repo 105 transactions in December 2007 because there was little counterparty appetite.[^3600] In his e‐mail to Callan, Reilly referenced the balance sheet overage and stated, "Repo 105 liquidity was very tight (this should only be a year end issue but I don't recall it being this material in the past)."3601
 
 %%page 936%%
-
-> little counterparty appetite.[^3600] In his e‐mail to Callan, Reilly referenced the balance sheet overage and stated, "Repo 105 liquidity was very tight (this should only be a year end issue but I don't recall it being this material in the past)."3601
 
 > ● In February 2008, Reilly again wrote Callan, forwarding to her an e‐mail with an attached FID Balance Sheet PowerPoint presentation that "was used to educate sr fid guys on the bs and generate ideas to make the bs target."[^3602] The e‐mail forwarded to Callan noted that the FID team working on balance sheet issues had reached the "recommendation that Repo 105 program is expanded."[^3603]
 
@@ -3719,11 +3693,9 @@ MD&A are to provide: (1) a narrative explanation of a company's financial statem
 
 Regulation S‐K – together with SEC guidance – supports the Examiner's conclusion that the trier of fact could find that Lehman had an obligation to disclose certain aspects of its Repo 105 program in the MD&A: Liquidity:
 
-> ● "Identify any known trends or any known demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in the registrant's liquidity increasing or decreasing in any material way… Also
+> ● "Identify any known trends or any known demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in the registrant's liquidity increasing or decreasing in any material way… Also identify and separately describe internal and external sources of liquidity…."3744
 
 %%page 970%%
-
-> identify and separately describe internal and external sources of liquidity…."3744
 
 > ● Identifying the intermediate effects of trends, events, demands, commitments and uncertainties alone, without describing the reasons underlying these effects, may not provide sufficient insight for a reader to see the business through the eyes of management.[^3745]
 
@@ -3739,11 +3711,9 @@ Off‐balance sheet arrangements:
 
 > ● "In a separately‐captioned section, discuss the registrant's off‐balance sheet arrangements that have or are reasonably likely to have a current or future effect on the registrant's financial condition, changes in financial condition, revenues or expenses, results of operations, liquidity, capital expenditures or capital resources that is material to investors."[^3748]
 
-> ● The disclosure of off‐balance sheet arrangements shall include the following items "to the extent necessary to an understanding of such arrangements and
+> ● The disclosure of off‐balance sheet arrangements shall include the following items "to the extent necessary to an understanding of such arrangements and effect and shall also include such other information that the registrant believes is necessary for such an understanding"[^3749]:
 
 %%page 971%%
-
-> effect and shall also include such other information that the registrant believes is necessary for such an understanding"[^3749]:
 
 > ○ "The nature and business purpose to the registrant of such off‐balance sheet arrangements;"[^3750]
 
@@ -3867,11 +3837,9 @@ Lehman's public financial statements.
 
 > ● Note 3 of Lehman's financial statements provided a break out of the "Financial Instruments and Other Inventory Positions" balance sheet line item.[^3788] Note 3 presented Lehman's long and short inventory using very high‐level, generalized descriptions of security type.[^3789] The securities inventory that Lehman "sold" through Repo 105 transactions were excluded from the aggregate numbers in the financials, and Lehman's Forms 10‐K and 10‐Q contained no textual disclosures about the exclusions (or the subsequent obligation to repurchase the temporarily "sold" assets). Even if a user of the financials was aware of the existence of Repo 105 transactions, the user would be unable to deduce the size of the Repo 105 program or the securities being used. Since Repo 105 transactions were done on a continual basis and were indistinguishable from ordinary asset sales for the purposes of financial presentation, and since maturities of Repo 105 were staggered, i.e., one week, two week, multi‐month or multi‐quarter, it would have been impossible to disaggregate the fluctuations in assets without being privy to additional information that is not presented in the financial statements.
 
-> ● Further, a reader of Lehman's Forms 10‐K and 10‐Q would have had no idea that Lehman was selling highly liquid securities in Repo 105 transactions on
+> ● Further, a reader of Lehman's Forms 10‐K and 10‐Q would have had no idea that Lehman was selling highly liquid securities in Repo 105 transactions on a temporary basis. The categories of asset classes were very broad, and the disclosures are snapshots of quarter‐end only, which do not allow the user to determine balances of securities moving on or off balance sheet on an intra‐ quarter basis. Additionally, to the extent that the reader could see various security balances increasing or decreasing, i.e., that Lehman sold liquid securities, the reader would not know the sales were temporary from the information provided.
 
 %%page 985%%
-
-> a temporary basis. The categories of asset classes were very broad, and the disclosures are snapshots of quarter‐end only, which do not allow the user to determine balances of securities moving on or off balance sheet on an intra‐ quarter basis. Additionally, to the extent that the reader could see various security balances increasing or decreasing, i.e., that Lehman sold liquid securities, the reader would not know the sales were temporary from the information provided.
 
 > ● Moreover, sophisticated readers of financial statements – the professional analysts who covered Lehman – asked Lehman officers during earnings calls what Lehman was selling in order to ascertain what types of assets Lehman was moving in its efforts to deleverage.[^3790] Former CFO Erin Callan informed analysts that Lehman was selling illiquid positions to deleverage.[^3791]
 
@@ -3933,11 +3901,9 @@ With the exception of Richard Fuld, there is not sufficient evidence to support 
 
 First, Lehman directors were protected by Lehman's certificate of incorporation from breach of duty of care claims:
 
-> A director shall not be personally liable to the Corporation or its stockholders for monetary damages for breach of fiduciary duty as a director; provided that this sentence shall not eliminate or limit the liability of a director (i) for any breach of his duty of loyalty to the Corporation or its stockholders, (ii) for acts or omissions not in good faith or which involve intentional misconduct or a knowing violation of law, (iii) under Section 174 of the [Delaware General Corporation Law], or (iv)
+> A director shall not be personally liable to the Corporation or its stockholders for monetary damages for breach of fiduciary duty as a director; provided that this sentence shall not eliminate or limit the liability of a director (i) for any breach of his duty of loyalty to the Corporation or its stockholders, (ii) for acts or omissions not in good faith or which involve intentional misconduct or a knowing violation of law, (iii) under Section 174 of the [Delaware General Corporation Law], or (iv) for any transaction from which the director derives an improper personal benefit.[^3797]
 
 %%page 992%%
-
-> for any transaction from which the director derives an improper personal benefit.[^3797]
 
 Courts will uphold such a clause as protecting directors from liability so long as there is not a concurrent violation of the duty of loyalty, which was not implicated here.[^3798]
 
@@ -3963,11 +3929,9 @@ In re American Int'l Group, Inc. ("In re AIG") is instructive. There, the court 
 
 One defendant in particular, who possessed knowledge that the sole purpose of the $500 million sham transaction was to dress up the company's balance sheet, tried to escape liability for fraud by imputing his knowledge onto the corporation. The court rejected this argument, stating:
 
-> [U]nder Delaware law, where officers and directors have disabling conflicts that give them an interest in hiding information from a corporation's independent directors and stockholders, the conflicted fiduciaries' knowledge is not imputed to the corporation for purposes of holding those fiduciaries liable for the harm they caused to the corporation. In colloquial terms, a fraud on the board has long been a fiduciary violation under our law and typically involves the failure of
+> [U]nder Delaware law, where officers and directors have disabling conflicts that give them an interest in hiding information from a corporation's independent directors and stockholders, the conflicted fiduciaries' knowledge is not imputed to the corporation for purposes of holding those fiduciaries liable for the harm they caused to the corporation. In colloquial terms, a fraud on the board has long been a fiduciary violation under our law and typically involves the failure of insiders to come clean to the independent directors about their own wrongdoing, the wrongdoing of other insiders, or information that the insiders fear will be used by the independent directors to take actions contrary to the insiders' wishes. Delaware law provides no safe harbor to high‐level fiduciaries who group together to defraud the board. The Stockholder Plaintiffs have alleged that Tizzio and the other AIG insiders who participated in the Gen Re Transaction [the "sham" transaction] violated their fiduciary duties by causing AIG to engage in illegal conduct. If true, that was bad faith conduct that gave Tizzio and the other guilty insiders an interest in hiding what they had done.[^3810] In re AIG illustrates how fiduciaries that cause their company to engage in illegal
 
 %%page 996%%
-
-> insiders to come clean to the independent directors about their own wrongdoing, the wrongdoing of other insiders, or information that the insiders fear will be used by the independent directors to take actions contrary to the insiders' wishes. Delaware law provides no safe harbor to high‐level fiduciaries who group together to defraud the board. The Stockholder Plaintiffs have alleged that Tizzio and the other AIG insiders who participated in the Gen Re Transaction [the "sham" transaction] violated their fiduciary duties by causing AIG to engage in illegal conduct. If true, that was bad faith conduct that gave Tizzio and the other guilty insiders an interest in hiding what they had done.[^3810] In re AIG illustrates how fiduciaries that cause their company to engage in illegal
 
 conduct breach their duty of loyalty and good faith to the company, and as a result acquire a motive to breach their duty of candor to the board by intentionally failing to disclose information relating to their wrongdoing.[^3811]
 
@@ -4259,11 +4223,9 @@ The Examiner concludes that sufficient evidence exists to support a colorable cl
 
 > ● On July 10, 2008, Ernst & Young issued an unqualified review report in connection with the issuance of Lehman's Form 10‐Q.3920
 
-> ● On July 22, 2008, Schlich again remained silent as to Lee's Repo 105 allegation at an Audit Committee meeting, where internal audit presented the results of the investigation into each of the claims made by Lee in his May 16, 2008 letter to management.[^3921] At that meeting, the Audit Committee
+> ● On July 22, 2008, Schlich again remained silent as to Lee's Repo 105 allegation at an Audit Committee meeting, where internal audit presented the results of the investigation into each of the claims made by Lee in his May 16, 2008 letter to management.[^3921] At that meeting, the Audit Committee was told that "[c]orporate audit has largely completed an evaluation of [Lee's] observations in partnership with Financial Control and Ernst and Young."[^3922] There is sufficient evidence to support a colorable claim that Ernst & Young
 
 %%page 1036%%
-
-> was told that "[c]orporate audit has largely completed an evaluation of [Lee's] observations in partnership with Financial Control and Ernst and Young."[^3922] There is sufficient evidence to support a colorable claim that Ernst & Young
 
 failed to exercise due professional care by failing to notify the Audit Committee of Lee's allegations about end‐of‐quarter Repo 105 transactions as a means to manipulate publicly reported balance sheet reductions.[^3923] See, e.g., AU § 316.79 ("Whenever the auditor has determined that there is evidence that fraud may exist, that matter should be brought to the attention of an appropriate level of management. This is appropriate even if the matter might be considered inconsequential, . . . Fraud involving senior management and fraud . . . that causes a material misstatement of the financial statements should be reported directly to the audit committee"); AU § 317 (if auditor becomes aware of possible violations of laws or regulations which may have a direct or indirect effect on the financial statements, he or she must make inquiries, perform additional tests, and inform management and the audit committee of the issue).3924
 

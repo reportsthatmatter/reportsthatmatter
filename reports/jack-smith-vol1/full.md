@@ -798,11 +798,9 @@ Following the superseding indictment, and consistent with the district court's i
 
 The district court issued an order setting a new schedule for pretrial litigation and directing the Office to file its opening immunity brief on September 26, 2024. See ECF No. 233. Prior to filing its immunity brief, the Office again confirmed with PIN that the election year sensitivities policy did not apply to conducting such post-indictment litigation according to the court's schedule and that the Justice Manual did not require consultation with PIN regarding such litigation. And after the Office filed its immunity brief and Mr. Trump attempted to delay its public disclosure, the district court again rejected his attempt to conflate the election and the criminal justice process:
 
-> In addition to the assertions discussed above, Defendant's oppos1t10n brief repeatedly accuses the Government of bad-faith partisan bias. See Def.'s Opp'n
+> In addition to the assertions discussed above, Defendant's oppos1t10n brief repeatedly accuses the Government of bad-faith partisan bias. See Def.'s Opp'n at 2, 5-6. These accusations, for which Defendant provides no support, continue a pattern of defense filings focusing on political rhetoric rather than addressing the legal issues at hand. See Oversized Brief Order at 2-3 (identifying two recent instances of this pattern). Not only is that focus unresponsive and unhelpful to the court, but it is also unbefitting of experienced defense counsel and undermining of the judicial proceedings in this case.
 
 %%page 107%%
-
-> at 2, 5-6. These accusations, for which Defendant provides no support, continue a pattern of defense filings focusing on political rhetoric rather than addressing the legal issues at hand. See Oversized Brief Order at 2-3 (identifying two recent instances of this pattern). Not only is that focus unresponsive and unhelpful to the court, but it is also unbefitting of experienced defense counsel and undermining of the judicial proceedings in this case.
 
 ECF No. 251 at 7.[^258]
 

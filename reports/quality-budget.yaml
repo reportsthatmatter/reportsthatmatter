@@ -35,7 +35,7 @@ defaults:
 
 reports:
   challenger-accident:
-    severed-into-quote: 87
+    severed-into-quote: 86
     severed-paragraph: 50
     bare-footnote-marker: 119
     note-marker-wrong-note: 0
@@ -75,7 +75,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   jack-smith-vol1:
-    severed-into-quote: 3
+    severed-into-quote: 2
     severed-paragraph: 5
     bare-footnote-marker: 0
     note-marker-wrong-note: 0
@@ -93,9 +93,9 @@ reports:
     rendered-h1: 0
     rendered-ol-words-share: 2
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: post v0.15.0 integration
+    quote-share-parity: 1
   litvinenko-inquiry:
-    severed-into-quote: 87
+    severed-into-quote: 72
     severed-paragraph: 6
     bare-footnote-marker: 92
     note-marker-wrong-note: 0
@@ -115,7 +115,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
   uk-chilcot-inquiry:
-    severed-into-quote: 12
+    severed-into-quote: 8
     severed-paragraph: 0
     bare-footnote-marker: 185
     note-marker-wrong-note: 0
@@ -155,7 +155,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-leveson-inquiry:
-    severed-into-quote: 408
+    severed-into-quote: 327
     severed-paragraph: 24
     bare-footnote-marker: 6456  # why: post v0.15.0 integration
     note-marker-wrong-note: 0
@@ -175,7 +175,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-saville-inquiry:
-    severed-into-quote: 16
+    severed-into-quote: 5
     severed-paragraph: 1
     bare-footnote-marker: 10
     note-marker-wrong-note: 0
@@ -193,9 +193,9 @@ reports:
     rendered-h1: 0
     rendered-ol-words-share: 4
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-zja
   us-911-commission:
-    severed-into-quote: 35
+    severed-into-quote: 34
     severed-paragraph: 4
     bare-footnote-marker: 2
     note-marker-wrong-note: 0
@@ -235,7 +235,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-lehman-examiner:
-    severed-into-quote: 20
+    severed-into-quote: 1
     severed-paragraph: 22  # why: post v0.15.0 integration
     bare-footnote-marker: 22
     note-marker-wrong-note: 0
@@ -251,11 +251,11 @@ reports:
     heading-long: 34  # why: post v0.15.0 integration
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 5
+    rendered-ol-words-share: 6  # why: reportsthatmatter-6wb
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-psi-financial-crisis:
-    severed-into-quote: 43
+    severed-into-quote: 1
     severed-paragraph: 41
     bare-footnote-marker: 16
     note-marker-wrong-note: 0
@@ -275,7 +275,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-v-philip-morris:
-    severed-into-quote: 247
+    severed-into-quote: 106
     severed-paragraph: 2
     bare-footnote-marker: 52
     note-marker-wrong-note: 0

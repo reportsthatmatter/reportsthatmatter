@@ -2471,11 +2471,9 @@ The Directive also reiterated that: "Outside the security field you will have no
 
 8.40 The minutes of the GEN 47 meeting record the following discussion about the merits of introducing internment:[^1-116]
 
-> "In discussion it was agreed that the current military measures involved a relatively long campaign; internment, if it was effective would bring more immediate results. In deciding whether we should agree to its immediate use, it had to be borne in mind that it was the last action available to us short of direct rule. It could not be argued that internment would enable Mr Faulkner to carry on his Administration indefinitely. On the other hand, it seemed inevitable that internment would have to be used sooner or later. If we agreed to its use before 12 August, it could be accompanied by a prohibition on all processions, and it could then be represented as part of a comprehensive policy for maintaining public order and not directed against any particular section of the community. If Mr Faulkner were at his meeting that afternoon formally to seek our agreement to the use of internment, and we were to refuse it, the fact would become known, and Mr Faulkner's political position would become
+> "In discussion it was agreed that the current military measures involved a relatively long campaign; internment, if it was effective would bring more immediate results. In deciding whether we should agree to its immediate use, it had to be borne in mind that it was the last action available to us short of direct rule. It could not be argued that internment would enable Mr Faulkner to carry on his Administration indefinitely. On the other hand, it seemed inevitable that internment would have to be used sooner or later. If we agreed to its use before 12 August, it could be accompanied by a prohibition on all processions, and it could then be represented as part of a comprehensive policy for maintaining public order and not directed against any particular section of the community. If Mr Faulkner were at his meeting that afternoon formally to seek our agreement to the use of internment, and we were to refuse it, the fact would become known, and Mr Faulkner's political position would become impossible. Direct rule would then almost inevitably follow, and in that event we ourselves were likely to want to use the power of internment; it would be better if we had allowed the Northern Ireland Government to use the power of internment earlier. These were arguments for agreeing at once to the use of internment coupled with a prohibition of all processions before 12 August.
 
 %%page 155%%
-
-> impossible. Direct rule would then almost inevitably follow, and in that event we ourselves were likely to want to use the power of internment; it would be better if we had allowed the Northern Ireland Government to use the power of internment earlier. These were arguments for agreeing at once to the use of internment coupled with a prohibition of all processions before 12 August.
 
 > In further discussion it was observed that the use of internment would have international implications. It would involve entering a further derogation from the European Convention on Human Rights, and it was not impossible that the situation in Northern Ireland would be brought before the United Nations. It was also to be expected that retaliatory action by the IRA would not be confined to Ireland; hostages might be taken in Great Britain. "
 
@@ -3387,11 +3385,9 @@ HQNI IntSum 52/71, 30th December 1971:[^1-265]
 
 9.11 There was an intelligence assessment for the period from 21st December 1971 to 3rd January 1972, which was submitted to the Director of Operations Intelligence Committee (Northern Ireland) and considered at the meeting of that committee on 3rd January 1972. This committee is described in more detail below. The assessment included the following paragraph:[^1-270]
 
-> "Londonderry. The city was very quiet in the week preceding Christmas, apart from a series of five explosions within a 10-minute period on 21 December: three garages were among the targets, but there were no casualties. Security force search and
+> "Londonderry. The city was very quiet in the week preceding Christmas, apart from a series of five explosions within a 10-minute period on 21 December: three garages were among the targets, but there were no casualties. Security force search and arrest operations since the holiday have met mixed reactions. On the morning of 28 December troops were harassed and stoned by crowds during a search in the Bogside, and came under fire on 11 occasions during the day: shooting continued on 29 December and a soldier on foot patrol was killed by sniper fire. A search operation, also in the Bogside, on 30 December met with little reaction, although there was rioting in the district, and also on the Brandywell Estate later in the day. On 30/31 December armed and masked men raided the offices of the Northern Ireland Housing Authority, and the local Gas Board, and took files and record cards that were later burnt in the Creggan Estate. Two shops were damaged in explosions on 31 December, and during the weekend 1/2 January there were a number of nail bomb attacks on security forces."
 
 %%page 221%%
-
-> arrest operations since the holiday have met mixed reactions. On the morning of 28 December troops were harassed and stoned by crowds during a search in the Bogside, and came under fire on 11 occasions during the day: shooting continued on 29 December and a soldier on foot patrol was killed by sniper fire. A search operation, also in the Bogside, on 30 December met with little reaction, although there was rioting in the district, and also on the Brandywell Estate later in the day. On 30/31 December armed and masked men raided the offices of the Northern Ireland Housing Authority, and the local Gas Board, and took files and record cards that were later burnt in the Creggan Estate. Two shops were damaged in explosions on 31 December, and during the weekend 1/2 January there were a number of nail bomb attacks on security forces."
 
 9.12 A schedule of incidents for the fortnight ending 5th January 1972 was presented to the Joint Intelligence Committee on 6th January 1972. The schedule recorded that in Londonderry in that fortnight there had been eight incidents in which shots were fired by paramilitaries, in one of which a soldier had been killed, 14 incidents involving nail bombs and eight incidents involving other types of bomb or explosions.[^1-271]
 
@@ -3415,11 +3411,9 @@ HQNI IntSum 52/71, 30th December 1971:[^1-265]
 
 9.16 The Director of Operations Intelligence Committee (Northern Ireland) met again on 17th January 1972. The committee considered an intelligence assessment covering the period from 11th to 17th January. The assessment recorded:[^1-275]
 
-> "8. Londonderry. Six gunmen have been killed or wounded by security forces during the week. In one incident on 12 January shots were fired at a helicopter flying over the city cemetery. Five gunmen carrying Thompson SMGs [sub-machine guns] were seen and engaged by troops on the ground, and four of them were hit: two bodies were dragged away before security forces could follow up. Both factions of the IRA subsequently claimed to have acted jointly in this incident, and denied suffering any
+> "8. Londonderry. Six gunmen have been killed or wounded by security forces during the week. In one incident on 12 January shots were fired at a helicopter flying over the city cemetery. Five gunmen carrying Thompson SMGs [sub-machine guns] were seen and engaged by troops on the ground, and four of them were hit: two bodies were dragged away before security forces could follow up. Both factions of the IRA subsequently claimed to have acted jointly in this incident, and denied suffering any casualties. In the only explosive attack of the week a car showroom in the city centre was demolished. Outbreaks of street unrest have occurred in the usual pattern during the week, and at the weekend a crowd of about 200 that stoned and bottled security forces, was dispersed with the use of CS gas and baton rounds. On 16 January security forces came under fire on eight occasions in the Bogside."
 
 %%page 223%%
-
-> casualties. In the only explosive attack of the week a car showroom in the city centre was demolished. Outbreaks of street unrest have occurred in the usual pattern during the week, and at the weekend a crowd of about 200 that stoned and bottled security forces, was dispersed with the use of CS gas and baton rounds. On 16 January security forces came under fire on eight occasions in the Bogside."
 
 9.17 The HQNI IntSum for the week ending 19th January 1972 (3/72) recorded:[^1-276]
 
@@ -3661,11 +3655,9 @@ Figure 9.4: 8th Infantry Brigade on 30th January 1972
 
 9.68 Lord Cameron was describing the situation in 1968. In the context of the present Inquiry it was submitted on behalf of represented soldiers that, in respect of NICRA, by January 1972 "the involvement of members of the Official IRA, the Official Republican Movement and other proscribed Republican groups, was on an upward rather than downward curve after 1969".[^1-316] These representatives also submitted that this was the reason why NICRA was an organisation that was sometimes referred to critically by Army, security and intelligence organisations at the time:[^2-316]
 
-> "2. Central to an understanding of such criticisms is the fact that, by 30 January 1972, the Official IRA, and to an extent other Republican groups, had infiltrated NICRA. The Tribunal has before it substantial evidence to support the contention that armed republicans from the Official IRA, or those likely to have been closely associated with such paramilitary gunmen, were members of NICRA both locally in Derry and at
+> "2. Central to an understanding of such criticisms is the fact that, by 30 January 1972, the Official IRA, and to an extent other Republican groups, had infiltrated NICRA. The Tribunal has before it substantial evidence to support the contention that armed republicans from the Official IRA, or those likely to have been closely associated with such paramilitary gunmen, were members of NICRA both locally in Derry and at executive level. Other members of the executive, some of whom were no doubt genuinely opposed to military resistance, appear to have been unaware that they shared membership of the executive with paramilitaries or have denied the same."
 
 %%page 242%%
-
-> executive level. Other members of the executive, some of whom were no doubt genuinely opposed to military resistance, appear to have been unaware that they shared membership of the executive with paramilitaries or have denied the same."
 
 9.69 To our minds the expression "infiltrated" in its ordinary meaning suggests that those joining an organisation did so in order to overthrow it or at least to change or subvert its aims and objectives, while concealing that that was their purpose. Thus paramilitary groups "infiltrating" an organisation would ordinarily be understood to be intending to destroy it or at least to bend it towards the use of paramilitary force, in order to achieve their political ambitions.
 
@@ -4397,11 +4389,9 @@ c. Or make undue demands upon the Police Force or HM Forces.
 
 …
 
-> e. The ban on marches is the major current problem. Mr Faulkner deserves credit for his handling of the ban. He did not consult the Orange Order but went ahead and persuaded his Cabinet to do what he thought right. The problem is the difficulty of enforcing the law. The Security Forces regard a march as prevented (by stopping it on ground and at a time of their own choice) if its aim is frustrated. The trouble as usual is the local news media, particularly BBC TV, who did not fairly report the march and the Security Force measures of prevention on Sun 23 Jan 72. Too much was made of
+> e. The ban on marches is the major current problem. Mr Faulkner deserves credit for his handling of the ban. He did not consult the Orange Order but went ahead and persuaded his Cabinet to do what he thought right. The problem is the difficulty of enforcing the law. The Security Forces regard a march as prevented (by stopping it on ground and at a time of their own choice) if its aim is frustrated. The trouble as usual is the local news media, particularly BBC TV, who did not fairly report the march and the Security Force measures of prevention on Sun 23 Jan 72. Too much was made of the attempts to defy the law. If this problem escalates, as it well may, some blame will attach to the BBC. (The COS subsequently gave it as his opinion, and D Int agreed, that the Protestants have got used to the Roman Catholic bomber/gunman (whom they don't see) and are more likely to react increasingly aggressively to the sight of NICRA supporters defying the law).
 
 %%page 299%%
-
-> the attempts to defy the law. If this problem escalates, as it well may, some blame will attach to the BBC. (The COS subsequently gave it as his opinion, and D Int agreed, that the Protestants have got used to the Roman Catholic bomber/gunman (whom they don't see) and are more likely to react increasingly aggressively to the sight of NICRA supporters defying the law).
 
 f. As for the future, there is a continuing need to:
 
@@ -4471,11 +4461,9 @@ A. That is correct."
 
 9.246 Later in his oral evidence to the Widgery Inquiry, he said:[^1-451]
 
-> "A. The discussion which I had with the Brigadier was a long one. We both did the Devil's Advocate about what should take place. At the end of the meeting the con[s]ensus of opinion was that in the interests of the city the parade should be
+> "A. The discussion which I had with the Brigadier was a long one. We both did the Devil's Advocate about what should take place. At the end of the meeting the con[s]ensus of opinion was that in the interests of the city the parade should be allowed to go through to its meeting in the Guild Hall where, I admit, this was in breach of the spirit of the ban, but the law could still be enforced, as it had been previously, by prosecuting in Londonderry the people who had breached the ban."
 
 %%page 303%%
-
-> allowed to go through to its meeting in the Guild Hall where, I admit, this was in breach of the spirit of the ban, but the law could still be enforced, as it had been previously, by prosecuting in Londonderry the people who had breached the ban."
 
 9.247 Chief Superintendent Lagan was questioned at the Widgery Inquiry on this point by Mr McSparran, counsel for the families:[^1-452]
 
@@ -4765,11 +4753,9 @@ The discussion was how we would deal with the thing when it happened."
 
 "Q. Why did you not arrest [the hooligans] on ordinary afternoons?
 
-> A. It was normally difficult to arrest them, firstly because the number of troops which I have in Londonderry at any given time is comparatively small, and they are fully engaged on their normal tasks of maintaining law and order; and secondly … when they turn out in the normal days the soldiers can be at risk if we try to pursue them
+> A. It was normally difficult to arrest them, firstly because the number of troops which I have in Londonderry at any given time is comparatively small, and they are fully engaged on their normal tasks of maintaining law and order; and secondly … when they turn out in the normal days the soldiers can be at risk if we try to pursue them forward into the Bogside. They are very fleet of foot, and it is very difficult for a small number of troops on the ground to manage an arrest.
 
 %%page 320%%
-
-> forward into the Bogside. They are very fleet of foot, and it is very difficult for a small number of troops on the ground to manage an arrest.
 
 Q. If they go far in, as you have said, they are exposing themselves to rifle fire?
 
@@ -4827,11 +4813,9 @@ A. Yes."
 
 9.300 General Ford then continued:[^1-494]
 
-> "I have been asked whether it would have been feasible to use one of the resident battalions to carry out the arrest operation. Each of the battalions in 8 Brigade had an area of responsibility, and they each knew their area well. To be responsible for a particular area involved not only knowing the geography, but also knowing the history
+> "I have been asked whether it would have been feasible to use one of the resident battalions to carry out the arrest operation. Each of the battalions in 8 Brigade had an area of responsibility, and they each knew their area well. To be responsible for a particular area involved not only knowing the geography, but also knowing the history of operations for that area, the intelligence of that area, the relationship with the RUC, and so on. Using, for example, the Royal Anglians or the Green Jackets for the arrest operation would have meant replacing them with 1 PARA and 1 PARA then having to take over responsibility for their area. In military terms, such a short term situation would have made no sense. I do accept however that whatever role 1 PARA or another reserve Battalion would have had on the day, they would have been at a slight disadvantage, but such disadvantage would have been far greater had they undertaken duties other than as an arrest battalion held in reserve."
 
 %%page 323%%
-
-> of operations for that area, the intelligence of that area, the relationship with the RUC, and so on. Using, for example, the Royal Anglians or the Green Jackets for the arrest operation would have meant replacing them with 1 PARA and 1 PARA then having to take over responsibility for their area. In military terms, such a short term situation would have made no sense. I do accept however that whatever role 1 PARA or another reserve Battalion would have had on the day, they would have been at a slight disadvantage, but such disadvantage would have been far greater had they undertaken duties other than as an arrest battalion held in reserve."
 
 9.301 In his oral evidence, General Ford said that it was quite normal for a general officer not only to attach a unit such as 1 PARA to a brigade, but also to dictate what that unit should do on a particular occasion, especially if the unit had some specialised knowledge.[^1-495] He denied that he had selected 1 PARA because he expected it to take a tougher stance than the local battalions would take. He said that he had expected the soldiers of the Parachute Regiment to conduct themselves with "controlled aggression" and would have expected the same of the Royal Anglians or Royal Green Jackets, had either of those battalions conducted the arrest operation.[^2-495]
 
@@ -5199,11 +5183,9 @@ A. Oh yes, definitely."
 
 > 2. Accordingly I phoned Brigadier LEWIS … who was not available, but passed the following message to his Staff Officer:-
 
-> 'A reliable source, […] reported on 26th January that the organisers of this Londonderry march on 30th January were planning their route to pass the maximum number of flashpoints and had prepared alternative routes as they knew they would be stopped by the security forces. It was believed that the marchers would be armed with stones and bottles and that the I.R.A. would use the crowd as cover for sniping attacks on the security forces. The organisers were determined to have their revenge for Magilligan, which they regarded as
+> 'A reliable source, […] reported on 26th January that the organisers of this Londonderry march on 30th January were planning their route to pass the maximum number of flashpoints and had prepared alternative routes as they knew they would be stopped by the security forces. It was believed that the marchers would be armed with stones and bottles and that the I.R.A. would use the crowd as cover for sniping attacks on the security forces. The organisers were determined to have their revenge for Magilligan, which they regarded as a humiliating defeat. Also that the hooligan element would be used to create diversions and draw the troops away from the main route.'
 
 %%page 347%%
-
-> a humiliating defeat. Also that the hooligan element would be used to create diversions and draw the troops away from the main route.'
 
 > 3. The above message was passed to M.O.D. at approx. 10.10 a.m. on 31st January 1972."
 
@@ -6421,11 +6403,9 @@ Furthermore, since the Brigadier had reserved to himself the right to launch any
 
 9.603 There was no reference in the Operation Order to the need for marchers and rioters to be separated before the launch of any arrest operation. In his oral evidence to this Inquiry, Colonel Steele gave the following explanation:[^1-717]
 
-> "I think it is because separation was entirely a matter for the Brigadier to decide. He is the person who had retained, to his right, the deployment of the force and in his mind he had – was quite clear that he was not going to launch it unless there was separation. And so this is not something that one would expect to see in the operation order; this is something that was the Brigade Commander's remit and I think it was
+> "I think it is because separation was entirely a matter for the Brigadier to decide. He is the person who had retained, to his right, the deployment of the force and in his mind he had – was quite clear that he was not going to launch it unless there was separation. And so this is not something that one would expect to see in the operation order; this is something that was the Brigade Commander's remit and I think it was quite right that it was not necessary to have it – to have a paragraph about it in the operation order, but that on the other hand it was perfectly correct that he should have emphasised it at the co-ordinating conference, which he did."
 
 %%page 433%%
-
-> quite right that it was not necessary to have it – to have a paragraph about it in the operation order, but that on the other hand it was perfectly correct that he should have emphasised it at the co-ordinating conference, which he did."
 
 9.604 There was no reference in Brigadier MacLellan's notes for the co-ordinating conference to the need for separation. He was asked about this omission by Counsel to the Inquiry:[^1-718]
 
@@ -6779,11 +6759,9 @@ A. I believed that there was a possibility that we would come under fire, yes."
 
 9.678 Captain 200 told the Widgery Inquiry that he had been told at a briefing of the risk that his soldiers might come under fire if they entered the Bogside.[^1-780] The briefing in question must have been either the battalion Orders Group or Major Loden's company Orders Group which took place later on the same day. He told this Inquiry that he remembered the battalion Orders Group "reasonably well"[^2-780] and gave the following evidence about it:[^3-780]
 
-> "The purpose of [the battalion Orders Group] was to allow the Commanding Officer to give an outline of what was likely to happen … It was made clear to us that due to the ongoing situation in Londonderry and in particular due to the existence of no go areas,
+> "The purpose of [the battalion Orders Group] was to allow the Commanding Officer to give an outline of what was likely to happen … It was made clear to us that due to the ongoing situation in Londonderry and in particular due to the existence of no go areas, we were to expect IRA ambushes and were to prepare for IRA gunmen. We knew that NICRA had organised a large march and that there would be a large hooligan element. Our job was to arrest as many of these hooligans as possible. There was no exaggeration or hype.
 
 %%page 458%%
-
-> we were to expect IRA ambushes and were to prepare for IRA gunmen. We knew that NICRA had organised a large march and that there would be a large hooligan element. Our job was to arrest as many of these hooligans as possible. There was no exaggeration or hype.
 
 > Colonel Wilford's briefing could only contain so much detail about deployment. In order to maintain the maximum possible flexibility the orders were not too rigid in this respect and in effect much would not be decided until we had actually arrived in Londonderry. However, Colonel Wilford's orders were very good and very thorough, as was usually the case. We would have been fully briefed about communications, administration and timings and I would say that the briefing lasted somewhere between half an hour and an hour."
 

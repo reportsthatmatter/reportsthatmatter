@@ -280,11 +280,9 @@ HC 264
 
 27\. When UK policy towards Iraq was formally reviewed and agreed by the Ministerial Committee on Defence and Overseas Policy (DOP) in May 1999, the objectives towards Iraq were defined as:
 
-> "... in the short term, to reduce the threat Saddam poses to the region including by eliminating his weapons of mass destruction (WMD) programmes; and, in
+> "... in the short term, to reduce the threat Saddam poses to the region including by eliminating his weapons of mass destruction (WMD) programmes; and, in the longer term, to reintegrate a territorially intact Iraq as a law‑abiding member of the international community."1
 
 %%page 7%%
-
-> the longer term, to reintegrate a territorially intact Iraq as a law‑abiding member of the international community."1
 
 28\. The policy of containment was seen as the "only viable way" to pursue those objectives. A "policy of trying to topple Saddam would command no useful international support". Iraq was unlikely to accept the package immediately but "might be persuaded to acquiesce eventually".
 
@@ -1186,11 +1184,9 @@ HC 264
 
 341\. Asked about the risk that attacking Iraq with cruise missiles would "act as a recruiting sergeant for a young generation throughout the Islamic and Arab world", Mr Blair responded that:
 
-> "... what was shocking about 11 September was not just the slaughter of innocent people but the knowledge that, had the terrorists been able, there would have been not 3,000 innocent dead, but 30,000 or 300,000 ... America did not attack the Al Qaida terrorist group ... [it] attacked America. They did not need to be
+> "... what was shocking about 11 September was not just the slaughter of innocent people but the knowledge that, had the terrorists been able, there would have been not 3,000 innocent dead, but 30,000 or 300,000 ... America did not attack the Al Qaida terrorist group ... [it] attacked America. They did not need to be recruited ... Unless we take action against them, they will grow. That is why we should act."157
 
 %%page 48%%
-
-> recruited ... Unless we take action against them, they will grow. That is why we should act."157
 
 342\. The JIC judged in October 2002 that "the greatest terrorist threat in the event of military action against Iraq will come from Al Qaida and other Islamic extremists"; and they would be "pursuing their own agenda".158
 
@@ -1602,11 +1598,9 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 472\. Mr David Brummell (Legal Secretary to the Law Officers) wrote to Mr Matthew Rycroft (Mr Blair's Private Secretary for Foreign Affairs) on 14 March:
 
-> "It is an essential part of the legal basis for military action without a further resolution of the Security Council that there is strong evidence that Iraq has failed to comply
+> "It is an essential part of the legal basis for military action without a further resolution of the Security Council that there is strong evidence that Iraq has failed to comply with and co‑operate fully in the implementation of resolution 1441 and has thus failed to take the final opportunity offered by the Security Council in that resolution. The Attorney General understands that it is unequivocally the Prime Minister's view that Iraq has committed further material breaches as specified in [operative] paragraph 4 of resolution 1441, but as this is a judgement for the Prime Minister, the Attorney would be grateful for confirmation that this is the case."
 
 %%page 67%%
-
-> with and co‑operate fully in the implementation of resolution 1441 and has thus failed to take the final opportunity offered by the Security Council in that resolution. The Attorney General understands that it is unequivocally the Prime Minister's view that Iraq has committed further material breaches as specified in [operative] paragraph 4 of resolution 1441, but as this is a judgement for the Prime Minister, the Attorney would be grateful for confirmation that this is the case."
 
 473\. Mr Rycroft replied to Mr Brummell on 15 March:
 
@@ -2972,11 +2966,9 @@ General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker,
 
 846\. Mr Straw told the FAC in 2003:
 
-> "The reason why we have a Joint Intelligence Committee which is separate from the intelligence agencies is precisely so that those who are obtaining the intelligence are
+> "The reason why we have a Joint Intelligence Committee which is separate from the intelligence agencies is precisely so that those who are obtaining the intelligence are not then directly making the assessment upon it. That is one of the very important strengths of our system compared with most other systems around the world."281
 
 %%page 133%%
-
-> not then directly making the assessment upon it. That is one of the very important strengths of our system compared with most other systems around the world."281
 
 847\. The FAC endorsed those sentiments.282 It stated that the JIC has a "vital role in safeguarding the independence and impartiality of intelligence"; and that the "independence and impartiality of its own role" was "of the utmost importance". It recommended that Ministers should "bear in mind at all times the importance of ensuring that the JIC is free of all political pressure".
 
