@@ -1,0 +1,39 @@
+Depth-4 tree, heading (True) vs body, trained on the development reports.
+
+|--- line_bold <= 0.50
+|   |--- line_size_rel <= 1.17
+|   |   |--- line_width_rel <= -499.50
+|   |   |   |--- text_caps_ratio <= 0.28
+|   |   |   |   |--- weights: [0.02, 0.02] class: False
+|   |   |   |--- text_caps_ratio >  0.28
+|   |   |   |   |--- weights: [0.00, 0.02] class: True
+|   |   |--- line_width_rel >  -499.50
+|   |   |   |--- indent_em <= 7.89
+|   |   |   |   |--- weights: [2.03, 0.00] class: False
+|   |   |   |--- indent_em >  7.89
+|   |   |   |   |--- weights: [0.01, 0.00] class: False
+|   |--- line_size_rel >  1.17
+|   |   |--- line_width_rel <= 0.37
+|   |   |   |--- weights: [0.00, 0.01] class: True
+|   |   |--- line_width_rel >  0.37
+|   |   |   |--- line_width_rel <= 0.80
+|   |   |   |   |--- weights: [0.00, 0.05] class: True
+|   |   |   |--- line_width_rel >  0.80
+|   |   |   |   |--- weights: [0.00, 0.03] class: True
+|--- line_bold >  0.50
+|   |--- text_ends_sentence <= 0.50
+|   |   |--- text_words <= 19.50
+|   |   |   |--- indent_em <= -2.12
+|   |   |   |   |--- weights: [0.00, 0.18] class: True
+|   |   |   |--- indent_em >  -2.12
+|   |   |   |   |--- weights: [0.04, 0.35] class: True
+|   |   |--- text_words >  19.50
+|   |   |   |--- text_words <= 24.50
+|   |   |   |   |--- weights: [0.01, 0.01] class: False
+|   |   |   |--- text_words >  24.50
+|   |   |   |   |--- weights: [0.01, 0.00] class: False
+|   |--- text_ends_sentence >  0.50
+|   |   |--- line_width_rel <= 0.23
+|   |   |   |--- weights: [0.18, 0.00] class: False
+|   |   |--- line_width_rel >  0.23
+|   |   |   |--- weights: [0.01, 0.00] class: False
