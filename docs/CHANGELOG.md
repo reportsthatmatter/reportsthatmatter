@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-02 — Text fixes across twelve reports (ingest v0.15.0), and Repo 105 for Lehman
+
+The Valukas Report now includes Volume 3, Repo 105 (the accounting-device analysis), as a section of the Lehman Brothers examiner's report, with its footnotes linked: 941 of its 1,094 notes, up from one. `@rtm/ingest` v0.15.0 carries a batch of fixes that moved most of the archive. Deepwater Horizon regains 279 paragraphs that had been fused into their neighbours, and Challenger 65. Litvinenko loses 241 running titles and tabs that had been set as paragraphs, and its lettered sub-items stop being cut into a quotation (prose run into a quotation: 251 down to 77). Leveson's page-break splits fall from 36 to 5 and its bogus "Chapter 7" section is gone. The Iraq Inquiry has all 88 of its contents-listed headings (68 before). 9/11 gets its contents as entries, 120 sub-headings and 371 endnotes linked that were not. Hillsborough, Saville, Columbia, Philip Morris, PSI and Jack Smith move by a handful of paragraphs each, mostly false footnote links removed. Paragraph ids moved in all of these, so any link into a moved paragraph on those pages may land at the top of its section.
+
 ## 2026-09-28 — An introduction for the Iraq Inquiry, and hero photographs for both
 
 The Iraq Inquiry (Chilcot) Executive Summary now has a landing page: a standfirst, background, seven findings with quotations and a six-section reading guide. Both it and the Lehman Brothers examiner's report now carry a hero photograph — a Challenger 2 tank on patrol outside Basra in 2004, and the salvaged Lehman Brothers sign at Christie's in 2010 — sourced and credited in `docs/design/2026-09-27-hero/sources.yaml`.
