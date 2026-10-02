@@ -54,7 +54,7 @@ background: |
 
 findings:
   - text: The examiner finds that Lehman failed because it lost the confidence of the lenders it borrowed from every day, and that the blame is shared between its executives, the investment bank business model and Government agencies.
-    cites: [there-are-many-reasons-lehman, lehman-s-financial-plight-consequences, lehman-s-business-model-not]
+    cites: [there-are-many-reasons-lehman, lehman-s-business-model-not]
     excerpt:
       paragraph: there-are-many-reasons-lehman
       quote: >-
@@ -164,7 +164,7 @@ highlights:
     quote: Experimental stress tests conducted in 2008 showed that a large proportion of Lehman's tail risk – perhaps even a large majority of its overall tail risk – lay with the businesses that were previously excluded from the stress testing.
   - paragraph: gelband-removed-from-position-several
     quote: Gelband was removed from the position for several reasons, including that he was not aggressive enough in growing the business in accordance with Fuld's longterm revenue targets.
-  - paragraph: so-too-other-investment-banks
+  - paragraph: lehman-s-business-model-not
     quote: It is no coincidence that no major investment bank still exists with that model.
   - paragraph: lehman-dramatically-ramped-up-its
     quote: 'In an April 2008 e‐mail asking if he was familiar with the use of Repo 105 transactions to reduce net balance sheet, Bart McDade, Lehman''s former Head of Equities (2005–2008) and President and Chief Operating Officer (June–September 2008), replied: "I am very aware . . . it is another drug we r on."'

@@ -672,17 +672,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/jack-smith-vol1?p=repeated-conversations-day-after-day"
           },
           {
-            "id": "trump-has-something-else-left",
-            "page": 30,
-            "href": "/reports/jack-smith-vol1?p=trump-has-something-else-left"
+            "id": "just-before-2-24-p",
+            "page": 29,
+            "href": "/reports/jack-smith-vol1?p=just-before-2-24-p"
           }
         ],
         "excerpt": {
           "quote": "Then, at 2:24 p.m., sitting alone, Mr. Trump issued a Tweet attacking Mr. Pence and fueling the riot: \"Mike Pence didn't have the courage to do what should have been done to protect our Country and our Constitution, giving States a chance to certify a corrected set of facts, not the fraudulent or inaccurate ones which they were asked to previously certify. USA demands the truth!\"",
           "cite": {
-            "id": "trump-has-something-else-left",
-            "page": 30,
-            "href": "/reports/jack-smith-vol1?p=trump-has-something-else-left&h=has%20something%20else%20left.%22%20|Then%2C%20at%202%3A24%20p.m.%2C%20sitting%20alone%2C%20Mr.%20Trump%20issued%20a%20Tweet%20attacking%20Mr.%20Pence%20and%20fueling%20the%20riot%3A%20%22Mike%20Pence%20didn't%E2%8B%AFset%20of%20facts%2C%20not%20the%20fraudulent%20or%20inaccurate%20ones%20which%20they%20were%20asked%20to%20previously%20certify.%20USA%20demands%20the%20truth!%22|%20One%20minute%20later%2C%20the"
+            "id": "just-before-2-24-p",
+            "page": 29,
+            "href": "/reports/jack-smith-vol1?p=just-before-2-24-p&h=has%20something%20else%20left.%22%20|Then%2C%20at%202%3A24%20p.m.%2C%20sitting%20alone%2C%20Mr.%20Trump%20issued%20a%20Tweet%20attacking%20Mr.%20Pence%20and%20fueling%20the%20riot%3A%20%22Mike%20Pence%20didn't%E2%8B%AFset%20of%20facts%2C%20not%20the%20fraudulent%20or%20inaccurate%20ones%20which%20they%20were%20asked%20to%20previously%20certify.%20USA%20demands%20the%20truth!%22|%20One%20minute%20later%2C%20the"
           }
         }
       },
@@ -2655,11 +2655,6 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-lehman-examiner?p=there-are-many-reasons-lehman"
           },
           {
-            "id": "lehman-s-financial-plight-consequences",
-            "page": 3,
-            "href": "/reports/us-lehman-examiner?p=lehman-s-financial-plight-consequences"
-          },
-          {
             "id": "lehman-s-business-model-not",
             "page": 3,
             "href": "/reports/us-lehman-examiner?p=lehman-s-business-model-not"
@@ -2670,7 +2665,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "there-are-many-reasons-lehman",
             "page": 2,
-            "href": "/reports/us-lehman-examiner?p=there-are-many-reasons-lehman&h=|There%20are%20many%20reasons%20Lehman%20failed%2C%20and%20the%20responsibility%20is%20shared.%20Lehman%20was%20more%20the%20consequence%20than%20the%20cause%20of%20a%20deteriorating%20economic%20climate.|"
+            "href": "/reports/us-lehman-examiner?p=there-are-many-reasons-lehman&h=|There%20are%20many%20reasons%20Lehman%20failed%2C%20and%20the%20responsibility%20is%20shared.%20Lehman%20was%20more%20the%20consequence%20than%20the%20cause%20of%20a%20deteriorating%20economic%20climate.|%20Lehman's%20financial"
           }
         }
       },

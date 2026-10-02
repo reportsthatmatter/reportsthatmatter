@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-02 — Paragraphs that ran over a page break are whole again (ingest v0.18.0)
+
+A paragraph that continued onto the next printed page used to arrive as two, the second opening on a capital letter, a figure or a quotation mark. The new `layoutPageJoins` pass checks the page layout (no first-line indent, same typeface) and joins them only when the layout says the text runs on. Thirteen reports declare it and 366 severed openings are healed, from 145 in Philip Morris to 2 in Challenger; paragraph ids move in every one of them, and editorial references to them were updated with the release.
+
 ## 2026-10-02 — Quotations and list items no longer split at page breaks (ingest v0.17.0)
 
 A block quotation that ran over a page break used to arrive as two consecutive quotations, the second opening mid-sentence ("This group will be" / "known as the Tobacco Industry Research Committee"). The new `quoteListRunOns` pass joins them, and a word the break cut ("pro-" / "actively") is closed up. Ten reports declare it: Philip Morris loses 141 split quotations, Leveson 81, PSI 42, Lehman 19, Litvinenko 15, Saville 11, Chilcot 4, and 9/11, Challenger and Jack Smith one each, 316 in all. No paragraph link moves; PSI loses one word. Measured against the reference edition, Philip Morris's page-break join accuracy rises from 73.9% to 82.7%. The release also adds a layout oracle that measures the pipeline's headings, markers and paragraph boundaries against the PDF's own line layout.

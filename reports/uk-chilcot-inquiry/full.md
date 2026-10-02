@@ -982,11 +982,9 @@ HC 264
 
 282\. Mr Straw drew attention to the significance of the fact that no one "in discussions in the Security Council and outside" had claimed that Iraq was in full compliance with its obligations.
 
-283\. In a statement later that evening, Mr Robin Cook, the Leader of the House of Commons, set out his doubts about the degree to which Saddam Hussein posed a
+283\. In a statement later that evening, Mr Robin Cook, the Leader of the House of Commons, set out his doubts about the degree to which Saddam Hussein posed a "clear and present danger" and his concerns that the UK was being "pushed too quickly into conflict" by the US without the support of the UN and in the face of hostility from many of the UK's traditional allies.136
 
 %%page 39%%
-
-"clear and present danger" and his concerns that the UK was being "pushed too quickly into conflict" by the US without the support of the UN and in the face of hostility from many of the UK's traditional allies.136
 
 284\. On 17 March, President Bush issued an ultimatum giving Saddam Hussein 48 hours to leave Iraq.
 
@@ -3193,11 +3191,9 @@ Iraqi Society) 22 May Security Council adopts resolution 1483 23 May Coalition P
 
 (Prime Minister Allawi) 29 June Mr Blair announces HQ ARRC will deploy to Afghanistan 2005 30 January Elections to the Transitional National Assembly 3 May Iraqi Transitional Government takes power (Prime Minister
 
-Ja'afari) 21 July Decision to deploy Provincial Reconstruction Team and military support to Helmand province, Afghanistan 15 October Referendum on the Iraqi Constitution 19 October US announces new "Clear‑Hold‑Build" strategy for Iraq 15 December Parliamentary elections in Iraq 2006 26 January Cabinet approves deployment to Helmand province April to June Formation of Maliki government 1 May UK forces become responsible for Helmand 28 September Op SINBAD begins in Basra End October Majority of UK civilian staff withdrawn from the Basra Palace site 2007 10 January President Bush announces the US "surge" 27 June Mr Blair leaves office; Mr Brown becomes Prime Minister 13 August Start of reduction of Jaysh al-Mahdi violence against UK forces
+Ja'afari) 21 July Decision to deploy Provincial Reconstruction Team and military support to Helmand province, Afghanistan 15 October Referendum on the Iraqi Constitution 19 October US announces new "Clear‑Hold‑Build" strategy for Iraq 15 December Parliamentary elections in Iraq 2006 26 January Cabinet approves deployment to Helmand province April to June Formation of Maliki government 1 May UK forces become responsible for Helmand 28 September Op SINBAD begins in Basra End October Majority of UK civilian staff withdrawn from the Basra Palace site 2007 10 January President Bush announces the US "surge" 27 June Mr Blair leaves office; Mr Brown becomes Prime Minister 13 August Start of reduction of Jaysh al-Mahdi violence against UK forces 2/3 September UK forces leave the Basra Palace site 16 December Basra transitions to Provincial Iraqi Control 2008 25 March Start of Prime Minister Maliki's Charge of the Knights 18 December Mr Brown announces plans to withdraw the majority of
 
 %%page 145%%
-
-2/3 September UK forces leave the Basra Palace site 16 December Basra transitions to Provincial Iraqi Control 2008 25 March Start of Prime Minister Maliki's Charge of the Knights 18 December Mr Brown announces plans to withdraw the majority of
 
 UK troops 2009 onwards 30 April 2009 Completion of the main UK military mission in Iraq 15 October 2009 UK/Iraq Training and Maritime Support Agreement ratified 22 May 2011 Departure of the last UK naval training team from Iraq
 
