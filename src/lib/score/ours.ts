@@ -10,6 +10,7 @@
  */
 import { paragraphId } from "@rtm/ingest";
 import { stripFrontMatter, pageNumber } from "../quality/blocks";
+import { pairNoteReferences } from "../quality/note-pairing";
 
 export type BlockType = "heading" | "paragraph" | "quote" | "list" | "contents" | "table" | "note";
 
@@ -165,19 +166,21 @@ export function parseOurs(markdown: string): Ours {
   }
   const body = blocks.filter((b) => b.type !== "note");
   const notes = blocks.filter((b) => b.type === "note");
-  // Resolve markers to definitions as the renderer does (markdown.ts withSidenotes): the k-th
-  // reference to a label takes the k-th definition with that label, the last when they run out.
+  // Resolve markers to definitions as the renderer does (ingest markdown.ts withSidenotes): a label
+  // defined once is that note; a repeated label (numbering that restarts per chapter) pairs
+  // references with definitions by alignment, not by count (reportsthatmatter-apk). A reference the
+  // alignment leaves unpaired falls back to the old positional rule, as the renderer does.
   const defs = new Map<string, number[]>();
   notes.forEach((n, k) => defs.set(n.label!, [...(defs.get(n.label!) ?? []), k]));
+  const refs = body.flatMap((b) => b.markers);
+  const paired = pairNoteReferences(refs.map((m) => m.label), notes.map((n) => n.label!));
   const used = new Map<string, number>();
-  for (const b of body) {
-    for (const m of b.markers) {
-      const list = defs.get(m.label);
-      if (!list?.length) continue;
-      const seen = used.get(m.label) ?? 0;
-      m.note = list[Math.min(seen, list.length - 1)];
-      used.set(m.label, seen + 1);
-    }
-  }
+  refs.forEach((m, r) => {
+    const list = defs.get(m.label);
+    if (!list?.length) return;
+    const seen = used.get(m.label) ?? 0;
+    m.note = list[Math.min(paired[r] ?? seen, list.length - 1)];
+    used.set(m.label, seen + 1);
+  });
   return { blocks, body, notes };
 }

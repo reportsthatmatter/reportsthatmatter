@@ -679,7 +679,7 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 134935,
+      "words": 134946,
       "paragraphs": 2012,
       "sections": [
         {
@@ -991,7 +991,7 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1075790,
+      "words": 1075787,
       "paragraphs": 12746,
       "sections": [
         {
@@ -1429,7 +1429,7 @@
       ]
     },
     "columbia-accident": {
-      "words": 169474,
+      "words": 169859,
       "paragraphs": 3348,
       "sections": [
         {
@@ -1911,11 +1911,17 @@
           "title": "Appendix C: Board Staff",
           "paragraphs": 33,
           "ids": "c75dc27b3c78"
+        },
+        {
+          "slug": "notes-not-linked-in-the-text",
+          "title": "Notes not linked in the text",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
         }
       ]
     },
     "us-911-commission": {
-      "words": 305850,
+      "words": 305400,
       "paragraphs": 2568,
       "sections": [
         {
@@ -1934,7 +1940,7 @@
           "slug": "preface",
           "title": "PREFACE",
           "paragraphs": 23,
-          "ids": "5cbe134fdb3f"
+          "ids": "dbef0940c518"
         },
         {
           "slug": "11-inside-the-four-flights",
@@ -2197,14 +2203,8 @@
         {
           "slug": "103-phase-two-and-the-question-of-iraq",
           "title": "10.3 \"Phase Two\" and the Question of Iraq",
-          "paragraphs": 22,
-          "ids": "f836e1a4bf14"
-        },
-        {
-          "slug": "foresightand-hindsight",
-          "title": "FORESIGHT—AND HINDSIGHT",
-          "paragraphs": 3,
-          "ids": "1ab4ce33bb58"
+          "paragraphs": 25,
+          "ids": "2ac30fb24418"
         },
         {
           "slug": "111-imagination",
@@ -2311,7 +2311,7 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 187473,
+      "words": 188231,
       "paragraphs": 2333,
       "sections": [
         {
@@ -3733,7 +3733,7 @@
       ]
     },
     "us-lehman-examiner": {
-      "words": 184754,
+      "words": 184823,
       "paragraphs": 1036,
       "sections": [
         {

@@ -1,0 +1,48 @@
+Depth-4 tree, quote (True) vs paragraph, trained on the development reports.
+
+|--- font_is_body <= 0.50
+|   |--- font_share <= 0.19
+|   |   |--- right_gap_em <= 25.87
+|   |   |   |--- text_words <= 6.50
+|   |   |   |   |--- weights: [0.00, 0.00] class: False
+|   |   |   |--- text_words >  6.50
+|   |   |   |   |--- weights: [0.08, 0.00] class: False
+|   |   |--- right_gap_em >  25.87
+|   |   |   |--- text_words <= 21.00
+|   |   |   |   |--- weights: [0.00, 0.00] class: True
+|   |   |   |--- text_words >  21.00
+|   |   |   |   |--- weights: [0.00, 0.00] class: True
+|   |--- font_share >  0.19
+|   |   |--- markers <= 0.50
+|   |   |   |--- text_closes_quote <= 0.50
+|   |   |   |   |--- weights: [0.05, 0.23] class: True
+|   |   |   |--- text_closes_quote >  0.50
+|   |   |   |   |--- weights: [0.00, 0.12] class: True
+|   |   |--- markers >  0.50
+|   |   |   |--- right_gap_em <= 1.03
+|   |   |   |   |--- weights: [0.01, 0.00] class: False
+|   |   |   |--- right_gap_em >  1.03
+|   |   |   |   |--- weights: [0.02, 0.00] class: False
+|--- font_is_body >  0.50
+|   |--- indent_em <= 4.50
+|   |   |--- right_gap_em <= 0.03
+|   |   |   |--- prev_is_quote <= 0.50
+|   |   |   |   |--- weights: [1.39, 0.00] class: False
+|   |   |   |--- prev_is_quote >  0.50
+|   |   |   |   |--- weights: [0.05, 0.00] class: False
+|   |   |--- right_gap_em >  0.03
+|   |   |   |--- right_gap_em <= 6.08
+|   |   |   |   |--- weights: [0.06, 0.13] class: True
+|   |   |   |--- right_gap_em >  6.08
+|   |   |   |   |--- weights: [0.69, 0.03] class: False
+|   |--- indent_em >  4.50
+|   |   |--- text_caps_ratio <= 0.10
+|   |   |   |--- indent_em <= 7.50
+|   |   |   |   |--- weights: [0.00, 0.09] class: True
+|   |   |   |--- indent_em >  7.50
+|   |   |   |   |--- weights: [0.00, 0.00] class: True
+|   |   |--- text_caps_ratio >  0.10
+|   |   |   |--- right_gap_em <= 6.27
+|   |   |   |   |--- weights: [0.00, 0.00] class: True
+|   |   |   |--- right_gap_em >  6.27
+|   |   |   |   |--- weights: [0.00, 0.00] class: True

@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-02 — Footnote markers open the right note (ingest v0.16.0)
+
+In reports whose note numbers restart each chapter, one stray marker used to shift every later note onto the wrong chapter's text: 148 markers in the 9/11 Commission Report opened the wrong note, so "Haznawi in 6B." showed a note about Rohan Gunaratna instead of the airline record. Notes are now paired with their markers in reading order, so a stray marker disturbs nothing; the 9/11 chapter 1 date garble is corrected too. Moved: 9/11 (122 markers), Leveson (196), Deepwater Horizon (112), Litvinenko (94), Columbia (7, which gains a "Notes not linked in the text" section) and Lehman (1). Paragraph links are unchanged, except that 9/11's three-paragraph "Foresight—and Hindsight" now sits at the end of the chapter before it rather than on a page of its own.
+
 ## 2026-10-02 — The Lehman introduction now covers Repo 105
 
 The Valukas Report's landing page now draws on Volume 3: its Repo 105 findings cite and quote the examiner's own Repo 105 analysis rather than the executive summary's précis of it — what the device was, the $38.6–$50.38 billion it took off the balance sheet at quarter-end, the absence of any business purpose, who was not told, and the claims against Lehman's officers and Ernst & Young — and the reading guide sends readers to the Repo 105 section. Three passages from it are added to the highlights.
