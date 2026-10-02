@@ -148,7 +148,7 @@ an interactive session.
   own repo, which records the ordered, checksummed source volumes and the
   passes it declares. `reports/manifest.yaml` says where that is.
 - **The pipeline is a pinned dependency**, [`@rtm/ingest`](https://github.com/reportsthatmatter/ingest).
-  A pipeline fix is two steps: release it there, then bump the pin here and
+  A pipeline fix is two steps: release it there (merge the PR, then `pnpm release X.Y.Z` from ingest's `main`), then bump the pin here and
   re-run `pnpm ingest check`. That friction is the point — it is what makes a
   report adopt an improvement knowingly instead of having it arrive
   unannounced, which is how one fix silently changed three reports.
