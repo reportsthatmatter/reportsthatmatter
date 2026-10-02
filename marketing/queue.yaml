@@ -3,9 +3,9 @@
 # posted_url a scheduled poster (y2t.4) has written back; it only appends new
 # excerpts. See src/lib/posts.ts (buildQueue) for exactly what that means.
 items:
-  - id: jack-smith-vol1:trump-has-something-else-left:c81c03f9
+  - id: jack-smith-vol1:just-before-2-24-p:c81c03f9
     report: jack-smith-vol1
-    paragraph: trump-has-something-else-left
+    paragraph: just-before-2-24-p
     quote: When an advisor at the White House learned this, he rushed to the dining
       room and informed Mr. Trump, who replied "So what?"
     text: >-
@@ -15,7 +15,7 @@ items:
 
       — Report of Special Counsel Jack Smith, Volume One: The Election Case, p.
       30
-    link: https://reportsthatmatter.org/reports/jack-smith-vol1?p=trump-has-something-else-left&h=location%20at%20the%20Capitol.%20|When%20an%20advisor%20at%20the%20White%20House%20learned%20this%2C%20he%20rushed%20to%20the%20dining%20room%20and%20informed%20Mr.%20Trump%2C%20who%20replied%20%22So%20what%3F%22|&src=bsky
+    link: https://reportsthatmatter.org/reports/jack-smith-vol1?p=just-before-2-24-p&h=location%20at%20the%20Capitol.%20|When%20an%20advisor%20at%20the%20White%20House%20learned%20this%2C%20he%20rushed%20to%20the%20dining%20room%20and%20informed%20Mr.%20Trump%2C%20who%20replied%20%22So%20what%3F%22|&src=bsky
     card: assets/cards/jack-smith-vol1/default.png
     scheduled: 2026-09-29
     posted_url: null

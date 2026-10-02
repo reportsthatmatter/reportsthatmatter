@@ -292,7 +292,7 @@ describe("changelog", () => {
 });
 
 describe("share cards", () => {
-  const CARD_PARAGRAPH = "trump-has-something-else-left";
+  const CARD_PARAGRAPH = "just-before-2-24-p";
 
   it("advertises a card when one exists for the passage", async () => {
     const res = await app.request(
