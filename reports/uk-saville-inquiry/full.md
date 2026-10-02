@@ -5889,11 +5889,9 @@ Mr. Faulkner recognised that the civil disobedience parades in the coming weeken
 
 Mr. Faulkner said that the I.R.A. campaign was going through a very dirty phase at present, with attacks on policemen. He referred to the eight men who had recently been taken into custody by the Republican police, but had subsequently been released, although they were apparently carrying guns.
 
-Reverting to the situation of internment and the possibility of reducing it, Mr. Faulkner said that of 700 interned or detained, 240 were officers of the provisional I.R.A and 90 were officers of the official I.R.A. He thought that there were probably about 200 'volunteers' in detention who could be among the first to be considered for release. There were probably about 200 wanted men on the run in the Republic. It was not
+Reverting to the situation of internment and the possibility of reducing it, Mr. Faulkner said that of 700 interned or detained, 240 were officers of the provisional I.R.A and 90 were officers of the official I.R.A. He thought that there were probably about 200 'volunteers' in detention who could be among the first to be considered for release. There were probably about 200 wanted men on the run in the Republic. It was not generally appreciated that since internment, about 200 men had been arrested on arms and explosive charges and had been convicted. This showed that the authorities were not relying only upon internment.
 
 %%page 398%%
-
-> generally appreciated that since internment, about 200 men had been arrested on arms and explosive charges and had been convicted. This showed that the authorities were not relying only upon internment.
 
 > The Prime Minister thanked Mr. Faulkner for coming and said that he would look forward to a general discussion with him later about possible political moves.
 
@@ -6647,11 +6645,9 @@ Shooting was the very last thing that was in anybody's mind."
 
 40. Immediately after the O Group, I asked Brigadier MacLellan if I could speak with him in his office. There was no-one else present and the meeting lasted a few minutes. I told him that 1 Para should not be used in Londonderry: they did not know the area and would go in blind. I said that I should be given the role of 1 Para and they could take over the blocking role allocated to 1R ANGLIAN and that this would be more acceptable all round. (As the Province Reserve battalion, the Paras had operated in all areas of the Province other than Londonderry. From my understanding, they seldom operated for any length of time as we resident battalions in Londonderry … Derry and Belfast were as different as chalk and cheese, and our job in Derry at the time was to maintain a containment line, albeit in an aggressive manner, which was so different to the role required of units in Belfast).
 
-41. Brigadier MacLellan told me that the decision to employ 1 Para had been made 'at the highest level' and he was not in a position to change anything. He said 'it was not for me to fight the case'. He gave me the strong impression that it was not his decision to use 1 Para for this operation. I understood his reference to 'the highest level' to mean that the decision had been taken at Government level as, in my opinion, no
+41. Brigadier MacLellan told me that the decision to employ 1 Para had been made 'at the highest level' and he was not in a position to change anything. He said 'it was not for me to fight the case'. He gave me the strong impression that it was not his decision to use 1 Para for this operation. I understood his reference to 'the highest level' to mean that the decision had been taken at Government level as, in my opinion, no military commander would place a battalion in a situation where the troops did not know the ground over which they may be required to deploy nor have knowledge of any local 'conditions'.
 
 %%page 446%%
-
-> military commander would place a battalion in a situation where the troops did not know the ground over which they may be required to deploy nor have knowledge of any local 'conditions'.
 
 > 42. Brigadier MacLellan was obviously in a no win situation. With his short experience of operations in Londonderry he had, in my opinion, been sat upon by those, also, with little knowledge of Londonderry. I asked that my views should be relayed immediately to HQ Northern Ireland. I do not know if this was ever done. After I left this meeting, I also spoke with the Brigade Major and told him of my conversation with Brigadier MacLellan. He sympathised but said nothing could be done to change the orders. I asked Lieutenant Colonel Steele to contact Lieutenant Colonel Wilford to say I would be available for any information or advice he may need for his operation. I do not know if Lieutenant Colonel Steele ever relayed my offer, but Lieutenant Colonel Wilford did not contact me before, on, or after 30 January 1972."
 
