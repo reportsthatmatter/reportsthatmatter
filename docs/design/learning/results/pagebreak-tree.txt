@@ -1,0 +1,71 @@
+Depth-3 tree, trained on the three development reports (equal weight per report). class True = join.
+
+|--- prev_ends_sentence <= 0.50
+|   |--- font_change <= 0.50
+|   |   |--- next_first_indent_em <= 0.60
+|   |   |   |--- weights: [0.09, 1.43] class: True
+|   |   |--- next_first_indent_em >  0.60
+|   |   |   |--- weights: [0.03, 0.00] class: False
+|   |--- font_change >  0.50
+|   |   |--- next_words <= 12.50
+|   |   |   |--- weights: [0.08, 0.00] class: False
+|   |   |--- next_words >  12.50
+|   |   |   |--- weights: [0.01, 0.02] class: True
+|--- prev_ends_sentence >  0.50
+|   |--- prev_width_rel <= 0.99
+|   |   |--- prev_width_rel <= 0.91
+|   |   |   |--- weights: [1.07, 0.01] class: False
+|   |   |--- prev_width_rel >  0.91
+|   |   |   |--- weights: [0.13, 0.02] class: False
+|   |--- prev_width_rel >  0.99
+|   |   |--- next_width_rel <= 0.99
+|   |   |   |--- weights: [0.05, 0.00] class: False
+|   |   |--- next_width_rel >  0.99
+|   |   |   |--- weights: [0.02, 0.05] class: True
+
+
+Depth-4 tree:
+
+|--- prev_ends_sentence <= 0.50
+|   |--- font_change <= 0.50
+|   |   |--- next_first_indent_em <= 0.60
+|   |   |   |--- next_starts_label <= 0.50
+|   |   |   |   |--- weights: [0.07, 1.42] class: True
+|   |   |   |--- next_starts_label >  0.50
+|   |   |   |   |--- weights: [0.02, 0.01] class: False
+|   |   |--- next_first_indent_em >  0.60
+|   |   |   |--- next_words <= 14.50
+|   |   |   |   |--- weights: [0.03, 0.00] class: False
+|   |   |   |--- next_words >  14.50
+|   |   |   |   |--- weights: [0.00, 0.00] class: False
+|   |--- font_change >  0.50
+|   |   |--- next_words <= 12.50
+|   |   |   |--- weights: [0.08, 0.00] class: False
+|   |   |--- next_words >  12.50
+|   |   |   |--- prev_words <= 13.50
+|   |   |   |   |--- weights: [0.01, 0.00] class: False
+|   |   |   |--- prev_words >  13.50
+|   |   |   |   |--- weights: [0.00, 0.02] class: True
+|--- prev_ends_sentence >  0.50
+|   |--- prev_width_rel <= 0.99
+|   |   |--- prev_width_rel <= 0.91
+|   |   |   |--- prev_width_rel <= 0.88
+|   |   |   |   |--- weights: [1.03, 0.00] class: False
+|   |   |   |--- prev_width_rel >  0.88
+|   |   |   |   |--- weights: [0.04, 0.00] class: False
+|   |   |--- prev_width_rel >  0.91
+|   |   |   |--- next_words <= 15.50
+|   |   |   |   |--- weights: [0.12, 0.01] class: False
+|   |   |   |--- next_words >  15.50
+|   |   |   |   |--- weights: [0.01, 0.01] class: True
+|   |--- prev_width_rel >  0.99
+|   |   |--- next_width_rel <= 0.99
+|   |   |   |--- prev_width_rel <= 1.00
+|   |   |   |   |--- weights: [0.00, 0.00] class: False
+|   |   |   |--- prev_width_rel >  1.00
+|   |   |   |   |--- weights: [0.05, 0.00] class: False
+|   |   |--- next_width_rel >  0.99
+|   |   |   |--- skipped_lines <= 2.50
+|   |   |   |   |--- weights: [0.00, 0.04] class: True
+|   |   |   |--- skipped_lines >  2.50
+|   |   |   |   |--- weights: [0.02, 0.00] class: False
