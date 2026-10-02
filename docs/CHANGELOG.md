@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-02 — Quotations and list items no longer split at page breaks (ingest v0.17.0)
+
+A block quotation that ran over a page break used to arrive as two consecutive quotations, the second opening mid-sentence ("This group will be" / "known as the Tobacco Industry Research Committee"). The new `quoteListRunOns` pass joins them, and a word the break cut ("pro-" / "actively") is closed up. Ten reports declare it: Philip Morris loses 141 split quotations, Leveson 81, PSI 42, Lehman 19, Litvinenko 15, Saville 11, Chilcot 4, and 9/11, Challenger and Jack Smith one each, 316 in all. No paragraph link moves; PSI loses one word. Measured against the reference edition, Philip Morris's page-break join accuracy rises from 73.9% to 82.7%. The release also adds a layout oracle that measures the pipeline's headings, markers and paragraph boundaries against the PDF's own line layout.
+
 ## 2026-10-02 — Footnote markers open the right note (ingest v0.16.0)
 
 In reports whose note numbers restart each chapter, one stray marker used to shift every later note onto the wrong chapter's text: 148 markers in the 9/11 Commission Report opened the wrong note, so "Haznawi in 6B." showed a note about Rohan Gunaratna instead of the airline record. Notes are now paired with their markers in reading order, so a stray marker disturbs nothing; the 9/11 chapter 1 date garble is corrected too. Moved: 9/11 (122 markers), Leveson (196), Deepwater Horizon (112), Litvinenko (94), Columbia (7, which gains a "Notes not linked in the text" section) and Lehman (1). Paragraph links are unchanged, except that 9/11's three-paragraph "Foresight—and Hindsight" now sits at the end of the chapter before it rather than on a page of its own.

@@ -1,9 +1,9 @@
 {
-  "ingest": "v0.16.0",
+  "ingest": "v0.17.0",
   "recorded": "2026-10-02",
   "reports": {
     "challenger-accident": {
-      "severed-into-quote": 87,
+      "severed-into-quote": 86,
       "severed-paragraph": 50,
       "severed-paragraph-capital": 85,
       "bare-footnote-marker": 119,
@@ -47,7 +47,7 @@
       "quote-share-parity": 1
     },
     "jack-smith-vol1": {
-      "severed-into-quote": 3,
+      "severed-into-quote": 2,
       "severed-paragraph": 5,
       "severed-paragraph-capital": 35,
       "bare-footnote-marker": 0,
@@ -66,10 +66,10 @@
       "rendered-h1": 0,
       "rendered-ol-words-share": 2,
       "ids-per-1k-words": 0,
-      "quote-share-parity": 2
+      "quote-share-parity": 1
     },
     "litvinenko-inquiry": {
-      "severed-into-quote": 87,
+      "severed-into-quote": 72,
       "severed-paragraph": 6,
       "severed-paragraph-capital": 56,
       "bare-footnote-marker": 92,
@@ -91,7 +91,7 @@
       "quote-share-parity": 2
     },
     "uk-chilcot-inquiry": {
-      "severed-into-quote": 12,
+      "severed-into-quote": 8,
       "severed-paragraph": 0,
       "severed-paragraph-capital": 5,
       "bare-footnote-marker": 185,
@@ -135,9 +135,9 @@
       "quote-share-parity": 2
     },
     "uk-leveson-inquiry": {
-      "severed-into-quote": 408,
+      "severed-into-quote": 327,
       "severed-paragraph": 24,
-      "severed-paragraph-capital": 229,
+      "severed-paragraph-capital": 238,
       "bare-footnote-marker": 6456,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 25,
@@ -157,7 +157,7 @@
       "quote-share-parity": 2
     },
     "uk-saville-inquiry": {
-      "severed-into-quote": 16,
+      "severed-into-quote": 5,
       "severed-paragraph": 1,
       "severed-paragraph-capital": 48,
       "bare-footnote-marker": 10,
@@ -176,10 +176,10 @@
       "rendered-h1": 0,
       "rendered-ol-words-share": 4,
       "ids-per-1k-words": 0,
-      "quote-share-parity": 1
+      "quote-share-parity": 2
     },
     "us-911-commission": {
-      "severed-into-quote": 35,
+      "severed-into-quote": 34,
       "severed-paragraph": 4,
       "severed-paragraph-capital": 61,
       "bare-footnote-marker": 2,
@@ -223,9 +223,9 @@
       "quote-share-parity": 2
     },
     "us-lehman-examiner": {
-      "severed-into-quote": 20,
+      "severed-into-quote": 1,
       "severed-paragraph": 22,
-      "severed-paragraph-capital": 57,
+      "severed-paragraph-capital": 58,
       "bare-footnote-marker": 22,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 1,
@@ -240,12 +240,12 @@
       "heading-long": 34,
       "printed-page-reversal": 0,
       "rendered-h1": 0,
-      "rendered-ol-words-share": 5,
+      "rendered-ol-words-share": 6,
       "ids-per-1k-words": 0,
       "quote-share-parity": 1
     },
     "us-psi-financial-crisis": {
-      "severed-into-quote": 43,
+      "severed-into-quote": 1,
       "severed-paragraph": 41,
       "severed-paragraph-capital": 48,
       "bare-footnote-marker": 16,
@@ -267,9 +267,9 @@
       "quote-share-parity": 2
     },
     "us-v-philip-morris": {
-      "severed-into-quote": 247,
+      "severed-into-quote": 106,
       "severed-paragraph": 2,
-      "severed-paragraph-capital": 158,
+      "severed-paragraph-capital": 159,
       "bare-footnote-marker": 52,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
