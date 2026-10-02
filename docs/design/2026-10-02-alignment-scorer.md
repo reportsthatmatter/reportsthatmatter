@@ -89,3 +89,37 @@ Accuracy is over line breaks the reference covers whose next block is prose, quo
 - CAP has no heading markup; headings are inferred (I., A., 1., a., short all-caps lines), so Philip Morris heading scores are approximate.
 - Layout features need a single source PDF; multi-volume reports fall back to block-level boundary rows.
 - Next: put `pnpm score --all` beside `pnpm quality report --diff` in pin-bump PRs (38s.6); budget the precise advisory signal; start 38s.8 on the page-break join decision.
+
+## Update: label quality (38s.12)
+
+**Why.** Adjudicating held-out page breaks against the PDF (38s.8) found the reference wrong on 19 of 185 rows, and two-column pages paired lines from different columns. Fixes are in the references (report repos, `reference/`), in the dataset (`src/lib/score/layout.ts`, `decisions.ts`) and in what `pnpm score` reports ([`../scoring.md`](../scoring.md)).
+
+**Reference fixes** (`scripts/score/reference.py`, normaliser version 2):
+
+- Hillsborough: footnotes sit inside the page's `/P` in 9 pt against 12 pt body, so a paragraph running over a page had its notes inlined ("…rather than have a Judicial Review 16. File held by Dr Popper… and hove [sic]…"). Runs of small characters low on the page are now taken out by size and become note blocks (1,113 notes, up from 392), and marker digits in 7 pt become linked markers (983 of 992 linked). A page-run fragment that continues an unfinished paragraph is joined past the page's notes whatever its first letter (not only lower case), and a paragraph's numbered pieces are split at printed numbers even when it also holds a numbered list. The website HTML (Wayback, 103 pages: about two thirds of the report; chapters 4, 7, 8 and 9 are mostly not captured) replaces the tags wherever it has a stretch (half of a block's 6-word shingles found in the same chapter): each paragraph its own element, so unnumbered paragraphs are separate; the rest stays tags. The hybrid and its sources (the resolved capture URL of every page) are in the manifest.
+- Chilcot: bulleted findings kept inside the paragraph above ("…included:• a • b") are split into list blocks (354), and a page-run fragment continuing an unfinished paragraph is joined past the page's notes, whatever its first letter.
+
+**Dataset fixes.** Two-column pages are read column by column (Columbia: 178 of 248 pages, Duelfer 234 of 451); other pages top to left (pdftohtml sometimes emits Saville's hanging "2.5" label after the lines below it) and a hanging label or bullet joins the text beside it; the trailing run of small lines is footnote text and never a page's last body line; a line whose words are in ours but not the reference (Chilcot's names are links the tags drop) is still a body line, borrowing the nearest aligned word, and where a line has no reference answer at all `ref_boundary` is null instead of a guess. Every boundary row has `label_confidence` and `label_flags`.
+
+**The reference's own error rate** (30 adjudicated page breaks per report; the old references scored against the same breaks):
+
+| report | before | after | no answer after |
+|---|---:|---:|---:|
+| uk-hillsborough-panel | 7.1% (2/28) | 0.0% (0/30) | 0 |
+| uk-chilcot-inquiry | 18.2% (4/22) | 4.5% (1/22) | 8 of 30 |
+| columbia-accident | not measured | 3.4% (1/29) | 0 |
+| us-duelfer-report | not measured | 3.3% (1/30) | 0 |
+| us-911-commission, uk-saville-inquiry, us-v-philip-morris | not measured | 0/29, 0/30, 0/30 | 0 |
+
+The label flags fired on 1 of the 2 wrong Hillsborough labels and all 4 wrong Chilcot labels of the old references, over 30 of 330 and 20 of 103 page-break rows.
+
+**Score changes** (held-out; the development references are unchanged, so their scores are):
+
+| report | boundary P | R | F1 | markers (reference) | WER |
+|---|---|---|---|---|---|
+| uk-hillsborough-panel | 65.4 → 77.2% | 78.1 → 74.6% | 71.2 → 75.9% | 0 → 992 (none linked by ours: bare numbers) | 0.6 → 1.5% |
+| uk-chilcot-inquiry | 92.2 → 98.6% | 93.8 → 78.5% | 93.0 → 87.4% | 283 → 281 | 15.0 → 14.9% |
+
+Chilcot's recall fell because the reference now separates the bullets that our text still keeps inside the paragraph or quotation above (330 missed splits): a pipeline defect the old reference hid. Hillsborough's precision rose because unnumbered paragraphs are no longer glued together in the stretches the HTML covers.
+
+**Not done.** Chilcot's tags lack whole paragraphs (8 of 30 adjudicated breaks have no reference answer); its executive summary may exist as HTML. Hillsborough's missing chapters stay tag-referenced, and Wayback may hold more captures later (rerun `reference.py fetch`, then `build`).

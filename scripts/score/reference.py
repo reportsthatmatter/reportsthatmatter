@@ -45,13 +45,24 @@ import time
 import urllib.request
 from html.parser import HTMLParser
 
-NORMALISER_VERSION = 1
+NORMALISER_VERSION = 2
 SITE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 PUBLIC_DOMAIN = "Public domain: a work of the United States Government (17 U.S.C. § 105)."
 CROWN = "Crown copyright, reused under the Open Government Licence v3.0 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)."
 
 WAYBACK_SAVILLE = "https://web.archive.org/web/2011id_/http://report.bloody-sunday-inquiry.org/volume01/chapter{n:03d}/"
+WAYBACK_HILLS = "https://web.archive.org/web/2id_/http://hillsborough.independent.gov.uk/report/main-section/{path}/"
+# the pages Wayback holds (38s.12; chapters 4, 7, 8 and 9 are mostly missing): name -> website path
+HILLS_PAGES = ['part-1-page-1.html', 'part-1-page-3.html', 'part-1-page-4.html', 'part-1-page-5.html', 'part-1-page-6.html', 'part-1-page-7.html', 'part-1-page-8.html', 'part-1-page-9.html', 'part-1-page-10.html', 'part-1-page-11.html', 'part-1-page-12.html', 'part-1-page-13.html', 'ch1-page-1.html', 'ch1-page-2.html', 'ch1-page-3.html', 'ch1-page-4.html', 'ch1-page-5.html', 'ch1-page-6.html', 'ch1-page-7.html', 'ch1-page-8.html', 'ch1-page-9.html', 'ch1-page-10.html', 'ch1-page-11.html', 'ch2-page-1.html', 'ch2-page-2.html', 'ch2-page-3.html', 'ch2-page-4.html', 'ch2-page-5.html', 'ch2-page-6.html', 'ch2-page-7.html', 'ch2-page-8.html', 'ch3-page-1.html', 'ch3-page-2.html', 'ch3-page-3.html', 'ch3-page-4.html', 'ch3-page-5.html', 'ch3-page-6.html', 'ch3-page-7.html', 'ch3-page-8.html', 'ch3-page-9.html', 'ch4-page-2.html', 'ch4-page-12.html', 'ch4-page-13.html', 'ch5-page-1.html', 'ch5-page-2.html', 'ch5-page-3.html', 'ch5-page-4.html', 'ch5-page-5.html', 'ch5-page-6.html', 'ch5-page-7.html', 'ch5-page-8.html', 'ch5-page-9.html', 'ch5-page-10.html', 'ch5-page-11.html', 'ch5-page-12.html', 'ch5-page-13.html', 'ch6-page-1.html', 'ch6-page-2.html', 'ch6-page-3.html', 'ch6-page-4.html', 'ch6-page-5.html', 'ch6-page-6.html', 'ch6-page-7.html', 'ch6-page-9.html', 'ch6-page-11.html', 'ch6-page-12.html', 'ch6-page-13.html', 'ch6-page-14.html', 'ch6-page-15.html', 'ch7-page-1.html', 'ch7-page-15.html', 'ch8-page-1.html', 'ch8-page-2.html', 'ch8-page-3.html', 'ch8-page-4.html', 'ch8-page-5.html', 'ch8-page-6.html', 'ch9-page-11.html', 'ch10-page-1.html', 'ch10-page-2.html', 'ch10-page-3.html', 'ch10-page-4.html', 'ch10-page-5.html', 'ch10-page-6.html', 'ch10-page-11.html', 'ch11-page-1.html', 'ch11-page-2.html', 'ch11-page-3.html', 'ch11-page-4.html', 'ch11-page-5.html', 'ch11-page-6.html', 'ch11-page-7.html', 'ch11-page-8.html', 'ch11-page-9.html', 'ch11-page-10.html', 'ch12-page-1.html', 'ch12-page-2.html', 'ch12-page-3.html', 'ch12-page-4.html', 'ch12-page-5.html', 'ch12-page-6.html', 'ch12-page-7.html', 'ch12-page-9.html']
+
+
+def hills_path(name):
+    m = re.match(r"^(?:part-(\d+)|ch(\d+))-page-(\d+)\.html$", name)
+    part, ch, page = m.groups()
+    return f"part-{part}/page-{page}" if part else f"part-2/chapter-{ch}/page-{page}"
+
+
 WAYBACK_DUELFER = "https://web.archive.org/web/20110202012150id_/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/{name}.html"
 
 REFERENCES = {
@@ -106,14 +117,16 @@ REFERENCES = {
     "uk-hillsborough-panel": {
         "set": "held-out",
         "adapter": "tagged",
-        "edition": "The PDF's own structure tree (tagged PDF, InDesign styles)",
+        "edition": "The panel website's HTML (Wayback captures) where captured, and the PDF's own structure tree (tagged PDF, InDesign styles) for the rest",
         "licence": CROWN,
-        "files": [],
         "numbered": True,
+        "notes_by_size": True,
+        "html_overlay": True,
+        "files": [(WAYBACK_HILLS.format(path=hills_path(n)), n) for n in HILLS_PAGES],
         "caveats": [
-            "One /P element holds all the paragraphs between headings on a page: split at printed paragraph numbers (2.1.60), so unnumbered paragraphs inside one element are not separated.",
-            "Every page-bottom fragment is its own /P: an element opening in lower case is joined to the one before; one opening on a capital is not.",
-            "Footnotes are plain /P (typed as notes when they read as numbered citations); markers are not linked, so marker metrics are empty.",
+            "A hybrid. The website HTML holds each paragraph in its own element, so unnumbered paragraphs are separate, footnotes are linked and a paragraph is never cut at a page break. Wayback holds about two thirds of its pages (chapters 4, 7, 8 and 9 are mostly missing): a stretch whose printed paragraph numbers the HTML has is taken from the HTML, the rest from the PDF's tags.",
+            "The tags put one /P element around all the paragraphs between headings on a page: split at printed paragraph numbers (2.1.60), so unnumbered paragraphs inside one element are not separated in the stretches taken from the tags.",
+            "In the tags a fragment that continues an unfinished paragraph (past the page's notes) is joined to it, whatever its first letter; footnotes sit inside the page's /P in the note size (9 pt against 12 pt) and are taken out by size.",
         ],
     },
     "columbia-accident": {
@@ -130,7 +143,11 @@ REFERENCES = {
         "edition": "The executive summary PDF's own structure tree (tagged PDF, InDesign styles, role-mapped)",
         "licence": CROWN,
         "files": [],
-        "caveats": ["Names marked up as links are missing from marked content (roughly 15% of words)."],
+        "caveats": [
+            "Names marked up as links are missing from marked content (roughly 15% of words).",
+            "Bulleted findings are kept inside the paragraph above ('...included:\u2022 a \u2022 b'): split into list blocks at the bullets.",
+            "One /P per page run: a fragment that continues an unfinished paragraph (past the page's notes) is joined to it, whatever its first letter.",
+        ],
     },
     "us-duelfer-report": {
         "set": "held-out",
@@ -199,14 +216,25 @@ def fetch(report_id, cache=None):
     sources = []
     for url, name in spec["files"]:
         out = os.path.join(raw, name)
+        resolved = url
         if cache and os.path.exists(os.path.join(cache, name)):
             shutil.copyfile(os.path.join(cache, name), out)
+            if "web.archive.org" in url:  # provenance: which capture the cache copy came from (best effort)
+                for attempt in range(3):
+                    try:
+                        head = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "reportsthatmatter reference mirror (rufus@lifeitself.org)"})
+                        resolved = urllib.request.urlopen(head, timeout=60).geturl()
+                        break
+                    except Exception:
+                        time.sleep(3 * (attempt + 1))
         else:
             err = None
             for attempt in range(6):
                 try:
                     req = urllib.request.Request(url, headers={"User-Agent": "reportsthatmatter reference mirror (rufus@lifeitself.org)"})
-                    data = urllib.request.urlopen(req, timeout=180).read()
+                    resp = urllib.request.urlopen(req, timeout=180)
+                    data = resp.read()
+                    resolved = resp.geturl()
                     open(out, "wb").write(data)
                     err = None
                     break
@@ -215,7 +243,10 @@ def fetch(report_id, cache=None):
                     time.sleep(5 * (attempt + 1))
             if err:
                 raise SystemExit(f"{url}: {err}")
-        sources.append({"path": f"reference/raw/{name}", "url": url, "sha256": sha256(out), "bytes": os.path.getsize(out)})
+        src = {"path": f"reference/raw/{name}", "url": url, "sha256": sha256(out), "bytes": os.path.getsize(out)}
+        if resolved != url:
+            src["captured"] = resolved
+        sources.append(src)
         print(f"  {name} {os.path.getsize(out):,} bytes")
     m = read_manifest(report_id)
     m.update(
@@ -801,6 +832,129 @@ def build_duelfer(raw):
     return b.blocks
 
 
+# ---------------------------------------------------------------- Hillsborough panel website HTML
+
+
+def hills_key(name):
+    m = re.match(r"^(?:part-(\d+)|ch(\d+))-page-(\d+)\.html$", name)
+    part, ch, page = m.groups()
+    return (int(part) if part else 2, int(ch) if ch else 0, int(page))
+
+
+def build_hillsborough_html(raw):
+    """The Hillsborough Independent Panel's website (Wayback captures): one page per section of a
+    chapter, each paragraph its own <P> (so unnumbered paragraphs are separate, which the PDF's tags do not
+    give), footnotes in div.footnotes as '[n] text<br />[n+1] ...' with '[n]' markers in the text."""
+    b = Builder()
+    names = sorted((f for f in os.listdir(raw) if re.match(r"^(part-\d+|ch\d+)-page-\d+\.html$", f)), key=hills_key)
+    last_title = None
+    for name in names:
+        text = open(os.path.join(raw, name), encoding="utf-8", errors="replace").read()
+        title = re.search(r'<h1 class="entry-title[^"]*">(.*?)</h1>', text, re.S)
+        title = clean(html.unescape(re.sub(r"<[^>]+>", "", title.group(1)))) if title else None
+        start = text.find('class="entry-content"')
+        if start < 0:
+            continue
+        start = text.rfind("<div", 0, start)
+        if title and title != last_title:
+            b.flush()
+            b.section = title
+            b.open("heading", level=1)
+            b.text(title)
+            b.flush()
+            last_title = title
+        depth = 0
+        notes_html = None
+        in_notes = 0
+        note_buf = []
+        page_blocks_from = len(b.blocks)
+        in_heading = None
+        last_br = False
+        for kind, tag, data in events(text[start:]):
+            if kind == "start" and tag == "div":
+                depth += 1
+                if in_notes:
+                    in_notes += 1
+                elif (data or {}).get("class") == "footnotes":
+                    in_notes = 1
+                continue
+            if kind == "end" and tag == "div":
+                depth -= 1
+                if in_notes:
+                    in_notes -= 1
+                if depth <= 0:
+                    break
+                continue
+            if in_notes:
+                if kind == "text":
+                    note_buf.append(data)
+                elif kind == "start" and tag == "br":
+                    note_buf.append("\n")
+                continue
+            if kind == "start" and tag in ("script", "style", "figure", "nav"):
+                depth += 0
+            if kind == "start" and tag in ("h1", "h2", "h3", "h4"):
+                b.open("heading", level=int(tag[1]))
+                in_heading = tag
+                continue
+            if kind == "end" and tag == in_heading:
+                b.flush()
+                in_heading = None
+                continue
+            if kind == "start" and tag in ("p", "li", "blockquote"):
+                b.open("list" if tag == "li" else "quote" if tag == "blockquote" else "paragraph")
+                last_br = False
+                continue
+            if kind == "end" and tag in ("p", "li", "blockquote"):
+                b.flush()
+                continue
+            if kind == "start" and tag == "br":
+                if last_br and b.cur is not None and b.cur["type"] == "paragraph":
+                    b.flush()
+                    b.open("paragraph")
+                else:
+                    b.text(" ")
+                last_br = True
+                continue
+            if kind == "text":
+                if not data.strip():
+                    continue
+                last_br = False
+                if b.cur is None and not in_heading:
+                    b.open("paragraph")
+                if in_heading:
+                    b.text(data)
+                    continue
+                pos = 0
+                for m in re.finditer(r"\[(\d{1,3})\]", data):
+                    b.text(data[pos : m.start()])
+                    b.marker(m.group(1))
+                    pos = m.end()
+                b.text(data[pos:])
+        b.flush()
+        # this page's notes, linked to this page's markers by label in order
+        raw_notes = "".join(note_buf)
+        pending = [mk for blk in b.blocks[page_blocks_from:] for mk in blk.get("markers", [])]
+        for line in raw_notes.split("\n"):
+            mm = re.match(r"^\s*\[(\d{1,3})\]\s*(.*)$", line, re.S)
+            if not mm or not clean(mm.group(2)):
+                continue
+            nid = f"n{sum(1 for x in b.blocks if x['type'] == 'note') + 1}"
+            b.blocks.append({"type": "note", "level": None, "num": None, "label": mm.group(1), "id": nid, "text": clean(mm.group(2)), "section": b.section, "markers": [], "page": name})
+            for mk in pending:
+                if mk["label"] == mm.group(1) and mk["note"] is None:
+                    mk["note"] = nid
+                    break
+    # web furniture: video links ("Click here to watch ...") are not in the PDF
+    blocks = [x for x in b.blocks if x["text"] and not x["text"].startswith("Click here to ")]
+    levels = sorted({x["level"] for x in blocks if x["type"] == "heading"})
+    rank = {lv: i + 1 for i, lv in enumerate(levels)}
+    for x in blocks:
+        if x["type"] == "heading":
+            x["level"] = rank[x["level"]]
+    return blocks
+
+
 # ---------------------------------------------------------------- tagged PDF structure tree
 
 def tag_heading_level(name):
@@ -825,27 +979,112 @@ def build_tagged(report_id):
     for fname in pdfs:
         path = os.path.join(repo, "archive", fname)
         sources.append({"path": f"archive/{fname}", "sha256": sha256(path), "bytes": os.path.getsize(path)})
-        blocks += tagged_blocks(path, pikepdf, pdfplumber, numbered=REFERENCES[report_id].get("numbered", False))
+        spec = REFERENCES[report_id]
+        blocks += tagged_blocks(path, pikepdf, pdfplumber, numbered=spec.get("numbered", False), notes_by_size=spec.get("notes_by_size", False))
     return blocks, sources
 
 
 PARA_NUMBER = r"\d{1,2}(?:\.\d{1,3}){1,2}"
 
 
-def repair_tagged(blocks, numbered=False):
+def split_note_run(text):
+    """A run of footnotes set together ("16. File held ... 17. File note ..."): one (label, text) per
+    note, splitting only at the next number in sequence so a "para 12. The" inside a note stays put."""
+    m = re.match(r"^(\d{1,3})\.?\s+", text)
+    if not m:
+        return [(None, text)] if text else []
+    out = []
+    n = int(m.group(1))
+    pos = m.end()
+    label = m.group(1)
+    while True:
+        nxt = re.compile(r"(?<![\d.])" + str(n + 1) + r"\.\s+(?=\S)").search(text, pos)
+        if not nxt:
+            out.append((label, text[pos:].strip()))
+            return out
+        out.append((label, text[pos : nxt.start()].strip()))
+        n += 1
+        label = str(n)
+        pos = nxt.end()
+
+
+LABELLED = re.compile(r"^(?:\d{1,3}(?:\.\d{1,4})+|\d{1,4}\.|[a-z]\.|\([a-z0-9]{1,4}\)|[•·▪–-])\s")
+BULLET = "•"
+
+
+def unfinished(text):
+    """Does the text stop mid-sentence? (a trailing footnote number after the full stop does not count)"""
+    t = re.sub(r"(?<=[.!?:;”’\"')\]])\d{1,3}$", "", text.strip())
+    return bool(t) and t[-1] not in ".!?:;”’\"')]…"
+
+
+def join_text(prev, frag):
+    """Append frag to prev, shifting frag's markers."""
+    off = len(prev["text"]) + 1
+    for m in frag.get("markers", []):
+        prev["markers"].append({**m, "offset": m["offset"] + off})
+    prev["text"] += " " + frag["text"]
+    prev["endpage"] = max(prev.get("endpage", 0), frag.get("endpage", frag.get("page", 0)))
+    prev["joined"] = True
+
+
+def split_bullets(blk):
+    """'...included:\u2022 a \u2022 b': the bulleted findings kept inside the paragraph become list blocks."""
+    text = blk["text"]
+    if blk["type"] != "paragraph" or BULLET not in text:
+        return [blk]
+    cuts = sorted(set(m.start() for m in re.finditer(r"(?<!^)\s*" + BULLET, text)))
+    if not cuts:
+        return [blk]
+    bounds = [0] + cuts + [len(text)]
+    out = []
+    for k in range(len(bounds) - 1):
+        a, b = bounds[k], bounds[k + 1]
+        piece = text[a:b]
+        lead = len(piece) - len(piece.lstrip())
+        piece = piece.strip()
+        if not piece:
+            continue
+        a += lead
+        nb = {**blk, "text": piece, "markers": [{**m, "offset": max(0, m["offset"] - a)} for m in blk["markers"] if a <= m["offset"] < b or (k == len(bounds) - 2 and m["offset"] == b)]}
+        if piece.startswith(BULLET):
+            nb["type"] = "list"
+            nb["num"] = None
+        out.append(nb)
+    return out
+
+
+def repair_tagged(blocks, numbered=False, notes_by_size=False):
     """Known flaws of tag trees, repaired before scoring:
-    - a paragraph continued over a page break is two elements: a paragraph element that opens in
-      lower case joins the paragraph element before it;
+    - a paragraph continued over a page break is two elements (one /P per page run): a paragraph that
+      opens in lower case joins the paragraph before it, and so does one that opens on a capital when
+      the paragraph before it stops mid-sentence and the page is the next one; the page's notes between
+      them are looked past;
+    - bulleted findings kept inside a paragraph are split into list blocks;
     - numbered: one /P element holds every paragraph between two headings on a page (Hillsborough):
       split it at printed paragraph numbers ("2.1.60 Following ..."), and type an element of
       numbered citations ("57. Letter from ... 58. ...") as notes."""
-    out = []
+    split = []
     for blk in blocks:
-        prev = out[-1] if out else None
-        if prev and blk["type"] == "paragraph" and prev["type"] == "paragraph" and re.match(r"^[a-z]", blk["text"]):
-            prev["text"] += " " + blk["text"]
-            prev["joined"] = True
-            continue
+        split += split_bullets(blk)
+    out = []
+    for blk in split:
+        # the block this one may continue: the last non-note block (notes sit at the foot of the page)
+        k = len(out) - 1
+        while k >= 0 and out[k]["type"] == "note":
+            k -= 1
+        prev = out[k] if k >= 0 else None
+        if prev and blk["type"] in ("paragraph", "quote") and prev["type"] in ("paragraph", "quote", "list") and not (blk["type"] == "paragraph" and prev["type"] == "quote"):
+            lower = re.match(r"^[a-z]", blk["text"])
+            page_run = (
+                unfinished(prev["text"])
+                and not LABELLED.match(blk["text"])
+                and blk.get("page", 0) - prev.get("endpage", prev.get("page", 0)) == 1
+                and (blk["type"] == prev["type"] or prev["type"] == "list")
+            )
+            if lower or page_run:
+                join_text(prev, blk)
+                continue
         out.append(blk)
     if not numbered:
         return out
@@ -854,20 +1093,29 @@ def repair_tagged(blocks, numbered=False):
         if blk["type"] != "paragraph":
             final.append(blk)
             continue
-        if re.match(r"^\d{1,3}\.\s+\S", blk["text"]) and len(re.findall(r"(?:^|\s)\d{1,3}\.\s+[A-Z‘'“]", blk["text"])) >= 2:
-            for piece in re.split(r"\s(?=\d{1,3}\.\s+[A-Z‘'“])", blk["text"]):
-                m = re.match(r"^(\d{1,3})\.\s+(.*)$", piece, re.S)
-                if m:
-                    final.append({**blk, "type": "note", "label": m.group(1), "text": m.group(2), "num": None, "markers": []})
-            continue
-        pieces = re.split(r"\s(?=" + PARA_NUMBER + r"\s+[A-Z‘'“(])", blk["text"])
-        for k, piece in enumerate(pieces):
-            n = re.match(r"^(" + PARA_NUMBER + r")\s", piece)
-            final.append({**blk, "text": piece, "num": n.group(1) if n else None, "markers": blk["markers"] if k == 0 else []})
+        parts = [blk]
+        if re.match(r"^\d{1,3}\.\s+\S", blk["text"]):
+            seq = split_note_run(blk["text"])
+            if len(seq) >= 2 or notes_by_size:
+                if notes_by_size:
+                    # footnotes are taken out by size, so numbered pieces here are numbered paragraphs (the report summary's)
+                    parts = [{**blk, "text": lab + ". " + t, "num": lab, "markers": []} for lab, t in seq if lab]
+                else:
+                    for lab, t in seq:
+                        final.append({**blk, "type": "note", "label": lab, "text": t, "num": None, "markers": []})
+                    continue
+        for part in parts:
+            pieces = re.split(r"\s(?=" + PARA_NUMBER + r"\s+[A-Z‘'“(])", part["text"])
+            start = 0
+            for k, piece in enumerate(pieces):
+                n = re.match(r"^(" + PARA_NUMBER + r")\s", piece)
+                at = part["text"].find(piece, start) if k else 0
+                start = at + len(piece)
+                final.append({**part, "text": piece, "num": n.group(1) if n else part.get("num"), "markers": [{**m, "offset": m["offset"] - at} for m in part["markers"] if at <= m["offset"] <= at + len(piece)]})
     return final
 
 
-def tagged_blocks(path, pikepdf, pdfplumber, numbered=False):
+def tagged_blocks(path, pikepdf, pdfplumber, numbered=False, notes_by_size=False):
     pdf = pikepdf.open(path)
     root = pdf.Root.get("/StructTreeRoot")
     if root is None:
@@ -879,21 +1127,61 @@ def tagged_blocks(path, pikepdf, pdfplumber, numbered=False):
     chars = {}
     with pdfplumber.open(path) as pl:
         for i, page in enumerate(pl.pages):
+            sizes = {}
+            if notes_by_size:
+                for ch in page.chars:
+                    sizes[round(ch["size"], 1)] = sizes.get(round(ch["size"], 1), 0) + 1
+            modal = max(sizes, key=sizes.get) if sizes else 0
             for ch in page.chars:
                 mcid = ch.get("mcid")
                 if mcid is not None:
-                    chars.setdefault((i, mcid), []).append((ch["text"], round(ch["top"])))
+                    # small: set well under the page's body size, low on the page (footnote or marker size)
+                    small = bool(notes_by_size) and ch["size"] < 0.8 * modal and ch["top"] > 0.05 * float(page.height) and ch["top"] > 0
+                    low = ch["top"] > 0.5 * float(page.height)
+                    chars.setdefault((i, mcid), []).append((ch["text"], round(ch["top"]), small, low))
             page.flush_cache()
 
-    def text_of(i, mcid):
+    def join_chars(items):
         out = []
         last_top = None
-        for t, top in chars.get((i, mcid), []):
+        for t, top in items:
             if last_top is not None and abs(top - last_top) > 2 and out and not out[-1].endswith((" ", "-", "­")):
                 out.append(" ")
             out.append(t)
             last_top = top
         return "".join(out)
+
+    def text_of(i, mcid):
+        """(body text, footnote runs): runs of small characters 8 or more long, low on the page, are notes;
+        shorter small runs (a marker's digits) stay in the body."""
+        cs = chars.get((i, mcid), [])
+        if not notes_by_size:
+            return join_chars([(t, top) for t, top, _, _ in cs]), []
+        body, runs = [], []
+        k = 0
+        while k < len(cs):
+            j = k
+            while j < len(cs) and cs[j][2] == cs[k][2]:
+                j += 1
+            seg = cs[k:j]
+            if cs[k][2] and len(seg) >= 8 and all(c[3] for c in seg):
+                runs.append(join_chars([(t, top) for t, top, _, _ in seg]))
+            else:
+                txt = "".join(c[0] for c in seg)
+                if cs[k][2] and re.fullmatch(r"\d{1,3}", txt.strip()) and body:
+                    # a footnote marker: kept as a sentinel, turned into a marker record at emit
+                    body += [("\ue000" + txt.strip() + "\ue001", seg[0][1])]
+                else:
+                    body += [(t, top) for t, top, _, _ in seg]
+            k = j
+        return join_chars(body), runs
+
+    def add_mcid(acc, i, mcid):
+        t, runs = text_of(i, mcid)
+        acc["parts"].append(t)
+        for r in runs:
+            acc.setdefault("runs", []).append((r, i))
+        acc["pages"].add(i)
 
     blocks = []
 
@@ -914,18 +1202,17 @@ def tagged_blocks(path, pikepdf, pdfplumber, numbered=False):
         kids = k if isinstance(k, pikepdf.Array) else [k]
         for kid in kids:
             if isinstance(kid, int):
-                acc["parts"].append(text_of(page, int(kid)))
-                acc["pages"].add(page)
+                add_mcid(acc, page, int(kid))
             elif isinstance(kid, pikepdf.Dictionary):
                 if "/MCID" in kid:
                     p2 = page_index.get(kid.Pg.objgen, page) if "/Pg" in kid else page
-                    acc["parts"].append(text_of(p2, int(kid.MCID)))
-                    acc["pages"].add(p2)
+                    add_mcid(acc, p2, int(kid.MCID))
                 elif "/S" in kid:
                     s, r = names(kid)
                     if s == "Reference":
                         sub = {"parts": [], "markers": [], "notes": [], "pages": set()}
                         collect(kid, page, sub)
+                        acc.setdefault("runs", []).extend(sub.get("runs", []))
                         label = clean("".join(sub["parts"]))
                         if re.fullmatch(r"\d{1,3}", label):
                             acc["markers"].append({"label": label, "offset": len(clean("".join(acc["parts"]))), "note": None})
@@ -942,12 +1229,25 @@ def tagged_blocks(path, pikepdf, pdfplumber, numbered=False):
 
     def emit(type_, level, acc, tag):
         text = clean("".join(acc["parts"]))
+        if "\ue000" in text:
+            plain, found = "", []
+            for piece in re.split("(\ue000\\d+\ue001)", text):
+                m = re.fullmatch("\ue000(\\d+)\ue001", piece)
+                if m:
+                    found.append({"label": m.group(1), "offset": len(plain), "note": None})
+                else:
+                    plain += piece
+            text = plain
+            acc["markers"] = acc["markers"] + found
         if text:
-            blk = {"type": type_, "level": level, "num": None, "text": text, "section": "", "markers": acc["markers"], "page": min(acc["pages"], default=0) + 1, "tag": tag}
+            blk = {"type": type_, "level": level, "num": None, "text": text, "section": "", "markers": acc["markers"], "page": min(acc["pages"], default=0) + 1, "endpage": max(acc["pages"], default=0) + 1, "tag": tag}
             n = re.match(r"^(\d{1,3}(?:\.\d{1,4})+|\d{1,4}\.?)\s", text)
             if n and type_ == "paragraph":
                 blk["num"] = n.group(1).rstrip(".")
             blocks.append(blk)
+        for run, pg in acc.get("runs", []):
+            for label, note_text in split_note_run(clean(run)):
+                blocks.append({"type": "note", "level": None, "num": None, "label": label, "text": note_text, "section": "", "markers": [], "page": pg + 1, "tag": "NoteRun"})
         for note_text, pg in acc["notes"]:
             m = re.match(r"^(\d{1,3})\s*(.*)$", note_text, re.S)
             if note_text:
@@ -989,7 +1289,7 @@ def tagged_blocks(path, pikepdf, pdfplumber, numbered=False):
                 walk(kid, page)
 
     walk(root, 0)
-    blocks[:] = repair_tagged(blocks, numbered=numbered)
+    blocks[:] = repair_tagged(blocks, numbered=numbered, notes_by_size=notes_by_size)
     # notes: link each marker to the next unclaimed note with its label, in document order
     pending = []
     for blk in blocks:
@@ -1014,7 +1314,84 @@ def tagged_blocks(path, pikepdf, pdfplumber, numbered=False):
 
 # ---------------------------------------------------------------- build
 
-ADAPTERS = {"commission911": build_911, "saville": build_saville, "cap": build_cap, "duelfer": build_duelfer}
+def _words(text):
+    return re.sub(r"[^a-z0-9 ]", "", re.sub(r"[‘’“”–—-]", " ", text.lower()).replace("\u00ad", "")).split()
+
+
+def _shingles(words, n=6):
+    return {" ".join(words[i : i + n]) for i in range(len(words) - n + 1)}
+
+
+def overlay_html(tags, html_blocks):
+    """The Hillsborough hybrid: a stretch of tag blocks whose text the website HTML has (half of a block's
+    6-word shingles found there) is replaced by the HTML blocks that hold it (one element per paragraph, linked
+    footnotes, no cut at a page break); the rest stays as the tags have it. Short blocks (headings) take the
+    coverage of the block after them, other short ones of the block before."""
+    def chapter(b):
+        m = re.match(r"^Chapter\s+(\d+)", b.get("section") or "")
+        return int(m.group(1)) if m else 0
+
+    # matched within the same chapter only: Part 1's summary repeats chapter conclusions word for word
+    hwords = [_words(b["text"]) for b in html_blocks]
+    where = {}
+    for i, ws in enumerate(hwords):
+        for sh in _shingles(ws):
+            where.setdefault((chapter(html_blocks[i]), sh), []).append(i)
+    allh = set(where)
+    cov = [None] * len(tags)
+    hit = [None] * len(tags)
+    for i, b in enumerate(tags):
+        ws = _words(b["text"])
+        if len(ws) < 8:
+            continue
+        sh = _shingles(ws)
+        ch = chapter(b)
+        found = [(ch, x) for x in sh if (ch, x) in allh]
+        cov[i] = len(found) >= 0.5 * len(sh)
+        if cov[i]:
+            votes = {}
+            for x in found:
+                for k in where[x]:
+                    votes[k] = votes.get(k, 0) + 1
+            hit[i] = max(votes, key=votes.get)
+    nxt = False
+    for i in range(len(tags) - 1, -1, -1):
+        if cov[i] is not None:
+            nxt = cov[i]
+        elif tags[i]["type"] == "heading":
+            cov[i] = nxt
+    prev = False
+    for i in range(len(tags)):
+        if cov[i] is None:
+            cov[i] = prev
+        prev = cov[i]
+    out = []
+    emitted_to = 0
+    i = 0
+    while i < len(tags):
+        j = i
+        while j < len(tags) and cov[j] == cov[i]:
+            j += 1
+        run = tags[i:j]
+        if not cov[i]:
+            out += run
+        else:
+            hs = [hit[k] for k in range(i, j) if hit[k] is not None]
+            if hs:
+                lo, hi = max(min(hs), emitted_to), max(hs)
+                while lo > emitted_to and html_blocks[lo - 1]["type"] == "heading":
+                    lo -= 1
+                e = hi + 1
+                while e < len(html_blocks) and html_blocks[e]["type"] == "note":
+                    e += 1
+                if e > lo:
+                    out += html_blocks[lo:e]
+                    emitted_to = e
+        i = j
+    return out
+
+
+ADAPTERS = {"commission911": build_911, "saville": build_saville, "cap": build_cap, "duelfer": build_duelfer, "hillsborough": build_hillsborough_html}
 
 
 def link_notes(blocks):
@@ -1038,6 +1415,22 @@ def build(report_id):
     m = read_manifest(report_id)
     if spec["adapter"] == "tagged":
         blocks, sources = build_tagged(report_id)
+        if spec.get("html_overlay"):
+            for blk in blocks:  # note ids are prefixed by source: both number theirs from n1
+                if blk.get("id"):
+                    blk["id"] = "t" + blk["id"]
+                for mk in blk.get("markers", []):
+                    if mk.get("note"):
+                        mk["note"] = "t" + mk["note"]
+            html_blocks = build_hillsborough_html(os.path.join(ref, "raw"))
+            for blk in html_blocks:
+                if blk.get("id"):
+                    blk["id"] = "h" + blk["id"]
+                for mk in blk.get("markers", []):
+                    if mk.get("note"):
+                        mk["note"] = "h" + mk["note"]
+            blocks = overlay_html(blocks, html_blocks)
+            sources = sources + [x for x in m.get("sources", []) if x.get("url")]
         m.update({"report": report_id, "set": spec["set"], "edition": spec["edition"], "licence": spec["licence"], "fetched": datetime.date.today().isoformat(), "sources": sources})
         m["sources_note"] = "The reference is derived from the source PDF already in archive/, so no copy is kept under reference/raw/."
     else:
