@@ -113,6 +113,7 @@ an interactive session.
 | `reports/registry.yaml` | What is published |
 | `reports/corpus-baseline.json` | Every report's citable ids, for `pnpm corpus check` |
 | `reports/quality-budget.yaml` | Per-report maximum counts for each quality signal, for `pnpm quality check` (signals in `src/lib/quality/`; `pnpm quality report` prints them all) |
+| `src/lib/score/`, `scripts/score.mjs` | Alignment scorer: `pnpm score <id>` / `--all` scores a report against its reference edition (`<repo>/reference/`) and writes `score-out/<id>/errors.md`, the worst errors with page and paragraph id. Measure-only, not in verify. See [`docs/scoring.md`](docs/scoring.md) |
 | `src/lib/content.ts` | Which store a report is read from — R2 at a pinned hash, or the deploy |
 | `src/lib/publish.ts` | Content hashing, per-report tokens, what a version must contain |
 | `docs/v2-features.yaml` | What is done and what is next |
