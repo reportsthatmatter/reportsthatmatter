@@ -21,6 +21,7 @@
  * Merging, conflict resolution, committing, raising a budget and accepting a baseline stay with the integrator.
  * State: build/ship/state.json (gitignored); logs: build/ship/logs/. Exit 0 finished, 1 stopped on a failure, 3 waiting for you.
  */
+import "./lib/help.mjs";
 import { execFileSync, spawn, spawnSync } from "node:child_process";
 import { createWriteStream, existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";

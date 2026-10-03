@@ -683,9 +683,9 @@ export function buildSteps(): Step[] {
       id: "verify-prod",
       title: "Production verify, and the drift table must be empty",
       kind: "prod",
-      describe: (ctx) => [`VERIFY_BASE=${ctx.base} ./scripts/verify.sh`, `pnpm publish-report --all --status --fail-on-drift --base ${ctx.base}`],
+      describe: (ctx) => [`VERIFY_SHARED=1 VERIFY_BASE=${ctx.base} ./scripts/verify.sh`, `pnpm publish-report --all --status --fail-on-drift --base ${ctx.base}`],
       async run(rt) {
-        await item(rt, "verify-prod", "verify", { argv: ["./scripts/verify.sh"], env: { VERIFY_BASE: rt.ctx.base } }, ["The failing check's own lines; verify.sh prints where it kept its logs", "check-search-staleness: a reindex that did not run"]);
+        await item(rt, "verify-prod", "verify", { argv: ["./scripts/verify.sh"], env: { VERIFY_BASE: rt.ctx.base, VERIFY_SHARED: "1" } }, ["The failing check's own lines; verify.sh prints where it kept its logs", "check-search-staleness: a reindex that did not run"]);
         await item(rt, "verify-prod", "drift", pnpm("publish-report", "--all", "--status", "--fail-on-drift", "--base", rt.ctx.base), ["pnpm publish-report --all --status --base " + rt.ctx.base, "A report still listed was not published (or was published and the CDN has not caught up: re-run)."]);
       },
     },
