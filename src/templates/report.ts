@@ -1,6 +1,8 @@
 import { renderLayout, escapeHtml } from "./layout";
 import { decodeAnchor, locate } from "../../assets/anchor.js";
 import { cardPath, defaultCardPath, SITE_ORIGIN } from "./card";
+import { citationMeta } from "../lib/structured-data";
+import { fullTextTitle } from "../lib/titles";
 import { quoteCardId } from "../lib/card-key";
 import { CARDS } from "../generated/cards";
 import { MARKS } from "../generated/marks";
@@ -11,6 +13,12 @@ export type ReportMeta = {
   authors?: string;
   published_at?: string;
   source_url?: string;
+  common_name?: string;
+  also_known_as?: string[];
+  issued_by?: string;
+  date_published?: string;
+  repo?: string;
+  license?: { name: string; url: string };
 };
 
 /**
@@ -143,7 +151,7 @@ export function reportPreview(
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
   return {
-    title: `${meta.title} — Reports that Matter`,
+    title: fullTextTitle(meta),
     description: quoted
       ? `“${truncate(quoted, 280)}” — ${meta.title}`
       : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
@@ -217,5 +225,6 @@ export function renderReport(
     imageAlt,
     url: sharedUrl(`/reports/${meta.id ?? ""}/full`, highlighted, anchor),
     canonical: `${SITE_ORIGIN}/reports/${meta.id ?? ""}/full`,
+    extraMeta: citationMeta(meta),
   });
 }

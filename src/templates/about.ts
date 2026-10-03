@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from "./site";
 import { renderLayout } from "./layout";
 
 /**
@@ -60,5 +61,6 @@ export function renderAbout(): string {
   return renderLayout("About — Reports that Matter", body, {
     description:
       "Reports that Matter makes official public reports readable, searchable, and linkable at the paragraph level. No commentary. No spin.",
+    url: `${SITE_ORIGIN}/about`,
   });
 }
