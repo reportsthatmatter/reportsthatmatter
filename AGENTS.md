@@ -287,8 +287,12 @@ an interactive session.
   words so that re-ingestion cannot silently repoint a citation. Never make them
   positional. `verify.sh` fails if `p-1`-style ids reappear.
 - Work on a branch; don't rewrite `main`.
-- No external posting, account creation, or scheduling. Campaign material is
-  drafted in-repo only.
+- No external posting, account creation, or scheduling by an agent. Campaign
+  material is drafted in-repo only. The one exception is built, not run: the
+  scheduled poster (`.github/workflows/post-next.yml`, [docs/poster.md](docs/poster.md))
+  posts the queue to Bluesky from GitHub Actions, and only after Rufus adds the
+  two secrets and sets `POSTER_LIVE=true`. Agents never set those, never run it
+  live, and never post by hand.
 - Stop and report if `verify.sh` fails the same way three times running.
 
 ## Changelog

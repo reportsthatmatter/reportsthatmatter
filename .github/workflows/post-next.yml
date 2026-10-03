@@ -1,0 +1,87 @@
+# The scheduled poster (reportsthatmatter-y2t.4): once a day, posts the next due item in
+# marketing/queue.yaml to Bluesky and commits `posted_url` back. Bluesky only.
+#
+# SAFE BY DEFAULT. It posts nothing until all three exist:
+#   secrets   BLUESKY_HANDLE, BLUESKY_APP_PASSWORD
+#   variable  POSTER_LIVE = true
+# With no secrets it is a dry run that makes no Bluesky request. With the secrets but no
+# variable it is a dry run that logs in and reads the account's recent posts, so it also
+# proves the secrets work. How to switch it on: docs/poster.md.
+name: Post next excerpt to Bluesky
+
+on:
+  schedule:
+    # 14:00 UTC: 10:00 US Eastern in summer, 09:00 after the clocks change (1 Nov).
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: show what would be posted, post nothing (ignores the POSTER_LIVE variable)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# One poster at a time, so two runs can never both pick the same item.
+concurrency:
+  group: post-next
+  cancel-in-progress: false
+
+jobs:
+  post:
+    # A fork has no secrets and must not push anywhere.
+    if: github.repository == 'reportsthatmatter/reportsthatmatter'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # The queue must still match the reports (a re-ingest can move a paragraph id).
+      # Fails the run, before anything is posted, if the next item would ship a broken link.
+      - name: Check the queue against the reports
+        run: |
+          pnpm prerender
+          pnpm posts --check
+
+      - name: Post the next excerpt (or dry-run)
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          # A manual run defaults to a dry run; a scheduled run follows the variable.
+          POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || vars.POSTER_LIVE }}
+        run: pnpm post-next
+
+      # Runs even if the step above failed after posting, so a posted_url is never left uncommitted.
+      # If the push fails, the next run finds the post on the account and records it (no double post).
+      - name: Commit posted_url back to the queue
+        if: ${{ !cancelled() }}
+        run: |
+          if git diff --quiet -- marketing/queue.yaml; then
+            echo "Queue unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add marketing/queue.yaml
+          git commit -m "chore(posts): record the Bluesky post in the queue (y2t.4)"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Push rejected (attempt $attempt); rebasing onto main."
+            git pull --rebase origin main
+          done
+          echo "::error::Could not push the posted_url commit. The post is on Bluesky; the next run will record it without posting again."
+          exit 1
