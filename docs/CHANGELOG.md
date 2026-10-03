@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-03 — Page breaks, footnote markers, printed paragraph numbers and chapter openings, across all 13 reports (ingest v0.20.0)
+
+One release, thirteen reports re-ingested once. Text that ran over a page break now joins in more cases (a list item's run-over, a footnote between a paragraph and its continuation, a scan's stray degree sign). Footnote markers the PDF raises are linked in six more reports (Chilcot's unlinked markers fell from 185 to 0, Leveson's from 6,455 to 101), and printed paragraph numbers ("39.", "1.") no longer turn into lists. 9/11's chapter openings are filed under their own chapter instead of the end of the one before (section links like `/11-inside-the-four-flights` redirect to `/we-have-some-planes`), and the Saville Inquiry is now served from its own HTML edition. Paragraph links that moved are mapped, so old shared links still land. Known rough edge: about 40 Litvinenko footnote markers that follow a closing quotation mark show as a bare number (bead filed).
+
 ## 2026-10-03 — The 9/11 Commission Report is now read from the Commission's own HTML edition (ingest v0.19.0)
 
 The 9/11 text was recovered from the PDF, which left 34 sentences cut into quotations, 4 paragraphs severed and 14 footnote markers loose. The report is now built from the Commission's HTML edition, which has the words as typeset, while the printed page numbers and the fidelity checks still come from the PDF (the new `cleanEdition` pass). All of those counts are now 0, and 191 more old paragraph links redirect to their new ids, on top of the 391 already in place.
