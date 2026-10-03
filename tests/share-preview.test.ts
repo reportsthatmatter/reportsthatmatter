@@ -1,6 +1,6 @@
 /**
  * What a shared link previews as on Bluesky, X, Facebook, LinkedIn, Reddit,
- * Slack and WhatsApp: the tags in its head (reportsthatmatter-f2e, decision 0013's
+ * Slack and WhatsApp: the tags in its head (reportsthatmatter-f2e, decision 0014's
  * audit). They read og:title/description/image; Facebook and LinkedIn want
  * og:url and the image's size; X shows only the image, so for a quote the
  * image has to be the quote.

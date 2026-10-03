@@ -1,7 +1,7 @@
 /**
  * What `pnpm seed-highlights` writes: the difference between the editor's
  * highlights in D1 and the ones in the approved `editorial/<id>.yaml` files
- * (decision 0013, reportsthatmatter-wb0).
+ * (decision 0014, reportsthatmatter-wb0).
  *
  * D1's free tier is 100,000 row writes a day, and the old seed deleted and
  * re-inserted every highlight on every run. A plan deletes only rows no file

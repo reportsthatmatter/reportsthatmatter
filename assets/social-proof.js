@@ -77,7 +77,7 @@ async function markCounts(report) {
     const title = markedTitle(entry);
     for (const element of marks) {
       // The editor's own highlight reads at the weight of one reader: it is a
-      // pointer, not a crowd (decision 0013).
+      // pointer, not a crowd (decision 0014).
       element.style.background = washFor(Math.max(entry.readers, 1));
       element.title = title;
     }
@@ -90,7 +90,7 @@ async function markCounts(report) {
 
 /**
  * Who marked a passage, in words. The editor's highlights are never counted as
- * readers and never pose as one (decision 0013).
+ * readers and never pose as one (decision 0014).
  * @param {MarkCount} entry @returns {string}
  */
 export function markedTitle(entry) {

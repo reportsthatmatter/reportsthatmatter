@@ -1,4 +1,4 @@
-/* Add an editor's highlight from a share link (decision 0013).
+/* Add an editor's highlight from a share link (decision 0014).
  *
  *   pnpm highlight add '<share link>' [--card]
  *

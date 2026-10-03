@@ -28,7 +28,7 @@ export type MarkCount = {
   prefix: string;
   suffix: string;
   page: number | null;
-  /** Distinct anonymous readers. Never counts the editor (decision 0013). */
+  /** Distinct anonymous readers. Never counts the editor (decision 0014). */
   readers: number;
   /** The editor highlighted these words (an `editorial:` actor, written by `pnpm seed-highlights`). */
   editor: boolean;
@@ -37,7 +37,7 @@ export type MarkCount = {
 /**
  * Actors written by `pnpm seed-highlights`, never by a reader: a reader's actor
  * is a 64-hex hash computed on the server, so no request can claim this prefix.
- * Decision 0013: the editor's highlights are labelled as the editor's and are
+ * Decision 0014: the editor's highlights are labelled as the editor's and are
  * not counted as readers.
  */
 export const EDITOR_ACTOR_PREFIX = "editorial:";
@@ -157,7 +157,7 @@ export async function recordMark(
 /**
  * Passages in `report` marked by at least `threshold` distinct readers, plus
  * every passage the editor highlighted (flagged `editor`, its readers counted
- * without the editor: decision 0013), most-marked first. A reader who both shares and saves the same passage
+ * without the editor: decision 0014), most-marked first. A reader who both shares and saves the same passage
  * counts once — this is "how many readers", not "how many clicks".
  *
  * Stored rows keep the paragraph id they were made under, and ids move when a
@@ -178,7 +178,7 @@ export async function markCounts(
   meta?: AliasMeta
 ): Promise<MarkCount[]> {
   // Grouped by whether the actor is the editor, so readers and the editor are
-  // counted apart (decision 0013); the two halves of a passage are merged
+  // counted apart (decision 0014); the two halves of a passage are merged
   // below. Floor 1: the threshold applies to readers after merging, and an
   // editor's highlight shows whatever its reader count.
   const { results } = await db

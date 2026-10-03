@@ -224,7 +224,7 @@ describe("markCounts through paragraph aliases (j53o)", () => {
   });
 });
 
-describe("the editor's highlights (decision 0013)", () => {
+describe("the editor's highlights (decision 0014)", () => {
   const passage = {
     report: "r", section: "sec", paragraph: "p1", exact: "the words", prefix: "", suffix: "", page: 3, kind: "save" as const,
   };

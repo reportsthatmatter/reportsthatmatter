@@ -1,5 +1,5 @@
 /* Puts the editor's highlights into the marks table (reportsthatmatter-g0w.11,
- * decision 0013).
+ * decision 0014).
  *
  *   pnpm editorial                              # resolves approved files to build/editorial-highlights.json
  *   pnpm seed-highlights --dry-run [--remote]   # reads D1, prints the plan and writes build/seed-highlights.sql
@@ -10,7 +10,7 @@
  * verbatim like every other quote there; only approved files are seeded (wb0).
  * Add one with `pnpm highlight add '<share link>'`. They are stored as 'save'
  * marks under one fixed actor, `editorial:rufus-pollock`, and the site shows
- * them as the editor's highlights, never as a reader's (decision 0013).
+ * them as the editor's highlights, never as a reader's (decision 0014).
  *
  * Writes only the difference (D1's free tier is 100,000 row writes a day): it
  * reads the editor's rows back from D1, deletes the ones no file asks for and

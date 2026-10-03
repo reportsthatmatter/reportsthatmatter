@@ -49,7 +49,7 @@ export type TopPassage = {
   url: string;
   readers: number;
   page: number | null;
-  /** The editor highlighted it: labelled so, never counted as a reader (decision 0013). */
+  /** The editor highlighted it: labelled so, never counted as a reader (decision 0014). */
   editor?: boolean;
 };
 

@@ -1,6 +1,6 @@
 /**
  * `pnpm highlight add <share link>`: turn a link copied from the site's share
- * popover into an editor's highlight in `editorial/<id>.yaml` (decision 0013).
+ * popover into an editor's highlight in `editorial/<id>.yaml` (decision 0014).
  *
  * The link already names everything: the report (path), the paragraph (`?p=`)
  * and the words (`?h=`, a quote selector). The quote is read back off the

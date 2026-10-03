@@ -6,7 +6,7 @@ const h = (paragraph: string, exact = "the words", report = "r") => ({
   report, section: "sec", paragraph, exact, prefix: "", suffix: "", page: 3,
 });
 
-describe("planSeed (decision 0013, wb0)", () => {
+describe("planSeed (decision 0014, wb0)", () => {
   it("writes nothing when D1 already holds exactly the wanted highlights", () => {
     const plan = planSeed([{ ...h("a"), id: 1 }, { ...h("b"), id: 2 }], [h("a"), h("b")], ["r"]);
     expect(plan).toMatchObject({ unchanged: 2, writes: 0 });

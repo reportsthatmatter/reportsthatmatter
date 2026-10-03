@@ -938,7 +938,7 @@ hr {
   color: inherit;
 }
 
-/* The key a page gets once it shows an editor's highlight (decision 0013):
+/* The key a page gets once it shows an editor's highlight (decision 0014):
  * the shading is said in words, so the editor never passes for a reader. */
 .marks-key-swatch {
   display: inline-block;
