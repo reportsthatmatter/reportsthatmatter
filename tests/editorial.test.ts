@@ -59,10 +59,30 @@ describe("placing a quote", () => {
     expect(placeQuote(HTML, "so-what", "the wisdom of no").ok).toBe(false);
   });
 
-  it("forgives line breaks, not wording", () => {
-    // A quote someone tidied — a corrected word, curly quotes — is a different quote.
-    expect(placeQuote(HTML, "so-what", "who replied “So what?”").ok).toBe(false);
+  it("forgives line breaks and typography, not wording", () => {
+    // A corrected word is a different quote; curly quotes are the same words.
+    expect(placeQuote(HTML, "so-what", "who replied “So Whatever?”").ok).toBe(false);
+    expect(placeQuote(HTML, "so-what", "who replied “So what?”").ok).toBe(true);
     expect(placeQuote(HTML, "so-what", 'who replied\n  "So what?"').ok).toBe(true);
+  });
+
+  it("matches a straight-quote quote against curly text, linking the printed words", () => {
+    const curly = `<p id="odonnell" data-page="3">3.35 and shot and injured Patrick O’Donnell (aged 41). Jim Wray was “shot twice”, the second time.</p>`;
+    const structure = { sections: [{ slug: "s", title: "S" }], paragraphToSection: { odonnell: "s" } };
+    const { problems, highlights, editorial } = resolveEditorial(
+      source({
+        findings: [{ text: "f", cites: ["odonnell"], excerpt: { paragraph: "odonnell", quote: `Patrick O'Donnell (aged 41). Jim Wray was "shot twice"` } }],
+        reading_guide: [],
+        highlights: [{ paragraph: "odonnell", quote: `Patrick O'Donnell (aged 41)` }],
+      }),
+      curly,
+      structure
+    );
+    expect(problems).toEqual([]);
+    // The stored selector keeps the report's own spelling.
+    expect(highlights[0].exact).toBe("Patrick O’Donnell (aged 41)");
+    const h = new URL(editorial.findings[0].excerpt!.cite.href, "http://x").searchParams.get("h");
+    expect(decodeAnchor(h)?.exact).toBe("Patrick O’Donnell (aged 41). Jim Wray was “shot twice”");
   });
 });
 
