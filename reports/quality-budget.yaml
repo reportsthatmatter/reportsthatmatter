@@ -47,18 +47,24 @@ reports:
     note-marker-unpaired: 3
     note-reference-sequence: 134  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 68  # why: post v0.15.0 integration
+    severed-into-quote: 85
+    severed-paragraph: 42
+    bare-footnote-marker: 76
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
+    note-text-in-body: 48
     note-citation-vocabulary: 0
-    furniture-paragraph: 372
+    furniture-paragraph: 150
     contents-entry-without-heading: 56
-    heading-density: 0
-    heading-repeated: 2
+    heading-density: 1  # why: reportsthatmatter-jsqw (the report's own Issue / Findings / Discussion / Recommendations labels, now level-4 subheads as golden pages 22 and 29 have them; 139 headings per 100 pages)
+    heading-repeated: 12  # why: reportsthatmatter-jsqw (the same division labels repeat by design: "Findings" ×46, "Discussion" ×43)
     heading-function-word: 5
     heading-marker: 0
     heading-long: 17
     printed-page-reversal: 14
     rendered-h1: 1
     chapter-intro-misfiled: 2
-    rendered-ol-words-share: 4
+    rendered-ol-words-share: 5  # why: reportsthatmatter-jsqw (numbered findings the vision reading splits into paragraphs of their own; 4% to 5% rounded)
     numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: d662 - pages that had no marker now count towards their own parity (gap was measured on the wrong pages)

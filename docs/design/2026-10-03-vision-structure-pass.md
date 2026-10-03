@@ -112,3 +112,26 @@ Appended to `docs/design/lessons.md` in this PR (Measuring and Tooling themes):
 - A hand-picked sample hides what a full run shows: the ten-page numbers favoured adopting the pass report-wide, the whole-report oracle counts did not. Always run the whole report before writing the recommendation.
 - A background model run needs a checkpointed, resumable cache outside `/tmp` from the start: the reboot cost the sample log but not the 207 pages already cached.
 - A verifier that falls back to the noisy source when it rejects makes structure worst exactly where the source is worst; report accepted-block share per page next to every structure metric.
+
+## 9. The per-page hybrid, built (jsqw)
+
+**Bead:** reportsthatmatter-jsqw (from kyj3). **Code:** @rtm/ingest `src/vision/` (`visionStructure`, `verify.ts` and `doctags.ts` ported from `src/lib/vision/`), declared in challenger-accident's `ingest.ts`; provenance in the report repo's `reference/vision/hybrid.{md,json}`. **Words:** the text layer's on every page (the model's words are decision 0011, fc3x, not done).
+
+How it differs from §6's sketch: it is not `cleanEdition` (that replaces the whole text); it swaps the block structure of a page inside the PDF pipeline, before the page-break joins, so page markers, joins, corrections and fidelity are the pipeline's own. The verifier runs against the pipeline's text for the page (its lines after furniture and body passes), not a separate layout extraction. The gate is §6's with three additions found necessary: no pipeline section heading (## or ###) lost, no notes lost, and no correction's text lost (15 of 57 corrections stopped matching without it); "no paragraph starts lost" is available (`keepStarts`) but off, because the pipeline over-splits exactly the pages the model reads best (PDF p.68: 48 starts for 16 paragraphs).
+
+On Challenger: 178 of 438 pages (54% of the words) take the vision structure; 205 keep the pipeline for too few accepted blocks, 23 are contents pages, 11 would lose a section heading, 8 a correction's text, 8 have no words, 5 would lose notes. 92 page breaks fall between the two sources and the pipeline's joins close 26 of them.
+
+| measure | pipeline (v0.20.0) | hybrid |
+|---|---:|---:|
+| golden pages passing | 0 / 7 | 2 / 7 (p.22, p.29); 4 more narrowed |
+| ten checked pages: block-start P / R / F1 | 81.4 / 76.1 / 78.7% | 97.1 / 90.8 / 93.8% |
+| ten checked pages: headings recall | 5.9% | 64.7% (100% on the eight text pages) |
+| ten checked pages: note blocks recall | 10% | 80% |
+| ten checked pages: markers P / R | 0 / 0% | 100 / 60% |
+| ten checked pages: word error | 11.6% | 10.7% |
+| notes defined / markers in text | 82 / 228 | 264 / 399 |
+| oracle note-off-page | 140 | 77 (59 to 1 on vision pages) |
+| oracle paragraphs-merged | 1,973 | 1,927 |
+| quality furniture-paragraph / bare-footnote-marker / note-text-in-body | 372 / 119 / 68 | 150 / 76 / 48 |
+
+The oracle's other moves are its blind spots on this scan: headings-spurious 76 to 101 (the report's italic Issue / Findings labels, which golden pages 22 and 29 say are headings), quotes-spurious 331 to 385 (inset lists such as PDF p.106, one quotation per item where the pipeline had one), paragraphs-oversplit 332 to 372 (the glossary, PDF pp. 261-262, one entry a paragraph: +89; on the other vision pages 111 to 65). Quality note-marker-unpaired 3 to 66 is the pipeline's existing spurious links becoming visible once note labels repeat. `pnpm score` has no reference edition for Challenger; the ten checked pages are its measure.

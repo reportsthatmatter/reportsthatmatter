@@ -39,6 +39,9 @@ reports:
     markers-unlinked: 24  # why: reportsthatmatter-4ef1 (layout parse now joins a raised marker overlapping its line; the added one is a raised digit run in the scan's OCR noise, e.g. p.442 "decisior.5 03", not a footnote marker)
     paragraphs-oversplit: 332
     note-off-page: 140
+    markers-unlinked: 25  # why: reportsthatmatter-jsqw (vision pages keep only the markers the model and the layer agree on; two raised digits the text linker used to take stay bare)
+    paragraphs-oversplit: 372  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
+    note-off-page: 77
   uk-leveson-inquiry:
     headings-missed: 1350
     markers-unlinked: 142
