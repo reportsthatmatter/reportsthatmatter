@@ -399,6 +399,45 @@ export const renderedH1: Signal = {
   },
 };
 
+/**
+ * A chapter heading (h2) with opening paragraphs before its first subsection (h3) whose first
+ * paragraph is served on a section page other than the one headed by that chapter: the chapter
+ * opening is filed under the previous section (reportsthatmatter-n9em: 9/11 chapter 1 under
+ * 'preface'). Reads the shipped meta (paragraphToSection, section titles), so it checks what a
+ * reader is served, not the markdown. Should be 0.
+ */
+export const chapterIntroMisfiled: Signal = {
+  id: "chapter-intro-misfiled",
+  kind: "count",
+  cls: "N",
+  doc: "A chapter's opening paragraphs (between a ## and its first ###) served under a different section page than the chapter's own. Should be 0.",
+  run: (input) => {
+    const out: Finding[] = [];
+    const titleOf = new Map(input.meta.sections.map((sec) => [sec.slug, plain(sec.title)]));
+    const index = input.meta.paragraphToSection ?? {};
+    for (const m of input.html.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>([\s\S]*?)(?=<h[23]\b|$)/g)) {
+      const firstId = m[2].match(/<p\b[^>]*\bid="([^"]+)"/)?.[1];
+      if (!firstId) continue;
+      if (!/<h3\b/.test(input.html.slice((m.index ?? 0) + m[0].length, (m.index ?? 0) + m[0].length + 5))) continue;
+      const slug = index[firstId];
+      if (slug === undefined || titleOf.get(slug) === plain(m[1])) continue;
+      out.push({ signal: "chapter-intro-misfiled", page: null, excerpt: clip(`${plain(m[1])} (opening is under "${titleOf.get(slug) ?? slug}")`) });
+    }
+    return out;
+  },
+};
+
+const plain = (html: string) =>
+  html
+    .replace(/<[^>]+>/g, "")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+
 export function olWordsShare(input: QualityInput): number {
   if (!input.meta.words) return 0;
   let words = 0;
@@ -555,6 +594,7 @@ export const SIGNALS: Signal[] = [
   headingLong,
   printedPageReversal,
   renderedH1,
+  chapterIntroMisfiled,
   renderedOlWordsShare,
   idsPer1kWords,
   quoteShareParity,
