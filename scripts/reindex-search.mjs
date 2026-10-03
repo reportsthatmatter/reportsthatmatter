@@ -60,11 +60,14 @@ const run = wranglerRunner(root);
 if (args.includes("--record-layouts")) {
   // One pass over the table records every report's layout (migration 0004), so no report's next reindex has to scan
   // the corpus to learn it: ~1 row read per row in the corpus once, one row write per report.
+  // The version rows first: each layout is written only over the row as read before the scan, so a reindex that
+  // ran meanwhile (and may have moved rows) keeps its own layout, or none.
+  const stamps = new Map(run(target, { command: "SELECT report, indexed_at FROM search_index_versions" })[0].results.map((r) => [r.report, r.indexed_at]));
   const layouts = scanAllLayouts(run, target);
   const at = Date.now();
   const statements = [...layouts]
-    .filter(([id]) => id !== "__rtm_probe__")
-    .map(([id, l]) => `UPDATE search_index_versions SET layout = ${sqlString(JSON.stringify({ runs: l.runs, n: l.n, at }))} WHERE report = ${sqlString(id)};`);
+    .filter(([id]) => stamps.has(id))
+    .map(([id, l]) => `UPDATE search_index_versions SET layout = ${sqlString(JSON.stringify({ runs: l.runs, n: l.n, at }))} WHERE report = ${sqlString(id)} AND indexed_at IS ${stamps.get(id) ?? "NULL"};`);
   const file = join(root, "build/search-layouts.sql");
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, statements.join("\n\n") + "\n");
@@ -105,7 +108,7 @@ run(target, { file });
 // The file is applied in one transaction, so its last statement (the version row) landing means all of it did.
 const after = readVersionRow(run, target, report);
 if (after.contentVersion !== planned.contentVersion || after.indexedAt !== indexedAt) {
-  console.error(`✗ ${report}: the version row reads ${after.contentVersion} at ${after.indexedAt}, expected ${planned.contentVersion} at ${indexedAt}. Run again (it diffs what is there), or with --full.`);
+  console.error(`✗ ${report}: the version row reads ${after.contentVersion} at ${after.indexedAt}, expected ${planned.contentVersion} at ${indexedAt}: another writer changed it during this run, or the file did not apply. Run again (it diffs what is there, by a full scan if the layout was cleared), or with --full.`);
   process.exit(1);
 }
 if (verifyCount) {

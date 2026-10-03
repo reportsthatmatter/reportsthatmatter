@@ -433,13 +433,21 @@ describe("drive: gates and hard stops", () => {
     expect(ran(h.calls, "deploy-cloudflare")).toEqual([]);
   });
 
-  it("stops before publishing when the reads do not fit, and counts an old dry run's scan when it prints no read estimate", async () => {
-    // 4.45M used leaves 50,000 after the Worker's 500,000 reserve
-    const h = harness({ handler: happy, ctx: { yes: true }, probe: { used: 0, reads: 4_450_000 } });
-    expect(await drive(h.rt, buildSteps(), { from: "status" })).toBe(1);
-    // beta and gamma: no read estimate printed, so 45,000 each + 4,000 for verify-prod
+  it("counts an old dry run's corpus scan when it prints no read estimate", async () => {
+    const h = harness({ handler: happy, ctx: { yes: true }, probe: { used: 0, reads: 0 } });
+    await drive(h.rt, buildSteps(), { from: "status" });
+    // beta and gamma: no read estimate printed, so 45,000 each + 4,000 each for verify-prod
     expect(h.state.data.estimate?.reads).toBe(98_000);
     expect(out(h)).toContain("98,000 rows read");
+  });
+
+  it("stops before publishing when the reads do not fit", async () => {
+    const handler: Handler = (cmd) => (cmd.argv.join(" ").includes("--dry-run") ? { stdout: "  estimated D1 row writes: 10 (x)\n  estimated D1 rows read: 60,000 (x)" } : happy(cmd));
+    // 4.38M used leaves 120,000 after the Worker's 500,000 reserve; 2 x 64,000 + 10% does not fit
+    const h = harness({ handler, ctx: { yes: true }, probe: { used: 0, reads: 4_380_000 } });
+    expect(await drive(h.rt, buildSteps(), { from: "status" })).toBe(1);
+    expect(h.state.data.estimate?.reads).toBe(128_000);
+    expect(out(h)).toContain("140,800 rows read");
     expect(h.state.steps["d1-estimate"].status).toBe("failed");
     expect(ran(h.calls, "--no-reindex")).toEqual([]);
   });

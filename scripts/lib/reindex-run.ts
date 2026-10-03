@@ -44,9 +44,10 @@ export function planReport(opts: { root: string; report: string; target: Target;
  */
 export function placement(p: ReindexPlan, run: Runner, target: Target, indexedAt: number): Placement | undefined {
   if (!p.version.hasLayoutColumn) return undefined;
-  if (p.current) return { firstRowid: 0, layout: p.version.layout ? { ...p.version.layout, at: indexedAt } : null };
+  const expectIndexedAt = p.version.indexedAt;
+  if (p.current) return { firstRowid: 0, layout: p.version.layout ? { ...p.version.layout, at: indexedAt } : null, expectIndexedAt };
   const firstRowid = maxRowid(run, target) + 1;
-  return { firstRowid, layout: layoutAfter(p.read!.rows, p.read!.runs, p.plan, firstRowid, indexedAt) };
+  return { firstRowid, layout: layoutAfter(p.read!.rows, p.read!.runs, p.plan, firstRowid, indexedAt), expectIndexedAt };
 }
 
 /** Rows a real (non-dry) run of this plan will read: the same read again, plus the highest rowid and the version check. */

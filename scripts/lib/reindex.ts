@@ -197,7 +197,7 @@ export function layoutAfter(stored: Array<{ rowid: number }>, storedRuns: Array<
  * The version row the staleness check reads: one upsert, whatever else changed. With `layout` (the database has
  * migration 0004's column) it is written too; `null` writes NULL, which makes the next run read the full scan.
  */
-export function versionStatement(report: string, contentVersion: string, indexedAt: number, layout?: Layout | null): string {
+export function versionStatement(report: string, contentVersion: string, indexedAt: number, layout?: Layout | null, expectIndexedAt?: number | null): string {
   if (layout === undefined) {
     return (
       `INSERT INTO search_index_versions (report, content_version, indexed_at) VALUES (${sqlString(report)}, ${sqlString(contentVersion)}, ${indexedAt}) ` +
@@ -206,19 +206,26 @@ export function versionStatement(report: string, contentVersion: string, indexed
   }
   return (
     `INSERT INTO search_index_versions (report, content_version, indexed_at, layout) VALUES (${sqlString(report)}, ${sqlString(contentVersion)}, ${indexedAt}, ${sqlString(layout === null ? null : JSON.stringify(layout))}) ` +
-    "ON CONFLICT(report) DO UPDATE SET content_version = excluded.content_version, indexed_at = excluded.indexed_at, layout = excluded.layout;"
+    "ON CONFLICT(report) DO UPDATE SET content_version = excluded.content_version, indexed_at = excluded.indexed_at, layout = excluded.layout" +
+    // Only over the row this run read: if another writer stamped it since, this layout may miss that writer's rows,
+    // so leave the row alone (the read-back check then fails, and the layout the file cleared stays cleared).
+    (expectIndexedAt === undefined ? "" : ` WHERE search_index_versions.indexed_at IS ${expectIndexedAt === null ? "NULL" : expectIndexedAt}`) +
+    ";"
   );
 }
 
 /** Where the rows go and what to record, for a database with the layout column; absent for one without. */
-export type Placement = { firstRowid: number; layout: Layout | null };
+export type Placement = { firstRowid: number; layout: Layout | null; /** The version row's indexed_at as this run read it (null: no row). */ expectIndexedAt?: number | null };
 
 /** The statements that bring the index from `plan`'s stored state to the local one. Deletes first. */
 export function incrementalStatements(report: string, plan: Plan, contentVersion: string, indexedAt: number, placement?: Placement): string[] {
   return [
+    // With layouts, forget the old one first: whatever happens to the rest of this file, or to a writer racing it,
+    // the layout is either the one this file ends with or none (the next run then scans). Fires no trigger.
+    ...(placement ? [`UPDATE search_index_versions SET layout = NULL WHERE report = ${sqlString(report)};`] : []),
     ...deleteStatements(plan.deleteRowids),
     ...insertStatements(report, plan.insert, undefined, placement?.firstRowid),
-    versionStatement(report, contentVersion, indexedAt, placement ? placement.layout : undefined),
+    versionStatement(report, contentVersion, indexedAt, placement ? placement.layout : undefined, placement?.expectIndexedAt),
   ];
 }
 

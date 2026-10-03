@@ -255,15 +255,16 @@ describe("the layout against a real FTS5 table and migration 0004 (node:sqlite)"
   };
   const text = (id: string, n: number, tag = "") => Array.from({ length: n }, (_, i) => p(`${id}-${i}`, `${id} paragraph ${i} ${tag}`));
   /** One reindex of `report` to `local`, the way scripts/reindex-search.mjs does it. */
-  const reindex = (db: DB, report: string, local: Passage[], at: number, log: string[] = []) => {
+  const reindex = (db: DB, report: string, local: Passage[], at: number, log: string[] = [], opts: { defer?: boolean } = {}) => {
     const run = runner(db, log);
     const version = readVersionRow(run, "--local", report);
     const read = readStored(run, "--local", report, version.layout);
     const plan = planReindex(local, read.rows);
     const first = (db.prepare("SELECT rowid AS rid FROM passages ORDER BY rowid DESC LIMIT 1").get() as { rid?: number } | undefined)?.rid ?? 0;
-    const statements = incrementalStatements(report, plan, `v${at}`, at, { firstRowid: first + 1, layout: layoutAfter(read.rows, read.runs, plan, first + 1, at) });
-    db.exec("BEGIN; " + statements.join("\n") + " COMMIT;");
-    return { read, plan };
+    const statements = incrementalStatements(report, plan, `v${at}`, at, { firstRowid: first + 1, layout: layoutAfter(read.rows, read.runs, plan, first + 1, at), expectIndexedAt: version.indexedAt });
+    const apply = () => db.exec("BEGIN; " + statements.join("\n") + " COMMIT;");
+    if (!opts.defer) apply();
+    return { read, plan, apply };
   };
   const contents = (db: DB, report: string) => (db.prepare(`SELECT paragraph_id, body FROM passages WHERE report = '${report}' ORDER BY paragraph_id`).all() as Array<{ paragraph_id: string; body: string }>).map((r) => `${r.paragraph_id}|${r.body}`);
   const want = (rows: Passage[]) => rows.map((r) => `${r.paragraph_id}|${r.body}`).sort();
@@ -316,6 +317,27 @@ describe("the layout against a real FTS5 table and migration 0004 (node:sqlite)"
     expect(next.read.via).toBe("scan");
     expect(next.plan).toMatchObject({ unchanged: 5, added: 0 });
     expect(contents(db, "a")).toHaveLength(5);
+  });
+
+  it.skipIf(!sqlite)("a writer racing the reindex leaves no layout trusted, and the next run repairs by scanning", () => {
+    const db = open();
+    for (const s of insertStatements("a", text("a", 4))) db.exec(s);
+    reindex(db, "a", text("a", 4), 1);
+    // this run reads (through the layout) and plans a change (a removal: an insert would collide with the
+    // racing row's rowid and fail the whole file, which is safe too)...
+    const racing = reindex(db, "a", text("a", 3), 2, [], { defer: true });
+    // ...an older checkout adds a row and stamps the version meanwhile...
+    for (const s of insertStatements("a", [p("a-extra")])) db.exec(s);
+    db.exec(versionStatement("a", "old", 5));
+    // ...then this run's file lands: its rows go in, but not its layout over a row it did not read
+    racing.apply();
+    const row = db.prepare("SELECT indexed_at, layout FROM search_index_versions WHERE report = 'a'").get() as { indexed_at: number; layout: string | null };
+    expect(row).toEqual({ indexed_at: 5, layout: null });
+    const next = reindex(db, "a", text("a", 3), 6);
+    expect(next.read.via).toBe("scan");
+    expect(next.plan.removed).toBe(1); // a-extra, which a layout without it would have hidden forever
+    expect(contents(db, "a")).toEqual(want(text("a", 3)));
+    expect(reindex(db, "a", text("a", 3), 7).read.via).toBe("layout");
   });
 
   it.skipIf(!sqlite)("falls back to the scan when a run holds another report's row or the count is off", () => {

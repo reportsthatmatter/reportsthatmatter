@@ -648,7 +648,8 @@ export function buildSteps(): Step[] {
           return;
         }
         // Before the dry runs, which read too: a day already spent stops here, not twelve dry runs in.
-        const before = d1Fits(0, await rt.probe.d1Today(), rt.ctx.d1Limit, ids.length * VERIFY_READS_PER_REPORT, readLimit);
+        // Worst case for what the dry runs themselves read: a corpus scan each (~45k) when no layout is recorded yet.
+        const before = d1Fits(0, await rt.probe.d1Today(), rt.ctx.d1Limit, ids.length * (45_000 + VERIFY_READS_PER_REPORT), readLimit);
         if (!before.ok) throw new Stop("d1-estimate: today's D1 quota is already (nearly) spent", [...before.lines, "Wait for 00:00 UTC and re-run `pnpm ship` (it resumes here), or decide about Workers Paid (reportsthatmatter-2oz).", "pnpm d1-usage   (what spent it, by query)"]);
         const perReport: Record<string, number> = {};
         const readsPerReport: Record<string, number> = {};
