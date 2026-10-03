@@ -90,7 +90,7 @@ Rufus's personal account, posted by hand — there is no organisation account on
 > **1/**
 > Important public reports — inquiries, investigations, official findings — are some of the most careful research ever done. And they're almost unreadable: 700-page scanned PDFs on government sites that break.
 >
-> I've been fixing that. 11 reports live now: reportsthatmatter.org
+> I've been fixing that. 13 reports live now: reportsthatmatter.org
 
 > **2/**
 > Among them: the Jack Smith report on Trump and the 2020 election, the Senate's report on the 2008 financial crisis, the 9/11 Commission, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko.
@@ -129,14 +129,14 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 > **1/6**
 > Public inquiries and investigations are some of the most careful research done — usually locked in 700-page PDFs that don't load, can't be searched, and can't link to one paragraph.
 >
-> We rebuilt 11 of them as web pages instead.
+> We rebuilt 13 of them as web pages instead.
 >
 > reportsthatmatter.org
 
 *(249 graphemes)*
 
 > **2/6**
-> 11 reports so far, different countries and decades: the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko.
+> 13 reports so far, different countries and decades: the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot (Iraq Inquiry), the Lehman examiner.
 
 *(263 graphemes)*
 
@@ -166,7 +166,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 > **6/6**
 > No commentary. No spin. The documents, made readable.
 >
-> 11 reports and counting. If there's one you think belongs, tell us.
+> 13 reports and counting. If there's one you think belongs, tell us.
 >
 > reportsthatmatter.org
 
@@ -176,7 +176,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 
 > Investigations, inquiries, official findings — some of the most careful research that gets done. Most of it sits in scanned PDFs: no search, no section links, no way to point at one paragraph.
 >
-> 11 of them, rebuilt as web pages.
+> 13 of them, rebuilt as web pages.
 >
 > reportsthatmatter.org
 
@@ -190,7 +190,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 >
 > Every excerpt links to the exact paragraph in the full report.
 >
-> 11 reports and counting.
+> 13 reports and counting.
 >
 > reportsthatmatter.org
 
