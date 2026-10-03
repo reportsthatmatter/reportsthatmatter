@@ -23,28 +23,28 @@ reports:
   jack-smith-vol1:
     markers-wrong: 2
     markers-stacked: 7
-    pages-unmarked: 11
-    blocks-wrong: 54
+    pages-unmarked: 10
+    blocks-wrong: 53
   us-psi-financial-crisis:
-    markers-wrong: 0
+    markers-wrong: 1  # why: d662 - the new %%page 582%% is a chart page marked at its real first block; the check finds the chart's text in another order, 308 words away
     markers-stacked: 0
-    pages-unmarked: 8
-    blocks-wrong: 15
+    pages-unmarked: 0
+    blocks-wrong: 1
   challenger-accident:
     markers-wrong: 23
     markers-stacked: 0
-    pages-unmarked: 45
-    blocks-wrong: 248
+    pages-unmarked: 11
+    blocks-wrong: 83
   uk-leveson-inquiry:
     markers-wrong: 0
     markers-stacked: 1
-    pages-unmarked: 15
-    blocks-wrong: 78
+    pages-unmarked: 0
+    blocks-wrong: 7
   columbia-accident:
     markers-wrong: 1
     markers-stacked: 0
-    pages-unmarked: 10
-    blocks-wrong: 182
+    pages-unmarked: 0
+    blocks-wrong: 2
   us-911-commission:
     markers-wrong: 0
     markers-stacked: 5
@@ -53,8 +53,8 @@ reports:
   us-deepwater-horizon:
     markers-wrong: 0
     markers-stacked: 0
-    pages-unmarked: 14
-    blocks-wrong: 54
+    pages-unmarked: 0
+    blocks-wrong: 5
   us-v-philip-morris:
     markers-wrong: 1
     markers-stacked: 0
@@ -63,8 +63,8 @@ reports:
   uk-hillsborough-panel:
     markers-wrong: 0
     markers-stacked: 0
-    pages-unmarked: 21
-    blocks-wrong: 124
+    pages-unmarked: 12
+    blocks-wrong: 69
   uk-saville-inquiry:
     markers-wrong: 0
     markers-stacked: 1

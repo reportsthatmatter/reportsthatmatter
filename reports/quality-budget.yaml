@@ -57,7 +57,7 @@ reports:
     rendered-ol-words-share: 4
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: d662 - pages that had no marker now count towards their own parity (gap was measured on the wrong pages)
   columbia-accident:
     severed-into-quote: 59
     severed-paragraph: 74
@@ -79,7 +79,7 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 3  # why: d662 - pages that had no marker now count towards their own parity (gap was measured on the wrong pages)
   jack-smith-vol1:
     severed-into-quote: 2
     severed-paragraph: 5
