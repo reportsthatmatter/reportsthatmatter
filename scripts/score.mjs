@@ -24,7 +24,8 @@
  * clustered, with page and paragraph id), <out>/<id>/score.json, <out>/<id>/decisions.jsonl (one
  * row per pipeline decision with features and the reference label: the input to 38s.8) and
  * <out>/<id>/signals.md (b78.2 signal precision and recall against the scorer); and
- * <out>/summary.md across reports. Measure-only: changes nothing.
+ * <out>/summary.md across reports. Where the report repo has page references (reference/wikisource/, reference/page-text/),
+ * also <out>/<id>/pages.md and pages.json: word error rate and footnote-marker accuracy per page (docs/scoring.md). Measure-only: changes nothing.
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
@@ -40,6 +41,7 @@ import { decisionRows } from "../src/lib/score/decisions.ts";
 import { loadLayout } from "../src/lib/score/layout.ts";
 import { diffDecisions, formatDecisionDiff } from "../src/lib/score/diff.ts";
 import { headline, headlineTable, mergeScores, referenceWarning, setOf, REFERENCE_CEILING } from "../src/lib/score/headline.ts";
+import { loadPageRefs, pagesMarkdown, scorePages } from "../src/lib/score/pages.ts";
 import { adjudicationMarkdown, adjudicationStats, applyAdjudication, draftAdjudication, loadAdjudicated } from "../src/lib/score/adjudicated.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -188,11 +190,16 @@ for (const id of list) {
   writeFileSync(join(dir, "decisions.jsonl"), decisions.map((r) => JSON.stringify(r)).join("\n") + "\n");
 
   const row = { ...summaryRow(id, ref.manifest, result), set };
-  // hook for bead 7d4y (PR #236): `const pageScores = pageRefs.length ? scorePages(ours, pageRefs) : null` replaces this line
-  const pageScores = null;
+  // page-level references (Wikisource pages, checked transcriptions): word and footnote-marker accuracy per page
+  const pageRefs = loadPageRefs(repo);
+  const pageScores = pageRefs.length ? scorePages(ours, pageRefs) : null;
+  if (pageScores) {
+    writeFileSync(join(dir, "pages.md"), pagesMarkdown(id, pageScores.pages, pageScores.totals));
+    writeFileSync(join(dir, "pages.json"), JSON.stringify({ id, totals: pageScores.totals, pages: pageScores.pages }, null, 1) + "\n");
+  }
   const refWarning = referenceWarning(id, adj, ceiling);
   if (refWarning) warnings.push(refWarning);
-  rows.push({ row, signals, adj, set, metrics: headline(row, decisions, adj, pageScores?.totals ?? null), gated: !!adj, refWarning });
+  rows.push({ row, signals, adj, set, pageScores, metrics: headline(row, decisions, adj, pageScores?.totals ?? null), gated: !!adj, refWarning });
   let errors = errorReport(id, ref.manifest, result, signals);
   if (adj) errors = errors.replace("\n## Excluded stretches", "\n" + adjudicationMarkdown(adj, adjFile, adjPairs) + "\n## Excluded stretches");
   else errors = errors.replace("\n## Excluded stretches", "\n## Reference error rate at page breaks\n\nNo `reference/adjudicated.yaml` in the report repo: the reference's own error rate is unknown.\n\n## Excluded stretches");
@@ -202,7 +209,7 @@ for (const id of list) {
   writeFileSync(join(dir, "score.json"), JSON.stringify({ id, manifest: { set: ref.manifest.set, edition: ref.manifest.edition, version: ref.manifest.version }, ...rest, examples: examples.length, signals, adjudication: adj }, null, 1) + "\n");
   const b = row;
   console.log(
-    `${id}: boundaries P ${fmt(b.boundaryP)} R ${fmt(b.boundaryR)} F1 ${fmt(b.boundaryF1)} · headings P ${fmt(b.headingP)} R ${fmt(b.headingR)} level ${fmt(b.headingLevel)} · markers P ${fmt(b.markerP)} R ${fmt(b.markerR)} · WER ${fmt(b.wer)} · OOV ${(b.oov * 100).toFixed(2)}% · reference page-break error ${adj ? `${adj.referenceWrong}/${adj.judged} = ${adj.referenceErrorRate === null ? "n/a" : fmt(adj.referenceErrorRate)}` : "not adjudicated"} · ${decisions.length} decisions · ${((Date.now() - t0) / 1000).toFixed(1)}s → ${join(dir, "errors.md")}`,
+    `${id}: boundaries P ${fmt(b.boundaryP)} R ${fmt(b.boundaryR)} F1 ${fmt(b.boundaryF1)} · headings P ${fmt(b.headingP)} R ${fmt(b.headingR)} level ${fmt(b.headingLevel)} · markers P ${fmt(b.markerP)} R ${fmt(b.markerR)} · WER ${fmt(b.wer)} · OOV ${(b.oov * 100).toFixed(2)}% · reference page-break error ${adj ? `${adj.referenceWrong}/${adj.judged} = ${adj.referenceErrorRate === null ? "n/a" : fmt(adj.referenceErrorRate)}` : "not adjudicated"} · ${pageScores ? `page WER ${fmt(pageScores.totals.wer)} over ${pageScores.totals.pages} pages · page markers P ${fmt(pageScores.totals.markerP)} R ${fmt(pageScores.totals.markerR)}` : "no page references"} · ${decisions.length} decisions · ${((Date.now() - t0) / 1000).toFixed(1)}s → ${join(dir, "errors.md")}`,
   );
 }
 if (rows.length) {
@@ -214,6 +221,10 @@ if (rows.length) {
     adjTable.push(a ? `| ${r.row.id} | ${a.breaks} | ${a.uncovered} | ${a.judged} | ${a.referenceWrong} | ${p(a.referenceErrorRate)}${a.referenceErrorCI ? ` (${p(a.referenceErrorCI[0])} to ${p(a.referenceErrorCI[1])})` : ""} | ${p(a.referenceUnusableRate)} | ${a.oursWrong}/${a.oursJudged} | ${p(a.oursErrorRate)} |` : `| ${r.row.id} | none | | | | not adjudicated | | | |`);
   }
   md += adjTable.join("\n") + "\n";
+  const withPages = rows.filter((r) => r.pageScores);
+  if (withPages.length) {
+    md += ["", "## Page-level references", "", "Our text against human-checked page transcriptions (`reference/wikisource/`, `reference/page-text/`): word error rate and footnote-marker accuracy over the pages that have one. Per page: `<id>/pages.md`.", "", "| report | pages | reference words | WER | markers (reference) | markers (ours) | marker precision | marker recall |", "|---|---:|---:|---:|---:|---:|---:|---:|", ...withPages.map((r) => { const t = r.pageScores.totals; return `| ${r.row.id} | ${t.pages} | ${t.refWords} | ${fmt(t.wer)} | ${t.refMarkers} | ${t.ourMarkers} | ${fmt(t.markerP)} | ${fmt(t.markerR)} |`; })].join("\n") + "\n";
+  }
   writeFileSync(join(out, flag("--holdout") ? "summary-holdout.md" : "summary.md"), md);
   console.log("\n" + md.split("\n## ")[0]);
   if (flag("--json")) console.log(JSON.stringify(rows.map((r) => r.row), null, 1));
