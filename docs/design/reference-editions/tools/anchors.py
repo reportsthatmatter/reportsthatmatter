@@ -1,5 +1,8 @@
 """Independent check of a hybrid report's printed-page anchors (reportsthatmatter-ivg.2).
 
+Superseded by `pnpm ingest anchors <id>` (reportsthatmatter-s24x; docs/quality-harness.md, "Page anchors"), which
+reads the printed number of any layout, checks every report and runs in verify. Kept as the record of ivg.2's figures.
+
     python3 anchors.py <report repo> [out.json]
 
 The hybrid build stamps each block with the page its first word aligns to, and reports "pages anchored" from the

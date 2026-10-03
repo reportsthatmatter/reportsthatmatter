@@ -11,9 +11,12 @@ pnpm ingest page <id> <vol> <pdfPage> [--draft] [--fixture <name>]   # one page'
 pnpm ingest outline <id>    # one line per PDF page (headings, block counts) to choose golden pages from
 pnpm ingest preflight       # is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline run it first; --no-preflight skips)
 pnpm ingest try <branch|path> [<id>...]   # what would an unreleased ingest do to the rendered corpus? (below)
+pnpm ingest anchors [<id>...] [--check] [--ratchet] [--md <full.md>]   # where each %%page%% marker lands, checked from the PDF text layer alone; budgets in reports/anchor-budget.yaml (docs/quality-harness.md, "Page anchors")
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
 ```
+
+`run` on a `cleanEdition` report also prints the edition report: edition words aligned to the PDF, words the PDF never prints, pages anchored or placed by a neighbour, typography restored, disagreements. Its "pages anchored" comes from the alignment that placed the markers, so it cannot fail; `pnpm ingest anchors <id>` is the independent check.
 
 Golden pages (`<report repo>/golden.yaml`) are verified ground truth for a few PDF pages per report: `verify` fails when a regeneration no longer matches one, and a page the pipeline is known to get wrong is marked `xfail: <bead>` so it stays visible without failing the run. Format, how to write an entry and the oracle's measured precision: [`docs/quality-harness.md`](../../docs/quality-harness.md). `RTM_REPORT_DIRS=<dir>` reads report repos from `<dir>/<repo>` (git worktrees) where they exist. `run`, `baseline` and `aggregate` refuse a report repo that is the shared checkout (default sibling path, main working tree): `pnpm ingest worktrees <id…>` makes worktrees and prints the `RTM_REPORT_DIRS` to export; the integrator passes `--shared`. `pnpm ingest recheck [--passes a,b] [<id>…]` re-ingests in memory each report declaring a changed pass and fails on a correction that no longer matches once; `pnpm ingest crosscheck` flags golden pages that contradict `reference/adjudicated.yaml`.
 

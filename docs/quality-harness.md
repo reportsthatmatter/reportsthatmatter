@@ -217,6 +217,22 @@ What the false positives are (each read on the page with `--explain`):
 
 A whole `pnpm ingest verify` with the oracle adds about 1 to 6 s per report warm (it regenerates the report in memory for its blocks); the cache is 4 to 7 MB per report.
 
+## Page anchors
+
+`pnpm ingest anchors [<id>...]` (reportsthatmatter-s24x) checks where every `%%page N%%` marker lands in the served `reports/<id>/full.md`, from the PDF text layer alone. It exists because the pipeline's own figure cannot fail: a `cleanEdition` build's "pages anchored" (printed by `pnpm ingest run`) comes from the same alignment that placed the markers, and a PDF build marks only the pages whose number it read. Nothing here shares the pipeline's page assignment or its aligner (`src/lib/anchors.ts`):
+
+1. **Printed numbers.** `pdftotext -layout`, one page at a time: a number in the first or last three lines (alone, `(3)`, `- 12 -`, beside a running head with two spaces, `Page 7 of 20`, lower-case roman), kept only where a page within four either side has a number that keeps the same offset from the PDF page; a page with none, between two kept pages (at most six apart) that agree, is inferred.
+2. **Where each page begins in the served text.** `pdftotext` (reading order) words against the served body (before `## Notes`): letters and digits, folded, numbers of one to three digits left out on both sides (note markers, folios). A 6-word shingle counts when it occurs once in the served body (inside one block) and on one PDF page. A page's start is its first such shingle in page order, extended backwards while both sides agree, taken from a cluster of hits (300 words) large enough that a running head or a caption printed twice cannot place the page. Every served word in a matched shingle is attributed to its page.
+3. **Labels.** Each marker resolves to the page carrying its label whose start is nearest, under whichever scheme fits the report best: the printed number, the PDF page in its volume, or the PDF page across volumes (Philip Morris uses PDF pages; everything else, printed: b78.10).
+
+Per marker: `exact` (between the previous page's last attributed word and this page's first), `block` (the page starts inside a block and the marker is at that block's start, or after its end and any blocks after it printed on earlier pages: the `cleanEdition` convention and hmqk), `wrong` (word distance given), `unlocated` (no page with that label, or its text was not found: figure pages, maps). Also per report: **stacked** markers (`block` markers set after the same block as the marker before them: one block runs over several pages, 8x9n), **unmarked pages** (a page whose number was read and whose text was found, that no marker names) and **blocks under another page's marker** (each block of 8+ words, the page its first run of 8 attributed words is printed on, against the marker it sits under; contents entries skipped).
+
+`--check` holds `markers-wrong`, `markers-stacked`, `pages-unmarked` and `blocks-wrong` to `reports/anchor-budget.yaml` (in `verify.sh`, about 22 s for the corpus); `--ratchet` lowers them. `--md <file>` checks another text (the PDF shadow, an old build) against the same PDFs; `--json <file>` writes every verdict.
+
+Measured against known-broken text: the Saville PDF build (site `c5a9dcd1`) gives 12 blocks under the wrong page (ivg.2's hand-run script found the same 12), 3 unmarked pages (17, 49, 51) and 2 wrong markers; the served hybrid gives 0, 0 and 0. Removing one marker or moving one a paragraph down fails `--check`.
+
+Known misses (counted, so they sit in the budgets): an endnote page whose notes are served under `## Notes` (Columbia 194), contents pages whose entries repeat headings (they are usually `unlocated`), a few captions or reference lists that the text layer reads in another order.
+
 ## What it does not replace
 
 `pnpm ingest check` still gates the pipeline's own output, and `digitDensityCheck`, `losslessCheck`, `retentionCheck` and the structural checks in `@rtm/ingest` still gate. The 20% severed-sentence rate and the "document has headings" check there are informational (the severed count is budgeted per report as `severed-into-quote`).

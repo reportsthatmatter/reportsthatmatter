@@ -12,6 +12,7 @@
  *   pnpm ingest crosscheck [<id>...]            golden pages that contradict reference/adjudicated.yaml
  *   run, baseline and aggregate refuse a report repo that is the shared checkout (RTM_REPORT_DIRS worktrees, or --shared for the integrator)
  *   pnpm ingest page <slug> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]
+ *   pnpm ingest anchors [<slug>...] [--md <full.md>] [--limit N] [--json <file>]   where each page marker lands, checked from the PDF text layer alone (scripts/ingest/anchors.ts)
  *
  * `run` writes reports/<slug>/full.md plus a fidelity report; `verify` re-runs
  * the checks against what is already committed. More than one PDF concatenates
@@ -33,6 +34,7 @@ import { dirname } from "node:path";
 import { sharedMessage, sharedTargets, worktreePlan, type Target } from "../lib/shared-checkout.ts";
 import { goldenVsAdjudicated } from "../lib/golden-adjudicated.ts";
 import { selectReports } from "../lib/recheck.ts";
+import { formatEditionReport } from "./edition-report.ts";
 import { checkOracleBudget, loadNotesAtBack, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
 import {
   Baseline,
@@ -333,6 +335,7 @@ function writeReport(
   console.log(
     `OCR review queue: ${open.length} open (${judged.size} judged correct) → ${join(dir, "fidelity.md")}`
   );
+  if (result.edition) console.log(`\n${formatEditionReport(result.edition)}`);
 
   const ok = reportChecks(
     "Fidelity checks",
@@ -825,6 +828,24 @@ else if (command === "worktrees") code = runWorktrees(rest);
 else if (command === "recheck") code = await runRecheck(rest);
 else if (command === "crosscheck") code = runCrosscheck(rest);
 else if (command === "try") code = await (await import("./try.ts")).runTry(rest);
+else if (command === "anchors")
+  code = await (await import("./anchors.ts")).runAnchors(rest, {
+    root: ROOT,
+    ids: [...reportDirs().keys()],
+    reportDir,
+    volumes: async (id) => {
+      const dir = reportDir(id);
+      try {
+        const def = await loadDefinition(id);
+        return def.volumes.map((volume) => resolveVolume(def, volume, dir));
+      } catch {
+        // a report repo whose installed @rtm/ingest is stale cannot be imported; its volumes are plain paths
+        const source = readFileSync(join(dir, "ingest.ts"), "utf8");
+        const block = /volumes:\s*\[([\s\S]*?)\]/.exec(source)?.[1] ?? "";
+        return [...block.matchAll(/path:\s*"([^"]+)"/g)].map((m) => join(dir, m[1]));
+      }
+    },
+  });
 else {
   console.error(`Unknown command: ${command}`);
   code = 1;
