@@ -5,6 +5,9 @@
 # reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
+  105-transaction-i-e-when: during-term-repo-105-transaction
+  105-transactions-its-forms-10: when-schlich-asked-what-level
+  2006-february-28-2007-schlich: lehman-provided-netting-grid-ernst
   2007-451-result-fid-ended: 2007-result-fid-ended-quarter
   722-09-course-reviewing-interim: objective-auditor-s-review-quarterly
   about-risk-associated-lehman-s: leveraged-loan-business-some-lehman

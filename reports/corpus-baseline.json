@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 65698,
-      "paragraphs": 432,
+      "words": 65696,
+      "paragraphs": 430,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -85,8 +85,8 @@
         {
           "slug": "the-principles-of-federal-prosecution",
           "title": "THE PRINCIPLES OF FEDERAL PROSECUTION",
-          "paragraphs": 31,
-          "ids": "7a5c516db8e9"
+          "paragraphs": 30,
+          "ids": "eac86af1f740"
         },
         {
           "slug": "there-was-no-adequate-non-criminal-alternative-to-prosecution",
@@ -157,8 +157,8 @@
         {
           "slug": "appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio",
           "title": "APPENDIX: KEY FILINGS IN SIGNIFICANT LITIGATION DISTRICT COURT CRIMINAL LITIGATION",
-          "paragraphs": 99,
-          "ids": "8515ce448cef"
+          "paragraphs": 98,
+          "ids": "f39a01611476"
         },
         {
           "slug": "twitter-search-warrant-litigation",
@@ -188,7 +188,7 @@
           "slug": "preparation-and-release-of-a-report-would-serve-no-valid-purpose",
           "title": "Preparation And Release Of A Report Would Serve No Valid Purpose",
           "paragraphs": 24,
-          "ids": "78359ba77c1d"
+          "ids": "deb4156946f0"
         },
         {
           "slug": "delivery-by-hand-2",
@@ -403,14 +403,14 @@
       ]
     },
     "challenger-accident": {
-      "words": 154683,
-      "paragraphs": 3221,
+      "words": 153063,
+      "paragraphs": 2846,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
           "title": "INVESTIGATION OF THE CHALLENGER ACCIDENT",
           "paragraphs": 24,
-          "ids": "353bedc0f1e8"
+          "ids": "8445a37f09dc"
         },
         {
           "slug": "introduction",
@@ -421,8 +421,8 @@
         {
           "slug": "conclusions",
           "title": "CONCLUSIONS",
-          "paragraphs": 28,
-          "ids": "df4b51eebfab"
+          "paragraphs": 27,
+          "ids": "7102b93ab158"
         },
         {
           "slug": "solid-rocket-motors",
@@ -433,26 +433,26 @@
         {
           "slug": "summary-of-launch-operations",
           "title": "Summary of Launch Operations",
-          "paragraphs": 38,
-          "ids": "ffc8e83016db"
+          "paragraphs": 30,
+          "ids": "7cf4d151118a"
         },
         {
           "slug": "hardware-development-and-production",
           "title": "Hardware Development and Production",
-          "paragraphs": 177,
-          "ids": "6cc3859d748b"
+          "paragraphs": 120,
+          "ids": "18cc2425362a"
         },
         {
           "slug": "technical-management",
           "title": "Technical Management",
-          "paragraphs": 73,
-          "ids": "9e6593bd43a3"
+          "paragraphs": 43,
+          "ids": "1a40a62a9cb4"
         },
         {
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
-          "paragraphs": 80,
-          "ids": "ebdd3e76c69e"
+          "paragraphs": 59,
+          "ids": "6ccb4fdcbfb5"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -463,14 +463,14 @@
         {
           "slug": "introduction-2",
           "title": "INTRODUCTION",
-          "paragraphs": 15,
-          "ids": "026fa6c61beb"
+          "paragraphs": 14,
+          "ids": "56910ec67d06"
         },
         {
           "slug": "i-forwaro-segment-propellant",
           "title": "I/ FORWARO SEGMENT PROPELLANT",
-          "paragraphs": 12,
-          "ids": "17efe39062eb"
+          "paragraphs": 10,
+          "ids": "a9c951732fa9"
         },
         {
           "slug": "procure-materials-and-components-produ-and-assemble-an-operational-motor-in",
@@ -481,140 +481,152 @@
         {
           "slug": "history",
           "title": "HISTORY",
-          "paragraphs": 18,
-          "ids": "c6ff2a9b80e6"
+          "paragraphs": 16,
+          "ids": "5ae8a627bebe"
         },
         {
           "slug": "test-and-control-features",
           "title": "TEST AND CONTROL FEATURES",
-          "paragraphs": 71,
-          "ids": "90307f2d38c5"
+          "paragraphs": 68,
+          "ids": "a43e05f73981"
         },
         {
           "slug": "summary-of-significant-observations",
           "title": "SUMMARY OF SIGNIFICANT OBSERVATIONS",
-          "paragraphs": 39,
-          "ids": "7f0bf23e9e20"
+          "paragraphs": 26,
+          "ids": "2e2704b04f97"
         },
         {
           "slug": "summary-of-casing-joint-design",
           "title": "SUMMARY OF CASING JOINT DESIGN",
-          "paragraphs": 48,
-          "ids": "ffd6c9ae5564"
+          "paragraphs": 35,
+          "ids": "01fdb183ae54"
         },
         {
           "slug": "stacking-operations",
           "title": "STACKING OPERATIONS",
-          "paragraphs": 26,
-          "ids": "7171f8ddbedf"
+          "paragraphs": 24,
+          "ids": "4e0a00432c42"
         },
         {
           "slug": "summary-of-launch-operations-2",
           "title": "SUMMARY OF LAUNCH OPERATIONS",
-          "paragraphs": 39,
-          "ids": "be36142bc306"
+          "paragraphs": 33,
+          "ids": "7e6dd4400e0f"
         },
         {
           "slug": "external",
           "title": "EXTERNAL",
-          "paragraphs": 24,
-          "ids": "b885054e590c"
+          "paragraphs": 21,
+          "ids": "dd72fd4e8dfa"
         },
         {
           "slug": "crewsurvival",
           "title": "CREWSURVIVAL",
-          "paragraphs": 24,
-          "ids": "56c529bb87ea"
+          "paragraphs": 19,
+          "ids": "e3c73f839b36"
         },
         {
           "slug": "additional-of-investigation-avenues",
           "title": "ADDITIONAL OF INVESTIGATION AVENUES",
-          "paragraphs": 14,
-          "ids": "15edfc319a4c"
+          "paragraphs": 11,
+          "ids": "d49b3492667d"
         },
         {
           "slug": "hardware-development-and-production-2",
           "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
-          "paragraphs": 248,
-          "ids": "762ccb65d9d3"
+          "paragraphs": 195,
+          "ids": "a9b9acd07409"
         },
         {
           "slug": "2-operations",
           "title": "2 . OPERATIONS",
-          "paragraphs": 208,
-          "ids": "a0c0de2d03c3"
+          "paragraphs": 178,
+          "ids": "e6350650a77f"
         },
         {
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
-          "paragraphs": 360,
-          "ids": "847d9a503a7b"
+          "paragraphs": 261,
+          "ids": "e6c447a33436"
         },
         {
           "slug": "downstream-proper-posit-ion-i-figurevii-1",
           "title": "DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1",
-          "paragraphs": 182,
-          "ids": "6da3609dcc8f"
+          "paragraphs": 167,
+          "ids": "0a96f1472c3d"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 130,
-          "ids": "f21236c1774c"
+          "paragraphs": 117,
+          "ids": "f5bcd35c9d37"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
           "title": "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
-          "paragraphs": 305,
-          "ids": "008fceb85f28"
+          "paragraphs": 250,
+          "ids": "23d7851230b8"
         },
         {
           "slug": "launch-redlines",
           "title": "LAUNCH REDLINES",
-          "paragraphs": 133,
-          "ids": "2635f736ac1e"
+          "paragraphs": 101,
+          "ids": "2b25836b6de0"
         },
         {
           "slug": "ixdefinitions-of-terms-and-acronyms",
           "title": "IX.DEFINITIONS OF TERMS AND ACRONYMS",
-          "paragraphs": 7,
-          "ids": "acac06950e64"
+          "paragraphs": 99,
+          "ids": "e0b754381886"
         },
         {
           "slug": "xational-aeronautics-and-space-admiyistratiov",
           "title": "XATIONAL AERONAUTICS AND SPACE ADMIYISTRATIOV",
           "paragraphs": 17,
-          "ids": "5914d2524b41"
+          "ids": "46e1399fc710"
         },
         {
           "slug": "30-approach",
           "title": "3.0 APPROACH",
           "paragraphs": 42,
-          "ids": "805acae24f06"
+          "ids": "671899cdb432"
         },
         {
           "slug": "i-kdler-1-el2",
           "title": "I?. Kdler 1 El2",
           "paragraphs": 66,
-          "ids": "487ab691cab2"
+          "ids": "6fe15065b122"
         },
         {
           "slug": "thiokol",
           "title": "THIOKOL",
-          "paragraphs": 103,
-          "ids": "31ae00331744"
+          "paragraphs": 56,
+          "ids": "d3f4947db3ba"
+        },
+        {
+          "slug": "terrestrial-environment-climatic-criteria",
+          "title": "TERRESTRIAL ENVIRONMENT (CLIMATIC) CRITERIA",
+          "paragraphs": 28,
+          "ids": "d0a816c0c343"
+        },
+        {
+          "slug": "space-shuttle-program-thermal-interfaces-design-data-book",
+          "title": "SPACE SHUTTLE PROGRAM THERMAL INTERFACES DESIGN DATA BOOK",
+          "paragraphs": 19,
+          "ids": "6d8e647ac941"
         },
         {
           "slug": "space-shuttle-s-o-l-i-d-rocket-hwor-pnojoct-operational-flight",
           "title": "SPACE SHUTTLE S O L I D ROCKET HWOR PNOJOCT OPERATIONAL FLIGHT",
           "paragraphs": 37,
-          "ids": "62893eb86926"
+          "ids": "33023945b39d"
         },
         {
           "slug": "panel-on-tecbrical-evaluation-of-rasas-ppoposed-bzdesicii",
           "title": "PANEL ON TECBRICAL EVALUATION OF RASA'S PPOPOSED BZDESICII",
           "paragraphs": 156,
-          "ids": "9e2032f9be2b"
+          "ids": "96ade224be34"
         },
         {
           "slug": "criticality-potential-effect-of-failure",
@@ -626,7 +638,7 @@
           "slug": "33-analysis-reouirements",
           "title": "3.3 ANALYSIS REOUIREMENTS",
           "paragraphs": 34,
-          "ids": "3bc4bf24ac81"
+          "ids": "56cb0b723cb6"
         },
         {
           "slug": "eclss-subsystem",
@@ -650,7 +662,7 @@
           "slug": "42-revisions-submittals",
           "title": "4.2 REVISIONS & SUBMITTALS",
           "paragraphs": 62,
-          "ids": "5dd53e9197ac"
+          "ids": "16d9e836dc07"
         },
         {
           "slug": "appendix-8",
@@ -662,31 +674,31 @@
           "slug": "rubber-property-compression-set",
           "title": "RUBBER PROPERTY-COMPRESSION SET'",
           "paragraphs": 42,
-          "ids": "1dfd2d3c3f3a"
+          "ids": "3b37d8d3802f"
         },
         {
           "slug": "calculation-12-procedure",
           "title": "Calculation 12. Procedure",
           "paragraphs": 45,
-          "ids": "9ea2f7095551"
+          "ids": "4d1f6f4739e7"
         },
         {
           "slug": "0-omrsd",
           "title": "0 OMRSD",
           "paragraphs": 17,
-          "ids": "42ca8d9fe821"
+          "ids": "f08f3f083ec1"
         },
         {
           "slug": "shuttle-w-0-3-e-c-t-s-frr-requireuents",
           "title": "SHUTTLE W 0 3 E C T S FRR REQUIREUENTS",
           "paragraphs": 88,
-          "ids": "7007fa2ac3c8"
+          "ids": "d0a79c917eed"
         },
         {
           "slug": "perfornance-acceptable-no",
           "title": "PERFORNANCE ACCEPTABLE NO",
           "paragraphs": 55,
-          "ids": "1a8b4b6e4eae"
+          "ids": "2dae8dd6e87a"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -697,8 +709,8 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 134978,
-      "paragraphs": 2148,
+      "words": 134977,
+      "paragraphs": 2147,
       "sections": [
         {
           "slug": "front-matter",
@@ -775,8 +787,8 @@
         {
           "slug": "chapter-6-private-security-work",
           "title": "Chapter 6: Private security work",
-          "paragraphs": 63,
-          "ids": "f69d9c622b84"
+          "paragraphs": 62,
+          "ids": "6428af07c7e1"
         },
         {
           "slug": "chapter-2-the-2006-russian-laws",
@@ -1003,14 +1015,14 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1084654,
-      "paragraphs": 12758,
+      "words": 1084646,
+      "paragraphs": 12750,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
           "title": "PRACTICES AND ETHICS OF THE PRESS REPORT",
-          "paragraphs": 592,
-          "ids": "c2d4b0ebd8e5"
+          "paragraphs": 591,
+          "ids": "12feaaa7f64f"
         },
         {
           "slug": "news-corporation",
@@ -1033,8 +1045,8 @@
         {
           "slug": "publication-of-parliamentary-reports-in",
           "title": "Publication of Parliamentary Reports in",
-          "paragraphs": 542,
-          "ids": "fcd88eae49ad"
+          "paragraphs": 540,
+          "ids": "e4d087ce3a9d"
         },
         {
           "slug": "july-2009-the-guardian",
@@ -1147,8 +1159,8 @@
         {
           "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
           "title": "CHAPTER 4 THE PRESS AND THE POLICE: CONCLUSIONS AND RECOMMENDATIONS",
-          "paragraphs": 119,
-          "ids": "bf0e4c1f2e28"
+          "paragraphs": 118,
+          "ids": "fbb62f25f2ce"
         },
         {
           "slug": "practices-and-ethics-of-the-press-2",
@@ -1160,7 +1172,7 @@
           "slug": "part-h",
           "title": "PART H",
           "paragraphs": 18,
-          "ids": "47e54e45d5a3"
+          "ids": "56467632afe2"
         },
         {
           "slug": "chapter-2-operation-motorman-1-the-investigation",
@@ -1261,8 +1273,8 @@
         {
           "slug": "communications-act",
           "title": "Communications Act",
-          "paragraphs": 73,
-          "ids": "1b0455459a70"
+          "paragraphs": 72,
+          "ids": "52f63616fee0"
         },
         {
           "slug": "possible-steps-to-strengthen-regulation-of-content",
@@ -1357,8 +1369,8 @@
         {
           "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
           "title": "CHAPTER 4 THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
-          "paragraphs": 425,
-          "ids": "17e1552c8243"
+          "paragraphs": 424,
+          "ids": "fd8f4c487e68"
         },
         {
           "slug": "chapter-1-criteria-for-a-regulatory-solution",
@@ -1417,8 +1429,8 @@
         {
           "slug": "civil-law",
           "title": "Civil Law",
-          "paragraphs": 413,
-          "ids": "3e515c8c2e48"
+          "paragraphs": 411,
+          "ids": "c1698f881eb8"
         },
         {
           "slug": "section-55-data-protection-act",
@@ -1441,8 +1453,8 @@
       ]
     },
     "columbia-accident": {
-      "words": 169900,
-      "paragraphs": 3358,
+      "words": 167898,
+      "paragraphs": 2910,
       "sections": [
         {
           "slug": "in-memoriam",
@@ -1471,8 +1483,14 @@
         {
           "slug": "part-one-the-accident",
           "title": "Part One: The Accident",
-          "paragraphs": 11,
-          "ids": "7642a7fdce96"
+          "paragraphs": 8,
+          "ids": "564a1ad74d1b"
+        },
+        {
+          "slug": "11-genesis-of-the-space-transportation-system",
+          "title": "1.1 Genesis of the Space Transportation System",
+          "paragraphs": 3,
+          "ids": "95e639b7d63c"
         },
         {
           "slug": "12-merging-conflicting-interests",
@@ -1489,14 +1507,14 @@
         {
           "slug": "14-the-shuttle-becomes-operational",
           "title": "1.4 The Shuttle Becomes \"Operational\"",
-          "paragraphs": 8,
-          "ids": "fadce8b92e62"
+          "paragraphs": 7,
+          "ids": "0acce7fa7a18"
         },
         {
           "slug": "15-the-challenger-accident",
           "title": "1.5 The Challenger Accident",
-          "paragraphs": 17,
-          "ids": "3be35d272018"
+          "paragraphs": 14,
+          "ids": "d4da8021766b"
         },
         {
           "slug": "21-mission-objectives-and-their-rationales",
@@ -1513,8 +1531,8 @@
         {
           "slug": "23-launch-sequence",
           "title": "2.3 Launch Sequence",
-          "paragraphs": 26,
-          "ids": "c64032973d2b"
+          "paragraphs": 25,
+          "ids": "d8b6486459a3"
         },
         {
           "slug": "24-on-orbit-events",
@@ -1537,14 +1555,8 @@
         {
           "slug": "27-events-immediately-following-the-accident",
           "title": "2.7 Events Immediately Following the Accident",
-          "paragraphs": 97,
-          "ids": "986e76ecf794"
-        },
-        {
-          "slug": "endnotes-for-chapter-2",
-          "title": "ENDNOTES FOR CHAPTER 2",
-          "paragraphs": 21,
-          "ids": "55712df86e8e"
+          "paragraphs": 103,
+          "ids": "117f898d9efb"
         },
         {
           "slug": "32-the-external-tank-and-foam",
@@ -1561,8 +1573,8 @@
         {
           "slug": "34-image-and-transport-analyses",
           "title": "3.4 Image and Transport Analyses",
-          "paragraphs": 56,
-          "ids": "5d6d20be1307"
+          "paragraphs": 54,
+          "ids": "580b7d9cfcd2"
         },
         {
           "slug": "35-on-orbit-debris-separation-the-flight-day-2-object",
@@ -1573,8 +1585,8 @@
         {
           "slug": "36-de-orbitre-entry",
           "title": "3.6 De-Orbit/Re-Entry",
-          "paragraphs": 190,
-          "ids": "e98d7b867681"
+          "paragraphs": 188,
+          "ids": "2e33247bc409"
         },
         {
           "slug": "37-debris-analysis",
@@ -1585,14 +1597,8 @@
         {
           "slug": "38-impact-analysis-and-testing",
           "title": "3.8 Impact Analysis and Testing",
-          "paragraphs": 74,
-          "ids": "2e254edfe8a4"
-        },
-        {
-          "slug": "endnotes-for-chapter-3",
-          "title": "ENDNOTES FOR CHAPTER 3",
-          "paragraphs": 40,
-          "ids": "d31aa55b0511"
+          "paragraphs": 77,
+          "ids": "bbac9575196a"
         },
         {
           "slug": "41-fault-tree",
@@ -1604,13 +1610,7 @@
           "slug": "42-remaining-factors",
           "title": "4.2 Remaining Factors",
           "paragraphs": 166,
-          "ids": "21d39740dca3"
-        },
-        {
-          "slug": "endnotes-for-chapter-4",
-          "title": "ENDNOTES FOR CHAPTER 4",
-          "paragraphs": 41,
-          "ids": "100d6045765b"
+          "ids": "2c2adfb0a372"
         },
         {
           "slug": "part-two-why-the-accident-occurred",
@@ -1651,8 +1651,8 @@
         {
           "slug": "56-a-change-in-nasa-leadership",
           "title": "5.6 A Change in NASA Leadership",
-          "paragraphs": 14,
-          "ids": "06860efcd11d"
+          "paragraphs": 13,
+          "ids": "57446d5a8a53"
         },
         {
           "slug": "57-the-return-of-schedule-pressure",
@@ -1663,20 +1663,14 @@
         {
           "slug": "58-conclusion",
           "title": "5.8 Conclusion",
-          "paragraphs": 8,
-          "ids": "2d0c72af2aa3"
-        },
-        {
-          "slug": "endnotes-for-chapter-5",
-          "title": "ENDNOTES FOR CHAPTER 5",
-          "paragraphs": 102,
-          "ids": "7ab754bb60bf"
+          "paragraphs": 11,
+          "ids": "4e31d3477add"
         },
         {
           "slug": "61-a-history-of-foam-anomalies",
           "title": "6.1 A History of Foam Anomalies",
           "paragraphs": 166,
-          "ids": "c4ca459d40a9"
+          "ids": "3314503e5cd0"
         },
         {
           "slug": "62-schedule-pressure",
@@ -1693,14 +1687,8 @@
         {
           "slug": "64-possibility-of-rescue-or-repair",
           "title": "6.4 Possibility of Rescue or Repair",
-          "paragraphs": 16,
-          "ids": "97657e02ba8a"
-        },
-        {
-          "slug": "endnotes-for-chapter-6",
-          "title": "ENDNOTES FOR CHAPTER 6",
-          "paragraphs": 62,
-          "ids": "3e7b70bf803d"
+          "paragraphs": 17,
+          "ids": "9114dd795ff6"
         },
         {
           "slug": "chapter-7-the-accidents-organizational-causes",
@@ -1741,14 +1729,8 @@
         {
           "slug": "76-findings-and-recommendations",
           "title": "7.6 Findings and Recommendations",
-          "paragraphs": 20,
-          "ids": "5cf393d418fb"
-        },
-        {
-          "slug": "endnotes-for-chapter-7",
-          "title": "ENDNOTES FOR CHAPTER 7",
-          "paragraphs": 65,
-          "ids": "efdf1b76174f"
+          "paragraphs": 22,
+          "ids": "e44e2579454d"
         },
         {
           "slug": "81-echoes-of-challenger",
@@ -1772,25 +1754,19 @@
           "slug": "84-organization-culture-and-unintended-consequences",
           "title": "8.4 Organization, Culture, and Unintended Consequences",
           "paragraphs": 4,
-          "ids": "abdb3431d1ae"
+          "ids": "0fdb4d23ec93"
         },
         {
           "slug": "85-history-as-cause-two-accidents",
           "title": "8.5 History as Cause: Two Accidents",
           "paragraphs": 23,
-          "ids": "2e5afe09f750"
+          "ids": "5e981f48f301"
         },
         {
           "slug": "86-changing-nasas-organizational-system",
           "title": "8.6 Changing NASAʼs Organizational System",
-          "paragraphs": 9,
-          "ids": "543e9f4482af"
-        },
-        {
-          "slug": "endnotes-for-chapter-8",
-          "title": "ENDNOTES FOR CHAPTER 8",
-          "paragraphs": 83,
-          "ids": "6f681200d5fc"
+          "paragraphs": 10,
+          "ids": "6e00d7c3b3d9"
         },
         {
           "slug": "part-three-a-look-ahead",
@@ -1855,14 +1831,8 @@
         {
           "slug": "109-hold-down-post-cable-anomaly",
           "title": "10.9 Hold-Down Post Cable Anomaly",
-          "paragraphs": 20,
-          "ids": "e25d552e9102"
-        },
-        {
-          "slug": "endnotes-for-chapter-10",
-          "title": "ENDNOTES FOR CHAPTER 10",
-          "paragraphs": 40,
-          "ids": "23bc8274a2a8"
+          "paragraphs": 21,
+          "ids": "af014e573d14"
         },
         {
           "slug": "chapter-11-recommendations",
@@ -1909,8 +1879,8 @@
         {
           "slug": "a7-list-of-public-hearings",
           "title": "A.7 LIST OF PUBLIC HEARINGS",
-          "paragraphs": 17,
-          "ids": "57d30a3246ef"
+          "paragraphs": 16,
+          "ids": "fad70e20cee4"
         },
         {
           "slug": "appendix-b-board-member-biographies",
@@ -1923,12 +1893,6 @@
           "title": "Appendix C: Board Staff",
           "paragraphs": 32,
           "ids": "fe5635e5d443"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
         }
       ]
     },
@@ -2317,8 +2281,8 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 188219,
-      "paragraphs": 2303,
+      "words": 183046,
+      "paragraphs": 1729,
       "sections": [
         {
           "slug": "front-matter",
@@ -2336,37 +2300,37 @@
           "slug": "part-i-the-path-to-tragedy",
           "title": "Part I: The Path to Tragedy",
           "paragraphs": 121,
-          "ids": "35b4b0b91685"
+          "ids": "d8907e861df6"
         },
         {
           "slug": "chapter-two-each-oil-well-has-its-own-personality-the-history-of-offshore-oil-an",
           "title": "Chapter Two: \"Each oil well has its own personality\" The History of Offshore Oil and Gas in the United States",
-          "paragraphs": 160,
-          "ids": "bc12101ef996"
+          "paragraphs": 159,
+          "ids": "4bc553d3232e"
         },
         {
           "slug": "chapter-three-it-was-like-pulling-teeth-oversightand-oversightsin-regulating-dee",
           "title": "Chapter Three: \"It was like pulling teeth.\" Oversight—and Oversights—in Regulating Deepwater Energy Exploration and Production in the Gulf of Mexico",
-          "paragraphs": 188,
-          "ids": "1307b2139d2f"
+          "paragraphs": 184,
+          "ids": "efc5de360582"
         },
         {
           "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
           "title": "Part II: Explosion and Aftermath: The Causes and Consequences of the Disaster",
-          "paragraphs": 213,
-          "ids": "7d2909a61cbf"
+          "paragraphs": 206,
+          "ids": "ca518967e9e2"
         },
         {
           "slug": "chapter-five-youre-in-it-now-up-to-your-neck-response-and-containment",
           "title": "Chapter Five: \"You're in it now, up to your neck!\" Response and Containment",
-          "paragraphs": 214,
-          "ids": "119d5e3abd20"
+          "paragraphs": 209,
+          "ids": "1568d469a5d4"
         },
         {
           "slug": "chapter-six-the-worst-environmental-disaster-america-has-ever-faced-oiling-a-ric",
           "title": "Chapter Six: \"The worst environmental disaster America has ever faced.\" Oiling a Rich Environment: Impacts and Assessment",
-          "paragraphs": 130,
-          "ids": "a95cda0de5e0"
+          "paragraphs": 129,
+          "ids": "c7b1bb2b4be1"
         },
         {
           "slug": "chapter-seven-people-have-plan-fatigue-theyve-been-planned-to-death-recovery-and",
@@ -2378,7 +2342,7 @@
           "slug": "part-iii-lessons-learned-industry-government-energy-policy",
           "title": "Part III: Lessons Learned: Industry, Government, Energy Policy",
           "paragraphs": 143,
-          "ids": "b286ced2b32d"
+          "ids": "9d831af48a79"
         },
         {
           "slug": "the-need-for-a-new-approach-to-risk-assessment-and-management",
@@ -2425,8 +2389,14 @@
         {
           "slug": "the-need-for-increased-research-and-development-to-improve-spill-response",
           "title": "The Need for Increased Research and Development to Improve Spill Response",
-          "paragraphs": 24,
-          "ids": "5faf60f9a6ba"
+          "paragraphs": 15,
+          "ids": "ad616dd52f89"
+        },
+        {
+          "slug": "the-need-to-strengthen-industrys-spill-preparedness",
+          "title": "The Need to Strengthen Industry's Spill Preparedness",
+          "paragraphs": 9,
+          "ids": "93973cf5ad71"
         },
         {
           "slug": "the-need-for-a-more-robust-well-design-and-approval-process",
@@ -2485,14 +2455,8 @@
         {
           "slug": "chapter-ten-american-energy-policy-and-the-future-of-offshore-drilling",
           "title": "Chapter Ten: American Energy Policy and the Future of Offshore Drilling",
-          "paragraphs": 52,
-          "ids": "1a55b0fb6557"
-        },
-        {
-          "slug": "endnotes",
-          "title": "Endnotes",
-          "paragraphs": 562,
-          "ids": "c76dcb5c6267"
+          "paragraphs": 55,
+          "ids": "e3b8253225fd"
         },
         {
           "slug": "appendix-a-commission-members",
@@ -2504,7 +2468,7 @@
           "slug": "appendix-c-executive-order---national-commission-on-the-bp-deepwater-horizon-oil",
           "title": "Appendix C: Executive Order-- National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling",
           "paragraphs": 30,
-          "ids": "f893aa74f0f9"
+          "ids": "1ca2c265694c"
         },
         {
           "slug": "appendix-d-commission-staff-and-consultants",
@@ -2515,20 +2479,14 @@
         {
           "slug": "index",
           "title": "Index",
-          "paragraphs": 98,
-          "ids": "19408ff299fa"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 101,
+          "ids": "30897b5e8867"
         }
       ]
     },
     "us-v-philip-morris": {
-      "words": 489310,
-      "paragraphs": 5897,
+      "words": 489306,
+      "paragraphs": 5893,
       "sections": [
         {
           "slug": "united-states-district-court-for-the-district-of-columbia",
@@ -2923,8 +2881,8 @@
         {
           "slug": "despite-their-internal-knowledge-defendants-marketing-and-public-statements-abou",
           "title": "Despite Their Internal Knowledge, Defendants' Marketing and Public Statements About Low Tar Cigarettes Continue to Suggest that They Are Less Harmful than Full-Flavor Cigarettes",
-          "paragraphs": 359,
-          "ids": "3337b3ada261"
+          "paragraphs": 358,
+          "ids": "36876fb55985"
         },
         {
           "slug": "the-defendants-need-youth-as-replacement-smokers",
@@ -2941,8 +2899,8 @@
         {
           "slug": "tracking-youth-behavior-and-preferences-ensures-that-marketing-and-promotion-rea",
           "title": "Tracking Youth Behavior and Preferences Ensures that Marketing and Promotion Reach Youth",
-          "paragraphs": 442,
-          "ids": "c5867161326a"
+          "paragraphs": 441,
+          "ids": "a918c81a1455"
         },
         {
           "slug": "defendants-marketing-successfully-reaches-youth",
@@ -3151,8 +3109,8 @@
         {
           "slug": "the-government-has-proven-that-defendants-caused-mailings-and-wire-transmissions",
           "title": "The Government Has Proven that Defendants Caused Mailings and Wire Transmissions, in Furtherance of the Scheme to Defraud, in Violation of 18 U.S.C. § § 1341 and/or 1343",
-          "paragraphs": 41,
-          "ids": "c0f472503bf9"
+          "paragraphs": 40,
+          "ids": "1fa2d319b70b"
         },
         {
           "slug": "the-first-amendment-does-not-protect-defendants-false-and-misleading-public-stat",
@@ -3163,8 +3121,8 @@
         {
           "slug": "defendants-engaged-in-a-pattern-of-racketeering-activity-in-furtherance-of-the-s",
           "title": "Defendants Engaged in a Pattern of Racketeering Activity in Furtherance of the Scheme to Defraud",
-          "paragraphs": 16,
-          "ids": "8b37a7863ef8"
+          "paragraphs": 15,
+          "ids": "52fb611362b9"
         },
         {
           "slug": "defendants-acted-with-the-specific-intent-to-defraud-or-deceive",
@@ -3589,8 +3547,8 @@
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 61871,
-      "paragraphs": 951,
+      "words": 61870,
+      "paragraphs": 950,
       "sections": [
         {
           "slug": "front-matter",
@@ -3865,14 +3823,14 @@
         {
           "slug": "timeline-of-events",
           "title": "Timeline of events",
-          "paragraphs": 18,
-          "ids": "9d9c6fc8444d"
+          "paragraphs": 17,
+          "ids": "6890cd59432c"
         }
       ]
     },
     "us-lehman-examiner": {
-      "words": 184932,
-      "paragraphs": 978,
+      "words": 184929,
+      "paragraphs": 975,
       "sections": [
         {
           "slug": "introduction",
@@ -3931,8 +3889,8 @@
         {
           "slug": "repo-105",
           "title": "Repo 105",
-          "paragraphs": 584,
-          "ids": "a2440a30566e"
+          "paragraphs": 581,
+          "ids": "8eb11b699ded"
         }
       ]
     }

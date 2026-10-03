@@ -112,6 +112,7 @@
 1-3-5-cmte-hgs
 1-3-method-b-not
 1-3-p-bid
+1-4-ibid-p-5-38
 1-4-values-stated-si
 1-7
 1-7-0-cmte-hgs
@@ -269,6 +270,8 @@
 11-failure-enforce-clear-requirement-2
 11-rogers-commission-report-volume
 111
+112-ibid
+115-ibid
 117-ice-frost-team-evaluation
 12-01s-annel-245-pp
 12-1-original-thickness-measurementas
@@ -287,6 +290,7 @@
 123douglas-b-feaver-succeea-relaxed
 124-cmt-hgs-transcript-june
 12501s-channel-245-p-217
+129-ibid
 13-flame-from-right-solid
 130-launch-commit-criteria-background
 131-bid-p-5-1-4b
@@ -521,6 +525,7 @@
 3-naja-should-stop-routine
 3-nasa-has-reduced-reassigned
 3-nasa-has-reduced-reassigned-2
+3-nasa-letter-from-john
 3-nasa-s-lack-statistical
 3-nasa-s-lack-statistical-2
 3-nasa-should-closely-scrutinize
@@ -528,6 +533,7 @@
 3-nasa-should-review-its
 3-nasa-should-review-its-2
 3-nasa-should-stop-routine
+3-nasa-should-stop-routine-2
 3-none---redundant-simultaneous
 3-p-u-t-t
 3-refer-appendix-vii-a-astm
@@ -803,6 +809,7 @@ a-compression-set-under-constant-force
 a-introduction
 a1-martin-testified
 a56
+aa-sf-associate-administrator-space-flight
 aa-sf-associate-administrator-space-flight-afpro-air
 abort--requires-automatic-operation-o
 abort-requires
@@ -833,8 +840,10 @@ additional-weight--in-order-accomplish
 adequacy-adherence-operations-maintenance-instructions
 adrian-o-neal-hcdonnell-douglas
 aecond-third-aource-putty-l
+afpro-air-force-plant-representative-wice
 aft
 aft-2
+aft-aft-v-3
 aft-field-joint-flight-51-l
 aft-segment-clevis-diameter-measured
 aft-segment-receiving-inspection-processing
@@ -883,6 +892,7 @@ analysis-vill-attampt-identify-cauae
 analyzing-launch-films-after-accident
 and
 and-2
+and-3
 angle-no-orbiter-impacts-are
 anomalous-behavior-space-shuttle-main
 another-concern-has-been-raised
@@ -912,6 +922,7 @@ april-4-1983--sts-6-first
 april-4-1985--a-letter
 april-6-1984--heat-degradation
 april-lc-1985--the-shuttle
+apu-auxiliary-power-unit
 are-all-production-other-activities
 are-all-production-other-activities-2
 are-astronauts-adequately-represented-decision
@@ -989,6 +1000,7 @@ based-above-conditions-evidence-committee
 based-available-evidence-committee-unable
 based-upon-divergences-these-testimonies
 bat-para-3-1-3
+be
 be-cmte-hgs-transcript-july
 became-necessary-find-new-putty
 because-difficulty-reader-may-find
@@ -1005,6 +1017,7 @@ bi-d-volume-i-pp
 bi-rr-shuttle-project-flight
 bid
 bid-4---4-2
+bid-72-bid
 bid-72-bid-7s-ibid
 bid-p-12
 bid-p-k-3-l-o
@@ -1035,6 +1048,7 @@ bl-would-take-long-time
 bl-yeah-okay
 bl-yeah-we-re-worried
 blades-engines-i-hedge-little
+boc-base-operations-contractor
 boisjoly-also-testified-hardy-said
 boisjoly-testified
 boisjoly-testifying-before-rogers-commission
@@ -1051,6 +1065,7 @@ bravo
 briefing-documents-prepared-thiokoi-included
 briefing-recommended-accelerated-pace-eliminate
 broken-blades-totally-within-engine
+btu-british-thermal-unit
 c
 c-2
 c-3
@@ -1078,6 +1093,7 @@ cal-model-which-suggested-if
 called-me-said-had-just
 can-be-used-static-seal
 cape-kennedy-weather-phenomena-supplant
+car-confguration-acceptance-review
 carrying-out-its-annual-authorizing
 case-51-l-accident-first-ambiguous
 case-nozzle-to-case-o-ring-seal-erosion
@@ -1091,6 +1107,8 @@ cause-casings-bulge-out-around
 cause-spare-parts-crisis-budgetary
 cc-eeol-w-hardy-sa41
 cc-smz-ic-u-w
+cdr-chmmander
+cdr-critical-design-review
 cdr-ok-we-re-throttling
 center
 center-verify-failure-aft-field
@@ -1115,6 +1133,7 @@ changes-flight-system-requirements-accept
 changes-flight-system-requirements-acceptance
 chapter-7-rogers-commission-report
 chuigger
+cil-critical-items-list
 circumferential-alignment-tool-installed-right
 clear-these-activities-steps-process
 clear-these-changes-must-have
@@ -1124,8 +1143,10 @@ clev-i-s
 cljss-8
 closely-simulated-actual-conditions-should
 closing-committee-would-like-state
+cmte-hgs-transcript-july-15
 cmte-hgs-transcript-june-18
 cmte-hgs-transcript-june-18-2
+cofr-certification-flight-readiness
 cokpah-piuiail
 col-hartsfield-concurred
 commissioner-walker-asked-point-did
@@ -1234,11 +1255,13 @@ could-accident-have-been-caused-3
 could-accident-have-been-caused-4
 could-have-impact-launch-schedule
 cover-status-issues-areas-such
+cpif-cost-plus-incentive-fee
 crit-1-r-6-2
 criteria-what-far-you-knew
 critical-processes-are-formally-identified
 crj-e-z-u-e
 cthe-lsd-values-are-relative
+cts-call-to-stations
 current-edltton-approved-sept-27
 current-ground-test-program-ssme
 current-ground-test-program-ssme-2
@@ -1281,8 +1304,11 @@ d-r-r-o-b
 d-r-robert-c-forney
 d-well-i-guess-we
 d246jf-5
+d395
+d395-2
 d395-ing-sometimes-more-convenient
 d395-placed-each-side-rubber
+dar-deviation-approval-request
 data-sheet-no-1
 date-each-element-space-shuttle
 date-many-design-alternatives-have
@@ -1294,6 +1320,8 @@ days-before-launch-mating-casing
 days-before-launch-solid-rocket
 days-before-launch-transport-pad
 days-hearings-k-w-wm
+dcas-defense-contract-administration-service
+dcr-design-certification-review
 dear-chairman
 dear-speaker
 dearmr-chairman
@@ -1319,10 +1347,12 @@ design-similar-except-tang-pointed
 desk-instruction-defines-t-h
 despite-clarity-commission-s-conclusions
 details-substantiation-statements-made-summary
+determine-risk-accident-b-747-shuttle
 determined-shims-could-be-used
 developing-solid-rocket-motor-thiokol
 development-operation-ssme-remarkable-achievement
 developmental-non-operational-status-shuttle-also
+dfrf-dryden-flight-research-facility
 di-no-100-26
 di-no-100-26-2
 di-no-100-26-3
@@ -1330,6 +1360,7 @@ di-no-100-26-4
 did-operating-pressures-adversely-affect
 did-operating-pressures-adversely-affect-2
 direct-contrast-view-held-john
+direction-committee-science-technology-1
 direction-committee-science-technology-hereby
 director-all-right-let-s
 director-do-you-guys-think
@@ -1348,8 +1379,10 @@ director-lo
 director-no-just-ice
 director-no-no-i-haven
 director-no-s-right-io3
+director-no-s-right-mission
 director-oh-no-i-don
 director-ok
+director-ok-38
 director-ok-jackie-writing-waiver
 director-ok-looks-like-we
 director-ok-so-vou-want
@@ -1361,6 +1394,7 @@ director-okay-4
 director-okay-5
 director-okay-6
 director-okay-mac-we-understand
+director-okay-r-horace-robinson
 director-okay-s-itl-108
 director-okay-then-you-don
 director-okay-we-can-do
@@ -1371,6 +1405,7 @@ director-s-been-down-low
 director-s-what-we-re
 director-then-what-choices-we
 director-ullage-transducers
+director-ullage-transducers-j-ok
 director-we-can-get-don
 director-we-re-still-looking
 director-well-i-don-t
@@ -1416,6 +1451,7 @@ do-o-ring-repairs-compromise-safety
 do-o-ring-repairs-compromise-safety-2
 do-principal-contractors-have-appropriate
 do-principal-contractors-have-n
+document
 doe-s-nasa-have-adequate
 does-management-shuttle-program-adequately
 does-management-shuttle-program-adequately-2
@@ -1432,6 +1468,7 @@ doing-total-independent-assessment-my
 don-fuqua-florida-chairman-robert
 dot-pdra-3-1
 downey-houston-who-support-even
+dr-discrepancy-report
 dr-graham-s-statement-important
 dr-graham-there-are-two
 dr-graham-we-are-fact
@@ -1484,12 +1521,14 @@ effect-thiokol-s-recommendations-would
 eg2-4-e-lowe-j
 eg21-g-butler
 eg23-e-b-o-r
+eghg--edgerton-germeshausen-grier
 egzz-t-t-u-r
 elezenc-co-zpciors-each-elmen
 ell-hotton-frcn-ep25-w
 elol-i-s-b-e
 emphasis-reducing-costs-per-flight
 enclosure
+enclosure-111
 enclosure-2
 enclosures-stated-cc-sa42-nessrs
 engineering-determined-tension-approximately-690
@@ -1504,7 +1543,10 @@ er-aircraft-sca-its-impact
 er-program-which-supported-limited
 era-commission-report-volume-11
 errhasis-w-i-l-l
+esmc-eastern-sdace-missile-center
+est-eastern-stahdard-time
 est-eastern-stahdard-time-et-external-tank
+et-external-tank
 evaluated-proposals-generated-solid-rocket
 evaluating-information-presented-august-19
 evaluation-seal-erosion-problem-does
@@ -1546,6 +1588,8 @@ failed-joint-solid-rocket-motor
 fails-out-o-f-tolerance
 failure-inform-level-i-level
 failure-inform-level-i-level-2
+fdo-flight-dynamics-officer
+feat-flight-element-assignment-table
 february-12-1985--mr-mulloy
 february-14-1985--mr-mulloy
 february-2-1979--mr-eudy
@@ -1559,6 +1603,7 @@ fh-i-m-here-horace
 fh-no-s-not-true
 fh-okay-grady-said-can
 fh-okay-we-may-have
+fh-s-right-re-giving
 fh-says-reasons-ice-frost
 fh-we-re-about-3
 fibure-1
@@ -1671,6 +1716,7 @@ findings-6
 findings-7
 findings-8
 findings-9
+findings-are-inconclusive-impact-crew
 findings-recommendations-contained-report-are
 firing-room-2-very-significant
 first-23-orbiter-flights-brake
@@ -1691,6 +1737,7 @@ flight-readiness-review-process-sts
 flight-readiness-reviews-employ-so-called
 flights-sts41-g-sts51-a-successfullv-flew
 fligiit-readit-ess-revieh
+fmea-failure-modes-effects-analyses
 fmea-s-will-be-prepared
 fmea-used-nasa-assigns-no
 fmea-very-conservative-analysis-according
@@ -1711,7 +1758,9 @@ from-epolnr-m-c-c
 from-history-unfolded-commission-committee
 from-outset-focus-committee-s
 fron-ep25-miller
+frr-flight-readiness-review
 frr-policy-directive-offers-following
+fss-fixed-service-structure
 fss-rss-icing-conditions-observed
 full-x-ray-inspection-conducted-all
 function-safety-engineers-within-nsts
@@ -1721,6 +1770,7 @@ fxox-saol-yz-lindsiroa
 g-ff-1
 g-ff-1-b-c
 g-frr-action-itemlopen-item
+g-ria-relative-temperatures-felt
 general-abrahamson-made-following-observations
 general-counsel-roberte-palmer-radp
 general-kutyna-could-i-interrupt
@@ -1732,7 +1782,10 @@ given-comprehensive-system-reviews-difficult
 given-history-program-known-there
 good-engineering-practice-design-products
 gouges-washes-it4
+gox-gaseous-oxygen
+gse-ground-support-equipment
 guidelins-use-aerospace-l-hlcle
+h---h-m-d
 h-g-c-ce-1-1
 h-procedures
 h-program-objactivaa-k-ayateutically
@@ -1751,9 +1804,11 @@ have-all-elements-space-shuttle
 have-t-o-be-modified
 having-all-elements-space-shuttle
 having-heard-debate-decision-reinartz
+hdp-holddown-4-o-s
 headquarters-issue-some-cases-johnson
 heart-booster-solid-rocket-motor
 henderson-nevada-use-existing-skilled
+hi-thousands-pounds-per-square-inch
 hid
 high-pressure-gases-into-joint
 hindsight-august-19th-briefing-well
@@ -1763,6 +1818,7 @@ his-letter-announcing-sts-51-l
 his-presentation-level-1-frr
 his-presentation-sts-51-e-level
 history-srm-seal-erosion-demonstrates
+hold-just-minute-i-ll
 holddown-hardware-installed-stud-tensioning
 hon-thomas-p-o-neill
 houston-then-called-dr-judson
@@ -1911,6 +1967,7 @@ i-believe-n-approach-has
 i-believe-we-have-go
 i-c-revision---date
 i-ci
+i-don-t-recall-specific
 i-dupont-de-nemours-6
 i-failure-mace-effccts-analvsis
 i-h
@@ -1982,16 +2039,19 @@ i-think-overall-structure-shuttle
 i-think-we-have-got
 i-three-test-stands-some
 i-tried-one-more-time
+i-unk-yeah
 i-ve-said-before-publicly
 i-went-2-oo-mission
 i-would-expect-aldrich-would
 i1-flight-readiness-review-indicates
 i24nasa-launch-commit-criteria-background
+i5
 i5-ibid
 i5-ibid-ibid
 i5ibid
 i6ibid
 iaw-wmir-mil-stdi
+ibid-16-ibid-i-ibid
 ibid-218
 ibid-june-12-1986-p
 ibid-p-1014-1-4
@@ -2008,6 +2068,7 @@ ice-team-leader-later-reported
 ice-team-leader-reported-efforts
 ice-team-leader-s-next
 ice-team-returned-from-its
+ice-troughs-had-thickened-found
 icicles-could-very-easily-be
 identical-entry-appears-pas-record
 if-engineers-intended-apply-same
@@ -2029,6 +2090,7 @@ ii-identify-c-r-i
 iipteknts-capability-0-nozzle-separation
 il-jan-14-1986-sts-program
 ill-dec-17-1985-srm-office
+ill-impact-limit-line
 ill-jan-13-1986-center-board
 ilw-v-i-s-l
 impact-damage-windows-so-extreme
@@ -2052,6 +2114,8 @@ instrument-system-schedule-all-landings
 intarfacur
 interolllce-memo
 intrrrrlitlonrhlps-occurlng-during-o-r
+ipr-interim-problem-report
+ir-in-fra-red
 is1-ibid-p-99
 isibid
 iss-bid-p-305
@@ -2178,6 +2242,7 @@ itl-well-problem-we-have
 itl-well-s-handrails-its
 itl-yes-s-concerned-matter
 itl-yes-we-do-s
+ius-inertial-upper-stage
 iv-dee-11-1985-thiokol-wasatch
 ivln-no
 ivln-no-17
@@ -2187,6 +2252,7 @@ ized-more-we-have-great
 j-1-llwll-1-112
 j-2-6-u-e
 j-c-k-i-h
+j-e-f-f-s
 j-i-think-did-10
 j-mcdomld-1-coo-x
 j-mcdonald-director
@@ -2213,6 +2279,7 @@ january-3-1-1985--at
 january-3-1986-level-111
 january-31-1985--at-sts51-e
 january-9-1978--major-problems
+january-9-1986-larry-mulloy
 jeffs-president-north-american-space
 jm
 jodavid-e-sanger-flaw-titan
@@ -2229,6 +2296,7 @@ joint-test-certification-program-inadequate
 joseph-p-kenvin-nasa-s
 jrnuary-27-1986-e-tkennedvwm
 jsc-3-2-1-1
+jsc-johnson-s-ace-center
 july-1-1985--a-combined
 july-14-1986-nasa-submitted
 july-16-1986-7-e
@@ -2241,6 +2309,7 @@ july-23-1986-2-alan
 july-23-1986-alan-m
 july-24-1986-5-lt
 july-24-1986-lt-gen
+july-24-1986-p-106
 july-29-1985--sts-51-f
 july-31-1985--boisjoly-wrote
 july-8-1986-administrator-established
@@ -2271,11 +2340,13 @@ kennedy-space-center-mishap-reports
 key-activities-be-performed-we
 key-shuttle-contracts-e-g
 key-shuttle-contracts-e-g-2
+ksc-kennedy-pace-center
 ksc-s-engineering-director-then
 l
 l--ty
 l-0-wear
 l-1-nasa-briefing-may
+l-2
 l-2-these-include-destructive
 l-2-weeks-flight-readiness-review
 l-3-4-rogers-commission
@@ -2287,10 +2358,12 @@ l-b-0-w-pc
 l-d-hey-we-gotta
 l-e-larry-mullo-nasa
 l-h-aft-e-x
+l-h-left-hand
 l-hot-results-pravioua-amall
 l-i-i-i
 l-l-p-o-t
 l-l-results-pravioua-amall
+l-n
 l-n-2-rogers-commission
 l-o-8-01s-channel
 l-o-g-nasa-johnson
@@ -2318,7 +2391,9 @@ launch-phase-in-flight-maneuvering-thrust
 launch-phase-increases-thrust-increase
 launch-phase-turbulence-wind-gust-impact
 launch-production-process-template-displayed
+launch-readiness-review-procedures-communications
 lawrence-wear-solid-rocket-motor
+lcg-launch-control-center
 ld-boy-s-really-stretching
 ld-do-we-have-any
 ld-hey-what-kind-debris
@@ -2327,6 +2402,7 @@ ld-ok-i-understand-we
 ld-ok-only-outstanding-item
 ld-ok-we-ll-use
 ld-okay-o-2
+ld-okay-o-2-ksc
 ld-okay-we-need-have
 ld-okay-why-don-t
 ld-we-have-nothing-else
@@ -2349,6 +2425,7 @@ level-111-second-we-will
 level-date-reviewing-office-ope
 level-i-headquarters-conducts-daily
 levels-1-2-not-alone
+lfc-left-forward-center
 liftoff-launch-maneuvering-thrust-plus
 like-rogers-commission-committee-concluded
 line-management-responsibility-authority-account
@@ -2363,8 +2440,12 @@ local-s-t-u-d
 lockheed-s-award-fees-kennedy
 logic-behind-resolution-o-ring-problem
 lognasa-johnson-pace-flight-center
+los--loss-signal
 loss-c-p-b-i
+lox-liquid-oxygen
 lpptrlctpt-8-sd73-lb-e069-1-stroctoral-d-e
+lps-launch-processing-system
+lru-line-replaceable-unit
 ls-cmte-hgs-transcript-june
 ls8-bid-volume-i-pp
 lscmte-hgs-transcript-june-18
@@ -2451,9 +2532,12 @@ meeting-chaired-moore-s-deputy
 memo-continued
 memo-from-john-miller-eudy
 memo-from-larry-mulloy-bob
+memo-part-package-release-nasa
 memo-stated-100-deg-f
 memo-than-went-discuss-number
 mentioned-earlier-nasa-s-performance
+meop-maximum-expected-operating-pressure
+mer-mission-evaluation-room-253
 method-a-compression-set-under-vision
 mid
 mid-pp-570-72-1-h
@@ -2467,7 +2551,9 @@ mission-effects---c-r
 mission-planning--mission-planning-refers
 mission-planning-begins-nasa-headquarters
 mission-support-room-downey-california
+mlp-mobile-launch-platform
 mlp-mobile-launch-platform-mmt-mission-management
+mmt-mission-management-team
 months-since-challenger-accident-there
 moore-my-recollection-first-time
 moore-no-sir-i-did
@@ -2489,7 +2575,11 @@ motor-should-be-made-d
 motors-separate-an0-recover-spent
 move-across
 mpa-rcq-d-status-availablr
+mrb-material-review-board
+ms-millisecond
 msfc-george-hardy-deputy-d
+msfc-marshall-space-flight-center
+mst-mountain-standard-time
 mtnesses-total-days-hearings
 much-discussion-concerns-heat-absence
 much-our-effort-expended-attempting
@@ -2510,6 +2600,7 @@ murphy-executive-vice-president-general
 murphy-explained-how-his-company
 murphy-would-not-have-influenced
 must-be-noted-crew-also
+muwy--that-we-have-problem
 n
 n-2
 n-all-b-l-t
@@ -2558,6 +2649,7 @@ nasa-marshall-space-fli-ht
 nasa-marshall-space-flight-center
 nasa-msfc-memo-miller-horton
 nasa-msfc-problem-assessment-s
+nasa-national-aeronautics-space-administration
 nasa-participants-telecon-not-pleased
 nasa-personnel-sent-pad-examine
 nasa-prepared-several-reports-rogers
@@ -2624,7 +2716,11 @@ november-20-1985-thiokol-briefing
 november-26-1985-sts-61-b
 november-7-1978--ten-months
 now-caucus-we-revisited-all
+nrc-national-research-council
+nrp-national-resource-protection
+nsts-national-space-transportation-system
 nsts-program-manager-stated-unaware
+ntd-nasa-test-director
 ntpj4l-icn-aezuixxnt-o-e
 number-cannibalized-parts-increasing-alarming
 numerous-instances-failure-temperature-pressure
@@ -2642,6 +2738,7 @@ o-ring-seals-rocket-motors-general
 o-rings-become-effective-are-seated
 o-s-i-s
 o-wee-time-sec
+oascb-orbiter-avionics-software-control-board
 objectives-are-consistently-met
 obvious-conclusion-sr-qa-has
 occurred-rockwell-s-site-director
@@ -2657,7 +2754,13 @@ offfce-th-f-okol-jack
 office
 oi-no-100-zg
 oibid
+ois-operational-intercom-system
 okay-caucus-started-mason-stating
+om-operations-manual
+omi-operations-maintenance-instruction
+omp-operations-maintenance-plan
+omrsd-operations-maintenance-requirements-specification
+oms-orbiter-maneuvering-system
 once-cargo-particular-mission-has
 one-loads-however-propellant-gas
 one-question-design-intended-answer
@@ -2666,6 +2769,7 @@ one-them-we-had-broken
 only-manufacturer-which-can-be
 operational-status-system--in-addition
 operatlons-th-i-okol-c
+opf-orbiter-processing-facility
 optical-measurements-are-being-taken
 oqdiscussionwith-nasa-chief-engineer-s
 orbiter-not-good-handling-airplane
@@ -2677,6 +2781,7 @@ other-missions-are-affected-because
 other-one-made-aware-we
 other-participants-meeting-felt-temperature
 other-witnesses-also-alluded-problems
+our-inspection-analyses-revealed-certain
 ox-no-100-26
 p
 p-0-lurr-11-1
@@ -2695,6 +2800,7 @@ p-s-l-last-sful
 p-u-nox-s-2
 paaalecl-m-ern-besqlutloy
 paaalecl-me
+pac-problem-assessment-center
 packard-also-noted-delay-evaluating
 packard-also-questioned-mcdonald-about
 packard-davis-you-spoke-regarding
@@ -2753,6 +2859,7 @@ para-9
 parallel-concern-committee-nasa-does
 parent-complacent-attitude-toward-mature
 participating-contractors-are-required-sign
+pas-problem-assessment-system
 payload-safety-responsibility-payload-developer
 pc-0-3-7-7
 pc-014660
@@ -2761,7 +2868,10 @@ pc-014740
 pc-026415
 pc-026416
 pc-026418
+pdr-preliminary-design-review
 perporll-tu-e-msigj-venipication
+petroski-e-her-human-role
+pghm-payload-ground-handling-mechanism
 phasis-runway-surface-characteristics-repetitive
 photographs-volume-i-rogers-commission
 pin
@@ -2783,6 +2893,8 @@ post-5-s-d-l
 post-accident-first-time-i-had
 post-flight-disassembly-sts-61-c-srb
 pr-ihary-0-r-ing
+pr-problem-report
+prcbd-program-requirement-change-board-directive
 pre-lminary-p-e-n
 preparation-time-fuqua-working-lujan
 presentation-then-included-chart-titled
@@ -2823,6 +2935,8 @@ projects-ground-test-cc-b
 proposed-criteria-are-developed-nasa
 protection-mating-surfaces
 proximately-thirty-minutes-wasatch-office
+psig-pounds-per-square-inch-gage
+psp-processing-support-plan
 published-vith-leader-vaa-fonned
 pulsion-area-office-space-flight-and
 purpose-redesigning-joint-important-way
@@ -2834,6 +2948,7 @@ putty-v-i-l-l
 pyrometer-measured-mlp-deck-surface
 q
 q-niller-----ief-solid
+qc-quality-control
 quality-assurance-must-assure-any
 quality-assurance-must-assure-any-2
 question-remains-should-engineering-concerns
@@ -2848,6 +2963,7 @@ r-e-p-o-r
 r-e-r-y-tc
 r-e-s-u-l
 r-e-s-u-l-2
+r-f--radio-frequency
 r-g---r-r
 r-horace-robinson-we-ll
 r-jackson-j-gross-r
@@ -2862,6 +2978,7 @@ ranking-republican-member
 rating-scale-runs-from-unacceptable
 rationale-ad-described-also-appears
 rationale-closing-out-these-problems
+rcs-reaction-control-system
 rde-hey-we-ve-gone
 rde-obviously-uh-you-know
 recent-years-serious-engineering-concerns
@@ -2960,6 +3077,7 @@ requirements-procedures-f-o-r
 research-has-shown-when-overtime
 resolve-concern-nasa-its-contractor
 response-suggestions-astronauts-might-have
+responsibility-high-overtime-rates-spc
 result-foregoing-data-committee-has
 results-meeting-reported-back-rockwell
 retention-n-n-jettison-osdie
@@ -3028,6 +3146,7 @@ rogers-cornmiasion-report-volume-i
 roles-safety-design-well-reliability
 roles-safety-design-well-reliability-2
 rorult-o-f-tho-problomr
+rpsf-rotation-processing-surge-facility
 rr--5
 rsd-bob-would-you-say
 rsd-okay-bob-consensus-down
@@ -3036,9 +3155,12 @@ rsd-site-director-launch-support
 rsd-tlhe-situation-here-that-very
 rsd-we-woke-him-up
 rsd-yes-there-ice-top
+rso-range-safety-officer
 rsr-msr-mer
 rsr-we-just-got-report
 rss-ice-debris-film-e-43
+rss-range-safety-system
+rss-rotating-service-structure
 rti-6-h
 rti-going-be-tough-one
 rti-good-morning-john-uh
@@ -3058,6 +3180,7 @@ rti-we-really-don-t
 rti-well-one-thing-i
 rti-well-s-going-end
 rti-well-what-i-would
+rtls-return-launch-site
 rtp-hey-bob-you-re
 rtp-i-think-re-saying
 rtp-most-ice-tower-going
@@ -3067,6 +3190,7 @@ rule-committee-agrees-findings-reached
 rvp-okay-our-position-fundamentally
 rvp-okay-you-got-l
 rwtrr-t-o-t-h
+s
 s-b-p-m-d
 s-ber-30-lw
 s-d7-3-5-i-0069-2-curcent
@@ -3088,6 +3212,7 @@ safety-features-into-component-thereby
 safety-rogers-dry-lake-permanently
 sc73-l-u-g-181-3-cursant-issue
 sc73-sb-0069-y-s-t-r-o
+sca-shuttle-carrier-aircraft
 scheuer-again-asked-moore-identify
 scheuer-are-you-telling-us
 scheuer-didn-t-indicate-kind
@@ -3128,6 +3253,7 @@ services-met-w-i-t
 serving-committee-budget-99th-congress
 seven-different-times-shuttle-program
 sfo-pd-710-5a-p-3
+sfo-pd-under-sts-61-c-performance
 shall-be-identified-s-part
 sheer-volume-testimony-documentation-inevitably
 sheets-figures-4-5-will
@@ -3157,6 +3283,7 @@ shuttle-s-o-rings-not-used
 shuttle-srb-has-flown-25
 shuttle-srms-particular-can-suffer
 significant-loss-challenger-nasa-s
+significant-participants-these-conversations-include
 similar-vein-dr-feynman-observed
 similar-views-voiced-former-shuttle
 similarly-briefings-committee-staff-nasa
@@ -3174,30 +3301,37 @@ solid-rocket-motor-project-from
 soon-after-call-to-stations-28-january
 sop-1000-1
 sop-8000-1
+sop-8000-1-2
 sop-8000-1-ca-s
 sop-8ow-l
 space-d-i-v-l
 space-shuttle-fllqhtand-qround-system
 space-shuttle-main-engine-very
 space-shuttle-main-engine-we
+spc-shuttle-processing-contractor
+speaker-us-house-representatives-washington
 spec-ificat-icit4-hhs-been
 specifically-committee-finds-space-shuttle
 specifically-section-examines-inability-flight
 specification-then-included-other-specifications
 specifications
 spirit-these-observations-would-seem
+sr-qa-safety-reliability-quality-assurance
 srb-2
 srb-exhaust-hole-particles-numbered
 srb-i
+srb-solid-rocket-booster
 srbs-from-61-b-suffered-erosion
 srei-segment-i-yon-o
 srh-24-sts-6lc
 srm-aft-field-ioint-eroded
 srm-seal-erosion-ultimately-raised
+srm-solid-rocket-motor
 srw-case-field-joints
 sry-hpm-fiold-joint
 ss-cmte-h-transcript-june
 ss-rogers-commission-report-volume
+ssme-space-shuttle-main-engine
 staff-briefings-suggested-nasa-personnel
 staff-review-prior-committee-hearings
 staff-review-teleconference-materials-used
@@ -3220,6 +3354,7 @@ sts-511-isis-33-srh-25-perforflallce-predj
 sts-5111
 sts-51l-sts-33
 sts-618-ouicklook-evaluation
+sts-space-transportation-system
 sts-st-l
 subject-e-v-l-u
 subject-inspection-fired-srm-ressure
@@ -3239,6 +3374,7 @@ sumn-meeting-august-19th-t
 support-above-conclusions-these-are
 supposed-stream-hot-gas-impinged
 surmise-seal-had-wrformed-so
+svstem-orieinal-orbiter-current-orbiter
 symptom-failure-vaccum-putty-exhibited
 t
 t-19-plt-lwks-like
@@ -3263,7 +3399,9 @@ tank
 tank-hardware-i-think-s
 tank-issue
 targeted-flight-date-approaches-conditions
+tbd--to-be-determined
 tce-follozing-guzdellnes-hnve-b
+tdrs-tracking-data-relay-satellite
 team-leader-explaining-water-could
 tearing-vill-include-laboratory-material
 teats-will-be-conducted-which
@@ -3352,6 +3490,7 @@ those-latter-meetings-we-are
 though-there-substantial-disagreement-whether
 thr-15380
 through-3-m-l-n
+through-empirical-formula-known-be
 throughout-hearings-witnesses-said-had
 throughout-remainder-report-committee-address
 throughout-remainder-report-committee-addresses
@@ -3373,6 +3512,7 @@ tkiokol-presented-approach-srm-program
 tl
 tle-should-not-fly-outside
 tlote-yllen-decision-time-dependent
+tm-telemetry
 tns-procedure-i-s-effective
 to-distrisuiion
 to-o-ring
@@ -3388,6 +3528,8 @@ true-transit-from-vab-launch
 true-when-any-organization-formed
 trusion-gaps-being-experienced-space
 tsm-liquid-hydrogen-tail-service
+tsr-technical-status-review
+tvc-thrust-vector-control
 twr--15284c
 type-2-specimen-used-method
 type-i-2-menting-thickness
@@ -3451,12 +3593,14 @@ v-a
 v-b
 v-c
 v-d
+v-e
 v-e-r-c-h-7
 v-f
 v-g
 v-h
 v-i-l-o-r-m
 v-j
+vab-vehicle-assembly-building
 vandenberg-l-r-force-bas
 vano-12121-ivl-n-n
 verify-mubrcale-reaulta-candidate-putty
@@ -3480,6 +3624,7 @@ violated-nasa-s-flight-readiness
 violated-nasa-s-flight-readiness-2
 vni-c
 volume-i1-rogers-commission-report
+vpf-vertical-processing-facility
 vrrr-page-v-g-285
 vzi-b
 w
@@ -3491,6 +3636,7 @@ w-hartsfield-jr-comdr-robert
 w-i-l-l-i
 w-u-n-i-c
 w-w-am-j1u-eiidsiun
+wad-work-authorization-document
 waiver-also-read-sts-33-51-l
 waiver-referred-conversation-offered-following
 wake-challenger-accident-serious-questions

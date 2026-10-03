@@ -1329,11 +1329,9 @@ i. The Mitrokhin Commission was wound up in April 2006. Mr Scaramella and Mr Lit
 
 RISC
 
-4.108 RISC Management Limited (RISC) was a private security company that had grown out of an earlier business named ISC Global. I heard evidence from Keith Hunter, who was CEO of RISC in the period 2005–6.[^98] He explained that ISC had been set up in
+4.108 RISC Management Limited (RISC) was a private security company that had grown out of an earlier business named ISC Global. I heard evidence from Keith Hunter, who was CEO of RISC in the period 2005–6.[^98] He explained that ISC had been set up in 2000 by Stephen Curtis and Nigel Brown. Mr Curtis was a lawyer with a large network of high net worth clients, whom he introduced to ISC. Mr Curtis' clients included the so called oligarchs Mr Berezovsky, Mikhail Khodorkovsky and Vladimir Gusinsky. Mr Curtis was killed in a helicopter crash in 2004. As I understood the evidence, the business of ISC was thereafter split between Mr Brown, who went to work in Israel, and Mr Hunter, who set up RISC in London.[^99]
 
 %%page 75%%
-
-2000 by Stephen Curtis and Nigel Brown. Mr Curtis was a lawyer with a large network of high net worth clients, whom he introduced to ISC. Mr Curtis' clients included the so called oligarchs Mr Berezovsky, Mikhail Khodorkovsky and Vladimir Gusinsky. Mr Curtis was killed in a helicopter crash in 2004. As I understood the evidence, the business of ISC was thereafter split between Mr Brown, who went to work in Israel, and Mr Hunter, who set up RISC in London.[^99]
 
 4.109 Mr Hunter's evidence was that he first met Mr Litvinenko in 2001 or 2002, when introduced to him by Mr Berezovsky. He recalled that Mr Berezovsky thought that Mr Litvinenko might be useful to his business. He remembered meeting Mr Litvinenko on subsequent occasions, such as at other meetings with Mr Berezovsky. He appears to have formed a fairly low opinion of Mr Litvinenko's value as a possible source of intelligence – his view was that Mr Litvinenko's sources were likely to be historic and also that the views he offered might contain a political slant.[^100]
 

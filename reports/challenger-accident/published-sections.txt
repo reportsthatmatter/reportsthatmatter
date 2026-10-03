@@ -50,6 +50,7 @@ rubber-property-compression-set
 s-han-d-li
 shuttle-w-0-3-e-c-t-s-frr-requireuents
 solid-rocket-motors
+space-shuttle-program-thermal-interfaces-design-data-book
 space-shuttle-s-o-l-i-d-rocket-hwor-pnojoct-operational-flight
 stacking-operations
 summary-of-casing-joint-design
@@ -59,6 +60,7 @@ summary-of-significant-observations
 table-i1-principal-participants-in-the-teleconference
 technical-management
 technical-management-2
+terrestrial-environment-climatic-criteria
 test-and-control-features
 the-committee-concurs-with-the-rogers-commission-report
 the-director-of-marshalls-shuttle-projects-office-may-have

@@ -45,7 +45,7 @@ reports:
     bare-marker-after-quote: 19  # why: reportsthatmatter-jsqw (the text linker no longer runs on vision blocks; markers after a closing quote it used to link, often wrongly, e.g. '[^2] 6' for note 26 on p.98, stay bare)
     note-marker-wrong-note: 0
     note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
-    note-reference-sequence: 134  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 112
     note-text-in-body: 48
     note-citation-vocabulary: 0
     furniture-paragraph: 150
@@ -63,20 +63,20 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: d662 - pages that had no marker now count towards their own parity (gap was measured on the wrong pages)
   columbia-accident:
-    severed-into-quote: 59
-    severed-paragraph: 74
-    bare-footnote-marker: 179
-    bare-marker-after-quote: 6  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
+    severed-into-quote: 54
+    severed-paragraph: 70
+    bare-footnote-marker: 2
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
-    note-marker-unpaired: 13
-    note-reference-sequence: 20  # why: reportsthatmatter-6hbt (new signal, today's count)
-    note-text-in-body: 29  # why: post v0.15.0 integration
+    note-marker-unpaired: 0
+    note-reference-sequence: 7
+    note-text-in-body: 7
     note-citation-vocabulary: 0
-    furniture-paragraph: 75
-    contents-entry-without-heading: 73
+    furniture-paragraph: 61
+    contents-entry-without-heading: 71
     heading-density: 1
     heading-repeated: 2
-    heading-function-word: 3
+    heading-function-word: 2
     heading-marker: 0
     heading-long: 0
     printed-page-reversal: 0
@@ -255,14 +255,14 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-deepwater-horizon:
-    severed-into-quote: 9
+    severed-into-quote: 6
     severed-paragraph: 6  # why: post v0.15.0 integration
-    bare-footnote-marker: 1021
-    bare-marker-after-quote: 193  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
+    bare-footnote-marker: 1
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
-    note-marker-unpaired: 416
-    note-reference-sequence: 756  # why: reportsthatmatter-6hbt (new signal, today's count)
-    note-text-in-body: 269  # why: post v0.15.0 integration
+    note-marker-unpaired: 0
+    note-reference-sequence: 3
+    note-text-in-body: 8
     note-citation-vocabulary: 0
     furniture-paragraph: 25
     contents-entry-without-heading: 29
@@ -274,10 +274,10 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 4  # why: reportsthatmatter-apk (3.6%: sidenotes now paired correctly inside list items; budget was 3)
-    numbered-prose-list: 1
+    rendered-ol-words-share: 1
+    numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 2
+    quote-share-parity: 1
   us-lehman-examiner:
     severed-into-quote: 1
     severed-paragraph: 22  # why: post v0.15.0 integration

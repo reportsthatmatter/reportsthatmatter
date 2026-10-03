@@ -42,19 +42,19 @@ reports:
   uk-leveson-inquiry:
     headings-missed: 1350
     markers-unlinked: 142
-    paragraphs-oversplit: 2089
+    paragraphs-oversplit: 2081
     note-off-page: 1
   columbia-accident:
-    markers-unlinked: 297  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
-    paragraphs-oversplit: 533
-    quotes-spurious: 290
+    markers-unlinked: 3  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
+    paragraphs-oversplit: 277
+    quotes-spurious: 235
   us-911-commission:
     markers-unlinked: 6
   us-deepwater-horizon:
-    markers-unlinked: 1445
+    markers-unlinked: 2
   us-v-philip-morris:
     markers-unlinked: 28  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
-    paragraphs-oversplit: 956
+    paragraphs-oversplit: 952
     note-off-page: 0
   uk-hillsborough-panel:
     headings-missed: 70

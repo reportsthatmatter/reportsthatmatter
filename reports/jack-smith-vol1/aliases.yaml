@@ -5,10 +5,11 @@
 # reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
-  ----2-23-2023-oral: 2-16-2023-government-s
+  ----2-23-2023-oral: 1-9-2023-att-2
   176see-ecf-no-17-nn: trump-s-false-claims-included
   1should-these-demands-be-improperly: second-draft-repo11-violates-fundamental
-  2015233-9-5-2023-court: 2-16-2023-government-s
+  2-16-2023-government-s: 1-9-2023-att-2
+  2015233-9-5-2023-court: 1-9-2023-att-2
   2023-long-before-election-office: from-outset-throughout-its-work
   2024-court-held-former-president: october-5-2023-trump-filed
   267justice-sotomayor-who-authored-dissenting: divided-decision-supreme-court-vacated
@@ -16,13 +17,14 @@ aliases:
   3center-presidential-transition-presidential-transitions: 2-ecf-no-281-6
   50-2-9-2023-transcript: show-cause-directing-twitter-comply
   78-sco-00709557-159-sjc-tr: repeated-conversations-day-after-day
-  80-million-followers-199-inevitably: 80-million-followers-inevitably-threats
+  80-million-followers-199-inevitably: throughout-charged-criminal-conspiracies-threats
+  80-million-followers-inevitably-threats: throughout-charged-criminal-conspiracies-threats
   99-trump-s-speech-ellipse: during-his-speech-ellipse-trump
   acknowledged-sounded-crazy-before-publicly: trump-s-false-claims-included
   application-twitter-constituted-important-potential-evidence: trump-s-public-statements-and-specifically
   appropriate-cases-counsel-former-president: consistent-analysis-former-department-justice
   associate-deputy-attorney-general: via-email-honorable-merrick-garland
-  att-12: 2-16-2023-government-s
+  att-12: 1-9-2023-att-2
   attorney-general-united-states-c: via-email-honorable-merrick-garland
   because-office-reached-no-final: before-department-concluded-case-must
   before-presenting-original-indictment-grand: trump-s-potential-defenses-these
@@ -33,7 +35,7 @@ aliases:
   co-conspirator-2-private-attorney-who: set-forth-original-superseding-indictments
   co-conspirator-5-co-conspirator-1-12: trump-set-fraudulent-elector-plan
   co-conspirators-already-implementing-secret-plan: trump-wanted-no-one-else
-  commissioner-stating-there-no-evidence: 80-million-followers-inevitably-threats
+  commissioner-stating-there-no-evidence: throughout-charged-criminal-conspiracies-threats
   communications-trump-frequently-took-twitter: repeated-conversations-day-after-day
   conspirator-1-would-be-unable: core-trump-s-obstructive-scheme
   conspirators-landed-back-where-started: trump-s-false-claims-often
@@ -55,7 +57,7 @@ aliases:
   federal-statute-prohibiting-obstruction-official: corruptly-1-alter-destroy-mutilate
   fraud-and-evidence-shows-trump-used: set-forth-original-superseding-indictments
   fraudulent-elector-plan-unfolded-trump: his-efforts-directly-pressure-state
-  fulton-county-georgia-election-officials: 80-million-followers-inevitably-threats
+  fulton-county-georgia-election-officials: throughout-charged-criminal-conspiracies-threats
   georgia-143-when-trump-raised: core-trump-s-obstructive-scheme
   georgia-election-sco-12998394-tr-georgia: trump-s-false-claims-included
   getting-pushed-kicked-you-know: people-who-took-trump-his
@@ -91,7 +93,7 @@ aliases:
   pence-discard-legitimate-electoral-certificates: trump-co-conspirators-sought-deprive-that-injure
   pennsylvania-despite-having-been-told: first-expected-trump-would-argue
   persons-conspire-defraud-united-states: defraud-clause-general-conspiracy-statute
-  philadelphia-201-threats-against-commissioner: 80-million-followers-inevitably-threats
+  philadelphia-201-threats-against-commissioner: throughout-charged-criminal-conspiracies-threats
   pin-example-because-election-case: during-investigation-prosecution-case-office
   potential-charge-18-u-s: office-considered-ultimately-opted-against
   president-about-certification-proceeding-noting: second-court-s-decision-accorded
@@ -189,6 +191,7 @@ unmatched:
   - legislature-determine-whether-already-certified-election
   - making-because-numbers-touted-for-instance
   - nonetheless-trump-continued-circumvent-justice
+  - page-9-added-reporting-requirement
   - para
   - photograph-capitol-january-6-202
   - rally-01-06-2021-105see

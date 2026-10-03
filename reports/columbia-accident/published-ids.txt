@@ -774,6 +774,7 @@ call-may-have-been-about
 called-these-failures-foresight-barry
 calvin
 came-be-treated-in-family-7
+came-be-treated-in-family-reportable
 cameras-are-not-operating-case
 campbell-initially-contacted-daugherty-ask
 campbellʼs-reply
@@ -803,6 +804,7 @@ challenger-accident-also-prompted-policy
 challenger-accident-had-profound-effects
 challenger-columbia-carried-umbilical-well
 challenger-engineers-morton-thiokol-34-solid
+challenger-engineers-morton-thiokol-solid-rocket
 challenger-launch-decision-p-178
 challenger-launches-ill-fated-sts-33-51-l
 challenger-ov-099-first-flew-1983
@@ -2029,6 +2031,7 @@ ing-orbiter-space-le
 inherently-vulnerable-design-space-shuttle
 initial-foam-strike-identification
 initial-qualification-tests-1-first
+initial-qualification-tests-first-attachments
 initial-roll
 initial-shuttle-design-predicted-neither
 initial-shuttle-workforce-reductions
@@ -3700,6 +3703,7 @@ transport-analysis-team-screened-several
 transportation-system-first-100-missions
 transportation-system-first-100-missions-2
 treating-if-29-board-found
+treating-if-board-found-even
 tremendous-efforts-mounted-national-guard
 triana-requirements-commercial-space-act
 tributed-presence-relatively-modest-breach

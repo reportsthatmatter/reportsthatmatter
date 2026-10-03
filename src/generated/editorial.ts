@@ -78,7 +78,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "committee-concurs-dr-feynman-s",
             "page": 146,
-            "href": "/reports/challenger-accident?p=committee-concurs-dr-feynman-s&h=|The%20Committee%20concurs%20with%20Dr.%20Feynman's%20analysis%20that%20NASA%20had%20no%20understanding%20of%20the%20O-ring%20erosion%20phenomenon%2C%20and%20their%20rationale%20for%20accepting%20it%20was%20not%20based%20on%20sound%20engineering%20principles.|"
+            "href": "/reports/challenger-accident?p=committee-concurs-dr-feynman-s&h=|The%20Committee%20concurs%20with%20Dr.%20Feynman's%20analysis%20that%20NASA%20had%20no%20understanding%20of%20the%20O-ring%20erosion%20phenomenon%2C%20and%20their%20rationale%20for%20accepting%20it%20was%20not%20based%20on%20sound%20engineering%20principles.|%20.%20.%20."
           }
         }
       },
@@ -94,11 +94,6 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "eve-launch-thiokol-engineers-attempted",
             "page": 219,
             "href": "/reports/challenger-accident?p=eve-launch-thiokol-engineers-attempted"
-          },
-          {
-            "id": "cern-about-delay-such-constraints",
-            "page": 220,
-            "href": "/reports/challenger-accident?p=cern-about-delay-such-constraints"
           }
         ],
         "excerpt": {
@@ -1437,9 +1432,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The major incident procedure was never activated at Ground Control, Force Control or Ambulance Control, even after staff there had begun describing the situation as a \"major incident\".",
         "cites": [
           {
-            "id": "continued-incomplete-communication-2-4",
+            "id": "2-4-53-meanwhile-3",
             "page": 137,
-            "href": "/reports/uk-hillsborough-panel?p=continued-incomplete-communication-2-4"
+            "href": "/reports/uk-hillsborough-panel?p=2-4-53-meanwhile-3"
           }
         ]
       },
@@ -1580,9 +1575,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.",
           "cite": {
-            "id": "continued-incomplete-communication-2-4",
+            "id": "2-4-53-meanwhile-3",
             "page": 137,
-            "href": "/reports/uk-hillsborough-panel?p=continued-incomplete-communication-2-4&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|%20Documents%20disclosed%20to"
+            "href": "/reports/uk-hillsborough-panel?p=2-4-53-meanwhile-3&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|%20Documents%20disclosed%20to"
           }
         }
       },
@@ -2575,7 +2570,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "given-risk-factors-surrounding-primary",
             "page": 119,
-            "href": "/reports/us-deepwater-horizon?p=given-risk-factors-surrounding-primary&h=job%20could%20have%20failed.141%20|It%20appears%20instead%20they%20started%20from%20the%20assumption%20that%20the%20well%20could%20not%20be%20flowing%2C%20and%20kept%20running%20tests%20and%20coming%20up%20with%20various%20explanations%20until%20they%20had%20convinced%20themselves%20their%20assumption%20was%20correct.|142"
+            "href": "/reports/us-deepwater-horizon?p=given-risk-factors-surrounding-primary&h=cement%20job%20could%20have%20failed.%20|It%20appears%20instead%20they%20started%20from%20the%20assumption%20that%20the%20well%20could%20not%20be%20flowing%2C%20and%20kept%20running%20tests%20and%20coming%20up%20with%20various%20explanations%20until%20they%20had%20convinced%20themselves%20their%20assumption%20was%20correct.|"
           }
         }
       },
