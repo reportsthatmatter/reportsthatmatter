@@ -165,6 +165,61 @@ export const bareFootnoteMarker: Signal = {
   },
 };
 
+/**
+ * A closing quotation mark, optional punctuation, then a bare 1 to 3 digit number that is not part
+ * of a figure, a list label or a date ("Berezovsky" 33 and", "intake." 194 The fact", "…," 45 Subsequent").
+ * The mark must follow a non-space, which is what tells it from an opening quotation ("9 separate").
+ */
+const BARE_AFTER_QUOTE = /(?<=\S)[”"’][.,;:!?]?[ \t]?([1-9]\d{0,2})(?=[ \t]+\S|[ \t]*$)/gm;
+
+/**
+ * For each label, how many definitions no `[^N]` reference pairs with, by the renderer's own
+ * alignment: a note nobody cites. A label defined once is unreferenced when no reference uses it.
+ */
+function unreferencedDefinitions(markdown: string): Map<string, number> {
+  const defs = noteDefinitions(markdown);
+  const refs = [...bodyOf(markdown).matchAll(REFERENCE)].map((m) => m[1]);
+  const paired = pairNoteReferences(refs, defs.map((d) => d.label));
+  const total = new Map<string, number>();
+  for (const d of defs) total.set(d.label, (total.get(d.label) ?? 0) + 1);
+  const used = new Map<string, Set<number>>();
+  refs.forEach((label, i) => {
+    if (paired[i] === null) return;
+    if (!used.has(label)) used.set(label, new Set());
+    used.get(label)!.add(paired[i]!);
+  });
+  const out = new Map<string, number>();
+  for (const [label, n] of total) {
+    const free = n - (used.get(label)?.size ?? 0);
+    if (free > 0) out.set(label, free);
+  }
+  return out;
+}
+
+export const bareMarkerAfterQuote: Signal = {
+  id: "bare-marker-after-quote",
+  kind: "count",
+  cls: "F",
+  doc: "A bare number directly after a closing quotation mark (`Berezovsky\" 33 and`) whose label is a note definition no marker cites: a footnote marker set after a quotation that never became a link. bare-footnote-marker cannot see it (no punctuation glues the digits to a word), and the note it should open is left uncited. Each such number consumes one uncited definition of its label, so a quoted figure (`\"4,\" indicating`) with no note to match is not counted (reportsthatmatter-4ef1).",
+  run: (input) => {
+    const free = unreferencedDefinitions(input.markdown);
+    if (!free.size) return [];
+    const out: Finding[] = [];
+    for (const block of proseBlocks(input)) {
+      if (block.kind !== "prose" && block.kind !== "quote") continue;
+      const text = block.text;
+      for (const m of text.matchAll(BARE_AFTER_QUOTE)) {
+        const left = free.get(m[1]);
+        if (!left) continue;
+        free.set(m[1], left - 1);
+        const at = m.index ?? 0;
+        out.push(finding("bare-marker-after-quote", block, text.slice(Math.max(0, at - 40), at + m[0].length + 30)));
+      }
+    }
+    return out;
+  },
+};
+
 // ---------------------------------------------------------------- note text in the body (E)
 
 const MONTH = /^\d{1,3}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/;
@@ -582,6 +637,7 @@ export const SIGNALS: Signal[] = [
   severedParagraph,
   severedParagraphCapital,
   bareFootnoteMarker,
+  bareMarkerAfterQuote,
   noteMarkerWrongNote,
   noteMarkerUnpaired,
   noteTextInBody,

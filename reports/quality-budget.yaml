@@ -15,6 +15,7 @@ defaults:
     severed-into-quote: 0.135
     severed-paragraph: 0.032
     bare-footnote-marker: 0.682
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0.093
@@ -40,6 +41,7 @@ reports:
     severed-into-quote: 86
     severed-paragraph: 50
     bare-footnote-marker: 119
+    bare-marker-after-quote: 2  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 3
     note-text-in-body: 68  # why: post v0.15.0 integration
@@ -62,6 +64,7 @@ reports:
     severed-into-quote: 59
     severed-paragraph: 74
     bare-footnote-marker: 179
+    bare-marker-after-quote: 6  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 13
     note-text-in-body: 29  # why: post v0.15.0 integration
@@ -84,6 +87,7 @@ reports:
     severed-into-quote: 2
     severed-paragraph: 5
     bare-footnote-marker: 0
+    bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 9
     note-text-in-body: 8
@@ -106,6 +110,7 @@ reports:
     severed-into-quote: 72
     severed-paragraph: 6
     bare-footnote-marker: 23
+    bare-marker-after-quote: 41  # why: reportsthatmatter-4ef1 (counted at ingest v0.20.0; the layoutMarkers fix takes it to 0 at the next pin bump: ratchet then)
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 64  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (layoutMarkers returns Appendix 7's numbered restriction-notice paragraphs 10-17 from fake notes to the body, where they read as note text: +5)
@@ -128,6 +133,7 @@ reports:
     severed-into-quote: 2
     severed-paragraph: 0
     bare-footnote-marker: 0
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0
@@ -150,6 +156,7 @@ reports:
     severed-into-quote: 20
     severed-paragraph: 0
     bare-footnote-marker: 453
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0
@@ -172,6 +179,7 @@ reports:
     severed-into-quote: 324
     severed-paragraph: 24
     bare-footnote-marker: 101
+    bare-marker-after-quote: 4  # why: reportsthatmatter-4ef1 (new signal, counted at v0.20.0: the layoutMarkers fix takes it to 2, "citizen."1" and "illegal..>!]"417", not yet read on the page; ratchet at the next pin bump)
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
     note-text-in-body: 13
@@ -194,6 +202,7 @@ reports:
     severed-into-quote: 0
     severed-paragraph: 1
     bare-footnote-marker: 0
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0
@@ -216,6 +225,7 @@ reports:
     severed-into-quote: 0
     severed-paragraph: 0
     bare-footnote-marker: 0
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0
@@ -238,6 +248,7 @@ reports:
     severed-into-quote: 9
     severed-paragraph: 6  # why: post v0.15.0 integration
     bare-footnote-marker: 1021
+    bare-marker-after-quote: 193  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 416
     note-text-in-body: 269  # why: post v0.15.0 integration
@@ -260,6 +271,7 @@ reports:
     severed-into-quote: 1
     severed-paragraph: 22  # why: post v0.15.0 integration
     bare-footnote-marker: 6
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 5  # why: post v0.15.0 integration
@@ -282,6 +294,7 @@ reports:
     severed-into-quote: 1
     severed-paragraph: 41
     bare-footnote-marker: 0
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 6
@@ -304,6 +317,7 @@ reports:
     severed-into-quote: 104
     severed-paragraph: 2
     bare-footnote-marker: 39
+    bare-marker-after-quote: 5  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 48  # why: post v0.15.0 integration

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   bareFootnoteMarker,
+  bareMarkerAfterQuote,
   contentsEntryWithoutHeading,
   furnitureParagraph,
   headingDensity,
@@ -114,6 +115,31 @@ describe("bare-footnote-marker (F)", () => {
   it("ignores linked markers, decimal figures and paragraph numbers", () => {
     const md = "I have tried to be impartial.[^15] I underline that.\n\nThe fee was $38.6 Billion in total and see para 2.3 for more.";
     expect(bareFootnoteMarker.run(input(md))).toEqual([]);
+  });
+});
+
+describe("bare-marker-after-quote (F)", () => {
+  // Litvinenko at ingest v0.20.0 (reportsthatmatter-4ef1): a marker set after an italic quotation's closing mark was left as a bare number.
+  const notes = "\n\n## Notes\n\n[^33]: INQ017734 (page 6 paragraph 16(c))\n\n[^45]: Goldfarb 26/20-21";
+  it("fails on a bare number after a closing quote whose note nothing cites", () => {
+    const md =
+      '3.46 She said he was tasked with "looking into the possibility of assassinating Berezovsky" 33 and in her evidence.\n\n3.47 He was "a person who played the director." 45 Next, the memo.' + notes;
+    expect(bareMarkerAfterQuote.run(input(md))).toHaveLength(2);
+  });
+  it("passes once the marker is linked, and for a quoted figure with no note to match", () => {
+    const md = '3.46 She said he was tasked with "looking into the possibility of assassinating Berezovsky"[^33] and in her evidence.\n\nShe gave it a "4," indicating a low rating, and wrote "45" on the form.' + notes;
+    expect(bareMarkerAfterQuote.run(input(md))).toEqual([]);
+  });
+  it("does not take an opening quotation mark for a closing one", () => {
+    expect(bareMarkerAfterQuote.run(input('There were "33 separate investigations" in all.' + notes))).toEqual([]);
+  });
+  it("counts a number only against an uncited definition of its label", () => {
+    // [^33] is cited once and defined once: a later bare 33 after a quote has no note left to be
+    const md = 'First "quoted words."[^33] Later "more words." 33 Then it ends.' + notes;
+    expect(bareMarkerAfterQuote.run(input(md))).toEqual([]);
+  });
+  it("is registered", () => {
+    expect(SIGNALS.map((s) => s.id)).toContain("bare-marker-after-quote");
   });
 });
 
