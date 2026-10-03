@@ -13,7 +13,10 @@
  *     --json                       # also print the summary as JSON
  *     --shadow                     # a report served from a clean edition (cleanEdition in its ingest.ts):
  *                                  # score its PDF ingest, run as the shadow, against the served full.md
- *                                  # instead of reference/ (writes <out>/<id>-shadow/)
+ *                                  # instead of reference/ (writes <out>/<id>-shadow/); not recorded.
+ *                                  # Without --shadow such a report is scored both ways (<out>/<id>/ is the edition
+ *                                  # adapter against reference/, <out>/<id>-shadow/ the shadow) and docs/scores.json
+ *                                  # records the shadow as the report's score, the adapter run as `adapter` (79ze)
  *   pnpm score --diff <outA> <outB> [<id> ...] [--limit N]
  *                                  # decision-level flips between two runs' decisions.jsonl (correct to wrong,
  *                                  # wrong to correct, new, gone), with the text; scores nothing itself
@@ -103,6 +106,14 @@ async function shadowInputs(id, repo, served) {
   return { markdown: result.shadow.markdown, ref: { manifest, blocks: referenceFromMarkdown(parseOurs(served)) } };
 }
 
+/** A report served from a clean edition declares `cleanEdition` in its own ingest.ts (reportsthatmatter-79ze). */
+async function isHybrid(repo) {
+  if (!existsSync(join(repo, "ingest.ts"))) return false;
+  const ingest = await import("@rtm/ingest");
+  const def = (await import(pathToFileURL(join(repo, "ingest.ts")).href)).default;
+  return !!ingest.resolvePasses(def).edition;
+}
+
 if (flag("--diff")) {
   // pnpm score --diff <outA> <outB> [ids]: which decisions changed verdict between two runs
   const at = args.indexOf("--diff");
@@ -142,12 +153,15 @@ if (!list.length) {
   process.exit(2);
 }
 mkdirSync(out, { recursive: true });
-for (const id of list) {
+// in a shadow run the reference is the served text, so its own error rate says nothing; our adjudicated page breaks still count
+const shadowMetrics = (m, shadow) => (shadow ? { ...m, ref_error_rate: null, ref_no_answer_rate: null, ref_unusable_rate: null } : m);
+
+async function scoreReport(id, shadow) {
   const repo = repoDir(id);
-  if (!flag("--shadow") && !hasReference(repo)) {
+  if (!shadow && !hasReference(repo)) {
     console.error(`${id}: no reference edition at ${repo}/reference (scripts/score/reference.py all ${id})`);
     process.exitCode = 1;
-    continue;
+    return null;
   }
   const t0 = Date.now();
   const report = registry.reports.find((r) => r.id === id);
@@ -160,20 +174,20 @@ for (const id of list) {
     console.error(`  ! ${id}: ${report.source_path} differs from ${repoCopy}; this scores the site's copy. Run pnpm ingest aggregate to score the repo's.`);
   }
   let ref;
-  if (flag("--shadow")) ({ markdown, ref } = await shadowInputs(id, repo, markdown));
+  if (shadow) ({ markdown, ref } = await shadowInputs(id, repo, markdown));
   else ref = loadReference(repo);
   const set = setOf(sets, id) ?? "unassigned";
   if (set === "unassigned") warnings.push(`${id}: in neither set of reports/score-sets.yaml; add it to development or held_out before tuning against it`);
   else if (ref.manifest.set && ref.manifest.set !== set) warnings.push(`${id}: reports/score-sets.yaml says ${set}, ${repo}/reference/manifest.json says ${ref.manifest.set}; the config wins, fix the manifest`);
   const ours = parseOurs(markdown);
   const result = score(ours, ref.blocks, { versionDiffers: ref.manifest.version?.differs });
-  const dir = join(out, flag("--shadow") ? `${id}-shadow` : id);
+  const dir = join(out, shadow ? `${id}-shadow` : id);
   mkdirSync(dir, { recursive: true });
 
   // b78.2 signals against the scorer
   const dirGen = join(root, `assets/generated/reports/${id}`);
   let html, meta;
-  if (!flag("--shadow") && existsSync(join(dirGen, "full-body.html")) && existsSync(join(dirGen, "meta.json"))) {
+  if (!shadow && existsSync(join(dirGen, "full-body.html")) && existsSync(join(dirGen, "meta.json"))) {
     html = readFileSync(join(dirGen, "full-body.html"), "utf8");
     meta = JSON.parse(readFileSync(join(dirGen, "meta.json"), "utf8"));
   } else ({ meta, fullBody: html } = renderArtifacts(markdown));
@@ -184,7 +198,7 @@ for (const id of list) {
   const decisions = decisionRows(id, result, layout);
   // the reference's own error rate: page breaks adjudicated against the PDF (reference/adjudicated.yaml)
   if (flag("--adjudicate-draft")) writeFileSync(join(dir, "adjudicated-draft.yaml"), draftAdjudication(id, decisions));
-  const adjFile = flag("--shadow") ? null : loadAdjudicated(repo);
+  const adjFile = loadAdjudicated(repo);
   const adjPairs = adjFile ? applyAdjudication(decisions, adjFile) : [];
   const adj = adjFile ? adjudicationStats(adjPairs) : null;
   writeFileSync(join(dir, "decisions.jsonl"), decisions.map((r) => JSON.stringify(r)).join("\n") + "\n");
@@ -199,7 +213,7 @@ for (const id of list) {
   }
   const refWarning = referenceWarning(id, adj, ceiling);
   if (refWarning) warnings.push(refWarning);
-  rows.push({ row, signals, adj, set, pageScores, metrics: headline(row, decisions, adj, pageScores?.totals ?? null), gated: !!adj, refWarning });
+  const entry = { id, row, signals, adj, set, pageScores, metrics: shadowMetrics(headline(row, decisions, adj, pageScores?.totals ?? null), shadow), gated: !!adj, refWarning };
   let errors = errorReport(id, ref.manifest, result, signals);
   if (adj) errors = errors.replace("\n## Excluded stretches", "\n" + adjudicationMarkdown(adj, adjFile, adjPairs) + "\n## Excluded stretches");
   else errors = errors.replace("\n## Excluded stretches", "\n## Reference error rate at page breaks\n\nNo `reference/adjudicated.yaml` in the report repo: the reference's own error rate is unknown.\n\n## Excluded stretches");
@@ -211,11 +225,32 @@ for (const id of list) {
   console.log(
     `${id}: boundaries P ${fmt(b.boundaryP)} R ${fmt(b.boundaryR)} F1 ${fmt(b.boundaryF1)} · headings P ${fmt(b.headingP)} R ${fmt(b.headingR)} level ${fmt(b.headingLevel)} · markers P ${fmt(b.markerP)} R ${fmt(b.markerR)} · WER ${fmt(b.wer)} · OOV ${(b.oov * 100).toFixed(2)}% · reference page-break error ${adj ? `${adj.referenceWrong}/${adj.judged} = ${adj.referenceErrorRate === null ? "n/a" : fmt(adj.referenceErrorRate)}` : "not adjudicated"} · ${pageScores ? `page WER ${fmt(pageScores.totals.wer)} over ${pageScores.totals.pages} pages · page markers P ${fmt(pageScores.totals.markerP)} R ${fmt(pageScores.totals.markerR)}` : "no page references"} · ${decisions.length} decisions · ${((Date.now() - t0) / 1000).toFixed(1)}s → ${join(dir, "errors.md")}`,
   );
+  return entry;
+}
+
+for (const id of list) {
+  const repo = repoDir(id);
+  const hybrid = !flag("--shadow") && (await isHybrid(repo));
+  const entry = await scoreReport(id, flag("--shadow"));
+  if (!entry) continue;
+  rows.push(entry);
+  if (hybrid) {
+    // reportsthatmatter-79ze: the report's own score is its PDF pipeline, run as the shadow against the served text;
+    // the default run above only says how well the edition adapter agrees with the scorer's reference adapter.
+    // docs/scores.json records the shadow as `metrics` and the adapter run as `adapter` (the adjudication that gates
+    // the report is the reference's, so the gate is the adapter run's); the tables show both, labelled.
+    const shadowEntry = await scoreReport(id, true);
+    entry.recordAs = { metrics: shadowEntry.metrics, adapter: entry.metrics };
+    entry.row = { ...entry.row, id: `${id} (edition adapter vs reference adapter)` };
+    shadowEntry.row = { ...shadowEntry.row, id: `${id} (PDF shadow)` };
+    shadowEntry.displayOnly = true;
+    rows.push(shadowEntry);
+  }
 }
 if (rows.length) {
   let md = summaryTable(rows.map((r) => r.row), rows.map((r) => r.signals));
   const adjTable = ["", "## The reference's own error rate at page breaks", "", "Page breaks adjudicated against the PDF (`reference/adjudicated.yaml`): how often the reference and our text are wrong at them. The reference's error rate is the ceiling on trusting any page-break score above.", "", "| report | adjudicated | no reference answer | judged | reference wrong | reference error rate (95% interval) | wrong or no answer | ours wrong | our error rate |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|"];
-  for (const r of rows) {
+  for (const r of rows.filter((x) => !x.displayOnly)) {
     const a = r.adj;
     const p = (x) => (x === null || x === undefined ? "n/a" : fmt(x));
     adjTable.push(a ? `| ${r.row.id} | ${a.breaks} | ${a.uncovered} | ${a.judged} | ${a.referenceWrong} | ${p(a.referenceErrorRate)}${a.referenceErrorCI ? ` (${p(a.referenceErrorCI[0])} to ${p(a.referenceErrorCI[1])})` : ""} | ${p(a.referenceUnusableRate)} | ${a.oursWrong}/${a.oursJudged} | ${p(a.oursErrorRate)} |` : `| ${r.row.id} | none | | | | not adjudicated | | | |`);
@@ -233,9 +268,9 @@ if (rows.length) {
   const SCORES = join(root, "docs/scores.json");
   const old = existsSync(SCORES) ? JSON.parse(readFileSync(SCORES, "utf8")) : null;
   const pin = JSON.parse(readFileSync(join(root, "package.json"), "utf8")).dependencies?.["@rtm/ingest"]?.split("#").pop();
-  const recordable = rows.filter((r) => r.gated || flag("--ungated"));
-  for (const r of rows.filter((x) => !x.gated && !flag("--ungated"))) warnings.push(`${r.row.id}: not recorded in docs/scores.json (no reference/adjudicated.yaml; --ungated to record it anyway)`);
-  const fresh = Object.fromEntries(recordable.map((r) => [r.row.id, { set: r.set, metrics: r.metrics }]));
+  const recordable = rows.filter((r) => !r.displayOnly && (r.gated || flag("--ungated")));
+  for (const r of rows.filter((x) => !x.displayOnly && !x.gated && !flag("--ungated"))) warnings.push(`${r.id}: not recorded in docs/scores.json (no reference/adjudicated.yaml; --ungated to record it anyway)`);
+  const fresh = Object.fromEntries(recordable.map((r) => [r.id, { set: r.set, metrics: r.recordAs?.metrics ?? r.metrics, ...(r.recordAs ? { adapter: r.recordAs.adapter } : {}) }]));
   const merged = mergeScores(old, fresh, pin);
   const section = (title, want) => {
     const here = Object.fromEntries(Object.entries(merged.reports).filter(([id, e]) => e.set === want && id in fresh));

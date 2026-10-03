@@ -9,10 +9,10 @@ import type { Line } from "../src/lib/score/layout";
 import { adjudicationStats, applyAdjudication, draftAdjudication, matchRow } from "../src/lib/score/adjudicated";
 import { evaluateSignals } from "../src/lib/score/signals";
 import { tokens, tokensBefore } from "../src/lib/score/tokens";
-import { alignPage, scorePages } from "../src/lib/score/pages";
+import { alignPage, sameLabel, scorePages } from "../src/lib/score/pages";
 import { cleanWikitext } from "../src/lib/score/wikisource";
 import { renderArtifacts } from "@rtm/ingest";
-import { fmtDelta, joinAccuracy, mergeScores, referenceWarning, regressed, type Metrics } from "../src/lib/score/headline";
+import { baselines, fmtDelta, headlineTable, joinAccuracy, mergeScores, referenceWarning, regressed, type Entry, type Metrics } from "../src/lib/score/headline";
 import { goldenTable, oracleTable, parseVerify } from "../src/lib/score/scorecard";
 
 const w = (s: string) => tokens(s).map((t) => t.word);
@@ -446,5 +446,73 @@ describe("page references (7d4y)", () => {
     expect([a.sub, a.del, a.ins]).toEqual([0, 0, 1]);
     expect(a.bmap[4]).toBe(6);
     expect(a.start).toBe(1);
+  });
+
+  it("matches a chapter-qualified label to Wikisource's note number (j3fw)", () => {
+    // 9/11: {{9-11|<chapter>|<note>}} labels the note "4"; the hybrid's endnote marker is [^4-1] (note 4, chapter 1)
+    const ours = parseOurs(md(body + " flight.[^4-1] next."));
+    const ref = { pdf: 2, page: 2, source: "t", quality: 3, mapping: "text", text: body + " flight. next.", markers: [{ label: "4", offset: (body + " flight.").length }] };
+    const { totals } = scorePages(ours, [ref]);
+    expect([totals.matched, totals.markerP, totals.markerR]).toEqual([1, 1, 1]);
+    // a different note number at the same place is still wrong
+    const wrong = scorePages(parseOurs(md(body + " flight.[^5-1] next.")), [ref]);
+    expect(wrong.pages[0].wrongLabel).toBe(1);
+    expect(wrong.totals.matched).toBe(0);
+  });
+
+  it("sameLabel ignores the chapter, which transcribers get wrong, but not the note number", () => {
+    expect(sameLabel({ label: "4" }, "4")).toBe(true);
+    expect(sameLabel({ label: "4" }, "4-1")).toBe(true);
+    expect(sameLabel({ label: "4" }, "4-13")).toBe(true);
+    expect(sameLabel({ label: "4" }, "14-1")).toBe(false);
+    expect(sameLabel({ label: "4" }, "1-4")).toBe(false);
+    expect(sameLabel({ label: null }, "7-2")).toBe(true);
+  });
+});
+
+describe("hybrid reports in docs/scores.json (79ze)", () => {
+  const m = (f1: number, extra: Metrics = {}): Metrics => ({ boundary_f1: f1, wer: 0.01, join_adj_ours_wrong: 1, join_adj_judged: 30, ...extra });
+  const hybrid = (shadow: number, adapter: number) => ({ a: { set: "development", metrics: m(shadow), adapter: m(adapter) } });
+
+  it("records the shadow as the report's score and the adapter run beside it", () => {
+    const file = mergeScores(null, hybrid(0.894, 0.867), "v1");
+    expect(file.reports.a.metrics.boundary_f1).toBe(0.894);
+    expect(file.reports.a.adapter?.metrics.boundary_f1).toBe(0.867);
+    expect(file.reports.a.previous).toBeNull();
+    const next = mergeScores(file, hybrid(0.9, 0.867), "v2");
+    expect(next.reports.a.previous?.boundary_f1).toBe(0.894);
+    expect(next.reports.a.adapter?.previous).toBeNull(); // adapter unchanged, no earlier value
+  });
+
+  it("does not read the old adapter-as-score entry as the shadow's previous value", () => {
+    const old = { reports: { a: { set: "development", metrics: m(0.867), previous: m(0.966) } } };
+    const file = mergeScores(old, hybrid(0.894, 0.867), "v2");
+    expect(file.reports.a.previous).toBeNull(); // not 86.7 -> 89.4, and not the PDF-era 96.6
+    expect(file.reports.a.adapter?.previous).toBeNull();
+    const moved = mergeScores(old, hybrid(0.894, 0.85), "v2");
+    expect(moved.reports.a.adapter?.previous?.boundary_f1).toBe(0.867);
+  });
+
+  it("diffs the scorecard against a base that recorded the adapter run as the score", () => {
+    const base: Entry = { set: "development", metrics: m(0.867) };
+    const cur: Entry = { set: "development", metrics: m(0.894), adapter: { metrics: m(0.867) } };
+    expect(baselines(cur, base)).toEqual({ metrics: null, adapter: base.metrics });
+    expect(baselines(cur, { ...cur })).toEqual({ metrics: cur.metrics, adapter: cur.adapter!.metrics });
+    expect(baselines({ set: "development", metrics: m(0.9) }, base)).toEqual({ metrics: base.metrics, adapter: null });
+    const table = headlineTable({ a: cur }, { a: base });
+    expect(table).toContain("| a (PDF shadow) | ");
+    expect(table).toContain("a (edition adapter vs reference adapter: agreement, not a score)");
+    expect(table).not.toContain("▼");
+    // the shadow row has no delta against the old adapter-as-score value; the adapter row has none either (unchanged)
+    expect(table.split("\n")[2]).toContain("89.4%");
+    expect(table.split("\n")[2]).not.toContain("pts");
+  });
+
+  it("never flags the adapter row as a regression, however far it falls", () => {
+    const base: Entry = { set: "development", metrics: m(0.894), adapter: { metrics: m(0.95) } };
+    const cur: Entry = { set: "development", metrics: m(0.894), adapter: { metrics: m(0.8) } };
+    const table = headlineTable({ a: cur }, { a: base });
+    expect(table).toContain("-15.0 pts");
+    expect(table).not.toContain("▼");
   });
 });

@@ -82,6 +82,19 @@ export type PageTotals = {
 
 const MARGIN = 400;
 
+/**
+ * Does our marker label name the reference's note? Wikisource's `{{9-11|<chapter>|<note>}}` gives the note's number
+ * within its chapter ("4"), while a report whose notes are endnotes numbered per chapter labels the marker with the
+ * chapter too (`[^4-1]`: note 4 of chapter 1, which keeps ids unique across the report). So the note number is compared,
+ * and the chapter is not: the transcribers' chapter argument is wrong in places (us-911-commission pages 123 to 125 say
+ * chapter 3 for chapter 4 notes), and the marker's position, held to one word, already says which note it is.
+ */
+export function sameLabel(ref: { label: string | null }, ours: string): boolean {
+  if (ref.label === null || ours === ref.label) return true;
+  const m = /^(\d+)-\d+$/.exec(ours);
+  return !!m && m[1] === ref.label;
+}
+
 export function loadPageRefs(repo: string): PageRef[] {
   const refs: PageRef[] = [];
   const dir = join(repo, "reference", "wikisource");
@@ -207,7 +220,7 @@ export function scorePages(ours: Ours, refs: PageRef[]): { pages: PageScore[]; t
       let hit = -1;
       for (let x = 0; x < ourMk.length; x++) {
         if (used.has(x) || Math.abs(ourMk[x].at - want) > 1) continue;
-        if (k.label !== null && ourMk[x].label !== k.label) {
+        if (!sameLabel(k, ourMk[x].label)) {
           wrongLabel++;
           continue;
         }
