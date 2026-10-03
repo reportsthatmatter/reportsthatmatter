@@ -399,7 +399,9 @@ if (firstReportId) {
     // one reader assumed a pristine local D1 *and* a run that never crossed
     // midnight: `actorHash` folds the date in, so the same machine on two days
     // is two readers, and this failed on 2026-09-05 for that reason alone.
-    const readerCount = /^Highlighted by (\d+) reader(s?)$/.exec(socialProof.title ?? "");
+    // A local D1 seeded with the editor's highlights (decision 0013) titles the
+    // same passage "Editor’s highlight · also marked by N readers".
+    const readerCount = /^(?:Highlighted|Editor’s highlight · also marked) by (\d+) reader(s?)$/.exec(socialProof.title ?? "");
     check(
       Boolean(readerCount) && Number(readerCount[1]) >= 1 &&
         readerCount[2] === (Number(readerCount[1]) === 1 ? "" : "s"),

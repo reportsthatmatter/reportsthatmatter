@@ -126,7 +126,7 @@ describe("GET /reports/:id/marks", () => {
     );
     const body = await res.json();
     expect(body).toEqual([
-      { paragraph: "some-paragraph", exact: "some words", prefix: "", suffix: "", page: 12, readers: 1 },
+      { paragraph: "some-paragraph", exact: "some words", prefix: "", suffix: "", page: 12, readers: 1, editor: false },
     ]);
   });
 

@@ -148,6 +148,7 @@ describe("markCounts", () => {
         suffix: " by Mr",
         page: 246,
         readers: 2,
+        editor: false,
       },
     ]);
   });
@@ -220,5 +221,43 @@ describe("markCounts through paragraph aliases (j53o)", () => {
     await recordMark(db, mark("old-id", "x"), "a", 2);
     expect((await markCounts(db, "r", 1, meta)).map((c) => c.paragraph).sort()).toEqual(["gone-id", "new-id"]);
     expect((await markCounts(db, "r", 1)).map((c) => c.paragraph).sort()).toEqual(["gone-id", "old-id"]);
+  });
+});
+
+describe("the editor's highlights (decision 0013)", () => {
+  const passage = {
+    report: "r", section: "sec", paragraph: "p1", exact: "the words", prefix: "", suffix: "", page: 3, kind: "save" as const,
+  };
+
+  it("flags an editor's highlight and does not count the editor as a reader", async () => {
+    const db = createFakeD1();
+    await recordMark(db, passage, "editorial:rufus-pollock", 1);
+    expect(await markCounts(db, "r", 1)).toEqual([
+      { paragraph: "p1", exact: "the words", prefix: "", suffix: "", page: 3, readers: 0, editor: true },
+    ]);
+  });
+
+  it("shows an editor's highlight whatever the reader threshold", async () => {
+    const db = createFakeD1();
+    await recordMark(db, passage, "editorial:rufus-pollock", 1);
+    expect(await markCounts(db, "r", 5)).toHaveLength(1);
+  });
+
+  it("merges readers and the editor on the same words, counting only the readers", async () => {
+    const db = createFakeD1();
+    await recordMark(db, passage, "editorial:rufus-pollock", 1);
+    await recordMark(db, passage, "a".repeat(64), 2);
+    await recordMark(db, passage, "b".repeat(64), 3);
+    const counts = await markCounts(db, "r", 1);
+    expect(counts.map((c) => [c.paragraph, c.readers, c.editor])).toEqual([["p1", 2, true]]);
+  });
+
+  it("applies the threshold to readers alone, not to readers plus the editor", async () => {
+    const db = createFakeD1();
+    await recordMark(db, { ...passage, paragraph: "p2" }, "editorial:rufus-pollock", 1);
+    await recordMark(db, { ...passage, paragraph: "p3" }, "a".repeat(64), 2);
+    await recordMark(db, { ...passage, paragraph: "p3" }, "editorial:rufus-pollock", 3);
+    const counts = await markCounts(db, "r", 2);
+    expect(counts.map((c) => [c.paragraph, c.readers, c.editor]).sort()).toEqual([["p2", 0, true], ["p3", 1, true]]);
   });
 });

@@ -28,8 +28,24 @@ export type MarkCount = {
   prefix: string;
   suffix: string;
   page: number | null;
+  /** Distinct anonymous readers. Never counts the editor (decision 0013). */
   readers: number;
+  /** The editor highlighted these words (an `editorial:` actor, written by `pnpm seed-highlights`). */
+  editor: boolean;
 };
+
+/**
+ * Actors written by `pnpm seed-highlights`, never by a reader: a reader's actor
+ * is a 64-hex hash computed on the server, so no request can claim this prefix.
+ * Decision 0013: the editor's highlights are labelled as the editor's and are
+ * not counted as readers.
+ */
+export const EDITOR_ACTOR_PREFIX = "editorial:";
+
+/** Whether a stored actor is the editor rather than a reader. */
+export function isEditorActor(actor: string): boolean {
+  return actor.startsWith(EDITOR_ACTOR_PREFIX);
+}
 
 /** The minimal D1 surface this module uses, so it can be faked in tests. */
 export type MarksDB = {
@@ -139,8 +155,9 @@ export async function recordMark(
 }
 
 /**
- * Passages in `report` marked by at least `threshold` distinct readers,
- * most-marked first. A reader who both shares and saves the same passage
+ * Passages in `report` marked by at least `threshold` distinct readers, plus
+ * every passage the editor highlighted (flagged `editor`, its readers counted
+ * without the editor: decision 0013), most-marked first. A reader who both shares and saves the same passage
  * counts once — this is "how many readers", not "how many clicks".
  *
  * Stored rows keep the paragraph id they were made under, and ids move when a
@@ -160,32 +177,39 @@ export async function markCounts(
   threshold: number,
   meta?: AliasMeta
 ): Promise<MarkCount[]> {
-  // The threshold applies after merging, so two rows below it can rise above it together.
-  const floor = meta?.paragraphAliases ? 1 : threshold;
+  // Grouped by whether the actor is the editor, so readers and the editor are
+  // counted apart (decision 0013); the two halves of a passage are merged
+  // below. Floor 1: the threshold applies to readers after merging, and an
+  // editor's highlight shows whatever its reader count.
   const { results } = await db
     .prepare(
-      `SELECT paragraph, exact, prefix, suffix, MAX(page) as page, COUNT(DISTINCT actor) as readers
+      `SELECT paragraph, exact, prefix, suffix, MAX(page) as page, COUNT(DISTINCT actor) as readers,
+              (actor LIKE '${EDITOR_ACTOR_PREFIX}%') as editor
        FROM marks
        WHERE report = ?
-       GROUP BY paragraph, exact
+       GROUP BY paragraph, exact, editor
        HAVING readers >= ?
        ORDER BY readers DESC`
     )
-    .bind(report, floor)
-    .all<MarkCount>();
-  if (!meta?.paragraphAliases) return results;
+    .bind(report, 1)
+    .all<Omit<MarkCount, "editor"> & { editor: number | boolean }>();
 
   const merged = new Map<string, MarkCount>();
   for (const row of results) {
-    const paragraph = resolveParagraph(meta, row.paragraph)?.id ?? row.paragraph;
+    const paragraph = (meta?.paragraphAliases ? resolveParagraph(meta, row.paragraph)?.id : undefined) ?? row.paragraph;
     const key = `${paragraph}\u0000${row.exact}`;
+    const editor = Boolean(row.editor);
+    const readers = editor ? 0 : row.readers;
     const have = merged.get(key);
     if (!have) {
-      merged.set(key, { ...row, paragraph });
+      merged.set(key, { ...row, paragraph, readers, editor });
     } else {
-      have.readers += row.readers;
+      have.readers += readers;
+      have.editor ||= editor;
       if (row.page !== null && (have.page === null || row.page > have.page)) have.page = row.page;
     }
   }
-  return [...merged.values()].filter((row) => row.readers >= threshold).sort((a, b) => b.readers - a.readers);
+  return [...merged.values()]
+    .filter((row) => row.editor || row.readers >= threshold)
+    .sort((a, b) => b.readers - a.readers || Number(b.editor) - Number(a.editor));
 }
