@@ -85,7 +85,7 @@ findings:
     cites: [24-opening-gate-c-there]
 
   - text: The major incident procedure was never activated at Ground Control, Force Control or Ambulance Control, even after staff there had begun describing the situation as a "major incident".
-    cites: [continued-incomplete-communication-2-4]
+    cites: [2-4-53-meanwhile-3]
 
   - text: The Coroner's decision to hear no evidence of events after 3.15pm rested on pathologists' evidence that all who died were by then beyond recovery. The Panel found this picture of a single, rapid pattern of death was unsustainable, and that a significant number of those who died may still have been alive, and might have survived with appropriate and timely intervention, after being removed from the pens.
     cites: [coroner-s-decision-limit-evidence, underpinned-imposition-3-15pm-cut-off, 2-10-7-documents-considered]
@@ -147,7 +147,7 @@ reading_guide:
     title: The day itself, and the emergency response
     why: The Panel's detailed reconstruction of the day and of the emergency response that followed it, drawing on control-room tapes and radio transcripts not previously made public.
     excerpt:
-      paragraph: continued-incomplete-communication-2-4
+      paragraph: 2-4-53-meanwhile-3
       quote: >-
         Yet the documents confirm that no-one at these locations activated
         the major incident procedure, not even in response to SO Eason's
@@ -197,7 +197,7 @@ highlights:
       inside the stadium to manage the flow and direction of the incoming
       crowd.
     card: true
-  - paragraph: continued-incomplete-communication-2-4
+  - paragraph: 2-4-53-meanwhile-3
     quote: >-
       Yet the documents confirm that no-one at these locations activated the
       major incident procedure, not even in response to SO Eason's 3.21pm

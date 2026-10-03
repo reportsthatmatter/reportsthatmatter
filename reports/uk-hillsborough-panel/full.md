@@ -2572,19 +2572,25 @@ The letter continued:
 
 2.4.19 Eye-witness accounts of the immediate aftermath of the Hillsborough disaster confirm that all the above challenges were present. The response at Hillsborough, therefore, should be considered within this context.
 
-Recognition of the disaster 2.4.20 The first essential requirement was that emergency services recognise what had happened with sufficient clarity to mount an appropriate response. It is clear from the documents disclosed to the Panel that there was significant delay before anyone present in an official capacity recognised that they were witnessing the throes of disaster.
+#### Recognition of the disaster
+
+2.4.20 The first essential requirement was that emergency services recognise what had happened with sufficient clarity to mount an appropriate response. It is clear from the documents disclosed to the Panel that there was significant delay before anyone present in an official capacity recognised that they were witnessing the throes of disaster.
 
 2.4.21 Eye-witness accounts confirm that a major factor in this delay was the predisposition of police officers and others to view crowd unrest or perturbation as a sign of actual or impending hooliganism.
 
 2.4.22 Even before the match kicked off, spectators in the central pens protested that they were being crushed intolerably, shouting to the police officers on the perimeter to recognise what was happening and open the small gates in the perimeter fence. They were ignored or told to be quiet.
 
-What happened after 3pm 2.4.23 Lack of recognition of the seriousness of the crush continued as pressure worsened after 3pm. As spectators began to climb the perimeter fence, police attempted to push them back into the pens, misinterpreting their desperate efforts to escape as a pitch invasion, despite the short distance separating them from people already being fatally crushed.
+##### What happened after 3pm
+
+2.4.23 Lack of recognition of the seriousness of the crush continued as pressure worsened after 3pm. As spectators began to climb the perimeter fence, police attempted to push them back into the pens, misinterpreting their desperate efforts to escape as a pitch invasion, despite the short distance separating them from people already being fatally crushed.
 
 2.4.24 Inevitably, spectators within the pens became frustrated at the inability of police officers only yards away to understand and react to their predicament. Many spectators not yet incapacitated by the crush watched others losing consciousness, and some understandably became angry at the failure of officials to respond appropriately, further reinforcing the police view that this was a disturbance due to bad behaviour.
 
 2.4.25 Although the Match Commander and his colleagues in the Police Control Box were more distant from the central pens, they were well placed to view the crush, with or without video surveillance equipment. They misinterpreted the visual evidence available, first failing to appreciate that the central pens had become seriously overcrowded and then wrongly attributing the signs of unrest and distress to aggressive behaviour and an attempted pitch invasion.
 
-Ambulance Service presence at Hillsborough 2.4.26 That the police were unduly concerned with crowd misbehaviour must be seen within the context of the time and the undeniably poor relationship between the police and football fans.
+##### Ambulance Service presence at Hillsborough
+
+2.4.26 That the police were unduly concerned with crowd misbehaviour must be seen within the context of the time and the undeniably poor relationship between the police and football fans.
 
 %%page 134%%
 
@@ -2594,7 +2600,9 @@ Ambulance Service presence at Hillsborough 2.4.26 That the police were unduly co
 
 2.4.29 Their duties included direct liaison from the ground, enabling early assessment and notification of any developing incident. Two stand tickets were provided to SYMAS by Sheffield Wednesday Football Club (SWFC) for league games, but they were not provided for FA Cup games. Nevertheless, Station Officer Paul Eason and Station Officer Patrick Higgins attended with an ambulance and based themselves at pitch level as they were obliged to in the absence of tickets. They were accompanied by two ambulance crew personnel.
 
-Initial SYMAS misinterpretation of the situation 2.4.30 At 3.03pm, the SYMAS officers became aware of crowd unrest on the Leppings Lane terrace, and two minutes later SO Eason went to investigate, accompanied by one of the junior staff. SO Higgins reported to Ambulance Control that there was possible crowd trouble with probable minor injuries but not needing transportation.[^1-9010]
+##### Initial SYMAS misinterpretation of the situation
+
+2.4.30 At 3.03pm, the SYMAS officers became aware of crowd unrest on the Leppings Lane terrace, and two minutes later SO Eason went to investigate, accompanied by one of the junior staff. SO Higgins reported to Ambulance Control that there was possible crowd trouble with probable minor injuries but not needing transportation.[^1-9010]
 
 2.4.31 SO Eason saw what he believed to be a scuffle on the terrace, with some overspill of spectators onto the pitch, while those still in the pens were becoming agitated. His attention was drawn to an injured spectator on the pitch side of the perimeter fence immediately behind the goal, who was found to have a leg fracture.[^2-9010]
 
@@ -2612,7 +2620,9 @@ Initial SYMAS misinterpretation of the situation 2.4.30 At 3.03pm, the SYMAS off
 
 2.4.37 At 3.13pm SO Higgins, who had previously been approached by a police officer asking for help in responding to casualties and possible fatalities, reported possible fatalities to Ambulance Control. The response was that 'as many mobiles as we can' would be diverted to the ground.[^5-9010]
 
-SYMAS recognition of disaster 2.4.38 Although the transmission from SO Higgins was not a definitive report on the situation, and did not refer to a major incident, it is clear that over the course of the next five minutes SO Eason and he did realise that numerous spectators had suffered serious crush injuries.
+##### SYMAS recognition of disaster
+
+2.4.38 Although the transmission from SO Higgins was not a definitive report on the situation, and did not refer to a major incident, it is clear that over the course of the next five minutes SO Eason and he did realise that numerous spectators had suffered serious crush injuries.
 
 2.4.39 SO Eason attempted to make contact with Ambulance Control using his pocket- phone radio, but it would not function in the pitch area. By now, spectators including doctors and nurses and the two junior ambulance staff were attempting to resuscitate numerous casualties on the pitch in front of the Leppings Lane terrace.
 
@@ -2620,7 +2630,9 @@ SYMAS recognition of disaster 2.4.38 Although the transmission from SO Higgins w
 
 2.4.41 The call was timed at 3.21pm, 15 minutes after the match had been stopped. Even bearing in mind all the difficulties inherent in the initial stages of a disaster identified above, the evident effect on the ambulance staff and their prolonged misinterpretation of why spectators were frustrated, this delay was regrettable, raising significant questions about the professional judgement of senior ambulance staff whose role was to identify and respond to a major incident. Only a few minutes of this delay could be attributed to the undoubted difficulties that affected radio communications.
 
-Initial response 2.4.42 By this time, however, a police officer had been despatched to pitch level to investigate and he reported to the Police Control Box that a disaster was in progress, with serious casualties. In accordance with major incident planning, the appropriate action should have commenced immediately, beginning with the declaration of a major incident by the Control Box to the South Yorkshire Police (SYP) Force Control Room. This would have triggered a cascade of immediate responses from all emergency services, including the ambulance and fire services as well as other agencies.
+#### Initial response
+
+2.4.42 By this time, however, a police officer had been despatched to pitch level to investigate and he reported to the Police Control Box that a disaster was in progress, with serious casualties. In accordance with major incident planning, the appropriate action should have commenced immediately, beginning with the declaration of a major incident by the Control Box to the South Yorkshire Police (SYP) Force Control Room. This would have triggered a cascade of immediate responses from all emergency services, including the ambulance and fire services as well as other agencies.
 
 %%page 136%%
 
@@ -2656,11 +2668,15 @@ Initial response 2.4.42 By this time, however, a police officer had been despatc
 
 2.4.51 He was on the road at 3.14pm and arrived at the stadium at 3.23pm. By this time the initial response had already taken shape, partly prompted by DCAO Hopkins at 3.17pm on his way to the ground. That response was to send as many ambulances as possible. 2.4.52 Although sending ambulances to the gymnasium entrance was integral to the major incident plan, it would have been only one element had the plan been activated. DCAO Hopkins did not provide any further information to Ambulance Control until 3.31pm when he requested the major incident vehicle.
 
-Continued incomplete communication 2.4.53 Meanwhile, at 3.13pm Force Control contacted the South Yorkshire Fire Service Control Room to request a vehicle with cutting equipment. This was intended to cut access points in the perimeter fencing which was severely restricting rescue efforts. A police officer described fans trapped in the pens 'dying due to lack of oxygen and it was frustrating to see them being unable to do anything in time to save them ... delay in being able to get to them and being unable to tear down the fence was most definitely a contributory factor which led to the unnecessary death of people'.[^9-9010] 2.4.54 As with the call to SYMAS, the request to the Fire Service was incorrectly formulated and did not include any reference to activating the major incident plan: 'Can we have cutting equipment please to Hillsborough straight away'.[^10-9010] 2.4.55 A conversation characterised by multiple misunderstandings ensued. The Fire Service Control Room correctly asked for further details, needing to prioritise the request against the need to respond to other incidents. The Fire Service responded and its personnel added to resuscitation efforts, and a police vehicle with cutting equipment attended later after a key-holder for the store room had been found. By this time, however, the central pens had already been evacuated using the restricted access provided by single gates or through the tunnel at the rear of the pens. 2.4.56 By 3.20pm, police staff in Ground Control and Force Control and Ambulance Control staff had begun to adopt the description 'major incident' in various radio and telephone communications. Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.[^11-9010] Documents disclosed to the Panel show that significant elements of the SYMAS major incident plan were never implemented, including notification of the major receiving hospitals and the deployment of an emergency response team, or were implemented much too late to be of use, such as the deployment of site medical teams. The analysis of the Panel is that it is difficult to conceive that the major incident plan could have been activated by the senior officer in Ambulance Control without implementing crucial and potentially effective elements such as these, which might have made a difference. 2.4.57 In the heat of the moment, it appears that no senior officer thought to verify that the major incident procedure had been implemented. The only locations that did fully implement their part of the major incident process were the Northern General Hospital (NGH) and the Royal Hallamshire Hospital (RHH). 2.4.58 The NGH implementation was on the initiative of the duty Nursing Officer, acting in conjunction with Charge Nurse Ian Batty in Accident & Emergency (A&E), who had been notified by an ambulance crew member of radio traffic mentioning 'trouble inside the ground at Hillsborough'.[^12-9010] 2.4.59 The RHH implementation followed the arrival of Mr Alan Crosby, Consultant in A&E, at approximately 3.30pm. 'I told him [a Charge Nurse in A&E] we may as well work on the assumption that this was a major disaster and I asked one of the clerical staff to notify the switchboard that I was declaring a Major Disaster'.[^13-9010]
+##### Continued incomplete communication
+
+2.4.53 Meanwhile, at 3.13pm Force Control contacted the South Yorkshire Fire Service Control Room to request a vehicle with cutting equipment. This was intended to cut access points in the perimeter fencing which was severely restricting rescue efforts. A police officer described fans trapped in the pens 'dying due to lack of oxygen and it was frustrating to see them being unable to do anything in time to save them ... delay in being able to get to them and being unable to tear down the fence was most definitely a contributory factor which led to the unnecessary death of people'.[^9-9010] 2.4.54 As with the call to SYMAS, the request to the Fire Service was incorrectly formulated and did not include any reference to activating the major incident plan: 'Can we have cutting equipment please to Hillsborough straight away'.[^10-9010] 2.4.55 A conversation characterised by multiple misunderstandings ensued. The Fire Service Control Room correctly asked for further details, needing to prioritise the request against the need to respond to other incidents. The Fire Service responded and its personnel added to resuscitation efforts, and a police vehicle with cutting equipment attended later after a key-holder for the store room had been found. By this time, however, the central pens had already been evacuated using the restricted access provided by single gates or through the tunnel at the rear of the pens. 2.4.56 By 3.20pm, police staff in Ground Control and Force Control and Ambulance Control staff had begun to adopt the description 'major incident' in various radio and telephone communications. Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.[^11-9010] Documents disclosed to the Panel show that significant elements of the SYMAS major incident plan were never implemented, including notification of the major receiving hospitals and the deployment of an emergency response team, or were implemented much too late to be of use, such as the deployment of site medical teams. The analysis of the Panel is that it is difficult to conceive that the major incident plan could have been activated by the senior officer in Ambulance Control without implementing crucial and potentially effective elements such as these, which might have made a difference. 2.4.57 In the heat of the moment, it appears that no senior officer thought to verify that the major incident procedure had been implemented. The only locations that did fully implement their part of the major incident process were the Northern General Hospital (NGH) and the Royal Hallamshire Hospital (RHH). 2.4.58 The NGH implementation was on the initiative of the duty Nursing Officer, acting in conjunction with Charge Nurse Ian Batty in Accident & Emergency (A&E), who had been notified by an ambulance crew member of radio traffic mentioning 'trouble inside the ground at Hillsborough'.[^12-9010] 2.4.59 The RHH implementation followed the arrival of Mr Alan Crosby, Consultant in A&E, at approximately 3.30pm. 'I told him [a Charge Nurse in A&E] we may as well work on the assumption that this was a major disaster and I asked one of the clerical staff to notify the switchboard that I was declaring a Major Disaster'.[^13-9010]
 
 %%page 138%%
 
-Failure to enact the major incident procedure 2.4.60 In a report compiled for the Taylor Inquiry, West Midlands Police (WMP) confirmed that the duty to activate the major incident plan lay with the SYP Control Box, which had responsibility for crowd safety as well as crowd control. As noted previously, police officers in the Control Box initially viewed the problem as a crowd disturbance and activated 'Operation Support', primarily designed as a contingency plan to deal with incidents of spontaneous disorder. At approximately 3.07pm, however, there was a 'move away from the Operation Support procedures and into the major incident plan'.[^14-9010]
+#### Failure to enact the major incident procedure
+
+2.4.60 In a report compiled for the Taylor Inquiry, West Midlands Police (WMP) confirmed that the duty to activate the major incident plan lay with the SYP Control Box, which had responsibility for crowd safety as well as crowd control. As noted previously, police officers in the Control Box initially viewed the problem as a crowd disturbance and activated 'Operation Support', primarily designed as a contingency plan to deal with incidents of spontaneous disorder. At approximately 3.07pm, however, there was a 'move away from the Operation Support procedures and into the major incident plan'.[^14-9010]
 
 2.4.61 Despite the repeated requests for a 'fleet of ambulances' that confirm that officers in the Control Box were well aware of multiple serious casualties, the report confirmed that the major incident procedure was not activated:
 
@@ -2670,7 +2686,9 @@ CATASTROPHE was not used. This is confirmed by the extended incident log and tap
 
 2.4.62 Regardless of the use of the code word, it is clear from the Control Room tape transcripts disclosed to the Panel that at no stage was the communication from Force Control adequate to trigger the cascade of information to other emergency services and activation of their own major incident procedures.
 
-Consequences of failure to activate the major incident plan fully 2.4.63 The absence of complete activation of the major incident plan had significant consequences for the emergency response within the stadium. The SYMAS plan provided for specified senior officers to attend and adopt their designated roles, including Incident Officer, Control Officer, Casualty Clearing Point Officer and Emergency Support Team Officer.
+##### Consequences of failure to activate the major incident plan fully
+
+2.4.63 The absence of complete activation of the major incident plan had significant consequences for the emergency response within the stadium. The SYMAS plan provided for specified senior officers to attend and adopt their designated roles, including Incident Officer, Control Officer, Casualty Clearing Point Officer and Emergency Support Team Officer.
 
 %%page 139%%
 
@@ -2690,7 +2708,9 @@ Consequences of failure to activate the major incident plan fully 2.4.63 The abs
 
 2.4.71 The Fire Service would also have been alerted to attend had an appropriate declaration of a major incident been made. It could have provided heavy cutting equipment when needed to free spectators still trapped in the central pens. Fire officers arrived after many spectators had been laboriously extricated through narrow perimeter gates and others had exited after fencing had been torn down in desperation by fans.
 
-SYMAS view of delayed recognition of the disaster 2.4.72 SYMAS considered that SYP should have recognised the severity of the incident sooner and activated the major incident plan. Its representations to the Taylor Inquiry concluded that lives could have been saved:
+##### SYMAS view of delayed recognition of the disaster
+
+2.4.72 SYMAS considered that SYP should have recognised the severity of the incident sooner and activated the major incident plan. Its representations to the Taylor Inquiry concluded that lives could have been saved:
 
 SYMAS' submission is that there is evidence to indicate that supporters were being crushed to death by 1459 hours and that this was evident to anyone whose mind was not conditioned by the need to contain supporters within the central pens.
 
@@ -2702,9 +2722,13 @@ It is SYMAS submission that the persons who were in a position to, and should ha
 
 2.4.74 The disclosed documents show that the SYMAS officers were slower than the police officers alongside them to realise the situation. Their misinterpretation of the unfolding disaster, together with the subsequent inadequate communication, was a significant missed opportunity to limit the consequences of the initial police failure.
 
-Rescue and resuscitation 2.4.75 In the absence of a coordinated immediate response, many at the scene reacted individually to the best of their ability. Inevitably, in the circumstances, their reactions varied greatly. Some spectators and police acted promptly and without self-regard to evacuate people from the pens and to begin first aid. Understandably others were overwhelmed. Some police officers appeared bewildered and failed to act purposively. A few fans were angered by the lack of understanding of their situation by officials. They acted with hostility. 2.4.76 Such diversity of reaction has to be understood in the context of witnessing a devastating incident at close quarters. It should not detract from the dedicated interventions of those fans, police officers and ambulance crew who responded spontaneously to the welfare of the trapped and injured.
+#### Rescue and resuscitation
 
-Scale of the disaster becomes apparent 2.4.77 It rapidly became apparent to rescuers that a number of those evacuated from the pens were unconscious, some with no breathing or pulse. Fans and police attempted resuscitation, usually including chest compression (external cardiac massage) and mouth-to-mouth resuscitation. 2.4.78 In many cases, the injured person's mouth and throat were clogged with regurgitated stomach contents, making mouth-to-mouth resuscitation difficult as well as unpleasant. As the scale and seriousness of the disaster became apparent doctors and nurses among the spectators converged from all parts of the stadium. They took over resuscitation of the casualties they first encountered. Some realised they could spread their experience and skills more widely by delegating resuscitation to willing volunteers, directing and coaching their efforts. 2.4.79 When ambulances began to arrive outside the gymnasium in response to the call from Ambulance Control, staff left their vehicles and went to the Leppings Lane end of the ground on foot, running almost the full length of the pitch. Once there, some added to the resuscitation attempts and others removed those who were injured to the gymnasium which was the casualty clearing point designated in the Hillsborough incident plan. The first ambulance vehicle arrived at 3.17pm.[^17-9010] 2.4.80 Only a few stretchers were available, and fans placed casualties on advertising hoardings torn from around the pitch. They ran towards the gymnasium. At least two doctors, present as spectators, realised that without systematic prioritisation of casualties (triage) scarce ambulance and first-aid resources would be wasted on those not requiring urgent treatment or others who were already beyond help. 2.4.81 In the absence of any visible coordination by police or ambulance services, these doctors attempted to establish triage. One told 'the police who could be despatched by ambulance next and who could wait. The officers were mostly very good. They took my instructions and acted on them immediately'.[^18-9010] Another met with less success:
+2.4.75 In the absence of a coordinated immediate response, many at the scene reacted individually to the best of their ability. Inevitably, in the circumstances, their reactions varied greatly. Some spectators and police acted promptly and without self-regard to evacuate people from the pens and to begin first aid. Understandably others were overwhelmed. Some police officers appeared bewildered and failed to act purposively. A few fans were angered by the lack of understanding of their situation by officials. They acted with hostility. 2.4.76 Such diversity of reaction has to be understood in the context of witnessing a devastating incident at close quarters. It should not detract from the dedicated interventions of those fans, police officers and ambulance crew who responded spontaneously to the welfare of the trapped and injured.
+
+##### Scale of the disaster becomes apparent
+
+2.4.77 It rapidly became apparent to rescuers that a number of those evacuated from the pens were unconscious, some with no breathing or pulse. Fans and police attempted resuscitation, usually including chest compression (external cardiac massage) and mouth-to-mouth resuscitation. 2.4.78 In many cases, the injured person's mouth and throat were clogged with regurgitated stomach contents, making mouth-to-mouth resuscitation difficult as well as unpleasant. As the scale and seriousness of the disaster became apparent doctors and nurses among the spectators converged from all parts of the stadium. They took over resuscitation of the casualties they first encountered. Some realised they could spread their experience and skills more widely by delegating resuscitation to willing volunteers, directing and coaching their efforts. 2.4.79 When ambulances began to arrive outside the gymnasium in response to the call from Ambulance Control, staff left their vehicles and went to the Leppings Lane end of the ground on foot, running almost the full length of the pitch. Once there, some added to the resuscitation attempts and others removed those who were injured to the gymnasium which was the casualty clearing point designated in the Hillsborough incident plan. The first ambulance vehicle arrived at 3.17pm.[^17-9010] 2.4.80 Only a few stretchers were available, and fans placed casualties on advertising hoardings torn from around the pitch. They ran towards the gymnasium. At least two doctors, present as spectators, realised that without systematic prioritisation of casualties (triage) scarce ambulance and first-aid resources would be wasted on those not requiring urgent treatment or others who were already beyond help. 2.4.81 In the absence of any visible coordination by police or ambulance services, these doctors attempted to establish triage. One told 'the police who could be despatched by ambulance next and who could wait. The officers were mostly very good. They took my instructions and acted on them immediately'.[^18-9010] Another met with less success:
 
 %%page 141%%
 
@@ -2746,7 +2770,9 @@ When the match was stopped there was a lack of organisation, co-ordination & lea
 
 2.4.87 As with those brought onto the pitch, some were already beyond help when they were carried through the tunnel, and they were laid against a fence in the concourse to await medical confirmation of death. This appears to have given rise to the rumour that some spectators were trampled in the tunnel. This view was mistaken.
 
-The gymnasium 2.4.88 The gymnasium, situated beneath the North Stand, was the designated casualty reception area in the Hillsborough incident plan. Ambulances were directed there by Ambulance Control and, after some initial confusion, by police officers around the ground.
+#### The gymnasium
+
+2.4.88 The gymnasium, situated beneath the North Stand, was the designated casualty reception area in the Hillsborough incident plan. Ambulances were directed there by Ambulance Control and, after some initial confusion, by police officers around the ground.
 
 2.4.89 Those who were injured, dying or dead were taken to the gymnasium in increasing numbers. If coordination and leadership were to be established anywhere, the primary site should have been the gymnasium, but the disorganisation on the pitch also prevailed there.
 
@@ -2766,7 +2792,9 @@ Brought in with the dead were the injured and these were directed to the far end
 
 2.4.92 Meanwhile, clearly struggling to cope with such daunting scenes, D/Supt McKay's focus remained on the deceased, although he was able to observe that 'injured people were arriving and being directed to the far end of the hall and the scene was one of increasing confusion'.
 
-Lack of leadership 2.4.93 The lack of leadership and coordination within the gymnasium was evident to those ambulance staff waiting outside with their vehicles. At 3.49pm, a Sheffield ambulance ('S102') that had been on site since at least 3.31pm transmitted: '102 we're still round at the first aid and the gym which is mortuary come [sic] hospital still not seen an officer or any ...'
+##### Lack of leadership
+
+2.4.93 The lack of leadership and coordination within the gymnasium was evident to those ambulance staff waiting outside with their vehicles. At 3.49pm, a Sheffield ambulance ('S102') that had been on site since at least 3.31pm transmitted: '102 we're still round at the first aid and the gym which is mortuary come [sic] hospital still not seen an officer or any ...'
 
 2.4.94 Ambulance Control responded: 'Control Rg they are despatched and (….) senior officers at the scene but where they'll be at this time I cannot tell you I will try to establish that ...' '102 It's just that this is where all the patients are coming to and the mortuary is there is just no co [sic] nothing happening yet'.[^29-9010]
 
@@ -2784,7 +2812,9 @@ There were casualties everywhere and bodies laid on the floor. I turned around a
 
 2.4.99 It is clear from his account that DCAO Hopkins was aware of the lack of leadership and coordination evident in the gymnasium and on the pitch. However, he appears to have considered that his priorities lay elsewhere, principally directing arriving ambulances. Evidently he was unable to find, or spare, an officer more senior than a Leading Ambulanceman to coordinate activity in the gymnasium, the designated casualty reception point.
 
-Failure to deploy available paramedics 2.4.100 This ambulance crew member was a trained paramedic, one of only a few present at the site. Therefore he was able to provide some essential equipment and skills in the gymnasium, but no others were present in the area: 'As far as I am aware I was the only para-medic deployed in the Casualty Clearing Area'.[^31-9010] In 1989 the programme to train a significant proportion of ambulance crew as paramedics and establish one on every emergency vehicle was still at an early stage. SYMAS had no more than 33 extended-trained ambulance crew and ten had only recently qualified.[^32-9010]
+##### Failure to deploy available paramedics
+
+2.4.100 This ambulance crew member was a trained paramedic, one of only a few present at the site. Therefore he was able to provide some essential equipment and skills in the gymnasium, but no others were present in the area: 'As far as I am aware I was the only para-medic deployed in the Casualty Clearing Area'.[^31-9010] In 1989 the programme to train a significant proportion of ambulance crew as paramedics and establish one on every emergency vehicle was still at an early stage. SYMAS had no more than 33 extended-trained ambulance crew and ten had only recently qualified.[^32-9010]
 
 2.4.101 It is clear from the documents disclosed to the Panel, however, that opportunities were missed to deploy paramedics to Hillsborough in the early stages of the disaster. One paramedic had volunteered for duty on hearing of the disaster, but was assigned to transporting people with minor injuries.
 
@@ -2792,7 +2822,9 @@ Failure to deploy available paramedics 2.4.100 This ambulance crew member was a 
 
 %%page 145%%
 
-Continued lack of effective arrangements in the gymnasium 2.4.103 Shortly before DCAO Hopkins entered the gymnasium, Dr Nicholas Kearsley, a Sheffield GP who had been a spectator among Nottingham Forest fans in the Spion Kop end of the stadium, arrived to offer assistance, having been directed by a police officer. He stated: 'As I entered [the gymnasium], the first section contained several dead bodies, I do not know how many; in the other section I saw some seriously injured people who were mainly lying on their backs, which is not the position that they should have been in'.[^34-9010]
+##### Continued lack of effective arrangements in the gymnasium
+
+2.4.103 Shortly before DCAO Hopkins entered the gymnasium, Dr Nicholas Kearsley, a Sheffield GP who had been a spectator among Nottingham Forest fans in the Spion Kop end of the stadium, arrived to offer assistance, having been directed by a police officer. He stated: 'As I entered [the gymnasium], the first section contained several dead bodies, I do not know how many; in the other section I saw some seriously injured people who were mainly lying on their backs, which is not the position that they should have been in'.[^34-9010]
 
 2.4.104 The bodies should have been placed in the recovery position because when an unconscious person is laid on their back, lacking muscle tone and protective reflexes, the lower jaw is liable to flop back, obstructing breathing.
 
@@ -2806,7 +2838,9 @@ Continued lack of effective arrangements in the gymnasium 2.4.103 Shortly before
 
 %%page 146%%
 
-Ambulance Service rejoinder 2.4.109 Adverse comments on the emergency response made by two of the doctors present later appeared in the media. In response, the SYMAS submission to the Taylor Inquiry included a long section refuting many of the criticisms. Under the heading 'FACTS' the submission claimed that 'SYMAS personnel operated triage', followed by reference to four individual ambulance crew statements.[^36-9010]
+#### Ambulance Service rejoinder
+
+2.4.109 Adverse comments on the emergency response made by two of the doctors present later appeared in the media. In response, the SYMAS submission to the Taylor Inquiry included a long section refuting many of the criticisms. Under the heading 'FACTS' the submission claimed that 'SYMAS personnel operated triage', followed by reference to four individual ambulance crew statements.[^36-9010]
 
 2.4.110 These individual statements refer to instances of ambulance crew trying to pick out the most injured people near them, and in one case moving two people beyond help out of an ambulance; referring to this as 'triage' entirely misses the point that these were the ad hoc attempts of ambulance crews in the absence of senior direction, when what was required was a systematic assessment of the injured, put in place at an early stage and operated by a senior ambulance officer or medical team member.
 
@@ -2832,7 +2866,9 @@ These include Advanced Ambulance Aid ... Intravenous Infusion, Cardiac Monitorin
 
 Defibrillation and the Administration of Drugs.[^38-9010]
 
-Other views of the emergency response 2.4.116 The attempt to portray criticisms as the views of an ill-informed small minority of doctors is not supported by the collected statements of doctors and nurses present at Hillsborough as the disaster unfolded. The only evident support came from one dissenting voice, a Sheffield doctor who went onto the pitch to assist with resuscitation:
+##### Other views of the emergency response
+
+2.4.116 The attempt to portray criticisms as the views of an ill-informed small minority of doctors is not supported by the collected statements of doctors and nurses present at Hillsborough as the disaster unfolded. The only evident support came from one dissenting voice, a Sheffield doctor who went onto the pitch to assist with resuscitation:
 
 Because of the scale of the tragedy, I don't believe that with all the necessary medical equipment being available it would have made much difference. Basically it seemed to me that by the time they had got people out of the pens and onto the pitch they were already dead. I didn't see anyone successfully resuscitated.[^39-9010]
 
@@ -2856,7 +2892,9 @@ I still cannot understand why the local Health Authority's Major Medical Disaste
 
 %%page 148%%
 
-Communication problems 2.4.119 It is clear from the Control Room transcripts and from statements that the Ambulance Service response was hampered by significant communications difficulties, which affected both the use of hand-held radios within the ground and the emergency response channel (ERC).
+#### Communication problems
+
+2.4.119 It is clear from the Control Room transcripts and from statements that the Ambulance Service response was hampered by significant communications difficulties, which affected both the use of hand-held radios within the ground and the emergency response channel (ERC).
 
 2.4.120 The following examples illustrate the difficulties, but it must be noted that there were also numerous attempts made to contact Ambulance Service vehicles and senior officers that either were never received or could not be answered, and many instances of garbled transmissions and calls cutting across others, impeding understanding:
 
@@ -2884,7 +2922,9 @@ At one stage I offered to be a runner because there appeared to be no communicat
 
 2.4.122 It is clear from the transcripts and statements that the final two sentences were highly optimistic.
 
-Transportation and subsequent treatment of casualties 2.4.123 Viewed as an exercise in ensuring that all available ambulances were sent to Hillsborough as quickly as possible, then removing the injured to hospital as soon as possible, the records confirm that ambulance control staff and crew acted with commendable efficiency and promptness. That there was potentially so much more to the emergency response to a major disaster with large numbers of seriously injured people in urgent need of resuscitation was a different issue.
+#### Transportation and subsequent treatment of casualties
+
+2.4.123 Viewed as an exercise in ensuring that all available ambulances were sent to Hillsborough as quickly as possible, then removing the injured to hospital as soon as possible, the records confirm that ambulance control staff and crew acted with commendable efficiency and promptness. That there was potentially so much more to the emergency response to a major disaster with large numbers of seriously injured people in urgent need of resuscitation was a different issue.
 
 %%page 149%%
 
@@ -2892,13 +2932,17 @@ Transportation and subsequent treatment of casualties 2.4.123 Viewed as an exerc
 
 2.4.125 In the circumstances that occurred, the Hillsborough plan should have been implemented as part of a major incident procedure, with properly equipped resuscitation and immediate care where it was needed and prioritised evacuation via the casualty reception point in the gymnasium. These objectives were not achieved because of the failure to implement the major incident procedure and not because more ambulances were not brought onto the pitch.
 
-Evacuation of casualties 2.4.126 Ambulance vehicles were mobilised rapidly from all of the stations nearby, and neighbouring services were asked to provide additional vehicles either to cover SYMAS vehicles attending Hillsborough or directly to the ground.
+##### Evacuation of casualties
+
+2.4.126 Ambulance vehicles were mobilised rapidly from all of the stations nearby, and neighbouring services were asked to provide additional vehicles either to cover SYMAS vehicles attending Hillsborough or directly to the ground.
 
 2.4.127 The first ambulance left the ground at 3.21pm, and arrived at the NGH A&E just before 3.30pm.[^53-9010] By 4.30pm, 88 people had been taken to NGH and 71 to RHH. Three people with minor injuries were also taken to Barnsley District General Hospital.
 
 2.4.128 This commendable rapid transport effort was achieved through the deployment of 42 ambulance vehicles, 31 from SYMAS and 11 from other ambulance services including Derbyshire, West Yorkshire and St John Ambulance. Many vehicles made repeat journeys.[^54-9010]
 
-Hospital treatment 2.4.129 NGH A&E Consultant Mr James Wardrope was called to the hospital following Charge Nurse Batty's concerns, arriving soon after 3.30pm to find the first three ambulances outside A&E. He 'was met at the door by Charge Nurse Batty who informed me three patients were undergoing resuscitation in the Resuscitation Room which is adjacent to the side entrance'.[^55-9010]
+##### Hospital treatment
+
+2.4.129 NGH A&E Consultant Mr James Wardrope was called to the hospital following Charge Nurse Batty's concerns, arriving soon after 3.30pm to find the first three ambulances outside A&E. He 'was met at the door by Charge Nurse Batty who informed me three patients were undergoing resuscitation in the Resuscitation Room which is adjacent to the side entrance'.[^55-9010]
 
 2.4.130 Having confirmed that the hospital's major incident procedure had been activated, Mr Wardrope assisted available medical staff resuscitating the first two batches of patients to arrive. Crucially, he then stationed himself so that he could triage all further arriving casualties as they reached the hospital: 'I then returned to the entrance and stayed there until about 5.00 pm, to triage patients as they arrived, and also to triage Doctors so that they could be assigned to appropriate duties'.
 
@@ -2912,7 +2956,9 @@ Hospital treatment 2.4.129 NGH A&E Consultant Mr James Wardrope was called to th
 
 2.4.135 Those in the most serious condition on admission to hospital had suffered asphyxiation, shortage of oxygen caused by the pressure within the pens severely restricting their ability to breathe. Two of those admitted to NGH were still receiving active resuscitation (chest compression and assisted respiration) on arrival, and although they were stabilised and admitted to an intensive care unit, both subsequently died. Sixteen others showed signs that severe shortage of oxygen had affected their body systems, particularly the brain, and they required intensive treatment.
 
-Subsequent treatment of the injured 2.4.136 Most hospital major disaster plans anticipate that the heaviest workload will fall on surgery, orthopaedics, anaesthetics and intensive care in the immediate aftermath, and make special provisions to contact specialists in these areas to bring them to the hospital urgently; the Sheffield hospitals' plans were no exception.
+##### Subsequent treatment of the injured
+
+2.4.136 Most hospital major disaster plans anticipate that the heaviest workload will fall on surgery, orthopaedics, anaesthetics and intensive care in the immediate aftermath, and make special provisions to contact specialists in these areas to bring them to the hospital urgently; the Sheffield hospitals' plans were no exception.
 
 2.4.137 The Hillsborough disaster was different in that those admitted who were most at risk did not require surgery but specialist treatment of cerebral hypoxia and cerebral oedema (brain effects of lack of oxygen) from a general physician or neurologist, who were not part of the major disaster plan. However, Dr Frank Ryan, a Sheffield general physician with particular experience of neurology, had seen television coverage from Hillsborough at around 3.20pm to 3.25pm.
 
@@ -2932,7 +2978,9 @@ Within ten or fifteen minutes, a total of 13/14 patients appeared to exhibit a v
 
 2.4.143 Other injuries were treated amongst those admitted, including pneumothorax (air around the outside of the lung potentially affecting breathing), severe laryngeal oedema (fluid swelling of the voice box), right heart strain (probably caused by obstruction of the venous return to the heart) and pericardial effusion (fluid around the heart). Other conditions included many soft-tissue injuries and some fractures to the skull, ribs, forearm bones, wrist and ankle. These patients made a full recovery.
 
-Pressure on Northern General Hospital facilities 2.4.144 It is clear that facilities at NGH, which bore the brunt of admitting and treating the most severely injured, were stretched by the influx of casualties. Additional space was used to provide treatment areas and extra ventilators were obtained from elsewhere in the hospital.
+##### Pressure on Northern General Hospital facilities
+
+2.4.144 It is clear that facilities at NGH, which bore the brunt of admitting and treating the most severely injured, were stretched by the influx of casualties. Additional space was used to provide treatment areas and extra ventilators were obtained from elsewhere in the hospital.
 
 2.4.145 Sometime before 4pm, Mr Wardrope became concerned about the pressure on the NGH resuscitation facilities. He stated: 'I realised the Resuscitation Room was becoming very full as almost all the first lot of casualties required resuscitation and I therefore sent one of the SHOs [Senior House Officers], Mr Duncan, to telephone SYMAS Control and request casualties be taken to the Royal Hallamshire Hospital'.[^62-9010]
 
@@ -4311,7 +4359,9 @@ Figure 9: Prime Minister Margaret Thatcher with Press Secretary Bernard Ingham, 
 
 2.7.5 The scope of the litigation that ensued can be addressed in three broad categories: claims for damages on behalf of the bereaved and injured, including the appeals in the cases *Alcock and others* and *Hicks*; claims for damages on behalf of police officers, including the case of *White and others*; and 'contribution' or 'third party' proceedings brought on behalf of SYP against SWFC and their consultant engineers Eastwood & Partners to determine the level of contribution required from each party towards the sums to be paid on the damages claims arising from the disaster.
 
-Claims on behalf of the bereaved and injured, including the cases of Alcock and others v Chief Constable and Hicks v Chief Constable 2.7.6 The first writs seeking compensation for injuries sustained at Hillsborough were issued and served on SYP and SWFC on 18 April 1989.
+#### Claims on behalf of the bereaved and injured, including the cases of Alcock and others v Chief Constable and Hicks v Chief Constable
+
+2.7.6 The first writs seeking compensation for injuries sustained at Hillsborough were issued and served on SYP and SWFC on 18 April 1989.
 
 2.7.7 Documents disclosed to the Panel reveal that while there is no record of a response from SWFC, SYP undertook criminal records checks on the claimants. The purpose of these checks, on the Police National Computer and with the Criminal Record Office, remains unclear.[^2-9014]
 
@@ -4363,7 +4413,9 @@ At the hearing, an unsuccessful application for a stay of the proceedings was ma
 
 2.7.16 Having rejected the SYP application, Mr Justice Rose set 11 June 1990 for the start of the civil claims trial.7
 
-Settlement 2.7.17 The disclosed documents suggest that there was debate and argument between SYP and their insurers about their decision to offer a settlement of some civil claims. On 17 November 1989, Chief Constable Peter Wright presented a report to the Police Authority in which he indicated that the claims were to be defended.
+##### Settlement
+
+2.7.17 The disclosed documents suggest that there was debate and argument between SYP and their insurers about their decision to offer a settlement of some civil claims. On 17 November 1989, Chief Constable Peter Wright presented a report to the Police Authority in which he indicated that the claims were to be defended.
 
 2.7.18 On 30 November, however, a press release illustrated a significant shift in position: 'It has been decided by the Chief Constable of South Yorkshire and the South Yorkshire Police Authority, in conjunction with their insurers, Municipal Mutual Insurance, that those bereaved and injured in the tragic events at Hillsborough stadium on 15 April should not have to await the outcome of a further lengthy hearing in 1990 before receiving compensation'.8
 
@@ -4395,7 +4447,9 @@ I have agreed therefore to accept the legal advice given to me and to settle out
 
 2.7.27 Cases that concerned the death of adults survived by dependants resulted in higher payments. Compensation for those who endured physical or psychological injury was assessed on the nature and extent of the injury, resulting loss of earnings or any ongoing medical costs.
 
-Alcock and others v Chief Constable of South Yorkshire Police 2.7.28 The decision to defend claims that were not covered by the agreed categories resulted in two significant sets of proceedings in court. Each eventually reached the House of Lords. The first was Alcock and others v Chief Constable of South Yorkshire Police.
+##### Alcock and others v Chief Constable of South Yorkshire Police
+
+2.7.28 The decision to defend claims that were not covered by the agreed categories resulted in two significant sets of proceedings in court. Each eventually reached the House of Lords. The first was Alcock and others v Chief Constable of South Yorkshire Police.
 
 2.7.29 In proceedings brought on behalf of 16 claimants, but said to be representative of 150 similar claims, the primary issue concerned those who had suffered psychiatric illness due to the shock of what had happened to their friends or relatives at the stadium. The legal question was whether and how, in such circumstances, people who were not directly involved or injured in the incident could be entitled to compensation as 'secondary victims'.
 
@@ -4423,7 +4477,9 @@ Alexandra Penk, who lost her fiancé. In each of these cases the closest ties of
 
 %%page 234%%
 
-Hicks v Chief Constable of South Yorkshire Police 2.7.35 The second action was Hicks v Chief Constable of South Yorkshire Police. In these proceedings, the primary issue concerned the extent to which compensation was payable for the pre-death pain and the suffering of those who had died. Again, for the purposes of these proceedings, SYP accepted responsibility for the circumstances, but argued that there was no pre-death pain and suffering because the medical evidence purported to establish that the deceased victims would have lost consciousness within a matter of seconds before they died.
+##### Hicks v Chief Constable of South Yorkshire Police
+
+2.7.35 The second action was Hicks v Chief Constable of South Yorkshire Police. In these proceedings, the primary issue concerned the extent to which compensation was payable for the pre-death pain and the suffering of those who had died. Again, for the purposes of these proceedings, SYP accepted responsibility for the circumstances, but argued that there was no pre-death pain and suffering because the medical evidence purported to establish that the deceased victims would have lost consciousness within a matter of seconds before they died.
 
 2.7.36 The case proceeded through the High Court[^21-9014] and Court of Appeal22 to a determination in the House of Lords on 5 March 1992.23 Throughout, on the basis of the medical evidence presented, the Courts accepted and agreed with the argument advanced by SYP. The short judgment handed down by Lord Bridge of Harwich, with whom the rest of the Court agreed, was clear:
 
@@ -4451,13 +4507,17 @@ The evidence … showed that both girls died from traumatic asphyxia. They were 
 
 %%page 236%%
 
-Compensation claims on behalf of police officers, including the cases of White v Chief Constable and Frost v Chief Constable 2.7.40 From the earliest publicity concerning compensation claims by police officers who had suffered psychological injury as a consequence of the Hillsborough disaster, the issue was controversial.
+#### Compensation claims on behalf of police officers, including the cases of White v Chief Constable and Frost v Chief Constable
+
+2.7.40 From the earliest publicity concerning compensation claims by police officers who had suffered psychological injury as a consequence of the Hillsborough disaster, the issue was controversial.
 
 2.7.41 Those who had suffered bereavement and injury could not reconcile the six-figure sums suggested by the media in relation to such claims with the relatively paltry sums they had themselves received, particularly those for whom compensation amounted to a £3,500 statutory bereavement payment and funeral expenses.
 
 2.7.42 It was also controversial within SYP, whose senior managers were concerned about the impact on the Force should officers bring claims against their own Chief Constable.[^26-9014] They were also concerned that floodgates might open should the initial claims prove successful.
 
-The origin of the claims 2.7.43 Initially, the Police Federation's Sheffield branch proposed that officers affected by the disaster would not take legal action but claim from the Hillsborough Disaster Appeal Fund established 'for the assistance of those who have suffered injury or loss as a result of the Hillsborough disaster'.[^27-9014]
+##### The origin of the claims
+
+2.7.43 Initially, the Police Federation's Sheffield branch proposed that officers affected by the disaster would not take legal action but claim from the Hillsborough Disaster Appeal Fund established 'for the assistance of those who have suffered injury or loss as a result of the Hillsborough disaster'.[^27-9014]
 
 2.7.44 In June 1989, with the approval of CC Wright, a letter from the Police Federation representative, Paul Middup, was circulated to affected officers:
 
@@ -4483,13 +4543,17 @@ Unfortunately, if they did not hear the announcement on local radio they may not
 
 2.7.48 Others had been on duty later in the day at the stadium gymnasium, designated a temporary mortuary, or assisting in identifying bodies or in clearing the scene. Claims were made on the basis that police officers' experiences, in the course of their formal duties, had resulted in psychiatric injury including PTSD.
 
-The South Yorkshire Police response 2.7.49 The claims provoked concern within SYP. Although the Police Federation had advised officers that the Chief Constable, Peter Wright, regarded legal action as 'entirely proper and legitimate',[^32-9014] this was not the case. CC Wright clarified his position in a letter to the President of the Association of Chief Police Officers (ACPO).[^33-9014]
+##### The South Yorkshire Police response
+
+2.7.49 The claims provoked concern within SYP. Although the Police Federation had advised officers that the Chief Constable, Peter Wright, regarded legal action as 'entirely proper and legitimate',[^32-9014] this was not the case. CC Wright clarified his position in a letter to the President of the Association of Chief Police Officers (ACPO).[^33-9014]
 
 2.7.50 He viewed 'with extreme concern actions taken by one police officer against another, particularly in circumstances such as Hillsborough'. Recognising that this 'might be legally correct, the legal advices will have no concern about Force morale, about mutual reliance between officers, or about the effect that such action may have on subsequent day- to-day operational matters'.
 
 2.7.51 CC Wright considered that the Police Federation had 'some responsibility to consider these factors when they embark on legal proceedings similar to those arising out of Hillsborough'. SYP Deputy Chief Constable Peter Hayes went further, writing in February 1990 that the claims were 'on one level unfortunate, distasteful, may adversely affect the morale and image of the Force'.[^34-9014] He was also concerned that the claims could impact negatively on officers' ability to give evidence objectively when required to do so in proceedings such as the inquests or the contribution hearings.
 
-Press response 2.7.52 There was no publicity concerning the claims until April 1990 when a story in the Sheffield Star was published, headlined 'Shocked police may sue Wright'. It stated: 'More than 150 South Yorkshire police officers are threatening to sue their own chief constable for damages over the Hillsborough disaster – a move which could split the force on the eve of the tragedy's first anniversary'.[^35-9014]
+##### Press response
+
+2.7.52 There was no publicity concerning the claims until April 1990 when a story in the Sheffield Star was published, headlined 'Shocked police may sue Wright'. It stated: 'More than 150 South Yorkshire police officers are threatening to sue their own chief constable for damages over the Hillsborough disaster – a move which could split the force on the eve of the tragedy's first anniversary'.[^35-9014]
 
 %%page 238%%
 
@@ -4513,7 +4577,9 @@ I was advised by seven separate lawyers at a meeting some 18 months ago that in 
 
 %%page 239%%
 
-Rescuers' position 2.7.57 The position in relation to 'rescuers' was considered more complex, but the initial advice to the Force was clear: 'we resist on the possible grounds of lack of foreseeability, no duty of care, public policy and the fortitude and phlegm argument'.[^38-9014]
+##### Rescuers' position
+
+2.7.57 The position in relation to 'rescuers' was considered more complex, but the initial advice to the Force was clear: 'we resist on the possible grounds of lack of foreseeability, no duty of care, public policy and the fortitude and phlegm argument'.[^38-9014]
 
 2.7.58 The advice to resist the claims was also informed by views within SYP, as expressed in a meeting with its insurers MMI and its solicitors Hammond Suddards.[^39-9014] There was 'considerable anger and bitterness that these claims should be brought at all and it was noted that some 19 of the claims originally put forward had been withdrawn'.
 
@@ -4547,7 +4613,9 @@ I'll do all I can personally to help them and their families to recover. An expr
 
 2.7.64 Yet the internal analysis of the legal position gave rise to increasing doubts about whether all the claims could be successfully resisted. If SYP was likely to lose the claims, there were tactical and financial reasons why agreed settlements might be preferred in advance of any trial in court.
 
-Settlement 2.7.65 By November 1992, the revised legal advice to SYP was clear. Regarding claimants in the category 'rescuer', SYP had no realistic chance of success at trial and it should agree to settle. After a meeting with representatives of the Police Authority and MMI, DCC Hayes wrote:
+##### Settlement
+
+2.7.65 By November 1992, the revised legal advice to SYP was clear. Regarding claimants in the category 'rescuer', SYP had no realistic chance of success at trial and it should agree to settle. After a meeting with representatives of the Police Authority and MMI, DCC Hayes wrote:
 
 There are 50 officers who have lodged claims. Up to 20 of these on the evidence now available are obviously within the 'rescuer' category and in view of the precedents … we have no defence and an out-of-court settlement is obviously appropriate. There are about 10 officers who appear to have acted so far from the scene in both distance and time that they were not rescuers and should not be compensated.
 
@@ -4569,7 +4637,9 @@ Claims could total £1 million. This is covered by the Public Liability Policy a
 
 2.7.68 Consequently, no claims were settled for a further two and a half years, until March 1995, just as proceedings were due to come to trial. By that point there were 52 claims standing. Fourteen claims, on behalf of officers in the 'rescuer' category, were settled at that stage. In 2001, two further claims from officers within the 'rescuer' category suffering from late onset PTSD were received, processed and settled. Settlements were reached in relation to 16 claims from 'rescuer' officers, resulting in an outlay of over £1.5 million in compensation, paid from the Force's Employer's Liability Insurance.[^48-9014]
 
-White and others v Chief Constable of South Yorkshire Police 2.7.69 Meanwhile, the courts were required to deal with claims on behalf of five officers in the 'non-rescuer' category, selected as test cases on the basis that they were representative of the various roles carried out by claimants who had not been active in the immediate area where the deaths and injuries occurred.
+##### White and others v Chief Constable of South Yorkshire Police
+
+2.7.69 Meanwhile, the courts were required to deal with claims on behalf of five officers in the 'non-rescuer' category, selected as test cases on the basis that they were representative of the various roles carried out by claimants who had not been active in the immediate area where the deaths and injuries occurred.
 
 2.7.70 The ensuing litigation progressed from the High Court[^49-9014] to the Court of Appeal50 before it was determined in the House of Lords on 3 December 1998 under the case title of White and others v Chief Constable of South Yorkshire Police.51
 
@@ -4603,7 +4673,9 @@ But I think that such an extension would be unacceptable to the ordinary person 
 
 2.7.77 The disclosed material reveals that, despite initial consternation within SYP about the prospect of claims from their officers, the strategy adopted by the Chief Constable and SYP's solicitors, Hammond Suddards, to limit those claims was eventually vindicated. In effect, it restricted the claims which succeeded to those on behalf of a relatively small number of SYP officers.
 
-The 'contribution hearings' 2.7.78 In the wake of his decision, announced on 30 November 1989, to settle certain claims on behalf of the bereaved and the injured,54 the SYP Chief Constable Peter Wright invited SWFC, Eastwood & Partners and SCC to join with SYP in the settlement negotiations. All three parties declined the invitation.
+#### The 'contribution hearings'
+
+2.7.78 In the wake of his decision, announced on 30 November 1989, to settle certain claims on behalf of the bereaved and the injured,54 the SYP Chief Constable Peter Wright invited SWFC, Eastwood & Partners and SCC to join with SYP in the settlement negotiations. All three parties declined the invitation.
 
 2.7.79 Subsequently, in the context of the lead actions of Chapman and Rimmer v Chief Constable of South Yorkshire, the Chief Constable issued 'contribution' or 'third party' proceedings against the Club and Eastwood & Partners (the 'defendants' to the third party proceedings).
 
@@ -4625,7 +4697,9 @@ The 'contribution hearings' 2.7.78 In the wake of his decision, announced on 30 
 
 2.7.87 They considered it would be 'highly unfortunate' if the contribution proceedings overlapped with the inquests, not least because the inquests might otherwise benefit from access to the transcripts of the contribution proceedings.[^57-9014]
 
-Developing the case 2.7.88 As discussed in Chapter 6, on 31 May 1990 an 'action team' of SYP officers headed by Chief Superintendent Terry Wain was placed at the disposal of Peter Metcalf of SYP solicitors Hammond Suddards.[^58-9014] This was, in effect, the re-activation of the team that had conducted the internal SYP investigation in the immediate aftermath of the disaster, and had been disbanded at the conclusion of the Taylor Inquiry.
+##### Developing the case
+
+2.7.88 As discussed in Chapter 6, on 31 May 1990 an 'action team' of SYP officers headed by Chief Superintendent Terry Wain was placed at the disposal of Peter Metcalf of SYP solicitors Hammond Suddards.[^58-9014] This was, in effect, the re-activation of the team that had conducted the internal SYP investigation in the immediate aftermath of the disaster, and had been disbanded at the conclusion of the Taylor Inquiry.
 
 2.7.89 In the context of the contribution proceedings, its first task was to prepare a report for Superintendents Bernard Murray, Roger Greenwood and Roger Marshall and all other officers of inspector rank and above who had had responsibilities on the day of the disaster at the Leppings Lane end of the ground, the concourse, the turnstiles and the outer perimeter area.
 
@@ -4675,7 +4749,9 @@ In discussion of the plan it was clear that the first impression did not immedia
 
 2.7.100 However, on the understanding of provisional indications that expert evidence would demonstrate that the fatal consequences of opening the gates were the result of serious flaws in the design of the ground rather than police failures, Mr Metcalf decided that SYP would 'not now concede … that the failure to block the entrance to the tunnel on the opening of Gate C itself amounted to negligence'.[^70-9014]
 
-Commissioned reports 2.7.101 As discussed in Chapter 6, David Phillips, Deputy Chief Constable of Devon and Cornwall, was instructed on behalf of SYP to provide expert evidence regarding the policing of the event and John Stalker, former Deputy Chief Constable of Greater Manchester Police, was instructed on behalf of SWFC. Eastwoods appear to have decided against obtaining or relying on expert evidence.[^71-9014]
+##### Commissioned reports
+
+2.7.101 As discussed in Chapter 6, David Phillips, Deputy Chief Constable of Devon and Cornwall, was instructed on behalf of SYP to provide expert evidence regarding the policing of the event and John Stalker, former Deputy Chief Constable of Greater Manchester Police, was instructed on behalf of SWFC. Eastwoods appear to have decided against obtaining or relying on expert evidence.[^71-9014]
 
 %%page 247%%
 
@@ -4731,7 +4807,9 @@ The belief common to club and police was that the terracing was safe up to its c
 
 %%page 249%%
 
-The trial and terms of settlement 2.7.114 Following the announcement of the DPP's decision that no prosecutions would be brought,[^77-9014] it was clear that the contribution proceedings would proceed to trial at the beginning of October as scheduled. At the pre-trial review, however, the judge assigned to hear the trial, Mr Justice Jowitt, indicated his view that SYP was clearly negligent and was surprised an out-of-court settlement had not been reached.
+##### The trial and terms of settlement
+
+2.7.114 Following the announcement of the DPP's decision that no prosecutions would be brought,[^77-9014] it was clear that the contribution proceedings would proceed to trial at the beginning of October as scheduled. At the pre-trial review, however, the judge assigned to hear the trial, Mr Justice Jowitt, indicated his view that SYP was clearly negligent and was surprised an out-of-court settlement had not been reached.
 
 2.7.115 Mr Metcalf observed that there had been 'no balancing comment that he [Jowitt] saw the other parties extensively liable although clearly he does expect them to make a contribution'.[^78-9014] Consequently, the Chief Constable was advised that the police case had to be realistic – there was no point in trying to defend the 'absolute indefensible'.
 
@@ -4765,7 +4843,9 @@ Thus the total sum of £4 million was contributed by other parties to a total li
 
 2.7.124 In the absence of such evidence, it appears clear that the contribution of £4 million made by the other parties amounted to approximately one fifth of the total of £19.8 million known to have been paid out by SYP in damages to the bereaved and injured.[^83-9014]
 
-Compensation claims and settlements 2.7.125 Compensation payments to SYP officers were covered by SYP's employer's liability insurance policy. They totalled £1.5 million. The funds from which compensation payments to the injured and bereaved were made came from six sources: South Yorkshire Police Authority's public liability insurance cover (£8.5 million); South Yorkshire Police Authority's financial reserves (£4.5 million); special payments from the Home Office (£2.8 million); and as a result of the contribution hearings (£1.5 million from SWFC, £1.5 million from Eastwood & Partners and £1 million from SCC).
+#### Compensation claims and settlements
+
+2.7.125 Compensation payments to SYP officers were covered by SYP's employer's liability insurance policy. They totalled £1.5 million. The funds from which compensation payments to the injured and bereaved were made came from six sources: South Yorkshire Police Authority's public liability insurance cover (£8.5 million); South Yorkshire Police Authority's financial reserves (£4.5 million); special payments from the Home Office (£2.8 million); and as a result of the contribution hearings (£1.5 million from SWFC, £1.5 million from Eastwood & Partners and £1 million from SCC).
 
 2.7.126 South Yorkshire Police Authority's Finance and General Purposes Committee met on 8 December 1989 to consider the implications of the decision to settle some compensation claims from the bereaved and injured. Press reports that estimated the final cost of claims as £50 million were noted, but regarded as speculation fuelled mainly by solicitors acting for the claimants. The Police Authority's public liability insurance cover with MMI was limited to £8.5 million.
 
@@ -4820,8 +4900,6 @@ The problem with compensation liability following Hillsborough … although the 
 2.7.144 Since that time, payments made by the Police Authority from its funds in the settlement of claims totalled £2.227 million while reserves placed on outstanding claims stood at £5.078 million. The resulting overall total of £19.8 million represented a substantial increase on initial estimates. The uniqueness of Hillsborough was highlighted thus: 'Hillsborough has re-written the rules and will have caused all police authorities to review the limits of their public liability policies. South Yorkshire Police Authority now have an indemnity limit under their policy of £21m and this is currently under review'.
 
 2.7.145 Ultimately, the Police Authority's case was persuasive and the Home Office agreed to provide £1 million in March 2000 in support of outstanding compensation payments (although it declined to provide financial assistance in support of former officers' defence costs). Following further discussion, an additional £1 million was provided in the next financial year, followed by £800,000 in 2002/03.[^95-9014]
-
-Conclusion: what
 
 #### Conclusion: what is added to public understanding
 
@@ -5070,7 +5148,9 @@ Conclusion: what
 
 2.8.91 Following the meeting, the Hillsborough Steering Committee recorded its appreciation to the DPP's office.[^40-8]
 
-The pre-inquest review 2.8.92 On 6 March Dr Popper held a 'pre-inquest review' meeting with families' lawyers and two representatives of the Hillsborough Family Support Group. Dr Popper recorded the primary objective of the mini-inquests in his preparatory notes: 'at the end of the hearing bereaved should hopefully know where it has been possible to establish the when and where of death'.[^41-9016] They would be 'of limited scope ... Under no circumstances will we deal at this stage with How and even less with Why or Whom to blame'.
+##### The pre-inquest review
+
+2.8.92 On 6 March Dr Popper held a 'pre-inquest review' meeting with families' lawyers and two representatives of the Hillsborough Family Support Group. Dr Popper recorded the primary objective of the mini-inquests in his preparatory notes: 'at the end of the hearing bereaved should hopefully know where it has been possible to establish the when and where of death'.[^41-9016] They would be 'of limited scope ... Under no circumstances will we deal at this stage with How and even less with Why or Whom to blame'.
 
 2.8.93 The process should not be 'detrimental' to the investigation by the DPP, who had agreed to limitations 'in the interests of justice not least that of the bereaved'. Dr Popper intended to release medical evidence and blood alcohol levels for each of the deceased, their movements on the day and, where possible, 'to indicate where the deceased was seen in a particular pen'.
 
@@ -5092,13 +5172,17 @@ The pre-inquest review 2.8.92 On 6 March Dr Popper held a 'pre-inquest review' m
 
 2.8.101 However, this raised potential difficulties regarding costs as collective representation had been agreed with the insurers: 'After great difficulty we have persuaded the Municipal Mutual Insurers to fund the cost of "block representation" and this means that a member of this Committee will be present throughout the entire period the Inquests are [meeting] but if your client wants you to appear personally, you must deal with the question of your costs for doing so directly with M.M.I.'
 
-Summarised evidence read by WMP 2.8.102 The Coroner's decision to provide summarised evidence to families and have summaries read by WMP officers before the jury was welcomed by the Steering Committee as an act of kindness:
+##### Summarised evidence read by WMP
+
+2.8.102 The Coroner's decision to provide summarised evidence to families and have summaries read by WMP officers before the jury was welcomed by the Steering Committee as an act of kindness:
 
 we believe that this move by H.M. Coroner to impart information to families to be applauded and we have taken the liberty of making the point in open Court through the press. [He] is under no obligation to act in the way that he has and we believe that his stated intentions to assist families are entirely genuine and we trust that those families who you represent will accept this move on his behalf in the way which we believe that it is intended.
 
 2.8.103 A further reason for welcoming the release of summarised evidence was that the solicitors would 'be in a better position to assess the pre-death terror/pre-death pain and suffering element in the damages claim and you will in due cause [sic] receive our further views on this aspect in a future [Steering Committee] Bulletin, together with a report on continuing negotiations with the insurers'.
 
-Conclusion: what is added to public understanding • In public statements the Coroner explained that his decision to hold preliminary hearings on a limited basis (mini-inquests) was in response to representations from families' lawyers. The disclosed documents show that the Coroner took Counsel's advice before deciding to hold mini-inquests, a decision initially rejected by the WMP investigation team. • The procedures adopted for the presentation of evidence to the jury, particularly WMP investigating officers reading witnesses' summarised statements, prevented examination of the evidence. This undermined its reliability and this became a serious issue of concern regarding 'sufficiency' of inquiry. • This process, while agreed by the bereaved families' legal representatives, was accepted on the assumption that questions and inconsistencies within summaries would be fully examined at the generic stage of the inquests. This occurred only in a limited number of cases. • Following the mini-inquests, the families' legal representatives conveyed their clients' satisfaction with the process to the Coroner. Yet families' correspondence demonstrates serious concerns regarding what they considered to be a flawed process which left many questions unanswered.
+#### Conclusion: what is added to public understanding
+
+• In public statements the Coroner explained that his decision to hold preliminary hearings on a limited basis (mini-inquests) was in response to representations from families' lawyers. The disclosed documents show that the Coroner took Counsel's advice before deciding to hold mini-inquests, a decision initially rejected by the WMP investigation team. • The procedures adopted for the presentation of evidence to the jury, particularly WMP investigating officers reading witnesses' summarised statements, prevented examination of the evidence. This undermined its reliability and this became a serious issue of concern regarding 'sufficiency' of inquiry. • This process, while agreed by the bereaved families' legal representatives, was accepted on the assumption that questions and inconsistencies within summaries would be fully examined at the generic stage of the inquests. This occurred only in a limited number of cases. • Following the mini-inquests, the families' legal representatives conveyed their clients' satisfaction with the process to the Coroner. Yet families' correspondence demonstrates serious concerns regarding what they considered to be a flawed process which left many questions unanswered.
 
 %%page 269%%
 
@@ -5126,7 +5210,9 @@ Conclusion: what is added to public understanding • In public statements the C
 
 %%page 272%%
 
-Preparation for the generic stage of the inquests 2.9.6 On 1 April 1990 Leslie Sharp, Chief Constable of Cumbria, was appointed to take overall responsibility for the criminal and disciplinary investigations, replacing Geoffrey Dear, the outgoing West Midlands Police (WMP) Chief Constable. CC Sharp would head the WMP team with Detective Chief Inspector Nick Foster at his side. The context and significance of the change of management was discussed between Michael Kennedy and Christopher Newell within the Crown Prosecution Service.[^2-9017]
+#### Preparation for the generic stage of the inquests
+
+2.9.6 On 1 April 1990 Leslie Sharp, Chief Constable of Cumbria, was appointed to take overall responsibility for the criminal and disciplinary investigations, replacing Geoffrey Dear, the outgoing West Midlands Police (WMP) Chief Constable. CC Sharp would head the WMP team with Detective Chief Inspector Nick Foster at his side. The context and significance of the change of management was discussed between Michael Kennedy and Christopher Newell within the Crown Prosecution Service.[^2-9017]
 
 2.9.7 Mr Newell was concerned whether there was 'any more to this than meets the eye'. It seemed anomalous that a senior investigating officer would be appointed to manage investigations conducted by WMP. He asked: 'What's going on?!' Mr Kennedy replied there was 'nothing sinister' about the newly promoted Deputy Chief Constable Mervyn Jones' secondment. It had been agreed a year earlier in anticipation of an earlier end to the inquiry. Normally CC Dear's replacement would have been the new West Midlands Chief Constable but he had been at Hillsborough as a spectator; hence CC Sharp's appointment.
 
@@ -5148,7 +5234,9 @@ Preparation for the generic stage of the inquests 2.9.6 On 1 April 1990 Leslie S
 
 I felt that it was essential that we should actually get this pinpointed accurately. I also felt that it might be worth then, having analysed alcohol levels to see if [sic] a. what they showed and b. whether any statistically interesting matters would be drawn. I felt that in the interests of justice and fairness, one had to try and weave together the behaviour mood of the crowd, the effect if any of alcohol in crowd behaviour on them and the contagion which this might have spread to everybody there. The effect if any that this might have had on officers, the physical nature of the stadium together with assigning turnstiles etc., the broken barrier and finally and by no means least, the organisation and policing efforts which had been put in place. 2.9.16 While he acknowledged that the condition of the stadium and police assumptions about alcohol consumption were issues, the blood alcohol levels of those who died, late arrival of fans, crowd behaviour and 'contagion' would be explored in contrast to 'what had happened' at the Taylor Inquiry.
 
-The status of evidence 2.9.17 In late August 1990 Dr Popper met DCC Jones and other WMP officers.5 At the meeting there was concern that SYP would be 'seeking to establish as much evidence as they can so far as the culpability of those who attended the match ... to illustrate that the fans contributed to the outcome and that drunkenness and disobedience to directions played a major part'. 2.9.18 The SYP focus would be 'ticketless fans who were perhaps motivated to force the situation where the gates were opened'. Further, SYP would emphasise 'the culpability of the club in as far as the capacity, signing, stewarding and issuing of tickets are concerned ... on Eastwood and Partners on barrier and turnstile issues ... [and] the nepotism of Sheffield City Council in the licensing arrangements'. 2.9.19 These issues would also 'assist their [SYP's] civil case which may be heard by the time the inquests take place'. Individual officers represented at the inquests would be motivated 'to defend themselves against any police disciplinary proceedings and, of course, any criminal proceedings which may follow a voluntary bill of indictment'. 2.9.20 On 30 August 1990 CC Sharp notified Dr Popper that the DPP had decided there was insufficient evidence for the criminal prosecution of any individual and his report would be submitted to 'the Chief Constable of South Yorkshire Police so that he ... can consider whether any officer should face disciplinary charges'.[^6-9017]
+##### The status of evidence
+
+2.9.17 In late August 1990 Dr Popper met DCC Jones and other WMP officers.5 At the meeting there was concern that SYP would be 'seeking to establish as much evidence as they can so far as the culpability of those who attended the match ... to illustrate that the fans contributed to the outcome and that drunkenness and disobedience to directions played a major part'. 2.9.18 The SYP focus would be 'ticketless fans who were perhaps motivated to force the situation where the gates were opened'. Further, SYP would emphasise 'the culpability of the club in as far as the capacity, signing, stewarding and issuing of tickets are concerned ... on Eastwood and Partners on barrier and turnstile issues ... [and] the nepotism of Sheffield City Council in the licensing arrangements'. 2.9.19 These issues would also 'assist their [SYP's] civil case which may be heard by the time the inquests take place'. Individual officers represented at the inquests would be motivated 'to defend themselves against any police disciplinary proceedings and, of course, any criminal proceedings which may follow a voluntary bill of indictment'. 2.9.20 On 30 August 1990 CC Sharp notified Dr Popper that the DPP had decided there was insufficient evidence for the criminal prosecution of any individual and his report would be submitted to 'the Chief Constable of South Yorkshire Police so that he ... can consider whether any officer should face disciplinary charges'.[^6-9017]
 
 %%page 274%%
 
@@ -5160,7 +5248,9 @@ The status of evidence 2.9.17 In late August 1990 Dr Popper met DCC Jones and ot
 
 2.9.29 DCC Jones assured Dr Popper that there would be 'a smooth transition between criminal/ disciplinary investigations and the coronal enquiry'. CC Sharp, DCC Jones noted, would continue to be responsible for disciplinary investigations 'until such a time that he and Mr Wells have agreed that there is nothing further to be considered'.
 
-Disclosure of statements 2.9.30 Dr Popper wrote to DCC Jones regarding the release of statements and documents, confirming 'that these should remain confidential until after the conclusion of the D.P.P. inquiry (which has now happened) and the Inquests'.[^14-9017] Referring to restrictions in a previous case he concluded, 'I would have no authority to order the disclosure of statements to third parties'.
+##### Disclosure of statements
+
+2.9.30 Dr Popper wrote to DCC Jones regarding the release of statements and documents, confirming 'that these should remain confidential until after the conclusion of the D.P.P. inquiry (which has now happened) and the Inquests'.[^14-9017] Referring to restrictions in a previous case he concluded, 'I would have no authority to order the disclosure of statements to third parties'.
 
 2.9.31 In the interest of fairness, however, he considered the same information should be available to all interested parties. Although statements had 'been made available to South Yorkshire Police solely for the use in disciplinary proceedings', it presented 'recipients with a very major problem of ensuring that information supplied for one purpose is not used for others'.
 
@@ -5184,7 +5274,9 @@ Disclosure of statements 2.9.30 Dr Popper wrote to DCC Jones regarding the relea
 
 2.9.40 The main points of the Phillips Report[^20-9017] would be emphasised alongside 'the police view that crowd obduracy (non-cooperation) was of a most unusual degree and alcohol a far greater factor than the Taylor report states'. Mr Metcalf undertook to ask Dr Popper 'to ask West Mid [sic], who have full access to both used and unused statements and questionnaire material, to identify the best non-police (independent) witnesses in this regard'.
 
-Consulting the bereaved families 2.9.41 On 19 September Dr Popper wrote to the Hillsborough Steering Committee to request 'names and other appropriate details of any witness or witnesses whom you would like me to consider calling to give evidence at the resumed Inquests'.[^21-9017]
+##### Consulting the bereaved families
+
+2.9.41 On 19 September Dr Popper wrote to the Hillsborough Steering Committee to request 'names and other appropriate details of any witness or witnesses whom you would like me to consider calling to give evidence at the resumed Inquests'.[^21-9017]
 
 2.9.42 Ten days later Dr Popper recorded a conversation with Mr Doug Fraser, solicitor from the Hillsborough Steering Committee, in which the families' reactions to the 'interim inquest' were discussed. Mr Fraser considered 'it [mini-inquest stage] went very well', finishing 'within a few minutes of the scheduled time over a two and a half week period'.[^22-9017]
 
@@ -5196,7 +5288,9 @@ Consulting the bereaved families 2.9.41 On 19 September Dr Popper wrote to the H
 
 2.9.45 According to the HFSG representatives, Dr Popper had been 'quite clearly aggressive' towards families, despite their 'polite' requests for information on the organisation of the inquests. The HFSG expressed concern about the discretionary power of the Coroner, the lack of information received by families, that 'fundamental issues appertaining to this disaster' would remain unresolved, and about their lawyers' strength of commitment. 2.9.46 The HFSG rationale for accepting the conditions of the mini-inquests, including their non-controversial content, had been that they would receive medical evidence on each of the deceased and be able to challenge persistent slurs of drunkenness made against their loved ones. Their objective had been to bring 'truth to the public ... by having people questioned in an open court'. 2.9.47 This, they stated, had not happened and some of the summarised evidence was inaccurate. They were also concerned that WMP officers had provided the investigating force for LJ Taylor, the DPP and the Coroner. 2.9.48 Soon after this meeting Mr Fraser informed Dr Popper that, in fact, several families had 'some small queries on the individual inquests and [asked] was I proposing to deal with these and if so when'.[^24-9017] Dr Popper noted that he 'hadn't really intended to do that but I would consider the point'. Mr Fraser suggested that families' solicitors would organise requests in writing to be dealt with by correspondence or at the start of the generic stage of the inquests. Dr Popper agreed. 2.9.49 Four days later Mr Fraser wrote to Dr Popper enclosing a large file of requests from families. He referred to an announcement by Dr Popper that he would 'consider re-opening a number of interim inquests if families supplied you with details of why they wanted their own particular case re-opening and that you would be prepared to consider putting back from 3.15pm to about 4.00pm the point at which you would stop taking evidence'.[^25-9017] 2.9.50 Mr Fraser concluded, 'we have received a large number of letters and documents in respect of both matters'. This letter calls into question the accuracy of Mr Fraser's comment, made less than two weeks earlier, reporting that the 'vast majority of families' were satisfied with the outcome of the mini-inquests.
 
-The scope of the generic hearing 2.9.51 Dr Popper met DCC Jones and senior WMP officers to consider his prepared 'schema for the Inquest', including 'schedules of witnesses'.[^26-9017] DCC Jones was unhappy 'with the revised version in which I suggested that we would take the evidence of supporters first followed by others'. This, he believed, 'would give an unbalanced impression'. 2.9.52 In selecting witnesses for the generic inquests, the 'object of the exercise was to try and give a rounded and balanced view of what people had seen or perceived both from supporters as well as others'. Dr Popper 'suggested that it was important that we dealt with supporters and lay people first so that we could try and give as much notice as possible to them. I explained that I had not yet looked at police witnesses because I had not had time'. 2.9.53 Dr Popper also considered the 'background statement' to be read in court, stating that 'it would probably be better if this was given by several people rather than one person and arrangements were put in hand for the appropriate officers to start preparing a statement'. This would be sent to solicitors for comments.
+##### The scope of the generic hearing
+
+2.9.51 Dr Popper met DCC Jones and senior WMP officers to consider his prepared 'schema for the Inquest', including 'schedules of witnesses'.[^26-9017] DCC Jones was unhappy 'with the revised version in which I suggested that we would take the evidence of supporters first followed by others'. This, he believed, 'would give an unbalanced impression'. 2.9.52 In selecting witnesses for the generic inquests, the 'object of the exercise was to try and give a rounded and balanced view of what people had seen or perceived both from supporters as well as others'. Dr Popper 'suggested that it was important that we dealt with supporters and lay people first so that we could try and give as much notice as possible to them. I explained that I had not yet looked at police witnesses because I had not had time'. 2.9.53 Dr Popper also considered the 'background statement' to be read in court, stating that 'it would probably be better if this was given by several people rather than one person and arrangements were put in hand for the appropriate officers to start preparing a statement'. This would be sent to solicitors for comments.
 
 %%page 278%%
 
@@ -5254,7 +5348,9 @@ For practical purposes the 'how' will apply to all the ninety-five deceased. Tec
 
 %%page 281%%
 
-The verdict and bereaved families' concerns 2.9.77 As the opening of the resumed inquests approached, the Coroner continued to receive letters from bereaved families reiterating their concerns that the mini-inquests had failed to answer questions specific to the precise circumstances in which their loved ones died. Discrepancies were raised regarding timing, location, identification, time of death, inaccuracies on post mortem reports and inconsistencies between statements.
+#### The verdict and bereaved families' concerns
+
+2.9.77 As the opening of the resumed inquests approached, the Coroner continued to receive letters from bereaved families reiterating their concerns that the mini-inquests had failed to answer questions specific to the precise circumstances in which their loved ones died. Discrepancies were raised regarding timing, location, identification, time of death, inaccuracies on post mortem reports and inconsistencies between statements.
 
 2.9.78 One letter, from a bereaved mother to the Hillsborough Steering Committee, raised the 3.15pm cut-off point, an issue of increasing concern to families, stating that as her son was pronounced dead at 4pm the resumed inquests would be 'of no use to us'.[^34-9017] Other letters made the same point.
 
@@ -5282,7 +5378,9 @@ The verdict and bereaved families' concerns 2.9.77 As the opening of the resumed
 
 2.9.84 These were the issues raised by families interviewed for research conducted into the aftermath of the disaster and published in April 1990.[^38-9017] Dr Popper's suggestion was that the Coroners' Society should consider these issues and develop 'the best possible methodology for dealing with viewing and identification of deceased people in a major disaster situation'.
 
-The Memorial to the Attorney General 2.9.85 By February 1992 questions regarding the conduct of the inquests were under consideration within the Attorney General's office.[^39-9017] An internal memorandum disclosed to the Panel noted: 'It seems clear that the coroner has, within the framework of his inquest, set out to try and dispel any lingering misunderstandings and doubts as much as possible. He cannot be criticised for insufficiency of enquiry'.
+#### The Memorial to the Attorney General
+
+2.9.85 By February 1992 questions regarding the conduct of the inquests were under consideration within the Attorney General's office.[^39-9017] An internal memorandum disclosed to the Panel noted: 'It seems clear that the coroner has, within the framework of his inquest, set out to try and dispel any lingering misunderstandings and doubts as much as possible. He cannot be criticised for insufficiency of enquiry'.
 
 2.9.86 The Attorney General's attention was drawn to two 'aspects of the inquest'. First, that the inquests were held in two parts. Second, that the Coroner had relied 'very heavily on written statements rather than calling witnesses'. It was presumed 'that this was to avoid the same witnesses having to be called time and time again in relation to each individual deceased'.
 
@@ -5300,7 +5398,9 @@ The Memorial to the Attorney General 2.9.85 By February 1992 questions regarding
 
 2.9.92 Third, the Memorialists considered that in several cases 'the emergency services and the shortcomings in their response may have played a part in the causation of their relatives' deaths'. 2.9.93 The final issue, and the most significant, was that the bereaved had been led 'to believe that the question of "how" their relatives met their deaths would be fully investigated at the resumed inquest' including all events up to the time of their actual deaths. This included issues of 'preventability' and the adequacy of the emergency response. 2.9.94 The application submitted that the imposition by the Coroner of the 3.15pm cut-off had prevented inquiry into the specific circumstances of each death and whether effective medical intervention could have saved lives, thus rejecting evidence that should have been put to the jury and resulting in 'insufficiency of inquiry'. 2.9.95 On 31 July 1992 the Attorney General received advice on the application.[^41-9017] Noting the timeframe between LJ Taylor's Interim Report and the criminal investigation, the advice recorded that the 'coroner appears to have been motivated by an appreciation of the desire of individual families to know the details of the fate of their loved ones'. 2.9.96 Thus the Coroner had 'decided to hear evidence in relation to each deceased confined to the statutory questions of "who" the deceased was and "when" and "where" he met his death' and 'indicated that he would postpone all wider investigation into the further question of "how" the deceased came by their deaths – and the extent to which fault played a part in that causation – until after the decision by the DPP on whether to initiate criminal proceedings'. 2.9.97 The advice to the Attorney General also noted that: 'the form of the "mini inquests" was unorthodox': 'In each case the coroner took evidence from the pathologist' followed by 'evidence from a police officer who summarised the evidence obtained from eye witnesses as to the movements of the deceased on the day of the disaster, the sightings made of them at the time of the fatal crush, the findings of their bodies on the pitch, any attempts at resuscitation made, the taking of their bodies to the temporary mortuary in the gym, and the certification of death'. 2.9.98 A second police officer then was taken 'through all the documentary evidence' relating to the deceased. While the advice noted that the adopted procedure did not appear to comply with the Coroners Rules it concluded that it did not 'follow that such irregularity renders a fresh inquest necessary in the interests of justice'. 2.9.99 In August 1992, the Attorney General announced that he had rejected the application on the basis that a fresh inquest was not considered to be necessary in the interests of justice.
 
-Judicial Review 2.9.100 On 6 April 1993, the High Court granted leave to six families to apply for a judicial review of the original inquest verdicts on grounds similar to those put before the Attorney General and on 14 May Dr Popper received a letter from his successor, Christopher Dorries.[^42-9017] Mr Dorries had been reported as 'having no objection' to the application for a judicial review. He stated, however, that '[n]othing could be further from the truth and indeed I cannot actually think of anything more futile than the proceedings that are currently taking place ... the arguments are (in the main) weak and illogical'.
+#### Judicial Review
+
+2.9.100 On 6 April 1993, the High Court granted leave to six families to apply for a judicial review of the original inquest verdicts on grounds similar to those put before the Attorney General and on 14 May Dr Popper received a letter from his successor, Christopher Dorries.[^42-9017] Mr Dorries had been reported as 'having no objection' to the application for a judicial review. He stated, however, that '[n]othing could be further from the truth and indeed I cannot actually think of anything more futile than the proceedings that are currently taking place ... the arguments are (in the main) weak and illogical'.
 
 %%page 284%%
 
@@ -5342,7 +5442,9 @@ She had never felt that she had got the facts or had her questions answered and 
 
 %%page 286%%
 
-A continuing controversy 2.9.116 In October 1996 prior to the television screening of Jimmy McGovern's drama-documentary, Hillsborough, the South Yorkshire West District Coroner since Dr Popper's retirement, Christopher Dorries, wrote to Dr Popper anticipating 'that the conduct of the inquest, particularly the 3.15pm cut off and the way that relatives were dealt with generally is likely to form the subject of much adverse comment'.[^46-9017]
+#### A continuing controversy
+
+2.9.116 In October 1996 prior to the television screening of Jimmy McGovern's drama-documentary, Hillsborough, the South Yorkshire West District Coroner since Dr Popper's retirement, Christopher Dorries, wrote to Dr Popper anticipating 'that the conduct of the inquest, particularly the 3.15pm cut off and the way that relatives were dealt with generally is likely to form the subject of much adverse comment'.[^46-9017]
 
 2.9.117 Mr Dorries 'very much doubted that the complimentary remarks made by the High Court about your handling of the matter will get much of a mention'. He was 'rather concerned about this because I think that the picture likely to be left in the minds of the average local viewer will be of a Coroners Office that is uncaring and (possibly) incompetent'.
 
@@ -5360,7 +5462,9 @@ A continuing controversy 2.9.116 In October 1996 prior to the television screeni
 
 %%page 287%%
 
-The Stuart-Smith Scrutiny 2.9.124 In November 1997 Dr Popper met LJ Stuart-Smith accompanied by Michael Burgess of the Coroners' Society.[^48-9017] While their discussion of the imposition of the 3.15pm cut-off is considered in Chapter 10, LJ Stuart-Smith covered a range of other related issues raised in meetings with the bereaved.
+#### The Stuart-Smith Scrutiny
+
+2.9.124 In November 1997 Dr Popper met LJ Stuart-Smith accompanied by Michael Burgess of the Coroners' Society.[^48-9017] While their discussion of the imposition of the 3.15pm cut-off is considered in Chapter 10, LJ Stuart-Smith covered a range of other related issues raised in meetings with the bereaved.
 
 2.9.125 LJ Stuart-Smith summarised the procedure at the mini-inquests. It was his 'impression' that, in relation to each of the deceased, WMP summarised the evidence 'culled from various witnesses' tracing the movement from leaving home to the last point of contact.
 
@@ -5413,8 +5517,6 @@ It seemed to me that it is very unfair on a Coroner to have to deal with a situa
 2.9.142 LJ Stuart-Smith had been under the impression that his information had come from the CPS who had been advised by Dr Popper. At this point in the meeting the Coroners' Society representative interjected: 'It may be more correct, sir, to say the rest of it was kept locally'.
 
 2.9.143 LJ Stuart-Smith simply repeated the word, 'Locally'. The Coroners' Society representative added, 'Without necessarily identifying where'. 'Unfortunately', stated Dr Popper, 'I cannot remember what we actually did. I know we had a store room, a secure room, for the legal representatives so they did not have to carry everything'.
-
-Conclusion: what
 
 #### Conclusion: what is added to public understanding
 
@@ -5625,7 +5727,9 @@ Conclusion: what
 
 2.10.75 While noting the bereaved families' 'deep instinct to know the circumstances in which their relatives died' he concluded that 'this was not a case in which it will be right to order a fresh inquest'.[^26-10] His ruling accepted the medical opinion of the pathologists, supported the Coroner in his interpretation of that opinion and confirmed the appropriateness of the 3.15pm cut-off.
 
-The continuing controversy 2.10.76 In December 1996, following the screening of Jimmy McGovern's Hillsborough, Sue McDougall of the Operational Policing Policy Unit at the Home Office wrote to the Home Secretary, Michael Howard. She noted that a significant issue had been raised by the drama-documentary: 'the suggestion that some of the victims were still alive at
+#### The continuing controversy
+
+2.10.76 In December 1996, following the screening of Jimmy McGovern's Hillsborough, Sue McDougall of the Operational Policing Policy Unit at the Home Office wrote to the Home Secretary, Michael Howard. She noted that a significant issue had been raised by the drama-documentary: 'the suggestion that some of the victims were still alive at
 
 3.30 pm ... The coroner is reported in the press to have said that he thinks he might have been mistaken insisting on the 3.15 deadline'.[^27-9019] This had 'increased the demands for a fresh inquest'. 2.10.77 Paul Pugh, also at the Unit, wrote to the Chief Constable of SYP, Richard Wells, informing him of renewed calls for a further public inquiry.[^28-9019] He stated that the Home Secretary would need to be convinced that a further inquiry would be in the public interest and was 'particularly anxious to establish whether any new evidence has emerged'. 2.10.78 While the Home Secretary did not have the authority to reopen inquests, 'the relatives have expressed continuing anger that the Coroner imposed a 3.15pm cut off point after which he would not take any evidence'. CC Wells replied that according to the 'professional view' of the SYP officers involved with the earlier inquiries and investigations there was no new evidence but the Force would be 'content to have this view challenged'.[^29-9019] 2.10.79 Several weeks later CC Wells wrote again to the Unit's Police Policy Directorate.[^30-9019] He emphasised that there was no new evidence and commented that issues raised in the drama-documentary had been 'aired' at the Taylor Inquiry and the inquests. Regarding the 3.15pm cut-off, the pathologists' evidence alongside the Coroner's observations 'led him [Dr Popper] to believe that 3.15pm cut-off was appropriate'. 2.10.80 On 10 March 1997 a Home Office meeting considered the implications of material submitted by the Hillsborough Family Support Group (HFSG) calling for a new inquiry.[^31-9019] Prior to the meeting, however, there had been 'no examination of the material supplied' and it was 'unclear' whether 'it had any real significance'. 2.10.81 Within days the Attorney General received advice regarding the HFSG submission.[^32-9019] It noted evidence from Dr Ed Walker about the emergency response and its implications for the 3.15pm cut-off. The claim was that Dr Walker's evidence undermined the Coroner's decision. 2.10.82 The advice rejected the claim, noting that the cut-off point had been 'found to be fully justifiable by the Divisional Court'. Consequently, there was no justification for the Attorney General to review the decision. Further, it was considered 'significant' that the HFSG barrister had 'not advised a further application'.
 
@@ -5633,7 +5737,9 @@ The continuing controversy 2.10.76 In December 1996, following the screening of 
 
 2.10.83 Months later the HFSG submission continued to resonate within the Attorney General's office. Dame Barbara Mills, then Director of Public Prosecutions (DPP), wrote to the Attorney General presenting the background to the case and detailing previous judgments.[^33-9019] She noted that the HFSG had 'continued to press for more and more inquiries into the cause of the disaster'. 2.10.84 Its 'new evidence' centred on video-tape footage, a statement and an affidavit from Sheffield Wednesday Football Club's design and maintenance engineer responsible for CCTV coverage and from Dr Walker who had attempted resuscitation at the Northern General Hospital. In assessing the video material and the engineer's evidence Dame Barbara considered that 'his criticisms come nowhere near the standard of proof required for criminal liability'. 2.10.85 Regarding Dr Walker's evidence she stated that there was 'no evidence ... that anyone with serious crush injuries could have survived' given that '[i]rrevocable brain damage will ensue within four to six minutes of the crushing'. She concluded that 'there is no new evidence as alleged by the HFSG and their legal representatives, and therefore no grounds for reopening the police investigation into the Hillsborough disaster'.
 
-The Stuart-Smith Scrutiny 2.10.86 Two months later the recently elected Labour Government's Home Secretary, Jack Straw, noted that the 'alleged new evidence and allegations made in the Granada television programme' had been examined at the Home Office, and also by the Attorney General and the DPP.[^34-9019] These considerations had found 'no evidence to justify a new public enquiry, a re-opening of the inquest, or the prosecution of individuals'. 2.10.87 However, he was 'certain that public concern will not be allayed by a reassurance from the Home Office that there is no new evidence' (emphasis in original). Consequently he proposed 'an independent examination of the alleged new evidence by a senior legal figure – a respected judge ... or perhaps a senior Counsel ... sufficiently senior and respected to command public confidence' (as noted in Part 1, this became the 'scrutiny' of 'new evidence' conducted by Lord Justice Stuart-Smith). 2.10.88 A handwritten comment on a document, from the Prime Minister's Private Secretary for Home Affairs to Liz Lloyd of the Number 10 Policy Unit, questioned Mr Straw's proposal: 'Liz, doesn't this strike you as a silly precedent?' Ms Lloyd wrote to the Prime Minister, Tony Blair, disclosing Mr Straw's position and the rationale behind the Scrutiny proposal: 'JS does not believe there is sufficient new evidence for a) a new inquiry, b) reopening the inquest or c) prosecution of individuals. However, he believes that this is not publicly acceptable unless it comes from an independent source'.[^35-9019] 2.10.89 A handwritten note from the Private Secretary added that it was not necessary 'to intervene on this, but we should watch for JS setting up too many inquiries of this kind'. An additional note, apparently written by the Prime Minister, asked 'Why? What is the point?'. 2.10.90 Ms Lloyd wrote to Mr Blair two weeks later referring to his scepticism concerning the need to 'look anew' at Hillsborough.[^36-9019] She stated that Mr Straw considered the Scrutiny necessary because 'he and others had given assurance before the election that the new evidence would be examined'. An added comment from Mr Blair's Private Secretary noted: 'I understand your caution, but the Home Secretary is really too far into this (and was before the election) to pull back now'.
+##### The Stuart-Smith Scrutiny
+
+2.10.86 Two months later the recently elected Labour Government's Home Secretary, Jack Straw, noted that the 'alleged new evidence and allegations made in the Granada television programme' had been examined at the Home Office, and also by the Attorney General and the DPP.[^34-9019] These considerations had found 'no evidence to justify a new public enquiry, a re-opening of the inquest, or the prosecution of individuals'. 2.10.87 However, he was 'certain that public concern will not be allayed by a reassurance from the Home Office that there is no new evidence' (emphasis in original). Consequently he proposed 'an independent examination of the alleged new evidence by a senior legal figure – a respected judge ... or perhaps a senior Counsel ... sufficiently senior and respected to command public confidence' (as noted in Part 1, this became the 'scrutiny' of 'new evidence' conducted by Lord Justice Stuart-Smith). 2.10.88 A handwritten comment on a document, from the Prime Minister's Private Secretary for Home Affairs to Liz Lloyd of the Number 10 Policy Unit, questioned Mr Straw's proposal: 'Liz, doesn't this strike you as a silly precedent?' Ms Lloyd wrote to the Prime Minister, Tony Blair, disclosing Mr Straw's position and the rationale behind the Scrutiny proposal: 'JS does not believe there is sufficient new evidence for a) a new inquiry, b) reopening the inquest or c) prosecution of individuals. However, he believes that this is not publicly acceptable unless it comes from an independent source'.[^35-9019] 2.10.89 A handwritten note from the Private Secretary added that it was not necessary 'to intervene on this, but we should watch for JS setting up too many inquiries of this kind'. An additional note, apparently written by the Prime Minister, asked 'Why? What is the point?'. 2.10.90 Ms Lloyd wrote to Mr Blair two weeks later referring to his scepticism concerning the need to 'look anew' at Hillsborough.[^36-9019] She stated that Mr Straw considered the Scrutiny necessary because 'he and others had given assurance before the election that the new evidence would be examined'. An added comment from Mr Blair's Private Secretary noted: 'I understand your caution, but the Home Secretary is really too far into this (and was before the election) to pull back now'.
 
 %%page 303%%
 
@@ -5703,7 +5809,9 @@ The Stuart-Smith Scrutiny 2.10.86 Two months later the recently elected Labour G
 
 2.10.119 This position was followed up in a further undated, unattributed briefing.53 It noted that the jury had heard evidence about those who died after admission to hospital and of those who had been resuscitated. The evidence of death beyond 3.15pm 'would not therefore effect [sic] the inquest'. The briefing also noted that in 1993 the issue had been examined thoroughly in the Divisional Court establishing 'no other cause of death' and the decision to impose a 'cut-off point' had been 'considered and reasonable'.
 
-The Scrutiny's findings 2.10.120 LJ Stuart-Smith published his findings in February 1998.[^54-9019] He noted that the Coroner's ruling on the 3.15 cut-off 'had been subjected to a good deal of criticism'. While the Divisional Court had upheld the Coroner's ruling, Counsel for the HFSG had submitted that 'fresh evidence discovered since 1993' undermined that Judgment.
+##### The Scrutiny's findings
+
+2.10.120 LJ Stuart-Smith published his findings in February 1998.[^54-9019] He noted that the Coroner's ruling on the 3.15 cut-off 'had been subjected to a good deal of criticism'. While the Divisional Court had upheld the Coroner's ruling, Counsel for the HFSG had submitted that 'fresh evidence discovered since 1993' undermined that Judgment.
 
 %%page 307%%
 
@@ -5723,7 +5831,9 @@ The Scrutiny's findings 2.10.120 LJ Stuart-Smith published his findings in Febru
 
 2.10.128 He concluded that 'it is quite impossible on the basis of the evidence and submissions now advanced to impugn the verdict of accidental death or suggest that the Divisional Court should again be invited judicially to review that verdict'.
 
-Kevin Williams 2.10.129 The most highly publicised case regarding the effectiveness of the emergency response, and the treatment received in the minutes following the rescue from the pens, was the death of Kevin Williams. As the documents demonstrate, this was also a case that created considerable concern within the Attorney General's office.
+#### Kevin Williams
+
+2.10.129 The most highly publicised case regarding the effectiveness of the emergency response, and the treatment received in the minutes following the rescue from the pens, was the death of Kevin Williams. As the documents demonstrate, this was also a case that created considerable concern within the Attorney General's office.
 
 %%page 308%%
 
@@ -5739,7 +5849,9 @@ Kevin Williams 2.10.129 The most highly publicised case regarding the effectiven
 
 2.10.135 The witness statements were dismissed as mistaken: that Kevin had 'twitched' rather than convulsed and air had passed from his body giving the appearance of speaking a word. 'Sadly', concluded Mr Wooler, 'the family are convinced that their son was alive for some time after he was removed from the stand at Hillsborough and that some form of "cover up" is afoot'.
 
-Memorial to the Attorney General, 1992 2.10.136 In the Memorial presented to the Attorney General the case was made that the evidence summaries presented by a WMP officer at the mini-inquest into Kevin's death established that according to the officers attending him on the pitch he was alive.57 While SC Martin's statement had been 'referred to with some scepticism' it had raised 'the possibility of survival long after 3.15pm ... and the question of whether death might have been prevented by more timely medical intervention'. 2.10.137 The Memorial noted that the Coroner had called WMP Inspector Robert Sawers whose re-interview with PC Bruder (noted above) had established that the phrase 'having convulsions' could be more appropriately described as a 'twitch' and 'that "whatever he felt there he cannot be categoric it was a pulse"'. The Coroner had also re-called the pathologist, Dr Slater, whose evidence was that death had been caused by a 'very very severe case of asphyxia' and 'four fractures to the voice box'. 2.10.138 The Memorial noted that further investigations 'revealed that considerable pressure was put on both [officers] to retract or qualify their evidence as to the signs of life they described in Kevin Williams'. It challenged the manner in which their evidence had been presented at the mini-inquest, particularly the 'second-hand accounts of [the officers'] original statements' and also 'the qualifications they had subsequently been persuaded to make to their original evidence'. 2.10.139 In a further memorandum from Mr Wooler to the Attorney General he advised that PC Bruder had 'resiled' from his revised statement and the intention of the visit by Insp Sawers 'was to persuade him to change his mind'.[^58-9019] Further, he stated that SC Martin had reverted to her original statement (May 1989) and her second statement, in March 1990, had been 'made after considerable pressure had been exerted upon her by the West Midlands Police'. 2.10.140 While SC Martin's second statement had not contradicted entirely her first, 'it did provide the coroner with a sound basis for treating her evidence as unreliable'. Mr Wooler concluded that the Kevin Williams case was the 'most unsatisfactory of all' the Memorials because 'the evidential position was confused at the inquest and has become even more confused subsequently'. Yet he doubted 'whether the uncertainties flowing from the confusing evidence do have any bearing on a legal issue', specifically a verdict of 'lack of care'. 2.10.141 While considering that the Coroner 'would certainly have been wise to take more oral evidence in this particular case', Mr Wooler advised that it was difficult to justify the case for a new inquest. He suggested that the applicant's solicitor might wish to take a further statement from PC Bruder. A handwritten comment added: 'You will wish to consider the difficulty of limiting the scope of the inquest if a fresh inquest is held. It could lead to a re-examination of the whole incident even though it concerned only one death'.
+##### Memorial to the Attorney General, 1992
+
+2.10.136 In the Memorial presented to the Attorney General the case was made that the evidence summaries presented by a WMP officer at the mini-inquest into Kevin's death established that according to the officers attending him on the pitch he was alive.57 While SC Martin's statement had been 'referred to with some scepticism' it had raised 'the possibility of survival long after 3.15pm ... and the question of whether death might have been prevented by more timely medical intervention'. 2.10.137 The Memorial noted that the Coroner had called WMP Inspector Robert Sawers whose re-interview with PC Bruder (noted above) had established that the phrase 'having convulsions' could be more appropriately described as a 'twitch' and 'that "whatever he felt there he cannot be categoric it was a pulse"'. The Coroner had also re-called the pathologist, Dr Slater, whose evidence was that death had been caused by a 'very very severe case of asphyxia' and 'four fractures to the voice box'. 2.10.138 The Memorial noted that further investigations 'revealed that considerable pressure was put on both [officers] to retract or qualify their evidence as to the signs of life they described in Kevin Williams'. It challenged the manner in which their evidence had been presented at the mini-inquest, particularly the 'second-hand accounts of [the officers'] original statements' and also 'the qualifications they had subsequently been persuaded to make to their original evidence'. 2.10.139 In a further memorandum from Mr Wooler to the Attorney General he advised that PC Bruder had 'resiled' from his revised statement and the intention of the visit by Insp Sawers 'was to persuade him to change his mind'.[^58-9019] Further, he stated that SC Martin had reverted to her original statement (May 1989) and her second statement, in March 1990, had been 'made after considerable pressure had been exerted upon her by the West Midlands Police'. 2.10.140 While SC Martin's second statement had not contradicted entirely her first, 'it did provide the coroner with a sound basis for treating her evidence as unreliable'. Mr Wooler concluded that the Kevin Williams case was the 'most unsatisfactory of all' the Memorials because 'the evidential position was confused at the inquest and has become even more confused subsequently'. Yet he doubted 'whether the uncertainties flowing from the confusing evidence do have any bearing on a legal issue', specifically a verdict of 'lack of care'. 2.10.141 While considering that the Coroner 'would certainly have been wise to take more oral evidence in this particular case', Mr Wooler advised that it was difficult to justify the case for a new inquest. He suggested that the applicant's solicitor might wish to take a further statement from PC Bruder. A handwritten comment added: 'You will wish to consider the difficulty of limiting the scope of the inquest if a fresh inquest is held. It could lead to a re-examination of the whole incident even though it concerned only one death'.
 
 %%page 309%%
 
@@ -6752,7 +6864,9 @@ Memorial to the Attorney General, 1992 2.10.136 In the Memorial presented to the
 
 %%page 359%%
 
-The Police Federation responds to the Taylor Interim Report 2.12.143 A month after the Taylor Interim Report was published Michael Shersby MP, who represented the Police Federation's interests in Parliament, met with the Home Secretary to discuss a range of issues, one of which was the 'Hillsborough Disaster'.[^56-9023] 2.12.144 In a document recording the meeting disclosed to the Panel, Mr Shersby reported that 'morale in South Yorkshire [SYP] had taken a great knock as a result of Lord Justice Taylor's interim report'. The police officers on duty 'felt they had been shouldered with an unfair portion of the blame'.
+##### The Police Federation responds to the Taylor Interim Report
+
+2.12.143 A month after the Taylor Interim Report was published Michael Shersby MP, who represented the Police Federation's interests in Parliament, met with the Home Secretary to discuss a range of issues, one of which was the 'Hillsborough Disaster'.[^56-9023] 2.12.144 In a document recording the meeting disclosed to the Panel, Mr Shersby reported that 'morale in South Yorkshire [SYP] had taken a great knock as a result of Lord Justice Taylor's interim report'. The police officers on duty 'felt they had been shouldered with an unfair portion of the blame'.
 
 2.12.145 There was also concern that the SYP solicitor had decided 'to eliminate some material from the police evidence to the inquiry'. This included 'emotional matters such as the alleged theft of items which had fallen from victims' pockets, and instances of those in the ground pouring urine on the police'. According to Mr Shersby the solicitor considered 'that these pieces of evidence were not relevant to the purpose of the Inquiry'.
 
@@ -6806,7 +6920,9 @@ However, I think that the view needs to be greatly amplified and that the genera
 
 2.12.167 Mr Judge commented that morale in the SYP rank and file was high 'and they repudiate the [Taylor] judgement'. He felt that it 'should come across in a debate and we should plan with Michael Shersby a counter attack'.
 
-The rank and file 2.12.168 The afternoon session of the meeting was introduced by Bob Lax, Chairman of the South Yorkshire Police Federation, and was attended by the Federation solicitors, CI Bettison, Inspector Gordon Sykes and many unnamed SYP officers. Opening the meeting, CI Bettison stated that the morning session had agreed that officers on duty at Hillsborough 'were the most professional experienced men in the service'. He quoted Superintendent Roger Greenwood's comments to the Sheffield Star in which he had stated his 'greatest admiration' for the 'heroics' of the police on duty at Hillsborough.
+##### The rank and file
+
+2.12.168 The afternoon session of the meeting was introduced by Bob Lax, Chairman of the South Yorkshire Police Federation, and was attended by the Federation solicitors, CI Bettison, Inspector Gordon Sykes and many unnamed SYP officers. Opening the meeting, CI Bettison stated that the morning session had agreed that officers on duty at Hillsborough 'were the most professional experienced men in the service'. He quoted Superintendent Roger Greenwood's comments to the Sheffield Star in which he had stated his 'greatest admiration' for the 'heroics' of the police on duty at Hillsborough.
 
 2.12.169 He then referenced the Taylor Interim Report: 'Most officers did all they could. Many supporters paid tribute'. Further: 'Over many years the South Yorkshire Police have given excellent service to the public'. The minutes of the meeting record CI Bettison as stating:
 
@@ -6830,7 +6946,9 @@ Someone shouted: 'Throw her up here. I'll fuck her'. When I came to that part of
 
 2.12.175 Documentary evidence considered in Chapter 2 does not confirm a significant number of ticketless fans, and CI Bettison responded to the meetings that 'Inspector King of Scotland Yard was asked to find out whether there was a conspiratorial effort – he could not find any direct evidence that Liverpool supporters held this conspiratorial view, apart from three isolated statements … in the pub'. Nor is there any evidence in the disclosed documents to confirm that there was a surge of badly behaved late arrivals, with or without tickets.
 
-Police officers' reactions to the Taylor Inquiry 2.12.176 Police officers present at the meeting were critical of the Taylor Inquiry, regarded repeatedly as a 'whitewash'. According to one, LJ Taylor 'knew that if the truth came out about Liverpool fans it would be the death of Liverpool [Football] Club' and the Interim Report had given 'Liverpool a carte blanche to do what they want'. The minutes record that his comments drew 'applause from the audience'.
+##### Police officers' reactions to the Taylor Inquiry
+
+2.12.176 Police officers present at the meeting were critical of the Taylor Inquiry, regarded repeatedly as a 'whitewash'. According to one, LJ Taylor 'knew that if the truth came out about Liverpool fans it would be the death of Liverpool [Football] Club' and the Interim Report had given 'Liverpool a carte blanche to do what they want'. The minutes record that his comments drew 'applause from the audience'.
 
 2.12.177 Another officer asserted that 'Lord Justice Taylor was not prepared to hear any criticisms of the Liverpool supporters'. South Yorkshire Police Federation Chairman Bob Lax stated that a WMP investigating officer had told him that LJ Taylor was determined to 'rush' his Interim Report against the wishes of the WMP team because 'they had not collated all the evidence collected about drinking'. Mr Judge was 'astounded' that evidence in police officers' statements 'was simply passed over by Counsel' and by LJ Taylor.
 
@@ -6989,7 +7107,7 @@ The Panel considers that the implementation of the Coroners and Justice Act 2009
 
 3.23 Unlike the regulatory framework under which central government and other designated public records bodies operate, there is no official archival legislation requiring the provision of archive services at local and regional level for records that have been created by an administrative body, or for other records in its custody. There are a number of Acts and Statutory Instruments that, to an extent, safeguard historical records, but the wording is often open to interpretation and archiving may be incomplete. This has been an issue for the Panel and, on occasion, has made the work of the Panel difficult.
 
-Public authorities
+##### Public authorities
 
 3.24 Public authorities, including the police forces and Ambulance Service involved, have disclosed a significant amount of documents and material to the Panel. As public authorities, they have statutory obligations to keep and maintain records for operational (and perhaps historical) reasons and may make arrangements to preserve important records.
 
@@ -6997,7 +7115,7 @@ Public authorities
 
 3.26 In summary, varying obligations are established in legislation affecting the eventual disposition of differently sourced records to any Distributed Permanent Archive. In the case of private records, they may never be deposited. Regarding Hillsborough, they will be accessible via the Panel's website. Thus the website becomes a critical part of the Permanent Archive as it holds material digitally which might not be accessible in its original form elsewhere.
 
-Records of police forces in England and Wales
+##### Records of police forces in England and Wales
 
 3.27 It has been a concern to the Panel that, with the exception of the Metropolitan Police, police forces in England and Wales are not subject to the Public Records Acts. Neither are police force documents part of the record of local government. In many cases the documentary evidence they hold is poor.[^6-9026]
 
@@ -7005,13 +7123,13 @@ Records of police forces in England and Wales
 
 3.28 Although there have been initiatives to improve their record keeping and archiving, a survey in 2003[^7-9026] found that only approximately one-third of police forces had archiving policies. Most indicated that contact with a local record office or archive was rare. Consequently, provision made by individual forces for publicly accessible archives has been, and remains, voluntary. This has led to wide variations in the preservation and availability of historic records in local record offices or national and local museums.
 
-Recommendation 2
+##### Recommendation 2
 
 The Panel recommends that police force records are brought under legislative control and that police forces are added to Part II of the First Schedule to the Public Records Act
 
 1958, thereby making them subject to the supervision of the Keeper of Public Records.
 
-Main locations for the Distributed Permanent Archive
+#### Main locations for the Distributed Permanent Archive
 
 3.29 The Panel was asked to consider options for providing a Permanent Archive for the Hillsborough documents. It proposes a Distributed Archive approach for the hard-copy material with the digital form being archived at The National Archives.
 
@@ -7021,7 +7139,7 @@ Main locations for the Distributed Permanent Archive
 
 3.32 Other public records are distributed throughout the UK according to the nature of the records and the suitability and locality of the repositories under the PoD arrangements. This well-established process has operated since the Public Records Act 1958 came into force and the Panel considers it should obtain in holding additional Hillsborough material.
 
-Recommendation 3
+##### Recommendation 3
 
 The Panel recommends that central government documents relating to Hillsborough which were disclosed to the Panel be transferred to The National Archives at Kew in due course, with redactions agreed by the Panel retained.
 
@@ -7033,7 +7151,7 @@ The Panel recommends that central government documents relating to Hillsborough 
 
 3.35 Removal of locally created public records (e.g. coroners' records) relating to Hillsborough from Sheffield to another location would be contrary to The National Archives' published disposition strategy and would give rise to several presentational issues locally. This would not serve to assist the making of a Permanent Archive and could disrupt the archiving process.
 
-Amount of original material involved
+##### Amount of original material involved
 
 3.36 Including central government material, the documents disclosed to the Panel amount to approximately 735 linear metres of archive boxes. Assuming that central government material is excluded, since it will be absorbed by The National Archives, approximately up to 700 linear metres of material will need to be accommodated by the PoDs.
 
@@ -7041,7 +7159,7 @@ Amount of original material involved
 
 3.38 Irrespective of costs which might be incurred in moving original records from one location to another, there are complicating issues relating to the relocation of records. Without the consent of the owners or relevant statutory authority, records cannot be removed from the custody of the creators of records or the repository in which they have been deposited in accordance with legislation and archival practice.
 
-Sheffield Archives
+##### Sheffield Archives
 
 3.39 Sheffield Archives is the records repository and archive service for the city of Sheffield and the South Yorkshire area, operated by Sheffield City Council under the Local Government (Records) Act 1962, the Local Government Act 1974 and other relevant legislation. Sheffield Archives also has been appointed as a PoD under Section 4(1) of the Public Records Act 1958 to hold locally created public records, including those of the NHS and Her Majesty's Coroner.
 
@@ -7049,7 +7167,7 @@ Sheffield Archives
 
 3.41 Normally, costs associated with preservation and provision of access to the local records relating to the Hillsborough disaster would be borne by Sheffield Archives but they may require additional funding to absorb the deposits. This would unite the material disclosed to the Panel, as a large proportion of the records created by official and other bodies in connection with the Hillsborough disaster is held in Sheffield Archives.
 
-Liverpool Record Office
+##### Liverpool Record Office
 
 3.42 Liverpool Record Office is the principal archive repository for the City of Liverpool and the Merseyside area, operated by Liverpool City Council. It fulfils functions similar to those of Sheffield Archives and has many important official and deposited private collections relating to the city and Merseyside sub-region. It is also a PoD under Section 4(1) of the Public Records Act 1958.
 
@@ -7059,9 +7177,13 @@ Liverpool Record Office
 
 3.44 The Record Office can provide a digital service and professional support close to where many families, survivors and others affected by the disaster live. Liverpool Football Club and other organisations have indicated that they are prepared to deposit documents and records relating to Hillsborough at the Record Office.
 
-Recommendation 4 The Panel proposes a Distributed Permanent Archive of the original material at Sheffield Archives and Liverpool Record Office and for central government records at The National Archives at Kew. Such a Distributed Archive is in keeping with the nature of the records and the services which the three archives can best provide and which they are willing to do.
+##### Recommendation 4
 
-Recommendation 5 Private owners of documents and other material made available to the Panel, especially where those records have been disclosed on the Hillsborough website, should be encouraged to deposit their records in the archives.
+The Panel proposes a Distributed Permanent Archive of the original material at Sheffield Archives and Liverpool Record Office and for central government records at The National Archives at Kew. Such a Distributed Archive is in keeping with the nature of the records and the services which the three archives can best provide and which they are willing to do.
+
+##### Recommendation 5
+
+Private owners of documents and other material made available to the Panel, especially where those records have been disclosed on the Hillsborough website, should be encouraged to deposit their records in the archives.
 
 ### From active digital archive to Permanent Archive
 
@@ -7322,7 +7444,9 @@ The Liverpool Law Society was the only other organisation that considered itself
 
 In keeping with the Panel's terms of reference and protocol, contributing organisations holding relevant documents and information were expected to arrange for that material to be archived and catalogued prior to disclosure to the Panel. In practice this did not happen and much of the material received by the Panel was neither archived nor catalogued. This task was carried out by a team of archivists working with the Panel.
 
-Redaction Processing agreements were developed with all major contributing organisations. All were asked to work within a redaction framework which established the expectations of the Panel regarding the protection of information from disclosure into the public domain. The principles established in the redaction framework held for the duration of the project. Redaction was minimal and only applied when considered necessary by the Panel. The Panel has redacted names to ensure the appropriate and necessary protection of identities of:
+#### Redaction
+
+Processing agreements were developed with all major contributing organisations. All were asked to work within a redaction framework which established the expectations of the Panel regarding the protection of information from disclosure into the public domain. The principles established in the redaction framework held for the duration of the project. Redaction was minimal and only applied when considered necessary by the Panel. The Panel has redacted names to ensure the appropriate and necessary protection of identities of:
 
 - members of the public who provided written observations on events associated with the tragedy
 - civil servants who were not members of the Senior Civil Service at the time a particular document was produced
@@ -7349,9 +7473,13 @@ In all but two cases, information that could be disclosed to the public has been
 
 All redactions have been reviewed and agreed by an individual Panel member. Additional sampling of those decisions was carried out by other Panel members. Minimal material was redacted by donating organisations on the grounds of legal professional privilege or confidentiality. It has not been necessary to refer any decisions on redaction by public sector organisations to the Advisory Council on National Records and Archives (as outlined in Section 11 of the Protocol on Disclosure of Information).
 
-Parallel disclosure To progress the volume of material provided by the contributing organisations it was essential to digitise all documents deemed to be relevant. Donating organisations (restricted to their material only), Panel members, the Panel's researchers and members of the secretariat were given access to a secure online database of digitised material in order to facilitate the Panel's work.
+#### Parallel disclosure
 
-Our report The Panel's obligations regarding publishing a report were established in its terms of reference as follows:
+To progress the volume of material provided by the contributing organisations it was essential to digitise all documents deemed to be relevant. Donating organisations (restricted to their material only), Panel members, the Panel's researchers and members of the secretariat were given access to a secure online database of digitised material in order to facilitate the Panel's work.
+
+#### Our report
+
+The Panel's obligations regarding publishing a report were established in its terms of reference as follows:
 
 - a description of the terms of reference and work of the Panel
 - an overview of the information reviewed by the Panel and publicly disclosed

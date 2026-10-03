@@ -108,6 +108,17 @@ function locator(after: Rendered) {
   return (text: string): string | null => {
     const words = norm(text).split(" ");
     let found = -1;
+    // A heading the old text ran into the paragraph ("Initial response 2.4.42 By this time, however, …", a8l):
+    // the paragraph opens at its printed number, which the new text, with the heading cut out, opens on.
+    const label = words.findIndex((w, i) => i > 0 && i <= 12 && /^\d+$/.test(w) && /^\d+$/.test(words[i + 1] ?? "") && /^\d+$/.test(words[i + 2] ?? "") && !/^\d+$/.test(words[i - 1]));
+    if (label > 0) {
+      for (const k of [12, 8, 6]) {
+        if (words.length - label < k) continue;
+        found = once(words.slice(label, label + k).join(" "));
+        if (found >= 0) break;
+      }
+      if (found >= 0) return idAt(found);
+    }
     for (const k of [12, 8, 6, 4]) {
       if (words.length < k && k !== 4) continue;
       found = once(words.slice(0, k).join(" "));
