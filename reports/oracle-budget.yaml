@@ -1,0 +1,50 @@
+# Per-report budgets for the layout oracle's precise signals (bead b78.9; docs/quality-harness.md).
+#
+# Checked by `pnpm ingest verify` (in verify.sh), which needs the source PDFs: the oracle reads the
+# PDF's layout, so it cannot run in `pnpm quality`. Each number is the most findings the oracle may
+# count for that signal and report; verify fails above it. Counts start at the oracle's counts when
+# the budgets were set and only move down: `pnpm ingest verify <id> --ratchet-oracle` lowers a
+# report's budgets to its current counts, never up. Raising one is a hand edit with a
+# `# why: <bead id>` comment on the line.
+#
+# Only signals whose precision on the golden pages is high enough to hold a report to (rule in
+# docs/quality-harness.md, "Which signals get budgets"): markers-unlinked for every report;
+# paragraphs-oversplit for Challenger, Columbia, Leveson and Philip Morris; headings-missed for
+# Hillsborough and Leveson; quotes-spurious for Columbia. No budget for paragraphs-merged,
+# quotes-missed, headings-spurious or markers-spurious until the oracle reflects the pipeline's
+# quote and list conventions.
+
+reports:
+  litvinenko-inquiry:
+    markers-unlinked: 103
+  jack-smith-vol1:
+    markers-unlinked: 32
+  us-psi-financial-crisis:
+    markers-unlinked: 598
+  challenger-accident:
+    markers-unlinked: 23
+    paragraphs-oversplit: 347
+  uk-leveson-inquiry:
+    headings-missed: 1350
+    markers-unlinked: 7497
+    paragraphs-oversplit: 2100
+  columbia-accident:
+    markers-unlinked: 287
+    paragraphs-oversplit: 537
+    quotes-spurious: 290
+  us-911-commission:
+    markers-unlinked: 18
+  us-deepwater-horizon:
+    markers-unlinked: 1445
+  us-v-philip-morris:
+    markers-unlinked: 38
+    paragraphs-oversplit: 958
+  uk-hillsborough-panel:
+    headings-missed: 390
+    markers-unlinked: 931
+  uk-saville-inquiry:
+    markers-unlinked: 9
+  uk-chilcot-inquiry:
+    markers-unlinked: 283
+  us-lehman-examiner:
+    markers-unlinked: 221
