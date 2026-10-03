@@ -18,6 +18,7 @@ defaults:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 0
     note-text-in-body: 0.093
     note-citation-vocabulary: 0
     furniture-paragraph: 0.089
@@ -44,6 +45,7 @@ reports:
     bare-marker-after-quote: 2  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 3
+    note-reference-sequence: 134  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 68  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 372
@@ -67,6 +69,7 @@ reports:
     bare-marker-after-quote: 6  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 13
+    note-reference-sequence: 20  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 29  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 75
@@ -90,6 +93,7 @@ reports:
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 9
+    note-reference-sequence: 92  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 8
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -113,6 +117,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 22  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 64  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (layoutMarkers returns Appendix 7's numbered restriction-notice paragraphs 10-17 from fake notes to the body, where they read as note text: +5)
     note-citation-vocabulary: 0
     furniture-paragraph: 16  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (the same Appendix 7 'Amendments to this Restriction Notice' lines, now in the body: +4)
@@ -136,6 +141,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -159,6 +165,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -182,6 +189,7 @@ reports:
     bare-marker-after-quote: 2
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
+    note-reference-sequence: 200  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 13
     note-citation-vocabulary: 0
     furniture-paragraph: 198  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship)
@@ -205,6 +213,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -228,6 +237,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 5  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -251,6 +261,7 @@ reports:
     bare-marker-after-quote: 193  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 416
+    note-reference-sequence: 756  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 269  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 25
@@ -274,6 +285,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 4  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 5  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 5  # why: post v0.15.0 integration
@@ -297,6 +309,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 8  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 6
     note-citation-vocabulary: 0
     furniture-paragraph: 5
@@ -320,6 +333,7 @@ reports:
     bare-marker-after-quote: 5  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 48  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 44
