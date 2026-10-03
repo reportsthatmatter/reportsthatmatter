@@ -9,6 +9,8 @@ import type { Line } from "../src/lib/score/layout";
 import { adjudicationStats, applyAdjudication, draftAdjudication, matchRow } from "../src/lib/score/adjudicated";
 import { evaluateSignals } from "../src/lib/score/signals";
 import { tokens, tokensBefore } from "../src/lib/score/tokens";
+import { alignPage, scorePages } from "../src/lib/score/pages";
+import { cleanWikitext } from "../src/lib/score/wikisource";
 import { renderArtifacts } from "@rtm/ingest";
 import { fmtDelta, joinAccuracy, mergeScores, referenceWarning, regressed, type Metrics } from "../src/lib/score/headline";
 import { goldenTable, oracleTable, parseVerify } from "../src/lib/score/scorecard";
@@ -387,5 +389,62 @@ describe("headline scores (38s.6)", () => {
     const base = { ...v, reports: { "jack-smith-vol1": { oracle: { "headings-missed": 90, "quotes-missed": 53 }, golden: { match: 4, total: 8, known: 4 } } } };
     expect(oracleTable(v, base)).toContain("96 (+6) ▲");
     expect(goldenTable(v, base)).toContain("3 (-1) ▼");
+  });
+});
+
+describe("wikisource pages as references (7d4y)", () => {
+  it("keeps the body, drops the running head, and turns note templates into markers", () => {
+    const page = cleanWikitext(
+      `<noinclude><pagequality level="4" user="X" />{{rvh|22|CHAPTER|THE REPORT}}</noinclude>controller at 8:53, saying “we may have a hijack”.{{9-11|1|125}}\n\n{{blockquote|\n'''Manager:''' We {{. . .}} need help.{{9-11|1|126}}\n}}\n{{note|121|121.|bold=no}}Note text here.\n{{note|122|122.}}More note.`,
+    );
+    expect(page.printed).toBe("22");
+    expect(page.quality).toBe(4);
+    expect(page.text).toBe("controller at 8:53, saying “we may have a hijack”. Manager: We ... need help.");
+    expect(page.markers.map((m) => [m.label, tokensBefore(page.text, m.offset)])).toEqual([["125", 10], ["126", 14]]);
+    expect(page.notes).toEqual(["Note text here.", "More note."]);
+  });
+
+  it("reads <ref> as an unlabelled marker, an endnote link as a labelled one, and drops table attributes and images", () => {
+    const page = cleanWikitext(`<noinclude>{{rh||4|}}</noinclude>Some words.<ref>House of Commons, 2003.</ref> More words.<sup>[[9/11 Commission Report/Notes/Part 8#endnote_18|18]]</sup>\n[[File:p148.jpg|center|400px|A caption]]\n{|\n|-\n|style="width: 200px"| 2 May || Start\n|}`);
+    expect(page.printed).toBe("4");
+    expect(page.text).toBe("Some words. More words. 2 May Start");
+    expect(page.markers.map((m) => m.label)).toEqual([null, "18"]);
+    expect(page.notes).toEqual(["House of Commons, 2003."]);
+  });
+});
+
+describe("page references (7d4y)", () => {
+  const body = Array.from({ length: 30 }, (_, i) => `word${i} filler${i * 3} text${i * 5}`).join(" ");
+  const md = (page2: string) => `%%page 1%%\n\nIntro paragraph with some words here today.\n\n%%page 2%%\n\n${page2}\n\n%%page 3%%\n\nAnother paragraph after the page break entirely.\n`;
+
+  it("scores a page's words with a margin for text that runs over the break", () => {
+    const ours = parseOurs(md(body + "[^7] next."));
+    const ref = { pdf: 2, page: 2, source: "t", quality: 5, mapping: "given", ...inlineText(body + "[^7] next.") };
+    const { pages, totals } = scorePages(ours, [ref]);
+    expect(pages[0].wer).toBe(0);
+    expect(totals.markerP).toBe(1);
+    expect(totals.markerR).toBe(1);
+  });
+
+  it("counts substitutions, deletions, insertions, inserted numbers and unmatched markers", () => {
+    const ours = parseOurs(md("alpha beta gamma delta epsilon zeta eta theta 7 iota kappa lambda."));
+    const text = "alpha beta gamma DELTA epsilon eta theta[^7] iota kappa lambda mu.";
+    const ref = { pdf: 2, page: 2, source: "t", quality: 5, mapping: "given", ...inlineText(text) };
+    const { pages } = scorePages(ours, [ref]);
+    const p = pages[0];
+    expect(p.sub).toBe(0);
+    expect(p.del).toBe(1); // mu
+    expect(p.ins).toBe(2); // zeta, and the plain digit 7 (DELTA folds to delta: a match)
+    expect(p.insNum).toBe(1);
+    expect(p.refMarkers).toBe(1);
+    expect(p.ourMarkers).toBe(0);
+    expect(p.matched).toBe(0);
+  });
+
+  it("alignPage gives the boundary map", () => {
+    const a = alignPage(["a", "b", "c", "d"], ["x", "a", "b", "q", "c", "d", "y"]);
+    expect([a.sub, a.del, a.ins]).toEqual([0, 0, 1]);
+    expect(a.bmap[4]).toBe(6);
+    expect(a.start).toBe(1);
   });
 });

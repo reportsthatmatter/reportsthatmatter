@@ -85,6 +85,27 @@ Hillsborough is a hybrid (`html_overlay`): the panel website's Wayback pages (mi
 
 A new reference is an entry in `REFERENCES` (edition, set, licence, files, caveats, `version` if it is a different version of the text) and, for a new format, an adapter that emits blocks: `{type: heading|paragraph|quote|list|note|table|contents, level, num, text, section, markers: [{label, offset, note}]}`, notes as `{type: note, id, label, text}`. Footnote markers are removed from `text` and kept at their character offset. Commit the report repo's `reference/` on a branch and open a PR, like any report change.
 
+## Page-level references: word and footnote-marker accuracy per page
+
+A page reference is one printed page's body words as a person checked them, with the footnote markers placed. Where a report has any, `pnpm score <id>` also writes `score-out/<id>/pages.md` and `pages.json` (word error rate and marker precision and recall per page and overall, the worst pages three ways, and the first errors of each page in reading order) and adds a "Page-level references" table to the summary (reportsthatmatter-7d4y). Two sources, both in the report repo:
+
+- **Wikisource, `reference/wikisource/`** (9/11 and the Chilcot executive summary): `pages/<n>.wiki` the page's wikitext exactly as the MediaWiki API served it, `manifest.json` (index title, API, fetch date, user agent, licence, per page the page and revision id, timestamp, proofread level and SHA-256, the proofreaders credited, and the SHA-256 of `pagemap.json`) and `pagemap.json` (each Wikisource page's PDF page, how it was decided, and our own page-label offset). Only pages marked proofread (3) or validated (4) are used. The texts are public domain (9/11) or OGL (Chilcot); Wikisource's transcription and formatting are CC BY-SA 4.0, so the mirror is a measurement reference kept next to the report, credited in the manifest, not served on the site.
+- **Checked transcriptions, `reference/page-text/<label>.txt`**: for a report with no Wikisource (scans, or any golden page worth carrying its full text), a plain-text file named by the page's `%%page N%%` label in `full.md`, the page's body read off the page image and corrected word by word, footnote markers written `[^12]` as in `full.md`. `golden.yaml` stays the structural check (`pnpm ingest verify` ignores keys it does not know, so an entry can name its text file in a comment or a future `text_file:` key); the text file is what the scorer reads.
+
+```bash
+node scripts/wikisource/fetch.mjs <repo> <id>            # politely mirror the Page: namespace (50 pages a request, 1.5 s apart, maxlag, descriptive User-Agent)
+pnpm exec tsx scripts/wikisource/map.mjs <repo> <pdf>    # map to PDF pages (4-word shingle overlap with pdftotext), write pagemap.json, credit proofreaders, pin the map in the manifest
+```
+
+How a page is scored (`src/lib/score/pages.ts`, `wikisource.ts`):
+
+1. The Wikisource wikitext is cleaned to body words: the running head and status (`<noinclude>`), layout templates, wiki markup and table attributes go; `{{9-11|chapter|note}}`, `<ref>` and endnote links become markers (the text of a note is kept apart and not scored: our notes are endnotes, not placed on pages).
+2. Our body words for the page (full.md blocks between `%%page N%%` markers; note blocks excluded) plus 400 words either side are aligned to the reference words, free at both ends of our window, so a paragraph that runs over a page break (it sits wholly on one page in full.md) is not an error. WER is substitutions, deletions and insertions inside the aligned stretch over reference words. Words are letters and digits, case and diacritics folded, so punctuation and quote style never count.
+3. A reference marker and one of ours match when they sit at the same word boundary (one word of tolerance) and have the same label when the reference has one. Precision is matched over our markers on these pages, recall matched over the reference's.
+4. The same report also gives WER leaving out inserted bare numbers: a footnote marker left as plain digits in the text (Chilcot's, all 283) is an inserted word here and a missing marker.
+
+Our `%%page%%` labels are the PDF page in some reports and the printed number in others (9/11: printed, PDF page = label + 17; Chilcot: printed, PDF page = label + 4), so `pagemap.json` records `our_label_offset`, measured against `full.md`. Pages whose label falls before our first or after our last `%%page%%` (9/11's roman-numbered front matter, its appendix notes) and pages with no body words are not scored. Not measured: note text (on 9/11's endnote pages, Chilcot's `<ref>` text), figure contents beyond what the transcriber typed, and anything the transcribers got wrong: the reference's own error rate is not known (check the worst pages against the page image before acting on one).
+
 ## How the alignment works
 
 1. Both editions become word streams (letters and digits, lower case, diacritics folded); footnote markers are taken out and kept at their word position. Body and notes are aligned separately.
