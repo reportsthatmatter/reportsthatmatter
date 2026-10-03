@@ -39,3 +39,4 @@ export function measure(input: QualityInput): Measurement {
   };
 }
 export * from "./numbered-lists";
+export * from "./note-sequence";

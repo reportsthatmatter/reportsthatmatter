@@ -10,6 +10,7 @@
 import { paragraphDensityCheck } from "../density";
 import { endsSentence, frontMatterPages, pageNumber, stripMarkers, toBlocks, type Block } from "./blocks";
 import { bodyOf, noteDefinitions, pairNoteReferences } from "./note-pairing";
+import { noteReferenceSequence } from "./note-sequence";
 import { numberedProseList } from "./numbered-lists";
 
 export type Meta = {
@@ -640,6 +641,7 @@ export const SIGNALS: Signal[] = [
   bareMarkerAfterQuote,
   noteMarkerWrongNote,
   noteMarkerUnpaired,
+  noteReferenceSequence,
   noteTextInBody,
   noteCitationVocabulary,
   furnitureParagraph,

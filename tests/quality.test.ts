@@ -14,6 +14,7 @@ import {
   SIGNALS,
   noteCitationVocabulary,
   noteMarkerUnpaired,
+  noteReferenceSequence,
   noteMarkerWrongNote,
   noteTextInBody,
   numberedProseList,
@@ -299,6 +300,51 @@ describe("quote-share-parity (D)", () => {
   it("is flat when quotations are spread evenly", () => {
     const pages = Array.from({ length: 20 }, (_, i) => `%%page ${i + 1}%%\n\n> Quote.\n\nProse.`).join("\n\n");
     expect(quoteParity(input(pages)).gap).toBe(0);
+  });
+});
+
+describe("note-reference-sequence (3ezs)", () => {
+  const run = (markdown: string) => noteReferenceSequence.run(input(markdown)).map((f) => f.excerpt.replace(/ —.*$/, ""));
+  const refs = (labels: string[]) => labels.map((l, i) => `Claim ${i}.[^${l}] More.`).join("\n\n");
+
+  it("is quiet when references run 1..n once each", () => {
+    expect(run(refs(["1", "2", "3", "4"]))).toEqual([]);
+    expect(run(refs(["1-1", "2-1", "1-2", "2-2", "3-2"]))).toEqual([]);
+  });
+
+  it("reports a gap once for a stretch, a repeat and an out-of-order reference", () => {
+    expect(run(refs(["1", "2", "5", "6", "7", "8"]))).toEqual(["gap: notes 3-4 never referenced in report (6 of 8 linked)"]);
+    expect(run(refs(["1", "2", "2", "3"]))).toEqual(["repeat: note 2 again in report"]);
+    // one stray number (a year read as a note) is one finding, not one per later reference
+    expect(run(refs(["1", "2", "202", "3", "4", "5", "6"]))).toEqual(["out of order: note 202 in report reads after 2, before 3"]);
+  });
+
+  it("reads chapters off [^N-C] labels, and the note half off the definitions (9/11: note-chapter; Saville: volume-note)", () => {
+    // chapter 2's note 2 is missing, and chapter 1's note 3 is defined but never referenced
+    const md = [refs(["1-1", "2-1", "1-2", "3-2"]), "## Notes", "[^1-1]: a", "[^2-1]: b", "[^3-1]: c", "[^1-2]: d", "[^3-2]: e"].join("\n\n");
+    expect(run(md)).toEqual([
+      "gap: note 3 never referenced in ch1 (2 of 3 linked)",
+      "gap: note 2 never referenced in ch2 (2 of 3 linked)",
+    ]);
+    // Saville's [^1-442] is note 442 of volume 1: more distinct values in the second half
+    const saville = [refs(["1-1", "1-2", "1-3"]), "## Notes", ...Array.from({ length: 30 }, (_, i) => `[^1-${i + 1}]: n`), ...Array.from({ length: 5 }, (_, i) => `[^2-${i + 1}]: n`)].join("\n\n");
+    expect(run(saville)).toEqual([]);
+  });
+
+  it("starts a new run where a restarting numbering returns to a low number at a heading", () => {
+    const md = ["## One", refs(["1", "2", "3", "4", "5"]), "## Two", refs(["1", "2", "3", "5"])].join("\n\n");
+    expect(run(md)).toEqual(["gap: note 4 never referenced in run 2, from \"Two\" (4 of 5 linked)"]);
+    // a stray 2 in a run is not a restart
+    expect(run(["## One", refs(["1", "2", "3", "4", "5", "2", "6"])].join("\n\n"))).toEqual(["repeat: note 2 again in report"]);
+  });
+
+  it("does not repeat bare-footnote-marker: a run where most notes were never linked reports no gaps", () => {
+    expect(run(refs(["1", "40"]))).toEqual([]);
+  });
+
+  it("is a gated count signal", () => {
+    expect(noteReferenceSequence.kind).toBe("count");
+    expect(SIGNALS.map((x) => x.id)).toContain("note-reference-sequence");
   });
 });
 
