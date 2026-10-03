@@ -200,6 +200,16 @@ an interactive session.
   `quality-last.json` was recorded at a different ingest version than the
   installed one). `pnpm publish-report <id>` prints that
   report's own quality row before it uploads.
+  **The PR body carries one block, `pnpm scorecard`** (38s.6): that quality diff,
+  the layout-oracle counts, the golden-page table and the headline score deltas
+  (`docs/scores.json` against `origin/main`: boundary P/R/F1, page-break join
+  accuracy over all, high-confidence and adjudicated rows, marker P/R, WER, the
+  reference's own error rate), development and held-out sets apart, plus a
+  checklist. After the release ships, `pnpm quality ratchet --record`,
+  `pnpm scorecard --record --no-score` and `pnpm score`, and commit
+  `reports/quality-last.json`, `reports/verify-last.json` and `docs/scores.json`.
+  A report in `reports/score-sets.yaml` is development (tune on it) or held out
+  (report only; a pass must not lower it and must not be tuned on it).
 - **Ids move; aliases keep links alive** (reportsthatmatter-q8c). Joins, hybrid
   sources and corrections move paragraph ids, and a `?p=<old>` link (a shared
   quote, a posted card, a highlight) must still land. Every report has
@@ -222,6 +232,10 @@ an interactive session.
   `aliases.yaml` (us-911-commission#9) is not read: the site's is the
   authority, because only it knows what was published. `pnpm aliases seed`
   rebuilds both files from `reports/<id>/full.md`'s git history.
+- **Append to [`docs/design/lessons.md`](docs/design/lessons.md).** After your
+  final-report retro, add the lessons worth keeping (one line each, with the bead
+  or doc as evidence) in the same PR as your work. It is the running log the
+  improvement loop (38s) reads.
 - **Never weaken a fidelity check to make a report pass.** If a report cannot
   meet the gate, mark it `ingested: false` in the registry and record why. The
   checks exist to find exactly what a weakened check would hide.

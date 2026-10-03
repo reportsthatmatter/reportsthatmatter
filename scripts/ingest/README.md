@@ -69,3 +69,11 @@ regressions marked `▲`. A regression needs a bead; an improvement is locked in
 with `pnpm quality ratchet`. Once the release has shipped, `pnpm quality ratchet
 --record` and commit `reports/quality-last.json`. A new report's first ingest:
 `pnpm quality report <id>` and read the excerpts.
+
+**Integrator steps for an ingest release or pin-bump PR** (38s.6), after the re-ingest and `pnpm prerender`:
+
+1. `pnpm scorecard --out scorecard.md` (about a minute: it runs `pnpm score` and `pnpm ingest verify`; `--base <ref>` for another base, `--verify-log <file>` to reuse a saved verify run). Paste the block into the PR body. It holds the quality diff, the layout-oracle counts and the golden-page table (against `reports/verify-last.json`), and the headline score diff (`docs/scores.json` against the base: page-break join accuracy over all, high-confidence and adjudicated rows as "ours wrong / judged", boundary P/R/F1, marker P/R, WER, the reference's error rate; development and held-out sets apart).
+2. Read it. A `▲` or `▼` needs a bead or a sentence in the PR. A held-out score that fell means the pass was tuned on held-out or does not generalise: say which. A `pnpm score` warning about a reference over its ceiling means that report's numbers say little.
+3. Commit the regenerated `docs/scores.json` with the re-ingest (it is what the next release is diffed against); `pnpm score` reads the site's `reports/<id>/full.md`, so re-score after the re-ingest and aggregate, not before.
+4. After the release ships: `pnpm quality ratchet --record`, `pnpm scorecard --record --no-score`, `pnpm score`; commit `reports/quality-last.json`, `reports/verify-last.json`, `docs/scores.json`.
+5. Append what the release taught to [`docs/design/lessons.md`](../../docs/design/lessons.md).

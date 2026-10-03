@@ -1,0 +1,23 @@
+# Development and held-out reports for `pnpm score` (reportsthatmatter-38s.6).
+#
+# A pass (a heuristic, a threshold, a rule) is developed and tuned on the development reports only.
+# The held-out reports are how we find out whether it generalises: they are scored and reported
+# separately, never read for examples while writing the pass, and a PR must not lower them.
+# Moving a report between the sets is a reviewed change to this file, with the reason in the commit
+# (a held-out report that has been tuned on is development from then on, and the held-out set needs a
+# replacement). Each report repo's reference/manifest.json also carries `set`; `pnpm score` warns when
+# the two disagree, and this file wins.
+development:
+  - us-911-commission
+  - uk-saville-inquiry
+  - us-v-philip-morris
+held_out:
+  - columbia-accident
+  - uk-hillsborough-panel
+  - uk-chilcot-inquiry
+  - us-duelfer-report
+# A reference whose wrong-answer rate at adjudicated page breaks plus its no-answer share exceeds
+# the sum of these is too noisy to tune against: `pnpm score` warns.
+reference_ceiling:
+  error: 0.05
+  no_answer: 0.10

@@ -1,0 +1,267 @@
+{
+ "reports": {
+  "jack-smith-vol1": {
+   "oracle": {
+    "headings-missed": 96,
+    "headings-spurious": 37,
+    "markers-unlinked": 37,
+    "markers-spurious": 81,
+    "paragraphs-oversplit": 152,
+    "paragraphs-merged": 425,
+    "quotes-spurious": 51,
+    "quotes-missed": 53
+   },
+   "golden": {
+    "match": 3,
+    "total": 8,
+    "known": 5
+   }
+  },
+  "us-psi-financial-crisis": {
+   "oracle": {
+    "headings-missed": 153,
+    "headings-spurious": 5,
+    "markers-unlinked": 514,
+    "markers-spurious": 33,
+    "paragraphs-oversplit": 132,
+    "paragraphs-merged": 858,
+    "quotes-spurious": 226,
+    "quotes-missed": 91
+   },
+   "golden": {
+    "match": 2,
+    "total": 7,
+    "known": 5
+   }
+  },
+  "challenger-accident": {
+   "oracle": {
+    "headings-missed": 236,
+    "headings-spurious": 76,
+    "markers-unlinked": 24,
+    "markers-spurious": 138,
+    "paragraphs-oversplit": 347,
+    "paragraphs-merged": 1971,
+    "quotes-spurious": 331,
+    "quotes-missed": 212
+   },
+   "golden": {
+    "match": 0,
+    "total": 7,
+    "known": 7
+   }
+  },
+  "litvinenko-inquiry": {
+   "oracle": {
+    "headings-missed": 220,
+    "headings-spurious": 0,
+    "markers-unlinked": 103,
+    "markers-spurious": 162,
+    "paragraphs-oversplit": 255,
+    "paragraphs-merged": 1252,
+    "quotes-spurious": 184,
+    "quotes-missed": 46
+   },
+   "golden": {
+    "match": 1,
+    "total": 7,
+    "known": 6
+   }
+  },
+  "uk-leveson-inquiry": {
+   "oracle": {
+    "headings-missed": 1350,
+    "headings-spurious": 2,
+    "markers-unlinked": 7451,
+    "markers-spurious": 120,
+    "paragraphs-oversplit": 2100,
+    "paragraphs-merged": 2537,
+    "quotes-spurious": 319,
+    "quotes-missed": 1254
+   },
+   "golden": {
+    "match": 1,
+    "total": 7,
+    "known": 6
+   }
+  },
+  "columbia-accident": {
+   "oracle": {
+    "headings-missed": 93,
+    "headings-spurious": 4,
+    "markers-unlinked": 503,
+    "markers-spurious": 19,
+    "paragraphs-oversplit": 537,
+    "paragraphs-merged": 724,
+    "quotes-spurious": 290,
+    "quotes-missed": 214
+   },
+   "golden": {
+    "match": 0,
+    "total": 6,
+    "known": 6
+   }
+  },
+  "us-911-commission": {
+   "oracle": {
+    "headings-missed": 67,
+    "headings-spurious": 3,
+    "markers-unlinked": 18,
+    "markers-spurious": 17,
+    "paragraphs-oversplit": 113,
+    "paragraphs-merged": 2377,
+    "quotes-spurious": 29,
+    "quotes-missed": 164
+   },
+   "golden": {
+    "match": 2,
+    "total": 5,
+    "known": 3
+   }
+  },
+  "us-deepwater-horizon": {
+   "oracle": {
+    "headings-missed": 334,
+    "headings-spurious": 0,
+    "markers-unlinked": 2132,
+    "markers-spurious": 600,
+    "paragraphs-oversplit": 397,
+    "paragraphs-merged": 906,
+    "quotes-spurious": 31,
+    "quotes-missed": 72
+   },
+   "golden": {
+    "match": 0,
+    "total": 6,
+    "known": 6
+   }
+  },
+  "us-v-philip-morris": {
+   "oracle": {
+    "headings-missed": 0,
+    "headings-spurious": 27,
+    "markers-unlinked": 38,
+    "markers-spurious": 19,
+    "paragraphs-oversplit": 958,
+    "paragraphs-merged": 992,
+    "quotes-spurious": 261,
+    "quotes-missed": 345
+   },
+   "golden": {
+    "match": 1,
+    "total": 5,
+    "known": 4
+   }
+  },
+  "uk-hillsborough-panel": {
+   "oracle": {
+    "headings-missed": 390,
+    "headings-spurious": 0,
+    "markers-unlinked": 931,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 125,
+    "paragraphs-merged": 794,
+    "quotes-spurious": 22,
+    "quotes-missed": 49
+   },
+   "golden": {
+    "match": 0,
+    "total": 5,
+    "known": 5
+   }
+  },
+  "uk-saville-inquiry": {
+   "oracle": {
+    "headings-missed": 176,
+    "headings-spurious": 3,
+    "markers-unlinked": 1394,
+    "markers-spurious": 6,
+    "paragraphs-oversplit": 226,
+    "paragraphs-merged": 1230,
+    "quotes-spurious": 552,
+    "quotes-missed": 20
+   },
+   "golden": {
+    "match": 2,
+    "total": 5,
+    "known": 3
+   }
+  },
+  "uk-chilcot-inquiry": {
+   "oracle": {
+    "headings-missed": 13,
+    "headings-spurious": 3,
+    "markers-unlinked": 283,
+    "markers-spurious": 3,
+    "paragraphs-oversplit": 15,
+    "paragraphs-merged": 387,
+    "quotes-spurious": 6,
+    "quotes-missed": 76
+   },
+   "golden": {
+    "match": 2,
+    "total": 5,
+    "known": 3
+   }
+  },
+  "us-lehman-examiner": {
+   "oracle": {
+    "headings-missed": 45,
+    "headings-spurious": 5,
+    "markers-unlinked": 233,
+    "markers-spurious": 20,
+    "paragraphs-oversplit": 144,
+    "paragraphs-merged": 221,
+    "quotes-spurious": 143,
+    "quotes-missed": 99
+   },
+   "golden": {
+    "match": 0,
+    "total": 5,
+    "known": 5
+   }
+  }
+ },
+ "oracleVsGolden": {
+  "headings-missed": {
+   "tp": 23,
+   "fp": 24,
+   "fn": 19
+  },
+  "headings-spurious": {
+   "tp": 1,
+   "fp": 3,
+   "fn": 6
+  },
+  "markers-unlinked": {
+   "tp": 75,
+   "fp": 52,
+   "fn": 21
+  },
+  "markers-spurious": {
+   "tp": 8,
+   "fp": 13,
+   "fn": 3
+  },
+  "paragraphs-oversplit": {
+   "tp": 45,
+   "fp": 11,
+   "fn": 83
+  },
+  "paragraphs-merged": {
+   "tp": 15,
+   "fp": 132,
+   "fn": 1
+  },
+  "quotes-spurious": {
+   "tp": 15,
+   "fp": 4,
+   "fn": 13
+  },
+  "quotes-missed": {
+   "tp": 1,
+   "fp": 14,
+   "fn": 0
+  }
+ }
+}
