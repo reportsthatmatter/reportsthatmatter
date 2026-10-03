@@ -3,6 +3,11 @@ reports:
     title: "Report of Special Counsel Jack Smith, Volume One: The Election Case"
     authors: "Jack Smith, Special Counsel, U.S. Department of Justice"
     published_at: "January 2025"
+    common_name: "Jack Smith Report, Volume One"
+    also_known_as: ["Jack Smith Report: The Election Case", "Special Counsel report on the 2020 election case"]
+    issued_by: "Office of Special Counsel Jack Smith, U.S. Department of Justice"
+    date_published: "2025-01"
+    repo: jack-smith-report
     source_path: reports/jack-smith-vol1/full.md
     source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
     ingested: true
@@ -11,6 +16,12 @@ reports:
     title: "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse"
     authors: "U.S. Senate Permanent Subcommittee on Investigations"
     published_at: "13 April 2011"
+    common_name: "Levin–Coburn Financial Crisis Report"
+    also_known_as: ["Levin-Coburn report", "PSI report on the financial crisis"]
+    issued_by: "U.S. Senate Permanent Subcommittee on Investigations"
+    date_published: "2011-04-13"
+    repo: us-psi-financial-crisis
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-psi-financial-crisis/full.md
     source_url: "https://www.hsgac.senate.gov/subcommittees/investigations/reports?c=112"
     ingested: true
@@ -19,6 +30,12 @@ reports:
     title: "Investigation of the Challenger Accident"
     authors: "Committee on Science and Technology, U.S. House of Representatives"
     published_at: "October 1986"
+    common_name: "Challenger Accident Report (House Science Committee)"
+    also_known_as: ["House report on the Challenger accident"]
+    issued_by: "Committee on Science and Technology, U.S. House of Representatives"
+    date_published: "1986-10"
+    repo: challenger-accident
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/challenger-accident/full.md
     source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
     ingested: true
@@ -27,6 +44,12 @@ reports:
     title: "The Litvinenko Inquiry"
     authors: "Sir Robert Owen (Chairman)"
     published_at: "21 January 2016"
+    common_name: "Litvinenko Inquiry Report"
+    also_known_as: ["Owen report", "Report of the Litvinenko Inquiry"]
+    issued_by: "The Litvinenko Inquiry"
+    date_published: "2016-01-21"
+    repo: uk-litvinenko-inquiry
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/litvinenko-inquiry/full.md
     source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
     ingested: true
@@ -35,14 +58,24 @@ reports:
     title: "An Inquiry into the Culture, Practices and Ethics of the Press"
     authors: "The Right Honourable Lord Justice Leveson"
     published_at: "29 November 2012"
+    common_name: "Leveson Report"
+    also_known_as: ["Leveson Inquiry report", "Leveson report on press ethics"]
+    issued_by: "The Leveson Inquiry"
+    date_published: "2012-11-29"
+    repo: uk-leveson-inquiry
     source_path: reports/uk-leveson-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
     ingested: true
 
   - id: columbia-accident
-    title: "Columbia Accident Investigation Board Report, Volume I"
+    title: "Columbia Accident Investigation Board Report, Vol. I"
     authors: "Columbia Accident Investigation Board"
     published_at: "August 2003"
+    common_name: "Columbia Accident Investigation Board Report, Volume I"
+    also_known_as: ["CAIB report", "Columbia shuttle accident report"]
+    issued_by: "Columbia Accident Investigation Board"
+    date_published: "2003-08"
+    repo: us-columbia-shuttle-accident
     source_path: reports/columbia-accident/full.md
     source_url: "https://www.nasa.gov/columbia/home/CAIB_Vol1.html"
     ingested: true
@@ -51,6 +84,12 @@ reports:
     title: "The 9/11 Commission Report"
     authors: "National Commission on Terrorist Attacks Upon the United States"
     published_at: "22 July 2004"
+    common_name: "9/11 Commission Report"
+    also_known_as: ["The 9/11 Commission Report", "Final Report of the National Commission on Terrorist Attacks Upon the United States"]
+    issued_by: "National Commission on Terrorist Attacks Upon the United States"
+    date_published: "2004-07-22"
+    repo: us-911-commission
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-911-commission/full.md
     source_url: "https://www.9-11commission.gov/report/911Report.pdf"
     ingested: true
@@ -59,6 +98,11 @@ reports:
     title: "Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling"
     authors: "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling"
     published_at: "January 2011"
+    common_name: "Deepwater Horizon Oil Spill Commission Report"
+    also_known_as: ["National Oil Spill Commission report", "Deepwater Horizon commission report"]
+    issued_by: "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling"
+    date_published: "2011-01"
+    repo: us-deepwater-horizon
     source_path: reports/us-deepwater-horizon/full.md
     source_url: "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
     ingested: true
@@ -67,6 +111,11 @@ reports:
     title: "United States v. Philip Morris USA Inc.: Amended Final Opinion"
     authors: "Gladys Kessler, U.S. District Judge, District of Columbia"
     published_at: "17 August 2006"
+    common_name: "United States v. Philip Morris (Kessler Opinion)"
+    also_known_as: ["Kessler opinion", "Big Tobacco racketeering judgment"]
+    issued_by: "U.S. District Court for the District of Columbia"
+    date_published: "2006-08-17"
+    repo: us-v-philip-morris
     source_path: reports/us-v-philip-morris/full.md
     source_url: "https://www.justice.gov/sites/default/files/civil/legacy/2014/09/11/amended%20opinion_0.pdf"
     ingested: true
@@ -75,6 +124,12 @@ reports:
     title: "The Report of the Hillsborough Independent Panel"
     authors: "Hillsborough Independent Panel (the Rt Revd James Jones, Chair)"
     published_at: "12 September 2012"
+    common_name: "Hillsborough Independent Panel Report"
+    also_known_as: ["Hillsborough report", "Report of the Hillsborough Independent Panel"]
+    issued_by: "Hillsborough Independent Panel"
+    date_published: "2012-09-12"
+    repo: uk-hillsborough-panel
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-hillsborough-panel/full.md
     source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
     ingested: true
@@ -83,6 +138,12 @@ reports:
     title: "The Report of the Bloody Sunday Inquiry, Volume I"
     authors: "The Rt Hon The Lord Saville of Newdigate (Chairman), William Hoyt, John Toohey"
     published_at: "15 June 2010"
+    common_name: "Saville Report (Bloody Sunday Inquiry), Volume I"
+    also_known_as: ["Bloody Sunday Inquiry report", "Report of the Bloody Sunday Inquiry"]
+    issued_by: "The Bloody Sunday Inquiry"
+    date_published: "2010-06-15"
+    repo: uk-saville-inquiry
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-saville-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/5a7b7c8ced915d131105f8f4/0029_i.pdf"
     ingested: true
@@ -91,6 +152,12 @@ reports:
     title: "The Report of the Iraq Inquiry — Executive Summary"
     authors: "Sir John Chilcot (Chairman), Sir Lawrence Freedman, Sir Martin Gilbert, Baroness Usha Prashar, Sir Roderic Lyne"
     published_at: "6 July 2016"
+    common_name: "Chilcot Report (Iraq Inquiry): Executive Summary"
+    also_known_as: ["Iraq Inquiry report", "Report of the Iraq Inquiry"]
+    issued_by: "The Iraq Inquiry"
+    date_published: "2016-07-06"
+    repo: uk-chilcot-inquiry
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-chilcot-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123123237mp_/http://www.iraqinquiry.org.uk/media/246416/the-report-of-the-iraq-inquiry_executive-summary.pdf"
     ingested: true
@@ -99,6 +166,12 @@ reports:
     title: "Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings Inc., et al. — Volumes 1 and 3"
     authors: "Anton R. Valukas, Examiner (Jenner & Block LLP)"
     published_at: "11 March 2010"
+    common_name: "Valukas Report (Lehman Brothers Examiner)"
+    also_known_as: ["Lehman examiner report", "Report of Anton R. Valukas, Examiner"]
+    issued_by: "Anton R. Valukas, Examiner (Jenner & Block LLP), U.S. Bankruptcy Court, S.D.N.Y."
+    date_published: "2010-03-11"
+    repo: us-lehman-examiner
+    license: {name: "Public domain (US court filing)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-lehman-examiner/full.md
     source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
     ingested: true

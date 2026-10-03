@@ -2,7 +2,9 @@ import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { quotedPassage, truncate, shareImage, frontispiece, publicationYear } from "./report";
-import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
+import { SITE_ORIGIN } from "./site";
+import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
+import { reportTitle, sectionTitle } from "../lib/titles";
 import { renderHero, renderLanding, renderOurNote, renderStandfirst, showsEditorial } from "./editorial";
 import type { Editorial } from "../lib/editorial";
 
@@ -22,19 +24,15 @@ export function sectionPreview(
   quoted: string | null,
   highlighted?: string
 ): { title: string; description: string; image?: string; structuredData: string } {
-  const reportPath = `/reports/${meta.id ?? ""}`;
+  const description = quoted
+    ? `“${truncate(quoted, 280)}” — ${meta.title}`
+    : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`;
 
   return {
-    title: `${section.title} — ${meta.title} — Reports that Matter`,
-    description: quoted
-      ? `“${truncate(quoted, 280)}” — ${meta.title}`
-      : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`,
+    title: sectionTitle(meta, section),
+    description,
     image: shareImage(meta, highlighted),
-    structuredData: breadcrumbJsonLd([
-      { name: "Reports", path: "/reports" },
-      { name: meta.title, path: reportPath },
-      { name: section.title, path: `${reportPath}/${section.slug}` },
-    ]),
+    structuredData: sectionJsonLd(meta, section, description),
   };
 }
 
@@ -154,9 +152,12 @@ export function renderReportOverview(
       ? options.editorial.whyItMatters
       : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
 
-  return renderLayout(`${meta.title} — Reports that Matter`, body, {
+  return renderLayout(reportTitle(meta), body, {
     description,
     image: shareImage(meta),
+    // The page's own address: a `?draft` preview or any other query is a duplicate of it.
+    url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}`,
+    extraMeta: citationMeta(meta),
     structuredData: reportJsonLd(meta, description),
     // A draft shown for review must not be what a search engine keeps.
     noindex: Boolean(options.draft && options.editorial && options.editorial.status !== "approved"),
@@ -222,6 +223,8 @@ export function renderSection(
     description,
     scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
+    // Always the section's own address, whatever `?p=`/`?h=` it was reached by.
+    url: `${SITE_ORIGIN}${reportPath}/${section.slug}`,
     structuredData,
   });
 }
