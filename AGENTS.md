@@ -125,6 +125,8 @@ an interactive session.
 | `src/lib/score/`, `scripts/score.mjs` | Alignment scorer: `pnpm score <id>` / `--all` scores a report against its reference edition (`<repo>/reference/`) and writes `score-out/<id>/errors.md`, the worst errors with page and paragraph id. Measure-only, not in verify. See [`docs/scoring.md`](docs/scoring.md) |
 | `src/lib/content.ts` | Which store a report is read from — R2 at a pinned hash, or the deploy |
 | `src/lib/publish.ts` | Content hashing, per-report tokens, what a version must contain |
+| `content/posts/<slug>.md` | The blog (`/blog`): one markdown file per post, frontmatter `title`, `date` (YYYY-MM-DD, quoted), `author`, `summary`, `status: draft\|published`, optional `review:` list of open decisions. Drafts are built but never listed, linked, fed or put in the sitemap; `/blog/<slug>?draft` previews one (noindex). **To publish: set `status: published` (and the date), run `pnpm blog`, commit the regenerated `src/generated/posts-bundle.ts`, deploy.** The Worker reads the bundle, so a post needs a deploy; a test fails when the bundle is stale |
+| `src/lib/blog.ts`, `src/templates/blog.ts`, `scripts/blog.mjs` | Post parsing and visibility, the index/post/Atom-feed renderers (`/blog/feed.xml`), and the bundler. The changelog links to a post with a plain `[text](/blog/<slug>)`; the link shows only once the post is published |
 | `docs/v2-features.yaml` | What is done and what is next |
 
 ## House rules

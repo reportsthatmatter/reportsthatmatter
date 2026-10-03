@@ -10,6 +10,7 @@
     "dev": "wrangler dev --local",
     "cards": "tsx scripts/cards.mjs",
     "editorial": "tsx scripts/editorial.mjs",
+    "blog": "tsx scripts/blog.mjs",
     "posts": "tsx scripts/posts.mjs",
     "seed-highlights": "node scripts/seed-highlights.mjs",
     "paragraphs": "tsx scripts/paragraphs.mjs",
