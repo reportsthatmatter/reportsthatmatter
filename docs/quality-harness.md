@@ -201,4 +201,6 @@ A whole `pnpm ingest verify` with the oracle adds about 1 to 6 s per report warm
 
 `pnpm ingest check` still gates the pipeline's own output, and `digitDensityCheck`, `losslessCheck`, `retentionCheck` and the structural checks in `@rtm/ingest` still gate. The 20% severed-sentence rate and the "document has headings" check there are informational (the severed count is budgeted per report as `severed-into-quote`).
 
+Every ingest release PR carries `pnpm scorecard`, which joins the release report above, the oracle and golden-page tables below and the headline scores (`docs/scores.json`, development and held-out sets apart) in one block: [`scoring.md`](scoring.md). Lessons go in [`design/lessons.md`](design/lessons.md).
+
 Where a report has a reference edition (a clean independent text), `pnpm score <id>` measures against it instead of against known shapes, and reports each signal's precision and recall against those errors: [`scoring.md`](scoring.md).

@@ -20,6 +20,7 @@
     "aliases": "tsx scripts/aliases.ts",
     "quality": "tsx scripts/quality.mjs",
     "score": "tsx scripts/score.mjs",
+    "scorecard": "tsx scripts/scorecard.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",
     "check-search-staleness": "node scripts/check-search-staleness.mjs",
     "marks": "node scripts/imagery/build.mjs",

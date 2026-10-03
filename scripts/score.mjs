@@ -1,8 +1,12 @@
 /* Alignment scorer: score each report against its reference edition (reportsthatmatter-38s.2).
  *
- *   pnpm score <id> [<id> ...]     # one or more reports
- *   pnpm score --all               # every development-set report with a reference edition
- *   pnpm score --all --holdout     # the held-out set instead (report scores only; never tune on these)
+ *   pnpm score                     # every report in reports/score-sets.yaml, the two sets reported separately;
+ *                                  # writes the headline numbers to docs/scores.json (with the previous value and delta)
+ *   pnpm score <id> [<id> ...]     # one or more reports (merged into docs/scores.json)
+ *   pnpm score --all               # the development set only
+ *   pnpm score --all --holdout     # the held-out set only (report scores only; never tune on these)
+ *     --no-write                   # do not touch docs/scores.json
+ *     --ungated                    # record reports that have no reference/adjudicated.yaml (default: printed, not recorded)
  *     --out <dir>                  # where to write (default score-out/)
  *     --no-layout                  # skip pdftohtml layout features in the decision dataset
  *     --adjudicate-draft           # also write <out>/<id>/adjudicated-draft.yaml: 20 random + 10 disagreeing page breaks to adjudicate
@@ -35,6 +39,7 @@ import { evaluateSignals, signalsTable } from "../src/lib/score/signals.ts";
 import { decisionRows } from "../src/lib/score/decisions.ts";
 import { loadLayout } from "../src/lib/score/layout.ts";
 import { diffDecisions, formatDecisionDiff } from "../src/lib/score/diff.ts";
+import { headline, headlineTable, mergeScores, referenceWarning, setOf, REFERENCE_CEILING } from "../src/lib/score/headline.ts";
 import { adjudicationMarkdown, adjudicationStats, applyAdjudication, draftAdjudication, loadAdjudicated } from "../src/lib/score/adjudicated.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -53,13 +58,15 @@ function repoDir(id) {
   return dir;
 }
 
+const setsRaw = parse(readFileSync(join(root, "reports/score-sets.yaml"), "utf8"));
+const sets = { development: setsRaw.development ?? [], heldOut: setsRaw.held_out ?? [] };
+const ceiling = { error: setsRaw.reference_ceiling?.error ?? REFERENCE_CEILING.error, noAnswer: setsRaw.reference_ceiling?.no_answer ?? REFERENCE_CEILING.noAnswer };
+
 function ids() {
   const positional = args.filter((a, i) => !a.startsWith("--") && !["--out"].includes(args[i - 1]));
-  if (!flag("--all")) return positional;
-  const want = flag("--holdout") ? "held-out" : "development";
-  const known = [...new Set([...registry.reports.map((r) => r.id), ...manifest.reports.map((r) => r.id), "us-duelfer-report"])];
-  return known
-    .filter((id) => hasReference(repoDir(id)) && loadReference(repoDir(id)).manifest.set === want);
+  if (positional.length) return positional;
+  if (flag("--all")) return flag("--holdout") ? sets.heldOut : sets.development;
+  return [...sets.development, ...sets.heldOut];
 }
 
 const fmt = (n) => (n * 100).toFixed(1) + "%";
@@ -126,6 +133,7 @@ if (flag("--diff")) {
   process.exit(process.exitCode ?? 0);
 }
 const rows = [];
+const warnings = [];
 const list = ids();
 if (!list.length) {
   console.error("usage: pnpm score <id> | --all [--holdout] (no report with a reference edition found)");
@@ -152,7 +160,9 @@ for (const id of list) {
   let ref;
   if (flag("--shadow")) ({ markdown, ref } = await shadowInputs(id, repo, markdown));
   else ref = loadReference(repo);
-  if (ref.manifest.set === "held-out" && !flag("--holdout") && flag("--all")) continue;
+  const set = setOf(sets, id) ?? "unassigned";
+  if (set === "unassigned") warnings.push(`${id}: in neither set of reports/score-sets.yaml; add it to development or held_out before tuning against it`);
+  else if (ref.manifest.set && ref.manifest.set !== set) warnings.push(`${id}: reports/score-sets.yaml says ${set}, ${repo}/reference/manifest.json says ${ref.manifest.set}; the config wins, fix the manifest`);
   const ours = parseOurs(markdown);
   const result = score(ours, ref.blocks, { versionDiffers: ref.manifest.version?.differs });
   const dir = join(out, flag("--shadow") ? `${id}-shadow` : id);
@@ -177,8 +187,12 @@ for (const id of list) {
   const adj = adjFile ? adjudicationStats(adjPairs) : null;
   writeFileSync(join(dir, "decisions.jsonl"), decisions.map((r) => JSON.stringify(r)).join("\n") + "\n");
 
-  const row = summaryRow(id, ref.manifest, result);
-  rows.push({ row, signals, adj });
+  const row = { ...summaryRow(id, ref.manifest, result), set };
+  // hook for bead 7d4y (PR #236): `const pageScores = pageRefs.length ? scorePages(ours, pageRefs) : null` replaces this line
+  const pageScores = null;
+  const refWarning = referenceWarning(id, adj, ceiling);
+  if (refWarning) warnings.push(refWarning);
+  rows.push({ row, signals, adj, set, metrics: headline(row, decisions, adj, pageScores?.totals ?? null), gated: !!adj, refWarning });
   let errors = errorReport(id, ref.manifest, result, signals);
   if (adj) errors = errors.replace("\n## Excluded stretches", "\n" + adjudicationMarkdown(adj, adjFile, adjPairs) + "\n## Excluded stretches");
   else errors = errors.replace("\n## Excluded stretches", "\n## Reference error rate at page breaks\n\nNo `reference/adjudicated.yaml` in the report repo: the reference's own error rate is unknown.\n\n## Excluded stretches");
@@ -203,4 +217,28 @@ if (rows.length) {
   writeFileSync(join(out, flag("--holdout") ? "summary-holdout.md" : "summary.md"), md);
   console.log("\n" + md.split("\n## ")[0]);
   if (flag("--json")) console.log(JSON.stringify(rows.map((r) => r.row), null, 1));
+
+  // headline numbers: docs/scores.json, the dev and held-out sets separately, with the previous value and delta
+  const SCORES = join(root, "docs/scores.json");
+  const old = existsSync(SCORES) ? JSON.parse(readFileSync(SCORES, "utf8")) : null;
+  const pin = JSON.parse(readFileSync(join(root, "package.json"), "utf8")).dependencies?.["@rtm/ingest"]?.split("#").pop();
+  const recordable = rows.filter((r) => r.gated || flag("--ungated"));
+  for (const r of rows.filter((x) => !x.gated && !flag("--ungated"))) warnings.push(`${r.row.id}: not recorded in docs/scores.json (no reference/adjudicated.yaml; --ungated to record it anyway)`);
+  const fresh = Object.fromEntries(recordable.map((r) => [r.row.id, { set: r.set, metrics: r.metrics }]));
+  const merged = mergeScores(old, fresh, pin);
+  const section = (title, want) => {
+    const here = Object.fromEntries(Object.entries(merged.reports).filter(([id, e]) => e.set === want && id in fresh));
+    if (!Object.keys(here).length) return "";
+    return `\n### ${title}\n\n` + headlineTable(here, "previous") + "\n";
+  };
+  const heldOutFell = Object.entries(merged.reports).filter(([id, e]) => e.set === "held-out" && id in fresh && e.previous && e.metrics.boundary_f1 < e.previous.boundary_f1 - 0.0005);
+  let card = `## Headline scores (ingest ${pin ?? "?"})\n` + section("Development set (tune on these)", "development") + section("Held-out set (report only: a pass must not lower these, and must not be tuned on them)", "held-out");
+  if (existsSync(SCORES) || !flag("--no-write")) card += "\n(Deltas are against the previous value recorded in docs/scores.json; `▼` marks a regression. 'ours wrong / judged' is on the adjudicated page breaks.)\n";
+  console.log("\n" + card);
+  for (const [id, e] of heldOutFell) warnings.push(`${id}: held-out boundary F1 fell ${(e.previous.boundary_f1 * 100).toFixed(1)}% to ${(e.metrics.boundary_f1 * 100).toFixed(1)}%: was this pass tuned on the held-out set, or does it not generalise? (docs/design/lessons.md)`);
+  if (!flag("--no-write") && recordable.length) {
+    writeFileSync(SCORES, JSON.stringify(merged, null, 1) + "\n");
+    console.log(`wrote ${SCORES}`);
+  }
 }
+if (warnings.length) console.log("\nWARNINGS\n" + warnings.map((w) => `  ! ${w}`).join("\n"));

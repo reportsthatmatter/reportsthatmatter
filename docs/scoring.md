@@ -2,12 +2,32 @@
 
 `pnpm score` measures a report's text against an independent clean edition of the same document (official HTML, court reporter text, the PDF's own structure tree): paragraph boundaries, headings, block types, footnote links and words. Where `pnpm quality` (b78.2) counts shapes we already know to be wrong, the scorer says what is wrong against an answer key, including shapes nobody has catalogued. Design and inventory: [`design/reference-editions.md`](design/reference-editions.md) (38s.1); results and decisions: [`design/2026-10-02-alignment-scorer.md`](design/2026-10-02-alignment-scorer.md) (38s.2). Measure-only: nothing here changes the pipeline or the site.
 
+## Headline numbers: `docs/scores.json`, dev and held-out sets, the scorecard
+
+`pnpm score` with no arguments scores every report in [`reports/score-sets.yaml`](../reports/score-sets.yaml): the **development** reports (tune passes on these) and the **held-out** reports (report only; a pass must not lower them and must not be tuned on them; the file wins over each manifest's `set`, and `pnpm score` warns when they disagree). It prints the two sets separately and writes the headline numbers to the committed [`scores.json`](scores.json), each report with its `metrics`, and `previous` (the committed value when the new one differs; kept unchanged when a re-run moves nothing, so the delta of the last change survives). Per report:
+
+| key | meaning |
+|---|---|
+| `boundary_p`, `boundary_r`, `boundary_f1` | paragraph boundaries against the reference |
+| `join_all` (`join_all_n`) | page-break join accuracy over every page break the reference covers: our split-or-join agrees with the reference |
+| `join_high` (`join_high_n`) | the same over `label_confidence: high` rows |
+| `join_adj_ours_wrong`, `join_adj_judged` | adjudicated breaks (`reference/adjudicated.yaml`): "ours wrong / judged", the headline for a page-break pass |
+| `marker_p`, `marker_r` | footnote markers (null where the reference has none) |
+| `wer`, `wer_ref_coverage` | word error rate against the reference edition, and the share of the reference it covers |
+| `wer_pages`, `wer_pages_n`, `page_marker_p`, `page_marker_r` | page-level references (Wikisource transcriptions, bead 7d4y): null until a report has them; the hook is `pageScores` in `scripts/score.mjs` and `headline()` in `src/lib/score/headline.ts` |
+| `ref_error_rate`, `ref_no_answer_rate`, `ref_unusable_rate` | the reference's own error at adjudicated breaks, the share it has no answer for, and both together |
+
+**Gating.** A report with no `reference/adjudicated.yaml` is printed but not recorded (`--ungated` records it): its reference's error rate is unknown. A reference whose error plus no-answer share exceeds the ceiling in `score-sets.yaml` (5% + 10%) prints a warning: its numbers say little (Chilcot's tags drop whole paragraphs). A held-out report whose boundary F1 falls against the recorded value prints a warning asking whether the pass was tuned on the held-out set. `--no-write` leaves `scores.json` alone; scoring a few ids merges them into the file.
+
+**The release scorecard.** `pnpm scorecard` assembles `pnpm quality report --diff`, the layout-oracle counts per report, the golden-page table and the oracle's precision against it (from `pnpm ingest verify`; `reports/verify-last.json` is the recorded base), and the `scores.json` diff against `origin/main`, with a checklist, for the PR body of every ingest release (steps in [`scripts/ingest/README.md`](../scripts/ingest/README.md)). Lessons from each release go in [`design/lessons.md`](design/lessons.md).
+
 ## Commands
 
 ```bash
 pnpm score us-911-commission          # one report (or several)
-pnpm score --all                      # the development set: every report whose reference says set: development
-pnpm score --all --holdout            # the held-out set: report scores only, never tune passes on these
+pnpm score                            # every report in reports/score-sets.yaml, the two sets apart; writes docs/scores.json
+pnpm score --all                      # the development set only
+pnpm score --all --holdout            # the held-out set only: report scores only, never tune passes on these
   --out <dir>                         # default score-out/ (gitignored)
   --no-layout                         # skip pdftohtml layout features in the decision dataset
   --diff <outA> <outB> [<id>...]      # decision-level flips between two runs (below); scores nothing

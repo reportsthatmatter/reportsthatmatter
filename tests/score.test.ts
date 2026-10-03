@@ -10,6 +10,8 @@ import { adjudicationStats, applyAdjudication, draftAdjudication, matchRow } fro
 import { evaluateSignals } from "../src/lib/score/signals";
 import { tokens, tokensBefore } from "../src/lib/score/tokens";
 import { renderArtifacts } from "@rtm/ingest";
+import { fmtDelta, joinAccuracy, mergeScores, referenceWarning, regressed, type Metrics } from "../src/lib/score/headline";
+import { goldenTable, oracleTable, parseVerify } from "../src/lib/score/scorecard";
 
 const w = (s: string) => tokens(s).map((t) => t.word);
 const SENTENCES = Array.from({ length: 40 }, (_, i) => `sentence number ${i} talks about topic ${i * 7} in plain words here`).join(" ");
@@ -340,5 +342,50 @@ describe("referenceFromMarkdown (--shadow)", () => {
     const r = score(parseOurs(served), referenceFromMarkdown(parseOurs(served)));
     expect(prf(r.boundaries).f1).toBe(1);
     expect(prf(r.markers).f1).toBe(1);
+  });
+});
+
+describe("headline scores (38s.6)", () => {
+  const adj = (over: Partial<ReturnType<typeof adjudicationStats>> = {}) => ({ ...adjudicationStats([]), judged: 30, uncovered: 0, referenceWrong: 0, referenceErrorRate: 0, referenceUnusableRate: 0, oursJudged: 30, oursWrong: 3, ...over });
+  const pb = (ref: boolean, ours: boolean, conf: string) => ({ decision: "boundary", source: "layout", crosses_page: true, ref_boundary: ref, ours_boundary: ours, label_confidence: conf });
+
+  it("counts join accuracy over all, high-confidence and adjudicated page breaks", () => {
+    const rows = [pb(true, true, "high"), pb(true, false, "high"), pb(false, false, "low"), pb(true, false, "low"), { ...pb(true, true, "high"), crosses_page: false }, { ...pb(true, true, "high"), ref_boundary: null }];
+    const j = joinAccuracy(rows, adj());
+    expect(j.all).toEqual({ right: 2, n: 4 });
+    expect(j.high).toEqual({ right: 1, n: 2 });
+    expect(j.adjudicated).toEqual({ oursWrong: 3, judged: 30 });
+  });
+
+  it("flags a reference whose error plus no-answer share is over the ceiling, and an unadjudicated one", () => {
+    expect(referenceWarning("r", adj({ referenceErrorRate: 0.03, judged: 20, uncovered: 2 }))).toBeNull();
+    expect(referenceWarning("r", adj({ referenceErrorRate: 0.045, judged: 22, uncovered: 8 }))).toMatch(/too noisy/);
+    expect(referenceWarning("r", null)).toMatch(/adjudicated/);
+  });
+
+  it("keeps the previous value and the delta, and leaves it alone when nothing moved", () => {
+    const m = (f1: number): Metrics => ({ boundary_f1: f1, wer: 0.01 });
+    const first = mergeScores(null, { a: { set: "development", metrics: m(0.9) } }, "v1");
+    expect(first.reports.a.previous).toBeNull();
+    const second = mergeScores(first, { a: { set: "development", metrics: m(0.95) } }, "v2");
+    expect(second.reports.a.previous).toEqual(m(0.9));
+    const third = mergeScores(second, { a: { set: "development", metrics: m(0.95) } }, "v2");
+    expect(third.reports.a.previous).toEqual(m(0.9));
+    expect(fmtDelta("boundary_f1", 0.95, 0.9)).toBe("+5.0 pts");
+    expect(regressed("boundary_f1", 0.85, 0.9)).toBe(true);
+    expect(regressed("wer", 0.02, 0.01)).toBe(true);
+    expect(regressed("join_adj_ours_wrong", 3, 5)).toBe(false);
+    expect(regressed("ref_error_rate", 0.2, 0.1)).toBe(false);
+  });
+
+  it("parses pnpm ingest verify into the oracle, golden and precision tables", () => {
+    const out = "\u001b[1mjack-smith-vol1\u001b[0m\n".replace(/\u001b\[\d+m/g, "") +
+      "  · layout oracle (0.4s) — headings-missed 96, quotes-missed 53\n      expected: x\n  \u001b[32m✓\u001b[0m golden pages — 3/8 match the PDF, 5 known failure(s)\n\noracle against golden pages, all reports (tp = ...)\n  signal                  tp    fp    fn  precision  recall\n  headings-missed          23    24    19        49%     55%\n";
+    const v = parseVerify(out);
+    expect(v.reports["jack-smith-vol1"]).toEqual({ oracle: { "headings-missed": 96, "quotes-missed": 53 }, golden: { match: 3, total: 8, known: 5 } });
+    expect(v.oracleVsGolden["headings-missed"]).toEqual({ tp: 23, fp: 24, fn: 19 });
+    const base = { ...v, reports: { "jack-smith-vol1": { oracle: { "headings-missed": 90, "quotes-missed": 53 }, golden: { match: 4, total: 8, known: 4 } } } };
+    expect(oracleTable(v, base)).toContain("96 (+6) ▲");
+    expect(goldenTable(v, base)).toContain("3 (-1) ▼");
   });
 });
