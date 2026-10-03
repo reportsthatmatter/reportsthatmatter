@@ -1,0 +1,22 @@
+# Decision log
+
+One file per question we have had to answer, or still have to. It is written so that someone joining later can see what was decided, why, by whom and when, and which questions are still open. Bead for keeping this current: `reportsthatmatter-82v3`.
+
+**Rule:** when a question comes up in a session, add a record here and a bead labelled `decision`. Don't settle it in chat. Open questions stay open until Rufus (or whoever owns the area) decides; then update the record and close the bead.
+
+**Statuses:** `open` (nobody has answered it), `proposed` (a recommendation awaits sign-off), `decided`, `superseded` (link to the replacement).
+
+**Template:** copy `0000-template.md`.
+
+| # | Question | Status | Bead |
+|---|---|---|---|
+| [0001](0001-page-numbers.md) | When do we anchor printed page numbers, and when are paragraph numbers the citation? | open | qap0 |
+| [0002](0002-annotation-format.md) | How do we encode what we add to the text: inline markdown or a sidecar file? | open | i8en |
+| [0003](0003-clean-editions-as-source.md) | Serve clean editions instead of cleaning PDFs? | decided 2026-10-02 | ivg |
+| [0004](0004-quality-budgets.md) | Where do quality budgets start, and how do they move? | decided 2026-10-02 | b78 |
+| [0005](0005-hosting-account.md) | Cloudflare plan and account: Workers Paid, or move to Datopian? | open | 2oz |
+| [0006](0006-drafts-and-blog.md) | Where do drafts of posts and write-ups live? | decided 2026-10-03 | jedz |
+| [0007](0007-hand-rules-vs-learned-models.md) | Hand rules, learned models or an LLM referee for pipeline decisions? | decided 2026-10-02 (revisit) | 38s.8 |
+| [0008](0008-paragraph-ids-move.md) | May paragraph ids change, and how do old links survive? | decided 2026-10-03 | q8c |
+| [0009](0009-ai-agents-disclosure.md) | Do we say on the site that AI agents did much of the work? | open | 0ino |
+| [0010](0010-markdown-canonical-format.md) | Is one consolidated markdown file per report the canonical format? | decided (existing practice) | 0z1o |
