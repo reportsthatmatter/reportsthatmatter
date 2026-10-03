@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { checkOracleBudget, parseOracleBudget, ratchetOracleBudgetText } from "../scripts/ingest/oracle-budget";
+import { checkOracleBudget, parseNotesAtBack, parseOracleBudget, ratchetOracleBudgetText } from "../scripts/ingest/oracle-budget";
 
 const text = `# comment
 reports:
@@ -28,5 +28,12 @@ describe("oracle budgets", () => {
     expect(out).toContain("headings-missed: 10\n");
     expect(out).toContain("markers-unlinked: 2  # why: x");
     expect(out).toContain("beta:\n    markers-unlinked: 3");
+  });
+});
+
+describe("notes-at-back", () => {
+  it("lists the reports whose notes are never on their marker's page", () => {
+    expect(parseNotesAtBack("notes-at-back:\n  - a\n  - b\nreports:\n  a:\n    note-off-page: 1\n")).toEqual(["a", "b"]);
+    expect(parseNotesAtBack("reports:\n  a:\n    note-off-page: 1\n")).toEqual([]);
   });
 });

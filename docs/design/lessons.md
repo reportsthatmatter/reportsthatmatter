@@ -41,6 +41,9 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **A heuristic needs guards found by reading output.** (2026-10-02, 38s.10) `layoutPageJoins` needed four guards that only reading joined paragraphs found: a footnote marker after a stop still ends the sentence; "7.44" is a label (37 of Saville's first joins were numbered paragraphs); same face except on scans; no join after a short last line. Read a sample of every new pass's output on every report before the PR.
 - **Reading a scored list beats reading the report.** (2026-10-02, 38s.2) The first scorer prototype found 195 spurious paragraph starts in 9/11 where the severed-paragraph signal found 4, and the "Tue sday, Se ptembe r 11" garble nobody had seen. A reference edition finds defect classes nobody catalogued.
 
+- **A check that borrows the renderer's pairing cannot see the renderer's pairing fail.** (2026-10-03, y0w9) `note-marker-wrong-note` took the same alignment as the renderer, so 20 of Litvinenko's sidenotes, 17 of 19 of Philip Morris's and 132 of Leveson's opened another page's note with every check green. Compare against an independent truth, here the page the PDF printed the note on. [status: `note-off-page` in `pnpm ingest verify`, budgeted]
+- **Linking more markers exposes the next renderer assumption.** (2026-10-03, y0w9) Once Philip Morris's heading markers were linked, the section's title swallowed its note ("...Cigarette1919 The Court is distinguishing... -656-") in the contents and page head; unlinked digits had hidden it. Look at the rendered titles after any pass that adds links. [status: `splitSections` titles strip sidenotes; ingest PR]
+
 ## Release and process
 
 - **Every release carries one scorecard.** (2026-10-03, 38s.6) Quality counts, oracle counts, golden pages and headline score deltas, in one block, with a checklist. [status: `pnpm scorecard`, wired into `AGENTS.md` and `scripts/ingest/README.md`]

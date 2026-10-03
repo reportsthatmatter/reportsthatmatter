@@ -97,12 +97,12 @@ reports:
   litvinenko-inquiry:
     severed-into-quote: 72
     severed-paragraph: 6
-    bare-footnote-marker: 92
+    bare-footnote-marker: 23
     note-marker-wrong-note: 0
-    note-marker-unpaired: 20
-    note-text-in-body: 59  # why: post v0.15.0 integration
+    note-marker-unpaired: 0
+    note-text-in-body: 64  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (layoutMarkers returns Appendix 7's numbered restriction-notice paragraphs 10-17 from fake notes to the body, where they read as note text: +5)
     note-citation-vocabulary: 0
-    furniture-paragraph: 12
+    furniture-paragraph: 16  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (the same Appendix 7 'Amendments to this Restriction Notice' lines, now in the body: +4)
     contents-entry-without-heading: 77
     heading-density: 0
     heading-repeated: 0
@@ -111,7 +111,7 @@ reports:
     heading-long: 2
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 7  # why: post v0.15.0 integration
+    rendered-ol-words-share: 6
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
   uk-chilcot-inquiry:
@@ -277,7 +277,7 @@ reports:
   us-v-philip-morris:
     severed-into-quote: 106
     severed-paragraph: 2
-    bare-footnote-marker: 52
+    bare-footnote-marker: 39
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 48  # why: post v0.15.0 integration
@@ -287,7 +287,7 @@ reports:
     heading-density: 0
     heading-repeated: 15
     heading-function-word: 0
-    heading-marker: 0
+    heading-marker: 6  # why: reportsthatmatter-y0w9 (six headings carry a real footnote in the PDF, 'AMENDED FINAL OPINION1'; now linked, rendered as a sidenote)
     heading-long: 60
     printed-page-reversal: 0
     rendered-h1: 0
