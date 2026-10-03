@@ -28,5 +28,13 @@ pnpm prerender
 echo "Deploying Worker..."
 pnpm wrangler deploy
 
+# A deploy does not publish content: report text is served from R2 under a content hash, set by
+# `pnpm publish-report`, so after a deploy the question is which reports now need publishing
+# (reportsthatmatter-6px). Informational only; it never fails the deploy.
+RTM_BASE="${RTM_BASE:-https://reportsthatmatter.org}"
+echo
+echo "Which reports need publishing (served at ${RTM_BASE} against this checkout)..."
+pnpm publish-report --all --status --base "$RTM_BASE" || echo "(could not read the drift table; run: pnpm publish-report --all --status --base ${RTM_BASE})"
+
 echo
 echo "Next step (one-time): add route v2.reportsthatmatter.org/* in Cloudflare dashboard"

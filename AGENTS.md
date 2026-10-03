@@ -139,6 +139,11 @@ an interactive session.
   - `pnpm corpus check` covers what this repo renders **from** that markdown —
     every section's citable paragraph ids, against `reports/corpus-baseline.json`.
     Accept a move with `pnpm corpus accept [<id>]`.
+    A vanished or new section is explained, not just named: "folded into the
+    section before it, X, which gained N paragraphs: consistent with the sliver
+    rule" (a part under 2,500 characters merges into the one before it), or
+    "renamed to Y", or "no neighbouring section gained its N paragraphs" when
+    the text really is gone.
   - `pnpm quality check` covers what a *reader* sees in each report — severed
     sentences, unlinked footnote markers, furniture, missing headings — as
     per-report counts against `reports/quality-budget.yaml`. Budgets only
@@ -186,7 +191,9 @@ an interactive session.
   and pastes the table into the PR body (every regression needs a bead; every
   improvement gets `pnpm quality ratchet`). After the release ships, run
   `pnpm quality ratchet --record` and commit `reports/quality-last.json`, so the
-  next release is diffed against this one. `pnpm publish-report <id>` prints that
+  next release is diffed against this one (`verify.sh` reminds you when
+  `quality-last.json` was recorded at a different ingest version than the
+  installed one). `pnpm publish-report <id>` prints that
   report's own quality row before it uploads.
 - **Ids move; aliases keep links alive** (reportsthatmatter-q8c). Joins, hybrid
   sources and corrections move paragraph ids, and a `?p=<old>` link (a shared
@@ -425,6 +432,13 @@ own pipeline change, not something this repo can wire in.
 - **`--status`** shows what is currently being served for a report, without
   publishing anything: `pnpm publish-report <id> --status` or
   `pnpm exec rtm-publish <id> --status` from the report's own repo.
+- **`pnpm publish-report --all --status --base https://reportsthatmatter.org`**
+  answers "must I republish?" with no secret and no writes: per report, the
+  content hash this checkout's prerender would publish against the
+  `x-rtm-content-version` the site serves, and the list of reports to publish
+  (`DRIFT`, or `not published` when the deploy's own copy is served).
+  `deploy-cloudflare.sh` prints it after a deploy; `--fail-on-drift` exits 1
+  for scripts. Run `pnpm prerender` first (it refuses on a stale prerender).
 - **`--rollback <hash>`** re-points at a version still in the bucket —
   objects are never collected, so any hash that was ever committed can be
   committed again — without re-uploading a single byte.

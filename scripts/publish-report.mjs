@@ -3,6 +3,7 @@
  *   RTM_PUBLISH_SECRET=… pnpm publish-report <id> [--base https://…]
  *   RTM_PUBLISH_SECRET=… pnpm publish-report <id> --status
  *   RTM_PUBLISH_SECRET=… pnpm publish-report <id> --rollback <hash>
+ *   pnpm publish-report --all --status [--base https://…]   (no secret: local vs served hash per report)
  *
  * Reads what `pnpm prerender` produced, uploads it under a content hash, then
  * asks the endpoint to point at it. The endpoint re-derives the hash and
@@ -30,12 +31,14 @@
  * served. Reindex by hand after a rollback once the matching text is
  * prerendered again.
  */
-import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 import { contentHash, manifestFor, tokenFor } from "@rtm/ingest";
+import { readLocalFiles } from "./lib/publish-local.mjs";
 
 const args = process.argv.slice(2);
+// `--all --status`: which reports must be republished? A read-only table, no secret (scripts/publish-status.mjs).
+if (args.includes("--all")) await import("./publish-status.mjs");
 const reportId = args[0];
 const flag = (name) => {
   const i = args.indexOf(name);
@@ -44,7 +47,7 @@ const flag = (name) => {
 
 if (!reportId || reportId.startsWith("--")) {
   console.error(
-    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex]"
+    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex]\n       pnpm publish-report --all --status [--base <url>]   # which reports need publishing"
   );
   process.exit(2);
 }
@@ -86,15 +89,7 @@ if (flag("--status")) {
 
 const rollbackTo = flag("--rollback");
 
-const dir = join(process.cwd(), "assets/generated/reports", reportId);
-const files = [
-  { path: "meta.json", body: readFileSync(join(dir, "meta.json"), "utf8") },
-  { path: "full-body.html", body: readFileSync(join(dir, "full-body.html"), "utf8") },
-  ...readdirSync(join(dir, "fragments")).map((name) => ({
-    path: `fragments/${name}`,
-    body: readFileSync(join(dir, "fragments", name), "utf8"),
-  })),
-];
+const files = readLocalFiles(process.cwd(), reportId);
 
 // The report's own quality row (counts, budgets, last release) goes in the publish log; never blocks.
 try {

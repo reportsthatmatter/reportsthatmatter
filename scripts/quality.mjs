@@ -38,7 +38,7 @@ import {
   ratchetable,
   serializeBudgetFile,
 } from "../src/lib/quality/budget.ts";
-import { diffTable, parseRecorded, serializeRecorded } from "../src/lib/quality/diff.ts";
+import { diffTable, parseRecorded, serializeRecorded, staleRecord } from "../src/lib/quality/diff.ts";
 
 const root = join(import.meta.dirname, "..");
 const BUDGET_PATH = "reports/quality-budget.yaml";
@@ -212,6 +212,11 @@ function cmdHint() {
   const file = readBudget();
   const slack = measureAll(file).flatMap((r) => ratchetable(file, r.id, r.measurement.counts));
   if (slack.length) console.log(`${slack.length} budget${slack.length === 1 ? "" : "s"} can be ratcheted: pnpm quality ratchet`);
+  if (existsSync(lastPath)) {
+    const installed = JSON.parse(readFileSync(join(root, "node_modules/@rtm/ingest/package.json"), "utf8")).version;
+    const stale = staleRecord(parseRecorded(readFileSync(lastPath, "utf8")).ingest, installed);
+    if (stale) console.log(stale);
+  }
 }
 
 function cmdRow(id) {
