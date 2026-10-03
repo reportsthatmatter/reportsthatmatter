@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { extractPassages } from "@rtm/ingest";
-import { measure } from "../../src/lib/quality/index.ts";
+import { measure, SIGNALS } from "../../src/lib/quality/index.ts";
 import { parseBudgetFile } from "../../src/lib/quality/budget.ts";
 import type { Snapshot } from "../lib/render-diff.ts";
 
@@ -27,7 +27,8 @@ const snapshots: Snapshot[] = ids.map((id) => {
   const perSection = new Map<string, number>();
   for (const p of paragraphs) perSection.set(p.section, (perSection.get(p.section) ?? 0) + 1);
   const markdown = readFileSync(join(root, report.source_path), "utf8");
-  const quality = measure({ markdown, html, meta, citationVocabulary: budgets.reports[id]?.citationVocabulary }).counts;
+  const measured = measure({ markdown, html, meta, citationVocabulary: budgets.reports[id]?.citationVocabulary });
+  const quality = measured.counts;
   return {
     id,
     words: meta.words,
@@ -35,6 +36,8 @@ const snapshots: Snapshot[] = ids.map((id) => {
     paragraphs,
     sidenotes: Object.keys(sectionOf).filter((k) => k.startsWith("sn-")),
     quality,
+    // count signals only: a metric's finding is its value, which the counts table already shows moving
+    qualityFindings: SIGNALS.filter((s) => s.kind !== "metric").flatMap((s) => measured.findings[s.id] ?? []),
   };
 });
 writeFileSync(out, JSON.stringify(snapshots));

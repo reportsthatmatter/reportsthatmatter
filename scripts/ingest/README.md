@@ -57,6 +57,8 @@ After a bump, **reinstall in every report repo** before `pnpm ingest check`: eac
 pnpm ingest try ../ingest-my-fix                       # a checkout or worktree of ingest (built if its dist is older than src)
 pnpm ingest try fix/hyphen-joins us-911-commission     # a branch or ref of ../ingest (RTM_INGEST_DIR overrides) and the reports to run
 pnpm ingest try ../ingest-my-fix --layout --limit 6    # score page breaks from the PDF layout too (slow); more excerpts per kind
+pnpm ingest try ../ingest-my-fix --base main           # compare two ingests (a PR against an unreleased main), not the pin against one
+pnpm ingest try ../ingest-my-fix --no-findings         # skip the oracle and anchor runs (the slow part)
 pnpm ingest try --restore                              # undo a trial that was interrupted
 ```
 
@@ -64,9 +66,22 @@ With no ids it runs every report. It snapshots the pages the pinned ingest rende
 
 - the join/move list: paragraphs joined, split, changed, added, removed, moved (aligned by text, not id), ids lost and new, sections gone and new, sidenotes and words, with excerpts;
 - the quality counts as `pnpm quality report --diff` shows them, regressions marked `▲` (only when a count moved);
-- the score decisions that flipped, for reports with a reference edition (`pnpm score --diff`; `--no-score` skips it).
+- the score decisions that flipped, for reports with a reference edition (`pnpm score --diff`; `--no-score` skips it);
+- the **findings diff** (38s.18): the layout-oracle findings, the page-anchor findings and the quality-signal excerpts that appeared or vanished between the two sides, per report, so a reviewer reads the three new cases rather than all 36. Findings are matched by source, signal and text, not by page or id (a page-break join moves every later marker by a page), and one that only changed page is counted, not listed. `--limit N` caps the findings listed per signal; `--no-findings` skips it. It runs `pnpm ingest verify <id> --no-golden --findings-json` and `pnpm ingest anchors <id> --json` against each side, in the trial worktrees.
+
+**`--base <ref|path>`** makes the "before" side an ingest too, run exactly as the trial is (linked into the site and the report worktrees, re-ingested, prerendered), instead of the pinned ingest as the site renders it now. Use it for a PR against an unreleased `main`, where the pin is the wrong baseline. The base must be at least as new as the passes the report repos declare at `HEAD`: a report repo that imports a pass the base lacks fails with "does not provide an export" (the previous release against report repos already on the new pin does). Every side prints the ingest version and path it used (lesson mv1t); `pnpm ingest verify` prints the same on stderr.
 
 Then it undoes everything: the link, the aggregated `reports/<id>/full.md`, the worktrees, and a final `pnpm prerender`. What it changes is written to `.rtm-try.lock` first, so `--restore` can undo a crashed run; `--keep` leaves the trial state in place for inspecting rendered pages (run `--restore` and `pnpm prerender` afterwards). Paste its output next to `pnpm quality report --diff origin/main` in an ingest PR. A report whose site copy differs from its repo's `full.md` is flagged, because the diff then includes that drift.
+
+### Linking an unreleased ingest by hand
+
+```bash
+pnpm ingest link ../ingest-my-fix [<id>...]   # build if stale; link it into this site and into each report worktree under RTM_REPORT_DIRS
+pnpm ingest link --status                     # what is linked, and what each link resolves to
+pnpm ingest link --restore                    # put every link back
+```
+
+This is the documented link override, done for you and undone by one command: it replaces only the `node_modules/@rtm/ingest` symlinks (the site's, and each report worktree's where `RTM_REPORT_DIRS` names one; shared checkouts are never written), records what each pointed at in `.rtm-link.lock` (gitignored), and edits no `package.json` or lockfile, so there is nothing to commit by accident. `pnpm ingest preflight` passes with a linked override. Link the report repos as well as the site: a report's `ingest.ts` imports `@rtm/ingest` from its own `node_modules`, and a site-only link runs the new pipeline with the old definitions. `pnpm install` also undoes it, as it undoes any node_modules edit. Use `pnpm ingest try` for a one-off measurement (it links and restores itself); use `link` when you want to run several commands (`run`, `check`, `verify`, a dev server) against the unreleased ingest.
 
 The pin-bump PR carries a quality report. After the re-ingest, run
 `pnpm quality report --diff origin/main` and paste the table into the PR body:

@@ -26,3 +26,4 @@ build/
 .beads/proxieddb/
 score-out/
 .rtm-try.lock
+.rtm-link.lock
