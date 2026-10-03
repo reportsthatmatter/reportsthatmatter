@@ -31,6 +31,7 @@
     "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.10.2",
     "playwright": "^1.49.0",

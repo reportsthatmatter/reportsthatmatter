@@ -13,6 +13,8 @@
  *   run, baseline and aggregate refuse a report repo that is the shared checkout (RTM_REPORT_DIRS worktrees, or --shared for the integrator)
  *   pnpm ingest page <slug> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]
  *   pnpm ingest anchors [<slug>...] [--md <full.md>] [--limit N] [--json <file>]   where each page marker lands, checked from the PDF text layer alone (scripts/ingest/anchors.ts)
+ *   pnpm ingest referee <slug>... [--dry-run] [--model M]   fill a report's page-break referee cache (scripts/ingest/referee.ts)
+ *   pnpm ingest referee eval [--dev|--holdout] [--answers …] measure the referee against the adjudicated page breaks
  *
  * `run` writes reports/<slug>/full.md plus a fidelity report; `verify` re-runs
  * the checks against what is already committed. More than one PDF concatenates
@@ -815,7 +817,7 @@ const rest = restAll.filter((a) => a !== "--no-preflight" && a !== "--shared");
 let code = 0;
 // Which reports a command touches, for the preflight: the id it names, else all of them.
 const named = rest.filter((a, i) => !a.startsWith("--") && !["--passes", "--dir", "--branch"].includes(rest[i - 1]));
-const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", "recheck", undefined].includes(command);
+const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", "recheck", "referee", undefined].includes(command);
 if (command === "preflight") code = runPreflight(named, false) ? 0 : 1;
 else if (needsPipeline && !skipPreflight && !runPreflight(command === "page" ? named.slice(0, 1) : named, true)) code = 1;
 else if (command === "run") code = await runIngest(rest);
@@ -847,6 +849,24 @@ else if (command === "anchors")
       }
     },
   });
+else if (command === "referee") {
+  // A report scored but not yet published (Duelfer) is not in the manifest: its repo is a sibling, as `pnpm score` reads it.
+  const repoOf = (id: string) => reportDirs().get(id) ?? join(ROOT, "..", id);
+  code = await (await import("./referee.ts")).runReferee(rest, {
+    root: ROOT,
+    reportDir: repoOf,
+    loadDefinition: async (id) => (await import(pathToFileURL(join(repoOf(id), "ingest.ts")).href)).default as PipelineDef,
+    run: (id, def) =>
+      ingestPageGroups(
+        def.volumes.map((volume) => extractPages(resolveVolume(def, volume, repoOf(id)))),
+        { title: def.title, authors: def.authors, published_at: def.published_at, source_url: def.source_url },
+        resolvePasses(def),
+        existsSync(join(repoOf(id), "corrections.yaml")) ? parseCorrections(readFileSync(join(repoOf(id), "corrections.yaml"), "utf8"), id) : [],
+        { layout: openLayout(def.volumes.map((volume) => resolveVolume(def, volume, repoOf(id))), join(repoOf(id), ".cache")) }
+      ),
+    pdfs: (id, def) => def.volumes.map((volume) => resolveVolume(def, volume, repoOf(id))),
+  });
+}
 else {
   console.error(`Unknown command: ${command}`);
   code = 1;
