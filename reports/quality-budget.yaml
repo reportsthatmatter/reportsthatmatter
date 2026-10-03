@@ -147,27 +147,27 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-hillsborough-panel:
-    severed-into-quote: 20
+    severed-into-quote: 2
     severed-paragraph: 0
-    bare-footnote-marker: 453
+    bare-footnote-marker: 13
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
-    contents-entry-without-heading: 4
-    heading-density: 0
-    heading-repeated: 0
-    heading-function-word: 1
+    contents-entry-without-heading: 0
+    heading-density: 1  # why: reportsthatmatter-ivg.3 (the website edition has the report's real subsection headings, 306 over 371 pages; the PDF build found 21)
+    heading-repeated: 2  # why: reportsthatmatter-ivg.3 (every chapter opens "Introduction" and closes "Conclusion: what is added to public understanding", as printed)
+    heading-function-word: 0
     heading-marker: 0
-    heading-long: 0
+    heading-long: 5  # why: reportsthatmatter-ivg.3 (real headings: two "Summary of Chapter N: <full title>", Part 3's subtitle, two long subsection titles)
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 1
-    numbered-prose-list: 7
+    rendered-ol-words-share: 0
+    numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 2
+    quote-share-parity: 1
   uk-leveson-inquiry:
     severed-into-quote: 324
     severed-paragraph: 24
