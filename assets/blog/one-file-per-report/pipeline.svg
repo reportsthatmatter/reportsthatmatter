@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" width="640" height="540" role="img" aria-labelledby="t d">
+  <title id="t">From sources to full.md to everything we publish</title>
+  <desc id="d">Three pinned inputs (the official PDF, a clean edition where one exists, and corrections.yaml) feed the report's pipeline, which writes one file, full.md, kept in git. The website, search, highlights and share cards are all rendered from that one file. EPUB, print and an API could be rendered the same way but have not been built.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#575657"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: #ffffff; stroke: #575657; stroke-width: 1.2; }
+    .dash { fill: #f7f7f7; stroke: #8a8a8c; stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .core { fill: #141414; }
+    .h { font: 600 15px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #252525; }
+    .s { font: 12px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #575657; }
+    .m { font: 600 22px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #ffffff; }
+    .ms { font: 12px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #e0e0e0; }
+    .k { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8a8a8c; letter-spacing: 0.08em; }
+    .line { stroke: #575657; stroke-width: 1.2; fill: none; }
+    .muted { fill: #8a8a8c; }
+  </style>
+  <rect width="640" height="540" fill="#f7f7f7"/>
+
+  <text class="k" x="10" y="16">INPUTS, EACH PINNED BY SHA-256 OR IN GIT</text>
+  <rect class="box" x="10" y="26" width="196" height="76"/>
+  <text class="h" x="108" y="52" text-anchor="middle">Official PDF</text>
+  <text class="s" x="108" y="72" text-anchor="middle">the authority;</text>
+  <text class="s" x="108" y="88" text-anchor="middle">printed page numbers</text>
+
+  <rect class="box" x="222" y="26" width="196" height="76"/>
+  <text class="h" x="320" y="52" text-anchor="middle">Clean edition</text>
+  <text class="s" x="320" y="72" text-anchor="middle">HTML, tagged PDF or EPUB,</text>
+  <text class="s" x="320" y="88" text-anchor="middle">where one exists</text>
+
+  <rect class="box" x="434" y="26" width="196" height="76"/>
+  <text class="h" x="532" y="52" text-anchor="middle">corrections.yaml</text>
+  <text class="s" x="532" y="72" text-anchor="middle">human judgements;</text>
+  <text class="s" x="532" y="88" text-anchor="middle">each must match once</text>
+
+  <path class="line" d="M108,102 L108,118 L250,118 L250,138" marker-end="url(#arrow)"/>
+  <path class="line" d="M320,102 L320,138" marker-end="url(#arrow)"/>
+  <path class="line" d="M532,102 L532,118 L390,118 L390,138" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="120" y="140" width="400" height="66"/>
+  <text class="h" x="320" y="166" text-anchor="middle">Pipeline: the report's ingest.ts</text>
+  <text class="s" x="320" y="186" text-anchor="middle">passes from a pinned version of @rtm/ingest; also writes fidelity.md</text>
+
+  <path class="line" d="M320,206 L320,234" marker-end="url(#arrow)"/>
+
+  <rect class="core" x="150" y="236" width="340" height="96"/>
+  <text class="m" x="320" y="272" text-anchor="middle">full.md</text>
+  <text class="ms" x="320" y="296" text-anchor="middle">one file per report, kept in git</text>
+  <text class="ms" x="320" y="314" text-anchor="middle">headings · paragraphs · notes · page anchors</text>
+
+  <path class="line" d="M320,332 L320,352"/>
+  <path class="line" d="M83,352 L557,352"/>
+  <path class="line" d="M83,352 L83,376" marker-end="url(#arrow)"/>
+  <path class="line" d="M241,352 L241,376" marker-end="url(#arrow)"/>
+  <path class="line" d="M399,352 L399,376" marker-end="url(#arrow)"/>
+  <path class="line" d="M557,352 L557,376" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+
+  <rect class="box" x="10" y="378" width="147" height="80"/>
+  <text class="h" x="83" y="404" text-anchor="middle">Website</text>
+  <text class="s" x="83" y="424" text-anchor="middle">sections, whole report,</text>
+  <text class="s" x="83" y="440" text-anchor="middle">paragraph links</text>
+
+  <rect class="box" x="168" y="378" width="147" height="80"/>
+  <text class="h" x="241" y="404" text-anchor="middle">Search</text>
+  <text class="s" x="241" y="424" text-anchor="middle">full-text index,</text>
+  <text class="s" x="241" y="440" text-anchor="middle">by paragraph</text>
+
+  <rect class="box" x="326" y="378" width="147" height="80"/>
+  <text class="h" x="399" y="404" text-anchor="middle">Highlights</text>
+  <text class="s" x="399" y="424" text-anchor="middle">share cards,</text>
+  <text class="s" x="399" y="440" text-anchor="middle">excerpt queue</text>
+
+  <rect class="dash" x="484" y="378" width="147" height="80"/>
+  <text class="h muted" x="557" y="404" text-anchor="middle">EPUB, print, API</text>
+  <text class="s" x="557" y="424" text-anchor="middle">the same file would do;</text>
+  <text class="s" x="557" y="440" text-anchor="middle">not built yet</text>
+
+  <text class="s" x="320" y="494" text-anchor="middle">Same inputs, same pipeline version: the same full.md, byte for byte.</text>
+  <text class="s" x="320" y="512" text-anchor="middle">So any change to the text shows up as a diff someone can read.</text>
+</svg>
