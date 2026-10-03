@@ -1,0 +1,136 @@
+# Where each unit of report work stands in the preparation pipeline.
+#
+# Design: docs/design/2026-10-03-report-preparation-pipeline.md §6. Skills:
+# .claude/skills/report-*/ (start with report-pipeline).
+#
+# One row per unit: a report id plus a scope (a further volume of a live
+# report is its own unit). `reached` is the last stage whose exit gate is met:
+# candidate, source, repo, ingest, evaluate, editorial, publish, announce,
+# promote. `state`: active | parked | waiting | ongoing. The owning agent
+# updates its row in the PR that meets the gate; nothing else writes it.
+# Beads hold the work (who, what next); this file holds how far a unit got and
+# where the evidence is.
+#
+# Seeded 2026-10-03 (ifb5) from artefacts: registry and served reports
+# (publish), approved editorial files (editorial), report repos' golden.yaml.
+# Not yet machine-checked: `pnpm pipeline status` is ifb5.9.
+
+units:
+  # The thirteen live reports: text, introduction and plate are live. None is
+  # recorded as announced: the launch (reportsthatmatter-y2t.6) announces them
+  # together, which moves every row below to `announce`.
+  - id: jack-smith-vol1
+    scope: "Volume One"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 5 queue items"
+    notes: "Announce: launch y2t.6."
+  - id: us-psi-financial-crisis
+    scope: "the report"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 2 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.10)."
+  - id: challenger-accident
+    scope: "the report"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 6 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.7)."
+  - id: litvinenko-inquiry
+    scope: "the report"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 3 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing."
+  - id: uk-leveson-inquiry
+    scope: "Volumes I-IV"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 3 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing."
+  - id: columbia-accident
+    scope: "Volume I"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 5 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.8)."
+  - id: us-911-commission
+    scope: "the report (served from the Commission HTML, cleanEdition)"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 8 queue items; PROCESSING.md"
+    notes: "Announce: launch y2t.6."
+  - id: us-deepwater-horizon
+    scope: "the report"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 4 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.9). EPUB as structure source: egsa."
+  - id: us-v-philip-morris
+    scope: "Final opinion"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 6 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.11)."
+  - id: uk-hillsborough-panel
+    scope: "the report"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 2 queue items"
+    notes: "Announce: launch y2t.6. PROCESSING.md missing."
+  - id: uk-saville-inquiry
+    scope: "Volume I"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; 2 queue items; PROCESSING.md"
+    notes: "Announce: launch y2t.6."
+  - id: uk-chilcot-inquiry
+    scope: "Executive summary"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; PROCESSING.md"
+    notes: "Announce: launch y2t.6. No card: true highlights, so no queue items (ifb5.14)."
+  - id: us-lehman-examiner
+    scope: "Volumes 1 and 3"
+    reached: publish
+    state: waiting
+    evidence: "registry; editorial approved; PROCESSING.md"
+    notes: "Announce: launch y2t.6. No card: true highlights, so no queue items (ifb5.14)."
+
+  # Units in preparation.
+  - id: us-duelfer-report
+    scope: "Volume I"
+    bead: reportsthatmatter-9br
+    reached: ingest
+    state: parked
+    evidence: "report repo main (layoutPageJoins, reference, adjudicated.yaml); site PR #182 (stale, ingest v0.12.21)"
+    notes: "Stage 4 parked behind the hybrid (ivg.4) and the bleed-margin banner (1l4, ingest PR #22). No golden.yaml or PROCESSING.md yet."
+  - id: us-duelfer-report
+    scope: "Volumes II and III, and the Addendums"
+    bead: reportsthatmatter-d0h
+    reached: source
+    state: active
+    evidence: "docs/design/2026-10-03-report-preparation-pipeline.md §9"
+    notes: "Next: stage 2 (report-repo) on a branch of us-duelfer-report. Stage 3 waits on ivg.4's adapter for the HTML-backed volumes. Wikisource (checklist item 5) not checked."
+  - id: us-lehman-examiner
+    scope: "Volumes 2, 4, 5 (unredacted) and 6-9"
+    bead: reportsthatmatter-94u
+    reached: candidate
+    state: active
+    evidence: "94u notes (zphc): Volume 5 exists redacted and unredacted (docket 8307); born-digital Word PDFs"
+    notes: "Stage 1 must settle which Volume 5 the Jenner site and the Stanford mirror serve."
+  - id: uk-chilcot-inquiry
+    scope: "Volumes I-XII"
+    bead: reportsthatmatter-0a7
+    reached: candidate
+    state: active
+    evidence: "better-source-texts.md §4: the inquiry site's section PDFs are tagged, the gov.uk volumes are not"
+    notes: "Scope decision open (0a7)."
+  - id: uk-saville-inquiry
+    scope: "Volumes II-X"
+    bead: reportsthatmatter-wdt
+    reached: candidate
+    state: active
+    evidence: "better-source-texts.md §4: the inquiry HTML covers every volume"
+    notes: "Scope decision open (wdt); cheap once the Saville hybrid (ivg.2) works."

@@ -1,0 +1,34 @@
+---
+name: report-evaluate
+description: Use when checking and refining a report's ingested text on Reports that Matter before it ships — reading rendered pages, quality signals and budgets, golden pages, the layout oracle, scoring against a reference edition with adjudicated page breaks, fidelity review, corrections, registering the report, writing PROCESSING.md, and parking hard cases. Stage 4 of the preparation pipeline, after report-first-ingest.
+---
+
+# Stage 4: evaluate and refine
+
+Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The tools: `docs/quality-harness.md` (signals, budgets, golden pages, oracle), `docs/scoring.md` (score, adjudicated breaks, `--shadow`). Registration and PROCESSING.md: `docs/report-preparation.md` §3-6, §8. House rules on text bugs: AGENTS.md.
+
+**Entry.** Stage 3's gate met: a first `full.md` with its quality numbers.
+
+## Procedure
+
+1. **Read the output.** The report-preparation.md §3 list: page-break splits, footnotes, headings, stray characters, facing-page margins, tables and figures leaking. Then `pnpm quality check` excerpts against the rendered page.
+2. **Golden pages.** `pnpm ingest outline <id>`, choose 5-8 hard pages, `pnpm ingest page <id> <vol> <pdfPage> --draft`, then look at the page image (`pdftoppm -f N -l N -png`) and correct the draft. A page the pipeline gets wrong is `xfail: <bead>`.
+3. **Score** (where `reference/` exists). `pnpm score <id> --adjudicate-draft`, decide the 30 breaks against the PDF, commit `reference/adjudicated.yaml`; `pnpm score <id>`, read `score-out/<id>/errors.md`. Held-out: score once and do not tune passes on what you read. Hybrid: `pnpm score <id> --shadow`.
+4. **Oracle.** `pnpm ingest verify <id>` (`--findings` to read them).
+5. **Fix.** A source property: a pass declared in `ingest.ts`. A corpus rule: an opt-in pass in an ingest PR (`pnpm ingest try`). A judgement about the text: `corrections.yaml` from `fidelity.md`. Never edit `full.md`.
+6. **One fix attempt per hard report.** A new defect class after one attempt: bead it (label `research`), hold its PRs, set `state: parked` in `reports/pipeline.yaml`, stop.
+7. **Register** (site worktree): `reports/registry.yaml` entry with `ingested: true`; `pnpm ingest aggregate`; `pnpm aliases generate --all`; `pnpm prerender`; `pnpm corpus accept <id>` after reading the diff. Propose budget lines in `reports/quality-budget.yaml` and `reports/oracle-budget.yaml` (hand edits with `# why:`); the integrator runs `pnpm quality baseline`.
+8. **PROCESSING.md** in the report repo (template `../uk-saville-inquiry/PROCESSING.md`), numbers taken from `fidelity.md`, `pdfinfo` and `full.md`. Every known defect: a Bead and a Known limitations line.
+9. `./scripts/verify.sh`.
+
+## Exit gate
+
+- [ ] `./scripts/verify.sh` exits 0 with the report registered
+- [ ] `golden.yaml` has 5-8 pages; each passes or is `xfail: <bead>`
+- [ ] Reference reports: `adjudicated.yaml` committed, `pnpm score` headline in the PR
+- [ ] Quality within budget (or the median rate); oracle within budget
+- [ ] `PROCESSING.md` written; every known defect beaded and listed under Known limitations
+- [ ] Rendered pages read; the URLs looked at are listed in the PR
+- [ ] `reports/pipeline.yaml` row says `reached: evaluate` (or `state: parked`)
+
+**Hands on:** site PR, report-repo PR, ingest PR if any. **Gap:** `pnpm report ready <id>` (this gate as one command) does not exist yet (ifb5.12). Append uncaught defect classes to `reportsthatmatter-b78.1`. Retro and lessons: protocol rules 12-13.
