@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from "./site";
 import { renderLayout } from "./layout";
 
 /**
@@ -39,5 +40,6 @@ export function renderHighlights(): string {
     description:
       "Passages you have kept from the reports, with their printed pages and links back to the exact words.",
     scripts: ["/assets/highlights-page.js"],
+    url: `${SITE_ORIGIN}/highlights`,
   });
 }

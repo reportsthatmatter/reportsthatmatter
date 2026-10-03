@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from "./site";
 import { renderLayout } from "./layout";
 
 /** A brand asset shown on the press page: a size label and its file. */
@@ -78,5 +79,6 @@ export function renderPress(): string {
   return renderLayout("Press — Reports that Matter", body, {
     description:
       "Logo, logotype, and brand assets for Reports that Matter, in the sizes the site itself ships.",
+    url: `${SITE_ORIGIN}/press`,
   });
 }

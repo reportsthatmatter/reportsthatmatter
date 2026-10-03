@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from "./site";
 import { renderLayout } from "./layout";
 import { renderMarkdown } from "@rtm/ingest";
 import { unlinkUnpublishedPosts } from "./blog";
@@ -26,6 +27,7 @@ export function renderChangelog(markdown: string, publishedPosts: Set<string> = 
   return renderLayout("Changelog — Reports that Matter", body, {
     description:
       "What has changed on Reports that Matter — improvements to the archive, the reading experience, and how reports are converted.",
+    url: `${SITE_ORIGIN}/changelog`,
   });
 }
 
