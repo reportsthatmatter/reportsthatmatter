@@ -348,8 +348,10 @@ export function oursDoc(fullMd: string, ref: PageDoc, label?: string): PageDoc {
     const a = Math.max(lo, base);
     const z = Math.min(hi, base + ts.length - 1);
     if (z < a) continue;
-    const startChar = ts[a - base].start;
-    const endChar = ts[z - base].end;
+    // a block taken whole keeps what sits outside its first and last words: a marker after the closing full stop
+    // ("Board.[^9]") was cut off with the stop, so every end-of-paragraph marker of ours went uncounted (jsqw)
+    const startChar = a === base ? 0 : ts[a - base].start;
+    const endChar = z === base + ts.length - 1 ? body[bi].text.length : ts[z - base].end;
     const text = body[bi].text.slice(startChar, endChar);
     const markers = body[bi].markers.filter((m) => m.offset >= startChar && m.offset <= endChar).map((m) => ({ label: m.label, offset: m.offset - startChar }));
     for (const m of markers) labels.add(m.label);

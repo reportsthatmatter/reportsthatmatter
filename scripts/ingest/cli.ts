@@ -61,6 +61,7 @@ import {
   type OracleReport,
   type PageCounts,
 } from "@rtm/ingest";
+import * as ingestLibrary from "@rtm/ingest";
 
 const ROOT = join(import.meta.dirname, "../..");
 const ORACLE_BUDGET_PATH = join(ROOT, "reports/oracle-budget.yaml");
@@ -255,6 +256,22 @@ function where(s: { page: number; volume?: number; pdfIndex?: number }): string 
   return `Vol ${s.volume} · PDF p.${s.pdfIndex}`;
 }
 
+/**
+ * `visionStructure` (reportsthatmatter-jsqw): which page and which block took the vision model's structure,
+ * beside the vision output it came from (`reference/vision/hybrid.{md,json}`). Read through the namespace so
+ * the CLI still loads on an ingest that predates it.
+ */
+function writeVisionProvenance(dir: string, result: IngestResult): void {
+  const vision = (result as { vision?: unknown }).vision;
+  const render = (ingestLibrary as { renderVisionReport?: (report: unknown, blocks: unknown) => { markdown: string; json: string } }).renderVisionReport;
+  if (!vision || !render) return;
+  const out = render(vision, result.blocks ?? []);
+  mkdirSync(join(dir, "reference", "vision"), { recursive: true });
+  writeFileSync(join(dir, "reference", "vision", "hybrid.md"), out.markdown, "utf8");
+  writeFileSync(join(dir, "reference", "vision", "hybrid.json"), out.json, "utf8");
+  console.log(`Vision structure provenance → ${join(dir, "reference", "vision", "hybrid.md")}`);
+}
+
 /** Writes a report's markdown and its OCR review queue, then gates on fidelity. */
 function writeReport(
   id: string,
@@ -266,6 +283,7 @@ function writeReport(
   const dir = reportDir(id);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "full.md"), result.markdown, "utf8");
+  writeVisionProvenance(dir, result);
 
   // A suspect a reviewer has already judged correct is not a finding. Dropping
   // it here is what lets the queue shrink as it is worked through, instead of
