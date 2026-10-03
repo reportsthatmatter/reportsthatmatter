@@ -20,9 +20,9 @@
 import "./lib/help.mjs";
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { execFileSync } from "node:child_process";
 import { parse } from "yaml";
 import { EDITOR_ACTOR, planSeed, planSql } from "../src/lib/seed-highlights.ts";
+import { wranglerRunner } from "./lib/d1.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
@@ -46,19 +46,12 @@ const approved = readdirSync(join(root, "editorial"))
   .map((file) => file.report);
 const reports = only.length ? only : approved;
 
-const d1 = (extra) =>
-  execFileSync("pnpm", ["-s", "wrangler", "d1", "execute", "reportsthatmatter-marks", remote ? "--remote" : "--local", ...extra], {
-    cwd: root,
-    encoding: "utf8",
-    stdio: ["ignore", "pipe", "inherit"],
-  });
-
-const read = JSON.parse(
-  d1([
-    "--json",
-    `--command=SELECT id, report, section, paragraph, exact, prefix, suffix, page FROM marks WHERE actor = '${EDITOR_ACTOR}'`,
-  ])
-);
+// Through the shared runner, so the rows it costs land in today's D1 ledger (pnpm d1-usage).
+const run = wranglerRunner(root);
+const target = remote ? "--remote" : "--local";
+const read = run(target, {
+  command: `SELECT id, report, section, paragraph, exact, prefix, suffix, page FROM marks WHERE actor = '${EDITOR_ACTOR}'`,
+});
 const stored = read[0]?.results ?? [];
 
 const plan = planSeed(stored, wanted, reports);
@@ -78,5 +71,6 @@ if (dryRun || !plan.writes) {
   console.log(dryRun ? `\nDry run: nothing written. SQL in ${file}.` : "\nNothing to write.");
   process.exit(0);
 }
-d1([`--file=${file}`]);
+const [result] = run(target, { file });
+if (result?.meta?.rows_read !== undefined) console.log(`D1: ${result.meta.rows_read} rows read, ${result.meta.rows_written} rows written`);
 console.log(`\nApplied ${plan.writes} row write(s) ${remote ? "in production" : "locally"}.`);

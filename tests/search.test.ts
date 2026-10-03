@@ -93,6 +93,14 @@ describe("queryPassages", () => {
     ]);
   });
 
+  it("ranks with FTS5's rank, so only the rows kept are read (t4al), with the same column weights", async () => {
+    const db = fakeDb();
+    await queryPassages(db, "credit", null, 20);
+    expect(db.lastSql).toContain("rank MATCH 'bm25(0, 3, 0, 0, 1)'");
+    expect(db.lastSql).toMatch(/ORDER BY rank\s+LIMIT \?/);
+    expect(db.lastSql).not.toContain("ORDER BY bm25");
+  });
+
   it("returns the rows the database gives back", async () => {
     const row = { report: "r", section: "s", paragraph_id: "p", page: "1", body: "b", marked: "m" };
     const db = fakeDb([row]);

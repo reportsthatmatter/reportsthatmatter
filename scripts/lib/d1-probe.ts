@@ -14,6 +14,7 @@
  *   on any surprise rather than guess.
  */
 import { D1Error, type Runner, type Target } from "./d1";
+import { analyticsToday, type Fetch } from "./d1-usage";
 import { DEFAULT_COST, type Cost } from "./reindex";
 
 export const PROBE_REPORT = "__rtm_probe__";
@@ -29,9 +30,22 @@ export function probeWrite(run: Runner, target: Target, sampleBody = "The commis
     const [inserted] = run(target, {
       command: `INSERT INTO passages (report, section, paragraph_id, page, body) VALUES ('${PROBE_REPORT}', 'probe', 'probe', '1', '${body}')`,
     });
-    const [selected] = run(target, { command: `SELECT rowid AS rid FROM passages WHERE report = '${PROBE_REPORT}' LIMIT 1` });
-    const rowid = selected.results[0]?.rid as number | undefined;
-    const deleted = rowid === undefined ? undefined : run(target, { command: `DELETE FROM passages WHERE rowid = ${rowid}` })[0];
+    // Find the probe row by rowid, never by `WHERE report = ?`: report is an UNINDEXED FTS5 column, so that read
+    // every row of the corpus, ~40k per probe, 1.29M rows on 2026-10-03 (reportsthatmatter-t4al). D1 reports the
+    // insert's rowid; failing that, a new row is the table's highest, which FTS5 finds without a scan.
+    const reported = inserted.meta.last_row_id;
+    const [selected] = run(target, {
+      command: typeof reported === "number" && reported > 0
+        ? `SELECT rowid AS rid, report FROM passages WHERE rowid = ${reported}`
+        : "SELECT rowid AS rid, report FROM passages ORDER BY rowid DESC LIMIT 1",
+    });
+    const found = selected.results[0] as { rid?: number; report?: string } | undefined;
+    // Never delete a row that is not the probe's (a concurrent insert could be the highest).
+    const rowid = found?.report === undefined || found.report === PROBE_REPORT ? found?.rid : undefined;
+    // Not found where expected (rare): remove it the slow way, by a scan, rather than leave a probe row in search.
+    const deleted = rowid === undefined
+      ? (run(target, { command: `DELETE FROM passages WHERE report = '${PROBE_REPORT}'` }), undefined)
+      : run(target, { command: `DELETE FROM passages WHERE rowid = ${rowid}` })[0];
     // Measured only if the database reports it (D1 does; an old or local one may not).
     const insert = inserted.meta.rows_written;
     const del = deleted?.meta.rows_written;
@@ -51,7 +65,7 @@ export function msUntilReset(now: Date): number {
 
 export const duration = (ms: number) => `${Math.floor(ms / 3_600_000)}h ${Math.floor((ms % 3_600_000) / 60_000)}m`;
 
-export type Fetch = (url: string, init: { method: string; headers: Record<string, string>; body: string }) => Promise<{ ok: boolean; json(): Promise<any> }>;
+export type { Fetch } from "./d1-usage";
 
 /** Rows written to the database so far today (UTC), from Cloudflare analytics, or null if it cannot be read. */
 export async function rowsWrittenToday(
@@ -59,28 +73,8 @@ export async function rowsWrittenToday(
   env: { token?: string; account?: string; databaseId?: string },
   now: Date = new Date()
 ): Promise<number | null> {
-  if (!env.token || !env.account || !env.databaseId) return null;
-  const today = now.toISOString().slice(0, 10);
-  const query = `query ($account: String!, $db: String!, $day: Date!) {
-    viewer { accounts(filter: { accountTag: $account }) {
-      d1AnalyticsAdaptiveGroups(limit: 1, filter: { databaseId: $db, date_geq: $day }) { sum { rowsWritten } }
-    } }
-  }`;
-  try {
-    const response = await fetchFn("https://api.cloudflare.com/client/v4/graphql", {
-      method: "POST",
-      headers: { authorization: `Bearer ${env.token}`, "content-type": "application/json" },
-      body: JSON.stringify({ query, variables: { account: env.account, db: env.databaseId, day: today } }),
-    });
-    if (!response.ok) return null;
-    const json = await response.json();
-    const groups = json?.data?.viewer?.accounts?.[0]?.d1AnalyticsAdaptiveGroups;
-    if (!Array.isArray(groups)) return null;
-    const written = groups.reduce((total: number, g: any) => total + (Number(g?.sum?.rowsWritten) || 0), 0);
-    return Number.isFinite(written) ? written : null;
-  } catch {
-    return null;
-  }
+  const usage = await analyticsToday(fetchFn, { token: env.token, accounts: env.account ? [env.account] : [], databaseId: env.databaseId }, now);
+  return usage ? usage.rowsWritten : null;
 }
 
 export type Verdict = { blocked: boolean; lines: string[] };

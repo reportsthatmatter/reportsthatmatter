@@ -31,6 +31,35 @@ describe("probeWrite", () => {
     expect(commands[2]).toBe("DELETE FROM passages WHERE rowid = 42");
   });
 
+  it("finds the probe row by rowid, never by a scan of the report column (t4al: 1.29M rows read in a day)", () => {
+    const commands: string[] = [];
+    const run: Runner = (_t, sql) => {
+      const command = (sql as { command: string }).command;
+      commands.push(command);
+      if (command.startsWith("INSERT")) return [{ results: [], meta: { rows_written: 1, last_row_id: 615_001 } }];
+      if (command.startsWith("SELECT")) return [{ results: [{ rid: 615_001, report: "__rtm_probe__" }], meta: {} }];
+      return [{ results: [], meta: { rows_written: 1 } }];
+    };
+    expect(probeWrite(run, "--remote")).toMatchObject({ ok: true, measured: true });
+    expect(commands[1]).toBe("SELECT rowid AS rid, report FROM passages WHERE rowid = 615001");
+    expect(commands[2]).toBe("DELETE FROM passages WHERE rowid = 615001");
+    expect(commands.some((c) => /WHERE report =/.test(c))).toBe(false);
+  });
+
+  it("never deletes a row that is not the probe's", () => {
+    const commands: string[] = [];
+    const run: Runner = (_t, sql) => {
+      const command = (sql as { command: string }).command;
+      commands.push(command);
+      if (command.startsWith("SELECT")) return [{ results: [{ rid: 9, report: "jack-smith-vol1" }], meta: {} }];
+      return [{ results: [], meta: {} }];
+    };
+    probeWrite(run, "--remote");
+    expect(commands[1]).toBe("SELECT rowid AS rid, report FROM passages ORDER BY rowid DESC LIMIT 1");
+    expect(commands.some((c) => c.includes("rowid = 9"))).toBe(false);
+    expect(commands[2]).toBe("DELETE FROM passages WHERE report = '__rtm_probe__'");
+  });
+
   it("falls back to the default cost when the database does not report rows written", () => {
     const probe = probeWrite(d1("no-meta").run, "--local");
     expect(probe).toMatchObject({ ok: true, measured: false, cost: { insert: 3, delete: 3 } });
@@ -153,7 +182,7 @@ describe("planReport", () => {
     const run: Runner = (_t, sql) => {
       const command = (sql as { command: string }).command;
       if (command.includes("search_index_versions")) return [{ results: [], meta: {} }];
-      return [{ results: command.includes("rowid > 0") ? [{ rid: 1, section: "One", paragraph_id: "a", page: "1", body: "alpha" }, { rid: 2, section: "One", paragraph_id: "b", page: "1", body: "old beta" }] : [], meta: {} }];
+      return [{ results: command.includes("rowid > 0") ? [{ rid: 1, mine: 1, section: "One", paragraph_id: "a", page: "1", body: "alpha" }, { rid: 2, mine: 1, section: "One", paragraph_id: "b", page: "1", body: "old beta" }] : [], meta: {} }];
     };
     const planned = planReport({ root, report: "r", target: "--local", run, extract });
     expect(planned.current).toBe(false);

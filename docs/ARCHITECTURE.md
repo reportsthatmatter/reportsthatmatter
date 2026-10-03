@@ -174,6 +174,15 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   because D1's free tier allows 100,000 row writes a day and a full rewrite of
   one report costs about 6 per paragraph (`scripts/lib/reindex.ts`;
   `AGENTS.md` has the measured numbers and `publish-report --preflight`).
+  Reads are budgeted too (5M rows a day on the free tier, spent on 2026-10-03,
+  `reportsthatmatter-t4al`): `report` is an UNINDEXED FTS5 column, so
+  `WHERE report = ?` reads the whole corpus. `search_index_versions.layout`
+  (migration 0004) records the rowid runs holding each report's rows, so the
+  reindex reads only its own rows; new rows go above the table's highest
+  rowid with explicit rowids, and a trigger clears the layout when an older
+  writer touches the version row. The Worker's search ranks with FTS5's
+  `rank` (`ORDER BY rank`), which reads ~20 rows per query where sorting on
+  `bm25()` read every match twice. `scripts/measure-d1-reads.mjs` measures both.
   `search_index_versions` records which `content_version` was indexed per
   report. `rtm-publish` self-publishing (`AGENTS.md`'s path 1) still does not
   trigger a reindex itself, but the drift it can cause no longer goes
