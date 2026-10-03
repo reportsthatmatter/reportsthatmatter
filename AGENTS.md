@@ -421,6 +421,34 @@ again), and with `--no-reindex`. **`rtm-publish` (path 1) does not do this
 yet** — it lives in the separate `@rtm/ingest` repo, so parity there is its
 own pipeline change, not something this repo can wire in.
 
+**The reindex writes only what changed, and D1's free tier is 100,000 row
+writes a day.** A full rewrite of a report costs about 6 row writes per
+paragraph (3 to delete, 3 to insert: FTS5's shadow tables count), so the whole
+corpus is about 250,000, two and a half days of quota, and one 10-report
+release spent a day's worth and failed the third publish in the middle
+(reportsthatmatter-h6b). `scripts/reindex-search.sh` now reads the report's
+rows back from D1, hashes them, and deletes and inserts only the paragraphs
+whose text, section or page differ from what `pnpm prerender` would index; a
+report whose search version already matches writes one row. Measured on the
+v0.18.0 re-ingest (`pnpm exec tsx scripts/measure-reindex.mjs c5a9dcd`): 4,603
+row writes for the corpus against 253,473 for the full rewrite. `--full` on
+the script (`--full-reindex` on `publish-report`) is the old rewrite.
+
+- `pnpm publish-report <id> --preflight` asks D1 first, writing nothing of
+  yours: it inserts and deletes one sentinel row, which says whether the quota
+  is spent (code 7500, with the time it resets), what D1 bills for a search
+  row, and what this publish would cost; with `CLOUDFLARE_API_TOKEN` and
+  `CLOUDFLARE_ACCOUNT_ID` set it also reads today's writes and says whether it
+  fits. A real publish against a deployed site runs it first and stops before
+  uploading anything when the quota is spent (`--no-preflight` skips it).
+- `pnpm publish-report <id> --dry-run` prints the object count, the version the
+  site serves, whether the text is unchanged, and the estimated row writes
+  (reads D1 for the reindex diff; `--offline` skips that). Needs no secret.
+- `./scripts/reindex-search.sh <id> --dry-run` prints the same plan alone.
+- A publish that fails with D1 code 7500 has uploaded its objects and not
+  committed: wait for 00:00 UTC, then repeat the same `publish-report` command
+  (uploads are idempotent).
+
 **Either way:**
 
 - **The secret** lives at `~/.rtm-publish-secret` on this machine (memory:

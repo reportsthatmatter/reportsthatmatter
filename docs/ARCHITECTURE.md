@@ -169,6 +169,11 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   is the fix, not just a speed-up. `pnpm publish-report` now runs this itself
   once a publish commits, so search stops drifting from content by default —
   see `--no-reindex` and the `--rollback` caveat in `AGENTS.md`.
+  The reindex is incremental: it reads the report's rows back from D1, hashes
+  them against the new prerender and writes only the paragraphs that differ,
+  because D1's free tier allows 100,000 row writes a day and a full rewrite of
+  one report costs about 6 per paragraph (`scripts/lib/reindex.ts`;
+  `AGENTS.md` has the measured numbers and `publish-report --preflight`).
   `search_index_versions` records which `content_version` was indexed per
   report. `rtm-publish` self-publishing (`AGENTS.md`'s path 1) still does not
   trigger a reindex itself, but the drift it can cause no longer goes

@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 # Refreshes and applies the D1 search index for one report.
 #
-#   ./scripts/reindex-search.sh <report-id> [--local]
+#   ./scripts/reindex-search.sh <report-id> [--local] [--dry-run] [--full]
 #
 # This is the automated half of a publish (docs/ARCHITECTURE.md "Search"):
 # `pnpm publish-report <id>` calls this itself once a publish commits, so a
 # normal publish leaves both content and search current with no separate
 # step to remember.
+#
+# Writes only the paragraphs that changed (scripts/reindex-search.mjs): D1's free tier allows 100,000
+# row writes a day and rewriting every paragraph of a report for every publish spent it
+# (reportsthatmatter-h6b). `--dry-run` prints the plan and estimated writes; `--full` is the old rewrite.
 #
 # Scoped to one report on purpose. Building and applying every report's
 # passages for a one-report change is what produced the ~17 MB file whose
@@ -22,18 +26,17 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 id="${1:?Usage: ./scripts/reindex-search.sh <report-id> [--local]}"
-target="local"
-[ "${2:-}" = "--local" ] || target="remote"
+# Remote unless --local appears anywhere after the id (so `--full --local` cannot reach production).
+target="remote"
+for arg in "${@:2}"; do [ "$arg" = "--local" ] && target="local"; done
 
 if [ ! -d "assets/generated/reports/$id" ]; then
   echo "assets/generated/reports/$id not found — run pnpm prerender first." >&2
   exit 1
 fi
 
-echo "Building search index for $id..."
-pnpm index-search "$id"
-
-echo "Applying to D1 ($target)..."
-pnpm wrangler d1 execute reportsthatmatter-marks "--$target" --file="build/search-index.$id.sql"
-
-echo "✓ $id search index is current ($target)."
+# Incremental by default: only paragraphs whose text, section or page changed are written
+# (scripts/reindex-search.mjs). `--full` rewrites the whole report, the old behaviour.
+extra=()
+for arg in "${@:2}"; do [ "$arg" = "--local" ] || extra+=("$arg"); done
+pnpm exec tsx scripts/reindex-search.mjs "$id" $([ "$target" = "local" ] && echo --local) "${extra[@]+"${extra[@]}"}"
