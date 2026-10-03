@@ -9726,11 +9726,9 @@ Harris WD, 124:1-12.
 
 > - R.J. Reynolds Tobacco Co. "represented to the public . . . that the smoking of such cigarettes . . . aided digestion"; "represented that the wind and physical condition of athletes would not be impaired by the smoking of as many Camel cigarettes as desired"; and "represented that the smoking of Camel cigarettes was soothing, restful, and comforting to the nerves, and protected one against becoming 'jittery' or 'unsure' when subjected to intense nerve strain …." Federal Trade Commission, In the Matter of R.J. Reynolds Tobacco Co., Complaint, Findings, and Order in Regard to the Alleged Violation of Sec. 5 of an Act of Congress Approved Sept. 26, 1914 (46 F.T.C. 706), decided March 31, 1950.
 > - Liggett & Myers Tobacco Co. represented "'directly or by implication, that Chesterfield cigarettes can be smoked by an [sic] smoker without inducing any adverse affect upon the nose, throat and accessory organs of the smoker.'" FTC v. Liggett & Myers Tobacco Co., 108 F. Supp. 573 (S.D.N.Y. 1952).
-> - Lorillard made comparisons between the tar and nicotine yields of its cigarettes and those of its competitors. For
+> - Lorillard made comparisons between the tar and nicotine yields of its cigarettes and those of its competitors. For example, Old Gold advertisements included statements that Old Gold was "lowest in nicotine and throat irritating tars and resins when compared with 6 other leading brands." Langenfeld WD at 42:5-10 (citing In the Matter of P. Lorillard Co., 46 F.T.C. 735 (1950)).
 
 %%page 773%%
-
-> example, Old Gold advertisements included statements that Old Gold was "lowest in nicotine and throat irritating tars and resins when compared with 6 other leading brands." Langenfeld WD at 42:5-10 (citing In the Matter of P. Lorillard Co., 46 F.T.C. 735 (1950)).
 
 2030\. As discussed in great detail in section V(E)(1)(a), infra, the FTC successfully prosecuted the Defendant cigarette manufacturers' for some of these health claims. See In the Matter of American Tobacco Co., 47 F.T.C. 1393 (F.T.C. 1951); R.J. Reynolds Tobacco Co., 46 F.T.C. 706 (1950), modified, 192 F.2d 535 (7th Cir. 1951), on remand, 48 F.T.C. 682 (1952); Federal Trade Commission v. Liggett & Myers Tobacco Co., 108 F. Supp. 573 (S.D.N.Y. 1952), affirmed on opinion below, 203 F.2d 955 (2d Cir. 1953); P. Lorillard Co. v. Federal Trade Commission, 186 F.2d 52, 56-57 (4th Cir. 1950).
 
@@ -17190,11 +17188,9 @@ TIDN0004239-4248 at 4239-4240 (US 75287).
 
 > - The Tobacco Institute paid Peter Lee $4,000 to write a response to letters to the editor of Environment International that appeared on January 29, 1993, disputing the conclusion that ETS exposure caused lung cancer and mortality. TIMN0435220-5272 at 5253 (US 21734).
 > - On April 10, 1993, the Tobacco Institute paid Gio Gori $4,000 to write a letter to Lancet, disputing an editorial that had found the Environmental Protection Agency's Risk Assessment provided a firm regulatory basis for increased social action to minimize the public's exposure to ETS. TIMN0435220-5272 at 5231 (US 21734).
-> - In June 1993, the Tobacco Institute paid Peter Lee $5,000 to write a letter to the editor of Journal of the National Cancer Institute disputing results of an ETS study by Stockwell that post-dated the EPA Risk Assessment and found a link between ETS exposure and lung cancer in nonsmoking women. The letter was published along with two other letters
+> - In June 1993, the Tobacco Institute paid Peter Lee $5,000 to write a letter to the editor of Journal of the National Cancer Institute disputing results of an ETS study by Stockwell that post-dated the EPA Risk Assessment and found a link between ETS exposure and lung cancer in nonsmoking women. The letter was published along with two other letters from Tobacco Institute consultants Paul Switzer and Max Layard. TIMN0435220-5272 at 5247 (US 21734).
 
 %%page 1366%%
-
-> from Tobacco Institute consultants Paul Switzer and Max Layard. TIMN0435220-5272 at 5247 (US 21734).
 
 None of the letters disclosed that tobacco industry money had funded them. TIMN0435220-5272 at 5247 (US 21734); 2046342683-2686 (US 20469).
 

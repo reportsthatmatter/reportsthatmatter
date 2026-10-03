@@ -2064,13 +2064,11 @@ The Committee was concerned that a crack in the rocket motor casings might have 
 
 > 7. Joint putty temporarily holds and then releases full motor pressure
 
-During the post-accident tests conducted by NASA and Thiokol, it was learned that the performance of the putty used in the joint can be quite variable. In some instances, including temperatures as warm as 75"F, the joint putty can hold back the full operating pressure inside the motor without transferring any of this pressure to the O-rings.45 In this circumstance, the O-rings will not "seat" and, as the joint "rotates" due to the pressure build-up within the motor, contact can be lost between the O-rings and the metal surfaces they are meant to If the putty were then to release
+During the post-accident tests conducted by NASA and Thiokol, it was learned that the performance of the putty used in the joint can be quite variable. In some instances, including temperatures as warm as 75"F, the joint putty can hold back the full operating pressure inside the motor without transferring any of this pressure to the O-rings.45 In this circumstance, the O-rings will not "seat" and, as the joint "rotates" due to the pressure build-up within the motor, contact can be lost between the O-rings and the metal surfaces they are meant to If the putty were then to release high pressure gases into the joint, these gases could "blow-by" the O-rings, thus causing the joint to fail. This scenario is not a likely failure mode for STS 51-L, because it would produce a leak across a broad area of the joint rather than a small localized leak as observed in the Challenger accident.
 
 45RogersCommission Report, Volume I, p. 64 4 6 NASA, briefings from staff.
 
 %%page 83%%
-
-high pressure gases into the joint, these gases could "blow-by" the O-rings, thus causing the joint to fail. This scenario is not a likely failure mode for STS 51-L, because it would produce a leak across a broad area of the joint rather than a small localized leak as observed in the Challenger accident.
 
 ## DISCUSSION OF CRITICAL ISSUES
 
@@ -2114,13 +2112,11 @@ Because of the extreme complexity of the Orbiter, a series of Configuration Acce
 
 In Amendix K in Volume I1 of the Rogers Commission Report, the Deielopment and Production Team dcscusses in further detail the design and certification processes that were used by each prime contractor. For example, this appendix indicates that Rockwell used a total of 17 design review teams (some divided into as many as 17 subteams) to oversee the design and production work on the Orbiter. The appendix also describes the requirement verification system used by Thiokol for the Solid Rocket Motor as a "closed- loop'' system intended to track each specification requirement. The system specified the method of verification (analysis, inspection, test, etc.) that was to be used for each program phase (development, acceptance, prelaunch, etc.), along with all applicable requirements of the verification plan. These were tracked through the test plans and reports and then culminated in the issuance of a formal "certificate of qualification".
 
-In addition to this comprehensive system of oversight and review by each prime contractor and each NASA field center responsible for monitoring the work of those contractors, detailed outside reviews of the design and testing programs for each major element of flight hardware also occurred. For example, the Aerospace Safety Advisory Panel regularly reviewed the safety aspects of Space Shuttle flight hardware and annually reported their concerns to
+In addition to this comprehensive system of oversight and review by each prime contractor and each NASA field center responsible for monitoring the work of those contractors, detailed outside reviews of the design and testing programs for each major element of flight hardware also occurred. For example, the Aerospace Safety Advisory Panel regularly reviewed the safety aspects of Space Shuttle flight hardware and annually reported their concerns to the NASA Administrator. As another example, NASA Headquarters in 1980 created a Space Shuttle Verification/Certification Committee to thoroughly study the flight worthiness of the entire Shuttle system. This independent committee was chaired by Dr. Walt Williams, NASA's Chief Engineer, and was comprised of recognized experts drawn from the military, private industry, and aca- demia. There was also additional reviews such as a study of the Space Shuttle Main Engine conducted by Professor Gene Covert of MIT.~
 
 1 Rogers Commission Report, Volume 11, pp. K-12 and K-28.
 
 %%page 87%%
-
-the NASA Administrator. As another example, NASA Headquarters in 1980 created a Space Shuttle Verification/Certification Committee to thoroughly study the flight worthiness of the entire Shuttle system. This independent committee was chaired by Dr. Walt Williams, NASA's Chief Engineer, and was comprised of recognized experts drawn from the military, private industry, and aca- demia. There was also additional reviews such as a study of the Space Shuttle Main Engine conducted by Professor Gene Covert of MIT.~
 
 Finally, before the first flight of the Space Shuttle in 1981, NASA had each contractor and each field center carefully review all of the requirement specifications and certification tests for their flight hardware to ensure that all contract end-item requirements had been adequately certified. Upon determining that all certification requirements had been satisfied, each NASA project and technical manager was requried to sign a Verification Completion Notice (a copy of which is contained in Appendix VI-A of this report). This entire process was then duplicated prior to the first "operational" flight of the Space Shuttle (i.e., STS-5 in 1982). This latter process also culminated in each NASA project and technical manager signing a second Verification Completion Notice (a copy of which is contained in Appendix VI-A of this report.).
 
@@ -2860,13 +2856,11 @@ Findings
 
 Recommendations
 
-1. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the
+1. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
 
 101 Ibid., Volume I, p. 170. 102 Ibid., p. 174.
 
 %%page 123%%
-
-Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
 
 2. Where appropriate, NASA should take steps to make the mission planning process standard and routine to reduce the time and resources needed to plan a mission. Before requesting more resources for the existing mission planning process (manpower, facilities, equipment) NASA should identify ways to improve the process. Discussion
 
@@ -3000,7 +2994,7 @@ A third category is caused by the belated recognition of operational constraints
 
 In another example of this type of change, it was found that there was no acceptable launch window for a planned combination of payloads which needed to be put in different orbits. It would seem that NASA could improve its mission planning production process to minimize this kind of manifest change by doing a better job of assessing the impact of operational constraints on payload combinations earlier in the planning process. Of course, one must allow for the late emergence of subtle operational constraints which would only be discovered as a result of deep analysis relatively late in the process. Nevertheless the MPOT report suggests that NASA sometimes carries unworkable flights on the manifest. l
 
-The fourth category of manifest change is due to external factors, many of which are totally within NASA's power to deny. It appears that many of the Headquarters requests for changes are made in order to put on the manifest science experiments which
+The fourth category of manifest change is due to external factors, many of which are totally within NASA's power to deny. It appears that many of the Headquarters requests for changes are made in order to put on the manifest science experiments which are essentially payloads of opportunity. This would include the Get Away Specials (or GAS-cans). It has been considered highly desirable to give this kind of standby status to scientific experiments because they have had low priority on the manifest. That is, it is a way for such experiments to get a relatively early flight.
 
 I I 0 NASA briefing on STS Production Process by Elaine Hofstetler-Presented to Committee Staff on May 19, 1986.
 
@@ -3011,8 +3005,6 @@ l 1 * NASA briefing, May 19, 1986.
 1 1 5 Rogers Commission Report, Volume 11, p. 5-46.
 
 %%page 130%%
-
-are essentially payloads of opportunity. This would include the Get Away Specials (or GAS-cans). It has been considered highly desirable to give this kind of standby status to scientific experiments because they have had low priority on the manifest. That is, it is a way for such experiments to get a relatively early flight.
 
 When changes are made in the manifest they tend to ripple through the system and affect not only the mission in work but also all the other missions in work. For example, changes mean rework-things need to be done over. Software for the mission may have to be rewritten. Inevitably, this causes some delay and com- presses the time available for other work scheduled downstream in the process if the launch date is to be maintained. Of course, if the flight rate is to be achieved, launch dates must be kept.
 
@@ -3330,13 +3322,11 @@ Recommendations
 
 Launch commit criteria define limits on specific system parameters which are required to be monitored during the terminal countdown. When these limits are exceeded the launch is held until the condition is corrected or a n acceptable alternate capability or procedure is instituted.
 
-Proposed criteria are developed by NASA and contractor personnel and are submitted to the NSTS Program Office for review and disposition. All changes are controlled by the Level I1 PRCB (Program Requirements Change Board) and all launch commit criteria are reviewed prior to each flight a t the launch site flow review (8 weeks prior to launch), the Flight Readiness Review and the L-1
+Proposed criteria are developed by NASA and contractor personnel and are submitted to the NSTS Program Office for review and disposition. All changes are controlled by the Level I1 PRCB (Program Requirements Change Board) and all launch commit criteria are reviewed prior to each flight a t the launch site flow review (8 weeks prior to launch), the Flight Readiness Review and the L-1 review. Where practical Launch Commit Criteria include preplanned decisions on courses of action to be taken when violations occur.
 
 Rogers Commission Report, Volume 11, p. F-1.
 
 %%page 147%%
-
-review. Where practical Launch Commit Criteria include preplanned decisions on courses of action to be taken when violations occur.
 
 The process described for developing and controlling the launch commit criteria is systematic and thorough; however, in briefings by NASA personnel it was learned that it is not uncommon to experience violations of the specified limits. These can often be resolved in a straight forward manner based on a prior plan of action; however, the Committee is concerned that in those situations where no preplanned course of action is available, real time engineering decisions are being made under the stress that is inherent in a pre-launch environment. This is particularly undesirable when it is perceived that there are pressures to launch.
 
@@ -3354,13 +3344,11 @@ Recommendation
 
 NASA should make every reasonable effort to record meetings where key decisions might be made; in particular, all formal Flight Readiness Reviews, including the L-1 and the Mission Management Team meeting should be recorded, where feasible by video. Discussion
 
-The Flight Readiness Review process encompasses a series of reviews beginning with contractor reviews of their systems, and going through the Project Management review (Level III), and NSTS Program Management review (the "Pre-FRR'), and culmi-
+The Flight Readiness Review process encompasses a series of reviews beginning with contractor reviews of their systems, and going through the Project Management review (Level III), and NSTS Program Management review (the "Pre-FRR'), and culmi- nating in the Level I (Headquarters) review which is referred to as "the" FRR. One additional formal review takes place 24 hours before launch and is called the "L-1" review. This is conducted by the Mission Management Team (MMT) which is appointed by the Associate Administrator for Space Flight at the time he calls for the FRR. All open work and action items identified at the FRR are closed out at the L-1. In addition to conducting the L-1 review, the MMT functions as a technical advisory body for the Program Manager and is on call beginning 48 hours before the launch until after the mission is completed and the Orbiter is safed.
 
 Rogers Commission Report, Volume 11, pp. 522-23.
 
 %%page 148%%
-
-nating in the Level I (Headquarters) review which is referred to as "the" FRR. One additional formal review takes place 24 hours before launch and is called the "L-1" review. This is conducted by the Mission Management Team (MMT) which is appointed by the Associate Administrator for Space Flight at the time he calls for the FRR. All open work and action items identified at the FRR are closed out at the L-1. In addition to conducting the L-1 review, the MMT functions as a technical advisory body for the Program Manager and is on call beginning 48 hours before the launch until after the mission is completed and the Orbiter is safed.
 
 The Committee concurs with the Rogers Commission that NASA should record key pre-launch meetings; however, the Committee finds no basis for concluding that the Flight Readiness Review procedure is flawed; on the contrary, the procedure appears to be exceptionally thorough and the scope of the issues that are addressed at the FRRs is sufficient to surface any problems that the contractors or NASA management deem appropriate to surface. However, the Flight Readiness Reviews are not intended to replace engineering analysis, and therefore, they cannot be expected to prevent a flight because of a design flaw that management had already determined represented an acceptable risk. In addition all the appropriate offices, including the Chief Engineer representing SR&QA, are represented at the FRRs. Specifically, from the first evidence of 0- ring erosion to the final decision to launch 51-L, the process provided ample opportunity to review and assess the severity of the problems; moreover, all levels of NASA management were made aware of the erosion.138 However, a process is only as effective as the responsible individuals make it. For example, see section VI B.2.c. on the weakness in the SR&QA organization.
 
@@ -3518,13 +3506,11 @@ Similar views were voiced by former Shuttle program manager Robert Thompson:
 
 It does not necessarily follow however, that reductions in the numbers of technical personnel automatically limit the ability of headquarters to identify and correct emerging problems. The adverse impact flows from those reductions that cut into crucial areas. Accordingly, the Committee is pleased that Admiral Truly has undertaken an examination "throughout the agency and particularly in . . . the Space Shuttle program" to make sure that 'we have not only the right numbers but the right kind of trained people ..... 1 5 9 It is hoped that this analysis will identify appropriate technical staffing levels and positions that must be maintained if the agency is to properly perform its function.
 
-NASA technical expertise is further reduced by the departure of highly skilled employees. During fiscal year 1985, approximately 1500 employees left the agency, over one-half of these (784) were engineers, technicians and scientists. If present trends continue,
+NASA technical expertise is further reduced by the departure of highly skilled employees. During fiscal year 1985, approximately 1500 employees left the agency, over one-half of these (784) were engineers, technicians and scientists. If present trends continue, NASA can expect to lose between 7500 and 9000 technical and scientific employees over the next ten years. While 50 percent of these personnel losses are formally attributed to retirement, NASA officials "know. . .that many retires leave NASA for higher paying jobs in industry." 162 Additionally, 17 percent of the departing employees acknowledge that they are leaving NASA for more finan- cially rewarding jobs. 63
 
 166Rogers Commission Report, Volume I, p. 161.
 
 %%page 156%%
-
-NASA can expect to lose between 7500 and 9000 technical and scientific employees over the next ten years. While 50 percent of these personnel losses are formally attributed to retirement, NASA officials "know. . .that many retires leave NASA for higher paying jobs in industry." 162 Additionally, 17 percent of the departing employees acknowledge that they are leaving NASA for more finan- cially rewarding jobs. 63
 
 NASA is concerned that the difficulty it will experience in re- placing these employees is essentially the same that led to the departures; the agency's "salary structure is not sufficiently flexible and competitive to attract the very best talent our nation has to offer."[^6] 4 Therefore, despite liberal hire authority for engineering positions, NASA is experiencing difficulty in recruiting entry-level engineers, largely due to salary. As noted by the Agency:
 
@@ -3936,13 +3922,11 @@ According to NASA, the purpose of this office is to strengthen the role of the S
 
 The major contractors to the NSTS agree with the Commission's recommendation to form a separate NASA SR&QA organization reporting directly to the Administrator. They are, however, of the opinion that responsibility for the work required to recommend or implement changes or modifications in the quality assurance area must remain with Level I11 and the contractors themselves.
 
-The Committee does not argue with the contention that strong SR&QA capabilities must reside at the contractors' plants. Further, the Committee suports NASA's efforts to enhance its in-house capabilities in order to improve the agency's monitoring and oversight capabilities in the areas of SR&QA. Strengthening Headquarter's ability to provide guidance and centralized coordination in the
+The Committee does not argue with the contention that strong SR&QA capabilities must reside at the contractors' plants. Further, the Committee suports NASA's efforts to enhance its in-house capabilities in order to improve the agency's monitoring and oversight capabilities in the areas of SR&QA. Strengthening Headquarter's ability to provide guidance and centralized coordination in the areas of configuration management, product reliability and quality assurance and risk management, are essential to returning the Shuttle to flight readiness condition.
 
 *O' bid., Volume I, p. 152. *08 NASA Response to Rogers Commission, July 14, 1986, p. 20.
 
 %%page 176%%
-
-areas of configuration management, product reliability and quality assurance and risk management, are essential to returning the Shuttle to flight readiness condition.
 
 Issue 2
 
@@ -4030,13 +4014,11 @@ Key Shuttle contracts (e.g., the Solid Rocket Booster Production Contract and th
 
 Findings
 
-1. The SPC provides far greater incentives to the contractor for minimizing costs and meeting schedules than for features related to safety and performance. SPC is a cost-plus, incentive/award fee contract. The amount of the incentive fee is based on contract costs (lower costs yields a larger incentive fee) and on safe and successful launch and recovery of the Orbiter. The award fee is designed to permit NASA to focus on those areas of concern which are not sen-
+1. The SPC provides far greater incentives to the contractor for minimizing costs and meeting schedules than for features related to safety and performance. SPC is a cost-plus, incentive/award fee contract. The amount of the incentive fee is based on contract costs (lower costs yields a larger incentive fee) and on safe and successful launch and recovery of the Orbiter. The award fee is designed to permit NASA to focus on those areas of concern which are not sensitive to the incentive fee provisions, including the safety record of the contractor. However, the incentive fee dwarfs the award fee- while the maximum value of the award fee is only one percent of the value of the SPC, the incentive fee could total as much as 14 percent of the SPC.
 
 Rogers Commission Re rt, Volume I, p. 152. 21bDiacussion with the N E A Chief Engineer's Oftice, May 13, 1986.
 
 %%page 180%%
-
-sitive to the incentive fee provisions, including the safety record of the contractor. However, the incentive fee dwarfs the award fee- while the maximum value of the award fee is only one percent of the value of the SPC, the incentive fee could total as much as 14 percent of the SPC.
 
 2. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July, 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million.
 
@@ -4054,13 +4036,11 @@ On the other hand, Thompson also admitted that contracts do vary in the extent o
 
 > . . . the type of safety that we are looking for, for a system like the Shuttle, I think they can be enhanced with these kind of stipulations in a contract. They can't truly be bought that way. Certainly you [could] hang a larger incentive toward safety. You may enhance a strong focus on safety and I would not say that it wouldn't do some good to enlarge those enhancements. '
 
-The more difficult question is whether existing NASA contracts, such as the SPC and the SRB Production Contact, strike an appropriate balance between safety incentives and cost/schedule incentives. This question is particularly critical in light of reductions in
+The more difficult question is whether existing NASA contracts, such as the SPC and the SRB Production Contact, strike an appropriate balance between safety incentives and cost/schedule incentives. This question is particularly critical in light of reductions in NASA's SR & &A programs detailed in Section VI.B.2.c. of this report.
 
 01aCrnt.e Hgs, Transcript,July 24, 1986, p. 135. 117 mid.
 
 %%page 181%%
-
-NASA's SR & &A programs detailed in Section VI.B.2.c. of this report.
 
 Both Thiokol and NASA witnesses on June 17, 1986, argued that the penalties inherent in the Thiokol contract with Marshall Space Flight Center provided more than adequate incentives for Thiokol to deliver safe, reliable products. These penalties are of two types. Late-delivery penalties amount to $100-200 thousand per unit. Penalties for mission failures are much larger:
 
@@ -4150,7 +4130,7 @@ During the intervening period, as the Shuttle stood on Pad 39B waiting for the l
 
 6. One of the three Solid Rocket Booster to External Tank aft attachment struts is also connected at the 300 degree location, just a few inches below the aft field joint. As the Space Shuttle system stood on the launch platform at Pad B on January 28, the large External Tank was gradually filled with liquid hydrogen and liquid oxygen. Liquid hydrogen, at a temperature of 423 deg F below zero, and liquid oxygen, at a temperature of 297 deg F below zero, caused the tank to contract as it was filled. Since the Solid Rocket Boosters are firmly bolted to the launch platform, a lateral force of approximately 190,000 pounds pulled sideways on the aft attachment strut and the Solid Rocket Motor casing, including the joint that failed.4 Refueling of the tank was accomplished early on the morning of January 28.
 
-At ignition, the 190,000-pound force was instantly released when the SRB hold-down bolts were blown loose. For the next two and a half seconds the right Solid Rocket Motor field joints experienced a 3 cycle per second vibratory load caused by the sudden release of
+At ignition, the 190,000-pound force was instantly released when the SRB hold-down bolts were blown loose. For the next two and a half seconds the right Solid Rocket Motor field joints experienced a 3 cycle per second vibratory load caused by the sudden release of the lateral force.6 The ignition pressure increased the joint spacing. Also, the flow of motor gases through the blowhole at the 300 degree location could have resulted in damage to the primary 0- ring. The evidence of smoke at the 300 degree location is unlikely without O-ring damage.
 
 * NASA, MSFC Memo, Miller to Horton, April 12, 1984.
 
@@ -4159,8 +4139,6 @@ Thiokol, "Erosion of SRM Preasure Seals," TWR 15160, Chart A-9, August 19, 1985 
 4 NASA, &FC, "51-L Analysis &erview," April 25,1986, p. H-203.
 
 %%page 188%%
-
-the lateral force.6 The ignition pressure increased the joint spacing. Also, the flow of motor gases through the blowhole at the 300 degree location could have resulted in damage to the primary 0- ring. The evidence of smoke at the 300 degree location is unlikely without O-ring damage.
 
 7. Smoke at launch, clearly visible in the photographs, stopped at 2.7 seconds when the vibratory load damped out and the joint sealed. The sealing of the breach at the 300 degree location was made possible by blockage from burned material, probably consisting of a mixture of insulation and aluminum oxide. Post-accident tests performed by Morton Thiokol proved that aluminum oxide could have successfully plugged the joint at 2.7 seconds. While the smoke at ignition appeared to be intermittent, that appearance was probably a result of air and main engine exhaust currents.
 
@@ -4240,13 +4218,11 @@ It is always a simple task to find fault with someone else's work; especially af
 
 The joint design provided a direct path between the combustion chamber, consisting of an annulus with propellant surrounding it, and the outside of the steel motor casings. That path was sealed with putty and two circular fluorocarbon elastomer (rubber-like) bands called O-rings. While O-rings are frequently used to retain pressures much higher than those present in the Shuttle Solid Rocket Motor, thermal and structural forces acting on the Shuttle joints are formidable. These joints must carry and transfer these loads between the casings.
 
-Another essential ingredient of good engineering practice is to use material suited to the function. Some O-rings can withstand high temperatures. But "all . . . elastomers become brittle at low [temperatures]. . . . Elastomers, like natural rubber, nitrile rubber, and Viton A . . . that become brittle at low [temperature]
+Another essential ingredient of good engineering practice is to use material suited to the function. Some O-rings can withstand high temperatures. But "all . . . elastomers become brittle at low [temperatures]. . . . Elastomers, like natural rubber, nitrile rubber, and Viton A . . . that become brittle at low [temperature] can be used for static seal gaskets when highly compressed at room temperature prior to cooling."l1
 
 ' 0 Staff discussion with E.G. Dorsey, Thiokol Waeatch Operations, Brigham City, Utah, Sep tember 4, 1986.
 
 %%page 191%%
-
-can be used for static seal gaskets when highly compressed at room temperature prior to cooling."l1
 
 But the Shuttle's O-rings were not used in a "static" system as evidenced by the variations in gap spacing between the tang and clevis. Nor would they always be highly compressed at room temperature prior to the cooling. Furthermore, the O-rings could not withstand burning propellant temperatures in the range of 5800" F. The design of the joint therefore provided for putty to insulate the O-rings from the burning gases.
 
@@ -4262,15 +4238,13 @@ The second reason the assumption concerning the leak check as "proof of sealing'
 
 What appeared to be a rather straightforward joint was far from simple. If the primary O-ring did not seat during the leak check, and the pressure test succeeded, then the putty was doing the work of sealing. But it still was not possible to determine from outside the casings whether the putty or the O-ring was holding the pressure. But, if the leak check failed, then the O-ring was not seated and there was a blow-hole through the putty.
 
-To resolve this concern, NASA and its contractor, Morton Thiokol, changed the leak-check procedure by increasing the pressure until a pressure of 200 pounds per square inch (psi) was accepted as
+To resolve this concern, NASA and its contractor, Morton Thiokol, changed the leak-check procedure by increasing the pressure until a pressure of 200 pounds per square inch (psi) was accepted as the standard. They had ascertained that this was sufficient pressure to blow a hole through the putty.13 Then, if the O-ring failed to seat, the pressure would blow a hole through the putty and the test would disclose an unseated O-ring (a failed seal). But if the 0- ring held the higher pressure, the O-ring would still have been seated in the upper position instead of the downward position. That would be contrary to the way the O-ring would have to be seated to contain the propellant pressure during launch of the Shuttle.
 
 Theodore Baumeister, Editor, Standard Handbook for Mechanical Engineers, 7th Ed., (New York: McGraw-Hill, 1967). pp. 18-35.
 
 1 2 Rogers Commission Report, Volume 11, p. H-1.
 
 %%page 192%%
-
-the standard. They had ascertained that this was sufficient pressure to blow a hole through the putty.13 Then, if the O-ring failed to seat, the pressure would blow a hole through the putty and the test would disclose an unseated O-ring (a failed seal). But if the 0- ring held the higher pressure, the O-ring would still have been seated in the upper position instead of the downward position. That would be contrary to the way the O-ring would have to be seated to contain the propellant pressure during launch of the Shuttle.
 
 In summary, there was still no way to verify whether the primary O-ring was seated properly, meaning in the downstream position after the cases were joined together in the field. In the beginning of the development program the concept was that the putty would act somewhat like a "piston in a cylinder" when the propellant was ignited. As the chamber pressure built up, the putty was to move downstream and compress the air in the path between it and the primary O-ring. The compressed gas was to seat the O-ring and thereby seal the joint. Besides, even if the primary O-ring didn't seal, surely the secondary O-ring would, since it had already been pressure checked, which verified it was seated in the downstream position.
 
@@ -4322,15 +4296,13 @@ In a memo from Larry Mulloy to Bob Lindstrom, Director, MSFC Shuttle Projects Of
 
 On a 0.280 inch diameter O-ring a 7.54 percent squeeze would be equal to a compression distance of 0.021 inches.22
 
-On July 17, 1985, Irv Davids, Manager of the Solid Rocket Booster Program at NASA Headquarters, sent a memo to the Associate Administrator for Space Flight, the subject of which was case-to-
+On July 17, 1985, Irv Davids, Manager of the Solid Rocket Booster Program at NASA Headquarters, sent a memo to the Associate Administrator for Space Flight, the subject of which was case-to- case and nozzle-to-case O-ring seal erosion problems.23 Davids sent copies to Messrs. Weeks, Hamby, Herrington and Winterhalter.23a In the memo it was noted that there has been twelve instances of primary O-ring erosion during Shuttle flights. In addition, in one specific case there had also been erosion of the secondary O-ring seal. There were also two primary O-ring seals that were heat affected without erosion and two cases in which soot blewby the primary seals. In this memo it was noted that the prime suspect for the cause of erosion on the primary O-ring seals was the type of putty being used. It was Thiokol's position that during assembly leak check, or ignition, a hole could be formed through the putty which then initiated O-ring erosion due to a "jetting effect." It was even mentioned in this memo that Thiokol was seriously considering the deletion of putty on the QM-5 nozzle/case joint since they believed the putty was the prime cause of the erosion. Davids, however, had reservations about deleting the putty because he recognized the significance of the QM-5 firing in qualifying the FWC (Filament Wound Case) for flight.
 
 Thiokol, Philip Shadlesky, "Performance Characteristics of the SRM O-ring Assembly Test Plan". TWR-14336. dated March 1984. D. 1. ~ *O fiiokol S. Rc&ers, "Significant Problem Report DR4-5/35 5 Day Re rt O-ring Erosion at Nozzle/Ah Segment Joint of SRM 11A (STS 41-BIMiasion 4143, &-i4370-1, May 7, 1984, pp. 1-2.
 
 a 1 O-ring squeeze is the distance, in fractions of an inch, that an O-ring is compressed from its normally round shape. This dimension can also be expressed as a percentage of the total diameter before compresslon. In 1984 NASA waa using a term "minimum O-rin squeeze." During an SRM design anal sis of the cast? and nozzle O-ring joints it was conclufed that the 146 inch diameter cast? cygnders would not meet the design standard of 15 percent mlnimum O-ring squeeze at zero r w u r e . The various problems that prevented this included flaws in the O-ring y v e a and se%ng surfaces and differences in the spacing between tang and c l e w on various ?%kA, Larry Mullo "ECPSRM 1197, Nozzle Nose Inlet Housing O-ring Squeeze," SA 42- 562-84, November 20, 19&, p. 1.
 
 %%page 195%%
-
-case and nozzle-to-case O-ring seal erosion problems.23 Davids sent copies to Messrs. Weeks, Hamby, Herrington and Winterhalter.23a In the memo it was noted that there has been twelve instances of primary O-ring erosion during Shuttle flights. In addition, in one specific case there had also been erosion of the secondary O-ring seal. There were also two primary O-ring seals that were heat affected without erosion and two cases in which soot blewby the primary seals. In this memo it was noted that the prime suspect for the cause of erosion on the primary O-ring seals was the type of putty being used. It was Thiokol's position that during assembly leak check, or ignition, a hole could be formed through the putty which then initiated O-ring erosion due to a "jetting effect." It was even mentioned in this memo that Thiokol was seriously considering the deletion of putty on the QM-5 nozzle/case joint since they believed the putty was the prime cause of the erosion. Davids, however, had reservations about deleting the putty because he recognized the significance of the QM-5 firing in qualifying the FWC (Filament Wound Case) for flight.
 
 In the matter of case-to-case O-ring erosion the memo noted that there had been five occurrences during flight where there was primary field joint O-ring erosion. There was also one case where the secondary O-ring was heat damaged with no erosion. The memo stated:
 
@@ -4582,7 +4554,7 @@ BY June 29. 1984,[^5] inch motor tests has been completed. These tes& substantia
 
 A new joint design was forwarded to NASA by Thiokol on July 19, 1984, which included a fill capture feature. This feature looked similar to the "capture feature" proposed for future Shuttle flights. The fill capture feature, however, was to be filled with grease. A thermal analysis had shown that "severe heat effects would result if the cavity were not filled."
 
-As stated previously, the putty was to insulate the O-ring seals from the hot propellant gases. It was also to remain flexible enough to move outward under the pressure of the burning propellant, thereby compressing the gas in the joint which, in turn, was
+As stated previously, the putty was to insulate the O-ring seals from the hot propellant gases. It was also to remain flexible enough to move outward under the pressure of the burning propellant, thereby compressing the gas in the joint which, in turn, was to seat the primary O-ring. O-rings require some pressure from the working fluid, in the case of the SRM, this was gas, in order to seat properly and provide a effective seal. In practice, this design philosophy did not prove to be correct because the putty frequently held the pressure off of the O-rings, or if it did not, the putty had blowholes in it. It was then postulated that these holes might actually benefit the seating of the O-ring by allowing more pressure to reach it sooner. It was even suggested that holes might be deliberately made through the putty. However, it was then learned that blowholes served to concentrate propellant gas on small segments of the primary O-ring and caused the ring to erode.
 
 5 0 NASA, John Miller, "Concerns with Randolph Vacuum Putty," EP-25 (84-35), April 12, 1984.
 
@@ -4591,8 +4563,6 @@ As stated previously, the putty was to insulate the O-ring seals from the hot pr
 5 2 Thiokol, "Vacuum Putty Telecon," June 29, 1984.
 
 %%page 203%%
-
-to seat the primary O-ring. O-rings require some pressure from the working fluid, in the case of the SRM, this was gas, in order to seat properly and provide a effective seal. In practice, this design philosophy did not prove to be correct because the putty frequently held the pressure off of the O-rings, or if it did not, the putty had blowholes in it. It was then postulated that these holes might actually benefit the seating of the O-ring by allowing more pressure to reach it sooner. It was even suggested that holes might be deliberately made through the putty. However, it was then learned that blowholes served to concentrate propellant gas on small segments of the primary O-ring and caused the ring to erode.
 
 The unacceptable heat erosion damage to both primary and secondary O-rings on SRM-16A resulted in an evaluation of the putty produced by Randolph Products. In July 1985, L. Thompson of MSFC made a presentation which noted that five different types of putty from four companies were under study in an effort to solve the putty performance problem. As late as 1985 twelve different types of tests had been performed and six more were in progress. The only putty to survive the water tests was General Sealants No. 43, which was a non-asbestos formulation. The Randolph putty had disintegrated in all three water tests. However, in comparing dynamic viscosity to temperature, the General Sealants product, at 25,000 poise,53 was not viscous above 125 deg C. It was slightly better than the Randolph product and another product made by Inmont. The previously used Fuller-O'Brien product, however, increased in dynamic viscosity with an increase in temperature. It was 100,000 poise at 250 deg C, while it was less than 50,000 at 50 deg C.54Consequently, no product met all the design requirements as well as the Fuller-O'Brien did.
 
@@ -4696,13 +4666,11 @@ Apparent in the STS 51-L process, however, is that the continuing SRM seal probl
 
 For 51-L, there was no previous mission to compare data with, since 61-C had not yet flown. Anomalies on STS 61-A and 61-B were not discussed, Mr. McDonald said, because they had already been dispositioned in the FRR's for 61-B and 61-C.15
 
-The Marshall Space Flight Center FRR conducted by Dr. Lucas occurred only one day after the 61-C launch. Mulloy's presentation
+The Marshall Space Flight Center FRR conducted by Dr. Lucas occurred only one day after the 61-C launch. Mulloy's presentation under STS 61-C performance noted that "all SRB systems functioned normally."
 
 'SFO-PD 710.5A, p. 3.
 
 %%page 210%%
-
-under STS 61-C performance noted that "all SRB systems functioned normally."
 
 Under "ascent," the chart shows "no anomalies." l7
 
@@ -5160,7 +5128,7 @@ According to NASA's Program Directive SFO-PD 710.5A, Mr. Reinartz may have been 
 
 > Significant items occurring subsequent to the FRR will also be reported to the AA-SF. Actions that can be easily accomplished without safety, mission, or launch impact and do not violate flight vehicle or launch complex config uration integrity or cause basic changes to launch commit criteria, flight rules, flight plan, or abort and alternate mission plans, need not be reported.83
 
-Was this telecon, and the decision reached, "significant?" NASA's request that the Thiokol decision be put in writing indi-
+Was this telecon, and the decision reached, "significant?" NASA's request that the Thiokol decision be put in writing indicates that MSFC personnel felt the situation was significant, since in effect Thiokol was reconfirming the flight readiness of the SRM.
 
 Staff review of teleconference materials used by Marshall engineers Wilbur Riehl (Chief, Nonmetallic Materials Division) and John Miller (Technical Assistant to the SRM Mana er) indicates that some of the Marshall engineering staff shared the concerns expressed by 'fhiokol engineers.
 
@@ -5169,8 +5137,6 @@ Rogers Commission Report, Volume V, pp. 917-18.
 8s SFO-PD 710.5A, p. 3.
 
 %%page 231%%
-
-cates that MSFC personnel felt the situation was significant, since in effect Thiokol was reconfirming the flight readiness of the SRM.
 
 It is also interesting to note, in light of the directive, that Mr. McDonald testified before the Commission to the effect that Mr. Mulloy had made some "fairly strong comments . . . about trying to institute new launch commit criteria."[^84]
 

@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 65702,
-      "paragraphs": 435,
+      "words": 65697,
+      "paragraphs": 432,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -43,8 +43,8 @@
         {
           "slug": "mr-trumps-misuse-of-official-power-through-the-justice-department",
           "title": "Mr. Trump's Misuse of Official Power Through the Justice Department",
-          "paragraphs": 5,
-          "ids": "6d2db3efa9c4"
+          "paragraphs": 4,
+          "ids": "1b767d52f034"
         },
         {
           "slug": "mr-trumps-pressure-on-the-vice-president",
@@ -55,8 +55,8 @@
         {
           "slug": "mr-trumps-supporters-attack-the-united-states-capitol",
           "title": "Mr. Trump's Supporters Attack the United States Capitol",
-          "paragraphs": 16,
-          "ids": "6a03ea7b454b"
+          "paragraphs": 15,
+          "ids": "848ad9698876"
         },
         {
           "slug": "the-law",
@@ -67,8 +67,8 @@
         {
           "slug": "conspiracy-to-defraud-the-united-states-18-usc-371",
           "title": "Conspiracy to Defraud the United States (18 U.S.C. § 371)",
-          "paragraphs": 23,
-          "ids": "2398e33494fe"
+          "paragraphs": 22,
+          "ids": "cecefe92840e"
         },
         {
           "slug": "conspiracy-against-rights-18-usc-241",
@@ -205,8 +205,8 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 325752,
-      "paragraphs": 2392,
+      "words": 325751,
+      "paragraphs": 2391,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
@@ -379,8 +379,8 @@
         {
           "slug": "cdo-marks",
           "title": "CDO Marks",
-          "paragraphs": 131,
-          "ids": "3727e8fc2526"
+          "paragraphs": 130,
+          "ids": "ef15039b4bd2"
         },
         {
           "slug": "timberwolf-i",
@@ -403,8 +403,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 153992,
-      "paragraphs": 2909,
+      "words": 153973,
+      "paragraphs": 2892,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -511,44 +511,44 @@
         {
           "slug": "crewsurvival",
           "title": "CREWSURVIVAL",
-          "paragraphs": 39,
-          "ids": "521884304b07"
+          "paragraphs": 38,
+          "ids": "84c26573274b"
         },
         {
           "slug": "hardware-development-and-production-2",
           "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
-          "paragraphs": 199,
-          "ids": "16459f7e45eb"
+          "paragraphs": 198,
+          "ids": "6144c6c5a53b"
         },
         {
           "slug": "2-operations",
           "title": "2 . OPERATIONS",
-          "paragraphs": 183,
-          "ids": "d52030b4de30"
+          "paragraphs": 181,
+          "ids": "84c9e5d1b475"
         },
         {
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
-          "paragraphs": 323,
-          "ids": "6075b8e101d9"
+          "paragraphs": 317,
+          "ids": "7be0a355e653"
         },
         {
           "slug": "downstream-proper-posit-ion-i-figurevii-1",
           "title": "DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1",
-          "paragraphs": 173,
-          "ids": "b60e49723a5f"
+          "paragraphs": 168,
+          "ids": "82141ecd0ec7"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 131,
-          "ids": "6680cc1f941a"
+          "paragraphs": 130,
+          "ids": "f21236c1774c"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
           "title": "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
-          "paragraphs": 306,
-          "ids": "e3033b8c4661"
+          "paragraphs": 305,
+          "ids": "008fceb85f28"
         },
         {
           "slug": "launch-redlines",
@@ -991,14 +991,14 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1075715,
-      "paragraphs": 12674,
+      "words": 1075711,
+      "paragraphs": 12670,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
           "title": "PRACTICES AND ETHICS OF THE PRESS REPORT",
-          "paragraphs": 582,
-          "ids": "086ec4d37859"
+          "paragraphs": 581,
+          "ids": "95e1cd0d0066"
         },
         {
           "slug": "news-corporation",
@@ -1069,8 +1069,8 @@
         {
           "slug": "chapter-4-some-practices-at-the-news-of-the-world-1-introduction",
           "title": "Chapter 4: Some practices at the News of the World 1. Introduction",
-          "paragraphs": 334,
-          "ids": "917e938201ac"
+          "paragraphs": 333,
+          "ids": "189cfefda402"
         },
         {
           "slug": "the-dowlers",
@@ -1099,8 +1099,8 @@
         {
           "slug": "love-celeb-gossip-so-do-we-send-us-your-story",
           "title": "LOVE CELEB GOSSIP? SO DO WE, SEND US YOUR STORY!",
-          "paragraphs": 272,
-          "ids": "7701001f4907"
+          "paragraphs": 271,
+          "ids": "3653cc997876"
         },
         {
           "slug": "chapter-1-policing-with-consent-the-role-of-the-press-1-introduction",
@@ -1315,8 +1315,8 @@
         {
           "slug": "chapter-8-conclusions-and-recommendations",
           "title": "Chapter 8: Conclusions And Recommendations",
-          "paragraphs": 212,
-          "ids": "1c1874eaa886"
+          "paragraphs": 211,
+          "ids": "41392526cf6b"
         },
         {
           "slug": "chapter-9-plurality-and-media-ownership-conclusions-and-recommendations-1-introd",
@@ -2305,8 +2305,8 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 188217,
-      "paragraphs": 2319,
+      "words": 188206,
+      "paragraphs": 2308,
       "sections": [
         {
           "slug": "front-matter",
@@ -2323,8 +2323,8 @@
         {
           "slug": "part-i-the-path-to-tragedy",
           "title": "Part I: The Path to Tragedy",
-          "paragraphs": 123,
-          "ids": "3d558077f11c"
+          "paragraphs": 121,
+          "ids": "35b4b0b91685"
         },
         {
           "slug": "chapter-two-each-oil-well-has-its-own-personality-the-history-of-offshore-oil-an",
@@ -2335,20 +2335,20 @@
         {
           "slug": "chapter-three-it-was-like-pulling-teeth-oversightand-oversightsin-regulating-dee",
           "title": "Chapter Three: \"It was like pulling teeth.\" Oversight—and Oversights—in Regulating Deepwater Energy Exploration and Production in the Gulf of Mexico",
-          "paragraphs": 191,
-          "ids": "751754220721"
+          "paragraphs": 188,
+          "ids": "1307b2139d2f"
         },
         {
           "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
           "title": "Part II: Explosion and Aftermath: The Causes and Consequences of the Disaster",
-          "paragraphs": 213,
-          "ids": "4b76eca99876"
+          "paragraphs": 211,
+          "ids": "c1d551c6d837"
         },
         {
           "slug": "chapter-five-youre-in-it-now-up-to-your-neck-response-and-containment",
           "title": "Chapter Five: \"You're in it now, up to your neck!\" Response and Containment",
-          "paragraphs": 216,
-          "ids": "f65862202482"
+          "paragraphs": 214,
+          "ids": "119d5e3abd20"
         },
         {
           "slug": "chapter-six-the-worst-environmental-disaster-america-has-ever-faced-oiling-a-ric",
@@ -2365,8 +2365,8 @@
         {
           "slug": "part-iii-lessons-learned-industry-government-energy-policy",
           "title": "Part III: Lessons Learned: Industry, Government, Energy Policy",
-          "paragraphs": 145,
-          "ids": "ad8b8a320ffc"
+          "paragraphs": 143,
+          "ids": "b286ced2b32d"
         },
         {
           "slug": "the-need-for-a-new-approach-to-risk-assessment-and-management",
@@ -3253,8 +3253,8 @@
       ]
     },
     "uk-hillsborough-panel": {
-      "words": 202615,
-      "paragraphs": 3106,
+      "words": 202599,
+      "paragraphs": 3090,
       "sections": [
         {
           "slug": "front-matter",
@@ -3271,8 +3271,8 @@
         {
           "slug": "part-2-hillsborough-what-is-added-to-public-understanding",
           "title": "Part 2: Hillsborough: 'what is added to public understanding'",
-          "paragraphs": 182,
-          "ids": "d55d2d97e7ef"
+          "paragraphs": 181,
+          "ids": "aa9e09a4d2ef"
         },
         {
           "slug": "chapter-2-the-moment-of",
@@ -3289,26 +3289,26 @@
         {
           "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
           "title": "Chapter 4: Emergency response and aftermath: 'routinely requested to attend'",
-          "paragraphs": 212,
-          "ids": "47adf2d68779"
+          "paragraphs": 210,
+          "ids": "3cd85c23c52d"
         },
         {
           "slug": "chapter-5-medical-evidence-the-testimony-of-the-dead",
           "title": "Chapter 5: Medical evidence: the testimony of the dead",
-          "paragraphs": 138,
-          "ids": "03608ca6ae00"
+          "paragraphs": 137,
+          "ids": "0cbd43cf048d"
         },
         {
           "slug": "chapter-6-parallel-investigations",
           "title": "Chapter 6: Parallel investigations",
-          "paragraphs": 349,
-          "ids": "4dc9fecc286c"
+          "paragraphs": 346,
+          "ids": "c70caa02a996"
         },
         {
           "slug": "chapter-7-civil-litigation",
           "title": "Chapter 7: Civil litigation",
-          "paragraphs": 282,
-          "ids": "b5da2457236c"
+          "paragraphs": 280,
+          "ids": "baca9d6637cf"
         },
         {
           "slug": "chapter-8-the-coroners-inquiry-from-the-immediate-aftermath-to-the-preliminary-h",
@@ -3319,8 +3319,8 @@
         {
           "slug": "chapter-9-the-generic-hearing-judicial-review-and-continuing-controversies",
           "title": "Chapter 9: The generic hearing, Judicial Review and continuing controversies",
-          "paragraphs": 154,
-          "ids": "0825c8da110c"
+          "paragraphs": 152,
+          "ids": "45b04c5ef34d"
         },
         {
           "slug": "chapter-10-the-315pm-cut-off",
@@ -3331,14 +3331,14 @@
         {
           "slug": "chapter-11-review-and-alteration-of-statements",
           "title": "Chapter 11: Review and alteration of statements",
-          "paragraphs": 259,
-          "ids": "9927b6c65b14"
+          "paragraphs": 257,
+          "ids": "3ee745ec77dc"
         },
         {
           "slug": "chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs",
           "title": "Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations",
-          "paragraphs": 235,
-          "ids": "6faf7ecc36b2"
+          "paragraphs": 232,
+          "ids": "775cccca7df7"
         },
         {
           "slug": "part-3-the-permanent-archive-for-the-hillsborough-disaster",
@@ -3727,8 +3727,8 @@
       ]
     },
     "us-lehman-examiner": {
-      "words": 184769,
-      "paragraphs": 982,
+      "words": 184765,
+      "paragraphs": 978,
       "sections": [
         {
           "slug": "introduction",
@@ -3781,14 +3781,14 @@
         {
           "slug": "business-and-risk-management",
           "title": "Business and Risk Management",
-          "paragraphs": 315,
-          "ids": "121e71cab34c"
+          "paragraphs": 312,
+          "ids": "65777a7dd705"
         },
         {
           "slug": "repo-105",
           "title": "Repo 105",
-          "paragraphs": 585,
-          "ids": "18a9e894a0bc"
+          "paragraphs": 584,
+          "ids": "2ea570c72161"
         },
         {
           "slug": "notes-not-linked-in-the-text",
