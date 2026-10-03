@@ -21,7 +21,7 @@ The steps are **`docs/release-checklist.md`** 9-14 (PR #239; until merged, read 
 6. `VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh`.
 7. `pnpm quality ratchet --record`, commit `reports/quality-last.json`; close the stage Beads.
 
-`pnpm ship` (0c6i) will chain 1-6 when it exists.
+`pnpm ship` (0c6i) chains the post-merge half, including these steps: `pnpm ship --plan`, then `pnpm ship --shared` (add `--yes` for the production steps). See `docs/release-checklist.md`. Do not run it while another integrator is mid-release on the same checkouts.
 
 ## Exit gate
 

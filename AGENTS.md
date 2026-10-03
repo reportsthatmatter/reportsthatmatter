@@ -411,6 +411,10 @@ carries `x-rtm-content-version` naming the hash or `assets`, which is what
 keeps the deliberate fallbacks (missing object, missing table) observable
 rather than silent.
 
+### Shipping a release: `pnpm ship`
+
+The post-merge half of a release (pin bump in every report repo, re-ingest, baseline, aggregate, aliases, prerender, checks, publish with `--no-reindex`, deploy, reindex the published reports, seed, verify, record) is `pnpm ship`, a resumable driver with a state file (`build/ship/state.json`). `pnpm ship --plan` prints every step and runs nothing; steps that touch production need `--yes`; a failed check stops it and prints what to read. It decides nothing: merges, conflicts, commits, budget raises and accepting a diff stay with the integrator. Steps and flags: `docs/release-checklist.md`, `scripts/ship.ts`.
+
 ### Publishing a report — how it works now
 
 **⚠️ Content published to R2 is not touched by an app deploy.** Once a report

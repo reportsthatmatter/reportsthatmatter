@@ -25,6 +25,7 @@
     "score": "tsx scripts/score.mjs",
     "scorecard": "tsx scripts/scorecard.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",
+    "ship": "tsx scripts/ship.ts",
     "check-search-staleness": "node scripts/check-search-staleness.mjs",
     "marks": "tsx scripts/marks.mjs",
     "heroes": "node scripts/imagery/heroes.mjs",
