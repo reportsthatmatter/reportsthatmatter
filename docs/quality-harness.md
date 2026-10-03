@@ -95,7 +95,7 @@ Where a report has `reference/adjudicated.yaml` (38s.12), a golden page on one o
 
 ## Layout oracle
 
-`pnpm ingest verify [<id>]` also measures each report against the PDF's own layout (`measureLayout` in `@rtm/ingest`, `src/oracle.ts`; plan §3.3, bead b78.5). `pdftohtml -xml` gives every printed line's position, font, size and colour; the oracle derives what the layout implies and counts where the pipeline's blocks disagree. It never fails the run and changes no output. `--findings` prints the first five of each signal; `--no-oracle` skips it. The counts, every finding, and the first 200 unlocated paragraphs are written to `<report-repo>/.cache/oracle.json` (self-ignored by git); the per-PDF XML is cached beside it as `layout-<sha256 of the PDF>.xml`, rebuilt only when the PDF or the installed poppler changes.
+`pnpm ingest verify [<id>]` also measures each report against the PDF's own layout (`measureLayout` in `@rtm/ingest`, `src/oracle.ts`; plan §3.3, bead b78.5). `pdftohtml -xml` gives every printed line's position, font, size and colour; the oracle derives what the layout implies and counts where the pipeline's blocks disagree. It changes no output, and fails the run only when a budgeted signal's count exceeds its budget (below). `--findings` prints the first five of each signal; `--no-oracle` skips it. The counts, every finding, and the first 200 unlocated paragraphs are written to `<report-repo>/.cache/oracle.json` (self-ignored by git); the per-PDF XML is cached beside it as `layout-<sha256 of the PDF>.xml`, rebuilt only when the PDF or the installed poppler changes.
 
 | signal | what the layout says | catalogue |
 |---|---|---|
@@ -112,40 +112,42 @@ Margin, pitch and body font are measured per page and document (`openLayout`); t
 
 ### Counts per report
 
-Measured on ingest v0.18.0 (2026-10-02), reading each block's final text.
+Measured on ingest v0.18.1 plus the oracle fixes of b78.9 (2026-10-03), reading each block's final text. Against the v0.18.0 table, `markers-unlinked` moved for the reports with notes pages, labelled notes or footnote-heavy pages (Columbia 503 to 287, Deepwater 2,132 to 1,445, Saville 1,394 to 9, Lehman 233 to 221) and rose where the old oracle skipped body lines on pages dominated by footnotes (PSI 514 to 598, Leveson 7,451 to 7,497; read on the page, the new ones are real: PSI p.407 `market.”1619`, Leveson vol.1 p.18 `terms:1`). `markers-spurious` rose where a labelled `[^N-label]` is now read and finds no raised N (Saville 6 to 60) and where a notes page's own numbers no longer match a stray marker (Deepwater 600 to 824, Columbia 19 to 46); it is not budgeted.
 
 | report | headings-missed | headings-spurious | markers-unlinked | markers-spurious | paragraphs-oversplit | paragraphs-merged | quotes-spurious | quotes-missed |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | litvinenko-inquiry | 220 | 0 | 103 | 162 | 255 | 1,252 | 184 | 46 |
-| jack-smith-vol1 | 96 | 37 | 37 | 81 | 152 | 425 | 51 | 53 |
-| us-psi-financial-crisis | 153 | 5 | 514 | 33 | 132 | 858 | 226 | 91 |
-| challenger-accident | 236 | 76 | 24 | 138 | 347 | 1,971 | 331 | 212 |
-| uk-leveson-inquiry | 1,350 | 2 | 7,451 | 120 | 2,100 | 2,537 | 319 | 1,254 |
-| columbia-accident | 93 | 4 | 503 | 19 | 537 | 724 | 290 | 214 |
+| jack-smith-vol1 | 96 | 37 | 32 | 100 | 152 | 425 | 51 | 53 |
+| us-psi-financial-crisis | 153 | 5 | 598 | 27 | 132 | 858 | 226 | 91 |
+| challenger-accident | 236 | 76 | 23 | 138 | 347 | 1,971 | 331 | 212 |
+| uk-leveson-inquiry | 1,350 | 2 | 7,497 | 117 | 2,100 | 2,537 | 319 | 1,254 |
+| columbia-accident | 93 | 4 | 287 | 46 | 537 | 724 | 290 | 214 |
 | us-911-commission | 67 | 3 | 18 | 17 | 113 | 2,377 | 29 | 164 |
-| us-deepwater-horizon | 334 | 0 | 2,132 | 600 | 397 | 906 | 31 | 72 |
+| us-deepwater-horizon | 334 | 0 | 1,445 | 824 | 397 | 906 | 31 | 72 |
 | us-v-philip-morris | 0 | 27 | 38 | 19 | 958 | 992 | 261 | 345 |
 | uk-hillsborough-panel | 390 | 0 | 931 | 0 | 125 | 794 | 22 | 49 |
-| uk-saville-inquiry | 176 | 3 | 1,394 | 6 | 226 | 1,230 | 552 | 20 |
+| uk-saville-inquiry | 176 | 3 | 9 | 60 | 226 | 1,230 | 552 | 20 |
 | uk-chilcot-inquiry | 13 | 3 | 283 | 3 | 15 | 387 | 6 | 76 |
-| us-lehman-examiner | 45 | 5 | 233 | 20 | 144 | 221 | 143 | 99 |
+| us-lehman-examiner | 45 | 5 | 221 | 19 | 144 | 221 | 143 | 99 |
 
 Scanned reports (Challenger, Jack Smith) read through `pdftohtml -hidden`, which keeps the OCR text layer `pdftotext` also reads. Their fonts are the scanner's, so their heading and quote counts are noisier (see precision).
 
 ### Precision, against golden pages
 
-Each oracle signal's count on a golden page set against what that page's entry says is wrong (`scoreOracle`: counts matched one for one, `tp` = min(oracle, truth), `fp` = counted beyond the truth, `fn` = true and not counted). `pnpm ingest verify` prints the table over every golden page; `--explain` lists each disagreement with the lines the oracle saw. ingest v0.18.0, 77 pages; a signal is scored only on pages whose entry speaks to it (`blocks` for the block signals, `markers` for the marker signals). Pages were chosen for being hard, so recall is recall on the hard cases.
+Each oracle signal's count on a golden page set against what that page's entry says is wrong (`scoreOracle`: counts matched one for one, `tp` = min(oracle, truth), `fp` = counted beyond the truth, `fn` = true and not counted). `pnpm ingest verify` prints the table over every golden page; `--explain` lists each disagreement with the lines the oracle saw. ingest v0.18.1 plus b78.9, 77 pages; a signal is scored only on pages whose entry speaks to it (`blocks` for the block signals, `markers` for the marker signals). Pages were chosen for being hard, so recall is recall on the hard cases.
 
-| signal | tp | fp | fn | precision | recall | born-digital precision | scanned precision |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| `markers-unlinked` | 75 | 52 | 21 | 59% | 78% | 59% | 100% (n=1) |
-| `headings-missed` | 23 | 24 | 19 | 49% | 55% | 59% | 0% |
-| `paragraphs-oversplit` | 45 | 11 | 83 | 80% | 35% | 73% | 95% |
-| `quotes-spurious` | 15 | 4 | 13 | 79% | 54% | 79% | n/a |
-| `markers-spurious` | 8 | 13 | 3 | 38% | 73% | 64% | 10% |
-| `headings-spurious` | 1 | 3 | 6 | 25% | 14% | 50% | 0% |
-| `paragraphs-merged` | 15 | 132 | 1 | 10% | 94% | 8% | 15% |
-| `quotes-missed` | 1 | 14 | 0 | 7% | 100% | 7% | 0% |
+| signal | tp | fp | fn | precision | recall |
+|---|---:|---:|---:|---:|---:|
+| `markers-unlinked` | 79 | 0 | 17 | 100% | 82% |
+| `headings-missed` | 23 | 24 | 19 | 49% | 55% |
+| `paragraphs-oversplit` | 45 | 11 | 83 | 80% | 35% |
+| `quotes-spurious` | 15 | 4 | 13 | 79% | 54% |
+| `markers-spurious` | 11 | 13 | 0 | 46% | 100% |
+| `headings-spurious` | 1 | 3 | 6 | 25% | 14% |
+| `paragraphs-merged` | 15 | 132 | 1 | 10% | 94% |
+| `quotes-missed` | 1 | 14 | 0 | 7% | 100% |
+
+`markers-unlinked` was 75/52/21 (59% precision, 78% recall) on ingest v0.18.1 before the b78.9 fixes. The per-scanned-or-born-digital split is as before for the other signals; `markers-unlinked` is 100% on both.
 
 Per report, `tp/fp/fn` for the four signals worth a second look:
 
@@ -153,34 +155,36 @@ Per report, `tp/fp/fn` for the four signals worth a second look:
 |---|---|---|---|---|
 | litvinenko-inquiry | 4/0/2 | 5/0/1 | 0/1/5 | 2/0/0 |
 | jack-smith-vol1 | 0/8/0 | 1/0/1 | 2/1/0 | - |
-| us-psi-financial-crisis | 0/5/2 | 1/0/7 | 1/0/1 | 1/1/1 |
+| us-psi-financial-crisis | 0/5/2 | 4/0/4 | 1/0/1 | 1/1/1 |
 | challenger-accident | 0/0/9 | 0/0/9 | 16/0/16 | 0/0/3 |
-| uk-leveson-inquiry | 9/0/0 | 21/0/2 | 6/0/3 | 2/2/0 |
-| columbia-accident | 0/0/5 | 8/15/1 | 13/3/34 | 6/0/0 |
+| uk-leveson-inquiry | 9/0/0 | 22/0/1 | 6/0/3 | 2/2/0 |
+| columbia-accident | 0/0/5 | 8/0/1 | 13/3/34 | 6/0/0 |
 | us-911-commission | 0/4/1 | - | 0/6/6 | 2/0/3 |
-| us-deepwater-horizon | 1/3/0 | 6/18/0 | 1/0/5 | 1/0/0 |
+| us-deepwater-horizon | 1/3/0 | 6/0/0 | 1/0/5 | 1/0/0 |
 | us-v-philip-morris | - | 1/0/0 | 5/0/5 | 0/0/3 |
 | uk-hillsborough-panel | 6/0/0 | 8/0/0 | 0/0/4 | - |
-| uk-saville-inquiry | 1/4/0 | 0/11/0 | 0/0/4 | 1/1/3 |
+| uk-saville-inquiry | 1/4/0 | - | 0/0/4 | 1/1/3 |
 | uk-chilcot-inquiry | 2/0/0 | 4/0/0 | - | - |
-| us-lehman-examiner | - | 20/8/0 | 1/0/0 | - |
+| us-lehman-examiner | - | 20/0/0 | 1/0/0 | - |
 
 What the false positives are (each read on the page with `--explain`):
 
-- `markers-unlinked`: all 52 are three oracle gaps. A notes page (Columbia p.119, Deepwater p.323) prints its note numbers as small raised digits, and the oracle reads them as markers (33). Saville links its notes as `[^1-31]` (note 1 of paragraph 31) and the oracle looks only for `[^N]` (11). Lehman's leverage tables carry a marker in every cell and the oracle counts the digits twice (8). Without them it is 75 of 75.
+- `markers-unlinked`: the 52 false positives of ingest v0.18.1 were three oracle gaps, all fixed in b78.9 (bead mbpb for the labels). A notes page (Columbia p.119, Deepwater p.323) prints each note's number raised at the start of its line, and the oracle read it as a marker (33); Lehman's footnotes at the foot of a page do the same (8: the bead called them "doubled table-cell markers", but the table cells were each counted once, it was the note lines under them). The oracle now ignores a raised number that opens its line, since a marker follows a word. Saville links its notes as `[^1-31]` (note 1 of paragraph 31) and the hybrid path labels notes `N-C`; the oracle read only `[^N]` (11), and now reads `[^N-label]` as note N. It also now counts raised digits in lines set in the document's body face on a page whose own body face is the footnotes' (a page that is mostly notes), which found about 130 more, all read as real on the sampled pages (PSI, Leveson). Now it is 79 of 79.
 - `headings-missed`: a scanned page's OCR face differs from line to line (Jack Smith p.63: 8 body lines read as headings); bold run-in subheads in PSI and figure labels in 9/11 and Deepwater that the layout sets big. On Hillsborough, Leveson, Litvinenko and Chilcot, the reports whose headings are typographic, it is 21 of 21.
 - `paragraphs-merged`: the oracle counts every line the layout opens (each item of a list, each paragraph inside a quotation, each table row) with no block opening there; the pipeline keeps a quotation as one block and a list as one block. 132 false positives, mostly Chilcot (35), Saville (22), Columbia (21), Deepwater (12), PSI (12), PM (14). It measures the pipeline's conventions, not defects.
 - `quotes-missed`: the same convention (a run inset on both sides that continues a quotation already open).
 - `paragraphs-oversplit`: high precision; it misses most of what is wrong (recall 35%) because it only fires on a block whose first line the layout says continues, and the scans' lines carry no layout to compare (Challenger 16 of 32).
-- `markers-spurious`: OCR digits on scanned pages (Jack Smith 8); too few true cases elsewhere.
+- `markers-spurious`: OCR digits on scanned pages (Jack Smith 8); too few true cases elsewhere. Saville's 60 (new, since labelled markers are now read) have not been read on the page.
 
 **Which signals get budgets** (rule: a signal is budgeted per report when its precision on that report's golden pages is at least 80% on at least 5 counted findings, and the budget only ratchets down):
 
-- `markers-unlinked`: yes, after the two cheap fixes that remove every false positive above (skip lines of a page that defines endnotes; read `[^N-label]` as note N). Until then budget only the born-digital reports where it is clean: Leveson (21/21), Hillsborough (8/8), Chilcot (4/4), Litvinenko (5/5), Philip Morris (1/1). It is the signal with the highest recall (78%), and it is the largest defect class by count.
+- `markers-unlinked`: yes, every report (100% precision, 79/79, after the b78.9 fixes). It is the signal with the highest recall (82%), and it is the largest defect class by count.
 - `paragraphs-oversplit`: yes for Challenger (16/16), Columbia (13/16), Leveson (6/6) and Philip Morris (5/5), the reports with at least 5 findings on golden pages; too few elsewhere (Jack Smith 2/3, 9/11 0/6 and Litvinenko 0/1 are the doubtful ones). Recall is 35%, so the count under-reports; that is safe for a ratchet that only goes down.
 - `quotes-spurious`: Columbia only (6/6); everywhere else there are at most 4 findings on golden pages (overall 79% on 19).
 - `headings-missed`: per report where the golden pages say it is right: Hillsborough (6/6) and Leveson (9/9); Litvinenko (4/4) and Chilcot (2/2) are clean but have too few findings to say. Not on the scans, PSI, 9/11, Saville or Deepwater.
-- No budget: `paragraphs-merged`, `quotes-missed` (conventions, not defects: fix the oracle to count a quotation or a list as the block the pipeline makes, then re-measure), `headings-spurious` (4 findings on golden pages: not enough to say), `markers-spurious` (38%).
+**The budgets** are in `reports/oracle-budget.yaml` and checked by `pnpm ingest verify` (in `verify.sh`; the oracle needs the PDFs, so it is not part of `pnpm quality`): a count over its budget fails the run and names the signal. They were set at the counts above (the oracle's counts on ingest v0.18.1 plus the b78.9 fixes) and only move down: `pnpm ingest verify <id> --ratchet-oracle` lowers a report's budgets to its current counts, and verify prints "oracle budget can be ratcheted" when a count sits under its budget. Raising one is a hand edit with a `# why: <bead id>` comment. Every report has `markers-unlinked`; Challenger, Columbia, Leveson and Philip Morris have `paragraphs-oversplit`; Hillsborough and Leveson have `headings-missed`; Columbia has `quotes-spurious`. A re-ingest that moves a count means reading the findings (`--findings`, `.cache/oracle.json`) before touching the number.
+
+- No budget: `paragraphs-merged`, `quotes-missed` (conventions, not defects: fix the oracle to count a quotation or a list as the block the pipeline makes, then re-measure), `headings-spurious` (4 findings on golden pages: not enough to say), `markers-spurious` (46%).
 
 ### Runtime
 

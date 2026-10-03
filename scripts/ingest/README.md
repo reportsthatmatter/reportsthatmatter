@@ -6,7 +6,7 @@ over the reports in `reports/`.
 
 ```bash
 pnpm ingest run <id>        # rebuild one report from reports/<id>/ingest.ts
-pnpm ingest verify          # fidelity gates against the real source PDFs, the layout oracle (measure-only; --no-oracle, --findings), then each report's golden pages (golden.yaml; --no-golden, --explain)
+pnpm ingest verify          # fidelity gates against the real source PDFs, the layout oracle (measure-only except its per-report budgets in `reports/oracle-budget.yaml`, which fail the run when exceeded; --no-oracle, --findings, --ratchet-oracle), then each report's golden pages (golden.yaml; --no-golden, --explain)
 pnpm ingest page <id> <vol> <pdfPage> [--draft] [--fixture <name>]   # one page's layout lines beside the blocks made; a draft golden entry; a test fixture
 pnpm ingest outline <id>    # one line per PDF page (headings, block counts) to choose golden pages from
 pnpm ingest check           # has any report's output moved?

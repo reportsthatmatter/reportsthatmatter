@@ -235,6 +235,17 @@ an interactive session.
   integrator, after a re-ingest, once the diff has been read. Reader reports
   arrive through the `text-defect` issue template with the `reader-report`
   label; the bead gets the label and `--external-ref` to the issue.
+- **A bug bead closes with a golden page or a narrowed xfail.** A bug bead about
+  a report's text (or the pipeline's reading of it) closes only when the fix
+  leaves one of two things in the report repo's `golden.yaml`: a new golden page
+  that fails on the pre-fix output and passes on the fix, or an existing
+  `xfail` entry narrowed (a kind dropped from `xfail_only`, or the page's
+  `xfail` removed) because the fix made that assertion pass. A bead with
+  neither is not closed: add the page first (`pnpm ingest page <id> <vol>
+  <pdfPage> --draft`, then read the page image). This is in addition to the
+  quality-signal rule above, and a fix that lowers an oracle count also lowers
+  its budget (`pnpm ingest verify <id> --ratchet-oracle`;
+  `reports/oracle-budget.yaml`, checked by `pnpm ingest verify`).
 - **Don't modify tests to make them pass** — fix the code. (Do fix tests whose
   fixtures are unrealistic; several early ones were.)
 - **Paragraph ids are the product.** They derive from the paragraph's opening

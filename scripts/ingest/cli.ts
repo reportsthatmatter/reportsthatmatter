@@ -21,6 +21,7 @@ import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from 
 import { basename, join, resolve } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { pathToFileURL } from "node:url";
+import { checkOracleBudget, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
 import {
   Baseline,
   Correction,
@@ -58,6 +59,7 @@ import {
 } from "@rtm/ingest";
 
 const ROOT = join(import.meta.dirname, "../..");
+const ORACLE_BUDGET_PATH = join(ROOT, "reports/oracle-budget.yaml");
 const REPORTS = join(ROOT, "reports");
 
 /**
@@ -328,6 +330,7 @@ async function runVerify(args: string[]): Promise<number> {
   const targets = only ? entries.filter((e) => e.id === only) : entries;
 
   let allOk = true;
+  const oracleBudget = loadOracleBudget(ORACLE_BUDGET_PATH);
   const allRows: Array<{ oracle: PageCounts | undefined; truth: Partial<PageCounts> }> = [];
   for (const target of targets) {
     if (!target.ingested) {
@@ -400,6 +403,19 @@ async function runVerify(args: string[]): Promise<number> {
               `${report.expected.paragraphStarts} paragraph starts, ${report.expected.quoteRuns} quote runs; ` +
               `unlocated: ${report.unlocated.headings} headings, ${report.unlocated.paragraphStarts} paragraphs, ${report.unlocated.quotes} quotes`
           );
+          const budget = checkOracleBudget(oracleBudget, target.id, report.counts);
+          for (const o of budget.over) {
+            console.log(`  \x1b[31m✗\x1b[0m oracle budget: ${o.signal} ${o.count} is over its budget of ${o.budget} (reports/oracle-budget.yaml; read the findings with --findings)`);
+            allOk = false;
+          }
+          if (budget.slack.length) {
+            if (flags.includes("--ratchet-oracle")) {
+              ratchetOracleBudgetFile(ORACLE_BUDGET_PATH, target.id, report.counts);
+              console.log(`  \x1b[32m✓\x1b[0m oracle budget ratcheted: ${budget.slack.map((o) => `${o.signal} ${o.budget} to ${o.count}`).join(", ")}`);
+            } else {
+              console.log(`  · oracle budget can be ratcheted (--ratchet-oracle): ${budget.slack.map((o) => `${o.signal} ${o.count} < ${o.budget}`).join(", ")}`);
+            }
+          }
           writeFileSync(join(reportDir(target.id), ".cache", "oracle.json"), `${JSON.stringify(report, null, 1)}\n`, "utf8");
           if (flags.includes("--findings")) {
             for (const signal of ORACLE_SIGNALS) {
