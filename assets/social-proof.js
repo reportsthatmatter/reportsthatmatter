@@ -21,16 +21,19 @@ const body = document.getElementById("report-body");
 /** Set once an editor's highlight is marked, so the page can say what the shading is. */
 let editorOnPage = false;
 
-if (body) {
-  const report = body.dataset.report;
-  if (report) markCounts(report);
-}
-
 /** Same hue as .hl (assets/styles.css), always fainter — this is ambient, not the one thing you're looking at. */
 const MIN_ALPHA = 0.16;
 const MAX_ALPHA = 0.4;
 /** Reader counts at or above this all read as "fully" marked; the point is a felt gradient, not a precise scale. */
 const ALPHA_SATURATES_AT = 6;
+
+/**
+ * What the server said was marked on this report, once it has said it ([] if
+ * it could not). The landing panel (passage-panel.js) reads it to tell the
+ * editor's highlight from a reader's, rather than asking again.
+ * @type {Promise<MarkCount[]>}
+ */
+export const marksLoaded = body && body.dataset.report ? markCounts(body.dataset.report) : Promise.resolve([]);
 
 /** @param {number} readers @returns {string} */
 function washFor(readers) {
@@ -46,17 +49,18 @@ function washFor(readers) {
  * }} MarkCount
  */
 
-/** @param {string} report */
+/** @param {string} report @returns {Promise<MarkCount[]>} */
 async function markCounts(report) {
   /** @type {MarkCount[]} */
   let entries;
   try {
     const res = await fetch(`/reports/${encodeURIComponent(report)}/marks`);
-    if (!res.ok) return;
+    if (!res.ok) return [];
     entries = await res.json();
   } catch (err) {
-    return;
+    return [];
   }
+  if (!Array.isArray(entries)) return [];
 
   for (const entry of entries) {
     const paragraph = document.getElementById(entry.paragraph);
@@ -85,6 +89,7 @@ async function markCounts(report) {
   }
 
   if (editorOnPage) addKey();
+  return entries;
 }
 
 

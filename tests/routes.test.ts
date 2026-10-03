@@ -73,6 +73,11 @@ describe("routes", () => {
     // ids must not be positional — that is what makes citations rot
     expect(body).not.toMatch(/<p id="p-\d+"/);
     expect(body).toContain("/assets/share.js");
+    // The phone dock's Share button ships hidden; share.js reveals it only
+    // where there is a share sheet (bght.3).
+    expect(body).toMatch(/<button type="button" data-action="share" hidden>Share<\/button>/);
+    // The landing panel is built in the browser, never served (bght.4).
+    expect(body).not.toContain("passage-panel");
   });
 
   it("returns 404 for an unknown report", async () => {
