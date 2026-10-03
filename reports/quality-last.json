@@ -1,5 +1,5 @@
 {
-  "ingest": "v0.18.1",
+  "ingest": "v0.19.0",
   "recorded": "2026-10-03",
   "reports": {
     "challenger-accident": {
@@ -179,12 +179,12 @@
       "quote-share-parity": 2
     },
     "us-911-commission": {
-      "severed-into-quote": 34,
-      "severed-paragraph": 4,
-      "severed-paragraph-capital": 24,
-      "bare-footnote-marker": 2,
+      "severed-into-quote": 0,
+      "severed-paragraph": 0,
+      "severed-paragraph-capital": 7,
+      "bare-footnote-marker": 0,
       "note-marker-wrong-note": 0,
-      "note-marker-unpaired": 12,
+      "note-marker-unpaired": 0,
       "note-text-in-body": 0,
       "note-citation-vocabulary": 0,
       "furniture-paragraph": 0,
@@ -196,7 +196,7 @@
       "heading-long": 0,
       "printed-page-reversal": 0,
       "rendered-h1": 0,
-      "rendered-ol-words-share": 2,
+      "rendered-ol-words-share": 0,
       "ids-per-1k-words": 0,
       "quote-share-parity": 1
     },
