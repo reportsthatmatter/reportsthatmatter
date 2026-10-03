@@ -1,0 +1,66 @@
+21
+
+tributing factor in a mission-threatening incident on Flight 61-C,
+the mission immediately prior to the January 28 Challenger
+launch.
+
+3. There are numerous documented cases where contractor em-
+ployees failed to comply with guidelines for carrying out assigned
+duties, including specific “Operations and Maintenance Instruc-
+tions’ (OMIs). Such failures contributed to both of the major mis-
+haps in 1985 involving Shuttle processing—namely, the November
+8, 1985, “handling ring” episode which led to significant damage to
+a Solid Rocket Motor segment slated for use on STS 51-L, and the
+March 8, 1985, “payload bay access platform’ episode which led to
+significant damage to bay payload bay door. Failure to follow an
+OMI also led to improper (and mission-threatening) handling of the
+hydrogen disconnect valve during the 51-L launch operations. All
+of these incidents show a lack of discipline, both with respect to fol-
+lowing prescribed procedures and with respect to reporting viola-
+
+tions of these procedures.
+4. At the time of the Challenger accident, the lack of spare parts
+
+caused a degree of cannibalization (i.e., the removal of a part from
+one Orbiter to satisfy a need for a spare part on another Orbiter),
+which was the highest in the history of the Shuttle program and
+which was a threat to flight schedule and flight safety. Excessive
+cannibalization leads to multiple installations, retesting, added doc-
+umentation, delayed access to parts, and increased damage poten-
+tial. As a result, cannibalization contributes directly to excessive
+overtime.
+
+5. There is no clear evidence whether or not greater involvement
+of the development contractors would improve Shuttle operations.
+
+Recommendations
+
+1. Because of the serious quality and safety concerns surround-
+ing the contract, NASA should conduct a careful review of Shuttle
+processing, the SPC contract, and the relationship of flight hard-
+ware contractors and report its findings, recommendations, and
+proposed contract modifications to the Committee. NASA’s reexam-
+ination should include a comparison of efficiency and safety under
+the SPC versus efficiency and safety during pre-1983 Shuttle proc-
+essing operations, which heavily involved the development contrac-
+tors.
+
+2. NASA should examine the issues of spares availability and
+cannibalization and provide the Congress with a management and
+
+budgetary plan for correcting previous logistical problems.
+8. NASA should stop routine cannibalization and develop guilde-
+
+lines (including appropriate control and review procedures and
+roles for the SR&QA office) governing permissible cannibalization.
+
+4. The Committee recommends that NASA provide its re-invig-
+orated safety office with the authority to enforce scheduling that
+
+leads to safe overtime rates.
+b. Pressures on Shuttle Operations
+
+Issue
+
+Was NASA under pressure to fly more flights? How did this
+pressure originate? Will it recur?
