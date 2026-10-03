@@ -121,7 +121,6 @@ reports:
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 6
-    rendered-ol-words-share: 7  # why: post v0.15.0 integration
     numbered-prose-list: 37
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
