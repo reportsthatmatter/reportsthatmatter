@@ -74,3 +74,17 @@ export function serializeRecorded(rec: Recorded): string {
   for (const id of Object.keys(rec.reports).sort()) reports[id] = rec.reports[id];
   return JSON.stringify({ ingest: rec.ingest, recorded: rec.recorded, reports }, null, 2) + "\n";
 }
+
+/**
+ * A warning line when `reports/quality-last.json` was recorded at a different ingest version than the
+ * installed one (reportsthatmatter-6px), else null. Expected between a pin bump and its release shipping,
+ * which is why it is a reminder and not a failure: the release is not done until `ratchet --record` has run.
+ */
+export function staleRecord(recordedIngest: string | undefined, installed: string): string | null {
+  const norm = (v: string) => v.replace(/^v/, "");
+  if (!recordedIngest || norm(recordedIngest) === norm(installed)) return null;
+  return (
+    `reports/quality-last.json was recorded at ingest v${norm(recordedIngest)}; the installed pipeline is v${norm(installed)}. ` +
+    "`pnpm quality report --diff` compares against the older one until the release ships; then: pnpm quality ratchet --record, and commit it."
+  );
+}

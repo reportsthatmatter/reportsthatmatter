@@ -31,6 +31,7 @@ import { join } from "node:path";
 import { parse } from "yaml";
 import { extractPassages } from "@rtm/ingest";
 import { assertFresh } from "./prerender-stamp.mjs";
+import { explainGone, explainNew } from "./lib/corpus-explain.ts";
 import { paragraphDensityCheck, MIN_PARAGRAPH_IDS_PER_1000_WORDS } from "../src/lib/density.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -87,10 +88,10 @@ function diffReport(before, after) {
   const newSections = bySlug(after.sections);
 
   for (const slug of oldSections.keys()) {
-    if (!newSections.has(slug)) problems.push(`section gone: ${slug}`);
+    if (!newSections.has(slug)) problems.push(`section gone: ${slug} — ${explainGone(before.sections, after.sections, slug)}`);
   }
   for (const slug of newSections.keys()) {
-    if (!oldSections.has(slug)) problems.push(`section new: ${slug}`);
+    if (!oldSections.has(slug)) problems.push(`section new: ${slug} — ${explainNew(before.sections, after.sections, slug)}`);
   }
 
   let idsMoved = 0;
