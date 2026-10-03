@@ -175,25 +175,25 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-saville-inquiry:
-    severed-into-quote: 5
+    severed-into-quote: 0
     severed-paragraph: 1
-    bare-footnote-marker: 10
+    bare-footnote-marker: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-text-in-body: 16
+    note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 17
-    contents-entry-without-heading: 191
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
     heading-density: 0
     heading-repeated: 0
     heading-function-word: 1
     heading-marker: 0
     heading-long: 4
-    printed-page-reversal: 1
+    printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 4
+    rendered-ol-words-share: 0
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: reportsthatmatter-zja
+    quote-share-parity: 1
   us-911-commission:
     severed-into-quote: 0
     severed-paragraph: 0
