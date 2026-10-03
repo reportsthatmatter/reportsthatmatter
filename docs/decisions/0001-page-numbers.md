@@ -1,6 +1,6 @@
 # 0001. When do we anchor printed page numbers, and when are paragraph numbers the citation?
 
-- **Status:** open
+- **Status:** proposed (supervisor recommendation below; Rufus decides)
 - **Date raised:** 2026-10-03
 - **Decided by:** —
 - **Beads:** reportsthatmatter-qap0; related: ifb5.3 (the stage-3 proposal records the choice per report), i8en (how anchors are encoded), b78.10 (page-label scheme)
@@ -23,9 +23,24 @@ Rufus, 2026-10-03: why do we need page numbers, and do they matter for reports t
 2. Per report: the primary citation unit (printed page or paragraph number) is chosen in the stage-3 proposal; the other is kept where cheap.
 3. Paragraph numbers only where they exist; page anchors only for page-cited reports.
 
+## Recommendation (supervisor, 2026-10-03)
+
+**Principle: anchor to the canonical edition's own locators, never invent any.** Our primary citation unit is always our paragraph id (`?p=`), which works for every report. On top of that, carry whatever locator the canonical edition itself uses, because that's what people already cite:
+
+1. **Paginated canonical edition** (every report we have today: all 13 live and the queued ones are official PDFs, and US reports like 9/11, Valukas and Philip Morris are cited by page): keep printed page anchors. They let a reader match an existing citation ("p. 172") and check our text against the official copy. Alignment makes them almost free (the 9/11 hybrid anchored all 446 pages automatically).
+2. **Numbered paragraphs** (UK inquiries: Saville, Chilcot, Leveson, Litvinenko, Hillsborough): printed paragraph numbers are the main citation and should be shown prominently. Keep page anchors too while a PDF is the canonical edition, but give them less prominence.
+3. **Web-native reports with no pagination** (likely as we take on more online-first publications): no page numbers. Don't invent them, and don't import pages from a print-on-demand PDF. Use the edition's own section and paragraph numbers if it has them, and our paragraph ids otherwise.
+
+**What this implies:**
+- Page anchors become optional per-report metadata, not a pipeline requirement. Record which locators a report carries, and its label scheme (printed vs. PDF index, b78.10), in the stage-3 proposal (ifb5.3).
+- Show page numbers less prominently in the reading view (uk0) and print them in citations: "p. 172" where paginated, "para 3.120" where numbered, otherwise the link.
+- How the anchors are encoded (inline `%%page%%` vs. a sidecar layer) is 0002/i8en. This recommendation favours a layer that can be absent.
+
+**Evidence to gather before deciding:** how each live report is cited in the press, courts and Parliament (page vs. paragraph), and whether readers use the page markers (analytics on `#page-` anchors, if any).
+
 ## Decision
 
-Not yet made. A per-report policy (option 2) was suggested in the session; it needs evidence of how each report is actually cited, and Rufus's decision.
+Not yet made: Rufus to decide on the recommendation above.
 
 ## Consequences
 

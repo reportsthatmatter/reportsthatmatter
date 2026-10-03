@@ -456,8 +456,8 @@ the script (`--full-reindex` on `publish-report`) is the old rewrite.
 
 **Either way:**
 
-- **The secret** lives at `~/.rtm-publish-secret` on this machine (memory:
-  `rtm-publish-secret.md`) — it is the Worker's `PUBLISH_SECRET`, and it
+- **The secret** lives at `~/.rtm-publish-secret` on this machine (see Working conventions below)
+  — it is the Worker's `PUBLISH_SECRET`, and it
   cannot be read back from Cloudflare if lost; rotating it means reissuing
   every report's token. A report's token is derived —
   `HMAC(PUBLISH_SECRET, <report id>)` — so a repo holds a credential that can
@@ -575,3 +575,30 @@ even if a step gets skipped.
 ## Decisions and open questions
 
 When a question of direction comes up (format, policy, sources, hosting, editorial), don't settle it in chat or in a PR description. Add a record to `docs/decisions/` (copy `0000-template.md`, status `open` or `proposed`) and a bead labelled `decision`, then carry on. Rufus decides open questions; update the record and close the bead when he does. See `docs/decisions/README.md`.
+
+## Working conventions
+
+How Rufus wants work done here. These conventions live in this file, not in any agent's private memory, so every agent and session sees them. When Rufus states a new convention, add it here.
+
+**Decide and proceed.** Don't route execution choices back to Rufus. If in doubt, go forward with a reversible choice, record it, and keep going. Batch real questions at the end. (Questions of *direction* are different: log them; see "Decisions and open questions" above.)
+
+**Ship introductions without review.** Report introductions (`editorial/<id>.yaml`) go out approved, merged and deployed in one go. Rufus gives feedback later as a follow-up. Don't open "Rufus: review" beads for intros.
+
+**Drafts live in the repo.** Posts, long-reads and research write-ups are files on a branch with a PR: the blog posts folder with `status: draft`, or `docs/research/`. Don't produce Claude artifacts as review copies unless Rufus asks for one.
+
+**Get better faster, not just fix the next bug.** Research and integrator work should also improve how we find and measure defects. Prefer work that produces measurement (reference texts, `pnpm score`, golden pages, the oracle, error clustering) over another one-off pass. Every agent's final report ends with a "Getting better faster" retro (what slowed you, what would have caught it, one proposal), and lessons go into `docs/design/lessons.md`. Reports that have a clean edition are both a served source and the labelled training set for PDF-only reports (shadow PDF ingest; docs/decisions/0003).
+
+**Park hard reports.** Give a tough report one fix attempt. If a different defect then appears, stop, write up what was learned in a bead labelled `research`, hold its PRs out of the release, and move on. Don't churn on it inside a general session (e.g. Duelfer, Leveson headings).
+
+**Supervisor and model choice.** A supervisor session delegates to subagents and picks the model per task before spawning:
+- Sonnet: specced code, applying existing passes, stage-1 ingests, integrators and release chains, copy, heroes.
+- Opus: new heuristics, research, design, and writing introductions.
+- Fable: only for big design synthesis.
+
+Run 5–7 agents at a time (usage limits), and resume stopped agents rather than starting fresh. Fix agents open PRs and never release. One Sonnet integrator merges, releases with `pnpm release`, bumps pins, reads every diff, deploys and publishes. Each report repo has one owning agent at a time. The session protocol (`~/src/reportsthatmatter/.agent-protocol-<date>.md`) holds the per-session rules.
+
+**Shared checkouts.** `~/src/reportsthatmatter/reportsthatmatter`, `~/src/reportsthatmatter/ingest` and the report repos are shared by concurrent sessions. Never switch branches or stash in a shared checkout. Work in a `git worktree` (site: `pnpm bootstrap`; report repos too whenever another agent may touch the same repo), with its own `node_modules`, never a symlink. A peer's uncommitted edits in a sibling report repo can fail verify's corpus check: that's peer noise, so check `git status` there.
+
+**Releasing ingest.** PRs squash-merge, so tag only the post-merge commit on `main`; `pnpm release <version>` enforces this, plus a current `dist/`. The site's `@rtm/ingest` pin runs `pnpm ingest run/check` for every report, so a site pin bump re-ingests the whole corpus: prove that every report you didn't intend to change is byte-identical. After bumping report-repo pins, run `pnpm install` in each (`pnpm ingest preflight`).
+
+**Cloudflare.** This project's account is wrangler's `default` profile (office@atomatic.net). A home-directory binding in `~/Library/Preferences/.wrangler/profiles/directory-bindings.json` can send wrangler to the `datopian` account, so `wrangler deploy` then fails on the D1 binding (`code: 10181`), and `WRANGLER_PROFILE` doesn't override it. Check with `pnpm wrangler d1 list`, which should show `reportsthatmatter-marks`. The publish secret is at `~/.rtm-publish-secret` (the only copy; if it's lost, rotate `PUBLISH_SECRET` and reissue the report tokens). D1 free tier is 100k row writes per day: publish with `--no-reindex`, then reindex only what changed (`--preflight` probes first). If wrangler's OAuth expires, ask Rufus to run `! pnpm wrangler login`.

@@ -10,7 +10,7 @@ One file per question we have had to answer, or still have to. It is written so 
 
 | # | Question | Status | Bead |
 |---|---|---|---|
-| [0001](0001-page-numbers.md) | When do we anchor printed page numbers, and when are paragraph numbers the citation? | open | qap0 |
+| [0001](0001-page-numbers.md) | When do we anchor printed page numbers, and when are paragraph numbers the citation? | proposed | qap0 |
 | [0002](0002-annotation-format.md) | How do we encode what we add to the text: inline markdown or a sidecar file? | open | i8en |
 | [0003](0003-clean-editions-as-source.md) | Serve clean editions instead of cleaning PDFs? | decided 2026-10-02 | ivg |
 | [0004](0004-quality-budgets.md) | Where do quality budgets start, and how do they move? | decided 2026-10-02 | b78 |
