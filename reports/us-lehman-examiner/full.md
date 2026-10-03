@@ -4,7 +4,7 @@ authors: "Anton R. Valukas, Examiner (Jenner & Block LLP)"
 published_at: "11 March 2010"
 source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
 pages: 523
-footnotes: 1785
+footnotes: 1789
 ---
 
 %%page 1%%
@@ -711,7 +711,7 @@ Like the decision to increase the firm‐wide risk appetite limit, the decision 
 
 #### The Board's Approval of Lehman's Growth Strategy
 
-Lehman's Board fully embraced Lehman's growth strategy. In a January 2007 Board meeting, the directors were informed of the large increase in the risk appetite limit for fiscal 2007, and of the firm's intention to expand its footprint in principal investments, and they agreed with Lehman's senior officers that Lehman needed to take more risk in order to compete.[^231] All of the directors told the Examiner that they agreed with Lehman's growth strategy at the time it was undertaken.232.
+Lehman's Board fully embraced Lehman's growth strategy. In a January 2007 Board meeting, the directors were informed of the large increase in the risk appetite limit for fiscal 2007, and of the firm's intention to expand its footprint in principal investments, and they agreed with Lehman's senior officers that Lehman needed to take more risk in order to compete.[^231] All of the directors told the Examiner that they agreed with Lehman's growth strategy at the time it was undertaken.[^232].
 
 Although the periodic materials that the Finance and Risk Committee[^233] received about the firm's stress testing disclosed that tests were conducted on the firm's "trading portfolio" and "We subject both our trading and our counterparty portfolio to stress tests,"[^234] management did not inform the Finance and Risk Committee that many of the firm's commercial real estate and private equity investments were excluded from the firm's stress tests.[^235]
 
@@ -929,7 +929,7 @@ The Archstone deal was an enormous commitment by Lehman, both in terms of debt f
 
 %%page 111%%
 
-At the time the deal was presented to the Executive Committee, Lehman intended to sell all Archstone debt at closing.[^401] Because Lehman had price flex on the Archstone debt, Lehman management was reasonably confident that it could distribute the debt without suffering a loss.[^402] Price flex is a mechanism that facilitates syndication or sale of a loan by the initial lender without taking a loss.403 As a mechanical matter, price flex may permit the initial lender to increase the interest rate to attract other lenders (in which case the borrower is required to pay its lenders a higher interest rate), or require the borrower to reimburse the debt holders for any loss they may suffer as a result of syndicating or selling the debt to a third party at a price less than par.[^404] Because of the price flex on the Archstone debt, the risk in the Archstone commitment was heavily concentrated in Lehman's equity and bridge equity commitments.
+At the time the deal was presented to the Executive Committee, Lehman intended to sell all Archstone debt at closing.[^401] Because Lehman had price flex on the Archstone debt, Lehman management was reasonably confident that it could distribute the debt without suffering a loss.[^402] Price flex is a mechanism that facilitates syndication or sale of a loan by the initial lender without taking a loss.[^403] As a mechanical matter, price flex may permit the initial lender to increase the interest rate to attract other lenders (in which case the borrower is required to pay its lenders a higher interest rate), or require the borrower to reimburse the debt holders for any loss they may suffer as a result of syndicating or selling the debt to a third party at a price less than par.[^404] Because of the price flex on the Archstone debt, the risk in the Archstone commitment was heavily concentrated in Lehman's equity and bridge equity commitments.
 
 Lehman planned to sell 50% of its remaining mezzanine debt and bridge equity positions within two to three weeks of closing (Lehman had already had two large financial institutions express an interest), and the rest would be sold off over the six months following closing.[^405] Insofar as Lehman's potential profits were concerned, Lehman forecast earning more than $1.3 billion over a ten‐year period, including nearly $1 billion on Lehman's investment and substantial origination and asset management fees.[^406]
 
@@ -1015,7 +1015,7 @@ Nagioff was concerned that his efforts were too little too late: "Sadly in spite
 
 #### July‐August 2007 Concerns Regarding Lehman's Ability to Fund Its Commitments
 
-By July 2007, after the Bear Stearns' funds' implosion, some Lehman executives were concerned that Lehman might not be able to fund all of its commitments.[^456] For example, Lehman had a maximum cumulative outflow funding model designed to ensure that Lehman had sufficient cash sources to meet the expected cash outflows in a stressed market environment.[^457] Under that model, in July 2007, the firm's "[L]iquidity Pool one year forward position [was] short $(0.4) billion."458
+By July 2007, after the Bear Stearns' funds' implosion, some Lehman executives were concerned that Lehman might not be able to fund all of its commitments.[^456] For example, Lehman had a maximum cumulative outflow funding model designed to ensure that Lehman had sufficient cash sources to meet the expected cash outflows in a stressed market environment.[^457] Under that model, in July 2007, the firm's "[L]iquidity Pool one year forward position [was] short $(0.4) billion."[^458]
 
 %%page 124%%
 
@@ -1103,7 +1103,7 @@ The deterioration of Lehman's capital was also apparent from the decline in its 
 
 %%page 137%%
 
-The SEC expected Lehman to notify it if the total capital ratio fell below or was expected to fall below the 10% requirement, but Lehman did not do so.521 Tonucci told the SEC that Lehman was "comfortable" with landing close to the 10% limit at the end of the year "given how difficult it is to issue right now."[^522]
+The SEC expected Lehman to notify it if the total capital ratio fell below or was expected to fall below the 10% requirement, but Lehman did not do so.[^521] Tonucci told the SEC that Lehman was "comfortable" with landing close to the 10% limit at the end of the year "given how difficult it is to issue right now."[^522]
 
 The dominant cause for the rapid decline in Lehman's equity position was a shift in the firm's asset mix to illiquid assets, including high yield loans, real estate, and principal investments.[^523] From November 2006 to August 2007, the firm's illiquid holdings grew by 72%, while "Tier 1 capital grew by only 26%."[^524]
 
@@ -2695,7 +2695,7 @@ In addition to documents demonstrating that Lehman, internally, continued to foc
 
 %%page 852%%
 
-> ● "Despite the negative results this quarter, there were some positive takeaways: Balance sheet and leverage reduced . . . . Riskier assets cut . . . ."3273
+> ● "Despite the negative results this quarter, there were some positive takeaways: Balance sheet and leverage reduced . . . . Riskier assets cut . . . ."[^3273]
 
 > ● "Overall, we believe the company's moves to de‐leverage the balance sheet are positive factors from a ratings perspective."[^3274]
 
@@ -3573,7 +3573,7 @@ A review of Lehman's public filings confirms that Lehman did not disclose its us
 
 #### Disclosure Obligations: Regulation S‐K and the MD&A
 
-Item 303 of Regulation S‐K, Management's Discussion and Analysis of Financial Condition and Results of Operations (the "MD&A"), requires management to discuss the issuer's financial condition, changes in financial condition, and results of operations. MD&A in each periodic report (Form 10‐K/10‐Q) must contain the following:3740
+Item 303 of Regulation S‐K, Management's Discussion and Analysis of Financial Condition and Results of Operations (the "MD&A"), requires management to discuss the issuer's financial condition, changes in financial condition, and results of operations. MD&A in each periodic report (Form 10‐K/10‐Q) must contain the following:[^3740]
 
 > ● MD&A requires not only a "discussion," but also an "analysis" of known material trends, events, demands, commitments, and uncertainties. The
 
@@ -5067,7 +5067,9 @@ The Examiner concludes that there is sufficient basis for claims to be submitted
 
 [^401]: Lehman, Easy Living Talking Points for Executive Committee and Rating Agencies (May 18, 2007), at p. 2 [LBEX‐DOCID 200792], attached to e‐mail from Paolo R. Tonucci, Lehman, to Christopher M. O'Meara, Lehman, et al. (May 18, 2007) [LBEX‐DOCID 215761].
 
-[^402]: Id. 403 Standard & Poor's, Guide to the Loan Market (Sept. 2009), at p. 8, http://www2.standardandpoors.com/spf/pdf/fixedincome/LoanMarketGuide_2009_Final.pdf (last visited (last visited on Feb. 1, 2010); Alicia Taylor & Alicia Sansone, THE HANDBOOK OF LOAN SYNDICATIONS AND TRADING 175 (McGraw‐Hill 2007); Steven M. Vavaria, Standard & Poor's, Syndicated Loans‐‐A Rated Market, at Last! (Feb. 12, 2002), http://leeds‐ faculty.colorado.edu/madigan/3020/Readings/Syndicated_Loans‐‐A_Rated_Market_At_Last.pdf (last visited on Feb. 1, 2010).
+[^402]: Id.
+
+[^403]: Standard & Poor's, Guide to the Loan Market (Sept. 2009), at p. 8, http://www2.standardandpoors.com/spf/pdf/fixedincome/LoanMarketGuide_2009_Final.pdf (last visited (last visited on Feb. 1, 2010); Alicia Taylor & Alicia Sansone, THE HANDBOOK OF LOAN SYNDICATIONS AND TRADING 175 (McGraw‐Hill 2007); Steven M. Vavaria, Standard & Poor's, Syndicated Loans‐‐A Rated Market, at Last! (Feb. 12, 2002), http://leeds‐ faculty.colorado.edu/madigan/3020/Readings/Syndicated_Loans‐‐A_Rated_Market_At_Last.pdf (last visited on Feb. 1, 2010).
 
 [^404]: Id.
 
@@ -5175,7 +5177,9 @@ The Examiner concludes that there is sufficient basis for claims to be submitted
 
 [^456]: See, e.g., e‐mail from Paolo R. Tonucci, Lehman, to Sigrid M. Stabenow, Lehman (Mar. 14, 2007) [LBEX‐ DOCID 1342697]; e‐mail from Christopher M. O'Meara, Lehman, to Paolo R. Tonucci, Lehman (Apr. 6, 2007) [LBEX‐DOCID 1349076]; Lehman, Chart Showing High Grade and High Yield Loan Commitments (July 19, 2007) [LBEX‐DOCID 375444], attached to e‐mail from Nahill Younis, Lehman, to Kentaro Umezaki, Lehman (July 19, 2007) [LBEX‐DOCID 297877]; e‐mail from Kentaro Umezaki, Lehman, to Ian Lowitt, Lehman (July 20, 2007) [LBEX‐DOCID 717108]; e‐mail from Ian T. Lowitt, Lehman, to Kentaro Umezaki, Lehman (July 20, 2007) [LBEX‐DOCID 717108]; e‐mail from Ian T. Lowitt, Lehman, to Paolo Tonucci, Lehman, et al. (July 11, 2007) [LBEX‐DOCID 1901826].
 
-[^457]: Lehman, Liquidity Management At Lehman Brothers (July 2008), at p. 13 [LBEX‐DOCID 009007], attached to e‐mail from Rowena T. Carreon, Lehman, to Robert Azerad, Lehman, et. al. (July 31, 2008) [LBEX‐DOCID 067762]. 458 3rd Quarter‐to‐Date MCO and Cumulative Outflow Analysis (July 11, 2007), at p. 1 [LBEX‐DOCID 1681748], attached to e‐mail from Nahill Younis, Lehman, to Paolo R. Tonucci, Lehman (July 11, 2007) [LBEX‐DOCID 1901826].
+[^457]: Lehman, Liquidity Management At Lehman Brothers (July 2008), at p. 13 [LBEX‐DOCID 009007], attached to e‐mail from Rowena T. Carreon, Lehman, to Robert Azerad, Lehman, et. al. (July 31, 2008) [LBEX‐DOCID 067762].
+
+[^458]: 3rd Quarter‐to‐Date MCO and Cumulative Outflow Analysis (July 11, 2007), at p. 1 [LBEX‐DOCID 1681748], attached to e‐mail from Nahill Younis, Lehman, to Paolo R. Tonucci, Lehman (July 11, 2007) [LBEX‐DOCID 1901826].
 
 [^459]: Examiner's Interview of Kentaro Umezaki, June 25, 2009, at p. 16; Examiner's Interview of Roger Nagioff, Sept. 30, 2009, at p. 9; Examiner's Interview of Alex Kirk, Jan. 12, 2010, at p. 12.
 
@@ -5299,7 +5303,9 @@ The Examiner concludes that there is sufficient basis for claims to be submitted
 
 [^519]: Lehman, CSE Methodology Impact Summary (Apr. 4, 2008), at p. 2 [LBEX‐DOCID 382980].
 
-[^520]: E‐mail from Anna Yu, Lehman, to Paolo R. Tonucci, Lehman (Oct. 3, 2007) [LBEX‐DOCID 1654567]; e‐ mail from Anna Yu, Lehman, to undisclosed recipients (Nov. 26, 2007) [LBEX‐DOCID 638715]; e‐mail from Anna Yu, Lehman, to Georges Assi, Lehman, et al. (Dec. 7, 2007) [LBEX‐DOCID 307968]. 521 17 C.F.R. § 240.15c3‐1g (e) (1) (i); 17 C.F.R. § 240.17i‐8 (a) (2) (2007); The Goldman Sachs Group Inc., Quarterly Report as of May 31, 2008 (Form 10‐Q) (filed on July 7, 2008), at p. 90 ("Goldman Sachs 10‐Q (filed on July 7, 2008)") ("Goldman Sachs is required to notify the SEC in the event that the Total Capital Ratio falls below 10% or is expected to do so within the next month"); Merrill Lynch & Co., Inc., Quarterly Report as of June 27, 2008 (Form 10‐Q) (filed on Aug. 5, 2008), at p. 108 ("Merrill Lynch 10‐Q (filed on Aug. 5, 2008)") ("Merrill Lynch is required to notify the SEC in the event that the Total Capital Ratio falls or is expected to fall below 10%"); Erik R. Sirri, SEC, Testimony Concerning Lessons Learned in Risk Management Oversight at Federal Financial Regulators Before the Subcommittee on Securities, Insurance and Investment Committee on Banking, Housing and Urban Affairs, United States Senate, Mar. 19, 2009 ("CSEs were also required to file an 'early warning' notice with the SEC in the event that certain minimum thresholds, including the 10% capital ratio, were breached or were likely to be breached"); Examiner's Interview of Matthew Eichner, Nov. 23, 2009, at p. 13.
+[^520]: E‐mail from Anna Yu, Lehman, to Paolo R. Tonucci, Lehman (Oct. 3, 2007) [LBEX‐DOCID 1654567]; e‐ mail from Anna Yu, Lehman, to undisclosed recipients (Nov. 26, 2007) [LBEX‐DOCID 638715]; e‐mail from Anna Yu, Lehman, to Georges Assi, Lehman, et al. (Dec. 7, 2007) [LBEX‐DOCID 307968].
+
+[^521]: 17 C.F.R. § 240.15c3‐1g (e) (1) (i); 17 C.F.R. § 240.17i‐8 (a) (2) (2007); The Goldman Sachs Group Inc., Quarterly Report as of May 31, 2008 (Form 10‐Q) (filed on July 7, 2008), at p. 90 ("Goldman Sachs 10‐Q (filed on July 7, 2008)") ("Goldman Sachs is required to notify the SEC in the event that the Total Capital Ratio falls below 10% or is expected to do so within the next month"); Merrill Lynch & Co., Inc., Quarterly Report as of June 27, 2008 (Form 10‐Q) (filed on Aug. 5, 2008), at p. 108 ("Merrill Lynch 10‐Q (filed on Aug. 5, 2008)") ("Merrill Lynch is required to notify the SEC in the event that the Total Capital Ratio falls or is expected to fall below 10%"); Erik R. Sirri, SEC, Testimony Concerning Lessons Learned in Risk Management Oversight at Federal Financial Regulators Before the Subcommittee on Securities, Insurance and Investment Committee on Banking, Housing and Urban Affairs, United States Senate, Mar. 19, 2009 ("CSEs were also required to file an 'early warning' notice with the SEC in the event that certain minimum thresholds, including the 10% capital ratio, were breached or were likely to be breached"); Examiner's Interview of Matthew Eichner, Nov. 23, 2009, at p. 13.
 
 [^522]: SEC, Notes from Monthly Risk Meeting with Lehman (Nov. 15, 2007), at p. 2 [LBEX‐SEC 007467].
 
@@ -7413,7 +7419,9 @@ The Examiner concludes that there is sufficient basis for claims to be submitted
 
 [^3738]: According to two of Lehman's former Global Financial Controllers and Lehman's former Global Head of Accounting Policy, each of whom was responsible in some fashion for preparing and/or reviewing Lehman's public filings, Lehman did not in any way disclose or report its Repo 105 activity in its Forms 10‐K or 10‐Q. Examiner's Interview of Marie Stewart, Sept. 2, 2009, at p. 15; Examiner's Interview of Martin Kelly, Oct. 1, 2009, at p. 9; Examiner's Interview of Edward Grieb, Oct. 2, 2009, at p. 14. In particular, Martin Kelly, who served as Lehman's Global Financial Controller from December 1, 2007 until September 20008, stated that if an individual read Lehman's Forms 10‐K and 10‐Q from cover to cover, "they would have no transparency into the Repo 105/108 program." Examiner's Interview of Martin Kelly, Oct. 1, 2009, at p. 9. Kelly himself met regularly with the SEC and the New York Federal Reserve Bank as a matter of course in his role as Global Financial Controller, both before the near collapse of Bears Stearns in March 2008 and after federal regulators arrived on‐site at Lehman following Bears Stearns' collapse. Id. Kelly stated that he personally never disclosed to the regulators the fact that Lehman engaged in Repo 105 transactions. Id. Grieb, who served as Lehman's Global Financial Controller for several years until November 30, 2007 and then served as Lehman's Director of Investor Relations, similarly said that Lehman did not disclose its Repo 105 practice in its Forms 10‐K or 10‐Q. Examiner's Interview of Edward Grieb, Oct. 2, 2009, at p. 14. Nor did Grieb recall ever discussing Lehman's Repo 105 program, or the fact of its Repo 105 transactions, with any analyst who covered Lehman. Id.
 
-[^3739]: In an ordinary repurchase agreement, as demonstrated by the accounting entries in Section III.A.4.d.2 of this Report, a liability would have been created reflecting an obligation to repay the borrowing, and securities used as collateral would have remained on the balance sheet in securities inventory. 3740 17 C.F.R. § 229.303 (2009).
+[^3739]: In an ordinary repurchase agreement, as demonstrated by the accounting entries in Section III.A.4.d.2 of this Report, a liability would have been created reflecting an obligation to repay the borrowing, and securities used as collateral would have remained on the balance sheet in securities inventory.
+
+[^3740]: 17 C.F.R. § 229.303 (2009).
 
 [^3741]: Guidance Regarding Management's Discussion and Analysis of Financial Condition and Results of Operation, Securities Act Release No. 8350, Exchange Act Release No. 48,960, 81 SEC Docket 2905 (Dec. 19, 2003).
 
