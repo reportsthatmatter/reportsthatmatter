@@ -6,6 +6,7 @@ import {
   d1Fits,
   drive,
   driftedReports,
+  estimatedReads,
   estimatedWrites,
   formatPlan,
   freshState,
@@ -44,7 +45,7 @@ function ctx(over: Partial<Ctx> = {}): Ctx {
 }
 
 /** A site and three report repos that exist only in this object. */
-function fakeProbe(init: { pins?: Record<string, string>; dirty?: Record<string, string[]>; branch?: Record<string, string>; numstat?: Array<[number, number, string]>; used?: number | null } = {}) {
+function fakeProbe(init: { pins?: Record<string, string>; dirty?: Record<string, string[]>; branch?: Record<string, string>; numstat?: Array<[number, number, string]>; used?: number | null; reads?: number } = {}) {
   const pins: Record<string, string> = { ...Object.fromEntries(IDS.map((id) => [`/repos/${id}`, SPEC("0.20.0")])), ...init.pins };
   const written: Array<[string, string]> = [];
   const probe: Probe = {
@@ -60,7 +61,10 @@ function fakeProbe(init: { pins?: Record<string, string>; dirty?: Record<string,
     behind: () => 0,
     numstat: () => init.numstat ?? [],
     sha: () => null,
-    rowsWrittenToday: async () => (init.used === undefined ? 0 : init.used),
+    d1Today: async () =>
+      init.used === null
+        ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown" }
+        : { used: { rowsRead: init.reads ?? 0, rowsWritten: init.used ?? 0 }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead: init.reads ?? 0, rowsWritten: init.used ?? 0 }, source: "test" },
   };
   return { probe, pins, written };
 }
@@ -135,6 +139,21 @@ describe("pure helpers", () => {
   it("reads the dry-run's estimated writes", () => {
     expect(estimatedWrites("  estimated D1 row writes: 12,345 (11,000 search reindex + 1 version row)")).toBe(12345);
     expect(estimatedWrites("nothing")).toBeNull();
+    expect(estimatedReads("  estimated D1 rows read: 3,214 (the reindex's read through the recorded layout, + the publish probe)")).toBe(3214);
+    expect(estimatedReads("  estimated D1 row writes: 1")).toBeNull();
+  });
+
+  it("budgets reads as well as writes, holding back a reserve for the Worker", () => {
+    const today = (rowsRead: number, rowsWritten = 0) => ({ used: { rowsRead, rowsWritten }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead, rowsWritten }, source: "test" });
+    expect(d1Fits(1_000, today(1_000_000), 100_000, 500_000).ok).toBe(true);
+    // 2026-10-03: 4.7M read by 18:00, and a release needing ~600k more
+    const spent = d1Fits(1_000, today(4_700_000), 100_000, 600_000);
+    expect(spent.ok).toBe(false);
+    expect(spent.readHeadroom).toBe(0);
+    expect(spent.lines.join(" ")).toContain("rows read");
+    // 3.9M used leaves 600k after the 500k reserve: 600k * 1.1 does not fit
+    expect(d1Fits(0, today(3_900_000), 100_000, 600_000).ok).toBe(false);
+    expect(d1Fits(0, today(3_800_000), 100_000, 600_000).ok).toBe(true);
   });
 
   it("checks the D1 estimate against the quota, with a margin, and says when usage is unknown", () => {
@@ -407,10 +426,29 @@ describe("drive: gates and hard stops", () => {
     const handler: Handler = (cmd) => (cmd.argv.join(" ").includes("--dry-run") ? { stdout: "  estimated D1 row writes: 60,000 (x)" } : happy(cmd));
     const h = harness({ handler, ctx: { yes: true }, probe: { used: 50_000 } });
     expect(await drive(h.rt, buildSteps(), { from: "status" })).toBe(1);
-    expect(out(h)).toContain("the reindex needs about 132,000 row writes and the quota has 50,000 left");
+    expect(out(h)).toContain("needs about 132,000 row writes");
+    expect(out(h)).toContain("50,000 writes");
     expect(h.state.steps["d1-estimate"].status).toBe("failed");
     expect(ran(h.calls, "--no-reindex")).toEqual([]);
     expect(ran(h.calls, "deploy-cloudflare")).toEqual([]);
+  });
+
+  it("stops before publishing when the reads do not fit, and counts an old dry run's scan when it prints no read estimate", async () => {
+    // 4.45M used leaves 50,000 after the Worker's 500,000 reserve
+    const h = harness({ handler: happy, ctx: { yes: true }, probe: { used: 0, reads: 4_450_000 } });
+    expect(await drive(h.rt, buildSteps(), { from: "status" })).toBe(1);
+    // beta and gamma: no read estimate printed, so 45,000 each + 4,000 for verify-prod
+    expect(h.state.data.estimate?.reads).toBe(98_000);
+    expect(out(h)).toContain("98,000 rows read");
+    expect(h.state.steps["d1-estimate"].status).toBe("failed");
+    expect(ran(h.calls, "--no-reindex")).toEqual([]);
+  });
+
+  it("stops before the dry runs when today's reads are already spent", async () => {
+    const h = harness({ handler: happy, ctx: { yes: true }, probe: { used: 0, reads: 4_800_000 } });
+    expect(await drive(h.rt, buildSteps(), { from: "status" })).toBe(1);
+    expect(out(h)).toContain("already (nearly) spent");
+    expect(ran(h.calls, "--dry-run")).toEqual([]);
   });
 
   it("a failed reindex (quota spent mid-run) leaves the finished reports done and resumes at the next", async () => {

@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { describe, expect, it } from "vitest";
-import { D1Error, readStoredPassages, type Runner } from "../scripts/lib/d1";
+import { D1Error, readStored, readStoredPassages, readVersionRow, scanAllLayouts, scanStoredPassages, type Runner, type Statement } from "../scripts/lib/d1";
 import {
   DEFAULT_COST,
   deleteStatements,
@@ -10,8 +10,11 @@ import {
   fullStatements,
   incrementalStatements,
   insertStatements,
+  layoutAfter,
+  parseLayout,
   passageHash,
   planReindex,
+  versionStatement,
   type Passage,
   type StoredPassage,
 } from "../scripts/lib/reindex";
@@ -112,24 +115,53 @@ describe("statements", () => {
   });
 });
 
-describe("readStoredPassages", () => {
-  const rowsOf = (n: number) => Array.from({ length: n }, (_, i) => ({ rid: i + 1, section: "S", paragraph_id: `p${i + 1}`, page: i % 2 ? 7 : null, body: `b${i + 1}` }));
+describe("scanStoredPassages", () => {
+  // rowids 1..9: r owns 1, 2, 4, 5, 9; another report owns 3, 6, 7, 8
+  const table = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((rid) => ({ rid, report: [1, 2, 4, 5, 9].includes(rid) ? "r" : "other", section: "S", paragraph_id: `p${rid}`, page: rid % 2 ? 7 : null, body: `b${rid}` }));
+  const fake = (seen: string[]): Runner => (_t, sql) => {
+    const command = (sql as { command: string }).command;
+    seen.push(command);
+    const after = Number(command.match(/rowid > (-?\d+)/)![1]);
+    const limit = Number(command.match(/LIMIT (\d+)/)![1]);
+    return [{ results: table.filter((r) => r.rid > after).slice(0, limit).map((r) => (r.report === "r" ? { ...r, mine: 1 } : { rid: r.rid, mine: 0, section: null, paragraph_id: null, page: null, body: null })), meta: { rows_read: Math.min(limit, table.filter((r) => r.rid > after).length) } }];
+  };
 
-  it("reads in pages until a short page, passing the last rowid on", () => {
-    const all = rowsOf(5);
+  it("reads the table once in pages, keeps this report's rows, and finds the runs no other row interrupts", () => {
     const seen: string[] = [];
-    const run: Runner = (_t, sql) => {
-      const command = (sql as { command: string }).command;
-      seen.push(command);
-      const after = Number(command.match(/rowid > (\d+)/)![1]);
-      const limit = Number(command.match(/LIMIT (\d+)/)![1]);
-      return [{ results: all.filter((r) => r.rid > after).slice(0, limit), meta: {} }];
-    };
-    const got = readStoredPassages(run, "--local", "r", 2);
-    expect(got.map((r) => r.rowid)).toEqual([1, 2, 3, 4, 5]);
+    const got = scanStoredPassages(fake(seen), "--local", "r", 4);
+    expect(got.rows.map((r) => r.rowid)).toEqual([1, 2, 4, 5, 9]);
+    expect(got.runs).toEqual([[1, 2], [4, 5], [9, 9]]);
     expect(seen).toHaveLength(3);
-    expect(got[1].page).toBe("7"); // a numeric page column comes back as text, as it is compared with
-    expect(got[0].page).toBeNull();
+    expect(seen.every((c) => !/WHERE report =/.test(c))).toBe(true);
+    expect(got.rows[0].page).toBe("7"); // a numeric page column comes back as text, as it is compared with
+    expect(got.rows[1].page).toBeNull();
+    expect(readStoredPassages(fake([]), "--local", "r", 2).map((r) => r.rowid)).toEqual([1, 2, 4, 5, 9]);
+  });
+});
+
+describe("layouts", () => {
+  it("parses only well-formed layouts", () => {
+    expect(parseLayout('{"runs":[[1,5],[9,9]],"n":6,"at":3}')).toEqual({ runs: [[1, 5], [9, 9]], n: 6, at: 3 });
+    for (const bad of [null, "", "nope", '{"runs":[[5,1]],"n":1}', '{"runs":[[1]],"n":1}', '{"runs":[],"n":"x"}']) expect(parseLayout(bad)).toBeNull();
+  });
+
+  it("keeps kept rows in their runs, shrinks them, and appends the inserted rows as one run", () => {
+    const storedRows = [1, 2, 4, 5, 9].map((rowid) => ({ rowid }));
+    const plan = { ...planReindex([], []), insert: [p("x"), p("y")], deleteRowids: [2, 9] };
+    expect(layoutAfter(storedRows, [[1, 2], [4, 5], [9, 9]], plan, 20, 7)).toEqual({ runs: [[1, 1], [4, 5], [20, 21]], n: 5, at: 7 });
+    // when this report's row is the table's highest, the new rows continue its run
+    expect(layoutAfter(storedRows, [[1, 2], [4, 5], [9, 9]], { ...plan, deleteRowids: [] }, 10, 7).runs).toEqual([[1, 2], [4, 5], [9, 11]]);
+    // rows from two different stored runs are never merged, even if their rowids are adjacent after deletes
+    expect(layoutAfter([{ rowid: 2 }, { rowid: 3 }], [[1, 2], [3, 4]], { ...plan, insert: [], deleteRowids: [] }, 50, 1).runs).toEqual([[2, 2], [3, 3]]);
+  });
+
+  it("writes explicit rowids and the layout when placed", () => {
+    const [sql] = insertStatements("r", [p("a"), p("b")], undefined, 41);
+    expect(sql).toMatch(/^INSERT INTO passages \(rowid, report,/);
+    expect(sql).toContain("(41, 'r',");
+    expect(sql).toContain("(42, 'r',");
+    expect(versionStatement("r", "v", 5, { runs: [[1, 2]], n: 2, at: 5 })).toContain("layout = excluded.layout");
+    expect(versionStatement("r", "v", 5)).not.toContain("layout");
   });
 });
 
@@ -204,9 +236,121 @@ describe("against a real FTS5 table (node:sqlite)", () => {
   });
 });
 
+describe("the layout against a real FTS5 table and migration 0004 (node:sqlite)", () => {
+  const migration = (name: string) => readFileSync(new URL(`../migrations/${name}`, import.meta.url), "utf8");
+  type DB = InstanceType<NonNullable<typeof sqlite>["DatabaseSync"]>;
+  /** A Runner over node:sqlite, shaped like wrangler's --json output (no rows_read: SQLite does not count them). */
+  const runner = (db: DB, log: string[] = []): Runner => (_t, sql) => {
+    if (!("command" in sql)) throw new Error("files are applied with db.exec in these tests");
+    log.push(sql.command);
+    const stmt = db.prepare(sql.command);
+    const results = /^\s*select/i.test(sql.command) ? (stmt.all() as Array<Record<string, unknown>>) : (stmt.run(), []);
+    return [{ results, meta: {} } as Statement];
+  };
+  const open = () => {
+    const db = new sqlite!.DatabaseSync(":memory:");
+    db.exec(migration("0002_search.sql"));
+    db.exec(migration("0004_search_layout.sql"));
+    return db;
+  };
+  const text = (id: string, n: number, tag = "") => Array.from({ length: n }, (_, i) => p(`${id}-${i}`, `${id} paragraph ${i} ${tag}`));
+  /** One reindex of `report` to `local`, the way scripts/reindex-search.mjs does it. */
+  const reindex = (db: DB, report: string, local: Passage[], at: number, log: string[] = []) => {
+    const run = runner(db, log);
+    const version = readVersionRow(run, "--local", report);
+    const read = readStored(run, "--local", report, version.layout);
+    const plan = planReindex(local, read.rows);
+    const first = (db.prepare("SELECT rowid AS rid FROM passages ORDER BY rowid DESC LIMIT 1").get() as { rid?: number } | undefined)?.rid ?? 0;
+    const statements = incrementalStatements(report, plan, `v${at}`, at, { firstRowid: first + 1, layout: layoutAfter(read.rows, read.runs, plan, first + 1, at) });
+    db.exec("BEGIN; " + statements.join("\n") + " COMMIT;");
+    return { read, plan };
+  };
+  const contents = (db: DB, report: string) => (db.prepare(`SELECT paragraph_id, body FROM passages WHERE report = '${report}' ORDER BY paragraph_id`).all() as Array<{ paragraph_id: string; body: string }>).map((r) => `${r.paragraph_id}|${r.body}`);
+  const want = (rows: Passage[]) => rows.map((r) => `${r.paragraph_id}|${r.body}`).sort();
+
+  it.skipIf(!sqlite)("scans once to learn the layout, then reads only the report's own rows, release after release", () => {
+    const db = open();
+    // three reports indexed the old way, interleaved by alternating batches (as releases leave them)
+    for (const [id, n] of [["a", 5], ["b", 4], ["a2", 0], ["c", 6]] as const) if (n) for (const s of insertStatements(id, text(id, n))) db.exec(s);
+    for (const s of insertStatements("a", text("a-late", 3))) db.exec(s);
+    for (const s of insertStatements("b", text("b-late", 2))) db.exec(s);
+
+    let a = [...text("a", 5), ...text("a-late", 3)];
+    const first = reindex(db, "a", a, 1);
+    expect(first.read.via).toBe("scan");
+    expect(first.read.runs).toEqual([[1, 5], [16, 18]]);
+    expect(first.plan).toMatchObject({ unchanged: 8, changed: 0 });
+
+    // release 2: a rewords two paragraphs and gains one; b changes meanwhile (its rows go above a's)
+    a = a.map((r, i) => (i === 1 || i === 6 ? { ...r, body: r.body + " reworded" } : r)).concat(p("a-new"));
+    reindex(db, "b", [...text("b", 4, "v2"), ...text("b-late", 2)], 2);
+    const log: string[] = [];
+    const second = reindex(db, "a", a, 3, log);
+    expect(second.read.via).toBe("layout");
+    expect(log.filter((c) => /FROM passages WHERE report/.test(c))).toEqual([]);
+    expect(second.plan).toMatchObject({ changed: 2, added: 1, unchanged: 6 });
+    expect(contents(db, "a")).toEqual(want(a));
+    expect(contents(db, "b")).toEqual(want([...text("b", 4, "v2"), ...text("b-late", 2)]));
+
+    // and the recorded layout is exactly where a's rows are
+    const third = reindex(db, "a", a, 4);
+    expect(third.read.via).toBe("layout");
+    expect(third.plan).toMatchObject({ changed: 0, added: 0, removed: 0, unchanged: 9 });
+    const layout = parseLayout((db.prepare("SELECT layout FROM search_index_versions WHERE report = 'a'").get() as { layout: string }).layout)!;
+    expect(layout.n).toBe(9);
+    const inRuns = layout.runs.flatMap(([lo, hi]) => db.prepare(`SELECT report FROM passages WHERE rowid BETWEEN ${lo} AND ${hi}`).all() as Array<{ report: string }>);
+    expect(inRuns.every((r) => r.report === "a")).toBe(true);
+    expect(inRuns).toHaveLength(9);
+  });
+
+  it.skipIf(!sqlite)("forgets the layout when an older reindex rewrites the version row, and scans instead of trusting it", () => {
+    const db = open();
+    for (const s of insertStatements("a", text("a", 4))) db.exec(s);
+    reindex(db, "a", text("a", 4), 1);
+    expect(readVersionRow(runner(db), "--local", "a").layout).not.toBeNull();
+    // an older checkout's incremental run: appends a row outside the runs, upserts the version without a layout
+    for (const s of insertStatements("a", [p("a-extra")])) db.exec(s);
+    db.exec(versionStatement("a", "old", 2));
+    expect(readVersionRow(runner(db), "--local", "a").layout).toBeNull();
+    const next = reindex(db, "a", [...text("a", 4), p("a-extra")], 3);
+    expect(next.read.via).toBe("scan");
+    expect(next.plan).toMatchObject({ unchanged: 5, added: 0 });
+    expect(contents(db, "a")).toHaveLength(5);
+  });
+
+  it.skipIf(!sqlite)("falls back to the scan when a run holds another report's row or the count is off", () => {
+    const db = open();
+    for (const s of insertStatements("a", text("a", 3))) db.exec(s);
+    for (const s of insertStatements("b", text("b", 2))) db.exec(s);
+    const run = runner(db);
+    const bad = { runs: [[1, 4]] as Array<[number, number]>, n: 4, at: 1 };
+    expect(readStored(run, "--local", "a", bad)).toMatchObject({ via: "scan", runs: [[1, 3]] });
+    expect(readStored(run, "--local", "a", { runs: [[1, 3]], n: 5, at: 1 }).via).toBe("scan");
+    expect(readStored(run, "--local", "a", { runs: [[1, 3]], n: 3, at: 1 }).via).toBe("layout");
+  });
+});
+
 describe("D1Error", () => {
   it("recognises the daily quota error", () => {
     expect(new D1Error("D1_ERROR: exceeded free tier daily row write limit: SQLITE_ERROR [code: 7500]").quotaExhausted).toBe(true);
     expect(new D1Error("D1_ERROR: no such table: passages").quotaExhausted).toBe(false);
+  });
+});
+
+describe("scanAllLayouts", () => {
+  it("finds every report's runs in one pass", () => {
+    const table = [
+      [1, "a"], [2, "a"], [3, "b"], [5, "a"], [6, "c"], [7, "c"], [9, "b"], [10, "b"],
+    ] as Array<[number, string]>;
+    const run: Runner = (_t, sql) => {
+      const command = (sql as { command: string }).command;
+      const after = Number(command.match(/rowid > (\d+)/)![1]);
+      const limit = Number(command.match(/LIMIT (\d+)/)![1]);
+      return [{ results: table.filter(([rid]) => rid > after).slice(0, limit).map(([rid, report]) => ({ rid, report })), meta: {} }];
+    };
+    const layouts = scanAllLayouts(run, "--local", 3);
+    expect(layouts.get("a")).toEqual({ runs: [[1, 2], [5, 5]], n: 3 });
+    expect(layouts.get("b")).toEqual({ runs: [[3, 3], [9, 10]], n: 3 });
+    expect(layouts.get("c")).toEqual({ runs: [[6, 7]], n: 2 });
   });
 });

@@ -40,14 +40,14 @@
  * prerendered again.
  */
 import "./lib/help.mjs";
-import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 import { contentHash, extractPassages, manifestFor, tokenFor } from "@rtm/ingest";
 import { readLocalFiles } from "./lib/publish-local.mjs";
 import { wranglerRunner } from "./lib/d1.ts";
-import { FREE_TIER_DAILY_WRITES, probeWrite, rowsWrittenToday, verdict } from "./lib/d1-probe.ts";
-import { describePlan, planReport } from "./lib/reindex-run.ts";
+import { FREE_TIER_DAILY_WRITES, probeWrite, verdict } from "./lib/d1-probe.ts";
+import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
+import { describePlan, estimatedReindexReads, planReport } from "./lib/reindex-run.ts";
 import { DEFAULT_COST } from "./lib/reindex.ts";
 
 const args = process.argv.slice(2);
@@ -86,12 +86,17 @@ async function checkD1({ reindex }) {
   const planned = reindex && probe.ok ? reindexPlan(cost) : null;
   // + 1: the commit's own report_versions row.
   const needed = (planned?.writes ?? 0) + 1;
-  const dbId = (readFileSync(join(root, "wrangler.toml"), "utf8").match(/database_id\s*=\s*"([^"]+)"/) ?? [])[1];
-  const used = probe.ok && !isLocal
-    ? await rowsWrittenToday(fetch, { token: process.env.CLOUDFLARE_API_TOKEN, account: process.env.CLOUDFLARE_ACCOUNT_ID, databaseId: dbId })
-    : null;
+  const today = probe.ok && !isLocal ? await usageToday(root) : null;
+  const used = today?.used ? today.used.rowsWritten : null;
   const result = verdict(probe, needed, used, limit, new Date());
   console.log(result.lines.join("\n"));
+  // Reads ran out first on 2026-10-03 (reportsthatmatter-t4al): say where they stand too. Warn only: the publish
+  // itself reads a handful of rows, and `pnpm ship`'s d1-estimate is the step that budgets a release's reads.
+  if (today?.used) {
+    const left = FREE_TIER.rowsRead - today.used.rowsRead;
+    console.log(`  · ${today.used.rowsRead.toLocaleString()} of ${FREE_TIER.rowsRead.toLocaleString()} rows read used today (${today.source})${planned ? `; the reindex reads about ${estimatedReindexReads(planned).toLocaleString()}` : ""}`);
+    if (left < 1_000_000) console.log(`  ⚠ under 1M rows read left today: search, marks and publishing stop for everyone when they run out (00:00 UTC reset)`);
+  }
   return { ok: !result.blocked, planned, cost };
 }
 
@@ -126,9 +131,21 @@ if (flag("--dry-run")) {
   }
   console.log(`${reportId}: dry run, nothing is uploaded or written`);
   console.log(`  ${files.length} object(s), ${(bytes / 1048576).toFixed(1)} MB → ${hash}; the site serves ${served}${served === hash ? " (unchanged: nothing to publish)" : ""}`);
-  const planned = flag("--offline") ? null : reindexPlan(DEFAULT_COST);
+  const offline = flag("--offline");
+  const planned = offline ? null : reindexPlan(DEFAULT_COST);
+  if (!offline && !planned) {
+    // Not "1 row write": an unreadable index is not an empty one. On 2026-10-03 this printed 1 for every report
+    // while D1's reads were already spent, and the release went on (reportsthatmatter-t4al).
+    console.log("  estimated D1 row writes: unknown (the search index could not be read: is D1's daily read quota spent?)");
+    process.exit(1);
+  }
   const total = (planned?.writes ?? 0) + 1;
   console.log(`  estimated D1 row writes: ${total.toLocaleString()}${planned ? ` (${planned.writes.toLocaleString()} search reindex + 1 version row; ${DEFAULT_COST.insert} per row inserted or deleted, measured locally; --preflight reads D1's own figure)` : " (offline: the reindex diff needs D1 reads; pass no --offline)"}`);
+  if (planned) {
+    // What this dry run read (D1's own figure), what the reindex will read, and the publish's probe (a few rows).
+    console.log(`  D1 rows read by this dry run: ${planned.rowsRead.toLocaleString()}${isLocal ? " (local: not reported)" : ""}`);
+    console.log(`  estimated D1 rows read: ${(estimatedReindexReads(planned) + 3).toLocaleString()} (the reindex's ${planned.current ? "version check" : planned.read?.via === "layout" ? "read through the recorded layout" : "full-table scan, which records the layout for next time"}, + the publish probe)`);
+  }
   process.exit(0);
 }
 

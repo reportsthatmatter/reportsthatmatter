@@ -17,6 +17,7 @@
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { FREE_TIER, fits, type Today, type Usage } from "./d1-usage";
 
 // ---------------------------------------------------------------------------------------------------------------
 // Context, commands, state
@@ -45,6 +46,8 @@ export type Ctx = {
   allowDirty: boolean;
   /** Daily D1 row-write limit (free tier 100,000). */
   d1Limit: number;
+  /** Daily D1 row-read limit (free tier 5,000,000; reportsthatmatter-t4al). Optional for older callers. */
+  d1ReadLimit?: number;
   /** Does `file` (relative to the site root) mention `needle`? Used to run a step only where its tool exists. */
   has: (file: string, needle: string) => boolean;
 };
@@ -78,7 +81,8 @@ export type State = {
     baselineIds?: string[];
     /** Reports `publish-report --all --status` lists as differing from what is served. */
     toPublish?: string[];
-    estimate?: { total: number; perReport: Record<string, number>; headroom: number | null; limit: number };
+    /** `total` and `perReport` are row writes; `reads` the rows read still to come (reindex, probes, verify-prod). */
+    estimate?: { total: number; perReport: Record<string, number>; headroom: number | null; limit: number; reads?: number; readsPerReport?: Record<string, number>; readHeadroom?: number | null };
     acks?: string[];
   };
 };
@@ -125,8 +129,8 @@ export interface Probe {
   /** `git diff --numstat` rows [added, removed, path] for the paths against HEAD. */
   numstat(dir: string, paths: string[]): Array<[number, number, string]>;
   sha(file: string): string | null;
-  /** Rows written today (UTC) from Cloudflare analytics, when the credentials are set; else null. */
-  rowsWrittenToday(): Promise<number | null>;
+  /** Today's (UTC) D1 usage: Cloudflare analytics and the shared ledger (lib/d1-usage.ts). */
+  d1Today(): Promise<Today>;
 }
 
 // ---------------------------------------------------------------------------------------------------------------
@@ -184,19 +188,33 @@ export function estimatedWrites(output: string): number | null {
   return m ? Number(m[1].replace(/,/g, "")) : null;
 }
 
-export type D1Verdict = { ok: boolean; headroom: number | null; needed: number; lines: string[] };
+/** `publish-report <id> --dry-run` prints `estimated D1 rows read: 1,234 (...)` (absent before reportsthatmatter-t4al). */
+export function estimatedReads(output: string): number | null {
+  const m = output.match(/estimated D1 rows read:\s*([\d,]+)/);
+  return m ? Number(m[1].replace(/,/g, "")) : null;
+}
 
-/** Does the reindex fit today's D1 quota? 10% margin on the estimate; usage unknown is said, not guessed. */
-export function d1Fits(total: number, used: number | null, limit: number): D1Verdict {
-  const needed = Math.ceil(total * 1.1);
-  const headroom = used === null ? null : Math.max(0, limit - used);
-  const lines = [`estimated row writes for the reindex and version rows: ${total.toLocaleString()} (with a 10% margin: ${needed.toLocaleString()}) against a daily limit of ${limit.toLocaleString()}`];
-  if (used === null) {
-    lines.push("today's usage is unknown (set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID to read it); writes by a peer's publish today are not counted");
-    return { ok: needed <= limit, headroom, needed, lines };
-  }
-  lines.push(`already written today: ${used.toLocaleString()}; headroom ${headroom!.toLocaleString()}`);
-  return { ok: needed <= headroom!, headroom, needed, lines };
+/**
+ * Rows the production steps after the reindex read: verify-prod fetches every report's pages (one version lookup
+ * each) and runs one scoped search per report; check-search-staleness reads the two version tables; seed deletes
+ * by an index. Measured on 2026-10-03 at ~2k a report (d1QueriesAdaptiveGroups); doubled.
+ */
+export const VERIFY_READS_PER_REPORT = 4_000;
+
+export type D1Verdict = { ok: boolean; headroom: number | null; needed: number; lines: string[]; readHeadroom?: number | null; readsNeeded?: number };
+
+/**
+ * Do the reindex's writes and the rest of the release's reads fit what is left of today's D1 quota? 10% margin,
+ * a reserve held back for the Worker's own traffic, and usage unknown is said, not guessed.
+ */
+export function d1Fits(writes: number, today: Today | number | null, limit: number, reads = 0, readLimit: number = FREE_TIER.rowsRead): D1Verdict {
+  // A bare number is today's writes (the older call shape); reads then unknown.
+  const t: Today = typeof today === "object" && today !== null ? today : today === null ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown (set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, or log wrangler in)" } : { used: { rowsRead: 0, rowsWritten: today }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead: 0, rowsWritten: today }, source: "given" };
+  const reserve: Usage = typeof today === "number" ? { rowsRead: 0, rowsWritten: 0 } : { rowsRead: 500_000, rowsWritten: 0 };
+  const v = fits({ rowsRead: reads, rowsWritten: writes }, t, { rowsRead: readLimit, rowsWritten: limit }, reserve);
+  const lines = [`estimated for the rest of the release: ${writes.toLocaleString("en-US")} row writes, ${reads.toLocaleString("en-US")} rows read (+10% margin)`, ...v.lines];
+  if (!t.used) lines.push("today's usage is unknown: writes or reads by a peer's publish, or by the Worker, are not counted");
+  return { ok: v.ok, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
 }
 
 /**
@@ -612,34 +630,44 @@ export function buildSteps(): Step[] {
     },
     {
       id: "d1-estimate",
-      title: "D1 write estimate for the reindex; stop if it does not fit today's quota",
+      title: "D1 estimate for the rest of the release (writes and reads); stop if it does not fit today's quota",
       kind: "read",
       describe: (ctx, s) => [
         ...(s.data.toPublish ?? ["<each report to publish>"]).map((id) => `pnpm publish-report ${id} --dry-run --base ${ctx.base}   (reads D1, writes nothing)`),
-        `sum + 1 version row per report, +10% margin, against ${ctx.d1Limit.toLocaleString()} less today's use (CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID, else unknown)`,
+        `writes: sum + 1 version row per report, +10% margin, against ${ctx.d1Limit.toLocaleString()} a day less today's use`,
+        `reads: each reindex's read + ${VERIFY_READS_PER_REPORT.toLocaleString()} a report for verify-prod, +10%, against ${(ctx.d1ReadLimit ?? FREE_TIER.rowsRead).toLocaleString()} a day less today's use and a 500,000 reserve for the Worker (reportsthatmatter-t4al)`,
+        "today's use: Cloudflare analytics (wrangler's login, or CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID) and the shared ledger every remote D1 call appends to (`pnpm d1-usage`)",
         "STOP when it does not fit: wait for 00:00 UTC, or decide about Workers Paid (reportsthatmatter-2oz); re-run `pnpm ship`",
       ],
       async run(rt) {
         const ids = rt.state.data.toPublish ?? [];
+        const readLimit = rt.ctx.d1ReadLimit ?? FREE_TIER.rowsRead;
         if (!ids.length) {
           rt.out("  nothing to publish: no D1 writes needed");
-          rt.state.data.estimate = { total: 0, perReport: {}, headroom: null, limit: rt.ctx.d1Limit };
+          rt.state.data.estimate = { total: 0, perReport: {}, headroom: null, limit: rt.ctx.d1Limit, reads: 0, readsPerReport: {}, readHeadroom: null };
           return;
         }
+        // Before the dry runs, which read too: a day already spent stops here, not twelve dry runs in.
+        const before = d1Fits(0, await rt.probe.d1Today(), rt.ctx.d1Limit, ids.length * VERIFY_READS_PER_REPORT, readLimit);
+        if (!before.ok) throw new Stop("d1-estimate: today's D1 quota is already (nearly) spent", [...before.lines, "Wait for 00:00 UTC and re-run `pnpm ship` (it resumes here), or decide about Workers Paid (reportsthatmatter-2oz).", "pnpm d1-usage   (what spent it, by query)"]);
         const perReport: Record<string, number> = {};
+        const readsPerReport: Record<string, number> = {};
         for (const id of ids) {
           const r = await rt.exec(pnpm("publish-report", id, "--dry-run", "--base", rt.ctx.base), `d1-estimate-${id}`);
           const n = estimatedWrites(r.stdout);
-          if (r.code !== 0 || n === null) throw new Stop(`d1-estimate: could not estimate ${id}\n${tail(r.stdout)}`, [`log: ${r.log}`, "The estimate reads D1 through wrangler: `pnpm wrangler d1 list` must show reportsthatmatter-marks (account office@atomatic.net)."]);
+          if (r.code !== 0 || n === null) throw new Stop(`d1-estimate: could not estimate ${id}\n${tail(r.stdout)}`, [`log: ${r.log}`, "The estimate reads D1 through wrangler: `pnpm wrangler d1 list` must show reportsthatmatter-marks (account office@atomatic.net).", "An unreadable index can mean the daily read quota is spent: pnpm d1-usage"]);
           perReport[id] = n;
+          // An older publish-report prints no read estimate: count the corpus-wide scan it does (~40k) rather than 0.
+          readsPerReport[id] = (estimatedReads(r.stdout) ?? 45_000) + VERIFY_READS_PER_REPORT;
         }
         const total = Object.values(perReport).reduce((a, b) => a + b, 0);
-        const verdict = d1Fits(total, await rt.probe.rowsWrittenToday(), rt.ctx.d1Limit);
-        rt.state.data.estimate = { total, perReport, headroom: verdict.headroom, limit: rt.ctx.d1Limit };
+        const reads = Object.values(readsPerReport).reduce((a, b) => a + b, 0);
+        const verdict = d1Fits(total, await rt.probe.d1Today(), rt.ctx.d1Limit, reads, readLimit);
+        rt.state.data.estimate = { total, perReport, headroom: verdict.headroom, limit: rt.ctx.d1Limit, reads, readsPerReport, readHeadroom: verdict.readHeadroom ?? null };
         rt.save(rt.state);
-        for (const [id, n] of Object.entries(perReport).sort((a, b) => b[1] - a[1])) rt.out(`    ${id.padEnd(28)} ${n.toLocaleString().padStart(9)} row writes`);
+        for (const [id, n] of Object.entries(perReport).sort((a, b) => b[1] - a[1])) rt.out(`    ${id.padEnd(28)} ${n.toLocaleString().padStart(9)} row writes ${readsPerReport[id].toLocaleString().padStart(11)} rows read`);
         for (const l of verdict.lines) rt.out(`  ${l}`);
-        if (!verdict.ok) throw new Stop(`d1-estimate: the reindex needs about ${verdict.needed.toLocaleString()} row writes and the quota has ${verdict.headroom?.toLocaleString() ?? "an unknown amount"} left`, ["Free tier: 100,000 row writes a day, reset 00:00 UTC (reportsthatmatter-h6b, -ewm0).", "Wait for the reset and re-run `pnpm ship` (it resumes here), or decide about Workers Paid (reportsthatmatter-2oz). Publishing fewer reports is a decision for the integrator, made outside this tool."]);
+        if (!verdict.ok) throw new Stop(`d1-estimate: the rest of the release needs about ${verdict.needed.toLocaleString()} row writes and ${(verdict.readsNeeded ?? 0).toLocaleString()} rows read; today's quota has ${verdict.headroom?.toLocaleString() ?? "an unknown amount"} writes and ${verdict.readHeadroom?.toLocaleString() ?? "an unknown amount of"} reads left`, ["Free tier: 100,000 row writes and 5,000,000 rows read a day, reset 00:00 UTC (reportsthatmatter-h6b, -ewm0, -t4al). Running out of reads stops search, marks and publishing for everyone.", "Wait for the reset and re-run `pnpm ship` (it resumes here), or decide about Workers Paid (reportsthatmatter-2oz). Publishing fewer reports is a decision for the integrator, made outside this tool.", "pnpm d1-usage   (today's use, and what spent it)"]);
       },
     },
     {
@@ -729,7 +757,7 @@ export function checkList(ctx: Ctx): Array<{ name: string; cmd: Cmd; read: strin
 export function formatPlan(ctx: Ctx, state: State, steps: Step[], probe: Probe, extra: { head?: string; moved?: string[] } = {}): string {
   const out: string[] = [];
   out.push(`pnpm ship --plan: nothing below has been run${extra.head ? ` (site ${extra.head})` : ""}`, "");
-  out.push(`  ships        @rtm/ingest ${ctx.spec}`, `  site         ${ctx.root}`, `  prod base    ${ctx.base}`, `  aliases from ${ctx.oldRef}`, `  D1 limit     ${ctx.d1Limit.toLocaleString()} row writes a day`, `  flags        ${ctx.shared ? "--shared " : ""}${ctx.yes ? "--yes " : ""}${ctx.allowDirty ? "--allow-dirty " : ""}${!ctx.shared && !ctx.yes && !ctx.allowDirty ? "(none: production steps will not run without --yes)" : ""}`.trimEnd(), "");
+  out.push(`  ships        @rtm/ingest ${ctx.spec}`, `  site         ${ctx.root}`, `  prod base    ${ctx.base}`, `  aliases from ${ctx.oldRef}`, `  D1 limit     ${ctx.d1Limit.toLocaleString()} row writes, ${(ctx.d1ReadLimit ?? FREE_TIER.rowsRead).toLocaleString()} rows read a day`, `  flags        ${ctx.shared ? "--shared " : ""}${ctx.yes ? "--yes " : ""}${ctx.allowDirty ? "--allow-dirty " : ""}${!ctx.shared && !ctx.yes && !ctx.allowDirty ? "(none: production steps will not run without --yes)" : ""}`.trimEnd(), "");
   out.push("Report repos (the pin each holds, and whether its text already matches the site's copy):");
   const pins = pinTable(ctx, probe.pinOf);
   for (const row of pins) {

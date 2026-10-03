@@ -19,7 +19,7 @@
 import "./lib/help.mjs";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { execFileSync } from "node:child_process";
+import { wranglerRunner } from "./lib/d1.ts";
 
 const ACTOR = "editorial:rufus-pollock";
 
@@ -50,10 +50,9 @@ const file = join(root, "build/seed-highlights.sql");
 writeFileSync(file, statements.join("\n") + "\n");
 
 const remote = process.argv.includes("--remote");
-execFileSync(
-  "pnpm",
-  ["wrangler", "d1", "execute", "reportsthatmatter-marks", remote ? "--remote" : "--local", `--file=${file}`],
-  { stdio: "inherit", cwd: root }
-);
+// Through the shared runner, so the rows it costs land in today's D1 ledger (pnpm d1-usage). The deletes go by
+// the (report, actor, created_at) index: a few rows read each.
+const [result] = wranglerRunner(root)(remote ? "--remote" : "--local", { file });
+if (result?.meta?.rows_read !== undefined) console.log(`D1: ${result.meta.rows_read} rows read, ${result.meta.rows_written} rows written`);
 
 console.log(`\nSeeded ${highlights.length} highlight(s) across ${reports.length} report(s) ${remote ? "in production" : "locally"}.`);
