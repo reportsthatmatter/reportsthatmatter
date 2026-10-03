@@ -192,6 +192,17 @@ else
   printf '  \033[33m–\033[0m ingestion not yet built; skipping\n'
 fi
 
+step "Page anchors"
+# Where each %%page N%% marker lands, checked from the PDF text layer alone (s24x): the pipeline's own
+# "pages anchored" comes from the alignment that placed the markers, so it cannot fail. Counts are held to
+# reports/anchor-budget.yaml; `pnpm ingest anchors <id>` lists them.
+if pnpm ingest anchors --check >"${RUN_DIR}/anchors.log" 2>&1; then
+  pass "page markers within their budgets"
+else
+  fail "page markers over budget (pnpm ingest anchors <id>)"
+  grep -E "✗" "${RUN_DIR}/anchors.log" | tail -30
+fi
+
 step "Ingestion regression"
 # A heuristic change that moves any report's output fails here unless the
 # baseline moves with it. The Leveson fix changed three other reports

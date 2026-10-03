@@ -167,6 +167,8 @@ an interactive session.
   failing the run. Write one with `pnpm ingest page <id> <vol> <pdfPage>
   --draft`; see [`docs/quality-harness.md`](docs/quality-harness.md).
 
+  A fifth, `pnpm ingest anchors --check` (s24x), checks where every `%%page N%%` marker lands from the PDF text layer alone (it shares nothing with the pipeline's page assignment, whose own "pages anchored" cannot fail) and holds wrong and stacked markers, unmarked pages and blocks under another page's marker to `reports/anchor-budget.yaml`; `--ratchet` after a fix. See `docs/quality-harness.md`, "Page anchors".
+
   The first two exist because a fix aimed at Leveson silently changed three other
   reports. The second was added later, and closed a real hole: `paragraphId()`
   lives in `src/lib/markdown.ts`, one stage *downstream* of anything a report

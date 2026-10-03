@@ -1,0 +1,82 @@
+# Per-report budgets for the independent page-anchor check (reportsthatmatter-s24x; docs/quality-harness.md, "Page anchors").
+#
+# Checked by `pnpm ingest anchors --check` (in verify.sh), which reads each report's source PDFs with pdftotext and
+# the served reports/<id>/full.md, and shares nothing with the pipeline's page assignment: it reads each page's printed
+# number off the page, finds where the page's text begins in the served text, and compares that with the markers.
+#   markers-wrong   a %%page N%% marker that is neither at the page's first word nor at the edge of the block it starts in
+#   markers-stacked a marker set after a block together with the marker before it: the block runs over several pages,
+#                   so their text is cited with its first page (8x9n, hmqk)
+#   pages-unmarked  a page whose number was read and whose text was found, that no marker names (its text is cited
+#                   with the previous page)
+#   blocks-wrong    a block of 8+ words that sits under the marker of a page other than the one it is printed on
+# Numbers start at the counts when the budgets were set (ingest v0.20.0) and only move down:
+# `pnpm ingest anchors <id> --ratchet` lowers them. Raising one is a hand edit with a `# why: <bead id>` comment.
+# A count is a measurement, not a verdict: a few blocks-wrong are the check's own misses (a caption the text layer
+# reads in another order, a reference list printed twice); read the listing (`pnpm ingest anchors <id>`) first.
+
+reports:
+  litvinenko-inquiry:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 2
+  jack-smith-vol1:
+    markers-wrong: 2
+    markers-stacked: 7
+    pages-unmarked: 11
+    blocks-wrong: 54
+  us-psi-financial-crisis:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 8
+    blocks-wrong: 15
+  challenger-accident:
+    markers-wrong: 23
+    markers-stacked: 0
+    pages-unmarked: 45
+    blocks-wrong: 248
+  uk-leveson-inquiry:
+    markers-wrong: 0
+    markers-stacked: 1
+    pages-unmarked: 15
+    blocks-wrong: 78
+  columbia-accident:
+    markers-wrong: 1
+    markers-stacked: 0
+    pages-unmarked: 10
+    blocks-wrong: 182
+  us-911-commission:
+    markers-wrong: 0
+    markers-stacked: 5
+    pages-unmarked: 0
+    blocks-wrong: 0
+  us-deepwater-horizon:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 14
+    blocks-wrong: 54
+  us-v-philip-morris:
+    markers-wrong: 1
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 5
+  uk-hillsborough-panel:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 21
+    blocks-wrong: 124
+  uk-saville-inquiry:
+    markers-wrong: 0
+    markers-stacked: 1
+    pages-unmarked: 0
+    blocks-wrong: 0
+  uk-chilcot-inquiry:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0
+  us-lehman-examiner:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0

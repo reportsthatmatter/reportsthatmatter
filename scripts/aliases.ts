@@ -4,7 +4,9 @@
  *       Old text (the report's full.md at --old-ref, i.e. what is published) against the new text
  *       (the working tree's reports/<id>/full.md): writes reports/<id>/aliases.yaml and adds every id of
  *       both to reports/<id>/published-ids.txt. Idempotent; run after `pnpm ingest aggregate`
- *       on every re-ingest, then `pnpm prerender`.
+ *       on every re-ingest, then `pnpm prerender`. Both files start from their --old-ref versions, not the
+ *       working tree's, so running it against an intermediate re-ingest and again against the final text
+ *       records only what --old-ref published plus the final text (with --old, the working tree's files).
  *   pnpm aliases seed [<id>... | --all] [--ref origin/main]
  *       Rebuilds both files from the git history of reports/<id>/full.md (every distinct version, oldest
  *       first, folded one step at a time into the working tree's text). For the first run and for backfill.
@@ -43,11 +45,12 @@ const ids = rest.includes("--all") || !positional.length ? registry.reports.map(
 const aliasesPath = (id: string) => join(root, `reports/${id}/aliases.yaml`);
 const recordPath = (id: string) => join(root, `reports/${id}/published-ids.txt`);
 
-function loadAliases(id: string): AliasFile {
-  if (!existsSync(aliasesPath(id))) return emptyAliases();
-  const y = parse(readFileSync(aliasesPath(id), "utf8")) ?? {};
+function parseAliases(text: string | null): AliasFile {
+  if (text === null) return emptyAliases();
+  const y = parse(text) ?? {};
   return { aliases: y.aliases ?? {}, sections: y.sections ?? {}, unmatched: y.unmatched ?? [] };
 }
+const loadAliases = (id: string): AliasFile => parseAliases(existsSync(aliasesPath(id)) ? readFileSync(aliasesPath(id), "utf8") : null);
 const loadRecord = (id: string) => (existsSync(recordPath(id)) ? parseIds(readFileSync(recordPath(id), "utf8")) : []);
 
 const HEADER =
@@ -82,8 +85,11 @@ function generate() {
     if (!entry) throw new Error(`no such report: ${id}`);
     const next = render(readFileSync(join(root, entry.source_path), "utf8"));
     const oldMd = oldPath ? readFileSync(oldPath, "utf8") : gitShow(ref, entry.source_path);
-    const prev = loadAliases(id);
-    const record = new Set([...loadRecord(id), ...idsOf(next)]);
+    // The base is what --old-ref published, not the working tree: a generate run against an intermediate
+    // re-ingest would otherwise leave that text's ids (never published) in published-ids.txt for good (s24x).
+    const committed = oldPath ? null : gitShow(ref, `reports/${id}/published-ids.txt`);
+    const prev = oldPath ? loadAliases(id) : parseAliases(gitShow(ref, `reports/${id}/aliases.yaml`));
+    const record = new Set([...(committed === null ? loadRecord(id) : parseIds(committed)), ...idsOf(next)]);
     let file: AliasFile;
     if (oldMd === null) file = fold(prev, next, next);
     else {
