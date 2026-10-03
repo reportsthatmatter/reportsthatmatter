@@ -593,13 +593,11 @@ To explain the business and risk decisions that led Lehman management down this 
 
 #### From Moving to Storage: Lehman Expands Its Principal Investments
 
-During the course of 2006, Lehman's management and Board made the deliberate business decision to increase the firm's risk profile generally, and to take more risk specifically with respect to principal investments with the firm's capital. This new strategy was directed by Lehman's highest officers – primarily Fuld, Joseph
+During the course of 2006, Lehman's management and Board made the deliberate business decision to increase the firm's risk profile generally, and to take more risk specifically with respect to principal investments with the firm's capital. This new strategy was directed by Lehman's highest officers – primarily Fuld, Joseph Gregory (Lehman's President and Chief Operating Officer), and Hugh E. (Skip) McGee III (Global Head of Investment Banking) – after significant internal debate.
 
 Annual Report for 2006 as of Nov. 30, 2006 (Form 10‐K) (filed on Feb. 13, 2007), at pp. 66‐67 ("LBHI 2006 10‐K"); Lehman Brothers Holdings Inc., Quarterly Report as of Feb. 28, 2007 (Form 10‐Q) (filed on Apr. 9, 2007), at pp. 15, 19, 60 ("LBHI 10‐Q (filed Apr. 9, 2007)"); Lehman Brothers Holdings Inc., Quarterly Report as of May 31, 2007 (Form 10‐Q) (filed on July 10, 2007) , at pp. 17, 22, 64 ("LBHI 10‐Q (filed July 10, 2007)"); Lehman Brothers Holdings Inc., Quarterly Report as of Aug. 31, 2007 (Form 10‐Q) (filed on Oct. 10, 2007), at pp. 18, 23, 67 ("LBHI 10‐Q (filed Oct. 10, 2007)"); Lehman Brothers Holdings Inc., Annual Report for 2007 as of Nov. 30, 2007 (Form 10‐K) (filed on Jan. 29, 2008), at pp. 61‐62, 104 ("LBHI 2007 10‐ K"); Lehman Brothers Holdings Inc., Quarterly Report as of Feb. 29, 2008 (Form 10‐Q) (filed on Apr. 9, 2008), at pp. 21, 27, 55, 71 ("LBHI 10‐Q (filed Apr. 9, 2008)"); Lehman Brothers Holdings Inc., Quarterly Report as of May 31, 2008 (Form 10‐Q) (filed on July 10, 2008), at pp. 26, 29 ("LBHI 10‐Q (filed July 10, 2008)"); see also Section III.A.1.b.4 of this Report.
 
 %%page 59%%
-
-Gregory (Lehman's President and Chief Operating Officer), and Hugh E. (Skip) McGee III (Global Head of Investment Banking) – after significant internal debate.
 
 This Section of the Report describes the principal investment strategy adopted by Lehman in 2006; explains the risks that this strategy posed to the firm; describes how Lehman's risk controls were applied (or not) to the new strategy; and explains the Board's understanding of, and agreement with, the new strategy.
 
@@ -1515,23 +1513,19 @@ Lehman decided to exceed the firm‐wide risk appetite limit at several juncture
 
 Several months later, with Lehman's firm‐wide risk usage actually in excess of the limit, Lehman decided to increase the limit again, even as one of its senior risk managers admitted to the SEC that Lehman did not in fact have increased risk‐taking capacity.658
 
-Then, in early October 2007, when Lehman's risk appetite excesses were at their peak, at least some members of Lehman's senior management discussed the limit breaches and decided to grant a temporary reprieve from the limits based on the difficult conditions in the real estate and leveraged loan markets. For the most part,
+Then, in early October 2007, when Lehman's risk appetite excesses were at their peak, at least some members of Lehman's senior management discussed the limit breaches and decided to grant a temporary reprieve from the limits based on the difficult conditions in the real estate and leveraged loan markets. For the most part, Lehman did not pursue aggressive risk reduction strategies until sometime in 2008, particularly with respect to commercial real estate.
 
 657 Examiner's Interview of Jeffrey Goodman, Aug. 28, 2009. 658 SEC, Notes from Lehman's Monthly Risk Review meeting (Oct. 11, 2007), at p. 6 [LBEX‐SEC 007438].
 
 %%page 180%%
 
-Lehman did not pursue aggressive risk reduction strategies until sometime in 2008, particularly with respect to commercial real estate.
-
 Rather than reduce its risk usage, Lehman cured its risk appetite overages by increasing the firm‐wide risk appetite limit yet again.659 There is evidence which raises the question whether Lehman's risk‐taking capacity had in fact increased. The increased limit amount was calculated by substantially changing the assumptions previously used in calculating the risk appetite limit, and by using a very aggressive 2008 budgeted revenue figure. If Lehman had used the same assumptions as it had previously used for calculating the risk appetite limit, and a more realistic revenue figure, it would likely have concluded that it was necessary to reduce its risk appetite limit to take account of its diminished profitability relative to its equity base. Such a conclusion might have impelled management more urgently to sell assets, reduce the firm's risk profile, and reduce the firm's leverage.
 
-Although Lehman's risk appetite limits ultimately provided little or no limiting function at all, the Examiner does not find that the decision to exceed or disregard these limits gives rise to a colorable claim of breach of fiduciary duty. These internal limits were intended only for the guidance of Lehman's own management; they did not put
+Although Lehman's risk appetite limits ultimately provided little or no limiting function at all, the Examiner does not find that the decision to exceed or disregard these limits gives rise to a colorable claim of breach of fiduciary duty. These internal limits were intended only for the guidance of Lehman's own management; they did not put any legal constraints on the scope of management's authority. And because business in general and investment banking in particular is an inherently risky enterprise, Lehman's management was entitled to pursue a countercyclical growth strategy based on its evaluation of the markets and of Lehman's business, even if that strategy necessarily posed a risk to the firm. Moreover, Lehman's risk appetite limit overages were reported to the SEC. The Examiner does not find that management's decision to increase and then exceed Lehman's risk appetite levels gives rise to a colorable claim for breach of fiduciary duties.
 
 659 Examiner's Interview of Christopher M. O'Meara, Aug. 14, 2009, at p. 10; Lehman's Material for Market Risk Control Committee Meeting (Jan. 14, 2008), at p. 33 [LBEX‐DOCID 271352], attached to e‐ mail from Mark Weber, Lehman, to Paul Shotton, Lehman, et al. (Jan. 14, 2008) [LBEX‐DOCID 223263]; Estimated Third Quarter 2007 Financial Information Presentation to Lehman Board of Directors (Sept. 11, 2007), at p. 6 [LBHI_SEC07940_026288].
 
 %%page 181%%
-
-any legal constraints on the scope of management's authority. And because business in general and investment banking in particular is an inherently risky enterprise, Lehman's management was entitled to pursue a countercyclical growth strategy based on its evaluation of the markets and of Lehman's business, even if that strategy necessarily posed a risk to the firm. Moreover, Lehman's risk appetite limit overages were reported to the SEC. The Examiner does not find that management's decision to increase and then exceed Lehman's risk appetite levels gives rise to a colorable claim for breach of fiduciary duties.
 
 #### Firm‐Wide Balance Sheet Limits
 
@@ -3929,13 +3923,11 @@ Q. O'Meara and Grieb established an internal limit of $22 billion for firm‐wid
 
 105 transactions, which they increased to $25 billion in February 2007. The limit was not required under accounting rules, and appears to have been a decision on their part to keep Lehman's Repo 105 activity within a range they deemed immaterial.
 
-In late 2007 and early 2008, the volume of Lehman's undisclosed Repo 105 transactions was material. Under O'Meara's watch, the volume of Repo 105
+In late 2007 and early 2008, the volume of Lehman's undisclosed Repo 105 transactions was material. Under O'Meara's watch, the volume of Repo 105 transactions rose to $38 billion at the close of Lehman's fourth quarter 2007 – $13 billion (and more than 50%) over the last known "limit" of $25 billion. The expansion of Lehman's Repo 105 activity was due primarily to "a lack of policing" and it was "not an issue for management."[^3847] The volume of Lehman's Repo 105 usage was known to senior management, but because FID needed more Repo 105 to make balance sheet targets, "there was no stoppage."[^3848]
 
 3846 Though Erin M. Callan took over the role of CFO in December 2007, O'Meara continued to be involved in the drafting sessions for Lehman's 2007 Form 10‐K. E‐mail from Joy Fernandez, Lehman, to Erin M. Callan, Lehman (Nov. 5, 2007) [LBEX‐DOCID 2974570] (stating that Chris O'Meara was scheduled to attend January 14, 2008 meeting to review LBHI 2007 10‐K along with Erin M. Callan, Edward Grieb, Steve Rossi, and Ryan Traversari). Moreover, the Examiner has located evidence suggesting that O'Meara sub‐certified the 2007 10‐K for Callan and was responsible for certain financial reporting in Lehman's Form 10‐Q for first quarter 2008.. See Lehman Brothers Holdings Inc., Reporting Instructions, Quarter Ended February 29, 2008 (Feb. 22, 2008), at p. 5 [LBEX‐DOCID 3756724] (stating that O'Meara was the certifier for the Review of Risk Management narrative for accuracy of MD&A discussions of credit risk, market risk, operational risk, reputational risk, value at risk, other measures of risk and distribution of trading revenues); e‐mail from Martin Kelly, Lehman, to Ian T. Lowitt, Lehman (July 8, 2009) [LBEX‐DOCID 2329856] ("[W]ould you like to have Erin sign a sub‐certification letter (not necessary strictly speaking but we did have Chris sub‐certify to Erin at year end."); e‐mail from Martin Kelly, Lehman, to Erin M. Callan, Lehman (July 9, 2008) [LBEX‐DOCID 1536331] (asking Callan "if I could have you sub‐certify on the quarter[ly report since] (Chris [O'Meara] sub‐certified to you at year end)"); e‐mail from Ian T. Lowitt, Lehman, to Martin Kelly, Lehman (July 9, 2008) [LBEX‐DOCID 2329856] ("I spoke to Tom [Russo about sub‐certification] and he thinks better if didn't come from him and better to present as consistent with what Chris did when Erin overlapped.").
 
 %%page 1009%%
-
-transactions rose to $38 billion at the close of Lehman's fourth quarter 2007 – $13 billion (and more than 50%) over the last known "limit" of $25 billion. The expansion of Lehman's Repo 105 activity was due primarily to "a lack of policing" and it was "not an issue for management."[^3847] The volume of Lehman's Repo 105 usage was known to senior management, but because FID needed more Repo 105 to make balance sheet targets, "there was no stoppage."[^3848]
 
 In light of O'Meara's knowledge of the volume of Lehman's Repo 105 transactions, his involvement in setting internal management rules for Repo 105 usage, and his awareness of the purpose of Repo 105 transactions, sufficient evidence exists to support a colorable claim that O'Meara was at least grossly negligent in permitting Lehman to file a materially misleading 2007 Form 10‐K.
 

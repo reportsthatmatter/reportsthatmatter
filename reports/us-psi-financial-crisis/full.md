@@ -6622,13 +6622,11 @@ Marketing Hudson. After establishing its basic characteristics and selecting the
 
 After getting the commitment from Morgan Stanley, Goldman turned its focus to selling the remaining Hudson securities. On September 27, 2007, Mr. Swenson, the SPG Trading Desk and ABS Desk head, sent an email to set up a meeting, which later became a conference call, on "Marketing Strategy for the ABX CDO Trade."2251 The invitees included Daniel Sparks, Jon Sobel, Peter Ostrem, Darryl Herrick, and others. Mr. Herrick circulated a draft copy of the Hudson 1 termsheet and transaction overview for review in advance of the call.2252
 
-Goldman's CDO marketing strategy typically involved its sales personnel sending clients a marketing booklet outlining different features of a particular CDO. Mr. Herrick drafted the marketing booklet for Hudson 1, and circulated it for review to Mr. Ostrem and other members of
+Goldman's CDO marketing strategy typically involved its sales personnel sending clients a marketing booklet outlining different features of a particular CDO. Mr. Herrick drafted the marketing booklet for Hudson 1, and circulated it for review to Mr. Ostrem and other members of the CDO Origination Desk including Benjamin Case and Matthew Bieber.2253 The executive summary of the marketing booklet described Goldman's Hudson CDO program generally and Hudson 1 in particular:
 
 Subcommittee, Mr. Salem had no specific recollection of how assets were selected for Hudson 1 and little specific recollection about Hudson 1 as a whole. Subcommittee interview of Deeb Salem (10/6/10).
 
 %%page 524%%
-
-the CDO Origination Desk including Benjamin Case and Matthew Bieber.2253 The executive summary of the marketing booklet described Goldman's Hudson CDO program generally and Hudson 1 in particular:
 
 > "Goldman Sachs developed the Hudson CDO program in 2006 to create a consistent, programmatic approach to invest in attractive relative value opportunities in the RMBS and structured product market[.]
 

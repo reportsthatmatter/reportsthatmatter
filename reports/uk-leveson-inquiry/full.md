@@ -717,13 +717,11 @@ HC Hansard, 20 July 2011, vol 531, col 919
 
 Hon Jeremy Hunt MP (then the Secretary of State for Culture Media and Sports) and Baroness
 
-Browning (then a Minister of State at the Home Office) appointed me to Chair the Inquiry pursuant to s3(1)(a) of the Act. On the same date, their appointment having previously been announced by the Prime Minister, acting pursuant to s11(2)(a) of the Act, the Ministers appointed six Assessors with a wide range of professional experience to assist the Inquiry.
+Browning (then a Minister of State at the Home Office) appointed me to Chair the Inquiry pursuant to s3(1)(a) of the Act. On the same date, their appointment having previously been announced by the Prime Minister, acting pursuant to s11(2)(a) of the Act, the Ministers appointed six Assessors with a wide range of professional experience to assist the Inquiry. These were Sir David Bell,4 Shami Chakrabarti CBE,5 Lord (David) Currie,6 Elinor Goodman,7
 
 http://www.levesoninquiry.org.uk/wp-content/uploads/2011/11/Lord_Justice_Leveson_Redacted.pdf
 
 %%page 6%%
-
-These were Sir David Bell,4 Shami Chakrabarti CBE,5 Lord (David) Currie,6 Elinor Goodman,7
 
 George Jones8 and Sir Paul Scott-Lee.9
 
@@ -11162,13 +11160,11 @@ Crone's approach in front of the Committee, he took a different line when he gav
 
 > "it would appear that Mr Myler did not consider there was anything at all objectionable about Mr Thurlbeck's approach to the two women, as he did not query it at any stage. This discloses a remarkable state of affairs."
 
-4.50 Mr Myler accepted this criticism.196 He contradicted Mr Thurlbeck's assertion that no one had discussed the matter with him, saying that he had, in fact, admonished Mr Thurlbeck197 and, by implication, had also raised the issue with Mr Edmondson,198 making it clear that
+4.50 Mr Myler accepted this criticism.196 He contradicted Mr Thurlbeck's assertion that no one had discussed the matter with him, saying that he had, in fact, admonished Mr Thurlbeck197 and, by implication, had also raised the issue with Mr Edmondson,198 making it clear that 'totally inappropriate'.199 Mr Edmondson told the Inquiry that, on reading the emails now, he thought they were a threat.200
 
 'care needed to be taken.' He told the Inquiry that writing in that way was 'unnecessary' and
 
 %%page 521%%
-
-'totally inappropriate'.199 Mr Edmondson told the Inquiry that, on reading the emails now, he thought they were a threat.200
 
 4.51 I observe that Mr Myler's evidence to the Inquiry is inconsistent with his evidence to Mr Justice Eady,201 to the effect that he did not at any stage raise any concerns with Mr Thurlbeck. It is likely that what he said to Mr Justice Eady (when the relevant matters were fresh in his mind) was correct but, again, the importance of this episode is what it says about the culture at the NoTW, the practice of journalism at the paper and the lack of attention paid to the rights of those who not merely might be affected but undoubtedly would be seriously affected by what was published.
 
@@ -14834,13 +14830,11 @@ Code of Practice provided a reasonable benchmark for adequate practice, but the 
 
 > "It's just expected of the staff and it's enforced by people not being very happy with them if they mess up … The journalist concerned will probably be warned by the news desk that they have done something wrong … I personally probably wouldn't talk to the journalist concerned, but the news desk or my deputy editor would."
 
-2.56 Systems of supervision at other titles were similarly informal. Colin Myler, former editor of the
+2.56 Systems of supervision at other titles were similarly informal. Colin Myler, former editor of the Mr Wallace explained that one of the checks on conduct at the Daily Mirror is to position senior reporters alongside more junior reporters.38
 
 NoTW, in somewhat vague terms described relying on "a culture of individual and collective responsibility for ensuring compliance with the PCC Code and the law" during his editorship.37
 
 %%page 731%%
-
-Mr Wallace explained that one of the checks on conduct at the Daily Mirror is to position senior reporters alongside more junior reporters.38
 
 2.57 Dominic Mohan, editor of The Sun emphasised how he sought "to foster a culture of honesty, integrity and high ethical standards at the Sun"39. However, when asked how he had tried to foster those qualities, his answer revealed that ethical controls at The Sun are similarly ad hoc, relying on the judgment of individual journalists and the initiatives and attentions of individual managers rather than being systematic:40
 
@@ -18893,11 +18887,9 @@ Recommendations
 > - "Forces and authorities institute robust systems to ensure risks arising from relationships, information disclosure, gratuities, hospitality, contracting and secondary employment are identified. Monitored and managed. They should ideally do so on the basis of national standards and expectations – there are no geographical variables when it comes to integrity and there should not be local differences in standards. This work on national standards should be encouraged G by the Home Office and promoted by leaders in the Service locally.
 > - There should be clear boundaries and thresholds in relation to these matters. Such limits should be consistent and Service wide. This in effect means identifying a clear message for staff on these issues as to what is acceptable, what is unacceptable and what areas of vulnerability to avoid. ACPO should lead this work in partnership with staff associations and those involved in police governance.
 > - Training courses should include appropriate input in relation to integrity and anti-corruption. In particular, given the importance of leadership to securing high standards of integrity (a theme which runs through this review), the Strategic Command Course (in January 2012) and the High Potential Development Scheme should encompass these issues. Chief Constables should review how much effort is being put into briefing their staff on the standards as to what is acceptable, unacceptable and on the areas of potential vulnerability.
-> - Chief officer teams should review their corporate governance and oversight
+> - Chief officer teams should review their corporate governance and oversight arrangements to ensure that those arrangements are fulfilling their function in helping promote the values of their force in the delivery of its objectives, and that they are, through their actions and behaviours, promoting the values of the organisation and making sure good corporate governance is seen as a core part of everyday business. • HMIC expects the Service to have detailed proposals in the above areas ready for consultation with all relevant parties by April 2012. • An assessment relating to these matters should be conducted by HMIC by October 2012 to inform incoming Police and Crime Commissioners and Police and Crime Panels."
 
 %%page 956%%
-
-> arrangements to ensure that those arrangements are fulfilling their function in helping promote the values of their force in the delivery of its objectives, and that they are, through their actions and behaviours, promoting the values of the organisation and making sure good corporate governance is seen as a core part of everyday business. • HMIC expects the Service to have detailed proposals in the above areas ready for consultation with all relevant parties by April 2012. • An assessment relating to these matters should be conducted by HMIC by October 2012 to inform incoming Police and Crime Commissioners and Police and Crime Panels."
 
 9.23 Having received a draft version of the report in late November 2011, the Home Secretary wrote to Sir Denis on 6 December 2011 setting out her initial views on the findings and recommendations. The Home Secretary understandably welcomed HMIC's finding that corruption was not endemic in British policing, but stressed that, more generally, the conclusions of his report presented an urgent wake up call for police leaders. She accepted the proposed recommendations of HMIC as "valuable steps" towards addressing the concerns raised by the review.1167 However, the Home Secretary also pushed for a greater sense of pace and urgency from the Police Service in developing more robust and consistent arrangements, and requested that a more direct challenge be made to current police leaders to make the point that dealing with the findings of the report was their personal responsibility, individually as well as collectively.1168 These two points were addressed within the final version of the report published in December 2011, and encapsulated within the recommendations reproduced above.
 
@@ -19014,11 +19006,9 @@ Recommendations of the Filkin Report
 
 10.16 In light of the key findings of the report, Mrs Filkin has made the following recommendations to Commissioner Hogan-Howe and the MPS Management Board, in response to the terms of reference set out at para 10.3 above:1217
 
-> - "A new approach to communication based on more extensive, open and impartial provision of information to the public is needed. Relationships with the media need
+> - "A new approach to communication based on more extensive, open and impartial provision of information to the public is needed. Relationships with the media need to be part of this but not the driving force. I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to champion a new approach to providing public information. Increasing openness with the public should be monitored through performance indicators. • The MPS senior team must signal a change in culture and set a consistent example for all staff on the ethical standards they expect, including how they relate to the media and the interpretation of the gifts and hospitality register. • I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to initiate change in the way the MPS approaches integrity and ethics issues at all levels. This role will provide the support and direction for staff to implement change and ensure improvements are tracked. This role holder will collaborate with the Public Information Champion. Responsibility for leadership on these issues is shared by all as peer pressure is the most effective way of improving behaviour. • I recommend that all police officers and staff who provide information to the media should make a brief personal record of the information they provide. This record should be available if required by a line manager. Some of these records will be audited on a random basis. Wherever possible, published information should be attributed to the person giving it or more generally to the MPS. • The MPS must establish the core principles which should underpin contact with the media. I recommend that contact with the media is permissible but not unconditional. This should be the overarching principle. Police officers and staff need to have new guidance that helps them understand the value of providing information to the public and supports them in making ethical decisions when doing so. Advice on contact with the media is an essential part of this. So are improved training, supervision and appraisal to ensure the principles become
 
 %%page 964%%
-
-> to be part of this but not the driving force. I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to champion a new approach to providing public information. Increasing openness with the public should be monitored through performance indicators. • The MPS senior team must signal a change in culture and set a consistent example for all staff on the ethical standards they expect, including how they relate to the media and the interpretation of the gifts and hospitality register. • I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to initiate change in the way the MPS approaches integrity and ethics issues at all levels. This role will provide the support and direction for staff to implement change and ensure improvements are tracked. This role holder will collaborate with the Public Information Champion. Responsibility for leadership on these issues is shared by all as peer pressure is the most effective way of improving behaviour. • I recommend that all police officers and staff who provide information to the media should make a brief personal record of the information they provide. This record should be available if required by a line manager. Some of these records will be audited on a random basis. Wherever possible, published information should be attributed to the person giving it or more generally to the MPS. • The MPS must establish the core principles which should underpin contact with the media. I recommend that contact with the media is permissible but not unconditional. This should be the overarching principle. Police officers and staff need to have new guidance that helps them understand the value of providing information to the public and supports them in making ethical decisions when doing so. Advice on contact with the media is an essential part of this. So are improved training, supervision and appraisal to ensure the principles become
 
 G embedded.
 
@@ -26804,13 +26794,11 @@ I
 
 2.12 Put in these terms, the influence exercised by Mr Murdoch is more about what did not happen I than what did. To reiterate: a case by case examination of the policies which were introduced over this long period fails to demonstrate that politicians compromised themselves or their policies to favour Mr Murdoch's business interests directly. Where a decision pleased Mr Murdoch, there would always be other public-policy reasons for it. At least one administration introduced many policies to which, by any stretch of the imagination, Mr Murdoch would not have been well disposed. But no government addressed the issue of press regulation, nor of concentration of ownership.
 
-2.13 Another important factor is that Mr Murdoch fully understood the value of personal interactions, the value of the face-to-face meeting. His (self-invited) lunch with Baroness
+2.13 Another important factor is that Mr Murdoch fully understood the value of personal interactions, the value of the face-to-face meeting. His (self-invited) lunch with Baroness Thatcher on 4 January 1981 exemplifies this point in microcosm. Mr Murdoch was not necessarily expecting any favours from Baroness Thatcher but he was investing in her nonetheless, seeking to impress on her his personal qualities as a risk-seeking entrepreneur who shared political affiliations with the Prime Minister and, although he never made the argument explicitly, why he should be regarded as the favoured bidder for The Times. There is no evidence that Baroness Thatcher sought in turn to persuade her Secretary of State of Mr Murdoch's qualities, but had there been a conversation between the two of them Mr Murdoch had the comfort of knowing that he had taken the opportunity of advancing his own case. In any event, if the lunch had been known about at the time, that itself would have been significant. Suffice to say, Mr Murdoch well understands the value of 'less is more'.
 
 3 p36, lines 15-16, Rupert Murdoch, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/04/Transcript-of- Morning-Hearing-25-April-2012.pdf 4 p58, lines 18-24, Rupert Murdoch, ibid
 
 %%page 1433%%
-
-Thatcher on 4 January 1981 exemplifies this point in microcosm. Mr Murdoch was not necessarily expecting any favours from Baroness Thatcher but he was investing in her nonetheless, seeking to impress on her his personal qualities as a risk-seeking entrepreneur who shared political affiliations with the Prime Minister and, although he never made the argument explicitly, why he should be regarded as the favoured bidder for The Times. There is no evidence that Baroness Thatcher sought in turn to persuade her Secretary of State of Mr Murdoch's qualities, but had there been a conversation between the two of them Mr Murdoch had the comfort of knowing that he had taken the opportunity of advancing his own case. In any event, if the lunch had been known about at the time, that itself would have been significant. Suffice to say, Mr Murdoch well understands the value of 'less is more'.
 
 Viscount Rothermere
 
