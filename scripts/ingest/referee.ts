@@ -669,7 +669,7 @@ const pct = (x: number) => (Number.isFinite(x) ? `${(100 * x).toFixed(1)}%` : "â
 
 export async function runReferee(args: string[], host: RefereeHost): Promise<number> {
   if (args[0] === "eval") return evaluate(host, args.slice(1));
-  if (args[0] === "draft") return (await import("./pagebreak-sample.ts")).runDraft(host, args.slice(1));
+  if (args[0] === "draft") return (await import("./pagebreak-sample")).runDraft(host, args.slice(1));
   return fill(host, args);
 }
 
