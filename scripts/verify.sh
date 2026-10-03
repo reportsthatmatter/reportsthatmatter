@@ -491,6 +491,14 @@ else
   tail -40 "${RUN_DIR}/e2e.log"
 fi
 
+step "Browser end-to-end on phones (iPhone/WebKit, Pixel/Chromium)"
+if pnpm exec node scripts/e2e-mobile.mjs "$BASE" >"${RUN_DIR}/e2e-mobile.log" 2>&1; then
+  while IFS= read -r line; do pass "$line"; done < <(grep '^ok ' "${RUN_DIR}/e2e-mobile.log" | sed 's/^ok //')
+else
+  fail "phone browser checks (WebKit missing? pnpm exec playwright install webkit)"
+  tail -40 "${RUN_DIR}/e2e-mobile.log"
+fi
+
 # ---------- verdict ----------
 
 if [ "$FAILED" -eq 0 ]; then
