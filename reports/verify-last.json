@@ -4,10 +4,10 @@
    "oracle": {
     "headings-missed": 22,
     "headings-spurious": 37,
-    "markers-unlinked": 33,
-    "markers-spurious": 95,
+    "markers-unlinked": 36,
+    "markers-spurious": 89,
     "paragraphs-oversplit": 149,
-    "paragraphs-merged": 425,
+    "paragraphs-merged": 422,
     "quotes-spurious": 51,
     "quotes-missed": 53,
     "note-off-page": 71
@@ -40,8 +40,8 @@
    "oracle": {
     "headings-missed": 170,
     "headings-spurious": 76,
-    "markers-unlinked": 23,
-    "markers-spurious": 138,
+    "markers-unlinked": 24,
+    "markers-spurious": 136,
     "paragraphs-oversplit": 332,
     "paragraphs-merged": 1973,
     "quotes-spurious": 331,
@@ -68,8 +68,8 @@
    },
    "golden": {
     "match": 1,
-    "total": 7,
-    "known": 6
+    "total": 8,
+    "known": 7
    }
   },
   "uk-leveson-inquiry": {
@@ -114,8 +114,8 @@
     "headings-spurious": 3,
     "markers-unlinked": 6,
     "markers-spurious": 9,
-    "paragraphs-oversplit": 95,
-    "paragraphs-merged": 2209,
+    "paragraphs-oversplit": 140,
+    "paragraphs-merged": 2085,
     "quotes-spurious": 2,
     "quotes-missed": 196,
     "note-off-page": 0
@@ -164,20 +164,20 @@
   },
   "uk-hillsborough-panel": {
    "oracle": {
-    "headings-missed": 390,
+    "headings-missed": 144,
     "headings-spurious": 0,
-    "markers-unlinked": 932,
-    "markers-spurious": 0,
-    "paragraphs-oversplit": 123,
-    "paragraphs-merged": 808,
-    "quotes-spurious": 22,
-    "quotes-missed": 49,
-    "note-off-page": 0
+    "markers-unlinked": 24,
+    "markers-spurious": 107,
+    "paragraphs-oversplit": 12,
+    "paragraphs-merged": 403,
+    "quotes-spurious": 6,
+    "quotes-missed": 29,
+    "note-off-page": 1
    },
    "golden": {
-    "match": 0,
+    "match": 5,
     "total": 5,
-    "known": 5
+    "known": 0
    }
   },
   "uk-saville-inquiry": {
@@ -185,7 +185,7 @@
     "headings-missed": 153,
     "headings-spurious": 3,
     "markers-unlinked": 0,
-    "markers-spurious": 56,
+    "markers-spurious": 31,
     "paragraphs-oversplit": 16,
     "paragraphs-merged": 1511,
     "quotes-spurious": 293,
@@ -237,8 +237,8 @@
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 22,
-   "fp": 11,
+   "tp": 17,
+   "fp": 13,
    "fn": 19
   },
   "headings-spurious": {
@@ -247,7 +247,7 @@
    "fn": 2
   },
   "markers-unlinked": {
-   "tp": 30,
+   "tp": 22,
    "fp": 0,
    "fn": 11
   },
@@ -259,11 +259,11 @@
   "paragraphs-oversplit": {
    "tp": 41,
    "fp": 11,
-   "fn": 71
+   "fn": 67
   },
   "paragraphs-merged": {
-   "tp": 14,
-   "fp": 141,
+   "tp": 12,
+   "fp": 143,
    "fn": 1
   },
   "quotes-spurious": {
