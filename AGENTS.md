@@ -21,6 +21,11 @@ change; it usually isn't (see its "what needs a deploy?" table).
 ships*: three stages (text, introduction, imagery), each its own release and
 its own Bead per report, none waiting for review. Read it first for any
 report work; it points at the guide for each stage.
+**[docs/release-checklist.md](docs/release-checklist.md)** is *the integrator's
+ordered steps* from an ingest release to production verify, with the command
+that answers each question (what does the release do, must a report be
+republished, will D1 take the writes). Read it before releasing, bumping the
+pin or shipping.
 **[docs/report-preparation.md](docs/report-preparation.md)** is *how to prepare
 a report*: choosing and checking a source, the report's own repo, `ingest.ts`,
 registering, plate and share card, `PROCESSING.md`, shipping, and what to
