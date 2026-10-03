@@ -39,19 +39,13 @@ defaults:
 
 reports:
   challenger-accident:
-    severed-into-quote: 86
-    severed-paragraph: 50
-    bare-footnote-marker: 119
-    bare-marker-after-quote: 2  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
-    note-marker-wrong-note: 0
-    note-marker-unpaired: 3
-    note-reference-sequence: 134  # why: reportsthatmatter-6hbt (new signal, today's count)
-    note-text-in-body: 68  # why: post v0.15.0 integration
     severed-into-quote: 85
     severed-paragraph: 42
     bare-footnote-marker: 76
+    bare-marker-after-quote: 19  # why: reportsthatmatter-jsqw (the text linker no longer runs on vision blocks; markers after a closing quote it used to link, often wrongly, e.g. '[^2] 6' for note 26 on p.98, stay bare)
     note-marker-wrong-note: 0
     note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
+    note-reference-sequence: 134  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 48
     note-citation-vocabulary: 0
     furniture-paragraph: 150
