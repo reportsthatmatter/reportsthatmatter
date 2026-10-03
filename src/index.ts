@@ -664,6 +664,7 @@ async function topMarkedPassages(
         quote,
         page: row.page,
         readers: row.readers,
+        editor: row.editor,
         url: `/reports/${reportId}/${slug}?p=${encodeURIComponent(row.paragraph)}${query}#${row.paragraph}`,
       });
     }
