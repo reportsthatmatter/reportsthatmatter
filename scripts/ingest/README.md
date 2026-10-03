@@ -13,7 +13,11 @@ pnpm ingest preflight       # is each repo's installed @rtm/ingest the one it pi
 pnpm ingest try <branch|path> [<id>...]   # what would an unreleased ingest do to the rendered corpus? (below)
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
+pnpm ingest referee <id> [--dry-run] [--refer medium]   # fill a report's page-break referee cache (an LLM; offline build reads the committed answers)
+pnpm ingest referee eval [--dev|--holdout] --answers rules|oracle|invert|cache|replay:<file>|fake:split|live [--refer medium]   # what the referee does to the adjudicated page breaks
 ```
+
+The page-break referee (reportsthatmatter-38s.11): a report that declares `layoutPageJoins({ referee: pageBreakCache(new URL("./referee/pagebreaks.json", import.meta.url)), refer: "medium" })` reads LLM answers for the page breaks the layout rules are least sure of from a committed `referee/pagebreaks.json` in its repo; a build never calls out and a missing answer keeps the rules' call. `pnpm ingest referee <id>` fills it (Anthropic SDK; `ANTHROPIC_API_KEY` or an `ant auth login` profile; `--dry-run` prints the calls and an estimated cost; `--record`/`--replay <file>` record and replay responses; `--fake split` tests the plumbing with no key). `eval` measures against the adjudicated page breaks and exits 1 if the held-out set loses one. Design and numbers: [`docs/design/2026-10-03-pagebreak-referee.md`](../../docs/design/2026-10-03-pagebreak-referee.md).
 
 Golden pages (`<report repo>/golden.yaml`) are verified ground truth for a few PDF pages per report: `verify` fails when a regeneration no longer matches one, and a page the pipeline is known to get wrong is marked `xfail: <bead>` so it stays visible without failing the run. Format, how to write an entry and the oracle's measured precision: [`docs/quality-harness.md`](../../docs/quality-harness.md). `RTM_REPORT_DIRS=<dir>` reads report repos from `<dir>/<repo>` (git worktrees) where they exist.
 
