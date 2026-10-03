@@ -33,7 +33,7 @@ reports:
     paragraphs-oversplit: 537
     quotes-spurious: 290
   us-911-commission:
-    markers-unlinked: 18
+    markers-unlinked: 6
   us-deepwater-horizon:
     markers-unlinked: 1445
   us-v-philip-morris:
