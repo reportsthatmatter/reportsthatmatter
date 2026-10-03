@@ -24,7 +24,6 @@ notes-at-back:
   - us-911-commission
   - us-deepwater-horizon
   - columbia-accident
-  - uk-hillsborough-panel
 
 reports:
   litvinenko-inquiry:
@@ -58,8 +57,9 @@ reports:
     paragraphs-oversplit: 956
     note-off-page: 0
   uk-hillsborough-panel:
-    headings-missed: 390
-    markers-unlinked: 932  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
+    headings-missed: 144
+    markers-unlinked: 24
+    note-off-page: 1  # page-foot notes are read since ivg.3 (footnoteNumbers("period")), so it leaves notes-at-back
   uk-saville-inquiry:
     markers-unlinked: 0
     note-off-page: 13  # why: ivg.2 HTML edition puts a note under the paragraph that cites it, so a note can sit on a later page than its marker; the oracle counts these as off-page. Real, not a defect

@@ -70,9 +70,9 @@ background: |
 
 findings:
   - text: The Panel found that multiple factors were responsible for the deaths, and that the fans were not the cause of the disaster.
-    cites: [whole-point-justice-consists-precisely]
+    cites: [disclosed-documents-show-multiple-factors]
     excerpt:
-      paragraph: whole-point-justice-consists-precisely
+      paragraph: disclosed-documents-show-multiple-factors
       quote: >-
         The disclosed documents show that multiple factors were responsible
         for the deaths of the 96 victims of the Hillsborough tragedy and that
@@ -82,13 +82,13 @@ findings:
     cites: [1981-before-fa-cup-semi-final, these-deficiencies-well-known-further]
 
   - text: On the day, once an exit gate was opened to relieve crowding at the turnstiles, no instruction was given to direct the fans coming through it away from the already-overfull central pens.
-    cites: [box-cctv-monitors-neither-chief]
+    cites: [24-opening-gate-c-there]
 
   - text: The major incident procedure was never activated at Ground Control, Force Control or Ambulance Control, even after staff there had begun describing the situation as a "major incident".
     cites: [continued-incomplete-communication-2-4]
 
   - text: The Coroner's decision to hear no evidence of events after 3.15pm rested on pathologists' evidence that all who died were by then beyond recovery. The Panel found this picture of a single, rapid pattern of death was unsustainable, and that a significant number of those who died may still have been alive, and might have survived with appropriate and timely intervention, after being removed from the pens.
-    cites: [chapter-10-3-15pm-cut-off, underpinned-imposition-3-15pm-cut-off, 2-10-7-documents-considered]
+    cites: [coroner-s-decision-limit-evidence, underpinned-imposition-3-15pm-cut-off, 2-10-7-documents-considered]
     excerpt:
       paragraph: 2-10-7-documents-considered
       quote: >-
@@ -103,9 +103,9 @@ findings:
     cites: [each-preliminary-hearing-before-jury, weight-placed-alcohol-face-objective, also-show-available-evidence-significantly]
 
   - text: Statements written by SYP officers were reviewed and altered before being submitted to the Taylor Inquiry. Of 164 statements marked for substantial amendment, 116 were changed to remove or alter comments unfavourable to the force, including 41 that downplayed criticism of its leadership and response.
-    cites: [syp-team-130-significant-number, police-response-inadequate-leadership-2]
+    cites: [130-significant-number-syp-officers, 2-11-56-beyond-issues]
     excerpt:
-      paragraph: police-response-inadequate-leadership-2
+      paragraph: 2-11-56-beyond-issues
       quote: >-
         Some 116 of the 164 substantially amended statements removed or
         altered comments unfavourable to SYP. These included 41 statements in
@@ -124,7 +124,7 @@ findings:
         beat up PC giving life kiss'.
 
 reading_guide:
-  - section: front-matter
+  - section: report-summary
     title: Report summary
     why: The Panel's own chapter-by-chapter digest of the first four chapters — the risks ignored before 1989, the day itself, and the roles and responsibilities that went unresolved.
     excerpt:
@@ -133,7 +133,7 @@ reading_guide:
         Ninety-six women, men and children died as a consequence of the
         crush, while hundreds more were injured and thousands traumatised.
 
-  - section: front-matter
+  - section: report-summary
     title: The rest of the report summary
     why: Continues the chapter-by-chapter summary through the emergency response, the contested medical evidence, the 3.15pm cut-off, the altered statements and the unsubstantiated press allegations.
     excerpt:
@@ -157,7 +157,7 @@ reading_guide:
     title: The coroner's inquiry and the 3.15pm cut-off
     why: How the inquest was split into a hearing for each victim followed by a single generic hearing, and why the Coroner decided to hear no evidence of what happened after 3.15pm.
     excerpt:
-      paragraph: coroner-s-summing-up-subsequent
+      paragraph: 2-10-48-his-summing
       quote: >-
         Dr Popper returned to the cut-off: 'we did not take much evidence
         after 3.15 in fact hardly any, and that was a deliberate decision of
@@ -167,7 +167,7 @@ reading_guide:
     title: The altered statements, and 'The Truth'
     why: How SYP officers' statements were reviewed and amended before the Taylor Inquiry, and how allegations against Liverpool fans reached The Sun's front page four days after the disaster.
     excerpt:
-      paragraph: informal-coarse-language-2-11
+      paragraph: 2-11-53-total-164
       quote: >-
         A total of 164 statements were marked for amendments more substantial
         than simple corrections. Of these, 22 were amended to remove coarse
@@ -179,7 +179,7 @@ highlights:
       Ninety-six women, men and children died as a consequence of the crush,
       while hundreds more were injured and thousands traumatised.
     card: true
-  - paragraph: whole-point-justice-consists-precisely
+  - paragraph: disclosed-documents-show-multiple-factors
     quote: >-
       The disclosed documents show that multiple factors were responsible for
       the deaths of the 96 victims of the Hillsborough tragedy and that the
@@ -191,7 +191,7 @@ highlights:
       the turnstiles in 1987 and on the terrace in 1988 were additional
       indications of the inherent dangers to crowd safety. The risks were
       known and the crush in 1989 was foreseeable.
-  - paragraph: box-cctv-monitors-neither-chief
+  - paragraph: 24-opening-gate-c-there
     quote: >-
       On opening Gate C there was no instruction given to the SYP officers
       inside the stadium to manage the flow and direction of the incoming
@@ -222,18 +222,18 @@ highlights:
       pattern of consumption modest for a leisure event was inappropriate. It
       has since fuelled persistent and unsustainable assertions about drunken
       fan behaviour.
-  - paragraph: coroner-s-summing-up-subsequent
+  - paragraph: 2-10-48-his-summing
     quote: >-
       Dr Popper returned to the cut-off: 'we did not take much evidence after
       3.15 in fact hardly any, and that was a deliberate decision of mine'.
-  - paragraph: police-response-inadequate-leadership-2
+  - paragraph: 2-11-56-beyond-issues
     quote: >-
       Some 116 of the 164 substantially amended statements removed or altered
       comments unfavourable to SYP. These included 41 statements in which
       alterations downplayed or removed criticisms made by officers of their
       leadership and of the police response to the disaster.
     card: true
-  - paragraph: informal-coarse-language-2-11
+  - paragraph: 2-11-53-total-164
     quote: >-
       A total of 164 statements were marked for amendments more substantial
       than simple corrections. Of these, 22 were amended to remove coarse or
