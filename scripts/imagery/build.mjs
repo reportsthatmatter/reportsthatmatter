@@ -20,6 +20,7 @@
  * doesn't refetch, but never silently goes stale either — delete the cache
  * dir to force a refetch.
  */
+import "../lib/help.mjs";
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, resolve, extname } from "node:path";

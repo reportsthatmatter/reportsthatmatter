@@ -20,6 +20,7 @@
  *
  * Usage: pnpm check-search-staleness [--remote|--local]  (default --remote)
  */
+import "./lib/help.mjs";
 import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 

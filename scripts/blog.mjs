@@ -7,6 +7,7 @@
  * one generated module, committed like src/generated/editorial.ts. Run this
  * after adding or editing a post.
  */
+import "./lib/help.mjs";
 import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { parsePosts } from "../src/lib/blog.ts";

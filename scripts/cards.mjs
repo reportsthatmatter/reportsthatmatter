@@ -10,6 +10,7 @@
  * rasteriser (satori + resvg wasm) would cost more bundle than the entire site
  * currently occupies. Cards are cheap to regenerate and rarely change.
  */
+import "./lib/help.mjs";
 import { chromium } from "playwright";
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";

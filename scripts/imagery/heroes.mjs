@@ -17,6 +17,7 @@
  * Needs cwebp (Homebrew webp). Fetches are cached in the OS temp dir by URL
  * hash, like `pnpm marks`; delete the cache dir to force a refetch.
  */
+import "../lib/help.mjs";
 import { chromium } from "playwright";
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";

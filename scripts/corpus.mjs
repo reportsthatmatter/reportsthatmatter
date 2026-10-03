@@ -25,6 +25,7 @@
  * per report is what makes a failure say *where*, instead of just "something
  * moved".
  */
+import "./lib/help.mjs";
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join } from "node:path";

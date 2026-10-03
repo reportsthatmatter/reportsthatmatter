@@ -18,6 +18,7 @@
  * marks-table rows, for `pnpm seed-highlights` (g0w.11). Not bundled — the
  * Worker never needs them; they reach readers through the marks table.
  */
+import "./lib/help.mjs";
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";

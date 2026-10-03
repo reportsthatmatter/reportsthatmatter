@@ -29,6 +29,7 @@
  * Bluesky only (X dropped 2026-09-25: API credits; Rufus posts to X by hand).
  * Makes no network request of any kind — this only ever writes local files.
  */
+import "./lib/help.mjs";
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse, stringify } from "yaml";

@@ -19,6 +19,7 @@
  * `pnpm prerender` first; absent, it renders in memory). Design:
  * docs/design/2026-10-02-quality-harness-plan.md §3.1.
  */
+import "./lib/help.mjs";
 import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";

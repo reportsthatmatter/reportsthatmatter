@@ -9,6 +9,7 @@
  * as section markers. With search terms, only paragraphs containing all of
  * them (case-insensitive) are printed. Run `pnpm prerender` first.
  */
+import "./lib/help.mjs";
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { extractParagraph } from "../src/templates/report.ts";

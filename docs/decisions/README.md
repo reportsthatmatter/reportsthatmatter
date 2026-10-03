@@ -19,4 +19,5 @@ One file per question we have had to answer, or still have to. It is written so 
 | [0007](0007-hand-rules-vs-learned-models.md) | Hand rules, learned models or an LLM referee for pipeline decisions? | decided 2026-10-02 (revisit) | 38s.8 |
 | [0008](0008-paragraph-ids-move.md) | May paragraph ids change, and how do old links survive? | decided 2026-10-03 | q8c |
 | [0009](0009-ai-agents-disclosure.md) | Do we say on the site that AI agents did much of the work? | open | 0ino |
+| [0012](0012-reused-paragraph-ids.md) | A published paragraph id now names a different paragraph: whose meaning wins? | proposed | rf4c |
 | [0010](0010-markdown-canonical-format.md) | Is one consolidated markdown file per report the canonical format? | decided (existing practice) | 0z1o |

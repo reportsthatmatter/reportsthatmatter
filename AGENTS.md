@@ -220,14 +220,22 @@ an interactive session.
   quote, a posted card, a highlight) must still land. Every report has
   `reports/<id>/aliases.yaml` (`aliases`: old id → new id, `sections`: old
   slug → new, `unmatched`: ids whose text could not be found) and
-  `reports/<id>/published-ids.txt` (every id ever published), both generated,
+  `reports/<id>/published-ids.txt` (every id ever published) and
+  `published-sections.txt` (every section slug ever published), all generated,
   never hand-edited. **The integrator runs, after `pnpm ingest aggregate` /
   re-ingest and before `pnpm prerender`:** `pnpm aliases generate --all`
   (old text = `origin/main`'s `reports/<id>/full.md`, so run it from a branch
   based on what is published; `--old-ref <ref>` or `--old <full.md>` to
-  override), read its per-report counts, and commit both files in the same PR
-  as the re-ingest. `pnpm aliases check` (in `verify.sh`) fails when a recorded
-  id resolves nowhere and is not listed in `unmatched`, when a current id is
+  override), read its per-report counts, and commit the files in the same PR
+  as the re-ingest. The old text is rendered with the `@rtm/ingest` pinned at
+  `--old-ref`, so section slugs an ingest release renames are recorded
+  (hxo4); it prints `REUSED ID` for an id that now names a different paragraph
+  (decision 0012, rf4c) and `MOVED-OUT ID` for a cited id that lost the list
+  it introduced. Both stay on screen until fixed at the citers
+  (`--accept-reuse` after reading). `pnpm aliases check` (in `verify.sh`) fails when a recorded
+  id resolves nowhere and is not listed in `unmatched`, when a published
+  section slug has no alias and no live page (and is not in
+  `unmatched_sections`), when a reuse is pending, when a current id is
   unrecorded, or when an alias is stale. Prerender puts the aliases in
   `meta.json`; the Worker redirects a stale `?p=` (root, section-qualified and
   `/full` forms, `?h=` kept) and a renamed section slug. They publish and roll
@@ -237,6 +245,11 @@ an interactive session.
   `aliases.yaml` (us-911-commission#9) is not read: the site's is the
   authority, because only it knows what was published. `pnpm aliases seed`
   rebuilds both files from `reports/<id>/full.md`'s git history.
+- **Every pnpm script entry point answers `--help` without running** (hxo4).
+  Put `import "./lib/help.mjs";` first in the script (`../lib/help.mjs` from a
+  subdirectory); it prints the file's header comment, which is the usage block,
+  and exits 0 before anything else loads. `tests/help.test.ts` fails for an
+  entry point in `package.json` that lacks it.
 - **Append to [`docs/design/lessons.md`](docs/design/lessons.md).** After your
   final-report retro, add the lessons worth keeping (one line each, with the bead
   or doc as evidence) in the same PR as your work. It is the running log the

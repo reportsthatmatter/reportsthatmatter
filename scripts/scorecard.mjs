@@ -14,6 +14,7 @@
  * --record writes reports/verify-last.json from this run: the integrator does that after the release ships,
  * with `pnpm quality ratchet --record`, and commits both with docs/scores.json.
  */
+import "./lib/help.mjs";
 import { execFileSync, spawnSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
