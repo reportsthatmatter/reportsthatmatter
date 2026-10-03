@@ -117,7 +117,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 22  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 6  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 64  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (layoutMarkers returns Appendix 7's numbered restriction-notice paragraphs 10-17 from fake notes to the body, where they read as note text: +5)
     note-citation-vocabulary: 0
     furniture-paragraph: 16  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (the same Appendix 7 'Amendments to this Restriction Notice' lines, now in the body: +4)
@@ -165,7 +165,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 20  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -189,7 +189,7 @@ reports:
     bare-marker-after-quote: 2
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
-    note-reference-sequence: 200  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 198  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 13
     note-citation-vocabulary: 0
     furniture-paragraph: 198  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship)
