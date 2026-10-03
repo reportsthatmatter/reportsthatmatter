@@ -11,7 +11,7 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3, worked ex
 
 ## Procedure
 
-1. **Repo.** New report: `gh repo create reportsthatmatter/<id> --public`, clone as a sibling of the site repo. Existing report: a branch in the sibling checkout (you own it this session; leave it on clean `main` when done).
+1. **Repo.** New report: `gh repo create reportsthatmatter/<id> --public` (report repos are public; the repo name is the report id), clone as a sibling of the site repo, and push an initial commit on `main` (a README stub and a `.gitignore` of `node_modules/` and `.cache/`) so the work can go on a branch with a PR. Then add the site worktree's `reports/manifest.yaml` entry (step 7) first and run `pnpm ingest worktrees <id>`: `pnpm ingest run` refuses the shared checkout. Existing report: a branch in a worktree (you own it this session; leave the sibling on clean `main` when done).
 2. **`archive/`**: every canonical file, named plainly; `shasum -a 256` each and compare with stage 1's record.
 3. **`datapackage.json`**: one resource per file, with source URL, title and licence. Model: `../uk-saville-inquiry/datapackage.json`.
 4. **`README.md`**: Scope (the decision and why), Source, and **Materials** (the source stack, the checklist answers, version notes). Model: `../us-duelfer-report/README.md`.
