@@ -31,6 +31,8 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **Build the inspection kit with the check.** (2026-10-02, b78.5 retro) `pnpm ingest page <id> <vol> <pdfPage>` (layout lines beside the blocks made) and `--fixture` turned golden pages from a week of work into a day. Every new check ships with the command that shows a human what it saw.
 - **A page needs its full checked text, not just its structure.** (2026-10-03, zphc retro, 7d4y) Wikisource's proofread pages give page-level word and marker references for 9/11 and the Chilcot executive summary (WER 0.79% and 0.60%); golden pages should carry checked text so every report, scans included, gets a word score. [status: 7d4y, site PR #236; `golden.yaml` text key not done]
 - **Peer noise fails the gate.** (2026-10-02, b78.2) `verify.sh`'s aggregate step pulls a peer's dirty report repo and trips editorial, corpus and quality checks for reports you do not own. Check `git -C ../<repo> status` first; do not edit what you do not own.
+- **Run the sourcing checklist's mechanical half by command.** (2026-10-03, ifb5 retro, design §9) Walking Duelfer II-III through stage 1 by hand, `pdfinfo -box`, `pdftotext -bbox` and a Wayback CDX listing found three facts that would otherwise have surfaced as stage 4 defects or wrong decisions, in minutes. [status: proposed, `pnpm source probe` ifb5.10]
+- **A hand-kept status list drifts; derive it.** (2026-10-03, ifb5) Seeding `reports/pipeline.yaml` from artefacts found Chilcot and Lehman with no posting-queue items at all, which no list or check had shown. [status: proposed, `pnpm pipeline status` ifb5.9; ifb5.14 filed]
 
 ## What the checks missed
 
@@ -48,6 +50,8 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **Do not deploy before publishing when ids change.** (2026-10-02, 38s.10) Editorial ids moved in v0.18.0; the deploy had to wait for the publish, and the publish waited on a D1 quota.
 - **One fix attempt per hard report.** (2026-10, memory) If a new defect class appears, stop, bead it, hold its PRs and move on; the parked report is not a failure of the loop.
 - **Source choice is a bigger lever than pass tuning for structure.** (2026-10-03, zphc) 12 of 14 source PDFs are born-digital so their words are exact; what we lack is structure, and per-report source stacks (HTML, EPUB, tags, a verified vision pass for scans, anchors from the PDF) beat more heuristics on a bad extraction.
+- **An inherited fix must be re-measured on the next volume.** (2026-10-03, ifb5, d0h) d0h assumed Volume I's banner fix (a `crop` of the bleed margin, 1l4) carries to Volumes II-III; their banner is inside a 612-point page with no bleed, so the same defect needs a different crop width or a rotated-text filter. Check the evidence, not the family resemblance, at stage 1. [status: in the report-source skill]
+- **A recorded caveat is a claim to re-check.** (2026-10-03, ifb5, 38s.1) "The HTML omits the annexes" was a fetch gap: the CIA edition has every annex as its own page. Caveats in reference manifests should say what was fetched, not what exists. [status: reference-editions.md §3.5 corrected]
 
 ## Writing and publishing
 

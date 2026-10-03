@@ -133,7 +133,7 @@ Source PDF identities (SHA-256 prefix, pages, `pdfinfo` Tagged) are in section 4
 |---|---|
 | best reference | CIA reading-room site: `https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/{chap1..chap6,contents,glossary,acknowledgements}.html` (Wayback `20110202012150`; the cia.gov URL now returns 404). |
 | format, licence | HTML with `h3` headings, `a name` section anchors and real tables. US government work (public domain). |
-| coverage | Chapters 1-6 of the Comprehensive Report (all three volumes). Volume 1 (our PDF) is chapters 1 and 2; chapters 1-4 were fetched, 5-6 failed under load. |
+| coverage | Chapters 1-6 of the Comprehensive Report (all three volumes). Volume 1 (our PDF) is chapters 1 and 2; chapters 1-4 were fetched, 5-6 failed under load. Update 2026-10-03 (ifb5, `docs/design/2026-10-03-report-preparation-pipeline.md` §9): chapters 5-6 are in the Wayback capture of 13 June 2007; each chapter's annexes are separate pages (`chapN_annxA.html`...), so the annexes are not missing from the edition, only from the fetch; the Addendums exist only as `addenda.pdf`; a 2013 correction page restores Table 7 of the nuclear chapter, which the 2005 print lacks. |
 | structure | Headings, paragraphs, tables, figures; footnote-free except table notes (`<sup>a</sup>`). |
 | match | Chapters 1-2 against our unreleased `rtm-duelfer` full.md: 92.1% of the reference is in ours; 68% of our paragraphs find an anchor (our full.md also holds the key findings, annexes and the notes the HTML omits, so this figure under-states). |
 | tagged PDF | No (Apogee Series3 Pilot, untagged). |
