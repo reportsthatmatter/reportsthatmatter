@@ -24,7 +24,7 @@ import { basename, join, resolve } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { formatPreflight, preflight } from "../lib/preflight.ts";
 import { pathToFileURL } from "node:url";
-import { checkOracleBudget, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
+import { checkOracleBudget, loadNotesAtBack, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
 import {
   Baseline,
   Correction,
@@ -43,6 +43,7 @@ import {
   finalBlocks,
   ingestPageGroups,
   measureLayout,
+  hasPageNotes,
   ORACLE_SIGNALS,
   openLayout,
   pageFixture,
@@ -334,6 +335,7 @@ async function runVerify(args: string[]): Promise<number> {
 
   let allOk = true;
   const oracleBudget = loadOracleBudget(ORACLE_BUDGET_PATH);
+  const notesAtBack = new Set(loadNotesAtBack(ORACLE_BUDGET_PATH));
   const allRows: Array<{ oracle: PageCounts | undefined; truth: Partial<PageCounts> }> = [];
   for (const target of targets) {
     if (!target.ingested) {
@@ -397,7 +399,7 @@ async function runVerify(args: string[]): Promise<number> {
         const started = Date.now();
         result = await regenerate(target.id);
         if (wantOracle) {
-          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes, { relink: !result.linkedText });
+          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes, { relink: !result.linkedText, noteOffPage: hasPageNotes(def.passes) && !notesAtBack.has(target.id) });
           const seconds = ((Date.now() - started) / 1000).toFixed(1);
           console.log(
             `  · layout oracle (${seconds}s) — ` +

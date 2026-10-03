@@ -19,6 +19,20 @@ export function parseOracleBudget(text: string): OracleBudget {
   return doc.reports ?? {};
 }
 
+/**
+ * `notes-at-back:` of the file: reports whose notes are printed at the back of a chapter or the
+ * volume (or not parsed at all), so a note is never on the page of its marker and `note-off-page`
+ * has nothing to say. Everything else is held to its notes being at the foot of the page that cites them.
+ */
+export function parseNotesAtBack(text: string): string[] {
+  const doc = (parseYaml(text) ?? {}) as { "notes-at-back"?: string[] };
+  return doc["notes-at-back"] ?? [];
+}
+
+export function loadNotesAtBack(path: string): string[] {
+  return existsSync(path) ? parseNotesAtBack(readFileSync(path, "utf8")) : [];
+}
+
 export function loadOracleBudget(path: string): OracleBudget {
   return existsSync(path) ? parseOracleBudget(readFileSync(path, "utf8")) : {};
 }
