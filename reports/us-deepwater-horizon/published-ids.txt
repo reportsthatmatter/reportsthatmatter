@@ -142,6 +142,7 @@
 160-u-s-government-accountability
 165-campbell-robertson-clifford-krauss
 167-non-public-u-s-department
+167n-170-187-environmental-protection
 167n-170-environmental-protection-movement
 169-interview-u-s-department
 17-2010-harriet-perry-interview
@@ -160,6 +161,7 @@
 18-international-bird-rescue-research
 18-report-bp-us-refineries
 181-82-marine-ecosystems-174
+185-86-188-91-197
 185-86-188-91-effective
 185-86-189-193-278
 187-firefighting-130-31-130n
@@ -174,6 +176,7 @@
 1970-212
 1975-1989-2004-2005
 1978-act-fundamentally-transformed-federal
+198-one-hundred-years-solitude
 1985-1986-1987-1988-1989
 1990-2000-2008-2015-2025
 1990s-technological-breakthroughs-imaging-drilling
@@ -628,6 +631,7 @@ around-9-00-p-m
 around-time-driller-s-shack
 assessing-environmental-economic-human-health
 assessing-mixture-oil-life-water
+associated-press
 associated-press-largest-offshore-drilling
 auger-pays-off-fortunately-shell
 auger-s-many-blessings-came
@@ -650,6 +654,7 @@ baker-panel-especially-faulted-bp
 bankston-captain-alwin-j-landry
 bankston-deepwater-horizon-crew-deeply
 bankston-now-jammed-survivors-173
+bankston-now-jammed-survivors-some
 barack-obama
 barrel-equals-42-gallons
 barrels-oil-per-day-millions
@@ -835,6 +840,7 @@ clear-spring-day-bankston-sailed
 clinical-diagnoses-depression
 clouds-horizon
 co-20code-pdf-energy-information
+coast-2050-207-cocales-brett
 coast-2050-cocales-brett-97
 coast-economy-september-16-2010
 coast-guard-bureau-ocean-energy
@@ -942,6 +948,7 @@ d-commission-shall-ensure-does
 d-nothing-order-shall-be
 damage-from-spill-impact-people
 damaging-hurricanes-bp-not-alone
+danciger-oil-refining-co-2
 danciger-oil-refining-co-dead
 dark-tongue-oil-invaded-sensitive
 date-gulf-coast-compensation-fund
@@ -1027,6 +1034,7 @@ differences-warrant-modifying-inpo-model
 difficult-if-not-impossible-know
 direction-federal-on-scene-coordinator-responders
 disaster-government-has-badly-underestimated
+discoveries-kept-coming-month-later
 disks-could-rupture-two-ways
 disparity-use-categorical-exclusions-questionable
 dispersant-monitoring-assessment-directive-subsurface
@@ -1049,6 +1057,7 @@ down-ezell-s-cabin-still
 draft-proposed-program-published
 draft-resources-future-2010-leslie
 drill-pipe-frequency-tests-100
+drill-pipe-frequency-tests-soon
 drill-pipe-mud-casing-cement
 drill-pipe-pressure-initially-decreased-after
 drilling-deepwater-brings-new-risks
@@ -1081,6 +1090,7 @@ early-december-2010-denny-received
 early-may-show-their-pristine
 early-response-april-20-28
 early-technologies-meet-soaring-demand
+east-cameron-partners-227-economy
 east-cameron-partners-economy-effects
 echoing-oil-companies-consolidation-also
 ecology-systematics-24-1973-1
@@ -1189,6 +1199,7 @@ faced-high-volume-dispersant-use-gulf
 fact-parts-1978-act-arguably
 factsheet-pdf-michele-wilson-oil
 failure-cofferdam-highlighting-shortage-viable
+fairways-offshore-exploration-inc-227
 fairways-offshore-exploration-inc-farm
 fashion-without-any-formal-risk
 fatalities-per-100-million-manhours
@@ -1267,6 +1278,7 @@ fisheries-oil-spill-response-closure
 fishery-conservation-management-under-magnuson-stevens
 flat-bottom-rescue-craft-165
 fleytas-hit-general-alarm-91
+fleytas-hit-general-alarm-alarm
 float-valve-conversion-circulating-pressure-whether
 float-valves-reestablished-mud-circulation
 flooding-decreased-improved-river-traffic
@@ -1293,6 +1305,7 @@ frances-g-beinecke-member-president
 frank-johnston-washington-post-via
 free-once-more-pair-pelicans
 frequency-unannounced-inspections-plummeted-108
+frequency-unannounced-inspections-plummeted-although
 from-april-30-may-10
 from-containment-collection-late-may
 from-control-room-ceo-inpo
@@ -1352,6 +1365,7 @@ gulf-mexico-home-crab-shrimp
 gulf-mexico-s-still-more-special-status
 gulf-noaa-mississippi-canyon-252
 had-someone-noticed-would-have
+hafle-mark-2-97-haire
 hafle-mark-2-haire-chris
 halliburton-also-cementer-well-suffered
 halliburton-bp-s-management-processes
@@ -1406,6 +1420,7 @@ ibid-testimony-grace-scire
 ibid-testimony-grace-scire-sharon
 ices-journal-marine-science-67
 id-7065262-sea-grant-oil
+ida-hurricane-2009-2-92
 ida-hurricane-2009-2-ike
 identifying-options-funding-governance-twentieth-century
 identifying-quantifying-damages-particularly-where
@@ -1530,6 +1545,7 @@ kick-detection-drilling-crew-other
 known-these-are-vibrant-living
 l-wald-new-experienced-protector
 lack-adequate-safety-incentives-threshold
+lambert-lee-107-landrieu-mary
 lambert-lee-landrieu-mary-150
 land-loss-1932-2000
 landry-mary-130-31-133-34-134
@@ -1705,6 +1721,7 @@ most-troubling-aspect-bp-s
 moving-deeper-would-require-alternative
 much-more-oil-might-have
 murray-carden-tied-rope-fast
+na-kika-project-46-48
 na-kika-project-46-nalco
 narrative-suggests-macondo-blowout-product
 natalie-b-fobes-national-geographic
@@ -1895,6 +1912,7 @@ para-4
 para-5
 para-8
 para-9
+paradis-joseph-130-parish-presidents
 part-i-path-tragedy-xiii
 part-ii
 part-ii-explosion-aftermath
@@ -1910,10 +1928,12 @@ perception-reality-gulf-seafood-industry
 performance-evaluation-inpo-considers-each
 performance-lest-government-regulators-industry
 permit-shopping-increasing-industry-activity
+perry-harriet-178-petrobras-44
 perry-harriet-petrobras-44-51
 pervasive-riskiness-exploring-producing-offshore
 petroleum-council-study-facing-hard
 philadelphia-taylor-francis-1992-russell
+photo-courtesy-transocean
 photo-courtesy-transocean-well-bore
 photo-susan-walsh-associated-press
 physical-barriers-during-temporary-yes
@@ -1992,6 +2012,8 @@ put-his-coveralls-pulled-his
 putting-restoration-agenda-speaking-nation
 pwsrcac-org-docs-d0053000-pdf
 q4000-vessel-159-60
+q4000-vessel-159-60-159
+r-b-falcon-44-ragen
 r-b-falcon-ragen-tim
 ragen-executive-director-u-s
 raising-oil-spill-liability-trust
@@ -2097,6 +2119,7 @@ rig-never-slept-most-workers
 rig-s-demise-signals-conflicted
 rights-riches-early-skirmishes-over
 rise-environmental-law-outset-environmental
+riser-insertion-tube-tool-146
 riser-insertion-tube-tool-risk
 riser-piping-connects-drilling-rig
 rising-lease-bonuses-still-did
@@ -2263,6 +2286,7 @@ successful-1956-26-percent-offshore
 successful-1956-percent-offshore-exploratory
 successful-gulf-wide-scientific-process-would
 summerland-california-1938-first-gulf
+superior-energy-services-167-superior
 superior-energy-services-superior-oil
 supplemental-environmental-projects-are-projects
 supporting-independent-scientific-research-apart
@@ -2274,6 +2298,7 @@ symposium-september-16-2010-u
 system-oims-231-32-role-response
 t-nuclear-industry-must-dramatically
 table-contents-foreword-vi
+tabler-vincent-102-taffaro-craig
 tabler-vincent-taffaro-craig-tana
 tampa
 tangible-human-health-effects-are
@@ -2328,6 +2353,7 @@ tiering-under-mms-nepa-process
 time-97-oil-production-gulf
 time-halliburton-engineer-had-arrived
 time-mars-seemed-like-risky
+time-oil-production-gulf-grew
 time-there-appears-have-been
 timeline-may-17-2010-david
 times-april-29-2010-40
@@ -2412,6 +2438,7 @@ usgs-open-file-report-2009-11-0408
 using-spacer-made-from
 valdez-new-york-times-june
 valdez-oil-spill-from-see
+vast-majority-non-public-material-we
 vendor-sign-taste-chicago
 version-3-response-group-behalf
 vessel-places-containment-boom-louisiana
@@ -2421,11 +2448,13 @@ vicinity-mc252-1-may-8
 vii-vii
 volume-1-2010-33-u
 volume-dispersants-sprayed-surface-grew
+w-t-offshore-227-walter
 w-t-offshore-walter-oil
 wading-into-shallow-water
 waiting-their-turn-lengths-colored
 wake-oil-spill-every-time
 wake-these-disasters-government-further
+walz-gregory-97-washington-offshore
 walz-gregory-washington-offshore-oil
 water-column-aerial-surveys-observations
 water-depth
@@ -2516,4 +2545,5 @@ yes-unclear-feet-below-mud
 yet-despite-improvement-injury-spill
 you-re-now-up-your
 young-david-16-112-13
+zane-barnes-vessel-36-zapata
 zane-barnes-vessel-zapata-offshore

@@ -513,9 +513,9 @@ items:
     card: assets/cards/us-911-commission/default.png
     scheduled: 2026-11-15
     posted_url: null
-  - id: us-deepwater-horizon:frequency-unannounced-inspections-plummeted-108:3f73441b
+  - id: us-deepwater-horizon:frequency-unannounced-inspections-plummeted-although:3f73441b
     report: us-deepwater-horizon
-    paragraph: frequency-unannounced-inspections-plummeted-108
+    paragraph: frequency-unannounced-inspections-plummeted-although
     quote: Precisely when the need for regulatory oversight intensified, the
       government's capacity for oversight diminished.
     text: >-
@@ -525,7 +525,7 @@ items:
 
       — Deep Water: The Gulf Oil Disaster and the Future of Offshore Drilling,
       p. 75
-    link: https://reportsthatmatter.org/reports/us-deepwater-horizon?p=frequency-unannounced-inspections-plummeted-108&h=deepwater%20drilling%20rigs.110%20|Precisely%20when%20the%20need%20for%20regulatory%20oversight%20intensified%2C%20the%20government's%20capacity%20for%20oversight%20diminished.|&src=bsky
+    link: https://reportsthatmatter.org/reports/us-deepwater-horizon?p=frequency-unannounced-inspections-plummeted-although&h=deepwater%20drilling%20rigs.%20|Precisely%20when%20the%20need%20for%20regulatory%20oversight%20intensified%2C%20the%20government's%20capacity%20for%20oversight%20diminished.|&src=bsky
     card: assets/cards/us-deepwater-horizon/default.png
     scheduled: 2026-11-16
     posted_url: null

@@ -24,24 +24,24 @@ reports:
     markers-wrong: 2
     markers-stacked: 7
     pages-unmarked: 10
-    blocks-wrong: 53
+    blocks-wrong: 49
   us-psi-financial-crisis:
     markers-wrong: 1  # why: d662 - the new %%page 582%% is a chart page marked at its real first block; the check finds the chart's text in another order, 308 words away
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 1
   challenger-accident:
-    markers-wrong: 23
+    markers-wrong: 20
     markers-stacked: 0
     pages-unmarked: 11
-    blocks-wrong: 83
+    blocks-wrong: 82
   uk-leveson-inquiry:
     markers-wrong: 0
     markers-stacked: 1
     pages-unmarked: 0
-    blocks-wrong: 7
+    blocks-wrong: 5
   columbia-accident:
-    markers-wrong: 1
+    markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 2
@@ -54,7 +54,7 @@ reports:
     markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 5
+    blocks-wrong: 0
   us-v-philip-morris:
     markers-wrong: 1
     markers-stacked: 0
