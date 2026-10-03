@@ -130,6 +130,31 @@ describe("GET /reports/:id/marks", () => {
     ]);
   });
 
+  it("serves a mark made under a moved paragraph id at the id that holds its text now (j53o)", async () => {
+    // Real alias in reports/jack-smith-vol1/aliases.yaml, shipped in meta.json by prerender.
+    const DB = createFakeD1();
+    await recordMark(
+      DB,
+      {
+        report: "jack-smith-vol1",
+        section: "the-law",
+        paragraph: "running-mate-example-trump-s",
+        exact: "The details don't matter.",
+        prefix: "responded, \"",
+        suffix: "\"",
+        page: null,
+        kind: "share",
+      },
+      "reader-1",
+      1
+    );
+    const res = await app.request("http://localhost/reports/jack-smith-vol1/marks", {}, { DB, MARK_THRESHOLD: "1" });
+    const body = (await res.json()) as Array<{ paragraph: string }>;
+    expect(body.map((m) => m.paragraph)).toEqual(["core-trump-s-obstructive-scheme"]);
+    // The row itself is untouched.
+    expect(DB.rows[0].paragraph).toBe("running-mate-example-trump-s");
+  });
+
   it("respects a higher configured threshold", async () => {
     const DB = createFakeD1();
     const event = {

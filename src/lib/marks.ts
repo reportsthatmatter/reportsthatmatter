@@ -7,6 +7,8 @@
  * because the salt (see `actorHash`) folds in the date.
  */
 
+import { resolveParagraph, type AliasMeta } from "./aliases";
+
 export type MarkKind = "share" | "save";
 
 export type MarkEvent = {
@@ -140,12 +142,26 @@ export async function recordMark(
  * Passages in `report` marked by at least `threshold` distinct readers,
  * most-marked first. A reader who both shares and saves the same passage
  * counts once — this is "how many readers", not "how many clicks".
+ *
+ * Stored rows keep the paragraph id they were made under, and ids move when a
+ * report is re-ingested (q8c). Given the report's pre-rendered `meta`, a row
+ * whose id is no longer live is mapped through the paragraph aliases to the id
+ * holding its text now, and rows that land on the same (paragraph, words) are
+ * merged (j53o). Rows are never rewritten in D1: the alias map ships with the
+ * content, so a rollback of the content rolls the mapping back with it. A row
+ * with no live id and no alias is returned as stored, as before. Merging adds
+ * the readers of each group; a reader who marked the same words under both the
+ * old and the new id (only possible across a re-ingest) counts twice, which we
+ * accept rather than ship every actor hash out of D1.
  */
 export async function markCounts(
   db: MarksDB,
   report: string,
-  threshold: number
+  threshold: number,
+  meta?: AliasMeta
 ): Promise<MarkCount[]> {
+  // The threshold applies after merging, so two rows below it can rise above it together.
+  const floor = meta?.paragraphAliases ? 1 : threshold;
   const { results } = await db
     .prepare(
       `SELECT paragraph, exact, prefix, suffix, MAX(page) as page, COUNT(DISTINCT actor) as readers
@@ -155,7 +171,21 @@ export async function markCounts(
        HAVING readers >= ?
        ORDER BY readers DESC`
     )
-    .bind(report, threshold)
+    .bind(report, floor)
     .all<MarkCount>();
-  return results;
+  if (!meta?.paragraphAliases) return results;
+
+  const merged = new Map<string, MarkCount>();
+  for (const row of results) {
+    const paragraph = resolveParagraph(meta, row.paragraph)?.id ?? row.paragraph;
+    const key = `${paragraph}\u0000${row.exact}`;
+    const have = merged.get(key);
+    if (!have) {
+      merged.set(key, { ...row, paragraph });
+    } else {
+      have.readers += row.readers;
+      if (row.page !== null && (have.page === null || row.page > have.page)) have.page = row.page;
+    }
+  }
+  return [...merged.values()].filter((row) => row.readers >= threshold).sort((a, b) => b.readers - a.readers);
 }

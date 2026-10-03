@@ -188,3 +188,37 @@ describe("markCounts", () => {
     expect(await markCounts(db, "litvinenko-inquiry", 1)).toHaveLength(1);
   });
 });
+
+describe("markCounts through paragraph aliases (j53o)", () => {
+  const meta = {
+    paragraphToSection: { "new-id": "sec", "other-id": "sec" },
+    paragraphAliases: { "old-id": "new-id", "older-id": "old-id" },
+  };
+  const mark = (paragraph: string, exact = "the words") => ({
+    report: "r", section: "sec", paragraph, exact, prefix: "", suffix: "", page: null, kind: "share" as const,
+  });
+
+  it("returns a moved paragraph's mark under its live id, following chains", async () => {
+    const db = createFakeD1();
+    await recordMark(db, mark("older-id"), "a", 1);
+    const counts = await markCounts(db, "r", 1, meta);
+    expect(counts.map((c) => c.paragraph)).toEqual(["new-id"]);
+    expect(counts[0].readers).toBe(1);
+  });
+
+  it("merges rows that land on the same paragraph and words, and applies the threshold after merging", async () => {
+    const db = createFakeD1();
+    await recordMark(db, mark("old-id"), "a", 1);
+    await recordMark(db, mark("new-id"), "b", 2);
+    await recordMark(db, mark("old-id", "other words"), "a", 3);
+    expect((await markCounts(db, "r", 2, meta)).map((c) => [c.paragraph, c.exact, c.readers])).toEqual([["new-id", "the words", 2]]);
+  });
+
+  it("leaves a dead id with no alias as stored, and ignores aliases when no meta is given", async () => {
+    const db = createFakeD1();
+    await recordMark(db, mark("gone-id"), "a", 1);
+    await recordMark(db, mark("old-id", "x"), "a", 2);
+    expect((await markCounts(db, "r", 1, meta)).map((c) => c.paragraph).sort()).toEqual(["gone-id", "new-id"]);
+    expect((await markCounts(db, "r", 1)).map((c) => c.paragraph).sort()).toEqual(["gone-id", "old-id"]);
+  });
+});

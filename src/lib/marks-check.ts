@@ -32,8 +32,9 @@ export type ReportText = {
 /**
  * - ok: still anchors where it was made.
  * - weaker: anchors in the right paragraph, but only by its words and not their context (the neighbours moved).
- * - aliased: the paragraph id has moved; a `?p=` link redirects and finds the words, but a stored mark is looked
- *   up by its id (`social-proof.js`) and renders nowhere until the row is re-pointed.
+ * - aliased: the paragraph id has moved; a `?p=` link redirects and finds the words, and `/marks` maps a stored
+ *   mark's id through the same aliases (`markCounts`, j53o), so it still renders. An editorial reference is keyed
+ *   by the id and does not follow, so it fails.
  * - elsewhere: the words are in the report, in a different paragraph. A link falls back to the whole page and
  *   finds them; a stored mark does not.
  * - text-gone: the paragraph is there and the words are not.
@@ -66,7 +67,10 @@ export function fails(kind: Kind, status: Status): boolean {
   if (status === "ok" || status === "weaker") return false;
   // A link survives a move: the Worker redirects an aliased id and highlight.js searches the page.
   if (kind === "link") return status !== "aliased" && status !== "elsewhere";
-  // A mark and an editorial reference are keyed by the id; neither follows an alias.
+  // `/marks` maps a stored mark's id through the aliases (j53o), so a moved id is fine for a mark. A mark whose
+  // words are in a different paragraph (`elsewhere`) has no alias to follow and renders nowhere.
+  if (kind === "mark" && status === "aliased") return false;
+  // An editorial reference is keyed by the id and does not follow an alias.
   return true;
 }
 
@@ -145,8 +149,11 @@ const DETAIL: Record<Status, (v: { paragraph: string; now?: string }) => string>
 
 function verdict(kind: Kind, report: string, origin: string, paragraph: string, quote: string, r: { status: Status; now?: string }, extra: Partial<Verdict> = {}): Verdict {
   let detail = DETAIL[r.status]({ paragraph, now: r.now });
-  if (kind === "mark" && (r.status === "aliased" || r.status === "elsewhere")) {
-    detail += "; the stored mark is looked up by its id, so it renders nowhere until its row is re-pointed";
+  if (kind === "mark" && r.status === "aliased") {
+    detail += "; /marks maps the stored id through the alias, so the mark still renders";
+  }
+  if (kind === "mark" && r.status === "elsewhere") {
+    detail += "; the stored mark is looked up by its id and no alias leads to those words, so it renders nowhere";
   }
   return { kind, report, origin, paragraph, quote: snippet(quote), status: r.status, fail: fails(kind, r.status), detail, ...(r.now ? { now: r.now } : {}), ...extra };
 }

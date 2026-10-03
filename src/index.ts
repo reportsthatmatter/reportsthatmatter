@@ -539,7 +539,16 @@ app.get("/reports/:id/marks", async (c) => {
   if (!db) return c.json([]);
 
   try {
-    return c.json(await markCounts(db, c.req.param("id"), threshold));
+    // Marks keep the id they were made under; map moved ids through the report's aliases (j53o). A report
+    // whose meta cannot be read gets its marks as stored, as before.
+    const meta = await (async () => {
+      try {
+        return await loadReportMeta(await contentFor(c.env, c.req.param("id")));
+      } catch {
+        return null;
+      }
+    })();
+    return c.json(await markCounts(db, c.req.param("id"), threshold, meta ?? undefined));
   } catch (err) {
     return c.json([]);
   }
@@ -620,7 +629,7 @@ async function topMarkedPassages(
   const LIMIT = 5;
 
   try {
-    const counts = await markCounts(db, reportId, threshold);
+    const counts = await markCounts(db, reportId, threshold, meta);
     if (!counts.length) return [];
 
     // One section page per distinct section, not the whole report: the five
