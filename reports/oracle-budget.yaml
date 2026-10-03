@@ -42,10 +42,10 @@ reports:
   uk-leveson-inquiry:
     headings-missed: 1350
     markers-unlinked: 142
-    paragraphs-oversplit: 2081
+    paragraphs-oversplit: 2082  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 more notes out of the body; +1 oversplit, not in the listed findings)
     note-off-page: 1
   columbia-accident:
-    markers-unlinked: 3  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
+    markers-unlinked: 5  # why: reportsthatmatter-n891 (the oracle now reads raised digits on quotation lines too; +2, read on pp.100 and 124: "its resources.”5" and "other Orbiters.10" are real markers the text leaves bare; reportsthatmatter-pfgn)
     paragraphs-oversplit: 277
     quotes-spurious: 235
   us-911-commission:
