@@ -46,13 +46,13 @@ describe("checkMark", () => {
     expect(v.fail).toBe(false);
   });
 
-  it("fails a mark that only anchors through an alias, because the page looks marks up by id", () => {
+  it("passes a mark that anchors through an alias, because /marks maps the stored id through it", () => {
     const t = text({ b: OLD }, { paragraphAliases: { a: "b" } });
     const v = checkMark(t, mark("left the room"));
     expect(v.status).toBe("aliased");
     expect(v.now).toBe("b");
-    expect(v.fail).toBe(true);
-    expect(v.detail).toContain("re-pointed");
+    expect(v.fail).toBe(false);
+    expect(v.detail).toContain("still renders");
   });
 
   it("names the paragraph now holding words whose paragraph was split", () => {
@@ -169,7 +169,9 @@ describe("regressions", () => {
 });
 
 it("fails() depends on what the kind needs", () => {
-  expect(fails("mark", "aliased")).toBe(true);
+  expect(fails("mark", "aliased")).toBe(false);
+  expect(fails("editorial", "aliased")).toBe(true);
+  expect(fails("mark", "elsewhere")).toBe(true);
   expect(fails("link", "aliased")).toBe(false);
   expect(fails("editorial", "elsewhere")).toBe(true);
   expect(fails("link", "text-gone")).toBe(true);
