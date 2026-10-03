@@ -83,7 +83,14 @@ export function setOf(sets: ScoreSets, id: string): "development" | "held-out" |
 }
 
 /** A stored entry: current metrics, the value before the last change, and when. */
-export type Entry = { set: string; ingest?: string; metrics: Metrics; previous?: Metrics | null };
+export type Entry = { set: string; ingest?: string; metrics: Metrics; previous?: Metrics | null; adapter?: AdapterRun };
+/**
+ * A report served from a clean edition (`cleanEdition` in its ingest.ts) has two runs (reportsthatmatter-79ze): its own
+ * score is the PDF pipeline run as the shadow against the served text (`metrics`), and `adapter` is the edition adapter
+ * scored against the scorer's reference adapter, which reads the same HTML. The second is an agreement between two readers
+ * (it falls when they differ in a design choice, such as one quotation per boxed extract), not a measure of the report.
+ */
+export type AdapterRun = { metrics: Metrics; previous?: Metrics | null };
 export type ScoresFile = { generated?: string; ingest?: string; reports: Record<string, Entry> };
 
 const same = (a: Metrics, b: Metrics) => Object.keys({ ...a, ...b }).every((k) => (a[k] ?? null) === (b[k] ?? null));
@@ -92,14 +99,33 @@ const same = (a: Metrics, b: Metrics) => Object.keys({ ...a, ...b }).every((k) =
  * Merge a fresh run into the committed file. `previous` is the committed value when it differs from the new one;
  * when nothing moved the old `previous` is kept, so re-running does not erase the delta of the last change.
  */
-export function mergeScores(old: ScoresFile | null, fresh: Record<string, Entry>, ingest?: string): ScoresFile {
+export function mergeScores(old: ScoresFile | null, fresh: Record<string, FreshEntry>, ingest?: string): ScoresFile {
   const reports: Record<string, Entry> = { ...(old?.reports ?? {}) };
   for (const [id, e] of Object.entries(fresh)) {
     const o = old?.reports?.[id];
-    const previous = o ? (same(o.metrics, e.metrics) ? o.previous ?? null : o.metrics) : null;
-    reports[id] = { set: e.set, ingest, metrics: e.metrics, previous };
+    const hybridMove = !!e.adapter && !!o && !o.adapter; // the committed `metrics` were the adapter run: not comparable to the shadow
+    const previous = !o || hybridMove ? null : same(o.metrics, e.metrics) ? o.previous ?? null : o.metrics;
+    const entry: Entry = { set: e.set, ingest, metrics: e.metrics, previous };
+    if (e.adapter) {
+      const oa = hybridMove ? { metrics: o.metrics, previous: null } : o?.adapter; // the old `previous` is the PDF-era run, another regime
+      entry.adapter = { metrics: e.adapter, previous: !oa ? null : same(oa.metrics, e.adapter) ? oa.previous ?? null : oa.metrics };
+    }
+    reports[id] = entry;
   }
   return { ingest, reports: Object.fromEntries(Object.entries(reports).sort(([a], [b]) => a.localeCompare(b))) };
+}
+
+/** A fresh run: `adapter` is the edition-adapter metrics of a hybrid report whose `metrics` are its PDF shadow. */
+export type FreshEntry = { set: string; metrics: Metrics; adapter?: Metrics };
+
+/**
+ * What to diff an entry against in a committed file (the scorecard's `origin/main` copy). Before 79ze a hybrid report's
+ * `metrics` were the adapter run, so against such a file the shadow has no baseline and the adapter run diffs against `metrics`.
+ */
+export function baselines(e: Entry, base: Entry | undefined | null): { metrics: Metrics | null; adapter: Metrics | null } {
+  if (!base) return { metrics: null, adapter: null };
+  if (e.adapter && !base.adapter) return { metrics: null, adapter: base.metrics };
+  return { metrics: base.metrics, adapter: base.adapter?.metrics ?? null };
 }
 
 const COUNT = /_n$|_judged$|_wrong$/;
@@ -141,10 +167,10 @@ export const HEADLINE_COLUMNS: { key: string; label: string }[] = [
   { key: "ref_error_rate", label: "reference error" },
 ];
 
-const cell = (k: string, e: Entry, prev?: Metrics | null) => {
+const cell = (k: string, e: Entry, prev?: Metrics | null, flag = true) => {
   const v = e.metrics[k];
   const d = prev ? fmtDelta(k, v, prev[k]) : "";
-  const mark = prev && regressed(k, v, prev[k]) ? " ▼" : "";
+  const mark = flag && prev && regressed(k, v, prev[k]) ? " ▼" : "";
   return fmtMetric(k, v) + (d ? ` (${d})` : "") + mark;
 };
 
@@ -158,11 +184,18 @@ export function headlineTable(reports: Record<string, Entry>, base?: Record<stri
   const head = ["report", ...HEADLINE_COLUMNS.map((c) => c.label), "ours wrong / judged (adjudicated)"];
   const lines = [`| ${head.join(" | ")} |`, `|${head.map((_, i) => (i ? "---:" : "---")).join("|")}|`];
   for (const [id, e] of Object.entries(reports)) {
-    const prev = base === "previous" ? e.previous : base ? base[id]?.metrics : null;
+    const bl = base === "previous" ? { metrics: e.previous ?? null, adapter: e.adapter?.previous ?? null } : baselines(e, base ? base[id] : null);
+    const prev = bl.metrics;
     const adjPrev = prev && prev.join_adj_judged !== null && prev.join_adj_judged !== undefined ? ` (was ${prev.join_adj_ours_wrong} / ${prev.join_adj_judged})` : "";
     const adjNow = adjCell(e);
     const adjMark = prev && regressed("join_adj_ours_wrong", e.metrics.join_adj_ours_wrong, prev.join_adj_ours_wrong) ? " ▼" : "";
-    lines.push(`| ${id} | ${HEADLINE_COLUMNS.map((c) => cell(c.key, e, prev)).join(" | ")} | ${adjNow}${prev && adjPrev && adjNow !== `${prev.join_adj_ours_wrong} / ${prev.join_adj_judged}` ? adjPrev : ""}${adjMark} |`);
+    const name = e.adapter ? `${id} (PDF shadow)` : id;
+    lines.push(`| ${name} | ${HEADLINE_COLUMNS.map((c) => cell(c.key, e, prev)).join(" | ")} | ${adjNow}${prev && adjPrev && adjNow !== `${prev.join_adj_ours_wrong} / ${prev.join_adj_judged}` ? adjPrev : ""}${adjMark} |`);
+    if (e.adapter) {
+      // agreement of two readers of the same HTML, not a score: deltas shown, never flagged as a regression
+      const a: Entry = { set: e.set, metrics: e.adapter.metrics };
+      lines.push(`| ${id} (edition adapter vs reference adapter: agreement, not a score) | ${HEADLINE_COLUMNS.map((c) => cell(c.key, a, bl.adapter, false)).join(" | ")} | ${adjCell(a)} |`);
+    }
   }
   return lines.join("\n");
 }

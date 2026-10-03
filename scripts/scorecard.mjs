@@ -18,7 +18,7 @@ import { execFileSync, spawnSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { goldenTable, oracleTable, parseVerify, precisionTable } from "../src/lib/score/scorecard.ts";
-import { headlineTable, regressed, HEADLINE_COLUMNS } from "../src/lib/score/headline.ts";
+import { baselines, headlineTable, regressed, HEADLINE_COLUMNS } from "../src/lib/score/headline.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
@@ -74,6 +74,7 @@ const cur = existsSync(SCORES) ? JSON.parse(readFileSync(SCORES, "utf8")) : null
 const was = show("docs/scores.json");
 const prev = was ? JSON.parse(was) : null;
 out.push("### Headline scores against the reference editions (`pnpm score`; `docs/scores.json` against " + base + ")", "");
+// a hybrid report (cleanEdition) is its PDF shadow here, with the edition adapter's agreement on a second, labelled row (79ze)
 if (!cur) out.push("No docs/scores.json: run `pnpm score`.", "");
 else {
   if (!prev) out.push(`No docs/scores.json at ${base}: no deltas.`, "");
@@ -85,7 +86,7 @@ else {
   }
   const bad = [];
   for (const [id, e] of Object.entries(cur.reports)) {
-    const p = prev?.reports?.[id]?.metrics;
+    const p = baselines(e, prev?.reports?.[id]).metrics; // a hybrid's adapter agreement is shown, never flagged
     if (!p) continue;
     for (const c of [...HEADLINE_COLUMNS, { key: "join_adj_ours_wrong" }]) if (regressed(c.key, e.metrics[c.key], p[c.key])) bad.push(`${id} ${c.key}${e.set === "held-out" ? " (held-out)" : ""}`);
   }
