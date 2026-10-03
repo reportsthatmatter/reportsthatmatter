@@ -1,7 +1,7 @@
 import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
-import { quotedPassage, truncate, shareImage, frontispiece, publicationYear } from "./report";
+import { quotedPassage, truncate, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear } from "./report";
 import { SITE_ORIGIN } from "./site";
 import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
 import { reportTitle, sectionTitle } from "../lib/titles";
@@ -22,8 +22,10 @@ export function sectionPreview(
   meta: ReportMeta,
   section: SectionRef,
   quoted: string | null,
-  highlighted?: string
-): { title: string; description: string; image?: string; structuredData: string } {
+  highlighted?: string,
+  anchor?: string
+): { title: string; description: string; image?: string; imageAlt: string; url: string; canonical: string; structuredData: string } {
+  const reportPath = `/reports/${meta.id ?? ""}`;
   const description = quoted
     ? `“${truncate(quoted, 280)}” — ${meta.title}`
     : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`;
@@ -31,7 +33,10 @@ export function sectionPreview(
   return {
     title: sectionTitle(meta, section),
     description,
-    image: shareImage(meta, highlighted),
+    image: shareImage(meta, highlighted, anchor),
+    imageAlt: shareImageAlt(meta, quoted),
+    url: sharedUrl(`${reportPath}/${section.slug}`, highlighted, anchor),
+    canonical: `${SITE_ORIGIN}${reportPath}/${section.slug}`,
     structuredData: sectionJsonLd(meta, section, description),
   };
 }
@@ -42,7 +47,15 @@ export type TopPassage = {
   url: string;
   readers: number;
   page: number | null;
+  /** The editor highlighted it: labelled so, never counted as a reader (decision 0014). */
+  editor?: boolean;
 };
+
+/** "Editor's highlight · 2 readers", "3 readers": who marked a passage, the editor named apart. */
+export function markedBy(passage: Pick<TopPassage, "readers" | "editor">): string {
+  const readers = passage.readers ? `${passage.readers} reader${passage.readers === 1 ? "" : "s"}` : "";
+  return [passage.editor ? "Editor’s highlight" : "", readers].filter(Boolean).join(" · ");
+}
 
 function renderMostMarked(topMarked: TopPassage[]): string {
   if (!topMarked.length) return "";
@@ -52,7 +65,7 @@ function renderMostMarked(topMarked: TopPassage[]): string {
       (passage) => `<li>
         <a href="${escapeHtml(passage.url)}">
           <blockquote class="serif">“${escapeHtml(truncate(passage.quote, 220))}”</blockquote>
-          <p class="meta mono">${passage.page ? `p. ${passage.page} · ` : ""}${passage.readers} reader${passage.readers === 1 ? "" : "s"}</p>
+          <p class="meta mono">${passage.page ? `p. ${passage.page} · ` : ""}${escapeHtml(markedBy(passage))}</p>
         </a>
       </li>`
     )
@@ -155,7 +168,7 @@ export function renderReportOverview(
   return renderLayout(reportTitle(meta), body, {
     description,
     image: shareImage(meta),
-    // The page's own address: a `?draft` preview or any other query is a duplicate of it.
+    imageAlt: meta.title,
     url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}`,
     extraMeta: citationMeta(meta),
     structuredData: reportJsonLd(meta, description),
@@ -182,12 +195,8 @@ export function renderSection(
   const reportPath = `/reports/${meta.id ?? ""}`;
 
   const quoted = highlighted ? quotedPassage(html, highlighted, anchor) : null;
-  const { title, description, image, structuredData } = sectionPreview(
-    meta,
-    section,
-    quoted,
-    highlighted
-  );
+  const preview = sectionPreview(meta, section, quoted, highlighted, anchor);
+  const { title, description, image, structuredData } = preview;
 
   const body = `
 <main>
@@ -223,8 +232,9 @@ export function renderSection(
     description,
     scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
-    // Always the section's own address, whatever `?p=`/`?h=` it was reached by.
-    url: `${SITE_ORIGIN}${reportPath}/${section.slug}`,
+    imageAlt: preview.imageAlt,
+    url: preview.url,
+    canonical: preview.canonical,
     structuredData,
   });
 }

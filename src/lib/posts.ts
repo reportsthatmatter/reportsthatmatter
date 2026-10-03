@@ -13,6 +13,8 @@
  */
 import { createHash } from "node:crypto";
 import { comparable, placeQuote, citationHref, pageOf } from "./editorial";
+import { findText, selectorFor } from "../../assets/anchor.js";
+import { quoteCardId } from "./card-key";
 
 /** Bluesky posts are rejected past this many graphemes. */
 export const BLUESKY_GRAPHEME_LIMIT = 300;
@@ -133,12 +135,28 @@ export function resolveCandidate(
     ? citationHref(candidate.report, candidate.paragraph, placed.paragraph, candidate.quote)
     : citationHref(candidate.report, candidate.paragraph);
 
-  const specific = `${candidate.report}/${candidate.paragraph}`;
-  const cardIsDefault = candidate.origin !== "share-quotes" || !cards.has(specific);
+  // The card for exactly these words, when `pnpm cards` rendered one (an
+  // editor's card: true highlight, f2e) — the same card the site advertises
+  // for this post's link. Then a share-quotes paragraph card, for the
+  // candidate it was made from. Then the report's default.
+  let words: string | null = null;
+  if (placed.inParagraph) {
+    const text = comparable(placed.paragraph);
+    const found = findText(text, comparable(candidate.quote));
+    if (found) words = selectorFor(text, found.start, found.end).exact;
+  }
+  const quoteCard = words ? quoteCardId(candidate.paragraph, words) : null;
+  const specific =
+    quoteCard && cards.has(`${candidate.report}/${quoteCard}`)
+      ? quoteCard
+      : candidate.origin === "share-quotes" && cards.has(`${candidate.report}/${candidate.paragraph}`)
+        ? candidate.paragraph
+        : null;
+  const cardIsDefault = specific === null;
   if (cardIsDefault && !cards.has(`${candidate.report}/default`)) {
     return { ok: false, problem: `${where}: no card image at all — run pnpm cards` };
   }
-  const card = `assets/cards/${candidate.report}/${cardIsDefault ? "default" : candidate.paragraph}.png`;
+  const card = `assets/cards/${candidate.report}/${specific ?? "default"}.png`;
 
   const text = formatPost(candidate.quote, candidate.reportTitle, page);
   const length = graphemeLength(text);
@@ -262,6 +280,14 @@ export function buildQueue(params: {
     const dates = new Map(order.map((i, n) => [i.id, addDays(from, n)]));
     existing = existing.map((i) => (dates.has(i.id) ? { ...i, scheduled: dates.get(i.id)! } : i));
   }
+
+  // A not-yet-posted item takes its current card: the card is a build
+  // artefact, not a decision, and a quote card rendered since (f2e) should be
+  // what it posts with. Posted items keep the record of what was posted.
+  existing = existing.map((i) => {
+    const now = resolvedById.get(i.id);
+    return !i.posted_url && now && now.card !== i.card ? { ...i, card: now.card } : i;
+  });
 
   const existingIds = new Set(existing.map((i) => i.id));
   const newItems = resolved.filter((r) => !existingIds.has(r.id));

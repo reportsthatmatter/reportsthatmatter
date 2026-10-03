@@ -3,6 +3,7 @@ import { decodeAnchor, locate } from "../../assets/anchor.js";
 import { cardPath, defaultCardPath, SITE_ORIGIN } from "./card";
 import { citationMeta } from "../lib/structured-data";
 import { fullTextTitle } from "../lib/titles";
+import { quoteCardId } from "../lib/card-key";
 import { CARDS } from "../generated/cards";
 import { MARKS } from "../generated/marks";
 
@@ -88,17 +89,45 @@ export function truncate(text: string, limit: number): string {
 
 /**
  * Only advertise a card that exists — an og:image pointing at a 404 is worse
- * than no image at all. Falls back to the report's own default card (its
- * title, not a quote) when the paragraph shared isn't one of the curated
- * ones — reportsthatmatter-obw. `renderLayout`'s own fallback to the
+ * than no image at all.
+ *
+ * A link that names words (`?h=`) gets the quote card for exactly those words
+ * when one was rendered (an editor's `card: true` highlight, f2e), and
+ * otherwise the report's default card: never the paragraph's curated card,
+ * which shows whatever words it was made from and would caption the link with
+ * a quotation it does not make. A link to a whole paragraph gets that
+ * paragraph's curated card if it has one. The report's own default card (its
+ * title, not a quote) is the floor (reportsthatmatter-obw); `renderLayout`'s
  * site-wide card is the floor below that, for a report with no id at all.
  */
-export function shareImage(meta: ReportMeta, highlighted?: string): string | undefined {
-  const cardKey = meta.id && highlighted ? `${meta.id}/${highlighted}` : null;
-  if (cardKey && CARDS.has(cardKey)) return cardPath(meta.id!, highlighted!);
+export function shareImage(meta: ReportMeta, highlighted?: string, anchor?: string): string | undefined {
+  if (meta.id && highlighted) {
+    const words = decodeAnchor(anchor)?.exact;
+    if (words) {
+      const id = quoteCardId(highlighted, words);
+      if (CARDS.has(`${meta.id}/${id}`)) return cardPath(meta.id, id);
+    } else if (CARDS.has(`${meta.id}/${highlighted}`)) {
+      return cardPath(meta.id, highlighted);
+    }
+  }
 
   const defaultKey = meta.id ? `${meta.id}/default` : null;
   return defaultKey && CARDS.has(defaultKey) ? defaultCardPath(meta.id!) : undefined;
+}
+
+/** Words for a share card's `og:image:alt`: the quotation when it has one, else the report's title. */
+export function shareImageAlt(meta: ReportMeta, quoted: string | null): string {
+  return quoted ? `“${truncate(quoted, 400)}” — ${meta.title}` : meta.title;
+}
+
+/**
+ * The URL a shared link previews as (`og:url`): the page, plus the `?p=` and
+ * `?h=` that name the passage, so two quotes from one section are two
+ * previews, not one.
+ */
+export function sharedUrl(path: string, highlighted?: string, anchor?: string): string {
+  if (!highlighted) return `${SITE_ORIGIN}${path}`;
+  return `${SITE_ORIGIN}${path}?p=${encodeURIComponent(highlighted)}${anchor ? `&h=${encodeURIComponent(anchor)}` : ""}`;
 }
 
 /**
@@ -116,8 +145,9 @@ export function shareImage(meta: ReportMeta, highlighted?: string): string | und
 export function reportPreview(
   meta: ReportMeta,
   quoted: string | null,
-  highlighted?: string
-): { title: string; description: string; image?: string } {
+  highlighted?: string,
+  anchor?: string
+): { title: string; description: string; image?: string; imageAlt: string } {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
 
   return {
@@ -125,7 +155,8 @@ export function reportPreview(
     description: quoted
       ? `“${truncate(quoted, 280)}” — ${meta.title}`
       : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
-    image: shareImage(meta, highlighted),
+    image: shareImage(meta, highlighted, anchor),
+    imageAlt: shareImageAlt(meta, quoted),
   };
 }
 
@@ -154,7 +185,7 @@ export function renderReport(
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
   const quoted = highlighted ? quotedPassage(html, highlighted, anchor) : null;
-  const { title, description, image } = reportPreview(meta, quoted, highlighted);
+  const { title, description, image, imageAlt } = reportPreview(meta, quoted, highlighted, anchor);
 
   const body = `
 <main>
@@ -191,8 +222,9 @@ export function renderReport(
     description,
     scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
     image,
-    // Self-canonical, and a `?p=`/`?h=` link canonicalises to the page it quotes from.
-    url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}/full`,
+    imageAlt,
+    url: sharedUrl(`/reports/${meta.id ?? ""}/full`, highlighted, anchor),
+    canonical: `${SITE_ORIGIN}/reports/${meta.id ?? ""}/full`,
     extraMeta: citationMeta(meta),
   });
 }
