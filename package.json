@@ -12,6 +12,7 @@
     "editorial": "tsx scripts/editorial.mjs",
     "blog": "tsx scripts/blog.mjs",
     "posts": "tsx scripts/posts.mjs",
+    "pipeline": "tsx scripts/pipeline.mjs",
     "seed-highlights": "node scripts/seed-highlights.mjs",
     "paragraphs": "tsx scripts/paragraphs.mjs",
     "bootstrap": "CI=true pnpm install && pnpm prerender",

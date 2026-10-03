@@ -108,7 +108,11 @@ units:
     notes: "..."
 ```
 
-Rules: the owning agent updates its row in the PR that meets the gate; nothing else writes it. Most gates can be derived from artefacts (a repo with pinned volumes, a `golden.yaml`, an approved editorial file, a served hash equal to the local one, queue items), so a `pnpm pipeline status` command should derive each row and fail where the file claims more than the artefacts show (gap Bead, section 8). Until then the file is hand-kept and the supervisor checks it at step 4. The first version, seeded 2026-10-03 from those artefacts, is in this PR.
+Rules: the owning agent updates its row in the PR that meets the gate; nothing else writes it. `pnpm pipeline status` (ifb5.9) derives each unit's reached stage from the artefacts and checks the row against it: `--check` exits non-zero on drift and runs in `verify.sh` as a warning for now; `--network` adds the served-hash gate (the code of `publish-report --all --status`); `--deep` recomputes archive checksums; `--verbose` lists every gate item.
+
+What is derived, per stage (all cumulative, and a gate item that needs a person, such as "verify.sh exits 0" or "rendered pages read", is not derived): **repo**: manifest entry, every `ingest.ts` volume pinned (`path` and `sha256`) and on disk, `datapackage.json` resources with sources for each archive file, README with a Scope, Source or Materials heading, `reference/manifest.json` where there is a `reference/`. **ingest**: `full.md`, `baseline.json`. **evaluate**: registry `ingested: true`, corpus baseline and oracle budget entries, `PROCESSING.md`, `golden.yaml` with 5 or more pages, `reference/adjudicated.yaml` where there is a reference. **editorial**: `status: approved`, plate and default card, 3 or more `card: true` highlights. **publish**: served hash equals the local one (network only). **announce**: a dated changelog heading, or published blog post, saying the report is published (matched on its id, its registry title or the row's `match:` words). **promote**: 3 or more scheduled queue items. Candidate and source leave no artefact and are record only.
+
+How a row is judged: it over-claims when a stage at or below `reached` has an unmet item (editorial is exempt for a claim at or past publish: the fast path); it is behind when the artefacts show a later stage than `reached`. An item that cannot be checked (no network, a sibling repo not checked out) is unknown, which is never drift, so CI stays quiet. A row may carry `waive: {<stage>.<item>: <bead>}` for a gap a Bead owns; the check says when a waiver is stale. Only the first row of a report id is derived; later rows with the same id (more volumes) are record only.
 
 ## 7. The improvement loop (38s)
 
@@ -125,7 +129,7 @@ Filed as children of ifb5:
 
 | Bead | Stage | Gap | Why it matters |
 | --- | --- | --- | --- |
-| ifb5.9 | all | `pnpm pipeline status`: derive each unit's reached stage from artefacts and check `reports/pipeline.yaml` against it | Without it the record drifts like any hand-kept list |
+| ifb5.9 | all | `pnpm pipeline status`: derive each unit's reached stage from artefacts and check `reports/pipeline.yaml` against it. **Built** (section 6) | Without it the record drifts like any hand-kept list |
 | ifb5.10 | 1 | `pnpm source probe <pdf or url>`: checklist item 1 (pdfinfo Creator, Producer, Tagged, page boxes; pdffonts; pdfimages; a text-layer sample and digit density) and a Wayback CDX listing for a URL prefix | Item 1 and the Wayback search were done by hand in section 9; the box geometry finding (Duelfer II-III have no bleed margin) is exactly what a probe should print |
 | ifb5.11 | 2 | `pnpm report new <id>` scaffold and `pnpm report lint <id>` (archive files pinned in `ingest.ts`, `datapackage.json` sources and licence per file, README Scope and Materials, reference manifest checksums) | G2 is all mechanical checks; today nothing runs them |
 | ifb5.13 | 3 | A pass sweep: candidate pass lists for one report compared by quality and oracle counts without writing `full.md` | `pnpm ingest try` compares library versions, not a new report's pass choices |

@@ -139,6 +139,18 @@ else
   tail -40 "${RUN_DIR}/quality.log"
 fi
 
+step "Pipeline record"
+# reports/pipeline.yaml says how far each unit has got; `pnpm pipeline status` derives the same from the
+# artefacts (manifest, full.md, golden pages, editorial, queue, changelog) and fails on a claim they do not
+# support. A warning for now, not a failure, while the record settles (reportsthatmatter-ifb5.9). Offline:
+# the served-hash check needs `pnpm pipeline status --network`.
+if pnpm pipeline status --check >"${RUN_DIR}/pipeline.log" 2>&1; then
+  pass "reports/pipeline.yaml agrees with the artefacts"
+else
+  printf '  \033[33m!\033[0m reports/pipeline.yaml drifts from the artefacts (warning, not a failure); `pnpm pipeline status`\n'
+  sed -n '/^problems/,/^$/p' "${RUN_DIR}/pipeline.log" | head -12
+fi
+
 step "Typecheck"
 if pnpm typecheck >"${RUN_DIR}/typecheck.log" 2>&1; then
   pass "tsc --noEmit"

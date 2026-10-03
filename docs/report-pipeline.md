@@ -4,7 +4,7 @@ A report reaches the site in stages, and each stage ships on its own. Nothing wa
 
 **Status: first version, 2026-09-26** (Rufus, 2026-09-26: "ship reports incrementally"; `reportsthatmatter-hxq`).
 
-**The eight preparation stages** (source, repo, first ingest, evaluate, editorial, publish, announce, promote), one skill each under `.claude/skills/report-*/`, refine the three stages below: [`design/2026-10-03-report-preparation-pipeline.md`](design/2026-10-03-report-preparation-pipeline.md) (ifb5). Where each unit stands: `reports/pipeline.yaml`. Supervisors start with the `report-pipeline` skill.
+**The eight preparation stages** (source, repo, first ingest, evaluate, editorial, publish, announce, promote), one skill each under `.claude/skills/report-*/`, refine the three stages below: [`design/2026-10-03-report-preparation-pipeline.md`](design/2026-10-03-report-preparation-pipeline.md) (ifb5). Where each unit stands: `reports/pipeline.yaml`, checked against the artefacts by `pnpm pipeline status [--check] [--network]`. Supervisors start with the `report-pipeline` skill.
 
 ## The stages
 
