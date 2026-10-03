@@ -39,6 +39,7 @@
  * served. Reindex by hand after a rollback once the matching text is
  * prerendered again.
  */
+import "./lib/help.mjs";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";

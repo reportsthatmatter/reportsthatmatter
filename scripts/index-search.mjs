@@ -24,6 +24,7 @@
  * `pnpm prerender` must have already run — this does not render markdown
  * itself. verify.sh runs both, in order.
  */
+import "./lib/help.mjs";
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";

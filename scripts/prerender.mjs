@@ -47,6 +47,7 @@
  * Plus sitemap-urls.json, the section-level entries /sitemap.xml no longer
  * has to render all four reports to produce.
  */
+import "./lib/help.mjs";
 import { mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";

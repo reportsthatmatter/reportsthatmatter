@@ -3,7 +3,8 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { app } from "../src/index";
 import { followAlias, resolveParagraph, resolveSection } from "../src/lib/aliases";
-import { computeMoves, emptyAliases, fold, formatIds, parseIds, render } from "../src/lib/alias-gen";
+import { renderArtifacts, extractPassages } from "@rtm/ingest";
+import { acceptReuse, computeMoves, detectReuse, emptyAliases, fold, formatIds, parseIds, render, type Rendered } from "../src/lib/alias-gen";
 
 const doc = (sections: Record<string, string[]>) =>
   Object.entries(sections)
@@ -119,5 +120,74 @@ describe("alias routes", () => {
     expect(live.status).toBe(200);
     const unknown = await app.request("http://localhost/reports/jack-smith-vol1?p=no-such-passage");
     expect(unknown.status).toBe(200);
+  });
+});
+
+describe("section records and reuse (hxo4, rf4c)", () => {
+  const A1 = "The committee found that the launch decision was taken against the advice of the engineers responsible for the booster joints.";
+  const items = ["The review was conducted in accordance with the established procedure for every flight of the shuttle fleet.", "The decision to launch was based on a faulty engineering analysis of the seal behaviour of the field joint."];
+
+  it("renders the old text with the ingest it is given, so an ingest change that renames a slug is seen", () => {
+    const md = doc({ "The decision": [A1] });
+    const oldIngest = {
+      renderArtifacts: (m: string) => {
+        const r = renderArtifacts(m);
+        return { ...r, meta: { ...r.meta, sections: r.meta.sections.map((s: { slug: string }) => ({ ...s, slug: "11-" + s.slug })) }, fragments: Object.fromEntries(Object.entries(r.fragments).map(([k, v]) => ["11-" + k, v])) };
+      },
+      extractPassages,
+    } as never;
+    const old = render(md, oldIngest);
+    const next = render(md);
+    expect(old.sections[0].slug).toBe("11-the-decision");
+    expect(fold(emptyAliases(), old, next).sections).toEqual({ "11-the-decision": "the-decision" });
+  });
+
+  it("lists a section that vanished with no traceable paragraph as unmatched, not silently", () => {
+    // sections under a few hundred words are folded into their neighbour (the sliver rule), so make them long enough to stand
+    const long = (tag: string) => Array.from({ length: 12 }, (_, i) => Array.from({ length: 60 }, (_, j) => `${tag}${i}x${j}`).join(" ") + ".");
+    const before = render(doc({ "Kept": long("k"), "Gone": long("g") }));
+    const after = render(doc({ "Kept": long("k") }));
+    const file = fold(emptyAliases(), before, after);
+    expect(file.sections).toEqual({});
+    expect(file.unmatchedSections).toEqual(["gone"]);
+    // and it clears when the section comes back
+    expect(fold(file, after, before).unmatchedSections).toEqual([]);
+  });
+
+  it("flags an id that now names a different paragraph, and where the old text went", () => {
+    const before = render(doc({ "S": [A1, B, C] }));
+    const idB = before.passages[1].id;
+    // B's id is taken by a new paragraph (text unrelated), and B itself moved to the end
+    const after = render(doc({ "S": [A1, C, B] }));
+    const forged: Rendered = { ...after, passages: after.passages.map((p, i) => (i === 1 ? { ...p, id: idB } : i === 2 ? { ...p, id: "b-moved" } : p)) };
+    const { reused } = detectReuse(before, forged);
+    expect(Object.keys(reused)).toEqual([idB]);
+    expect(reused[idB].movedTo).toBe("b-moved");
+    expect(fold(emptyAliases(), before, forged).reused[idB]).toEqual({ movedTo: "b-moved" });
+  });
+
+  it("does not flag an edited or joined paragraph that keeps its id", () => {
+    const before = render(doc({ "S": [A1, B] }));
+    const edited = render(doc({ "S": [A1.replace("found", "concluded"), B] }));
+    expect(detectReuse(before, edited).reused).toEqual({});
+    const joined = render(doc({ "S": [`${A1} ${B}`] }));
+    expect(detectReuse(before, joined).reused).toEqual({});
+  });
+
+  it("notes an id that kept its paragraph but lost the list it introduced (the Challenger findings-3 shape)", () => {
+    const before = render(`## S\n\nFindings\n\n1. ${items[0]}\n\n2. ${items[1]}\n\nAfter the list there is a closing paragraph that nobody cites.\n`.replace(/\n\n(\d)\. /g, "\n\n$1. "));
+    expect(before.passages[0].block ?? "").toContain("faulty engineering analysis");
+    const after = render(`## S\n\nFindings\n\n1\\. ${items[0]}\n\n2\\. ${items[1]}\n\nAfter the list there is a closing paragraph that nobody cites.\n`);
+    const { reused, movedOut } = detectReuse(before, after);
+    expect(reused).toEqual({});
+    expect(Object.keys(movedOut)).toContain(before.passages[0].id);
+  });
+
+  it("acceptReuse marks pending entries accepted and keeps them through later folds", () => {
+    const f = acceptReuse({ ...emptyAliases(), reused: { x: { movedTo: null } } });
+    expect(f.reused.x.accepted).toBe(true);
+    const doc1 = render(doc({ "S": [A1] }));
+    const doc2 = { ...doc1, passages: [{ ...doc1.passages[0], id: "x" }] };
+    expect(fold(f, doc2, doc2).reused.x.accepted).toBe(true);
   });
 });

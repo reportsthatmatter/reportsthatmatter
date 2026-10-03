@@ -24,6 +24,7 @@
  * volume, so a fidelity note's "page" never collides between one volume's
  * page 12 and another's.
  */
+import "../lib/help.mjs";
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { parse as parseYaml } from "yaml";

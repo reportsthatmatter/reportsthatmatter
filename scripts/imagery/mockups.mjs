@@ -6,6 +6,7 @@
  *
  * Expects <marks-dir>/<set>-<report>.png. Every set found is rendered.
  */
+import "../lib/help.mjs";
 import { chromium } from "playwright";
 import { readFileSync, readdirSync, mkdirSync } from "node:fs";
 import { join } from "node:path";

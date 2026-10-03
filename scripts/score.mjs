@@ -30,6 +30,7 @@
  * <out>/summary.md across reports. Where the report repo has page references (reference/wikisource/, reference/page-text/),
  * also <out>/<id>/pages.md and pages.json: word error rate and footnote-marker accuracy per page (docs/scoring.md). Measure-only: changes nothing.
  */
+import "./lib/help.mjs";
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";

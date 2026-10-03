@@ -14,6 +14,7 @@
  * Without --network, and for a sibling report repo that is not checked out, the items that need them are
  * "unknown", which is never drift.
  */
+import "./lib/help.mjs";
 import { join } from "node:path";
 import { formatStatus, hasDrift, pipelineStatus } from "./lib/pipeline-status.ts";
 

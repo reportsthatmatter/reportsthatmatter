@@ -16,6 +16,7 @@
  * it covers and writes the current set, so a highlight removed from the file
  * is removed from the site on the next run.
  */
+import "./lib/help.mjs";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
