@@ -195,11 +195,11 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: reportsthatmatter-zja
   us-911-commission:
-    severed-into-quote: 34
-    severed-paragraph: 4
-    bare-footnote-marker: 2
+    severed-into-quote: 0
+    severed-paragraph: 0
+    bare-footnote-marker: 0
     note-marker-wrong-note: 0
-    note-marker-unpaired: 12
+    note-marker-unpaired: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -211,7 +211,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
-    rendered-ol-words-share: 2  # why: reportsthatmatter-apk (1.1%: correct sidenotes shrank the word total across a whole-point boundary)
+    rendered-ol-words-share: 0
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-deepwater-horizon:
