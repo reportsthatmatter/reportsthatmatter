@@ -1,5 +1,6 @@
 import { renderLayout } from "./layout";
 import { renderMarkdown } from "@rtm/ingest";
+import { unlinkUnpublishedPosts } from "./blog";
 
 /**
  * Renders docs/CHANGELOG.md.
@@ -7,18 +8,18 @@ import { renderMarkdown } from "@rtm/ingest";
  * Hand-written rather than generated from commits: the point is to say what
  * changed and why it mattered to a reader, which a commit log does not.
  */
-export function renderChangelog(markdown: string): string {
+export function renderChangelog(markdown: string, publishedPosts: Set<string> = new Set()): string {
   const body = `
 <main>
   <section class="report-header wrap">
     <div class="measure">
       <p class="kicker mono">Changelog</p>
       <h1>What has changed.</h1>
-      <p class="byline mono">Improvements to the archive and how it reads</p>
+      <p class="byline mono">Improvements to the archive and how it reads · longer notes are on the <a href="/blog">blog</a></p>
     </div>
   </section>
   <div class="prose wrap measure">
-    ${renderMarkdown(entriesOnly(markdown))}
+    ${unlinkUnpublishedPosts(renderMarkdown(entriesOnly(markdown)), publishedPosts)}
   </div>
 </main>`;
 

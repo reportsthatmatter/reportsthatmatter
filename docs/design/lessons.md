@@ -48,3 +48,10 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **Do not deploy before publishing when ids change.** (2026-10-02, 38s.10) Editorial ids moved in v0.18.0; the deploy had to wait for the publish, and the publish waited on a D1 quota.
 - **One fix attempt per hard report.** (2026-10, memory) If a new defect class appears, stop, bead it, hold its PRs and move on; the parked report is not a failure of the loop.
 - **Source choice is a bigger lever than pass tuning for structure.** (2026-10-03, zphc) 12 of 14 source PDFs are born-digital so their words are exact; what we lack is structure, and per-report source stacks (HTML, EPUB, tags, a verified vision pass for scans, anchors from the PDF) beat more heuristics on a bad extraction.
+
+## Writing and publishing
+
+- **Make "safe to keep in the repo" a tested property, not a convention.** (2026-10-03, jedz) Drafts are the point of the blog: a draft that leaks into the index, feed, sitemap or a changelog link is a publication. Tests assert each surface with only drafts present, and a changelog link to an unpublished post renders as plain text, so publishing needs no second edit. [status: done in the blog PR]
+- **A generated module the Worker needs must have a freshness test.** (2026-10-03, jedz) The Worker cannot read `content/posts/` at run time, so posts ship as `src/generated/posts-bundle.ts`; a test regenerates it in memory and compares, so a forgotten `pnpm blog` fails CI instead of a post missing from production. [status: done in the blog PR]
+- **Do not mark review points inside rendered prose.** (2026-10-03, jedz) An HTML comment in a post's markdown is escaped into visible text by our markdown renderer, so a flagged sentence was nearly previewed to readers with the note inline. Flags go in frontmatter `review:`, which only the draft preview shows. [status: done in the blog PR]
+- **Names collide quietly.** (2026-10-03, jedz) `posts` already meant the Bluesky queue (`pnpm posts`, `src/lib/posts.ts`); the blog is `blog` everywhere in code and `content/posts/` only on disk. Grep a noun before using it for a module. [status: done]

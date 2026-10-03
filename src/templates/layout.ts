@@ -31,6 +31,14 @@ export type HeadOptions = {
   structuredData?: string;
   /** Keep the page out of search results — a preview of unapproved content. */
   noindex?: boolean;
+  /** `og:type`; defaults to "website". Blog posts pass "article". */
+  ogType?: string;
+  /** Absolute canonical URL: emitted as `<link rel="canonical">` and `og:url`. */
+  url?: string;
+  /** ISO date: emitted as `article:published_time`. */
+  publishedTime?: string;
+  /** An Atom feed to advertise in the head: `{ href, title }`. */
+  feed?: { href: string; title: string };
 };
 
 type LayoutOptions = HeadOptions & {
@@ -49,7 +57,7 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
   // reportsthatmatter-obw. A page with something more specific (a report's
   // own card, a curated quote) passes it; this is the floor everything else
   // lands on, rather than a bare-text preview.
-  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, structuredData, noindex } = options;
+  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, structuredData, noindex, ogType = "website", url, publishedTime, feed } = options;
 
   return `<!doctype html>
 <html lang="en">
@@ -60,7 +68,8 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
 <meta name="description" content="${escapeHtml(description)}" />
 ${noindex ? `<meta name="robots" content="noindex" />\n` : ""}<meta property="og:title" content="${escapeHtml(title)}" />
 <meta property="og:description" content="${escapeHtml(description)}" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="${escapeHtml(ogType)}" />
+${url ? `<meta property="og:url" content="${escapeHtml(url)}" />\n<link rel="canonical" href="${escapeHtml(url)}" />\n` : ""}${publishedTime ? `<meta property="article:published_time" content="${escapeHtml(publishedTime)}" />\n` : ""}${feed ? `<link rel="alternate" type="application/atom+xml" href="${escapeHtml(feed.href)}" title="${escapeHtml(feed.title)}" />\n` : ""}
 <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}" />
 ${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta name="twitter:image" content="${escapeHtml(image)}" />` : ""}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -110,6 +119,7 @@ ${body}
       <a href="/highlights">Highlights</a>
       <a href="/about">About</a>
       <a href="/press">Press</a>
+      <a href="/blog">Blog</a>
       <a href="/changelog">Changelog</a>
     </nav>
   </div>

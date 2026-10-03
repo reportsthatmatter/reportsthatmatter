@@ -1370,3 +1370,43 @@ hr {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+/* blog (reportsthatmatter-jedz) */
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--rule, currentColor);
+}
+
+.post-item h2 {
+  margin: 0.25rem 0 0.5rem;
+}
+
+.post-item .post-summary {
+  margin: 0;
+}
+
+.post-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.draft-banner {
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.draft-banner p,
+.draft-banner ul {
+  margin: 0 0 0.5rem;
+}

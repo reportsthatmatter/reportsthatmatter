@@ -1,7 +1,9 @@
 import { Hono } from "hono";
 import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
-import { loadChangelog } from "./lib/source";
+import { loadChangelog, loadPostFiles } from "./lib/source";
+import { parsePosts, visiblePosts, findPost, isPublished } from "./lib/blog";
+import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blog";
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
@@ -350,7 +352,12 @@ app.get("/sitemap.xml", async (c) => {
     { loc: "/about", priority: "0.7" },
     { loc: "/press", priority: "0.3" },
     { loc: "/changelog", priority: "0.4" },
+    { loc: "/blog", priority: "0.5" },
   ];
+  // Drafts are never in the sitemap.
+  for (const post of parsePosts(await loadPostFiles(sourceMode)).filter(isPublished)) {
+    urls.push({ loc: `/blog/${post.slug}`, priority: "0.5" });
+  }
 
   for (const report of registry.reports) {
     urls.push({ loc: `/reports/${report.id}`, priority: "0.9" });
@@ -386,7 +393,36 @@ app.get("/robots.txt", (c) => {
 
 app.get("/changelog", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
-  return c.html(renderChangelog(await loadChangelog(sourceMode)));
+  const published = parsePosts(await loadPostFiles(sourceMode)).filter(isPublished);
+  return c.html(
+    renderChangelog(await loadChangelog(sourceMode), new Set(published.map((post) => post.slug)))
+  );
+});
+
+// The blog (reportsthatmatter-jedz). `?draft` previews drafts, as on a
+// report's landing page; without it a draft does not exist.
+app.get("/blog", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const preview = c.req.query("draft") !== undefined;
+  const posts = visiblePosts(parsePosts(await loadPostFiles(sourceMode)), preview);
+  return c.html(renderBlogIndex(posts, preview));
+});
+
+app.get("/blog/feed.xml", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const posts = visiblePosts(parsePosts(await loadPostFiles(sourceMode)), false);
+  return c.body(renderAtomFeed(posts), 200, {
+    "content-type": "application/atom+xml; charset=utf-8",
+    "cache-control": "public, max-age=3600",
+  });
+});
+
+app.get("/blog/:slug", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const preview = c.req.query("draft") !== undefined;
+  const post = findPost(parsePosts(await loadPostFiles(sourceMode)), c.req.param("slug"), preview);
+  if (!post) return c.html(renderNotFound(false), 404);
+  return c.html(renderPostPage(post));
 });
 
 /**
