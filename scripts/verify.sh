@@ -200,7 +200,7 @@ if pnpm ingest anchors --check >"${RUN_DIR}/anchors.log" 2>&1; then
   pass "page markers within their budgets"
 else
   fail "page markers over budget (pnpm ingest anchors <id>)"
-  grep -E "✗" "${RUN_DIR}/anchors.log" | tail -30
+  grep -E "> budget|^[a-z0-9-]+: " "${RUN_DIR}/anchors.log" | tail -30
 fi
 
 step "Ingestion regression"
