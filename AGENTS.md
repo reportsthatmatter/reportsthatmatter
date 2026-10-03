@@ -180,6 +180,7 @@ an interactive session.
   `verify.sh` (`--no-preflight` skips it; a linked override passes).
   The step-by-step for releasing and linking an unreleased ingest is
   [`scripts/ingest/README.md`](scripts/ingest/README.md), "Changing the library".
+  To see what an unreleased ingest does before releasing it, run `pnpm ingest try <branch|path> [<id>…]`: it links that ingest into this site and into throwaway worktrees of the report repos, re-ingests, prerenders, and prints the join/move list, the quality deltas and the score flips (`pnpm score --diff`), then restores every link. Paste it into the ingest PR.
   **Every ingest release or pin-bump PR carries its quality numbers**: the
   integrator runs `pnpm quality report --diff origin/main` after the re-ingest
   and pastes the table into the PR body (every regression needs a bead; every

@@ -3,6 +3,7 @@
  * Report ingestion.
  *
  *   pnpm ingest run <pdf> [<pdf>...] --id <slug> --title "..." [--authors "..."] [--published 2025]
+ *   pnpm ingest try <branch|path> [<id>...] [--no-score] [--keep]   what an unreleased ingest does to the rendered corpus (scripts/ingest/try.ts)
  *   pnpm ingest verify [<slug>] [--no-oracle] [--no-golden] [--findings] [--explain]
  *   pnpm ingest preflight [<slug>...]           is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline do this first; --no-preflight skips)
  *   pnpm ingest outline <slug>                  one line per PDF page: headings, block counts (to choose golden pages)
@@ -694,6 +695,7 @@ else if (command === "page") code = await runPage(rest);
 else if (command === "baseline") code = await runBaseline(rest);
 else if (command === "check") code = await runCheck(rest);
 else if (command === "aggregate") code = runAggregate();
+else if (command === "try") code = await (await import("./try.ts")).runTry(rest);
 else {
   console.error(`Unknown command: ${command}`);
   code = 1;

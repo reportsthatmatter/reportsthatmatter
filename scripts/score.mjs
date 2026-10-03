@@ -10,6 +10,9 @@
  *     --shadow                     # a report served from a clean edition (cleanEdition in its ingest.ts):
  *                                  # score its PDF ingest, run as the shadow, against the served full.md
  *                                  # instead of reference/ (writes <out>/<id>-shadow/)
+ *   pnpm score --diff <outA> <outB> [<id> ...] [--limit N]
+ *                                  # decision-level flips between two runs' decisions.jsonl (correct to wrong,
+ *                                  # wrong to correct, new, gone), with the text; scores nothing itself
  *
  * Reads reports/<id>/full.md (as aggregated) and <repo>/reference/{manifest.json,blocks.jsonl}
  * (scripts/score/reference.py writes them); RTM_REPO_ROOT=<dir> reads <dir>/<repo> instead of the
@@ -19,7 +22,7 @@
  * <out>/<id>/signals.md (b78.2 signal precision and recall against the scorer); and
  * <out>/summary.md across reports. Measure-only: changes nothing.
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts } from "@rtm/ingest";
@@ -31,6 +34,7 @@ import { errorReport, summaryRow, summaryTable } from "../src/lib/score/report.t
 import { evaluateSignals, signalsTable } from "../src/lib/score/signals.ts";
 import { decisionRows } from "../src/lib/score/decisions.ts";
 import { loadLayout } from "../src/lib/score/layout.ts";
+import { diffDecisions, formatDecisionDiff } from "../src/lib/score/diff.ts";
 import { adjudicationMarkdown, adjudicationStats, applyAdjudication, draftAdjudication, loadAdjudicated } from "../src/lib/score/adjudicated.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -89,6 +93,38 @@ async function shadowInputs(id, repo, served) {
   };
   return { markdown: result.shadow.markdown, ref: { manifest, blocks: referenceFromMarkdown(parseOurs(served)) } };
 }
+
+if (flag("--diff")) {
+  // pnpm score --diff <outA> <outB> [ids]: which decisions changed verdict between two runs
+  const at = args.indexOf("--diff");
+  const [dirA, dirB, ...rest] = args.slice(at + 1).filter((a, i, all) => !a.startsWith("--") && all[i - 1] !== "--limit");
+  if (!dirA || !dirB) {
+    console.error("usage: pnpm score --diff <outA> <outB> [<id> ...] [--limit N]   (each a --out directory of a previous run)");
+    process.exit(2);
+  }
+  const read = (dir, id) => {
+    const path = join(resolve(root, dir), id, "decisions.jsonl");
+    return existsSync(path) ? readFileSync(path, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)) : null;
+  };
+  const listed = (dir) => (existsSync(resolve(root, dir)) ? readdirSync(resolve(root, dir), { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name) : []);
+  const wanted = rest.length ? rest : listed(dirA).filter((id) => listed(dirB).includes(id)).sort();
+  if (!wanted.length) {
+    console.error(`no report has decisions.jsonl in both ${dirA} and ${dirB}`);
+    process.exit(2);
+  }
+  const limit = Number(opt("--limit", 8));
+  for (const id of wanted) {
+    const a = read(dirA, id);
+    const b = read(dirB, id);
+    if (!a || !b) {
+      console.error(`${id}: no decisions.jsonl in ${!a ? dirA : dirB}`);
+      process.exitCode = 1;
+      continue;
+    }
+    console.log(formatDecisionDiff(id, diffDecisions(a, b), limit));
+  }
+  process.exit(process.exitCode ?? 0);
+}
 const rows = [];
 const list = ids();
 if (!list.length) {
@@ -108,6 +144,11 @@ for (const id of list) {
   // a queued report (not yet in the registry) is scored from its own repo's full.md
   const source = report ? join(root, report.source_path) : join(repo, "full.md");
   let markdown = readFileSync(source, "utf8");
+  // the score reads the site's aggregated copy, which `pnpm ingest aggregate` refreshes: say so when it is behind its repo
+  const repoCopy = join(repo, "full.md");
+  if (report && existsSync(repoCopy) && readFileSync(repoCopy, "utf8") !== markdown) {
+    console.error(`  ! ${id}: ${report.source_path} differs from ${repoCopy}; this scores the site's copy. Run pnpm ingest aggregate to score the repo's.`);
+  }
   let ref;
   if (flag("--shadow")) ({ markdown, ref } = await shadowInputs(id, repo, markdown));
   else ref = loadReference(repo);
