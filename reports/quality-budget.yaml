@@ -110,7 +110,7 @@ reports:
     severed-into-quote: 72
     severed-paragraph: 6
     bare-footnote-marker: 23
-    bare-marker-after-quote: 41  # why: reportsthatmatter-4ef1 (counted at ingest v0.20.0; the layoutMarkers fix takes it to 0 at the next pin bump: ratchet then)
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 64  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (layoutMarkers returns Appendix 7's numbered restriction-notice paragraphs 10-17 from fake notes to the body, where they read as note text: +5)
@@ -179,7 +179,7 @@ reports:
     severed-into-quote: 324
     severed-paragraph: 24
     bare-footnote-marker: 101
-    bare-marker-after-quote: 4  # why: reportsthatmatter-4ef1 (new signal, counted at v0.20.0: the layoutMarkers fix takes it to 2, "citizen."1" and "illegal..>!]"417", not yet read on the page; ratchet at the next pin bump)
+    bare-marker-after-quote: 2
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
     note-text-in-body: 13
@@ -197,7 +197,7 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 25
     ids-per-1k-words: 0
-    quote-share-parity: 2
+    quote-share-parity: 1
   uk-saville-inquiry:
     severed-into-quote: 0
     severed-paragraph: 1

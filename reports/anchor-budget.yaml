@@ -47,7 +47,7 @@ reports:
     blocks-wrong: 2
   us-911-commission:
     markers-wrong: 0
-    markers-stacked: 5
+    markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
   us-deepwater-horizon:
@@ -61,10 +61,10 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 5
   uk-hillsborough-panel:
-    markers-wrong: 0
-    markers-stacked: 0
+    markers-wrong: 15  # why: ivg.3 - read on the website-edition text: pp.13-25 are the Report summary, which repeats chapter text, so the check finds those paragraphs far away ("66669 words before the start"); pp.33/34/74/107/173 are figure captions the edition prints a page early or late; pp.128/174/316/366 sit 7-86 words into the right PDF page
+    markers-stacked: 1  # why: ivg.3 - one marker after a block that runs over several pages (a long table or caption block in the website edition)
     pages-unmarked: 12
-    blocks-wrong: 69
+    blocks-wrong: 86  # why: ivg.3 - 79 of the 86 are on pages no marker names (the Report summary repeats chapter text, so the check places those paragraphs in the chapter) and the rest are the figure captions at pp.32-34, 73, 107, 173
   uk-saville-inquiry:
     markers-wrong: 0
     markers-stacked: 1

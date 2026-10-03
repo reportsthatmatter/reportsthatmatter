@@ -138,6 +138,8 @@ The Committee has been most fortunate in its work due to the diligent and thorou
 
 The Committee wishes to express its appreciation for the assistance of the House Administration Committee, the Rogers Commission staff, and the Justice Department's Office of Litigation Support, Civil Division. Each of these groups was very cooperative and helpful in providing the access to, and equipment for, the Challenger accident data base needed by the Committee to do its work. In addition, the Committee very much appreciates the assistance of NASA personnel who responded to numerous requests for briefings and documents during the course of the investigation.
 
+%%page 3%%
+
 ## CONCLUSIONS
 
 In execution of its oversight responsibilities, the Committee on Science and Technology has conducted a thorough investigation of the Challenger accident. Although the Committee's concern and evaluation in this report are related specifically to the safe and effective functioning of NASA's Space Shuttle program, it should be understood that our larger objective and greater responsibility are to insure that NASA, as the Nation's civilian space agency, maintains organizational and programmatic excellence across the board.
@@ -205,6 +207,8 @@ This Committee has long been proud of the many awe-inspiring achievements of NAS
 We have no doubt that through the hard work and dedication of the men and women at NASA and its supporting contractors, the Space Shuttle will be safely returned to flight status-and will once again continue to impress people around the world with its many important accomplishments.
 
 As has been said many times since the January 28th tragedy, space flight is a high risk undertaking. The Cwnmittee accepts this fact and applauds those men and women who, in spite of this risk, have chosen manned space flight as a career. Though we grieve at the loss of the Challenger crew, we do not believe that their sacri- fice was in vain. They would not want us to stop reaching into the unknown. Instead, they would want us to learn from our mistakes, correct any problems that have been identified, and then once again reach out to expand the boundaries of our experience in living and working in outer space.
+
+%%page 9%%
 
 111. COMPILATION OF ISSUES, FINDINGS, AND
 
@@ -1054,6 +1058,8 @@ Findings
 
 2\. NASA's new Office of SR&QA should be involved in the procurement and award fee processes, both to establish reasonable guidelines and rewards in new contracts and to judge performance of ongoing contracts.
 
+%%page 35%%
+
 ## BACKGROUND INITIAL EVENTS FOLLOWING THE ACCIDENT
 
 On January 28, Chairman Fuqua stated on the floor of the House that the Committee would conduct comprehensive hearings and prepare its report on the Challenger accident and its implications after the National Aeronautics and Space Administration had completed its immediate investigation. NASA's effort was to follow the same investigative approach it had taken after the Apollo 204l fire.
@@ -1155,6 +1161,8 @@ July 24, 1986........... 5 ............... Lt. Gen. James A. Abrahamson, Directo
 > Jesse W. Moore, Director, Johnson Space Center, NASA/Houston, Texas. Robert F. Thompson, Vice President, Space Stations, McOonnell Douglas Astronautics Ca. G.S. Lunney, President, Satellite Systems Division, Rockwell International. Arnold Aldrich, Manager, National Space Transportation System, Lyndon 6. Johnson Space Center. NAWHouston. Texas. Total............ 60 ..........
 
 1 Continued from June 17, Morton Thiokol only.
+
+%%page 39%%
 
 ## THE ACCIDENT
 
@@ -2069,6 +2077,8 @@ During the post-accident tests conducted by NASA and Thiokol, it was learned tha
 45RogersCommission Report, Volume I, p. 64 4 6 NASA, briefings from staff.
 
 %%page 83%%
+
+%%page 85%%
 
 ## DISCUSSION OF CRITICAL ISSUES
 
@@ -3524,6 +3534,8 @@ In addition to the number of technical managers, it is also necessary to examine
 
 166Cmte Hgs, Transcript, July 24, 1986, pp. 119-23 headquarters' technical ability to discern and react to emerging problems may be gained from an examination of the manner in which it addressed the growing concerns with the O-rings in the summer of 1985. Prior to that time the problems with the O-rings had been briefed at all levels of the agency and had been presented to headquarters on at least two occasions.[^6] 8 However, increasing problems with case-to-case erosion prompted headquarters to request a complete briefing "to go over the situation in detail."[^1] 6 9
 
+%%page 157%%
+
 The meeting was chaired by Mr. Moore's deputy for technical matters, L. Michael Weeks, and attended by a number of other headquarters personnel which Mr. Moore characterized as having "some knowledge about the SRB."170 In testimony before the Rogers Commission, Mr. Moore described the composition of the meeting:
 
 Mr. Winterhalter, who was Shuttle Propulsion Division
@@ -3693,6 +3705,8 @@ NASA should review its change control process to determine the usefulness of dif
 Discussion
 
 NASA's Change Control System is shown in Figure VI-4. From the chart, it is evident that the success of the system is highly dependent on the information flow among the various levels of management control.
+
+%%page 164%%
 
 > 1'11'111 13f i 31
 
@@ -4073,6 +4087,8 @@ The Committee is certainly not suggesting that anyone in NASA or Thiokol would r
 as1 Rugem Commission Report, Volume I, pp. 249-51.
 
 Cmte Hgs, Transcript, June 18, 1986, p. 18.
+
+%%page 183%%
 
 ## CASING JOINT DESIGN
 
@@ -4494,6 +4510,8 @@ Separation phase.............. Burning out of solid Relsase of thrust, impact St
 
 > propellants and forces at attachment forces and shear on explosive forces at points. pins. attachment points.
 
+%%page 201%%
+
 > 20 1 - Time Activity Source of load Static or dvoamic lmmt rn mnl
 
 Ocsan impact and Weight of SRB Impact on joint ................. Dynamic. ...................... Variation in stresses at retrieval. impacting Ocean at joints
@@ -4601,6 +4619,8 @@ stated. "their first thought was the O-ring was being asked
 The need for additional testing of the present design was also discussed and it was agreed that tests which more closely simulate actual conditions should be done.s4
 
 As a result of the foregoing data, the Committee has arrived at the specific Findings and Recommendations contained in Chapter V.
+
+%%page 207%%
 
 ## LAUNCH OPERATIONS * INTRODUCTION
 
@@ -5536,6 +5556,8 @@ RDE. Hey, we've gone over this again. Colonna called me and wanted to see if the
 
 logNASA, Johnson pace Flight Center, "Presidential Commission Action Item (A-301) Response," DDATF-86-36, April 7, 1986, p. 1.
 
+%%page 241%%
+
 24 1 sian roulette; you'll probably make it. Five out of six times you do playing Russian roulette. But, there's a lot of debris. They could hit direct, they could be kicked up later by the SRBs, and we just don't know how to clear that.
 
 RVP. Okay. Our position fundamentally hasn't changed. We'll just go in now, we got a 9:00, we'll go in and express it. I'll let you know what happens.
@@ -5946,6 +5968,8 @@ Rogers Commission Report, Volume IV, p. 660).
 
 p.
 
+%%page 253%%
+
 ## IX.DEFINITIONS OF TERMS AND ACRONYMS
 
 AA-SF-Associate Administrator for Space Flight. AFPRO-Air Force Plant Representative Wice. APU-Auxiliary Power Unit. BOC-Base Operations Contractor. BTU-British Thermal Unit. CAR-Confguration Acceptance Review. CDR-Chmmander. CDR-Critical Design Review. CIL-Critical Items List. CoFR-Certification of Flight Readiness. CPIF-Cost-plus, Incentive-fee. CTS-Call-to-stations. DAR-Deviation Approval Request. DCAS-Defense Contract Administration Service. DCR-Design Certification Review. DFRF-Dryden Flight Research Facility. DR-Discrepancy Report. EGhG--Edgerton, Germeshausen and Grier. ESMC-Eastern SDace and Missile Center.
@@ -5961,6 +5985,8 @@ s JSC-Johnson S ace Center. KSC-Kennedy pace Center. hi-thousands of pounds per 
 %%page 254%%
 
 MLP-Mobile Launch Platform. MMT-Mission Management Team. MRB-Material Review Board. ms-millisecond. MSFC-Marshall Space Flight Center. MST-Mountain Standard Time. NASA-National Aeronautics and Space Administration. NRC-National Research Council. NRP-National Resource Protection. NSTS-National Space Transportation System. NTD-NASA Test Director. OASCB-Orbiter Avionics Software Control Board. OIS-Operational Intercom System. OM-Operations Manual. OMI-Operations Maintenance Instruction. OMP-Operations and Maintenance Plan. OMRSD-Operations Maintenance Requirements Specification Document. OMS-Orbiter Maneuvering System. OPF-Orbiter Processing Facility. PAC-Problem Assessment Center. PAS-Problem Assessment System. PDR-Preliminary Design Review. PGHM-Payload Ground Handling Mechanism. PR-Problem Report. PRCBD-Program Requirement Change Board Directive. psig-pounds per square inch gage. PSP-Processing Support Plan. QC-Quality Control. RCS-Reaction Control System. R.F.-Radio Frequency. RPSF-Rotation, Processing and Surge Facility. RSO-Range Safety Officer. RSS-Range Safety System. RSS-Rotating Service Structure. RTLS-Return to Launch Site. SCA-Shuttle Carrier Aircraft. SPC-Shuttle Processing Contractor. SRB-Solid Rocket Booster. SRM-Solid Rocket Motor. SR&QA-Safety, Reliability and Quality Assurance. SSME-Space Shuttle Main Engine. STS-Space Transportation System. TBD--to be determined. TDRS-Tracking and Data Relay Satellite. TM-Telemetry. TSR-Technical Status Review. TVC-Thrust Vector Control. VAB-Vehicle Assembly Building. VPF-Vertical Processing Facility. WAD-Work Authorization Document.
+
+%%page 255%%
 
 ## APPENDICES
 
@@ -5980,6 +6006,8 @@ R E R Y TC 4moF: 30-1
 
 (255)
 
+%%page 256%%
+
 * * * * * * * r v Tkiokol presented an approach to the SRM Program which clearly focused on m a x i m u m utilization of existing facilities a d low early year funding. In-house production efforr would be accomplished in the Wasatch Division,.Utah facility. Increment 111 production would be accomplished by acquisition of portion of the adjacent Air Force Plant 7 8 as Air force reqLirements Shased out. A p requirements would be met by increasing the capability of existing facilities in nearby Henderson, Nevada. Use of an existing, skilled, stable work force in a low labor rate area would minimize new hires and provide low labor costs. Thiokol's decision to fabricate nozzles in-house provided cost savings and good control over this extremely critical component: however, the Board concluded that this introduced some early risk because of lack of experience in fabricating nozzles of this size. Facility location resulted in high transportation cost of the SRM's: however, these costs were more than offset by low facility investments. The Thiokol proposal received the second highest overall Mission Suitability score by 'he SEB, being tied with UTC. The SEB ranked Thiokol fourth under the Design, Development and Verification Factor, second under the Manufacturing, Refurbishment and Product Support Factsr and first under the Management Factor. Design, DeVelODIIIent and Verification The Thiokol case design met the general SRM requirements; however, the cylindrical segment was close to the upper limits of size capability of the case fabricator. The nozzle design
 
 %%page 257%%
@@ -5987,6 +6015,8 @@ R E R Y TC 4moF: 30-1
 7 included a b l a t i v e m a t e r i a l s not c u r r e n t l y develcped o r characterize&. This o f f e r e d p o t e n t i a l savings i n program c o s t , but with atyendant t e c h n i c a l and program risk. ~n expanded c h a r a c t e r i z a t i o n and development proqam would be required. The thickness of t h e nozzle m a t e r i a l was i n s u f f i c i e n t t o m e e t required s a f e t y f a c t o r s and thus degraded r e l i a b i l i t y . The amount of m a t e r i a l required to c o r r e c t t h e deficiency was s u b s t a n t i a l and tile Geficiency could r e q u i r e a reaesign of , . the m e t a l p o r t i o n s a s w e l l as t h e a b l a t i v e p o r t i o n s . The design was complex and would c o n t r i b u t e t o d i f f i c u l t y i n manufacturing. The Thiokol motor c a s e j o i n t s u t i l i z e d dual O-rings and test p o r t s between s e a l s , enabling a simple l e a k check without p r e s s u r i z i n g t h e e n t i r e motor. This inno- v a t i v e design f e a t u r e increased r e l i a b i l i t y and decreased operations a t the launch s i t e , i n d i c a t i n g good a t t e n t i o n t o low c o s t DDT&E and production. The thic-mess of t h e i n t e r n a l i n s u l a t i o n i n the c a s e a f t dome was marginal and c r e a t e d a technical r i s k . Thiokol provided cumprehensive test plans and development v e r i f i c a t i o n objectives: however, they proposed t o v e r i f y p r o p e l l a n t burning c h a r a c t e r i s t i c s by t e s t i n g f o u r t o six f u l l scale mixes vhich was excessive, and could be reduced by e s t a b l i s h i n g c o r r e l a t i o n s with smaller mix size d a t a c?uring DDT&E. Also, Thiokol proposed t o hydroburst two motor case assembly specimens, whereas one t e s t would be s u f f i c i e n t .
 
 Manufacturina, Refurbishment and Product Support Thiokol had extensive processing experience with t h e i r proposed propellant formulation, having processed over 150 m i l l i o n pounds of t h i s generai type of p r o p e l l a n t . Thiokol's major weakness i n t h i s a r e a of evaluation was i n t h e a r e a of case f a b r i c a t i o n . The segment f a b r i c a t o r would be unable t o f a b r i c a t e t h e case s e r p e n t s strengthened with s t i f f e n i n g rings as proposed by Thiokol f o r a l t e r n a t e water ent-y load conditions, i f required. This would probably r e q d i r e a case and g r a i n redesign. Thiokol's manufacturing approach provided a good mechanized method of i n s t a l l i n g i n s u l a t i o n , coupled with an innovative method of preparing the i n s u l a t i o n surface f o r t h e l i n e r by p e e l i n g off a dacron c l o t h from t h e inner s u r f a c e of the i n s u l a t i o n . A minor w e a k n e s s in t h e manu- f a c t u r i n g approach was the d e c i s i o n to f a b r i c a t e nozzles in-house.due t o Thiokol's lack of experience i n f a b r i c a t i n g nozzles of this -size.
+
+%%page 258%%
 
 > a - - --=posed ;= c t i l i z e e x i s t i n g f a c i l i t i e s wkicl?. W .Z L. ~
 
@@ -6096,6 +6126,8 @@ deoirable to include larger mcale teat motor. hnving putty inete1l.d. norton Thi
 
 verify the mubrcale reaulta of the candidate putty l a p p configurmtioar $1: as affected by the actual joint aaaembly and leek teat procdurw. The "mhort mtack" herduarc IS preferred for uae instead of SIll cam rep.ntr ( 8 for eeme of aaawblv and inspection. The follovlng qwmtioam aha11 b. ,, snmwred as mininm requirements of this test sequence:
 
+%%page 265%%
+
 > a. What ia p o s t u s e a b l y p r e i a u r e i n t h e c a v i t y b t t v a s n t h e p u t t y and t h e p r l o a r y O-ring?
 
 > b. What la t h e mlnimum p r e s a u r e r e q u i r e d t o blow through t h e putty?
@@ -6132,11 +6164,15 @@ The attaehod achodulo reflaeta tho tin ~ v a i l o b l et o caplet. the taotin# 
 
 A coqrehenaiva roport ahall bo propmod by hginmring d o e r r a t i n @ tho toata ud r o w l t a . The original ohall bo r e l u r a d e f t o r the developrat toating, but prior t o DKb. A rowlaion ahall k nloaaod aftor &I-6 and J mocondmd ficul ro~laiorrahall be pab1iah.d a f t e r tho wing program.
 
+%%page 267%%
+
 --
 
 SRY-HPM Fiold Joint
 
 FIBure 1
+
+%%page 268%%
 
 -- NBR Insulation NBR Insulation
 
@@ -6145,6 +6181,8 @@ FIBure 1
 %%page 270%%
 
 .
+
+%%page 271%%
 
 27 1
 
@@ -6354,6 +6392,8 @@ N
 
 > W Y, c
 
+%%page 281%%
+
 0 2 6 4 x 7
 
 > J 'I -. A W b m a & r(
@@ -6437,6 +6477,8 @@ SUBJECT: Weekly A c t i v i t y Report
 As a r e s u l t of the l a t e s t engineering analysis o f the V - I case I t appears t h a t high-stress r i s e r s t o the case are created by the phenolic OF1 housings and fairings. As I t presently stands. these w i l l probably ' have t o be modified o r rmoved and i f rclloved w i l l have t o be replaced. n This could have an Impact on the launch schedule. c.
 
 > a N \n u! E
+
+%%page 287%%
 
 ### J. McDonald, Director
 
@@ -6536,6 +6578,8 @@ W
 
 VI-A
 
+%%page 293%%
+
 ## COIJTRHCTOR DES ICN RQMT ' S
 
 L I I I - 1H -JSC 07700
@@ -6557,6 +6601,8 @@ SPACE SHUTTLE FLlQHTAND QROUND SYSTEM
 ## SPECIFICATION
 
 S-BER 30,lW
+
+%%page 295%%
 
 )r 4 1 GE ME N ! *.* SLOutSCMENlS
 
@@ -6581,6 +6627,8 @@ Zhe S h u t t l e ? l i g h t V e h i c l e d e s i n a h 1 1 s a ~ t ~ a n r i 
 f o r S O 0 ~ i u i o m 8i n o r b i t , n8img t b e m e t e o r o i d Bodel d e f i n e d i n S a c t i o n 1.5.1 o i 211-60627. 8.1 ,8ITICIOID IIDACX. SpaCO S b u t t l a Bmteoroid i ~ p c t i e y a u e m e n t m m h r l 1 , b e mpecifimd belomr
 
 10.10-!4
+
+%%page 298%%
 
 ## N A S A TECHNICAL MEMORANDUM
 
@@ -6734,6 +6782,8 @@ George C. Marshall Space - Fight Center Marsball Space Fight Center, Alabama b
 
 > 1 35.73 k - L 11.85
 
+%%page 311%%
+
 > 31 1 M a h m t..p.rrcotu for tho U rida of tha loll- condition
 
 intarfacur
@@ -6817,6 +6867,8 @@ I n
 U I
 
 > I I I I I I I I I I I
+
+%%page 316%%
 
 0 PROJECTS REQJIRED TO SHOW THHT EHCH REG!ll IREMEt4T I N THE CI:It.ITRACT
 
@@ -6921,6 +6973,8 @@ Wilmington, DE 19898
 D r . R o b e r t H. Korkegi (Co-Director)
 
 D r . Hyron F. Uman (Co-Director) u s . V i v i a n e S c o t t (Adm. A s s i s t a n t )
+
+%%page 321%%
 
 VI-c
 
@@ -7057,6 +7111,8 @@ I
 !
 
 I
+
+%%page 323%%
 
 NTPJ4l'ICN AEZUIXXNT O E C X i T I C N
 
@@ -7289,6 +7345,8 @@ This desk Instruction defines t h e procedures f o r generating. documenting and
 > 1. -- is t h e l n a b l l l t y of a system. subsystem, component. o r p a r t t o perform its required function within specified lirits uider specified
 
 conditions f o r a specified duration.[^1]
+
+%%page 328%%
 
 > 01 #O. 100-26 Page 2 34 of
 
@@ -7562,6 +7620,8 @@ FAILS OUT O F TOLERANCE F A I L S TO SWITCH LEAKAGE ( E t E r n I C A L )
 
 > Appendix 8. paragraph 3.1.1. sub-paragraph 13, r e f l e c t s the ground rule t o be used for external leakage. For OV-102 pre-AA mod only. those fa llure modes which result i n a criticality c la s s iflc a tion of 1 and 2, or 1R and a,and appear f n the CIL (Item 4.1.221 shall be c la s tlfle d further as structural or functional fal l ures by c l n l l n g 'S" or "F" I n the C32 fleld. The following guidelines apply: - STRUCTURAL (S) A fa ilure mode Involving structural fa ilure of a pressure vessel. ccrmponent housing, fluid lines, attach f i t t i n g s , or load-carryiag ambers such a s cranks or rods. FUNCTIONAL ( F ) - A fa llure mode, generally wlthln a canponent. which negates the described component function. Thfs type of fa ilure would Include bindlng. leakage, fa ilure t o open o r close. or loss of output. The f a i l u r e cause could be lmproper ins ta lla tion of parts o r structural fa ilure of power transmitting parts such as gear teeth, shafts or sprlngs; however. I n such . Instances t h e mode I s still c la s s lfie d as functional. Electrical and electronic component failures would nonnally f a l l I n t h i s category.
 
+%%page 339%%
+
 OI NO. 100-ZG
 
 - Page 1Jof 34 4.1.12 OV-102 PRE-AA MOO ONLY:
@@ -7788,6 +7848,8 @@ Each c r i t i c a l f a i l u r e mode identified in the vehicle modification ,
 
 0246j/24
 
+%%page 351%%
+
 DI NO. 100-26
 
 - Page 25 of — 34
@@ -7833,6 +7895,8 @@ Appropriate conrments shall be included t o insure t h a t t h i s area i s corr
 The accountabllity of CIL items f o r W E will be NASA. Those CIL items resultfng from interface failure modes will be a part of the Rockwll CIL.
 
 Exceptions t o t h i s instruction w i l l be identified and concurred i n jointly by Rockwell and NASA and documented a s a part of l e t t e r s of agreement.
+
+%%page 354%%
 
 -___________._I___C_ ._. .-...--.--.. ----------------.-----
 
@@ -7880,9 +7944,13 @@ Jm
 
 -- Figure 5. Data Sheet No. 2 t .. .
 
+%%page 357%%
+
 Figure S. Data Printout, Component-Related Data
 
 Figure 7. Data Printout, Failure Mode-Related Data
+
+%%page 358%%
 
 > Crlt.[^2] Reliability Engr. Detcrminntlnn Crit. IR . I --- Crit. 2R .
 
@@ -7944,6 +8012,8 @@ C r i t i c a l i t y 2 f a i l u r e (modes) a r e defined as: ( 1 ) s i n g l 
 
 The following c h a r t (Mission Effects - C r i t i c a l i t y 2 F a i l u r e Modes) i s included a s a guideline f o r e n t r i e s under "EFFECTS ON MISSION". The term "abort decision" should only be used where there r e a l l y i s a decision.
 
+%%page 362%%
+
 01 NO. 100-Zd
 
 ## APPENDIX A
@@ -7982,6 +8052,8 @@ ASCENT PIIASE.
 
 > SSME OUT. . BETUEEN 347.3 AllD 401.5 SECONDS OF ASCENT. MISSION 2 HAS NO ENGIIIE OUT M I S S I O N COMPLETION CAPABILITY.
 
+%%page 363%%
+
 01 NO. 100-26
 
 ## APPENDIX B '
@@ -8003,6 +8075,8 @@ The following ground r u l e s and c r i t e r i a a r e of a general category f
 > 4. Categorization of a hardware item by t h e worst case p o t i n t i a l e f f e c t of f a i l u r e of t h a t item w i l l define c r i t i c a l i t y . .. 5. Failure modes t h a t could propagate t o interfacing subsystems Or experiments will be Identified.
 
 0246j/30
+
+%%page 364%%
 
 01: NO. 100-26,
 
@@ -8027,6 +8101,8 @@ Page 2of 6
 > 13. External Leakage: a. The external leakage mode 3f functional hardware items from any source (except matlng of two surfaces by welding, brazing, o r pennaswage) will be considered. If t h i s mode raises the - . - c r i t i c a l i t y of the items i n question, i t will be documented and the potentlal leak source identifjed under "aU.SE(S)". * Otherwise. t h e external leakage w i l l be treated generically by media. However, in those instances where external leakage results i n hardware c r i t i c a l i t y 1 effect, the f a i l u r e mode will be documented regardless of the basic c r l t i c a l i t y o f the item being considered. Uhere applicable, seal failure should be l i s t e d as a cause and worst case (comlete seal f a i l u r e ) shall be assumed. considering
 
 0246j /31
+
+%%page 365%%
 
 > DI NO. 100-26 APPEllOIX 6 Page of 6
 
@@ -8089,6 +8165,8 @@ Page 5 of 6
 > a. Generic f a i l u r e modes and causes. b. Released and controlled cmponent. assembly, and d e t a i l engineering drawings and specifications. c. Training a i d s , a s available; e.g., cross section drawings, photographs, exploded drawings ( n o t referenced I n FMEA). d. Actual hardware. i f available. e. Use experience, including f a i l u r e hlstory and- s i m i l a r components.
 
 02463 134
+
+%%page 368%%
 
 01 NO. 100-26
 
@@ -8176,7 +8254,7 @@ A Type I specimen is used in Methods A and B. 5.5.2 Care shall be taken during h
 
 5.2.2 When cutting the standard specimen, fixture by keeping the circular faces parallel and the circular die having the required inside dimen- at right angles to the axis of the cylinder. sions specified in 5.2.1 shall be rotated in a drill 5.5.3 The results obtained on plied specimens press or similar device and lubricated by means may be different from those obtained using solid of a soap solution. A minimum distance of I3 specimens and the results may be variable, par- mm (0.51 in.) shall be maintained between the ticularly if air is trapped between disks. cutting edge of the die and the edge of the slab. 5.5.4 The results obtained on the specimens The cutting pressure shall be as light as possible prepared hy one of the methods may be com- to minimize cupping of the put edges. The dies pared only to those prepared by the same shall be maintained carefully so that the cutting method. edges are sharp and free of nicks. 5.6 For routine or product specification test37 1
 
-%%page 3%%
+%%page 3#2%%
 
 D395 ing, it is sometimes more convenient to prepare 7.2. I . I The spring shall be calibrated at room specimens of a different size or shape, or both. * temperature 23 5'C (73.4 k 9°F) by applying When such specimens are used, the results should successive increments of force not exceeding 250 be compared only with those obtained from spec- N (50 Ibf) and measuring the corresponding de- imens of similar size and shape and not with flection to the nearest 0.2 mm (0.01 in.). The those obtained with standard specimen. For such curve obtained by plotting the forces against the cases, the product specification should define the corresponding deflections shall have a slope of specimen as to the size and shape. If suitable 70 f 3.5 kN/m (400 f 20 Ibf/in.) at 1.8 kN (400 specimens cannot be prepared from the product, Ibf). The slope is obtained by dividing the two the test method and allowable limits must be forces above and below I .8 kN by the difference agreed upon between the producer and the pur- between the corresponding deflections. chaser. 7.2. I .2 \The original dimensions of the spring shall not change due to fatigue by more than 0.3 6. Conditioning mm (0.01 in.) after it has been mounted in the
 
@@ -8318,9 +8396,13 @@ G,ff 1.;'a. b. c. d.
 
 %%page 381%%
 
+%%page 382%%
+
 P Q t E . 06 , ___
 
 .
+
+%%page 384%%
 
 VIII-B
 
@@ -8358,6 +8440,8 @@ I @ . . # . "
 
 > ' P.O. BOX 524'; RRIGIIAll C I T Y . ~ l ~ T A 8H 9 3 0 2 .(801) ,863-3531,
 
+%%page 385%%
+
 - .o S I S - 6 l C (SIS-32) ( SRtl-24) PERFORMIICE
 
 ## 7.0 0 PROBLEM SUEIMARY
@@ -8385,6 +8469,8 @@ STS-511 ISIS-33) (SRH-25) PERFORflAllCE PREDJ CT I OMS
 > lECllNICAL ISSllES I 0 F L 1 6 t l T REAUltlESS REVIEW ,
 
 I t
+
+%%page 386%%
 
 %%page 387%%
 
@@ -8584,6 +8670,8 @@ PC 014740
 
 - 0 0 — 0
 
+%%page 401%%
+
 ## PARACHUTE SEPARATION SYSTEM
 
 > FUOMT 0REClW)L; PAMo(vTL FLOAT U C u t E U
@@ -8594,6 +8682,8 @@ Q
 
 N (Y N .
 
+%%page 402%%
+
 > NOMINAL SRB REENTRYllPROnLE (138 FOOT MAINS) I
 
 0 a I 3 'Y a.
@@ -8603,6 +8693,8 @@ m . n u em N
 > a w
 
 > . - 7. tl : r; . -7 l b 0 w pC 014746
+
+%%page 403%%
 
 %%page 405%%
 
@@ -8794,6 +8886,8 @@ V
 
 4 v) +- z?
 
+%%page 424%%
+
 > STS-61B (STS-31) (SRN-23) PERFORNANCE (CHART NO. 3-3)
 
 ## SRN-23B (RH) HAD ONE SRN PERFORHANCE ACCEPTABLE NO GAS PATH AT THE AFT/ AFT CENTER JOINT AT 58' BUT IT D I D NOT PROGRESS
@@ -8814,11 +8908,21 @@ PC 0 3 7 7 1 1 w
 
 - b — 4
 
+%%page 428%%
+
 > c f U Y Y ' F
 
 8ZP
 
+%%page 430%%
+
 " W w am J1U EIIDSIUN L E N O I H IINCHEB) 1.0 7.0 IIEAT AYFECTEU L f N U l l f . 22.0 23.0 E I U D I C U OEI'TJI INCIlEE> ,017 ,037 DEGREE L O C h T I O N 9 + 6 OEUREEU 0 OEO
+
+%%page 431%%
+
+%%page 432%%
+
+%%page 433%%
 
 P n
 
@@ -8880,7 +8984,7 @@ c
 
 P.o5erz E. Lincsircn Panager Shxczle P r o j e c t s O f f i c e D i s trfbu:ion: S e e page 3
 
-%%page 3#2%%
+%%page 3#3%%
 
 EG21/G. Butler
 

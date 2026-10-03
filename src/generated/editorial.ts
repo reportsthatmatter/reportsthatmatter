@@ -21,7 +21,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           },
           {
             "id": "findings-2",
-            "page": 7,
+            "page": 9,
             "href": "/reports/challenger-accident?p=findings-2"
           }
         ]
@@ -115,12 +115,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "committee-found-nasa-s-drive",
-            "page": 2,
+            "page": 3,
             "href": "/reports/challenger-accident?p=committee-found-nasa-s-drive"
           },
           {
             "id": "committee-congress-administration-have-played",
-            "page": 2,
+            "page": 3,
             "href": "/reports/challenger-accident?p=committee-congress-administration-have-played"
           },
           {
@@ -133,7 +133,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "The Committee found that NASA's drive to achieve a launch schedule of 24 flights per year created pressure throughout the agency that directly contributed to unsafe launch operations.",
           "cite": {
             "id": "committee-found-nasa-s-drive",
-            "page": 2,
+            "page": 3,
             "href": "/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes"
           }
         }
@@ -1394,17 +1394,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The Panel found that multiple factors were responsible for the deaths, and that the fans were not the cause of the disaster.",
         "cites": [
           {
-            "id": "whole-point-justice-consists-precisely",
+            "id": "disclosed-documents-show-multiple-factors",
             "page": null,
-            "href": "/reports/uk-hillsborough-panel?p=whole-point-justice-consists-precisely"
+            "href": "/reports/uk-hillsborough-panel?p=disclosed-documents-show-multiple-factors"
           }
         ],
         "excerpt": {
           "quote": "The disclosed documents show that multiple factors were responsible for the deaths of the 96 victims of the Hillsborough tragedy and that the fans were not the cause of the disaster.",
           "cite": {
-            "id": "whole-point-justice-consists-precisely",
+            "id": "disclosed-documents-show-multiple-factors",
             "page": null,
-            "href": "/reports/uk-hillsborough-panel?p=whole-point-justice-consists-precisely&h=family%20through%20affection.%20|The%20disclosed%20documents%20show%20that%20multiple%20factors%20were%20responsible%20for%20the%20deaths%20of%20the%2096%20victims%20of%20the%20Hillsborough%20tragedy%20and%20that%20the%20fans%20were%20not%20the%20cause%20of%20the%20disaster.|%20The%20disclosed%20documents"
+            "href": "/reports/uk-hillsborough-panel?p=disclosed-documents-show-multiple-factors&h=|The%20disclosed%20documents%20show%20that%20multiple%20factors%20were%20responsible%20for%20the%20deaths%20of%20the%2096%20victims%20of%20the%20Hillsborough%20tragedy%20and%20that%20the%20fans%20were%20not%20the%20cause%20of%20the%20disaster.|%20The%20disclosed%20documents"
           }
         }
       },
@@ -1427,9 +1427,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "On the day, once an exit gate was opened to relieve crowding at the turnstiles, no instruction was given to direct the fans coming through it away from the already-overfull central pens.",
         "cites": [
           {
-            "id": "box-cctv-monitors-neither-chief",
-            "page": 101,
-            "href": "/reports/uk-hillsborough-panel?p=box-cctv-monitors-neither-chief"
+            "id": "24-opening-gate-c-there",
+            "page": 9,
+            "href": "/reports/uk-hillsborough-panel?p=24-opening-gate-c-there"
           }
         ]
       },
@@ -1447,9 +1447,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The Coroner's decision to hear no evidence of events after 3.15pm rested on pathologists' evidence that all who died were by then beyond recovery. The Panel found this picture of a single, rapid pattern of death was unsustainable, and that a significant number of those who died may still have been alive, and might have survived with appropriate and timely intervention, after being removed from the pens.",
         "cites": [
           {
-            "id": "chapter-10-3-15pm-cut-off",
+            "id": "coroner-s-decision-limit-evidence",
             "page": 21,
-            "href": "/reports/uk-hillsborough-panel?p=chapter-10-3-15pm-cut-off"
+            "href": "/reports/uk-hillsborough-panel?p=coroner-s-decision-limit-evidence"
           },
           {
             "id": "underpinned-imposition-3-15pm-cut-off",
@@ -1495,22 +1495,22 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "Statements written by SYP officers were reviewed and altered before being submitted to the Taylor Inquiry. Of 164 statements marked for substantial amendment, 116 were changed to remove or alter comments unfavourable to the force, including 41 that downplayed criticism of its leadership and response.",
         "cites": [
           {
-            "id": "syp-team-130-significant-number",
+            "id": "130-significant-number-syp-officers",
             "page": 23,
-            "href": "/reports/uk-hillsborough-panel?p=syp-team-130-significant-number"
+            "href": "/reports/uk-hillsborough-panel?p=130-significant-number-syp-officers"
           },
           {
-            "id": "police-response-inadequate-leadership-2",
+            "id": "2-11-56-beyond-issues",
             "page": 322,
-            "href": "/reports/uk-hillsborough-panel?p=police-response-inadequate-leadership-2"
+            "href": "/reports/uk-hillsborough-panel?p=2-11-56-beyond-issues"
           }
         ],
         "excerpt": {
           "quote": "Some 116 of the 164 substantially amended statements removed or altered comments unfavourable to SYP. These included 41 statements in which alterations downplayed or removed criticisms made by officers of their leadership and of the police response to the disaster.",
           "cite": {
-            "id": "police-response-inadequate-leadership-2",
+            "id": "2-11-56-beyond-issues",
             "page": 322,
-            "href": "/reports/uk-hillsborough-panel?p=police-response-inadequate-leadership-2&h=or%20balance%20of%20statements.%20|Some%20116%20of%20the%20164%20substantially%20amended%20statements%20removed%20or%20altered%20comments%20unfavourable%20to%20SYP.%20These%20included%2041%20statements%20in%20which%20alterations%20downplayed%20or%20removed%20criticisms%20made%20by%20officers%20of%20their%20leadership%20and%20of%20the%20police%20response%20to%20the%20disaster.|%20These%20commonly%20included"
+            "href": "/reports/uk-hillsborough-panel?p=2-11-56-beyond-issues&h=or%20balance%20of%20statements.%20|Some%20116%20of%20the%20164%20substantially%20amended%20statements%20removed%20or%20altered%20comments%20unfavourable%20to%20SYP.%20These%20included%2041%20statements%20in%20which%20alterations%20downplayed%20or%20removed%20criticisms%20made%20by%20officers%20of%20their%20leadership%20and%20of%20the%20police%20response%20to%20the%20disaster.|%20These%20commonly%20included"
           }
         }
       },
@@ -1538,30 +1538,30 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "2-12-31-greatest-prominence",
             "page": 345,
-            "href": "/reports/uk-hillsborough-panel?p=2-12-31-greatest-prominence&h=2.12.31%20|The%20greatest%20prominence%20given%20to%20the%20story%20was%20in%20The%20Sun%20whose%20editor%2C%20Kelvin%20MacKenzie%2C%20cleared%20the%20front%20page%20and%20und%E2%8B%AFnts%3A%20'Some%20fans%20picked%20pockets%20of%20victims%3B%20Some%20fans%20urinated%20on%20the%20brave%20cops%3B%20Some%20fans%20beat%20up%20PC%20giving%20life%20kiss'.|27"
+            "href": "/reports/uk-hillsborough-panel?p=2-12-31-greatest-prominence&h=2.12.31%20|The%20greatest%20prominence%20given%20to%20the%20story%20was%20in%20The%20Sun%20whose%20editor%2C%20Kelvin%20MacKenzie%2C%20cleared%20the%20front%20page%20and%20und%E2%8B%AFnts%3A%20'Some%20fans%20picked%20pockets%20of%20victims%3B%20Some%20fans%20urinated%20on%20the%20brave%20cops%3B%20Some%20fans%20beat%20up%20PC%20giving%20life%20kiss'.|"
           }
         }
       }
     ],
     "readingGuide": [
       {
-        "slug": "front-matter",
+        "slug": "report-summary",
         "title": "Report summary",
-        "page": "2",
+        "page": "4",
         "why": "The Panel's own chapter-by-chapter digest of the first four chapters — the risks ignored before 1989, the day itself, and the roles and responsibilities that went unresolved.",
         "excerpt": {
           "quote": "Ninety-six women, men and children died as a consequence of the crush, while hundreds more were injured and thousands traumatised.",
           "cite": {
             "id": "ninety-six-women-men-children-died",
-            "page": 2,
+            "page": 3,
             "href": "/reports/uk-hillsborough-panel?p=ninety-six-women-men-children-died&h=|Ninety-six%20women%2C%20men%20and%20children%20died%20as%20a%20consequence%20of%20the%20crush%2C%20while%20hundreds%20more%20were%20injured%20and%20thousands%20traumatised.|%20In%20the%20immediate"
           }
         }
       },
       {
-        "slug": "front-matter",
+        "slug": "report-summary",
         "title": "The rest of the report summary",
-        "page": "2",
+        "page": "4",
         "why": "Continues the chapter-by-chapter summary through the emergency response, the contested medical evidence, the 3.15pm cut-off, the altered statements and the unsubstantiated press allegations.",
         "excerpt": {
           "quote": "The Panel's access to all of the relevant records has confirmed that the notion of a single, unvarying and rapid pattern of death in all cases is unsustainable.",
@@ -1582,7 +1582,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "continued-incomplete-communication-2-4",
             "page": 137,
-            "href": "/reports/uk-hillsborough-panel?p=continued-incomplete-communication-2-4&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|11%20Documents%20disclosed%20to"
+            "href": "/reports/uk-hillsborough-panel?p=continued-incomplete-communication-2-4&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|%20Documents%20disclosed%20to"
           }
         }
       },
@@ -1594,9 +1594,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "Dr Popper returned to the cut-off: 'we did not take much evidence after 3.15 in fact hardly any, and that was a deliberate decision of mine'.",
           "cite": {
-            "id": "coroner-s-summing-up-subsequent",
+            "id": "2-10-48-his-summing",
             "page": 297,
-            "href": "/reports/uk-hillsborough-panel?p=coroner-s-summing-up-subsequent&h=opening%20the%20generic%20hearing%2C%20|Dr%20Popper%20returned%20to%20the%20cut-off%3A%20'we%20did%20not%20take%20much%20evidence%20after%203.15%20in%20fact%20hardly%20any%2C%20and%20that%20was%20a%20deliberate%20decision%20of%20mine'.|15%20This%20decision%20was"
+            "href": "/reports/uk-hillsborough-panel?p=2-10-48-his-summing&h=opening%20the%20generic%20hearing%2C%20|Dr%20Popper%20returned%20to%20the%20cut-off%3A%20'we%20did%20not%20take%20much%20evidence%20after%203.15%20in%20fact%20hardly%20any%2C%20and%20that%20was%20a%20deliberate%20decision%20of%20mine'.|%20This%20decision%20was"
           }
         }
       },
@@ -1608,9 +1608,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "A total of 164 statements were marked for amendments more substantial than simple corrections. Of these, 22 were amended to remove coarse or informal language.",
           "cite": {
-            "id": "informal-coarse-language-2-11",
+            "id": "2-11-53-total-164",
             "page": 321,
-            "href": "/reports/uk-hillsborough-panel?p=informal-coarse-language-2-11&h=or%20coarse%20language%202.11.53%20|A%20total%20of%20164%20statements%20were%20marked%20for%20amendments%20more%20substantial%20than%20simple%20corrections.%20Of%20these%2C%2022%20were%20amended%20to%20remove%20coarse%20or%20informal%20language.|31"
+            "href": "/reports/uk-hillsborough-panel?p=2-11-53-total-164&h=2.11.53%20|A%20total%20of%20164%20statements%20were%20marked%20for%20amendments%20more%20substantial%20than%20simple%20corrections.%20Of%20these%2C%2022%20were%20amended%20to%20remove%20coarse%20or%20informal%20language.|"
           }
         }
       }
@@ -1804,13 +1804,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-l-summary-of-recommendations",
         "title": "Part L: Summary of recommendations",
-        "page": null,
+        "page": "1803",
         "why": "The recommendations themselves, numbered and grouped by topic, from the regulator's powers to the criminal law and police conduct.",
         "excerpt": {
           "quote": "The Board should provide an arbitral process in relation to civil legal claims against subscribers, drawing on independent legal experts of high reputation and ability on a cost-only basis to the subscribing member. The process should be fair, quick and inexpensive, inquisitorial and free for complainants to use (save for a power to make an adverse order for the costs of the arbitrator if proceedings are frivolous or vexatious). The arbitrator must have the power to hold hearings where necessary but, equally, to dispense with them where it is not necessary.",
           "cite": {
             "id": "arbitration-service-22-board-should",
-            "page": 1799,
+            "page": 1806,
             "href": "/reports/uk-leveson-inquiry?p=arbitration-service-22-board-should&h=Arbitration%20Service%2022.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|"
           }
         }

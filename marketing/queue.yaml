@@ -298,22 +298,6 @@ items:
     card: assets/cards/us-v-philip-morris/default.png
     scheduled: 2026-11-01
     posted_url: null
-  - id: uk-hillsborough-panel:box-cctv-monitors-neither-chief:f3cb9a3b
-    report: uk-hillsborough-panel
-    paragraph: box-cctv-monitors-neither-chief
-    quote: On opening Gate C there was no instruction given to the SYP officers
-      inside the stadium to manage the flow and direction of the incoming crowd.
-    text: >-
-      “On opening Gate C there was no instruction given to the SYP officers
-      inside the stadium to manage the flow and direction of the incoming
-      crowd.”
-
-
-      — The Report of the Hillsborough Independent Panel, p. 101
-    link: https://reportsthatmatter.org/reports/uk-hillsborough-panel?p=box-cctv-monitors-neither-chief&h=directly%20opposite%20Gate%20C.%20%E2%80%A2%20|On%20opening%20Gate%20C%20there%20was%20no%20instruction%20given%20to%20the%20SYP%20officers%20inside%20the%20stadium%20to%20manage%20the%20flow%20and%20direction%20of%20the%20incoming%20crowd.|%20%E2%80%A2%20From%20the%20documents&src=bsky
-    card: assets/cards/uk-hillsborough-panel/default.png
-    scheduled: 2026-11-02
-    posted_url: null
   - id: uk-saville-inquiry:5-5-firing-soldiers-1:52c32a70
     report: uk-saville-inquiry
     paragraph: 5-5-firing-soldiers-1
@@ -861,4 +845,20 @@ items:
     link: https://reportsthatmatter.org/reports/uk-chilcot-inquiry?p=857-uk-did-not-achieve&h=857.%20|The%20UK%20did%20not%20achieve%20its%20objectives%2C%20despite%20the%20best%20efforts%20and%20acceptance%20of%20risk%20in%20a%20dangerous%20environment%20by%20military%20and%20civilian%20personnel.|&src=bsky
     card: assets/cards/uk-chilcot-inquiry/default.png
     scheduled: 2026-12-06
+    posted_url: null
+  - id: uk-hillsborough-panel:24-opening-gate-c-there:f3cb9a3b
+    report: uk-hillsborough-panel
+    paragraph: 24-opening-gate-c-there
+    quote: On opening Gate C there was no instruction given to the SYP officers
+      inside the stadium to manage the flow and direction of the incoming crowd.
+    text: >-
+      “On opening Gate C there was no instruction given to the SYP officers
+      inside the stadium to manage the flow and direction of the incoming
+      crowd.”
+
+
+      — The Report of the Hillsborough Independent Panel, p. 9
+    link: https://reportsthatmatter.org/reports/uk-hillsborough-panel?p=24-opening-gate-c-there&h=24.%20|On%20opening%20Gate%20C%20there%20was%20no%20instruction%20given%20to%20the%20SYP%20officers%20inside%20the%20stadium%20to%20manage%20the%20flow%20and%20direction%20of%20the%20incoming%20crowd.|&src=bsky
+    card: assets/cards/uk-hillsborough-panel/default.png
+    scheduled: 2026-12-07
     posted_url: null

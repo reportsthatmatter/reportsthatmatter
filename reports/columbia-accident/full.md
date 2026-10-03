@@ -23,6 +23,8 @@ Limited First Printing, August 2003, by the Columbia Accident Investigation Boar
 
 Subsequent Printing and Distribution by the National Aeronautics and Space Administration and the Government Printing Office Washington, D.C.
 
+%%page 3%%
+
 ## IN MEMORIAM
 
 > Rick D. Husband Commander
@@ -218,6 +220,8 @@ NASA is a federal agency like no other. Its mission is unique, and its stunning 
 Named for a sloop that was the first American vessel to circumnavigate the Earth more than 200 years ago, in 1981 Columbia became the first spacecraft of its type to fly in Earth orbit and successfully completed 27 missions over more than two decades. During the STS-107 mission, Columbia and its crew traveled more than six million miles in 16 days.
 
 The Orbiterʼs destruction, just 16 minutes before scheduled touchdown, shows that space flight is still far from routine. It involves a substantial element of risk, which must be recognized, but never accepted with resignation. The seven Columbia astronauts believed that the risk was worth the reward. The Board salutes their courage and dedicates this report to their memory.
+
+%%page 8%%
 
 Columbia inside the Orbiter Processing Facility on November 20, 2002.
 
@@ -534,6 +538,8 @@ Figure 1.5-2. The International Space Station as seen from an approaching Space 
 The Orbiter that carried the STS-107 crew to orbit 22 years after its first flight reflects the history of the Space Shuttle Program. When Columbia lifted off from Launch Complex 39-A at Kennedy Space Center on January 16, 2003, it su- perficially resembled the Orbiter that had first flown in 1981, and indeed many elements of its airframe dated back to its first flight. More than 44 percent of its tiles, and 41 of the 44 wing leading edge Reinforced Carbon-Carbon (RCC) panels were original equipment. But there were also many new systems in Columbia, from a modern "glass" cockpit to second-generation main engines.
 
 Although an engineering marvel that enables a wide-variety of on-orbit operations, including the assembly of the International Space Station, the Shuttle has few of the mission capabilities that NASA originally promised. It cannot be launched on demand, does not recoup its costs, no longer carries national security payloads, and is not cost-effective enough, nor allowed by law, to carry commercial satellites. Despite efforts to improve its safety, the Shuttle remains a complex and risky system that remains central to U.S. ambitions in space. Columbiaʼs failure to return home is a harsh reminder that the Space Shuttle is a developmental vehicle that operates not in routine flight but in the realm of dangerous exploration.
+
+%%page 26%%
 
 ## ENDNOTES FOR CHAPTER 1
 
@@ -2784,6 +2790,8 @@ Obtain sufficent spare Reinforced Carbon-Carbon panel assemblies and associated 
 
 Figure 3.8-11. Three large pieces of debris from the panel face sheet were lodged within the hollow area behind the RCC panel.
 
+%%page 84%%
+
 ## ENDNOTES FOR CHAPTER 3
 
 The citations that contain a reference to "CAIB document" with CAB or
@@ -4229,6 +4237,8 @@ An examination of the Programʼs management changes also leads to the question: 
 
 As the 21st century began, NASAʼs deeply ingrained human space flight culture – one that has evolved over 30 years as the basis for a more conservative, less technically and organizationally capable organization than the Apollo-era NASA – remained strong enough to resist external pressures for ad- aptation and change. At the time of the launch of STS-107, NASA retained too many negative (and also many positive) aspects of its traditional culture: "flawed decision making, self deception, introversion and a diminished curiosity about the world outside the perfect place."79 These characteristics were reflected in NASAʼs less than stellar performance before and during the STS-107 mission, which is described in the following chapters.
 
+%%page 119%%
+
 ## ENDNOTES FOR CHAPTER 5
 
 The citations that contain a reference to "CAIB document" with CAB or
@@ -4328,6 +4338,8 @@ Ibid. 26
 #### Henry Lambright, Transforming Government: Dan Goldin and the
 
 Remaking of NASA (Washington: Price Waterhouse Coopers Endowment for the Business of Government, March 2001), pp. 12; 27-29.
+
+%%page 120%%
 
 > For two recent works that apply the "Iron Triangle" concept to other policy areas, see Randall B. Ripley and Grace A. Franklin, Congress, the Bureaucracy and Public Policy, 5th Edition, (Pacific Grove, CA: Brooks/ Cole Publishing Company, 1991); and Paul C. Light, Forging Legislation: The Politics of Veterans Reform, (New York: W. W. Norton, 1992).
 
@@ -5452,6 +5464,8 @@ According to an 11:39 a.m. entry in the Mission Evaluation Room Managerʼs log:
 
 This entry illustrates, in NASA language, an initial attempt by managers to classify this bipod ramp foam strike as close to being within the experience base and therefore, being almost an "in-family" event, not necessarily a safety concern. While the size and source of STS-107 debris was somewhat similar to what STS-112 had experienced, the impact sites (the wing versus the Solid Rocket Booster) differed – a distinction not examined by mission managers.
 
+%%page 147%%
+
 Flight Day Six, Tuesday, January 21, 2003
 
 > At 7:00 a.m., the Debris Assessment Team briefed Don McCormack, the chief Mission Evaluation Room manager, that the foamʼs source and size was similar to what struck STS-112, and that an analysis of measured versus predicted tile damage from STS-87 was being scrutinized by Boeing. An hour later, McCormack related this information to the Mission Management Team at its first post-holiday meeting. Although Space Shuttle Program requirements state that the Mission Management Team will convene daily during a mission, the STS-107 Mission Management Team met only on January 17, 21, 24, 27, and 31. The transcript below is the first record of an official discussion of the debris impact at a Mission Management Team meeting. Before even referring to the debris strike, the Mission Management Team focused on end-of- mission "downweight" (the Orbiter was 150 pounds over the limit), a leaking water separator, a jammed Hasselblad camera, payload and experiment status, and a communications downlink problem. McCormack then stated that engineers planned to determine what could be done if Columbia had sustained damage. STS-107 Mission Management Team Chair Linda Ham suggested the team learn what rationale had been used to fly after External Tank foam losses on STS-87 and STS-112.
@@ -5511,6 +5525,8 @@ During this same Mission Management Team meeting, the Space Shuttle Integration 
 #### MISSED OPPORTUNITY
 
 Reviews of flight-deck footage confirm that on Flight Day One, Mission Specialist David Brown filmed parts of the External Tank separation with a Sony PD-100 Camcorder, and Payload Commander Mike Anderson photographed it with a Nikon F-5 camera with a 400-millimeter lens. Brown later downlinked 35 seconds of this video to the ground as part of his Flight Day One mission summary, but the bipod ramp area had rotated out of view, so no evidence of missing foam was seen when this footage was reviewed during the mission. However, after the Intercenter Photo Working Group caught the debris strike on January 17, ground personnel failed to ask Brown if he had additional footage of External Tank separation. Based on how crews are trained to film External Tank separation, the Board concludes Brown did in fact have more film than the 35 seconds he downlinked. Such footage may have confirmed that foam was missing from the bipod ramp area or could have identified other areas of missing foam. Austinʼs mention of the crewʼs filming of External Tank separation should have prompted someone at the meeting to ask Brown if he had more External Tank separation film, and if so, to downlink it immediately.
+
+%%page 149%%
 
 > Flight Director Steve Stich discussed the debris strike with Phil Engelauf, a member of the Mission Operations Directorate, after Engelauf returned from the Mission Management Team meeting. As written in a timeline Stich composed after the accident, the conversation included the following.
 
@@ -5703,6 +5719,8 @@ Calvin,
 [Acreage=larger areas of foam coverage]
 
 Ron Dittermore e-mailed Linda Ham the following.
+
+%%page 155%%
 
 From: DITTEMORE, RONALD D. (JSC-MA) (NASA) Sent: Wednesday, January 22, 2003 10:15 AM To: HAM, LINDA J. (JSC-MA2) (NASA) Subject: RE: ET Briefing - STS-112 Foam Loss
 
@@ -7669,6 +7687,8 @@ The Boardʼs perspective assumes, of course, that the United States wants to ret
 
 Two proposals – a capsule (above) and a winged vehicle - for the Orbital Space Plane, courtesy of The Boeing Company.
 
+%%page 212%%
+
 ## ENDNOTES FOR CHAPTER 9
 
 The citations that contain a reference to "CAIB document" with CAB or CTF followed by seven to eleven digits, such as CAB001-0010, refer to a document in the Columbia Accident Investigation Board database maintained by the Department of Justice and archived at the National Archives.
@@ -8131,6 +8151,8 @@ Observation:
 
 10.12-1 NASA should implement an agency-wide strategy for leadership and management training that provides a more consistent and integrated approach to career development. This strategy should identify the management and leadership skills, abilities, and experiences required for each level of advancement. NASA should continue to expand its leadership development partnerships with the Department of Defense and other external organizations.
 
+%%page 224%%
+
 ## ENDNOTES FOR CHAPTER 10
 
 The citations that contain a reference to "CAIB document" with CAB or
@@ -8579,6 +8601,8 @@ The National Archives and Records Administration can be contacted at 301.837.313
 ## A.7 LIST OF PUBLIC HEARINGS
 
 The Board held public hearings to listen to and question expert witnesses. A list of these hearings, and the participating witnesses, follows; transcripts of the hearings are available in Appendix G. March 6, 2003 Houston, Texas Review of NASAʼs Organizational Structure and Recent Space Shuttle History Lt. Gen. Jefferson D. Howell, Jr., Director, NASA Johnson Space Center Mr. Ronald D. Dittemore, Manager, Space Shuttle Program Mr. Keith Y. Chong, Engineer, Boeing Corporation Dr. Harry McDonald, Professor, University of Tennessee March 17, 2003, Houston, Texas Columbia Re-entry Telemetry Data, and Debris Dispersion Timeline Mr. Paul S. Hill, Space Shuttle and International Space Station Flight Director, NASA Johnson Space Center Mr. R. Douglas White, Director for Operations Requirements, Orbiter Element Department, United Space Alliance Prior Orbital Debris Re-entry Data Dr. William H. Ailor, Director, Center for Orbital and Re-entry Debris Studies, The Aerospace Corporation March 18, 2003, Houston, Texas Aero and Thermal Analysis of Columbia Re-entry Data Mr. Jose M. Caram, Aerospace Engineer, Aeroscience and Flight Mechanics Division, NASA Johnson Space Center Mr. Steven G. Labbe, Chief, Applied Aeroscience and Computational Fluid Dynamics Branch, NASA Johnson Space Center Dr. John J. Bertin, Professor of Aerodynamics, United States Air Force Academy Mr. Christopher B. Madden, Deputy Chief, Thermal Design Branch, NASA Johnson Space Center March 25, 2003, Cape Canaveral, Florida Launch Safety Considerations Mr. Roy D. Bridges, Jr., Director, Kennedy Space Center Role of the Kennedy Space Center in the Shuttle Program Mr. William S. Higgins, Chief of Shuttle Processing Safety and Mission Assurance Division, Kennedy Space Center Lt. Gen. Aloysius G. Casey, U.S. Air Force (Retired) March 26, 2003, Cape Canaveral, Florida Debris Collection, Layout, and Analysis, including Forensic Metallurgy Mr. Michael U. Rudolphi, Deputy Director, Stennis Space Center Mr. Steven J. Altemus, Shuttle Test Director, Kennedy Space Center Dr. Gregory T. A. Kovacs, Associate Professor of Electronics, Stanford University Mr. G. Mark Tanner, Vice President and Senior Consulting Engineer, Mechanical & Materials Engineering April 7, 2003, Houston, Texas Post-Flight Analysis, Flight Rules, and the Dynamics of Shedding Foam from the External Tank Col. James D. Halsell, Jr., U.S. Air Force, NASA Astronaut, NASA Johnson Space Center Mr. Robert E. Castle, Jr., Chief Engineer, Mission Operations Directorate, NASA Johnson Space Center Mr. J. Scott Sparks, Department Lead, External Tank Issues, NASA Marshall Space Flight Center Mr. Lee D. Foster, Technical Staff, Vehicle and Systems Development Department, NASA Marshall Space Flight Center
+
+%%page 238%%
 
 April 8, 2003, Houston, Texas
 

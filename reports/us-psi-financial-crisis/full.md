@@ -5212,6 +5212,8 @@ In response to the Viniar meeting, the Mortgage Department took immediate action
 
 > [SEE CHART NEXT PAGE: Notionals (ABX convention), prepared by Goldman Sachs, reformatted by the Permanent Subcommittee on Investigations to be readable in black and white print, GS MBS-E- 010214410.]
 
+%%page 407%%
+
 Notionals (ABX convention)
 
 10,000,000,000
@@ -5399,6 +5401,8 @@ Goldman personnel prepared the following chart tracking the SPG Trading Desk's e
 > [SEE CHART NEXT PAGE: Notionals (ABX convention), prepared by Goldman Sachs, reformatted by the Permanent Subcommittee on Investigations to be readable in black and white print, GS MBS-E- 012890600.]
 
 AAA Disaster Insurance. Despite all the attention paid to the Mortgage Department's subprime mortgage holdings beginning in December 2006, one large short position seemed to have escaped the directives of senior management in the first quarter of 2007 to cover the Department's shorts. It consisted of a massive $9 billion net short position made up of CDS contracts referencing an ABX index that tracked a basket of 20 AAA rated subprime RMBS securities.[^1710] Goldman representatives could not recall when that short position was acquired, who acquired it, or whether proprietary funds were used,[^1711] but the CDS contracts appear to have been held at a relatively constant level of $9 billion from some time in 2006 until July 2007.[^1712] Mr. Sparks told the Subcommittee that the net short position served as a form of low cost "disaster insurance" that would pay off only in a "worst case" scenario – when even the top tier AAA rated RMBS securities, among the safest of all subprime mortgage investments, lost value.[^1713]
+
+%%page 420%%
 
 Notionals (ABX convention)
 
@@ -5746,6 +5750,8 @@ The Top Sheet was literally the top sheet, or cover page, to a comprehensive rep
 
 > [SEE CHART NEXT PAGE: Goldman Sachs Mortgage Department Total Net Short Position, prepared by the Permanent Subcommittee on Investigations.]
 
+%%page 448%%
+
 Goldman Sachs Mo rtgage Department Tot al Net Short Position, February - December 2007 in S Billions
 
 (Market Value, Including All Synt hetic and Cash Positions in Mortgage Related Products)
@@ -5853,6 +5859,8 @@ The pattern created by the Mortgage Department's increasing VAR levels, and the 
 > [SEE CHART NEXT PAGE: Goldman Sachs Mortgage Department Value at Risk (VaR), prepared by Permanent Subcommittee on Investigations.]
 
 The continual increases in the Mortgage Department's VAR also had an impact on VAR for all of Goldman's trading activities, called "Trading VAR" or "Firmwide VAR." Goldman carefully tracked the amount of its trading VAR that was attributable to the activities of each of its trading desks or units. During the first quarter of 2007, its records show that the firm's Trading VAR rose from $119 million in the prior quarter to $154 million.[^1926] Goldman has stated that its Mortgage Department's activities have historically resulted in only about 2% of the firm's net revenues.[^1927] At the end of 2006, the Mortgage Department's VAR of $14 million contributed only about 3% of the Firmwide Trading VAR of $119 million, which is roughly consistent with or proportionate to the 2% contribution to firmwide net revenues that Goldman has reported.[^1928]
+
+%%page 461%%
 
 > Goldman Sachs Mortgage Department Value at Risk (VaR) December 2006 - December 2007 (in $ Millions)
 
@@ -6247,6 +6255,8 @@ Reduced RMBS Business. By the end of 2007, Goldman had substantially reduced its
 %%page 490%%
 
 > [SEE CHART NEXT PAGE: Goldman Sachs Long Cash Subprime Mortgage Exposure, prepared by the Permanent Subcommittee on Investigations, Hearing Exhibit 163.]
+
+%%page 491%%
 
 > Goldman Sachs Long Cash Subprime Mortgage Exposure, Investments in Subprime Mortgage Loans, and Investments in Subprime Mortgage Backed Securities November 24, 2006 vs. August 31, 2007 - in $ Billions
 
@@ -7018,6 +7028,8 @@ The chart on the next page shows how, between mid-June 2007 and early August 200
 
 > [SEE CHART NEXT PAGE: Timberwolf Marks, Axes, and Sales, prepared by the Permanent Subcommittee on Investigations.]
 
+%%page 558%%
+
 > Timberwolf Marks, Axes, and Sales 3/1/2007 3/31/2007 4/30/2007 5/30/2007 6/29/2007 7/29/2007 8/28/2007 9/27/2007 10/27/2007 11/26/2007 12/26/2007
 
 > Sales of 120 TWOLF‐ 3/13/07: A1A‐ $99.45 Axes (Sales A1B‐ $100 A1C‐ $99.71 Directives) A1D‐ $100 INC‐ $100
@@ -7318,6 +7330,8 @@ On January 3, 2008, Daniel Sparks, the Mortgage Department head, was given a spr
 
 > [SEE CHART NEXT PAGE: Credit Risk Assets, prepared by Goldman Sachs.]
 
+%%page 582%%
+
 Credit Risk Assets (%)
 
 35.00%
@@ -7349,6 +7363,8 @@ The spreadsheet also showed that the weighted average values of the Hudson asset
 Hudson Conflict of Interest. Despite the falling values and Morgan Stanley's ongoing request to initiate liquidation of the Credit Risk Assets as set out in the Hudson 1 agreement, Goldman still did not begin liquidating.
 
 During January and February 2008, Morgan Stanley engaged in frequent communications with Goldman personnel, including Mr. Lehman who oversaw Goldman's CDOs, and Mr. Case who oversaw the liquidation agent function, to initiate liquidation of the Hudson assets.[^2603] The falling value of the Hudson assets caused sharp losses in Morgan Stanley's $1.2 billion investment, leading Morgan Stanley to press for the Credit Risk Assets to be liquidated and removed from the CDO as soon as possible. In contrast, as the Hudson assets fell in value, Goldman, as the CDO's sole short party, saw its short position become increasingly profitable. Goldman had little financial incentive to liquidate the Credit Risk Assets, because the more they fell in value, the more Goldman was able to maximize the profits from its short position in the CDO. Goldman's dual roles as liquidation agent and short party, thus, created a conflict of interest that disadvantaged the long investors in the Hudson CDO, such as Morgan Stanley.[^2604]
+
+%%page 584%%
 
 Weighted Average Levels
 

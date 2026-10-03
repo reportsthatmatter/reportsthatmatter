@@ -15236,7 +15236,7 @@ Specialist Operations in the MPS, sought to describe this interrelationship:[^14
 
 %%page 747%%
 
-2.10 The importance of the relationship was echoed in the evidence throughout this part of the Inquiry by police and press alike. By way of example, former Commissioner of the Metropolitan Police Lord Condon told the Inquiry how strong relations with the media were "…essential and in the public interest." 17 They enabled him to give confidential briefings to the press on sensitive issues such as terrorism, preventing potential leaks that would have damaged police investigations.[^18] Similarly, Assistant Commissioner Dick described the relationship as: "…crucial and important…".[^19] In addition, many crimes were solved as a direct result of assistance from the media who communicate with the public at large.[^20]
+2.10 The importance of the relationship was echoed in the evidence throughout this part of the Inquiry by police and press alike. By way of example, former Commissioner of the Metropolitan Police Lord Condon told the Inquiry how strong relations with the media were "…essential and in the public interest."[^17] They enabled him to give confidential briefings to the press on sensitive issues such as terrorism, preventing potential leaks that would have damaged police investigations.[^18] Similarly, Assistant Commissioner Dick described the relationship as: "…crucial and important…".[^19] In addition, many crimes were solved as a direct result of assistance from the media who communicate with the public at large.[^20]
 
 2.11 As a counterpoint to this relationship, Sandra Laville, crime correspondent for the Guardian, argued, I have no doubt correctly, that journalism had a legitimate and proper role in a democratic society to interrogate, challenge and question in the public interest or, in other words, to be the peoples' eyes and ears.[^21] Mrs Filkin, in her evidence to the Inquiry, agreed with this contention and reiterated the importance of the police maintaining a strong working relationship with the media given the coercive powers afforded to policing.[^22] Mrs Filkin argued therefore that the police should actively protect proper scrutiny of their work:[^23]
 
@@ -15272,7 +15272,7 @@ MPS, observed:[^28]
 
 3.7 Jerry Kirkby, Assistant Chief Constable of Surrey Police, explained that following the disappearance of Milly Dowler, Surrey Police media relations officers described the media demands made upon them as "alien", "a steep learning curve", "just immense", "relentless" and "overwhelming".[^32] Senior police officers involved in the case described elements of the press as "extremely demanding, and in some respects mischievous", and the level of interest as "unprecedented and immense".[^33] The unprecedented demands also meant that some parts of the media felt that they were not being given the information that they required, and this led to some tensions.[^34]
 
-3.8 This tension in the relationship between the press and the police can also have unwanted consequences for those caught in the middle of a major investigation. Christopher Jeffries, who was arrested in connection with the murder of Joanna Yeates, described the media interest in him as "enormous". He said that he was effectively under house arrest moving between friends' houses like "a recusant priest." 35 From the police perspective, Detective Chief Inspector Philip Jones described it as "an unrelenting media interest from the point that Joanna was reported missing".[^36]
+3.8 This tension in the relationship between the press and the police can also have unwanted consequences for those caught in the middle of a major investigation. Christopher Jeffries, who was arrested in connection with the murder of Joanna Yeates, described the media interest in him as "enormous". He said that he was effectively under house arrest moving between friends' houses like "a recusant priest."[^35] From the police perspective, Detective Chief Inspector Philip Jones described it as "an unrelenting media interest from the point that Joanna was reported missing".[^36]
 
 3.9 Dr Gerry McCann said of the media interest following the disappearance of their daughter Madeleine: "Nothing could have prepared us for the unprecedented media coverage, particularly in Portugal and the UK which followed" and spoke of "the intensity of media focus".[^37]
 
@@ -34473,9 +34473,11 @@ I recommend that a regulatory body should put such a mechanism in place.[^16]
 
 > I recommend that the industry generally, and a regulatory body in particular, should consider requiring its members to include in their contracts with journalist staff a clause to prevent any disciplinary action being taken against a journalist as a result of his or her refusing to do something which is contrary to the code of practice.[^17]
 
+%%page 1801%%
+
 ## PART L SUMMARY OF RECOMMENDATIONS
 
-L
+%%page 1803%%
 
 Summary of recommendations Regulatory Models for the Future Establishing an independent self-regulatory regime Independence: appointments 1. An independent self regulatory body should be governed by an independent Board. In order to ensure the independence of the body, the Chair and members of the Board must be appointed in a genuinely open, transparent and independent way, without any influence from industry or Government.[^1]
 
@@ -34490,6 +34492,8 @@ Summary of recommendations Regulatory Models for the Future Establishing an inde
 5\. The members of the Board should be appointed by the same appointment panel that appoints the Chair, together with the Chair (once appointed), and should:
 
 (a) be appointed by a fair and open process; (b) comprise a majority of people who are independent of the press; (c) include a sufficient number of people with experience of the industry who may include former editors and senior or academic journalists; (d) not include any serving editor; and (e) not include any serving member of the House of Commons or any member of the Government.[^5]
+
+%%page 1804%%
 
 Independence: funding 6. Funding for the system should be settled in agreement between the industry and the Board, taking into account the cost of fulfilling the obligations of the regulator and the commercial pressures on the industry. There should be an indicative budget which the Board certifies is adequate for the purpose. Funding settlements should cover a four or five year period and should be negotiated well in advance.[^6]
 
@@ -34511,6 +34515,8 @@ Complaints 10. The Board should require all those who subscribe to have an adequ
 
 11\. The Board should have the power to hear and decide on complaints about breach of the standards code by those who subscribe. The Board should have the power (but not necessarily in all cases depending on the circumstances the duty) to hear complaints whoever they come from, whether personally and directly affected by the alleged breach, or a representative group affected by the alleged breach, or a third party seeking to ensure accuracy of published information. In the case of third party complaints the views of the party most closely involved should be taken into account.[^11]
 
+%%page 1805%%
+
 12\. Decisions on complaints should be the ultimate responsibility of the Board, advised by complaints handling officials to whom appropriate delegations may be made.[^12]
 
 13\. Serving editors should not be members of any Committee advising the Board on complaints and any such Committee should have a composition broadly reflecting that of the main Board, with a majority of people who are independent of the press.[^13]
@@ -34528,6 +34534,8 @@ Powers, Remedies and Sanctions 15. In relation to complaints, the Board should h
 19\. The Board should have the power to impose appropriate and proportionate sanctions, (including financial sanctions up to 1% of turnover with a maximum of £1m), on any subscriber found to be responsible for serious or systemic breaches of the standards code or governance requirements of the body. The sanctions that should be available should include power to require publication of corrections, if the breaches relate to accuracy, or apologies if the breaches relate to other provisions of the code.[^19]
 
 20\. The Board should have both the power and a duty to ensure that all breaches of the standards code that it considers are recorded as such and that proper data is kept that records the extent to which complaints have been made and their outcome; this information should be made available to the public in a way that allows understanding of the compliance record of each title.[^20]
+
+%%page 1806%%
 
 Reporting 21. The Board should publish an Annual Report identifying:
 
@@ -34553,6 +34561,8 @@ Encouraging membership 23. A new system of regulation should not be considered s
 
 26\. It should be open any subscriber to a recognised regulatory body to rely on the fact of such membership and on the opportunity it provides for the claimant to use a fair, fast and inexpensive arbitration service. It could request the court to encourage the use of that system of arbitration and, equally, to have regard to the availability of the arbitration system when considering claims for costs incurred by a claimant who could have used the arbitration service. On the issue of costs, it should equally be open to a claimant to rely on failure by a newspaper to subscribe to the regulator thereby depriving him or her of access to a fair, fast and inexpensive arbitration service. Where that is the case, in the exercise of its discretion, the court could take the view that, even where the defendant is successful, absent unreasonable or vexatious conduct on the part of the claimant, it would be inappropriate for the claimant to be expected to pay the costs incurred in defending the action.[^26]
 
+%%page 1807%%
+
 Recognition 27. In order to meet the public concern that the organisation by the press of its regulation is by a body which is independent of the press, independent of Parliament and independent of the Government, that fulfils the legitimate requirements of such a body and can provide, by way of benefit to its subscribers, recognition of involvement in the maintenance of high standards of journalism, the law must identify those legitimate requirements and provide a mechanism to recognise and certify that a new body meets them.[^27]
 
 28\. The responsibility for recognition and certification of a regulator shall rest with a recognition body. In its capacity as the recognition body, it will not be involved in regulation of any subscriber.[^28]
@@ -34566,6 +34576,8 @@ Recognition 27. In order to meet the public concern that the organisation by the
 32\. It should be possible for the recognition body to recognise more than one regulatory body, should more than one seek recognition and meet the criteria, although this is not an outcome to be advocated and, should it be necessary for that step to be taken, would represent a failure on the part of the industry.[^32]
 
 33\. In passing legislation to identify the legitimate requirements to be met by an independent regulator organised by the press, and to provide for a process of recognition and review of whether those requirements are and continue to be met, the law should also place an explicit duty on the Government to uphold and protect the freedom of the press.[^33]
+
+%%page 1808%%
 
 Recommendations for a self-regulatory body
 
@@ -34587,6 +34599,8 @@ Powers and sanctions 37. A regulatory body should be prepared to allow a complai
 
 Protecting the public 40. A new regulatory body should continue to provide advice to the public in relation to issues concerning the press and the Code along with a service to warn the press, and other relevant parties such as broadcasters and press photographers, when an individual has made it clear that they do not welcome press intrusion.[^41]
 
+%%page 1809%%
+
 41\. A new regulatory body should make it clear that newspapers will be held strictly accountable, under their standards code, for any material that they publish, including photographs (however sourced).[^42]
 
 The public interest 42. A regulatory body should provide guidance on the interpretation of the public interest that justifies what would otherwise constitute a breach of the Code. This must be framed in the context of the different provisions of the Code relating to the public interest, so as to make it easier to justify what might otherwise be considered as contrary to standards of propriety.[^43]
@@ -34600,6 +34614,8 @@ Access to information 45. A new regulatory body should consider encouraging the 
 Protecting journalists 46. A regulatory body should establish a whistleblowing hotline for those who feel that they are being asked to do things which are contrary to the code.[^47]
 
 47\. The industry generally and a regulatory body in particular should consider requiring its members to include in the employment or service contracts with journalists a clause to the effect that no disciplinary action would be taken against a journalist as a result of a refusal to act in a manner which is contrary to the code of practice.[^48]
+
+%%page 1810%%
 
 The Press and Data Protection
 
@@ -34641,6 +34657,8 @@ The recommendation on the removal of the right of subject access from the scope 
 
 (b) sections 44 to 46 inclusive should be repealed.[^52]
 
+%%page 1811%%
+
 52\. In conjunction with the repeal of those procedural provisions, consideration should be given to the desirability of including in the Data Protection Act 1998 a provision to the effect that, in considering the exercise of any powers in relation to the media or other publishers, the Information Commissioner's Office should have special regard to the obligation in law to balance the public interest in freedom of expression alongside the public interest in upholding the data protection regime.[^53]
 
 53\. Specific provision should be made to the effect that, in considering the exercise of any of its powers in relation to the media or other publishers, the Information Commissioner's Office must have regard to the application to a data controller of any relevant system of regulation or standards enforcement which is contained in or recognised by statute.[^54]
@@ -34656,6 +34674,8 @@ The recommendation on the removal of the right of subject access from the scope 
 Recommendations to the Information Commissioner 58. The Information Commissioner's Office should take immediate steps to prepare, adopt and publish a policy on the exercise of its formal regulatory functions in order to ensure that the press complies with the legal requirements of the data protection regime.[^59]
 
 59\. In discharge of its functions and duties to promote good practice in areas of public concern, the Information Commissioner's Office should take immediate steps, in consultation with the industry, to prepare and issue comprehensive good practice guidelines and advice on appropriate principles and standards to be observed by the press in the processing of personal data. This should be prepared and implemented within six months from the date of this Report.[^60]
+
+%%page 1812%%
 
 60\. The Information Commissioner's Office should take steps to prepare and issue guidance to the public on their individual rights in relation to the obtaining and use by the press of their personal data, and how to exercise those rights.[^61]
 
@@ -34685,6 +34705,8 @@ Council of England and Wales to prepare guidelines in relation to data protectio
 
 (including computer misuse).[^69]
 
+%%page 1813%%
+
 68\. The Home Office should consider and, if necessary, consult upon:[^70]
 
 (a) whether paragraph 2(b) of Schedule 1 to the Police and Criminal Evidence Act 1984
@@ -34707,6 +34729,8 @@ should be adopted in relation to its recommendations that legislation should pro
 
 Costs 73. The Civil Procedure Rules should be amended to require the court, when considering the appropriate order for costs at the conclusion of proceedings, to take into account the availability of an arbitral system set up by an independent regulator itself recognised by law. The purpose of this recommendation is to provide an important incentive for every publisher to join the new system and encourage those who complain that their rights have been infringed to use it as a speedy, effective and comparatively inexpensive method of resolving disputes.[^75]
 
+%%page 1814%%
+
 74\. In the absence of the provision of an approved mechanism for dispute resolution, available through an independent regulator without cost to the complainant, together with an adjustment to the Civil Procedure Rules to require or permit the court take account of the availability of cost free arbitration as an alternative to court proceedings, qualified one way costs shifting should be introduced for defamation, privacy, breach of confidence and similar media related litigation as proposed by Lord Justice Jackson.[^76]
 
 The Press and the Police
@@ -34722,6 +34746,8 @@ Off-the-record briefings 75. The term 'off-the-record briefing' should be discon
 > "Police officers and staff should ask: 'am I the person responsible for communicating about this issue and is there a policing purpose for doing so?' If the answer to both parts of this question is 'yes', they should go ahead."
 
 Leaks of information 78. The Police Service should re-examine the rigour of the auditing process and the frequency of the conduct of audits in relation to access to the Police National Computer (PNC). Additional consideration should also be given to the number of people given access to the PNC and the associated rules which govern its usage.[^80]
+
+%%page 1815%%
 
 Gifts, hospitality and entertainment 79. The recent ACPO Guidance should more specifically spell out the dangers of consuming alcohol in a setting of casual hospitality (without necessarily specifying a blanket ban).[^81]
 
@@ -34742,6 +34768,8 @@ Corruption, whistleblowing and related matters 81. An enhanced system for protec
 > the recipient of complaints about Chief Constables made to the IPCC. In the event that he or she may already have given informal advice in relation to the subject-matter of the complaint, as per sub-paragraph (c) above, a substitute HMI would be deputed to act; and
 
 (f) Chief Officers should also be the subject of regular independent scrutiny by HMIC, including through unannounced inspections.
+
+%%page 1816%%
 
 The Press and Politicians 82. As a first step, political leaders should reflect constructively on the merits of publishing on behalf of their party a statement setting out, for the public, an explanation of the approach they propose to take as a matter of party policy in conducting relationships with the press.[^84]
 
@@ -34764,6 +34792,8 @@ Plurality and Media Ownership 85. The particular public policy goals of ensuring
 88\. The levels of influence that would give rise to concerns in relation to plurality must be lower, and probably considerably lower, than the levels of concentration that would give rise to competition concerns.[^90]
 
 89\. Ofcom has presented the Inquiry and the Government with a full menu of potential remedies, and it has not been argued or suggested that any of them are inappropriate in principle. Each of them might be appropriate in a given set of circumstances and the relevant regulatory authority should have all of them in its armoury.[^91]
+
+%%page 1817%%
 
 90\. The Government should consider whether periodic plurality reviews or an extension to the public interest test within the markets regime in competition law is most likely to provide a timely warning of, and response to, plurality concerns that develop as the result of organic growth, recognising that the proposal for a regular plurality review is more closely focussed on plurality issues.[^92]
 
@@ -53052,7 +53082,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^4]: Part K, Chapter 7, para 4.10
 
-[^5]: Part K, Chapter 7, para 4.10 1803 L
+[^5]: Part K, Chapter 7, para 4.10
 
 [^6]: Part K, Chapter 7, para 4.16
 
@@ -53064,7 +53094,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^10]: Part K, Chapter 7, para 4.26
 
-[^11]: Part K, Chapter 7, para 4.30 L 1804
+[^11]: Part K, Chapter 7, para 4.30
 
 [^12]: Part K, Chapter 7, para 4.31
 
@@ -53082,7 +53112,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^19]: Part K, Chapter 7, para 4.38
 
-[^20]: Part K, Chapter 7, para 4.36 1805 L
+[^20]: Part K, Chapter 7, para 4.36
 
 [^21]: Part K, Chapter 7, para 4.42
 
@@ -53092,7 +53122,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^24]: Part K, Chapter 7, para 4.13
 
-[^25]: Part K, Chapter 7, para 5.2 L 1806
+[^25]: Part K, Chapter 7, para 5.2
 
 [^26]: Part K, Chapter 7, para 5.5
 
@@ -53108,7 +53138,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^32]: Part K, Chapter 7, para 6.37
 
-[^33]: Part K, Chapter 7, para 6.41 1807 L
+[^33]: Part K, Chapter 7, para 6.41
 
 [^34]: Part K, Chapter 3, para 4.26
 
@@ -53124,7 +53154,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^40]: Part K, Chapter 7, para 4.39
 
-[^41]: Part K, Chapter 7, Para 4.35 L 1808
+[^41]: Part K, Chapter 7, Para 4.35
 
 [^42]: Part F, Chapter 6, paragraphs 4.6 and 5.19
 
@@ -53138,7 +53168,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^47]: Part K, Chapter 3, para 4.28
 
-[^48]: Part K, Chapter 4, para 16.4 1809 L
+[^48]: Part K, Chapter 4, para 16.4
 
 [^49]: Part H, Chapter 5, para 2.59
 
@@ -53146,7 +53176,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^51]: Part H, Chapter 5, para 2.61
 
-[^52]: Part H, Chapter 5, para 2.45 L 1810
+[^52]: Part H, Chapter 5, para 2.45
 
 [^53]: Part H, Chapter 5, para 2.56
 
@@ -53162,7 +53192,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^59]: Part H, Chapter 5, para 2.63
 
-[^60]: Part H, Chapter 5, para 2.71 1811 L
+[^60]: Part H, Chapter 5, para 2.71
 
 [^61]: Part H, Chapter 5, para 2.72
 
@@ -53180,7 +53210,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^68]: Part H, Chapter 5, paras 2.94-2.95
 
-[^69]: Part J, Chapter 2, para 9.1 L 1812
+[^69]: Part J, Chapter 2, para 9.1
 
 [^70]: Part J, Chapter 2, para 9.11
 
@@ -53190,7 +53220,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^73]: Part J, Chapter 3, para 5.8
 
-[^74]: Part J, Chapter 3, para 5.10 1813 L
+[^74]: Part J, Chapter 3, para 5.10
 
 [^75]: Part J, Chapter 3, para 6.9
 
@@ -53202,13 +53232,13 @@ TSO@Blackwell and other Accredited Agents
 
 [^79]: Part G, Chapter 4, para 4.10
 
-[^80]: Part G, Chapter 4, para 5.6 L 1814
+[^80]: Part G, Chapter 4, para 5.6
 
 [^81]: Part G, Chapter 4, para 6.4
 
 [^82]: Part G, Chapter 4, para 7.6
 
-[^83]: Part G, Chapter 4, para 8.14 1815 L
+[^83]: Part G, Chapter 4, para 8.14
 
 [^84]: Part I, Chapter 8, para 5.9
 
@@ -53224,13 +53254,13 @@ TSO@Blackwell and other Accredited Agents
 
 [^90]: Part I, Chapter 9, para 4.19
 
-[^91]: Part I, Chapter 9, para 4.20 L 1816
+[^91]: Part I, Chapter 9, para 4.20
 
 [^92]: Part I, Chapter 9, para 5.14
 
 [^93]: Part I, Chapter 9, para 6.10
 
-[^94]: Part I, Chapter 9, para 6.11 1817 L
+[^94]: Part I, Chapter 9, para 6.11
 
 [^2]: Adopted and opened for signature, ratification and accession by UN General Assembly resolution 2200A (XXI) of 16 December 1966, entry into force 23 March 1976
 

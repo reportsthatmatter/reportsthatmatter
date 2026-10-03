@@ -6565,6 +6565,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | NCTC | National Counterterrorism Center |
 | NGO | nongovernmental organization |
 | NMCC | National Military Command Center |
+
+%%page 430%%
+
+|  |  |
+| --- | --- |
 | NORAD | North American Aerospace Defense Command |
 | NTSB | National Transportation Safety Board |
 | NSA | National Security Agency |
@@ -6585,8 +6590,6 @@ We look forward to a national debate on the merits of what we have recommended, 
 | WMD | weapons of mass destruction |
 | WTC | World Trade Center |
 | WTO | World Trade Organization |
-
-%%page 430%%
 
 %%page 431%%
 
@@ -6613,6 +6616,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Richard Clarke | National Counterterrorism Coordinator, NSC, 1997–2001 |
 | William J. Clinton | 42nd President of the United States, 1993–2001 |
 | William Cohen | Secretary of Defense, 1997–2001 |
+
+%%page 432%%
+
+|  |  |
+| --- | --- |
 | Roger Cressey | NSC counterterrorism official, 1999–2001 |
 | Ralph Eberhart | Commander in Chief, NORAD and U.S. Space Command, 2000- |
 | Tommy Franks | Commander, U.S. Central Command (CENTCOM), 2001–2003 |
@@ -6641,6 +6649,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Paul O'Neill | Secretary of the Treasury, 2001–2002 |
 | James Pavitt | Deputy Director of Operations, CIA, 1999–2004 |
 | Thomas Pickard | Acting Director, Federal Bureau of Investigation, June 25, 2001–September 4, 2001 |
+
+%%page 433%%
+
+|  |  |
+| --- | --- |
 | Thomas Pickering | Under Secretary of State, 1997–2000 |
 | Colin Powell | Secretary of State, 2001- |
 | Ronald Reagan | 40th President of the United States, 1981–1989 |
@@ -6665,10 +6678,6 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Paul Wolfowitz | Deputy Secretary of Defense, 2001- |
 | Anthony Zinni | Commander, U.S. Central Command (CENTCOM), 1997–2000 |
 
-%%page 432%%
-
-%%page 433%%
-
 #### OTHERS
 
 |  |  |
@@ -6678,6 +6687,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Sayf al Adl | Egyptian; high-ranking member of al Qaeda military committee |
 | Mahmud Ahmed | Director General of Pakistan's Inter-Services Intelligence Directorate, 1999–2001 |
 | Mohammed Farrah Aidid | Somali warlord who challenged U.S. presence in Somalia in the early 1990s (deceased) |
+
+%%page 434%%
+
+|  |  |
+| --- | --- |
 | Ali Abdul Aziz Ali | a.k.a.Ammar al Baluchi) Pakistani; KSM's nephew; financial and travel facilitator for 9/11 plot |
 | Ahmad Khalil Ibrahim Samir al Ani | Iraqi intelligence officer who allegedly met with Atta in Prague, Czech Republic; currently in U.S. custody |
 | Mohamed Atta | Egyptian; tactical leader of 9/11 plot; pilot/hijacker (AA 11) (deceased) |
@@ -6696,6 +6710,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Abu Bakar Bashir | Indonesian; spiritual leader and founder of Jemaah Islamiya, al Qaeda–affiliated terrorist group in Southeast Asia |
 | Omar al Bayoumi | Saudi; assisted two 9/11 hijackers in San Diego, CA |
 | Khalil Deek | U.S. citizen; created electronic version of Encyclopedia of Jihad; believed to be involved in millennium plot to destroy tourist landmarks in Jordan |
+
+%%page 435%%
+
+|  |  |
+| --- | --- |
 | Caysan Bin Don | (a.k.a Isamu Dyson, a.k.a Clayton Morgan) U.S. citizen; met two 9/11 hijackers in Los Angeles and San Diego, CA |
 | Zakariya Essabar | Moroccan; Hamburg cell associate |
 | Jamal Ahmed Mohamed al Fadl | Sudanese; al Qaeda member who defected to the United States in 1996 |
@@ -6721,6 +6740,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Riduan Isamuddin | (a.k.a. Hambali) Indonesian; operational leader of Jemaah Islamiya; currently in U.S. custody |
 | Ziad Jarrah | Lebanese; 9/11 pilot/hijacker (UA 93) (deceased) |
 | Abderraouf Jdey | (a.k.a. Faruq al Tunisi) Tunisian/Canadian; candidate 9/11 hijacker |
+
+%%page 436%%
+
+|  |  |
+| --- | --- |
 | Mohamed al Kahtani | Saudi; candidate 9/11 hijacker; currently in U.S. custody |
 | Mir Amal Kansi | Pakistani; extremist who killed two CIA employees at CIA headquarters in Virginia in 1993 (executed) |
 | Hamid Karzai | Interim Leader and later President of Afghanistan, Dec. 2001- |
@@ -6747,6 +6771,11 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Mullah Mohammed Omar | Leader of Afghanistan's Taliban, which ruled most of the country from 1996 to 2001 |
 | Abdul Aziz al Omari | Saudi; 9/11 hijacker (AA 11) (deceased) |
 | Muammar Qadhafi | Leader of Libya, 1970- |
+
+%%page 437%%
+
+|  |  |
+| --- | --- |
 | Fahd al Quso | Yemeni; al Qaeda co-conspirator arrested in Yemen for the USS Cole attack |
 | Sayyid Qutb | Egyptian writer; member of Muslim Brotherhood (deceased) |
 | Eyad al Rababah | Jordanian; Virginia resident who helped Hazmi and Hanjour |
@@ -6770,22 +6799,17 @@ We look forward to a national debate on the merits of what we have recommended, 
 | Zuhair al Thubaiti | Saudi; candidate 9/11 hijacker |
 | Fahad al Thumairy | Saudi; Imam of King Fahd mosque in Los Angeles; accredited diplomat at Saudi Consulate in Los Angeles |
 | Hassan al Turabi | Sudan's longtime hard-line ideological leader and Speaker of the country's National Assembly during the 1990s |
+
+%%page 438%%
+
+|  |  |
+| --- | --- |
 | Prince Turki bin Faisal Ramzi Yousef | Saudi intelligence chief prior to 9/11 (a.k.a.Abdul Basit) Pakistani; convicted mastermind of and co-conspirator in 1993 WTC bombing and Manila air (Bojinka) plots |
 | Khalid Saeed Ahmad al Zahrani | Saudi; candidate 9/11 hijacker |
 | Mohammed Haydar Zammar | German citizen from Syria; jihadist; possible recruiter of Hamburg cell members |
 | Ayman al Zawahiri | Egyptian; UBL's deputy and leader of Egyptian Islamic Jihad terrorist group |
 | Hamdan Bin Zayid | Emirati; Minister of State for Foreign Affairs of the United Arab Emirates |
 | Abu Zubaydah | *see* Zein al Abideen Mohamed Hussein |
-
-%%page 434%%
-
-%%page 435%%
-
-%%page 436%%
-
-%%page 437%%
-
-%%page 438%%
 
 %%page 439%%
 
