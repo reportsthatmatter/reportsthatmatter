@@ -538,3 +538,7 @@ even if a step gets skipped.
 - Each report has its own repo under the `reportsthatmatter` org, holding the
   source PDF and a README recording where it came from. Clone it as a sibling
   directory before re-ingesting.
+
+## Decisions and open questions
+
+When a question of direction comes up (format, policy, sources, hosting, editorial), don't settle it in chat or in a PR description. Add a record to `docs/decisions/` (copy `0000-template.md`, status `open` or `proposed`) and a bead labelled `decision`, then carry on. Rufus decides open questions; update the record and close the bead when he does. See `docs/decisions/README.md`.
