@@ -849,6 +849,32 @@ hr {
   margin: 3rem 0;
 }
 
+/* Code and diffs in blog posts and other site pages (not report text, which
+ * has none). Long lines wrap rather than widen the page on a phone. */
+.prose:not(#report-body) code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+}
+
+.prose:not(#report-body) pre {
+  margin: 0 0 1.6rem;
+  padding: 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.prose:not(#report-body) pre code {
+  font-size: inherit;
+}
+
+.prose:not(#report-body) img {
+  margin: 2rem 0;
+}
+
 /* ---------- paragraph permalinks ---------- */
 
 .prose p[id] .permalink {

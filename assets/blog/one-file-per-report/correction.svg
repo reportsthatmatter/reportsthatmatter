@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 676" width="640" height="676" role="img" aria-labelledby="t d">
+  <title id="t">How a correction reaches a live page</title>
+  <desc id="d">Seven steps, illustrated with the 9/11 Commission Report's first sentence. Someone spots an error; a correction is added to corrections.yaml; the ingest is re-run and fails unless the correction matches exactly once; the change to full.md is reviewed as a diff in a pull request; the paragraph's old id is recorded as an alias of its new one; a new content-hashed version is published, with the previous version kept for rollback; the live page shows the fix, and an old link to the paragraph redirects to its new id.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#575657"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: #ffffff; stroke: #575657; stroke-width: 1.2; }
+    .note { fill: #f7f7f7; stroke: #cfcfcf; stroke-width: 1; }
+    .n { font: 600 13px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8a8a8c; }
+    .h { font: 600 14px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #252525; }
+    .s { font: 12px -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; fill: #575657; }
+    .c { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #252525; }
+    .del { fill: #fbe9e7; }
+    .add { fill: #e6f4ea; }
+    .dc { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #9b2c1f; }
+    .ac { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #1e6b34; }
+    .line { stroke: #575657; stroke-width: 1.2; fill: none; }
+    .k { font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8a8a8c; letter-spacing: 0.08em; }
+  </style>
+  <rect width="640" height="676" fill="#f7f7f7"/>
+  <text class="k" x="10" y="16">STEP</text>
+  <text class="k" x="250" y="16">WHAT IT LOOKS LIKE (9/11 REPORT, CHAPTER 1)</text>
+
+  <!-- 1 -->
+  <rect class="box" x="10" y="26" width="222" height="64"/>
+  <text class="n" x="22" y="50">1</text>
+  <text class="h" x="42" y="50">Someone spots an error</text>
+  <text class="s" x="42" y="70">a reader, fidelity.md, a check</text>
+  <rect class="note" x="250" y="26" width="380" height="64"/>
+  <text class="c" x="262" y="52">Tue sday, Se ptembe r 11,[^20] 01, dawned</text>
+  <text class="s" x="262" y="74">a drop cap garbled; "20" became note 20</text>
+
+  <path class="line" d="M121,90 L121,112" marker-end="url(#arrow)"/>
+
+  <!-- 2 -->
+  <rect class="box" x="10" y="114" width="222" height="76"/>
+  <text class="n" x="22" y="138">2</text>
+  <text class="h" x="42" y="138">Write a correction</text>
+  <text class="s" x="42" y="158">in corrections.yaml, with</text>
+  <text class="s" x="42" y="174">the page and a reason</text>
+  <rect class="note" x="250" y="114" width="380" height="76"/>
+  <text class="c" x="262" y="136">where: { volume: 1, printed: 1 }</text>
+  <text class="c" x="262" y="154">find: "Tue sday, Se ptembe r 11, 20 01,"</text>
+  <text class="c" x="262" y="172">replace: "Tuesday, September 11, 2001,"</text>
+
+  <path class="line" d="M121,190 L121,212" marker-end="url(#arrow)"/>
+
+  <!-- 3 -->
+  <rect class="box" x="10" y="214" width="222" height="64"/>
+  <text class="n" x="22" y="238">3</text>
+  <text class="h" x="42" y="238">Re-run the pipeline</text>
+  <text class="s" x="42" y="258">same pinned inputs</text>
+  <rect class="note" x="250" y="214" width="380" height="64"/>
+  <text class="s" x="262" y="240">The build fails if the correction matches</text>
+  <text class="s" x="262" y="258">zero times or more than once.</text>
+
+  <path class="line" d="M121,278 L121,300" marker-end="url(#arrow)"/>
+
+  <!-- 4 -->
+  <rect class="box" x="10" y="302" width="222" height="76"/>
+  <text class="n" x="22" y="326">4</text>
+  <text class="h" x="42" y="326">Review the diff</text>
+  <text class="s" x="42" y="346">full.md changes in a pull</text>
+  <text class="s" x="42" y="362">request, line by line</text>
+  <rect class="note" x="250" y="302" width="380" height="76"/>
+  <rect class="del" x="258" y="314" width="364" height="22"/>
+  <text class="dc" x="264" y="329">-Tue sday, Se ptembe r 11,[^20] 01, dawned…</text>
+  <rect class="add" x="258" y="342" width="364" height="22"/>
+  <text class="ac" x="264" y="357">+Tuesday, September 11, 2001, dawned…</text>
+
+  <path class="line" d="M121,378 L121,400" marker-end="url(#arrow)"/>
+
+  <!-- 5 -->
+  <rect class="box" x="10" y="402" width="222" height="76"/>
+  <text class="n" x="22" y="426">5</text>
+  <text class="h" x="42" y="426">Record the moved id</text>
+  <text class="s" x="42" y="446">the id comes from the opening</text>
+  <text class="s" x="42" y="462">words, so it changed too</text>
+  <rect class="note" x="250" y="402" width="380" height="76"/>
+  <text class="s" x="262" y="424">aliases.yaml (generated):</text>
+  <text class="c" x="262" y="446">tue-sday-se-ptembe-r:</text>
+  <text class="c" x="282" y="464">tuesday-september-11-2001-dawned</text>
+
+  <path class="line" d="M121,478 L121,500" marker-end="url(#arrow)"/>
+
+  <!-- 6 -->
+  <rect class="box" x="10" y="502" width="222" height="64"/>
+  <text class="n" x="22" y="526">6</text>
+  <text class="h" x="42" y="526">Publish a new version</text>
+  <text class="s" x="42" y="546">identified by its hash</text>
+  <rect class="note" x="250" y="502" width="380" height="64"/>
+  <text class="s" x="262" y="528">The previous version stays stored, so a bad</text>
+  <text class="s" x="262" y="546">publish can be rolled back.</text>
+
+  <path class="line" d="M121,566 L121,588" marker-end="url(#arrow)"/>
+
+  <!-- 7 -->
+  <rect class="box" x="10" y="590" width="222" height="76"/>
+  <text class="n" x="22" y="614">7</text>
+  <text class="h" x="42" y="614">Live page, old links work</text>
+  <text class="s" x="42" y="634">the fix is visible and the</text>
+  <text class="s" x="42" y="650">old address redirects</text>
+  <rect class="note" x="250" y="590" width="380" height="76"/>
+  <text class="c" x="262" y="614">?p=tue-sday-se-ptembe-r</text>
+  <text class="s" x="262" y="634">302, redirected to</text>
+  <text class="c" x="262" y="654">#tuesday-september-11-2001-dawned</text>
+</svg>
