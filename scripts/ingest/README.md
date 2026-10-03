@@ -9,6 +9,7 @@ pnpm ingest run <id>        # rebuild one report from reports/<id>/ingest.ts
 pnpm ingest verify          # fidelity gates against the real source PDFs, the layout oracle (measure-only except its per-report budgets in `reports/oracle-budget.yaml`, which fail the run when exceeded; --no-oracle, --findings, --ratchet-oracle), then each report's golden pages (golden.yaml; --no-golden, --explain)
 pnpm ingest page <id> <vol> <pdfPage> [--draft] [--fixture <name>]   # one page's layout lines beside the blocks made; a draft golden entry; a test fixture
 pnpm ingest outline <id>    # one line per PDF page (headings, block counts) to choose golden pages from
+pnpm ingest preflight       # is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline run it first; --no-preflight skips)
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
 ```
@@ -39,6 +40,8 @@ A re-ingest that moves paragraph ids also regenerates the report's aliases: afte
 `pnpm ingest aggregate`, `pnpm aliases generate --all` (from a branch based on
 what is published), commit `reports/<id>/aliases.yaml` and `published-ids.txt`
 with it. See AGENTS.md, "Ids move; aliases keep links alive".
+
+After a bump, **reinstall in every report repo** before `pnpm ingest check`: each report's `ingest.ts` imports `@rtm/ingest` from its own `node_modules`, so a repo that was not reinstalled still runs the old library and crashes on whatever the new one exports (v0.18.1: `layoutPageJoins`). `pnpm ingest preflight` lists each repo's pin against its installed version and the `pnpm -C <repo> install` that fixes it.
 
 The pin-bump PR carries a quality report. After the re-ingest, run
 `pnpm quality report --diff origin/main` and paste the table into the PR body:

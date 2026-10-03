@@ -155,6 +155,16 @@ else
   tail -30 "${RUN_DIR}/test.log"
 fi
 
+step "Installed pipeline"
+# A report repo whose node_modules lags its pin (a bump, no `pnpm install` there) crashes the checks below on
+# a missing export instead of showing a diff (reportsthatmatter-14su). Name the repo and the fix first.
+if pnpm ingest preflight >"${RUN_DIR}/preflight.log" 2>&1; then
+  pass "each repo's installed @rtm/ingest is the one it pins"
+else
+  fail "installed @rtm/ingest differs from a pin"
+  tail -30 "${RUN_DIR}/preflight.log"
+fi
+
 step "Ingestion fidelity"
 if [ -f scripts/ingest/cli.ts ] && [ -d reports/jack-smith-vol1 ]; then
   if pnpm ingest verify >"${RUN_DIR}/ingest.log" 2>&1; then
