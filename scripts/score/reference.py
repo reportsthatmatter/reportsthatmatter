@@ -51,6 +51,7 @@ SITE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 PUBLIC_DOMAIN = "Public domain: a work of the United States Government (17 U.S.C. § 105)."
 CROWN = "Crown copyright, reused under the Open Government Licence v3.0 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)."
 
+WAYBACK_SAVILLE_PART = "https://web.archive.org/web/2011id_/http://report.bloody-sunday-inquiry.org/volume01/{name}/"
 WAYBACK_SAVILLE = "https://web.archive.org/web/2011id_/http://report.bloody-sunday-inquiry.org/volume01/chapter{n:03d}/"
 WAYBACK_HILLS = "https://web.archive.org/web/2id_/http://hillsborough.independent.gov.uk/report/main-section/{path}/"
 # the pages Wayback holds (38s.12; chapters 4, 7, 8 and 9 are mostly missing): name -> website path
@@ -87,7 +88,10 @@ REFERENCES = {
         "adapter": "saville",
         "edition": "Report of the Bloody Sunday Inquiry, Volume I, chapters 1-9, the Inquiry's report website (report.bloody-sunday-inquiry.org), via the Wayback Machine (UKGWA blocks scripts)",
         "licence": CROWN,
-        "files": [(WAYBACK_SAVILLE.format(n=n), f"chapter{n:03d}.html") for n in range(1, 10)],
+        # the general introduction and glossary live under volume01/ too (ivg.2); mirrored, but build_saville
+        # reads chapters 1-9 only, so they are not in blocks.jsonl
+        "files": [(WAYBACK_SAVILLE.format(n=n), f"chapter{n:03d}.html") for n in range(1, 10)]
+        + [(WAYBACK_SAVILLE_PART.format(name=name), f"{name}.html") for name in ("general-introduction", "glossary")],
         "caveats": [
             "Footnote numbers restart in every paragraph on the website; notes are matched to ours by body text, not number.",
             "Post-publication corrections were not compared with the PDF (HC 29-I, 15 June 2010).",
