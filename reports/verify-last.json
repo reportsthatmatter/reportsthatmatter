@@ -4,8 +4,8 @@
    "oracle": {
     "headings-missed": 96,
     "headings-spurious": 37,
-    "markers-unlinked": 37,
-    "markers-spurious": 81,
+    "markers-unlinked": 32,
+    "markers-spurious": 100,
     "paragraphs-oversplit": 152,
     "paragraphs-merged": 425,
     "quotes-spurious": 51,
@@ -21,8 +21,8 @@
    "oracle": {
     "headings-missed": 153,
     "headings-spurious": 5,
-    "markers-unlinked": 514,
-    "markers-spurious": 33,
+    "markers-unlinked": 598,
+    "markers-spurious": 27,
     "paragraphs-oversplit": 132,
     "paragraphs-merged": 858,
     "quotes-spurious": 226,
@@ -38,7 +38,7 @@
    "oracle": {
     "headings-missed": 236,
     "headings-spurious": 76,
-    "markers-unlinked": 24,
+    "markers-unlinked": 23,
     "markers-spurious": 138,
     "paragraphs-oversplit": 347,
     "paragraphs-merged": 1971,
@@ -72,8 +72,8 @@
    "oracle": {
     "headings-missed": 1350,
     "headings-spurious": 2,
-    "markers-unlinked": 7451,
-    "markers-spurious": 120,
+    "markers-unlinked": 7497,
+    "markers-spurious": 117,
     "paragraphs-oversplit": 2100,
     "paragraphs-merged": 2537,
     "quotes-spurious": 319,
@@ -89,8 +89,8 @@
    "oracle": {
     "headings-missed": 93,
     "headings-spurious": 4,
-    "markers-unlinked": 503,
-    "markers-spurious": 19,
+    "markers-unlinked": 287,
+    "markers-spurious": 46,
     "paragraphs-oversplit": 537,
     "paragraphs-merged": 724,
     "quotes-spurious": 290,
@@ -104,27 +104,27 @@
   },
   "us-911-commission": {
    "oracle": {
-    "headings-missed": 67,
+    "headings-missed": 64,
     "headings-spurious": 3,
-    "markers-unlinked": 18,
-    "markers-spurious": 17,
-    "paragraphs-oversplit": 113,
-    "paragraphs-merged": 2377,
-    "quotes-spurious": 29,
-    "quotes-missed": 164
+    "markers-unlinked": 6,
+    "markers-spurious": 23,
+    "paragraphs-oversplit": 95,
+    "paragraphs-merged": 2506,
+    "quotes-spurious": 2,
+    "quotes-missed": 198
    },
    "golden": {
-    "match": 2,
+    "match": 4,
     "total": 5,
-    "known": 3
+    "known": 1
    }
   },
   "us-deepwater-horizon": {
    "oracle": {
     "headings-missed": 334,
     "headings-spurious": 0,
-    "markers-unlinked": 2132,
-    "markers-spurious": 600,
+    "markers-unlinked": 1445,
+    "markers-spurious": 824,
     "paragraphs-oversplit": 397,
     "paragraphs-merged": 906,
     "quotes-spurious": 31,
@@ -174,8 +174,8 @@
    "oracle": {
     "headings-missed": 176,
     "headings-spurious": 3,
-    "markers-unlinked": 1394,
-    "markers-spurious": 6,
+    "markers-unlinked": 9,
+    "markers-spurious": 60,
     "paragraphs-oversplit": 226,
     "paragraphs-merged": 1230,
     "quotes-spurious": 552,
@@ -208,8 +208,8 @@
    "oracle": {
     "headings-missed": 45,
     "headings-spurious": 5,
-    "markers-unlinked": 233,
-    "markers-spurious": 20,
+    "markers-unlinked": 221,
+    "markers-spurious": 19,
     "paragraphs-oversplit": 144,
     "paragraphs-merged": 221,
     "quotes-spurious": 143,
@@ -231,36 +231,36 @@
   "headings-spurious": {
    "tp": 1,
    "fp": 3,
-   "fn": 6
+   "fn": 2
   },
   "markers-unlinked": {
-   "tp": 75,
-   "fp": 52,
-   "fn": 21
+   "tp": 79,
+   "fp": 0,
+   "fn": 17
   },
   "markers-spurious": {
-   "tp": 8,
-   "fp": 13,
-   "fn": 3
+   "tp": 10,
+   "fp": 14,
+   "fn": 0
   },
   "paragraphs-oversplit": {
-   "tp": 45,
+   "tp": 46,
    "fp": 11,
-   "fn": 83
+   "fn": 78
   },
   "paragraphs-merged": {
    "tp": 15,
-   "fp": 132,
+   "fp": 131,
    "fn": 1
   },
   "quotes-spurious": {
-   "tp": 15,
+   "tp": 13,
    "fp": 4,
-   "fn": 13
+   "fn": 10
   },
   "quotes-missed": {
-   "tp": 1,
-   "fp": 14,
+   "tp": 2,
+   "fp": 15,
    "fn": 0
   }
  }

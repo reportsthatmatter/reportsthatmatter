@@ -1,5 +1,5 @@
 {
- "ingest": "v0.18.1",
+ "ingest": "v0.19.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
@@ -84,7 +84,7 @@
   },
   "uk-saville-inquiry": {
    "set": "development",
-   "ingest": "v0.18.1",
+   "ingest": "v0.19.0",
    "metrics": {
     "boundary_p": 0.9936178699641005,
     "boundary_r": 0.9403548508871272,
@@ -111,8 +111,30 @@
   },
   "us-911-commission": {
    "set": "development",
-   "ingest": "v0.18.1",
+   "ingest": "v0.19.0",
    "metrics": {
+    "boundary_p": 0.9992570579494799,
+    "boundary_r": 0.912483039348711,
+    "boundary_f1": 0.9539007092198583,
+    "join_all": 0.9530201342281879,
+    "join_all_n": 447,
+    "join_high": 0.9638242894056848,
+    "join_high_n": 387,
+    "join_adj_ours_wrong": 1,
+    "join_adj_judged": 29,
+    "marker_p": 0.9853886616014027,
+    "marker_r": 0.9853886616014027,
+    "wer": 0.0012844764002548884,
+    "wer_ref_coverage": 0.9536211219353481,
+    "wer_pages": 0.01707177431947119,
+    "wer_pages_n": 299,
+    "page_marker_p": 0.002320185614849188,
+    "page_marker_r": 0.0023328149300155523,
+    "ref_error_rate": 0,
+    "ref_no_answer_rate": 0,
+    "ref_unusable_rate": 0
+   },
+   "previous": {
     "boundary_p": 0.9479392624728851,
     "boundary_r": 0.8852126941255908,
     "boundary_f1": 0.9155027932960893,
@@ -133,8 +155,7 @@
     "ref_error_rate": 0,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0
-   },
-   "previous": null
+   }
   },
   "us-duelfer-report": {
    "set": "held-out",
@@ -165,7 +186,7 @@
   },
   "us-v-philip-morris": {
    "set": "development",
-   "ingest": "v0.18.1",
+   "ingest": "v0.19.0",
    "metrics": {
     "boundary_p": 0.9833414396887159,
     "boundary_r": 0.987906181285121,
