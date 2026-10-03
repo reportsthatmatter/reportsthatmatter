@@ -13,6 +13,7 @@
  * Exit 1: anything wrong. Nothing is swallowed. The decisions are in
  * src/lib/poster.ts; this file is only the Bluesky adapter and the file I/O.
  */
+import "./lib/help.mjs";
 import { readFileSync, writeFileSync, appendFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { parse, stringify } from "yaml";
