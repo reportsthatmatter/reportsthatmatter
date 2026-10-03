@@ -8,6 +8,8 @@ pnpm posts
 open build/posts-preview.html   # a static local preview, not committed
 ```
 
+Flags, all explicit (a plain run does none of this): `--check` writes nothing and exits 1 if a not-yet-posted item no longer resolves (the poster's workflow runs it before every post); `--drop-stale` removes such items; `--start YYYY-MM-DD` re-dates every not-yet-posted item one per day from that date, in its current order (posted items never move). The poster that consumes the queue is described in [poster.md](poster.md).
+
 ## Sources
 
 Two, both read directly, never re-verified a second way:
@@ -49,7 +51,7 @@ Appendix C of [`docs/plans/2026-08-02-launch-and-seo.md`](plans/2026-08-02-launc
 
 Append-only. Re-running `pnpm posts`:
 
-- **never moves** an existing item's `scheduled` date, and never touches a `posted_url` the scheduled poster (reportsthatmatter-y2t.4) has written back — that's what lets the poster's commit and a fresh `pnpm posts` coexist without racing each other;
+- **never moves** an existing item's `scheduled` date, and never touches a `posted_url` or `posted_at` the scheduled poster (reportsthatmatter-y2t.4) has written back — that's what lets the poster's commit and a fresh `pnpm posts` coexist without racing each other;
 - **appends** any newly-approved excerpt, one per calendar day, starting the day after whatever was last scheduled;
 - new items are ordered **round-robin across reports** — a themed calendar keyed to news hooks is reportsthatmatter-y2t.5, which has no calendar data yet; when it does, that plugs in ahead of the round-robin in `buildQueue` (`src/lib/posts.ts`), not here;
 - a **not-yet-posted** item whose quote or paragraph no longer resolves is reported loudly (fix it before its scheduled date, or the poster would ship a broken link); an **already-posted** one in the same state is only a warning — it already happened, and can't be un-posted.
