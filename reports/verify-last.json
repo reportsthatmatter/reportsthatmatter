@@ -2,48 +2,51 @@
  "reports": {
   "jack-smith-vol1": {
    "oracle": {
-    "headings-missed": 96,
+    "headings-missed": 22,
     "headings-spurious": 37,
-    "markers-unlinked": 32,
-    "markers-spurious": 100,
-    "paragraphs-oversplit": 152,
+    "markers-unlinked": 33,
+    "markers-spurious": 95,
+    "paragraphs-oversplit": 149,
     "paragraphs-merged": 425,
     "quotes-spurious": 51,
-    "quotes-missed": 53
+    "quotes-missed": 53,
+    "note-off-page": 71
    },
    "golden": {
-    "match": 3,
+    "match": 4,
     "total": 8,
-    "known": 5
+    "known": 4
    }
   },
   "us-psi-financial-crisis": {
    "oracle": {
-    "headings-missed": 153,
+    "headings-missed": 37,
     "headings-spurious": 5,
-    "markers-unlinked": 598,
-    "markers-spurious": 27,
+    "markers-unlinked": 26,
+    "markers-spurious": 7,
     "paragraphs-oversplit": 132,
     "paragraphs-merged": 858,
     "quotes-spurious": 226,
-    "quotes-missed": 91
+    "quotes-missed": 91,
+    "note-off-page": 0
    },
    "golden": {
-    "match": 2,
+    "match": 3,
     "total": 7,
-    "known": 5
+    "known": 4
    }
   },
   "challenger-accident": {
    "oracle": {
-    "headings-missed": 236,
+    "headings-missed": 170,
     "headings-spurious": 76,
     "markers-unlinked": 23,
     "markers-spurious": 138,
-    "paragraphs-oversplit": 347,
-    "paragraphs-merged": 1971,
+    "paragraphs-oversplit": 332,
+    "paragraphs-merged": 1973,
     "quotes-spurious": 331,
-    "quotes-missed": 212
+    "quotes-missed": 212,
+    "note-off-page": 140
    },
    "golden": {
     "match": 0,
@@ -55,12 +58,13 @@
    "oracle": {
     "headings-missed": 220,
     "headings-spurious": 0,
-    "markers-unlinked": 103,
-    "markers-spurious": 162,
-    "paragraphs-oversplit": 255,
-    "paragraphs-merged": 1252,
+    "markers-unlinked": 29,
+    "markers-spurious": 11,
+    "paragraphs-oversplit": 251,
+    "paragraphs-merged": 1246,
     "quotes-spurious": 184,
-    "quotes-missed": 46
+    "quotes-missed": 46,
+    "note-off-page": 0
    },
    "golden": {
     "match": 1,
@@ -72,12 +76,13 @@
    "oracle": {
     "headings-missed": 1350,
     "headings-spurious": 2,
-    "markers-unlinked": 7497,
-    "markers-spurious": 117,
-    "paragraphs-oversplit": 2100,
-    "paragraphs-merged": 2537,
-    "quotes-spurious": 319,
-    "quotes-missed": 1254
+    "markers-unlinked": 142,
+    "markers-spurious": 2,
+    "paragraphs-oversplit": 2089,
+    "paragraphs-merged": 2538,
+    "quotes-spurious": 317,
+    "quotes-missed": 1255,
+    "note-off-page": 1
    },
    "golden": {
     "match": 1,
@@ -87,14 +92,15 @@
   },
   "columbia-accident": {
    "oracle": {
-    "headings-missed": 93,
+    "headings-missed": 89,
     "headings-spurious": 4,
-    "markers-unlinked": 287,
+    "markers-unlinked": 297,
     "markers-spurious": 46,
-    "paragraphs-oversplit": 537,
+    "paragraphs-oversplit": 533,
     "paragraphs-merged": 724,
     "quotes-spurious": 290,
-    "quotes-missed": 214
+    "quotes-missed": 214,
+    "note-off-page": 0
    },
    "golden": {
     "match": 0,
@@ -104,31 +110,33 @@
   },
   "us-911-commission": {
    "oracle": {
-    "headings-missed": 64,
+    "headings-missed": 27,
     "headings-spurious": 3,
     "markers-unlinked": 6,
-    "markers-spurious": 23,
+    "markers-spurious": 9,
     "paragraphs-oversplit": 95,
-    "paragraphs-merged": 2506,
+    "paragraphs-merged": 2209,
     "quotes-spurious": 2,
-    "quotes-missed": 198
+    "quotes-missed": 196,
+    "note-off-page": 0
    },
    "golden": {
-    "match": 4,
-    "total": 5,
+    "match": 5,
+    "total": 6,
     "known": 1
    }
   },
   "us-deepwater-horizon": {
    "oracle": {
-    "headings-missed": 334,
+    "headings-missed": 330,
     "headings-spurious": 0,
     "markers-unlinked": 1445,
-    "markers-spurious": 824,
-    "paragraphs-oversplit": 397,
-    "paragraphs-merged": 906,
+    "markers-spurious": 822,
+    "paragraphs-oversplit": 394,
+    "paragraphs-merged": 914,
     "quotes-spurious": 31,
-    "quotes-missed": 72
+    "quotes-missed": 72,
+    "note-off-page": 0
    },
    "golden": {
     "match": 0,
@@ -140,12 +148,13 @@
    "oracle": {
     "headings-missed": 0,
     "headings-spurious": 27,
-    "markers-unlinked": 38,
-    "markers-spurious": 19,
-    "paragraphs-oversplit": 958,
+    "markers-unlinked": 28,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 956,
     "paragraphs-merged": 992,
     "quotes-spurious": 261,
-    "quotes-missed": 345
+    "quotes-missed": 347,
+    "note-off-page": 0
    },
    "golden": {
     "match": 1,
@@ -157,12 +166,13 @@
    "oracle": {
     "headings-missed": 390,
     "headings-spurious": 0,
-    "markers-unlinked": 931,
+    "markers-unlinked": 932,
     "markers-spurious": 0,
-    "paragraphs-oversplit": 125,
-    "paragraphs-merged": 794,
+    "paragraphs-oversplit": 123,
+    "paragraphs-merged": 808,
     "quotes-spurious": 22,
-    "quotes-missed": 49
+    "quotes-missed": 49,
+    "note-off-page": 0
    },
    "golden": {
     "match": 0,
@@ -172,60 +182,63 @@
   },
   "uk-saville-inquiry": {
    "oracle": {
-    "headings-missed": 176,
+    "headings-missed": 153,
     "headings-spurious": 3,
-    "markers-unlinked": 9,
-    "markers-spurious": 60,
-    "paragraphs-oversplit": 226,
-    "paragraphs-merged": 1230,
-    "quotes-spurious": 552,
-    "quotes-missed": 20
+    "markers-unlinked": 0,
+    "markers-spurious": 56,
+    "paragraphs-oversplit": 16,
+    "paragraphs-merged": 1511,
+    "quotes-spurious": 293,
+    "quotes-missed": 25,
+    "note-off-page": 13
    },
    "golden": {
-    "match": 2,
+    "match": 5,
     "total": 5,
-    "known": 3
+    "known": 0
    }
   },
   "uk-chilcot-inquiry": {
    "oracle": {
     "headings-missed": 13,
     "headings-spurious": 3,
-    "markers-unlinked": 283,
-    "markers-spurious": 3,
+    "markers-unlinked": 0,
+    "markers-spurious": 0,
     "paragraphs-oversplit": 15,
-    "paragraphs-merged": 387,
-    "quotes-spurious": 6,
-    "quotes-missed": 76
+    "paragraphs-merged": 393,
+    "quotes-spurious": 5,
+    "quotes-missed": 79,
+    "note-off-page": 0
    },
    "golden": {
-    "match": 2,
+    "match": 4,
     "total": 5,
-    "known": 3
+    "known": 1
    }
   },
   "us-lehman-examiner": {
    "oracle": {
-    "headings-missed": 45,
+    "headings-missed": 0,
     "headings-spurious": 5,
-    "markers-unlinked": 221,
-    "markers-spurious": 19,
-    "paragraphs-oversplit": 144,
+    "markers-unlinked": 22,
+    "markers-spurious": 5,
+    "paragraphs-oversplit": 140,
     "paragraphs-merged": 221,
     "quotes-spurious": 143,
-    "quotes-missed": 99
+    "quotes-missed": 99,
+    "note-off-page": 0
    },
    "golden": {
-    "match": 0,
+    "match": 4,
     "total": 5,
-    "known": 5
+    "known": 1
    }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 23,
-   "fp": 24,
+   "tp": 22,
+   "fp": 11,
    "fn": 19
   },
   "headings-spurious": {
@@ -234,33 +247,33 @@
    "fn": 2
   },
   "markers-unlinked": {
-   "tp": 79,
+   "tp": 30,
    "fp": 0,
-   "fn": 17
+   "fn": 11
   },
   "markers-spurious": {
-   "tp": 10,
-   "fp": 14,
+   "tp": 8,
+   "fp": 9,
    "fn": 0
   },
   "paragraphs-oversplit": {
-   "tp": 46,
+   "tp": 41,
    "fp": 11,
-   "fn": 78
+   "fn": 71
   },
   "paragraphs-merged": {
-   "tp": 15,
-   "fp": 131,
+   "tp": 14,
+   "fp": 141,
    "fn": 1
   },
   "quotes-spurious": {
-   "tp": 13,
+   "tp": 11,
    "fp": 4,
-   "fn": 10
+   "fn": 7
   },
   "quotes-missed": {
    "tp": 2,
-   "fp": 15,
+   "fp": 21,
    "fn": 0
   }
  }
