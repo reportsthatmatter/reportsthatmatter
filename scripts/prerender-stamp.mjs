@@ -8,7 +8,7 @@
  * git checkouts, rebases and worktrees reset mtimes without changing content.
  *
  * Inputs: reports/registry.yaml, every registered report's source_path
- * (full.md) and PROCESSING.md, the @rtm/ingest pin in package.json plus the
+ * (full.md), PROCESSING.md and aliases.yaml, the @rtm/ingest pin in package.json plus the
  * installed copy's package.json (a `link:` override changes node_modules, not
  * the pin), and scripts/prerender.mjs itself. src/ is deliberately not an
  * input: prerender.mjs imports nothing from src/ (rendering lives in
@@ -33,7 +33,7 @@ function inputFiles() {
   const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
   const files = ["reports/registry.yaml", "scripts/prerender.mjs", "node_modules/@rtm/ingest/package.json"];
   for (const report of registry.reports) {
-    files.push(report.source_path, `reports/${report.id}/PROCESSING.md`);
+    files.push(report.source_path, `reports/${report.id}/PROCESSING.md`, `reports/${report.id}/aliases.yaml`);
   }
   return files;
 }
@@ -57,7 +57,7 @@ export function staleReason() {
   if (!existsSync(join(root, "assets/generated/sitemap-urls.json"))) return "assets/generated/ is missing";
   if (!existsSync(STAMP_PATH)) return "assets/generated/ has no stamp (written before staleness checks existed)";
   if (readFileSync(STAMP_PATH, "utf8").trim() !== inputsHash()) {
-    return "assets/generated/ is older than its inputs (a reports/*/full.md, PROCESSING.md, the registry, the @rtm/ingest pin or install, or scripts/prerender.mjs changed since the last prerender)";
+    return "assets/generated/ is older than its inputs (a reports/*/full.md, PROCESSING.md, aliases.yaml, the registry, the @rtm/ingest pin or install, or scripts/prerender.mjs changed since the last prerender)";
   }
   return null;
 }

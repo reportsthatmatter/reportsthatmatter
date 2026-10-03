@@ -109,6 +109,18 @@ else
   tail -30 "${RUN_DIR}/corpus.log"
 fi
 
+step "Published ids still resolve"
+# Every paragraph id ever published (reports/<id>/published-ids.txt) must be a current id, an alias of
+# one (reports/<id>/aliases.yaml, served by the routes), or named in that file's `unmatched` list, and
+# every current id must be recorded. A re-ingest that moves ids without `pnpm aliases generate`
+# fails here (reportsthatmatter-q8c).
+if pnpm aliases check >"${RUN_DIR}/aliases.log" 2>&1; then
+  pass "every published paragraph id resolves directly, via an alias, or is listed as unmatched"
+else
+  fail "pnpm aliases check"
+  tail -30 "${RUN_DIR}/aliases.log"
+fi
+
 step "Quality signals"
 # Per-report counts of the defects readers have found (severed sentences,
 # unlinked footnote markers, furniture, missing headings, <h1>, ...) against
