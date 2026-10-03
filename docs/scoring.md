@@ -73,6 +73,29 @@ Every reference edition is itself a pipeline output (tag trees, scraped HTML, OC
 
 Rows matched to an adjudication get `adjudicated`, `label_confidence: adjudicated`, `correct_adjudicated_ref` and `correct_adjudicated_ours` in `decisions.jsonl`. To make one for a new report: `pnpm score <id> --adjudicate-draft`, read each break, fill in the verdicts, commit the file beside `blocks.jsonl`. Re-draw only when the layout parsing changes; the matching is by page, so an old file keeps working.
 
+## Mini-references for reports with no clean edition (38s.15)
+
+A PDF-only report (Jack Smith, Deepwater, PSI, Challenger, Lehman, Leveson) has no `blocks.jsonl`, so `pnpm score` cannot read it, but it can still have a `reference/adjudicated.yaml`: about 30 page breaks answered from the page images. `pnpm ingest referee eval` judges the pipeline against it (which side of each break the two printed lines land on in the pipeline's own blocks; no scorer run, no prerender). These are the page-break measure for those reports, and the development material the old dev set ran out of (4 adjudicated errors left at v0.21.0; the mini-references hold 28).
+
+How one is made, and how to extend one:
+
+```bash
+export RTM_REPORT_DIRS=<dir of report-repo worktrees>             # pnpm ingest worktrees <id…>
+pnpm ingest referee draft <id>... --out <dir>                      # draw the sample, render the crops
+# adjudicate: <dir>/<id>/brief.json + NN-a-old.png / NN-b-new.png -> <dir>/<id>/verdicts.json (blind; instructions below)
+pnpm ingest referee draft <id>... --out <dir> --verdicts <dir>     # write <repo>/reference/adjudicated.yaml
+pnpm ingest referee eval <id>... --breakdown --labels-out <file>   # judge; tiers, error kinds, one row per break
+pnpm ingest crosscheck <id>...                                     # golden pages must agree with it
+```
+
+- **Population.** Every page turn in every volume: the last line of running text on the old page and the first on the new (`pdftohtml -xml` lines; lines below 0.88 of the body size and lines whose letters recur on four or more pages are left out as notes and furniture). Each pair gets the layout rules' call (`decidePageBreak`, 38s.10) and confidence tier (38s.11): the pass's own when its run referred the pair, else computed on the two lines.
+- **Sample** (`scripts/ingest/pagebreak-sample.ts`, seed `38s.15`). 15 by a seeded shuffle (`stratum: random`, the unbiased one), then 5 from each tier (`tier-low`, `tier-medium`, `tier-high`; a short tier is topped up from the others). Quote accuracy on the random stratum when you want an estimate for the whole report; the tier strata are there so the rare low and medium calls are measured at all.
+- **Adjudication.** One reader per report, blind to the rules' call (`brief.json` holds the lines and images only; `cases.json` holds the call), answers `join`, `split` or `unjudgeable`, corrects the lines when the drawn ones are a footnote, caption or running head (the OCR layers of Jack Smith and Challenger needed 12 and 13 corrections), names what stands `between` the halves (`notes`, `caption`, `figure`, `heading`, `table`…) and marks `sure: false` where the page cannot settle it (Deepwater sets paragraphs flush with a blank line between, so a full stop at a page foot is decided by content). Every break where the reader and the pipeline disagree is then re-read by a second reader against the image; the reader's brief is [`design/learning/adjudicate-pagebreaks.md`](design/learning/adjudicate-pagebreaks.md).
+- **Fields** beyond the format above: `set` (`dev` or `held-out`, below), `tier` and `rule` (the rules' call on the adjudicated lines at v0.21.0), `stratum`, `between`, `volume` (multi-volume reports), `above` (the line above a short last line such as "failed.481", so the eval can find it), `drawn` (the lines originally drawn, when corrected) and `sure`.
+- **Dev and held-out** (decision 0013, proposed). Each break carries its own `set`, alternating within its stratum by a seeded shuffle, so both halves cover every publisher and tier. `referee eval` tallies them as `dev (PDF-only)` and `held-out (PDF-only)`; `--dev` reads the dev halves, `--holdout` the held-out halves, and the held-out gate covers them. Read and tune on dev-half breaks only; quote held-out counts, never their examples. `reports/score-sets.yaml` lists the reports under `mini_references`.
+- **Error kinds** (`--breakdown`): a missed join is classed first by whether something of ours stands between the halves (a footnote, caption or credit left in the body: upstream of the join decision), then by the shape of the two lines (the 38s.8 clusters: capital after an unfinished sentence, lower-case continuation, digit or bracket opens, runs on after a finished sentence); a wrong join by how the new block opens.
+- **Judging.** `referee eval` reads the output's blocks for the two lines. A second pass (38s.15) also accepts a next line displaced into a later block as a split, and a heading whose label the output dropped; `--strict-judge` restores the earlier reading, which is what the numbers recorded before 38s.15 used (with it, v0.21.0 is dev 4 of 80 and held-out 15 of 193 wrong; without, 4 of 82 and 20 of 228).
+
 ## Adding or rebuilding a reference
 
 `scripts/score/reference.py` mirrors and normalises references (stdlib only; tagged-PDF references need `pikepdf` and `pdfplumber` in a venv):

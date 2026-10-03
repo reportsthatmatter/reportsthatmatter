@@ -7,7 +7,9 @@
  *                               [--replay <file> | --fake join|split] [--record <file>] [--refresh] [--save-images <dir>]
  *   pnpm ingest referee eval [<id>...|--dev|--holdout] [--answers rules|oracle|invert|cache|replay:<file>|fake:join|fake:split|live]
  *                               [--model …] [--batch 20] [--images] [--record <file>] [--exclude-examples] [--refer low|medium]
- *                               [--verbose] [--show] [--breakdown]
+ *                               [--verbose] [--show] [--breakdown] [--labels-out <file.jsonl>] [--strict-judge]
+ *   pnpm ingest referee draft <id>... [--out <dir>] [--seed s] [--random 15] [--per-tier 5]   draw page breaks for a mini-reference (38s.15)
+ *   pnpm ingest referee draft <id>... --verdicts <dir>                                         write <repo>/reference/adjudicated.yaml from the verdicts
  *
  * `referee <id>` runs the report's pipeline with its cache, collects the cases
  * `layoutPageJoins` marked ambiguous, asks the model about the ones the cache
@@ -52,6 +54,7 @@ import {
   REFEREE_EXAMPLES,
   REFEREE_PROMPT_ID,
   type IngestResult,
+  type Layout,
   type PageBreakCase,
   type PageBreakReferee,
   type PipelineDef,
@@ -69,6 +72,8 @@ export type RefereeHost = {
   run(id: string, def: PipelineDef): IngestResult;
   /** The report's source PDFs, in volume order. */
   pdfs(id: string, def: PipelineDef): string[];
+  /** The report's line layout (pdftohtml -xml, cached), for `referee draft`. */
+  layout(id: string, def: PipelineDef): Layout;
 };
 
 const DEFAULT_MODEL = "claude-haiku-4-5";
@@ -90,7 +95,7 @@ function positional(args: string[]): string[] {
   const out: string[] = [];
   for (let i = 0; i < args.length; i++) {
     if (args[i].startsWith("--")) {
-      if (["model", "batch", "replay", "record", "answers", "refer", "fake", "save-images"].includes(args[i].slice(2))) i++;
+      if (["model", "batch", "replay", "record", "answers", "refer", "fake", "save-images", "labels-out"].includes(args[i].slice(2))) i++;
       continue;
     }
     out.push(args[i]);
@@ -286,15 +291,42 @@ async function fill(host: RefereeHost, args: string[]): Promise<number> {
 // ---------------------------------------------------------------------------
 // pnpm ingest referee eval
 
-type Label = { page: number; prev: string; next: string; join: boolean; source: "adjudicated" | "pilot" };
+type Label = {
+  page: number;
+  prev: string;
+  next: string;
+  join: boolean;
+  source: "adjudicated" | "pilot";
+  /** A mini-reference's own split of its breaks (38s.15): `dev` or `held-out`; otherwise the report's set decides. */
+  set?: "dev" | "held-out";
+  /** The layout rules' confidence tier when the break was drawn, and how it was drawn (38s.15). */
+  tier?: string;
+  stratum?: string;
+  /** What stands between the two halves on the page (notes, caption, heading…), as the adjudicator saw it. */
+  between?: string;
+  /** The line above a short `prev`, so it can be found in the output. */
+  above?: string;
+  /** false: the adjudicator was not sure (block-style paragraphs, a new paragraph inside a quotation). */
+  sure?: boolean;
+};
 
 function loadLabels(host: RefereeHost, id: string, heldOut: boolean): Label[] {
   const labels: Label[] = [];
   const file = join(host.reportDir(id), "reference", "adjudicated.yaml");
   if (existsSync(file)) {
-    const f = parseYaml(readFileSync(file, "utf8")) as { breaks?: Array<{ page: number; prev: string; next: string; verdict: string }> };
+    const f = parseYaml(readFileSync(file, "utf8")) as {
+      breaks?: Array<{ page: number; prev: string; next: string; verdict: string; set?: string; tier?: string; stratum?: string; between?: string; above?: string; sure?: boolean }>;
+    };
     for (const b of f.breaks ?? []) {
-      if (b.verdict === "join" || b.verdict === "split") labels.push({ page: Number(b.page), prev: String(b.prev), next: String(b.next), join: b.verdict === "join", source: "adjudicated" });
+      if (b.verdict !== "join" && b.verdict !== "split") continue;
+      const label: Label = { page: Number(b.page), prev: String(b.prev), next: String(b.next), join: b.verdict === "join", source: "adjudicated" };
+      if (b.set === "dev" || b.set === "held-out") label.set = b.set;
+      if (b.tier) label.tier = b.tier;
+      if (b.stratum) label.stratum = b.stratum;
+      if (b.between) label.between = b.between;
+      if (b.above) label.above = String(b.above);
+      if (b.sure === false) label.sure = false;
+      labels.push(label);
     }
   }
   // The 38s.8 pilot adjudicated held-out rows too (truth J/S; X dropped). Same pages, same line snippets.
@@ -320,25 +352,75 @@ function units(result: IngestResult): string[] {
 /**
  * Which side of the break the output put the two lines on: true (one unit),
  * false (the next line opens a later unit), or undefined (not found).
+ *
+ * `label.above` (a mini-reference's line above a short last line, 38s.15) is
+ * matched with it, so "failed.481" can be found. A heading's label may be
+ * dropped in the output ("(iv) Firm-Wide…" is "#### Firm-Wide…"), so the next
+ * line is also tried without it. When the strict reading finds nothing (the
+ * last line not at the end of its unit, or the next line not at the head of
+ * one), a second pass accepts the next line anywhere in the six units after:
+ * the output did not run the paragraph on, which is a split.
  */
-function judge(text: string[], label: Label): boolean | undefined {
-  const p = letters(label.prev);
-  const n = letters(label.next).slice(0, 30);
-  if (p.length < 8 || n.length < 6) return undefined;
-  for (let i = 0; i < text.length; i++) {
-    let at = text[i].indexOf(p);
-    while (at !== -1) {
-      const after = text[i].slice(at + p.length);
-      if (after.slice(0, 40).includes(n)) return true;
-      if (after.length < 12) {
-        for (let j = i + 1; j < Math.min(text.length, i + 6); j++) {
-          if (text[j].slice(0, 40).includes(n)) return false;
+function judge(text: string[], label: Label, strictOnly = false): boolean | undefined {
+  return placed(text, label, strictOnly)?.join;
+}
+
+/** `judge`, with how many of our units stand between the two lines when they are apart (0: the next unit). */
+function placed(text: string[], label: Label, strictOnly = false): { join: boolean; gap: number } | undefined {
+  const p = letters(`${label.above ?? ""} ${label.prev}`);
+  const nexts = [letters(label.next).slice(0, 30), letters(label.next.replace(/^\s*(?:\(?[0-9]{1,3}[.)]|\([a-z]{1,4}\)|[ivxlc]{1,5}[.)]|[A-Za-z][.)]|[•·▪–-])\s+/, "")).slice(0, 30)].filter((n, i, all) => n.length >= 6 && all.indexOf(n) === i);
+  if (p.length < 8 || !nexts.length) return undefined;
+  for (const strict of strictOnly ? [true] : [true, false]) {
+    for (let i = 0; i < text.length; i++) {
+      let at = text[i].indexOf(p);
+      while (at !== -1) {
+        const after = text[i].slice(at + p.length);
+        if (nexts.some((n) => after.slice(0, 40).includes(n))) return { join: true, gap: 0 };
+        if (!strict || after.length < 12) {
+          for (let j = i + 1; j < Math.min(text.length, i + 6); j++) {
+            if (nexts.some((n) => (strict ? text[j].slice(0, 40) : text[j]).includes(n))) return { join: false, gap: j - i - 1 + (strict ? 0 : 1) };
+          }
         }
+        at = text[i].indexOf(p, at + 1);
       }
-      at = text[i].indexOf(p, at + 1);
     }
   }
   return undefined;
+}
+
+const ENDS_SENTENCE = /[.?!:;]["'\u201d\u2019)\]]*(?:\s?\d{1,4})?\s*$/;
+/**
+ * What kind of error a wrong call at an adjudicated break is, for `--breakdown` (38s.15): a missed join
+ * by what stands between the halves or by the shape of the two lines (the 38s.8 clusters), a wrong join
+ * by how the new block opens.
+ */
+export function errorKind(l: Pick<Label, "prev" | "next" | "join" | "between">, gap = 0): string {
+  const next = l.next.trim();
+  if (l.join) {
+    // Something of ours stands between the halves (a note, caption or credit left in the body, text out of order): upstream of the join decision.
+    if (gap > 0) return `missed join: ${l.between && l.between !== "none" ? l.between : "something"} left between in our text`;
+    // Footnotes at the page foot are routine (most of these reports have them on every page): a kind by the lines' shape.
+    if (l.between && l.between !== "none" && l.between !== "notes") return `missed join: ${l.between} between`;
+    if (ENDS_SENTENCE.test(l.prev.trim())) return "missed join: runs on after a finished sentence";
+    if (/^[a-z,;]/.test(next)) return "missed join: lower-case continuation";
+    if (/^[\d(\[“"‘'$]/.test(next)) return "missed join: digit, bracket or quotation mark opens";
+    return "missed join: capital after an unfinished sentence";
+  }
+  if (/^(?:\d{1,4}(?:\.\d{1,4})*[.)]?|[a-z][.)]|[A-Z]\.|[ivxlc]{1,5}[.)]|\([a-z0-9]{1,4}\)|[•·▪–-])\s/.test(next)) return "wrong join: into a label or numbered paragraph";
+  if (/^[“"‘']/.test(next)) return "wrong join: into a quotation";
+  if (ENDS_SENTENCE.test(l.prev.trim())) return "wrong join: after a finished sentence";
+  return "wrong join: after an unfinished line";
+}
+
+/** Why `judge` could not place a label: for `--verbose`, so a mini-reference's unjudged breaks can be fixed. */
+function whyUnjudged(text: string[], label: Label): string {
+  const p = letters(`${label.above ?? ""} ${label.prev}`);
+  const n = letters(label.next).slice(0, 30);
+  if (p.length < 8 || n.length < 6) return `line too short to find (prev ${p.length} letters, next ${n.length})`;
+  const pi = text.findIndex((u) => u.includes(p));
+  const ni = text.findIndex((u) => u.includes(n));
+  const at = (i: number, needle: string) => (i === -1 ? "not found" : `unit ${i} at ${text[i].indexOf(needle)} of ${text[i].length}`);
+  return `prev ${at(pi, p)}; next ${at(ni, n)}${pi !== -1 ? `; after prev: "${text[pi].slice(text[pi].indexOf(p) + p.length, text[pi].indexOf(p) + p.length + 40)}"` : ""}`;
 }
 
 /** The case an adjudicated break is about, if one was asked: same new page, the same line opening it and the same line ending the old one. */
@@ -374,11 +456,15 @@ type Tally = {
 const tally = (): Tally => ({ reports: 0, judged: 0, wrongBefore: 0, wrongAfter: 0, asked: 0, answered: 0, overruled: 0, ambiguousLabelled: 0, rulesRight: 0, refereeRight: 0, calls: 0, usage: { ...ZERO }, estimate: { ...ZERO } });
 
 async function evaluate(host: RefereeHost, args: string[]): Promise<number> {
-  const sets = parseYaml(readFileSync(join(host.root, "reports/score-sets.yaml"), "utf8")) as { development: string[]; held_out: string[] };
+  const sets = parseYaml(readFileSync(join(host.root, "reports/score-sets.yaml"), "utf8")) as { development: string[]; held_out: string[]; mini_references?: string[] };
+  // Mini-references (38s.15) split their own breaks: --dev reads their dev half, --holdout their held-out half.
+  const mini = sets.mini_references ?? [];
   let ids = positional(args).filter((a) => a !== "eval");
-  if (flag(args, "dev")) ids = [...ids, ...sets.development];
-  if (flag(args, "holdout")) ids = [...ids, ...sets.held_out];
-  if (!ids.length) ids = [...sets.development, ...sets.held_out];
+  if (flag(args, "dev")) ids = [...ids, ...sets.development, ...mini];
+  if (flag(args, "holdout")) ids = [...ids, ...sets.held_out, ...mini];
+  if (!ids.length) ids = [...sets.development, ...sets.held_out, ...mini];
+  ids = [...new Set(ids)];
+  const wantSet = flag(args, "dev") && !flag(args, "holdout") ? "dev" : flag(args, "holdout") && !flag(args, "dev") ? "held-out" : undefined;
   const source = option(args, "answers") ?? "rules";
   const model = source.startsWith("fake:") ? `fake-${source.slice(5)}` : option(args, "model") ?? DEFAULT_MODEL;
   const batch = Number(option(args, "batch") ?? 20);
@@ -391,6 +477,10 @@ async function evaluate(host: RefereeHost, args: string[]): Promise<number> {
 
   const totals = { dev: tally(), "held-out": tally() } as Record<string, Tally>;
   const breakdown = new Map<string, { cases: number; labelled: number; rulesWrong: number }>();
+  // 38s.15: per tier and per error kind, over the adjudicated breaks (by set), and every label's outcome for --labels-out.
+  const byTier = new Map<string, { judged: number; wrongBefore: number; wrongAfter: number }>();
+  const byKind = new Map<string, { before: number; after: number }>();
+  const labelRows: string[] = [];
   const rows: string[] = [];
   for (const id of ids) {
     const set = sets.held_out.includes(id) ? "held-out" : sets.development.includes(id) ? "dev" : "other";
@@ -400,7 +490,7 @@ async function evaluate(host: RefereeHost, args: string[]): Promise<number> {
       console.error(`  ${id}: no layoutPageJoins; skipped`);
       continue;
     }
-    const labels = loadLabels(host, id, set === "held-out");
+    const labels = loadLabels(host, id, set === "held-out").filter((l) => !l.set || !wantSet || l.set === wantSet);
 
     // Rules alone.
     const asked = new Map<string, PageBreakCase>();
@@ -431,25 +521,53 @@ async function evaluate(host: RefereeHost, args: string[]): Promise<number> {
     }
     const after = units(host.run(id, withReferee(def, (c) => (cases.some((x) => x.key === c.key) ? answers.get(c.key) : undefined), new Map(), referOf(args))));
 
-    let judged = 0, wrongBefore = 0, wrongAfter = 0, ambiguousLabelled = 0, rulesRight = 0, refereeRight = 0;
+    // A mini-reference splits its own breaks into dev and held-out (38s.15): those are tallied apart, as "<set> (PDF-only)".
+    const perSet = new Map<string, { judged: number; wrongBefore: number; wrongAfter: number; ambiguousLabelled: number; rulesRight: number; refereeRight: number }>();
+    const setOf = (l: Label) => (l.set ? `${l.set} (PDF-only)` : set);
     const flips: string[] = [];
     for (const l of labels) {
-      const b = judge(before, l);
-      const a = judge(after, l);
+      // --strict-judge: the reading before 38s.15 (no second pass), to compare with numbers recorded before it.
+      const strictJudge = flag(args, "strict-judge");
+      const b = judge(before, l, strictJudge);
+      const a = judge(after, l, strictJudge);
       if (flag(args, "verbose") && (b === undefined || b !== l.join)) {
         const c = [...asked.values()].find((x) => caseFor([x], l));
         if (c && flag(args, "show")) console.log(describeCase(c));
         console.log(`  ${id} p.${l.page} ${l.source} truth ${l.join ? "join" : "split"}, ours ${b === undefined ? "unjudged" : b ? "join" : "split"}${c ? ` [ambiguous: ${c.decision.rule} ${c.decision.reason}]` : ""}: "${l.prev.trim().slice(-45)}" / "${l.next.trim().slice(0, 45)}"`);
       }
-      if (b === undefined || a === undefined) continue;
-      judged++;
-      if (b !== l.join) wrongBefore++;
-      if (a !== l.join) wrongAfter++;
       const c = caseFor(cases, l);
+      const gb = placed(before, l, strictJudge)?.gap ?? 0;
+      const ga = placed(after, l, strictJudge)?.gap ?? 0;
+      if (option(args, "labels-out"))
+        labelRows.push(JSON.stringify({ report: id, set: setOf(l), page: l.page, stratum: l.stratum, tier: l.tier, between: l.between, sure: l.sure !== false, truth: l.join ? "join" : "split", before: b === undefined ? null : b ? "join" : "split", after: a === undefined ? null : a ? "join" : "split", referred: c ? `${c.decision.confidence} ${c.decision.rule}: ${c.decision.reason}` : null, gap_before: gb, gap_after: ga, kind_before: errorKind(l, gb), kind_after: errorKind(l, ga), prev: l.prev, next: l.next }));
+      if (b === undefined && flag(args, "verbose")) console.log(`      unjudged: ${whyUnjudged(before, l)}`);
+      if (b === undefined || a === undefined) continue;
+      const k = setOf(l);
+      const s = perSet.get(k) ?? { judged: 0, wrongBefore: 0, wrongAfter: 0, ambiguousLabelled: 0, rulesRight: 0, refereeRight: 0 };
+      perSet.set(k, s);
+      s.judged++;
+      if (b !== l.join) s.wrongBefore++;
+      if (a !== l.join) s.wrongAfter++;
+      if (l.tier) {
+        const tk = `${k} | ${l.tier}`;
+        const t = byTier.get(tk) ?? { judged: 0, wrongBefore: 0, wrongAfter: 0 };
+        byTier.set(tk, t);
+        t.judged++;
+        if (b !== l.join) t.wrongBefore++;
+        if (a !== l.join) t.wrongAfter++;
+      }
+      const bump = (kind: string, side: "before" | "after") => {
+        const ek = `${k} | ${kind}`;
+        const e = byKind.get(ek) ?? { before: 0, after: 0 };
+        byKind.set(ek, e);
+        e[side]++;
+      };
+      if (b !== l.join) bump(errorKind(l, gb), "before");
+      if (a !== l.join) bump(errorKind(l, ga), "after");
       if (c) {
-        ambiguousLabelled++;
-        if (c.decision.join === l.join) rulesRight++;
-        if ((answers.get(c.key) ?? c.decision.join) === l.join) refereeRight++;
+        s.ambiguousLabelled++;
+        if (c.decision.join === l.join) s.rulesRight++;
+        if ((answers.get(c.key) ?? c.decision.join) === l.join) s.refereeRight++;
       }
       if (a !== b) flips.push(`      p.${l.page} ${b ? "join" : "split"} → ${a ? "join" : "split"} (truth ${l.join ? "join" : "split"}, ${l.source}): "${l.prev.trim().slice(-40)}" / "${l.next.trim().slice(0, 40)}"`);
     }
@@ -468,20 +586,35 @@ async function evaluate(host: RefereeHost, args: string[]): Promise<number> {
     }
     const answered = cases.filter((c) => answers.has(c.key)).length;
     const overruled = cases.filter((c) => answers.has(c.key) && answers.get(c.key) !== c.decision.join).length;
-    rows.push(
-      `| ${id} | ${set} | ${judged} | ${wrongBefore} | ${wrongAfter} | ${cases.length} | ${answered} | ${overruled} | ${ambiguousLabelled} | ${rulesRight} | ${refereeRight} |`
-    );
-    t.judged += judged;
-    t.wrongBefore += wrongBefore;
-    t.wrongAfter += wrongAfter;
-    t.ambiguousLabelled += ambiguousLabelled;
-    t.rulesRight += rulesRight;
-    t.refereeRight += refereeRight;
-    t.answered += answered;
-    t.overruled += overruled;
-    t.asked += cases.length;
-    add(t.estimate, estimate(cases, model, batch));
-    t.reports += 1;
+    if (!perSet.size) perSet.set(set, { judged: 0, wrongBefore: 0, wrongAfter: 0, ambiguousLabelled: 0, rulesRight: 0, refereeRight: 0 });
+    let first = true;
+    for (const [k, s] of perSet) {
+      // The referral counts are the report's, whichever of its sets they are listed under: count them once.
+      const tk = totals[k] ?? (totals[k] = tally());
+      rows.push(
+        `| ${id} | ${k} | ${s.judged} | ${s.wrongBefore} | ${s.wrongAfter} | ${first ? cases.length : ""} | ${first ? answered : ""} | ${first ? overruled : ""} | ${s.ambiguousLabelled} | ${s.rulesRight} | ${s.refereeRight} |`
+      );
+      tk.judged += s.judged;
+      tk.wrongBefore += s.wrongBefore;
+      tk.wrongAfter += s.wrongAfter;
+      tk.ambiguousLabelled += s.ambiguousLabelled;
+      tk.rulesRight += s.rulesRight;
+      tk.refereeRight += s.refereeRight;
+      if (first) {
+        tk.answered += answered;
+        tk.overruled += overruled;
+        tk.asked += cases.length;
+        add(tk.estimate, estimate(cases, model, batch));
+        if (tk !== t) {
+          tk.calls += t.calls;
+          add(tk.usage, t.usage);
+          t.calls = 0;
+          Object.assign(t.usage, ZERO);
+        }
+      }
+      tk.reports += 1;
+      first = false;
+    }
     if (flips.length && flag(args, "verbose")) rows.push(...flips.map((f) => `<!-- ${f.trim()} -->`));
   }
 
@@ -500,14 +633,34 @@ async function evaluate(host: RefereeHost, args: string[]): Promise<number> {
       console.log(`${set}: ${t.asked} breaks referred in ${t.reports} reports; estimated at list price (≈3.5 characters a token, ${batch} a call, no prompt caching): ${est("claude-haiku-4-5")} with claude-haiku-4-5, ${est("claude-sonnet-5-5")} with claude-sonnet-5-5 (before thinking tokens)`);
     }
   }
+  if (byTier.size) {
+    console.log("\nAdjudicated breaks by the rules' confidence tier when drawn (38s.15 mini-references):\n\n| set | tier | judged | ours wrong, rules | ours wrong, with referee |\n|---|---|---:|---:|---:|");
+    for (const [k, v] of [...byTier].sort((a, b) => a[0].localeCompare(b[0]))) {
+      const [s, tier] = k.split(" | ");
+      console.log(`| ${s} | ${tier} | ${v.judged} | ${v.wrongBefore} | ${v.wrongAfter} |`);
+    }
+  }
+  if (flag(args, "breakdown") && byKind.size) {
+    console.log("\nOur errors at adjudicated breaks, by kind:\n\n| set | kind | rules | with referee |\n|---|---|---:|---:|");
+    for (const [k, v] of [...byKind].sort((a, b) => a[0].localeCompare(b[0]) || b[1].before - a[1].before)) {
+      const [s, kind] = k.split(" | ");
+      console.log(`| ${s} | ${kind} | ${v.before} | ${v.after} |`);
+    }
+  }
+  const labelsOut = option(args, "labels-out");
+  if (labelsOut) {
+    writeFileSync(labelsOut, labelRows.join("\n") + "\n");
+    console.log(`\n${labelRows.length} adjudicated breaks, with our call before and after, → ${labelsOut}`);
+  }
   if (breakdown.size) {
     console.log("\n| rules' call | cases | adjudicated | rules wrong |\n|---|---:|---:|---:|");
     for (const [r, v] of [...breakdown].sort((a, b) => b[1].cases - a[1].cases)) console.log(`| ${r} | ${v.cases} | ${v.labelled} | ${v.rulesWrong} |`);
   }
-  const held = totals["held-out"];
-  if (held.reports && held.wrongAfter > held.wrongBefore) {
-    console.error(`\n✗ held-out: ${held.wrongAfter - held.wrongBefore} more adjudicated breaks wrong with the referee than without`);
-    return 1;
+  for (const [k, held] of Object.entries(totals)) {
+    if (k.startsWith("held-out") && held.reports && held.wrongAfter > held.wrongBefore) {
+      console.error(`\n✗ ${k}: ${held.wrongAfter - held.wrongBefore} more adjudicated breaks wrong with the referee than without`);
+      return 1;
+    }
   }
   return 0;
 }
@@ -516,6 +669,7 @@ const pct = (x: number) => (Number.isFinite(x) ? `${(100 * x).toFixed(1)}%` : "�
 
 export async function runReferee(args: string[], host: RefereeHost): Promise<number> {
   if (args[0] === "eval") return evaluate(host, args.slice(1));
+  if (args[0] === "draft") return (await import("./pagebreak-sample.ts")).runDraft(host, args.slice(1));
   return fill(host, args);
 }
 

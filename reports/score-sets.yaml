@@ -21,3 +21,16 @@ held_out:
 reference_ceiling:
   error: 0.05
   no_answer: 0.10
+# Mini-references (reportsthatmatter-38s.15): reports with no clean edition, each with ~30 page breaks
+# adjudicated from the page images in <repo>/reference/adjudicated.yaml (no blocks.jsonl, so `pnpm score`
+# does not read them; `pnpm ingest referee eval` does). Each break carries its own `set: dev | held-out`,
+# assigned by a seeded shuffle alternating within its sampling stratum, so both halves cover every
+# publisher and every confidence tier. Tune on the dev halves only; read the held-out halves' counts,
+# never their examples. `referee eval --dev` / `--holdout` take the matching half. See docs/scoring.md.
+mini_references:
+  - jack-smith-vol1
+  - us-deepwater-horizon
+  - us-psi-financial-crisis
+  - challenger-accident
+  - us-lehman-examiner
+  - uk-leveson-inquiry
