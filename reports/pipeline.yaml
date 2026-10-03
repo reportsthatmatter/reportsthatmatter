@@ -13,7 +13,15 @@
 #
 # Seeded 2026-10-03 (ifb5) from artefacts: registry and served reports
 # (publish), approved editorial files (editorial), report repos' golden.yaml.
-# Not yet machine-checked: `pnpm pipeline status` is ifb5.9.
+#
+# Machine-checked: `pnpm pipeline status` derives each unit's stage from the
+# artefacts and `--check` (a warning in verify.sh) fails on drift (ifb5.9;
+# scripts/lib/pipeline-status.ts lists every gate item). Only the first row of a
+# report id is derived; later rows (more volumes) are record only. Optional keys:
+#   waive: {<stage>.<item>: <bead>}  a gate item known to be unmet, owned by that
+#                                    bead; the check says when the waiver is stale
+#   match: [words]                   how a changelog heading names the report
+#                                    (default: its id and registry title)
 
 units:
   # The thirteen live reports: text, introduction and plate are live. None is
@@ -23,36 +31,53 @@ units:
     scope: "Volume One"
     reached: publish
     state: waiting
+    waive:
+      repo.datapackage: reportsthatmatter-fbgx
+      repo.readme: reportsthatmatter-fbgx
+      evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 5 queue items"
     notes: "Announce: launch y2t.6."
   - id: us-psi-financial-crisis
     scope: "the report"
     reached: publish
     state: waiting
+    waive:
+      evaluate.processing: reportsthatmatter-wl0.10
     evidence: "registry; editorial approved; 2 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.10)."
   - id: challenger-accident
     scope: "the report"
     reached: publish
     state: waiting
+    waive:
+      repo.datapackage: reportsthatmatter-fbgx
+      evaluate.processing: reportsthatmatter-wl0.7
     evidence: "registry; editorial approved; 6 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.7)."
   - id: litvinenko-inquiry
     scope: "the report"
     reached: publish
     state: waiting
+    waive:
+      repo.datapackage: reportsthatmatter-fbgx
+      evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 3 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing."
   - id: uk-leveson-inquiry
     scope: "Volumes I-IV"
     reached: publish
     state: waiting
+    waive:
+      repo.datapackage: reportsthatmatter-fbgx
+      evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 3 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing."
   - id: columbia-accident
     scope: "Volume I"
     reached: publish
     state: waiting
+    waive:
+      evaluate.processing: reportsthatmatter-wl0.8
     evidence: "registry; editorial approved; 5 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.8)."
   - id: us-911-commission
@@ -65,23 +90,30 @@ units:
     scope: "the report"
     reached: publish
     state: waiting
+    waive:
+      evaluate.processing: reportsthatmatter-wl0.9
     evidence: "registry; editorial approved; 4 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.9). EPUB as structure source: egsa."
   - id: us-v-philip-morris
     scope: "Final opinion"
     reached: publish
     state: waiting
+    waive:
+      evaluate.processing: reportsthatmatter-wl0.11
     evidence: "registry; editorial approved; 6 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.11)."
   - id: uk-hillsborough-panel
     scope: "the report"
     reached: publish
     state: waiting
+    waive:
+      evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 2 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing."
   - id: uk-saville-inquiry
     scope: "Volume I"
-    reached: publish
+    reached: announce
+    match: ["Bloody Sunday"]
     state: waiting
     evidence: "registry; editorial approved; 2 queue items; PROCESSING.md"
     notes: "Announce: launch y2t.6."
@@ -90,13 +122,15 @@ units:
     reached: publish
     state: waiting
     evidence: "registry; editorial approved; PROCESSING.md"
-    notes: "Announce: launch y2t.6. No card: true highlights, so no queue items (ifb5.14)."
+    notes: "Announce: launch y2t.6. Has card: true highlights since ifb5.14; no queue items yet (pnpm posts)."
   - id: us-lehman-examiner
     scope: "Volumes 1 and 3"
     reached: publish
     state: waiting
+    waive:
+      repo.datapackage: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; PROCESSING.md"
-    notes: "Announce: launch y2t.6. No card: true highlights, so no queue items (ifb5.14)."
+    notes: "Announce: launch y2t.6. Has card: true highlights since ifb5.14; no queue items yet (pnpm posts)."
 
   # Units in preparation.
   - id: us-duelfer-report
@@ -104,6 +138,8 @@ units:
     bead: reportsthatmatter-9br
     reached: ingest
     state: parked
+    waive:
+      repo.manifest: reportsthatmatter-9br
     evidence: "report repo main (layoutPageJoins, reference, adjudicated.yaml); site PR #182 (stale, ingest v0.12.21)"
     notes: "Stage 4 parked behind the hybrid (ivg.4) and the bleed-margin banner (1l4, ingest PR #22). No golden.yaml or PROCESSING.md yet."
   - id: us-duelfer-report
