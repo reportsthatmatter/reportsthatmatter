@@ -52,6 +52,7 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **Source choice is a bigger lever than pass tuning for structure.** (2026-10-03, zphc) 12 of 14 source PDFs are born-digital so their words are exact; what we lack is structure, and per-report source stacks (HTML, EPUB, tags, a verified vision pass for scans, anchors from the PDF) beat more heuristics on a bad extraction.
 - **An inherited fix must be re-measured on the next volume.** (2026-10-03, ifb5, d0h) d0h assumed Volume I's banner fix (a `crop` of the bleed margin, 1l4) carries to Volumes II-III; their banner is inside a 612-point page with no bleed, so the same defect needs a different crop width or a rotated-text filter. Check the evidence, not the family resemblance, at stage 1. [status: in the report-source skill]
 - **A recorded caveat is a claim to re-check.** (2026-10-03, ifb5, 38s.1) "The HTML omits the annexes" was a fetch gap: the CIA edition has every annex as its own page. Caveats in reference manifests should say what was fetched, not what exists. [status: reference-editions.md §3.5 corrected]
+- **Read the edition's own note on the printing before choosing a clean source.** (2026-10-03, ifb5, d0h, ivg.4) Duelfer's govinfo PDFs are a revised 2005 printing (respelled names, deletions), while the CIA HTML is the 2004 text it revised; the printing says so on page 1. A clean edition can be the right structure and the wrong words. [status: report-source skill step 3; ivg.4 noted]
 
 ## Writing and publishing
 

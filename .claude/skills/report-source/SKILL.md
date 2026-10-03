@@ -23,7 +23,7 @@ Work in a scratch directory; commit nothing in this stage.
    6. Court documents: CAP, CourtListener, sealed vs unsealed docket entries.
    7. US congressional after ~1995: govinfo HTML or text.
    8. Who holds the originals; request route (accessible formats, FOIA)?
-3. **Check versions.** Redacted vs unredacted, errata and correction notices, reprints, a web edition revised after print. Compare page counts and a few passages. Every difference is named, with how it will be handled.
+3. **Check versions.** Read the original's own note on the printing or edition first. Redacted vs unredacted, errata and correction notices, reprints, a print revised after the web edition (or the reverse); a clean edition can carry the right structure and the wrong words. Compare page counts and a few passages. Every difference is named, with how it will be handled.
 4. **Write the source stack** as a table: for words, blocks/headings, notes, page anchors and provenance, which source and its role (canonical, structure, reference, rejected and why). The official original is always the canonical citation target.
 5. **Record the scope decision** (which volumes; one report id or several) and its reason.
 6. **Note layout evidence** you saw for stage 3 (columns, banners, page boxes, notes style).
