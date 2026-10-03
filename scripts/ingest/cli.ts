@@ -14,6 +14,7 @@
  *   run, baseline and aggregate refuse a report repo that is the shared checkout (RTM_REPORT_DIRS worktrees, or --shared for the integrator)
  *   pnpm ingest page <slug> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]
  *   pnpm ingest anchors [<slug>...] [--md <full.md>] [--limit N] [--json <file>]   where each page marker lands, checked from the PDF text layer alone (scripts/ingest/anchors.ts)
+ *   pnpm ingest folios <slug>... [--pages all|N-M] [--limit N] [--json <file>]   the printed number read off each PDF page, its source, offset runs and stray reads (scripts/ingest/folios.ts)
  *   pnpm ingest referee <slug>... [--dry-run] [--model M]   fill a report's page-break referee cache (scripts/ingest/referee.ts)
  *   pnpm ingest referee eval [--dev|--holdout] [--answers …] measure the referee against the adjudicated page breaks
  *
@@ -845,7 +846,7 @@ let code = 0;
 const named = rest.filter(
   (a, i) => !a.startsWith("--") && !["--passes", "--dir", "--branch", "--findings-json"].includes(rest[i - 1]) && !(rest[i - 1] === "--findings" && (a === "all" || /^\d+$/.test(a)))
 );
-const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", "recheck", "referee", undefined].includes(command);
+const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", "recheck", "referee", "folios", undefined].includes(command);
 if (command === "preflight") code = runPreflight(named, false) ? 0 : 1;
 else if (needsPipeline && !skipPreflight && !runPreflight(command === "page" ? named.slice(0, 1) : named, true)) code = 1;
 else if (command === "run") code = await runIngest(rest);
@@ -878,6 +879,22 @@ else if (command === "anchors")
       }
     },
   });
+else if (command === "folios") {
+  code = await (await import("./folios.ts")).runFolios(rest, {
+    ids: [...reportDirs().keys()],
+    folioReport: (ingestLibrary as { folioReport?: (result: unknown) => never }).folioReport,
+    run: async (id) => {
+      const def = await loadDefinition(id);
+      return ingestPageGroups(
+        def.volumes.map((volume) => extractPages(resolveVolume(def, volume, reportDir(id)))),
+        { title: def.title, authors: def.authors, published_at: def.published_at, source_url: def.source_url },
+        resolvePasses(def),
+        loadCorrections(id),
+        { layout: layoutFor(def) }
+      );
+    },
+  });
+}
 else if (command === "referee") {
   // A report scored but not yet published (Duelfer) is not in the manifest: its repo is a sibling, as `pnpm score` reads it.
   const repoOf = (id: string) => reportDirs().get(id) ?? join(ROOT, "..", id);
