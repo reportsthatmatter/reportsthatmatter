@@ -11,6 +11,7 @@ pnpm score --all --holdout            # the held-out set: report scores only, ne
   --out <dir>                         # default score-out/ (gitignored)
   --no-layout                         # skip pdftohtml layout features in the decision dataset
   --adjudicate-draft                  # also write <out>/<id>/adjudicated-draft.yaml: 20 random + 10 disagreeing page breaks to adjudicate
+  --shadow                            # a report served from its clean edition: score its PDF shadow against the served text (below)
 ```
 
 Each run writes, per report, to `score-out/<id>/`:
@@ -23,6 +24,10 @@ Each run writes, per report, to `score-out/<id>/`:
 and `score-out/summary.md` (or `summary-holdout.md`) across reports: the score table, the reference error rates, the top error clusters, and the pooled signal table.
 
 Reference editions live in each report repo under `reference/`: `manifest.json` (edition, set, licence, source URLs and SHA-256 of every mirrored file, normaliser, caveats, and a `version` block where the editions differ) and `blocks.jsonl`. To test against report-repo branches, `RTM_REPO_ROOT=<dir>` reads `<dir>/<repo>` instead of the sibling checkout.
+
+## A report served from its clean edition: `--shadow`
+
+A report whose `ingest.ts` declares `cleanEdition` (@rtm/ingest; reportsthatmatter-ivg, first us-911-commission) is served from that edition, so the edition is no longer an independent score of what we serve. Its PDF ingest still runs as the shadow, and `pnpm score <id> --shadow` turns the scorer round: the served `full.md` is the reference (`referenceFromMarkdown` in `src/lib/score/reference.ts`: block types, heading levels, notes and their markers) and the shadow is scored against it, written to `score-out/<id>-shadow/`. That keeps the report in the labelled set for the PDF pipeline (38s.8) with the served text, typography restored from the PDF, as the answer key. Needs the site's @rtm/ingest to know `cleanEdition`; adjudicated page breaks are not applied (they judge the HTML reference). `pnpm score <id>` without the flag still scores the served text against `reference/`, which now measures the edition adapter, not the PDF pipeline.
 
 ## The reference's own error rate: `reference/adjudicated.yaml`
 
@@ -51,7 +56,7 @@ A new reference is an entry in `REFERENCES` (edition, set, licence, files, cavea
 ## How the alignment works
 
 1. Both editions become word streams (letters and digits, lower case, diacritics folded); footnote markers are taken out and kept at their word position. Body and notes are aligned separately.
-2. Words are aligned monotonically: 7-word sequences unique in both streams are anchors, the longest increasing subsequence of anchors is the skeleton (so repeated boilerplate cannot pull it out of order), and gaps are filled by an exact LCS plus split/joined words ("tue sday" / "tuesday"). A gap whose matched words do not form runs of three or more is left unaligned: it is different text, not the same text with errors.
+2. Words are aligned monotonically (the aligner is @rtm/ingest's `align`, shared with the hybrid source mode that stamps pages with it): 7-word sequences unique in both streams are anchors, the longest increasing subsequence of anchors is the skeleton (so repeated boilerplate cannot pull it out of order), and gaps are filled by an exact LCS plus split/joined words ("tue sday" / "tuesday"). A gap whose matched words do not form runs of three or more is left unaligned: it is different text, not the same text with errors.
 3. A reference block counts only when half its words align. Unaligned runs of 200+ words are reported as excluded stretches (version differences where the manifest says the editions differ, otherwise coverage gaps: front matter, a separately published executive summary), never as errors.
 4. Block starts are compared within two words, one to one. A start of ours inside a reference block is a spurious split; a reference start we do not reproduce is a missed split. Headings are scored the same way, with level accuracy under the most common reference-to-our level mapping. A footnote marker is linked when ours sits within two words of the reference's and its note's words match the reference note's; a bare number next to where the marker belongs is reported as bare.
 5. OOV is our words (in aligned blocks) that never occur in the reference, nor as two adjacent reference words joined.

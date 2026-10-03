@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { align } from "../src/lib/score/align";
 import { parseOurs, inlineText } from "../src/lib/score/ours";
-import { parseReferenceLines } from "../src/lib/score/reference";
+import { parseReferenceLines, referenceFromMarkdown } from "../src/lib/score/reference";
 import { score, prf } from "../src/lib/score/score";
 import { decisionRows, labelFlags } from "../src/lib/score/decisions";
 import { parsePdfXml, prepareLayout } from "../src/lib/score/layout";
@@ -307,5 +307,38 @@ describe("adjudicated page breaks", () => {
     expect(a).toBe(draftAdjudication("r", pool, 5, 3));
     expect((a.match(/stratum: random/g) ?? []).length).toBe(5);
     expect((a.match(/stratum: disagreement/g) ?? []).length).toBe(3);
+  });
+});
+
+describe("referenceFromMarkdown (--shadow)", () => {
+  const served = [
+    "## Chapter",
+    "",
+    "%%page 1%%",
+    "",
+    "The flight left at 7:59 and the crew reported nothing unusual on the climb.[^1-1]",
+    "",
+    "> A quotation set apart.",
+    "",
+    "## Notes",
+    "",
+    "[^1-1]: The note's text.",
+    "",
+  ].join("\n");
+
+  it("turns the served text into a reference: types, levels, notes and the markers that name them", () => {
+    const ref = referenceFromMarkdown(parseOurs(served));
+    expect(ref.map((b) => b.type)).toEqual(["heading", "paragraph", "quote", "note"]);
+    expect(ref[0].level).toBe(2);
+    const note = ref.find((b) => b.type === "note")!;
+    expect(ref[1].markers[0].note).toBe(note.id);
+    expect(note.ref).toBe(1);
+    expect(note.label).toBe("1");
+  });
+
+  it("scores a text against itself as perfect", () => {
+    const r = score(parseOurs(served), referenceFromMarkdown(parseOurs(served)));
+    expect(prf(r.boundaries).f1).toBe(1);
+    expect(prf(r.markers).f1).toBe(1);
   });
 });

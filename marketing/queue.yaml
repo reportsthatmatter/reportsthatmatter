@@ -264,15 +264,15 @@ items:
     card: assets/cards/columbia-accident/default.png
     scheduled: 2026-10-15
     posted_url: null
-  - id: us-911-commission:five-seconds-later-jarrah-asked:e8d2c08d
+  - id: us-911-commission:five-seconds-later-jarrah-asked:5a45c71d
     report: us-911-commission
     paragraph: five-seconds-later-jarrah-asked
-    quote: Sixteen seconds later, a passenger yelled,"Roll it!"
+    quote: Sixteen seconds later, a passenger yelled, "Roll it!"
     text: |-
-      “Sixteen seconds later, a passenger yelled,‘Roll it!’”
+      “Sixteen seconds later, a passenger yelled, ‘Roll it!’”
 
       — The 9/11 Commission Report, p. 14
-    link: https://reportsthatmatter.org/reports/us-911-commission?p=five-seconds-later-jarrah-asked&h=cockpit.%20If%20we%20don't%20we'll%20die!%22%20|Sixteen%20seconds%20later%2C%20a%20passenger%20yelled%2C%22Roll%20it!%22|%20Jarrah%20stopped%20the&src=bsky
+    link: https://reportsthatmatter.org/reports/us-911-commission?p=five-seconds-later-jarrah-asked&h=cockpit.%20If%20we%20don't%20we'll%20die!%22%20|Sixteen%20seconds%20later%2C%20a%20passenger%20yelled%2C%20%22Roll%20it!%22|%20Jarrah%20stopped%20the&src=bsky
     card: assets/cards/us-911-commission/default.png
     scheduled: 2026-10-16
     posted_url: null

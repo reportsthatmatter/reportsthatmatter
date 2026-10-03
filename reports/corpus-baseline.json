@@ -1921,44 +1921,44 @@
       ]
     },
     "us-911-commission": {
-      "words": 305355,
-      "paragraphs": 2524,
+      "words": 305729,
+      "paragraphs": 2438,
       "sections": [
         {
-          "slug": "report",
-          "title": "REPORT",
-          "paragraphs": 2,
-          "ids": "81eec25c45cc"
+          "slug": "contents",
+          "title": "CONTENTS",
+          "paragraphs": 12,
+          "ids": "20fe792d81d0"
         },
         {
-          "slug": "list-of-illustrations-and-tables",
-          "title": "LIST OF ILLUSTRATIONS AND TABLES",
-          "paragraphs": 10,
-          "ids": "46844e6dc9bf"
+          "slug": "commission-staff",
+          "title": "COMMISSION STAFF",
+          "paragraphs": 79,
+          "ids": "a664242615e6"
         },
         {
           "slug": "preface",
           "title": "PREFACE",
-          "paragraphs": 23,
-          "ids": "dbef0940c518"
+          "paragraphs": 21,
+          "ids": "be5a9ab91814"
         },
         {
           "slug": "11-inside-the-four-flights",
           "title": "1.1 Inside the Four Flights",
           "paragraphs": 88,
-          "ids": "d67ef32ae834"
+          "ids": "e54a95611dfa"
         },
         {
           "slug": "12-improvising-a-homeland-defense",
           "title": "1.2 Improvising a Homeland Defense",
-          "paragraphs": 168,
-          "ids": "5ce1c8f0da3e"
+          "paragraphs": 178,
+          "ids": "0bf872266a88"
         },
         {
           "slug": "13-national-crisis-management",
           "title": "1.3 National Crisis Management",
-          "paragraphs": 78,
-          "ids": "c1dd7c4371df"
+          "paragraphs": 87,
+          "ids": "2571523a196c"
         },
         {
           "slug": "the-foundation-of-the-new-terrorism",
@@ -1969,8 +1969,8 @@
         {
           "slug": "22-bin-ladins-appeal-in-the-islamic-world",
           "title": "2.2 Bin Ladin's Appeal in the Islamic World",
-          "paragraphs": 33,
-          "ids": "cf51857e470f"
+          "paragraphs": 32,
+          "ids": "d7a68e1ac722"
         },
         {
           "slug": "23-the-rise-of-bin-ladin-and-al-qaeda-19881992",
@@ -1988,7 +1988,7 @@
           "slug": "25-al-qaedas-renewal-in-afghanistan-19961998",
           "title": "2.5 Al Qaeda's Renewal in Afghanistan (1996–1998)",
           "paragraphs": 35,
-          "ids": "f5691d592280"
+          "ids": "de2ef4cf232b"
         },
         {
           "slug": "31-from-the-old-terrorism-to-the-new-the-first-world-trade-center-bombing",
@@ -2000,7 +2000,7 @@
           "slug": "32-adaptationand-nonadaptation-in-the-law-enforcement-community",
           "title": "3.2 Adaptation—and Nonadaptation— . . . in the Law Enforcement Community",
           "paragraphs": 42,
-          "ids": "3c80142bfe97"
+          "ids": "feb55706d753"
         },
         {
           "slug": "33-and-in-the-federal-aviation-administration",
@@ -2017,32 +2017,32 @@
         {
           "slug": "35-and-in-the-state-department-and-the-defense-department",
           "title": "3.5 . . . and in the State Department and the Defense Department",
-          "paragraphs": 24,
-          "ids": "9353a5ffb2a6"
+          "paragraphs": 25,
+          "ids": "c8667ef8e523"
         },
         {
           "slug": "36-and-in-the-white-house",
           "title": "3.6 . . . and in the White House",
           "paragraphs": 20,
-          "ids": "02c333bea40a"
+          "ids": "0b1d63eabb4a"
         },
         {
           "slug": "37-and-in-the-congress",
           "title": "3.7 . . . and in the Congress",
-          "paragraphs": 22,
-          "ids": "e5643603f99d"
+          "paragraphs": 23,
+          "ids": "c8d40c738bb1"
         },
         {
           "slug": "responses-to-al-qaedas-initial-assaults",
           "title": "RESPONSES TO AL QAEDA'S INITIAL ASSAULTS",
           "paragraphs": 38,
-          "ids": "28b71a7b5f83"
+          "ids": "a490345aa536"
         },
         {
           "slug": "42-crisis-august-1998",
           "title": "4.2 Crisis: August 1998",
-          "paragraphs": 26,
-          "ids": "335c563bfe44"
+          "paragraphs": 22,
+          "ids": "11cc5e375ab5"
         },
         {
           "slug": "43-diplomacy",
@@ -2053,20 +2053,20 @@
         {
           "slug": "44-covert-action",
           "title": "4.4 Covert Action",
-          "paragraphs": 40,
-          "ids": "82fe5611fb1d"
+          "paragraphs": 38,
+          "ids": "f96a02cdc3e8"
         },
         {
           "slug": "45-searching-for-fresh-options",
           "title": "4.5 Searching for Fresh Options",
           "paragraphs": 44,
-          "ids": "b80f2e9f6d96"
+          "ids": "68fdc6cbb068"
         },
         {
           "slug": "al-qaeda-aims-at-the-american-homeland",
           "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND",
-          "paragraphs": 39,
-          "ids": "fb2e296f8512"
+          "paragraphs": 36,
+          "ids": "4663b6228296"
         },
         {
           "slug": "52-the-planes-operation",
@@ -2077,32 +2077,32 @@
         {
           "slug": "53-the-hamburg-contingent",
           "title": "5.3 The Hamburg Contingent",
-          "paragraphs": 41,
-          "ids": "26261c1fcba0"
+          "paragraphs": 39,
+          "ids": "3f32aa141c33"
         },
         {
           "slug": "54-a-money-trail",
           "title": "5.4 A Money Trail?",
-          "paragraphs": 21,
-          "ids": "333a1d05172b"
+          "paragraphs": 20,
+          "ids": "e09556a04454"
         },
         {
           "slug": "from-threat-to-threat",
           "title": "FROM THREAT TO THREAT",
           "paragraphs": 3,
-          "ids": "59dc6e92cfd9"
+          "ids": "5da190672ddf"
         },
         {
           "slug": "61-the-millennium-crisis",
           "title": "6.1 The Millennium Crisis",
-          "paragraphs": 44,
-          "ids": "d7bc1405d860"
+          "paragraphs": 39,
+          "ids": "8c8de725d75e"
         },
         {
           "slug": "62-post-crisis-reflection-agenda-for-2000",
           "title": "6.2 Post-Crisis Reflection: Agenda for 2000",
-          "paragraphs": 43,
-          "ids": "8246537868d0"
+          "paragraphs": 42,
+          "ids": "93ffa4b13f27"
         },
         {
           "slug": "63-the-attack-on-the-uss-cole",
@@ -2119,8 +2119,8 @@
         {
           "slug": "65-the-new-administrations-approach",
           "title": "6.5 The New Administration's Approach",
-          "paragraphs": 64,
-          "ids": "f95933a21942"
+          "paragraphs": 63,
+          "ids": "69efa5c19189"
         },
         {
           "slug": "the-attack-looms",
@@ -2131,68 +2131,68 @@
         {
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
-          "paragraphs": 51,
-          "ids": "08b0e647e131"
+          "paragraphs": 43,
+          "ids": "ac8b2559817d"
         },
         {
           "slug": "73-assembling-the-teams",
           "title": "7.3 Assembling the Teams",
-          "paragraphs": 50,
-          "ids": "9752fd393fea"
+          "paragraphs": 57,
+          "ids": "328c667201d9"
         },
         {
           "slug": "74-final-strategies-and-tactics",
           "title": "7.4 Final Strategies and Tactics",
           "paragraphs": 66,
-          "ids": "d66483ea4f70"
+          "ids": "25b69a01a293"
         },
         {
           "slug": "the-system-was-blinking-red",
           "title": "\"THE SYSTEM WAS BLINKING RED\"",
-          "paragraphs": 73,
-          "ids": "af81ef947032"
+          "paragraphs": 65,
+          "ids": "06ea5bc96962"
         },
         {
           "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
           "title": "8.2 Late Leads—Mihdhar, Moussaoui, and KSM",
-          "paragraphs": 72,
-          "ids": "15e52d831c1f"
+          "paragraphs": 71,
+          "ids": "e35472b1641a"
         },
         {
           "slug": "heroism-and-horror",
           "title": "HEROISM AND HORROR",
-          "paragraphs": 34,
-          "ids": "b2299e5ad795"
+          "paragraphs": 36,
+          "ids": "f57ccaa27652"
         },
         {
           "slug": "92-september-11-2001",
           "title": "9.2 September 11, 2001",
-          "paragraphs": 165,
-          "ids": "48e36334faaf"
+          "paragraphs": 163,
+          "ids": "d64be5f4f3bc"
         },
         {
           "slug": "93-emergency-response-at-the-pentagon",
           "title": "9.3 Emergency Response at the Pentagon",
           "paragraphs": 16,
-          "ids": "7304c5a7aac8"
+          "ids": "3c90e84b70d7"
         },
         {
           "slug": "94-analysis",
           "title": "9.4 Analysis",
-          "paragraphs": 41,
-          "ids": "686b2ce8657b"
+          "paragraphs": 42,
+          "ids": "f26b6f263878"
         },
         {
           "slug": "wartime",
           "title": "WARTIME",
           "paragraphs": 7,
-          "ids": "371766864510"
+          "ids": "cb6bdf6fe58e"
         },
         {
           "slug": "101-immediate-responses-at-home",
           "title": "10.1 Immediate Responses at Home",
-          "paragraphs": 22,
-          "ids": "5fe6c3e29280"
+          "paragraphs": 14,
+          "ids": "41abaa100ff4"
         },
         {
           "slug": "102-planning-for-war",
@@ -2203,14 +2203,14 @@
         {
           "slug": "103-phase-two-and-the-question-of-iraq",
           "title": "10.3 \"Phase Two\" and the Question of Iraq",
-          "paragraphs": 25,
-          "ids": "2ac30fb24418"
+          "paragraphs": 26,
+          "ids": "76a62674144b"
         },
         {
           "slug": "111-imagination",
           "title": "11.1 Imagination",
-          "paragraphs": 42,
-          "ids": "1921c555a1f6"
+          "paragraphs": 44,
+          "ids": "ecc14b4c644c"
         },
         {
           "slug": "112-policy",
@@ -2227,86 +2227,80 @@
         {
           "slug": "114-management",
           "title": "11.4 Management",
-          "paragraphs": 39,
-          "ids": "4654f1871250"
+          "paragraphs": 48,
+          "ids": "2f91b7c135cb"
         },
         {
           "slug": "what-to-do-a-global-strategy",
           "title": "WHAT TO DO? A GLOBAL STRATEGY",
           "paragraphs": 33,
-          "ids": "37e300a77318"
+          "ids": "1b59587c69cb"
         },
         {
           "slug": "122-attack-terrorists-and-their-organizations",
           "title": "12.2 Attack Terrorists and Their Organizations",
-          "paragraphs": 53,
-          "ids": "ee63b465d58f"
+          "paragraphs": 56,
+          "ids": "af9c45298f19"
         },
         {
           "slug": "123-prevent-the-continued-growth-of-islamist-terrorism",
           "title": "12.3 Prevent the Continued Growth of Islamist Terrorism",
-          "paragraphs": 48,
-          "ids": "dd56cbb7088a"
+          "paragraphs": 47,
+          "ids": "9cbf8cc656a9"
         },
         {
           "slug": "124-protect-against-and-prepare-for-terrorist-attacks",
           "title": "12.4 Protect against and Prepare for Terrorist Attacks",
-          "paragraphs": 98,
-          "ids": "8f05224d820e"
+          "paragraphs": 94,
+          "ids": "fac931ebcf77"
         },
         {
           "slug": "131-unity-of-effort-across-the-foreign-domestic-divide",
           "title": "13.1 Unity of Effort across the Foreign-Domestic Divide",
-          "paragraphs": 41,
-          "ids": "a19339a337f9"
+          "paragraphs": 35,
+          "ids": "8fa8cc02697f"
         },
         {
           "slug": "132-unity-of-effort-in-the-intelligence-community",
           "title": "13.2 Unity of Effort in the Intelligence Community",
-          "paragraphs": 59,
-          "ids": "49d69d2a89c4"
+          "paragraphs": 40,
+          "ids": "4545689dbad7"
         },
         {
           "slug": "133-unity-of-effort-in-sharing-information",
           "title": "13.3 Unity of Effort in Sharing Information",
-          "paragraphs": 15,
-          "ids": "7181363aedc7"
+          "paragraphs": 14,
+          "ids": "5d20ba9e60d7"
         },
         {
           "slug": "134-unity-of-effort-in-the-congress",
           "title": "13.4 Unity of Effort in the Congress",
-          "paragraphs": 16,
-          "ids": "efe463b615dd"
+          "paragraphs": 15,
+          "ids": "f087594c9d24"
         },
         {
           "slug": "135-organizing-americas-defenses-in-the-united-states",
           "title": "13.5 Organizing America's Defenses in the United States",
-          "paragraphs": 30,
-          "ids": "d3645a711535"
+          "paragraphs": 23,
+          "ids": "ab6ec71898f4"
         },
         {
-          "slug": "appendix-b-table-of-names-us-officials",
-          "title": "APPENDIX B TABLE OF NAMES U.S. OFFICIALS",
-          "paragraphs": 78,
-          "ids": "065e98de986f"
+          "slug": "appendix-b-table-of-names",
+          "title": "APPENDIX B TABLE OF NAMES",
+          "paragraphs": 0,
+          "ids": "e3b0c44298fc"
         },
         {
           "slug": "appendix-c-commission-hearings",
           "title": "APPENDIX C COMMISSION HEARINGS",
-          "paragraphs": 62,
-          "ids": "4314ab631f79"
+          "paragraphs": 16,
+          "ids": "26fc9e48ccac"
         },
         {
           "slug": "notes",
           "title": "NOTES",
-          "paragraphs": 6,
-          "ids": "8865b59c7829"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "paragraphs": 7,
+          "ids": "afe0a1edd4ca"
         }
       ]
     },

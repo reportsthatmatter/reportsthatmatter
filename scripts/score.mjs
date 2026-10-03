@@ -7,6 +7,9 @@
  *     --no-layout                  # skip pdftohtml layout features in the decision dataset
  *     --adjudicate-draft           # also write <out>/<id>/adjudicated-draft.yaml: 20 random + 10 disagreeing page breaks to adjudicate
  *     --json                       # also print the summary as JSON
+ *     --shadow                     # a report served from a clean edition (cleanEdition in its ingest.ts):
+ *                                  # score its PDF ingest, run as the shadow, against the served full.md
+ *                                  # instead of reference/ (writes <out>/<id>-shadow/)
  *
  * Reads reports/<id>/full.md (as aggregated) and <repo>/reference/{manifest.json,blocks.jsonl}
  * (scripts/score/reference.py writes them); RTM_REPO_ROOT=<dir> reads <dir>/<repo> instead of the
@@ -21,7 +24,8 @@ import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts } from "@rtm/ingest";
 import { parseOurs } from "../src/lib/score/ours.ts";
-import { hasReference, loadReference } from "../src/lib/score/reference.ts";
+import { hasReference, loadReference, referenceFromMarkdown } from "../src/lib/score/reference.ts";
+import { pathToFileURL } from "node:url";
 import { score } from "../src/lib/score/score.ts";
 import { errorReport, summaryRow, summaryTable } from "../src/lib/score/report.ts";
 import { evaluateSignals, signalsTable } from "../src/lib/score/signals.ts";
@@ -55,6 +59,36 @@ function ids() {
 }
 
 const fmt = (n) => (n * 100).toFixed(1) + "%";
+
+/**
+ * `--shadow`: the served text is the reference and the PDF ingest the report
+ * keeps as its shadow is what is scored. Runs the report's own ingest.ts with
+ * the site's @rtm/ingest (which must know `cleanEdition`).
+ */
+async function shadowInputs(id, repo, served) {
+  const ingest = await import("@rtm/ingest");
+  const def = (await import(pathToFileURL(join(repo, "ingest.ts")).href)).default;
+  const resolved = ingest.resolvePasses(def);
+  if (!resolved.edition) throw new Error(`${id}: its ingest.ts declares no cleanEdition, so it has no shadow to score`);
+  const corrections = existsSync(join(repo, "corrections.yaml")) ? ingest.parseCorrections(readFileSync(join(repo, "corrections.yaml"), "utf8"), id) : [];
+  const volumes = def.volumes.map((v) => ingest.resolveVolume(def, v, repo));
+  const result = ingest.ingestPageGroups(
+    volumes.map((v) => ingest.extractPages(v)),
+    { title: def.title, authors: def.authors, published_at: def.published_at, source_url: def.source_url },
+    resolved,
+    corrections,
+    { layout: ingest.openLayout(volumes, join(repo, ".cache")) },
+  );
+  const manifest = {
+    report: id,
+    set: "development",
+    edition: `the served text (reports/${id}/full.md), built from the clean edition its ingest.ts declares; scored: the PDF ingest kept as its shadow`,
+    licence: "",
+    sources: [],
+    blocks: { path: `reports/${id}/full.md`, sha256: "", normaliser: "referenceFromMarkdown", counts: {} },
+  };
+  return { markdown: result.shadow.markdown, ref: { manifest, blocks: referenceFromMarkdown(parseOurs(served)) } };
+}
 const rows = [];
 const list = ids();
 if (!list.length) {
@@ -64,7 +98,7 @@ if (!list.length) {
 mkdirSync(out, { recursive: true });
 for (const id of list) {
   const repo = repoDir(id);
-  if (!hasReference(repo)) {
+  if (!flag("--shadow") && !hasReference(repo)) {
     console.error(`${id}: no reference edition at ${repo}/reference (scripts/score/reference.py all ${id})`);
     process.exitCode = 1;
     continue;
@@ -73,18 +107,20 @@ for (const id of list) {
   const report = registry.reports.find((r) => r.id === id);
   // a queued report (not yet in the registry) is scored from its own repo's full.md
   const source = report ? join(root, report.source_path) : join(repo, "full.md");
-  const markdown = readFileSync(source, "utf8");
-  const ref = loadReference(repo);
+  let markdown = readFileSync(source, "utf8");
+  let ref;
+  if (flag("--shadow")) ({ markdown, ref } = await shadowInputs(id, repo, markdown));
+  else ref = loadReference(repo);
   if (ref.manifest.set === "held-out" && !flag("--holdout") && flag("--all")) continue;
   const ours = parseOurs(markdown);
   const result = score(ours, ref.blocks, { versionDiffers: ref.manifest.version?.differs });
-  const dir = join(out, id);
+  const dir = join(out, flag("--shadow") ? `${id}-shadow` : id);
   mkdirSync(dir, { recursive: true });
 
   // b78.2 signals against the scorer
   const dirGen = join(root, `assets/generated/reports/${id}`);
   let html, meta;
-  if (existsSync(join(dirGen, "full-body.html")) && existsSync(join(dirGen, "meta.json"))) {
+  if (!flag("--shadow") && existsSync(join(dirGen, "full-body.html")) && existsSync(join(dirGen, "meta.json"))) {
     html = readFileSync(join(dirGen, "full-body.html"), "utf8");
     meta = JSON.parse(readFileSync(join(dirGen, "meta.json"), "utf8"));
   } else ({ meta, fullBody: html } = renderArtifacts(markdown));
@@ -95,7 +131,7 @@ for (const id of list) {
   const decisions = decisionRows(id, result, layout);
   // the reference's own error rate: page breaks adjudicated against the PDF (reference/adjudicated.yaml)
   if (flag("--adjudicate-draft")) writeFileSync(join(dir, "adjudicated-draft.yaml"), draftAdjudication(id, decisions));
-  const adjFile = loadAdjudicated(repo);
+  const adjFile = flag("--shadow") ? null : loadAdjudicated(repo);
   const adjPairs = adjFile ? applyAdjudication(decisions, adjFile) : [];
   const adj = adjFile ? adjudicationStats(adjPairs) : null;
   writeFileSync(join(dir, "decisions.jsonl"), decisions.map((r) => JSON.stringify(r)).join("\n") + "\n");

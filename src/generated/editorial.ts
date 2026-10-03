@@ -2267,7 +2267,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "recommendation-current-position-director-central",
             "page": 411,
-            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central&h=Recommendation%3A|The%20current%20position%20of%20Director%20of%20Central%20Intelligence%20should%20be%20replaced%20by%20a%20National%20Intelligence%20Director%20with%20two%E2%8B%AF%20the%20U.S.%20government%20and%20(2)%20to%20manage%20the%20national%20intelligence%20program%20and%20oversee%20the%20agencies%20that%20contribute%20to%20it.|"
+            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central&h=Recommendation%3A%20|The%20current%20position%20of%20Director%20of%20Central%20Intelligence%20should%20be%20replaced%20by%20a%20National%20Intelligence%20Director%20with%20two%E2%8B%AF%20the%20U.S.%20government%20and%20(2)%20to%20manage%20the%20national%20intelligence%20program%20and%20oversee%20the%20agencies%20that%20contribute%20to%20it.|"
           }
         }
       }
@@ -2297,7 +2297,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "there-substantial-disagreement-between-minneapolis",
             "page": 275,
-            "href": "/reports/us-911-commission?p=there-substantial-disagreement-between-minneapolis&h=intended%20to%20get%20people%20%22spun%20up.%22|The%20supervisor%20replied%20that%20was%20precisely%20his%20intent.%20He%20said%20he%20was%20%22trying%20to%20keep%20someone%20from%20taking%20a%20plane%20and%20crashing%20into%20the%20World%20Trade%20Center.%22%20The%20headquarters%20agent%20replied%20that%20this%20was%20not%20going%20to%20happen%20and%20that%20they%20did%20not%20know%20if%20Moussaoui%20was%20a%20terrorist.|"
+            "href": "/reports/us-911-commission?p=there-substantial-disagreement-between-minneapolis&h=to%20get%20people%20%22spun%20up.%22%20|The%20supervisor%20replied%20that%20was%20precisely%20his%20intent.%20He%20said%20he%20was%20%22trying%20to%20keep%20someone%20from%20taking%20a%20plane%20and%20crashing%20into%20the%20World%20Trade%20Center.%22%20The%20headquarters%20agent%20replied%20that%20this%20was%20not%20going%20to%20happen%20and%20that%20they%20did%20not%20know%20if%20Moussaoui%20was%20a%20terrorist.|"
           }
         }
       },
@@ -2339,7 +2339,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "recommendation-current-position-director-central",
             "page": 411,
-            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central&h=Recommendation%3A|The%20current%20position%20of%20Director%20of%20Central%20Intelligence%20should%20be%20replaced%20by%20a%20National%20Intelligence%20Director%20with%20two%E2%8B%AF%20the%20U.S.%20government%20and%20(2)%20to%20manage%20the%20national%20intelligence%20program%20and%20oversee%20the%20agencies%20that%20contribute%20to%20it.|"
+            "href": "/reports/us-911-commission?p=recommendation-current-position-director-central&h=Recommendation%3A%20|The%20current%20position%20of%20Director%20of%20Central%20Intelligence%20should%20be%20replaced%20by%20a%20National%20Intelligence%20Director%20with%20two%E2%8B%AF%20the%20U.S.%20government%20and%20(2)%20to%20manage%20the%20national%20intelligence%20program%20and%20oversee%20the%20agencies%20that%20contribute%20to%20it.|"
           }
         }
       }

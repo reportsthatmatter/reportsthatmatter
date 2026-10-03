@@ -38,6 +38,8 @@ Rufus asked: if we have clean texts, why clean the PDFs? The answer per report i
 
 ### 2.1 Hybrid design: clean text for structure, the PDF for page anchors and fidelity
 
+*Built as `cleanEdition` in @rtm/ingest (reportsthatmatter-ivg.1, piloted on us-911-commission): see the library README, "A clean edition as the source", and the report repo's `PROCESSING.md` for the measurements.*
+
 1. **Structure and text come from the clean edition.** Paragraph boundaries, heading levels, paragraph numbers, block quotes, tables and footnotes are authored in the HTML (or tags), so the whole severed-paragraph, furniture, contents-without-heading and bare-footnote-marker families disappear for that report.
 2. **Page anchors come from the PDF.** Our readers cite printed page numbers, which none of the HTML editions carry (9/11 HTML: none; Saville HTML: paragraph numbers only; Hillsborough website: "page 3 of 11" web pages; CAP: reporter star pages, not the PDF's). The PDF text layer is the same words, so we align the clean words to the PDF's per-page word stream (the same monotone anchor alignment as the scorer, `tools/pbound2.py`) and stamp each paragraph with the printed page it starts on. Where the HTML and PDF disagree in more than a few words, that is flagged, not silently resolved.
 3. **The PDF stays as the fidelity check.** Every build compares the clean text with the PDF text layer: containment, out-of-vocabulary tokens, missing paragraphs. This is also the only guard against a clean edition that is a different version (see Philip Morris, below).
