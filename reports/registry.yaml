@@ -68,7 +68,7 @@ reports:
     ingested: true
 
   - id: columbia-accident
-    title: "Columbia Accident Investigation Board Report, Vol. I"
+    title: "Columbia Accident Investigation Board Report, Volume I"
     authors: "Columbia Accident Investigation Board"
     published_at: "August 2003"
     common_name: "Columbia Accident Investigation Board Report, Volume I"
