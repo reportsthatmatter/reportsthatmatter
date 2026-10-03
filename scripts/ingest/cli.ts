@@ -7,6 +7,10 @@
  *   pnpm ingest verify [<slug>] [--no-oracle] [--no-golden] [--findings] [--explain]
  *   pnpm ingest preflight [<slug>...]           is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline do this first; --no-preflight skips)
  *   pnpm ingest outline <slug>                  one line per PDF page: headings, block counts (to choose golden pages)
+ *   pnpm ingest worktrees <id>... [--dir <dest>] [--branch <name>] [--no-install]   git worktrees of report repos; prints the RTM_REPORT_DIRS to export
+ *   pnpm ingest recheck [--passes a,b] [<id>...]   pre-PR: re-ingest (in memory) each report declaring a changed pass; fails on any throw, e.g. a correction matching 0 times
+ *   pnpm ingest crosscheck [<id>...]            golden pages that contradict reference/adjudicated.yaml
+ *   run, baseline and aggregate refuse a report repo that is the shared checkout (RTM_REPORT_DIRS worktrees, or --shared for the integrator)
  *   pnpm ingest page <slug> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]
  *
  * `run` writes reports/<slug>/full.md plus a fidelity report; `verify` re-runs
@@ -24,6 +28,11 @@ import { basename, join, resolve } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { formatPreflight, preflight } from "../lib/preflight.ts";
 import { pathToFileURL } from "node:url";
+import { spawnSync } from "node:child_process";
+import { dirname } from "node:path";
+import { sharedMessage, sharedTargets, worktreePlan, type Target } from "../lib/shared-checkout.ts";
+import { goldenVsAdjudicated } from "../lib/golden-adjudicated.ts";
+import { selectReports } from "../lib/recheck.ts";
 import { checkOracleBudget, loadNotesAtBack, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
 import {
   Baseline,
@@ -94,8 +103,25 @@ function reportDir(id: string): string {
   return dir;
 }
 
+/** The manifest's own location for a report repo, ignoring RTM_REPORT_DIRS: what "the shared checkout" means. */
+function defaultDirs(): Map<string, string> {
+  const raw = parseYaml(readFileSync(join(REPORTS, "manifest.yaml"), "utf8")) as { reports?: Array<{ id: string; dir: string }> };
+  return new Map((raw.reports ?? []).map((entry) => [entry.id, join(ROOT, entry.dir)]));
+}
+
+/** Refuses (returns false, with the message) when a command would touch a shared report checkout. */
+function allowWrites(command: string, ids: string[], shared: boolean): boolean {
+  const defaults = defaultDirs();
+  const targets: Target[] = ids.filter((id) => defaults.has(id)).map((id) => ({ id, dir: reportDir(id), defaultDir: defaults.get(id)! }));
+  const offenders = sharedTargets(targets, { shared });
+  if (!offenders.length) return true;
+  console.error(sharedMessage(command, offenders));
+  return false;
+}
+
 /** Copies each report's authoritative markdown into this repo for serving. */
-function runAggregate(): number {
+function runAggregate(shared: boolean): number {
+  if (!allowWrites("aggregate", [...reportDirs().keys()], shared)) return 1;
   for (const [id, dir] of reportDirs()) {
     const source = join(dir, "full.md");
     if (!existsSync(source)) {
@@ -203,6 +229,7 @@ async function runIngest(argv: string[]): Promise<number> {
     console.error("Usage: pnpm ingest run <report-id>");
     return 1;
   }
+  if (!allowWrites("run", [id], sharedFlag)) return 1;
 
   let def: PipelineDef;
   try {
@@ -634,6 +661,7 @@ function recipeIds(): string[] {
 
 async function runBaseline(argv: string[]): Promise<number> {
   const poppler = popplerVersion();
+  if (!allowWrites("baseline", argv.length ? argv : recipeIds(), sharedFlag)) return 1;
   for (const id of argv.length ? argv : recipeIds()) {
     const baseline = computeBaseline(await regenerate(id), poppler);
     writeFileSync(
@@ -678,16 +706,112 @@ async function runCheck(argv: string[]): Promise<number> {
   return ok ? 0 : 1;
 }
 
+/** `pnpm ingest worktrees <id>...`: a git worktree of each report's repo, and the directory to export as RTM_REPORT_DIRS. */
+function runWorktrees(argv: string[]): number {
+  const flagValues = new Set(["--dir", "--branch"]);
+  const ids = argv.filter((a, i) => !a.startsWith("--") && !flagValues.has(argv[i - 1]));
+  if (!ids.length) {
+    console.error("Usage: pnpm ingest worktrees <report-id>... [--dir <dest>] [--branch <name>] [--no-install]");
+    return 1;
+  }
+  const defaults = defaultDirs();
+  const unknown = ids.filter((id) => !defaults.has(id));
+  if (unknown.length) {
+    console.error(`Not in reports/manifest.yaml: ${unknown.join(", ")}`);
+    return 1;
+  }
+  const dest = resolve(arg(argv, "dir") ?? join(dirname(ROOT), `${basename(ROOT)}-reports`));
+  const stamp = new Date().toISOString().slice(0, 10);
+  mkdirSync(dest, { recursive: true });
+  const git = (repo: string, args: string[]) => spawnSync("git", ["-C", repo, ...args], { encoding: "utf8" });
+  for (const item of worktreePlan(ids.map((id) => ({ id, source: defaults.get(id)! })), dest)) {
+    if (item.exists) {
+      console.log(`  = ${item.repo}: ${item.dest} already exists`);
+      continue;
+    }
+    const fetched = git(item.source, ["fetch", "-q", "origin"]);
+    const base = fetched.status === 0 && git(item.source, ["rev-parse", "--verify", "-q", "origin/main"]).status === 0 ? "origin/main" : "HEAD";
+    const branch = arg(argv, "branch") ?? `wt/${item.repo}-${stamp}`;
+    const added = git(item.source, ["worktree", "add", item.dest, "-b", branch, base]);
+    if (added.status !== 0) {
+      console.error(`  ✗ ${item.repo}: ${added.stderr.trim()}\n    (the branch may exist: pass --branch <new-name>)`);
+      return 1;
+    }
+    console.log(`  + ${item.repo}: ${item.dest} on ${branch} from ${base}`);
+    if (!argv.includes("--no-install") && existsSync(join(item.dest, "package.json"))) {
+      const install = spawnSync("pnpm", ["install"], { cwd: item.dest, env: { ...process.env, CI: "true" }, encoding: "utf8" });
+      if (install.status !== 0) console.error(`    ! pnpm install failed in ${item.dest}: ${install.stderr.trim().split("\n").slice(-2).join(" ")}`);
+    }
+  }
+  console.log(`\nexport RTM_REPORT_DIRS=${dest}\n\nA report whose repo has no worktree there still reads (and, for run/baseline/aggregate, is refused) from the shared checkout.`);
+  return 0;
+}
+
+/** Pre-PR: re-ingest in memory every report declaring a changed pass, so a correction that no longer matches fails here. */
+async function runRecheck(argv: string[]): Promise<number> {
+  const given = arg(argv, "passes");
+  const changed = given ? given.split(",").map((p) => p.trim()).filter(Boolean) : [];
+  const ids = argv.filter((a, i) => !a.startsWith("--") && argv[i - 1] !== "--passes");
+  const loaded: Array<{ id: string; passes: string[] }> = [];
+  for (const id of ids.length ? ids : recipeIds()) {
+    try {
+      const def = await loadDefinition(id);
+      loaded.push({ id, passes: (def.passes ?? []).map((p) => p.name) });
+    } catch (error) {
+      console.error(`  \x1b[31m✗\x1b[0m ${id}: cannot load ingest.ts: ${error instanceof Error ? error.message : String(error)}`);
+      return 1;
+    }
+  }
+  const { run, skipped } = selectReports(loaded, changed);
+  if (skipped.length) console.log(`  skipped (declare none of ${changed.join(", ")}): ${skipped.map((r) => r.id).join(", ")}`);
+  let ok = true;
+  for (const r of run) {
+    try {
+      await regenerate(r.id);
+      console.log(`  \x1b[32m✓\x1b[0m ${r.id}: re-ingested; every correction matched once`);
+    } catch (error) {
+      ok = false;
+      console.error(`  \x1b[31m✗\x1b[0m ${r.id}: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+  if (!ok) console.error("\nA correction that matched 0 (or 2+) times now is stale after your pass change: fix or re-anchor it in the report repo's corrections.yaml (on a worktree) before the PR.");
+  return ok ? 0 : 1;
+}
+
+/** Golden pages whose opening contradicts reference/adjudicated.yaml. */
+function runCrosscheck(argv: string[]): number {
+  let ok = true;
+  let checked = 0;
+  for (const id of argv.length ? argv : recipeIds()) {
+    const dir = reportDir(id);
+    const golden = join(dir, "golden.yaml");
+    const adjudicated = join(dir, "reference", "adjudicated.yaml");
+    if (!existsSync(golden) || !existsSync(adjudicated)) continue;
+    checked++;
+    const bad = goldenVsAdjudicated(readFileSync(golden, "utf8"), readFileSync(adjudicated, "utf8"));
+    if (!bad.length) {
+      console.log(`  \x1b[32m✓\x1b[0m ${id}: golden pages agree with adjudicated.yaml`);
+      continue;
+    }
+    ok = false;
+    for (const c of bad) console.error(`  \x1b[31m✗\x1b[0m ${id} PDF p.${c.page}: ${c.detail}`);
+  }
+  if (!checked) console.log("  (no report has both golden.yaml and reference/adjudicated.yaml)");
+  if (!ok) console.error("\nOne of the two is wrong: read the page image, then fix the golden entry (say why in the commit) or the adjudication.");
+  return ok ? 0 : 1;
+}
+
 const warning = popplerWarning();
 if (warning) console.warn(`\x1b[33m!\x1b[0m ${warning}`);
 
 const [command, ...restAll] = process.argv.slice(2);
 const skipPreflight = restAll.includes("--no-preflight");
-const rest = restAll.filter((a) => a !== "--no-preflight");
+const sharedFlag = restAll.includes("--shared");
+const rest = restAll.filter((a) => a !== "--no-preflight" && a !== "--shared");
 let code = 0;
 // Which reports a command touches, for the preflight: the id it names, else all of them.
-const named = rest.filter((a) => !a.startsWith("--"));
-const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", undefined].includes(command);
+const named = rest.filter((a, i) => !a.startsWith("--") && !["--passes", "--dir", "--branch"].includes(rest[i - 1]));
+const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", "recheck", undefined].includes(command);
 if (command === "preflight") code = runPreflight(named, false) ? 0 : 1;
 else if (needsPipeline && !skipPreflight && !runPreflight(command === "page" ? named.slice(0, 1) : named, true)) code = 1;
 else if (command === "run") code = await runIngest(rest);
@@ -696,7 +820,10 @@ else if (command === "outline") code = await runOutline(rest);
 else if (command === "page") code = await runPage(rest);
 else if (command === "baseline") code = await runBaseline(rest);
 else if (command === "check") code = await runCheck(rest);
-else if (command === "aggregate") code = runAggregate();
+else if (command === "aggregate") code = runAggregate(sharedFlag);
+else if (command === "worktrees") code = runWorktrees(rest);
+else if (command === "recheck") code = await runRecheck(rest);
+else if (command === "crosscheck") code = runCrosscheck(rest);
 else if (command === "try") code = await (await import("./try.ts")).runTry(rest);
 else {
   console.error(`Unknown command: ${command}`);

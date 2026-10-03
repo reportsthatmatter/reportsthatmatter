@@ -56,7 +56,7 @@ Never hand-edit `full.md`; the next ingest overwrites it. If you are writing a c
 
 - `reports/manifest.yaml`: `id` and `dir: ../<report-repo>`.
 - `reports/registry.yaml`: `id`, `title`, `authors`, `published_at`, `source_path: reports/<id>/full.md`, `source_url`, `ingested: true`. If a report cannot meet the fidelity gate, set `ingested: false` and record why. Never weaken a check.
-- `pnpm ingest aggregate` copies the report's `full.md` (and `PROCESSING.md`) into `reports/<id>/`, so a cold clone builds with no sibling checkout. Commit that copy.
+- `pnpm ingest aggregate` (integrator: `--shared`; others: worktrees via `pnpm ingest worktrees`, see AGENTS.md "Shared checkouts") copies the report's `full.md` (and `PROCESSING.md`) into `reports/<id>/`, so a cold clone builds with no sibling checkout. Commit that copy.
 - `pnpm ingest baseline <id>` pins the report's own output in its own repo; `pnpm corpus accept <id>` adds its paragraph ids to `reports/corpus-baseline.json`. Accept only after reading the diff and meaning it. For an existing report, a baseline move you did not expect is a finding, not something to accept.
 - Update the `more-reports` entry in `docs/v2-features.yaml` with the date and any passes the report needed.
 

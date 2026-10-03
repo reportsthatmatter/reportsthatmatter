@@ -69,7 +69,7 @@ pdftoppm -f N -l N -r 75 -png <pdf> /tmp/page   # then look at the image: the dr
 pnpm ingest verify <id> [--explain]             # --explain: where the oracle and the entries disagree, with what the oracle saw
 ```
 
-`RTM_REPORT_DIRS=<dir>` makes the CLI read `<dir>/<repo>` instead of `../<repo>` where it exists, for working in git worktrees of the report repos. A golden page is edited only when the PDF says the entry was wrong, with the reason in the commit message.
+`RTM_REPORT_DIRS=<dir>` makes the CLI read `<dir>/<repo>` instead of `../<repo>` where it exists, for working in git worktrees of the report repos. `pnpm ingest crosscheck` fails when a golden page contradicts an adjudicated break (a join where the golden opens a new block, a split where it `continues_previous`, an `opens_with` that is not the adjudicated next line). A golden page is edited only when the PDF says the entry was wrong, with the reason in the commit message.
 
 Where a report has `reference/adjudicated.yaml` (38s.12), a golden page on one of its breaks agrees with the verdict (a `note:` says so): Columbia 21 and 100, Chilcot 10 and 38, Hillsborough 34, Saville 64.
 
