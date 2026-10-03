@@ -10,6 +10,7 @@
 import { paragraphDensityCheck } from "../density";
 import { endsSentence, frontMatterPages, pageNumber, stripMarkers, toBlocks, type Block } from "./blocks";
 import { bodyOf, noteDefinitions, pairNoteReferences } from "./note-pairing";
+import { numberedProseList } from "./numbered-lists";
 
 export type Meta = {
   words: number;
@@ -556,6 +557,7 @@ export const SIGNALS: Signal[] = [
   printedPageReversal,
   renderedH1,
   renderedOlWordsShare,
+  numberedProseList,
   idsPer1kWords,
   quoteShareParity,
 ];

@@ -28,6 +28,7 @@ defaults:
     heading-long: 0.015
     printed-page-reversal: 0
     rendered-h1: 0
+    numbered-prose-list: 0
     ids-per-1k-words: 0
   max:
     rendered-ol-words-share: 5
@@ -52,6 +53,7 @@ reports:
     printed-page-reversal: 14
     rendered-h1: 1
     rendered-ol-words-share: 13
+    numbered-prose-list: 128
     ids-per-1k-words: 0
     quote-share-parity: 1
   columbia-accident:
@@ -72,6 +74,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 1
+    numbered-prose-list: 7
     ids-per-1k-words: 0
     quote-share-parity: 1
   jack-smith-vol1:
@@ -92,6 +95,7 @@ reports:
     printed-page-reversal: 2
     rendered-h1: 0
     rendered-ol-words-share: 2
+    numbered-prose-list: 1
     ids-per-1k-words: 0
     quote-share-parity: 1
   litvinenko-inquiry:
@@ -112,6 +116,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 7  # why: post v0.15.0 integration
+    numbered-prose-list: 37
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
   uk-chilcot-inquiry:
@@ -132,6 +137,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 7
+    numbered-prose-list: 1
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-hillsborough-panel:
@@ -152,6 +158,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 8
+    numbered-prose-list: 162
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-leveson-inquiry:
@@ -172,6 +179,7 @@ reports:
     printed-page-reversal: 1
     rendered-h1: 0
     rendered-ol-words-share: 8
+    numbered-prose-list: 67
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-saville-inquiry:
@@ -192,6 +200,7 @@ reports:
     printed-page-reversal: 1
     rendered-h1: 0
     rendered-ol-words-share: 4
+    numbered-prose-list: 15
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: reportsthatmatter-zja
   us-911-commission:
@@ -212,6 +221,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 0
+    numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-deepwater-horizon:
@@ -232,6 +242,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 4  # why: reportsthatmatter-apk (3.6%: sidenotes now paired correctly inside list items; budget was 3)
+    numbered-prose-list: 5
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-lehman-examiner:
@@ -252,6 +263,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 6  # why: reportsthatmatter-6wb
+    numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-psi-financial-crisis:
@@ -272,6 +284,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 15
+    numbered-prose-list: 6
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-v-philip-morris:
@@ -292,5 +305,6 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     rendered-ol-words-share: 2
+    numbered-prose-list: 3
     ids-per-1k-words: 0
     quote-share-parity: 1

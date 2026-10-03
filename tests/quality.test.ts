@@ -15,6 +15,7 @@ import {
   noteMarkerUnpaired,
   noteMarkerWrongNote,
   noteTextInBody,
+  numberedProseList,
   olWordsShare,
   printedPageReversal,
   quoteParity,
@@ -391,5 +392,45 @@ describe("measure", () => {
     const m = measure(input("A clean paragraph that ends properly.\n\n## A Heading\n\nAnother one here.", { meta: { words: 10, sections: [], paragraphToSection: { a: "s", b: "s" } } }));
     expect(m.counts["severed-into-quote"]).toBe(0);
     expect(Object.keys(m.counts).length).toBeGreaterThan(15);
+  });
+});
+
+describe("numbered-prose-list (J, b78.8, mv1t)", () => {
+  const run = (html: string) => numberedProseList.run(input("", { html }));
+  const prose = (n: number) =>
+    `<li>The disclosed documents show that police officers on the inner concourse restricted access to the tunnel (${n}).</li>`;
+
+  it("fails on Lehman p.748: a page-break continuation rendered as <ol start=2008>", () => {
+    const html =
+      '<p data-page="748" id="x">Lehman reported (second quarter</p>\n<ol start="2008">\n<li>was 16.1x, 15.4x and 12.1x, respectively.</li>\n</ol>';
+    const found = run(html);
+    expect(found).toHaveLength(1);
+    expect(found[0].page).toBe(748);
+    expect(found[0].excerpt).toContain("start=2008");
+  });
+
+  it("fails on Hillsborough's numbered summary paragraphs rendered as an <ol> with no ids", () => {
+    const found = run(`<ol>${prose(1)}${prose(2)}${prose(3)}</ol>`);
+    expect(found).toHaveLength(1);
+    expect(found[0].excerpt).toContain("3 of 3 items are prose");
+  });
+
+  it("fails on a lone lower-case item and on one long prose item", () => {
+    expect(run('<ol start="2"><li>role of the assessors</li></ol>')).toHaveLength(1);
+    expect(run(`<ol>${prose(1)}</ol>`)).toHaveLength(1);
+  });
+
+  it("passes genuine lists: an outline, a timeline, a list inside a quotation or another list", () => {
+    expect(run("<ol><li>Setting up and preliminaries</li><li>Visits</li><li>Powers and remedies</li></ol>")).toEqual([]);
+    expect(run("<ol><li>January 18: Object reacquired and tracked by Cape</li><li>January 19: Object tracked by Space</li></ol>")).toEqual([]);
+    expect(run(`<blockquote><ol>${prose(1)}${prose(2)}</ol></blockquote>`)).toEqual([]);
+    expect(run(`<ul><li>item<ol>${prose(1)}${prose(2)}</ol></li></ul>`)).toEqual([]);
+    expect(run("<ol><li>Statement of Mr Smith, 14 May 1989, p75.</li></ol>")).toEqual([]);
+    expect(run('<p id="a">No lists here.</p>')).toEqual([]);
+  });
+
+  it("is registered, gated by count", () => {
+    expect(SIGNALS.map((s) => s.id)).toContain("numbered-prose-list");
+    expect(numberedProseList.kind).toBe("count");
   });
 });
