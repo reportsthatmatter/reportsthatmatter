@@ -4,6 +4,7 @@
  *
  *   pnpm ingest run <pdf> [<pdf>...] --id <slug> --title "..." [--authors "..."] [--published 2025]
  *   pnpm ingest verify [<slug>] [--no-oracle] [--no-golden] [--findings] [--explain]
+ *   pnpm ingest preflight [<slug>...]           is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline do this first; --no-preflight skips)
  *   pnpm ingest outline <slug>                  one line per PDF page: headings, block counts (to choose golden pages)
  *   pnpm ingest page <slug> <volume> <pdfPage> [--draft] [--fixture <name> [--fixture-dir <dir>]]
  *
@@ -20,6 +21,7 @@
 import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { parse as parseYaml } from "yaml";
+import { formatPreflight, preflight } from "../lib/preflight.ts";
 import { pathToFileURL } from "node:url";
 import { checkOracleBudget, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
 import {
@@ -604,6 +606,25 @@ async function regenerate(id: string): Promise<IngestResult> {
   );
 }
 
+/**
+ * Stale node_modules in a report repo (a pin was bumped, `pnpm install` was not run there) make the
+ * pipeline crash on a missing export instead of reporting a diff (reportsthatmatter-14su). Check first,
+ * say which repo and the command that fixes it.
+ */
+function runPreflight(ids: string[], quiet: boolean): boolean {
+  const all = reportDirs();
+  const wanted = ids.length ? ids.filter((id) => all.has(id)) : [...all.keys()];
+  const rows = preflight(ROOT, wanted.map((id) => [id, all.get(id)!] as [string, string]));
+  const bad = rows.filter((r) => !r.ok);
+  if (bad.length) {
+    console.error(`Preflight: the installed @rtm/ingest differs from the pin\n${formatPreflight(rows)}`);
+    console.error("\nRun the fix above, then re-run; or pass --no-preflight to try anyway.");
+  } else if (!quiet) {
+    console.log(`Preflight: the installed @rtm/ingest matches each pin\n${formatPreflight(rows)}`);
+  }
+  return bad.length === 0;
+}
+
 function recipeIds(): string[] {
   return [...reportDirs().keys()].sort();
 }
@@ -657,9 +678,16 @@ async function runCheck(argv: string[]): Promise<number> {
 const warning = popplerWarning();
 if (warning) console.warn(`\x1b[33m!\x1b[0m ${warning}`);
 
-const [command, ...rest] = process.argv.slice(2);
+const [command, ...restAll] = process.argv.slice(2);
+const skipPreflight = restAll.includes("--no-preflight");
+const rest = restAll.filter((a) => a !== "--no-preflight");
 let code = 0;
-if (command === "run") code = await runIngest(rest);
+// Which reports a command touches, for the preflight: the id it names, else all of them.
+const named = rest.filter((a) => !a.startsWith("--"));
+const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", undefined].includes(command);
+if (command === "preflight") code = runPreflight(named, false) ? 0 : 1;
+else if (needsPipeline && !skipPreflight && !runPreflight(command === "page" ? named.slice(0, 1) : named, true)) code = 1;
+else if (command === "run") code = await runIngest(rest);
 else if (command === "verify" || command === undefined) code = await runVerify(rest);
 else if (command === "outline") code = await runOutline(rest);
 else if (command === "page") code = await runPage(rest);

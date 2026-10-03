@@ -172,6 +172,12 @@ an interactive session.
   re-run `pnpm ingest check`. That friction is the point — it is what makes a
   report adopt an improvement knowingly instead of having it arrive
   unannounced, which is how one fix silently changed three reports.
+  **After a pin bump, reinstall in every report repo** (`pnpm -C ../<repo> install`):
+  each report's `ingest.ts` imports `@rtm/ingest` from its own `node_modules`, and
+  a stale one crashes the checks on a missing export instead of showing a diff.
+  `pnpm ingest preflight` compares each repo's installed version with its pin and
+  prints the fix; `run`, `verify`, `check` and `baseline` run it first, and so does
+  `verify.sh` (`--no-preflight` skips it; a linked override passes).
   The step-by-step for releasing and linking an unreleased ingest is
   [`scripts/ingest/README.md`](scripts/ingest/README.md), "Changing the library".
   **Every ingest release or pin-bump PR carries its quality numbers**: the
