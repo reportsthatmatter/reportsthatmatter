@@ -19,6 +19,7 @@ import {
   printedPageReversal,
   quoteParity,
   renderedH1,
+  chapterIntroMisfiled,
   renderedOlWordsShare,
   severedIntoQuote,
   severedParagraph,
@@ -233,6 +234,14 @@ describe("rendered HTML signals (J, N)", () => {
     const html = '<p id="a">Text</p><h1>18-7503-005, March 5, 1999. 49</h1>';
     expect(renderedH1.run(input("", { html }))).toHaveLength(1);
     expect(renderedH1.run(input("", { html: "<h2>Fine</h2>" }))).toEqual([]);
+  });
+  it("fails on 9/11 chapter 1's opening served under 'preface' (n9em), passes once the chapter heads its section", () => {
+    const html = '<h2>PREFACE</h2><p id="pre">x</p><h2>&quot;WE HAVE SOME PLANES&quot;</h2><p id="tuesday">Tuesday</p><h3>1.1 Inside</h3><p id="a">y</p>';
+    const sections = [{ slug: "preface", title: "PREFACE" }, { slug: "we-have-some-planes", title: '"WE HAVE SOME PLANES"' }];
+    const bad = input("", { html, meta: { words: 10, sections, paragraphToSection: { pre: "preface", tuesday: "preface", a: "1-1" } } });
+    expect(chapterIntroMisfiled.run(bad)).toHaveLength(1);
+    const good = input("", { html, meta: { words: 10, sections, paragraphToSection: { pre: "preface", tuesday: "we-have-some-planes", a: "we-have-some-planes" } } });
+    expect(chapterIntroMisfiled.run(good)).toEqual([]);
   });
   it("measures words inside <ol> as a share of the report (Lehman-style contents lists)", () => {
     const html = "<ol><li>one two three</li><li>four five</li></ol><p>outside words</p>";

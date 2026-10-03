@@ -28,6 +28,7 @@ defaults:
     heading-long: 0.015
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     ids-per-1k-words: 0
   max:
     rendered-ol-words-share: 5
@@ -51,6 +52,7 @@ reports:
     heading-long: 17
     printed-page-reversal: 14
     rendered-h1: 1
+    chapter-intro-misfiled: 5  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 13
     ids-per-1k-words: 0
     quote-share-parity: 1
@@ -71,6 +73,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
     ids-per-1k-words: 0
     quote-share-parity: 1
@@ -91,6 +94,7 @@ reports:
     heading-long: 1
     printed-page-reversal: 2
     rendered-h1: 0
+    chapter-intro-misfiled: 3  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
@@ -111,6 +115,7 @@ reports:
     heading-long: 2
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 7  # why: post v0.15.0 integration
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
@@ -131,6 +136,7 @@ reports:
     heading-long: 3  # why: post v0.15.0 integration
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 2  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 7
     ids-per-1k-words: 0
     quote-share-parity: 2
@@ -151,6 +157,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 8
     ids-per-1k-words: 0
     quote-share-parity: 2
@@ -171,6 +178,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 1
     rendered-h1: 0
+    chapter-intro-misfiled: 5  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 8
     ids-per-1k-words: 0
     quote-share-parity: 2
@@ -191,6 +199,7 @@ reports:
     heading-long: 4
     printed-page-reversal: 1
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 4
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: reportsthatmatter-zja
@@ -211,6 +220,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 4  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 0
     ids-per-1k-words: 0
     quote-share-parity: 1
@@ -231,6 +241,7 @@ reports:
     heading-long: 9
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 4  # why: reportsthatmatter-apk (3.6%: sidenotes now paired correctly inside list items; budget was 3)
     ids-per-1k-words: 0
     quote-share-parity: 2
@@ -251,6 +262,7 @@ reports:
     heading-long: 34  # why: post v0.15.0 integration
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 6  # why: reportsthatmatter-6wb
     ids-per-1k-words: 0
     quote-share-parity: 1
@@ -271,6 +283,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 1  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 15
     ids-per-1k-words: 0
     quote-share-parity: 2
@@ -291,6 +304,7 @@ reports:
     heading-long: 60
     printed-page-reversal: 0
     rendered-h1: 0
+    chapter-intro-misfiled: 2  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
     rendered-ol-words-share: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
