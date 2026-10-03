@@ -5,6 +5,18 @@
  *                                      # card per report (reportsthatmatter-obw)
  *   pnpm cards <report-id> <para-id>  # one curated quote, ad hoc — skips the
  *                                      # default cards, for a fast iteration loop
+ *   pnpm cards --highlights [<id>…]   # only the quote cards for the editor's
+ *                                      # highlights (all reports, or these)
+ *   --all-highlights                  # every highlight, not only card: true
+ *
+ * Besides docs/share-quotes.yaml, every approved editorial highlight marked
+ * `card: true` (build/editorial-highlights.json, from `pnpm editorial`) gets a
+ * quote card, quantised to 64 colours (about 170 KB: WhatsApp drops images
+ * much over 300 KB, and they are committed),
+ * assets/cards/<report>/q-<hash>.png, named by `quoteCardId` so a shared ?h=
+ * link to those words previews with a card showing exactly them
+ * (reportsthatmatter-f2e). Every card's quote must be verbatim in its
+ * paragraph: a card sets its words in quotation marks.
  *
  * Build-time rather than on request: feeds will not render SVG, and a runtime
  * rasteriser (satori + resvg wasm) would cost more bundle than the entire site
@@ -19,6 +31,16 @@ import { renderCard, renderDefaultCard } from "../src/templates/card.ts";
 import { SITE_HEADLINE, SITE_STANDFIRST } from "../src/templates/site.ts";
 import { renderMarkdown } from "@rtm/ingest";
 import { extractParagraph } from "../src/templates/report.ts";
+import { findText } from "../assets/anchor.js";
+import { quoteCardId } from "../src/lib/card-key.ts";
+import { statSync, readdirSync } from "node:fs";
+import UPNG from "upng-js";
+
+/** A screenshot as a 64-colour PNG: a card is grey ink, a grey plate and one off-white, so nothing visible is lost. */
+function quantise(png) {
+  const image = UPNG.decode(png);
+  return Buffer.from(UPNG.encode(UPNG.toRGBA8(image), image.width, image.height, 64));
+}
 
 const root = join(import.meta.dirname, "..");
 
@@ -109,9 +131,13 @@ function fitToCard(text, limit = 420) {
 }
 
 const targets = [];
-const [argReport, argParagraph] = process.argv.slice(2);
+const highlightsOnly = process.argv.includes("--highlights");
+const [argReport, argParagraph] = highlightsOnly ? [] : process.argv.slice(2);
+const highlightReports = highlightsOnly ? process.argv.slice(2).filter((arg) => !arg.startsWith("--")) : [];
 
-if (argReport && argParagraph) {
+if (highlightsOnly) {
+  // Quote cards only; the manifest below keeps every other card already on disk.
+} else if (argReport && argParagraph) {
   targets.push({ report: argReport, paragraph: argParagraph });
 } else {
   const quotesPath = join(root, "docs/share-quotes.yaml");
@@ -149,6 +175,14 @@ for (const target of targets) {
     continue;
   }
 
+  // A card sets its words in quotation marks, so they must be the report's
+  // words: two Jack Smith cards once showed paraphrases (reportsthatmatter-f2e).
+  if (target.quote && !findText(resolved.quote, target.quote.trim())) {
+    console.error(`  ✗ ${target.report}/${resolved.id} — quote: is not verbatim in the paragraph`);
+    process.exitCode = 1;
+    continue;
+  }
+
   // An explicit quote wins. A card is curated — the notable sentence is often
   // in the middle of its paragraph, and trimming from the start would miss it.
   const html = renderCard({
@@ -170,11 +204,50 @@ for (const target of targets) {
   console.log(`  ✓ ${target.report}/${resolved.id}${target.note ? ` — ${target.note}` : ""}`);
 }
 
+// Quote cards for the editor's highlights: one per (paragraph, words), so a
+// shared link to exactly those words previews with them (f2e). The words are
+// the verbatim selector `pnpm editorial` resolved; a card too long for one
+// screen is cut at a sentence by fitToCard, never rewritten.
+if (!(argReport && argParagraph)) {
+  const highlightsPath = join(root, "build/editorial-highlights.json");
+  if (!existsSync(highlightsPath)) {
+    console.error("\nbuild/editorial-highlights.json is missing — run pnpm editorial first");
+    process.exitCode = 1;
+  } else {
+    console.log("\nEditor's highlights:");
+    const every = process.argv.includes("--all-highlights");
+    const highlights = JSON.parse(readFileSync(highlightsPath, "utf8")).filter(
+      (h) => (every || h.card) && (!highlightReports.length || highlightReports.includes(h.report))
+    );
+    for (const h of highlights) {
+      const report = registry.reports.find((entry) => entry.id === h.report);
+      if (!report) continue;
+      const id = quoteCardId(h.paragraph, h.exact);
+      const html = renderCard({
+        quote: fitToCard(h.exact),
+        reportTitle: report.title,
+        page: h.page ? String(h.page) : undefined,
+        markDataUri: markFor(h.report),
+      });
+      await page.setContent(html, { waitUntil: "networkidle" });
+      await page.waitForTimeout(150);
+      await assertFits(`${h.report}/${id}`);
+      const out = join(root, "assets/cards", h.report, `${id}.png`);
+      mkdirSync(dirname(out), { recursive: true });
+      writeFileSync(out, quantise(await page.screenshot()));
+      generated.push(`${h.report}/${id}`);
+      const kb = Math.round(statSync(out).size / 1024);
+      // WhatsApp drops an og:image much over 300 KB; the rest allow megabytes.
+      console.log(`  ${kb > 300 ? "!" : "✓"} ${h.report}/${id} (${kb} KB) — ${h.exact.slice(0, 60)}`);
+    }
+  }
+}
+
 // Default cards — a title, no quote — for everything a curated card doesn't
 // cover: the site itself, and every report's contents/full/uncurated-paragraph
 // pages (reportsthatmatter-obw). Skipped in the ad-hoc single-quote form so
 // iterating on one curated quote stays fast.
-if (!(argReport && argParagraph)) {
+if (!(argReport && argParagraph) && !highlightsOnly) {
   console.log("\nDefault cards:");
 
   const siteHtml = renderDefaultCard({
@@ -215,6 +288,15 @@ await browser.close();
 
 // A typed manifest so the Worker only advertises a card that exists — an
 // og:image pointing at a 404 is worse than none at all.
+// The manifest lists every card on disk, so an ad hoc or --highlights run
+// does not drop the cards it did not render this time.
+for (const dir of readdirSync(join(root, "assets/cards"), { withFileTypes: true })) {
+  if (!dir.isDirectory()) continue;
+  for (const file of readdirSync(join(root, "assets/cards", dir.name))) {
+    if (file.endsWith(".png")) generated.push(`${dir.name}/${file.replace(/\.png$/, "")}`);
+  }
+}
+generated.splice(0, generated.length, ...new Set(generated));
 const manifest = `/* Generated by scripts/cards.mjs — do not edit. */
 export const CARDS: ReadonlySet<string> = new Set(${JSON.stringify(generated.sort(), null, 2)});
 `;
