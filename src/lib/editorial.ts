@@ -11,7 +11,7 @@
  * shipping.
  */
 import { extractParagraph } from "../templates/report";
-import { encodeAnchor, normalise, selectorFor } from "../../assets/anchor.js";
+import { encodeAnchor, findText, normalise, selectorFor } from "../../assets/anchor.js";
 
 /** A verbatim quotation from the report, and the paragraph it comes from. */
 export type QuoteSource = { paragraph: string; quote: string };
@@ -109,10 +109,14 @@ export type ReportStructure = {
 };
 
 /**
- * The comparison form of a quote or a paragraph. Whitespace and soft hyphens
- * are the only differences forgiven: a PDF breaks lines where the page ended,
- * not where the words did. Anything else — a corrected OCR slip, a smartened
- * quote mark — is a different quote and must fail.
+ * A quote or a paragraph as plain readable text: whitespace collapsed and soft
+ * hyphens dropped, but otherwise as printed (curly quotes and all), so anchors
+ * built from it keep the report's own spelling.
+ *
+ * Matching goes through `findText`, which also forgives typographic variants
+ * (quote style, dashes, ellipses, nbsp, ligatures) on both sides, so a quote
+ * need not be edited to match the edition's quote style. Anything beyond that
+ * — a corrected OCR slip, a changed word — is a different quote and must fail.
  */
 export function comparable(text: string): string {
   return normalise(text.replace(/­/g, ""));
@@ -151,8 +155,8 @@ export function placeQuote(
   if (paragraph === null) return { ok: false, reason: `no paragraph "${id}"` };
 
   const wanted = comparable(quote);
-  if (comparable(paragraph).includes(wanted)) return { ok: true, inParagraph: true, paragraph };
-  if (comparable(followingUnlabelled(html, id)).includes(wanted)) {
+  if (findText(comparable(paragraph), wanted)) return { ok: true, inParagraph: true, paragraph };
+  if (findText(comparable(followingUnlabelled(html, id)), wanted)) {
     return { ok: true, inParagraph: false, paragraph };
   }
   return { ok: false, reason: `quote not found verbatim in "${id}" or the block quotations after it` };
@@ -173,8 +177,8 @@ export function citationHref(reportId: string, id: string, paragraph?: string, q
   let anchor: string | null = null;
   if (paragraph && quote) {
     const text = comparable(paragraph);
-    const start = text.indexOf(comparable(quote));
-    if (start !== -1) anchor = encodeAnchor(selectorFor(text, start, start + comparable(quote).length));
+    const found = findText(text, comparable(quote));
+    if (found) anchor = encodeAnchor(selectorFor(text, found.start, found.end));
   }
   const base = `/reports/${reportId}?p=${encodeURIComponent(id)}`;
   // Exactly as share.js builds it: the anchor is already percent-encoded.
@@ -251,9 +255,8 @@ export function resolveEditorial(
     // block quotation has no id to hang the mark on yet (reportsthatmatter-dam).
     if (!placed.inParagraph) return at(`highlights[${i}]`, "quote is in a block quotation, which cannot be marked yet");
     const text = comparable(placed.paragraph);
-    const exact = comparable(h.quote);
-    const start = text.indexOf(exact);
-    const selector = selectorFor(text, start, start + exact.length);
+    const found = findText(text, comparable(h.quote))!; // placeQuote found it in this paragraph
+    const selector = selectorFor(text, found.start, found.end);
     highlights.push({
       report: source.report,
       section: structure.paragraphToSection[h.paragraph] ?? "",

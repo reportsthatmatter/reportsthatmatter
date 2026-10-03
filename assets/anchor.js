@@ -116,6 +116,78 @@ export function decodeAnchor(value) {
 }
 
 /**
+ * Typographic variants that are the same words to a reader. The PDF text layer
+ * and the printed edition spell them differently (a clean-edition hybrid serves
+ * curly quotes where the PDF had straight ones), and a quote or highlight made
+ * against one must still be found in the other.
+ */
+/** @type {Map<string, string>} */
+const FOLDS = new Map(/** @type {[string, string][]} */ ([
+  ...[..."\u2018\u2019\u201A\u201B\u2032\u02BC"].map((c) => [c, "'"]),
+  ...[..."\u201C\u201D\u201E\u201F\u2033\u00AB\u00BB"].map((c) => [c, '"']),
+  ...[..."\u2010\u2011\u2012\u2013\u2014\u2015\u2212\u2043"].map((c) => [c, "-"]),
+  ["\u2026", "..."],
+  ["\uFB00", "ff"], ["\uFB01", "fi"], ["\uFB02", "fl"], ["\uFB03", "ffi"], ["\uFB04", "ffl"],
+  ["\uFB05", "st"], ["\uFB06", "st"],
+  ["\u00AD", ""], ["\u200B", ""], ["\u200C", ""], ["\u200D", ""], ["\u2060", ""], ["\uFEFF", ""],
+]));
+
+/** Any whitespace, including the non-breaking and thin spaces typesetting uses. */
+const SPACE = /[\s\u00A0\u2000-\u200A\u202F\u205F\u3000]/;
+
+/**
+ * The comparison form of `text`: typographic variants folded to one spelling,
+ * with a map from every folded character back to the original it came from.
+ *
+ * Matching happens on the folded form on both sides; positions are mapped back,
+ * so the original text (curly quotes, em dashes) is what gets displayed,
+ * highlighted and stored. Case is not folded: a different case is a different
+ * quote.
+ *
+ * @param {string} text
+ * @returns {{ text: string, start: number[], end: number[] }}
+ *   `start[i]`/`end[i]`: the original span folded character `i` came from.
+ */
+export function fold(text) {
+  let out = "";
+  /** @type {number[]} */ const start = [];
+  /** @type {number[]} */ const end = [];
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (SPACE.test(c)) {
+      // A run of spaces, however spelled, reads as one.
+      if (out.endsWith(" ")) end[end.length - 1] = i + 1;
+      else { out += " "; start.push(i); end.push(i + 1); }
+      continue;
+    }
+    for (const ch of FOLDS.get(c) ?? c) {
+      out += ch;
+      start.push(i);
+      end.push(i + 1);
+    }
+  }
+  return { text: out, start, end };
+}
+
+/** `text` with typographic variants folded, for comparing two strings. @param {string} text @returns {string} */
+export function foldText(text) {
+  return fold(text).text;
+}
+
+/**
+ * Find `needle` in `haystack` regardless of typographic variants, returning the
+ * span in `haystack`'s own characters. @param {string} haystack @param {string} needle
+ * @returns {{ start: number, end: number } | null}
+ */
+export function findText(haystack, needle) {
+  const h = fold(haystack);
+  const n = foldText(needle).trim();
+  if (!n) return null;
+  const at = h.text.indexOf(n);
+  return at === -1 ? null : { start: h.start[at], end: h.end[at + n.length - 1] };
+}
+
+/**
  * Find the anchored text in `haystack`, in descending order of confidence.
  *
  * Returns `{ start, end, tier }`, where the tier says how much of the anchor
@@ -124,18 +196,36 @@ export function decodeAnchor(value) {
  * the important case: a caller must fall back to the paragraph rather than
  * highlight the wrong words.
  *
+ * Typographic variants (quotes, dashes, ellipses, non-breaking spaces,
+ * ligatures, soft hyphens) are folded on both sides, so an anchor made against
+ * one rendering of the text still finds the same words in another. `start` and
+ * `end` are offsets into `haystack` as given.
+ *
  * @param {string} haystack
  * @param {Selector | null} anchor
  * @returns {Match | null}
  */
 export function locate(haystack, anchor) {
   if (!anchor || !anchor.exact) return null;
-  const { prefix = "", exact, suffix = "" } = anchor;
+  const h = fold(haystack);
+  const found = locateFolded(h.text, {
+    prefix: foldText(anchor.prefix || ""),
+    exact: foldText(anchor.exact),
+    suffix: foldText(anchor.suffix || ""),
+  });
+  if (!found) return null;
+  return { start: h.start[found.start], end: h.end[found.end - 1], tier: found.tier };
+}
+
+/** @param {string} haystack @param {Selector} anchor @returns {Match | null} */
+function locateFolded(haystack, anchor) {
+  const { prefix, exact, suffix } = anchor;
+  if (!exact) return null;
 
   // A passage named by its ends: find where it opens, then where it closes.
   if (exact.includes(GAP)) {
     const [head, tail] = exact.split(GAP);
-    const opening = locate(haystack, { prefix, exact: head, suffix: "" });
+    const opening = locateFolded(haystack, { prefix, exact: head, suffix: "" });
     if (!opening) return null;
 
     const closing = haystack.indexOf(tail, opening.end);
