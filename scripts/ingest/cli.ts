@@ -865,6 +865,7 @@ else if (command === "referee") {
         { layout: openLayout(def.volumes.map((volume) => resolveVolume(def, volume, repoOf(id))), join(repoOf(id), ".cache")) }
       ),
     pdfs: (id, def) => def.volumes.map((volume) => resolveVolume(def, volume, repoOf(id))),
+    layout: (id, def) => openLayout(def.volumes.map((volume) => resolveVolume(def, volume, repoOf(id))), join(repoOf(id), ".cache")),
   });
 }
 else {

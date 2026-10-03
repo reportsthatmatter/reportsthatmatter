@@ -21,3 +21,4 @@ One file per question we have had to answer, or still have to. It is written so 
 | [0009](0009-ai-agents-disclosure.md) | Do we say on the site that AI agents did much of the work? | open | 0ino |
 | [0012](0012-reused-paragraph-ids.md) | A published paragraph id now names a different paragraph: whose meaning wins? | proposed | rf4c |
 | [0010](0010-markdown-canonical-format.md) | Is one consolidated markdown file per report the canonical format? | decided (existing practice) | 0z1o |
+| [0013](0013-mini-reference-split.md) | PDF-only mini-references: split each report's page breaks into dev and held-out, or assign whole reports? | proposed | 9u69 |
