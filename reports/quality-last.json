@@ -1,11 +1,11 @@
 {
-  "ingest": "v0.17.0",
-  "recorded": "2026-10-02",
+  "ingest": "v0.18.1",
+  "recorded": "2026-10-03",
   "reports": {
     "challenger-accident": {
       "severed-into-quote": 86,
       "severed-paragraph": 50,
-      "severed-paragraph-capital": 85,
+      "severed-paragraph-capital": 83,
       "bare-footnote-marker": 119,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 3,
@@ -27,7 +27,7 @@
     "columbia-accident": {
       "severed-into-quote": 59,
       "severed-paragraph": 74,
-      "severed-paragraph-capital": 26,
+      "severed-paragraph-capital": 23,
       "bare-footnote-marker": 179,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 13,
@@ -49,11 +49,11 @@
     "jack-smith-vol1": {
       "severed-into-quote": 2,
       "severed-paragraph": 5,
-      "severed-paragraph-capital": 35,
+      "severed-paragraph-capital": 22,
       "bare-footnote-marker": 0,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 9,
-      "note-text-in-body": 9,
+      "note-text-in-body": 8,
       "note-citation-vocabulary": 0,
       "furniture-paragraph": 0,
       "contents-entry-without-heading": 9,
@@ -71,7 +71,7 @@
     "litvinenko-inquiry": {
       "severed-into-quote": 72,
       "severed-paragraph": 6,
-      "severed-paragraph-capital": 56,
+      "severed-paragraph-capital": 45,
       "bare-footnote-marker": 92,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 20,
@@ -93,7 +93,7 @@
     "uk-chilcot-inquiry": {
       "severed-into-quote": 8,
       "severed-paragraph": 0,
-      "severed-paragraph-capital": 5,
+      "severed-paragraph-capital": 4,
       "bare-footnote-marker": 185,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
@@ -115,7 +115,7 @@
     "uk-hillsborough-panel": {
       "severed-into-quote": 20,
       "severed-paragraph": 0,
-      "severed-paragraph-capital": 8,
+      "severed-paragraph-capital": 4,
       "bare-footnote-marker": 453,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
@@ -137,7 +137,7 @@
     "uk-leveson-inquiry": {
       "severed-into-quote": 327,
       "severed-paragraph": 24,
-      "severed-paragraph-capital": 238,
+      "severed-paragraph-capital": 199,
       "bare-footnote-marker": 6456,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 25,
@@ -159,7 +159,7 @@
     "uk-saville-inquiry": {
       "severed-into-quote": 5,
       "severed-paragraph": 1,
-      "severed-paragraph-capital": 48,
+      "severed-paragraph-capital": 25,
       "bare-footnote-marker": 10,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
@@ -181,7 +181,7 @@
     "us-911-commission": {
       "severed-into-quote": 34,
       "severed-paragraph": 4,
-      "severed-paragraph-capital": 61,
+      "severed-paragraph-capital": 24,
       "bare-footnote-marker": 2,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 12,
@@ -203,7 +203,7 @@
     "us-deepwater-horizon": {
       "severed-into-quote": 9,
       "severed-paragraph": 6,
-      "severed-paragraph-capital": 70,
+      "severed-paragraph-capital": 58,
       "bare-footnote-marker": 1021,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 416,
@@ -225,7 +225,7 @@
     "us-lehman-examiner": {
       "severed-into-quote": 1,
       "severed-paragraph": 22,
-      "severed-paragraph-capital": 58,
+      "severed-paragraph-capital": 16,
       "bare-footnote-marker": 22,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 1,
@@ -247,7 +247,7 @@
     "us-psi-financial-crisis": {
       "severed-into-quote": 1,
       "severed-paragraph": 41,
-      "severed-paragraph-capital": 48,
+      "severed-paragraph-capital": 14,
       "bare-footnote-marker": 16,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
@@ -269,13 +269,13 @@
     "us-v-philip-morris": {
       "severed-into-quote": 106,
       "severed-paragraph": 2,
-      "severed-paragraph-capital": 159,
+      "severed-paragraph-capital": 14,
       "bare-footnote-marker": 52,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
       "note-text-in-body": 48,
       "note-citation-vocabulary": 0,
-      "furniture-paragraph": 45,
+      "furniture-paragraph": 44,
       "contents-entry-without-heading": 11,
       "heading-density": 0,
       "heading-repeated": 15,
