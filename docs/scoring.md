@@ -10,9 +10,21 @@ pnpm score --all                      # the development set: every report whose 
 pnpm score --all --holdout            # the held-out set: report scores only, never tune passes on these
   --out <dir>                         # default score-out/ (gitignored)
   --no-layout                         # skip pdftohtml layout features in the decision dataset
+  --diff <outA> <outB> [<id>...]      # decision-level flips between two runs (below); scores nothing
   --adjudicate-draft                  # also write <out>/<id>/adjudicated-draft.yaml: 20 random + 10 disagreeing page breaks to adjudicate
   --shadow                            # a report served from its clean edition: score its PDF shadow against the served text (below)
 ```
+
+### Comparing two runs: `pnpm score --diff`
+
+```bash
+pnpm score --all --out score-before     # on the pinned ingest
+# ... re-ingest with the change, aggregate, prerender ...
+pnpm score --all --out score-after
+pnpm score --diff score-before score-after [<id> ...] [--limit N]
+```
+
+The tables say a metric moved; `--diff` says which decisions moved it. It reads each report's `decisions.jsonl` from both directories and matches rows by what a pipeline change does not move: a layout page-break row by its page and the two lines either side, a block or heading row by its text and printed page, a marker by its label and the words around it. Per decision kind it counts rows unchanged, correct to wrong, wrong to correct, newly or no longer labelled, new and gone, then lists the flips with page and text. Rows whose text changed (a join, a split) appear as gone and new, not as flips. `pnpm ingest try` runs all of this for you against an unreleased ingest ([`scripts/ingest/README.md`](../scripts/ingest/README.md)). `pnpm score` also warns when `reports/<id>/full.md`, the site's aggregate that it reads, differs from the report repo's.
 
 Each run writes, per report, to `score-out/<id>/`:
 

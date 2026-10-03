@@ -10,6 +10,7 @@ pnpm ingest verify          # fidelity gates against the real source PDFs, the l
 pnpm ingest page <id> <vol> <pdfPage> [--draft] [--fixture <name>]   # one page's layout lines beside the blocks made; a draft golden entry; a test fixture
 pnpm ingest outline <id>    # one line per PDF page (headings, block counts) to choose golden pages from
 pnpm ingest preflight       # is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline run it first; --no-preflight skips)
+pnpm ingest try <branch|path> [<id>...]   # what would an unreleased ingest do to the rendered corpus? (below)
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
 ```
@@ -42,6 +43,23 @@ what is published), commit `reports/<id>/aliases.yaml` and `published-ids.txt`
 with it. See AGENTS.md, "Ids move; aliases keep links alive".
 
 After a bump, **reinstall in every report repo** before `pnpm ingest check`: each report's `ingest.ts` imports `@rtm/ingest` from its own `node_modules`, so a repo that was not reinstalled still runs the old library and crashes on whatever the new one exports (v0.18.1: `layoutPageJoins`). `pnpm ingest preflight` lists each repo's pin against its installed version and the `pnpm -C <repo> install` that fixes it.
+
+### Trying an unreleased ingest
+
+```bash
+pnpm ingest try ../ingest-my-fix                       # a checkout or worktree of ingest (built if its dist is older than src)
+pnpm ingest try fix/hyphen-joins us-911-commission     # a branch or ref of ../ingest (RTM_INGEST_DIR overrides) and the reports to run
+pnpm ingest try ../ingest-my-fix --layout --limit 6    # score page breaks from the PDF layout too (slow); more excerpts per kind
+pnpm ingest try --restore                              # undo a trial that was interrupted
+```
+
+With no ids it runs every report. It snapshots the pages the pinned ingest renders, makes a throwaway git worktree of each report repo at its current `HEAD` (shared checkouts are never written; `reference/` and `.cache/` are linked, not copied), links the ingest into this site's `node_modules` and into each worktree (a report repo imports `@rtm/ingest` from its own `node_modules`, so a site-only link fails with "does not provide an export"), re-ingests, copies the result over the site's aggregate, prerenders, and prints per report:
+
+- the join/move list: paragraphs joined, split, changed, added, removed, moved (aligned by text, not id), ids lost and new, sections gone and new, sidenotes and words, with excerpts;
+- the quality counts as `pnpm quality report --diff` shows them, regressions marked `▲` (only when a count moved);
+- the score decisions that flipped, for reports with a reference edition (`pnpm score --diff`; `--no-score` skips it).
+
+Then it undoes everything: the link, the aggregated `reports/<id>/full.md`, the worktrees, and a final `pnpm prerender`. What it changes is written to `.rtm-try.lock` first, so `--restore` can undo a crashed run; `--keep` leaves the trial state in place for inspecting rendered pages (run `--restore` and `pnpm prerender` afterwards). Paste its output next to `pnpm quality report --diff origin/main` in an ingest PR. A report whose site copy differs from its repo's `full.md` is flagged, because the diff then includes that drift.
 
 The pin-bump PR carries a quality report. After the re-ingest, run
 `pnpm quality report --diff origin/main` and paste the table into the PR body:

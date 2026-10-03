@@ -25,3 +25,4 @@ build/
 .beads-credential-key
 .beads/proxieddb/
 score-out/
+.rtm-try.lock
