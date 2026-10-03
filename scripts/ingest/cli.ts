@@ -397,7 +397,7 @@ async function runVerify(args: string[]): Promise<number> {
         const started = Date.now();
         result = await regenerate(target.id);
         if (wantOracle) {
-          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes);
+          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes, { relink: !result.linkedText });
           const seconds = ((Date.now() - started) / 1000).toFixed(1);
           console.log(
             `  · layout oracle (${seconds}s) — ` +

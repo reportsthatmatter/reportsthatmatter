@@ -101,7 +101,7 @@ Where a report has `reference/adjudicated.yaml` (38s.12), a golden page on one o
 |---|---|---|
 | `headings-missed` | a line, alone, in a face at least 2pt bigger than the body or in another colour (not smaller than the body, not a pull-quote, at most 3 lines and 160 characters, not running furniture) with no heading block on its page | I |
 | `headings-spurious` | a heading block whose opening sits on a line in the body's own face | H |
-| `markers-unlinked` | a raised run of digits in a body line with no `[^N]` for it on that page or the one before | F |
+| `markers-unlinked` | a raised run of digits in a line at the body's size and colour (italic or bold included) with no `[^N]` for it on that page or the one before | F |
 | `markers-spurious` | a `[^N]` on a page with no raised `N` on it or the next | G |
 | `paragraphs-oversplit` | a block opens on a body line the layout carries on from the line above (no gap of 1.4 line pitches, no indent change, not after a heading, and on a page's first line not after a paragraph that ended short on the page before) | A, B, C |
 | `paragraphs-merged` | a body line the layout opens (gap, indent or hanging label, after a non-body line, or on a label) with no block opening there | I |
@@ -129,6 +129,26 @@ Measured on ingest v0.18.1 plus the oracle fixes of b78.9 (2026-10-03), reading 
 | uk-saville-inquiry | 176 | 3 | 9 | 60 | 226 | 1,230 | 552 | 20 |
 | uk-chilcot-inquiry | 13 | 3 | 283 | 3 | 15 | 387 | 6 | 76 |
 | us-lehman-examiner | 45 | 5 | 221 | 19 | 144 | 221 | 143 | 99 |
+
+**With ingest#46 (`layoutMarkers`, b94; not released yet).** The pass links the markers the layout raises, and the oracle changes with it: a marker counts in an italic or bold line at the body's size (Leveson's case names, Litvinenko's quotations), a raised fragment poppler emits after the text that follows it is put back in its line (663 of PSI's markers were invisible), the site passes `relink: false` so the oracle reads the blocks' own links rather than re-running `linkInlineMarkers`, and a heading must be bigger than the document's body as well as the page's (on a footnote-heavy page every text line had been "bigger" than the notes face). Measured over the whole corpus, v0.19.0 against the branch, with `layoutMarkers()` declared by Leveson, PSI, Chilcot and Lehman:
+
+| report | markers-unlinked | markers-spurious | headings-missed |
+|---|---:|---:|---:|
+| uk-leveson-inquiry | 7,497 → 142 | 117 → 2 | 1,350 |
+| us-psi-financial-crisis | 598 → 26 | 27 → 7 | 153 → 37 |
+| uk-chilcot-inquiry | 283 → 0 | 3 → 0 | 13 |
+| us-lehman-examiner | 221 → 22 | 19 → 5 | 45 → 0 |
+| litvinenko-inquiry | 103 → 131 | 162 → 67 | 220 |
+| columbia-accident | 287 → 297 | 46 | 93 → 89 |
+| us-v-philip-morris | 38 → 43 | 19 | 0 |
+| jack-smith-vol1 | 32 → 33 | 100 → 95 | 96 → 22 |
+| uk-hillsborough-panel | 931 → 932 | 0 | 390 |
+| challenger-accident | 23 | 138 | 236 → 170 |
+| us-911-commission | 6 | 23 → 9 | 64 → 27 |
+| uk-saville-inquiry | 9 | 60 → 44 | 176 → 167 |
+| us-deepwater-horizon | 1,445 | 824 → 822 | 334 → 330 |
+
+The rises in `markers-unlinked` are markers the oracle now sees (read on the page: Litvinenko p.22 `unit”.35` in an italic quotation), so their budgets are raised with `# why: reportsthatmatter-b94`. Lehman's 45 headings were bold body-size headings counted only because its footnote-heavy pages made every text line look big; it has no headings budget. On the golden pages: `markers-unlinked` 100% precision (recall 82% → 74%, its true positives now linked), `markers-spurious` 42% → 56%, `headings-missed` 49% → 68%.
 
 Scanned reports (Challenger, Jack Smith) read through `pdftohtml -hidden`, which keeps the OCR text layer `pdftotext` also reads. Their fonts are the scanner's, so their heading and quote counts are noisier (see precision).
 
