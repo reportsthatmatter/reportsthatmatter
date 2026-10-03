@@ -280,19 +280,19 @@ HC 264
 
 27\. When UK policy towards Iraq was formally reviewed and agreed by the Ministerial Committee on Defence and Overseas Policy (DOP) in May 1999, the objectives towards Iraq were defined as:
 
-> "... in the short term, to reduce the threat Saddam poses to the region including by eliminating his weapons of mass destruction (WMD) programmes; and, in the longer term, to reintegrate a territorially intact Iraq as a law‑abiding member of the international community."1
+> "... in the short term, to reduce the threat Saddam poses to the region including by eliminating his weapons of mass destruction (WMD) programmes; and, in the longer term, to reintegrate a territorially intact Iraq as a law‑abiding member of the international community."[^1]
 
 %%page 7%%
 
 28\. The policy of containment was seen as the "only viable way" to pursue those objectives. A "policy of trying to topple Saddam would command no useful international support". Iraq was unlikely to accept the package immediately but "might be persuaded to acquiesce eventually".
 
-29\. After prolonged discussion about the way ahead, the UN Security Council adopted resolution 1284 in December 1999, although China, France and Russia abstained.2
+29\. After prolonged discussion about the way ahead, the UN Security Council adopted resolution 1284 in December 1999, although China, France and Russia abstained.[^2]
 
 30\. The resolution established:
 
 > - a new inspectorate, the United Nations Monitoring, Verification and Inspection Commission (UNMOVIC) (which Dr Hans Blix was subsequently appointed to lead);
 > - a timetable to identify and agree a work programme; and
-> - the principle that, if the inspectors reported co‑operation in key areas, that would lead to the suspension of economic sanctions.3
+> - the principle that, if the inspectors reported co‑operation in key areas, that would lead to the suspension of economic sanctions.[^3]
 
 31\. Resolution 1284 described Iraq's obligations to comply with the disarmament standards of resolution 687 and other related resolutions as the "governing standard of Iraqi compliance"; and provided that the Security Council would decide what was required of Iraq for the implementation of each task and that it should be "clearly defined and precise".
 
@@ -302,11 +302,11 @@ HC 264
 
 34\. The US Presidential election in November 2000 prompted a further UK review of the operation of the containment policy (see Section 1.2). There were concerns about how long the policy could be sustained and what it could achieve.
 
-35\. There were also concerns over both the continued legal basis for operations in the No‑Fly Zones (NFZs) and the conduct of individual operations.4
+35\. There were also concerns over both the continued legal basis for operations in the No‑Fly Zones (NFZs) and the conduct of individual operations.[^4]
 
 %%page 8%%
 
-36\. In an Assessment on 1 November, the Joint Intelligence Committee (JIC) judged that Saddam Hussein felt "little pressure to negotiate over ... resolution 1284 because the proceeds of oil smuggling and illicit trade have increased significantly this year, and more countries are increasing diplomatic contacts and trade with Iraq".5
+36\. In an Assessment on 1 November, the Joint Intelligence Committee (JIC) judged that Saddam Hussein felt "little pressure to negotiate over ... resolution 1284 because the proceeds of oil smuggling and illicit trade have increased significantly this year, and more countries are increasing diplomatic contacts and trade with Iraq".[^5]
 
 37\. The JIC also judged:
 
@@ -317,9 +317,9 @@ HC 264
 
 > "Before accepting 1284, Saddam will try to obtain the abolition of the No‑Fly Zones. He is also likely to demand that the US should abandon its stated aim to topple the Iraqi regime."
 
-38\. In November 2000, Mr Blair's "preferred option" was described as the implementation of 1284, enabling inspectors to return and sanctions to be suspended.6
+38\. In November 2000, Mr Blair's "preferred option" was described as the implementation of 1284, enabling inspectors to return and sanctions to be suspended.[^6]
 
-39\. In December 2000, the British Embassy Washington reported growing pressure to change course from containment to military action to oust Saddam Hussein, but no decision to change policy or to begin military planning had been taken by President Clinton.7
+39\. In December 2000, the British Embassy Washington reported growing pressure to change course from containment to military action to oust Saddam Hussein, but no decision to change policy or to begin military planning had been taken by President Clinton.[^7]
 
 40\. The Key Judgements of a JIC Assessment in February 2001 included:
 
@@ -329,7 +329,7 @@ HC 264
 %%page 9%%
 
 > - "Iranian interdiction efforts" had "significantly reduced smuggling down the Gulf", but Saddam Hussein had "compensated by exploiting land routes to Turkey and Syria".
-> - "Most countries" believed that economic sanctions were "ineffective, counterproductive and should now be lifted. Without active enforcement, the economic sanctions regime" would "continue to erode".8
+> - "Most countries" believed that economic sanctions were "ineffective, counterproductive and should now be lifted. Without active enforcement, the economic sanctions regime" would "continue to erode".[^8]
 
 41\. The Assessment also stated:
 
@@ -338,20 +338,20 @@ HC 264
 > - Encouraged by the success of Iraq's border trade agreement with Turkey, "front‑line states" were "not enforcing sanctions".
 > - There had been a "significant increase in the erosion of sanctions over the past six months".
 
-42\. When Mr Blair had his first meeting with President Bush at Camp David in late February 2001, the US and UK agreed on the need for a policy which was more widely supported in the Middle East region.9 Mr Blair had concluded that public presentation needed to be improved. He suggested that the approach should be presented as a "deal" comprising four elements:
+42\. When Mr Blair had his first meeting with President Bush at Camp David in late February 2001, the US and UK agreed on the need for a policy which was more widely supported in the Middle East region.[^9] Mr Blair had concluded that public presentation needed to be improved. He suggested that the approach should be presented as a "deal" comprising four elements:
 
 > - do the right thing by the Iraqi people, with whom we have no quarrel;
 > - tighten weapons controls on Saddam Hussein;
 > - retain financial control on Saddam Hussein; and
 > - retain our ability to strike.
 
-43\. The stated position of the UK Government in February 2001 was that containment had been broadly successful.10
+43\. The stated position of the UK Government in February 2001 was that containment had been broadly successful.[^10]
 
-44\. During the summer of 2001, the UK had been exploring the way forward with the US, Russia and France on a draft Security Council resolution to put in place a "smart sanctions" regime.11 But there was no agreement on the way ahead between the UK, the US, China, France and Russia, the five Permanent Members of the UN Security Council.
+44\. During the summer of 2001, the UK had been exploring the way forward with the US, Russia and France on a draft Security Council resolution to put in place a "smart sanctions" regime.[^11] But there was no agreement on the way ahead between the UK, the US, China, France and Russia, the five Permanent Members of the UN Security Council.
 
 %%page 10%%
 
-45\. Mr Blair told the Inquiry that, until 11 September 2001, the UK had a policy of containment, but sanctions were eroding.12 The policy was "partially successful", but it did not mean that Saddam Hussein was "not still developing his [prohibited] programmes".
+45\. Mr Blair told the Inquiry that, until 11 September 2001, the UK had a policy of containment, but sanctions were eroding.[^12] The policy was "partially successful", but it did not mean that Saddam Hussein was "not still developing his [prohibited] programmes".
 
 ### The impact of 9/11
 
@@ -359,13 +359,13 @@ HC 264
 
 47\. In response to that perception of a greater threat, governments felt a responsibility to act to anticipate and reduce risks before they turned into a threat. That was described to the Inquiry by a number of witnesses as a change to the "calculus of risk" after 9/11.
 
-48\. In the wake of the attacks, Mr Blair declared that the UK would stand "shoulder to shoulder" with the US to defeat and eradicate international terrorism.13
+48\. In the wake of the attacks, Mr Blair declared that the UK would stand "shoulder to shoulder" with the US to defeat and eradicate international terrorism.[^13]
 
-49\. The JIC assessed on 18 September that the attacks on the US had "set a new benchmark for terrorist atrocity", and that terrorists seeking comparable impact might try to use chemical, biological, radiological or nuclear devices.14 Only Islamic extremists such as those who shared Usama Bin Laden's agenda had the motivation to pursue attacks with the deliberate aim of causing maximum casualties.
+49\. The JIC assessed on 18 September that the attacks on the US had "set a new benchmark for terrorist atrocity", and that terrorists seeking comparable impact might try to use chemical, biological, radiological or nuclear devices.[^14] Only Islamic extremists such as those who shared Usama Bin Laden's agenda had the motivation to pursue attacks with the deliberate aim of causing maximum casualties.
 
 50\. Throughout the autumn of 2001, Mr Blair took an active and leading role in building a coalition to act against that threat, including military action against Al Qaida and the Taliban regime in Afghanistan. He also emphasised the potential risk of terrorists acquiring and using nuclear, biological or chemical weapons, and the dangers of inaction.
 
-51\. In November 2001, the JIC assessed that Iraq had played no role in the 9/11 attacks on the US and that practical co‑operation between Iraq and Al Qaida was "unlikely".15 There was no "credible evidence of covert transfers of WMD‑related technology and expertise to terrorist groups". It was possible that Iraq might use WMD in terrorist attacks, but only if the regime was under serious and imminent threat of collapse.
+51\. In November 2001, the JIC assessed that Iraq had played no role in the 9/11 attacks on the US and that practical co‑operation between Iraq and Al Qaida was "unlikely".[^15] There was no "credible evidence of covert transfers of WMD‑related technology and expertise to terrorist groups". It was possible that Iraq might use WMD in terrorist attacks, but only if the regime was under serious and imminent threat of collapse.
 
 52\. The UK continued actively to pursue a strengthened policy of containing Iraq, through a revised and more targeted sanctions regime and seeking Iraq's agreement to the return of inspectors as required by resolution 1284 (1999).
 
@@ -375,9 +375,9 @@ HC 264
 
 54\. Although there was no evidence of links between Iraq and Al Qaida, Mr Blair encouraged President Bush to address the issue of Iraq in the context of a wider strategy to confront terrorism after the attacks of 9/11. He sought to prevent precipitate military action by the US which he considered would undermine the success of the coalition which had been established for action against international terrorism.
 
-55\. President Bush's remarks16 on 26 November renewed UK concerns that US attention was turning towards military action in Iraq.
+55\. President Bush's remarks[^16] on 26 November renewed UK concerns that US attention was turning towards military action in Iraq.
 
-56\. Following a discussion with President Bush on 3 December, Mr Blair sent him a paper on a second phase of the war against terrorism.17
+56\. Following a discussion with President Bush on 3 December, Mr Blair sent him a paper on a second phase of the war against terrorism.[^17]
 
 57\. On Iraq, Mr Blair suggested a strategy for regime change in Iraq. This would build over time until the point was reached where "military action could be taken if necessary", without losing international support.
 
@@ -395,7 +395,7 @@ HC 264
 
 %%page 12%%
 
-64\. In his annual State of the Union speech on 29 January 2002, President Bush described the regimes in North Korea and Iran as "sponsors of terrorism".18 He added that Iraq had continued to:
+64\. In his annual State of the Union speech on 29 January 2002, President Bush described the regimes in North Korea and Iran as "sponsors of terrorism".[^18] He added that Iraq had continued to:
 
 > "... flaunt its hostility towards America and to support terror ... The Iraqi regime has plotted to develop anthrax, and nerve gas, and nuclear weapons for over a decade. This is a regime that has already used poison gas to murder thousands of its own citizens ... This is a regime that agreed to international inspections – then kicked out the inspectors. This is a regime that has something to hide from the civilized world."
 
@@ -407,9 +407,9 @@ HC 264
 
 67\. The urgency and certainty with which the position was stated reflected the ingrained belief that Saddam Hussein's regime retained chemical and biological warfare capabilities, was determined to preserve and if possible enhance its capabilities, including at some point in the future a nuclear capability, and was pursuing an active policy of deception and concealment. It also reflected the wider context in which the policy was being discussed with the US.
 
-68\. On 26 February 2002, Sir Richard Dearlove, the Chief of the Secret Intelligence Service, advised that the US Administration had concluded that containment would not work, was drawing up plans for a military campaign later in the year, and was considering presenting Saddam Hussein with an ultimatum for the return of inspectors while setting the bar "so high that Saddam Hussein would be unable to comply".19
+68\. On 26 February 2002, Sir Richard Dearlove, the Chief of the Secret Intelligence Service, advised that the US Administration had concluded that containment would not work, was drawing up plans for a military campaign later in the year, and was considering presenting Saddam Hussein with an ultimatum for the return of inspectors while setting the bar "so high that Saddam Hussein would be unable to comply".[^19]
 
-69\. The following day, the JIC assessed that Saddam Hussein feared a US military attack on the scale of the 1991 military campaign to liberate Kuwait but did not regard such an attack as inevitable; and that Iraqi opposition groups would not act without "visible and sustained US military support on the ground".20
+69\. The following day, the JIC assessed that Saddam Hussein feared a US military attack on the scale of the 1991 military campaign to liberate Kuwait but did not regard such an attack as inevitable; and that Iraqi opposition groups would not act without "visible and sustained US military support on the ground".[^20]
 
 70\. At Cabinet on 7 March, Mr Blair and Mr Straw emphasised that no decisions to launch further military action had been taken and any action taken would be in accordance with international law.
 
@@ -421,15 +421,15 @@ HC 264
 
 73\. Mr Blair sought and was given information on a range of issues before his meeting with President Bush at Crawford on 5 and 6 April. But no formal and agreed analysis of the issues and options was sought or produced, and there was no collective consideration of such advice.
 
-74\. Mr Straw's advice of 25 March proposed that the US and UK should seek an ultimatum to Saddam Hussein to re-admit weapons inspectors.21 That would provide a route for the UK to align itself with the US without adopting the US objective of regime change. This reflected advice that regime change would be unlawful.
+74\. Mr Straw's advice of 25 March proposed that the US and UK should seek an ultimatum to Saddam Hussein to re-admit weapons inspectors.[^21] That would provide a route for the UK to align itself with the US without adopting the US objective of regime change. This reflected advice that regime change would be unlawful.
 
-75\. At Crawford, Mr Blair offered President Bush a partnership in dealing urgently with the threat posed by Saddam Hussein. He proposed that the UK and the US should pursue a strategy based on an ultimatum calling on Iraq to permit the return of weapons inspectors or face the consequences.22
+75\. At Crawford, Mr Blair offered President Bush a partnership in dealing urgently with the threat posed by Saddam Hussein. He proposed that the UK and the US should pursue a strategy based on an ultimatum calling on Iraq to permit the return of weapons inspectors or face the consequences.[^22]
 
 76\. President Bush agreed to consider the idea but there was no decision until September 2002.
 
-77\. In the subsequent press conference on 6 April, Mr Blair stated that "doing nothing" was not an option: the threat of WMD was real and had to be dealt with.23 The lesson of 11 September was to ensure that "groups" were not allowed to develop a capability they might use.
+77\. In the subsequent press conference on 6 April, Mr Blair stated that "doing nothing" was not an option: the threat of WMD was real and had to be dealt with.[^23] The lesson of 11 September was to ensure that "groups" were not allowed to develop a capability they might use.
 
-78\. In his memoir, Mr Blair characterised the message that he and President Bush had delivered to Saddam Hussein as "change the regime attitude on WMD inspections or face the prospect of changing regime".24
+78\. In his memoir, Mr Blair characterised the message that he and President Bush had delivered to Saddam Hussein as "change the regime attitude on WMD inspections or face the prospect of changing regime".[^24]
 
 79\. Documents written between April and July 2002 reported that, in the discussion with President Bush at Crawford, Mr Blair had set out a number of considerations in relation to the development of policy on Iraq. These were variously described as:
 
@@ -454,7 +454,7 @@ HC 264
 
 83\. The UK Government was concerned that the US Administration was contemplating military action in circumstances where it would be very difficult for the UK to participate in or, conceivably, to support that action.
 
-84\. To provide the basis for a discussion with the US, a Cabinet Office paper of 19 July, 'Iraq: Conditions for Military Action', identified the conditions which would be necessary before military action would be justified and the UK could participate in such action.25
+84\. To provide the basis for a discussion with the US, a Cabinet Office paper of 19 July, 'Iraq: Conditions for Military Action', identified the conditions which would be necessary before military action would be justified and the UK could participate in such action.[^25]
 
 85\. The Cabinet Office paper stated that Mr Blair had said at Crawford:
 
@@ -468,21 +468,21 @@ HC 264
 
 86\. The Cabinet Office paper also identified the need to address the issue of whether the benefits of military action would outweigh the risks.
 
-87\. The potential mismatch between the timetable and work programme for UNMOVIC stipulated in resolution 1284 (1999) and the US plans for military action was recognised by officials during the preparation of the Cabinet Office paper.26
+87\. The potential mismatch between the timetable and work programme for UNMOVIC stipulated in resolution 1284 (1999) and the US plans for military action was recognised by officials during the preparation of the Cabinet Office paper.[^26]
 
-88\. The issue was not addressed in the final paper submitted to Ministers on 19 July.27
+88\. The issue was not addressed in the final paper submitted to Ministers on 19 July.[^27]
 
-89\. Sir Richard Dearlove reported that he had been told that the US had already taken a decision on action – "the question was only how and when"; and that he had been told it intended to set the threshold on weapons inspections so high that Iraq would not be able to hold up US policy.28
+89\. Sir Richard Dearlove reported that he had been told that the US had already taken a decision on action – "the question was only how and when"; and that he had been told it intended to set the threshold on weapons inspections so high that Iraq would not be able to hold up US policy.[^28]
 
-90\. Mr Blair's meeting with Ministerial colleagues and senior officials on 23 July was not seen by those involved as having taken decisions.29
+90\. Mr Blair's meeting with Ministerial colleagues and senior officials on 23 July was not seen by those involved as having taken decisions.[^29]
 
 91\. Further advice and background material were commissioned, including on the possibility of a UN ultimatum to Iraq and the legal basis for action. The record stated:
 
 > "We should work on the assumption that the UK would take part in any military action. But we needed a fuller picture of US planning before we could take any firm decisions. CDS [the Chief of the Defence Staff, Admiral Sir Michael Boyce] should tell the US military that we were considering a range of options."
 
-92\. Mr Blair was advised that there would be "formidable obstacles" to securing a new UN resolution incorporating an ultimatum without convincing evidence of a greatly increased threat from Iraq.30 A great deal more work would be needed to clarify what the UK was seeking and how its objective might best be achieved.
+92\. Mr Blair was advised that there would be "formidable obstacles" to securing a new UN resolution incorporating an ultimatum without convincing evidence of a greatly increased threat from Iraq.[^30] A great deal more work would be needed to clarify what the UK was seeking and how its objective might best be achieved.
 
-93\. Mr Blair's Note to President Bush of 28 July sought to persuade President Bush to use the UN to build a coalition for action by seeking a partnership between the UK and the US and setting out a framework for action.31
+93\. Mr Blair's Note to President Bush of 28 July sought to persuade President Bush to use the UN to build a coalition for action by seeking a partnership between the UK and the US and setting out a framework for action.[^31]
 
 94\. The Note began:
 
@@ -508,7 +508,7 @@ HC 264
 
 100\. Sir David Manning, Mr Blair's Foreign Policy Adviser, told President Bush that it would be impossible for the UK to take part in any action against Iraq unless it went through the UN.
 
-101\. When Mr Blair spoke to President Bush on 31 July the "central issue of a casus belli" and the need for further work on the optimal route to achieve that was discussed.32 Mr Blair said that he wanted to explore whether the UN was the right route to set an ultimatum or whether it would be an obstacle.
+101\. When Mr Blair spoke to President Bush on 31 July the "central issue of a casus belli" and the need for further work on the optimal route to achieve that was discussed.[^32] Mr Blair said that he wanted to explore whether the UN was the right route to set an ultimatum or whether it would be an obstacle.
 
 102\. In late August, the FCO proposed a strategy of coercion, using a UN resolution to issue an ultimatum to Iraq to admit the weapons inspectors and disarm. The UK was seeking a commitment from the Security Council to take action in the event that Saddam Hussein refused or subsequently obstructed the inspectors.
 
@@ -516,7 +516,7 @@ HC 264
 
 %%page 17%%
 
-104\. In his press conference at Sedgefield on 3 September, Mr Blair indicated that time and patience were running out and that there were difficulties with the existing policy of containment.33 He also announced the publication of the Iraq dossier, stating that:
+104\. In his press conference at Sedgefield on 3 September, Mr Blair indicated that time and patience were running out and that there were difficulties with the existing policy of containment.[^33] He also announced the publication of the Iraq dossier, stating that:
 
 > "... people will see that there is no doubt at all the United Nations resolutions that Saddam is in breach of are there for a purpose. He [Saddam Hussein] is without any question, still trying to develop that chemical, biological, potentially nuclear capability and to allow him to do so without any let or hindrance, just to say, we [sic] can carry on and do it, I think would be irresponsible."
 
@@ -524,21 +524,21 @@ HC 264
 
 106\. The UK was a key ally whose support was highly desirable for the US. The US Administration had been left in no doubt that the UK Government needed the issue of Iraq to be taken back to the Security Council before it would be able to participate in military action in Iraq.
 
-107\. The objective of the subsequent discussions between President Bush and Mr Blair at Camp David was, as Mr Blair stated in the press conference before the discussions, to work out the strategy.34
+107\. The objective of the subsequent discussions between President Bush and Mr Blair at Camp David was, as Mr Blair stated in the press conference before the discussions, to work out the strategy.[^34]
 
-108\. Mr Blair told President Bush that he was in no doubt about the need to deal with Saddam Hussein.35
+108\. Mr Blair told President Bush that he was in no doubt about the need to deal with Saddam Hussein.[^35]
 
 109\. Although at that stage no decision had been taken on which military package might be offered to the US for planning purposes, Mr Blair also told President Bush that, if it came to war, the UK would take a significant military role.
 
-110\. In his speech to the General Assembly on 12 September, President Bush set out his view of the "grave and gathering danger" posed by Saddam Hussein and challenged the UN to act to address Iraq's failure to meet the obligations imposed by the Security Council since 1990.36 He made clear that, if Iraq defied the UN, the world must hold Iraq to account and the US would "work with the UN Security Council for the necessary resolutions". But the US would not stand by and do nothing in the face of the threat.
+110\. In his speech to the General Assembly on 12 September, President Bush set out his view of the "grave and gathering danger" posed by Saddam Hussein and challenged the UN to act to address Iraq's failure to meet the obligations imposed by the Security Council since 1990.[^36] He made clear that, if Iraq defied the UN, the world must hold Iraq to account and the US would "work with the UN Security Council for the necessary resolutions". But the US would not stand by and do nothing in the face of the threat.
 
 111\. Statements made by China, France and Russia in the General Assembly debate after President Bush's speech highlighted the different positions of the five Permanent Members of the Security Council, in particular about the role of the Council in deciding whether military action was justified.
 
 %%page 18%%
 
-112\. The Government dossier on Iraq was published on 24 September.37 It was designed to "make the case" and secure Parliamentary (and public) support for the Government's policy that action was urgently required to secure Iraq's disarmament.
+112\. The Government dossier on Iraq was published on 24 September.[^37] It was designed to "make the case" and secure Parliamentary (and public) support for the Government's policy that action was urgently required to secure Iraq's disarmament.
 
-113\. In his statement to Parliament on 24 September and in his answers to subsequent questions, Mr Blair presented Iraq's past, current and potential future capabilities as evidence of the severity of the potential threat from Iraq's weapons of mass destruction. He said that at some point in the future that threat would become a reality.38
+113\. In his statement to Parliament on 24 September and in his answers to subsequent questions, Mr Blair presented Iraq's past, current and potential future capabilities as evidence of the severity of the potential threat from Iraq's weapons of mass destruction. He said that at some point in the future that threat would become a reality.[^38]
 
 114\. Mr Blair wrote his statement to the House of Commons himself and chose the arguments to make clear his perception of the threat and why he believed that there was an "overwhelming" case for action to disarm Iraq.
 
@@ -564,7 +564,7 @@ HC 264
 
 121\. When President Bush made his speech on 12 September, the US and UK had agreed the broad approach, but not the substance of the proposals to be put to the UN Security Council or the tactics.
 
-122\. Dr Naji Sabri, the Iraqi Foreign Minister, wrote to Mr Kofi Annan, the UN Secretary‑General, on 16 September to inform him that, following the series of talks between Iraq and the UN in New York and Vienna between March and July 2002 and the latest round in New York on 14 and 15 September, Iraq had decided "to allow the return of United Nations inspectors to Iraq without conditions".39
+122\. Dr Naji Sabri, the Iraqi Foreign Minister, wrote to Mr Kofi Annan, the UN Secretary‑General, on 16 September to inform him that, following the series of talks between Iraq and the UN in New York and Vienna between March and July 2002 and the latest round in New York on 14 and 15 September, Iraq had decided "to allow the return of United Nations inspectors to Iraq without conditions".[^39]
 
 123\. The US and UK immediately expressed scepticism. They had agreed that the provisions of resolution 1284 (1999) were no longer sufficient to secure the disarmament of Iraq and a strengthened inspections regime would be required.
 
@@ -573,13 +573,13 @@ HC 264
 125\. The UK's stated objective for the negotiation of resolution 1441 was to give Saddam Hussein "one final chance to comply" with his obligations to disarm. The UK initially formulated the objective in terms of:
 
 > - a resolution setting out an ultimatum to Iraq to re-admit the UN weapons inspectors and to disarm in accordance with its obligations; and
-> - a threat to resort to the use of force to secure disarmament if Iraq failed to comply.40
+> - a threat to resort to the use of force to secure disarmament if Iraq failed to comply.[^40]
 
-126\. Lord Goldsmith, the Attorney General, informed Mr Blair on 22 October that, although he would not be able to give a final view until the resolution was adopted, the draft of the resolution of 19 October would not on its own authorise military action.41
+126\. Lord Goldsmith, the Attorney General, informed Mr Blair on 22 October that, although he would not be able to give a final view until the resolution was adopted, the draft of the resolution of 19 October would not on its own authorise military action.[^41]
 
 %%page 20%%
 
-127\. Mr Blair decided on 31 October to offer significant forces for ground operations to the US for planning purposes.42
+127\. Mr Blair decided on 31 October to offer significant forces for ground operations to the US for planning purposes.[^42]
 
 128\. During the negotiations, France and Russia made clear their opposition to the use of force, without firm evidence of a further material breach and a further decision in the Security Council.
 
@@ -595,7 +595,7 @@ HC 264
 
 132\. Mr Blair, Mr Straw and other senior UK participants in the negotiation of resolution 1441 envisaged that, in the event of a material breach of Iraq's obligations, a second resolution determining that a breach existed and authorising the use of force was likely to be tabled in the Security Council.
 
-133\. Iraq announced on 13 November that it would comply with resolution 1441.43
+133\. Iraq announced on 13 November that it would comply with resolution 1441.[^43]
 
 134\. Iraq also restated its position that it had neither produced nor was in possession of weapons of mass destruction since the inspectors left in December 1998. It explicitly challenged the UK statement on 8 November that Iraq had "decided to keep possession" of its WMD.
 
@@ -605,43 +605,43 @@ HC 264
 
 135\. Following Iraq's submission of the declaration on its chemical, biological, nuclear and ballistic missile programmes to the UN on 7 December, and before the inspectors had properly begun their task, the US concluded that Saddam Hussein was not going to take the final opportunity offered by resolution 1441 to comply with his obligations.
 
-136\. Mr Blair was advised on 11 December that there was impatience in the US Administration and it was looking at military action as early as mid‑February 2003.44
+136\. Mr Blair was advised on 11 December that there was impatience in the US Administration and it was looking at military action as early as mid‑February 2003.[^44]
 
-137\. Mr Blair told President Bush on 16 December that the Iraqi declaration was "patently false".45 He was "cautiously optimistic" that the inspectors would find proof.
+137\. Mr Blair told President Bush on 16 December that the Iraqi declaration was "patently false".[^45] He was "cautiously optimistic" that the inspectors would find proof.
 
-138\. In a statement issued on 18 December, Mr Straw said that Saddam Hussein had decided to continue the pretence that Iraq had no WMD programme. If he persisted "in this obvious falsehood" it would become clear that he had "rejected the pathway to peace".46
+138\. In a statement issued on 18 December, Mr Straw said that Saddam Hussein had decided to continue the pretence that Iraq had no WMD programme. If he persisted "in this obvious falsehood" it would become clear that he had "rejected the pathway to peace".[^46]
 
-139\. The JIC's initial Assessment of the Iraqi declaration on 18 December stated that there had been "No serious attempt" to answer any of the unresolved questions highlighted by the UN Special Commission (UNSCOM) or to refute any of the points made in the UK dossier on Iraq's WMD programme.47
+139\. The JIC's initial Assessment of the Iraqi declaration on 18 December stated that there had been "No serious attempt" to answer any of the unresolved questions highlighted by the UN Special Commission (UNSCOM) or to refute any of the points made in the UK dossier on Iraq's WMD programme.[^47]
 
-140\. President Bush is reported to have told a meeting of the US National Security Council on 18 December 2002, at which the US response to Iraq's declaration was discussed, that the point of the 7 December declaration was to test whether Saddam Hussein would accept the "final opportunity" for peace offered by the Security Council.48 He had summed up the discussion by stating:
+140\. President Bush is reported to have told a meeting of the US National Security Council on 18 December 2002, at which the US response to Iraq's declaration was discussed, that the point of the 7 December declaration was to test whether Saddam Hussein would accept the "final opportunity" for peace offered by the Security Council.[^48] He had summed up the discussion by stating:
 
 "We've got what we need now, to show America that Saddam won't disarm himself."
 
-141\. Mr Colin Powell, the US Secretary of State, stated on 19 December that Iraq was "well on its way to losing its last chance", and that there was a "practical limit" to how long the inspectors could be given to complete their work.49
+141\. Mr Colin Powell, the US Secretary of State, stated on 19 December that Iraq was "well on its way to losing its last chance", and that there was a "practical limit" to how long the inspectors could be given to complete their work.[^49]
 
-142\. Mr Straw told Secretary Powell on 30 December that the US and UK should develop a clear "plan B" postponing military action on the basis that inspections plus the threat of force were containing Saddam Hussein.50
+142\. Mr Straw told Secretary Powell on 30 December that the US and UK should develop a clear "plan B" postponing military action on the basis that inspections plus the threat of force were containing Saddam Hussein.[^50]
 
 %%page 22%%
 
-143\. In early 2003, Mr Straw still thought a peaceful solution was more likely than military action. Mr Straw advised Mr Blair on 3 January that he had concluded that, in the potential absence of a "smoking gun", there was a need to consider a "Plan B".51 The UK should emphasise to the US that the preferred strategy was peaceful disarmament.
+143\. In early 2003, Mr Straw still thought a peaceful solution was more likely than military action. Mr Straw advised Mr Blair on 3 January that he had concluded that, in the potential absence of a "smoking gun", there was a need to consider a "Plan B".[^51] The UK should emphasise to the US that the preferred strategy was peaceful disarmament.
 
-144\. Mr Blair took a different view. By the time he returned to the office on 4 January 2003, he had concluded that the "likelihood was war" and, if conflict could not be avoided, the right thing to do was fully to support the US.52 He was focused on the need to establish evidence of an Iraqi breach, to persuade opinion of the case for action and to finalise the strategy with President Bush at the end of January.
+144\. Mr Blair took a different view. By the time he returned to the office on 4 January 2003, he had concluded that the "likelihood was war" and, if conflict could not be avoided, the right thing to do was fully to support the US.[^52] He was focused on the need to establish evidence of an Iraqi breach, to persuade opinion of the case for action and to finalise the strategy with President Bush at the end of January.
 
-145\. The UK objectives were published in a Written Ministerial Statement by Mr Straw on 7 January.53 The "prime objective" was:
+145\. The UK objectives were published in a Written Ministerial Statement by Mr Straw on 7 January.[^53] The "prime objective" was:
 
 > "... to rid Iraq of its weapons of mass destruction (WMD) and their associated programmes and means of delivery, including prohibited ballistic missiles ... as set out in UNSCRs [UN Security Council resolutions]. This would reduce Iraq's ability to threaten its neighbours and the region, and prevent Iraq using WMD against its own people. UNSCRs also require Iraq to renounce terrorism, and return captured Kuwaitis and property taken from Kuwait."
 
-146\. Lord Goldsmith gave Mr Blair his draft advice on 14 January that resolution 1441 would not by itself authorise the use of military force.54
+146\. Lord Goldsmith gave Mr Blair his draft advice on 14 January that resolution 1441 would not by itself authorise the use of military force.[^54]
 
-147\. Mr Blair agreed on 17 January to deploy a UK division with three combat brigades for possible operations in southern Iraq.55
+147\. Mr Blair agreed on 17 January to deploy a UK division with three combat brigades for possible operations in southern Iraq.[^55]
 
 148\. There was no collective discussion of the decision by senior Ministers.
 
 149\. In January 2003, there was a clear divergence between the UK and US Government positions over the timetable for military action, and the UK became increasingly concerned that US impatience with the inspections process would lead to a decision to take unilateral military action in the absence of support for such action in the Security Council.
 
-150\. On 23 January, Mr Blair was advised that the US military would be ready for action in mid‑February.56
+150\. On 23 January, Mr Blair was advised that the US military would be ready for action in mid‑February.[^56]
 
-151\. In a Note to President Bush on 24 January, Mr Blair wrote that the arguments for proceeding with a second Security Council resolution, "or at the very least a clear statement" from Dr Blix which allowed the US and UK to argue that a failure to pass a second resolution was in breach of the spirit of 1441, remained in his view, overwhelming; and that inspectors should be given until the end of March or early April to carry out their task.57
+151\. In a Note to President Bush on 24 January, Mr Blair wrote that the arguments for proceeding with a second Security Council resolution, "or at the very least a clear statement" from Dr Blix which allowed the US and UK to argue that a failure to pass a second resolution was in breach of the spirit of 1441, remained in his view, overwhelming; and that inspectors should be given until the end of March or early April to carry out their task.[^57]
 
 %%page 23%%
 
@@ -649,19 +649,19 @@ HC 264
 
 153\. The US and UK should seek to persuade others, including Dr Blix, that that was the "true view" of resolution 1441.
 
-154\. Mr Blair used an interview on Breakfast with Frost on 26 January to set out the position that the inspections should be given sufficient time to determine whether or not Saddam Hussein was co‑operating fully.58 If he was not, that would be a sufficient reason for military action. A find of WMD was not required.
+154\. Mr Blair used an interview on Breakfast with Frost on 26 January to set out the position that the inspections should be given sufficient time to determine whether or not Saddam Hussein was co‑operating fully.[^58] If he was not, that would be a sufficient reason for military action. A find of WMD was not required.
 
 155\. Mr Blair's proposed approach to his meeting with President Bush was discussed in a meeting of Ministers before Cabinet on 30 January and then discussed in general terms in Cabinet itself.
 
-156\. In a Note prepared before his meeting with President Bush on 31 January, Mr Blair proposed seeking a UN resolution on 5 March followed by an attempt to "mobilise Arab opinion to try to force Saddam out" before military action on 15 March.59
+156\. In a Note prepared before his meeting with President Bush on 31 January, Mr Blair proposed seeking a UN resolution on 5 March followed by an attempt to "mobilise Arab opinion to try to force Saddam out" before military action on 15 March.[^59]
 
-157\. When Mr Blair met President Bush on 31 January, it was clear that the window of opportunity before the US took military action would be very short. The military campaign could begin "around 10 March".60
+157\. When Mr Blair met President Bush on 31 January, it was clear that the window of opportunity before the US took military action would be very short. The military campaign could begin "around 10 March".[^60]
 
 158\. President Bush agreed to seek a second resolution to help Mr Blair, but there were major reservations within the US Administration about the wisdom of that approach.
 
 159\. Mr Blair confirmed that he was "solidly with the President and ready to do whatever it took to disarm Saddam" Hussein.
 
-160\. Reporting on his visit to Washington, Mr Blair told Parliament on 3 February 2003 that Saddam Hussein was not co‑operating as required by resolution 1441 and, if that continued, a second resolution should be passed to confirm such a material breach.61
+160\. Reporting on his visit to Washington, Mr Blair told Parliament on 3 February 2003 that Saddam Hussein was not co‑operating as required by resolution 1441 and, if that continued, a second resolution should be passed to confirm such a material breach.[^61]
 
 161\. Mr Blair continued to set the need for action against Iraq in the context of the need to be seen to enforce the will of the UN and to deter future threats.
 
@@ -672,17 +672,17 @@ HC 264
 162\. In their reports to the Security Council on 14 February:
 
 > - Dr Blix reported that UNMOVIC had not found any weapons of mass destruction and the items that were not accounted for might not exist, but Iraq needed to provide the evidence to answer the questions, not belittle them.
-> - Dr Mohamed ElBaradei, Director General of the International Atomic Energy Agency (IAEA), reported that the IAEA had found no evidence of ongoing prohibited nuclear or nuclear‑related activities in Iraq although a number of issues were still under investigation.62
+> - Dr Mohamed ElBaradei, Director General of the International Atomic Energy Agency (IAEA), reported that the IAEA had found no evidence of ongoing prohibited nuclear or nuclear‑related activities in Iraq although a number of issues were still under investigation.[^62]
 
 163\. In the subsequent debate, members of the Security Council voiced widely divergent views.
 
-164\. Mr Annan concluded that there were real differences on strategy and timing in the Security Council. Iraq's non‑co‑operation was insufficient to bring members to agree that war was justified; they would only move if they came to their own judgement that inspections were pointless.63
+164\. Mr Annan concluded that there were real differences on strategy and timing in the Security Council. Iraq's non‑co‑operation was insufficient to bring members to agree that war was justified; they would only move if they came to their own judgement that inspections were pointless.[^63]
 
-165\. On 19 February, Mr Blair sent President Bush a six‑page Note. He proposed focusing on the absence of full co‑operation and a "simple" resolution stating that Iraq had failed to take the final opportunity, with a side statement defining tough tests of co‑operation and a vote on 14 March to provide a deadline for action.64
+165\. On 19 February, Mr Blair sent President Bush a six‑page Note. He proposed focusing on the absence of full co‑operation and a "simple" resolution stating that Iraq had failed to take the final opportunity, with a side statement defining tough tests of co‑operation and a vote on 14 March to provide a deadline for action.[^64]
 
-166\. President Bush and Mr Blair agreed to introduce a draft resolution at the UN the following week but its terms were subject to further discussion.65
+166\. President Bush and Mr Blair agreed to introduce a draft resolution at the UN the following week but its terms were subject to further discussion.[^65]
 
-167\. On 20 February, Mr Blair told Dr Blix that he wanted to offer the US an alternative strategy which included a deadline and tests for compliance.66 He did not think Saddam Hussein would co‑operate but he would try to get Dr Blix as much time as possible. Iraq could have signalled a change of heart in the December declaration. The Americans did not think that Saddam was going to co‑operate: "Nor did he. But we needed to keep the international community together."
+167\. On 20 February, Mr Blair told Dr Blix that he wanted to offer the US an alternative strategy which included a deadline and tests for compliance.[^66] He did not think Saddam Hussein would co‑operate but he would try to get Dr Blix as much time as possible. Iraq could have signalled a change of heart in the December declaration. The Americans did not think that Saddam was going to co‑operate: "Nor did he. But we needed to keep the international community together."
 
 168\. Dr Blix stated that full co‑operation was a nebulous concept; and a deadline of 15 April would be too early. Dr Blix commented that "perhaps there was not much WMD in Iraq after all". Mr Blair responded that "even German and French intelligence were sure that there was WMD in Iraq". Dr Blix said they seemed "unsure" about "mobile BW production facilities": "It would be paradoxical and absurd if 250,000 men were to invade Iraq and find very little."
 
@@ -690,37 +690,37 @@ HC 264
 
 169\. Mr Blair responded that "our intelligence was clear that Saddam had reconstituted his WMD programme".
 
-170\. On 24 February, the UK, US and Spain tabled a draft resolution stating that Iraq had failed to take the final opportunity offered by resolution 1441 and that the Security Council had decided to remain seized of the matter.67 The draft failed to attract support.
+170\. On 24 February, the UK, US and Spain tabled a draft resolution stating that Iraq had failed to take the final opportunity offered by resolution 1441 and that the Security Council had decided to remain seized of the matter.[^67] The draft failed to attract support.
 
-171\. France, Germany and Russia responded by tabling a memorandum, building on their tripartite declaration of 10 February, stating that "full and effective disarmament" remained "the imperative objective of the international community".68 That "should be achieved peacefully through the inspection regime". The "conditions for using force" had "not been fulfilled". The Security Council "must step up its efforts to give a real chance to the peaceful settlement of the crisis".
+171\. France, Germany and Russia responded by tabling a memorandum, building on their tripartite declaration of 10 February, stating that "full and effective disarmament" remained "the imperative objective of the international community".[^68] That "should be achieved peacefully through the inspection regime". The "conditions for using force" had "not been fulfilled". The Security Council "must step up its efforts to give a real chance to the peaceful settlement of the crisis".
 
-172\. On 25 February, Mr Blair told the House of Commons that the intelligence was "clear" that Saddam Hussein continued "to believe that his weapons of mass destruction programme is essential both for internal repression and for external aggression".69 It was also "essential to his regional power". "Prior to the inspectors coming back in", Saddam Hussein "was engaged in a systematic exercise in concealment of those weapons". The inspectors had reported some co‑operation on process, but had "denied progress on substance".
+172\. On 25 February, Mr Blair told the House of Commons that the intelligence was "clear" that Saddam Hussein continued "to believe that his weapons of mass destruction programme is essential both for internal repression and for external aggression".[^69] It was also "essential to his regional power". "Prior to the inspectors coming back in", Saddam Hussein "was engaged in a systematic exercise in concealment of those weapons". The inspectors had reported some co‑operation on process, but had "denied progress on substance".
 
-173\. The House of Commons was asked on 26 February to reaffirm its endorsement of resolution 1441, support the Government's continuing efforts to disarm Iraq, and to call upon Iraq to recognise that this was its final opportunity to comply with its obligations.70
+173\. The House of Commons was asked on 26 February to reaffirm its endorsement of resolution 1441, support the Government's continuing efforts to disarm Iraq, and to call upon Iraq to recognise that this was its final opportunity to comply with its obligations.[^70]
 
-174\. The Government motion was approved by 434 votes to 124;[^199] MPs voted for an amendment which invited the House to "find the case for military action against Iraq as yet unproven".71
+174\. The Government motion was approved by 434 votes to 124; 199 MPs voted for an amendment which invited the House to "find the case for military action against Iraq as yet unproven".[^71]
 
-175\. In a speech on 26 February, President Bush stated that the safety of the American people depended on ending the direct and growing threat from Iraq.72
+175\. In a speech on 26 February, President Bush stated that the safety of the American people depended on ending the direct and growing threat from Iraq.[^72]
 
 176\. President Bush also set out his hopes for the future of Iraq.
 
 %%page 26%%
 
-177\. Reporting discussions in New York on 26 February, Sir Jeremy Greenstock wrote that there was "a general antipathy to having now to take decisions on this issue, and a wariness about what our underlying motives are behind the resolution".73 Sir Jeremy concluded that the US was focused on preserving its room for manoeuvre while he was "concentrating on trying to win votes". It was the "middle ground" that mattered. Mexico and Chile were the "pivotal sceptics".
+177\. Reporting discussions in New York on 26 February, Sir Jeremy Greenstock wrote that there was "a general antipathy to having now to take decisions on this issue, and a wariness about what our underlying motives are behind the resolution".[^73] Sir Jeremy concluded that the US was focused on preserving its room for manoeuvre while he was "concentrating on trying to win votes". It was the "middle ground" that mattered. Mexico and Chile were the "pivotal sceptics".
 
-178\. Lord Goldsmith told No.10 officials on 27 February that the safest legal course for future military action would be to secure a further Security Council resolution.74 He had, however, reached the view that a "reasonable case" could be made that resolution 1441 was capable of reviving the authorisation to use force in resolution 678 (1990) without a further resolution, if there were strong factual grounds for concluding that Iraq had failed to take the final opportunity offered by resolution 1441.
+178\. Lord Goldsmith told No.10 officials on 27 February that the safest legal course for future military action would be to secure a further Security Council resolution.[^74] He had, however, reached the view that a "reasonable case" could be made that resolution 1441 was capable of reviving the authorisation to use force in resolution 678 (1990) without a further resolution, if there were strong factual grounds for concluding that Iraq had failed to take the final opportunity offered by resolution 1441.
 
 179\. Lord Goldsmith advised that, to avoid undermining the case for reliance on resolution 1441, it would be important to avoid giving any impression that the UK believed a second resolution was legally required.
 
-180\. Informal consultations in the Security Council on 27 February showed there was little support for the UK/US/Spanish draft resolution.75
+180\. Informal consultations in the Security Council on 27 February showed there was little support for the UK/US/Spanish draft resolution.[^75]
 
-181\. An Arab League Summit on 1 March concluded that the crisis in Iraq must be resolved by peaceful means and in the framework of international legitimacy.76
+181\. An Arab League Summit on 1 March concluded that the crisis in Iraq must be resolved by peaceful means and in the framework of international legitimacy.[^76]
 
-182\. Following his visit to Mexico, Sir David Manning concluded that Mexican support for a second resolution was "not impossible, but would not be easy and would almost certainly require some movement".77
+182\. Following his visit to Mexico, Sir David Manning concluded that Mexican support for a second resolution was "not impossible, but would not be easy and would almost certainly require some movement".[^77]
 
-183\. During Sir David's visit to Chile, President Ricardo Lagos repeated his concerns, including the difficulty of securing nine votes or winning the presentational battle without further clarification of Iraq's non‑compliance. He also suggested identifying benchmarks.78
+183\. During Sir David's visit to Chile, President Ricardo Lagos repeated his concerns, including the difficulty of securing nine votes or winning the presentational battle without further clarification of Iraq's non‑compliance. He also suggested identifying benchmarks.[^78]
 
-184\. Mr Blair wrote in his memoir that, during February, "despite his best endeavours", divisions in the Security Council had grown not reduced; and that the "dynamics of disagreement" were producing new alliances.79 France, Germany and Russia were moving to create an alternative pole of power and influence.
+184\. Mr Blair wrote in his memoir that, during February, "despite his best endeavours", divisions in the Security Council had grown not reduced; and that the "dynamics of disagreement" were producing new alliances.[^79] France, Germany and Russia were moving to create an alternative pole of power and influence.
 
 %%page 27%%
 
@@ -730,15 +730,15 @@ HC 264
 
 > "... [W]e should make a last ditch attempt for a peaceful solution. First to make the moral case for removing Saddam ... Second, to try one more time to reunite the international community behind a clear base for action in the event of a continuing breach."
 
-187\. On 3 March, Mr Blair proposed an approach focused on setting a deadline of 17 March for Iraq to disclose evidence relating to the destruction of prohibited items and permit interviews; and an amnesty if Saddam Hussein left Iraq by 21 March.80
+187\. On 3 March, Mr Blair proposed an approach focused on setting a deadline of 17 March for Iraq to disclose evidence relating to the destruction of prohibited items and permit interviews; and an amnesty if Saddam Hussein left Iraq by 21 March.[^80]
 
-188\. Mr Straw told Secretary Powell that the level of support in the UK for military action without a second resolution was palpably "very low". In that circumstance, even if a majority in the Security Council had voted for the resolution with only France exercising its veto, he was "increasingly pessimistic" about support within the Labour Party for military action.81 The debate in the UK was:
+188\. Mr Straw told Secretary Powell that the level of support in the UK for military action without a second resolution was palpably "very low". In that circumstance, even if a majority in the Security Council had voted for the resolution with only France exercising its veto, he was "increasingly pessimistic" about support within the Labour Party for military action.[^81] The debate in the UK was:
 
 > "... significantly defined by the tone of the debate in Washington and particularly remarks made by the President and others to the right of him, which suggested that the US would go to war whatever and was not bothered about a second resolution one way or another."
 
 189\. Following a discussion with Mr Blair, Mr Straw told Secretary Powell that Mr Blair:
 
-> "... was concerned that, having shifted world (and British) public opinion over the months, it had now been seriously set back in recent days. We were not in the right position. The Prime Minister was considering a number of ideas which he might well put to the President."82
+> "... was concerned that, having shifted world (and British) public opinion over the months, it had now been seriously set back in recent days. We were not in the right position. The Prime Minister was considering a number of ideas which he might well put to the President."[^82]
 
 190\. Mr Straw recorded that Secretary Powell had advised that, if Mr Blair wanted to make proposals, he should do so quickly. The US was not enthusiastic about the inclusion of an immunity clause for Saddam Hussein in the resolution.
 
@@ -746,37 +746,37 @@ HC 264
 
 %%page 28%%
 
-192\. Mr Straw told the Foreign Affairs Committee (FAC) on 4 March that it was "a matter of fact" that Iraq had been in material breach "for some weeks" and resolution 1441 provided sufficient legal authority to justify military action against Iraq if it was "in further material breach".83
+192\. Mr Straw told the Foreign Affairs Committee (FAC) on 4 March that it was "a matter of fact" that Iraq had been in material breach "for some weeks" and resolution 1441 provided sufficient legal authority to justify military action against Iraq if it was "in further material breach".[^83]
 
 193\. Mr Straw also stated that a majority of members of the Security Council had been opposed to the suggestion that resolution 1441 should state explicitly that military action could be taken only if there were a second resolution.
 
-194\. Mr Blair was informed on the evening of 4 March that US military planners were looking at 12 March as the possible start date for the military campaign; and that Mr Geoff Hoon, the Defence Secretary, was concerned about the apparent disconnect with activity in the UN.84
+194\. Mr Blair was informed on the evening of 4 March that US military planners were looking at 12 March as the possible start date for the military campaign; and that Mr Geoff Hoon, the Defence Secretary, was concerned about the apparent disconnect with activity in the UN.[^84]
 
-195\. Baroness Amos, Minister of State, Department for International Development (DFID), advised on 4 March that Angola, Cameroon and Guinea were not yet ready to commit to a "yes vote" and had emphasised the need for P5 unity.85
+195\. Baroness Amos, Minister of State, Department for International Development (DFID), advised on 4 March that Angola, Cameroon and Guinea were not yet ready to commit to a "yes vote" and had emphasised the need for P5 unity.[^85]
 
-196\. Sir Christopher Hum, British Ambassador to China, advised on 4 March that, if the resolution was put to a vote that day, China would abstain.86
+196\. Sir Christopher Hum, British Ambassador to China, advised on 4 March that, if the resolution was put to a vote that day, China would abstain.[^86]
 
-197\. Sir John Holmes, British Ambassador to France, advised on 4 March that France's main aim was to "avoid being put on the spot" by influencing the undecided, preventing the US and UK mustering nine votes, and keeping alongside the Russians and Chinese; and that there was "nothing that we can now do to dissuade them from this course".87 Sir John also advised that "nothing the French say at this stage, even privately, should be taken at face value".
+197\. Sir John Holmes, British Ambassador to France, advised on 4 March that France's main aim was to "avoid being put on the spot" by influencing the undecided, preventing the US and UK mustering nine votes, and keeping alongside the Russians and Chinese; and that there was "nothing that we can now do to dissuade them from this course".[^87] Sir John also advised that "nothing the French say at this stage, even privately, should be taken at face value".
 
-198\. Mr Igor Ivanov, the Russian Foreign Minister, told Mr Straw on 4 March that Russia had failed in an attempt to persuade Saddam Hussein to leave and it would veto a resolution based on the draft circulated on 24 February.88
+198\. Mr Igor Ivanov, the Russian Foreign Minister, told Mr Straw on 4 March that Russia had failed in an attempt to persuade Saddam Hussein to leave and it would veto a resolution based on the draft circulated on 24 February.[^88]
 
-199\. France, Germany and Russia stated on 5 March that they would not let a resolution pass that authorised the use of force.89 Russia and France, "as Permanent Members of the Security Council, will assume all their responsibilities on this point".
+199\. France, Germany and Russia stated on 5 March that they would not let a resolution pass that authorised the use of force.[^89] Russia and France, "as Permanent Members of the Security Council, will assume all their responsibilities on this point".
 
 %%page 29%%
 
-200\. The British Embassy Washington reported overnight on 5/6 March that "barring a highly improbable volte face by Saddam", the US was now firmly on track for military action and would deal firmly with any efforts in the UN to slow down the timetable.90
+200\. The British Embassy Washington reported overnight on 5/6 March that "barring a highly improbable volte face by Saddam", the US was now firmly on track for military action and would deal firmly with any efforts in the UN to slow down the timetable.[^90]
 
 201\. The Embassy reported that the only event which might significantly affect the US timetable would be problems for the UK. That had been described as "huge – like trying to play football without the quarterback". The US was "therefore pulling out all the stops at the UN". The US fully understood the importance of the second resolution for the UK.
 
-202\. Sir Jeremy Greenstock advised that the US would not countenance the use of benchmarks. That risked delaying the military timetable.91
+202\. Sir Jeremy Greenstock advised that the US would not countenance the use of benchmarks. That risked delaying the military timetable.[^91]
 
-203\. Mr Blair told Cabinet on 6 March that the argument boiled down to the question of whether Saddam Hussein would ever voluntarily co‑operate with the UN to disarm Iraq.92
+203\. Mr Blair told Cabinet on 6 March that the argument boiled down to the question of whether Saddam Hussein would ever voluntarily co‑operate with the UN to disarm Iraq.[^92]
 
 204\. Mr Blair concluded that it was for the Security Council to determine whether Iraq was co‑operating fully.
 
-205\. In his discussions with President Lagos on 6 March, Mr Blair stated that the US would go ahead without the UN if asked to delay military action until April or May.93
+205\. In his discussions with President Lagos on 6 March, Mr Blair stated that the US would go ahead without the UN if asked to delay military action until April or May.[^93]
 
-206\. In his report to the Security Council on 7 March, Dr Blix stated that there had been an acceleration of initiatives from Iraq since the end of January, but they could not be said to constitute immediate co‑operation.94 Nor did they necessarily cover all areas of relevance; but they were nevertheless welcome. UNMOVIC was drawing up a work programme of key disarmament tasks, which would be ready later that month, for approval by the Security Council. It would take "months" to complete the programme.
+206\. In his report to the Security Council on 7 March, Dr Blix stated that there had been an acceleration of initiatives from Iraq since the end of January, but they could not be said to constitute immediate co‑operation.[^94] Nor did they necessarily cover all areas of relevance; but they were nevertheless welcome. UNMOVIC was drawing up a work programme of key disarmament tasks, which would be ready later that month, for approval by the Security Council. It would take "months" to complete the programme.
 
 207\. Dr ElBaradei reported that there were no indications that Iraq had resumed nuclear activities since the inspectors left in December 1998 and the recently increased level of Iraqi co‑operation should allow the IAEA to provide the Security Council with an assessment of Iraq's nuclear capabilities in the near future.
 
@@ -786,19 +786,19 @@ HC 264
 
 %%page 30%%
 
-210\. President Putin told Mr Blair on 7 March that Russia would oppose military action.95
+210\. President Putin told Mr Blair on 7 March that Russia would oppose military action.[^95]
 
 211\. Mr Straw told Mr Annan that military considerations could not be allowed "to dictate policy", but the military build‑up "could not be maintained for ever", and:
 
-> "... the more he had looked into the Iraq dossier [issue] the more convinced he had become of the need for action. Reading the clusters document [a report of outstanding issues produced by UNMOVIC on 7 March] made his hair stand on end."96
+> "... the more he had looked into the Iraq dossier [issue] the more convinced he had become of the need for action. Reading the clusters document [a report of outstanding issues produced by UNMOVIC on 7 March] made his hair stand on end."[^96]
 
 212\. Mr Straw set out the UK thinking on a deadline, stating that this was "Iraq's last chance", but the objective was disarmament and, if Saddam Hussein did what was demanded, "he could stay". In those circumstances, a "permanent and toughened inspections regime" would be needed, possibly "picking up some earlier ideas for an all‑Iraq NFZ".
 
-213\. Lord Goldsmith sent his formal advice to Mr Blair on 7 March.97
+213\. Lord Goldsmith sent his formal advice to Mr Blair on 7 March.[^97]
 
 ### The end of the UN route
 
-214\. When Mr Blair spoke to President Bush at 6pm on 7 March he emphasised the importance of securing nine positive votes98 in the Security Council for Parliamentary approval for UK military action.99
+214\. When Mr Blair spoke to President Bush at 6pm on 7 March he emphasised the importance of securing nine positive votes[^98] in the Security Council for Parliamentary approval for UK military action.[^99]
 
 215\. Mr Blair argued that while the 17 March deadline in the draft resolution was not sufficient for Iraq to disarm fully, it was sufficient to make a judgement on whether Saddam Hussein had had a change of heart. If Iraq started to co‑operate, the inspectors could have as much time as they liked.
 
@@ -810,21 +810,21 @@ HC 264
 
 218\. Mr Blair told the Inquiry:
 
-> "It was worth having one last‑ditch chance to see if you could bring people back together on the same page ... [W]hat President Bush had to do was agree to table a fresh resolution. What the French had to agree was you couldn't have another resolution and another breach and no action. So my idea was define the circumstances of breach – that was the tests that we applied with Hans Blix – get the Americans to agree to the resolution, get the French to agree that you couldn't just go back to the same words of 1441 again, you had to take it a stage further."100
+> "It was worth having one last‑ditch chance to see if you could bring people back together on the same page ... [W]hat President Bush had to do was agree to table a fresh resolution. What the French had to agree was you couldn't have another resolution and another breach and no action. So my idea was define the circumstances of breach – that was the tests that we applied with Hans Blix – get the Americans to agree to the resolution, get the French to agree that you couldn't just go back to the same words of 1441 again, you had to take it a stage further."[^100]
 
-219\. In a discussion on 9 March, Mr Blair told President Bush that he needed a second resolution to secure Parliamentary support for UK involvement in military action.101 He sought President Bush's support for setting out tests in a side statement, including that the vote in the Security Council might have to be delayed "by a couple of days".
+219\. In a discussion on 9 March, Mr Blair told President Bush that he needed a second resolution to secure Parliamentary support for UK involvement in military action.[^101] He sought President Bush's support for setting out tests in a side statement, including that the vote in the Security Council might have to be delayed "by a couple of days".
 
 220\. President Bush was unwilling to countenance delay. He was reported to have told Mr Blair that, if the second resolution failed, he would find another way to involve the UK.
 
 221\. Mr Blair told President Bush the UK would be with the US in taking action if he (Mr Blair) possibly could be.
 
-222\. Sir Jeremy Greenstock reported that Dr Blix was prepared to work with the UK on identifying tests but had reminded him that UNMOVIC still lacked clear evidence that Iraq possessed any WMD.102
+222\. Sir Jeremy Greenstock reported that Dr Blix was prepared to work with the UK on identifying tests but had reminded him that UNMOVIC still lacked clear evidence that Iraq possessed any WMD.[^102]
 
 223\. Mr Blair spoke twice to President Lagos on 10 March in an attempt to find a path that President Lagos and President Vicente Fox of Mexico could support.
 
-224\. In the second conversation, Mr Blair said that he thought it "would be possible to find different wording" on the ultimatum to Iraq. Timing "would be difficult, but he would try to get some flexibility" if the first two issues "fell into place".103
+224\. In the second conversation, Mr Blair said that he thought it "would be possible to find different wording" on the ultimatum to Iraq. Timing "would be difficult, but he would try to get some flexibility" if the first two issues "fell into place".[^103]
 
-225\. Mr Straw reported that Secretary Powell thought that there were seven solid votes, and uncertainty about Mexico, Chile and Pakistan.104 If there were fewer than nine, the second resolution should not be put to the vote.
+225\. Mr Straw reported that Secretary Powell thought that there were seven solid votes, and uncertainty about Mexico, Chile and Pakistan.[^104] If there were fewer than nine, the second resolution should not be put to the vote.
 
 %%page 32%%
 
@@ -832,17 +832,17 @@ HC 264
 
 227\. By 10 March, President Bush's position was hardening and he was very reluctant to delay military action.
 
-228\. When Mr Blair spoke to President Bush, they discussed the "seven solid votes" for the resolution.105
+228\. When Mr Blair spoke to President Bush, they discussed the "seven solid votes" for the resolution.[^105]
 
-229\. Mr Alastair Campbell, Mr Blair's Director of Communications and Strategy, wrote that Mr Blair had done most of the talking.106 President Bush thought President Jacques Chirac of France was "trying to get us to the stage where we would not put [the resolution] to a vote because we would be so worried about losing".
+229\. Mr Alastair Campbell, Mr Blair's Director of Communications and Strategy, wrote that Mr Blair had done most of the talking.[^106] President Bush thought President Jacques Chirac of France was "trying to get us to the stage where we would not put [the resolution] to a vote because we would be so worried about losing".
 
 230\. Mr Blair had argued that if Chile and Mexico could be shifted, that would "change the weather". If France and Russia then vetoed the resolution but the "numbers were right on the UN", Mr Blair thought that he would "have a fighting chance of getting it through the Commons". Subsequently, Mr Blair suggested that a change in Chile and Mexico's position might be used to influence President Putin.
 
 231\. President Bush was "worried about rolling in more time" but Mr Blair had "held his ground", arguing that Chile and Mexico would "need to be able to point to something that they won last minute that explains why they finally supported us". President Bush "said 'Let me be frank. The second resolution is for the benefit of Great Britain. We would want it so we can go ahead together.'" President Bush's position was that the US and UK "must not retreat from 1441 and we cannot keep giving them more time"; it was "time to do this" and there should be "no more deals".
 
-232\. Sir David Manning sent the UK proposals for a revised deadline, and a side statement identifying six tests on which Saddam Hussein's intentions would be judged, to Dr Condoleezza Rice, President Bush's National Security Advisor, and to President Lagos.107
+232\. Sir David Manning sent the UK proposals for a revised deadline, and a side statement identifying six tests on which Saddam Hussein's intentions would be judged, to Dr Condoleezza Rice, President Bush's National Security Advisor, and to President Lagos.[^107]
 
-233\. Mr Blair wrote in his memoir that President Bush and his military were concerned about delay.108
+233\. Mr Blair wrote in his memoir that President Bush and his military were concerned about delay.[^108]
 
 > "It [the proposal for tests/more time] was indeed a hard sell to George. His system was completely against it. His military were, not unreasonably, fearing that delay gave the enemy time – and time could mean a tougher struggle and more lives lost.
 
@@ -858,11 +858,11 @@ HC 264
 
 > "Unfortunately, the French position had, if anything, got harder not softer. They were starting to say they would not support military action in any circumstances, irrespective of what the inspectors found ..."
 
-235\. In a press conference on 10 March, Mr Annan reiterated the Security Council's determination to disarm Iraq, but said that every avenue for a peaceful resolution of the crisis had to be exhausted before force should be used.109
+235\. In a press conference on 10 March, Mr Annan reiterated the Security Council's determination to disarm Iraq, but said that every avenue for a peaceful resolution of the crisis had to be exhausted before force should be used.[^109]
 
 236\. Mr Annan also warned that, if the Security Council failed to agree on a common position and action was taken without the authority of the Council, the legitimacy and support for any such action would be seriously impaired.
 
-237\. In an interview on 10 March, President Chirac stated that it was for the inspectors to advise whether they could complete their task.110 If they reported that they were not in a position to guarantee Iraq's disarmament, it would be:
+237\. In an interview on 10 March, President Chirac stated that it was for the inspectors to advise whether they could complete their task.[^110] If they reported that they were not in a position to guarantee Iraq's disarmament, it would be:
 
 > "... for the Security Council alone to decide the right thing to do. But in that case ... regrettably, the war would become inevitable. It isn't today."
 
@@ -880,7 +880,7 @@ HC 264
 
 242\. Mr Straw wrote to Mr Blair on 11 March setting out his firm conclusion that:
 
-> "If we cannot gain nine votes and be sure of no veto, we should not push our second resolution to a vote. The political and diplomatic consequences for the UK would be significantly worse to have our ... resolution defeated ... than if we camp on 1441 ..."111
+> "If we cannot gain nine votes and be sure of no veto, we should not push our second resolution to a vote. The political and diplomatic consequences for the UK would be significantly worse to have our ... resolution defeated ... than if we camp on 1441 ..."[^111]
 
 243\. Mr Straw set out his reasoning in some detail, including that:
 
@@ -900,29 +900,29 @@ HC 264
 
 %%page 35%%
 
-248\. When Mr Blair and President Bush discussed the position late on 11 March, it was clear that President Bush was determined not to postpone the start of military action.112 They discussed the impact of President Chirac's "veto threats". Mr Blair considered that President Chirac's remarks "gave some cover" for ending the UN route.
+248\. When Mr Blair and President Bush discussed the position late on 11 March, it was clear that President Bush was determined not to postpone the start of military action.[^112] They discussed the impact of President Chirac's "veto threats". Mr Blair considered that President Chirac's remarks "gave some cover" for ending the UN route.
 
-249\. Reporting discussions in New York on 11 March on the draft resolution and details of a possible "side statement", Sir Jeremy Greenstock advised that the draft resolution tabled by the UK, US and Spain on 7 March had "no chance ... of adoption".113
+249\. Reporting discussions in New York on 11 March on the draft resolution and details of a possible "side statement", Sir Jeremy Greenstock advised that the draft resolution tabled by the UK, US and Spain on 7 March had "no chance ... of adoption".[^113]
 
-250\. In a telephone call with President Bush on 12 March, Mr Blair proposed that the US and UK should continue to seek a compromise in the UN, while confirming that he knew it would not happen. He would say publicly that the French had prevented them from securing a resolution, so there would not be one.114
+250\. In a telephone call with President Bush on 12 March, Mr Blair proposed that the US and UK should continue to seek a compromise in the UN, while confirming that he knew it would not happen. He would say publicly that the French had prevented them from securing a resolution, so there would not be one.[^114]
 
 251\. Mr Blair wanted to avoid a gap between the end of the negotiating process and the Parliamentary vote in which France or another member of the Security Council might table a resolution that attracted the support of a majority of the Council. That could have undermined the UK (and US) position on its legal basis for action.
 
-252\. When he discussed the options with Mr Straw early on 12 March, Mr Blair decided that the UK would continue to support the US.115
+252\. When he discussed the options with Mr Straw early on 12 March, Mr Blair decided that the UK would continue to support the US.[^115]
 
 253\. During Prime Minister's Questions on 12 March, Mr Blair stated:
 
-> "I hope that even now those countries that are saying they would use their veto no matter what the circumstances will reconsider and realise that by doing so they put at risk not just the disarmament of Saddam, but the unity of the United Nations."116
+> "I hope that even now those countries that are saying they would use their veto no matter what the circumstances will reconsider and realise that by doing so they put at risk not just the disarmament of Saddam, but the unity of the United Nations."[^116]
 
-254\. The FCO assessed on 12 March that the votes of the three African states were reasonably secure but Pakistan's vote was not so certain. It was hoped that the six tests plus a short extension of the 17 March deadline might deliver Mexico and Chile.117
+254\. The FCO assessed on 12 March that the votes of the three African states were reasonably secure but Pakistan's vote was not so certain. It was hoped that the six tests plus a short extension of the 17 March deadline might deliver Mexico and Chile.[^117]
 
-255\. The UK circulated its draft side statement setting out the six tests to a meeting of Security Council members in New York on the evening of 12 March.118
+255\. The UK circulated its draft side statement setting out the six tests to a meeting of Security Council members in New York on the evening of 12 March.[^118]
 
-256\. Sir Jeremy Greenstock told Council members that the UK "non‑paper" responded to an approach from the "undecided six"119 looking for a way forward, setting out six tasks to be achieved in a 10‑day timeline.120 Sir Jeremy reported that France, Germany and Russia all said that the draft resolution without operative paragraph 3 would still authorise force. The UK had not achieved "any kind of breakthrough" and there were "serious questions about the available time", which the US would "not help us to satisfy".
+256\. Sir Jeremy Greenstock told Council members that the UK "non‑paper" responded to an approach from the "undecided six"[^119] looking for a way forward, setting out six tasks to be achieved in a 10‑day timeline.[^120] Sir Jeremy reported that France, Germany and Russia all said that the draft resolution without operative paragraph 3 would still authorise force. The UK had not achieved "any kind of breakthrough" and there were "serious questions about the available time", which the US would "not help us to satisfy".
 
 %%page 36%%
 
-257\. Mr Blair told Cabinet on 13 March that work continued in the UN to obtain a second resolution and, following the French decision to veto, the outcome remained open.121
+257\. Mr Blair told Cabinet on 13 March that work continued in the UN to obtain a second resolution and, following the French decision to veto, the outcome remained open.[^121]
 
 258\. Mr Straw described President Chirac's position as "irresponsible".
 
@@ -930,15 +930,15 @@ HC 264
 
 260\. Mr Blair concluded that the French position "looked to be based on a calculation of strategic benefit". It was "in contradiction of the Security Council's earlier view that military action would follow if Iraq did not fully and unconditionally co‑operate with the inspectors". The UK would "continue to show flexibility" in its efforts to achieve a second resolution and, "if France could be shown to be intransigent, the mood of the Security Council could change towards support for the British draft".
 
-261\. Mr Blair agreed the military plan later on 13 March.122
+261\. Mr Blair agreed the military plan later on 13 March.[^122]
 
-262\. On 13 March, Mr Blair and President Bush discussed withdrawing the resolution on 17 March followed by a US ultimatum to Saddam Hussein to leave within 48 hours. There would be no US military action until after the vote in the House of Commons on 18 March.123
+262\. On 13 March, Mr Blair and President Bush discussed withdrawing the resolution on 17 March followed by a US ultimatum to Saddam Hussein to leave within 48 hours. There would be no US military action until after the vote in the House of Commons on 18 March.[^123]
 
 263\. Mr Blair continued to press President Bush to publish the Road Map on the Middle East Peace Process because of its impact on domestic opinion in the UK as well as its strategic impact.
 
-264\. Reporting developments in New York on 13 March, Sir Jeremy Greenstock warned that the UK tests had attracted no support, and that the US might be ready to call a halt to the UN process on 15 March.124 The main objections had included the "perceived authorisation of force in the draft resolution" and a desire to wait for UNMOVIC's own list of key tasks which would be issued early the following week.
+264\. Reporting developments in New York on 13 March, Sir Jeremy Greenstock warned that the UK tests had attracted no support, and that the US might be ready to call a halt to the UN process on 15 March.[^124] The main objections had included the "perceived authorisation of force in the draft resolution" and a desire to wait for UNMOVIC's own list of key tasks which would be issued early the following week.
 
-265\. President Chirac told Mr Blair on 14 March that France was "content to proceed 'in the logic of UNSCR 1441'; but it could not accept an ultimatum or any 'automaticity' of recourse to force".125 He proposed looking at a new resolution in line with resolution 1441, "provided that it excluded these options". President Chirac "suggested that the UNMOVIC work programme might provide a way forward. France was prepared to look at reducing the 120 day timeframe it envisaged."
+265\. President Chirac told Mr Blair on 14 March that France was "content to proceed 'in the logic of UNSCR 1441'; but it could not accept an ultimatum or any 'automaticity' of recourse to force".[^125] He proposed looking at a new resolution in line with resolution 1441, "provided that it excluded these options". President Chirac "suggested that the UNMOVIC work programme might provide a way forward. France was prepared to look at reducing the 120 day timeframe it envisaged."
 
 %%page 37%%
 
@@ -948,15 +948,15 @@ HC 264
 
 268\. Mr Blair said, "every avenue must be explored".
 
-269\. In the subsequent conversation with President Bush about the French position and what to say when the resolution was pulled, Mr Blair proposed that they would need to show that France would not authorise the use of force in any circumstances.126
+269\. In the subsequent conversation with President Bush about the French position and what to say when the resolution was pulled, Mr Blair proposed that they would need to show that France would not authorise the use of force in any circumstances.[^126]
 
-270\. President Lagos initially informed Mr Blair on 14 March that the UK proposals did not have Chile's support and that he was working on other ideas.127 He subsequently informed Mr Blair that he would not pursue his proposals unless Mr Blair or President Bush asked him to.
+270\. President Lagos initially informed Mr Blair on 14 March that the UK proposals did not have Chile's support and that he was working on other ideas.[^127] He subsequently informed Mr Blair that he would not pursue his proposals unless Mr Blair or President Bush asked him to.
 
-271\. Mr Tony Brenton, Chargé d'Affaires, British Embassy Washington, reported that President Bush was determined to remove Saddam Hussein and to stick to the US timetable for action. The UK's "steadfastness" had been "invaluable" in bringing in other countries in support of action.128
+271\. Mr Tony Brenton, Chargé d'Affaires, British Embassy Washington, reported that President Bush was determined to remove Saddam Hussein and to stick to the US timetable for action. The UK's "steadfastness" had been "invaluable" in bringing in other countries in support of action.[^128]
 
-272\. In a declaration on 15 March, France, with Germany and Russia, attempted to secure support in the Security Council for continued inspections.129
+272\. In a declaration on 15 March, France, with Germany and Russia, attempted to secure support in the Security Council for continued inspections.[^129]
 
-273\. At the Azores Summit on 16 March, President Bush, Mr Blair and Prime Minister José María Aznar of Spain agreed that, unless there was a fundamental change in the next 24 hours, the UN process would end.130
+273\. At the Azores Summit on 16 March, President Bush, Mr Blair and Prime Minister José María Aznar of Spain agreed that, unless there was a fundamental change in the next 24 hours, the UN process would end.[^130]
 
 274\. In public, the focus was on a "last chance for peace". The joint communiqué contained a final appeal to Saddam Hussein to comply with his obligations and to the Security Council to back a second resolution containing an ultimatum.
 
@@ -966,15 +966,15 @@ HC 264
 
 > "So when I look back ... I know there was never any way Britain was not going to be with the US at that moment, once we went down the UN route and Saddam was in breach. Of course such a statement is always subject to in extremis correction. A crazy act of aggression? No, we would not have supported that. But given the history, you couldn't call Saddam a crazy target.
 
-> "Personally I have little doubt that at some point we would have to have dealt with him ..."131
+> "Personally I have little doubt that at some point we would have to have dealt with him ..."[^131]
 
-276\. At "about 3.15pm UK time" on 17 March, Sir Jeremy Greenstock announced that the resolution would not be put to a vote, stating that the co‑sponsors reserved the right to take their own steps to secure the disarmament of Iraq.132
+276\. At "about 3.15pm UK time" on 17 March, Sir Jeremy Greenstock announced that the resolution would not be put to a vote, stating that the co‑sponsors reserved the right to take their own steps to secure the disarmament of Iraq.[^132]
 
-277\. The subsequent discussion in the Council suggested that only the UK, the US, and Spain took the view that all options other than the use of military force had been exhausted.133
+277\. The subsequent discussion in the Council suggested that only the UK, the US, and Spain took the view that all options other than the use of military force had been exhausted.[^133]
 
-278\. A specially convened Cabinet at 1600 on 17 March 2003 endorsed the decision that the diplomatic process was now at an end and Saddam Hussein should be given an ultimatum to leave Iraq; and that the House of Commons would be asked to endorse the use of military action against Iraq to enforce compliance, if necessary.134
+278\. A specially convened Cabinet at 1600 on 17 March 2003 endorsed the decision that the diplomatic process was now at an end and Saddam Hussein should be given an ultimatum to leave Iraq; and that the House of Commons would be asked to endorse the use of military action against Iraq to enforce compliance, if necessary.[^134]
 
-279\. In his statement to the House of Commons that evening, Mr Straw said that the Government had reluctantly concluded that France's actions had put a consensus in the Security Council on a further resolution "beyond reach".135
+279\. In his statement to the House of Commons that evening, Mr Straw said that the Government had reluctantly concluded that France's actions had put a consensus in the Security Council on a further resolution "beyond reach".[^135]
 
 280\. As a result of Saddam Hussein's persistent refusal to meet the UN's demands, the Cabinet had decided to ask the House of Commons to support the UK's participation in military action, should that be necessary to achieve the disarmament of Iraq "and thereby the maintenance of the authority of the United Nations".
 
@@ -982,41 +982,41 @@ HC 264
 
 282\. Mr Straw drew attention to the significance of the fact that no one "in discussions in the Security Council and outside" had claimed that Iraq was in full compliance with its obligations.
 
-283\. In a statement later that evening, Mr Robin Cook, the Leader of the House of Commons, set out his doubts about the degree to which Saddam Hussein posed a "clear and present danger" and his concerns that the UK was being "pushed too quickly into conflict" by the US without the support of the UN and in the face of hostility from many of the UK's traditional allies.136
+283\. In a statement later that evening, Mr Robin Cook, the Leader of the House of Commons, set out his doubts about the degree to which Saddam Hussein posed a "clear and present danger" and his concerns that the UK was being "pushed too quickly into conflict" by the US without the support of the UN and in the face of hostility from many of the UK's traditional allies.[^136]
 
 %%page 39%%
 
 284\. On 17 March, President Bush issued an ultimatum giving Saddam Hussein 48 hours to leave Iraq.
 
-285\. The French President's office issued a statement early on 18 March stating that the US ultimatum was a unilateral decision going against the will of the international community who wanted to pursue Iraqi disarmament in accordance with resolution 1441.137 It stated:
+285\. The French President's office issued a statement early on 18 March stating that the US ultimatum was a unilateral decision going against the will of the international community who wanted to pursue Iraqi disarmament in accordance with resolution 1441.[^137] It stated:
 
 > "... only the Security Council is authorised to legitimise the use of force. France appeals to the responsibility of all to see that international legality is respected. To disregard the legitimacy of the UN, to favour force over the law, would be to take on a heavy responsibility."
 
 286\. On the evening of 18 March, the House of Commons passed by 412 votes to 149 a motion supporting "the decision of Her Majesty's Government that the United Kingdom should use all means necessary to ensure the disarmament of Iraq's weapons of mass destruction".
 
-287\. President Bush wrote in his memoir that he convened "the entire National Security Council" on the morning of 19 March where he "gave the order to launch Operation Iraqi Freedom".138
+287\. President Bush wrote in his memoir that he convened "the entire National Security Council" on the morning of 19 March where he "gave the order to launch Operation Iraqi Freedom".[^138]
 
-288\. In the Security Council debate on 19 March, the majority of members of the Security Council, including France, Russia and China, made clear that they thought the goal of disarming Iraq could be achieved by peaceful means and emphasised the primary responsibility of the Security Council for the maintenance of international peace and security.139
+288\. In the Security Council debate on 19 March, the majority of members of the Security Council, including France, Russia and China, made clear that they thought the goal of disarming Iraq could be achieved by peaceful means and emphasised the primary responsibility of the Security Council for the maintenance of international peace and security.[^139]
 
 289\. UNMOVIC and the IAEA had provided the work programmes required by resolution 1284. They included 12 key tasks identified by UNMOVIC where progress "could have an impact on the Council's assessment of co‑operation of Iraq".
 
-290\. Shortly before midnight on 19 March, the US informed Sir David Manning that there was to be a change to the plan and US airstrikes would be launched at 0300 GMT on 20 March.140
+290\. Shortly before midnight on 19 March, the US informed Sir David Manning that there was to be a change to the plan and US airstrikes would be launched at 0300 GMT on 20 March.[^140]
 
 %%page 40%%
 
-291\. Early on the morning of 20 March, US forces crossed into Iraq and seized the port area of Umm Qasr.141
+291\. Early on the morning of 20 March, US forces crossed into Iraq and seized the port area of Umm Qasr.[^141]
 
 292\. Mr Blair continued to state that France was responsible for the impasse.
 
 293\. At Cabinet on 20 March, Mr Blair concluded that the Government:
 
-> "... should lose no opportunity to propagate the reason, at every level and as widely as possible, why we had arrived at a diplomatic impasse, and why it was necessary to take action against Iraq. France had not been prepared to accept that Iraq's failure to comply with its obligations should lead to the use of force to achieve compliance."142
+> "... should lose no opportunity to propagate the reason, at every level and as widely as possible, why we had arrived at a diplomatic impasse, and why it was necessary to take action against Iraq. France had not been prepared to accept that Iraq's failure to comply with its obligations should lead to the use of force to achieve compliance."[^142]
 
 ### Why Iraq? Why now?
 
-294\. In his memoir, Mr Blair described his speech opening the debate on 18 March as "the most important speech I had ever made".143
+294\. In his memoir, Mr Blair described his speech opening the debate on 18 March as "the most important speech I had ever made".[^143]
 
-295\. Mr Blair framed the decision for the House of Commons as a "tough" and "stark" choice between "retreat" and holding firm to the course of action the Government had set. Mr Blair stated that he believed "passionately" in the latter. He deployed a wide range of arguments to explain the grounds for military action and to make a persuasive case for the Government's policy.144
+295\. Mr Blair framed the decision for the House of Commons as a "tough" and "stark" choice between "retreat" and holding firm to the course of action the Government had set. Mr Blair stated that he believed "passionately" in the latter. He deployed a wide range of arguments to explain the grounds for military action and to make a persuasive case for the Government's policy.[^144]
 
 296\. In setting out his position, Mr Blair recognised the gravity of the debate and the strength of opposition in both the country and Parliament to immediate military action. In his view, the issue mattered "so much" because the outcome would not just determine the fate of the Iraqi regime and the Iraqi people but would:
 
@@ -1042,7 +1042,7 @@ HC 264
 
 302\. Addressing the wider message from the issue of Iraq, Mr Blair asked:
 
-> "... what ... would any tyrannical regime possessing weapons of mass destruction think when viewing the history of the world's diplomatic dance with Saddam over ...[^12] years? That our capacity to pass firm resolutions has only been matched by our feebleness in implementing them."
+> "... what ... would any tyrannical regime possessing weapons of mass destruction think when viewing the history of the world's diplomatic dance with Saddam over ... 12 years? That our capacity to pass firm resolutions has only been matched by our feebleness in implementing them."
 
 303\. Mr Blair acknowledged that Iraq was "not the only country with weapons of mass destruction", but declared: "back away from this confrontation now, and future conflicts will be infinitely worse and more devastating in their effects".
 
@@ -1089,21 +1089,21 @@ HC 264
 > - "With common enemies ... there was clearly scope for collaboration."
 > - There was "no evidence that these contacts led to practical co‑operation; we judge it unlikely ... There is no evidence UBL's organisation has ever had a presence in Iraq."
 > - Practical co‑operation between Iraq and Al Qaida was "unlikely because of mutual mistrust".
-> - There was "no credible evidence of covert transfers of WMD‑related technology and expertise to terrorist groups".145
+> - There was "no credible evidence of covert transfers of WMD‑related technology and expertise to terrorist groups".[^145]
 
-314\. On 29 January 2003, the JIC assessed that, despite the presence of terrorists in Iraq "with links to Al Qaida", there was "no intelligence of current co‑operation between Iraq and Al Qaida".146
+314\. On 29 January 2003, the JIC assessed that, despite the presence of terrorists in Iraq "with links to Al Qaida", there was "no intelligence of current co‑operation between Iraq and Al Qaida".[^146]
 
-315\. On 10 February 2003, the JIC judged that Al Qaida would "not carry out attacks under Iraqi direction".147
+315\. On 10 February 2003, the JIC judged that Al Qaida would "not carry out attacks under Iraqi direction".[^147]
 
 %%page 44%%
 
 316\. Sir Richard Dearlove told the Inquiry:
 
-> "... I don't think the Prime Minister ever accepted the link between Iraq and terrorism. I think it would be fair to say that the Prime Minister was very worried about the possible conjunction of terrorism and WMD, but not specifically in relation to Iraq ... [I] think, one could say this is one of his primary national security concerns given the nature of Al Qaida."148
+> "... I don't think the Prime Minister ever accepted the link between Iraq and terrorism. I think it would be fair to say that the Prime Minister was very worried about the possible conjunction of terrorism and WMD, but not specifically in relation to Iraq ... [I] think, one could say this is one of his primary national security concerns given the nature of Al Qaida."[^148]
 
 317\. The JIC assessed that Iraq was likely to mount a terrorist attack only in response to military action and if the existence of the regime was threatened.
 
-318\. The JIC Assessment of 10 October 2002 stated that Saddam Hussein's "overriding objective" was to "avoid a US attack that would threaten his regime".149 The JIC judged that, in the event of US‑led military action against Iraq, Saddam would:
+318\. The JIC Assessment of 10 October 2002 stated that Saddam Hussein's "overriding objective" was to "avoid a US attack that would threaten his regime".[^149] The JIC judged that, in the event of US‑led military action against Iraq, Saddam would:
 
 > "... aim to use terrorism or the threat of it. Fearing the US response, he is likely to weigh the costs and benefits carefully in deciding the timing and circumstances in which terrorism is used. But intelligence on Iraq's capabilities and intentions in this field is limited."
 
@@ -1112,15 +1112,15 @@ HC 264
 > - Saddam's "capability to conduct effective terrorist attacks" was "very limited".
 > - Iraq's "terrorism capability" was "inadequate to carry out chemical or biological attacks beyond individual assassination attempts using poisons".
 
-320\. The JIC Assessment of 29 January 2003 sustained its earlier judgements on Iraq's ability and intent to conduct terrorist operations.150
+320\. The JIC Assessment of 29 January 2003 sustained its earlier judgements on Iraq's ability and intent to conduct terrorist operations.[^150]
 
-321\. Sir David Omand, the Security and Intelligence Co‑ordinator in the Cabinet Office from 2002 to 2005, told the Inquiry that, in March 2002, the Security Service judged that the "threat from terrorism from Saddam's own intelligence apparatus in the event of an intervention in Iraq ... was judged to be limited and containable".151
+321\. Sir David Omand, the Security and Intelligence Co‑ordinator in the Cabinet Office from 2002 to 2005, told the Inquiry that, in March 2002, the Security Service judged that the "threat from terrorism from Saddam's own intelligence apparatus in the event of an intervention in Iraq ... was judged to be limited and containable".[^151]
 
-322\. Baroness Manningham‑Buller, the Director General of the Security Service from 2002 to 2007, confirmed that position, stating that the Security Service felt there was "a pretty good intelligence picture of a threat from Iraq within the UK and to British interests".152
+322\. Baroness Manningham‑Buller, the Director General of the Security Service from 2002 to 2007, confirmed that position, stating that the Security Service felt there was "a pretty good intelligence picture of a threat from Iraq within the UK and to British interests".[^152]
 
 %%page 45%%
 
-323\. Baroness Manningham‑Buller added that subsequent events showed the judgement that Saddam Hussein did not have the capability to do anything much in the UK, had "turned out to be the right judgement".153
+323\. Baroness Manningham‑Buller added that subsequent events showed the judgement that Saddam Hussein did not have the capability to do anything much in the UK, had "turned out to be the right judgement".[^153]
 
 324\. While it was reasonable for the Government to be concerned about the fusion of proliferation and terrorism, there was no basis in the JIC Assessments to suggest that Iraq itself represented such a threat.
 
@@ -1135,7 +1135,7 @@ HC 264
 > - "... we are asked to believe that after seven years of obstruction and non‑compliance ... he [Saddam Hussein] voluntarily decided to do what he had consistently refused to do under coercion."
 > - "We are asked now seriously to accept that in the last few years – contrary to all history, contrary to all intelligence – Saddam decided unilaterally to destroy those weapons. I say that such a claim is palpably absurd."
 > - "... Iraq continues to deny that it has any weapons of mass destruction, although no serious intelligence service anywhere in the world believes it."
-> - "What is perfectly clear is that Saddam is playing the same old games in the same old way. Yes, there are minor concessions, but there has been no fundamental change of heart or mind."154
+> - "What is perfectly clear is that Saddam is playing the same old games in the same old way. Yes, there are minor concessions, but there has been no fundamental change of heart or mind."[^154]
 
 329\. At no stage was the proposition that Iraq might no longer have chemical, biological or nuclear weapons or programmes identified and examined by either the JIC or the policy community.
 
@@ -1151,11 +1151,11 @@ HC 264
 
 > - "... neither the international community nor the British public is persuaded that there is an urgent and compelling reason for this military action in Iraq."
 > - "Over the past decade that strategy [of containment] had destroyed more weapons than in the Gulf War, dismantled Iraq's nuclear weapons programme and halted Saddam's medium and long range missile programmes."
-> - "Iraq probably has no weapons of mass destruction in the commonly understood sense of the term – namely a credible device capable of being delivered against a strategic city target. It probably ... has biological toxins and battlefield chemical munitions, but it has had them since the 1980s when US companies sold Saddam anthrax agents and the then British Government approved chemical and munitions factories. Why is it now so urgent that we should take military action to disarm a military capacity that has been there for twenty years, and which we helped to create? Why is it necessary to resort to war this week, while Saddam's ambition to complete his weapons programme is blocked by the presence of UN inspectors?"155
+> - "Iraq probably has no weapons of mass destruction in the commonly understood sense of the term – namely a credible device capable of being delivered against a strategic city target. It probably ... has biological toxins and battlefield chemical munitions, but it has had them since the 1980s when US companies sold Saddam anthrax agents and the then British Government approved chemical and munitions factories. Why is it now so urgent that we should take military action to disarm a military capacity that has been there for twenty years, and which we helped to create? Why is it necessary to resort to war this week, while Saddam's ambition to complete his weapons programme is blocked by the presence of UN inspectors?"[^155]
 
 334\. On 12 October 2004, announcing the withdrawal of two lines of intelligence reporting which had contributed to the pre‑conflict judgements on mobile biological production facilities and the regime's intentions, Mr Straw stated that he did:
 
-> "... not accept, even with hindsight, that we were wrong to act as we did in the circumstances that we faced at the time. Even after reading all the evidence detailed by the Iraq Survey Group, it is still hard to believe that any regime could behave in so self‑destructive a manner as to pretend that it had forbidden weaponry, when in fact it had not."156
+> "... not accept, even with hindsight, that we were wrong to act as we did in the circumstances that we faced at the time. Even after reading all the evidence detailed by the Iraq Survey Group, it is still hard to believe that any regime could behave in so self‑destructive a manner as to pretend that it had forbidden weaponry, when in fact it had not."[^156]
 
 %%page 47%%
 
@@ -1180,24 +1180,24 @@ HC 264
 
 341\. Asked about the risk that attacking Iraq with cruise missiles would "act as a recruiting sergeant for a young generation throughout the Islamic and Arab world", Mr Blair responded that:
 
-> "... what was shocking about 11 September was not just the slaughter of innocent people but the knowledge that, had the terrorists been able, there would have been not 3,000 innocent dead, but 30,000 or 300,000 ... America did not attack the Al Qaida terrorist group ... [it] attacked America. They did not need to be recruited ... Unless we take action against them, they will grow. That is why we should act."157
+> "... what was shocking about 11 September was not just the slaughter of innocent people but the knowledge that, had the terrorists been able, there would have been not 3,000 innocent dead, but 30,000 or 300,000 ... America did not attack the Al Qaida terrorist group ... [it] attacked America. They did not need to be recruited ... Unless we take action against them, they will grow. That is why we should act."[^157]
 
 %%page 48%%
 
-342\. The JIC judged in October 2002 that "the greatest terrorist threat in the event of military action against Iraq will come from Al Qaida and other Islamic extremists"; and they would be "pursuing their own agenda".158
+342\. The JIC judged in October 2002 that "the greatest terrorist threat in the event of military action against Iraq will come from Al Qaida and other Islamic extremists"; and they would be "pursuing their own agenda".[^158]
 
 343\. The JIC Assessment of 10 February 2003 repeated previous warnings that:
 
 > - Al Qaida and associated networks would remain the greatest terrorist threat to the UK and its activity would increase at the onset of any military action against Iraq.
-> - In the event of imminent regime collapse, Iraqi chemical and biological material could be transferred to terrorists, including Al Qaida.159
+> - In the event of imminent regime collapse, Iraqi chemical and biological material could be transferred to terrorists, including Al Qaida.[^159]
 
 344\. Addressing the prospects for the future, the JIC Assessment concluded:
 
 > "... Al Qaida and associated groups will continue to represent by far the greatest terrorist threat to Western interests, and that threat will be heightened by military action against Iraq. The broader threat from Islamist terrorists will also increase in the event of war, reflecting intensified anti‑US/anti‑Western sentiment in the Muslim world, including among Muslim communities in the West. And there is a risk that the transfer of CB [chemical and biological] material or expertise, during or in the aftermath of conflict, will enhance Al Qaida's capabilities."
 
-345\. In response to a call for Muslims everywhere to take up arms in defence of Iraq issued by Usama Bin Laden on 11 February, and a further call on 16 February for "compulsory jihad" by Muslims against the West, the JIC Assessment on 19 February predicted that the upward trend in the reports of threats to the UK was likely to continue.160
+345\. In response to a call for Muslims everywhere to take up arms in defence of Iraq issued by Usama Bin Laden on 11 February, and a further call on 16 February for "compulsory jihad" by Muslims against the West, the JIC Assessment on 19 February predicted that the upward trend in the reports of threats to the UK was likely to continue.[^160]
 
-346\. The JIC continued to warn in March that the threat from Al Qaida would increase at the onset of military action against Iraq.161
+346\. The JIC continued to warn in March that the threat from Al Qaida would increase at the onset of military action against Iraq.[^161]
 
 347\. The JIC also warned that:
 
@@ -1206,19 +1206,19 @@ HC 264
 
 %%page 49%%
 
-348\. The warning about the risk of chemical and biological weapons becoming available to extremist groups as a result of military action in Iraq was reiterated on 19 March.162
+348\. The warning about the risk of chemical and biological weapons becoming available to extremist groups as a result of military action in Iraq was reiterated on 19 March.[^162]
 
 349\. Addressing the JIC Assessment of 10 February 2003, Mr Blair told the Intelligence and Security Committee (ISC) later that year that:
 
-> "One of the most difficult aspects of this is that there was obviously a danger that in attacking Iraq you ended up provoking the very thing you were trying to avoid. On the other hand I think you had to ask the question, 'Could you really, as a result of that fear, leave the possibility that in time developed into a nexus between terrorism and WMD in an event?' This is where you've just got to make your judgement about this. But this is my judgement and it remains my judgement and I suppose time will tell whether it's true or it's not true."163
+> "One of the most difficult aspects of this is that there was obviously a danger that in attacking Iraq you ended up provoking the very thing you were trying to avoid. On the other hand I think you had to ask the question, 'Could you really, as a result of that fear, leave the possibility that in time developed into a nexus between terrorism and WMD in an event?' This is where you've just got to make your judgement about this. But this is my judgement and it remains my judgement and I suppose time will tell whether it's true or it's not true."[^163]
 
 350\. In its response to the ISC Report, the Government drew:
 
-> "... attention to the difficult judgement that had to be made and the factors on both sides of the argument to be taken into account."164
+> "... attention to the difficult judgement that had to be made and the factors on both sides of the argument to be taken into account."[^164]
 
 351\. Baroness Manningham‑Buller told the Inquiry:
 
-> "By 2003/2004 we were receiving an increasing number of leads to terrorist activity from within the UK ... our involvement in Iraq radicalised, for want of a better word ... a few among a generation ... [who] saw our involvement in Iraq, on top of our involvement in Afghanistan, as being an attack on Islam."165
+> "By 2003/2004 we were receiving an increasing number of leads to terrorist activity from within the UK ... our involvement in Iraq radicalised, for want of a better word ... a few among a generation ... [who] saw our involvement in Iraq, on top of our involvement in Afghanistan, as being an attack on Islam."[^165]
 
 352\. Asked about the proposition that it was right to remove Saddam Hussein's regime to forestall a fusion of weapons of mass destruction and international terrorism at some point in the future, and if it had eliminated a threat of terrorism from his regime, Baroness Manningham‑Buller replied:
 
@@ -1228,23 +1228,23 @@ HC 264
 
 %%page 50%%
 
-> In that respect, I don't think toppling Saddam Hussein is germane to the long‑term ambitions of some terrorist groups to use them."166
+> In that respect, I don't think toppling Saddam Hussein is germane to the long‑term ambitions of some terrorist groups to use them."[^166]
 
 353\. Asked specifically about the theory that at some point in the future Saddam Hussein would probably have brought together international terrorism and weapons of mass destruction in a threat to Western interests, Baroness Manningham‑Buller responded:
 
-> "It is a hypothetical theory. It certainly wasn't of concern in either the short‑term or the medium‑term to my colleagues and myself."167
+> "It is a hypothetical theory. It certainly wasn't of concern in either the short‑term or the medium‑term to my colleagues and myself."[^167]
 
-354\. Asked if "a war in Iraq would aggravate the threat from whatever source to the United Kingdom", Baroness Manningham‑Buller stated that that was the view communicated by the JIC Assessments.168
+354\. Asked if "a war in Iraq would aggravate the threat from whatever source to the United Kingdom", Baroness Manningham‑Buller stated that that was the view communicated by the JIC Assessments.[^168]
 
-355\. Baroness Manningham‑Buller subsequently added that if Ministers had read the JIC Assessments they could "have had no doubt" about that risk.169 She said that by the time of the July 2005 attacks in London:
+355\. Baroness Manningham‑Buller subsequently added that if Ministers had read the JIC Assessments they could "have had no doubt" about that risk.[^169] She said that by the time of the July 2005 attacks in London:
 
 > "... an increasing number of British‑born individuals ... were attracted to the ideology of Usama Bin Laden and saw the West's activities in Iraq and Afghanistan as threatening their fellow religionists and the Muslim world."
 
 356\. Asked whether the judgement that the effect of the invasion of Iraq had increased the terrorist threat to the UK was based on hard evidence or a broader assessment, Baroness Manningham‑Buller replied:
 
-> "I think we can produce evidence because of the numerical evidence of the number of plots, the number of leads, the number of people identified, and the correlation of that to Iraq and statements of people as to why they were involved ... So I think the answer to your ... question: yes."170
+> "I think we can produce evidence because of the numerical evidence of the number of plots, the number of leads, the number of people identified, and the correlation of that to Iraq and statements of people as to why they were involved ... So I think the answer to your ... question: yes."[^170]
 
-357\. In its request for a statement, the Inquiry asked Mr Blair if he had read the JIC Assessment of 10 February 2002, and what weight he had given to it when he decided to take military action.171
+357\. In its request for a statement, the Inquiry asked Mr Blair if he had read the JIC Assessment of 10 February 2002, and what weight he had given to it when he decided to take military action.[^171]
 
 358\. In his statement Mr Blair wrote:
 
@@ -1252,7 +1252,7 @@ HC 264
 
 %%page 51%%
 
-> In any event, following 9/11 and Afghanistan we were a terrorist target and, as recent events in Europe and the US show, irrespective of Iraq, there are ample justifications such terrorists will use as excuses for terrorism."172
+> In any event, following 9/11 and Afghanistan we were a terrorist target and, as recent events in Europe and the US show, irrespective of Iraq, there are ample justifications such terrorists will use as excuses for terrorism."[^172]
 
 ### The UK's relationship with the US
 
@@ -1279,7 +1279,7 @@ HC 264
 
 367\. First, the close strategic alliance with the US has been a cornerstone of the UK's foreign and security policy under successive governments since the Second World War. Mr Blair rightly attached great importance to preserving and strengthening it.
 
-368\. After the attacks on the US on 11 September 2001, that relationship was reinforced when Mr Blair declared that the UK would stand "shoulder to shoulder" with the US to defeat and eradicate international terrorism.173 The action that followed in Afghanistan to bring about the fall of the Taliban served to strengthen and deepen the sense of shared endeavour.
+368\. After the attacks on the US on 11 September 2001, that relationship was reinforced when Mr Blair declared that the UK would stand "shoulder to shoulder" with the US to defeat and eradicate international terrorism.[^173] The action that followed in Afghanistan to bring about the fall of the Taliban served to strengthen and deepen the sense of shared endeavour.
 
 369\. When the US Administration turned its attention to regime change in Iraq as part of the second phase of the "Global War on Terror", Mr Blair's immediate response was to seek to offer a partnership and to work with it to build international support for the position that Iraq was a threat which had to be dealt with.
 
@@ -1289,9 +1289,9 @@ HC 264
 
 371\. In his memoir in 2010, Mr Blair wrote:
 
-> "I knew in the final analysis I would be with the US, because it was right morally and strategically. But we should make a last ditch attempt for a peaceful solution. First to make the moral case for removing Saddam ... Second, to try one more time to reunite the international community behind a clear base for action in the event of a continuing breach."174
+> "I knew in the final analysis I would be with the US, because it was right morally and strategically. But we should make a last ditch attempt for a peaceful solution. First to make the moral case for removing Saddam ... Second, to try one more time to reunite the international community behind a clear base for action in the event of a continuing breach."[^174]
 
-372\. Concern about the consequences, were the UK not to give full support to the US, featured prominently in policy calculations across Whitehall. Mr Hoon, for example, sought advice from Sir Kevin Tebbit, MOD Permanent Under Secretary, on the implications for the alliance of the UK's approach to Iraq.175
+372\. Concern about the consequences, were the UK not to give full support to the US, featured prominently in policy calculations across Whitehall. Mr Hoon, for example, sought advice from Sir Kevin Tebbit, MOD Permanent Under Secretary, on the implications for the alliance of the UK's approach to Iraq.[^175]
 
 373\. Although there has historically been a very close relationship between the British and American peoples and a close identity of values between our democracies, it is an alliance founded not on emotion, but on a hard‑headed appreciation of mutual benefit. The benefits do not by any means flow only in one direction.
 
@@ -1323,13 +1323,13 @@ HC 264
 
 384\. Mr Jonathan Powell, Mr Blair's Chief of Staff, told the Inquiry:
 
-> "... the Prime Minister had a habit of writing notes, both internally and to President Clinton and to President Bush, on all sorts of subjects, because he found it better to put something in writing rather than to simply talk about it orally and get it much more concretely ... in focused terms."176
+> "... the Prime Minister had a habit of writing notes, both internally and to President Clinton and to President Bush, on all sorts of subjects, because he found it better to put something in writing rather than to simply talk about it orally and get it much more concretely ... in focused terms."[^176]
 
 385\. Mr Blair drew on information and briefing received from Whitehall departments, but evidently drafted many or most of his Notes to the President himself, showing the drafts to his close advisers in No.10 but not (ahead of despatch) to the relevant Cabinet Ministers.
 
 386\. How best to exercise influence with the President of the United States is a matter for the tactical judgement of the Prime Minister, and will vary between Prime Ministers and Presidents. In relation to Iraq, Mr Blair's judgement, as he and others have explained, was that objectives the UK identified for a successful strategy should not be expressed as conditions for its support.
 
-387\. Mr Powell told the Inquiry that Mr Blair was offering the US a "partnership to try to get to a wide coalition" and "setting out a framework" and to try to persuade the US to move in a particular direction.177
+387\. Mr Powell told the Inquiry that Mr Blair was offering the US a "partnership to try to get to a wide coalition" and "setting out a framework" and to try to persuade the US to move in a particular direction.[^177]
 
 388\. Mr Blair undoubtedly influenced the President's decision to go to the UN Security Council in the autumn of 2002. On other critical decisions set out in the Report, he did not succeed in changing the approach determined in Washington.
 
@@ -1345,11 +1345,11 @@ HC 264
 
 ### Collective responsibility
 
-392\. Under UK constitutional conventions – in which the Prime Minister leads the Government – Cabinet is the main mechanism by which the most senior members of the Government take collective responsibility for its most important decisions. Cabinet is supported by a system of Ministerial Committees whose role is to identify, test and develop policy options; analyse and mitigate risks; and debate and hone policy proposals until they are endorsed across the Government.178
+392\. Under UK constitutional conventions – in which the Prime Minister leads the Government – Cabinet is the main mechanism by which the most senior members of the Government take collective responsibility for its most important decisions. Cabinet is supported by a system of Ministerial Committees whose role is to identify, test and develop policy options; analyse and mitigate risks; and debate and hone policy proposals until they are endorsed across the Government.[^178]
 
 393\. The Ministerial Code in place in 2003 said:
 
-> "The Cabinet is supported by Ministerial Committees (both standing and ad hoc) which have a two‑fold purpose. First, they relieve the pressure on the Cabinet itself by settling as much business as possible at a lower level or, failing that, by clarifying the issues and defining the points of disagreement. Second, they support the principle of collective responsibility by ensuring that, even though an important question may never reach the Cabinet itself, the decision will be fully considered and the final judgement will be sufficiently authoritative to ensure that the Government as a whole can properly be expected to accept responsibility for it."179
+> "The Cabinet is supported by Ministerial Committees (both standing and ad hoc) which have a two‑fold purpose. First, they relieve the pressure on the Cabinet itself by settling as much business as possible at a lower level or, failing that, by clarifying the issues and defining the points of disagreement. Second, they support the principle of collective responsibility by ensuring that, even though an important question may never reach the Cabinet itself, the decision will be fully considered and the final judgement will be sufficiently authoritative to ensure that the Government as a whole can properly be expected to accept responsibility for it."[^179]
 
 394\. The Code also said:
 
@@ -1357,43 +1357,43 @@ HC 264
 
 > a. questions which significantly engage the collective responsibility of the Government because they raise major issues of policy or because they are of critical importance to the public; b. questions on which there is an unresolved argument between Departments."
 
-395\. Lord Wilson of Dinton told the Inquiry that between January 1998 and January 1999, in the run‑up to and immediate aftermath of Operation Desert Fox in December 1998 (see Section 1.1), as Cabinet Secretary, he had attended and noted 21 Ministerial discussions on Iraq:[^10] in Cabinet, of which seven had "some substance"; five in DOP; and six ad hoc meetings, including one JIC briefing.180 Discussions in Cabinet or a Cabinet Committee would have been supported by the relevant part of the Cabinet Secretariat, the Overseas and Defence Secretariat (OD Sec).
+395\. Lord Wilson of Dinton told the Inquiry that between January 1998 and January 1999, in the run‑up to and immediate aftermath of Operation Desert Fox in December 1998 (see Section 1.1), as Cabinet Secretary, he had attended and noted 21 Ministerial discussions on Iraq: 10 in Cabinet, of which seven had "some substance"; five in DOP; and six ad hoc meetings, including one JIC briefing.[^180] Discussions in Cabinet or a Cabinet Committee would have been supported by the relevant part of the Cabinet Secretariat, the Overseas and Defence Secretariat (OD Sec).
 
 %%page 56%%
 
-396\. Similarly, Lord Wilson stated that, between 11 September 2001 and January 2002, the Government's response to international terrorism and the subsequent military action against the Taliban in Afghanistan had been managed through 46 Ministerial meetings.181
+396\. Similarly, Lord Wilson stated that, between 11 September 2001 and January 2002, the Government's response to international terrorism and the subsequent military action against the Taliban in Afghanistan had been managed through 46 Ministerial meetings.[^181]
 
-397\. The last meeting of DOP on Iraq before the 2003 conflict, however, took place in March 1999.182
+397\. The last meeting of DOP on Iraq before the 2003 conflict, however, took place in March 1999.[^182]
 
 398\. In April 2002, the MOD clearly expected consideration of military options to be addressed through DOP. Mr Simon Webb, the MOD Policy Director, advised Mr Hoon that:
 
-> "Even these preparatory steps would properly need a Cabinet Committee decision, based on a minute from the Defence Secretary ..."183
+> "Even these preparatory steps would properly need a Cabinet Committee decision, based on a minute from the Defence Secretary ..."[^183]
 
 399\. Most decisions on Iraq pre‑conflict were taken either bilaterally between Mr Blair and the relevant Secretary of State or in meetings between Mr Blair, Mr Straw and Mr Hoon, with No.10 officials and, as appropriate, Mr John Scarlett (Chairman of the JIC), Sir Richard Dearlove and Adm Boyce. Some of those meetings were minuted; some were not.
 
-400\. As the guidance for the Cabinet Secretariat makes clear, the purpose of the minute of a meeting is to set out the conclusions reached so that those who have to take action know precisely what to do; the second purpose is to "give the reasons why the conclusions were reached".184
+400\. As the guidance for the Cabinet Secretariat makes clear, the purpose of the minute of a meeting is to set out the conclusions reached so that those who have to take action know precisely what to do; the second purpose is to "give the reasons why the conclusions were reached".[^184]
 
 401\. Lord Turnbull, Cabinet Secretary from 2002 to 2005, described Mr Blair's characteristic way of working with his Cabinet colleagues as:
 
-> "… 'I like to move fast. I don't want to spend a lot of time in kind of conflict resolution, and, therefore, I will get the people who will make this thing move quickly and efficiently.' That was his sort of characteristic style, but it has drawbacks."185
+> "… 'I like to move fast. I don't want to spend a lot of time in kind of conflict resolution, and, therefore, I will get the people who will make this thing move quickly and efficiently.' That was his sort of characteristic style, but it has drawbacks."[^185]
 
-402\. Lord Turnbull subsequently told the Inquiry that the group described above was "a professional forum ... they had ... with one possible exception [Ms Clare Short, the International Development Secretary], the right people in the room. It wasn't the kind of sofa government in the sense of the Prime Minister and his special advisers and political cronies".186
+402\. Lord Turnbull subsequently told the Inquiry that the group described above was "a professional forum ... they had ... with one possible exception [Ms Clare Short, the International Development Secretary], the right people in the room. It wasn't the kind of sofa government in the sense of the Prime Minister and his special advisers and political cronies".[^186]
 
 %%page 57%%
 
 403\. In July 2004, Lord Butler's Report stated that his Committee was:
 
-> "... concerned that the informality and circumscribed character of the Government's procedures which we saw in the context of policy‑making towards Iraq risks reducing the scope for informed collective political judgement. Such risks are particularly significant in a field like the subject of our Review, where hard facts are inherently difficult to come by and the quality of judgement is accordingly all the more important."187
+> "... concerned that the informality and circumscribed character of the Government's procedures which we saw in the context of policy‑making towards Iraq risks reducing the scope for informed collective political judgement. Such risks are particularly significant in a field like the subject of our Review, where hard facts are inherently difficult to come by and the quality of judgement is accordingly all the more important."[^187]
 
 404\. In response, Mr Blair agreed that:
 
-> "... where a small group is brought together to work on operational military planning and developing the diplomatic strategy, in future such a group will operate formally as an ad hoc Cabinet Committee."188
+> "... where a small group is brought together to work on operational military planning and developing the diplomatic strategy, in future such a group will operate formally as an ad hoc Cabinet Committee."[^188]
 
 405\. The Inquiry considers that where policy options include significant military deployments, particularly where they will have implications for the responsibilities of more than one Cabinet Minister, are likely to be controversial, and/or are likely to give rise to significant risks, the options should be considered by a group of Ministers meeting regularly, whether or not they are formally designated as a Cabinet Committee, so that Cabinet as a whole can be enabled to take informed collective decisions.
 
 406\. Describing the important function a Cabinet Committee can play, Mr Powell wrote:
 
-> "Most of the important decisions of the Blair Government were taken either in informal meetings of Ministers and officials or by Cabinet Committees ... Unlike the full Cabinet, a Cabinet Committee has the right people present, including, for example, the military Chiefs of Staff or scientific advisers, its members are well briefed, it can take as long as it likes over its discussion on the basis of well‑prepared papers, and it is independently chaired by a senior Minister with no departmental vested interest."189
+> "Most of the important decisions of the Blair Government were taken either in informal meetings of Ministers and officials or by Cabinet Committees ... Unlike the full Cabinet, a Cabinet Committee has the right people present, including, for example, the military Chiefs of Staff or scientific advisers, its members are well briefed, it can take as long as it likes over its discussion on the basis of well‑prepared papers, and it is independently chaired by a senior Minister with no departmental vested interest."[^189]
 
 407\. The Inquiry concurs with this description of the function of a Cabinet Committee when it is working well. In particular, it recognises the important function which a Minister without departmental responsibilities for the issues under consideration can play. This can provide some external challenge from experienced members of the government and mitigate any tendency towards group‑think. In the case of Iraq, for example, the inclusion of the Chancellor of the Exchequer or Deputy Prime Minister, as senior members of the Cabinet, or of Mr Cook, as a former Foreign Secretary known to have concerns about the policy, could have provided an element of challenge.
 
@@ -1424,11 +1424,11 @@ HC 264
 
 412\. Mr Powell has written that:
 
-> "... Cabinet is the right place to ratify decisions, the right place for people to raise concerns if they have not done so before, the right place for briefings by the Prime Minister and other Ministers on strategic issues, the right place to ensure political unity; but it is categorically not the right place for an informed decision on difficult and detailed policy issues."190
+> "... Cabinet is the right place to ratify decisions, the right place for people to raise concerns if they have not done so before, the right place for briefings by the Prime Minister and other Ministers on strategic issues, the right place to ensure political unity; but it is categorically not the right place for an informed decision on difficult and detailed policy issues."[^190]
 
 413\. In 2009, in a statement explaining a Cabinet decision to veto the release of minutes of one of its meetings under the Freedom of Information Act 2000, Mr Straw explained the need for frank discussion at Cabinet very cogently:
 
-> "Serious and controversial decisions must be taken with free, frank – even blunt deliberations between colleagues. Dialogue must be fearless. Ministers must have the confidence to challenge each other in private. They must ensure that decisions have been properly thought through, sounding out all possibilities before committing themselves to a course of action. They must not feel inhibited from advancing options that may be unpopular or controversial. They must not be deflected from expressing dissent by the fear that they may be held personally to account for views that are later cast aside."191
+> "Serious and controversial decisions must be taken with free, frank – even blunt deliberations between colleagues. Dialogue must be fearless. Ministers must have the confidence to challenge each other in private. They must ensure that decisions have been properly thought through, sounding out all possibilities before committing themselves to a course of action. They must not feel inhibited from advancing options that may be unpopular or controversial. They must not be deflected from expressing dissent by the fear that they may be held personally to account for views that are later cast aside."[^191]
 
 Powell J. The New Machiavelli: How to wield power in the modern world. The Bodley Head, 2010.
 
@@ -1436,11 +1436,11 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 414\. Mr Blair told the Inquiry that:
 
-> "... the discussion that we had in Cabinet was substantive discussion. We had it again and again and again, and the options were very simple. The options were: a sanctions framework that was effective; alternatively, the UN inspectors doing the job; alternatively, you have to remove Saddam. Those were the options."192
+> "... the discussion that we had in Cabinet was substantive discussion. We had it again and again and again, and the options were very simple. The options were: a sanctions framework that was effective; alternatively, the UN inspectors doing the job; alternatively, you have to remove Saddam. Those were the options."[^192]
 
 415\. Mr Blair added:
 
-> "Nobody in the Cabinet was unaware of ... what the whole issue was about. It was the thing running throughout the whole of the political mainstream at the time. There were members of the Cabinet who would challenge and disagree, but most of them agreed."193
+> "Nobody in the Cabinet was unaware of ... what the whole issue was about. It was the thing running throughout the whole of the political mainstream at the time. There were members of the Cabinet who would challenge and disagree, but most of them agreed."[^193]
 
 416\. The Inquiry has seen the minutes of 26 meetings of Cabinet between 28 February 2002 and 17 March 2003 at which Iraq was mentioned and Cabinet Secretariat notebooks. Cabinet was certainly given updates on diplomatic developments and had opportunities to discuss the general issues. The number of occasions on which there was a substantive discussion of the policy was very much more limited.
 
@@ -1450,7 +1450,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 > "... the concerns expressed in discussion were justified. It was important that the United States did not appear to be acting unilaterally. It was critically important to reinvigorate the Middle East Peace Process. Any military action taken against President Saddam Hussein's regime had to be effective. On the other hand, the Iraqi regime was in clear breach of its obligations under several United Nations Security Council resolutions. Its WMD programmes posed a threat to peace. Iraq's neighbours regarded President Saddam Hussein as a danger. The right strategy was to engage closely with the Government of the United States in order to be in a position to shape policy and its presentation. The international community should proceed in a measured but determined way to decide how to respond to the real threat represented by the Iraqi regime. No decisions to launch military action had been taken and any action taken would be in accordance with international law.
 
-"The Cabinet, 'Took note, with approval.'"194
+"The Cabinet, 'Took note, with approval.'"[^194]
 
 %%page 61%%
 
@@ -1462,11 +1462,11 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 422\. In his statement for the Inquiry, Mr Hoon wrote that by the time he joined Cabinet, in 1999:
 
-> "... the pattern of the organisation and format of Cabinet meetings was ... well established. Tony Blair was well known to be extremely concerned about leaks from Cabinet discussions ... It was my perception that, largely as a consequence of this, he did not normally expect key decisions to be made in the course of Cabinet meetings. Papers were submitted to the Cabinet Office, and in turn by the Cabinet Office to appropriate Cabinet Committees for decisions."195
+> "... the pattern of the organisation and format of Cabinet meetings was ... well established. Tony Blair was well known to be extremely concerned about leaks from Cabinet discussions ... It was my perception that, largely as a consequence of this, he did not normally expect key decisions to be made in the course of Cabinet meetings. Papers were submitted to the Cabinet Office, and in turn by the Cabinet Office to appropriate Cabinet Committees for decisions."[^195]
 
 423\. Mr Hoon wrote:
 
-> "At no time when I was serving in the Ministry of Defence were other Cabinet Ministers involved in discussions about the deployment of specific forces and the nature of their operations. Relevant details would have been circulated to 10 Downing Street or other Government departments as necessary ... I do not recall a single Cabinet level discussion of specific troop deployments and the nature of their operations."196
+> "At no time when I was serving in the Ministry of Defence were other Cabinet Ministers involved in discussions about the deployment of specific forces and the nature of their operations. Relevant details would have been circulated to 10 Downing Street or other Government departments as necessary ... I do not recall a single Cabinet level discussion of specific troop deployments and the nature of their operations."[^196]
 
 424\. The Inquiry recognises that there will be operational constraints on discussion of the details of military deployments, but that would not preclude the discussion of the principles and the implications of military options.
 
@@ -1478,13 +1478,13 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 427\. It would neither be necessary nor feasible to seek a mandate from Cabinet at each stage of a discussion. That reinforces the importance of ensuring Cabinet is kept informed as strategy evolves, is given the opportunity to raise questions and is asked to endorse key decisions. Cabinet Ministers need more information than will be available from the media, especially on sensitive issues of foreign and security policy.
 
-428\. In 2009, three former Cabinet Secretaries197 told the House of Lords Select Committee on the Constitution:
+428\. In 2009, three former Cabinet Secretaries[^197] told the House of Lords Select Committee on the Constitution:
 
-> "... each of us, as Secretary of the Cabinet, has been constantly conscious of his responsibility to the Cabinet collectively and of the need to have regard to the needs and responsibilities of the other members of the Cabinet (and indeed of other Ministers) as well of those of the Prime Minister. That has coloured our relationships with Number 10 as well as those with other Ministers and their departments."198
+> "... each of us, as Secretary of the Cabinet, has been constantly conscious of his responsibility to the Cabinet collectively and of the need to have regard to the needs and responsibilities of the other members of the Cabinet (and indeed of other Ministers) as well of those of the Prime Minister. That has coloured our relationships with Number 10 as well as those with other Ministers and their departments."[^198]
 
 429\. Lord Turnbull told the Inquiry that Mr Blair:
 
-> "... wanted a step change in the work on delivery and reform, which I hope I managed to give him. Now ... how does the Cabinet Secretary work? You come in and you are – even with the two roles that you have, head of an organisation of half a million civil servants and in some sense co‑ordinating a public sector of about five million people. You have to make choices as to where you make your effort, and I think the policy I followed was not to take an issue over from someone to whom it was delegated simply because it was big and important, but you have to make a judgement as to whether it is being handled competently, whether that particular part is, in a sense, under pressure, whether you think they are getting it wrong in some sense, or they are missing certain important things."199
+> "... wanted a step change in the work on delivery and reform, which I hope I managed to give him. Now ... how does the Cabinet Secretary work? You come in and you are – even with the two roles that you have, head of an organisation of half a million civil servants and in some sense co‑ordinating a public sector of about five million people. You have to make choices as to where you make your effort, and I think the policy I followed was not to take an issue over from someone to whom it was delegated simply because it was big and important, but you have to make a judgement as to whether it is being handled competently, whether that particular part is, in a sense, under pressure, whether you think they are getting it wrong in some sense, or they are missing certain important things."[^199]
 
 430\. The responsibility of the Cabinet Secretary to ensure that members of Cabinet are fully engaged in ways that allow them to accept collective responsibility and to meet their departmental obligations nevertheless remains.
 
@@ -1703,7 +1703,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 509\. When he saw the draft paper on WMD countries of concern on 8 March, Mr Straw commented:
 
-> "Good, but should not Iraq be first and also have more text? The paper has to show why there is an exceptional threat from Iraq. It does not quite do this yet."200
+> "Good, but should not Iraq be first and also have more text? The paper has to show why there is an exceptional threat from Iraq. It does not quite do this yet."[^200]
 
 510\. On 18 March, Mr Straw decided that a paper on Iraq should be issued before one addressing other countries of concern.
 
@@ -1916,31 +1916,31 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 • Iranian interference.
 
-592\. In December 2002, the MOD described the post‑conflict phase of operations as "strategically decisive".201 But when the invasion began, the UK Government was not in a position to conclude that satisfactory plans had been drawn up and preparations made to meet known post‑conflict challenges and risks in Iraq and to mitigate the risk of strategic failure.
+592\. In December 2002, the MOD described the post‑conflict phase of operations as "strategically decisive".[^201] But when the invasion began, the UK Government was not in a position to conclude that satisfactory plans had been drawn up and preparations made to meet known post‑conflict challenges and risks in Iraq and to mitigate the risk of strategic failure.
 
 593\. Throughout the planning process, the UK assumed that the US would be responsible for preparing the post‑conflict plan, that post‑conflict activity would be authorised by the UN Security Council, that agreement would be reached on a significant post‑conflict role for the UN and that international partners would step forward to share the post‑conflict burden.
 
-594\. On that basis, the UK planned to reduce its military contribution in Iraq to medium scale within four months of the start of the invasion202 and expected not to have to make a substantial commitment to post‑conflict administration.203
+594\. On that basis, the UK planned to reduce its military contribution in Iraq to medium scale within four months of the start of the invasion[^202] and expected not to have to make a substantial commitment to post‑conflict administration.[^203]
 
 595\. Achieving that outcome depended on the UK's ability to persuade the US of the merits of a significant post‑conflict role for the UN.
 
 596\. The UK could not be certain at any stage in the year before the invasion that it would succeed in that aim.
 
-597\. In January 2003, the UK sought to persuade the US of the benefits of UN leadership of Iraq's interim post‑conflict civil administration.204 Officials warned that, if the UK failed to persuade the US, it risked "being drawn into a huge commitment of UK resources for a highly complex task of administration and law and order for an uncertain period".
+597\. In January 2003, the UK sought to persuade the US of the benefits of UN leadership of Iraq's interim post‑conflict civil administration.[^204] Officials warned that, if the UK failed to persuade the US, it risked "being drawn into a huge commitment of UK resources for a highly complex task of administration and law and order for an uncertain period".
 
 %%page 80%%
 
-598\. By March 2003, having failed to persuade the US of the advantages of a UN‑led interim administration, the UK had set the less ambitious goal of persuading the US to accept UN authorisation of a Coalition‑led interim administration and an international presence that would include the UN.205
+598\. By March 2003, having failed to persuade the US of the advantages of a UN‑led interim administration, the UK had set the less ambitious goal of persuading the US to accept UN authorisation of a Coalition‑led interim administration and an international presence that would include the UN.[^205]
 
-599\. On 19 March, Mr Blair stated in Parliament that discussions were taking place with the US, UN and others on the role of the UN and post‑conflict issues.206
+599\. On 19 March, Mr Blair stated in Parliament that discussions were taking place with the US, UN and others on the role of the UN and post‑conflict issues.[^206]
 
 600\. Discussions continued, but, as the invasion began:
 
 > - The UK had not secured US agreement to a Security Council resolution authorising post‑conflict administration and could not be sure when, or on what terms, agreement would be possible.
-> - The extent of the UN's preparations, which had been hindered by the absence of agreement on post‑conflict arrangements, remained uncertain. Mr Annan emphasised to Ms Short the need for clarity on US thinking so that UN planning could proceed207 and told Sir Jeremy Greenstock that he "would not wish to see any arrangement subjugating UN activity to Coalition activity".208
-> - Potential international partners for reconstruction and additional Coalition partners to provide security continued to make their post‑conflict contributions conditional on UN authorisation for Phase IV (the military term for post‑conflict operations).209
+> - The extent of the UN's preparations, which had been hindered by the absence of agreement on post‑conflict arrangements, remained uncertain. Mr Annan emphasised to Ms Short the need for clarity on US thinking so that UN planning could proceed[^207] and told Sir Jeremy Greenstock that he "would not wish to see any arrangement subjugating UN activity to Coalition activity".[^208]
+> - Potential international partners for reconstruction and additional Coalition partners to provide security continued to make their post‑conflict contributions conditional on UN authorisation for Phase IV (the military term for post‑conflict operations).[^209]
 
-601\. Despite being aware of the shortcomings of the US plan,210 strong US resistance to a leading role for the UN,211 indications that the UN did not want the administration of Iraq to become its responsibility212 and a warning about the tainted image of the UN in Iraq,213 at no stage did the UK Government formally consider other policy options, including the possibility of making participation in military action conditional on a satisfactory plan for the post‑conflict period, or how to mitigate the known risk that the UK could find itself drawn into a "huge commitment of UK resources" for which no contingency preparations had been made.
+601\. Despite being aware of the shortcomings of the US plan,[^210] strong US resistance to a leading role for the UN,[^211] indications that the UN did not want the administration of Iraq to become its responsibility[^212] and a warning about the tainted image of the UN in Iraq,[^213] at no stage did the UK Government formally consider other policy options, including the possibility of making participation in military action conditional on a satisfactory plan for the post‑conflict period, or how to mitigate the known risk that the UK could find itself drawn into a "huge commitment of UK resources" for which no contingency preparations had been made.
 
 %%page 81%%
 
@@ -1954,7 +1954,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 605\. Some risks were identified, but departmental ownership of those risks, and responsibility for analysis and mitigation, were not clearly established.
 
-606\. When the need to plan and prepare for the worst case was raised, including by MOD officials in advice to Mr Hoon on 6 March 2003,214 Lieutenant General John Reith, Chief of Joint Operations, in his paper for the Chiefs of Staff on 21 March215 and in Treasury advice to Mr Brown on 24 March,216 there is no evidence that any department or individual assumed ownership or was assigned responsibility for analysis or mitigation. No action ensued.
+606\. When the need to plan and prepare for the worst case was raised, including by MOD officials in advice to Mr Hoon on 6 March 2003,[^214] Lieutenant General John Reith, Chief of Joint Operations, in his paper for the Chiefs of Staff on 21 March[^215] and in Treasury advice to Mr Brown on 24 March,[^216] there is no evidence that any department or individual assumed ownership or was assigned responsibility for analysis or mitigation. No action ensued.
 
 607\. In April 2003, Mr Blair set up the Ad Hoc Ministerial Group on Iraq Rehabilitation (AHMGIR), chaired by Mr Straw, to oversee the UK contribution to post‑conflict reconstruction.
 
@@ -1998,7 +1998,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 622\. In his statement to the Inquiry, Mr Blair said:
 
-> "... with hindsight, we now see that the military campaign to defeat Saddam was relatively easy; it was the aftermath that was hard. At the time, of course, we could not know that and a prime focus throughout was the military campaign itself …"217
+> "... with hindsight, we now see that the military campaign to defeat Saddam was relatively easy; it was the aftermath that was hard. At the time, of course, we could not know that and a prime focus throughout was the military campaign itself …"[^217]
 
 623\. The conclusions reached by Mr Blair after the invasion did not require the benefit of hindsight.
 
@@ -2008,23 +2008,23 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 626\. Between early 2002 and the invasion of Iraq in March 2003, Mr Blair received warnings about:
 
-> - the significance of the post‑conflict phase as the "strategically decisive" phase of the engagement in Iraq (in the SPG paper of 13 December 2002218) and the risk that a badly handled aftermath would make intervention a "net failure" (in the letter from Mr Hoon's Private Office to Sir David Manning of 19 November 2002219);
-> - the likelihood of internal conflict in Iraq (including from Mr Powell on 26 September 2002, who warned of the need to stop "a terrible bloodletting of revenge after Saddam goes. Traditional in Iraq after conflict"220);
-> - the potential scale of the political, social, economic and security challenge (including from Sir Christopher Meyer (British Ambassador to the US) on 6 September 2002: "it will probably make pacifying Afghanistan look like child's play"221);
-> - the need for an analysis of whether the benefits of military action outweighed the risk of a protracted and costly nation‑building exercise (including from Mr Straw on 8 July 2002: the US "must also understand that we are serious about our conditions for UK involvement"222);
+> - the significance of the post‑conflict phase as the "strategically decisive" phase of the engagement in Iraq (in the SPG paper of 13 December 2002[^218]) and the risk that a badly handled aftermath would make intervention a "net failure" (in the letter from Mr Hoon's Private Office to Sir David Manning of 19 November 2002[^219]);
+> - the likelihood of internal conflict in Iraq (including from Mr Powell on 26 September 2002, who warned of the need to stop "a terrible bloodletting of revenge after Saddam goes. Traditional in Iraq after conflict"[^220]);
+> - the potential scale of the political, social, economic and security challenge (including from Sir Christopher Meyer (British Ambassador to the US) on 6 September 2002: "it will probably make pacifying Afghanistan look like child's play"[^221]);
+> - the need for an analysis of whether the benefits of military action outweighed the risk of a protracted and costly nation‑building exercise (including from Mr Straw on 8 July 2002: the US "must also understand that we are serious about our conditions for UK involvement"[^222]);
 > - the absence of credible US plans for the immediate post‑conflict period and the subsequent reconstruction of Iraq (including from the British Embassy
 
 %%page 84%%
 
-> Washington after the Rock Drill on 21 and 22 February 2003: "The inter‑agency rehearsal for Phase IV … exposes the enormous scale of the task … Overall, planning is at a very rudimentary stage"223); • the need to agree with the US the nature of the UK contribution to those plans (including in the letter from Mr Hoon's Private Office to Sir David Manning on 28 February 2003: it was "absolutely clear" that the US expected the UK to take leadership of the South‑East sector. The UK was "currently at risk of taking on a very substantial commitment that we will have great difficulty in sustaining beyond the immediate conclusion of conflict"224); and • the importance (including in the 'UK overall plan for Phase IV', shown to Mr Blair on 7 March 2003225) of: • UN authorisation for the military occupation of Iraq, without which there would be no legal cover for certain post‑conflict tasks; • a UN framework for the administration and reconstruction of Iraq during the transition to Iraqi self‑government.
+> Washington after the Rock Drill on 21 and 22 February 2003: "The inter‑agency rehearsal for Phase IV … exposes the enormous scale of the task … Overall, planning is at a very rudimentary stage"[^223]); • the need to agree with the US the nature of the UK contribution to those plans (including in the letter from Mr Hoon's Private Office to Sir David Manning on 28 February 2003: it was "absolutely clear" that the US expected the UK to take leadership of the South‑East sector. The UK was "currently at risk of taking on a very substantial commitment that we will have great difficulty in sustaining beyond the immediate conclusion of conflict"[^224]); and • the importance (including in the 'UK overall plan for Phase IV', shown to Mr Blair on 7 March 2003[^225]) of: • UN authorisation for the military occupation of Iraq, without which there would be no legal cover for certain post‑conflict tasks; • a UN framework for the administration and reconstruction of Iraq during the transition to Iraqi self‑government.
 
-627\. Mr Blair told the Chiefs of Staff on 15 January 2003 that "the 'Issue' was aftermath – the Coalition must prevent anarchy and internecine fighting breaking out".226
+627\. Mr Blair told the Chiefs of Staff on 15 January 2003 that "the 'Issue' was aftermath – the Coalition must prevent anarchy and internecine fighting breaking out".[^226]
 
 628\. In his evidence to the House of Commons Liaison Committee on 21 January 2003, Mr Blair emphasised the importance of the post‑conflict phase:
 
-> "You do not engage in military conflict that may produce regime change unless you are prepared to follow through and work in the aftermath of that regime change to ensure the country is stable and the people are properly looked after."227
+> "You do not engage in military conflict that may produce regime change unless you are prepared to follow through and work in the aftermath of that regime change to ensure the country is stable and the people are properly looked after."[^227]
 
-629\. On 24 January 2003, Mr Blair told President Bush that the biggest risk they faced was internecine fighting, and that delay would allow time for working up more coherent post‑conflict plans.228
+629\. On 24 January 2003, Mr Blair told President Bush that the biggest risk they faced was internecine fighting, and that delay would allow time for working up more coherent post‑conflict plans.[^228]
 
 630\. Yet when Mr Blair set out the UK's vision for the future of Iraq in the House of Commons on 18 March 2003, no assessment had been made of whether that vision was achievable, no agreement had been reached with the US on a workable post‑conflict plan, UN authorisation had not yet been secured, and there had been no decision on the UN's role in post‑conflict Iraq.
 
@@ -2087,15 +2087,15 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 641\. Both before and during the invasion Lt Gen Reith made the absence of instructions to UK forces covering what to do if faced with lawless behaviour by the Iraqi population in Basra explicit to the Chiefs of Staff.
 
-642\. Faced with widespread looting after the invasion, and without instructions, UK commanders had to make their own judgements about what to do. Brigadier Graham Binns, commanding the 7 Armoured Brigade which had taken Basra City, told the Inquiry that he had concluded that "the best way to stop looting was just to get to a point where there was nothing left to loot".229
+642\. Faced with widespread looting after the invasion, and without instructions, UK commanders had to make their own judgements about what to do. Brigadier Graham Binns, commanding the 7 Armoured Brigade which had taken Basra City, told the Inquiry that he had concluded that "the best way to stop looting was just to get to a point where there was nothing left to loot".[^229]
 
 643\. Although the implementation of tactical plans to deal with lawlessness was properly the responsibility of in‑theatre commanders, it was the responsibility of the Chief of the Defence Staff and the Chief of Joint Operations to ensure that appropriate Rules of Engagement were set, and preparations made, to equip commanders on the ground to deal with it effectively. They should have ensured that those steps were taken.
 
-644\. The impact of looting was felt primarily by the Iraqi population rather than by Coalition Forces. The latter initially experienced a "honeymoon period",230 although the situation was far from stabilised.
+644\. The impact of looting was felt primarily by the Iraqi population rather than by Coalition Forces. The latter initially experienced a "honeymoon period",[^230] although the situation was far from stabilised.
 
-645\. Lt Gen Reith anticipated that UK forces could be reduced to a medium scale effort by the autumn, when he expected the campaign to have reached "some form of 'steady‑state'".231
+645\. Lt Gen Reith anticipated that UK forces could be reduced to a medium scale effort by the autumn, when he expected the campaign to have reached "some form of 'steady‑state'".[^231]
 
-646\. The JIC correctly judged on 16 April that the local population had high hopes that the Coalition would rapidly improve their lives and that "resentment of the Coalition ... could grow quickly if it is seen to be ineffective, either politically or militarily. Such resentment could lead to violence."232
+646\. The JIC correctly judged on 16 April that the local population had high hopes that the Coalition would rapidly improve their lives and that "resentment of the Coalition ... could grow quickly if it is seen to be ineffective, either politically or militarily. Such resentment could lead to violence."[^232]
 
 %%page 88%%
 
@@ -2107,11 +2107,11 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 649\. In the absence of a functioning Iraqi police force and criminal justice system, and without a clear Coalition Phase IV plan, looting and score‑settling became a serious problem in Baghdad soon after the regime fell. The looting of ministry buildings and damage to state‑owned infrastructure in particular added to the challenges of the Occupation.
 
-650\. Reflecting in June 2004, Mr David Richmond, the Prime Minister's Special Representative on Iraq from March to June 2004, judged that the failure to crack down on looting in Baghdad in April 2003 released "a crime wave which the Coalition has never been able to bring fully under control".233
+650\. Reflecting in June 2004, Mr David Richmond, the Prime Minister's Special Representative on Iraq from March to June 2004, judged that the failure to crack down on looting in Baghdad in April 2003 released "a crime wave which the Coalition has never been able to bring fully under control".[^233]
 
 651\. After visiting Iraq in early May 2003, General Sir Mike Jackson, Chief of the General Staff, observed:
 
-> "A security vacuum still exists [in Baghdad] ... particularly at night. Looting, revenge killing and subversive activities are rife … Should a bloody and protracted insurgency establish itself in Baghdad, then a ripple effect is likely to occur."234
+> "A security vacuum still exists [in Baghdad] ... particularly at night. Looting, revenge killing and subversive activities are rife … Should a bloody and protracted insurgency establish itself in Baghdad, then a ripple effect is likely to occur."[^234]
 
 652\. Gen Jackson recognised that the UK's ability to maintain the consent of the population in the South depended on a stable and secure Baghdad, and advised:
 
@@ -2157,7 +2157,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 668\. No governance arrangements were designed before the invasion which might have enabled officials and Ministers based in London and Washington to manage the implications of a joint occupation involving separate resources of a very different scale. Such arrangements would have provided a means to identify and resolve different perspectives on policy, and to facilitate joint decisions.
 
-669\. Once the CPA had been established, policy decisions were made largely in Baghdad, where there was also no formal US/UK governance structure. This created a risk described to the Inquiry by Sir Michael Wood, FCO Legal Adviser from 2001 to 2006, as "the UK being held jointly responsible for acts or omissions of the CPA, without a right to consult and a right of joint decision".235
+669\. Once the CPA had been established, policy decisions were made largely in Baghdad, where there was also no formal US/UK governance structure. This created a risk described to the Inquiry by Sir Michael Wood, FCO Legal Adviser from 2001 to 2006, as "the UK being held jointly responsible for acts or omissions of the CPA, without a right to consult and a right of joint decision".[^235]
 
 %%page 91%%
 
@@ -2186,9 +2186,9 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 677\. In some areas, the UK was able to affect CPA policy through the influence that Mr Sawers or his successor Sir Jeremy Greenstock exerted on senior US officials. Both used their diplomatic experience to build connections with Iraqi politicians and contribute to the political development of Iraq. Instances of UK influence included:
 
-> - Mr Sawers' involvement in the plans for an Interim Iraqi Administration, in respect of which he considered that "much of the thinking is ours".236
+> - Mr Sawers' involvement in the plans for an Interim Iraqi Administration, in respect of which he considered that "much of the thinking is ours".[^236]
 > - Sir Jeremy Greenstock's "two chickens, two eggs" plan, which overcame political stalemate between the CPA and Grand Ayatollah al‑Sistani on how the new Iraqi Constitution should be created. The plan led to the 15 November Agreement which set the timetable for transfer of sovereignty to a transitional administration by 30 June 2004.
-> - Ensuring that negotiations on the content of the Transitional Administrative Law reached a successful conclusion. Sir Jeremy Greenstock told the Inquiry that he had prevented the Kurdish delegation from leaving, "which Bremer wasn't aware of".237
+> - Ensuring that negotiations on the content of the Transitional Administrative Law reached a successful conclusion. Sir Jeremy Greenstock told the Inquiry that he had prevented the Kurdish delegation from leaving, "which Bremer wasn't aware of".[^237]
 
 %%page 93%%
 
@@ -2202,7 +2202,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 ## A DECLINE IN SECURITY
 
-681\. From early June 2003, and throughout the summer, there were signs that security in both Baghdad and the South was deteriorating. The MOD's SPG warned that "more organised opposition to the Coalition may be emerging"238 as discontent about the Coalition's failure to deliver a secure environment began to grow in the Iraqi population.
+681\. From early June 2003, and throughout the summer, there were signs that security in both Baghdad and the South was deteriorating. The MOD's SPG warned that "more organised opposition to the Coalition may be emerging"[^238] as discontent about the Coalition's failure to deliver a secure environment began to grow in the Iraqi population.
 
 682\. The extent of the decline in Baghdad and central Iraq overshadowed the decline in Multi‑National Division (South‑East) (MND(SE)). Food shortages and the failure of essential services such as the supply of electricity and water, plus lack of progress in the political process, however, began to erode the relationship between UK forces and the local population. The deterioration was exemplified by attacks on UK forces in Majar al‑Kabir in Maysan province on 22 and 24 June.
 
@@ -2216,7 +2216,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 686\. By the autumn of 2003, violence was escalating in Baghdad and attacks were becoming more sophisticated. Attacks on the UN in August and September, which injured and killed a number of UN officials including the UN Special Representative for Iraq, prompted some organisations to withdraw their international staff. Although Basra was less turbulent than the capital, the risk of a ripple effect from Baghdad – as identified by Gen Jackson in May – remained.
 
-687\. The JIC assessed on 3 September that the security environment would probably worsen over the year ahead. There had been a number of serious attacks on the Coalition in MND(SE), and Islamic "extremists/terrorists"239 were expected to remain a long‑term threat in Iraq. The UK's military and civilian representatives on the ground were reporting a growing insurgency in central Iraq.
+687\. The JIC assessed on 3 September that the security environment would probably worsen over the year ahead. There had been a number of serious attacks on the Coalition in MND(SE), and Islamic "extremists/terrorists"[^239] were expected to remain a long‑term threat in Iraq. The UK's military and civilian representatives on the ground were reporting a growing insurgency in central Iraq.
 
 688\. Despite that evidence, military planning under the leadership of General Sir Michael Walker, Chief of the Defence Staff, proceeded on the basis that the situation in Basra would remain relatively benign.
 
@@ -2235,27 +2235,27 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 693\. The failure to consider the option of reinforcement at this time was a serious omission and Lt Gen Reith and Gen Walker should have ensured that UK force levels in MND(SE) were formally reconsidered in autumn 2003 or at the latest by the end of the year. Increases in UK force levels in order to address the security situation should have been recommended to Ministers. Any opportunity to regain the initiative and pre‑empt further deterioration in the security situation was lost.
 
-694\. In October, Sir Jeremy Greenstock reported that Lieutenant General Ricardo Sanchez, Commander Combined Joint Task Force‑7, had "come to recognise that Coalition operations are at a standstill and that there is a need to regain momentum".240 Doubts started to build about the chances of credible elections based on a legitimate constitution in the course of 2004 and work began to look for alternatives to the plan set out by Ambassador Bremer. The "bloodiest 48‑hour period in Baghdad since March",241 including an attack on the al‑Rashid Hotel in Baghdad's Green Zone, was sufficient to convince some that a pivotal point in the security situation had been reached.
+694\. In October, Sir Jeremy Greenstock reported that Lieutenant General Ricardo Sanchez, Commander Combined Joint Task Force‑7, had "come to recognise that Coalition operations are at a standstill and that there is a need to regain momentum".[^240] Doubts started to build about the chances of credible elections based on a legitimate constitution in the course of 2004 and work began to look for alternatives to the plan set out by Ambassador Bremer. The "bloodiest 48‑hour period in Baghdad since March",[^241] including an attack on the al‑Rashid Hotel in Baghdad's Green Zone, was sufficient to convince some that a pivotal point in the security situation had been reached.
 
 695\. When President Bush visited London in November, Mr Blair provided him with a paper written by Sir Jeremy Greenstock which argued that security should be the highest priority in the run‑up to June 2004, when the Iraqi Transitional Government would take power. Sir Jeremy suggested that troop levels should be looked at again and highlighted "the dangers we face if we do not get a grip on the security situation" as a topic that President Bush and Mr Blair needed to discuss in stark terms.
 
-696\. The constraints within which the UK was operating as a result of the limited scale of forces deployed in Iraq were articulated clearly for the Chiefs of Staff in December. Lt Gen Fry argued that a strategy of "early effect"242 was needed which prioritised campaign success. Operation TELIC was the UK "Main Effort", but deploying additional resources in a way that was compliant with the Defence Planning Assumptions would require the withdrawal of resources from other operations.
+696\. The constraints within which the UK was operating as a result of the limited scale of forces deployed in Iraq were articulated clearly for the Chiefs of Staff in December. Lt Gen Fry argued that a strategy of "early effect"[^242] was needed which prioritised campaign success. Operation TELIC was the UK "Main Effort", but deploying additional resources in a way that was compliant with the Defence Planning Assumptions would require the withdrawal of resources from other operations.
 
-697\. On 1 January 2004, Sir Jeremy Greenstock wrote bluntly: "This theatre remains a security crisis."243
+697\. On 1 January 2004, Sir Jeremy Greenstock wrote bluntly: "This theatre remains a security crisis."[^243]
 
 %%page 96%%
 
-698\. Despite mounting evidence of violent insurgency, the UK's policy of military drawdown in Iraq continued. After force levels had been reviewed in January, the rationale for continued drawdown was based on adjusted criteria by which the success of Security Sector Reform would be judged, meaning that such reform would be implemented "only to applicable standards for Iraq".244
+698\. Despite mounting evidence of violent insurgency, the UK's policy of military drawdown in Iraq continued. After force levels had been reviewed in January, the rationale for continued drawdown was based on adjusted criteria by which the success of Security Sector Reform would be judged, meaning that such reform would be implemented "only to applicable standards for Iraq".[^244]
 
 ## THE TURNING POINT
 
 699\. February 2004 was the worst month for Coalition casualties since the fall of Saddam Hussein's regime. More than 200 people, mainly Iraqi citizens, were killed in suicide attacks. Attacks on the Iraqi Security Forces were increasing and concerns about Islamic extremists operating in Iraq began to grow. By the end of March, more than 200 attacks targeting Iraqi citizens were being reported each week.
 
-700\. In April, there was a sudden escalation in attacks by the Jaysh al‑Mahdi (JAM) in Basra, described by the General Officer Commanding MND(SE) as "like a switch had been flicked".245 In Fallujah, a US offensive which followed the ambush and murder of four security contractors provoked an angry response from the Sunni community.
+700\. In April, there was a sudden escalation in attacks by the Jaysh al‑Mahdi (JAM) in Basra, described by the General Officer Commanding MND(SE) as "like a switch had been flicked".[^245] In Fallujah, a US offensive which followed the ambush and murder of four security contractors provoked an angry response from the Sunni community.
 
 701\. The significant worsening of security, coupled with revelations of abuse by members of the US military of Iraqi detainees held in Abu Ghraib prison, led many of the Inquiry's witnesses to conclude that the spring of 2004 had been a turning point.
 
-702\. At the end of April, Mr Blair's analysis was that the key issue in Iraq was not multi‑faceted, rather it was "simple: security".246
+702\. At the end of April, Mr Blair's analysis was that the key issue in Iraq was not multi‑faceted, rather it was "simple: security".[^246]
 
 703\. Despite the failing security situation in MND(SE) in spring 2004, Gen Walker was explicit that no additional troops were required for the tasks currently assigned to the UK.
 
@@ -2283,19 +2283,19 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 709\. By July 2004, the UK envisaged that, providing the necessary criteria were met, there would be a gradual reduction in troop numbers during 2005 leading to final withdrawal in 2006, to be followed by a period of "Strategic Overwatch".
 
-710\. The most important of the criteria that would enable coalition troops to withdraw was the ability of the Iraqi Security Forces to take the lead on security (Iraqiisation). Having recognised that a stable and secure environment was the key factor on which progress in Iraq depended, by May 2004 the UK solution was "a better and quicker plan for building Iraqi capacity in the Police, Civil Defence Corps, the Army and the Intelligence Service".247 This made sense in the long term but was unlikely to meet the requirement to regain control of Iraq rapidly in the face of a mounting insurgency. Reform of the Iraqi Security Forces is addressed in detail in Section 12.
+710\. The most important of the criteria that would enable coalition troops to withdraw was the ability of the Iraqi Security Forces to take the lead on security (Iraqiisation). Having recognised that a stable and secure environment was the key factor on which progress in Iraq depended, by May 2004 the UK solution was "a better and quicker plan for building Iraqi capacity in the Police, Civil Defence Corps, the Army and the Intelligence Service".[^247] This made sense in the long term but was unlikely to meet the requirement to regain control of Iraq rapidly in the face of a mounting insurgency. Reform of the Iraqi Security Forces is addressed in detail in Section 12.
 
 711\. By mid‑August, the level of attacks against coalition forces had matched the previous peak in April of the same year. In September, Lieutenant General John McColl (Senior British Military Representative – Iraq) judged that the Iraqi Security Forces would not be able to take full responsibility for security before 2006.
 
 %%page 98%%
 
-712\. In September 2004, Gen Walker received a well‑argued piece of advice from Lt Gen McColl which made clear that the conditions on which decisions on drawdown were to be based were unlikely to be met in the near future. Despite the warnings in Lt Gen McColl's paper and his advice that "the time is right for the consideration of the substantive issues",248 the Chiefs of Staff, chaired by Gen Walker, declined to engage in a substantive review of UK options.
+712\. In September 2004, Gen Walker received a well‑argued piece of advice from Lt Gen McColl which made clear that the conditions on which decisions on drawdown were to be based were unlikely to be met in the near future. Despite the warnings in Lt Gen McColl's paper and his advice that "the time is right for the consideration of the substantive issues",[^248] the Chiefs of Staff, chaired by Gen Walker, declined to engage in a substantive review of UK options.
 
 713\. The Inquiry recognises that the scale of the resources which the UK might have deployed to deal with the issues was substantially less than the US could bring to bear. It is possible that the UK may not have been able to make a real difference, when the key strategic change that might have affected the outcome was the deployment of a much larger force. But proper consideration ought to have been given to what options were available, including for the deployment of additional personnel. Mr Straw raised the need for such a debate with Mr Blair in October.
 
-714\. The UK had consistently resisted US requests to deploy additional personnel, which Lt Gen McColl described as having "chipped away at the US/UK relationship",249 but in October it was agreed that the Black Watch would be deployed to North Babil for 30 days to backfill US forces needed for operations in Fallujah. Approximately 350 personnel from 1st Battalion, the Royal Highland Fusiliers were also deployed to Iraq to provide additional security across MND(SE) during the election period in January and February 2005. The UK remained reluctant to commit any further forces in the longer term: when Dutch forces withdrew from Muthanna province, the UK instead redeployed forces from elsewhere in MND(SE) plus a small amount of additional logistic support.
+714\. The UK had consistently resisted US requests to deploy additional personnel, which Lt Gen McColl described as having "chipped away at the US/UK relationship",[^249] but in October it was agreed that the Black Watch would be deployed to North Babil for 30 days to backfill US forces needed for operations in Fallujah. Approximately 350 personnel from 1st Battalion, the Royal Highland Fusiliers were also deployed to Iraq to provide additional security across MND(SE) during the election period in January and February 2005. The UK remained reluctant to commit any further forces in the longer term: when Dutch forces withdrew from Muthanna province, the UK instead redeployed forces from elsewhere in MND(SE) plus a small amount of additional logistic support.
 
-715\. In January 2005, Lt Gen Fry produced a thoughtful and realistic assessment of the prospects for security in Iraq, observing that "we are not on track to deliver the Steady State Criteria (SSC) before the UN mandate expires, or even shortly thereafter".250 He judged that "only additional military effort by the MNF‑I [Multi‑National Force – Iraq] as a whole" might be able to get the campaign back on track. Lt Gen Fry identified three possible courses of action for the UK: increasing the UK scale of effort, maintaining the status quo or, if it were judged that the campaign was irretrievable, accepting failure and seeking to mitigate UK liability.
+715\. In January 2005, Lt Gen Fry produced a thoughtful and realistic assessment of the prospects for security in Iraq, observing that "we are not on track to deliver the Steady State Criteria (SSC) before the UN mandate expires, or even shortly thereafter".[^250] He judged that "only additional military effort by the MNF‑I [Multi‑National Force – Iraq] as a whole" might be able to get the campaign back on track. Lt Gen Fry identified three possible courses of action for the UK: increasing the UK scale of effort, maintaining the status quo or, if it were judged that the campaign was irretrievable, accepting failure and seeking to mitigate UK liability.
 
 716\. The Inquiry endorses Lt Gen Fry's assessment of the options open to the UK at this point and considers that full and proper consideration should have been given to each option by DOP.
 
@@ -2307,7 +2307,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 719\. In April, the JIC assessed that:
 
-> "A significant Sunni insurgency will continue through 2005 and beyond, but the opportunities for reducing it appear greater than we judged in early February."251
+> "A significant Sunni insurgency will continue through 2005 and beyond, but the opportunities for reducing it appear greater than we judged in early February."[^251]
 
 ## THE IMPACT OF AFGHANISTAN
 
@@ -2319,7 +2319,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 723\. In 2002, A New Chapter, an MOD review of the 1998 Strategic Defence Review (SDR), had reaffirmed that the UK's Armed Forces would be unable to support two enduring medium scale military operations at the same time:
 
-> "Since the SDR we have assumed that we should plan to be able to undertake either a single major operation (of a similar scale and duration to our contribution to the Gulf War in 1990‑91), or undertake a more extended overseas deployment on a lesser scale (as in the mid‑1990s in Bosnia), while retaining the ability to mount a second substantial deployment ... if this were made necessary by a second crisis. We would not, however, expect both deployments to involve war‑fighting or to maintain them simultaneously for longer than six months."252
+> "Since the SDR we have assumed that we should plan to be able to undertake either a single major operation (of a similar scale and duration to our contribution to the Gulf War in 1990‑91), or undertake a more extended overseas deployment on a lesser scale (as in the mid‑1990s in Bosnia), while retaining the ability to mount a second substantial deployment ... if this were made necessary by a second crisis. We would not, however, expect both deployments to involve war‑fighting or to maintain them simultaneously for longer than six months."[^252]
 
 724\. As described in Section 16.1, since 2002 the Armed Forces had been consistently operating at or above the level of concurrency defined in the 1998 SDR, and the continuation of Op TELIC had placed additional strain on military personnel.
 
@@ -2331,11 +2331,11 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 727\. As described under the heading 'Iraqiisation' below, the proposals to transfer responsibility for security in the four provinces of MND(SE) to Iraqi control were based on high‑risk assumptions about the capability of the Iraqi Security Forces to take the lead for security. If those assumptions proved to be inaccurate and the UK was unable to withdraw, agreement to the Helmand deployment in Afghanistan effectively constrained the UK's ability to respond by increasing troop levels in Iraq.
 
-728\. In January 2006, Cabinet approved the decision to deploy to Helmand. Dr Reid, the Defence Secretary, announced that the UK was "preparing for a deployment to southern Afghanistan" which included a Provincial Reconstruction Team as "part of a larger, more than 3,300‑strong British force providing the security framework".253
+728\. In January 2006, Cabinet approved the decision to deploy to Helmand. Dr Reid, the Defence Secretary, announced that the UK was "preparing for a deployment to southern Afghanistan" which included a Provincial Reconstruction Team as "part of a larger, more than 3,300‑strong British force providing the security framework".[^253]
 
 729\. The impact of that decision was summarised neatly by Gen Walker as:
 
-> "Militarily, the UK force structure is already stretched and, with two concurrent medium scale operations in prospect, will soon become exceptionally so in niche areas."254
+> "Militarily, the UK force structure is already stretched and, with two concurrent medium scale operations in prospect, will soon become exceptionally so in niche areas."[^254]
 
 730\. Niche capabilities such as helicopter support and Intelligence, Surveillance, Target Acquisition and Reconnaissance (ISTAR) were essential to the successful conduct of operations.
 
@@ -2347,7 +2347,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 ## IRAQIISATION
 
-733\. After becoming Defence Secretary in May 2005, Dr Reid had continued the policy of reducing UK troop levels based on the transition of lead responsibility for security to the Iraqi Security Forces (ISF). In one of his early acts as Defence Secretary, he announced the deployment of just over 400 additional personnel to enhance the UK's effort in training the ISF, which would "enable them to take on ever greater responsibility for their own security and so pave the way for UK troops to withdraw".255
+733\. After becoming Defence Secretary in May 2005, Dr Reid had continued the policy of reducing UK troop levels based on the transition of lead responsibility for security to the Iraqi Security Forces (ISF). In one of his early acts as Defence Secretary, he announced the deployment of just over 400 additional personnel to enhance the UK's effort in training the ISF, which would "enable them to take on ever greater responsibility for their own security and so pave the way for UK troops to withdraw".[^255]
 
 734\. The proposals for transfer of the four provinces in MND(SE) to Iraqi control agreed in July 2005 suggested transition from MNF‑I to ISF primacy in Basra from March 2006, based on the assumption that the ISF would, by that point, be capable of taking on responsibility for security in what was likely to remain a very challenging environment.
 
@@ -2357,13 +2357,13 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 737\. A few days after Dr Reid made his recommendation, the Jameat incident in Basra (see Section 12.1) raised questions about the ISF in MND(SE). Officials from the FCO, the MOD and DFID judged that the incident had highlighted the risks to achieving UK objectives in MND(SE), and that those risks had implications for military resources. Nevertheless, assumptions about ISF readiness were not re‑examined by Ministers. The incident should have prompted a more searching analysis of whether the conditions necessary for drawdown were likely to be met within the planned timetable. Reluctance to consider the potential implications of the Jameat incident obscured what it had revealed about the security situation in MND(SE).
 
-738\. The critical importance of ISF capability in assessing readiness for transfer to Provincial Iraqi Control, on which UK plans to draw down were based, was emphasised by the 'Conditions for Provincial Transfer' published by the Joint Iraqi/MNF Committee to Transfer Security Responsibility, and by Dr Reid, who told DOP(I) that "successful Iraqiisation remains the key".256 DOP(I) decided that Dr Reid should have lead responsibility for building the capacity of the Iraqi Police Service (IPS) in Basra in addition to his responsibility for the Iraqi Army.
+738\. The critical importance of ISF capability in assessing readiness for transfer to Provincial Iraqi Control, on which UK plans to draw down were based, was emphasised by the 'Conditions for Provincial Transfer' published by the Joint Iraqi/MNF Committee to Transfer Security Responsibility, and by Dr Reid, who told DOP(I) that "successful Iraqiisation remains the key".[^256] DOP(I) decided that Dr Reid should have lead responsibility for building the capacity of the Iraqi Police Service (IPS) in Basra in addition to his responsibility for the Iraqi Army.
 
-739\. In October 2005, Mr Blair asked for a major and sustained push to make progress on the ability of the ISF to take the lead on security. Gen Jackson raised concerns about ISF effectiveness in a minute to Gen Walker, and concluded: "it is not to our credit that we have known about the inadequacies of the IPS for so long and yet failed to address them".257 The Assessments Staff reinforced the lack of progress in reforming the ISF.
+739\. In October 2005, Mr Blair asked for a major and sustained push to make progress on the ability of the ISF to take the lead on security. Gen Jackson raised concerns about ISF effectiveness in a minute to Gen Walker, and concluded: "it is not to our credit that we have known about the inadequacies of the IPS for so long and yet failed to address them".[^257] The Assessments Staff reinforced the lack of progress in reforming the ISF.
 
 %%page 102%%
 
-740\. In October 2005, the Chiefs of Staff made a stark assessment of the insurgency and coalition strategy in Iraq. They concluded that "Ministers needed to be clear that the campaign could potentially be heading for 'strategic failure', with grave national and international consequences if the appropriate actions were not taken".258 Gen Walker judged that only 5 percent of UK military effort in MND(SE) was devoted to counter‑insurgency operations. But neither Air Marshal Sir Glenn Torpy, Commander Joint Operations, nor Gen Walker reassessed UK force requirements in Iraq, based on those two assessments.
+740\. In October 2005, the Chiefs of Staff made a stark assessment of the insurgency and coalition strategy in Iraq. They concluded that "Ministers needed to be clear that the campaign could potentially be heading for 'strategic failure', with grave national and international consequences if the appropriate actions were not taken".[^258] Gen Walker judged that only 5 percent of UK military effort in MND(SE) was devoted to counter‑insurgency operations. But neither Air Marshal Sir Glenn Torpy, Commander Joint Operations, nor Gen Walker reassessed UK force requirements in Iraq, based on those two assessments.
 
 741\. The security situation at this point should have resulted in a reassessment of the UK troop levels needed to achieve the UK's key outcomes in MND(SE). Although the responsibility for tactical decision‑making rested with commanders on the ground, it was for Gen Walker to ensure that those commanders had sufficient resources to deliver.
 
@@ -2373,7 +2373,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 744\. US concerns about UK plans for the transition of Maysan and Muthanna to Iraqi control in May were such that Dr Reid adapted them to include a small residual team providing mentoring and support to the Iraqi Army.
 
-745\. Dr Reid continued to press ahead with drawdown and announced that troop levels would reduce in May 2006 from approximately 8,000 to around 7,200 based on "completion of various security sector reform tasks, a reduction in the support levels for those tasks, and recent efficiency measures in theatre".259 That rationale did not include an assessment of the effect of those tasks on the capability of the ISF.
+745\. Dr Reid continued to press ahead with drawdown and announced that troop levels would reduce in May 2006 from approximately 8,000 to around 7,200 based on "completion of various security sector reform tasks, a reduction in the support levels for those tasks, and recent efficiency measures in theatre".[^259] That rationale did not include an assessment of the effect of those tasks on the capability of the ISF.
 
 %%page 103%%
 
@@ -2383,13 +2383,13 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 746\. US and UK strategies for Iraq had in effect been on different courses since the UK decision to focus its attention on MND(SE) in 2003. As a result of that decision, the UK had acquired distinctly different priorities from the US. It was only marginally involved in the central tasks of stabilising the Iraqi Government in Baghdad and managing sectarian divisions, while it had come to see its main task in Basra as one of keeping the situation calm while building the case for drawdown.
 
-747\. For some time, there had been indications of tension between the US and UK regarding assessments of progress, and differing assumptions about whether plans were needed for long‑term bases in Iraq. In May 2006, Mr Blair was told about "rumblings from the US system about UK failure to grip the security situation in what they regard as a strategically vital part of Iraq".260 Gen Jackson felt compelled to report that:
+747\. For some time, there had been indications of tension between the US and UK regarding assessments of progress, and differing assumptions about whether plans were needed for long‑term bases in Iraq. In May 2006, Mr Blair was told about "rumblings from the US system about UK failure to grip the security situation in what they regard as a strategically vital part of Iraq".[^260] Gen Jackson felt compelled to report that:
 
-> "The perception, right or wrong, in some – if not all – US military circles is that the UK is motivated more by the short‑term political gain of early withdrawal than by the long‑term importance of mission accomplishment; and that, as a result, MND(SE)'s operational posture is too laissez faire and lacks initiative ..."261
+> "The perception, right or wrong, in some – if not all – US military circles is that the UK is motivated more by the short‑term political gain of early withdrawal than by the long‑term importance of mission accomplishment; and that, as a result, MND(SE)'s operational posture is too laissez faire and lacks initiative ..."[^261]
 
 748\. In January 2007, the divergence between US and UK strategies was thrown into sharp relief by President Bush's announcement that the US would adopt a new strategy, of which a prominent feature would be the deployment of a surge of US forces, primarily to Baghdad and its environs. UK assessments of the prospects for the new US policy were bleak, reflecting widespread pessimism about the prospects for Iraq. UK strategy continued to look towards withdrawal.
 
-749\. US concerns about the differences in approach were evident. In February 2007, Sir David Manning, British Ambassador to the US, reported that Secretary Rice had asked him "to tell her honestly whether the UK was now making for the exit as fast as possible".262
+749\. US concerns about the differences in approach were evident. In February 2007, Sir David Manning, British Ambassador to the US, reported that Secretary Rice had asked him "to tell her honestly whether the UK was now making for the exit as fast as possible".[^262]
 
 750\. The divergence in strategies was also illustrated by the conditions‑based process through which the four provinces in MND(SE) were transferred to Provincial Iraqi Control (PIC) during 2007. Although each transfer was signed off by senior members of the US military, there was persistent reporting of US concerns about readiness for PIC, whether the conditions had actually been met and the wider impact of transfer.
 
@@ -2399,17 +2399,17 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 ## A POSSIBLE CIVIL WAR
 
-752\. By March 2006, senior members of the UK military were considering the possibility of civil war in Iraq, prompted by rising levels of sectarian violence and concerns that the Iraqi Government was "not ... perceived as even‑handed in security issues".263 The risk of civil war had been acknowledged by Prime Minister Ibrahim Ja'afari in the wake of the bombing of the al‑Askari mosque in February. Although there was general agreement that the situation in Iraq did not constitute civil war, the risk that one might develop was considered to be real.
+752\. By March 2006, senior members of the UK military were considering the possibility of civil war in Iraq, prompted by rising levels of sectarian violence and concerns that the Iraqi Government was "not ... perceived as even‑handed in security issues".[^263] The risk of civil war had been acknowledged by Prime Minister Ibrahim Ja'afari in the wake of the bombing of the al‑Askari mosque in February. Although there was general agreement that the situation in Iraq did not constitute civil war, the risk that one might develop was considered to be real.
 
 753\. At this time, the presence in Iraq of the MNF was authorised by resolution 1637 (2005). The exchange of letters between Prime Minister Ja'afari and the President of the Security Council which accompanied the resolution clearly identified providing security for the Iraqi people as the reason why a continued MNF presence was necessary.
 
 754\. In late April, FCO officials were concerned that security in Basra was declining and that a determined and sustained effort, including a more assertive military posture, would be required to deliver the UK's objective of transferring Basra to Iraqi control by late 2006 or early 2007.
 
-755\. Accounts from mid‑2006 suggested that security in MND(SE) was a significant concern, characterised by "steady, if generally unspectacular, decline"264 and increased militia activity. The UK military's approach had generated US concern and the security situation was limiting UK civilian activity.
+755\. Accounts from mid‑2006 suggested that security in MND(SE) was a significant concern, characterised by "steady, if generally unspectacular, decline"[^264] and increased militia activity. The UK military's approach had generated US concern and the security situation was limiting UK civilian activity.
 
-756\. Gen Jackson's assessment in May of the short‑term security prospects in Iraq was bleak. He judged that "what we will leave behind will not look much like strategic success. Ten years hence our strategy may fully bear fruit."265
+756\. Gen Jackson's assessment in May of the short‑term security prospects in Iraq was bleak. He judged that "what we will leave behind will not look much like strategic success. Ten years hence our strategy may fully bear fruit."[^265]
 
-757\. After visiting Iraq in early May, Air Chief Marshal Sir Jock Stirrup, Chief of the Defence Staff, advised Dr Reid that there should be no change to the operational approach and that there were "compelling reasons" why the UK should "press on" with handing over security to Iraq, including to permit the UK's continuing build‑up in Afghanistan.266 ACM Stirrup identified the risk that UK withdrawal from Basra would be seen as a "strategic failure" and suggested that "astute conditioning of the UK public may be necessary" to avoid that.
+757\. After visiting Iraq in early May, Air Chief Marshal Sir Jock Stirrup, Chief of the Defence Staff, advised Dr Reid that there should be no change to the operational approach and that there were "compelling reasons" why the UK should "press on" with handing over security to Iraq, including to permit the UK's continuing build‑up in Afghanistan.[^266] ACM Stirrup identified the risk that UK withdrawal from Basra would be seen as a "strategic failure" and suggested that "astute conditioning of the UK public may be necessary" to avoid that.
 
 758\. ACM Stirrup's view that the UK should press ahead with drawdown despite the security challenges in Basra was not consistent with Government policy that withdrawal should be conditions‑based.
 
@@ -2419,7 +2419,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 760\. The established policy was that UK forces would withdraw as the capabilities of the ISF increased until responsibility could be handed over to the Iraqi Government. ACM Stirrup's proposed remedy of continued drawdown and managing public opinion did not mitigate the risk of strategic failure he described.
 
-761\. In the summer of 2006, in recognition of the need to stabilise Basra and prepare it for transition to Iraqi control, the UK developed the Basra Security Plan, "a plan to improve Basra through operations, high impact reconstruction and SSR [Security Sector Reform] ... lasting for up to six months".267 The military element of the plan became known as Operation SALAMANCA and included operations against militia groups.
+761\. In the summer of 2006, in recognition of the need to stabilise Basra and prepare it for transition to Iraqi control, the UK developed the Basra Security Plan, "a plan to improve Basra through operations, high impact reconstruction and SSR [Security Sector Reform] ... lasting for up to six months".[^267] The military element of the plan became known as Operation SALAMANCA and included operations against militia groups.
 
 762\. In August 2006, ACM Stirrup was asked to give direction on both seeking US help for Op SALAMANCA and the possibility of deploying UK forces to support US operations outside MND(SE).
 
@@ -2429,7 +2429,7 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 765\. ACM Stirrup also directed that the deployment of UK troops to Multi‑National Division (Centre South):
 
-> "... crossed a clear policy 'red line' and seemed counter‑intuitive, given that consideration was also being given to obtaining US forces for MND(SE). The UK needed to draw down its force levels as soon as practicable, both in MND(SE) and elsewhere."268
+> "... crossed a clear policy 'red line' and seemed counter‑intuitive, given that consideration was also being given to obtaining US forces for MND(SE). The UK needed to draw down its force levels as soon as practicable, both in MND(SE) and elsewhere."[^268]
 
 %%page 106%%
 
@@ -2437,11 +2437,11 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 767\. There was continuing resistance to any suggestion that UK forces should operate outside MND(SE) and there may have been concern that US participation in Op SALAMANCA would have led to an obligation on the UK to engage more outside MND(SE). This might not, as ACM Stirrup observed, be consistent with a commitment to drawdown, but might have reduced the risk of strategic failure.
 
-768\. The nature of Op SALAMANCA was constrained by the Iraqi Government in September 2006, so that the eventual operation (renamed Operation SINBAD) left "Basra in the hands of the militant militia and death squads, with the ISF unable to impose, let alone maintain, the rule of law".269 This contributed to the conditions which led the UK into negotiations with JAM in early 2007.
+768\. The nature of Op SALAMANCA was constrained by the Iraqi Government in September 2006, so that the eventual operation (renamed Operation SINBAD) left "Basra in the hands of the militant militia and death squads, with the ISF unable to impose, let alone maintain, the rule of law".[^269] This contributed to the conditions which led the UK into negotiations with JAM in early 2007.
 
 769\. Attempts were subsequently made to present Op SINBAD as equivalent to the 2007 US surge. Although there was some resemblance between the "Clear, Hold, Build" tactics to be used by US surge forces and the UK's tactics for Op SINBAD, the UK operation did not deploy sufficient additional resources to conduct "Hold" and "Build" phases with anything like the same strategic effect. The additional 360 troops deployed by the UK could not have had the same effect as the more than 20,000 troops surged into Baghdad and its environs by the US.
 
-770\. At the end of 2006, tensions between the military and civilian teams in MND(SE) became explicit. In a report to Mr Blair, Major General Richard Shirreff, General Officer Commanding MND(SE), diagnosed that the existing arrangement, in which the Provincial Reconstruction Team was located in Kuwait, "lacks unity of command and unity of purpose"270 and proposed the establishment of a "Joint Inter‑Agency Task Force" in Basra led by the General Officer Commanding MND(SE).
+770\. At the end of 2006, tensions between the military and civilian teams in MND(SE) became explicit. In a report to Mr Blair, Major General Richard Shirreff, General Officer Commanding MND(SE), diagnosed that the existing arrangement, in which the Provincial Reconstruction Team was located in Kuwait, "lacks unity of command and unity of purpose"[^270] and proposed the establishment of a "Joint Inter‑Agency Task Force" in Basra led by the General Officer Commanding MND(SE).
 
 771\. ACM Stirrup's advice to Mr Blair was that it was "too late" to implement Maj Gen Shirreff's proposal. That may have been the right conclusion, but the effect was to deter consideration of a real problem and of ways in which military and civilian operations in MND(SE) could be better aligned.
 
@@ -2453,17 +2453,17 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 773\. The balance of forces between Iraq and Afghanistan was reviewed by DOP in February 2007 on the basis that the UK could only sustain the enduring operational deployment of eight battlegroups.
 
-774\. ACM Stirrup's "strong advice",271 with which DOP agreed, was that the UK should provide two additional battlegroups to the International Security Assistance Force in Afghanistan, reducing the Iraq to Afghanistan battlegroup ratio from 6:2 to 5:3 and then 4:4.
+774\. ACM Stirrup's "strong advice",[^271] with which DOP agreed, was that the UK should provide two additional battlegroups to the International Security Assistance Force in Afghanistan, reducing the Iraq to Afghanistan battlegroup ratio from 6:2 to 5:3 and then 4:4.
 
 775\. This advice did not include an assessment of either the actual state of security in Basra or the impact on the UK's ability to deliver its objectives (including that drawdown should be conditions‑based) and responsibilities under resolution 1723 (2006). The advice did identify US "nervousness" about the UK proposals.
 
-776\. In early May, Sir Nigel Sheinwald, Mr Blair's Foreign Policy Adviser, sought ACM Stirrup's advice on the future of the UK military presence in Iraq. ACM Stirrup advised that the UK should press ahead with drawdown from Iraq on the basis that there was little more the UK could achieve. There was "no militarily useful mission".272
+776\. In early May, Sir Nigel Sheinwald, Mr Blair's Foreign Policy Adviser, sought ACM Stirrup's advice on the future of the UK military presence in Iraq. ACM Stirrup advised that the UK should press ahead with drawdown from Iraq on the basis that there was little more the UK could achieve. There was "no militarily useful mission".[^272]
 
-777\. Mr Blair was concerned about the implications of ACM Stirrup's position unless the political circumstances in Basra changed first. He commented: "it will be very hard to present as anything other than a total withdrawal ... it cd be very dangerous for the stability of Iraq, & the US will, rightly, be v. concerned."273
+777\. Mr Blair was concerned about the implications of ACM Stirrup's position unless the political circumstances in Basra changed first. He commented: "it will be very hard to present as anything other than a total withdrawal ... it cd be very dangerous for the stability of Iraq, & the US will, rightly, be v. concerned."[^273]
 
 778\. After visiting Basra again in mid‑May, ACM Stirrup continued to recommend the drawdown of UK forces. But other contemporary evidence indicated a more negative picture of circumstances in Basra than ACM Stirrup's view that:
 
-> "... the Iraqis are increasingly in a position to take on responsibility for their own problems and therefore they might wish to look to propose the south of the country as a model through which we can recommend a drawdown of forces."274
+> "... the Iraqis are increasingly in a position to take on responsibility for their own problems and therefore they might wish to look to propose the south of the country as a model through which we can recommend a drawdown of forces."[^274]
 
 779\. In July 2007, FCO and MOD officials recognised that leaving Basra Palace would mean moving to PIC in fact if not in name. Mr Brown, who had become Prime Minister in June, was keen that the gap between leaving the Palace and transfer to PIC should be as small as possible, since UK situational awareness and ability to conduct operations in Basra would be limited once the Palace was no longer in use.
 
@@ -2471,11 +2471,11 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 %%page 108%%
 
-General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker, US Ambassador to Iraq, remained "circumspect" on the timing of PIC.275 They considered that there remained "significant problems" associated with "unstable politics" and "JAM infiltration" in Basra.
+General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker, US Ambassador to Iraq, remained "circumspect" on the timing of PIC.[^275] They considered that there remained "significant problems" associated with "unstable politics" and "JAM infiltration" in Basra.
 
-781\. As they reached the end of their respective tours of duty, both Major General Jonathan Shaw, General Officer Commanding MND(SE) from January to August 2007, and Lieutenant General William Rollo, Senior British Military Representative – Iraq from July 2007 to March 2008, identified the impact of limited resources on the UK's military effort and questioned the drive for continued drawdown in Iraq in order to prioritise resources for Helmand. Maj Gen Shaw wrote: "We have been hamstrung for resources throughout the tour, driven by the rising strategic significance of the Afghan deployment."276
+781\. As they reached the end of their respective tours of duty, both Major General Jonathan Shaw, General Officer Commanding MND(SE) from January to August 2007, and Lieutenant General William Rollo, Senior British Military Representative – Iraq from July 2007 to March 2008, identified the impact of limited resources on the UK's military effort and questioned the drive for continued drawdown in Iraq in order to prioritise resources for Helmand. Maj Gen Shaw wrote: "We have been hamstrung for resources throughout the tour, driven by the rising strategic significance of the Afghan deployment."[^276]
 
-782\. During a visit to Iraq in October 2007, ACM Stirrup was briefed by Major General Graham Binns, General Office Commanding MND(SE) from August 2007 to February 2008, that the ISF might have only limited ability to cope in the event that JAM resumed combat operations. The JIC and others also identified continued weaknesses in the ISF. Their "ability and willingness to maintain security in the South remains patchy and dependent on MNF training, logistic and specialist air support".277
+782\. During a visit to Iraq in October 2007, ACM Stirrup was briefed by Major General Graham Binns, General Office Commanding MND(SE) from August 2007 to February 2008, that the ISF might have only limited ability to cope in the event that JAM resumed combat operations. The JIC and others also identified continued weaknesses in the ISF. Their "ability and willingness to maintain security in the South remains patchy and dependent on MNF training, logistic and specialist air support".[^277]
 
 ## THE BEGINNING OF THE END
 
@@ -2513,13 +2513,13 @@ General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker,
 
 792\. The Iraq of 2009 certainly did not meet the UK's objectives as described in January 2003: it fell far short of strategic success. Although the borders of Iraq were the same as they had been in 2003, deep sectarian divisions threatened both stability and unity. Those divisions were not created by the coalition, but they were exacerbated by its decisions on de‑Ba'athification and on demobilisation of the Iraqi Army and were not addressed by an effective programme of reconciliation.
 
-793\. In January 2009, the JIC judged "internal political failures that could lead to renewed violence within and between Iraq's Sunni, Shia and Kurdish communities"278 to be the greatest strategic threat to Iraq's stability.
+793\. In January 2009, the JIC judged "internal political failures that could lead to renewed violence within and between Iraq's Sunni, Shia and Kurdish communities"[^278] to be the greatest strategic threat to Iraq's stability.
 
 %%page 110%%
 
 794\. The fragility of the situation in Basra, which had been the focus of UK effort in MND(SE), was clear. The JIC assessed that threats remained from Iranian‑backed JAM Special Groups, and the Iraqi Security Forces remained reliant on support from Multi‑National Forces to address weaknesses in leadership and tactical support. Even as UK troops withdrew from Basra, the US was sufficiently concerned to deploy its own forces there, to secure the border and protect supply lines.
 
-795\. In 2009, Iraq did have a democratically elected Parliament, in which many of Iraq's communities were represented. But, as demonstrated by the protracted process of negotiating agreements on the status of US and then UK forces in Iraq, and the continued absence of a much‑needed Hydrocarbons Law, representation did not translate into effective government. In 2008, Transparency International judged Iraq to be the third most corrupt country in the world, and in mid‑2009 the Assessments Staff judged that Government ministries were "riddled with" corruption.279
+795\. In 2009, Iraq did have a democratically elected Parliament, in which many of Iraq's communities were represented. But, as demonstrated by the protracted process of negotiating agreements on the status of US and then UK forces in Iraq, and the continued absence of a much‑needed Hydrocarbons Law, representation did not translate into effective government. In 2008, Transparency International judged Iraq to be the third most corrupt country in the world, and in mid‑2009 the Assessments Staff judged that Government ministries were "riddled with" corruption.[^279]
 
 796\. By 2009, it had been demonstrated that some elements of the UK's 2003 objectives for Iraq were misjudged. No evidence had been identified that Iraq possessed weapons of mass destruction, with which it might threaten its neighbours and the international community more widely. But in the years between 2003 and 2009, events in Iraq had undermined regional stability, including by allowing Al Qaida space in which to operate and unsecured borders across which its members might move.
 
@@ -2948,19 +2948,19 @@ General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker,
 
 845\. As the Foreign Affairs Committee report in July 2003 pointed out, the late Sir Percy Cradock wrote in his history of the JIC that:
 
-> "Ideally, intelligence and policy should be close but distinct. Too distinct and assessments become an in‑growing, self‑regarding activity, producing little or no work of interest to the decision‑makers ... Too close a link and policy begins to play back on estimates, producing the answers the policy makers would like ... The analysts become courtiers, whereas their proper function is to report their findings ... without fear or favour. The best arrangement is intelligence and policy in separate but adjoining rooms, with communicating doors and thin partition walls ..."280
+> "Ideally, intelligence and policy should be close but distinct. Too distinct and assessments become an in‑growing, self‑regarding activity, producing little or no work of interest to the decision‑makers ... Too close a link and policy begins to play back on estimates, producing the answers the policy makers would like ... The analysts become courtiers, whereas their proper function is to report their findings ... without fear or favour. The best arrangement is intelligence and policy in separate but adjoining rooms, with communicating doors and thin partition walls ..."[^280]
 
 846\. Mr Straw told the FAC in 2003:
 
-> "The reason why we have a Joint Intelligence Committee which is separate from the intelligence agencies is precisely so that those who are obtaining the intelligence are not then directly making the assessment upon it. That is one of the very important strengths of our system compared with most other systems around the world."281
+> "The reason why we have a Joint Intelligence Committee which is separate from the intelligence agencies is precisely so that those who are obtaining the intelligence are not then directly making the assessment upon it. That is one of the very important strengths of our system compared with most other systems around the world."[^281]
 
 %%page 133%%
 
-847\. The FAC endorsed those sentiments.282 It stated that the JIC has a "vital role in safeguarding the independence and impartiality of intelligence"; and that the "independence and impartiality of its own role" was "of the utmost importance". It recommended that Ministers should "bear in mind at all times the importance of ensuring that the JIC is free of all political pressure".
+847\. The FAC endorsed those sentiments.[^282] It stated that the JIC has a "vital role in safeguarding the independence and impartiality of intelligence"; and that the "independence and impartiality of its own role" was "of the utmost importance". It recommended that Ministers should "bear in mind at all times the importance of ensuring that the JIC is free of all political pressure".
 
 848\. In its response to the FAC, the Government stated:
 
-> "We agree. The JIC plays a crucial role in providing the Government with objective assessments on a range of issues of importance to national interests."283
+> "We agree. The JIC plays a crucial role in providing the Government with objective assessments on a range of issues of importance to national interests."[^283]
 
 ### The invasion of Iraq
 

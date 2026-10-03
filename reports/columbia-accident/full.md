@@ -1753,21 +1753,21 @@ R3.4-3 Provide a capability to obtain and downlink high-resolution images of the
 
 Immediately after the accident, Air Force Space Command began an in-depth review of its Space Surveillance Network data to determine if there were any detectable anomalies during the STS-107 mission. A review of the data resulted in no information regarding damage to the Orbiter. However, Air Force processing of Space Surveillance Network data yielded 3,180 separate radar or optical observations of the Orbiter from radar sites at Eglin, Beale, and Kirtland Air Force Bases, Cape Cod Air Force Station, the Air Force Space Commandʼs Maui Space Surveillance System in Hawaii, and the Navy Space Surveillance System. These observations, examined after the accident, showed a small object in orbit with Columbia. In accordance with the International Designator system, the object was named 2003- 003B (Columbia was designated 2003-003A). The timeline of significant events includes:
 
-1. January 17, 2003, 9:42 a.m. Eastern Standard Time:
+1\. January 17, 2003, 9:42 a.m. Eastern Standard Time:
 
 Orbiter moves from tail-first to right-wing-first orientation 2. January 17, 10:17 a.m.: Orbiter returns to tail-first orientation 3. January 17, 3:57 p.m.: First confirmed sensor track of object 2003-003B 4. January 17, 4:46 p.m.: Last confirmed sensor track for this date
 
 %%page 63%%
 
-5. January 18: Object reacquired and tracked by Cape
+5\. January 18: Object reacquired and tracked by Cape
 
 Cod Air Force Station PAVE PAWS
 
-6. January 19: Object reacquired and tracked by Space
+6\. January 19: Object reacquired and tracked by Space
 
 Surveillance Network
 
-7. January 20, 8:45 – 11:45 p.m.: 2003-003B orbit decays. Last track by Navy Space Surveillance System
+7\. January 20, 8:45 – 11:45 p.m.: 2003-003B orbit decays. Last track by Navy Space Surveillance System
 
 Events around the estimated separation time of the object were reviewed in great detail. Extensive on-board sensor data indicates that no unusual crew activities, telemetry data, or accelerations in Orbiter or payload can account for the release of an object. No external mechanical systems were active, nor were any translational (forward, backward, or sideways, as opposed to rotational) maneuvers attempted in this period. However, two attitude maneuvers were made: a 48-degree yaw maneuver to a left-wing-forward and payload-bay-to-Earth attitude from 9:42 to 9:46 a.m. EST), and
 
@@ -3294,9 +3294,7 @@ September 1999-February 2001. CAIB document CTF070-34793501.
 
 Boeing briefing, "Arc Tracking Separation of Critical Wiring Redundancy
 
-Violations", present to NASA by Joe Daileda and Bill Crawford, April 18,
-
-2001. CAIB document CAB033-43774435.
+Violations", present to NASA by Joe Daileda and Bill Crawford, April 18, 2001. CAIB document CAB033-43774435.
 
 E-mail message from Jim Feeley, Lockheed Martin, Michoud Assembly
 
@@ -4323,9 +4321,7 @@ Howard E. McCurdy, Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Spac
 
 2001).
 
-Letter from Daniel Goldin to Representative James T. Walsh, October 4,
-
-2001. CAIB document CAB065-01630169. 25
+Letter from Daniel Goldin to Representative James T. Walsh, October 4, 2001. CAIB document CAB065-01630169. 25
 
 Ibid. 26
 
@@ -6032,13 +6028,13 @@ In the course of examining film and video images of Columbiaʼs ascent, the Inte
 
 #### IMAGERY REQUESTS
 
-1. Flight Day 2. Bob Page, Chair, Intercenter Photo Working Group to Wayne Hale, Shuttle Program Manager for Launch Integration at Kennedy Space Center (in person).
+1\. Flight Day 2. Bob Page, Chair, Intercenter Photo Working Group to Wayne Hale, Shuttle Program Manager for Launch Integration at Kennedy Space Center (in person).
 
-2. Flight Day 6. Bob White, United Space Alliance manager, to Lambert Austin, head of the Space
+2\. Flight Day 6. Bob White, United Space Alliance manager, to Lambert Austin, head of the Space
 
 Shuttle Systems Integration at Johnson Space Center (by phone).
 
-3. Flight Day 6. Rodney Rocha, Co-Chair of Debris Assessment Team to Paul Shack, Manager,
+3\. Flight Day 6. Rodney Rocha, Co-Chair of Debris Assessment Team to Paul Shack, Manager,
 
 Shuttle Engineering Office (by e-mail).
 
@@ -6046,25 +6042,25 @@ Shuttle Engineering Office (by e-mail).
 
 #### MISSED OPPORTUNITIES
 
-1. Flight Day 4. Rodney Rocha inquires if crew has been asked to inspect for damage. No response.
+1\. Flight Day 4. Rodney Rocha inquires if crew has been asked to inspect for damage. No response.
 
-2. Flight Day 6. Mission Control fails to ask crew member David Brown to downlink video he took of External Tank separation, which may have revealed missing bipod foam.
+2\. Flight Day 6. Mission Control fails to ask crew member David Brown to downlink video he took of External Tank separation, which may have revealed missing bipod foam.
 
-3. Flight Day 6. NASA and National Imagery and Mapping Agency personnel discuss possible request for imagery. No action taken.
+3\. Flight Day 6. NASA and National Imagery and Mapping Agency personnel discuss possible request for imagery. No action taken.
 
-4. Flight Day 7. Wayne Hale phones Department of Defense representative, who begins identifying imaging assets, only to be stopped per Linda Hamʼs orders.
+4\. Flight Day 7. Wayne Hale phones Department of Defense representative, who begins identifying imaging assets, only to be stopped per Linda Hamʼs orders.
 
-5. Flight Day 7. Mike Card, a NASA Headquarters manager from the Safety and Mission Assur-
+5\. Flight Day 7. Mike Card, a NASA Headquarters manager from the Safety and Mission Assur-
 
 > ance Office, discusses imagery request with Mark Erminger, Johnson Space Center Safety and Mission Assurance. No action taken.
 
-6. Flight Day 7. Mike Card discusses imagery request with Bryan OʼConnor, Associate Administrator for Safety and Mission Assurance. No action taken.
+6\. Flight Day 7. Mike Card discusses imagery request with Bryan OʼConnor, Associate Administrator for Safety and Mission Assurance. No action taken.
 
-7. Flight Day 8. Barbara Conte, after discussing imagery request with Rodney Rocha, calls LeRoy
+7\. Flight Day 8. Barbara Conte, after discussing imagery request with Rodney Rocha, calls LeRoy
 
 > Cain, the STS-107 ascent/entry Flight Director. Cain checks with Phil Engelauf, and then deliv- ers a "no" answer.
 
-8. Flight Day 14. Michael Card, from NASAʼs Safety and Mission Assurance Office, discusses the
+8\. Flight Day 14. Michael Card, from NASAʼs Safety and Mission Assurance Office, discusses the
 
 > imaging request with William Readdy, Associate Administrator for Space Flight. Readdy directs that imagery should only be gathered on a "not-to-interfere" basis. None was forthcoming.
 
@@ -6364,9 +6360,7 @@ M. Elisabeth Paté-Cornell, "Follow-up on the Standard 1990 Study of the
 
 Risk of Loss of Vehicle and Crew of the NASA Space Shuttle Due to Tile
 
-Failure," Report to the Columbia Accident Investigation Board, 18 June
-
-2003. CAIB document CAB006-00970104. 35
+Failure," Report to the Columbia Accident Investigation Board, 18 June 2003. CAIB document CAB006-00970104. 35
 
 M. Litwinsk and G. Wilson, et al., "End-to-End TPS Upgrades Plan for Space Shuttle Orbiter," February 1997; K. Hinkle and G. Wilson,
 
@@ -8241,9 +8235,7 @@ Report of the Aerospace Safety Advisory Panel Annual Report for 2002,
 
 CTF014-25882645.
 
-Charlie Abner, "KSC Processing Review Team Final Summary," June 16,
-
-2003. CAIB document CTF063-11801276.
+Charlie Abner, "KSC Processing Review Team Final Summary," June 16, 2003. CAIB document CTF063-11801276.
 
 %%page 225%%
 

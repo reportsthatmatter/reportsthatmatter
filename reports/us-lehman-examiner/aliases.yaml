@@ -10,6 +10,7 @@ aliases:
   after-reviewing-evidence-examiner-finds: although-lehman-s-management-did
   although-lehman-made-strategic-decision: described-above-lehman-s-stress
   although-lehman-s-alt-mortgages: second-half-2006-lehman-began
+  any-legal-constraints-scope-management: although-lehman-s-risk-appetite
   approach-risk-205-risk-appetite: lehman-had-series-risk-appetite
   archstone-dermody-prologis-bridge-equity: lehman-raised-its-firm-wide
   asia-49-september-15-2008: lehman-no-longer-had-sufficient
@@ -49,6 +50,7 @@ aliases:
   global-consolidated-balance-sheet-global: lbex-docid-3237230-stating-repo
   global-financial-controller-erin-callan: kelly-s-concerns-about-lehman
   greg-s-head-credit-distribution: growth-leveraged-loan-business-growth
+  gregory-lehman-s-president-chief: during-course-2006-lehman-s
   gregory-s-approval-institute-balance: broadly-speaking-mcdade-s-goal
   high-bar-establishing-breach-fiduciary: delaware-law-which-governs-delaware
   however-one-director-said-if: omission-noted-january-29-2008
@@ -56,11 +58,13 @@ aliases:
   ii-leveraged-loan-disclosures: b-explosion-lehman-s-leveraged
   investments-potentially-highly-profitable-lines: 2006-lehman-adopted-more-aggressive
   lehman-also-dramatically-increased-its: same-time-lehman-rapidly-growing
+  lehman-did-not-pursue-aggressive: then-early-october-2007-when
   lehman-did-not-successfully-take: before-bear-stearns-near-collapse
   lehman-had-undertaken-end-first: potential-risks-problems-lehman-s
   lehman-involved-ernst-young-its: may-16-2008-matthew-lee
   lehman-publicly-asserted-throughout-2008: mid-march-2008-after-bear
   lehman-repoing-out-treasury-securities: after-having-repo-105-transactions
+  lehman-required-sec187-conduct-some: lehman-required-sec-conduct-some
   lehman-s-alternative-structures-requires: broadly-speaking-lehman-effected-repo
   lehman-s-board-rating-agencies: lehman-s-principal-investments-illiquid
   lehman-s-entire-pre-existing: lehman-s-officers-exercised-judgment
@@ -114,6 +118,7 @@ aliases:
   these-limits-would-also-have: lehman-also-failed-apply-its
   thus-its-net-leverage-lehman: although-lehman-ultimately-took-aggressive
   transactions-during-course-2007-including: described-above-lehman-entered-into
+  transactions-rose-38-billion-close: late-2007-early-2008-volume
   treasury-department-relied-pipeline-reports: deal-these-concerns-war-footing
   united-states-law-repo-105: kelly-wanted-ensure-ernst-young
   us-t-s-agencies-tips: lbex-docid-2786869-we-have
@@ -122,5 +127,7 @@ sections:
   report-of-examiner-anton-r-valukas: cooperation-and-coordination-with-the-government-and-parties
   why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise: why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise-from-its-fin
 unmatched:
+  - committee-alco-3635
   - from-its-financial-condition-failure-2
+  - gross-leverage-30-3
   - voidable-transfers

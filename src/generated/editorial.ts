@@ -86,9 +86,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "On the eve of the launch, Thiokol engineers warned that the cold would impair the seals. The report finds that the response of Marshall managers led Thiokol's management to set aside their own engineers' judgement and recommend launch, and that the decision rested on faulty engineering analysis.",
         "cites": [
           {
-            "id": "findings-3",
-            "page": 10,
-            "href": "/reports/challenger-accident?p=findings-3"
+            "id": "2-decision-launch-sts-51-l-2",
+            "page": 69,
+            "href": "/reports/challenger-accident?p=2-decision-launch-sts-51-l-2"
           },
           {
             "id": "eve-launch-thiokol-engineers-attempted",
@@ -104,9 +104,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "The decision to launch STS 51-L was based on a faulty engineering analysis of the SRM field joint seal behavior.",
           "cite": {
-            "id": "findings-3",
-            "page": 10,
-            "href": "/reports/challenger-accident?p=findings-3"
+            "id": "2-decision-launch-sts-51-l-2",
+            "page": 69,
+            "href": "/reports/challenger-accident?p=2-decision-launch-sts-51-l-2&h=2.%20|The%20decision%20to%20launch%20STS%2051-L%20was%20based%20on%20a%20faulty%20engineering%20analysis%20of%20the%20SRM%20field%20joint%20seal%20behavior.|"
           }
         }
       },
@@ -765,9 +765,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "prosecuting-mr-trump-served-multiple-substantial-federal-interests",
-        "title": "Prosecuting Mr. Trump Served Multiple Substantial Federal Interests",
-        "page": "70",
+        "slug": "the-principles-of-federal-prosecution",
+        "title": "THE PRINCIPLES OF FEDERAL PROSECUTION",
+        "page": "69",
         "why": "Why prosecute a former president at all — the prosecutors' argument, including what the police at the Capitol went through."
       },
       {
@@ -1311,9 +1311,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "did-the-uk-achieve-its-objectives-in-iraq",
-        "title": "Did the UK achieve its objectives in Iraq?",
-        "page": "110",
+        "slug": "the-beginning-of-the-end",
+        "title": "THE BEGINNING OF THE END",
+        "page": "109",
         "why": "The Inquiry's verdict on the six years of occupation and what they left behind.",
         "excerpt": {
           "quote": "The Iraq of 2009 certainly did not meet the UK's objectives as described in January 2003: it fell far short of strategic success.",
@@ -1797,7 +1797,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "7-2-i-have-therefore",
             "page": 1781,
-            "href": "/reports/uk-leveson-inquiry?p=7-2-i-have-therefore&h=7.2%20|I%20have%20therefore%20set%20out%20a%20vision%20of%20a%20voluntary%20independent%20self-organised%20regulatory%20system%20that%20would%20provide%20an%20appropriate%20degree%20of%20independence%20from%20the%20industry%2C%20coupled%20with%20satisfactory%20powers%20to%20handle%20complaints%2C%20promote%20and%20enforce%20standards%2C%20and%20deal%20with%20dispute%20resolution.|58"
+            "href": "/reports/uk-leveson-inquiry?p=7-2-i-have-therefore&h=7.2%20|I%20have%20therefore%20set%20out%20a%20vision%20of%20a%20voluntary%20independent%20self-organised%20regulatory%20system%20that%20would%20provide%20an%20appropriate%20degree%20of%20independence%20from%20the%20industry%2C%20coupled%20with%20satisfactory%20powers%20to%20handle%20complaints%2C%20promote%20and%20enforce%20standards%2C%20and%20deal%20with%20dispute%20resolution.|"
           }
         }
       },
@@ -1839,7 +1839,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "nor-i-pointed-out-4",
             "page": 546,
-            "href": "/reports/uk-leveson-inquiry?p=nor-i-pointed-out-4&h=what%20some%20have%20suggested.16%20|The%20fact%20remains%20that%20the%20NoTW%20hacked%20the%20phone%20of%20a%20dead%20schoolgirl%20called%20Milly%20Dowler.%20The%20revelation%20of%20that%20story%20r%E2%8B%AFing%20calls%20for%20light%20to%20be%20shed%20on%20an%20unethical%20and%20unlawful%20practice%20of%20which%20there%20were%20literally%20thousands%20of%20victims.|%20In%20that%20context%2C%20whether"
+            "href": "/reports/uk-leveson-inquiry?p=nor-i-pointed-out-4&h=what%20some%20have%20suggested.%20|The%20fact%20remains%20that%20the%20NoTW%20hacked%20the%20phone%20of%20a%20dead%20schoolgirl%20called%20Milly%20Dowler.%20The%20revelation%20of%20that%20story%20r%E2%8B%AFing%20calls%20for%20light%20to%20be%20shed%20on%20an%20unethical%20and%20unlawful%20practice%20of%20which%20there%20were%20literally%20thousands%20of%20victims.|%20In%20that%20context%2C%20whether"
           }
         }
       },
@@ -2044,8 +2044,8 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "chapter-4-the-question-of-responsibility",
-        "title": "Chapter 4: The question of responsibility",
+        "slug": "chapter-4-the-question-of-responsibility-for-the-deaths-and-injuries-on-bloody-s",
+        "title": "Chapter 4: The question of responsibility for the deaths and injuries on Bloody Sunday",
         "page": "91",
         "why": "Who, beyond the soldiers who fired, the Tribunal holds responsible for the deaths and injuries - and who it clears, including the generals and the Brigadier who gave the orders.",
         "excerpt": {
@@ -2060,7 +2060,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-2-outline-of-events-before-the-day",
         "title": "Chapter 2: Outline of events before the day",
-        "page": "50",
+        "page": "49",
         "why": "How a banned civil rights march became an arrest operation - the barriers, the changed route, and the decision to use 1 PARA.",
         "excerpt": {
           "quote": "To that end General Ford ordered that 1st Battalion, The Parachute Regiment (1 PARA), which was stationed near Belfast, should travel to Londonderry and be used as the arrest force.",
@@ -2072,16 +2072,16 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "chapter-7-the-period-up-to-july",
+        "slug": "chapter-7-the-period-up-to-july-1971",
         "title": "The period up to July 1971",
         "page": "106",
         "why": "The wider history the Tribunal thought necessary background - partition, the charge of gerrymandering in Londonderry's local government, and the civil rights marches of 1968-69.",
         "excerpt": {
-          "quote": "These events led to the establishment of the first \"no go \" areas in Londonderry. Residents of the Bogside and other predominantly Catholic parts of the city erected barricades and organised vigilante patrols to prevent the RUC or loyalist crowds from entering their neighbourhoods.",
+          "quote": "These events led to the establishment of the first “no go” areas in Londonderry. Residents of the Bogside and other predominantly Catholic parts of the city erected barricades and organised vigilante patrols to prevent the RUC or loyalist crowds from entering their neighbourhoods.",
           "cite": {
             "id": "7-58-these-events-led",
             "page": 122,
-            "href": "/reports/uk-saville-inquiry?p=7-58-these-events-led&h=7.58%20|These%20events%20led%20to%20the%20establishment%20of%20the%20first%20%22no%20go%20%22%20areas%20in%20Londonderry.%20Residents%20of%20the%20Bogside%20and%20other%20predominantly%20Catholic%20parts%20of%20the%20city%20erected%20barricades%20and%20organised%20vigilante%20patrols%20to%20prevent%20the%20RUC%20or%20loyalist%20crowds%20from%20entering%20their%20neighbourhoods.|%20The%20famous%20slogan%2C%20%22You"
+            "href": "/reports/uk-saville-inquiry?p=7-58-these-events-led&h=7.58%20|These%20events%20led%20to%20the%20establishment%20of%20the%20first%20%E2%80%9Cno%20go%E2%80%9D%20areas%20in%20Londonderry.%20Residents%20of%20the%20Bogside%20and%20other%20predominantly%20Catholic%20parts%20of%20the%20city%20erected%20barricades%20and%20organised%20vigilante%20patrols%20to%20prevent%20the%20RUC%20or%20loyalist%20crowds%20from%20entering%20their%20neighbourhoods.|%20The%20famous%20slogan%2C%20%E2%80%9CYou"
           }
         }
       }
@@ -2274,8 +2274,8 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ],
     "readingGuide": [
       {
-        "slug": "11-inside-the-four-flights",
-        "title": "1.1 Inside the Four Flights",
+        "slug": "we-have-some-planes",
+        "title": "\"WE HAVE SOME PLANES\"",
         "page": "2",
         "why": "Minute by minute, how four hijacked airliners boarded, took off, and defeated the security and air-defence systems in place that morning.",
         "excerpt": {
@@ -2302,8 +2302,8 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "111-imagination",
-        "title": "11.1 Imagination",
+        "slug": "foresightand-hindsight",
+        "title": "FORESIGHT—AND HINDSIGHT",
         "page": "340",
         "why": "The Commission's own diagnosis of why the attack succeeded — not one culprit but four kinds of failure — and why imagination was the hardest to build into routine practice.",
         "excerpt": {
@@ -2316,9 +2316,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "131-unity-of-effort-across-the-foreign-domestic-divide",
-        "title": "13.1 Unity of Effort across the Foreign-Domestic Divide",
-        "page": "401",
+        "slug": "how-to-do-it-a-different-way-of-organizing-the-government",
+        "title": "HOW TO DO IT? A DIFFERENT WAY OF ORGANIZING THE GOVERNMENT",
+        "page": "400",
         "why": "The case for a National Counterterrorism Center, and how the Commission proposed it should work.",
         "excerpt": {
           "quote": "We recommend the establishment of a National Counterterrorism Center (NCTC), built on the foundation of the existing Terrorist Threat Integration Center (TTIC).",
@@ -2864,7 +2864,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "nagioff-also-had-broader-concerns",
             "page": 120,
-            "href": "/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=operating%20in%20a%20%22credit%20bubble.%22%20|Months%20later%2C%20Antoncic%2C%20for%20example%2C%20reflected%20back%20on%20the%20general%20consensus%20that%20the%20markets%20were%20in%20trouble%3A%20%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|440"
+            "href": "/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=operating%20in%20a%20%22credit%20bubble.%22%20|Months%20later%2C%20Antoncic%2C%20for%20example%2C%20reflected%20back%20on%20the%20general%20consensus%20that%20the%20markets%20were%20in%20trouble%3A%20%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|"
           }
         }
       },
@@ -2996,7 +2996,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "within-ten-days-sale-thomas",
             "page": 394,
-            "href": "/reports/us-psi-financial-crisis?p=within-ten-days-sale-thomas&h=|Within%20ten%20days%20of%20that%20sale%2C%20Thomas%20Montag%2C%20a%20senior%20Goldman%20executive%2C%20sent%20an%20email%20to%20the%20Mortgage%20Department%20head%2C%20Daniel%20Sparks%2C%20stating%3A%20%22boy%20that%20timeberwof%20%5BTimberwolf%5D%20was%20one%20shitty%20deal.%22|1598%20Despite%20that"
+            "href": "/reports/us-psi-financial-crisis?p=within-ten-days-sale-thomas&h=|Within%20ten%20days%20of%20that%20sale%2C%20Thomas%20Montag%2C%20a%20senior%20Goldman%20executive%2C%20sent%20an%20email%20to%20the%20Mortgage%20Department%20head%2C%20Daniel%20Sparks%2C%20stating%3A%20%22boy%20that%20timeberwof%20%5BTimberwolf%5D%20was%20one%20shitty%20deal.%22|%20Despite%20that%20comment%2C"
           }
         }
       },
@@ -3069,7 +3069,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "times-some-cra-analysts-openly",
             "page": 297,
-            "href": "/reports/us-psi-financial-crisis?p=times-some-cra-analysts-openly&h=risks%20in%20CDO's%20of%20RMBS'%3F%221154%20|In%20an%20April%202007%20instant%20message%2C%20an%20S%26P%20analyst%20offered%20this%20cynical%20comment%3A%20%22%5BW%5De%20rate%20every%20deal%5B.%5D%20%5BI%5Dt%20could%20be%20structured%20by%20cows%20and%20we%20would%20rate%20it.%22|"
+            "href": "/reports/us-psi-financial-crisis?p=times-some-cra-analysts-openly&h=risks%20in%20CDO's%20of%20RMBS'%3F%22%20|In%20an%20April%202007%20instant%20message%2C%20an%20S%26P%20analyst%20offered%20this%20cynical%20comment%3A%20%22%5BW%5De%20rate%20every%20deal%5B.%5D%20%5BI%5Dt%20could%20be%20structured%20by%20cows%20and%20we%20would%20rate%20it.%22|"
           }
         }
       },
@@ -3359,7 +3359,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "court-will-therefore-order-ban",
             "page": 1660,
-            "href": "/reports/us-v-philip-morris?p=court-will-therefore-order-ban&h=the%20absence%20of%20such%20a%20ban.%20|Accordingly%2C%20beginning%20January%201%2C%202007%2C%20Defendants%20are%20prohibited%20from%20using%20any%20descriptors%20indicating%20lower%20tar%20delivery%20--%20including%2C%20but%20not%20limited%20to%2C%20%22low%20tar%2C%22%20%22light%2C%22%20%22mild%2C%22%20%22medium%22%20and%20%22ultra%20light%22%20--%20which%20create%20the%20false%20impression%20that%20such%20cigarettes%20are%20less%20harmful%20to%20smokers.|52"
+            "href": "/reports/us-v-philip-morris?p=court-will-therefore-order-ban&h=the%20absence%20of%20such%20a%20ban.%20|Accordingly%2C%20beginning%20January%201%2C%202007%2C%20Defendants%20are%20prohibited%20from%20using%20any%20descriptors%20indicating%20lower%20tar%20delivery%20--%20including%2C%20but%20not%20limited%20to%2C%20%22low%20tar%2C%22%20%22light%2C%22%20%22mild%2C%22%20%22medium%22%20and%20%22ultra%20light%22%20--%20which%20create%20the%20false%20impression%20that%20such%20cigarettes%20are%20less%20harmful%20to%20smokers.|"
           }
         }
       }

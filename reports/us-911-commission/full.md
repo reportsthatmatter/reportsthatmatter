@@ -2505,6 +2505,8 @@ Finally, the CIA considered the possibility of putting U.S. personnel on the gro
 
 As mentioned earlier, such a protracted deployment of U.S. Special Operations Forces into Afghanistan, perhaps as part of a team joined to a deployment of the CIA's own officers, would have required a major policy initiative (probably combined with efforts to secure the support of at least one or two neighboring countries) to make a long-term commitment, establish a durable presence on the ground, and be prepared to accept the associated risks and costs. Such a military plan was never developed for interagency consideration before 9/11.As 1999 came to a close, the CIA had a new strategic plan in place for capturing Bin Ladin, but no option was rated as having more than a 15 percent chance of achieving that objective.
 
+%%page 144%%
+
 %%page 145%%
 
 ## AL QAEDA AIMS AT THE AMERICAN HOMELAND
@@ -5001,6 +5003,8 @@ The lesson of 9/11 for civilians and first responders can be stated simply: in t
 
 The first responders of today live in a world transformed by the attacks on 9/11. Because no one believes that every conceivable form of attack can be prevented, civilians and first responders will again find themselves on the front lines. We must plan for that eventuality. A rededication to preparedness is perhaps the best way to honor the memories of those we lost that day.
 
+%%page 324%%
+
 %%page 325%%
 
 ## WARTIME
@@ -6316,6 +6320,8 @@ And, just as the combatant commanders also report to the secretary of defense, t
 
 - The Defense Department's military intelligence programs—the joint military intelligence program (JMIP) and the tactical intelligence and related activities program (TIARA)-would remain part of that department's responsibility.
 
+%%page 413%%
+
 %%page 414%%
 
 - The National Intelligence Director would set personnel policies to establish standards for education and training and facilitate assignments at the national intelligence centers and across agency lines. The National Intelligence Director also would set information sharing and information technology policies to maximize data sharing, as well as policies to protect the security of information.
@@ -7080,6 +7086,8 @@ The Honorable Condoleezza Rice,Assistant to the President for National Security 
 - Benedict Sliney, Operations Manager, New York Terminal Radar Approach Control, Federal Aviation Administration
 
 %%page 447%%
+
+%%page 448%%
 
 %%page 449%%
 

@@ -80,6 +80,9 @@
 1-5
 1-5-mm
 1-50
+1-flight-day-2-bob
+1-flight-day-4-rodney
+1-january-17-2003-9
 1-national-aeronautics-space-administration
 1-schedule-margin---past
 10-000
@@ -199,6 +202,8 @@
 2-5
 2-5-4-crew-survival
 2-6-abort-crew-escape
+2-flight-day-6-bob
+2-flight-day-6-mission
 2-spaceflight-november-1994-pp
 20-10
 20-2003-see-appendix-e
@@ -256,6 +261,8 @@
 3-781-3-324-2
 3-accommodate-4s-slip-1
 3-depending-final-size-failed
+3-flight-day-6-nasa
+3-flight-day-6-rodney
 3-months-slip-o-d
 30-atlantis-only-14-26
 30-degrees-fahrenheit-65-degrees
@@ -273,6 +280,7 @@
 4-36-p-m-monday
 4-5
 4-although-there-more-volume
+4-flight-day-7-wayne
 4-iss-adding-wrist-joint
 40-0-3-118-8
 40-l-elevon-accel-fail
@@ -299,6 +307,8 @@
 5-000-critical-items-3
 5-23-03
 5-650-5-312-4
+5-flight-day-7-mike
+5-january-18-object-reacquired
 5-tasks-parallel-adjusted
 50-0-2-912-8
 50-0-4-052-9
@@ -320,6 +330,8 @@
 6-5
 6-8
 6-8-36-41-35
+6-flight-day-7-mike
+6-january-19-object-reacquired
 600-48-59
 600-48-59-ei-487
 600-650-700-750-800
@@ -338,7 +350,9 @@
 7-5-2-nasa-headquarters-office
 7-5-3-reorganize-space-shuttle
 7-9
+7-flight-day-8-barbara
 7-hours-20-minutes-prior
+7-january-20-8-45
 7-powered-on-testing-3
 7-powered-on-testing-3--67
 7-powered-on-testing-3-7
@@ -365,6 +379,7 @@
 8-9-26-3
 8-9-interface-chemical-analysis
 8-angle-incidence-between-10
+8-flight-day-14-michael
 8-power-00-18-19
 80-9-9
 81-7-seconds-after-launch

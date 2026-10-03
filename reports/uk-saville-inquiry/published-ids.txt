@@ -8,9 +8,11 @@
 1-6-many-soldiers-including
 1-7-londonderry-second-largest
 1-alexander-nash
+1-arrest-significant-number-identified
 1-background-present-declared-intention
 1-cg-1st-battalion-coldstream
 1-foyle-car-park
+1-fundamental-changes-system-local
 1-g70-438-439
 1-if-police-become-aware
 1-initially-we-intend-deal
@@ -21,11 +23,19 @@
 1-patrick-doherty
 1-r-anglian-1st-battalion
 1-sustain-attrition-operation
+1-withdrawing-army
+10-redrawing-border
 10-there-early-infiltration-civil
 11-infiltration-assisted-declared-insistence
+11-reversion-1920-act
+12-negotiations-dublin-reunification-ireland
 12-what-originally-belfast-students
+13-condominium
 13-other-side-deliberate-organised
 14-police-handling-demonstration-londonderry
+14-policy-hostility-republic
+15-bringing-united-nations
+16-direct-rule
 1877-1864-tugwell
 1972-mount-arrest-operation-against
 2-1-londonderry-january-1972
@@ -50,16 +60,22 @@
 2-complaints-now-well-documented
 2-daniel-mcgowan
 2-except-case-funerals-essential
+2-had-march-been-permitted
 2-hugh-gilmour-precise-position
 2-illegal-marches-are-be
 2-latest-int-assessment-no
+2-no-change
+2-passing-anti-discrimination-legislation-northern
 2-rgj
+2-rgj-2nd-battalion-royal
 2-seek-reconciliation-catholic-community
 22-lt-ad-regt
+22-lt-ad-regt-22nd
 22nd-light-air-defence-regiment
 24-hours-if-possible-give
 27-january-1972
 29-jan
+29th-january-1998-house-commons
 2nd-battalion-royal-green-jackets
 3-1-1-para-arrived
 3-10-about-same-time
@@ -183,9 +199,12 @@
 3-98-probably-private-q
 3-99-one-more-sergeant
 3-complaints-again-well-documented
+3-green-paper-plus
+3-had-march-been-permitted
 3-if-persons-assemble-take
 3-marches-are-be-halted
 3-meeting-point-shipquay-place
+3-reform-way-which-public
 37-i-surprised-1-para
 39-inf-bde-39th-infantry
 3rd-december-military-terms-policy
@@ -223,8 +242,10 @@
 4-7-actions-soldiers-themselves
 4-8-light-situation-obtained
 4-9-general-ford-denied
+4-appointment-royal-commission
 4-growing-powerful-sense-resentment
 4-if-creggan-march-takes
+4-repeal-civil-authorities-special
 4-use-force
 4-when-parade-forms-up
 5-1-early-firing-william
@@ -232,6 +253,8 @@
 5-3-exception-private-t
 5-4-we-have-concluded
 5-5-firing-soldiers-1
+5-blocking-devices
+5-disbandment-ulster-special-constabulary
 5-if-assembled-persons-fail
 5-resentment-particularly-among-catholics
 6-1-although-inquiry-concerned
@@ -240,6 +263,7 @@
 6-4-we-have-been
 6-5-we-have-used
 6-6-we-have-also
+6-coalition
 6-kevin-mcelhinney
 6-pr
 6-widespread-resentment-among-catholics
@@ -358,6 +382,7 @@
 7-98-minor-disturbances-took
 7-99-night-6th-february
 7-fears-apprehensions-among-protestants
+7-transfer-law-order-westminster
 8-1-increase-violence-led
 8-10-secretary-state-foreign
 8-100-26th-october-1971
@@ -552,6 +577,8 @@
 8-97-later-meeting-edward
 8-98-united-kingdom-government
 8-99-event-one-additional
+8-government-commission
+8-inf-bde-8th-infantry
 8-my-brigade-major-lieutenant
 8-there-strong-reaction-popular
 9-1-plans-made-army
@@ -787,6 +814,7 @@
 9-306-colonel-jackson-commanding
 9-307-other-officers-took
 9-308-while-knowledge-area
+9-309-we-are-view
 9-31-author-intsum-captain
 9-310-we-believe-general
 9-311-we-consider-general
@@ -861,6 +889,7 @@
 9-374-addition-we-have
 9-375-submitted-us-behalf
 9-376-further-suggested-us
+9-377-we-have-already
 9-378-1010-hours-27th
 9-379-relevant-part-signal
 9-38-although-there-can
@@ -1045,6 +1074,7 @@
 9-540-there-no-evidence
 9-541-friday-28th-january
 9-542-derry-journal-1
+9-542-derry-journal-irish
 9-543-colonel-wilford-unfamiliar
 9-544-colonel-wilford-s
 9-545-his-reconnaissance-car
@@ -1058,10 +1088,12 @@
 9-552-although-we-accept
 9-553-we-find-unsatisfactory
 9-554-point-convenient-deal
+9-555-captain-inq-1495
 9-556-major-inq-10
 9-557-major-159-commander
 9-558-colonel-wilford-his
 9-559-neither-captain-inq
+9-56-city-battalion-responsible
 9-560-we-have-concluded
 9-561-operation-order-provided
 9-562-however-orders-operation
@@ -1107,6 +1139,7 @@
 9-599-we-are-not
 9-6-soldier-killed-gunner
 9-60-8th-infantry-brigade
+9-600-however-does-seem
 9-601-paragraph-9-f
 9-602-brigadier-maclellan-told
 9-603-there-no-reference
@@ -1220,6 +1253,7 @@
 9-700-later-saturday-29th
 9-701-major-loden-s
 9-702-commander-anti-tank-platoon
+9-703-30th-january-1972
 9-704-statement-made-31st
 9-705-appears-from-evidence
 9-706-his-written-statement
@@ -1322,6 +1356,7 @@
 9-97-minutes-jsc-meeting
 9-98-london-7th-january
 9-99-same-meeting-cgs
+9-county-council-northern-ireland
 9-leadership-organisation-control-demonstrations
 a-absolutely
 a-general
@@ -1405,6 +1440,7 @@ border-would-be-altered-intention
 brigade-headquarters-ulsternet-use-bloody
 brigade-hq-headquarters-8th-infantry
 brigade-net-radio-network-used
+brigadier-maclellan
 brigadier-maclellan-give-arrest-task
 c-advertised-routes-two-marching
 c-bombing-attacks-shooting-incidents
@@ -1479,10 +1515,12 @@ city-walls-3
 city-walls-william-street
 colonel-dalzell-payne-s-evidence-did
 colonel-inq
+colonel-wilford
 commander-albert-anderson-who-senior
 confidential
 constitutional-legal-position-army-northern
 continuation-policy-seeking-agreement-ways
+course-inquiry-families-those-who
 creggan
 cs-gas-type-tear-gas
 customers-can-also-order-publications
@@ -1520,6 +1558,7 @@ entered-glenfada-park-north-18
 events-before-arrest-operation-3
 eversheds-statements-see-bloody-sunday
 evidential-matters-1
+exception-number-senior-officers-who
 execution
 execution-2
 exercise-united-kingdom-government-pressure
@@ -1562,6 +1601,7 @@ following-photographs-show-m1-carbine
 following-photographs-show-slr
 following-photographs-show-sterling-smg
 footnotes-footnotes-provide-among-other
+footnotes-provide-among-other-matters
 formation-northern-ireland-7-1
 fort-george-361
 free
@@ -1589,6 +1629,7 @@ glenfada-park-north-61
 glenfada-park-south
 glenfada-rossville-park-street-north
 glossary-glossary-we-provide-brief
+glossary-we-provide-brief-explanations
 government-security-structures-8-2
 grade-1-grade-1-intelligence
 gravity-civil-disorder-londonderry-end
@@ -1655,6 +1696,7 @@ lieutenant-lieutenant-2241-colonel-tony
 lieutenant-n-s-apc
 likely-strength-marchers-their-probable
 list-army-ranks-list-below
+list-below-shows-order-seniority
 little
 lord-hunt-also-proposed-ruc
 lord-saville-newdigate-william-l
@@ -1845,6 +1887,7 @@ separation-marchers-from-hooligans
 sergeant-o-s-apc
 sergeant-o-s-armoured-personnel
 shooting-very-last-thing-anybody
+should-be-noted-many-soldiers
 sir-philip-described-traditional-remedy
 sir-philip-gave-no-indication
 sir-philip-wrote-ministers-have
@@ -1890,6 +1933,7 @@ united-kingdom-northern-ireland-governments
 v-third-brigade-northern-ireland
 very-yes
 vii-could-be-spared-three
+virtual-reality-model-computer-simulation
 voiced-their-suspicion
 volume-accompanied-dvd-containing-full
 volume-i

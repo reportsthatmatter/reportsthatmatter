@@ -1613,11 +1613,11 @@ At 10:43 a.m., Morel e-mailed an "Ops Note" to the rest of the Macondo team list
 
 Lockdown Sleeve Before the Macondo blowout, a lockdown sleeve was not generally considered a safety mechanism or barrier to flow prior to the production phase of the well. Drilling rigs did not generally set lockdown sleeves. Rather, completion or production rigs did so after the drilling phase. BP decided to have the Deepwater Horizon set the lockdown sleeve because the Horizon could do the job more quickly than the completion rig. Based on the Macondo event, and given early concerns that upward forces during the blowout had approached or exceeded the force needed to lift the production casing up out of its seat in the wellhead, the Commission believes operators should consider installing a lockdown sleeve or other device to lock the casing hanger in place as part of drilling operations (or, at the very least, at the outset of temporary abandonment).
 
-1. Perform a positive-pressure test to test the integrity of the production casing; 2. Run the drill pipe into the well to 8,367 feet (3,300 feet below the mud line); 3. Displace 3,300 feet of mud in the well with seawater, lifting the mud above the BOP and into the riser; 4. Perform a negative-pressure test to assess the integrity of the well and bottom-hole
+1\. Perform a positive-pressure test to test the integrity of the production casing; 2. Run the drill pipe into the well to 8,367 feet (3,300 feet below the mud line); 3. Displace 3,300 feet of mud in the well with seawater, lifting the mud above the BOP and into the riser; 4. Perform a negative-pressure test to assess the integrity of the well and bottom-hole
 
 > cement job to ensure outside fluids (such as hydrocarbons) are not leaking into the well;
 
-5. Displace the mud in the riser with seawater; 6. Set the surface cement plug at 8,367 feet; and 7. Set the lockdown sleeve.61
+5\. Displace the mud in the riser with seawater; 6. Set the surface cement plug at 8,367 feet; and 7. Set the lockdown sleeve.61
 
 The crew would never get through all of the steps in the procedure.
 
@@ -3588,7 +3588,7 @@ Office of Natural Resources Revenue (ONRR): Revenue collection and auditing func
 
 The adequacy of the existing regulatory regime to assure the environmental safety of offshore drilling (as distinct from worker or occupational safety) has come under a great deal of scrutiny since the Deepwater Horizon incident. In its work on this question, the Commission focused on two issues: (1) the application of NEPA requirements to the offshore leasing process and (2) the need for better science and greater interagency consultation to improve decision-making concerning the management of offshore resources.
 
-1. The Need to Revise and Strengthen NEPA Policies and Practices in the Offshore Drilling Context The Commission has reviewed the leasing and permitting processes that MMS followed in the Gulf of Mexico before the Deepwater Horizon incident. The results lead the Commission to conclude that the breakdown of the environmental review process for OCS activities was systemic and that Interior's approach to the application of NEPA requirements in the offshore oil and gas context needs significant revision. In particular, the application of tiering, the use of categorical exclusions, the practice of area-wide leasing, and the failure to develop formal NEPA guidance for the agency all contributed to this breakdown.
+1\. The Need to Revise and Strengthen NEPA Policies and Practices in the Offshore Drilling Context The Commission has reviewed the leasing and permitting processes that MMS followed in the Gulf of Mexico before the Deepwater Horizon incident. The results lead the Commission to conclude that the breakdown of the environmental review process for OCS activities was systemic and that Interior's approach to the application of NEPA requirements in the offshore oil and gas context needs significant revision. In particular, the application of tiering, the use of categorical exclusions, the practice of area-wide leasing, and the failure to develop formal NEPA guidance for the agency all contributed to this breakdown.
 
 Tiering. Under MMS, the NEPA process for offshore oil and gas leasing relied heavily on "tiering"—a practice under which a broad environmental impact statement was used to cover "general matters" across a large area, while issues specific to a particular site or smaller area were addressed through "subsequent narrower statements of environmental analyses."3 Tiering was meant to encourage more thorough reviews at each subsequent stage of the offshore leasing process, and to avoid the duplication of general information that would have been covered in previous environmental reviews. As applied by MMS, however, tiering was not always consistent with its original purpose: instead, it created a system where deeper environmental analysis at more geographically targeted and advanced planning stages did not always take place.
 
@@ -3856,7 +3856,7 @@ In future spills, however, there is no guarantee that a responsible party will h
 
 Recommendation E4: Congress, federal agencies, and responsible parties should take steps to restore consumer confidence in the aftermath of a Spill of National Significance.
 
-5. The Need for a Long-Term Restoration Effort that Is Well Funded, Scientifically Grounded, and Responsive to Regional Needs and Public Input As described in Chapter 7, a lack of sustained and predictable funding, together with failed project coordination and long-term planning, have resulted in incomplete and often ineffective efforts to restore the Gulf 's natural environment. Currently, no funding source exists to support regional restoration efforts. Estimates of the cost of Gulf restoration vary widely, but according to testimony before the Commission, fully restoring the Gulf will require $15 billion–$20 billion, or a minimum of $500 million per year, over 30 years. While a number of different sources currently provide funding to individual states for restoration, none of these sources provides funds for Gulf-wide coastal and marine restoration and none is sufficient to support the sustained effort required. Most policymakers agree that without a reliable source of long-term funding, it will be impossible to achieve restoration in the Gulf.
+5\. The Need for a Long-Term Restoration Effort that Is Well Funded, Scientifically Grounded, and Responsive to Regional Needs and Public Input As described in Chapter 7, a lack of sustained and predictable funding, together with failed project coordination and long-term planning, have resulted in incomplete and often ineffective efforts to restore the Gulf 's natural environment. Currently, no funding source exists to support regional restoration efforts. Estimates of the cost of Gulf restoration vary widely, but according to testimony before the Commission, fully restoring the Gulf will require $15 billion–$20 billion, or a minimum of $500 million per year, over 30 years. While a number of different sources currently provide funding to individual states for restoration, none of these sources provides funds for Gulf-wide coastal and marine restoration and none is sufficient to support the sustained effort required. Most policymakers agree that without a reliable source of long-term funding, it will be impossible to achieve restoration in the Gulf.
 
 Several Gulf States and the federal government have filed or are expected to file suit against BP and other companies involved in the spill, which will likely create opportunities to direct new restoration funds to the region. In some cases, congressional action will be required to ensure that funds are directed to this purpose. Meanwhile, Congress has already begun considering other potential funding sources, including a higher per-barrel tax on oil production, increased royalties or fees, and direct appropriations for Gulf-wide restoration through the normal federal budget process. Although many of these proposals face political hurdles, the fact remains that resources are needed if progress on coastal restoration is to continue. Inaction is a prescription for further degradation: since many Gulf ecosystems were already fragile and deteriorating before the spill, maintaining the status quo amounts to accepting their continued decline, with the longer-term risks and vulnerabilities this entails.
 
@@ -4523,9 +4523,7 @@ Interview with senior administration official, November 8, 2010.[^54] FEMA, "Dis
 
 57 Interview with government official, August 24, 2010.
 
-58 Press Release, Office of the Governor, Governor Jindal Issues State Declaration of Emergency for Oil Leak, April 29,
-
-2010.[^59] Press Release, Governor Barbour Issues State of Emergency for Mississippi Gulf Coast, April 30, 2010; Press Release,
+58 Press Release, Office of the Governor, Governor Jindal Issues State Declaration of Emergency for Oil Leak, April 29, 2010.[^59] Press Release, Governor Barbour Issues State of Emergency for Mississippi Gulf Coast, April 30, 2010; Press Release,
 
 Gov. Riley Declares State of Emergency to Prepare for Oil Approaching Alabama Coast, April 30, 2010; State of
 
@@ -4627,9 +4625,7 @@ Center, Admiral Allen Provides Guidance to Ensure Expedited Jones Act Waiver Pro
 
 103 Coastal Response Research Center, Research & Development Needs for Making Decisions Regarding Dispersing Oil
 
-(April 2006), 1.[^104] Ramon Antonia Vargas, "Oil is Leaking from Well at Deepwater Horizon Explosion Site," Times-Picayune, April 24,
-
-2010.[^105] Interview with Coast Guard official, October 29, 2010.
+(April 2006), 1.[^104] Ramon Antonia Vargas, "Oil is Leaking from Well at Deepwater Horizon Explosion Site," Times-Picayune, April 24, 2010.[^105] Interview with Coast Guard official, October 29, 2010.
 
 106 National Research Council, Committee on Understanding Oil Spill Dispersants, Oil Spill Dispersants: Efficacy and
 
@@ -4659,17 +4655,13 @@ June 18, 2010.[^119] 40 C.F.R. § 300.915; 40 C.F.R. Part 300 Appendix C.[^120] 
 
 Oil Spill: A Report to the President (May 1989), 17, App. A.[^121] David Hammer, "BP Clashes with Critics on Gulf of Mexico Oil Crisis Response," Times-Picayune, May 31, 2010.
 
-122 Elana Schor, "BP Continues to Use Surface Dispersants in Gulf Despite EPA Directive," New York Times, June 24,
-
-2010.[^123] Ernest Scheyder, "Nalco CEO on Gulf Coast to Defend Dispersant," Reuters, June 3, 2010.
+122 Elana Schor, "BP Continues to Use Surface Dispersants in Gulf Despite EPA Directive," New York Times, June 24, 2010.[^123] Ernest Scheyder, "Nalco CEO on Gulf Coast to Defend Dispersant," Reuters, June 3, 2010.
 
 124 Interview with NOAA scientist, October, 21, 2010; Testimony of Lisa Jackson, Hearing before the National Commission, September 27, 2010.[^125] Dana Tulis and Mathy Stanislaus, interview with Commission staff, October 1, 2010.
 
 126 Kenneth Meade, e-mail to Commission staff, September 27, 2010.
 
-127 Tim Webb, "BP Boss Tony Hayward Admits Job is on the Line Over Deepwater Oil Spill," The Guardian, May 14,
-
-2010.[^128] Tulis and Stanislaus, interview.
+127 Tim Webb, "BP Boss Tony Hayward Admits Job is on the Line Over Deepwater Oil Spill," The Guardian, May 14, 2010.[^128] Tulis and Stanislaus, interview.
 
 129 EPA, Dispersant Monitoring and Assessment Directive for Subsurface Dispersant Application, May 10, 2010; EPA,
 
@@ -4711,9 +4703,7 @@ Times, August 26, 2010.[^142] Interview with U.S. Geological Survey official, Oc
 
 5, 2010.[^147] Lynch, interview.
 
-148 Jeremy Hsu, "Why Don't We Just Drop a Nuclear Bomb on the Gulf Oil Spill?" Christian Science Monitor, May 13,
-
-2010.[^149] Testimony of Richard Camilli, "Sizing up the BP Oil Spill: Science and Engineering Measuring Methods," Briefing
+148 Jeremy Hsu, "Why Don't We Just Drop a Nuclear Bomb on the Gulf Oil Spill?" Christian Science Monitor, May 13, 2010.[^149] Testimony of Richard Camilli, "Sizing up the BP Oil Spill: Science and Engineering Measuring Methods," Briefing
 
 Before the Subcommittee on Energy and Environment of the House Committee on Energy and Commerce, 111th
 
@@ -4971,9 +4961,7 @@ noaa.gov/deepwater_horizon_oil_spill.htm.[^90] Testimony of Timothy Fitzgerald, 
 
 28, 2010.[^91] Testimony of Lt. Gov. Scott Angelle, Louisiana, Hearing before the National Commission, September 28, 2010.
 
-92 Campbell Robertson, "As Claims for Spill Losses Shift to Administrator, Queries Follow," New York Times, August 23,
-
-2010.[^93] Rob Shaw, "Clearwater BP Office Shells out for Claims," Tampa Bay Online, August 8, 2010, http://www2.tbo.com/ content/2010/aug/08/na-clearwater-bp-office-shells-out-for-claims/.[^94] David Fahrenthold and Kimberly Kindy, "Six Months After the Spill, BP's Money is Changing the Gulf as Much as the
+92 Campbell Robertson, "As Claims for Spill Losses Shift to Administrator, Queries Follow," New York Times, August 23, 2010.[^93] Rob Shaw, "Clearwater BP Office Shells out for Claims," Tampa Bay Online, August 8, 2010, http://www2.tbo.com/ content/2010/aug/08/na-clearwater-bp-office-shells-out-for-claims/.[^94] David Fahrenthold and Kimberly Kindy, "Six Months After the Spill, BP's Money is Changing the Gulf as Much as the
 
 Oil," Washington Post, October 20, 2010.[^95] Inter-Agency Economic Report: Estimating the Economic Effects of the Deepwater Drilling Moratorium on the Gulf Coast Economy (September 16, 2010), http://www.esa.doc.gov/drilling_moratorium.pdf.[^96] Press Release, BP, BP Establishes $20 Billion Claims Fund for Deepwater Horizon Spill and Outlines Dividend Decisions,
 
@@ -5033,9 +5021,7 @@ November 23, 2010.[^125] U.S. Census Bureau: 2007 Economic Census, Statistics by
 
 127 Testimony of Keith Overton, Louisiana Shrimp Association, Hearing before the National Commission, July 12, 2010.
 
-128 Testimony of Michael Hecht, President Greater New Orleans Inc., Hearing before the National Commission, July 12,
-
-2010.[^129] Louisiana Office of Tourism, Effects on Perception/BP Oil Spill Survey Wave 2 Results (August 16, 2010), http://crt.
+128 Testimony of Michael Hecht, President Greater New Orleans Inc., Hearing before the National Commission, July 12, 2010.[^129] Louisiana Office of Tourism, Effects on Perception/BP Oil Spill Survey Wave 2 Results (August 16, 2010), http://crt.
 
 louisiana.gov/tourism/research/Documents/2010-11/NationalOilSpillReport20100816.pdf.[^130] Matthew R. Lee and Troy C. Blanchard, Health Impacts of Deepwater Horizon Oil Disaster on Coastal Louisiana Resi-
 
@@ -5117,9 +5103,7 @@ Ecology and Systematics 24 (1973): 1–23.[^7] Mabus, America's Gulf Coast: A Lo
 
 Mitigating, and Controlling Hypoxia in the Northern Gulf of Mexico and Improving Water Quality in the Mississippi
 
-River Basin (2008).[^10] Bureau of Ocean Energy Management, Regulation and Enforcement, Leasing, http://www.gomr.boemre.gov/ homepg/lsesale/lsesale.html.[^11] Executive Order 13547, Stewardship of the Ocean, Our Coasts, and the Great Lakes, 75 Fed. Reg. 43023, July 22,
-
-2010.[^12] White House Council on Environmental Quality, Final Recommendations of the Interagency Ocean Policy Task Force
+River Basin (2008).[^10] Bureau of Ocean Energy Management, Regulation and Enforcement, Leasing, http://www.gomr.boemre.gov/ homepg/lsesale/lsesale.html.[^11] Executive Order 13547, Stewardship of the Ocean, Our Coasts, and the Great Lakes, 75 Fed. Reg. 43023, July 22, 2010.[^12] White House Council on Environmental Quality, Final Recommendations of the Interagency Ocean Policy Task Force
 
 (July 19, 2010).[^13] For an overview of issues in Gulf of Mexico marine policy, see Linwood Pendleton, Larry Crowder, Daniel Dunn, Clare
 
@@ -5243,9 +5227,7 @@ Trust,"[^32] Oil Spill Intelligence Report, no. 22 (May 21, 2009).[^26] The Repo
 
 40 Ibid.
 
-41 Russell Gold and Ben Casselman, "Drilling Process Attracts Scrutiny in Rig Explosion," Wall Street Journal, April 30,
-
-2010.[^42] Montara Commission of Inquiry, Report of the Montara Commission of Inquiry, (June 17, 2010), http://www.ret.
+41 Russell Gold and Ben Casselman, "Drilling Process Attracts Scrutiny in Rig Explosion," Wall Street Journal, April 30, 2010.[^42] Montara Commission of Inquiry, Report of the Montara Commission of Inquiry, (June 17, 2010), http://www.ret.
 
 gov.au/Department/Documents/MIR/Montara-Report.pdf.[^43] Ibid., 63.
 

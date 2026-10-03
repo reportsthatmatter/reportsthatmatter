@@ -124,9 +124,9 @@ findings:
         for accepting it was not based on sound engineering principles.
 
   - text: On the eve of the launch, Thiokol engineers warned that the cold would impair the seals. The report finds that the response of Marshall managers led Thiokol's management to set aside their own engineers' judgement and recommend launch, and that the decision rested on faulty engineering analysis.
-    cites: [findings-3, eve-launch-thiokol-engineers-attempted, cern-about-delay-such-constraints]
+    cites: [2-decision-launch-sts-51-l-2, eve-launch-thiokol-engineers-attempted, cern-about-delay-such-constraints]
     excerpt:
-      paragraph: findings-3
+      paragraph: 2-decision-launch-sts-51-l-2
       quote: >-
         The decision to launch STS 51-L was based on a faulty engineering
         analysis of the SRM field joint seal behavior.

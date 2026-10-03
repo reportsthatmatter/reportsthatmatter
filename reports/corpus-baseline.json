@@ -79,14 +79,14 @@
         {
           "slug": "other-charges",
           "title": "Other Charges",
-          "paragraphs": 14,
-          "ids": "c9a55661782f"
+          "paragraphs": 13,
+          "ids": "4804db819b7c"
         },
         {
-          "slug": "prosecuting-mr-trump-served-multiple-substantial-federal-interests",
-          "title": "Prosecuting Mr. Trump Served Multiple Substantial Federal Interests",
-          "paragraphs": 30,
-          "ids": "b5c4e705dd58"
+          "slug": "the-principles-of-federal-prosecution",
+          "title": "THE PRINCIPLES OF FEDERAL PROSECUTION",
+          "paragraphs": 31,
+          "ids": "7a5c516db8e9"
         },
         {
           "slug": "there-was-no-adequate-non-criminal-alternative-to-prosecution",
@@ -97,14 +97,14 @@
         {
           "slug": "mr-trumps-conduct-had-no-historical-analogue",
           "title": "Mr. Trump's Conduct Had No Historical Analogue",
-          "paragraphs": 6,
-          "ids": "73f0da6f68bb"
+          "paragraphs": 5,
+          "ids": "317055915c64"
         },
         {
-          "slug": "the-investigative-process",
-          "title": "The Investigative Process",
-          "paragraphs": 6,
-          "ids": "1ba3b9cf12c3"
+          "slug": "investigative-procedure-and-policy",
+          "title": "INVESTIGATIVE PROCEDURE AND POLICY",
+          "paragraphs": 7,
+          "ids": "16d1cdee03e3"
         },
         {
           "slug": "the-departments-election-year-sensitivities-policy",
@@ -115,14 +115,14 @@
         {
           "slug": "post-indictment-procedures",
           "title": "Post-Indictment Procedures",
-          "paragraphs": 14,
-          "ids": "12b098740698"
+          "paragraphs": 13,
+          "ids": "f4cd5ddfeaff"
         },
         {
-          "slug": "the-twitterx-search-warrant",
-          "title": "The Twitter/X Search Warrant",
-          "paragraphs": 4,
-          "ids": "60a0782f948a"
+          "slug": "investigative-challenges-and-litigation-issues",
+          "title": "INVESTIGATIVE CHALLENGES AND LITIGATION ISSUES",
+          "paragraphs": 5,
+          "ids": "033b37d6e63a"
         },
         {
           "slug": "legislative-privilege-under-the-speech-or-debate-clause",
@@ -205,8 +205,8 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 325751,
-      "paragraphs": 2391,
+      "words": 327049,
+      "paragraphs": 2404,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
@@ -217,14 +217,14 @@
         {
           "slug": "subcommittee-investigation",
           "title": "Subcommittee Investigation",
-          "paragraphs": 53,
-          "ids": "b2319b4a4ad1"
+          "paragraphs": 52,
+          "ids": "5e1b9b2dedd4"
         },
         {
-          "slug": "rise-of-too-big-to-fail-us-financial-institutions",
-          "title": "Rise of Too-Big-To-Fail U.S. Financial Institutions",
-          "paragraphs": 7,
-          "ids": "33210bda557f"
+          "slug": "background",
+          "title": "BACKGROUND",
+          "paragraphs": 8,
+          "ids": "774809ed6bd5"
         },
         {
           "slug": "high-risk-mortgage-lending",
@@ -266,7 +266,7 @@
           "slug": "financial-crisis-timeline",
           "title": "Financial Crisis Timeline",
           "paragraphs": 5,
-          "ids": "3eab986c6dc4"
+          "ids": "5b0978a37927"
         },
         {
           "slug": "case-study-of-washington-mutual-bank",
@@ -290,7 +290,7 @@
           "slug": "shoddy-lending-practices",
           "title": "Shoddy Lending Practices",
           "paragraphs": 152,
-          "ids": "6f1a286b1a70"
+          "ids": "fde585b78e2d"
         },
         {
           "slug": "polluting-the-financial-system",
@@ -337,8 +337,8 @@
         {
           "slug": "preventing-regulatory-failures",
           "title": "Preventing Regulatory Failures",
-          "paragraphs": 10,
-          "ids": "cfa32037d258"
+          "paragraphs": 11,
+          "ids": "70992baa93d9"
         },
         {
           "slug": "case-study-of-moodys-and-standard-poors",
@@ -349,8 +349,8 @@
         {
           "slug": "subcommittee-investigation-and-findings-of-fact-3",
           "title": "Subcommittee Investigation and Findings of Fact",
-          "paragraphs": 49,
-          "ids": "53b125702c42"
+          "paragraphs": 55,
+          "ids": "d0bbb1163145"
         },
         {
           "slug": "mass-credit-rating-downgrades",
@@ -367,14 +367,14 @@
         {
           "slug": "preventing-inflated-credit-ratings",
           "title": "Preventing Inflated Credit Ratings",
-          "paragraphs": 15,
-          "ids": "9fc6aa334282"
+          "paragraphs": 17,
+          "ids": "650f0d740828"
         },
         {
           "slug": "case-study-of-goldman-sachs-and-deutsche-bank",
           "title": "CASE STUDY OF GOLDMAN SACHS AND DEUTSCHE BANK",
           "paragraphs": 667,
-          "ids": "9bf073b09eb2"
+          "ids": "20150e7bbde7"
         },
         {
           "slug": "cdo-marks",
@@ -386,13 +386,13 @@
           "slug": "timberwolf-i",
           "title": "Timberwolf I",
           "paragraphs": 333,
-          "ids": "28a46aa50dd4"
+          "ids": "5f502228c03b"
         },
         {
           "slug": "preventing-investment-bank-abuses",
           "title": "Preventing Investment Bank Abuses",
-          "paragraphs": 15,
-          "ids": "36ada4ca5562"
+          "paragraphs": 19,
+          "ids": "5dbf83e4a0ac"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -403,8 +403,8 @@
       ]
     },
     "challenger-accident": {
-      "words": 153973,
-      "paragraphs": 2892,
+      "words": 154631,
+      "paragraphs": 3221,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -421,26 +421,38 @@
         {
           "slug": "conclusions",
           "title": "CONCLUSIONS",
-          "paragraphs": 67,
-          "ids": "7683e6ab91bd"
+          "paragraphs": 28,
+          "ids": "df4b51eebfab"
+        },
+        {
+          "slug": "solid-rocket-motors",
+          "title": "SOLID ROCKET MOTORS",
+          "paragraphs": 20,
+          "ids": "4f180112c385"
+        },
+        {
+          "slug": "summary-of-launch-operations",
+          "title": "Summary of Launch Operations",
+          "paragraphs": 38,
+          "ids": "ffc8e83016db"
         },
         {
           "slug": "hardware-development-and-production",
           "title": "Hardware Development and Production",
-          "paragraphs": 99,
-          "ids": "207955c89548"
+          "paragraphs": 177,
+          "ids": "6cc3859d748b"
         },
         {
           "slug": "technical-management",
           "title": "Technical Management",
-          "paragraphs": 47,
-          "ids": "562ac94773ba"
+          "paragraphs": 73,
+          "ids": "9e6593bd43a3"
         },
         {
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
-          "paragraphs": 65,
-          "ids": "7e63f6695446"
+          "paragraphs": 80,
+          "ids": "ebdd3e76c69e"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -469,8 +481,8 @@
         {
           "slug": "history",
           "title": "HISTORY",
-          "paragraphs": 9,
-          "ids": "075495de2eb5"
+          "paragraphs": 18,
+          "ids": "c6ff2a9b80e6"
         },
         {
           "slug": "test-and-control-features",
@@ -487,8 +499,8 @@
         {
           "slug": "summary-of-casing-joint-design",
           "title": "SUMMARY OF CASING JOINT DESIGN",
-          "paragraphs": 29,
-          "ids": "e39c386b2733"
+          "paragraphs": 48,
+          "ids": "ffd6c9ae5564"
         },
         {
           "slug": "stacking-operations",
@@ -497,46 +509,52 @@
           "ids": "7171f8ddbedf"
         },
         {
-          "slug": "summary-of-launch-operations",
+          "slug": "summary-of-launch-operations-2",
           "title": "SUMMARY OF LAUNCH OPERATIONS",
-          "paragraphs": 29,
-          "ids": "3d73d0fb5485"
+          "paragraphs": 39,
+          "ids": "be36142bc306"
         },
         {
           "slug": "external",
           "title": "EXTERNAL",
-          "paragraphs": 22,
-          "ids": "b2594cfa99a2"
+          "paragraphs": 24,
+          "ids": "b885054e590c"
         },
         {
           "slug": "crewsurvival",
           "title": "CREWSURVIVAL",
-          "paragraphs": 38,
-          "ids": "84c26573274b"
+          "paragraphs": 24,
+          "ids": "56c529bb87ea"
+        },
+        {
+          "slug": "additional-of-investigation-avenues",
+          "title": "ADDITIONAL OF INVESTIGATION AVENUES",
+          "paragraphs": 14,
+          "ids": "15edfc319a4c"
         },
         {
           "slug": "hardware-development-and-production-2",
           "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
-          "paragraphs": 198,
-          "ids": "6144c6c5a53b"
+          "paragraphs": 248,
+          "ids": "762ccb65d9d3"
         },
         {
           "slug": "2-operations",
           "title": "2 . OPERATIONS",
-          "paragraphs": 181,
-          "ids": "84c9e5d1b475"
+          "paragraphs": 208,
+          "ids": "a0c0de2d03c3"
         },
         {
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
-          "paragraphs": 317,
-          "ids": "7be0a355e653"
+          "paragraphs": 360,
+          "ids": "847d9a503a7b"
         },
         {
           "slug": "downstream-proper-posit-ion-i-figurevii-1",
           "title": "DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1",
-          "paragraphs": 168,
-          "ids": "82141ecd0ec7"
+          "paragraphs": 182,
+          "ids": "6da3609dcc8f"
         },
         {
           "slug": "the-sts-51-l-launch-decision",
@@ -577,14 +595,14 @@
         {
           "slug": "i-kdler-1-el2",
           "title": "I?. Kdler 1 El2",
-          "paragraphs": 78,
-          "ids": "f8b1a219396d"
+          "paragraphs": 66,
+          "ids": "487ab691cab2"
         },
         {
-          "slug": "o-rings-and-putty",
-          "title": "O-RINGS AND PUTTY",
-          "paragraphs": 87,
-          "ids": "2f5c86023161"
+          "slug": "thiokol",
+          "title": "THIOKOL",
+          "paragraphs": 103,
+          "ids": "31ae00331744"
         },
         {
           "slug": "space-shuttle-s-o-l-i-d-rocket-hwor-pnojoct-operational-flight",
@@ -631,26 +649,26 @@
         {
           "slug": "42-revisions-submittals",
           "title": "4.2 REVISIONS & SUBMITTALS",
-          "paragraphs": 57,
-          "ids": "0095c782a542"
+          "paragraphs": 62,
+          "ids": "5dd53e9197ac"
         },
         {
           "slug": "appendix-8",
           "title": "APPENDIX 8",
-          "paragraphs": 14,
-          "ids": "3dd50a745dfc"
+          "paragraphs": 17,
+          "ids": "65316849e679"
         },
         {
           "slug": "rubber-property-compression-set",
           "title": "RUBBER PROPERTY-COMPRESSION SET'",
-          "paragraphs": 38,
-          "ids": "a2d97345d2ae"
+          "paragraphs": 42,
+          "ids": "1dfd2d3c3f3a"
         },
         {
           "slug": "calculation-12-procedure",
           "title": "Calculation 12. Procedure",
-          "paragraphs": 44,
-          "ids": "8c6444490820"
+          "paragraphs": 45,
+          "ids": "9ea2f7095551"
         },
         {
           "slug": "0-omrsd",
@@ -679,8 +697,8 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 134931,
-      "paragraphs": 1997,
+      "words": 135009,
+      "paragraphs": 2148,
       "sections": [
         {
           "slug": "front-matter",
@@ -758,7 +776,7 @@
           "slug": "chapter-6-private-security-work",
           "title": "Chapter 6: Private security work",
           "paragraphs": 63,
-          "ids": "def5aa8adbd2"
+          "ids": "f69d9c622b84"
         },
         {
           "slug": "chapter-2-the-2006-russian-laws",
@@ -842,7 +860,7 @@
           "slug": "chapter-8-events-in-london-31-october-3-november",
           "title": "Chapter 8: Events in London 31 October – 3 November",
           "paragraphs": 147,
-          "ids": "197be9c497d4"
+          "ids": "8e863a81d270"
         },
         {
           "slug": "part-7-the-closed-evidence",
@@ -878,7 +896,7 @@
           "slug": "chapter-6-who-administered-the-poison",
           "title": "Chapter 6: Who administered the poison?",
           "paragraphs": 118,
-          "ids": "db95a59bd49c"
+          "ids": "e523d123318b"
         },
         {
           "slug": "part-9-who-directed-the-killing",
@@ -943,14 +961,14 @@
         {
           "slug": "appendix-1-the-history-of-the-inquiry-and-procedures-adopted",
           "title": "Appendix 1: The history of the Inquiry and procedures adopted",
-          "paragraphs": 55,
-          "ids": "683df1c5a589"
+          "paragraphs": 187,
+          "ids": "b7f3187a7e42"
         },
         {
           "slug": "appendix-2-terms-of-reference",
           "title": "Appendix 2: Terms of Reference",
-          "paragraphs": 12,
-          "ids": "f7c39f7a6c76"
+          "paragraphs": 23,
+          "ids": "6dfa3a9c4c82"
         },
         {
           "slug": "appendix-4-chronology",
@@ -967,8 +985,8 @@
         {
           "slug": "appendix-6-abbreviations",
           "title": "Appendix 6: Abbreviations",
-          "paragraphs": 148,
-          "ids": "31a8df8e2390"
+          "paragraphs": 156,
+          "ids": "9888764f30b1"
         },
         {
           "slug": "appendix-8-key-documents",
@@ -980,7 +998,7 @@
           "slug": "appendix-9-list-of-witnesses",
           "title": "Appendix 9: List of witnesses",
           "paragraphs": 16,
-          "ids": "26b6ab528392"
+          "ids": "40764b7b141a"
         },
         {
           "slug": "appendix-10-list-of-inquiry-staff-and-counsel",
@@ -991,20 +1009,20 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1075711,
-      "paragraphs": 12670,
+      "words": 1084670,
+      "paragraphs": 12759,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
           "title": "PRACTICES AND ETHICS OF THE PRESS REPORT",
-          "paragraphs": 581,
-          "ids": "95e1cd0d0066"
+          "paragraphs": 592,
+          "ids": "c2d4b0ebd8e5"
         },
         {
           "slug": "news-corporation",
           "title": "News Corporation",
-          "paragraphs": 1181,
-          "ids": "0187101114ee"
+          "paragraphs": 1182,
+          "ids": "6e6de60459bc"
         },
         {
           "slug": "operation-reproof",
@@ -1016,19 +1034,19 @@
           "slug": "operation-glade",
           "title": "Operation Glade",
           "paragraphs": 79,
-          "ids": "64a399249258"
+          "ids": "41658382b5c6"
         },
         {
           "slug": "publication-of-parliamentary-reports-in",
           "title": "Publication of Parliamentary Reports in",
           "paragraphs": 542,
-          "ids": "6278da5e75ed"
+          "ids": "fcd88eae49ad"
         },
         {
           "slug": "july-2009-the-guardian",
           "title": "July 2009: The Guardian",
           "paragraphs": 335,
-          "ids": "9427127f2ab9"
+          "ids": "191ab366e77d"
         },
         {
           "slug": "september-2010-the-new-york-times",
@@ -1040,37 +1058,37 @@
           "slug": "police-inquiries-operations-weeting-elveden-and-tuleta",
           "title": "Police Inquiries: Operations Weeting, Elveden and tuleta",
           "paragraphs": 25,
-          "ids": "4a7526c0a0a8"
+          "ids": "c1e8af2aa1a1"
         },
         {
           "slug": "the-management-and-standards-committee",
           "title": "The Management and Standards Committee",
           "paragraphs": 87,
-          "ids": "3767926e5898"
+          "ids": "c4fb7d36a750"
         },
         {
           "slug": "practices-and-ethics-of-the-press",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
           "paragraphs": 35,
-          "ids": "e50b8113a084"
+          "ids": "34e252267cce"
         },
         {
-          "slug": "chapter-1-introduction-1-overview",
-          "title": "Chapter 1: Introduction 1. Overview",
-          "paragraphs": 75,
-          "ids": "f44144271e25"
+          "slug": "appendices",
+          "title": "APPENDICES",
+          "paragraphs": 78,
+          "ids": "2a58d17139b7"
         },
         {
           "slug": "chapter-2-good-practice-1-the-value-and-virtues-of-the-uk-press-overview",
           "title": "Chapter 2: Good Practice 1. The value and virtues of the UK press Overview",
           "paragraphs": 312,
-          "ids": "4f67324d9600"
+          "ids": "0adee299f047"
         },
         {
           "slug": "chapter-4-some-practices-at-the-news-of-the-world-1-introduction",
           "title": "Chapter 4: Some practices at the News of the World 1. Introduction",
           "paragraphs": 333,
-          "ids": "189cfefda402"
+          "ids": "c9251e0b36db"
         },
         {
           "slug": "the-dowlers",
@@ -1082,97 +1100,97 @@
           "slug": "kate-and-gerry-mccann",
           "title": "Kate and Gerry McCann",
           "paragraphs": 66,
-          "ids": "c1c8161266ff"
+          "ids": "1910052b4df7"
         },
         {
           "slug": "christopher-jefferies",
           "title": "Christopher Jefferies",
           "paragraphs": 117,
-          "ids": "feae9723deb6"
+          "ids": "fff8603de3b0"
         },
         {
           "slug": "sebastian-bowles",
           "title": "Sebastian Bowles",
           "paragraphs": 776,
-          "ids": "2c37bd48d1a0"
+          "ids": "47f72cdc5ca4"
         },
         {
           "slug": "love-celeb-gossip-so-do-we-send-us-your-story",
           "title": "LOVE CELEB GOSSIP? SO DO WE, SEND US YOUR STORY!",
           "paragraphs": 271,
-          "ids": "3653cc997876"
+          "ids": "802d1033a066"
         },
         {
           "slug": "chapter-1-policing-with-consent-the-role-of-the-press-1-introduction",
           "title": "Chapter 1: Policing with Consent: The Role of the Press 1. Introduction",
           "paragraphs": 46,
-          "ids": "5f354650d35f"
+          "ids": "bbe409dfec5c"
         },
         {
           "slug": "metropolitan-police-service-the-commissioners",
           "title": "Metropolitan Police Service: the Commissioners",
           "paragraphs": 172,
-          "ids": "18db13f1202a"
+          "ids": "6789a7eb2d45"
         },
         {
           "slug": "the-press-and-the-police-the-harm-and-the-response",
           "title": "THE PRESS AND THE POLICE: THE HARM AND THE RESPONSE",
           "paragraphs": 934,
-          "ids": "3affe215d4c7"
+          "ids": "a0a167a423af"
         },
         {
           "slug": "independent-police-complaints-commission-ipcc",
           "title": "Independent Police Complaints Commission (IPCC)",
           "paragraphs": 105,
-          "ids": "c1baab993ffe"
+          "ids": "23d503a6d4f3"
         },
         {
           "slug": "association-of-chief-police-officers-acpo",
           "title": "Association of Chief Police Officers (ACPO)",
           "paragraphs": 74,
-          "ids": "5b512d5bb14b"
+          "ids": "47a7c17dadf3"
         },
         {
           "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
           "title": "CHAPTER 4 THE PRESS AND THE POLICE: CONCLUSIONS AND RECOMMENDATIONS",
           "paragraphs": 119,
-          "ids": "581536078651"
+          "ids": "bf0e4c1f2e28"
         },
         {
           "slug": "practices-and-ethics-of-the-press-2",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
-          "paragraphs": 36,
-          "ids": "2f37269aed5d"
+          "paragraphs": 37,
+          "ids": "1e4c81c41560"
         },
         {
-          "slug": "chapter-1-1-background",
-          "title": "Chapter 1: 1. Background",
-          "paragraphs": 17,
-          "ids": "d7ca8e3d5547"
+          "slug": "part-h",
+          "title": "PART H",
+          "paragraphs": 18,
+          "ids": "47e54e45d5a3"
         },
         {
           "slug": "chapter-2-operation-motorman-1-the-investigation",
           "title": "Chapter 2: Operation Motorman 1. The investigation",
           "paragraphs": 176,
-          "ids": "9f44562a6597"
+          "ids": "0e466f910ab2"
         },
         {
           "slug": "chapter-3-other-possible-regulatory-options-1-criminal-proceedings-in-respect-of",
           "title": "Chapter 3: Other Possible Regulatory Options 1. Criminal proceedings in respect of journalists",
           "paragraphs": 137,
-          "ids": "8612406be7c5"
+          "ids": "5b31654794e9"
         },
         {
           "slug": "chapter-4-the-ico-and-the-press-today",
           "title": "Chapter 4: The ICO and the Press today",
           "paragraphs": 48,
-          "ids": "665ad434f7d3"
+          "ids": "ddb6c7f8fce4"
         },
         {
           "slug": "chapter-5-issues-about-the-legal-framework-1-the-current-views-of-the-ico",
           "title": "Chapter 5: Issues about the Legal Framework 1. The current views of the ICO",
           "paragraphs": 205,
-          "ids": "93879bc8e96f"
+          "ids": "e4e1ee7cd9c6"
         },
         {
           "slug": "chapter-6-the-relationship-the-ico-and-the-press-1-too-big-for-us",
@@ -1196,19 +1214,19 @@
           "slug": "prime-minister-major-1990-1997",
           "title": "Prime Minister Major: 1990-1997",
           "paragraphs": 46,
-          "ids": "a91507cb2d5e"
+          "ids": "311da9acaabc"
         },
         {
           "slug": "chapter-3-new-labour-1-the-1992-general-election",
           "title": "Chapter 3: New Labour 1. The 1992 general election",
           "paragraphs": 67,
-          "ids": "a005c29f8b9d"
+          "ids": "85a3b445f910"
         },
         {
           "slug": "prime-minister-blair-1997",
           "title": "Prime Minister Blair: 1997 –",
           "paragraphs": 49,
-          "ids": "a4dc0aa8fa49"
+          "ids": "166d56e42d22"
         },
         {
           "slug": "prime-minister-brown-2007",
@@ -1220,19 +1238,19 @@
           "slug": "chapter-4-the-conservative-revival-and-the-coalition1",
           "title": "Chapter 4: The Conservative Revival and the Coalition1",
           "paragraphs": 304,
-          "ids": "3d568e434828"
+          "ids": "ec60c506d69a"
         },
         {
           "slug": "prime-minister-cameron-2010-present",
           "title": "Prime Minister Cameron: 2010-present",
           "paragraphs": 159,
-          "ids": "d29378562884"
+          "ids": "4bb76b07adeb"
         },
         {
           "slug": "purchase-of-the-times-and-the-sunday-times",
           "title": "Purchase of The Times and The Sunday Times",
           "paragraphs": 201,
-          "ids": "09b68019af06"
+          "ids": "09f2b8be6173"
         },
         {
           "slug": "human-rights-act",
@@ -1244,49 +1262,49 @@
           "slug": "data-protection-act",
           "title": "Data Protection Act",
           "paragraphs": 43,
-          "ids": "8e1b7e3d3f7e"
+          "ids": "63682cb8c6eb"
         },
         {
           "slug": "communications-act",
           "title": "Communications Act",
           "paragraphs": 73,
-          "ids": "b45b639a1acf"
+          "ids": "1b0455459a70"
         },
         {
           "slug": "possible-steps-to-strengthen-regulation-of-content",
           "title": "POSSIBLE STEPS TO STRENGTHEN REGULATION OF CONTENT",
           "paragraphs": 70,
-          "ids": "360091bb28f3"
+          "ids": "e772137b00ab"
         },
         {
           "slug": "chapter-6-media-policy-the-bskyb-bid",
           "title": "CHAPTER 6 MEDIA POLICY: THE BSKYB BID",
-          "paragraphs": 62,
-          "ids": "27f3cf7e33ff"
+          "paragraphs": 63,
+          "ids": "254beeffd573"
         },
         {
           "slug": "june-2010-december-2010-the-rt-hon-dr-vince",
           "title": "June 2010 – December 2010: The Rt Hon Dr Vince",
           "paragraphs": 269,
-          "ids": "b848590d4ac4"
+          "ids": "81a52c19e0aa"
         },
         {
           "slug": "december-2010-july-2011-the-rt-hon-jeremy-hunt",
           "title": "December 2010 – July 2011: The Rt Hon Jeremy Hunt",
           "paragraphs": 350,
-          "ids": "ab9e689f5ec2"
+          "ids": "570c28ccd21d"
         },
         {
           "slug": "news-corp-and-the-rt-hon-alex-salmond-msp",
           "title": "News Corp and the Rt Hon Alex Salmond MSP",
-          "paragraphs": 40,
-          "ids": "64b866d5ddf9"
+          "paragraphs": 36,
+          "ids": "84f47ec12961"
         },
         {
-          "slug": "the-deputy-prime-minister-the-rt-hon-nick-clegg-mp",
-          "title": "The Deputy Prime Minister, the Rt Hon Nick Clegg MP",
-          "paragraphs": 8,
-          "ids": "18cd79fbae26"
+          "slug": "chapter-7-further-political-perspectives-on-relationships-with-the-press",
+          "title": "CHAPTER 7 FURTHER POLITICAL PERSPECTIVES ON RELATIONSHIPS WITH THE PRESS",
+          "paragraphs": 12,
+          "ids": "ba6ef2cab5b2"
         },
         {
           "slug": "the-leader-of-the-opposition-the-rt-hon-ed-miliband",
@@ -1304,7 +1322,7 @@
           "slug": "the-rt-hon-kenneth-clarke-qc-mp",
           "title": "The Rt Hon Kenneth Clarke QC MP",
           "paragraphs": 17,
-          "ids": "6239331148b2"
+          "ids": "7dc4aa115fd3"
         },
         {
           "slug": "the-rt-hon-michael-gove-mp",
@@ -1316,7 +1334,7 @@
           "slug": "chapter-8-conclusions-and-recommendations",
           "title": "Chapter 8: Conclusions And Recommendations",
           "paragraphs": 211,
-          "ids": "41392526cf6b"
+          "ids": "a45bcf84ffe6"
         },
         {
           "slug": "chapter-9-plurality-and-media-ownership-conclusions-and-recommendations-1-introd",
@@ -1328,49 +1346,49 @@
           "slug": "practices-and-ethics-of-the-press-3",
           "title": "PRACTICES AND ETHICS OF THE PRESS",
           "paragraphs": 35,
-          "ids": "de9088597ac7"
+          "ids": "bfd60f179d71"
         },
         {
-          "slug": "chapter-1-introduction",
-          "title": "Chapter 1: Introduction",
-          "paragraphs": 113,
-          "ids": "17480f20121a"
+          "slug": "appendices-2",
+          "title": "APPENDICES",
+          "paragraphs": 115,
+          "ids": "1ca06dbab757"
         },
         {
           "slug": "chapter-3-the-civil-law",
           "title": "Chapter 3: The Civil Law",
           "paragraphs": 88,
-          "ids": "8328d23eef75"
+          "ids": "179f1dd2e003"
         },
         {
           "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
           "title": "CHAPTER 4 THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
-          "paragraphs": 424,
-          "ids": "258ab270a8c2"
+          "paragraphs": 425,
+          "ids": "17e1552c8243"
         },
         {
           "slug": "chapter-1-criteria-for-a-regulatory-solution",
           "title": "Chapter 1: Criteria For A Regulatory Solution",
           "paragraphs": 184,
-          "ids": "8a53ff02e745"
+          "ids": "3a27c3eb1f11"
         },
         {
           "slug": "the-industry-funding-body",
           "title": "The Industry Funding Body",
-          "paragraphs": 459,
-          "ids": "9ff2e1c2b468"
+          "paragraphs": 460,
+          "ids": "33af95cc4ceb"
         },
         {
           "slug": "the-code",
           "title": "The Code",
           "paragraphs": 163,
-          "ids": "2179d513d69d"
+          "ids": "68a7b8863c6d"
         },
         {
           "slug": "the-press-council-of-ireland-and-the-press",
           "title": "The Press Council of Ireland and the Press",
           "paragraphs": 326,
-          "ids": "0b3aa54555bf"
+          "ids": "411f9a8b6955"
         },
         {
           "slug": "chapter-7",
@@ -1387,14 +1405,14 @@
         {
           "slug": "part-l-summary-of-recommendations",
           "title": "PART L SUMMARY OF RECOMMENDATIONS",
-          "paragraphs": 59,
-          "ids": "6b863f910702"
+          "paragraphs": 108,
+          "ids": "8e355b31e6dc"
         },
         {
           "slug": "the-report-of-the-law-commission-on-aggravated-exemplary-and-restitutionary-dama",
           "title": "The Report of the Law Commission on Aggravated, Exemplary and Restitutionary Damages",
-          "paragraphs": 111,
-          "ids": "0a7fef8160bd"
+          "paragraphs": 127,
+          "ids": "9e2bf4f16ef8"
         },
         {
           "slug": "engage",
@@ -1405,8 +1423,8 @@
         {
           "slug": "civil-law",
           "title": "Civil Law",
-          "paragraphs": 412,
-          "ids": "fa7eba6ff249"
+          "paragraphs": 413,
+          "ids": "3e515c8c2e48"
         },
         {
           "slug": "section-55-data-protection-act",
@@ -1417,8 +1435,8 @@
         {
           "slug": "part-i-chapter-8",
           "title": "PART I CHAPTER 8",
-          "paragraphs": 124,
-          "ids": "2f3b31bd1b80"
+          "paragraphs": 125,
+          "ids": "b51bde42b1a3"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -1429,8 +1447,8 @@
       ]
     },
     "columbia-accident": {
-      "words": 169854,
-      "paragraphs": 3343,
+      "words": 169888,
+      "paragraphs": 3358,
       "sections": [
         {
           "slug": "in-memoriam",
@@ -1555,8 +1573,8 @@
         {
           "slug": "35-on-orbit-debris-separation-the-flight-day-2-object",
           "title": "3.5 On-Orbit Debris Separation – The \"Flight Day 2\" Object",
-          "paragraphs": 31,
-          "ids": "6c62b8cb8550"
+          "paragraphs": 35,
+          "ids": "9ddf149e806a"
         },
         {
           "slug": "36-de-orbitre-entry",
@@ -1675,8 +1693,8 @@
         {
           "slug": "63-decision-making-during-the-flight-of-sts-107",
           "title": "6.3 Decision-Making During the Flight of STS-107",
-          "paragraphs": 349,
-          "ids": "522b0c73815e"
+          "paragraphs": 360,
+          "ids": "2e2f0a273c97"
         },
         {
           "slug": "64-possibility-of-rescue-or-repair",
@@ -1921,7 +1939,7 @@
       ]
     },
     "us-911-commission": {
-      "words": 305729,
+      "words": 305733,
       "paragraphs": 2438,
       "sections": [
         {
@@ -1939,14 +1957,14 @@
         {
           "slug": "preface",
           "title": "PREFACE",
-          "paragraphs": 21,
-          "ids": "be5a9ab91814"
+          "paragraphs": 19,
+          "ids": "9b4bee4190de"
         },
         {
-          "slug": "11-inside-the-four-flights",
-          "title": "1.1 Inside the Four Flights",
-          "paragraphs": 88,
-          "ids": "e54a95611dfa"
+          "slug": "we-have-some-planes",
+          "title": "\"WE HAVE SOME PLANES\"",
+          "paragraphs": 90,
+          "ids": "ac1c86f9d088"
         },
         {
           "slug": "12-improvising-a-homeland-defense",
@@ -1987,14 +2005,14 @@
         {
           "slug": "25-al-qaedas-renewal-in-afghanistan-19961998",
           "title": "2.5 Al Qaeda's Renewal in Afghanistan (1996–1998)",
-          "paragraphs": 35,
-          "ids": "de2ef4cf232b"
+          "paragraphs": 33,
+          "ids": "9105ed127778"
         },
         {
-          "slug": "31-from-the-old-terrorism-to-the-new-the-first-world-trade-center-bombing",
-          "title": "3.1 From the Old Terrorism to the New: The First World Trade Center Bombing",
-          "paragraphs": 15,
-          "ids": "9ab0f223174e"
+          "slug": "counterterrorism-evolves",
+          "title": "COUNTERTERRORISM EVOLVES",
+          "paragraphs": 17,
+          "ids": "f48cdf29713d"
         },
         {
           "slug": "32-adaptationand-nonadaptation-in-the-law-enforcement-community",
@@ -2203,14 +2221,14 @@
         {
           "slug": "103-phase-two-and-the-question-of-iraq",
           "title": "10.3 \"Phase Two\" and the Question of Iraq",
-          "paragraphs": 26,
-          "ids": "76a62674144b"
+          "paragraphs": 23,
+          "ids": "3448f4b5a30b"
         },
         {
-          "slug": "111-imagination",
-          "title": "11.1 Imagination",
-          "paragraphs": 44,
-          "ids": "ecc14b4c644c"
+          "slug": "foresightand-hindsight",
+          "title": "FORESIGHT—AND HINDSIGHT",
+          "paragraphs": 47,
+          "ids": "279cc74c084f"
         },
         {
           "slug": "112-policy",
@@ -2251,14 +2269,14 @@
         {
           "slug": "124-protect-against-and-prepare-for-terrorist-attacks",
           "title": "12.4 Protect against and Prepare for Terrorist Attacks",
-          "paragraphs": 94,
-          "ids": "fac931ebcf77"
+          "paragraphs": 89,
+          "ids": "25b64534a2de"
         },
         {
-          "slug": "131-unity-of-effort-across-the-foreign-domestic-divide",
-          "title": "13.1 Unity of Effort across the Foreign-Domestic Divide",
-          "paragraphs": 35,
-          "ids": "8fa8cc02697f"
+          "slug": "how-to-do-it-a-different-way-of-organizing-the-government",
+          "title": "HOW TO DO IT? A DIFFERENT WAY OF ORGANIZING THE GOVERNMENT",
+          "paragraphs": 40,
+          "ids": "b23ed2e0ab47"
         },
         {
           "slug": "132-unity-of-effort-in-the-intelligence-community",
@@ -2305,8 +2323,8 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 188206,
-      "paragraphs": 2308,
+      "words": 188205,
+      "paragraphs": 2303,
       "sections": [
         {
           "slug": "front-matter",
@@ -2341,8 +2359,8 @@
         {
           "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
           "title": "Part II: Explosion and Aftermath: The Causes and Consequences of the Disaster",
-          "paragraphs": 211,
-          "ids": "c1d551c6d837"
+          "paragraphs": 213,
+          "ids": "7d2909a61cbf"
         },
         {
           "slug": "chapter-five-youre-in-it-now-up-to-your-neck-response-and-containment",
@@ -2383,8 +2401,8 @@
         {
           "slug": "safeguarding-the-environment",
           "title": "Safeguarding the Environment",
-          "paragraphs": 9,
-          "ids": "f2b1b4a5131b"
+          "paragraphs": 10,
+          "ids": "0bc138ef69bd"
         },
         {
           "slug": "the-need-for-greater-interagency-consultation",
@@ -2437,8 +2455,8 @@
         {
           "slug": "the-need-to-restore-consumer-confidence",
           "title": "The Need to Restore Consumer Confidence",
-          "paragraphs": 13,
-          "ids": "5c3e5c178cd3"
+          "paragraphs": 14,
+          "ids": "85e1b22fa644"
         },
         {
           "slug": "the-need-for-better-tools-to-balance-economic-and-environmental-interests",
@@ -2479,8 +2497,8 @@
         {
           "slug": "endnotes",
           "title": "Endnotes",
-          "paragraphs": 571,
-          "ids": "47cf24476d29"
+          "paragraphs": 562,
+          "ids": "c76dcb5c6267"
         },
         {
           "slug": "appendix-a-commission-members",
@@ -2515,7 +2533,7 @@
       ]
     },
     "us-v-philip-morris": {
-      "words": 489541,
+      "words": 489310,
       "paragraphs": 5897,
       "sections": [
         {
@@ -2539,14 +2557,14 @@
         {
           "slug": "procedural-history",
           "title": "PROCEDURAL HISTORY",
-          "paragraphs": 12,
-          "ids": "aa6d78d13ec6"
+          "paragraphs": 11,
+          "ids": "2f1bea784564"
         },
         {
-          "slug": "pre-1953-overviewthe-rise-in-american-smoking-and-the-status-of-scientific-resea",
-          "title": "Pre-1953 Overview–The Rise in American Smoking and the Status of Scientific Research on Smoking and Health",
-          "paragraphs": 5,
-          "ids": "848e94f2cb96"
+          "slug": "creation-nature-and-operation-of-the-enterprise",
+          "title": "CREATION, NATURE, AND OPERATION OF THE ENTERPRISE",
+          "paragraphs": 6,
+          "ids": "c7f31cba7c29"
         },
         {
           "slug": "creation-of-the-enterprise",
@@ -2713,8 +2731,14 @@
         {
           "slug": "ctr",
           "title": "CTR",
-          "paragraphs": 18,
-          "ids": "1b6c64b4c4d4"
+          "paragraphs": 9,
+          "ids": "d44e0cf23277"
+        },
+        {
+          "slug": "the-defendants-are-engaged-in-and-their-activities-affect-interstate-and-foreign",
+          "title": "THE DEFENDANTS ARE ENGAGED IN AND THEIR ACTIVITIES AFFECT INTERSTATE AND FOREIGN COMMERCE",
+          "paragraphs": 9,
+          "ids": "c9eae3863125"
         },
         {
           "slug": "tobacco-institute",
@@ -2838,7 +2862,7 @@
         },
         {
           "slug": "defendants-have-long-acknowledged-internally-the-existence-of-a-market-for-a-gen",
-          "title": "Defendants Have Long Acknowledged Internally the Existence of a Market for a Genuinely Less Hazardous Cigarette19",
+          "title": "Defendants Have Long Acknowledged Internally the Existence of a Market for a Genuinely Less Hazardous Cigarette",
           "paragraphs": 12,
           "ids": "a4fd43dd2e84"
         },
@@ -2886,7 +2910,7 @@
         },
         {
           "slug": "based-on-their-sophisticated-understanding-of-compensation-defendants-internally",
-          "title": "Based on Their Sophisticated Understanding of Compensation, Defendants Internally Recognized that Low Tar/Light Cigarettes Offer No Clear Health Benefit28",
+          "title": "Based on Their Sophisticated Understanding of Compensation, Defendants Internally Recognized that Low Tar/Light Cigarettes Offer No Clear Health Benefit",
           "paragraphs": 118,
           "ids": "98cf6dbfcdeb"
         },
@@ -2948,7 +2972,7 @@
           "slug": "the-consensus-of-the-public-health-community-is-that-ets-causes-disease-in-nonsm",
           "title": "The Consensus of the Public Health Community Is that ETS Causes Disease in Nonsmokers",
           "paragraphs": 89,
-          "ids": "7787aed85000"
+          "ids": "09c941498a47"
         },
         {
           "slug": "internally-defendants-recognized-that-ets-is-hazardous-to-nonsmokers",
@@ -3035,8 +3059,8 @@
           "ids": "a253bdf1ae55"
         },
         {
-          "slug": "introduction-2",
-          "title": "Introduction",
+          "slug": "conclusions-of-law",
+          "title": "CONCLUSIONS OF LAW",
           "paragraphs": 7,
           "ids": "4c4c42d24b1e"
         },
@@ -3241,8 +3265,14 @@
         {
           "slug": "corporate-structural-changes",
           "title": "Corporate Structural Changes",
-          "paragraphs": 18,
-          "ids": "12ebe5292b10"
+          "paragraphs": 8,
+          "ids": "b05e55f0a11b"
+        },
+        {
+          "slug": "public-education-and-countermarketing-campaign",
+          "title": "Public Education and Countermarketing Campaign",
+          "paragraphs": 10,
+          "ids": "b5f04bd290e2"
         },
         {
           "slug": "notes-not-linked-in-the-text",
@@ -3253,14 +3283,14 @@
       ]
     },
     "uk-hillsborough-panel": {
-      "words": 202599,
-      "paragraphs": 3090,
+      "words": 203271,
+      "paragraphs": 3425,
       "sections": [
         {
           "slug": "front-matter",
           "title": "Front matter",
-          "paragraphs": 151,
-          "ids": "d793b8b4203a"
+          "paragraphs": 284,
+          "ids": "c3e861b78ca9"
         },
         {
           "slug": "part-1-hillsborough-what-was-known",
@@ -3271,86 +3301,86 @@
         {
           "slug": "part-2-hillsborough-what-is-added-to-public-understanding",
           "title": "Part 2: Hillsborough: 'what is added to public understanding'",
-          "paragraphs": 181,
-          "ids": "aa9e09a4d2ef"
+          "paragraphs": 200,
+          "ids": "cef874f85e98"
         },
         {
           "slug": "chapter-2-the-moment-of",
           "title": "Chapter 2: The 'moment' of",
-          "paragraphs": 114,
-          "ids": "d2e8cfea95a8"
+          "paragraphs": 120,
+          "ids": "fa1d08aca636"
         },
         {
           "slug": "chapter-3-custom-practice-roles-responsibilities",
           "title": "Chapter 3: Custom, practice, roles, responsibilities",
-          "paragraphs": 216,
-          "ids": "e8423ee74bfc"
+          "paragraphs": 232,
+          "ids": "6c7a708236f4"
         },
         {
           "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
           "title": "Chapter 4: Emergency response and aftermath: 'routinely requested to attend'",
-          "paragraphs": 210,
-          "ids": "3cd85c23c52d"
+          "paragraphs": 230,
+          "ids": "f5befd43e151"
         },
         {
           "slug": "chapter-5-medical-evidence-the-testimony-of-the-dead",
           "title": "Chapter 5: Medical evidence: the testimony of the dead",
-          "paragraphs": 137,
-          "ids": "0cbd43cf048d"
+          "paragraphs": 146,
+          "ids": "b14bf58a911b"
         },
         {
           "slug": "chapter-6-parallel-investigations",
           "title": "Chapter 6: Parallel investigations",
-          "paragraphs": 346,
-          "ids": "c70caa02a996"
+          "paragraphs": 384,
+          "ids": "682b728e8dcc"
         },
         {
           "slug": "chapter-7-civil-litigation",
           "title": "Chapter 7: Civil litigation",
-          "paragraphs": 280,
-          "ids": "baca9d6637cf"
+          "paragraphs": 300,
+          "ids": "ed46028d7175"
         },
         {
           "slug": "chapter-8-the-coroners-inquiry-from-the-immediate-aftermath-to-the-preliminary-h",
           "title": "Chapter 8: The Coroner's inquiry: from the immediate aftermath to the preliminary hearings",
-          "paragraphs": 113,
-          "ids": "5351f310be15"
+          "paragraphs": 121,
+          "ids": "78dc004ea3ff"
         },
         {
           "slug": "chapter-9-the-generic-hearing-judicial-review-and-continuing-controversies",
           "title": "Chapter 9: The generic hearing, Judicial Review and continuing controversies",
-          "paragraphs": 152,
-          "ids": "45b04c5ef34d"
+          "paragraphs": 160,
+          "ids": "e4c0d3d954bc"
         },
         {
           "slug": "chapter-10-the-315pm-cut-off",
           "title": "Chapter 10: The 3.15pm cut-off",
-          "paragraphs": 164,
-          "ids": "23037a5efea4"
+          "paragraphs": 176,
+          "ids": "a17173ff98ed"
         },
         {
           "slug": "chapter-11-review-and-alteration-of-statements",
           "title": "Chapter 11: Review and alteration of statements",
-          "paragraphs": 257,
-          "ids": "3ee745ec77dc"
+          "paragraphs": 276,
+          "ids": "e4af908176a2"
         },
         {
           "slug": "chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs",
           "title": "Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations",
-          "paragraphs": 232,
-          "ids": "775cccca7df7"
+          "paragraphs": 250,
+          "ids": "47c07f7e5475"
         },
         {
           "slug": "part-3-the-permanent-archive-for-the-hillsborough-disaster",
           "title": "Part 3: The Permanent Archive for the Hillsborough Disaster",
-          "paragraphs": 80,
-          "ids": "b57cf8b977cf"
+          "paragraphs": 83,
+          "ids": "fc95ba99ff22"
         },
         {
           "slug": "appendix-1-hillsborough-independent-panel-terms-of-reference",
           "title": "Appendix 1: Hillsborough Independent Panel terms of reference",
-          "paragraphs": 33,
-          "ids": "f84fa763f1d0"
+          "paragraphs": 39,
+          "ids": "98d547e35a6f"
         },
         {
           "slug": "appendix-2-disclosure-process",
@@ -3379,44 +3409,56 @@
       ]
     },
     "uk-saville-inquiry": {
-      "words": 171488,
-      "paragraphs": 1881,
+      "words": 168229,
+      "paragraphs": 1458,
       "sections": [
         {
-          "slug": "front-matter",
-          "title": "Front matter",
-          "paragraphs": 224,
-          "ids": "1d802a104c0c"
+          "slug": "general-introduction",
+          "title": "General Introduction",
+          "paragraphs": 15,
+          "ids": "b47ecc4174a7"
         },
         {
-          "slug": "chapter-1-introduction",
-          "title": "Chapter 1: Introduction",
-          "paragraphs": 18,
-          "ids": "795426fdd9d9"
+          "slug": "glossary",
+          "title": "Glossary",
+          "paragraphs": 99,
+          "ids": "03e1cdab43a1"
+        },
+        {
+          "slug": "principal-conclusions-and-overall-assessment",
+          "title": "Principal Conclusions and Overall Assessment",
+          "paragraphs": 8,
+          "ids": "239eb6c869a8"
         },
         {
           "slug": "chapter-2-outline-of-events-before-the-day",
           "title": "Chapter 2: Outline of events before the day",
-          "paragraphs": 19,
-          "ids": "f758d9fb8387"
+          "paragraphs": 17,
+          "ids": "f7b34c103b17"
         },
         {
           "slug": "chapter-3-the-events-of-the-day",
           "title": "Chapter 3: The events of the day",
-          "paragraphs": 173,
-          "ids": "7b8211aafe97"
+          "paragraphs": 121,
+          "ids": "805c83cc5717"
         },
         {
-          "slug": "chapter-4-the-question-of-responsibility",
-          "title": "Chapter 4: The question of responsibility",
-          "paragraphs": 36,
-          "ids": "63cef26d571a"
+          "slug": "chapter-4-the-question-of-responsibility-for-the-deaths-and-injuries-on-bloody-s",
+          "title": "Chapter 4: The question of responsibility for the deaths and injuries on Bloody Sunday",
+          "paragraphs": 35,
+          "ids": "6d61144bfec8"
         },
         {
           "slug": "chapter-5-the-overall-assessment",
           "title": "Chapter 5: The overall assessment",
-          "paragraphs": 9,
-          "ids": "ce73fe50f5ad"
+          "paragraphs": 5,
+          "ids": "607bf34e2cce"
+        },
+        {
+          "slug": "the-background-to-bloody-sunday",
+          "title": "The Background to Bloody Sunday",
+          "paragraphs": 2,
+          "ids": "7a41fba8b599"
         },
         {
           "slug": "chapter-6-introduction",
@@ -3425,27 +3467,27 @@
           "ids": "7378a7f1349c"
         },
         {
-          "slug": "chapter-7-the-period-up-to-july",
-          "title": "Chapter 7: The period up to July",
-          "paragraphs": 134,
-          "ids": "a5c3908470f1"
+          "slug": "chapter-7-the-period-up-to-july-1971",
+          "title": "Chapter 7: The period up to July 1971",
+          "paragraphs": 120,
+          "ids": "bf08f29400e9"
         },
         {
           "slug": "chapter-8-the-period-from-august-to-december-1971",
           "title": "Chapter 8: The period from August to December 1971",
-          "paragraphs": 235,
-          "ids": "632809dc6bfd"
+          "paragraphs": 232,
+          "ids": "29d6c4c37b9f"
         },
         {
           "slug": "chapter-9-the-weeks-before-bloody-sunday",
           "title": "Chapter 9: The weeks before Bloody Sunday",
-          "paragraphs": 1027,
-          "ids": "01d21ff50b13"
+          "paragraphs": 798,
+          "ids": "623530732956"
         }
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 61611,
+      "words": 61871,
       "paragraphs": 951,
       "sections": [
         {
@@ -3476,7 +3518,7 @@
           "slug": "the-impact-of-911",
           "title": "The impact of 9/11",
           "paragraphs": 54,
-          "ids": "98539186da67"
+          "ids": "33405a129cc6"
         },
         {
           "slug": "decision-to-take-the-un-route",
@@ -3530,7 +3572,7 @@
           "slug": "collective-responsibility",
           "title": "Collective responsibility",
           "paragraphs": 52,
-          "ids": "29bee0882653"
+          "ids": "2ef3457eb574"
         },
         {
           "slug": "the-timing-of-lord-goldsmiths-advice-on-the-interpretation-of-resolution-1441",
@@ -3607,8 +3649,14 @@
         {
           "slug": "a-decline-in-security",
           "title": "A DECLINE IN SECURITY",
-          "paragraphs": 28,
-          "ids": "370e81c84ae4"
+          "paragraphs": 18,
+          "ids": "1010d85c004b"
+        },
+        {
+          "slug": "the-turning-point",
+          "title": "THE TURNING POINT",
+          "paragraphs": 10,
+          "ids": "ab7804796705"
         },
         {
           "slug": "planning-for-withdrawal",
@@ -3643,14 +3691,14 @@
         {
           "slug": "force-level-review",
           "title": "FORCE LEVEL REVIEW",
-          "paragraphs": 16,
-          "ids": "10d55313fcfd"
+          "paragraphs": 11,
+          "ids": "6de77b79acd2"
         },
         {
-          "slug": "did-the-uk-achieve-its-objectives-in-iraq",
-          "title": "Did the UK achieve its objectives in Iraq?",
-          "paragraphs": 17,
-          "ids": "8b1b0805507b"
+          "slug": "the-beginning-of-the-end",
+          "title": "THE BEGINNING OF THE END",
+          "paragraphs": 22,
+          "ids": "b0154101b872"
         },
         {
           "slug": "development-of-uk-strategy-and-options-1-february-to-7-march-2003",
@@ -3717,17 +3765,11 @@
           "title": "Timeline of events",
           "paragraphs": 18,
           "ids": "9d9c6fc8444d"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
         }
       ]
     },
     "us-lehman-examiner": {
-      "words": 184765,
+      "words": 184932,
       "paragraphs": 978,
       "sections": [
         {
@@ -3782,19 +3824,13 @@
           "slug": "business-and-risk-management",
           "title": "Business and Risk Management",
           "paragraphs": 312,
-          "ids": "65777a7dd705"
+          "ids": "1f8052874b29"
         },
         {
           "slug": "repo-105",
           "title": "Repo 105",
           "paragraphs": 584,
-          "ids": "2ea570c72161"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
+          "ids": "a2440a30566e"
         }
       ]
     }

@@ -7,6 +7,8 @@
 1-authority-granted-law-department
 1-establish-process-under-auspices
 1-improvements-federal-laws-regulations
+1-need-revise-strengthen-nepa
+1-perform-positive-pressure-test-test
 10
 10-000
 10-22-m-april-22
@@ -363,6 +365,8 @@
 5-45-m-tuesday-april
 5-billion-thunder-horse-project
 5-counties
+5-displace-mud-riser-seawater
+5-need-long-term-restoration-effort
 5-response-group-behalf-conocophillips
 5-year-program-announced-stage-ii
 50-50

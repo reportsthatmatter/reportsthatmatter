@@ -53,9 +53,9 @@ reports:
     heading-long: 17
     printed-page-reversal: 14
     rendered-h1: 1
-    chapter-intro-misfiled: 5  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
-    rendered-ol-words-share: 13
-    numbered-prose-list: 128
+    chapter-intro-misfiled: 2
+    rendered-ol-words-share: 4
+    numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
   columbia-accident:
@@ -77,7 +77,7 @@ reports:
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
-    numbered-prose-list: 7
+    numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
   jack-smith-vol1:
@@ -97,7 +97,7 @@ reports:
     heading-long: 1
     printed-page-reversal: 2
     rendered-h1: 0
-    chapter-intro-misfiled: 3  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 2
     numbered-prose-list: 1
     ids-per-1k-words: 0
@@ -120,14 +120,14 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 6
-    numbered-prose-list: 37
+    rendered-ol-words-share: 1
+    numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: post v0.15.0 integration
   uk-chilcot-inquiry:
-    severed-into-quote: 8
+    severed-into-quote: 2
     severed-paragraph: 0
-    bare-footnote-marker: 185
+    bare-footnote-marker: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 0
@@ -141,9 +141,9 @@ reports:
     heading-long: 3  # why: post v0.15.0 integration
     printed-page-reversal: 0
     rendered-h1: 0
-    chapter-intro-misfiled: 2  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
-    rendered-ol-words-share: 7
-    numbered-prose-list: 1
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 0
+    numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-hillsborough-panel:
@@ -164,20 +164,20 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 8
-    numbered-prose-list: 162
+    rendered-ol-words-share: 1
+    numbered-prose-list: 7
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-leveson-inquiry:
-    severed-into-quote: 327
+    severed-into-quote: 324
     severed-paragraph: 24
-    bare-footnote-marker: 6456  # why: post v0.15.0 integration
+    bare-footnote-marker: 101
     note-marker-wrong-note: 0
-    note-marker-unpaired: 25
-    note-text-in-body: 15  # why: post v0.15.0 integration
+    note-marker-unpaired: 1
+    note-text-in-body: 13
     note-citation-vocabulary: 0
-    furniture-paragraph: 178
-    contents-entry-without-heading: 1233
+    furniture-paragraph: 198  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship)
+    contents-entry-without-heading: 1335  # why: same, Leveson contents pages are now body lists rather than footnotes (+102)
     heading-density: 0
     heading-repeated: 3
     heading-function-word: 1
@@ -185,33 +185,33 @@ reports:
     heading-long: 0
     printed-page-reversal: 1
     rendered-h1: 0
-    chapter-intro-misfiled: 5  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
-    rendered-ol-words-share: 8
-    numbered-prose-list: 67
+    chapter-intro-misfiled: 1
+    rendered-ol-words-share: 1
+    numbered-prose-list: 25
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-saville-inquiry:
-    severed-into-quote: 5
+    severed-into-quote: 0
     severed-paragraph: 1
-    bare-footnote-marker: 10
+    bare-footnote-marker: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-text-in-body: 16
+    note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 17
-    contents-entry-without-heading: 191
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
     heading-density: 0
     heading-repeated: 0
     heading-function-word: 1
     heading-marker: 0
     heading-long: 4
-    printed-page-reversal: 1
+    printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 4
-    numbered-prose-list: 15
+    rendered-ol-words-share: 0
+    numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: reportsthatmatter-zja
+    quote-share-parity: 1
   us-911-commission:
     severed-into-quote: 0
     severed-paragraph: 0
@@ -229,7 +229,7 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
-    chapter-intro-misfiled: 4  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 0
     numbered-prose-list: 0
     ids-per-1k-words: 0
@@ -253,15 +253,15 @@ reports:
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 4  # why: reportsthatmatter-apk (3.6%: sidenotes now paired correctly inside list items; budget was 3)
-    numbered-prose-list: 5
+    numbered-prose-list: 1
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-lehman-examiner:
     severed-into-quote: 1
     severed-paragraph: 22  # why: post v0.15.0 integration
-    bare-footnote-marker: 22
+    bare-footnote-marker: 6
     note-marker-wrong-note: 0
-    note-marker-unpaired: 1
+    note-marker-unpaired: 0
     note-text-in-body: 5  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 5  # why: post v0.15.0 integration
@@ -274,14 +274,14 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 6  # why: reportsthatmatter-6wb
-    numbered-prose-list: 2
+    rendered-ol-words-share: 1
+    numbered-prose-list: 1
     ids-per-1k-words: 0
     quote-share-parity: 1
   us-psi-financial-crisis:
     severed-into-quote: 1
     severed-paragraph: 41
-    bare-footnote-marker: 16
+    bare-footnote-marker: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-text-in-body: 6
@@ -295,13 +295,13 @@ reports:
     heading-long: 0
     printed-page-reversal: 0
     rendered-h1: 0
-    chapter-intro-misfiled: 1  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
-    rendered-ol-words-share: 15
-    numbered-prose-list: 6
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 2
+    numbered-prose-list: 1
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-v-philip-morris:
-    severed-into-quote: 106
+    severed-into-quote: 104
     severed-paragraph: 2
     bare-footnote-marker: 39
     note-marker-wrong-note: 0
@@ -317,7 +317,7 @@ reports:
     heading-long: 60
     printed-page-reversal: 0
     rendered-h1: 0
-    chapter-intro-misfiled: 2  # why: reportsthatmatter-n9em, drops to 0 with the ingest release that folds chapter intros forward (ingest#49)
+    chapter-intro-misfiled: 1
     rendered-ol-words-share: 2
     numbered-prose-list: 3
     ids-per-1k-words: 0

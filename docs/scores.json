@@ -1,9 +1,9 @@
 {
- "ingest": "v0.19.0",
+ "ingest": "v0.20.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
-   "ingest": "v0.18.1",
+   "ingest": "v0.20.0",
    "metrics": {
     "boundary_p": 0.8895265423242468,
     "boundary_r": 0.8831908831908832,
@@ -30,8 +30,30 @@
   },
   "uk-chilcot-inquiry": {
    "set": "held-out",
-   "ingest": "v0.18.1",
+   "ingest": "v0.20.0",
    "metrics": {
+    "boundary_p": 0.9942763695829926,
+    "boundary_r": 0.7875647668393783,
+    "boundary_f1": 0.878930249367546,
+    "join_all": 0.970873786407767,
+    "join_all_n": 103,
+    "join_high": 1,
+    "join_high_n": 80,
+    "join_adj_ours_wrong": 2,
+    "join_adj_judged": 30,
+    "marker_p": 0.9822222222222222,
+    "marker_r": 0.8065693430656934,
+    "wer": 0.14481897627965043,
+    "wer_ref_coverage": 0.9891372598266985,
+    "wer_pages": 0.001220137574932362,
+    "wer_pages_n": 142,
+    "page_marker_p": 1,
+    "page_marker_r": 1,
+    "ref_error_rate": 0.045454545454545456,
+    "ref_no_answer_rate": 0.26666666666666666,
+    "ref_unusable_rate": 0.3
+   },
+   "previous": {
     "boundary_p": 0.989344262295082,
     "boundary_r": 0.7847854356306893,
     "boundary_f1": 0.8752719361856418,
@@ -52,13 +74,34 @@
     "ref_error_rate": 0.045454545454545456,
     "ref_no_answer_rate": 0.26666666666666666,
     "ref_unusable_rate": 0.3
-   },
-   "previous": null
+   }
   },
   "uk-hillsborough-panel": {
    "set": "held-out",
-   "ingest": "v0.18.1",
+   "ingest": "v0.20.0",
    "metrics": {
+    "boundary_p": 0.7767584097859327,
+    "boundary_r": 0.7460835509138382,
+    "boundary_f1": 0.7611120359580489,
+    "join_all": 0.8059701492537313,
+    "join_all_n": 335,
+    "join_high": 0.8067796610169492,
+    "join_high_n": 295,
+    "join_adj_ours_wrong": 7,
+    "join_adj_judged": 30,
+    "marker_p": 0,
+    "marker_r": 0,
+    "wer": 0.014933570600802975,
+    "wer_ref_coverage": 0.9836466774716369,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": 0,
+    "ref_no_answer_rate": 0,
+    "ref_unusable_rate": 0
+   },
+   "previous": {
     "boundary_p": 0.7730808251606358,
     "boundary_r": 0.7460835509138382,
     "boundary_f1": 0.7593423019431987,
@@ -79,13 +122,34 @@
     "ref_error_rate": 0,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0
-   },
-   "previous": null
+   }
   },
   "uk-saville-inquiry": {
    "set": "development",
-   "ingest": "v0.19.0",
+   "ingest": "v0.20.0",
    "metrics": {
+    "boundary_p": 1,
+    "boundary_r": 0.7656840513983371,
+    "boundary_f1": 0.8672945205479452,
+    "join_all": 0.9334862385321101,
+    "join_all_n": 436,
+    "join_high": 0.9664082687338501,
+    "join_high_n": 387,
+    "join_adj_ours_wrong": 0,
+    "join_adj_judged": 30,
+    "marker_p": 0.9862919808087731,
+    "marker_r": 0.9979195561719834,
+    "wer": 0.0006437953394527075,
+    "wer_ref_coverage": 0.9998341008932008,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": 0,
+    "ref_no_answer_rate": 0,
+    "ref_unusable_rate": 0
+   },
+   "previous": {
     "boundary_p": 0.9936178699641005,
     "boundary_r": 0.9403548508871272,
     "boundary_f1": 0.9662529092319627,
@@ -106,12 +170,11 @@
     "ref_error_rate": 0,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0
-   },
-   "previous": null
+   }
   },
   "us-911-commission": {
    "set": "development",
-   "ingest": "v0.19.0",
+   "ingest": "v0.20.0",
    "metrics": {
     "boundary_p": 0.9992570579494799,
     "boundary_r": 0.912483039348711,
@@ -159,7 +222,7 @@
   },
   "us-duelfer-report": {
    "set": "held-out",
-   "ingest": "v0.18.1",
+   "ingest": "v0.20.0",
    "metrics": {
     "boundary_p": 0.8098833218943033,
     "boundary_r": 0.677382319173364,
@@ -186,8 +249,30 @@
   },
   "us-v-philip-morris": {
    "set": "development",
-   "ingest": "v0.19.0",
+   "ingest": "v0.20.0",
    "metrics": {
+    "boundary_p": 0.983580637314522,
+    "boundary_r": 0.987906181285121,
+    "boundary_f1": 0.9857386640663092,
+    "join_all": 0.9719387755102041,
+    "join_all_n": 1568,
+    "join_high": 0.9753661784287616,
+    "join_high_n": 1502,
+    "join_adj_ours_wrong": 0,
+    "join_adj_judged": 30,
+    "marker_p": 1,
+    "marker_r": 0.2127659574468085,
+    "wer": 0.009055266061240607,
+    "wer_ref_coverage": 0.9510004777830865,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": 0,
+    "ref_no_answer_rate": 0,
+    "ref_unusable_rate": 0
+   },
+   "previous": {
     "boundary_p": 0.9833414396887159,
     "boundary_r": 0.987906181285121,
     "boundary_f1": 0.9856185252894577,
@@ -208,8 +293,7 @@
     "ref_error_rate": 0,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0
-   },
-   "previous": null
+   }
   }
  }
 }

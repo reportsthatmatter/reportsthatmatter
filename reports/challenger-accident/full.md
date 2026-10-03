@@ -228,9 +228,9 @@ Was there sufficient time to correct the problems with the Solid Rocket Motor?
 
 Findings
 
-1. Problems with the joints which connect the Solid Rocket Motor casings were recognized for many years. While attempts were made to correct these problems, the measures taken were insufficient to provide a reliable joint.
+1\. Problems with the joints which connect the Solid Rocket Motor casings were recognized for many years. While attempts were made to correct these problems, the measures taken were insufficient to provide a reliable joint.
 
-2. The joint seal problem was recognized by engineers in both NASA and Morton Thiokol in sufficient time to have been corrected by redesigning and manufacturing new joints before the accident on January 28, 1986. Meeting flight schedules and cutting cost were given a higher priority than flight safety.
+2\. The joint seal problem was recognized by engineers in both NASA and Morton Thiokol in sufficient time to have been corrected by redesigning and manufacturing new joints before the accident on January 28, 1986. Meeting flight schedules and cutting cost were given a higher priority than flight safety.
 
 ### Summary of Casing Joint Design
 
@@ -240,9 +240,9 @@ Why did the aft field joint between the steel containers that hold the Solid Roc
 
 Findings
 
-1. The design of the field joint was unsatisfactory and could not reliably contain the burning propellant gases under the range of operating conditions to be expected during the lift-off and flight phases.
+1\. The design of the field joint was unsatisfactory and could not reliably contain the burning propellant gases under the range of operating conditions to be expected during the lift-off and flight phases.
 
-2. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor, Morton Thiokol, can adequately control the quality or consistency of these kinds of materials, which are made from recipes known
+2\. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor, Morton Thiokol, can adequately control the quality or consistency of these kinds of materials, which are made from recipes known
 
 (9) only by the manufacturer and which can be changed without certification and approval.
 
@@ -250,11 +250,11 @@ Findings
 
 Recommendations
 
-1. NASA should write and issue a new and more accurate performance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
+1\. NASA should write and issue a new and more accurate performance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
 
-2. The Committee concurs with the Rogers Commission Report Recommendations on new joint design, but believes it is more appropriate to be more explicit in identifying the weaknesses in the joint design that need correction.
+2\. The Committee concurs with the Rogers Commission Report Recommendations on new joint design, but believes it is more appropriate to be more explicit in identifying the weaknesses in the joint design that need correction.
 
-3. The field joints of the Solid Rocket Motors should be rede- signed to account for the following features while providing a significant factor of safety:
+3\. The field joints of the Solid Rocket Motors should be rede- signed to account for the following features while providing a significant factor of safety:
 
 > a. Movement in the joint, b. Proper spacing between tang and clevis, c. Seals made to withstand high and low temperatures under all dynamic thermal and structural loadings, d. Adequate sealing without the use of putty, e. Protection against insulation debonding and propellant cracking.
 
@@ -282,27 +282,27 @@ How was the decision to launch STS 51-L arrived at and why was it wrong?
 
 Findings
 
-1. The Flight Readiness Review for STS 51-L was conducted in accordance with established procedure.
+1\. The Flight Readiness Review for STS 51-L was conducted in accordance with established procedure.
 
-2. The decision to launch STS 51-L was based on a faulty engineering analysis of the SRM field joint seal behavior.
+2\. The decision to launch STS 51-L was based on a faulty engineering analysis of the SRM field joint seal behavior.
 
 %%page 11%%
 
-3. Compounding this erroneous analysis were serious ongoing weaknesses in the Shuttle Safety, Reliability and Quality Assurance Program which had failed to exercise control over the problem tracking systems, had not critiqued the engineering analysis advanced as an explanation of the SRM seal problem, and did not provide the independent perspective required by senior NASA managers at Flight Readiness Reviews.
+3\. Compounding this erroneous analysis were serious ongoing weaknesses in the Shuttle Safety, Reliability and Quality Assurance Program which had failed to exercise control over the problem tracking systems, had not critiqued the engineering analysis advanced as an explanation of the SRM seal problem, and did not provide the independent perspective required by senior NASA managers at Flight Readiness Reviews.
 
-4. The initial response of Marshall managers to the attempts of Thiokol engineers to raise the issue of temperature effects on the SRM seals caused Thiokol management to discount proper technical concerns and engineering judgment in their recommendation to launch.
+4\. The initial response of Marshall managers to the attempts of Thiokol engineers to raise the issue of temperature effects on the SRM seals caused Thiokol management to discount proper technical concerns and engineering judgment in their recommendation to launch.
 
-5. The Director of Marshall's Shuttle Projects Office may have violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27th teleconference to the Associate Administrator for Space Flight.
+5\. The Director of Marshall's Shuttle Projects Office may have violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27th teleconference to the Associate Administrator for Space Flight.
 
-6. The decision of the STS Program Manager to launch despite the uncertainty represented by ice on the Fixed Service Structure was not a prudent effort to mitigate avoidable risks to the Shuttle.
+6\. The decision of the STS Program Manager to launch despite the uncertainty represented by ice on the Fixed Service Structure was not a prudent effort to mitigate avoidable risks to the Shuttle.
 
-7. The Launch Director failed to place safety paramount in evaluating the launch readiness of STS 51-L. 8. No launch should have been permitted until ice was cleared from the platform leading to the pad escape system.
+7\. The Launch Director failed to place safety paramount in evaluating the launch readiness of STS 51-L. 8. No launch should have been permitted until ice was cleared from the platform leading to the pad escape system.
 
-9. Ice Team personnel and Rockwell contractors properly conveyed their inability to predict the post-ignition behavior of ice.
+9\. Ice Team personnel and Rockwell contractors properly conveyed their inability to predict the post-ignition behavior of ice.
 
-10. Post-flight analysis indicates that ice did not exhibit the behavior predicted by analysis, and that ice traversed a distance sufficient to strike the Shuttle during liftoff.
+10\. Post-flight analysis indicates that ice did not exhibit the behavior predicted by analysis, and that ice traversed a distance sufficient to strike the Shuttle during liftoff.
 
-11. Failure to enforce a clear requirement for definite readiness statements contributed to failures in communication between NASA and its contractors during launch preparations.
+11\. Failure to enforce a clear requirement for definite readiness statements contributed to failures in communication between NASA and its contractors during launch preparations.
 
 Issue 2
 
@@ -332,9 +332,9 @@ The External Tank was obviously involved in the accident. Was that involvement a
 
 Findings
 
-1. The Committee adopts the "Finding" of the Rogers Commission that: "A review of the External Tank's construction records, acceptance testing, prelaunch and flight data and recovered hardware, does not support anything relating to the External Tank which caused or contributed to the cause of the accident."
+1\. The Committee adopts the "Finding" of the Rogers Commission that: "A review of the External Tank's construction records, acceptance testing, prelaunch and flight data and recovered hardware, does not support anything relating to the External Tank which caused or contributed to the cause of the accident."
 
-2. The External Tank ruptured under the forces of a failed Solid Rocket Booster motor. These forces were far outside of any possible design considerations that could have been applied to the External Tank.
+2\. The External Tank ruptured under the forces of a failed Solid Rocket Booster motor. These forces were far outside of any possible design considerations that could have been applied to the External Tank.
 
 ## CREW SURVIVAL
 
@@ -382,21 +382,21 @@ Have all elements of Space Shuttle flight hardware been adequately certified?
 
 Findings
 
-1. The overall design and certification processes prescribed by NASA for each major element of Space Shuttle flight hardware are very comprehensive.
+1\. The overall design and certification processes prescribed by NASA for each major element of Space Shuttle flight hardware are very comprehensive.
 
-2. Prior to the STS 51-L accident, in spite of the comprehensive nature of NASA's prescribed design and certification processes, insufficient testing had been conducted to permit a n adequate understanding by either Morton-Thiokol or NASA regarding the actual functioning of the Solid Rocket Motor joint. Also, the Solid Rocket Motor had not been adequately certified to meet the natural and induced environmental conditions that are stated in NASA's design standards. The issue of whether or not standards were adequate is discussed in Section VII.
+2\. Prior to the STS 51-L accident, in spite of the comprehensive nature of NASA's prescribed design and certification processes, insufficient testing had been conducted to permit a n adequate understanding by either Morton-Thiokol or NASA regarding the actual functioning of the Solid Rocket Motor joint. Also, the Solid Rocket Motor had not been adequately certified to meet the natural and induced environmental conditions that are stated in NASA's design standards. The issue of whether or not standards were adequate is discussed in Section VII.
 
-3. The deficiencies in Solid Rocket Motor testing and certification persisted in spite of many reviews of the program by panels of experts: (1)within the manufacturer; (2) within NASA; and (3) from independent, outside groups.
+3\. The deficiencies in Solid Rocket Motor testing and certification persisted in spite of many reviews of the program by panels of experts: (1)within the manufacturer; (2) within NASA; and (3) from independent, outside groups.
 
-4. These deficiencies in testing and certification of one major element of the Space Shuttle system raise the possibility that other elements of flight hardware (or other sub-elements of the Solid Rocket Motor) could have similar deficiences.
+4\. These deficiencies in testing and certification of one major element of the Space Shuttle system raise the possibility that other elements of flight hardware (or other sub-elements of the Solid Rocket Motor) could have similar deficiences.
 
-5. If NASA is unable to explain why the deficiences in Solid Rocket Motor testing and certification went undetected by the existing comprehensive set of processes and procedures, the agency will not be able to protect against a similar breakdown in its system of checks and balances in the future.
+5\. If NASA is unable to explain why the deficiences in Solid Rocket Motor testing and certification went undetected by the existing comprehensive set of processes and procedures, the agency will not be able to protect against a similar breakdown in its system of checks and balances in the future.
 
 Recommendations
 
-1. NASA should devote more attention to determining why the deficiencies in Solid Rocket Motor testing and certification went undetected, so that appropriate action can be taken to uncover latent problems in existing hardware and to prevent similar problems in future development programs.
+1\. NASA should devote more attention to determining why the deficiencies in Solid Rocket Motor testing and certification went undetected, so that appropriate action can be taken to uncover latent problems in existing hardware and to prevent similar problems in future development programs.
 
-2. NASA and its contractors should thoroughly reassess the adequacy of all the testing and certification that has been conducted to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected.
+2\. NASA and its contractors should thoroughly reassess the adequacy of all the testing and certification that has been conducted to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected.
 
 Issue 2
 
@@ -406,23 +406,23 @@ Does the Space Shuttle Main Engine have adequate operating margins, and is the "
 
 Findings
 
-1. The Space Shuttle Main Engine is an impressive, technological achievement. However, it also is one of the higher risk elements of the Space Shuttle system. Anomalous component performance or premature engine shutdown could prove catastrophic to the Space Shuttle and its crew.
+1\. The Space Shuttle Main Engine is an impressive, technological achievement. However, it also is one of the higher risk elements of the Space Shuttle system. Anomalous component performance or premature engine shutdown could prove catastrophic to the Space Shuttle and its crew.
 
-2. Some NASA officials familiar with the Space Shuttle Main Engine believe that it should be operated at a throttle setting of 109 percent only in an emergency; others believe the engine could be safely operated at 109 percent on a routine basis.
+2\. Some NASA officials familiar with the Space Shuttle Main Engine believe that it should be operated at a throttle setting of 109 percent only in an emergency; others believe the engine could be safely operated at 109 percent on a routine basis.
 
-3. It is widely accepted that the Space Shuttle Main Engine would be safer if its operating margins (for temperature, pressure, operating time, etc.) were increased.
+3\. It is widely accepted that the Space Shuttle Main Engine would be safer if its operating margins (for temperature, pressure, operating time, etc.) were increased.
 
-4. The Committee agrees with the sense of Dr. Feynman's concerns with respect to NASA's current "fleet leader" concept for certifying Space Shuttle Main Engine components, such as high pressure turbopumps, for flight.
+4\. The Committee agrees with the sense of Dr. Feynman's concerns with respect to NASA's current "fleet leader" concept for certifying Space Shuttle Main Engine components, such as high pressure turbopumps, for flight.
 
-5. On a case by case basis, NASA regularly violates its own certification requirements by permitting individual engine components to be used for flight even though they have accumulated an operating time in excess of 50 percent of the two fleet leaders (i.e., in violation of the "2X" rule).
+5\. On a case by case basis, NASA regularly violates its own certification requirements by permitting individual engine components to be used for flight even though they have accumulated an operating time in excess of 50 percent of the two fleet leaders (i.e., in violation of the "2X" rule).
 
 Recommendations
 
-1. NASA should continue its active development program for the Space Shuttle Main Engine. The program should be focused more on increasing operating margins.
+1\. NASA should continue its active development program for the Space Shuttle Main Engine. The program should be focused more on increasing operating margins.
 
-2. Because of the safety concerns raised by some knowledgeable officials, NASA should give serious consideration to restricting use of the 109 percent engine throttle setting to emergency situations only. If NASA decides that it needs to use the 109 percent throttle setting for other than emergency situations, the space agency should take whatever actions are required to ensure that adequate margins are present to maintain safety.
+2\. Because of the safety concerns raised by some knowledgeable officials, NASA should give serious consideration to restricting use of the 109 percent engine throttle setting to emergency situations only. If NASA decides that it needs to use the 109 percent throttle setting for other than emergency situations, the space agency should take whatever actions are required to ensure that adequate margins are present to maintain safety.
 
-3. NASA should closely scrutinize each of the concerns raised by Dr. Feynman regarding the agency's "fleet leader" concept for certifying Space Shuttle Main Engine components. The agency should also closely reassess its practice of selectively violating its "2X" rule for some Main Engine flight hardware elements.
+3\. NASA should closely scrutinize each of the concerns raised by Dr. Feynman regarding the agency's "fleet leader" concept for certifying Space Shuttle Main Engine components. The agency should also closely reassess its practice of selectively violating its "2X" rule for some Main Engine flight hardware elements.
 
 b. Recurrent Hardware Problems
 
@@ -432,29 +432,29 @@ What resolutions of inadequacies revealed in the landing gear, tires, wheels, br
 
 Findings
 
-1. The Orbiter landing gear, tires, wheels, brakes, and nose wheel steering, as a system, is experimental, designed to criteria outside any other experience, and uses unique combinations of materials. The original design performance specifications for speed and landing weights are routinely exceeded. The original design did not consider asymmetrical braking for cross wind steering as the normal case, although it has become standard practice. Stresses which were not taken into account in the design have surfaced in as yet a very small real world sample.
+1\. The Orbiter landing gear, tires, wheels, brakes, and nose wheel steering, as a system, is experimental, designed to criteria outside any other experience, and uses unique combinations of materials. The original design performance specifications for speed and landing weights are routinely exceeded. The original design did not consider asymmetrical braking for cross wind steering as the normal case, although it has become standard practice. Stresses which were not taken into account in the design have surfaced in as yet a very small real world sample.
 
 %%page 15%%
 
-2. As a consequence, Orbiter landings appear high risk even under ideal conditions, which seldom occur. Exceptional procedural and skill demands are placed upon the pilots to nurse the brakes and tires through every landing. Landing rules have had increasing constraints imposed that hamper operational flexibility and usefulness of the Orbiter.
+2\. As a consequence, Orbiter landings appear high risk even under ideal conditions, which seldom occur. Exceptional procedural and skill demands are placed upon the pilots to nurse the brakes and tires through every landing. Landing rules have had increasing constraints imposed that hamper operational flexibility and usefulness of the Orbiter.
 
-3. Brake and tire damage have been evident since early on in the program. The Rogers Commission seems very correct in finding the current landing gear system unacceptable. Resolution of landing gear system problems can no longer be put off.
+3\. Brake and tire damage have been evident since early on in the program. The Rogers Commission seems very correct in finding the current landing gear system unacceptable. Resolution of landing gear system problems can no longer be put off.
 
 Recommendations
 
 The Committee recommends that NASA
 
-1. Assemble all of the fragmented studies, analyses, and conclusions on landing gear problems and integrate them into one engineering description of the system as it is now intended to be used. This should include consideration of the basic strength of the struts themselves and their attachments.
+1\. Assemble all of the fragmented studies, analyses, and conclusions on landing gear problems and integrate them into one engineering description of the system as it is now intended to be used. This should include consideration of the basic strength of the struts themselves and their attachments.
 
-2. Write a new system specification and match the proposed design improvements to an acceptable reliability and certification specification.
+2\. Write a new system specification and match the proposed design improvements to an acceptable reliability and certification specification.
 
-3. Design a test and certification program adequate to meet criteria to fly and to continue well into future operations until understanding and confidence in the landing gear system is attained.
+3\. Design a test and certification program adequate to meet criteria to fly and to continue well into future operations until understanding and confidence in the landing gear system is attained.
 
-4. In anticipation of requirements for a new brake specification, accelerate a program to provide:
+4\. In anticipation of requirements for a new brake specification, accelerate a program to provide:
 
 > Increased brake mass and/or heat sink, Substantial increase in energy absorption, Evaluation which weighs the experimental nature of the proposed 65 million foot pound carbon brake and its impact on the system against the penalty of weight of known materials (e.g. steel) for operational confidence.
 
-5. Write updated subsystem specifications to upgrade the landing gear system to acceptable levels of performance to respond to the Rogers Commission's recommendations.
+5\. Write updated subsystem specifications to upgrade the landing gear system to acceptable levels of performance to respond to the Rogers Commission's recommendations.
 
 Issue 2
 
@@ -480,9 +480,9 @@ In recent years, serious engineering concerns have been raised regarding the saf
 
 Recommendations
 
-1. NASA should ensure that, as a part of its current review of Space Shuttle safety, it identifies, thoroughly evaluates, and then takes appropriate action on all serious engineering concerns raised regarding mission critical elements of Space Shuttle flight hardware.
+1\. NASA should ensure that, as a part of its current review of Space Shuttle safety, it identifies, thoroughly evaluates, and then takes appropriate action on all serious engineering concerns raised regarding mission critical elements of Space Shuttle flight hardware.
 
-2. NASA should give special attention to both the cost and risks of using Filament Wound Case Solid Rocket Boosters for very heavy Space Shuttle payloads versus the cost and programmatic impacts of simply transferring those payloads to expendable launch vehicles.
+2\. NASA should give special attention to both the cost and risks of using Filament Wound Case Solid Rocket Boosters for very heavy Space Shuttle payloads versus the cost and programmatic impacts of simply transferring those payloads to expendable launch vehicles.
 
 d. Desirable Tests Not Yet Approved
 
@@ -492,21 +492,21 @@ Is the current ground test program for the SSME adequate to provide a complete u
 
 Findings
 
-1. The Committee supports the Findings and Conclusions of the Development and Production Team concerning the SSME, particularly the concern that "Hardware availability and the potential of damage to hardware and facilities resulting from tests malfunctions have constrained . . . [full margin] . . . testing during the ground test program."
+1\. The Committee supports the Findings and Conclusions of the Development and Production Team concerning the SSME, particularly the concern that "Hardware availability and the potential of damage to hardware and facilities resulting from tests malfunctions have constrained . . . [full margin] . . . testing during the ground test program."
 
-2. The Committee shares Dr. Feynman's concern that there has been a slow shift toward decreasing safety in the SSME program.
+2\. The Committee shares Dr. Feynman's concern that there has been a slow shift toward decreasing safety in the SSME program.
 
-3. There is not a sufficient understanding of SSME blade cracks and fractures.
+3\. There is not a sufficient understanding of SSME blade cracks and fractures.
 
 Recommendations
 
-1. The Committee concurs with the Development and Production Team conclusion that overtesting, limits testing, and malfunction- testing in the SSME program should be re-emphasized to demonstrate full engine capability.
+1\. The Committee concurs with the Development and Production Team conclusion that overtesting, limits testing, and malfunction- testing in the SSME program should be re-emphasized to demonstrate full engine capability.
 
-2. NASA should prepare and submit to the Committee a cost-benefit analysis of testing a SSME to destruction including: (a) utilizing additional SSME test stands; (b) utilizing additional hardware for the ground test program; and (c) the value of such a test.
+2\. NASA should prepare and submit to the Committee a cost-benefit analysis of testing a SSME to destruction including: (a) utilizing additional SSME test stands; (b) utilizing additional hardware for the ground test program; and (c) the value of such a test.
 
 %%page 17%%
 
-3. A vigorous study of fracture behavior should be conducted to minimize the hazard of cracked SSME blades and to increase the reliability and safety margin of blades. New blades and/or new policies for duration of blade use should be incorporated prior to the next Shuttle launch.
+3\. A vigorous study of fracture behavior should be conducted to minimize the hazard of cracked SSME blades and to increase the reliability and safety margin of blades. New blades and/or new policies for duration of blade use should be incorporated prior to the next Shuttle launch.
 
 Issue 2
 
@@ -514,9 +514,9 @@ Is the leak/combustion threat of the External Tank's hydrogen pressure valve a h
 
 Findings
 
-1. The Committee supports the Rogers Commission concern regarding the hazard posed by the liquid hydrogen vent and relief valve.
+1\. The Committee supports the Rogers Commission concern regarding the hazard posed by the liquid hydrogen vent and relief valve.
 
-2. The Committee supports the intent of the ET prime contractor, Martin Marietta, to pursue outdoor wind tunnel testing to eliminate the liquid hydrogen vent/relief valve hazard.
+2\. The Committee supports the intent of the ET prime contractor, Martin Marietta, to pursue outdoor wind tunnel testing to eliminate the liquid hydrogen vent/relief valve hazard.
 
 Recommendation
 
@@ -542,19 +542,19 @@ Should 100 percent X-ray inspection of the propellant and insulation for the Sol
 
 Findings
 
-1. Previous X-ray inspection led to only one SRM being rejected for Shuttle use.
+1\. Previous X-ray inspection led to only one SRM being rejected for Shuttle use.
 
-2. There is no non-destructive inspection method which can guarantee a defect-free SRM. X-ray inspection cannot detect "kissing" voids in which the SRM insulation is touching the SRM steel casing but is not bonded to it. Debonded insulation at the end of an SRM segment could provide burning propellant gases with a path to the SRM steel casing and could result in loss of vehicle and crew. X-ray inspection can detect propellant cracks and large voids which if undetected could also result in a catastrophic situation.
+2\. There is no non-destructive inspection method which can guarantee a defect-free SRM. X-ray inspection cannot detect "kissing" voids in which the SRM insulation is touching the SRM steel casing but is not bonded to it. Debonded insulation at the end of an SRM segment could provide burning propellant gases with a path to the SRM steel casing and could result in loss of vehicle and crew. X-ray inspection can detect propellant cracks and large voids which if undetected could also result in a catastrophic situation.
 
 %%page 18%%
 
-3. Although there is no guarantee that X-ray inspection has been a particularly effective method of detecting propellant and insulation SRM flaws, it remains one of the best available methods to monitor the SRM manufacturing process.
+3\. Although there is no guarantee that X-ray inspection has been a particularly effective method of detecting propellant and insulation SRM flaws, it remains one of the best available methods to monitor the SRM manufacturing process.
 
 Recommendations
 
-1. NASA should consider reinstating full X-ray inspection of the propellant and insulation for all motors used on succeeding flights until new, more accurate inspection methods can be developed and implemented and there is unquestionable confidence in the SRM production process.
+1\. NASA should consider reinstating full X-ray inspection of the propellant and insulation for all motors used on succeeding flights until new, more accurate inspection methods can be developed and implemented and there is unquestionable confidence in the SRM production process.
 
-2. NASA, in conjunction with the appropriate contractors, should investigate the development of new, more accurate inspection techniques which can detect "kissing" voids and other potential defects that cannot be detected by X-ray inspection.
+2\. NASA, in conjunction with the appropriate contractors, should investigate the development of new, more accurate inspection techniques which can detect "kissing" voids and other potential defects that cannot be detected by X-ray inspection.
 
 Issue 2
 
@@ -562,15 +562,15 @@ Are all production and other activities involving Criticality 1 and 1R hardware 
 
 Findings
 
-1. Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board.
+1\. Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board.
 
-2. The O-ring used in the case joint is critical to the sea:ing integrity of the joint, yet it is not designated as a "critical" process by either the Parker Seal Co. or Hydrapack, the manufacturer and supplier respectively. This raises the possibility that other Criticality 1 and 1R hardware components are also not appropriately designated by their manufacturer as "critical" processes.
+2\. The O-ring used in the case joint is critical to the sea:ing integrity of the joint, yet it is not designated as a "critical" process by either the Parker Seal Co. or Hydrapack, the manufacturer and supplier respectively. This raises the possibility that other Criticality 1 and 1R hardware components are also not appropriately designated by their manufacturer as "critical" processes.
 
 Recommendations
 
-1. NASA should require the manufacture of critical items, such as the O-rings, to be designated "critical" processes. Contractors should formally notify their employees involved in critical manufacturing processes of the serious nature of particular production processes.
+1\. NASA should require the manufacture of critical items, such as the O-rings, to be designated "critical" processes. Contractors should formally notify their employees involved in critical manufacturing processes of the serious nature of particular production processes.
 
-2. NASA should conduct a thorough review to ensure that all manufacturing processes involving Criticality 1 and 1R hardware components of prime and secondary contractors are appropriately designated "critical" processes.
+2\. NASA should conduct a thorough review to ensure that all manufacturing processes involving Criticality 1 and 1R hardware components of prime and secondary contractors are appropriately designated "critical" processes.
 
 Issue 3
 
@@ -606,25 +606,25 @@ Is NASA's SRM redesign and hardware recertification plan a viable and realistic 
 
 Findings
 
-1. NASA's SRM redesign plan is a step in the right direction. Moving the proposed launch date beyond June 1987 is a responsible and realistic decision. The membership of the SRM Redesign Team is representative of qualified individuals in and outside of NASA. With the expert assistance of the specially appointed National Research Council (NRC) Independent Oversight Group, the new SRM design should be a significantly safer and more reliable Shuttle element.
+1\. NASA's SRM redesign plan is a step in the right direction. Moving the proposed launch date beyond June 1987 is a responsible and realistic decision. The membership of the SRM Redesign Team is representative of qualified individuals in and outside of NASA. With the expert assistance of the specially appointed National Research Council (NRC) Independent Oversight Group, the new SRM design should be a significantly safer and more reliable Shuttle element.
 
-2. NASA's current hardware recertification plan is also a step in the right direction. The use of independent review contractors distinguishes this recertification plan from earlier reviews. However, given the failure of previous reviews to discover the deficient SRB joint certification, the Committee is concerned there is still the possibility that the recertification effort may not reveal other certification deficiencies, if indeed they exist. The plan also raises concern about the qualifications of independent reviewers to evaluate certain elements given the uniqueness of particular Shuttle components.
+2\. NASA's current hardware recertification plan is also a step in the right direction. The use of independent review contractors distinguishes this recertification plan from earlier reviews. However, given the failure of previous reviews to discover the deficient SRB joint certification, the Committee is concerned there is still the possibility that the recertification effort may not reveal other certification deficiencies, if indeed they exist. The plan also raises concern about the qualifications of independent reviewers to evaluate certain elements given the uniqueness of particular Shuttle components.
 
-3. The joint was never fully tested as a separate element of the SRM. The various forces that act on the joint during stacking, launch, and flight are difficult, if not impossible, to duplicate in a test of the joint under all conditions that could be experienced during launch and flight.
+3\. The joint was never fully tested as a separate element of the SRM. The various forces that act on the joint during stacking, launch, and flight are difficult, if not impossible, to duplicate in a test of the joint under all conditions that could be experienced during launch and flight.
 
 %%page 20%%
 
-4. It is unclear what function the new Safety Office will perform in the redesign of the SRB field joint and other critical elements of the Shuttle, as well as NASA's recertification plan.
+4\. It is unclear what function the new Safety Office will perform in the redesign of the SRB field joint and other critical elements of the Shuttle, as well as NASA's recertification plan.
 
 Recommendations
 
-1. The Committee recognizes the national need to return the Shuttle to flight status as soon as reasonably possible. As noted in NASA's July 14, 1986, report to the President, safety will determine the launch schedule. However, NASA should consider the proposed launch date of early 1988 as a flexible one which should be slipped further if necessary. The Shuttle should not be launched again until NASA can assure that safety criteria have been met.
+1\. The Committee recognizes the national need to return the Shuttle to flight status as soon as reasonably possible. As noted in NASA's July 14, 1986, report to the President, safety will determine the launch schedule. However, NASA should consider the proposed launch date of early 1988 as a flexible one which should be slipped further if necessary. The Shuttle should not be launched again until NASA can assure that safety criteria have been met.
 
-2. In establishing a test program to certify the new Solid Rocket Motor design, NASA should consider the feasibility of including in combination and in the proper sequence all of the thermal and structural loads expected to be experienced by the Solid Rocket Motor during ignition, lift-off, and flight.
+2\. In establishing a test program to certify the new Solid Rocket Motor design, NASA should consider the feasibility of including in combination and in the proper sequence all of the thermal and structural loads expected to be experienced by the Solid Rocket Motor during ignition, lift-off, and flight.
 
-3. The independent review contractors participating in the hardware recertification plan should utilize sufficient specific technical expertise to insure adequate recertification of all elements of the STS.
+3\. The independent review contractors participating in the hardware recertification plan should utilize sufficient specific technical expertise to insure adequate recertification of all elements of the STS.
 
-4. The Committee requests that the new Office of Safety, Reliability and Quality Assurance conduct an independent assessment of the SRB field joint redesign efforts. In addition, the new office should also be integrally involved in reviewing all other critical component redesign efforts and NASA's recertification plan.
+4\. The Committee requests that the new Office of Safety, Reliability and Quality Assurance conduct an independent assessment of the SRB field joint redesign efforts. In addition, the new office should also be integrally involved in reviewing all other critical component redesign efforts and NASA's recertification plan.
 
 > 2. Operations a. Shuttle Processing Issues
 
@@ -634,27 +634,27 @@ In 1983, NASA consolidated fifteen separate contracts and awarded a single Shutt
 
 Findings
 
-1. Performance under the SPC has improved since the inception of the contract. However, up to the time of the Challenger accident, contractor performance continued to be plagued by excessive overtime, persistent failures to follow prescribed work procedures, and inadequate logistical support from NASA.
+1\. Performance under the SPC has improved since the inception of the contract. However, up to the time of the Challenger accident, contractor performance continued to be plagued by excessive overtime, persistent failures to follow prescribed work procedures, and inadequate logistical support from NASA.
 
-2. High overtime rates have hampered SPC performance. Overtime rates had increased significantly during the six months prior to the Challenger launch, to the point that critical personnel were working weeks of consecutive workdays and multiple strings of 11 and 12-hour days. Fatigue resulting from work patterns of this sort can constitute a threat to safety. In fact, worker fatigue was a contributing factor in a mission-threatening incident on Flight 61-C, the mission immediately prior to the January 28 Challenger launch.
+2\. High overtime rates have hampered SPC performance. Overtime rates had increased significantly during the six months prior to the Challenger launch, to the point that critical personnel were working weeks of consecutive workdays and multiple strings of 11 and 12-hour days. Fatigue resulting from work patterns of this sort can constitute a threat to safety. In fact, worker fatigue was a contributing factor in a mission-threatening incident on Flight 61-C, the mission immediately prior to the January 28 Challenger launch.
 
 %%page 21%%
 
-3. There are numerous documented cases where contractor employees failed to comply with guidelines for carrying out assigned duties, including specific "Operations and Maintenance Instructions" (OMIS). Such failures contributed to both of the major mishaps in 1985 involving Shuttle processing-namely, the November 8, 1985, "handling ring" episode which led to significant damage to a Solid Rocket Motor segment slated for use on STS 51-L, and the March 8, 1985, "payload bay access platform" episode which led to significant damage to bay payload bay door. Failure to follow an OM1 also led to improper (and mission-threatening) handling of the hydrogen disconnect valve during the 51-L launch operations. All of these incidents show a lack of discipline, both with respect to following prescribed procedures and with respect to reporting violations of these procedures.
+3\. There are numerous documented cases where contractor employees failed to comply with guidelines for carrying out assigned duties, including specific "Operations and Maintenance Instructions" (OMIS). Such failures contributed to both of the major mishaps in 1985 involving Shuttle processing-namely, the November 8, 1985, "handling ring" episode which led to significant damage to a Solid Rocket Motor segment slated for use on STS 51-L, and the March 8, 1985, "payload bay access platform" episode which led to significant damage to bay payload bay door. Failure to follow an OM1 also led to improper (and mission-threatening) handling of the hydrogen disconnect valve during the 51-L launch operations. All of these incidents show a lack of discipline, both with respect to following prescribed procedures and with respect to reporting violations of these procedures.
 
-4. At the time of the Challenger accident, the lack of spare parts caused a degree of cannibalization (i.e., the removal of a part from one Orbiter to satisfy a need for a spare part on another Orbiter), which was the highest in the history of the Shuttle program and which was a threat to flight schedule and flight safety. Excessive cannibalization leads to multiple installations, retesting, added documentation, delayed access to parts, and increased damage potential. As a result, cannibalization contributes directly to excessive overtime.
+4\. At the time of the Challenger accident, the lack of spare parts caused a degree of cannibalization (i.e., the removal of a part from one Orbiter to satisfy a need for a spare part on another Orbiter), which was the highest in the history of the Shuttle program and which was a threat to flight schedule and flight safety. Excessive cannibalization leads to multiple installations, retesting, added documentation, delayed access to parts, and increased damage potential. As a result, cannibalization contributes directly to excessive overtime.
 
-5. There is no clear evidence whether or not greater involvement of the development contractors would improve Shuttle operations.
+5\. There is no clear evidence whether or not greater involvement of the development contractors would improve Shuttle operations.
 
 Recommendations
 
-1. Because of the serious quality and safety concerns surrounding the contract, NASA should conduct a careful review of Shuttle processing, the SPC contract, and the relationship of flight hardware contractors and report its findings, recommendations, and proposed contract modifications to the Committee. NASA's reexam- ination should include a comparison of efficiency and safety under the SPC versus efficiency and safety during pre-1983 Shuttle processing operations, which heavily involved the development contractors.
+1\. Because of the serious quality and safety concerns surrounding the contract, NASA should conduct a careful review of Shuttle processing, the SPC contract, and the relationship of flight hardware contractors and report its findings, recommendations, and proposed contract modifications to the Committee. NASA's reexam- ination should include a comparison of efficiency and safety under the SPC versus efficiency and safety during pre-1983 Shuttle processing operations, which heavily involved the development contractors.
 
-2. NASA should examine the issues of spares availability and cannibalization and provide the Congress with a management and budgetar plan for correcting previous logistical problems.
+2\. NASA should examine the issues of spares availability and cannibalization and provide the Congress with a management and budgetar plan for correcting previous logistical problems.
 
-3. NAJA should stop routine cannibalization and develop guilde- lines (including appropriate control and review procedures and roles for the SR&QA office) governing permissible cannibalization.
+3\. NAJA should stop routine cannibalization and develop guilde- lines (including appropriate control and review procedures and roles for the SR&QA office) governing permissible cannibalization.
 
-4. The Committee recommends that NASA provide its re-invig- orated safety office with the authority to enforce scheduling that leads to safe overtime rates.
+4\. The Committee recommends that NASA provide its re-invig- orated safety office with the authority to enforce scheduling that leads to safe overtime rates.
 
 b. Pressures on Shuttle Operations
 
@@ -666,15 +666,15 @@ Was NASA under pressure to fly more flights? How did this pressure originate? Wi
 
 Findings
 
-1. The Congress and the Executive Branch jointly developed the policy that the Space Shuttle should, in a reliable fashion and at an internationally competitive cost, provide for most of the Free World's space launch needs. By and large, both Branches failed to appreciate the impact that this policy was having on the operational safety of the system.
+1\. The Congress and the Executive Branch jointly developed the policy that the Space Shuttle should, in a reliable fashion and at an internationally competitive cost, provide for most of the Free World's space launch needs. By and large, both Branches failed to appreciate the impact that this policy was having on the operational safety of the system.
 
-2. NASA was under internal and external pressure to build its Shuttle flight rate to 24 per year, primarily to reduce costs per flight, but also to demonstrate and achieve routine access to space. NASA has never achieved its planned flight rate.
+2\. NASA was under internal and external pressure to build its Shuttle flight rate to 24 per year, primarily to reduce costs per flight, but also to demonstrate and achieve routine access to space. NASA has never achieved its planned flight rate.
 
 Recommendations
 
-1. NASA must not attempt to achieve a flight rate beyond that which (1)can be supported by the budget and staff resources available; and (2) is consistent with the technical maturity of the Shuttle and the flexibility desired and needed in scheduling payloads. Management should ensure efficient use of resources but should not impose a flight rate on the system.
+1\. NASA must not attempt to achieve a flight rate beyond that which (1)can be supported by the budget and staff resources available; and (2) is consistent with the technical maturity of the Shuttle and the flexibility desired and needed in scheduling payloads. Management should ensure efficient use of resources but should not impose a flight rate on the system.
 
-2. Once operation of the Space Shuttle resumes, the Committee should maintain a close and continuous oversight of Shuttle flight rate, planning, and operations. The Committee should ensure both that flight rate flows logically from the resources provided and that flight safety is not compromised beyond acceptable limits.
+2\. Once operation of the Space Shuttle resumes, the Committee should maintain a close and continuous oversight of Shuttle flight rate, planning, and operations. The Committee should ensure both that flight rate flows logically from the resources provided and that flight safety is not compromised beyond acceptable limits.
 
 c. Impact of Pressures on Shuttle Operations
 
@@ -684,21 +684,21 @@ Did operating pressures adversely affect the safety of the Shuttle program?
 
 Findings
 
-1. The pressure on NASA to achieve planned flight rates was so pervasive that it undoubtedly adversely affected attitudes regarding safety.
+1\. The pressure on NASA to achieve planned flight rates was so pervasive that it undoubtedly adversely affected attitudes regarding safety.
 
-2. The pressure to achieve planned flight rates was compressing mission preparation as earlier missions were delayed due to unforeseen problems. Had the accident not occurred there would soon have been a collision between planned launch dates and mission preparation needs which could not have been met by overtime, cannibalization, or other undesirable practices. Operating pressures were causing an increase in unsafe practices.
+2\. The pressure to achieve planned flight rates was compressing mission preparation as earlier missions were delayed due to unforeseen problems. Had the accident not occurred there would soon have been a collision between planned launch dates and mission preparation needs which could not have been met by overtime, cannibalization, or other undesirable practices. Operating pressures were causing an increase in unsafe practices.
 
-3. The schedule of payloads planned to fly on the Shuttle (the manifest) was frequently changed. Each change rippled through the NASA Shuttle organization and through the manifest and, especially if made shortly before launch, would increase the demands on personnel and resources in order to achieve the planned flight rate.
+3\. The schedule of payloads planned to fly on the Shuttle (the manifest) was frequently changed. Each change rippled through the NASA Shuttle organization and through the manifest and, especially if made shortly before launch, would increase the demands on personnel and resources in order to achieve the planned flight rate.
 
-4. The Space Shuttle has not yet reached a level of maturity which could be called operational as that term is used in either the airline industry or the military. Each Shuttle flight is fundamentally unique, and requires unique preparations. Therefore, small changes in a mission can cause significant perturbations of mission planning and crew training.
+4\. The Space Shuttle has not yet reached a level of maturity which could be called operational as that term is used in either the airline industry or the military. Each Shuttle flight is fundamentally unique, and requires unique preparations. Therefore, small changes in a mission can cause significant perturbations of mission planning and crew training.
 
 %%page 23%%
 
 Recommendations
 
-1. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
+1\. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
 
-2. Where appropriate, NASA should take steps to make the mission planning process standard and routine to reduce the time and resources needed to plan a mission. Before requesting more resources for the existing mission planning process (manpower, facilities, equipment), NASA should identify ways to improve the process.
+2\. Where appropriate, NASA should take steps to make the mission planning process standard and routine to reduce the time and resources needed to plan a mission. Before requesting more resources for the existing mission planning process (manpower, facilities, equipment), NASA should identify ways to improve the process.
 
 d. Other Safety Issues
 
@@ -708,15 +708,15 @@ What is the criticality of landing safety associated with programmed and abort l
 
 Findings
 
-1. The Committee finds that many of the normal and abort landing safety problems will be alleviated when the Rogers Commission's and the Committee's (Section VI. A. 1. b., this report) recommendations to upgrade the landing gear system are implemented. When the landing gear system is understood, straightforward calculations and operational rules will determine acceptable runway dimensions and conditions.
+1\. The Committee finds that many of the normal and abort landing safety problems will be alleviated when the Rogers Commission's and the Committee's (Section VI. A. 1. b., this report) recommendations to upgrade the landing gear system are implemented. When the landing gear system is understood, straightforward calculations and operational rules will determine acceptable runway dimensions and conditions.
 
-2. The Committee found no reason to fault NASA's current procedure on launch constraints based upon operational judgment and conservative rules on local conditions at planned abort and landing sites. However, since an obvious finding is that the Orbiter is a developmental system, it is axiomatic that unanticipated "dicey" circumstances will arise.
+2\. The Committee found no reason to fault NASA's current procedure on launch constraints based upon operational judgment and conservative rules on local conditions at planned abort and landing sites. However, since an obvious finding is that the Orbiter is a developmental system, it is axiomatic that unanticipated "dicey" circumstances will arise.
 
-3. It was found that for the least landing gear system stress, runway preference is Edwards Air Force Base (EAFB) (concrete), KSC, and Rogers Dry Lake (EAFB "lake bed") in that order. No reason was found to invalidate the KSC runway design. The reasons for the "dry" course surface still prevail over concern about wear on tires designed for one landing. Additional constraints at KSC because of lesser lateral stabilized overrun area may be needed to bring its safety to the level of the EAFB runway.
+3\. It was found that for the least landing gear system stress, runway preference is Edwards Air Force Base (EAFB) (concrete), KSC, and Rogers Dry Lake (EAFB "lake bed") in that order. No reason was found to invalidate the KSC runway design. The reasons for the "dry" course surface still prevail over concern about wear on tires designed for one landing. Additional constraints at KSC because of lesser lateral stabilized overrun area may be needed to bring its safety to the level of the EAFB runway.
 
-4. The NASA Landing Safety Team's proposal to provide standard landing aids and arresting barriers at all sites and their emphasis on runway surface characteristics for repetitive tire use takes on a new dimension that is in addition to the Rogers Commission's recommendations.
+4\. The NASA Landing Safety Team's proposal to provide standard landing aids and arresting barriers at all sites and their emphasis on runway surface characteristics for repetitive tire use takes on a new dimension that is in addition to the Rogers Commission's recommendations.
 
-5. Weather, by far, is the most significant factor governing operational decisions, Orbiter damage, and landing safety. The constraint is simply that acceptable weather must be forecast with confidence within the time frame needed. Ultra-conservative rules prevail because of the predictable unpredictability of Cape weather. New and innovative local weather analysis and forecasting research is a high priority. The African Coast and southwestern United States sites enjoy more stable and predictable weather.
+5\. Weather, by far, is the most significant factor governing operational decisions, Orbiter damage, and landing safety. The constraint is simply that acceptable weather must be forecast with confidence within the time frame needed. Ultra-conservative rules prevail because of the predictable unpredictability of Cape weather. New and innovative local weather analysis and forecasting research is a high priority. The African Coast and southwestern United States sites enjoy more stable and predictable weather.
 
 %%page 24%%
 
@@ -744,13 +744,13 @@ Has adequate provision been made for crew safety in case of inflight emergencies
 
 Findings
 
-1. Crew escape options were considered when the Shuttle was originally designed and the basic situation has not changed. Many initially attractive options do not significantly reduce risk to the crew either because they may not reduce exposure to the principal hazards or because they add risks of their own.
+1\. Crew escape options were considered when the Shuttle was originally designed and the basic situation has not changed. Many initially attractive options do not significantly reduce risk to the crew either because they may not reduce exposure to the principal hazards or because they add risks of their own.
 
-2. A crew escape system for use in controlled gliding flight might be feasible and worthwhile.
+2\. A crew escape system for use in controlled gliding flight might be feasible and worthwhile.
 
-3. Crew escape during the ascent phase appears infeasible.
+3\. Crew escape during the ascent phase appears infeasible.
 
-4. Launch abort during SRB burn appears impossible but it may be possible to decrease risk to the crew after SRB separation, primarily through mission design.
+4\. Launch abort during SRB burn appears impossible but it may be possible to decrease risk to the crew after SRB separation, primarily through mission design.
 
 Recommendation
 
@@ -770,19 +770,19 @@ Is there a coordinated and effective risk management program in the NSTS?
 
 Findings
 
-1. NASA does not explicitly use a centralized program that coordinates all the factors that encompass an adequate risk manage- - ment program.
+1\. NASA does not explicitly use a centralized program that coordinates all the factors that encompass an adequate risk manage- - ment program.
 
-2. As a result of the accident, NASA is reexamining the Failure Modes and Effects Analyses (FMEA) and Hazard Analyses (HA) to reassess risks associated-with the designs of Shuttle subsystems.
+2\. As a result of the accident, NASA is reexamining the Failure Modes and Effects Analyses (FMEA) and Hazard Analyses (HA) to reassess risks associated-with the designs of Shuttle subsystems.
 
-3. NASA's lack of statistical data on the performance of certain components will limit the usefulness of sound engineering judgment in much the same way as it limits the usefulness of probabilistic risk assessment.
+3\. NASA's lack of statistical data on the performance of certain components will limit the usefulness of sound engineering judgment in much the same way as it limits the usefulness of probabilistic risk assessment.
 
 Recommendations
 
-1. NASA should develop and provide to the Committee a description of an overall risk management program as it relates to the Space Shuttle. This effort should include a determination of whether or not a more centralized coordination of a risk management program and issuance of direct risk management guidance direc- tiv& are needed.
+1\. NASA should develop and provide to the Committee a description of an overall risk management program as it relates to the Space Shuttle. This effort should include a determination of whether or not a more centralized coordination of a risk management program and issuance of direct risk management guidance direc- tiv& are needed.
 
-2. NASA should review anahtical methods utilized in the performance of risk assessment, including statistical analyses, trend analyses and probabilistic risk assessment methodologies to determine their applicability to the NSTS program. Assistance from the National Academy of Sciences, or other appropriate organizations with expertise in these matters, may be required to adequately perform this review.
+2\. NASA should review anahtical methods utilized in the performance of risk assessment, including statistical analyses, trend analyses and probabilistic risk assessment methodologies to determine their applicability to the NSTS program. Assistance from the National Academy of Sciences, or other appropriate organizations with expertise in these matters, may be required to adequately perform this review.
 
-3. NASA should review its certification testing to ensure that all critical items are adequately tested. Data obtained from these testa should be used when appropriate in conducting a formal risk assessment.
+3\. NASA should review its certification testing to ensure that all critical items are adequately tested. Data obtained from these testa should be used when appropriate in conducting a formal risk assessment.
 
 b. Launch Decision Process
 
@@ -792,9 +792,9 @@ Is the process for establishing launch constraints and dealing with them effecti
 
 Findings
 
-1. There is no clear understanding or agreement among the various levels of NASA management as to what constitutes a launch constraint or the process for imposing and waiving constraints.
+1\. There is no clear understanding or agreement among the various levels of NASA management as to what constitutes a launch constraint or the process for imposing and waiving constraints.
 
-2. Launch Constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.
+2\. Launch Constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.
 
 6 4 - 4 2 0 0 - 86 - 2
 
@@ -802,23 +802,23 @@ Findings
 
 Recommendations
 
-1. NASA should establish rigorous procedures for identifying and documenting launch constraints. The individual(s1 responsible for implementing this procedure should be clearly identified, and well defined and understood criteria for waiving them should be established.
+1\. NASA should establish rigorous procedures for identifying and documenting launch constraints. The individual(s1 responsible for implementing this procedure should be clearly identified, and well defined and understood criteria for waiving them should be established.
 
-2. NASA should exercise extreme caution in waiving launch constraints before correcting the problem that led to the launch constraint. The rationale should be based on rigorous scientifWengi- neering analyses or tests and should be understood and accepted by the program manager. Isslle 2
+2\. NASA should exercise extreme caution in waiving launch constraints before correcting the problem that led to the launch constraint. The rationale should be based on rigorous scientifWengi- neering analyses or tests and should be understood and accepted by the program manager. Isslle 2
 
 Are the Launch Commit Criteria procedures adequate to ensure the safety of the mission?
 
 Findings
 
-1. The procedure used for developing launch commit criteria is systematic and thorough; however, violations of the criteria do not necessarily mean "no go". Therefore, NASA sometimes has relied on engineering judgments made during the terminal countdown in determining whether to launch.
+1\. The procedure used for developing launch commit criteria is systematic and thorough; however, violations of the criteria do not necessarily mean "no go". Therefore, NASA sometimes has relied on engineering judgments made during the terminal countdown in determining whether to launch.
 
-2. Launch commit criteria were sometimes waived without adequate engineering analysis or understanding of the technical reasons for establishing the criteria.
+2\. Launch commit criteria were sometimes waived without adequate engineering analysis or understanding of the technical reasons for establishing the criteria.
 
 Recommendations
 
-1. NASA should review the launch commit criteria procedures, especially those for dealing with violations, to lessen the reliance on engineering judgments under stress.
+1\. NASA should review the launch commit criteria procedures, especially those for dealing with violations, to lessen the reliance on engineering judgments under stress.
 
-2. When situations arise where "real time" judgments are unavoidable, NASA should adopt a more conservative approach to waiving previously established criteria. In no case should a criterion be waived without a thorough understanding of the rationale for the establishment of the criterion.
+2\. When situations arise where "real time" judgments are unavoidable, NASA should adopt a more conservative approach to waiving previously established criteria. In no case should a criterion be waived without a thorough understanding of the rationale for the establishment of the criterion.
 
 Issue 3
 
@@ -840,9 +840,9 @@ Was the failure to inform the Level I or Level I1 Program Managers of the Teleco
 
 Findings
 
-1. The Committee finds that Marshall management used poor judgment in not informing the NSTS Program Manager or the a Level I Manager of the events that took place the ni ht before the launch, specifically the stated concerns of the Thio 01 engineers. However, the Committee finds no evidence to support a suggestion that the outcome would have been any different had they been told.
+1\. The Committee finds that Marshall management used poor judgment in not informing the NSTS Program Manager or the a Level I Manager of the events that took place the ni ht before the launch, specifically the stated concerns of the Thio 01 engineers. However, the Committee finds no evidence to support a suggestion that the outcome would have been any different had they been told.
 
-2. The Committee finds the efforts of Thiokol engineers to post- pone the launch commendable; however, Thiokol had numerous opportunities throughout the normal flight readiness process following flight 51-C in January 1985 to have the new minimum temperature criteria established.
+2\. The Committee finds the efforts of Thiokol engineers to post- pone the launch commendable; however, Thiokol had numerous opportunities throughout the normal flight readiness process following flight 51-C in January 1985 to have the new minimum temperature criteria established.
 
 Issue 5
 
@@ -872,17 +872,17 @@ Does NASA have an adequate level of in-house technical expertise to manage the S
 
 Findings
 
-1. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquarters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space Flight also suffered a decline in staff. The decreases may have limited the ability of those offices to perform their review functions.
+1\. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquarters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space Flight also suffered a decline in staff. The decreases may have limited the ability of those offices to perform their review functions.
 
 %%page 28%%
 
-2. The information presented to NASA headquarters on August 19, 1985 was sufficient to require immediate and concentrated efforts to remedy the joint design flaws. The fact that NASA did not take stronger action to solve this problem indicates that its top technical staff did not fully accept or understand the seriousness of the joint problem.
+2\. The information presented to NASA headquarters on August 19, 1985 was sufficient to require immediate and concentrated efforts to remedy the joint design flaws. The fact that NASA did not take stronger action to solve this problem indicates that its top technical staff did not fully accept or understand the seriousness of the joint problem.
 
 Recommendations
 
-1. NASA should review the numbers and qualifications of key staff in technical and management positions and should consider additional training and recruitment of individuals to further the quality and safety of NASA's missions.
+1\. NASA should review the numbers and qualifications of key staff in technical and management positions and should consider additional training and recruitment of individuals to further the quality and safety of NASA's missions.
 
-2. The Committee should maintain on-going oversight of this analysis and conduct an in-depth examination upon the conclusion of NASA's review.
+2\. The Committee should maintain on-going oversight of this analysis and conduct an in-depth examination upon the conclusion of NASA's review.
 
 d. Change Control Process
 
@@ -892,13 +892,13 @@ Has the pressure to maintain operational flight rates and schedules for the Shut
 
 Findings
 
-1. When NASA declared the Space Shuttle to be an operational system, additional pressure to increase flight rates impacted other aspects of the overall program such as the ability to implement, evaluate, test, and certify changes in hardware design.
+1\. When NASA declared the Space Shuttle to be an operational system, additional pressure to increase flight rates impacted other aspects of the overall program such as the ability to implement, evaluate, test, and certify changes in hardware design.
 
-2. As a result of attempting to operate the Shuttle at increased flight rates, controlling other aspects of the program such as the flight production process and manifest also became a more complex and difficult aspect of program administration. Recommendations
+2\. As a result of attempting to operate the Shuttle at increased flight rates, controlling other aspects of the program such as the flight production process and manifest also became a more complex and difficult aspect of program administration. Recommendations
 
-1. NASA must reconsider its efforts to categorize the Shuttle as an operational transportation system.
+1\. NASA must reconsider its efforts to categorize the Shuttle as an operational transportation system.
 
-2. The Configuration Management System designed to control such changes must be reexamined by NASA as to its effectiveness in assuring that all hardware changes take place in a safe and reliable fashion.
+2\. The Configuration Management System designed to control such changes must be reexamined by NASA as to its effectiveness in assuring that all hardware changes take place in a safe and reliable fashion.
 
 Issue 2
 
@@ -906,9 +906,9 @@ Is the change control process sufficiently defined for all elements of the Shutt
 
 Findings
 
-1. The NSTS engineering and process change guidelines are, for the most part, sufficiently well-defined for the majority of the subsystems that comprise the Space Shuttle.
+1\. The NSTS engineering and process change guidelines are, for the most part, sufficiently well-defined for the majority of the subsystems that comprise the Space Shuttle.
 
-2. NASA gives the same level of scrutiny to changes involving a minor component (such as moving Velcro strips in the Orbiter) as those involving mission critical elements of flight hardware.
+2\. NASA gives the same level of scrutiny to changes involving a minor component (such as moving Velcro strips in the Orbiter) as those involving mission critical elements of flight hardware.
 
 %%page 29%%
 
@@ -982,9 +982,9 @@ The Committee finds that the Rogers Commission recommendation that NASA should e
 
 Recommendations
 
-1. The Associate Administrator for Safety, Reliability and Quality Assurance (SWQA) should provide to the Committee the agency's draft plan delineating the organization, goals, implementation strategies and resource requirements of the Office of SR&QA.
+1\. The Associate Administrator for Safety, Reliability and Quality Assurance (SWQA) should provide to the Committee the agency's draft plan delineating the organization, goals, implementation strategies and resource requirements of the Office of SR&QA.
 
-2. After the Office of SR&QA is fully operational, the Committee will wish to continue oversight over its activities.
+2\. After the Office of SR&QA is fully operational, the Committee will wish to continue oversight over its activities.
 
 %%page 31%%
 
@@ -994,17 +994,17 @@ Has NASA applied sufficient resources to support adequate SR&QA efforts within t
 
 Findings
 
-1. The Committee finds that reductions in NASA civil service personnel that have occurred over the past decade have adversely impacted the agency's ability to maintain the appropriate level of oversight and control of the SR&QA activities within the NSTS.
+1\. The Committee finds that reductions in NASA civil service personnel that have occurred over the past decade have adversely impacted the agency's ability to maintain the appropriate level of oversight and control of the SR&QA activities within the NSTS.
 
-2. NASA has become increasingly dependent upon outside SR&QA support from the Department of Defense (Defense Contract Administration Services (DCAS) and Air Force Plant Representative Office [AFPRO]) and contractors.
+2\. NASA has become increasingly dependent upon outside SR&QA support from the Department of Defense (Defense Contract Administration Services (DCAS) and Air Force Plant Representative Office [AFPRO]) and contractors.
 
-3. NASA has reduced or reassigned to other program areas in-house safety, reliability and quality assurance tasks such as testing, analyses and instrumentation and has reduced or shut down in-house facilities for performing SR&QA research and technology development. The degree to which these factors have adversely impacted the safety, reliability and quality assurance activities within the NSTS program has not been adequately assessed.
+3\. NASA has reduced or reassigned to other program areas in-house safety, reliability and quality assurance tasks such as testing, analyses and instrumentation and has reduced or shut down in-house facilities for performing SR&QA research and technology development. The degree to which these factors have adversely impacted the safety, reliability and quality assurance activities within the NSTS program has not been adequately assessed.
 
 Recommendations
 
-1. NASA should establish and maintain a strong and effective SR&QA program. Continuing support for such a program must come directly from the Administrator.
+1\. NASA should establish and maintain a strong and effective SR&QA program. Continuing support for such a program must come directly from the Administrator.
 
-2. Although it is appropriate to establish strong contractor capabilities in the areas of SR&QA, the internal oversight responsibilities and coordination of SR&QA tasks milst be the responsibility of NASA itself. In order to assure that the appropriate interfaces among the various subsystem elements that comprise the NSTS are maintained, a sufficient complement of NASA SR&QA management and support staff must be available to perform the necessary oversight and coordination tasks.
+2\. Although it is appropriate to establish strong contractor capabilities in the areas of SR&QA, the internal oversight responsibilities and coordination of SR&QA tasks milst be the responsibility of NASA itself. In order to assure that the appropriate interfaces among the various subsystem elements that comprise the NSTS are maintained, a sufficient complement of NASA SR&QA management and support staff must be available to perform the necessary oversight and coordination tasks.
 
 Issue 3
 
@@ -1026,15 +1026,15 @@ Does the SR&QA program require improved coordination between centers, contractor
 
 Findings
 
-1. Although guidelines have been published that describe the responsibility of contractors in the areas of SR&QA, NASA's guidelines do not adequately distinguish these various activities as distinct disciplines requiring specialized skills and centralized coordination.
+1\. Although guidelines have been published that describe the responsibility of contractors in the areas of SR&QA, NASA's guidelines do not adequately distinguish these various activities as distinct disciplines requiring specialized skills and centralized coordination.
 
-2. In its review of the agency's reliability and quality assurance programs as they relate to the Space Shuttle, the Committee found there was little commonality among the cognizant officials at MSFC, JSC, KSC, and Headquarters in the perception of the various responsibilities associated with these separate and distinct disciplines.
+2\. In its review of the agency's reliability and quality assurance programs as they relate to the Space Shuttle, the Committee found there was little commonality among the cognizant officials at MSFC, JSC, KSC, and Headquarters in the perception of the various responsibilities associated with these separate and distinct disciplines.
 
 Recommendations
 
-1. It is important that a clear delineation of responsibilities for the separate SR&QA disciplines be appropriately documented. It is also essential that the relative importance of each of the three separate disciplines be established as an integral part of the NSTS program. These functions are the responsibility of NASA Headquarters.
+1\. It is important that a clear delineation of responsibilities for the separate SR&QA disciplines be appropriately documented. It is also essential that the relative importance of each of the three separate disciplines be established as an integral part of the NSTS program. These functions are the responsibility of NASA Headquarters.
 
-2. NASA must carefully review the staff and resources devoted to the SR&QA function within NASA and contractor organizations for adequacy. The Administrator shall report to the Committee with his findings and recommendations.
+2\. NASA must carefully review the staff and resources devoted to the SR&QA function within NASA and contractor organizations for adequacy. The Administrator shall report to the Committee with his findings and recommendations.
 
 d. Contractor Incentives
 
@@ -1044,15 +1044,15 @@ Key Shuttle contracts (e.g., Solid Rocket Booster Production Contract and the Sh
 
 Findings
 
-1. The SPC provides far greater incentives to the contractor for minimizing costs and meeting schedules than for features related to safety and performance. SPC is a cost-plus, incentive/award fee contract. The amount of the incentive fee is based on contract costs (lower costs yields a larger incentive fee) and on safe and successful launch and recovery of the Orbiter. The award fee is designed to permit NASA to focus on those areas of concern which are not sensitive to the incentive fee provisions, including the safety record of the contractor. However, the incentive fee dwarfs the award fee- while the maximum value of the award fee is only one percent of the value of the SPC, the incentive fee could total as much as 14 percent of the SPC.
+1\. The SPC provides far greater incentives to the contractor for minimizing costs and meeting schedules than for features related to safety and performance. SPC is a cost-plus, incentive/award fee contract. The amount of the incentive fee is based on contract costs (lower costs yields a larger incentive fee) and on safe and successful launch and recovery of the Orbiter. The award fee is designed to permit NASA to focus on those areas of concern which are not sensitive to the incentive fee provisions, including the safety record of the contractor. However, the incentive fee dwarfs the award fee- while the maximum value of the award fee is only one percent of the value of the SPC, the incentive fee could total as much as 14 percent of the SPC.
 
 %%page 33%%
 
-2. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million. Recommendations
+2\. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million. Recommendations
 
-1. NASA should reexamine all Shuttle contracts and report to the Committee with its findings and recommendations on whether more incentives for safety and quality can be built into these contracts. This report should address, inter alia, the SRB Production Contract and the SPC.
+1\. NASA should reexamine all Shuttle contracts and report to the Committee with its findings and recommendations on whether more incentives for safety and quality can be built into these contracts. This report should address, inter alia, the SRB Production Contract and the SPC.
 
-2. NASA's new Office of SR&QA should be involved in the procurement and award fee processes, both to establish reasonable guidelines and rewards in new contracts and to judge performance of ongoing contracts.
+2\. NASA's new Office of SR&QA should be involved in the procurement and award fee processes, both to establish reasonable guidelines and rewards in new contracts and to judge performance of ongoing contracts.
 
 ## BACKGROUND INITIAL EVENTS FOLLOWING THE ACCIDENT
 
@@ -1336,25 +1336,25 @@ Was there sufficient time to correct the problems with the Solid Rocket Motor?
 
 Findings
 
-1. Problems with the joints which connect the Solid Rocket Motor casings were recognized for many years. While attempts were made to correct these problems, the measures taken were insufficient to provide a reliable joint.
+1\. Problems with the joints which connect the Solid Rocket Motor casings were recognized for many years. While attempts were made to correct these problems, the measures taken were insufficient to provide a reliable joint.
 
-2. The joint seal problem was recognized by engineers in both NASA and Morton Thiokol in sufficient time to have been corrected by redesigning and manufacturing new joints before the accident on January 28, 1986. Meeting flight schedules and cutting cost were given a higher priority than flight safety. Discussion
+2\. The joint seal problem was recognized by engineers in both NASA and Morton Thiokol in sufficient time to have been corrected by redesigning and manufacturing new joints before the accident on January 28, 1986. Meeting flight schedules and cutting cost were given a higher priority than flight safety. Discussion
 
 At seven different times in the Shuttle Program, NASA and Thiokol managers made poor technical decisions that ultimately permitted continued flight of an unsafe Solid Rocket Motor design.
 
-1. NASA's issuing of a performance specification that did not adequately take into account the known weather conditions that occur in Florida during the winter months.
+1\. NASA's issuing of a performance specification that did not adequately take into account the known weather conditions that occur in Florida during the winter months.
 
-2. Accepting the new joint design without sufficient certification and testing.
+2\. Accepting the new joint design without sufficient certification and testing.
 
-3. Failure to accept John Miller's recommendations to redesign the clevis joint on ail on-coming hardware at the earliest date.
+3\. Failure to accept John Miller's recommendations to redesign the clevis joint on ail on-coming hardware at the earliest date.
 
-4. Establishing a specific value for the upper limit of erosion that could be tolerated in flight on the basis of a "computer program model" instead of recognizing the erosion itself as a failure of the joint.
+4\. Establishing a specific value for the upper limit of erosion that could be tolerated in flight on the basis of a "computer program model" instead of recognizing the erosion itself as a failure of the joint.
 
-5. Proceeding through more than four years of Shuttle flights with continuing joint/seal problems without designing, testing and incorporating a new type of field joint and nozzle joint as well.
+5\. Proceeding through more than four years of Shuttle flights with continuing joint/seal problems without designing, testing and incorporating a new type of field joint and nozzle joint as well.
 
-6. NASA's permitting Thiokol to continue making Solid Rocket Motors without conducting full scale tests as had been requested by NASA 14 months previously.
+6\. NASA's permitting Thiokol to continue making Solid Rocket Motors without conducting full scale tests as had been requested by NASA 14 months previously.
 
-7. Mr. Mulloy's description of joint failures as being within "their experience base." In other words, if it broke before and the size of the recent break was no bigger than those before, then there was no problem. Even when the erosion surpassed all previous experience, NASA then went on and expanded its "experience base."
+7\. Mr. Mulloy's description of joint failures as being within "their experience base." In other words, if it broke before and the size of the recent break was no bigger than those before, then there was no problem. Even when the erosion surpassed all previous experience, NASA then went on and expanded its "experience base."
 
 What follows is a list of events and documents which relate to the cause of the accident. They are included here to demonstrate that there was adequate experience and information available before the accident and that this information should have been sufficient to cause the initiation of corrective action before the launch of Flight 51-L. July IS, 19?3.-NASA issues a Request for Proposal (RFP) for the Space Shuttle Solid Rocket Motor project. Under "Scope of Proposal," the RFP stated in part:
 
@@ -1632,21 +1632,21 @@ Jan. 26, 1986,p. B-3.
 
 Findings
 
-1. The design of the field joint was unsatisfactory and could not reliably contain the burning propellant gases under the range of operating conditions to be expected during the lift-off and flight phases.
+1\. The design of the field joint was unsatisfactory and could not reliably contain the burning propellant gases under the range of operating conditions to be expected during the lift-off and flight phases.
 
-2. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor,
+2\. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor,
 
 Morton Thiokol, can adequately control the quality or consistency of these kinds of materials, which are made from recipes known only by the manufacturer and which can be changed without certi- ' fication and approval.
 
 Recommendations
 
-1. NASA should write and issue a new and more accurate performance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
+1\. NASA should write and issue a new and more accurate performance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
 
-2. The Committee concurs with the Rogers Commission Report
+2\. The Committee concurs with the Rogers Commission Report
 
 Recommendations on new joint design, but believes it is more a p propriate to be more explicit in identifying the weaknesses in the joint design that need correction.
 
-3. The field joints of the Solid Rocket Motors should be redesigned to account for the following features while providing a significant factor of safety:
+3\. The field joints of the Solid Rocket Motors should be redesigned to account for the following features while providing a significant factor of safety:
 
 > a. Movement in the joint; b. Proper spacing between tang and clevis; c. Seals made to withstand high and low temperatures under all dynamic thermal and structural loadings; d. Adequate sealing without the use of putty; e. Protection against insulation debonding and propellant cracking.
 
@@ -1688,35 +1688,35 @@ Based on the above conditions and the evidence, the Committee has endeavored to 
 
 The following is the most probable sequence of the joint failure:
 
-1. The failure occured in the lower assembly joint near a strut that connects the Solid Rocket Booster to the External Tank.
+1\. The failure occured in the lower assembly joint near a strut that connects the Solid Rocket Booster to the External Tank.
 
-2. At that location, the spacing between the two casings was too small to facilitate a tight seal.
+2\. At that location, the spacing between the two casings was too small to facilitate a tight seal.
 
-3. Also, at that location, there probably existed a hole through the insulating putty, which would act as a conduit concentrating the hot propellant gas on the primary O-ring.
+3\. Also, at that location, there probably existed a hole through the insulating putty, which would act as a conduit concentrating the hot propellant gas on the primary O-ring.
 
-4. The freezing temperatures reduced the capability of the 0- rings to seal. Worse, at this particular location, near the connecting strut, the joint was made even colder by the further loss of heat caused by the direct connection to the liquid hydrogen fuel, at 423 degrees below zero, in the external tank.
+4\. The freezing temperatures reduced the capability of the 0- rings to seal. Worse, at this particular location, near the connecting strut, the joint was made even colder by the further loss of heat caused by the direct connection to the liquid hydrogen fuel, at 423 degrees below zero, in the external tank.
 
-5. When the Solid Rocket Motors were ignited, the pressure from the motor changed the spacing between the casings. Among other effects, this can prevent the secondary O-ring from sealing.
+5\. When the Solid Rocket Motors were ignited, the pressure from the motor changed the spacing between the casings. Among other effects, this can prevent the secondary O-ring from sealing.
 
-6. Seven inches of rain fell while the shuttle was being prepared for launch. Water very likely penetrated the joints and froze. Ice in the joints could have dislodged the secondary O-ring even if the change in spacing, coupled with a cold and stiff O-ring, did not.
+6\. Seven inches of rain fell while the shuttle was being prepared for launch. Water very likely penetrated the joints and froze. Ice in the joints could have dislodged the secondary O-ring even if the change in spacing, coupled with a cold and stiff O-ring, did not.
 
-7. Smoke at ignition occurred at a location near the connecting strut to the external tank. At that location, the primary O-ring was either unseated or eroded and the secondary O-ring was unseated.
+7\. Smoke at ignition occurred at a location near the connecting strut to the external tank. At that location, the primary O-ring was either unseated or eroded and the secondary O-ring was unseated.
 
-8. The primary O-ring was sealed at other locations around the motor casings.
+8\. The primary O-ring was sealed at other locations around the motor casings.
 
-9. The breach in the primary O-ring clogged with burned char and aluminum oxide from the -propellant- in less than 3 seconds, causing the smoke to stop.
+9\. The breach in the primary O-ring clogged with burned char and aluminum oxide from the -propellant- in less than 3 seconds, causing the smoke to stop.
 
-10. At 37 seconds, 45 seconds and 58 seconds into the flight, the Space Shuttle encountered heavy turbulence, which forced the steering controls to cycle through changes more severe than previous flights.
+10\. At 37 seconds, 45 seconds and 58 seconds into the flight, the Space Shuttle encountered heavy turbulence, which forced the steering controls to cycle through changes more severe than previous flights.
 
 %%page 64%%
 
-11. After throttling back to 65% power as planned, at 57 seconds, power was increased to 104%.
+11\. After throttling back to 65% power as planned, at 57 seconds, power was increased to 104%.
 
-12. The combined effect of the turbulence and the increase in power caused the material which clogged the joint to break free, reopening the joint.
+12\. The combined effect of the turbulence and the increase in power caused the material which clogged the joint to break free, reopening the joint.
 
-13. A flame from the right Solid Rocket Motor was seen at the location near the connecting strut.
+13\. A flame from the right Solid Rocket Motor was seen at the location near the connecting strut.
 
-14. This flame burned through the external tank and caused the destruction of the shuttle.
+14\. This flame burned through the external tank and caused the destruction of the shuttle.
 
 Since the technical faults in the joint design must be corrected if safe shuttle flight is to resume, this subject has been discussed in more detail in Section VII.
 
@@ -1802,27 +1802,27 @@ How was the decision to launch STS 51-L arrived at and why was it wrong?
 
 Findings
 
-1. The Flight Readiness Review for STS 51-L was conducted in accordance with established procedure.
+1\. The Flight Readiness Review for STS 51-L was conducted in accordance with established procedure.
 
 %%page 69%%
 
-2. The decision to launch STS 51-L was based on a faulty engineering analysis of the SRM field joint seal behavior.
+2\. The decision to launch STS 51-L was based on a faulty engineering analysis of the SRM field joint seal behavior.
 
-3. Compounding this erroneous analysis were serious ongoing weaknesses in the Shuttle Safety, Reliability, and Quality Assurance program which had failed to exercise control over the problem tracking systems, had not critiqued the engineering analysis advanced as an explanation of the SRM seal problem, and did not provide the independent perspective required by senior NASA managers at Flight Readiness Reviews.
+3\. Compounding this erroneous analysis were serious ongoing weaknesses in the Shuttle Safety, Reliability, and Quality Assurance program which had failed to exercise control over the problem tracking systems, had not critiqued the engineering analysis advanced as an explanation of the SRM seal problem, and did not provide the independent perspective required by senior NASA managers at Flight Readiness Reviews.
 
-4. The initial response of Marshall managers to the attempts of Thiokol engineers to raise the issue of temperature effects on the SRM seals caused Thiokol management to discount proper technical concerns and engineering judgement in their recommendation to launch.
+4\. The initial response of Marshall managers to the attempts of Thiokol engineers to raise the issue of temperature effects on the SRM seals caused Thiokol management to discount proper technical concerns and engineering judgement in their recommendation to launch.
 
-5. The Director of Marshall's Shuttle Projects Office may have violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27 teleconference to the Associate Administrator for Space Flight.
+5\. The Director of Marshall's Shuttle Projects Office may have violated NASA's Flight Readiness Review policy directive by failing to report the results of the January 27 teleconference to the Associate Administrator for Space Flight.
 
-6. The decision of the STS Program Manager to launch despite the uncertainty represented by ice on the Fixed Service Structure was not a prudent effort to mitigate avoidable risks to the Shuttle.
+6\. The decision of the STS Program Manager to launch despite the uncertainty represented by ice on the Fixed Service Structure was not a prudent effort to mitigate avoidable risks to the Shuttle.
 
-7. The Launch Director failed to place safety paramount in evaluating the launch readiness of STS 51-L. 8. No launch should have been permitted until ice was cleared from the platform leading to the pad escape system.
+7\. The Launch Director failed to place safety paramount in evaluating the launch readiness of STS 51-L. 8. No launch should have been permitted until ice was cleared from the platform leading to the pad escape system.
 
-9. Ice Team personnel and Rockwell contractors properly conveyed their inability to predict the post-ignition behavior of ice.
+9\. Ice Team personnel and Rockwell contractors properly conveyed their inability to predict the post-ignition behavior of ice.
 
-10. Post-flight analysis indicated that ice did not exhibit the behavior predicted by analysis, and that ice traversed a distance sufficient to strike the Shuttle during lift-off.
+10\. Post-flight analysis indicated that ice did not exhibit the behavior predicted by analysis, and that ice traversed a distance sufficient to strike the Shuttle during lift-off.
 
-11. Failure to enforce a clear requirement for definite readiness statements contributed to failures in communication between NASA and its contractors during launch preparations. Discussion
+11\. Failure to enforce a clear requirement for definite readiness statements contributed to failures in communication between NASA and its contractors during launch preparations. Discussion
 
 Significant in the loss of Challenger was NASA's decision to launch the Shuttle on January 28. The Rogers Commission and the Committee investigation found sufficient evidence to indicate that STS 51-L should not have been allowed to lift off until a number of problems had been corrected. The Committee has examined documentation made available to the Rogers Commission and has reviewed recordings made of conversations among personnel in KSC Firing Rooms on January 27 and 28 in developing its analysis.
 
@@ -1898,9 +1898,9 @@ The External Tank was obviously involved in the accident. Was that involvement a
 
 Findings
 
-1. The Committee adopts the "Finding" of the Rogers Commission that: "A review of the External Tank's construction records, acceptance testing, pre-launch and flight data and recovered hardware, does not support anything relating to the External Tank which caused or contributed to the cause of the accident."35
+1\. The Committee adopts the "Finding" of the Rogers Commission that: "A review of the External Tank's construction records, acceptance testing, pre-launch and flight data and recovered hardware, does not support anything relating to the External Tank which caused or contributed to the cause of the accident."35
 
-2. The External Tank ruptured under the forces of a failed Solid Rocket Booster motor. These forces were far outside of any possible design considerations that could have been applied to the External Tank.36 Discussion
+2\. The External Tank ruptured under the forces of a failed Solid Rocket Booster motor. These forces were far outside of any possible design considerations that could have been applied to the External Tank.36 Discussion
 
 The 154 foot long,[^27] foot diameter external disposable fuel tank contains the liquid oxygen and liquid hydrogen used by the Space Shuttle's three main engines. Structurally, the External Tank (ET) serves as the keel, or backbone, of the Space Transportation System. The two Solid Rocket Boosters are attached to the External Tank near the front and rear of the ET. The Space Shuttle Orbiter is also attached to the ET at one forward, and two aft attachment points.
 
@@ -2084,21 +2084,21 @@ Having all elements of Space Shuttle flight hardware been adequately certified?
 
 Findings
 
-1. The overall design and certification processes prescribed by NASA for each major element of Space Shuttle flight hardware are very comprehensive.
+1\. The overall design and certification processes prescribed by NASA for each major element of Space Shuttle flight hardware are very comprehensive.
 
-2. Prior to the STS 51-L accident, in spite of the comprehensive nature of NASA's prescribed design and certification processes, insufficient testing had been conducted to permit an adequate understanding by either Morton-Thiokol or NASA regarding the actual functioning of the Solid Rocket Motor joint. Also, the Solid Rocket Motor had not been adequately certified to meet the natural and induced environmental conditions that are stated in NASA's design standards. The issue of whether or not standards were adequate is discussed in Section VII.
+2\. Prior to the STS 51-L accident, in spite of the comprehensive nature of NASA's prescribed design and certification processes, insufficient testing had been conducted to permit an adequate understanding by either Morton-Thiokol or NASA regarding the actual functioning of the Solid Rocket Motor joint. Also, the Solid Rocket Motor had not been adequately certified to meet the natural and induced environmental conditions that are stated in NASA's design standards. The issue of whether or not standards were adequate is discussed in Section VII.
 
-3. The deficiencies in Solid Rocket Motor testing and certification persisted in spite of many reviews of the program by panels of experts: (1)within the manufacturer; (2) within NASA; and (3) from independent, outside groups.
+3\. The deficiencies in Solid Rocket Motor testing and certification persisted in spite of many reviews of the program by panels of experts: (1)within the manufacturer; (2) within NASA; and (3) from independent, outside groups.
 
-4. These deficiencies in testing and certification of one major element of the Space Shuttle system raise the possibility that other elements of flight hardware (or other subelements of the Solid Rocket Motor) could have similar deficiencies.
+4\. These deficiencies in testing and certification of one major element of the Space Shuttle system raise the possibility that other elements of flight hardware (or other subelements of the Solid Rocket Motor) could have similar deficiencies.
 
-5. If NASA is unable to explain why the deficiencies in Solid Rocket Motor testing and certification went undetected by the existing comprehensive set of processes and procedures, the agency will not be able to protect against a similar breakdown in its system of checks and balances in the future.
+5\. If NASA is unable to explain why the deficiencies in Solid Rocket Motor testing and certification went undetected by the existing comprehensive set of processes and procedures, the agency will not be able to protect against a similar breakdown in its system of checks and balances in the future.
 
 Recommendations
 
-1. NASA should devote more attention to determining why the deficiencies in Solid Rocket Motor testing and certification went undetected, so that appropriate action can be taken to uncover latent problems in existing hardware and to prevent similar problems in future development programs.
+1\. NASA should devote more attention to determining why the deficiencies in Solid Rocket Motor testing and certification went undetected, so that appropriate action can be taken to uncover latent problems in existing hardware and to prevent similar problems in future development programs.
 
-2. NASA and its contractors should thoroughly reassess the adequacy of all of the testing and certification that has been conducted
+2\. NASA and its contractors should thoroughly reassess the adequacy of all of the testing and certification that has been conducted
 
 (85) to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected. Discussion
 
@@ -2152,25 +2152,25 @@ Does the Space Shuttle Main Engine have adequate operating margins, and is the "
 
 Findings
 
-1. The Space Shuttle Main Engine is an impressive technological achievement. However, it also is one of the higher risk elements of the Space Shuttle system. Anomalous component performance or premature engine shutdown could prove catastrophic to the Space Shuttle and its crew.
+1\. The Space Shuttle Main Engine is an impressive technological achievement. However, it also is one of the higher risk elements of the Space Shuttle system. Anomalous component performance or premature engine shutdown could prove catastrophic to the Space Shuttle and its crew.
 
-2. Some NASA officials familiar with the Space Shuttle Main Engine believe that it should be operated at a throttle setting of 109 percent only in an emergency; others believe the engine could be safely operated at 109 percent on a routine basis.
+2\. Some NASA officials familiar with the Space Shuttle Main Engine believe that it should be operated at a throttle setting of 109 percent only in an emergency; others believe the engine could be safely operated at 109 percent on a routine basis.
 
 %%page 89%%
 
-3. It is widely accepted that the Space Shuttle Main Engine would be safer if its operating margins (for temperature, pressure, operating time, etc.) were increased.
+3\. It is widely accepted that the Space Shuttle Main Engine would be safer if its operating margins (for temperature, pressure, operating time, etc.) were increased.
 
-4. The Committee agrees with the sense of Dr. Feynman's concerns with respect to NASA's current, "fleet leader" concept for certifying Space Shuttle Main Engine components, such as high pressure turbopumps, for flight.
+4\. The Committee agrees with the sense of Dr. Feynman's concerns with respect to NASA's current, "fleet leader" concept for certifying Space Shuttle Main Engine components, such as high pressure turbopumps, for flight.
 
-5. On a case by case basis, NASA regularly violates its own certification requirements by permitting individual engine components to be used for flight even though they have accumulated an operating time in excess of 50 percent of the two fleet leaders (i.e., in violation of the "2X"rule).
+5\. On a case by case basis, NASA regularly violates its own certification requirements by permitting individual engine components to be used for flight even though they have accumulated an operating time in excess of 50 percent of the two fleet leaders (i.e., in violation of the "2X"rule).
 
 Recommendations
 
-1. NASA should continue its active development program for the Space Shuttle Main Engine. The program should be focused more on increasing operating margins.
+1\. NASA should continue its active development program for the Space Shuttle Main Engine. The program should be focused more on increasing operating margins.
 
-2. Because of the safety concerns raised by some knowledgeable officials, NASA should give serious consideration to restricting use of the 109 percent engine throttle setting to emergency situations only. If NASA decides that it needs to use the 109 percent throttle setting for other than emergency situations, the space agency should take whatever actions are required to ensure that adequate margins are present to maintain safety.
+2\. Because of the safety concerns raised by some knowledgeable officials, NASA should give serious consideration to restricting use of the 109 percent engine throttle setting to emergency situations only. If NASA decides that it needs to use the 109 percent throttle setting for other than emergency situations, the space agency should take whatever actions are required to ensure that adequate margins are present to maintain safety.
 
-3. NASA should closely scrutinize each of the concerns raised by Dr. Feynman regarding the agency's "fleet leader" concept for certifying Space Shuttle Main Engine components. The agency should also closely reassess its practice of selectively violating its "2X' rule for some Main Engine flight hardware elements. Discussion
+3\. NASA should closely scrutinize each of the concerns raised by Dr. Feynman regarding the agency's "fleet leader" concept for certifying Space Shuttle Main Engine components. The agency should also closely reassess its practice of selectively violating its "2X' rule for some Main Engine flight hardware elements. Discussion
 
 The Space Shuttle Main Engine is, very appropriately, described by the Development and Production Team as a "high technology, high power density, state-of-the-art rocket engine." 'I Indeed, the Space Shuttle Main Engine represents a major increase in operating performance over that provided by any other available rocket motor. In his paper Dr. Feynman notes that the Main Engine "is built at the edge of, or outside of, previous engineering experience."s "he Development and Production Team also observed that the Space Shuttle Main Engine is "a very complex and high risk element of the Space Shuttle system."
 
@@ -2226,7 +2226,7 @@ What resolutions of inadequacies revealed in the landing gear, tires, wheels, br
 
 Findings
 
-1. The Orbiter landing gear, tires, wheels, brakes, and nose wheel steering, as a system, is experimental, designed to criteria outside any other experience, and uses unique combinations of materials. The original design performance specifications for speed and landing weights are routinely exceeded. The original design did not consider asymmetrical braking for cross wind steering as the normal case although it has become standard practice. Stresses which were not taken into account in the design have surfaced in as yet a very small real world sample.
+1\. The Orbiter landing gear, tires, wheels, brakes, and nose wheel steering, as a system, is experimental, designed to criteria outside any other experience, and uses unique combinations of materials. The original design performance specifications for speed and landing weights are routinely exceeded. The original design did not consider asymmetrical braking for cross wind steering as the normal case although it has become standard practice. Stresses which were not taken into account in the design have surfaced in as yet a very small real world sample.
 
 broken blades totally within the engine; and (2) all commercial jet aircraft are designed to fly with one en 'ne ino rative. On the other hand, the FAA does consider aa critical any cracks in the "fir tree? r e g i o z f a turbine blade which is used to attach the blade to the hub of the turbine. (Should a turbine blade break in this region, it may be heavy enough to break through the engine shieldin 1 This is the region in which cracks are appearing in some Space Shuttle Main Engine turbinetlades.
 
@@ -2234,25 +2234,25 @@ broken blades totally within the engine; and (2) all commercial jet aircraft are
 
 %%page 93%%
 
-2. As a consequence, Orbiter landings appear high risk even under ideal conditions, which seldom occur. Exceptional procedural and skill demands are placed upon the pilots to nurse the brakes and tires through every landing. Landing rules have had increasing constraints imposed that hamper operational flexibility and usefulness of the Orbiter.
+2\. As a consequence, Orbiter landings appear high risk even under ideal conditions, which seldom occur. Exceptional procedural and skill demands are placed upon the pilots to nurse the brakes and tires through every landing. Landing rules have had increasing constraints imposed that hamper operational flexibility and usefulness of the Orbiter.
 
-3. Brake and tire damage have been evident since early on in the program. The Rogers Commission seems very correct in finding the current landing gear system unacceptable. Resolution of landing gear system problems can no longer be put off.
+3\. Brake and tire damage have been evident since early on in the program. The Rogers Commission seems very correct in finding the current landing gear system unacceptable. Resolution of landing gear system problems can no longer be put off.
 
 Recommendations
 
 The Committee recommends that NASA:
 
-1. Assemble all of the fragmented studies, analyses, and conclusions on landing gear problems and integrate them into one engineering description of the system as it is now intended to be used. This should include consideration of the basic strength of the struts themselves and their attachments.
+1\. Assemble all of the fragmented studies, analyses, and conclusions on landing gear problems and integrate them into one engineering description of the system as it is now intended to be used. This should include consideration of the basic strength of the struts themselves and their attachments.
 
-2. Write a new system specification and match the proposed design improvements to an acceptable reliability and certification specification.
+2\. Write a new system specification and match the proposed design improvements to an acceptable reliability and certification specification.
 
-3. Design a test and certification program adequate to meet criteria to fly and to continue well into future operations until understanding and confidence in the landing gear system is attained.
+3\. Design a test and certification program adequate to meet criteria to fly and to continue well into future operations until understanding and confidence in the landing gear system is attained.
 
-4. In anticipation of requirements for a new brake specification, accelerate a program to provide:
+4\. In anticipation of requirements for a new brake specification, accelerate a program to provide:
 
 > Increased brake mass and/or heat sink; Substantial increase in energy absorption; Evaluation which weighs the experimental nature of the proposed 65 million foot pound carbon brake and its impact on the system against the penalty of weight of known materials (e.g. steel) for operational confidence.
 
-5. Write updated subsystem specifications to upgrade the landing gear system to acceptable levels of performance to respond to the Rogers Commission's recommendations. Discussion
+5\. Write updated subsystem specifications to upgrade the landing gear system to acceptable levels of performance to respond to the Rogers Commission's recommendations. Discussion
 
 The sheer volume of testimony and documentation inevitably gives rise to apparent contradictions. None have surfaced that are assessed as consequential in evaluating the landing gear system problems (NASA's "anomalies") with a view to their solution.
 
@@ -2346,9 +2346,9 @@ In recent years, serious engineering concerns have been raised regarding the saf
 
 Recommendation
 
-1. NASA should ensure that, as a part of its current review of Space Shuttle safety, it identifies, thoroughly evaluates, and then takes appropriate action on all serious engineering concerns raised regarding mission critical elements of Space Shuttle flight hardware.
+1\. NASA should ensure that, as a part of its current review of Space Shuttle safety, it identifies, thoroughly evaluates, and then takes appropriate action on all serious engineering concerns raised regarding mission critical elements of Space Shuttle flight hardware.
 
-2. NASA should give special attention to both the cost and risks of using Filament Wound Case Solid Rocket Boosters for very heavy Space Shuttle payloads versus the cost and programmatic impacts of simply transferring those payloads to expendable launch vehicles.
+2\. NASA should give special attention to both the cost and risks of using Filament Wound Case Solid Rocket Boosters for very heavy Space Shuttle payloads versus the cost and programmatic impacts of simply transferring those payloads to expendable launch vehicles.
 
 %%page 100%%
 
@@ -2376,17 +2376,17 @@ Is the current ground test program for the SSME adequate to provide a complete u
 
 Findings
 
-1. The Committee supports the Findings and Conclusions of the Development and Production Team concerning the SSME, particularly the concern that "Hardware availability and the potential of damage to hardware and facilities resulting from tests malfunctions have constrained . . . [full margin] . . . testing during the ground test program."
+1\. The Committee supports the Findings and Conclusions of the Development and Production Team concerning the SSME, particularly the concern that "Hardware availability and the potential of damage to hardware and facilities resulting from tests malfunctions have constrained . . . [full margin] . . . testing during the ground test program."
 
-2. The Committee shares Dr. Feynman's concern that there has been a slow shift toward decreasing safety in the SSME program.
+2\. The Committee shares Dr. Feynman's concern that there has been a slow shift toward decreasing safety in the SSME program.
 
-3. There is not a sufficient understanding of SSME blade cracks and fractures. Recommendations
+3\. There is not a sufficient understanding of SSME blade cracks and fractures. Recommendations
 
-1. The Committee concurs with the Development and Production Team conclusion that over testing, limits testing, and malfunction testing in the SSME program should be re-emphasized to demonstrate full engine ~ a p a b i l i t y . ~ ~
+1\. The Committee concurs with the Development and Production Team conclusion that over testing, limits testing, and malfunction testing in the SSME program should be re-emphasized to demonstrate full engine ~ a p a b i l i t y . ~ ~
 
-2. NASA should prepare and submit to the Committee a cost-benefit analysis of testing a SSME to destruction including: (a) utilizing additional SSME test stands; (b) utilizing additional hardware for the ground test program; and (c) the value of such a test.
+2\. NASA should prepare and submit to the Committee a cost-benefit analysis of testing a SSME to destruction including: (a) utilizing additional SSME test stands; (b) utilizing additional hardware for the ground test program; and (c) the value of such a test.
 
-3. A vigorous study of fracture behavior should be conducted to minimize the hazard of cracked SSME blades and to increase the reliability and safety margin of blades. New blades and/or new policies for duration of blade use should be incorporated prior to the next Shuttle flight. Discussion
+3\. A vigorous study of fracture behavior should be conducted to minimize the hazard of cracked SSME blades and to increase the reliability and safety margin of blades. New blades and/or new policies for duration of blade use should be incorporated prior to the next Shuttle flight. Discussion
 
 The development and operation of the SSME is a remarkable achievement and represents the leading edge of technology in large liquid hydrogedliquid oxygen rocket engines. Great attention to detail was emphasized by engineers at both Rocketdyne and Marshall as well as timely recognition and resolution of technical problems.33 Despite intense oversight, individuals privately speculated, prior to the 51-L accident, that if an accident were to occur it would probably be the result of an SSME failure simp17 because of the uncertainties innate to a technology pushing the 'edge." This awareness of the uncertainties promoted high quality engineering and contributed to the success of the SSME program unlike the ap3' Rogers Commiasion Report, Volume 11, p. K-32. S2 Ibid. s3 Ibid.
 
@@ -2426,9 +2426,9 @@ Is the leak/combustion threat of the External Tank's hydrogen pressure valve a h
 
 Findings
 
-1. The Committee supports the Rogers Commission concern regarding the hazard posed by the liquid hydrogen vent and relief valve.42
+1\. The Committee supports the Rogers Commission concern regarding the hazard posed by the liquid hydrogen vent and relief valve.42
 
-2. The Committee suports the intent of the ET prime contractor, Martin Marietta, to pursue outdoor wind tunnel testing to eliminate the liquid hydrogen vent/relief valve h a ~ a r d . ~
+2\. The Committee suports the intent of the ET prime contractor, Martin Marietta, to pursue outdoor wind tunnel testing to eliminate the liquid hydrogen vent/relief valve h a ~ a r d . ~
 
 4 o Rogers Commission Report, Volume I, p. 192.[^4] L Ibid., Volume 11, p. F-2.
 
@@ -2474,17 +2474,17 @@ Should 100 percent X-ray inspection of the propellant and insulation for the Sol
 
 Findings
 
-1. Previous X-ray inspections led to only one SRM being rejected for Shuttle use.
+1\. Previous X-ray inspections led to only one SRM being rejected for Shuttle use.
 
-2. There is no non-destructive inspection method which can guarantee a defect-free SRM. X-ray inspection cannot detect "kissing" voids in which the SRM insulation is touching the SRM steel casing but is not bonded to it. Debonded insulation at the end of an SRM segment could provide burning propellant gases with a path to the SRM steel casing and could result in loss of vehicle and crew. X-ray inspection can detect propellant cracks and large voids which if undetected could also result in a catastrophic situation.
+2\. There is no non-destructive inspection method which can guarantee a defect-free SRM. X-ray inspection cannot detect "kissing" voids in which the SRM insulation is touching the SRM steel casing but is not bonded to it. Debonded insulation at the end of an SRM segment could provide burning propellant gases with a path to the SRM steel casing and could result in loss of vehicle and crew. X-ray inspection can detect propellant cracks and large voids which if undetected could also result in a catastrophic situation.
 
-3. Although there is no guarantee that X-ray inspection has been a particularly effective method of detecting propellant and insulation SRM flaws, it remains one of the best available methods to monitor the SRM manufacturing process,
+3\. Although there is no guarantee that X-ray inspection has been a particularly effective method of detecting propellant and insulation SRM flaws, it remains one of the best available methods to monitor the SRM manufacturing process,
 
 Recommendations
 
-1. NASA should consider reinstating full X-ray inspection of the propellant and insulation for all motors used on succeeding flights until new, more accurate inspection methods can be developed and implemented and there is unquestionable confidence in the SRM production process.
+1\. NASA should consider reinstating full X-ray inspection of the propellant and insulation for all motors used on succeeding flights until new, more accurate inspection methods can be developed and implemented and there is unquestionable confidence in the SRM production process.
 
-2. NASA, in conjunction with the appropriate contractors, should investigate the development of new, more accurate inspection techniques which can detect "kissing" voids and other potential defects that cannot be detected by X-ray inspection. Discussion
+2\. NASA, in conjunction with the appropriate contractors, should investigate the development of new, more accurate inspection techniques which can detect "kissing" voids and other potential defects that cannot be detected by X-ray inspection. Discussion
 
 While the 51-L accident has focused attention on the design of the SRM joint, the explosion of a Titan 34D rocket on April 18, 1986, has focused attention on the production and inspection processes of the SRM. Evidence has shown the Titan failure was caused by a "thermal insulation coating that pulled away from inside one of the two Solid Rocket Booster motors, allowing hot propellants to burn through the rocket's outer casing" nine seconds after being fired from Vanderberg Air Force B a ~ e . ~ 8
 
@@ -2518,17 +2518,17 @@ Are all production and other activities involving Criticality 1 and 1R hardware 
 
 Findings
 
-1. Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board.55
+1\. Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board.55
 
-2. The O-ring used in the case joint is critical to the sealing integrity of the joint, et it is not designated as a "critical process by
+2\. The O-ring used in the case joint is critical to the sealing integrity of the joint, et it is not designated as a "critical process by
 
 B either the Parker eal Co. or Hydrapack, the manufacturer and supplier re~pectively.~This raises the possibility that other Criticality 1 and 1R hardware components are also not appropriately designated by their manufacturer as "critical" processes.
 
 Recommendations
 
-1. NASA should require the manufacture of critical items, such as the O-rings, to be designated "critical" processes. Contractors should formally notify their employees involved in critical manufacturing processes of the serious nature of particular production processes.
+1\. NASA should require the manufacture of critical items, such as the O-rings, to be designated "critical" processes. Contractors should formally notify their employees involved in critical manufacturing processes of the serious nature of particular production processes.
 
-2. NASA should conduct a thorough review to ensure that all manufacturing processes involving Criticality 1 and 1R hardware components of prime and secondary contractors are appropriately designated "critical" processes. Discussion
+2\. NASA should conduct a thorough review to ensure that all manufacturing processes involving Criticality 1 and 1R hardware components of prime and secondary contractors are appropriately designated "critical" processes. Discussion
 
 "Critical processes are formally identified and controlled by NASA. All processes are classified and controlled by the contractor's Process Change Control Board." 57 Failure of Criticality 1 and 1R components or systems will result in loss of vehicle and/or crew. The Commission's investigation revealed that the O-ring used in the case joint, whose failure led to the destruction of 51-L, was not designated a critical NASA personnel explained that O-ring production was not so classified because final O-ring inspection occurred at KSC.
 
@@ -2574,27 +2574,27 @@ Is NASA's SRM redesign and hardware recertification plan a viable and realistic 
 
 Findings
 
-1. NASA's SRM redesign plan is a step in the right direction. Moving the proposed launch date beyond June 1987 is a responsible and realistic decision. The membership of the SRM Redesign Team is representative of qualified individuals in and outside of NASA. With the expert assistance of the specially appointed National Research Council (NRC) Independent Oversight Group, the new SRM design should be a significantly safer and more reliable Shuttle element.
+1\. NASA's SRM redesign plan is a step in the right direction. Moving the proposed launch date beyond June 1987 is a responsible and realistic decision. The membership of the SRM Redesign Team is representative of qualified individuals in and outside of NASA. With the expert assistance of the specially appointed National Research Council (NRC) Independent Oversight Group, the new SRM design should be a significantly safer and more reliable Shuttle element.
 
-2. NASA's current hardware recertification plan is also a step in the right direction. The use of independent review contractors distinguishes this recertification plan from earlier reviews. However, given the failure of previous reviews to discover the deficient SRB joint certification, the Committee is concerned there is still the possibility that the recertification effort may not reveal other certification deficiencies, if indeed they exist. The plan also raises concern about the qualifications of independent reviewers to evaluate certain elements given the uniqueness of particular Shuttle components.
+2\. NASA's current hardware recertification plan is also a step in the right direction. The use of independent review contractors distinguishes this recertification plan from earlier reviews. However, given the failure of previous reviews to discover the deficient SRB joint certification, the Committee is concerned there is still the possibility that the recertification effort may not reveal other certification deficiencies, if indeed they exist. The plan also raises concern about the qualifications of independent reviewers to evaluate certain elements given the uniqueness of particular Shuttle components.
 
-3. The joint was never fully tested as a separate element of the SRM. The various forces that act on the joint during stacking, launch, and flight are difficult, if not impossible, to duplicate in a test of the joint under all conditions that could be experienced during launch and flight.
+3\. The joint was never fully tested as a separate element of the SRM. The various forces that act on the joint during stacking, launch, and flight are difficult, if not impossible, to duplicate in a test of the joint under all conditions that could be experienced during launch and flight.
 
 e2 Ibid., p. K-31. O3 Ibid.,p. K-3.
 
 %%page 110%%
 
-4. It is unclear what function the new Safety Office will perform in the redesign of the SRB field joint and other critical elements of the Shuttle, as well as NASA's recertification plan.
+4\. It is unclear what function the new Safety Office will perform in the redesign of the SRB field joint and other critical elements of the Shuttle, as well as NASA's recertification plan.
 
 Recommendations
 
-1. The Committee recognizes the national need to return the Shuttle to flight status as soon as reasonably possible. As noted in NASA's July 14, 1986, report to the President, safety will determine the launch schedule. However, NASA should consider the proposed launch date of early 1988 as a flexible one which should be slipped further if necessary. The Shuttle should not be launched again until NASA can assure that safety criteria have been met.
+1\. The Committee recognizes the national need to return the Shuttle to flight status as soon as reasonably possible. As noted in NASA's July 14, 1986, report to the President, safety will determine the launch schedule. However, NASA should consider the proposed launch date of early 1988 as a flexible one which should be slipped further if necessary. The Shuttle should not be launched again until NASA can assure that safety criteria have been met.
 
-2. In establishing a test program to certify the new Solid Rocket Motor design, NASA should consider the feasibility of including in combination and in the proper sequence all of the thermal and structural loads expected to be experienced by the Solid Rocket Motor during ignition, lift-off, and flight.
+2\. In establishing a test program to certify the new Solid Rocket Motor design, NASA should consider the feasibility of including in combination and in the proper sequence all of the thermal and structural loads expected to be experienced by the Solid Rocket Motor during ignition, lift-off, and flight.
 
-3. The independent review contractors participating in the hardware recertification plan should utilize sufficient specific technical expertise to insure adequate recertification of all elements of the STS.
+3\. The independent review contractors participating in the hardware recertification plan should utilize sufficient specific technical expertise to insure adequate recertification of all elements of the STS.
 
-4. The Committee requests that the new Office of Safety, Reliability and Quality Assurance conduct an independent assessment of the SRB field joint redesign efforts. In addition, the new office should also be integrally involved in reviewing all other critical component redesign efforts and NASA's recertification plan. Discussion
+4\. The Committee requests that the new Office of Safety, Reliability and Quality Assurance conduct an independent assessment of the SRB field joint redesign efforts. In addition, the new office should also be integrally involved in reviewing all other critical component redesign efforts and NASA's recertification plan. Discussion
 
 The "Strategy for Safely Returning the Space Shuttle to Flight Status" includes the plans to redesign the SRM joint, reverify hardware design requirements, and to completely review all "critical" items. This strategy was proposed March 24, 1986, by Admiral Truly, the Associate Administrator for Space Flight and supple- ments the Rogers Commission's recommendations.[^6] 4
 
@@ -2682,9 +2682,9 @@ In 1983, NASA consolidated fifteen separate contracts and awarded a single Shutt
 
 Findings
 
-1. Performance under the SPC has improved since the inception of the contract. However, up to the time of the Challenger accident, contractor performance continued to be plagued by excessive overtime, persistent failures to follow prescribed work procedures, and inadequate logistical support from NASA.
+1\. Performance under the SPC has improved since the inception of the contract. However, up to the time of the Challenger accident, contractor performance continued to be plagued by excessive overtime, persistent failures to follow prescribed work procedures, and inadequate logistical support from NASA.
 
-2. High overtime rates have hampered SPC performance. Overtime rates had increased significantly during the six months prior ~
+2\. High overtime rates have hampered SPC performance. Overtime rates had increased significantly during the six months prior ~
 
 T 2 Discussion with NASA officials, Washington, D.C., August 13, 1986.
 
@@ -2692,21 +2692,21 @@ T 2 Discussion with NASA officials, Washington, D.C., August 13, 1986.
 
 to the Challenger launch, to the point that critical personnel were working weeks of consecutive workdays and multiple strings of 11- and 12-hour days. Fatigue resulting from work patterns of this sort can constitute a threat to safety. In fact, worker fatigue was a contributing factor in a mission-threatening incident on Flight 61-C, the mission immediately prior to the January 28 Challenger launch.
 
-3. There are numerous documented cases when contractor employees failed to comply with guidelines for carrying out assigned duties, including specific "Operations and Maintenance Instructions" (OMI's). Such failures contributed to both of the major mishaps in 1985 involving Shuttle processing-namely, the November 8, 1985, "handling ring" episode which led to significant damage to a Solid Rocket Motor segment slated for use on STS51-L, and the March 8, 1985, "payload bay access platform" episode which led to significant damage to a payload bay door. Failure to follow an OM1 also led to improper (and mission-threatening) handling of the hydrogen disconnect valve during the 51-L launch operations. All of these incidents show a lack of discipline, both with respect to following prescribed procedures and with respect to reporting violations of these procedures.
+3\. There are numerous documented cases when contractor employees failed to comply with guidelines for carrying out assigned duties, including specific "Operations and Maintenance Instructions" (OMI's). Such failures contributed to both of the major mishaps in 1985 involving Shuttle processing-namely, the November 8, 1985, "handling ring" episode which led to significant damage to a Solid Rocket Motor segment slated for use on STS51-L, and the March 8, 1985, "payload bay access platform" episode which led to significant damage to a payload bay door. Failure to follow an OM1 also led to improper (and mission-threatening) handling of the hydrogen disconnect valve during the 51-L launch operations. All of these incidents show a lack of discipline, both with respect to following prescribed procedures and with respect to reporting violations of these procedures.
 
-4. At the time of the Challenger accident, the lack of spare parts caused a degree of cannibalization (i.e., the removal of a part from one Orbiter to satisfy a need for a spare part on another Orbiter), which was the highest in the history of the Shuttle program and which was a threat to flight schedule and flight safety. Excessive cannibalization leads to multiple installations, retesting, added documentation, delayed access to parts, and increased damage potential. As a result, cannibalization contributes directly to excessive overtime.
+4\. At the time of the Challenger accident, the lack of spare parts caused a degree of cannibalization (i.e., the removal of a part from one Orbiter to satisfy a need for a spare part on another Orbiter), which was the highest in the history of the Shuttle program and which was a threat to flight schedule and flight safety. Excessive cannibalization leads to multiple installations, retesting, added documentation, delayed access to parts, and increased damage potential. As a result, cannibalization contributes directly to excessive overtime.
 
-5. There is no clear evidence whether or not greater involvement of the development contractors would improve Shuttle operations.
+5\. There is no clear evidence whether or not greater involvement of the development contractors would improve Shuttle operations.
 
 Recommendations
 
-1. Because of the serious quality and safety concerns surrounding the contract, NASA should conduct a careful review of Shuttle processing, the SPC contract, and the relationship of flight hardware contractors and report its findings, recommendations, and proposed contract modifications to the Committee. NASA's reexam- ination should include a comparison of efficiency and safety under the SPC versus efficiency and safety during pre-1983 Shuttle processing operations, which heavily involved the development contractors.
+1\. Because of the serious quality and safety concerns surrounding the contract, NASA should conduct a careful review of Shuttle processing, the SPC contract, and the relationship of flight hardware contractors and report its findings, recommendations, and proposed contract modifications to the Committee. NASA's reexam- ination should include a comparison of efficiency and safety under the SPC versus efficiency and safety during pre-1983 Shuttle processing operations, which heavily involved the development contractors.
 
-2. NASA should examine the issues of spares availability and cannibalization and provide the Congress with a management and budgetary plan for correcting previous logistical problems.
+2\. NASA should examine the issues of spares availability and cannibalization and provide the Congress with a management and budgetary plan for correcting previous logistical problems.
 
-3. NASA should stop routine cannibalization and develop guidelines (including appropriate control and review procedures and roles €or the SWQA office) governing permissible cannibalization.
+3\. NASA should stop routine cannibalization and develop guidelines (including appropriate control and review procedures and roles €or the SWQA office) governing permissible cannibalization.
 
-4. The Committee recommends that NASA provide its re-invig- orated safety office with the authority to enforce scheduling that leads to safe overtime rates.
+4\. The Committee recommends that NASA provide its re-invig- orated safety office with the authority to enforce scheduling that leads to safe overtime rates.
 
 %%page 116%%
 
@@ -2780,15 +2780,15 @@ Was NASA under pressure to fly more flights? How did this pressure originate? Wi
 
 Findings
 
-1. The Congress and the Executive Branch jointly developed the policy that the Space Shuttle should, in a reliable fashion and at an internationally competitive cost, provide for most of the Free World's space launch needs. By and large, both Branches failed to appreciate the impact that this policy was having on the operational safety of the system.
+1\. The Congress and the Executive Branch jointly developed the policy that the Space Shuttle should, in a reliable fashion and at an internationally competitive cost, provide for most of the Free World's space launch needs. By and large, both Branches failed to appreciate the impact that this policy was having on the operational safety of the system.
 
-2. NASA was under internal and external pressure to build its Shuttle flight rate to 24 per year, primarily to reduce costs per flight, but also to demonstrate and achieve routine access to space. NASA has never achieved its planned flight rate.
+2\. NASA was under internal and external pressure to build its Shuttle flight rate to 24 per year, primarily to reduce costs per flight, but also to demonstrate and achieve routine access to space. NASA has never achieved its planned flight rate.
 
 Recommendations
 
-1. NASA must not attempt to achieve a flight rate beyond that which (i) can be supported by the budget and staff resources available; and (ii) is consistent with the technical maturity of the Shuttle and the flexibility desired and needed in scheduling payloads. Management should ensure efficient use of resources but should not impose a flight rate on the system.
+1\. NASA must not attempt to achieve a flight rate beyond that which (i) can be supported by the budget and staff resources available; and (ii) is consistent with the technical maturity of the Shuttle and the flexibility desired and needed in scheduling payloads. Management should ensure efficient use of resources but should not impose a flight rate on the system.
 
-2. Once operation of the Space Shuttle resumes, the Committee should maintain a close and continuous oversight of Shuttle flight rate, planning, and operations. The Committee should ensure both that flight rate flows logically from the resources provided and that flight safety is not compromised beyond acceptable limits.
+2\. Once operation of the Space Shuttle resumes, the Committee should maintain a close and continuous oversight of Shuttle flight rate, planning, and operations. The Committee should ensure both that flight rate flows logically from the resources provided and that flight safety is not compromised beyond acceptable limits.
 
 Kennedy Space Center Mishap Reports, No. 85-0070, April 5, 1985, and No. 86-0024, Dec. 13, 1985.
 
@@ -2846,23 +2846,23 @@ Did operating pressures adversely affect the safety of the Shuttle program?
 
 Findings
 
-1. The pressure on NASA to achieve planned flight rates was so pervasive that it undoubtedly adversely affected attitudes regarding safety.
+1\. The pressure on NASA to achieve planned flight rates was so pervasive that it undoubtedly adversely affected attitudes regarding safety.
 
-2. The pressure to achieve planned flight rates was compressing mission preparation as earlier missions were delayed due to unforeseen problems. Had the accident not occurred there would soon have been a collision between planned launch dates and mission preparation needs which could not have been met by overtime, cannibalization, or other undesirable practices. Operating pressures were causing an increase in unsafe practices.
+2\. The pressure to achieve planned flight rates was compressing mission preparation as earlier missions were delayed due to unforeseen problems. Had the accident not occurred there would soon have been a collision between planned launch dates and mission preparation needs which could not have been met by overtime, cannibalization, or other undesirable practices. Operating pressures were causing an increase in unsafe practices.
 
-3. The schedule of payloads planned to fly on the Shuttle (the manifest) was frequently changed. Each change rippled through the NASA Shuttle organization and through the manifest and, especially if made shortly before launch, would increase the demands on personnel and resources in order to achieve the planned flight rate.
+3\. The schedule of payloads planned to fly on the Shuttle (the manifest) was frequently changed. Each change rippled through the NASA Shuttle organization and through the manifest and, especially if made shortly before launch, would increase the demands on personnel and resources in order to achieve the planned flight rate.
 
-4. The Space Shuttle has not yet reached a level of maturity which could be called operational as that term is used in either the airline industry or the military. Each Shuttle flight is fundamentally unique, and requires unique preparations. Therefore, small changes in a mission can cause significant perturbations of mission planning and crew training.
+4\. The Space Shuttle has not yet reached a level of maturity which could be called operational as that term is used in either the airline industry or the military. Each Shuttle flight is fundamentally unique, and requires unique preparations. Therefore, small changes in a mission can cause significant perturbations of mission planning and crew training.
 
 Recommendations
 
-1. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
+1\. The new Associate Administrator for Safety, Reliability and Quality Assurance must assure that any pressures to increase the Shuttle flight rate do not adversely influence mission preparation. The Associate Administrator must have the authority not only to stop a particular flight, e.g., at a Flight Readiness Review, but to stop the whole mission planning process if necessary.
 
 101 Ibid., Volume I, p. 170. 102 Ibid., p. 174.
 
 %%page 123%%
 
-2. Where appropriate, NASA should take steps to make the mission planning process standard and routine to reduce the time and resources needed to plan a mission. Before requesting more resources for the existing mission planning process (manpower, facilities, equipment) NASA should identify ways to improve the process. Discussion
+2\. Where appropriate, NASA should take steps to make the mission planning process standard and routine to reduce the time and resources needed to plan a mission. Before requesting more resources for the existing mission planning process (manpower, facilities, equipment) NASA should identify ways to improve the process. Discussion
 
 There is no doubt that operating pressures created a n atmosphere which allowed the accident on 51-L to happen. Without operating pressures the program might have been stopped months before the accident to redesign or at least understand the SRB joint. Without operating pressure the flight could have been stopped the night of January 27. This is documented in the Rogers Commission report in Chapters V and VI.lo3 Specific manifesta- tions of launch pressure and the resultant atmosphere in the agency are described in detail in Section VIII of this report.
 
@@ -3056,13 +3056,13 @@ What is the criticality of landing safety associated with programmed and abort l
 
 Findings
 
-1. The Committee finds that many of the normal and abort landing safety problems will be alleviated when the Rogers Commission's and the Committee's (section V.A.l.b., this report) recommendations to upgrade the landing gear system are implemented. When the landing gear system is understood, straightforward calculations and operational rules will determine acceptable runway dimensions and conditions.
+1\. The Committee finds that many of the normal and abort landing safety problems will be alleviated when the Rogers Commission's and the Committee's (section V.A.l.b., this report) recommendations to upgrade the landing gear system are implemented. When the landing gear system is understood, straightforward calculations and operational rules will determine acceptable runway dimensions and conditions.
 
-2. The Committee found no reason to fault NASA's current procedure on launch constraints based upon operational judgement and conservative rules on local conditions at planned abort and landing sites. However, since an obvious finding is that the Orbiter is a developmental system, it is axiomatic that unanticipated "dicey" circumstances will arise.
+2\. The Committee found no reason to fault NASA's current procedure on launch constraints based upon operational judgement and conservative rules on local conditions at planned abort and landing sites. However, since an obvious finding is that the Orbiter is a developmental system, it is axiomatic that unanticipated "dicey" circumstances will arise.
 
-3. It was found that for the least landing gear system stress, runway preference is Edwards Air Force Base (EAFB) (concrete), KSC, and Rogers Dry Lake (EAFB "lake bed") in that order. No reason was found to invalidate the KSC runway design. The reasons for the "dry" course surface still prevail over concern about wear on tires designed for one landing. Additional constraints at KSC because of lesser lateral stabilized overrun area may be needed to bring its safety to the level of the EAFB runway.
+3\. It was found that for the least landing gear system stress, runway preference is Edwards Air Force Base (EAFB) (concrete), KSC, and Rogers Dry Lake (EAFB "lake bed") in that order. No reason was found to invalidate the KSC runway design. The reasons for the "dry" course surface still prevail over concern about wear on tires designed for one landing. Additional constraints at KSC because of lesser lateral stabilized overrun area may be needed to bring its safety to the level of the EAFB runway.
 
-4. The NASA Landing Safety Team's proposal to provide standard landing aids and arresting barriers at all sites and their em119 NASA Memo from W.R. Lucas, to James M. Beggs, Administrator, dated August 21, 1981.
+4\. The NASA Landing Safety Team's proposal to provide standard landing aids and arresting barriers at all sites and their em119 NASA Memo from W.R. Lucas, to James M. Beggs, Administrator, dated August 21, 1981.
 
 %%page 133%%
 
@@ -3110,13 +3110,13 @@ Has adequate provision been made for crew safety in case of inflight emergencies
 
 Findings
 
-1. Crew escape options were considered when the Shuttle was originally designed and the basic situation has not changed. Many initially attractive options do not significantly reduce risk to the crew either because they may not reduce exposure to the principal hazards or because they add risks of their own.
+1\. Crew escape options were considered when the Shuttle was originally designed and the basic situation has not changed. Many initially attractive options do not significantly reduce risk to the crew either because they may not reduce exposure to the principal hazards or because they add risks of their own.
 
-2. A crew escape system for use in controlled gliding flight might be feasible and worthwhile.
+2\. A crew escape system for use in controlled gliding flight might be feasible and worthwhile.
 
-3. Crew escape during the ascent phase appears infeasible.
+3\. Crew escape during the ascent phase appears infeasible.
 
-4. Launch abort during SRB burn appears impossible but it may be possible to decrease risk to the crew after SRB separation, primarily through mission design. Recommendation
+4\. Launch abort during SRB burn appears impossible but it may be possible to decrease risk to the crew after SRB separation, primarily through mission design. Recommendation
 
 NASA should continue to respond to the recommendations of the Rogers Commission regarding (i) crew escape during controlled gliding flight and (ii) increasing the possibility of successful emergency runway landings. NASA should re-examine all crew survival options and report to the Committee on its findings. Discussion
 
@@ -3176,17 +3176,17 @@ There a coordinated and effective risk management program in the NSTS?
 
 Findings
 
-1. NASA does not explicitly use a centralized program that coordinates all the factors that encompass an adequate risk management program.
+1\. NASA does not explicitly use a centralized program that coordinates all the factors that encompass an adequate risk management program.
 
-2. As a result of the accident, NASA is reexamining the Failure Modes and Effects Analyses (FMEA) and Hazard Analyses (HA) to reassess risks associated with the designs of Shuttle subsystems.
+2\. As a result of the accident, NASA is reexamining the Failure Modes and Effects Analyses (FMEA) and Hazard Analyses (HA) to reassess risks associated with the designs of Shuttle subsystems.
 
-3. NASA's lack of statistical data on the performance of certain components will limit the usefulness of sound engineering judgment in much the same way as it limits the usefulness of probabilistic risk assessment. Recomnenda tions
+3\. NASA's lack of statistical data on the performance of certain components will limit the usefulness of sound engineering judgment in much the same way as it limits the usefulness of probabilistic risk assessment. Recomnenda tions
 
-1. NASA should develop and provide to the Committee a description of an overall risk management program as it relates to the Space Shuttle. This effort should include a determination of whether or not a more centralized coordination of a risk management program and issuance of direct risk management guidance directives are needed.
+1\. NASA should develop and provide to the Committee a description of an overall risk management program as it relates to the Space Shuttle. This effort should include a determination of whether or not a more centralized coordination of a risk management program and issuance of direct risk management guidance directives are needed.
 
-2. NASA should review analytical methods utilized in the performance of risk assessment, including statistical analyses, trend analyses and probabilistic risk assessment methodologies to determine their applicability to the NSTS program. Assistance from the National Academy of Sciences, or other appropriate organizations with expertise in these matters, may be required to adequately perform this review.
+2\. NASA should review analytical methods utilized in the performance of risk assessment, including statistical analyses, trend analyses and probabilistic risk assessment methodologies to determine their applicability to the NSTS program. Assistance from the National Academy of Sciences, or other appropriate organizations with expertise in these matters, may be required to adequately perform this review.
 
-3. NASA should review its certification testing to ensure that all critical items are adequately tested. Data obtained from these tests should be used when appropriate in conducting a formal risk assessment. Discussion
+3\. NASA should review its certification testing to ensure that all critical items are adequately tested. Data obtained from these tests should be used when appropriate in conducting a formal risk assessment. Discussion
 
 NASA does not have a specifically labeled risk management program. The process is accomplished by the agency through its configuration management program and the FMEA performed on each component of the Space Shuttle. The identification of critical items is the principal product of these analyses. The ability to make the programmatic or engineering changes necessary to enhance the safety and performance of flight systems while controlling costs and schedule is the task of the risk management activity.
 
@@ -3262,15 +3262,15 @@ Is the process for establishing launch constraints and dealing with them effecti
 
 Findings
 
-1. There is no clear understanding or agreement among the various levels of NASA management as to what constitutes a launch constraint or the process for imposing and waiving constraints.
+1\. There is no clear understanding or agreement among the various levels of NASA management as to what constitutes a launch constraint or the process for imposing and waiving constraints.
 
-2. Launch constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.
+2\. Launch constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.
 
 Recommendations
 
-1. NASA should establish rigorous procedures for identifying and documenting launch constraints, The individual(s1 responsible for implementing this procedure should be clearly identified, and well defined and understood criteria for waiving the constraints should be established.
+1\. NASA should establish rigorous procedures for identifying and documenting launch constraints, The individual(s1 responsible for implementing this procedure should be clearly identified, and well defined and understood criteria for waiving the constraints should be established.
 
-2. NASA should exercise extreme caution in waiving launch constraints before correcting the problem that led to the launch constraint. The rationale should be based on rigorous scientifidengi- neering analyses or tests and should be understood and accepted by the Program Manager. Discussion
+2\. NASA should exercise extreme caution in waiving launch constraints before correcting the problem that led to the launch constraint. The rationale should be based on rigorous scientifidengi- neering analyses or tests and should be understood and accepted by the Program Manager. Discussion
 
 No single system exists for establishing and dealing with launch constraints within the Shuttle Program; for example, Marshall maintains their own system through their Problem Assessment Center (PAC) to deal with problems affecting the propulsion system. In testimony before the Rogers Commission, Mr. Mulloy explained that the system was established to provide visability for problems relating to the propulsion system and a "launch constraint" was in effect a flag to alert the Project Office to address the problem at the Flight Readiness Review.
 
@@ -3310,15 +3310,15 @@ Are the launch commit criteria procedures adequate to ensure the safety of the m
 
 Findings
 
-1. The procedure used for developing launch commit criteria is systematic and thorough; however, violations of the criteria do not necessarily mean "no go". Therefore, NASA sometimes relied on engineering judgments made during the terminal countdown in determining whether to launch.
+1\. The procedure used for developing launch commit criteria is systematic and thorough; however, violations of the criteria do not necessarily mean "no go". Therefore, NASA sometimes relied on engineering judgments made during the terminal countdown in determining whether to launch.
 
-2. Launch commit criteria were sometimes waived without adequate engineering analysis or understanding of the technical reasons for establishing the criteria.
+2\. Launch commit criteria were sometimes waived without adequate engineering analysis or understanding of the technical reasons for establishing the criteria.
 
 Recommendations
 
-1. NASA should review the launch commit criteria procedures, especially those for dealing with violations, to lessen the reliance on engineering judgments under str::s.
+1\. NASA should review the launch commit criteria procedures, especially those for dealing with violations, to lessen the reliance on engineering judgments under str::s.
 
-2. When situations arise where real time" engineering judgments are unavoidable, NASA should adopt a more conservative approach to waiving previously established criteria. In no case should a criterion be waived without a thorough understanding of the rationale for the establishment of the criterion. Discussion
+2\. When situations arise where real time" engineering judgments are unavoidable, NASA should adopt a more conservative approach to waiving previously established criteria. In no case should a criterion be waived without a thorough understanding of the rationale for the establishment of the criterion. Discussion
 
 Launch commit criteria define limits on specific system parameters which are required to be monitored during the terminal countdown. When these limits are exceeded the launch is held until the condition is corrected or a n acceptable alternate capability or procedure is instituted.
 
@@ -3358,9 +3358,9 @@ Was the failure to inform the Level I or Level I1 Program Managers of the Teleco
 
 Findings
 
-1. The Committee finds that Marshall management used poor judgment in not informing the NSTS Program Manager or the Level I Manager of the events that took place the night before the launch, specifically the stated concerns of the Thiokol engineers. However, the Committee finds no evidence to support a suggestion that the outcome would have been any different had they been told.
+1\. The Committee finds that Marshall management used poor judgment in not informing the NSTS Program Manager or the Level I Manager of the events that took place the night before the launch, specifically the stated concerns of the Thiokol engineers. However, the Committee finds no evidence to support a suggestion that the outcome would have been any different had they been told.
 
-2. The Committee finds the efforts of Thiokol engineers to post- pone the launch commendable; however, Thiokol had numerous opportunities throughout the normal flight readiness process following flight 51-C in January, 1985 to have the new minimum temperature criteria established.
+2\. The Committee finds the efforts of Thiokol engineers to post- pone the launch commendable; however, Thiokol had numerous opportunities throughout the normal flight readiness process following flight 51-C in January, 1985 to have the new minimum temperature criteria established.
 
 138 Ibid., pp. H1-97
 
@@ -3480,15 +3480,15 @@ Does NASA have an adequate level of in-house technical expertise to manage the S
 
 Findings
 
-1. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquarters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space Flight also suffered a decline in staff. The decreases may have limited the ability of those offices to perform their review functions.
+1\. During the last decade NASA has had significant decreases in manpower. A disproportionate reduction may have occurred in the safety, reliability and quality assurance staff at NASA headquarters and at the Marshall Space Flight Center. Additionally during the period preceding the Challenger accident, the Office of Space Flight also suffered a decline in staff. The decreases may have limited the ability of those offices to perform their review functions.
 
-2. The information presented to NASA headquarters on August 19, 1985 was sufficient to require immediate and concentrated efforts to remedy the joint design flaws. The fact that NASA did not take stronger action to solve this problem indicates that its top technical staff did not fully accept or understand the seriousness of the joint problem.
+2\. The information presented to NASA headquarters on August 19, 1985 was sufficient to require immediate and concentrated efforts to remedy the joint design flaws. The fact that NASA did not take stronger action to solve this problem indicates that its top technical staff did not fully accept or understand the seriousness of the joint problem.
 
 Recommendations
 
-1. NASA should review the numbers and qualifications of key staff in technical and management positions and should consider additional training and recruitment of individuals to further the quality and safety of NASA's missions.
+1\. NASA should review the numbers and qualifications of key staff in technical and management positions and should consider additional training and recruitment of individuals to further the quality and safety of NASA's missions.
 
-2. The Committee should maintain on-going oversight of this analysis and conduct an in-depth examination upon the conclusion of NASA's review. Discussion
+2\. The Committee should maintain on-going oversight of this analysis and conduct an in-depth examination upon the conclusion of NASA's review. Discussion
 
 In the wake of the Challenger accident, serious questions arose over whether NASA had sufficient technical capability to identify and solve problems like the SRB seal problem. It is argued that through reductions in staffing levels and departures to the private sector by experienced technical employees, NASA lacked in-house problem assessment capability. This is an issue that is not subject to ready answers, and an in-depth examination of NASA technical capacity was generally beyond the scope of the Committee's hearing.
 
@@ -3588,7 +3588,7 @@ Despite the clarity of the Commission's conclusions, none of the participants at
 
 Ibid., p. 1052. See also, Cmte Hgs, Transcript, June 12, 1986, pp. 143-44, and July 24, 1986,
 
-90. A conflict in the testimony arose on the question of the briefing Mr. Weeks provided Mr. boore following the August 19th meeting. Accordin to the testimony resented by Mr. Weeks, "I briefed on the results of that [meeting] and told t i m about the brieing and showed him the briefing [documents]." Ibid., June 12, 1986, p. 143. Mr. Moore disagreed with this recitation of the facts (Ibid., July 24, 1986, pp. 89-91):
+90\. A conflict in the testimony arose on the question of the briefing Mr. Weeks provided Mr. boore following the August 19th meeting. Accordin to the testimony resented by Mr. Weeks, "I briefed on the results of that [meeting] and told t i m about the brieing and showed him the briefing [documents]." Ibid., June 12, 1986, p. 143. Mr. Moore disagreed with this recitation of the facts (Ibid., July 24, 1986, pp. 89-91):
 
 Mr. SCHEUER. Are you telling us that you didn't receive a briefing from Mr. Weeks and that vou didn't receive the briefing documents from Mr. Weeks that waa eiven to headauarters bv
 
@@ -3650,15 +3650,15 @@ Has the pressure to maintain operational flight rates and schedules for the Shut
 
 Findings
 
-1. When NASA declared the Space Shuttle to be an operational system, additional pressure to increase flight rates impacted other aspects of the overall program such as the ability to implement, evaluate, test, and certify changes in hardware design.
+1\. When NASA declared the Space Shuttle to be an operational system, additional pressure to increase flight rates impacted other aspects of the overall program such as the ability to implement, evaluate, test, and certify changes in hardware design.
 
-2. As a result of attempting to operate the Shuttle at increased flight rates, controlling other aspects of the program such as the flight production process and manifest also became a more complex and difficult aspect of program administration.
+2\. As a result of attempting to operate the Shuttle at increased flight rates, controlling other aspects of the program such as the flight production process and manifest also became a more complex and difficult aspect of program administration.
 
 Recommendations
 
-1. NASA must reconsider its efforts to categorize the Shuttle as an operational transportation system.
+1\. NASA must reconsider its efforts to categorize the Shuttle as an operational transportation system.
 
-2. The Configuration Management System designed to control such changes must be reexamined by NASA as to its effectiveness in assuring that all hardware changes take place in a safe and reliable fashion.
+2\. The Configuration Management System designed to control such changes must be reexamined by NASA as to its effectiveness in assuring that all hardware changes take place in a safe and reliable fashion.
 
 l a 3 Ibid., July 24, 1986, p. 117. I84Ibid., June 17, 1986, pp.215-16
 
@@ -3678,9 +3678,9 @@ Is the change control process sufficiently defined for all elements of the Shutt
 
 Findings
 
-1. The NSTS engineering and process change guidelines are, for the most part, sufficiently well-defined for the majority of the subsystems that comprise the Space Shuttle.
+1\. The NSTS engineering and process change guidelines are, for the most part, sufficiently well-defined for the majority of the subsystems that comprise the Space Shuttle.
 
-2. NASA gives the same level of scrutiny to changes involving a minor component (such as moving Velcro strips in the Orbiter) as those involving mission critical elements of flight hardware.
+2\. NASA gives the same level of scrutiny to changes involving a minor component (such as moving Velcro strips in the Orbiter) as those involving mission critical elements of flight hardware.
 
 Recommendation
 
@@ -3910,9 +3910,9 @@ The Committee finds that the Rogers Commission recommendation that NASA should e
 
 Recommendations
 
-1. The Associate Administrator for Safety, Reliability and Quality Assurance (SR&QA) should provide to the Committee the agency's draft plan delineating the organization, goals, implementation strategies and resource requirements of the office of SR&QA.
+1\. The Associate Administrator for Safety, Reliability and Quality Assurance (SR&QA) should provide to the Committee the agency's draft plan delineating the organization, goals, implementation strategies and resource requirements of the office of SR&QA.
 
-2. After the Office of SR&QA is fully operational, the Committee will wish to continue oversight over its activities. Discussion
+2\. After the Office of SR&QA is fully operational, the Committee will wish to continue oversight over its activities. Discussion
 
 Chapter 7 of the Rogers Commission report deals with the subject entitled "The Silent Safety Program." The Commission identified shortcomings in NASA's overall Safety, Reliability and Quality Assurance Programs, and recommended the formation of a separate Office of Safety, Reliability and Quality Assurance that would report directly to the Administrator. The role of safety and quality assurance in the decisionmaking processes associated with Shuttle flight production requirements has been relatively undefined and ambiguous. The formation of a centralized coordination and control organization should serve to remedy the situation. As the Rogers Commission report notes, ". . . No one thought to invite a safety representative or a reliability and quality assurance engineer to the January 27, 1986 teleconference between Marshall and Thiokol."[^2] 0 7
 
@@ -3934,15 +3934,15 @@ Has NASA applied sufficient resources to support adequate S M Q A efforts within
 
 Findings
 
-1. The Committee finds that reductions in NASA civil service personnel that have occurred over the past decade have adversely impacted the agency's ability to maintain the appropriate level of oversight control of the Safety, Reliability and Quality Assurance activities within the NSTS.
+1\. The Committee finds that reductions in NASA civil service personnel that have occurred over the past decade have adversely impacted the agency's ability to maintain the appropriate level of oversight control of the Safety, Reliability and Quality Assurance activities within the NSTS.
 
-2. NASA has become increasingly dependent upon outside SR&QA support from the Department of Defense (Defense Contract Administration Services [DCAS] and Air Force Plant Representative Office [AFPRO]) and contractors.
+2\. NASA has become increasingly dependent upon outside SR&QA support from the Department of Defense (Defense Contract Administration Services [DCAS] and Air Force Plant Representative Office [AFPRO]) and contractors.
 
-3. NASA has reduced or reassigned to other program areas in-house safety, reliability and quality assurance tasks such as testing, analyses and instrumentation and has reduced or shut down in-house facilities for performing SR&QA research and technology development. The degree to which these factors have adversely impacted the safety, reliability and quality assurance activities within the NSTS program has not been adequately assessed. Reconmenda t ions
+3\. NASA has reduced or reassigned to other program areas in-house safety, reliability and quality assurance tasks such as testing, analyses and instrumentation and has reduced or shut down in-house facilities for performing SR&QA research and technology development. The degree to which these factors have adversely impacted the safety, reliability and quality assurance activities within the NSTS program has not been adequately assessed. Reconmenda t ions
 
-1. NASA should establish and maintain a strong and effective SR&QA Program. Continuing support for such a program must come directly from the Administrator.
+1\. NASA should establish and maintain a strong and effective SR&QA Program. Continuing support for such a program must come directly from the Administrator.
 
-2. Although it is appropriate to establish strong contractor capa- bilitie in the areas of SR&QA the internal oversight responsibilities and coordination of SR&QA tasks must be the responsibility of NASA itself. In order to assure that the appropriate interfaces among the various subsystem elements that comprise the NSTS, are maintained, a sufficient complement of NASA SR&QA management and support staff must be available to perform the necessary oversight and coordination tasks. Discussion
+2\. Although it is appropriate to establish strong contractor capa- bilitie in the areas of SR&QA the internal oversight responsibilities and coordination of SR&QA tasks must be the responsibility of NASA itself. In order to assure that the appropriate interfaces among the various subsystem elements that comprise the NSTS, are maintained, a sufficient complement of NASA SR&QA management and support staff must be available to perform the necessary oversight and coordination tasks. Discussion
 
 Reductions in force over the past several years have reduced personnel across the agency from a complement of some thirty-six thousand people down to twenty-two thousand people. A disproportionate decline in Reliability and Quality Assurance (R&QA) staffing occured as a result of these reductions. In the Shuttle program, many of the quality control functions and government inspection activities have been performed by contractors in conjunction with the Department of Defense support personnel (DCAS and AFPRO). NASA has expressed some concern about their ability to maintain adequate in-house staffing in these areas. The total number of civil servant employees within NASA dedicated to the SR&QA program is presently about 500 professionals.[^2] 0 9 This represents a reduction of 71% from the 1970 complement.
 
@@ -3984,15 +3984,15 @@ Does the SR&QA program require improved coordination between centers, contractor
 
 Findings
 
-1. Although guidelines have been published that describe the responsibility of contractors' in the areas of SR&QA,213 NASA's guidelines do not adequately distinguish these various activities as distinct disciplines requiring specialized skills and centralized coordination.
+1\. Although guidelines have been published that describe the responsibility of contractors' in the areas of SR&QA,213 NASA's guidelines do not adequately distinguish these various activities as distinct disciplines requiring specialized skills and centralized coordination.
 
-2. In its review of the agency's reliability and quality assurance programs as they relate to the Space Shuttle, the Committee found there was little commonality among the cognizant officials at MSFC, JSC, KSC, and Headquarters in the perception of the various responsibilities associated with these separate and distinct disciplines.
+2\. In its review of the agency's reliability and quality assurance programs as they relate to the Space Shuttle, the Committee found there was little commonality among the cognizant officials at MSFC, JSC, KSC, and Headquarters in the perception of the various responsibilities associated with these separate and distinct disciplines.
 
 Recommendations
 
-1. It is important that a clear delineation of responsibilities for the separate SR&QA disciplines be appropriately documented. It is also essential that the relative importance of each of the three separate disciplines be established as an integral part of the NSTS program. These functions are the responsibility of NASA Headquarters.
+1\. It is important that a clear delineation of responsibilities for the separate SR&QA disciplines be appropriately documented. It is also essential that the relative importance of each of the three separate disciplines be established as an integral part of the NSTS program. These functions are the responsibility of NASA Headquarters.
 
-2. NASA must carefully review the staff and resources devoted to the SR&QA function within NASA and contractor organizations for adequacy. The Administrator shall report to the Committee with his findings and recommendations. Discussion
+2\. NASA must carefully review the staff and resources devoted to the SR&QA function within NASA and contractor organizations for adequacy. The Administrator shall report to the Committee with his findings and recommendations. Discussion
 
 Although the controlling document describing the SR&QA functions for the Shuttle contractors was provided to the Committee, no corresponding document was identified that describes the implementation of these functions for the SR&QA engineers that are direct employees of NASA. NASA contends that the same controlling document applies to agency employees. The specific oversight
 
@@ -4014,19 +4014,19 @@ Key Shuttle contracts (e.g., the Solid Rocket Booster Production Contract and th
 
 Findings
 
-1. The SPC provides far greater incentives to the contractor for minimizing costs and meeting schedules than for features related to safety and performance. SPC is a cost-plus, incentive/award fee contract. The amount of the incentive fee is based on contract costs (lower costs yields a larger incentive fee) and on safe and successful launch and recovery of the Orbiter. The award fee is designed to permit NASA to focus on those areas of concern which are not sensitive to the incentive fee provisions, including the safety record of the contractor. However, the incentive fee dwarfs the award fee- while the maximum value of the award fee is only one percent of the value of the SPC, the incentive fee could total as much as 14 percent of the SPC.
+1\. The SPC provides far greater incentives to the contractor for minimizing costs and meeting schedules than for features related to safety and performance. SPC is a cost-plus, incentive/award fee contract. The amount of the incentive fee is based on contract costs (lower costs yields a larger incentive fee) and on safe and successful launch and recovery of the Orbiter. The award fee is designed to permit NASA to focus on those areas of concern which are not sensitive to the incentive fee provisions, including the safety record of the contractor. However, the incentive fee dwarfs the award fee- while the maximum value of the award fee is only one percent of the value of the SPC, the incentive fee could total as much as 14 percent of the SPC.
 
 Rogers Commission Re rt, Volume I, p. 152. 21bDiacussion with the N E A Chief Engineer's Oftice, May 13, 1986.
 
 %%page 180%%
 
-2. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July, 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million.
+2\. During the developmental phases of the Thiokol contract for Solid Rocket Booster production (1980-1983), the contractor received consistent ratings of "Excellent-Plus" or "Superior" under the cost-plus, award-fee contract. NASA contracted with Thiokol on a cost-plus, incentive-fee (CPIF) basis beginning in July, 1983. The CPIF contract pays strictly on the basis of costs, although penalties may be invoked for delays in delivery or for Shuttle accidents due to SRB failure. At the time of the Challenger accident, Thiokol was eligible to receive a very large incentive fee, probably on the order of $75 million.
 
 Recommendations
 
-1. NASA should reexamine all Shuttle contracts and report to the Committee with its findings and recommendations on whether more incentives for safety and quality can be built into these contracts. This report should address, inter alia, the SRB Production Contract and the SPC.
+1\. NASA should reexamine all Shuttle contracts and report to the Committee with its findings and recommendations on whether more incentives for safety and quality can be built into these contracts. This report should address, inter alia, the SRB Production Contract and the SPC.
 
-2. NASA's new Office of SWQA should be involved in the procurement and award fee processes, both to establish reasonable guidelines and rewards in new contract and to judge performance of ongoing contracts. Discussion
+2\. NASA's new Office of SWQA should be involved in the procurement and award fee processes, both to establish reasonable guidelines and rewards in new contract and to judge performance of ongoing contracts. Discussion
 
 Mr. Robert Thompson, Vice President of McDonnell Douglas, summarized the position of several Committee witnesses when he stated:
 
@@ -4086,7 +4086,7 @@ For the purpose of redesigning the joint it is important that the way in which t
 
 (b) Probable Cause of Failure
 
-1. Both the primary O-ring and the secondary O-ring were seated when the steel casings were mated. The pressure check verified this fact. However, from experience, the primary O-ring was seated in the upstream position as had been previously recognized by NASA and Thiokol engineers. (See Figure VII-1.)
+1\. Both the primary O-ring and the secondary O-ring were seated when the steel casings were mated. The pressure check verified this fact. However, from experience, the primary O-ring was seated in the upstream position as had been previously recognized by NASA and Thiokol engineers. (See Figure VII-1.)
 
 Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 
@@ -4106,7 +4106,7 @@ Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 
 %%page 185%%
 
-2. Upon ignition, the primary O-ring could not reseat at the 300 degree location in the downstream position, where it needed to be in time to prevent blowby. At this point there were too many deficiencies acting in unison which prevented the O-ring from reseating in that location. First, proper spacing between the inner face of the tang and the opposing face of the inner leg of the clevis approximately 0.020 inches, is critical. That spacing for Flight 51-L was too small, at the 300 degree location where the smoke was observed, to facilitate prompt reseating of the primary O-ring. Calculations of segment diameters indicate the gap spacing was only 0.004 inches, near metal-to-metal contact. The ignition gases passed the O-ring at this location (See Figure VII-2). This condition did not exist elsewhere in the joint around the casings since the primary O-ring was able to seat around the joint in other locations.
+2\. Upon ignition, the primary O-ring could not reseat at the 300 degree location in the downstream position, where it needed to be in time to prevent blowby. At this point there were too many deficiencies acting in unison which prevented the O-ring from reseating in that location. First, proper spacing between the inner face of the tang and the opposing face of the inner leg of the clevis approximately 0.020 inches, is critical. That spacing for Flight 51-L was too small, at the 300 degree location where the smoke was observed, to facilitate prompt reseating of the primary O-ring. Calculations of segment diameters indicate the gap spacing was only 0.004 inches, near metal-to-metal contact. The ignition gases passed the O-ring at this location (See Figure VII-2). This condition did not exist elsewhere in the joint around the casings since the primary O-ring was able to seat around the joint in other locations.
 
 Second, the low temperature throughout the night prior to launch left the fluorocarbon elastomer primary O-ring stiff and lacking in ability to spring into the downstream (seated) position at the 300 degree location in time, relative to the buildup of motor pressure, to provide a tight seal. The temperature of the aft field joint at time of launch was calculated by Thiokol after the accident to be 16 degree F. Part of the reason for this low temperature was the heat transfer away from the joint, by conduction through the aft attachment strut. The conduction was driven by liquid hydrogen, which remained in the external tank overnight. The supercold fuel created a 430 degree temperature differential across the ship, drawing heat out of the joint and O-rings.
 
@@ -4120,15 +4120,15 @@ O-RING
 
 %%page 187%%
 
-3. However, there could have been one or more than one blowhole through the zinc chromate putty before ignition. One such blowhole could have been made at the 300 degree location either during the leak check at 200 psi prior to the seating of the primary O-ring or prior to the leak check when the casings were brought together. If so, there was a high probability that the primary 0- ring eroded at this point. The phenomena of blowing holes in the putty had been observed many times at post-flight dismantlement and had dramatically increased when the procedures were changed to increase the test pressure to 200 psi. Additionally, the Randolph putty had been found unsatisfactory on numerous occasions.2
+3\. However, there could have been one or more than one blowhole through the zinc chromate putty before ignition. One such blowhole could have been made at the 300 degree location either during the leak check at 200 psi prior to the seating of the primary O-ring or prior to the leak check when the casings were brought together. If so, there was a high probability that the primary 0- ring eroded at this point. The phenomena of blowing holes in the putty had been observed many times at post-flight dismantlement and had dramatically increased when the procedures were changed to increase the test pressure to 200 psi. Additionally, the Randolph putty had been found unsatisfactory on numerous occasions.2
 
-4. Upon ignition of the Solid Rocket Motor, this blowhole would have facilitated and concentrated the hot propellant gas flame on the primary O-ring, and possibly the secondary O-ring as well. Alignment of O-ring erosion with the location of blowholes had been observed on numerous occasions.3
+4\. Upon ignition of the Solid Rocket Motor, this blowhole would have facilitated and concentrated the hot propellant gas flame on the primary O-ring, and possibly the secondary O-ring as well. Alignment of O-ring erosion with the location of blowholes had been observed on numerous occasions.3
 
-5. Between the time the casings were assembled and the launch, the secondary O-ring was unseated from its previously sealed position. The fact that it had been sealed has been verified by the pressure check made 28 days before when the casings were joined. Either the secondary O-ring was unseated by joint rotation coupled with O-ring stiffness or by the formation of ice in the joint.
+5\. Between the time the casings were assembled and the launch, the secondary O-ring was unseated from its previously sealed position. The fact that it had been sealed has been verified by the pressure check made 28 days before when the casings were joined. Either the secondary O-ring was unseated by joint rotation coupled with O-ring stiffness or by the formation of ice in the joint.
 
 During the intervening period, as the Shuttle stood on Pad 39B waiting for the launch,[^7] inches of rain had fallen and some could have easily penetrated the joints. The access of rain water into the joints was proved when STS-9 was disassembled and water poured out of the assembly pin holes. In tests conducted after the accident, it was confirmed that the water in the aft field joint would have turned to ice, and that the ice could have dislodged the secondary O-ring, pushing it upstream into a non-sealed position. In this position, it is doubtful that the secondary O-ring could have sealed at ignition.
 
-6. One of the three Solid Rocket Booster to External Tank aft attachment struts is also connected at the 300 degree location, just a few inches below the aft field joint. As the Space Shuttle system stood on the launch platform at Pad B on January 28, the large External Tank was gradually filled with liquid hydrogen and liquid oxygen. Liquid hydrogen, at a temperature of 423 deg F below zero, and liquid oxygen, at a temperature of 297 deg F below zero, caused the tank to contract as it was filled. Since the Solid Rocket Boosters are firmly bolted to the launch platform, a lateral force of approximately 190,000 pounds pulled sideways on the aft attachment strut and the Solid Rocket Motor casing, including the joint that failed.4 Refueling of the tank was accomplished early on the morning of January 28.
+6\. One of the three Solid Rocket Booster to External Tank aft attachment struts is also connected at the 300 degree location, just a few inches below the aft field joint. As the Space Shuttle system stood on the launch platform at Pad B on January 28, the large External Tank was gradually filled with liquid hydrogen and liquid oxygen. Liquid hydrogen, at a temperature of 423 deg F below zero, and liquid oxygen, at a temperature of 297 deg F below zero, caused the tank to contract as it was filled. Since the Solid Rocket Boosters are firmly bolted to the launch platform, a lateral force of approximately 190,000 pounds pulled sideways on the aft attachment strut and the Solid Rocket Motor casing, including the joint that failed.4 Refueling of the tank was accomplished early on the morning of January 28.
 
 At ignition, the 190,000-pound force was instantly released when the SRB hold-down bolts were blown loose. For the next two and a half seconds the right Solid Rocket Motor field joints experienced a 3 cycle per second vibratory load caused by the sudden release of the lateral force.6 The ignition pressure increased the joint spacing. Also, the flow of motor gases through the blowhole at the 300 degree location could have resulted in damage to the primary 0- ring. The evidence of smoke at the 300 degree location is unlikely without O-ring damage.
 
@@ -4140,15 +4140,15 @@ Thiokol, "Erosion of SRM Preasure Seals," TWR 15160, Chart A-9, August 19, 1985 
 
 %%page 188%%
 
-7. Smoke at launch, clearly visible in the photographs, stopped at 2.7 seconds when the vibratory load damped out and the joint sealed. The sealing of the breach at the 300 degree location was made possible by blockage from burned material, probably consisting of a mixture of insulation and aluminum oxide. Post-accident tests performed by Morton Thiokol proved that aluminum oxide could have successfully plugged the joint at 2.7 seconds. While the smoke at ignition appeared to be intermittent, that appearance was probably a result of air and main engine exhaust currents.
+7\. Smoke at launch, clearly visible in the photographs, stopped at 2.7 seconds when the vibratory load damped out and the joint sealed. The sealing of the breach at the 300 degree location was made possible by blockage from burned material, probably consisting of a mixture of insulation and aluminum oxide. Post-accident tests performed by Morton Thiokol proved that aluminum oxide could have successfully plugged the joint at 2.7 seconds. While the smoke at ignition appeared to be intermittent, that appearance was probably a result of air and main engine exhaust currents.
 
-8. At T+37 seconds into the flight, the Shuttle encountered wind gust loads in conjunction with planned maneuvers. Components of these gust and maneuvering loads were transmitted to the Solid Rocket Booster through the External Tank attachment strut. Based on the prescence of smoke at liftoff, these forces were transmitted to a joint already weakened by erosion and heat damage.
+8\. At T+37 seconds into the flight, the Shuttle encountered wind gust loads in conjunction with planned maneuvers. Components of these gust and maneuvering loads were transmitted to the Solid Rocket Booster through the External Tank attachment strut. Based on the prescence of smoke at liftoff, these forces were transmitted to a joint already weakened by erosion and heat damage.
 
-9. At 43 seconds into the flight, the main engines throttled back as the Shuttle reached "Max q" (maximum dynamic pressure). Four seconds later, the main engines had throttled up to 104% power and the geometry of the Solid Rocket Motor propellants had increased thrust. At this point, the motor pressure increased to 609 psi.
+9\. At 43 seconds into the flight, the main engines throttled back as the Shuttle reached "Max q" (maximum dynamic pressure). Four seconds later, the main engines had throttled up to 104% power and the geometry of the Solid Rocket Motor propellants had increased thrust. At this point, the motor pressure increased to 609 psi.
 
 Additional structural loads resulted from turbulence. Flight 51-L experienced the most severe turbulence of any Shuttle flight and, although the loads were within the allowable design limits, those design limits did not consider a joint that had already failed.s It is unknown how much the combined effect of wind gust loads, maneuvering loads and an increase in thrust contributed to the accident. But the combined effects of these forces could have dislodged the burned material at the previously breached section of the joint.
 
-10. Shortly after the vehicle was loaded by these turbulent forces, at T+58 seconds, a flame appeared from the same general region where the puffs of smoke had been seen. But, this time the joint was continuously breached by the burning propellant gases. In a little over two seconds, the flame had grown and acted as a blowtorch to burn through the hydrogen tank. The appearance of the flame at this time is also indicative of a damaged primary 0- ring and failure of the secondary O-ring to seal, for reasons explained in the Critical Items List dated December 17, 1982.sa
+10\. Shortly after the vehicle was loaded by these turbulent forces, at T+58 seconds, a flame appeared from the same general region where the puffs of smoke had been seen. But, this time the joint was continuously breached by the burning propellant gases. In a little over two seconds, the flame had grown and acted as a blowtorch to burn through the hydrogen tank. The appearance of the flame at this time is also indicative of a damaged primary 0- ring and failure of the secondary O-ring to seal, for reasons explained in the Critical Items List dated December 17, 1982.sa
 
 The telemetry data, photographs and cockpit voice recordings support evidence of turbulent conditions and the manner in which the Shuttle failed.
 
@@ -4338,11 +4338,11 @@ In August of 1985 Jim Thomas, MSFC's Deputy SRM Element Manager, wrote a memo fo
 
 The memo than went on to discuss a number of questions.
 
-1. What would happen if the secondary seal lifted off the mating surface during motor pressurization, and, also, how long it would take for the seal to return to a position where contact was made? The answer to that question stated that bench test data indicated that the O-ring resiliency, that is, its capability to fill the gap between the tang and the clevis, was a function of temperature and the rate at which the gap opened.
+1\. What would happen if the secondary seal lifted off the mating surface during motor pressurization, and, also, how long it would take for the seal to return to a position where contact was made? The answer to that question stated that bench test data indicated that the O-ring resiliency, that is, its capability to fill the gap between the tang and the clevis, was a function of temperature and the rate at which the gap opened.
 
 The memo stated, "at 100 deg. F the O-ring maintained contact. At 75 deg. F the O-ring lost contact for 2.4 seconds. At 50 deg. F the O-ring did not reestablish contact in 10 minutes at which time the test was terminated." The memo then stated, "the conclusion is that secondary sealing capability in the SRM field joint cannot be guaranteed."[^2] 8
 
-2. Another question concerned whether or not the secondary 0- ring would seal in sufficient time to prevent joint leakage if the primary O-ring had not sealed. The answer to that question was as follows:
+2\. Another question concerned whether or not the secondary 0- ring would seal in sufficient time to prevent joint leakage if the primary O-ring had not sealed. The answer to that question was as follows:
 
 > MTI has no reason to suspect that the primary seal would ever fail after pressure equilibrium is reached, i.e., after the ignition transient. If the primary O-ring were to fail from 0 to 170 milliseconds, there is a very high probability that the secondary O-ring would hold pressure since the case has not expanded appreciable at this point. If the primary seal were to fail from 170 to 330 milliseconds, the probability of the secondary seal holding is reduced. From 330 to 600 milliseconds the chance of the secondary seal
 
@@ -4354,7 +4354,7 @@ The memo stated, "at 100 deg. F the O-ring maintained contact. At 75 deg. F the 
 
 > holding is small. This is direct result of the O-ring's slow response compared to the metal-case segments as the joint rotates.
 
-3. The third question indicated that NASA Headquarters was not aware that the secondary O-ring may not seat due to joint rotation, and they wanted to know when this data was incorporated into the FMEAKIL? The answer noted that Thiokol had submitted a TWR- 13520 to MSFC in December of 1982. This was approved by NASA Level I11 on January 21, 1983. NASA Level I1 authorized a change request March 2, 1983 and Level I1 issued a PRCBD to implement approved Level I change request on May 2, 1983.29
+3\. The third question indicated that NASA Headquarters was not aware that the secondary O-ring may not seat due to joint rotation, and they wanted to know when this data was incorporated into the FMEAKIL? The answer noted that Thiokol had submitted a TWR- 13520 to MSFC in December of 1982. This was approved by NASA Level I11 on January 21, 1983. NASA Level I1 authorized a change request March 2, 1983 and Level I1 issued a PRCBD to implement approved Level I change request on May 2, 1983.29
 
 Thiokol completed their engineering study of O-ring compression set and dated the report October 2, 1985.30 (Compression set relates to the ability of a material, in this case, O-rings, to rebound to its original dimensions after having being subjected to compression for various periods of time and or at various temperatures.) That report contained the following information. There was a concern of the ability of the O-ring to rebound to or near its original dimensions after having been subjected to compression for various periods of time and at various temperatures. The Parker Seal Company of Culver City, California, tested several O-rings to determine the properties of the material. Two compression set tests in accordance with ASTM (American Society for Testing and Materials) D-395 method B were performed. The first test was conducted at a constant temperature of 75 deg. and the time that the ring was in compression was varied. In the second test the temperature was varied and the compression was held constant. A small O-ring of 0.139 inch diameter was used for test purposes. The test showed that the percentage of compression increased with an increase of temperature. However, these tests were not conducted at low temperatures. Rather, they were conducted at temperatures of 212 deg. F and above and therefore, they have little relevance to ambient conditions.
 
@@ -4378,9 +4378,9 @@ B. Bench testing showed capability to maintain O-ring contact during initial pha
 
 What follows is taken from Chart 2-2:
 
-1. A temperature lower than current data base results in changing primary O-ring sealing timing function.
+1\. A temperature lower than current data base results in changing primary O-ring sealing timing function.
 
-2. SRM 15-A 80 deg. arc black grease between O-rings. SRM 15-B 110 deg. arc black grease between O-rings.
+2\. SRM 15-A 80 deg. arc black grease between O-rings. SRM 15-B 110 deg. arc black grease between O-rings.
 
 > 3. Lower O-ring squeeze due to lower temperature. 4. Higher O-ring Shore hardness. 5. Thicker grease viscosity. 6. Higher O-ring pressure activation time. 7. Activation time increases, threshold of secondary seal pressurization capability is approached. 8. If threshold is reached then secondary seal may not be capable of being pressurized.
 
@@ -6428,9 +6428,9 @@ SUBJECT: Weekly A c t i v i t y Report
 
 .. . - HELP! The seal task force I s constantly being delayed by every possible means. People are quoting policy and systems without work-around. HSFC i s correct i n stating t h a t we do not know how t o run a development program.
 
-1. The two (2) GTH center sepnents were recelved a t T-24 l a s t week. Optical measurements are being taken. Slgnlficant work has t o be done t o clean up the j o l n t s . I t should be noted t h a t when necessary SICBH takes p r l o r i ty.
+1\. The two (2) GTH center sepnents were recelved a t T-24 l a s t week. Optical measurements are being taken. Slgnlficant work has t o be done t o clean up the j o l n t s . I t should be noted t h a t when necessary SICBH takes p r l o r i ty.
 
-2. The On-6 t e s t report less composite section was released l a s t week.
+2\. The On-6 t e s t report less composite section was released l a s t week.
 
 ## ELECTRICAL
 
@@ -6448,11 +6448,11 @@ One SRM 25 and two SRH 26 segments along with two SRW 24 exit cones were complet
 
 ## IGNITION SYSTEM
 
-1. Engineering is currently rewriting igniter gask-o-seal coating requirements to allow minor flaws and scratches. Bare metal areas will be coated with a thin film of HD-2 grease. Approval is expected within the week. 2. Safe and Am Device component deliveries i s beginning to cause concern. There are five S M ' s at KSC on the shelf. Procurement, Program Office representatives visited Consolidated Controls to discuss accelerating scheduled deliveries. CCC has promised 10 Am's and 30 B-8's no later than 31 October 1985.
+1\. Engineering is currently rewriting igniter gask-o-seal coating requirements to allow minor flaws and scratches. Bare metal areas will be coated with a thin film of HD-2 grease. Approval is expected within the week. 2. Safe and Am Device component deliveries i s beginning to cause concern. There are five S M ' s at KSC on the shelf. Procurement, Program Office representatives visited Consolidated Controls to discuss accelerating scheduled deliveries. CCC has promised 10 Am's and 30 B-8's no later than 31 October 1985.
 
 ## O-RINGS AND PUTTY
 
-1. The short stack finally went together after repeated attempts, but one of the O-rings was cut. Efforts to separate the joint were stopped because some do not think they will work. Engineering is designing tools to separate the pieces. The prints should be released tomorrow. 2. The inert segments are at T-24 and are undergoing inspection. 3. The hot flow test rig i s in design, which is proving to be difficult. Engineering is planning release of these prints Wednesday or Thursday. 4. Various potential filler materials are on order s w h as carbon, graphite, quartz, and silica fiber braids; and different putties. They will all be tried in hot flow tests and full scale assembly tests. 5. The allegiance to the O-ring investigation task force is very limited to a group of engineers numbering 8-10. Our assigned people in manufacturing and quality have the desire, but are encumbered with other significant work. Others in manufacturing, quality, procurement who are not involved directly, but whose help we need, are generating plenty of resistance. We are creating more instructional paper than engineering I data. We wish we could get action by verbal request but such is not the case. This i s a red flag. . c-
+1\. The short stack finally went together after repeated attempts, but one of the O-rings was cut. Efforts to separate the joint were stopped because some do not think they will work. Engineering is designing tools to separate the pieces. The prints should be released tomorrow. 2. The inert segments are at T-24 and are undergoing inspection. 3. The hot flow test rig i s in design, which is proving to be difficult. Engineering is planning release of these prints Wednesday or Thursday. 4. Various potential filler materials are on order s w h as carbon, graphite, quartz, and silica fiber braids; and different putties. They will all be tried in hot flow tests and full scale assembly tests. 5. The allegiance to the O-ring investigation task force is very limited to a group of engineers numbering 8-10. Our assigned people in manufacturing and quality have the desire, but are encumbered with other significant work. Others in manufacturing, quality, procurement who are not involved directly, but whose help we need, are generating plenty of resistance. We are creating more instructional paper than engineering I data. We wish we could get action by verbal request but such is not the case. This i s a red flag. . c-
 
 A56
 
@@ -7958,11 +7958,11 @@ LOSS OF C A P A B I L I T Y TO FAILURE MODE AFFECTS ACCOMPLISIMENT OF M I S S I 
 
 > IOEIITIF IEO FAILURE). OR OEPLOYMENT OF A PAYLOAD.
 
-2. ABORT DECISION I F FAILURE OCCURS PRIOR TO ENTRY LOSS OF REOUNDANCY WHEREIN NEXT ASSOCIATED FAILURE U l L L
+2\. ABORT DECISION I F FAILURE OCCURS PRIOR TO ENTRY LOSS OF REOUNDANCY WHEREIN NEXT ASSOCIATED FAILURE U l L L
 
 > CONMITMEIIT. CAUSE LOSS OF CREW/VEtlICLE. EXAMPLES: APU/IIYO, ECLSS FUNCTIONS, POUER GENERATION.
 
-3. NONE - REDUNDANT SIMULTANEOUS MEANS AVAILABLE SIRULTANEOUS USAGE OF REOUNOANT MEANS TO PERFORM A TIME
+3\. NONE - REDUNDANT SIMULTANEOUS MEANS AVAILABLE SIRULTANEOUS USAGE OF REOUNOANT MEANS TO PERFORM A TIME
 
 TO - - - (SPECIFY FUIICTION TO BE PERFORMED.) CRITICAL FUtlCTlON
 
@@ -7970,15 +7970,15 @@ TO - - - (SPECIFY FUIICTION TO BE PERFORMED.) CRITICAL FUtlCTlON
 
 > DEVICES I N THE SEPARATION SYSTEM. Q, h3
 
-4. CONTINUE M I S S I O N - OUTY CYCLE SANE AS ABORT.
+4\. CONTINUE M I S S I O N - OUTY CYCLE SANE AS ABORT.
 
 tlOTE: YllEN DECISION IS TIME DEPENDENT: I
 
-5. ABORT AOA OR A T 0 I F FAILURE OCCURS DURING LOSS OF ONE OMS ENGINE PRECLUOES H I S S I O N COMPLETION.
+5\. ABORT AOA OR A T 0 I F FAILURE OCCURS DURING LOSS OF ONE OMS ENGINE PRECLUOES H I S S I O N COMPLETION.
 
 ASCENT PIIASE.
 
-6. ABORT UNLESS M l S S l O l l CAI4 B E COMPLETED Y!TII ONE MISSION 1 CAN BE COMPLETE0 I F ONE SSME SHUTS OOWN
+6\. ABORT UNLESS M l S S l O l l CAI4 B E COMPLETED Y!TII ONE MISSION 1 CAN BE COMPLETE0 I F ONE SSME SHUTS OOWN
 
 > SSME OUT. . BETUEEN 347.3 AllD 401.5 SECONDS OF ASCENT. MISSION 2 HAS NO ENGIIIE OUT M I S S I O N COMPLETION CAPABILITY.
 
@@ -8098,13 +8098,13 @@ Page 6 of 6
 
 > f. Controlled and released operational procedures. . g. Component FMEA's prepared by component suppliers.
 
-8. Failure of structural items (primary and secondary) w i l l not b e considered a s a part of this ananysis. (Structural items are assumed t o be designed t o preclude failure by use of adequate design Safety factors.[^1]
+8\. Failure of structural items (primary and secondary) w i l l not b e considered a s a part of this ananysis. (Structural items are assumed t o be designed t o preclude failure by use of adequate design Safety factors.[^1]
 
-9. mu's of c r i t i c a l i t y 1 o r 2 "black boxes' providing electrical Signal
+9\. mu's of c r i t i c a l i t y 1 o r 2 "black boxes' providing electrical Signal
 
 > interface t o mechanical components are included i n the applicable avionics FMEA package w i t h appropriate cross-referencing i n the 'REFERENCE DOWMENTS' sectlon of both the appropriate avionics and mechanical FMEA r e p o r t . where available.
 
-10. The failure mode "Fails t o Operate' w l l l not be addressed f o r fuses.
+10\. The failure mode "Fails t o Operate' w l l l not be addressed f o r fuses.
 
 > Use o f a fuse uith a higher current capacity then specified (wrong size Installed or rating misidentified) i s not considered a fuse f a i l u r e mode.
 
@@ -8122,7 +8122,7 @@ Standard Test Methods for
 
 Thls standard is issued under the fixed designation D 395; the number immedlately following the designation indicates the year of original adoption or. in the case of revision, the ywr of last revision. A number in parentheses indicate the year of last reappmval. A supersfript epsilon (6) indicates an editorial change s i n a the last revision or reapproval. Theremethod,dshave been approvedlor use by agenctesof the Deoortrnenr of Deknse andlilr lrsrinn in (he DoD Index of Spe~~Jicu~rons und Stondurds
 
-1. scope ments for Standards Related to Rubber and
+1\. scope ments for Standards Related to Rubber and
 
 1.1 These test methods cover the testing of Rubber Testing' rubber intended for use in applications in which D 3 182 Practice for Rubber-Materials, the rubber will be subjected to compressive Equipment, and Procedures for Mixing stresses in air or liquid media. They are applica- Standard Conipounds and Preparing Stand- ble particularly to the rubber used in machinery ard Vulcanized Sheets) mountings, vibration dampers, and seals. Two D 3 183 Practice for Rubber-Preparation of methods are covered as follows: Pieces for Test Purposes from Products'
 
@@ -8140,7 +8140,7 @@ I .5 This standard may involve hazardous ma- suitable compression device in whic
 
 Committee D-l I on Rubber and are the dtrect responsibility of
 
-2. I ASTM Standards: Sukommlttee DI I .[^10] on Physlcal Testing.
+2\. I ASTM Standards: Sukommlttee DI I .[^10] on Physlcal Testing.
 
 Current edltton approved Sept 27. 1985. Puhllshed Novem-
 
@@ -8160,7 +8160,7 @@ I
 
 > and 13.2 i 0.1 mm (0.52 0.004 in.) in diameter will provide Type 2 specimens for Method B.
 
-5. Test Specimens 5.4 When the standard test specimen is to be
+5\. Test Specimens 5.4 When the standard test specimen is to be
 
 5.1 Specimens from each sample may be replaced by a specimen taken from a vulcanized tested in duplicate (Option I ) or triplicate ( O p rubber part of greater thickness than the one tion 2). The compression set of the sample in indicated in 5.2. I , the sample thicknesr shall be Option I shall be the average of the two speci- reduced first by cutting transversely with a sharp mens, expressed as a percentage. The compres- knife and then followed by buffing to the required sion set of the sample in Option 2 shall be the thickness in accordance with Practic' D 3183. median (middle most value) of the three speci- 5.5 An alternative method of preparing spec- mens expressed as a percentage. imens is by plying up cylindrical disks cut from
 
@@ -8194,7 +8194,7 @@ METHOD A-COMPRESSION SET UNDER vision shall be made by the use of bolts and nuts
 
 7. Apparatus the external force is removed. The spring shall
 
-7. I Dial Micromeler-A dial micrometer, for have essentially the same characteristics as de- measuring specimen thickness, in accordance scribed in 7.2. I , but calibration is not required. with Practice 3767, Method A 1. A suitable compression device is shown in Fig. 7.2 Compression Device, consisting of a force 2. application spring and two parallel compression 7.3 flures-The plates between which the test platesassembled by means ofa frame or threaded specimen is compressed shall be made of steel of bolt in such a manner that the device shall be sufficient thickness to withstand the compressive portable and self-contained after the force has stresses without bending. The surfaces against been applied and that the parallelism of the plates which the specimen is held shall have a highly shall be maintained. The force may be applied in polished chromium-plated finish and shall be accordance with either 7.2. I or 7.2.2. cleaned thoroughly and wiped dry before each
+7\. I Dial Micromeler-A dial micrometer, for have essentially the same characteristics as de- measuring specimen thickness, in accordance scribed in 7.2. I , but calibration is not required. with Practice 3767, Method A 1. A suitable compression device is shown in Fig. 7.2 Compression Device, consisting of a force 2. application spring and two parallel compression 7.3 flures-The plates between which the test platesassembled by means ofa frame or threaded specimen is compressed shall be made of steel of bolt in such a manner that the device shall be sufficient thickness to withstand the compressive portable and self-contained after the force has stresses without bending. The surfaces against been applied and that the parallelism of the plates which the specimen is held shall have a highly shall be maintained. The force may be applied in polished chromium-plated finish and shall be accordance with either 7.2. I or 7.2.2. cleaned thoroughly and wiped dry before each
 
 7.2.1 Culibrured Spring Force Applicurion- test. The required force shall be applied by a screw 7.4 Oven, conforming to the specification for mechanism for compressing a calibrated spring a Type IIB laboratory oven given in Specification the proper amount. The spring shall be of E 145. properly heat-treated spring steel with ends ground and perpendicular to the longitudinal 8. Procedure axis of the spring. A suitable compression device 8.1 Original Thickness Measurement-Mea- is shown in Fig. I . The spring shall conform to sure the original thickness of the specimen to the the following requirements: nearest 0.02 mm (0.001 in.). Place the specimen @I D395 on the anvil of the dial micrometer so that the 9. Calculation presser foot will indicate the thickness at the 9.1 Calculate the compression set as a per- central portion of the top and bottom faces. centage of the original thickness as follows:
 
@@ -8232,7 +8232,7 @@ I 1.5 Plates-The plates between which the before making the measurement of the f
 
 12.2 Application of CompressiveForce-Place percentage of the original deflection, the test specimen between the plates of the com- r, = original thickness of specimen (12. I), pression device with the spacers on each side, I, = final thickness of specimen (12.3, and allowing sufficient clearance for the bulging of
 
-1. = thickness of the spacer bar used. the rubber when compressed (Fig. 3). Where a lubricant is applied, it shall consist of a thin NOTE5-Lubrication of the operating surfaces of coating of a lubricant having substantially no the compression device is optional while giving more action on the rubber. For most purposes, a silicon reproducible results, lubrication may somewhat alter the compression set values. or fluorosilicon fluid is suitable. Tighten the bolts so that the plates are drawn together uniformly until they are in contact with the spacers. The 14. Report amount of compression employed shall be a p 14.1 The report shall include the following: proximately 25 %. A suitable mechanical or hy- 14. I. I Original dimensions of the test speci- draulic device may be used to facilitate assem- men including the original thickness, fo, bling and disassembling the test fixture. 14.1.2 Percentage compression of the speci12.3 Test Time and Temperature-Choose a men actually employed, suitable temperature and time for the compres- 14.1.3 Thickness of the test specimen 30 min sion set, depending upon the conditions of the after removal from the clamp, ti, expected service. In comparative tests, use iden- 14. I .4 Type of test specimen used, together tical temperature and test periods. It is suggested with the time and temperature of test, that the test temperature be chosen from those 14. I .5 Whether or not the surfaces of the com- listed in Recommended Practice D 1349. Sug- pression device are lubricated. If they are, what gested test periods are 22 h and 70 h. The test type lubrication was used, specimen shall be at room temperature when 14. I .6 Compression set, expressed as a per- inserted in the compression device. Place the centage of the original deflection, assembled compression device in the oven within 14. I .7 Method used (Method B), and
+1\. = thickness of the spacer bar used. the rubber when compressed (Fig. 3). Where a lubricant is applied, it shall consist of a thin NOTE5-Lubrication of the operating surfaces of coating of a lubricant having substantially no the compression device is optional while giving more action on the rubber. For most purposes, a silicon reproducible results, lubrication may somewhat alter the compression set values. or fluorosilicon fluid is suitable. Tighten the bolts so that the plates are drawn together uniformly until they are in contact with the spacers. The 14. Report amount of compression employed shall be a p 14.1 The report shall include the following: proximately 25 %. A suitable mechanical or hy- 14. I. I Original dimensions of the test speci- draulic device may be used to facilitate assem- men including the original thickness, fo, bling and disassembling the test fixture. 14.1.2 Percentage compression of the speci12.3 Test Time and Temperature-Choose a men actually employed, suitable temperature and time for the compres- 14.1.3 Thickness of the test specimen 30 min sion set, depending upon the conditions of the after removal from the clamp, ti, expected service. In comparative tests, use iden- 14. I .4 Type of test specimen used, together tical temperature and test periods. It is suggested with the time and temperature of test, that the test temperature be chosen from those 14. I .5 Whether or not the surfaces of the com- listed in Recommended Practice D 1349. Sug- pression device are lubricated. If they are, what gested test periods are 22 h and 70 h. The test type lubrication was used, specimen shall be at room temperature when 14. I .6 Compression set, expressed as a per- inserted in the compression device. Place the centage of the original deflection, assembled compression device in the oven within 14. I .7 Method used (Method B), and
 
 %%page 6#3%%
 

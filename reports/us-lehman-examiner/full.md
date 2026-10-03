@@ -35,7 +35,7 @@ footnotes: 1785
 
 ## INTRODUCTION
 
-On January 29, 2008, Lehman Brothers Holdings Inc. ("LBHI"1) reported record revenues of nearly $60 billion and record earnings in excess of $4 billion for its fiscal year ending November 30, 2007.[^2] During January 2008, Lehman's stock traded as high as $65.73 per share and averaged in the high to mid‐fifties,[^3] implying a market capitalization of over $30 billion.[^4] Less than eight months later, on September 12, 2008, Lehman's stock closed under $4, a decline of nearly 95% from its January 2008 value.[^5] On September 15, 2008, LBHI sought Chapter 11 protection,[^6] in the largest bankruptcy proceeding ever filed.[^7]
+On January 29, 2008, Lehman Brothers Holdings Inc. ("LBHI"[^1]) reported record revenues of nearly $60 billion and record earnings in excess of $4 billion for its fiscal year ending November 30, 2007.[^2] During January 2008, Lehman's stock traded as high as $65.73 per share and averaged in the high to mid‐fifties,[^3] implying a market capitalization of over $30 billion.[^4] Less than eight months later, on September 12, 2008, Lehman's stock closed under $4, a decline of nearly 95% from its January 2008 value.[^5] On September 15, 2008, LBHI sought Chapter 11 protection,[^6] in the largest bankruptcy proceeding ever filed.[^7]
 
 There are many reasons Lehman failed, and the responsibility is shared. Lehman was more the consequence than the cause of a deteriorating economic climate. Lehman's financial plight, and the consequences to Lehman's creditors and shareholders, was exacerbated by Lehman executives, whose conduct ranged from serious but non‐culpable errors of business judgment to actionable balance sheet manipulation; by the investment bank business model, which rewarded excessive risk taking and leverage; and by Government agencies, who by their own admission might better have anticipated or mitigated the outcome.
 
@@ -57,7 +57,7 @@ Lehman required favorable ratings from the principal rating agencies to maintain
 
 %%page 6%%
 
-Lehman did not disclose, however, that it had been using an accounting device (known within Lehman as "Repo 105") to manage its balance sheet – by temporarily removing approximately $50 billion of assets from the balance sheet at the end of the first and second quarters of 2008.[^20] In an ordinary repo, Lehman raised cash by selling assets with a simultaneous obligation to repurchase them the next day or several days later; such transactions were accounted for as financings, and the assets remained on Lehman's balance sheet. In a Repo 105 transaction, Lehman did exactly the same thing, but because the assets were 105% or more of the cash received, accounting rules permitted the transactions to be treated as sales rather than financings, so that the assets could be removed from the balance sheet.[^21] With Repo 105 transactions, Lehman's reported net leverage was 12.1 at the end of the second quarter of 2008; but if Lehman had used ordinary repos, net leverage would have to have been reported at 13.9.22
+Lehman did not disclose, however, that it had been using an accounting device (known within Lehman as "Repo 105") to manage its balance sheet – by temporarily removing approximately $50 billion of assets from the balance sheet at the end of the first and second quarters of 2008.[^20] In an ordinary repo, Lehman raised cash by selling assets with a simultaneous obligation to repurchase them the next day or several days later; such transactions were accounted for as financings, and the assets remained on Lehman's balance sheet. In a Repo 105 transaction, Lehman did exactly the same thing, but because the assets were 105% or more of the cash received, accounting rules permitted the transactions to be treated as sales rather than financings, so that the assets could be removed from the balance sheet.[^21] With Repo 105 transactions, Lehman's reported net leverage was 12.1 at the end of the second quarter of 2008; but if Lehman had used ordinary repos, net leverage would have to have been reported at 13.9.[^22]
 
 %%page 7%%
 
@@ -99,7 +99,7 @@ Lehman no longer had sufficient liquidity to fund its daily operations.[^48] On 
 
 %%page 13%%
 
-Sorting out whether and the extent to which the financial upheaval that followed was the direct result of the Lehman bankruptcy filing is beyond the scope of the Examiner's investigation. But those events help put into context the significance of the Lehman filing. The Dow Jones index plunged 504 points on September 15.51 On September 16, AIG was on the verge of collapse; the Government intervened with a financial bailout package that ultimately cost about $182 billion.[^52] On September 16, 2008, the Primary Fund, a $62 billion money market fund, announced that – because of the loss it suffered on its exposure to Lehman – it had "broken the buck," i.e., its share price had fallen to less than $1 per share.[^53] On October 3, 2008, Congress passed a $700 billion Troubled Asset Relief Program ("TARP") rescue package.[^54]
+Sorting out whether and the extent to which the financial upheaval that followed was the direct result of the Lehman bankruptcy filing is beyond the scope of the Examiner's investigation. But those events help put into context the significance of the Lehman filing. The Dow Jones index plunged 504 points on September 15.[^51] On September 16, AIG was on the verge of collapse; the Government intervened with a financial bailout package that ultimately cost about $182 billion.[^52] On September 16, 2008, the Primary Fund, a $62 billion money market fund, announced that – because of the loss it suffered on its exposure to Lehman – it had "broken the buck," i.e., its share price had fallen to less than $1 per share.[^53] On October 3, 2008, Congress passed a $700 billion Troubled Asset Relief Program ("TARP") rescue package.[^54]
 
 %%page 14%%
 
@@ -129,7 +129,7 @@ Section (A) addresses the fifth, eighth and tenth bullets of the Examiner Order:
 
 > [Bullet 8] The transactions and transfers, including but not limited to the pledging or granting of collateral security interest among the debtors and the pre‐Chapter 11 lenders and/or financial participants including but not limited to, JPMorgan Chase, Citigroup, Inc., Bank of America, the Federal Reserve Bank of New York and others. Lehman failed because it was unable to retain the confidence of its lenders and
 
-counterparties and because it did not have sufficient liquidity to meet its current obligations. Lehman was unable to maintain confidence because a series of business decisions had left it with heavy concentrations of illiquid assets with deteriorating values such as residential and commercial real estate. Confidence was further eroded when it became public that attempts to form strategic partnerships to bolster its stability had failed.[^57] And confidence plummeted on two consecutive quarters with huge reported losses, $2.8 billion in second quarter 200858 and $3.9 billion in third quarter 2008,[^59] without news of any definitive survival plan.
+counterparties and because it did not have sufficient liquidity to meet its current obligations. Lehman was unable to maintain confidence because a series of business decisions had left it with heavy concentrations of illiquid assets with deteriorating values such as residential and commercial real estate. Confidence was further eroded when it became public that attempts to form strategic partnerships to bolster its stability had failed.[^57] And confidence plummeted on two consecutive quarters with huge reported losses, $2.8 billion in second quarter 2008[^58] and $3.9 billion in third quarter 2008,[^59] without news of any definitive survival plan.
 
 The business decisions that brought Lehman to its crisis of confidence may have been in error but were largely within the business judgment rule. But the decision not to disclose the effects of those judgments does give rise to colorable claims against the senior officers who oversaw and certified misleading financial statements – Lehman's CEO Richard S. Fuld, Jr., and its CFOs Christopher O'Meara, Erin M. Callan and Ian T. Lowitt. There are colorable claims against Lehman's external auditor Ernst & Young for, among other things, its failure to question and challenge improper or inadequate disclosures in those financial statements.
 
@@ -145,11 +145,11 @@ In 2007‐08, Lehman knew that net leverage numbers were critical to the rating 
 
 %%page 19%%
 
-Lehman defined materiality, for purposes of reopening a closed balance sheet, as "any item individually, or in the aggregate, that moves net leverage by 0.1 or more (typically $1.8 billion)."70 Lehman's use of Repo 105 moved net leverage not by tenths but by whole points:
+Lehman defined materiality, for purposes of reopening a closed balance sheet, as "any item individually, or in the aggregate, that moves net leverage by 0.1 or more (typically $1.8 billion)."[^70] Lehman's use of Repo 105 moved net leverage not by tenths but by whole points:
 
 %%page 20%%
 
-> Date Repo 105 Reported Net Difference Usage Net Leverage Leverage Without Repo 105 Q4 2007 $38.6 B71 16.172 17.873 1.7 Q1 2008 $49.1 B74 15.475 17.376 1.9 Q2 2008 $50.4 B77 12.178 13.979 1.8
+> Date Repo 105 Reported Net Difference Usage Net Leverage Leverage Without Repo 105 Q4 2007 $38.6 B[^71] 16.1[^72] 17.8[^73] 1.7 Q1 2008 $49.1 B[^74] 15.4[^75] 17.3[^76] 1.9 Q2 2008 $50.4 B[^77] 12.1[^78] 13.9[^79] 1.8
 
 Lehman's failure to disclose the use of an accounting device to significantly and temporarily lower leverage, at the same time that it affirmatively represented those
 
@@ -159,7 +159,7 @@ Lehman's true financial health.[^80] Colorable claims exist against the senior o
 
 %%page 21%%
 
-In May 2008, a Lehman Senior Vice President, Matthew Lee, wrote a letter to management alleging accounting improprieties;[^82] in the course of investigating the allegations, Ernst & Young was advised by Lee on June 12, 2008 that Lehman used $50 billion of Repo 105 transactions to temporarily move assets off balance sheet and quarter end.[^83] The next day ‐ on June 13, 2008 ‐ Ernst & Young met with the Lehman Board Audit Committee but did not advise it about Lee's assertions, despite an express direction from the Committee to advise on all allegations raised by Lee.84 Ernst & Young took virtually no action to investigate the Repo 105 allegations.[^85] Ernst & Young took no steps to question or challenge the non‐disclosure by Lehman of its use of $50 billion of temporary, off‐balance sheet transactions. Colorable claims exist that Ernst & Young did not meet professional standards, both in investigating Lee's allegations and in connection with its audit and review of Lehman's financial statements.[^86]
+In May 2008, a Lehman Senior Vice President, Matthew Lee, wrote a letter to management alleging accounting improprieties;[^82] in the course of investigating the allegations, Ernst & Young was advised by Lee on June 12, 2008 that Lehman used $50 billion of Repo 105 transactions to temporarily move assets off balance sheet and quarter end.[^83] The next day ‐ on June 13, 2008 ‐ Ernst & Young met with the Lehman Board Audit Committee but did not advise it about Lee's assertions, despite an express direction from the Committee to advise on all allegations raised by Lee.[^84] Ernst & Young took virtually no action to investigate the Repo 105 allegations.[^85] Ernst & Young took no steps to question or challenge the non‐disclosure by Lehman of its use of $50 billion of temporary, off‐balance sheet transactions. Colorable claims exist that Ernst & Young did not meet professional standards, both in investigating Lee's allegations and in connection with its audit and review of Lehman's financial statements.[^86]
 
 %%page 22%%
 
@@ -233,7 +233,7 @@ II. PROCEDURAL BACKGROUND AND NATURE OF THE EXAMINATION
 
 ### The Examiner's Authority
 
-On January 16, 2009, the United States Bankruptcy Court for the Southern District of New York entered an order directing the U.S. Trustee to nominate an Examiner, and outlining the subject matter of the Examiner's investigation (the "Examiner Order").100 The Examiner Order lists ten bulleted topics that the Examiner was to investigate and, further, mandates that the "Examiner shall perform the duties specified in sections 1106(a)(3) and (4) of the Bankruptcy Code [unless otherwise ordered.]"101 Under 11 U.S.C. § 1106(a)(3), the Examiner is to "investigate the acts, conduct, assets, liabilities, and financial condition of the debtor, the operation of the debtor's business and the desirability of the continuance of such business, and any other matter relevant to the case or to the formulation of a plan [unless ordered otherwise.]" Under 11 U.S.C. § 1106(a)(4), the Examiner must, inter alia, "file a statement of any investigation conducted . . . including any fact ascertained pertaining to fraud, dishonesty, incompetence, misconduct, mismanagement, or irregularity in the management of the affairs of the debtor, or to a cause of action available to the estate[.]"
+On January 16, 2009, the United States Bankruptcy Court for the Southern District of New York entered an order directing the U.S. Trustee to nominate an Examiner, and outlining the subject matter of the Examiner's investigation (the "Examiner Order").[^100] The Examiner Order lists ten bulleted topics that the Examiner was to investigate and, further, mandates that the "Examiner shall perform the duties specified in sections 1106(a)(3) and (4) of the Bankruptcy Code [unless otherwise ordered.]"[^101] Under 11 U.S.C. § 1106(a)(3), the Examiner is to "investigate the acts, conduct, assets, liabilities, and financial condition of the debtor, the operation of the debtor's business and the desirability of the continuance of such business, and any other matter relevant to the case or to the formulation of a plan [unless ordered otherwise.]" Under 11 U.S.C. § 1106(a)(4), the Examiner must, inter alia, "file a statement of any investigation conducted . . . including any fact ascertained pertaining to fraud, dishonesty, incompetence, misconduct, mismanagement, or irregularity in the management of the affairs of the debtor, or to a cause of action available to the estate[.]"
 
 %%page 29%%
 
@@ -477,7 +477,7 @@ Lehman continued and even intensified this high‐risk strategy after the onset 
 
 %%page 44%%
 
-While the decision to shift into long‐term investments was voluntary, market events pushed Lehman ever further from moving to storage. Lehman's primary mortgage origination subsidiaries, BNC Mortgage Inc. ("BNC") and Aurora Loan Services, LLC ("Aurora"), continued to originate subprime and other non‐prime mortgages to a greater extent than other mortgage originators, many of whom had recently gone out of business, or would soon do so.117 BNC's and Aurora's continued mortgage originations increased the volume of illiquid assets on Lehman's balance sheet – albeit unintentionally – because Lehman became unable to securitize and distribute these mortgages to third parties.[^118]
+While the decision to shift into long‐term investments was voluntary, market events pushed Lehman ever further from moving to storage. Lehman's primary mortgage origination subsidiaries, BNC Mortgage Inc. ("BNC") and Aurora Loan Services, LLC ("Aurora"), continued to originate subprime and other non‐prime mortgages to a greater extent than other mortgage originators, many of whom had recently gone out of business, or would soon do so.[^117] BNC's and Aurora's continued mortgage originations increased the volume of illiquid assets on Lehman's balance sheet – albeit unintentionally – because Lehman became unable to securitize and distribute these mortgages to third parties.[^118]
 
 Lehman's continued pursuit of this aggressive growth strategy, even in the face of the subprime crisis, was based on two important calculations by Lehman's management. First, like some other market participants, not to mention governmental officials, Lehman's management believed that the subprime crisis would not spread to other markets and to the economy generally.[^119] Second, Lehman's management believed that while other financial institutions were retrenching and reducing their risk profile, Lehman had the opportunity to pick up ground and improve its competitive position. Lehman had benefited from a similar "countercyclical growth strategy" during prior market dislocations, and its management believed it could similarly benefit from the subprime lending crisis.[^120] Lehman miscalculated. As Lehman's Chief Executive Officer ("CEO") Richard S. Fuld, Jr. later admitted, Lehman underestimated both the severity of the subprime crisis and the extent of the contagion to Lehman's other business lines.[^121]
 
@@ -507,7 +507,7 @@ Lehman had sophisticated policies, procedures, and metrics in place to estimate 
 
 %%page 49%%
 
-These risk limits and stress tests, however, did not impose legal requirements on management or prevent management and the Board from exceeding those limits if they chose to do so.134 The role of the risk limits and stress tests was to cause management to consider whether a particular investment or a broad business strategy was worth the risk it carried.[^135] In addition, Lehman used its risk management system to promote its capabilities to investors, rating agencies, and regulators.[^136] Lehman's management always retained the discretion to use its judgment to decide whether to pursue particular strategies or transactions.[^137]
+These risk limits and stress tests, however, did not impose legal requirements on management or prevent management and the Board from exceeding those limits if they chose to do so.[^134] The role of the risk limits and stress tests was to cause management to consider whether a particular investment or a broad business strategy was worth the risk it carried.[^135] In addition, Lehman used its risk management system to promote its capabilities to investors, rating agencies, and regulators.[^136] Lehman's management always retained the discretion to use its judgment to decide whether to pursue particular strategies or transactions.[^137]
 
 The Examiner did find that in pursuing its aggressive growth strategy, Lehman's management chose to disregard or overrule the firm's risk controls on a regular basis. The question whether there is a colorable claim that Lehman's senior officers breached their fiduciary duty of care focuses on facts relating to Lehman's acquisition of potentially illiquid investments in 2007 and the manner in which management used
 
@@ -565,7 +565,7 @@ The Examiner finds insufficient evidence of a breach of fiduciary duty by any Le
 
 %%page 56%%
 
-Delaware law permits directors to rely on management's reports and immunizes the directors from personal liability when they do so.155 Consequently, there is insufficient evidence to establish a colorable claim that Lehman's directors breached their duty to monitor Lehman's management of its risks.
+Delaware law permits directors to rely on management's reports and immunizes the directors from personal liability when they do so.[^155] Consequently, there is insufficient evidence to establish a colorable claim that Lehman's directors breached their duty to monitor Lehman's management of its risks.
 
 > ***** Although the Examiner does not find colorable claims against Lehman's senior
 
@@ -611,7 +611,7 @@ During 2006, Lehman's management decided to emphasize the storage business – u
 
 Lehman's management primarily focused on expanding three specific areas of principal investment: commercial real estate; leveraged loans; and private equity.
 
-Commercial real estate investments were considered a strong candidate for expansion because those investments had historically been a strength of the firm.[^161] Mark A. Walsh, Lehman's head of the Global Real Estate Group ("GREG"), was one of the most successful and trusted operators at the firm; management believed that Walsh could invest Lehman's capital wisely and could distribute any excess risk to other investors.[^162] The firm was even willing to make commercial real estate bridge equity investments – taking potentially riskier equity pieces of real estate investments – on the theory that the bridge equity, though riskier than the debt, could quickly be resold to third parties at a profit.[^163] Lehman was well paid for bridge equity in the commercial real estate business, and management believed that Walsh's distribution network minimized the risk that the firm would be unable to sell it.164
+Commercial real estate investments were considered a strong candidate for expansion because those investments had historically been a strength of the firm.[^161] Mark A. Walsh, Lehman's head of the Global Real Estate Group ("GREG"), was one of the most successful and trusted operators at the firm; management believed that Walsh could invest Lehman's capital wisely and could distribute any excess risk to other investors.[^162] The firm was even willing to make commercial real estate bridge equity investments – taking potentially riskier equity pieces of real estate investments – on the theory that the bridge equity, though riskier than the debt, could quickly be resold to third parties at a profit.[^163] Lehman was well paid for bridge equity in the commercial real estate business, and management believed that Walsh's distribution network minimized the risk that the firm would be unable to sell it.[^164]
 
 %%page 61%%
 
@@ -651,7 +651,7 @@ Lehman's principal investments in illiquid assets presented new and increased fo
 
 One of Lehman's major risk controls was stress testing. Historically, Lehman's stress testing had not been designed to encompass the risks posed to the firm by principal investments in real estate and private equity, because those positions previously made up a small portion of Lehman's portfolio.[^186] Lehman did not revise its stress testing to address its evolving business strategy.
 
-Lehman was required by the SEC187 to conduct some form of regular stress testing on its portfolio to quantify the catastrophic loss it could suffer over a defined period of time.[^188] Lehman ran a series of stress tests based on 13 or 14 different scenarios.[^189] Some of the scenarios were historical events, such as the 1987 stock market crash or the 1998 Russian financial crisis, while other scenarios were hypothesized by Lehman's risk managers.[^190] Lehman's management represented to its external constituents that regular and comprehensive stress tests "were performed to evaluate the potential P&L impact on the Firm's portfolio of abnormal yet plausible market conditions."[^191] Stress testing was designed to measure "tail risk" – a one in ten year type event.
+Lehman was required by the SEC[^187] to conduct some form of regular stress testing on its portfolio to quantify the catastrophic loss it could suffer over a defined period of time.[^188] Lehman ran a series of stress tests based on 13 or 14 different scenarios.[^189] Some of the scenarios were historical events, such as the 1987 stock market crash or the 1998 Russian financial crisis, while other scenarios were hypothesized by Lehman's risk managers.[^190] Lehman's management represented to its external constituents that regular and comprehensive stress tests "were performed to evaluate the potential P&L impact on the Firm's portfolio of abnormal yet plausible market conditions."[^191] Stress testing was designed to measure "tail risk" – a one in ten year type event.
 
 %%page 67%%
 
@@ -705,19 +705,19 @@ In late 2006, Lehman's management decided not to enforce the single transaction 
 
 %%page 75%%
 
-Like the decision to increase the firm‐wide risk appetite limit, the decision not to enforce the single transaction limit was controversial within Lehman's management. Alex Kirk, then head of Lehman's Credit Business, had primary responsibility for the leveraged loan business, thought that the single transaction limit was an important method of limiting the firm's risk on its leveraged loans.[^227] Antoncic also thought that the firm should continue to abide by the single transaction limit in part because the substantive terms of the leveraged loans were increasingly lopsided in favor of the private equity sponsors and unfavorable for the lending banks.[^228] Although Antoncic thought the firm should abide by the single transaction limit,[^229] Kirk and Antoncic were overruled by Fuld, Gregory, and McGee.230
+Like the decision to increase the firm‐wide risk appetite limit, the decision not to enforce the single transaction limit was controversial within Lehman's management. Alex Kirk, then head of Lehman's Credit Business, had primary responsibility for the leveraged loan business, thought that the single transaction limit was an important method of limiting the firm's risk on its leveraged loans.[^227] Antoncic also thought that the firm should continue to abide by the single transaction limit in part because the substantive terms of the leveraged loans were increasingly lopsided in favor of the private equity sponsors and unfavorable for the lending banks.[^228] Although Antoncic thought the firm should abide by the single transaction limit,[^229] Kirk and Antoncic were overruled by Fuld, Gregory, and McGee.[^230]
 
 %%page 76%%
 
 #### The Board's Approval of Lehman's Growth Strategy
 
-Lehman's Board fully embraced Lehman's growth strategy. In a January 2007 Board meeting, the directors were informed of the large increase in the risk appetite limit for fiscal 2007, and of the firm's intention to expand its footprint in principal investments, and they agreed with Lehman's senior officers that Lehman needed to take more risk in order to compete.[^231] All of the directors told the Examiner that they agreed with Lehman's growth strategy at the time it was undertaken.[^232].
+Lehman's Board fully embraced Lehman's growth strategy. In a January 2007 Board meeting, the directors were informed of the large increase in the risk appetite limit for fiscal 2007, and of the firm's intention to expand its footprint in principal investments, and they agreed with Lehman's senior officers that Lehman needed to take more risk in order to compete.[^231] All of the directors told the Examiner that they agreed with Lehman's growth strategy at the time it was undertaken.232.
 
 Although the periodic materials that the Finance and Risk Committee[^233] received about the firm's stress testing disclosed that tests were conducted on the firm's "trading portfolio" and "We subject both our trading and our counterparty portfolio to stress tests,"[^234] management did not inform the Finance and Risk Committee that many of the firm's commercial real estate and private equity investments were excluded from the firm's stress tests.[^235]
 
 %%page 77%%
 
-The omission was noted on January 29, 2008, when the Finance and Risk Committee received materials stating that "real estate owned and private equity" were excluded from the stress testing.[^236] No member of the Board who was asked by the Examiner about the issue recalled noticing this revised disclosure, and no member recalled Lehman's officers explaining it or otherwise bringing it to the attention of the Board.[^237] Some directors were not concerned about the exclusion of these investments from the stress testing, saying that the exclusions appeared reasonable at the time.[^238] However, one director said that if the exclusion was material, he would have wanted to know about it.239
+The omission was noted on January 29, 2008, when the Finance and Risk Committee received materials stating that "real estate owned and private equity" were excluded from the stress testing.[^236] No member of the Board who was asked by the Examiner about the issue recalled noticing this revised disclosure, and no member recalled Lehman's officers explaining it or otherwise bringing it to the attention of the Board.[^237] Some directors were not concerned about the exclusion of these investments from the stress testing, saying that the exclusions appeared reasonable at the time.[^238] However, one director said that if the exclusion was material, he would have wanted to know about it.[^239]
 
 %%page 78%%
 
@@ -753,7 +753,7 @@ In the second half of 2006, Lehman began to see the first cracks in the subprime
 
 %%page 83%%
 
-Lehman considered its residential mortgage securitization business to be a distribution business.[^264] Lehman had a vertically integrated residential mortgage business in which BNC originated subprime loans and Aurora originated Alt‐A loans, and Lehman itself securitized pools of those mortgages into residential mortgage‐ backed securities ("RMBS").265 BNC and Aurora were part of Lehman's Mortgage Capital Division, which originated residential mortgages, while FID was responsible for securitizing the mortgages.[^266] By selling the RMBS to investors, Lehman shifted the risks of the underlying mortgages to the investors.[^267] Lehman, however, bore the risk that it would not be able to securitize the mortgages or sell the RMBS.268 The mortgages that Lehman could not shift to third‐party investors through securitization were known as "retained interests."[^269]
+Lehman considered its residential mortgage securitization business to be a distribution business.[^264] Lehman had a vertically integrated residential mortgage business in which BNC originated subprime loans and Aurora originated Alt‐A loans, and Lehman itself securitized pools of those mortgages into residential mortgage‐ backed securities ("RMBS").[^265] BNC and Aurora were part of Lehman's Mortgage Capital Division, which originated residential mortgages, while FID was responsible for securitizing the mortgages.[^266] By selling the RMBS to investors, Lehman shifted the risks of the underlying mortgages to the investors.[^267] Lehman, however, bore the risk that it would not be able to securitize the mortgages or sell the RMBS.[^268] The mortgages that Lehman could not shift to third‐party investors through securitization were known as "retained interests."[^269]
 
 %%page 84%%
 
@@ -763,7 +763,7 @@ At the same time, Lehman's mortgage business experienced other troubling trends,
 
 %%page 85%%
 
-Because of these trends, Lehman tightened its subprime lending operations. In about August 2006, Lehman replaced BNC's CEO and also created a new executive position (filled by Thomas L. Wind) to oversee both BNC and Aurora operations.[^274] Wind and new BNC CEO Steven Skolnik initiated changes to BNC's underwriting guidelines and product mix.[^275] These changes included reduction in the size of one of BNC's leading lending programs, known as "80/20," in which BNC extended two separate loans to bring the borrower's loan‐to‐value ratio to 100% based only on income data as stated by the borrower.[^276] Production under the 80/20 program dropped by two thirds from 2005 to 2006, and BNC discontinued the program entirely in late March 2007.[^277] Yet even in early 2007, BNC was originating a substantial quantity of subprime mortgages (about $750 million worth during the month of February 2007, for example).278 Lehman did not discontinue subprime lending (as Lehman defined it) through BNC until its closure of BNC on August 22, 2007.[^279]
+Because of these trends, Lehman tightened its subprime lending operations. In about August 2006, Lehman replaced BNC's CEO and also created a new executive position (filled by Thomas L. Wind) to oversee both BNC and Aurora operations.[^274] Wind and new BNC CEO Steven Skolnik initiated changes to BNC's underwriting guidelines and product mix.[^275] These changes included reduction in the size of one of BNC's leading lending programs, known as "80/20," in which BNC extended two separate loans to bring the borrower's loan‐to‐value ratio to 100% based only on income data as stated by the borrower.[^276] Production under the 80/20 program dropped by two thirds from 2005 to 2006, and BNC discontinued the program entirely in late March 2007.[^277] Yet even in early 2007, BNC was originating a substantial quantity of subprime mortgages (about $750 million worth during the month of February 2007, for example).[^278] Lehman did not discontinue subprime lending (as Lehman defined it) through BNC until its closure of BNC on August 22, 2007.[^279]
 
 %%page 86%%
 
@@ -771,7 +771,7 @@ Lehman executives had different recollections concerning whether managers within
 
 %%page 87%%
 
-Even as Lehman was tightening standards on its subprime originations through BNC, Lehman was also using its Aurora subsidiary to expand its Alt‐A lending.[^282] Moreover, Aurora's Alt‐A lending reached borrowers of lesser credit quality than those who historically had been considered Alt‐A borrowers.[^283] The vehicle for that aspect of the Aurora business plan was the Mortgage Maker product.[^284] As Mortgage Maker expanded to more than half of Aurora's Alt‐A production by February 2007, many of Aurora's loans denominated as Alt‐A came more and more to resemble the subprime loans that Lehman was supposedly exiting by tightening origination standards at BNC.285
+Even as Lehman was tightening standards on its subprime originations through BNC, Lehman was also using its Aurora subsidiary to expand its Alt‐A lending.[^282] Moreover, Aurora's Alt‐A lending reached borrowers of lesser credit quality than those who historically had been considered Alt‐A borrowers.[^283] The vehicle for that aspect of the Aurora business plan was the Mortgage Maker product.[^284] As Mortgage Maker expanded to more than half of Aurora's Alt‐A production by February 2007, many of Aurora's loans denominated as Alt‐A came more and more to resemble the subprime loans that Lehman was supposedly exiting by tightening origination standards at BNC.[^285]
 
 By late January 2007, Lehman's residential mortgage analyst began to notice disturbing trends with respect to Aurora's Mortgage Maker program:
 
@@ -781,7 +781,7 @@ By late January 2007, Lehman's residential mortgage analyst began to notice dist
 
 At the same time, other participants in the Alt‐A industry were reporting default rates and late payment data that indicated that "[t]he credit deterioration [in Alt‐A] has been almost parallel to the one of the subprime market."[^287] Thus, while Aurora's mortgages were not as risky as subprime mortgages, Aurora's risk profile was increasing in much the same way as the risk in subprime mortgages.
 
-As a result of all these factors, Lehman's risk managers sometimes considered the Mortgage Maker loans to be distinct from Alt‐A mortgages, and described Mortgage Maker as Alt‐B.288 While the term Alt‐B was not an accepted term or categorization in the business, Lehman's managers occasionally used it as a way of differentiating the riskier mortgages in the Mortgage Maker program from what had more traditionally been considered Alt‐A mortgages, though not so risky as to merit the label subprime.[^289]
+As a result of all these factors, Lehman's risk managers sometimes considered the Mortgage Maker loans to be distinct from Alt‐A mortgages, and described Mortgage Maker as Alt‐B.[^288] While the term Alt‐B was not an accepted term or categorization in the business, Lehman's managers occasionally used it as a way of differentiating the riskier mortgages in the Mortgage Maker program from what had more traditionally been considered Alt‐A mortgages, though not so risky as to merit the label subprime.[^289]
 
 %%page 89%%
 
@@ -811,7 +811,7 @@ The presentation did not discuss Aurora's Alt‐A mortgage originations at all, 
 
 %%page 93%%
 
-Sherr, Janulis, and Harber told the Examiner that they did not include a specific reference to Mortgage Maker or Alt‐B in their presentation because they believed that the loans in the Mortgage Maker program were distinct from subprime mortgages, which were the subject of the presentation.[^310] The Lehman risk analyst who had studied the performance issues in Mortgage Maker told the Examiner that leaving Mortgage Maker out of a presentation on subprime was proper given the differences between what Lehman considered subprime (FICO scores below 620) and Mortgage Maker (average FICO score of 691).311
+Sherr, Janulis, and Harber told the Examiner that they did not include a specific reference to Mortgage Maker or Alt‐B in their presentation because they believed that the loans in the Mortgage Maker program were distinct from subprime mortgages, which were the subject of the presentation.[^310] The Lehman risk analyst who had studied the performance issues in Mortgage Maker told the Examiner that leaving Mortgage Maker out of a presentation on subprime was proper given the differences between what Lehman considered subprime (FICO scores below 620) and Mortgage Maker (average FICO score of 691).[^311]
 
 After the Board presentation, Lehman continued to originate subprime and especially Alt‐A/Alt‐B mortgage loans, thereby pursuing its countercyclical strategy, and likely exacerbating Lehman's residential mortgage losses. The Examiner's financial advisors have estimated the losses from residential mortgage positions from the first quarter of 2007 through the third quarter of 2008 at $7.4 billion.[^312]
 
@@ -825,11 +825,11 @@ These losses were tempered by effective hedging strategies through at least 2007
 
 During the first half of fiscal 2007, the high yield market was active, notwithstanding the onset of the crisis in the subprime residential mortgage market.[^318] Like other market actors during this period, Lehman participated in more leveraged finance deals than ever before and entered into deals that were generally bigger than the leveraged finance deals it had done in the past.[^319] Compared to its competitors, Lehman was the most aggressive lender per dollar of shareholder equity in the first half of 2007.[^320]
 
-Lehman continued down this path despite the fact that the terms of these deals became less and less favorable over time from an investment banking perspective. Because there was so much competition to finance these loans, sponsors were able to negotiate terms that significantly increased the risk to the banks. For example, according to some estimates, covenant light loans – loans that did not include previously standard covenants requiring the borrower to maintain certain levels of collateral, cash flow, and payment terms – increased from less than 1% of all leveraged loans in 2004 to over 18% by 2007 industry‐wide.[^321] Lenders such as Lehman also abandoned certain contractual protections (e.g., material adverse change provisions ("MACs"), up‐front syndication, and joint liability) that were previously standard in the leveraged loan industry.[^322] In some deals, Lehman was the only party to sign the legal documents, even though other banks were intended to commit to the loans; thus, Lehman initially bore all the risk.[^323] As of March 2007, the rating agencies "perceived loosening of [Lehman's] risk standards – particularly in leveraged lending. . . ."324 The Examiner has not investigated whether the contractual terms of Lehman's leveraged lending transactions were more aggressive than those of its competitors.
+Lehman continued down this path despite the fact that the terms of these deals became less and less favorable over time from an investment banking perspective. Because there was so much competition to finance these loans, sponsors were able to negotiate terms that significantly increased the risk to the banks. For example, according to some estimates, covenant light loans – loans that did not include previously standard covenants requiring the borrower to maintain certain levels of collateral, cash flow, and payment terms – increased from less than 1% of all leveraged loans in 2004 to over 18% by 2007 industry‐wide.[^321] Lenders such as Lehman also abandoned certain contractual protections (e.g., material adverse change provisions ("MACs"), up‐front syndication, and joint liability) that were previously standard in the leveraged loan industry.[^322] In some deals, Lehman was the only party to sign the legal documents, even though other banks were intended to commit to the loans; thus, Lehman initially bore all the risk.[^323] As of March 2007, the rating agencies "perceived loosening of [Lehman's] risk standards – particularly in leveraged lending. . . ."[^324] The Examiner has not investigated whether the contractual terms of Lehman's leveraged lending transactions were more aggressive than those of its competitors.
 
 %%page 96%%
 
-Between December 2006 and June 2007, Lehman participated in more than 11 leveraged buyout deals that each exceeded $5 billion.[^325] By April 2007, Lehman had approximately 70 high yield contingent commitments in its pipeline – a record number for it.326 In June 2007, Lehman's lending pace had already doubled Lehman's 2006 record‐setting year for high grade and high yield combined.[^327]
+Between December 2006 and June 2007, Lehman participated in more than 11 leveraged buyout deals that each exceeded $5 billion.[^325] By April 2007, Lehman had approximately 70 high yield contingent commitments in its pipeline – a record number for it.[^326] In June 2007, Lehman's lending pace had already doubled Lehman's 2006 record‐setting year for high grade and high yield combined.[^327]
 
 %%page 97%%
 
@@ -851,7 +851,7 @@ Lehman's management made a conscious decision to exceed the risk appetite limits
 
 %%page 100%%
 
-> the majority of the trading businesses focus is on revenues, with balance sheet, risk limit, capital or cost implications being a secondary concern. The fact that they haven't heard that those items matter [in] public forums from senior management recently reinforces this revenue oriented behavior implicitly. . . . Example which we've debated for years: was even a topic in [the Turnberry meeting in] FLA: Do we or don't we have a limit on how much HY LBO related lending/commitment exposure we can have at any given time? There has been no real "one firm" outcome to date in my opinion. I'm not the only one who has this view in FID.343
+> the majority of the trading businesses focus is on revenues, with balance sheet, risk limit, capital or cost implications being a secondary concern. The fact that they haven't heard that those items matter [in] public forums from senior management recently reinforces this revenue oriented behavior implicitly. . . . Example which we've debated for years: was even a topic in [the Turnberry meeting in] FLA: Do we or don't we have a limit on how much HY LBO related lending/commitment exposure we can have at any given time? There has been no real "one firm" outcome to date in my opinion. I'm not the only one who has this view in FID.[^343]
 
 #### Internal Opposition to Growth of Leveraged Loans Business
 
@@ -879,13 +879,13 @@ Fuld believed that FID and Gelband were not opposed to Lehman expanding its leve
 
 #### Growth of Lehman's Commercial Real Estate Business at The Start of the Subprime Crisis
 
-At the same time that Lehman was rapidly growing its leveraged loan business, Lehman also dramatically increased its commercial real estate transactions. Lehman almost doubled GREG's balance sheet limit from $36.5 billion in the first quarter 2007 to $60.5 billion in the first quarter 2008, with GREG regularly exceeding its balance sheet limits.[^360] For instance, GREG exceeded its balance sheet limit by approximately $600 million in the third quarter 2007 ($56.6 billion balance sheet usage); by approximately $3.8 billion in the fourth quarter 2007 ($64.3 billion balance sheet usage); and by approximately $5.2 billion in the first quarter 2008 ($65.7 billion balance sheet usage).361 In addition, between the second quarter of 2006 and the second quarter of 2007, Lehman's real estate bridge equity positions in the United States increased ten‐fold, from $116 million to $1.33 billion, and then doubled to more than $3 billion by the end of the second quarter of 2008.[^362]
+At the same time that Lehman was rapidly growing its leveraged loan business, Lehman also dramatically increased its commercial real estate transactions. Lehman almost doubled GREG's balance sheet limit from $36.5 billion in the first quarter 2007 to $60.5 billion in the first quarter 2008, with GREG regularly exceeding its balance sheet limits.[^360] For instance, GREG exceeded its balance sheet limit by approximately $600 million in the third quarter 2007 ($56.6 billion balance sheet usage); by approximately $3.8 billion in the fourth quarter 2007 ($64.3 billion balance sheet usage); and by approximately $5.2 billion in the first quarter 2008 ($65.7 billion balance sheet usage).[^361] In addition, between the second quarter of 2006 and the second quarter of 2007, Lehman's real estate bridge equity positions in the United States increased ten‐fold, from $116 million to $1.33 billion, and then doubled to more than $3 billion by the end of the second quarter of 2008.[^362]
 
 %%page 104%%
 
 GREG's balance sheet growth was largely the result of a series of large transactions that Lehman concluded between May 2007 and November 2007. Each of the following deals increased the balance sheet by over $1 billion in the respective months:[^363]
 
-> ● May 2007, $2.0 billion – Lehman financing to Broadway Partners to acquire a sub‐portfolio of Beacon Capital Strategic Partners III, LP.364 ● May 2007, $1.3 billion – Lehman financing to Broadway Real Estate Partners to acquire 237 Park Avenue.[^365] ● June 2007, $1.2 billion – Lehman financing to Apollo Investment Corp. for a take private of Innkeepers USA Trust;[^366] ● June 2007, $1.1 billion – Lehman financing to Thomas Properties Group to acquire the EOP Austin portfolio;[^367]
+> ● May 2007, $2.0 billion – Lehman financing to Broadway Partners to acquire a sub‐portfolio of Beacon Capital Strategic Partners III, LP.[^364] ● May 2007, $1.3 billion – Lehman financing to Broadway Real Estate Partners to acquire 237 Park Avenue.[^365] ● June 2007, $1.2 billion – Lehman financing to Apollo Investment Corp. for a take private of Innkeepers USA Trust;[^366] ● June 2007, $1.1 billion – Lehman financing to Thomas Properties Group to acquire the EOP Austin portfolio;[^367]
 
 %%page 105%%
 
@@ -895,7 +895,7 @@ Because Lehman encountered subsequent difficulties in selling or securitizing po
 
 #### Relaxation of Risk Controls to Accommodate Growth of Lehman's Commercial Real Estate Business
 
-As with the growth of the leveraged loan business, the growth of the commercial real estate business was facilitated first by an increase in the risk limits and then by a decision to exceed those limits. In a May 9, 2006 e‐mail to Umezaki, Paul A. Hughson, GREG's Head of Credit Distribution, inquired as to how risk limits meshed with GREG's plans to "expand our business in Asia, Europe and our bridge equity business globally. I specifically wanted to focus on how we can grow Asia and bridge equity, given the risk limits . . . ."375 Several months later, in September 2006, in an e‐mail to Walsh, Jeffrey Goodman, (senior‐most risk manager for FID directly responsible for GREG) stated that he "wanted to followup on a conversation I had with [G]elband a while back concerning a push (from Goldfarb et al) to take on more risk in RE (double your size?) and get your view on what is realistic to expect and where you see this in the approval process internally."[^376]
+As with the growth of the leveraged loan business, the growth of the commercial real estate business was facilitated first by an increase in the risk limits and then by a decision to exceed those limits. In a May 9, 2006 e‐mail to Umezaki, Paul A. Hughson, GREG's Head of Credit Distribution, inquired as to how risk limits meshed with GREG's plans to "expand our business in Asia, Europe and our bridge equity business globally. I specifically wanted to focus on how we can grow Asia and bridge equity, given the risk limits . . . ."[^375] Several months later, in September 2006, in an e‐mail to Walsh, Jeffrey Goodman, (senior‐most risk manager for FID directly responsible for GREG) stated that he "wanted to followup on a conversation I had with [G]elband a while back concerning a push (from Goldfarb et al) to take on more risk in RE (double your size?) and get your view on what is realistic to expect and where you see this in the approval process internally."[^376]
 
 %%page 106%%
 
@@ -915,11 +915,11 @@ Nevertheless, by late 2007, Lehman acquired a number of substantial bridge equit
 
 #### Lehman's Commitment
 
-The enormous growth of Lehman's commercial real estate balance sheet culminated in Lehman's commitment to participate in an approximately $22 billion joint venture with Tishman Speyer for the acquisition of the publicly‐held Archstone REIT.390 Including units under construction, Archstone owned over 88,000 apartments, which were spread across more than 340 communities within the United States.[^391] Mark Walsh was the driving force behind this deal, but Fuld and Gregory strongly supported it as well.[^392]
+The enormous growth of Lehman's commercial real estate balance sheet culminated in Lehman's commitment to participate in an approximately $22 billion joint venture with Tishman Speyer for the acquisition of the publicly‐held Archstone REIT.[^390] Including units under construction, Archstone owned over 88,000 apartments, which were spread across more than 340 communities within the United States.[^391] Mark Walsh was the driving force behind this deal, but Fuld and Gregory strongly supported it as well.[^392]
 
 %%page 109%%
 
-On May 2, 2007, Lehman and Tishman Speyer provided a non‐binding letter to acquire all outstanding shares of Archstone for $64 per share, subject to confirmatory due diligence.[^393] After negotiating a price of $60.75 per share and executing a plan of merger,[^394] the parties announced the deal publicly on May 29, 2007.[^395] The deal was originally scheduled to close before August 31.396
+On May 2, 2007, Lehman and Tishman Speyer provided a non‐binding letter to acquire all outstanding shares of Archstone for $64 per share, subject to confirmatory due diligence.[^393] After negotiating a price of $60.75 per share and executing a plan of merger,[^394] the parties announced the deal publicly on May 29, 2007.[^395] The deal was originally scheduled to close before August 31.[^396]
 
 Lehman's Executive Committee required Walsh to find partners to reduce Lehman's risk in the deal. Bank of America Corporation ("BofA") agreed to fund half of the floating rate bank loan and junior mezzanine loan, and to purchase half the bridge equity.[^397] Barclays Capital Inc. ("Barclays") signed a participation agreement to take 15% of the bridge equity and 15% of the debt in the Archstone deal, and then, on July 2, 2007, amended the agreement to take 25% of the debt.[^398] Barclays' commitments came out of BofA's share of the debt and equity, and thus did not affect Lehman's exposure to Archstone.[^399]
 
@@ -987,11 +987,11 @@ This Section discusses the concerns of Lehman's managers about the state of the 
 
 Nagioff began to discuss rolling back the growth of the firm's leveraged loan business as soon as he became head of FID on May 2, 2007, but this decision was not fully effectuated until August 2007, by which time Lehman's leveraged loan exposure had grown to $35.8 billion as a result of $25.4 billion in new commitments.[^433]
 
-Nagioff learned about the size of Lehman's leveraged loan exposures from Kirk, then Head of Global Credit Products.[^434] Lehman's leveraged loan business was "so gargantuan – the exposures jumped out at [him]."435 Nagioff and Kirk believed that this was "banker business, not broker business," which Lehman did not have the balance sheet to support.[^436] Nagioff also thought that the chance of a sudden market downturn was high, and that Lehman was making relatively small profits for taking increasingly large and illiquid risks.[^437] Nagioff was concerned because the tail risk of Lehman's leveraged loan business totaled billions of dollars.[^438]
+Nagioff learned about the size of Lehman's leveraged loan exposures from Kirk, then Head of Global Credit Products.[^434] Lehman's leveraged loan business was "so gargantuan – the exposures jumped out at [him]."[^435] Nagioff and Kirk believed that this was "banker business, not broker business," which Lehman did not have the balance sheet to support.[^436] Nagioff also thought that the chance of a sudden market downturn was high, and that Lehman was making relatively small profits for taking increasingly large and illiquid risks.[^437] Nagioff was concerned because the tail risk of Lehman's leveraged loan business totaled billions of dollars.[^438]
 
 %%page 120%%
 
-Nagioff also had broader concerns about the state of the credit markets. These concerns were shared by others outside Lehman and by several of Nagioff's senior colleagues, who believed that Lehman was operating in a "credit bubble."[^439] Months later, Antoncic, for example, reflected back on the general consensus that the markets were in trouble: "every one saw the train wreck coming. 64k question is why didn't anyone get out of the way???"440
+Nagioff also had broader concerns about the state of the credit markets. These concerns were shared by others outside Lehman and by several of Nagioff's senior colleagues, who believed that Lehman was operating in a "credit bubble."[^439] Months later, Antoncic, for example, reflected back on the general consensus that the markets were in trouble: "every one saw the train wreck coming. 64k question is why didn't anyone get out of the way???"[^440]
 
 Although Nagioff's concerns were shared by several others, Nagioff believed that it would be difficult to curtail Lehman's leveraged loan business, because McGee's IBD, which had championed expansion of this business from the start, had to authorize the change.[^441] Moreover, Lehman had many deals in the pipeline, and those deals were supporting "100 bankers."[^442] To make matters worse, Kirk believed that Gelband had been relieved of his position partly as a result of his opposition to the leveraged loan business; Nagioff believed that he would only get one chance to convince Fuld that this business had to be stopped.[^443]
 
@@ -1029,7 +1029,7 @@ When Nagioff learned about these concerns, he wrote Ian T. Lowitt, Lehman's then
 
 Nagioff responded: "Last paragraph applies to firm broadly."[^463]
 
-Lowitt traced Lehman's difficulty in funding its commitments directly to its failure to abide by its risk limits, as Lowitt wrote to O'Meara in a later e‐mail on July 20, 2007: "In case we ever forget; this is why one has concentration limits and overall portfolio limits. Markets do seize up."464
+Lowitt traced Lehman's difficulty in funding its commitments directly to its failure to abide by its risk limits, as Lowitt wrote to O'Meara in a later e‐mail on July 20, 2007: "In case we ever forget; this is why one has concentration limits and overall portfolio limits. Markets do seize up."[^464]
 
 To deal with these concerns on a "war footing," Lowitt, O'Meara, Kirk, Umezaki, and Paolo R. Tonucci, (Lehman's Global Treasurer), set up an Asset‐Liability Committee ("ALCO") so that FID and Lehman's Treasury Department could "manage [the firm's] liquidity on a daily basis."[^465] Prior to the formation of ALCO, Lehman's Treasury Department relied on pipeline reports from the businesses.[^466] ALCO convened frequent meetings from August 2007 through February 2008,[^467] and began to track and monitor more closely the firm's monthly projections for cash capital and maximum cumulative outflow.
 
@@ -1055,11 +1055,11 @@ Because of the funding concerns, Lehman delayed the closing on Archstone from th
 
 In the midst of the market deterioration, an analyst at Citigroup issued an analyst report entitled "Archstone Smith Trust (ASN): Could the Buyers Cut Their Losses and Walk Away?"[^482] The report suggested that Lehman, BofA, and Barclays might be better off walking away from the Archstone deal and paying the $1.5 billion breakup fee, rather than closing the deal at a significant loss.[^483]
 
-While the report and a Wall Street Journal article discussing it were widely read at Lehman,[^484] Lehman never seriously considered walking away from the deal.[^485] One reason Lehman was comfortable proceeding with the deal was that Lehman was ultimately able to sell approximately $2.09 billion in Archstone debt to Freddie Mac,486 and another $7.1 billion of Archstone debt to Fannie Mae.487 During the same time period, however, Lehman and its partners were able to sell only $71 million of the deal's $4.6 billion in bridge equity.[^488]
+While the report and a Wall Street Journal article discussing it were widely read at Lehman,[^484] Lehman never seriously considered walking away from the deal.[^485] One reason Lehman was comfortable proceeding with the deal was that Lehman was ultimately able to sell approximately $2.09 billion in Archstone debt to Freddie Mac,[^486] and another $7.1 billion of Archstone debt to Fannie Mae.[^487] During the same time period, however, Lehman and its partners were able to sell only $71 million of the deal's $4.6 billion in bridge equity.[^488]
 
 %%page 130%%
 
-The Archstone deal closed on October 5, 2007.[^489] As of October 12, 2007, Lehman's total Archstone exposure was approximately $6 billion, $2.39 billion of which was in the riskiest equity portions of the deal (permanent equity and bridge equity portions):490
+The Archstone deal closed on October 5, 2007.[^489] As of October 12, 2007, Lehman's total Archstone exposure was approximately $6 billion, $2.39 billion of which was in the riskiest equity portions of the deal (permanent equity and bridge equity portions):[^490]
 
 > Permanent equity $250 million Bridge equity $2.14 billion Mezzanine loan $240 million Term loan $2.47 billion Senior debt $850 million
 
@@ -1095,17 +1095,17 @@ ALCO continued to have serious concerns about Lehman's cash capital and liquidit
 
 On the day that Archstone closed, Tonucci informed O'Meara that Lehman was "looking at being $1‐2 [billion] short [in equity]…should not really be surprised."[^508] Moreover, the firm's cash capital projections for the end of October went negative immediately after the firm closed on Archstone.[^509]
 
-A draft presentation on the firm's equity adequacy dated October 2007 was prepared for the Executive Committee shortly after the exchange between O'Meara and Tonucci.[^510] O'Meara was slated to be the presenter.[^511] The presentation concluded that the firm's capital adequacy over the last five to six quarters had "materially deteriorated."[^512] Lehman was at the bottom of its peer range with respect to the regulatory requirement of a minimum 10% total capital ratio imposed by the SEC.513 The equity adequacy framework illustrated how the firm's capital position decreased from a $7.2 billion surplus in the beginning of 2006 to a $42 million deficit at the end of the third quarter of 2007.[^514] The Examiner was unable to find a final version of this presentation, and was unable to determine if the presentation ever was given. Fuld said that he was not aware of the information contained in the presentation, and if he had been, he would have been able to resolve the situation.[^515]
+A draft presentation on the firm's equity adequacy dated October 2007 was prepared for the Executive Committee shortly after the exchange between O'Meara and Tonucci.[^510] O'Meara was slated to be the presenter.[^511] The presentation concluded that the firm's capital adequacy over the last five to six quarters had "materially deteriorated."[^512] Lehman was at the bottom of its peer range with respect to the regulatory requirement of a minimum 10% total capital ratio imposed by the SEC.[^513] The equity adequacy framework illustrated how the firm's capital position decreased from a $7.2 billion surplus in the beginning of 2006 to a $42 million deficit at the end of the third quarter of 2007.[^514] The Examiner was unable to find a final version of this presentation, and was unable to determine if the presentation ever was given. Fuld said that he was not aware of the information contained in the presentation, and if he had been, he would have been able to resolve the situation.[^515]
 
 %%page 136%%
 
-The deterioration of Lehman's capital was also apparent from the decline in its total capital ratio from 18.2% in early 2006 to 10.5% in August 2007.[^516] The industry high in August 2007 was 18.7%.517 From August to November 2007, Lehman posted the lowest total capital ratio in the industry.[^518] The firm was at or near its SEC‐imposed 10% requirement for six months in 2007‐2008.[^519] On three separate occasions, Lehman had at least a concern that the total capital ratio would fall below the 10% requirement.[^520]
+The deterioration of Lehman's capital was also apparent from the decline in its total capital ratio from 18.2% in early 2006 to 10.5% in August 2007.[^516] The industry high in August 2007 was 18.7%.[^517] From August to November 2007, Lehman posted the lowest total capital ratio in the industry.[^518] The firm was at or near its SEC‐imposed 10% requirement for six months in 2007‐2008.[^519] On three separate occasions, Lehman had at least a concern that the total capital ratio would fall below the 10% requirement.[^520]
 
 %%page 137%%
 
 The SEC expected Lehman to notify it if the total capital ratio fell below or was expected to fall below the 10% requirement, but Lehman did not do so.521 Tonucci told the SEC that Lehman was "comfortable" with landing close to the 10% limit at the end of the year "given how difficult it is to issue right now."[^522]
 
-The dominant cause for the rapid decline in Lehman's equity position was a shift in the firm's asset mix to illiquid assets, including high yield loans, real estate, and principal investments.[^523] From November 2006 to August 2007, the firm's illiquid holdings grew by 72%, while "Tier 1 capital grew by only 26%."524
+The dominant cause for the rapid decline in Lehman's equity position was a shift in the firm's asset mix to illiquid assets, including high yield loans, real estate, and principal investments.[^523] From November 2006 to August 2007, the firm's illiquid holdings grew by 72%, while "Tier 1 capital grew by only 26%."[^524]
 
 %%page 138%%
 
@@ -1181,7 +1181,7 @@ Firm‐wide Usage Firm‐wide Limit
 
 Both the Finance and Risk Committee and the full Board were apprised of
 
-Lehman's risk exposure to high yield bonds and leveraged loan.[^548] O'Meara discussed with the Committee the "comprehensive risk framework for high‐yield debt products" and referred to Lehman's "extensive risk controls," spanning the approval process through post‐closing.[^549] O'Meara told the Finance and Risk Committee that Lehman had a disciplined approach to risk mitigation through syndication, outright sales, sale through silent partner participation, and single‐name and macro hedging.[^550] A chart that accompanied his presentation shows that Lehman's "macro hedges" reduced Lehman's "HY Closed Loan Net Exposure" by approximately 20%.551
+Lehman's risk exposure to high yield bonds and leveraged loan.[^548] O'Meara discussed with the Committee the "comprehensive risk framework for high‐yield debt products" and referred to Lehman's "extensive risk controls," spanning the approval process through post‐closing.[^549] O'Meara told the Finance and Risk Committee that Lehman had a disciplined approach to risk mitigation through syndication, outright sales, sale through silent partner participation, and single‐name and macro hedging.[^550] A chart that accompanied his presentation shows that Lehman's "macro hedges" reduced Lehman's "HY Closed Loan Net Exposure" by approximately 20%.[^551]
 
 %%page 145%%
 
@@ -1257,7 +1257,7 @@ Management provided the Finance and Risk Committee with an overview of Lehman's 
 
 %%page 155%%
 
-At the Finance and Risk Committee meeting, management reviewed Lehman's monthly stress tests and scenario analyses.[^596] Stress tests indicated a worst‐case loss of $3.2 billion.[^597] Management did not inform the Committee of a new "Credit Crunch" scenario that was added to Lehman's portfolio of stress testing scenarios in October 2007 that predicted the worst loss of all the scenarios, with a loss of $3.99 billion (although early drafts of the presentation did include the scenario).598
+At the Finance and Risk Committee meeting, management reviewed Lehman's monthly stress tests and scenario analyses.[^596] Stress tests indicated a worst‐case loss of $3.2 billion.[^597] Management did not inform the Committee of a new "Credit Crunch" scenario that was added to Lehman's portfolio of stress testing scenarios in October 2007 that predicted the worst loss of all the scenarios, with a loss of $3.99 billion (although early drafts of the presentation did include the scenario).[^598]
 
 At these January meetings, Lehman's management also recommended the new risk appetite limit to the Board.[^599] The directors were generally not aware or did not recall any discussion regarding the adjustments of the risk appetite calculation.[^600] Two of the directors said that they would have wanted to know about significant changes in the methodology.[^601] However, Lehman's managers told the Board that the $21 billion revenue projection was "very aggressive," and the Board had an extended discussion of the impact of potentially lower revenues on Lehman's business.[^602]
 
@@ -1265,7 +1265,7 @@ At these January meetings, Lehman's management also recommended the new risk app
 
 #### Executive Turnover
 
-In January 2008, Nagioff decided for personal reasons to resign as global head of FID.603 In addition, that month, Alex Kirk, co‐chief operating officer of FID since October 2007, left Lehman. Kirk agreed with Fuld that he would leave Lehman at about the same time.[^604]
+In January 2008, Nagioff decided for personal reasons to resign as global head of FID.[^603] In addition, that month, Alex Kirk, co‐chief operating officer of FID since October 2007, left Lehman. Kirk agreed with Fuld that he would leave Lehman at about the same time.[^604]
 
 %%page 157%%
 
@@ -1281,7 +1281,7 @@ Later in October, in advance of a planned conversation with the Executive Commit
 
 When Erin M. Callan became CFO on December 1, 2007, one of her objectives was to reduce balance sheet, particularly in the areas of residential and commercial real estate.[^610] Fuld decided during the December 2007 holiday season that it was time to pursue an aggressive reduction of Lehman's risk profile.[^611]
 
-Lehman did not aggressively pursue these reductions for several months, however. According to Callan, she had discussions with Fuld and Gregory about reducing balance sheet in January and February 2008, but "didn't get traction quickly on it."612 Between the fourth quarter of 2007 and the first quarter of 2008, Lehman's gross and net assets actually increased from $691 billion to $786 billion, and from $373 billion to $397 billion, respectively.[^613] In addition, FID exceeded its balance sheet limit in the fourth quarter of 2007 by $11.17 billion, with overages concentrated in securitized products and real estate.[^614] In the first quarter of 2008, FID was over the balance sheet limit by $18 billion with nearly 50% of the overages concentrated in securitized products and real estate.[^615] Lehman's Treasurer at the time, Paolo Tonucci, was comfortable with FID's balance sheet overages in the first quarter of 2008.[^616] At the end of the first quarter of 2008, Tonucci did not require FID to sell off more assets.[^617]
+Lehman did not aggressively pursue these reductions for several months, however. According to Callan, she had discussions with Fuld and Gregory about reducing balance sheet in January and February 2008, but "didn't get traction quickly on it."[^612] Between the fourth quarter of 2007 and the first quarter of 2008, Lehman's gross and net assets actually increased from $691 billion to $786 billion, and from $373 billion to $397 billion, respectively.[^613] In addition, FID exceeded its balance sheet limit in the fourth quarter of 2007 by $11.17 billion, with overages concentrated in securitized products and real estate.[^614] In the first quarter of 2008, FID was over the balance sheet limit by $18 billion with nearly 50% of the overages concentrated in securitized products and real estate.[^615] Lehman's Treasurer at the time, Paolo Tonucci, was comfortable with FID's balance sheet overages in the first quarter of 2008.[^616] At the end of the first quarter of 2008, Tonucci did not require FID to sell off more assets.[^617]
 
 %%page 159%%
 
@@ -1417,7 +1417,7 @@ The evidence is that during the first eight months of Lehman's fiscal 2007, Lehm
 
 %%page 177%%
 
-> Leveraged Finance Deals with Single Transaction Loss ("STL") in Excess of Limit[^1] (July 2007 Analysis, Deals between August 2006 and July 2007) ($ in Millions) Deal Name Original "Old Framework" STL "New Framework" Commitment for deals with STL STL for deals with Date[^2] over $250MM3 STL over $400MM3
+> Leveraged Finance Deals with Single Transaction Loss ("STL") in Excess of Limit[^1] (July 2007 Analysis, Deals between August 2006 and July 2007) ($ in Millions) Deal Name Original "Old Framework" STL "New Framework" Commitment for deals with STL STL for deals with Date[^2] over $250MM[^3] STL over $400MM3
 
 Intelsat ‐ 2,090 1,045 Weatherford 4/30/2007 2,030 1,015
 
@@ -1563,7 +1563,7 @@ During 2007, there were a number of instances in which management did not provid
 
 %%page 185%%
 
-In hindsight, various Board members stated that it would have been helpful to have had more information. For example, some directors said that if the risk limit breaches were sufficiently large and long‐lasting;[^666] if management's liquidity concerns were more than a "single incursion";667 or if the exclusions from the stress testing were sufficiently significant;[^668] they would have wanted to know about these facts.[^669]
+In hindsight, various Board members stated that it would have been helpful to have had more information. For example, some directors said that if the risk limit breaches were sufficiently large and long‐lasting;[^666] if management's liquidity concerns were more than a "single incursion";[^667] or if the exclusions from the stress testing were sufficiently significant;[^668] they would have wanted to know about these facts.[^669]
 
 On the other hand, the Board did not explicitly direct management to provide it with this information, and there is no evidence that the Board asked questions that management did not answer, or answered inaccurately. Moreover, as discussed above, management was not required by any regulatory authority or by Delaware common law to provide such detailed information to the Board of Directors.
 
@@ -1633,7 +1633,7 @@ The Court held that plaintiffs had failed to tie the Caremark claim to a failure
 
 > [P]laintiffs' allegations do not even specify how the board's oversight mechanisms were inadequate or how the director defendants knew of these inadequacies and consciously ignored them. Rather, plaintiffs seem to hope the Court will accept the conclusion that since the Company suffered large losses, and since a properly functioning risk management system would have avoided such losses, the directors must have breached their fiduciary duties in allowing such losses.[^691] The Court emphasized that "red flags" sufficient to state a Caremark claim must
 
-go beyond "signs in the market that reflected worsening conditions and suggested that conditions may deteriorate even further. . . ."692 The Court was protective of directors facing personal liability because the risk assumed by their corporation resulted in losses:
+go beyond "signs in the market that reflected worsening conditions and suggested that conditions may deteriorate even further. . . ."[^692] The Court was protective of directors facing personal liability because the risk assumed by their corporation resulted in losses:
 
 > Oversight duties under Delaware law are not designed to subject directors, even expert directors, to personal liability for failure to predict the future and to properly evaluate business risk.[^693]
 
@@ -1909,7 +1909,7 @@ While not referenced or incorporated into Lehman's internal Repo 105 Accounting 
 
 temporarily removing as much as $50.38 billion in securities inventory from its balance sheet in second quarter 2008.[^2880]
 
-Lehman dramatically ramped up its use of Repo 105 transactions in late 2007 and early 2008 despite concerns about the practice expressed by Lehman officers and personnel. In an April 2008 e‐mail asking if he was familiar with the use of Repo 105 transactions to reduce net balance sheet, Bart McDade, Lehman's former Head of Equities (2005–2008) and President and Chief Operating Officer (June–September 2008), replied: "I am very aware . . . it is another drug we r on."2881 A week earlier, McDade had recommended to Lehman's Executive Committee that the firm set a cap on the use of Repo 105 transactions.[^2882] A senior member of Lehman's Finance Group considered Lehman's Repo 105 program to be balance sheet "window‐dressing" that was "based on legal technicalities."[^2883] Other former Lehman employees characterized Repo 105 transactions as an "accounting gimmick" and a "lazy way of managing the balance sheet."[^2884]
+Lehman dramatically ramped up its use of Repo 105 transactions in late 2007 and early 2008 despite concerns about the practice expressed by Lehman officers and personnel. In an April 2008 e‐mail asking if he was familiar with the use of Repo 105 transactions to reduce net balance sheet, Bart McDade, Lehman's former Head of Equities (2005–2008) and President and Chief Operating Officer (June–September 2008), replied: "I am very aware . . . it is another drug we r on."[^2881] A week earlier, McDade had recommended to Lehman's Executive Committee that the firm set a cap on the use of Repo 105 transactions.[^2882] A senior member of Lehman's Finance Group considered Lehman's Repo 105 program to be balance sheet "window‐dressing" that was "based on legal technicalities."[^2883] Other former Lehman employees characterized Repo 105 transactions as an "accounting gimmick" and a "lazy way of managing the balance sheet."[^2884]
 
 %%page 743%%
 
@@ -1919,11 +1919,11 @@ Lehman did not actually follow these self‐imposed rules. That is not surprisin
 
 %%page 744%%
 
-Lehman's Fixed Income Division ("FID"), in particular, employed Repo 105 transactions to reach quarter‐end balance sheet targets set by senior Lehman management in connection with the firm‐wide effort to reduce net leverage. For example, four days prior to the close of fiscal year 2007, Jerry Rizzieri was in search of a way to meet his balance sheet target and wrote to Mitchell King: "Can you imagine what this would be like without 105?"2888 When FID's balance sheet was above target in the days leading up to the close of the first quarter 2008, a senior financial officer within that division warned that the division was "looking at selling what ever we can and also doing some more repo 105."2889 Similarly, the head of the Liquid Markets group within FID wrote at the same quarter‐end regarding the group's balance sheet: "We have a desperate situation and I need another 2 billion from you, either through Repo 105 or outright sales. Cost is irrelevant, we need to do it."2890
+Lehman's Fixed Income Division ("FID"), in particular, employed Repo 105 transactions to reach quarter‐end balance sheet targets set by senior Lehman management in connection with the firm‐wide effort to reduce net leverage. For example, four days prior to the close of fiscal year 2007, Jerry Rizzieri was in search of a way to meet his balance sheet target and wrote to Mitchell King: "Can you imagine what this would be like without 105?"[^2888] When FID's balance sheet was above target in the days leading up to the close of the first quarter 2008, a senior financial officer within that division warned that the division was "looking at selling what ever we can and also doing some more repo 105."[^2889] Similarly, the head of the Liquid Markets group within FID wrote at the same quarter‐end regarding the group's balance sheet: "We have a desperate situation and I need another 2 billion from you, either through Repo 105 or outright sales. Cost is irrelevant, we need to do it."[^2890]
 
 %%page 745%%
 
-Lehman's reliance upon Repo 105 transactions for quarter‐end balance sheet relief continued into Lehman's second quarter 2008. In an e‐mail titled "Q2 balance sheet" and dated May 21, 2008 – ten days before Lehman's second quarter close – the head of the Liquid Markets group wrote: "Do as much as you can in Repo 105" in response to the question "Do u thk we can be flexible beyond $3bn in 105?"2891 In another May 21, 2008 e‐mail, the head of Liquid Markets asked: "Are we going to make the FID Europe [balance sheet] target," which elicited the response: "V close . . . anything that moves is getting 105'd."2892
+Lehman's reliance upon Repo 105 transactions for quarter‐end balance sheet relief continued into Lehman's second quarter 2008. In an e‐mail titled "Q2 balance sheet" and dated May 21, 2008 – ten days before Lehman's second quarter close – the head of the Liquid Markets group wrote: "Do as much as you can in Repo 105" in response to the question "Do u thk we can be flexible beyond $3bn in 105?"[^2891] In another May 21, 2008 e‐mail, the head of Liquid Markets asked: "Are we going to make the FID Europe [balance sheet] target," which elicited the response: "V close . . . anything that moves is getting 105'd."[^2892]
 
 Several additional contemporaneous e‐mails retrieved from Lehman archives succinctly set forth Lehman's purpose for undertaking Repo 105 transactions:
 
@@ -1937,19 +1937,17 @@ When pressed to identify any legitimate business purpose for Lehman's use of Rep
 
 As set forth more fully below, the Examiner concludes that a fact finder could find that Lehman's failure to disclose its use of Repo 105 transactions to impact its balance sheet at a time when both the market and senior Lehman management were keenly focused on the reduction of Lehman's firm‐wide net leverage and balance sheet, and particularly in light of the specific volumes at which Lehman undertook Repo 105 transactions at quarter‐end in fourth quarter 2007, first quarter 2008, and second quarter 2008, materially misrepresented Lehman's true financial condition.
 
-A trier of fact could find that Lehman's use of tens of billions of dollars of Repo 105 transactions at quarter‐end in late 2007 and early 2008 rendered the firm's financial statements and related disclosures materially misleading. Indeed, audit walk‐through papers prepared by Lehman's outside auditor, Ernst & Young,[^2896] regarding the process for reopening or adjusting a closed balance sheet stated: "Materiality is usually defined as any item individually, or in the aggregate, that moves net leverage by 0.1 or more (typically $1.8 billion)."2897 Repo 105 moved net leverage not by tenths, but by whole points.[^2898]
+A trier of fact could find that Lehman's use of tens of billions of dollars of Repo 105 transactions at quarter‐end in late 2007 and early 2008 rendered the firm's financial statements and related disclosures materially misleading. Indeed, audit walk‐through papers prepared by Lehman's outside auditor, Ernst & Young,[^2896] regarding the process for reopening or adjusting a closed balance sheet stated: "Materiality is usually defined as any item individually, or in the aggregate, that moves net leverage by 0.1 or more (typically $1.8 billion)."[^2897] Repo 105 moved net leverage not by tenths, but by whole points.[^2898]
 
 %%page 748%%
 
-Lehman's publicly reported net leverage ratio for November 30, 2007 (fourth quarter 2007), February 29, 2008 (first quarter 2008), and May 31, 2008 (second quarter
-
-2008) was 16.1x, 15.4x and 12.1x, respectively.[^2899] Without the balance sheet benefit of
+Lehman's publicly reported net leverage ratio for November 30, 2007 (fourth quarter 2007), February 29, 2008 (first quarter 2008), and May 31, 2008 (second quarter 2008) was 16.1x, 15.4x and 12.1x, respectively.[^2899] Without the balance sheet benefit of
 
 Repo 105 transactions, Lehman's net leverage ratios for the same periods would have been 17.8x, 17.3x and 13.9x, respectively:[^2900]
 
 > Date Repo 105 Reported Net Leverage Difference Usage Leverage Without Repo
 
-> Q4 2007 $38.6 B2901 16.12902 17.82903 1.7 Q1 2008 $49.1 B2904 15.42905 17.32906 1.9 Q2 2008 $50.38 B2907 12.12908 13.92909 1.8
+> Q4 2007 $38.6 B[^2901] 16.1[^2902] 17.8[^2903] 1.7 Q1 2008 $49.1 B[^2904] 15.4[^2905] 17.3[^2906] 1.9 Q2 2008 $50.38 B[^2907] 12.1[^2908] 13.9[^2909] 1.8
 
 %%page 749%%
 
@@ -1985,9 +1983,9 @@ Cash 7,500 Short Term Borrowings 200,000 Financial Instruments 350,000 Collatera
 
 Total 800,000 800,000
 
-- Gross Leverage[^2918] — 30
+- Gross Leverage2918 — 30
 
-- Net Leverage[^2919] — 17
+- Net Leverage2919 — 17
 
 Illustration 2, below, shows the impact of an ordinary repo on Lehman's balance sheet and leverage ratios.
 
@@ -2115,7 +2113,7 @@ The Examiner further concludes that a colorable claim of professional malpractic
 
 #### The Genesis of Lehman's Repo 105 Program in 2001
 
-Lehman initiated its Repo 105 program sometime in 2001, soon after SFAS 140 took effect in September 2000.[^2948] At that time, heads of various Lehman business units from New York and London, and representing several of the firm's business divisions and groups, including Credit, Treasury, Product Control, Accounting Policy, Legal, and Compliance, convened to assess how Lehman could use SFAS 140 to manage its balance sheet.[^2949] Lehman's outside auditors and lawyers participated in the firm's review of SFAS 140.2950 Indeed, Lehman vetted the concept of a SFAS 140 repo transaction with its outside auditor, before the firm formalized a Repo 105 accounting policy and approved Repo 105 transactions for use by firm personnel.[^2951]
+Lehman initiated its Repo 105 program sometime in 2001, soon after SFAS 140 took effect in September 2000.[^2948] At that time, heads of various Lehman business units from New York and London, and representing several of the firm's business divisions and groups, including Credit, Treasury, Product Control, Accounting Policy, Legal, and Compliance, convened to assess how Lehman could use SFAS 140 to manage its balance sheet.[^2949] Lehman's outside auditors and lawyers participated in the firm's review of SFAS 140.[^2950] Indeed, Lehman vetted the concept of a SFAS 140 repo transaction with its outside auditor, before the firm formalized a Repo 105 accounting policy and approved Repo 105 transactions for use by firm personnel.[^2951]
 
 %%page 766%%
 
@@ -2193,7 +2191,7 @@ Excerpted here is certain of the policy's more pertinent language:
 
 > ● The Policy acknowledged that Lehman treated ordinary repo transactions as "secured financing transactions" but treated Repo 105 transactions as "sales of inventory and forward agreements to repurchase."[^2988]
 
-> ● "Repo 105 and Repo 108 transactions refer to repos with a counterparty in which we sell securities valued at a minimum of 105% (for fixed income securities) or 108% (for equity securities) of the cash received. That is, we sell fixed income securities with a fair value of at least $105 in exchange for $100 of cash for Repo 105, and equity securities with a fair value of at least $108 in exchange for $100 of cash for Repo 108."2989
+> ● "Repo 105 and Repo 108 transactions refer to repos with a counterparty in which we sell securities valued at a minimum of 105% (for fixed income securities) or 108% (for equity securities) of the cash received. That is, we sell fixed income securities with a fair value of at least $105 in exchange for $100 of cash for Repo 105, and equity securities with a fair value of at least $108 in exchange for $100 of cash for Repo 108."[^2989]
 
 > ● "Repo 105 and Repo 108 contracts typically are executed by Lehman Brothers International (Europe) ('LBIE') because true sale opinions can be obtained under English law. We generally cannot obtain a true sale opinion under U.S. law."[^2990]
 
@@ -2207,7 +2205,7 @@ Excerpted here is certain of the policy's more pertinent language:
 
 The labels "Repo 105" and "Repo 108" referred to Lehman's "haircut" on the transaction. A haircut in a repo transaction is the difference between the value of the collateral used to secure a borrowing and the amount of cash that is borrowed.[^2993]
 
-The five percent minimum required haircut in a Repo 105 transaction (or eight percent minimum in a Repo 108 transaction) was greater than the haircut Lehman faced in an ordinary repo transaction involving treasury‐type securities, which witnesses indicated was typically approximately 2%.2994 However, the larger haircut in Repo 105 transactions was an essential component for Lehman to avail itself of SFAS 140 accounting treatment.
+The five percent minimum required haircut in a Repo 105 transaction (or eight percent minimum in a Repo 108 transaction) was greater than the haircut Lehman faced in an ordinary repo transaction involving treasury‐type securities, which witnesses indicated was typically approximately 2%.[^2994] However, the larger haircut in Repo 105 transactions was an essential component for Lehman to avail itself of SFAS 140 accounting treatment.
 
 Under SFAS 140, recharacterizing a repo from a financing transaction to a sale of inventory requires the transferor to demonstrate that it has relinquished control over the transferred assets.[^2995] Paragraphs 47 through 49, 217, and 218 of SFAS 140 contain the relevant discussion of "control."[^2996] The FASB determined that "to maintain effective control, the transferor must have both the contractual right and the contractual obligation to reacquire securities that are identical to or substantially the same as those concurrently transferred."[^2997] "[T]he transferor's right to repurchase is not assured unless it is protected by obtaining collateral sufficient to fund substantially all of the cost of purchasing identical replacement securities during the term of the contract."[^2998]
 
@@ -2225,13 +2223,13 @@ Specifically, if Lehman had the ability to "fund substantially all of the cost o
 
 %%page 780%%
 
-At bottom, Lehman applied a higher haircut to what otherwise could be an ordinary repo transaction in order to avail itself of the accounting classification under SFAS 140.3004 Thus, Lehman's use of Repo 105 transactions "clearly . . . was an effort to reduce balance sheet. Traders had balance sheet limits and this was one way they could meet them."[^3005] Counterparties to Lehman's Repo 105 transactions did not necessarily – or even usually – require or ask for a higher five percent or eight percent haircut on a Repo 105 or Repo 108 transaction.[^3006] Lehman posted more collateral in a Repo 105 transaction for the same loan it could acquire through an ordinary repo in order to achieve the off‐balance sheet treatment for the collateral.[^3007]
+At bottom, Lehman applied a higher haircut to what otherwise could be an ordinary repo transaction in order to avail itself of the accounting classification under SFAS 140.[^3004] Thus, Lehman's use of Repo 105 transactions "clearly . . . was an effort to reduce balance sheet. Traders had balance sheet limits and this was one way they could meet them."[^3005] Counterparties to Lehman's Repo 105 transactions did not necessarily – or even usually – require or ask for a higher five percent or eight percent haircut on a Repo 105 or Repo 108 transaction.[^3006] Lehman posted more collateral in a Repo 105 transaction for the same loan it could acquire through an ordinary repo in order to achieve the off‐balance sheet treatment for the collateral.[^3007]
 
 %%page 781%%
 
 #### Lehman Did Not Record a Cash Borrowing but Recorded a Derivative Asset in a Repo 105 Transaction
 
-Unlike an ordinary repo transaction, Lehman did not record the borrowing of cash from a Repo 105 transaction even though Lehman was obliged to repay the borrowing.[^3008] Instead, Lehman established a long inventory derivative asset representing the obligation under a forward contract to repurchase the full amount of securities "sold."[^3009] As Lehman's internal Repo 105 Accounting Policy explained, assuming Lehman borrowed $100 cash in exchange for a pledge of $105 of fixed income collateral, Lehman booked a $5 derivative, which represented Lehman's obligation to repurchase the securities at the end of the term of the repo transaction.[^3010] The $5 arose from the fact that when it came time to repurchase the pledged securities, Lehman paid $100 cash for $105 worth of securities.[^3011] The transaction therefore had a $5 value to Lehman reflecting the market value of the "overcollateralization" amount of the Repo 105 transaction.[^3012] Because it had a positive fair value of $5, the derivative was recorded as an asset under SFAS 133.3013
+Unlike an ordinary repo transaction, Lehman did not record the borrowing of cash from a Repo 105 transaction even though Lehman was obliged to repay the borrowing.[^3008] Instead, Lehman established a long inventory derivative asset representing the obligation under a forward contract to repurchase the full amount of securities "sold."[^3009] As Lehman's internal Repo 105 Accounting Policy explained, assuming Lehman borrowed $100 cash in exchange for a pledge of $105 of fixed income collateral, Lehman booked a $5 derivative, which represented Lehman's obligation to repurchase the securities at the end of the term of the repo transaction.[^3010] The $5 arose from the fact that when it came time to repurchase the pledged securities, Lehman paid $100 cash for $105 worth of securities.[^3011] The transaction therefore had a $5 value to Lehman reflecting the market value of the "overcollateralization" amount of the Repo 105 transaction.[^3012] Because it had a positive fair value of $5, the derivative was recorded as an asset under SFAS 133.[^3013]
 
 %%page 782%%
 
@@ -2239,7 +2237,7 @@ Unlike an ordinary repo transaction, Lehman did not record the borrowing of cash
 
 In addition to the required haircut, Lehman had to take one additional step to qualify Repo 105 transactions as "sales" and enjoy the balance sheet and leverage relief afforded by that classification. Lehman had to either originate these transactions or conduct them through Lehman Brothers International (Europe) ("LBIE") in London.
 
-Broadly speaking, Lehman effected Repo 105 transactions through LBIE employing two alternative structures (depending upon the origin of the securities that Lehman ultimately transferred to the counterparty).3014 To understand the reason for Lehman's alternative structures requires a brief detour back through the requirements of SFAS 140.
+Broadly speaking, Lehman effected Repo 105 transactions through LBIE employing two alternative structures (depending upon the origin of the securities that Lehman ultimately transferred to the counterparty).[^3014] To understand the reason for Lehman's alternative structures requires a brief detour back through the requirements of SFAS 140.
 
 %%page 783%%
 
@@ -2249,17 +2247,17 @@ Lehman's internal Repo 105 Accounting Policy echoed the SFAS 140 requirement tha
 
 %%page 784%%
 
-The Linklaters letter was addressed to LBIE, and analyzes repo transactions executed under a 1995 or 2000 version of a Global Master Repurchase Agreement under English law, as applied by English courts.[^3021] The Linklaters letter provides "[t]his opinion is addressed to you [LBIE] solely for your benefit" and that "[i]t is not to be transmitted to anyone else, nor is it to be relied upon by anyone else or for any other purpose. . . ."3022 The letter stated, however, that "a copy of this opinion may be
+The Linklaters letter was addressed to LBIE, and analyzes repo transactions executed under a 1995 or 2000 version of a Global Master Repurchase Agreement under English law, as applied by English courts.[^3021] The Linklaters letter provides "[t]his opinion is addressed to you [LBIE] solely for your benefit" and that "[i]t is not to be transmitted to anyone else, nor is it to be relied upon by anyone else or for any other purpose. . . ."[^3022] The letter stated, however, that "a copy of this opinion may be
 
 %%page 785%%
 
 %%page 786%%
 
-provided by Lehman Brothers to its auditors for the purpose of preparing the firm's balance sheets."[^3023] The Linklaters letter did not contain any reference to United States GAAP or SFAS 140.3024
+provided by Lehman Brothers to its auditors for the purpose of preparing the firm's balance sheets."[^3023] The Linklaters letter did not contain any reference to United States GAAP or SFAS 140.[^3024]
 
 Although the Linklaters letter was written for the exclusive benefit of LBIE, a significant volume of Lehman's Repo 105 transactions was executed for the benefit and using the securities of one or more United States‐based Lehman entities, such as LBI and LBSF, based in New York.[^3025]
 
-Consequently, there were two alternative structures for Repo 105 transactions: (1) a LBIE‐only Repo 105 or Repo 108 transaction, executed by LBIE in London using securities owned by LBIE, and (2) a Repo 105 transaction using securities that were owned by, and originated from, a United States‐based Lehman entity such as LBI or LBSF.3026
+Consequently, there were two alternative structures for Repo 105 transactions: (1) a LBIE‐only Repo 105 or Repo 108 transaction, executed by LBIE in London using securities owned by LBIE, and (2) a Repo 105 transaction using securities that were owned by, and originated from, a United States‐based Lehman entity such as LBI or LBSF.[^3026]
 
 %%page 787%%
 
@@ -2269,7 +2267,7 @@ When the Repo 105 transaction matured, LBIE repaid the cash plus interest and re
 
 %%page 788%%
 
-When a United States‐based Lehman entity undertook a Repo 105 transaction, that entity transferred securities valued at a minimum of $105 to LBIE via an intercompany repo transaction.[^3031] No haircut was applied to the intercompany repo between the United States‐based Lehman entity and LBIE.3032 Upon receiving the securities inventory from the United States‐based Lehman entity, LBIE would execute a Repo 105 transaction with a European counterparty using those securities.[^3033] The minimum haircut for the transaction between LBIE and the counterparty, which was the actual Repo 105 transaction, was five percent.[^3034]
+When a United States‐based Lehman entity undertook a Repo 105 transaction, that entity transferred securities valued at a minimum of $105 to LBIE via an intercompany repo transaction.[^3031] No haircut was applied to the intercompany repo between the United States‐based Lehman entity and LBIE.[^3032] Upon receiving the securities inventory from the United States‐based Lehman entity, LBIE would execute a Repo 105 transaction with a European counterparty using those securities.[^3033] The minimum haircut for the transaction between LBIE and the counterparty, which was the actual Repo 105 transaction, was five percent.[^3034]
 
 %%page 789%%
 
@@ -2305,7 +2303,7 @@ Lehman's Repo 105 Accounting Policy required that the assets used in a Repo 105 
 
 %%page 794%%
 
-The "liquidity requirement" for Repo 105 transactions was widely known throughout Lehman.[^3045] Lehman had intermittent controls in place to ensure that Lehman personnel transferred only liquid securities as part of Repo 105 transactions, as required by Lehman's Repo 105 Accounting Policy.[^3046] Contemporaneous documents reveal that employees within Lehman's Product Control group periodically would identify securities that had been included erroneously in Repo 105 transactions. For example, in October 2007, one Lehman employee wrote: "Having spoken to Product Control the following positions should not have been included for Repo 105 benefit as they related to Failed Sale Gross Up for Windermere 11 and 12. . . . Going forward, Product Control will advise us of all positions relating to the FAS140 Failed Sale Gross Up."3047
+The "liquidity requirement" for Repo 105 transactions was widely known throughout Lehman.[^3045] Lehman had intermittent controls in place to ensure that Lehman personnel transferred only liquid securities as part of Repo 105 transactions, as required by Lehman's Repo 105 Accounting Policy.[^3046] Contemporaneous documents reveal that employees within Lehman's Product Control group periodically would identify securities that had been included erroneously in Repo 105 transactions. For example, in October 2007, one Lehman employee wrote: "Having spoken to Product Control the following positions should not have been included for Repo 105 benefit as they related to Failed Sale Gross Up for Windermere 11 and 12. . . . Going forward, Product Control will advise us of all positions relating to the FAS140 Failed Sale Gross Up."[^3047]
 
 %%page 795%%
 
@@ -2329,7 +2327,7 @@ Repo 105 transactions began as ordinary repos booked in the same trading and acc
 
 %%page 798%%
 
-The financial results of LBIE's business operations rolled up into LBHI's consolidated financial statements filed in the United States. Lehman entities around the world maintained their books and records using United States GAAP principles.[^3058] In addition, LBIE and LBSF product controllers were responsible for "transactional policing" and booking Repo 105 transactions manually and in a manner that complied with United States GAAP.3059
+The financial results of LBIE's business operations rolled up into LBHI's consolidated financial statements filed in the United States. Lehman entities around the world maintained their books and records using United States GAAP principles.[^3058] In addition, LBIE and LBSF product controllers were responsible for "transactional policing" and booking Repo 105 transactions manually and in a manner that complied with United States GAAP.[^3059]
 
 %%page 799%%
 
@@ -2337,7 +2335,7 @@ Consequently, when LBIE's financial statements rolled up into LBHI's consolidate
 
 %%page 800%%
 
-required.[^3060] LBHI did not subsequently verify that the Repo 105 entries manually entered by LBIE employees complied with United States GAAP.3061 "With a UK legal opinion [i.e., the Linklaters letter] that covered the [Repo] 105 [transactions], [Repo] 105 [transaction]s would be respected as a sale in the books of the entities doing them and booking them in US GAAP."3062
+required.[^3060] LBHI did not subsequently verify that the Repo 105 entries manually entered by LBIE employees complied with United States GAAP.[^3061] "With a UK legal opinion [i.e., the Linklaters letter] that covered the [Repo] 105 [transactions], [Repo] 105 [transaction]s would be respected as a sale in the books of the entities doing them and booking them in US GAAP."[^3062]
 
 In short, Lehman undertook transactions in a foreign jurisdiction (the United Kingdom) that purported to comply with SFAS 140, where Lehman was unable to obtain a SFAS 140 true sale opinion from a United States law firm, and Lehman then relied upon the non‐United States‐based Lehman entity to ensure that the transaction complied with United States GAAP.
 
@@ -2355,7 +2353,7 @@ In mid‐to‐late 2007, senior management began to consider the balance sheet a
 
 %%page 803%%
 
-In a September 7, 2007 e‐mail to O'Meara and Lowitt, Reilly wrote: "we need to keep the pressure on and get the firm's leverage to a good spot for year end. At least we need to restrict what inventory lines it can be used for."[^3068] Lowitt agreed with Reilly's suggestion and said that Lehman "need[ed] to get tighter on B/S."3069 Lowitt continued: "I am more worried about how leverage number will be accepted by the market than Chris [O'Meara] is."3070
+In a September 7, 2007 e‐mail to O'Meara and Lowitt, Reilly wrote: "we need to keep the pressure on and get the firm's leverage to a good spot for year end. At least we need to restrict what inventory lines it can be used for."[^3068] Lowitt agreed with Reilly's suggestion and said that Lehman "need[ed] to get tighter on B/S."[^3069] Lowitt continued: "I am more worried about how leverage number will be accepted by the market than Chris [O'Meara] is."[^3070]
 
 Also in September 2007, O'Meara reported to the Finance and Risk Committee that Lehman's net leverage ratio was in line with Lehman's peers.[^3071] Management's presentation regarding the net leverage metric noted:
 
@@ -2375,7 +2373,7 @@ The net leverage ratio calculation – a "brutal, rudimentary measurement"[^3078
 
 #### By January 2008, Lehman Decided to Cut its Net Leverage in Half to Win Back the Confidence of the Market, Lenders and Investors
 
-By no later than January 2008, Fuld was focused on net leverage and balance sheet reduction. Soon after Roger Nagioff replaced Michael Gelband as Head of FID in May 2007, Fuld authorized Nagioff to bring down positions in leveraged loans.[^3081] By the end of 2007, Fuld expressed increasing concern about the economy.[^3082] According to Fuld, in early 2008 he instructed Bart McDade, who would replace Joe Gregory and become Lehman's President and Chief Operating Officer in June 2008, to bring down Lehman's net balance sheet and net leverage ratio.[^3083] Fuld at various times described the balance sheet reduction as applying to: (1) all positions except matched book; and (2) less liquid assets, such as leveraged loans, RMBS, CMBS, and CRE.3084 Fuld and other members of senior firm management were concerned with reducing Lehman's large net balance sheet, i.e., the inventory that Lehman owned, because the rating agencies only looked at Lehman's net leverage.[^3085]
+By no later than January 2008, Fuld was focused on net leverage and balance sheet reduction. Soon after Roger Nagioff replaced Michael Gelband as Head of FID in May 2007, Fuld authorized Nagioff to bring down positions in leveraged loans.[^3081] By the end of 2007, Fuld expressed increasing concern about the economy.[^3082] According to Fuld, in early 2008 he instructed Bart McDade, who would replace Joe Gregory and become Lehman's President and Chief Operating Officer in June 2008, to bring down Lehman's net balance sheet and net leverage ratio.[^3083] Fuld at various times described the balance sheet reduction as applying to: (1) all positions except matched book; and (2) less liquid assets, such as leveraged loans, RMBS, CMBS, and CRE.[^3084] Fuld and other members of senior firm management were concerned with reducing Lehman's large net balance sheet, i.e., the inventory that Lehman owned, because the rating agencies only looked at Lehman's net leverage.[^3085]
 
 %%page 806%%
 
@@ -2383,15 +2381,15 @@ By no later than January 2008, Fuld was focused on net leverage and balance shee
 
 Contemporaneous documents from the Lehman archives confirm that senior management at all levels were critically focused on reducing Lehman's firm‐wide leverage beginning in early 2008, including focusing on the impact leverage had on the firm's ratings:
 
-> ● Two weeks before the close of Lehman's first quarter 2008 on February 29, 2008, Erin Callan, then‐CFO, wrote to Tonucci, Reilly and Martin Klein, "would love to see the target projection [for net leverage] at 15.1."3086 Reilly forwarded Callan's message to Andrew Morton, the head of Lehman's Fixed Income Division, stating "Would be great if fid could come in lower as leverage could be 1 of the few bright spots for the quarter."[^3087] Morton replied, "Will pull out all the stops."[^3088]
+> ● Two weeks before the close of Lehman's first quarter 2008 on February 29, 2008, Erin Callan, then‐CFO, wrote to Tonucci, Reilly and Martin Klein, "would love to see the target projection [for net leverage] at 15.1."[^3086] Reilly forwarded Callan's message to Andrew Morton, the head of Lehman's Fixed Income Division, stating "Would be great if fid could come in lower as leverage could be 1 of the few bright spots for the quarter."[^3087] Morton replied, "Will pull out all the stops."[^3088]
 
-> ● In a March 19, 2008 e‐mail, Larry Wieseneck reported "on a step the firm is taking to more actively manage the balance sheet usage across the firm."[^3089] He continued: "The firm is asking Bart McDade (Head of Global Equities) to represent the firm's interests as the 'Balance Sheet Czar' – the point person for the firm's Exec Comm relative to the use of balance sheet…. He will coordinate with the trading desks and banking businesses across the firm as it relates to managing balance sheets down to target levels…. This will insure that we are 'disciplined'…."3090
+> ● In a March 19, 2008 e‐mail, Larry Wieseneck reported "on a step the firm is taking to more actively manage the balance sheet usage across the firm."[^3089] He continued: "The firm is asking Bart McDade (Head of Global Equities) to represent the firm's interests as the 'Balance Sheet Czar' – the point person for the firm's Exec Comm relative to the use of balance sheet…. He will coordinate with the trading desks and banking businesses across the firm as it relates to managing balance sheets down to target levels…. This will insure that we are 'disciplined'…."[^3090]
 
 he or she is said to be running a matched book. But, in reality, most 'matched' books are actually 'mismatched' in that a trader will reverse in collateral to dates which are different than those maturities on the corresponding repos." Id. "A trader does this to profit from future shifts in interest rates that might occur between the unmatched maturities on the reverse repos and repos." Id. To be clear, Repo 105 transactions were not matched book transactions. See also e‐mail from Robert Azerad, Lehman, to Edward Grieb, Lehman, et al. (Mar. 27, 2008) [LBEX‐DOCID 3184420] (commenting upon external blog's critique of Lehman's leverage ratios calculation and balance sheet).
 
 %%page 808%%
 
-> ● In a March 27, 2008 e‐mail, Ken Cohen wrote: "We are very much in need of balance sheet. We must move things off by the end of the quarter. I need you all to go back to clients and offer them discounts to move things off. We have a lot of wood to chop in a short period of time but we can't afford to fail. If this means leaving p&l on the table so be it. If you have questions get back to me but we HAVE TO DO THIS!!"3091
+> ● In a March 27, 2008 e‐mail, Ken Cohen wrote: "We are very much in need of balance sheet. We must move things off by the end of the quarter. I need you all to go back to clients and offer them discounts to move things off. We have a lot of wood to chop in a short period of time but we can't afford to fail. If this means leaving p&l on the table so be it. If you have questions get back to me but we HAVE TO DO THIS!!"[^3091]
 
 Statements of numerous senior Lehman personnel also confirm that Lehman was focused on the net leverage ratio and the reduction of net assets beginning in late 2007:
 
@@ -2401,7 +2399,7 @@ Statements of numerous senior Lehman personnel also confirm that Lehman was focu
 
 > ● Ed Grieb, Lehman's former Global Financial Controller, stated that "the focus on balance sheet and net leverage gained much more importance" beginning in mid‐2007.[^3094]
 
-> ● Murtaza Bhallo, Business/Risk Manager in Proprietary Trading Group for Liquid Markets, said that beginning in 2007, there was a "squeeze" on Lehman's balance sheet, and that Lehman personnel were worried about reporting the level of Lehman's assets against Lehman's equity (i.e., leverage ratio).3095
+> ● Murtaza Bhallo, Business/Risk Manager in Proprietary Trading Group for Liquid Markets, said that beginning in 2007, there was a "squeeze" on Lehman's balance sheet, and that Lehman personnel were worried about reporting the level of Lehman's assets against Lehman's equity (i.e., leverage ratio).[^3095]
 
 > ● Anuraj Bismal, a former Senior Vice President in Lehman's Balance Sheet Group, said that Lehman's meeting of its leverage ratio target was the most critical piece ("a very hot topic") for senior management by the end of 2007.[^3096] Bismal said that balance sheet targets and leverage ratio targets were "absolutely about how rating agencies would view Lehman, and also creditors and the investing public."[^3097]
 
@@ -2431,7 +2429,7 @@ McDade took his responsibilities as balance sheet point person "very seriously."
 
 %%page 812%%
 
-In one his first acts as balance sheet point person, and in connection with his plan to aggressively reduce Lehman's firm‐wide balance sheet, McDade requested that Lehman convene a special meeting of the Executive Committee on Friday, March 28, 2008, at 9:00 a.m.3113 The entire Executive Committee, except Fuld, as well as ex officio members Ian Lowitt and Scott Friedheim, attended the meeting.[^3114]
+In one his first acts as balance sheet point person, and in connection with his plan to aggressively reduce Lehman's firm‐wide balance sheet, McDade requested that Lehman convene a special meeting of the Executive Committee on Friday, March 28, 2008, at 9:00 a.m.[^3113] The entire Executive Committee, except Fuld, as well as ex officio members Ian Lowitt and Scott Friedheim, attended the meeting.[^3114]
 
 Broadly speaking, McDade's goal going into the March 28 meeting "was to have the Executive Committee come together and agree" about the direction Lehman would pursue, at least from the balance sheet perspective.[^3115] More specifically, McDade said that his purpose in seeking a special meeting of the committee was "to request Joe Gregory's approval to institute" the balance sheet reduction recommendations that McDade presented at the meeting.[^3116]
 
@@ -2447,7 +2445,7 @@ McDade specifically recalled discussing with Executive Committee members on Marc
 
 %%page 815%%
 
-On April 2, 2008, McDade received an e‐mail that said "Not sure you are familiar with Repo 105 but it is used to reduce net balance sheet in our government businesses around the world."[^3130] McDade responded that he considered Lehman's use of Repo 105 transactions to be undisciplined, "another drug we r on."3131 McDade wanted Lehman's traders to exercise more discipline: "[T]raders knew that they could get access to balance sheet through these more costly transactions," meaning Repo 105 transactions.[^3132] In other words, when traders found it hard to sell sticky assets or wanted to avoid selling them at a discount, they knew that they could "rent the balance sheet," according to McDade, by removing certain inventory temporarily through Repo 105 transactions while allowing other inventory to remain on the balance sheet and still reach Lehman's balance sheet targets.[^3133] McDade wanted traders to sell assets rather than rent the balance sheet.[^3134]
+On April 2, 2008, McDade received an e‐mail that said "Not sure you are familiar with Repo 105 but it is used to reduce net balance sheet in our government businesses around the world."[^3130] McDade responded that he considered Lehman's use of Repo 105 transactions to be undisciplined, "another drug we r on."[^3131] McDade wanted Lehman's traders to exercise more discipline: "[T]raders knew that they could get access to balance sheet through these more costly transactions," meaning Repo 105 transactions.[^3132] In other words, when traders found it hard to sell sticky assets or wanted to avoid selling them at a discount, they knew that they could "rent the balance sheet," according to McDade, by removing certain inventory temporarily through Repo 105 transactions while allowing other inventory to remain on the balance sheet and still reach Lehman's balance sheet targets.[^3133] McDade wanted traders to sell assets rather than rent the balance sheet.[^3134]
 
 %%page 816%%
 
@@ -2487,21 +2485,21 @@ Lehman's President and COO on June 12, 2008, McDade was finally empowered to aut
 
 %%page 820%%
 
-McDade, Reilly, Lowitt, Morton and O'Meara met to discuss the Balance Sheet and Key Disclosures document in June 2008.[^3153] McDade recalled that he brought O'Meara "back in the [balance sheet] process" to help in light of O'Meara's past experience as CFO.3154
+McDade, Reilly, Lowitt, Morton and O'Meara met to discuss the Balance Sheet and Key Disclosures document in June 2008.[^3153] McDade recalled that he brought O'Meara "back in the [balance sheet] process" to help in light of O'Meara's past experience as CFO.[^3154]
 
-McDade discussed the Balance Sheet and Key Disclosures document with Richard Fuld in June 2008.[^3155] McDade "specifically walked Fuld through the presentation. . . ."3156 McDade discussed page three of the presentation with Fuld, which identified that Lehman used $38.6 billion, $49.1 billion, and $50.3 billion of Repo 105 transactions, at quarters‐end fourth quarter 2007, first quarter 2008, and second quarter 2008, respectively.[^3157] McDade said that, as referenced on page three of the Balance Sheet and Key Disclosures document, he also told Fuld that he (McDade) recommended that Lehman reduce its firm‐wide Repo 105 usage to $25 billion in the third quarter 2008.[^3158]
+McDade discussed the Balance Sheet and Key Disclosures document with Richard Fuld in June 2008.[^3155] McDade "specifically walked Fuld through the presentation. . . ."[^3156] McDade discussed page three of the presentation with Fuld, which identified that Lehman used $38.6 billion, $49.1 billion, and $50.3 billion of Repo 105 transactions, at quarters‐end fourth quarter 2007, first quarter 2008, and second quarter 2008, respectively.[^3157] McDade said that, as referenced on page three of the Balance Sheet and Key Disclosures document, he also told Fuld that he (McDade) recommended that Lehman reduce its firm‐wide Repo 105 usage to $25 billion in the third quarter 2008.[^3158]
 
 %%page 821%%
 
-McDade observed that Fuld "was familiar with the term 'Repo 105.'"3159 McDade recalled that Fuld's response to the entire document was "good, good, good; he was nodding approval" and that Fuld was "supportive of reducing the firm's use of Repo 105."3160 More specifically, regarding McDade's recommendation to cut Lehman's use of Repo 105 in half in the third quarter 2008, McDade recalled Fuld asked, "Is it doable? Is it necessary? If so, [Fuld] said, go do it."3161 McDade concluded that "Fuld knew about the accounting of Repo 105."3162
+McDade observed that Fuld "was familiar with the term 'Repo 105.'"[^3159] McDade recalled that Fuld's response to the entire document was "good, good, good; he was nodding approval" and that Fuld was "supportive of reducing the firm's use of Repo 105."[^3160] More specifically, regarding McDade's recommendation to cut Lehman's use of Repo 105 in half in the third quarter 2008, McDade recalled Fuld asked, "Is it doable? Is it necessary? If so, [Fuld] said, go do it."[^3161] McDade concluded that "Fuld knew about the accounting of Repo 105."[^3162]
 
-During the June meeting with Fuld over the Balance Sheet and Key Disclosures document, McDade and Fuld discussed that Lehman's need to deleverage was "absolutely" a critical issue to Lehman.[^3163] On July 10, 2008, a few weeks after discussing the "Balance Sheet and Key Disclosures" document with McDade, Fuld signed Lehman's quarterly report.[^3164] Fuld denied any recollection of conversations with McDade or other members of Lehman's Executive Committee regarding Repo 105.3165
+During the June meeting with Fuld over the Balance Sheet and Key Disclosures document, McDade and Fuld discussed that Lehman's need to deleverage was "absolutely" a critical issue to Lehman.[^3163] On July 10, 2008, a few weeks after discussing the "Balance Sheet and Key Disclosures" document with McDade, Fuld signed Lehman's quarterly report.[^3164] Fuld denied any recollection of conversations with McDade or other members of Lehman's Executive Committee regarding Repo 105.[^3165]
 
 %%page 822%%
 
 #### The Market's Increased Scrutiny of the Leverage of Investment Banks
 
-In mid‐to‐late 2007, Lehman faced a growing challenge: the market began demanding that investment banks shrink their balance sheet and lower their leverage.[^3166] Before mid‐2007, rating agencies, media, and outside analysts who observed Lehman focused on the firm's revenues and profit and loss, "P&L."3167 Sometime in mid‐2007, however, those same outside rating agencies and analysts pronounced the metrics of an investment bank's balance sheet and capital at least as important, if not more, than revenue and P&L.3168 The breakdown of securitization and structured finance markets in late 2007 intensified balance sheet pressures on banks.[^3169]
+In mid‐to‐late 2007, Lehman faced a growing challenge: the market began demanding that investment banks shrink their balance sheet and lower their leverage.[^3166] Before mid‐2007, rating agencies, media, and outside analysts who observed Lehman focused on the firm's revenues and profit and loss, "P&L."[^3167] Sometime in mid‐2007, however, those same outside rating agencies and analysts pronounced the metrics of an investment bank's balance sheet and capital at least as important, if not more, than revenue and P&L.[^3168] The breakdown of securitization and structured finance markets in late 2007 intensified balance sheet pressures on banks.[^3169]
 
 %%page 823%%
 
@@ -2579,7 +2577,7 @@ Consistent with Gentile's recommendation to Grieb to increase the firm's Repo 10
 
 The reasons Gentile advanced for why Lehman's Repo 105 limit should be increased in February 2007 – namely, sticky inventory Lehman could not sell or could only sell by incurring substantial losses – only became more relevant in late 2007 and early 2008, as even more of Lehman's real estate and mortgage assets became illiquid and difficult to sell without substantial losses. Indeed, a significant portion of Lehman's real estate securities ultimately proved very difficult for Lehman to sell.[^3206] As a result, Lehman's illiquid holdings ballooned during 2007. At the same time during 2007, Lehman's FID consistently breached its balance sheet limits.[^3207]
 
-The origins of Lehman's balance sheet difficulties rest in Lehman's aggressive countercyclical growth strategy spearheaded by Fuld in 2006 and early‐to‐mid‐2007.[^3208] This strategy included a decision to spend capital to make acquisitions, which, in turn, greatly increased the risk profile of the firm.[^3209] Within the Global Real Estate Group ("GREG"), a business unit that fell mostly under the firm's Fixed Income Division umbrella,[^3210] the growth strategy involved deploying capital more aggressively, increasing the bridge equity business, and acquiring and originating CMBS.3211 GREG also oversaw the leveraged buyout of the Archstone‐Smith REIT by the joint venture between Lehman and Tishman Speyer.[^3212]
+The origins of Lehman's balance sheet difficulties rest in Lehman's aggressive countercyclical growth strategy spearheaded by Fuld in 2006 and early‐to‐mid‐2007.[^3208] This strategy included a decision to spend capital to make acquisitions, which, in turn, greatly increased the risk profile of the firm.[^3209] Within the Global Real Estate Group ("GREG"), a business unit that fell mostly under the firm's Fixed Income Division umbrella,[^3210] the growth strategy involved deploying capital more aggressively, increasing the bridge equity business, and acquiring and originating CMBS.[^3211] GREG also oversaw the leveraged buyout of the Archstone‐Smith REIT by the joint venture between Lehman and Tishman Speyer.[^3212]
 
 %%page 836%%
 
@@ -2593,7 +2591,7 @@ The same month as the FID Balance Sheet Management Presentation, April 2007, Ken
 
 %%page 838%%
 
-Another internal Lehman e‐mail from April 2007 illustrates the discourse and dissension among senior Lehman management regarding the firm's balance sheet.[^3223] In the e‐mail chain, Chris O'Meara, Umezaki, Lowitt, Gelband and others discussed the "balance sheet belt tightening effort in FID" in light of a talk between Fuld and the firm's managing directors the night before.[^3224] Umezaki indicated that senior management was sending conflicting messages: Fuld wanted to emphasize revenue growth, while the message within FID was that meeting balance sheet targets was necessary in order to achieve ratings upgrades.[^3225] O'Meara noted that the firm had allowed its leverage ratio to increase higher than planned, which further exacerbated the tension between the two messages (growth vs. balance sheet belt‐tightening).3226 O'Meara continued: "I think we will have to make choices on how to best deploy the balance sheet we have available. From my perspective, getting AA‐ can be accomplished with our planned balance sheet leverage ratio."[^3227]
+Another internal Lehman e‐mail from April 2007 illustrates the discourse and dissension among senior Lehman management regarding the firm's balance sheet.[^3223] In the e‐mail chain, Chris O'Meara, Umezaki, Lowitt, Gelband and others discussed the "balance sheet belt tightening effort in FID" in light of a talk between Fuld and the firm's managing directors the night before.[^3224] Umezaki indicated that senior management was sending conflicting messages: Fuld wanted to emphasize revenue growth, while the message within FID was that meeting balance sheet targets was necessary in order to achieve ratings upgrades.[^3225] O'Meara noted that the firm had allowed its leverage ratio to increase higher than planned, which further exacerbated the tension between the two messages (growth vs. balance sheet belt‐tightening).[^3226] O'Meara continued: "I think we will have to make choices on how to best deploy the balance sheet we have available. From my perspective, getting AA‐ can be accomplished with our planned balance sheet leverage ratio."[^3227]
 
 %%page 839%%
 
@@ -2625,7 +2623,7 @@ The market focus on balance sheet and leverage in late 2007 and 2008 meant incre
 
 In November 2007, Lehman's Treasurer Paolo Tonucci informed Clement Bernard, FID's Chief Financial Officer, that FID's balance sheet limit had to be reduced, despite FID's repeated breaches of the balance sheet limit, in order to meet the firm's leverage ratio targets.[^3243] Bernard typically communicated balance sheet limits and related net leverage ratio targets to FID personnel and pressured the FID business heads to reduce balance sheet by any means necessary, which usually entailed increased Repo 105 transactions at or near quarter‐ends.[^3244]
 
-In a January 2008 e‐mail, Michael McGarvey informed Bernard about a discussion with Alex Kirk and Andrew Morton regarding FID's $13 billion breach of the balance sheet limit. McGarvey wrote: "Alex was going to have a conversation with Kaushik [Amin] about potentially coming in under their target for balance sheet if need be" and that "[a] meeting has been set up . . . to review the next steps for Repo 105 for the Q1 (It would be helpful to know if Gerry [Reilly] has a view on what the maximum tolerable level of repo 105 is for the firm)."3245
+In a January 2008 e‐mail, Michael McGarvey informed Bernard about a discussion with Alex Kirk and Andrew Morton regarding FID's $13 billion breach of the balance sheet limit. McGarvey wrote: "Alex was going to have a conversation with Kaushik [Amin] about potentially coming in under their target for balance sheet if need be" and that "[a] meeting has been set up . . . to review the next steps for Repo 105 for the Q1 (It would be helpful to know if Gerry [Reilly] has a view on what the maximum tolerable level of repo 105 is for the firm)."[^3245]
 
 Mitch King, the former Head of FID's United States Agencies Trading Desk, recalled "there was always balance sheet pressure at quarter ends," but that sometime in mid‐2007 "there was a definite change" and the firm began "trying desperately to reduce its balance sheet," thereby further intensifying the quarter‐end alarm.[^3246] The message from senior Lehman management was to "keep making P&L but . . . get balance sheet down."[^3247] King continued: "There was a way to . . . to reduce balance sheet at quarter end . . . . To the powers that be, Repo 105 counted as balance sheet reduction."[^3248]
 
@@ -2633,7 +2631,7 @@ Mitch King, the former Head of FID's United States Agencies Trading Desk, recall
 
 Thus, Repo 105 transactions were used as a shortcut for meeting quarter‐end balance sheet targets (i.e., avoiding balance sheet limit breaches) and reaching the firm‐ wide net leverage ratio target:
 
-> ● "Is there a formal limit on Repo 105? We are trying to do more of these in order to reduce the bs [balance sheet]."3249 ● "As B/S [balance sheet] will be super tight, I need to make sure we make best use of [Repo] 105."3250
+> ● "Is there a formal limit on Repo 105? We are trying to do more of these in order to reduce the bs [balance sheet]."[^3249] ● "As B/S [balance sheet] will be super tight, I need to make sure we make best use of [Repo] 105."[^3250]
 
 #### Lehman's Earnings Calls and Press Release Statements Regarding Leverage
 
@@ -2669,7 +2667,7 @@ Lehman's success in reducing its net leverage and balance sheet:
 
 > The net loss of $2.8 billion compares to net income of $489 million last quarter and $1.3 billion in the second quarter of 2007. Importantly – and you will hear this throughout the call – during the quarter we executed on a number of the capital and liquidity goals that we set out for ourselves, which includes as follows – lowering growth and net leverage to less than 25 times and less than 12.5 times, respectively. Both of those numbers are prior to today's capital raise. Reducing our gross assets by approximately $130 billion and our net assets by approximately $60 billion with a large part of the reduction, as I will talk about in detail, coming from less liquid asset categories and also providing significant price visibility for marking the remainder of our inventory.[^3259]
 
-Callan said that, taking into account the early June 2008 capital raise, Lehman reduced its net leverage to 10x.3260 Callan described the firm's deleveraging effort as
+Callan said that, taking into account the early June 2008 capital raise, Lehman reduced its net leverage to 10x.[^3260] Callan described the firm's deleveraging effort as
 
 "aggressive" but said "we do not expect to use the proceeds of this equity raise to further decrease leverage but rather to take advantage of future market opportunities."[^3261] A Goldman Sachs analyst questioned Callan about Lehman's "defensive" deleveraging process during the second quarter preliminary earnings call.[^3262] Callan's reply confirmed that senior Lehman management imposed strict balance sheet targets that quarter:
 
@@ -2691,7 +2689,7 @@ In addition to documents demonstrating that Lehman, internally, continued to foc
 
 > ● "The modest silver lining is that LEH was able to reduce gross assets by $130 billion, including large reductions in mortgage related (15%‐20%) and leveraged loan (35%) exposures."[^3269]
 
-> ● "Leverage is down a lot (and even more post capital raise) . . . illiquid positions are down 15%‐20% . . . ."3270
+> ● "Leverage is down a lot (and even more post capital raise) . . . illiquid positions are down 15%‐20% . . . ."[^3270]
 
 > ● "While LEH reduced gross leverage from 32x to 25x, increased their liquidity pool from $34B to $45B, and drove reductions across most troubled asset classes (and reduced total assets by $130B or 17%), we await more details on total remaining troubled assets in aggregate as well as a L‐III or illiquid asset update to help answer the question of whether $6B in incremental capital raise is sufficient."[^3271]
 
@@ -2717,13 +2715,13 @@ When senior management gave balance sheet targets to business divisions within L
 
 #### Lehman Did Not Disclose Its Accounting Treatment For or Use of Repo 105 Transactions in Its Forms 10‐K and 10‐Q
 
-Lehman reported a lower net leverage ratio in its publicly filed financial statements without revealing that it employed Repo 105 transactions to manage its net leverage ratio. Several Lehman witnesses with financial reporting responsibilities confirmed the Examiner's conclusion that Lehman did not disclose its accounting treatment or use of Repo 105 transactions in its Forms 10‐K and 10‐Q.3279
+Lehman reported a lower net leverage ratio in its publicly filed financial statements without revealing that it employed Repo 105 transactions to manage its net leverage ratio. Several Lehman witnesses with financial reporting responsibilities confirmed the Examiner's conclusion that Lehman did not disclose its accounting treatment or use of Repo 105 transactions in its Forms 10‐K and 10‐Q.[^3279]
 
 %%page 854%%
 
 Ed Grieb, former Lehman Financial Controller who prepared Lehman's Form 10‐ Q and Form 10‐K statements, recalled that Lehman did not disclose its use of Repo 105 transactions or the accounting treatment they received.[^3280] Marie Stewart, former Global Head of Accounting Policy, also said that Lehman made no disclosures relating to its Repo 105 program.[^3281]
 
-Lehman's increasing reliance on Repo 105 transactions and the absence of any disclosure of that fact in Lehman's Forms 10‐Q and 10‐K disquieted Martin Kelly (whose department was responsible for the preparation of Lehman's periodic reports).3282 Kelly, Grieb's successor, told the Examiner that if an analyst or a member of the investing public were to read Lehman's Forms 10‐Q and 10‐K from cover to cover, taking as much time as she or he needed, "they would have no transparency into [Lehman's] Repo 105 program."[^3283]
+Lehman's increasing reliance on Repo 105 transactions and the absence of any disclosure of that fact in Lehman's Forms 10‐Q and 10‐K disquieted Martin Kelly (whose department was responsible for the preparation of Lehman's periodic reports).[^3282] Kelly, Grieb's successor, told the Examiner that if an analyst or a member of the investing public were to read Lehman's Forms 10‐Q and 10‐K from cover to cover, taking as much time as she or he needed, "they would have no transparency into [Lehman's] Repo 105 program."[^3283]
 
 Similarly, Matthew Lee, who reported to Kelly, recalled that Lehman did not disclose its Repo 105 practice in its publicly filed statements. "If you don't say anything, is that disclosure? [Lehman] was telling the public they reduced the balance sheet, but not telling them they were doing so by unartful means."[^3284] Lee recalled that Lehman "had way more leverage than people thought; it was just out of [the public's] sight."[^3285]
 
@@ -2755,13 +2753,13 @@ published in the financials we don't focus on them. We don't want traders spendi
 
 #### Contemporaneous Documents Confirm That Lehman Undertook Repo 105 Transactions to Reduce Its Balance Sheet and Reverse Engineer Its Leverage
 
-Lehman's Repo 105 practice engendered a certain level of cynicism within the firm.[^3299] Notably, in response to an e‐mail stating "[n]ot sure you are familiar with Repo 105 but it is used to reduce net balance sheet in our governments businesses around the world," Bart McDade, Lehman's former President and Chief Operating Officer, replied: "I am very aware . . . it is another drug we r on."3300
+Lehman's Repo 105 practice engendered a certain level of cynicism within the firm.[^3299] Notably, in response to an e‐mail stating "[n]ot sure you are familiar with Repo 105 but it is used to reduce net balance sheet in our governments businesses around the world," Bart McDade, Lehman's former President and Chief Operating Officer, replied: "I am very aware . . . it is another drug we r on."[^3300]
 
 %%page 860%%
 
 Numerous internal Lehman e‐mails referred to Repo 105 transactions in pejorative terms, such as "balance sheet window‐dressing." An illustrative example is found in the following July 2008 e‐mail exchange:
 
-> Vallecillo: "So what's up with repo 105? Why are we doing less next quarter end?"[^3301] McGarvey: "It's basically window‐dressing. We are calling repos true sales based on legal technicalities. The exec committee wanted the number cut in half."[^3302] Vallecillo: "I see . . . so it's legally do‐able but doesn't look good when we actually do it? Does the rest of the street do it? Also is that why we have so much BS [balance sheet] to Rates Europe?[^3303] McGarvey: "Yes, No and yes. :)"3304
+> Vallecillo: "So what's up with repo 105? Why are we doing less next quarter end?"[^3301] McGarvey: "It's basically window‐dressing. We are calling repos true sales based on legal technicalities. The exec committee wanted the number cut in half."[^3302] Vallecillo: "I see . . . so it's legally do‐able but doesn't look good when we actually do it? Does the rest of the street do it? Also is that why we have so much BS [balance sheet] to Rates Europe?[^3303] McGarvey: "Yes, No and yes. :)"[^3304]
 
 %%page 861%%
 
@@ -2771,15 +2769,15 @@ Numerous other internal Lehman e‐mails confirm that Lehman's true purpose for 
 
 > ● "[T]he firm has a function called repo 105 whereby you can repo a position for a week and it is regarded as a true sale to get rid of net balance sheet."[^3306]
 
-> ● "We have been using Repo 105 in the past to reduce balance sheet at quarter‐ end. . . ."3307
+> ● "We have been using Repo 105 in the past to reduce balance sheet at quarter‐ end. . . ."[^3307]
 
 > ● When Lehman's repo trading desk in London informed personnel in Lehman's New York Fixed Income Division that certain Repo 105 counterparties were no longer interested in participating in Repo 105 transactions, Kentaro Umezaki wrote to Clement Bernard and Gerard Reilly, copying Kaushik Amin and Andrew Morton, stating "Looks like we may need to rethink how much of [Repo 105] we can rely on for balance sheet relief. Could someone in Finance coordinate how much of this we should expect to have available for balance sheet relief at month/quarter end going forward?"[^3308]
 
 %%page 862%%
 
-> ● Bernard wrote to Amin and Higgins on February 28, 2008, regarding FID's net balance sheet overage; in particular, Bernard indicated that FID's Rates business was $4.5 billion over target.[^3309] Bernard warned: "This will drive Lehman net leverage ratio above target. Please let me know what we can do to minimize this impact . . . . I know it is late in the process but what ever we can do would help our ratio."[^3310] Later that day, Bernard forwarded that message to Martin Potts, adding the message: "We are looking at selling what ever we can and also doing some more repo 105."3311
+> ● Bernard wrote to Amin and Higgins on February 28, 2008, regarding FID's net balance sheet overage; in particular, Bernard indicated that FID's Rates business was $4.5 billion over target.[^3309] Bernard warned: "This will drive Lehman net leverage ratio above target. Please let me know what we can do to minimize this impact . . . . I know it is late in the process but what ever we can do would help our ratio."[^3310] Later that day, Bernard forwarded that message to Martin Potts, adding the message: "We are looking at selling what ever we can and also doing some more repo 105."[^3311]
 
-> ● After successfully lobbying for additional Repo 105 capacity at quarter‐end, Jeff Michaels wrote to Amin: "The good news is . . . as soon as lehman gives the green light, we can reduce the net/gross by another 2.5–3 bn."3312
+> ● After successfully lobbying for additional Repo 105 capacity at quarter‐end, Jeff Michaels wrote to Amin: "The good news is . . . as soon as lehman gives the green light, we can reduce the net/gross by another 2.5–3 bn."[^3312]
 
 Indeed, Repo 105 transactions became such a deeply ingrained feature of balance sheet management that balance sheet targets and Repo 105 often were discussed together, as when Michaels e‐mailed Amin "a spreadsheet Tejal [Joshi] helped me put together with my suggested allocations for the global balance sheet/repo 105 for this quarter."[^3313] When Michaels explained in an e‐mail that he was working on balance target" and stating that "FID is forecasting to be $15 bn over quarter end limit" and FID leaders made a "[r]ecommendation that Repo 105 program is expanded."); e‐mail from Jerry Rizzieri, Lehman, to Kieran Higgins, Lehman, et al. (Apr. 22, 2008) [LBEX‐DOCID 756532] (following the announcement of "new balance sheet targets for quarter end," Rizzieri wrote: "We will need to be focused very early in the process in order to meet these targets," that there is "no room for error this quarter" and that accordingly "we also need to have a coordinated approach to repo 105 allocation").
 
@@ -2787,27 +2785,27 @@ Indeed, Repo 105 transactions became such a deeply ingrained feature of balance 
 
 sheet allocations, he wrote: "It is really a bottom‐up process about who has sticky inventory. Obviously in the US it is Agencies, and in London it is Inflation."[^3314]
 
-Lehman's internal balance sheets tracked the firm's Repo 105 usage and its resulting benefit to the firm‐wide balance sheet.[^3315] These balance sheets were used by management and were not reported externally.[^3316] LBHI's Global Consolidated Balance Sheet, for example, showed securities inventory levels pre‐Repo 105 usage and with Repo 105, and contained columns for "Repo 105/108 added back" as well as balance sheet targets.[^3317] The Fixed Income Division's Global Rates business's balance sheet projections spreadsheets recorded the balance sheet target and projected net balance sheet, and populated with data individual columns for "actual pre‐Repo 105," "Repo 105," "actual post‐Repo 105," and "Repo 105 target."[^3318] The Global Rates business's balance sheet management reports included side‐by‐side columns for gross balance sheet, net balance sheet, and Repo 105.3319 Other balance sheet spreadsheets from the
+Lehman's internal balance sheets tracked the firm's Repo 105 usage and its resulting benefit to the firm‐wide balance sheet.[^3315] These balance sheets were used by management and were not reported externally.[^3316] LBHI's Global Consolidated Balance Sheet, for example, showed securities inventory levels pre‐Repo 105 usage and with Repo 105, and contained columns for "Repo 105/108 added back" as well as balance sheet targets.[^3317] The Fixed Income Division's Global Rates business's balance sheet projections spreadsheets recorded the balance sheet target and projected net balance sheet, and populated with data individual columns for "actual pre‐Repo 105," "Repo 105," "actual post‐Repo 105," and "Repo 105 target."[^3318] The Global Rates business's balance sheet management reports included side‐by‐side columns for gross balance sheet, net balance sheet, and Repo 105.[^3319] Other balance sheet spreadsheets from the
 
 %%page 864%%
 
 %%page 865%%
 
-Rates business tracked net balance sheet, "[a]dditional Repo 105," reduction of government inventory, and total balance sheet reduction by trading desk.[^3320] Similarly, the Liquid Markets group within FID reported internal balance sheet projection figures for both gross and net balance sheet targets along with Repo 105.3321
+Rates business tracked net balance sheet, "[a]dditional Repo 105," reduction of government inventory, and total balance sheet reduction by trading desk.[^3320] Similarly, the Liquid Markets group within FID reported internal balance sheet projection figures for both gross and net balance sheet targets along with Repo 105.[^3321]
 
 Senior management exerted pressure, particularly at or near quarter‐end, to utilize the Repo 105 mechanism to meet the firm‐imposed balance sheet targets:
 
-> ● Four days before the close of Lehman's fiscal year in November 2007, Mitch King wrote to Marc Silverberg: "Let me know if we have room for any more repo 105. I have some more I can put in over month end."[^3322] Jerry Rizzieri, who reported directly to Kaushik Amin, replied to King: "Can you imagine what this would be like without 105?"3323
+> ● Four days before the close of Lehman's fiscal year in November 2007, Mitch King wrote to Marc Silverberg: "Let me know if we have room for any more repo 105. I have some more I can put in over month end."[^3322] Jerry Rizzieri, who reported directly to Kaushik Amin, replied to King: "Can you imagine what this would be like without 105?"[^3323]
 
-> ● On February 28, 2008, one day before the close of Lehman's first quarter 2008, Amin, then‐Head of Liquid Markets, wrote to Kieran Higgins: "We have a desperate situation and I need another 2 billion from you, either through Repo 105 or outright sales. Cost is irrelevant, we need to do it."3324
+> ● On February 28, 2008, one day before the close of Lehman's first quarter 2008, Amin, then‐Head of Liquid Markets, wrote to Kieran Higgins: "We have a desperate situation and I need another 2 billion from you, either through Repo 105 or outright sales. Cost is irrelevant, we need to do it."[^3324]
 
-> ● Also on February 28, 2008, Mark Gavin wrote to John Feraca: "Just took a call from FID mgmt ‐ seems they're up on net b/s by 3 bln unanticipated & are a little excited w Q end. I am looking to do an additional repo 105 with Mizuho. . . ."3325
+> ● Also on February 28, 2008, Mark Gavin wrote to John Feraca: "Just took a call from FID mgmt ‐ seems they're up on net b/s by 3 bln unanticipated & are a little excited w Q end. I am looking to do an additional repo 105 with Mizuho. . . ."[^3325]
 
 %%page 866%%
 
-> ● Higgins wrote to Jeff Michaels, on May 2, 2008: "In light of…the firms max ratio at q end to month avg [] we started to [Repo] 105 irp balance sheet several weeks ago for q end (this has a real cost though)."3326
+> ● Higgins wrote to Jeff Michaels, on May 2, 2008: "In light of…the firms max ratio at q end to month avg [] we started to [Repo] 105 irp balance sheet several weeks ago for q end (this has a real cost though)."[^3326]
 
-> ● On May 21, 2008, Amin wrote to Higgins: "Let's max out on the Repo 105 for your stuff and see where end up."3327 When Amin asked Higgins for an update on the balance sheet management, Higgins replied: "[A]nything that moves is getting 105'd."3328
+> ● On May 21, 2008, Amin wrote to Higgins: "Let's max out on the Repo 105 for your stuff and see where end up."[^3327] When Amin asked Higgins for an update on the balance sheet management, Higgins replied: "[A]nything that moves is getting 105'd."[^3328]
 
 > ● In an e‐mail from McGarvey to Reilly written ten days before the close of Lehman's second quarter 2008, McGarvey wrote: "Kaushik [Amin] has just requested that they do as much Repo 105 as possible."[^3329]
 
@@ -2849,7 +2847,7 @@ Lehman relied upon Repo 105 transactions to reduce its net balance sheet at quar
 
 > ● Murtaza Bhallo, the former Business/Risk Manager for PTG Liquid Markets, said that Repo 105 was "an accounting gimmick."[^3347]
 
-> ● Mitch King was the former head of Lehman's United States Agencies trading desk who was required on a weekly basis to compile lists of collateral available for inclusion in Repo 105 transactions and send the lists to LBIE personnel.[^3348] King stated that no business purpose existed for Repo 105 transactions other than to reduce Lehman's net balance sheet.[^3349] King referred to Lehman's Repo 105 program as a "nuisance."[^3350] Accordingly, he said, "[t]here was no reason for me to go out and Repo 105."3351 King further stated that "[f]rom a trader's perspective, I would have rather never seen anything Repo 105‐related. It was just another thing I had to do that was not a trade and that was not a part of my business. I would not go out and seek to Repo 105 [i.e., if he wasn't required to by superiors]."3352
+> ● Mitch King was the former head of Lehman's United States Agencies trading desk who was required on a weekly basis to compile lists of collateral available for inclusion in Repo 105 transactions and send the lists to LBIE personnel.[^3348] King stated that no business purpose existed for Repo 105 transactions other than to reduce Lehman's net balance sheet.[^3349] King referred to Lehman's Repo 105 program as a "nuisance."[^3350] Accordingly, he said, "[t]here was no reason for me to go out and Repo 105."[^3351] King further stated that "[f]rom a trader's perspective, I would have rather never seen anything Repo 105‐related. It was just another thing I had to do that was not a trade and that was not a part of my business. I would not go out and seek to Repo 105 [i.e., if he wasn't required to by superiors]."[^3352]
 
 %%page 870%%
 
@@ -2897,7 +2895,7 @@ When pressed to identify any legitimate business purpose for Lehman's use of Rep
 
 #### Repo 105 Transactions Came at a Higher Cost Than Ordinary Repo Transactions
 
-Nothing prevented Lehman from engaging in a traditional overnight repo transaction – using the same assets, with the same counterparty, but at a lower haircut (e.g.,[^102] assets/$100 versus 105 or 108 assets/$100) and lower cost – on any particular date when Lehman engaged in a Repo 105 transaction.[^3373] The more expensive route was taken because the traditional repo transaction would not have provided Lehman the balance sheet benefit that Repo 105 transactions provided to the firm – namely, Repo 105 transactions enabled Lehman to reverse engineer its externally reported net balance sheet and net leverage ratio for public consumption.[^3374]
+Nothing prevented Lehman from engaging in a traditional overnight repo transaction – using the same assets, with the same counterparty, but at a lower haircut (e.g., 102 assets/$100 versus 105 or 108 assets/$100) and lower cost – on any particular date when Lehman engaged in a Repo 105 transaction.[^3373] The more expensive route was taken because the traditional repo transaction would not have provided Lehman the balance sheet benefit that Repo 105 transactions provided to the firm – namely, Repo 105 transactions enabled Lehman to reverse engineer its externally reported net balance sheet and net leverage ratio for public consumption.[^3374]
 
 %%page 878%%
 
@@ -2961,13 +2959,13 @@ Kelly's concerns about Lehman's use of Repo 105 transactions prompted him to rai
 
 %%page 887%%
 
-Kelly spoke first to Callan and then to Lowitt, Callan's successor, regarding Lehman's use of Repo 105 transactions on separate occasions when each was serving as Lehman's CFO.3407 Kelly recalled raising the following topics in his Repo 105 conversations with both Callan and Lowitt: (1) Kelly's discomfort with the possible "reputational risk" Lehman would suffer if the investing public and analysts learned that Lehman used Repo 105 transactions solely to reduce its balance sheet; (2) the size of Lehman's Repo 105 program, that is, the volume of Repo 105 transactions that Lehman undertook at quarter‐end to reduce its balance sheet; (3) the "technical basis," from an accounting perspective, by which Lehman was authorized to engage in Repo 105 transactions; (4) Kelly's belief that none of Lehman's peer investment banks used Repo 105 transactions; and (5) the fact that Lehman's Repo 105 activity was "skewed at quarter‐end," in other words, that the firm's Repo 105 usage spiked at quarter‐end, during Lehman's reporting periods.[^3408]
+Kelly spoke first to Callan and then to Lowitt, Callan's successor, regarding Lehman's use of Repo 105 transactions on separate occasions when each was serving as Lehman's CFO.[^3407] Kelly recalled raising the following topics in his Repo 105 conversations with both Callan and Lowitt: (1) Kelly's discomfort with the possible "reputational risk" Lehman would suffer if the investing public and analysts learned that Lehman used Repo 105 transactions solely to reduce its balance sheet; (2) the size of Lehman's Repo 105 program, that is, the volume of Repo 105 transactions that Lehman undertook at quarter‐end to reduce its balance sheet; (3) the "technical basis," from an accounting perspective, by which Lehman was authorized to engage in Repo 105 transactions; (4) Kelly's belief that none of Lehman's peer investment banks used Repo 105 transactions; and (5) the fact that Lehman's Repo 105 activity was "skewed at quarter‐end," in other words, that the firm's Repo 105 usage spiked at quarter‐end, during Lehman's reporting periods.[^3408]
 
 %%page 888%%
 
 #### Lehman's Repo 105 Practice Had a Material Impact on Lehman's Net Leverage Ratio
 
-Lehman's Repo 105 practice at quarter‐end in late 2007 and for the first two quarters 2008 had a material impact on Lehman's publicly‐reported net leverage ratio – and Lehman management knew it. For example, in a December 5, 2007 e‐mail, Bismal reported that Lehman "would be at net leverage of 18.0x [vs say 16.3x] without repo 105/8."3409 Consistent with Bismal's e‐mail, Lehman publicly reported a firm‐wide net leverage ratio of 16.1x in its Form 10‐K for the 2007 fiscal year.[^3410]
+Lehman's Repo 105 practice at quarter‐end in late 2007 and for the first two quarters 2008 had a material impact on Lehman's publicly‐reported net leverage ratio – and Lehman management knew it. For example, in a December 5, 2007 e‐mail, Bismal reported that Lehman "would be at net leverage of 18.0x [vs say 16.3x] without repo 105/8."[^3409] Consistent with Bismal's e‐mail, Lehman publicly reported a firm‐wide net leverage ratio of 16.1x in its Form 10‐K for the 2007 fiscal year.[^3410]
 
 Using Lehman's firm‐wide Repo 105 usage at the end of each quarter from November 2006 through May 2008, the Examiner analyzed the impact that Lehman's removal of assets from its balance sheet using Repo 105 transactions had on the firm's publicly‐reported net leverage ratio. As the chart below demonstrates, for each of those seven reporting periods – fourth quarter 2006 through second quarter 2008 – by employing Repo 105 transactions rather than ordinary repo transactions, Lehman was able to reduce its published net leverage ratio by a minimum of 9%, with that reduction increasing to 12% and 15% in first quarter 2008 and second quarter 2008, respectively:
 
@@ -3009,7 +3007,7 @@ Asset and Equity data: Lehman Brothers' SEC 10‐K and 10‐Q filings.
 
 Repo 105/108 Usage: Q4 2006, Q1, Q2 and Q3 2007: LBEX‐DOCID 3363434; Q4 2007: LBEX‐DOCID 3219746; Q1 and Q2 2008: LBEX‐DOCID 2078195
 
-A walk‐through document related to Ernst & Young's 2007 fiscal year‐end audit of Lehman defines "materiality," with respect to the process for reopening or adjusting a closed balance sheet, as "any item individually, or in the aggregate, that moves net leverage by 0.1 or more (typically $1.8 billion)."3411 William Schlich, former lead partner on Ernst &
+A walk‐through document related to Ernst & Young's 2007 fiscal year‐end audit of Lehman defines "materiality," with respect to the process for reopening or adjusting a closed balance sheet, as "any item individually, or in the aggregate, that moves net leverage by 0.1 or more (typically $1.8 billion)."[^3411] William Schlich, former lead partner on Ernst &
 
 Young's Lehman team, stated that this was Lehman's, rather than Ernst & Young's, definition of materiality and that it represented "Lehman's determination of a materiality threshold" in connection with Lehman's own criteria for when to consider reopening and adjusting the closed balance sheet.[^3412]
 
@@ -3025,7 +3023,7 @@ Although Lehman had used Repo 105 transactions since 2001, beginning in mid‐ 2
 
 105 was $38.63 billion, in contrast to the $25 billion internal limit supposedly in effect at that time.[^3415]
 
-Total Repo 105/108 at Quarter‐End 3416
+Total Repo 105/108 at Quarter‐End[^3416]
 
 Q3 2006 Q4 2006 Q1 2007 Q2 2007 Q3 2007 Q4 2007 Q1 2008 Q2 2008 Repo 105 n/a $19.213 $20.578 $23.054 $29.054 $29.727 $42.200 $44.536 Repo 108 n/a $5.091 $6.4 $8.575 $6.863 $8.854 $6.902 $5.847 Total $27.153 $24.519 $27.284 $31.943 $36.407 $38.634 $49.102 $50.383
 
@@ -3061,7 +3059,7 @@ By the close of Lehman's first quarter 2008, February 29, 2008, Lehman's total R
 
 %%page 897%%
 
-> Repo 1051 Usage vs.[^1] X Tangible Equity (Repo 105 Usage as a Multiple of Tangible Equity) 50,000
+> Repo 1051 Usage vs. 1 X Tangible Equity (Repo 105 Usage as a Multiple of Tangible Equity) 50,000
 
 > 1.6 X 45,000 1.6 X
 
@@ -3103,7 +3101,7 @@ Repo 105 usage in 2008; (2) he was informed that the usage had doubled since 200
 
 %%page 898%%
 
-(3) he pressured FID leaders to meet quarter‐end balance sheet targets by means of either sales of assets or Repo 105 transactions.[^3434] When asked by the Examiner if the significant increase in Lehman's firm‐wide Repo 105 usage in late 2007 and 2008 caused him any alarm, Bernard answered: "no."3435
+(3) he pressured FID leaders to meet quarter‐end balance sheet targets by means of either sales of assets or Repo 105 transactions.[^3434] When asked by the Examiner if the significant increase in Lehman's firm‐wide Repo 105 usage in late 2007 and 2008 caused him any alarm, Bernard answered: "no."[^3435]
 
 Lehman's Repo 105 usage as of November 30, 2007, February 29, 2008, and May 31, 2008 was "in line with" what John Feraca, the former head of the Secured Funding Desk for Lehman's Prime Services Group, "would have expected" even though it far exceeded the last known limit of $25 billion, which was in place in early 2007.[^3436] The ramp‐up in Lehman's firm‐wide Repo 105 usage was "probably a combination of an increase in limits and a lack of policing, though probably more of the latter."[^3437] Feraca continued: "The fact that we were going to breach the [Repo 105] limit at quarter‐end was not an issue for management."[^3438] Feraca had no recollection "of anyone saying 'you're over limit,'" nor did he have any recollection of a formal increase of the Repo 105 limit.[^3439] "I know why it happened. The business wanted more, needed more, to make targets. The numbers were reported internally, daily, so there was transparency, but there was no stoppage."[^3440]
 
@@ -3111,17 +3109,17 @@ Lehman's Repo 105 usage as of November 30, 2007, February 29, 2008, and May 31, 
 
 #### Balance Sheet Targets for FID Businesses Were Unsustainable Without the Use of Repo 105 Transactions
 
-Bart McDade's description of the Repo 105 mechanism for quarter‐end balance sheet relief as a "drug" was apt: Repo 105 enhanced Lehman's reported net leverage ratio and without the artificial floor Repo 105 created, balance sheet and net leverage ratio targets were beyond reach. In a March 19, 2008 e‐mail to McDade, Andrew Morton, Mark Walsh, and other Lehman personnel, Munir Dauhajire warned that "RUNNING A FIRM WIDE BALANCE SHEET OF 15.3 X LEVG IS NOT GOING TO BE A SUSTAINABLE BUSINESS MODEL FOR THE FIRM."3441
+Bart McDade's description of the Repo 105 mechanism for quarter‐end balance sheet relief as a "drug" was apt: Repo 105 enhanced Lehman's reported net leverage ratio and without the artificial floor Repo 105 created, balance sheet and net leverage ratio targets were beyond reach. In a March 19, 2008 e‐mail to McDade, Andrew Morton, Mark Walsh, and other Lehman personnel, Munir Dauhajire warned that "RUNNING A FIRM WIDE BALANCE SHEET OF 15.3 X LEVG IS NOT GOING TO BE A SUSTAINABLE BUSINESS MODEL FOR THE FIRM."[^3441]
 
 %%page 900%%
 
 After engaging in over $49.1 billion and $50.38 billion of Repo 105 transactions at the end of the first and second quarters 2008, respectively, by June 2008, when Bart McDade had become President and COO, McDade set a quarter‐end Repo 105 target for third quarter 2008 of $25 billion.[^3442] The evidence also shows that senior Lehman management sought to completely abolish the firm's use of Repo 105 transactions by the beginning of the fourth quarter 2008.[^3443]
 
-The reduction in Repo 105 usage for third became well known throughout the firm.[^3444] A July 2008 e‐mail noted that "[t]he exec committee wanted the number [of Repo 105] cut in half."[^3445] The result of the announced reduction in approved firm‐wide Repo 105 usage was disquiet. As one internal Lehman presentation put succinctly: "Wean ourselves off Repo 105 ASAP!"3446
+The reduction in Repo 105 usage for third became well known throughout the firm.[^3444] A July 2008 e‐mail noted that "[t]he exec committee wanted the number [of Repo 105] cut in half."[^3445] The result of the announced reduction in approved firm‐wide Repo 105 usage was disquiet. As one internal Lehman presentation put succinctly: "Wean ourselves off Repo 105 ASAP!"[^3446]
 
 %%page 901%%
 
-When in June 2008 Reilly communicated the proposed $25 billion Repo 105 cap for third quarter 2008, Andrew Morton, then‐Head of FID, replied: "rates business cannot survive at these levels, ie reducing r105 by 20."3447 When also in June 2008, Paul Mitrokostas, the Chief Operating Officer of FID, communicated the third quarter 2008 balance sheet target and the fact that FID's Repo 105 limit for that quarter was being reduced to $25 billion, Amin protested that a $55 billion net balance sheet limit for the firm's Rates business, with $22 billion less of Repo 105 capacity available at quarter‐end, was unsustainable: "We can't run the business under those parameters."[^3448]
+When in June 2008 Reilly communicated the proposed $25 billion Repo 105 cap for third quarter 2008, Andrew Morton, then‐Head of FID, replied: "rates business cannot survive at these levels, ie reducing r105 by 20."[^3447] When also in June 2008, Paul Mitrokostas, the Chief Operating Officer of FID, communicated the third quarter 2008 balance sheet target and the fact that FID's Repo 105 limit for that quarter was being reduced to $25 billion, Amin protested that a $55 billion net balance sheet limit for the firm's Rates business, with $22 billion less of Repo 105 capacity available at quarter‐end, was unsustainable: "We can't run the business under those parameters."[^3448]
 
 Similarly, Jeff Michaels complained to Amin in July 2008 that given the reduction in FID's Repo 105 capacity for third quarter 2008, and the complete curtailment of Repo 105 usage in fourth quarter 2008, "there are not many places we can reallocate balance sheet from if Repo 105 is gone for the inflation book."[^3449] In another e‐mail, Michaels wrote: "[Repo] 105 is going to zero in Q4, which means we either need more balance sheet from FID or we need to make significant reductions in Europe, which has not happened until now. There is no way we can make Q4 balance sheet without Repo 105 unless our inflation inventory is cut by 60‐75% from current levels."[^3450]
 
@@ -3129,7 +3127,7 @@ Similarly, Jeff Michaels complained to Amin in July 2008 that given the reductio
 
 #### Rating Agencies Advised the Examiner that Lehman's Accounting Treatment and Use of Repo 105 Transactions to Manage Its Net Leverage Ratio Would Have Been Relevant Information
 
-Just as it did in its Forms 10‐Q and 10‐K, Lehman emphasized its net leverage ratio to the ratings agencies throughout 2008 as Lehman attempted to forestall a ratings downgrade. The concerted effort by Lehman's senior management to cut the balance sheet by half, achieved by reducing the firm's net leverage ratio, and Lehman's public statements about this achievement, improved the firm's standing with at least two of the three rating agencies, Fitch Rating ("Fitch"), and Standard & Poor's ("S&P").3451
+Just as it did in its Forms 10‐Q and 10‐K, Lehman emphasized its net leverage ratio to the ratings agencies throughout 2008 as Lehman attempted to forestall a ratings downgrade. The concerted effort by Lehman's senior management to cut the balance sheet by half, achieved by reducing the firm's net leverage ratio, and Lehman's public statements about this achievement, improved the firm's standing with at least two of the three rating agencies, Fitch Rating ("Fitch"), and Standard & Poor's ("S&P").[^3451]
 
 In May 2008, Lehman gave a presentation to Moody's Investor Service in which one of the key messages in the presentation was that because Lehman had strengthened its capital position through "active deleveraging" including "approximately $50 billion reduction in net assets," no negative rating action for the firm was justified.[^3452] The presentation to Moody's noted that net leverage was expected to decrease from 15.4x to 12.6x and that the net balance sheet reduction of $50.38 billion in second quarter 2008 included key FID high‐risk assets, such as commercial and residential mortgages.[^3453] Lehman's presentation also noted that the "net leverage ratio" was "heavily quoted by journalists and analysts."[^3454]
 
@@ -3145,7 +3143,7 @@ On June 5, 2008, Lehman made a similar presentation to S&P in which Lehman advan
 
 Nowhere in the presentations that Lehman made to the rating agencies in May or June 2008 did Lehman disclose its use of Repo 105 transactions, the impact Repo 105 transactions had on the firm's quarter‐end balance sheet, or the impact Repo 105 transactions ultimately had on Lehman's net leverage ratio.[^3462]
 
-Following Fitch's decision in June 2008 to downgrade Lehman by one ratings grade, from AA‐ to A+ (long‐term) and F‐1+ to F‐1 (short‐term), Tonucci sent Fitch another Lehman presentation "to consider in the context of a potential appeal."[^3463] Lehman marshaled certain facts in defense of its "disagreement" with the ratings downgrade by Fitch. Under the heading "Significant Shrinkage of the Balance Sheet," Lehman informed Fitch that "Net balance sheet (primarily inventory) is expected to be almost $70 billion lower than Q1 '08. . . ."3464 Not including the impact of the $4 billion common equity and $2 billion non‐cumulative preferred offering that Lehman had undertaken in June 2008, Lehman boasted to Fitch that it reduced its net leverage ratio from 15.4x in first quarter 2008 to an anticipated 12.0x in second quarter 2008.[^3465] Accounting for the equity raise, Lehman touted that it had reached its "lowest leverage ratios since becoming a public firm."[^3466]
+Following Fitch's decision in June 2008 to downgrade Lehman by one ratings grade, from AA‐ to A+ (long‐term) and F‐1+ to F‐1 (short‐term), Tonucci sent Fitch another Lehman presentation "to consider in the context of a potential appeal."[^3463] Lehman marshaled certain facts in defense of its "disagreement" with the ratings downgrade by Fitch. Under the heading "Significant Shrinkage of the Balance Sheet," Lehman informed Fitch that "Net balance sheet (primarily inventory) is expected to be almost $70 billion lower than Q1 '08. . . ."[^3464] Not including the impact of the $4 billion common equity and $2 billion non‐cumulative preferred offering that Lehman had undertaken in June 2008, Lehman boasted to Fitch that it reduced its net leverage ratio from 15.4x in first quarter 2008 to an anticipated 12.0x in second quarter 2008.[^3465] Accounting for the equity raise, Lehman touted that it had reached its "lowest leverage ratios since becoming a public firm."[^3466]
 
 %%page 905%%
 
@@ -3161,7 +3159,7 @@ The Examiner inquired whether, if Fitch had known about Lehman's use of such tra
 
 %%page 907%%
 
-Fahey also remarked that treating a repo transaction as a sale (thereby removing the securities from the transferor's balance sheet) appears to be an accounting manipulation done to make the business look better, as contrasted with an ordinary repo transaction, which she described as a financing transaction done in the regular course of business (and for which the securities remain on the transferor's balance sheet).3473 Fahey likened this "manipulation" to an investment bank telling regulators that it did not own any mortgage‐backed securities when, in fact, it owned them but had temporarily transferred them to a counterparty and was obligated to repurchase them shortly thereafter.[^3474]
+Fahey also remarked that treating a repo transaction as a sale (thereby removing the securities from the transferor's balance sheet) appears to be an accounting manipulation done to make the business look better, as contrasted with an ordinary repo transaction, which she described as a financing transaction done in the regular course of business (and for which the securities remain on the transferor's balance sheet).[^3473] Fahey likened this "manipulation" to an investment bank telling regulators that it did not own any mortgage‐backed securities when, in fact, it owned them but had temporarily transferred them to a counterparty and was obligated to repurchase them shortly thereafter.[^3474]
 
 Diane Hinton, an analyst at Standard & Poor's and the firm's lead analyst for Lehman from April 2007 until July 2008, likewise was unaware of Lehman engaging in Repo 105 transactions.[^3475] When the Examiner described the "true sale" accounting treatment of Repo 105 transactions to Hinton, she stated that S&P "would have wanted to know" if Lehman had moved $20 billion, $40 billion, or $50 billion in net assets off its balance sheet at quarter‐end.[^3476] When asked whether it would have changed her answers if the securities that were removed from the balance sheet in Repo 105 transactions were liquid, Hinton responded that it would not.[^3477]
 
@@ -3169,7 +3167,7 @@ Diane Hinton, an analyst at Standard & Poor's and the firm's lead analyst for Le
 
 Hinton explained that S&P looked at leverage ratios – including the net leverage ratio – in the context of its capital analysis of Lehman. Hinton further explained that S&P began its calculation of the net leverage ratio with information taken solely from Lehman's Forms 10‐K and 10‐Q, and that "anything that affects the balance sheet is something we would have wanted to know."[^3478] She further stated that S&P only tracked Lehman's leverage ratios at quarter‐end.[^3479] She said that any change in the net leverage ratio would have been relevant, but whether such a change was relevant to S&P's rating of Lehman would depend on other factors and committee deliberations.[^3480]
 
-Peter Nerby of Moody's similarly stated that Moody's had no knowledge of Lehman engaging in Repo 105 transactions, either by name or by description.[^3481] However, unlike S&P and Fitch, the net leverage ratio did not drive many rating decisions at Moody's.3482 Nerby said that Lehman would have been aware that Moody's considered net leverage ratio to have "limited usefulness" as revealed by Moody's published rating methodology.[^3483] Still, Nerby stated that if Lehman reduced its net balance sheet by $20 billion or up to $50 billion, he would have wanted to know and that Moody's would have looked to see if and where the reduction was captured by some risk measure.[^3484]
+Peter Nerby of Moody's similarly stated that Moody's had no knowledge of Lehman engaging in Repo 105 transactions, either by name or by description.[^3481] However, unlike S&P and Fitch, the net leverage ratio did not drive many rating decisions at Moody's.[^3482] Nerby said that Lehman would have been aware that Moody's considered net leverage ratio to have "limited usefulness" as revealed by Moody's published rating methodology.[^3483] Still, Nerby stated that if Lehman reduced its net balance sheet by $20 billion or up to $50 billion, he would have wanted to know and that Moody's would have looked to see if and where the reduction was captured by some risk measure.[^3484]
 
 %%page 909%%
 
@@ -3183,7 +3181,7 @@ Lehman did not disclose the fact of its engaging in Repo 105 transactions, or an
 
 #### Officials from the Federal Reserve Bank Would Have Wanted to Know about Lehman's Use of Repo 105 Transactions
 
-From 2003 to 2009, Treasury Secretary Timothy Geithner served as President of the Federal Reserve Bank of New York ("FRBNY"). The Examiner described to Secretary Geithner how Lehman used Repo 105 transactions to remove approximately $50 billion of liquid assets from the balance sheet at quarter‐end in 2008 and explained that this practice reduced Lehman's net leverage. Secretary Geithner "did not recall being aware of" Lehman's Repo 105 program, but stated: "If this had been a bank we were supervising, that [i.e., Lehman's Repo 105 program] would have been a huge issue for the New York Fed."3489
+From 2003 to 2009, Treasury Secretary Timothy Geithner served as President of the Federal Reserve Bank of New York ("FRBNY"). The Examiner described to Secretary Geithner how Lehman used Repo 105 transactions to remove approximately $50 billion of liquid assets from the balance sheet at quarter‐end in 2008 and explained that this practice reduced Lehman's net leverage. Secretary Geithner "did not recall being aware of" Lehman's Repo 105 program, but stated: "If this had been a bank we were supervising, that [i.e., Lehman's Repo 105 program] would have been a huge issue for the New York Fed."[^3489]
 
 %%page 911%%
 
@@ -3247,7 +3245,7 @@ It appears that Fuld did not attend the March 28 meeting, but Bart McDade recall
 
 %%page 920%%
 
-Based upon their conversation, McDade understood that "Fuld knew, at a basic level, that Repo 105 was used in the firm's bond business" and that Fuld "was familiar with the term Repo 105."3524 McDade recalled that when he advised Fuld in June 2008 that Lehman should reduce its Repo 105 usage to $25 billion, "Fuld understood that this would put pressure on traders."[^3525] McDade also recalled that "Fuld knew about the accounting of Repo 105."3526
+Based upon their conversation, McDade understood that "Fuld knew, at a basic level, that Repo 105 was used in the firm's bond business" and that Fuld "was familiar with the term Repo 105."[^3524] McDade recalled that when he advised Fuld in June 2008 that Lehman should reduce its Repo 105 usage to $25 billion, "Fuld understood that this would put pressure on traders."[^3525] McDade also recalled that "Fuld knew about the accounting of Repo 105."[^3526]
 
 %%page 921%%
 
@@ -3261,13 +3259,13 @@ Chris O'Meara served as Lehman's CFO from December 2004 through December 2007.[^
 
 %%page 922%%
 
-Internal Lehman documents and interview statements of other witnesses evidence greater involvement than O'Meara recalls. For example, the July 2006 internal Lehman Power Point presentation titled "Overview of Repo 105 (FID)/108 (Equities)" identifies numerous "Operating Rules" related to Lehman's Repo 105 program, including "Repo 105 is capped at $17B (1 x leverage) [per Chris O'Meara and Ed Grieb]"; "Repo 108 is capped at $5B [per Chris O'Meara and Ed Grieb]"; and "Repo 105 transactions must be executed on a continual basis and remain in force throughout the month. To meet this requirement, the amount outstanding at any time should be maintained at approximately 80% of the amount at month‐end. [per Chris O'Meara and Ed Grieb]."3532
+Internal Lehman documents and interview statements of other witnesses evidence greater involvement than O'Meara recalls. For example, the July 2006 internal Lehman Power Point presentation titled "Overview of Repo 105 (FID)/108 (Equities)" identifies numerous "Operating Rules" related to Lehman's Repo 105 program, including "Repo 105 is capped at $17B (1 x leverage) [per Chris O'Meara and Ed Grieb]"; "Repo 108 is capped at $5B [per Chris O'Meara and Ed Grieb]"; and "Repo 105 transactions must be executed on a continual basis and remain in force throughout the month. To meet this requirement, the amount outstanding at any time should be maintained at approximately 80% of the amount at month‐end. [per Chris O'Meara and Ed Grieb]."[^3532]
 
 %%page 923%%
 
-During O'Meara's second interview, the Examiner showed O'Meara the July 2006 presentation.[^3533] O'Meara said he had never before seen the presentation and did not know who drafted it.3534 O'Meara continued that he had "no specific recollection" that he was involved in setting firm‐wide limits or caps for Lehman's Repo 105 usage.[^3535] When the Examiner asked directly whether he was the "source for the cap on Repo 105," O'Meara said no.3536 O'Meara further said that he could not recall if anyone ever told him that Repo 105 transactions would help reduce Lehman's balance sheet or net leverage.[^3537]
+During O'Meara's second interview, the Examiner showed O'Meara the July 2006 presentation.[^3533] O'Meara said he had never before seen the presentation and did not know who drafted it.[^3534] O'Meara continued that he had "no specific recollection" that he was involved in setting firm‐wide limits or caps for Lehman's Repo 105 usage.[^3535] When the Examiner asked directly whether he was the "source for the cap on Repo 105," O'Meara said no.[^3536] O'Meara further said that he could not recall if anyone ever told him that Repo 105 transactions would help reduce Lehman's balance sheet or net leverage.[^3537]
 
-Finally, when asked why Lehman would choose to engage in Repo 105 transactions instead of ordinary repo transactions, given the higher haircut for Repo 105 transactions, O'Meara could not explain, saying only "I'm just not close enough to it."3538 O'Meara stated also that he could not recall having any conversations regarding Lehman's Repo 105 program with Richard Fuld, Joe Gregory, Erin Callan, Ed Grieb, any Government personnel, or anyone from the ratings agencies.[^3539]
+Finally, when asked why Lehman would choose to engage in Repo 105 transactions instead of ordinary repo transactions, given the higher haircut for Repo 105 transactions, O'Meara could not explain, saying only "I'm just not close enough to it."[^3538] O'Meara stated also that he could not recall having any conversations regarding Lehman's Repo 105 program with Richard Fuld, Joe Gregory, Erin Callan, Ed Grieb, any Government personnel, or anyone from the ratings agencies.[^3539]
 
 %%page 924%%
 
@@ -3291,7 +3289,7 @@ Repo 105 program:
 
 Documents also establish that O'Meara continued to be involved in Lehman's
 
-Repo 105 program after leaving the CFO position in December 20073554 and taking on the role of Chief Risk Officer:
+Repo 105 program after leaving the CFO position in December 2007[^3554] and taking on the role of Chief Risk Officer:
 
 %%page 927%%
 
@@ -3307,7 +3305,7 @@ thinks better if didn't come from him and better to present as consistent with w
 
 %%page 928%%
 
-> ● A June 17, 2008 e‐mail from Reilly to O'Meara, McDade, Lowitt, and Morton, attached a "strawman target doc for Q3" entitled "Balance Sheet and Key Disclosures 2008 3Q Targets."[^3562] The attachment, dated June 16, 2008, identified not only net and gross balance sheet targets for various Lehman business groups, but also contained a Repo 105 target chart.[^3563] The Repo 105 target chart noted the total volume of Repo 1053564 transactions Lehman engaged in at quarter‐end for fourth quarter 2007 ($38.6 billion), first quarter 2008 ($49.1 billion), and second quarter 2008 ($50.3 billion).3565 On June 17, 2008, O'Meara replied to Reilly and the other recipients of Reilly's e‐mail, stating: "A meeting is being set up to discuss this, this week."[^3566]
+> ● A June 17, 2008 e‐mail from Reilly to O'Meara, McDade, Lowitt, and Morton, attached a "strawman target doc for Q3" entitled "Balance Sheet and Key Disclosures 2008 3Q Targets."[^3562] The attachment, dated June 16, 2008, identified not only net and gross balance sheet targets for various Lehman business groups, but also contained a Repo 105 target chart.[^3563] The Repo 105 target chart noted the total volume of Repo 105[^3564] transactions Lehman engaged in at quarter‐end for fourth quarter 2007 ($38.6 billion), first quarter 2008 ($49.1 billion), and second quarter 2008 ($50.3 billion).[^3565] On June 17, 2008, O'Meara replied to Reilly and the other recipients of Reilly's e‐mail, stating: "A meeting is being set up to discuss this, this week."[^3566]
 
 > ● When Bank of France terminated a Repo 105 trade in September 2008, O'Meara received an e‐mail with subject line "IRP LBI inventory risk" informing him of the fail.[^3567]
 
@@ -3331,7 +3329,7 @@ Martin Kelly told the Examiner that he spoke to Callan about Kelly's discomfort 
 
 %%page 931%%
 
-With regard to Kelly's discussion with Callan of the very technical accounting basis underlying Lehman's reliance on Repo 105 transactions, Kelly "wanted Callan to make sure Repo 105 transactions were being accounted for properly."[^3574] Indeed, Kelly recalled a detailed discussion with Callan about each of SFAS 140's requirements for a transaction to receive "true sale" accounting treatment.[^3575] Kelly "wanted to present [to Callan] a balanced analysis of the transactions . . . what GAAP requires and . . . [whether] we compl[ied] with GAAP."3576
+With regard to Kelly's discussion with Callan of the very technical accounting basis underlying Lehman's reliance on Repo 105 transactions, Kelly "wanted Callan to make sure Repo 105 transactions were being accounted for properly."[^3574] Indeed, Kelly recalled a detailed discussion with Callan about each of SFAS 140's requirements for a transaction to receive "true sale" accounting treatment.[^3575] Kelly "wanted to present [to Callan] a balanced analysis of the transactions . . . what GAAP requires and . . . [whether] we compl[ied] with GAAP."[^3576]
 
 With respect to the issue that none of Lehman's peer investment banks used Repo 105 transactions, Kelly informed Callan of this understanding because he "was trying to give Callan a balanced presentation or analysis" and "wanted to frame the quantum of risk involved in the program."[^3577]
 
@@ -3355,17 +3353,17 @@ Callan, however, attended the March 28, 2008 Executive Committee meeting request
 
 %%page 935%%
 
-(1) an agenda, listing "Repo 105/108" as one of seven topics to be discussed, and (2) a "Balance Sheet and Cash Capital Update," the first page of which included various firm‐wide financial data, including a column titled "Repo 105/108," which listed the $49.1 billion in Repo 105 transactions that Lehman had undertaken at the end of the first quarter 2008.[^3596] The presentation also broke out the volumes of Repo 105 usage by business segment.[^3597] McDade specifically recalled discussing with Executive Committee members on March 28, 2008, Lehman's use of Repo 105 transactions and recommending that Lehman place a cap on Repo 105.3598 On April 9, 2008, twelve days after McDade's presentation to the Executive Committee, Callan signed Lehman's quarterly report for first quarter 2008.[^3599]
+(1) an agenda, listing "Repo 105/108" as one of seven topics to be discussed, and (2) a "Balance Sheet and Cash Capital Update," the first page of which included various firm‐wide financial data, including a column titled "Repo 105/108," which listed the $49.1 billion in Repo 105 transactions that Lehman had undertaken at the end of the first quarter 2008.[^3596] The presentation also broke out the volumes of Repo 105 usage by business segment.[^3597] McDade specifically recalled discussing with Executive Committee members on March 28, 2008, Lehman's use of Repo 105 transactions and recommending that Lehman place a cap on Repo 105.[^3598] On April 9, 2008, twelve days after McDade's presentation to the Executive Committee, Callan signed Lehman's quarterly report for first quarter 2008.[^3599]
 
 During her tenure as CFO, Callan received numerous other documents that referenced Lehman's use of Repo 105 transactions to meet balance sheet targets.
 
-> ● In a January 2008 e‐mail, Reilly forwarded Callan an e‐mail in which McGarvey informed Bernard that Rates (a business within the Fixed Income Division) was running over its balance sheet target for December 2007 by $72.3 billion and that a contributing factor was that Rates was using $18 billion less in Repo 105 transactions in December 2007 because there was little counterparty appetite.[^3600] In his e‐mail to Callan, Reilly referenced the balance sheet overage and stated, "Repo 105 liquidity was very tight (this should only be a year end issue but I don't recall it being this material in the past)."3601
+> ● In a January 2008 e‐mail, Reilly forwarded Callan an e‐mail in which McGarvey informed Bernard that Rates (a business within the Fixed Income Division) was running over its balance sheet target for December 2007 by $72.3 billion and that a contributing factor was that Rates was using $18 billion less in Repo 105 transactions in December 2007 because there was little counterparty appetite.[^3600] In his e‐mail to Callan, Reilly referenced the balance sheet overage and stated, "Repo 105 liquidity was very tight (this should only be a year end issue but I don't recall it being this material in the past)."[^3601]
 
 %%page 936%%
 
 > ● In February 2008, Reilly again wrote Callan, forwarding to her an e‐mail with an attached FID Balance Sheet PowerPoint presentation that "was used to educate sr fid guys on the bs and generate ideas to make the bs target."[^3602] The e‐mail forwarded to Callan noted that the FID team working on balance sheet issues had reached the "recommendation that Repo 105 program is expanded."[^3603]
 
-> ● In March 2008, Reilly e‐mailed Callan, as well as Lowitt and McDade, to report on the net balance sheet trend since the end of the first quarter. Reilly wrote: "Rates is way up w PT trade and drop off in Repo 105."3604
+> ● In March 2008, Reilly e‐mailed Callan, as well as Lowitt and McDade, to report on the net balance sheet trend since the end of the first quarter. Reilly wrote: "Rates is way up w PT trade and drop off in Repo 105."[^3604]
 
 > ● From April through the end of June 2008, Callan received the "Daily Balance Sheet Scorecard," which routinely referenced the impact of Lehman's Repo 105 transactions on the firm's daily balance sheet.[^3605]
 
@@ -3373,13 +3371,13 @@ During her tenure as CFO, Callan received numerous other documents that referenc
 
 #### Ian Lowitt, Former Chief Financial Officer
 
-Ian Lowitt served as Lehman's CFO from June 12, 2008 through LBHI's bankruptcy filing on September 15, 2008.[^3606] Prior to his appointment to the CFO position, Lowitt served as Lehman's co‐CAO.3607
+Ian Lowitt served as Lehman's CFO from June 12, 2008 through LBHI's bankruptcy filing on September 15, 2008.[^3606] Prior to his appointment to the CFO position, Lowitt served as Lehman's co‐CAO.[^3607]
 
-Lowitt acknowledged that Lehman initiated its Repo 105 program "at some point in the early 2000s."3608 Asked to describe how he came to be aware of Lehman's Repo 105 program, Lowitt recalled that Lehman had established a "regime" of month‐end balance sheet targets for each business unit, and that each business unit had the discretion to determine how to meet that target with support from Product Control and Finance.[^3609] One means available to the Fixed Income and Equities Divisions for reaching balance sheet targets, Lowitt recalled, was by "sell[ing] down assets" through Lehman's Repo 105 program.[^3610] Lowitt recalled senior Lehman management setting aggressive targets to reduce commercial and residential real estate inventory, but he stated that he had no specific recollection of Repo 105 targets even though he recalled that Repo 105 was "one of the things that the businesses were doing to operate at their [balance sheet] limits."[^3611]
+Lowitt acknowledged that Lehman initiated its Repo 105 program "at some point in the early 2000s."[^3608] Asked to describe how he came to be aware of Lehman's Repo 105 program, Lowitt recalled that Lehman had established a "regime" of month‐end balance sheet targets for each business unit, and that each business unit had the discretion to determine how to meet that target with support from Product Control and Finance.[^3609] One means available to the Fixed Income and Equities Divisions for reaching balance sheet targets, Lowitt recalled, was by "sell[ing] down assets" through Lehman's Repo 105 program.[^3610] Lowitt recalled senior Lehman management setting aggressive targets to reduce commercial and residential real estate inventory, but he stated that he had no specific recollection of Repo 105 targets even though he recalled that Repo 105 was "one of the things that the businesses were doing to operate at their [balance sheet] limits."[^3611]
 
 %%page 938%%
 
-Lowitt believed that Ernst & Young had approved the firm's use of Repo 105 transactions early in the Repo 105 process (sometime in the early 2000s), and as a result, Lowitt never was concerned about Lehman's use of the transactions.[^3612] Lowitt also said he was unaware of any geographical limitations with respect to Repo 105 – for instance, he did not know that Lehman's internal Repo 105 Accounting Policy limited the transactions to LBIE.3613 Lowitt had no recollection of ever having read the Accounting Policy, but he recalled that only the most liquid assets could be used in Repo 105 transactions.[^3614]
+Lowitt believed that Ernst & Young had approved the firm's use of Repo 105 transactions early in the Repo 105 process (sometime in the early 2000s), and as a result, Lowitt never was concerned about Lehman's use of the transactions.[^3612] Lowitt also said he was unaware of any geographical limitations with respect to Repo 105 – for instance, he did not know that Lehman's internal Repo 105 Accounting Policy limited the transactions to LBIE.[^3613] Lowitt had no recollection of ever having read the Accounting Policy, but he recalled that only the most liquid assets could be used in Repo 105 transactions.[^3614]
 
 Despite recalling very little specific information about his own involvement in Lehman's Repo 105 program, Lowitt generally recalled that O'Meara played a role in Lehman's Repo 105 program.[^3615] Lowitt stated that O'Meara and Grieb were responsible for setting firm‐wide limits on Repo 105 usage.[^3616] In addition, when Lowitt was Lehman's Chief Administrative Officer in Europe, between 2005 and 2006, he recalled that O'Meara "felt some need to establish guidelines for Repo 105" usage in Lehman's European offices.[^3617]
 
@@ -3411,13 +3409,13 @@ In addition, Lowitt received a number of other documents that referenced Lehman'
 
 Lowitt and Tonucci because of their involvement in Lehman's Asset Liability
 
-Committee ("ALCO").3635
+Committee ("ALCO").[^3635]
 
-> ● In March 2008, Reilly informed Lowitt that the Rates Business' balance sheet was "way up" since the close of the first quarter because of a "drop off in Repo 105."3636 Reilly later provided more color to Lowitt regarding the "breakdown" of the $95 billion increase in the Rates Business's balance sheet since close of first quarter, $22.4 billion of which was a reduction in Repo 105 usage since quarter‐end.[^3637]
+> ● In March 2008, Reilly informed Lowitt that the Rates Business' balance sheet was "way up" since the close of the first quarter because of a "drop off in Repo 105."[^3636] Reilly later provided more color to Lowitt regarding the "breakdown" of the $95 billion increase in the Rates Business's balance sheet since close of first quarter, $22.4 billion of which was a reduction in Repo 105 usage since quarter‐end.[^3637]
 
-> ● In May 2008, Lowitt asked Feraca if Lehman was experiencing any funding issues with its secured transactions.[^3638] Feraca replied to Lowitt and Tonucci, "There were a few counterparties last week who had at least noted some of the rumblings in the press last week. . . . Daiwa who [was] contemplating a Repo 105 trade with us. Not a big funder for us. I think counterparties will reserve judgment for now. . ."3639
+> ● In May 2008, Lowitt asked Feraca if Lehman was experiencing any funding issues with its secured transactions.[^3638] Feraca replied to Lowitt and Tonucci, "There were a few counterparties last week who had at least noted some of the rumblings in the press last week. . . . Daiwa who [was] contemplating a Repo 105 trade with us. Not a big funder for us. I think counterparties will reserve judgment for now. . ."[^3639]
 
-> ● In a July 2008 e‐mail to Lowitt and Tonucci regarding FID's plans for cash capital limits and balance sheet targets in third quarter 2008, Robert Azerad said that FID's plan to "shrink[] the repo book potentially a lot (20 bn). . .is not consistent with B/S targets given to FID (flat excluding Repo 105)."3640
+> ● In a July 2008 e‐mail to Lowitt and Tonucci regarding FID's plans for cash capital limits and balance sheet targets in third quarter 2008, Robert Azerad said that FID's plan to "shrink[] the repo book potentially a lot (20 bn). . .is not consistent with B/S targets given to FID (flat excluding Repo 105)."[^3640]
 
 %%page 944%%
 
@@ -3431,7 +3429,7 @@ Committee ("ALCO").3635
 
 Without exception, former Lehman directors were unaware of Lehman's Repo 105 program and transactions.[^3642]
 
-As discussed in greater detail below, Lehman's own Corporate Audit group led by Beth Rudofker, together with Ernst & Young, investigated allegations about balance sheet substantiation problems made in a May 16, 2008 "whistleblower" letter sent to senior management by Matthew Lee.3643 On June 12, 2008, during the investigation, Lee informed Ernst & Young about Lehman's use of $50 billion of Repo 105 transactions in the second quarter of 2008.[^3644] At a June 13, 2008 meeting, Ernst & Young failed to disclose that allegation to the Board's Audit Committee.[^3645]
+As discussed in greater detail below, Lehman's own Corporate Audit group led by Beth Rudofker, together with Ernst & Young, investigated allegations about balance sheet substantiation problems made in a May 16, 2008 "whistleblower" letter sent to senior management by Matthew Lee.[^3643] On June 12, 2008, during the investigation, Lee informed Ernst & Young about Lehman's use of $50 billion of Repo 105 transactions in the second quarter of 2008.[^3644] At a June 13, 2008 meeting, Ernst & Young failed to disclose that allegation to the Board's Audit Committee.[^3645]
 
 Former Lehman director Cruikshank recalled that he made very clear he wanted a full and thorough investigation into each allegation made by Lee, whether the allegation was contained in Lee's May 16, 2008 letter or raised by Lee in the course of the investigation.[^3646] Another former Lehman director, Berlind, similarly stated that the Audit Committee explicitly instructed Lehman's Corporate Audit Group and Ernst & Young to keep the Audit Committee informed of all of Lee's allegations.[^3647] Berlind also said that he would have wanted to know about Lehman's Repo 105 program and that if he had known about Lehman's Repo 105 transactions, he would have asked Lehman's auditors to test the transactions to ensure they were appropriate.[^3648] Upon learning from the Examiner the volume of Repo 105 transactions at quarter‐end in late 2007 and 2008, Sir Christopher Gent said that he believed the volume mandated disclosure to the Audit Committee and further investigation.[^3649]
 
@@ -3451,19 +3449,19 @@ During several Rule 30(b)(6)‐type[^3654] interview sessions, the Examiner inte
 
 #### Ernst & Young's Comfort with Lehman's Repo 105 Accounting Policy
 
-The Examiner interviewed Ernst & Young's lead partner on the Lehman audit team, William Schlich, regarding Lehman's Repo 105 program. According to Schlich, Ernst & Young had been aware of Lehman's Repo 105 policy and transactions for many years.[^3655] Consistent with the statements of Lehman's John Feraca (Secured Funding Desk), Schlich stated that Lehman introduced its Repo 105 Accounting Policy on the heels of the FASB's promulgation of SFAS 140.3656 During that time, Ernst & Young "discussed" the Repo 105 Accounting Policy (including Lehman's structure for Repo 105 transactions) and Ernst & Young's team had a number of additional conversations with Lehman about Repo 105 over the years.[^3657] However, according to Schlich, Ernst & Young had no role in the drafting or preparation of Lehman's Repo 105 Accounting Policy.[^3658]
+The Examiner interviewed Ernst & Young's lead partner on the Lehman audit team, William Schlich, regarding Lehman's Repo 105 program. According to Schlich, Ernst & Young had been aware of Lehman's Repo 105 policy and transactions for many years.[^3655] Consistent with the statements of Lehman's John Feraca (Secured Funding Desk), Schlich stated that Lehman introduced its Repo 105 Accounting Policy on the heels of the FASB's promulgation of SFAS 140.[^3656] During that time, Ernst & Young "discussed" the Repo 105 Accounting Policy (including Lehman's structure for Repo 105 transactions) and Ernst & Young's team had a number of additional conversations with Lehman about Repo 105 over the years.[^3657] However, according to Schlich, Ernst & Young had no role in the drafting or preparation of Lehman's Repo 105 Accounting Policy.[^3658]
 
 %%page 949%%
 
 Schlich stated definitively that Ernst & Young had no advisory role with respect to Lehman's use of Repo 105 transactions and that Ernst & Young did not "approve" the Accounting Policy.[^3659] Rather, according to Schlich, Ernst & Young "bec[a]me comfortable with the Policy for purposes of auditing financial statements."[^3660]
 
-Following "consultation and dialogue" about the proper interpretation and application of SFAS 140, Ernst & Young "clearly. . .concurred with Lehman's approach" to SFAS 140 and subsequent literature by FASB on the issue of "control" of assets involved in a repo transactions.[^3661] Ernst & Young's view, however, was not based upon an analysis of whether actual Repo 105 transactions complied with SFAS 140.3662 Rather, Ernst & Young's review of Lehman's Repo 105 Accounting Policy was purely "theoretical."[^3663] In other words, Ernst & Young solely assessed Lehman's understanding of the requirements of SFAS 140 in the abstract and as reflected in its Accounting Policy; Ernst & Young did not opine on the propriety of the transactions as a balance sheet management tool.[^3664] Ernst & Young did not review the Linklaters letter, referenced in the Accounting Policy Manual.[^3665]
+Following "consultation and dialogue" about the proper interpretation and application of SFAS 140, Ernst & Young "clearly. . .concurred with Lehman's approach" to SFAS 140 and subsequent literature by FASB on the issue of "control" of assets involved in a repo transactions.[^3661] Ernst & Young's view, however, was not based upon an analysis of whether actual Repo 105 transactions complied with SFAS 140.[^3662] Rather, Ernst & Young's review of Lehman's Repo 105 Accounting Policy was purely "theoretical."[^3663] In other words, Ernst & Young solely assessed Lehman's understanding of the requirements of SFAS 140 in the abstract and as reflected in its Accounting Policy; Ernst & Young did not opine on the propriety of the transactions as a balance sheet management tool.[^3664] Ernst & Young did not review the Linklaters letter, referenced in the Accounting Policy Manual.[^3665]
 
 %%page 950%%
 
 According to Martin Kelly, it was not unusual for him to discuss various issues, including Repo 105, with Ernst & Young.[^3666] Indeed, Kelly recalled specifically speaking with Schlich about Repo 105 transactions soon after becoming Financial Controller on December 1, 2007, in an effort to learn more about the program and "to understand [Ernst & Young's] approach before talking to Callan."[^3667]
 
-Kelly "wanted to ensure that Ernst & Young analyzed the program in the same way that [Marie] Stewart [Global Head of Accounting Policy] had analyzed it."3668 Kelly's conversations with Ernst & Young focused on the accounting treatment of Repo 105 transactions.[^3669] According to Kelly, Ernst & Young "was comfortable with the treatment under GAAP for the same reasons that Lehman was comfortable."[^3670] Kelly also discussed with Ernst & Young Lehman's inability to get a true sale opinion under United States law for Repo 105 transactions.[^3671] Kelly could not recall whether he discussed with Ernst & Young his discomfort with Lehman's Repo 105 program.[^3672]
+Kelly "wanted to ensure that Ernst & Young analyzed the program in the same way that [Marie] Stewart [Global Head of Accounting Policy] had analyzed it."[^3668] Kelly's conversations with Ernst & Young focused on the accounting treatment of Repo 105 transactions.[^3669] According to Kelly, Ernst & Young "was comfortable with the treatment under GAAP for the same reasons that Lehman was comfortable."[^3670] Kelly also discussed with Ernst & Young Lehman's inability to get a true sale opinion under United States law for Repo 105 transactions.[^3671] Kelly could not recall whether he discussed with Ernst & Young his discomfort with Lehman's Repo 105 program.[^3672]
 
 %%page 951%%
 
@@ -3471,7 +3469,7 @@ Kelly "wanted to ensure that Ernst & Young analyzed the program in the same way 
 
 Throughout 2007, Lehman maintained a document entitled "Accounting Policy Review Balance Sheet Netting and Other Adjustments," known colloquially among Lehman's Accounting Policy and Balance Sheet Groups, as well at Ernst & Young, as the "Netting Grid." The Netting Grid identified and described various balance sheet netting mechanisms employed by Lehman: one such balance sheet mechanisms was Lehman's use of Repo 105 transactions.[^3673]
 
-Lehman provided the Netting Grid to Ernst & Young at least in August 2007 (the close of Lehman's third quarter 2007) and in November 2007 (the close of Lehman's fiscal year 2007).3674 Notably, the Netting Grid provided by Lehman to Ernst & Young in August 2007 and November 2007 only contained Repo 105 volumes from November 30,
+Lehman provided the Netting Grid to Ernst & Young at least in August 2007 (the close of Lehman's third quarter 2007) and in November 2007 (the close of Lehman's fiscal year 2007).[^3674] Notably, the Netting Grid provided by Lehman to Ernst & Young in August 2007 and November 2007 only contained Repo 105 volumes from November 30,
 
 %%page 952%%
 
@@ -3479,7 +3477,7 @@ Lehman provided the Netting Grid to Ernst & Young at least in August 2007 (the c
 
 Ernst & Young reviewed the Netting Grid, analyzed the various balance sheet netting mechanisms identified in the Netting Grid, and used the document in connection with its 2007 year‐end audit of Lehman.[^3677] According to Schlich, Ernst & Young, as part of its review of Lehman's Netting Grid, approved of Lehman's internal Repo 105 Accounting Policy only, and did not pass upon the actual practice.[^3678]
 
-The Netting Grid described the transactions and United States GAAP reference as follows: "Under certain conditions that meet the criteria described in paragraphs 9 and 218 of SFAS 140, Lehman policy permits reverse repo and repo agreements to be recharacterized as purchases and sales of inventory."[^3679] With respect to Lehman's use of Repo 105 transactions to reduce its net balance sheet, the Netting Grid sets forth the conclusion that Lehman's "current practice [for Repo 105] is correct."[^3680] Schlich noted that this conclusion about the Repo 105 practice was Lehman's, not Ernst & Young's.3681 To test Lehman's conclusion, however, Ernst & Young "reviewed how Lehman applied the control provisions of the accounting rules."[^3682]
+The Netting Grid described the transactions and United States GAAP reference as follows: "Under certain conditions that meet the criteria described in paragraphs 9 and 218 of SFAS 140, Lehman policy permits reverse repo and repo agreements to be recharacterized as purchases and sales of inventory."[^3679] With respect to Lehman's use of Repo 105 transactions to reduce its net balance sheet, the Netting Grid sets forth the conclusion that Lehman's "current practice [for Repo 105] is correct."[^3680] Schlich noted that this conclusion about the Repo 105 practice was Lehman's, not Ernst & Young's.[^3681] To test Lehman's conclusion, however, Ernst & Young "reviewed how Lehman applied the control provisions of the accounting rules."[^3682]
 
 %%page 953%%
 
@@ -3505,7 +3503,7 @@ When Schlich was asked what level of impact to Lehman's firm‐wide net assets E
 
 %%page 956%%
 
-105 transactions in its Forms 10‐K and Form 10‐Q, including the MD&A section.[^3697] Schlich believed, however, that Lehman's public filings would have included general language regarding secured borrowings and compliance with SFAS 140.3698 Schlich was not aware whether Ernst & Young ever discussed Lehman's disclosures vel non of Repo 105 activity with senior Lehman management.[^3699]
+105 transactions in its Forms 10‐K and Form 10‐Q, including the MD&A section.[^3697] Schlich believed, however, that Lehman's public filings would have included general language regarding secured borrowings and compliance with SFAS 140.[^3698] Schlich was not aware whether Ernst & Young ever discussed Lehman's disclosures vel non of Repo 105 activity with senior Lehman management.[^3699]
 
 #### Matthew Lee's Statements Regarding Repo 105 to Ernst & Young
 
@@ -3513,19 +3511,19 @@ On May 16, 2008, Matthew Lee, then‐Senior Vice President in the Finance Divisi
 
 %%page 957%%
 
-Subsequently, less than a month later, on June 12, 2008, Ernst & Young – Schlich and Hillary Hansen – interviewed Lee.3702 Hansen's notes of the interview reveal that Lee made certain statements to Ernst & Young about Lehman's Repo 105 practice, including, most notably, the volume of Repo 105 activity that Lehman engaged in at quarter‐end (May 31, 2008).3703 Hansen's notes specifically recount Lee's allegation that Lehman moved $50 billion of inventory off its balance sheet at quarter‐end through Repo 105 transactions and that these assets returned to the balance sheet approximately a week later.[^3704]
+Subsequently, less than a month later, on June 12, 2008, Ernst & Young – Schlich and Hillary Hansen – interviewed Lee.[^3702] Hansen's notes of the interview reveal that Lee made certain statements to Ernst & Young about Lehman's Repo 105 practice, including, most notably, the volume of Repo 105 activity that Lehman engaged in at quarter‐end (May 31, 2008).[^3703] Hansen's notes specifically recount Lee's allegation that Lehman moved $50 billion of inventory off its balance sheet at quarter‐end through Repo 105 transactions and that these assets returned to the balance sheet approximately a week later.[^3704]
 
 %%page 958%%
 
-When interviewed by the Examiner, Schlich did not recall Lee saying anything about Repo 105 transactions during that interview, although he did not dispute the authenticity of Hansen's notes from the Lee interview.[^3705] In spite of Hansen's notes, Schlich maintained that Ernst & Young did not know that Lehman engaged in the following Repo 105 activity during the listed time periods: $49.1 billion at first quarter 2008 (Feb. 29, 2008); and $50.38 billion at second quarter 2008 (May 31, 2008).3706
+When interviewed by the Examiner, Schlich did not recall Lee saying anything about Repo 105 transactions during that interview, although he did not dispute the authenticity of Hansen's notes from the Lee interview.[^3705] In spite of Hansen's notes, Schlich maintained that Ernst & Young did not know that Lehman engaged in the following Repo 105 activity during the listed time periods: $49.1 billion at first quarter 2008 (Feb. 29, 2008); and $50.38 billion at second quarter 2008 (May 31, 2008).[^3706]
 
-During the Examiner's interview of Hansen, Hansen recalled that while Ernst & Young questioned Lee about his May 16, 2008 letter, Lee "rattled off" a list of additional issues and concerns he held, one of which was Lehman's use of Repo 105 transactions.[^3707] Ernst & Young had no further conversations with Lee about Repo 105 transactions.[^3708] Prior to her interview of Lee in June 2008, Hansen had heard the term Repo 105 "thrown around" but she did not know its meaning; according to Hansen, Schlich described Repo 105 transactions to her shortly after they met with Lee.3709
+During the Examiner's interview of Hansen, Hansen recalled that while Ernst & Young questioned Lee about his May 16, 2008 letter, Lee "rattled off" a list of additional issues and concerns he held, one of which was Lehman's use of Repo 105 transactions.[^3707] Ernst & Young had no further conversations with Lee about Repo 105 transactions.[^3708] Prior to her interview of Lee in June 2008, Hansen had heard the term Repo 105 "thrown around" but she did not know its meaning; according to Hansen, Schlich described Repo 105 transactions to her shortly after they met with Lee.[^3709]
 
-Following Ernst & Young's June 12, 2008 interview of Lee, Schlich and Hansen met with Lehman's Gerard Reilly to discuss Lee's assertions regarding improper valuations.[^3710] During that meeting, Hansen informed Reilly of the $50 billion Repo 105 figure Lee provided during Ernst & Young's interview of Lee.3711 According to Schlich, Reilly (now deceased) told the auditors that he had no knowledge that Lehman used Repo 105 transactions to move $50 billion in assets off its balance sheet.[^3712] "Hillary [Hansen] took away from the meeting with Reilly that he did not know and it was not $50 billion."[^3713]
+Following Ernst & Young's June 12, 2008 interview of Lee, Schlich and Hansen met with Lehman's Gerard Reilly to discuss Lee's assertions regarding improper valuations.[^3710] During that meeting, Hansen informed Reilly of the $50 billion Repo 105 figure Lee provided during Ernst & Young's interview of Lee.[^3711] According to Schlich, Reilly (now deceased) told the auditors that he had no knowledge that Lehman used Repo 105 transactions to move $50 billion in assets off its balance sheet.[^3712] "Hillary [Hansen] took away from the meeting with Reilly that he did not know and it was not $50 billion."[^3713]
 
 %%page 959%%
 
-On June 13, 2008 – the day after Lee informed Ernst & Young of the $50 billion in Repo 105 transactions that Lehman undertook at the end of the second quarter 2008 – Ernst & Young spoke to Lehman's Audit Committee but did not inform the committee of Lee's allegation, even though the Chairman of the Audit Committee had clearly stated that he wanted every allegation made by Lee – whether in Lee's May 16 letter or during the course of the investigation – to be investigated.[^3714] Ernst & Young met with the Audit Committee on July 8, 2008, to review the second quarter financial statements and again did not mention Lee's allegations regarding Repo 105.3715 On July 22, 2008, Ernst & Young was also present when Beth Rudofker, Head of Corporate Audit, gave a presentation to the Audit Committee on the results of the investigation into Lee's allegations.[^3716]
+On June 13, 2008 – the day after Lee informed Ernst & Young of the $50 billion in Repo 105 transactions that Lehman undertook at the end of the second quarter 2008 – Ernst & Young spoke to Lehman's Audit Committee but did not inform the committee of Lee's allegation, even though the Chairman of the Audit Committee had clearly stated that he wanted every allegation made by Lee – whether in Lee's May 16 letter or during the course of the investigation – to be investigated.[^3714] Ernst & Young met with the Audit Committee on July 8, 2008, to review the second quarter financial statements and again did not mention Lee's allegations regarding Repo 105.[^3715] On July 22, 2008, Ernst & Young was also present when Beth Rudofker, Head of Corporate Audit, gave a presentation to the Audit Committee on the results of the investigation into Lee's allegations.[^3716]
 
 %%page 960%%
 
@@ -3533,7 +3531,7 @@ Ernst & Young did not disclose to the Audit Committee – either during the meet
 
 %%page 961%%
 
-Ernst & Young did not follow‐up on either Lee's allegations regarding Lehman's Repo 105 activity or Reilly's claim that he had no knowledge of Lehman's alleged $50 billion Repo 105 usage figure.[^3720] Ernst & Young signed a Report of Independent Registered Public Accounting Firm for Lehman's second quarter 2008 Form 10‐Q on July 10, 2008, less than four weeks after Schlich and Hansen interviewed Lee.3721
+Ernst & Young did not follow‐up on either Lee's allegations regarding Lehman's Repo 105 activity or Reilly's claim that he had no knowledge of Lehman's alleged $50 billion Repo 105 usage figure.[^3720] Ernst & Young signed a Report of Independent Registered Public Accounting Firm for Lehman's second quarter 2008 Form 10‐Q on July 10, 2008, less than four weeks after Schlich and Hansen interviewed Lee.[^3721]
 
 %%page 962%%
 
@@ -3559,7 +3557,7 @@ The materiality of information is evaluated from the perspective of a reasonable
 
 This Report does not reach the question of whether Lehman's Repo 105 transactions technically complied with the relevant financial accounting standard, SFAS 140, because the answer to that question does not impact whether a colorable claim exists regarding Lehman's failure to disclose its Repo 105 practice and whether that failure rendered the firm's financial statements materially misleading.
 
-Even if Lehman's use of Repo 105 transactions technically complied with SFAS 140, financial statements may be materially misleading even when they do not violate GAAP.3727 The Second Circuit has explained that "GAAP itself recognizes that technical compliance with particular GAAP rules may lead to misleading financial statements, and imposes an overall requirement that the statements as a whole accurately reflect the financial status of the company."[^3728]
+Even if Lehman's use of Repo 105 transactions technically complied with SFAS 140, financial statements may be materially misleading even when they do not violate GAAP.[^3727] The Second Circuit has explained that "GAAP itself recognizes that technical compliance with particular GAAP rules may lead to misleading financial statements, and imposes an overall requirement that the statements as a whole accurately reflect the financial status of the company."[^3728]
 
 %%page 965%%
 
@@ -3573,7 +3571,7 @@ This view is echoed in an SEC enforcement order, concluding that GAAP compliance
 
 #### Disclosure Requirements and Analysis
 
-Section 13(a) of the Securities Exchange Act of 1934 required Lehman to file periodic reports with the SEC, including its annual reports on Form 10‐K and quarterly reports on Form 10‐Q.3736 Lehman also filed registration statements under the Securities Act with respect to its public offerings of securities in the United States. Each of these filings required certain disclosures, in each instance subject to the requirement that Lehman provide such "further material information, if any, as may be necessary to make the required statements, in light of the circumstances under which they are made, not misleading."[^3737]
+Section 13(a) of the Securities Exchange Act of 1934 required Lehman to file periodic reports with the SEC, including its annual reports on Form 10‐K and quarterly reports on Form 10‐Q.[^3736] Lehman also filed registration statements under the Securities Act with respect to its public offerings of securities in the United States. Each of these filings required certain disclosures, in each instance subject to the requirement that Lehman provide such "further material information, if any, as may be necessary to make the required statements, in light of the circumstances under which they are made, not misleading."[^3737]
 
 A review of Lehman's public filings confirms that Lehman did not disclose its use of Repo 105 transactions, either by name or characterization, in its Forms 10‐K or 10‐ Q. Moreover, Lehman affirmatively represented that it treated its repo transactions as financing transactions – that is, not as sales – for purposes of financial reporting. Further, the net leverage ratio Lehman reported was misleading because Lehman did not disclose how it achieved this result.[^3738] Lehman's MD&A statements about its liquidity and liabilities (i.e., obligation to repurchase the securities) were also deficient and misleading; in contrast to a borrowing under an ordinary repurchase agreement, the amount borrowed under a Repo 105 was not reflected in Lehman's MD&A statements.[^3739]
 
@@ -3593,7 +3591,7 @@ MD&A are to provide: (1) a narrative explanation of a company's financial statem
 
 Regulation S‐K – together with SEC guidance – supports the Examiner's conclusion that the trier of fact could find that Lehman had an obligation to disclose certain aspects of its Repo 105 program in the MD&A: Liquidity:
 
-> ● "Identify any known trends or any known demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in the registrant's liquidity increasing or decreasing in any material way… Also identify and separately describe internal and external sources of liquidity…."3744
+> ● "Identify any known trends or any known demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in the registrant's liquidity increasing or decreasing in any material way… Also identify and separately describe internal and external sources of liquidity…."[^3744]
 
 %%page 970%%
 
@@ -3651,9 +3649,9 @@ An investor reviewing Lehman's 2007 Form 10‐K and two 2008 Forms 10‐Q would 
 
 The Examiner reviewed Lehman's Forms 10‐K and Forms 10‐Q from 2000 through third quarter 2007. Several items are worth noting:
 
-> ● FASB issued SFAS 140 in September 2000. Lehman's first disclosure regarding SFAS 140 is found in its Form 10‐K405 for 2000.[^3760] In its Form 10‐ K405 (Nov. 30, 2000), Lehman explained that SFAS 140 changed the criteria used to evaluate whether a financial asset is controlled and whether a vehicle constitutes a Qualifying Special Purpose Entity ("QSPE").3761
+> ● FASB issued SFAS 140 in September 2000. Lehman's first disclosure regarding SFAS 140 is found in its Form 10‐K405 for 2000.[^3760] In its Form 10‐ K405 (Nov. 30, 2000), Lehman explained that SFAS 140 changed the criteria used to evaluate whether a financial asset is controlled and whether a vehicle constitutes a Qualifying Special Purpose Entity ("QSPE").[^3761]
 
-> ● Lehman never disclosed in any of its Forms 10‐K and 10‐Q from 2000 through third quarter 2007 that it treated some repo transactions as sales pursuant to SFAS 140.3762 Because Lehman treated Repo 105 transactions as
+> ● Lehman never disclosed in any of its Forms 10‐K and 10‐Q from 2000 through third quarter 2007 that it treated some repo transactions as sales pursuant to SFAS 140.[^3762] Because Lehman treated Repo 105 transactions as
 
 ordinary repo balances dropped off significantly during the same time periods. Duff & Phelps, Repo 105 Balance Sheet Accounting Entry and Leverage Ratios Summary (Oct. 2, 2009), at p. 5.
 
@@ -3675,7 +3673,7 @@ ordinary repo balances dropped off significantly during the same time periods. D
 
 > ● Lehman repeatedly disclosed that it obtained short‐term financing on a secured basis through the use of repo transactions, which were primarily collateralized by government, agency, and equity securities.[^3766]
 
-> ● In a few of its financial statements, Lehman stated that "The Company accounts for transfers of financial assets in accordance with SFAS 140" and followed this statement with a summary of SFAS 140's three criteria for recognizing the transfer of financial assets as sales.[^3767] In these instances where Lehman made the general disclosure regarding SFAS 140: (1) the SFAS 140 disclosure was listed under "Consolidation Accounting Policies" along with a disclosure regarding Special Purpose Entities or was part of a "Securitization activities" disclosure; (2) Lehman did not state that it treated some repo transactions as sales under SFAS 140; and (3) the financial statement contained other disclosure(s) stating that Lehman treats repo transactions as secured financings (i.e., not as sales) and/or regarding securities owned and pledged as collateral (as described above).3768
+> ● In a few of its financial statements, Lehman stated that "The Company accounts for transfers of financial assets in accordance with SFAS 140" and followed this statement with a summary of SFAS 140's three criteria for recognizing the transfer of financial assets as sales.[^3767] In these instances where Lehman made the general disclosure regarding SFAS 140: (1) the SFAS 140 disclosure was listed under "Consolidation Accounting Policies" along with a disclosure regarding Special Purpose Entities or was part of a "Securitization activities" disclosure; (2) Lehman did not state that it treated some repo transactions as sales under SFAS 140; and (3) the financial statement contained other disclosure(s) stating that Lehman treats repo transactions as secured financings (i.e., not as sales) and/or regarding securities owned and pledged as collateral (as described above).[^3768]
 
 %%page 977%%
 
@@ -3689,7 +3687,7 @@ Nowhere in Lehman's 2007 Form 10‐K or Forms 10‐Q for the first and second qu
 
 #### Treatment of Repo Transactions and SFAS 140
 
-In its 2007 Form 10‐K, first quarter 2008 Form 10‐Q, and second quarter 2008 Form 10‐Q, Lehman affirmatively represented that it treated repurchase agreements as financings – not as sales. In Note 1 to Lehman's Consolidated Financial Statements in each filing, Lehman stated that it treated "[r]epurchase and resale agreements," as "collateralized agreements and financings for financial reporting purpose" which Lehman described were "collateralized primarily by government and government agency securities."[^3770] In addition, Lehman further stated in each filing: "Other secured borrowings principally reflect transfers accounted for as financings rather than sales under SFAS 140."3771
+In its 2007 Form 10‐K, first quarter 2008 Form 10‐Q, and second quarter 2008 Form 10‐Q, Lehman affirmatively represented that it treated repurchase agreements as financings – not as sales. In Note 1 to Lehman's Consolidated Financial Statements in each filing, Lehman stated that it treated "[r]epurchase and resale agreements," as "collateralized agreements and financings for financial reporting purpose" which Lehman described were "collateralized primarily by government and government agency securities."[^3770] In addition, Lehman further stated in each filing: "Other secured borrowings principally reflect transfers accounted for as financings rather than sales under SFAS 140."[^3771]
 
 Lehman disclosed that it recognized the transfer of financial assets as sales pursuant to SFAS 140 – but it said so only with respect to "securitization activities."[^3772] Securitization activities, however, bear no relation to repo transactions generally, or to Repo 105 transactions specifically.[^3773] Just as Lehman's disclosures dealt with securitization activities and repo transactions separately, SFAS 140 addressed these distinct transactions separately as well.[^3774]
 
@@ -3703,13 +3701,13 @@ Lehman's MD&A for its 2007 Form 10‐K and Forms 10‐Q for the first and second
 
 As discussed earlier in the Report, Lehman's MD&A discussion of Capital Ratios stated that a "more meaningful" ratio than "leverage ratio" is "net leverage, which is the result of net assets divided by tangible equity capital."[^3776] According to Lehman's MD&A, Lehman "calculates net assets by excluding from total assets: (i) cash and securities segregated and on deposit for regulatory and other purposes; (ii) collateralized lending agreements; and (iii) identifiable intangible assets and goodwill."[^3777] Lehman informed the investing public that it viewed "net leverage based on net assets to be a more useful measure of leverage, because it excludes certain low‐ risk, non‐inventory assets and utilizes tangible equity capital as a measure of equity base."[^3778]
 
-Lehman's net leverage ratio on November 30, 2007, as reported in its 2007 Form 10‐K, was 16.1x.3779 If Lehman had used ordinary repos instead of its undisclosed Repo 105 transactions for the approximately $38 billion in Repo 105 transactions that Lehman undertook at the close of its fiscal 2007, Lehman's net leverage at close of fiscal year 2007 would have been 17.8x.3780
+Lehman's net leverage ratio on November 30, 2007, as reported in its 2007 Form 10‐K, was 16.1x.[^3779] If Lehman had used ordinary repos instead of its undisclosed Repo 105 transactions for the approximately $38 billion in Repo 105 transactions that Lehman undertook at the close of its fiscal 2007, Lehman's net leverage at close of fiscal year 2007 would have been 17.8x.[^3780]
 
 %%page 981%%
 
-Lehman's net leverage ratio on February 29, 2008, as reported in its first quarter 2008 Form 10‐Q, was 15.4x.3781 If Lehman had used ordinary repo transactions rather than its undisclosed Repo 105 transactions for the $49.1 billion in Repo 105 transactions that Lehman undertook at the close of the first quarter 2008, Lehman's net leverage at close of its first quarter 2008 would have been 17.3x.3782
+Lehman's net leverage ratio on February 29, 2008, as reported in its first quarter 2008 Form 10‐Q, was 15.4x.[^3781] If Lehman had used ordinary repo transactions rather than its undisclosed Repo 105 transactions for the $49.1 billion in Repo 105 transactions that Lehman undertook at the close of the first quarter 2008, Lehman's net leverage at close of its first quarter 2008 would have been 17.3x.[^3782]
 
-Lehman's net leverage ratio on May 31, 2008, as reported in its second quarter 2008 Form 10‐Q, was 12.06x.3783 If Lehman had used ordinary repo transactions rather than its undisclosed Repo 105 transactions for the approximately $50.38 billion in Repo 105 transactions that Lehman undertook at the close of the second quarter 2008, Lehman's net leverage at close second quarter 2008 would have been 13.9x.3784
+Lehman's net leverage ratio on May 31, 2008, as reported in its second quarter 2008 Form 10‐Q, was 12.06x.[^3783] If Lehman had used ordinary repo transactions rather than its undisclosed Repo 105 transactions for the approximately $50.38 billion in Repo 105 transactions that Lehman undertook at the close of the second quarter 2008, Lehman's net leverage at close second quarter 2008 would have been 13.9x.[^3784]
 
 #### Derivatives
 
@@ -3857,7 +3855,7 @@ In addition, sufficient evidence exists to support a finding that in June 2008, 
 
 %%page 1001%%
 
-McDade recalled that when he advised Fuld that Lehman should reduce its Repo 105 usage to $25 billion, "Fuld understood that this would put pressure on traders."[^3825] McDade also recalled that "Fuld knew about the accounting of Repo 105."3826 Fuld's Repo 105 discussions with McDade took place only weeks before Lehman filed its second quarter 2008 Form 10‐Q on July 10, 2008. Fuld denied any recollection of conversations with McDade or other members of Lehman's Executive Committee regarding Repo 105.3827 A finder of fact will have to further evaluate Fuld's statements in light of other evidence of his knowledge of Repo 105 and his interest in reducing Lehman's net leverage.
+McDade recalled that when he advised Fuld that Lehman should reduce its Repo 105 usage to $25 billion, "Fuld understood that this would put pressure on traders."[^3825] McDade also recalled that "Fuld knew about the accounting of Repo 105."[^3826] Fuld's Repo 105 discussions with McDade took place only weeks before Lehman filed its second quarter 2008 Form 10‐Q on July 10, 2008. Fuld denied any recollection of conversations with McDade or other members of Lehman's Executive Committee regarding Repo 105.[^3827] A finder of fact will have to further evaluate Fuld's statements in light of other evidence of his knowledge of Repo 105 and his interest in reducing Lehman's net leverage.
 
 %%page 1002%%
 
@@ -3875,13 +3873,13 @@ There is credible evidence that, as CFO from December 2004 until December 1, 200
 
 > ● O'Meara was instrumental in creating the "80/20" or "continual use" and "120%" rules that, according to Grieb, were intended to ensure Repo 105 transactions were not undertaken solely at quarter‐end.[^3832] Based upon documents and witness statements, sufficient credible evidence exists from which a reasonable inference could be drawn that there was no legitimate business purpose for the "80% rule" other than to mask Lehman's Repo 105 practice.
 
-> ● As CFO until December 2007, O'Meara worked with other members of Lehman's Finance Committee to set balance sheet targets and net leverage ratio targets.[^3833] During several Board meeting in 2007, O'Meara discussed Lehman's net leverage ratio.[^3834] O'Meara also was involved in balance sheet tightening efforts in FID.3835
+> ● As CFO until December 2007, O'Meara worked with other members of Lehman's Finance Committee to set balance sheet targets and net leverage ratio targets.[^3833] During several Board meeting in 2007, O'Meara discussed Lehman's net leverage ratio.[^3834] O'Meara also was involved in balance sheet tightening efforts in FID.[^3835]
 
 %%page 1004%%
 
-> ● O'Meara's involvement with Lehman's balance sheet targets continued in 2008, while he was CRO.3836
+> ● O'Meara's involvement with Lehman's balance sheet targets continued in 2008, while he was CRO.[^3836]
 
-> ● O'Meara understood that the motivation for, and a consequence of, undertaking Repo 105 transactions was balance sheet reduction, particularly at quarter‐end.[^3837] For example, on a regular basis between April 2008 and September 2008 while he was CRO, O'Meara received the daily balance sheet scorecard, wherein the consolidated balance sheet routinely tracked the reduction to Lehman's balance sheet caused by Repo 105.3838
+> ● O'Meara understood that the motivation for, and a consequence of, undertaking Repo 105 transactions was balance sheet reduction, particularly at quarter‐end.[^3837] For example, on a regular basis between April 2008 and September 2008 while he was CRO, O'Meara received the daily balance sheet scorecard, wherein the consolidated balance sheet routinely tracked the reduction to Lehman's balance sheet caused by Repo 105.[^3838]
 
 (Oct. 15, 2007), at p. 3 [LBHI_SEC07940_026407]; Lehman Brothers Holdings Inc., Minutes of Meeting of the Board of Directors (Nov. 8, 2007), at p. 4 [LBHI_SEC07940_026650].
 
@@ -3943,7 +3941,7 @@ Commentators agree that officers have an obligation to "inform the superior offi
 
 %%page 1011%%
 
-There is sufficient evidence to support a finding that in 2008, as he assisted other Lehman officers with the firm's balance sheet reduction efforts, O'Meara had knowledge of the mechanics and magnitude of Lehman's Repo 105 practice. O'Meara received a copy of McDade's March 28, 2008 balance sheet reduction presentation to the Executive Committee, which included a reference to Lehman's quarter‐end Repo 105 usage for first quarter 2008.[^3852] After he became President in June 2008, McDade brought O'Meara "back in the [balance sheet] process" to help in light of O'Meara's past experience as Lehman CFO.3853 In June 2008, O'Meara met with McDade and others to discuss the Balance Sheet and Key Disclosures document, which reported the firm‐wide quarter‐end Repo 105 usage.[^3854]
+There is sufficient evidence to support a finding that in 2008, as he assisted other Lehman officers with the firm's balance sheet reduction efforts, O'Meara had knowledge of the mechanics and magnitude of Lehman's Repo 105 practice. O'Meara received a copy of McDade's March 28, 2008 balance sheet reduction presentation to the Executive Committee, which included a reference to Lehman's quarter‐end Repo 105 usage for first quarter 2008.[^3852] After he became President in June 2008, McDade brought O'Meara "back in the [balance sheet] process" to help in light of O'Meara's past experience as Lehman CFO.[^3853] In June 2008, O'Meara met with McDade and others to discuss the Balance Sheet and Key Disclosures document, which reported the firm‐wide quarter‐end Repo 105 usage.[^3854]
 
 %%page 1012%%
 
@@ -3975,7 +3973,7 @@ Starting in April 2008, Callan received the Daily Balance Sheet and Disclosure S
 
 Callan thus had ample red flags to alert her to potential problems arising from Lehman's Repo 105 program before she signed Lehman's first quarter Form 10‐Q. Callan ignored these red flags even though she trusted the judgment of Kelly and hand‐ picked him to serve as Lehman's Global Financial Controller. Callan did not report to her superiors or the Board of Directors Kelly's discomfort with Lehman's Repo 105 program or the risks that non‐disclosure in Lehman's publicly filed statements entailed.[^3869]
 
-Callan told the Examiner that following her meetings with Kelly in early 2008, Kelly's concerns likely fell by the wayside because of other more pressing issues following Bear Stearns' near collapse.[^3870] Lehman's Repo 105 program was "not high" on Callan's "list" so she did not spend "any meaningful amount of time" on it.3871 While a trier of fact could accept that explanation, Callan's failure to act, which did not result from a reasoned decision, is not protected by the business judgment rule.[^3872]
+Callan told the Examiner that following her meetings with Kelly in early 2008, Kelly's concerns likely fell by the wayside because of other more pressing issues following Bear Stearns' near collapse.[^3870] Lehman's Repo 105 program was "not high" on Callan's "list" so she did not spend "any meaningful amount of time" on it.[^3871] While a trier of fact could accept that explanation, Callan's failure to act, which did not result from a reasoned decision, is not protected by the business judgment rule.[^3872]
 
 %%page 1017%%
 
@@ -4011,7 +4009,7 @@ There is sufficient evidence to support a finding by the trier of fact that Lowi
 
 Lowitt was "quite familiar" with Lehman's use of Repo 105 transactions to reduce its balance sheet at quarter‐end and "understood [the] details" of the program.[^3881] In addition:
 
-> ● While serving as co‐CAO, Lowitt was informed of John Feraca's ultimately unsuccessful attempts to place real estate securities into the Repo 105 program.[^3882] Lowitt recalled that Feraca would report on Lehman's Repo 105 use to him because Lowitt was a member of Lehman's Asset Liability Committee ("ALCO").3883 Feraca also informed Lowitt of the volume of Repo 105 transactions with specific counterparties at the close of the first quarter 2008.[^3884] Lowitt recalled that at the close of the first quarter 2008, he attempted to gauge the materiality of Lehman's Repo 105 usage and asked Feraca for information to determine whether Lehman was increasing its Repo 105 activity.[^3885]
+> ● While serving as co‐CAO, Lowitt was informed of John Feraca's ultimately unsuccessful attempts to place real estate securities into the Repo 105 program.[^3882] Lowitt recalled that Feraca would report on Lehman's Repo 105 use to him because Lowitt was a member of Lehman's Asset Liability Committee ("ALCO").[^3883] Feraca also informed Lowitt of the volume of Repo 105 transactions with specific counterparties at the close of the first quarter 2008.[^3884] Lowitt recalled that at the close of the first quarter 2008, he attempted to gauge the materiality of Lehman's Repo 105 usage and asked Feraca for information to determine whether Lehman was increasing its Repo 105 activity.[^3885]
 
 %%page 1022%%
 
@@ -4077,13 +4075,13 @@ The objective of an auditor's "review" of quarterly financial information is to 
 
 #### Common Law Standards
 
-To state a claim of auditor malpractice under New York law,[^3906] a client must allege the existence of a duty, a breach of that duty, proximate causation, and damages.[^3907] Generally, breaches of duty are demonstrated by a showing that the auditor departed from accepted standards of practice and that this departure was the proximate cause of plaintiff's injury.[^3908] In determining whether an auditor has deviated from accepted standards, courts and tribunals routinely look to the recognized and accepted professional standards for accountants and auditors, generally measured by GAAP and GAAS.3909
+To state a claim of auditor malpractice under New York law,[^3906] a client must allege the existence of a duty, a breach of that duty, proximate causation, and damages.[^3907] Generally, breaches of duty are demonstrated by a showing that the auditor departed from accepted standards of practice and that this departure was the proximate cause of plaintiff's injury.[^3908] In determining whether an auditor has deviated from accepted standards, courts and tribunals routinely look to the recognized and accepted professional standards for accountants and auditors, generally measured by GAAP and GAAS.[^3909]
 
 %%page 1032%%
 
 #### There Is Sufficient Evidence to Support a Colorable Claim That Ernst & Young Was Negligent
 
-The Examiner finds that sufficient evidence exists to support at least three colorable claims that could be asserted against Ernst & Young relating to Lehman's Repo 105 activities and reporting: (1) negligence in connection with the investigation into whistleblower Matthew Lee's claims concerning $50 billion in Repo 105 activities at the end of the second quarter 2008, including failing to conduct an adequate inquiry into the allegations prior to the filing of Lehman's Form 10‐Q, and failing to properly inform management and the Audit Committee of Lee's allegations; (2) at least with respect to Lehman's first quarter and second quarter 2008 Forms 10‐Q, if not with respect to earlier filings, negligence by failing to take proper action when Ernst & Young was made aware that the financial information may be materially misleading because of the failure to disclose the effect of the timing and volume of Lehman's Repo 105 activities (which had a material effect on interim financial statement items), and failing to take proper action with respect to materially misleading statements contained in the MD&A sections of the Forms 10‐Q for these quarters; and (3) at least with respect to Lehman's 2007 Form 10‐K, if not with respect to earlier Forms 10‐K, negligence by failing to take proper action when Ernst & Young was made aware that the financial statements may be materially misleading because of the failure to disclose the effect of the timing and volume of Lehman's Repo 105 activities (which had a material effect on financial statement items), and failing to take proper action with respect to materially misleading statements contained in the MD&A sections of the Form 10‐K.3910
+The Examiner finds that sufficient evidence exists to support at least three colorable claims that could be asserted against Ernst & Young relating to Lehman's Repo 105 activities and reporting: (1) negligence in connection with the investigation into whistleblower Matthew Lee's claims concerning $50 billion in Repo 105 activities at the end of the second quarter 2008, including failing to conduct an adequate inquiry into the allegations prior to the filing of Lehman's Form 10‐Q, and failing to properly inform management and the Audit Committee of Lee's allegations; (2) at least with respect to Lehman's first quarter and second quarter 2008 Forms 10‐Q, if not with respect to earlier filings, negligence by failing to take proper action when Ernst & Young was made aware that the financial information may be materially misleading because of the failure to disclose the effect of the timing and volume of Lehman's Repo 105 activities (which had a material effect on interim financial statement items), and failing to take proper action with respect to materially misleading statements contained in the MD&A sections of the Forms 10‐Q for these quarters; and (3) at least with respect to Lehman's 2007 Form 10‐K, if not with respect to earlier Forms 10‐K, negligence by failing to take proper action when Ernst & Young was made aware that the financial statements may be materially misleading because of the failure to disclose the effect of the timing and volume of Lehman's Repo 105 activities (which had a material effect on financial statement items), and failing to take proper action with respect to materially misleading statements contained in the MD&A sections of the Form 10‐K.[^3910]
 
 %%page 1033%%
 
@@ -4107,13 +4105,13 @@ The Examiner concludes that sufficient evidence exists to support a colorable cl
 
 > ● On July 8, 2008, the Audit Committee met with Schlich, Kelly, Lowitt, and Beth Rudofker to review the second quarter MD&A and financial statements.[^3918] At that meeting, Schlich did not raise any issues concerning the adequacy of the disclosures or financial statements, and stated that Ernst & Young would issue an unqualified review report.[^3919]
 
-> ● On July 10, 2008, Ernst & Young issued an unqualified review report in connection with the issuance of Lehman's Form 10‐Q.3920
+> ● On July 10, 2008, Ernst & Young issued an unqualified review report in connection with the issuance of Lehman's Form 10‐Q.[^3920]
 
 > ● On July 22, 2008, Schlich again remained silent as to Lee's Repo 105 allegation at an Audit Committee meeting, where internal audit presented the results of the investigation into each of the claims made by Lee in his May 16, 2008 letter to management.[^3921] At that meeting, the Audit Committee was told that "[c]orporate audit has largely completed an evaluation of [Lee's] observations in partnership with Financial Control and Ernst and Young."[^3922] There is sufficient evidence to support a colorable claim that Ernst & Young
 
 %%page 1036%%
 
-failed to exercise due professional care by failing to notify the Audit Committee of Lee's allegations about end‐of‐quarter Repo 105 transactions as a means to manipulate publicly reported balance sheet reductions.[^3923] See, e.g., AU § 316.79 ("Whenever the auditor has determined that there is evidence that fraud may exist, that matter should be brought to the attention of an appropriate level of management. This is appropriate even if the matter might be considered inconsequential, . . . Fraud involving senior management and fraud . . . that causes a material misstatement of the financial statements should be reported directly to the audit committee"); AU § 317 (if auditor becomes aware of possible violations of laws or regulations which may have a direct or indirect effect on the financial statements, he or she must make inquiries, perform additional tests, and inform management and the audit committee of the issue).3924
+failed to exercise due professional care by failing to notify the Audit Committee of Lee's allegations about end‐of‐quarter Repo 105 transactions as a means to manipulate publicly reported balance sheet reductions.[^3923] See, e.g., AU § 316.79 ("Whenever the auditor has determined that there is evidence that fraud may exist, that matter should be brought to the attention of an appropriate level of management. This is appropriate even if the matter might be considered inconsequential, . . . Fraud involving senior management and fraud . . . that causes a material misstatement of the financial statements should be reported directly to the audit committee"); AU § 317 (if auditor becomes aware of possible violations of laws or regulations which may have a direct or indirect effect on the financial statements, he or she must make inquiries, perform additional tests, and inform management and the audit committee of the issue).[^3924]
 
 %%page 1037%%
 
@@ -4123,7 +4121,7 @@ Committee the quality of Lehman's accounting principles as applied to financial 
 
 Specifically, that standard states that an auditor:
 
-notify the client's audit committee that he had detected information indicating that the client had reported $1.3 million in false revenues in its quarterly report). Section 10A(b) of the Securities Exchange Act of 1934,[^15] US.C. § 78j‐1(b), provides that:
+notify the client's audit committee that he had detected information indicating that the client had reported $1.3 million in false revenues in its quarterly report). Section 10A(b) of the Securities Exchange Act of 1934, 15 US.C. § 78j‐1(b), provides that:
 
 > If, in the course of conducting an audit pursuant to this title to which subsection (a) applies, the registered public accounting firm detects or otherwise becomes aware of information indicating that an illegal act (whether or not perceived to have a material effect on the financial statements of the issuer) has or may have occurred, the firm shall, in accordance with generally accepted auditing standards, as may be modified or supplemented from time to time by the Commission— (A) (i) determine whether it is likely that an illegal act has occurred; and (ii) if so, determine and consider the possible effect of the illegal act on the financial statements of the issuer, including any contingent monetary effects, such as fines, penalties, and damages; and (B) as soon as practicable, inform the appropriate level of the management of the issuer and assure that the audit committee of the issuer, or the board of directors of the issuer in the absence of such a committee, is adequately informed with respect to illegal acts that have been detected or have otherwise come to the attention of such firm in the course of the audit, unless the illegal act is clearly inconsequential.
 
@@ -4159,7 +4157,7 @@ The Examiner also finds that sufficient evidence exists to support colorable cla
 
 Sufficient evidence exists to support a finding that the financial statements in both quarters of 2008 were misleading because: (1) the notes stated that Lehman treated repos as collateralized agreements and financings, as opposed to disclosing that a significant volume of repo transactions were treated as sales (and thus were "off balance sheet"); and (2) the notes referred to the transfer of certain financial assets as sales pursuant to SFAS 140, but only with respect to securitization activities, without anywhere disclosing Lehman's Repo 105 activity.[^3928]
 
-Although a review of interim financial statements is "substantially less in scope than an audit," see AU § 722.09, the SEC requires a registrant such as Lehman to engage an independent accountant to review its interim financial information before the registrant files its Form 10‐Q.3929 The SEC further requires that an accountant's review report be filed with the interim financial information if the entity states that the interim financial information has been reviewed by an independent public accountant.[^3930] Ernst
+Although a review of interim financial statements is "substantially less in scope than an audit," see AU § 722.09, the SEC requires a registrant such as Lehman to engage an independent accountant to review its interim financial information before the registrant files its Form 10‐Q.[^3929] The SEC further requires that an accountant's review report be filed with the interim financial information if the entity states that the interim financial information has been reviewed by an independent public accountant.[^3930] Ernst
 
 %%page 1041%%
 
@@ -4169,7 +4167,7 @@ Although a review of interim financial statements is "substantially less in scop
 
 An auditor can, of course, be liable for violating professional standards in connection with the preparation of interim financial reports.[^3932] Auditing and related professional practice standards applicable to the Examiner's finding of a colorable claim against Ernst & Young in the context of Ernst & Young's 2008 quarterly reviews of the notes to Lehman's quarterly financial statements include:
 
-> ● AU Section 722.41‐43 applies in situations where the auditor is aware that the interim financials contain inadequate disclosures or do not conform to GAAP in other ways. In those instances, the auditor should issue a modified review report that describes the inadequacies or non‐GAAP compliant matters. The auditing standards define conformance with GAAP to mean not only that the accounting principles applied have general acceptance, but also to mean that the "financial statements, including the related notes, are informative of matters that may affect their use, understanding, and interpretation." See AU § 411.04 (addressing the meaning of "present fairly in conformity with [GAAP]").3933
+> ● AU Section 722.41‐43 applies in situations where the auditor is aware that the interim financials contain inadequate disclosures or do not conform to GAAP in other ways. In those instances, the auditor should issue a modified review report that describes the inadequacies or non‐GAAP compliant matters. The auditing standards define conformance with GAAP to mean not only that the accounting principles applied have general acceptance, but also to mean that the "financial statements, including the related notes, are informative of matters that may affect their use, understanding, and interpretation." See AU § 411.04 (addressing the meaning of "present fairly in conformity with [GAAP]").[^3933]
 
 %%page 1042%%
 
@@ -4215,7 +4213,7 @@ These and other professional standards are also incorporated into Ernst &
 
 Young's engagement letter with Lehman:
 
-> "If we determine that there is evidence that fraud or possible illegal acts may have occurred, we will bring such matters to the attention of an appropriate level of management. If we become aware of fraud involving senior management or fraud (whether by senior management or other employees) that causes a material misstatement of the consolidated financial statements, we will report this matter directly to the Audit Committee. We will ensure that the Audit Committee is adequately informed of illegal acts that come to our attention unless they are clearly inconsequential. . . ."3936
+> "If we determine that there is evidence that fraud or possible illegal acts may have occurred, we will bring such matters to the attention of an appropriate level of management. If we become aware of fraud involving senior management or fraud (whether by senior management or other employees) that causes a material misstatement of the consolidated financial statements, we will report this matter directly to the Audit Committee. We will ensure that the Audit Committee is adequately informed of illegal acts that come to our attention unless they are clearly inconsequential. . . ."[^3936]
 
 The Examiner concludes that sufficient evidence exists to support a colorable claim that Ernst & Young should have made appropriate inquiries of management and performed analytical procedures concerning significant transactions that occurred at the ends of the quarters in 2008 and analyzed their impact upon the financial statements, including the footnotes. Particularly after Lee alerted Ernst & Young to $50 billion in Repo 105 transactions prior to the filing of the second quarter Form 10‐Q, Ernst & Young should have reported to senior management and the Audit Committee that Lehman was using Repo 105 transactions to temporarily and artificially reduce balance sheet and its net leverage ratio for reporting purposes, without disclosing the practice to the public.[^3937]
 
@@ -4227,7 +4225,7 @@ There is also sufficient evidence to support the existence of a colorable claim 
 
 %%page 1046%%
 
-Auditors have a far more limited responsibility for disclosures and "other information" in filings accompanying financial statements, as opposed to the financial statements and accompanying footnotes, but the standards require the auditor to "read the other information [e.g., the MD&A] and consider whether such information, or the manner of its presentation, is materially inconsistent with information, or the manner of its presentation, appearing in the financial statements." See AU § 550.04. In addition, AU Section 550.05 states that if the auditor "becomes aware of information that he believes is a material misstatement of fact that is not a material inconsistency, . . . he should discuss the matter with the client. . . . If the auditor concludes he has a valid basis for concern, he should propose that the client consult with some other party whose advice might be useful to the client, such as the client's legal counsel".3938 If the misstatement is not resolved, then the auditor should consider actions such as notifying the client in writing of his or her views. See AU § 550.06.3939 Here, Ernst & Young did none of those things.
+Auditors have a far more limited responsibility for disclosures and "other information" in filings accompanying financial statements, as opposed to the financial statements and accompanying footnotes, but the standards require the auditor to "read the other information [e.g., the MD&A] and consider whether such information, or the manner of its presentation, is materially inconsistent with information, or the manner of its presentation, appearing in the financial statements." See AU § 550.04. In addition, AU Section 550.05 states that if the auditor "becomes aware of information that he believes is a material misstatement of fact that is not a material inconsistency, . . . he should discuss the matter with the client. . . . If the auditor concludes he has a valid basis for concern, he should propose that the client consult with some other party whose advice might be useful to the client, such as the client's legal counsel".[^3938] If the misstatement is not resolved, then the auditor should consider actions such as notifying the client in writing of his or her views. See AU § 550.06.[^3939] Here, Ernst & Young did none of those things.
 
 %%page 1047%%
 
@@ -4237,7 +4235,7 @@ There is sufficient evidence for a trier of fact to conclude that Ernst & Young 
 
 #### Lehman's 2007 Form 10‐K
 
-Lehman's 2007 Form 10‐K contained essentially the same statements as those in its later 2008 Forms 10‐Q. In its 2007 Form 10‐K, Lehman represented that it treated repurchase agreements as financings (i.e., not as sales) even though Repo 105 transactions were treated as sales. In Note 1 to Lehman's Consolidated Financial Statements, Lehman stated that Lehman treated "[r]epurchase and resale agreements" as "collateralized agreements and financings for financial reporting purpose" which Lehman described were "collateralized primarily by government and government agency securities."[^3944] In addition, Lehman stated that "[o]ther secured borrowings principally reflect transfers accounted for as financings rather than sales under SFAS 140."3945 Lehman disclosed that it recognized the transfer of financial assets as sales pursuant to SFAS 140 – but it said so only with respect to "securitization activities."[^3946]
+Lehman's 2007 Form 10‐K contained essentially the same statements as those in its later 2008 Forms 10‐Q. In its 2007 Form 10‐K, Lehman represented that it treated repurchase agreements as financings (i.e., not as sales) even though Repo 105 transactions were treated as sales. In Note 1 to Lehman's Consolidated Financial Statements, Lehman stated that Lehman treated "[r]epurchase and resale agreements" as "collateralized agreements and financings for financial reporting purpose" which Lehman described were "collateralized primarily by government and government agency securities."[^3944] In addition, Lehman stated that "[o]ther secured borrowings principally reflect transfers accounted for as financings rather than sales under SFAS 140."[^3945] Lehman disclosed that it recognized the transfer of financial assets as sales pursuant to SFAS 140 – but it said so only with respect to "securitization activities."[^3946]
 
 %%page 1049%%
 

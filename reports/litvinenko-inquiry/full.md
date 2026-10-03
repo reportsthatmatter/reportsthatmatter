@@ -4213,31 +4213,31 @@ c. The acute radiation syndrome was caused by Mr Litvinenko ingesting approximat
 
 The police investigation
 
-1. On 23 November 2006, Alexander Litvinenko died at University College Hospital in central London.
+1\. On 23 November 2006, Alexander Litvinenko died at University College Hospital in central London.
 
-2. Before Mr Litvinenko's death, the police had already commenced an investigation into his apparent poisoning.
+2\. Before Mr Litvinenko's death, the police had already commenced an investigation into his apparent poisoning.
 
-3. Once the investigation established that Mr Litvinenko had been poisoned with polonium 210, which was discovered on the day of his death, the priority of the investigation became the operation to protect public health. It became important to identify members of the public who may have been contaminated. The Metropolitan Police Service (MPS) worked with the Health Protection Agency (now known as Public Health England) on this.
+3\. Once the investigation established that Mr Litvinenko had been poisoned with polonium 210, which was discovered on the day of his death, the priority of the investigation became the operation to protect public health. It became important to identify members of the public who may have been contaminated. The Metropolitan Police Service (MPS) worked with the Health Protection Agency (now known as Public Health England) on this.
 
-4. Immediately following Mr Litvinenko's death, over 200 police officers were involved with the investigation. More than 60 scenes were examined and assessed. These included hotels, offices, restaurants, nightclubs and bars, residential premises, public transport vehicles, aeroplanes, a football stadium and hospitals. More than 40 requests were made for mutual legal assistance to more than 15 countries.
+4\. Immediately following Mr Litvinenko's death, over 200 police officers were involved with the investigation. More than 60 scenes were examined and assessed. These included hotels, offices, restaurants, nightclubs and bars, residential premises, public transport vehicles, aeroplanes, a football stadium and hospitals. More than 40 requests were made for mutual legal assistance to more than 15 countries.
 
-5. On 22 May 2007, the MPS/Crown Prosecution Service (the CPS) considered that there was sufficient evidence to charge Andrey Lugovoy with the murder of Mr Litvinenko. An application was made to City of Westminster Magistrates' Court for the issue of a warrant for Mr Lugovoy's arrest.
+5\. On 22 May 2007, the MPS/Crown Prosecution Service (the CPS) considered that there was sufficient evidence to charge Andrey Lugovoy with the murder of Mr Litvinenko. An application was made to City of Westminster Magistrates' Court for the issue of a warrant for Mr Lugovoy's arrest.
 
-6. Following further investigation, the MPS/CPS considered that there was sufficient evidence also to charge Dmitri Kovtun with the murder of Mr Litvinenko. An application was made to City of Westminster Magistrates' Court on 4 November 2011 for the issue of a warrant for Mr Kovtun's arrest.
+6\. Following further investigation, the MPS/CPS considered that there was sufficient evidence also to charge Dmitri Kovtun with the murder of Mr Litvinenko. An application was made to City of Westminster Magistrates' Court on 4 November 2011 for the issue of a warrant for Mr Kovtun's arrest.
 
-7. In addition to the issue of these warrants, Mr Lugovoy and Mr Kovtun have been placed on international lists of wanted persons. They both remain wanted for Mr Litvinenko's murder. However, they have both remained within the Russian Federation, from which they cannot be extradited as they are both Russian citizens.
+7\. In addition to the issue of these warrants, Mr Lugovoy and Mr Kovtun have been placed on international lists of wanted persons. They both remain wanted for Mr Litvinenko's murder. However, they have both remained within the Russian Federation, from which they cannot be extradited as they are both Russian citizens.
 
-8. Because they are both still wanted for Mr Litvinenko's murder, the criminal investigation by the MPS continues.
+8\. Because they are both still wanted for Mr Litvinenko's murder, the criminal investigation by the MPS continues.
 
-9. The MPS also provided assistance to the inquest proceedings and the Inquiry proceedings (the procedures in which are further described below). Officers of the MPS have acted as Coroner's officers in addition to their criminal investigation duties. The evidence collated by the MPS formed the majority of the evidence available to the inquest. Further, after the establishment of the Inquiry, the Commissioner of Police for the Metropolis gave consent for his officers to continue to assist the Inquiry in a similar role.
+9\. The MPS also provided assistance to the inquest proceedings and the Inquiry proceedings (the procedures in which are further described below). Officers of the MPS have acted as Coroner's officers in addition to their criminal investigation duties. The evidence collated by the MPS formed the majority of the evidence available to the inquest. Further, after the establishment of the Inquiry, the Commissioner of Police for the Metropolis gave consent for his officers to continue to assist the Inquiry in a similar role.
 
 %%page 248%%
 
 The inquest proceedings
 
-10. The Coroner for the district within which the body of a deceased person is lying is required by statute to hold an inquest when there is reasonable cause to suspect that the deceased had died a violent or unnatural death. At the time of Mr Litvinenko's death, the Coroners Act 1988 was in force. This has since been replaced by the Coroners and Justice Act 2009. Some of the terminology has changed, but the fundamental principles remain the same.
+10\. The Coroner for the district within which the body of a deceased person is lying is required by statute to hold an inquest when there is reasonable cause to suspect that the deceased had died a violent or unnatural death. At the time of Mr Litvinenko's death, the Coroners Act 1988 was in force. This has since been replaced by the Coroners and Justice Act 2009. Some of the terminology has changed, but the fundamental principles remain the same.
 
-11. A Coroner's inquest is a process for investigating the factual circumstances of a death. It is a fact finding inquiry to establish:
+11\. A Coroner's inquest is a process for investigating the factual circumstances of a death. It is a fact finding inquiry to establish:
 
 a. Who the deceased was
 
@@ -4247,19 +4247,19 @@ c. How the deceased came by his or her death
 
 d. The particulars required by the Registration Acts to be registered concerning the death
 
-12. The proceedings and evidence at a Coroner's inquest are aimed solely at ascertaining the answers to these questions. Expressions of opinion on any other matter – for example, determining criminal or civil liability – are not allowed. However, the Coroner does have the power to investigate not just the main cause of death, but also "any acts or omissions which directly led to the cause of death".
+12\. The proceedings and evidence at a Coroner's inquest are aimed solely at ascertaining the answers to these questions. Expressions of opinion on any other matter – for example, determining criminal or civil liability – are not allowed. However, the Coroner does have the power to investigate not just the main cause of death, but also "any acts or omissions which directly led to the cause of death".
 
-13. Accordingly, on 30 November 2006, the then Coroner for Inner North London (Dr Andrew Reid) formally opened an inquest into Mr Litvinenko's death, and then immediately adjourned it pending the continuation of the police investigation which was already underway. The inquest remained adjourned for nearly five years whilst there was thought to be a prospect that criminal proceedings might be brought.
+13\. Accordingly, on 30 November 2006, the then Coroner for Inner North London (Dr Andrew Reid) formally opened an inquest into Mr Litvinenko's death, and then immediately adjourned it pending the continuation of the police investigation which was already underway. The inquest remained adjourned for nearly five years whilst there was thought to be a prospect that criminal proceedings might be brought.
 
-14. On 13 October 2011, the Coroner conducted a pre-inquest hearing to consider whether the inquest should remain adjourned. He noted the position in relation to the criminal investigation, namely that the MPS had made submissions to the CPS, and that the CPS had concluded its consideration of the case. The extradition of one person from Russia had been requested and declined. The CPS had indicated that, although it would wish to proceed with a prosecution, this was not currently possible and there was no impediment to the inquest taking place. The Coroner was satisfied that there was no realistic prospect of any named individual returning to the United Kingdom (UK) either voluntarily or under legal compulsion pursuant to an order for extradition. The Coroner had received submissions from interested persons and potentially interested persons asking him to resume the inquest, and in the absence of objection from the CPS or MPS, he decided that the inquest should be resumed.
+14\. On 13 October 2011, the Coroner conducted a pre-inquest hearing to consider whether the inquest should remain adjourned. He noted the position in relation to the criminal investigation, namely that the MPS had made submissions to the CPS, and that the CPS had concluded its consideration of the case. The extradition of one person from Russia had been requested and declined. The CPS had indicated that, although it would wish to proceed with a prosecution, this was not currently possible and there was no impediment to the inquest taking place. The Coroner was satisfied that there was no realistic prospect of any named individual returning to the United Kingdom (UK) either voluntarily or under legal compulsion pursuant to an order for extradition. The Coroner had received submissions from interested persons and potentially interested persons asking him to resume the inquest, and in the absence of objection from the CPS or MPS, he decided that the inquest should be resumed.
 
-15. The Coroner announced that he had appointed counsel and solicitors to the Inquest. He stated his intention that the inquest team would provide continuity of representation should a judge subsequently be appointed to act as Deputy Assistant Coroner to conduct the inquest.
+15\. The Coroner announced that he had appointed counsel and solicitors to the Inquest. He stated his intention that the inquest team would provide continuity of representation should a judge subsequently be appointed to act as Deputy Assistant Coroner to conduct the inquest.
 
-16. The Coroner also addressed the issue of disclosure. He reached a clear conclusion that the scope of the disclosure exercise should extend to all material as to Mr Litvinenko's personal and professional history that might affect the evaluation of the circumstances in which polonium 210 was administered to his body, how such administration occurred, and all relevant wider circumstances. These criteria for disclosure were deliberately widely drawn, because on the material that he had to date, there was no proper basis to exclude from the disclosure exercise any of the competing theories advanced by different interested persons.
+16\. The Coroner also addressed the issue of disclosure. He reached a clear conclusion that the scope of the disclosure exercise should extend to all material as to Mr Litvinenko's personal and professional history that might affect the evaluation of the circumstances in which polonium 210 was administered to his body, how such administration occurred, and all relevant wider circumstances. These criteria for disclosure were deliberately widely drawn, because on the material that he had to date, there was no proper basis to exclude from the disclosure exercise any of the competing theories advanced by different interested persons.
 
 %%page 249%%
 
-17. The Coroner listed those whom he considered at that time to be properly interested persons under the Coroners Rules 1984, namely:
+17\. The Coroner listed those whom he considered at that time to be properly interested persons under the Coroners Rules 1984, namely:
 
 a. Marina Litvinenko and her son Anatoly
 
@@ -4273,47 +4273,47 @@ e. The Commissioner of Police of the Metropolis as the Chief Officer of Police
 
 f. Boris Berezovsky
 
-18. Finally, the Coroner indicated that he recognised powerful arguments in favour of appointing a more senior member of the judiciary to conduct the inquest. However, the decision to make such an appointment was ultimately a matter for the Lord Chancellor and Lord Chief Justice and the decision would to a degree be contingent on the product of disclosure.
+18\. Finally, the Coroner indicated that he recognised powerful arguments in favour of appointing a more senior member of the judiciary to conduct the inquest. However, the decision to make such an appointment was ultimately a matter for the Lord Chancellor and Lord Chief Justice and the decision would to a degree be contingent on the product of disclosure.
 
-19. In early January 2012, Lee Hughes was appointed Secretary to the inquest.
+19\. In early January 2012, Lee Hughes was appointed Secretary to the inquest.
 
-20. On 16 February 2012, the Deputy Coroner (Dr Shirley Radcliffe) wrote to the Secretary of State for Justice requesting the nomination of a senior member of the judiciary to conduct the inquest.
+20\. On 16 February 2012, the Deputy Coroner (Dr Shirley Radcliffe) wrote to the Secretary of State for Justice requesting the nomination of a senior member of the judiciary to conduct the inquest.
 
-21. On 29 February 2012, the Secretary of State confirmed that, in principle, a senior member of the judiciary should be so appointed.
+21\. On 29 February 2012, the Secretary of State confirmed that, in principle, a senior member of the judiciary should be so appointed.
 
-22. On 3 August 2012, the Secretary of State formally confirmed my nomination by the Lord Chief Justice to act as Deputy Assistant Coroner to conduct the inquest.
+22\. On 3 August 2012, the Secretary of State formally confirmed my nomination by the Lord Chief Justice to act as Deputy Assistant Coroner to conduct the inquest.
 
-23. On 7 August 2012, the Deputy Coroner accordingly appointed me as Deputy Assistant Coroner.
+23\. On 7 August 2012, the Deputy Coroner accordingly appointed me as Deputy Assistant Coroner.
 
-24. On 20 September 2012, I conducted a pre-inquest hearing, the transcript of which is available on the Inquiry website. The primary aim of the hearing was to give a public update in respect of procedural matters. At that hearing, the Secretary of State for the Home Department applied for interested person status. This was granted.
+24\. On 20 September 2012, I conducted a pre-inquest hearing, the transcript of which is available on the Inquiry website. The primary aim of the hearing was to give a public update in respect of procedural matters. At that hearing, the Secretary of State for the Home Department applied for interested person status. This was granted.
 
-25. On 2 November 2012, I conducted a further pre-inquest hearing, the transcript of this hearing is also available on the Inquiry website. This hearing was intended to give a further public update in respect of procedural matters, and also to ensure that the next pre-inquest hearing could effectively and efficiently deal with the substantive legal matters with which it was to be concerned. These issues were listed in written directions given following the hearing.
+25\. On 2 November 2012, I conducted a further pre-inquest hearing, the transcript of this hearing is also available on the Inquiry website. This hearing was intended to give a further public update in respect of procedural matters, and also to ensure that the next pre-inquest hearing could effectively and efficiently deal with the substantive legal matters with which it was to be concerned. These issues were listed in written directions given following the hearing.
 
 %%page 250%%
 
-26. On 13 December 2012, I held that further pre-inquest hearing. On 17 January 2013, I gave a ruling on the issues argued at the hearing, including on whether or not certain issues should remain included in the scope of the inquest. The ruling on the scope of the inquest can be found on the Inquiry website. A list of issues was subsequently published.
+26\. On 13 December 2012, I held that further pre-inquest hearing. On 17 January 2013, I gave a ruling on the issues argued at the hearing, including on whether or not certain issues should remain included in the scope of the inquest. The ruling on the scope of the inquest can be found on the Inquiry website. A list of issues was subsequently published.
 
-27. On 17 December 2012, solicitors acting for the Investigative Committee of the Russian Federation (ICRF) applied for interested person status. The application was made on the basis that the ICRF was the Russian federal state agency responsible for the pre-trial investigation of the suspected murder of Mr Litvinenko and the suspected attempted murders of Mr Lugovoy and Mr Kovtun. By active participation in the inquest, according to the application, the ICRF hoped to contribute to and to advance both my and its own understanding of the causes and circumstances of Mr Litvinenko's death. Although Russian law would not permit the ICRF to provide all of its files to me, as an interested person the ICRF would wish to provide as much of the information from its investigation as Russian law would allow and as the investigator recognised as permissible. On 31 January 2013, I granted interested person status to the ICRF.
+27\. On 17 December 2012, solicitors acting for the Investigative Committee of the Russian Federation (ICRF) applied for interested person status. The application was made on the basis that the ICRF was the Russian federal state agency responsible for the pre-trial investigation of the suspected murder of Mr Litvinenko and the suspected attempted murders of Mr Lugovoy and Mr Kovtun. By active participation in the inquest, according to the application, the ICRF hoped to contribute to and to advance both my and its own understanding of the causes and circumstances of Mr Litvinenko's death. Although Russian law would not permit the ICRF to provide all of its files to me, as an interested person the ICRF would wish to provide as much of the information from its investigation as Russian law would allow and as the investigator recognised as permissible. On 31 January 2013, I granted interested person status to the ICRF.
 
-28. On 21 December 2012, solicitors acting for Marina Litvinenko asked for a listing for full argument of her application that the Russian Federation be designated an interested person in the inquest. A submission to that effect had been made at the hearing on 20 September 2012, and repeated at the hearing on 13 December 2012. The Russian Federation had not itself applied for interested person status. On 24 January 2013, I gave a provisional ruling on the issue and invited further written submissions. On 25 March 2013, I gave a ruling refusing the application that the Russian Federation be designated an interested person.
+28\. On 21 December 2012, solicitors acting for Marina Litvinenko asked for a listing for full argument of her application that the Russian Federation be designated an interested person in the inquest. A submission to that effect had been made at the hearing on 20 September 2012, and repeated at the hearing on 13 December 2012. The Russian Federation had not itself applied for interested person status. On 24 January 2013, I gave a provisional ruling on the issue and invited further written submissions. On 25 March 2013, I gave a ruling refusing the application that the Russian Federation be designated an interested person.
 
 Government disclosure and public interest immunity
 
-29. On 11 January 2012, the Solicitor to the Inquest made a written request for disclosure of documentation by the government. Disclosure was requested of documents held by all UK government departments and agencies relating to the circumstances of Mr Litvinenko's death. Specific requests were made for any documents relating to the circumstances of Mr Litvinenko's poisoning and death; the history of any contact between Mr Litvinenko and any UK government departments or agencies; and any records of risks and/or threats to him prior to his death, together with any action taken or considered in response.
+29\. On 11 January 2012, the Solicitor to the Inquest made a written request for disclosure of documentation by the government. Disclosure was requested of documents held by all UK government departments and agencies relating to the circumstances of Mr Litvinenko's death. Specific requests were made for any documents relating to the circumstances of Mr Litvinenko's poisoning and death; the history of any contact between Mr Litvinenko and any UK government departments or agencies; and any records of risks and/or threats to him prior to his death, together with any action taken or considered in response.
 
-30. In response to this request, the government collated material and made it available for inspection to counsel and the solicitor to the inquest. Access was first granted for inspection of this collated material in late August 2012. The process of collating further material and making it available to the inquest team continued thereafter. In making this material available for inspection, the government made it clear that it reserved its position both as to the relevance of the material, and as to the making of applications for public interest immunity (PII) in relation to it. This was done with the intention of ensuring that the progress of this investigation was not delayed, whilst at the same time preserving the government's position in relation to disclosure in the event that I determined that some or all of the material reviewed was relevant to the inquest and should be disclosed to interested persons.
+30\. In response to this request, the government collated material and made it available for inspection to counsel and the solicitor to the inquest. Access was first granted for inspection of this collated material in late August 2012. The process of collating further material and making it available to the inquest team continued thereafter. In making this material available for inspection, the government made it clear that it reserved its position both as to the relevance of the material, and as to the making of applications for public interest immunity (PII) in relation to it. This was done with the intention of ensuring that the progress of this investigation was not delayed, whilst at the same time preserving the government's position in relation to disclosure in the event that I determined that some or all of the material reviewed was relevant to the inquest and should be disclosed to interested persons.
 
 %%page 251%%
 
-31. For the hearing on 13 December 2012, counsel to the inquest prepared an open and a closed version of a note concerning the material which had been made available by the government for inspection. The notes expressed a provisional view about that material, as the process of making the material available and inspecting the material was continuing. Counsel to the inquest noted that a significant proportion of the material was of a sensitive nature. The government had made it clear that it was very likely that it would object to the disclosure of the material to interested persons on grounds of PII. However, it was possible to state high level conclusions as to the effect of the government material. These related solely to the effect of the government material taken alone.
+31\. For the hearing on 13 December 2012, counsel to the inquest prepared an open and a closed version of a note concerning the material which had been made available by the government for inspection. The notes expressed a provisional view about that material, as the process of making the material available and inspecting the material was continuing. Counsel to the inquest noted that a significant proportion of the material was of a sensitive nature. The government had made it clear that it was very likely that it would object to the disclosure of the material to interested persons on grounds of PII. However, it was possible to state high level conclusions as to the effect of the government material. These related solely to the effect of the government material taken alone.
 
-32. Counsel to the inquest expressed the view that the government material did establish a prima facie case as to the culpability of the Russian State in Mr Litvinenko's death. However, it did not establish a prima facie case as to the culpability of the British State in itself carrying out (by its servants or agents) the poisoning of Mr Litvinenko, or in failing to take reasonable steps to protect him from a real and immediate risk to his life. It did not establish a prima facie case as to the involvement of Mr Berezovsky, Spanish mafia and/or other criminal organisations, Mario Scaramella, or Chechen groups, in Mr Litvinenko's death. It did not establish a prima facie case as to the making by Alexander Talik of threats to kill Mr Litvinenko, or as to any more general involvement on his part in Mr Litvinenko's death. Counsel to the inquest said that a conclusion to the effect that the government material did not establish a prima facie case in respect of any particular issue was not to be interpreted as meaning that there was no evidence at all on that issue contained in the government material.
+32\. Counsel to the inquest expressed the view that the government material did establish a prima facie case as to the culpability of the Russian State in Mr Litvinenko's death. However, it did not establish a prima facie case as to the culpability of the British State in itself carrying out (by its servants or agents) the poisoning of Mr Litvinenko, or in failing to take reasonable steps to protect him from a real and immediate risk to his life. It did not establish a prima facie case as to the involvement of Mr Berezovsky, Spanish mafia and/or other criminal organisations, Mario Scaramella, or Chechen groups, in Mr Litvinenko's death. It did not establish a prima facie case as to the making by Alexander Talik of threats to kill Mr Litvinenko, or as to any more general involvement on his part in Mr Litvinenko's death. Counsel to the inquest said that a conclusion to the effect that the government material did not establish a prima facie case in respect of any particular issue was not to be interpreted as meaning that there was no evidence at all on that issue contained in the government material.
 
-33. On 29 January 2013, I gave directions that any PII certificate was to be served by 15 February 2013, and for a consequent timetable for the determination of any PII issues.
+33\. On 29 January 2013, I gave directions that any PII certificate was to be served by 15 February 2013, and for a consequent timetable for the determination of any PII issues.
 
-34. On 7 February 2013, the then Secretary of State for Foreign and Commonwealth Affairs (the Rt Hon William Hague MP) made a certificate claiming PII in respect of a sample of documents selected from the material made available by the government for inspection.
+34\. On 7 February 2013, the then Secretary of State for Foreign and Commonwealth Affairs (the Rt Hon William Hague MP) made a certificate claiming PII in respect of a sample of documents selected from the material made available by the government for inspection.
 
-35. On 26 February 2013, I conducted a public hearing to consider the PII application, at which all interested persons had the opportunity to make submissions, as well as a number of media organisations who were legally represented. The transcript of this hearing is available on the Inquiry website. Following legal submissions made at that hearing, on 27 February 2013 I ruled that:
+35\. On 26 February 2013, I conducted a public hearing to consider the PII application, at which all interested persons had the opportunity to make submissions, as well as a number of media organisations who were legally represented. The transcript of this hearing is available on the Inquiry website. Following legal submissions made at that hearing, on 27 February 2013 I ruled that:
 
 a. I had jurisdiction to hold a private hearing at which to consider the merits of the PII claim
 
@@ -4323,11 +4323,11 @@ b. Rather than hold a private hearing in which to address the adequacy of the PI
 
 c. It was neither necessary nor appropriate to appoint special counsel or PII advocates to represent the interests of interested persons in the disclosure proceedings
 
-36. There was then a private hearing of the application, from which the public and most of the interested persons were excluded, at which I considered the merits of the PII claim in more detail.
+36\. There was then a private hearing of the application, from which the public and most of the interested persons were excluded, at which I considered the merits of the PII claim in more detail.
 
-37. On 17 May 2013, I gave my ruling on the PII application, which is available on the Inquiry website. I rejected part of the PII claim, and concluded that some of the information that was covered by the PII claim could and should be disclosed.
+37\. On 17 May 2013, I gave my ruling on the PII application, which is available on the Inquiry website. I rejected part of the PII claim, and concluded that some of the information that was covered by the PII claim could and should be disclosed.
 
-38. First, I concluded that a number of lines of enquiry could be identified as lines of enquiry to which the documents that were the subject of the PII claim related. Those lines of enquiry included amongst others:
+38\. First, I concluded that a number of lines of enquiry could be identified as lines of enquiry to which the documents that were the subject of the PII claim related. Those lines of enquiry included amongst others:
 
 a. The possible involvement of Russian State agencies in the death of Mr Litvinenko
 
@@ -4339,9 +4339,9 @@ d. Decisions or actions taken to manage any identified risk
 
 Some other lines of enquiry which I concluded could be similarly identified were redacted in anticipation of a challenge to my ruling.
 
-39. Second, a description could be given of the types of sensitivity which underpinned the PII claim, and this was set out in my ruling.
+39\. Second, a description could be given of the types of sensitivity which underpinned the PII claim, and this was set out in my ruling.
 
-40. Third, my ruling was able to state:
+40\. Third, my ruling was able to state:
 
 a. That I had considered the PII claim brought in relation to the material relevant to the issue of the possible involvement of Russian State agencies in Mr Litvinenko's death and had upheld the claim
 
@@ -4353,151 +4353,151 @@ d. The terms of the gists which should be given (which were redacted)
 
 e. That I had upheld the PII claim in respect of further material relating to other issues
 
-41. On 31 May 2013, the Foreign Secretary commenced an application for judicial review of the parts of my decision represented by the redacted parts of that ruling. In October 2013, a Divisional Court of the Queen's Bench Division of the High Court (constituted by Lord Justice Goldring, Lord Justice Treacy and Mr Justice Mitting) conducted substantive hearings of this application in public and private hearings.
+41\. On 31 May 2013, the Foreign Secretary commenced an application for judicial review of the parts of my decision represented by the redacted parts of that ruling. In October 2013, a Divisional Court of the Queen's Bench Division of the High Court (constituted by Lord Justice Goldring, Lord Justice Treacy and Mr Justice Mitting) conducted substantive hearings of this application in public and private hearings.
 
 %%page 253%%
 
-42. On 27 November 2013, the Divisional Court allowed the Foreign Secretary's judicial review application and quashed my decision to order gists. The court made no formal public decision regarding the lines of enquiry which I had concluded could be publicly identified.
+42\. On 27 November 2013, the Divisional Court allowed the Foreign Secretary's judicial review application and quashed my decision to order gists. The court made no formal public decision regarding the lines of enquiry which I had concluded could be publicly identified.
 
 The steps to an inquiry
 
-43. In my PII ruling on 17 May 2013, I made some provisional observations about the procedural consequences of the ruling. I identified that there was a choice between considering issues such as preventability and Russian State responsibility on the basis only of the available open evidence and disregarding the relevant material which was known to exist but which had been the subject of a successful PII claim, and withdrawing those issues from scope. Either way, that could lead to me failing to discharge my duty to undertake a full, fair and fearless inquiry into the circumstances of Mr Litvinenko's death. However, I considered that it would arguably be better to withdraw these issues from the scope of the inquest than to consider them on an incomplete, inadequate and potentially misleading basis, which might be unfair to interested persons or others who might be implicated including the Russian State. I therefore invited submissions on whether I should ask the government to consider exercising the power to order an inquiry under the Inquiries Act 2005, which would be able to hear evidence that could not be publicly disclosed.
+43\. In my PII ruling on 17 May 2013, I made some provisional observations about the procedural consequences of the ruling. I identified that there was a choice between considering issues such as preventability and Russian State responsibility on the basis only of the available open evidence and disregarding the relevant material which was known to exist but which had been the subject of a successful PII claim, and withdrawing those issues from scope. Either way, that could lead to me failing to discharge my duty to undertake a full, fair and fearless inquiry into the circumstances of Mr Litvinenko's death. However, I considered that it would arguably be better to withdraw these issues from the scope of the inquest than to consider them on an incomplete, inadequate and potentially misleading basis, which might be unfair to interested persons or others who might be implicated including the Russian State. I therefore invited submissions on whether I should ask the government to consider exercising the power to order an inquiry under the Inquiries Act 2005, which would be able to hear evidence that could not be publicly disclosed.
 
-44. On 4 June 2013, following the receipt of submissions on this topic, I wrote to the then Lord Chancellor and Secretary of State for Justice (Rt Hon Christopher Grayling MP). I set out my firm view that an inquiry established under the Inquiries Act 2005 was necessary if Mr Litvinenko's death were to be properly investigated. I asked for consideration to be given urgently to the exercise of the power to establish such an inquiry.
+44\. On 4 June 2013, following the receipt of submissions on this topic, I wrote to the then Lord Chancellor and Secretary of State for Justice (Rt Hon Christopher Grayling MP). I set out my firm view that an inquiry established under the Inquiries Act 2005 was necessary if Mr Litvinenko's death were to be properly investigated. I asked for consideration to be given urgently to the exercise of the power to establish such an inquiry.
 
-45. On 17 July 2013, the Secretary of State for the Home Department (Rt Hon Theresa May MP) replied to my letter conveying the government's response to my request. The Secretary of State said that the factors militating against establishing an inquiry at present substantially outweighed those in favour. Accordingly, the government had decided not to establish an inquiry at that time.
+45\. On 17 July 2013, the Secretary of State for the Home Department (Rt Hon Theresa May MP) replied to my letter conveying the government's response to my request. The Secretary of State said that the factors militating against establishing an inquiry at present substantially outweighed those in favour. Accordingly, the government had decided not to establish an inquiry at that time.
 
-46. On 9 September 2013, Marina Litvinenko commenced an application for judicial review of the Home Secretary's decision.
+46\. On 9 September 2013, Marina Litvinenko commenced an application for judicial review of the Home Secretary's decision.
 
-47. Before that application could be heard, the Divisional Court had heard and decided the Foreign Secretary's application for judicial review of my PII ruling. Following the Divisional Court's PII decision, I asked for further submissions on the consequences of that decision for the scope of the inquest.
+47\. Before that application could be heard, the Divisional Court had heard and decided the Foreign Secretary's application for judicial review of my PII ruling. Following the Divisional Court's PII decision, I asked for further submissions on the consequences of that decision for the scope of the inquest.
 
-48. On 18 December 2013, I gave a ruling on whether the issues of preventability and Russian State responsibility should remain within the scope of the inquest. I decided that both issues should be withdrawn.
+48\. On 18 December 2013, I gave a ruling on whether the issues of preventability and Russian State responsibility should remain within the scope of the inquest. I decided that both issues should be withdrawn.
 
-49. On 21 and 22 January 2014, a Divisional Court of the Queen's Bench Division of the High Court (constituted by Lord Justice Richards, Lord Justice Treacy and Mr Justice Mitting) heard Marina Litvinenko's application for judicial review. This took account of my decision on 18 December 2013 to withdraw those two issues from the scope of the inquest.
+49\. On 21 and 22 January 2014, a Divisional Court of the Queen's Bench Division of the High Court (constituted by Lord Justice Richards, Lord Justice Treacy and Mr Justice Mitting) heard Marina Litvinenko's application for judicial review. This took account of my decision on 18 December 2013 to withdraw those two issues from the scope of the inquest.
 
 %%page 254%%
 
-50. On 11 February 2014, the Divisional Court allowed Marina Litvinenko's application for judicial review and quashed the Home Secretary's decision. Accordingly, the Home Secretary was required to make a further decision on whether to establish an inquiry.
+50\. On 11 February 2014, the Divisional Court allowed Marina Litvinenko's application for judicial review and quashed the Home Secretary's decision. Accordingly, the Home Secretary was required to make a further decision on whether to establish an inquiry.
 
-51. On 22 July 2014, the Home Secretary announced the government's decision to establish an inquiry under the Inquiries Act 2005 to investigate Mr Litvinenko's death.
+51\. On 22 July 2014, the Home Secretary announced the government's decision to establish an inquiry under the Inquiries Act 2005 to investigate Mr Litvinenko's death.
 
-52. On 31 July 2014, the Inquiry was formally set up. On that date, I held a short hearing at which the inquest was suspended, in accordance with the provisions of the Coroners and Justice Act 2009, and formally opened the Inquiry. The Terms of Reference can be found in Appendix 2.
+52\. On 31 July 2014, the Inquiry was formally set up. On that date, I held a short hearing at which the inquest was suspended, in accordance with the provisions of the Coroners and Justice Act 2009, and formally opened the Inquiry. The Terms of Reference can be found in Appendix 2.
 
-53. On 5 September 2014, I published the List of Issues which the Inquiry would consider. This list can be found at Appendix 3.
+53\. On 5 September 2014, I published the List of Issues which the Inquiry would consider. This list can be found at Appendix 3.
 
 The opening of the Inquiry and procedural hearings
 
-54. At a short hearing on 31 July 2014, the formal setting up date of the Inquiry, I made a statement setting out the history of the events which had led up to the establishment of the Inquiry. I also set out procedural matters which would be dealt with in forthcoming directions hearings.
+54\. At a short hearing on 31 July 2014, the formal setting up date of the Inquiry, I made a statement setting out the history of the events which had led up to the establishment of the Inquiry. I also set out procedural matters which would be dealt with in forthcoming directions hearings.
 
-55. Open directions hearings were held on 5 September 2014, 16 October 2014, 14 November 2014, 17 December 2014 and 20 January 2015.
+55\. Open directions hearings were held on 5 September 2014, 16 October 2014, 14 November 2014, 17 December 2014 and 20 January 2015.
 
-56. In addition, preparation for the closed substantive hearings required a number of closed directions hearings to be held.
+56\. In addition, preparation for the closed substantive hearings required a number of closed directions hearings to be held.
 
 Core participants
 
-57. On 31 July 2014, I invited applications for core participant status under rule 5 of the Inquiry Rules 2006.
+57\. On 31 July 2014, I invited applications for core participant status under rule 5 of the Inquiry Rules 2006.
 
-58. On 5 September 2014, I announced that applications had been received from Marina and Anatoly Litvinenko, the MPS, the Home Secretary (on her own behalf and as a representative of the government), The Atomic Weapons Establishment (AWE plc) and Mr Scaramella.
+58\. On 5 September 2014, I announced that applications had been received from Marina and Anatoly Litvinenko, the MPS, the Home Secretary (on her own behalf and as a representative of the government), The Atomic Weapons Establishment (AWE plc) and Mr Scaramella.
 
-59. Mr Scaramella's application was refused, for which reasons were given in a written ruling dated 9 October 2014.
+59\. Mr Scaramella's application was refused, for which reasons were given in a written ruling dated 9 October 2014.
 
-60. I granted the other applications.
+60\. I granted the other applications.
 
-61. The solicitors for the ICRF, which had been an interested person in the inquest, wrote to me to indicate that it would be making no application for core participant status in the Inquiry.
+61\. The solicitors for the ICRF, which had been an interested person in the inquest, wrote to me to indicate that it would be making no application for core participant status in the Inquiry.
 
-62. During March 2015, after the substantive hearings had already been under way for a substantial period of time, Mr Kovtun expressed a wish to take part in the Inquiry by giving oral evidence and by becoming a core participant. I summarise these events below.
+62\. During March 2015, after the substantive hearings had already been under way for a substantial period of time, Mr Kovtun expressed a wish to take part in the Inquiry by giving oral evidence and by becoming a core participant. I summarise these events below.
 
 %%page 255%%
 
 Funding applications
 
-63. On 31 July 2014, I also invited applications for funding under the Inquiries Act 2005. Under section 40 of the Inquiries Act 2005, such funding may be made available to allow certain persons having a connection to the Inquiry to receive legal representation at public expense.
+63\. On 31 July 2014, I also invited applications for funding under the Inquiries Act 2005. Under section 40 of the Inquiries Act 2005, such funding may be made available to allow certain persons having a connection to the Inquiry to receive legal representation at public expense.
 
-64. On 5 September 2014, I announced that applications for funding had been received from Marina Litvinenko and Anatoly Litvinenko, and from Mr Scaramella.
+64\. On 5 September 2014, I announced that applications for funding had been received from Marina Litvinenko and Anatoly Litvinenko, and from Mr Scaramella.
 
-65. I granted the application by Marina Litvinenko and Anatoly Litvinenko in principle, with the precise terms of the award to be finalised following further submissions.
+65\. I granted the application by Marina Litvinenko and Anatoly Litvinenko in principle, with the precise terms of the award to be finalised following further submissions.
 
-66. I refused Mr Scaramella's application as it did not meet the criteria set out in section 40(3) of the Inquiries Act 2005.
+66\. I refused Mr Scaramella's application as it did not meet the criteria set out in section 40(3) of the Inquiries Act 2005.
 
-67. Later, during the course of the substantive hearings, a further application for funding was received from Mr Scaramella, who travelled from Italy to London on two occasions to give evidence to the Inquiry. I allowed this later application.
+67\. Later, during the course of the substantive hearings, a further application for funding was received from Mr Scaramella, who travelled from Italy to London on two occasions to give evidence to the Inquiry. I allowed this later application.
 
-68. I also received and allowed applications from a number of other witnesses for expenses and legal costs.
+68\. I also received and allowed applications from a number of other witnesses for expenses and legal costs.
 
 Closed evidence – restriction notices
 
-69. On 31 July 2014, I explained that the most important feature of the Inquiry, and the reason why I asked that it be established, was that it would permit me to consider closed evidence and hold closed hearings, from which the public, most of the core participants and the press would be excluded. It would not have been possible to hold such hearings at all during an inquest. I considered the reason why it was of great importance to be able to hold at least some closed hearings was that the government held some documents that were relevant to Mr Litvinenko's death, but which were of such sensitivity that they could not be used in open court. Had the proceedings remained as an inquest, those documents would have had to be excluded from my enquiries, in accordance with my PII rulings and the decision of the Divisional Court.
+69\. On 31 July 2014, I explained that the most important feature of the Inquiry, and the reason why I asked that it be established, was that it would permit me to consider closed evidence and hold closed hearings, from which the public, most of the core participants and the press would be excluded. It would not have been possible to hold such hearings at all during an inquest. I considered the reason why it was of great importance to be able to hold at least some closed hearings was that the government held some documents that were relevant to Mr Litvinenko's death, but which were of such sensitivity that they could not be used in open court. Had the proceedings remained as an inquest, those documents would have had to be excluded from my enquiries, in accordance with my PII rulings and the decision of the Divisional Court.
 
-70. Because of the sensitivity of the government evidence, it was inevitable that at least some of my final report would also have to remain secret. But I have always made it clear that I intend to make public my final conclusion on the issue of Russian State responsibility, together with as much as possible of my reasoning in that regard.
+70\. Because of the sensitivity of the government evidence, it was inevitable that at least some of my final report would also have to remain secret. But I have always made it clear that I intend to make public my final conclusion on the issue of Russian State responsibility, together with as much as possible of my reasoning in that regard.
 
-71. I announced that, on 7 July 2014, the Home Secretary had made a restriction notice under section 19 of the Inquiries Act 2005, the effect of which was to require that specified sensitive material was considered only in closed session, and that the Home Secretary may make further restriction notices.
+71\. I announced that, on 7 July 2014, the Home Secretary had made a restriction notice under section 19 of the Inquiries Act 2005, the effect of which was to require that specified sensitive material was considered only in closed session, and that the Home Secretary may make further restriction notices.
 
-72. A second restriction notice was made by the Home Secretary on 4 November 2014. The first and second restriction notices were amended on 21 January 2015. Further restriction notices were made by the government on 9 March 2015 and 29 June 2015.
+72\. A second restriction notice was made by the Home Secretary on 4 November 2014. The first and second restriction notices were amended on 21 January 2015. Further restriction notices were made by the government on 9 March 2015 and 29 June 2015.
 
 %%page 256%%
 
 Anonymity – restriction orders
 
-73. In the course of the inquest proceedings, applications had been made for anonymity orders in respect of a number of proposed witnesses whose evidence was to be adduced although not necessarily orally.
+73\. In the course of the inquest proceedings, applications had been made for anonymity orders in respect of a number of proposed witnesses whose evidence was to be adduced although not necessarily orally.
 
-74. On 29 January 2013, I gave directions about the making of any anonymity applications.
+74\. On 29 January 2013, I gave directions about the making of any anonymity applications.
 
-75. On 27 February 2013, the MPS applied for anonymity in respect of three witnesses known as D1, D2 and C1.
+75\. On 27 February 2013, the MPS applied for anonymity in respect of three witnesses known as D1, D2 and C1.
 
-76. On 14 March 2013, I conducted a hearing at which these applications were considered. For reasons which included the need by the representatives of media organisations to receive more information before they could usefully make submissions on the applications, the applications were adjourned.
+76\. On 14 March 2013, I conducted a hearing at which these applications were considered. For reasons which included the need by the representatives of media organisations to receive more information before they could usefully make submissions on the applications, the applications were adjourned.
 
-77. On 11 June 2013, I conducted a further hearing to consider these anonymity applications, and a further anonymity application made by AWE plc in respect of a witness known as A3.
+77\. On 11 June 2013, I conducted a further hearing to consider these anonymity applications, and a further anonymity application made by AWE plc in respect of a witness known as A3.
 
-78. On 11 July 2013, I granted the application in relation to A3, but refused the applications in relation to D1, D2 and C1. Because the applications were based in part on material which could not be made public, the written ruling had a closed addendum dealing with that material.
+78\. On 11 July 2013, I granted the application in relation to A3, but refused the applications in relation to D1, D2 and C1. Because the applications were based in part on material which could not be made public, the written ruling had a closed addendum dealing with that material.
 
-79. On 4 October 2013, I conducted a further hearing to consider anonymity applications in relation to witnesses known as C2, C3, D3, D6 and D7, together with a residual issue in relation to D1, D2 and C1 as to whether there should be disclosure of the contents of the closed addendum in relation to them.
+79\. On 4 October 2013, I conducted a further hearing to consider anonymity applications in relation to witnesses known as C2, C3, D3, D6 and D7, together with a residual issue in relation to D1, D2 and C1 as to whether there should be disclosure of the contents of the closed addendum in relation to them.
 
-80. On 26 November 2013, I granted the application in relation to D3. Because the witnesses C2, C3, D6 and D7 formed part of a group that also included D3, and identification of any member of that group other than D3 would be likely to lead to the identification of D3, I also granted the application in relation to them although the individual merits of the applications in relation to them would not have warranted the grant of an anonymity order.
+80\. On 26 November 2013, I granted the application in relation to D3. Because the witnesses C2, C3, D6 and D7 formed part of a group that also included D3, and identification of any member of that group other than D3 would be likely to lead to the identification of D3, I also granted the application in relation to them although the individual merits of the applications in relation to them would not have warranted the grant of an anonymity order.
 
-81. On the same day, I also ruled that none of the contents of the closed addendum in relation to D1, D2 and C1 should be made public at that time.
+81\. On the same day, I also ruled that none of the contents of the closed addendum in relation to D1, D2 and C1 should be made public at that time.
 
-82. On 5 September 2014, at the first directions hearing following the establishment of the Inquiry, all core participants and the media agreed that for the purposes of the Inquiry I should adopt the anonymity orders I had already made during the inquest proceedings. Accordingly, on 9 October 2014 a restriction order was made repeating the anonymity orders which had been made during the inquest.
+82\. On 5 September 2014, at the first directions hearing following the establishment of the Inquiry, all core participants and the media agreed that for the purposes of the Inquiry I should adopt the anonymity orders I had already made during the inquest proceedings. Accordingly, on 9 October 2014 a restriction order was made repeating the anonymity orders which had been made during the inquest.
 
-83. On 14 November 2014, a further restriction order was made granting anonymity in relation to a witness known as A1.
+83\. On 14 November 2014, a further restriction order was made granting anonymity in relation to a witness known as A1.
 
-84. On 27 November 2014, a further restriction order was made granting anonymity in relation to a witness known as D9.
+84\. On 27 November 2014, a further restriction order was made granting anonymity in relation to a witness known as D9.
 
-85. Further applications were made in respect of these witnesses that, if they gave oral evidence to the Inquiry, they should be screened from the public and the press. In relation to all of the witnesses who were granted anonymity, I made a further order providing that if they were required to attend and give evidence at the public hearing of the Inquiry, their physical appearance would be concealed from the public, the media and core participants, but not from me, counsel to the Inquiry, counsel for the core participants or security cleared Inquiry staff. Further orders were made directing that their physical appearance need not be concealed from any other person whom I directed.
+85\. Further applications were made in respect of these witnesses that, if they gave oral evidence to the Inquiry, they should be screened from the public and the press. In relation to all of the witnesses who were granted anonymity, I made a further order providing that if they were required to attend and give evidence at the public hearing of the Inquiry, their physical appearance would be concealed from the public, the media and core participants, but not from me, counsel to the Inquiry, counsel for the core participants or security cleared Inquiry staff. Further orders were made directing that their physical appearance need not be concealed from any other person whom I directed.
 
 %%page 257%%
 
-86. On 9 October 2015, I made a further restriction order granting anonymity in relation to a witness known as witness G. By the time of this order, I did not envisage a need to take any further oral evidence.
+86\. On 9 October 2015, I made a further restriction order granting anonymity in relation to a witness known as witness G. By the time of this order, I did not envisage a need to take any further oral evidence.
 
 Broadcasting
 
-87. Under existing legislation, broadcasting was not permitted by law of any of the inquest proceedings. Following the establishment of the Inquiry, broadcasting would be permitted of such parts of the Inquiry proceedings and to the extent which I considered appropriate.
+87\. Under existing legislation, broadcasting was not permitted by law of any of the inquest proceedings. Following the establishment of the Inquiry, broadcasting would be permitted of such parts of the Inquiry proceedings and to the extent which I considered appropriate.
 
-88. On 31 July 2014, I permitted broadcast of the formal opening of the Inquiry. Arrangements were made with one broadcast company for a video feed to be made available to other broadcasters.
+88\. On 31 July 2014, I permitted broadcast of the formal opening of the Inquiry. Arrangements were made with one broadcast company for a video feed to be made available to other broadcasters.
 
-89. On 5 September 2014, I heard submissions about whether I should permit the broadcast of the Inquiry's proceedings, particularly the evidence which the Inquiry was to receive. In addition, I heard submissions about whether the Inquiry's proceedings should be streamed live over the Internet.
+89\. On 5 September 2014, I heard submissions about whether I should permit the broadcast of the Inquiry's proceedings, particularly the evidence which the Inquiry was to receive. In addition, I heard submissions about whether the Inquiry's proceedings should be streamed live over the Internet.
 
-90. On 7 November 2014, I gave a written provisional ruling inviting further submissions on certain aspects of the issue of live streaming of the Inquiry's proceedings over the Internet.
+90\. On 7 November 2014, I gave a written provisional ruling inviting further submissions on certain aspects of the issue of live streaming of the Inquiry's proceedings over the Internet.
 
-91. On 14 November 2014, I heard further submissions on that issue. Those submissions included evidence from the MPS about the responses given by some prospective witnesses to the idea that their evidence might be broadcast, and the effect that might have on some witnesses' willingness to give evidence to the Inquiry.
+91\. On 14 November 2014, I heard further submissions on that issue. Those submissions included evidence from the MPS about the responses given by some prospective witnesses to the idea that their evidence might be broadcast, and the effect that might have on some witnesses' willingness to give evidence to the Inquiry.
 
-92. On 26 November 2014, I gave a written ruling giving reasons for my decision not to permit live streaming of the proceedings of the Inquiry when it took evidence. Different considerations applied to the opening and closing statements by counsel to the Inquiry and by core participants' legal representatives, which I would permit to be broadcast.
+92\. On 26 November 2014, I gave a written ruling giving reasons for my decision not to permit live streaming of the proceedings of the Inquiry when it took evidence. Different considerations applied to the opening and closing statements by counsel to the Inquiry and by core participants' legal representatives, which I would permit to be broadcast.
 
 Text based communications from the hearing rooms
 
-93. On 12 September 2014, I published a protocol concerning the use of live text based communications in the hearing rooms.
+93\. On 12 September 2014, I published a protocol concerning the use of live text based communications in the hearing rooms.
 
-94. This provided that, in general, any member of a legal team, or member of the press, or member of the public was free to use a mobile electronic device in the hearing rooms to send and receive text based communications whilst the Inquiry was sitting, provided that the device in question was used in silent mode and there was no disruption to proceedings. This was in practice superseded by the arrangements set out in the protocol described in paragraph 98 below.
+94\. This provided that, in general, any member of a legal team, or member of the press, or member of the public was free to use a mobile electronic device in the hearing rooms to send and receive text based communications whilst the Inquiry was sitting, provided that the device in question was used in silent mode and there was no disruption to proceedings. This was in practice superseded by the arrangements set out in the protocol described in paragraph 98 below.
 
 %%page 258%%
 
-95. I made clear that mobile devices were not to be used in the hearing rooms at any time to make or receive telephone calls, to take photographs or to undertake audio or video recording.
+95\. I made clear that mobile devices were not to be used in the hearing rooms at any time to make or receive telephone calls, to take photographs or to undertake audio or video recording.
 
 Public access to hearings
 
-96. For the substantive hearings, the Inquiry used Court 73 in the Royal Courts of Justice as the main hearing room, together with Court 66 as an additional media annex/ overflow room. Proceedings in Court 73 were relayed to Court 66 by a closed circuit videolink, and screens in Court 66 reproduced documents and the live transcript shown on the display screens in Court 73.
+96\. For the substantive hearings, the Inquiry used Court 73 in the Royal Courts of Justice as the main hearing room, together with Court 66 as an additional media annex/ overflow room. Proceedings in Court 73 were relayed to Court 66 by a closed circuit videolink, and screens in Court 66 reproduced documents and the live transcript shown on the display screens in Court 73.
 
-97. Normally, members of the media and the public were freely admitted to both hearing rooms. However, because there was a risk that some of the sensitive information protected by restriction notices or restriction orders might be disclosed, inadvertently or otherwise, during the course of the open hearings, all open hearings were conducted under one of the sets of measures set out in a protocol issued on 9 December 2014.
+97\. Normally, members of the media and the public were freely admitted to both hearing rooms. However, because there was a risk that some of the sensitive information protected by restriction notices or restriction orders might be disclosed, inadvertently or otherwise, during the course of the open hearings, all open hearings were conducted under one of the sets of measures set out in a protocol issued on 9 December 2014.
 
-98. Under the default measures:
+98\. Under the default measures:
 
 a. The public and press would be afforded unrestricted access to the main hearing room, subject to physical capacity constraints
 
@@ -4509,7 +4509,7 @@ d. The use of such devices would be permitted (on the terms set out in the proto
 
 e. A transcript of proceedings would be posted on the Inquiry website at the end of each day
 
-99. Under enhanced measures:
+99\. Under enhanced measures:
 
 a. The public and press would be excluded from the main hearing room, although access would still be permitted for both the public and the press to the media annex
 
@@ -4523,17 +4523,17 @@ d. The use of such devices would be permitted (on the terms set out in the proto
 
 e. A transcript of proceedings would be posted on the Inquiry website at the end of each day
 
-100. The hearing was conducted under enhanced measures when evidence was taken from a small number of witnesses; Alex Goldfarb, Dean Attew and Akhmed Zakayev. Otherwise, the evidence was taken under default measures.
+100\. The hearing was conducted under enhanced measures when evidence was taken from a small number of witnesses; Alex Goldfarb, Dean Attew and Akhmed Zakayev. Otherwise, the evidence was taken under default measures.
 
-101. In addition, the enhanced measures were adopted in modified form in relation to each witness giving oral evidence who had the benefit of an anonymity order (this applied to A1, C2 and D6). Those who were not permitted to see the witness' physical appearance were excluded from the main hearing room, and the relay of the proceedings from the main hearing room to the media annex was limited to audio only.
+101\. In addition, the enhanced measures were adopted in modified form in relation to each witness giving oral evidence who had the benefit of an anonymity order (this applied to A1, C2 and D6). Those who were not permitted to see the witness' physical appearance were excluded from the main hearing room, and the relay of the proceedings from the main hearing room to the media annex was limited to audio only.
 
 Special advocate
 
-102. On 27 February 2013, in the course of the PII application in the inquest proceedings, I had ruled that it was neither necessary nor appropriate to appoint special counsel or PII advocates to represent the interests of interested persons in the disclosure proceedings.
+102\. On 27 February 2013, in the course of the PII application in the inquest proceedings, I had ruled that it was neither necessary nor appropriate to appoint special counsel or PII advocates to represent the interests of interested persons in the disclosure proceedings.
 
-103. On 5 September 2014, an application was made on behalf of Marina and Anatoly Litvinenko for the appointment of a special advocate.
+103\. On 5 September 2014, an application was made on behalf of Marina and Anatoly Litvinenko for the appointment of a special advocate.
 
-104. On 9 October 2014, I refused the application for reasons given in a written ruling on that date.
+104\. On 9 October 2014, I refused the application for reasons given in a written ruling on that date.
 
 Warning letters 105. Rule 13 of the Inquiry Rules 2006 provides:
 
@@ -4555,81 +4555,81 @@ c. who may be subject to criticism in the report, or any interim report.
 
 %%page 260%%
 
-106. By rule 14, the contents of a warning letter are to be treated as subject to the obligations of confidence set out in rule 14(1). The inquiry Chairman's obligation of confidence under this rule ends when the inquiry report is signed, and all other obligations of confidence under this rule end when the inquiry report is published.
+106\. By rule 14, the contents of a warning letter are to be treated as subject to the obligations of confidence set out in rule 14(1). The inquiry Chairman's obligation of confidence under this rule ends when the inquiry report is signed, and all other obligations of confidence under this rule end when the inquiry report is published.
 
-107. The fact that a possible criticism has been included in a warning letter, whether written under rule 13(1) or 13(3), does not necessarily mean that the criticism will be adopted in the inquiry proceedings or in any report. The procedural provision is intended to afford the individual a fair opportunity to prepare for giving evidence or to draw attention to reasons why the criticism should not be made. Accordingly, I do not propose to publish the content of warning letters.
+107\. The fact that a possible criticism has been included in a warning letter, whether written under rule 13(1) or 13(3), does not necessarily mean that the criticism will be adopted in the inquiry proceedings or in any report. The procedural provision is intended to afford the individual a fair opportunity to prepare for giving evidence or to draw attention to reasons why the criticism should not be made. Accordingly, I do not propose to publish the content of warning letters.
 
-108. However, in accordance with rule 13, warning letters were sent as appropriate to people who were covered by the provisions of rule 13.
+108\. However, in accordance with rule 13, warning letters were sent as appropriate to people who were covered by the provisions of rule 13.
 
 The substantive hearings
 
-109. On 27 January 2015, the Inquiry's substantive hearings commenced. Opening statements were made by counsel to the Inquiry, counsel for Marina and Anatoly Litvinenko, counsel for the Home Secretary and counsel for AWE plc.
+109\. On 27 January 2015, the Inquiry's substantive hearings commenced. Opening statements were made by counsel to the Inquiry, counsel for Marina and Anatoly Litvinenko, counsel for the Home Secretary and counsel for AWE plc.
 
-110. The Inquiry hearing lasted for a total of 34 days. Evidence was taken on 30 of those days. A total of 62 witnesses gave oral evidence. A number of witnesses giving oral evidence attended the Inquiry on more than one occasion to do so. Five of the witnesses gave evidence from overseas by videolink. In addition, witness statements of a further 20 witnesses were read, together with a further witness statement from a witness who had already given oral evidence (Marina Litvinenko).
+110\. The Inquiry hearing lasted for a total of 34 days. Evidence was taken on 30 of those days. A total of 62 witnesses gave oral evidence. A number of witnesses giving oral evidence attended the Inquiry on more than one occasion to do so. Five of the witnesses gave evidence from overseas by videolink. In addition, witness statements of a further 20 witnesses were read, together with a further witness statement from a witness who had already given oral evidence (Marina Litvinenko).
 
-111. In addition, a large quantity of documents was adduced in evidence. Some of these documents were referred to and discussed by witnesses, but I simply put other documents into evidence because it was not necessary for them to be discussed with a witness.
+111\. In addition, a large quantity of documents was adduced in evidence. Some of these documents were referred to and discussed by witnesses, but I simply put other documents into evidence because it was not necessary for them to be discussed with a witness.
 
-112. It was originally envisaged that the Inquiry's open hearings would conclude before Easter. However, the overall length of the Inquiry hearings was prolonged by the actions of Mr Kovtun, who is the subject of one of the two arrest warrants issued in respect of Mr Litvinenko's death.
+112\. It was originally envisaged that the Inquiry's open hearings would conclude before Easter. However, the overall length of the Inquiry hearings was prolonged by the actions of Mr Kovtun, who is the subject of one of the two arrest warrants issued in respect of Mr Litvinenko's death.
 
-113. During the course of March 2015, the solicitor to the Inquiry received a number of communications from a man who said he was Mr Kovtun. He said that he was willing to take part in the Inquiry and in particular to give evidence by videolink. He also indicated that he wished to apply for core participant status. These developments were notified to core participants, the public and the press at the substantive hearing on 19 March 2015.
+113\. During the course of March 2015, the solicitor to the Inquiry received a number of communications from a man who said he was Mr Kovtun. He said that he was willing to take part in the Inquiry and in particular to give evidence by videolink. He also indicated that he wished to apply for core participant status. These developments were notified to core participants, the public and the press at the substantive hearing on 19 March 2015.
 
-114. On 30 March 2015, I indicated that I was minded to grant Mr Kovtun core participant status, subject to his fulfilling a number of conditions. Mr Kovtun had to give a confidentiality undertaking in the same manner as all other core participants. He had to provide a detailed witness statement, including a response to nine questions put to him in Russia by Major General of Justice Krasnov, and a tenth question which was added in a letter dated 5 March 2015 from the Inquiry secretariat to Mr Kovtun. Further, he had to disclose any documents and other written material which he had said in media interviews was relevant to the issues being considered by the Inquiry. I fixed the date on which Mr Kovtun's evidence would be taken, namely 27 July 2015; Mr Kovtun would have to make himself available for two or three days.
+114\. On 30 March 2015, I indicated that I was minded to grant Mr Kovtun core participant status, subject to his fulfilling a number of conditions. Mr Kovtun had to give a confidentiality undertaking in the same manner as all other core participants. He had to provide a detailed witness statement, including a response to nine questions put to him in Russia by Major General of Justice Krasnov, and a tenth question which was added in a letter dated 5 March 2015 from the Inquiry secretariat to Mr Kovtun. Further, he had to disclose any documents and other written material which he had said in media interviews was relevant to the issues being considered by the Inquiry. I fixed the date on which Mr Kovtun's evidence would be taken, namely 27 July 2015; Mr Kovtun would have to make himself available for two or three days.
 
 %%page 261%%
 
-115. In the days leading up to 27 July 2015, Mr Kovtun and the Russian authorities began to raise a number of legal issues about whether Mr Kovtun could, under Russian and international law, lawfully give evidence to the Inquiry. On that date, Mr Kovtun did not make himself available to give evidence. I considered the matters which had been said by Mr Kovtun and by the Russian authorities, and decided to give Mr Kovtun a final opportunity to live up to his assertion that he wanted to assist me in the Inquiry by adjourning the hearing until 28 July 2015.
+115\. In the days leading up to 27 July 2015, Mr Kovtun and the Russian authorities began to raise a number of legal issues about whether Mr Kovtun could, under Russian and international law, lawfully give evidence to the Inquiry. On that date, Mr Kovtun did not make himself available to give evidence. I considered the matters which had been said by Mr Kovtun and by the Russian authorities, and decided to give Mr Kovtun a final opportunity to live up to his assertion that he wanted to assist me in the Inquiry by adjourning the hearing until 28 July 2015.
 
-116. On 28 July 2015, the Inquiry's agent in Moscow reported that he had spoken to Mr Kovtun that morning, and that Mr Kovtun had said that he would not be attending to give evidence by videolink. Accordingly, the final items of witness evidence were taken that day.
+116\. On 28 July 2015, the Inquiry's agent in Moscow reported that he had spoken to Mr Kovtun that morning, and that Mr Kovtun had said that he would not be attending to give evidence by videolink. Accordingly, the final items of witness evidence were taken that day.
 
-117. On 30 and 31 July 2015, closing submissions were made by counsel for the MPS and counsel for Marina Litvinenko and Anatoly Litvinenko. Closing statements were made by counsel to the Inquiry and by me, bringing the Inquiry's substantive hearings to an end.
+117\. On 30 and 31 July 2015, closing submissions were made by counsel for the MPS and counsel for Marina Litvinenko and Anatoly Litvinenko. Closing statements were made by counsel to the Inquiry and by me, bringing the Inquiry's substantive hearings to an end.
 
 Closed hearings
 
-118. On 27 January 2015, when the substantive hearings commenced, it was envisaged that they would be completed by Easter. On that date, I indicated that at some point in the future, there would be closed hearings at which I would consider the material subject to the restriction notices. Counsel to the Inquiry indicated in their opening statement that these would take place after the open hearings had concluded.
+118\. On 27 January 2015, when the substantive hearings commenced, it was envisaged that they would be completed by Easter. On that date, I indicated that at some point in the future, there would be closed hearings at which I would consider the material subject to the restriction notices. Counsel to the Inquiry indicated in their opening statement that these would take place after the open hearings had concluded.
 
-119. On 31 July 2015, in their closing statement counsel to the Inquiry announced that the closed hearings had taken place. The conclusion of the open hearings that day accordingly completed all of the Inquiry's hearings.
+119\. On 31 July 2015, in their closing statement counsel to the Inquiry announced that the closed hearings had taken place. The conclusion of the open hearings that day accordingly completed all of the Inquiry's hearings.
 
 Miscellaneous procedural matters
 
-120. On 30 March 2015, I heard submissions on a number of legal matters which were relevant to the approach which I should take in reaching my conclusions.
+120\. On 30 March 2015, I heard submissions on a number of legal matters which were relevant to the approach which I should take in reaching my conclusions.
 
-121. I considered the question of whether and what standard of proof I should apply. There was a consensus that I should adopt the approach taken by Sir William Gage in the Baha Mousa Public Inquiry, which had been set out in a ruling of 7 May 2010. That had itself adopted; "the flexible and variable standard of proof as applied [by Dame Janet Smith] in the Shipman Inquiry". At paragraph 28 of his ruling, Sir William concluded:
+121\. I considered the question of whether and what standard of proof I should apply. There was a consensus that I should adopt the approach taken by Sir William Gage in the Baha Mousa Public Inquiry, which had been set out in a ruling of 7 May 2010. That had itself adopted; "the flexible and variable standard of proof as applied [by Dame Janet Smith] in the Shipman Inquiry". At paragraph 28 of his ruling, Sir William concluded:
 
 > "For the reasons which I have endeavoured to explain I have concluded that it is right for me to approach my task by initially adopting the civil standard of proof in relation to findings of facts, but indicating where appropriate where I am sure of a finding. As I have said, I shall record the level of satisfaction which I find established in relation to any finding of fact. Thus, I shall state where necessary that I find a fact proved on the balance of probabilities or to a higher standard where appropriate. I do not think it will be necessary expressly to refer to expressions such as 'inherent improbabilities' or the 'bare' balance of probabilities."
 
 %%page 262%%
 
-122. I agreed and adopted that approach.
+122\. I agreed and adopted that approach.
 
-123. On the same date, I also heard submissions on the question of whether I should or should not draw adverse inferences from the silence of any individual concerned in the events which the Inquiry was investigating, or their refusal to participate, and in particular the silence or refusal of Mr Lugovoy, Mr Kovtun or authorities of the Russian State. There was a consensus that there was no need or basis for adopting the approach taken in the criminal courts to such silence. I took the view that a failure to participate or to give evidence has the obvious consequence that I would make findings of fact without the benefit or otherwise of such a contribution.
+123\. On the same date, I also heard submissions on the question of whether I should or should not draw adverse inferences from the silence of any individual concerned in the events which the Inquiry was investigating, or their refusal to participate, and in particular the silence or refusal of Mr Lugovoy, Mr Kovtun or authorities of the Russian State. There was a consensus that there was no need or basis for adopting the approach taken in the criminal courts to such silence. I took the view that a failure to participate or to give evidence has the obvious consequence that I would make findings of fact without the benefit or otherwise of such a contribution.
 
-124. Further, counsel to the Inquiry made submissions to me about the approach that should be taken to credibility generally if, on analysis of the evidence (including any relevant closed evidence), it were to become apparent that some witnesses had not given an accurate account of events in oral evidence. Counsel to the Inquiry submitted that I should be guided by the principles which underlie the direction commonly given to juries in criminal cases who have to consider what they make of the evidence given by a witness whom they consider has lied. Such a direction is commonly known as a Lucas direction, after R v Lucas [1981] QB 720. I did not consider it necessary to rule on that submission.
+124\. Further, counsel to the Inquiry made submissions to me about the approach that should be taken to credibility generally if, on analysis of the evidence (including any relevant closed evidence), it were to become apparent that some witnesses had not given an accurate account of events in oral evidence. Counsel to the Inquiry submitted that I should be guided by the principles which underlie the direction commonly given to juries in criminal cases who have to consider what they make of the evidence given by a witness whom they consider has lied. Such a direction is commonly known as a Lucas direction, after R v Lucas [1981] QB 720. I did not consider it necessary to rule on that submission.
 
-125. On the same date I also considered the interplay between sections 2(1) and (2) of the Inquiries Act 2005. These provide that an inquiry panel is not to rule on and has no power to determine any person's civil or criminal liability; but an inquiry panel is not to be inhibited in the discharge of its functions by any likelihood of liability being inferred from facts that it determines or recommendations that it makes. I considered that it was difficult to deal in the abstract with the interplay between those two sections and made no formal ruling on the issue.
+125\. On the same date I also considered the interplay between sections 2(1) and (2) of the Inquiries Act 2005. These provide that an inquiry panel is not to rule on and has no power to determine any person's civil or criminal liability; but an inquiry panel is not to be inhibited in the discharge of its functions by any likelihood of liability being inferred from facts that it determines or recommendations that it makes. I considered that it was difficult to deal in the abstract with the interplay between those two sections and made no formal ruling on the issue.
 
-126. Finally, I clarified the approach I would take to the interface between the open and closed evidence and findings. I said that I would perform a global analysis of the evidence adduced both in the open and the closed hearings. It followed that any facts as found and recorded in the open section of the report will have been informed both by the evidence that I heard in the open hearings and by the relevant closed hearings. I stated that I would provide a single report to the Home Secretary, but the consequence of the restriction notices and orders that had been made meant that parts would not be published if to do so would be to damage national security or international relations.
+126\. Finally, I clarified the approach I would take to the interface between the open and closed evidence and findings. I said that I would perform a global analysis of the evidence adduced both in the open and the closed hearings. It followed that any facts as found and recorded in the open section of the report will have been informed both by the evidence that I heard in the open hearings and by the relevant closed hearings. I stated that I would provide a single report to the Home Secretary, but the consequence of the restriction notices and orders that had been made meant that parts would not be published if to do so would be to damage national security or international relations.
 
-127. On 24 July 2015, I considered submissions on an issue which had arisen under the Crime (International Co-operation) Act 2003. Evidence had been obtained from Russia pursuant to a request made under that Act for the purposes of the criminal investigation and any criminal proceedings. This evidence included the records of the interviews conducted in Russia with Mr Lugovoy and Mr Kovtun.
+127\. On 24 July 2015, I considered submissions on an issue which had arisen under the Crime (International Co-operation) Act 2003. Evidence had been obtained from Russia pursuant to a request made under that Act for the purposes of the criminal investigation and any criminal proceedings. This evidence included the records of the interviews conducted in Russia with Mr Lugovoy and Mr Kovtun.
 
-128. In addition, the Russian authorities had given permission for that evidence to be used in the inquest proceedings. After the ICRF was granted interested person status in the inquest, it was formally represented at hearings in the inquest proceedings; at open Inquiry hearings, its English solicitors were routinely present. The Russian authorities were aware of the fact that the Inquiry was established to take over from the inquest in the investigation of Mr Litvinenko's death, and of the inclusion in the Inquiry's Terms of Reference that it should take into account the investigations that had already taken place within the inquest proceedings. In addition, in September 2014 I had directed that the inquest evidence would be adduced in the Inquiry in accordance with the Inquiry's Terms of Reference.
+128\. In addition, the Russian authorities had given permission for that evidence to be used in the inquest proceedings. After the ICRF was granted interested person status in the inquest, it was formally represented at hearings in the inquest proceedings; at open Inquiry hearings, its English solicitors were routinely present. The Russian authorities were aware of the fact that the Inquiry was established to take over from the inquest in the investigation of Mr Litvinenko's death, and of the inclusion in the Inquiry's Terms of Reference that it should take into account the investigations that had already taken place within the inquest proceedings. In addition, in September 2014 I had directed that the inquest evidence would be adduced in the Inquiry in accordance with the Inquiry's Terms of Reference.
 
 %%page 263%%
 
-129. Notwithstanding their awareness of the status of the inquest and Inquiry proceedings, the Russian authorities did not expressly extend permission for that evidence to be used in the Inquiry. The part of the Home Office that deals with matters under this Act wrote to its Russian counterparts both before and after the commencement of the Inquiry's substantive hearings, but no response was forthcoming then, or at any time before the originally scheduled end of the Inquiry's substantive open hearings.
+129\. Notwithstanding their awareness of the status of the inquest and Inquiry proceedings, the Russian authorities did not expressly extend permission for that evidence to be used in the Inquiry. The part of the Home Office that deals with matters under this Act wrote to its Russian counterparts both before and after the commencement of the Inquiry's substantive hearings, but no response was forthcoming then, or at any time before the originally scheduled end of the Inquiry's substantive open hearings.
 
-130. On 17 July 2015, the Inquiry was notified by the Home Office of a response which it had received on 15 July 2015 from the Russian authorities, declining permission for the evidence to be used in the Inquiry proceedings.
+130\. On 17 July 2015, the Inquiry was notified by the Home Office of a response which it had received on 15 July 2015 from the Russian authorities, declining permission for the evidence to be used in the Inquiry proceedings.
 
-131. On 24 July 2015, I heard submissions on the consequences of this response. I concluded that section 9 of the Crime (International Co-operation) Act 2003 precluded the use of such material for any other purpose than that specified in the request, namely the original criminal investigation and any subsequent prosecution, without the consent of the Russian authorities. Accordingly, those records of interview could not be used by the Inquiry.
+131\. On 24 July 2015, I heard submissions on the consequences of this response. I concluded that section 9 of the Crime (International Co-operation) Act 2003 precluded the use of such material for any other purpose than that specified in the request, namely the original criminal investigation and any subsequent prosecution, without the consent of the Russian authorities. Accordingly, those records of interview could not be used by the Inquiry.
 
-132. I invited further submissions on whether, on the proper construction of the relevant statutory provisions, I could admit evidence as to the content of the interviews from the MPS officers who were present at the interviews, other evidence obtained by the MPS during their trip to Moscow, evidence as to the level of cooperation of the Russian authorities in arranging the interviews, and evidence as to attempts made by a Russian official to pressure an interpreter to give an inaccurate translation of what was said in the course of the interviews.
+132\. I invited further submissions on whether, on the proper construction of the relevant statutory provisions, I could admit evidence as to the content of the interviews from the MPS officers who were present at the interviews, other evidence obtained by the MPS during their trip to Moscow, evidence as to the level of cooperation of the Russian authorities in arranging the interviews, and evidence as to attempts made by a Russian official to pressure an interpreter to give an inaccurate translation of what was said in the course of the interviews.
 
-133. On 25 September 2015, following consideration of further submissions, I gave a written ruling further concluding that it would not be permissible for me either to admit in evidence notes about the content of the interviews, or to hear evidence from the officers as to their content. But the statutory provisions did not preclude the admission of evidence as to the circumstances in which the interviews were carried out, provided that such evidence did not reveal the content of the interviews, either directly or by implication; nor did they preclude evidence as to the level of cooperation of the Russian authorities and as to their attempts to produce transcripts that did not reflect the true content of the interviews, or any notes made by the MPS officers as to such matters.
+133\. On 25 September 2015, following consideration of further submissions, I gave a written ruling further concluding that it would not be permissible for me either to admit in evidence notes about the content of the interviews, or to hear evidence from the officers as to their content. But the statutory provisions did not preclude the admission of evidence as to the circumstances in which the interviews were carried out, provided that such evidence did not reveal the content of the interviews, either directly or by implication; nor did they preclude evidence as to the level of cooperation of the Russian authorities and as to their attempts to produce transcripts that did not reflect the true content of the interviews, or any notes made by the MPS officers as to such matters.
 
 %%page 265%%
 
 ## Appendix 2: Terms of Reference
 
-1. Subject to paragraphs 2 and 3 below, the Chairman is to conduct an investigation into the death of Alexander Litvinenko in order to:
+1\. Subject to paragraphs 2 and 3 below, the Chairman is to conduct an investigation into the death of Alexander Litvinenko in order to:
 
 (i) ascertain, in accordance with section 5 (1) of the Coroners and Justice Act 2009, who the deceased was; how, when and where he came by his death; and the particulars (if any) required by the Births and Deaths Registration Act 1953 to be registered concerning the death;
 
@@ -4637,9 +4637,9 @@ Miscellaneous procedural matters
 
 (iii) make such recommendations as may seem appropriate.
 
-2. That investigation is to take into account the investigations which have already been conducted by the Assistant Coroner for the Inner North London [Sir Robert Owen].
+2\. That investigation is to take into account the investigations which have already been conducted by the Assistant Coroner for the Inner North London [Sir Robert Owen].
 
-3. In the light of the Assistant Coroner's views, expressed in his ruling of 17 May 2013, (see paragraph 13 of the Judicial Review judgment dated 11 February 2014) that there is no material within the relevant documents to suggest that, at any material time, Alexander Litvinenko was or ought to have been assessed as being at a real and immediate threat to his life, the inquiry will not address the question of whether the UK authorities could or should have taken steps which would have prevented the death.
+3\. In the light of the Assistant Coroner's views, expressed in his ruling of 17 May 2013, (see paragraph 13 of the Judicial Review judgment dated 11 February 2014) that there is no material within the relevant documents to suggest that, at any material time, Alexander Litvinenko was or ought to have been assessed as being at a real and immediate threat to his life, the inquiry will not address the question of whether the UK authorities could or should have taken steps which would have prevented the death.
 
 %%page 267%%
 
@@ -4647,27 +4647,27 @@ Miscellaneous procedural matters
 
 A. Background
 
-1. Alexander Litvinenko's life in Russia a. Personal life b. Career in KGB/FSK/FSB c. Relationship with Boris Berezovsky d. Circumstances of departure from Russia and travel to UK, September –
+1\. Alexander Litvinenko's life in Russia a. Personal life b. Career in KGB/FSK/FSB c. Relationship with Boris Berezovsky d. Circumstances of departure from Russia and travel to UK, September –
 
 November 2000 2. Alexander Litvinenko's personal life in UK
 
-3. Alexander Litvinenko's work from November 2000 a. Work for Boris Berezovsky b. Publications c. Work with/for Mitrokhin Commission in Italy d. Work for UK security firms e. Alleged work for UK/Spanish intelligence agencies f. Any other UK/overseas work
+3\. Alexander Litvinenko's work from November 2000 a. Work for Boris Berezovsky b. Publications c. Work with/for Mitrokhin Commission in Italy d. Work for UK security firms e. Alleged work for UK/Spanish intelligence agencies f. Any other UK/overseas work
 
-4. Alexander Litvinenko's involvement in political campaigning, media appearances, relationship with dissident/émigré community, 2000 – 2006
+4\. Alexander Litvinenko's involvement in political campaigning, media appearances, relationship with dissident/émigré community, 2000 – 2006
 
-5. Actual/threatened/perceived threats to and attacks against Alexander Litvinenko/ Boris Berezovsky/Akhmed Zakayev, 2000 – 2007 B. Circumstances of Alexander Litvinenko's death 6. Narrative of Alexander Litvinenko's life/lifestyle during October 2006
+5\. Actual/threatened/perceived threats to and attacks against Alexander Litvinenko/ Boris Berezovsky/Akhmed Zakayev, 2000 – 2007 B. Circumstances of Alexander Litvinenko's death 6. Narrative of Alexander Litvinenko's life/lifestyle during October 2006
 
-7. Alexander Litvinenko's movements/meetings on 1 November and subsequent deteriorating health 8. Medical treatment/hospitalisation/attempts to diagnose 9. Police interviews 10. Immediate circumstances of death C. Post mortem/toxicology evidence 11. Evidence from pathologists/toxicologists
+7\. Alexander Litvinenko's movements/meetings on 1 November and subsequent deteriorating health 8. Medical treatment/hospitalisation/attempts to diagnose 9. Police interviews 10. Immediate circumstances of death C. Post mortem/toxicology evidence 11. Evidence from pathologists/toxicologists
 
 %%page 268%%
 
 D. Responsibility for death
 
-12. Source of the Po-210 apparently ingested by Alexander Litvinenko a. Properties/uses of Po-210 b. Scientific analysis of Po-210 samples c. Legitimate trade in/international carriage of Po-210 d. Apparent documentary evidence of consignment of Po-210 at Yaroslavl,
+12\. Source of the Po-210 apparently ingested by Alexander Litvinenko a. Properties/uses of Po-210 b. Scientific analysis of Po-210 samples c. Legitimate trade in/international carriage of Po-210 d. Apparent documentary evidence of consignment of Po-210 at Yaroslavl,
 
 August 2006
 
-13. Andrey Lugovoy and Dmitri Kovtun – backgrounds; movements October/November 2006; public statements since November 2006 a. Andrey Lugovoy background b. Dmitri Kovtun background c. Visit by Andrey Lugovoy and Dmitri Kovtun to London 16 to 18 October 2006
+13\. Andrey Lugovoy and Dmitri Kovtun – backgrounds; movements October/November 2006; public statements since November 2006 a. Andrey Lugovoy background b. Dmitri Kovtun background c. Visit by Andrey Lugovoy and Dmitri Kovtun to London 16 to 18 October 2006
 
 (i) Narrative – travel/movements/purpose of visit/meetings etc
 
@@ -4677,7 +4677,7 @@ e. Dmitri Kovtun's visit to Hamburg 28 to 31 October 2006 (i) Narrative – trav
 
 f. Visit by Andrey Lugovoy and Dmitri Kovtun to London 31 October to 3 November 2006 (i) Narrative – travel/movements/purpose of visit/meetings etc g. Andrey Lugovoy – public statements since 2006/polygraph test h. Dmitri Kovtun – public statements since 2006
 
-14. Traces of Po-210 in London and Hamburg a. Scientific context/methodology of testing for Po-210 b. Evidence of Po-210 traces
+14\. Traces of Po-210 in London and Hamburg a. Scientific context/methodology of testing for Po-210 b. Evidence of Po-210 traces
 
 > (i) Traces in London apparently associated with events 16 to 18 October 2006 (ii) Traces in London apparently associated with events 25 to 28 October 2006 (iii) Traces in Hamburg apparently associated with events 28 to 31 October 2006 (iv) Traces in London apparently associated with events 31 October to
 

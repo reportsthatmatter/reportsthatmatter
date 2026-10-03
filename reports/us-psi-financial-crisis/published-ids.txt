@@ -27,6 +27,7 @@
 1-new-developments-2
 1-new-developments-636
 1-past-credit-rating-agency
+1-review-structured-finance-transactions
 1-sales-culture
 1-strategic-direction
 1-strategic-direction-2
@@ -86,6 +87,7 @@
 2-loan-origination-channels-2
 2-loan-origination-channels-52
 2-mass-downgrades
+2-narrow-proprietary-trading-exceptions
 2-new-developments
 2-other-regulatory-failures
 2-paying-speed-volume
@@ -143,6 +145,7 @@
 2007-16-billion-reversal-1558
 2007-1995-earlier-year-birnbaum
 2007-after-company-announced-its
+2007-earlier-year-birnbaum-had
 2007-example-examiner-critical-wamu
 2007-fdic-memorandum-again-identified
 2007-fitch-ratings-decided-conduct
@@ -169,6 +172,7 @@
 2008-wamu-memorandum-subsequent-ots
 2009-ots-oversaw-about-765
 2010-fdic-renegotiated-agreement-other
+25-loan-applications-22-ultimately
 25-loan-applications-ultimately-terminated
 27-cdos-securitized-about-28
 288-efforts-example-2007-ots
@@ -180,6 +184,7 @@
 3-7-billion-net-revenues
 3-definition-high-risk-lending
 3-definition-high-risk-lending-2
+3-design-strong-conflict-interest
 3-deutsche-bank-s-5
 3-loan-resid-ual-books
 3-long-beach
@@ -189,6 +194,7 @@
 3-recommendations
 3-record-revenues
 3-securitizing-delinquency-prone-loans
+3-strengthen-camels-ratings-federal
 3-structured-finance-products
 3-suitability-obligation-institutional-customers
 3-wamu-executive-compensation
@@ -202,6 +208,7 @@
 4-2010-ig-report-24-25
 4-24-2007-email-from
 4-cdo-machine
+4-failure-factor-fraud-laxity
 4-gain-sale
 4-gain-sale-2
 4-gain-sale-64
@@ -209,6 +216,7 @@
 4-securitization
 4-securitization-2
 4-securitization-55
+4-study-bank-use-structured
 4-wamu-loan-sales-fannie
 40-00
 40-rmbs-will-consist-single
@@ -222,8 +230,10 @@
 5-acknowledging-unsustainable-housing-price-2
 5-gemstone
 5-how-goldman-created-failed
+5-inadequate-resources-despite-record
 5-overview-wamu-s-rise
 5-overview-wamu-s-rise-2
+5-strengthen-disclosure-sec-should
 50-00
 54-contribution-rate-firmwide-var
 6-000-000-000
@@ -234,13 +244,16 @@
 6-billion-long-mid-2006-goldman
 6-execution-high-risk-lending
 6-execution-high-risk-lending-2
+6-mass-downgrades-shocked-market
 6-other-deutsche-bank-cdos
+6-reduce-ratings-reliance-federal
 6-securities
 60-00
 7-12-2007-moody-s
 7-25-2007-email-from
 7-27-2006-email-from
 7-analysis
+7-failed-ratings-moody-s
 7-goldman-s-proprietary-investments
 7-goldman-s-proprietary-investments-2
 700-million-gemstone-7-securities
@@ -250,9 +263,11 @@
 8-14-2006-email-from
 8-17-2007-goldman-internal
 8-28-2009-those-banks
+8-statutory-bar-sec-barred
 9-17-2010-letter-from
 9-26-2008-sec-press
 9-27-2007-s-p
+9-legal-pressure-aaa-ratings
 90-bbb-index-only
 95-6-000-000-000
 a-background
@@ -438,6 +453,7 @@ another-point-roe-warned-ensure
 another-problem-weak-role-played
 another-sobering-internal-wamu-report
 answer-right
+answer-right-2
 answer-right-2525
 any-securitized-mortgage-defaulted-selling
 apparently-problem-model-had-already
@@ -1036,6 +1052,7 @@ final-chapter-examines-how-investment
 final-three-months-before-wamu
 finally-actual-language-used-ots
 financial-crisis-anatomy-financial-collapse
+financial-crisis-timeline
 financial-crisis-timeline-104
 financial-industry-high-risk-activities
 financial-markets-economy-safeguard-deposit
@@ -1735,6 +1752,7 @@ number-analysts-who-worked-moody
 number-internal-goldman-documents-2006
 number-new-developments-have-occurred
 number-sales-2025-end-february
+number-sales-end-february-goldman
 numerous-documents-show-ots-fdic
 numerous-internal-emails-illustrate-not
 obligation-underwriter-placement-agent-disclose
@@ -2451,8 +2469,10 @@ took-nearly-month-ots-launch
 top-cra-executives-received-millions
 top-sheet-literally-top-sheet
 tourre-made-similar-representations-his
+tourre-no-not
 tourre-no-not-2547
 tourre-paulson-not-disclosed-abacus
+tourre-yes
 tourre-yes-2545
 tracking-hudson-once-constructed-hudson
 trading-has-agreed-change-marks
@@ -2600,6 +2620,7 @@ week-later-december-13-2006
 week-later-may-31-2007
 week-later-sunday-february-25
 weighted-average-levels
+what-next-area-contagion
 what-next-area-contagion-2013
 when-anderson-issued-its-securities
 when-asked-about-email-subcommittee

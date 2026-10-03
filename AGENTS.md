@@ -604,6 +604,8 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Get better faster, not just fix the next bug.** Research and integrator work should also improve how we find and measure defects. Prefer work that produces measurement (reference texts, `pnpm score`, golden pages, the oracle, error clustering) over another one-off pass. Every agent's final report ends with a "Getting better faster" retro (what slowed you, what would have caught it, one proposal), and lessons go into `docs/design/lessons.md`. Reports that have a clean edition are both a served source and the labelled training set for PDF-only reports (shadow PDF ingest; docs/decisions/0003).
 
+**Rufus does not review PRs.** An agent review (a separate reviewer agent) is the gate; then the integrator merges and ships. (Rufus, 2026-10-03)
+
 **Park hard reports.** Give a tough report one fix attempt. If a different defect then appears, stop, write up what was learned in a bead labelled `research`, hold its PRs out of the release, and move on. Don't churn on it inside a general session (e.g. Duelfer, Leveson headings).
 
 **Supervisor and model choice.** A supervisor session delegates to subagents and picks the model per task before spawning:
