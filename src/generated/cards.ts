@@ -12,6 +12,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "uk-chilcot-inquiry/default",
   "uk-hillsborough-panel/default",
   "uk-leveson-inquiry/default",
+  "uk-post-office-horizon-inquiry/default",
   "uk-saville-inquiry/default",
   "us-911-commission/default",
   "us-deepwater-horizon/default",

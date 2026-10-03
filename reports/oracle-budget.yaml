@@ -69,3 +69,6 @@ reports:
   us-lehman-examiner:
     markers-unlinked: 22
     note-off-page: 0
+  uk-post-office-horizon-inquiry:
+    markers-unlinked: 0
+    note-off-page: 0

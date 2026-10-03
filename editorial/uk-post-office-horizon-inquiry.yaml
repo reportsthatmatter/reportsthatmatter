@@ -1,0 +1,178 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve. Shape and rules:
+# docs/report-introductions.md (reference: editorial/jack-smith-vol1.yaml).
+#
+# Background facts not in the report were checked on 4 October 2026:
+# non-statutory inquiry 29 September 2020 and statutory from 1 June 2021
+# (gov.uk, "Government strengthens Post Office Horizon IT Inquiry with
+# statutory powers"; the Inquiry's own "About the Inquiry"); Court of Appeal,
+# 23 April 2021, 39 convictions quashed (Hamilton v Post Office [2021] EWCA
+# Crim 577; CCRC); Post Office (Horizon System) Offences Act 2024, Royal Assent
+# 24 May 2024 (legislation.gov.uk), and the Scottish Act of the same year;
+# the Government's response to Volume 1, 9 October 2025 (gov.uk policy paper).
+
+report: uk-post-office-horizon-inquiry
+status: approved
+
+why_it_matters: >-
+  The first volume of the statutory inquiry into the Post Office Horizon
+  scandal, in which the Post Office relied on faulty accounting software to
+  prosecute and pursue its own postmasters for losses that did not exist. It
+  sets out what that did to the people affected, judges whether the schemes
+  set up to compensate them have worked, and makes 19 recommendations.
+
+background: |
+  From 1999 the Post Office ran its branches on Horizon, an accounting system
+  built by ICL Pathway, later Fujitsu. Between 2000 and 2013 it prosecuted
+  postmasters and branch staff for theft and false accounting on the strength
+  of Horizon's figures, and for over two decades it held others liable under
+  their contracts for shortfalls the system showed. Postmasters said from the
+  start that the system was at fault. In 2019 a group of 555 of them, led by
+  Alan Bates, won two judgments in the High Court, and the case was settled.
+  On 23 April 2021 the Court of Appeal quashed 39 convictions, and in May 2024
+  Parliament passed an Act quashing Horizon convictions in England, Wales and
+  Northern Ireland; Scotland passed its own.
+
+  The Government set up the inquiry in September 2020 under Sir Wyn Williams,
+  a retired High Court judge, and converted it into a statutory inquiry under
+  the Inquiries Act 2005 on 1 June 2021, with powers to compel evidence. It
+  heard the people affected first, in 2022. Volume 1 was laid before
+  Parliament on 8 July 2025, ahead of the rest of the report, so that its
+  recommendations on compensation could be acted on at once. It covers the
+  human impact, with 17 case illustrations, and the four redress schemes. How
+  the scandal happened and who was responsible are left to later volumes.
+
+  The report asked for written responses to its recommendations by 10 October
+  2025. The Government published its response on 9 October 2025.
+
+findings:
+  - text: The Chair finds that employees of Fujitsu knew before Horizon was rolled out that it could show losses that were not real, and that staff of the Post Office knew or should have known it too, while the Post Office kept insisting its data was accurate.
+    cites: [1-3-prior-roll-out, 1-4-although-many-individuals, 1-5-2010-legacy-horizon]
+    excerpt:
+      paragraph: 1-4-although-many-individuals
+      quote: >-
+        Although many of the individuals who gave evidence before me were very
+        reluctant to accept it, I am satisfied from the evidence that I have
+        heard that a number of senior, and not so senior, employees of the Post
+        Office knew or, at the very least, should have known that Legacy Horizon
+        was capable of error as described above. Yet, for all practical
+        purposes, throughout the lifetime of Legacy Horizon, the Post Office
+        maintained the fiction that its data was always accurate.
+
+  - text: The report finds that many hundreds of people were wrongly convicted and many thousands wrongly held liable for losses that were illusory, and that there are about 10,000 eligible claimants for redress.
+    cites: [1-9-consequence-activities-described, 3-1-almost-impossible-ascertain]
+    excerpt:
+      paragraph: 1-9-consequence-activities-described
+      quote: >-
+        As a consequence of the activities described in the preceding two
+        paragraphs, many hundreds of people have been convicted, wrongly, of
+        criminal offences, and many thousands of people have been held
+        responsible, wrongly, for losses which were illusory, as opposed to
+        real.
+
+  - text: The Post Office identified 13 people who, their families say, took their own lives because of shortfalls Horizon showed. The Chair says he cannot find that Horizon caused all of those deaths but does not rule it out, and records evidence from at least 59 people who contemplated suicide.
+    cites: [3-8-following-formal-request, 3-10-following-further-formal, 3-11-i-have-also, 3-12-i-have-also]
+    excerpt:
+      paragraph: 3-11-i-have-also
+      quote: >-
+        I have also received evidence from at least 59 persons who contemplated
+        suicide at various points in time and who attributed this to their
+        experiences with Horizon and/or the Post Office. This was a common
+        experience across both those who were and were not prosecuted. Ten of
+        the persons who contemplated suicide attempted to take their lives, some
+        on more than one occasion.
+
+  - text: The Chair accepts that the Post Office, the Department and Ministers committed in good faith to redress that is "full, fair and prompt", but concludes that too often it has not been delivered.
+    cites: [6-4-evidence-adduced-inquiry, 6-7-ultimately-course-whatever]
+    excerpt:
+      paragraph: 6-7-ultimately-course-whatever
+      quote: >-
+        Ultimately of course, whatever aims the Post Office, and the Department
+        have embraced, the real question is whether they have been able to
+        fulfil those aims. Having reviewed the evidence with care, I have
+        concluded that there have been too many instances in the past in which
+        the aims have not been fulfilled and that, as things stand, there are
+        many formidable difficulties in the way of achieving those aims going
+        forward.
+
+  - text: The report holds that "full" redress means the top of the range a court would award, and recommends that the Government say so publicly and that every scheme apply it.
+    cites: [6-18-set-against-background, 2-minister-department-conjunction-post-2, 3-post-office-department-minister-2]
+
+  - text: It finds that redress for many claimants who chose a full assessment has not been prompt, and that the Department will struggle to close the Group Litigation Order Scheme by the end of 2026.
+    cites: [6-205-summary-delivery-financial, 6-133-all-said-very]
+
+  - text: It recommends a standing public body to run future compensation schemes for people wronged by public bodies, independent of the body that caused the harm.
+    cites: [6-208-i-can-see, 17-soon-reasonably-practicable-hm-2]
+
+  - text: It recommends redress for close family members of those most affected, where they have suffered serious consequences themselves.
+    cites: [6-225-my-view-there, 18-department-shall-devise-process-2]
+
+reading_guide:
+  - section: introduction
+    why: The Chair's own four-page account of Horizon, the prosecutions and the litigation, and why this volume comes first.
+  - section: recommendations
+    why: All 19 recommendations on two pages, each argued for later in the volume.
+  - section: c-case-illustrations
+    why: Seventeen case illustrations, drawn mainly from the evidence of the people concerned, from imprisonment and bankruptcy to the death of Martin Griffiths.
+    excerpt:
+      paragraph: 3-61-butoy-s-convictions
+      quote: Mr Butoy's convictions resulted in widespread and damning publicity.
+  - section: a-the-meaning-of-the-phrase-full-and-fair-redress
+    why: What "full and fair" compensation should mean, and the recommendations that follow from it.
+  - section: c-has-financial-redress-been-delivered-promptly
+    why: Why compensation has taken so long, scheme by scheme.
+  - section: d-other-issues-and-recommendations
+    why: A standing compensation body, redress for families, and restorative justice.
+
+highlights:
+  - paragraph: 1-4-although-many-individuals
+    quote: >-
+      Yet, for all practical purposes, throughout the lifetime of Legacy
+      Horizon, the Post Office maintained the fiction that its data was always
+      accurate.
+    card: true
+  - paragraph: 1-11-almost-soon-legacy
+    quote: >-
+      Almost as soon as Legacy Horizon had been rolled out, postmasters began
+      to complain that Horizon was, on occasions, producing false data which
+      affected branch accounts.
+    card: true
+  - paragraph: 1-11-almost-soon-legacy
+    quote: >-
+      Still the Post Office trenchantly resisted the contention that on
+      occasions Horizon produced false data.
+  - paragraph: 1-9-consequence-activities-described
+    quote: >-
+      As a consequence of the activities described in the preceding two
+      paragraphs, many hundreds of people have been convicted, wrongly, of
+      criminal offences, and many thousands of people have been held
+      responsible, wrongly, for losses which were illusory, as opposed to
+      real.
+  - paragraph: 1-10-impact-upon-those
+    quote: >-
+      The impact upon those wrongly accused and prosecuted for criminal
+      offences has been disastrous.
+    card: true
+  - paragraph: 3-1-almost-impossible-ascertain
+    quote: >-
+      I can say, however, with a degree of confidence that there are currently
+      about 10,000 eligible claimants in the schemes providing financial
+      redress and that number is likely to rise at least by hundreds, if not
+      more, over the coming months.
+  - paragraph: 6-7-ultimately-course-whatever
+    quote: >-
+      Having reviewed the evidence with care, I have concluded that there have
+      been too many instances in the past in which the aims have not been
+      fulfilled and that, as things stand, there are many formidable
+      difficulties in the way of achieving those aims going forward.
+  - paragraph: 6-205-summary-delivery-financial
+    quote: >-
+      In summary, delivery of financial redress to many claimants who have
+      opted for assessment has not been prompt.
+    card: true
+  - paragraph: 6-225-my-view-there
+    quote: >-
+      Having weighed up the considerations set out above, I consider it fair
+      and proper that such family members should be able to obtain financial
+      redress which recognises their own suffering.
