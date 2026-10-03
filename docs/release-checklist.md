@@ -6,17 +6,18 @@ Commands marked (new) arrived with the tooling batch of 2026-10-03 (`pnpm ingest
 
 ## Before the release
 
+0. Pass PRs: `pnpm ingest recheck --passes <changed passes>` (re-ingests every report declaring one, writes nothing, fails on a correction matching 0 times) and `pnpm ingest crosscheck` (golden pages against `reference/adjudicated.yaml`) before opening it.
 1. In the ingest PR, show what it does to the corpus: `pnpm ingest try <branch|path> [<id>...]` (new) from a site worktree prints, per report, the join and move list, the quality deltas and the score flips, and restores every link afterwards. Paste it next to `pnpm quality report --diff origin/main`. After a fix to a score-visible decision, `pnpm score --all --out score-before`, change, `pnpm score --all --out score-after`, `pnpm score --diff score-before score-after` (new) lists the decisions that flipped.
 2. Merge the ingest PR, then `pnpm release X.Y.Z` from ingest's `main`. Never tag a PR branch (a squash-merge makes the tag unreachable from `main`).
 
 ## Pin bump and re-ingest (site worktree)
 
 3. Bump the `@rtm/ingest` pin, `pnpm bootstrap`, then **reinstall every report repo**: `pnpm ingest preflight` (new) lists each repo's pin against its installed version and prints `pnpm -C <repo> install` for any that differ. `run`, `verify`, `check` and `baseline` run it first, so a stale repo stops them with that message instead of a missing-export crash.
-4. `pnpm ingest check`: read each report's diff; `pnpm ingest baseline <id>` only for diffs you read and meant.
-5. `pnpm ingest aggregate`, then `pnpm aliases generate --all` (a branch based on what is published), then `pnpm prerender`.
+4. `pnpm ingest check`: read each report's diff; `pnpm ingest baseline <id> --shared` only for diffs you read and meant. `baseline`, `run` and `aggregate` refuse a report repo that is the shared checkout; the integrator passes `--shared` deliberately (everyone else uses `pnpm ingest worktrees <id…>` and exports the `RTM_REPORT_DIRS` it prints). Before the pin bump, `pnpm ingest recheck --passes <the passes the release changed>` and `pnpm ingest crosscheck` must be clean.
+5. `pnpm ingest aggregate --shared`, then `pnpm aliases generate --all` (a branch based on what is published), then `pnpm prerender`.
 6. `pnpm corpus check`: a vanished or new section now says why (folded into its neighbour by the sliver rule, renamed, or genuinely gone) (new). `pnpm corpus accept <id>` after reading.
 7. `pnpm quality report --diff origin/main` into the PR body; every regression needs a bead; `pnpm quality ratchet` for improvements. `verify.sh` reminds you while `quality-last.json` is from another ingest version (new).
-8. `./scripts/verify.sh` exits 0.
+8. `VERIFY_SHARED=1 ./scripts/verify.sh` exits 0 (the variable passes `--shared` to its aggregate step; without it, the step refuses shared checkouts).
 
 ## Ship (after the pin-bump PR merges)
 

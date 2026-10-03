@@ -15,7 +15,7 @@ pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
 ```
 
-Golden pages (`<report repo>/golden.yaml`) are verified ground truth for a few PDF pages per report: `verify` fails when a regeneration no longer matches one, and a page the pipeline is known to get wrong is marked `xfail: <bead>` so it stays visible without failing the run. Format, how to write an entry and the oracle's measured precision: [`docs/quality-harness.md`](../../docs/quality-harness.md). `RTM_REPORT_DIRS=<dir>` reads report repos from `<dir>/<repo>` (git worktrees) where they exist.
+Golden pages (`<report repo>/golden.yaml`) are verified ground truth for a few PDF pages per report: `verify` fails when a regeneration no longer matches one, and a page the pipeline is known to get wrong is marked `xfail: <bead>` so it stays visible without failing the run. Format, how to write an entry and the oracle's measured precision: [`docs/quality-harness.md`](../../docs/quality-harness.md). `RTM_REPORT_DIRS=<dir>` reads report repos from `<dir>/<repo>` (git worktrees) where they exist. `run`, `baseline` and `aggregate` refuse a report repo that is the shared checkout (default sibling path, main working tree): `pnpm ingest worktrees <id…>` makes worktrees and prints the `RTM_REPORT_DIRS` to export; the integrator passes `--shared`. `pnpm ingest recheck [--passes a,b] [<id>…]` re-ingests in memory each report declaring a changed pass and fails on a correction that no longer matches once; `pnpm ingest crosscheck` flags golden pages that contradict `reference/adjudicated.yaml`.
 
 ## Where a fix goes
 

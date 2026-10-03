@@ -64,7 +64,10 @@ step "Aggregate reports"
 # A report's authority is its own repo (reports/manifest.yaml). Copying here
 # before pre-rendering is what stops the site serving a stale copy of a report
 # that was edited where it actually lives.
-if pnpm ingest aggregate >"${RUN_DIR}/aggregate.log" 2>&1; then
+# `aggregate` refuses a report repo that is the shared checkout (reportsthatmatter-m7ga): the integrator
+# runs this with VERIFY_SHARED=1 (passes --shared); anyone else sets RTM_REPORT_DIRS to worktrees
+# (`pnpm ingest worktrees <ids>`).
+if pnpm ingest aggregate ${VERIFY_SHARED:+--shared} >"${RUN_DIR}/aggregate.log" 2>&1; then
   pass "reports/ is current with each report's source of truth"
 else
   fail "pnpm ingest aggregate"
