@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog } from "./lib/source";
 import { renderIndex, renderReportsIndex } from "./templates/index";
@@ -528,14 +529,16 @@ app.get("/reports/:id", async (c) => {
   // a link never needs the report body itself, just which section it's in.
   const paragraph = c.req.query("p");
   if (paragraph) {
-    const slug = meta.paragraphToSection[paragraph];
-    if (slug) {
+    // An id that has since moved (a join, a re-ingest) resolves through the report's aliases to the
+    // paragraph holding its text now (q8c); the link is rewritten to the new id.
+    const target = resolveParagraph(meta, paragraph);
+    if (target) {
       // ?h= names the words within that paragraph and has to survive the hop,
       // or a shared quote arrives as a plain paragraph link.
       const quote = c.req.query("h");
       const anchor = quote ? `&h=${encodeURIComponent(quote)}` : "";
       return c.redirect(
-        `/reports/${reportId}/${slug}?p=${encodeURIComponent(paragraph)}${anchor}#${paragraph}`,
+        `/reports/${reportId}/${target.slug}?p=${encodeURIComponent(target.id)}${anchor}#${target.id}`,
         302
       );
     }
@@ -652,6 +655,14 @@ app.get("/reports/:id/full", async (c) => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
 
+    const moved = p ? resolveParagraph(loaded.meta, p) : null;
+    if (moved && moved.id !== p) {
+      const url = new URL(c.req.url);
+      url.searchParams.set("p", moved.id);
+      url.hash = moved.id;
+      return c.redirect(url.toString(), 302);
+    }
+
     const body = await loadFullBody(loaded.content);
     if (body === null) return c.html(renderNotFound(false), 404);
 
@@ -684,6 +695,20 @@ app.get("/reports/:id/:section", async (c) => {
   return maybeCached(c, Boolean(p || h), async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
+
+    // A renamed section, or a paragraph that has moved (to another section, or to a new id), is
+    // redirected to where it is now: /reports/<id>/<old-section>?p=<old> reaches the new section and id.
+    const renamed = resolveSection(loaded.meta, slug);
+    const moved = p ? resolveParagraph(loaded.meta, p) : null;
+    if ((moved && moved.id !== p) || renamed) {
+      const url = new URL(c.req.url);
+      url.pathname = `/reports/${reportId}/${moved && moved.id !== p ? moved.slug : renamed}`;
+      if (moved && moved.id !== p) {
+        url.searchParams.set("p", moved.id);
+        url.hash = moved.id;
+      }
+      return c.redirect(url.toString(), 302);
+    }
 
     const index = loaded.meta.sections.findIndex((entry) => entry.slug === slug);
     if (index === -1) return c.html(renderNotFound(false), 404);

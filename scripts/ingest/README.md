@@ -35,6 +35,11 @@ friction is deliberate — it is what makes each report adopt improvements
 knowingly rather than having them arrive unannounced, which is the failure
 that motivated the split.
 
+A re-ingest that moves paragraph ids also regenerates the report's aliases: after
+`pnpm ingest aggregate`, `pnpm aliases generate --all` (from a branch based on
+what is published), commit `reports/<id>/aliases.yaml` and `published-ids.txt`
+with it. See AGENTS.md, "Ids move; aliases keep links alive".
+
 The pin-bump PR carries a quality report. After the re-ingest, run
 `pnpm quality report --diff origin/main` and paste the table into the PR body:
 it lists every report's count for every signal against

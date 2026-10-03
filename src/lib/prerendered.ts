@@ -19,6 +19,10 @@ export type PrerenderMeta = {
   pages?: number;
   sections: LightSection[];
   paragraphToSection: Record<string, string>;
+  /** Old paragraph id -> current id, for ?p= links that predate a move (src/lib/aliases.ts). */
+  paragraphAliases?: Record<string, string>;
+  /** Old section slug -> current slug. */
+  sectionAliases?: Record<string, string>;
 };
 
 /**

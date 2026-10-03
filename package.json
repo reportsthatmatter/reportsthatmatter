@@ -17,6 +17,7 @@
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",
+    "aliases": "tsx scripts/aliases.ts",
     "quality": "tsx scripts/quality.mjs",
     "score": "tsx scripts/score.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",

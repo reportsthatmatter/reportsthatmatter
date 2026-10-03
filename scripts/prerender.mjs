@@ -37,6 +37,9 @@
  * paragraph, so the section page answers the same question — see
  * docs/plans/2026-09-04-content-publishing.md §8 step 1.
  *
+ * `meta.paragraphAliases` / `meta.sectionAliases` come from reports/<id>/aliases.yaml, so a `?p=`
+ * link to an id that has since moved still lands (src/lib/aliases.ts).
+ *
  * A report that has written its own PROCESSING.md also gets processing.html,
  * likewise layout-free. It is not part of the published (R2) content, so it
  * moves with a deploy, not with `pnpm publish-report`.
@@ -74,6 +77,20 @@ const sitemapEntries = [];
 for (const report of registry.reports) {
   const markdown = readFileSync(join(root, report.source_path), "utf8");
   const { meta, fullBody, fragments } = renderArtifacts(markdown);
+
+  // Old paragraph ids and section slugs that still resolve (q8c, src/lib/aliases.ts). In meta.json so
+  // they publish and roll back with the content whose ids they describe. Only targets that exist.
+  const aliasPath = join(root, `reports/${report.id}/aliases.yaml`);
+  if (existsSync(aliasPath)) {
+    const file = parse(readFileSync(aliasPath, "utf8")) ?? {};
+    const keep = (map, live) =>
+      Object.fromEntries(Object.entries(map ?? {}).filter(([from, to]) => !live(from) && live(to)));
+    const slugs = new Set(meta.sections.map((s) => s.slug));
+    const paragraphAliases = keep(file.aliases, (id) => id in meta.paragraphToSection);
+    const sectionAliases = keep(file.sections, (slug) => slugs.has(slug));
+    if (Object.keys(paragraphAliases).length) meta.paragraphAliases = paragraphAliases;
+    if (Object.keys(sectionAliases).length) meta.sectionAliases = sectionAliases;
+  }
 
   writeJSON(join(outDir, `reports/${report.id}/meta.json`), meta);
   writeText(join(outDir, `reports/${report.id}/full-body.html`), fullBody);
