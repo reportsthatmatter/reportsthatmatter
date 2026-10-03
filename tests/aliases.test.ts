@@ -27,6 +27,20 @@ describe("alias generation", () => {
     expect(lost).toEqual([]);
   });
 
+  it("finds a paragraph the old text ran a heading into by its printed number (a8l)", () => {
+    // before: the PDF reading's "Initial response 2.4.42 By this time…" was one paragraph; after: a heading and the paragraph.
+    // The heading's words and the label are a four-word probe that also reads across the end of another paragraph and the next one's number.
+    const P = "The ambulance officers gave an account of the initial response. ";
+    const Q = "However because of the pressing needs of the day-to-day service training is theoretical and tested rarely in practice at all.";
+    const N = "By this time however a police officer had been despatched to pitch level to investigate and reported a disaster in progress.";
+    const old = render(doc({ Chapter: [`2.4.16 ${P}`, `2.4.17 ${Q}`, `Initial response 2.4.42 ${N}`] }));
+    const now = render(doc({ Chapter: [`2.4.16 ${P}`, `2.4.17 ${Q}`, `#### Initial response\n\n2.4.42 ${N}`] }));
+    const fused = old.passages.find((p) => p.text.startsWith("Initial response"))!.id;
+    const { moved, lost } = computeMoves(old, now);
+    expect(moved[fused]).toBe(now.passages.find((p) => p.text.startsWith("2.4.42"))!.id);
+    expect(lost).toEqual([]);
+  });
+
   it("reports an id whose text is gone as lost, and unmatched in the file", () => {
     const after = render(doc({ "The decision": [A, B] }));
     const file = fold(emptyAliases(), before, after);

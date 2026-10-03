@@ -164,10 +164,10 @@ reports:
     furniture-paragraph: 0
     contents-entry-without-heading: 0
     heading-density: 1  # why: reportsthatmatter-ivg.3 (the website edition has the report's real subsection headings, 306 over 371 pages; the PDF build found 21)
-    heading-repeated: 2  # why: reportsthatmatter-ivg.3 (every chapter opens "Introduction" and closes "Conclusion: what is added to public understanding", as printed)
+    heading-repeated: 3  # why: reportsthatmatter-ivg.3 (every chapter opens "Introduction" and closes "Conclusion: what is added to public understanding", as printed); reportsthatmatter-a8l ("The Stuart-Smith Scrutiny" is now a heading each of its 4 times, as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 5  # why: reportsthatmatter-ivg.3 (real headings: two "Summary of Chapter N: <full title>", Part 3's subtitle, two long subsection titles)
+    heading-long: 7  # why: reportsthatmatter-ivg.3 (real headings: two "Summary of Chapter N: <full title>", Part 3's subtitle, two long subsection titles); reportsthatmatter-a8l (two more in chapter 7's PDF-filled stretch, set over two lines: "Claims on behalf of the bereaved and injured, including the cases of Alcock…", "Compensation claims on behalf of police officers, including…")
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0

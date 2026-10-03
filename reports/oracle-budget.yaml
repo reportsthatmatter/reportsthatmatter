@@ -57,7 +57,7 @@ reports:
     paragraphs-oversplit: 956
     note-off-page: 0
   uk-hillsborough-panel:
-    headings-missed: 144
+    headings-missed: 70
     markers-unlinked: 24
     note-off-page: 1  # page-foot notes are read since ivg.3 (footnoteNumbers("period")), so it leaves notes-at-back
   uk-saville-inquiry:

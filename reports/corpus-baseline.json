@@ -3277,8 +3277,8 @@
       ]
     },
     "uk-hillsborough-panel": {
-      "words": 203393,
-      "paragraphs": 2768,
+      "words": 203379,
+      "paragraphs": 2758,
       "sections": [
         {
           "slug": "front-matter",
@@ -3392,7 +3392,7 @@
           "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
           "title": "Chapter 4: Emergency response and aftermath: 'routinely requested to attend'",
           "paragraphs": 212,
-          "ids": "9bd9cff20d21"
+          "ids": "7f4729c302ef"
         },
         {
           "slug": "chapter-5-medical-evidence-the-testimony-of-the-dead",
@@ -3409,26 +3409,26 @@
         {
           "slug": "chapter-7-civil-litigation",
           "title": "Chapter 7: Civil litigation",
-          "paragraphs": 238,
-          "ids": "338509fda856"
+          "paragraphs": 237,
+          "ids": "19be6cce0023"
         },
         {
           "slug": "chapter-8-the-coroners-inquiry-from-the-immediate-aftermath-to-the-preliminary-h",
           "title": "Chapter 8: The Coroner's inquiry: from the immediate aftermath to the preliminary hearings",
           "paragraphs": 105,
-          "ids": "957ced32c013"
+          "ids": "949c897b5f4e"
         },
         {
           "slug": "chapter-9-the-generic-hearing-judicial-review-and-continuing-controversies",
           "title": "Chapter 9: The generic hearing, Judicial Review and continuing controversies",
-          "paragraphs": 130,
-          "ids": "4eb55f70fdef"
+          "paragraphs": 129,
+          "ids": "d4e619094672"
         },
         {
           "slug": "chapter-10-the-315pm-cut-off",
           "title": "Chapter 10: The 3.15pm cut-off",
           "paragraphs": 144,
-          "ids": "a672cc5555d6"
+          "ids": "a5775950c7ba"
         },
         {
           "slug": "chapter-11-review-and-alteration-of-statements",
@@ -3440,7 +3440,7 @@
           "slug": "chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs",
           "title": "Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations",
           "paragraphs": 207,
-          "ids": "0d892ae227c3"
+          "ids": "75c9a7ce054f"
         },
         {
           "slug": "part-3-the-permanent-archive-for-the-hillsborough-disaster",
@@ -3457,8 +3457,8 @@
         {
           "slug": "public-access",
           "title": "Public access",
-          "paragraphs": 44,
-          "ids": "a2709dc30735"
+          "paragraphs": 36,
+          "ids": "456ec6f8e560"
         },
         {
           "slug": "from-active-digital-archive-to-permanent-archive",
@@ -3482,7 +3482,7 @@
           "slug": "contributing-organisations",
           "title": "Contributing organisations",
           "paragraphs": 19,
-          "ids": "92822f65ac4d"
+          "ids": "0d368c38ac2a"
         },
         {
           "slug": "appendix-3-research-process-and-method",
