@@ -34,6 +34,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 534,
     "height": 660
   },
+  "uk-post-office-horizon-inquiry": {
+    "width": 660,
+    "height": 249
+  },
   "uk-saville-inquiry": {
     "width": 660,
     "height": 450

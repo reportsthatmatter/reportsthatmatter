@@ -878,3 +878,67 @@ items:
     card: assets/cards/jack-smith-vol1/core-trump-s-obstructive-scheme.png
     scheduled: 2026-12-08
     posted_url: null
+  - id: uk-post-office-horizon-inquiry:1-4-although-many-individuals:74f48eb8
+    report: uk-post-office-horizon-inquiry
+    paragraph: 1-4-although-many-individuals
+    quote: Yet, for all practical purposes, throughout the lifetime of Legacy
+      Horizon, the Post Office maintained the fiction that its data was always
+      accurate.
+    text: >-
+      “Yet, for all practical purposes, throughout the lifetime of Legacy
+      Horizon, the Post Office maintained the fiction that its data was always
+      accurate.”
+
+
+      — Post Office Horizon IT Inquiry Report, Volume 1, p. 6
+    link: https://reportsthatmatter.org/reports/uk-post-office-horizon-inquiry?p=1-4-although-many-individuals&h=error%20as%20described%20above.%20|Yet%2C%20for%20all%20practical%20purposes%2C%20throughout%20the%20lifetime%20of%20Legacy%20Horizon%2C%20the%20Post%20Office%20maintained%20the%20fiction%20that%20its%20data%20was%20always%20accurate.|&src=bsky
+    card: assets/cards/uk-post-office-horizon-inquiry/q-a8810e8c.png
+    scheduled: 2026-12-09
+    posted_url: null
+  - id: uk-post-office-horizon-inquiry:1-11-almost-soon-legacy:3e66dd17
+    report: uk-post-office-horizon-inquiry
+    paragraph: 1-11-almost-soon-legacy
+    quote: Almost as soon as Legacy Horizon had been rolled out, postmasters began
+      to complain that Horizon was, on occasions, producing false data which
+      affected branch accounts.
+    text: >-
+      “Almost as soon as Legacy Horizon had been rolled out, postmasters began
+      to complain that Horizon was, on occasions, producing false data which
+      affected branch accounts.”
+
+
+      — Post Office Horizon IT Inquiry Report, Volume 1, p. 8
+    link: https://reportsthatmatter.org/reports/uk-post-office-horizon-inquiry?p=1-11-almost-soon-legacy&h=1.11.%20|Almost%20as%20soon%20as%20Legacy%20Horizon%20had%20been%20rolled%20out%2C%20postmasters%20began%20to%20complain%20that%20Horizon%20was%2C%20on%20occasions%2C%20producing%20false%20data%20which%20affected%20branch%20accounts.|%20The%20complaints%20continued&src=bsky
+    card: assets/cards/uk-post-office-horizon-inquiry/q-14629245.png
+    scheduled: 2026-12-10
+    posted_url: null
+  - id: uk-post-office-horizon-inquiry:1-10-impact-upon-those:fbb2c7ad
+    report: uk-post-office-horizon-inquiry
+    paragraph: 1-10-impact-upon-those
+    quote: The impact upon those wrongly accused and prosecuted for criminal
+      offences has been disastrous.
+    text: >-
+      “The impact upon those wrongly accused and prosecuted for criminal
+      offences has been disastrous.”
+
+
+      — Post Office Horizon IT Inquiry Report, Volume 1, p. 8
+    link: https://reportsthatmatter.org/reports/uk-post-office-horizon-inquiry?p=1-10-impact-upon-those&h=1.10.%20|The%20impact%20upon%20those%20wrongly%20accused%20and%20prosecuted%20for%20criminal%20offences%20has%20been%20disastrous.|%20The%20impact%20upon%20those&src=bsky
+    card: assets/cards/uk-post-office-horizon-inquiry/q-500f2907.png
+    scheduled: 2026-12-11
+    posted_url: null
+  - id: uk-post-office-horizon-inquiry:6-205-summary-delivery-financial:9790ca48
+    report: uk-post-office-horizon-inquiry
+    paragraph: 6-205-summary-delivery-financial
+    quote: In summary, delivery of financial redress to many claimants who have
+      opted for assessment has not been prompt.
+    text: >-
+      “In summary, delivery of financial redress to many claimants who have
+      opted for assessment has not been prompt.”
+
+
+      — Post Office Horizon IT Inquiry Report, Volume 1, p. 158
+    link: https://reportsthatmatter.org/reports/uk-post-office-horizon-inquiry?p=6-205-summary-delivery-financial&h=6.205.%20|In%20summary%2C%20delivery%20of%20financial%20redress%20to%20many%20claimants%20who%20have%20opted%20for%20assessment%20has%20not%20been%20prompt.|%20The%20number%20of%20claimants&src=bsky
+    card: assets/cards/uk-post-office-horizon-inquiry/q-4c378e9c.png
+    scheduled: 2026-12-12
+    posted_url: null

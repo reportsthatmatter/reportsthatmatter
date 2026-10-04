@@ -27,25 +27,25 @@ notes-at-back:
 
 reports:
   litvinenko-inquiry:
-    markers-unlinked: 29  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
+    markers-unlinked: 0  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
     note-off-page: 0
   jack-smith-vol1:
-    markers-unlinked: 36  # why: reportsthatmatter-4ef1 (layout parse now joins a raised marker overlapping its line; read pp.162 and 169: the Blanche letter's markers are digits glued to words or beside a footnote label in the text layer, real, +3 over b94's 33)
-    note-off-page: 71
+    markers-unlinked: 30  # why: reportsthatmatter-4ef1 (layout parse now joins a raised marker overlapping its line; read pp.162 and 169: the Blanche letter's markers are digits glued to words or beside a footnote label in the text layer, real, +3 over b94's 33)
+    note-off-page: 11
   us-psi-financial-crisis:
-    markers-unlinked: 26
+    markers-unlinked: 2
     note-off-page: 0
   challenger-accident:
-    markers-unlinked: 27  # why: reportsthatmatter-jsqw + 4ef1 (vision pages keep only the markers the model and the layer agree on; raised digits the text linker used to take stay bare; 24 before jsqw)
+    markers-unlinked: 32  # why: reportsthatmatter-n891 (ingest#64: the oracle now reads raised digits on quotation lines too; +5 on pp.60, 64, 67 and two more, text unchanged; 27 before) + jsqw + 4ef1
     paragraphs-oversplit: 372  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
-    note-off-page: 77
+    note-off-page: 78  # why: reportsthatmatter-uw50 (page markers move with the folio passes; +1)
   uk-leveson-inquiry:
     headings-missed: 1350
-    markers-unlinked: 142
-    paragraphs-oversplit: 2081
+    markers-unlinked: 47
+    paragraphs-oversplit: 2082  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 more notes out of the body; +1 oversplit, not in the listed findings)
     note-off-page: 1
   columbia-accident:
-    markers-unlinked: 3  # why: reportsthatmatter-b94 (ingest#46: the oracle counts raised markers in italic lines and out-of-order fragments; read on the page, real)
+    markers-unlinked: 5  # why: reportsthatmatter-n891 (the oracle now reads raised digits on quotation lines too; +2, read on pp.100 and 124: "its resources.”5" and "other Orbiters.10" are real markers the text leaves bare; reportsthatmatter-pfgn)
     paragraphs-oversplit: 277
     quotes-spurious: 235
   us-911-commission:
@@ -58,7 +58,7 @@ reports:
     note-off-page: 0
   uk-hillsborough-panel:
     headings-missed: 70
-    markers-unlinked: 24
+    markers-unlinked: 1
     note-off-page: 1  # page-foot notes are read since ivg.3 (footnoteNumbers("period")), so it leaves notes-at-back
   uk-saville-inquiry:
     markers-unlinked: 0
@@ -67,7 +67,10 @@ reports:
     markers-unlinked: 0
     note-off-page: 0
   us-lehman-examiner:
-    markers-unlinked: 22
+    markers-unlinked: 19
+    note-off-page: 0
+  uk-post-office-horizon-inquiry:
+    markers-unlinked: 0
     note-off-page: 0
   uk-grenfell-tower-inquiry:
     markers-unlinked: 0

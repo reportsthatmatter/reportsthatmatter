@@ -4,28 +4,28 @@
    "oracle": {
     "headings-missed": 22,
     "headings-spurious": 37,
-    "markers-unlinked": 36,
-    "markers-spurious": 89,
+    "markers-unlinked": 30,
+    "markers-spurious": 38,
     "paragraphs-oversplit": 147,
-    "paragraphs-merged": 422,
+    "paragraphs-merged": 421,
     "quotes-spurious": 51,
     "quotes-missed": 53,
-    "note-off-page": 71
+    "note-off-page": 11
    },
    "golden": {
-    "match": 4,
+    "match": 5,
     "total": 8,
-    "known": 4
+    "known": 3
    }
   },
   "us-psi-financial-crisis": {
    "oracle": {
     "headings-missed": 37,
     "headings-spurious": 5,
-    "markers-unlinked": 26,
+    "markers-unlinked": 2,
     "markers-spurious": 7,
-    "paragraphs-oversplit": 132,
-    "paragraphs-merged": 858,
+    "paragraphs-oversplit": 131,
+    "paragraphs-merged": 848,
     "quotes-spurious": 226,
     "quotes-missed": 91,
     "note-off-page": 0
@@ -38,15 +38,15 @@
   },
   "challenger-accident": {
    "oracle": {
-    "headings-missed": 170,
+    "headings-missed": 169,
     "headings-spurious": 101,
-    "markers-unlinked": 27,
+    "markers-unlinked": 32,
     "markers-spurious": 147,
     "paragraphs-oversplit": 372,
-    "paragraphs-merged": 1927,
+    "paragraphs-merged": 1924,
     "quotes-spurious": 385,
-    "quotes-missed": 209,
-    "note-off-page": 77
+    "quotes-missed": 208,
+    "note-off-page": 78
    },
    "golden": {
     "match": 2,
@@ -58,7 +58,7 @@
    "oracle": {
     "headings-missed": 220,
     "headings-spurious": 0,
-    "markers-unlinked": 29,
+    "markers-unlinked": 0,
     "markers-spurious": 11,
     "paragraphs-oversplit": 250,
     "paragraphs-merged": 1246,
@@ -67,21 +67,21 @@
     "note-off-page": 0
    },
    "golden": {
-    "match": 1,
+    "match": 2,
     "total": 8,
-    "known": 7
+    "known": 6
    }
   },
   "uk-leveson-inquiry": {
    "oracle": {
     "headings-missed": 1350,
     "headings-spurious": 2,
-    "markers-unlinked": 142,
-    "markers-spurious": 2,
-    "paragraphs-oversplit": 2081,
-    "paragraphs-merged": 2538,
-    "quotes-spurious": 317,
-    "quotes-missed": 1255,
+    "markers-unlinked": 47,
+    "markers-spurious": 3,
+    "paragraphs-oversplit": 2082,
+    "paragraphs-merged": 2537,
+    "quotes-spurious": 318,
+    "quotes-missed": 1256,
     "note-off-page": 1
    },
    "golden": {
@@ -94,8 +94,8 @@
    "oracle": {
     "headings-missed": 89,
     "headings-spurious": 2,
-    "markers-unlinked": 3,
-    "markers-spurious": 8,
+    "markers-unlinked": 5,
+    "markers-spurious": 1,
     "paragraphs-oversplit": 277,
     "paragraphs-merged": 815,
     "quotes-spurious": 235,
@@ -113,7 +113,7 @@
     "headings-missed": 27,
     "headings-spurious": 3,
     "markers-unlinked": 6,
-    "markers-spurious": 9,
+    "markers-spurious": 6,
     "paragraphs-oversplit": 140,
     "paragraphs-merged": 2085,
     "quotes-spurious": 2,
@@ -131,7 +131,7 @@
     "headings-missed": 330,
     "headings-spurious": 0,
     "markers-unlinked": 2,
-    "markers-spurious": 31,
+    "markers-spurious": 29,
     "paragraphs-oversplit": 80,
     "paragraphs-merged": 903,
     "quotes-spurious": 30,
@@ -139,9 +139,9 @@
     "note-off-page": 0
    },
    "golden": {
-    "match": 2,
+    "match": 3,
     "total": 6,
-    "known": 4
+    "known": 3
    }
   },
   "us-v-philip-morris": {
@@ -166,8 +166,8 @@
    "oracle": {
     "headings-missed": 70,
     "headings-spurious": 0,
-    "markers-unlinked": 24,
-    "markers-spurious": 107,
+    "markers-unlinked": 1,
+    "markers-spurious": 7,
     "paragraphs-oversplit": 12,
     "paragraphs-merged": 337,
     "quotes-spurious": 6,
@@ -185,7 +185,7 @@
     "headings-missed": 153,
     "headings-spurious": 3,
     "markers-unlinked": 0,
-    "markers-spurious": 31,
+    "markers-spurious": 24,
     "paragraphs-oversplit": 16,
     "paragraphs-merged": 1511,
     "quotes-spurious": 293,
@@ -220,12 +220,30 @@
    "oracle": {
     "headings-missed": 0,
     "headings-spurious": 5,
-    "markers-unlinked": 22,
-    "markers-spurious": 5,
+    "markers-unlinked": 19,
+    "markers-spurious": 2,
     "paragraphs-oversplit": 137,
     "paragraphs-merged": 221,
     "quotes-spurious": 143,
     "quotes-missed": 99,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 4,
+    "total": 5,
+    "known": 1
+   }
+  },
+  "uk-post-office-horizon-inquiry": {
+   "oracle": {
+    "headings-missed": 19,
+    "headings-spurious": 0,
+    "markers-unlinked": 0,
+    "markers-spurious": 1,
+    "paragraphs-oversplit": 13,
+    "paragraphs-merged": 236,
+    "quotes-spurious": 17,
+    "quotes-missed": 4,
     "note-off-page": 0
    },
    "golden": {
@@ -238,7 +256,7 @@
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 16,
-   "fp": 14,
+   "fp": 15,
    "fn": 10
   },
   "headings-spurious": {
@@ -247,32 +265,32 @@
    "fn": 1
   },
   "markers-unlinked": {
-   "tp": 8,
-   "fp": 0,
-   "fn": 5
+   "tp": 4,
+   "fp": 1,
+   "fn": 3
   },
   "markers-spurious": {
    "tp": 0,
-   "fp": 13,
-   "fn": 2
+   "fp": 14,
+   "fn": 1
   },
   "paragraphs-oversplit": {
    "tp": 15,
-   "fp": 11,
+   "fp": 12,
    "fn": 30
   },
   "paragraphs-merged": {
    "tp": 8,
-   "fp": 156,
+   "fp": 164,
    "fn": 1
   },
   "quotes-spurious": {
    "tp": 5,
-   "fp": 4,
+   "fp": 12,
    "fn": 12
   },
   "quotes-missed": {
-   "tp": 2,
+   "tp": 3,
    "fp": 21,
    "fn": 0
   }

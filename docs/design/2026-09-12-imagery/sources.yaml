@@ -369,6 +369,31 @@ marks:
       https://commons.wikimedia.org/wiki/File:NYC_Lehman_Brothers_building.jpg
     treat: { black: 0.16, white: 0.78, grain: 35, cut: none }
 
+  - id: pohorizon
+    set: plate
+    report: uk-post-office-horizon-inquiry
+    pdf: archive/post-office-horizon-it-inquiry-vol1-hc1119.pdf
+    page: 1
+    dpi: 300
+    # Wordmark ink measured at 1442,263-2216,488 on the 300dpi page (2026-10-04, PGM scan of the top right);
+    # the box below adds ~8% margin. The PDF's only raster content is this wordmark (pdfimages: one
+    # 829x269 image, set on pp.1 and 3); the body is text throughout.
+    crop: [1380, 205, 900, 340]
+    subject: >-
+      The Post Office Horizon IT Inquiry's own wordmark, from the cover of
+      Volume 1 (p.1 of the PDF). No photograph or figure exists anywhere in
+      this PDF, so this is the facsimile-mark fallback, the same choice as
+      Chilcot's crest and Jack Smith's DOJ seal.
+    rights: >-
+      Crown copyright 2025, Open Government Licence v3.0, per the report
+      repo's README. The wordmark is the Inquiry's own mark, not a
+      third-party image.
+    treat: { black: 0.20, white: 0.88, grain: 55, cut: none }
+    caveat: >-
+      A wide wordmark (about 2.6:1) reads small in the 92px row box. An
+      exhibit would be better: a Horizon counter terminal or a branch
+      trading statement showing a shortfall, from an openly licensed
+      source (reportsthatmatter-gqsy.2.2 covers the hero image).
   - id: grenfell
     set: plate
     report: uk-grenfell-tower-inquiry

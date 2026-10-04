@@ -22,9 +22,17 @@
  * - `[^N]`: one run through the report, except that a numbering that restarts
  *   begins a new run at a reference numbered 1, 2 or 3 that carries on k, k+1,
  *   k+2 after a run whose last two references were past k+2 (a chapter's note 1 after the previous
- *   chapter's note 60); the run is named for the heading it falls under. A lone
- *   low number is a stray, not a restart. A report whose numbering does not
+ *   chapter's note 60), or at a reference k below half of the last two that
+ *   carries on k+1..k+4 (a run whose first notes were never linked); the run is
+ *   named for the heading it starts under. A lone low number is a stray, not a restart. A report whose numbering does not
  *   restart is one run, which is meaningful where its notes are linked at all.
+ *   Where the definitions themselves restart (the same `[^N]:` defined more
+ *   than once, as Leveson's per-chapter notes are), the runs are read off the
+ *   definitions instead: a run starts at a definition numbered no higher than
+ *   the one before it, and each reference belongs to the run of the definition
+ *   it is served with (`resolveNoteReferences`, the renderer's own pairing),
+ *   so a reference served with another chapter's note reads as out of order or
+ *   a repeat there, and one paired with none stays in the run it sits in.
  *
  * Gaps are judged only in a run where at least half the notes are linked: a run
  * where most markers never became links (Lehman's, Jack Smith's) would report
@@ -33,10 +41,19 @@
  * missing numbers is one finding.
  */
 import { pageNumber } from "./blocks";
-import { bodyOf } from "./note-pairing";
+import { bodyOf, pairNoteReferences } from "./note-pairing";
 import type { Finding, Signal } from "./signals";
 
-type Ref = { note: number; group: string; page: number | null; context: string; heading: string };
+type Ref = { note: number; group: string; page: number | null; context: string; heading: string; seq: number };
+
+/**
+ * `fillGaps` labels the notes of a stretch it fills from the PDF `[^N-90xx]`
+ * (9000 plus the gap's index), so they cannot collide with the edition's own
+ * `[^N-C]`; the notes are the chapter's, split across two labels (Hillsborough:
+ * chapter 7's note 1 is `[^1-7]`, its 2-95 `[^N-9014]`). Such a group is read as
+ * part of the chapter label read next to it.
+ */
+const GAP_GROUP_BASE = 9000;
 
 const TOKEN = /^(#{2,3}) (.+)$|%%page ([^%]+)%%|\[\^(\d+)(?:-(\d+))?\](?!:)/gm;
 const DEFINITION = /^\[\^(\d+)-(\d+)\]:/gm;
@@ -73,6 +90,35 @@ function longestIncreasing(values: number[]): Set<number> {
   return keep;
 }
 
+/**
+ * Folds each gap-filled group (`ch9000` and up) into the chapter read just
+ * before it, or failing that just after it, whose notes it does not repeat:
+ * Hillsborough's `ch9019` (notes 27-58) sits between chapter 10's 1-26 and
+ * 59-; `ch9010` (1-64) precedes chapter 4's 65-75.
+ */
+function mergeGapGroups(runs: Map<string, Ref[]>, order: string[], defined: Map<string, number>): void {
+  const chapter = (key: string) => (/^ch(\d+)$/.exec(key) ? Number(key.slice(2)) : NaN);
+  const all = [...runs.values()].flat().sort((a, b) => a.seq - b.seq);
+  for (const key of [...order]) {
+    if (!(chapter(key) >= GAP_GROUP_BASE)) continue;
+    const refs = runs.get(key)!;
+    const notes = new Set(refs.map((r) => r.note));
+    const first = refs[0].seq;
+    const last = refs[refs.length - 1].seq;
+    const neighbour = (from: Ref[]) => from.find((r) => r.group !== key && chapter(r.group) < GAP_GROUP_BASE)?.group;
+    const disjoint = (k: string | undefined) => k !== undefined && runs.has(k) && !runs.get(k)!.some((r) => notes.has(r.note));
+    const before = neighbour(all.filter((r) => r.seq < first).reverse());
+    const after = neighbour(all.filter((r) => r.seq > last));
+    const into = disjoint(before) ? before : disjoint(after) ? after : undefined;
+    if (!into) continue;
+    const merged = [...runs.get(into)!, ...refs].sort((a, b) => a.seq - b.seq);
+    runs.set(into, merged);
+    runs.delete(key);
+    order.splice(order.indexOf(key), 1);
+    defined.set(into, Math.max(defined.get(into) ?? 0, defined.get(key) ?? 0));
+  }
+}
+
 export function noteSequenceFindings(markdown: string): Finding[] {
   const body = bodyOf(markdown);
   const raw = [...body.matchAll(TOKEN)];
@@ -86,13 +132,43 @@ export function noteSequenceFindings(markdown: string): Finding[] {
     defined.set(`ch${group}`, Math.max(defined.get(`ch${group}`) ?? 0, note));
   }
 
+  // `[^N]` labels a numbering that restarts defines more than once (Leveson: per chapter); the
+  // definitions then say where each run starts (a number not above the one before it), and each
+  // reference belongs to the run of the definition it is served with.
+  const plainDefs = [...markdown.matchAll(/^\[\^(\d+)\]:/gm)].map((m) => Number(m[1]));
+  const byDefinitions = new Set(plainDefs).size < plainDefs.length;
+  // each definition's run, by label and its index among that label's definitions
+  const defRun = new Map<string, number[]>();
+  const defMax: number[] = [];
+  {
+    let r = 0;
+    plainDefs.forEach((n, i) => {
+      if (i > 0 && n <= plainDefs[i - 1]) r += 1;
+      if (!defRun.has(String(n))) defRun.set(String(n), []);
+      defRun.get(String(n))!.push(r);
+      defMax[r] = Math.max(defMax[r] ?? 0, n);
+    });
+  }
+  // which definition each plain reference is served with: the renderer's own pairing
+  const plainRefs = raw.filter((m) => m[4] !== undefined && m[5] === undefined);
+  const pairing = byDefinitions ? pairNoteReferences(plainRefs.map((m) => m[4]), plainDefs.map(String)) : [];
+  const servedRun = new Map<RegExpMatchArray, number | undefined>();
+  plainRefs.forEach((m, i) => {
+    const k = pairing[i];
+    servedRun.set(m, k === null || k === undefined ? undefined : defRun.get(m[4])?.[k]);
+  });
+  const runName = new Map<number, string>();
+  let lastDefRun = 0;
+
   const runs = new Map<string, Ref[]>();
   const order: string[] = [];
   let page: number | null = null;
   let heading = "(start)";
   let plainRun = 0;
+  let runHeading = "";
   let last = 0;
   let beforeLast = 0;
+  let seq = 0;
   for (const m of raw) {
     if (m[1]) {
       heading = m[2];
@@ -104,18 +180,37 @@ export function noteSequenceFindings(markdown: string): Finding[] {
     }
     let note = Number(m[4]);
     let key: string;
-    if (m[5] === undefined && note <= 3 && last > note + 2 && beforeLast > note + 2) {
-      // A restart: the numbering starts over (1, 2 or 3) and carries on 1, 2, 3.
-      // A lone low number is a stray (a reporter's volume in "2 U.S. 99"), not a new chapter.
-      const after = raw.slice(raw.indexOf(m) + 1).filter((t) => t[4] !== undefined && t[5] === undefined).slice(0, 2);
-      if (after.length === 2 && Number(after[0][4]) === note + 1 && Number(after[1][4]) === note + 2) plainRun += 1;
+    // A restart: the numbering starts over and carries on consecutively. From
+    // 1, 2 or 3 two more in step are enough; a run whose first notes were lost
+    // (a Part whose opening page's markers were never linked starts at 10)
+    // must start below half of where the last run ended and carry on four more
+    // in step. A lone low number is a stray (a reporter's volume in
+    // "2 U.S. 99"), and a page's markers read twice start just behind the run,
+    // not far below it; neither is a new chapter.
+    const low = note <= 3 ? last > note + 2 && beforeLast > note + 2 : note * 2 < last && note * 2 < beforeLast;
+    if (m[5] === undefined && low && !byDefinitions) {
+      const need = note <= 3 ? 2 : 4;
+      const i = raw.indexOf(m);
+      const after = raw.slice(i + 1).filter((t) => t[4] !== undefined && t[5] === undefined).slice(0, need);
+      if (after.length === need && after.every((t, k) => Number(t[4]) === note + k + 1)) {
+        plainRun += 1;
+        // The run is named for the heading it starts under, and keeps that name
+        // through the later headings it crosses (a Part's notes span its chapters).
+        runHeading = heading;
+      }
     }
     if (m[5] !== undefined) {
       const [a, b] = [Number(m[4]), Number(m[5])];
       note = firstHalf ? a : b;
       key = `ch${firstHalf ? b : a}`;
+    } else if (byDefinitions) {
+      // the run of the definition this reference is served with (an unpaired one stays in the run it sits in)
+      const r = servedRun.get(m) ?? lastDefRun;
+      lastDefRun = r;
+      if (!runName.has(r)) runName.set(r, r === 0 ? "report" : `run ${r + 1}, from "${heading}"`);
+      key = runName.get(r)!;
     } else {
-      key = plainRun ? `run ${plainRun + 1}, from "${heading}"` : "report";
+      key = plainRun ? `run ${plainRun + 1}, from "${runHeading}"` : "report";
     }
     beforeLast = last;
     last = note;
@@ -124,8 +219,10 @@ export function noteSequenceFindings(markdown: string): Finding[] {
       runs.set(key, []);
       order.push(key);
     }
-    runs.get(key)!.push({ note, group: key, page, heading, context: body.slice(Math.max(0, at - 40), at + m[0].length + 20) });
+    runs.get(key)!.push({ note, group: key, page, heading, seq: seq++, context: body.slice(Math.max(0, at - 40), at + m[0].length + 20) });
   }
+  for (const [r, name] of runName) defined.set(name, Math.max(defined.get(name) ?? 0, defMax[r] ?? 0));
+  mergeGapGroups(runs, order, defined);
 
   const out: Finding[] = [];
   const add = (page: number | null, excerpt: string) => out.push({ signal: "note-reference-sequence", page, excerpt: clip(excerpt, 200) });

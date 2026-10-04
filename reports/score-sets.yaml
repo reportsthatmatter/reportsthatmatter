@@ -16,6 +16,7 @@ held_out:
   - uk-hillsborough-panel
   - uk-chilcot-inquiry
   - us-duelfer-report
+  - uk-post-office-horizon-inquiry  # tagged-PDF reference; new publisher family (gqsy.2)
   - uk-grenfell-tower-inquiry  # tagged-PDF reference (HTML edition cached beside it); new publisher family (gqsy.4)
 # A reference whose wrong-answer rate at adjudicated page breaks plus its no-answer share exceeds
 # the sum of these is too noisy to tune against: `pnpm score` warns.

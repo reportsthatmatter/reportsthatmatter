@@ -1848,7 +1848,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "first-scale-problem-needs-be",
             "page": 981,
-            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be&h=|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|3%20Speculation%2C%20suspicion"
+            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be&h=|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|%20Speculation%2C%20suspicion"
           }
         }
       }
@@ -1866,6 +1866,235 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "alt": "News of the World editor Colin Myler, surrounded by applauding staff, holds up the paper's final edition, headlined \"Thank you & goodbye\", outside its offices on 9 July 2011.",
       "focus": "50% 60%"
     }
+  },
+  "uk-post-office-horizon-inquiry": {
+    "status": "approved",
+    "whyItMatters": "The first volume of the statutory inquiry into the Post Office Horizon scandal, in which the Post Office relied on faulty accounting software to prosecute and pursue its own postmasters for losses that did not exist. It sets out what that did to the people affected, judges whether the schemes set up to compensate them have worked, and makes 19 recommendations.",
+    "background": [
+      "From 1999 the Post Office ran its branches on Horizon, an accounting system built by ICL Pathway, later Fujitsu. Between 2000 and 2013 it prosecuted postmasters and branch staff for theft and false accounting on the strength of Horizon's figures, and for over two decades it held others liable under their contracts for shortfalls the system showed. Postmasters said from the start that the system was at fault. In 2019 a group of 555 of them, led by Alan Bates, won two judgments in the High Court, and the case was settled. On 23 April 2021 the Court of Appeal quashed 39 convictions, and in May 2024 Parliament passed an Act quashing Horizon convictions in England, Wales and Northern Ireland; Scotland passed its own.",
+      "The Government set up the inquiry in September 2020 under Sir Wyn Williams, a retired High Court judge, and converted it into a statutory inquiry under the Inquiries Act 2005 on 1 June 2021, with powers to compel evidence. It heard the people affected first, in 2022. Volume 1 was laid before Parliament on 8 July 2025, ahead of the rest of the report, so that its recommendations on compensation could be acted on at once. It covers the human impact, with 17 case illustrations, and the four redress schemes. How the scandal happened and who was responsible are left to later volumes.",
+      "The report asked for written responses to its recommendations by 10 October 2025. The Government published its response on 9 October 2025."
+    ],
+    "findings": [
+      {
+        "text": "The Chair finds that employees of Fujitsu knew before Horizon was rolled out that it could show losses that were not real, and that staff of the Post Office knew or should have known it too, while the Post Office kept insisting its data was accurate.",
+        "cites": [
+          {
+            "id": "1-3-prior-roll-out",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-3-prior-roll-out"
+          },
+          {
+            "id": "1-4-although-many-individuals",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-4-although-many-individuals"
+          },
+          {
+            "id": "1-5-2010-legacy-horizon",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-5-2010-legacy-horizon"
+          }
+        ],
+        "excerpt": {
+          "quote": "Although many of the individuals who gave evidence before me were very reluctant to accept it, I am satisfied from the evidence that I have heard that a number of senior, and not so senior, employees of the Post Office knew or, at the very least, should have known that Legacy Horizon was capable of error as described above. Yet, for all practical purposes, throughout the lifetime of Legacy Horizon, the Post Office maintained the fiction that its data was always accurate.",
+          "cite": {
+            "id": "1-4-although-many-individuals",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-4-although-many-individuals&h=1.4.%20|Although%20many%20of%20the%20individuals%20who%20gave%20evidence%20before%20me%20were%20very%20reluctant%20to%20accept%20it%2C%20I%20am%20satisfied%20from%20the%20e%E2%8B%AFes%2C%20throughout%20the%20lifetime%20of%20Legacy%20Horizon%2C%20the%20Post%20Office%20maintained%20the%20fiction%20that%20its%20data%20was%20always%20accurate.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that many hundreds of people were wrongly convicted and many thousands wrongly held liable for losses that were illusory, and that there are about 10,000 eligible claimants for redress.",
+        "cites": [
+          {
+            "id": "1-9-consequence-activities-described",
+            "page": 7,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-9-consequence-activities-described"
+          },
+          {
+            "id": "3-1-almost-impossible-ascertain",
+            "page": 12,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-1-almost-impossible-ascertain"
+          }
+        ],
+        "excerpt": {
+          "quote": "As a consequence of the activities described in the preceding two paragraphs, many hundreds of people have been convicted, wrongly, of criminal offences, and many thousands of people have been held responsible, wrongly, for losses which were illusory, as opposed to real.",
+          "cite": {
+            "id": "1-9-consequence-activities-described",
+            "page": 7,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-9-consequence-activities-described&h=1.9.%20|As%20a%20consequence%20of%20the%20activities%20described%20in%20the%20preceding%20two%20paragraphs%2C%20many%20hundreds%20of%20people%20have%20been%20convicted%2C%20wrongly%2C%20of%20criminal%20offences%2C%20and%20many%20thousands%20of%20people%20have%20been%20held%20responsible%2C%20wrongly%2C%20for%20losses%20which%20were%20illusory%2C%20as%20opposed%20to%20real.|%20As%20later%20volumes%20of%20my"
+          }
+        }
+      },
+      {
+        "text": "The Post Office identified 13 people who, their families say, took their own lives because of shortfalls Horizon showed. The Chair says he cannot find that Horizon caused all of those deaths but does not rule it out, and records evidence from at least 59 people who contemplated suicide.",
+        "cites": [
+          {
+            "id": "3-8-following-formal-request",
+            "page": 13,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-8-following-formal-request"
+          },
+          {
+            "id": "3-10-following-further-formal",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-10-following-further-formal"
+          },
+          {
+            "id": "3-11-i-have-also",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-11-i-have-also"
+          },
+          {
+            "id": "3-12-i-have-also",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-12-i-have-also"
+          }
+        ],
+        "excerpt": {
+          "quote": "I have also received evidence from at least 59 persons who contemplated suicide at various points in time and who attributed this to their experiences with Horizon and/or the Post Office. This was a common experience across both those who were and were not prosecuted. Ten of the persons who contemplated suicide attempted to take their lives, some on more than one occasion.",
+          "cite": {
+            "id": "3-11-i-have-also",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-11-i-have-also&h=3.11.%20|I%20have%20also%20received%20evidence%20from%20at%20least%2059%20persons%20who%20contemplated%20suicide%20at%20various%20points%20in%20time%20and%20who%20attrib%E2%8B%AFt%20prosecuted.%20Ten%20of%20the%20persons%20who%20contemplated%20suicide%20attempted%20to%20take%20their%20lives%2C%20some%20on%20more%20than%20one%20occasion.|%20One%20postmaster%20said%3A"
+          }
+        }
+      },
+      {
+        "text": "The Chair accepts that the Post Office, the Department and Ministers committed in good faith to redress that is \"full, fair and prompt\", but concludes that too often it has not been delivered.",
+        "cites": [
+          {
+            "id": "6-4-evidence-adduced-inquiry",
+            "page": 121,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-4-evidence-adduced-inquiry"
+          },
+          {
+            "id": "6-7-ultimately-course-whatever",
+            "page": 121,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-7-ultimately-course-whatever"
+          }
+        ],
+        "excerpt": {
+          "quote": "Ultimately of course, whatever aims the Post Office, and the Department have embraced, the real question is whether they have been able to fulfil those aims. Having reviewed the evidence with care, I have concluded that there have been too many instances in the past in which the aims have not been fulfilled and that, as things stand, there are many formidable difficulties in the way of achieving those aims going forward.",
+          "cite": {
+            "id": "6-7-ultimately-course-whatever",
+            "page": 121,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-7-ultimately-course-whatever&h=6.7.%20|Ultimately%20of%20course%2C%20whatever%20aims%20the%20Post%20Office%2C%20and%20the%20Department%20have%20embraced%2C%20the%20real%20question%20is%20whether%20they%E2%8B%AFlled%20and%20that%2C%20as%20things%20stand%2C%20there%20are%20many%20formidable%20difficulties%20in%20the%20way%20of%20achieving%20those%20aims%20going%20forward.|"
+          }
+        }
+      },
+      {
+        "text": "The report holds that \"full\" redress means the top of the range a court would award, and recommends that the Government say so publicly and that every scheme apply it.",
+        "cites": [
+          {
+            "id": "6-18-set-against-background",
+            "page": 123,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-18-set-against-background"
+          },
+          {
+            "id": "2-minister-department-conjunction-post-2",
+            "page": 124,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=2-minister-department-conjunction-post-2"
+          },
+          {
+            "id": "3-post-office-department-minister-2",
+            "page": 124,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-post-office-department-minister-2"
+          }
+        ]
+      },
+      {
+        "text": "It finds that redress for many claimants who chose a full assessment has not been prompt, and that the Department will struggle to close the Group Litigation Order Scheme by the end of 2026.",
+        "cites": [
+          {
+            "id": "6-205-summary-delivery-financial",
+            "page": 158,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-205-summary-delivery-financial"
+          },
+          {
+            "id": "6-133-all-said-very",
+            "page": 144,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-133-all-said-very"
+          }
+        ]
+      },
+      {
+        "text": "It recommends a standing public body to run future compensation schemes for people wronged by public bodies, independent of the body that caused the harm.",
+        "cites": [
+          {
+            "id": "6-208-i-can-see",
+            "page": 158,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-208-i-can-see"
+          },
+          {
+            "id": "17-soon-reasonably-practicable-hm-2",
+            "page": 159,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=17-soon-reasonably-practicable-hm-2"
+          }
+        ]
+      },
+      {
+        "text": "It recommends redress for close family members of those most affected, where they have suffered serious consequences themselves.",
+        "cites": [
+          {
+            "id": "6-225-my-view-there",
+            "page": 161,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-225-my-view-there"
+          },
+          {
+            "id": "18-department-shall-devise-process-2",
+            "page": 161,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=18-department-shall-devise-process-2"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "introduction",
+        "title": "INTRODUCTION",
+        "page": "1",
+        "why": "The Chair's own four-page account of Horizon, the prosecutions and the litigation, and why this volume comes first."
+      },
+      {
+        "slug": "recommendations",
+        "title": "RECOMMENDATIONS",
+        "page": "11",
+        "why": "All 19 recommendations on two pages, each argued for later in the volume."
+      },
+      {
+        "slug": "c-case-illustrations",
+        "title": "c. Case Illustrations",
+        "page": "23",
+        "why": "Seventeen case illustrations, drawn mainly from the evidence of the people concerned, from imprisonment and bankruptcy to the death of Martin Griffiths.",
+        "excerpt": {
+          "quote": "Mr Butoy's convictions resulted in widespread and damning publicity.",
+          "cite": {
+            "id": "3-61-butoy-s-convictions",
+            "page": 24,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-61-butoy-s-convictions&h=3.61.%20|Mr%20Butoy's%20convictions%20resulted%20in%20widespread%20and%20damning%20publicity.|%20The%20convictions%20were"
+          }
+        }
+      },
+      {
+        "slug": "a-the-meaning-of-the-phrase-full-and-fair-redress",
+        "title": "a. The meaning of the phrase 'Full and Fair Redress'",
+        "page": "123",
+        "why": "What \"full and fair\" compensation should mean, and the recommendations that follow from it."
+      },
+      {
+        "slug": "c-has-financial-redress-been-delivered-promptly",
+        "title": "c. Has financial redress been delivered promptly?",
+        "page": "144",
+        "why": "Why compensation has taken so long, scheme by scheme."
+      },
+      {
+        "slug": "d-other-issues-and-recommendations",
+        "title": "d. Other Issues and Recommendations",
+        "page": "159",
+        "why": "A standing compensation body, redress for families, and restorative justice."
+      }
+    ]
   },
   "uk-saville-inquiry": {
     "status": "approved",

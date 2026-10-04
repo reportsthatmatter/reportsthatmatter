@@ -40,12 +40,12 @@ defaults:
 reports:
   challenger-accident:
     severed-into-quote: 85
-    severed-paragraph: 42
+    severed-paragraph: 43  # why: reportsthatmatter-uw50 (parenFolios/foliosInStep re-page p.36's letter; '...the Commission is tasked / with completing its report' was already cut, now counted; read)
     bare-footnote-marker: 76
-    bare-marker-after-quote: 19  # why: reportsthatmatter-jsqw (the text linker no longer runs on vision blocks; markers after a closing quote it used to link, often wrongly, e.g. '[^2] 6' for note 26 on p.98, stay bare)
+    bare-marker-after-quote: 18
     note-marker-wrong-note: 0
     note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
-    note-reference-sequence: 112
+    note-reference-sequence: 71
     note-text-in-body: 48
     note-citation-vocabulary: 0
     furniture-paragraph: 150
@@ -55,13 +55,13 @@ reports:
     heading-function-word: 5
     heading-marker: 0
     heading-long: 17
-    printed-page-reversal: 14
+    printed-page-reversal: 0
     rendered-h1: 1
-    chapter-intro-misfiled: 2
+    chapter-intro-misfiled: 1
     rendered-ol-words-share: 5  # why: reportsthatmatter-jsqw (numbered findings the vision reading splits into paragraphs of their own; 4% to 5% rounded)
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: d662 - pages that had no marker now count towards their own parity (gap was measured on the wrong pages)
+    quote-share-parity: 1
   columbia-accident:
     severed-into-quote: 54
     severed-paragraph: 70
@@ -88,12 +88,12 @@ reports:
     quote-share-parity: 4  # why: reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
   jack-smith-vol1:
     severed-into-quote: 2
-    severed-paragraph: 5
+    severed-paragraph: 6  # why: reportsthatmatter-5sf1 (pageHeadFolios, ssfk: the Blanche letter's 'Page N' head leaves the body, so its letterhead footer line now sits mid-paragraph; +1, read)
     bare-footnote-marker: 0
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
-    note-marker-unpaired: 9
-    note-reference-sequence: 92  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-marker-unpaired: 0
+    note-reference-sequence: 14
     note-text-in-body: 8
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -109,16 +109,16 @@ reports:
     rendered-ol-words-share: 2
     numbered-prose-list: 1
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-ssfk (the letter's pages are numbered from their own heads now, so its quotations change page parity: 14.4% even vs 16.4% odd; no quotation added or lost)
   litvinenko-inquiry:
     severed-into-quote: 72
     severed-paragraph: 6
-    bare-footnote-marker: 23
+    bare-footnote-marker: 0
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 6  # why: reportsthatmatter-6hbt (new signal, today's count)
-    note-text-in-body: 64  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (layoutMarkers returns Appendix 7's numbered restriction-notice paragraphs 10-17 from fake notes to the body, where they read as note text: +5)
+    note-reference-sequence: 0
+    note-text-in-body: 56
     note-citation-vocabulary: 0
     furniture-paragraph: 16  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (the same Appendix 7 'Amendments to this Restriction Notice' lines, now in the body: +4)
     contents-entry-without-heading: 77
@@ -161,11 +161,11 @@ reports:
   uk-hillsborough-panel:
     severed-into-quote: 2
     severed-paragraph: 0
-    bare-footnote-marker: 13
+    bare-footnote-marker: 0
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 20  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -207,16 +207,16 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   uk-leveson-inquiry:
-    severed-into-quote: 324
-    severed-paragraph: 24
-    bare-footnote-marker: 101
-    bare-marker-after-quote: 2
+    severed-into-quote: 323
+    severed-paragraph: 25  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
+    bare-footnote-marker: 39
+    bare-marker-after-quote: 3  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
-    note-reference-sequence: 198  # why: reportsthatmatter-6hbt (new signal, today's count)
-    note-text-in-body: 13
+    note-reference-sequence: 41
+    note-text-in-body: 1
     note-citation-vocabulary: 0
-    furniture-paragraph: 198  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship)
+    furniture-paragraph: 199  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship); +1 with reportsthatmatter-u00i
     contents-entry-without-heading: 1335  # why: same, Leveson contents pages are now body lists rather than footnotes (+102)
     heading-density: 0
     heading-repeated: 3
@@ -227,9 +227,33 @@ reports:
     rendered-h1: 0
     chapter-intro-misfiled: 1
     rendered-ol-words-share: 1
-    numbered-prose-list: 25
+    numbered-prose-list: 26  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
     ids-per-1k-words: 0
     quote-share-parity: 1
+  uk-post-office-horizon-inquiry:
+    severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
+    severed-paragraph: 0
+    bare-footnote-marker: 0
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 0
+    note-text-in-body: 0
+    note-citation-vocabulary: 0
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
+    heading-density: 0
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.2 (real: "Fixed Sum Offers" heads a topic in HSS, OCS and GLOS)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 0
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 1  # why: reportsthatmatter-gqsy.2 (first ingest)
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 3  # why: reportsthatmatter-gqsy.2 (first ingest; quotations 3.8% of blocks on even pages, 1.0% on odd)
   uk-saville-inquiry:
     severed-into-quote: 0
     severed-paragraph: 1
@@ -261,7 +285,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 5  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -305,11 +329,11 @@ reports:
   us-lehman-examiner:
     severed-into-quote: 1
     severed-paragraph: 22  # why: post v0.15.0 integration
-    bare-footnote-marker: 6
+    bare-footnote-marker: 4
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 4  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 0
     note-text-in-body: 5  # why: post v0.15.0 integration
     note-citation-vocabulary: 0
     furniture-paragraph: 5  # why: post v0.15.0 integration
@@ -333,7 +357,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 8  # why: reportsthatmatter-6hbt (new signal, today's count)
+    note-reference-sequence: 0
     note-text-in-body: 6
     note-citation-vocabulary: 0
     furniture-paragraph: 5
@@ -347,7 +371,7 @@ reports:
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 2
-    numbered-prose-list: 1
+    numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-v-philip-morris:

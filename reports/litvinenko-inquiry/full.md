@@ -4,7 +4,7 @@ authors: "Sir Robert Owen (Chairman)"
 published_at: "21 January 2016"
 source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
 pages: 329
-footnotes: 844
+footnotes: 873
 ---
 
 Report into the death of
@@ -1891,15 +1891,13 @@ i. Mr Attew's evidence was that the Shvets due diligence report on Mr Ivanov cau
 
 6.1 The police officers investigating Alexander Litvinenko's death painstakingly pieced together the last weeks of his life. In doing so, they employed standard techniques such as interviewing Mr Litvinenko's friends and associates, investigating the movements of persons of interest, interrogating telephone records and seizing and viewing closed circuit television (CCTV) footage. The material obtained in this way has all been made available to me, and a large amount of it has been put in evidence.
 
-6.2 One task that the police undertook was to compile a schedule of all telephone calls made to and from individuals considered to be of relevance to this Inquiry during the period June to November 2006. I adduced this (lengthy) document into evidence, and will refer to it hereafter as 'the telephone schedule'.1
+6.2 One task that the police undertook was to compile a schedule of all telephone calls made to and from individuals considered to be of relevance to this Inquiry during the period June to November 2006. I adduced this (lengthy) document into evidence, and will refer to it hereafter as 'the telephone schedule'.[^1]
 
 6.3 But in addition to such conventional sources of evidence, it became apparent that there was a highly unusual, in fact unprecedented, line of inquiry to be followed.
 
 6.4 Forensic scientists were sent to conduct tests for alpha radiation at a series of locations across London and, subsequently, beyond. The results demonstrated widespread radioactive contamination at locations that had been linked to Mr Lugovoy, Mr Kovtun and Mr Litvinenko in a period of a little over two weeks from mid October until the onset of Mr Litvinenko's fatal illness in early November.
 
 6.5 In this Part of the Report, I propose to set out the narrative of events during that period. In doing so I shall refer not only to the extensive witness and documentary evidence that has been adduced, but also to the body of evidence arising from the testing for radioactive contamination – the evidence that has become popularly known as 'the polonium trail'.
-
-1 In fact, there are two versions of the telephone schedule in evidence: the original schedule, INQ017809; and a subsequent slightly more detailed schedule covering only the dates 31 October 2006 to 3 November 2006, INQ020044
 
 %%page 110%%
 
@@ -1909,35 +1907,31 @@ i. Mr Attew's evidence was that the Shvets due diligence report on Mr Ivanov cau
 
 6.7 This Part of the Report is concerned with a different series of tests – tests that were conducted not on Mr Litvinenko's body, but at a series of locations. Some were associated with Mr Litvinenko, others with Mr Lugovoy and Mr Kovtun. Some of the most significant results were found at locations associated with all three.
 
-6.8 The monitoring of the scenes for contamination was a highly complex task. As various sites were identified as having been contaminated in the days and weeks following Mr Litvinenko's death – hotel rooms, restaurants, aircraft, offices – the police were faced with competing requirements, on the one hand to clean up the sites in the interests of public safety, but, on the other hand, to obtain forensic evidence of the contamination for the purposes of their investigation. Detective Inspector (DI) Mascall said that the task that faced the police and the forensic scientists in this respect was unprecedented, certainly in the United Kingdom (UK). In the course of his evidence he explained the system of sequential testing that was adopted involving the police, scientists from the Atomic Weapons Establishment (AWE) and scientists from the Health Protection Agency (HPA).2
+6.8 The monitoring of the scenes for contamination was a highly complex task. As various sites were identified as having been contaminated in the days and weeks following Mr Litvinenko's death – hotel rooms, restaurants, aircraft, offices – the police were faced with competing requirements, on the one hand to clean up the sites in the interests of public safety, but, on the other hand, to obtain forensic evidence of the contamination for the purposes of their investigation. Detective Inspector (DI) Mascall said that the task that faced the police and the forensic scientists in this respect was unprecedented, certainly in the United Kingdom (UK). In the course of his evidence he explained the system of sequential testing that was adopted involving the police, scientists from the Atomic Weapons Establishment (AWE) and scientists from the Health Protection Agency (HPA).[^2]
 
-6.9 Witness A1 was one of the principal scientific experts who gave evidence to the Inquiry. She is an expert in nuclear physics who spent 34 years working for the AWE in Aldermaston; she now works for another nuclear establishment in the UK. Of particular relevance to the Inquiry, A1 recently held the post of Manager of Nuclear Forensics at AWE. As will become apparent, A1 provided detailed and lengthy written evidence for the Inquiry (including the 'contamination schedule' to which I refer below), and also attended to give oral evidence on two occasions. I am most grateful for the assistance that A1 has provided to the Inquiry.3
+6.9 Witness A1 was one of the principal scientific experts who gave evidence to the Inquiry. She is an expert in nuclear physics who spent 34 years working for the AWE in Aldermaston; she now works for another nuclear establishment in the UK. Of particular relevance to the Inquiry, A1 recently held the post of Manager of Nuclear Forensics at AWE. As will become apparent, A1 provided detailed and lengthy written evidence for the Inquiry (including the 'contamination schedule' to which I refer below), and also attended to give oral evidence on two occasions. I am most grateful for the assistance that A1 has provided to the Inquiry.[^3]
 
-6.10 A1 gave evidence as to the means by which the testing was undertaken. Tests in the field were conducted using alpha detectors. This equipment had the advantage of being portable and was capable of detecting the presence and, where present, the approximate strength of alpha radiation. Where significant findings were made, swabs were taken with filter papers, which were then sent to the laboratory to be analysed using more sophisticated spectrometry equipment.4
+6.10 A1 gave evidence as to the means by which the testing was undertaken. Tests in the field were conducted using alpha detectors. This equipment had the advantage of being portable and was capable of detecting the presence and, where present, the approximate strength of alpha radiation. Where significant findings were made, swabs were taken with filter papers, which were then sent to the laboratory to be analysed using more sophisticated spectrometry equipment.[^4]
 
-6.11 The first and most basic question was whether the alpha radiation found at the various scenes had indeed been caused by contamination with polonium 210, as opposed to any other radionuclide (for example, uranium 232, which has an alpha output indistinguishable from that of polonium 210). A1 stated that in the light of laboratory tests using both alpha and gamma spectrometry, she was absolutely confident in the conclusion that the alpha radiation discovered at the multiple scenes had been caused by polonium 210.5
-
-2 Mascall 9/68-70 3 A fuller description of A1's CV is at 2/101-104 4 A1 2/114
+6.11 The first and most basic question was whether the alpha radiation found at the various scenes had indeed been caused by contamination with polonium 210, as opposed to any other radionuclide (for example, uranium 232, which has an alpha output indistinguishable from that of polonium 210). A1 stated that in the light of laboratory tests using both alpha and gamma spectrometry, she was absolutely confident in the conclusion that the alpha radiation discovered at the multiple scenes had been caused by polonium 210.[^5]
 
 %%page 111%%
 
 6.12 Beyond that finding, the principal questions that arose were, first, the level of each of the findings and, second, the inferences that could be drawn from the results.
 
-6.13 In order to provide an evidential basis for assessing these questions, a schedule was compiled containing all the results of all the testing that had been conducted at the scenes that were relevant to the investigation. I admitted this document – which was referred to during the course of the hearings as "the contamination schedule" into evidence.6 It is an extremely long document, running to over 260 pages. In common with almost all the documents that I have admitted into evidence, the contamination schedule is available on the Inquiry website. The schedule contains very much more detail regarding the testing results than is included in this Report; those wishing to analyse this part of the evidence in more depth will find it an invaluable tool.
+6.13 In order to provide an evidential basis for assessing these questions, a schedule was compiled containing all the results of all the testing that had been conducted at the scenes that were relevant to the investigation. I admitted this document – which was referred to during the course of the hearings as "the contamination schedule" into evidence.[^6] It is an extremely long document, running to over 260 pages. In common with almost all the documents that I have admitted into evidence, the contamination schedule is available on the Inquiry website. The schedule contains very much more detail regarding the testing results than is included in this Report; those wishing to analyse this part of the evidence in more depth will find it an invaluable tool.
 
 6.14 A1 gave oral evidence twice: on Day 2 and Day 20. On the second occasion she was asked to express an opinion as to inferences that could be drawn from each of the readings, in particular those in the higher range. Broadly speaking, A1 divided the readings into two categories.
 
-6.15 A1 categorised a small number of the very highest readings as indicating a site of primary contamination, a term that she defined for these purposes as, "the contamination that has come from the main source of material". In practical terms, A1 agreed that the term referred to the first point of contamination – for example, where a solution containing polonium 210 had been directly applied to a surface.7
+6.15 A1 categorised a small number of the very highest readings as indicating a site of primary contamination, a term that she defined for these purposes as, "the contamination that has come from the main source of material". In practical terms, A1 agreed that the term referred to the first point of contamination – for example, where a solution containing polonium 210 had been directly applied to a surface.[^7]
 
-6.16 The other category, referred to during the hearings as secondary or transferred contamination, comprised sites where the contamination had been caused not as a result of exposure to the main source of material – i.e. polonium 210 – but rather as a result of the transfer of contamination, either directly or indirectly from a site of primary contamination. A1 explained that there was: "a range of ways in which the contamination from the original source can be transferred so that could potentially be on somebody's hand, by somebody's foot, et cetera".8 She also stated that:
+6.16 The other category, referred to during the hearings as secondary or transferred contamination, comprised sites where the contamination had been caused not as a result of exposure to the main source of material – i.e. polonium 210 – but rather as a result of the transfer of contamination, either directly or indirectly from a site of primary contamination. A1 explained that there was: "a range of ways in which the contamination from the original source can be transferred so that could potentially be on somebody's hand, by somebody's foot, et cetera".[^8] She also stated that:
 
-> "… the transfer of polonium from primary contamination areas to other areas is dependent upon the physical and chemical properties of polonium and the surface of the materials on which it is deposited. The amount of contamination transferred is dependent upon the amount of original activity present on each successive surface to which it is transferred." 9
+> "… the transfer of polonium from primary contamination areas to other areas is dependent upon the physical and chemical properties of polonium and the surface of the materials on which it is deposited. The amount of contamination transferred is dependent upon the amount of original activity present on each successive surface to which it is transferred."[^9]
 
 6.17 One important feature of the forensic testing in this case was that it was conducted some weeks after the dates on which the contamination appears to have taken place. As will be seen from the contamination schedule, most of the testing was undertaken during December 2006. On the assumption that the contamination occurred in late October and early November 2006, in each case there was a gap of several weeks between the date of contamination and the date of testing.
 
-6.18 A1 explained that this delay caused the readings to be lower than they would have been at the time of contamination. First, in each case the level of alpha radiation being emitted will have decreased during the intervening period as a result of the rapid radioactive decay that is characteristic of polonium. Second, in some cases
-
-6 INQ017934 7 A1 2/149-150 8 A1 2/150 A1 2/149 environmental conditions such as the cleaning of surfaces or (in the case of sinks, drains, etc) the effect of running water will have further reduced the readings, a point to which I shall return.
+6.18 A1 explained that this delay caused the readings to be lower than they would have been at the time of contamination. First, in each case the level of alpha radiation being emitted will have decreased during the intervening period as a result of the rapid radioactive decay that is characteristic of polonium. Second, in some cases environmental conditions such as the cleaning of surfaces or (in the case of sinks, drains, etc) the effect of running water will have further reduced the readings, a point to which I shall return.
 
 %%page 112%%
 
@@ -2779,7 +2773,7 @@ When asked whether he recalled the meeting being disturbed by Mr Lugovoy receivi
 
 %%page 162%%
 
-6.264 C2 himself gave oral evidence to the Inquiry.241 He said that he had worked for some years at Il Porto in the 1990s, initially as a kitchen porter and latterly as a chef de partie (in a statement prepared after he had given evidence, C2 clarified that in his last two years at Il Porto he worked as head chef when the other chef was absent).242 In 2000 he had left Germany, returning to his home country of Albania. He had subsequently travelled to the UK and settled in London. He said that he had known Mr Kovtun at Il Porto, but that they had not been friends. They had not shared a language, and had therefore been unable to talk to each other.
+6.264 C2 himself gave oral evidence to the Inquiry.[^241] He said that he had worked for some years at Il Porto in the 1990s, initially as a kitchen porter and latterly as a chef de partie (in a statement prepared after he had given evidence, C2 clarified that in his last two years at Il Porto he worked as head chef when the other chef was absent).[^242] In 2000 he had left Germany, returning to his home country of Albania. He had subsequently travelled to the UK and settled in London. He said that he had known Mr Kovtun at Il Porto, but that they had not been friends. They had not shared a language, and had therefore been unable to talk to each other.
 
 6.265 C2 recalled receiving a call from Mr Kovtun on 1 November 2006. He said that at that time he had not spoken to Mr Kovtun or had any other contact with him for six years. C2 said that when Mr Kovtun called he was in Stratford in east London. He was in a coffee shop helping with some menus. He said that the call had been brief. After Mr Kovtun had introduced himself, he had said (in English) that he was in London and had suggested meeting up. C2 had said that he was busy, but that he would call Mr Kovtun back and meet him when he had time. C2 said that that was the end of the call. He said that it took one minute.
 
@@ -2791,8 +2785,6 @@ When asked whether he recalled the meeting being disturbed by Mr Lugovoy receivi
 
 > "at 16.00-17.00 on 1 November 2006 I had a meeting planned with [C2] … who is my friend and former colleague in the restaurant business in Hamburg to whom Lugovoy and I wished to offer a job in a restaurant in Moscow. However, in the presence of my acquaintance Aleksandr Shadrin, in a telephone conversation [C2] suggested that I come to him for a meeting in a district of London far from the centre, the name of which I cannot remember. In answer to the question I put to Shadrin as to how to get to the district named by [C2] and how long it would take to get there, he replied that at that time of day in London in would take 3-4 hours to get there because of traffic congestion. Since I did not want to spend such a long time reaching the meeting place after having flown in from Hamburg, I agreed with [C2] that we would postpone our meeting until the following day, at a more convenient time for both of us. [C2] agreed to ring on 2 November 2006 and discuss the possibility of meeting and the place at which to meet."
 
-241 C2 24/14-39 C2 32/43-44
-
 %%page 163%%
 
 6.269 Mr Kovtun went on to say that he had not called C2 on 2 November because he did not know when he would be free. He therefore decided that he would postpone meeting C2 until his next visit to London. He added that he and Mr Lugovoy had subsequently opened a restaurant in Moscow.
@@ -2801,11 +2793,11 @@ When asked whether he recalled the meeting being disturbed by Mr Lugovoy receivi
 
 6.271 First, the reasons that Mr Kovtun has given for seeking to contact C2 have an intrinsic lack of credibility. It defies common sense to think that anyone planning to set up a restaurant in Moscow would seek to recruit as its chef an Albanian living in the UK, in particular one who did not speak Russian. And if, contrary to this, Mr Kovtun really did think that C2 was the only man for the job, why did he give up so easily, so that he never in fact put the proposal to him? Even if it was not possible to meet up in person in London, Mr Kovtun could have spoken to C2 by phone.
 
-6.272 Second, key elements of Mr Kovtun's account have been refuted by C2 and by Dr Shadrin, whose evidence on these matters I accept. C2 was not Mr Kovtun's "friend". C2 said that they had never been friendly whilst they were working together – for the understandable reason that they did not speak a common language – and that by November 2006 they had not been in any form of contact for six years.245 C2 also denied that there had ever been any planned meeting between him and Mr Kovtun at 4.00-5.00pm on 1 November 2006.246 He further denied that when Mr Kovtun called him on 1 November he had suggested that Mr Kovtun come to meet him at a location that was three or four hours travel away from central London. He said that he did not suggest meeting Mr Kovtun at all, he simply told him that he was busy. And even if he had asked Mr Kovtun to come and meet him where he was that day – in Stratford – C2 said, and he was plainly correct in this, that Stratford is only a 45 minute journey from central London.247 Dr Shadrin also rejected his claimed involvement in this part of Mr Kovtun's conversation with C2. He said:[^248]
+6.272 Second, key elements of Mr Kovtun's account have been refuted by C2 and by Dr Shadrin, whose evidence on these matters I accept. C2 was not Mr Kovtun's "friend". C2 said that they had never been friendly whilst they were working together – for the understandable reason that they did not speak a common language – and that by November 2006 they had not been in any form of contact for six years.[^245] C2 also denied that there had ever been any planned meeting between him and Mr Kovtun at 4.00-5.00pm on 1 November 2006.[^246] He further denied that when Mr Kovtun called him on 1 November he had suggested that Mr Kovtun come to meet him at a location that was three or four hours travel away from central London. He said that he did not suggest meeting Mr Kovtun at all, he simply told him that he was busy. And even if he had asked Mr Kovtun to come and meet him where he was that day – in Stratford – C2 said, and he was plainly correct in this, that Stratford is only a 45 minute journey from central London.[^247] Dr Shadrin also rejected his claimed involvement in this part of Mr Kovtun's conversation with C2. He said:[^248]
 
 > "I have been asked if I can recall a telephone conversation that Mr Kovtun had whilst he was in company with Mr Lugovoy at the CPL offices on 1st November 2006. In particular I have been asked whether Mr Kovtun sought my advice about directions to a district of London and the time it might take him to travel to that location for another meeting including my mentioning that it would take him 3-4 hours to get there because of traffic congestion at that time of the day. I have no specific recollections with regard to this issue. I couldn't conceive that it would take that long to drive anywhere in London however I do know from personal experience that that could be the case in Moscow."
 
-6.273 I therefore conclude that the elaborate explanation that Mr Kovtun has given for the call that he made to C2 at 11.33am on 1 November amounts to a tissue of lies. As I indicated above, this conclusion will be of importance when I come to determine whether D3's account of his conversation with Mr Kovtun in Hamburg should be 245 C2 24/24; 24/ 27; C2 32/45 246 C2 32/42 C2 32/43 believed. Something else that will be of relevance to this issue is the action that Mr Lugovoy took only a few minutes after Mr Kovtun had spoken to C2 and discovered that he was too busy to meet that day: he telephoned Mr Litvinenko. I will return to that telephone call shortly.
+6.273 I therefore conclude that the elaborate explanation that Mr Kovtun has given for the call that he made to C2 at 11.33am on 1 November amounts to a tissue of lies. As I indicated above, this conclusion will be of importance when I come to determine whether D3's account of his conversation with Mr Kovtun in Hamburg should be believed. Something else that will be of relevance to this issue is the action that Mr Lugovoy took only a few minutes after Mr Kovtun had spoken to C2 and discovered that he was too busy to meet that day: he telephoned Mr Litvinenko. I will return to that telephone call shortly.
 
 %%page 164%%
 
@@ -2981,7 +2973,7 @@ Contamination in the Millennium Hotel
 
 6.318 Several of the results, however, are worthy of particular attention.
 
-6.319 Secondary contamination was found in room 441, the room shared by Mr Lugovoy and his wife and young son. Very much higher readings were, however, found in room 382, which was shared by Mr Kovtun and Mr Sokolenko. The highest readings were found in the bathroom and the highest of those readings was found in a sediment trap below the plughole in that bathroom. The expert evidence of A1 was that these readings were only consistent with primary contamination.296 It therefore appeared that polonium in one form or another had been poured down the plughole. The comparison with the contamination found in room 107 at the Best Western Hotel is striking.
+6.319 Secondary contamination was found in room 441, the room shared by Mr Lugovoy and his wife and young son. Very much higher readings were, however, found in room 382, which was shared by Mr Kovtun and Mr Sokolenko. The highest readings were found in the bathroom and the highest of those readings was found in a sediment trap below the plughole in that bathroom. The expert evidence of A1 was that these readings were only consistent with primary contamination.[^296] It therefore appeared that polonium in one form or another had been poured down the plughole. The comparison with the contamination found in room 107 at the Best Western Hotel is striking.
 
 6.320 Very high readings, which in A1's view were also consistent with primary contamination, were additionally found in two places in the Pine Bar.
 
@@ -2993,13 +2985,13 @@ Plan showing contamination found in the Pine Bar[^298]
 
 %%page 177%%
 
-6.322 The other place where primary contamination was found was on one of the Pine Bar's white teapots. The teapot had been given the exhibit number NJH/1. A1 gave evidence that every teapot in the hotel had been tested, and that NJH/1 had been the only one that bore evidence of contamination. The readings were extremely high. The highest readings were taken on the inside of the spout, where the polonium appeared to have bonded with tannin deposits. A1 stated that the levels and position of the contamination found on the inside of the teapot indicated that, "at some stage polonium… has been poured out of the spout". She was sure of this. She said, "I think that's the only conclusion you can come to." 299
+6.322 The other place where primary contamination was found was on one of the Pine Bar's white teapots. The teapot had been given the exhibit number NJH/1. A1 gave evidence that every teapot in the hotel had been tested, and that NJH/1 had been the only one that bore evidence of contamination. The readings were extremely high. The highest readings were taken on the inside of the spout, where the polonium appeared to have bonded with tannin deposits. A1 stated that the levels and position of the contamination found on the inside of the teapot indicated that, "at some stage polonium… has been poured out of the spout". She was sure of this. She said, "I think that's the only conclusion you can come to."[^299]
 
 The teapot[^300]
 
 %%page 178%%
 
-6.323 A1 also drew attention to the readings taken in the gentlemen's lavatories situated next to the reception area at the Millennium Hotel. It will be recalled that the evidence of the CCTV footage was that these lavatories had been used by both Mr Lugovoy and Mr Kovtun shortly before the Pine Bar meeting, but not by Mr Litvinenko at any point. Testing showed raised readings on one cubicle door, a sink and a hand drier. A1 expressed the view that the contamination was secondary rather than primary, albeit that, relatively speaking, the secondary contamination was at "very, very high levels". She said that the readings could "most certainly" be consistent with secondary transfer by hand from the source of the primary contamination found in the Pine Bar.301
+6.323 A1 also drew attention to the readings taken in the gentlemen's lavatories situated next to the reception area at the Millennium Hotel. It will be recalled that the evidence of the CCTV footage was that these lavatories had been used by both Mr Lugovoy and Mr Kovtun shortly before the Pine Bar meeting, but not by Mr Litvinenko at any point. Testing showed raised readings on one cubicle door, a sink and a hand drier. A1 expressed the view that the contamination was secondary rather than primary, albeit that, relatively speaking, the secondary contamination was at "very, very high levels". She said that the readings could "most certainly" be consistent with secondary transfer by hand from the source of the primary contamination found in the Pine Bar.[^301]
 
 Mr Litvinenko after the Pine Bar
 
@@ -3127,19 +3119,17 @@ c. The acute radiation syndrome was caused by Mr Litvinenko ingesting approximat
 
 8.21 It is absolutely clear that Mr Litvinenko went to the Pine Bar on the afternoon of 1 November. Apart from his evidence to that effect, Mr Lugovoy and Mr Kovtun have confirmed that they met him there then, and there is also Closed Circuit Television (CCTV) footage which supports this.
 
-8.22 It is equally clear that Mr Lugovoy and Mr Kovtun had ordered tea that afternoon, and that there was a teapot on the table when Mr Litvinenko arrived.1
+8.22 It is equally clear that Mr Lugovoy and Mr Kovtun had ordered tea that afternoon, and that there was a teapot on the table when Mr Litvinenko arrived.[^1]
 
 8.23 Mr Litvinenko said that he drank some of this tea, and I accept that he did so.
 
-8.24 Mr Lugovoy and Mr Kovtun have given inconsistent accounts about what happened in the Pine Bar and on other matters (see paragraphs 8.82 – 8.91 below). But the theme of their accounts on this issue has been more that they did not offer or pour any tea for Mr Litvinenko, rather than that he did not drink any tea at all.2
+8.24 Mr Lugovoy and Mr Kovtun have given inconsistent accounts about what happened in the Pine Bar and on other matters (see paragraphs 8.82 – 8.91 below). But the theme of their accounts on this issue has been more that they did not offer or pour any tea for Mr Litvinenko, rather than that he did not drink any tea at all.[^2]
 
 8.25 The forensic evidence shows that the Pine Bar was heavily contaminated with polonium 210. The contamination was focused on the table where Mr Litvinenko sat with Mr Lugovoy and Mr Kovtun on 1 November 2006. The highest readings, which were consistent with primary contamination, were taken on the table itself and on the inside of one of the teapots used in the Pine Bar. A1's evidence was that the readings on the inside of the teapot demonstrated that, "at some stage polonium… has been poured out of the spout". She said she was sure of this (see paragraph 6.322).
 
 8.26 It is equally important to note that radiation tests were conducted at all the other places where Mr Litvinenko went that day. Although some secondary contamination was found at some of these locations (I shall return to these results in due course), the Pine Bar was the only location of those visited by Mr Litvinenko on 1 November where primary contamination was found. More than that, of course, it was found on the table in the Pine Bar where Mr Litvinenko had sat whilst drinking tea, and on the inside of one of the teapots used in the Pine Bar.
 
 8.27 This evidence all points to the conclusion that Mr Litvinenko ingested the fatal dose of polonium 210 whilst drinking tea in the Pine Bar of the Millennium Hotel during the afternoon of 1 November 2006, and I make a finding to that effect.
-
-1 Andrade 16/111-141; INQ015344
 
 %%page 187%%
 
@@ -3171,15 +3161,13 @@ c. The acute radiation syndrome was caused by Mr Litvinenko ingesting approximat
 
 8.39 Second, although that date is at one end of the combined date ranges provided by the scientists, the dating exercise is an uncertain one for the reasons that I have explained above. It was not my understanding that a finding that the first intake took place on 16 October would be positively inconsistent with any of the scientific evidence.
 
-8.40 Third, I am disinclined to place any weight in this regard on the evidence as to Mr Litvinenko's illness on the night of 16 October. I emphasise that this is not because I accept the evidence of Mr Kovtun (my findings on the credibility of his evidence are set out below), nor because I do not believe what Mrs Litvinenko has said. My reason for caution on this point lies in the scientific evidence. The view of Dr Harrison and others was that so called 'prodromal symptoms' i.e. diarrhoea and vomiting – were not typical symptoms of internal alpha radiation poisoning. They were cautious as to whether the similar symptoms that Mr Litvinenko had suffered after the (much larger) second dose of polonium 210 had been caused by it.3 Given this uncertainty, it is better, in my view, to leave the question of Mr Litvinenko's physical symptoms on or about 16 October entirely out of the account for these purposes.
+8.40 Third, I am disinclined to place any weight in this regard on the evidence as to Mr Litvinenko's illness on the night of 16 October. I emphasise that this is not because I accept the evidence of Mr Kovtun (my findings on the credibility of his evidence are set out below), nor because I do not believe what Mrs Litvinenko has said. My reason for caution on this point lies in the scientific evidence. The view of Dr Harrison and others was that so called 'prodromal symptoms' i.e. diarrhoea and vomiting – were not typical symptoms of internal alpha radiation poisoning. They were cautious as to whether the similar symptoms that Mr Litvinenko had suffered after the (much larger) second dose of polonium 210 had been caused by it.[^3] Given this uncertainty, it is better, in my view, to leave the question of Mr Litvinenko's physical symptoms on or about 16 October entirely out of the account for these purposes.
 
 8.41 In summary:
 
 > a. I am sure that Mr Litvinenko did receive a first, smaller, dose of polonium 210 some time before the fatal dose on 1 November 2006
 
 > b. The forensic evidence suggests that the earlier dose is likely to have been received at the meeting at Erinys on 16 October 2006, and a finding to this effect would not be inconsistent with the scientific evidence
-
-INQ016745 (page 9)
 
 %%page 189%%
 
@@ -3559,25 +3547,21 @@ A set up?
 
 9.14 But I have now made the finding that it was Mr Lugovoy, with Mr Kovtun, who killed Mr Litvinenko.
 
-9.15 There is no evidence at all that Mr Lugovoy might have been acting on Mr Berezovsky's behalf, and that hypothesis is inconsistent with the actions of both men since Mr Litvinenko's death. It is unlikely that Mr Lugovoy would have blamed Mr Berezovsky if he had been acting on his behalf when he poisoned Mr Litvinenko. As to Mr Berezovsky, I heard evidence from Mr Cotlick, his former personal assistant, that following Mr Litvinenko's death he spoke to Mr Lugovoy on the telephone and encouraged him to come to London and stand trial. He told Mr Lugovoy that he "could rely on the English justice system, and if he was really innocent, this would be found out by the court." He even offered to pay Mr Lugovoy's legal expenses.1 This is all wholly inconsistent with the idea that in fact Mr Lugovoy killed Mr Litvinenko on Mr Berezovsky's behalf.
+9.15 There is no evidence at all that Mr Lugovoy might have been acting on Mr Berezovsky's behalf, and that hypothesis is inconsistent with the actions of both men since Mr Litvinenko's death. It is unlikely that Mr Lugovoy would have blamed Mr Berezovsky if he had been acting on his behalf when he poisoned Mr Litvinenko. As to Mr Berezovsky, I heard evidence from Mr Cotlick, his former personal assistant, that following Mr Litvinenko's death he spoke to Mr Lugovoy on the telephone and encouraged him to come to London and stand trial. He told Mr Lugovoy that he "could rely on the English justice system, and if he was really innocent, this would be found out by the court." He even offered to pay Mr Lugovoy's legal expenses.[^1] This is all wholly inconsistent with the idea that in fact Mr Lugovoy killed Mr Litvinenko on Mr Berezovsky's behalf.
 
 9.16 In summary, I am quite satisfied that Mr Berezovsky bore no responsibility for Mr Litvinenko's death.
-
-Cotlick 25/64
 
 %%page 211%%
 
 ### Chapter 3: UK intelligence agencies
 
-9.17 The allegation that UK intelligence agencies were responsible for Mr Litvinenko's death is of a piece with the 'set up' issue that I have addressed in Part 8 above. Mr Lugovoy, for example, has advanced this allegation in the following terms:2
+9.17 The allegation that UK intelligence agencies were responsible for Mr Litvinenko's death is of a piece with the 'set up' issue that I have addressed in Part 8 above. Mr Lugovoy, for example, has advanced this allegation in the following terms:[^2]
 
 > "I was framed. I suspect this was some British intelligence operation involving Litvinenko and possibly Berezovsky that went wrong. I was contaminated by Litvinenko or someone else, not the other way round. I think polonium was planted on us and left in places we visited, to frame us."
 
 9.18 I repeat what I have said at paragraphs 8.161 – 8.164 above. I heard no evidence to support this allegation.
 
 9.19 I am entirely satisfied that UK intelligence agencies, and for that matter UK government bodies more generally, played no part at all in Mr Litvinenko's death.
-
-HMG000175 (pages 9-10)
 
 %%page 212%%
 
@@ -3593,7 +3577,7 @@ HMG000175 (pages 9-10)
 
 9.24 It follows from this short summary that a theory that Mr Lugovoy and Mr Kovtun killed Mr Litvinenko on the orders of one or more members of Russian crime gangs would not be implausible.
 
-9.25 That theory, however, is not supported by the evidence that is available to me. Detective Inspector (DI) Mascall stated that the police investigation has not uncovered any evidence linking Mr Mogilevich directly to the poisoning.3 More broadly, none of the evidence suggests that Mr Lugovoy and Mr Kovtun were commissioned to kill Mr Litvinenko by members of crime gangs. More than that, I am satisfied for reasons that I shall describe below that Mr Lugovoy and Mr Kovtun in fact received their instructions from another source.
+9.25 That theory, however, is not supported by the evidence that is available to me. Detective Inspector (DI) Mascall stated that the police investigation has not uncovered any evidence linking Mr Mogilevich directly to the poisoning.[^3] More broadly, none of the evidence suggests that Mr Lugovoy and Mr Kovtun were commissioned to kill Mr Litvinenko by members of crime gangs. More than that, I am satisfied for reasons that I shall describe below that Mr Lugovoy and Mr Kovtun in fact received their instructions from another source.
 
 %%page 213%%
 
@@ -3605,17 +3589,15 @@ Alexander Talik
 
 9.27 First, there were the simple factual points that the two men met on the day that Mr Litvinenko fell ill, and that the itsu restaurant where the meeting took place was found to be contaminated. I am satisfied that the timing of this meeting was a pure coincidence, and that there was nothing sinister about it. It was no coincidence that they went to the itsu restaurant on Piccadilly – I have heard that it was one of Mr Litvinenko's favourite places. However, as I have explained (see paragraph 6.292 above), the contamination that was found there was centred on a table different to that at which Mr Litvinenko and Mr Scaramella sat on 1 November 2006.
 
-9.28 Second, initial tests indicated that Mr Scaramella was himself heavily contaminated with polonium 210. As Dr Harrison explained in evidence, however, the results of these tests were unreliable.4 Mr Scaramella was not in fact contaminated at all.
+9.28 Second, initial tests indicated that Mr Scaramella was himself heavily contaminated with polonium 210. As Dr Harrison explained in evidence, however, the results of these tests were unreliable.[^4] Mr Scaramella was not in fact contaminated at all.
 
 9.29 Third, in the early days of his illness Mr Litvinenko himself suggested that Mr Scaramella may have been the person who poisoned him. I do not believe, however, that Mr Litvinenko ever thought this to have been true. As I have explained above, his early suggestion that Mr Scaramella may have poisoned him was in part the result of a desire not to admit to friends that he had allowed Mr Lugovoy to get close to him, and, in part, one element in a deliberate scheme to try and lure Mr Lugovoy back to the UK.
 
-9.30 Mr Scaramella clearly regarded Mr Litvinenko as a friend. He had no motive to kill him. Giving evidence to the Inquiry, DI Mascall stated that the police had no evidence to suggest that Mr Scaramella was involved in Mr Litvinenko's death.5
+9.30 Mr Scaramella clearly regarded Mr Litvinenko as a friend. He had no motive to kill him. Giving evidence to the Inquiry, DI Mascall stated that the police had no evidence to suggest that Mr Scaramella was involved in Mr Litvinenko's death.[^5]
 
 9.31 The limit of the allegations made against Mr Scaramella was that it was he who had poisoned Mr Litvinenko on 1 November 2006. For the reasons set out above, I am quite satisfied that Mr Scaramella had no responsibility for Mr Litvinenko's death. I am, of course, fortified in this conclusion by the finding that I have already made that it was Mr Lugovoy and Mr Kovtun who poisoned Mr Litvinenko.
 
 9.32 The List of Issues was drawn up at an early stage of the inquest proceedings, and adopted with only a few changes for the purposes of the Inquiry. As the case developed, it became apparent that there was no evidence to support the suggestion that either Chechen groups or Mr Talik had been involved in Mr Litvinenko's death.
-
-4 Harrison 19/67-73
 
 %%page 214%%
 
@@ -3637,25 +3619,21 @@ Alexander Talik
 
 9.40 In chapter 12, I will address the further question of whether Nikolai Patrushev (the head of the FSB in 2006) and/or President Putin bear any responsibility for Mr Litvinenko's death.
 
-9.41 One witness about whom I should say a little more at this stage is Professor Robert Service, who was until recently Professor of Russian History at Oxford University. I have already referred to his evidence on a number of occasions. Professor Service was instructed by the Inquiry to provide expert evidence on Russian history and politics. He produced two reports, both of which I adduced in evidence.6 He also gave oral evidence at the Inquiry hearings.7
+9.41 One witness about whom I should say a little more at this stage is Professor Robert Service, who was until recently Professor of Russian History at Oxford University. I have already referred to his evidence on a number of occasions. Professor Service was instructed by the Inquiry to provide expert evidence on Russian history and politics. He produced two reports, both of which I adduced in evidence.[^6] He also gave oral evidence at the Inquiry hearings.[^7]
 
 9.42 For the avoidance of any doubt, Professor Service did not have access to any of the closed material and was not involved in the closed hearings. It follows from this that the material that is available to me and upon which I am able to base my findings is more extensive than the material upon which Professor Service based his views.
 
 9.43 I say at once that I found Professor Service to be a most impressive and helpful witness. His mastery of the subject was apparent, but just as notable – and of great assistance to me – was the conspicuous care that he took in highlighting the issues where the limited nature of the source material available to him meant that he was unable to express a decided view one way or the other.
 
-6 INQ019146; INQ020316; INQ020998 Service 28/1-104
-
 %%page 215%%
 
-9.44 The paucity of the public information relating to the inner workings of President Putin's administration was, indeed, a theme of Professor Service's evidence. As he put the matter: "It cannot be emphasised too heavily that public access to information about Russian politics has undergone a severe constriction since Vladimir Putin's accession to Presidential power in 2000." 8
+9.44 The paucity of the public information relating to the inner workings of President Putin's administration was, indeed, a theme of Professor Service's evidence. As he put the matter: "It cannot be emphasised too heavily that public access to information about Russian politics has undergone a severe constriction since Vladimir Putin's accession to Presidential power in 2000."[^8]
 
-9.45 As I have indicated, there were occasions in the course of his evidence where Professor Service stated that the lack of public information in respect of an issue meant that he was unable to express a view about it. He suggested, moreover, that there were reasons going beyond academic or judicial rigour why this Inquiry ought to be careful to restrict its conclusions to matters that were provable on the evidence before it. He said this:9
+9.45 As I have indicated, there were occasions in the course of his evidence where Professor Service stated that the lack of public information in respect of an issue meant that he was unable to express a view about it. He suggested, moreover, that there were reasons going beyond academic or judicial rigour why this Inquiry ought to be careful to restrict its conclusions to matters that were provable on the evidence before it. He said this:[^9]
 
 > "But we have to be really cautious – and there's another aspect of this that exercises me, and that's that Russians want to see us fairly going through evidence in a scholarly environment or a judicial environment or an Inquiry like this in a fashion that they know doesn't happen in their own country. So we must not sink at all below our conventional standards. We absolutely mustn't, because some of what we do in relation to this Inquiry will get back to Moscow, and we must not give them the opportunity to say that we failed to respect our own standards because those are standards that are really worth keeping to."
 
 > I wholeheartedly endorse these sentiments, which accurately reflect my approach to the evidence.
-
-8 INQ019146 (page 4 paragraph 9) Service 28/62
 
 %%page 216%%
 
@@ -6907,6 +6885,24 @@ Investigative Committee of the Russian Federation Counsel Patrick Gibbs QC and C
 
 [^84]: Goldfarb 5/132; Attew 13/22; Tabunov 13/139-140
 
+[^1]: In fact, there are two versions of the telephone schedule in evidence: the original schedule, INQ017809; and a subsequent slightly more detailed schedule covering only the dates 31 October 2006 to 3 November 2006, INQ020044
+
+[^2]: Mascall 9/68-70
+
+[^3]: A fuller description of A1's CV is at 2/101-104
+
+[^4]: A1 2/114
+
+[^5]: A1 2/114-115
+
+[^6]: INQ017934
+
+[^7]: A1 2/149-150
+
+[^8]: A1 2/150
+
+[^9]: A1 2/149
+
 [^10]: Chairman 32/4-19
 
 [^11]: Mr Kovtun states that he is one year older than Mr Lugovoy in his 2 June 2015 witness statement INQ021208 (page 6). There is evidence that Mr Lugovoy was born in 1966.
@@ -7369,9 +7365,19 @@ Investigative Committee of the Russian Federation Counsel Patrick Gibbs QC and C
 
 [^240]: INQ021208 (page 11)
 
+[^241]: C2 24/14-39
+
+[^242]: C2 32/43-44
+
 [^243]: INQ021208 (page 11)
 
 [^244]: INQ021208 (pages 9-10)
+
+[^245]: C2 24/24; 24/ 27; C2 32/45
+
+[^246]: C2 32/42
+
+[^247]: C2 32/43
 
 [^248]: INQ022384 (page 3)
 
@@ -7469,11 +7475,17 @@ Investigative Committee of the Russian Federation Counsel Patrick Gibbs QC and C
 
 [^295]: Mascall 16/174-187
 
+[^296]: A1 20/65-68
+
 [^297]: Andrade 16/140-141
 
 [^298]: INQ017911 (page 2)
 
+[^299]: A1 20/70-75
+
 [^300]: INQ017911 (page 6)
+
+[^301]: A1 20/75-77
 
 [^302]: INQ020044 (page 5)
 
@@ -7500,6 +7512,12 @@ Investigative Committee of the Russian Federation Counsel Patrick Gibbs QC and C
 [^313]: INQ020044 (page 6)
 
 [^314]: Mascall 17/82-87
+
+[^1]: Andrade 16/111-141; INQ015344
+
+[^2]: Mascall 16/161-170
+
+[^3]: INQ016745 (page 9)
 
 [^4]: Mascall 22/135
 
@@ -7540,6 +7558,24 @@ Investigative Committee of the Russian Federation Counsel Patrick Gibbs QC and C
 [^22]: Mascall 22/127
 
 [^23]: Horwell 33/16-17
+
+[^1]: Cotlick 25/64
+
+[^2]: HMG000175 (pages 9-10)
+
+[^3]: Mascall 29/83-85
+
+[^4]: Harrison 19/67-73
+
+[^5]: Mascall 29/79-82
+
+[^6]: INQ019146; INQ020316; INQ020998
+
+[^7]: Service 28/1-104
+
+[^8]: INQ019146 (page 4 paragraph 9)
+
+[^9]: Service 28/62
 
 [^10]: INQ006067 (pages 7-8)
 

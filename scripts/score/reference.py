@@ -153,6 +153,18 @@ REFERENCES = {
             "One /P per page run: a fragment that continues an unfinished paragraph (past the page's notes) is joined to it, whatever its first letter.",
         ],
     },
+    "uk-post-office-horizon-inquiry": {
+        "set": "held-out",
+        "adapter": "tagged",
+        "edition": "Volume 1's PDF's own structure tree (tagged PDF, InDesign styles: Heading_1-3, List_Paragraph, Note/Footnote_text, role-mapped)",
+        "licence": CROWN,
+        "numbered": True,
+        "files": [],
+        "caveats": [
+            "A new publisher family (the Post Office Horizon IT Inquiry), so held out: score it, do not tune passes on it.",
+            "Matthew Somerville's HTML (postofficeinquiry.dracos.co.uk/report/volume-1/) is a second candidate reference, not used.",
+        ],
+    },
     "uk-grenfell-tower-inquiry": {
         "set": "held-out",
         "adapter": "tagged",
