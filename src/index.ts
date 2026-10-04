@@ -39,12 +39,13 @@ import {
 } from "@rtm/ingest";
 import {
   actorHash,
-  markCounts,
+  markCountsRead,
   parseMarkPayload,
   recordMark,
   todayUTC,
   type MarksDB,
 } from "./lib/marks";
+import { cachedMarkCounts, defaultCache, evictMarkCounts } from "./lib/marks-cache";
 import { queryPassages, firstMatchOffsets, type PassageRow } from "./lib/search";
 
 /** The write half of the content bucket, which only publishing touches. */
@@ -515,20 +516,41 @@ app.post("/api/mark", async (c) => {
   try {
     const actor = await actorHash(secret, todayUTC(now), ip, ua);
     const result = await recordMark(db, event, actor, now);
+    // The author's next page load must show this mark: drop the cached counts at this location (6kky).
+    if (result === "ok") waitUntil(c, evictMarkCounts(defaultCache(), new URL(c.req.url).origin, event.report));
     return c.body(null, result === "ok" ? 204 : 429);
   } catch (err) {
     return c.body(null, 204);
   }
 });
 
+/** `executionCtx.waitUntil`, where there is an execution context (Hono's getter throws without one, as under tests). */
+function waitUntil(c: any, work: Promise<unknown>): void {
+  try {
+    c.executionCtx.waitUntil(work);
+  } catch {
+    // no context: the work is already running and nothing waits for it
+  }
+}
+
+/** A report's mark counts through the edge cache (6kky): one D1 read of its mark rows per location per TTL, not per view. */
+function countsFor(c: any, db: MarksDB, report: string, threshold: number, meta?: PrerenderMeta) {
+  return cachedMarkCounts(
+    defaultCache(),
+    new URL(c.req.url).origin,
+    report,
+    () => markCountsRead(db, report, threshold, meta),
+    (work) => waitUntil(c, work)
+  );
+}
+
 /**
  * What other readers marked in this report, above the display threshold.
  *
- * Deliberately uncached, unlike the report pages: Rufus wants a passage to
- * show up the moment one reader has marked it, and edge-caching this even
- * briefly means the *first* reader's own page load — which fetches this
- * before they have marked anything — could freeze an empty result in place
- * for everyone behind it. A D1 read here is cheap; staleness is not worth it.
+ * Edge-cached per location for 2 to 30 minutes, longer the more rows a read costs (6kky; src/lib/marks-cache.ts): uncached, every view read every mark row of
+ * the report, which at launch traffic is the whole D1 free tier. A reader's own mark evicts the entry at the location
+ * that took it, so the author's next load shows it at once, and so the first reader's empty result cannot freeze their
+ * view; other readers see a new mark within the TTL.
  *
  * A D1 failure must still serve an (empty) list — social proof is an
  * enhancement, never a reason the marks a page already has stop rendering.
@@ -548,7 +570,7 @@ app.get("/reports/:id/marks", async (c) => {
         return null;
       }
     })();
-    return c.json(await markCounts(db, c.req.param("id"), threshold, meta ?? undefined));
+    return c.json(await countsFor(c, db, c.req.param("id"), threshold, meta ?? undefined));
   } catch (err) {
     return c.json([]);
   }
@@ -593,7 +615,7 @@ app.get("/reports/:id", async (c) => {
   // A landing page shows no Most marked block, so it needs no D1 read for one.
   const topMarked = showsEditorial(EDITORIAL[reportId], draft)
     ? []
-    : await topMarkedPassages(c.env, reportId, meta, content);
+    : await topMarkedPassages(c, reportId, meta, content);
   const hasProcessingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
   c.header("x-rtm-content-version", content.version);
   return c.html(
@@ -617,11 +639,12 @@ app.get("/reports/:id", async (c) => {
  * than the D1 read that says so.
  */
 async function topMarkedPassages(
-  env: Bindings | undefined,
+  c: any,
   reportId: string,
   meta: PrerenderMeta,
   content: ContentSource
 ): Promise<TopPassage[]> {
+  const env: Bindings | undefined = c.env;
   const db = env?.DB;
   if (!db) return [];
 
@@ -629,7 +652,7 @@ async function topMarkedPassages(
   const LIMIT = 5;
 
   try {
-    const counts = await markCounts(db, reportId, threshold, meta);
+    const counts = await countsFor(c, db, reportId, threshold, meta);
     if (!counts.length) return [];
 
     // One section page per distinct section, not the whole report: the five
