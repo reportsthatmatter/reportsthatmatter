@@ -19,22 +19,22 @@ reports:
     markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 2
+    blocks-wrong: 1
   jack-smith-vol1:
-    markers-wrong: 2
+    markers-wrong: 0
     markers-stacked: 7
-    pages-unmarked: 10
-    blocks-wrong: 49
+    pages-unmarked: 0
+    blocks-wrong: 0
   us-psi-financial-crisis:
     markers-wrong: 1  # why: d662 - the new %%page 582%% is a chart page marked at its real first block; the check finds the chart's text in another order, 308 words away
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 1
   challenger-accident:
-    markers-wrong: 20
+    markers-wrong: 0
     markers-stacked: 0
-    pages-unmarked: 11
-    blocks-wrong: 82
+    pages-unmarked: 6
+    blocks-wrong: 35
   uk-leveson-inquiry:
     markers-wrong: 0
     markers-stacked: 1
@@ -49,7 +49,7 @@ reports:
     markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 0
+    blocks-wrong: 4  # why: reportsthatmatter-smof (floats: by-notes, gq4j, serves a box before the paragraph it interrupts, and the box's next-page marker now precedes that paragraph's head: 4 paragraphs a page late)
   us-deepwater-horizon:
     markers-wrong: 0
     markers-stacked: 0
@@ -76,6 +76,11 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   us-lehman-examiner:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0
+  uk-post-office-horizon-inquiry:
     markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0

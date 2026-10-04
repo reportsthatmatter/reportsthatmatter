@@ -10,6 +10,7 @@ aliases:
   1-long-beach-75-i: 1-long-beach-75
   10-billion-net-short-position: from-january-late-february-mortgage
   107-million-730-response-its: about-same-time-memorandum-completed
+  1104-watch-two-months-after: four-months-later-august-2007
   2-14-2007-email-marketrisk: when-cdo-sales-slowed-may
   2-20-2007-email-marketrisk: february-2007-email-directed-moody
   2-4-billion-two-thirds-reduction: reduced-rmbs-business-end-2007
@@ -21,6 +22,7 @@ aliases:
   2008-sec-examination-report-moody: published-reports-well-internal-emails
   2008-sec-examination-report-standard: published-reports-well-internal-emails
   25-loan-applications-ultimately-terminated: 25-loan-applications-22-ultimately
+  288-efforts-example-2007-ots: ots-examinations-2006-2007-also
   3-13-2007-email-from: anderson-issued-its-securities-march
   3-overview-goldman-sachs-case: 2006-2007-residential-whole-loan
   5-30-2007-email-from: decision-outsource-wamu-s-decision
@@ -28,7 +30,6 @@ aliases:
   9-17-2010-letter-from: 2010-fdic-renegotiated-agreement-other
   9-27-2007-s-p: credit-ratings-credit-ratings-use
   according-chart-prepared-deutsche-bank: despite-gain-from-lippmann-s
-  addition-november-29-2006-lippmann: lippmann-had-similar-negative-views
   april-16-hearing-subcommittee-senator: april-16-2010-hearing-subcommittee
   april-16-home-loans-discussion: april-16-2006-home-loans
   asset-relief-program-tarp-authorized: troubled-asset-relief-program-tarp
@@ -52,7 +53,7 @@ aliases:
   e-market-oversight: e-market-oversight-36
   each-five-indices-tracked-different: some-investment-banks-took-cds
   each-five-indices-tracked-different-2: some-investment-banks-took-cds
-  efforts-example-2007-ots-memorandum: 288-efforts-example-2007-ots
+  efforts-example-2007-ots-memorandum: ots-examinations-2006-2007-also
   fdic-had-make-multiple-requests: restricting-office-space-information-throughout
   fdic-took-action-against-fremont: one-year-later-march-2008
   fdic-we-have-past-finn: august-2006-fdic-made-what
@@ -76,9 +77,6 @@ aliases:
   june-2010-case-brought-federal: executives-mozilo-agreed-pay-22
   june-22-2007-goldman-s: big-short-mid-june-2007-two
   key-participants-said-could-not: subcommittee-did-not-locate-any
-  lippmann-also-had-negative-opinions: lippmann-told-subcommittee-d-albert
-  lippmann-equally-critical-new-century: lippmann-had-similar-negative-views
-  lippmann-made-similar-negative-remarks: lippmann-had-similar-negative-views
   loan-pool-washington-mutual-inc: before-wcc-able-act-sole
   make-all-payments-needed-pursuant: 2007-mortgage-market-deteriorated-value
   march-9-market-risk-committee: march-9-2007-market-risk
@@ -118,7 +116,7 @@ aliases:
   trading-has-agreed-change-marks: once-began-buying-cds-shorts
   upon-value-basket-fee-investors: abx-index-january-2006-consortium
   us-getting-short-down-4: february-27-2007-ruzika-sent
-  watch-two-months-after-october: 1104-watch-two-months-after
+  watch-two-months-after-october: four-months-later-august-2007
   what-next-area-contagion-2013: what-next-area-contagion
   years-leading-up-financial-crisis-7: years-leading-up-financial-crisis-6
 sections:
@@ -156,6 +154,7 @@ unmatched:
   - 10-4-2006-interagency-guidance
   - 10-4-2006-interagency-guidance-2
   - 10-4-2006-interagency-guidance-3
+  - 1032-downgraded-over-9-000
   - 11-16-2005-retail-fraud
   - 12-12-2006-wamu-market
   - 12-15-2006-email-from
@@ -180,6 +179,7 @@ unmatched:
   - 2007-home-loans-product-strategy
   - 2007-performance-evaluation-peter-d
   - 2007-wamu-home-loans-product
+  - 27-cdos-securitized-about-28
   - 3-12-2007-goldman-memorandum
   - 3-2007-goldman-internal-email
   - 3-24-2005-email-from
@@ -259,7 +259,6 @@ unmatched:
   - mbs-e-010989710-there-are-few-deals
   - more-information-see-chapter-vi
   - next-day-friday-june-8
-  - november-2004-email-exchange-between
   - of-this-report
   - prepared-statement-richard-michalek-former
   - prepared-u-s-senate-permanent-4
@@ -272,11 +271,9 @@ unmatched:
   - reliance-privately-issued-credit-ratings-2
   - rmbs-accounts-90-0-initial
   - sales-of
-  - second-risk-officer-sent-email
   - section-621-dodd-frank-act-creating
   - section-717-title-ix-dodd-frank
   - section-941-b-also-imposes
-  - securities-from-deutsche-bank-s
   - securitizations-431-its-peak-right
   - see-1-5-2007-notionals
   - see-11-13-2008-worst
@@ -328,3 +325,5 @@ unmatched:
   - u-s-census-bureau-table
   - undated-list-wamu-goldman-loans-sales
   - var-calculation-4-23-2007
+unmatched_sections:
+  - notes-not-linked-in-the-text

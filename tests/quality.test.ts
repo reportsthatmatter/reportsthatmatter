@@ -342,6 +342,55 @@ describe("note-reference-sequence (3ezs)", () => {
     expect(run(refs(["1", "40"]))).toEqual([]);
   });
 
+  it("names a run for the heading it starts under, across the headings it crosses (gq4j)", () => {
+    // Litvinenko: a Part's notes run across its chapters; each chapter is not a run of its own
+    const md = ["## One", refs(["1", "2", "3", "4", "5"]), "## Part Two", refs(["1", "2", "3"]), "### Chapter 2", refs(["4", "6"])].join("\n\n");
+    expect(run(md)).toEqual(["gap: note 5 never referenced in run 2, from \"Part Two\" (5 of 6 linked)"]);
+  });
+
+  it("starts a run whose first notes were never linked: well below the last, then four more in step (n7fb)", () => {
+    const md = ["## One", refs(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]), "## Two", refs(["10", "11", "12", "13", "14"])].join("\n\n");
+    // not ten repeats of 10-14 (and 5 of 14 linked is under half, so the gap is not judged)
+    expect(run(md)).toEqual([]);
+    const most = ["## One", refs(Array.from({ length: 22 }, (_, i) => String(i + 1))), "## Two", refs(["3", "4", "5", "6", "7", "8"])].join("\n\n");
+    expect(run(most)).toEqual(["gap: notes 1-2 never referenced in run 2, from \"Two\" (6 of 8 linked)"]);
+    // a page's markers read twice, just behind the run, are repeats, not a new run
+    expect(run(refs(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "8", "9", "10", "11", "12", "13"]))).toEqual([
+      "repeat: note 8 again in report",
+      "repeat: note 9 again in report",
+      "repeat: note 10 again in report",
+    ]);
+  });
+
+  it("reads a gap-filled chapter's [^N-90xx] notes with the chapter label beside it (kgpr)", () => {
+    // Hillsborough: chapter 10's 1-26 from the HTML, 27-58 filled from the PDF, then 59- again
+    const labels = [...Array.from({ length: 3 }, (_, i) => `${i + 1}-10`), ...Array.from({ length: 3 }, (_, i) => `${i + 4}-9019`), "7-10", "8-10"];
+    expect(run(refs(labels))).toEqual([]);
+  });
+
+  it("reads runs off the definitions where the same [^N] is defined more than once (u00i)", () => {
+    // Leveson: a chapter with one note, then a chapter whose 1, 2 and 3 run on; the references alone cannot tell
+    const md = [
+      "## A",
+      refs(["1", "2", "3", "4"]),
+      "## B",
+      refs(["1"]),
+      "## C",
+      refs(["1", "2", "4"]),
+      "## Notes",
+      "[^1]: a",
+      "[^2]: b",
+      "[^3]: c",
+      "[^4]: d",
+      "[^1]: e",
+      "[^1]: f",
+      "[^2]: g",
+      "[^3]: h",
+      "[^4]: i",
+    ].join("\n\n");
+    expect(run(md)).toEqual(['gap: note 3 never referenced in run 3, from "C" (3 of 4 linked)']);
+  });
+
   it("is a gated count signal", () => {
     expect(noteReferenceSequence.kind).toBe("count");
     expect(SIGNALS.map((x) => x.id)).toContain("note-reference-sequence");

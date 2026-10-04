@@ -2672,7 +2672,7 @@ HQNI IntSum 52/71, 30th December 1971:[^1-268]
 >
 > …
 >
-> 14\. The Brady [ie Provisional] IRA in Londonderry … have begun a campaign, aimed at destroying the business centre of the city. There have recently been a small number of explosions in shops and other business premises in the Waterloo Place/ Strand Road area which may form part of this campaign…”
+> 14\. The Brady [ie Provisional] IRA in Londonderry … have begun a campaign, aimed at destroying the business centre of the city. There have recently been a small number of explosions in shops and other business premises in the Waterloo Place/Strand Road area which may form part of this campaign…”
 
 %%page 222%%
 
@@ -4432,7 +4432,7 @@ HQNI IntSum 52/71, 30th December 1971:[^1-268]
 
 %%page 350%%
 
-> Two. The meeting is to form up at Bishops Field and to proceed via the roundabout in St Mary’s Church and east way. The organisers expect that it will be stopped and ... have alternative routes from there on, the preferred one being Lonemoor Road/ Infirmary Road/Great James’s Street and thence to the Guildhall through Waterloo Place. The route passes the maximum number of flashpoints. If prevented from following that route, the alternative is Westland Street and Rossville Street.
+> Two. The meeting is to form up at Bishops Field and to proceed via the roundabout in St Mary’s Church and east way. The organisers expect that it will be stopped and ... have alternative routes from there on, the preferred one being Lonemoor Road/Infirmary Road/Great James’s Street and thence to the Guildhall through Waterloo Place. The route passes the maximum number of flashpoints. If prevented from following that route, the alternative is Westland Street and Rossville Street.
 >
 > Three. The organisers are considering a possible diversion in the Brandywell area using young hooligans whom they would prefer out of the way of the March.
 >
@@ -5298,7 +5298,7 @@ The next provision was that “*It is expected that the arrest operation will be
 
 9.551 It was submitted on behalf of other soldiers (including Colonel Wilford) that the Presbyterian church was in a perfect pivotal position in that, if Support Company went over the wall there, it could link up with A Company to the west or C Company to the east, and that the factor that ruled it out was that the ground level on one side was significantly lower than on the other. It was submitted that this was:[^1-680]
 
-> “… just the sort of fact which is all too obvious with the benefit of hindsight but which might well not have been anticipated, even with the benefit of careful preparation and/ or local knowledge. Only those who had actually climbed the wall and looked at the ground on both sides were likely to have appreciated the problem.”
+> “… just the sort of fact which is all too obvious with the benefit of hindsight but which might well not have been anticipated, even with the benefit of careful preparation and/or local knowledge. Only those who had actually climbed the wall and looked at the ground on both sides were likely to have appreciated the problem.”
 
 9.552 Although we accept that the Presbyterian church was in a good position from the point of view of deploying soldiers in an encircling arrest movement, we do not accept that the failure to appreciate the impracticability of the Presbyterian church route was obvious only with the benefit of hindsight. The whole idea was for the troops to move very fast indeed to get behind rioters. Colonel Wilford’s priority, when making his plans, should have been to ensure that large numbers of troops could get to the rioters quickly.
 
