@@ -37,3 +37,5 @@ reports:
     dir: ../us-lehman-examiner
   - id: uk-post-office-horizon-inquiry
     dir: ../uk-post-office-horizon-inquiry
+  - id: us-jan6-committee
+    dir: ../us-jan6-committee

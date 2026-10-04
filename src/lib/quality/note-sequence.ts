@@ -55,7 +55,8 @@ type Ref = { note: number; group: string; page: number | null; context: string; 
  */
 const GAP_GROUP_BASE = 9000;
 
-const TOKEN = /^(#{2,3}) (.+)$|%%page ([^%]+)%%|\[\^(\d+)(?:-(\d+))?\](?!:)/gm;
+// A reference followed by a colon is a definition only at the start of a line: "…to Washington, DC[^357-50]:" is a reference.
+const TOKEN = /^(#{2,3}) (.+)$|%%page ([^%]+)%%|\[\^(\d+)(?:-(\d+))?\](?!:(?<=^\[\^\d+(?:-\d+)?\]:))/gm;
 const DEFINITION = /^\[\^(\d+)-(\d+)\]:/gm;
 
 const clip = (text: string, n = 120) => {
