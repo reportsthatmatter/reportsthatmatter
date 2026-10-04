@@ -27,15 +27,21 @@ import { createWriteStream, existsSync, mkdirSync, readFileSync, renameSync, rmS
 import { homedir } from "node:os";
 import { basename, join, relative, resolve } from "node:path";
 import { parse } from "yaml";
+import { parseShipArgs } from "./lib/ship-args.ts";
 import { FREE_TIER_DAILY_WRITES } from "./lib/d1-probe.ts";
 import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
 import { buildSteps, drive, fileSha, formatPlan, freshState, movedReports, STEP_ORDER, versionOf, type Cmd, type Ctx, type ExecResult, type Probe, type Repo, type Runtime, type State, type StepId } from "./lib/ship.ts";
 
 const SITE = join(import.meta.dirname, "..");
-const args = process.argv.slice(2);
-const flag = (f: string) => args.includes(f);
-const opt = (f: string): string | undefined => (args.includes(f) ? args[args.indexOf(f) + 1] : undefined);
-const list = (f: string): string[] => (opt(f) ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+const parsed = parseShipArgs(process.argv.slice(2));
+const flag = parsed.flag;
+const opt = parsed.opt;
+const list = parsed.list;
+
+if (parsed.errors.length > 0 && !flag("--help") && !flag("-h")) {
+  console.error(`${parsed.errors.join("\n")}\nnothing was run. See \`pnpm ship --help\`.`);
+  process.exit(2);
+}
 
 if (flag("--help") || flag("-h")) {
   console.log(readFileSync(import.meta.filename, "utf8").split("*/")[0].replace(/^#!.*\n/, "").replace(/^\/\*\*?\n?| \* ?/gm, "").trim());
