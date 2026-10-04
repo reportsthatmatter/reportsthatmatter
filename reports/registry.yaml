@@ -180,6 +180,12 @@ reports:
     title: "Grenfell Tower Inquiry: Phase 2 Report, Volume 1"
     authors: "Sir Martin Moore-Bick (Chairman), Ali Akbor and Thouria Istephan"
     published_at: "4 September 2024"
+    common_name: "Grenfell Tower Inquiry Phase 2 Report, Volume 1"
+    also_known_as: ["Grenfell Tower Inquiry report", "Grenfell report", "Report of the Public Inquiry into the Fire at Grenfell Tower on 14 June 2017"]
+    issued_by: "Grenfell Tower Inquiry"
+    date_published: "2024-09-04"
+    repo: uk-grenfell-tower-inquiry
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-grenfell-tower-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
