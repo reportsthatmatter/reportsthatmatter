@@ -21,24 +21,15 @@
  * Usage: pnpm check-search-staleness [--remote|--local]  (default --remote)
  */
 import "./lib/help.mjs";
-import { execFileSync } from "node:child_process";
+import { wranglerRunner } from "./lib/d1.ts";
 import { join } from "node:path";
 
 const root = join(import.meta.dirname, "..");
 const target = process.argv.includes("--local") ? "--local" : "--remote";
 
-function query(sql) {
-  const out = execFileSync(
-    "pnpm",
-    ["wrangler", "d1", "execute", "reportsthatmatter-marks", target, "--json", "--command", sql],
-    { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }
-  );
-  // wrangler prints informational lines before the JSON array on some
-  // versions; the array is always what remains once those are dropped.
-  const start = out.indexOf("[");
-  const parsed = JSON.parse(out.slice(start));
-  return parsed[0].results;
-}
+// Through the shared runner, so the rows it reads land in today's D1 ledger (pnpm d1-usage). Two tiny tables.
+const run = wranglerRunner(root);
+const query = (sql) => run(target, { command: sql })[0].results;
 
 const versions = query("SELECT report, content_hash, published_at FROM report_versions");
 const indexed = query("SELECT report, content_version, indexed_at FROM search_index_versions");
