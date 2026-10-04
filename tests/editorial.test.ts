@@ -221,6 +221,16 @@ describe("the landing page", () => {
     expect(html).toContain('href="/reports/demo/one"');
   });
 
+  it("nests a quotation inside an excerpt as single quotes, so the outer marks never double up", () => {
+    const nested = {
+      ...approved,
+      findings: [{ ...approved.findings[0], excerpt: { quote: "pressured him to “find 11,780 votes.”", cite: approved.findings[0].excerpt!.cite } }],
+    };
+    const html = renderLanding(nested, "demo");
+    expect(html).toContain("“…pressured him to ‘find 11,780 votes.’”");
+    expect(html).not.toContain("”””");
+  });
+
   it("says whose words these are, and flags a draft", () => {
     expect(renderOurNote(approved)).toContain("Only words in quotation marks are the report's own");
     expect(renderOurNote(approved)).not.toContain("Draft");

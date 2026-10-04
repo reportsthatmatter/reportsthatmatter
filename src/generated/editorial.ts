@@ -3113,6 +3113,247 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 25%"
     }
   },
+  "us-jan6-committee": {
+    "status": "approved",
+    "whyItMatters": "The final report of the House select committee that investigated the attack on the US Capitol on 6 January 2021. Drawing on its hearings, depositions and documents, some obtained after litigation, it sets out the committee's account of the efforts to overturn the 2020 presidential election, and its conclusions, criminal referrals and recommendations.",
+    "background": [
+      "Joe Biden won the presidential election of November 2020. On 6 January 2021, while Congress met in joint session to count the electoral votes, a crowd of supporters of the outgoing president, Donald Trump, broke into the Capitol, and the count was halted for several hours.",
+      "A bill for an independent bipartisan commission passed the House in May 2021 but failed in the Senate. On 30 June 2021 the House voted 222 to 190 to set up a select committee instead (H. Res. 503). After Speaker Nancy Pelosi declined to appoint two of the five Republicans proposed by Republican Leader Kevin McCarthy, he withdrew all five. The committee sat with seven Democrats, chaired by Bennie Thompson, and two Republicans appointed by the Speaker, Liz Cheney, its vice chair, and Adam Kinzinger. The report sets out this history, and the objections to the committee's make-up, in its own words.",
+      "Its first hearing, in July 2021, heard police officers who had defended the Capitol; its main public hearings ran from June to October 2022. On 19 December 2022 it voted to refer Donald Trump and others to the Justice Department, and it published this report, dated 22 December 2022, in the last days of that Congress. The referrals are a committee's recommendations, not charges; its findings are a congressional committee's, not a court's.",
+      "A special counsel, Jack Smith, appointed in November 2022, later charged Trump in federal court; the case was dismissed after he won the 2024 election. On 20 January 2025 President Biden pardoned the committee's members and staff in advance, and President Trump granted clemency to about 1,500 people charged over 6 January. In 2024 a Republican-led House subcommittee published reports criticising the select committee's conduct and some of its evidence."
+    ],
+    "findings": [
+      {
+        "text": "The committee's overriding conclusion is that the central cause of 6 January was Donald Trump.",
+        "cites": [
+          {
+            "id": "committee-s-hearings-we-presented",
+            "page": 8,
+            "href": "/reports/us-jan6-committee?p=committee-s-hearings-we-presented"
+          },
+          {
+            "id": "from-outset-its-hearings-committee",
+            "page": 99,
+            "href": "/reports/us-jan6-committee?p=from-outset-its-hearings-committee"
+          }
+        ],
+        "excerpt": {
+          "quote": "That evidence has led to an overriding and straightforward conclusion: the central cause of January 6th was one man, former President Donald Trump, whom many others followed. None of the events of January 6th would have happened without him.",
+          "cite": {
+            "id": "committee-s-hearings-we-presented",
+            "page": 8,
+            "href": "/reports/us-jan6-committee?p=committee-s-hearings-we-presented&h=2020%20Presidential%20election.%20|That%20evidence%20has%20led%20to%20an%20overriding%20and%20straightforward%20conclusion%3A%20the%20central%20cause%20of%20January%206th%20was%20one%20man%2C%20former%20President%20Donald%20Trump%2C%20whom%20many%20others%20followed.%20None%20of%20the%20events%20of%20January%206th%20would%20have%20happened%20without%20him.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that his campaign advisers, his Justice Department and his White House lawyers told him repeatedly that there was no fraud that could have changed the result, and that the courts rejected his challenges.",
+        "cites": [
+          {
+            "id": "short-president-trump-informed-over",
+            "page": 16,
+            "href": "/reports/us-jan6-committee?p=short-president-trump-informed-over"
+          },
+          {
+            "id": "over-weeks-followed-dozens-judges",
+            "page": 17,
+            "href": "/reports/us-jan6-committee?p=over-weeks-followed-dozens-judges"
+          },
+          {
+            "id": "ultimately-even-rudolph-giuliani-his",
+            "page": 19,
+            "href": "/reports/us-jan6-committee?p=ultimately-even-rudolph-giuliani-his"
+          }
+        ],
+        "excerpt": {
+          "quote": "In short, President Trump was informed over and over again, by his senior appointees, campaign experts and those who had served him for years, that his election fraud allegations were nonsense.",
+          "cite": {
+            "id": "short-president-trump-informed-over",
+            "page": 16,
+            "href": "/reports/us-jan6-committee?p=short-president-trump-informed-over&h=|In%20short%2C%20President%20Trump%20was%20informed%20over%20and%20over%20again%2C%20by%20his%20senior%20appointees%2C%20campaign%20experts%20and%20those%20who%20had%20served%20him%20for%20years%2C%20that%20his%20election%20fraud%20allegations%20were%20nonsense.|"
+          }
+        }
+      },
+      {
+        "text": "It describes his pressure on state officials and legislators, including his call asking Georgia's Secretary of State to find votes.",
+        "cites": [
+          {
+            "id": "during-january-2-2021-call",
+            "page": 44,
+            "href": "/reports/us-jan6-committee?p=during-january-2-2021-call"
+          },
+          {
+            "id": "addition-plan-create-transmit-fake",
+            "page": 43,
+            "href": "/reports/us-jan6-committee?p=addition-plan-create-transmit-fake"
+          }
+        ],
+        "excerpt": {
+          "quote": "During a January 2, 2021, call, President Trump pressured Georgia’s Republican Secretary of State Brad Raffensperger to “find 11,780 votes.”",
+          "cite": {
+            "id": "during-january-2-2021-call",
+            "page": 44,
+            "href": "/reports/us-jan6-committee?p=during-january-2-2021-call&h=|During%20a%20January%202%2C%202021%2C%20call%2C%20President%20Trump%20pressured%20Georgia%E2%80%99s%20Republican%20Secretary%20of%20State%20Brad%20Raffensperger%20to%20%E2%80%9Cfind%2011%2C780%20votes.%E2%80%9D|%20During%20that%20call%2C"
+          }
+        }
+      },
+      {
+        "text": "It describes how slates of Republican electors met on 14 December 2020 in states Joe Biden had won, and sent their certificates to Washington.",
+        "cites": [
+          {
+            "id": "false-slates-created-fake-republican",
+            "page": 41,
+            "href": "/reports/us-jan6-committee?p=false-slates-created-fake-republican"
+          },
+          {
+            "id": "fake-electors-followed-chesebro-s",
+            "page": 43,
+            "href": "/reports/us-jan6-committee?p=fake-electors-followed-chesebro-s"
+          }
+        ]
+      },
+      {
+        "text": "It describes the attempt to put Jeffrey Clark in charge of the Justice Department, dropped when the department's leadership said they would resign.",
+        "cites": [
+          {
+            "id": "committee-s-investigation-has-shown",
+            "page": 50,
+            "href": "/reports/us-jan6-committee?p=committee-s-investigation-has-shown"
+          },
+          {
+            "id": "faced-mass-resignations-recognizing-breakage",
+            "page": 54,
+            "href": "/reports/us-jan6-committee?p=faced-mass-resignations-recognizing-breakage"
+          }
+        ]
+      },
+      {
+        "text": "It describes the pressure on Vice President Mike Pence to refuse to count electoral votes, and finds that \"no White House lawyer believed Pence could lawfully refuse to count electoral votes.\"",
+        "cites": [
+          {
+            "id": "central-element-donald-trump-s",
+            "page": 29,
+            "href": "/reports/us-jan6-committee?p=central-element-donald-trump-s"
+          },
+          {
+            "id": "be-absolutely-clear-no-white",
+            "page": 33,
+            "href": "/reports/us-jan6-committee?p=be-absolutely-clear-no-white"
+          },
+          {
+            "id": "jacob-recorded-eastman-s-admission",
+            "page": 32,
+            "href": "/reports/us-jan6-committee?p=jacob-recorded-eastman-s-admission"
+          }
+        ],
+        "excerpt": {
+          "quote": "Jacob recorded Eastman’s admission in an internal memo he drafted for Vice President Pence on the evening of January 4th: “Professor Eastman acknowledges that his proposal violates several provisions of statutory law.”",
+          "cite": {
+            "id": "jacob-recorded-eastman-s-admission",
+            "page": 32,
+            "href": "/reports/us-jan6-committee?p=jacob-recorded-eastman-s-admission&h=|Jacob%20recorded%20Eastman%E2%80%99s%20admission%20in%20an%20internal%20memo%20he%20drafted%20for%20Vice%20President%20Pence%20on%20the%20evening%20of%20January%204th%3A%20%E2%80%9CProfessor%20Eastman%20acknowledges%20that%20his%20proposal%20violates%20several%20provisions%20of%20statutory%20law.%E2%80%9D|%20And%2C%20during%20a%20phone%20call"
+          }
+        }
+      },
+      {
+        "text": "It finds that during the attack he was urged for hours to tell his supporters to leave the Capitol, and did so at 4:17 p.m.; it calls those 187 minutes \"a dereliction of duty\".",
+        "cites": [
+          {
+            "id": "from-outset-violence-several-hours",
+            "page": 76,
+            "href": "/reports/us-jan6-committee?p=from-outset-violence-several-hours"
+          },
+          {
+            "id": "187-minutes-between-end-president",
+            "page": 577,
+            "href": "/reports/us-jan6-committee?p=187-minutes-between-end-president"
+          },
+          {
+            "id": "evidence-overwhelmingly-demonstrates-president-trump",
+            "page": 76,
+            "href": "/reports/us-jan6-committee?p=evidence-overwhelmingly-demonstrates-president-trump"
+          }
+        ]
+      },
+      {
+        "text": "It refers Donald Trump and others to the Justice Department, and makes eleven recommendations, starting with reform of the Electoral Count Act.",
+        "cites": [
+          {
+            "id": "report-also-examines-legal-implications",
+            "page": 7,
+            "href": "/reports/us-jan6-committee?p=report-also-examines-legal-implications"
+          },
+          {
+            "id": "our-report-describes-donald-j",
+            "page": 689,
+            "href": "/reports/us-jan6-committee?p=our-report-describes-donald-j"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "executive-summary",
+        "title": "Executive Summary",
+        "page": "1",
+        "why": "How the committee frames its work, starting with an Oath Keeper testifying against the group's leader, and what the report covers.",
+        "excerpt": {
+          "quote": "On October 31, 2022, in a Federal courthouse in Washington, DC, Graydon Young testified against Stewart Rhodes and other members of the Oath Keepers militia group.",
+          "cite": {
+            "id": "october-31-2022-federal-courthouse",
+            "page": 1,
+            "href": "/reports/us-jan6-committee?p=october-31-2022-federal-courthouse&h=|On%20October%2031%2C%202022%2C%20in%20a%20Federal%20courthouse%20in%20Washington%2C%20DC%2C%20Graydon%20Young%20testified%20against%20Stewart%20Rhodes%20and%20other%20members%20of%20the%20Oath%20Keepers%20militia%20group.|%20The%20defendants%20had%20been"
+          }
+        }
+      },
+      {
+        "slug": "executive-summary-overview-of-the-evidence-developed",
+        "title": "Executive Summary: Overview of the Evidence Developed",
+        "page": "9",
+        "why": "The committee's whole account in summary, from election night to the afternoon of 6 January."
+      },
+      {
+        "slug": "referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi",
+        "title": "Referrals to the U.S. Department of Justice Special Counsel and House Ethics Committee",
+        "page": "99",
+        "why": "The criminal referrals, statute by statute, and the referral of members of Congress who did not comply with subpoenas.",
+        "excerpt": {
+          "quote": "Today we know that the planning to overturn the election on January 6th was substantially more extensive, and involved many other players, and many other efforts over a longer time period.",
+          "cite": {
+            "id": "today-we-know-planning-overturn",
+            "page": 99,
+            "href": "/reports/us-jan6-committee?p=today-we-know-planning-overturn&h=|Today%20we%20know%20that%20the%20planning%20to%20overturn%20the%20election%20on%20January%206th%20was%20substantially%20more%20extensive%2C%20and%20involved%20many%20other%20players%2C%20and%20many%20other%20efforts%20over%20a%20longer%20time%20period.|%20Indeed%2C%20the%20violent"
+          }
+        }
+      },
+      {
+        "slug": "chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me",
+        "title": "Chapter 4. “JUST CALL IT CORRUPT AND LEAVE THE REST TO ME”",
+        "page": "374",
+        "why": "The Justice Department chapter, from Attorney General Barr's resignation to the threat of mass resignations."
+      },
+      {
+        "slug": "chapter-7-187-minutes-of-dereliction",
+        "title": "Chapter 7. 187 MINUTES OF DERELICTION",
+        "page": "578",
+        "why": "The afternoon of 6 January inside the White House, hour by hour.",
+        "excerpt": {
+          "quote": "By 1:21 p.m., President Trump was informed that the Capitol was under attack. He could have interceded immediately. But the President chose not to do so. It was not until 4:17 p.m. that President Trump finally tweeted a video in which he told the rioters to go home.",
+          "cite": {
+            "id": "1-21-p-m-president",
+            "page": 577,
+            "href": "/reports/us-jan6-committee?p=1-21-p-m-president&h=|By%201%3A21%20p.m.%2C%20President%20Trump%20was%20informed%20that%20the%20Capitol%20was%20under%20attack.%20He%20could%20have%20interceded%20immediately.%20But%20the%20President%20chose%20not%20to%20do%20so.%20It%20was%20not%20until%204%3A17%20p.m.%20that%20President%20Trump%20finally%20tweeted%20a%20video%20in%20which%20he%20told%20the%20rioters%20to%20go%20home.|"
+          }
+        }
+      },
+      {
+        "slug": "recommendations",
+        "title": "Recommendations",
+        "page": "690",
+        "why": "The committee's eleven recommendations, from the Electoral Count Act to the Insurrection Act."
+      }
+    ]
+  },
   "us-lehman-examiner": {
     "status": "approved",
     "whyItMatters": "The court-appointed examiner's report on why Lehman Brothers, the largest bankruptcy in U.S. history, collapsed in September 2008. Drawing on some 34 million pages of documents and more than 250 interviews, it traces the firm's move into risky, hard-to-sell assets, and sets out in full Repo 105, the accounting device Lehman used to move as much as $50 billion of assets off its balance sheet at quarter-end, and who knew.",

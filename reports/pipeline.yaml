@@ -177,6 +177,13 @@ units:
     state: waiting
     evidence: "ingest PR #63 (passes), report repo branch vol1, site PR (registry, budgets, plate, card, editorial); adjudicated.yaml committed (30 breaks, gqsy.2.1), held-out score recorded; local checks green 2026-10-04"
     notes: "Waiting on the ingest release carrying footnoteNumbers('tabbed'), pdfPageNumbers and typographicHeadings({ faces }) (PR #63): the report's ingest.ts imports them. Volumes 2-5 will be further units of this id. Hero: gqsy.2.2."
+  - id: us-jan6-committee
+    scope: "H. Rept. 117-663, the whole printed report (served from the committee HTML, cleanEdition)"
+    bead: reportsthatmatter-gqsy.3
+    reached: evaluate
+    state: waiting
+    evidence: "registry; golden.yaml 5/5; PROCESSING.md; editorial approved and verbatim; plate, default card and 5 quote cards (z959); ingest#66 and #67 in v0.23.0, report repo main merged (PR #1), pin bump PR us-jan6-committee#2"
+    notes: "Ready for the v0.24.0 review (site PR #290): re-ingested at v0.23.0, full.md and baseline unchanged. Merge-only until the integrator ships it; hero image is wrjn. reference/manifest.json and adjudicated.yaml are not in the repo (HTML-sourced), which is the drift warning."
   - id: uk-grenfell-tower-inquiry
     scope: "Phase 2, Volume 1"
     bead: reportsthatmatter-gqsy.4

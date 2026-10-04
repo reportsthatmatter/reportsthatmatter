@@ -942,69 +942,85 @@ items:
     card: assets/cards/uk-post-office-horizon-inquiry/q-4c378e9c.png
     scheduled: 2026-12-12
     posted_url: null
-  - id: uk-grenfell-tower-inquiry:1-16-not-possible-identify:e6014e4d
-    report: uk-grenfell-tower-inquiry
-    paragraph: 1-16-not-possible-identify
-    quote: It is not possible to identify any single cause of the tragedy; many
-      different acts and omissions combined to bring about the Grenfell Tower
-      fire, although some were more significant than others.
+  - id: us-jan6-committee:during-january-2-2021-call:656c8a23
+    report: us-jan6-committee
+    paragraph: during-january-2-2021-call
+    quote: During a January 2, 2021, call, President Trump pressured Georgia’s
+      Republican Secretary of State Brad Raffensperger to “find 11,780 votes.”
     text: >-
-      “It is not possible to identify any single cause of the tragedy; many
-      different acts and omissions combined to bring about the Grenfell Tower
-      fire, although some were more significant than others.”
+      “During a January 2, 2021, call, President Trump pressured Georgia’s
+      Republican Secretary of State Brad Raffensperger to ‘find 11,780 votes.’”
 
 
-      — Grenfell Tower Inquiry: Phase 2 Report, Volume 1, p. 5
-    link: https://reportsthatmatter.org/reports/uk-grenfell-tower-inquiry?p=1-16-not-possible-identify&h=1.16%20|It%20is%20not%20possible%20to%20identify%20any%20single%20cause%20of%20the%20tragedy%3B%20many%20different%20acts%20and%20omissions%20combined%20to%20bring%20about%20the%20Grenfell%20Tower%20fire%2C%20although%20some%20were%20more%20significant%20than%20others.|%20With%20some%20exceptions%20we&src=bsky
-    card: assets/cards/uk-grenfell-tower-inquiry/q-dbeeaf72.png
+      — Final Report of the Select Committee to Investigate the January 6th
+      Attack on the United States Capitol, p. 44
+    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=during-january-2-2021-call&h=|During%20a%20January%202%2C%202021%2C%20call%2C%20President%20Trump%20pressured%20Georgia%E2%80%99s%20Republican%20Secretary%20of%20State%20Brad%20Raffensperger%20to%20%E2%80%9Cfind%2011%2C780%20votes.%E2%80%9D|%20During%20that%20call%2C&src=bsky
+    card: assets/cards/us-jan6-committee/q-9a7ea49d.png
     scheduled: 2026-12-13
     posted_url: null
-  - id: uk-grenfell-tower-inquiry:2-19-one-very-significant:b8bd0ba7
-    report: uk-grenfell-tower-inquiry
-    paragraph: 2-19-one-very-significant
-    quote: One very significant reason why Grenfell Tower came to be clad in
-      combustible materials was systematic dishonesty on the part of those who
-      made and sold the rainscreen cladding panels and insulation products.
+  - id: us-jan6-committee:white-house-counsel-pat-cipollone:a9e06df7
+    report: us-jan6-committee
+    paragraph: white-house-counsel-pat-cipollone
+    quote: White House Counsel Pat Cipollone threatened to resign as well,
+      describing Clark’s letter as a “murder-suicide pact.”
     text: >-
-      “One very significant reason why Grenfell Tower came to be clad in
-      combustible materials was systematic dishonesty on the part of those who
-      made and sold the rainscreen cladding panels and insulation products.”
+      “White House Counsel Pat Cipollone threatened to resign as well,
+      describing Clark’s letter as a ‘murder-suicide pact.’”
 
 
-      — Grenfell Tower Inquiry: Phase 2 Report, Volume 1, p. 12
-    link: https://reportsthatmatter.org/reports/uk-grenfell-tower-inquiry?p=2-19-one-very-significant&h=2.19%20|One%20very%20significant%20reason%20why%20Grenfell%20Tower%20came%20to%20be%20clad%20in%20combustible%20materials%20was%20systematic%20dishonesty%20on%20the%20part%20of%20those%20who%20made%20and%20sold%20the%20rainscreen%20cladding%20panels%20and%20insulation%20products.|%20They%20engaged%20in&src=bsky
-    card: assets/cards/uk-grenfell-tower-inquiry/q-f60c81ce.png
+      — Final Report of the Select Committee to Investigate the January 6th
+      Attack on the United States Capitol, p. 54
+    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=white-house-counsel-pat-cipollone&h=|White%20House%20Counsel%20Pat%20Cipollone%20threatened%20to%20resign%20as%20well%2C%20describing%20Clark%E2%80%99s%20letter%20as%20a%20%E2%80%9Cmurder-suicide%20pact.%E2%80%9D|%20Cipollone%20warned%20that&src=bsky
+    card: assets/cards/us-jan6-committee/q-6e045248.png
     scheduled: 2026-12-14
     posted_url: null
-  - id: uk-grenfell-tower-inquiry:2-103-first-week-after:ddb845cd
-    report: uk-grenfell-tower-inquiry
-    paragraph: 2-103-first-week-after
-    quote: In the first week after the fire at Grenfell Tower the response of the
-      government and RBKC was muddled, slow, indecisive and piecemeal.
+  - id: us-jan6-committee:jacob-recorded-eastman-s-admission:0da338f0
+    report: us-jan6-committee
+    paragraph: jacob-recorded-eastman-s-admission
+    quote: “Professor Eastman acknowledges that his proposal violates several
+      provisions of statutory law.”
     text: >-
-      “In the first week after the fire at Grenfell Tower the response of the
-      government and RBKC was muddled, slow, indecisive and piecemeal.”
+      “‘Professor Eastman acknowledges that his proposal violates several
+      provisions of statutory law.’”
 
 
-      — Grenfell Tower Inquiry: Phase 2 Report, Volume 1, p. 28
-    link: https://reportsthatmatter.org/reports/uk-grenfell-tower-inquiry?p=2-103-first-week-after&h=2.103%20|In%20the%20first%20week%20after%20the%20fire%20at%20Grenfell%20Tower%20the%20response%20of%20the%20government%20and%20RBKC%20was%20muddled%2C%20slow%2C%20indecisive%20and%20piecemeal.|%20RBKC's%20systems%20and&src=bsky
-    card: assets/cards/uk-grenfell-tower-inquiry/q-f5d9c11d.png
-    scheduled: 2026-12-15
-    posted_url: null
-  - id: uk-grenfell-tower-inquiry:2-114-those-who-emerge:ff10dc7e
-    report: uk-grenfell-tower-inquiry
-    paragraph: 2-114-those-who-emerge
-    quote: Those who emerge from the events with the greatest credit, and whose
-      contribution only emphasised the inadequacies of the official response,
-      are the members of the local community.
-    text: >-
-      “Those who emerge from the events with the greatest credit, and whose
-      contribution only emphasised the inadequacies of the official response,
-      are the members of the local community.”
-
-
-      — Grenfell Tower Inquiry: Phase 2 Report, Volume 1, p. 29
-    link: https://reportsthatmatter.org/reports/uk-grenfell-tower-inquiry?p=2-114-those-who-emerge&h=2.114%20|Those%20who%20emerge%20from%20the%20events%20with%20the%20greatest%20credit%2C%20and%20whose%20contribution%20only%20emphasised%20the%20inadequacies%20of%20the%20official%20response%2C%20are%20the%20members%20of%20the%20local%20community.|%20With%20the%20support%20of&src=bsky
-    card: assets/cards/uk-grenfell-tower-inquiry/q-030edc29.png
+      — Final Report of the Select Committee to Investigate the January 6th
+      Attack on the United States Capitol, p. 32
+    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=jacob-recorded-eastman-s-admission&h=the%20evening%20of%20January%204th%3A%20|%E2%80%9CProfessor%20Eastman%20acknowledges%20that%20his%20proposal%20violates%20several%20provisions%20of%20statutory%20law.%E2%80%9D|%20And%2C%20during%20a%20phone%20call&src=bsky
+    card: assets/cards/us-jan6-committee/q-fbde4ae6.png
     scheduled: 2026-12-16
+    posted_url: null
+  - id: us-jan6-committee:1-21-p-m-president:5a47a4ea
+    report: us-jan6-committee
+    paragraph: 1-21-p-m-president
+    quote: It was not until 4:17 p.m. that President Trump finally tweeted a video
+      in which he told the rioters to go home.
+    text: >-
+      “It was not until 4:17 p.m. that President Trump finally tweeted a video
+      in which he told the rioters to go home.”
+
+
+      — Final Report of the Select Committee to Investigate the January 6th
+      Attack on the United States Capitol, p. 577
+    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=1-21-p-m-president&h=President%20chose%20not%20to%20do%20so.%20|It%20was%20not%20until%204%3A17%20p.m.%20that%20President%20Trump%20finally%20tweeted%20a%20video%20in%20which%20he%20told%20the%20rioters%20to%20go%20home.|&src=bsky
+    card: assets/cards/us-jan6-committee/q-41b8f733.png
+    scheduled: 2026-12-17
+    posted_url: null
+  - id: us-jan6-committee:short-president-trump-informed-over:920552bc
+    report: us-jan6-committee
+    paragraph: short-president-trump-informed-over
+    quote: President Trump was informed over and over again, by his senior
+      appointees, campaign experts and those who had served him for years, that
+      his election fraud allegations were nonsense.
+    text: >-
+      “President Trump was informed over and over again, by his senior
+      appointees, campaign experts and those who had served him for years, that
+      his election fraud allegations were nonsense.”
+
+
+      — Final Report of the Select Committee to Investigate the January 6th
+      Attack on the United States Capitol, p. 16
+    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=short-president-trump-informed-over&h=In%20short%2C%20|President%20Trump%20was%20informed%20over%20and%20over%20again%2C%20by%20his%20senior%20appointees%2C%20campaign%20experts%20and%20those%20who%20had%20served%20him%20for%20years%2C%20that%20his%20election%20fraud%20allegations%20were%20nonsense.|&src=bsky
+    card: assets/cards/us-jan6-committee/q-ef72fb4f.png
+    scheduled: 2026-12-18
     posted_url: null
