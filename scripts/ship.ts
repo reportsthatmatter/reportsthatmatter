@@ -12,7 +12,7 @@
  *   pnpm ship --reset                   delete the state file (a new release)
  *
  * Options: --base <url> (default https://reportsthatmatter.org), --old-ref <ref> (aliases are rendered against it;
- * default origin/main, resolved to a sha on the first run and kept), --d1-limit <n>, --allow-dirty, --state <file>,
+ * default origin/main, resolved to a sha on the first run and kept), --d1-limit <n> (row writes a day), --d1-read-limit <n> (rows read a day), --allow-dirty, --state <file>,
  * --verbose (stream each command's output), --root <dir> (a site checkout other than this one: for tests).
  *
  * The site pin is the source of truth: merge the site's pin-bump PR first; every report repo is then moved to it.
@@ -27,7 +27,8 @@ import { createWriteStream, existsSync, mkdirSync, readFileSync, renameSync, rmS
 import { homedir } from "node:os";
 import { basename, join, relative, resolve } from "node:path";
 import { parse } from "yaml";
-import { FREE_TIER_DAILY_WRITES, rowsWrittenToday } from "./lib/d1-probe.ts";
+import { FREE_TIER_DAILY_WRITES } from "./lib/d1-probe.ts";
+import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
 import { buildSteps, drive, fileSha, formatPlan, freshState, movedReports, STEP_ORDER, versionOf, type Cmd, type Ctx, type ExecResult, type Probe, type Repo, type Runtime, type State, type StepId } from "./lib/ship.ts";
 
 const SITE = join(import.meta.dirname, "..");
@@ -92,6 +93,7 @@ const ctx: Ctx = {
   yes: flag("--yes"),
   allowDirty: flag("--allow-dirty"),
   d1Limit: Number(opt("--d1-limit") ?? FREE_TIER_DAILY_WRITES),
+  d1ReadLimit: Number(opt("--d1-read-limit") ?? FREE_TIER.rowsRead),
   has,
 };
 
@@ -141,10 +143,7 @@ const probe: Probe = {
     });
   },
   sha: fileSha,
-  async rowsWrittenToday() {
-    const dbId = (readFileSync(join(root, "wrangler.toml"), "utf8").match(/database_id\s*=\s*"([^"]+)"/) ?? [])[1];
-    return rowsWrittenToday(fetch as never, { token: process.env.CLOUDFLARE_API_TOKEN, account: process.env.CLOUDFLARE_ACCOUNT_ID, databaseId: dbId });
-  },
+  d1Today: () => usageToday(root),
 };
 
 function exec(cmd: Cmd, label: string): Promise<ExecResult> {
@@ -202,7 +201,7 @@ if (flag("--status")) {
   const d = state.data;
   if (d.changed) console.log(`  changed: ${d.changed.join(", ") || "none"}`);
   if (d.toPublish) console.log(`  to publish: ${d.toPublish.join(", ") || "none"}`);
-  if (d.estimate) console.log(`  D1 estimate: ${d.estimate.total.toLocaleString()} row writes`);
+  if (d.estimate) console.log(`  D1 estimate: ${d.estimate.total.toLocaleString()} row writes${d.estimate.reads === undefined ? "" : `, ${d.estimate.reads.toLocaleString()} rows read`}`);
   process.exit(0);
 }
 

@@ -91,11 +91,16 @@ export async function queryPassages(
   const match = buildMatchQuery(rawQuery);
   if (!match) return [];
 
+  // Ranked by FTS5's own `rank` (set to the same weighted bm25 for this query), not `ORDER BY bm25(...)`: FTS5
+  // then sorts the matches itself and hands SQLite only the rows the LIMIT keeps, so D1 bills ~20 rows read
+  // per search. Sorting on the bm25() expression made SQLite read every matching row, twice: 69,766 rows for
+  // "the", against the free tier's 5M a day (reportsthatmatter-t4al; same results, scripts/measure-d1-reads.mjs).
+  // A scoped search still reads matches until it has 20 in that report, since `report` is UNINDEXED.
   const sql = `
     SELECT report, section, paragraph_id, page, body, highlight(passages, 4, ?, ?) as marked
     FROM passages
-    WHERE passages MATCH ? ${scope ? "AND report = ?" : ""}
-    ORDER BY bm25(passages, ${BM25_WEIGHTS.join(", ")})
+    WHERE passages MATCH ? AND rank MATCH 'bm25(${BM25_WEIGHTS.join(", ")})' ${scope ? "AND report = ?" : ""}
+    ORDER BY rank
     LIMIT ?
   `;
 

@@ -100,6 +100,8 @@ export type ResolvedHighlight = {
   prefix: string;
   suffix: string;
   page: number | null;
+  /** `card: true` in the file: gets a quote card and a place in the posting queue. Not stored in D1. */
+  card?: boolean;
 };
 
 /** What the build knows of a report's structure, from its pre-rendered meta.json. */
@@ -265,6 +267,7 @@ export function resolveEditorial(
       prefix: selector.prefix,
       suffix: selector.suffix,
       page: pageOf(html, h.paragraph),
+      ...(h.card ? { card: true } : {}),
     });
   });
 

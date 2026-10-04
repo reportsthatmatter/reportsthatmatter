@@ -18,16 +18,22 @@ import { buildIndex, mark, rangeFor } from "./dom-text.js";
 
 const body = document.getElementById("report-body");
 
-if (body) {
-  const report = body.dataset.report;
-  if (report) markCounts(report);
-}
+/** Set once an editor's highlight is marked, so the page can say what the shading is. */
+let editorOnPage = false;
 
 /** Same hue as .hl (assets/styles.css), always fainter — this is ambient, not the one thing you're looking at. */
 const MIN_ALPHA = 0.16;
 const MAX_ALPHA = 0.4;
 /** Reader counts at or above this all read as "fully" marked; the point is a felt gradient, not a precise scale. */
 const ALPHA_SATURATES_AT = 6;
+
+/**
+ * What the server said was marked on this report, once it has said it ([] if
+ * it could not). The landing panel (passage-panel.js) reads it to tell the
+ * editor's highlight from a reader's, rather than asking again.
+ * @type {Promise<MarkCount[]>}
+ */
+export const marksLoaded = body && body.dataset.report ? markCounts(body.dataset.report) : Promise.resolve([]);
 
 /** @param {number} readers @returns {string} */
 function washFor(readers) {
@@ -39,21 +45,22 @@ function washFor(readers) {
 /**
  * @typedef {{
  *   paragraph: string, exact: string, prefix: string, suffix: string,
- *   page: number | null, readers: number
+ *   page: number | null, readers: number, editor?: boolean
  * }} MarkCount
  */
 
-/** @param {string} report */
+/** @param {string} report @returns {Promise<MarkCount[]>} */
 async function markCounts(report) {
   /** @type {MarkCount[]} */
   let entries;
   try {
     const res = await fetch(`/reports/${encodeURIComponent(report)}/marks`);
-    if (!res.ok) return;
+    if (!res.ok) return [];
     entries = await res.json();
   } catch (err) {
-    return;
+    return [];
   }
+  if (!Array.isArray(entries)) return [];
 
   for (const entry of entries) {
     const paragraph = document.getElementById(entry.paragraph);
@@ -70,11 +77,41 @@ async function markCounts(report) {
     const range = rangeFor(index, found.start, found.end);
     if (!range) continue;
 
-    const marks = mark(range, ["social-proof"]);
-    const title = `Highlighted by ${entry.readers} reader${entry.readers === 1 ? "" : "s"}`;
+    const marks = mark(range, entry.editor ? ["social-proof", "editor"] : ["social-proof"]);
+    const title = markedTitle(entry);
     for (const element of marks) {
-      element.style.background = washFor(entry.readers);
+      // The editor's own highlight reads at the weight of one reader: it is a
+      // pointer, not a crowd (decision 0014).
+      element.style.background = washFor(Math.max(entry.readers, 1));
       element.title = title;
     }
+    if (entry.editor) editorOnPage = true;
   }
+
+  if (editorOnPage) addKey();
+  return entries;
+}
+
+
+/**
+ * Who marked a passage, in words. The editor's highlights are never counted as
+ * readers and never pose as one (decision 0014).
+ * @param {MarkCount} entry @returns {string}
+ */
+export function markedTitle(entry) {
+  const readers = entry.readers
+    ? `${entry.readers} reader${entry.readers === 1 ? "" : "s"}`
+    : "";
+  if (entry.editor) return readers ? `Editor’s highlight · also marked by ${readers}` : "Editor’s highlight";
+  return `Highlighted by ${readers}`;
+}
+
+/** One line under the page header saying what the shading is, once a page has an editor's highlight. */
+function addKey() {
+  const header = document.querySelector(".report-header .measure");
+  if (!header || header.querySelector(".marks-key")) return;
+  const key = document.createElement("p");
+  key.className = "byline mono marks-key";
+  key.innerHTML = '<span class="marks-key-swatch" aria-hidden="true"></span>Shaded: the editor’s highlights and passages readers marked';
+  header.appendChild(key);
 }

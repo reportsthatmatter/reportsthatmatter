@@ -5,43 +5,46 @@
  * link names those words; select the whole thing and it names the paragraph,
  * as it always did.
  *
- * Desktop-first: the popover is suppressed on coarse pointers, where the OS
- * selection menu already occupies the same space.
+ * Two forms of the same three actions (docs/design/2026-10-03-sharing-and-
+ * highlights.md §7). With a mouse, a popover floats above the selection,
+ * opened on mouseup. On a touch screen that spot belongs to the OS's own
+ * selection menu (iOS's callout, Android's floating toolbar), which a page
+ * cannot turn off, so the actions sit in a dock fixed to the bottom of the
+ * screen instead, opened once a selection settles (`selectionchange`; touch
+ * has no mouseup), with the native share sheet as its first button.
  */
 // @ts-check
 import { encodeAnchor, selectorFor } from "./anchor.js";
 import { buildIndex, indexOfPoint } from "./dom-text.js";
 import { createStore } from "./highlights-store.js";
+import { canShare, copy, flash, nativeShare, pageFor } from "./share-actions.js";
 
 const body = document.getElementById("report-body");
 const pop = document.getElementById("share-pop");
 
 const isCoarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
 
-if (body && pop && !isCoarse) {
+/** How long a selection must sit still before the dock opens for it. */
+const SETTLE_MS = 350;
+/** After a dock button is used, how long the dock stays to show its "Copied"/"Saved". */
+const LINGER_MS = 1500;
+
+if (body && pop) {
+  const dock = isCoarse;
+  pop.setAttribute("data-mode", dock ? "dock" : "float");
+  if (dock) {
+    // The share sheet already offers Copy, so where there is one, Share takes
+    // Copy link's place and the dock stays three buttons wide on a phone.
+    const share = /** @type {HTMLElement | null} */ (pop.querySelector('[data-action="share"]'));
+    const copyLink = /** @type {HTMLElement | null} */ (pop.querySelector('[data-action="copy-link"]'));
+    if (share && copyLink && canShare()) {
+      share.hidden = false;
+      copyLink.hidden = true;
+    }
+  }
+  let usedAt = 0;
   const store = createStore(window.localStorage);
   const current = { quote: "", url: "", paragraph: "", anchor: "", page: null, selector: null };
-
-  /**
-   * The printed page a passage sits on: the last page marker before it.
-   *
-   * This is how these documents are cited — "Report at 62" — so a saved
-   * highlight carries it, and an export is a citation rather than a link.
-   * @param {Element} paragraph
-   * @returns {number | null}
-   */
-  const pageFor = (paragraph) => {
-    const markers = [...document.querySelectorAll(".page-marker")];
-    let page = null;
-    for (const marker of markers) {
-      const position = marker.compareDocumentPosition(paragraph);
-      if (position & Node.DOCUMENT_POSITION_FOLLOWING) {
-        const number = parseInt(marker.id.replace("page-", ""), 10);
-        if (!Number.isNaN(number)) page = number;
-      }
-    }
-    return page;
-  };
 
   /**
    * The paragraph a node sits in — the first ancestor carrying an id, which
@@ -107,6 +110,13 @@ if (body && pop && !isCoarse) {
 
   const hide = () => pop.setAttribute("data-open", "false");
 
+  /** The dock hides once the selection goes — but not under a finger that just used it. */
+  const hideDock = () => {
+    const wait = usedAt + LINGER_MS - Date.now();
+    if (wait > 0) setTimeout(hideDock, wait);
+    else if (window.getSelection()?.isCollapsed !== false) hide();
+  };
+
   /**
    * @param {DOMRect} rect
    * @param {string} quote
@@ -123,63 +133,31 @@ if (body && pop && !isCoarse) {
     // Exposed so the browser checks can assert on the link a selection
     // produces without reaching into the clipboard.
     pop.setAttribute("data-url", link.url);
+    if (dock) {
+      // A shared link's landing panel occupies the same strip; the reader has
+      // moved on from it.
+      document.dispatchEvent(new CustomEvent("rtm:selecting"));
+      return;
+    }
     pop.style.top = `${rect.top + window.scrollY - 10}px`;
     pop.style.left = `${rect.left + window.scrollX + rect.width / 2}px`;
   };
 
   const onSelectionSettled = () => {
+    const close = dock ? hideDock : hide;
     const selection = window.getSelection();
-    if (!selection || selection.isCollapsed) return hide();
+    if (!selection || selection.isCollapsed || !selection.rangeCount) return close();
 
     const text = selection.toString().trim();
-    if (text.length < 2) return hide();
+    if (text.length < 2) return close();
 
     const range = selection.getRangeAt(0);
-    if (!body.contains(range.commonAncestorContainer)) return hide();
+    if (!body.contains(range.commonAncestorContainer)) return close();
 
     const rect = range.getBoundingClientRect();
-    if (!rect.width && !rect.height) return hide();
+    if (!rect.width && !rect.height) return close();
 
     show(rect, text, canonicalUrl(range));
-  };
-
-  /**
-   * @param {HTMLElement} button
-   * @param {string} label
-   */
-  const flash = (button, label) => {
-    const original = button.textContent;
-    button.textContent = label;
-    setTimeout(() => {
-      button.textContent = original;
-    }, 1200);
-  };
-
-  /**
-   * @param {string} text
-   * @param {HTMLElement} button
-   * @param {string} label
-   */
-  const copy = (text, button, label) => {
-    const done = () => flash(button, label);
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(done, done);
-    } else {
-      const scratch = document.createElement("textarea");
-      scratch.value = text;
-      scratch.setAttribute("readonly", "");
-      scratch.style.position = "absolute";
-      scratch.style.left = "-9999px";
-      document.body.appendChild(scratch);
-      scratch.select();
-      try {
-        document.execCommand("copy");
-      } catch (err) {
-        /* nothing useful to do; the flash below still closes the loop */
-      }
-      document.body.removeChild(scratch);
-      done();
-    }
   };
 
   /**
@@ -191,10 +169,12 @@ if (body && pop && !isCoarse) {
    * mid-flight on navigation — silently dropping exactly the signal this
    * exists to record.
    * @param {"share" | "save"} kind
+   * @param {typeof current} what the selection acted on — a copy, when the
+   *   report is made after an await and the reader may have selected again
    */
-  const report = (kind) => {
-    if (!current.paragraph) return;
-    const selector = current.selector;
+  const report = (kind, what = current) => {
+    if (!what.paragraph) return;
+    const selector = what.selector;
     fetch("/api/mark", {
       method: "POST",
       keepalive: true,
@@ -202,17 +182,27 @@ if (body && pop && !isCoarse) {
       body: JSON.stringify({
         report: body.dataset.report,
         section: body.dataset.section,
-        paragraph: current.paragraph,
-        exact: selector ? selector.exact : current.quote,
+        paragraph: what.paragraph,
+        exact: selector ? selector.exact : what.quote,
         prefix: selector ? selector.prefix : "",
         suffix: selector ? selector.suffix : "",
-        page: current.page,
+        page: what.page,
         kind,
       }),
     }).catch(() => {});
   };
 
-  document.addEventListener("mouseup", () => setTimeout(onSelectionSettled, 0));
+  if (dock) {
+    // Touch ends a selection with no mouseup, and the reader may still be
+    // dragging its handles: act once it has been still for a moment.
+    let settle = 0;
+    document.addEventListener("selectionchange", () => {
+      clearTimeout(settle);
+      settle = window.setTimeout(onSelectionSettled, SETTLE_MS);
+    });
+  } else {
+    document.addEventListener("mouseup", () => setTimeout(onSelectionSettled, 0));
+  }
 
   document.addEventListener("keyup", (event) => {
     if (event.shiftKey || event.key === "Escape") setTimeout(onSelectionSettled, 0);
@@ -220,7 +210,9 @@ if (body && pop && !isCoarse) {
 
   document.addEventListener("mousedown", (event) => {
     const target = /** @type {HTMLElement} */ (event.target);
-    if (!pop.contains(target)) hide();
+    // On touch, a tap's emulated mousedown arrives after the tap itself; the
+    // dock closes when the selection does, not on a tap.
+    if (!dock && !pop.contains(target)) hide();
 
     // A drag through the body should not sweep up the margin notes; a drag
     // that starts inside one is someone deliberately selecting a citation.
@@ -232,14 +224,29 @@ if (body && pop && !isCoarse) {
     if (event.key === "Escape") hide();
   });
 
-  window.addEventListener("scroll", hide, { passive: true });
-  window.addEventListener("resize", hide);
+  // A floating popover would be left behind by a scroll. The dock is fixed to
+  // the screen, and on touch dragging a selection handle scrolls the page and
+  // the browser's toolbars resize the viewport.
+  if (!dock) {
+    window.addEventListener("scroll", hide, { passive: true });
+    window.addEventListener("resize", hide);
+  }
+
+  pop.addEventListener("pointerdown", () => {
+    usedAt = Date.now();
+  });
 
   pop.addEventListener("click", (event) => {
     const button = /** @type {HTMLElement} */ (event.target).closest("button");
     if (!button) return;
+    usedAt = Date.now();
     const action = button.getAttribute("data-action");
-    if (action === "copy-link") {
+    if (action === "share") {
+      const what = { ...current };
+      nativeShare({ quote: what.quote, url: what.url, title: body.dataset.reportTitle }).then((shared) => {
+        if (shared) report("share", what);
+      });
+    } else if (action === "copy-link") {
       copy(current.url, button, "Copied");
       report("share");
     } else if (action === "copy-quote") {

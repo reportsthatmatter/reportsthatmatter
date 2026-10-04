@@ -73,6 +73,11 @@ describe("routes", () => {
     // ids must not be positional — that is what makes citations rot
     expect(body).not.toMatch(/<p id="p-\d+"/);
     expect(body).toContain("/assets/share.js");
+    // The phone dock's Share button ships hidden; share.js reveals it only
+    // where there is a share sheet (bght.3).
+    expect(body).toMatch(/<button type="button" data-action="share" hidden>Share<\/button>/);
+    // The landing panel is built in the browser, never served (bght.4).
+    expect(body).not.toContain("passage-panel");
   });
 
   it("returns 404 for an unknown report", async () => {
@@ -497,7 +502,7 @@ describe("structured data", () => {
     expect(data["@type"]).toBe("Report");
     expect(data.name).toContain("Jack Smith");
     // Provenance is the whole claim; it must point at the original.
-    expect(data.isBasedOn).toContain("justice.gov");
+    expect(data.isBasedOn.url).toContain("justice.gov");
   });
 
   it("gives a section breadcrumbs back to its report", async () => {
@@ -505,7 +510,8 @@ describe("structured data", () => {
     const json = (await res.text()).match(
       /<script type="application\/ld\+json">([\s\S]*?)<\/script>/
     )?.[1];
-    const data = JSON.parse(json!);
+    // The section's own markup, then its breadcrumbs.
+    const data = JSON.parse(json!).find((node: { "@type": string }) => node["@type"] === "BreadcrumbList");
     expect(data["@type"]).toBe("BreadcrumbList");
     expect(data.itemListElement).toHaveLength(3);
     expect(data.itemListElement[2].item).toContain("/the-law");

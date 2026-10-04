@@ -33,12 +33,18 @@ export type HeadOptions = {
   noindex?: boolean;
   /** `og:type`; defaults to "website". Blog posts pass "article". */
   ogType?: string;
-  /** Absolute canonical URL: emitted as `<link rel="canonical">` and `og:url`. */
+  /** Absolute URL: emitted as `og:url`, and as `<link rel="canonical">` unless `canonical` is given. */
   url?: string;
+  /** Absolute canonical URL when it differs from `og:url`: a shared `?p=`/`?h=` link previews as itself but ranks as its page. */
+  canonical?: string;
+  /** Words for the share image (`og:image:alt`, `twitter:image:alt`). */
+  imageAlt?: string;
   /** ISO date: emitted as `article:published_time`. */
   publishedTime?: string;
   /** An Atom feed to advertise in the head: `{ href, title }`. */
   feed?: { href: string; title: string };
+  /** Further `<meta name content>` tags, such as the Highwire `citation_*` set. */
+  extraMeta?: Array<{ name: string; content: string }>;
 };
 
 type LayoutOptions = HeadOptions & {
@@ -57,7 +63,12 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
   // reportsthatmatter-obw. A page with something more specific (a report's
   // own card, a curated quote) passes it; this is the floor everything else
   // lands on, rather than a bare-text preview.
-  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, structuredData, noindex, ogType = "website", url, publishedTime, feed } = options;
+  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, imageAlt, structuredData, noindex, ogType = "website", url, publishedTime, feed } = options;
+  const canonical = options.canonical ?? url;
+
+  const extraMeta = (options.extraMeta ?? [])
+    .map((tag) => `<meta name="${escapeHtml(tag.name)}" content="${escapeHtml(tag.content)}" />\n`)
+    .join("");
 
   return `<!doctype html>
 <html lang="en">
@@ -69,10 +80,16 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
 ${noindex ? `<meta name="robots" content="noindex" />\n` : ""}<meta property="og:title" content="${escapeHtml(title)}" />
 <meta property="og:description" content="${escapeHtml(description)}" />
 <meta property="og:type" content="${escapeHtml(ogType)}" />
-${url ? `<meta property="og:url" content="${escapeHtml(url)}" />\n<link rel="canonical" href="${escapeHtml(url)}" />\n` : ""}${publishedTime ? `<meta property="article:published_time" content="${escapeHtml(publishedTime)}" />\n` : ""}${feed ? `<link rel="alternate" type="application/atom+xml" href="${escapeHtml(feed.href)}" title="${escapeHtml(feed.title)}" />\n` : ""}
+<meta property="og:site_name" content="Reports that Matter" />
+${url ? `<meta property="og:url" content="${escapeHtml(url)}" />\n` : ""}${canonical ? `<link rel="canonical" href="${escapeHtml(canonical)}" />\n` : ""}${publishedTime ? `<meta property="article:published_time" content="${escapeHtml(publishedTime)}" />\n` : ""}${feed ? `<link rel="alternate" type="application/atom+xml" href="${escapeHtml(feed.href)}" title="${escapeHtml(feed.title)}" />\n` : ""}
 <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}" />
-${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta name="twitter:image" content="${escapeHtml(image)}" />` : ""}
-<link rel="preconnect" href="https://fonts.googleapis.com" />
+${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta name="twitter:image" content="${escapeHtml(image)}" />\n` : ""}${
+    // Every card is rendered at 2400×1260 (scripts/cards.mjs): stating it lets
+    // Facebook and LinkedIn show the image on the very first share, before they
+    // have fetched it.
+    image?.includes("/assets/cards/") ? `<meta property="og:image:width" content="2400" />\n<meta property="og:image:height" content="1260" />\n` : ""
+  }${image && imageAlt ? `<meta property="og:image:alt" content="${escapeHtml(imageAlt)}" />\n<meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}" />` : ""}
+${extraMeta}<link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="icon" href="/assets/brand/pilcrow-32.png" sizes="32x32" type="image/png" />

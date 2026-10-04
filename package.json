@@ -14,7 +14,7 @@
     "posts": "tsx scripts/posts.mjs",
     "post-next": "tsx scripts/post-next.mjs",
     "pipeline": "tsx scripts/pipeline.mjs",
-    "seed-highlights": "node scripts/seed-highlights.mjs",
+    "seed-highlights": "tsx scripts/seed-highlights.mjs",
     "paragraphs": "tsx scripts/paragraphs.mjs",
     "bootstrap": "CI=true pnpm install && pnpm prerender",
     "prerender": "tsx scripts/prerender.mjs",
@@ -26,10 +26,12 @@
     "scorecard": "tsx scripts/scorecard.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",
     "ship": "tsx scripts/ship.ts",
-    "check-search-staleness": "node scripts/check-search-staleness.mjs",
+    "check-search-staleness": "tsx scripts/check-search-staleness.mjs",
+    "d1-usage": "tsx scripts/d1-usage.mjs",
     "marks": "tsx scripts/marks.mjs",
     "heroes": "node scripts/imagery/heroes.mjs",
-    "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups"
+    "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups",
+    "highlight": "tsx scripts/highlight.mjs"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.131.0",
@@ -38,6 +40,7 @@
     "playwright": "^1.49.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
+    "upng-js": "^2.1.0",
     "vitest": "^2.1.8",
     "wrangler": "^4.58.0"
   },
