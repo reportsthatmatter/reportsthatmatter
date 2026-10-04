@@ -6,7 +6,7 @@
     "headings-spurious": 37,
     "markers-unlinked": 36,
     "markers-spurious": 89,
-    "paragraphs-oversplit": 149,
+    "paragraphs-oversplit": 147,
     "paragraphs-merged": 422,
     "quotes-spurious": 51,
     "quotes-missed": 53,
@@ -39,19 +39,19 @@
   "challenger-accident": {
    "oracle": {
     "headings-missed": 170,
-    "headings-spurious": 76,
-    "markers-unlinked": 24,
-    "markers-spurious": 136,
-    "paragraphs-oversplit": 332,
-    "paragraphs-merged": 1973,
-    "quotes-spurious": 331,
-    "quotes-missed": 212,
-    "note-off-page": 140
+    "headings-spurious": 101,
+    "markers-unlinked": 27,
+    "markers-spurious": 147,
+    "paragraphs-oversplit": 372,
+    "paragraphs-merged": 1927,
+    "quotes-spurious": 385,
+    "quotes-missed": 209,
+    "note-off-page": 77
    },
    "golden": {
-    "match": 0,
+    "match": 2,
     "total": 7,
-    "known": 7
+    "known": 5
    }
   },
   "litvinenko-inquiry": {
@@ -60,7 +60,7 @@
     "headings-spurious": 0,
     "markers-unlinked": 29,
     "markers-spurious": 11,
-    "paragraphs-oversplit": 251,
+    "paragraphs-oversplit": 250,
     "paragraphs-merged": 1246,
     "quotes-spurious": 184,
     "quotes-missed": 46,
@@ -78,7 +78,7 @@
     "headings-spurious": 2,
     "markers-unlinked": 142,
     "markers-spurious": 2,
-    "paragraphs-oversplit": 2089,
+    "paragraphs-oversplit": 2081,
     "paragraphs-merged": 2538,
     "quotes-spurious": 317,
     "quotes-missed": 1255,
@@ -93,19 +93,19 @@
   "columbia-accident": {
    "oracle": {
     "headings-missed": 89,
-    "headings-spurious": 4,
-    "markers-unlinked": 297,
-    "markers-spurious": 46,
-    "paragraphs-oversplit": 533,
-    "paragraphs-merged": 724,
-    "quotes-spurious": 290,
-    "quotes-missed": 214,
+    "headings-spurious": 2,
+    "markers-unlinked": 3,
+    "markers-spurious": 8,
+    "paragraphs-oversplit": 277,
+    "paragraphs-merged": 815,
+    "quotes-spurious": 235,
+    "quotes-missed": 218,
     "note-off-page": 0
    },
    "golden": {
-    "match": 0,
+    "match": 2,
     "total": 6,
-    "known": 6
+    "known": 4
    }
   },
   "us-911-commission": {
@@ -130,18 +130,18 @@
    "oracle": {
     "headings-missed": 330,
     "headings-spurious": 0,
-    "markers-unlinked": 1445,
-    "markers-spurious": 822,
-    "paragraphs-oversplit": 394,
-    "paragraphs-merged": 914,
-    "quotes-spurious": 31,
-    "quotes-missed": 72,
+    "markers-unlinked": 2,
+    "markers-spurious": 31,
+    "paragraphs-oversplit": 80,
+    "paragraphs-merged": 903,
+    "quotes-spurious": 30,
+    "quotes-missed": 63,
     "note-off-page": 0
    },
    "golden": {
-    "match": 0,
+    "match": 2,
     "total": 6,
-    "known": 6
+    "known": 4
    }
   },
   "us-v-philip-morris": {
@@ -150,7 +150,7 @@
     "headings-spurious": 27,
     "markers-unlinked": 28,
     "markers-spurious": 0,
-    "paragraphs-oversplit": 956,
+    "paragraphs-oversplit": 952,
     "paragraphs-merged": 992,
     "quotes-spurious": 261,
     "quotes-missed": 347,
@@ -164,19 +164,19 @@
   },
   "uk-hillsborough-panel": {
    "oracle": {
-    "headings-missed": 144,
+    "headings-missed": 70,
     "headings-spurious": 0,
     "markers-unlinked": 24,
     "markers-spurious": 107,
     "paragraphs-oversplit": 12,
-    "paragraphs-merged": 403,
+    "paragraphs-merged": 337,
     "quotes-spurious": 6,
     "quotes-missed": 29,
     "note-off-page": 1
    },
    "golden": {
-    "match": 5,
-    "total": 5,
+    "match": 7,
+    "total": 7,
     "known": 0
    }
   },
@@ -205,7 +205,7 @@
     "markers-unlinked": 0,
     "markers-spurious": 0,
     "paragraphs-oversplit": 15,
-    "paragraphs-merged": 393,
+    "paragraphs-merged": 395,
     "quotes-spurious": 5,
     "quotes-missed": 79,
     "note-off-page": 0
@@ -222,7 +222,7 @@
     "headings-spurious": 5,
     "markers-unlinked": 22,
     "markers-spurious": 5,
-    "paragraphs-oversplit": 140,
+    "paragraphs-oversplit": 137,
     "paragraphs-merged": 221,
     "quotes-spurious": 143,
     "quotes-missed": 99,
@@ -237,39 +237,39 @@
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 17,
-   "fp": 13,
-   "fn": 19
+   "tp": 16,
+   "fp": 14,
+   "fn": 10
   },
   "headings-spurious": {
-   "tp": 1,
+   "tp": 0,
    "fp": 3,
-   "fn": 2
+   "fn": 1
   },
   "markers-unlinked": {
-   "tp": 22,
+   "tp": 8,
    "fp": 0,
-   "fn": 11
+   "fn": 5
   },
   "markers-spurious": {
-   "tp": 8,
-   "fp": 9,
-   "fn": 0
+   "tp": 0,
+   "fp": 13,
+   "fn": 2
   },
   "paragraphs-oversplit": {
-   "tp": 41,
+   "tp": 15,
    "fp": 11,
-   "fn": 67
+   "fn": 30
   },
   "paragraphs-merged": {
-   "tp": 12,
-   "fp": 143,
+   "tp": 8,
+   "fp": 156,
    "fn": 1
   },
   "quotes-spurious": {
-   "tp": 11,
+   "tp": 5,
    "fp": 4,
-   "fn": 7
+   "fn": 12
   },
   "quotes-missed": {
    "tp": 2,
