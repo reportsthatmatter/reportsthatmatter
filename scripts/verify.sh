@@ -455,6 +455,18 @@ for id in $IDS; do
       fail "?p=${first_para} (cache-busted) → ${cold_status}"
     fi
 
+    # The cache-busted fetch above cannot see a stale entry. Fetch the shared-link URL as people hold it
+    # (no buster): its x-rtm-content-version must be the version the report page serves now. A day-long
+    # edge cache that outlived a deploy served v0.21.0 text ~10h after v0.22.0 (reportsthatmatter-h3iu).
+    # Against a local worker both are "assets", which proves only that the header is there.
+    page_version=$(curl -s -D - -o /dev/null "${BASE}/reports/${id}/full?p=${first_para}" | tr -d '\r' | awk -F': ' 'tolower($1)=="x-rtm-content-version"{print $2}')
+    live_version=$(curl -s -I "${BASE}/reports/${id}" | tr -d '\r' | awk -F': ' 'tolower($1)=="x-rtm-content-version"{print $2}')
+    if [ -n "$page_version" ] && [ "$page_version" = "$live_version" ]; then
+      pass "?p= page serves the published version (${page_version})"
+    else
+      fail "?p= page serves content version '${page_version}', the report is at '${live_version}' (stale edge cache?)"
+    fi
+
     # Full-text search (#100) — a real word from this report, not a
     # hardcoded phrase content drift could break: paragraph ids are derived
     # from a passage's own opening words, so splitting one apart gives a

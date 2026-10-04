@@ -533,8 +533,11 @@ Worker ran on every request anyway, so assembly costs a string concatenation.
 
 A `?p=`/`?h=` link differs from the plain page only in `<head>`;
 `tests/head.test.ts` pins that. Only the shared-link variants go through
-`cached()` — it does not invalidate on deploy, which is fine for a quote
-link's preview and would be a day of stale text on the canonical page.
+`cached()`, whose key carries the Worker version id (`cacheKeyFor`, the
+`CF_VERSION_METADATA` binding), so a deploy retires every cached entry; a
+publish with no deploy after it still waits out the day (`pnpm ship` always
+deploys). The canonical page stays uncached: it would be a day of stale text.
+`verify.sh` checks that a plain `?p=` URL serves the version the report is at.
 
 **Full-text search's index lives in D1** (#100,
 `docs/plans/2026-08-21-search-decisions.md`), the same `reportsthatmatter-marks`
