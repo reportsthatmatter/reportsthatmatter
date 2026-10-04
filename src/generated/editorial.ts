@@ -1848,7 +1848,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "first-scale-problem-needs-be",
             "page": 981,
-            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be&h=|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|3%20Speculation%2C%20suspicion"
+            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be&h=|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|%20Speculation%2C%20suspicion"
           }
         }
       }
@@ -1866,6 +1866,235 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "alt": "News of the World editor Colin Myler, surrounded by applauding staff, holds up the paper's final edition, headlined \"Thank you & goodbye\", outside its offices on 9 July 2011.",
       "focus": "50% 60%"
     }
+  },
+  "uk-post-office-horizon-inquiry": {
+    "status": "approved",
+    "whyItMatters": "The first volume of the statutory inquiry into the Post Office Horizon scandal, in which the Post Office relied on faulty accounting software to prosecute and pursue its own postmasters for losses that did not exist. It sets out what that did to the people affected, judges whether the schemes set up to compensate them have worked, and makes 19 recommendations.",
+    "background": [
+      "From 1999 the Post Office ran its branches on Horizon, an accounting system built by ICL Pathway, later Fujitsu. Between 2000 and 2013 it prosecuted postmasters and branch staff for theft and false accounting on the strength of Horizon's figures, and for over two decades it held others liable under their contracts for shortfalls the system showed. Postmasters said from the start that the system was at fault. In 2019 a group of 555 of them, led by Alan Bates, won two judgments in the High Court, and the case was settled. On 23 April 2021 the Court of Appeal quashed 39 convictions, and in May 2024 Parliament passed an Act quashing Horizon convictions in England, Wales and Northern Ireland; Scotland passed its own.",
+      "The Government set up the inquiry in September 2020 under Sir Wyn Williams, a retired High Court judge, and converted it into a statutory inquiry under the Inquiries Act 2005 on 1 June 2021, with powers to compel evidence. It heard the people affected first, in 2022. Volume 1 was laid before Parliament on 8 July 2025, ahead of the rest of the report, so that its recommendations on compensation could be acted on at once. It covers the human impact, with 17 case illustrations, and the four redress schemes. How the scandal happened and who was responsible are left to later volumes.",
+      "The report asked for written responses to its recommendations by 10 October 2025. The Government published its response on 9 October 2025."
+    ],
+    "findings": [
+      {
+        "text": "The Chair finds that employees of Fujitsu knew before Horizon was rolled out that it could show losses that were not real, and that staff of the Post Office knew or should have known it too, while the Post Office kept insisting its data was accurate.",
+        "cites": [
+          {
+            "id": "1-3-prior-roll-out",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-3-prior-roll-out"
+          },
+          {
+            "id": "1-4-although-many-individuals",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-4-although-many-individuals"
+          },
+          {
+            "id": "1-5-2010-legacy-horizon",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-5-2010-legacy-horizon"
+          }
+        ],
+        "excerpt": {
+          "quote": "Although many of the individuals who gave evidence before me were very reluctant to accept it, I am satisfied from the evidence that I have heard that a number of senior, and not so senior, employees of the Post Office knew or, at the very least, should have known that Legacy Horizon was capable of error as described above. Yet, for all practical purposes, throughout the lifetime of Legacy Horizon, the Post Office maintained the fiction that its data was always accurate.",
+          "cite": {
+            "id": "1-4-although-many-individuals",
+            "page": 6,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-4-although-many-individuals&h=1.4.%20|Although%20many%20of%20the%20individuals%20who%20gave%20evidence%20before%20me%20were%20very%20reluctant%20to%20accept%20it%2C%20I%20am%20satisfied%20from%20the%20e%E2%8B%AFes%2C%20throughout%20the%20lifetime%20of%20Legacy%20Horizon%2C%20the%20Post%20Office%20maintained%20the%20fiction%20that%20its%20data%20was%20always%20accurate.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that many hundreds of people were wrongly convicted and many thousands wrongly held liable for losses that were illusory, and that there are about 10,000 eligible claimants for redress.",
+        "cites": [
+          {
+            "id": "1-9-consequence-activities-described",
+            "page": 7,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-9-consequence-activities-described"
+          },
+          {
+            "id": "3-1-almost-impossible-ascertain",
+            "page": 12,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-1-almost-impossible-ascertain"
+          }
+        ],
+        "excerpt": {
+          "quote": "As a consequence of the activities described in the preceding two paragraphs, many hundreds of people have been convicted, wrongly, of criminal offences, and many thousands of people have been held responsible, wrongly, for losses which were illusory, as opposed to real.",
+          "cite": {
+            "id": "1-9-consequence-activities-described",
+            "page": 7,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=1-9-consequence-activities-described&h=1.9.%20|As%20a%20consequence%20of%20the%20activities%20described%20in%20the%20preceding%20two%20paragraphs%2C%20many%20hundreds%20of%20people%20have%20been%20convicted%2C%20wrongly%2C%20of%20criminal%20offences%2C%20and%20many%20thousands%20of%20people%20have%20been%20held%20responsible%2C%20wrongly%2C%20for%20losses%20which%20were%20illusory%2C%20as%20opposed%20to%20real.|%20As%20later%20volumes%20of%20my"
+          }
+        }
+      },
+      {
+        "text": "The Post Office identified 13 people who, their families say, took their own lives because of shortfalls Horizon showed. The Chair says he cannot find that Horizon caused all of those deaths but does not rule it out, and records evidence from at least 59 people who contemplated suicide.",
+        "cites": [
+          {
+            "id": "3-8-following-formal-request",
+            "page": 13,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-8-following-formal-request"
+          },
+          {
+            "id": "3-10-following-further-formal",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-10-following-further-formal"
+          },
+          {
+            "id": "3-11-i-have-also",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-11-i-have-also"
+          },
+          {
+            "id": "3-12-i-have-also",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-12-i-have-also"
+          }
+        ],
+        "excerpt": {
+          "quote": "I have also received evidence from at least 59 persons who contemplated suicide at various points in time and who attributed this to their experiences with Horizon and/or the Post Office. This was a common experience across both those who were and were not prosecuted. Ten of the persons who contemplated suicide attempted to take their lives, some on more than one occasion.",
+          "cite": {
+            "id": "3-11-i-have-also",
+            "page": 14,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-11-i-have-also&h=3.11.%20|I%20have%20also%20received%20evidence%20from%20at%20least%2059%20persons%20who%20contemplated%20suicide%20at%20various%20points%20in%20time%20and%20who%20attrib%E2%8B%AFt%20prosecuted.%20Ten%20of%20the%20persons%20who%20contemplated%20suicide%20attempted%20to%20take%20their%20lives%2C%20some%20on%20more%20than%20one%20occasion.|%20One%20postmaster%20said%3A"
+          }
+        }
+      },
+      {
+        "text": "The Chair accepts that the Post Office, the Department and Ministers committed in good faith to redress that is \"full, fair and prompt\", but concludes that too often it has not been delivered.",
+        "cites": [
+          {
+            "id": "6-4-evidence-adduced-inquiry",
+            "page": 121,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-4-evidence-adduced-inquiry"
+          },
+          {
+            "id": "6-7-ultimately-course-whatever",
+            "page": 121,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-7-ultimately-course-whatever"
+          }
+        ],
+        "excerpt": {
+          "quote": "Ultimately of course, whatever aims the Post Office, and the Department have embraced, the real question is whether they have been able to fulfil those aims. Having reviewed the evidence with care, I have concluded that there have been too many instances in the past in which the aims have not been fulfilled and that, as things stand, there are many formidable difficulties in the way of achieving those aims going forward.",
+          "cite": {
+            "id": "6-7-ultimately-course-whatever",
+            "page": 121,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-7-ultimately-course-whatever&h=6.7.%20|Ultimately%20of%20course%2C%20whatever%20aims%20the%20Post%20Office%2C%20and%20the%20Department%20have%20embraced%2C%20the%20real%20question%20is%20whether%20they%E2%8B%AFlled%20and%20that%2C%20as%20things%20stand%2C%20there%20are%20many%20formidable%20difficulties%20in%20the%20way%20of%20achieving%20those%20aims%20going%20forward.|"
+          }
+        }
+      },
+      {
+        "text": "The report holds that \"full\" redress means the top of the range a court would award, and recommends that the Government say so publicly and that every scheme apply it.",
+        "cites": [
+          {
+            "id": "6-18-set-against-background",
+            "page": 123,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-18-set-against-background"
+          },
+          {
+            "id": "2-minister-department-conjunction-post-2",
+            "page": 124,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=2-minister-department-conjunction-post-2"
+          },
+          {
+            "id": "3-post-office-department-minister-2",
+            "page": 124,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-post-office-department-minister-2"
+          }
+        ]
+      },
+      {
+        "text": "It finds that redress for many claimants who chose a full assessment has not been prompt, and that the Department will struggle to close the Group Litigation Order Scheme by the end of 2026.",
+        "cites": [
+          {
+            "id": "6-205-summary-delivery-financial",
+            "page": 158,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-205-summary-delivery-financial"
+          },
+          {
+            "id": "6-133-all-said-very",
+            "page": 144,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-133-all-said-very"
+          }
+        ]
+      },
+      {
+        "text": "It recommends a standing public body to run future compensation schemes for people wronged by public bodies, independent of the body that caused the harm.",
+        "cites": [
+          {
+            "id": "6-208-i-can-see",
+            "page": 158,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-208-i-can-see"
+          },
+          {
+            "id": "17-soon-reasonably-practicable-hm-2",
+            "page": 159,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=17-soon-reasonably-practicable-hm-2"
+          }
+        ]
+      },
+      {
+        "text": "It recommends redress for close family members of those most affected, where they have suffered serious consequences themselves.",
+        "cites": [
+          {
+            "id": "6-225-my-view-there",
+            "page": 161,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=6-225-my-view-there"
+          },
+          {
+            "id": "18-department-shall-devise-process-2",
+            "page": 161,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=18-department-shall-devise-process-2"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "introduction",
+        "title": "INTRODUCTION",
+        "page": "1",
+        "why": "The Chair's own four-page account of Horizon, the prosecutions and the litigation, and why this volume comes first."
+      },
+      {
+        "slug": "recommendations",
+        "title": "RECOMMENDATIONS",
+        "page": "11",
+        "why": "All 19 recommendations on two pages, each argued for later in the volume."
+      },
+      {
+        "slug": "c-case-illustrations",
+        "title": "c. Case Illustrations",
+        "page": "23",
+        "why": "Seventeen case illustrations, drawn mainly from the evidence of the people concerned, from imprisonment and bankruptcy to the death of Martin Griffiths.",
+        "excerpt": {
+          "quote": "Mr Butoy's convictions resulted in widespread and damning publicity.",
+          "cite": {
+            "id": "3-61-butoy-s-convictions",
+            "page": 24,
+            "href": "/reports/uk-post-office-horizon-inquiry?p=3-61-butoy-s-convictions&h=3.61.%20|Mr%20Butoy's%20convictions%20resulted%20in%20widespread%20and%20damning%20publicity.|%20The%20convictions%20were"
+          }
+        }
+      },
+      {
+        "slug": "a-the-meaning-of-the-phrase-full-and-fair-redress",
+        "title": "a. The meaning of the phrase 'Full and Fair Redress'",
+        "page": "123",
+        "why": "What \"full and fair\" compensation should mean, and the recommendations that follow from it."
+      },
+      {
+        "slug": "c-has-financial-redress-been-delivered-promptly",
+        "title": "c. Has financial redress been delivered promptly?",
+        "page": "144",
+        "why": "Why compensation has taken so long, scheme by scheme."
+      },
+      {
+        "slug": "d-other-issues-and-recommendations",
+        "title": "d. Other Issues and Recommendations",
+        "page": "159",
+        "why": "A standing compensation body, redress for families, and restorative justice."
+      }
+    ]
   },
   "uk-saville-inquiry": {
     "status": "approved",
@@ -2630,6 +2859,247 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "alt": "Fire boats spray water on the Deepwater Horizon rig in the Gulf of Mexico on 21 April 2010, flames and black smoke pouring from it.",
       "focus": "50% 25%"
     }
+  },
+  "us-jan6-committee": {
+    "status": "approved",
+    "whyItMatters": "The final report of the House select committee that investigated the attack on the US Capitol on 6 January 2021. Drawing on its hearings, depositions and documents, some obtained after litigation, it sets out the committee's account of the efforts to overturn the 2020 presidential election, and its conclusions, criminal referrals and recommendations.",
+    "background": [
+      "Joe Biden won the presidential election of November 2020. On 6 January 2021, while Congress met in joint session to count the electoral votes, a crowd of supporters of the outgoing president, Donald Trump, broke into the Capitol, and the count was halted for several hours.",
+      "A bill for an independent bipartisan commission passed the House in May 2021 but failed in the Senate. On 30 June 2021 the House voted 222 to 190 to set up a select committee instead (H. Res. 503). After Speaker Nancy Pelosi declined to appoint two of the five Republicans proposed by Republican Leader Kevin McCarthy, he withdrew all five. The committee sat with seven Democrats, chaired by Bennie Thompson, and two Republicans appointed by the Speaker, Liz Cheney, its vice chair, and Adam Kinzinger. The report sets out this history, and the objections to the committee's make-up, in its own words.",
+      "The committee held its hearings in 2022. On 19 December 2022 it voted to refer Donald Trump and others to the Justice Department, and it published this report, dated 22 December 2022, in the last days of that Congress. The referrals are a committee's recommendations, not charges; its findings are a congressional committee's, not a court's.",
+      "A special counsel, Jack Smith, appointed in November 2022, later charged Trump in federal court; the case was dismissed after he won the 2024 election. On 20 January 2025 President Biden pardoned the committee's members and staff in advance, and President Trump granted clemency to about 1,500 people charged over 6 January. In 2024 a Republican-led House subcommittee published reports criticising the select committee's conduct and some of its evidence."
+    ],
+    "findings": [
+      {
+        "text": "The committee's overriding conclusion is that the central cause of 6 January was Donald Trump.",
+        "cites": [
+          {
+            "id": "committee-s-hearings-we-presented",
+            "page": 8,
+            "href": "/reports/us-jan6-committee?p=committee-s-hearings-we-presented"
+          },
+          {
+            "id": "from-outset-its-hearings-committee",
+            "page": 99,
+            "href": "/reports/us-jan6-committee?p=from-outset-its-hearings-committee"
+          }
+        ],
+        "excerpt": {
+          "quote": "That evidence has led to an overriding and straightforward conclusion: the central cause of January 6th was one man, former President Donald Trump, whom many others followed. None of the events of January 6th would have happened without him.",
+          "cite": {
+            "id": "committee-s-hearings-we-presented",
+            "page": 8,
+            "href": "/reports/us-jan6-committee?p=committee-s-hearings-we-presented&h=2020%20Presidential%20election.%20|That%20evidence%20has%20led%20to%20an%20overriding%20and%20straightforward%20conclusion%3A%20the%20central%20cause%20of%20January%206th%20was%20one%20man%2C%20former%20President%20Donald%20Trump%2C%20whom%20many%20others%20followed.%20None%20of%20the%20events%20of%20January%206th%20would%20have%20happened%20without%20him.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that his campaign advisers, his Justice Department and his White House lawyers told him repeatedly that there was no fraud that could have changed the result, and that the courts rejected his challenges.",
+        "cites": [
+          {
+            "id": "short-president-trump-informed-over",
+            "page": 16,
+            "href": "/reports/us-jan6-committee?p=short-president-trump-informed-over"
+          },
+          {
+            "id": "over-weeks-followed-dozens-judges",
+            "page": 17,
+            "href": "/reports/us-jan6-committee?p=over-weeks-followed-dozens-judges"
+          },
+          {
+            "id": "ultimately-even-rudolph-giuliani-his",
+            "page": 19,
+            "href": "/reports/us-jan6-committee?p=ultimately-even-rudolph-giuliani-his"
+          }
+        ],
+        "excerpt": {
+          "quote": "In short, President Trump was informed over and over again, by his senior appointees, campaign experts and those who had served him for years, that his election fraud allegations were nonsense.",
+          "cite": {
+            "id": "short-president-trump-informed-over",
+            "page": 16,
+            "href": "/reports/us-jan6-committee?p=short-president-trump-informed-over&h=|In%20short%2C%20President%20Trump%20was%20informed%20over%20and%20over%20again%2C%20by%20his%20senior%20appointees%2C%20campaign%20experts%20and%20those%20who%20had%20served%20him%20for%20years%2C%20that%20his%20election%20fraud%20allegations%20were%20nonsense.|"
+          }
+        }
+      },
+      {
+        "text": "It describes his pressure on state officials and legislators, including his call asking Georgia's Secretary of State to find votes.",
+        "cites": [
+          {
+            "id": "during-january-2-2021-call",
+            "page": 44,
+            "href": "/reports/us-jan6-committee?p=during-january-2-2021-call"
+          },
+          {
+            "id": "addition-plan-create-transmit-fake",
+            "page": 43,
+            "href": "/reports/us-jan6-committee?p=addition-plan-create-transmit-fake"
+          }
+        ],
+        "excerpt": {
+          "quote": "During a January 2, 2021, call, President Trump pressured Georgia’s Republican Secretary of State Brad Raffensperger to “find 11,780 votes.”",
+          "cite": {
+            "id": "during-january-2-2021-call",
+            "page": 44,
+            "href": "/reports/us-jan6-committee?p=during-january-2-2021-call&h=|During%20a%20January%202%2C%202021%2C%20call%2C%20President%20Trump%20pressured%20Georgia%E2%80%99s%20Republican%20Secretary%20of%20State%20Brad%20Raffensperger%20to%20%E2%80%9Cfind%2011%2C780%20votes.%E2%80%9D|%20During%20that%20call%2C"
+          }
+        }
+      },
+      {
+        "text": "It describes how slates of Republican electors met on 14 December 2020 in states Joe Biden had won, and sent their certificates to Washington.",
+        "cites": [
+          {
+            "id": "false-slates-created-fake-republican",
+            "page": 41,
+            "href": "/reports/us-jan6-committee?p=false-slates-created-fake-republican"
+          },
+          {
+            "id": "fake-electors-followed-chesebro-s",
+            "page": 43,
+            "href": "/reports/us-jan6-committee?p=fake-electors-followed-chesebro-s"
+          }
+        ]
+      },
+      {
+        "text": "It describes the attempt to put Jeffrey Clark in charge of the Justice Department, dropped when the department's leadership said they would resign.",
+        "cites": [
+          {
+            "id": "committee-s-investigation-has-shown",
+            "page": 50,
+            "href": "/reports/us-jan6-committee?p=committee-s-investigation-has-shown"
+          },
+          {
+            "id": "faced-mass-resignations-recognizing-breakage",
+            "page": 54,
+            "href": "/reports/us-jan6-committee?p=faced-mass-resignations-recognizing-breakage"
+          }
+        ]
+      },
+      {
+        "text": "It describes the pressure on Vice President Mike Pence to refuse to count electoral votes, which the President's own lawyers told him Pence could not lawfully do.",
+        "cites": [
+          {
+            "id": "central-element-donald-trump-s",
+            "page": 29,
+            "href": "/reports/us-jan6-committee?p=central-element-donald-trump-s"
+          },
+          {
+            "id": "be-absolutely-clear-no-white",
+            "page": 33,
+            "href": "/reports/us-jan6-committee?p=be-absolutely-clear-no-white"
+          },
+          {
+            "id": "response-vice-president-pence-again",
+            "page": 36,
+            "href": "/reports/us-jan6-committee?p=response-vice-president-pence-again"
+          }
+        ],
+        "excerpt": {
+          "quote": "Jacob recorded Eastman’s admission in an internal memo he drafted for Vice President Pence on the evening of January 4th: “Professor Eastman acknowledges that his proposal violates several provisions of statutory law.”",
+          "cite": {
+            "id": "jacob-recorded-eastman-s-admission",
+            "page": 32,
+            "href": "/reports/us-jan6-committee?p=jacob-recorded-eastman-s-admission&h=|Jacob%20recorded%20Eastman%E2%80%99s%20admission%20in%20an%20internal%20memo%20he%20drafted%20for%20Vice%20President%20Pence%20on%20the%20evening%20of%20January%204th%3A%20%E2%80%9CProfessor%20Eastman%20acknowledges%20that%20his%20proposal%20violates%20several%20provisions%20of%20statutory%20law.%E2%80%9D|%20And%2C%20during%20a%20phone%20call"
+          }
+        }
+      },
+      {
+        "text": "It finds that during the attack he was urged for hours to tell his supporters to leave the Capitol, and did so at 4:17 p.m.; it calls those 187 minutes a dereliction of duty.",
+        "cites": [
+          {
+            "id": "from-outset-violence-several-hours",
+            "page": 76,
+            "href": "/reports/us-jan6-committee?p=from-outset-violence-several-hours"
+          },
+          {
+            "id": "187-minutes-between-end-president",
+            "page": 577,
+            "href": "/reports/us-jan6-committee?p=187-minutes-between-end-president"
+          },
+          {
+            "id": "evidence-overwhelmingly-demonstrates-president-trump",
+            "page": 76,
+            "href": "/reports/us-jan6-committee?p=evidence-overwhelmingly-demonstrates-president-trump"
+          }
+        ]
+      },
+      {
+        "text": "It refers Donald Trump and others to the Justice Department, and makes eleven recommendations, starting with reform of the Electoral Count Act.",
+        "cites": [
+          {
+            "id": "report-also-examines-legal-implications",
+            "page": 7,
+            "href": "/reports/us-jan6-committee?p=report-also-examines-legal-implications"
+          },
+          {
+            "id": "our-report-describes-donald-j",
+            "page": 689,
+            "href": "/reports/us-jan6-committee?p=our-report-describes-donald-j"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "executive-summary",
+        "title": "Executive Summary",
+        "page": "1",
+        "why": "How the committee frames its work, starting with an Oath Keeper testifying against the group's leader, and what the report covers.",
+        "excerpt": {
+          "quote": "On October 31, 2022, in a Federal courthouse in Washington, DC, Graydon Young testified against Stewart Rhodes and other members of the Oath Keepers militia group.",
+          "cite": {
+            "id": "october-31-2022-federal-courthouse",
+            "page": 1,
+            "href": "/reports/us-jan6-committee?p=october-31-2022-federal-courthouse&h=|On%20October%2031%2C%202022%2C%20in%20a%20Federal%20courthouse%20in%20Washington%2C%20DC%2C%20Graydon%20Young%20testified%20against%20Stewart%20Rhodes%20and%20other%20members%20of%20the%20Oath%20Keepers%20militia%20group.|%20The%20defendants%20had%20been"
+          }
+        }
+      },
+      {
+        "slug": "executive-summary-overview-of-the-evidence-developed",
+        "title": "Executive Summary: Overview of the Evidence Developed",
+        "page": "9",
+        "why": "The committee's whole account in summary, from election night to the afternoon of 6 January."
+      },
+      {
+        "slug": "referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi",
+        "title": "Referrals to the U.S. Department of Justice Special Counsel and House Ethics Committee",
+        "page": "99",
+        "why": "The criminal referrals, statute by statute, and the referral of members of Congress who did not comply with subpoenas.",
+        "excerpt": {
+          "quote": "Today we know that the planning to overturn the election on January 6th was substantially more extensive, and involved many other players, and many other efforts over a longer time period.",
+          "cite": {
+            "id": "today-we-know-planning-overturn",
+            "page": 99,
+            "href": "/reports/us-jan6-committee?p=today-we-know-planning-overturn&h=|Today%20we%20know%20that%20the%20planning%20to%20overturn%20the%20election%20on%20January%206th%20was%20substantially%20more%20extensive%2C%20and%20involved%20many%20other%20players%2C%20and%20many%20other%20efforts%20over%20a%20longer%20time%20period.|%20Indeed%2C%20the%20violent"
+          }
+        }
+      },
+      {
+        "slug": "chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me",
+        "title": "Chapter 4. “JUST CALL IT CORRUPT AND LEAVE THE REST TO ME”",
+        "page": "374",
+        "why": "The Justice Department chapter, from Attorney General Barr's resignation to the threat of mass resignations."
+      },
+      {
+        "slug": "chapter-7-187-minutes-of-dereliction",
+        "title": "Chapter 7. 187 MINUTES OF DERELICTION",
+        "page": "578",
+        "why": "The afternoon of 6 January inside the White House, hour by hour.",
+        "excerpt": {
+          "quote": "By 1:21 p.m., President Trump was informed that the Capitol was under attack. He could have interceded immediately. But the President chose not to do so. It was not until 4:17 p.m. that President Trump finally tweeted a video in which he told the rioters to go home.",
+          "cite": {
+            "id": "1-21-p-m-president",
+            "page": 577,
+            "href": "/reports/us-jan6-committee?p=1-21-p-m-president&h=|By%201%3A21%20p.m.%2C%20President%20Trump%20was%20informed%20that%20the%20Capitol%20was%20under%20attack.%20He%20could%20have%20interceded%20immediately.%20But%20the%20President%20chose%20not%20to%20do%20so.%20It%20was%20not%20until%204%3A17%20p.m.%20that%20President%20Trump%20finally%20tweeted%20a%20video%20in%20which%20he%20told%20the%20rioters%20to%20go%20home.|"
+          }
+        }
+      },
+      {
+        "slug": "recommendations",
+        "title": "Recommendations",
+        "page": "690",
+        "why": "The committee's eleven recommendations, from the Electoral Count Act to threats against election workers."
+      }
+    ]
   },
   "us-lehman-examiner": {
     "status": "approved",
