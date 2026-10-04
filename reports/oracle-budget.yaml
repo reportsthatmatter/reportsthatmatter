@@ -36,9 +36,9 @@ reports:
     markers-unlinked: 26
     note-off-page: 0
   challenger-accident:
-    markers-unlinked: 27  # why: reportsthatmatter-jsqw + 4ef1 (vision pages keep only the markers the model and the layer agree on; raised digits the text linker used to take stay bare; 24 before jsqw)
+    markers-unlinked: 32  # why: reportsthatmatter-n891 (ingest#64: the oracle now reads raised digits on quotation lines too; +5 on pp.60, 64, 67 and two more, text unchanged; 27 before) + jsqw + 4ef1
     paragraphs-oversplit: 372  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
-    note-off-page: 77
+    note-off-page: 78  # why: reportsthatmatter-uw50 (page markers move with the folio passes; +1)
   uk-leveson-inquiry:
     headings-missed: 1350
     markers-unlinked: 142
