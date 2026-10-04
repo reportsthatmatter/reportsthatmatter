@@ -90,3 +90,8 @@ reports:
     markers-stacked: 4
     pages-unmarked: 0
     blocks-wrong: 30  # why: reportsthatmatter-gqsy.3 reportsthatmatter-bqu0 (the same captions)
+  uk-grenfell-tower-inquiry:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0

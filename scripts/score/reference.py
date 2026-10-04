@@ -165,6 +165,18 @@ REFERENCES = {
             "Matthew Somerville's HTML (postofficeinquiry.dracos.co.uk/report/volume-1/) is a second candidate reference, not used.",
         ],
     },
+    "uk-grenfell-tower-inquiry": {
+        "set": "held-out",
+        "adapter": "tagged",
+        "edition": "Phase 2 Volume 1's PDF's own structure tree (tagged PDF, InDesign styles: Chapter_Title, AHead/BHead/CHead, LI/Lbl, Note/Footnote_Text, role-mapped)",
+        "licence": CROWN,
+        "numbered": True,
+        "files": [("https://web.archive.org/web/20241002041635id_/https://www.grenfelltowerinquiry.org.uk/report/phase-2/volume-1.html", "volume-1.html")],
+        "caveats": [
+            "A new publisher family (the Grenfell Tower Inquiry), so held out: score it, do not tune passes on it.",
+            "The Inquiry's own HTML edition of the volume (reference/raw/volume-1.html, Wayback; the live site is behind a captcha at the National Archives) is cached as a second reference: it has every word, h1-h5 headings and all 2019 notes linked, but no paragraph numbers and no page anchors, so it is not the adapter here; an HTML adapter (or a hybrid) is gqsy.4 follow-up work.",
+        ],
+    },
     "us-duelfer-report": {
         "set": "held-out",
         "adapter": "duelfer",
@@ -1446,9 +1458,10 @@ def build(report_id):
                     if mk.get("note"):
                         mk["note"] = "h" + mk["note"]
             blocks = overlay_html(blocks, html_blocks)
-            sources = sources + [x for x in m.get("sources", []) if x.get("url")]
+        # files fetched into reference/raw/ (an HTML overlay, or a second reference kept beside the tags) stay listed
+        sources = sources + [x for x in m.get("sources", []) if x.get("url")]
         m.update({"report": report_id, "set": spec["set"], "edition": spec["edition"], "licence": spec["licence"], "fetched": datetime.date.today().isoformat(), "sources": sources})
-        m["sources_note"] = "The reference is derived from the source PDF already in archive/, so no copy is kept under reference/raw/."
+        m["sources_note"] = "The reference is derived from the source PDF already in archive/, so no copy of the PDF is kept under reference/raw/."
     else:
         blocks = ADAPTERS[spec["adapter"]](os.path.join(ref, "raw"))
     link_notes(blocks)

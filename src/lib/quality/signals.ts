@@ -631,12 +631,51 @@ export const noteMarkerUnpaired: Signal = {
       .map((p) => ({ signal: "note-marker-unpaired", page: null, excerpt: clip(p.excerpt) })),
 };
 
+// ---------------------------------------------------------------- glued numbered paragraphs (B)
+
+/** A paragraph's own printed number ("2.86 RBKC's…"), as `numberedParagraphs` reports set it. */
+const OWN_NUMBER = /^(\d{1,3})\\?\.(\d{1,3})\s/;
+/** The same number inside a paragraph, after a sentence end, before a capital or an opening quotation mark. */
+const GLUED_NUMBER = /([.:?!"”’)\]]|\[\^\d+\]) (\d{1,3})\.(\d{1,3}) (?=["“‘(]?[A-Z])/g;
+
+export const numberedParagraphGlued: Signal = {
+  id: "numbered-paragraph-glued",
+  kind: "count",
+  cls: "B",
+  advisory: true,
+  doc: "A numbered paragraph run on inside the one before: the next number in sequence after a paragraph's own (2.85 then 2.86) found after a sentence end inside it, before a capital, and opening no paragraph of its own, so its id does not exist (Grenfell 2.86, 5.9, 9.42 after \"Approved Document B.\", reportsthatmatter-f951; Leveson \"…in Part H. 4.30 The dinner…\"). Only for reports that number paragraphs chapter.number.",
+  run: (input) => {
+    const blocks = proseBlocks(input).filter((b) => b.kind === "prose");
+    const own = new Set<string>();
+    for (const b of blocks) {
+      const m = OWN_NUMBER.exec(b.text);
+      if (m) own.add(`${Number(m[1])}.${Number(m[2])}`);
+    }
+    if (own.size < 20) return [];
+    const out: Finding[] = [];
+    let last: [number, number] | null = null;
+    for (const b of blocks) {
+      const m = OWN_NUMBER.exec(b.text);
+      if (m) last = [Number(m[1]), Number(m[2])];
+      if (!last) continue;
+      for (const g of b.text.matchAll(GLUED_NUMBER)) {
+        const [c, n] = [Number(g[2]), Number(g[3])];
+        if (c !== last[0] || n !== last[1] + 1 || own.has(`${c}.${n}`)) continue;
+        out.push(finding("numbered-paragraph-glued", b, b.text.slice(Math.max(0, (g.index ?? 0) - 70), (g.index ?? 0) + 70)));
+        last = [c, n];
+      }
+    }
+    return out;
+  },
+};
+
 // ---------------------------------------------------------------- registry
 
 export const SIGNALS: Signal[] = [
   severedIntoQuote,
   severedParagraph,
   severedParagraphCapital,
+  numberedParagraphGlued,
   bareFootnoteMarker,
   bareMarkerAfterQuote,
   noteMarkerWrongNote,

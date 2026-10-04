@@ -22,6 +22,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 660,
     "height": 642
   },
+  "uk-grenfell-tower-inquiry": {
+    "width": 491,
+    "height": 660
+  },
   "uk-hillsborough-panel": {
     "width": 608,
     "height": 660

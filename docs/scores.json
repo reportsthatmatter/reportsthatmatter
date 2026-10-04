@@ -97,6 +97,33 @@
     "ref_unusable_rate": 0.3
    }
   },
+  "uk-grenfell-tower-inquiry": {
+   "set": "held-out",
+   "ingest": "v0.23.0",
+   "metrics": {
+    "boundary_p": 0.9878391019644528,
+    "boundary_r": 0.8414342629482072,
+    "boundary_f1": 0.9087779690189328,
+    "join_all": 0.9769585253456221,
+    "join_all_n": 217,
+    "join_high": 1,
+    "join_high_n": 186,
+    "join_adj_ours_wrong": 3,
+    "join_adj_judged": 30,
+    "marker_p": 0.49403578528827036,
+    "marker_r": 0.9959919839679359,
+    "wer": 0.028357139847469768,
+    "wer_ref_coverage": 1,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": 0.06666666666666667,
+    "ref_no_answer_rate": 0,
+    "ref_unusable_rate": 0.06666666666666667
+   },
+   "previous": null
+  },
   "uk-hillsborough-panel": {
    "set": "held-out",
    "ingest": "v0.23.0",
