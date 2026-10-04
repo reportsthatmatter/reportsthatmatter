@@ -4661,6 +4661,96 @@
           "ids": "77f3b0107663"
         }
       ]
+    },
+    "uk-grenfell-tower-inquiry": {
+      "words": 116809,
+      "paragraphs": 843,
+      "sections": [
+        {
+          "slug": "phase-2-report",
+          "title": "PHASE 2 REPORT",
+          "paragraphs": 18,
+          "ids": "2dfad38ba895"
+        },
+        {
+          "slug": "part-1-introduction",
+          "title": "Part 1: Introduction",
+          "paragraphs": 27,
+          "ids": "2faa3ccdb301"
+        },
+        {
+          "slug": "chapter-2-executive-summary",
+          "title": "Chapter 2: Executive summary",
+          "paragraphs": 127,
+          "ids": "04a5970617f2"
+        },
+        {
+          "slug": "part-2-the-path-to-disaster",
+          "title": "Part 2: The path to disaster",
+          "paragraphs": 42,
+          "ids": "3dc3dae5be2d"
+        },
+        {
+          "slug": "chapter-5-fire-testing",
+          "title": "Chapter 5: Fire testing",
+          "paragraphs": 68,
+          "ids": "db7df317817e"
+        },
+        {
+          "slug": "chapter-6-regulations-and-guidance-relating-to-external-walls",
+          "title": "Chapter 6: Regulations and guidance relating to external walls",
+          "paragraphs": 53,
+          "ids": "1f38f15ddcfc"
+        },
+        {
+          "slug": "chapter-7-the-government-and-the-building-research-establishment",
+          "title": "Chapter 7: The government and the Building Research Establishment",
+          "paragraphs": 149,
+          "ids": "89885d3426a4"
+        },
+        {
+          "slug": "chapter-8-the-investigation-of-real-fires-project",
+          "title": "Chapter 8: The Investigation of Real Fires project",
+          "paragraphs": 36,
+          "ids": "dbe2cb431426"
+        },
+        {
+          "slug": "chapter-9-the-governments-response-to-the-lakanal-house-fire",
+          "title": "Chapter 9: The government's response to the Lakanal House fire",
+          "paragraphs": 45,
+          "ids": "8e8db1544c61"
+        },
+        {
+          "slug": "chapter-10-the-department-for-communities-and-local-government-20132017",
+          "title": "Chapter 10: The Department for Communities and Local Government 2013–2017",
+          "paragraphs": 100,
+          "ids": "52bf3fde1d88"
+        },
+        {
+          "slug": "chapter-11-combustible-cladding-warnings-to-government",
+          "title": "Chapter 11: Combustible cladding: warnings to government",
+          "paragraphs": 90,
+          "ids": "3fe5cb89b807"
+        },
+        {
+          "slug": "chapter-12-regulation-of-fire-risk-assessors",
+          "title": "Chapter 12: Regulation of fire risk assessors",
+          "paragraphs": 57,
+          "ids": "7efbe8d19d6c"
+        },
+        {
+          "slug": "chapter-13-the-fire-safety-order",
+          "title": "Chapter 13: The Fire Safety Order",
+          "paragraphs": 12,
+          "ids": "8c9806071da1"
+        },
+        {
+          "slug": "chapter-14-the-local-government-association-guide",
+          "title": "Chapter 14: The Local Government Association Guide",
+          "paragraphs": 19,
+          "ids": "27fc4f9321d9"
+        }
+      ]
     }
   }
 }
