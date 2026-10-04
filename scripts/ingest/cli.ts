@@ -3,8 +3,9 @@
  * Report ingestion.
  *
  *   pnpm ingest run <pdf> [<pdf>...] --id <slug> --title "..." [--authors "..."] [--published 2025]
- *   pnpm ingest try <branch|path> [<id>...] [--no-score] [--keep]   what an unreleased ingest does to the rendered corpus (scripts/ingest/try.ts)
- *   pnpm ingest verify [<slug>] [--no-oracle] [--no-golden] [--findings] [--explain]
+ *   pnpm ingest try <branch|path> [<id>...] [--base <branch|path>] [--no-score] [--no-findings] [--keep]   what an unreleased ingest does to the rendered corpus, against the pinned ingest or another ingest, with the findings that appeared or vanished (scripts/ingest/try.ts)
+ *   pnpm ingest link <ingest dir> [<id>...] | --restore | --status   point this site and its report worktrees at an unreleased ingest without editing package.json (scripts/ingest/link.ts)
+ *   pnpm ingest verify [<slug>] [--no-oracle] [--no-golden] [--findings [N|all]] [--findings-json <file>] [--explain]   --findings prints 5 per oracle signal by default
  *   pnpm ingest preflight [<slug>...]           is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline do this first; --no-preflight skips)
  *   pnpm ingest outline <slug>                  one line per PDF page: headings, block counts (to choose golden pages)
  *   pnpm ingest worktrees <id>... [--dir <dest>] [--branch <name>] [--no-install]   git worktrees of report repos; prints the RTM_REPORT_DIRS to export
@@ -38,6 +39,8 @@ import { sharedMessage, sharedTargets, worktreePlan, type Target } from "../lib/
 import { goldenVsAdjudicated } from "../lib/golden-adjudicated.ts";
 import { selectReports } from "../lib/recheck.ts";
 import { formatEditionReport } from "./edition-report.ts";
+import { parseVerifyArgs } from "./verify-args.ts";
+import { installedIngest } from "../lib/ingest-version.ts";
 import { checkOracleBudget, loadNotesAtBack, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget";
 import {
   Baseline,
@@ -366,8 +369,10 @@ function writeReport(
 }
 
 async function runVerify(args: string[]): Promise<number> {
-  const flags = args.filter((a) => a.startsWith("--"));
-  const argv = args.filter((a) => !a.startsWith("--"));
+  const { flags, positional: argv, findingsLimit, findingsJson } = parseVerifyArgs(args);
+  const jsonFindings: Record<string, unknown> = {};
+  const ingestUsed = installedIngest(ROOT);
+  console.error(`@rtm/ingest ${ingestUsed.version} from ${ingestUsed.dir}`);
   const registryPath = join(REPORTS, "registry.yaml");
   const registry = readFileSync(registryPath, "utf8");
 
@@ -472,12 +477,14 @@ async function runVerify(args: string[]): Promise<number> {
               console.log(`  · oracle budget can be ratcheted (--ratchet-oracle): ${budget.slack.map((o) => `${o.signal} ${o.count} < ${o.budget}`).join(", ")}`);
             }
           }
-          writeFileSync(join(reportDir(target.id), ".cache", "oracle.json"), `${JSON.stringify(report, null, 1)}\n`, "utf8");
-          if (flags.includes("--findings")) {
+          // a `--findings-json` run (pnpm ingest try) is a measurement of a trial: it leaves the report's own cache alone
+          if (findingsJson) jsonFindings[target.id] = report.findings;
+          else writeFileSync(join(reportDir(target.id), ".cache", "oracle.json"), `${JSON.stringify(report, null, 1)}\n`, "utf8");
+          if (findingsLimit !== undefined) {
             for (const signal of ORACLE_SIGNALS) {
-              for (const f of report.findings.filter((x) => x.signal === signal).slice(0, 5)) {
-                console.log(`      ${signal} · vol ${f.volume} p.${f.page} · ${f.text}`);
-              }
+              const all = report.findings.filter((x) => x.signal === signal);
+              for (const f of all.slice(0, findingsLimit)) console.log(`      ${signal} · vol ${f.volume} p.${f.page} · ${f.text}`);
+              if (all.length > findingsLimit) console.log(`      ${signal} · … ${all.length - findingsLimit} more (--findings all)`);
             }
           }
         }
@@ -508,6 +515,7 @@ async function runVerify(args: string[]): Promise<number> {
       );
     }
   }
+  if (findingsJson) writeFileSync(findingsJson, JSON.stringify(jsonFindings));
   return allOk ? 0 : 1;
 }
 
@@ -834,7 +842,9 @@ const sharedFlag = restAll.includes("--shared");
 const rest = restAll.filter((a) => a !== "--no-preflight" && a !== "--shared");
 let code = 0;
 // Which reports a command touches, for the preflight: the id it names, else all of them.
-const named = rest.filter((a, i) => !a.startsWith("--") && !["--passes", "--dir", "--branch"].includes(rest[i - 1]));
+const named = rest.filter(
+  (a, i) => !a.startsWith("--") && !["--passes", "--dir", "--branch", "--findings-json"].includes(rest[i - 1]) && !(rest[i - 1] === "--findings" && (a === "all" || /^\d+$/.test(a)))
+);
 const needsPipeline = ["run", "verify", "outline", "page", "baseline", "check", "recheck", "referee", undefined].includes(command);
 if (command === "preflight") code = runPreflight(named, false) ? 0 : 1;
 else if (needsPipeline && !skipPreflight && !runPreflight(command === "page" ? named.slice(0, 1) : named, true)) code = 1;
@@ -849,6 +859,7 @@ else if (command === "worktrees") code = runWorktrees(rest);
 else if (command === "recheck") code = await runRecheck(rest);
 else if (command === "crosscheck") code = runCrosscheck(rest);
 else if (command === "try") code = await (await import("./try.ts")).runTry(rest);
+else if (command === "link") code = (await import("./link.ts")).runLink(rest);
 else if (command === "anchors")
   code = await (await import("./anchors.ts")).runAnchors(rest, {
     root: ROOT,
