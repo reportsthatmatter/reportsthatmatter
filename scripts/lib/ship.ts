@@ -645,9 +645,14 @@ export function buildSteps(): Step[] {
         if (pre.code !== 0) throw new Stop(`status: pnpm prerender failed\n${tail(pre.stdout)}`, [`log: ${pre.log}`]);
         const r = await rt.exec(pnpm("publish-report", "--all", "--status", "--base", rt.ctx.base), "status-table");
         if (r.code !== 0) throw new Stop(`status: could not read the served versions\n${tail(r.stdout)}`, [`log: ${r.log}`, `curl -sI ${rt.ctx.base}/reports/<id> | grep -i x-rtm-content-version`]);
-        const unread = unreadReports(r.stdout);
+        const plain = r.stdout.replace(/\x1b\[[0-9;]*m/g, "");
+        // A report that is not deployed yet (a new one) answers 404: it is to be published, not unreadable.
+        const isNew = (id: string) => new RegExp(`^\\s*${id}\\s.*unknown \\(404,`, "m").test(plain);
+        const unreadAll = unreadReports(r.stdout);
+        const newReports = unreadAll.filter(isNew);
+        const unread = unreadAll.filter((id) => !isNew(id));
         if (unread.length) throw new Stop(`status: could not read what production serves for ${unread.join(", ")}`, [`log: ${r.log}`, "Network, or a report whose route 404s: curl -sI " + rt.ctx.base + "/reports/<id>"]);
-        const toPublish = driftedReports(r.stdout);
+        const toPublish = [...driftedReports(r.stdout), ...newReports];
         rt.state.data.toPublish = toPublish;
         rt.save(rt.state);
         rt.out(r.stdout.replace(/\x1b\[[0-9;]*m/g, "").trimEnd().split("\n").slice(-30).join("\n"));
