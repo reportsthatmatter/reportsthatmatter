@@ -4,7 +4,7 @@ authors: "Hillsborough Independent Panel (the Rt Revd James Jones, Chair)"
 published_at: "12 September 2012"
 source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
 pages: 389
-footnotes: 1015
+footnotes: 1046
 ---
 
 Hillsborough The Report of the Hillsborough Independent Panel September 2012
@@ -2900,11 +2900,11 @@ I still cannot understand why the local Health Authority's Major Medical Disaste
 
 15.25 S209 I can't get through on ERC have you informed N Gen we are en route it is a child and it is an arrest [cardiac arrest].[^46-9010]
 
-15.31 TA6 Great difficulties getting through on channel 1 [ERC] … to the incident room we require the Major Incident vehicle here …47
+15.31 TA6 Great difficulties getting through on channel 1 [ERC] … to the incident room we require the Major Incident vehicle here …[^47-9010]
 
-15.36 504 I'm sort of unable to get you on ERC …48
+15.36 504 I'm sort of unable to get you on ERC …[^48-9010]
 
-16.27 TA1 [CAO Page] to TA2 [DCAO Hopkins] Allan we've had no communication whatsoever from the ground???? Just this minute had information from …49
+16.27 TA1 [CAO Page] to TA2 [DCAO Hopkins] Allan we've had no communication whatsoever from the ground???? Just this minute had information from …[^49-9010]
 
 At one stage I offered to be a runner because there appeared to be no communication system between officers at the ground as the radios were not working.[^50-9010]
 
@@ -4365,7 +4365,7 @@ Figure 9: Prime Minister Margaret Thatcher with Press Secretary Bernard Ingham, 
 
 2.7.7 Documents disclosed to the Panel reveal that while there is no record of a response from SWFC, SYP undertook criminal records checks on the claimants. The purpose of these checks, on the Police National Computer and with the Criminal Record Office, remains unclear.[^2-9014]
 
-2.7.8 A first meeting between SYP, their solicitors Hammond Suddards, the Secretariat to South Yorkshire Police Authority and the Police Authority's insurers, Municipal Mutual Insurance (MMI), was held on 19 April 1989.3 The meeting discussed the insurance and legal implications of the received and anticipated claims. A representative from MMI set out the insurer's position:
+2.7.8 A first meeting between SYP, their solicitors Hammond Suddards, the Secretariat to South Yorkshire Police Authority and the Police Authority's insurers, Municipal Mutual Insurance (MMI), was held on 19 April 1989.[^3-9014] The meeting discussed the insurance and legal implications of the received and anticipated claims. A representative from MMI set out the insurer's position:
 
 Our interest is primarily a financial interest. We are providing an indemnity in relation to any liability that is going to be found to have been incurred by the Police Authority.
 
@@ -4379,7 +4379,7 @@ Having said that, I would like to put on record very early that we are not looki
 
 2.7.11 Further compensation claims were issued against SYP and others during the months that followed, but no steps were taken to progress proceedings in court until Lord Justice Taylor published his Interim Report on 4 August 1989.
 
-2.7.12 Following the Report's publication – which criticised SWFC, SCC and others, but found that the main cause of the disaster was the failure of police control – on 18 August 1989 the insurers, MMI, presented the position at a meeting of the South Yorkshire Police Authority as follows:5
+2.7.12 Following the Report's publication – which criticised SWFC, SCC and others, but found that the main cause of the disaster was the failure of police control – on 18 August 1989 the insurers, MMI, presented the position at a meeting of the South Yorkshire Police Authority as follows:[^5-9014]
 
 They reported that at that date, 701 claims had been received from the dependants of those killed or those who were injured, although Solicitors acting on the Steering
 
@@ -4411,13 +4411,13 @@ Whatever the ultimate responsibility of the Police the Authority will have to be
 
 At the hearing, an unsuccessful application for a stay of the proceedings was made on behalf of the South Yorkshire Police, not in connection with possible prejudice to any Officer who may be the subject of the present inquiry but simply on the basis that it is difficult for the Chief Constable to prepare a case when Officers, rightly or wrongly, believe that they may be under investigation and, hence, are unwilling to co-operate in providing further statements.[^6-9014]
 
-2.7.16 Having rejected the SYP application, Mr Justice Rose set 11 June 1990 for the start of the civil claims trial.7
+2.7.16 Having rejected the SYP application, Mr Justice Rose set 11 June 1990 for the start of the civil claims trial.[^7-9014]
 
 ##### Settlement
 
 2.7.17 The disclosed documents suggest that there was debate and argument between SYP and their insurers about their decision to offer a settlement of some civil claims. On 17 November 1989, Chief Constable Peter Wright presented a report to the Police Authority in which he indicated that the claims were to be defended.
 
-2.7.18 On 30 November, however, a press release illustrated a significant shift in position: 'It has been decided by the Chief Constable of South Yorkshire and the South Yorkshire Police Authority, in conjunction with their insurers, Municipal Mutual Insurance, that those bereaved and injured in the tragic events at Hillsborough stadium on 15 April should not have to await the outcome of a further lengthy hearing in 1990 before receiving compensation'.8
+2.7.18 On 30 November, however, a press release illustrated a significant shift in position: 'It has been decided by the Chief Constable of South Yorkshire and the South Yorkshire Police Authority, in conjunction with their insurers, Municipal Mutual Insurance, that those bereaved and injured in the tragic events at Hillsborough stadium on 15 April should not have to await the outcome of a further lengthy hearing in 1990 before receiving compensation'.[^8-9014]
 
 2.7.19 Thus, 'the Chief Constable, in conjunction with his insurers, intends to open negotiations with the aim of resolving all bona fide claims against him for compensation arising out of the Hillsborough disaster'.
 
@@ -4435,13 +4435,13 @@ I have agreed therefore to accept the legal advice given to me and to settle out
 
 2.7.22 As the police solicitors, Hammond Suddards, subsequently explained in a letter to the Steering Committee of solicitors representing claimants (Hillsborough families), the settlement offer applied only to claims that fell within certain categories.[^10-9014] It stated that 'all bona fide claims for compensation by those injured and the dependants of those who died at the ground will be paid on a common law basis to be agreed if possible or, failing agreement, to be assessed by the Court'.
 
-2.7.23 Compensation would be 'paid for nervous shock cases, if they would be entitled to damages by law'. The relevant categories for inclusion were claimants who were: in pens 3 or 4 and suffered physical injury and nervous shock;11 in pens 3 or 4 and suffered no physical injury but suffered nervous shock; in another part of the ground and saw a spouse or child injured or killed; in another part of the ground and, knowing or believing a spouse or child to be in pens 3 or 4, later found them injured or dead; and persons involved in rescue attempts who were not originally in pens 3 or 4.[^12-9014]
+2.7.23 Compensation would be 'paid for nervous shock cases, if they would be entitled to damages by law'. The relevant categories for inclusion were claimants who were: in pens 3 or 4 and suffered physical injury and nervous shock;[^11-9014] in pens 3 or 4 and suffered no physical injury but suffered nervous shock; in another part of the ground and saw a spouse or child injured or killed; in another part of the ground and, knowing or believing a spouse or child to be in pens 3 or 4, later found them injured or dead; and persons involved in rescue attempts who were not originally in pens 3 or 4.[^12-9014]
 
 %%page 232%%
 
 2.7.24 Settlements were offered 'without making any admission of liability'.[^13-9014] This was for two key reasons. First, it was considered that to do otherwise would risk prejudicing the interests of those officers under criminal investigation.
 
-2.7.25 Second, as the Hillsborough Steering Committee explained in an update to its solicitors,[^14-9014] it reflected SYP's intention to 'pursue a claim' against the other potentially liable organisations.15 The offers were accepted by the Steering Committee on behalf of the relevant claimants.
+2.7.25 Second, as the Hillsborough Steering Committee explained in an update to its solicitors,[^14-9014] it reflected SYP's intention to 'pursue a claim' against the other potentially liable organisations.[^15-9014] The offers were accepted by the Steering Committee on behalf of the relevant claimants.
 
 2.7.26 In the wake of the settlements, the level of compensation paid in relation to those who died was decided on the basis of the category in which the claim fell and the personal situation of the deceased. In cases that concerned the death of children, their parents received no more than the statutory bereavement allowance of £3,500 and funeral expenses.[^16-9014]
 
@@ -4455,7 +4455,7 @@ I have agreed therefore to accept the legal advice given to me and to settle out
 
 2.7.30 For the purposes of these proceedings, SYP admitted responsibility for the circumstances at the stadium, but argued that as a matter of public policy they should not be required to pay compensation to those who were too distant from what happened, either by relationship to those killed or injured, or in time and space.
 
-2.7.31 The case proceeded through the High Court17 and Court of Appeal18 to a final determination in the House of Lords on 28 November 1991.19 Applying and clarifying long-standing principles of common law, the House of Lords ruled that, to establish a claim for psychiatric illness resulting from shock, it was necessary to show that the injury was a reasonably foreseeable result of the events at the stadium, and that the claimant was sufficiently proximate or close to what had happened.
+2.7.31 The case proceeded through the High Court[^17-9014] and Court of Appeal[^18-9014] to a final determination in the House of Lords on 28 November 1991.[^19-9014] Applying and clarifying long-standing principles of common law, the House of Lords ruled that, to establish a claim for psychiatric illness resulting from shock, it was necessary to show that the injury was a reasonably foreseeable result of the events at the stadium, and that the claimant was sufficiently proximate or close to what had happened.
 
 2.7.32 Such proximity had to be established according to the relationship of the claimant to those directly injured as well as presence at the relevant events in time and space, although the mere fact of presence and relationship was insufficient. Proximity by relationship depends on ties of love and affection, the closeness of which should be proved in each case.
 
@@ -4471,9 +4471,7 @@ Hillsborough ground, both of them in the West Stand, from which they witnessed t
 
 I would, however, place in the category to members of which risk of psychiatric illness was reasonably foreseeable Mr and Mrs Copoc, whose son was killed, and
 
-Alexandra Penk, who lost her fiancé. In each of these cases the closest ties of love and affection fall to be presumed from the fact of the particular relationship, and there is no suggestion of anything which might tend to rebut that presumption. These three all watched scenes from Hillsborough on television, but none of these depicted suffering of recognisable individuals, such being excluded by the broadcasting code of ethics, a position known to the defendant. In my opinion the viewing of these scenes cannot be equiparated with the viewer being within 'sight or hearing of the event or of its immediate aftermath,' to use the words of Lord Wilberforce [in another case], nor can the scenes reasonably be regarded as giving rise to shock, in the sense of a sudden assault on the nervous system. They were capable of giving rise to anxiety for the safety of relatives known or believed to be present in the area affected by the crush, and undoubtedly did so, but that is very different from seeing the fate of the relative or his condition shortly after the event. The viewing of the television scenes did not create the necessary degree of proximity.20
-
-20\. [1992] 1 A.C. 310 at 398. See also: Lord Ackner at 405-406: 'Only one of the plaintiffs … , namely Brian Harrison, was at the ground. His relatives who died were his two brothers. The quality of brotherly love is well known to differ widely – from Cain and Abel to David and Jonathan. I assume that Mr Harrison's relationship with his brothers was not an abnormal one. His claim was not presented upon the basis that there was such a close and intimate relationship between them, as gave rise to that very special bond of affection which would make his shock-induced psychiatric illness reasonably foreseeable by the defendant. Accordingly, the judge did not carry out the requisite close scrutiny of their relationship. Thus there was no evidence to establish the necessary proximity which would make his claim reasonably foreseeable and, subject to the other factors, to which I have referred, a valid one. The other plaintiff who was present at the ground, Robert Alcock, lost a brother-in-law. He was not, in my judgment, reasonably foreseeable as a potential sufferer from shock-induced psychiatric illness, in default of very special facts and none was established. Accordingly their claims must fail, as must those of the other plaintiffs who only learned of the disaster by watching simultaneous television'. And Lord Oliver of Aylmerton at 417: 'In the case of both Brian Harrison and Robert Alcock, although both were present at the ground and saw scenes which were obviously distressing and such as to cause grave worry and concern, their perception of the actual consequences of the disaster to those to whom they were related was again gradual. In my judgment, the necessary proximity was lacking in their cases too, but I also agree with my noble and learned friend, Lord Keith of Kinkel, that there is also lacking the necessary element of reasonable foreseeability'. Or Lord Jauncey of Tullichettle at 424: 'Only two plaintiffs, Mr and Mrs Copoc, lost a son, but they saw the disaster on television and Mr Copoc identified the body on the following morning having already been informed that his son was dead. No plaintiff lost a spouse. None of the other plaintiffs who lost relatives sought to establish that they had relationships of love and affection with a victim comparable to that of a spouse or parent. In any event only two of them were present in the ground and the remainder saw the scenes on simultaneous or recorded television. In these circumstances none of the plaintiffs having satisfied both the tests of reasonable foreseeability and of proximity'.
+Alexandra Penk, who lost her fiancé. In each of these cases the closest ties of love and affection fall to be presumed from the fact of the particular relationship, and there is no suggestion of anything which might tend to rebut that presumption. These three all watched scenes from Hillsborough on television, but none of these depicted suffering of recognisable individuals, such being excluded by the broadcasting code of ethics, a position known to the defendant. In my opinion the viewing of these scenes cannot be equiparated with the viewer being within 'sight or hearing of the event or of its immediate aftermath,' to use the words of Lord Wilberforce [in another case], nor can the scenes reasonably be regarded as giving rise to shock, in the sense of a sudden assault on the nervous system. They were capable of giving rise to anxiety for the safety of relatives known or believed to be present in the area affected by the crush, and undoubtedly did so, but that is very different from seeing the fate of the relative or his condition shortly after the event. The viewing of the television scenes did not create the necessary degree of proximity.[^20-9014]
 
 %%page 234%%
 
@@ -4481,7 +4479,7 @@ Alexandra Penk, who lost her fiancé. In each of these cases the closest ties of
 
 2.7.35 The second action was Hicks v Chief Constable of South Yorkshire Police. In these proceedings, the primary issue concerned the extent to which compensation was payable for the pre-death pain and the suffering of those who had died. Again, for the purposes of these proceedings, SYP accepted responsibility for the circumstances, but argued that there was no pre-death pain and suffering because the medical evidence purported to establish that the deceased victims would have lost consciousness within a matter of seconds before they died.
 
-2.7.36 The case proceeded through the High Court[^21-9014] and Court of Appeal22 to a determination in the House of Lords on 5 March 1992.23 Throughout, on the basis of the medical evidence presented, the Courts accepted and agreed with the argument advanced by SYP. The short judgment handed down by Lord Bridge of Harwich, with whom the rest of the Court agreed, was clear:
+2.7.36 The case proceeded through the High Court[^21-9014] and Court of Appeal[^22-9014] to a determination in the House of Lords on 5 March 1992.[^23-9014] Throughout, on the basis of the medical evidence presented, the Courts accepted and agreed with the argument advanced by SYP. The short judgment handed down by Lord Bridge of Harwich, with whom the rest of the Court agreed, was clear:
 
 The appellants are the parents of two girls, Sarah and Victoria Hicks, who died in the disaster at Hillsborough Football Stadium on April 15, 1989, when they were respectively 19 and 15 years of age. … The basis of the claim advanced here is that at the moment of death Sarah and Victoria each had an accrued cause of action for injuries suffered prior to death which survived for the benefit of their respective estates. The action was tried by Hidden J. who held that the plaintiffs had failed to prove that either girl suffered before death any injury for which damages fell to be awarded. His decision was affirmed by the Court of Appeal …
 
@@ -4503,7 +4501,7 @@ The evidence … showed that both girls died from traumatic asphyxia. They were 
 
 2.7.38 In the years that followed, SYP and its insurers received, processed and settled further compensation claims. Primarily these related to psychological injury and post-traumatic stress disorder (PTSD), but also extended to individuals with long-term physical healthcare needs as a consequence of Hillsborough.
 
-2.7.39 The total amount eventually paid out in compensation to a total of over 1,500 claimants was approximately £19.8 million. The total figure expended in legal costs was £3.8m.24,25
+2.7.39 The total amount eventually paid out in compensation to a total of over 1,500 claimants was approximately £19.8 million. The total figure expended in legal costs was £3.8m.[^24-9014],[^25-9014]
 
 %%page 236%%
 
@@ -4641,7 +4639,7 @@ Claims could total £1 million. This is covered by the Public Liability Policy a
 
 2.7.69 Meanwhile, the courts were required to deal with claims on behalf of five officers in the 'non-rescuer' category, selected as test cases on the basis that they were representative of the various roles carried out by claimants who had not been active in the immediate area where the deaths and injuries occurred.
 
-2.7.70 The ensuing litigation progressed from the High Court[^49-9014] to the Court of Appeal50 before it was determined in the House of Lords on 3 December 1998 under the case title of White and others v Chief Constable of South Yorkshire Police.51
+2.7.70 The ensuing litigation progressed from the High Court[^49-9014] to the Court of Appeal[^50-9014] before it was determined in the House of Lords on 3 December 1998 under the case title of White and others v Chief Constable of South Yorkshire Police.[^51-9014]
 
 2.7.71 That the named police officers had suffered PTSD caused by their experiences arising from the tragedy was not contested. Four of them had been on duty at the stadium. The fifth had been responsible for stripping bodies and completing casualty forms at a hospital.
 
@@ -4655,19 +4653,15 @@ In the present case, the police officers were more than mere bystanders. They we
 
 Appeal was uncomfortably aware, the awarding of damages to these police officers sits uneasily with the denial of the claims of bereaved relatives by the decision of the
 
-House of Lords in Alcock … The decision of the Court of Appeal has introduced an imbalance in the law of tort which might perplex the man on the Underground.52
+House of Lords in Alcock … The decision of the Court of Appeal has introduced an imbalance in the law of tort which might perplex the man on the Underground.[^52-9014]
 
 2.7.74 Lord Griffiths gave a different opinion:
 
-… I do not share the view that the public would find it in some way offensive that those who suffered disabling psychiatric illness as a result of their efforts to rescue the victims should receive compensation, but that those who suffered the grief of bereavement should not. Bereavement and grief are a part of the common condition of mankind which we will all endure at some time in our lives. It can be an appalling experience but it is different in kind from psychiatric illness and the law has never recognised it as a head of damage. We are human and we must accept as a part of the price of our humanity the suffering of bereavement for which no sum of money can provide solace or comfort. I think better of my fellow men than to believe that they would, although bereaved, look like dogs in the manger upon those who went to the rescue at Hillsborough.53
+… I do not share the view that the public would find it in some way offensive that those who suffered disabling psychiatric illness as a result of their efforts to rescue the victims should receive compensation, but that those who suffered the grief of bereavement should not. Bereavement and grief are a part of the common condition of mankind which we will all endure at some time in our lives. It can be an appalling experience but it is different in kind from psychiatric illness and the law has never recognised it as a head of damage. We are human and we must accept as a part of the price of our humanity the suffering of bereavement for which no sum of money can provide solace or comfort. I think better of my fellow men than to believe that they would, although bereaved, look like dogs in the manger upon those who went to the rescue at Hillsborough.[^53-9014]
 
 2.7.75 In this thread of litigation through the courts a small overall majority of five judges (Mr Justice Waller at first instance in the High Court, Lord Justice Judge in the Court of Appeal and Lords Steyn, Hoffman and Browne-Wilkinson in the House of Lords) were in favour of the Chief Constable's argument for the dismissal of the claims on behalf of officers in the non-rescuer category.
 
 2.7.76 However, four (Lord Justice Rose and Lord Justice Henry in the Court of Appeal; and Lord Griffiths and Lord Goff in the House of Lords) would have allowed some or all of the claims. This lack of unanimity was a reflection not only of tensions inherent in an area of the law where the needs of justice have to be mediated by the needs of public policy but also the political imperatives arising from the nature of events at Hillsborough.
-
-52\. [1999] 2 A.C. 455 at 494-495. See also Lord Hoffmann at 505: 'Essentially, … the plaintiffs draw two distinctions between their position and that of spectators or bystanders. The first is that they had a relationship analogous to employment with the Chief Constable. … The plaintiffs say that they were therefore owed a special duty which required the Chief Constable and those for whom he was vicariously liable to take reasonable care not to expose them to unnecessary risk of injury, whether physical or psychiatric. Secondly, the plaintiffs (and in this respect there is no difference between the police and many others in the crowd that day) did more than stand by and look. They actively rendered assistance and should be equated to "rescuers," who, it was said, always qualify as primary victims.
-
-But I think that such an extension would be unacceptable to the ordinary person because (though he might not put it this way) it would offend against his notions of distributive justice. He would think it unfair between one class of claimants and another, at best not treating like cases alike and, at worst, favouring the less deserving against the more deserving. He would think it wrong that policemen, even as part of a general class of persons who rendered assistance, should have the right to compensation for psychiatric injury out of public funds while the bereaved relatives are sent away with nothing.' 53. [1999] 2 A.C. 455 at 465.
 
 %%page 243%%
 
@@ -4675,7 +4669,7 @@ But I think that such an extension would be unacceptable to the ordinary person 
 
 #### The 'contribution hearings'
 
-2.7.78 In the wake of his decision, announced on 30 November 1989, to settle certain claims on behalf of the bereaved and the injured,54 the SYP Chief Constable Peter Wright invited SWFC, Eastwood & Partners and SCC to join with SYP in the settlement negotiations. All three parties declined the invitation.
+2.7.78 In the wake of his decision, announced on 30 November 1989, to settle certain claims on behalf of the bereaved and the injured,[^54-9014] the SYP Chief Constable Peter Wright invited SWFC, Eastwood & Partners and SCC to join with SYP in the settlement negotiations. All three parties declined the invitation.
 
 2.7.79 Subsequently, in the context of the lead actions of Chapman and Rimmer v Chief Constable of South Yorkshire, the Chief Constable issued 'contribution' or 'third party' proceedings against the Club and Eastwood & Partners (the 'defendants' to the third party proceedings).
 
@@ -4851,7 +4845,7 @@ Thus the total sum of £4 million was contributed by other parties to a total li
 
 %%page 251%%
 
-2.7.127 Minutes of the meeting recorded that the Police Authority's solicitor considered 'the estimate of £50m' was 'a wild exaggeration'. Further, the possibility that the Police Authority would 'ultimately have to bear any part of the cost' depended on 'the final bill and the extent of the police's liability'. However, the Police Authority's solicitor was 'reasonably confident at this juncture that the insurance cover will prove to be sufficient'.84
+2.7.127 Minutes of the meeting recorded that the Police Authority's solicitor considered 'the estimate of £50m' was 'a wild exaggeration'. Further, the possibility that the Police Authority would 'ultimately have to bear any part of the cost' depended on 'the final bill and the extent of the police's liability'. However, the Police Authority's solicitor was 'reasonably confident at this juncture that the insurance cover will prove to be sufficient'.[^84-9014]
 
 2.7.128 The announcement in the press that SYP proposed to pay compensation, possibly as high as £50 million, caused surprise and concern within the Home Office. Aware of the £8.5 million insurance limit, questions were raised about where that amount would be found.[^85-9014] Other Home Office officials had greater awareness of the situation, having responded to a request from the Police Authority in October 1989 for guidance on whether the Home Office might help to meet the cost of claims from central funds.
 
@@ -4883,9 +4877,9 @@ The problem with compensation liability following Hillsborough … although the 
 
 2.7.137 Despite those negotiations, and the assurance given by the Home Office, it appears that a higher figure in respect of bereavement was never formally agreed or paid, with bereaved families on record as having received only the statutory figure of £3,500.
 
-2.7.138 Claims for compensation were received over a long period and the Police Authority's Finance and General Purposes Committee was given regular updates on anticipated costs. On 6 January 1995, the Police Authority's Clerk and Financial Officer reported that the then current estimate was that the £8.5 million insurance limit would be exceeded by £1.35 million. At that time 1,566 claims were reported as having been settled, with a further 80 outstanding.90
+2.7.138 Claims for compensation were received over a long period and the Police Authority's Finance and General Purposes Committee was given regular updates on anticipated costs. On 6 January 1995, the Police Authority's Clerk and Financial Officer reported that the then current estimate was that the £8.5 million insurance limit would be exceeded by £1.35 million. At that time 1,566 claims were reported as having been settled, with a further 80 outstanding.[^90-9014]
 
-2.7.139 By 15 March 1996, the estimate of the uninsured costs had increased to a possible £2 million, £0.5 million more than the amount provided for in the Police Authority's allocation. This did not appear to create anxiety. The Police Authority was running a projected underspend of £1.442 million that year and its revenue reserves were understood to be £7.9 million.91
+2.7.139 By 15 March 1996, the estimate of the uninsured costs had increased to a possible £2 million, £0.5 million more than the amount provided for in the Police Authority's allocation. This did not appear to create anxiety. The Police Authority was running a projected underspend of £1.442 million that year and its revenue reserves were understood to be £7.9 million.[^91-9014]
 
 %%page 253%%
 
@@ -5162,7 +5156,7 @@ The problem with compensation liability following Hillsborough … although the 
 
 2.8.97 A 'mini-inquest ... would provide an interim stage ... so that the healing process for the bereaved could be brought one step nearer a conclusion and ... this would be of enormous help to the relatives'.
 
-2.8.98 WMP 'wanted to know at what point the evidence would stop'.43 Dr Popper responded that evidence would be taken 'probably up to the temporary mortuary … if there were any particular difficulties we would do our best to try and answer the questions as best we could'.
+2.8.98 WMP 'wanted to know at what point the evidence would stop'.[^43-9016] Dr Popper responded that evidence would be taken 'probably up to the temporary mortuary … if there were any particular difficulties we would do our best to try and answer the questions as best we could'.
 
 %%page 268%%
 
@@ -5236,13 +5230,13 @@ I felt that it was essential that we should actually get this pinpointed accurat
 
 ##### The status of evidence
 
-2.9.17 In late August 1990 Dr Popper met DCC Jones and other WMP officers.5 At the meeting there was concern that SYP would be 'seeking to establish as much evidence as they can so far as the culpability of those who attended the match ... to illustrate that the fans contributed to the outcome and that drunkenness and disobedience to directions played a major part'. 2.9.18 The SYP focus would be 'ticketless fans who were perhaps motivated to force the situation where the gates were opened'. Further, SYP would emphasise 'the culpability of the club in as far as the capacity, signing, stewarding and issuing of tickets are concerned ... on Eastwood and Partners on barrier and turnstile issues ... [and] the nepotism of Sheffield City Council in the licensing arrangements'. 2.9.19 These issues would also 'assist their [SYP's] civil case which may be heard by the time the inquests take place'. Individual officers represented at the inquests would be motivated 'to defend themselves against any police disciplinary proceedings and, of course, any criminal proceedings which may follow a voluntary bill of indictment'. 2.9.20 On 30 August 1990 CC Sharp notified Dr Popper that the DPP had decided there was insufficient evidence for the criminal prosecution of any individual and his report would be submitted to 'the Chief Constable of South Yorkshire Police so that he ... can consider whether any officer should face disciplinary charges'.[^6-9017]
+2.9.17 In late August 1990 Dr Popper met DCC Jones and other WMP officers.[^5-9017] At the meeting there was concern that SYP would be 'seeking to establish as much evidence as they can so far as the culpability of those who attended the match ... to illustrate that the fans contributed to the outcome and that drunkenness and disobedience to directions played a major part'. 2.9.18 The SYP focus would be 'ticketless fans who were perhaps motivated to force the situation where the gates were opened'. Further, SYP would emphasise 'the culpability of the club in as far as the capacity, signing, stewarding and issuing of tickets are concerned ... on Eastwood and Partners on barrier and turnstile issues ... [and] the nepotism of Sheffield City Council in the licensing arrangements'. 2.9.19 These issues would also 'assist their [SYP's] civil case which may be heard by the time the inquests take place'. Individual officers represented at the inquests would be motivated 'to defend themselves against any police disciplinary proceedings and, of course, any criminal proceedings which may follow a voluntary bill of indictment'. 2.9.20 On 30 August 1990 CC Sharp notified Dr Popper that the DPP had decided there was insufficient evidence for the criminal prosecution of any individual and his report would be submitted to 'the Chief Constable of South Yorkshire Police so that he ... can consider whether any officer should face disciplinary charges'.[^6-9017]
 
 %%page 274%%
 
 2.9.21 Dr Popper challenged the decision to submit the report, arguing that it 'would form the basis of the evidence which will be used at the inquests' thus giving SYP 'potential advantage'. This would not 'be fair and ... is, or gives the appearance of being, against the rules of natural justice'.[^7-9017]
 
-2.9.22 Further, disciplinary issues could also arise from the evidence given at the inquests. As 'Hillsborough' was 'highly charged', he considered that CC Sharp should reconsider his decision to release his report to SYP. 2.9.23 Dr Popper and CC Sharp disagreed about the appearance of bias. According to Dr Popper's notes, CC Sharp's explanation was that while WMP had technically 'carried out the investigation, this had been done following a request by South Yorkshire'. Thus, 'in a sense the West Midlands Police were merely an extension of the South Yorkshire Police effort'. Dr Popper accepted this but objected because the 'South Yorkshire Police had been the subject of criticism'. CC Sharp responded 'that strictly speaking, he should have submitted the documents to South Yorkshire, even before the D.P.P. had given his decision'.[^8-9017] 2.9.24 Reluctantly Dr Popper acceded, but remained 'anxious that as far as possible things should be done correctly, but if the decision was that information had to be disclosed, then so be it'. Should that occur, 'I might find that I could not successfully resist confirming that I had no objection to releasing information to other parties'.[^9-9017] In other words, he might disclose to the families' legal representatives. 2.9.25 CC Sharp also suggested that should police officers be called to give evidence, 'we might have to obtain new statements from them'. Dr Popper disagreed, 'because the statements apart from a very few had originally all been taken for Lord Justice Taylor and for my benefit, and that I felt myself free to use them if I wanted to'.[^10-9017] CC Sharp had consulted with the SYP Chief Constable, Richard Wells, and with the South Yorkshire Police Authority, suggesting 'it might be a wise thing to discuss the position with me and in particular not to use statements in any way prejudicial to the inquest'. 2.9.26 CC Sharp confirmed his decision, taken in consultation with 'appropriate members of the Police Complaints Authority'.[^11-9017] He stated that the 'reports, supporting papers and documents' would be 'passed to the Chief Constable of South Yorkshire Police'. In his view the papers were simply to be used for disciplinary purposes, and that it would be quite improper for them to be used during and as part of the inquest proceedings. He apologised for not being able 'to accede' to Dr Popper's 'request to delay such a move, but the Chief Constable is aware of your interest in the matter'. 2.9.27 While this discussion was in progress, DCC Jones wrote to the Head of the Police Complaints Division at the Home Office informing him that he had resumed responsibilities as coroner's officer. He had been 'kept briefed by Mr Sharp and Mr Foster as to the developments, albeit I do not know the intimate detail as to what went on in the [criminal] interviews ... both Dr Popper and myself would appreciate early intimation, especially if you intend to take no further action'.[^12-9017] 2.9.28 Soon after, DCC Jones confirmed to Dr Popper he had 'formally resumed' his 'role as your Coroner's Officer following the announcement of the Director of Public Prosecutions not to take further action in the criminal courts'.13 CC Wells had stated 'that it is proper for the West Midlands Police to continue to support your Inquests until their completion'.
+2.9.22 Further, disciplinary issues could also arise from the evidence given at the inquests. As 'Hillsborough' was 'highly charged', he considered that CC Sharp should reconsider his decision to release his report to SYP. 2.9.23 Dr Popper and CC Sharp disagreed about the appearance of bias. According to Dr Popper's notes, CC Sharp's explanation was that while WMP had technically 'carried out the investigation, this had been done following a request by South Yorkshire'. Thus, 'in a sense the West Midlands Police were merely an extension of the South Yorkshire Police effort'. Dr Popper accepted this but objected because the 'South Yorkshire Police had been the subject of criticism'. CC Sharp responded 'that strictly speaking, he should have submitted the documents to South Yorkshire, even before the D.P.P. had given his decision'.[^8-9017] 2.9.24 Reluctantly Dr Popper acceded, but remained 'anxious that as far as possible things should be done correctly, but if the decision was that information had to be disclosed, then so be it'. Should that occur, 'I might find that I could not successfully resist confirming that I had no objection to releasing information to other parties'.[^9-9017] In other words, he might disclose to the families' legal representatives. 2.9.25 CC Sharp also suggested that should police officers be called to give evidence, 'we might have to obtain new statements from them'. Dr Popper disagreed, 'because the statements apart from a very few had originally all been taken for Lord Justice Taylor and for my benefit, and that I felt myself free to use them if I wanted to'.[^10-9017] CC Sharp had consulted with the SYP Chief Constable, Richard Wells, and with the South Yorkshire Police Authority, suggesting 'it might be a wise thing to discuss the position with me and in particular not to use statements in any way prejudicial to the inquest'. 2.9.26 CC Sharp confirmed his decision, taken in consultation with 'appropriate members of the Police Complaints Authority'.[^11-9017] He stated that the 'reports, supporting papers and documents' would be 'passed to the Chief Constable of South Yorkshire Police'. In his view the papers were simply to be used for disciplinary purposes, and that it would be quite improper for them to be used during and as part of the inquest proceedings. He apologised for not being able 'to accede' to Dr Popper's 'request to delay such a move, but the Chief Constable is aware of your interest in the matter'. 2.9.27 While this discussion was in progress, DCC Jones wrote to the Head of the Police Complaints Division at the Home Office informing him that he had resumed responsibilities as coroner's officer. He had been 'kept briefed by Mr Sharp and Mr Foster as to the developments, albeit I do not know the intimate detail as to what went on in the [criminal] interviews ... both Dr Popper and myself would appreciate early intimation, especially if you intend to take no further action'.[^12-9017] 2.9.28 Soon after, DCC Jones confirmed to Dr Popper he had 'formally resumed' his 'role as your Coroner's Officer following the announcement of the Director of Public Prosecutions not to take further action in the criminal courts'.[^13-9017] CC Wells had stated 'that it is proper for the West Midlands Police to continue to support your Inquests until their completion'.
 
 %%page 275%%
 
@@ -5452,7 +5446,7 @@ She had never felt that she had got the facts or had her questions answered and 
 
 2.9.119 Mr Dorries also noted, 'as human beings mistakes were made and there will be a number of things that you could identify worthy of improvement for "next time". Certainly this should be admitted but equally I see no future in letting wild criticism become accepted as factual simply by default'. The 'mistakes' to which he alluded were not identified.
 
-2.9.120 In the aftermath of the screening Dr Popper received a telephone call from the Crown Prosecution Service (CPS) to discuss video evidence.47 In the course of the conversation he stated that the inquest proceedings had been video-recorded, 'for back up for the shorthand writers and so that one could monitor how the inquests were conducted'. Asked if the tapes were recorded secretly, Dr Popper replied, 'we did not publicise it but there was a camera taking pictures'.
+2.9.120 In the aftermath of the screening Dr Popper received a telephone call from the Crown Prosecution Service (CPS) to discuss video evidence.[^47-9017] In the course of the conversation he stated that the inquest proceedings had been video-recorded, 'for back up for the shorthand writers and so that one could monitor how the inquests were conducted'. Asked if the tapes were recorded secretly, Dr Popper replied, 'we did not publicise it but there was a camera taking pictures'.
 
 2.9.121 Having reflected further, Dr Popper 'phoned him back and I said I had thought about the question and to [sic] it was difficult because it depended how one viewed the matter whether it was secret but I had not made it known that they were being made as they were for a specific backup purpose'. It was his understanding that access had been allowed to the recordings as 'in the drama doc some of the footage relating to the evidence of (Mr) Glover was based on the video recording rather than on the transcripts'.
 
@@ -5807,7 +5801,7 @@ It seemed to me that it is very unfair on a Coroner to have to deal with a situa
 
 2.10.118 It stated that the 3.15pm cut-off had been 'widely misrepresented', that the Coroner 'ruled ... he considered all those who died had received the injuries from which they died by 3.15' and had not suggested that 'all those who died did so before 3.15 or that the medical evidence was to this effect'. Mr Pyne's memorandum advised that the imposition of the 'cut-off point' was concerned only with 'how, by what means, the deceased came to their deaths'.
 
-2.10.119 This position was followed up in a further undated, unattributed briefing.53 It noted that the jury had heard evidence about those who died after admission to hospital and of those who had been resuscitated. The evidence of death beyond 3.15pm 'would not therefore effect [sic] the inquest'. The briefing also noted that in 1993 the issue had been examined thoroughly in the Divisional Court establishing 'no other cause of death' and the decision to impose a 'cut-off point' had been 'considered and reasonable'.
+2.10.119 This position was followed up in a further undated, unattributed briefing.[^53-9019] It noted that the jury had heard evidence about those who died after admission to hospital and of those who had been resuscitated. The evidence of death beyond 3.15pm 'would not therefore effect [sic] the inquest'. The briefing also noted that in 1993 the issue had been examined thoroughly in the Divisional Court establishing 'no other cause of death' and the decision to impose a 'cut-off point' had been 'considered and reasonable'.
 
 ##### The Scrutiny's findings
 
@@ -5851,7 +5845,7 @@ It seemed to me that it is very unfair on a Coroner to have to deal with a situa
 
 ##### Memorial to the Attorney General, 1992
 
-2.10.136 In the Memorial presented to the Attorney General the case was made that the evidence summaries presented by a WMP officer at the mini-inquest into Kevin's death established that according to the officers attending him on the pitch he was alive.57 While SC Martin's statement had been 'referred to with some scepticism' it had raised 'the possibility of survival long after 3.15pm ... and the question of whether death might have been prevented by more timely medical intervention'. 2.10.137 The Memorial noted that the Coroner had called WMP Inspector Robert Sawers whose re-interview with PC Bruder (noted above) had established that the phrase 'having convulsions' could be more appropriately described as a 'twitch' and 'that "whatever he felt there he cannot be categoric it was a pulse"'. The Coroner had also re-called the pathologist, Dr Slater, whose evidence was that death had been caused by a 'very very severe case of asphyxia' and 'four fractures to the voice box'. 2.10.138 The Memorial noted that further investigations 'revealed that considerable pressure was put on both [officers] to retract or qualify their evidence as to the signs of life they described in Kevin Williams'. It challenged the manner in which their evidence had been presented at the mini-inquest, particularly the 'second-hand accounts of [the officers'] original statements' and also 'the qualifications they had subsequently been persuaded to make to their original evidence'. 2.10.139 In a further memorandum from Mr Wooler to the Attorney General he advised that PC Bruder had 'resiled' from his revised statement and the intention of the visit by Insp Sawers 'was to persuade him to change his mind'.[^58-9019] Further, he stated that SC Martin had reverted to her original statement (May 1989) and her second statement, in March 1990, had been 'made after considerable pressure had been exerted upon her by the West Midlands Police'. 2.10.140 While SC Martin's second statement had not contradicted entirely her first, 'it did provide the coroner with a sound basis for treating her evidence as unreliable'. Mr Wooler concluded that the Kevin Williams case was the 'most unsatisfactory of all' the Memorials because 'the evidential position was confused at the inquest and has become even more confused subsequently'. Yet he doubted 'whether the uncertainties flowing from the confusing evidence do have any bearing on a legal issue', specifically a verdict of 'lack of care'. 2.10.141 While considering that the Coroner 'would certainly have been wise to take more oral evidence in this particular case', Mr Wooler advised that it was difficult to justify the case for a new inquest. He suggested that the applicant's solicitor might wish to take a further statement from PC Bruder. A handwritten comment added: 'You will wish to consider the difficulty of limiting the scope of the inquest if a fresh inquest is held. It could lead to a re-examination of the whole incident even though it concerned only one death'.
+2.10.136 In the Memorial presented to the Attorney General the case was made that the evidence summaries presented by a WMP officer at the mini-inquest into Kevin's death established that according to the officers attending him on the pitch he was alive.[^57-9019] While SC Martin's statement had been 'referred to with some scepticism' it had raised 'the possibility of survival long after 3.15pm ... and the question of whether death might have been prevented by more timely medical intervention'. 2.10.137 The Memorial noted that the Coroner had called WMP Inspector Robert Sawers whose re-interview with PC Bruder (noted above) had established that the phrase 'having convulsions' could be more appropriately described as a 'twitch' and 'that "whatever he felt there he cannot be categoric it was a pulse"'. The Coroner had also re-called the pathologist, Dr Slater, whose evidence was that death had been caused by a 'very very severe case of asphyxia' and 'four fractures to the voice box'. 2.10.138 The Memorial noted that further investigations 'revealed that considerable pressure was put on both [officers] to retract or qualify their evidence as to the signs of life they described in Kevin Williams'. It challenged the manner in which their evidence had been presented at the mini-inquest, particularly the 'second-hand accounts of [the officers'] original statements' and also 'the qualifications they had subsequently been persuaded to make to their original evidence'. 2.10.139 In a further memorandum from Mr Wooler to the Attorney General he advised that PC Bruder had 'resiled' from his revised statement and the intention of the visit by Insp Sawers 'was to persuade him to change his mind'.[^58-9019] Further, he stated that SC Martin had reverted to her original statement (May 1989) and her second statement, in March 1990, had been 'made after considerable pressure had been exerted upon her by the West Midlands Police'. 2.10.140 While SC Martin's second statement had not contradicted entirely her first, 'it did provide the coroner with a sound basis for treating her evidence as unreliable'. Mr Wooler concluded that the Kevin Williams case was the 'most unsatisfactory of all' the Memorials because 'the evidential position was confused at the inquest and has become even more confused subsequently'. Yet he doubted 'whether the uncertainties flowing from the confusing evidence do have any bearing on a legal issue', specifically a verdict of 'lack of care'. 2.10.141 While considering that the Coroner 'would certainly have been wise to take more oral evidence in this particular case', Mr Wooler advised that it was difficult to justify the case for a new inquest. He suggested that the applicant's solicitor might wish to take a further statement from PC Bruder. A handwritten comment added: 'You will wish to consider the difficulty of limiting the scope of the inquest if a fresh inquest is held. It could lead to a re-examination of the whole incident even though it concerned only one death'.
 
 %%page 309%%
 
@@ -8393,6 +8387,12 @@ TSO@Blackwell and other accredited agents
 
 [^46-9010]: Ambulance Control Room Tape Transcripts, SYP000014030001, p42.
 
+[^47-9010]: Ambulance Control Room Tape Transcripts, SYP000014030001, p45.
+
+[^48-9010]: Ambulance Control Room Tape Transcripts, SYP000014030001, p48.
+
+[^49-9010]: Ambulance Control Room Tape Transcripts, SYP000014030001, p82.
+
 [^50-9010]: Statement of Anthony Edwards, SYMAS Ambulanceman, YAS000001500001, p7.
 
 [^51-9010]: SYMAS subsequently made extensive efforts to track the source of this interference, which may have resulted from interference from a neighbouring service, but this was disputed.
@@ -8499,7 +8499,7 @@ TSO@Blackwell and other accredited agents
 
 [^27-5]: Letter from Dr James Burns to Brian Thompson & Partners solicitors, 11 March 1991, SYP000096240001, pp46-7.
 
-[^28-5]: 'Hillsborough - Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, pp21-32.
+[^28-5]: 'Hillsborough – Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, pp21-32.
 
 [^29-5]: Evidence of Dr Forrest at the Hillsborough Inquest, 18 April 1990, SYC000109270001, p71.
 
@@ -8507,7 +8507,7 @@ TSO@Blackwell and other accredited agents
 
 [^31-5]: Fermentation due to bacteria can produce alcohol in the body after death.
 
-[^32-5]: 'Hillsborough - Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, pp21-32.
+[^32-5]: 'Hillsborough – Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, pp21-32.
 
 [^33-5]: Evidence of Dr Nicholl at the Hillsborough Inquest, 14 March 1990, SYC000109160001, pp4-33.
 
@@ -8517,7 +8517,7 @@ TSO@Blackwell and other accredited agents
 
 [^36-5]: 95% CI: confidence interval within which true result is estimated to be with 95% probability given the observed results.
 
-[^37-5]: 'Hillsborough - Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, p23.
+[^37-5]: 'Hillsborough – Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, p23.
 
 [^38-5]: 'Hillsborough – Association between time of entry to the ground, age and alcohol consumption', by Dr JP Nicholl, undated, SYC000000960001, p23.
 
@@ -8605,7 +8605,7 @@ TSO@Blackwell and other accredited agents
 
 [^36-6]: 'The Hillsborough Inquiry – Update III' by CC Peter Wright, 2 June 1989, SYP000098070001.
 
-[^37-6]: 'The Hillsborough Inquiry - Update IV' by CC Peter Wright, 30 June 1989, SYP000098080001.
+[^37-6]: 'The Hillsborough Inquiry – Update IV' by CC Peter Wright, 30 June 1989, SYP000098080001.
 
 [^38-6]: Written submission to the Taylor Inquiry from Sheffield Wednesday Football Club, undated, HOM000019260001, pp1-15.
 
@@ -8881,25 +8881,53 @@ TSO@Blackwell and other accredited agents
 
 [^1-7]: In contrast to civil litigation, the criminal process relates to a wrong that is recognised in law as a 'crime', which is then the subject of a criminal prosecution brought on behalf of the state or the public (the 'prosecution') against the alleged wrong-doer (the 'defendant') in the Magistrates' Court or the Crown Court. In the case of serious crimes, the prosecution will result in a trial before a judge and jury in the Crown Court where, on the available evidence, (i) the jury will be required to decide whether they are sure beyond reasonable doubt that the defendant is 'guilty' of the crime as alleged; and (ii) if so, the judge will then decide what sentence should be handed down to the defendant by way of punishment and deterrence. Throughout, the victim of the alleged wrong-doing is not involved in the prosecution in any capacity other than that of a witness.
 
-[^2-9014]: SYP000160100001, see for example p1, PNC printout. The position in relation to data protection law also appears to have been unclear. Following a later example of criminal record checking in response to a civil claim, the results of the check were released accidentally to the claimant's solicitor – alerting them that such a search had been made. The claimant's solicitor complained, writing to South Yorkshire Police that: In supplying it you appear to have breached not only the long-standing code of confidentiality and circumstances under which a record might be disclosed, but you have also breached the provisions of the Data Protection Act 1984. This is an extremely grave matter… The response of the police officer who had released the information was to hold responsible the solicitor who had requested the search. He wrote: I find it negligent on their behalf to first state they were entitled to view the record if they weren't so entitled and secondly then to release a copy of the convictions along with a copy of my covering letter to the solicitor's representing [the claimant]. The issue appears to have been resolved following a conversation between the solicitors involved. SYP000160100001, p2 onwards. 3. 'HILLSBOROUGH DISASTER – MEETING TO DISCUSS INSURANCE AND LEGAL IMPLICATIONS', 19 April 1989, SYP000123590001, pp280-90.
+[^2-9014]: SYP000160100001, see for example p1, PNC printout. The position in relation to data protection law also appears to have been unclear. Following a later example of criminal record checking in response to a civil claim, the results of the check were released accidentally to the claimant's solicitor – alerting them that such a search had been made. The claimant's solicitor complained, writing to South Yorkshire Police that: In supplying it you appear to have breached not only the long-standing code of confidentiality and circumstances under which a record might be disclosed, but you have also breached the provisions of the Data Protection Act 1984. This is an extremely grave matter… The response of the police officer who had released the information was to hold responsible the solicitor who had requested the search. He wrote: I find it negligent on their behalf to first state they were entitled to view the record if they weren't so entitled and secondly then to release a copy of the convictions along with a copy of my covering letter to the solicitor's representing [the claimant]. The issue appears to have been resolved following a conversation between the solicitors involved. SYP000160100001, p2 onwards.
 
-[^4-9014]: Internal Home Office memorandum, 3 May 1989, HOM000015410001, pp1-6. 5. 'FINANCE AND GENERAL PURPOSES COMMITTEE, Report of Clerk and Financial Officer', 15 September 1989, SPA000000730001, p1.
+[^3-9014]: 'HILLSBOROUGH DISASTER – MEETING TO DISCUSS INSURANCE AND LEGAL IMPLICATIONS', 19 April 1989, SYP000123590001, pp280-90.
 
-[^6-9014]: Letter from Hammond Suddards to CJ Cleugh, Crown Prosecution Service, 30 October 1989, CPS000003750001, p14. 7. 'SOUTH YORKSHIRE POLICE AUTHORITY, REPORT OF THE CHIEF CONSTABLE', 17 November 1989, SPA000000190001, pp1-6. 8. 'PRESS STATEMENT OF THE CHIEF CONSTABLE', 30 November 1989, SYP000160110001, p7.
+[^4-9014]: Internal Home Office memorandum, 3 May 1989, HOM000015410001, pp1-6.
+
+[^5-9014]: 'FINANCE AND GENERAL PURPOSES COMMITTEE, Report of Clerk and Financial Officer', 15 September 1989, SPA000000730001, p1.
+
+[^6-9014]: Letter from Hammond Suddards to CJ Cleugh, Crown Prosecution Service, 30 October 1989, CPS000003750001, p14.
+
+[^7-9014]: 'SOUTH YORKSHIRE POLICE AUTHORITY, REPORT OF THE CHIEF CONSTABLE', 17 November 1989, SPA000000190001, pp1-6.
+
+[^8-9014]: 'PRESS STATEMENT OF THE CHIEF CONSTABLE', 30 November 1989, SYP000160110001, p7.
 
 [^9-9014]: Memorandum from Chief Constable Wright to all Chief Superintendents, 30 November 1989, SYP000160110001, p6.
 
-[^10-9014]: Letter from Hammond Suddards to Hillsborough Steering Committee, 15 December 1989, SYP000160110001, pp2-5. 11. 'Nervous shock' in this context is a generic term signifying any recognised psychiatric injury sustained as a result of shock, including post-traumatic stress disorder (PTSD). The National Institute for Health and Clinical Excellence (publications.nice.org.uk/post-traumatic-stress-disorder-ptsd-cg26/guidance#the-symptoms-of-ptsd) describes the symptoms of PTSD as follows: The most characteristic symptoms of PTSD are re-experiencing symptoms. PTSD sufferers involuntarily re-experience aspects of the traumatic event in a very vivid and distressing way. This includes flashbacks where the person acts or feels as if the event was recurring; nightmares; and repetitive and distressing intrusive images or other sensory impressions from the event. Reminders of the traumatic event arouse intense distress and/or physiological reactions. In children, re-experiencing symptoms may take the form of re-enacting the experience, repetitive play or frightening dreams without recognisable content. Avoidance of reminders of the trauma is another core symptom of PTSD. This includes people, situations or circumstances resembling or associated with the event. People with PTSD often try to push memories of the event out of their mind and avoid thinking or talking about it in detail, particularly about its worst moments. On the other hand, many ruminate excessively about questions that prevent them from coming to terms with the event (for example, about why the event happened to them, about how it could have been prevented, or about how they could take revenge). PTSD sufferers also experience symptoms of hyperarousal including hypervigilance for threat, exaggerated startle responses, irritability and difficulty concentrating, and sleep problems. Others with PTSD also describe symptoms of emotional numbing. These include lack of ability to experience feelings, feeling detached from other people, giving up previously significant activities, and amnesia for significant parts of the event. Symptoms of PTSD often develop immediately after the traumatic event but in some (less than 15% of all sufferers) the onset of symptoms may be delayed. PTSD sufferers may not present for treatment for months or years after the onset of symptoms despite the considerable distress experienced, but PTSD is a treatable disorder even when problems present many years after the traumatic event. Assessment of PTSD can, however, present significant challenges as many people avoid talking about their problems even when presenting with associated complaints. www.nice.org.uk/nicemedia/pdf/CG026NICEguideline.pdf These symptoms are a usual reaction to a traumatic event. However, their persistence and severity to the extent that they interfere with well-being constitute PTSD. Because of the circumstances of the disaster many more people than otherwise would be expected to suffer incapacitating PTSD.
+[^10-9014]: Letter from Hammond Suddards to Hillsborough Steering Committee, 15 December 1989, SYP000160110001, pp2-5.
+
+[^11-9014]: 'Nervous shock' in this context is a generic term signifying any recognised psychiatric injury sustained as a result of shock, including post-traumatic stress disorder (PTSD). The National Institute for Health and Clinical Excellence (publications.nice.org.uk/post-traumatic-stress-disorder-ptsd-cg26/guidance#the-symptoms-of-ptsd) describes the symptoms of PTSD as follows: The most characteristic symptoms of PTSD are re-experiencing symptoms. PTSD sufferers involuntarily re-experience aspects of the traumatic event in a very vivid and distressing way. This includes flashbacks where the person acts or feels as if the event was recurring; nightmares; and repetitive and distressing intrusive images or other sensory impressions from the event. Reminders of the traumatic event arouse intense distress and/or physiological reactions. In children, re-experiencing symptoms may take the form of re-enacting the experience, repetitive play or frightening dreams without recognisable content. Avoidance of reminders of the trauma is another core symptom of PTSD. This includes people, situations or circumstances resembling or associated with the event. People with PTSD often try to push memories of the event out of their mind and avoid thinking or talking about it in detail, particularly about its worst moments. On the other hand, many ruminate excessively about questions that prevent them from coming to terms with the event (for example, about why the event happened to them, about how it could have been prevented, or about how they could take revenge). PTSD sufferers also experience symptoms of hyperarousal including hypervigilance for threat, exaggerated startle responses, irritability and difficulty concentrating, and sleep problems. Others with PTSD also describe symptoms of emotional numbing. These include lack of ability to experience feelings, feeling detached from other people, giving up previously significant activities, and amnesia for significant parts of the event. Symptoms of PTSD often develop immediately after the traumatic event but in some (less than 15% of all sufferers) the onset of symptoms may be delayed. PTSD sufferers may not present for treatment for months or years after the onset of symptoms despite the considerable distress experienced, but PTSD is a treatable disorder even when problems present many years after the traumatic event. Assessment of PTSD can, however, present significant challenges as many people avoid talking about their problems even when presenting with associated complaints. www.nice.org.uk/nicemedia/pdf/CG026NICEguideline.pdf These symptoms are a usual reaction to a traumatic event. However, their persistence and severity to the extent that they interfere with well-being constitute PTSD. Because of the circumstances of the disaster many more people than otherwise would be expected to suffer incapacitating PTSD.
 
 [^12-9014]: Letter from Hammond Suddards to Hillsborough Steering Committee, 15 December 1989, SYP000160110001, pp2-5.
 
 [^13-9014]: Memorandum from Chief Constable Wright to all Chief Superintendents, 30 November 1989, SYP000160110001, p6.
 
-[^14-9014]: Letter from Elizabeth Steel of Hillsborough Steering Committee to a firm of Solicitors: Hillsborough Group Bulletin 11, 30 November 1989, FAM000000180001. 15. 'SOUTH YORKSHIRE POLICE AUTHORITY, FINANCE AND GENERAL PURPOSES COMMITTEE', 8 December 1989, SPA000000760001, p1.
+[^14-9014]: Letter from Elizabeth Steel of Hillsborough Steering Committee to a firm of Solicitors: Hillsborough Group Bulletin 11, 30 November 1989, FAM000000180001.
 
-[^16-9014]: For example, see press cutting, Daily Mirror, 3 February 1995, SYP000160120001. 17. 31 July 1990, [1991] 3 All E.R. 88. 18. 3 May 1991, [1991] 3 All E.R. 88. 19. [1992] 1 A.C. 310.
+[^15-9014]: 'SOUTH YORKSHIRE POLICE AUTHORITY, FINANCE AND GENERAL PURPOSES COMMITTEE', 8 December 1989, SPA000000760001, p1.
 
-[^21-9014]: Judgment by Mr Justice Hidden of the Queen's Bench Division, Liverpool Crown Court: Various Plaintiffs v Chief Constable of South Yorkshire Police, 31 July 1990, LLS000000220001. 22. 3 May 1991, [1992] 1 All E.R. 690. 23. [1992] 2 All E.R. 65.
+[^16-9014]: For example, see press cutting, Daily Mirror, 3 February 1995, SYP000160120001.
+
+[^17-9014]: 31 July 1990, [1991] 3 All E.R. 88.
+
+[^18-9014]: 3 May 1991, [1991] 3 All E.R. 88.
+
+[^19-9014]: [1992] 1 A.C. 310.
+
+[^20-9014]: [1992] 1 A.C. 310 at 398. See also: Lord Ackner at 405-406: 'Only one of the plaintiffs … , namely Brian Harrison, was at the ground. His relatives who died were his two brothers. The quality of brotherly love is well known to differ widely – from Cain and Abel to David and Jonathan. I assume that Mr Harrison's relationship with his brothers was not an abnormal one. His claim was not presented upon the basis that there was such a close and intimate relationship between them, as gave rise to that very special bond of affection which would make his shock-induced psychiatric illness reasonably foreseeable by the defendant. Accordingly, the judge did not carry out the requisite close scrutiny of their relationship. Thus there was no evidence to establish the necessary proximity which would make his claim reasonably foreseeable and, subject to the other factors, to which I have referred, a valid one. The other plaintiff who was present at the ground, Robert Alcock, lost a brother-in-law. He was not, in my judgment, reasonably foreseeable as a potential sufferer from shock-induced psychiatric illness, in default of very special facts and none was established. Accordingly their claims must fail, as must those of the other plaintiffs who only learned of the disaster by watching simultaneous television'. And Lord Oliver of Aylmerton at 417: 'In the case of both Brian Harrison and Robert Alcock, although both were present at the ground and saw scenes which were obviously distressing and such as to cause grave worry and concern, their perception of the actual consequences of the disaster to those to whom they were related was again gradual. In my judgment, the necessary proximity was lacking in their cases too, but I also agree with my noble and learned friend, Lord Keith of Kinkel, that there is also lacking the necessary element of reasonable foreseeability'. Or Lord Jauncey of Tullichettle at 424: 'Only two plaintiffs, Mr and Mrs Copoc, lost a son, but they saw the disaster on television and Mr Copoc identified the body on the following morning having already been informed that his son was dead. No plaintiff lost a spouse. None of the other plaintiffs who lost relatives sought to establish that they had relationships of love and affection with a victim comparable to that of a spouse or parent. In any event only two of them were present in the ground and the remainder saw the scenes on simultaneous or recorded television. In these circumstances none of the plaintiffs having satisfied both the tests of reasonable foreseeability and of proximity'.
+
+[^21-9014]: Judgment by Mr Justice Hidden of the Queen's Bench Division, Liverpool Crown Court: Various Plaintiffs v Chief Constable of South Yorkshire Police, 31 July 1990, LLS000000220001.
+
+[^22-9014]: 3 May 1991, [1992] 1 All E.R. 690.
+
+[^23-9014]: [1992] 2 All E.R. 65.
+
+[^24-9014]: Compensation expenditure calculated from a briefing paper submitted to the Home Office in 1999, HOM000010130001, and confirmed by South Yorkshire Police Authority. Legal costs also confirmed by South Yorkshire Police Authority.
+
+[^25-9014]: The Hillsborough Disaster Appeal (key references are CMS000001000001 and HWP000001120001) Outside the civil cases, the Hillsborough Disaster Appeal Fund also provided financial support to the injured and bereaved. The Fund was launched and established as a Trust in the days following the disaster by four sponsors: the Lord Mayors of Sheffield and Nottingham; the Chairman of Liverpool City Council; and the Chairman of Liverpool Football Club. Trustees were nominated by the sponsors. Donations to the Fund were generous and the Trustees expressed their 'gratitude and, indeed, amazement at the incredible generosity' which the disaster prompted. The result was that £12.1 million had been raised by the first anniversary of the disaster in April 1990, 'far and away the largest domestic disaster Fund ever raised [in the UK]'. In addition to large donations from the Government (£500,000) and elsewhere, the Trust was to receive money from 'hundreds of spontaneously organised events and activities, as well as from countless donations from individuals, educational and sporting organisations, and businesses large and small'. A selection of letters enclosing donations can be found at LCA000000010001. The Trust's view was that money should be distributed as quickly as possible and within a year £10 million had been distributed to bereaved families and also to 647 injured survivors, each of whose claim was assessed by the Trust's Medical Panel. By the time distribution of money to the injured and bereaved was complete, in June 1992, the final figure had risen to £11.8 million. The balance of funds raised by the appeal, eventually amounting to £1.9 million, was placed in a separate Charitable Trust. This Charitable Trust funded a range of projects, including memorial bursaries in Liverpool, Sheffield and Nottingham, as well as funding training courses for doctors, paramedics and members of the emergency services. These and other recipients of funding were considered 'appropriate to commemorate those who died at Hillsborough, and to commemorate the generosity of those who contributed to the appeal'.
 
 [^26-9014]: The basis on which officers were able to bring claims against their Chief Constable was similar to the basis on which claims were brought by those bereaved and injured, i.e. that they had suffered harm as a result of a wrong or a 'tort' for which the Chief Constable was ultimately responsible. In addition, the officers were also able to argue that they were entitled to recover damages either on the basis of an employer's duty to protect employees from harm through work or by virtue of their status as rescuers.
 
@@ -8947,7 +8975,17 @@ TSO@Blackwell and other accredited agents
 
 [^48-9014]: These figures are drawn from material in the public domain and from records relating to individual officers which were disclosed to the Panel.
 
-[^49-9014]: The Times, 3 July 1995. 50. [1998] Q. B. 254. 51. [1999] 2 A.C. 455.
+[^49-9014]: The Times, 3 July 1995.
+
+[^50-9014]: [1998] Q. B. 254.
+
+[^51-9014]: [1999] 2 A.C. 455.
+
+[^52-9014]: [1999] 2 A.C. 455 at 494-495. See also Lord Hoffmann at 505: 'Essentially, … the plaintiffs draw two distinctions between their position and that of spectators or bystanders. The first is that they had a relationship analogous to employment with the Chief Constable. … The plaintiffs say that they were therefore owed a special duty which required the Chief Constable and those for whom he was vicariously liable to take reasonable care not to expose them to unnecessary risk of injury, whether physical or psychiatric. Secondly, the plaintiffs (and in this respect there is no difference between the police and many others in the crowd that day) did more than stand by and look. They actively rendered assistance and should be equated to "rescuers," who, it was said, always qualify as primary victims. But I think that such an extension would be unacceptable to the ordinary person because (though he might not put it this way) it would offend against his notions of distributive justice. He would think it unfair between one class of claimants and another, at best not treating like cases alike and, at worst, favouring the less deserving against the more deserving. He would think it wrong that policemen, even as part of a general class of persons who rendered assistance, should have the right to compensation for psychiatric injury out of public funds while the bereaved relatives are sent away with nothing.'
+
+[^53-9014]: [1999] 2 A.C. 455 at 465.
+
+[^54-9014]: 'PRESS STATEMENT OF THE CHIEF CONSTABLE', 30 November 1989, SYP000160110001, p7.
 
 [^55-9014]: Court transcript from 15 December 1989, SYC000001430001, p155.
 
@@ -9007,6 +9045,8 @@ TSO@Blackwell and other accredited agents
 
 [^83-9014]: See below for details and source in relation to this figure.
 
+[^84-9014]: 'SOUTH YORKSHIRE POLICE AUTHORITY, FINANCE AND GENERAL PURPOSES COMMITTEE', 8 December 1989, SPA000000760001.
+
 [^85-9014]: Internal Home Office memorandum, 1 December 1989, HOM000006080001.
 
 [^86-9014]: Letter from RC Johnson, South Yorkshire Police Authority, to M Addison, Home Office, 27 October 1989, HOM000013850001.
@@ -9015,7 +9055,11 @@ TSO@Blackwell and other accredited agents
 
 [^88-9014]: Letter from P Ransford, Home Office, to S Walker, South Yorkshire Police Authority, 20 February 1990, HOM000036010001, p5.
 
-[^89-9014]: Letter from Elizabeth Steel, Hillsborough Steering Committee to a firm of Solicitors: Hillsborough Group Bulletin 12, 29 December 1989, FAM000000190001, p10. 90. 'SOUTH YORKSHIRE POLICE FINANCE AND GENERAL PURPOSES COMMITTEE', 6 January 1995, SPA000000830001. 91. 'SOUTH YORKSHIRE POLICE AUTHORITY, REPORT OF THE CLERK AND TREASURER', 15 March 1996, SPA000000850001.
+[^89-9014]: Letter from Elizabeth Steel, Hillsborough Steering Committee to a firm of Solicitors: Hillsborough Group Bulletin 12, 29 December 1989, FAM000000190001, p10.
+
+[^90-9014]: 'SOUTH YORKSHIRE POLICE FINANCE AND GENERAL PURPOSES COMMITTEE', 6 January 1995, SPA000000830001.
+
+[^91-9014]: 'SOUTH YORKSHIRE POLICE AUTHORITY, REPORT OF THE CLERK AND TREASURER', 15 March 1996, SPA000000850001.
 
 [^92-9014]: Letter from Clarence Swindell, Chair of South Yorkshire Police Authority, to Jack Straw MP, Home Secretary, 10 September 1999, HOM000010060001, pp4-5.
 
@@ -9107,7 +9151,9 @@ TSO@Blackwell and other accredited agents
 
 [^41-9016]: Notes of ground to be covered at pre-inquest review, 6 March 1990, SYC000001180001, pp102-103.
 
-[^42-9016]: Draft note for file 'To be agreed. Meeting between HM Coroner Dr Popper and legal representatives of persons who died at the Hillsborough disaster', 6 March 1990, SPP000001630001, pp2-3. 43. 'FILE NOTE', 6 March 1990, SYC000001390001, p45.
+[^42-9016]: Draft note for file 'To be agreed. Meeting between HM Coroner Dr Popper and legal representatives of persons who died at the Hillsborough disaster', 6 March 1990, SPP000001630001, pp2-3.
+
+[^43-9016]: 'FILE NOTE', 6 March 1990, SYC000001390001, p45.
 
 [^44-9016]: Letter from Dr Popper to Mr CJ Cleugh, 14 March 1990, CPS000004310001, p1.
 
@@ -9120,6 +9166,8 @@ TSO@Blackwell and other accredited agents
 [^3-9017]: Papers relating to the position of coroner's officer, SYC000009880001.
 
 [^4-9017]: File note, 'Meeting with M. Jones, S. Beechey, C. Highton and S.L.P. [Popper]', 14 August 1990, SPP000001610001, pp1-4.
+
+[^5-9017]: 'MEETING HELD ON 31 AUGUST 1990 AT NECHELLS GREEN POLICE STATION TO DISCUSS THE PROPOSED INQUESTS INTO THE HILLSBOROUGH DISASTER 1989', 31 August 1990, SYC000001360001, p114.
 
 [^6-9017]: Letter from CC Sharp to Dr Popper, 30 August 1990, SYC000001360001, p126.
 
@@ -9134,6 +9182,8 @@ TSO@Blackwell and other accredited agents
 [^11-9017]: Letter from CC Sharp to Dr Popper, 10 September 1990, SYC000001360001, p12.
 
 [^12-9017]: Letter from Mr Mervyn Jones to Mr Colin Cleugh, Head of Police Complaints Division, Home Office, 24 August 1990, CPS000004910001, p1.
+
+[^13-9017]: 'HILLSBOROUGH CORONIAL INQUIRY – PROGRESS REPORT' from M Jones to Dr Popper, 12 September 1990, SYP000118480001, p29.
 
 [^14-9017]: Letter from Dr Popper to M Jones, 14 September 1990, SYP000118480001, pp31-32.
 
@@ -9199,7 +9249,9 @@ TSO@Blackwell and other accredited agents
 
 [^45-9017]: Dr Popper, note of telephone call from Mrs Sefton, 21 November 1993, SPP000002150001, pp1-2.
 
-[^46-9017]: Letter from Mr C P Dorries to Dr Popper, 22 October 1996, SPP000002600001, p8. 47. 'Tel call with Mr Groston' [sic – Croston, CPS], 8 May 1997, SPP000002000001, pp1-2.
+[^46-9017]: Letter from Mr C P Dorries to Dr Popper, 22 October 1996, SPP000002600001, p8.
+
+[^47-9017]: 'Tel call with Mr Groston' [sic – Croston, CPS], 8 May 1997, SPP000002000001, pp1-2.
 
 [^48-9017]: Hillsborough Scrutiny conducted by LJ Stuart-Smith, evidence of Dr S L Popper, with Michael Burgess in attendance, 17 November 1997, SPP000001180001, pp1-41.
 
@@ -9245,7 +9297,7 @@ TSO@Blackwell and other accredited agents
 
 [^21-10]: 'First Affidavit S H PIMLOTT Sworn On behalf of Respondent Case No.C0/1009/92 IN THE HIGH COURT OF JUSTICE QUEENS BENCH DIVISION CROWN OFFICE LIST IN THE MATTER OF AN APPLICATION FOR JUDICIAL REVIEW BETWEEN: REGINA – and – HER MAJESTY'S CORONER FOR SOUTH YORKSHIRE Ex parte STRINGER and OTHERS', SCC000002510001, p102.
 
-[^22-10]: 'IN THE MATTER of AN APPLICATION FOR JUDICIAL REVIEW BETWEEN: REGINA - and - HER MAJESTY'S CORONER FOR SOUTH YORKSHIRE Ex parte STRINGER AND OTHERS AFFIDAVIT OF STEFAN LEOPOLD POPPER', 10 September 1993, SYC000001280001, p14.
+[^22-10]: 'IN THE MATTER of AN APPLICATION FOR JUDICIAL REVIEW BETWEEN: REGINA – and – HER MAJESTY'S CORONER FOR SOUTH YORKSHIRE Ex parte STRINGER AND OTHERS AFFIDAVIT OF STEFAN LEOPOLD POPPER', 10 September 1993, SYC000001280001, p14.
 
 [^23-10]: 'IN THE MATTER OF AN APPLICATION FOR A JUDICIAL REVIEW BETWEEN: REGINA HER MAJESTY'S CORONER FOR SOUTH YORKSHIRE EX PARTE STRINGER AND OTHERS AFFIDAVIT of Albert Page', September 1993 [date unspecified], SCC000000350001, pp39-47.
 
@@ -9305,13 +9357,17 @@ TSO@Blackwell and other accredited agents
 
 [^51-9019]: Memorandum from Paul Pugh to Jack Straw, Home Secretary, 6 February 1998, HOM000032470001, pp1-2.
 
-[^52-9019]: Memorandum from MJ Pyne, Operational Policing Unit, Home Office to Mr Alun Michael, 18 February 1998, HOM000041940001, pp1-2. 53. 'HILLSBOROUGH Q & A BRIEFING FOR THE STATEMENT' [undated post-Scrutiny, 1998], HOM000041580001, p13.
+[^52-9019]: Memorandum from MJ Pyne, Operational Policing Unit, Home Office to Mr Alun Michael, 18 February 1998, HOM000041940001, pp1-2.
+
+[^53-9019]: 'HILLSBOROUGH Q & A BRIEFING FOR THE STATEMENT' [undated post-Scrutiny, 1998], HOM000041580001, p13.
 
 [^54-9019]: Stuart-Smith, Rt Hon LJ 1998 Scrutiny of Evidence Relating to the Hillsborough Football Stadium Disaster Cm 3878 London: The Stationery Office.
 
 [^55-9019]: Meeting between Anne Williams and PC Derek Bruder, 15 December 1991 [In file of evidence: Judicial Review forwarded to SYP by Malcolm Gregg solicitors on 28 April 1993], SYP000096240001, pp330-332. There is some ambiguity in the documentation as to whether the phone call referred to in paragraph 2.10.132 was in fact from the Coroner (Dr Popper) or from Dr Slater, the pathologist. In paragraph 2.10.150 below, Dr Slater suggests that it was he – and not Dr Popper – who spoke to PC Bruder.
 
-[^56-9019]: Memorandum from SJ Wooler to the Attorney General, 6 February 1992, pp1-4. 57. 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA CARLILE (the mother and sister of Paul Carlile) JOHN AND THERESA GLOVER (the father and mother of Ian Glover) JOAN SINCLAIR (the sister of Michael Kelly) LESLIE AND DOREEN JONES (the father and mother of Richard Jones) PETER AND JOAN TOOTLE (the father and mother of Peter Tootle) JAMES STEPHEN AND ANNE WILLIAMS (the father and mother of Kevin Williams)', 15 April 1992, AGO000000070001, pp29-31.
+[^56-9019]: Memorandum from SJ Wooler to the Attorney General, 6 February 1992, pp1-4.
+
+[^57-9019]: 'TO HER MAJESTY'S ATTORNEY GENERAL: THE HUMBLE MEMORIAL OF SANDRA STRINGER AND DONNA CARLILE (the mother and sister of Paul Carlile) JOHN AND THERESA GLOVER (the father and mother of Ian Glover) JOAN SINCLAIR (the sister of Michael Kelly) LESLIE AND DOREEN JONES (the father and mother of Richard Jones) PETER AND JOAN TOOTLE (the father and mother of Peter Tootle) JAMES STEPHEN AND ANNE WILLIAMS (the father and mother of Kevin Williams)', 15 April 1992, AGO000000070001, pp29-31.
 
 [^58-9019]: Memorandum from SJ Wooler to the Attorney General, 31 July 1992, AGO000000140001, pp22-24.
 
