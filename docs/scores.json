@@ -1,9 +1,9 @@
 {
- "ingest": "v0.23.0",
+ "ingest": "v0.24.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.89375,
     "boundary_r": 0.8827160493827161,
@@ -51,7 +51,7 @@
   },
   "uk-chilcot-inquiry": {
    "set": "held-out",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.9942763695829926,
     "boundary_r": 0.7875647668393783,
@@ -99,7 +99,7 @@
   },
   "uk-grenfell-tower-inquiry": {
    "set": "held-out",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.9878391019644528,
     "boundary_r": 0.8414342629482072,
@@ -126,7 +126,7 @@
   },
   "uk-hillsborough-panel": {
    "set": "held-out",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.9114391143911439,
     "boundary_r": 0.9108789182544561,
@@ -220,7 +220,7 @@
   },
   "uk-post-office-horizon-inquiry": {
    "set": "held-out",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.9908361970217641,
     "boundary_r": 0.9105263157894737,
@@ -268,7 +268,7 @@
   },
   "uk-saville-inquiry": {
    "set": "development",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.8138115223197253,
     "boundary_r": 0.9920930232558139,
@@ -341,7 +341,7 @@
   },
   "us-911-commission": {
    "set": "development",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.9349945828819068,
     "boundary_r": 0.9411123227917121,
@@ -435,7 +435,7 @@
   },
   "us-duelfer-report": {
    "set": "held-out",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.8098833218943033,
     "boundary_r": 0.677382319173364,
@@ -462,7 +462,7 @@
   },
   "us-v-philip-morris": {
    "set": "development",
-   "ingest": "v0.23.0",
+   "ingest": "v0.24.0",
    "metrics": {
     "boundary_p": 0.9840593818447311,
     "boundary_r": 0.987906181285121,

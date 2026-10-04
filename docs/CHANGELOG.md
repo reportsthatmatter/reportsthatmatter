@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-04 — The Grenfell Tower Inquiry Phase 2 Report, Volume 1 (ingest v0.24.0)
+
+The Grenfell Tower Inquiry Phase 2 report, Volume 1, is now on the site: 843 citable paragraphs, 2,019 linked notes and its plate, searchable, with an approved introduction (Open Government Licence v3.0). The tables and figures are not yet shown, only their captions, and the hero waits. Ingest v0.24.0 adds four opt-in passes (`furnitureFaces`, `typographicHeadings` relevel, `numberedOpenings`, `figureFaces`) that only Grenfell declares, so the other 15 reports are byte-identical. One report published (about 2.5k index row writes), the other 15 untouched.
+
+---
+
 ## 2026-10-04 — The January 6th Committee's Final Report
 
 The Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol (H. Rept. 117-663) is now on the site: 2,283 citable paragraphs in 104 sections, 4,287 linked notes, searchable, with its plate, five share cards and an approved introduction. It is a US government work, in the public domain; the hero image waits. The introduction's background and findings were corrected in review (the first hearing was in July 2021; the Pence and 187-minutes findings now quote the report's own words), and posts and landing excerpts now nest a quotation inside a quotation as single quotes, which also changes Jack Smith's and Litvinenko's landing excerpts from an inner straight `"` to ‘ ’. One report published (6,851 index row writes), the other 14 untouched.

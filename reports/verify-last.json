@@ -269,12 +269,30 @@
     "total": 5,
     "known": 0
    }
+  },
+  "uk-grenfell-tower-inquiry": {
+   "oracle": {
+    "headings-missed": 70,
+    "headings-spurious": 2,
+    "markers-unlinked": 0,
+    "markers-spurious": 1,
+    "paragraphs-oversplit": 2,
+    "paragraphs-merged": 163,
+    "quotes-spurious": 1,
+    "quotes-missed": 20,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 7,
+    "total": 7,
+    "known": 0
+   }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 16,
-   "fp": 16,
+   "fp": 20,
    "fn": 10
   },
   "headings-spurious": {
@@ -299,7 +317,7 @@
   },
   "paragraphs-merged": {
    "tp": 8,
-   "fp": 175,
+   "fp": 178,
    "fn": 1
   },
   "quotes-spurious": {

@@ -187,7 +187,7 @@ units:
   - id: uk-grenfell-tower-inquiry
     scope: "Phase 2, Volume 1"
     bead: reportsthatmatter-gqsy.4
-    reached: editorial
+    reached: publish
     state: waiting
     evidence: "ingest PR #68, report repo PR #1 (branch phase2-vol1), site PR #293 (registry, budgets, plate, card, editorial); adjudicated.yaml committed (30 breaks; reference wrong 2/30, ours 3/30), held-out score recorded; local checks 2026-10-04"
-    notes: "Waiting on the ingest release carrying #68 (furnitureFaces, typographicHeadings relevel, numberedOpenings, figureFaces): the report's ingest.ts imports them. Volumes 2-7 are further units of this id (gqsy.4.2). Hero: gqsy.4.1."
+    notes: "Live 2026-10-04 (ingest v0.24.0, site #293, content version b40c6999bfe2). Volumes 2-7 are further units of this id (gqsy.4.2). Hero: gqsy.4.1. Tables and figures: bnqs."
