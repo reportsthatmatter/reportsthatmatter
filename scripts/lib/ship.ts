@@ -236,7 +236,7 @@ export function aliasProblems(rows: Array<[number, number, string]>, moved: Set<
 }
 
 /** Steps' ids in order, for `--from`, `--redo`, `--ack`. */
-export const STEP_ORDER = ["guard", "pin-bump", "install", "reingest", "baseline", "aggregate", "aliases", "prerender", "corpus", "editorial", "ratchet", "checks", "committed", "status", "d1-estimate", "publish", "deploy", "reindex", "seed", "verify-prod", "record"] as const;
+export const STEP_ORDER = ["guard", "pin-bump", "install", "reingest", "baseline", "aggregate", "aliases", "prerender", "corpus", "editorial", "cards", "ratchet", "checks", "committed", "status", "d1-estimate", "publish", "deploy", "reindex", "seed", "verify-prod", "record"] as const;
 export type StepId = (typeof STEP_ORDER)[number];
 
 // ---------------------------------------------------------------------------------------------------------------
@@ -534,6 +534,32 @@ export function buildSteps(): Step[] {
         if (ctx.has("scripts/marks.mjs", "check")) {
           await item(rt, "editorial", "marks", pnpm("marks", "check", "--all"), ["pnpm marks check <id>   (a saved mark whose paragraph id no longer resolves)", "Reads production D1; needs wrangler logged in. Offline: pnpm marks check --all --baseline <previous prerender>"]);
         }
+      },
+    },
+    {
+      id: "cards",
+      title: "Share cards and the posting queue follow the re-ingest",
+      kind: "write",
+      describe: () => [
+        "pnpm cards                        (re-renders every card, prunes the ones no highlight asks for any more; offline, needs chromium)",
+        "pnpm posts                        (re-links the queue to the current card names; writes marketing/queue.yaml only)",
+        "git status on assets/cards, src/generated/cards.ts, marketing/queue.yaml: anything changed STOPS the run (commit it in a PR, then `pnpm ship --redo cards`)",
+        "A re-ingest that moves a card:true highlight renames its card (reportsthatmatter-u09x); no D1 or network",
+      ],
+      async run(rt) {
+        const { ctx } = rt;
+        await item(rt, "cards", "cards", pnpm("cards"), ["pnpm cards renders every card; a quote that is no longer verbatim in its paragraph fails it", "Needs build/editorial-highlights.json (the editorial step) and playwright chromium: pnpm exec playwright install chromium"]);
+        // `pnpm posts` exits 1 for candidates it skips (a post over Bluesky's limit): that is not a failure here, a stale queue is read from git below.
+        await item(rt, "cards", "posts", pnpm("posts"), ["pnpm posts rewrites marketing/queue.yaml; a scheduled item whose paragraph is gone was dealt with in the editorial step"], { allowFail: true });
+        const paths = ["assets/cards", "src/generated/cards.ts", "marketing/queue.yaml"];
+        const changed = rt.probe.status(ctx.root, paths);
+        if (changed?.length) {
+          throw new Stop(`cards: the re-ingest left ${changed.length} card or queue file(s) stale; they are regenerated in the working tree:\n${changed.slice(0, 20).join("\n")}${changed.length > 20 ? "\n..." : ""}`, [
+            "Read the diff (a moved card is a rename; the PNG is byte-identical), commit it in a PR, merge it, then: pnpm ship --redo cards",
+            "A queue link that follows a moved highlight id is correct; a card whose PNG bytes changed means the card text or template changed",
+          ]);
+        }
+        rt.out("  ✓ cards, manifest and queue unchanged by the regeneration");
       },
     },
     {

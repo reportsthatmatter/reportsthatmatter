@@ -8,6 +8,14 @@
  *   pnpm cards --highlights [<id>…]   # only the quote cards for the editor's
  *                                      # highlights (all reports, or these)
  *   --all-highlights                  # every highlight, not only card: true
+ *   --check                           # render in memory and write nothing; exit 1 if any card or the
+ *                                      # manifest differs from disk, or a card nobody asks for is on disk
+ *                                      # (pnpm ship runs it after a re-ingest; offline, needs chromium)
+ *
+ * A full run (or --highlights) also deletes the cards nobody asks for any more: a re-ingest that moves a
+ * highlight's paragraph id moves its card's name, and the old file used to stay (reportsthatmatter-u09x).
+ * A full run keeps exactly the curated, highlight and default cards it rendered; --highlights [<report>…]
+ * prunes only q-* cards (in those reports). Nothing is pruned after a failed render, or an ad hoc run.
  *
  * Besides docs/share-quotes.yaml, every approved editorial highlight marked
  * `card: true` (build/editorial-highlights.json, from `pnpm editorial`) gets a
@@ -33,7 +41,8 @@ import { renderMarkdown } from "@rtm/ingest";
 import { extractParagraph } from "../src/templates/report.ts";
 import { findText } from "../assets/anchor.js";
 import { quoteCardId } from "../src/lib/card-key.ts";
-import { statSync, readdirSync } from "node:fs";
+import { orphanCards } from "../src/lib/card-plan.ts";
+import { statSync, readdirSync, rmSync } from "node:fs";
 import UPNG from "upng-js";
 
 /** A screenshot as a 64-colour PNG: a card is grey ink, a grey plate and one off-white, so nothing visible is lost. */
@@ -43,6 +52,19 @@ function quantise(png) {
 }
 
 const root = join(import.meta.dirname, "..");
+const checkOnly = process.argv.includes("--check");
+/** Files --check found different from what a render gives (or absent). */
+const drifted = [];
+
+/** Writes a rendered card, or under --check compares it with the committed bytes and writes nothing. */
+function save(path, bytes) {
+  if (checkOnly) {
+    if (!existsSync(path) || !readFileSync(path).equals(bytes)) drifted.push(path.slice(root.length + 1));
+    return;
+  }
+  mkdirSync(dirname(path), { recursive: true });
+  writeFileSync(path, bytes);
+}
 
 // setContent() renders from about:blank, so images have to travel with the HTML.
 const dataUri = (path, type) => `data:${type};base64,${readFileSync(path).toString("base64")}`;
@@ -132,7 +154,7 @@ function fitToCard(text, limit = 420) {
 
 const targets = [];
 const highlightsOnly = process.argv.includes("--highlights");
-const [argReport, argParagraph] = highlightsOnly ? [] : process.argv.slice(2);
+const [argReport, argParagraph] = highlightsOnly ? [] : process.argv.slice(2).filter((arg) => !arg.startsWith("--"));
 const highlightReports = highlightsOnly ? process.argv.slice(2).filter((arg) => !arg.startsWith("--")) : [];
 
 if (highlightsOnly) {
@@ -196,9 +218,7 @@ for (const target of targets) {
   await page.waitForTimeout(250);
   await assertFits(`${target.report}/${resolved.id}`);
 
-  const out = join(root, "assets/cards", target.report, `${resolved.id}.png`);
-  mkdirSync(dirname(out), { recursive: true });
-  await page.screenshot({ path: out });
+  save(join(root, "assets/cards", target.report, `${resolved.id}.png`), await page.screenshot());
 
   generated.push(`${target.report}/${resolved.id}`);
   console.log(`  ✓ ${target.report}/${resolved.id}${target.note ? ` — ${target.note}` : ""}`);
@@ -233,10 +253,10 @@ if (!(argReport && argParagraph)) {
       await page.waitForTimeout(150);
       await assertFits(`${h.report}/${id}`);
       const out = join(root, "assets/cards", h.report, `${id}.png`);
-      mkdirSync(dirname(out), { recursive: true });
-      writeFileSync(out, quantise(await page.screenshot()));
+      const bytes = quantise(await page.screenshot());
+      save(out, bytes);
       generated.push(`${h.report}/${id}`);
-      const kb = Math.round(statSync(out).size / 1024);
+      const kb = Math.round(bytes.length / 1024);
       // WhatsApp drops an og:image much over 300 KB; the rest allow megabytes.
       console.log(`  ${kb > 300 ? "!" : "✓"} ${h.report}/${id} (${kb} KB) — ${h.exact.slice(0, 60)}`);
     }
@@ -259,9 +279,7 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
   await page.setContent(siteHtml, { waitUntil: "networkidle" });
   await page.waitForTimeout(250);
   await assertFits("site");
-  const siteOut = join(root, "assets/cards/site.png");
-  mkdirSync(dirname(siteOut), { recursive: true });
-  await page.screenshot({ path: siteOut });
+  save(join(root, "assets/cards/site.png"), await page.screenshot());
   console.log(`  ✓ site`);
 
   for (const report of registry.reports) {
@@ -275,9 +293,7 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
     await page.waitForTimeout(250);
     await assertFits(`${report.id}/default`);
 
-    const out = join(root, "assets/cards", report.id, "default.png");
-    mkdirSync(dirname(out), { recursive: true });
-    await page.screenshot({ path: out });
+    save(join(root, "assets/cards", report.id, "default.png"), await page.screenshot());
 
     generated.push(`${report.id}/default`);
     console.log(`  ✓ ${report.id}/default`);
@@ -286,19 +302,42 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
 
 await browser.close();
 
-// A typed manifest so the Worker only advertises a card that exists — an
-// og:image pointing at a 404 is worse than none at all.
-// The manifest lists every card on disk, so an ad hoc or --highlights run
-// does not drop the cards it did not render this time.
+// Cards on disk, as <report>/<card>. The manifest lists every one that stays, so an ad hoc or
+// --highlights run does not drop the cards it did not render this time.
+const onDisk = [];
 for (const dir of readdirSync(join(root, "assets/cards"), { withFileTypes: true })) {
   if (!dir.isDirectory()) continue;
   for (const file of readdirSync(join(root, "assets/cards", dir.name))) {
-    if (file.endsWith(".png")) generated.push(`${dir.name}/${file.replace(/\.png$/, "")}`);
+    if (file.endsWith(".png")) onDisk.push(`${dir.name}/${file.replace(/\.png$/, "")}`);
   }
 }
-generated.splice(0, generated.length, ...new Set(generated));
+
+// Cards nobody asks for any more (u09x). A failed render means `generated` is incomplete: prune nothing then.
+const adHoc = Boolean(argReport && argParagraph);
+const orphans = adHoc || process.exitCode ? [] : orphanCards(onDisk, generated, highlightsOnly ? { quoteOnly: true, reports: highlightReports } : {});
+for (const name of orphans) {
+  if (checkOnly) console.error(`  ✗ ${name} — on disk, but no highlight, curated quote or report asks for it`);
+  else {
+    rmSync(join(root, "assets/cards", `${name}.png`));
+    console.log(`  - ${name} (no longer asked for; deleted)`);
+  }
+}
+
+// A typed manifest so the Worker only advertises a card that exists — an
+// og:image pointing at a 404 is worse than none at all.
+const listed = new Set([...onDisk.filter((name) => !orphans.includes(name)), ...generated]);
 const manifest = `/* Generated by scripts/cards.mjs — do not edit. */
-export const CARDS: ReadonlySet<string> = new Set(${JSON.stringify(generated.sort(), null, 2)});
+export const CARDS: ReadonlySet<string> = new Set(${JSON.stringify([...listed].sort(), null, 2)});
 `;
-writeFileSync(join(root, "src/generated/cards.ts"), manifest);
-console.log(`\n${generated.length} card(s); manifest written to src/generated/cards.ts`);
+const manifestPath = join(root, "src/generated/cards.ts");
+if (checkOnly) {
+  if (!existsSync(manifestPath) || readFileSync(manifestPath, "utf8") !== manifest) drifted.push("src/generated/cards.ts");
+  for (const file of drifted) console.error(`  ✗ ${file} differs from a fresh render`);
+  if (drifted.length || orphans.length) {
+    console.error(`\ncards are stale (${drifted.length} differ, ${orphans.length} orphaned): run pnpm cards${highlightsOnly ? " --highlights" : ""} and commit the result`);
+    process.exitCode = 1;
+  } else if (!process.exitCode) console.log(`\n${listed.size} card(s) and the manifest match a fresh render.`);
+} else {
+  writeFileSync(manifestPath, manifest);
+  console.log(`\n${listed.size} card(s); manifest written to src/generated/cards.ts`);
+}

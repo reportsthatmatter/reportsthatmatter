@@ -23,8 +23,6 @@ export const CARDS: ReadonlySet<string> = new Set([
   "jack-smith-vol1/q-dcc17ddf",
   "jack-smith-vol1/rioters-capitol-had-been-motivated",
   "jack-smith-vol1/set-forth-original-superseding-indictments",
-  "jack-smith-vol1/vice-president-pence-told-trump",
-  "jack-smith-vol1/violence-further-delay-service-these",
   "litvinenko-inquiry/default",
   "litvinenko-inquiry/q-22bb38bb",
   "litvinenko-inquiry/q-459a007b",
