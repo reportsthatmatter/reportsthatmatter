@@ -52,7 +52,7 @@ export type MarksDB = {
   prepare(sql: string): {
     bind(...args: unknown[]): {
       run(): Promise<unknown>;
-      all<T = unknown>(): Promise<{ results: T[] }>;
+      all<T = unknown>(): Promise<{ results: T[]; meta?: { rows_read?: number } }>;
       first<T = unknown>(): Promise<T | null>;
     };
   };
@@ -177,11 +177,21 @@ export async function markCounts(
   threshold: number,
   meta?: AliasMeta
 ): Promise<MarkCount[]> {
+  return (await markCountsRead(db, report, threshold, meta)).counts;
+}
+
+/** `markCounts`, and the D1 rows the read cost (`meta.rows_read`; 0 where the database does not say), for the edge cache's TTL. */
+export async function markCountsRead(
+  db: MarksDB,
+  report: string,
+  threshold: number,
+  meta?: AliasMeta
+): Promise<{ counts: MarkCount[]; rowsRead: number }> {
   // Grouped by whether the actor is the editor, so readers and the editor are
   // counted apart (decision 0014); the two halves of a passage are merged
   // below. Floor 1: the threshold applies to readers after merging, and an
   // editor's highlight shows whatever its reader count.
-  const { results } = await db
+  const { results, meta: d1Meta } = await db
     .prepare(
       `SELECT paragraph, exact, prefix, suffix, MAX(page) as page, COUNT(DISTINCT actor) as readers,
               (actor LIKE '${EDITOR_ACTOR_PREFIX}%') as editor
@@ -209,7 +219,8 @@ export async function markCounts(
       if (row.page !== null && (have.page === null || row.page > have.page)) have.page = row.page;
     }
   }
-  return [...merged.values()]
+  const counts = [...merged.values()]
     .filter((row) => row.editor || row.readers >= threshold)
     .sort((a, b) => b.readers - a.readers || Number(b.editor) - Number(a.editor));
+  return { counts, rowsRead: Number(d1Meta?.rows_read) || 0 };
 }
