@@ -5,6 +5,7 @@ published_at: "8 July 2025"
 source_url: "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf"
 pages: 165
 footnotes: 345
+corrections: 11
 ---
 
 %%page 1%%
@@ -111,13 +112,9 @@ Contents
 
 1.16. As followers of the Inquiry will be aware, I held many hearings to receive oral evidence about human impact between February and May 2022. I also held discrete hearings at which I received submissions about financial redress on 6 July 2022, 13 July 2022, 8 December 2022 and 27 April 2023. I have published the following:
 
-(i) "Chair's Progress Update on Issues relating to Compensation"
+(i) "Chair's Progress Update on Issues relating to Compensation" ("the Progress Update") on 15 August 2022.[^12]
 
-("the Progress Update") on 15 August 2022.[^12]
-
-(ii) "Chair's Statement on Issues relating to Compensation"
-
-("the Chair's Statement") on 9 January 2023.[^13]
+(ii) "Chair's Statement on Issues relating to Compensation" ("the Chair's Statement") on 9 January 2023.[^13]
 
 (iii) "First Interim Report: Compensation" ("the Interim Report") on 17 July 2023.[^14]
 
@@ -1620,41 +1617,25 @@ However, the department endorses the view expressed by the Board in the report o
 
 4.279. The Committee regarded HSS as "the worst of the redress schemes".[^252] It was so concerned about the administration of HSS and the delivery of redress thereunder that it devised what it described as "a ten-point plan" for the future delivery of redress under the scheme. It recommended that the Government should implement that plan as soon as possible which was in the following terms:
 
-> "1. The Post Office should be removed from delivering redress to claimants
+> "1. The Post Office should be removed from delivering redress to claimants through the HSS.
 
-through the HSS.
+> 2. If the Post Office cannot be taken out in a timely way, complex cases should be transferred to the Department immediately, while the Post Office looks to automate standard payments for simple cases.
 
-> 2. If the Post Office cannot be taken out in a timely way, complex cases should
-
-be transferred to the Department immediately, while the Post Office looks to automate standard payments for simple cases.
-
-> 3. Claimants should be provided up-front legal advice, paid for by the scheme's
-
-administrators.
+> 3. Claimants should be provided up-front legal advice, paid for by the scheme's administrators.
 
 > 4. There should be an explicit over-riding instruction to lawyers to use best endeavours to assess claims and deliver justice that is swift and fair.
 
-> 5. The Independent Panel must meet full time until the majority of cases have
+> 5. The Independent Panel must meet full time until the majority of cases have been assessed.
 
-been assessed.
+> 6. An independent adjudicator should be appointed to act as a case manager throughout the scheme.
 
-> 6. An independent adjudicator should be appointed to act as a case manager
-
-throughout the scheme.
-
-> 7. Claimants should be given the benefit of the doubt with the evidence provided
-
-in support of a claim.
+> 7. Claimants should be given the benefit of the doubt with the evidence provided in support of a claim.
 
 8. Offers should be made at the top of the range for each category of loss.
 
-> 9. Challenged offers should move into external mediation rather than be reas-
+> 9. Challenged offers should move into external mediation rather than be reassessed by the Independent Panel.
 
-sessed by the Independent Panel.
-
-> 10. Binding timeframes for each stage of the process should be imposed, with
-
-financial penalties awarded to the claimant if those deadlines are not met."[^253]
+> 10. Binding timeframes for each stage of the process should be imposed, with financial penalties awarded to the claimant if those deadlines are not met."[^253]
 
 %%page 105%%
 
@@ -1706,9 +1687,7 @@ financial penalties awarded to the claimant if those deadlines are not met."[^25
 
 #### Delaying Financial Redress
 
-4.293. In his witness statement dated 6 September 2024, Mr Henry Staunton, the chair of the Post Office Board between December 2022 and January 2024, described his early dealings with the Department and, in particular, the then permanent secretary, Ms Sarah Munby. 265
-
-Mr Staunton received a letter from her dated 9 December 2022; they met on 5 January 2023. Mr Staunton maintained in his statement, and repeated in oral evidence, that he made a note of what had been said at the meeting more or less contemporaneously.
+4.293. In his witness statement dated 6 September 2024, Mr Henry Staunton, the chair of the Post Office Board between December 2022 and January 2024, described his early dealings with the Department and, in particular, the then permanent secretary, Ms Sarah Munby.[^265] Mr Staunton received a letter from her dated 9 December 2022; they met on 5 January 2023. Mr Staunton maintained in his statement, and repeated in oral evidence, that he made a note of what had been said at the meeting more or less contemporaneously.
 
 %%page 108%%
 

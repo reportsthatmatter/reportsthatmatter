@@ -3895,14 +3895,14 @@
       ]
     },
     "uk-post-office-horizon-inquiry": {
-      "words": 83681,
-      "paragraphs": 959,
+      "words": 83638,
+      "paragraphs": 948,
       "sections": [
         {
           "slug": "introduction",
           "title": "INTRODUCTION",
-          "paragraphs": 32,
-          "ids": "c7bebb62866a"
+          "paragraphs": 30,
+          "ids": "43ccd09d44eb"
         },
         {
           "slug": "recommendations",
@@ -3961,8 +3961,8 @@
         {
           "slug": "f-discrete-topics-relevant-to-all-schemes",
           "title": "f. Discrete topics relevant to all schemes",
-          "paragraphs": 109,
-          "ids": "6a95a681c5bd"
+          "paragraphs": 100,
+          "ids": "c14ba09c9624"
         },
         {
           "slug": "g-restorative-justice",
