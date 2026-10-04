@@ -251,12 +251,30 @@
     "total": 5,
     "known": 1
    }
+  },
+  "us-jan6-committee": {
+   "oracle": {
+    "headings-missed": 62,
+    "headings-spurious": 15,
+    "markers-unlinked": 16,
+    "markers-spurious": 17,
+    "paragraphs-oversplit": 133,
+    "paragraphs-merged": 2599,
+    "quotes-spurious": 17,
+    "quotes-missed": 779,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 5,
+    "total": 5,
+    "known": 0
+   }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 16,
-   "fp": 15,
+   "fp": 16,
    "fn": 10
   },
   "headings-spurious": {
@@ -276,12 +294,12 @@
   },
   "paragraphs-oversplit": {
    "tp": 15,
-   "fp": 12,
+   "fp": 14,
    "fn": 30
   },
   "paragraphs-merged": {
    "tp": 8,
-   "fp": 164,
+   "fp": 175,
    "fn": 1
   },
   "quotes-spurious": {
@@ -291,7 +309,7 @@
   },
   "quotes-missed": {
    "tp": 3,
-   "fp": 21,
+   "fp": 23,
    "fn": 0
   }
  }
