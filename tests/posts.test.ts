@@ -12,6 +12,7 @@ import {
   type QueueItem,
   type ResolvedPost,
 } from "../src/lib/posts";
+import { quoteCardId } from "../src/lib/card-key";
 
 const HTML = `
 <p id="so-what" data-page="30"><a class="permalink" href="#so-what">¶</a>When an advisor rushed to tell Mr. Trump, he replied "So what?"<label class="sidenote-toggle">1</label><span class="sidenote">See ECF No. 252 at 142.</span> The riot continued.</p>
@@ -141,6 +142,19 @@ describe("resolveCandidate", () => {
     expect(result.item.cardIsDefault).toBe(true);
   });
 
+  it("uses the quote card for exactly these words when one was rendered (f2e)", () => {
+    const quote = 'When an advisor rushed to tell Mr. Trump, he replied "So what?"';
+    const id = quoteCardId("so-what", quote);
+    const cards = new Set([...CARDS, `demo/${id}`]);
+    for (const origin of ["editorial", "share-quotes"] as const) {
+      const result = resolveCandidate(candidate({ origin }), HTML, cards, "https://example.org");
+      expect(result.ok).toBe(true);
+      if (!result.ok) return;
+      expect(result.item.card).toBe(`assets/cards/demo/${id}.png`);
+      expect(result.item.cardIsDefault).toBe(false);
+    }
+  });
+
   it("rejects a candidate with no card at all, specific or default", () => {
     const result = resolveCandidate(candidate({ origin: "editorial" }), HTML, new Set(), "https://example.org");
     expect(result.ok).toBe(false);
@@ -187,6 +201,26 @@ function resolved(overrides: Partial<ResolvedPost> = {}): ResolvedPost {
 }
 
 describe("buildQueue", () => {
+  it("gives a not-yet-posted item its current card, and leaves a posted one as posted (f2e)", () => {
+    const first = buildQueue({
+      resolved: [resolved({ id: "a", card: "assets/cards/demo/default.png" }), resolved({ id: "b", paragraph: "other", card: "assets/cards/demo/default.png" })],
+      existing: [],
+      today: "2026-09-27",
+      reportOrder: ["demo"],
+    });
+    const posted = first.queue.map((i) => (i.id === "b" ? { ...i, posted_url: "https://bsky.app/x" } : i));
+    const { queue } = buildQueue({
+      resolved: [resolved({ id: "a", card: "assets/cards/demo/q-1.png" }), resolved({ id: "b", paragraph: "other", card: "assets/cards/demo/q-2.png" })],
+      existing: posted,
+      today: "2026-09-28",
+      reportOrder: ["demo"],
+    });
+    expect(queue.map((i) => [i.id, i.card, i.scheduled])).toEqual([
+      ["a", "assets/cards/demo/q-1.png", first.queue[0].scheduled],
+      ["b", "assets/cards/demo/default.png", first.queue[1].scheduled],
+    ]);
+  });
+
   it("schedules every candidate starting the day after today, round-robin", () => {
     const { queue, added } = buildQueue({
       resolved: [resolved({ id: "a", report: "one" }), resolved({ id: "b", report: "two" })],

@@ -56,7 +56,8 @@ export function createFakeD1(): MarksDB & { rows: Row[] } {
                 const groups = new Map<string, Row[]>();
                 for (const row of rows) {
                   if (row.report !== report) continue;
-                  const key = `${row.paragraph} ${row.exact}`;
+                  const editor = sql.includes("editorial:") && row.actor.startsWith("editorial:");
+                  const key = `${row.paragraph} ${row.exact} ${editor}`;
                   const group = groups.get(key) ?? [];
                   group.push(row);
                   groups.set(key, group);
@@ -69,6 +70,7 @@ export function createFakeD1(): MarksDB & { rows: Row[] } {
                     suffix: group[0].suffix,
                     page: Math.max(...group.map((row) => row.page ?? -Infinity)),
                     readers: new Set(group.map((row) => row.actor)).size,
+                    editor: group[0].actor.startsWith("editorial:") ? 1 : 0,
                   }))
                   .filter((row) => row.readers >= threshold)
                   .sort((a, b) => b.readers - a.readers);

@@ -18,6 +18,9 @@ import { buildIndex, mark, rangeFor } from "./dom-text.js";
 
 const body = document.getElementById("report-body");
 
+/** Set once an editor's highlight is marked, so the page can say what the shading is. */
+let editorOnPage = false;
+
 if (body) {
   const report = body.dataset.report;
   if (report) markCounts(report);
@@ -39,7 +42,7 @@ function washFor(readers) {
 /**
  * @typedef {{
  *   paragraph: string, exact: string, prefix: string, suffix: string,
- *   page: number | null, readers: number
+ *   page: number | null, readers: number, editor?: boolean
  * }} MarkCount
  */
 
@@ -70,11 +73,40 @@ async function markCounts(report) {
     const range = rangeFor(index, found.start, found.end);
     if (!range) continue;
 
-    const marks = mark(range, ["social-proof"]);
-    const title = `Highlighted by ${entry.readers} reader${entry.readers === 1 ? "" : "s"}`;
+    const marks = mark(range, entry.editor ? ["social-proof", "editor"] : ["social-proof"]);
+    const title = markedTitle(entry);
     for (const element of marks) {
-      element.style.background = washFor(entry.readers);
+      // The editor's own highlight reads at the weight of one reader: it is a
+      // pointer, not a crowd (decision 0014).
+      element.style.background = washFor(Math.max(entry.readers, 1));
       element.title = title;
     }
+    if (entry.editor) editorOnPage = true;
   }
+
+  if (editorOnPage) addKey();
+}
+
+
+/**
+ * Who marked a passage, in words. The editor's highlights are never counted as
+ * readers and never pose as one (decision 0014).
+ * @param {MarkCount} entry @returns {string}
+ */
+export function markedTitle(entry) {
+  const readers = entry.readers
+    ? `${entry.readers} reader${entry.readers === 1 ? "" : "s"}`
+    : "";
+  if (entry.editor) return readers ? `Editor’s highlight · also marked by ${readers}` : "Editor’s highlight";
+  return `Highlighted by ${readers}`;
+}
+
+/** One line under the page header saying what the shading is, once a page has an editor's highlight. */
+function addKey() {
+  const header = document.querySelector(".report-header .measure");
+  if (!header || header.querySelector(".marks-key")) return;
+  const key = document.createElement("p");
+  key.className = "byline mono marks-key";
+  key.innerHTML = '<span class="marks-key-swatch" aria-hidden="true"></span>Shaded: the editor’s highlights and passages readers marked';
+  header.appendChild(key);
 }

@@ -15,7 +15,8 @@
  * all of them.
  *
  * Also writes build/editorial-highlights.json: Rufus's highlights resolved to
- * marks-table rows, for `pnpm seed-highlights` (g0w.11). Not bundled — the
+ * marks-table rows, for `pnpm seed-highlights` (g0w.11), from approved files
+ * only (wb0). Not bundled — the
  * Worker never needs them; they reach readers through the marks table.
  */
 import "./lib/help.mjs";
@@ -75,7 +76,9 @@ for (const name of files) {
   const result = resolveEditorial(source, readFileSync(bodyPath, "utf8"), structure, assetSize);
   problems.push(...result.problems);
   resolved[source.report] = result.editorial;
-  highlights.push(...result.highlights);
+  // Only an approved file's highlights reach the marks table: a draft's are
+  // previewed with ?draft, never published as the editor's (wb0).
+  if (source.status === "approved") highlights.push(...result.highlights);
 
   const { findings, readingGuide } = result.editorial;
   const quotes = findings.filter((f) => f.excerpt).length + readingGuide.filter((r) => r.excerpt).length;
