@@ -1,0 +1,192 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      editor's highlights: seeded into the marks table, not printed here
+#
+# Written 2026-10-04 (reportsthatmatter-gqsy.3) to the same rule as Jack Smith's:
+# our words neutral and attributed ("the committee concludes"), every judgment
+# in the report's own words and in quotation marks.
+#
+# Sources for the background facts that are not in the report (checked 2026-10-04):
+#   commission bill: H.R. 3233 passed the House 19 May 2021; Senate cloture failed
+#     28 May 2021, 54 to 35 (en.wikipedia.org/wiki/January_6_commission; congress.gov H.R. 3233 actions)
+#   first hearing 27 July 2021, four police officers (npr.org/2021/07/27/1021051613);
+#     hearings June-October 2022: the report's own "nine public hearings" (p.3)
+#   referral vote 19 December 2022, unanimous (abc7.com/12590634)
+#   Jack Smith appointed 18 November 2022, indicted Trump 1 August 2023, case
+#     dismissed 25 November 2024 (the Jack Smith report, Vol. 1, on this site)
+#   Biden's pre-emptive pardons of the committee's members and staff (and the
+#     officers who testified), 20 January 2025 (abc7.com/post/15818813)
+#   Proclamation 10887, 20 January 2025: clemency for about 1,500 people, 14
+#     commutations (en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants)
+#   House Administration Subcommittee on Oversight (chair Barry Loudermilk):
+#     "Initial Findings Report", 11 March 2024 (cha.house.gov/2024/3/chairman-loudermilk-releases-january-6-initial-findings-report)
+#     and an interim report, December 2024 (cha.house.gov/2024/12/chairman-loudermilk-releases-second-january-6-2021-report)
+
+report: us-jan6-committee
+status: approved
+
+why_it_matters: >-
+  The final report of the House select committee that investigated the attack
+  on the US Capitol on 6 January 2021. Drawing on its hearings, depositions
+  and documents, some obtained after litigation, it sets out the
+  committee's account of the efforts to overturn the 2020 presidential
+  election, and its conclusions, criminal referrals and recommendations.
+
+background: |
+  Joe Biden won the presidential election of November 2020. On 6 January 2021,
+  while Congress met in joint session to count the electoral votes, a crowd of
+  supporters of the outgoing president, Donald Trump, broke into the Capitol,
+  and the count was halted for several hours.
+
+  A bill for an independent bipartisan commission passed the House in May 2021
+  but failed in the Senate. On 30 June 2021 the House voted 222 to 190 to set
+  up a select committee instead (H. Res. 503). After Speaker Nancy Pelosi
+  declined to appoint two of the five Republicans proposed by Republican Leader
+  Kevin McCarthy, he withdrew all five. The committee sat with seven Democrats,
+  chaired by Bennie Thompson, and two Republicans appointed by the Speaker,
+  Liz Cheney, its vice chair, and Adam Kinzinger. The report sets out this
+  history, and the objections to the committee's make-up, in its own words.
+
+  Its first hearing, in July 2021, heard police officers who had defended the
+  Capitol; its main public hearings ran from June to October 2022. On 19
+  December 2022 it voted to
+  refer Donald Trump and others to the Justice Department, and it published
+  this report, dated 22 December 2022, in the last days of that Congress. The
+  referrals are a committee's recommendations, not charges; its findings are a
+  congressional committee's, not a court's.
+
+  A special counsel, Jack Smith, appointed in November 2022, later charged
+  Trump in federal court; the case was dismissed after he won the 2024
+  election. On 20 January 2025 President Biden pardoned the committee's members
+  and staff in advance, and President Trump granted clemency to about 1,500
+  people charged over 6 January. In 2024 a Republican-led House subcommittee
+  published reports criticising the select committee's conduct and some of its
+  evidence.
+
+findings:
+  - text: The committee's overriding conclusion is that the central cause of 6 January was Donald Trump.
+    cites: [committee-s-hearings-we-presented, from-outset-its-hearings-committee]
+    excerpt:
+      paragraph: committee-s-hearings-we-presented
+      quote: >-
+        That evidence has led to an overriding and straightforward conclusion:
+        the central cause of January 6th was one man, former President Donald
+        Trump, whom many others followed. None of the events of January 6th
+        would have happened without him.
+
+  - text: The report finds that his campaign advisers, his Justice Department and his White House lawyers told him repeatedly that there was no fraud that could have changed the result, and that the courts rejected his challenges.
+    cites: [short-president-trump-informed-over, over-weeks-followed-dozens-judges, ultimately-even-rudolph-giuliani-his]
+    excerpt:
+      paragraph: short-president-trump-informed-over
+      quote: >-
+        In short, President Trump was informed over and over again, by his
+        senior appointees, campaign experts and those who had served him for
+        years, that his election fraud allegations were nonsense.
+
+  - text: It describes his pressure on state officials and legislators, including his call asking Georgia's Secretary of State to find votes.
+    cites: [during-january-2-2021-call, addition-plan-create-transmit-fake]
+    excerpt:
+      paragraph: during-january-2-2021-call
+      quote: >-
+        During a January 2, 2021, call, President Trump pressured Georgia’s
+        Republican Secretary of State Brad Raffensperger to “find 11,780
+        votes.”
+
+  - text: It describes how slates of Republican electors met on 14 December 2020 in states Joe Biden had won, and sent their certificates to Washington.
+    cites: [false-slates-created-fake-republican, fake-electors-followed-chesebro-s]
+
+  - text: It describes the attempt to put Jeffrey Clark in charge of the Justice Department, dropped when the department's leadership said they would resign.
+    cites: [committee-s-investigation-has-shown, faced-mass-resignations-recognizing-breakage]
+
+  - text: 'It describes the pressure on Vice President Mike Pence to refuse to count electoral votes, and finds that "no White House lawyer believed Pence could lawfully refuse to count electoral votes."'
+    cites: [central-element-donald-trump-s, be-absolutely-clear-no-white, jacob-recorded-eastman-s-admission]
+    excerpt:
+      paragraph: jacob-recorded-eastman-s-admission
+      quote: >-
+        Jacob recorded Eastman’s admission in an internal memo he drafted for
+        Vice President Pence on the evening of January 4th: “Professor Eastman
+        acknowledges that his proposal violates several provisions of
+        statutory law.”
+
+  - text: It finds that during the attack he was urged for hours to tell his supporters to leave the Capitol, and did so at 4:17 p.m.; it calls those 187 minutes "a dereliction of duty".
+    cites: [from-outset-violence-several-hours, 187-minutes-between-end-president, evidence-overwhelmingly-demonstrates-president-trump]
+
+  - text: It refers Donald Trump and others to the Justice Department, and makes eleven recommendations, starting with reform of the Electoral Count Act.
+    cites: [report-also-examines-legal-implications, our-report-describes-donald-j]
+
+reading_guide:
+  - section: executive-summary
+    why: How the committee frames its work, starting with an Oath Keeper testifying against the group's leader, and what the report covers.
+    excerpt:
+      paragraph: october-31-2022-federal-courthouse
+      quote: >-
+        On October 31, 2022, in a Federal courthouse in Washington, DC, Graydon
+        Young testified against Stewart Rhodes and other members of the Oath
+        Keepers militia group.
+
+  - section: executive-summary-overview-of-the-evidence-developed
+    why: The committee's whole account in summary, from election night to the afternoon of 6 January.
+
+  - section: referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi
+    why: The criminal referrals, statute by statute, and the referral of members of Congress who did not comply with subpoenas.
+    excerpt:
+      paragraph: today-we-know-planning-overturn
+      quote: >-
+        Today we know that the planning to overturn the election on January 6th
+        was substantially more extensive, and involved many other players, and
+        many other efforts over a longer time period.
+
+  - section: chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me
+    why: The Justice Department chapter, from Attorney General Barr's resignation to the threat of mass resignations.
+
+  - section: chapter-7-187-minutes-of-dereliction
+    why: The afternoon of 6 January inside the White House, hour by hour.
+    excerpt:
+      paragraph: 1-21-p-m-president
+      quote: >-
+        By 1:21 p.m., President Trump was informed that the Capitol was under
+        attack. He could have interceded immediately. But the President chose
+        not to do so. It was not until 4:17 p.m. that President Trump finally
+        tweeted a video in which he told the rioters to go home.
+
+  - section: recommendations
+    why: The committee's eleven recommendations, from the Electoral Count Act to the Insurrection Act.
+
+highlights:
+  - paragraph: committee-s-hearings-we-presented
+    quote: None of the events of January 6th would have happened without him.
+  - paragraph: during-january-2-2021-call
+    quote: During a January 2, 2021, call, President Trump pressured Georgia’s Republican Secretary of State Brad Raffensperger to “find 11,780 votes.”
+    card: true
+  - paragraph: one-select-committee-s-hearings
+    quote: 'His response: “None.”'
+  - paragraph: white-house-counsel-pat-cipollone
+    quote: White House Counsel Pat Cipollone threatened to resign as well, describing Clark’s letter as a “murder-suicide pact.”
+    card: true
+  - paragraph: short-president-trump-informed-over
+    quote: President Trump was informed over and over again, by his senior appointees, campaign experts and those who had served him for years, that his election fraud allegations were nonsense.
+    card: true
+  - paragraph: ultimately-even-rudolph-giuliani-his
+    quote: he admitted during his Select Committee deposition that “I do not think the machines stole the election.”
+  - paragraph: jacob-recorded-eastman-s-admission
+    quote: “Professor Eastman acknowledges that his proposal violates several provisions of statutory law.”
+    card: true
+  - paragraph: 1-21-p-m-president
+    quote: It was not until 4:17 p.m. that President Trump finally tweeted a video in which he told the rioters to go home.
+    card: true
+  - paragraph: evidence-shows-2-24-p
+    quote: Outside the building, within ten minutes thousands of rioters overran the line on the west side of the Capitol that was being held by the Metropolitan Police Force’s Civil Disturbance Unit, the first time in history of the DC Metro Police that such a security line had ever been broken.
+  - paragraph: faced-mass-resignations-recognizing-breakage
+    quote: These guys are going to quit. Everyone else is going to resign. It’s going to be a disaster.
+  - paragraph: prior-january-6th-numerous-government
+    quote: Prior to January 6th, numerous government agencies received intelligence that those descending on The Mall for a rally organized by the President were armed and that their target may be the Capitol.
+  - paragraph: we-told-remove-our-lapel
+    quote: We were told to remove our lapel pins.
+  - paragraph: our-report-describes-donald-j
+    quote: H.R. 8873 reaffirms that a Vice President has no authority or discretion to reject an official electoral slate submitted by the Governor of a state.

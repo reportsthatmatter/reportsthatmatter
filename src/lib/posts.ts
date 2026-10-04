@@ -86,17 +86,22 @@ export type ResolvedPost = {
  * quote already inside it (a quotation within the quotation — Trump's own
  * words, say) — `"...he replied "So what?""` reads as three quotes, not one.
  * Standard nesting fixes it: typographic outer quotes, and every inner
- * straight double quote alternates to an opening or closing single quote.
+ * straight double quote alternates to an opening or closing single quote
+ * (typographic “ ” inside become ‘ ’).
  * Only the *display* text changes — the quote used for the verbatim check
  * and the `?h=` anchor is untouched, so this never risks misquoting.
  */
 function nestQuotes(quote: string): string {
   let opening = true;
-  const inner = quote.replace(/"/g, () => {
-    const mark = opening ? "‘" : "’";
-    opening = !opening;
-    return mark;
-  });
+  const inner = quote
+    .replace(/"/g, () => {
+      const mark = opening ? "‘" : "’";
+      opening = !opening;
+      return mark;
+    })
+    // A report set in curly quotes (January 6th) nests the same way: “ ” inside become ‘ ’.
+    .replace(/“/g, "‘")
+    .replace(/”/g, "’");
   return `“${inner}”`;
 }
 

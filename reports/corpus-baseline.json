@@ -4031,6 +4031,636 @@
           "ids": "5bf41314c6ff"
         }
       ]
+    },
+    "us-jan6-committee": {
+      "words": 370108,
+      "paragraphs": 2283,
+      "sections": [
+        {
+          "slug": "select-committee-to-investigate-the-january-6th-attack-on-the-united-states-capi",
+          "title": "SELECT COMMITTEE TO INVESTIGATE THE JANUARY 6TH ATTACK ON THE UNITED STATES CAPITOL",
+          "paragraphs": 107,
+          "ids": "e197ea34b775"
+        },
+        {
+          "slug": "foreword-speaker-of-the-house",
+          "title": "Foreword: Speaker of the House",
+          "paragraphs": 7,
+          "ids": "f85937f37b7a"
+        },
+        {
+          "slug": "foreword-chairman",
+          "title": "Foreword: Chairman",
+          "paragraphs": 45,
+          "ids": "069dddc96a6c"
+        },
+        {
+          "slug": "foreword-vice-chair",
+          "title": "Foreword: Vice Chair",
+          "paragraphs": 21,
+          "ids": "4077f8f9a8c6"
+        },
+        {
+          "slug": "executive-summary",
+          "title": "Executive Summary",
+          "paragraphs": 17,
+          "ids": "190f34df539b"
+        },
+        {
+          "slug": "executive-summary-overview-of-the-evidence-developed",
+          "title": "Executive Summary: Overview of the Evidence Developed",
+          "paragraphs": 327,
+          "ids": "292a1fc1e773"
+        },
+        {
+          "slug": "referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi",
+          "title": "Referrals to the U.S. Department of Justice Special Counsel and House Ethics Committee",
+          "paragraphs": 68,
+          "ids": "6d22610b724f"
+        },
+        {
+          "slug": "efforts-to-avoid-testifying-evidence-of-obstruction-and-assessments-of-witness-c",
+          "title": "Efforts to Avoid Testifying, Evidence of Obstruction, and Assessments of Witness Credibility",
+          "paragraphs": 36,
+          "ids": "92c0fd9f5e75"
+        },
+        {
+          "slug": "summary-creation-of-the-select-committee-purposes",
+          "title": "Summary: Creation of the Select Committee; Purposes.",
+          "paragraphs": 13,
+          "ids": "2890dd94e27b"
+        },
+        {
+          "slug": "select-committee-witnesses-were-almost-entirely-republican",
+          "title": "Select Committee Witnesses Were Almost Entirely Republican",
+          "paragraphs": 7,
+          "ids": "902b4bf38f27"
+        },
+        {
+          "slug": "chapter-1-the-big-lie",
+          "title": "Chapter 1. THE BIG LIE",
+          "paragraphs": 11,
+          "ids": "dadbcb0e14c8"
+        },
+        {
+          "slug": "11-the-big-lie-reflected-deliberate-exploitation-of-the-red-mirage",
+          "title": "1.1 The Big Lie Reflected Deliberate Exploitation of the “Red Mirage”",
+          "paragraphs": 6,
+          "ids": "c27ee3077004"
+        },
+        {
+          "slug": "12-trumps-pre-election-plans-to-declare-victory",
+          "title": "1.2 Trump’s Pre-Election Plans to Declare Victory",
+          "paragraphs": 7,
+          "ids": "a5178fa913fa"
+        },
+        {
+          "slug": "13-trumps-pre-election-efforts-to-delegitimize-the-election-process",
+          "title": "1.3 Trump’s Pre-Election Efforts to Delegitimize the Election Process",
+          "paragraphs": 10,
+          "ids": "88eff2c1423f"
+        },
+        {
+          "slug": "14-president-trumps-launch-of-the-big-lie",
+          "title": "1.4 President Trump’s Launch of the Big Lie",
+          "paragraphs": 7,
+          "ids": "7d93ea4ecb70"
+        },
+        {
+          "slug": "16-president-trumps-campaign-team-told-him-he-lost-the-election-and-there-was-no",
+          "title": "1.6 President Trump’s Campaign Team Told Him He Lost the Election and There Was No Significant Fraud",
+          "paragraphs": 27,
+          "ids": "163f5a312a77"
+        },
+        {
+          "slug": "17-president-trump-had-his-day-in-court",
+          "title": "1.7 President Trump Had His Day in Court",
+          "paragraphs": 11,
+          "ids": "e3dfcd41b306"
+        },
+        {
+          "slug": "18-president-trump-repeatedly-promoted-conspiracy-theories",
+          "title": "1.8 President Trump Repeatedly Promoted Conspiracy Theories",
+          "paragraphs": 72,
+          "ids": "084d40e6641f"
+        },
+        {
+          "slug": "19-president-trumps-january-6th-speech",
+          "title": "1.9 President Trump’s January 6th Speech",
+          "paragraphs": 10,
+          "ids": "e9ace28ee398"
+        },
+        {
+          "slug": "chapter-2-i-just-want-to-find-11780-votes",
+          "title": "Chapter 2. “I JUST WANT TO FIND 11,780 VOTES”",
+          "paragraphs": 9,
+          "ids": "176836d57071"
+        },
+        {
+          "slug": "21-the-electoral-college-and-president-trumps-attempt-to-subvert-it",
+          "title": "2.1 The Electoral College, and President Trump’s Attempt to Subvert It",
+          "paragraphs": 6,
+          "ids": "0674c83656d2"
+        },
+        {
+          "slug": "22-the-plan-emerges",
+          "title": "2.2 The Plan Emerges",
+          "paragraphs": 20,
+          "ids": "c090e02d908b"
+        },
+        {
+          "slug": "23-outreach-and-implementation-of-the-plan",
+          "title": "2.3 Outreach and Implementation of the Plan",
+          "paragraphs": 85,
+          "ids": "69125ead48f1"
+        },
+        {
+          "slug": "24-an-outright-request-for-victory",
+          "title": "2.4 An Outright Request for Victory",
+          "paragraphs": 10,
+          "ids": "46f30f2e9eef"
+        },
+        {
+          "slug": "25-some-officials-eagerly-assisted-president-trump-with-his-plans",
+          "title": "2.5 Some Officials Eagerly Assisted President Trump With His Plans",
+          "paragraphs": 11,
+          "ids": "5480405930dd"
+        },
+        {
+          "slug": "26-the-final-outreach-to-state-legislators",
+          "title": "2.6 The Final Outreach to State Legislators",
+          "paragraphs": 19,
+          "ids": "e6307f982820"
+        },
+        {
+          "slug": "27-the-harm-caused-by-demonizing-public-servants",
+          "title": "2.7 The Harm Caused by Demonizing Public Servants",
+          "paragraphs": 24,
+          "ids": "e2e3992015da"
+        },
+        {
+          "slug": "chapter-3-fake-electors-and-the-the-president-of-the-senate-strategy",
+          "title": "Chapter 3. FAKE ELECTORS AND THE “THE PRESIDENT OF THE SENATE STRATEGY”",
+          "paragraphs": 8,
+          "ids": "2d1e544faab6"
+        },
+        {
+          "slug": "31-laying-the-groundwork-for-the-fake-elector-plan-the-chesebro-memos",
+          "title": "3.1 Laying the Groundwork for the Fake Elector Plan: The Chesebro Memos",
+          "paragraphs": 8,
+          "ids": "43dc7df3b888"
+        },
+        {
+          "slug": "32-president-trump-and-the-campaign-adopt-the-fake-elector-scheme",
+          "title": "3.2 President Trump and the Campaign Adopt the Fake Elector Scheme",
+          "paragraphs": 5,
+          "ids": "a19646c4b25c"
+        },
+        {
+          "slug": "33-the-campaign-legal-team-bows-out-and-giuliani-steps-in",
+          "title": "3.3 The Campaign Legal Team Bows Out, and Giuliani Steps In",
+          "paragraphs": 13,
+          "ids": "df562ae41d56"
+        },
+        {
+          "slug": "34-some-of-the-proposed-fake-electors-express-concerns-about-the-plan",
+          "title": "3.4 Some of the Proposed Fake Electors Express Concerns About the Plan",
+          "paragraphs": 6,
+          "ids": "3f5261a06915"
+        },
+        {
+          "slug": "35-on-december-14th-the-fake-electors-meet-and-vote",
+          "title": "3.5 On December 14th, The Fake Electors Meet and Vote",
+          "paragraphs": 6,
+          "ids": "32c8685c188d"
+        },
+        {
+          "slug": "36-the-fallout-from-the-fake-elector-plan",
+          "title": "3.6 The Fallout from the Fake Elector Plan",
+          "paragraphs": 17,
+          "ids": "86c72fa3da56"
+        },
+        {
+          "slug": "chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me",
+          "title": "Chapter 4. “JUST CALL IT CORRUPT AND LEAVE THE REST TO ME”",
+          "paragraphs": 6,
+          "ids": "525ce3ded373"
+        },
+        {
+          "slug": "42-november-23-2020-barr-challenges-president-trumps-election-lies",
+          "title": "4.2 November 23, 2020: Barr Challenges President Trump’s Election Lies",
+          "paragraphs": 8,
+          "ids": "818de93d3be4"
+        },
+        {
+          "slug": "43-december-1-2020-president-trump-is-irate-after-barr-says-there-is-no-signific",
+          "title": "4.3 December 1, 2020: President Trump is Irate After Barr Says There is No Significant Fraud",
+          "paragraphs": 19,
+          "ids": "e5246f0cbdc4"
+        },
+        {
+          "slug": "44-december-14-2020-barr-submits-his-resignation",
+          "title": "4.4 December 14, 2020: Barr Submits His Resignation",
+          "paragraphs": 4,
+          "ids": "cb7c797b463d"
+        },
+        {
+          "slug": "45-acting-attorney-general-jeffrey-rosen-and-acting-deputy-attorney-general-rich",
+          "title": "4.5 Acting Attorney General Jeffrey Rosen and Acting Deputy Attorney General Richard Donoghue Hold the Line",
+          "paragraphs": 6,
+          "ids": "2567f978ef9a"
+        },
+        {
+          "slug": "46-president-trump-is-introduced-to-jeffrey-clark",
+          "title": "4.6 President Trump is Introduced to Jeffrey Clark",
+          "paragraphs": 6,
+          "ids": "456e0c4da579"
+        },
+        {
+          "slug": "47-december-27th-phone-call",
+          "title": "4.7 December 27th Phone Call",
+          "paragraphs": 19,
+          "ids": "373a86fadf3e"
+        },
+        {
+          "slug": "48-congressman-scott-perry-calls-donoghue",
+          "title": "4.8 Congressman Scott Perry Calls Donoghue",
+          "paragraphs": 5,
+          "ids": "9e4b88d1d54c"
+        },
+        {
+          "slug": "49-december-28-2020-the-clark-letter",
+          "title": "4.9 December 28, 2020: The Clark Letter",
+          "paragraphs": 14,
+          "ids": "f658602dcf0c"
+        },
+        {
+          "slug": "410-december-29th-meeting",
+          "title": "4.10 December 29th Meeting",
+          "paragraphs": 6,
+          "ids": "06cf2b981771"
+        },
+        {
+          "slug": "412-december-31st-meeting",
+          "title": "4.12 December 31st Meeting",
+          "paragraphs": 7,
+          "ids": "52a52b2ac432"
+        },
+        {
+          "slug": "413-january-2-2021-rosen-and-donoghue-confront-clark-again",
+          "title": "4.13 January 2, 2021: Rosen and Donoghue Confront Clark Again",
+          "paragraphs": 3,
+          "ids": "09847d23ce8e"
+        },
+        {
+          "slug": "414-january-3-2021-clark-informs-doj-leadership-that-he-will-accept-president-tr",
+          "title": "4.14 January 3, 2021: Clark Informs DOJ Leadership that He Will Accept President Trump’s Offer",
+          "paragraphs": 24,
+          "ids": "62e29b4696f2"
+        },
+        {
+          "slug": "chapter-5-a-coup-in-search-of-a-legal-theory",
+          "title": "Chapter 5. “A COUP IN SEARCH OF A LEGAL THEORY”",
+          "paragraphs": 19,
+          "ids": "5056869ef25f"
+        },
+        {
+          "slug": "51-president-trump-and-his-allies-embark-on-a-desperate-gambit-to-block-certific",
+          "title": "5.1 President Trump and His Allies Embark on a Desperate Gambit to Block Certification of the 2020 Presidential Election.",
+          "paragraphs": 37,
+          "ids": "217be48a8bd6"
+        },
+        {
+          "slug": "52-president-trump-and-his-allies-exert-intense-public-and-private-pressure-on-t",
+          "title": "5.2 President Trump and his Allies Exert Intense Public and Private Pressure on the Vice President in Advance of the Joint Session of Congress on January 6th",
+          "paragraphs": 67,
+          "ids": "bb3b18594209"
+        },
+        {
+          "slug": "53-president-trump-and-his-allies-continue-to-pressure-the-vice-president-on-jan",
+          "title": "5.3 President Trump and his Allies Continue to Pressure the Vice President on January 6th, Threatening His Life and Our Democracy.",
+          "paragraphs": 44,
+          "ids": "a2deb376314c"
+        },
+        {
+          "slug": "54-president-trump-endangers-pences-life-causing-the-vice-president-his-family-a",
+          "title": "5.4 President Trump Endangers Pence’s Life, Causing the Vice President, His Family, and Staff to Narrowly Miss the Rioters as They Flee the Mob Attacking the Capitol.",
+          "paragraphs": 20,
+          "ids": "9e596e6709cc"
+        },
+        {
+          "slug": "chapter-6-be-there-will-be-wild",
+          "title": "Chapter 6. “BE THERE, WILL BE WILD!”",
+          "paragraphs": 16,
+          "ids": "d838ef6914d4"
+        },
+        {
+          "slug": "61-how-far-right-extremists-and-conspiracy-theorists-planned-for-january-6th",
+          "title": "6.1 How Far-right Extremists and Conspiracy Theorists Planned for January 6th",
+          "paragraphs": 19,
+          "ids": "f0c669b403db"
+        },
+        {
+          "slug": "62-the-proud-boys-you-want-to-storm-the-capitol",
+          "title": "6.2 The Proud Boys: “[Y]ou Want to Storm the Capitol”",
+          "paragraphs": 26,
+          "ids": "3d2d6ca11a5d"
+        },
+        {
+          "slug": "63-the-oath-keepers-he-called-us-all-to-the-capitol-and-wants-us-to-make-it-wild",
+          "title": "6.3 The Oath Keepers: “He Called Us All to the Capitol and Wants Us to Make it Wild!!!”",
+          "paragraphs": 6,
+          "ids": "f9f93fe50991"
+        },
+        {
+          "slug": "64-trump-said-its-gonna-be-wild-its-gonna-be-wild",
+          "title": "6.4 “Trump Said It’s Gonna be Wild!!!!!!! It’s Gonna be Wild!!!!!!!”",
+          "paragraphs": 10,
+          "ids": "b5fefdad87a3"
+        },
+        {
+          "slug": "65-ready-to-step-in-and-do-what-is-needed",
+          "title": "6.5 “Ready to Step in And Do What Is Needed”",
+          "paragraphs": 7,
+          "ids": "c51e1c8e33d9"
+        },
+        {
+          "slug": "66-friends-of-stone",
+          "title": "6.6 “Friends of Stone”",
+          "paragraphs": 8,
+          "ids": "0b99cd54beb8"
+        },
+        {
+          "slug": "67-white-nationalists-the-capitol-siege-was-fucking-awesome",
+          "title": "6.7 White Nationalists: “The Capitol Siege was Fucking Awesome…”",
+          "paragraphs": 9,
+          "ids": "6803587cd5c1"
+        },
+        {
+          "slug": "68-the-three-iii-percenters-occupycongress",
+          "title": "6.8 The Three (III%) Percenters: “#OccupyCongress”",
+          "paragraphs": 19,
+          "ids": "390706859cf4"
+        },
+        {
+          "slug": "69-qanon-operation-occupy-the-capitol",
+          "title": "6.9 QAnon: “Operation Occupy the Capitol”",
+          "paragraphs": 11,
+          "ids": "24902feed518"
+        },
+        {
+          "slug": "610-thedonaldwin-occupy-the-capitol",
+          "title": "6.10 TheDonald.win: “Occupy the Capitol”",
+          "paragraphs": 11,
+          "ids": "c2abb0a55202"
+        },
+        {
+          "slug": "611-how-the-white-house-and-rally-organizers-prepared-for-january-6th",
+          "title": "6.11 How the White House and Rally Organizers Prepared for January 6th",
+          "paragraphs": 5,
+          "ids": "3dc7e6dd8d31"
+        },
+        {
+          "slug": "612-hes-calling-on-you-he-needs-your-help",
+          "title": "6.12 “He’s Calling on You, He Needs Your Help”",
+          "paragraphs": 6,
+          "ids": "9529ae7c3172"
+        },
+        {
+          "slug": "613-trump-is-supposed-to-order-us-to-the-capitol",
+          "title": "6.13 “Trump is Supposed to Order Us to the Capitol”",
+          "paragraphs": 7,
+          "ids": "02c745e0871c"
+        },
+        {
+          "slug": "614-well-i-should-walk-with-the-people",
+          "title": "6.14 “Well, I Should Walk With the People.”",
+          "paragraphs": 3,
+          "ids": "2d9ee2dfbffe"
+        },
+        {
+          "slug": "615-potuslikes-the-crazies",
+          "title": "6.15 “POTUS…Likes the Crazies.”",
+          "paragraphs": 9,
+          "ids": "72bcb473c782"
+        },
+        {
+          "slug": "616-january-5-2021-fort-trump",
+          "title": "6.16 January 5, 2021: “Fort Trump”",
+          "paragraphs": 10,
+          "ids": "a2eccced894b"
+        },
+        {
+          "slug": "617-together-we-will-stop-the-steal",
+          "title": "6.17 “Together, We Will STOP THE STEAL.”",
+          "paragraphs": 11,
+          "ids": "fd7c41aebb3d"
+        },
+        {
+          "slug": "chapter-7-187-minutes-of-dereliction",
+          "title": "Chapter 7. 187 MINUTES OF DERELICTION",
+          "paragraphs": 17,
+          "ids": "157606a3927f"
+        },
+        {
+          "slug": "71-reinsert-the-mike-pence-lines",
+          "title": "7.1 “Reinsert the Mike Pence Lines”",
+          "paragraphs": 14,
+          "ids": "0efcbe801e9e"
+        },
+        {
+          "slug": "72-ill-be-there-with-you",
+          "title": "7.2 “I’ll Be There With You”",
+          "paragraphs": 18,
+          "ids": "ad6c783ff247"
+        },
+        {
+          "slug": "73-the-presidents-anger-when-he-could-not-march-to-the-capitol",
+          "title": "7.3 The President’s Anger When He Could Not March to the Capitol",
+          "paragraphs": 18,
+          "ids": "8f4c1a931fa7"
+        },
+        {
+          "slug": "74-were-going-to-try-to-get-the-president-to-put-out-a-statement",
+          "title": "7.4 “We’re Going to Try to Get the President to Put Out a Statement”",
+          "paragraphs": 23,
+          "ids": "7a8ab6893654"
+        },
+        {
+          "slug": "75-he-doesnt-want-to-do-anything",
+          "title": "7.5 “He Doesn’t Want to Do Anything”",
+          "paragraphs": 12,
+          "ids": "f3ce12dfa9a2"
+        },
+        {
+          "slug": "76-he-thinks-mike-deserves-it",
+          "title": "7.6 “He Thinks Mike Deserves It”",
+          "paragraphs": 9,
+          "ids": "8ce8a6d27964"
+        },
+        {
+          "slug": "77-i-guess-theyre-just-more-upset-about-the-election-theft-than-you-are",
+          "title": "7.7 “I Guess They’re Just More Upset About the Election Theft Than You Are”",
+          "paragraphs": 13,
+          "ids": "f58254ac0e40"
+        },
+        {
+          "slug": "78-stay-peaceful",
+          "title": "7.8 “Stay Peaceful!”",
+          "paragraphs": 14,
+          "ids": "17f80f2b4fb0"
+        },
+        {
+          "slug": "79-the-president-needs-to-stop-this-asap",
+          "title": "7.9 “The President Needs to Stop This ASAP”",
+          "paragraphs": 11,
+          "ids": "2e81534d8040"
+        },
+        {
+          "slug": "710-we-love-you-youre-very-special",
+          "title": "7.10 “We Love You. You’re Very Special”",
+          "paragraphs": 23,
+          "ids": "f01e3fd5124c"
+        },
+        {
+          "slug": "712-president-trump-still-sought-to-delay-the-joint-session",
+          "title": "7.12 President Trump Still Sought to Delay the Joint Session",
+          "paragraphs": 15,
+          "ids": "ec3ec7b583b5"
+        },
+        {
+          "slug": "713-he-just-didnt-want-to-talk-about-it-anymore",
+          "title": "7.13 He “Just Didn’t Want to Talk About It Anymore”",
+          "paragraphs": 11,
+          "ids": "e61a86907259"
+        },
+        {
+          "slug": "714-president-trumps-rhetoric-killed-someone",
+          "title": "7.14 President Trump’s “Rhetoric Killed Someone”",
+          "paragraphs": 13,
+          "ids": "b779698f8156"
+        },
+        {
+          "slug": "chapter-8-analysis-of-the-attack",
+          "title": "Chapter 8. ANALYSIS OF THE ATTACK",
+          "paragraphs": 8,
+          "ids": "151b4fdd177b"
+        },
+        {
+          "slug": "81-the-mob-assembles-in-washington",
+          "title": "8.1 The Mob Assembles in Washington",
+          "paragraphs": 17,
+          "ids": "ff09b5324dc8"
+        },
+        {
+          "slug": "82-march-of-the-proud-boys",
+          "title": "8.2 March of the Proud Boys",
+          "paragraphs": 9,
+          "ids": "8eb27de791ae"
+        },
+        {
+          "slug": "83-the-initial-attack",
+          "title": "8.3 The Initial Attack",
+          "paragraphs": 9,
+          "ids": "52862404d285"
+        },
+        {
+          "slug": "84-president-trumps-mob-descends-on-the-us-capitol",
+          "title": "8.4 President Trump’s Mob Descends on the U.S. Capitol",
+          "paragraphs": 13,
+          "ids": "d3d768b9faf0"
+        },
+        {
+          "slug": "85-the-mob-surges",
+          "title": "8.5 The Mob Surges",
+          "paragraphs": 8,
+          "ids": "32a799a8f2ed"
+        },
+        {
+          "slug": "86-the-united-states-capitol-is-breached",
+          "title": "8.6 The United States Capitol is Breached",
+          "paragraphs": 28,
+          "ids": "91d46c6b55fb"
+        },
+        {
+          "slug": "87-president-trump-pours-fuel-on-the-fire",
+          "title": "8.7 President Trump Pours Fuel on the Fire",
+          "paragraphs": 18,
+          "ids": "35aa0f42b2f5"
+        },
+        {
+          "slug": "88-the-evacuation",
+          "title": "8.8 The Evacuation",
+          "paragraphs": 6,
+          "ids": "6df8823cc658"
+        },
+        {
+          "slug": "89-clearing-the-us-capitol-building-and-restricted-grounds",
+          "title": "8.9 Clearing the U.S. Capitol Building and Restricted Grounds",
+          "paragraphs": 17,
+          "ids": "d8d0e385f339"
+        },
+        {
+          "slug": "recommendations",
+          "title": "Recommendations",
+          "paragraphs": 11,
+          "ids": "5acb27b734e6"
+        },
+        {
+          "slug": "appendix-1-government-agency-preparation-for-and-response-to-january-6th",
+          "title": "APPENDIX 1: GOVERNMENT AGENCY PREPARATION FOR AND RESPONSE TO JANUARY 6TH",
+          "paragraphs": 5,
+          "ids": "703f745f56c0"
+        },
+        {
+          "slug": "discussion",
+          "title": "Discussion",
+          "paragraphs": 71,
+          "ids": "69799e4474fc"
+        },
+        {
+          "slug": "appendix-2-dc-national-guard-preparation-for-and-response-to-january-6th",
+          "title": "APPENDIX 2: DC NATIONAL GUARD PREPARATION FOR AND RESPONSE TO JANUARY 6TH",
+          "paragraphs": 161,
+          "ids": "f528dbdacba7"
+        },
+        {
+          "slug": "appendix-3-the-big-rip-off-follow-the-money",
+          "title": "APPENDIX 3: THE BIG RIP-OFF: FOLLOW THE MONEY",
+          "paragraphs": 38,
+          "ids": "e12a19c10f66"
+        },
+        {
+          "slug": "2020-election-the-role-of-election-fraud-messaging",
+          "title": "2020 ELECTION: THE ROLE OF ELECTION FRAUD MESSAGING",
+          "paragraphs": 8,
+          "ids": "96dfa9b2c0b6"
+        },
+        {
+          "slug": "alarms-raised-about-tmagac-fundraising-content",
+          "title": "ALARMS RAISED ABOUT TMAGAC FUNDRAISING CONTENT",
+          "paragraphs": 28,
+          "ids": "d9bb6cbfb1a1"
+        },
+        {
+          "slug": "where-did-the-money-go",
+          "title": "WHERE DID THE MONEY GO?",
+          "paragraphs": 20,
+          "ids": "903fdae90650"
+        },
+        {
+          "slug": "impact-of-the-trump-campaigns-false-claims",
+          "title": "IMPACT OF THE TRUMP CAMPAIGN’S FALSE CLAIMS",
+          "paragraphs": 9,
+          "ids": "69dee8f57c7d"
+        },
+        {
+          "slug": "appendix-4-malign-foreign-influence",
+          "title": "APPENDIX 4: MALIGN FOREIGN INFLUENCE",
+          "paragraphs": 25,
+          "ids": "77f3b0107663"
+        }
+      ]
     }
   }
 }

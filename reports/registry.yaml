@@ -188,4 +188,16 @@ reports:
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-post-office-horizon-inquiry/full.md
     source_url: "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf"
+  - id: us-jan6-committee
+    title: "Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol"
+    authors: "Select Committee to Investigate the January 6th Attack on the United States Capitol, U.S. House of Representatives"
+    published_at: "22 December 2022"
+    common_name: "January 6th Committee Report"
+    also_known_as: ["Final Report of the January 6th Select Committee", "January 6th Committee Final Report", "H. Rept. 117-663"]
+    issued_by: "Select Committee to Investigate the January 6th Attack on the United States Capitol"
+    date_published: "2022-12-22"
+    repo: us-jan6-committee
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/us-jan6-committee/full.md
+    source_url: "https://www.govinfo.gov/app/details/GPO-J6-REPORT"
     ingested: true
