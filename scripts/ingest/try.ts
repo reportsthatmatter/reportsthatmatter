@@ -29,6 +29,7 @@ import { SIGNALS } from "../../src/lib/quality/signals.ts";
 import { diffTable } from "../../src/lib/quality/diff.ts";
 import { diffSnapshots, formatDiff, type Snapshot } from "../lib/render-diff.ts";
 import { diffFindings, formatFindingsDiff, fromAnchors, fromOracle, fromQuality, type NormFinding } from "../lib/findings-diff.ts";
+import { diffFolios, formatFolioDiff, type FolioReport } from "../lib/folios.ts";
 import { installedIngest } from "../lib/ingest-version.ts";
 import { backupFile, lockPathFor, readLock, relink, restore, writeLock, type Lock } from "../lib/trial-links.ts";
 // @ts-expect-error plain .mjs
@@ -100,6 +101,8 @@ type Side = {
   scoreDir?: string;
   /** Oracle, anchor and quality findings per report id. */
   findings: Map<string, NormFinding[]>;
+  /** Each page's printed-number read and source per report id (`pnpm ingest folios --json`); empty when the ingest has no `folioReport`. */
+  folios: Map<string, FolioReport>;
   /** Why a findings source is missing for a report (a missing PDF, a crash), so a gap is not read as a clean side. */
   gaps: string[];
 };
@@ -111,10 +114,14 @@ function runLoose(args: string[], env: NodeJS.ProcessEnv, out: string, log: stri
   return existsSync(out);
 }
 
-function collectFindings(ids: string[], snaps: Snapshot[], env: NodeJS.ProcessEnv, tmp: string, tag: string): Pick<Side, "findings" | "gaps"> {
+function collectFindings(ids: string[], snaps: Snapshot[], env: NodeJS.ProcessEnv, tmp: string, tag: string): Pick<Side, "findings" | "gaps" | "folios"> {
   const findings = new Map<string, NormFinding[]>();
   const gaps: string[] = [];
+  const folios = new Map<string, FolioReport>();
   for (const id of ids) {
+    const foliosOut = join(tmp, `${tag}-folios-${id}.json`);
+    if (runLoose(["folios", id, "--json", foliosOut], env, foliosOut, join(tmp, `${tag}-folios-${id}.log`))) folios.set(id, (JSON.parse(readFileSync(foliosOut, "utf8")) as Record<string, FolioReport>)[id]);
+    else gaps.push(`${id}: no folio report (the ingest has no folioReport, or the re-ingest failed; see ${tag}-folios-${id}.log)`);
     const list: NormFinding[] = fromQuality(snaps.find((s) => s.id === id)?.qualityFindings ?? []);
     const oracleOut = join(tmp, `${tag}-oracle-${id}.json`);
     if (runLoose(["verify", id, "--no-golden", "--findings-json", oracleOut], env, oracleOut, join(tmp, `${tag}-verify-${id}.log`))) {
@@ -126,7 +133,7 @@ function collectFindings(ids: string[], snaps: Snapshot[], env: NodeJS.ProcessEn
     } else gaps.push(`${id}: no anchor findings`);
     findings.set(id, list);
   }
-  return { findings, gaps };
+  return { findings, gaps, folios };
 }
 
 export async function runTry(argv: string[]): Promise<number> {
@@ -265,7 +272,7 @@ export async function runTry(argv: string[]): Promise<number> {
         scoreDir = join(tmp, `score-${tag}`);
         run("pnpm", ["score", ...scored, "--out", scoreDir, ...layoutFlag], { log: join(tmp, `score-${tag}.log`) });
       }
-      let found: Pick<Side, "findings" | "gaps"> = { findings: new Map(), gaps: [] };
+      let found: Pick<Side, "findings" | "gaps" | "folios"> = { findings: new Map(), gaps: [], folios: new Map() };
       if (wantFindings) {
         say(`Findings with ${label} (oracle, anchors) …`);
         found = collectFindings(ids, snaps, env, tmp, tag);
@@ -297,6 +304,11 @@ export async function runTry(argv: string[]): Promise<number> {
         say(formatFindingsDiff(id, d, limit));
       }
       if (!total) say("(no finding moved)");
+      say(`\n== Pages that changed source (vision or pipeline) or printed-number read, ${was} ${before.version} to ${now} ${after.version} ==`);
+      for (const id of ids) {
+        const [b, a] = [before.folios.get(id), after.folios.get(id)];
+        say(b && a ? formatFolioDiff(id, diffFolios(b, a), limit) : `${id}: not compared (a side has no folio report)`);
+      }
       for (const g of [...before.gaps.map((x) => `${was}: ${x}`), ...after.gaps.map((x) => `${now}: ${x}`)]) say(`  ! ${g}`);
     }
     if (keep) say(`\n--keep: the site is still linked to ${ingestDir}. Undo with: pnpm ingest try --restore  (then pnpm prerender)`);
