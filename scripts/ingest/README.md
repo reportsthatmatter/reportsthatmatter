@@ -11,6 +11,7 @@ pnpm ingest page <id> <vol> <pdfPage> [--draft] [--fixture <name>]   # one page'
 pnpm ingest outline <id>    # one line per PDF page (headings, block counts) to choose golden pages from
 pnpm ingest preflight       # is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline run it first; --no-preflight skips)
 pnpm ingest try <branch|path> [<id>...]   # what would an unreleased ingest do to the rendered corpus? (below)
+pnpm ingest folios <id>... [--pages all|N-M] [--limit N] [--json <file>]   # the printed number read off each PDF page, its source (pipeline, vision, html), the printed-minus-PDF offset runs, stray reads and unread pages (vwqr; needs an ingest with folioReport)
 pnpm ingest anchors [<id>...] [--check] [--ratchet] [--md <full.md>]   # where each %%page%% marker lands, checked from the PDF text layer alone; budgets in reports/anchor-budget.yaml (docs/quality-harness.md, "Page anchors")
 pnpm ingest check           # has any report's output moved?
 pnpm ingest baseline <id>   # accept a move, after reading the diff
@@ -68,6 +69,7 @@ With no ids it runs every report. It snapshots the pages the pinned ingest rende
 - the quality counts as `pnpm quality report --diff` shows them, regressions marked `▲` (only when a count moved);
 - the score decisions that flipped, for reports with a reference edition (`pnpm score --diff`; `--no-score` skips it);
 - the **findings diff** (38s.18): the layout-oracle findings, the page-anchor findings and the quality-signal excerpts that appeared or vanished between the two sides, per report, so a reviewer reads the three new cases rather than all 36. Findings are matched by source, signal and text, not by page or id (a page-break join moves every later marker by a page), and one that only changed page is counted, not listed. `--limit N` caps the findings listed per signal; `--no-findings` skips it. It runs `pnpm ingest verify <id> --no-golden --findings-json` and `pnpm ingest anchors <id> --json` against each side, in the trial worktrees.
+- the **page source and folio view** (vwqr): per report, the pages whose source flipped between the two sides (vision to pipeline or back, the gate moving) and the pages whose read printed number changed, as ranges. It runs `pnpm ingest folios <id> --json` against each side; a side whose ingest has no `folioReport` is reported as not compared. `--no-findings` skips it too.
 
 **`--base <ref|path>`** makes the "before" side an ingest too, run exactly as the trial is (linked into the site and the report worktrees, re-ingested, prerendered), instead of the pinned ingest as the site renders it now. Use it for a PR against an unreleased `main`, where the pin is the wrong baseline. The base must be at least as new as the passes the report repos declare at `HEAD`: a report repo that imports a pass the base lacks fails with "does not provide an export" (the previous release against report repos already on the new pin does). Every side prints the ingest version and path it used (lesson mv1t); `pnpm ingest verify` prints the same on stderr.
 
