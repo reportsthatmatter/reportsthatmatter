@@ -589,8 +589,20 @@
         {
           "slug": "thiokol",
           "title": "THIOKOL",
-          "paragraphs": 56,
-          "ids": "d3f4947db3ba"
+          "paragraphs": 11,
+          "ids": "6c421ca0193d"
+        },
+        {
+          "slug": "electrical",
+          "title": "ELECTRICAL",
+          "paragraphs": 4,
+          "ids": "85e76894493c"
+        },
+        {
+          "slug": "o-rings-and-putty",
+          "title": "O-RINGS AND PUTTY",
+          "paragraphs": 41,
+          "ids": "35574b706533"
         },
         {
           "slug": "terrestrial-environment-climatic-criteria",
@@ -967,8 +979,14 @@
         {
           "slug": "appendix-2-terms-of-reference",
           "title": "Appendix 2: Terms of Reference",
-          "paragraphs": 23,
-          "ids": "6dfa3a9c4c82"
+          "paragraphs": 6,
+          "ids": "d8fb8133928c"
+        },
+        {
+          "slug": "appendix-3-list-of-issues",
+          "title": "Appendix 3: List of Issues",
+          "paragraphs": 17,
+          "ids": "054a7a257ff4"
         },
         {
           "slug": "appendix-4-chronology",
@@ -985,8 +1003,14 @@
         {
           "slug": "appendix-6-abbreviations",
           "title": "Appendix 6: Abbreviations",
-          "paragraphs": 156,
-          "ids": "9888764f30b1"
+          "paragraphs": 2,
+          "ids": "52d28e0be6a9"
+        },
+        {
+          "slug": "appendix-7-restriction-notices-and-orders",
+          "title": "Appendix 7: Restriction Notices and Orders",
+          "paragraphs": 154,
+          "ids": "23093ac4d1e8"
         },
         {
           "slug": "appendix-8-key-documents",
@@ -997,8 +1021,20 @@
         {
           "slug": "appendix-9-list-of-witnesses",
           "title": "Appendix 9: List of witnesses",
-          "paragraphs": 33,
-          "ids": "a6c6fd4e59c9"
+          "paragraphs": 16,
+          "ids": "40764b7b141a"
+        },
+        {
+          "slug": "appendix-10-list-of-inquiry-staff-and-counsel",
+          "title": "Appendix 10: List of Inquiry staff and counsel",
+          "paragraphs": 3,
+          "ids": "42f1da75c0e6"
+        },
+        {
+          "slug": "appendix-11-list-of-core-participants-and-legal-representatives",
+          "title": "Appendix 11: List of core participants and legal representatives",
+          "paragraphs": 14,
+          "ids": "dfe063cb037b"
         }
       ]
     },
@@ -3899,8 +3935,8 @@
           "ids": "4e1dcd22334c"
         },
         {
-          "slug": "a-introduction",
-          "title": "a. Introduction",
+          "slug": "the-human-impact",
+          "title": "THE HUMAN IMPACT",
           "paragraphs": 6,
           "ids": "7b17019f2b6f"
         },
@@ -3917,8 +3953,8 @@
           "ids": "198d567f694a"
         },
         {
-          "slug": "a-introduction-2",
-          "title": "a. Introduction",
+          "slug": "financial-and-other-redress",
+          "title": "FINANCIAL AND OTHER REDRESS",
           "paragraphs": 15,
           "ids": "ba0271d96550"
         },
