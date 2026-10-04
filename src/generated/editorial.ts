@@ -1382,7 +1382,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     "background": [
       "In the early hours of 14 June 2017 a fire broke out in the kitchen of a flat in Grenfell Tower, a high-rise residential block in west London managed for the Royal Borough of Kensington and Chelsea (RBKC) by a tenant management organisation (the TMO). The tower had been refurbished between 2012 and 2016, when new cladding and insulation were fixed to its outside walls. The fire escaped from the flat into the external wall and spread rapidly up the outside of the building, and within a few hours it had engulfed almost all of it. 72 people died, 18 of them children.",
       "The Grenfell Tower Inquiry was set up in June 2017 under the Inquiries Act 2005, chaired by Sir Martin Moore-Bick. Its Phase 1 report, published on 30 October 2019, set out what happened on the night. Phase 2 asked how the building came to be in a condition that allowed the fire to spread as it did. Its hearings began in January 2020 and ran to 312 days, and before reporting the Panel wrote to 247 individuals and organisations it was minded to criticise. The Phase 2 report was published on 4 September 2024 in seven volumes. A public inquiry may not rule on civil or criminal liability, and the Panel says it has not attempted, with some exceptions, to apportion blame.",
-      "The report notes that the government had already banned metal composite panels with unmodified polyethylene cores on the external walls of buildings of any height and reformed building control while the Inquiry was sitting. On 26 February 2025 the government published its response: it accepted 49 of the report's 58 recommendations in full and the other 9, all directed at government, in principle, and said it fully supports the Metropolitan Police in its investigation. The recommendations are in Volume 7, which is not yet on this site."
+      "The report notes that the government had already banned metal composite panels with unmodified polyethylene cores on the external walls of buildings of any height and reformed building control while the Inquiry was sitting. On 26 February 2025 the government published its response: 49 of the report's 58 recommendations were accepted in full, by the government and the other organisations responsible, and the other 9, all directed at government, in principle. The government said it fully supports the Metropolitan Police in its investigation. The recommendations are in Volume 7, which is not yet on this site."
     ],
     "findings": [
       {
@@ -1425,6 +1425,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "2-9-between-2012-2017",
             "page": 10,
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-9-between-2012-2017"
+          },
+          {
+            "id": "2-12-department-displayed-complacent",
+            "page": 10,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=2-12-department-displayed-complacent"
           }
         ],
         "excerpt": {
@@ -1483,6 +1488,21 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "2-19-one-very-significant",
             "page": 12,
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-19-one-very-significant"
+          },
+          {
+            "id": "2-21-arconic-architectural-products",
+            "page": 12,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=2-21-arconic-architectural-products"
+          },
+          {
+            "id": "2-28-celotex-manufactured-rs5000",
+            "page": 13,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=2-28-celotex-manufactured-rs5000"
+          },
+          {
+            "id": "2-37-when-did-return",
+            "page": 14,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=2-37-when-did-return"
           },
           {
             "id": "2-20-those-strategies-succeeded",

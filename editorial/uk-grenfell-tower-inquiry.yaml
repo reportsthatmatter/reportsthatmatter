@@ -24,8 +24,9 @@
 #   - Phase 2 report published 4 September 2024 in seven volumes: GOV.UK publication
 #     page, https://www.gov.uk/government/publications/publication-of-the-grenfell-tower-inquiry-phase-2-report
 #   - Government response published 26 February 2025 (GOV.UK content API,
-#     first_published_at); 49 of the 58 recommendations accepted in full, the other
-#     9 (all directed at government) accepted in principle; "The government fully
+#     first_published_at); "49 of the recommendations are being accepted in full by
+#     the government and other responsible organisations", the other 9 ("all directed
+#     at government") accepted in principle (re-checked by the reviewer 2026-10-04); "The government fully
 #     supports the Metropolitan Police in its investigation": the response above.
 #   The status of the criminal investigation was not checked beyond that, so the
 #   background says nothing more about it.
@@ -47,7 +48,7 @@ background: |
 
   The Grenfell Tower Inquiry was set up in June 2017 under the Inquiries Act 2005, chaired by Sir Martin Moore-Bick. Its Phase 1 report, published on 30 October 2019, set out what happened on the night. Phase 2 asked how the building came to be in a condition that allowed the fire to spread as it did. Its hearings began in January 2020 and ran to 312 days, and before reporting the Panel wrote to 247 individuals and organisations it was minded to criticise. The Phase 2 report was published on 4 September 2024 in seven volumes. A public inquiry may not rule on civil or criminal liability, and the Panel says it has not attempted, with some exceptions, to apportion blame.
 
-  The report notes that the government had already banned metal composite panels with unmodified polyethylene cores on the external walls of buildings of any height and reformed building control while the Inquiry was sitting. On 26 February 2025 the government published its response: it accepted 49 of the report's 58 recommendations in full and the other 9, all directed at government, in principle, and said it fully supports the Metropolitan Police in its investigation. The recommendations are in Volume 7, which is not yet on this site.
+  The report notes that the government had already banned metal composite panels with unmodified polyethylene cores on the external walls of buildings of any height and reformed building control while the Inquiry was sitting. On 26 February 2025 the government published its response: 49 of the report's 58 recommendations were accepted in full, by the government and the other organisations responsible, and the other 9, all directed at government, in principle. The government said it fully supports the Metropolitan Police in its investigation. The recommendations are in Volume 7, which is not yet on this site.
 
 findings:
   - text: The Panel concludes that the fire was the culmination of decades of failure by central government and others in the construction industry to look into the danger of combustible materials in the external walls of high-rise homes and to act on what they knew.
@@ -63,7 +64,7 @@ findings:
         available to them.
 
   - text: The report finds that the government department responsible for building regulations was warned about combustible cladding and insulation from 1999 onwards, by a Commons select committee, the coroner at the Lakanal House inquests and an all-party parliamentary group among others, and did not amend or clarify its guidance. The results of a 2001 large-scale test in which aluminium composite panels with polyethylene cores burned violently were never published.
-    cites: [2-5-years-between-fire, 2-6-department-also-failed, 2-9-between-2012-2017]
+    cites: [2-5-years-between-fire, 2-6-department-also-failed, 2-9-between-2012-2017, 2-12-department-displayed-complacent]
     excerpt:
       paragraph: 2-6-department-also-failed
       quote: >-
@@ -81,7 +82,7 @@ findings:
     cites: [2-15-bre-held-trusted, 2-16-although-bre-recognised, 2-18-there-weaknesses-way]
 
   - text: The Panel finds systematic dishonesty by the companies that made and sold the cladding panels and insulation used on the tower, Arconic, Celotex and Kingspan, and that the bodies that certified their products failed to check what they were told. The detail is in Part 3 (Volume 2).
-    cites: [2-19-one-very-significant, 2-20-those-strategies-succeeded, 2-42-dishonest-strategies-arconic]
+    cites: [2-19-one-very-significant, 2-21-arconic-architectural-products, 2-28-celotex-manufactured-rs5000, 2-37-when-did-return, 2-20-those-strategies-succeeded, 2-42-dishonest-strategies-arconic]
     excerpt:
       paragraph: 2-19-one-very-significant
       quote: >-
