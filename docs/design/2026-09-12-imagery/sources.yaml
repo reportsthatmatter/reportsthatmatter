@@ -394,3 +394,32 @@ marks:
       exhibit would be better: a Horizon counter terminal or a branch
       trading statement showing a shortfall, from an openly licensed
       source (reportsthatmatter-gqsy.2.2 covers the hero image).
+  - id: jan6
+    set: plate
+    report: us-jan6-committee
+    pdf: archive/GPO-J6-REPORT.pdf
+    page: 3
+    dpi: 400
+    # Seal ink measured at 622,1306-1178,1862 on the 300dpi page (2026-10-04, threshold scan of the rasterised
+    # page, margins masked); the box below is that, scaled to 400dpi, with ~8% margin.
+    crop: [767, 1680, 867, 867]
+    subject: >-
+      The seal of the U.S. House of Representatives, from the report's House
+      title page (PDF p.3, "Union Calendar No. 482", House Report 117-663),
+      the page the report is printed under. The report has no diagram, chart
+      or map, and its photographs carry third-party credits (Getty Images,
+      AP and others), so the seal is the facsimile-mark fallback, the same
+      choice as Jack Smith's DOJ seal and Chilcot's crest. It names the body
+      that printed the report and shows nothing of the day itself. The cover
+      photograph (the Capitol dome under cloud) carries no credit line in
+      the report, but its rights are unstated, so it is not used either.
+    rights: >-
+      Public domain: the official seal of the House of Representatives,
+      reproduced on a work of the U.S. Government (17 U.S.C. 105), per the
+      report repo's README. No third-party credit is printed on the page.
+    treat: { black: 0.15, white: 0.90, grain: 70, cut: none }
+    caveat: >-
+      The seal is a round colour emblem (blue ring, gold lettering); in
+      greyscale the ring lettering is the part that reads at row size, so
+      check the 92px row. A hero photograph is a separate bead
+      (reportsthatmatter-wrjn).

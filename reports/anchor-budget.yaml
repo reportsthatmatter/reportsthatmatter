@@ -85,3 +85,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  us-jan6-committee:
+    markers-wrong: 39  # why: reportsthatmatter-gqsy.3 (a photo caption the PDF prints at the head of a page sits before a paragraph begun on the page before; reportsthatmatter-bqu0)
+    markers-stacked: 4
+    pages-unmarked: 0
+    blocks-wrong: 30  # why: reportsthatmatter-gqsy.3 reportsthatmatter-bqu0 (the same captions)

@@ -374,3 +374,27 @@ reports:
     numbered-prose-list: 3
     ids-per-1k-words: 0
     quote-share-parity: 1
+  us-jan6-committee:
+    severed-into-quote: 0
+    severed-paragraph: 0
+    bare-footnote-marker: 0
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 0
+    note-text-in-body: 0
+    note-citation-vocabulary: 0
+    furniture-paragraph: 9  # why: reportsthatmatter-gqsy.3 (staff-list and signature lines from the HTML, e.g. "LIZ CHENEY Vice Chair"; read, not furniture)
+    contents-entry-without-heading: 0
+    heading-density: 0
+    heading-repeated: 2  # why: reportsthatmatter-gqsy.3 (the report's own subheads: Appendices 1-2 each repeat "Introduction" and "Discussion" in their sub-parts)
+    heading-function-word: 1  # why: reportsthatmatter-gqsy.3 (a report heading, verbatim)
+    heading-marker: 0
+    heading-long: 42  # why: reportsthatmatter-gqsy.3 (the report's own numbered section titles, verbatim from its HTML: "1.6 President Trump’s Campaign Team Told Him He Lost the Election and There Was No Significant Fraud")
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 0
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 1
