@@ -213,6 +213,7 @@ export function renderReport(
   </article>
 </main>
 <div class="share-pop" id="share-pop" role="dialog" aria-label="Share selection">
+  <button type="button" data-action="share" hidden>Share</button>
   <button type="button" data-action="copy-link">Copy link</button>
   <button type="button" data-action="copy-quote">Copy quote</button>
   <button type="button" data-action="save">Save</button>

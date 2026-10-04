@@ -20,10 +20,10 @@ Status on production before this work, and after the sharing-highlights PR ships
 | Capability | Before | After the PR | Notes |
 |---|---|---|---|
 | Highlight a passage (desktop) | works | works | Select text: Copy link, Copy quote, Save. Saved highlights live in the browser, listed at `/highlights`, exported as Markdown or JSON |
-| Highlight or share on a phone | missing | missing | `share.js` turns the popover off on touch screens (bght.3) |
+| Highlight or share on a phone | missing | missing | `share.js` turns the popover off on touch screens (bght.3); built after #279 as a dock along the bottom, §7 |
 | Share a highlight as a link | works (desktop) | works (desktop) | `?p=<paragraph>&h=<prefix|words|suffix>`; copy only, no share-to-network buttons |
 | A shared link lands on the highlighted words | works | works | 302 to the section, words marked and scrolled to; moved ids follow aliases; words gone → the paragraph is marked "lost" rather than the wrong words |
-| A landing page for the highlight | partly | partly | The section page is the landing page. No citation or share panel at the landing point (bght.4, P3) |
+| A landing page for the highlight | partly | partly | The section page is the landing page. No citation or share panel at the landing point (bght.4, P3); built after #279 as a landing panel, §7 |
 | The editor's highlights in the database | works, mislabelled | works | 163 highlights (11 to 15 per report, all 13 reports) seeded since 2026-09-25, shown as "Highlighted by 1 reader" in every case. Now "Editor's highlight", never counted as a reader, with a key under the page header (0014) |
 | Rufus adds his own highlight | partly | works | Was: hand-edit `editorial/<id>.yaml`. Now: select on the site, Copy link, `pnpm highlight add '<link>' [--card]`, then seed |
 | Seeding cost on D1's free tier | 326 writes a run | 0 writes a run | Was delete-all and re-insert; now only the difference. Today's plan against production: 0 writes |
@@ -66,3 +66,27 @@ What is needed from Rufus (bght.5): public or private notes; who may annotate (t
 - bght.5 Annotation, after Rufus answers §5.
 - bght.6 Decision 0014.
 - 19 `card: true` highlights are skipped by `pnpm posts` (over Bluesky's 300 graphemes, or no page); they still get quote cards.
+
+## 7. Phones and the landing panel (bght.3, bght.4), 2026-10-04
+
+**Phones (bght.3).** `share.js` switched itself off on `(pointer: coarse)`, because a popover placed above the selection lands exactly where the OS puts its own selection menu: iOS Safari's callout (Copy, Look Up, Share) and Android Chrome's floating toolbar both sit just above the selected words, and neither can be turned off from a page (`-webkit-touch-callout` only governs links and images). Fighting them for that spot loses. So on a coarse pointer the same three actions live in a **dock**: the existing popover, restyled as a full-width bar fixed to the bottom of the screen, above the home indicator (`env(safe-area-inset-bottom)`). The native menu keeps the top, ours keeps the bottom, and the reader can use either.
+
+- **When it opens.** Touch has no `mouseup` at the end of a selection, so the dock follows `selectionchange`, debounced (350 ms), which also tracks a reader dragging the handles. It closes when the selection collapses or leaves the report body. It does not close on scroll or resize, because dragging a handle scrolls the page and the browser's toolbars resize the viewport.
+- **What it offers.** Share (the native share sheet, `navigator.share` with the quote and its `?h=` link), Copy quote and Save. Where there is no share sheet, Copy link takes its place. Same link, same marks POST as the desktop popover.
+- **Taps.** A tap on the dock can collapse the selection before the click lands, so the dock acts on the selection it last settled on, and stays open long enough to show "Copied"/"Saved".
+- **Desktop is unchanged:** the floating popover, opened on `mouseup`.
+- **Known limit.** Android Chrome's "Touch to Search" can raise a peek bar at the bottom after a long-press; it sits over the dock until dismissed. Not seen in emulation; check on a real device.
+
+**The landing panel (bght.4).** A `?h=` link already scrolled to and marked its words. It now also shows a compact panel: a kicker ("Editor’s highlight" when the words are one of the editor's highlights, otherwise "Shared passage"), the quote, a citation line (p. N · report · section), and Share or Bluesky, Copy link and Copy quote, plus a close button.
+
+- **No layout jump.** The panel is `position: fixed` (a card at the bottom right on wide screens, a bottom sheet on phones), so inserting it moves no text. The page is not shifted to make room; instead the marked words are scrolled to a third of the way down, clear of the panel, and the page gets 60vh of room below its last line so words near the end of a section can get there too (added below everything, so nothing on screen moves). In Chromium the `?h=` landing's cumulative layout shift equals the plain `?p=` link's.
+- **WebKit and the fragment.** WebKit scrolls back to the URL's `#paragraph` whenever it lays the viewport out again (Safari's toolbars coming and going; a Playwright screenshot does it too), which put the words back under the panel. Once the words are marked, `highlight.js` drops the fragment from the address bar (`history.replaceState`); the panel's links put it back.
+- **The body stays independent of the query string** (`tests/head.test.ts`): the panel is built client-side in `highlight.js`, and appended after the report body so that the text indexes (`buildIndex(body)`) never see it.
+- **Editor or reader.** The label comes from the marks `social-proof.js` already fetches: if an editor entry has the same paragraph and the same words, it is the editor's highlight. No extra request.
+- **Emphasis.** The marked words get a short glow when the page lands (none under `prefers-reduced-motion`).
+- **Accessible.** An `aside` landmark labelled "Shared passage", real buttons, Escape or the close button dismisses it, and focus is never moved on load.
+- **On a phone,** the panel closes when the reader starts a selection, so the dock and the panel never stack.
+
+**Checked by** `scripts/e2e-mobile.mjs` (run by `verify.sh`): iPhone 13 in WebKit with a stubbed share sheet, Pixel 7 in Chromium without one, and a desktop pass; 63 checks. Screenshots in `docs/design/2026-10-04-phone-highlights/`. What emulation cannot show is the OS selection menu itself; the dock's placement is reasoned, not observed, until someone tries it on a real phone.
+
+**D1 cost: unchanged per action.** The panel makes no request and writes nothing: it reuses the marks response the page already loads, and its copy and share buttons do not post a mark (re-sharing a link someone sent you is not a new highlight). The dock posts one mark per Share, Copy or Save, the same single `/api/mark` insert the desktop popover makes. The total grows only because phone readers can now share at all, which is the point. No schema change.

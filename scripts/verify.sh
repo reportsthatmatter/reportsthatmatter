@@ -269,6 +269,15 @@ else
     tail -20 "${RUN_DIR}/index-search.log"
   fi
 
+  # The editor's highlights (decision 0014): the phone e2e lands on one and checks its "Editor's highlight" label,
+  # so a fresh worktree's local D1 must hold them. Diff-only, so a re-run writes nothing.
+  if pnpm seed-highlights >"${RUN_DIR}/seed-highlights.log" 2>&1; then
+    pass "editor's highlights seeded (local D1)"
+  else
+    fail "pnpm seed-highlights (local)"
+    tail -20 "${RUN_DIR}/seed-highlights.log"
+  fi
+
   step "Booting worker on :${PORT}"
   # wrangler dev's inspector port has no override of its own and defaults to a
   # fixed 9229 — the same collision VERIFY_PORT exists to avoid, just for
@@ -489,6 +498,14 @@ if pnpm exec node scripts/e2e.mjs "$BASE" >"${RUN_DIR}/e2e.log" 2>&1; then
 else
   fail "browser checks"
   tail -40 "${RUN_DIR}/e2e.log"
+fi
+
+step "Browser end-to-end on phones (iPhone/WebKit, Pixel/Chromium)"
+if pnpm exec node scripts/e2e-mobile.mjs "$BASE" >"${RUN_DIR}/e2e-mobile.log" 2>&1; then
+  while IFS= read -r line; do pass "$line"; done < <(grep '^ok ' "${RUN_DIR}/e2e-mobile.log" | sed 's/^ok //')
+else
+  fail "phone browser checks (WebKit missing? pnpm exec playwright install webkit)"
+  tail -40 "${RUN_DIR}/e2e-mobile.log"
 fi
 
 # ---------- verdict ----------
