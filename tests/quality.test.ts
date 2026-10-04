@@ -18,6 +18,7 @@ import {
   noteMarkerWrongNote,
   noteTextInBody,
   numberedProseList,
+  numberedParagraphGlued,
   olWordsShare,
   printedPageReversal,
   quoteParity,
@@ -562,5 +563,31 @@ describe("numbered-prose-list (J, b78.8, mv1t)", () => {
   it("is registered, gated by count", () => {
     expect(SIGNALS.map((s) => s.id)).toContain("numbered-prose-list");
     expect(numberedProseList.kind).toBe("count");
+  });
+});
+
+describe("numbered-paragraph-glued (B, reportsthatmatter-f951)", () => {
+  const filler = Array.from({ length: 20 }, (_, i) => `1.${i + 1} A paragraph of the introduction.`).join("\n\n");
+  const glued = `${filler}\n\n2.85 Its design for the cavity barriers did not comply with the guidance in Approved Document B. 2.86 RBKC's building control department failed.[^13]\n\n2.87 The TMO must also take a share of the blame.`;
+
+  it("fires on the next number run on inside a paragraph after a sentence end", () => {
+    const found = numberedParagraphGlued.run(input(glued));
+    expect(found).toHaveLength(1);
+    expect(found[0].excerpt).toContain("2.86 RBKC");
+  });
+
+  it("passes the paragraph set apart, a cross-reference and a number out of sequence", () => {
+    expect(numberedParagraphGlued.run(input(glued.replace("B. 2.86", "B.\n\n2.86")))).toEqual([]);
+    expect(numberedParagraphGlued.run(input(glued.replace("B. 2.86 RBKC's", "B. See 2.86 and")))).toEqual([]);
+    expect(numberedParagraphGlued.run(input(glued.replace("B. 2.86 RBKC's", "B. 5.10 Metres")))).toEqual([]);
+  });
+
+  it("stays quiet on a report that does not number its paragraphs", () => {
+    expect(numberedParagraphGlued.run(input("Some text. 2.1 Million people came."))).toEqual([]);
+  });
+
+  it("is registered, advisory", () => {
+    expect(SIGNALS.map((s) => s.id)).toContain("numbered-paragraph-glued");
+    expect(numberedParagraphGlued.advisory).toBe(true);
   });
 });

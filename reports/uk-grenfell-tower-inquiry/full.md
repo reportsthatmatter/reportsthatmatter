@@ -5,6 +5,7 @@ published_at: "4 September 2024"
 source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
 pages: 230
 footnotes: 2019
+corrections: 1
 ---
 
 GRENFELL TOWER INQUIRY:
@@ -361,11 +362,11 @@ Volume 7 Part 10: Response and recovery . . . . . . . . . . . . . . . . . . . . 
 
 2.84 Harley itself failed in many respects to meet the standards to be expected of a reasonably competent cladding contractor and it too bears a significant degree of responsibility for the fire.[^12] It did not concern itself sufficiently with fire safety at any stage of the refurbishment and appears to have thought that there was no need for it to do so, because others involved in the project, and ultimately building control, would ensure that the design was safe. It failed to ask the kind of questions about the materials being considered that a reasonably competent cladding contractor would have asked. It was induced to buy Reynobond 55 PE panels partly by its existing relationship with Arconic and the cladding fabricator, CEP Architectural Facades, with which it was able to negotiate a favourable price. Its staff were unaware of the requirements of the Building Regulations relating to fire safety, the guidance in Approved Document B or industry guidance and did not understand the underlying testing regime.
 
-2.85 Although Celotex RS5000 (as opposed to Celotex FR5000) had not been specified, Harley accepted it for use on the tower without enquiring in any detail whether it could be safely used and did not ask any of the other members of the design team that question before doing so. Its design for the cavity barriers was incomplete and did not comply with the guidance in Approved Document B. 2.86 RBKC's building control department failed to perform its statutory function of ensuring that the design of the refurbishment complied with the Building Regulations.[^13] It therefore bears considerable responsibility for the dangerous condition of the building immediately on completion of the work. The surveyor responsible for the refurbishment was overworked, inadequately trained and had a very limited understanding of the risks associated with the use of ACM panels. He failed to obtain full information about the construction of the external wall at the stage of the full plans application and did not ask whether Exova had provided a completed fire safety strategy. He knew that ACM was to be used as the rainscreen but paid little or no attention to the BBA certificate for
+2.85 Although Celotex RS5000 (as opposed to Celotex FR5000) had not been specified, Harley accepted it for use on the tower without enquiring in any detail whether it could be safely used and did not ask any of the other members of the design team that question before doing so. Its design for the cavity barriers was incomplete and did not comply with the guidance in Approved Document B.
+
+2.86 RBKC's building control department failed to perform its statutory function of ensuring that the design of the refurbishment complied with the Building Regulations.[^13] It therefore bears considerable responsibility for the dangerous condition of the building immediately on completion of the work. The surveyor responsible for the refurbishment was overworked, inadequately trained and had a very limited understanding of the risks associated with the use of ACM panels. He failed to obtain full information about the construction of the external wall at the stage of the full plans application and did not ask whether Exova had provided a completed fire safety strategy. He knew that ACM was to be used as the rainscreen but paid little or no attention to the BBA certificate for Reynobond 55 PE. He failed to recognise that Celotex RS5000 insulation was not a material of limited combustibility and, if he looked at any information about it, he simply accepted the assertion that it was suitable for use on tall buildings. He failed to consider whether the external wall system proposed for Grenfell Tower was the same as that tested by Celotex and said to support the use of RS5000.
 
 %%page 23%%
-
-Reynobond 55 PE. He failed to recognise that Celotex RS5000 insulation was not a material of limited combustibility and, if he looked at any information about it, he simply accepted the assertion that it was suitable for use on tall buildings. He failed to consider whether the external wall system proposed for Grenfell Tower was the same as that tested by Celotex and said to support the use of RS5000.
 
 2.87 The TMO must also take a share of the blame for the disaster.[^14] As the client it failed to take sufficient care in its choice of architect and paid insufficient attention to matters affecting fire safety, including the work of the fire engineer.
 
@@ -663,17 +664,13 @@ Reynobond 55 PE. He failed to recognise that Celotex RS5000 insulation was not a
 
 ##### BS 476-6: method of test for the fire propagation of products
 
-5.8 BS 476-6, which was first published in 1968,[^137] is the test method for assessing the fire propagation properties of products. Professor Bisby explained that it was developed in order to distinguish better between the fire hazards presented by different products when used within a compartment.[^138] The standard makes clear that the result of the test is expressed as a fire propagation index which provides a comparative measure of the contribution to the growth of fire made by an essentially flat material, composite or assembly.[^139] The test is primarily intended for the assessment of the performance in a fire of internal wall and ceiling linings.[^140] This test, together with BS 476-7, is used to determine national Class 0 as defined in Approved Document B. 5.9 The test apparatus comprises a combustion chamber with a specimen holder fixed onto the front face. The combustion chamber contains a gas burner and two electrical heating elements and is surmounted by a removable steel chimney. The specimen holder is recessed and takes a specimen measuring 225mm x 225mm. Because the opening to the combustion chamber measures only 190mm x 190mm, the edges of the sample are not directly exposed to heat from the gas burner or electric heaters.[^141] Only the front face of the specimen is heated and the fire propagation index subsequently calculated reflects that surface heating.[^142] The test runs for 20 minutes. During the test, the output from the thermocouples measuring the temperature of the flue gases in the chimney is recorded and specific temperature measurements are taken at prescribed intervals. For a composite material the outer surface is heated first and any rise in temperature recorded in the chimney reflects the combustion of that surface together with any combustion of the material behind it.[^143] Visual observations are also made during the test, including of deformation or spalling of the specimen, which can result in the test being regarded as invalid in certain circumstances. Data obtained from the test is compared with data obtained when a calcium silicate board is tested. At least three, and no more than five, specimens must be tested. If more than three specimens are tested, three can be selected to provide the test result.[^144] This is a depiction of the test apparatus, taken from BS 476-6presentation: Dr Lane's
+5.8 BS 476-6, which was first published in 1968,[^137] is the test method for assessing the fire propagation properties of products. Professor Bisby explained that it was developed in order to distinguish better between the fire hazards presented by different products when used within a compartment.[^138] The standard makes clear that the result of the test is expressed as a fire propagation index which provides a comparative measure of the contribution to the growth of fire made by an essentially flat material, composite or assembly.[^139] The test is primarily intended for the assessment of the performance in a fire of internal wall and ceiling linings.[^140] This test, together with BS 476-7, is used to determine national Class 0 as defined in Approved Document B.
+
+5.9 The test apparatus comprises a combustion chamber with a specimen holder fixed onto the front face. The combustion chamber contains a gas burner and two electrical heating elements and is surmounted by a removable steel chimney. The specimen holder is recessed and takes a specimen measuring 225mm x 225mm. Because the opening to the combustion chamber measures only 190mm x 190mm, the edges of the sample are not directly exposed to heat from the gas burner or electric heaters.[^141] Only the front face of the specimen is heated and the fire propagation index subsequently calculated reflects that surface heating.[^142] The test runs for 20 minutes. During the test, the output from the thermocouples measuring the temperature of the flue gases in the chimney is recorded and specific temperature measurements are taken at prescribed intervals. For a composite material the outer surface is heated first and any rise in temperature recorded in the chimney reflects the combustion of that surface together with any combustion of the material behind it.[^143] Visual observations are also made during the test, including of deformation or spalling of the specimen, which can result in the test being regarded as invalid in certain circumstances. Data obtained from the test is compared with data obtained when a calcium silicate board is tested. At least three, and no more than five, specimens must be tested. If more than three specimens are tested, three can be selected to provide the test result.[^144] This is a depiction of the test apparatus, taken from Dr Lane's presentation:
 
 %%page 50%%
 
-Chimney
-
-Combustion chamber
-
-Specimen holder
-
-Figure 5.1: Depiction of apparatus for BS 476-6 test. 39
+Figure 5.1: Depiction of apparatus for BS 476-6 test.
 
 5.10 The results of the test are expressed as a Fire Propagation Index, which is based on the difference in the rise in temperature of the effluent gases between the tested samples and the calcium silicate board. In respect of each sample, an average is calculated of the differences in temperature recorded during each period of time in which the rate of heating of the furnace varies. An average of the results is then calculated to obtain a single value for each sample (known as sub-indices i1, i2, i3), which are added together to give an overall Fire Propagation Index, referred to as I.[^145] That overall value, together with the subindices, are the critical results of the test and are referred to in Approved Document B. The key information which the test provides is an indication of how much heat the product is capable of releasing.[^146]
 
@@ -691,13 +688,7 @@ Figure 5.1: Depiction of apparatus for BS 476-6 test. 39
 
 5.14 The scale of apparatus used is very different from that used for the national fire tests described above; generally, this is a much larger test.[^157] The apparatus consists of a radiation panel measuring 850mm by 850mm, with a specimen holder protruding at a right angle to the radiating surface. The specimen holder comprises a water-cooled steel frame with water-cooled face-plates which overlap the specimen at the edges, thereby ensuring that the edges are not exposed during the test. The specimen is marked with reference lines at set distances before it is mounted into the test rig. Four vertical lines are marked at the distances corresponding to the classification limits for Classes 1–4. A minimum of six and a maximum of nine specimens are tested, which should be representative of the exposed surface of the product. If the product is normally used in conjunction with a substrate, it should be tested with that substrate.
 
-5.15 During the test the radiant burner swings into place at a right angle to the specimen and a pilot flame is ignited in the lower corner of the specimen nearest the radiant panel. The pilot flame is extinguished one minute after the start of the test. The test involves recording the extent of flame spread along the face of the specimen after one and a half minutes and ten minutes, the latter being the duration of the test. Any flaming which occurs from material that has fallen or melted below the test rig is disregarded, although observations of such phenomena should be made. The test is terminated if the flame front reaches the 825mm line towards the end of the sample away from the radiant burner.[^158] During the test the radiant panel provides an external heat flux of 32.5 kW/m² at the face of its vertical edge closest to the panel, which drops to 5k W/m² at the distant end of the sample.[^159] This BS 476-7 – measurements taken is a picture of the test during operation taken from Dr Lane's presentation:
-
-Class 1
-
-Class 2
-
-Class 3
+5.15 During the test the radiant burner swings into place at a right angle to the specimen and a pilot flame is ignited in the lower corner of the specimen nearest the radiant panel. The pilot flame is extinguished one minute after the start of the test. The test involves recording the extent of flame spread along the face of the specimen after one and a half minutes and ten minutes, the latter being the duration of the test. Any flaming which occurs from material that has fallen or melted below the test rig is disregarded, although observations of such phenomena should be made. The test is terminated if the flame front reaches the 825mm line towards the end of the sample away from the radiant burner.[^158] During the test the radiant panel provides an external heat flux of 32.5 kW/m² at the face of its vertical edge closest to the panel, which drops to 5k W/m² at the distant end of the sample.[^159] This is a picture of the test during operation taken from Dr Lane's presentation:
 
 Figure 5.2: Image of BS 476-7 test in operation
 
@@ -707,23 +698,7 @@ Figure 5.2: Image of BS 476-7 test in operation
 
 ##### National testing classification regime
 
-5.17 Unlike Europe, the UK has no overarching system for classifying the reaction to fire of products and materials. Instead, the national classes rely on definitions contained in Approved Document B. We set out below a diagram from Dr Lane's presentation which sets out the relevant definitions in Approved Document B. We have concentrated on the three definitions National central to
-
-> framework – our work: non-combustible, reaction limited combustibility and to fire definitions
-
-national Class 0.
-
-> Fire definitions referred to within ADB
-
-Non combustible
-
-Limited combustibility
-
-> Standardised Product Class 1 – 4 tests
-
-Index 'I', and Sub index i1
-
-Class 0
+5.17 Unlike Europe, the UK has no overarching system for classifying the reaction to fire of products and materials. Instead, the national classes rely on definitions contained in Approved Document B. We set out below a diagram from Dr Lane's presentation which sets out the relevant definitions in Approved Document B. We have concentrated on the three definitions central to our work: non-combustible, limited combustibility and national Class 0.
 
 Figure 5.3: National framework - reaction to fire definitions
 
@@ -785,11 +760,7 @@ Figure 5.3: National framework - reaction to fire definitions
 
 %%page 58%%
 
-BS EN 13823 – test methodology
-
-Exhaust system
-
-153 Figure 5.4: Depiction of test apparatus for BS EN 13823
+Figure 5.4: Depiction of test apparatus for BS EN 13823
 
 5.33 The test runs for about 20 minutes during which the rate of heat production from the specimen is determined by means of measurements taken within the extractor hood. This information is expressed in a range of forms that include the average heat release rate, the total heat released, including in the first ten minutes, and the fire growth rate index "FIGRA".[^195] The propensity for lateral flame spread is measured by a single visual observation of whether sustained flames reach the end of the long wing (1m) at any time during the test. The rate of progression of the flame is otherwise not recorded. The propensity to produce flaming droplets is recorded within the first ten minutes if droplets reach floor level outside the burner zone. Information about smoke production is also produced by means of measurements which include the average smoke production rate, the total smoke production and the smoke growth rate index "SMOGRA" which measures the rate of increase of smoke production.[^196]
 
@@ -831,25 +802,7 @@ Figure 5.6: Table 1 from BS EN 13501-1
 
 5.44 For European classes B to D, test combinations are required. Those classifications rely on the single burning item test and the single-flame source test only, with the requirements for each of the tests becoming less onerous as one moves down the classes. For example, a Class B material must achieve a FIGRA of less than 120W/s in the single burning item test, whereas a Class C material must achieve a FIGRA of less than 250W/s and a Class D material less than 750W/s. For classification E, only the single-flame source test is required.[^214] Class F is appropriate when a product fails to obtain Class E and is applied when a product has no performance criteria.
 
-5.45 The following summary of the European classes and the properties required to obtain them isSummary of classifications taken from Dr Lane's presentation:[^215] and the relevant tests to obtain them
-
-European Classification Relevant tests
-
-A1 BS EN ISO 1716 and BS EN ISO 1182
-
-A2 (combination 1) BS EN ISO 1182 and BS EN 13823
-
-A2 (combination 2) BS EN ISO 1716 and BS EN 13823
-
-B BS EN 13823 and BS EN ISO 11925-2
-
-C BS EN 13823 and BS EN ISO 11925-2
-
-D BS EN 13823 and BS EN ISO 11925-2
-
-E BS EN ISO 11925-2
-
-F No performance criteria OR fails to achieve Class E requirement to BS EN ISO 11925-2
+5.45 The following summary of the European classes and the properties required to obtain them is taken from Dr Lane's presentation:[^215]
 
 Figure 5.7: Summary of the European classes
 
@@ -881,16 +834,6 @@ Figure 5.7: Summary of the European classes
 
 %%page 65%%
 
-BS 8414 – location of temperature measurement
-
-> Thermocouple array at level 2
-
-> Thermocouple array at level 1
-
-Test specimen
-
-Test apparatus Test specimen Timber crib heat source
-
 Figure 5.8: Diagram and picture showing the location of thermocouples in BS 8414 test
 
 5.55 The visual observations to be taken during the test include any change in flaming conditions or the mechanical behaviour of the cladding system, especially detachment of any part of the system (whether flaming or otherwise) or any other penetrations through fire stops incorporated within it.[^231] A continuous audio-visual record of the full height of the test face is taken throughout the test and for steel-framed systems an audio-visual record is also required of the internal face of the cladding system, so that any burn-through can be assessed.[^232]
@@ -899,11 +842,9 @@ Figure 5.8: Diagram and picture showing the location of thermocouples in BS 8414
 
 %%page 66%%
 
-BS 8414 – Test methodology
+Figure 5.9: photographs of a BS 8414 test in operation
 
-- Figure 5.9: photographs of a BS 8414 test in operation — 247
-
-5.57 The second[^236] and third[^237] editions of BR 135 both contained two annexes each providing performance criteria relevant to the BS 8414 tests. The third edition, which is most relevant to the Grenfell Tower fire, contains three main performance criteria: external fire spread, internal fire spread and mechanical performance. In relation to external and internal fire spread the document contains failure criteria only. Failure due to external fire spread is deemed to have occurred if the rise in temperature over the initial ambient temperature of any of the thermocouples at level 2 exceeds 600°C for a period of at least 30 seconds within 15 minutes of the start time, which is defined as the time at which any thermocouple at level 1 equals or exceeds 200°C for a period of 30 seconds.[^238] Failure due to internal fire spread is deemed to have occurred if the rise in temperature above the initial ambient temperature of any of the internal thermocouples at level 2 exceeds 600°C for a period of at least 30 seconds within 15 minutes of the start time.239,240 No failure criteria are set in respect of mechanical performance, but continuing combustion of the system following extinction of the crib is to be included in the test and classification reports, together with details of any collapse, spalling, delamination of the system, the production of flaming debris or pool fires.[^241] Although there are no criteria for mechanical failure, the nature of the mechanical performance should be considered as part of the overall risk assessment when specifying the system.[^242]
+5.57 The second[^236] and third[^237] editions of BR 135 both contained two annexes each providing performance criteria relevant to the BS 8414 tests. The third edition, which is most relevant to the Grenfell Tower fire, contains three main performance criteria: external fire spread, internal fire spread and mechanical performance. In relation to external and internal fire spread the document contains failure criteria only. Failure due to external fire spread is deemed to have occurred if the rise in temperature over the initial ambient temperature of any of the thermocouples at level 2 exceeds 600°C for a period of at least 30 seconds within 15 minutes of the start time, which is defined as the time at which any thermocouple at level 1 equals or exceeds 200°C for a period of 30 seconds.[^238] Failure due to internal fire spread is deemed to have occurred if the rise in temperature above the initial ambient temperature of any of the internal thermocouples at level 2 exceeds 600°C for a period of at least 30 seconds within 15 minutes of the start time.[^239],[^240] No failure criteria are set in respect of mechanical performance, but continuing combustion of the system following extinction of the crib is to be included in the test and classification reports, together with details of any collapse, spalling, delamination of the system, the production of flaming debris or pool fires.[^241] Although there are no criteria for mechanical failure, the nature of the mechanical performance should be considered as part of the overall risk assessment when specifying the system.[^242]
 
 %%page 67%%
 
@@ -973,11 +914,9 @@ BS 8414 – Test methodology
 
 6.20 In Approved Document B 1985 dealing with fire safety, the longstanding requirement in the Building Regulations that external walls should be non-combustible was changed to provide that all external walls should be constructed of materials of limited combustibility if the building was more than 15 metres in height[^264] and the BS 476-11 test was introduced as a method of testing to that standard.[^265]
 
-6.21 In addition, in the case of buildings over 15 metres in height, any cladding at a height of 15 metres or more above the ground could be combustible if it was not being relied on to contribute to the fire resistance of the wall and satisfied Class 0.[^266] However the definition of Class 0, which was now also set out in the Approved Document, was changed again.
+6.21 In addition, in the case of buildings over 15 metres in height, any cladding at a height of 15 metres or more above the ground could be combustible if it was not being relied on to contribute to the fire resistance of the wall and satisfied Class 0.[^266] However the definition of Class 0, which was now also set out in the Approved Document, was changed again. The description of Class 0 to be found in Appendix A of the Approved Document B under the heading "Walls and Ceiling Linings (etc)", was as follows:
 
 %%page 73%%
-
-The description of Class 0 to be found in Appendix A of the Approved Document B under the heading "Walls and Ceiling Linings (etc)", was as follows:
 
 > "Class 0 which restricts both the spread of flame across a surface and also the rate at which heat is released from it, imposes a more strict control than Class 1. Class 0 is not a classification identified in a British standard test, and is considered a higher class than Class 1. A Class 0 material or the surface of a composite product is either: (a) composed throughout of materials of limited combustibility, or (b) a Class 1 material which has a fire propagation index (I) of no more than 12, and (i) of not more than 6."[^267]
 
@@ -985,21 +924,7 @@ The description of Class 0 to be found in Appendix A of the Approved Document B 
 
 6.23 However, the reference in the alternative requirements to testing in accordance with both BS 476-6 and BS 476-7 remained unchanged.
 
-6.24 A summary of the guidance given in Approved Document B 1985 on the construction of external walls External wall is performance
-
-> fire set out in the following of requirements chart takenbuildings high-rise from Drthrough Lane'stime presentation.
-
-Regulation/ Cladding performance requirement for External surface performance External wall requirement Specific insulation
-
-Statutory fire requirement (except internal linings and performance requirement guidance cladding) for fire
-
-Approved Any cladding 15m or more above the External walls should be
-
-Document ground - Class 0 constructed of materials of
-
-B 1985 Any cladding less than 15m above limited combustibility if the
-
-> ground- timber at least 9mm thick; or building or separated part is any material with an index of more than 15m in height performance (I) not more than 20 (Paragraph 2.7 pp 13) (Table 2.2 pp. 13)
+6.24 A summary of the guidance given in Approved Document B 1985 on the construction of external walls is set out in the following chart taken from Dr Lane's presentation.
 
 Figure 6.1: Chart showing guidance on construction of external walls in ADB 1985
 
@@ -1023,11 +948,7 @@ Figure 6.1: Chart showing guidance on construction of external walls in ADB 1985
 
 %%page 75%%
 
-6.30 AExternal summary of the guidance given in Approved Document B 1992 on the construction of wall fire performance requirements of high-rise buildings through time external walls is set out in the following chart taken from Dr Lane's presentation. Regulation/ Cladding performance External surface performance requirement External wall requirement Specific insulation Statutory requirement for fire (except internal linings and performance requirement guidance cladding) for fire
-
-Approved External wall surface classification: "In a building with a Document Any dimension over 20m- Class 0 storey at more than 20m B 1992 Up to 20m above ground- Index (I) not above ground level,
-
-> more than 20. Timber cladding at least insulation material used in 9mm thick is also acceptable (the index I the external wall relates to tests specified in BS 476 Part 6) construction should be of (Diagram 36 pp. 73) limited combustibility" (Paragraph 12.7 pp.72)
+6.30 A summary of the guidance given in Approved Document B 1992 on the construction of external walls is set out in the following chart taken from Dr Lane's presentation.
 
 Figure 6.2: Chart showing guidance on construction of external walls in ADB 1992
 
@@ -1049,13 +970,7 @@ Figure 6.2: Chart showing guidance on construction of external walls in ADB 1992
 
 6.36 Importantly, the introductory text to paragraph 13.7 of Approved Document B continued to warn, in reasonably clear terms, that the use of combustible materials in the external wall might present a risk in tall buildings, even though the guidance in Diagram 40 had been satisfied.[^278] The reader should have understood, therefore, that the fact that the surface of a cladding material was rated Class 0 might not exclude the risk posed by the use of combustible materials. In other words, following the guidance in Approved Document B might not amount to compliance with the functional requirement.
 
-6.37 A summary of the guidance given in Approved Document B 2000 on the construction of external wallsfire External wall is set out in the
-
-> performance following of requirements chart taken from high-rise Drthrough buildings Lane's time presentation.
-
-Regulation/ Cladding performance requirement for External surface performance External wall Specific insulation Statutory fire requirement requirement (except performance requirement guidance internal linings and for fire cladding) Approved External wall surface classification: "In a building with a Document Any dimension over 18m- Class 0 storey 18m or more above B 2000 Up to 18m above ground- Index (I) not ground level, insulation
-
-> more than 20. Timber cladding at least material used in ventilated 9mm thick is also acceptable (the index cavities in the external I relates to tests specified in BS 476 wall construction should Part 6) be of limited (Diagram 40 pp. 91) combustibility" "One alternative to meeting the (Paragraph 13.7 pp.90) provisions in Diagram 40 could be BRE Fire Note 9 Assessing the fire performance of external cladding systems: a test method" (Paragraph 13.5 pp 87)
+6.37 A summary of the guidance given in Approved Document B 2000 on the construction of external walls is set out in the following chart taken from Dr Lane's presentation.
 
 Figure 6.3: Chart showing guidance on construction of external walls in ADB 2000
 
@@ -1083,11 +998,7 @@ Figure 6.3: Chart showing guidance on construction of external walls in ADB 2000
 
 %%page 78%%
 
-6.44 A summary of the guidance in Approved Document B 2006 on the construction of external External wall fire performance requirements of high-rise buildings through time walls is set out in the following chart taken from Dr Lane's presentation. Regulation/ Cladding performance requirement for External surface performance External wall requirement Specific insulation Statutory fire requirement performance requirement guidance for fire
-
-Approved External wall surface classification: "External walls should "In a building with a storey Document Any dimension over 18m- Class 0 either meet the guidance 18m or more above ground B 2006 (national class) or Class B-s3, d2 or given in paragraphs 12.6 to level any insulation
-
-> better (European Class) 12.9 or meet the product, filler material (not Profiled or flat steel sheet at least performance criteria given including gaskets, sealants 0.5mm thick with an organic coating in the BRE Report and similar) etc. used in of no more than 0.2mm thickness is Fire performance of the external wall also acceptable external thermal insulation construction should be of Up to 18m above ground- Index (I) for walls of multi storey limited combustibility" not more than 20 or class C-s3,d2 or buildings (BR 135) for (Paragraph 12.7 pp.93) better (European Class). Timber cladding systems using full cladding at least 9mm thick is also scale test data from BS acceptable (the index I relates to tests 8414-1:2002 or BS 8414- specified in BS 476 Part 6) 2:2005." (Diagram 40 pp. 95) (Paragraph 12.5 pp. 93)
+6.44 A summary of the guidance in Approved Document B 2006 on the construction of external walls is set out in the following chart taken from Dr Lane's presentation.
 
 Figure 6.4: Chart showing guidance on construction of external walls in ADB 2006
 
@@ -1095,15 +1006,7 @@ Figure 6.4: Chart showing guidance on construction of external walls in ADB 2006
 
 6.45 The guidance on the construction of external walls performance in the 2006 version of Approved Document B remained unchanged in the 2007,[^285] 2010,[^286] and 2013[^287] versions.
 
-6.46 A summary of the guidance given in Approved Document B 2013 on the construction of External wall external wallsfire
-
-> is performance requirements set out in the of high-rise following chart takenbuildings from Drthrough Lane's time presentation.
-
-Regulation/ Cladding performance requirement for External surface performance External wall performance Specific insulation Statutory fire requirement requirement for fire performance requirement guidance for fire
-
-Approved External wall surface classification: "External walls should "In a building with a storey Document Any dimension over 18m- Class 0 either meet the guidance 18m or more above ground B 2013 (national class) or Class B-s3, d2 or given in paragraphs 12.6 to level any insulation
-
-> better (European Class) 12.9 or meet the product, filler material (not Profiled or flat steel sheet at least performance criteria given including gaskets, sealants 0.5mm thick with an organic coating in the BRE Report and similar) etc. used in of no more than 0.2mm thickness is Fire performance of the external wall also acceptable external thermal insulation construction should be of Up to 18m above ground- Index (I) for walls of multi storey limited combustibility" not more than 20 or class C-s3,d2 or buildings (BR 135) for (Paragraph 12.7 pp.93) better (European Class). Timber cladding systems using full cladding at least 9mm thick is also scale test data from BS acceptable (the index I relates to tests 8414-1:2002 or BS 8414- specified in BS 476 Part 6) 2:2005." (Diagram 40 pp. 95) (Paragraph 12.5 pp. 93)
+6.46 A summary of the guidance given in Approved Document B 2013 on the construction of external walls is set out in the following chart taken from Dr Lane's presentation.
 
 Figure 6.5: Chart showing guidance on construction of external walls in ADB 2013
 
@@ -1111,37 +1014,7 @@ Figure 6.5: Chart showing guidance on construction of external walls in ADB 2013
 
 ##### Summary of the external wall requirement/guidance changes over time
 
-6.47 Dr Lane helpfully included the following table in her presentation which shows the changes in the external External wall
-
-> wall fire requirements performance as defined requirements in the Building of high-rise Regulations buildings and subsequently through time
-
-in ADB through time. Year Regulation/Statutory guidance Cladding performance External surface performance External wall requirement Insulation performance
-
-> requirement requirement (except internal linings and requirement cladding)
-
-1965 Building Regulations Class 0 Non- Combustible
-
-1972 Building Regulations Class 0 Non- Combustible
-
-1976 Building Regulations Class 0 Non- Combustible
-
-1985 Approved Document B Class 0 Limited combustibility
-
-1992 Approved Document B Class 0 *Limited combustibility
-
-2000 Approved Document B Class 0 Limited combustibility
-
-2002 Approved Document B Class 0/Class B-s3, d2 Limited combustibility
-
-2006 Approved Document B Class 0/Class B-s3, d2 Limited combustibility
-
-2007 Approved Document B Class 0/Class B-s3, d2 Limited combustibility
-
-2010 Approved Document B Class 0/Class B-s3, d2 Limited combustibility
-
-2013 Approved Document B Class 0/Class B-s3, d2 Limited combustibility
-
-* First instance a specific performance requirement was set for insulation
+6.47 Dr Lane helpfully included the following table in her presentation which shows the changes in the external wall requirements as defined in the Building Regulations and subsequently in ADB through time.
 
 Figure 6.6: Chart showing changes in the external wall requirements as defined in the Building Regulations and subsequently in ADB through time.
 
@@ -1845,15 +1718,15 @@ Again, BRE did not visit the scene of the fire to carry out an investigation; th
 
 ##### The jury's verdicts
 
-9.40 Verdicts were returned by the jury in the Lakanal House inquests on 28 March 2013. They included two important findings: first, that the composite panels beneath the bedroom windows were not Class 0, contrary to the requirements of Approved Document B; secondly, that even if they had been Class 0, that would not have prevented the fire from spreading from Flat 65 to Flat 79, although the spread of fire within Flat 79 would have been slower.[^1054] Those findings should have been a warning to the department that building professionals were not aware of, or were misinterpreting or ignoring, Approved Document B. They should also have served as a warning that the effectiveness of the Building Regulations and Approved Document B to protect life were in question. The department ought to have undertaken further investigations to find out whether the use of unsafe panels in the external wall of Lakanal House was an isolated incident or had been due to systemic ignorance or misunderstanding of the
+9.40 Verdicts were returned by the jury in the Lakanal House inquests on 28 March 2013. They included two important findings: first, that the composite panels beneath the bedroom windows were not Class 0, contrary to the requirements of Approved Document B; secondly, that even if they had been Class 0, that would not have prevented the fire from spreading from Flat 65 to Flat 79, although the spread of fire within Flat 79 would have been slower.[^1054] Those findings should have been a warning to the department that building professionals were not aware of, or were misinterpreting or ignoring, Approved Document B. They should also have served as a warning that the effectiveness of the Building Regulations and Approved Document B to protect life were in question. The department ought to have undertaken further investigations to find out whether the use of unsafe panels in the external wall of Lakanal House was an isolated incident or had been due to systemic ignorance or misunderstanding of the Regulations and Approved Document B. However, the department failed to undertake any such investigation.
 
 %%page 142%%
 
-Regulations and Approved Document B. However, the department failed to undertake any such investigation.
-
 ##### The coroner's rule 43 letter
 
-9.41 On 28 March 2013, the coroner wrote a letter to the Secretary of State for Housing, Communities, and Local Government, The Right Honourable Eric Pickles MP, now Lord Pickles, under rule 43 of the Coroners Rules.[^1055] The letter addressed four separate matters: (1) fire safety, firefighting and search and rescue, (2) fire risk assessments pursuant to the Fire Safety Order, (3) retro-fitting sprinklers in high-rise residential buildings and (4) the Building Regulations and Approved Document B. 9.42 In relation to the last matter she said:
+9.41 On 28 March 2013, the coroner wrote a letter to the Secretary of State for Housing, Communities, and Local Government, The Right Honourable Eric Pickles MP, now Lord Pickles, under rule 43 of the Coroners Rules.[^1055] The letter addressed four separate matters: (1) fire safety, firefighting and search and rescue, (2) fire risk assessments pursuant to the Fire Safety Order, (3) retro-fitting sprinklers in high-rise residential buildings and (4) the Building Regulations and Approved Document B.
+
+9.42 In relation to the last matter she said:
 
 > "During these inquests we examined Approved Document B (2000 edition incorporating 2000 and 2002 amendments) ("AD B"). I am aware that AD B has subsequently been amended, and believe that a further amendment is due to be published soon. The introduction to AD B states that it is " ... intended to provide guidance for some of the more common building situations". However, AD B is a most difficult document to use. Further, it is necessary to refer to additional documents in order to find an answer to relatively straightforward questions concerning the fire protection properties of materials to be incorporated into the fabric of a building. It is recommended that your Department review AD B to ensure that it • provides clear guidance in relation to Regulation B4 of the Building Regulations, with particular regard to the spread of fire over the external envelope of the building and the circumstances in which attention should be paid to whether proposed work might reduce existing fire protection • is expressed in words and adopts a format which are intelligible to the wide range of people and bodies engaged in construction, maintenance and refurbishment of buildings, and not just to professionals who may already have a depth of knowledge of building regulations and building control matters • provides guidance which is of assistance to those involved in maintenance or refurbishment of older housing stock, and not only those engaged in design and construction of new buildings."
 
@@ -1983,9 +1856,7 @@ Persons Schemes.[^1072] iii. Setting out the government's intention to issue a r
 
 10.32 The Conservative government came to power on 7 May 2015 and shortly thereafter Lord Wharton was appointed as a junior minister within DCLG[^1138] with responsibility for the Building Regulations.[^1139] There was no handover of any kind between ministers or any discussion between them about the work that was going on in the department.[^1140] On about 26 May 2015[^1141] Lord Wharton received a briefing from Bob Ledsome on behalf of the Building Regulations team.[^1142] It was a high-level briefing which included a one-page note and a pack of slides.[^1143] Although one slide contained a picture of the Lakanal House fire,[^1144] it does not appear that the briefing included any discussion of the fire or the coroner's recommendations.[^1145] That is surprising, as he agreed.[^1146] Mr Ledsome accepted that the minister may well have been told that the system of regulating building work was working well, that the number of fires had fallen substantially over the years and that that was attributable in part to the efficacy of the Building Regulations.[^1147]
 
-10.33 On 28 May 2015 officials sent the minister a note on Building Regulations identifying matters that were expected to arise in the future in relation to building regulation policy. 1148
-
-Attached to the submission was a table which included a reference to the publication of a discussion document on technical changes to the Building Regulations, particularly changes needed to follow up previous government commitments to the coroner following the Lakanal House fire. However, the minister was given no further information about the fire or any pending review of Approved Document B; nor at that time was he given a copy of the coroner's recommendations.[^1149] Despite Richard Harral's expectation that research into Part B of the Building Regulations would extend into 2017, the date of publication of the discussion document was said to be the end of June 2015. That was clearly over-optimistic, but Mr Ledsome said that he had hoped at the time that more detailed advice could be given to the minister before the summer recess, at which time more information would be provided.[^1150]
+10.33 On 28 May 2015 officials sent the minister a note on Building Regulations identifying matters that were expected to arise in the future in relation to building regulation policy.[^1148] Attached to the submission was a table which included a reference to the publication of a discussion document on technical changes to the Building Regulations, particularly changes needed to follow up previous government commitments to the coroner following the Lakanal House fire. However, the minister was given no further information about the fire or any pending review of Approved Document B; nor at that time was he given a copy of the coroner's recommendations.[^1149] Despite Richard Harral's expectation that research into Part B of the Building Regulations would extend into 2017, the date of publication of the discussion document was said to be the end of June 2015. That was clearly over-optimistic, but Mr Ledsome said that he had hoped at the time that more detailed advice could be given to the minister before the summer recess, at which time more information would be provided.[^1150]
 
 %%page 155%%
 
@@ -2679,11 +2550,9 @@ Attached to the submission was a table which included a reference to the publica
 
 14.7 Another matter that was raised by the consultation was the provision of PEEPs. Consultees appear to have accepted that they were not appropriate in general needs housing but questioned whether the guidance should identify other means of reducing the risk to vulnerable people.[^1996] C S Todd and Associates sought the views of the project group, which agreed that PEEPs were impracticable because of the difficulty of collating information and keeping the document up to date and the absence of staff who could help people to escape.[^1997]
 
-14.8 After the LGA Guide had been published at the end of July 2011, Elspeth Grant, a director of TripleAconsult and a fire safety consultant who had worked with disabled people, wrote to Sir Merrick Cockell, the chairman of the LGA, on 23 August 2011 saying that paragraphs
+14.8 After the LGA Guide had been published at the end of July 2011, Elspeth Grant, a director of TripleAconsult and a fire safety consultant who had worked with disabled people, wrote to Sir Merrick Cockell, the chairman of the LGA, on 23 August 2011 saying that paragraphs 79.9 to 79.11 of the LGA Guide encouraged readers to ignore the Fire Safety Order and to breach international and domestic law on equality and fire safety.[^1998] She also said that the LGA Guide reflected an outdated viewpoint and was discriminatory.[^1999]
 
 %%page 221%%
-
-79.9 to 79.11 of the LGA Guide encouraged readers to ignore the Fire Safety Order and to breach international and domestic law on equality and fire safety.[^1998] She also said that the LGA Guide reflected an outdated viewpoint and was discriminatory.[^1999]
 
 14.9 A copy of that letter was sent to Caroline Bosdet, who had been the project manager responsible for drafting the LGA Guide, who in turn sent it to Colin Todd asking him to draft a response. Copies were also sent to some other members of the project group, including Louise Upton, Brian Martin and Peter Wise.[^2000] Ms Upton told Ms Bosdet that she would be very interested in hearing the views of her organisation's lawyers, including any disability discrimination specialists,[^2001] but no lawyers or disability specialists were asked to comment.[^2002]
 

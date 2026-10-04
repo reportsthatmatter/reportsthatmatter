@@ -4033,8 +4033,8 @@
       ]
     },
     "uk-grenfell-tower-inquiry": {
-      "words": 117997,
-      "paragraphs": 894,
+      "words": 116809,
+      "paragraphs": 843,
       "sections": [
         {
           "slug": "phase-2-report",
@@ -4052,7 +4052,7 @@
           "slug": "chapter-2-executive-summary",
           "title": "Chapter 2: Executive summary",
           "paragraphs": 127,
-          "ids": "58ab272985c6"
+          "ids": "04a5970617f2"
         },
         {
           "slug": "part-2-the-path-to-disaster",
@@ -4063,14 +4063,14 @@
         {
           "slug": "chapter-5-fire-testing",
           "title": "Chapter 5: Fire testing",
-          "paragraphs": 93,
-          "ids": "efaebae01d42"
+          "paragraphs": 68,
+          "ids": "db7df317817e"
         },
         {
           "slug": "chapter-6-regulations-and-guidance-relating-to-external-walls",
           "title": "Chapter 6: Regulations and guidance relating to external walls",
-          "paragraphs": 77,
-          "ids": "21be770f117d"
+          "paragraphs": 53,
+          "ids": "1f38f15ddcfc"
         },
         {
           "slug": "chapter-7-the-government-and-the-building-research-establishment",
@@ -4088,13 +4088,13 @@
           "slug": "chapter-9-the-governments-response-to-the-lakanal-house-fire",
           "title": "Chapter 9: The government's response to the Lakanal House fire",
           "paragraphs": 45,
-          "ids": "4871c51e4b2a"
+          "ids": "8e8db1544c61"
         },
         {
           "slug": "chapter-10-the-department-for-communities-and-local-government-20132017",
           "title": "Chapter 10: The Department for Communities and Local Government 2013–2017",
-          "paragraphs": 101,
-          "ids": "b14cdb00bbe4"
+          "paragraphs": 100,
+          "ids": "52bf3fde1d88"
         },
         {
           "slug": "chapter-11-combustible-cladding-warnings-to-government",
@@ -4117,8 +4117,8 @@
         {
           "slug": "chapter-14-the-local-government-association-guide",
           "title": "Chapter 14: The Local Government Association Guide",
-          "paragraphs": 20,
-          "ids": "382c79f65d42"
+          "paragraphs": 19,
+          "ids": "27fc4f9321d9"
         }
       ]
     }
