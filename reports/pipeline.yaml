@@ -170,3 +170,10 @@ units:
     state: active
     evidence: "better-source-texts.md §4: the inquiry HTML covers every volume"
     notes: "Scope decision open (wdt); cheap once the Saville hybrid (ivg.2) works."
+  - id: us-jan6-committee
+    scope: "H. Rept. 117-663, the whole printed report (served from the committee HTML, cleanEdition)"
+    bead: reportsthatmatter-gqsy.3
+    reached: evaluate
+    state: waiting
+    evidence: "registry; golden.yaml 5/5; PROCESSING.md; editorial draft approved (plate z959 pending)"
+    notes: "Waits on ingest#66 (EditionNote.after) release and pin bump; report repo PR #1. Plate and hero: reportsthatmatter-z959."

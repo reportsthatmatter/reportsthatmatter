@@ -69,3 +69,6 @@ reports:
   us-lehman-examiner:
     markers-unlinked: 22
     note-off-page: 0
+  us-jan6-committee:
+    markers-unlinked: 16  # why: reportsthatmatter-gqsy.3 (markers are linked; the oracle reads them on the page a long list or table row starts on, e.g. 356-359 on p.331 against p.329; its golden-page precision is 0 for every other signal here, so only these two are budgeted)
+    note-off-page: 0

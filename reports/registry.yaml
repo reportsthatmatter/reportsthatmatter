@@ -102,3 +102,11 @@ reports:
     source_path: reports/us-lehman-examiner/full.md
     source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
     ingested: true
+
+  - id: us-jan6-committee
+    title: "Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol"
+    authors: "Select Committee to Investigate the January 6th Attack on the United States Capitol, U.S. House of Representatives"
+    published_at: "22 December 2022"
+    source_path: reports/us-jan6-committee/full.md
+    source_url: "https://www.govinfo.gov/app/details/GPO-J6-REPORT"
+    ingested: true
