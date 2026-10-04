@@ -175,3 +175,11 @@ reports:
     source_path: reports/us-lehman-examiner/full.md
     source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
     ingested: true
+
+  - id: uk-post-office-horizon-inquiry
+    title: "Post Office Horizon IT Inquiry Report, Volume 1"
+    authors: "Sir Wyn Williams (Chair)"
+    published_at: "8 July 2025"
+    source_path: reports/uk-post-office-horizon-inquiry/full.md
+    source_url: "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf"
+    ingested: true

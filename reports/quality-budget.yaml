@@ -350,3 +350,27 @@ reports:
     numbered-prose-list: 3
     ids-per-1k-words: 0
     quote-share-parity: 1
+  uk-post-office-horizon-inquiry:
+    severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
+    severed-paragraph: 8  # why: reportsthatmatter-ud34 (p.104's quoted ten-point plan) and reportsthatmatter-54li (4.293, marker on its own line)
+    bare-footnote-marker: 0
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 1  # why: reportsthatmatter-54li (note 265's marker printed on its own line)
+    note-text-in-body: 0
+    note-citation-vocabulary: 0
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
+    heading-density: 0
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.2 (real: "Fixed Sum Offers" heads a topic in HSS, OCS and GLOS)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 0
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 1  # why: reportsthatmatter-gqsy.2 (first ingest)
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 3  # why: reportsthatmatter-gqsy.2 (first ingest; quotations 3.8% of blocks on even pages, 1.0% on odd)

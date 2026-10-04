@@ -15,7 +15,7 @@ Work in a scratch directory; commit nothing in this stage.
 
 1. **Find the official original** and download it once. `shasum -a 256` it. Note publisher, date, URL, licence.
 2. **Run the sourcing checklist** (better-source-texts.md §5.6). Answer every item with a source, "none", or "not checked":
-   1. How was the PDF made? `pdfinfo <pdf>` (Creator, Producer, Tagged), `pdfinfo -box -f N -l N <pdf>` (bleed margins: furniture outside the CropBox), `pdffonts -f N -l N`, `pdfimages -list -f N -l N`, and `pdftotext -f N -l N -layout` on two body pages. Born-digital: words are right, look for structure. Scan: plan for a verified vision pass (kyj3).
+   1. How was the PDF made? `pdfinfo <pdf>` (Creator, Producer, Tagged), `pdfinfo -box -f N -l N <pdf>` (bleed margins: furniture outside the CropBox), `pdffonts -f N -l N`, `pdfimages -list -f N -l N`, and `pdftotext -f N -l N -layout` on two body pages. Born-digital: words are right, look for structure. Scan: plan for a verified vision pass (kyj3). **Does a page print its number?** Look at one page image; if no folio, check whether the contents cites PDF pages (then stage 3 declares `pdfPageNumbers()`; Post Office Horizon, gqsy.2). **Tagged?** Count the structure tree's element types (pypdf: `/Note`, `/Heading_n`, `/List_Paragraph`): a free answer key for the first ingest's note and heading counts.
    2. Tagged, and other renditions of the same PDF (inquiry site vs gov.uk, web vs print)?
    3. Official HTML, live or archived? Wayback: `curl "https://web.archive.org/cdx/search/cdx?url=<prefix>/*&fl=original,timestamp,statuscode,length&filter=statuscode:200&collapse=urlkey"`. UKGWA blocks scripts; use Wayback.
    4. Official EPUB (GPO bookstore, publisher ebook listings)?
@@ -23,7 +23,7 @@ Work in a scratch directory; commit nothing in this stage.
    6. Court documents: CAP, CourtListener, sealed vs unsealed docket entries.
    7. US congressional after ~1995: govinfo HTML or text.
    8. Who holds the originals; request route (accessible formats, FOIA)?
-3. **Check versions.** Read the original's own note on the printing or edition first. Redacted vs unredacted, errata and correction notices, reprints, a print revised after the web edition (or the reverse); a clean edition can carry the right structure and the wrong words. Compare page counts and a few passages. Every difference is named, with how it will be handled.
+3. **Check versions.** Read the original's own note on the printing or edition first. List the publisher's file directory in Wayback (CDX on the PDF's URL prefix): a `_0.pdf` beside the original name is a re-upload, so fetch both and diff the text (gqsy.2: one typo). Redacted vs unredacted, errata and correction notices, reprints, a print revised after the web edition (or the reverse); a clean edition can carry the right structure and the wrong words. Compare page counts and a few passages. Every difference is named, with how it will be handled.
 4. **Write the source stack** as a table: for words, blocks/headings, notes, page anchors and provenance, which source and its role (canonical, structure, reference, rejected and why). The official original is always the canonical citation target.
 5. **Record the scope decision** (which volumes; one report id or several) and its reason.
 6. **Note layout evidence** you saw for stage 3 (columns, banners, page boxes, notes style).
