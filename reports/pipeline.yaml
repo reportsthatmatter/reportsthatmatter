@@ -175,9 +175,7 @@ units:
     bead: reportsthatmatter-gqsy.2
     reached: editorial
     state: waiting
-    waive:
-      evaluate.adjudicated: reportsthatmatter-gqsy.2.1
-    evidence: "ingest PR #63 (passes), report repo branch vol1, site PR (registry, budgets, plate, card, editorial); local checks green 2026-10-04"
+    evidence: "ingest PR #63 (passes), report repo branch vol1, site PR (registry, budgets, plate, card, editorial); adjudicated.yaml committed (30 breaks, gqsy.2.1), held-out score recorded; local checks green 2026-10-04"
     notes: "Waiting on the ingest release carrying footnoteNumbers('tabbed'), pdfPageNumbers and typographicHeadings({ faces }) (PR #63): the report's ingest.ts imports them. Volumes 2-5 will be further units of this id. Hero: gqsy.2.2."
   - id: us-jan6-committee
     scope: "H. Rept. 117-663, the whole printed report (served from the committee HTML, cleanEdition)"
