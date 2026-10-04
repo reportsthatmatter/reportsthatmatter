@@ -9588,11 +9588,11 @@ vi
 
 vii
 
-- 3 June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills — 1309
+- 3 June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills — 1309
 
 - 4 21 December 2010: Dr Cable's comments and the transfer of function — 1335
 
-- 5 December 2010 – July 2011: The Rt Hon Jeremy Hunt and the Department for Culture, Media and Sport — 1351
+- 5 December 2010 – July 2011: The Rt Hon Jeremy Hunt and the Department for Culture, Media and Sport — 1351
 
 - 6 News Corp and the Rt Hon Alex Salmond MSP — 1407
 
@@ -16708,7 +16708,7 @@ The Metropolitan Police Service
 
 %%page 832%%
 
-> "(a) 'Gifts or offers of hospitality must be refused if there could be any doubt about the propriety of accepting them. If a gift or hospitality is accepted, you must be able to justify it in terms of benefit to the public service' (b) 'If the refusal to accept [a gift] would cause embarrassment or offence, the gift should be accepted but sent to the Director of Procurement and Commercial Services with a covering report.' (c) 'Inexpensive hospitality offered in the normal course of duty, including attendance at community functions, consultative meetings, visits to youth clubs and schools and so on, may be accepted. It may be appropriate in some cases to accept the offer of a light working lunch (or very exceptionally a working dinner) but more substantial hospitality should normally be declined. If, exceptionally, it is considered appropriate to accept more substantial hospitality, authority must be given in writing by a senior officer …' (d) All offers of gifts or hospitality (with certain limited exceptions) must be recorded in registers held by each business group within the MPS."
+> "(a)  'Gifts or offers of hospitality must be refused if there could be any doubt about the propriety of accepting them. If a gift or hospitality is accepted, you must be able to justify it in terms of benefit to the public service' (b)  'If the refusal to accept [a gift] would cause embarrassment or offence, the gift should be accepted but sent to the Director of Procurement and Commercial Services with a covering report.' (c)  'Inexpensive hospitality offered in the normal course of duty, including attendance at community functions, consultative meetings, visits to youth clubs and schools and so on, may be accepted. It may be appropriate in some cases to accept the offer of a light working lunch (or very exceptionally a working dinner) but more substantial hospitality should normally be declined. If, exceptionally, it is considered appropriate to accept more substantial hospitality, authority must be given in writing by a senior officer …' (d)  All offers of gifts or hospitality (with certain limited exceptions) must be recorded in registers held by each business group within the MPS."
 
 3.9 The Special Notice 28/97 introduced the formal registration of gifts and hospitality to the
 
@@ -16764,11 +16764,11 @@ ACPO level officer (or Director). Gifts that are received are estimated in value
 
 3.18 The MPS retains hospitality records for a period of seven years, after which they are subject to removal from the MPS systems in line with the appropriate retention period.[^367] The guidance also provides an authorisation hierarchy for the purposes of scrutiny and review of all hospitality entries. This states that:[^368]
 
-> - "The Deputy Mayor for Policing and Crime will review the registers of the Commissioner and Deputy Commissioner every month as part of the publication process;
-> - The Deputy Commissioner will review the registers of Management Board members every month as part of the publication process;
-> - Management Board members will review the registers of ACPO officers and Directors (Special Pay Grade – SPG) they are responsible for every month as part of the publication process;
-> - ACPO Officers/Directors (SPG) will review the local B/OCU Registers for their portfolios every month as part of the publication process;
-> - The B/OCU Commander or Business Group lead will review their local B/OCU/ Business Group registers every month as part of the publication process."
+> - "The Deputy Mayor for Policing and Crime will review the registers of the Commissioner and Deputy Commissioner every month as part of the publication process;
+> - The Deputy Commissioner will review the registers of Management Board members every month as part of the publication process;
+> - Management Board members will review the registers of ACPO officers and Directors (Special Pay Grade – SPG) they are responsible for every month as part of the publication process;
+> - ACPO Officers/Directors (SPG) will review the local B/OCU Registers for their portfolios every month as part of the publication process;
+> - The B/OCU Commander or Business Group lead will review their local B/OCU/ Business Group registers every month as part of the publication process."
 
 3.19 Following this scrutiny exercise, the hospitality records of the MPS Management Board, ACPO and equivalent police staff, are published within 15 working days of the end of the month. The remainder of hospitality records of officers and staff below ACPO level are published within 20 working days of the end of the month. Systems are established by the Management Board members to ensure that officers and staff comply with this policy within their individual business groups.[^369]
 
@@ -17058,7 +17058,7 @@ She also re-emphasised the importance of perception in this context:[^462]
 
 Given its relevance I reproduce it in full:[^463]
 
-> "Hospitality may be accepted if it: • extends to the impromptu provision of light refreshments during the course of policing duties • is a conventional meal provided during the course of the working day by another police force or partner agency in either law enforcement or community safety In either case, there should be no requirement to declare any such hospitality in the force register Hospitality may also be accepted if it is a conventional meal and is in accordance with the recipient's duties such as: • attending a meeting, seminar or conference organised by an external body • the annual dinner of a representative association or local authority which is limited to isolated or infrequent occasions and can be demonstrably in the interests of the force to attend Such offers of hospitality should be declared in the force register Hospitality will not be acceptable if it: • amounts to regular free or discounted food or refreshments on duty, or off duty where the hospitality offered is made because the recipient is a police officer or member of police staff • includes a degree of lavishness which is outside of the industry norm or is beyond
+> "Hospitality may be accepted if it: • extends to the impromptu provision of light refreshments during the course of policing duties • is a conventional meal provided during the course of the working day by another police force or partner agency in either law enforcement or community safety In either case, there should be no requirement to declare any such hospitality in the force register Hospitality may also be accepted if it is a conventional meal and is in accordance with the recipient's duties such as: • attending a meeting, seminar or conference organised by an external body • the annual dinner of a representative association or local authority which is limited to isolated or infrequent occasions and can be demonstrably in the interests of the force to attend Such offers of hospitality should be declared in the force register Hospitality will not be acceptable if it: • amounts to regular free or discounted food or refreshments on duty, or off duty where the hospitality offered is made because the recipient is a police officer or member of police staff • includes a degree of lavishness which is outside of the industry norm or is beyond
 
 G any sense of common courtesy or reasonableness
 
@@ -18956,11 +18956,11 @@ Summary of key findings
 
 9.13 The report neatly set out the essence of the issue that it was seeking to evidence and address in these terms:[^1150]
 
-> "The aftermath of the phone hacking affair has generated a number of enquiries into the relationships between the media, the police and others, and the conflict of interests that can arise from them. A conflict of interest arises where police officers or staff give (or appear to give) preferential treatment to one interest over others. At best, this behaviour may be regarded as inappropriate; at worst, as corrupt. Potential conflicts of interest include: • The access and influence accorded to individuals and organisations; • Inappropriate disclosure of information to the media and others, whether for financial gain or otherwise; • Excessive or inappropriate hospitality, especially when offered to senior officers and other decision makers; • Question marks over contractual arrangements and police-supplier relationships;
+> "The aftermath of the phone hacking affair has generated a number of enquiries into the relationships between the media, the police and others, and the conflict of interests that can arise from them. A conflict of interest arises where police officers or staff give (or appear to give) preferential treatment to one interest over others. At best, this behaviour may be regarded as inappropriate; at worst, as corrupt. Potential conflicts of interest include: • The access and influence accorded to individuals and organisations; • Inappropriate disclosure of information to the media and others, whether for financial gain or otherwise; • Excessive or inappropriate hospitality, especially when offered to senior officers and other decision makers; • Question marks over contractual arrangements and police-supplier relationships;
 
 G and
 
-> • Secondary business interests which may conflict or be perceived to conflict with the integrity of the police role (including employment taken by staff while serving with a force, and employment taken up immediately after leaving the Police Service)."
+> • Secondary business interests which may conflict or be perceived to conflict with the integrity of the police role (including employment taken by staff while serving with a force, and employment taken up immediately after leaving the Police Service)."
 
 9.14 The report found that whilst corruption was not endemic in the Police Service, forces and authorities were generally unsighted of the risks and vulnerabilities associated with relationships with others, including the media. The report noted that the absence of clear boundaries for police relationships with others was a cause for concern, as was the lack of consistent standards, policies and procedures across forces and authorities.[^1151] Of particular significance as far as I am concerned, the point is also made that from the perspective of the public, the Police Service needed not only to act fairly, but must also be seen to be acting fairly.[^1152] Mr Baker told the Inquiry that he placed perception at almost the same level of importance as reality, and said:[^1153]
 
@@ -19004,10 +19004,10 @@ Recommendations
 
 9.22 HMIC stressed that at the heart of the issues that it considered within its review was the importance of integrity, both personal and organisational, which they say was evident and transparent in the way individuals behaved and how forces and authorities conducted their business.[^1165] It was against this backdrop that HMIC made the following principal recommendations:[^1166]
 
-> - "Forces and authorities institute robust systems to ensure risks arising from relationships, information disclosure, gratuities, hospitality, contracting and secondary employment are identified. Monitored and managed. They should ideally do so on the basis of national standards and expectations – there are no geographical variables when it comes to integrity and there should not be local differences in standards. This work on national standards should be encouraged G by the Home Office and promoted by leaders in the Service locally.
-> - There should be clear boundaries and thresholds in relation to these matters. Such limits should be consistent and Service wide. This in effect means identifying a clear message for staff on these issues as to what is acceptable, what is unacceptable and what areas of vulnerability to avoid. ACPO should lead this work in partnership with staff associations and those involved in police governance.
-> - Training courses should include appropriate input in relation to integrity and anti-corruption. In particular, given the importance of leadership to securing high standards of integrity (a theme which runs through this review), the Strategic Command Course (in January 2012) and the High Potential Development Scheme should encompass these issues. Chief Constables should review how much effort is being put into briefing their staff on the standards as to what is acceptable, unacceptable and on the areas of potential vulnerability.
-> - Chief officer teams should review their corporate governance and oversight arrangements to ensure that those arrangements are fulfilling their function in helping promote the values of their force in the delivery of its objectives, and that they are, through their actions and behaviours, promoting the values of the organisation and making sure good corporate governance is seen as a core part of everyday business. • HMIC expects the Service to have detailed proposals in the above areas ready for consultation with all relevant parties by April 2012. • An assessment relating to these matters should be conducted by HMIC by October 2012 to inform incoming Police and Crime Commissioners and Police and Crime Panels."
+> - "Forces and authorities institute robust systems to ensure risks arising from relationships, information disclosure, gratuities, hospitality, contracting and secondary employment are identified. Monitored and managed. They should ideally do so on the basis of national standards and expectations – there are no geographical variables when it comes to integrity and there should not be local differences in standards. This work on national standards should be encouraged G by the Home Office and promoted by leaders in the Service locally.
+> - There should be clear boundaries and thresholds in relation to these matters. Such limits should be consistent and Service wide. This in effect means identifying a clear message for staff on these issues as to what is acceptable, what is unacceptable and what areas of vulnerability to avoid. ACPO should lead this work in partnership with staff associations and those involved in police governance.
+> - Training courses should include appropriate input in relation to integrity and anti-corruption. In particular, given the importance of leadership to securing high standards of integrity (a theme which runs through this review), the Strategic Command Course (in January 2012) and the High Potential Development Scheme should encompass these issues. Chief Constables should review how much effort is being put into briefing their staff on the standards as to what is acceptable, unacceptable and on the areas of potential vulnerability.
+> - Chief officer teams should review their corporate governance and oversight arrangements to ensure that those arrangements are fulfilling their function in helping promote the values of their force in the delivery of its objectives, and that they are, through their actions and behaviours, promoting the values of the organisation and making sure good corporate governance is seen as a core part of everyday business. • HMIC expects the Service to have detailed proposals in the above areas ready for consultation with all relevant parties by April 2012. • An assessment relating to these matters should be conducted by HMIC by October 2012 to inform incoming Police and Crime Commissioners and Police and Crime Panels."
 
 %%page 956%%
 
@@ -19095,10 +19095,10 @@ Summary of key findings
 
 %%page 962%%
 
-> - "The core principles to be established to govern the relationships between the MPS and the media.
-> - The changes necessary to the leadership and management of the MPS to put these into practice.
+> - "The core principles to be established to govern the relationships between the MPS and the media.
+> - The changes necessary to the leadership and management of the MPS to put these into practice.
 > - The changes necessary to the Directorate of Public Affairs (DPA).
-> - The prevention of unethical relationships between the police and the media in the future."
+> - The prevention of unethical relationships between the police and the media in the future."
 
 10.9 Mrs Filkin has described the key problems around the perception of leaks from the MPS to the media, interlinked with the 'cosy' relationships which have developed between the two. She concluded that this disclosure of information; the context of the relationship which fosters this disclosure; and the extent to which these relationships are regulated, should be addressed by the MPS in order to ensure complete oversight of an ethical practice, which would restore any damage to the public trust.[^1206] She elaborated on the issue of excessive hospitality and favours to the Inquiry, and reflected the view of many of the lower ranks within the MPS, in relation to the relevantly recent introduction of hospitality register publication:[^1207]
 
@@ -19126,13 +19126,13 @@ Recommendations of the Filkin Report
 
 10.16 In light of the key findings of the report, Mrs Filkin has made the following recommendations to Commissioner Hogan-Howe and the MPS Management Board, in response to the terms of reference set out at para 10.3 above:[^1217]
 
-> - "A new approach to communication based on more extensive, open and impartial provision of information to the public is needed. Relationships with the media need to be part of this but not the driving force. I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to champion a new approach to providing public information. Increasing openness with the public should be monitored through performance indicators. • The MPS senior team must signal a change in culture and set a consistent example for all staff on the ethical standards they expect, including how they relate to the media and the interpretation of the gifts and hospitality register. • I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to initiate change in the way the MPS approaches integrity and ethics issues at all levels. This role will provide the support and direction for staff to implement change and ensure improvements are tracked. This role holder will collaborate with the Public Information Champion. Responsibility for leadership on these issues is shared by all as peer pressure is the most effective way of improving behaviour. • I recommend that all police officers and staff who provide information to the media should make a brief personal record of the information they provide. This record should be available if required by a line manager. Some of these records will be audited on a random basis. Wherever possible, published information should be attributed to the person giving it or more generally to the MPS. • The MPS must establish the core principles which should underpin contact with the media. I recommend that contact with the media is permissible but not unconditional. This should be the overarching principle. Police officers and staff need to have new guidance that helps them understand the value of providing information to the public and supports them in making ethical decisions when doing so. Advice on contact with the media is an essential part of this. So are improved training, supervision and appraisal to ensure the principles become
+> - "A new approach to communication based on more extensive, open and impartial provision of information to the public is needed. Relationships with the media need to be part of this but not the driving force. I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to champion a new approach to providing public information. Increasing openness with the public should be monitored through performance indicators. • The MPS senior team must signal a change in culture and set a consistent example for all staff on the ethical standards they expect, including how they relate to the media and the interpretation of the gifts and hospitality register. • I recommend that the Commissioner delegates responsibility and resources to a member of his senior team to initiate change in the way the MPS approaches integrity and ethics issues at all levels. This role will provide the support and direction for staff to implement change and ensure improvements are tracked. This role holder will collaborate with the Public Information Champion. Responsibility for leadership on these issues is shared by all as peer pressure is the most effective way of improving behaviour. • I recommend that all police officers and staff who provide information to the media should make a brief personal record of the information they provide. This record should be available if required by a line manager. Some of these records will be audited on a random basis. Wherever possible, published information should be attributed to the person giving it or more generally to the MPS. • The MPS must establish the core principles which should underpin contact with the media. I recommend that contact with the media is permissible but not unconditional. This should be the overarching principle. Police officers and staff need to have new guidance that helps them understand the value of providing information to the public and supports them in making ethical decisions when doing so. Advice on contact with the media is an essential part of this. So are improved training, supervision and appraisal to ensure the principles become
 
 %%page 964%%
 
 G embedded.
 
-> • The MPS must reinforce the public service responsibilities of the Directorate of Public Affairs (DPA) and local communications work. These functions must operate collaboratively and with equal status. The MPS must make better use of alternative routes for communicating with the public and there must be a predisposition to release much more information than in the past both to the external and internal audience. • The MPS must create an environment where the improper disclosure of information is condemned and deterred. Senior managers should make messages of deterrence strong and effective. Where leaks cannot be proved to the evidential standard required for a criminal prosecution, robust management action should nevertheless be pursued. However, whether there has been genuine harm should always be assessed before proportionate action is taken. Investigations should be seen as an important but subsidiary part of a broader preventative approach."
+> • The MPS must reinforce the public service responsibilities of the Directorate of Public Affairs (DPA) and local communications work. These functions must operate collaboratively and with equal status. The MPS must make better use of alternative routes for communicating with the public and there must be a predisposition to release much more information than in the past both to the external and internal audience. • The MPS must create an environment where the improper disclosure of information is condemned and deterred. Senior managers should make messages of deterrence strong and effective. Where leaks cannot be proved to the evidential standard required for a criminal prosecution, robust management action should nevertheless be pursued. However, whether there has been genuine harm should always be assessed before proportionate action is taken. Investigations should be seen as an important but subsidiary part of a broader preventative approach."
 
 MPS response to the Filkin Report
 
@@ -20224,11 +20224,11 @@ vi
 
 vii
 
-- 3 June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills — 1309
+- 3 June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills — 1309
 
 - 4 21 December 2010: Dr Cable's comments and the transfer of function — 1335
 
-- 5 December 2010 – July 2011: The Rt Hon Jeremy Hunt and the Department for Culture, Media and Sport — 1351
+- 5 December 2010 – July 2011: The Rt Hon Jeremy Hunt and the Department for Culture, Media and Sport — 1351
 
 - 6 News Corp and the Rt Hon Alex Salmond MSP — 1407
 
@@ -24226,15 +24226,15 @@ The Rt Hon Stephen Dorrell MP I
 
 2.32 In written evidence to the Inquiry, Mr Dorrell indicated that his first instinct upon taking office was to take some time to reassess the various options. He noted as follows:[^74]
 
-"(a) I am personally hostile to any proposal for official regulation of freedom of expression;
+"(a)  I am personally hostile to any proposal for official regulation of freedom of expression;
 
-(b) Quite apart from issues of principle, any proposal to regulate the activities of the press carries obvious political risks;
+(b) Quite apart from issues of principle, any proposal to regulate the activities of the press carries obvious political risks;
 
-(c)  I was reluctant to publish the draft White Paper which combined a theoretical
+(c)   I was reluctant to publish the draft White Paper which combined a theoretical
 
 > willingness to legislate (about which I was dubious) with practical unwillingness to do so (which I thought was unconvincing)[^75];
 
-(d)  I was conscious that there had been substantial debate before I took office
+(d)   I was conscious that there had been substantial debate before I took office
 
 > between senior members of government, some of whom were more sympathetic to a regulatory response than I was."
 
@@ -24286,7 +24286,7 @@ Virginia Bottomley MP
 
 2.45 The results of the discussions referred to above were the White Paper, published on 17 July 1995, some two and a half years after the publication of Sir David's second report. The Rt Hon Virginia Bottomley MP, now Baroness Bottomley, as the new Secretary of State for National Heritage, was responsible for its publication. The key points of the White Paper were as follows:[^88]
 
-"(a) The Government does not find the case for statutory measures in this area compelling. It believes that, in principle, industry self-regulation is much to be preferred. (b)  The Government has long recognised that there is, in principle, a case for the introduction of [new physical intrusion] offences ... The Government has however so far been unable to construct legislation which in practice would be sufficiently workable to be responsibly brought to the statute book. (c) In considering the results of the consultation [on the feasibility of introducing a new tort of the infringement of privacy] the Government draws two conclusions. I
+"(a)  The Government does not find the case for statutory measures in this area compelling. It believes that, in principle, industry self-regulation is much to be preferred. (b)   The Government has long recognised that there is, in principle, a case for the introduction of [new physical intrusion] offences ... The Government has however so far been unable to construct legislation which in practice would be sufficiently workable to be responsibly brought to the statute book. (c) In considering the results of the consultation [on the feasibility of introducing a new tort of the infringement of privacy] the Government draws two conclusions. I
 
 First it does not believe there is sufficient public consensus on which to base statutory intervention in this area. Secondly it strongly prefers the principle of self-regulation ... It therefore has no present intention to legislate a new civil remedy".
 
@@ -24954,7 +24954,7 @@ I "Plurality tests are not well supported by the industry because they are inher
 
 %%page 1298%%
 
-(2B) The need for, to the extent that it is reasonable and practicable, a sufficient
+(2B)  The need for, to the extent that it is reasonable and practicable, a sufficient
 
 > plurality of views in newspapers in each market for newspapers in the United Kingdom or a part of the United Kingdom is specified in this section.
 
@@ -28172,11 +28172,11 @@ vi
 
 vii
 
-- 3 June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills — 1309
+- 3 June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills — 1309
 
 - 4 21 December 2010: Dr Cable's comments and the transfer of function — 1335
 
-- 5 December 2010 – July 2011: The Rt Hon Jeremy Hunt and the Department for Culture, Media and Sport — 1351
+- 5 December 2010 – July 2011: The Rt Hon Jeremy Hunt and the Department for Culture, Media and Sport — 1351
 
 - 6 News Corp and the Rt Hon Alex Salmond MSP — 1407
 
@@ -30280,7 +30280,7 @@ Lord Hunt went on to confirm that Northern and Shell would qualify as a 'big fis
 
 %%page 1586%%
 
-> "The public interest There may be exceptions to the clauses marked * where they can be demonstrated to be in the public interest. 1. The public interest includes, but is not confined to: (i)   Detecting or exposing crime or serious impropriety. (ii)   Protecting public health and safety. (iii)  Preventing the public from being misled by an action or statement of an individual or organisation. 2. There is a public interest in freedom of expression itself. 3. Whenever the public interest is invoked, the PCC will require editors to demonstrate fully that they reasonably believed that publication, or journalistic activity undertaken with a view to publication, would be in the public interest and how, and with whom, that was established at the time. 4. The PCC will consider the extent to which material is already in the public domain, or will become so. 5. In cases involving children under 16, editors must demonstrate an exceptional public interest to over-ride the normally paramount interest of the child."
+> "The public interest There may be exceptions to the clauses marked * where they can be demonstrated to be in the public interest. 1. The public interest includes, but is not confined to: (i)   Detecting or exposing crime or serious impropriety. (ii)   Protecting public health and safety. (iii)   Preventing the public from being misled by an action or statement of an individual or organisation. 2. There is a public interest in freedom of expression itself. 3. Whenever the public interest is invoked, the PCC will require editors to demonstrate fully that they reasonably believed that publication, or journalistic activity undertaken with a view to publication, would be in the public interest and how, and with whom, that was established at the time. 4. The PCC will consider the extent to which material is already in the public domain, or will become so. 5. In cases involving children under 16, editors must demonstrate an exceptional public interest to over-ride the normally paramount interest of the child."
 
 2.6 There are a number of references to the public interest in the Ofcom Broadcasting Code.[^8]
 
@@ -33957,7 +33957,7 @@ If the history of the last 50 years on press regulation tells us anything, it te
 
 6.40 Having said that, I recognise the concern expressed by many and, in order to address the slippery slope argument, it would be possible to use a statute setting up a recognition process for a regulatory body to also place an explicit duty on the Government to protect the freedom of the press. I have already referred earlier to an example of just this, drawing heavily from s3 of the Constitutional Reform Act 2005, which would look like this:[^57]
 
-> "GUARANTEE OF MEDIA FREEDOM (1) The Secretary of State for Culture, Media and Sport and other Ministers of the Crown and all with responsibility for matters relating to the media must uphold the freedom of the press and its independence from the executive. (2) The Secretary of State for Culture, Media and Sport must have regard to: (a) the importance of the freedom and integrity of the media; (b) the right of the media and the public to receive and impart information without interference by public authorities; (c) the need to defend the independence of the media. (3) Interference with the activities of the media shall be lawful only insofar as it is for a legitimate purpose and is necessary in a democratic society, having full regard to the importance of media freedom in a democracy;"
+> "GUARANTEE OF MEDIA FREEDOM (1) The Secretary of State for Culture, Media and Sport and other Ministers of the Crown and all with responsibility for matters relating to the media must uphold the freedom of the press and its independence from the executive. (2) The Secretary of State for Culture, Media and Sport must have regard to: (a) the importance of the freedom and integrity of the media; (b)  the right of the media and the public to receive and impart information without interference by public authorities; (c) the need to defend the independence of the media. (3) Interference with the activities of the media shall be lawful only insofar as it is for a legitimate purpose and is necessary in a democratic society, having full regard to the importance of media freedom in a democracy;"
 
 6.41 Without necessarily suggesting that the clause should be worded in exactly this way, as I am sure there would be benefit from further consideration around the precision with which the intention is expressed, this seems to me to be an admirable proposal, which should provide some comfort to those who have any concerns about the risk of Government decisions impacting adversely on the freedom of the media. In the circumstances:
 
