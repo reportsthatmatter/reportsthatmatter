@@ -22,7 +22,6 @@ aliases:
   2010-email-thereafter-had-exchanged: 9-75-goldfarb-explained-had
   2011-inq001842-witness-statement-andrey: inq001788-witness-statement-andrey-lugovoy
   210-prior-his-death: 8-55-i-have-said
-  241-c2-24-14-39-242: 241-c2-24-14-39-c2
   26-october-2011-inq021208-witness: inq001842-witness-statement-andrey-lugovoy
   3-142-same-day-november: 3-142-same-day-21
   4-130-4-133-above: 6-89-i-have-said
@@ -30,11 +29,10 @@ aliases:
   5-3-form-form-further: 6-47-moughton-explained-lugovoy
   5-77-below-i-have: 5-29-nor-these-last
   6-318-6-319-there: 8-88-kovtun-told-german
+  6-inq017934-7-a1-2: 6-18-a1-explained-delay
   9-30-morning-thought-these: 6-82-krgo-s-evidence
-  a1-2-114-115: 2-mascall-9-68-70-3
-  a1-2-114-5: 2-mascall-9-68-70-3
-  a1-2-149-150-8: 6-inq017934-7-a1-2
-  a1-2-150-9: 6-inq017934-7-a1-2
+  a1-2-149-150-8: 6-18-a1-explained-delay
+  a1-2-150-9: 6-18-a1-explained-delay
   a3-b-c2-c-c3: a-a3
   accident-8-44-di-mascall: accident
   accommodation-3-99-i-have: accommodation
@@ -92,10 +90,8 @@ aliases:
   boris-berezovsky-210: chapter-5-did-alexander-litvinenko
   boris-berezovsky-akhmed-zakayev-2000: november-2000-2-alexander-litvinenko
   boris-berezovsky-s-offices-all: 8-49-also-significance-regard
-  c2-24-14-39-242: 241-c2-24-14-39-c2
   c2-24-24-24-27: 6-273-i-therefore-conclude
   c2-32-42-247: 6-273-i-therefore-conclude
-  c2-32-43-44: 241-c2-24-14-39-c2
   c2-s-telephone-number-said: kovtun-obtains-c2-s-phone
   chairman-sir-robert-owen-2: chairman-sir-robert-owen
   chapter-12-russian-state-responsibility: chapter-11-conclusions-regarding-russian
@@ -166,7 +162,6 @@ aliases:
   february-2014-193: total-intake-polonium-210
   federation-have-sometimes-been-attributed: 9-134-professor-service-noted
   fsb-officers: 4-15-just-evidence-suggests
-  fuller-description-a1-s-cv: 2-mascall-9-68-70-3
   further-document-dated-17-september: 9-82-i-do-not
   g-andrey-lugovoy-public-statements: f-visit-andrey-lugovoy-dmitri
   gatwick-time-meeting-afternoon-i: 6-85-before-turning-meeting
@@ -187,7 +182,7 @@ aliases:
   inpatient-there-little-less-than: transfer-uch-treatment-there
   inq002076-interview-alexander-litvinenko-november: inq002076-interview-alexander-litvinenko-18
   inq007516-witness-statement-a1-april: inq007516-witness-statement-a1-18
-  inq017934-7: 6-inq017934-7-a1-2
+  inq017934-7: 6-18-a1-explained-delay
   inq019031-expert-report-professor-ray: expert-reports-pathology-medical-scientific
   inq019146-inq020316-inq020998-7: 9-43-i-say-once
   inquiry-expert-nuclear-physics-who: 6-9-witness-a1-one
@@ -218,8 +213,8 @@ aliases:
   litvinenko-inquiry-credible-i-will: 8-91-deficiencies-accounts-have
   litvinenko-inquiry-d-holiner-confirmed: d-holiner-confirmed-distinction-paragraph
   litvinenko-inquiry-d-purpose-meeting: d-purpose-meeting-reilly-discuss
-  litvinenko-inquiry-e-evidence-litvinenko: 6-inq017934-7-a1-2
-  litvinenko-inquiry-environmental-conditions-such: 6-inq017934-7-a1-2
+  litvinenko-inquiry-e-evidence-litvinenko: 6-18-a1-explained-delay
+  litvinenko-inquiry-environmental-conditions-such: 6-18-a1-explained-delay
   litvinenko-inquiry-f-cctv-footage: f-cctv-footage-millennium-hotel
   litvinenko-inquiry-from-sofa-which: 8-49-also-significance-regard
   litvinenko-inquiry-gave-evidence-litvinenko: 4-14-continuing-interest-litvinenko
@@ -254,7 +249,6 @@ aliases:
   marina-litvinenko-there-interview-which: 3-51-litvinenko-his-colleagues
   marriage-marina-litvinenko-3-14: marriage-marina-litvinenko
   mascall-16-161-170: 8-27-evidence-all-points
-  mascall-9-68-70-3: 2-mascall-9-68-70-3
   medical-history-3-102-litvinenko: medical-history
   meeting-badri-patarkatsishvili-6-157: meeting-badri-patarkatsishvili
   meeting-boris-berezovsky-6-162: meeting-boris-berezovsky
@@ -419,6 +413,8 @@ sections:
   risc: chapter-8-events-in-london-31-october-3-november
 unmatched:
   - 1-30pm-17-october-told
+  - 1-andrade-16-111-141-inq015344
+  - 1-fact-there-are-two
   - 1-november-2006-2
   - 1-november-6-190-before
   - 1-november-apart-from-his
@@ -429,9 +425,12 @@ unmatched:
   - 14-november-2014
   - 16-00-17-00-1-november
   - 16-october-would-be-positively
+  - 2-mascall-9-68-70-3
   - 2006-could-have-been-made
   - 2006-public-statements-since-november
   - 21-november
+  - 241-c2-24-14-39-242
+  - 241-c2-24-14-39-c2
   - 27-november-2014
   - 296-a1-20-65-68
   - 299-a1-20-70-75
@@ -439,10 +438,15 @@ unmatched:
   - 3-november-2006
   - 3-november-6-226-one
   - 301-a1-20-75-77
+  - 4-harrison-19-67-73
   - 40-3-inquiries-act-2005
+  - 6-inq019146-inq020316-inq020998-service
   - 7-october-2006
+  - 8-inq019146-page-4-paragraph
   - 9-12-below-g-open
   - 9-12-below-g-open-2
+  - a1-2-114-115
+  - a1-2-114-5
   - a1-2-149
   - a1-20-65-68
   - a1-20-70-75
@@ -508,7 +512,9 @@ unmatched:
   - c-public-appeals-engage-such
   - c-same-day-knott-informed
   - c-stated-litvinenko-had-shared
+  - c2-24-14-39-242
   - c2-32-43
+  - c2-32-43-44
   - came-out-from-behind-desk
   - cannot-be-excluded-litvinenko-s
   - careers-lugovoi-kovtun-since-2006
@@ -546,6 +552,7 @@ unmatched:
   - contrast-heroin-addict-long-record
   - core-participants-57-31-july
   - coroner
+  - cotlick-25-64
   - could-rely-english-justice-system
   - council-sent-put-pressure-qatari
   - course-always-worried-security-especially
@@ -590,6 +597,7 @@ unmatched:
   - final-product-pure-polonium-210
   - finally-i-would-like-say
   - first-new-law-enabling-him
+  - fuller-description-a1-s-cv
   - funding-applications-63-31-july
   - further-testing-conducted-results-which
   - great-britain-could-have-been
@@ -601,6 +609,7 @@ unmatched:
   - having-knowledge-system-i-know
   - he-said
   - his-letter-balfour-requested-kovtun
+  - hmg000175-pages-9-10
   - hotel-99-secondary-contamination-found
   - however-recalling-now-details-my
   - however-thought-reading-anomaly-caused
@@ -650,6 +659,7 @@ unmatched:
   - ii-due-metabolic-consequences-organ
   - ii-similar-deposit-primary-contamination
   - iii-due-primary-effects-radiation
+  - inq016745-page-9
   - inq019146-page-4-paragraph-9
   - inquest-proceedings-10-coroner-district
   - inquiry-b-minister-hmg-advisers
@@ -918,6 +928,7 @@ unmatched:
   - mario-scaramella-chechen-groups-alexander
   - mascall-29-79-82
   - mascall-29-83-85
+  - mascall-9-68-70-3
   - maybe-total-i-swallowed-three
   - means-general-rule-government-will
   - meanwhile-above-mentioned-russian-intelligence

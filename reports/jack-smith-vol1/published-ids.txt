@@ -32,6 +32,7 @@
 142-11-6-2023-pending
 146-11-7-2023
 147-11-8-2023
+15-16-2-28-2024
 15-2-28-2024
 152-11-13-2023
 17-ecf-no-324-united
@@ -215,6 +216,7 @@ differently-context-post-indictment-litigation-first
 directed-principles-i-made-my
 disclosure-government-44278-court-memorandum
 disclosure-grand-jury-testimony-29
+dismiss-selective-vindictive-prosecution-226
 dismiss-selective-vindictive-prosecution-8
 disregard-reckless-deliberate-indifference-has-deep
 district-court-found-there-no
@@ -399,6 +401,7 @@ one-campaign-s-agents-wrote
 one-sided-improper-report-smith-particularly
 one-trump-s-efforts-change
 ongoing-investigation-into-whether-any
+ongoing-prosecutions-deoliveira-nauta-which
 order
 order-10-18-2024-government
 originally-filed-trump-v-united
@@ -411,6 +414,7 @@ page-9-added-reporting-requirement
 para
 pence-discard-legitimate-electoral-certificates
 pending-appeal-12-18-2023
+pending-appeal-188-12-18
 pennsylvania-despite-having-been-told
 people-who-took-trump-his
 persons-conspire-defraud-united-states
@@ -432,6 +436,7 @@ president-about-certification-proceeding-noting
 presidential-communications-privilege-covers-evidence-reflec
 presidential-imlvfunity-appellate-litigation
 presidential-immunity-12-22-2023
+presidential-immunity-8-12-22
 presidential-immunity-principles-smith-has
 presumption-innocence-undoubted-law-axiomatic
 presumption-serves-reminder-jury-prosecution
@@ -442,6 +447,7 @@ process-selecting-certifying-president-described
 proposals-violated-eca-untested-when
 protect-integrity-proceedings-september-5
 public-docket-10-2-2024
+public-docket-252-10-2
 public-release-report-smith-would
 publicly-spreading-false-harmful-social
 quarter-century-doj-has-operated
@@ -459,6 +465,7 @@ regarding-election-notice-state-federal
 remand-from-supreme-comi-s
 repeated-conversations-day-after-day
 reply-briefs-11-17-2023
+reply-briefs-158-11-17
 report-my-service-service-my
 representative-perry-copy-contents-his
 republic-january-5-after-trump

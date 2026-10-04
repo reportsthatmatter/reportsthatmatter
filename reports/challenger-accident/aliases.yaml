@@ -5,7 +5,9 @@
 # reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
-  "253": mer-mission-evaluation-room-253
+  "207": after-vehicle-breakup-crew-compartment
+  "253": mer-mission-evaluation-room
+  "255": january-12-1986-sts-61-c
   --l-l--ed-t-b-e-s: ----l-l--ed-t-b-e
   --sry-hpm-fiold-joint: sry-hpm-fiold-joint
   -iaw-wmir-mil-stdi: iaw-wmir-mil-stdi
@@ -13,6 +15,7 @@ aliases:
   1-1-8-ibid-volume: 122-cmte-hgs-transcript-june
   1-rogers-commission-report-volume: 122-cmte-hgs-transcript-june
   1-thhapsou-1-287: 0-j-280
+  1-which-includes-materials-submitted: findings-recommendations-contained-report-are
   105-rogers-commission-report-volume: will-be-recalled-launch-flight
   11-rogers-commission-report-volume: 122-cmte-hgs-transcript-june
   12-prime-responsibility-design-engineers: july-24-1986-p-106
@@ -50,6 +53,7 @@ aliases:
   80-thiokol-robert-ebeling-interview: 6-9-solid-rocket-motor
   85-date-each-element-space: 2-nasa-its-contractors-should-2
   8s-ibid: 18s-ibid
+  9-only-manufacturer-which-can: 2-o-ring-materials-putty-used
   9-rogers-commission-report-volume: rogers-commission-has-documented-fact
   aa-sf-associate-administrator-space-flight-afpro-air: aa-sf-associate-administrator-space-flight
   abort-requires: abort--requires-automatic-operation-o
@@ -98,7 +102,6 @@ aliases:
   committee-attributes-situation-concept-ac: committee-attributes-situation-concept-acceptable
   committee-interested-findings-rogers-com: committee-interested-findings-rogers-commission
   comnainp-ops-scocc-ivw: comnainp-ops-scocc-i-v
-  completing-its-report-120-days: 35-activities-your-commission-conclusion
   complex-39b-1-45-m: january-28-1986-ice-frost
   constraint-problem-assessment-system-entirely: muwy--that-we-have-problem
   content-u-b-e-e: m-14359-3-1-analyria-following
@@ -124,7 +127,7 @@ aliases:
   design-development-verification-factor-second: r-v-tkiokol-presented-approach
   design-simi--lar-except-tang: design-similar-except-tang-pointed
   details-substantiation-statements-made-summary: section-summary-section-vii-casing
-  direction-committee-science-technology-hereby: direction-committee-science-technology-1
+  direction-committee-science-technology-1: direction-committee-science-technology-hereby
   director-engineering-who-here-today: bottom-line-though-initially-thiokol
   director-no-just-ice: ld-we-have-nothing-else
   director-no-s-right-io3: director-no-s-right-mission
@@ -215,6 +218,7 @@ aliases:
   management-structure-2: management-structure
   manufacturing-refurbishment-product-support-factsr: r-v-tkiokol-presented-approach
   me-s-u-b-j: s-h-u-t-t
+  mer-mission-evaluation-room-253: mer-mission-evaluation-room
   military-specification-mil-r-83248a-feb-84: military-specification-mil-r-83248a-17-feb
   mission-support-room-downey-california: director-no-s-right-mission
   mlp-mobile-launch-platform-mmt-mission-management: mlp-mobile-launch-platform
@@ -294,6 +298,7 @@ aliases:
   sn73-s--01ei--aorody-a8icu-o: sd73-sb-0-181-3-cucraot-isma-sn73-s
   sop-8000-1-ca-s: r-t-lindrtrorn-y-q
   space-shuttle-main-engine-we: committee-has-more-concerns-than
+  speaker-us-house-representatives-washington: hon-thomas-p-o-neill
   srb-exhaust-hole-particles-numbered: numerous-launch-films-viewed-regarding
   srm-aft-field-ioint-eroded: january-12-1986-sts-61-c
   standard-had-ascertained-sufficient-pres: resolve-concern-nasa-its-contractor
@@ -327,7 +332,7 @@ aliases:
   vano-12121-ivl-n-n: ivln-no-17-vano-12121
   vii-1: design-did-not-always-answer
   vii-casing-joint-design-viii: section-summary-section-vii-casing
-  which-includes-materials-submitted-record: 1-which-includes-materials-submitted
+  which-includes-materials-submitted-record: findings-recommendations-contained-report-are
   woro-tw-2-priur-0: rorult-o-f-tho-problomr
   x-v-m-i-i: j-mcdomld-1-coo-x
   y-c-e-l-l: u-1-johmon-i-514
@@ -385,6 +390,7 @@ unmatched:
   - 101-ibid-volume-i-p
   - 103-ibid-pp-82-151-lo4
   - 104-01s-channel-216-pp
+  - "11"
   - "111"
   - 117-ice-frost-team-evaluation
   - 12-01s-annel-245-pp
@@ -424,6 +430,7 @@ unmatched:
   - 31-1
   - 31a-thiokol-roger-boisjoly-srm
   - 32-rogers-commission-report-volume
+  - 35-activities-your-commission-conclusion
   - 36-ibid-ibid-chart-2-2
   - 38-bid-volume-i-p
   - "39"
@@ -543,7 +550,7 @@ unmatched:
   - doe-s-nasa-have-adequate
   - drno-5-6
   - e2-ibid-p-k-31-o3
-  - enclosure
+  - enclosure-111
   - enclosure-2
   - engl-neerf-ng
   - er-aircraft-sca-its-impact

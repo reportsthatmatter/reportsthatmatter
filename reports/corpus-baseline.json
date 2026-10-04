@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 62305,
-      "paragraphs": 430,
+      "words": 62247,
+      "paragraphs": 418,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -13,8 +13,8 @@
         {
           "slug": "the-certification-of-the-electoral-college-vote",
           "title": "THE CERTIFICATION OF THE ELECTORAL COLLEGE VOTE",
-          "paragraphs": 3,
-          "ids": "ddc525109ed4"
+          "paragraphs": 2,
+          "ids": "d59b467b1f1a"
         },
         {
           "slug": "volume-one-the-election-case",
@@ -163,26 +163,26 @@
         {
           "slug": "pll-c-todd-blanche",
           "title": "PLL C TODD BLANCHE",
-          "paragraphs": 18,
-          "ids": "de5699e66ab0"
+          "paragraphs": 16,
+          "ids": "88c4f255b959"
         },
         {
           "slug": "preparation-and-release-of-a-report-would-violate-existing-law",
           "title": "Preparation And Release Of A Report Would Violate Existing Law",
-          "paragraphs": 18,
-          "ids": "c310d308aa64"
+          "paragraphs": 15,
+          "ids": "cb70a5b05ad8"
         },
         {
           "slug": "smiths-report-violates-the-presumption-of-innocence",
           "title": "Smith's Report Violates The Presumption of Innocence",
-          "paragraphs": 11,
-          "ids": "fad805352fcf"
+          "paragraphs": 10,
+          "ids": "0b7992f1f735"
         },
         {
           "slug": "preparation-and-release-of-a-report-would-serve-no-valid-purpose",
           "title": "Preparation And Release Of A Report Would Serve No Valid Purpose",
-          "paragraphs": 24,
-          "ids": "deb4156946f0"
+          "paragraphs": 19,
+          "ids": "cb26d7592c84"
         },
         {
           "slug": "delivery-by-hand-2",
@@ -391,20 +391,20 @@
       ]
     },
     "challenger-accident": {
-      "words": 153063,
-      "paragraphs": 2846,
+      "words": 153142,
+      "paragraphs": 2840,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
           "title": "INVESTIGATION OF THE CHALLENGER ACCIDENT",
-          "paragraphs": 24,
-          "ids": "8445a37f09dc"
+          "paragraphs": 22,
+          "ids": "40b29ee77a71"
         },
         {
           "slug": "introduction",
           "title": "INTRODUCTION",
-          "paragraphs": 11,
-          "ids": "351cd764ad8e"
+          "paragraphs": 10,
+          "ids": "26f2449bfea7"
         },
         {
           "slug": "conclusions",
@@ -415,8 +415,8 @@
         {
           "slug": "solid-rocket-motors",
           "title": "SOLID ROCKET MOTORS",
-          "paragraphs": 20,
-          "ids": "4f180112c385"
+          "paragraphs": 19,
+          "ids": "4260e27cb504"
         },
         {
           "slug": "summary-of-launch-operations",
@@ -440,7 +440,7 @@
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
           "paragraphs": 59,
-          "ids": "6ccb4fdcbfb5"
+          "ids": "2994d8d033f1"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -547,8 +547,8 @@
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 117,
-          "ids": "f5bcd35c9d37"
+          "paragraphs": 116,
+          "ids": "e9b7949f9478"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
@@ -566,13 +566,13 @@
           "slug": "ixdefinitions-of-terms-and-acronyms",
           "title": "IX.DEFINITIONS OF TERMS AND ACRONYMS",
           "paragraphs": 99,
-          "ids": "e0b754381886"
+          "ids": "fa852a460e7c"
         },
         {
           "slug": "xational-aeronautics-and-space-admiyistratiov",
           "title": "XATIONAL AERONAUTICS AND SPACE ADMIYISTRATIOV",
-          "paragraphs": 17,
-          "ids": "46e1399fc710"
+          "paragraphs": 16,
+          "ids": "b6b944be7f65"
         },
         {
           "slug": "30-approach",
@@ -3457,7 +3457,7 @@
       ]
     },
     "uk-saville-inquiry": {
-      "words": 168229,
+      "words": 168226,
       "paragraphs": 1458,
       "sections": [
         {
@@ -3899,8 +3899,8 @@
           "ids": "4e1dcd22334c"
         },
         {
-          "slug": "the-human-impact",
-          "title": "THE HUMAN IMPACT",
+          "slug": "a-introduction",
+          "title": "a. Introduction",
           "paragraphs": 6,
           "ids": "7b17019f2b6f"
         },
@@ -3917,8 +3917,8 @@
           "ids": "198d567f694a"
         },
         {
-          "slug": "financial-and-other-redress",
-          "title": "FINANCIAL AND OTHER REDRESS",
+          "slug": "a-introduction-2",
+          "title": "a. Introduction",
           "paragraphs": 15,
           "ids": "ba0271d96550"
         },
