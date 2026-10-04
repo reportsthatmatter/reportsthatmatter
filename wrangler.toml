@@ -51,5 +51,10 @@ migrations_dir = "migrations"
 binding = "CONTENT"
 bucket_name = "reportsthatmatter-content"
 
+# The running version's id, which changes on every deploy: the edge cache of ?p=/?h= pages is keyed on it, so
+# a deploy retires them (reportsthatmatter-h3iu). Free, and needs no read of D1.
+[version_metadata]
+binding = "CF_VERSION_METADATA"
+
 [dev]
 local_protocol = "http"
