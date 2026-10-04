@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 62305,
-      "paragraphs": 430,
+      "words": 62247,
+      "paragraphs": 418,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -13,8 +13,8 @@
         {
           "slug": "the-certification-of-the-electoral-college-vote",
           "title": "THE CERTIFICATION OF THE ELECTORAL COLLEGE VOTE",
-          "paragraphs": 3,
-          "ids": "ddc525109ed4"
+          "paragraphs": 2,
+          "ids": "d59b467b1f1a"
         },
         {
           "slug": "volume-one-the-election-case",
@@ -163,26 +163,26 @@
         {
           "slug": "pll-c-todd-blanche",
           "title": "PLL C TODD BLANCHE",
-          "paragraphs": 18,
-          "ids": "de5699e66ab0"
+          "paragraphs": 16,
+          "ids": "88c4f255b959"
         },
         {
           "slug": "preparation-and-release-of-a-report-would-violate-existing-law",
           "title": "Preparation And Release Of A Report Would Violate Existing Law",
-          "paragraphs": 18,
-          "ids": "c310d308aa64"
+          "paragraphs": 15,
+          "ids": "cb70a5b05ad8"
         },
         {
           "slug": "smiths-report-violates-the-presumption-of-innocence",
           "title": "Smith's Report Violates The Presumption of Innocence",
-          "paragraphs": 11,
-          "ids": "fad805352fcf"
+          "paragraphs": 10,
+          "ids": "0b7992f1f735"
         },
         {
           "slug": "preparation-and-release-of-a-report-would-serve-no-valid-purpose",
           "title": "Preparation And Release Of A Report Would Serve No Valid Purpose",
-          "paragraphs": 24,
-          "ids": "deb4156946f0"
+          "paragraphs": 19,
+          "ids": "cb26d7592c84"
         },
         {
           "slug": "delivery-by-hand-2",
@@ -391,20 +391,20 @@
       ]
     },
     "challenger-accident": {
-      "words": 153063,
-      "paragraphs": 2846,
+      "words": 153142,
+      "paragraphs": 2840,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
           "title": "INVESTIGATION OF THE CHALLENGER ACCIDENT",
-          "paragraphs": 24,
-          "ids": "8445a37f09dc"
+          "paragraphs": 22,
+          "ids": "40b29ee77a71"
         },
         {
           "slug": "introduction",
           "title": "INTRODUCTION",
-          "paragraphs": 11,
-          "ids": "351cd764ad8e"
+          "paragraphs": 10,
+          "ids": "26f2449bfea7"
         },
         {
           "slug": "conclusions",
@@ -415,8 +415,8 @@
         {
           "slug": "solid-rocket-motors",
           "title": "SOLID ROCKET MOTORS",
-          "paragraphs": 20,
-          "ids": "4f180112c385"
+          "paragraphs": 19,
+          "ids": "4260e27cb504"
         },
         {
           "slug": "summary-of-launch-operations",
@@ -440,7 +440,7 @@
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
           "paragraphs": 59,
-          "ids": "6ccb4fdcbfb5"
+          "ids": "2994d8d033f1"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -547,8 +547,8 @@
         {
           "slug": "the-sts-51-l-launch-decision",
           "title": "THE STS 51-L LAUNCH DECISION",
-          "paragraphs": 117,
-          "ids": "f5bcd35c9d37"
+          "paragraphs": 116,
+          "ids": "e9b7949f9478"
         },
         {
           "slug": "table-i1-principal-participants-in-the-teleconference",
@@ -566,13 +566,13 @@
           "slug": "ixdefinitions-of-terms-and-acronyms",
           "title": "IX.DEFINITIONS OF TERMS AND ACRONYMS",
           "paragraphs": 99,
-          "ids": "e0b754381886"
+          "ids": "fa852a460e7c"
         },
         {
           "slug": "xational-aeronautics-and-space-admiyistratiov",
           "title": "XATIONAL AERONAUTICS AND SPACE ADMIYISTRATIOV",
-          "paragraphs": 17,
-          "ids": "46e1399fc710"
+          "paragraphs": 16,
+          "ids": "b6b944be7f65"
         },
         {
           "slug": "30-approach",
@@ -589,8 +589,20 @@
         {
           "slug": "thiokol",
           "title": "THIOKOL",
-          "paragraphs": 56,
-          "ids": "d3f4947db3ba"
+          "paragraphs": 11,
+          "ids": "6c421ca0193d"
+        },
+        {
+          "slug": "electrical",
+          "title": "ELECTRICAL",
+          "paragraphs": 4,
+          "ids": "85e76894493c"
+        },
+        {
+          "slug": "o-rings-and-putty",
+          "title": "O-RINGS AND PUTTY",
+          "paragraphs": 41,
+          "ids": "35574b706533"
         },
         {
           "slug": "terrestrial-environment-climatic-criteria",
@@ -967,8 +979,14 @@
         {
           "slug": "appendix-2-terms-of-reference",
           "title": "Appendix 2: Terms of Reference",
-          "paragraphs": 23,
-          "ids": "6dfa3a9c4c82"
+          "paragraphs": 6,
+          "ids": "d8fb8133928c"
+        },
+        {
+          "slug": "appendix-3-list-of-issues",
+          "title": "Appendix 3: List of Issues",
+          "paragraphs": 17,
+          "ids": "054a7a257ff4"
         },
         {
           "slug": "appendix-4-chronology",
@@ -985,8 +1003,14 @@
         {
           "slug": "appendix-6-abbreviations",
           "title": "Appendix 6: Abbreviations",
-          "paragraphs": 156,
-          "ids": "9888764f30b1"
+          "paragraphs": 2,
+          "ids": "52d28e0be6a9"
+        },
+        {
+          "slug": "appendix-7-restriction-notices-and-orders",
+          "title": "Appendix 7: Restriction Notices and Orders",
+          "paragraphs": 154,
+          "ids": "23093ac4d1e8"
         },
         {
           "slug": "appendix-8-key-documents",
@@ -997,8 +1021,20 @@
         {
           "slug": "appendix-9-list-of-witnesses",
           "title": "Appendix 9: List of witnesses",
-          "paragraphs": 33,
-          "ids": "a6c6fd4e59c9"
+          "paragraphs": 16,
+          "ids": "40764b7b141a"
+        },
+        {
+          "slug": "appendix-10-list-of-inquiry-staff-and-counsel",
+          "title": "Appendix 10: List of Inquiry staff and counsel",
+          "paragraphs": 3,
+          "ids": "42f1da75c0e6"
+        },
+        {
+          "slug": "appendix-11-list-of-core-participants-and-legal-representatives",
+          "title": "Appendix 11: List of core participants and legal representatives",
+          "paragraphs": 14,
+          "ids": "dfe063cb037b"
         }
       ]
     },
@@ -3457,7 +3493,7 @@
       ]
     },
     "uk-saville-inquiry": {
-      "words": 168229,
+      "words": 168226,
       "paragraphs": 1458,
       "sections": [
         {

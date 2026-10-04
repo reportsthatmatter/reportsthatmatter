@@ -118,8 +118,6 @@ HELD ON JANUARY 6, 2021
 
 - 4. The substantial federal interest in the evenhanded administration of the law was served by Mr. Trump's prosecution — 83
 
-%%page 11%%
-
 - B. Mr. Trump Was Not Subject to Effective Prosecution in Another Jurisdiction — 87
 
 - C. There Was No Adequate Non-Criminal Alternative to Prosecution — 88
@@ -206,7 +204,7 @@ Mr. Trump similarly leaned on other state officials-always those of the same pol
 
 Mr. Trump engaged in these efforts even though trusted state and party officials had told him from the outset that there was no evidence of fraud in the election. In Arizona, Mr. Trump called the Governor on November 9-a week after election day, and after both Fox News and the Associated Press had projected that Mr. Trump had lost the state.[^33] Using a baseball metaphor, the Governor told Mr. Trump that "it was the ninth inning, two outs and he was several runs down."[^34] During the call, Mr. Trump raised false claims of election fraud; the Governor asked Mr. Trump to send evidence of the alleged fraud, and Mr. Trump suggested he would do so.[^35] He never did.[^36] In Pennsylvania, just two days after the election, the Chairman of the state's Republican Party, who had represented Mr. Trump in previous election litigation, refuted Mr. Trump's claim that it was suspicious that his early lead was slipping away.[^37] The Chairman explained that there were still roughly 1,750,000 mail-in ballots being counted, which were expected to weigh heavily in Mr. Biden's favor.[^38] In the course of conversations like these, state officials-better positioned than Mr. Trump to know the facts in their states-repeatedly told Mr. Trump that his fraud claims were unfounded and that there was no evidence of substantial election fraud in their states. And apart from Georgia's Secretary of State, Mr. Trump never contacted other election officials to determine whether there was merit to any specific allegation of election fraud in their states-even though they would have been the best sources to confirm or refute such claims.
 
-%%page 11#2%%
+%%page 11%%
 
 ### Mr. Trump's Fraudulent Elector Plan
 
@@ -1306,7 +1304,7 @@ Second, the Draft Repo11 violates fundamental norms regarding the presumption of
 
 1 Should these demands be improperly rejected, contrary to law, we respectfully request that this letter be appended to and addressed in any report by Smith that is issued to the public.
 
-January 6, 2025 Page 2
+%%page 2#3%%
 
 Third, preparing a report and releasing it to the public would violate the Presidential Transition Act and the Presidential immunity doctrine. The Act prohibits all officers and those acting as such, including the Attorney General and Smith, at least in his own view of himself, from interfering with the ongoing transition process. Presidential immunity, which Smith conceded required pre-inauguration dismissal of his prosecutions, likewise prohibits criminal processes, including disclosures of any prosecutorial reports or statements, that would exacerbate stigma and public opprobrium surrounding the Chief Executive and otherwise divert from the time and attention that is necessary to complete the transition and run the County. Accordingly, releasing a report regarding Smith's failed and abandoned election-interference efforts would violate the Act and Presidential immunity.
 
@@ -1324,7 +1322,7 @@ On December 11, 2024, we contacted a supervisor with the Special Counsel's Offic
 
 > Blanche Law PLLC 99 Wall Street, Suite 4460 \ New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
-January 6, 2025 Page 3
+%%page 3#3%%
 
 ### Preparation And Release Of A Report Would Violate Existing Law
 
@@ -1338,7 +1336,7 @@ Preparation and release of a report would also be improper under the Special Cou
 
 > (212) 716-1250 www.BlancheLaw.com I
 
-January 6, 2025 Page 4
+%%page 4#3%%
 
 Rather, Presidential immunity based on the national mandate ansmg from President Trump's overwhelming victory in the election has made it impossible for Smith to proceed, and rightly so.
 
@@ -1356,7 +1354,7 @@ Creating and releasing a prejudicial report to the public would violate these co
 
 > Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
-January 6, 2025 Page 5
+%%page 5#2%%
 
 A one-sided, improper report by Smith, particularly if publicly released, would also violate the
 
@@ -1370,7 +1368,7 @@ In sum, the same legal principles and logic that required Smith to dismiss his p
 
 > Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
-January 6, 2025 Page 6
+%%page 6#2%%
 
 ### Smith's Report Violates The Presumption of Innocence
 
@@ -1386,7 +1384,9 @@ The Draft Report violates every one of these core requirements. Despite Smith' s
 
 > Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www .BlancheLaw.com
 
-January 6, 2025 Page 7 the ongoing prosecutions of DeOliveira and Nauta, which would cause gravely unconstitutional prejudice if released.
+%%page 7#2%%
+
+the ongoing prosecutions of DeOliveira and Nauta, which would cause gravely unconstitutional prejudice if released.
 
 Neither the Constitution nor applicable regulations or ethical rules allow Smith to make public, extrajudicial claims that purport to reflect conclusive determinations of guilt backed by the imprimatur of DOJ. It is the role of the jury, not the Special Counsel, to weigh the facts and determine guilt. Other Special Counsels have recognized this foundational fact. For example, Special Counsel Hur carefully cabined his observations to what some "jurors could," "might," "may well," or, at most, "would likely" conclude. See, e.g., Hur Report at 4, 5, 9, 10,204, 206-211, 214,216,218,220,233,235, 240-42, 246- 47. At all points, Hur's focus was on whether 'jurors assessing Mr. Biden's guilt and intent w[ould] be persuaded," id. at 241, and not on the Special Counsel's unilateral views or opinions regarding Biden's obvious guilt.
 
@@ -1402,7 +1402,7 @@ To the extent Special Counsel Smith possesses any authority to draft a report (a
 
 > (212) 716-1250 www.BlancheLaw.com I
 
-January 6, 2025 Page 8
+%%page 8#2%%
 
 ### Preparation And Release Of A Report Would Serve No Valid Purpose
 
@@ -1412,9 +1412,7 @@ In 2023, Smith and his Office levied extremely serious, and entirely false, alle
 
 At 1999 hearings relating to the Independent Counsel Act, Ted Olson argued that "the final report ... has turned into an excuse to file long exhaustive expositions which rationalize the investigation," as well as "offer opinions regarding and/or pronounce judgments on the individuals investigated, and generally make the Independent Counsel look good."[^7] Attorney General Janet Reno pointed out, more succinctly, that "the price of the final report is often too high."[^8] Deputy Attorney General Eric Holder added: "the reporting requirement goes directly against most traditions and practices of law enforcement and American ideals. " 9 Based on this feedback, Congress permitted the Independent Counsel Act to expire, and DOJ promulgated a reporting regulation that was much more restrictive than its statutory predecessor. 10
 
-January 6, 2025
-
-Page 9
+%%page 9#2%%
 
 For the quarter century that DOJ has operated under these Regulations, DOJ has not released a single Special Counsel report concerning any individual who has mounted a successful defense in court, as President Trump has done with respect to Presidential immunity. For good reason: the Special Counsel Regulations state that the purpose of a report is to "explain[] the prosecution or declination decisions." 28 C.F.R. § 600.8(c). When filing and resolving a case in Court, that information, together with the defense's responses, becomes part of the public record. An additional, one-sided report, would only sow confusion and undermine the judicial process.
 
@@ -1424,7 +1422,7 @@ Here, Smith has explained himself, and sought unsuccessfully to justify his acti
 
 1° Compare 28 U.S.C. § 594(h)(l)(B) (calling for a "final report ... setting forth fully and completely a description of the work of the independent counsel, including the disposition of all cases brought"), with 28 C.F.R. § 600.8(c) (calling for "a confidential report explaining the prosecution or declination decisions reached by the Special Counsel").
 
-January 6, 2025 Page 10
+%%page 10#2%%
 
 In addition to the leaks, Smith filed four gratuitous speaking indictments, held a lawless press conference before the national media, and filed hundreds of pages of briefing in two district courts, two Courts of Appeals, and the Supreme Court. Smith's inappropriate 165-page "Motion For Immunity Determinations," accompanied by a 1,885-page "Appendix," is an especially egregious example of Smith's proclivity to seize all available opportunities to issue lengthy diatribes attacking President Trump based on Smith's biased view of the law and evidence.[^14] Smith insisted on the filing, which even Judge Chutkan characterized as "atypical,"[^15] to further publicize his narrative in the lead-up to the Presidential election. Smith's tome was not responsive to a defense motion, had no basis in the Federal Rules of Criminal Procedure, and violated DOJ's election-interference policies and practices. See, e.g., Justice Manual § 9-85.500.[^16] Having previously insisted on highly restrictive protective orders that prevented dissemination of discovery, based in part on histrionic, unsupported claims about witness identities, Smith abandoned those arguments and released the contents of protected reports, grand jury material, and accounts from thinly-veiled witnesses whom the media immediately identified.
 
@@ -1432,7 +1430,7 @@ Under these circumstances, there is no legitimate need for an additional "report
 
 The issuance of such a report, in violation of the Constitution, the Transition Act, Presidential immunity, and DOJ's own regulations, would exacerbate the irreparable damage that Smith has already inflicted on DOJ's reputation for non-partisanship through his repeated violations of DOJ policies about election interference. As we noted one year ago in opposing Smith's failed attempt to obtain certiorari before judgment on Presidential immunity, which the Supreme Court rejected, Smith's actions "create[] the compelling appearance of a partisan motivation: To ensure that President Trump ... will face a months-long criminal trial at the height of his presidential campaign." Br. in Opp. to Pet'n for Writ of
 
-January 6, 2025 Page 11
+%%page 11#2%%
 
 Certiorari Before Judgment in United States v. Trump, No. 23-624, at 21 (filed Dec. 20, 2024). Smith's nakedly partisan, election-interference motivation was obvious to commentators across the political spectrum. See id. (citing many sources). "[T]he best traditions of the U.S. Department of Justice ... call for prosecutors to avoid the appearance of election interference in the prosecution of political candidates." Id. at 23 (emphasis in original). "[F]ederal prosecutors ... may never make a decision regarding an investigation or prosecution, or select the timing of investigative steps or criminal charges, for the purpose of affecting any election, or for the purpose of giving an advantage or disadvantage to any candidate or political party." Id (citing Justice Manual§ 9-27.260). Smith's latest illegal plan to launch yet another partisan attack against President Trump, De Oliveira, and Nauta will have the same injurious effect on DOJ' s reputation if not stopped in its tracks.
 
@@ -1440,7 +1438,7 @@ Further, preparing and releasing a report would be improper for the additional r
 
 Finally, given the status of Smith and his team as the inauguration approaches, using additional taxpayer resources to prepare, review, and disseminate a report is not a legitimate use of taxpayer funds­ even ifthere were a valid appropriation here, which there is not. "The Special Counsel's office has spent tens of millions of dollars since November 2022, all drawn unconstitutionally from the Indefinite Appropriation." United States v. Trump, 2024 WL 3404555, at *46 (S.D. Fla. July 15, 2024). For the period preceding March 31, 2024, Smith's Office had used $20 million from a permanent indefinite appropriation and an additional $16 million from other unspecified "DOJ components. "[^21] The costs of Smith's activities since March 2024 have not yet been released. It is clear, however, that the total figure will greatly exceed-by an extraordinarily wide margin-what all of this lawfare was actually worth to the public, the operations of the government, and the Country as a whole.
 
-January 6, 2025 Page 12
+%%page 12#2%%
 
 * * *
 
@@ -1477,8 +1475,6 @@ Dear Mr. Attorney General:
 As you know, my Office provided counsel to Mr. Trump, Mr. Nauta, and Mr. De Oliveira an opportunity to review a draft of my confidential Report and to provide any response in writing by 2 p.m. on January 6, 2025, so that my Office could consider any issues that counsel identified in the final Report before officially transmitting it to you. Only Mr. Trump's counsel chose to provide a written response, in the form of a letter to you. That response fails to identify any specific factual objections to the draft. Instead, Mr. Trump principally objects to public release of the Report, and in service of that objection makes a variety of false , misleading, or otherwise unfounded claims. While the determination as to whether to publicly release the Report, consistent with applicable legal restrictions, is yours as Attorney General, see 28 C.F.R. § 600.9(c), I felt it necessary to address below certain inaccuracies set forth in Mr. Trump's letter.
 
 As an initial matter, the Office extended Mr. Trump a special accommodation by allowing his counsel to review a draft of the Report. Such an accommodation is not required under the law or regulations. Nonetheless, the Office elected to provide Mr. Trump 's counsel access to the draft Report through what it understood to be a process similar to that employed by Special Counsel Robert K. Hur: by allowing counsel to review the draft in person over the course of four days, in the Office's workspace, without contemporaneous access to personal electronics but with the ability to take notes, including the use of government laptops on which to draft a response. Specifically, on December 11, 2024, Mr. Trump's counsel requested an opportunity to review the Report before it was submitted to the Attorney General. On December 15, 2024, the Office informed Mr. Trump's counsel that it would make arrangements for counsel to review the draft Report and provided a range of dates when the review could occur. After Mr. Trump's attorneys complained that the initial review dates that the Office offered conflicted with their vacation schedules, the next day the Office changed the schedule to provide the dates they requested. It was thus surprising and disappointing to see Mr. Trump's grievances about these accommodations in his letter, see Trump Letter at 2-3, especially after Mr. Trump's counsel explicitly stated their "genuine" and "personal appreciation" to the Office for the new dates in a phone call on December 16, 2024.
-
-%%page 2#3%%
 
 Mr. Trump's other cnt1c1sms of the review process are similarly disingenuous. For instance, he complains that he was prevented from reviewing the underlying documents cited in the draft Report, id. at 1, but over the four days Mr. Trump's attorneys were given to review the Report, they never requested access to a single underlying document, despite the fact that the Office had attorneys on hand specifically assigned to respond to any questions counsel might have. Relatedly, Mr. Trump insinuates that the Office improperly "demanded" that counsel delete discovery productions prior to their review of the draft Report, when in fact that deletion was required by the protective orders that federal judges entered in both of Mr. Trump's criminal cases. See United States v. Trump, No. 23-cr-80101 , ECF No. 27 at 3 (S.D. Fla. June 19, 2023); United States v. Trump , No. 23-cr-257, ECF No. 28 at 2-3 (D.D .C. Aug. 11, 2023). In sum, Mr. Trump's counsel had a full opportunity to review the draft Report, and only came to the Office to review it on the first two of the four days available. Upon completing that review, Mr. Trump has not contested a single factual representation in the Report, instead objecting only to its public release.
 

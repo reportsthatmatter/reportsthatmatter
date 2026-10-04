@@ -42,23 +42,19 @@ ROBERTC. K ~ H A M , General Counsel ROBERTE. PALMER RADP~RD BYERLY, Jr. GEORGES
 
 "Serving on Committee on the Budget for 99th Congress
 
-(11)
-
 ## LETTER OF SUBMITTAL
 
 > U.S.HOUSEOF REPRESENTATIVES, Washington, DC, October 29, 1986.
 
-Hon. THOMAS P. O'NEILL,Jr.,
-
-The Speaker of the US.House of Representatives, Washington, DC.
+Hon. THOMAS P. O'NEILL,Jr., The Speaker of the US.House of Representatives, Washington, DC.
 
 DEARMR. SPEAKER:
 
-By direction of the Committee on Science and Technology, 1 hereby submit the Committee's investigative report on the Challenger accident. The report was approved by the Committee on October 7, 1986. The report was carried out under the direction of the Ranking Majority Member, Robert A. Roe, who chaired the hearings and instructed the Committee staff assigned to the investigation.
+By direction of the Committee on Science and Technology,[^1] hereby submit the Committee's investigative report on the Challenger accident. The report was approved by the Committee on October 7, 1986. The report was carried out under the direction of the Ranking Majority Member, Robert A. Roe, who chaired the hearings and instructed the Committee staff assigned to the investigation.
 
 > Sincerely, DONFUQUA,Chairman.
 
-Enclosure. (111)
+Enclosure.
 
 ## LETTER OF TRANSMITTAL
 
@@ -102,6 +98,8 @@ On your instructions, the staff has carefully reviewed the information made avai
 
 - . VIII-K ... ............................................ ................................... ,.,.,......,, — 438
 
+%%page 1%%
+
 Union Calendar No. 600 9 9 ~ ~
 
 ## CONGRESS
@@ -126,11 +124,9 @@ This report is the result of the Committee's inquiry. It contains the best effor
 
 In addition to reviewing the five volumes of the Rogers Commission Report, the Committee also had direct on-line access to the entire Rogers Commission data base, which included full-text and document retrieval capability.
 
-The findings and recommendations contained in this report are the product of the Committee's own extensive hearing record,
+The findings and recommendations contained in this report are the product of the Committee's own extensive hearing record, which includes materials submitted for the record, staff investiga- tions, interviews, and trips.
 
 ' Report of the Presidential Commission on the Space Shuttle Challenger Accident, Volumes I- V, Washington, D.C., J u n e 6, 1986. (Hereafter referred to as Rogers Commission Report.)
-
-(1) which includes materials submitted for the record, staff investiga- tions, interviews, and trips.
 
 %%page 2%%
 
@@ -164,7 +160,7 @@ The Committee found that NASA's drive to achieve a launch schedule of 24 flights
 
 The Committee, the Congress, and the Administration have played a contributing role in creating this pressure. Congressional and Administration policy and posture indicated that a reliable flight schedule with internationally competitive flight costs was a near-term objective.
 
-Pressures within NASA to attempt to evolve from an R&D agency into a quasicompetitive business operation caused a realign- ment of priorities in the direction of productivity at the cost of safety. (3)
+Pressures within NASA to attempt to evolve from an R&D agency into a quasicompetitive business operation caused a realign- ment of priorities in the direction of productivity at the cost of safety.
 
 %%page 4%%
 
@@ -262,9 +258,7 @@ Findings
 
 1\. The design of the field joint was unsatisfactory and could not reliably contain the burning propellant gases under the range of operating conditions to be expected during the lift-off and flight phases.
 
-2\. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor, Morton Thiokol, can adequately control the quality or consistency of these kinds of materials, which are made from recipes known
-
-(9) only by the manufacturer and which can be changed without certification and approval.
+2\. The O-ring materials and putty used in the design of the joint were unsatisfactory as used on the Shuttle, particularly during the winter months. Furthermore, neither NASA nor its contractor, Morton Thiokol, can adequately control the quality or consistency of these kinds of materials, which are made from recipes known only by the manufacturer and which can be changed without certification and approval.
 
 %%page 10%%
 
@@ -1104,9 +1098,11 @@ On February 5, the Chairman, Mr. Fuqua, and Mr. Lujan, wrote a letter to Chairma
 
 On January 27, 1967, astronauts Virgil Grissom, Edward White I1 and Roger Chafee were killed when their Apollo spacecraft was destroyed by fire on the launch pad.
 
-(35) the activities of your Commission. At the conclusion of the Commission's work, we will undertake a thorough review of your report; we expect that this review will be similar to the review and hearings held after the Apollo 204 fire and the Apollo 13 incident.2 It is our understanding that the Commission is tasked with completing its report in 120 days. In light of this fact, we would like to request your appearance before the Science and Technology Committee during the first week in
-
 %%page 36%%
+
+> the activities of your Commission. At the conclusion of the Commission's work, we will undertake a thorough review of your report; we expect that this review will be similar to the review and hearings held after the Apollo 204 fire and the Apollo 13 incident.2 It is our understanding that the Commission is tasked
+
+with completing its report in 120 days. In light of this fact, we would like to request your appearance before the Science and Technology Committee during the first week in
 
 June, or within one week of your final report, should you complete it sooner.
 
@@ -1204,7 +1200,7 @@ It should also be recognized that this report has the advantage of hindsight. Ou
 
 We hope the lessons learned from this accident will lead to design improvements in the Shuttle Program. Just a few years ago, the collapse of the Hartford Civic Center contributed to the improvement of engineering design techniques to accommodate the unique secondary forces inherent in long-span structures. The Gothic cathedrals of the fourteenth century were constantly improved after their early failures were studied.
 
-We hope this section, as well as Sections VII and VIII, properly identify the mistakes that led to the Challenger accident. It is the intent of the Committee to identify these mistakes so that NASA will regain its former level of excellence. The Committee has confidence that the men and women of the Natiooal Aeronautics and Space Administration will meet the challenge, improve the Shuttle and their management methods, and go on to explore new frontiers in space. This assumes, however, that the agency will now receive resources adequate to support the programs it is authorized to carry out by the Congress and the President. (39)
+We hope this section, as well as Sections VII and VIII, properly identify the mistakes that led to the Challenger accident. It is the intent of the Committee to identify these mistakes so that NASA will regain its former level of excellence. The Committee has confidence that the men and women of the Natiooal Aeronautics and Space Administration will meet the challenge, improve the Shuttle and their management methods, and go on to explore new frontiers in space. This assumes, however, that the agency will now receive resources adequate to support the programs it is authorized to carry out by the Congress and the President.
 
 %%page 40%%
 
@@ -2124,7 +2120,7 @@ Having all elements of Space Shuttle flight hardware been adequately certified?
 
 1\. NASA should devote more attention to determining why the deficiencies in Solid Rocket Motor testing and certification went undetected, so that appropriate action can be taken to uncover latent problems in existing hardware and to prevent similar problems in future development programs.
 
-2\. NASA and its contractors should thoroughly reassess the adequacy of all of the testing and certification that has been conducted (85) to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected.
+2\. NASA and its contractors should thoroughly reassess the adequacy of all of the testing and certification that has been conducted to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected.
 
 %%page 86%%
 
@@ -2284,7 +2280,7 @@ The tires apparently meet all of their design specifications but are critical fo
 
 The brakes by all standards are very large, very light, of conven- tional configuration, and very experimental because of extensive stretching of materials technolgy by using carbon-beryllium. Brake design is not rigorous, it is very empirical and results are often unpredictable in new designs. The Orbiter brakes incorporate beryllium stators and carbon lined beryllium rotors. Beryllium has low density, high strength, and high heat capacity. Beryllium is very tender and not well behaved at high temperatures. Beryllium has unreliable plastic characteristics at higher temperatures. Use of beryllium in lieu of steel saved perhaps 1000 pounds in the cumulative landing gear weight. The C-5A aircraft uses beryllium rotors and stators.
 
-%%page 2#2%%
+%%page 95%%
 
 w
 
@@ -2908,7 +2904,7 @@ Once the cargo of a particular mission has been defined, or "baselined", the sig
 
 The launch production process template is displayed schematically on Figure VI-2. The template begins 15 months before the scheduled launch date (L-13, at which time a Flight Definition and Requirements Directive (FDRD) is issued. This marks one of seven defined "freeze points" of the 15 month mission-specific pre-launch activity. A freeze point simply means that a particular activity is norminally defined so that no time changes can occur without a formal process to authorize and document the change. In theory, non-mandatory changes are not made after a freeze point. As noted below, significant changes do indeed occur after the various freeze points in the schedule.
 
-%%page 6#2%%
+%%page 125%%
 
 1s 14 13 12 11 10 9 8 7 6 5 4 3 2 1 s
 
@@ -4646,8 +4642,6 @@ As for the agenda at these reviews, the directive has this to say:
 
 * James Abrahamson, NASA, Headquarters, "Space Shuttle Flight Readiness Reviews," SFO- PD 710.5A, September 26, 1983, p, 1. See Appendix VIII-A. bid., pp. 1-2.
 
-(207)
-
 %%page 208%%
 
 > The presentation of agenda items will normally include a brief status summary with appropriate supporting detail on significant items and conclude with a readiness assessment. The presentation topics and scope should be developed from the pre-FRR's and should: (1) be that required to provide the AA-SF with the information needed to make a judgment as to flight readiness; (2) review recent significant resolved problems and prior flight anomalies when necessary to establish confidence; (3) cover all problems, open items and constraints remaining to be resolved before the mission; (4) establish the mission baseline configuration in terms of all significant changes since the last STS mission (changes to be considered include hardware, software, vehicle servicing/checkout, launch commit criteria, flight plans, flight rules and crew procedures); Within the above guidelines, the scope of the review should cover status and issues in areas such as: vehicle checkout, shortages and open work, unexplained anomalies, hardware failures, prior flight anomalies, certifica- tiodverification, as-built hardware configuration versus certified hardware list, Critical Items List (CIL), development, qualification and reliability testing, waviers and deviations, limited life components, launch critical spares, sneak circuits, system safety/hazards and flight margins. . . .3
@@ -5936,7 +5930,7 @@ LRU-Line Replaceable Unit.
 
 MEOP-Maximum Expected Operating Pressure.
 
-MER-Mission Evaluation Room. (253)
+MER-Mission Evaluation Room.
 
 %%page 254%%
 
@@ -6060,8 +6054,6 @@ R E R Y TC 4moF: 30-1
 
 > 9dbject s+atezent, signed by the A&inisTrazor, is enclosed for in=lusiozi in the o f f i c i a l contrSCt m e . Q s o enclosed is a c q - of H e AdEinistrator's Statenut for the SE9 chsirvrn.
 
-(255)
-
 %%page 256%%
 
 * * * * * * * r v Tkiokol presented an approach to the SRM Program which clearly focused on m a x i m u m utilization of existing facilities a d low early year funding. In-house production efforr would be accomplished in the Wasatch Division,.Utah facility. Increment 111 production would be accomplished by acquisition of portion of the adjacent Air Force Plant 7 8 as Air force reqLirements Shased out. A p requirements would be met by increasing the capability of existing facilities in nearby Henderson, Nevada. Use of an existing, skilled, stable work force in a low labor rate area would minimize new hires and provide low labor costs. Thiokol's decision to fabricate nozzles in-house provided cost savings and good control over this extremely critical component: however, the Board concluded that this introduced some early risk because of lack of experience in fabricating nozzles of this size. Facility location resulted in high transportation cost of the SRM's: however, these costs were more than offset by low facility investments. The Thiokol proposal received the second highest overall Mission Suitability score by 'he SEB, being tied with UTC. The SEB ranked Thiokol fourth under the Design, Development and Verification Factor, second under the Manufacturing, Refurbishment and Product Support Factsr and first under the Management Factor. Design, DeVelODIIIent and Verification The Thiokol case design met the general SRM requirements; however, the cylindrical segment was close to the upper limits of size capability of the case fabricator. The nozzle design
@@ -6108,7 +6100,7 @@ I$.
 
 > a\ C. Tibbittm
 
-%%page 2#3%%
+%%page 262%%
 
 PROCMn PLAN
 
@@ -6346,7 +6338,7 @@ e. Page 5, P a r a g r a p h 3.3, Nll-Seel. &lot T e s t a , R e f e r e n c e :
 
 5hc case j o i n t and n o z z l e j o i n t m f i g w a t i o n d i f f e r e n c e s warrant wprate f u l l - s c a l e n o z z l e / a f t scgment assembly tests.
 
-%%page 2#4%%
+%%page 274%%
 
 > f. GMer.1 - Design changes t o t h e i n s u l a t l o n i n t e r f a c e s u h i z h will p r e v e n t d e g r a d a t i o n of t h e t h e r m a l b a r r i e r due t o j o i n t rounding under p r e s s u r e should be i n v e s t i g a t e d as J p a r t o f t h i s e f f o r t . me p r e s e n t deSip,rI of t h e case j a i n t and nozzle i n t e r f a c e s YlMTc t h e zinc chromate putty is installed are oriented such t h a t the j o i n t gaps can vary Wom minimum to maximum dimensions around the circumference during assembly due to out of romdness and eccentricity. mls fondition which is premt to some dcercc durlng every j o i n t assembly operation, guarantees that some, or almost a l l o f t h e z i n c chromate p u t t y i n c e r t a i n areas w i l l be uiped off when t h e mating surfaces move p a r a l l e l to each o t h e r during mating. This r e s u l t s i n open i n s u l a t i o n g a p s w i t h i n s u f f i c i e n t z i n c c h r o m a t e p u t t y d u r i n g motor operation because t h e j o i n t s tend to become romd and concentric when t h e case is presssurized internally. Qlcstlons concerning t h i s memorandum should be r e f e r r e d to Nr. uilliam L. b y , 3-3809.-
 
@@ -6424,7 +6416,7 @@ b. Full acalo t o a t i t
 
 .. .
 
-%%page 2#5%%
+%%page 278%%
 
 ( u ' Pepeat tests ( 1 ) and ( 2 ) except w i t h v e n t s l o t s l o c a t e d a t I?$- degree i n t e r v a l around t h e c i r c u m f e r e n c e as shown by a t t a c h e d f i g r e s ? and 4. The s l o t s am designed to prevent a i r entrapment and r e s \ r l t l n g volcanoes. E v a l u a t i o n of l a y u p e f f e c t i v e n e b s should be p e r f o m e d w i t h f l m meter3 to d e t e r m i n e c a v i t y v o l m e s .
 
@@ -6608,7 +6600,7 @@ published) vith leader vaa fonned on 19 July 1985 and n s tasked with 8olVing , 
 
 COKpAh~PIuIaIL
 
-%%page 4#2%%
+%%page 291%%
 
 29 1
 
@@ -8286,7 +8278,7 @@ D 3040 Practice for Preparing Precision State- ' 4nnrioI Boo!, oIASTM Siandurdr.
 
 I
 
-%%page 2#6%%
+%%page 370%%
 
 4Snl D 395 appropriate method, is calculated according to 5.3 An optional method of preparing the Eqs ( I ) and (2). standard specimen may be the direct molding of a circular disk having the dimensions required 4. Significance and Use for the method used and specified in 5.2.1.
 
@@ -8310,7 +8302,7 @@ A Type I specimen is used in Methods A and B. 5.5.2 Care shall be taken during h
 
 5.2.2 When cutting the standard specimen, fixture by keeping the circular faces parallel and the circular die having the required inside dimen- at right angles to the axis of the cylinder. sions specified in 5.2.1 shall be rotated in a drill 5.5.3 The results obtained on plied specimens press or similar device and lubricated by means may be different from those obtained using solid of a soap solution. A minimum distance of I3 specimens and the results may be variable, par- mm (0.51 in.) shall be maintained between the ticularly if air is trapped between disks. cutting edge of the die and the edge of the slab. 5.5.4 The results obtained on the specimens The cutting pressure shall be as light as possible prepared hy one of the methods may be com- to minimize cupping of the put edges. The dies pared only to those prepared by the same shall be maintained carefully so that the cutting method. edges are sharp and free of nicks. 5.6 For routine or product specification test37 1 ing, it is sometimes more convenient to prepare 7.2. I . I The spring shall be calibrated at room specimens of a different size or shape, or both. * temperature 23 5'C (73.4 k 9°F) by applying When such specimens are used, the results should successive increments of force not exceeding 250 be compared only with those obtained from spec- N (50 Ibf) and measuring the corresponding de- imens of similar size and shape and not with flection to the nearest 0.2 mm (0.01 in.). The those obtained with standard specimen. For such curve obtained by plotting the forces against the cases, the product specification should define the corresponding deflections shall have a slope of specimen as to the size and shape. If suitable 70 f 3.5 kN/m (400 f 20 Ibf/in.) at 1.8 kN (400 specimens cannot be prepared from the product, Ibf). The slope is obtained by dividing the two the test method and allowable limits must be forces above and below I .8 kN by the difference agreed upon between the producer and the pur- between the corresponding deflections. chaser. 7.2. I .2 \The original dimensions of the spring shall not change due to fatigue by more than 0.3 6. Conditioning mm (0.01 in.) after it has been mounted in the
 
-%%page 3#2%%
+%%page 371%%
 
 D395
 
@@ -8332,7 +8324,7 @@ METHOD A-COMPRESSION SET UNDER vision shall be made by the use of bolts and nuts
 
 7.2.1 Culibrured Spring Force Applicurion- test. The required force shall be applied by a screw 7.4 Oven, conforming to the specification for mechanism for compressing a calibrated spring a Type IIB laboratory oven given in Specification the proper amount. The spring shall be of E 145. properly heat-treated spring steel with ends ground and perpendicular to the longitudinal 8. Procedure axis of the spring. A suitable compression device 8.1 Original Thickness Measurement-Mea- is shown in Fig. I . The spring shall conform to sure the original thickness of the specimen to the the following requirements: nearest 0.02 mm (0.001 in.). Place the specimen @I D395 on the anvil of the dial micrometer so that the 9. Calculation presser foot will indicate the thickness at the 9.1 Calculate the compression set as a per- central portion of the top and bottom faces. centage of the original thickness as follows:
 
-%%page 4#3%%
+%%page 372%%
 
 8.2 Application of Compressive Force-Assemble the specimens in the compression device, C A = I(t. - ~,)/lol x 100 (1) using extreme care to place them exactly in the where: center between the plates to avoid tilting. If the C, = compression set (Method A) as a percent- calibrated spring device (Fig. 1) is used, apply the age of the original thickness, compressive force by tightening the screw until I, = original thickness (8. I), and the deflection as read from the scale is equivalent fi = final thickness (8.5). to that shown on the calibration curve for the spring corresponding to a force of 1.8 kN (400 10. Report lbf). With the external loading device (Fig. 2), 10.1 The report shall include the following: apply this force to the asembly in the compres- 10. I. I Original dimensions of the test speci- sion machine or by adding required masses, but men, including the original thickness, f, in the latter case, take care to add the mass 10.I .2 Actual compressive force on the speci- gradually without shock. Tighten the nuts and men as determined from the calibration curve of bolts just sufficiently to hold the initial deflec- the spring and spring deflection reading (7.2.1) tions of the specimen and spring. It is imperative or as applied by an external force (7.2.2), that no additional force be applied in tightening 10.I .3 Thickness of the test specimen 30 min the bolts. after removal from the clamp, f,,
 
@@ -8350,7 +8342,7 @@ mosphere controlled to 50 5 % relative humid- 1 I .3 Compression Device, consist
 
 8.5 h i n d Thickness Measuremenl-After the of which the specimens may be compressed as rest period, measure the final thickness at the shown in Fig. 3. Steel spacers for the required center of the specimen in accordance with 8. I . percentage of compression given in 12.2 shall be placed on each side of the rubber specimens to 2 h after completion of the assembly and allow control their thickness while compressed. The it to remain there for the required test period in steel surfaces contacting the rubber specimens dry air at the test temperature selected. At the shall be ground to a maximum roughness of 250 end of the test period, take the device from the pm (10 pin.) and then chromium plated and oven and remove the test specimen immediately polished. and allow them to cool.
 
-%%page 5#2%%
+%%page 373%%
 
 D395
 
@@ -8368,7 +8360,7 @@ I 1.5 Plates-The plates between which the before making the measurement of the f
 
 1\. = thickness of the spacer bar used. the rubber when compressed (Fig. 3). Where a lubricant is applied, it shall consist of a thin NOTE5-Lubrication of the operating surfaces of coating of a lubricant having substantially no the compression device is optional while giving more action on the rubber. For most purposes, a silicon reproducible results, lubrication may somewhat alter the compression set values. or fluorosilicon fluid is suitable. Tighten the bolts so that the plates are drawn together uniformly until they are in contact with the spacers. The 14. Report amount of compression employed shall be a p 14.1 The report shall include the following: proximately 25 %. A suitable mechanical or hy- 14. I. I Original dimensions of the test speci- draulic device may be used to facilitate assem- men including the original thickness, fo, bling and disassembling the test fixture. 14.1.2 Percentage compression of the speci12.3 Test Time and Temperature-Choose a men actually employed, suitable temperature and time for the compres- 14.1.3 Thickness of the test specimen 30 min sion set, depending upon the conditions of the after removal from the clamp, ti, expected service. In comparative tests, use iden- 14. I .4 Type of test specimen used, together tical temperature and test periods. It is suggested with the time and temperature of test, that the test temperature be chosen from those 14. I .5 Whether or not the surfaces of the com- listed in Recommended Practice D 1349. Sug- pression device are lubricated. If they are, what gested test periods are 22 h and 70 h. The test type lubrication was used, specimen shall be at room temperature when 14. I .6 Compression set, expressed as a per- inserted in the compression device. Place the centage of the original deflection, assembled compression device in the oven within 14. I .7 Method used (Method B), and
 
-%%page 6#3%%
+%%page 374%%
 
 D 395
 
@@ -8400,7 +8392,7 @@ LSO b a d on 95 A oonfdence level: two results are considered significantly diff
 
 The LSD values are relative percent. that is. a percent of the 'percent" values used to measure the tested property.
 
-%%page 7#2%%
+%%page 375%%
 
 D 395
 
@@ -8664,7 +8656,7 @@ h. Procedures
 
 . . .. ..
 
-%%page 77#2%%
+%%page 391%%
 
 > 0 Guidelines Approximately * r e mb prior to the USFC Shuttle Projects FRR, guiaelimr rill be prepared by Procram P h s ud U u u p m m t Systems O f f h and Issurd by h e Y a n p r , Shuttle Project& atabllshln~ Projects FRR &te, Shuttle Projects FRR &a, wlth appliuble memkrshlp, and my specld requiremmts not s v c r e d by l h i s prardvc
 
@@ -8710,11 +8702,13 @@ Distribution: S e e Fage 3
 
 PC 014660
 
+%%page 396%%
+
 PC 014737
 
 E
 
-%%page 8%%
+%%page 397%%
 
 E
 
@@ -8754,11 +8748,17 @@ m . n u em N
 
 %%page 405%%
 
+%%page 406%%
+
 'a. i! -I B
 
 > I I
 
+%%page 407%%
+
 I
+
+%%page 408%%
 
 ## 0 STS 6 1 4 FLIGHT ANOMALIES 0 HMOR ISSUES/PROBLMS 0 HAJOR CONFIGURATION DIFFERENCES
 
@@ -8767,6 +8767,8 @@ I
 ## 0 READINESS STATMENT
 
 > SRB-2 /. J
+
+%%page 410%%
 
 > STS 51-L SICNIf ICAHT CONfICURATION DIFFERENCE CHANGE REASON BASIS FOR ClRTIFICATION . ** ------ ------- -._______---_-_--
 
@@ -8778,11 +8780,13 @@ SRB-I
 
 > U L4 Y E
 
-%%page 1%%
+%%page 412%%
 
 #
 
 0 sd
+
+%%page 413%%
 
 ## NOMINAL SRB REENTRY PROHLE
 
@@ -8810,6 +8814,8 @@ Ln c ¶ a c Ln c CT W V
 
 > z W =c w a 0, 0 Q
 
+%%page 416%%
+
 " PLNOINC SATISFACTORY COHPLETION Of NORHAL OPERATIONS FLMl (OtlASo) Iuo OPEN ITfHS IOWTIfIEOi WE CERTIFY THE SRB FLIGHT HARWIARE RfMY 10
 
 ## SUPPORT HISSION 51-L /S/ HR. KILNINSTER /S/ HR. HURPHY
@@ -8821,6 +8827,8 @@ Ln c ¶ a c Ln c CT W V
 n
 
 > v SAM Lt G1 W n
+
+%%page 417%%
 
 VIII-G
 
@@ -8838,7 +8846,7 @@ I .
 
 > I I.
 
-%%page 0%%
+%%page 418%%
 
 3 w> OIu L
 
@@ -8851,6 +8859,8 @@ Iz v)
 > s1 W -1 m
 
 > r. Q
+
+%%page 419%%
 
 ~- ---_- -\
 
@@ -8886,9 +8896,11 @@ ALJUSTED TO A TEMPERATURE 3F 60'F AND PRESSURE OF 625 PSIA
 
 - m 'f
 
-%%page 0#2%%
+%%page 421%%
 
 Y
+
+%%page 422%%
 
 > 3TS-61B ( S T S - 3 1 ) (SRN-23) PERFORMANCE (CHART NO. 3 - 2 1
 
@@ -9040,7 +9052,7 @@ c
 
 P.o5erz E. Lincsircn Panager Shxczle P r o j e c t s O f f i c e D i s trfbu:ion: S e e page 3
 
-%%page 3#3%%
+%%page 436%%
 
 EG21/G. Butler
 
@@ -9086,8 +9098,6 @@ Y
 
 > I c) L n
 
-%%page 0#3%%
-
 . . .,., ,... .*. ... ... ... . . *. .* .. * .
 
 > ,I. " i r ; ; . i: . a . . .* . . . . . . . ,. .. .. .. . .
@@ -9099,8 +9109,6 @@ l b
 44 1
 
 > P Y f tri i
-
-%%page 0#4%%
 
 *E t
 
@@ -9410,7 +9418,7 @@ f
 
 [^214]: Rogers Commission Re rt, Volume I, p. 152. 21bDiacussion with the N E A Chief Engineer's Oftice, May 13, 1986.
 
-[^1]: Rogers Commission Report, Volume I, pp. 22-23 and 78-79. (183)
+[^1]: Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 
 [^3]: Thiokol, "Erosion of SRM Preasure Seals," TWR 15160, Chart A-9, August 19, 1985 "Seal damage alwa s has associated putt blowhole." 4 NASA, &FC, "51-L Analysis &erview," April 25,1986, p. H-203.
 

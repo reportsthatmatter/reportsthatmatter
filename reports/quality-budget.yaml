@@ -42,10 +42,10 @@ reports:
     severed-into-quote: 85
     severed-paragraph: 43  # why: reportsthatmatter-uw50 (parenFolios/foliosInStep re-page p.36's letter; '...the Commission is tasked / with completing its report' was already cut, now counted; read)
     bare-footnote-marker: 76
-    bare-marker-after-quote: 19  # why: reportsthatmatter-jsqw (the text linker no longer runs on vision blocks; markers after a closing quote it used to link, often wrongly, e.g. '[^2] 6' for note 26 on p.98, stay bare)
+    bare-marker-after-quote: 18
     note-marker-wrong-note: 0
     note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
-    note-reference-sequence: 112
+    note-reference-sequence: 71
     note-text-in-body: 48
     note-citation-vocabulary: 0
     furniture-paragraph: 150
@@ -55,13 +55,13 @@ reports:
     heading-function-word: 5
     heading-marker: 0
     heading-long: 17
-    printed-page-reversal: 14
+    printed-page-reversal: 0
     rendered-h1: 1
-    chapter-intro-misfiled: 2
+    chapter-intro-misfiled: 1
     rendered-ol-words-share: 5  # why: reportsthatmatter-jsqw (numbered findings the vision reading splits into paragraphs of their own; 4% to 5% rounded)
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: d662 - pages that had no marker now count towards their own parity (gap was measured on the wrong pages)
+    quote-share-parity: 1
   columbia-accident:
     severed-into-quote: 54
     severed-paragraph: 70
@@ -206,6 +206,30 @@ reports:
     numbered-prose-list: 26  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
     ids-per-1k-words: 0
     quote-share-parity: 1
+  uk-post-office-horizon-inquiry:
+    severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
+    severed-paragraph: 0
+    bare-footnote-marker: 0
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 0
+    note-text-in-body: 0
+    note-citation-vocabulary: 0
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
+    heading-density: 0
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.2 (real: "Fixed Sum Offers" heads a topic in HSS, OCS and GLOS)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 0
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 1  # why: reportsthatmatter-gqsy.2 (first ingest)
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 3  # why: reportsthatmatter-gqsy.2 (first ingest; quotations 3.8% of blocks on even pages, 1.0% on odd)
   uk-saville-inquiry:
     severed-into-quote: 0
     severed-paragraph: 1
@@ -350,27 +374,3 @@ reports:
     numbered-prose-list: 3
     ids-per-1k-words: 0
     quote-share-parity: 1
-  uk-post-office-horizon-inquiry:
-    severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
-    severed-paragraph: 0
-    bare-footnote-marker: 0
-    bare-marker-after-quote: 0
-    note-marker-wrong-note: 0
-    note-marker-unpaired: 0
-    note-reference-sequence: 0
-    note-text-in-body: 0
-    note-citation-vocabulary: 0
-    furniture-paragraph: 0
-    contents-entry-without-heading: 0
-    heading-density: 0
-    heading-repeated: 1  # why: reportsthatmatter-gqsy.2 (real: "Fixed Sum Offers" heads a topic in HSS, OCS and GLOS)
-    heading-function-word: 0
-    heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
-    rendered-h1: 0
-    chapter-intro-misfiled: 0
-    rendered-ol-words-share: 1  # why: reportsthatmatter-gqsy.2 (first ingest)
-    numbered-prose-list: 0
-    ids-per-1k-words: 0
-    quote-share-parity: 3  # why: reportsthatmatter-gqsy.2 (first ingest; quotations 3.8% of blocks on even pages, 1.0% on odd)
