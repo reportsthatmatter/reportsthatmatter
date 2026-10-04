@@ -1,7 +1,7 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 65696,
+      "words": 62305,
       "paragraphs": 430,
       "sections": [
         {
@@ -56,7 +56,7 @@
           "slug": "mr-trumps-supporters-attack-the-united-states-capitol",
           "title": "Mr. Trump's Supporters Attack the United States Capitol",
           "paragraphs": 15,
-          "ids": "848ad9698876"
+          "ids": "1b6790972e83"
         },
         {
           "slug": "the-law",
@@ -157,14 +157,8 @@
         {
           "slug": "appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio",
           "title": "APPENDIX: KEY FILINGS IN SIGNIFICANT LITIGATION DISTRICT COURT CRIMINAL LITIGATION",
-          "paragraphs": 98,
-          "ids": "f39a01611476"
-        },
-        {
-          "slug": "twitter-search-warrant-litigation",
-          "title": "TWITTER SEARCH WARRANT LITIGATION",
-          "paragraphs": 11,
-          "ids": "7c9b9628e5a2"
+          "paragraphs": 109,
+          "ids": "7e244d63e123"
         },
         {
           "slug": "pll-c-todd-blanche",
@@ -205,8 +199,8 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 327057,
-      "paragraphs": 2404,
+      "words": 327041,
+      "paragraphs": 2408,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
@@ -289,8 +283,8 @@
         {
           "slug": "shoddy-lending-practices",
           "title": "Shoddy Lending Practices",
-          "paragraphs": 152,
-          "ids": "fde585b78e2d"
+          "paragraphs": 154,
+          "ids": "41e8e2287936"
         },
         {
           "slug": "polluting-the-financial-system",
@@ -355,14 +349,14 @@
         {
           "slug": "mass-credit-rating-downgrades",
           "title": "Mass Credit Rating Downgrades",
-          "paragraphs": 27,
-          "ids": "b95a8495be8f"
+          "paragraphs": 26,
+          "ids": "109a4c267d55"
         },
         {
           "slug": "ratings-deficiencies",
           "title": "Ratings Deficiencies",
-          "paragraphs": 179,
-          "ids": "91b66b2f7559"
+          "paragraphs": 178,
+          "ids": "a8411a33ea6e"
         },
         {
           "slug": "preventing-inflated-credit-ratings",
@@ -373,8 +367,8 @@
         {
           "slug": "case-study-of-goldman-sachs-and-deutsche-bank",
           "title": "CASE STUDY OF GOLDMAN SACHS AND DEUTSCHE BANK",
-          "paragraphs": 667,
-          "ids": "20150e7bbde7"
+          "paragraphs": 671,
+          "ids": "7329f4118375"
         },
         {
           "slug": "cdo-marks",
@@ -393,12 +387,6 @@
           "title": "Preventing Investment Bank Abuses",
           "paragraphs": 19,
           "ids": "5dbf83e4a0ac"
-        },
-        {
-          "slug": "notes-not-linked-in-the-text",
-          "title": "Notes not linked in the text",
-          "paragraphs": 0,
-          "ids": "e3b0c44298fc"
         }
       ]
     },
@@ -709,8 +697,8 @@
       ]
     },
     "litvinenko-inquiry": {
-      "words": 134977,
-      "paragraphs": 2147,
+      "words": 135021,
+      "paragraphs": 2136,
       "sections": [
         {
           "slug": "front-matter",
@@ -835,8 +823,8 @@
         {
           "slug": "part-6-the-polonium-trail-events-in-october-and-november-2006",
           "title": "Part 6: The polonium trail – events in October and November 2006",
-          "paragraphs": 27,
-          "ids": "9d058d366fe6"
+          "paragraphs": 24,
+          "ids": "cf2c1528ece0"
         },
         {
           "slug": "chapter-3-dmitri-kovtun",
@@ -871,8 +859,8 @@
         {
           "slug": "chapter-8-events-in-london-31-october-3-november",
           "title": "Chapter 8: Events in London 31 October – 3 November",
-          "paragraphs": 147,
-          "ids": "8e863a81d270"
+          "paragraphs": 146,
+          "ids": "6597b9e18c9a"
         },
         {
           "slug": "part-7-the-closed-evidence",
@@ -889,14 +877,14 @@
         {
           "slug": "chapter-3-where-did-alexander-litvinenko-ingest-polonium-210-on-1-november-2006",
           "title": "Chapter 3: Where did Alexander Litvinenko ingest polonium 210 on 1 November 2006?",
-          "paragraphs": 10,
-          "ids": "9b9dbf1d2d9a"
+          "paragraphs": 9,
+          "ids": "b9b17b8e2b84"
         },
         {
           "slug": "chapter-4-was-there-an-earlier-ingestion-of-polonium-210",
           "title": "Chapter 4: Was there an earlier ingestion of polonium 210?",
-          "paragraphs": 15,
-          "ids": "73c09f81f296"
+          "paragraphs": 14,
+          "ids": "0487309554b7"
         },
         {
           "slug": "chapter-5-did-alexander-litvinenko-poison-himself",
@@ -913,20 +901,20 @@
         {
           "slug": "part-9-who-directed-the-killing",
           "title": "Part 9: Who directed the killing?",
-          "paragraphs": 21,
-          "ids": "a0751950fdc3"
+          "paragraphs": 19,
+          "ids": "690bb07542d2"
         },
         {
           "slug": "chapter-4-organised-crime",
           "title": "Chapter 4: Organised crime",
-          "paragraphs": 16,
-          "ids": "89f852a6c263"
+          "paragraphs": 15,
+          "ids": "09934190ab65"
         },
         {
           "slug": "chapter-6-russian-state-responsibility-introduction",
           "title": "Chapter 6: Russian State responsibility – introduction",
-          "paragraphs": 15,
-          "ids": "14ebbc04d3f8"
+          "paragraphs": 13,
+          "ids": "5abde227b60f"
         },
         {
           "slug": "chapter-7-russian-state-responsibility-the-source-of-the-polonium-210",
@@ -1015,26 +1003,26 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1084646,
-      "paragraphs": 12750,
+      "words": 1084793,
+      "paragraphs": 12704,
       "sections": [
         {
           "slug": "practices-and-ethics-of-the-press-report",
           "title": "PRACTICES AND ETHICS OF THE PRESS REPORT",
-          "paragraphs": 591,
-          "ids": "12feaaa7f64f"
+          "paragraphs": 582,
+          "ids": "365231b97d04"
         },
         {
           "slug": "news-corporation",
           "title": "News Corporation",
-          "paragraphs": 1182,
-          "ids": "6e6de60459bc"
+          "paragraphs": 1178,
+          "ids": "74725feee91b"
         },
         {
           "slug": "operation-reproof",
           "title": "Operation Reproof",
-          "paragraphs": 26,
-          "ids": "f62e9060ce0c"
+          "paragraphs": 25,
+          "ids": "fdcc8ba9d153"
         },
         {
           "slug": "operation-glade",
@@ -1081,20 +1069,20 @@
         {
           "slug": "appendices",
           "title": "APPENDICES",
-          "paragraphs": 78,
-          "ids": "2a58d17139b7"
+          "paragraphs": 77,
+          "ids": "970f8badacba"
         },
         {
           "slug": "chapter-2-good-practice-1-the-value-and-virtues-of-the-uk-press-overview",
           "title": "Chapter 2: Good Practice 1. The value and virtues of the UK press Overview",
-          "paragraphs": 312,
-          "ids": "0adee299f047"
+          "paragraphs": 306,
+          "ids": "2b7fc0d6b6a9"
         },
         {
           "slug": "chapter-4-some-practices-at-the-news-of-the-world-1-introduction",
           "title": "Chapter 4: Some practices at the News of the World 1. Introduction",
           "paragraphs": 333,
-          "ids": "c9251e0b36db"
+          "ids": "5ad0bba5bb25"
         },
         {
           "slug": "the-dowlers",
@@ -1123,8 +1111,8 @@
         {
           "slug": "love-celeb-gossip-so-do-we-send-us-your-story",
           "title": "LOVE CELEB GOSSIP? SO DO WE, SEND US YOUR STORY!",
-          "paragraphs": 271,
-          "ids": "802d1033a066"
+          "paragraphs": 270,
+          "ids": "4456f41b7353"
         },
         {
           "slug": "chapter-1-policing-with-consent-the-role-of-the-press-1-introduction",
@@ -1141,8 +1129,8 @@
         {
           "slug": "the-press-and-the-police-the-harm-and-the-response",
           "title": "THE PRESS AND THE POLICE: THE HARM AND THE RESPONSE",
-          "paragraphs": 934,
-          "ids": "a0a167a423af"
+          "paragraphs": 933,
+          "ids": "57d43cb08ee0"
         },
         {
           "slug": "independent-police-complaints-commission-ipcc",
@@ -1159,8 +1147,8 @@
         {
           "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
           "title": "CHAPTER 4 THE PRESS AND THE POLICE: CONCLUSIONS AND RECOMMENDATIONS",
-          "paragraphs": 118,
-          "ids": "fbb62f25f2ce"
+          "paragraphs": 116,
+          "ids": "b7db66a52830"
         },
         {
           "slug": "practices-and-ethics-of-the-press-2",
@@ -1171,8 +1159,8 @@
         {
           "slug": "part-h",
           "title": "PART H",
-          "paragraphs": 18,
-          "ids": "56467632afe2"
+          "paragraphs": 16,
+          "ids": "45c645eb9417"
         },
         {
           "slug": "chapter-2-operation-motorman-1-the-investigation",
@@ -1189,8 +1177,8 @@
         {
           "slug": "chapter-4-the-ico-and-the-press-today",
           "title": "Chapter 4: The ICO and the Press today",
-          "paragraphs": 48,
-          "ids": "ddb6c7f8fce4"
+          "paragraphs": 45,
+          "ids": "7d649f9abf50"
         },
         {
           "slug": "chapter-5-issues-about-the-legal-framework-1-the-current-views-of-the-ico",
@@ -1207,14 +1195,14 @@
         {
           "slug": "chapter-7-summary-of-recommendations",
           "title": "Chapter 7: Summary of recommendations",
-          "paragraphs": 33,
-          "ids": "65b851b207df"
+          "paragraphs": 32,
+          "ids": "60a61a118e07"
         },
         {
           "slug": "prime-minister-thatcher-1979-1990",
           "title": "Prime Minister Thatcher: 1979-1990",
-          "paragraphs": 35,
-          "ids": "8e353a7d451a"
+          "paragraphs": 36,
+          "ids": "2d294f1ee8cd"
         },
         {
           "slug": "prime-minister-major-1990-1997",
@@ -1298,13 +1286,13 @@
           "slug": "december-2010-july-2011-the-rt-hon-jeremy-hunt",
           "title": "December 2010 – July 2011: The Rt Hon Jeremy Hunt",
           "paragraphs": 350,
-          "ids": "570c28ccd21d"
+          "ids": "c909f591ce87"
         },
         {
           "slug": "news-corp-and-the-rt-hon-alex-salmond-msp",
           "title": "News Corp and the Rt Hon Alex Salmond MSP",
           "paragraphs": 36,
-          "ids": "84f47ec12961"
+          "ids": "43f434f58e34"
         },
         {
           "slug": "chapter-7-further-political-perspectives-on-relationships-with-the-press",
@@ -1339,8 +1327,8 @@
         {
           "slug": "chapter-8-conclusions-and-recommendations",
           "title": "Chapter 8: Conclusions And Recommendations",
-          "paragraphs": 211,
-          "ids": "a45bcf84ffe6"
+          "paragraphs": 210,
+          "ids": "42caa3880b73"
         },
         {
           "slug": "chapter-9-plurality-and-media-ownership-conclusions-and-recommendations-1-introd",
@@ -1357,14 +1345,14 @@
         {
           "slug": "appendices-2",
           "title": "APPENDICES",
-          "paragraphs": 115,
-          "ids": "1ca06dbab757"
+          "paragraphs": 114,
+          "ids": "453b5a56a2ee"
         },
         {
           "slug": "chapter-3-the-civil-law",
           "title": "Chapter 3: The Civil Law",
-          "paragraphs": 88,
-          "ids": "179f1dd2e003"
+          "paragraphs": 83,
+          "ids": "e9ee718b393a"
         },
         {
           "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
@@ -1381,8 +1369,8 @@
         {
           "slug": "the-industry-funding-body",
           "title": "The Industry Funding Body",
-          "paragraphs": 460,
-          "ids": "33af95cc4ceb"
+          "paragraphs": 459,
+          "ids": "418b27d31741"
         },
         {
           "slug": "the-code",
@@ -1393,8 +1381,8 @@
         {
           "slug": "the-press-council-of-ireland-and-the-press",
           "title": "The Press Council of Ireland and the Press",
-          "paragraphs": 326,
-          "ids": "411f9a8b6955"
+          "paragraphs": 322,
+          "ids": "9d6a5550e68c"
         },
         {
           "slug": "chapter-7",
@@ -1405,8 +1393,8 @@
         {
           "slug": "chapter-8-the-alternatives",
           "title": "CHAPTER 8 THE ALTERNATIVES",
-          "paragraphs": 138,
-          "ids": "2541c800d7ee"
+          "paragraphs": 136,
+          "ids": "78d730d4b911"
         },
         {
           "slug": "part-l-summary-of-recommendations",
@@ -1417,14 +1405,14 @@
         {
           "slug": "the-report-of-the-law-commission-on-aggravated-exemplary-and-restitutionary-dama",
           "title": "The Report of the Law Commission on Aggravated, Exemplary and Restitutionary Damages",
-          "paragraphs": 127,
-          "ids": "9e2bf4f16ef8"
+          "paragraphs": 126,
+          "ids": "924049b3e620"
         },
         {
           "slug": "engage",
           "title": "ENGAGE",
-          "paragraphs": 129,
-          "ids": "eebad7c4358f"
+          "paragraphs": 128,
+          "ids": "7b355870eb64"
         },
         {
           "slug": "civil-law",
@@ -1897,7 +1885,7 @@
       ]
     },
     "us-911-commission": {
-      "words": 305733,
+      "words": 305662,
       "paragraphs": 2438,
       "sections": [
         {
@@ -2042,7 +2030,7 @@
           "slug": "al-qaeda-aims-at-the-american-homeland",
           "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND",
           "paragraphs": 36,
-          "ids": "4663b6228296"
+          "ids": "7dfd4ada5f19"
         },
         {
           "slug": "52-the-planes-operation",
@@ -2072,7 +2060,7 @@
           "slug": "61-the-millennium-crisis",
           "title": "6.1 The Millennium Crisis",
           "paragraphs": 39,
-          "ids": "8c8de725d75e"
+          "ids": "38b93b3f9df8"
         },
         {
           "slug": "62-post-crisis-reflection-agenda-for-2000",
@@ -2108,7 +2096,7 @@
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
           "paragraphs": 43,
-          "ids": "ac8b2559817d"
+          "ids": "21bbfd344ee5"
         },
         {
           "slug": "73-assembling-the-teams",
@@ -2126,7 +2114,7 @@
           "slug": "the-system-was-blinking-red",
           "title": "\"THE SYSTEM WAS BLINKING RED\"",
           "paragraphs": 65,
-          "ids": "06ea5bc96962"
+          "ids": "979fa7699906"
         },
         {
           "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
@@ -3235,8 +3223,8 @@
       ]
     },
     "uk-hillsborough-panel": {
-      "words": 203379,
-      "paragraphs": 2758,
+      "words": 203870,
+      "paragraphs": 2755,
       "sections": [
         {
           "slug": "front-matter",
@@ -3367,8 +3355,8 @@
         {
           "slug": "chapter-7-civil-litigation",
           "title": "Chapter 7: Civil litigation",
-          "paragraphs": 237,
-          "ids": "19be6cce0023"
+          "paragraphs": 234,
+          "ids": "15c048fb73ea"
         },
         {
           "slug": "chapter-8-the-coroners-inquiry-from-the-immediate-aftermath-to-the-preliminary-h",
@@ -3829,7 +3817,7 @@
       ]
     },
     "us-lehman-examiner": {
-      "words": 184929,
+      "words": 184933,
       "paragraphs": 975,
       "sections": [
         {
