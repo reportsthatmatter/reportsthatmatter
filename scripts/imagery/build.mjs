@@ -78,7 +78,10 @@ for (const m of spec.marks) {
       continue;
     }
   } else {
-    const pdf = join(siblings, m.report, m.pdf);
+    // A report-repo worktree (RTM_REPORT_DIRS, as `pnpm ingest worktrees` prints) wins over the sibling:
+    // a new report's PDF is on a branch there before its repo's main has it.
+    const worktree = process.env.RTM_REPORT_DIRS ? join(process.env.RTM_REPORT_DIRS, m.report, m.pdf) : null;
+    const pdf = worktree && existsSync(worktree) ? worktree : join(siblings, m.report, m.pdf);
     if (!existsSync(pdf)) {
       skipped.push(`${m.set}-${m.id}: no ${m.report}/${m.pdf} — clone that report's repo as a sibling`);
       continue;
