@@ -165,7 +165,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 1
+    note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
