@@ -1,0 +1,229 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and docs/report-introductions.md for the rules. Every quote is
+# verbatim from the rendered report and is checked by `pnpm editorial`; every id
+# must resolve.
+#
+# Scope: the site holds Volume 1 of the Phase 2 report only (Part 1, Introduction,
+# with the Panel's executive summary of the whole report; Part 2, The path to
+# disaster). Findings drawn from the executive summary cover the whole report, and
+# the text says where the detail is in a later volume. The recommendations are in
+# Volume 7 and are not quoted here.
+#
+# Tone: this concerns the deaths of 72 people. Our words stay plain and attributed;
+# the report's own words carry its conclusions.
+#
+# Background facts not stated in Volume 1, verified 2026-10-04:
+#   - 72 people died, 18 of them children; the fire began in the kitchen of Flat 16
+#     and spread up the outside of the building: the government's response to the
+#     Phase 2 report (26 February 2025), paragraph 1 and the Deputy Prime Minister's
+#     foreword:
+#     https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-2-report-government-response/grenfell-tower-inquiry-phase-2-report-government-response-html
+#   - The Inquiry was set up under the Inquiries Act 2005 with Sir Martin Moore-Bick
+#     as Chairman: the same response, paragraph 2. (The report's own 1.27 says the
+#     Inquiry was set up in June 2017.)
+#   - Phase 2 report published 4 September 2024 in seven volumes: GOV.UK publication
+#     page, https://www.gov.uk/government/publications/publication-of-the-grenfell-tower-inquiry-phase-2-report
+#   - Government response published 26 February 2025 (GOV.UK content API,
+#     first_published_at); 49 of the 58 recommendations accepted in full, the other
+#     9 (all directed at government) accepted in principle; "The government fully
+#     supports the Metropolitan Police in its investigation": the response above.
+#   The status of the criminal investigation was not checked beyond that, so the
+#   background says nothing more about it.
+#   Everything else is from the report's own Chapter 1 (1.1-1.27) and Chapter 2.
+
+report: uk-grenfell-tower-inquiry
+status: approved
+
+why_it_matters: >-
+  The report of the public inquiry into the fire at Grenfell Tower in west
+  London on 14 June 2017, in which 72 people died. This first of its seven
+  volumes holds the Panel's introduction, its own summary of the whole report,
+  and its account of how central government and the Building Research
+  Establishment dealt with the risks of combustible cladding in the decades
+  before the fire.
+
+background: |
+  In the early hours of 14 June 2017 a fire broke out in the kitchen of a flat in Grenfell Tower, a high-rise residential block in west London managed for the Royal Borough of Kensington and Chelsea (RBKC) by a tenant management organisation (the TMO). The tower had been refurbished between 2012 and 2016, when new cladding and insulation were fixed to its outside walls. The fire escaped from the flat into the external wall and spread rapidly up the outside of the building, and within a few hours it had engulfed almost all of it. 72 people died, 18 of them children.
+
+  The Grenfell Tower Inquiry was set up in June 2017 under the Inquiries Act 2005, chaired by Sir Martin Moore-Bick. Its Phase 1 report, published on 30 October 2019, set out what happened on the night. Phase 2 asked how the building came to be in a condition that allowed the fire to spread as it did. Its hearings began in January 2020 and ran to 312 days, and before reporting the Panel wrote to 247 individuals and organisations it was minded to criticise. The Phase 2 report was published on 4 September 2024 in seven volumes. A public inquiry may not rule on civil or criminal liability, and the Panel says it has not attempted, with some exceptions, to apportion blame.
+
+  The report notes that the government had already banned metal composite panels with unmodified polyethylene cores on the external walls of buildings of any height and reformed building control while the Inquiry was sitting. On 26 February 2025 the government published its response: it accepted 49 of the report's 58 recommendations in full and the other 9, all directed at government, in principle, and said it fully supports the Metropolitan Police in its investigation. The recommendations are in Volume 7, which is not yet on this site.
+
+findings:
+  - text: The Panel concludes that the fire was the culmination of decades of failure by central government and others in the construction industry to look into the danger of combustible materials in the external walls of high-rise homes and to act on what they knew.
+    cites: [2-4-we-conclude-fire, 3-1-one-primary-purposes]
+    excerpt:
+      paragraph: 2-4-we-conclude-fire
+      quote: >-
+        We conclude that the fire at Grenfell Tower was the culmination of
+        decades of failure by central government and other bodies in positions
+        of responsibility in the construction industry to look carefully into
+        the danger of incorporating combustible materials into the external
+        walls of high-rise residential buildings and to act on the information
+        available to them.
+
+  - text: The report finds that the government department responsible for building regulations was warned about combustible cladding and insulation from 1999 onwards, by a Commons select committee, the coroner at the Lakanal House inquests and an all-party parliamentary group among others, and did not amend or clarify its guidance. The results of a 2001 large-scale test in which aluminium composite panels with polyethylene cores burned violently were never published.
+    cites: [2-5-years-between-fire, 2-6-department-also-failed, 2-9-between-2012-2017]
+    excerpt:
+      paragraph: 2-6-department-also-failed
+      quote: >-
+        The department also failed to pay due regard to the striking results of
+        a large-scale test in 2001 involving aluminium composite panels with
+        unmodified polyethylene cores, which burned violently, or to take any
+        steps either to ascertain the extent to which panels of that kind were
+        in use or to warn the construction industry about the risks they posed.
+        It failed even to publish the results of the test.
+
+  - text: The Panel finds that the department's deregulatory agenda after the Lakanal House fire in 2009 led it to ignore or delay matters affecting the safety of life, and that a single relatively junior official was left in charge of the guidance without adequate oversight.
+    cites: [2-10-department-itself-poorly, 2-12-department-displayed-complacent, 2-13-years-followed-lakanal]
+
+  - text: The report finds that the Building Research Establishment, which tested external wall systems, failed to tell the government clearly what its tests showed, and that weaknesses in its testing left it open to manipulation by manufacturers.
+    cites: [2-15-bre-held-trusted, 2-16-although-bre-recognised, 2-18-there-weaknesses-way]
+
+  - text: The Panel finds systematic dishonesty by the companies that made and sold the cladding panels and insulation used on the tower, Arconic, Celotex and Kingspan, and that the bodies that certified their products failed to check what they were told. The detail is in Part 3 (Volume 2).
+    cites: [2-19-one-very-significant, 2-20-those-strategies-succeeded, 2-42-dishonest-strategies-arconic]
+    excerpt:
+      paragraph: 2-19-one-very-significant
+      quote: >-
+        One very significant reason why Grenfell Tower came to be clad in
+        combustible materials was systematic dishonesty on the part of those who
+        made and sold the rainscreen cladding panels and insulation products.
+        They engaged in deliberate and sustained strategies to manipulate the
+        testing processes, misrepresent test data and mislead the market.
+
+  - text: The report finds that the choice of combustible materials for the refurbishment resulted from a series of errors by the organisations and individuals involved, each of whom assumed that someone else was responsible for fire safety; and that RBKC and the TMO showed a persistent indifference to fire safety in the years before the fire. The detail is in Parts 4 to 6 (Volumes 3 and 4).
+    cites: [2-74-choice-combustible-materials, 2-58-rbkc-tmo-jointly]
+    excerpt:
+      paragraph: 2-74-choice-combustible-materials
+      quote: >-
+        The choice of combustible materials for the cladding of Grenfell Tower
+        resulted from a series of errors caused by the incompetence of the
+        organisations and individuals involved in the refurbishment.
+
+  - text: The report finds that in the first week after the fire the response of the government and RBKC was slow and piecemeal, and that the local community and voluntary organisations provided support when the authorities did not.
+    cites: [2-103-first-week-after, 2-114-those-who-emerge]
+
+  - text: Asked by some of those representing the bereaved, survivors and residents to examine whether race or social background played a part, the Panel reports some evidence of racial discrimination in how survivors were treated in the days after the fire, and no evidence that racial or social prejudice affected the decisions that created a dangerous building.
+    cites: [1-22-we-should-say, 1-25-given-repeated-urging]
+
+reading_guide:
+  - section: chapter-2-executive-summary
+    why: The Panel's own summary of all fourteen Parts of the report, from the regulatory regime to the response after the fire; the place to start.
+    excerpt:
+      paragraph: 2-1-chapter-contains-overview
+      quote: >-
+        The purpose of this chapter is to describe in broad terms the contents
+        of the report and the main conclusions we have reached about the events
+        that culminated in the tragedy at Grenfell Tower.
+
+  - section: part-1-introduction
+    why: How Phase 2 was run, what the Inquiry could and could not decide, and the Panel's response to calls to examine race and social background.
+    excerpt:
+      paragraph: 1-16-not-possible-identify
+      quote: >-
+        It is not possible to identify any single cause of the tragedy; many
+        different acts and omissions combined to bring about the Grenfell Tower
+        fire, although some were more significant than others.
+
+  - section: chapter-7-the-government-and-the-building-research-establishment
+    why: The department and BRE from the 1990s on, including the 2001 large-scale test of aluminium composite panels whose results were never published.
+    excerpt:
+      paragraph: 7-94-no-one-able
+      quote: >-
+        No one was able to explain why the results of the tests had never been
+        made public, even in the wake of the fire at Grenfell Tower, when they
+        would have been highly relevant to the department's investigations into
+        the fire performance of similar products. We think that the explanation
+        lies in the fact that having once been shelved they had subsequently
+        been entirely forgotten.
+
+  - section: chapter-9-the-governments-response-to-the-lakanal-house-fire
+    why: The fire at Lakanal House in 2009, the inquests that followed, and what the department did with the coroner's recommendations.
+    excerpt:
+      paragraph: 9-44-our-view-department
+      quote: >-
+        In our view the department's response to the Lakanal House fire was
+        inadequate.
+
+  - section: chapter-10-the-department-for-communities-and-local-government-20132017
+    why: The department in the four years before the fire, its dealings with the All-Party Parliamentary Group on Fire Safety, and the state of its building regulations team.
+
+  - section: chapter-11-combustible-cladding-warnings-to-government
+    why: The warnings about combustible cladding and insulation that reached the department between 2013 and 2017, and what was done with them.
+
+highlights:
+  - paragraph: 2-4-we-conclude-fire
+    quote: >-
+      We conclude that the fire at Grenfell Tower was the culmination of
+      decades of failure by central government and other bodies in positions of
+      responsibility in the construction industry to look carefully into the
+      danger of incorporating combustible materials into the external walls of
+      high-rise residential buildings and to act on the information available
+      to them.
+  - paragraph: 1-16-not-possible-identify
+    quote: >-
+      It is not possible to identify any single cause of the tragedy; many
+      different acts and omissions combined to bring about the Grenfell Tower
+      fire, although some were more significant than others.
+    card: true
+  - paragraph: 2-19-one-very-significant
+    quote: >-
+      One very significant reason why Grenfell Tower came to be clad in
+      combustible materials was systematic dishonesty on the part of those who
+      made and sold the rainscreen cladding panels and insulation products.
+    card: true
+  - paragraph: 2-103-first-week-after
+    quote: >-
+      In the first week after the fire at Grenfell Tower the response of the
+      government and RBKC was muddled, slow, indecisive and piecemeal.
+    card: true
+  - paragraph: 2-114-those-who-emerge
+    quote: >-
+      Those who emerge from the events with the greatest credit, and whose
+      contribution only emphasised the inadequacies of the official response,
+      are the members of the local community.
+    card: true
+  - paragraph: 2-6-department-also-failed
+    quote: >-
+      The department also failed to pay due regard to the striking results of a
+      large-scale test in 2001 involving aluminium composite panels with
+      unmodified polyethylene cores, which burned violently, or to take any
+      steps either to ascertain the extent to which panels of that kind were in
+      use or to warn the construction industry about the risks they posed. It
+      failed even to publish the results of the test.
+  - paragraph: 2-7-many-subsequent-occasions
+    quote: >-
+      On many subsequent occasions the department was made aware that national
+      Class 0 was an inappropriate standard by which to determine the
+      suitability of external wall panels but allowed it to remain as part of
+      the statutory guidance until after the Grenfell Tower fire. It could and
+      should have been removed years earlier.
+  - paragraph: 2-13-years-followed-lakanal
+    quote: >-
+      In the years that followed the Lakanal House fire the government's
+      deregulatory agenda, enthusiastically supported by some junior ministers
+      and the Secretary of State, dominated the department's thinking to such an
+      extent that even matters affecting the safety of life were ignored,
+      delayed or disregarded.
+  - paragraph: 2-74-choice-combustible-materials
+    quote: >-
+      Everyone involved in the choice of the materials to be used in the
+      external wall thought that responsibility for their suitability and
+      safety lay with someone else.
+  - paragraph: 7-94-no-one-able
+    quote: >-
+      We think that the explanation lies in the fact that having once been
+      shelved they had subsequently been entirely forgotten.
+  - paragraph: 10-92-way-which-department
+    quote: >-
+      The department never did do it and was never ready. Its failure was
+      profound.
+  - paragraph: 1-3-phase-2-we
+    quote: >-
+      In Phase 2 we have set out to answer the question that has been at the
+      forefront of many people's minds: how was it possible in 21st century
+      London for a reinforced concrete building, itself structurally impervious
+      to fire, to be turned into a death trap that would enable fire to sweep
+      through it in an uncontrollable way in a matter of a few hours despite
+      what were thought to be effective regulations designed to prevent just
+      such an event?

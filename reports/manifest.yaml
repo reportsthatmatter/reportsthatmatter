@@ -35,3 +35,5 @@ reports:
     dir: ../uk-chilcot-inquiry
   - id: us-lehman-examiner
     dir: ../us-lehman-examiner
+  - id: uk-grenfell-tower-inquiry
+    dir: ../uk-grenfell-tower-inquiry

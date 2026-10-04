@@ -182,6 +182,30 @@ reports:
     numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 1
+  uk-grenfell-tower-inquiry:
+    severed-into-quote: 13
+    severed-paragraph: 2
+    bare-footnote-marker: 0
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 3  # why: reportsthatmatter-cx0y (markers "239,240" and "policy. 1148" unlinked); reportsthatmatter-7mvi (283 is linked; the signal reads "follows[^283]:" as a definition)
+    note-text-in-body: 1
+    note-citation-vocabulary: 0
+    furniture-paragraph: 0
+    contents-entry-without-heading: 1
+    heading-density: 1  # why: reportsthatmatter-gqsy.4 (real headings: 204 over 232 pages; every body heading is also a heading in the Inquiry's own HTML edition, which has 17 figure captions besides)
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.4 ("Introduction" opens six chapters, as printed)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 3  # why: reportsthatmatter-gqsy.4 (real headings, as printed: "The development of the BS 8414 test series and the second edition of BR 135" and two more)
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 1
+    numbered-prose-list: 1
+    ids-per-1k-words: 0
+    quote-share-parity: 1
   uk-leveson-inquiry:
     severed-into-quote: 324
     severed-paragraph: 24

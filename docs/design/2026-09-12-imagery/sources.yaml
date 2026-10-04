@@ -368,3 +368,34 @@ marks:
       Arnoldius, 31 March 2008, Wikimedia Commons, CC BY-SA 3.0:
       https://commons.wikimedia.org/wiki/File:NYC_Lehman_Brothers_building.jpg
     treat: { black: 0.16, white: 0.78, grain: 35, cut: none }
+
+  - id: grenfell
+    set: plate
+    report: uk-grenfell-tower-inquiry
+    pdf: archive/grenfell-tower-inquiry-phase2-vol1-hc19-i.pdf
+    page: 73
+    dpi: 300
+    # The photograph's placement on the page (pdfplumber, 2026-10-04): x 124-252, y 98-269 pt, i.e. 517-1050 x 408-1121
+    # at 300dpi; the crop sits just inside it, so the figure's labels (right of and below the photo) and the
+    # small inset image at its foot are left out where they fall outside.
+    crop: [520, 410, 527, 708]
+    subject: >-
+      A full-scale BS 8414 test rig: a cladding system mounted on the
+      test's tall masonry wall, before ignition. From Figure 5.8 (printed
+      p.65, Chapter 5, Fire testing), the Inquiry's diagram and picture of
+      where the thermocouples sit in the BS 8414 test. The large-scale test
+      and how it was used to market combustible products is what the
+      report's findings on testing turn on, so this is the exhibit; it shows
+      no fire and nothing of Grenfell Tower itself. The figure's
+      photographs of a test in progress (Figure 5.9) were avoided.
+    rights: >-
+      Crown copyright 2024, Open Government Licence v3.0, per the report
+      repo's README; the report credits Figure 5.8 to Dr Lane's expert
+      witness presentation of 10 November 2020 (printed p.65, note 232).
+    treat: { black: 0.10, white: 0.88, grain: 70, cut: none }
+    caveat: >-
+      The figure's label leader lines are drawn over the photograph and show
+      as thin white diagonals (right edge and foot); the page raster carries
+      them. The embedded image alone (pdfimages, object 239, 531x710) has
+      none, if the build learns to take an embedded image. Hero image: its
+      own bead.

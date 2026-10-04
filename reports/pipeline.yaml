@@ -170,3 +170,12 @@ units:
     state: active
     evidence: "better-source-texts.md §4: the inquiry HTML covers every volume"
     notes: "Scope decision open (wdt); cheap once the Saville hybrid (ivg.2) works."
+  - id: uk-grenfell-tower-inquiry
+    scope: "Phase 2, Volume 1"
+    bead: reportsthatmatter-gqsy.4
+    reached: editorial
+    state: waiting
+    waive:
+      evaluate.adjudicated: reportsthatmatter-gqsy.4
+    evidence: "ingest PR #68 (on #63), report repo PR #1 (branch phase2-vol1), site PR (registry, budgets, plate, card, editorial); local checks 2026-10-04"
+    notes: "Waiting on the ingest release carrying #63 and #68 (furnitureFaces, typographicHeadings faces/relevel): the report's ingest.ts imports them. Volumes 2-7 are further units of this id (gqsy.4.2). Hero: gqsy.4.1. reference/adjudicated.yaml (30 breaks) not done."

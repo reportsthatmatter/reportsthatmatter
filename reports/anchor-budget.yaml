@@ -80,3 +80,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  uk-grenfell-tower-inquiry:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0

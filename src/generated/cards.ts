@@ -36,6 +36,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "uk-chilcot-inquiry/q-4d7ad0fb",
   "uk-chilcot-inquiry/q-6487b1fa",
   "uk-chilcot-inquiry/q-db1b2033",
+  "uk-grenfell-tower-inquiry/default",
   "uk-hillsborough-panel/default",
   "uk-hillsborough-panel/q-301a650b",
   "uk-hillsborough-panel/q-8fd774c7",
