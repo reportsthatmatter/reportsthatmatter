@@ -17,6 +17,8 @@ export type Snapshot = {
   sidenotes: string[];
   /** Quality signal counts (src/lib/quality), when the report is in the registry. */
   quality?: Record<string, number>;
+  /** The findings behind those counts (signal, printed page, excerpt), for `scripts/lib/findings-diff.ts`. */
+  qualityFindings?: Array<{ signal: string; page: number | null; excerpt: string }>;
 };
 
 export type Hunk =
