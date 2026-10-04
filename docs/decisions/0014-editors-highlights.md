@@ -1,8 +1,8 @@
 # 0014. How are the editor's highlights shown, so they don't pose as readers?
 
-- **Status:** proposed (default below is built; Rufus decides)
-- **Date raised:** 2026-10-03 · **Date decided:** —
-- **Decided by:** —
+- **Status:** accepted
+- **Date raised:** 2026-10-03 · **Date decided:** 2026-10-03
+- **Decided by:** Rufus Pollock
 - **Beads:** reportsthatmatter-bght.6 (this decision; epic bght); related: 38k (named highlights), g0w.11 (seeding), g0w.5 (Editor's picks), wb0
 
 ## Question
@@ -24,7 +24,7 @@ Rufus, 2026-10-03: "putting in the database things that I've highlighted, so tha
 
 ## Decision
 
-Not yet made. A is built and ships with the PR; B is a one-line change (the label) if Rufus prefers his name.
+A: "Editor's highlight", unnamed. Shipped in #279 (2026-10-04). Idea for later: a dedicated editor account, separate from Rufus's personal one, so he can highlight and annotate as himself.
 
 ## Consequences
 
