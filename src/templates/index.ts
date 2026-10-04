@@ -1,6 +1,7 @@
 import type { ReportRegistry } from "../lib/registry";
 import { renderLayout, escapeHtml } from "./layout";
-import { SITE_HEADLINE, SITE_STANDFIRST } from "./site";
+import { SITE_HEADLINE, SITE_STANDFIRST, SITE_ORIGIN } from "./site";
+import { siteJsonLd } from "../lib/structured-data";
 import { MARKS } from "../generated/marks";
 
 /** The archive row's mark slot, in CSS px. Plates of any proportion fit
@@ -94,7 +95,7 @@ export function renderIndex(registry: ReportRegistry): string {
   </section>
 </main>`;
 
-  return renderLayout("Reports that Matter", body);
+  return renderLayout("Reports that Matter", body, { url: `${SITE_ORIGIN}/`, structuredData: siteJsonLd() });
 }
 
 export function renderReportsIndex(registry: ReportRegistry): string {
@@ -110,5 +111,5 @@ export function renderReportsIndex(registry: ReportRegistry): string {
   </section>
 </main>`;
 
-  return renderLayout("Reports — Reports that Matter", body);
+  return renderLayout("Reports — Reports that Matter", body, { url: `${SITE_ORIGIN}/reports` });
 }

@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from "./site";
 import { renderLayout, escapeHtml } from "./layout";
 import type { ReportMeta } from "./report";
 
@@ -30,5 +31,6 @@ export function renderProcessing(meta: ReportMeta, bodyHtml: string): string {
 
   return renderLayout(`About this edition — ${meta.title} — Reports that Matter`, body, {
     description: `How the text of ${meta.title} was made from the published PDF, and the places where it still differs from the printed page.`,
+    url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}/processing`,
   });
 }

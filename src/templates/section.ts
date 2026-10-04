@@ -3,7 +3,8 @@ import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { quotedPassage, truncate, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear } from "./report";
 import { SITE_ORIGIN } from "./site";
-import { reportJsonLd, breadcrumbJsonLd } from "../lib/structured-data";
+import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
+import { reportTitle, sectionTitle } from "../lib/titles";
 import { renderHero, renderLanding, renderOurNote, renderStandfirst, showsEditorial } from "./editorial";
 import type { Editorial } from "../lib/editorial";
 
@@ -25,21 +26,18 @@ export function sectionPreview(
   anchor?: string
 ): { title: string; description: string; image?: string; imageAlt: string; url: string; canonical: string; structuredData: string } {
   const reportPath = `/reports/${meta.id ?? ""}`;
+  const description = quoted
+    ? `“${truncate(quoted, 280)}” — ${meta.title}`
+    : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`;
 
   return {
-    title: `${section.title} — ${meta.title} — Reports that Matter`,
-    description: quoted
-      ? `“${truncate(quoted, 280)}” — ${meta.title}`
-      : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`,
+    title: sectionTitle(meta, section),
+    description,
     image: shareImage(meta, highlighted, anchor),
     imageAlt: shareImageAlt(meta, quoted),
     url: sharedUrl(`${reportPath}/${section.slug}`, highlighted, anchor),
     canonical: `${SITE_ORIGIN}${reportPath}/${section.slug}`,
-    structuredData: breadcrumbJsonLd([
-      { name: "Reports", path: "/reports" },
-      { name: meta.title, path: reportPath },
-      { name: section.title, path: `${reportPath}/${section.slug}` },
-    ]),
+    structuredData: sectionJsonLd(meta, section, description),
   };
 }
 
@@ -167,11 +165,12 @@ export function renderReportOverview(
       ? options.editorial.whyItMatters
       : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
 
-  return renderLayout(`${meta.title} — Reports that Matter`, body, {
+  return renderLayout(reportTitle(meta), body, {
     description,
     image: shareImage(meta),
     imageAlt: meta.title,
     url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}`,
+    extraMeta: citationMeta(meta),
     structuredData: reportJsonLd(meta, description),
     // A draft shown for review must not be what a search engine keeps.
     noindex: Boolean(options.draft && options.editorial && options.editorial.status !== "approved"),

@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from "./site";
 import { renderLayout, escapeHtml } from "./layout";
 
 /**
@@ -109,5 +110,8 @@ export function renderSearch(input: {
   const title = query ? `“${query}” — Search — Reports that Matter` : "Search — Reports that Matter";
   return renderLayout(title, body, {
     description: "Search across every report — a result is the exact matched passage, not a page to hunt through.",
+    // Results for a query are not pages to rank: the search page itself is the one address.
+    url: `${SITE_ORIGIN}/search`,
+    noindex: Boolean(query),
   });
 }

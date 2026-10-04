@@ -43,6 +43,8 @@ export type HeadOptions = {
   publishedTime?: string;
   /** An Atom feed to advertise in the head: `{ href, title }`. */
   feed?: { href: string; title: string };
+  /** Further `<meta name content>` tags, such as the Highwire `citation_*` set. */
+  extraMeta?: Array<{ name: string; content: string }>;
 };
 
 type LayoutOptions = HeadOptions & {
@@ -64,6 +66,10 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
   const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, imageAlt, structuredData, noindex, ogType = "website", url, publishedTime, feed } = options;
   const canonical = options.canonical ?? url;
 
+  const extraMeta = (options.extraMeta ?? [])
+    .map((tag) => `<meta name="${escapeHtml(tag.name)}" content="${escapeHtml(tag.content)}" />\n`)
+    .join("");
+
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -83,7 +89,7 @@ ${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta na
     // have fetched it.
     image?.includes("/assets/cards/") ? `<meta property="og:image:width" content="2400" />\n<meta property="og:image:height" content="1260" />\n` : ""
   }${image && imageAlt ? `<meta property="og:image:alt" content="${escapeHtml(imageAlt)}" />\n<meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}" />` : ""}
-<link rel="preconnect" href="https://fonts.googleapis.com" />
+${extraMeta}<link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="icon" href="/assets/brand/pilcrow-32.png" sizes="32x32" type="image/png" />
