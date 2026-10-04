@@ -6,6 +6,7 @@
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
   ----2-23-2023-oral: 1-9-2023-att-2
+  15-2-28-2024: addition-leaks-smith-filed-four
   176see-ecf-no-17-nn: trump-s-false-claims-included
   1should-these-demands-be-improperly: second-draft-repo11-violates-fundamental
   2-16-2023-government-s: 1-9-2023-att-2
@@ -26,6 +27,7 @@ aliases:
   associate-deputy-attorney-general: via-email-honorable-merrick-garland
   att-12: 1-9-2023-att-2
   attorney-general-united-states-c: via-email-honorable-merrick-garland
+  b-trump-not-subject-effective: table-contents-volume-one-election
   because-office-reached-no-final: before-department-concluded-case-must
   before-presenting-original-indictment-grand: trump-s-potential-defenses-these
   biden-be-certified-president-day: trump-s-efforts-remain-power
@@ -48,6 +50,7 @@ aliases:
   debunked-206-trump-continued-repeat: trump-also-targeted-private-citizens
   department-because-its-criminal-investigations: his-efforts-directly-pressure-state
   differently-context-post-indictment-litigation-first: two-components-department-s-election
+  dismiss-selective-vindictive-prosecution-8: dismiss-selective-vindictive-prosecution-226
   disregard-reckless-deliberate-indifference-has-deep: because-evidence-showed-trump-knew
   doc-no-2031508-attachment-10: chief-judge-united-states-district
   during-his-speech-ellipse-99: during-his-speech-ellipse-trump
@@ -63,6 +66,7 @@ aliases:
   getting-pushed-kicked-you-know: people-who-took-trump-his
   government-s-response-opposition-defendant-4: government-s-response-opposition-defendant-3
   grave-threats-integrity-these-proceedings: protect-integrity-proceedings-september-5
+  grounds-12-5-2023-government: grounds-176-12-5-2023
   hale-cusanelli-no-21-cr-37-ecf-no: after-january-6-when-rioters
   handwritten-notes-12-29-2020: trump-wanted-no-one-else
   honorable-merrick-garland: via-email-honorable-merrick-garland
@@ -71,6 +75,7 @@ aliases:
   integrity-united-states-process-collecting: trump-s-prosecution-served-multiple
   investigations-ongoing-presented-unprecedented-challenge: trump-s-announcement-his-candidacy
   invocation-executive-privilege-try-prevent: time-consuming-investigative-challenge-office-faced
+  january-6-2025-page-7: ongoing-prosecutions-deoliveira-nauta-which
   january-6-3-41-m: around-same-time-issued-his
   january-6-beautiful-day-championed: did-his-4-17-p
   january-6-obstruct: fischer-v-united-states-603
@@ -89,18 +94,22 @@ aliases:
   ongoing-investigation-into-whether-any: november-18-2022-attorney-general
   order-10-18-2024-government: 266-10-18-2024-government
   other-federal-state-officials-some-appointed: courts-which-trump-brought-numerous
-  page-5-baseless-attacks-other: january-6-2025-page-5
   pence-discard-legitimate-electoral-certificates: trump-co-conspirators-sought-deprive-that-injure
+  pending-appeal-12-18-2023: pending-appeal-188-12-18
   pennsylvania-despite-having-been-told: first-expected-trump-would-argue
   persons-conspire-defraud-united-states: defraud-clause-general-conspiracy-statute
   philadelphia-201-threats-against-commissioner: throughout-charged-criminal-conspiracies-threats
+  photograph-capitol-january-6-l: photograph-capitol-january-6-202
   pin-example-because-election-case: during-investigation-prosecution-case-office
   potential-charge-18-u-s: office-considered-ultimately-opted-against
   president-about-certification-proceeding-noting: second-court-s-decision-accorded
+  presidential-immunity-12-22-2023: presidential-immunity-8-12-22
   proposals-violated-eca-untested-when: january-4-two-days-before
+  public-docket-10-2-2024: depaiiment-s-policy-regarding-elections
   publicly-spreading-false-harmful-social: trump-also-targeted-private-citizens
   rather-office-s-m1ss10n-all: two-components-department-s-election
   regarding-election-notice-state-federal: trump-s-false-claims-included
+  reply-briefs-11-17-2023: reply-briefs-158-11-17
   representative-perry-copy-contents-his: chief-judge-united-states-district
   republic-january-5-after-trump: violence-january-6-foreseeable-trump
   responsibility-their-official-acts-no: before-case-no-court-had
@@ -144,6 +153,7 @@ sections:
   section-4-filing-and-an-adjournment-of-the-cipa-section-5-deadline: appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio
   the-investigative-process: investigative-procedure-and-policy
   the-twitterx-search-warrant: investigative-challenges-and-litigation-issues
+  twitter-search-warrant-litigation: appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio
 unmatched:
   - 01-06-2021-sco-12918852-video
   - 03036930-joint-statement-election-security
@@ -183,17 +193,27 @@ unmatched:
   - department-justice-has-strong-interest
   - doc-no-date-document-descriqtion
   - ecf-no-252-48-49-nn
-  - grounds-176-12-5-2023
   - hsc-hearing
   - hsc-hearing-204-sco-11507432-46-50
   - if-you-are-faced-question
+  - january-6-2025-2
   - january-6-2025-3
+  - january-6-2025-page-10
+  - january-6-2025-page-11
+  - january-6-2025-page-12
+  - january-6-2025-page-2
+  - january-6-2025-page-3
+  - january-6-2025-page-4
+  - january-6-2025-page-5
+  - january-6-2025-page-6
+  - january-6-2025-page-8
   - legislature-determine-whether-already-certified-election
   - making-because-numbers-touted-for-instance
   - nonetheless-trump-continued-circumvent-justice
+  - page-5-baseless-attacks-other
+  - page-9
   - page-9-added-reporting-requirement
   - para
-  - photograph-capitol-january-6-202
   - rally-01-06-2021-105see
   - sco-00029113-sco-12738292-sco-12806977-04-30
   - sco-00456209-sco-12987659-donald-j-trump
