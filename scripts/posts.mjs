@@ -21,6 +21,9 @@
  * Flags (all explicit; a plain run never does any of this):
  *   --check            write nothing; exit 1 if a not-yet-posted item is stale. The
  *                      scheduled poster's workflow runs this before every post.
+ *   --verify           write nothing; exit 1 if a plain run would change marketing/queue.yaml at all
+ *                      (a stale item, a new excerpt, a moved link or card). pnpm ship runs it after a
+ *                      re-ingest: the queue is committed, so a clean checkout must already be up to date.
  *   --drop-stale       remove not-yet-posted items whose quote or paragraph no longer
  *                      resolves (e.g. after a re-ingest moved ids). Posted ones stay.
  *   --start YYYY-MM-DD re-date every not-yet-posted item, one per day from that date,
@@ -40,6 +43,7 @@ import { SITE_ORIGIN } from "../src/templates/site.ts";
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
 const flagCheck = args.includes("--check");
+const flagVerify = args.includes("--verify");
 const flagDropStale = args.includes("--drop-stale");
 const startIdx = args.indexOf("--start");
 const flagStart = startIdx >= 0 ? args[startIdx + 1] : undefined;
@@ -192,8 +196,19 @@ if (flagCheck) {
   process.exit(staleUnposted.length ? 1 : 0);
 }
 
+const queueText = `${QUEUE_HEADER}${stringify({ items: queue })}`;
+if (flagVerify) {
+  const current = existsSync(queuePath) ? readFileSync(queuePath, "utf8") : "";
+  if (current !== queueText) {
+    console.error(`marketing/queue.yaml is out of date (${added} new item(s), ${staleUnposted.length} stale): run pnpm posts and commit it.`);
+    process.exit(1);
+  }
+  console.log("marketing/queue.yaml is up to date.");
+  process.exit(0); // candidates skipped above (too long for Bluesky, ...) are not queue changes
+}
+
 mkdirSync(join(root, "marketing"), { recursive: true });
-writeFileSync(queuePath, `${QUEUE_HEADER}${stringify({ items: queue })}`);
+writeFileSync(queuePath, queueText);
 
 console.log(
   `${queue.length} item(s) in the queue (${added} new). ${resolved.length} candidate(s) resolved` +

@@ -190,7 +190,7 @@ describe("pnpm ship --plan", () => {
   it("prints every step with its commands, marks production, and runs nothing", () => {
     const f = fakeProbe();
     const plan = formatPlan(ctx(), freshState(SPEC("0.21.0"), "abc123", "t0"), buildSteps(), f.probe, { head: "deadbee" });
-    for (const id of ["guard", "pin-bump", "install", "reingest", "baseline", "aggregate", "aliases", "prerender", "corpus", "editorial", "ratchet", "checks", "committed", "status", "d1-estimate", "publish", "deploy", "reindex", "seed", "verify-prod", "record"]) expect(plan).toContain(` ${id}  (`);
+    for (const id of ["guard", "pin-bump", "install", "reingest", "baseline", "aggregate", "aliases", "prerender", "corpus", "editorial", "cards", "ratchet", "checks", "committed", "status", "d1-estimate", "publish", "deploy", "reindex", "seed", "verify-prod", "record"]) expect(plan).toContain(` ${id}  (`);
     expect(plan).toContain("pnpm ingest run beta --shared");
     expect(plan).toContain("pnpm aliases generate --all --old-ref abc123");
     expect(plan).toContain("publish  (PROD, needs --yes)");
@@ -256,6 +256,25 @@ describe("drive: the happy path", () => {
     expect(ran(h.calls, "publish-report beta --base").length).toBe(1);
     expect(ran(h.calls, "publish-report alpha --base")).toEqual([]);
     expect(h.calls.filter((c) => c.startsWith("pnpm publish-report") && c.includes("--no-reindex")).length).toBe(2);
+  });
+});
+
+describe("drive: the cards step (u09x)", () => {
+  it("regenerates cards and the queue after the editorial step, offline, and stops when that changed the tree", async () => {
+    const h = harness({ handler: happy, probe: { dirty: { "/site:assets/cards": ["?? assets/cards/us-deepwater-horizon/q-09509400.png", " D assets/cards/us-deepwater-horizon/q-56d39b37.png"] } } });
+    expect(await drive(h.rt, buildSteps())).toBe(1);
+    expect(out(h)).toContain("STOPPED at cards");
+    expect(out(h)).toContain("q-56d39b37.png");
+    expect(h.calls.indexOf("pnpm editorial")).toBeLessThan(h.calls.indexOf("pnpm cards"));
+    expect(h.calls.indexOf("pnpm cards")).toBeLessThan(h.calls.indexOf("pnpm posts"));
+    expect(ran(h.calls, "quality ratchet")).toEqual([]);
+    for (const c of ["--remote", "wrangler", "--base"]) expect(h.calls.filter((x) => (x.includes("cards") || x.includes("posts")) && x.includes(c))).toEqual([]);
+  });
+
+  it("passes when regeneration changes nothing", async () => {
+    const h = harness({ handler: happy });
+    await drive(h.rt, buildSteps());
+    expect(h.state.steps["cards"].status).toBe("done");
   });
 });
 
