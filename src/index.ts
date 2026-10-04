@@ -81,6 +81,13 @@ export type Bindings = {
   MARK_SALT?: string;
   /** Readers a passage needs before it is shown back. Defaults to 1 — see #96. */
   MARK_THRESHOLD?: string;
+  /**
+   * The running Worker version's metadata (`[version_metadata]` in wrangler.toml): `id` changes on every
+   * deploy. It is part of the edge-cache key (`cacheKeyFor`), so a deploy retires every cached `?p=`/`?h=`
+   * page. Absent (tests, an older runtime) means those pages are not edge-cached at all rather than cached
+   * under a key that never changes (reportsthatmatter-h3iu).
+   */
+  CF_VERSION_METADATA?: { id?: string; tag?: string };
 };
 
 /**
@@ -453,13 +460,28 @@ async function loadReportEntry(
 }
 
 /**
+ * The edge-cache key for a `?p=`/`?h=` page: its URL plus the Worker version that built it.
+ *
+ * The Cache API outlives a deploy, so keyed on the URL alone a shared link served the previous release's
+ * text and card for up to `maxAge` (v0.21.0 text ~10 h after v0.22.0, reportsthatmatter-h3iu). The deploy id
+ * costs no D1 read, which a content-version key would on every hit. A publish that is not followed by a
+ * deploy (`publish-report` alone) still waits out `maxAge`; `pnpm ship` always deploys after publishing. The
+ * card image URL is named by hash of its words and is a static asset, so it needs no key of its own: a new
+ * card arrives inside the new page.
+ */
+export function cacheKeyFor(url: string, deployId: string): Request {
+  const key = new URL(url);
+  key.searchParams.set("_rtm_deploy", deployId);
+  return new Request(key.toString(), { method: "GET" });
+}
+
+/**
  * Serve a page from the edge cache, and put it there when it is built.
  *
  * Only used for the `?p=`/`?h=` path now (#115) — the common case is a
  * literal static file served straight from ASSETS, which Cloudflare already
  * caches correctly and, unlike this Cache API wrapper, actually invalidates
- * on deploy. This wrapper's own staleness is a known, accepted gap: a cached
- * quote-link response can outlive a re-ingest for up to `maxAge`.
+ * on deploy. This wrapper keys on the deploy (`cacheKeyFor`), so it does too.
  */
 async function cached(
   c: any,
@@ -469,8 +491,12 @@ async function cached(
   // `caches` is absent under Node, where the tests run.
   if (typeof caches === "undefined" || c.req.method !== "GET") return build();
 
+  // No deploy id, no way to retire an entry: do not cache.
+  const deployId = c.env?.CF_VERSION_METADATA?.id;
+  if (!deployId) return build();
+
   const cache = (caches as any).default;
-  const key = new Request(c.req.url, { method: "GET" });
+  const key = cacheKeyFor(c.req.url, deployId);
 
   const hit = await cache.match(key);
   if (hit) return hit;
@@ -677,9 +703,9 @@ async function topMarkedPassages(
 /**
  * Only a shared quote link goes through the day-long edge cache.
  *
- * `cached()` stores in `caches.default` and does not invalidate on deploy —
- * tolerable for a `?p=` link's preview, and not for the canonical page, which
- * would then serve a re-ingested report's old text for up to a day. The
+ * `cached()` stores in `caches.default`, keyed on the deploy (`cacheKeyFor`) but not on a publish
+ * that is not followed by a deploy — tolerable for a `?p=` link's preview, and not for the
+ * canonical page, which would then serve a re-ingested report's old text for up to a day. The
  * canonical page is assembled fresh instead: one fragment read and a string
  * concatenation, against a request `run_worker_first = true` never let skip
  * the Worker anyway.
