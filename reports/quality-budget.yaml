@@ -40,7 +40,7 @@ defaults:
 reports:
   challenger-accident:
     severed-into-quote: 85
-    severed-paragraph: 42
+    severed-paragraph: 43  # why: reportsthatmatter-uw50 (parenFolios/foliosInStep re-page p.36's letter; '...the Commission is tasked / with completing its report' was already cut, now counted; read)
     bare-footnote-marker: 76
     bare-marker-after-quote: 19  # why: reportsthatmatter-jsqw (the text linker no longer runs on vision blocks; markers after a closing quote it used to link, often wrongly, e.g. '[^2] 6' for note 26 on p.98, stay bare)
     note-marker-wrong-note: 0
@@ -88,7 +88,7 @@ reports:
     quote-share-parity: 4  # why: reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
   jack-smith-vol1:
     severed-into-quote: 2
-    severed-paragraph: 5
+    severed-paragraph: 6  # why: reportsthatmatter-5sf1 (pageHeadFolios, ssfk: the Blanche letter's 'Page N' head leaves the body, so its letterhead footer line now sits mid-paragraph; +1, read)
     bare-footnote-marker: 0
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
@@ -109,7 +109,7 @@ reports:
     rendered-ol-words-share: 2
     numbered-prose-list: 1
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-ssfk (the letter's pages are numbered from their own heads now, so its quotations change page parity: 14.4% even vs 16.4% odd; no quotation added or lost)
   litvinenko-inquiry:
     severed-into-quote: 72
     severed-paragraph: 6
