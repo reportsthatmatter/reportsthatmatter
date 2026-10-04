@@ -258,7 +258,6 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **Test a social preview as the crawler sees it, with no login.** (2026-10-03, bght.1) `curl -A <crawler UA>` following the redirect, then the head; Bluesky's `cardyb.bsky.app/v1/extract?url=` returns exactly the card Bluesky renders. X shows only the image, so a quote link whose image is the report's title card shows no quote at all on X. `tests/share-links.test.ts` now crawls every queued link and checks it previews with its own card. [status: done]
 - **Read what the site says about seeded data, not just that it is there.** (2026-10-03, bght.7) All 163 editor's highlights were live and every one said "Highlighted by 1 reader": seeded content posed as readers, and no check reads a hover title. Attribution is now computed from the actor (`editorial:`), not stored. [status: done; decision 0014 proposed]
 - **An idempotent seed should also be a cheap one.** (2026-10-03, bght.7) `pnpm seed-highlights` deleted and re-inserted every row each run (326 writes for no change on a 100k/day free tier); it now reads D1 back and writes the difference (0 today), with `--dry-run` for the integrator. [status: done]
-<<<<<<< HEAD
 
 ## Marketing research (y2y8, 2026-10-03)
 
@@ -323,8 +322,6 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **What slowed me down:** waiting out verify (about 5 min in ship, 12 min standalone) and three serial 10-minute foreground limits; my own check of a social-preview URL hit a stale edge cache and looked like a regression until I changed a query parameter.
 - **What would have caught it earlier:** `pnpm ship`'s verify-prod comparing `x-rtm-content-version` of a `?p=` page with the published hash would have flagged the stale cache; a batch-A integrator script (merge order and conflict recipes as data, like `pnpm ship`) would have made the six merges one command.
 - **One proposal:** teach `pnpm ship` a `--merge-from <review.md>`-style recipe file, or at least have reviewers commit the trial branch's conflict resolutions as a `git rerere` cache so the integrator replays them.
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Comparing two ingests (38s.18, 5xln)
 
 - **A comparison tool needs a baseline that is itself an ingest, not the pin.** (2026-10-04, 38s.18) `pnpm ingest try` could only diff the pinned ingest against one trial, so a fix stacked on an unreleased main showed the main's own moves too (3ezs, sbnn). `try --base <ref|path>` runs both sides the same way in the same throwaway worktrees. A base older than what the report repos declare fails ("does not provide an export"): v0.21.0 as base only works for reports whose `ingest.ts` predates the pin move (Jack Smith, Philip Morris), and the failure now says so. [status: done in the 38s.18 site PR]
@@ -358,23 +355,17 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **The corrections file can join across blank lines, which makes it the cheap fix for a one-off layout quirk, but ten of them is a pass waiting to be written.** (2026-10-04, ud34, 54li) Eleven `corrections.yaml` entries (a note marker alone on its line; ten list items wrapped over a blank line) cleared severed-paragraph 8 to 0 and note-reference-sequence 1 to 0, and each fails the build if the text moves; but a corrections file written to undo what the parser did is the anti-pattern the README names. The p.104 shape repeats in every report with inset numbered quotations. [status: open, a `quoteListRunOns` variant joining at the item's text inset across one blank line would retire c-0002 to c-0011; item 8 (a paragraph, not a quote) cannot be fixed by a correction]
 - **A fix to the text can lower the score against a noisy reference.** (2026-10-04, gqsy.2.1) Joining 11 wrapped list items took boundary R from 91.5% to 91.1% (F1 95.1 to 94.9) on the held-out tagged reference, because the tag tree splits at every wrap; the text is right and the reference wrong. Read the decision diff, not the headline, before calling a score move a regression. [status: noted]
 - **A report-level change moves the corpus baseline under the pin you did not use.** (2026-10-04, gqsy.2.1) `pnpm corpus check` against the pinned v0.22.0 reports two sections renamed ("the-human-impact" to "a-introduction") after the baseline was accepted with the linked ingest#63; the check passes only with the unreleased ingest linked, so the order in the PR (release, bump pin, re-run) is not optional. [status: noted in the PR]
-=======
 - **A generated artefact keyed on content needs a prune, not just a write.** (2026-10-04, u09x, Opus) `pnpm cards` named quote cards by (paragraph id, words) and built its manifest from every PNG on disk, so each re-ingest that moved an id left the old card and manifest line behind; the first run of the new orphan check on the #279 branch also found two curated Jack Smith cards dropped from share-quotes.yaml long ago and never deleted. `pnpm cards` now deletes what nothing asks for, `pnpm cards --check` and `pnpm posts --verify` compare read-only, `tests/cards.test.ts` fails on a missing or orphan card, and `pnpm ship` has a `cards` step. [status: done in the u09x PR]
 - **Give every generator a read-only "would this change anything" mode, and run it where the inputs change.** (2026-10-04, u09x, #285 review) Title changes and re-ingests made committed cards stale and nothing noticed until a reviewer ran the generator by hand; `--check` / `--verify` on cards and the queue make "clean checkout is a no-op" a test (the 90-card render is opt-in via `RTM_RENDER_CARDS=1`, about 90 s) and a ship gate. [status: proposed: do the same for `pnpm editorial` and `pnpm prerender`]
->>>>>>> origin/cards-prune-1004
-=======
 
 ## ship flag parsing and the edge-cache key (2026-10-04, hyph, pvzd, h3iu)
 
 - **A CLI that ignores unknown flags turns a typo into the production action.** (2026-10-04, hyph, from the v0.22.0 review) `pnpm ship --pln` ran the release from step 1. `scripts/lib/ship-args.ts` now parses strictly (unknown flag, stray word and a value flag with no value are exit 2 before anything runs) and collects every repeated `--redo`/`--ack`/`--skip`. [status: done in the shipflags PR; `tests/ship-args.test.ts`]
 - **Parse arguments in a pure function, not at the top of a script with side effects.** (2026-10-04, hyph) `scripts/ship.ts` could not be unit-tested for its flags because importing it runs it; moving the parse to `ship-args.ts` made the two bugs a five-line test each. [status: done]
 
->>>>>>> origin/shipflags-hyph
-=======
 
 ## Edge-cache key (2026-10-04, h3iu)
 
 - **A cache key that cannot change cannot be invalidated.** (2026-10-04, h3iu) `cached()` keyed `?p=`/`?h=` pages on the URL alone, so a shared link served v0.21.0 text and the old card ~10 h after v0.22.0. The key now carries the Worker version id (`[version_metadata]`), so every deploy retires the entries; a content-version key would have cost a D1 read on every hit, which is the free-tier quota that failed the day before. A publish with no deploy after it still waits out the day; `pnpm ship` always deploys. [status: done in the cachekey PR, `tests/edge-cache.test.ts`]
 - **A cache-busted check cannot see a stale cache.** (2026-10-04, h3iu) verify.sh's "cold URL" check added `cachebust=` so it always rendered fresh and passed while the URL people hold was stale. It now also fetches the plain `?p=` URL and compares `x-rtm-content-version` with the report page's. [status: done]
 
->>>>>>> origin/cachekey-h3iu
