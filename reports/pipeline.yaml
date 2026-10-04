@@ -180,10 +180,10 @@ units:
   - id: us-jan6-committee
     scope: "H. Rept. 117-663, the whole printed report (served from the committee HTML, cleanEdition)"
     bead: reportsthatmatter-gqsy.3
-    reached: evaluate
-    state: waiting
+    reached: editorial
+    state: done
     evidence: "registry; golden.yaml 5/5; PROCESSING.md; editorial approved and verbatim; plate, default card and 5 quote cards (z959); ingest#66 and #67 in v0.23.0, report repo main merged (PR #1), pin bump PR us-jan6-committee#2"
-    notes: "Ready for the v0.24.0 review (site PR #290): re-ingested at v0.23.0, full.md and baseline unchanged. Merge-only until the integrator ships it; hero image is wrjn. reference/manifest.json and adjudicated.yaml are not in the repo (HTML-sourced), which is the drift warning."
+    notes: "Live 2026-10-04 (site #290 merged, content version e09b974d5640). Hero image is wrjn; caption credit paragraphs and the generic discussion slug are 2t3t. reference/manifest.json and adjudicated.yaml are not in the repo (HTML-sourced), which is the drift warning."
   - id: uk-grenfell-tower-inquiry
     scope: "Phase 2, Volume 1"
     bead: reportsthatmatter-gqsy.4
