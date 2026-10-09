@@ -191,3 +191,10 @@ units:
     state: waiting
     evidence: "ingest PR #68, report repo PR #1 (branch phase2-vol1), site PR #293 (registry, budgets, plate, card, editorial); adjudicated.yaml committed (30 breaks; reference wrong 2/30, ours 3/30), held-out score recorded; local checks 2026-10-04"
     notes: "Live 2026-10-04 (ingest v0.24.0, site #293, content version b40c6999bfe2). Volumes 2-7 are further units of this id (gqsy.4.2). Hero: gqsy.4.1. Tables and figures: bnqs."
+  - id: us-mueller-report
+    scope: "Volumes I and II (appendices A-D a later unit, o2kz)"
+    bead: reportsthatmatter-gqsy.5
+    reached: editorial
+    state: waiting
+    evidence: "ingest PR #75 (foiaRedactions, asteriskBreaks, layoutRunOvers, contentsOutline scanned/centredMinor), report repo PR #1 (branch first-ingest-1009), site PR from mueller-report-1009 (registry, manifest, plate, default and 4 quote cards, editorial approved, decision 0019); golden 4/6 + 2 xfail (vs2x); adjudicated.yaml 27/29 right"
+    notes: "Waits on an ingest release carrying #75 and a pin bump in the report repo and the site. 74 scanned Vol I pages: OCR words (q6yp) and 225 notes not separated (vs2x, parked). Hero: pq6v. Intro bead ga0k."

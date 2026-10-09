@@ -1090,3 +1090,71 @@ items:
     card: assets/cards/uk-grenfell-tower-inquiry/q-030edc29.png
     scheduled: 2026-12-22
     posted_url: null
+  - id: us-mueller-report:russian-government-interfered-2016-presidential:f8e0ffaa
+    report: us-mueller-report
+    paragraph: russian-government-interfered-2016-presidential
+    quote: The Russian government interfered in the 2016 presidential election in
+      sweeping and systematic fashion.
+    text: >-
+      “The Russian government interfered in the 2016 presidential election in
+      sweeping and systematic fashion.”
+
+
+      — Report on the Investigation into Russian Interference in the 2016
+      Presidential Election, p. 1
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=russian-government-interfered-2016-presidential&h=|The%20Russian%20government%20interfered%20in%20the%202016%20presidential%20election%20in%20sweeping%20and%20systematic%20fashion.|%20Evidence%20of%20Russian&src=bsky
+    card: assets/cards/us-mueller-report/q-a0da52f5.png
+    scheduled: 2026-12-23
+    posted_url: null
+  - id: us-mueller-report:fourth-if-we-had-confidence:eb9effeb
+    report: us-mueller-report
+    paragraph: fourth-if-we-had-confidence
+    quote: Accordingly, while this report does not conclude that the President
+      committed a crime, it also does not exonerate him.
+    text: >-
+      “Accordingly, while this report does not conclude that the President
+      committed a crime, it also does not exonerate him.”
+
+
+      — Report on the Investigation into Russian Interference in the 2016
+      Presidential Election, p. 2
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=fourth-if-we-had-confidence&h=criminal%20conduct%20occurred.%20|Accordingly%2C%20while%20this%20report%20does%20not%20conclude%20that%20the%20President%20committed%20a%20crime%2C%20it%20also%20does%20not%20exonerate%20him.|&src=bsky
+    card: assets/cards/us-mueller-report/q-fd5a5b56.png
+    scheduled: 2026-12-24
+    posted_url: null
+  - id: us-mueller-report:ira-later-used-social-media:ae66fa60
+    report: us-mueller-report
+    paragraph: ira-later-used-social-media
+    quote: The IRA later used social media accounts and interest groups to sow
+      discord in the U.S. political system through what it termed "information
+      warfare."
+    text: >-
+      “The IRA later used social media accounts and interest groups to sow
+      discord in the U.S. political system through what it termed ‘information
+      warfare.’”
+
+
+      — Report on the Investigation into Russian Interference in the 2016
+      Presidential Election, p. 4
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=ira-later-used-social-media&h=|The%20IRA%20later%20used%20social%20media%20accounts%20and%20interest%20groups%20to%20sow%20discord%20in%20the%20U.S.%20political%20system%20through%20what%20it%20termed%20%22information%20warfare.%22|%20The%20campaign%20evolved&src=bsky
+    card: assets/cards/us-mueller-report/q-9c2db7b6.png
+    scheduled: 2026-12-25
+    posted_url: null
+  - id: us-mueller-report:june-14-2017-media-reported:e8497ae0
+    report: us-mueller-report
+    paragraph: june-14-2017-media-reported
+    quote: McGahn did not carry out the direction, however, deciding that he would
+      resign rather than trigger what he regarded as a potential Saturday Night
+      Massacre.
+    text: >-
+      “McGahn did not carry out the direction, however, deciding that he would
+      resign rather than trigger what he regarded as a potential Saturday Night
+      Massacre.”
+
+
+      — Report on the Investigation into Russian Interference in the 2016
+      Presidential Election, p. 4
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=june-14-2017-media-reported&h=interest%20and%20must%20be%20removed.%20|McGahn%20did%20not%20carry%20out%20the%20direction%2C%20however%2C%20deciding%20that%20he%20would%20resign%20rather%20than%20trigger%20what%20he%20regarded%20as%20a%20potential%20Saturday%20Night%20Massacre.|&src=bsky
+    card: assets/cards/us-mueller-report/q-a09979ab.png
+    scheduled: 2026-12-26
+    posted_url: null

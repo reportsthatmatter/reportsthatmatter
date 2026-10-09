@@ -78,3 +78,6 @@ reports:
   uk-grenfell-tower-inquiry:
     markers-unlinked: 0
     note-off-page: 0
+  us-mueller-report:
+    markers-unlinked: 468  # why: reportsthatmatter-gqsy.5 (the oracle reads raised digits inside redaction boxes and scanned pages' OCR; reportsthatmatter-vs2x)
+    note-off-page: 0

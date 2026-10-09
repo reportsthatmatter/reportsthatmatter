@@ -215,3 +215,17 @@ reports:
     source_path: reports/uk-grenfell-tower-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
+
+  - id: us-mueller-report
+    title: "Report on the Investigation into Russian Interference in the 2016 Presidential Election"
+    authors: "Robert S. Mueller, III, Special Counsel, U.S. Department of Justice"
+    published_at: "March 2019"
+    common_name: "Mueller Report"
+    also_known_as: ["Report on the Investigation into Russian Interference in the 2016 Presidential Election", "Special Counsel Mueller's report", "Mueller Report, Volumes I and II"]
+    issued_by: "Special Counsel's Office, U.S. Department of Justice"
+    date_published: "2019-03"
+    repo: us-mueller-report
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/us-mueller-report/full.md
+    source_url: "https://www.justice.gov/storage/report_volume1.pdf"
+    ingested: true

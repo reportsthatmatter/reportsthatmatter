@@ -58,6 +58,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 660,
     "height": 506
   },
+  "us-mueller-report": {
+    "width": 660,
+    "height": 471
+  },
   "us-psi-financial-crisis": {
     "width": 660,
     "height": 660

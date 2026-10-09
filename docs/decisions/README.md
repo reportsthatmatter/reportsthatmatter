@@ -23,3 +23,4 @@ One file per question we have had to answer, or still have to. It is written so 
 | [0010](0010-markdown-canonical-format.md) | Is one consolidated markdown file per report the canonical format? | decided (existing practice) | 0z1o |
 | [0013](0013-mini-reference-split.md) | PDF-only mini-references: split each report's page breaks into dev and held-out, or assign whole reports? | proposed | 9u69 |
 | [0014](0014-editors-highlights.md) | How are the editor's highlights shown, so they don't pose as readers? | accepted | bght.6 |
+| [0019](0019-redactions.md) | How do we show a redaction in a report's text? | proposed | oh89 |

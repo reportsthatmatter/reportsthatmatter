@@ -95,3 +95,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  us-mueller-report:
+    markers-wrong: 5  # why: reportsthatmatter-gqsy.5 (page labels repeat across the two volumes, and scanned pages' OCR order)
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 3  # why: reportsthatmatter-gqsy.5 (scanned Vol I pages)
