@@ -31,4 +31,4 @@ Aim for a plausible first text with honest counts. Refinement is stage 4.
 - [ ] `pnpm quality report <id>` table pasted in the PR
 - [ ] your PR sets the unit's `reports/pipeline.yaml` row to `reached: ingest` (if it is already at a later stage, leave it)
 
-**Hands on:** the report-repo PR (and an ingest PR if a pass was needed). **Gap:** no command compares candidate pass sets on a first ingest; `pnpm ingest try` compares library versions, not pass lists (ifb5.13). Retro and lessons: agent protocol R13-R14.
+**Hands on:** the report-repo PR (and an ingest PR if a pass was needed). **Gaps:** no catalogue of passes by symptom and no `--no-passes` for `outline`/`page` (fqoo); no command compares candidate pass sets on a first ingest; `pnpm ingest try` compares library versions, not pass lists (ifb5.13). Retro and lessons: agent protocol R13-R14.
