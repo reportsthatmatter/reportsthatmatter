@@ -26,6 +26,11 @@
  *                      re-ingest: the queue is committed, so a clean checkout must already be up to date.
  *   --drop-stale       remove not-yet-posted items whose quote or paragraph no longer
  *                      resolves (e.g. after a re-ingest moved ids). Posted ones stay.
+ *   --report <id>      (repeatable, or a comma list) only the named reports' problems decide the exit status
+ *                      and are listed in full: a skipped candidate, a stale not-yet-posted item. The queue is still
+ *                      built from every report (a subset would drop the others' items), and other reports'
+ *                      problems are counted in one line. Without it, any problem anywhere exits 1, which on main
+ *                      is the other reports' business (reportsthatmatter-5qmm).
  *   --start YYYY-MM-DD re-date every not-yet-posted item, one per day from that date,
  *                      in its current order. Posted items never move.
  *
@@ -39,11 +44,13 @@ import { parse, stringify } from "yaml";
 import { resolveCandidate, buildQueue, isoDate, QUEUE_HEADER } from "../src/lib/posts.ts";
 import { CARDS } from "../src/generated/cards.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
+import { inScope, reportScope } from "./lib/posts-scope.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
 const flagCheck = args.includes("--check");
 const flagVerify = args.includes("--verify");
+const scope = reportScope(args);
 const flagDropStale = args.includes("--drop-stale");
 const startIdx = args.indexOf("--start");
 const flagStart = startIdx >= 0 ? args[startIdx + 1] : undefined;
@@ -55,6 +62,11 @@ if (startIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(flagStart ?? "")) {
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const titleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.title]));
 const reportOrder = registry.reports.map((r) => r.id);
+const unknownScope = scope.filter((id) => !titleOf[id]);
+if (unknownScope.length) {
+  console.error(`--report: not in reports/registry.yaml: ${unknownScope.join(", ")}`);
+  process.exit(2);
+}
 
 // ---------- collect candidates ----------
 
@@ -133,13 +145,13 @@ let defaultCardCount = 0;
 
 for (const candidate of candidates) {
   if (!titleOf[candidate.report]) {
-    skipped.push(`${candidate.report}/${candidate.paragraph}: not in reports/registry.yaml`);
+    skipped.push({ report: candidate.report, text: `${candidate.report}/${candidate.paragraph}: not in reports/registry.yaml` });
     continue;
   }
   const html = htmlFor(candidate.report);
   const result = resolveCandidate(candidate, html, CARDS, SITE_ORIGIN);
   if (!result.ok) {
-    skipped.push(result.problem);
+    skipped.push({ report: candidate.report, text: result.problem });
     continue;
   }
   if (seen.has(result.item.id)) continue; // same quote reached us from both sources
@@ -148,11 +160,13 @@ for (const candidate of candidates) {
   resolved.push(result.item);
 }
 
-if (skipped.length) {
-  console.warn(`${skipped.length} candidate(s) skipped:`);
-  for (const s of skipped) console.warn(`  - ${s}`);
+const mine = inScope(skipped, scope);
+if (mine.length) {
+  console.warn(`${mine.length} candidate(s) skipped${scope.length ? ` (${scope.join(", ")})` : ""}:`);
+  for (const s of mine) console.warn(`  - ${s.text}`);
   process.exitCode = 1;
 }
+if (skipped.length > mine.length) console.warn(`${skipped.length - mine.length} candidate(s) of other reports skipped (not listed: --report ${scope.join(",")}).`);
 
 // ---------- build the queue ----------
 
@@ -160,7 +174,7 @@ const queuePath = join(root, "marketing/queue.yaml");
 const existingDoc = existsSync(queuePath) ? parse(readFileSync(queuePath, "utf8")) : null;
 const existing = existingDoc?.items ?? [];
 
-const { queue, added, staleUnposted, stalePosted } = buildQueue({
+const { queue, added, staleUnposted: staleAll, stalePosted } = buildQueue({
   resolved,
   existing,
   today: isoDate(new Date()),
@@ -168,6 +182,11 @@ const { queue, added, staleUnposted, stalePosted } = buildQueue({
   dropStale: flagDropStale,
   restartFrom: flagStart,
 });
+
+// A stale item belongs to the report its queue entry names; --report scopes which ones fail this run.
+const reportOfItem = new Map(existing.map((item) => [item.id, item.report]));
+const staleUnposted = flagDropStale || !scope.length ? staleAll : staleAll.filter((id) => scope.includes(reportOfItem.get(id)));
+if (staleAll.length > staleUnposted.length) console.warn(`${staleAll.length - staleUnposted.length} stale not-yet-posted item(s) of other reports (not listed: --report ${scope.join(",")}).`);
 
 if (flagDropStale && staleUnposted.length) {
   console.warn(`Dropped ${staleUnposted.length} stale not-yet-posted item(s) (--drop-stale):`);

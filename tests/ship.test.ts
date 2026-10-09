@@ -161,6 +161,12 @@ describe("pure helpers", () => {
     expect(d1Fits(90_000, 10_000, 100_000).ok).toBe(false); // 99,000 with the margin > 90,000 headroom
     expect(d1Fits(5_000, null, 100_000).lines.join(" ")).toContain("unknown");
     expect(d1Fits(95_000, null, 100_000).ok).toBe(false);
+    expect(d1Fits(1, null, 100_000).ok).toBe(false); // unknown refuses even a tiny need (r52n)
+    expect(d1Fits(1, null, 100_000).lines.join(" ")).toContain("pnpm d1-usage");
+    // the ledger alone (analytics unreachable) is unknown too: it cannot see the Worker's reads (t4al)
+    const ledgerOnly = { used: { rowsRead: 5, rowsWritten: 0 }, ledger: { rowsRead: 5, rowsWritten: 0 }, analytics: null, source: "ledger only" };
+    expect(d1Fits(1, ledgerOnly, 100_000).ok).toBe(false);
+    expect(d1Fits(1, ledgerOnly, 100_000).lines.join(" ")).toContain("analytics is unreachable");
   });
 
   it("refuses removed alias lines for a report whose text did not move, and any lost published id", () => {
@@ -333,7 +339,7 @@ describe("drive: the pin bump", () => {
       ["/repos/beta", SPEC("0.21.0")],
       ["/repos/gamma", SPEC("0.21.0")],
     ]);
-    expect(h.calls).toEqual(["pnpm -C /repos/beta install", "pnpm -C /repos/gamma install"]);
+    expect(h.calls).toEqual(["pnpm -C /repos/beta install --no-frozen-lockfile", "pnpm -C /repos/gamma install --no-frozen-lockfile"]);
 
     const ahead = harness({ handler: happy, probe: { pins: { "/repos/alpha": SPEC("0.22.0") } } });
     expect(await drive(ahead.rt, buildSteps())).toBe(1);

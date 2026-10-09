@@ -16,6 +16,7 @@ import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";
 import { linkAll, linkLockPathFor, readLinkLock, unlinkAll } from "../lib/ingest-link.ts";
 import { installedIngest } from "../lib/ingest-version.ts";
+import { reportDirs } from "../lib/report-dirs.ts";
 import { resolveIngest } from "./try.ts";
 import { readLock, type Lock } from "../lib/trial-links.ts";
 
@@ -59,11 +60,12 @@ export function runLink(argv: string[]): number {
   const manifest = parse(readFileSync(join(ROOT, "reports/manifest.yaml"), "utf8")) as { reports: Array<{ id: string; dir: string }> };
   const wanted = manifest.reports.filter((r) => !ids.length || ids.includes(r.id));
   for (const id of ids) if (!manifest.reports.some((r) => r.id === id)) return console.error(`${id} is not in reports/manifest.yaml`), 1;
-  const override = process.env.RTM_REPORT_DIRS;
+  const resolved = reportDirs(ROOT);
   const links = [join(ROOT, "node_modules/@rtm/ingest")];
   const skipped: string[] = [];
   for (const r of wanted) {
-    const dir = override ? join(resolve(override), basename(r.dir)) : undefined;
+    const found = resolved.get(r.id)!;
+    const dir = found.overridden ? found.dir : undefined;
     if (dir && existsSync(join(dir, "node_modules"))) {
       if (!links.includes(join(dir, "node_modules/@rtm/ingest"))) links.push(join(dir, "node_modules/@rtm/ingest"));
     } else skipped.push(r.id);
