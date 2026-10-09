@@ -464,3 +464,11 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **What slowed me down:** the BSD `sed` slip, the worktree-versus-main release step and the ship state reset, three one-line stops; the verify runs (about 10 minutes).
 - **What would have caught it earlier:** a `pnpm release --dry-run` hint for worktrees in the checklist, and `pnpm ship --plan` offering `--reset` itself when the state is for an older pin.
 - **One proposal:** a `pnpm ship --bump-pins` that does the 16-repo pin bump with `--no-frozen-lockfile`, checks each lockfile resolves to the new tag's commit, commits and pushes. It is the same 15 lines every release, and the lessons of v0.23.0 and v0.24.0 both record it by hand.
+
+## 2026-10-09: launch polish (y960, ahzb, p3o8, te56)
+
+- markdown-it 14 links `http(s)://` URLs in an inline rule and fuzzy schemeless ones in a core rule, so a fix that only touches the core `linkify` rule misses the common case; the unit test that renders a wrapped URL through `renderMarkdown` is what showed it (ingest #72).
+- A "this check passes for every queue item" test can hide a whole class by its own filter: `tests/share-links.test.ts` only walked items whose card was `q-*`, which is exactly why the two legacy-card Jack Smith items (ahzb) shipped with the default og:image. Filters in a coverage test need a count assertion against the unfiltered set.
+- `buildQueue` kept an unposted item's `text` forever, so a re-ingest that moved page markers left 5 of 68 post texts citing a different page than the card and landing panel (4 said "p. 2" where the text says 3). Anything derived from the build and not a decision must be refreshed for unposted items, and `pnpm posts --verify` can only catch it if the refreshed value is part of what it compares.
+- Wrapped citation URLs lose the hyphen at the wrap (Leveson `wp-content` became `wpcontent` in 30 links, all 404); restoring it in the href made the PDF links return 200. Check a sample of a fix's links over HTTP, not only the diff.
+- The link-preview failure for a huge page (te56) was not the head: Leveson `/full`'s `og:image` is at byte 1,125 of 10.9 MB. `tests/full-head.test.ts` now holds "all preview tags in the first 16 KB" for every report so a regression is visible, and the real choice is a decision (0017).
