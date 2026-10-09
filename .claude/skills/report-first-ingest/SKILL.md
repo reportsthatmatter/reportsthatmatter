@@ -5,6 +5,8 @@ description: Use when writing a report's ingest.ts and running its first ingest 
 
 # Stage 3: propose a first ingest
 
+**Level:** `level:specced` (Sonnet); a new edition-adapter format or a new pass is `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. How to build the text: `docs/report-preparation.md` §3. The hybrid: `../ingest/README.md`, "A clean edition as the source (`cleanEdition`)". Where a fix goes: `scripts/ingest/README.md`.
 
 **Entry.** Stage 2's gate met: the repo with pinned volumes, a manifest entry, preflight clean.
@@ -15,7 +17,7 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. How to bu
 2. **Start from the closest report's `ingest.ts`**: UK numbered paragraphs, Litvinenko, Leveson, Hillsborough, Saville; US two-column analytic, Duelfer; Word-built legal with footnotes, Lehman, Philip Morris; scans, Jack Smith, Challenger.
 3. **Choose passes from evidence.** `pnpm ingest outline <id>` for the shape; `pnpm ingest page <id> <vol> <pdfPage>` on one page of each kind (body, chapter opening, two columns, table, notes page). Every declared pass gets a comment naming the printed page that needed it (see `../us-duelfer-report/ingest.ts`).
 4. **Run.** `pnpm ingest run <id>` (it prints the fidelity checks), then `pnpm quality report <id>` and read the excerpts. Check the counts against the PDF's own: notes defined against its last note number (or the tag census), headings against the contents, `%%page%%` markers against the page count. `pnpm quality` reads the site's `reports/<id>/full.md`, so copy it there first (stage 4 registers it properly). `pnpm ingest verify <id>` (oracle, golden pages) reads the registry, so it comes in stage 4.
-5. **A library change** is an opt-in pass in an ingest worktree and PR (protocol rules 2-3), measured with `pnpm ingest try <branch|path> <id>` (#231). Do not release.
+5. **A library change** is an opt-in pass in an ingest worktree and PR (agent protocol R2-R3), measured with `pnpm ingest try <branch|path> <id>` (#231). Do not release.
 6. **Commit** in the report-repo PR: `ingest.ts`, `full.md`, `fidelity.md`, and `baseline.json` (`pnpm ingest baseline <id>` after reading the output).
 
 Aim for a plausible first text with honest counts. Refinement is stage 4.
@@ -28,4 +30,4 @@ Aim for a plausible first text with honest counts. Refinement is stage 4.
 - [ ] `pnpm quality report <id>` table pasted in the PR
 - [ ] `reports/pipeline.yaml` row says `reached: ingest`
 
-**Hands on:** the report-repo PR (and an ingest PR if a pass was needed). **Gap:** no command compares candidate pass sets on a first ingest; `pnpm ingest try` compares library versions, not pass lists (ifb5.13). Retro and lessons: protocol rules 12-13.
+**Hands on:** the report-repo PR (and an ingest PR if a pass was needed). **Gap:** no command compares candidate pass sets on a first ingest; `pnpm ingest try` compares library versions, not pass lists (ifb5.13). Retro and lessons: agent protocol R13-R14.

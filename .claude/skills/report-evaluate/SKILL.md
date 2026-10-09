@@ -5,6 +5,8 @@ description: Use when checking and refining a report's ingested text on Reports 
 
 # Stage 4: evaluate and refine
 
+**Level:** `level:specced` (Sonnet); a new defect class is `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The tools: `docs/quality-harness.md` (signals, budgets, golden pages, oracle), `docs/scoring.md` (score, adjudicated breaks, `--shadow`). Registration and PROCESSING.md: `docs/report-preparation.md` §3-6, §8. House rules on text bugs: AGENTS.md.
 
 **Entry.** Stage 3's gate met: a first `full.md` with its quality numbers.
@@ -17,7 +19,7 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The tools
 4. **Oracle.** `pnpm ingest verify <id>` (`--findings` to read them).
 5. **Fix.** A source property: a pass declared in `ingest.ts`. A corpus rule: an opt-in pass in an ingest PR (`pnpm ingest try`). A judgement about the text: `corrections.yaml` from `fidelity.md`. Never edit `full.md`.
 6. **One fix attempt per hard report.** A new defect class after one attempt: bead it (label `research`), hold its PRs, set `state: parked` in `reports/pipeline.yaml`, stop.
-7. **Register** (site worktree): `reports/registry.yaml` entry with `ingested: true`; `pnpm ingest aggregate` (it takes no id and refuses while any other report is a shared checkout: for one new report copy `full.md` and `PROCESSING.md` into `reports/<id>/` by hand until j6ld is fixed); `pnpm prerender`; `pnpm aliases generate <id>`; `pnpm corpus accept <id>` after reading the diff; `reports/anchor-budget.yaml` from `pnpm ingest anchors <id>`. Propose budget lines in `reports/quality-budget.yaml` and `reports/oracle-budget.yaml` (hand edits with `# why:`); the integrator runs `pnpm quality baseline`.
+7. **Register** (site worktree): `reports/registry.yaml` entry with `ingested: true`; `pnpm ingest aggregate <id>` with `RTM_REPORT_DIRS` exported (site #299; check `pnpm ingest --help` lists ids for aggregate). Before #299 `aggregate` takes no id and refuses while any other report is a shared checkout: copy `full.md` and `PROCESSING.md` from the report worktree into `reports/<id>/` by hand; `pnpm prerender`; `pnpm aliases generate <id>`; `pnpm corpus accept <id>` after reading the diff; `reports/anchor-budget.yaml` from `pnpm ingest anchors <id>`. Propose budget lines in `reports/quality-budget.yaml` and `reports/oracle-budget.yaml` (hand edits with `# why:`); the integrator runs `pnpm quality baseline`.
 8. **PROCESSING.md** in the report repo (template `../uk-saville-inquiry/PROCESSING.md`), numbers taken from `fidelity.md`, `pdfinfo` and `full.md`. Every known defect: a Bead and a Known limitations line.
 9. `./scripts/verify.sh`.
 
@@ -31,4 +33,4 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The tools
 - [ ] Rendered pages read; the URLs looked at are listed in the PR
 - [ ] `reports/pipeline.yaml` row says `reached: evaluate` (or `state: parked`)
 
-**Hands on:** site PR, report-repo PR, ingest PR if any. **Gap:** `pnpm report ready <id>` (this gate as one command) does not exist yet (ifb5.12). Append uncaught defect classes to `reportsthatmatter-b78.1`. Retro and lessons: protocol rules 12-13.
+**Hands on:** site PR, report-repo PR, ingest PR if any. **Gap:** `pnpm report ready <id>` (this gate as one command) does not exist yet (ifb5.12). Append uncaught defect classes to `reportsthatmatter-b78.1`. Retro and lessons: agent protocol R13-R14.

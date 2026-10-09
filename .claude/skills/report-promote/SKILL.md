@@ -5,6 +5,8 @@ description: Use when adding a live report's excerpts to the Bluesky posting que
 
 # Stage 8: promote with excerpts
 
+**Level:** `level:specced` (Sonnet). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue: **`docs/posts-queue.md`**. The campaign: epic `reportsthatmatter-y2t` (account y2t.1, poster y2t.4, calendar y2t.5). No posting by agents.
 
 **Entry.** Stage 5's highlights (`card: true`) approved and stage 6 live.
@@ -23,4 +25,4 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue
 - [ ] `pnpm posts` reports no unresolved not-yet-posted item for it
 - [ ] `reports/pipeline.yaml` row says `reached: promote`, `state: ongoing`
 
-**Gaps:** the scheduled poster (y2t.4) and campaign calendar (y2t.5) are not built; no card per `card: true` highlight (f2e). Retro and lessons: protocol rules 12-13.
+**Gap:** the campaign calendar (y2t.5) is not built. The scheduled poster that posts the queue is built and off until Rufus switches it on: [`docs/poster.md`](../../../docs/poster.md); agents never run it live. Retro and lessons: agent protocol R13-R14.

@@ -5,9 +5,11 @@ description: Use when shipping a report's text, editorial or processing notes to
 
 # Stage 6: publish
 
-**Integrator only.** Stage agents never merge, release, publish, deploy or seed (session protocol, rule 4). Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-4.
+**Level:** `level:specced` (Sonnet), integrator only. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
 
-The steps are **`docs/release-checklist.md`** 9-14 (PR #239; until merged, read it from that branch) and AGENTS.md "Publishing a report". What ships how: `docs/ARCHITECTURE.md`'s "what needs a deploy?" table. Text goes by `publish-report`; editorial, PROCESSING.md and plates go by deploy.
+**Integrator only.** Stage agents never merge, release, publish, deploy or seed (agent protocol R4). Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-4.
+
+The steps are **`docs/release-checklist.md`** 10-16 and AGENTS.md "Publishing a report"; when a release (ingest PR or pin bump) is shipping too, follow the `integrate-and-ship` skill instead, which runs these steps through `pnpm ship`. What ships how: `docs/ARCHITECTURE.md`'s "what needs a deploy?" table. Text goes by `publish-report`; editorial, PROCESSING.md and plates go by deploy.
 
 **Entry.** Stage 4's PRs merged (and stage 5's, unless the fast path). Ingest released and pinned if a pass changed.
 
@@ -30,4 +32,4 @@ The steps are **`docs/release-checklist.md`** 9-14 (PR #239; until merged, read 
 - [ ] Production `verify.sh` exits 0
 - [ ] Stage Beads closed; `reports/pipeline.yaml` row says `reached: publish`
 
-Retro and lessons: protocol rules 12-13.
+Retro and lessons: agent protocol R13-R14.

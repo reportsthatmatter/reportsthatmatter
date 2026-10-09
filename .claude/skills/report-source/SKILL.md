@@ -5,6 +5,8 @@ description: Use when starting a new report or a further volume on Reports that 
 
 # Stage 1: source
 
+**Level:** `level:specced` (Sonnet); choosing between two credible source stacks is `level:judgement`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3 and the worked example in §9. Background and the checklist's origin: `docs/research/better-source-texts.md` §3-5. Candidate quality: `docs/plans/brief-2026-01-13-good-reports.md`.
 
 **Entry.** A Bead for the unit (report id plus scope) with a reason it matters now.
@@ -37,4 +39,4 @@ Work in a scratch directory; commit nothing in this stage.
 - [ ] Version risks named, each resolved or beaded
 - [ ] Source stack table and scope decision written in the unit Bead's notes (`bd update <id> --append-notes`)
 
-**Hands on:** the Bead notes. **Gap:** `pnpm source probe` (item 1 and the Wayback listing in one command) does not exist yet (ifb5.10). Retro and lessons: protocol rules 12-13.
+**Hands on:** the Bead notes. **Gap:** `pnpm source probe` (item 1 and the Wayback listing in one command) does not exist yet (ifb5.10). Retro and lessons: agent protocol R13-R14.

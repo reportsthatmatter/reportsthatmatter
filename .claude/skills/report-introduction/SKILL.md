@@ -5,11 +5,13 @@ description: Use when writing, revising or reviewing a report's introduction / l
 
 # Writing a report introduction
 
+**Level:** `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 The approach lives in **`docs/report-introductions.md`**. Read it in full before writing anything; it is the single source, and this skill only makes sure it is followed.
 
 The non-negotiables, in brief:
 
-1. **Two parts only.** The summary (`why_it_matters`, `background`, `findings` with 3–4 quotations) and the reading guide. No highlights or passages section on the page. `highlights` go to the marks table via `pnpm seed-highlights --remote`.
+1. **Two parts only.** The summary (`why_it_matters`, `background`, `findings` with 3–4 quotations) and the reading guide. No highlights or passages section on the page. `highlights` go to the marks table when the integrator runs `pnpm seed-highlights --remote` after the deploy; never run it yourself.
 2. **Every quotation verbatim, as rendered.** Copy from `pnpm paragraphs <id> [words]`, never from the PDF. `pnpm editorial` must pass. Never "fix" a quote; pick another passage.
 3. **Quotations must stand on their own.** Quote whole sentences, with enough of the paragraph to make sense without it.
 4. **Neutral, attributed, verified.** No judgment adjectives. Write "the report finds". Record the other side where the report prints it. Verify every background fact that is not in the report; if you can't, leave it out.

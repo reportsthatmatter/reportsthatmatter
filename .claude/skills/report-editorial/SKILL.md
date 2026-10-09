@@ -5,6 +5,8 @@ description: Use when preparing a report's reader-facing material on Reports tha
 
 # Stage 5: introduction, highlights and excerpts
 
+**Level:** `level:judgement` (Opus writes introductions, AGENTS.md "Supervisor and model choice"); plate, cards and queue checks alone are `level:specced`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §1-3. **The introduction is the `report-introduction` skill**, which defers to `docs/report-introductions.md`; follow it unchanged. Plate: `docs/plates.md`. Hero: `docs/hero-images.md`. The queue that consumes excerpts: `docs/posts-queue.md`.
 
 **Entry.** Stage 4's gate met (registered, `verify.sh` green). Fast path (text ships first): only step 1 is required before stage 6; the rest follows and ships with a deploy.
@@ -14,7 +16,7 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §1-3. **The int
 1. **Plate and default card** (required before any publish): `docs/plates.md` recipe: an entry in `docs/design/2026-09-12-imagery/sources.yaml`, `pnpm marks <mark id>`, then `pnpm cards`; `tests/plates.test.ts` must pass.
 2. **Introduction**: invoke `report-introduction`. Ship with `status: approved`.
 3. **Excerpts**: in the same `editorial/<id>.yaml`, mark 3 or more `highlights` `card: true`. Each must stand alone and fit Bluesky's 300 graphemes with the source line (`"quote"\n\n— <title>, p. <n>`); `pnpm posts` never trims, it skips. Quote from `pnpm paragraphs <id> [words]`.
-4. **Check**: `pnpm prerender`, `pnpm editorial`, `pnpm posts`; read the skip list for this report and replace any skipped highlight. Then `git checkout marketing/queue.yaml src/generated/editorial.ts` (the integrator regenerates both). `pnpm cards` re-renders every report's cards: commit only your report's card and its line in `src/generated/cards.ts`, and bead any other drift it shows.
+4. **Check**: `pnpm prerender`, `pnpm editorial`, `pnpm posts`; read the skip list for this report and replace any skipped highlight. Then `git checkout marketing/queue.yaml src/generated/editorial.ts` (the integrator regenerates both). Cards: `pnpm cards --highlights <id>` renders this report's quote cards (`assets/cards/<id>/q-*.png`, one per `card: true` highlight); a full `pnpm cards` re-renders every report's: commit only your report's files under `assets/cards/<id>/` and its lines in `src/generated/cards.ts`, and bead any other drift it shows.
 5. **Hero image**: file or update the `stage-imagery` Bead (`Hero image: <report>`); it never blocks this stage.
 
 ## Exit gate
@@ -25,4 +27,4 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §1-3. **The int
 - [ ] Hero Bead exists
 - [ ] `reports/pipeline.yaml` row says `reached: editorial`
 
-**Hands on:** a site PR (editorial yaml, plate, cards). Do not commit `src/generated/editorial.ts`; the integrator regenerates it. **Gap:** `pnpm cards` renders no card per `card: true` highlight yet (f2e). Retro and lessons: protocol rules 12-13.
+**Hands on:** a site PR (editorial yaml, plate, cards). Do not commit `src/generated/editorial.ts`; the integrator regenerates it. Retro and lessons: agent protocol R13-R14.

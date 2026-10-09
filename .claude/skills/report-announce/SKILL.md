@@ -5,6 +5,8 @@ description: Use when a report or volume has just gone live on Reports that Matt
 
 # Stage 7: announce
 
+**Level:** `level:specced` (Sonnet); a long-read post is `level:judgement`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. **No external posting, account creation or scheduling** (AGENTS.md house rules): everything here is drafted in-repo; Rufus posts.
 
 **Entry.** Stage 6's gate met: the report is live.
@@ -22,4 +24,4 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. **No exte
 - [ ] Post drafts committed and named in the unit's Bead for Rufus
 - [ ] `reports/pipeline.yaml` row says `reached: announce`
 
-Retro and lessons: protocol rules 12-13.
+Retro and lessons: agent protocol R13-R14.
