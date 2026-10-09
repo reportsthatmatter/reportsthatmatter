@@ -625,6 +625,27 @@ Work falls into five streams. Every open bead carries exactly one `stream:*` lab
 - **`stream:product`** — what readers do on the site: highlights, sharing and quote cards, marks, search, navigation, landing pages, figures and images, and phones.
 - **`stream:platform`** — what keeps the site running and releases cheap: hosting, D1 budgets and caching, `pnpm ship` and release tooling, aliases and cards generation, CI, and worktree housekeeping.
 
+## Bead levels and handoff-ready beads
+
+Every open task or bug bead carries one `level:*` label saying how much judgement it needs, so any agent (Claude, Codex or another) can pick work it is suited to. Levels are agent-neutral; the table maps them to models.
+
+| Label | What it needs | Claude | Codex |
+|---|---|---|---|
+| `level:specced` | A clear spec with acceptance criteria: apply an existing pass, wire a flag, fix a located bug, write a test, update docs. Success is checkable by a command. | Sonnet | default reasoning |
+| `level:judgement` | Design within a known area: a new ingest heuristic, a measurement, research with a defined question, an introduction, a review. Needs reading evidence and choosing. | Opus | high reasoning |
+| `level:design` | Cross-cutting synthesis or direction-setting: architecture, strategy, a new subsystem. Usually ends in a design doc and new beads, and often a decision for Rufus. | Fable | high reasoning, with a human check |
+
+Epics, milestones and decisions take no level. A bead blocked on Rufus is labelled `needs-user` (see Beads above), whatever its level.
+
+**Handoff-ready.** A bead labelled `handoff` can be done by an agent with no context beyond this repository, AGENTS.md and the bead itself. Its description has:
+- **Goal:** one or two sentences on what changes for a reader or a maintainer.
+- **Where:** the repos, files, commands and report ids involved.
+- **Acceptance:** checkable criteria, each with the command or page that shows it (e.g. "`pnpm quality check` shows `numbered-paragraph-glued` 3 → 0 for uk-leveson-inquiry").
+- **Verify:** the checks to run before opening a PR (`pnpm typecheck`, `pnpm test`, `pnpm ingest check`, `pnpm corpus check`, as relevant).
+- **Out of scope / risks:** what not to touch, and other beads it could collide with.
+
+Find work with `bd ready --label handoff --label level:specced` (add `--label stream:<name>` to narrow it). Create new beads handoff-ready with a stream and a level: `bd create "<title>" -t task -p 2 -l stream:quality,level:specced,handoff -d "<description>"`.
+
 ## Decisions and open questions
 
 When a question of direction comes up (format, policy, sources, hosting, editorial), don't settle it in chat or in a PR description. Add a record to `docs/decisions/` (copy `0000-template.md`, status `open` or `proposed`) and a bead labelled `decision`, then carry on. Rufus decides open questions; update the record and close the bead when he does. See `docs/decisions/README.md`.
