@@ -209,12 +209,14 @@ export type D1Verdict = { ok: boolean; headroom: number | null; needed: number; 
  */
 export function d1Fits(writes: number, today: Today | number | null, limit: number, reads = 0, readLimit: number = FREE_TIER.rowsRead): D1Verdict {
   // A bare number is today's writes (the older call shape); reads then unknown.
-  const t: Today = typeof today === "object" && today !== null ? today : today === null ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown (set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, or log wrangler in)" } : { used: { rowsRead: 0, rowsWritten: today }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead: 0, rowsWritten: today }, source: "given" };
+  const t: Today = typeof today === "object" && today !== null ? today : today === null ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown (no analytics credentials; wrangler is not logged in)" } : { used: { rowsRead: 0, rowsWritten: today }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead: 0, rowsWritten: today }, source: "given" };
   const reserve: Usage = typeof today === "number" ? { rowsRead: 0, rowsWritten: 0 } : { rowsRead: 500_000, rowsWritten: 0 };
   const v = fits({ rowsRead: reads, rowsWritten: writes }, t, { rowsRead: readLimit, rowsWritten: limit }, reserve);
   const lines = [`estimated for the rest of the release: ${writes.toLocaleString("en-US")} row writes, ${reads.toLocaleString("en-US")} rows read (+10% margin)`, ...v.lines];
-  if (!t.used) lines.push("today's usage is unknown: writes or reads by a peer's publish, or by the Worker, are not counted");
-  return { ok: v.ok, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
+  // Unknown usage refuses, never guesses (t4al, r52n): "the need fits the whole day" is not "it fits what is left".
+  if (!t.used) lines.push("today's usage is unknown, so the estimate cannot be checked against what is left and the release stops here (t4al). Run `pnpm d1-usage` (uses wrangler's login: `pnpm wrangler login`, or CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID), then `pnpm ship` resumes at this step.");
+  else if (!t.analytics) lines.push("note: only this machine's ledger counted; the Worker's traffic and other machines are not (the reserve is the allowance for them). `pnpm d1-usage` shows whether analytics is reachable.");
+  return { ok: t.used ? v.ok : false, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
 }
 
 /**

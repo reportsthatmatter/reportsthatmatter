@@ -161,6 +161,8 @@ describe("pure helpers", () => {
     expect(d1Fits(90_000, 10_000, 100_000).ok).toBe(false); // 99,000 with the margin > 90,000 headroom
     expect(d1Fits(5_000, null, 100_000).lines.join(" ")).toContain("unknown");
     expect(d1Fits(95_000, null, 100_000).ok).toBe(false);
+    expect(d1Fits(1, null, 100_000).ok).toBe(false); // unknown refuses even a tiny need (r52n)
+    expect(d1Fits(1, null, 100_000).lines.join(" ")).toContain("pnpm d1-usage");
   });
 
   it("refuses removed alias lines for a report whose text did not move, and any lost published id", () => {

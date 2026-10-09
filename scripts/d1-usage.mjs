@@ -2,7 +2,7 @@
  *
  *   pnpm d1-usage                     today (UTC): rows read and written, from Cloudflare analytics and the shared ledger
  *   pnpm d1-usage --day 2026-10-03    another day (analytics keep 31 days; the ledger keeps everything)
- *   pnpm d1-usage --alert 80          exit 2 when either counter is at or over 80% of its limit (for a cron)
+ *   pnpm d1-usage --alert 80          exit 2 when either counter is at or over 80% of its limit, 3 when usage cannot be read (for a cron; docs/d1-usage-alert.md)
  *   pnpm d1-usage --json              machine-readable
  *
  * Costs no D1 rows: analytics is Cloudflare's GraphQL API, not a query against the database, and the ledger is a
@@ -54,5 +54,10 @@ if (args.includes("--json")) {
     for (const q of top) console.log(`    ${fmt(q.rowsRead).padStart(11)}  ×${String(q.count).padEnd(5)} ${q.query.replace(/\s+/g, " ").trim().slice(0, 110)}`);
   }
   if (over) console.log(`\n⚠ at or over ${alert}% of a daily limit: hold releases and reindexes until 00:00 UTC (reportsthatmatter-t4al)`);
+}
+// A scheduled --alert must not pass silently when it could not read usage: exit 3 (2 is "over the threshold").
+if (alert !== null && !used) {
+  console.error("\n✗ usage unknown (no analytics credentials and nothing in the ledger): the alert could not be checked");
+  process.exit(3);
 }
 process.exit(over ? 2 : 0);
