@@ -12,11 +12,12 @@ description: Use when asked to burn down, triage or verify-and-close the old ope
 ## Procedure
 
 1. **List.** `bd list --status open,in_progress --title-contains "<report name>" --limit 0` and `bd search "<report id>" --status open`; also `bd list --status open --desc-contains "<report id>"`. Skip epics and beads `in_progress` with a recent owner note.
-2. **For each bead**, `bd show <id>` and find its example: a paragraph id, a page, a quoted phrase, a signal name, a count.
+2. **For each bead**, `bd show <id>` (run `bd` from the site checkout or any worktree of it) and find its example: a paragraph id, a page, a quoted phrase, a signal name, a count.
 3. **Reproduce on current main**, cheapest first, and keep the exact output line:
-   - Words or a paragraph: `pnpm paragraphs <report-id> <words from the bead>` (prints section, printed page, id, text). It strips note markers and sidenotes, so for a marker or footnote bug grep the text itself: `grep -n '<words>' reports/<report-id>/full.md`.
+   - Words or a paragraph: `pnpm paragraphs <report-id> <words from the bead>` (prints section, printed page, id, text). It reads the prerender (`pnpm prerender` first), prints nothing when nothing matches, and leaves out note markers, sidenotes, sidebars and some list text: for those grep the text itself, `grep -n '<words>' reports/<report-id>/full.md`.
    - A signal or count: `pnpm quality report <report-id>`; `pnpm quality check` excerpts.
-   - Oracle or golden: `pnpm ingest verify <report-id> --findings` (it writes a cache, `.cache/oracle.json`, in the report repo: in a strict read-only run, read `golden.yaml` instead). Is the bead an `xfail:` in the report repo's `golden.yaml`? `grep -n <bead-id> ../<repo>/golden.yaml`.
+   - Oracle or golden: `pnpm ingest verify <report-id> --findings` (it writes a cache, `.cache/oracle.json`, in the report repo: in a strict read-only run, read `golden.yaml` instead). Does anything still cite the bead? `grep -rn <full-bead-id> ../<repo>/golden.yaml reports/quality-budget.yaml reports/oracle-budget.yaml reports/anchor-budget.yaml` (an `xfail:` or a `# why:` budget line means the defect was still there when it was written).
+   - The fixing change: `git log --oneline --grep <short-id>` here and in `../<repo>` and `../ingest`; `gh pr list --state merged --search <short-id>`.
    - Page anchors: `pnpm ingest anchors <report-id>`.
    - Rendered: `pnpm dev`, then `/reports/<report-id>/full?p=<id>`; production read-only: `curl -s https://reportsthatmatter.org/reports/<report-id>/full?p=<id>`.
 4. **Classify** each bead, one of:
