@@ -5,7 +5,7 @@ description: Use when preparing a report's reader-facing material on Reports tha
 
 # Stage 5: introduction, highlights and excerpts
 
-**Level:** `level:judgement` (Opus writes introductions, AGENTS.md "Supervisor and model choice"); plate, cards and queue checks alone are `level:specced`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:judgement` (Opus writes introductions, AGENTS.md "Supervisor and model choice"); plate, cards and queue checks alone are `level:specced`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §1-3. **The introduction is the `report-introduction` skill**, which defers to `docs/report-introductions.md`; follow it unchanged. Plate: `docs/plates.md`. Hero: `docs/hero-images.md`. The queue that consumes excerpts: `docs/posts-queue.md`.
 

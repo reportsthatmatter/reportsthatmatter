@@ -5,7 +5,7 @@ description: Use when shipping a report's text, editorial or processing notes to
 
 # Stage 6: publish
 
-**Level:** `level:specced` (Sonnet), integrator only. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:specced` (Sonnet), integrator only. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 **Integrator only.** Stage agents never merge, release, publish, deploy or seed (agent protocol R4). Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-4.
 

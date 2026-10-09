@@ -5,7 +5,7 @@ description: Use when writing, revising or reviewing a report's introduction / l
 
 # Writing a report introduction
 
-**Level:** `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 The approach lives in **`docs/report-introductions.md`**. Read it in full before writing anything; it is the single source, and this skill only makes sure it is followed.
 

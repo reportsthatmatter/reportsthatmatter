@@ -688,7 +688,12 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Rufus does not review PRs.** An agent review (a separate reviewer agent) is the gate; then the integrator merges and ships. (Rufus, 2026-10-03)
 
-**Park hard reports.** Give a tough report one fix attempt. If a different defect then appears, stop, write up what was learned in a bead labelled `research`, hold its PRs out of the release, and move on. Don't churn on it inside a general session (e.g. Duelfer, Leveson headings).
+**Converge and ship; park what will not converge** (Rufus, 2026-10-09, generalising "park hard reports" from whole reports to stretches of one). Ingest work that keeps finding new quirks is a signal to stop and ship, not to add another pass.
+- **Trigger.** Check in or converge when any of these holds: each fix surfaces a different layout quirk; about 2-3 hours (or a few hundred thousand tokens) on a stage with no PR open; three or more new passes or options added without a PR. A tough whole report gets one fix attempt; a different defect after it means park it (bead labelled `research`, its PRs held out of the release).
+- **Measure each pass.** Keep a table, pass added → `pnpm quality report <id>` deltas (and the bead's own count). Keep only passes that measurably help, each with a test or golden page; drop the rest.
+- **Ship the best servable state.** If one stretch (scanned pages, an appendix, a volume) holds the report below the bar (about grade B; the bar itself is decision 38s.17), ship the rest: scope the stretch out as a later unit with its own bead (the Mueller appendices, o2kz, are the model), or serve it and mark it honestly: a Known limitations line in `PROCESSING.md` saying which pages and what is wrong, plus a bead. Where a reader needs a mark in the text itself and no convention exists, propose one in `docs/decisions/` with a `decision` bead (e.g. 8fsl for redactions) rather than inventing one silently.
+- **PRs early** (agent protocol R15-R16): push WIP from the start; open a draft PR once the first ingest renders.
+- **Record what is left** in the stage bead's notes (each open defect with its count and pages) and file the follow-ups (`bead-writing` skill).
 
 **Supervisor and model choice.** A supervisor session delegates to subagents and picks the model per task before spawning:
 - Sonnet: specced code, applying existing passes, stage-1 ingests, integrators and release chains, copy, heroes.

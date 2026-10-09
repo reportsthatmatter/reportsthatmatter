@@ -5,7 +5,7 @@ description: Use when you are the reviewer agent gating PRs on Reports that Matt
 
 # Reviewer: gate PRs before the integrator ships them
 
-**Level:** `level:judgement`. **Rules:** [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15) apply, except that a reviewer may push fixup commits to the PR branches. Why the review is the gate: AGENTS.md "Working conventions" ("Rufus does not review PRs"). What the integrator then does: the `integrate-and-ship` skill and `docs/release-checklist.md`. House format: the files `~/src/reportsthatmatter/review-*-2026-10-0*.md` (outside git; `review-v0.24.0-2026-10-04.md` is the model).
+**Level:** `level:judgement`. **Rules:** [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16) apply, except that a reviewer may push fixup commits to the PR branches. Why the review is the gate: AGENTS.md "Working conventions" ("Rufus does not review PRs"). What the integrator then does: the `integrate-and-ship` skill and `docs/release-checklist.md`. House format: the files `~/src/reportsthatmatter/review-*-2026-10-0*.md` (outside git; `review-v0.24.0-2026-10-04.md` is the model).
 
 **Entry.** A list of PRs (site, ingest, report repos) and their beads. Read each PR's body and `gh pr diff <n>`.
 

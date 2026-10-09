@@ -5,7 +5,7 @@ description: Use when a report or volume has just gone live on Reports that Matt
 
 # Stage 7: announce
 
-**Level:** `level:specced` (Sonnet); a long-read post is `level:judgement`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:specced` (Sonnet); a long-read post is `level:judgement`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. **No external posting, account creation or scheduling** (AGENTS.md house rules): everything here is drafted in-repo; Rufus posts.
 

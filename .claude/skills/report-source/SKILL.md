@@ -5,7 +5,7 @@ description: Use when starting a new report or a further volume on Reports that 
 
 # Stage 1: source
 
-**Level:** `level:judgement` (Opus): choosing the stack is a judgement; recording a stack already settled is `level:specced`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:judgement` (Opus): choosing the stack is a judgement; recording a stack already settled is `level:specced`. Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3 and the worked example in §9. Background and the checklist's origin: `docs/research/better-source-texts.md` §3-5. Candidate quality: `docs/plans/brief-2026-01-13-good-reports.md`.
 

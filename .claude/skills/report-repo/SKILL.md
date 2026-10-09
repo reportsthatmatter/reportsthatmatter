@@ -5,7 +5,7 @@ description: Use when creating or extending a report's own repository on Reports
 
 # Stage 2: cache and prepare the repo
 
-**Level:** `level:specced` (Sonnet). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:specced` (Sonnet). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3, worked example §9. The repo layout: `docs/report-preparation.md` §2 ("Set up"). References: `docs/scoring.md` ("Adding or rebuilding a reference"). Worktrees: agent protocol R1.
 

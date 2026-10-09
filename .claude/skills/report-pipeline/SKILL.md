@@ -5,7 +5,7 @@ description: Use when supervising reports through the preparation pipeline on Re
 
 # Supervising the report pipeline
 
-**Level:** `level:judgement` (the supervisor). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:judgement` (the supervisor). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 The design is **`docs/design/2026-10-03-report-preparation-pipeline.md`**. Read §2 (stages, gates, models, owners) and §5 (the supervisor's procedure) before assigning anything.
 

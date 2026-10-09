@@ -5,7 +5,7 @@ description: Use when adding a live report's excerpts to the Bluesky posting que
 
 # Stage 8: promote with excerpts
 
-**Level:** `level:specced` (Sonnet). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:specced` (Sonnet). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue: **`docs/posts-queue.md`**. The campaign: epic `reportsthatmatter-y2t` (account y2t.1, poster y2t.4, calendar y2t.5). No posting by agents.
 

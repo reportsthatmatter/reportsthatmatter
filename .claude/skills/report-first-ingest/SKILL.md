@@ -5,7 +5,7 @@ description: Use when writing a report's ingest.ts and running its first ingest 
 
 # Stage 3: propose a first ingest
 
-**Level:** `level:specced` (Sonnet); a new edition-adapter format or a new pass is `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R15).
+**Level:** `level:specced` (Sonnet); a new edition-adapter format or a new pass is `level:judgement` (Opus). Rules for every agent: [`docs/agent-protocol.md`](../../../docs/agent-protocol.md) (R1-R16).
 
 Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. How to build the text: `docs/report-preparation.md` §3. The hybrid: `../ingest/README.md`, "A clean edition as the source (`cleanEdition`)". Where a fix goes: `scripts/ingest/README.md`.
 
@@ -19,7 +19,8 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. How to bu
 3. **Choose passes from evidence.** `pnpm ingest outline <id>` for the shape; `pnpm ingest page <id> <vol> <pdfPage>` on one page of each kind (body, chapter opening, two columns, table or figure, notes page); the outline does not show figures, so find those pages from the PDF's list of figures or `pdfimages -list`. `page` prints each line's face (font|size|colour): that is the evidence for the face-based passes (`furnitureFaces`, `figureFaces`, `typographicHeadings`). Each pass, with the defect it fixes, is described in `../ingest/README.md` ("What a pass is", "The PDF's layout") and exported from `../ingest/src/index.ts`; search the README for the symptom you see. Every declared pass gets a comment naming the printed page that needed it (see `../us-duelfer-report/ingest.ts`).
 4. **Run.** `pnpm ingest run <id>` (it prints the fidelity checks), then `pnpm quality report <id>` and read the excerpts. Some defects show only in the output (a page opening mid-paragraph, a numbered paragraph glued to the one before): read, add a pass, run again. Check the counts against the PDF's own: notes defined against its last note number (or the tag census), headings against the contents, `%%page%%` markers against the page count. `pnpm quality` reads the site's `reports/<id>/full.md`, so copy it there first (stage 4 registers it properly). `pnpm ingest verify <id>` (oracle, golden pages) reads the registry, so it comes in stage 4.
 5. **A library change** is an opt-in pass in an ingest worktree and PR (agent protocol R2-R3), measured with `pnpm ingest try <branch|path> <id>`. Do not release.
-6. **Commit** in the report-repo PR: `ingest.ts`, `full.md`, `fidelity.md`, and `baseline.json` (`pnpm ingest baseline <id>` after reading the output).
+6. **Draft PR early** (agent protocol R16): push from your first commit and open a draft report-repo PR once the first ingest renders. **Converge** (AGENTS.md "Converge and ship"): keep a table in the PR body, pass added → `pnpm quality report <id>` deltas, and keep only passes that measurably help, each with a test or golden page. Stop adding passes and ship the best servable state when each fix surfaces a different quirk, after about 2-3 hours with no PR, or after three new passes without a PR; a stretch that will not converge (scanned pages, an appendix, a volume) is scoped out as a later unit or served with a Known limitations line, each with a bead.
+7. **Commit** in the report-repo PR: `ingest.ts`, `full.md`, `fidelity.md`, and `baseline.json` (`pnpm ingest baseline <id>` after reading the output).
 
 Aim for a plausible first text with honest counts. Refinement is stage 4.
 
