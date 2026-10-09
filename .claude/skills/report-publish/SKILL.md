@@ -15,7 +15,7 @@ description: Use when shipping a report's text, editorial or processing notes to
 
 ## Procedure
 
-No secret, no writes (anyone may run these): (a unit already live shows `current` and "unchanged" here: the rest is confirmation; `VERIFY_BASE=… ./scripts/verify.sh` against production only reads)
+No secret, no writes (anyone may run these): (a unit already live shows `current` and "unchanged" here: the rest is confirmation)
 
 1. `pnpm prerender` (writes only `assets/generated/`), then `pnpm publish-report --all --status --base https://reportsthatmatter.org`: the reports whose local hash differs from the served one.
 2. `pnpm publish-report <id> --dry-run --base https://reportsthatmatter.org` for each: objects, served version, estimated D1 row writes and reads. `pnpm d1-usage`: today's use against 100,000 writes and 5,000,000 reads.
