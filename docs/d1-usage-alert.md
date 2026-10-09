@@ -1,6 +1,6 @@
 # Scheduled D1 usage alert
 
-`pnpm d1-usage --alert 80` exits 2 when today's rows read or written are at or over 80% of the free tier's daily limit (5,000,000 reads, 100,000 writes, reset 00:00 UTC), 3 when usage cannot be read at all (no analytics credentials and an empty ledger), and 0 otherwise. A scheduled run turns that into a notification before a release or a traffic burst spends the day's reads (reportsthatmatter-t4al: search and marks were down from ~18:50 UTC on 2026-10-03). It costs no D1 rows: analytics is Cloudflare's GraphQL API, not a query against the database.
+`pnpm d1-usage --alert 80` exits 2 when today's rows read or written are at or over 80% of the free tier's daily limit (5,000,000 reads, 100,000 writes, reset 00:00 UTC), 3 when Cloudflare analytics cannot be read (no credentials, or wrangler not logged in: this machine's ledger alone cannot see the Worker's search and marks traffic), and 0 otherwise. A scheduled run turns that into a notification before a release or a traffic burst spends the day's reads (reportsthatmatter-t4al: search and marks were down from ~18:50 UTC on 2026-10-03). It costs no D1 rows: analytics is Cloudflare's GraphQL API, not a query against the database.
 
 Nothing here is installed by the repo. The schedule lives on the machine that runs releases (it needs wrangler's login, `pnpm wrangler login`, or `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`). Run it by hand first: `pnpm d1-usage --alert 80; echo $?`.
 

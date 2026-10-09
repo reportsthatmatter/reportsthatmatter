@@ -215,8 +215,10 @@ export function d1Fits(writes: number, today: Today | number | null, limit: numb
   const lines = [`estimated for the rest of the release: ${writes.toLocaleString("en-US")} row writes, ${reads.toLocaleString("en-US")} rows read (+10% margin)`, ...v.lines];
   // Unknown usage refuses, never guesses (t4al, r52n): "the need fits the whole day" is not "it fits what is left".
   if (!t.used) lines.push("today's usage is unknown, so the estimate cannot be checked against what is left and the release stops here (t4al). Run `pnpm d1-usage` (uses wrangler's login: `pnpm wrangler login`, or CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID), then `pnpm ship` resumes at this step.");
-  else if (!t.analytics) lines.push("note: only this machine's ledger counted; the Worker's traffic and other machines are not (the reserve is the allowance for them). `pnpm d1-usage` shows whether analytics is reachable.");
-  return { ok: t.used ? v.ok : false, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
+  // This machine's ledger alone is unknown too: it cannot see the Worker's search and marks reads, which spent the day on
+  // 2026-10-03, and any earlier remote call today (a marks check, a dry run) puts entries in it (reviewer fixup, #299).
+  else if (!t.analytics) lines.push("today's usage is only this machine's ledger: Cloudflare analytics is unreachable, so the Worker's reads and other machines' are not counted, and the release stops here (t4al). Log wrangler in (`pnpm wrangler login`) or set CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID, check with `pnpm d1-usage`, then `pnpm ship` resumes at this step.");
+  return { ok: t.used && t.analytics ? v.ok : false, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
 }
 
 /**

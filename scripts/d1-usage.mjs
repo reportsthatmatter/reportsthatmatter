@@ -2,7 +2,7 @@
  *
  *   pnpm d1-usage                     today (UTC): rows read and written, from Cloudflare analytics and the shared ledger
  *   pnpm d1-usage --day 2026-10-03    another day (analytics keep 31 days; the ledger keeps everything)
- *   pnpm d1-usage --alert 80          exit 2 when either counter is at or over 80% of its limit, 3 when usage cannot be read (for a cron; docs/d1-usage-alert.md)
+ *   pnpm d1-usage --alert 80          exit 2 when either counter is at or over 80% of its limit, 3 when analytics cannot be read (for a cron; docs/d1-usage-alert.md)
  *   pnpm d1-usage --json              machine-readable
  *
  * Costs no D1 rows: analytics is Cloudflare's GraphQL API, not a query against the database, and the ledger is a
@@ -21,7 +21,11 @@ const opt = (name) => {
 };
 const day = opt("--day") ?? new Date().toISOString().slice(0, 10);
 const at = new Date(`${day}T12:00:00Z`);
-const alert = opt("--alert") === undefined ? null : Number(opt("--alert"));
+const alert = args.includes("--alert") ? Number(opt("--alert")) : null;
+if (alert !== null && !(alert > 0 && alert <= 100)) {
+  console.error("--alert needs a percentage, e.g. --alert 80");
+  process.exit(2);
+}
 
 const creds = credentials(root, databaseIdOf(root));
 const analytics = await analyticsToday(fetch, creds, at);
@@ -56,8 +60,10 @@ if (args.includes("--json")) {
   if (over) console.log(`\n⚠ at or over ${alert}% of a daily limit: hold releases and reindexes until 00:00 UTC (reportsthatmatter-t4al)`);
 }
 // A scheduled --alert must not pass silently when it could not read usage: exit 3 (2 is "over the threshold").
-if (alert !== null && !used) {
-  console.error("\n✗ usage unknown (no analytics credentials and nothing in the ledger): the alert could not be checked");
+// The ledger alone is not enough: it holds this machine's wrangler calls, not the Worker's traffic (search, marks),
+// which is what spent the reads on 2026-10-03 (t4al). So no analytics is "could not check", not "fine".
+if (alert !== null && !over && !analytics) {
+  console.error(`\n✗ usage unknown (${used ? "analytics unreachable; the ledger cannot see the Worker's traffic" : "no analytics credentials and nothing in the ledger"}): the alert could not be checked`);
   process.exit(3);
 }
 process.exit(over ? 2 : 0);
