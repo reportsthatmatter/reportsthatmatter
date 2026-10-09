@@ -1,4 +1,4 @@
-# 0015. Does "No commentary. No spin." still describe the site?
+# 0017. Does "No commentary. No spin." still describe the site?
 
 - **Status:** open
 - **Date raised:** 2026-10-09 · **Date decided:** —

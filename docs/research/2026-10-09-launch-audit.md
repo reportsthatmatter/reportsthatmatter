@@ -20,7 +20,7 @@ None found. The campaign's own links work: all 68 posting-queue links return 200
 
 - The highlight dock, share flow and `?h=` panel behave on the three profiles (`scripts/e2e-mobile.mjs`: all pass locally except the editor-label check, which needs seeded local marks; production shows "Editor's highlight" correctly).
 - Fixed in the PR: the search page scrolled sideways on every phone (the report select was 835 px wide; now `max-width: 100%`); the landing panel showed `"So what?"”` (a straight quote inside curly ones; now `‘So what?’`).
-- Not fixed: header nav and wordmark tap targets are 16 to 26 px (reportsthatmatter-nupj, decision 0016); at 320 px (iPhone SE 1st gen) the press wordmark, the landing's mono line and `/full` overflow by 5 to 28 px; text under 14 px is the mono chrome (12 px footer, 9 to 11 px page numbers and captions).
+- Not fixed: header nav and wordmark tap targets are 16 to 26 px (reportsthatmatter-nupj, decision 0018); at 320 px (iPhone SE 1st gen) the press wordmark, the landing's mono line and `/full` overflow by 5 to 28 px; text under 14 px is the mono chrome (12 px footer, 9 to 11 px page numbers and captions).
 - Panel citation says P. 29, the post text p. 30, for a quote in a paragraph that straddles a page break (reportsthatmatter-p3o8).
 
 ### 3. Accessibility (axe-core, WCAG 2 A/AA/2.1 AA and best practice, desktop and Pixel 7, 15 pages)
@@ -45,7 +45,7 @@ Seven links: the first queue item (quote card, title "Mr. Trump's Supporters Att
 
 ### 6. Copy (home and /about, read in full)
 
-No spelling or factual errors. Questions of wording are in decision 0015 (reportsthatmatter-pbkk): "No commentary. No spin." beside editor's introductions; header nav lacks Blog while the footer has it; "since 2015" in the credit line.
+No spelling or factual errors. Questions of wording are in decision 0017 (reportsthatmatter-pbkk): "No commentary. No spin." beside editor's introductions; header nav lacks Blog while the footer has it; "since 2015" in the credit line.
 
 ## Fixed in this PR
 
@@ -53,7 +53,7 @@ No spelling or factual errors. Questions of wording are in decision 0015 (report
 
 ## Beads filed (stream:product)
 
-reportsthatmatter-te56 (P2, Leveson `/full`: no link card, LCP 15 s), reportsthatmatter-y960 (P2, junk autolinks in report text; ingest renderer), reportsthatmatter-fd08 (P3, renderer a11y), reportsthatmatter-nupj (P3, phone nav targets; decision 0016), reportsthatmatter-ahzb (P3, two queue items use cards `?h=` never serves), reportsthatmatter-p3o8 (P3, citation page differs), reportsthatmatter-ntjx (P3, long og:description), reportsthatmatter-pbkk (P3, copy; decision 0015). No P1: nothing found is launch-blocking.
+reportsthatmatter-te56 (P2, Leveson `/full`: no link card, LCP 15 s), reportsthatmatter-y960 (P2, junk autolinks in report text; ingest renderer), reportsthatmatter-fd08 (P3, renderer a11y), reportsthatmatter-nupj (P3, phone nav targets; decision 0018), reportsthatmatter-ahzb (P3, two queue items use cards `?h=` never serves), reportsthatmatter-p3o8 (P3, citation page differs), reportsthatmatter-ntjx (P3, long og:description), reportsthatmatter-pbkk (P3, copy; decision 0017). No P1: nothing found is launch-blocking.
 
 ## What emulation could not show
 

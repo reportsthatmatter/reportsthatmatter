@@ -23,3 +23,5 @@ One file per question we have had to answer, or still have to. It is written so 
 | [0010](0010-markdown-canonical-format.md) | Is one consolidated markdown file per report the canonical format? | decided (existing practice) | 0z1o |
 | [0013](0013-mini-reference-split.md) | PDF-only mini-references: split each report's page breaks into dev and held-out, or assign whole reports? | proposed | 9u69 |
 | [0014](0014-editors-highlights.md) | How are the editor's highlights shown, so they don't pose as readers? | accepted | bght.6 |
+| [0017](0017-about-copy-no-commentary.md) | Does "No commentary. No spin." still describe the site? | open | pbkk |
+| [0018](0018-phone-header-navigation.md) | How should the header navigation work on phones? | open | nupj |

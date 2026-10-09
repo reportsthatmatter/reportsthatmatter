@@ -1,4 +1,4 @@
-# 0016. How should the header navigation work on phones?
+# 0018. How should the header navigation work on phones?
 
 - **Status:** open
 - **Date raised:** 2026-10-09 · **Date decided:** —
