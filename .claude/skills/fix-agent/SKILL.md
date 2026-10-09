@@ -12,20 +12,21 @@ description: Use when you are one of several agents on Reports that Matter and h
 ## Procedure
 
 1. **Read the bead.** `bd show <id>`; note its acceptance commands and the examples (pages, paragraph ids).
-2. **Worktrees** (R1), with absolute paths; `<MMDD>` is today, e.g. `1009`:
+2. **Worktrees** (R1), with absolute paths; `<MMDD>` is today, e.g. `1009`; `<branch>` is `<slug>-<MMDD>` or `<bead short id>-<slug>`:
    ```bash
    cd ~/src/reportsthatmatter
    git -C reportsthatmatter fetch -q origin
    git -C reportsthatmatter worktree add ~/src/reportsthatmatter/rtm-<slug>-<MMDD> -b <branch> origin/main
    cd rtm-<slug>-<MMDD> && pnpm bootstrap            # ~2 min; never symlink node_modules
-   pnpm ingest worktrees <id…>                        # only for report repos you own
+   pnpm ingest worktrees <id…> --branch <branch>      # only for report repos you own; --branch avoids a clash with
+                                                      # another agent's default wt/<repo>-<date> branch
    export RTM_REPORT_DIRS=<the value it printed>      # in every later shell: env does not persist
    ```
    An ingest fix also needs `git -C ~/src/reportsthatmatter/ingest worktree add ~/src/reportsthatmatter/ingest-<slug>-<MMDD> -b <branch> origin/main` and `CI=true pnpm install` there.
 3. **Measure before.** The bead's acceptance command on `origin/main` (e.g. `pnpm quality report <id>`, `pnpm ingest verify <id> --findings`, `pnpm score <id>`). Save the output to a file beside the worktree (`../rtm-<slug>-<MMDD>-before.log`).
 4. **Make the failing check first** for a text bug: a quality signal or golden page (`pnpm ingest page <id> <vol> <pdfPage> --draft`) that fails on the current output. If none can see the defect, that is the first change.
-5. **Fix** where `scripts/ingest/README.md` says it goes (R2): a pass the report declares in `ingest.ts`, an opt-in pass in ingest, or `corrections.yaml`. Never edit `full.md`.
-6. **Measure after.** Ingest change: `pnpm ingest try ../ingest-<slug>-<MMDD> [<id>…]` from the site worktree (all reports for a shared default). Then `pnpm ingest check`, `pnpm corpus check`, `pnpm quality check`; read every diff (R5). A lowered count: `pnpm quality ratchet <id>`, commit it. Open the rendered page for each example (`pnpm dev`, then `/reports/<id>/full?p=<para-id>`).
+5. **Fix** where `scripts/ingest/README.md` says it goes (R2): a pass the report declares in `ingest.ts`, an opt-in pass in ingest, or `corrections.yaml`. Never edit `full.md`. Metadata (`source_url`, title, dates) lives in the report's `ingest.ts` and the site's `reports/registry.yaml`: edit both, `pnpm ingest run <id>`, read the diff, `pnpm ingest baseline <id>`, `pnpm prerender`. A replacement source URL must serve the pinned file: compare its SHA-256 with `ingest.ts`. A defect no check can see (step 4) is said so in the PR, with why.
+6. **Measure after.** A move you meant in `pnpm ingest check` is accepted with `pnpm ingest baseline <id>` after reading it. Ingest change: `pnpm ingest try ../ingest-<slug>-<MMDD> [<id>…]` from the site worktree (all reports for a shared default). Then `pnpm ingest check`, `pnpm corpus check`, `pnpm quality check`; read every diff (R5). A lowered count: `pnpm quality ratchet <id>`, commit it. Open the rendered page for each example (`pnpm dev`, then `/reports/<id>/full?p=<para-id>`).
 7. **Gate.** `pnpm typecheck && pnpm test`; for report text also `./scripts/verify.sh` (with `RTM_REPORT_DIRS` set; add `VERIFY_SHARED=1` so aggregate reads the shared checkouts you do not own). Failures only in reports you do not own are peer noise (R6).
 8. **Editorial** (R7): if your report's ids moved, `pnpm prerender && pnpm editorial`; fix `editorial/<id>.yaml`, then `git checkout src/generated/editorial.ts`.
 9. **Lessons** (R14): append one-line entries to `docs/design/lessons.md` in the format at its top.
