@@ -32,4 +32,18 @@ describe("worktrees classify", () => {
   it("honours the keep list", () => {
     expect(classify(base, { keep: [/\/a$/] }).remove).toBe(false);
   });
+  it("keeps a new branch made from main before its first commit, with no PR (ancestry is not 'merged')", () => {
+    const v = classify({ ...base, pr: "none", prHeadMatches: false });
+    expect(v.remove).toBe(false);
+    expect(v.reasons.join()).toMatch(/not started/);
+    expect(classify({ ...base, pr: "unknown", prHeadMatches: false }).remove).toBe(false);
+    // detached at a commit on main (a baseline or trial checkout) is still removable
+    expect(classify({ ...base, branch: null, pr: "none", prHeadMatches: false }).remove).toBe(true);
+  });
+  it("keeps a shared checkout's path, a live site worktree's report worktrees and a linked ingest", () => {
+    expect(classify({ ...base, shared: true }).remove).toBe(false);
+    expect(classify({ ...base, owner: "/w/rtm-x-1009" }).remove).toBe(false);
+    expect(classify({ ...base, linkedFrom: ["/w/rtm-x-1009"] }).remove).toBe(false);
+    expect(classify({ ...base, owner: null, linkedFrom: [], shared: false }).remove).toBe(true);
+  });
 });

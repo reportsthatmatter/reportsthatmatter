@@ -10,15 +10,18 @@
  *
  * Removable means: clean apart from build output, every commit on a remote, merged (an ancestor of the default branch,
  * main or master, or its PR merged at exactly this HEAD: squash merges are invisible to ancestry), no open PR, no
- * scratch files, not touched in the last 24 hours, not a main working tree, not the one it runs from. Apply removes the
- * worktree (symlinks are unlinked, never followed), deletes its local branch when it was merged, and prunes. It
- * refuses a worktree whose HEAD moved since the plan was made. Nothing is removed without --apply. Logic and tests:
+ * scratch files, not touched in the last 24 hours, not a main working tree or a shared checkout's path, not the one it
+ * runs from. Also kept: a named branch with no PR whose HEAD is on main (not started yet: ancestry cannot tell that from
+ * merged), a `<X>-reports/<repo>` worktree while the site worktree `<X>` exists, and an ingest worktree some checkout
+ * links as its @rtm/ingest. Apply removes the worktree (symlinks are unlinked, never followed; `--force` only when its
+ * changes are all build output, so git itself refuses a file that appears at the last moment), deletes its local
+ * branch when it was merged, and prunes. It refuses a worktree whose HEAD or files moved since the plan was made. Nothing is removed without --apply. Logic and tests:
  * scripts/lib/worktrees.ts. The 2026-10-09 hand pass removed live worktrees; this is the guard against a repeat.
  */
 import "./lib/help.mjs";
 import { spawnSync } from "node:child_process";
-import { existsSync, readdirSync, statSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { existsSync, readdirSync, readFileSync, realpathSync, statSync } from "node:fs";
+import { basename, dirname, join, resolve } from "node:path";
 import { classify, formatPlan, type Facts, type PrState, type Verdict } from "./lib/worktrees.ts";
 import { reportDirs } from "./lib/report-dirs.ts";
 
@@ -52,7 +55,11 @@ const projects = dirname(siteMain);
 const repos = new Map<string, string>(); // main working tree -> label
 repos.set(siteMain, "site");
 if (existsSync(join(projects, "ingest"))) repos.set(mainOf(join(projects, "ingest")) ?? join(projects, "ingest"), "ingest");
+// Shared checkouts' paths, whatever git says about them: a shared checkout that is itself a linked worktree of a clone
+// elsewhere would otherwise look like any other worktree (reviewer fixup, PR #299).
+const sharedPaths = new Set<string>([resolve(siteMain), resolve(projects, "ingest"), resolve(projects, "reportsthatmatter")]);
 for (const r of reportDirs(root).values()) {
+  sharedPaths.add(resolve(r.defaultDir));
   const m = existsSync(r.defaultDir) ? mainOf(r.defaultDir) : null;
   if (m) repos.set(m, r.id);
 }
@@ -72,6 +79,40 @@ function listWorktrees(): Listed[] {
 }
 
 // ---- facts --------------------------------------------------------------------------------------------------------
+
+const real = (p: string): string | null => {
+  try {
+    return realpathSync(p);
+  } catch {
+    return null;
+  }
+};
+const inside = (p: string, dir: string) => p === dir || p.startsWith(dir + "/");
+
+/** Where each checkout's @rtm/ingest points: its node_modules link (`pnpm ingest link`) and a package.json `link:` spec. */
+function ingestTargets(paths: string[]): Array<{ from: string; to: string }> {
+  const out: Array<{ from: string; to: string }> = [];
+  for (const from of paths) {
+    const nm = real(join(from, "node_modules/@rtm/ingest"));
+    if (nm) out.push({ from, to: nm });
+    try {
+      const spec: string | undefined = JSON.parse(readFileSync(join(from, "package.json"), "utf8")).dependencies?.["@rtm/ingest"];
+      if (spec?.startsWith("link:")) out.push({ from, to: real(resolve(from, spec.slice(5))) ?? resolve(from, spec.slice(5)) });
+    } catch {}
+  }
+  return out;
+}
+
+/** A `<X>-reports/<repo>` worktree belongs to the site worktree `<X>` (`pnpm ingest worktrees` makes them so). */
+const ownerOf = (path: string): string | null => {
+  const wrapper = dirname(resolve(path));
+  if (!basename(wrapper).endsWith("-reports")) return null;
+  const site = wrapper.slice(0, -"-reports".length);
+  return existsSync(site) ? site : null;
+};
+
+const changedOf = (path: string): string[] =>
+  [...new Set([...(out(path, ["diff", "HEAD", "--name-only"]) ?? "").split("\n"), ...(out(path, ["ls-files", "--others", "--exclude-standard"]) ?? "").split("\n")].filter(Boolean))].sort();
 
 const defaultBranch = (main: string): string => {
   const ref = out(main, ["symbolic-ref", "--short", "refs/remotes/origin/HEAD"]);
@@ -95,11 +136,11 @@ function ageHours(w: Listed, changed: string[]): number {
   return (Date.now() - newest) / 3_600_000;
 }
 
-function gather(w: Listed): Facts {
+function gather(w: Listed, links: Array<{ from: string; to: string }>): Facts {
   const head = out(w.path, ["rev-parse", "HEAD"]) ?? w.head;
   const dflt = defaultBranch(w.main);
   // Working tree against HEAD, plus untracked: the index is ignored, because a stale index shows staged reverts.
-  const changed = [...new Set([...(out(w.path, ["diff", "HEAD", "--name-only"]) ?? "").split("\n"), ...(out(w.path, ["ls-files", "--others", "--exclude-standard"]) ?? "").split("\n")].filter(Boolean))];
+  const changed = changedOf(w.path);
   const scratchDir = join(w.path, ".scratch");
   const scratch = existsSync(scratchDir) ? readdirSync(scratchDir).map((f) => `.scratch/${f}`) : [];
   const unpushed = Number(out(w.path, ["rev-list", "--count", head, "--not", "--remotes"]) ?? 1);
@@ -131,11 +172,20 @@ function gather(w: Listed): Facts {
     changed,
     scratch,
     ageHours: ageHours(w, changed),
+    shared: sharedPaths.has(resolve(w.path)),
+    owner: ownerOf(w.path),
+    linkedFrom: (() => {
+      const me = real(w.path) ?? resolve(w.path);
+      return [...new Set(links.filter((l) => !inside(real(l.from) ?? l.from, me) && inside(l.to, me)).map((l) => l.from))];
+    })(),
   };
 }
 
-const rows = listWorktrees().map((w) => {
-  const facts = gather(w);
+const listed = listWorktrees();
+const linksNow = () => ingestTargets([...repos.keys(), ...listWorktrees().map((w) => w.path)]);
+const links = linksNow();
+const rows = listed.map((w) => {
+  const facts = gather(w, links);
   return { w, facts, verdict: classify(facts, { minAgeHours, keep }) };
 });
 const planned = rows.filter((r) => !r.facts.isMain).sort((a, b) => Number(b.verdict.remove) - Number(a.verdict.remove) || a.facts.path.localeCompare(b.facts.path));
@@ -152,7 +202,7 @@ if (!apply) {
 let removed = 0;
 for (const r of removable) {
   prCache.clear();
-  const again = gather(r.w);
+  const again = gather(r.w, linksNow());
   const verdict: Verdict = classify(again, { minAgeHours, keep });
   if (again.head !== r.facts.head) {
     console.log(`  skip ${r.facts.path}: HEAD moved since the plan (${r.facts.head.slice(0, 8)} -> ${again.head.slice(0, 8)})`);
@@ -162,7 +212,14 @@ for (const r of removable) {
     console.log(`  skip ${r.facts.path}: no longer removable (${verdict.reasons.join("; ")})`);
     continue;
   }
-  const rm = git(r.w.main, ["worktree", "remove", "--force", r.facts.path]);
+  // Last look, after the slow parts of gather (gh): anything written since means someone is in it.
+  if (changedOf(r.facts.path).join("\n") !== again.changed.join("\n")) {
+    console.log(`  skip ${r.facts.path}: its files changed while it was being checked`);
+    continue;
+  }
+  // --force only for a tree whose changes are all build output; a clean one is removed without it, so git itself
+  // refuses if a file appeared in the last moment.
+  const rm = git(r.w.main, ["worktree", "remove", ...(again.derivedOnly ? ["--force"] : []), r.facts.path]);
   if (rm.status !== 0) {
     console.log(`  skip ${r.facts.path}: git worktree remove failed: ${rm.stderr.trim()}`);
     continue;
