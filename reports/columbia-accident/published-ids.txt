@@ -472,6 +472,7 @@ after-such-shift-occurred-according
 after-united-space-alliance-became
 aftermath-challenger-accident-rogers-commission
 aftermath-challenger-accident-these-contra
+aftermath-challenger-accident-these-contradictory
 agement-budget-technology-efforts-nasaʼs
 agencies-committee-appropriations-house-representatives
 agencyʼs-commitment-hold-firm-february
@@ -1259,6 +1260,7 @@ engineersʼ-decision-making-three-worked-together
 ensure-all-documents-received-generated
 ensure-all-material-associated-columbiaʼs
 ensure-board-acted-independent-unbi
+ensure-board-acted-independent-unbiased
 ensure-boardʼs-financial-independence-nasa
 ensure-payload-malfunction-did-not
 enterprise-20
@@ -1806,6 +1808,7 @@ freeze-design-most-years-congress
 from-1991-1994-nasa-able
 from-beginning-board-witnessed-consistent
 from-beginning-nasaʼs-belief-about
+from-discovery
 from-dittemore-ronald-d-jsc-ma
 from-its-inception-board-has
 from-lee-timothy-f-ltcol
@@ -2152,6 +2155,7 @@ lage-separation
 land-search
 langley-research-center
 langley-research-center-hamp--ton
+langley-research-center-hampton-virginia
 laporte-consolini-working-practice-20
 larc-ditching-model-tests-20
 larc-langley-research-center
@@ -2232,6 +2236,7 @@ low-resolution-powerpoint-slides-promotes
 lower-left-wing-debris-lower
 lower-surface-damage-dings-1
 lt-col-patrick-goodman-investigator
+lt-gen-jefferson-d-howell
 lumbia-accidents-space-shuttle-program
 m-elisabeth-paté-cornell-follow-up-standard
 m-litwinsk-g-wilson-et
@@ -2307,6 +2312,7 @@ mer-mission-evaluation-room-es-dce
 metallic-sections-external-tank-will
 methodology-conduct-space-shuttle-program
 michael-p-anderson-payload-commander
+michael-u-rudolphi-deputy-director
 micrometeoroid-orbital-debris
 micrometeoroids-each-usually-no-larger
 micrometeoroids-orbital-debris-risks
@@ -3813,6 +3819,7 @@ way-foam-produced-applied-particularly
 we-can-have-generated-parametric
 we-found-significant-amount-damage
 we-received-visit-from-mission
+weapons-means-deliver-them
 weapons-means-deliver-them-space
 week-later-sean-oʼkeefe-nominated
 weick-argues-risky-situation-people

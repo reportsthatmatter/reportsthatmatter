@@ -371,11 +371,12 @@ export const headingRepeated: Signal = {
   id: "heading-repeated",
   kind: "count",
   cls: "H",
-  doc: "A heading text that appears 3 or more times; one finding per repeated text.",
+  doc: "A heading text that appears 3 or more times; one finding per repeated text. A division label (Findings, Recommendations, Issue) repeats by design and is not counted (liv).",
   run: (input) => {
     const seen = new Map<string, ReturnType<typeof headings>>();
     for (const h of headings(input)) {
       const k = h.title.toLowerCase();
+      if (/^(?:findings?|recommendations?|issue)$/.test(k)) continue;
       seen.set(k, [...(seen.get(k) ?? []), h]);
     }
     return [...seen.values()]
