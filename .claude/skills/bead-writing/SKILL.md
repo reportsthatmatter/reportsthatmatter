@@ -11,12 +11,12 @@ description: Use when filing or rewriting a bead (task, bug, research, decision,
 
 ## Procedure
 
-1. **Search first**: `bd search "<key words>"` (includes closed) and `bd list --status open --desc-contains "<report id or command>"`. If it exists, `bd update <id> --append-notes "<new evidence>"` instead.
+1. **Search first**: `bd search "<key words>"` searches titles and ids (closed included); descriptions need `bd list --all --desc-contains "<report id, command or file>"` (and `--notes-contains`). If it exists, `bd update <id> --append-notes "<new evidence>"` instead. If the proposal is already done in the code (read the script; run its `--help`), file nothing and record the lesson as done.
 2. **Choose** one type (`-t bug|task|feature|decision|chore`), one stream (`stream:marketing|reports|quality|product|platform`), one level (`level:specced|judgement|design`; none for epics and decisions), and `handoff` when the description meets step 3. Priority `-p 0-4` (2 is normal; 1 blocks launch or loses readers' links).
 3. **Write the description** with these headings, each concrete:
    - **Goal:** one or two sentences on what changes for a reader or a maintainer.
    - **Where:** repos, files, commands, report ids, and the example (paragraph id, printed page, the quoted words).
-   - **Acceptance:** checkable criteria, each with the command or URL that shows it and the before → after number (e.g. "`pnpm quality check` shows `numbered-paragraph-glued` 3 → 0 for uk-leveson-inquiry").
+   - **Acceptance:** checkable criteria, each with the command or URL that shows it and the before → after number (e.g. "`pnpm quality check` shows `numbered-paragraph-glued` 3 → 0 for uk-leveson-inquiry"); for behaviour with no count, the command and the line it must print (and a test that covers it).
    - **Verify:** what to run before the PR (`pnpm typecheck`, `pnpm test`, `pnpm ingest check`, `pnpm corpus check`, `./scripts/verify.sh`, as relevant).
    - **Out of scope / risks:** what not to touch; beads it could collide with; reports it could move.
 4. **Create** (description from a file avoids shell-quoting trouble):
@@ -25,6 +25,7 @@ description: Use when filing or rewriting a bead (task, bug, research, decision,
      -l stream:platform,level:specced,handoff --body-file /path/to/desc.md \
      --deps discovered-from:<the bead you were working on>
    ```
+   No bead you were working on: leave `--deps` off and name the source (retro, review file, lessons line) in Where.
    Child of an epic: `--parent <epic id>`. Blocked by another: `--deps blocked-by:<id>`. Rehearse with `--dry-run`.
 5. **Needs Rufus?** Only if work truly cannot proceed: a separate bead labelled `needs-user` with the exact request, then `bd dep <needs-user-id> --blocks <blocked-id>`. Direction questions: a `docs/decisions/` record plus a `-t decision` bead.
 6. `bd dolt push`.
@@ -40,4 +41,4 @@ description: Use when filing or rewriting a bead (task, bug, research, decision,
 
 - [ ] `bd show <id>` shows Goal, Where, Acceptance (each with a command), Verify, Out of scope
 - [ ] Exactly one `stream:*` and one `level:*` label (none for epics/decisions); `handoff` only if the five parts are there
-- [ ] `discovered-from` link to the bead it came from; `bd dolt push` done
+- [ ] `discovered-from` link to the bead it came from (when there is one); `bd dolt push` done

@@ -6,6 +6,8 @@ The standing rules for any agent (Claude, Codex or another) working on Reports t
 
 ## Rules
 
+Skills cite rule N as RN (R1 is rule 1).
+
 1. **Worktrees, named `<kind>-<slug>-<MMDD>`.** Site: `git -C ~/src/reportsthatmatter/reportsthatmatter worktree add ~/src/reportsthatmatter/rtm-<slug>-<MMDD> -b <branch> origin/main`, then `pnpm bootstrap` in it (never symlink `node_modules`). Ingest: `git -C ~/src/reportsthatmatter/ingest worktree add ~/src/reportsthatmatter/ingest-<slug>-<MMDD> -b <branch> origin/main`, then `CI=true pnpm install`. Report repos: `pnpm ingest worktrees <id…>` from your site worktree, then export the `RTM_REPORT_DIRS` it prints. Use absolute paths with `git -C` (a relative path is relative to `-C`, not your shell). You own only the report repos you were told you own.
 2. **Pipeline fixes go in ingest, as passes.** Prefer an opt-in pass the report declares in its `ingest.ts` over changing a shared default. If you change a shared default, measure every report's move and say so.
 3. **Test against your unreleased ingest** with `pnpm ingest try <branch|path> [<id>…]` or `pnpm ingest link <ingest dir>` (undo: `pnpm ingest link --restore`); see `scripts/ingest/README.md`, "Changing the library". Never commit a link override.

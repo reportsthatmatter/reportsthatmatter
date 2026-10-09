@@ -32,6 +32,6 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The tools
 - [ ] Quality within budget (or the median rate); oracle within budget
 - [ ] `PROCESSING.md` written; every known defect beaded and listed under Known limitations
 - [ ] Rendered pages read; the URLs looked at are listed in the PR
-- [ ] `reports/pipeline.yaml` row says `reached: evaluate` (or a later stage) (or `state: parked`)
+- [ ] your PR sets the unit's `reports/pipeline.yaml` row to `reached: evaluate` (if it is already at a later stage, leave it) (or `state: parked`)
 
 **Hands on:** site PR, report-repo PR, ingest PR if any. **Gap:** `pnpm report ready <id>` (this gate as one command) does not exist yet (ifb5.12). Uncaught defect classes: agent protocol R8. Retro and lessons: agent protocol R13-R14.

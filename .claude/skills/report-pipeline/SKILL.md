@@ -11,7 +11,7 @@ The design is **`docs/design/2026-10-03-report-preparation-pipeline.md`**. Read 
 
 | # | Stage | Skill | Label | Model |
 | --- | --- | --- | --- | --- |
-| 1 | Source | `report-source` | `stage-source` | Sonnet |
+| 1 | Source | `report-source` | `stage-source` | Opus (Sonnet when the stack is settled) |
 | 2 | Repo | `report-repo` | `stage-repo` | Sonnet |
 | 3 | First ingest | `report-first-ingest` | `stage-ingest` | Sonnet (Opus: new adapter format) |
 | 4 | Evaluate and refine | `report-evaluate` | `stage-evaluate` | Sonnet (Opus: new defect class) |

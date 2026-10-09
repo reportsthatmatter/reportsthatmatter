@@ -13,7 +13,7 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue
 
 ## Procedure
 
-1. `pnpm prerender`, then `pnpm posts`. Read its output for this report: items added, skipped (and why), items on a default card.
+1. `pnpm prerender`, then `pnpm posts` (it writes `marketing/queue.yaml` and `build/posts-preview.html`). Read its output for this report: items added, skipped (and why), items on a default card. Read-only checks: `pnpm posts --verify --report <id>` (exit 1 if a plain run would change this report's items) and `pnpm posts --check` (a not-yet-posted item whose quote or id went stale).
 2. A skipped highlight goes back to stage 5 (replace it there; never trim a quote).
 3. Open `build/posts-preview.html` and read this report's items as a reader would.
 4. Commit `marketing/queue.yaml`. Scheduling is append-only and round-robin across reports; do not hand-move dates.
@@ -22,7 +22,7 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue
 ## Exit gate
 
 - [ ] The report has 3+ items in `marketing/queue.yaml` with scheduled dates
-- [ ] `pnpm posts` reports no unresolved not-yet-posted item for it
-- [ ] `reports/pipeline.yaml` row says `reached: promote` (or a later stage), `state: ongoing`
+- [ ] `pnpm posts --verify --report <id>` prints "up to date" and `pnpm posts --check` passes
+- [ ] your PR sets the unit's `reports/pipeline.yaml` row to `reached: promote` (if it is already at a later stage, leave it), `state: ongoing`
 
 **Gap:** the campaign calendar (y2t.5) is not built. The scheduled poster that posts the queue is built and off until Rufus switches it on: [`docs/poster.md`](../../../docs/poster.md); agents never run it live. Retro and lessons: agent protocol R13-R14.

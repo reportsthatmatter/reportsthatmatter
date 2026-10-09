@@ -30,6 +30,6 @@ The steps are **`docs/release-checklist.md`** 10-16 and AGENTS.md "Publishing a 
 - [ ] `curl -sD- -o /dev/null https://reportsthatmatter.org/reports/<id>/full | grep -i x-rtm-content-version` is a hash, not `assets`
 - [ ] `pnpm publish-report <id> --status` shows no drift
 - [ ] Production `verify.sh` exits 0
-- [ ] Stage Beads closed; `reports/pipeline.yaml` row says `reached: publish` (or a later stage)
+- [ ] Stage Beads closed; your PR sets the unit's `reports/pipeline.yaml` row to `reached: publish` (if it is already at a later stage, leave it)
 
 Retro and lessons: agent protocol R13-R14.

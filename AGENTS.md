@@ -46,7 +46,7 @@ Runbooks for the key steps live as skills, one `SKILL.md` each, in `.claude/skil
 | Skill | Use it when | Level |
 |---|---|---|
 | `report-pipeline` | Supervising reports through the eight stages: choosing the next unit, opening stage beads, checking exit gates, updating `reports/pipeline.yaml` | judgement |
-| `report-source` | Stage 1: finding the official original and better renditions, checking versions and text layers, choosing the source stack | specced |
+| `report-source` | Stage 1: finding the official original and better renditions, checking versions and text layers, choosing the source stack | judgement |
 | `report-repo` | Stage 2: the report's own repo, pinned sources, `datapackage.json`, README, `ingest.ts` volumes, the manifest entry | specced |
 | `report-first-ingest` | Stage 3: writing `ingest.ts` (hybrid or PDF pipeline), choosing passes from evidence, a first `full.md` | specced (new adapter: judgement) |
 | `report-evaluate` | Stage 4: reading the output, golden pages, score, oracle, fixes, registering, `PROCESSING.md`, parking | specced (new defect class: judgement) |

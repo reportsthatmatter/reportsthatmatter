@@ -25,6 +25,6 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §1-3. **The int
 - [ ] `editorial/<id>.yaml` `status: approved`; `pnpm editorial` passes
 - [ ] 3+ `card: true` highlights, none skipped by `pnpm posts` for this report
 - [ ] Hero Bead exists
-- [ ] `reports/pipeline.yaml` row says `reached: editorial` (or a later stage)
+- [ ] your PR sets the unit's `reports/pipeline.yaml` row to `reached: editorial` (if it is already at a later stage, leave it)
 
 **Hands on:** a site PR (editorial yaml, plate, cards). Do not commit `src/generated/editorial.ts`; the integrator regenerates it. Retro and lessons: agent protocol R13-R14.
