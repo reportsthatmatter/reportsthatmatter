@@ -18,8 +18,6 @@ const builtins = new Set(["install", "exec", "run", "add", "-C", "-s", "dlx", "w
 // Scripts of the @rtm/ingest repo (run in an ingest checkout), not this one.
 const ingestRepo = new Set(["build", "release", "check-dist"]);
 const pending: Record<string, string> = {
-  "bump-pin": "site #299",
-  worktrees: "site #299",
   source: "ifb5.10 (pnpm source probe)",
   report: "ifb5.11, ifb5.12 (pnpm report new/lint/ready)",
 };
