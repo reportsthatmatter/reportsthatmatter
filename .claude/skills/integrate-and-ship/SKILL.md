@@ -5,13 +5,15 @@ description: Use when you are the one integrator on Reports that Matter taking r
 
 # Integrator: release, bump the pin, re-ingest, verify, ship
 
-**Level:** `level:specced` (Sonnet; it follows the review's steps and decides nothing new). **Only the integrator** merges, releases, deploys, publishes or seeds; one at a time. The ordered steps and what each answers are **[`docs/release-checklist.md`](../../../docs/release-checklist.md)**; `pnpm ship` automates its steps 3-16 (`scripts/ship.ts`; flags: `pnpm ship --help`). What ships how: `docs/ARCHITECTURE.md` "what needs a deploy?". D1 limits and Cloudflare profile: AGENTS.md "Working conventions", "Cloudflare".
+**Level:** `level:specced` (Sonnet; it follows the review's steps and decides nothing new). **Only the integrator** merges, releases, deploys, publishes or seeds; one at a time. The ordered steps and what each answers are **[`docs/release-checklist.md`](../../../docs/release-checklist.md)**; `pnpm ship` automates most of its steps 3-16 as 22 named steps (`pnpm ship --plan` lists them; `scripts/ship.ts`; flags: `pnpm ship --help`). `--plan` and `--status` write nothing and are safe anywhere; `--state <file>` points either at a scratch state file for a rehearsal. What ships how: `docs/ARCHITECTURE.md` "what needs a deploy?". D1 limits and Cloudflare profile: AGENTS.md "Working conventions", "Cloudflare".
 
 **Entry.** A review file (`~/src/reportsthatmatter/review-*.md`, `pr-review` skill) whose verdicts say MERGE/SHIP, with head shas and numbered integrator steps. No other integrator mid-release (`pnpm ship --status` in the shared site checkout says where a previous run stopped).
 
 ## Procedure
 
-You work in the shared checkouts on `main` (`~/src/reportsthatmatter/reportsthatmatter`, `../ingest`, the report repos): the one role that does. Before starting: `git -C <each> status` is clean; `git checkout .beads/issues.jsonl` if `bd dolt pull` rewrote it.
+You work in the shared checkouts on `main` (`~/src/reportsthatmatter/reportsthatmatter`, `../ingest`, the report repos): the one role that does. Before starting: `git -C <each> pull --ff-only` and `git -C <each> status` clean (`git checkout .beads/issues.jsonl` if `bd dolt pull` rewrote it); `unset RTM_REPORT_DIRS RTM_REPO_ROOT`.
+
+**Fast path:** no ingest PR and the pin already at the target (`pnpm bump-pin X.Y.Z --dry-run` says "already at the pin" for every repo): skip steps 2-3.
 
 1. **Merge in the review's order**, at the reviewed heads: `gh pr merge <n> --squash` (check `gh pr view <n> --json headRefOid` first; a newer head needs the reviewer's word). Conflicts: the review's recipe; derived files (`marketing/queue.yaml`, `reports/corpus-baseline.json`, `src/generated/*`) take main's and regenerate.
 2. **Release ingest** (only if an ingest PR merged): in the shared `~/src/reportsthatmatter/ingest` on `main`, `git pull --ff-only`, `pnpm release X.Y.Z --dry-run`, then `pnpm release X.Y.Z`. It refuses a worktree, a dirty tree or a stale `dist/`.
@@ -23,14 +25,14 @@ You work in the shared checkouts on `main` (`~/src/reportsthatmatter/reportsthat
 6. **D1 budget**: the `d1-estimate` step compares the publish and reindex cost with today's use (`pnpm d1-usage`; free tier 100,000 writes and 5,000,000 reads a day, reset 00:00 UTC). It refuses when it cannot read today's use from Cloudflare analytics or the cost does not fit: wait for the reset, or run `pnpm wrangler login` if analytics is unreadable.
 7. **Production**: `pnpm ship --shared --yes` runs publish (`--no-reindex`), deploy, reindex, seed, `verify-prod` and record. Check: `pnpm publish-report --all --status --base https://reportsthatmatter.org` lists nothing to publish; `curl -sD- -o /dev/null https://reportsthatmatter.org/reports/<id>/full | grep -i x-rtm-content-version` is a hash.
 8. **Record and close**: commit `reports/quality-last.json`, `reports/verify-last.json`, `docs/scores.json` if `record` changed them; `reports/pipeline.yaml` rows (`reached: publish`, `state: waiting`; `pnpm test -- pipeline-status` before committing); `bd close <id> --reason "Shipped in vX.Y.Z / site <sha>"` for the beads the review lists; `bd dolt push`.
-9. **Housekeeping**: `pnpm worktrees prune` prints removable worktrees; `--apply` only between sessions, never on `*-<today>` worktrees.
+9. **Housekeeping**: `pnpm worktrees prune` plans over the site, ingest and every report repo; read its `remove` lines (merged, pushed, clean, idle over 24h; live and linked worktrees are kept). `--apply` only between sessions.
 10. Changelog checklist (AGENTS.md "Changelog"), lessons and retro (agent protocol R13-R14).
 
 ## Exit gate
 
 - [ ] Every reviewed PR merged at its reviewed head, or held with a reason in its bead
 - [ ] `pnpm ship --status` shows every step done; production `verify.sh` passed
-- [ ] `publish-report --all --status` lists nothing to publish
+- [ ] `pnpm publish-report --all --status --base https://reportsthatmatter.org` shows every report `current` (each served hash equals the local one)
 - [ ] Record files committed; beads closed with reasons; `bd dolt push` done
 
 ## Integrator pitfalls (from `docs/design/lessons.md`)
