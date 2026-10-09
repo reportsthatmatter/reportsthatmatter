@@ -582,6 +582,11 @@ describe("numbered-paragraph-glued (B, reportsthatmatter-f951)", () => {
     expect(numberedParagraphGlued.run(input(glued.replace("B. 2.86 RBKC's", "B. 5.10 Metres")))).toEqual([]);
   });
 
+  it("fires when another chapter has a paragraph of that number (numbering restarts per chapter, Leveson, reportsthatmatter-1iz4)", () => {
+    const earlier = Array.from({ length: 90 }, (_, i) => `2.${i + 1} An earlier chapter's paragraph.`).join("\n\n");
+    expect(numberedParagraphGlued.run(input(`${earlier}\n\n${glued}`))).toHaveLength(1);
+  });
+
   it("stays quiet on a report that does not number its paragraphs", () => {
     expect(numberedParagraphGlued.run(input("Some text. 2.1 Million people came."))).toEqual([]);
   });
