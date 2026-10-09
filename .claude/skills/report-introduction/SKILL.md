@@ -18,3 +18,12 @@ The non-negotiables, in brief:
 5. **Ship approved.** Set `status: approved` and ship; Rufus reviews the live page later (2026-09-26). The introduction is stage 2 of `docs/report-pipeline.md`: it never waits for imagery (stage 3), and a hero image is its own Bead, done per `docs/hero-images.md`.
 
 Start from `editorial/jack-smith-vol1.yaml` as the reference shape. Work the checklist at the end of the guide before calling it done.
+
+Checks the tools do not make:
+
+- `pnpm editorial` checks `excerpt` and `highlights` quotations only. A quotation inside a finding's `text`, a `why` or the background is checked by hand with `pnpm paragraphs <id> <words>`.
+- A number the report does not print ("eleven recommendations") is counted from the report and the count's source noted in a yaml comment, or not stated.
+- A highlight must stand alone: it names its subject (no opening "he", "His response"), as a card would be read with nothing around it.
+- Section slugs for the reading guide: `pnpm paragraphs <id> | grep '^## '`.
+
+**Reviewing** an existing introduction (a reviewer, or a burn-down): report each item of the guide's checklist as pass or fail with evidence, and the changes as a diff; run `pnpm editorial` (it rewrites `src/generated/editorial.ts`: `git checkout` it after if you are not shipping).
