@@ -28,6 +28,6 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3, worked ex
 - [ ] README has Scope and Materials
 - [ ] `reference/manifest.json` built with checksums and `set` (where a reference exists)
 - [ ] `ingest.ts` volumes match `archive/`; `package.json` pin equals the site's; `pnpm ingest preflight` clean
-- [ ] Report-repo PR and site PR (manifest, `REFERENCES`) open; `reports/pipeline.yaml` row says `reached: repo`
+- [ ] Report-repo PR and site PR (manifest, `REFERENCES`) open; `reports/pipeline.yaml` row says `reached: repo` (or a later stage)
 
 **Hands on:** the two PRs. **Gaps:** `pnpm report new <id>` (scaffold) and `pnpm report lint <id>` (this gate as a command) do not exist yet (ifb5.11). Retro and lessons: agent protocol R13-R14.

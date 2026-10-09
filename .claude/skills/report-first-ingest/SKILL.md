@@ -29,6 +29,6 @@ Aim for a plausible first text with honest counts. Refinement is stage 4.
 - [ ] Route matches the source stack; any deviation explained
 - [ ] Every declared pass has a page-cited comment
 - [ ] `pnpm quality report <id>` table pasted in the PR
-- [ ] `reports/pipeline.yaml` row says `reached: ingest`
+- [ ] `reports/pipeline.yaml` row says `reached: ingest` (or a later stage)
 
 **Hands on:** the report-repo PR (and an ingest PR if a pass was needed). **Gap:** no command compares candidate pass sets on a first ingest; `pnpm ingest try` compares library versions, not pass lists (ifb5.13). Retro and lessons: agent protocol R13-R14.

@@ -22,6 +22,6 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. **No exte
 
 - [ ] Changelog entry merged and visible on production `/changelog`, with its image
 - [ ] Post drafts committed and named in the unit's Bead for Rufus
-- [ ] `reports/pipeline.yaml` row says `reached: announce`
+- [ ] `reports/pipeline.yaml` row says `reached: announce` (or a later stage)
 
 Retro and lessons: agent protocol R13-R14.

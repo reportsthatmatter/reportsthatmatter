@@ -23,6 +23,6 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue
 
 - [ ] The report has 3+ items in `marketing/queue.yaml` with scheduled dates
 - [ ] `pnpm posts` reports no unresolved not-yet-posted item for it
-- [ ] `reports/pipeline.yaml` row says `reached: promote`, `state: ongoing`
+- [ ] `reports/pipeline.yaml` row says `reached: promote` (or a later stage), `state: ongoing`
 
 **Gap:** the campaign calendar (y2t.5) is not built. The scheduled poster that posts the queue is built and off until Rufus switches it on: [`docs/poster.md`](../../../docs/poster.md); agents never run it live. Retro and lessons: agent protocol R13-R14.
