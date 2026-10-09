@@ -30,7 +30,7 @@ description: Use when you are one of several agents on Reports that Matter and h
 8. **Editorial** (R7): if your report's ids moved, `pnpm prerender && pnpm editorial`; fix `editorial/<id>.yaml`, then `git checkout src/generated/editorial.ts`.
 9. **Lessons** (R14): append one-line entries to `docs/design/lessons.md` in the format at its top.
 10. **PRs** (R4): commit, `git push -u origin <branch>`, `gh pr create` per repo (ingest, report repo, site). The PR body: before/after numbers, `pnpm ingest try` output or `pnpm quality report --diff origin/main`, the pin bump needed, the passes a report must declare. Never merge, release or deploy.
-11. **Beads** (R8): `bd update <id> --append-notes "<what changed, PR URLs, numbers>"`; new defects via the `bead-writing` skill; uncaught defect classes to `reportsthatmatter-b78.1`; `bd dolt push`. Do not close.
+11. **Beads** (R8): `bd update <id> --append-notes "<what changed, PR URLs, numbers>"`; new defects via the `bead-writing` skill; uncaught defect classes per R8; `bd dolt push`. Do not close.
 12. **Final report** (R9) ending with the retro (R13).
 
 ## Exit gate

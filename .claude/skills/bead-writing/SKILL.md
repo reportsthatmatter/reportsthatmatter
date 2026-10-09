@@ -34,7 +34,7 @@ description: Use when filing or rewriting a bead (task, bug, research, decision,
 - One bead per proposal that is not done in your PR; skip proposals already beaded (step 1).
 - The title states the outcome ("`pnpm ship --plan` offers `--reset` when the state is for an older pin"), not the complaint.
 - Evidence (what slowed you, the log line) goes in Where; the lesson line goes in `docs/design/lessons.md` with the new bead id as its evidence.
-- An uncaught defect class also gets a one-line example appended to `reportsthatmatter-b78.1`.
+- An uncaught defect class: agent protocol R8 (catalogue example plus a `stream:quality` bead for the check).
 
 ## Exit gate
 

@@ -25,7 +25,7 @@ description: Use when asked to burn down, triage or verify-and-close the old ope
    - **Obsolete**: the thing it describes no longer exists (removed feature, superseded plan, a duplicate). Close naming what superseded it (`bd close <id> --reason "Duplicate of <id>"`).
    - **Still open**: append today's evidence and make it handoff-ready (`bead-writing` skill: Goal/Where/Acceptance/Verify/Out of scope, `stream:*`, `level:*`, `handoff`).
    - **Unsure**: leave open, append what you checked and why it is not conclusive.
-5. **Close**: `bd close <id> --reason "Verified fixed on main <sha>: \`<command>\` -> <line>. Fixed by <PR/release>."`. A fixed text bug whose class no check catches: also append a one-line example to `reportsthatmatter-b78.1` (R8).
+5. **Close**: `bd close <id> --reason "Verified fixed on main <sha>: \`<command>\` -> <line>. Fixed by <PR/release>."`. A fixed text bug whose class no check catches: say so in your final report (R8 for a new class).
 6. `bd dolt push`. Final report: a table (bead, title, verdict, evidence), counts per verdict, and the retro (R13).
 
 ## Exit gate
