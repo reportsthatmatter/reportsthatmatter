@@ -39,6 +39,30 @@ in `editorial/<id>.yaml`, voice, verbatim quotations, highlights, and the
 approved-on-ship flow. **Read it before writing or revising any editorial
 file.** The `report-introduction` skill (`.claude/skills/`) points agents at it.
 
+## Skills
+
+Runbooks for the key steps live as skills, one `SKILL.md` each, in `.claude/skills/<name>/` (Claude Code reads them there). `.agents/skills` is a symlink to the same directory, which is where OpenAI Codex looks (repo skills in `.agents/skills`, from the working directory up to the repo root; it follows symlinks). Any other agent: open the file. Codex in its `read-only` sandbox cannot run `bd` (it takes a lock file) or `pnpm` scripts run by `tsx` (it opens an IPC socket: `listen EPERM`); give it `workspace-write` with the site worktree as the workspace (tested with codex-cli 0.161.0, 2026-10-09). Each skill gives its level, entry criteria, exact commands, exit gate, what it hands on and its failure modes, and links the doc that explains why. Every agent in a multi-agent session also follows [`docs/agent-protocol.md`](docs/agent-protocol.md) (worktrees, no releasing, measure, beads, retro). `tests/skills.test.ts` checks that every skill is listed here and that the `pnpm` scripts and repo paths it names exist.
+
+| Skill | Use it when | Level |
+|---|---|---|
+| `report-pipeline` | Supervising reports through the eight stages: choosing the next unit, opening stage beads, checking exit gates, updating `reports/pipeline.yaml` | judgement |
+| `report-source` | Stage 1: finding the official original and better renditions, checking versions and text layers, choosing the source stack | judgement |
+| `report-repo` | Stage 2: the report's own repo, pinned sources, `datapackage.json`, README, `ingest.ts` volumes, the manifest entry | specced |
+| `report-first-ingest` | Stage 3: writing `ingest.ts` (hybrid or PDF pipeline), choosing passes from evidence, a first `full.md` | specced (new adapter: judgement) |
+| `report-evaluate` | Stage 4: reading the output, golden pages, score, oracle, fixes, registering, `PROCESSING.md`, parking | specced (new defect class: judgement) |
+| `report-editorial` | Stage 5: plate and cards, introduction, `card: true` excerpts, the hero bead | judgement |
+| `report-introduction` | Writing or revising `editorial/<id>.yaml` (defers to `docs/report-introductions.md`) | judgement |
+| `report-publish` | Stage 6, integrator only: publish to R2, deploy, reindex, seed, production verify | specced |
+| `report-announce` | Stage 7: changelog entry, long-read and social drafts (nothing posted) | specced |
+| `report-promote` | Stage 8: the report's excerpts in the posting queue | specced |
+| `fix-agent` | You were handed a bead to fix: worktrees, measure before and after, PRs, notes, lessons, retro | the bead's |
+| `pr-review` | You are the reviewer gating PRs: trial merge, checks, ratchet, the review file and the integrator's steps | judgement |
+| `integrate-and-ship` | You are the integrator: merge, release ingest, bump the pin, re-ingest, `pnpm ship`, D1 budget, close beads | specced |
+| `burn-down` | Verifying a report's old beads on current main and closing those already fixed or obsolete, with evidence | specced |
+| `bead-writing` | Filing a handoff-ready bead, including from a retro or a review | specced |
+
+A new skill gets a row here and a directory under `.claude/skills/` (nothing to add under `.agents/`). Frontmatter is `name` (the directory name) and `description` (when to use it), which both Claude Code and Codex require.
+
 ## Beads
 
 Beads is the source of truth for agent-actionable work. Start each session with
@@ -664,14 +688,19 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Rufus does not review PRs.** An agent review (a separate reviewer agent) is the gate; then the integrator merges and ships. (Rufus, 2026-10-03)
 
-**Park hard reports.** Give a tough report one fix attempt. If a different defect then appears, stop, write up what was learned in a bead labelled `research`, hold its PRs out of the release, and move on. Don't churn on it inside a general session (e.g. Duelfer, Leveson headings).
+**Converge and ship; park what will not converge** (Rufus, 2026-10-09, generalising "park hard reports" from whole reports to stretches of one). Ingest work that keeps finding new quirks is a signal to stop and ship, not to add another pass.
+- **Trigger.** Check in or converge when any of these holds: each fix surfaces a different layout quirk; about 2-3 hours (or a few hundred thousand tokens) on a stage with no PR open; three or more new passes or options added without a PR. A tough whole report gets one fix attempt; a different defect after it means park it (bead labelled `research`, its PRs held out of the release).
+- **Measure each pass.** Keep a table, pass added → `pnpm quality report <id>` deltas (and the bead's own count). Keep only passes that measurably help, each with a test or golden page; drop the rest.
+- **Ship the best servable state.** If one stretch (scanned pages, an appendix, a volume) holds the report below the bar (about grade B; the bar itself is decision 38s.17), ship the rest: scope the stretch out as a later unit with its own bead (the Mueller appendices, o2kz, are the model), or serve it and mark it honestly: a Known limitations line in `PROCESSING.md` saying which pages and what is wrong, plus a bead. Where a reader needs a mark in the text itself and no convention exists, propose one in `docs/decisions/` with a `decision` bead (e.g. 8fsl for redactions) rather than inventing one silently.
+- **PRs early** (agent protocol R15-R16): push WIP from the start; open a draft PR once the first ingest renders.
+- **Record what is left** in the stage bead's notes (each open defect with its count and pages) and file the follow-ups (`bead-writing` skill).
 
 **Supervisor and model choice.** A supervisor session delegates to subagents and picks the model per task before spawning:
 - Sonnet: specced code, applying existing passes, stage-1 ingests, integrators and release chains, copy, heroes.
 - Opus: new heuristics, research, design, and writing introductions.
 - Fable: only for big design synthesis.
 
-Run 5–7 agents at a time (usage limits), and resume stopped agents rather than starting fresh. Fix agents open PRs and never release. One Sonnet integrator merges, releases with `pnpm release`, bumps pins, reads every diff, deploys and publishes. Each report repo has one owning agent at a time. The session protocol (`~/src/reportsthatmatter/.agent-protocol-<date>.md`) holds the per-session rules.
+Run 5–7 agents at a time (usage limits), and resume stopped agents rather than starting fresh. Fix agents open PRs and never release. One Sonnet integrator merges, releases with `pnpm release`, bumps pins, reads every diff, deploys and publishes. Each report repo has one owning agent at a time. The standing rules every spawned agent follows are [`docs/agent-protocol.md`](docs/agent-protocol.md); a session may add a dated note on top (`~/src/reportsthatmatter/.agent-protocol-<date>.md`). Roles have skills: `fix-agent`, `pr-review`, `integrate-and-ship`, `burn-down` (see "Skills" above).
 
 **Shared checkouts.** `~/src/reportsthatmatter/reportsthatmatter`, `~/src/reportsthatmatter/ingest` and the report repos are shared by concurrent sessions. Never switch branches or stash in a shared checkout. Work in a `git worktree` (site: `pnpm bootstrap`; report repos too whenever another agent may touch the same repo), with its own `node_modules`, never a symlink. A peer's uncommitted edits in a sibling report repo can fail verify's corpus check: that's peer noise, so check `git status` there. **The CLI enforces it:** `pnpm ingest run`, `baseline` and `aggregate` refuse a report repo that is the shared checkout (the default sibling path, and a main working tree rather than a linked worktree). Make worktrees with `pnpm ingest worktrees <id…>` (it creates `<site>-reports/<repo>` worktrees on a new branch and prints the `RTM_REPORT_DIRS` to export; every script that reads a report repo resolves it through `scripts/lib/report-dirs.ts`, so `pnpm score`, `pipeline status`, `marks` and `ingest aggregate <id>` honour it too; `RTM_REPO_ROOT` is the old name), or pass `--shared` — **the integrator's deliberate opt-in only** (`VERIFY_SHARED=1 ./scripts/verify.sh` passes it to `aggregate`). Before a pass PR: `pnpm ingest recheck --passes <changed,passes>` re-ingests every report declaring one (in memory) and fails on a correction that no longer matches exactly once, and `pnpm ingest crosscheck` fails on a golden page that contradicts `reference/adjudicated.yaml`.
 
