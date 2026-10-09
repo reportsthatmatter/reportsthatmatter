@@ -1,4 +1,4 @@
-# 0017. What does `/full` do for a report too big to preview, and to load?
+# 0019. What does `/full` do for a report too big to preview, and to load?
 
 - **Status:** proposed
 - **Date raised:** 2026-10-09 · **Date decided:** —

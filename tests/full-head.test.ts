@@ -3,7 +3,7 @@
  * gives up on it (reportsthatmatter-te56). Whatever a crawler does with the body, the preview tags
  * must arrive in the first bytes, so a fetcher that reads only a prefix still gets a card. This holds
  * the head small and early for every report; whether to also answer crawlers with a head-only page
- * is docs/decisions/0017-full-page-for-link-previews.md.
+ * is docs/decisions/0019-full-page-for-link-previews.md.
  */
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
