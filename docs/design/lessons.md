@@ -464,3 +464,10 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **What slowed me down:** the BSD `sed` slip, the worktree-versus-main release step and the ship state reset, three one-line stops; the verify runs (about 10 minutes).
 - **What would have caught it earlier:** a `pnpm release --dry-run` hint for worktrees in the checklist, and `pnpm ship --plan` offering `--reset` itself when the state is for an older pin.
 - **One proposal:** a `pnpm ship --bump-pins` that does the 16-repo pin bump with `--no-frozen-lockfile`, checks each lockfile resolves to the new tag's commit, commits and pushes. It is the same 15 lines every release, and the lessons of v0.23.0 and v0.24.0 both record it by hand.
+
+## Tooling batch, 2026-10-09 (stream:platform)
+
+- Report repos were located by five different copies of "manifest dir, else RTM_REPORT_DIRS" (ingest cli, ship, link, imagery, pipeline status) and two env names (`RTM_REPORT_DIRS`, `RTM_REPO_ROOT` in score and reference.py): `pipeline status` and `aggregate` silently read the shared checkout (ai23, j6ld, 461y). One resolver, `scripts/lib/report-dirs.ts`, with `tests/report-dirs.test.ts` pinning the Python copy too.
+- A fits-the-whole-day check is a guess when usage is unknown: ship's d1-estimate passed a release against the full 100,000 writes without a token (r52n, t4al). Unknown now refuses; a scheduled `--alert` exits 3 rather than 0 when it cannot read.
+- A timestamp comparison (`indexed_at < published_at`) called an unchanged republish stale and needed a hand-patched row (jsk3); the index already stores the content version, so compare that.
+- A housekeeping pass removed live `*-1009` worktrees (and their unpushed branches) mid-session, and a following `cd <worktree> && python edit` then edited the shared checkout when the cd failed. Always use absolute paths with `cd ... &&` chained to the edit, and push a WIP commit as the first act in a worktree. The `worktrees prune` tool must re-check HEAD sha and age at apply time, not trust its plan.
