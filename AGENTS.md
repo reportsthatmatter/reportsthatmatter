@@ -615,6 +615,16 @@ even if a step gets skipped.
   source PDF and a README recording where it came from. Clone it as a sibling
   directory before re-ingesting.
 
+## Work streams
+
+Work falls into five streams. Every open bead carries exactly one `stream:*` label; give a new bead its label when you create it (`bd create ... -l stream:quality`). Filter with `bd list --label stream:<name>` or `bd ready --label stream:<name>`. A supervisor plans a session by stream, so say which stream a batch of work serves. (Rufus, 2026-10-09; the first labelling pass and the triage behind it are in `~/src/reportsthatmatter/triage-2026-10-09.tsv`.)
+
+- **`stream:marketing`** — getting readers: the launch, social accounts, the poster and excerpt campaign, outreach, SEO submission, and the licence and disclosure questions that gate going public. Drafts live in the `marketing` repo.
+- **`stream:reports`** — more reports, done well: finding and checking sources, new reports and further volumes, introductions and highlights, heroes and plates, per-report processing notes, and the report-preparation skills (`ifb5`).
+- **`stream:quality`** — improving report processing systematically: ingest passes, per-report text defects, quality signals, scoring, reference texts, golden pages, adjudicated breaks, the oracle, and the improvement loop (`38s`, `b78`). Prefer work that measures a class of defect over another one-off fix.
+- **`stream:product`** — what readers do on the site: highlights, sharing and quote cards, marks, search, navigation, landing pages, figures and images, and phones.
+- **`stream:platform`** — what keeps the site running and releases cheap: hosting, D1 budgets and caching, `pnpm ship` and release tooling, aliases and cards generation, CI, and worktree housekeeping.
+
 ## Decisions and open questions
 
 When a question of direction comes up (format, policy, sources, hosting, editorial), don't settle it in chat or in a PR description. Add a record to `docs/decisions/` (copy `0000-template.md`, status `open` or `proposed`) and a bead labelled `decision`, then carry on. Rufus decides open questions; update the record and close the bead when he does. See `docs/decisions/README.md`.
