@@ -471,3 +471,10 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - A fits-the-whole-day check is a guess when usage is unknown: ship's d1-estimate passed a release against the full 100,000 writes without a token (r52n, t4al). Unknown now refuses; a scheduled `--alert` exits 3 rather than 0 when it cannot read.
 - A timestamp comparison (`indexed_at < published_at`) called an unchanged republish stale and needed a hand-patched row (jsk3); the index already stores the content version, so compare that.
 - A housekeeping pass removed live `*-1009` worktrees (and their unpushed branches) mid-session, and a following `cd <worktree> && python edit` then edited the shared checkout when the cd failed. Always use absolute paths with `cd ... &&` chained to the edit, and push a WIP commit as the first act in a worktree. The `worktrees prune` tool must re-check HEAD sha and age at apply time, not trust its plan.
+
+Reviewer of #299 (2026-10-09):
+
+- "HEAD is an ancestor of main" does not mean "merged": a branch made from origin/main is one before its first commit. The first `worktrees prune` plan marked 7 unstarted `gapfill-reports/*` worktrees (branch `gapfill-d662`, no PR, uncommitted `full.md`) removable; `pnpm ingest worktrees` makes exactly such branches. Prove merged with a PR merged at this HEAD, or keep.
+- A stand-in for the published state is only a stand-in when it equals it: the staleness check compared the index with the local prerender, which an `rtm-publish` from a report repo (the case 9j2 wrote the check for) leaves as old as the index, so it said "current" (reproduced on local D1). Check that the local publish hash equals `report_versions.content_hash` before trusting the comparison.
+- Partial usage is unknown usage: this machine's D1 ledger cannot see the Worker's reads (t4al's cause), and any earlier remote call that day fills it, so "refuse when unknown" must include "analytics unreachable", in `pnpm ship` and in the `--alert` cron.
+- A CI workflow is not done until it has passed once on its own PR: ingest #69's first run failed on `tests/poppler.test.ts` (no poppler on the runner).

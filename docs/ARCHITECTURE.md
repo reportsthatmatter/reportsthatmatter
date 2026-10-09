@@ -191,8 +191,11 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   `search_index_versions.content_version` with the content version of the
   local prerender (a hash over the section pages the indexer reads; jsk3), so
   republishing unchanged text is not stale and changed text that was not
-  reindexed is, whichever path published it. Without a local prerender of a
-  report it falls back to `indexed_at` against `report_versions.published_at`.
+  reindexed is. The content comparison applies only when the local prerender
+  is the published text (its publish hash equals `report_versions.content_hash`);
+  otherwise (no local prerender, or an `rtm-publish` of text this checkout
+  never rendered) it falls back to `indexed_at` against
+  `report_versions.published_at`.
   It fails loudly, naming the report and how to fix it
   (`./scripts/reindex-search.sh <id>`).
 - **Marks** (highlights/shares) are a D1 table plus per-browser
