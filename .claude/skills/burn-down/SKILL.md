@@ -14,13 +14,14 @@ description: Use when asked to burn down, triage or verify-and-close the old ope
 1. **List.** `bd list --status open,in_progress --title-contains "<report name>" --limit 0` and `bd search "<report id>" --status open`; also `bd list --status open --desc-contains "<report id>"`. Skip epics and beads `in_progress` with a recent owner note.
 2. **For each bead**, `bd show <id>` and find its example: a paragraph id, a page, a quoted phrase, a signal name, a count.
 3. **Reproduce on current main**, cheapest first, and keep the exact output line:
-   - Words or a paragraph: `pnpm paragraphs <report-id> <words from the bead>` (prints section, printed page, id, text).
+   - Words or a paragraph: `pnpm paragraphs <report-id> <words from the bead>` (prints section, printed page, id, text). It strips note markers and sidenotes, so for a marker or footnote bug grep the text itself: `grep -n '<words>' reports/<report-id>/full.md`.
    - A signal or count: `pnpm quality report <report-id>`; `pnpm quality check` excerpts.
-   - Oracle or golden: `pnpm ingest verify <report-id> --findings` (needs `RTM_REPORT_DIRS` only for report repos you own; reading the shared checkout is fine).
+   - Oracle or golden: `pnpm ingest verify <report-id> --findings` (it writes a cache, `.cache/oracle.json`, in the report repo: in a strict read-only run, read `golden.yaml` instead). Is the bead an `xfail:` in the report repo's `golden.yaml`? `grep -n <bead-id> ../<repo>/golden.yaml`.
    - Page anchors: `pnpm ingest anchors <report-id>`.
    - Rendered: `pnpm dev`, then `/reports/<report-id>/full?p=<id>`; production read-only: `curl -s https://reportsthatmatter.org/reports/<report-id>/full?p=<id>`.
 4. **Classify** each bead, one of:
-   - **Fixed**: the example now reads right. Close with the command and the line it printed, and the release or PR that fixed it if known.
+   - **Fixed**: the bead's examples read right **and** a search for the same defect class finds no other instance (e.g. the same regex over `full.md`). Close with the command and the line it printed, and the release or PR that fixed it if known. If the bead is still an `xfail:` in `golden.yaml`, it is not closable until that xfail is narrowed (AGENTS.md "A bug bead closes with a golden page"): verdict "fixed, xfail to narrow", left open with that note.
+   - **Partly fixed**: the examples are fixed but the class persists elsewhere: still open; append the new example.
    - **Obsolete**: the thing it describes no longer exists (removed feature, superseded plan, a duplicate). Close naming what superseded it (`bd close <id> --reason "Duplicate of <id>"`).
    - **Still open**: append today's evidence and make it handoff-ready (`bead-writing` skill: Goal/Where/Acceptance/Verify/Out of scope, `stream:*`, `level:*`, `handoff`).
    - **Unsure**: leave open, append what you checked and why it is not conclusive.
