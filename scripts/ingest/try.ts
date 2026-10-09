@@ -28,6 +28,7 @@ import { parse } from "yaml";
 import { SIGNALS } from "../../src/lib/quality/signals.ts";
 import { diffTable } from "../../src/lib/quality/diff.ts";
 import { diffSnapshots, formatDiff, type Snapshot } from "../lib/render-diff.ts";
+import { reportDirs } from "../lib/report-dirs.ts";
 import { diffFindings, formatFindingsDiff, fromAnchors, fromOracle, fromQuality, type NormFinding } from "../lib/findings-diff.ts";
 import { diffFolios, formatFolioDiff, type FolioReport } from "../lib/folios.ts";
 import { installedIngest } from "../lib/ingest-version.ts";
@@ -45,8 +46,8 @@ const run = (cmd: string, args: string[], opts: { cwd?: string; env?: NodeJS.Pro
 };
 
 function manifestIds(): Map<string, string> {
-  const raw = parse(readFileSync(join(ROOT, "reports/manifest.yaml"), "utf8")) as { reports: Array<{ id: string; dir: string }> };
-  return new Map(raw.reports.map((r) => [r.id, resolve(ROOT, r.dir)]));
+  // The manifest's own (shared) location, not RTM_REPORT_DIRS: a trial branches from each repo's committed HEAD there.
+  return new Map([...reportDirs(ROOT)].map(([id, r]) => [id, r.defaultDir]));
 }
 
 /** The newest mtime under `dir`, to tell a stale dist from a built one. */

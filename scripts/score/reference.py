@@ -24,7 +24,7 @@ Usage (from the site repo root; report repos are found through reports/manifest.
   python3 scripts/score/reference.py all <id>       # both
   python3 scripts/score/reference.py list
 
-  RTM_REPO_ROOT=DIR  use DIR/<repo> (report-repo worktrees) instead of the sibling checkouts
+  RTM_REPORT_DIRS=DIR  use DIR/<repo> (report-repo worktrees) instead of the sibling checkouts
   --cache DIR   read raw files from DIR (same file names) instead of the network, still recording the source URL
 
 Holds the development set (us-911-commission, uk-saville-inquiry,
@@ -193,8 +193,9 @@ REFERENCES = {
 
 def repo_dir(report_id):
     d = _repo_dir(report_id)
-    # RTM_REPO_ROOT: a directory of report-repo worktrees (same basenames) to use instead of the siblings
-    alt = os.environ.get("RTM_REPO_ROOT")
+    # RTM_REPORT_DIRS (the older name RTM_REPO_ROOT still works): a directory of report-repo worktrees (same
+    # basenames) to use instead of the siblings. The same three rules as scripts/lib/report-dirs.ts.
+    alt = os.environ.get("RTM_REPORT_DIRS") or os.environ.get("RTM_REPO_ROOT")
     if alt and os.path.isdir(os.path.join(alt, os.path.basename(d))):
         return os.path.join(alt, os.path.basename(d))
     return d

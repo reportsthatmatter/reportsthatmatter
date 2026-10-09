@@ -9,6 +9,7 @@
  *   pnpm ingest preflight [<slug>...]           is each repo's installed @rtm/ingest the one it pins? (run, verify, check, baseline do this first; --no-preflight skips)
  *   pnpm ingest outline <slug>                  one line per PDF page: headings, block counts (to choose golden pages)
  *   pnpm ingest worktrees <id>... [--dir <dest>] [--branch <name>] [--no-install]   git worktrees of report repos; prints the RTM_REPORT_DIRS to export
+ *   pnpm ingest aggregate [<id>...] [--shared]   copy full.md into the site; with ids, only those reports (and only their repos are checked against the guard)
  *   pnpm ingest recheck [--passes a,b] [<id>...]   pre-PR: re-ingest (in memory) each report declaring a changed pass; fails on any throw, e.g. a correction matching 0 times
  *   pnpm ingest crosscheck [<id>...]            golden pages that contradict reference/adjudicated.yaml
  *   run, baseline and aggregate refuse a report repo that is the shared checkout (RTM_REPORT_DIRS worktrees, or --shared for the integrator)
@@ -39,6 +40,7 @@ import { dirname } from "node:path";
 import { sharedMessage, sharedTargets, worktreePlan, type Target } from "../lib/shared-checkout.ts";
 import { goldenVsAdjudicated } from "../lib/golden-adjudicated.ts";
 import { selectReports } from "../lib/recheck.ts";
+import { reportDirFor, reportDirs as resolvedDirs } from "../lib/report-dirs.ts";
 import { formatEditionReport } from "./edition-report.ts";
 import { parseVerifyArgs } from "./verify-args.ts";
 import { installedIngest } from "../lib/ingest-version.ts";
@@ -93,18 +95,9 @@ const REPORTS = join(ROOT, "reports");
  * rather than a single flag day.
  */
 function reportDirs(): Map<string, string> {
-  const raw = parseYaml(readFileSync(join(REPORTS, "manifest.yaml"), "utf8")) as {
-    reports?: Array<{ id: string; dir: string }>;
-  };
-  // RTM_REPORT_DIRS=<dir>: use <dir>/<repo> where it exists, so a report repo's git worktree
-  // (golden.yaml, an ingest.ts under change) is read instead of the shared checkout.
-  const override = process.env.RTM_REPORT_DIRS;
-  return new Map(
-    (raw.reports ?? []).map((entry) => {
-      const alt = override ? join(resolve(override), basename(entry.dir)) : undefined;
-      return [entry.id, alt && existsSync(alt) ? alt : join(ROOT, entry.dir)];
-    })
-  );
+  // scripts/lib/report-dirs.ts: RTM_REPORT_DIRS=<dir> uses <dir>/<repo> where it exists, so a report repo's
+  // git worktree (golden.yaml, an ingest.ts under change) is read instead of the shared checkout.
+  return new Map([...resolvedDirs(ROOT)].map(([id, r]) => [id, r.dir]));
 }
 
 function reportDir(id: string): string {
@@ -115,8 +108,7 @@ function reportDir(id: string): string {
 
 /** The manifest's own location for a report repo, ignoring RTM_REPORT_DIRS: what "the shared checkout" means. */
 function defaultDirs(): Map<string, string> {
-  const raw = parseYaml(readFileSync(join(REPORTS, "manifest.yaml"), "utf8")) as { reports?: Array<{ id: string; dir: string }> };
-  return new Map((raw.reports ?? []).map((entry) => [entry.id, join(ROOT, entry.dir)]));
+  return new Map([...resolvedDirs(ROOT)].map(([id, r]) => [id, r.defaultDir]));
 }
 
 /** Refuses (returns false, with the message) when a command would touch a shared report checkout. */
@@ -130,9 +122,19 @@ function allowWrites(command: string, ids: string[], shared: boolean): boolean {
 }
 
 /** Copies each report's authoritative markdown into this repo for serving. */
-function runAggregate(shared: boolean): number {
-  if (!allowWrites("aggregate", [...reportDirs().keys()], shared)) return 1;
-  for (const [id, dir] of reportDirs()) {
+function runAggregate(shared: boolean, only: string[] = []): number {
+  const all = reportDirs();
+  const unknown = only.filter((id) => !all.has(id));
+  if (unknown.length) {
+    console.error(`Not in reports/manifest.yaml: ${unknown.join(", ")}`);
+    return 1;
+  }
+  // With ids, only those reports are copied and only their repos are checked against the shared-checkout guard
+  // (j6ld): registering one new report needs one worktree, not thirteen.
+  const wanted = only.length ? only : [...all.keys()];
+  if (!allowWrites("aggregate", wanted, shared)) return 1;
+  for (const id of wanted) {
+    const dir = all.get(id)!;
     const source = join(dir, "full.md");
     if (!existsSync(source)) {
       console.error(
@@ -855,7 +857,7 @@ else if (command === "outline") code = await runOutline(rest);
 else if (command === "page") code = await runPage(rest);
 else if (command === "baseline") code = await runBaseline(rest);
 else if (command === "check") code = await runCheck(rest);
-else if (command === "aggregate") code = runAggregate(sharedFlag);
+else if (command === "aggregate") code = runAggregate(sharedFlag, rest.filter((a) => !a.startsWith("--")));
 else if (command === "worktrees") code = runWorktrees(rest);
 else if (command === "recheck") code = await runRecheck(rest);
 else if (command === "crosscheck") code = runCrosscheck(rest);
@@ -897,7 +899,7 @@ else if (command === "folios") {
 }
 else if (command === "referee") {
   // A report scored but not yet published (Duelfer) is not in the manifest: its repo is a sibling, as `pnpm score` reads it.
-  const repoOf = (id: string) => reportDirs().get(id) ?? join(ROOT, "..", id);
+  const repoOf = (id: string) => reportDirFor(ROOT, id).dir;
   code = await (await import("./referee.ts")).runReferee(rest, {
     root: ROOT,
     reportDir: repoOf,
