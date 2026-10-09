@@ -11,6 +11,22 @@
 # Written 2026-10-04 (reportsthatmatter-gqsy.3) to the same rule as Jack Smith's:
 # our words neutral and attributed ("the committee concludes"), every judgment
 # in the report's own words and in quotation marks.
+#
+# Sources for the background facts that are not in the report (checked 2026-10-04):
+#   commission bill: H.R. 3233 passed the House 19 May 2021; Senate cloture failed
+#     28 May 2021, 54 to 35 (en.wikipedia.org/wiki/January_6_commission; congress.gov H.R. 3233 actions)
+#   first hearing 27 July 2021, four police officers (npr.org/2021/07/27/1021051613);
+#     hearings June-October 2022: the report's own "nine public hearings" (p.3)
+#   referral vote 19 December 2022, unanimous (abc7.com/12590634)
+#   Jack Smith appointed 18 November 2022, indicted Trump 1 August 2023, case
+#     dismissed 25 November 2024 (the Jack Smith report, Vol. 1, on this site)
+#   Biden's pre-emptive pardons of the committee's members and staff (and the
+#     officers who testified), 20 January 2025 (abc7.com/post/15818813)
+#   Proclamation 10887, 20 January 2025: clemency for about 1,500 people, 14
+#     commutations (en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants)
+#   House Administration Subcommittee on Oversight (chair Barry Loudermilk):
+#     "Initial Findings Report", 11 March 2024 (cha.house.gov/2024/3/chairman-loudermilk-releases-january-6-initial-findings-report)
+#     and an interim report, December 2024 (cha.house.gov/2024/12/chairman-loudermilk-releases-second-january-6-2021-report)
 
 report: us-jan6-committee
 status: approved
@@ -37,7 +53,9 @@ background: |
   Liz Cheney, its vice chair, and Adam Kinzinger. The report sets out this
   history, and the objections to the committee's make-up, in its own words.
 
-  The committee held its hearings in 2022. On 19 December 2022 it voted to
+  Its first hearing, in July 2021, heard police officers who had defended the
+  Capitol; its main public hearings ran from June to October 2022. On 19
+  December 2022 it voted to
   refer Donald Trump and others to the Justice Department, and it published
   this report, dated 22 December 2022, in the last days of that Congress. The
   referrals are a committee's recommendations, not charges; its findings are a
@@ -86,8 +104,8 @@ findings:
   - text: It describes the attempt to put Jeffrey Clark in charge of the Justice Department, dropped when the department's leadership said they would resign.
     cites: [committee-s-investigation-has-shown, faced-mass-resignations-recognizing-breakage]
 
-  - text: It describes the pressure on Vice President Mike Pence to refuse to count electoral votes, which the President's own lawyers told him Pence could not lawfully do.
-    cites: [central-element-donald-trump-s, be-absolutely-clear-no-white, response-vice-president-pence-again]
+  - text: 'It describes the pressure on Vice President Mike Pence to refuse to count electoral votes, and finds that "no White House lawyer believed Pence could lawfully refuse to count electoral votes."'
+    cites: [central-element-donald-trump-s, be-absolutely-clear-no-white, jacob-recorded-eastman-s-admission]
     excerpt:
       paragraph: jacob-recorded-eastman-s-admission
       quote: >-
@@ -96,7 +114,7 @@ findings:
         acknowledges that his proposal violates several provisions of
         statutory law.”
 
-  - text: It finds that during the attack he was urged for hours to tell his supporters to leave the Capitol, and did so at 4:17 p.m.; it calls those 187 minutes a dereliction of duty.
+  - text: It finds that during the attack he was urged for hours to tell his supporters to leave the Capitol, and did so at 4:17 p.m.; it calls those 187 minutes "a dereliction of duty".
     cites: [from-outset-violence-several-hours, 187-minutes-between-end-president, evidence-overwhelmingly-demonstrates-president-trump]
 
   - text: It refers Donald Trump and others to the Justice Department, and makes eleven recommendations, starting with reform of the Electoral Count Act.
@@ -138,7 +156,7 @@ reading_guide:
         tweeted a video in which he told the rioters to go home.
 
   - section: recommendations
-    why: The committee's eleven recommendations, from the Electoral Count Act to threats against election workers.
+    why: The committee's eleven recommendations, from the Electoral Count Act to the Insurrection Act.
 
 highlights:
   - paragraph: committee-s-hearings-we-presented
@@ -152,10 +170,10 @@ highlights:
     quote: White House Counsel Pat Cipollone threatened to resign as well, describing Clark’s letter as a “murder-suicide pact.”
     card: true
   - paragraph: short-president-trump-informed-over
-    quote: In short, President Trump was informed over and over again, by his senior appointees, campaign experts and those who had served him for years, that his election fraud allegations were nonsense.
+    quote: President Trump was informed over and over again, by his senior appointees, campaign experts and those who had served him for years, that his election fraud allegations were nonsense.
+    card: true
   - paragraph: ultimately-even-rudolph-giuliani-his
     quote: he admitted during his Select Committee deposition that “I do not think the machines stole the election.”
-    card: true
   - paragraph: jacob-recorded-eastman-s-admission
     quote: “Professor Eastman acknowledges that his proposal violates several provisions of statutory law.”
     card: true

@@ -5,10 +5,24 @@ function pageLabel(cite: Citation): string {
   return cite.page ? `p. ${cite.page}` : "¶";
 }
 
-/** A quotation that starts mid-sentence says so, as it would in print. */
+/**
+ * A quotation that starts mid-sentence says so, as it would in print. A quotation
+ * inside it nests as single quotes (as `formatPost` does for posts), so the outer
+ * marks never double up: “…to “find 11,780 votes.”” reads as “…to ‘find 11,780 votes.’”.
+ * Display only: the verbatim check and the `?h=` link use the quote as written.
+ */
 function quoted(text: string): string {
   const opening = /^[a-z]/.test(text) ? "…" : "";
-  return `“${opening}${escapeHtml(text)}”`;
+  let open = true;
+  const inner = text
+    .replace(/"/g, () => {
+      const mark = open ? "‘" : "’";
+      open = !open;
+      return mark;
+    })
+    .replace(/“/g, "‘")
+    .replace(/”/g, "’");
+  return `“${opening}${escapeHtml(inner)}”`;
 }
 
 /** A key quotation, set off from our words, with the way into its context. */

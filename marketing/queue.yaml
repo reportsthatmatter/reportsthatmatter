@@ -949,7 +949,7 @@ items:
       Republican Secretary of State Brad Raffensperger to “find 11,780 votes.”
     text: >-
       “During a January 2, 2021, call, President Trump pressured Georgia’s
-      Republican Secretary of State Brad Raffensperger to “find 11,780 votes.””
+      Republican Secretary of State Brad Raffensperger to ‘find 11,780 votes.’”
 
 
       — Final Report of the Select Committee to Investigate the January 6th
@@ -965,7 +965,7 @@ items:
       describing Clark’s letter as a “murder-suicide pact.”
     text: >-
       “White House Counsel Pat Cipollone threatened to resign as well,
-      describing Clark’s letter as a “murder-suicide pact.””
+      describing Clark’s letter as a ‘murder-suicide pact.’”
 
 
       — Final Report of the Select Committee to Investigate the January 6th
@@ -974,30 +974,14 @@ items:
     card: assets/cards/us-jan6-committee/q-6e045248.png
     scheduled: 2026-12-14
     posted_url: null
-  - id: us-jan6-committee:ultimately-even-rudolph-giuliani-his:b9ebb2af
-    report: us-jan6-committee
-    paragraph: ultimately-even-rudolph-giuliani-his
-    quote: he admitted during his Select Committee deposition that “I do not think
-      the machines stole the election.”
-    text: >-
-      “he admitted during his Select Committee deposition that “I do not think
-      the machines stole the election.””
-
-
-      — Final Report of the Select Committee to Investigate the January 6th
-      Attack on the United States Capitol, p. 19
-    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=ultimately-even-rudolph-giuliani-his&h=machines%20stole%20the%20election%2C%20|he%20admitted%20during%20his%20Select%20Committee%20deposition%20that%20%E2%80%9CI%20do%20not%20think%20the%20machines%20stole%20the%20election.%E2%80%9D|%20An%20attorney%20representing&src=bsky
-    card: assets/cards/us-jan6-committee/q-71d6de6c.png
-    scheduled: 2026-12-15
-    posted_url: null
   - id: us-jan6-committee:jacob-recorded-eastman-s-admission:0da338f0
     report: us-jan6-committee
     paragraph: jacob-recorded-eastman-s-admission
     quote: “Professor Eastman acknowledges that his proposal violates several
       provisions of statutory law.”
     text: >-
-      ““Professor Eastman acknowledges that his proposal violates several
-      provisions of statutory law.””
+      “‘Professor Eastman acknowledges that his proposal violates several
+      provisions of statutory law.’”
 
 
       — Final Report of the Select Committee to Investigate the January 6th
@@ -1021,4 +1005,22 @@ items:
     link: https://reportsthatmatter.org/reports/us-jan6-committee?p=1-21-p-m-president&h=President%20chose%20not%20to%20do%20so.%20|It%20was%20not%20until%204%3A17%20p.m.%20that%20President%20Trump%20finally%20tweeted%20a%20video%20in%20which%20he%20told%20the%20rioters%20to%20go%20home.|&src=bsky
     card: assets/cards/us-jan6-committee/q-41b8f733.png
     scheduled: 2026-12-17
+    posted_url: null
+  - id: us-jan6-committee:short-president-trump-informed-over:920552bc
+    report: us-jan6-committee
+    paragraph: short-president-trump-informed-over
+    quote: President Trump was informed over and over again, by his senior
+      appointees, campaign experts and those who had served him for years, that
+      his election fraud allegations were nonsense.
+    text: >-
+      “President Trump was informed over and over again, by his senior
+      appointees, campaign experts and those who had served him for years, that
+      his election fraud allegations were nonsense.”
+
+
+      — Final Report of the Select Committee to Investigate the January 6th
+      Attack on the United States Capitol, p. 16
+    link: https://reportsthatmatter.org/reports/us-jan6-committee?p=short-president-trump-informed-over&h=In%20short%2C%20|President%20Trump%20was%20informed%20over%20and%20over%20again%2C%20by%20his%20senior%20appointees%2C%20campaign%20experts%20and%20those%20who%20had%20served%20him%20for%20years%2C%20that%20his%20election%20fraud%20allegations%20were%20nonsense.|&src=bsky
+    card: assets/cards/us-jan6-committee/q-ef72fb4f.png
+    scheduled: 2026-12-18
     posted_url: null

@@ -81,6 +81,12 @@ describe("formatPost", () => {
     );
   });
 
+  it("nests a typographic quotation inside the quote too, instead of doubling the marks", () => {
+    expect(formatPost("pressured him to “find 11,780 votes.”", "The Demo Report", 44)).toBe(
+      "“pressured him to ‘find 11,780 votes.’”\n\n— The Demo Report, p. 44"
+    );
+  });
+
   it("alternates opening and closing marks across more than one nested quotation", () => {
     expect(formatPost('he said "a" then "b"', "The Demo Report", 1)).toBe("“he said ‘a’ then ‘b’”\n\n— The Demo Report, p. 1");
   });

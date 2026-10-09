@@ -417,6 +417,12 @@ marks:
       Public domain: the official seal of the House of Representatives,
       reproduced on a work of the U.S. Government (17 U.S.C. 105), per the
       report repo's README. No third-party credit is printed on the page.
+      Not a copyright limit but a use one: 18 U.S.C. 713(a) bars displaying
+      the House seal "in a manner reasonably calculated to convey ... a
+      false impression of sponsorship or approval" by the Government. Here
+      it is shown only as this report's plate, beside the report's own title
+      and the site's name, as the report itself prints it; never use it as
+      a site mark or on anything that is not this report (review 2026-10-04).
     treat: { black: 0.15, white: 0.90, grain: 70, cut: none }
     caveat: >-
       The seal is a round colour emblem (blue ring, gold lettering); in
