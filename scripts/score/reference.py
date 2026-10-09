@@ -192,7 +192,14 @@ REFERENCES = {
 
 
 def repo_dir(report_id):
-    d = _repo_dir(report_id)
+    try:
+        d = _repo_dir(report_id)
+    except SystemExit:
+        # not in the manifest and no sibling: a worktree of `<id>` under the override still counts (rule 3)
+        d = os.path.abspath(os.path.join(SITE, "..", report_id))
+        alt = os.environ.get("RTM_REPORT_DIRS") or os.environ.get("RTM_REPO_ROOT")
+        if not (alt and os.path.isdir(os.path.join(alt, report_id))):
+            raise
     # RTM_REPORT_DIRS (the older name RTM_REPO_ROOT still works): a directory of report-repo worktrees (same
     # basenames) to use instead of the siblings. The same three rules as scripts/lib/report-dirs.ts.
     alt = os.environ.get("RTM_REPORT_DIRS") or os.environ.get("RTM_REPO_ROOT")

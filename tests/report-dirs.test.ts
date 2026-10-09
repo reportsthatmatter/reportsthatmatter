@@ -54,5 +54,10 @@ describe("report-dirs", () => {
     if (out.status !== 0 && /ModuleNotFound|ImportError/.test(out.stderr)) return; // python deps absent: skip
     expect(out.stdout.trim()).toBe(join(wt, "a-report"));
     expect(run({ RTM_REPO_ROOT: wt }).stdout.trim()).toBe(join(wt, "a-report"));
+    // an id outside the manifest with no sibling, only a worktree: rule 2 then 3, as in TypeScript
+    mkdirSync(join(wt, "new-id"));
+    const py2 = py.replace('repo_dir("a")', 'repo_dir("new-id")');
+    const out2 = spawnSync("python3", ["-c", py2], { encoding: "utf8", env: { ...process.env, RTM_REPO_ROOT: "", RTM_REPORT_DIRS: wt } });
+    expect(out2.stdout.trim()).toBe(join(wt, "new-id"));
   });
 });
