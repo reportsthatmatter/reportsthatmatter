@@ -333,7 +333,7 @@ describe("drive: the pin bump", () => {
       ["/repos/beta", SPEC("0.21.0")],
       ["/repos/gamma", SPEC("0.21.0")],
     ]);
-    expect(h.calls).toEqual(["pnpm -C /repos/beta install", "pnpm -C /repos/gamma install"]);
+    expect(h.calls).toEqual(["pnpm -C /repos/beta install --no-frozen-lockfile", "pnpm -C /repos/gamma install --no-frozen-lockfile"]);
 
     const ahead = harness({ handler: happy, probe: { pins: { "/repos/alpha": SPEC("0.22.0") } } });
     expect(await drive(ahead.rt, buildSteps())).toBe(1);

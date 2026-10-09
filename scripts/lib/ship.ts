@@ -342,7 +342,7 @@ export function buildSteps(): Step[] {
       kind: "write",
       describe: (ctx, _s, probe) => {
         const rows = pinTable(ctx, probe.pinOf);
-        const lines = rows.map((r) => (r.action === "bump" ? `${r.dir}/package.json: "@rtm/ingest" ${r.pinned} -> "${ctx.spec}", then CI=true pnpm -C ${r.dir} install` : `${r.dir}: ${r.action === "ok" ? "already at the site's pin, untouched" : r.action === "ahead" ? "AHEAD of the site's pin: the guard stops" : "no pin: the guard stops"}`));
+        const lines = rows.map((r) => (r.action === "bump" ? `${r.dir}/package.json: "@rtm/ingest" ${r.pinned} -> "${ctx.spec}", then CI=true pnpm -C ${r.dir} install --no-frozen-lockfile` : `${r.dir}: ${r.action === "ok" ? "already at the site's pin, untouched" : r.action === "ahead" ? "AHEAD of the site's pin: the guard stops" : "no pin: the guard stops"}`));
         return lines;
       },
       async run(rt) {
@@ -353,7 +353,7 @@ export function buildSteps(): Step[] {
           if (row.action === "bump") {
             probe.writePin(row.dir, ctx.spec);
             rt.out(`  ✓ ${row.dir}: ${row.pinned} → ${ctx.spec}`);
-            await item(rt, "pin-bump", `install ${row.dir.split("/").pop()}`, { argv: ["pnpm", "-C", row.dir, "install"], env: { CI: "true" } }, [`pnpm -C ${row.dir} install  (the lockfile and node_modules must follow the pin)`]);
+            await item(rt, "pin-bump", `install ${row.dir.split("/").pop()}`, { argv: ["pnpm", "-C", row.dir, "install", "--no-frozen-lockfile"], env: { CI: "true" } }, [`pnpm -C ${row.dir} install --no-frozen-lockfile  (the lockfile and node_modules must follow the pin; a frozen install refuses a pin change, jsk3)`]);
           } else rt.out(`  = ${row.dir}: already ${ctx.spec}`);
           mark(rt, "pin-bump", key);
         }
