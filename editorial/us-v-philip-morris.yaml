@@ -81,7 +81,7 @@ findings:
         general public. It is also the means of establishing a controversy."
 
   - text: It found that the companies denied that nicotine is addictive, although they recognised it internally, and falsely denied that they controlled the nicotine their cigarettes deliver.
-    cites: [defendants-have-made-continue-make, indeed-day-none-defendant-cigarette, defendants-spent-many-millions-dollars]
+    cites: [defendants-have-made-continue-make, defendants-spent-many-millions-dollars]
     excerpt:
       paragraph: defendants-spent-many-millions-dollars
       quote: >-
@@ -211,8 +211,6 @@ highlights:
       during live testimony in January 2005, more than forty years after the
       1964 Surgeon General's Report, Reynolds American Executive Chairman
       Andrew Schindler refused to admit that smoking causes disease.
-  - paragraph: indeed-day-none-defendant-cigarette
-    quote: Indeed, to this day none of Defendant cigarette manufacturers publicly admit that nicotine is an addictive drug delivered in cigarettes.
   - paragraph: defendants-spent-many-millions-dollars
     quote: >-
       Defendants spent many millions of dollars and thousands of scientist
