@@ -13,7 +13,7 @@
 
   --ink: #252525;
   --body: #575657;
-  --muted: #8a8a8c;
+  --muted: #6e6e70; /* 4.8:1 on --canvas (was #8a8a8c, 3.2:1: axe color-contrast on every page) */
   --rule: #e0e0e0;
   --rule-strong: #cfcfcf;
 
@@ -161,6 +161,7 @@ hr {
   opacity: 0.55;
 }
 
+
 /* ---------- buttons ---------- */
 
 .btn {
@@ -272,6 +273,7 @@ hr {
   }
 }
 
+.col h2,
 .col h3 {
   font-family: var(--serif);
   font-weight: 400;
@@ -632,6 +634,9 @@ hr {
 }
 
 .search-form select {
+  /* A long report title made the select 800px wide and the whole page scroll sideways on a phone. */
+  max-width: 100%;
+  min-width: 0;
   font-family: var(--mono);
   font-size: 0.72rem;
   letter-spacing: 0.06em;
@@ -1564,7 +1569,12 @@ html.passage-landing body {
 
 .site-footer-credit {
   font-size: 0.8rem;
-  opacity: 0.7;
+}
+
+/* Links in running text must not rely on colour alone (WCAG 1.4.1). */
+.site-footer-credit a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .site-footer nav {
