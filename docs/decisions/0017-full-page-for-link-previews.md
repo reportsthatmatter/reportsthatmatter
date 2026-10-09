@@ -3,7 +3,7 @@
 - **Status:** proposed
 - **Date raised:** 2026-10-09 · **Date decided:** —
 - **Decided by:** —
-- **Beads:** reportsthatmatter-te56 (the defect); the `decision` bead filed with this record
+- **Beads:** reportsthatmatter-te56 (the defect); reportsthatmatter-yvfr (this decision)
 
 ## Question
 
