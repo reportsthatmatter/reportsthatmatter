@@ -12,7 +12,9 @@
  * Staleness is by content, not by clock (jsk3): `search_index_versions.content_version` is a hash over the
  * section pages the indexer read, and `pnpm prerender` gives the same hash for the text about to be published, so
  * republishing unchanged text is not stale (the old `published_at > indexed_at` test said it was). Run it after
- * `pnpm prerender` of the text you published. A report with no local prerender falls back to the timestamps.
+ * `pnpm prerender` of the text you published. The content comparison applies only where the local prerender's
+ * publish hash equals `report_versions.content_hash` (it is the published text); otherwise, e.g. a report repo's own
+ * `rtm-publish` of text this checkout never rendered (9j2), it falls back to the timestamps.
  *
  * Usage: pnpm check-search-staleness [--remote|--local]  (default --remote)
  */
@@ -22,6 +24,7 @@ import { join } from "node:path";
 import { extractPassages } from "@rtm/ingest";
 import { readReportPassages } from "./lib/report-passages.ts";
 import { findStale } from "./lib/search-staleness.ts";
+import { localHash } from "./lib/publish-local.mjs";
 
 const root = join(import.meta.dirname, "..");
 const target = process.argv.includes("--local") ? "--local" : "--remote";
@@ -33,14 +36,17 @@ const query = (sql) => run(target, { command: sql })[0].results;
 const versions = query("SELECT report, content_hash, published_at FROM report_versions");
 const indexed = query("SELECT report, content_version, indexed_at FROM search_index_versions");
 
-const localVersion = (report) => {
+// The local prerender's content version, and its publish hash: the content comparison is trusted only when the
+// local prerender is the published text (scripts/lib/search-staleness.ts).
+const locals = new Map();
+for (const { report } of versions) {
   try {
-    return readReportPassages(root, report, extractPassages).contentVersion;
+    locals.set(report, { contentVersion: readReportPassages(root, report, extractPassages).contentVersion, publishHash: await localHash(root, report) });
   } catch {
-    return null;
+    locals.set(report, null);
   }
-};
-const stale = findStale(versions, indexed, localVersion);
+}
+const stale = findStale(versions, indexed, (report) => locals.get(report) ?? null);
 
 if (stale.length) {
   console.error(`${stale.length} report(s) have a stale search index (${target}):`);
