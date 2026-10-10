@@ -59,7 +59,7 @@ reports:
     markers-wrong: 1
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 5
+    blocks-wrong: 1
   uk-hillsborough-panel:
     markers-wrong: 15  # why: ivg.3 - read on the website-edition text: pp.13-25 are the Report summary, which repeats chapter text, so the check finds those paragraphs far away ("66669 words before the start"); pp.33/34/74/107/173 are figure captions the edition prints a page early or late; pp.128/174/316/366 sit 7-86 words into the right PDF page
     markers-stacked: 1  # why: ivg.3 - one marker after a block that runs over several pages (a long table or caption block in the website edition)
