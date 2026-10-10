@@ -48,10 +48,10 @@ reports:
     note-reference-sequence: 71
     note-text-in-body: 48
     note-citation-vocabulary: 0
-    furniture-paragraph: 150
+    furniture-paragraph: 116
     contents-entry-without-heading: 56
     heading-density: 1  # why: reportsthatmatter-jsqw (the report's own Issue / Findings / Discussion / Recommendations labels, now level-4 subheads as golden pages 22 and 29 have them; 139 headings per 100 pages)
-    heading-repeated: 12  # why: reportsthatmatter-jsqw (the same division labels repeat by design: "Findings" ×46, "Discussion" ×43)
+    heading-repeated: 7
     heading-function-word: 5
     heading-marker: 0
     heading-long: 17
@@ -63,7 +63,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   columbia-accident:
-    severed-into-quote: 54
+    severed-into-quote: 40
     severed-paragraph: 70
     bare-footnote-marker: 2
     bare-marker-after-quote: 0
@@ -72,10 +72,10 @@ reports:
     note-reference-sequence: 7
     note-text-in-body: 7
     note-citation-vocabulary: 0
-    furniture-paragraph: 61
-    contents-entry-without-heading: 71
+    furniture-paragraph: 11
+    contents-entry-without-heading: 67
     heading-density: 1
-    heading-repeated: 2
+    heading-repeated: 3  # why: reportsthatmatter-wck (typographicHeadings: the subhead "Conclusion" now stands as a heading in three chapters; each is real, +1)
     heading-function-word: 2
     heading-marker: 0
     heading-long: 0
@@ -85,7 +85,7 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 4  # why: reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
+    quote-share-parity: 5  # why: reportsthatmatter-98u (speakerTurns joins the wrapped transcript lines to their turns, so the transcript turns leave their quotation blocks (severed-into-quote 54 to 40), there are fewer blocks and the share on both sides rises: 10.0% even, 14.0% odd, gap 4.0; no quotation added) and reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
   jack-smith-vol1:
     severed-into-quote: 2
     severed-paragraph: 5

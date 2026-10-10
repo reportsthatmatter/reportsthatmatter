@@ -3415,11 +3415,13 @@ Ugly fallout from the spill, tarballs foul a beach near Venice, Louisiana. The r
 
 This chapter presents the Commission's recommendations for addressing the causes and consequences of the spill with a focus on the government's role (recommendations targeted to industry are presented in Chapter 8). The recommendations reflect the government's sweeping sovereign authority as both owner of the seabed and water column and as the regulator of activities, with the overriding responsibility to manage and protect the valuable resources of the Outer Continental Shelf (OCS) on behalf of current and future generations of Americans. They are grouped in seven distinct areas:
 
-### Improving the Safety of Offshore Operations
-
-> B. Safeguarding the Environment C. Strengthening Oil Spill Response, Planning, and Capacity D. Advancing Well-Containment Capabilities E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf F. Ensuring Financial Responsibility
-
-### Promoting Congressional Engagement to Ensure Responsible Offshore Drilling
+- A. Improving the Safety of Offshore Operations
+- B. Safeguarding the Environment
+- C. Strengthening Oil Spill Response, Planning, and Capacity
+- D. Advancing Well-Containment Capabilities
+- E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf
+- F. Ensuring Financial Responsibility
+- G. Promoting Congressional Engagement to Ensure Responsible Offshore Drilling
 
 The sections that follow summarize the context and rationale for each of the Commission's specific recommendations. Other chapters of this report, as well as staff working papers published by the Commission and available at www.oilspillcommission.gov,* provide additional detail and further support for the recommendations. Chapter 10 presents additional recommendations concerning the future of offshore drilling, including prospective drilling in the Arctic.
 
