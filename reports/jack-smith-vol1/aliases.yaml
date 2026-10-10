@@ -75,7 +75,7 @@ aliases:
   integrity-united-states-process-collecting: trump-s-prosecution-served-multiple
   investigations-ongoing-presented-unprecedented-challenge: trump-s-announcement-his-candidacy
   invocation-executive-privilege-try-prevent: time-consuming-investigative-challenge-office-faced
-  january-6-2025-page-7: ongoing-prosecutions-deoliveira-nauta-which
+  january-6-2025-page-7: draft-report-violates-every-one
   january-6-3-41-m: around-same-time-issued-his
   january-6-beautiful-day-championed: did-his-4-17-p
   january-6-obstruct: fischer-v-united-states-603
@@ -92,6 +92,7 @@ aliases:
   officials-ignore-true-vote-counts: set-forth-original-superseding-indictments
   one-campaign-s-agents-wrote: most-part-co-conspirators-deceived-trump
   ongoing-investigation-into-whether-any: november-18-2022-attorney-general
+  ongoing-prosecutions-deoliveira-nauta-which: draft-report-violates-every-one
   order-10-18-2024-government: 266-10-18-2024-government
   other-federal-state-officials-some-appointed: courts-which-trump-brought-numerous
   pence-discard-legitimate-electoral-certificates: trump-co-conspirators-sought-deprive-that-injure
@@ -108,6 +109,7 @@ aliases:
   public-docket-10-2-2024: depaiiment-s-policy-regarding-elections
   publicly-spreading-false-harmful-social: trump-also-targeted-private-citizens
   rather-office-s-m1ss10n-all: two-components-department-s-election
+  rather-presidential-immunity-based-national: preparation-release-report-would-also
   regarding-election-notice-state-federal: trump-s-false-claims-included
   reply-briefs-11-17-2023: reply-briefs-158-11-17
   representative-perry-copy-contents-his: chief-judge-united-states-district
@@ -237,3 +239,11 @@ unmatched:
   - statement-from-leaders-updated-our
   - trump-v-eiden-394-wis
   - wsj-editorial-board-jack-smith
+moved_out:
+  3-center-presidential-transition-presidential: null
+  4-ecf-no-281-6: null
+  cc-jack-smith-special-counsel: null
+  december-11-2024-we-contacted: null
+  draft-report-violates-every-one: null
+  extent-special-counsel-smith-possesses: null
+  preparation-release-report-would-also: null

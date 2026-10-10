@@ -227,6 +227,24 @@ describe("buildQueue", () => {
     ]);
   });
 
+  it("moves a not-yet-posted item's page number with the pinned text, never a posted one's (p3o8)", () => {
+    const first = buildQueue({
+      resolved: [resolved({ id: "a" }), resolved({ id: "b", paragraph: "other" })],
+      existing: [],
+      today: "2026-09-27",
+      reportOrder: ["demo"],
+    });
+    const posted = first.queue.map((i) => (i.id === "b" ? { ...i, posted_url: "https://bsky.app/x" } : i));
+    const moved = '"So what?"\n\n— The Demo Report, p. 29';
+    const { queue } = buildQueue({
+      resolved: [resolved({ id: "a", text: moved }), resolved({ id: "b", paragraph: "other", text: moved })],
+      existing: posted,
+      today: "2026-09-28",
+      reportOrder: ["demo"],
+    });
+    expect(queue.map((i) => [i.id, i.text.endsWith("p. 29")])).toEqual([["a", true], ["b", false]]);
+  });
+
   it("schedules every candidate starting the day after today, round-robin", () => {
     const { queue, added } = buildQueue({
       resolved: [resolved({ id: "a", report: "one" }), resolved({ id: "b", report: "two" })],

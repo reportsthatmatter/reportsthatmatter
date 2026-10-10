@@ -9,20 +9,22 @@
  * and calls nothing equivalent. A report published that way can go stale in
  * search with nothing to notice, until now.
  *
- * `report_versions.content_hash` and `search_index_versions.content_version`
- * are independent hash schemes (a publish's manifest hash vs. a hash over
- * the prerendered section HTML the indexer actually reads) — comparing them
- * by value would mean recomputing one from the other's inputs. Comparing
- * *when* each happened does not: every reindex sets `indexed_at`, every
- * publish sets `published_at`, and a report is stale exactly when the more
- * recent publish has no reindex after it — `published_at > indexed_at`, or
- * no `search_index_versions` row at all.
+ * Staleness is by content, not by clock (jsk3): `search_index_versions.content_version` is a hash over the
+ * section pages the indexer read, and `pnpm prerender` gives the same hash for the text about to be published, so
+ * republishing unchanged text is not stale (the old `published_at > indexed_at` test said it was). Run it after
+ * `pnpm prerender` of the text you published. The content comparison applies only where the local prerender's
+ * publish hash equals `report_versions.content_hash` (it is the published text); otherwise, e.g. a report repo's own
+ * `rtm-publish` of text this checkout never rendered (9j2), it falls back to the timestamps.
  *
  * Usage: pnpm check-search-staleness [--remote|--local]  (default --remote)
  */
 import "./lib/help.mjs";
 import { wranglerRunner } from "./lib/d1.ts";
 import { join } from "node:path";
+import { extractPassages } from "@rtm/ingest";
+import { readReportPassages } from "./lib/report-passages.ts";
+import { findStale } from "./lib/search-staleness.ts";
+import { localHash } from "./lib/publish-local.mjs";
 
 const root = join(import.meta.dirname, "..");
 const target = process.argv.includes("--local") ? "--local" : "--remote";
@@ -33,21 +35,18 @@ const query = (sql) => run(target, { command: sql })[0].results;
 
 const versions = query("SELECT report, content_hash, published_at FROM report_versions");
 const indexed = query("SELECT report, content_version, indexed_at FROM search_index_versions");
-const indexedByReport = new Map(indexed.map((row) => [row.report, row]));
 
-const stale = [];
-for (const version of versions) {
-  const row = indexedByReport.get(version.report);
-  if (!row) {
-    stale.push({ report: version.report, reason: "never indexed" });
-  } else if (row.indexed_at < version.published_at) {
-    const behind = version.published_at - row.indexed_at;
-    stale.push({
-      report: version.report,
-      reason: `indexed ${Math.round(behind / 60_000)} minute(s) before its current publish`,
-    });
+// The local prerender's content version, and its publish hash: the content comparison is trusted only when the
+// local prerender is the published text (scripts/lib/search-staleness.ts).
+const locals = new Map();
+for (const { report } of versions) {
+  try {
+    locals.set(report, { contentVersion: readReportPassages(root, report, extractPassages).contentVersion, publishHash: await localHash(root, report) });
+  } catch {
+    locals.set(report, null);
   }
 }
+const stale = findStale(versions, indexed, (report) => locals.get(report) ?? null);
 
 if (stale.length) {
   console.error(`${stale.length} report(s) have a stale search index (${target}):`);

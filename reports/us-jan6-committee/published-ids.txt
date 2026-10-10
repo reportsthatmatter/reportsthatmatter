@@ -27,6 +27,7 @@
 2-26-p-m-vice
 2-29-p-m-dc
 2-32-p-m-rhodes
+2-36-p-m-mob
 2-38-p-m-president
 2-43-p-m-law
 2-44-p-m-capitol
@@ -69,11 +70,13 @@ according-director-tomney-dhs-felt
 according-donoghue-end-january-4th
 according-engel-ultimately-told-president
 according-his-testimony-acting-secretary
+according-hutchinson-ornato-then-recounted
 according-jacob-eastman-acknowledged-end
 according-luna-president-trump-rejected
 according-major-general-walker-s
 according-michael-reed-then-rnc
 according-office-presidential-scheduling-president
+according-office-senator-ron-johnson
 according-secretary-mccarthy-brigadier-general
 according-testimony-defense-department-witnesses
 according-testimony-received-committee-earlier
@@ -203,6 +206,7 @@ angel-goldsborough
 angry-mob-had-come-within
 anika-navaroli-longest-tenured-member-twitter
 announcement-from-stage-put-secret
+another-advocate-plan-vice-president
 another-alleged-truckload-ballots-supposedly
 another-criminal-defendant-charged-assaulting
 another-decision-point-president-could
@@ -408,6 +412,7 @@ consistent-messaging-advanced-new-campaign
 consistent-pre-election-narrative-planted-president
 consistent-these-proposals-giuliani-appeared
 constitutional-convention-233-years-ago
+contemporaneous-written-correspondence-also-confirms
 contrary-statement-president-trump-dictated
 contrast-according-general-milley-chief
 contrast-national-guard-units-50
@@ -659,6 +664,7 @@ even-after-eastman-proposed-theories
 even-after-president-trump-finally
 even-january-6th-rioters-referenced
 even-so-14-original-republicans
+even-then-president-trump-did
 even-those-cases-where-person
 even-though-members-trump-campaign
 even-though-raffensperger-his-team
@@ -1368,6 +1374,7 @@ now-infamous-telephone-call-january
 number-individuals-entities-associated-tmagac
 numerous-senior-trump-campaign-advisors
 oath-keepers-continued-call-president
+oath-keepers-far-right-anti-government-militia
 oath-keepers-founded-2009-elmer
 oath-keepers-hosted-periodic-group
 oath-keepers-later-found-themselves
@@ -1579,6 +1586,7 @@ president-trump-issued-tweet-after
 president-trump-kept-fixating-supposed
 president-trump-knew-about-red
 president-trump-knew-not-only
+president-trump-listened-tweeting-one
 president-trump-looks-backstage-crowd
 president-trump-looks-backstage-crowd-2
 president-trump-made-ask-giuliani
@@ -1589,6 +1597,7 @@ president-trump-never-did-give
 president-trump-nevertheless-persisted-his
 president-trump-not-swayed-these
 president-trump-peppered-him-unsupported
+president-trump-personally-called-rnc
 president-trump-phone-call-vice
 president-trump-phone-oval-office
 president-trump-refused-comply-committee
@@ -1764,6 +1773,7 @@ rosen-donoghue-also-met-clark
 rosen-donoghue-steve-engel-assistant
 rosen-publicly-testified-between-december
 rosen-s-request-white-house
+rosen-then-spoke-directly-clark
 rotunda-served-key-point-where
 routine-day-capitol-there-are
 rudolph-giuliani-bernard-kerik-other
@@ -1842,6 +1852,7 @@ select-committee-s-conclusion-these
 select-committee-s-investigation-demonstrates
 select-committee-s-investigation-revealed
 select-committee-sought-question-roger
+select-committee-sought-question-scavino
 select-committee-subpoenaed-senator-mastriano
 select-committee-subpoenaed-several-members
 senate-reconvened-approximately-8-06
@@ -2233,6 +2244,7 @@ while-president-spoke-hutchinson-texted
 while-president-trump-misrepresented-vice
 while-proud-boys-other-extremists
 while-some-meeting-invoked-executive
+while-stone-flynn-did-not
 while-stop-steal-coalition-not
 while-tens-thousands-president-trump
 while-vice-president-pence-recognized

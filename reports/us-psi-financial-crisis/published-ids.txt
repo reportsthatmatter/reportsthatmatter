@@ -62,6 +62,7 @@
 13b
 19-jan-18-feb-20-mar-19-apr-19-may
 1970-credit-rating-agencies-changed
+1999-wamu-s-parent-holding
 2-000-000-000
 2-000-000-000-all
 2-07-3-5-07
@@ -339,7 +340,9 @@ addition-may-2007-when-ots
 addition-most-major-u-s
 addition-not-disclosing-asset-selection
 addition-november-29-2006-lippmann
+addition-operating-conflicts-interest-models
 addition-placing-unsold-cdo-securities
+addition-policy-deference-management-weak
 addition-private-investors-have-generally
 addition-section-11-securities-act
 addition-section-1414-dodd-frank-act
@@ -442,6 +445,7 @@ another-goldman-salesman-emailed-herrick
 another-instance-difference-opinion-arose
 another-instance-from-may-2005
 another-instance-may-2007-s
+another-key-factor-contributed-inaccurate
 another-occasion-august-2006-email
 another-occasion-jenks-from-hbk
 another-occasion-july-2008-reich
@@ -698,6 +702,7 @@ conclusion-wamu-largest-bank-failure
 conditioning-her-evaluation-whether-her
 conduct-its-inquiry-wamu-risk
 conflict-interest-inherent-issuer-pay-setup
+conflict-interest-problem-not-only
 conflict-interest-prohibitions-2009-one
 conflict-interest-prohibitions-sections-619
 conflicts-interest-credit-rating-agencies
@@ -727,10 +732,12 @@ counsel-4
 counsel-5
 counsel-chief-investigator
 counsel-minority
+countrywide-financial-corporation-now-division
 couple-weeks-before-cdo-valuation
 couple-weeks-later-question-arose
 covering-big-short-lock-profits
 covering-shorts-lock-profits-understand
+cra-analysts-relied-their-firm
 cra-oversight-accountability-credit-rating
 credit-analysis-after-obtaining-model
 credit-default-swaps-some-investment
@@ -745,6 +752,7 @@ credit-ratings-credit-ratings-use
 credit-ratings-generally-credit-rating
 credit-ratings-reliance-placed-credit
 credit-ratings-use-scale-letter
+credit-ratings-which-first-gained
 credit-report-december-2006-lamont
 credit-risk-assets
 creditors-bear-stearns-hedge-funds
@@ -869,6 +877,8 @@ dodd-frank-act-does-not-ban
 dodd-frank-act-essentially-bans-stated
 dodd-frank-act-july-21-2010
 dodd-frank-provisions-enacted-into-law
+dodd-frank-wall-street-reform-consumer
+dodd-frank-wall-street-reform-consumer-2
 doerr-absolutely
 doerr-forwarded-info-about-ots
 down-value-those-writedowns-not
@@ -888,8 +898,11 @@ during-2007-goldman-s-markdowns
 during-course-its-investigation-into
 during-first-half-2007-despite
 during-five-year-period-reviewed-subcommittee
+during-five-year-period-reviewed-subcommittee-2
+during-five-year-period-subcommittee-s
 during-his-interview-subcommittee-cathcart
 during-interview-blankfein-compared-goldman
+during-investigation-when-asked-why
 during-its-last-five-years
 during-january-february-2008-morgan
 during-june-july-additional-sales
@@ -1071,6 +1084,7 @@ first-washington-mutual-worked-wall
 five-days-later-march-12
 five-days-later-march-5
 five-year-period-from-2004-2008
+five-years-ots-examiners-identified
 focus-group-identified-several-reasons
 follow-up-field-examination-conducted-september
 followed-generally-well-defined-pattern-began
@@ -1095,6 +1109,7 @@ fourth-quarter-2006-mortgage-department
 freddie-two-largest-categories-loans
 fremont-cease-desist-order-1-3
 fremont-cease-desist-order-2-4
+fremont-investment-loan-once-fifth
 fremont-rmbs-second-example-involves
 from-1999-2006-long-beach
 from-2000-2007-long-beach
@@ -1103,6 +1118,7 @@ from-2004-2006-washington-mutual
 from-2004-2007-moody-s
 from-2004-2008-fdic-assigned
 from-2004-2008-goldman-major
+from-2004-2008-ots-findings
 from-2004-2008-u-s
 from-2004-2008-u-s-2
 from-2004-2008-u-s-3
@@ -1119,6 +1135,7 @@ from-time-9-billion-aaa
 frustrated-s-p-manager-resisted
 further-complicating-matters-feltgen-s
 further-strengthen-accuracy-credit-ratings
+further-strengthen-standards-controls-needed
 g-administrative-legislative-actions
 g-administrative-legislative-actions-43
 g-goldman-s-records-confirm
@@ -1361,6 +1378,7 @@ indeed-phrase-net-short-appears
 independent-assessments-creditworthiness-particular-financia
 index-price
 indicated-mortgage-department-contributing-54
+indymac-bank-established-1985-countrywide
 indymac-third-largest-bank-failure-u
 initially-hesitant-s-p-analysts
 initiating-short-position-2005-deutsche
@@ -1776,6 +1794,7 @@ october-25-2006-sobel-sent
 of-this-report
 offering-circular-contained-section-entitled
 offering-circular-did-however-describe
+office-thrift-supervision-created-1989
 once-asset-approved-both-greywolf
 once-began-buying-cds-shorts
 once-broker-dealer-acting-role-underwriter
@@ -1868,6 +1887,7 @@ over-next-two-months-rapidly
 over-next-two-weeks-goldman
 over-next-two-years-downey
 over-next-year-goldman-pocketed
+over-same-five-year-period-from
 over-time-even-aaa-rated
 over-time-however-fannie-mae
 over-time-investment-banks-have
@@ -1878,6 +1898,7 @@ overall-sparks-wrote-business-we
 oversight-lenders-end-2005-united
 oversight-securities-firms-another-group
 overview-how-goldman-shorted-subprime
+overview-washington-mutual-s-ratings
 p-l-111-203-which-president
 pace-which-market-growing-difficult
 palm-s-characterization-goldman-playing
@@ -1889,6 +1910,8 @@ part-2005-presentation-board-directors
 part-its-high-risk-lending
 part-its-investigation-into-cdo
 part-its-investigation-into-high
+part-reason-ots-declined-take
+part-their-review-washington-mutual
 participation-oversight-washington-mutual-bank
 particular-concern-investors-concentration-new
 particular-review-found
@@ -1935,6 +1958,7 @@ pricing-timberwolf-securities-despite-urgency
 primary-responsibility-federal-bank-regulators
 prior-2006-reform-act-cras
 prior-explosive-growth-revenues-generated
+prior-massive-ratings-downgrade-mid-2007
 private-fund-restrictions-ensure-proprietary
 problem-not-isolated-within-ots
 problems-long-beach-s-loans
@@ -2299,14 +2323,17 @@ starting-6-billion-net-long
 stated-income-loans-one-common
 stated-income-loans-originally-developed
 stated-income-loans-stated-income
+stated-mission-ots-t-o
 statement-sec-chairman-christopher-cox
 statements-regulators-goldman-also-described
 statutory-regulatory-barriers-federal-state
+still-another-area-which-ots
 still-another-common-form-credit
 still-another-goldman-employee-stated
 still-another-indicator-mortgage-department
 still-another-instance-deutsche-bank
 still-another-occasion-2004-several
+still-another-possible-explanation-ots
 still-another-problem-wamu-failed
 still-another-troubling-omission-goldman
 stinks-though-i-didn-t
@@ -2482,6 +2509,7 @@ traditionally-investments-holding-aaa-ratings-2
 trail-documentation-2005-about-fraud
 tranche-initial-rating-date-1st
 transferring-risk-hudson-1-conceived
+transitioning-from-fact-rating-agencies
 treasury-fdic-ig-report-determined
 treasury-fdic-ig-report-examining
 treasury-ig-thorson-agreed
@@ -2558,6 +2586,7 @@ viniar-others-told-subcommittee-viniar
 volume-speed-when-lenders-kept
 wamu-accumulated-hundreds-infractions-from
 wamu-also-originated-increasing-number
+wamu-approached-end-tensions-between
 wamu-began-losing-billions-dollars
 wamu-camels-lidi-ratings-2004-2008
 wamu-ceo-killinger-complained-privately
@@ -2587,6 +2616,7 @@ wamu-s-option-arm-portfolio
 wamu-s-reference-stronger-gse
 wamu-s-risk-layering-practices-went
 wamu-s-risk-management-practices
+wamu-s-secondary-federal-regulator
 wamu-securitization-agreements-prohibited-bank
 wamu-submission-board-noted-order
 wamu-submission-board-noted-order-2
@@ -2602,6 +2632,7 @@ washington-mutual-bank-wamu-wholly
 washington-mutual-depended-securitization-process
 washington-mutual-far-from-only
 washington-mutual-had-longstanding-relationships
+washington-mutual-larger-more-complex
 washington-mutual-long-beach-s
 washington-mutual-long-beach-sold
 washington-mutual-nation-s-largest
@@ -2693,6 +2724,7 @@ years-leading-up-financial-crisis-4
 years-leading-up-financial-crisis-5
 years-leading-up-financial-crisis-6
 years-leading-up-financial-crisis-7
+years-prior-financial-crisis-saw
 years-securitization-worked-well-borrowers
 years-told-subcommittee-thrifts-oversaw
 yet-during-years-leading-up

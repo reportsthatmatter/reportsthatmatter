@@ -8,7 +8,7 @@ pnpm posts
 open build/posts-preview.html   # a static local preview, not committed
 ```
 
-Flags, all explicit (a plain run does none of this): `--check` writes nothing and exits 1 if a not-yet-posted item no longer resolves (the poster's workflow runs it before every post); `--drop-stale` removes such items; `--start YYYY-MM-DD` re-dates every not-yet-posted item one per day from that date, in its current order (posted items never move). The poster that consumes the queue is described in [poster.md](poster.md).
+Flags, all explicit (a plain run does none of this): `--check` writes nothing and exits 1 if a not-yet-posted item no longer resolves (the poster's workflow runs it before every post); `--drop-stale` removes such items; `--report <id>` (repeatable) makes only the named reports' skipped candidates and stale items fail the run, so a report's PR is not blocked by other reports' items on main (the queue is still built from every report; 5qmm); `--start YYYY-MM-DD` re-dates every not-yet-posted item one per day from that date, in its current order (posted items never move). The poster that consumes the queue is described in [poster.md](poster.md).
 
 ## Sources
 

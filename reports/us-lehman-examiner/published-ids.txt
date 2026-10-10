@@ -78,6 +78,7 @@ addition-lehman-required-law-disclose
 addition-losses-lehman-would-incur
 addition-lowitt-received-number-other
 addition-o-meara-informed-board
+addition-red-flags-raised-kelly
 addition-required-haircut-lehman-had
 addition-sufficient-evidence-exists-support
 after-board-presentation-lehman-continued
@@ -91,6 +92,7 @@ alco-continued-have-serious-concerns
 all-examiner-has-interviewed-more
 also-september-2007-o-meara
 although-correct-firm-s-monthly
+although-examiner-does-not-find
 although-firm-persistently-over-its
 although-interview-statements-given-examiner
 although-its-management-entitled-pursue
@@ -185,6 +187,7 @@ board-not-informed-risk-appetite
 board-rating-agencies-regulators-lehman
 both-finance-risk-committee-full
 bottom-lehman-applied-higher-haircut
+bridge-equity-2-14-billion
 broadly-speaking-lehman-effected-repo
 broadly-speaking-mcdade-s-goal
 business-decisions-brought-lehman-its
@@ -196,6 +199,7 @@ business-strategy-expand-leveraged-loan
 business-strategy-lehman-pursued-beginning
 buy-itself-more-time-maintain
 c-total-stockholder-s-equity
+calculate-revenue-its-compensation-pool
 callan-became-lehman-s-cfo
 callan-however-attended-march-28
 callan-recalled-speaking-kelly-late
@@ -241,6 +245,7 @@ consequently-lehman-s-repo-105
 consequently-recharacterizing-repo-105-transaction
 consequently-there-two-alternative-structures
 consequently-when-lbie-s-financial
+consistent-direction-board-presentation-emphasized
 consistent-firm-s-disclosures-its
 consistent-gentile-s-recommendation-grieb
 contemporaneous-documents-from-lehman-archives
@@ -252,7 +257,9 @@ corporate-directors-duty-care-duty
 corporate-fiduciaries-breach-their-duty
 corporation-its-shareholders-take-precedence
 counterparties-because-did-not-have
+course-reviewing-whether-affiliates-other
 court-also-held-caremark-claim
+court-emphasized-red-flags-sufficient
 court-held-plaintiffs-had-failed
 courts-will-uphold-such-clause
 critics-who-are-going-say
@@ -282,6 +289,7 @@ director-s-duty-loyalty-e
 director-wrote-lowitt-morton-about
 directors-from-personal-liability-based
 directors-lehman-breached-their-fiduciary
+disclosure-agreement-repurchase-component-repo
 disclosure-scorecard-which-circulated-various
 discussed-earlier-report-lehman-s
 discussed-greater-detail-below-lehman
@@ -343,6 +351,7 @@ evidence-lehman-disregarded-its-risk
 examiner-also-considered-whether-lehman
 examiner-also-does-not-find
 examiner-also-finds-sufficient-evidence
+examiner-also-finds-sufficient-evidence-2
 examiner-concludes-conduct-lehman-s
 examiner-concludes-delaware-courts-are
 examiner-concludes-limited-amount-assets
@@ -416,6 +425,7 @@ firm-wide-usage-firm-wide
 first-examiner-does-not-find
 first-examiner-has-found-no
 first-lehman-directors-protected-lehman
+first-quarter-2008-14-889
 five-percent-minimum-required-haircut
 follow-demonstrate-impact-ordinary-repo
 following-chart-illustrates-lag-between
@@ -439,6 +449,7 @@ fuld-s-denial-recollection-must
 fuld-surprised-concerned-tail-risk
 fuld-told-examiner-decided-after
 full-list-persons-interviewed-examiner
+furthermore-lowitt-attended-march-28
 gaap-which-includes-adequacy-disclosure
 gaas-consists-ten-standards-three
 gelband-removed-from-position-several
@@ -539,6 +550,7 @@ kentaro-umezaki-michael-mcgarvey-attempt
 key
 labels-repo-105-repo-108
 lack-liquidity-increased-risk-firm
+large-size-repo-105-program
 last-quarter-2007-first-quarter
 late-2006-lehman-s-management
 late-2006-lehman-s-non
@@ -577,6 +589,7 @@ lehman-employed-off-balance-sheet
 lehman-entered-into-these-commercial
 lehman-executives-had-different-recollections
 lehman-expanded-its-repo-105
+lehman-failed-because-unable-retain
 lehman-first-introduced-its-repo
 lehman-greatly-expanded-its-repo
 lehman-had-duty-disclose-information
@@ -740,8 +753,10 @@ mcdade-recalled-when-advised-fuld
 mcdade-reilly-lowitt-morton-o
 mcdade-specifically-recalled-discussing-executive
 mcdade-took-his-responsibilities-balance
+mcgarvey-yes-no-yes
 md-are-provide-1-narrative
 mentioned-above-lehman-s-business
+mezzanine-loan-240-million
 mid-late-2007-however-lehman
 mid-late-2007-lehman-faced
 mid-late-2007-senior-management
@@ -785,6 +800,7 @@ notify-client-s-audit-committee
 notwithstanding-archstone-s-consideration-senior
 notwithstanding-onset-crisis-subprime-residential
 notwithstanding-professed-ignorance-witnesses-virtually
+november-2007-e-mail-o
 november-2007-lehman-s-treasurer
 nowhere-lehman-s-2007-form
 nowhere-presentations-lehman-made-rating
@@ -812,6 +828,7 @@ one-e-mail-succinctly-states
 one-his-first-acts-balance
 one-lehman-s-major-risk
 one-measure-damages-audit-malpractice
+one-merrill-lynch-analyst-asked
 one-primary-responsibilities-external-auditor
 oppenheimer-analyst-asked-callan-comment
 order-appointing-examiner-examiner-order
@@ -824,11 +841,14 @@ other-documents-contemporaneous-mcdade-s
 other-hand-board-did-not
 over-weekend-september-12-14
 overcoming-business-judgment-rule-establishing
+para
 paragraph-218-sfas-140-further
 part-examiner-s-investigation-internal
+part-i-report-provides-executive
 part-ii-discusses-procedural-background
 part-iii-details-facts-analysis
 participating-leveraged-loan-transactions-business
+permanent-equity-250-million
 peter-nerby-moody-s-similarly
 place-mortgage-backed-securities-into
 plaintiff-must-first-overcome-protection
@@ -848,12 +868,14 @@ q4-2006-q1-2007-q2
 quarter-end-repo-105-usage
 rates-business-tracked-net-balance
 rather-than-reduce-its-risk
+re-aig-illustrates-how-fiduciaries
 re-american-int-l-group
 re-chapter-11-case-no
 real-estate-business-facilitated-first
 real-estate-held-sale-third
 realize-we-re-tough-spot
 reasons-gentile-advanced-why-lehman
+reasons-outlined-above-sufficient-evidence
 recharacterization-repo-transaction-from-financing
 record-levels-liquidity-cash-capital
 reducing-net-assets-through-outright
@@ -879,6 +901,7 @@ repo-105-usage-2008-2
 repo-105-usage-disquiet-one
 report-begins-discussion-business-decisions
 report-does-not-reach-question
+report-now-continues-detail
 required-lbhi-did-not-subsequently
 required-md-lehman-s-repurchase
 residential-mortgage-market-apparent-242
@@ -918,6 +941,7 @@ second-e-mails-written-lehman
 second-examiner-does-not-find
 second-half-2006-lehman-began
 second-lehman-s-directors-not
+second-quarter-2008-13-6307
 second-these-facts-show-how
 section-13-securities-exchange-act
 section-addresses-fifth-eighth-tenth
@@ -931,12 +955,14 @@ sections-follow-report-will-describe
 see-au-150-02
 see-au-380-11-contrary
 selection-new-changes-accounting-policies
+senior-debt-850-million
 senior-management-exerted-pressure-particularly
 september-10-2008-lehman-announced
 september-11-2007-finance-risk
 september-20-2007-lehman-issued
 september-7-2007-e-mail
 set-forth-more-fully-below
+set-forth-sec-guidance-regarding
 several-additional-contemporaneous-e-mails
 several-days-more-than-500
 several-months-internal-meetings-discussions
@@ -990,12 +1016,14 @@ table-contents-iii-examiner-s
 table-contents-introduction-2
 tangible-equity-capital-total-stockholders
 temporarily-removing-much-50-38
+term-loan-2-47-billion
 then-early-october-2007-when
 there-also-sufficient-evidence-support
 there-also-sufficient-evidence-trier
 there-are-many-reasons-lehman
 there-credible-evidence-cfo-from
 there-sufficient-evidence-support-colorable
+there-sufficient-evidence-support-colorable-2
 there-sufficient-evidence-support-determination
 there-sufficient-evidence-support-determination-2
 there-sufficient-evidence-support-finding
@@ -1073,6 +1101,7 @@ when-interviewed-examiner-grieb-had
 when-interviewed-examiner-schlich-did
 when-june-2008-reilly-communicated
 when-lehman-first-adopted-stress
+when-lowitt-asked-about-february
 when-market-started-slow-lehman
 when-nagioff-learned-about-these
 when-ordinary-repo-transaction-matures
@@ -1091,8 +1120,10 @@ while-most-common-remedies-breach
 while-not-referenced-incorporated-into
 while-preparing-give-presentation-harber
 while-report-wall-street-journal
+while-simplified-illustrative-purposes-only
 without-exception-former-lehman-directors
 wondering-if-we-doing-more
+wording-clause-nearly-identical-section
 x
 x-2
 yet-recognized-recorded-based-mark
