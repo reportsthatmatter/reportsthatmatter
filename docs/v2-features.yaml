@@ -205,7 +205,11 @@
 
 - id: more-reports
   desc: >
-    Fourteen published. Added 2026-09-28: uk-chilcot-inquiry (the Iraq
+    Fourteen published. Prepared 2026-10-09 (not yet released):
+    us-mueller-report, the Mueller Report's Volumes I and II as DOJ's FOIA
+    re-releases print them, needing foiaRedactions(), asteriskBreaks(),
+    layoutRunOvers(), letteredItems(), romanFolios() and
+    contentsOutline({ scanned, centredMinor }) (ingest#75). Added 2026-09-28: uk-chilcot-inquiry (the Iraq
     Inquiry's Executive Summary — the full 12-volume report is a separate
     scoping decision, reportsthatmatter-0a7), built with
     runningFurniture(), quoteInset(4), numberedParagraphs(),

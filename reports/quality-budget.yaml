@@ -422,3 +422,27 @@ reports:
     numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
+  us-mueller-report:
+    severed-into-quote: 6
+    severed-paragraph: 12  # why: reportsthatmatter-gqsy.5 (OCR line breaks round redaction boxes on Vol I's 74 scanned pages; reportsthatmatter-vs2x)
+    bare-footnote-marker: 54
+    bare-marker-after-quote: 19  # why: reportsthatmatter-gqsy.5 (markers of notes not separated on the scanned pages; reportsthatmatter-vs2x)
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 128  # why: reportsthatmatter-gqsy.5 (225 of Vol I's 1,283 notes not separated on the scanned pages; reportsthatmatter-vs2x)
+    note-text-in-body: 7
+    note-citation-vocabulary: 0
+    furniture-paragraph: 49  # why: reportsthatmatter-gqsy.5 (Vol II's run-in subheads "Overview", "Evidence", "Analysis" and the "* * *" breaks; reportsthatmatter-2soj)
+    contents-entry-without-heading: 6
+    heading-density: 0
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.5 (the report's own "Background" subheads)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 22  # why: reportsthatmatter-gqsy.5 (the report's own long titles, spelt from its contents)
+    printed-page-reversal: 1  # why: reportsthatmatter-gqsy.5 (page numbers restart in Volume II: 199 then 1)
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 3
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 2

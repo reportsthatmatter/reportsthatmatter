@@ -28,3 +28,4 @@ One file per question we have had to answer, or still have to. It is written so 
 | [0017](0017-about-copy-no-commentary.md) | Does "No commentary. No spin." still describe the site? | open | pbkk |
 | [0018](0018-phone-header-navigation.md) | How should the header navigation work on phones? | open | nupj |
 | [0019](0019-full-page-for-link-previews.md) | What does `/full` do for a report too big to preview, and to load? | proposed | yvfr |
+| [0020](0020-redactions.md) | How do we show a redaction in a report's text? | proposed | oh89 |
