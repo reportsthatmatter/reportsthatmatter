@@ -27,6 +27,7 @@ import { createWriteStream, existsSync, mkdirSync, readFileSync, renameSync, rmS
 import { homedir } from "node:os";
 import { basename, join, relative, resolve } from "node:path";
 import { parse } from "yaml";
+import { reportDirs } from "./lib/report-dirs.ts";
 import { parseShipArgs } from "./lib/ship-args.ts";
 import { FREE_TIER_DAILY_WRITES } from "./lib/d1-probe.ts";
 import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
@@ -66,14 +67,11 @@ for (const id of [...list("--ack"), ...list("--skip"), ...list("--redo"), ...lis
 const pkg = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
 const spec: string = pkg.dependencies?.["@rtm/ingest"];
 const manifest = parse(readFileSync(join(root, "reports/manifest.yaml"), "utf8")) as { reports: Array<{ id: string; dir: string }> };
-const override = process.env.RTM_REPORT_DIRS;
 const repos: Repo[] = [];
-for (const r of manifest.reports) {
-  const alt = override ? join(resolve(override), basename(r.dir)) : undefined;
-  const dir = alt && existsSync(alt) ? alt : resolve(root, r.dir);
-  const found = repos.find((x) => x.dir === dir);
+for (const r of reportDirs(root).values()) {
+  const found = repos.find((x) => x.dir === r.dir);
   if (found) found.ids.push(r.id);
-  else repos.push({ dir, ids: [r.id], shared: dir === resolve(root, r.dir) });
+  else repos.push({ dir: r.dir, ids: [r.id], shared: !r.overridden });
 }
 const hasCache = new Map<string, string>();
 const has = (file: string, needle: string) => {

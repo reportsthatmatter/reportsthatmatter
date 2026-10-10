@@ -54,7 +54,7 @@ if (args.includes("--network")) {
   };
 }
 
-const result = await pipelineStatus({ root, deep: args.includes("--deep"), publish });
+const result = await pipelineStatus({ root, deep: args.includes("--deep"), publish, env: process.env });
 if (args.includes("--json")) console.log(JSON.stringify({ drift: hasDrift(result), ...result }, null, 2));
 else console.log(formatStatus(result, args.includes("--verbose")));
 process.exit(args.includes("--check") && hasDrift(result) ? 1 : 0);

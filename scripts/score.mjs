@@ -22,8 +22,8 @@
  *                                  # wrong to correct, new, gone), with the text; scores nothing itself
  *
  * Reads reports/<id>/full.md (as aggregated) and <repo>/reference/{manifest.json,blocks.jsonl}
- * (scripts/score/reference.py writes them); RTM_REPO_ROOT=<dir> reads <dir>/<repo> instead of the
- * sibling checkout. Writes, per report, <out>/<id>/errors.md (the worst examples per metric,
+ * (scripts/score/reference.py writes them); RTM_REPORT_DIRS=<dir> reads <dir>/<repo> instead of the
+ * sibling checkout (the older name RTM_REPO_ROOT still works). Writes, per report, <out>/<id>/errors.md (the worst examples per metric,
  * clustered, with page and paragraph id), <out>/<id>/score.json, <out>/<id>/decisions.jsonl (one
  * row per pipeline decision with features and the reference label: the input to 38s.8) and
  * <out>/<id>/signals.md (b78.2 signal precision and recall against the scorer); and
@@ -35,6 +35,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts } from "@rtm/ingest";
+import { reportDirFor } from "./lib/report-dirs.ts";
 import { parseOurs } from "../src/lib/score/ours.ts";
 import { hasReference, loadReference, referenceFromMarkdown } from "../src/lib/score/reference.ts";
 import { pathToFileURL } from "node:url";
@@ -56,12 +57,9 @@ const out = resolve(root, opt("--out", "score-out"));
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const manifest = parse(readFileSync(join(root, "reports/manifest.yaml"), "utf8"));
 
+// The one report-directory resolver (scripts/lib/report-dirs.ts): RTM_REPORT_DIRS, or the older RTM_REPO_ROOT.
 function repoDir(id) {
-  const entry = manifest.reports.find((r) => r.id === id);
-  const dir = entry ? resolve(root, entry.dir) : resolve(root, "..", id);
-  const alt = process.env.RTM_REPO_ROOT;
-  if (alt && existsSync(join(alt, basename(dir)))) return join(alt, basename(dir));
-  return dir;
+  return reportDirFor(root, id).dir;
 }
 
 const setsRaw = parse(readFileSync(join(root, "reports/score-sets.yaml"), "utf8"));
