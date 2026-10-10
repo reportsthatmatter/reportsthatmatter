@@ -22,6 +22,7 @@
 10-cia-coordinated-release-classified
 101-0-mercy-interrogators-could
 10262-151138z-mar-02
+1038-2007-billed-cia-1
 10740-redacted-092308zmar03-d-i
 1091-captured-result-reporting-from
 10942-2216i0z-mar-03-according
@@ -60,6 +61,7 @@
 1742-almost-immediately-subjected-cia
 1771-pakistan
 1773-fbi-special-agents-never
+1780-fbi-special-agents-never
 18-cia-marginalized-ignored-numerous
 1801-redacted-377q1-redacted-redacted
 1803-pakistani-officers-identify-home
@@ -68,8 +70,10 @@
 187409-redacted-redacted-redacted-amer
 19-cia-s-detention-interrogation
 1906-rendered-cia-custody-there
+1911-rendered-cia-custody-there
 1930-asset-y-janat-gul
 1972-lied-about-meeting-there
+1976-lied-about-meeting-there
 1ajjo-inaccurate
 1s7-questioning
 2-148-page-tranche-release-which
@@ -101,16 +105,19 @@
 2090-least-21-intelligence-reports
 20i-5-1677
 21-15
+21-15-2115
 21-dr-hikmut-nafi-shaukat
 2128-2714-3111462-jan-04
 2248-date-birth
 2260-noted-we-need-owi
+2263-noted-we-need-owi
 2292-leaked-would-have-gotten
 23-abd-al-rahim-ghulam
 2335-himself
 246-redacted-i-s-t
 25-8
 2504-committee-briefing-included-inaccurate
+2509-committee-briefing-included-inaccurate
 252i-p-o-r-example
 2609-y-j-l-e
 26152
@@ -128,6 +135,8 @@
 33-shah-wali-khan-redacted
 350-permission-use-interrogation-techniques
 351-2-chief-base-disciplined
+354-permission-use-interrogation-techniques
+356-2-chief-base-disciplined
 36-jamil-el-banna-aka-abu
 37-gliairut-bahir-redacted-0
 38-pacha-wazir-redacted-0
@@ -172,12 +181,15 @@
 8-cia-s-operation-management
 82-zakariya-abd-al-rauf-redacted
 829-had-been-tortured-while
+833-had-been-tortured-while
 842-headquarters-could-support-country
 84257-84783-84837
+843-headquarters-could-support-country
 86449-redacted
 87-redacted-4-redacted
 88-aso-ihiwlcrt-redacted-4
 884-2005
+886-2005
 89-mohd-al-shomaila-redacted-redacted
 9-11-commission-report-also
 9-cia-impeded-oversight-cia
@@ -185,6 +197,7 @@
 92-muhammad-abdullah-saleh-redacted
 93-riyadh-facilitator-redacted-12
 939-station-not-inform-u
+941-station-not-inform-u
 96-firas-al-ycmeni-redacted-94
 97-hassan-ghul-redacted-0
 98-khalid-abd-al-razzaq-al-masri
@@ -271,6 +284,7 @@ aiding-our-understanding-al-qaida-s
 al-ghuraba-student-group-established-late
 al-qa-ida-facilitator-reportedly-said
 al-qaeda-detainees-3-cia
+alec-redacted
 alec-redacted-261745z-mar-03
 alec-redacted-261745z-mar-03-2
 alec-redacted-543
@@ -525,6 +539,7 @@ cia-interrogated-abu-faraj-al-libi
 cia-interrogators-initially-expressed-optimism
 cia-lacked-plan-eventual-disposition
 cia-made-repeated-claims-use
+cia-memorandum-steve-bradbury-office
 cia-never-asked-committee-whether
 cia-never-conducted-comprehensive-audit
 cia-never-conducted-credible-comprehensive
@@ -559,6 +574,7 @@ cia-records-indicate-first-cta
 cia-records-indicate-iyman-faris
 cia-records-indicate-majid-khan
 cia-records-indicate-pakistani-authorities
+cia-records-provided-committee-identify
 cia-records-state-prior-use
 cia-redacted-no-unit-had
 cia-repeatedly-provided-incomplete-inaccurate
@@ -793,6 +809,7 @@ director-hayden-testimony-incongruent-cia-6
 director-hayden-we-representation-requirement
 director-hayden-what-testimony-inaccurate
 director-hayden-zubair-testimony-incongruent
+director-redacted-012240z-mar-03
 director-redacted-101847z-may-04
 discovery-disruption-second-wave-plot
 discovery-identification-capture-arrest-sajid
@@ -1039,6 +1056,7 @@ ghuraba-group-53
 given-unproductive-manner-which-these
 government-ultimately-got-limited-legislative
 guidelines-also-required-quarterly-assessments
+guidelines-interrogations-conducted-pursuant-presidential
 gunawan-asked-about-his-interest
 gunawan-s-role-karachi-communications
 h-c-5100-94-4054
@@ -1077,6 +1095,7 @@ hekmatyar-guy-never-gets-location
 helping-t-o-validate-other
 hi-111-mi-redacted
 hi-detention-interrogation-cia-detainees
+high-value-detainee-interrogation-hvdi-techniques
 honorable-patrick-leahy
 house-department-justice-congress-cia
 how-detainee-reporting-collected
@@ -1100,6 +1119,7 @@ i-have-assume-many-cases
 i-have-attempted-throughout-remember
 i-have-handed-you-graphics
 i-his-denials-about-meeting
+i-ii-redacted-redacted-cc
 i-january-2009-cia-compiled
 i-joined-senate-select-committee
 i-m-glad-speak-you
@@ -1128,6 +1148,7 @@ identification-arrest-iyman-faris-one
 identification-arrest-ofsaleh-al-marri
 identification-bin-ladin-s-courier
 identification-bin-ladin-s-courier-2
+identifying-countries-be-redacted-study
 identifying-other-shoe-bomber-leads
 if-point-study-ensure-abuses
 if-such-sustained-systematic-independent
@@ -1378,6 +1399,7 @@ may-2007-committee-voted-approve
 may-2013-still-awaiting-cia
 may-26-2005-cia-inspector
 may-28-2003-cia-cable
+may-30-2005-memorandum-john
 may-30-2005-olc-issued
 may-30-2005-olc-memorandum
 may-30-2005-third-olc
@@ -1647,6 +1669,7 @@ redacted-13
 redacted-13678-070724z-mar-03
 redacted-1369
 redacted-14
+redacted-14-september-2004-b
 redacted-15
 redacted-16
 redacted-1646-redacted-jan-2109
@@ -1775,6 +1798,7 @@ redacted-entitled-origins-cia-representations
 redacted-f-h-h-h
 redacted-family-details-critical-ultimately
 redacted-fbi-arrested-uzhair-new
+redacted-finally-may-30-2005
 redacted-finally-study-claims-plotting
 redacted-fisa-coverage-redacted-agency
 redacted-foreign-partner-officials-cia
@@ -2075,6 +2099,7 @@ review-cia-operational-cables-other-3
 review-cia-operational-cables-other-4
 review-cia-operational-cables-other-5
 review-cia-operational-cables-other-6
+review-cia-operational-cables-other-7
 review-cia-records-found-1
 review-cia-records-found-no
 review-cia-records-found-these
@@ -2116,6 +2141,7 @@ see-do-j-statement-attorney
 see-example-redacted-cia-document
 see-fbi-case-file-redacted
 see-intelligence-chronology-volume-ii
+see-intelligence-chronology-volume-n
 see-intelligence-reporting-charts-abu
 see-ksm-detainee-review-volume
 see-list-20-cia-representations
