@@ -2299,8 +2299,8 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 183046,
-      "paragraphs": 1729,
+      "words": 183019,
+      "paragraphs": 1730,
       "sections": [
         {
           "slug": "front-matter",
@@ -2359,8 +2359,14 @@
         {
           "slug": "part-iii-lessons-learned-industry-government-energy-policy",
           "title": "Part III: Lessons Learned: Industry, Government, Energy Policy",
-          "paragraphs": 143,
-          "ids": "9d831af48a79"
+          "paragraphs": 135,
+          "ids": "5ff4de6dce44"
+        },
+        {
+          "slug": "chapter-nine-develop-options-for-guarding-against-and-mitigating-the-impact-of-o",
+          "title": "Chapter Nine: \"Develop options for guarding against, and mitigating the impact of, oil spills associated with offshore drilling.\" Investing in Safety, Investing in Response, Investing in the Gulf",
+          "paragraphs": 9,
+          "ids": "ee1eb73dcea2"
         },
         {
           "slug": "the-need-for-a-new-approach-to-risk-assessment-and-management",
