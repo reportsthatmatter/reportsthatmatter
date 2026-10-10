@@ -586,3 +586,17 @@ Reviewer of #299 (2026-10-09):
 - **What slowed me down:** five site PRs each conflicting and re-pushed one by one; the dirty beads export; two verify runs of about 5 minutes each; the oracle budget stop, which needed reading PDF text to judge.
 - **What would have caught it earlier:** `pnpm ingest verify` in the review's trial list, and `pnpm ship --plan --measure` running the oracle budget check before the integrator reaches the checks step.
 - **One proposal:** `pnpm merge-train <pr>...` that, for the review's order and heads, merges main into the next PR, keeps both sides of the append-only files, pushes, waits for mergeable and merges at the new head, printing the tree diff against the reviewed head so the integrator can see nothing else moved.
+
+## The v0.26.0 ship (2026-10-10, integrator, Sonnet)
+
+- **Merge main into each ingest PR in turn, with `KNOWN_PAGE_PASSES` as a union, and compare the final list with the reviewer's trial.** (2026-10-10) #76 and #75 each conflicted on that one set and in `dist/`; resolved by union, `dist/` rebuilt, `check-dist`, typecheck and the full suite (877 and 910 tests) before waiting for CI. The final `define.ts` set matched the trial's by diff. One name per line (wwmg) would remove the conflict.
+- **Taking main's `reports/corpus-baseline.json` in a conflicting site PR drops that PR's accepted baseline, so the pin PR has to accept again.** (2026-10-10) Challenger, Leveson, Columbia and Mueller showed their id and section moves (all aliased) at the pin PR, not "words only" as in the review; each was read and accepted there. A baseline row per report would not conflict.
+- **`pnpm ingest verify` before the ship, as asked, was clean; the ship's own checks ran it again after the Litvinenko and Deepwater re-ingest.** (2026-10-10) No oracle budget moved.
+- **A report with no PR text is aggregated by the ship's reingest step, not by `pnpm ingest aggregate` before it.** (2026-10-10) Running aggregate for Litvinenko and Deepwater in step 6 copied the old text; the real move appeared at the baseline gate. The review's step 6 should drop it.
+- **`pnpm score litvinenko-inquiry` fails here: no reference edition is cached.** (2026-10-10) The review asked for a re-score after the ship; it is not done (open question for whoever holds the reference).
+
+### Retro (Getting better faster)
+
+- **What slowed me down:** two ingest merges with conflicts (each needing a rebuild, the full suite and a CI wait), three site PRs re-merged with main, the 5-minute verify twice.
+- **What would have caught it earlier:** a script `pnpm merge-train` for both ingest and site PRs, and a one-name-per-line pass list.
+- **One proposal:** make the ship's guard ignore `.beads/issues.jsonl` (it was clean this time, but blocked the last ship).
