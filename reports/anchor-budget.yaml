@@ -39,7 +39,7 @@ reports:
     markers-wrong: 0
     markers-stacked: 1
     pages-unmarked: 0
-    blocks-wrong: 5
+    blocks-wrong: 3
   columbia-accident:
     markers-wrong: 0
     markers-stacked: 0
