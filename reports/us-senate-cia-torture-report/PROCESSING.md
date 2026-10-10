@@ -10,7 +10,7 @@ How the text on Reports that Matter was made, and where it still falls short of 
 - **What kind of PDF it is:** apart from the GPO's own title, letter and contents pages, every page is a scan of the declassified typescript, with a text layer made by optical character recognition (OCR). There is no born-digital or HTML edition: the Committee's own release of 9 December 2014 (intelligence.senate.gov) is the same kind of scan, and govinfo's HTML version is images only. So the words here are the OCR's.
 - **Licence:** public domain, a work of the U.S. Government.
 - **Covers:** the whole printed report: the letter of transmittal, Chairman Feinstein's foreword, the Findings and Conclusions, the Executive Summary (pages 1 to 499, with its appendices), the additional views of Senators Rockefeller, Wyden, Udall, Heinrich, King and Collins, and the three sets of minority views. The full study, of more than 6,700 pages, remains classified and is not part of this report.
-- **Size:** about 400,000 words, 3,260 notes, 709 page markers, 150 headings, and 9,947 redactions shown.
+- **Size:** about 400,000 words, 3,260 notes, 709 page markers, 150 headings, and 9,947 redactions shown. (Of the 11,680 black boxes on the pages, the rest sit in the classification banners and portion markings, which are left out with them; see below.)
 
 ## How the text was made
 
