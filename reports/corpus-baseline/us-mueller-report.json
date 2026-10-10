@@ -1,0 +1,618 @@
+{
+  "words": 189264,
+  "paragraphs": 1315,
+  "sections": [
+    {
+      "slug": "front-matter",
+      "title": "Front matter",
+      "paragraphs": 7,
+      "ids": "790e529791e9"
+    },
+    {
+      "slug": "introduction-to-volume-i",
+      "title": "INTRODUCTION TO VOLUME I",
+      "paragraphs": 12,
+      "ids": "2093675ad76b"
+    },
+    {
+      "slug": "executive-summary-to-volume-i",
+      "title": "EXECUTIVE SUMMARY TO VOLUME I",
+      "paragraphs": 37,
+      "ids": "0f32d590d9f3"
+    },
+    {
+      "slug": "the-special-counsels-investigation",
+      "title": "THE SPECIAL COUNSEL'S INVESTIGATION",
+      "paragraphs": 13,
+      "ids": "36f94b7dd78f"
+    },
+    {
+      "slug": "russian-active-measures-social-media-campaign",
+      "title": "RUSSIAN \"ACTIVE MEASURES\" SOCIAL MEDIA CAMPAIGN",
+      "paragraphs": 4,
+      "ids": "f6ffba876bc2"
+    },
+    {
+      "slug": "structure-of-the-internet-research-agency",
+      "title": "Structure of the Internet Research Agency",
+      "paragraphs": 17,
+      "ids": "8aff2fbf3f3e"
+    },
+    {
+      "slug": "the-ira-ramps-up-us-operations-as-early-as-2014",
+      "title": "The IRA Ramps Up U.S. Operations As Early As 2014",
+      "paragraphs": 14,
+      "ids": "ed6fcc3689fd"
+    },
+    {
+      "slug": "us-operations-through-ira-controlled-social-media-accounts",
+      "title": "U.S. Operations Through IRA-Controlled Social Media Accounts",
+      "paragraphs": 5,
+      "ids": "ce7b61fcb5ab"
+    },
+    {
+      "slug": "us-operations-through-facebook",
+      "title": "U.S. Operations Through Facebook",
+      "paragraphs": 6,
+      "ids": "c8e616471ca2"
+    },
+    {
+      "slug": "us-operations-through-twitter",
+      "title": "U.S. Operations Through Twitter",
+      "paragraphs": 9,
+      "ids": "8a268ea0f496"
+    },
+    {
+      "slug": "us-operations-involving-political-rallies",
+      "title": "U.S. Operations Involving Political Rallies",
+      "paragraphs": 2,
+      "ids": "f9c45513f11a"
+    },
+    {
+      "slug": "targeting-and-recruitment-of-us-persons",
+      "title": "Targeting and Recruitment of U.S. Persons",
+      "paragraphs": 4,
+      "ids": "f540292e6163"
+    },
+    {
+      "slug": "interactions-and-contacts-with-the-trump-campaign",
+      "title": "Interactions and Contacts with the Trump Campaign",
+      "paragraphs": 14,
+      "ids": "c55fd6540019"
+    },
+    {
+      "slug": "russian-hacking-and-dumping-operations",
+      "title": "RUSSIAN HACKING AND DUMPING OPERATIONS",
+      "paragraphs": 12,
+      "ids": "e28d9216394b"
+    },
+    {
+      "slug": "intrusions-into-the-dccc-and-dnc-networks",
+      "title": "Intrusions into the DCCC and DNC Networks",
+      "paragraphs": 13,
+      "ids": "0bd7047cc7e6"
+    },
+    {
+      "slug": "dcleaks",
+      "title": "DCLeaks",
+      "paragraphs": 5,
+      "ids": "86d2c20cf63f"
+    },
+    {
+      "slug": "guccifer-20",
+      "title": "Guccifer 2.0",
+      "paragraphs": 5,
+      "ids": "7c3b9e42ac45"
+    },
+    {
+      "slug": "use-of-wikileaks",
+      "title": "Use of WikiLeaks",
+      "paragraphs": 25,
+      "ids": "65dd2ec150a8"
+    },
+    {
+      "slug": "intrusions-targeting-the-administration-of-us-elections",
+      "title": "Intrusions Targeting the Administration of U.S. Elections",
+      "paragraphs": 4,
+      "ids": "f16aed3154c9"
+    },
+    {
+      "slug": "role-of-roger-stone",
+      "title": "Role of Roger Stone",
+      "paragraphs": 27,
+      "ids": "cd1c501a3539"
+    },
+    {
+      "slug": "other-potential-campaign-interest-in-russian-hacked-materials",
+      "title": "Other Potential Campaign Interest in Russian Hacked Materials",
+      "paragraphs": 20,
+      "ids": "5e647862c596"
+    },
+    {
+      "slug": "russian-government-links-to-and-contacts-with-the-trump-campaign",
+      "title": "RUSSIAN GOVERNMENT LINKS TO AND CONTACTS WITH THE TRUMP CAMPAIGN",
+      "paragraphs": 4,
+      "ids": "a85f60119888"
+    },
+    {
+      "slug": "trump-tower-moscow-project",
+      "title": "Trump Tower Moscow Project",
+      "paragraphs": 40,
+      "ids": "9eef62b4d13e"
+    },
+    {
+      "slug": "george-papadopoulos",
+      "title": "George Papadopoulos",
+      "paragraphs": 50,
+      "ids": "74b90a621978"
+    },
+    {
+      "slug": "carter-page",
+      "title": "Carter Page",
+      "paragraphs": 25,
+      "ids": "158dbba34e2e"
+    },
+    {
+      "slug": "dimitri-simes-and-the-center-for-the-national-interest",
+      "title": "Dimitri Simes and the Center for the National Interest",
+      "paragraphs": 22,
+      "ids": "ca9f215d871c"
+    },
+    {
+      "slug": "june-9-2016-meeting-at-trump-tower",
+      "title": "June 9, 2016 Meeting at Trump Tower",
+      "paragraphs": 54,
+      "ids": "528eb58eb956"
+    },
+    {
+      "slug": "events-at-the-republican-national-convention",
+      "title": "Events at the Republican National Convention",
+      "paragraphs": 11,
+      "ids": "709db942fbd7"
+    },
+    {
+      "slug": "post-convention-contacts-with-kislyak",
+      "title": "Post-Convention Contacts with Kislyak",
+      "paragraphs": 5,
+      "ids": "aad901fa71d9"
+    },
+    {
+      "slug": "paul-manafort",
+      "title": "Paul Manafort",
+      "paragraphs": 51,
+      "ids": "7606f493255b"
+    },
+    {
+      "slug": "immediate-post-election-activity",
+      "title": "Immediate Post-Election Activity",
+      "paragraphs": 13,
+      "ids": "a299f7de268a"
+    },
+    {
+      "slug": "kirill-dmitrievs-transition-era-outreach-to-the-incoming-administration",
+      "title": "Kirill Dmitriev's Transition-Era Outreach to the Incoming Administration",
+      "paragraphs": 61,
+      "ids": "4d776ef653c1"
+    },
+    {
+      "slug": "ambassador-kislyaks-meeting-with-jared-kushner-and-michael-flynn-in-trump-tower-",
+      "title": "Ambassador Kislyak's Meeting with Jared Kushner and Michael Flynn in Trump Tower Following the Election",
+      "paragraphs": 15,
+      "ids": "f7b109ffbca2"
+    },
+    {
+      "slug": "jared-kushners-meeting-with-sergey-gorkov",
+      "title": "Jared Kushner's Meeting with Sergey Gorkov",
+      "paragraphs": 21,
+      "ids": "abf23040614a"
+    },
+    {
+      "slug": "petr-avens-outreach-efforts-to-the-transition-team",
+      "title": "Petr Aven's Outreach Efforts to the Transition Team",
+      "paragraphs": 21,
+      "ids": "8e2e2abe8fce"
+    },
+    {
+      "slug": "contacts-with-and-through-michael-t-flynn",
+      "title": "Contacts With and Through Michael T. Flynn",
+      "paragraphs": 18,
+      "ids": "bfef0a0de14e"
+    },
+    {
+      "slug": "prosecution-and-declination-decisions",
+      "title": "PROSECUTION AND DECLINATION DECISIONS",
+      "paragraphs": 5,
+      "ids": "91496ede1d74"
+    },
+    {
+      "slug": "section-1030-computer-intrusion-conspiracy",
+      "title": "Section 1030 Computer-Intrusion Conspiracy",
+      "paragraphs": 9,
+      "ids": "21f725f95f20"
+    },
+    {
+      "slug": "potential-section-1030-violation-by-donald-trump-jr",
+      "title": "Potential Section 1030 Violation By Donald Trump Jr",
+      "paragraphs": 6,
+      "ids": "2bfb5ad134da"
+    },
+    {
+      "slug": "potential-coordination-conspiracy-and-collusion",
+      "title": "Potential Coordination: Conspiracy and Collusion",
+      "paragraphs": 4,
+      "ids": "501772c36414"
+    },
+    {
+      "slug": "potential-coordination-foreign-agent-statutes-fara-and-18-usc-951",
+      "title": "Potential Coordination: Foreign Agent Statutes (FARA and 18 U.S.C. § 951)",
+      "paragraphs": 10,
+      "ids": "e0629f4fbe0a"
+    },
+    {
+      "slug": "campaign-finance",
+      "title": "Campaign Finance",
+      "paragraphs": 26,
+      "ids": "7b9499da5cdb"
+    },
+    {
+      "slug": "false-statements-and-obstruction-of-the-investigation",
+      "title": "False Statements and Obstruction of the Investigation",
+      "paragraphs": 45,
+      "ids": "eb9f3ba79374"
+    },
+    {
+      "slug": "introduction-to-volume-ii",
+      "title": "INTRODUCTION TO VOLUME II",
+      "paragraphs": 9,
+      "ids": "4ef6653e2399"
+    },
+    {
+      "slug": "executive-summary-to-volume-ii",
+      "title": "EXECUTIVE SUMMARY TO VOLUME II",
+      "paragraphs": 25,
+      "ids": "65a07e37ecd0"
+    },
+    {
+      "slug": "legal-framework-of-obstruction-of-justice",
+      "title": "Legal Framework of Obstruction of Justice",
+      "paragraphs": 13,
+      "ids": "819b321adfb3"
+    },
+    {
+      "slug": "investigative-and-evidentiary-considerations",
+      "title": "Investigative and Evidentiary Considerations",
+      "paragraphs": 15,
+      "ids": "28f2311bafa7"
+    },
+    {
+      "slug": "factual-results-of-the-obstruction-investigation",
+      "title": "FACTUAL RESULTS OF THE OBSTRUCTION INVESTIGATION",
+      "paragraphs": 3,
+      "ids": "ef04d2bade95"
+    },
+    {
+      "slug": "press-reports-allege-links-between-the-trump-campaign-and-russia",
+      "title": "Press Reports Allege Links Between the Trump Campaign and Russia",
+      "paragraphs": 2,
+      "ids": "7d253d3a26a8"
+    },
+    {
+      "slug": "the-trump-campaign-reacts-to-wikileakss-release-of-hacked-emails",
+      "title": "The Trump Campaign Reacts to WikiLeaks's Release of Hacked Emails",
+      "paragraphs": 3,
+      "ids": "0f35c374e0a0"
+    },
+    {
+      "slug": "the-trump-campaign-reacts-to-allegations-that-russia-was-seeking-to-aid-candidat",
+      "title": "The Trump Campaign Reacts to Allegations That Russia was Seeking to Aid Candidate Trump",
+      "paragraphs": 8,
+      "ids": "a6ccc22ab538"
+    },
+    {
+      "slug": "after-the-election-trump-continues-to-deny-any-contacts-or-connections-with-russ",
+      "title": "After the Election, Trump Continues to Deny Any Contacts or Connections with Russia or That Russia Aided his Election",
+      "paragraphs": 9,
+      "ids": "208ee9258e0c"
+    },
+    {
+      "slug": "incoming-national-security-advisor-flynn-discusses-sanctions-on-russia-with-russ",
+      "title": "Incoming National Security Advisor Flynn Discusses Sanctions on Russia with Russian Ambassador Sergey Kislyak",
+      "paragraphs": 7,
+      "ids": "b53ba82392bd"
+    },
+    {
+      "slug": "president-elect-trump-is-briefed-on-the-intelligence-communitys-assessment-of-ru",
+      "title": "President-Elect Trump is Briefed on the Intelligence Community's Assessment of Russian Interference in the Election and Congress Opens Election-Interference Investigations",
+      "paragraphs": 3,
+      "ids": "c3662d9ece6e"
+    },
+    {
+      "slug": "flynn-makes-false-statements-about-his-communications-with-kislyak-to-incoming-a",
+      "title": "Flynn Makes False Statements About his Communications with Kislyak to Incoming Administration Officials, the Media, and the FBI",
+      "paragraphs": 6,
+      "ids": "12a22e9ef554"
+    },
+    {
+      "slug": "doj-officials-notify-the-white-house-of-their-concerns-about-flynn",
+      "title": "DOJ Officials Notify the White House of Their Concerns About Flynn",
+      "paragraphs": 3,
+      "ids": "3278d8a01edf"
+    },
+    {
+      "slug": "mcgahn-has-a-follow-up-meeting-about-flynn-with-yates-president-trump-has-dinner",
+      "title": "McGahn has a Follow-Up Meeting About Flynn with Yates; President Trump has Dinner with FBI Director Comey",
+      "paragraphs": 7,
+      "ids": "d9373e8ccf8d"
+    },
+    {
+      "slug": "flynns-resignation",
+      "title": "Flynn's Resignation",
+      "paragraphs": 6,
+      "ids": "30a36b43426a"
+    },
+    {
+      "slug": "the-president-discusses-flynn-with-fbi-director-comey",
+      "title": "The President Discusses Flynn with FBI Director Comey",
+      "paragraphs": 5,
+      "ids": "3f9f4b394b76"
+    },
+    {
+      "slug": "the-media-raises-questions-about-the-presidents-delay-in-terminating-flynn",
+      "title": "The Media Raises Questions About the President's Delay in Terminating Flynn",
+      "paragraphs": 1,
+      "ids": "c7c73b3e6c98"
+    },
+    {
+      "slug": "the-president-attempts-to-have-kt-mcfarland-create-a-witness-statement-denying-t",
+      "title": "The President Attempts to Have K.T. McFarland Create a Witness Statement Denying that he Directed Flynn's Discussions with Kislyak",
+      "paragraphs": 25,
+      "ids": "580888fa4b91"
+    },
+    {
+      "slug": "attorney-general-sessions-recuses-from-the-russia-investigation",
+      "title": "Attorney General Sessions Recuses From the Russia Investigation",
+      "paragraphs": 8,
+      "ids": "7459114007e2"
+    },
+    {
+      "slug": "fbi-director-comey-publicly-confirms-the-existence-of-the-russia-investigation-i",
+      "title": "FBI Director Comey Publicly Confirms the Existence of the Russia Investigation in Testimony Before HPSCI",
+      "paragraphs": 6,
+      "ids": "09f9ecb94147"
+    },
+    {
+      "slug": "the-president-asks-intelligence-community-leaders-to-make-public-statements-that",
+      "title": "The President Asks Intelligence Community Leaders to Make Public Statements that he had No Connection to Russia",
+      "paragraphs": 6,
+      "ids": "00d13045f869"
+    },
+    {
+      "slug": "the-president-asks-comey-to-lift-the-cloud-created-by-the-russia-investigation",
+      "title": "The President Asks Comey to \"Lift the Cloud\" Created by the Russia Investigation",
+      "paragraphs": 15,
+      "ids": "f95a9c4f31d4"
+    },
+    {
+      "slug": "comey-testifies-before-the-senate-judiciary-committee-and-declines-to-answer-que",
+      "title": "Comey Testifies Before the Senate Judiciary Committee and Declines to Answer Questions About Whether the President is Under Investigation",
+      "paragraphs": 5,
+      "ids": "399b763bff0a"
+    },
+    {
+      "slug": "the-president-makes-the-decision-to-terminate-comey",
+      "title": "The President Makes the Decision to Terminate Comey",
+      "paragraphs": 37,
+      "ids": "d389e9a6c1ac"
+    },
+    {
+      "slug": "the-appointment-of-the-special-counsel-and-the-presidents-reaction",
+      "title": "The Appointment of the Special Counsel and the President's Reaction",
+      "paragraphs": 6,
+      "ids": "60ca55f7348a"
+    },
+    {
+      "slug": "the-president-asserts-that-the-special-counsel-has-conflicts-of-interest",
+      "title": "The President Asserts that the Special Counsel has Conflicts of Interest",
+      "paragraphs": 6,
+      "ids": "09725be152bf"
+    },
+    {
+      "slug": "the-press-reports-that-the-president-is-being-investigated-for-obstruction-of-ju",
+      "title": "The Press Reports that the President is Being Investigated for Obstruction of Justice and the President Directs the White House Counsel to Have the Special Counsel Removed",
+      "paragraphs": 25,
+      "ids": "1ea04353edb7"
+    },
+    {
+      "slug": "the-president-asks-corey-lewandowski-to-deliver-a-message-to-sessions-to-curtail",
+      "title": "The President Asks Corey Lewandowski to Deliver a Message to Sessions to Curtail the Special Counsel Investigation",
+      "paragraphs": 6,
+      "ids": "404363c3d000"
+    },
+    {
+      "slug": "the-president-follows-up-with-lewandowski",
+      "title": "The President Follows Up with Lewandowski",
+      "paragraphs": 3,
+      "ids": "96648a2995cd"
+    },
+    {
+      "slug": "the-president-publicly-criticizes-sessions-in-a-new-york-times-interview",
+      "title": "The President Publicly Criticizes Sessions in a New York Times Interview",
+      "paragraphs": 2,
+      "ids": "9ed4612e221d"
+    },
+    {
+      "slug": "the-president-orders-priebus-to-demand-sessionss-resignation",
+      "title": "The President Orders Priebus to Demand Sessions's Resignation",
+      "paragraphs": 19,
+      "ids": "3099d96cc883"
+    },
+    {
+      "slug": "the-president-learns-about-the-existence-of-emails-concerning-the-june-9-2016-tr",
+      "title": "The President Learns About the Existence of Emails Concerning the June 9, 2016 Trump Tower Meeting",
+      "paragraphs": 3,
+      "ids": "b8d096da8c26"
+    },
+    {
+      "slug": "the-president-directs-communications-staff-not-to-publicly-disclose-information-",
+      "title": "The President Directs Communications Staff Not to Publicly Disclose Information About the June 9 Meeting",
+      "paragraphs": 3,
+      "ids": "f8d39952acb0"
+    },
+    {
+      "slug": "the-president-directs-trump-jrs-response-to-press-inquiries-about-the-june-9-mee",
+      "title": "The President Directs Trump Jr.'s Response to Press Inquiries About the June 9 Meeting",
+      "paragraphs": 6,
+      "ids": "42d1d90ea4bf"
+    },
+    {
+      "slug": "the-media-reports-on-the-june-9-2016-meeting",
+      "title": "The Media Reports on the June 9, 2016 Meeting",
+      "paragraphs": 16,
+      "ids": "c5aca50b55fd"
+    },
+    {
+      "slug": "the-president-again-seeks-to-have-sessions-reverse-his-recusal",
+      "title": "The President Again Seeks to Have Sessions Reverse his Recusal",
+      "paragraphs": 3,
+      "ids": "86b886351992"
+    },
+    {
+      "slug": "additional-efforts-to-have-sessions-unrecuse-or-direct-investigations-covered-by",
+      "title": "Additional Efforts to Have Sessions Unrecuse or Direct Investigations Covered by his Recusal",
+      "paragraphs": 15,
+      "ids": "0a72a5f6cf90"
+    },
+    {
+      "slug": "the-press-reports-that-the-president-tried-to-fire-the-special-counsel",
+      "title": "The Press Reports that the President Tried to Fire the Special Counsel",
+      "paragraphs": 2,
+      "ids": "8bb9d365d3c5"
+    },
+    {
+      "slug": "the-president-seeks-to-have-mcgahn-dispute-the-press-reports",
+      "title": "The President Seeks to Have McGahn Dispute the Press Reports",
+      "paragraphs": 23,
+      "ids": "93c35c54157b"
+    },
+    {
+      "slug": "conduct-directed-at-michael-flynn",
+      "title": "Conduct Directed at Michael Flynn",
+      "paragraphs": 4,
+      "ids": "db3ffea6f8a1"
+    },
+    {
+      "slug": "conduct-directed-at-paul-manafort",
+      "title": "Conduct Directed at Paul Manafort",
+      "paragraphs": 11,
+      "ids": "93a30b1c542f"
+    },
+    {
+      "slug": "conduct-directed-at-roger-stone",
+      "title": "Conduct Directed at Roger Stone",
+      "paragraphs": 22,
+      "ids": "0e88faf77fa4"
+    },
+    {
+      "slug": "candidate-trumps-awareness-of-and-involvement-in-the-trump-tower-moscow-project",
+      "title": "Candidate Trump's Awareness of and Involvement in the Trump Tower Moscow Project",
+      "paragraphs": 9,
+      "ids": "34ebd5ab94d4"
+    },
+    {
+      "slug": "cohen-determines-to-adhere-to-a-party-line-distancing-candidate-trump-from-russi",
+      "title": "Cohen Determines to Adhere to a \"Party Line\" Distancing Candidate Trump From Russia",
+      "paragraphs": 3,
+      "ids": "849cbc3826ea"
+    },
+    {
+      "slug": "cohen-submits-false-statements-to-congress-minimizing-the-trump-tower-moscow-pro",
+      "title": "Cohen Submits False Statements to Congress Minimizing the Trump Tower Moscow Project in Accordance with the Party Line",
+      "paragraphs": 10,
+      "ids": "f9ba530894ab"
+    },
+    {
+      "slug": "the-president-sends-messages-of-support-to-cohen",
+      "title": "The President Sends Messages of Support to Cohen",
+      "paragraphs": 9,
+      "ids": "a895d701ce26"
+    },
+    {
+      "slug": "the-presidents-conduct-after-cohen-began-cooperating-with-the-government",
+      "title": "The President's Conduct After Cohen Began Cooperating with the Government",
+      "paragraphs": 33,
+      "ids": "22d0f5c8b1e6"
+    },
+    {
+      "slug": "overarching-factual-issues",
+      "title": "Overarching Factual Issues",
+      "paragraphs": 11,
+      "ids": "1c4f9e53155e"
+    },
+    {
+      "slug": "legal-defenses-to-the-application-of-obstruction-of-justice-statutes-to-the-pres",
+      "title": "LEGAL DEFENSES TO THE APPLICATION OF OBSTRUCTION-OF-JUSTICE STATUTES TO THE PRESIDENT",
+      "paragraphs": 7,
+      "ids": "c58ae06095d4"
+    },
+    {
+      "slug": "the-text-of-section-1512c2-prohibits-a-broad-range-of-obstructive-acts",
+      "title": "The Text of Section 1512(c)(2) Prohibits a Broad Range of Obstructive Acts",
+      "paragraphs": 4,
+      "ids": "472110b04e7c"
+    },
+    {
+      "slug": "judicial-decisions-support-a-broad-reading-of-section-1512c2",
+      "title": "Judicial Decisions Support a Broad Reading of Section 1512(c)(2)",
+      "paragraphs": 4,
+      "ids": "e41efb509091"
+    },
+    {
+      "slug": "the-legislative-history-of-section-1512c2-does-not-justify-narrowing-its-text",
+      "title": "The Legislative History of Section 1512(c)(2) Does Not Justify Narrowing Its Text",
+      "paragraphs": 5,
+      "ids": "f119ab6583f0"
+    },
+    {
+      "slug": "general-principles-of-statutory-construction-do-not-suggest-that-section-1512c2-",
+      "title": "General Principles of Statutory Construction Do Not Suggest That Section 1512(c)(2) is Inapplicable to the Conduct in this Investigation",
+      "paragraphs": 5,
+      "ids": "130982034eb3"
+    },
+    {
+      "slug": "other-obstruction-statutes-might-apply-to-the-conduct-in-this-investigation",
+      "title": "Other Obstruction Statutes Might Apply to the Conduct in this Investigation",
+      "paragraphs": 3,
+      "ids": "2e882193a7de"
+    },
+    {
+      "slug": "constitutional-defenses-to-applying-obstruction-of-justice-statutes-to-president",
+      "title": "Constitutional Defenses to Applying Obstruction-Of-Justice Statutes to Presidential Conduct",
+      "paragraphs": 3,
+      "ids": "6eee6c909a81"
+    },
+    {
+      "slug": "the-requirement-of-a-clear-statement-to-apply-statutes-to-presidential-conduct-d",
+      "title": "The Requirement of a Clear Statement to Apply Statutes to Presidential Conduct Does Not Limit the Obstruction Statutes",
+      "paragraphs": 7,
+      "ids": "f5eaddb35ead"
+    },
+    {
+      "slug": "separation-of-powers-principles-support-the-conclusion-that-congress-may-validly",
+      "title": "Separation-of-Powers Principles Support the Conclusion that Congress May Validly Prohibit Corrupt Obstructive Acts Carried Out Through the President's Official Powers",
+      "paragraphs": 19,
+      "ids": "488fb55ecee9"
+    },
+    {
+      "slug": "ascertaining-whether-the-president-violated-the-obstruction-statutes-would-not-c",
+      "title": "Ascertaining Whether the President Violated the Obstruction Statutes Would Not Chill his Performance of his Article II Duties",
+      "paragraphs": 10,
+      "ids": "86789e9dd061"
+    },
+    {
+      "slug": "notes-not-linked-in-the-text",
+      "title": "Notes not linked in the text",
+      "paragraphs": 0,
+      "ids": "e3b0c44298fc"
+    }
+  ]
+}

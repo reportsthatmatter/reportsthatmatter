@@ -1,8 +1,8 @@
 # Lessons: the running log
 
-What we learned about getting better faster on this pipeline. Reportsthatmatter-38s.6 started it; every agent appends. It is a log, not a design: short entries, newest first inside each theme, each with the evidence (a bead or a doc) and what changed or is proposed. When a lesson becomes a check, a tool or a rule, link it here and move on; do not rewrite history, add a line.
+THE ARCHIVE: the 406 entries written before 2026-10-10, by theme, frozen. New lessons are one file each in [`lessons/`](lessons/README.md) (reportsthatmatter-r4q2). What we learned about getting better faster on this pipeline. Reportsthatmatter-38s.6 started it. It is a log, not a design: short entries, newest first inside each theme, each with the evidence (a bead or a doc) and what changed or is proposed. When a lesson becomes a check, a tool or a rule, link it and move on; do not rewrite history.
 
-**How to add one.** At the end of your task, after your final-report retro ("Getting better faster", agent protocol rule 12), append the entries that are worth keeping to the theme they belong to (or a new theme), in the form below, in the same PR as your work. One line per entry, never hard-wrapped. Skip what is only about your report; keep what would have helped the next agent on a different one. The integrator merges concurrent appends (it is an append-only file, so conflicts are trivial) and reads the log before each release.
+**Do not append here.** One shared file of appended lines conflicted in every concurrent PR, so each lesson is now its own file: `pnpm lessons new <slug> --theme "<theme>"` (format, the choice against a `.gitattributes` merge driver, and how to move a line you appended to this file: [`lessons/README.md`](lessons/README.md)). `pnpm lessons` prints the new entries by theme; `tests/lessons.test.ts` fails if this file gains or loses an entry. The format of an entry, unchanged:
 
 `- **<lesson>** (YYYY-MM-DD, <bead or doc>, <who>) <evidence in a sentence>. <What changed, or the proposal>. [status: done in <PR> | proposed | open question]`
 

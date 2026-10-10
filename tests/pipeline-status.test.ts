@@ -28,7 +28,7 @@ function fixture(upTo: Stage | null, unit: Record<string, unknown> = {}, extra: 
   put(join(root, "reports/pipeline.yaml"), yaml({ units: [{ id: "r1", scope: "the report", reached: "candidate", state: "active", ...unit }, ...(extra.more ?? [])] }));
   put(join(root, "reports/manifest.yaml"), yaml({ reports: has("repo") ? [{ id: "r1", dir: "../r1-repo" }] : [] }));
   put(join(root, "reports/registry.yaml"), yaml({ reports: has("evaluate") ? [{ id: "r1", title: "The R1 Report", ingested: true }] : [] }));
-  put(join(root, "reports/corpus-baseline.json"), JSON.stringify({ reports: has("evaluate") ? { r1: {} } : {} }));
+  if (has("evaluate")) put(join(root, "reports/corpus-baseline/r1.json"), "{}");
   put(join(root, "reports/oracle-budget.yaml"), yaml({ reports: has("evaluate") ? { r1: {} } : {} }));
   if (has("repo")) {
     put(join(repo, "archive/a.pdf"), pdf);

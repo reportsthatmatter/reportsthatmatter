@@ -40,7 +40,7 @@ description: Use when you are the reviewer agent gating PRs on Reports that Matt
 
 ## Failure modes
 
-- **Trial merge conflicts on derived files** (`marketing/queue.yaml`, `reports/corpus-baseline.json`, `src/generated/*`): take main's and regenerate (`pnpm posts`, `pnpm corpus accept <id>`, `pnpm editorial`), as the integrator will.
+- **Trial merge conflicts on derived files** (`marketing/queue.yaml`, `src/generated/*`; `reports/corpus-baseline/<id>.json` only when two PRs moved the same report): take main's and regenerate (`pnpm posts`, `pnpm corpus accept <id>`, `pnpm editorial`), as the integrator will. Lessons (one file each) and the decisions index (generated) do not conflict; a decision-number clash is a failing `tests/decisions.test.ts`, renumbered on the PR branch.
 - **`pnpm install` in a linked trial undoes the link** (irfs): `pnpm ingest link --restore`, then link again.
 - **A check passes only in your worktree** because you seeded local D1 or have a stale cache: re-run in a fresh worktree before writing "pass".
 - **A state value or field the tests reject** (e.g. `state: done` in `reports/pipeline.yaml`): run the test before writing it into the integrator steps.

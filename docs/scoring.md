@@ -21,7 +21,7 @@
 
 **Gating.** A report with no `reference/adjudicated.yaml` is printed but not recorded (`--ungated` records it): its reference's error rate is unknown. A reference whose error plus no-answer share exceeds the ceiling in `score-sets.yaml` (5% + 10%) prints a warning: its numbers say little (Chilcot's tags drop whole paragraphs). A held-out report whose boundary F1 falls against the recorded value prints a warning asking whether the pass was tuned on the held-out set. `--no-write` leaves `scores.json` alone; scoring a few ids merges them into the file.
 
-**The release scorecard.** `pnpm scorecard` assembles `pnpm quality report --diff`, the layout-oracle counts per report, the golden-page table and the oracle's precision against it (from `pnpm ingest verify`; `reports/verify-last.json` is the recorded base), and the `scores.json` diff against `origin/main`, with a checklist, for the PR body of every ingest release (steps in [`scripts/ingest/README.md`](../scripts/ingest/README.md)). Lessons from each release go in [`design/lessons.md`](design/lessons.md).
+**The release scorecard.** `pnpm scorecard` assembles `pnpm quality report --diff`, the layout-oracle counts per report, the golden-page table and the oracle's precision against it (from `pnpm ingest verify`; `reports/verify-last.json` is the recorded base), and the `scores.json` diff against `origin/main`, with a checklist, for the PR body of every ingest release (steps in [`scripts/ingest/README.md`](../scripts/ingest/README.md)). Lessons from each release go in [`design/lessons/`](design/lessons/README.md).
 
 ## Commands
 

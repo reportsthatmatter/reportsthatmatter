@@ -44,7 +44,7 @@ The individual bead notes converge on six reasons. They matter more than any one
 | `severedSentenceCheck` (< 20% paragraphs into quotes) | same | the Litvinenko catastrophe | the same defect at 9.8%, mid-page or across a page marker |
 | `pageBreakSplits` | ingest `fidelity.ts`, measure only | lower-case continuations across page markers | capitalised continuations, mid-page splits; not a gate |
 | `pnpm ingest check` (baseline.json) | site `scripts/ingest/cli.ts` | any move in a report's markdown | a report that was wrong from day one |
-| `pnpm corpus check` (corpus-baseline.json) | site `scripts/corpus.mjs` | any move in rendered ids/sections | same |
+| `pnpm corpus check` (corpus-baseline/{id}.json) | site `scripts/corpus.mjs` | any move in rendered ids/sections | same |
 | `paragraphDensityCheck` (≥ 4 ids per 1k words) | site `src/lib/density.ts`, in corpus check | a report with almost no citable text | everything above the floor |
 | `pnpm editorial` | site | a quotation that is not verbatim, a citation that moved | the report's own text |
 | verify.sh HTTP/browser checks | site | pages that fail to render, `p-1` ids, no sidenotes where the source has footnotes | the content of any paragraph |

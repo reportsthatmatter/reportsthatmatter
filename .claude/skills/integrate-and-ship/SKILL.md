@@ -15,7 +15,7 @@ You work in the shared checkouts on `main` (`~/src/reportsthatmatter/reportsthat
 
 **Fast path:** no ingest PR and the pin already at the target (`pnpm bump-pin X.Y.Z --dry-run` says "already at the pin" for every repo): skip steps 2-3.
 
-1. **Merge in the review's order**, at the reviewed heads: `gh pr merge <n> --squash` (check `gh pr view <n> --json headRefOid` first; a newer head needs the reviewer's word). Conflicts: the review's recipe; derived files (`marketing/queue.yaml`, `reports/corpus-baseline.json`, `src/generated/*`) take main's and regenerate.
+1. **Merge in the review's order**, at the reviewed heads: `gh pr merge <n> --squash` (check `gh pr view <n> --json headRefOid` first; a newer head needs the reviewer's word). Conflicts: the review's recipe; derived files (`marketing/queue.yaml`, `src/generated/*`) take main's and regenerate. `reports/corpus-baseline/<id>.json` is one file per report, so it conflicts only when two PRs moved the same report: take main's for that report and `pnpm corpus accept <id>`. Lessons are one file each and the decisions index is generated, so neither conflicts; a duplicate decision number fails CI (`pnpm decisions`).
 2. **Release ingest** (only if an ingest PR merged): in the shared `~/src/reportsthatmatter/ingest` on `main`, `git pull --ff-only`, `pnpm release X.Y.Z --dry-run`, then `pnpm release X.Y.Z`. It refuses a worktree, a dirty tree or a stale `dist/`.
 3. **Pin bump** in a site branch:
    - `pnpm bump-pin X.Y.Z --dry-run`, then `pnpm bump-pin X.Y.Z --shared`: edits the site's and every report repo's `package.json`, refreshes each lockfile with `pnpm install --no-frozen-lockfile`, runs `pnpm ingest preflight`; it commits nothing. Check each `pnpm-lock.yaml` names the tag's commit (a mistyped version fails at install and leaves the site's `package.json` edited: `git checkout package.json`).
@@ -35,7 +35,7 @@ You work in the shared checkouts on `main` (`~/src/reportsthatmatter/reportsthat
 - [ ] `pnpm publish-report --all --status --base https://reportsthatmatter.org` shows every report `current` (each served hash equals the local one)
 - [ ] Record files committed; beads closed with reasons; `bd dolt push` done
 
-## Integrator pitfalls (from `docs/design/lessons.md`)
+## Integrator pitfalls (from `docs/design/lessons.md` and `docs/design/lessons/`)
 
 - `pnpm release` must run in the shared `ingest/` on `main`, not a worktree.
 - A new release's ship state is for the old pin: `pnpm ship --reset` before `--plan`.

@@ -100,4 +100,4 @@ with `pnpm quality ratchet`. Once the release has shipped, `pnpm quality ratchet
 2. Read it. A `▲` or `▼` needs a bead or a sentence in the PR. A held-out score that fell means the pass was tuned on held-out or does not generalise: say which. A `pnpm score` warning about a reference over its ceiling means that report's numbers say little.
 3. Commit the regenerated `docs/scores.json` with the re-ingest (it is what the next release is diffed against); `pnpm score` reads the site's `reports/<id>/full.md`, so re-score after the re-ingest and aggregate, not before.
 4. After the release ships: `pnpm quality ratchet --record`, `pnpm scorecard --record --no-score`, `pnpm score`; commit `reports/quality-last.json`, `reports/verify-last.json`, `docs/scores.json`.
-5. Append what the release taught to [`docs/design/lessons.md`](../../docs/design/lessons.md).
+5. Add what the release taught as lesson files in [`docs/design/lessons/`](../../docs/design/lessons/README.md) (`pnpm lessons new`).
