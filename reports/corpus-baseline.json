@@ -3571,8 +3571,8 @@
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 61870,
-      "paragraphs": 950,
+      "words": 61869,
+      "paragraphs": 949,
       "sections": [
         {
           "slug": "front-matter",
@@ -3775,8 +3775,8 @@
         {
           "slug": "force-level-review",
           "title": "FORCE LEVEL REVIEW",
-          "paragraphs": 11,
-          "ids": "6de77b79acd2"
+          "paragraphs": 10,
+          "ids": "cc4a13d4ada7"
         },
         {
           "slug": "the-beginning-of-the-end",
@@ -3919,8 +3919,8 @@
       ]
     },
     "uk-post-office-horizon-inquiry": {
-      "words": 83638,
-      "paragraphs": 948,
+      "words": 83632,
+      "paragraphs": 942,
       "sections": [
         {
           "slug": "introduction",
@@ -3943,14 +3943,14 @@
         {
           "slug": "b-categories-of-persons-affected",
           "title": "b. Categories of persons affected",
-          "paragraphs": 43,
-          "ids": "3c16da00e00e"
+          "paragraphs": 42,
+          "ids": "a17f84303556"
         },
         {
           "slug": "c-case-illustrations",
           "title": "c. Case Illustrations",
-          "paragraphs": 181,
-          "ids": "198d567f694a"
+          "paragraphs": 180,
+          "ids": "487da53b83f7"
         },
         {
           "slug": "financial-and-other-redress",
@@ -3997,8 +3997,8 @@
         {
           "slug": "submissions-on-behalf-of-core-participants-and-others",
           "title": "SUBMISSIONS ON BEHALF OF CORE PARTICIPANTS AND OTHERS",
-          "paragraphs": 14,
-          "ids": "7003743bd266"
+          "paragraphs": 13,
+          "ids": "7f6d234aac85"
         },
         {
           "slug": "conclusions-and-recommendations-relating-to-redress",
@@ -4021,14 +4021,14 @@
         {
           "slug": "c-has-financial-redress-been-delivered-promptly",
           "title": "c. Has financial redress been delivered promptly?",
-          "paragraphs": 87,
-          "ids": "c8ea6871b2dc"
+          "paragraphs": 85,
+          "ids": "b522b482cb93"
         },
         {
           "slug": "d-other-issues-and-recommendations",
           "title": "d. Other Issues and Recommendations",
-          "paragraphs": 34,
-          "ids": "5bf41314c6ff"
+          "paragraphs": 33,
+          "ids": "5b3dbbe4be20"
         }
       ]
     },
@@ -4663,8 +4663,8 @@
       ]
     },
     "uk-grenfell-tower-inquiry": {
-      "words": 116809,
-      "paragraphs": 843,
+      "words": 116807,
+      "paragraphs": 841,
       "sections": [
         {
           "slug": "phase-2-report",
@@ -4693,8 +4693,8 @@
         {
           "slug": "chapter-5-fire-testing",
           "title": "Chapter 5: Fire testing",
-          "paragraphs": 68,
-          "ids": "db7df317817e"
+          "paragraphs": 67,
+          "ids": "d2f874f7c7b7"
         },
         {
           "slug": "chapter-6-regulations-and-guidance-relating-to-external-walls",
@@ -4705,8 +4705,8 @@
         {
           "slug": "chapter-7-the-government-and-the-building-research-establishment",
           "title": "Chapter 7: The government and the Building Research Establishment",
-          "paragraphs": 149,
-          "ids": "89885d3426a4"
+          "paragraphs": 148,
+          "ids": "38684b2036e1"
         },
         {
           "slug": "chapter-8-the-investigation-of-real-fires-project",

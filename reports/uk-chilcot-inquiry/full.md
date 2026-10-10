@@ -2467,11 +2467,9 @@ Powell J. The New Machiavelli: How to wield power in the modern world. The Bodle
 
 779\. In July 2007, FCO and MOD officials recognised that leaving Basra Palace would mean moving to PIC in fact if not in name. Mr Brown, who had become Prime Minister in June, was keen that the gap between leaving the Palace and transfer to PIC should be as small as possible, since UK situational awareness and ability to conduct operations in Basra would be limited once the Palace was no longer in use.
 
-780\. During a visit to Iraq at the start of July, ACM Stirrup sought to convince senior US officers that Basra was ready for transfer to PIC on the basis that it would not be possible to demonstrate readiness until after the transfer had taken place.
+780\. During a visit to Iraq at the start of July, ACM Stirrup sought to convince senior US officers that Basra was ready for transfer to PIC on the basis that it would not be possible to demonstrate readiness until after the transfer had taken place. General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker, US Ambassador to Iraq, remained "circumspect" on the timing of PIC.[^275] They considered that there remained "significant problems" associated with "unstable politics" and "JAM infiltration" in Basra.
 
 %%page 108%%
-
-General David Petraeus, Commanding General MNF‑I, and Ambassador Ryan Crocker, US Ambassador to Iraq, remained "circumspect" on the timing of PIC.[^275] They considered that there remained "significant problems" associated with "unstable politics" and "JAM infiltration" in Basra.
 
 781\. As they reached the end of their respective tours of duty, both Major General Jonathan Shaw, General Officer Commanding MND(SE) from January to August 2007, and Lieutenant General William Rollo, Senior British Military Representative – Iraq from July 2007 to March 2008, identified the impact of limited resources on the UK's military effort and questioned the drive for continued drawdown in Iraq in order to prioritise resources for Helmand. Maj Gen Shaw wrote: "We have been hamstrung for resources throughout the tour, driven by the rising strategic significance of the Afghan deployment."[^276]
 
