@@ -492,3 +492,27 @@ marks:
       Public domain: a work of the U.S. Government (17 U.S.C. 105), S. Rept.
       113-288 as printed by the GPO; no third-party credit on the page.
     treat: { black: 0.10, white: 0.88, grain: 70, cut: none }
+  - id: mueller
+    set: plate
+    report: us-mueller-report
+    pdf: archive/report_volume1.pdf
+    page: 25
+    dpi: 200
+    # Measured on the 200dpi grey raster (2026-10-09): the redaction boxes and the lines between them run
+    # x 190-1520, y 230-1130; the box takes the first full line of text above them and stops above the
+    # page's lower boxes, with the right-margin labels (from x 1500) left out.
+    crop: [175, 205, 1318, 940]
+    subject: >-
+      Volume I, printed p.17 (PDF p.25), section II.B on the Internet Research Agency's funding: one
+      surviving sentence ("Numerous media sources have reported on Prigozhin's ties to Putin…") between
+      black redaction boxes labelled "(b) (7)(A), (b) (7)(E), (b) (3)", the FOIA exemptions the passage was
+      withheld under. The redactions are the report's most recognisable feature, and the exhibit here is
+      the document as the public received it, not the events it describes. The report's few photographs
+      (p.91: a meeting, with identifiable people) are not used, per the plates rule (no portraits).
+    rights: >-
+      Public domain: a work of the U.S. Government (17 U.S.C. 105), per the report repo's README. The
+      page is the Department of Justice's own FOIA release (justice.gov/storage/report_volume1.pdf).
+    treat: { black: 0.10, white: 0.88, grain: 60, cut: none }
+    caveat: >-
+      The page is a 144dpi scan, so the crop is upscaled from about 980px; check the 92px row reads as
+      text and black bars rather than grey.

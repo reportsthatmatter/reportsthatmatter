@@ -43,3 +43,5 @@ reports:
     dir: ../uk-grenfell-tower-inquiry
   - id: us-senate-cia-torture-report
     dir: ../us-senate-cia-torture-report
+  - id: us-mueller-report
+    dir: ../us-mueller-report

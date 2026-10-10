@@ -1,0 +1,173 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      editor's highlights: seeded into the marks table, not printed here
+#
+# Written 2026-10-09 (reportsthatmatter-gqsy.5, ga0k) to the rule of the Jack Smith
+# and January 6th introductions: our words neutral and attributed ("the Special
+# Counsel finds"), every judgment in the report's own words and in quotation marks.
+#
+# Sources for the background facts that are not in the report (checked 2026-10-09):
+#   report delivered to the Attorney General 22 March 2019; Barr's four-page summary to
+#     Congress 24 March 2019; Mueller's letter of 27 March 2019 ("did not fully capture the
+#     context, nature, and substance of this Office's work and conclusions"), made public
+#     30 April / 1 May 2019 (axios.com/2019/05/01/mueller-told-barr-summary-failed-fully-capture-russia-probe-findings)
+#   redacted report released 18 April 2019 (politifact.com/article/2019/apr/18/read-redacted-mueller-report)
+#   charges: 34 individuals and three companies (cbsnews.com, "Here's everyone who was charged
+#     in the Mueller probe", 22 March 2019)
+#   Mueller's statement 29 May 2019 and his testimony to the House Judiciary and
+#     Intelligence Committees 24 July 2019 (nbcnews.com full transcript, n1033216)
+#   Judge Reggie Walton, 5 March 2020, EPIC and BuzzFeed v. DOJ: Barr's "lack of candor"
+#     (cbsnews.com/news/judge-criticizes-barr-for-lack-of-candor-in-summaries-of-mueller-report)
+#   less-redacted releases June and November 2020 and February 2022: the report repo's README
+#     (EPIC case page; emptywheel.net, "The Five Versions of the Mueller Report")
+#   clemency: Stone's sentence commuted 10 July 2020; Flynn pardoned 25 November 2020;
+#     Manafort and Stone pardoned 23 December 2020 (npr.org 2020-12-23; axios.com 2020-07-10)
+# Facts taken from the report: the appointment (17 May 2017, by Acting Attorney General
+# Rosenstein), its scope, the OLC opinion, the declined interview and written answers.
+
+report: us-mueller-report
+status: approved
+
+why_it_matters: >-
+  The report of Special Counsel Robert Mueller on Russia's interference in the
+  2016 US presidential election. Volume I sets out how Russia interfered and
+  the Trump Campaign's contacts with Russia; Volume II, the President's
+  conduct towards the investigation and whether it obstructed justice. It is
+  shown here as the Justice Department released it, redactions marked.
+
+background: |
+  In 2016 Russian operatives ran a social media campaign aimed at American
+  voters and hacked and released Democratic Party and Clinton Campaign emails.
+  The FBI opened an investigation in July 2016. After President Donald Trump
+  fired the FBI Director, James Comey, in May 2017, Acting Attorney General Rod
+  Rosenstein appointed Robert Mueller as Special
+  Counsel on 17 May 2017, to investigate Russia's interference, any links or
+  coordination with the Trump Campaign, and matters arising from the
+  investigation. The report sets out that mandate, and the President's
+  decision not to be interviewed (he answered written questions instead), in
+  its own words.
+
+  Mueller's office charged 34 people and three companies, among them Russian
+  intelligence officers and the Internet Research Agency; several Trump
+  associates pleaded guilty or were convicted. The report went to Attorney
+  General William Barr on 22 March 2019. Barr's four-page summary to Congress
+  two days later drew a letter from Mueller saying it "did not fully capture
+  the context, nature, and substance" of the Office's work. The report was
+  released with redactions on 18 April 2019. It is a prosecutor's report:
+  its findings were not tested in court, and it deliberately reached no
+  conclusion on whether the President committed a crime.
+
+  Mueller testified to two House committees in July 2019. In March 2020 a
+  federal judge, ruling in freedom-of-information suits, criticised Barr's
+  "lack of candor" about the report and reviewed its redactions; the Justice
+  Department released less-redacted versions in 2020 and 2022, which are the
+  text shown here. President Trump commuted Roger Stone's sentence in July
+  2020 and later pardoned Stone, Michael Flynn and Paul Manafort.
+
+findings:
+  - text: The Special Counsel finds that Russia interfered in the 2016 election principally through two operations, a social media campaign and the hacking and release of stolen documents.
+    cites: [russian-government-interfered-2016-presidential, set-forth-detail-report-special]
+    excerpt:
+      paragraph: russian-government-interfered-2016-presidential
+      quote: The Russian government interfered in the 2016 presidential election in sweeping and systematic fashion.
+
+  - text: It describes the Internet Research Agency's social media campaign, funded by the Russian oligarch Yevgeniy Prigozhin, which by early 2016 favoured candidate Trump and disparaged candidate Clinton.
+    cites: [ira-later-used-social-media]
+
+  - text: It describes how the GRU, Russia's military intelligence service, hacked the Clinton Campaign and the Democratic Party and released the documents through DCLeaks, Guccifer 2.0 and WikiLeaks.
+    cites: [march-2016-gru-began-hacking]
+
+  - text: It identifies "numerous links" between the Russian government and the Trump Campaign, but concludes that the investigation did not establish that the Campaign conspired or coordinated with Russia's interference.
+    cites: [set-forth-detail-report-special, second-while-investigation-identified-numerous]
+    excerpt:
+      paragraph: set-forth-detail-report-special
+      quote: >-
+        Although the investigation established that the Russian government
+        perceived it would benefit from a Trump presidency and worked to
+        secure that outcome, and that the Campaign expected it would benefit
+        electorally from information stolen and released through Russian
+        efforts, the investigation did not establish that members of the
+        Trump Campaign conspired or coordinated with the Russian government in
+        its election interference activities.
+
+  - text: It finds that several people connected with the Campaign lied to the Office and to Congress, and that "those lies materially impaired the investigation".
+    cites: [third-investigation-established-several-individuals]
+
+  - text: On obstruction, the Office decided not to make a traditional prosecutorial judgment, accepting the Justice Department's view that a sitting President may not be prosecuted.
+    cites: [first-traditional-prosecution-declination-decision]
+
+  - text: It sets out the episodes of the President's conduct towards the investigations, among them asking Comey to let the Flynn investigation go, firing Comey, and directing the White House Counsel to have the Special Counsel removed, and it records that his efforts were "mostly unsuccessful" because those around him did not carry out his requests.
+    cites: [june-14-2017-media-reported, president-s-efforts-influence-investigation]
+    excerpt:
+      paragraph: president-s-efforts-influence-investigation
+      quote: >-
+        The President's efforts to influence the investigation were mostly
+        unsuccessful, but that is largely because the persons who surrounded
+        the President declined to carry out orders or accede to his requests.
+
+  - text: It concludes that it cannot clear the President.
+    cites: [fourth-if-we-had-confidence, because-we-determined-not-make]
+    excerpt:
+      paragraph: fourth-if-we-had-confidence
+      quote: >-
+        Accordingly, while this report does not conclude that the President
+        committed a crime, it also does not exonerate him.
+
+reading_guide:
+  - section: introduction-to-volume-i
+    why: The report's own overview of both volumes, and why it speaks of conspiracy, not "collusion".
+
+  - section: executive-summary-to-volume-i
+    why: The interference operations and the Campaign's Russian contacts, year by year, and the charging decisions in summary.
+    excerpt:
+      paragraph: march-2016-gru-began-hacking
+      quote: >-
+        In March 2016, the GRU began hacking the email accounts of Clinton
+        Campaign volunteers and employees, including campaign chairman John
+        Podesta.
+
+  - section: june-9-2016-meeting-at-trump-tower
+    why: The meeting offered as "part of Russia and its government's support for Mr. Trump", from the emails setting it up to what followed.
+
+  - section: introduction-to-volume-ii
+    why: Why the Office did not decide whether the President committed a crime, in four short points.
+
+  - section: executive-summary-to-volume-ii
+    why: Each of the episodes the obstruction investigation examined, in summary, and the Office's answer to the President's legal defences.
+
+  - section: the-press-reports-that-the-president-is-being-investigated-for-obstruction-of-ju
+    why: The order to have the Special Counsel removed, and McGahn's refusal to carry it out.
+
+highlights:
+  - paragraph: russian-government-interfered-2016-presidential
+    quote: The Russian government interfered in the 2016 presidential election in sweeping and systematic fashion.
+    card: true
+  - paragraph: fourth-if-we-had-confidence
+    quote: Accordingly, while this report does not conclude that the President committed a crime, it also does not exonerate him.
+    card: true
+  - paragraph: president-s-efforts-influence-investigation
+    quote: The President's efforts to influence the investigation were mostly unsuccessful, but that is largely because the persons who surrounded the President declined to carry out orders or accede to his requests.
+  - paragraph: third-investigation-established-several-individuals
+    quote: Those lies materially impaired the investigation of Russian election interference.
+  - paragraph: ira-later-used-social-media
+    quote: The IRA later used social media accounts and interest groups to sow discord in the U.S. political system through what it termed "information warfare."
+    card: true
+  - paragraph: march-2016-gru-began-hacking
+    quote: In March 2016, the GRU began hacking the email accounts of Clinton Campaign volunteers and employees, including campaign chairman John Podesta.
+  - paragraph: later-afternoon-president-cleared-oval
+    quote: I hope you can let this go.
+  - paragraph: june-14-2017-media-reported
+    quote: McGahn did not carry out the direction, however, deciding that he would resign rather than trigger what he regarded as a potential Saturday Night Massacre.
+    card: true
+  - paragraph: first-traditional-prosecution-declination-decision
+    quote: First, a traditional prosecution or declination decision entails a binary determination to initiate or decline a prosecution, but we determined not to make a traditional prosecutorial judgment.
+  - paragraph: may-17-2017-acting-attorney-2
+    quote: This is the end of my Presidency.
+  - paragraph: second-while-investigation-identified-numerous
+    quote: Further, the evidence was not sufficient to charge that any member of the Trump Campaign conspired with representatives of the Russian government to interfere in the 2016 election.

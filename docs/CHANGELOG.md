@@ -7,6 +7,22 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-10 — The Mueller Report, and cleaner Leveson, Columbia and Challenger (ingest v0.26.0)
+
+The Report on the Investigation into Russian Interference in the 2016 Presidential Election (Special Counsel Robert Mueller, Volumes I and II) is now on the site: 102 sections, 1,315 citable paragraphs, searchable, with its plate, five share cards, an introduction and 11 highlights. Redactions are shown inline as "[Redacted: (b) (7)(A)]" with the codes the box prints (decision 0020). Its 74 scanned pages of Volume I are read by OCR and its processing notes list them; the appendices are not included yet. Leveson loses its running heads and small-caps garble and splits "N.N Second" openers; Columbia and Challenger have about 175 words closed up across line-end hyphens, and Columbia gains speaker turns and Findings and Recommendations headings; Deepwater's chapter 9 list renders as a list; Litvinenko rejoins five cut statute items.
+
+![The Mueller Report's landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-10-10-mueller-report/after-us-mueller-report-desktop.png)
+
+[Full entry](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-10-10--the-mueller-report-is-on-the-site-v0260).
+
+---
+
+## 2026-10-10 — Page breaks, floats and a launch audit: nine reports republished, four re-rendered (ingest v0.25.0)
+
+Nine reports changed text. Numbered paragraphs that a page break had split are whole again in the Post Office Horizon Inquiry (6 joins), Grenfell (2) and Chilcot (1). The Jack Smith report loses the Blanche letterhead footer that had cut two paragraphs in half, 9/11 now prints box floats in page order, and the January 6th report sets captions in italics and nests its appendix parts one level deeper. The Lehman examiner (31 new paragraph ids), the Senate PSI report (about 100 subheads, 32 ids) and United States v. Philip Morris (notes 7 to 58 defined) have their burn-down passes applied. Challenger, Columbia, Leveson and Jack Smith keep their text but drop OCR-fragment links and join wrapped URLs: Challenger goes from 11 links to none (all junk), Leveson from 416 to 182. The site gets the launch audit's changes (about copy without commentary, phone header navigation) and `/full` previews for shared links. Decisions 0015 to 0019 record the choices. No screenshots for this release.
+
+---
+
 ## 2026-10-04 — The Grenfell Tower Inquiry Phase 2 Report, Volume 1 (ingest v0.24.0)
 
 The Grenfell Tower Inquiry Phase 2 report, Volume 1, is now on the site: 843 citable paragraphs, 2,019 linked notes and its plate, searchable, with an approved introduction (Open Government Licence v3.0). The tables and figures are not yet shown, only their captions, and the hero waits. Ingest v0.24.0 adds four opt-in passes (`furnitureFaces`, `typographicHeadings` relevel, `numberedOpenings`, `figureFaces`) that only Grenfell declares, so the other 15 reports are byte-identical. One report published (about 2.5k index row writes), the other 15 untouched.

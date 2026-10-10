@@ -20,9 +20,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/challenger-accident?p=like-rogers-commission-committee-concluded"
           },
           {
-            "id": "findings-2",
+            "id": "1-design-field-joint-unsatisfactory",
             "page": 9,
-            "href": "/reports/challenger-accident?p=findings-2"
+            "href": "/reports/challenger-accident?p=1-design-field-joint-unsatisfactory"
           }
         ]
       },
@@ -137,9 +137,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The Committee confirms the Commission's finding that NASA's safety, reliability and quality assurance programmes were grossly inadequate, and finds nothing to show that NASA's safety staff ever evaluated the seal problem.",
         "cites": [
           {
-            "id": "concurrence-rogers-commission-committee-con",
+            "id": "concurrence-rogers-commission-committee-confirms",
             "page": 4,
-            "href": "/reports/challenger-accident?p=concurrence-rogers-commission-committee-con"
+            "href": "/reports/challenger-accident?p=concurrence-rogers-commission-committee-confirms"
           },
           {
             "id": "second-there-nothing-show-what",
@@ -3626,6 +3626,195 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "alt": "A television camera crew filming Lehman Brothers' illuminated corporate sign in a Christie's shop window, London, beside a card advertising the sale of \"Lehman Brothers: Artwork & Ephemera.\"",
       "focus": "65% 35%"
     }
+  },
+  "us-mueller-report": {
+    "status": "approved",
+    "whyItMatters": "The report of Special Counsel Robert Mueller on Russia's interference in the 2016 US presidential election. Volume I sets out how Russia interfered and the Trump Campaign's contacts with Russia; Volume II, the President's conduct towards the investigation and whether it obstructed justice. It is shown here as the Justice Department released it, redactions marked.",
+    "background": [
+      "In 2016 Russian operatives ran a social media campaign aimed at American voters and hacked and released Democratic Party and Clinton Campaign emails. The FBI opened an investigation in July 2016. After President Donald Trump fired the FBI Director, James Comey, in May 2017, Acting Attorney General Rod Rosenstein appointed Robert Mueller as Special Counsel on 17 May 2017, to investigate Russia's interference, any links or coordination with the Trump Campaign, and matters arising from the investigation. The report sets out that mandate, and the President's decision not to be interviewed (he answered written questions instead), in its own words.",
+      "Mueller's office charged 34 people and three companies, among them Russian intelligence officers and the Internet Research Agency; several Trump associates pleaded guilty or were convicted. The report went to Attorney General William Barr on 22 March 2019. Barr's four-page summary to Congress two days later drew a letter from Mueller saying it \"did not fully capture the context, nature, and substance\" of the Office's work. The report was released with redactions on 18 April 2019. It is a prosecutor's report: its findings were not tested in court, and it deliberately reached no conclusion on whether the President committed a crime.",
+      "Mueller testified to two House committees in July 2019. In March 2020 a federal judge, ruling in freedom-of-information suits, criticised Barr's \"lack of candor\" about the report and reviewed its redactions; the Justice Department released less-redacted versions in 2020 and 2022, which are the text shown here. President Trump commuted Roger Stone's sentence in July 2020 and later pardoned Stone, Michael Flynn and Paul Manafort."
+    ],
+    "findings": [
+      {
+        "text": "The Special Counsel finds that Russia interfered in the 2016 election principally through two operations, a social media campaign and the hacking and release of stolen documents.",
+        "cites": [
+          {
+            "id": "russian-government-interfered-2016-presidential",
+            "page": 1,
+            "href": "/reports/us-mueller-report?p=russian-government-interfered-2016-presidential"
+          },
+          {
+            "id": "set-forth-detail-report-special",
+            "page": 1,
+            "href": "/reports/us-mueller-report?p=set-forth-detail-report-special"
+          }
+        ],
+        "excerpt": {
+          "quote": "The Russian government interfered in the 2016 presidential election in sweeping and systematic fashion.",
+          "cite": {
+            "id": "russian-government-interfered-2016-presidential",
+            "page": 1,
+            "href": "/reports/us-mueller-report?p=russian-government-interfered-2016-presidential&h=|The%20Russian%20government%20interfered%20in%20the%202016%20presidential%20election%20in%20sweeping%20and%20systematic%20fashion.|%20Evidence%20of%20Russian"
+          }
+        }
+      },
+      {
+        "text": "It describes the Internet Research Agency's social media campaign, funded by the Russian oligarch Yevgeniy Prigozhin, which by early 2016 favoured candidate Trump and disparaged candidate Clinton.",
+        "cites": [
+          {
+            "id": "ira-later-used-social-media",
+            "page": 4,
+            "href": "/reports/us-mueller-report?p=ira-later-used-social-media"
+          }
+        ]
+      },
+      {
+        "text": "It describes how the GRU, Russia's military intelligence service, hacked the Clinton Campaign and the Democratic Party and released the documents through DCLeaks, Guccifer 2.0 and WikiLeaks.",
+        "cites": [
+          {
+            "id": "march-2016-gru-began-hacking",
+            "page": 4,
+            "href": "/reports/us-mueller-report?p=march-2016-gru-began-hacking"
+          }
+        ]
+      },
+      {
+        "text": "It identifies \"numerous links\" between the Russian government and the Trump Campaign, but concludes that the investigation did not establish that the Campaign conspired or coordinated with Russia's interference.",
+        "cites": [
+          {
+            "id": "set-forth-detail-report-special",
+            "page": 1,
+            "href": "/reports/us-mueller-report?p=set-forth-detail-report-special"
+          },
+          {
+            "id": "second-while-investigation-identified-numerous",
+            "page": 9,
+            "href": "/reports/us-mueller-report?p=second-while-investigation-identified-numerous"
+          }
+        ],
+        "excerpt": {
+          "quote": "Although the investigation established that the Russian government perceived it would benefit from a Trump presidency and worked to secure that outcome, and that the Campaign expected it would benefit electorally from information stolen and released through Russian efforts, the investigation did not establish that members of the Trump Campaign conspired or coordinated with the Russian government in its election interference activities.",
+          "cite": {
+            "id": "set-forth-detail-report-special",
+            "page": 1,
+            "href": "/reports/us-mueller-report?p=set-forth-detail-report-special&h=government%20and%20the%20Trump%20Campaign.%20|Although%20the%20investigation%20established%20that%20the%20Russian%20government%20perceived%20it%20would%20benefit%20from%20a%20Trump%20presidency%20an%E2%8B%AFbers%20of%20the%20Trump%20Campaign%20conspired%20or%20coordinated%20with%20the%20Russian%20government%20in%20its%20election%20interference%20activities.|"
+          }
+        }
+      },
+      {
+        "text": "It finds that several people connected with the Campaign lied to the Office and to Congress, and that \"those lies materially impaired the investigation\".",
+        "cites": [
+          {
+            "id": "third-investigation-established-several-individuals",
+            "page": 9,
+            "href": "/reports/us-mueller-report?p=third-investigation-established-several-individuals"
+          }
+        ]
+      },
+      {
+        "text": "On obstruction, the Office decided not to make a traditional prosecutorial judgment, accepting the Justice Department's view that a sitting President may not be prosecuted.",
+        "cites": [
+          {
+            "id": "first-traditional-prosecution-declination-decision",
+            "page": 1,
+            "href": "/reports/us-mueller-report?p=first-traditional-prosecution-declination-decision"
+          }
+        ]
+      },
+      {
+        "text": "It sets out the episodes of the President's conduct towards the investigations, among them asking Comey to let the Flynn investigation go, firing Comey, and directing the White House Counsel to have the Special Counsel removed, and it records that his efforts were \"mostly unsuccessful\" because those around him did not carry out his requests.",
+        "cites": [
+          {
+            "id": "june-14-2017-media-reported",
+            "page": 4,
+            "href": "/reports/us-mueller-report?p=june-14-2017-media-reported"
+          },
+          {
+            "id": "president-s-efforts-influence-investigation",
+            "page": 158,
+            "href": "/reports/us-mueller-report?p=president-s-efforts-influence-investigation"
+          }
+        ],
+        "excerpt": {
+          "quote": "The President's efforts to influence the investigation were mostly unsuccessful, but that is largely because the persons who surrounded the President declined to carry out orders or accede to his requests.",
+          "cite": {
+            "id": "president-s-efforts-influence-investigation",
+            "page": 158,
+            "href": "/reports/us-mueller-report?p=president-s-efforts-influence-investigation&h=|The%20President's%20efforts%20to%20influence%20the%20investigation%20were%20mostly%20unsuccessful%2C%20but%20that%20is%20largely%20because%20the%20persons%20who%20surrounded%20the%20President%20declined%20to%20carry%20out%20orders%20or%20accede%20to%20his%20requests.|%20Comey%20did%20not%20end%20the"
+          }
+        }
+      },
+      {
+        "text": "It concludes that it cannot clear the President.",
+        "cites": [
+          {
+            "id": "fourth-if-we-had-confidence",
+            "page": 2,
+            "href": "/reports/us-mueller-report?p=fourth-if-we-had-confidence"
+          },
+          {
+            "id": "because-we-determined-not-make",
+            "page": 8,
+            "href": "/reports/us-mueller-report?p=because-we-determined-not-make"
+          }
+        ],
+        "excerpt": {
+          "quote": "Accordingly, while this report does not conclude that the President committed a crime, it also does not exonerate him.",
+          "cite": {
+            "id": "fourth-if-we-had-confidence",
+            "page": 2,
+            "href": "/reports/us-mueller-report?p=fourth-if-we-had-confidence&h=criminal%20conduct%20occurred.%20|Accordingly%2C%20while%20this%20report%20does%20not%20conclude%20that%20the%20President%20committed%20a%20crime%2C%20it%20also%20does%20not%20exonerate%20him.|"
+          }
+        }
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "introduction-to-volume-i",
+        "title": "INTRODUCTION TO VOLUME I",
+        "page": "2",
+        "why": "The report's own overview of both volumes, and why it speaks of conspiracy, not \"collusion\"."
+      },
+      {
+        "slug": "executive-summary-to-volume-i",
+        "title": "EXECUTIVE SUMMARY TO VOLUME I",
+        "page": "5",
+        "why": "The interference operations and the Campaign's Russian contacts, year by year, and the charging decisions in summary.",
+        "excerpt": {
+          "quote": "In March 2016, the GRU began hacking the email accounts of Clinton Campaign volunteers and employees, including campaign chairman John Podesta.",
+          "cite": {
+            "id": "march-2016-gru-began-hacking",
+            "page": 4,
+            "href": "/reports/us-mueller-report?p=march-2016-gru-began-hacking&h=|In%20March%202016%2C%20the%20GRU%20began%20hacking%20the%20email%20accounts%20of%20Clinton%20Campaign%20volunteers%20and%20employees%2C%20including%20campaign%20chairman%20John%20Podesta.|%20In%20April%202016%2C%20the%20GRU"
+          }
+        }
+      },
+      {
+        "slug": "june-9-2016-meeting-at-trump-tower",
+        "title": "June 9, 2016 Meeting at Trump Tower",
+        "page": "111",
+        "why": "The meeting offered as \"part of Russia and its government's support for Mr. Trump\", from the emails setting it up to what followed."
+      },
+      {
+        "slug": "introduction-to-volume-ii",
+        "title": "INTRODUCTION TO VOLUME II",
+        "page": "2",
+        "why": "Why the Office did not decide whether the President committed a crime, in four short points."
+      },
+      {
+        "slug": "executive-summary-to-volume-ii",
+        "title": "EXECUTIVE SUMMARY TO VOLUME II",
+        "page": "4",
+        "why": "Each of the episodes the obstruction investigation examined, in summary, and the Office's answer to the President's legal defences."
+      },
+      {
+        "slug": "the-press-reports-that-the-president-is-being-investigated-for-obstruction-of-ju",
+        "title": "The Press Reports that the President is Being Investigated for Obstruction of Justice and the President Directs the White House Counsel to Have the Special Counsel Removed",
+        "page": "85",
+        "why": "The order to have the Special Counsel removed, and McGahn's refusal to carry it out."
+      }
+    ]
   },
   "us-psi-financial-crisis": {
     "status": "approved",

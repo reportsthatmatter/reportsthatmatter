@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { app } from "../src/index";
 import { followAlias, resolveParagraph, resolveSection } from "../src/lib/aliases";
 import { renderArtifacts, extractPassages } from "@rtm/ingest";
-import { acceptReuse, computeMoves, detectReuse, emptyAliases, fold, formatIds, parseIds, render, type Rendered } from "../src/lib/alias-gen";
+import { acceptReuse, citesId, computeMoves, detectReuse, emptyAliases, fold, formatIds, parseIds, render, type Rendered } from "../src/lib/alias-gen";
 
 const doc = (sections: Record<string, string[]>) =>
   Object.entries(sections)
@@ -203,5 +203,40 @@ describe("section records and reuse (hxo4, rf4c)", () => {
     const doc1 = render(doc({ "S": [A1] }));
     const doc2 = { ...doc1, passages: [{ ...doc1.passages[0], id: "x" }] };
     expect(fold(f, doc2, doc2).reused.x.accepted).toBe(true);
+  });
+});
+
+describe("citesId (8ukk)", () => {
+  const yaml = [
+    "# Note: the launch and the findings, and so on.",
+    "cites: [2-decision-launch-sts-51-l-2, eve-launch-thiokol-engineers-attempted]",
+    "highlights:",
+    "  - paragraph: committee-found-nasa-s-drive",
+    "    note: a stray word and another",
+    "  - section-one-x",
+    "link: /report?p=info-flaws#x",
+  ].join("\n");
+  it("matches an id in an id position", () => {
+    for (const id of ["2-decision-launch-sts-51-l-2", "eve-launch-thiokol-engineers-attempted", "committee-found-nasa-s-drive", "section-one-x", "info-flaws"]) {
+      expect(citesId(yaml, id), id).toBe(true);
+    }
+  });
+  it("does not match an id that is an English word in prose", () => {
+    expect(citesId(yaml, "and")).toBe(false);
+    expect(citesId(yaml, "launch")).toBe(false);
+    expect(citesId(yaml, "2-decision-launch")).toBe(false);
+  });
+});
+
+describe("a folded section follows its heading (3ak7)", () => {
+  it("maps a section whose heading now sits inside another to that section, not to where its few paragraphs went", () => {
+    const long = (tag: string) => Array.from({ length: 12 }, (_, i) => Array.from({ length: 60 }, (_, j) => `${tag}${i}x${j}`).join(" ") + ".");
+    const note = "A note paragraph that stays behind under the folded heading, with enough words to be a passage of its own in the report.";
+    const before = render(doc({ One: long("a"), Two: long("b"), Endnotes: [note, ...long("n")] }));
+    // Endnotes is a short stub now: a heading inside the last section, whose paragraphs went elsewhere.
+    const after = render(`${doc({ One: [...long("a"), ...long("n")], Two: long("b") })}\n### Endnotes\n\n${note}\n`);
+    expect(before.sections.map((s) => s.slug)).toContain("endnotes");
+    expect(after.sections.map((s) => s.slug)).not.toContain("endnotes");
+    expect(fold(emptyAliases(), before, after).sections.endnotes).toBe("two");
   });
 });

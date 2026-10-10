@@ -39,7 +39,7 @@ import { parse, stringify } from "yaml";
 import { extractPassages } from "@rtm/ingest";
 import { followAlias } from "../src/lib/aliases";
 import * as installed from "@rtm/ingest";
-import { acceptReuse, emptyAliases, fold, formatIds, idsOf, parseIds, render, slugsOf, type AliasFile, type Ingest, type Rendered } from "../src/lib/alias-gen";
+import { acceptReuse, citesId, emptyAliases, fold, formatIds, idsOf, parseIds, render, slugsOf, type AliasFile, type Ingest, type Rendered } from "../src/lib/alias-gen";
 import { loadIngest, pinOf } from "./lib/old-ingest";
 import { assertFresh } from "./prerender-stamp.mjs";
 
@@ -90,10 +90,8 @@ function save(id: string, file: AliasFile, record: Iterable<string>, slugs: Iter
   writeFileSync(sectionsPath(id), formatIds(slugs));
 }
 
-/** Where the files we control cite a paragraph id (editorial/<report>.yaml, docs/share-quotes.yaml). */
 function citers(id: string, x: string): string[] {
-  const re = new RegExp(`(?<![\\w-])${x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w-])`);
-  return [`editorial/${id}.yaml`, "docs/share-quotes.yaml"].filter((f) => existsSync(join(root, f)) && re.test(readFileSync(join(root, f), "utf8")));
+  return [`editorial/${id}.yaml`, "docs/share-quotes.yaml"].filter((f) => existsSync(join(root, f)) && citesId(readFileSync(join(root, f), "utf8"), x));
 }
 
 const git = (...args: string[]) => execFileSync("git", args, { cwd: root, encoding: "utf8", maxBuffer: 1 << 29 });

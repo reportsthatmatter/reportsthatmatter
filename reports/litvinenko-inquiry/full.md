@@ -5389,9 +5389,7 @@ Restrictions on the Disclosure or Publication of Evidence or Documents given, pr
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
-
-> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
 
 5 Otherwise than as is permitted by this Notice, no person, whether a member of the Core Inquiry Team or otherwise, may disclose or publish to any other person the Schedule to this Notice or any of the information contained in the documents identified in the Schedule to this Notice ("the Schedule material"). The Schedule to this Notice and the Schedule material are or refer to material which (i) was the subject of the Public Interest Immunity certificate issued by the Secretary of State for Foreign and Commonwealth Affairs and dated 7 February 2013 or (ii) had previously been shown to HM Assistant Coroner for Inner North West London during the course of the inquest into the death of Alexander Litvinenko.
 
@@ -5403,9 +5401,7 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
-
-> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
 
 9 Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
 
@@ -5471,9 +5467,7 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
-
-> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
 
 9 Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
 
@@ -5537,9 +5531,7 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
-
-> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
 
 9 Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
 
@@ -5605,9 +5597,7 @@ Restrictions on Attendance at the Inquiry or part of the Inquiry 8 The restricti
 
 (i) as being required by the rule of law known as public interest immunity; and/or
 
-(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act
-
-> and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
+(ii) because the Minister, acting in accordance with section 19(3)(b) of the Act and having had regard, in particular, to the matters set out in s19(4) of the Act, considers it to be conducive to the Inquiry fulfilling its terms of reference and/or necessary in the public interest that such restrictions should be imposed.
 
 9 Save with the written consent of the Minister, no person, other than the Core Inquiry Team, HMG advisers and any relevant witness, may attend any hearing of the Inquiry at which any of the Schedule material is to be considered or referred to, or at which there is, in the judgment of the Chairman, any significant risk of reference being made to such material.
 

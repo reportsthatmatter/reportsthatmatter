@@ -371,11 +371,12 @@ export const headingRepeated: Signal = {
   id: "heading-repeated",
   kind: "count",
   cls: "H",
-  doc: "A heading text that appears 3 or more times; one finding per repeated text.",
+  doc: "A heading text that appears 3 or more times; one finding per repeated text. A division label (Findings, Recommendations, Issue) repeats by design and is not counted (liv).",
   run: (input) => {
     const seen = new Map<string, ReturnType<typeof headings>>();
     for (const h of headings(input)) {
       const k = h.title.toLowerCase();
+      if (/^(?:findings?|recommendations?|issue)$/.test(k)) continue;
       seen.set(k, [...(seen.get(k) ?? []), h]);
     }
     return [...seen.values()]
@@ -643,24 +644,32 @@ export const numberedParagraphGlued: Signal = {
   kind: "count",
   cls: "B",
   advisory: true,
-  doc: "A numbered paragraph run on inside the one before: the next number in sequence after a paragraph's own (2.85 then 2.86) found after a sentence end inside it, before a capital, and opening no paragraph of its own, so its id does not exist (Grenfell 2.86, 5.9, 9.42 after \"Approved Document B.\", reportsthatmatter-f951; Leveson \"…in Part H. 4.30 The dinner…\"). Only for reports that number paragraphs chapter.number.",
+  doc: "A numbered paragraph run on inside the one before: the next number in sequence after a paragraph's own (2.85 then 2.86) found after a sentence end inside it, before a capital, and not the number of the next paragraph that has one, so its id does not exist (Grenfell 2.86, 5.9, 9.42 after \"Approved Document B.\", reportsthatmatter-f951; Leveson \"…in Part H. 4.30 The dinner…\"). Only for reports that number paragraphs chapter.number.",
   run: (input) => {
     const blocks = proseBlocks(input).filter((b) => b.kind === "prose");
-    const own = new Set<string>();
-    for (const b of blocks) {
+    const numbers = blocks.map((b) => {
       const m = OWN_NUMBER.exec(b.text);
-      if (m) own.add(`${Number(m[1])}.${Number(m[2])}`);
+      return m ? `${Number(m[1])}.${Number(m[2])}` : null;
+    });
+    if (numbers.filter(Boolean).length < 20) return [];
+    // The next paragraph's own number after each block: the glued number is missing when
+    // the sequence skips it there. Not a report-wide set of ids, because a report whose
+    // numbering restarts in every chapter (Leveson) has a 4.30 in many chapters, which hid
+    // 11 of its 14 glued paragraphs (reportsthatmatter-1iz4).
+    const nextOwn: (string | null)[] = new Array(blocks.length).fill(null);
+    for (let i = blocks.length - 2, next: string | null = null; i >= 0; i--) {
+      next = numbers[i + 1] ?? next;
+      nextOwn[i] = next;
     }
-    if (own.size < 20) return [];
     const out: Finding[] = [];
     let last: [number, number] | null = null;
-    for (const b of blocks) {
+    for (const [i, b] of blocks.entries()) {
       const m = OWN_NUMBER.exec(b.text);
       if (m) last = [Number(m[1]), Number(m[2])];
       if (!last) continue;
       for (const g of b.text.matchAll(GLUED_NUMBER)) {
         const [c, n] = [Number(g[2]), Number(g[3])];
-        if (c !== last[0] || n !== last[1] + 1 || own.has(`${c}.${n}`)) continue;
+        if (c !== last[0] || n !== last[1] + 1 || nextOwn[i] === `${c}.${n}`) continue;
         out.push(finding("numbered-paragraph-glued", b, b.text.slice(Math.max(0, (g.index ?? 0) - 70), (g.index ?? 0) + 70)));
         last = [c, n];
       }

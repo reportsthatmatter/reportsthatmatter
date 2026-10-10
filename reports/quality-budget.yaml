@@ -48,10 +48,10 @@ reports:
     note-reference-sequence: 71
     note-text-in-body: 48
     note-citation-vocabulary: 0
-    furniture-paragraph: 150
+    furniture-paragraph: 116
     contents-entry-without-heading: 56
     heading-density: 1  # why: reportsthatmatter-jsqw (the report's own Issue / Findings / Discussion / Recommendations labels, now level-4 subheads as golden pages 22 and 29 have them; 139 headings per 100 pages)
-    heading-repeated: 12  # why: reportsthatmatter-jsqw (the same division labels repeat by design: "Findings" ×46, "Discussion" ×43)
+    heading-repeated: 7
     heading-function-word: 5
     heading-marker: 0
     heading-long: 17
@@ -63,7 +63,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   columbia-accident:
-    severed-into-quote: 54
+    severed-into-quote: 40
     severed-paragraph: 70
     bare-footnote-marker: 2
     bare-marker-after-quote: 0
@@ -72,10 +72,10 @@ reports:
     note-reference-sequence: 7
     note-text-in-body: 7
     note-citation-vocabulary: 0
-    furniture-paragraph: 61
-    contents-entry-without-heading: 71
+    furniture-paragraph: 11
+    contents-entry-without-heading: 67
     heading-density: 1
-    heading-repeated: 2
+    heading-repeated: 3  # why: reportsthatmatter-wck (typographicHeadings: the subhead "Conclusion" now stands as a heading in three chapters; each is real, +1)
     heading-function-word: 2
     heading-marker: 0
     heading-long: 0
@@ -85,7 +85,7 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 4  # why: reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
+    quote-share-parity: 5  # why: reportsthatmatter-98u (speakerTurns joins the wrapped transcript lines to their turns, so the transcript turns leave their quotation blocks (severed-into-quote 54 to 40), there are fewer blocks and the share on both sides rises: 10.0% even, 14.0% odd, gap 4.0; no quotation added) and reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
   jack-smith-vol1:
     severed-into-quote: 2
     severed-paragraph: 5
@@ -111,7 +111,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: reportsthatmatter-ssfk (the letter's pages are numbered from their own heads now, so its quotations change page parity: 14.4% even vs 16.4% odd; no quotation added or lost)
   litvinenko-inquiry:
-    severed-into-quote: 72
+    severed-into-quote: 67
     severed-paragraph: 6
     bare-footnote-marker: 0
     bare-marker-after-quote: 0
@@ -209,19 +209,19 @@ reports:
   uk-leveson-inquiry:
     severed-into-quote: 323
     severed-paragraph: 25  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
-    bare-footnote-marker: 39
-    bare-marker-after-quote: 3  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
+    bare-footnote-marker: 6
+    bare-marker-after-quote: 1
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
-    note-reference-sequence: 38
+    note-reference-sequence: 12
     note-text-in-body: 1
     note-citation-vocabulary: 0
-    furniture-paragraph: 199  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship); +1 with reportsthatmatter-u00i
-    contents-entry-without-heading: 1335  # why: same, Leveson contents pages are now body lists rather than footnotes (+102)
+    furniture-paragraph: 149
+    contents-entry-without-heading: 1331
     heading-density: 0
     heading-repeated: 3
     heading-function-word: 1
-    heading-marker: 0
+    heading-marker: 1  # why: reportsthatmatter-qai (thumbIndexNotes reads the chapter title's own note: "Chapter 4: The Conservative Revival and the Coalition1" was a bare digit, now [^1], the note the PDF prints on that heading; rendered as a sidenote, read)
     heading-long: 0
     printed-page-reversal: 1
     rendered-h1: 0
@@ -305,11 +305,11 @@ reports:
   us-deepwater-horizon:
     severed-into-quote: 6
     severed-paragraph: 6  # why: post v0.15.0 integration
-    bare-footnote-marker: 1
+    bare-footnote-marker: 0
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 3
+    note-reference-sequence: 2
     note-text-in-body: 8
     note-citation-vocabulary: 0
     furniture-paragraph: 25
@@ -322,7 +322,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 1
+    rendered-ol-words-share: 0
     numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 1
@@ -374,6 +374,30 @@ reports:
     numbered-prose-list: 1
     ids-per-1k-words: 0
     quote-share-parity: 1
+  us-mueller-report:
+    severed-into-quote: 6
+    severed-paragraph: 12  # why: reportsthatmatter-gqsy.5 (OCR line breaks round redaction boxes on Vol I's 74 scanned pages; reportsthatmatter-vs2x)
+    bare-footnote-marker: 54
+    bare-marker-after-quote: 19  # why: reportsthatmatter-gqsy.5 (markers of notes not separated on the scanned pages; reportsthatmatter-vs2x)
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 128  # why: reportsthatmatter-gqsy.5 (225 of Vol I's 1,283 notes not separated on the scanned pages; reportsthatmatter-vs2x)
+    note-text-in-body: 7
+    note-citation-vocabulary: 0
+    furniture-paragraph: 49  # why: reportsthatmatter-gqsy.5 (Vol II's run-in subheads "Overview", "Evidence", "Analysis" and the "* * *" breaks; reportsthatmatter-2soj)
+    contents-entry-without-heading: 6
+    heading-density: 0
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.5 (the report's own "Background" subheads)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 22  # why: reportsthatmatter-gqsy.5 (the report's own long titles, spelt from its contents)
+    printed-page-reversal: 1  # why: reportsthatmatter-gqsy.5 (page numbers restart in Volume II: 199 then 1)
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 3
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 2
   us-psi-financial-crisis:
     severed-into-quote: 1
     severed-paragraph: 21

@@ -1229,6 +1229,7 @@ conclusion-committee-flight-readiness-review
 conclusion-temperature-contributing-factor-joint
 conclusions-presented-end-teleconference
 concurrence-rogers-commission-committee-con
+concurrence-rogers-commission-committee-confirms
 conditions-f-o-r-specified
 conditions-flight
 confainad-lurein-are-ebb-t
@@ -2264,6 +2265,7 @@ jammed-upper-solid-rocket-booster
 jan-26-1986-p-b-3
 januarv-13-1986-marshall-space
 january-12-1986-sts-61-c
+january-13-1986-marshall-space
 january-14-1986-mulloy-s
 january-15-1986-during-sts
 january-24-1985--with-calculated
@@ -2277,6 +2279,7 @@ january-28-1986-sts-51-l
 january-28-chairman-fuqua-stated
 january-3-1-1985--at
 january-3-1986-level-111
+january-3-1986-level-iii
 january-31-1985--at-sts51-e
 january-9-1978--major-problems
 january-9-1986-larry-mulloy
@@ -2492,6 +2495,8 @@ major-slayton-made-similar-observation
 major-slayton-went-say-any
 management-shuttle-program-complex-diversi
 management-shuttle-program-complex-diversi-2
+management-shuttle-program-complex-diversified
+management-shuttle-program-complex-diversified-2
 management-shuttle-program-has-given
 management-structure
 management-structure-2

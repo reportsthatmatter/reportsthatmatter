@@ -665,6 +665,7 @@
 1-major-sir-j-autobiography
 1-p110-lines-10-22-piers
 1-p4-line-19-22-christopher
+1-p53-lines-1-2-kenneth
 1-p8-para-3-8
 1-para-13-http-www
 1-paras-82-87-mosley
@@ -2830,6 +2831,7 @@
 2008-2010
 2008-2010-123
 2008-these-are-both-subject
+2009-2011
 2009-contained-following-paragraph-250
 2009-dcs-timmons-stated-following
 2009-details-expenses-claimed-certain
@@ -7937,6 +7939,7 @@ act-all-publications-which-are
 action-prevent-publication-material-does
 actions-our-comms-meeting-morning
 adam-boulton-15-may-2012
+adam-cannon
 adam-cannon-b
 adam-effective-operator-bright-articulate
 adam-werrity-defence-consultant-friend
@@ -8053,6 +8056,7 @@ although-anl-claim-only-then
 although-channel-5-small-terms
 although-cmm-has-no-legal
 although-evidence-from-two-information
+although-given-technological-constraints-understandable
 although-i-cannot-claim-position
 although-i-recognise-would-not
 although-latter-increasing-prominence-law
@@ -8129,6 +8133,7 @@ announcement-1-introduction
 announcement-1-introduction-1-1
 annual-certification-compliance
 annual-certification-compliance-5-3
+annual-conference
 another-aspect-my-job-monitor
 another-revealing-answer-speaks-itself
 another-well-known-occasion-mahmood
@@ -8309,6 +8314,7 @@ associated-news-financial-management
 associated-news-financial-management-3
 associated-news-incentives
 associated-news-incentives-3-29
+associated-news-management-structures-processes
 associated-news-policies-procedures
 associated-news-policies-procedures-3
 associated-newspapers-limited-f
@@ -8340,6 +8346,7 @@ august-searches-examination-revealed-computerised
 australian-convergence-review
 australian-convergence-review-3-15
 australian-independent-media-inquiry-finkelstein
+authorities-judicial-pronouncements-have-acknowledged
 authority-45-however-whilst-funding
 authority-however-whilst-funding-structure
 authority-television-demand-atvod-under
@@ -8393,6 +8400,7 @@ b-not-directed-any-matters
 b-number-complaints-has-handled
 b-objection-necessity-test
 b-objection-necessity-test-2
+b-one-more-than-one
 b-openness-about-payments-others
 b-part-b-press-public
 b-permit-accept-encourage-power
@@ -8403,6 +8411,7 @@ b-proposed-lord-black-named
 b-public-members
 b-publication-critical-adjudication
 b-quarterly-basis
+b-quarterly-basis-i-details
 b-quite-apart-from-issues
 b-requirement-obtain-information-only
 b-retention-parallel-local-rule
@@ -8423,8 +8432,10 @@ b-would-help-journalists-understand
 background
 background-2-54-publication-details
 background-5-3-police-resources
+background-truth-becomes-almost-impossible
 baker-describing-problem-said-clarity
 bar-bistro-during-course-evening
+barber-spoke-about-good-culture
 barclay-also-told-inquiry-276
 barclay-owners-telegraph-media-group
 baroness-buscombe-gave-evidence-felt
@@ -8541,6 +8552,8 @@ breach-confidence-3-20-whilst
 breast-cancer-risk-all-over
 bribery
 bribery-6-28-given-current
+bribery-corruption
+bribery-corruption-2
 briefing-sessions
 briefing-sessions-1-16-addition
 britain-s-got-talent-star
@@ -8936,6 +8949,7 @@ chapter-2-self-regulatory-model-9
 chapter-3
 chapter-3-2
 chapter-3-3
+chapter-3-4
 chapter-3-alternative-news-providers
 chapter-3-alternative-news-providers-10
 chapter-3-alternative-news-providers-11
@@ -9121,6 +9135,7 @@ chapter-3-press-police-harm-97
 chapter-3-press-police-harm-98
 chapter-3-press-police-harm-99
 chapter-4
+chapter-4-2
 chapter-4-conservative-revival-coalition
 chapter-4-conservative-revival-coalition-10
 chapter-4-conservative-revival-coalition-11
@@ -9773,6 +9788,7 @@ commentators-suggested-matters-inquiry-should
 comments-their-context-4-1
 commercial-pressures
 commercial-pressures-2-5-many
+commission-did-feel-newspaper-had
 commission-had-intended-from-outset
 commission-have-sanctioned-method-would
 commission-i-academic-journalists-j
@@ -10093,6 +10109,7 @@ counts-4-6-8-11
 counts-4-6-8-14
 counts-5-9-12-15
 counts-5-9-15-against
+couple-years-ago-general-discussion
 course-many-have-reported-has
 course-many-images-much-content
 course-not
@@ -10153,6 +10170,7 @@ cross-media-ownership
 cross-media-ownership-3-16
 cross-media-ownership-existing-patter-rules
 cross-media-ownership-removing-most
+crossing-legal-e-boundaries-criminal
 crown-copyright-2012-you-may
 crown-copyright-2012-you-may-2
 crown-copyright-2012-you-may-3
@@ -10248,6 +10266,7 @@ daily-mail-published-piece-which
 daily-mail-which-publish-apology
 daily-maily-general-trust-who
 daily-mirror
+daily-mirror-2-130-859
 daily-mirror-3-9-inquiry
 daily-mirror-acting-faith-number
 daily-mirror-from-1998-2000
@@ -10327,6 +10346,7 @@ deliberately-misleading-headlines
 deliberately-misleading-headlines-9-26
 deliver-increased-direct-communication-engagement
 democracy
+democracy-1-context
 denied-any-impropriety-926-light
 denied-any-impropriety-light-evidence
 denmark
@@ -10402,6 +10422,7 @@ do-you-know-scandal-maz
 do-you-think-does-make
 do-you-think-fair-comment
 does-not-recognise-any-right
+does-seem-me-news-corp
 dominic-mohan-57-23-58-2
 donald-macrae1-ppt
 donald-mccrae-presentation-http-www
@@ -10481,6 +10502,7 @@ e-details-steps-taken-response
 e-difference-subsequent-course-events
 e-documents-any-further-evidence
 e-eighth-data-protection-principle
+e-eighth-data-protection-principle-2
 e-establishment-new-industry-funding
 e-evidence-scientific-stories-are
 e-evidential-leads-pursue-rationale
@@ -10899,6 +10921,7 @@ failed-even-realise-victim-notification
 failing-respect-individual-privacy-dignity
 failure-do-either-could-result
 failure-take-reasonable-steps-pre-notify
+failure-warn-ni-challenge-one
 failures-take-reasonable-steps-remedy
 fair-trading-act-1973
 fair-trading-act-1973-1
@@ -11045,6 +11068,7 @@ from-outset-consistently-subject-commentary
 frédéric-michel-adam-smith
 frédéric-michel-adam-smith-5
 frédéric-michel-s-contact-jeremy
+ft-group-pearson-403-21
 ft-its-operation-entirely-separate
 ft-s-finance-team-responsible
 fta
@@ -11255,6 +11279,7 @@ good-public-interest-journalism-seeks
 good-see-u-too-hope
 goodman-456-dcs-williams-has
 goodman-also-gather-evidence-involvement
+goodman-cma-offences-because-asking
 goodman-could-be-interpreted-attempt
 goodman-dcs-williams-has-accepted
 goodman-dismissed-does-least-suggest
@@ -11824,6 +11849,7 @@ i-have-read-ofcom-issues
 i-have-reflected-them-report
 i-have-regular-quarterly-meetings
 i-have-relayed-substance-our
+i-heard-where-considered-had
 i-him-might-be-perceived
 i-his-view-once-announces
 i-hugely-divisive-issue-if
@@ -11941,6 +11967,7 @@ i-say-when-i-elected
 i-secretary-state-explicit-reference
 i-set-out-some-difficult
 i-should-make-clear-before
+i-should-make-clear-i
 i-should-stress-my-involvement
 i-situations-involving-media-enterprises
 i-some-kind-greater-legitimacy
@@ -11980,6 +12007,7 @@ i-think-major-political-parties
 i-think-my-paragraph-44
 i-think-needs-order-explain
 i-think-occasion-you-know
+i-think-over-time-i
 i-think-particularly-important-not
 i-think-parts-are-right
 i-think-party-had-very
@@ -12146,6 +12174,7 @@ including-computer-misuse-69
 including-documents-each-module-save
 including-maintenance-relationships-those-who
 including-relevant-regulator-mps-mayor
+including-sun-paragraph-3-headed
 indeed-buzasi-has-said
 indeed-buzasi-has-said-111
 indeed-given-context-request-somewhat
@@ -12492,6 +12521,7 @@ jefferies-inquiry-heard-evidence-from
 jefferies-solicitor-said
 jefferies-solicitor-said-70
 jefferies-suspicion-murder-publication-details
+jeremy-hunt-adam-smith-saw
 jeremy-hunt-andy-coulson
 jeremy-hunt-andy-coulson-5
 jeremy-hunt-mp-91-25-93
@@ -12544,6 +12574,7 @@ julian-pike-13-december-2011
 julian-pike-farrers-solicitors-then
 july-2009-3-september-2009
 july-2009-considered-below-evidence
+july-2009-effect-phone-hacking
 july-2009-would-have-been
 july-2009243-3-september-2009
 june-1981-labour-mp-frank
@@ -12675,6 +12706,7 @@ legal-recognition-1-5-practice
 legal-right-protection-sources-domestic
 legal-right-protection-sources-international
 legislation-would-have-have-some
+legislative-background
 legislative-background-protection-personal-data
 legislative-process
 legislative-process-5-5-development
@@ -12838,6 +12870,7 @@ mackey-seeks-achieve-before-any
 magazine-also-require-staff-adhere
 magazine-publishes-some-content-originates
 mahmood-who-said-believed-important
+mail-group-today
 mail-published-67-word-unilateral
 mail-raised-nearly-16-million
 mail-s-report-coogan-responsible
@@ -12925,6 +12958,7 @@ media-relations-mps-county-constabularies
 media-response-filkin-report
 media-response-filkin-report-10
 media-sport-cms-select-committee
+media-usually-play-important-influential
 mediawise-trust-independent-press-watchdog
 mediawise-trust-points-out-whilst
 medical-research-charities-cancer-research
@@ -12947,6 +12981,7 @@ metropolitan-police-service
 metropolitan-police-service-3-8
 metropolitan-police-service-commissioner-hogan-howe
 metropolitan-police-service-mps-into
+metropolitan-police-therefore-important-reputational
 meyer-alone-advancing-view-pcc
 meyer-former-chairman-press-complaints
 meyer-press-secretary-sir-john
@@ -13161,6 +13196,7 @@ negotiation-agreed-remedy
 negotiations-i-think-can-corroborate
 neil-wallis
 neil-wallis-12-december-2011
+neil-wallis-2
 neil-wallis-5-45-neil
 neil-wallis-91-8-91-13
 neil-wallis-pp21-22-supporters-gordon
@@ -13275,6 +13311,7 @@ no-i-think-coincidental-because
 no-i-think-what-i
 no-jay-you-keep-inferring
 no-means-only-example-type
+no-point-between-24-december
 no-politician-who-wishes-get
 no-regulation
 no-regulation-2-6-concept
@@ -13371,6 +13408,7 @@ now-we-ve-had-political
 now-what-sun-doing-1992
 number-candidates-considered-respect-role
 number-titles-have-told-inquiry
+numbers
 o-ceallaigh-described-agreement-eventually
 o-connor-formerly-her-majesty
 o-connor-then-hm-chief
@@ -13448,6 +13486,7 @@ online-www-tsoshop-co-uk-3
 online-www-tsoshop-co-uk-4
 only-five-staff-members-tmg
 only-historians-can-fully-determine
+only-special-purposes
 only-special-purposes-h
 only-very-general-terms-i
 openness-about-payments-from-others
@@ -13466,6 +13505,7 @@ operation-overt-also-occupying-his
 operation-overt-short-25-people
 operation-overt-short-people-arrested
 operation-sex-swap-mod-paying
+operation-tuleta
 operation-weeting
 operation-weeting-1-5-6
 operational-budget
@@ -14712,6 +14752,7 @@ powers-investigation-enforcement
 powers-investigation-enforcement-4-46
 powers-pcc-did-not-exercise
 powers-pcc-did-not-exercise-2
+powers-pcc-did-not-exercise-3
 powers-remedies-sanctions-15-relation
 powers-sanctions
 powers-sanctions-2
@@ -14878,6 +14919,7 @@ professor-horgan-suggested-absence-serving
 professor-horgan-went-say-had
 professor-ian-hargreaves-08-december
 professor-kenneth-mackinnon-mark-hughes
+professor-marie-messenger-davies
 professor-marie-messenger-davies-j
 professor-megone-commented-code-practice
 professor-steven-barnett-08-december
@@ -15447,6 +15489,7 @@ secretary-evening-standard-limited-told
 secretary-put
 secretary-put-386
 secretary-state-concerned-broadcasting-newspapers
+secretary-state-explicit-reference-terms
 secretary-state-may-give-notice
 secretary-state-may-instead-making
 secretary-state-therefore-had-two
@@ -15476,6 +15519,7 @@ seminars
 seminars-1-18-third-preliminary
 sense-about-science-cardiff-university
 sense-about-science-p
+sense-power-without-responsibility-which
 sentence-case-clearly-degree-based
 september-2011-25-before-then
 september-2011-before-then-left
@@ -15809,12 +15853,14 @@ surtees-does-also-make-point
 surtees-emailed-mail-sunday-list
 surtees-failed-take-effective-steps
 surtees-gave-different-reasons-decision
+surveillance
 surveillance-subterfuge-similar-intrusive-methods
 surveillance-task-which-involved-part
 surveillance-use-private-investigators
 surveillance-use-private-investigators-4
 sweden
 sweden-2-14-sweden-press
+swedish-authorities
 swedish-authorities-82
 swedish-press-council-these-organisations
 sword-damocles-hanging-over-press
@@ -15870,6 +15916,7 @@ thatcher-major-blair-governments-murdoch
 thatcher-s-relationship-senior-media
 the-accident
 the-alliance
+the-announcement
 the-background
 the-bbc
 the-bbc-2
@@ -16082,8 +16129,10 @@ treasury-between-harrison-business-department
 treatment-critics-complainants-general-discouragement
 tribunal-further-found-disciplinary-proceedings
 tribunal-say-not-simply-reasonable
+trinity-mirror
 trinity-mirror-boards
 trinity-mirror-boards-5-10
+trinity-mirror-editorial-independence
 trinity-mirror-editorial-independence-c
 trinity-mirror-f
 trinity-mirror-f-3-101
@@ -16325,6 +16374,7 @@ well-i-didn-t-acquire
 well-i-do-i-do
 well-i-don-t-actually
 well-i-don-t-i
+well-i-have-look-from
 well-i-just-think-okay
 well-i-m-not-sure
 well-i-mean-clearly-very
@@ -16409,6 +16459,7 @@ which-led-award-record-damages
 which-specifically-aim-bring-range
 which-will-have-have-been
 whichever-option-we-choose-channel
+while-signalling-intention-ni-now
 while-titles-consistent-history-leaning
 whilst-disputing-underlying-fact-fedorcio
 whilst-has-subsequently-resiled-from
@@ -16529,9 +16580,11 @@ yates-right-note-briefing-note
 yates-said
 yates-said-864
 yates-said-consequence-panton-had
+yates-stated-mps-taking-all
 yates-telephone-asking-him-undertake
 yeah-i-sent-france-because
 yeates-partner-who-had-been
+yes-certainly-if-conversation-me
 yes-has-lots-enthusiasms-aren
 yes-i-mean-lots-happened
 yes-i-mean-s-part

@@ -2571,7 +2571,7 @@ In September 28 testimony before the Commission, Jane Lyder, Deputy Assistant Se
 
 The potential impact on marine mammals and sea turtles is harder to assess. Tim Ragen, Executive Director of the federal Marine Mammal Commission, testifying before a House of Representatives subcommittee on June 10, 2010, could only conclude, "Unfortunately, the scientific foundation for evaluating the potential effects of the Deepwater Horizon spill on many marine mammals inhabiting the Gulf is weak."[^53-6]
 
-According to NOAA, "Of the 28 species of marine mammals known to live in the Gulf of Mexico, all are protected, and six (sperm, sei, fin, blue, humpback and North Atlantic right whales) are listed as endangered under the Endangered Species Act." Also of note, "At least four species of threatened/endangered sea turtles (Kemp's ridley, green, leatherback, and loggerhead) are residents of the northern Gulf of Mexico and are represented by all life stages. A fifth species, the hawksbill turtle, can be found in the southern Gulf. The only nesting beaches in the world for Kemp's ridley turtles are in the western Gulf of Mexico."[^54-6] As of November 1, the Unified Area Command reported that nine marine mammals had been collected alive (and three were released).[^55-6] One hundred mammals were collected dead, though only four of those were visibly oiled. Most of the marine mammal mortalities were bottlenose dolphins.[^56-6] Also among the dead was one juvenile sperm whale; it was found floating more than 70 miles from the source of the spill, reportedly unoiled.57 More than 600 dead sea turtles were collected.[^58-6]
+According to NOAA, "Of the 28 species of marine mammals known to live in the Gulf of Mexico, all are protected, and six (sperm, sei, fin, blue, humpback and North Atlantic right whales) are listed as endangered under the Endangered Species Act." Also of note, "At least four species of threatened/endangered sea turtles (Kemp's ridley, green, leatherback, and loggerhead) are residents of the northern Gulf of Mexico and are represented by all life stages. A fifth species, the hawksbill turtle, can be found in the southern Gulf. The only nesting beaches in the world for Kemp's ridley turtles are in the western Gulf of Mexico."[^54-6] As of November 1, the Unified Area Command reported that nine marine mammals had been collected alive (and three were released).[^55-6] One hundred mammals were collected dead, though only four of those were visibly oiled. Most of the marine mammal mortalities were bottlenose dolphins.[^56-6] Also among the dead was one juvenile sperm whale; it was found floating more than 70 miles from the source of the spill, reportedly unoiled.[^57-6] More than 600 dead sea turtles were collected.[^58-6]
 
 %%page 182%%
 
@@ -3415,11 +3415,13 @@ Ugly fallout from the spill, tarballs foul a beach near Venice, Louisiana. The r
 
 This chapter presents the Commission's recommendations for addressing the causes and consequences of the spill with a focus on the government's role (recommendations targeted to industry are presented in Chapter 8). The recommendations reflect the government's sweeping sovereign authority as both owner of the seabed and water column and as the regulator of activities, with the overriding responsibility to manage and protect the valuable resources of the Outer Continental Shelf (OCS) on behalf of current and future generations of Americans. They are grouped in seven distinct areas:
 
-### Improving the Safety of Offshore Operations
-
-> B. Safeguarding the Environment C. Strengthening Oil Spill Response, Planning, and Capacity D. Advancing Well-Containment Capabilities E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf F. Ensuring Financial Responsibility
-
-### Promoting Congressional Engagement to Ensure Responsible Offshore Drilling
+- A. Improving the Safety of Offshore Operations
+- B. Safeguarding the Environment
+- C. Strengthening Oil Spill Response, Planning, and Capacity
+- D. Advancing Well-Containment Capabilities
+- E. Overcoming the Impacts of the Deepwater Horizon Spill and Restoring the Gulf
+- F. Ensuring Financial Responsibility
+- G. Promoting Congressional Engagement to Ensure Responsible Offshore Drilling
 
 The sections that follow summarize the context and rationale for each of the Commission's specific recommendations. Other chapters of this report, as well as staff working papers published by the Commission and available at www.oilspillcommission.gov,* provide additional detail and further support for the recommendations. Chapter 10 presents additional recommendations concerning the future of offshore drilling, including prospective drilling in the Arctic.
 

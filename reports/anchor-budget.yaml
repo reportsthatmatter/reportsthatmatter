@@ -39,7 +39,7 @@ reports:
     markers-wrong: 0
     markers-stacked: 1
     pages-unmarked: 0
-    blocks-wrong: 5
+    blocks-wrong: 3
   columbia-accident:
     markers-wrong: 0
     markers-stacked: 0
@@ -100,3 +100,8 @@ reports:
     markers-stacked: 5  # why: reportsthatmatter-gqsy.6
     pages-unmarked: 22  # why: reportsthatmatter-gqsy.6 (the anchor check reads "Page N of 19" counters as labels on the front matter, which is folioed in roman; the pipeline's markers there are roman)
     blocks-wrong: 155  # why: reportsthatmatter-gqsy.6 (120 of them on those front-matter pages)
+  us-mueller-report:
+    markers-wrong: 5  # why: reportsthatmatter-gqsy.5 (page labels repeat across the two volumes, and scanned pages' OCR order)
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 3  # why: reportsthatmatter-gqsy.5 (scanned Vol I pages)
