@@ -6,9 +6,9 @@
     "headings-spurious": 37,
     "markers-unlinked": 30,
     "markers-spurious": 38,
-    "paragraphs-oversplit": 147,
-    "paragraphs-merged": 421,
-    "quotes-spurious": 51,
+    "paragraphs-oversplit": 145,
+    "paragraphs-merged": 422,
+    "quotes-spurious": 44,
     "quotes-missed": 53,
     "note-off-page": 11
    },
@@ -21,19 +21,19 @@
   "us-psi-financial-crisis": {
    "oracle": {
     "headings-missed": 37,
-    "headings-spurious": 5,
-    "markers-unlinked": 2,
+    "headings-spurious": 8,
+    "markers-unlinked": 18,
     "markers-spurious": 7,
-    "paragraphs-oversplit": 131,
-    "paragraphs-merged": 848,
-    "quotes-spurious": 226,
+    "paragraphs-oversplit": 99,
+    "paragraphs-merged": 823,
+    "quotes-spurious": 191,
     "quotes-missed": 91,
     "note-off-page": 0
    },
    "golden": {
-    "match": 3,
+    "match": 6,
     "total": 7,
-    "known": 4
+    "known": 1
    }
   },
   "challenger-accident": {
@@ -148,12 +148,12 @@
    "oracle": {
     "headings-missed": 0,
     "headings-spurious": 27,
-    "markers-unlinked": 28,
+    "markers-unlinked": 10,
     "markers-spurious": 0,
-    "paragraphs-oversplit": 952,
-    "paragraphs-merged": 992,
-    "quotes-spurious": 261,
-    "quotes-missed": 347,
+    "paragraphs-oversplit": 931,
+    "paragraphs-merged": 1008,
+    "quotes-spurious": 260,
+    "quotes-missed": 346,
     "note-off-page": 0
    },
    "golden": {
@@ -205,7 +205,7 @@
     "markers-unlinked": 0,
     "markers-spurious": 0,
     "paragraphs-oversplit": 15,
-    "paragraphs-merged": 395,
+    "paragraphs-merged": 396,
     "quotes-spurious": 5,
     "quotes-missed": 79,
     "note-off-page": 0
@@ -220,11 +220,11 @@
    "oracle": {
     "headings-missed": 0,
     "headings-spurious": 5,
-    "markers-unlinked": 19,
+    "markers-unlinked": 13,
     "markers-spurious": 2,
-    "paragraphs-oversplit": 137,
-    "paragraphs-merged": 221,
-    "quotes-spurious": 143,
+    "paragraphs-oversplit": 121,
+    "paragraphs-merged": 223,
+    "quotes-spurious": 138,
     "quotes-missed": 99,
     "note-off-page": 0
    },
@@ -241,7 +241,7 @@
     "markers-unlinked": 0,
     "markers-spurious": 1,
     "paragraphs-oversplit": 13,
-    "paragraphs-merged": 236,
+    "paragraphs-merged": 242,
     "quotes-spurious": 17,
     "quotes-missed": 4,
     "note-off-page": 0
@@ -259,7 +259,7 @@
     "markers-unlinked": 16,
     "markers-spurious": 17,
     "paragraphs-oversplit": 133,
-    "paragraphs-merged": 2599,
+    "paragraphs-merged": 2587,
     "quotes-spurious": 17,
     "quotes-missed": 779,
     "note-off-page": 0
@@ -277,7 +277,7 @@
     "markers-unlinked": 0,
     "markers-spurious": 1,
     "paragraphs-oversplit": 2,
-    "paragraphs-merged": 163,
+    "paragraphs-merged": 165,
     "quotes-spurious": 1,
     "quotes-missed": 20,
     "note-off-page": 0
@@ -293,7 +293,7 @@
   "headings-missed": {
    "tp": 16,
    "fp": 20,
-   "fn": 10
+   "fn": 8
   },
   "headings-spurious": {
    "tp": 0,
@@ -311,19 +311,19 @@
    "fn": 1
   },
   "paragraphs-oversplit": {
-   "tp": 15,
+   "tp": 13,
    "fp": 14,
-   "fn": 30
+   "fn": 29
   },
   "paragraphs-merged": {
-   "tp": 8,
-   "fp": 178,
+   "tp": 7,
+   "fp": 179,
    "fn": 1
   },
   "quotes-spurious": {
-   "tp": 5,
+   "tp": 4,
    "fp": 12,
-   "fn": 12
+   "fn": 11
   },
   "quotes-missed": {
    "tp": 3,
