@@ -217,7 +217,7 @@ reports:
     ingested: true
 
   - id: us-senate-cia-torture-report
-    title: "Committee Study of the Central Intelligence Agency's Detention and Interrogation Program: Findings and Conclusions, Executive Summary, and Additional and Minority Views"
+    title: "Committee Study of the Central Intelligence Agency's Detention and Interrogation Program"
     authors: "Senate Select Committee on Intelligence"
     published_at: "9 December 2014"
     common_name: "Senate Torture Report"

@@ -19,8 +19,6 @@ c-following-suspension-of-the-use-of-the-cias-enhanced-interrogation-techniques-
 c-no-detailed-records-exist-of-cia-briefings-of-committee-leadership-the-cia-dec
 c-the-origins-of-cia-representations-regarding-the-effectiveness-of-the-cias-enh
 cia-detainees-subjected-to-eits-validated-cia-sources
-conclusion
-conclusion-2
 d-cia-representations-about-the-effectiveness-of-its-enhanced-interrogation-tech
 d-may-2005-olc-memoranda-rely-on-inaccurate-representations-from-the-cia-regardi
 d-the-cia-engages-with-journalists-and-conveys-an-inaccurate-account-of-the-inte
@@ -30,7 +28,6 @@ e-after-passage-of-the-detainee-treatment-act-olc-issues-opinion-on-cia-conditio
 e-cia-effectiveness-claims-regarding-a-high-volume-of-critical-intelligence
 e-in-response-to-detainee-treatment-act-the-cia-briefs-senators-not-on-the-commi
 e-tensions-with-country-redacted-relating-to-the-cia-detention-facility-and-the-
-erroneous-study-conclusions
 executive-summary
 f-cia-director-goss-seeks-committee-support-for-the-program-after-the-detainee-t
 f-july-2007-olc-memorandum-relics-on-inaccurate-cia-representations-regarding-ci
@@ -56,5 +53,4 @@ minority-views-of-vice-chairman-chambliss-senators-burr-risch-coats-rubio-and-co
 n-the-final-disposition-of-cia-detainees-and-the-end-of-the-cias-detention-and-i
 notes-not-linked-in-the-text
 report
-table-of-contents
 x-appendix-3-example-of-inaccurate-cia-testimony-to-the-committee--april-122007

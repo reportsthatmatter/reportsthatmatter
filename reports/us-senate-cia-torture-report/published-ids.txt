@@ -1,6 +1,7 @@
 --t-s-g-h
 -2-the-vast-majority-men-women
 -3
+0-may-redacted-2005-cia
 0-n-may-1-2008
 03-abu-yasir-al-jaza-iri
 03-disseminated-redacted
@@ -8,6 +9,7 @@
 04-2108
 04-later-rrli-i-i
 1-174
+1-174-waiting-us-ask
 1-2
 1-2-5-28-201
 1-abu-zubaydah-redacted-02
@@ -42,6 +44,7 @@
 13-8-redacted-redacted-italics
 13-shawqi-awad-redacted-redacted
 13-two-contract-psychologists-devised
+131326z-may-03-redacted-38595
 13701-redacted-redacted-redacted
 14-cia-detainees-subjected-coercive
 14-umar-faruq-aka-abu
@@ -109,6 +112,7 @@
 246-redacted-i-s-t
 25-8
 2504-committee-briefing-included-inaccurate
+252i-p-o-r-example
 2609-y-j-l-e
 26152
 2683-redacted-39582-041743z-jun
@@ -241,15 +245,18 @@ adopted-march-5-2009
 advisor-rice-abu-zubaydah-withholding
 afghanistan-1990-2001-august-16-2006
 after-abu-zubaydah-placed-isolation
+after-approximately-month-detention-extensive
 after-approximately-week-interrogating-al-masri
 after-being-detained-pakistan-jose
 after-being-rendered-cia-custody
+after-conducting-extensive-surveillance-sajid
 after-detaining-least-113-individuals
 after-detention-site-blue-chief
 after-dissemination-draft-cia-inspector
 after-hearing-committee-submitted-official
 after-july-2002-meetings-cia
 after-kessler-provided-draft-his
+after-pleading-guilty-u-k
 after-publication-washington-post-article
 after-receipt-cia-s-june
 after-reviewing-draft-special-review
@@ -260,6 +267,7 @@ after-two-days-questioning-detention
 after-use-cia-s-enhanced
 against-backdrop---largest-attack
 against-those-leakers-nonetheless-suggested
+aggressive-phase-interrogation-continued-until
 agreement-host-cia-detention-facility
 aiding-our-understanding-al-qaida-s
 al-ghuraba-student-group-established-late
@@ -343,6 +351,7 @@ assessment-adds-issa-appears-have
 assessment-noted-cia-program-required
 asset-x-redacted-visiting-redacted
 associateofllassaii-ghul-additional-intelligence-hassan
+attachment-pavitt-s-memorandum-repeated
 attash-remained-foreign-government-custody
 auditory-hallucinations-cia-interrogators-reported
 august-1-2002-memorandum-opinion
@@ -375,6 +384,7 @@ b-id-bin-muhammad-bin
 b-use-necessity-defense-toprosecution
 background-key-intelligence-impacts-chart
 bagraml-redacted-join-group-khaldan
+bakos-stated-honestly-hassan-ghul
 baluchi-khallad-bin-attash-had
 based-flawed-logical-argumentation-19
 based-report-from-ctc-cia
@@ -402,6 +412,7 @@ beyond-problem-secret-law-also
 bipartisan-terms-reference-also-called
 blue-chief-base-who-also
 blue-serve-debriefers-detention-site
+bombing-uss-cole-well-september
 both-kessler-book-jehl-article
 both-swigert-dunbar-had-been
 both-warning-operational-purposes-detainee
@@ -429,6 +440,7 @@ c-o-n-c-l-3
 c-redacted-january-2004-redacted
 cable-described-abu-zubaydah-s
 cable-further-recommended-psychologists-likely
+cable-saying-light-ksm-s
 cable-went-note-possibility-al-najjar
 cables-other-documents-found-cia
 capture-abu-zubaydah-conception-eits
@@ -533,6 +545,7 @@ cia-placed-individuals-no-applicable
 cia-presentations-executive-legislative-branches
 cia-provided-extensive-amounts-inaccurate
 cia-provided-factually-incorrect-description
+cia-provided-information-cia-office
 cia-provided-similar-inaccurate-representations
 cia-provided-similar-inaccurate-representations-2
 cia-provided-similar-inaccurate-representations-3
@@ -727,7 +740,9 @@ described-more-detail-full-committee-2
 described-renditions-interrogations-group-also
 described-summary-greater-detail-full
 described-summary-july-2-2004
+described-summary-more-detail-full
 despite-aforementioned-assessments-from-cia
+despite-cia-s-previous-statements
 despite-fact-cia-response-summer
 despite-initial-view-expressed-yoo
 despite-its-claim-information-acquired
@@ -883,6 +898,7 @@ example-october-26-2007-cia
 example-one-cia-s-representations
 example-review-concedes-some-detainees
 examples-these-concerns-include-cia
+excellent-level-rapport-see-redacted
 exception-decision-not-interview-relevant
 exception-sleep-deprivation-which-continued
 executive-branch-oversight
@@ -898,16 +914,6 @@ f-f-s-h-h
 f-f-s-redacted-i
 f-k-redacted-ksm-had
 f-l-p-redacted-t
-f-redacted-1-regards-explosives
-f-redacted-cia-provided-information
-f-redacted-f-described-summary
-f-redacted-f-f-after
-f-redacted-f-times-abu
-f-redacted-review-cia-operational
-f-redacted-september-6-2006
-f-s-redacted-f-while
-f-s-redacted-finally-july
-f-s-redacted-may-10
 f-t-e-r-t
 f-t-s-redacted-i
 facilities-country-redacted-who-known
@@ -975,6 +981,7 @@ finally-hassan-ghul-described-his
 finally-i-am-deeply-disturbed
 finally-i-want-recognize-members
 finally-its-results-unclear-best
+finally-july-20-2007-olc
 finally-olc-accepted-definition-high
 finally-we-found-instances-where
 first-detention-interrogation-program-conceived
@@ -995,6 +1002,7 @@ following-members-committee-signed-minority
 following-passage-detainee-treatment-act
 following-september-11-2001-terrorist
 following-year-when-i-became
+foreign-custody-abu-zubair-al-ha
 foreword-senate-select-committee-intelligence
 former-psychologists-united-states-air
 fortunately-solution-these-problems-straightforward
@@ -1039,6 +1047,7 @@ ghuraba-group-53
 given-unproductive-manner-which-these
 government-ultimately-got-limited-legislative
 guidelines-also-required-quarterly-assessments
+gunawan-asked-about-his-interest
 gunawan-s-role-karachi-communications
 h-c-5100-94-4054
 had-told-cia-about-jose
@@ -1108,6 +1117,7 @@ i-n-december-2008-january
 i-n-february-2007-icrc
 i-n-march-2003-senior
 i-n-march-2004-cia
+i-n-may-june-2003
 i-n-multiple-interviews-cia
 i-n-september-2002-email
 i-n-t-e-l
@@ -1115,7 +1125,6 @@ i-officers-redacted
 i-other-medical-psychological-behavioral
 i-recall-vividly-watching-horror
 i-redacted-issue-pre-election-threat
-i-redacted-w-j-use
 i-redacted-zubair
 i-t-e-2005-during
 i-u-s-federal-law
@@ -1167,6 +1176,7 @@ information-abu-zubaydah-provided-while
 information-after-his-capture-august
 information-attorney-noted-o-ur
 informed-cia-officers-press-stories
+initiate-ji-operations-outside-southeast
 inn1-lihi-redacted
 inspector-general-detention-interrogation-ridha
 inspector-general-s-special-review
@@ -1187,6 +1197,7 @@ interrogation-sessions-april-5-2003
 interrogation-supreme-court-had-decided
 interrogation-techniques-4-intelligence-community
 interrogation-techniques-highly-context-specific-fact-depend
+interrogations-have-saved-american-lives
 interrogator-redacted-told-oig-interrogators
 interrogator-requested-approval-use-sleep
 interview-redacted-nisar-jilal-aka
@@ -1259,6 +1270,8 @@ june-29-2006-supreme-court
 june-5-2003-cable-states
 june-9-2014
 june-redacted-2004-foreign-government
+justice-review-cia-s-interrogation
+k-s-m-w-s
 karachi-cell-director-hayden-march
 key
 key-42-ibn-shaykh-al-libi
@@ -1314,19 +1327,18 @@ letter-from-redacted-assistant-general
 levin-s-august-26-2004
 li-meetings-cia-february-2002
 likewise-cia-prepared-briefing-vice-president
+likewise-december-2004-cia-memorandum
 likewise-information-prepared-cia-cia
 likewise-july-20-2007-department
 likewise-march-2-2005-cia
 lillie-had-not-yet-been
+llll-i-i-iii-i
 long-we-are-considering-quantitative
 m
 m-h-h-v-f
 m-i-h-r-o
 m-i-l-f-r
 m-o-s-t-significantly
-m-redacted-k-s-m
-m-redacted-march-4-2004
-m-redacted-w-attachment-pavitt
 m-u-h-m-m
 m-v-u-r-f
 m-y-2-0-0
@@ -1355,6 +1367,7 @@ march-2006-three-months-after
 march-2009-senate-select-committee
 march-21-2005-director-ctc
 march-24-2003-ksm-underwent
+march-4-2004-guleed-captured
 march-5-2003-majid-khan
 march-5-2003-march-6
 march-6-2003-day-after
@@ -1367,6 +1380,7 @@ matter-my-own-history-issue
 matter-panetta-review-remains-unresolved
 may-10-2005-memorandum-analyzing
 may-10-2005-new-acting
+may-10-2005-olc-issued
 may-2-2005-when-abu
 may-20-2002-prior-initiation
 may-20-2007-cia-targeting
@@ -1385,6 +1399,7 @@ may-30-2005-third-olc
 may-4-2005-acting-assistant
 may-4-2011-briefing-cia
 may-4-2011-briefing-senator
+may-4-2011-briefing-senator-2
 may-5-2004-cia-provided
 may-5-2011-cia-chart
 may-5-2011-cia-chart-2
@@ -1436,7 +1451,6 @@ multiple-iterations-cia-validation-documents
 my-hope-expectation-beyond-initial
 my-vote-declassify-report-does
 n-interviews-pakistani-authorities-redacted
-n-s-redacted-n-f
 nashiri-ramzi-bin-al-shibh-asadallah
 national-counterterrorism-center-reflections-ja
 national-security-advisor-rice-however
@@ -1455,6 +1469,7 @@ next-day-cia-inspector-general
 next-day-january-redacted-2004
 next-day-march-22-2003
 nine-days-after-abu-zubaydah
+none-above-information-resulted-ramzi
 nonetheless-majority-committee-members-agreed
 not-be-provided-access-ksm
 note-redacted-from-redacted-office
@@ -1545,7 +1560,6 @@ over-course-four-days-cia
 over-course-next-two-weeks
 over-several-weeks-iyman-faris
 over-several-years-cia-officers
-p-g-redacted-n-f
 p-o-s-s-i
 p-p-e-n-d
 p-r-example-december-23
@@ -1562,6 +1576,7 @@ particular-its-use-enhanced-interrogation
 parts-senate-select-committee-intelligence
 passage-cia-inspector-general-special
 personnel-who-participated-cia-s
+peshawar-area-well-known-always
 photographed-followed-thai-authorities-1729
 placement-extraction-camouflage-antitank-antipersonnel
 planning-execution-operation-captured-ksm
@@ -1602,6 +1617,7 @@ program-us-study-appears-be
 prom-20-cia-documents-committee
 protect-u-s-consulate-personnel
 proud-day-committee---chairman
+provide-inpatient-care-detainees-concluded
 provided-information-associate-ksm-name
 provided-information-associate-ksm-name-2
 provided-information-helped-lead-arrest
@@ -1615,9 +1631,7 @@ pursuant-national-security-advisor-rice
 q-obtained-redacted-redacted-1
 qa-ida-operatives-redacted-are
 question-what-do-remaining-detainees
-r-f-s-redacted-n
 r-i-o-r-t
-r-redacted-aggressive-phase-interrogation
 raids-least-one-person-letter
 ramzi-bin-al-shibh-initially-interrogated
 ramzi-bin-al-shibh-subjected-interrogation
@@ -1714,7 +1728,6 @@ redacted-additionally-retrospective-prepared-cia
 redacted-additionally-while-study-claims
 redacted-advice-not-heeded-december
 redacted-after-abu-zubaydah-rendered
-redacted-after-approximately-month-detention
 redacted-after-gunawan-s-arrest
 redacted-afternoon-march-17-2003
 redacted-aixest-rape-family-members
@@ -1783,7 +1796,6 @@ redacted-entitled-15-june-request
 redacted-entitled-origins-cia-representations
 redacted-excellent-level-rapport-first
 redacted-f-h-h-h
-redacted-f-j-likewise-december
 redacted-family-details-critical-ultimately
 redacted-fbi-arrested-uzhair-new
 redacted-finally-may-30-2005
@@ -1876,6 +1888,7 @@ redacted-pakistani-authorities-subsequently-placed
 redacted-particular-case-study-has
 redacted-particular-study-claim-gives
 redacted-partners-redacted-redacted-called
+redacted-plans-typically-made-no
 redacted-political-leadership-country-redacted
 redacted-previously-discussed-our-own
 redacted-previously-discussed-our-own-2
@@ -2027,6 +2040,7 @@ redacted-subject-email-implies-re
 redacted-subject-general-comments-date
 redacted-subject-re-could-aq
 redacted-subject-report-from-gitmo
+redacted-suspected-individual-zubair-associated
 redacted-t-h-e-claim
 redacted-t-h-e-s
 redacted-technical-collection-indicated-issa
@@ -2061,12 +2075,14 @@ redacted-wrote-acting-assistant-attorney
 redacted-wrote-i-ve-certainly
 redacted-z-seeming-effort-suggest
 regard-al-ghuraba-group-contrary-cia
+regards-explosives-smuggling-reporting-senior
 reporting-abu-ahmad-al-kuwaiti-s
 reporting-abu-ahmad-al-kuwaiti-s-2
 reporting-abuses-director-hayden-any
 reporting-indicates-al-ghuraba-group-similar
 representation-does-not-assert-intelligence
 representation-incongrnent-cia-records-cia
+representations-based-cia-s-experience
 requirements-cable-from-cia-headquarters
 respect-second-prominent-occasion-cia
 respect-standard-objectivity-we-disappointed
@@ -2083,6 +2099,7 @@ review-cia-operational-cables-other-3
 review-cia-operational-cables-other-4
 review-cia-operational-cables-other-5
 review-cia-operational-cables-other-6
+review-cia-operational-cables-other-7
 review-cia-records-found-1
 review-cia-records-found-no
 review-cia-records-found-these
@@ -2097,11 +2114,9 @@ ridhaahmai-ifnaiiy-redacted-1-redacted
 risking-hear-initiative-from-country
 s-i-n-c-e
 s-i-n-may-30
-s-redacted-n-f-0
 s-redacted-o-contrary-cia
 s-redacted-o-n-september
 s-redacted-o-september-10
-s-redacted-u-shortly-after
 sajid-abu-issa-shoebomber-see
 same-c-w-q-u
 same-can-be-said-respect
@@ -2175,6 +2190,7 @@ september-27-2002-cia-officials
 september-4-2003-cia-records
 september-6-2006-president-bush
 september-6-2006-president-bush-2
+september-6-2006-president-bush-3
 september-6-2006-president-george
 september-6-2006-speech-acknowledging
 september-6-2006-speech-president
@@ -2190,6 +2206,7 @@ shaykh-muhammad-ksm-including-dcia
 shortly-after-al-nashiri-arrived-detention
 shortly-after-placing-cia-detainees
 shortly-after-raid-usama-bin
+shortly-after-september-2007-extension
 shortly-thereafter-cia-confirmed-ramzi
 shortly-thereafter-cia-headquarters-began
 shortly-thereafter-june-2-2002
@@ -2205,6 +2222,7 @@ similarly-february-27-2004-ddo
 similarly-january-2009-cia-compiled
 similarly-july-13-2004-cia
 similarly-july-29-2003-cia
+similarly-prepared-briefing-chairman-house
 since-joining-committee-i-have
 since-no-interviews-conducted-since
 sjrthe-study-finds-cia-headquarters
@@ -2236,6 +2254,7 @@ ssci-transcript-business-meeting-discuss
 ssci-transcript-hearing-control-intelligence
 ssci-transcript-hearing-vote-declassification
 stated-minority-views-cia-response
+stated-suspected-jose-padilla-being
 statement-rhetorical-attempt-persuade-reader
 statement-rhetorical-attempt-persuade-reader-2
 states-neither-abu-zubaydah-nor
@@ -2317,6 +2336,7 @@ study-s-third-observation-about
 study-seems-confuse-difference-between
 study-seems-fault-cia-not
 study-should-serve-warning-those
+subjected-techniques-without-approval-cia
 subsequent-cia-memorandum-dated-march
 suggestion-all-cia-detainees-provided
 summary-cia-represented-its-enhanced
@@ -2346,7 +2366,6 @@ t-redacted-f-cia-chart
 t-redacted-f-t-e
 t-redacted-k-s-m
 t-redacted-t-our-n
-t-redacted-w-may-4
 t-s-i-redacted-n
 t-s-redacted-f-t
 t-s-redacted-p-h
@@ -2393,6 +2412,7 @@ thwarting-second-wave-plots-discovery
 thwarting-second-wave-plots-discovery-2
 thwarting-united-kingdom-urban-targets
 time-received-senior-cia-officer
+times-abu-zubaydah-described-hysterical
 times-detainees-cobalt-walked-around
 tn-contrast-relatively-open-communications
 tn-january-2003-cia-inspector
@@ -2438,6 +2458,7 @@ unrelated-any-reporting-acquired-during
 updated-cia-validation-document-concurring
 updated-conclusion-asserts-cia-s
 updated-study-treats-claim-differently
+use-cia-s-enhanced-interrogation
 use-coercive-interrogation-techniques-covert
 use-constant-light-white-noise
 use-detainee-reporting-director-hayden
@@ -2504,6 +2525,7 @@ while-cia-represented-multiple-parties
 while-committee-did-not-make
 while-each-these-four-detainees
 while-majid-khan-s-information
+while-new-york-times-did
 while-rizzo-expressed-view-presidential
 while-speech-provided-no-additional
 while-these-statements-are-true
@@ -2526,8 +2548,6 @@ without-interviews-study-essentially-limited
 worth-remembering-pervasive-fear-late
 year-after-being-briefed-program
 years-followed-i-fought
-z-redacted-n-i-n
-z-s-redacted-similarly-prepared
 zubair-ate-found-alec-redacted
 zubaydah-early-2002-later-ksm
 zubaydah-ksm-did-not-experience

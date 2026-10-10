@@ -222,6 +222,8 @@ Found by: agent doing the ingest and reading full.md (1l4), agent writing an int
 
 Signals: a short paragraph recurring verbatim 4+ times (60 distinct strings today, above); a recurring short string found inside a longer paragraph (my attempt matched ordinary words like `recommendations`, so the signal needs the furniture string's page position, which only the pipeline has: this is a measure to expose from `runningFurniture()` itself); the printed page sequence running backwards (Challenger 14 times: `94 → 2`, `124 → 6`; Jack Smith `146 → 2`), which is a chapter number or a volume folio misread as the page.
 
+A declassified scan adds two kinds (us-senate-cia-torture-report, gqsy.6, 2026-10-10): struck-through classification banners at every page's head and foot, read as headings ("## UNCLASSIFIED TOP SECRET//^ I//NOFORN", 1,077 headings on the first ingest), and portion markings opening paragraphs ("( T S / ^ ^ m ^ ^ ^ y / N F )"). Found by: reading full.md, then a golden page's must_not_contain. No signal saw them (reportsthatmatter-sz4v).
+
 ### L. Contents pages rendered as body, headings or lists
 
 The report's own table of contents becomes h2 headings (`## 8. "THE SYSTEM WAS BLINKING RED"`, 9/11, 5fn in progress), run-together quote blocks, merged list items (Columbia), or, in Lehman, 1,900 of 4,000 lines of the whole work's master contents as bullets with a `## VOLUME` heading missing its number and a roman folio `xi` as its own line (b7z). Chilcot's contents list carries a `[^47]` link where a page number was (ixe). Saville's `Outline Table of Contents` splices into body text.
@@ -233,6 +235,8 @@ Found by: agent reading output (b7z, 5fn), reader of the contents page. Signals:
 Scanned reports (Challenger, Jack Smith, parts of Columbia) carry garble that the gates tolerate (`losslessCheck` allows 0.1%: 1,000 words in a million) and that breaks structure detection downstream: a garbled note number swallows the notes after it (lie), a run of notes `56, 67, "rigid,", 6 9, 6 0, 6 1, 6*, 8s` (aqn), `hostaoes b '` (2dw), `Recommendation` mangled so it is not a heading (9zk), 625 words of letter-spaced garble as one paragraph (`7 included a b l a t i v e m a t e r i a l s`, Challenger), `0rings` ×28, `reso1ied`, `ce1iifies` (Jack Smith). The `fidelity.md` queues hold 999 open suspects nobody reads (#122).
 
 Found by: agent reviewing suspect queues (lie, aqn, agk), reader (2dw via g1f). Signals tried: unknown lower-case words per 1k against the system dictionary gives 43–71 for every report, dominated by proper nouns and British spellings, so it does not separate Challenger (71) from clean born-digital Deepwater (51) usefully; digit-inside-word tokens (77 total, Challenger 28) are a precise but small signal. Real detection needs a second opinion on the page (the plan's differential layer) or a per-report vocabulary.
+
+Redaction boxes on a scan are read as garble ("Country |", "H ^ H", "B I H I H") or as nothing ("November            2002"), and the OCR loses a note's raised number printed against a box (PDF p.54, notes 86 and 88), so the note's text runs into the note above (us-senate-cia-torture-report, gqsy.6; fgle). Found by: reading full.md and counting note runs by hand. Signals: note-reference-sequence saw the merged notes (377); nothing saw the garble (reportsthatmatter-sz4v).
 
 ### N. Markdown and rendering hazards
 
