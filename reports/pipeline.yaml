@@ -196,5 +196,5 @@ units:
     bead: reportsthatmatter-gqsy.5
     reached: editorial
     state: waiting
-    evidence: "ingest PR #75 (foiaRedactions, asteriskBreaks, layoutRunOvers, contentsOutline scanned/centredMinor), report repo PR #1 (branch first-ingest-1009), site PR from mueller-report-1009 (registry, manifest, plate, default and 4 quote cards, editorial approved, decision 0019); golden 4/6 + 2 xfail (vs2x); adjudicated.yaml 27/29 right"
+    evidence: "ingest PR #75 (foiaRedactions, asteriskBreaks, layoutRunOvers, contentsOutline scanned/centredMinor), report repo PR #1 (branch first-ingest-1009), site PR from mueller-report-1009 (registry, manifest, plate, default and 4 quote cards, editorial approved, decision 0020); golden 4/6 + 2 xfail (vs2x); adjudicated.yaml 27/29 right"
     notes: "Waits on an ingest release carrying #75 and a pin bump in the report repo and the site. 74 scanned Vol I pages: OCR words (q6yp) and 225 notes not separated (vs2x, parked). Hero: pq6v. Intro bead ga0k."

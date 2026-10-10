@@ -1,4 +1,4 @@
-# 0019. How do we show a redaction in a report's text?
+# 0020. How do we show a redaction in a report's text?
 
 - **Status:** proposed
 - **Date raised:** 2026-10-09 · **Date decided:** —
