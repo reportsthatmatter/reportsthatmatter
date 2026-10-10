@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@atproto/api": "^0.22.0",
-    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.25.0",
+    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.26.0",
     "hono": "^4.6.10",
     "markdown-it": "^14.1.0",
     "yaml": "^2.6.1"
