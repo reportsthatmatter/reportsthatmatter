@@ -78,3 +78,6 @@ reports:
   uk-grenfell-tower-inquiry:
     markers-unlinked: 0
     note-off-page: 0
+  us-senate-cia-torture-report:
+    markers-unlinked: 758  # why: reportsthatmatter-fgle (notes merged into the note before, and markers the OCR garbled beside a box: "Country ( , 6 8")
+    note-off-page: 16  # why: reportsthatmatter-fgle

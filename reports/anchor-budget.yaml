@@ -95,3 +95,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  us-senate-cia-torture-report:
+    markers-wrong: 6  # why: reportsthatmatter-gqsy.6 (scanned pages whose first lines the OCR reads in a different order; 99.1% of located markers are right)
+    markers-stacked: 5  # why: reportsthatmatter-gqsy.6
+    pages-unmarked: 22  # why: reportsthatmatter-gqsy.6 (the anchor check reads "Page N of 19" counters as labels on the front matter, which is folioed in roman; the pipeline's markers there are roman)
+    blocks-wrong: 144  # why: reportsthatmatter-gqsy.6 (121 of them on those front-matter pages)

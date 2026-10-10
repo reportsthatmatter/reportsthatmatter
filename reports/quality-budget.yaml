@@ -422,3 +422,27 @@ reports:
     numbered-prose-list: 3
     ids-per-1k-words: 0
     quote-share-parity: 1
+  us-senate-cia-torture-report:
+    severed-into-quote: 104  # why: reportsthatmatter-jc46 (a scan's OCR layer: block quotations whose first line ran into the paragraph before, letter-spaced garble)
+    severed-paragraph: 58  # why: reportsthatmatter-jc46
+    bare-footnote-marker: 123  # why: reportsthatmatter-fgle (markers the OCR misread or read beside a box)
+    bare-marker-after-quote: 37  # why: reportsthatmatter-fgle
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 377  # why: reportsthatmatter-fgle (about 580 notes whose numbers the OCR lost are read into the note before; their markers stay bare)
+    note-text-in-body: 55  # why: reportsthatmatter-fgle
+    note-citation-vocabulary: 0
+    furniture-paragraph: 41  # why: reportsthatmatter-gqsy.6 (OCR garble from struck-through classification banners the pack could not place; letter-spaced cable citations)
+    contents-entry-without-heading: 90  # why: reportsthatmatter-gqsy.6 (127 of the Executive Summary's 135 entries open their headings, matched by edit distance; the signal matches letter for letter, and the two contents spell titles as the OCR read them)
+    heading-density: 0
+    heading-repeated: 0
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 82  # why: reportsthatmatter-gqsy.6 (the Executive Summary's own section titles, verbatim: "1. After Considering Various Clandestine Detention Locations, the CIA Determines That a U.S. Military Base Is the \"Best Option\"; ...")
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 4
+    numbered-prose-list: 1  # why: reportsthatmatter-gqsy.6
+    ids-per-1k-words: 0
+    quote-share-parity: 2

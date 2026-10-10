@@ -467,3 +467,28 @@ marks:
       them. The embedded image alone (pdfimages, object 239, 531x710) has
       none, if the build learns to take an embedded image. Hero image: its
       own bead.
+
+  - id: ssci
+    set: plate
+    report: us-senate-cia-torture-report
+    pdf: archive/CRPT-113srpt288.pdf
+    page: 51
+    dpi: 200
+    # The page's head measured on the 200dpi raster (2026-10-10): "UNCLASSIFIED" at y 85, the struck banner's box
+    # 666-1058 x 132-172, the text column from x 211; the crop takes the banner and the first two portion-marked
+    # paragraphs with their boxes, trimmed at the right inside the text column.
+    crop: [190, 70, 1090, 690]
+    subject: >-
+      The head of a declassified page of the Executive Summary (PDF p.51,
+      printed p.22): "UNCLASSIFIED" over the struck-through banner
+      "TOP SECRET//[box]//NOFORN", and two paragraphs on Abu Zubaydah's
+      capture opening on struck portion markings "(TS//[box]//NF)", with
+      black redaction boxes inside the sentences ("an email ... to [box] CTC
+      Legal [box]"). The redaction is the report's exhibit: the study was
+      published only as a declassified, redacted summary of a classified
+      6,700-page report, and the boxes are on nearly every page. Avoided:
+      any image of detention or interrogation, and portraits.
+    rights: >-
+      Public domain: a work of the U.S. Government (17 U.S.C. 105), S. Rept.
+      113-288 as printed by the GPO; no third-party credit on the page.
+    treat: { black: 0.10, white: 0.88, grain: 70, cut: none }
