@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-10 — The Senate Torture Report (ingest v0.27.0)
+
+The Senate Select Committee on Intelligence's Study of the CIA's Detention and Interrogation Program (S. Rept. 113-288: the declassified Executive Summary, findings and conclusions, foreword and the minority views) is now on the site: 55 sections, about 2,350 citable paragraphs, searchable, with its plate, four share cards, an introduction and 14 highlights. It is a scan, so the words are the OCR's: about 270 notes are merged into the note before them, about 84% of note markers are linked, and about 57 paragraphs break mid-sentence. Redactions show inline as "[Redacted]" (9,947 of them), distinct from the report's own "[REDACTED]" substitutions (decision 0020). The processing notes on the report's page list the limits.
+
+![The Senate Torture Report's landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-10-10-senate-torture-report/after-us-senate-cia-torture-report-desktop.png)
+
+[Full entry, with a redacted section](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-10-10--the-senate-torture-report-is-on-the-site-v0270).
+
+---
+
 ## 2026-10-10 — The Mueller Report, and cleaner Leveson, Columbia and Challenger (ingest v0.26.0)
 
 The Report on the Investigation into Russian Interference in the 2016 Presidential Election (Special Counsel Robert Mueller, Volumes I and II) is now on the site: 102 sections, 1,315 citable paragraphs, searchable, with its plate, five share cards, an introduction and 11 highlights. Redactions are shown inline as "[Redacted: (b) (7)(A)]" with the codes the box prints (decision 0020). Its 74 scanned pages of Volume I are read by OCR and its processing notes list them; the appendices are not included yet. Leveson loses its running heads and small-caps garble and splits "N.N Second" openers; Columbia and Challenger have about 175 words closed up across line-end hyphens, and Columbia gains speaker turns and Findings and Recommendations headings; Deepwater's chapter 9 list renders as a list; Litvinenko rejoins five cut statute items.

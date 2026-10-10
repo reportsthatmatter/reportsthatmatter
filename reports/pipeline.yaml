@@ -198,3 +198,10 @@ units:
     state: waiting
     evidence: "ingest PR #75 (foiaRedactions, asteriskBreaks, layoutRunOvers, contentsOutline scanned/centredMinor), report repo PR #1 (branch first-ingest-1009), site PR from mueller-report-1009 (registry, manifest, plate, default and 4 quote cards, editorial approved, decision 0020); golden 4/6 + 2 xfail (vs2x); adjudicated.yaml 27/29 right"
     notes: "Live 2026-10-10 (ingest v0.26.0, site #307, first publish). 74 scanned Vol I pages: OCR words (q6yp) and 225 notes not separated (vs2x, parked). Hero: pq6v. Intro bead ga0k."
+  - id: us-senate-cia-torture-report
+    scope: "S. Rept. 113-288, the declassified Executive Summary, findings, foreword and views"
+    bead: reportsthatmatter-gqsy.6
+    reached: publish
+    state: waiting
+    evidence: "ingest #77 (contentsOutline ocr, source passes, uncoded [Redacted]); report repo #1; site #312 (registry, manifest, plate, default and 3 quote cards, editorial approved); decision 0020 addendum"
+    notes: "Live 2026-10-10 (ingest v0.27.0, grade B-). OCR text; ~270 notes merged, ~84% of markers linked; jc46 57 severed / ~100 severed-into-quote."

@@ -288,6 +288,24 @@
     "known": 0
    }
   },
+  "us-senate-cia-torture-report": {
+   "oracle": {
+    "headings-missed": 107,
+    "headings-spurious": 42,
+    "markers-unlinked": 523,
+    "markers-spurious": 71,
+    "paragraphs-oversplit": 143,
+    "paragraphs-merged": 2251,
+    "quotes-spurious": 153,
+    "quotes-missed": 189,
+    "note-off-page": 20
+   },
+   "golden": {
+    "match": 3,
+    "total": 7,
+    "known": 4
+   }
+  },
   "us-mueller-report": {
    "oracle": {
     "headings-missed": 455,
@@ -311,17 +329,17 @@
   "headings-missed": {
    "tp": 16,
    "fp": 25,
-   "fn": 3
+   "fn": 4
   },
   "headings-spurious": {
    "tp": 0,
-   "fp": 3,
+   "fp": 4,
    "fn": 0
   },
   "markers-unlinked": {
-   "tp": 7,
+   "tp": 9,
    "fp": 1,
-   "fn": 3
+   "fn": 5
   },
   "markers-spurious": {
    "tp": 0,
@@ -331,11 +349,11 @@
   "paragraphs-oversplit": {
    "tp": 12,
    "fp": 15,
-   "fn": 25
+   "fn": 26
   },
   "paragraphs-merged": {
    "tp": 4,
-   "fp": 194,
+   "fp": 207,
    "fn": 1
   },
   "quotes-spurious": {
@@ -345,7 +363,7 @@
   },
   "quotes-missed": {
    "tp": 3,
-   "fp": 28,
+   "fp": 29,
    "fn": 0
   }
  }
