@@ -465,6 +465,21 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **What would have caught it earlier:** a `pnpm release --dry-run` hint for worktrees in the checklist, and `pnpm ship --plan` offering `--reset` itself when the state is for an older pin.
 - **One proposal:** a `pnpm ship --bump-pins` that does the 16-repo pin bump with `--no-frozen-lockfile`, checks each lockfile resolves to the new tag's commit, commits and pushes. It is the same 15 lines every release, and the lessons of v0.23.0 and v0.24.0 both record it by hand.
 
+## 2026-10-09: launch polish (y960, ahzb, p3o8, te56)
+
+- markdown-it 14 links `http(s)://` URLs in an inline rule and fuzzy schemeless ones in a core rule, so a fix that only touches the core `linkify` rule misses the common case; the unit test that renders a wrapped URL through `renderMarkdown` is what showed it (ingest #72).
+- A "this check passes for every queue item" test can hide a whole class by its own filter: `tests/share-links.test.ts` only walked items whose card was `q-*`, which is exactly why the two legacy-card Jack Smith items (ahzb) shipped with the default og:image. Filters in a coverage test need a count assertion against the unfiltered set.
+- `buildQueue` kept an unposted item's `text` forever, so a re-ingest that moved page markers left 5 of 68 post texts citing a different page than the card and landing panel (4 said "p. 2" where the text says 3). Anything derived from the build and not a decision must be refreshed for unposted items, and `pnpm posts --verify` can only catch it if the refreshed value is part of what it compares.
+- Wrapped citation URLs lose the hyphen at the wrap (Leveson `wp-content` became `wpcontent` in 30 links, all 404); restoring it in the href made the PDF links return 200. Check a sample of a fix's links over HTTP, not only the diff.
+- The link-preview failure for a huge page (te56) was not the head: Leveson `/full`'s `og:image` is at byte 1,125 of 10.9 MB. `tests/full-head.test.ts` now holds "all preview tags in the first 16 KB" for every report so a regression is visible, and the real choice is a decision (0019).
+
+Reviewer of v0.25.0 (2026-10-10, batches A–E):
+
+- Ingest PRs can land without the `dist/` that consumers install: #74 committed `src/` only, and #70's `dist/` carried a `// TEMP` debug line that `src/` had lost. Ingest CI (#69) now runs `check-dist` on PRs. #71 and #72 were opened before it merged and show no checks, so a reviewer still rebuilds each PR (`pnpm build && git status -- dist`).
+- Parallel PRs took the same decision numbers: #301 and #303 both added 0015/0016, and #305 added 0017. The numbers were reassigned in review: #303 kept 0015/0016 (ingest #71 cites 0016), #301 became 0017/0018, #305 became 0019. Guard: reportsthatmatter-js2r.
+- An unknown flag can fall through to a production read: `pnpm marks check --offline` (no such flag) read the production `mark` table once (738 rows, ledger 2026-10-10T00:08Z). `--marks-file <json>` or `--no-marks` is the offline form. Scripts that can reach production should reject flags they do not know.
+- `tests/cards.test.ts` trusts a cached `build/editorial-highlights.json`. In a worktree bootstrapped before a PR added highlights, it reports their cards as orphans until `pnpm editorial` reruns.
+
 ## 2026-10-09 burn-down: Valukas, PSI and Philip Morris (stream:quality)
 
 - **Declare `doubleSpaced()` before calling a page-break defect a page-break defect.** (2026-10-09) 17 of Valukas's 22 `severed-paragraph` findings were mid-page, not at a page break: the report is double-spaced (pitch 2.7 x the font) and a line opening on a capital or a quotation mark after an unfinished line started a paragraph. `pnpm ingest page <id> <vol> <pdfPage>` shows it in one look (the `B` column breaks at lines with no indent). One declared pass took 22 to 5 and 12 to 10 capital cases, retired the `must_contain` xfail on golden p.20 and reflowed the bullet lists; evidence: `pnpm quality report us-lehman-examiner`, before and after.

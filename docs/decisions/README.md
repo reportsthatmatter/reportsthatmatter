@@ -27,3 +27,4 @@ One file per question we have had to answer, or still have to. It is written so 
 | [0016](0016-page-order-over-note-order.md) | A float across a page turn: does page order or note order decide where it is served? | proposed | hcam |
 | [0017](0017-about-copy-no-commentary.md) | Does "No commentary. No spin." still describe the site? | open | pbkk |
 | [0018](0018-phone-header-navigation.md) | How should the header navigation work on phones? | open | nupj |
+| [0019](0019-full-page-for-link-previews.md) | What does `/full` do for a report too big to preview, and to load? | proposed | yvfr |
