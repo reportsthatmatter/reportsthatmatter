@@ -3906,9 +3906,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-v-philip-morris?p=defendants-have-made-continue-make"
           },
           {
-            "id": "indeed-day-none-defendant-cigarette",
+            "id": "defendants-internal-research-reflects-their",
             "page": 1539,
-            "href": "/reports/us-v-philip-morris?p=indeed-day-none-defendant-cigarette"
+            "href": "/reports/us-v-philip-morris?p=defendants-internal-research-reflects-their"
           },
           {
             "id": "defendants-spent-many-millions-dollars",
