@@ -1,0 +1,4 @@
+---
+theme: A new report from a redacted scan (Senate Intelligence Committee study, gqsy.6)
+---
+- **Number a page's notes by alignment, not by one offset: a page that lost two numbers makes the majority offset renumber the right ones.** (2026-10-10, fgle, Opus) On PDF p.59 the read numbers 121, 122, 124, 125, 126 (123 lost) voted offset 122, rewriting 121 and 122 as 122 and 123. Replaced the vote with a small dynamic program: strong starts always numbered, weak starts (junk glued to a margin line, a line set well in, the page's first note line) only where the read numbers or the neighbouring pages' last and first numbers need them, and a forward skip to a read number allowed. With the per-page check below it took notes from 2,971 to 3,260 and markers-unlinked from 765 to 523. [status: done in us-senate-cia-torture-report#1]

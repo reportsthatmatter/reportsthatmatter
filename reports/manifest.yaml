@@ -41,5 +41,7 @@ reports:
     dir: ../us-jan6-committee
   - id: uk-grenfell-tower-inquiry
     dir: ../uk-grenfell-tower-inquiry
+  - id: us-senate-cia-torture-report
+    dir: ../us-senate-cia-torture-report
   - id: us-mueller-report
     dir: ../us-mueller-report

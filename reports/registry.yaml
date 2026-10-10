@@ -216,6 +216,18 @@ reports:
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
 
+  - id: us-senate-cia-torture-report
+    title: "Committee Study of the Central Intelligence Agency's Detention and Interrogation Program"
+    authors: "Senate Select Committee on Intelligence"
+    published_at: "9 December 2014"
+    common_name: "Senate Torture Report"
+    also_known_as: ["CIA torture report", "Senate Intelligence Committee report on CIA torture", "Committee Study of the CIA's Detention and Interrogation Program", "S. Rept. 113-288"]
+    issued_by: "Senate Select Committee on Intelligence"
+    date_published: "2014-12-09"
+    repo: us-senate-cia-torture-report
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/us-senate-cia-torture-report/full.md
+    source_url: "https://www.govinfo.gov/content/pkg/CRPT-113srpt288/pdf/CRPT-113srpt288.pdf"
   - id: us-mueller-report
     title: "Report on the Investigation into Russian Interference in the 2016 Presidential Election"
     authors: "Robert S. Mueller, III, Special Counsel, U.S. Department of Justice"

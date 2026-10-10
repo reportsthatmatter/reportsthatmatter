@@ -422,6 +422,30 @@ reports:
     numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 2
+  us-senate-cia-torture-report:
+    severed-into-quote: 101  # why: reportsthatmatter-jc46 (block quotations whose first line the scan's OCR read into the paragraph before, and letter-spaced garble; a skewed scan's indents)
+    severed-paragraph: 57  # why: reportsthatmatter-jc46 (letter-spaced OCR garble and skewed first lines split paragraphs; 58 to 57 with the note numbering of fgle)
+    bare-footnote-marker: 82  # why: reportsthatmatter-fgle (markers whose notes the OCR lost the numbers of; 122 to 82 with the page-sequence numbering)
+    bare-marker-after-quote: 32  # why: reportsthatmatter-fgle
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 283  # why: reportsthatmatter-fgle (about 270 notes still merged into a neighbour: notes whose numbers the OCR lost where no box, indent or junk shows a start; 377 to 283)
+    note-text-in-body: 49  # why: reportsthatmatter-fgle
+    note-citation-vocabulary: 0
+    furniture-paragraph: 36  # why: reportsthatmatter-sz4v (classification-marking garble the redaction pack does not catch: "11 ii 11 ii B j j ^ ^")
+    contents-entry-without-heading: 86  # why: reportsthatmatter-u7zu (the minority views' headings, which no contents lists in a form the outline reads)
+    heading-density: 0
+    heading-repeated: 0
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 82  # why: reportsthatmatter-gqsy.6 (the Executive Summary's own section titles, verbatim: "1. After Considering Various Clandestine Detention Locations, the CIA Determines That a U.S. Military Base Is the \"Best Option\"; ...")
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 4
+    numbered-prose-list: 1  # why: reportsthatmatter-gqsy.6
+    ids-per-1k-words: 0
+    quote-share-parity: 2
   us-v-philip-morris:
     severed-into-quote: 104
     severed-paragraph: 2

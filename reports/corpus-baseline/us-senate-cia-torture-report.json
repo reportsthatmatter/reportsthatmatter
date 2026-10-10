@@ -1,0 +1,336 @@
+{
+  "words": 402168,
+  "paragraphs": 2408,
+  "sections": [
+    {
+      "slug": "report",
+      "title": "REPORT",
+      "paragraphs": 21,
+      "ids": "ecb8a37d47ab"
+    },
+    {
+      "slug": "foreword",
+      "title": "Foreword",
+      "paragraphs": 34,
+      "ids": "c0231c6b77d7"
+    },
+    {
+      "slug": "findings-and-conclusions",
+      "title": "Findings; and Conclusions",
+      "paragraphs": 110,
+      "ids": "e83223b90781"
+    },
+    {
+      "slug": "executive-summary",
+      "title": "Executive Summary",
+      "paragraphs": 6,
+      "ids": "1a95484a6e33"
+    },
+    {
+      "slug": "i-background-on-the-committee-study",
+      "title": "I. Background on the Committee Study",
+      "paragraphs": 11,
+      "ids": "1ea7c4d73c30"
+    },
+    {
+      "slug": "a-september-17-2001-memorandum-of-notification-mon-authorizes-the-cia-to-capture",
+      "title": "A. September 17, 2001, Memorandum of Notification (MON) Authorizes the CIA to Capture and Detain a Specific Category of Individuals",
+      "paragraphs": 14,
+      "ids": "b6c4ce4c23f7"
+    },
+    {
+      "slug": "b-the-detention-of-abu-zubaydah-and-the-development-and-authorization-of-the-cia",
+      "title": "B. The Detention of Abu Zubaydah and the Development and Authorization of the CIA's Enhanced Interrogation Techniques",
+      "paragraphs": 132,
+      "ids": "98ff41751566"
+    },
+    {
+      "slug": "d-the-detention-and-interrogation-of-abd-al-rahim-al-nashiri",
+      "title": "D. The Detention and Interrogation of 'Abd al-Rahim al-Nashiri",
+      "paragraphs": 23,
+      "ids": "82660f756dad"
+    },
+    {
+      "slug": "e-tensions-with-country-redacted-relating-to-the-cia-detention-facility-and-the-",
+      "title": "E. Tensions with Country [Redacted] Relating to the CIA Detention Facility and the Arrival of New Detainees",
+      "paragraphs": 11,
+      "ids": "8ed4b47267bb"
+    },
+    {
+      "slug": "f-the-detention-and-interrogation-of-ramzi-bin-al-shibh",
+      "title": "F. The Detention and Interrogation of Ramzi Bin Al-Shibh",
+      "paragraphs": 21,
+      "ids": "2bfe358bd19b"
+    },
+    {
+      "slug": "g-the-detention-and-interrogation-of-khalid-shaykh-muhammad",
+      "title": "G. The Detention and Interrogation of Khalid Shaykh Muhammad",
+      "paragraphs": 44,
+      "ids": "a6c3682daad8"
+    },
+    {
+      "slug": "h-the-growth-of-the-cias-detention-and-interrogation-program",
+      "title": "H. The Growth of the CIA's Detention and Interrogation Program",
+      "paragraphs": 59,
+      "ids": "73549a330654"
+    },
+    {
+      "slug": "j-the-cia-seeks-reaffirmation-of-the-cias-detention-and-interrogation-program-in",
+      "title": "J. The CIA Seeks Reaffirmation of the CIA's Detention and Interrogation Program in 2003",
+      "paragraphs": 9,
+      "ids": "88bc58814272"
+    },
+    {
+      "slug": "k-additional-oversight-and-outside-pressure-in-2004-icrc-inspector-general-congr",
+      "title": "K. Additional Oversight and Outside Pressure in 2004: ICRC, Inspector General, Congress, and the U.S. Supreme Court",
+      "paragraphs": 75,
+      "ids": "cb69f65f550b"
+    },
+    {
+      "slug": "l-the-pace-of-cia-operations-slows-chief-of-base-concerned-about-inexperienced-m",
+      "title": "L. The Pace of CIA Operations Slows; Chief of Base Concerned About \"Inexperienced, Marginal, Underperforming\" CIA Personnel; Inspector General Describes Lack of Debriefers As \"Ongoing Problem\"",
+      "paragraphs": 4,
+      "ids": "42c1658aa959"
+    },
+    {
+      "slug": "m-legal-and-operational-challenges-in-2005",
+      "title": "M. Legal and Operational Challenges in 2005",
+      "paragraphs": 46,
+      "ids": "1f412e7db23a"
+    },
+    {
+      "slug": "n-the-final-disposition-of-cia-detainees-and-the-end-of-the-cias-detention-and-i",
+      "title": "N. The Final Disposition of CIA Detainees and the End of the CIA's Detention and Interrogation Program",
+      "paragraphs": 34,
+      "ids": "25ba2b3ab491"
+    },
+    {
+      "slug": "a-background-on-cia-effectiveness-representations",
+      "title": "A. Background on CIA Effectiveness Representations",
+      "paragraphs": 7,
+      "ids": "d3f73cd03e5d"
+    },
+    {
+      "slug": "b-past-efforts-to-review-the-effectiveness-of-the-cias-enhanced-interrogation-te",
+      "title": "B. Past Efforts to Review the Effectiveness of the CIA's Enhanced Interrogation Techniques",
+      "paragraphs": 7,
+      "ids": "b21013f4d138"
+    },
+    {
+      "slug": "c-the-origins-of-cia-representations-regarding-the-effectiveness-of-the-cias-enh",
+      "title": "C. The Origins of CIA Representations Regarding the Effectiveness of the CIA's Enhanced Interrogation Techniques As Having \"Saved Lives,\" \"Thwarted Plots,\" and \"Captured Terrorists\"",
+      "paragraphs": 74,
+      "ids": "a5bdad745807"
+    },
+    {
+      "slug": "d-cia-representations-about-the-effectiveness-of-its-enhanced-interrogation-tech",
+      "title": "D. CIA Representations About the Effectiveness of Its Enhanced Interrogation Techniques Against Specific CIA Detainees",
+      "paragraphs": 24,
+      "ids": "260868a552e6"
+    },
+    {
+      "slug": "e-cia-effectiveness-claims-regarding-a-high-volume-of-critical-intelligence",
+      "title": "E. CIA Effectiveness Claims Regarding a \"High Volume of Critical Intelligence\"",
+      "paragraphs": 8,
+      "ids": "4df8a99392a6"
+    },
+    {
+      "slug": "f-the-eight-primary-cia-effectiveness-representationsthe-use-of-the-cias-enhance",
+      "title": "F. The Eight Primary CIA Effectiveness Representations—the Use of the CIA's Enhanced Interrogation Techniques \"Enabled the CIA to Disrupt Terrorist Plots\" and \"Capture Additional Terrorists\"",
+      "paragraphs": 232,
+      "ids": "bcd25817dd38"
+    },
+    {
+      "slug": "g-cia-secondary-effectiveness-representationsless-frequently-cited-disrupted-plo",
+      "title": "G. CIA Secondary Effectiveness Representations—Less Frequently Cited Disrupted Plots, Captures, and Intelligence that the CIA Has Provided As Evidence for the Effectiveness of the CIA's Enhanced Interrogation Techniques",
+      "paragraphs": 254,
+      "ids": "a32e9e43099d"
+    },
+    {
+      "slug": "a-the-cia-provides-information-on-the-still-classified-detention-and-interrogati",
+      "title": "A. The CIA Provides Information on the Still-Classified Detention and Interrogation Program to Journalists Who then Publish Classified Information; CIA Does Not File Crimes Reports in Connection with the Stories",
+      "paragraphs": 4,
+      "ids": "03987d8186e8"
+    },
+    {
+      "slug": "b-senior-cia-officials-discuss-need-to-put-out-our-story-to-shape-public-and-con",
+      "title": "B. Senior CIA Officials Discuss Need to \"Put Out Our Story\" to Shape Public and Congressional Opinion Prior to the Full Committee Being Briefed",
+      "paragraphs": 7,
+      "ids": "dde65584bab7"
+    },
+    {
+      "slug": "d-the-cia-engages-with-journalists-and-conveys-an-inaccurate-account-of-the-inte",
+      "title": "D. The CIA Engages with Journalists and Conveys an Inaccurate Account of the Interrogation of Abu Zubaydah",
+      "paragraphs": 10,
+      "ids": "788e7f050916"
+    },
+    {
+      "slug": "a-august-1-2002-olc-memorandum-relies-on-inaccurate-information-regarding-abu-zu",
+      "title": "A. August 1, 2002, OLC Memorandum Relies on Inaccurate Information Regarding Abu Zubaydah",
+      "paragraphs": 3,
+      "ids": "5956e126f1f3"
+    },
+    {
+      "slug": "b-the-cia-interprets-the-august-1-2002-memorandum-to-apply-to-other-detainees-de",
+      "title": "B. The CIA Interprets the August 1, 2002, Memorandum to Apply to Other Detainees, Despite Language of the Memorandum; Interrogations of Abu Zubaydah and Other Detainees Diverge from the CIA's Representations to the OLC",
+      "paragraphs": 3,
+      "ids": "2cdbed8b2a44"
+    },
+    {
+      "slug": "c-following-suspension-of-the-use-of-the-cias-enhanced-interrogation-techniques-",
+      "title": "C. Following Suspension of the Use of the CIA's Enhanced Interrogation Techniques, the CIA Obtains Approval from the OLC for the Intenogation of Three Individual Detainees",
+      "paragraphs": 11,
+      "ids": "9076a85dc2b9"
+    },
+    {
+      "slug": "d-may-2005-olc-memoranda-rely-on-inaccurate-representations-from-the-cia-regardi",
+      "title": "D. May 2005 OLC Memoranda Rely on Inaccurate Representations from the CIA Regarding the Interrogation Process, the CIA's Enhanced Interrogation Techniques, and the Effectiveness of the Techniques",
+      "paragraphs": 20,
+      "ids": "3c53dccfb930"
+    },
+    {
+      "slug": "e-after-passage-of-the-detainee-treatment-act-olc-issues-opinion-on-cia-conditio",
+      "title": "E. After Passage of the Detainee Treatment Act, OLC Issues Opinion on CIA Conditions of Confinement, Withdraws Draft Opinion on the CIA's Enhanced Interrogation Techniques After (he U.S. Supreme Court Case of Hamdan v. Rumsfeld",
+      "paragraphs": 4,
+      "ids": "942b9895f497"
+    },
+    {
+      "slug": "f-july-2007-olc-memorandum-relics-on-inaccurate-cia-representations-regarding-ci",
+      "title": "F. July 2007 OLC Memorandum Relics on Inaccurate CIA Representations Regarding CIA Interrogations and the Effectiveness of the CIA's Enhanced Interrogation Techniques; CIA Misrepresents Congressional Views to the Department of Justice",
+      "paragraphs": 13,
+      "ids": "16c33edfe9dd"
+    },
+    {
+      "slug": "b-the-cia-notifies-committee-of-the-detention-of-abu-zubaydah-but-makes-no-refer",
+      "title": "B. The CIA Notifies Committee of the Detention of Abu Zubaydah, but Makes No Reference to Coercive Interrogation Techniques; the CIA Briefs Chairman and Vice Chairman After the Use of the CIA's Enhanced Interrogation Techniques; the CIA Discusses Strategy to Avoid the Chairman's Request for More Information",
+      "paragraphs": 4,
+      "ids": "980a1da18138"
+    },
+    {
+      "slug": "c-no-detailed-records-exist-of-cia-briefings-of-committee-leadership-the-cia-dec",
+      "title": "C. No Detailed Records Exist of CIA Briefings of Committee Leadership; the CIA Declines to Answer Questions from Committee Members or Provide Requested Materials",
+      "paragraphs": 6,
+      "ids": "78f3a3f93a4e"
+    },
+    {
+      "slug": "d-vice-chairman-rockefeller-seeks-committee-investigation",
+      "title": "D. Vice Chairman Rockefeller Seeks Committee Investigation",
+      "paragraphs": 4,
+      "ids": "0b8abe232637"
+    },
+    {
+      "slug": "e-in-response-to-detainee-treatment-act-the-cia-briefs-senators-not-on-the-commi",
+      "title": "E. In Response to Detainee Treatment Act, the CIA Briefs Senators Not on the Committee; Proposal from Senator Levin for an Independent Commission Prompts Renewed Calls Within the CIA to Destroy Interrogation Videotapes",
+      "paragraphs": 2,
+      "ids": "723c197ef728"
+    },
+    {
+      "slug": "f-cia-director-goss-seeks-committee-support-for-the-program-after-the-detainee-t",
+      "title": "F. CIA Director Goss Seeks Committee Support for the Program After the Detainee Treatment Act; CIA Declines to Answer Questions for the Rccord",
+      "paragraphs": 6,
+      "ids": "88e06c8ab615"
+    },
+    {
+      "slug": "g-full-committee-first-briefed-on-the-cias-interrogation-program-hours-before-it",
+      "title": "G. Full Committee First Briefed on the CIA's Interrogation Program Hours Before It Is Publicly Acknowledged on September 6, 2006",
+      "paragraphs": 7,
+      "ids": "076bbe27ea25"
+    },
+    {
+      "slug": "h-the-cia-provides-additional-information-to-the-full-committee-and-staff-much-o",
+      "title": "H. The CIA Provides Additional Information to the Full Committee and Staff, Much of It Inaccurate; Intelligence Authorization Act Passes Limiting CIA Interrogations to Techniques Authorized by the Army Field Manual",
+      "paragraphs": 8,
+      "ids": "9a1ed08249b4"
+    },
+    {
+      "slug": "i-president-vetoes-legislation-based-on-effectiveness-claims-provided-by-the-cia",
+      "title": "I. President Vetoes Legislation Based on Effectiveness Claims Provided by the CIA; CIA Declines to Answer Committee Questions for the Record About the CIA Interrogation Program",
+      "paragraphs": 15,
+      "ids": "44717198055a"
+    },
+    {
+      "slug": "ix-appendix-2-cia-detainees-from-2002---2008",
+      "title": "IX. Appendix 2: CIA Detainees from 2002 - 2008",
+      "paragraphs": 68,
+      "ids": "9d4e16c8a298"
+    },
+    {
+      "slug": "x-appendix-3-example-of-inaccurate-cia-testimony-to-the-committee--april-122007",
+      "title": "X. Appendix 3: Example of Inaccurate CIA Testimony to the Committee- April 12,2007",
+      "paragraphs": 86,
+      "ids": "f8d81a7c04b7"
+    },
+    {
+      "slug": "additional-views-of-senator-rockefeller",
+      "title": "Additional Views of Senator Rockefeller",
+      "paragraphs": 22,
+      "ids": "8ece2f78d94d"
+    },
+    {
+      "slug": "additional-views-of-senator-wyden",
+      "title": "ADDITIONAL VIEWS OF SENATOR WYDEN",
+      "paragraphs": 12,
+      "ids": "1dae2be9f041"
+    },
+    {
+      "slug": "additional-views-of-sen-udall-of-colorado",
+      "title": "ADDITIONAL VIEWS OF SEN. UDALL OF COLORADO",
+      "paragraphs": 25,
+      "ids": "c70e813ebe0c"
+    },
+    {
+      "slug": "additional-views-of-senator-heinrich",
+      "title": "Additional Views of Senator Heinrich",
+      "paragraphs": 10,
+      "ids": "7e4183292b3e"
+    },
+    {
+      "slug": "additional-views-of-senator-king",
+      "title": "Additional Views of Senator King",
+      "paragraphs": 18,
+      "ids": "eeff96578001"
+    },
+    {
+      "slug": "additional-views-of-senator-collins",
+      "title": "Additional Views of Senator Collins",
+      "paragraphs": 25,
+      "ids": "4ec8a0455afd"
+    },
+    {
+      "slug": "minority-views-of-vice-chairman-chambliss-senators-burr-risch-coats-rubio-and-co",
+      "title": "MINORITY VIEWS OF VICE CHAIRMAN CHAMBLISS, SENATORS BURR, RISCH, COATS, RUBIO, AND COBURN*",
+      "paragraphs": 122,
+      "ids": "9034bc697180"
+    },
+    {
+      "slug": "cia-detainees-subjected-to-eits-validated-cia-sources",
+      "title": "CIA Detainees Subjected to EITs Validated CIA Sources",
+      "paragraphs": 387,
+      "ids": "cb30cc360843"
+    },
+    {
+      "slug": "access-to-documents",
+      "title": "Acce.ss to Documents",
+      "paragraphs": 224,
+      "ids": "c8fd4574f277"
+    },
+    {
+      "slug": "minority-views-by-senator-coburn-vice-chairman-saxby-chambliss-senators-burr-ris",
+      "title": "Minority Views by Senator Coburn, Vice Chairman Saxby Chambliss, Senators Burr, Risch, Coats and Rubio",
+      "paragraphs": 14,
+      "ids": "135ab138e3f8"
+    },
+    {
+      "slug": "minority-views-of-senators-risch-coats-and-rubio",
+      "title": "MINORITY VIEWS OF SENATORS RISCH, COATS, AND RUBIO",
+      "paragraphs": 8,
+      "ids": "ffacc665aa1f"
+    },
+    {
+      "slug": "notes-not-linked-in-the-text",
+      "title": "Notes not linked in the text",
+      "paragraphs": 0,
+      "ids": "e3b0c44298fc"
+    }
+  ]
+}

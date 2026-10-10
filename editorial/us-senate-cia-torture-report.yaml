@@ -1,0 +1,211 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      editor's highlights: seeded into the marks table, not printed here
+#
+# Written 2026-10-10 (reportsthatmatter-gqsy.6, stage 2 reportsthatmatter-6n9u) to the rule
+# in docs/report-introductions.md: our words neutral and attributed ("the Committee finds"),
+# every judgment in the report's own words and in quotation marks, the minority's dissent
+# recorded as the report prints it.
+#
+# The text is the OCR layer of a redacted scan: a redaction box is shown as "[Redacted]".
+# Quotations avoid paragraphs whose note markers the OCR left as bare digits, or stop before them.
+#
+# Facts taken from the report itself:
+#   the Committee's vote to begin the study, March 2009, 14 to 1 (minority views, p. 525; ES heading I.)
+#   more than six million pages of CIA records reviewed, early 2009 to late 2012 (Foreword)
+#   full study approved 13 December 2012, 9 to 6 (letter of transmittal); more than 6,700 pages, still classified (Foreword)
+#   updated summary sent for declassification 3 April 2014 (letter of transmittal, Foreword); ordered printed 9 December 2014 (title page)
+#   CIA's response of 27 June 2013 (minority views, p. 526; ES)
+#   Executive Order 13491, 22 January 2009, closing CIA detention and limiting interrogation to the Army Field Manual (ES, p. 171)
+#   119 detainees, 39 subjected to the techniques (Findings)
+# Sources for the background facts that are not in the report (checked 2026-10-10):
+#   McCain-Feinstein amendment to the FY2016 NDAA, Senate 78-21, signed into law 25 November 2015
+#     (Public Law 114-92, s. 1045; cvt.org McCain-Feinstein factsheet November 2015; humanrightsfirst.org FAQ)
+
+report: us-senate-cia-torture-report
+status: approved
+
+why_it_matters: >-
+  The Senate Intelligence Committee's study of the CIA's secret detention and
+  interrogation programme after 11 September 2001, published in December 2014
+  as a declassified, redacted summary of a still-classified 6,700-page report.
+  Drawn from more than six million pages of CIA records, it sets out what was
+  done to 119 detainees, what the CIA told others about it, and the
+  Committee's conclusions, with dissenting minority views.
+
+background: |
+  After the attacks of 11 September 2001, a covert action memorandum signed by
+  President George W. Bush on 17 September 2001 authorised the CIA to capture
+  and detain terrorist suspects. From 2002 the CIA held detainees in secret
+  sites abroad and, with legal opinions from the Justice Department's Office of
+  Legal Counsel, subjected some of them to what it called "enhanced
+  interrogation techniques", including waterboarding. President Obama closed
+  the CIA's detention facilities and limited interrogation to the Army Field
+  Manual by executive order on 22 January 2009.
+
+  The Senate Select Committee on Intelligence voted 14 to 1 in March 2009 to
+  study the programme. Committee staff reviewed CIA records rather than
+  interviewing witnesses, a choice the minority criticises. The Committee
+  approved the full study, of more than 6,700 pages, by 9 votes to 6 on 13
+  December 2012. After the CIA's response in June 2013, it sent an updated
+  executive summary and findings for declassification in April 2014, and this
+  redacted version was ordered printed on 9 December 2014, with a foreword by
+  the chairman, Senator Dianne Feinstein, and the additional and minority
+  views of other members. The full study remains classified.
+
+  The report is a congressional committee's study, not a court's judgment.
+  Its minority views, by Vice Chairman Saxby Chambliss and five other
+  Republican senators, dispute its method and many of its conclusions, and
+  the CIA contested a number of its findings. In November 2015 Congress
+  limited the interrogation of anyone held by the US government in an armed
+  conflict to the techniques of the Army Field Manual, in an amendment
+  sponsored by Senators John McCain and Feinstein.
+
+findings:
+  - text: The Committee concludes that the CIA's enhanced interrogation techniques were not an effective way of obtaining accurate intelligence or gaining detainees' cooperation.
+    cites: [1-cia-s-use-its, committee-finds-based-review-cia]
+    excerpt:
+      paragraph: committee-finds-based-review-cia
+      quote: >-
+        The Committee finds, based on a review of CIA interrogation records,
+        that the use of the CIA's enhanced interrogation techniques was not an
+        effective means of obtaining accurate information or gaining detainee
+        cooperation.
+
+  - text: It finds that the CIA's justification for the techniques rested on inaccurate claims of their effectiveness, and that the 20 most frequently cited examples of plots thwarted or terrorists captured were wrong in fundamental respects.
+    cites: [2-cia-s-justification-use, committee-reviewed-20-most-frequent]
+    excerpt:
+      paragraph: committee-reviewed-20-most-frequent
+      quote: >-
+        The Committee reviewed 20 of the most frequent and prominent examples
+        of purported counter-terrorism successes that the CIA has attributed to
+        the use of its enhanced interrogation techniques, and found them to be
+        wrong in fundamental respects.
+
+  - text: The Committee describes the interrogations as "brutal and far worse than the CIA represented to policymakers and others", setting out waterboarding, sleep deprivation of up to 180 hours, and the conditions in which detainees were held.
+    cites: [3-interrogations-cia-detainees-brutal, waterboarding-technique-physically-harmful-inducing, sleep-deprivation-involved-keeping-detainees]
+    excerpt:
+      paragraph: sleep-deprivation-involved-keeping-detainees
+      quote: >-
+        Sleep deprivation involved keeping detainees awake for up to 180 hours,
+        usually standing or in stress positions, at times with their hands
+        shackled above their heads.
+
+  - text: It finds that the CIA gave inaccurate information about the programme to the Justice Department, the White House and the Congress, which impeded their legal analysis and oversight.
+    cites: [5-cia-repeatedly-provided-inaccurate, cia-provided-extensive-amounts-inaccurate, prior-september-6-2006-cia]
+
+  - text: Of the 119 detainees the Committee identifies, it finds that at least 26 were held wrongfully, and that the CIA never kept an accurate count of whom it held.
+    cites: [119-known-detainees-least-26, cia-never-conducted-comprehensive-audit]
+
+  - text: It finds that two contract psychologists devised the techniques and helped run the programme, and that their company received $81 million before its contract ended in 2009.
+    cites: [cia-contracted-two-psychologists-develop, 2006-value-cia-s-base]
+
+  - text: The minority views reject the study's methodology and many of its conclusions, arguing among other things that the Committee should have interviewed the CIA officers involved and that it largely ignored the CIA's response.
+    cites: [we-begin-examination-procedural-irregularities]
+    excerpt:
+      paragraph: we-begin-examination-procedural-irregularities
+      quote: >-
+        First, the Committee's decision not to interview key witnesses led to
+        significant analytical and factual errors in the original and
+        subsequent updated versions of the Study.
+
+reading_guide:
+  - section: findings-and-conclusions
+    title: Findings and Conclusions
+    why: The Committee's 20 findings, each with a short summary of the evidence; the place to start.
+  - section: foreword
+    why: Senator Feinstein's account of why the study was undertaken and what she concludes from it.
+    excerpt:
+      paragraph: even-so-existing-u-s
+      quote: >-
+        While the Office of Legal Counsel found otherwise between 2002 and
+        2007, it is my personal conclusion that, under any common meaning of
+        the term, CIA detainees were tortured.
+  - section: b-the-detention-of-abu-zubaydah-and-the-development-and-authorization-of-the-cia
+    why: How the techniques were devised and first used, on the CIA's first detainee, Abu Zubaydah.
+  - section: c-the-origins-of-cia-representations-regarding-the-effectiveness-of-the-cias-enh
+    why: Where the CIA's claims that the techniques saved lives came from, before the summary tests them case by case.
+  - section: minority-views-of-vice-chairman-chambliss-senators-burr-risch-coats-rubio-and-co
+    title: Minority Views of Vice Chairman Chambliss and Senators Burr, Risch, Coats, Rubio and Coburn
+    why: The minority's critique of the study's process, method and conclusions.
+
+highlights:
+  # card: true only on numbered pages: a post's source line needs a printed page, and the front matter's are roman.
+  - paragraph: while-cia-has-represented-public
+    quote: >-
+      Internal CIA documents indicate that inadequate record keeping made it
+      impossible for the CIA to determine how many individuals it had detained.
+    card: true
+  - paragraph: aggressive-phase-interrogation-continued-until
+    quote: >-
+      The CIA interrogators told Abu Zubaydah that the only way he would leave
+      the facility was in the coffin-shaped confinement box.
+    card: true
+  - paragraph: times-abu-zubaydah-described-hysterical
+    quote: >-
+      In at least one waterboarding session, Abu Zubaydah "became completely
+      unresponsive, with bubbles rising through his open, full mouth."
+    card: true
+  - paragraph: committee-finds-based-review-cia
+    quote: >-
+      The Committee finds, based on a review of CIA interrogation records, that
+      the use of the CIA's enhanced interrogation techniques was not an
+      effective means of obtaining accurate information or gaining detainee
+      cooperation.
+  - paragraph: even-so-existing-u-s
+    quote: >-
+      While the Office of Legal Counsel found otherwise between 2002 and 2007,
+      it is my personal conclusion that, under any common meaning of the term,
+      CIA detainees were tortured.
+  - paragraph: waterboarding-technique-physically-harmful-inducing
+    quote: The waterboarding technique was physically harmful, inducing convulsions and vomiting.
+  - paragraph: sleep-deprivation-involved-keeping-detainees
+    quote: >-
+      Sleep deprivation involved keeping detainees awake for up to 180 hours,
+      usually standing or in stress positions, at times with their hands
+      shackled above their heads.
+  - paragraph: cia-did-not-review-its
+    quote: >-
+      The CIA did not review its past experience with coercive interrogations,
+      or its previous statement to Congress that "inhumane physical or
+      psychological techniques are counterproductive because they do not
+      produce intelligence and will probably result in false answers."
+  - paragraph: 119-known-detainees-least-26
+    quote: >-
+      Of the 119 known detainees, at least 26 were wrongfully held and did not
+      meet the detention standard in the September 2001 Memorandum of
+      Notification (MON).
+  - paragraph: cia-contracted-two-psychologists-develop
+    quote: >-
+      Neither psychologist had any experience as an interrogator, nor did either
+      have specialized knowledge of al-Qa'ida, a background in counterterrorism,
+      or any relevant cultural or linguistic expertise.
+  - paragraph: 2006-value-cia-s-base
+    quote: >-
+      In 2006, the value of the CIA's base contract with the company formed by
+      the psychologists with all options exercised was in excess of $180
+      million; the contractors received $81 million prior to the contract's
+      termination in 2009.
+  - paragraph: more-broadly-program-caused-immeasurable
+    quote: >-
+      More broadly, the program caused immeasurable damage to the United States'
+      public standing, as well as to the United States' longstanding global
+      leadership on human rights in general and the prevention of torture in
+      particular.
+  - paragraph: cia-provided-extensive-amounts-inaccurate
+    quote: >-
+      The CIA provided extensive amounts of inaccurate and incomplete
+      information related to the operation and effectiveness of the CIA's
+      Detention and Interrogation Program to the White House, the National
+      Security Council principals, and their staffs.
+  - paragraph: we-begin-examination-procedural-irregularities
+    quote: >-
+      First, the Committee's decision not to interview key witnesses led to
+      significant analytical and factual errors in the original and subsequent
+      updated versions of the Study.

@@ -4021,6 +4021,199 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 15%"
     }
   },
+  "us-senate-cia-torture-report": {
+    "status": "approved",
+    "whyItMatters": "The Senate Intelligence Committee's study of the CIA's secret detention and interrogation programme after 11 September 2001, published in December 2014 as a declassified, redacted summary of a still-classified 6,700-page report. Drawn from more than six million pages of CIA records, it sets out what was done to 119 detainees, what the CIA told others about it, and the Committee's conclusions, with dissenting minority views.",
+    "background": [
+      "After the attacks of 11 September 2001, a covert action memorandum signed by President George W. Bush on 17 September 2001 authorised the CIA to capture and detain terrorist suspects. From 2002 the CIA held detainees in secret sites abroad and, with legal opinions from the Justice Department's Office of Legal Counsel, subjected some of them to what it called \"enhanced interrogation techniques\", including waterboarding. President Obama closed the CIA's detention facilities and limited interrogation to the Army Field Manual by executive order on 22 January 2009.",
+      "The Senate Select Committee on Intelligence voted 14 to 1 in March 2009 to study the programme. Committee staff reviewed CIA records rather than interviewing witnesses, a choice the minority criticises. The Committee approved the full study, of more than 6,700 pages, by 9 votes to 6 on 13 December 2012. After the CIA's response in June 2013, it sent an updated executive summary and findings for declassification in April 2014, and this redacted version was ordered printed on 9 December 2014, with a foreword by the chairman, Senator Dianne Feinstein, and the additional and minority views of other members. The full study remains classified.",
+      "The report is a congressional committee's study, not a court's judgment. Its minority views, by Vice Chairman Saxby Chambliss and five other Republican senators, dispute its method and many of its conclusions, and the CIA contested a number of its findings. In November 2015 Congress limited the interrogation of anyone held by the US government in an armed conflict to the techniques of the Army Field Manual, in an amendment sponsored by Senators John McCain and Feinstein."
+    ],
+    "findings": [
+      {
+        "text": "The Committee concludes that the CIA's enhanced interrogation techniques were not an effective way of obtaining accurate intelligence or gaining detainees' cooperation.",
+        "cites": [
+          {
+            "id": "1-cia-s-use-its",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=1-cia-s-use-its"
+          },
+          {
+            "id": "committee-finds-based-review-cia",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=committee-finds-based-review-cia"
+          }
+        ],
+        "excerpt": {
+          "quote": "The Committee finds, based on a review of CIA interrogation records, that the use of the CIA's enhanced interrogation techniques was not an effective means of obtaining accurate information or gaining detainee cooperation.",
+          "cite": {
+            "id": "committee-finds-based-review-cia",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=committee-finds-based-review-cia&h=|The%20Committee%20finds%2C%20based%20on%20a%20review%20of%20CIA%20interrogation%20records%2C%20that%20the%20use%20of%20the%20CIA's%20enhanced%20interrogation%20techniques%20was%20not%20an%20effective%20means%20of%20obtaining%20accurate%20information%20or%20gaining%20detainee%20cooperation.|"
+          }
+        }
+      },
+      {
+        "text": "It finds that the CIA's justification for the techniques rested on inaccurate claims of their effectiveness, and that the 20 most frequently cited examples of plots thwarted or terrorists captured were wrong in fundamental respects.",
+        "cites": [
+          {
+            "id": "2-cia-s-justification-use",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=2-cia-s-justification-use"
+          },
+          {
+            "id": "committee-reviewed-20-most-frequent",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=committee-reviewed-20-most-frequent"
+          }
+        ],
+        "excerpt": {
+          "quote": "The Committee reviewed 20 of the most frequent and prominent examples of purported counter-terrorism successes that the CIA has attributed to the use of its enhanced interrogation techniques, and found them to be wrong in fundamental respects.",
+          "cite": {
+            "id": "committee-reviewed-20-most-frequent",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=committee-reviewed-20-most-frequent&h=|The%20Committee%20reviewed%2020%20of%20the%20most%20frequent%20and%20prominent%20examples%20of%20purported%20counter-terrorism%20successes%20that%20the%20CIA%20has%20attributed%20to%20the%20use%20of%20its%20enhanced%20interrogation%20techniques%2C%20and%20found%20them%20to%20be%20wrong%20in%20fundamental%20respects.|%20In%20some%20cases%2C%20there%20was"
+          }
+        }
+      },
+      {
+        "text": "The Committee describes the interrogations as \"brutal and far worse than the CIA represented to policymakers and others\", setting out waterboarding, sleep deprivation of up to 180 hours, and the conditions in which detainees were held.",
+        "cites": [
+          {
+            "id": "3-interrogations-cia-detainees-brutal",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=3-interrogations-cia-detainees-brutal"
+          },
+          {
+            "id": "waterboarding-technique-physically-harmful-inducing",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=waterboarding-technique-physically-harmful-inducing"
+          },
+          {
+            "id": "sleep-deprivation-involved-keeping-detainees",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=sleep-deprivation-involved-keeping-detainees"
+          }
+        ],
+        "excerpt": {
+          "quote": "Sleep deprivation involved keeping detainees awake for up to 180 hours, usually standing or in stress positions, at times with their hands shackled above their heads.",
+          "cite": {
+            "id": "sleep-deprivation-involved-keeping-detainees",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=sleep-deprivation-involved-keeping-detainees&h=|Sleep%20deprivation%20involved%20keeping%20detainees%20awake%20for%20up%20to%20180%20hours%2C%20usually%20standing%20or%20in%20stress%20positions%2C%20at%20times%20with%20their%20hands%20shackled%20above%20their%20heads.|%20At%20least%20five%20detainees"
+          }
+        }
+      },
+      {
+        "text": "It finds that the CIA gave inaccurate information about the programme to the Justice Department, the White House and the Congress, which impeded their legal analysis and oversight.",
+        "cites": [
+          {
+            "id": "5-cia-repeatedly-provided-inaccurate",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=5-cia-repeatedly-provided-inaccurate"
+          },
+          {
+            "id": "cia-provided-extensive-amounts-inaccurate",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=cia-provided-extensive-amounts-inaccurate"
+          },
+          {
+            "id": "prior-september-6-2006-cia",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=prior-september-6-2006-cia"
+          }
+        ]
+      },
+      {
+        "text": "Of the 119 detainees the Committee identifies, it finds that at least 26 were held wrongfully, and that the CIA never kept an accurate count of whom it held.",
+        "cites": [
+          {
+            "id": "119-known-detainees-least-26",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=119-known-detainees-least-26"
+          },
+          {
+            "id": "cia-never-conducted-comprehensive-audit",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=cia-never-conducted-comprehensive-audit"
+          }
+        ]
+      },
+      {
+        "text": "It finds that two contract psychologists devised the techniques and helped run the programme, and that their company received $81 million before its contract ended in 2009.",
+        "cites": [
+          {
+            "id": "cia-contracted-two-psychologists-develop",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=cia-contracted-two-psychologists-develop"
+          },
+          {
+            "id": "2006-value-cia-s-base",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=2006-value-cia-s-base"
+          }
+        ]
+      },
+      {
+        "text": "The minority views reject the study's methodology and many of its conclusions, arguing among other things that the Committee should have interviewed the CIA officers involved and that it largely ignored the CIA's response.",
+        "cites": [
+          {
+            "id": "we-begin-examination-procedural-irregularities",
+            "page": 526,
+            "href": "/reports/us-senate-cia-torture-report?p=we-begin-examination-procedural-irregularities"
+          }
+        ],
+        "excerpt": {
+          "quote": "First, the Committee's decision not to interview key witnesses led to significant analytical and factual errors in the original and subsequent updated versions of the Study.",
+          "cite": {
+            "id": "we-begin-examination-procedural-irregularities",
+            "page": 526,
+            "href": "/reports/us-senate-cia-torture-report?p=we-begin-examination-procedural-irregularities&h=problematic%20claims%20and%20conclusions.%20|First%2C%20the%20Committee's%20decision%20not%20to%20interview%20key%20witnesses%20led%20to%20significant%20analytical%20and%20factual%20errors%20in%20the%20original%20and%20subsequent%20updated%20versions%20of%20the%20Study.|%20Second%2C%20over%20the"
+          }
+        }
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "findings-and-conclusions",
+        "title": "Findings and Conclusions",
+        "page": "1",
+        "why": "The Committee's 20 findings, each with a short summary of the evidence; the place to start."
+      },
+      {
+        "slug": "foreword",
+        "title": "Foreword",
+        "page": null,
+        "why": "Senator Feinstein's account of why the study was undertaken and what she concludes from it.",
+        "excerpt": {
+          "quote": "While the Office of Legal Counsel found otherwise between 2002 and 2007, it is my personal conclusion that, under any common meaning of the term, CIA detainees were tortured.",
+          "cite": {
+            "id": "even-so-existing-u-s",
+            "page": null,
+            "href": "/reports/us-senate-cia-torture-report?p=even-so-existing-u-s&h=made%20during%20this%20program.%20|While%20the%20Office%20of%20Legal%20Counsel%20found%20otherwise%20between%202002%20and%202007%2C%20it%20is%20my%20personal%20conclusion%20that%2C%20under%20any%20common%20meaning%20of%20the%20term%2C%20CIA%20detainees%20were%20tortured.|%20I%20also%20believe%20that%20the"
+          }
+        }
+      },
+      {
+        "slug": "b-the-detention-of-abu-zubaydah-and-the-development-and-authorization-of-the-cia",
+        "title": "B. The Detention of Abu Zubaydah and the Development and Authorization of the CIA's Enhanced Interrogation Techniques",
+        "page": "18",
+        "why": "How the techniques were devised and first used, on the CIA's first detainee, Abu Zubaydah."
+      },
+      {
+        "slug": "c-the-origins-of-cia-representations-regarding-the-effectiveness-of-the-cias-enh",
+        "title": "C. The Origins of CIA Representations Regarding the Effectiveness of the CIA's Enhanced Interrogation Techniques As Having \"Saved Lives,\" \"Thwarted Plots,\" and \"Captured Terrorists\"",
+        "page": "180",
+        "why": "Where the CIA's claims that the techniques saved lives came from, before the summary tests them case by case."
+      },
+      {
+        "slug": "minority-views-of-vice-chairman-chambliss-senators-burr-risch-coats-rubio-and-co",
+        "title": "Minority Views of Vice Chairman Chambliss and Senators Burr, Risch, Coats, Rubio and Coburn",
+        "page": "521",
+        "why": "The minority's critique of the study's process, method and conclusions."
+      }
+    ]
+  },
   "us-v-philip-morris": {
     "status": "approved",
     "whyItMatters": "Judge Gladys Kessler's 2006 ruling that America's largest cigarette companies had deceived the public about smoking for some fifty years, in violation of the federal racketeering law. It is not an inquiry's view but a court's judgment, upheld on appeal. Built from a nine-month trial and the companies' own internal documents, it sets out what the industry knew about disease, addiction and \"light\" cigarettes, and what it said in public instead.",

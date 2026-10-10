@@ -66,6 +66,10 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
     "width": 660,
     "height": 660
   },
+  "us-senate-cia-torture-report": {
+    "width": 660,
+    "height": 418
+  },
   "us-v-philip-morris": {
     "width": 660,
     "height": 367
