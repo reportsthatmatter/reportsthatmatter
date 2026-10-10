@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 62247,
-      "paragraphs": 418,
+      "words": 62057,
+      "paragraphs": 416,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -169,14 +169,14 @@
         {
           "slug": "preparation-and-release-of-a-report-would-violate-existing-law",
           "title": "Preparation And Release Of A Report Would Violate Existing Law",
-          "paragraphs": 15,
-          "ids": "cb70a5b05ad8"
+          "paragraphs": 14,
+          "ids": "269c04cef0c5"
         },
         {
           "slug": "smiths-report-violates-the-presumption-of-innocence",
           "title": "Smith's Report Violates The Presumption of Innocence",
-          "paragraphs": 10,
-          "ids": "0b7992f1f735"
+          "paragraphs": 9,
+          "ids": "7040b6486913"
         },
         {
           "slug": "preparation-and-release-of-a-report-would-serve-no-valid-purpose",
@@ -2066,7 +2066,7 @@
           "slug": "al-qaeda-aims-at-the-american-homeland",
           "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND",
           "paragraphs": 36,
-          "ids": "7dfd4ada5f19"
+          "ids": "4663b6228296"
         },
         {
           "slug": "52-the-planes-operation",
@@ -2096,7 +2096,7 @@
           "slug": "61-the-millennium-crisis",
           "title": "6.1 The Millennium Crisis",
           "paragraphs": 39,
-          "ids": "38b93b3f9df8"
+          "ids": "8c8de725d75e"
         },
         {
           "slug": "62-post-crisis-reflection-agenda-for-2000",
@@ -2132,7 +2132,7 @@
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
           "paragraphs": 43,
-          "ids": "21bbfd344ee5"
+          "ids": "ac8b2559817d"
         },
         {
           "slug": "73-assembling-the-teams",
@@ -2150,7 +2150,7 @@
           "slug": "the-system-was-blinking-red",
           "title": "\"THE SYSTEM WAS BLINKING RED\"",
           "paragraphs": 65,
-          "ids": "979fa7699906"
+          "ids": "06ea5bc96962"
         },
         {
           "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
@@ -3571,8 +3571,8 @@
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 61870,
-      "paragraphs": 950,
+      "words": 61869,
+      "paragraphs": 949,
       "sections": [
         {
           "slug": "front-matter",
@@ -3775,8 +3775,8 @@
         {
           "slug": "force-level-review",
           "title": "FORCE LEVEL REVIEW",
-          "paragraphs": 11,
-          "ids": "6de77b79acd2"
+          "paragraphs": 10,
+          "ids": "cc4a13d4ada7"
         },
         {
           "slug": "the-beginning-of-the-end",
@@ -3919,8 +3919,8 @@
       ]
     },
     "uk-post-office-horizon-inquiry": {
-      "words": 83638,
-      "paragraphs": 948,
+      "words": 83632,
+      "paragraphs": 942,
       "sections": [
         {
           "slug": "introduction",
@@ -3943,14 +3943,14 @@
         {
           "slug": "b-categories-of-persons-affected",
           "title": "b. Categories of persons affected",
-          "paragraphs": 43,
-          "ids": "3c16da00e00e"
+          "paragraphs": 42,
+          "ids": "a17f84303556"
         },
         {
           "slug": "c-case-illustrations",
           "title": "c. Case Illustrations",
-          "paragraphs": 181,
-          "ids": "198d567f694a"
+          "paragraphs": 180,
+          "ids": "487da53b83f7"
         },
         {
           "slug": "financial-and-other-redress",
@@ -3997,8 +3997,8 @@
         {
           "slug": "submissions-on-behalf-of-core-participants-and-others",
           "title": "SUBMISSIONS ON BEHALF OF CORE PARTICIPANTS AND OTHERS",
-          "paragraphs": 14,
-          "ids": "7003743bd266"
+          "paragraphs": 13,
+          "ids": "7f6d234aac85"
         },
         {
           "slug": "conclusions-and-recommendations-relating-to-redress",
@@ -4021,20 +4021,20 @@
         {
           "slug": "c-has-financial-redress-been-delivered-promptly",
           "title": "c. Has financial redress been delivered promptly?",
-          "paragraphs": 87,
-          "ids": "c8ea6871b2dc"
+          "paragraphs": 85,
+          "ids": "b522b482cb93"
         },
         {
           "slug": "d-other-issues-and-recommendations",
           "title": "d. Other Issues and Recommendations",
-          "paragraphs": 34,
-          "ids": "5bf41314c6ff"
+          "paragraphs": 33,
+          "ids": "5b3dbbe4be20"
         }
       ]
     },
     "us-jan6-committee": {
-      "words": 370108,
-      "paragraphs": 2283,
+      "words": 370120,
+      "paragraphs": 2295,
       "sections": [
         {
           "slug": "select-committee-to-investigate-the-january-6th-attack-on-the-united-states-capi",
@@ -4069,8 +4069,8 @@
         {
           "slug": "executive-summary-overview-of-the-evidence-developed",
           "title": "Executive Summary: Overview of the Evidence Developed",
-          "paragraphs": 327,
-          "ids": "292a1fc1e773"
+          "paragraphs": 328,
+          "ids": "4e23799766e3"
         },
         {
           "slug": "referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi",
@@ -4214,13 +4214,13 @@
           "slug": "32-president-trump-and-the-campaign-adopt-the-fake-elector-scheme",
           "title": "3.2 President Trump and the Campaign Adopt the Fake Elector Scheme",
           "paragraphs": 5,
-          "ids": "a19646c4b25c"
+          "ids": "762692367b8d"
         },
         {
           "slug": "33-the-campaign-legal-team-bows-out-and-giuliani-steps-in",
           "title": "3.3 The Campaign Legal Team Bows Out, and Giuliani Steps In",
-          "paragraphs": 13,
-          "ids": "df562ae41d56"
+          "paragraphs": 14,
+          "ids": "cdf56b5c011f"
         },
         {
           "slug": "34-some-of-the-proposed-fake-electors-express-concerns-about-the-plan",
@@ -4237,8 +4237,8 @@
         {
           "slug": "36-the-fallout-from-the-fake-elector-plan",
           "title": "3.6 The Fallout from the Fake Elector Plan",
-          "paragraphs": 17,
-          "ids": "86c72fa3da56"
+          "paragraphs": 18,
+          "ids": "aa03ee1b4068"
         },
         {
           "slug": "chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me",
@@ -4250,7 +4250,7 @@
           "slug": "42-november-23-2020-barr-challenges-president-trumps-election-lies",
           "title": "4.2 November 23, 2020: Barr Challenges President Trump’s Election Lies",
           "paragraphs": 8,
-          "ids": "818de93d3be4"
+          "ids": "911211221753"
         },
         {
           "slug": "43-december-1-2020-president-trump-is-irate-after-barr-says-there-is-no-signific",
@@ -4268,25 +4268,25 @@
           "slug": "45-acting-attorney-general-jeffrey-rosen-and-acting-deputy-attorney-general-rich",
           "title": "4.5 Acting Attorney General Jeffrey Rosen and Acting Deputy Attorney General Richard Donoghue Hold the Line",
           "paragraphs": 6,
-          "ids": "2567f978ef9a"
+          "ids": "50f4edfd56fd"
         },
         {
           "slug": "46-president-trump-is-introduced-to-jeffrey-clark",
           "title": "4.6 President Trump is Introduced to Jeffrey Clark",
-          "paragraphs": 6,
-          "ids": "456e0c4da579"
+          "paragraphs": 7,
+          "ids": "f7959857e0de"
         },
         {
           "slug": "47-december-27th-phone-call",
           "title": "4.7 December 27th Phone Call",
-          "paragraphs": 19,
-          "ids": "373a86fadf3e"
+          "paragraphs": 18,
+          "ids": "7eaa048a42bb"
         },
         {
           "slug": "48-congressman-scott-perry-calls-donoghue",
           "title": "4.8 Congressman Scott Perry Calls Donoghue",
-          "paragraphs": 5,
-          "ids": "9e4b88d1d54c"
+          "paragraphs": 6,
+          "ids": "aa28213e8e80"
         },
         {
           "slug": "49-december-28-2020-the-clark-letter",
@@ -4298,7 +4298,7 @@
           "slug": "410-december-29th-meeting",
           "title": "4.10 December 29th Meeting",
           "paragraphs": 6,
-          "ids": "06cf2b981771"
+          "ids": "4f9406f49ce6"
         },
         {
           "slug": "412-december-31st-meeting",
@@ -4327,20 +4327,20 @@
         {
           "slug": "51-president-trump-and-his-allies-embark-on-a-desperate-gambit-to-block-certific",
           "title": "5.1 President Trump and His Allies Embark on a Desperate Gambit to Block Certification of the 2020 Presidential Election.",
-          "paragraphs": 37,
-          "ids": "217be48a8bd6"
+          "paragraphs": 38,
+          "ids": "91965a9384ba"
         },
         {
           "slug": "52-president-trump-and-his-allies-exert-intense-public-and-private-pressure-on-t",
           "title": "5.2 President Trump and his Allies Exert Intense Public and Private Pressure on the Vice President in Advance of the Joint Session of Congress on January 6th",
           "paragraphs": 67,
-          "ids": "bb3b18594209"
+          "ids": "dc635018d5b7"
         },
         {
           "slug": "53-president-trump-and-his-allies-continue-to-pressure-the-vice-president-on-jan",
           "title": "5.3 President Trump and his Allies Continue to Pressure the Vice President on January 6th, Threatening His Life and Our Democracy.",
           "paragraphs": 44,
-          "ids": "a2deb376314c"
+          "ids": "6d3f363e76bf"
         },
         {
           "slug": "54-president-trump-endangers-pences-life-causing-the-vice-president-his-family-a",
@@ -4351,20 +4351,20 @@
         {
           "slug": "chapter-6-be-there-will-be-wild",
           "title": "Chapter 6. “BE THERE, WILL BE WILD!”",
-          "paragraphs": 16,
-          "ids": "d838ef6914d4"
+          "paragraphs": 17,
+          "ids": "490809a5cae6"
         },
         {
           "slug": "61-how-far-right-extremists-and-conspiracy-theorists-planned-for-january-6th",
           "title": "6.1 How Far-right Extremists and Conspiracy Theorists Planned for January 6th",
           "paragraphs": 19,
-          "ids": "f0c669b403db"
+          "ids": "e50af1a57b1f"
         },
         {
           "slug": "62-the-proud-boys-you-want-to-storm-the-capitol",
           "title": "6.2 The Proud Boys: “[Y]ou Want to Storm the Capitol”",
           "paragraphs": 26,
-          "ids": "3d2d6ca11a5d"
+          "ids": "9b41543270c7"
         },
         {
           "slug": "63-the-oath-keepers-he-called-us-all-to-the-capitol-and-wants-us-to-make-it-wild",
@@ -4411,8 +4411,8 @@
         {
           "slug": "610-thedonaldwin-occupy-the-capitol",
           "title": "6.10 TheDonald.win: “Occupy the Capitol”",
-          "paragraphs": 11,
-          "ids": "c2abb0a55202"
+          "paragraphs": 12,
+          "ids": "314d5c446063"
         },
         {
           "slug": "611-how-the-white-house-and-rally-organizers-prepared-for-january-6th",
@@ -4442,7 +4442,7 @@
           "slug": "615-potuslikes-the-crazies",
           "title": "6.15 “POTUS…Likes the Crazies.”",
           "paragraphs": 9,
-          "ids": "72bcb473c782"
+          "ids": "b9335e732171"
         },
         {
           "slug": "616-january-5-2021-fort-trump",
@@ -4453,20 +4453,20 @@
         {
           "slug": "617-together-we-will-stop-the-steal",
           "title": "6.17 “Together, We Will STOP THE STEAL.”",
-          "paragraphs": 11,
-          "ids": "fd7c41aebb3d"
+          "paragraphs": 12,
+          "ids": "714ef8bde594"
         },
         {
           "slug": "chapter-7-187-minutes-of-dereliction",
           "title": "Chapter 7. 187 MINUTES OF DERELICTION",
-          "paragraphs": 17,
-          "ids": "157606a3927f"
+          "paragraphs": 18,
+          "ids": "f5ab09f89ca6"
         },
         {
           "slug": "71-reinsert-the-mike-pence-lines",
           "title": "7.1 “Reinsert the Mike Pence Lines”",
           "paragraphs": 14,
-          "ids": "0efcbe801e9e"
+          "ids": "663e1376d0fc"
         },
         {
           "slug": "72-ill-be-there-with-you",
@@ -4477,8 +4477,8 @@
         {
           "slug": "73-the-presidents-anger-when-he-could-not-march-to-the-capitol",
           "title": "7.3 The President’s Anger When He Could Not March to the Capitol",
-          "paragraphs": 18,
-          "ids": "8f4c1a931fa7"
+          "paragraphs": 19,
+          "ids": "9b6a1e703f65"
         },
         {
           "slug": "74-were-going-to-try-to-get-the-president-to-put-out-a-statement",
@@ -4508,7 +4508,7 @@
           "slug": "78-stay-peaceful",
           "title": "7.8 “Stay Peaceful!”",
           "paragraphs": 14,
-          "ids": "17f80f2b4fb0"
+          "ids": "6c88c5be36ec"
         },
         {
           "slug": "79-the-president-needs-to-stop-this-asap",
@@ -4520,7 +4520,7 @@
           "slug": "710-we-love-you-youre-very-special",
           "title": "7.10 “We Love You. You’re Very Special”",
           "paragraphs": 23,
-          "ids": "f01e3fd5124c"
+          "ids": "db258929c7c8"
         },
         {
           "slug": "712-president-trump-still-sought-to-delay-the-joint-session",
@@ -4567,8 +4567,8 @@
         {
           "slug": "84-president-trumps-mob-descends-on-the-us-capitol",
           "title": "8.4 President Trump’s Mob Descends on the U.S. Capitol",
-          "paragraphs": 13,
-          "ids": "d3d768b9faf0"
+          "paragraphs": 14,
+          "ids": "53943c23fe8a"
         },
         {
           "slug": "85-the-mob-surges",
@@ -4580,13 +4580,13 @@
           "slug": "86-the-united-states-capitol-is-breached",
           "title": "8.6 The United States Capitol is Breached",
           "paragraphs": 28,
-          "ids": "91d46c6b55fb"
+          "ids": "1c739789008f"
         },
         {
           "slug": "87-president-trump-pours-fuel-on-the-fire",
           "title": "8.7 President Trump Pours Fuel on the Fire",
-          "paragraphs": 18,
-          "ids": "35aa0f42b2f5"
+          "paragraphs": 19,
+          "ids": "93bfe344f7c5"
         },
         {
           "slug": "88-the-evacuation",
@@ -4609,14 +4609,8 @@
         {
           "slug": "appendix-1-government-agency-preparation-for-and-response-to-january-6th",
           "title": "APPENDIX 1: GOVERNMENT AGENCY PREPARATION FOR AND RESPONSE TO JANUARY 6TH",
-          "paragraphs": 5,
-          "ids": "703f745f56c0"
-        },
-        {
-          "slug": "discussion",
-          "title": "Discussion",
-          "paragraphs": 71,
-          "ids": "69799e4474fc"
+          "paragraphs": 76,
+          "ids": "db74588ae561"
         },
         {
           "slug": "appendix-2-dc-national-guard-preparation-for-and-response-to-january-6th",
@@ -4627,32 +4621,8 @@
         {
           "slug": "appendix-3-the-big-rip-off-follow-the-money",
           "title": "APPENDIX 3: THE BIG RIP-OFF: FOLLOW THE MONEY",
-          "paragraphs": 38,
-          "ids": "e12a19c10f66"
-        },
-        {
-          "slug": "2020-election-the-role-of-election-fraud-messaging",
-          "title": "2020 ELECTION: THE ROLE OF ELECTION FRAUD MESSAGING",
-          "paragraphs": 8,
-          "ids": "96dfa9b2c0b6"
-        },
-        {
-          "slug": "alarms-raised-about-tmagac-fundraising-content",
-          "title": "ALARMS RAISED ABOUT TMAGAC FUNDRAISING CONTENT",
-          "paragraphs": 28,
-          "ids": "d9bb6cbfb1a1"
-        },
-        {
-          "slug": "where-did-the-money-go",
-          "title": "WHERE DID THE MONEY GO?",
-          "paragraphs": 20,
-          "ids": "903fdae90650"
-        },
-        {
-          "slug": "impact-of-the-trump-campaigns-false-claims",
-          "title": "IMPACT OF THE TRUMP CAMPAIGN’S FALSE CLAIMS",
-          "paragraphs": 9,
-          "ids": "69dee8f57c7d"
+          "paragraphs": 103,
+          "ids": "4a4d277b8674"
         },
         {
           "slug": "appendix-4-malign-foreign-influence",
@@ -4663,8 +4633,8 @@
       ]
     },
     "uk-grenfell-tower-inquiry": {
-      "words": 116809,
-      "paragraphs": 843,
+      "words": 116807,
+      "paragraphs": 841,
       "sections": [
         {
           "slug": "phase-2-report",
@@ -4693,8 +4663,8 @@
         {
           "slug": "chapter-5-fire-testing",
           "title": "Chapter 5: Fire testing",
-          "paragraphs": 68,
-          "ids": "db7df317817e"
+          "paragraphs": 67,
+          "ids": "d2f874f7c7b7"
         },
         {
           "slug": "chapter-6-regulations-and-guidance-relating-to-external-walls",
@@ -4705,8 +4675,8 @@
         {
           "slug": "chapter-7-the-government-and-the-building-research-establishment",
           "title": "Chapter 7: The government and the Building Research Establishment",
-          "paragraphs": 149,
-          "ids": "89885d3426a4"
+          "paragraphs": 148,
+          "ids": "38684b2036e1"
         },
         {
           "slug": "chapter-8-the-investigation-of-real-fires-project",

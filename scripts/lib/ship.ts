@@ -209,12 +209,16 @@ export type D1Verdict = { ok: boolean; headroom: number | null; needed: number; 
  */
 export function d1Fits(writes: number, today: Today | number | null, limit: number, reads = 0, readLimit: number = FREE_TIER.rowsRead): D1Verdict {
   // A bare number is today's writes (the older call shape); reads then unknown.
-  const t: Today = typeof today === "object" && today !== null ? today : today === null ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown (set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, or log wrangler in)" } : { used: { rowsRead: 0, rowsWritten: today }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead: 0, rowsWritten: today }, source: "given" };
+  const t: Today = typeof today === "object" && today !== null ? today : today === null ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown (no analytics credentials; wrangler is not logged in)" } : { used: { rowsRead: 0, rowsWritten: today }, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: { rowsRead: 0, rowsWritten: today }, source: "given" };
   const reserve: Usage = typeof today === "number" ? { rowsRead: 0, rowsWritten: 0 } : { rowsRead: 500_000, rowsWritten: 0 };
   const v = fits({ rowsRead: reads, rowsWritten: writes }, t, { rowsRead: readLimit, rowsWritten: limit }, reserve);
   const lines = [`estimated for the rest of the release: ${writes.toLocaleString("en-US")} row writes, ${reads.toLocaleString("en-US")} rows read (+10% margin)`, ...v.lines];
-  if (!t.used) lines.push("today's usage is unknown: writes or reads by a peer's publish, or by the Worker, are not counted");
-  return { ok: v.ok, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
+  // Unknown usage refuses, never guesses (t4al, r52n): "the need fits the whole day" is not "it fits what is left".
+  if (!t.used) lines.push("today's usage is unknown, so the estimate cannot be checked against what is left and the release stops here (t4al). Run `pnpm d1-usage` (uses wrangler's login: `pnpm wrangler login`, or CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID), then `pnpm ship` resumes at this step.");
+  // This machine's ledger alone is unknown too: it cannot see the Worker's search and marks reads, which spent the day on
+  // 2026-10-03, and any earlier remote call today (a marks check, a dry run) puts entries in it (reviewer fixup, #299).
+  else if (!t.analytics) lines.push("today's usage is only this machine's ledger: Cloudflare analytics is unreachable, so the Worker's reads and other machines' are not counted, and the release stops here (t4al). Log wrangler in (`pnpm wrangler login`) or set CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID, check with `pnpm d1-usage`, then `pnpm ship` resumes at this step.");
+  return { ok: t.used && t.analytics ? v.ok : false, headroom: v.headroom?.rowsWritten ?? null, needed: v.needed.rowsWritten, lines, readHeadroom: v.headroom?.rowsRead ?? null, readsNeeded: v.needed.rowsRead };
 }
 
 /**
@@ -342,7 +346,7 @@ export function buildSteps(): Step[] {
       kind: "write",
       describe: (ctx, _s, probe) => {
         const rows = pinTable(ctx, probe.pinOf);
-        const lines = rows.map((r) => (r.action === "bump" ? `${r.dir}/package.json: "@rtm/ingest" ${r.pinned} -> "${ctx.spec}", then CI=true pnpm -C ${r.dir} install` : `${r.dir}: ${r.action === "ok" ? "already at the site's pin, untouched" : r.action === "ahead" ? "AHEAD of the site's pin: the guard stops" : "no pin: the guard stops"}`));
+        const lines = rows.map((r) => (r.action === "bump" ? `${r.dir}/package.json: "@rtm/ingest" ${r.pinned} -> "${ctx.spec}", then CI=true pnpm -C ${r.dir} install --no-frozen-lockfile` : `${r.dir}: ${r.action === "ok" ? "already at the site's pin, untouched" : r.action === "ahead" ? "AHEAD of the site's pin: the guard stops" : "no pin: the guard stops"}`));
         return lines;
       },
       async run(rt) {
@@ -353,7 +357,7 @@ export function buildSteps(): Step[] {
           if (row.action === "bump") {
             probe.writePin(row.dir, ctx.spec);
             rt.out(`  ✓ ${row.dir}: ${row.pinned} → ${ctx.spec}`);
-            await item(rt, "pin-bump", `install ${row.dir.split("/").pop()}`, { argv: ["pnpm", "-C", row.dir, "install"], env: { CI: "true" } }, [`pnpm -C ${row.dir} install  (the lockfile and node_modules must follow the pin)`]);
+            await item(rt, "pin-bump", `install ${row.dir.split("/").pop()}`, { argv: ["pnpm", "-C", row.dir, "install", "--no-frozen-lockfile"], env: { CI: "true" } }, [`pnpm -C ${row.dir} install --no-frozen-lockfile  (the lockfile and node_modules must follow the pin; a frozen install refuses a pin change, jsk3)`]);
           } else rt.out(`  = ${row.dir}: already ${ctx.spec}`);
           mark(rt, "pin-bump", key);
         }

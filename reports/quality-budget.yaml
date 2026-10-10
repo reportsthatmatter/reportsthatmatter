@@ -88,7 +88,7 @@ reports:
     quote-share-parity: 4  # why: reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
   jack-smith-vol1:
     severed-into-quote: 2
-    severed-paragraph: 6  # why: reportsthatmatter-5sf1 (pageHeadFolios, ssfk: the Blanche letter's 'Page N' head leaves the body, so its letterhead footer line now sits mid-paragraph; +1, read)
+    severed-paragraph: 5
     bare-footnote-marker: 0
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
@@ -285,7 +285,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 0
+    note-reference-sequence: 4  # why: reportsthatmatter-hcam (decision 0016: page order over note order; the four boxes printed on the page after the paragraph they interrupt follow it, so their notes read after its; smof anchors blocks-wrong 4 -> 0)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0

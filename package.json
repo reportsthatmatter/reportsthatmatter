@@ -26,6 +26,8 @@
     "scorecard": "tsx scripts/scorecard.mjs",
     "publish-report": "tsx scripts/publish-report.mjs",
     "ship": "tsx scripts/ship.ts",
+    "bump-pin": "tsx scripts/bump-pin.ts",
+    "worktrees": "tsx scripts/worktrees.ts",
     "check-search-staleness": "tsx scripts/check-search-staleness.mjs",
     "d1-usage": "tsx scripts/d1-usage.mjs",
     "marks": "tsx scripts/marks.mjs",
