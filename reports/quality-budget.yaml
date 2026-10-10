@@ -88,7 +88,7 @@ reports:
     quote-share-parity: 4  # why: reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
   jack-smith-vol1:
     severed-into-quote: 2
-    severed-paragraph: 6  # why: reportsthatmatter-5sf1 (pageHeadFolios, ssfk: the Blanche letter's 'Page N' head leaves the body, so its letterhead footer line now sits mid-paragraph; +1, read)
+    severed-paragraph: 5
     bare-footnote-marker: 0
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
@@ -285,7 +285,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 0
+    note-reference-sequence: 4  # why: reportsthatmatter-hcam (decision 0016: page order over note order; the four boxes printed on the page after the paragraph they interrupt follow it, so their notes read after its; smof anchors blocks-wrong 4 -> 0)
     note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 0
@@ -352,13 +352,13 @@ reports:
     quote-share-parity: 1
   us-lehman-examiner:
     severed-into-quote: 1
-    severed-paragraph: 22  # why: post v0.15.0 integration
-    bare-footnote-marker: 4
+    severed-paragraph: 5
+    bare-footnote-marker: 0
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-reference-sequence: 0
-    note-text-in-body: 5  # why: post v0.15.0 integration
+    note-text-in-body: 2
     note-citation-vocabulary: 0
     furniture-paragraph: 5  # why: post v0.15.0 integration
     contents-entry-without-heading: 46  # why: post v0.15.0 integration
@@ -376,18 +376,18 @@ reports:
     quote-share-parity: 1
   us-psi-financial-crisis:
     severed-into-quote: 1
-    severed-paragraph: 41
+    severed-paragraph: 21
     bare-footnote-marker: 0
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-reference-sequence: 0
-    note-text-in-body: 6
+    note-text-in-body: 5
     note-citation-vocabulary: 0
     furniture-paragraph: 5
     contents-entry-without-heading: 8
     heading-density: 0
-    heading-repeated: 1
+    heading-repeated: 4  # why: reportsthatmatter-bi5 (the sub-subheads it recovers repeat by design: each Part has its "B. Background", "(1) New Developments", "(2) Recommendations")
     heading-function-word: 1
     heading-marker: 0
     heading-long: 0
@@ -401,14 +401,14 @@ reports:
   us-v-philip-morris:
     severed-into-quote: 104
     severed-paragraph: 2
-    bare-footnote-marker: 39
-    bare-marker-after-quote: 5  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
+    bare-footnote-marker: 2
+    bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
-    note-text-in-body: 48  # why: post v0.15.0 integration
+    note-reference-sequence: 12  # why: reportsthatmatter-8non (notes 7-58 of the conclusions are now defined; their markers are not in the layout)
+    note-text-in-body: 45
     note-citation-vocabulary: 0
-    furniture-paragraph: 44
+    furniture-paragraph: 40
     contents-entry-without-heading: 11
     heading-density: 0
     heading-repeated: 15
@@ -418,7 +418,7 @@ reports:
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 1
-    rendered-ol-words-share: 2
-    numbered-prose-list: 3
+    rendered-ol-words-share: 1
+    numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 1

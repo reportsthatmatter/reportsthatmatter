@@ -592,8 +592,6 @@ These downgrades created significant turmoil in the securitization markets, as i
 
 Historically, investment banks helped raise capital for business and other endeavors by helping to design, finance, and sell financial products like stocks or bonds. When a corporation needed capital to fund a large construction project, for example, it often hired an investment bank either to help it arrange a bank loan or raise capital by helping to market a new issue of shares or corporate bonds to investors. Investment banks also helped with corporate mergers and acquisitions. Today, investment banks also participate in a wide range of other financial activities, including offering broker-dealer and investment advisory services, and trading derivatives and commodities. Many have also been active in the mortgage market and have worked with lenders or mortgage brokers to package and sell mortgage loans and mortgage backed securities. Investment banks have traditionally performed these services in exchange for fees.
 
-lien subprime deals originated in 2006 as well as … 91.8 percent of 2nd-lien deals originated in 2006 have been downgraded.").
-
 %%page 33%%
 
 If an investment bank agreed to act as an "underwriter" for the issuance of a new security to the public, it typically bore the risk of those securities on its books until the securities were sold. By law, securities sold to the public generally must be registered with the SEC.[^57] Registration statements explain the purpose of a proposed public offering, an issuer's operations and management, key financial data, and other important facts to potential investors. Any offering document or prospectus provided to the investing public must also be filed with the SEC. If an issuer decides not to offer a new security to the general public, it can still offer it to investors through a "private placement."[^58] Investment banks often act as the "placement agent" in these private offerings, helping to design, market, and sell the security to selected investors. Solicitation documents in connection with private placements are not required to be filed with the SEC. Under the federal securities laws, however, investment banks that act as an underwriter or placement agent may be liable for any material misrepresentations or omissions of material facts made in connection with a solicitation or sale of a security to an investor.[^59]
@@ -814,11 +812,11 @@ In connection with the hearing, the Subcommittee released a joint memorandum fro
 
 > 6. Destructive Compensation. WaMu's compensation system rewarded loan officers and loan processors for originating large volumes of high risk loans, paid extra to loan officers who overcharged borrowers or added stiff prepayment penalties, and gave executives millions of dollars even when their High Risk Lending Strategy placed the bank in financial jeopardy.
 
-B. Background
+#### B. Background
 
 Washington Mutual Bank was a federally chartered thrift whose primary federal regulator was the Office of Thrift Supervision (OTS). As an insured depository institution, it was also overseen by the Federal Deposit Insurance Corporation (FDIC). Washington Mutual was a full service consumer and business bank. This Report focuses only on WaMu's home lending and securitization business. As part of that business, WaMu originated home loans, acquired home loans for investment and securitization, sold pools of loans, and also securitized pools of home loans that it had originated or acquired. It was also a leading servicer of residential mortgages.
 
-(1) Major Business Lines and Key Personnel
+#### (1) Major Business Lines and Key Personnel
 
 From 2004 to 2008, WaMu had four major business lines.[^107] The Home Loans Group handled WaMu's home mortgage originations, securitizations, and servicing operations. The Commercial Group handled apartment buildings and other commercial properties. The Retail Banking Group provided retail banking services to consumers and businesses across the country. The Card Services Group handled a credit card business purchased from Providian Financial Corporation.
 
@@ -828,7 +826,7 @@ For most of the five-year period reviewed by the Subcommittee, WaMu was led by i
 
 Other key members of the bank's senior management included President Steve Rotella who joined the bank in January 2005; Chief Financial Officer Tom Casey; President of the Home Loans Division David Schneider who joined the bank in July 2005; and General Counsel Faye Chapman. David Beck served as Executive Vice President in charge of the bank's Capital Markets Division, oversaw its securitization efforts, and reported to the head of Home Loans. Anthony Meola headed up the Home Loans Sales effort. Jim Vanasek was WaMu's Chief Credit Officer from 1999 until 2004, and was then appointed its Chief Risk Officer, a new position, from 2004-2005. After Mr. Vanasek's retirement, Ronald Cathcart took his place as Chief Risk Officer, and headed the bank's newly organized Enterprise Risk Management Division, serving in that post from 2005 to 2007.
 
-(2) Loan Origination Channels
+#### (2) Loan Origination Channels
 
 WaMu was one of the largest mortgage originators in the United States.[^108] It originated and acquired residential mortgages through several methods, which it referred to as loan origination channels. WaMu referred to them as its retail, wholesale, subprime, correspondent, and conduit channels.
 
@@ -848,7 +846,7 @@ Other Channels. At times, WaMu also originated or acquired loans in other ways. 
 
 The Treasury and the FDIC IG report examining the failure of WaMu found that, from 2003 to 2007, the bulk of its residential loans – from 48% to 70% – came from third party lenders and brokers.[^112] That report also determined that, in 2007, WaMu had 14 full-time employees overseeing 34,000 third party brokers doing business with the bank nationwide, and criticized the Bank's oversight and staffing effort.[^113]
 
-(3) Long Beach
+#### (3) Long Beach
 
 WaMu had traditionally originated mortgages to well qualified prime borrowers. But in 1999, WaMu bought Long Beach Mortgage Company,[^114] which was exclusively a subprime lender to borrowers whose credit histories did not support their getting a traditional mortgage.[^115] Long Beach was located in Anaheim, California, had a network of loan centers across the country, and at its height had as many as 1,000 employees.
 
@@ -862,7 +860,7 @@ From 1999 to 2006, Long Beach operated as a subsidiary of Washington Mutual Inc.
 
 From 2000 to 2007, Long Beach and WaMu together securitized tens of billions of dollars in subprime loans, creating mortgage backed securities that frequently received AAA or other investment grade credit ratings.[^120] Although AAA securities are supposed to be very safe investments with low default rates of one to two percent, of the 75 Long Beach mortgage backed security tranches rated AAA by Standard and Poor's in 2006, all 75 have been downgraded to junk status, defaulted, or been withdrawn.[^121] In most of the 2006 Long Beach securitizations, the underlying loans have delinquency rates of 50% or more.[^122]
 
-(4) Securitization
+#### (4) Securitization
 
 Washington Mutual depended on the securitization process to generate profit, manage risk, and obtain capital to originate new loans. Washington Mutual and Long Beach sold or securitized most of the subprime home loans they acquired. Initially, Washington Mutual kept most of its Option ARMs in its proprietary investment portfolio, but eventually began selling or securitizing those loans as well. From 2000 to 2007, Washington Mutual and Long Beach securitized at least $77 billion in subprime home loans. Washington Mutual sold or securitized at least $115 billion of Option ARM loans, as well as billions more of other types of high risk loans, including hybrid adjustable rate mortgages, Alt A, and home equity loans.
 
@@ -872,7 +870,7 @@ When Washington Mutual began securitizing its loans, it was dependent upon inves
 
 WCC was initially based in Seattle with 30 to 40 employees.[^125] In 2004, it moved its headquarters to Manhattan.[^126] At the height of WCC operations, right before the collapse of the securitization market, WCC had over 200 employees and offices in Seattle, New York, Los Angeles, and Chicago, with the majority of its personnel in New York.[^127] WCC closed its doors in December 2007, after the securitization markets collapsed.
 
-(5) Overview of WaMu's Rise and Fall
+#### (5) Overview of WaMu's Rise and Fall
 
 Washington Mutual Bank (WaMu) was a wholly owned subsidiary of its parent holding company, Washington Mutual Inc.[^128] From 1996 to 2002, WaMu acquired over a dozen other financial institutions, including American Savings Bank, Great Western Bank, Fleet Mortgage Corporation, Dime Bancorp, PNC Mortgage, and Long Beach, expanding to become the nation's largest thrift and sixth largest bank. WaMu also became one of the largest issuers of home loans in the country. Washington Mutual kept a portion of those loans for its own investment portfolio, and sold the rest either to Wall Street investors, usually after securitizing them, or to Fannie Mae or Freddie Mac. From 2000 to 2008, Washington Mutual sold over $500 billion in loans to Fannie Mae and Freddie Mac, representing more than a quarter of its loan production during those years.
 
@@ -908,7 +906,7 @@ In about three years, from 2005 to 2007, WaMu issued hundreds of billions of hig
 
 %%page 60%%
 
-(1) Strategic Direction
+#### (1) Strategic Direction
 
 In 2004, WaMu set the stage for its High Risk Lending Strategy by formally adopting aggressive financial targets for the upcoming five-year time period. The new earnings targets created pressure for the bank to shift from its more conservative practices toward practices that carried more risk. Mr. Killinger described those targets in a June 2004 "Strategic Direction" memorandum to WaMu's Board of Directors: "Our primary financial targets for the next five years will be to achieve an average ROE [Return on Equity] of at least 18%, and average EPS [Earnings Per Share] growth of at least 13%."[^148] In his memorandum to the Board, Mr. Killinger predicted continuing growth opportunities for the bank:
 
@@ -916,7 +914,7 @@ In 2004, WaMu set the stage for its High Risk Lending Strategy by formally adopt
 
 Mr. Killinger identified residential nonprime and adjustable rate mortgage loans as one of the primary bank businesses driving balance sheet growth.[^150] Mr. Killinger also stated in the memorandum: "Wholesale and correspondent will be nationwide and retooled to deliver higher margin products."[^151]
 
-(2) Approval of Strategy
+#### (2) Approval of Strategy
 
 After 2002, Washington Mutual stopped acquiring lenders specializing in residential mortgages,[^152] and embarked upon a new strategy to push the company's growth, focused on increasing its issuance and purchase of higher risk home loans. OTS took note of this strategy in WaMu's 2004 Report on Examination:
 
@@ -932,7 +930,7 @@ The WaMu submission to the Board noted that, in order for the plan to be success
 
 %%page 62%%
 
-(3) Definition of High Risk Lending
+#### (3) Definition of High Risk Lending
 
 As part of the 2005 presentation to the Board of Directors outlining the strategy, OTS recommended that WaMu define higher risk lending.[^159] The January 2005 presentation contained a slide defining "Higher Risk Lending":
 
@@ -964,7 +962,7 @@ WaMu held billions of dollars in loans on its balance sheet.[^166] Those assets 
 
 %%page 64%%
 
-(4) Gain on Sale
+#### (4) Gain on Sale
 
 WaMu's internal documents indicate that the primary motivation behind its High Risk Lending Strategy was the superior "gain on sale" profits generated by high risk loans.[^167] Washington Mutual management had calculated that higher risk loans were more profitable when sold or securitized. Prior to sale, higher risk loans also produced greater short term profits, because the bank typically charged the borrowers a higher rate of interest and higher fees.
 
@@ -994,7 +992,7 @@ The gain on sale data WaMu collected drove not only WaMu's decision to focus on 
 
 > "Because WaMu's capital markets organization was engaged in the secondary mortgage market, it had ready access to information regarding how the market priced loan products. Therefore my team helped determine the initial prices at which WaMu could offer loans by beginning with the applicable market prices for private or agency-backed mortgage securities and adding the various costs WaMu incurred in the origination, sale, and servicing of home loans."[^173]
 
-(5) Acknowledging Unsustainable Housing Price Increases
+#### (5) Acknowledging Unsustainable Housing Price Increases
 
 In 2004, before WaMu implemented its High Risk Lending Strategy, the Chief Risk Officer Jim Vanasek expressed internally concern about the unsustainable rise in housing prices, loosening lending standards, and the possible consequences. On September 2, 2004, just months before the formal presentation of the High Risk Lending Strategy to the Board of Directors, Mr. Vanasek circulated a prescient memorandum to WaMu's mortgage underwriting and appraisal staff, warning of a bubble in housing prices and encouraging tighter underwriting. The memorandum also captured a sense of the turmoil and pressure at WaMu. Under the subject heading, "Perspective," Mr. Vanasek wrote:
 
@@ -1030,7 +1028,7 @@ Mr. Vanasek agreed:
 
 Despite Mr. Killinger's awareness that housing prices were unsustainable, could drop suddenly, and could make it difficult for borrowers to refinance or sell their homes, Mr. Killinger continued to push forward with WaMu's High Risk Lending Strategy.
 
-(6) Execution of the High Risk Lending Strategy
+#### (6) Execution of the High Risk Lending Strategy
 
 WaMu formally adopted the High Risk Lending Strategy in January 2005.[^179] Over the following two years, management significantly shifted the bank's loan originations towards riskier loans as called for in the plan, but had to slow down the pace of implementation in the face of worsening market conditions. In retrospect, WaMu executives tried to portray their inability to fully execute the plan as a strategic choice rather than the result of a failed strategy. For example, Mr. Killinger testified at the Subcommittee hearing that the bank's High Risk Lending Strategy was only contemplated, but not really executed:
 
@@ -1136,7 +1134,7 @@ Effective implementation of the High Risk Lending Strategy also required robust 
 
 At the same time they increased their higher risk lending, WaMu and Long Beach engaged in a host of poor lending practices that produced billions of dollars in poor quality loans. Those practices included offering high risk borrowers large loans; steering borrowers to higher risk loans; accepting loan applications without verifying the borrower's income; using loans with low teaser rates to entice borrowers to take out larger loans; promoting negative amortization loans which led to many borrowers increasing rather than paying down their debt over time; and authorizing loans with multiple layers of risk. WaMu and Long Beach also exercised weak oversight over their loan personnel and third party mortgage brokers, and tolerated the issuance of loans with fraudulent or erroneous borrower information.
 
-(1) Long Beach
+#### (1) Long Beach
 
 Throughout the period reviewed by the Subcommittee, from 2004 until its demise in September 2007, Long Beach was plagued with problems. Long Beach was one of the largest subprime lenders in the United States,[^206] but it did not have any of its own loan officers. Long Beach operated exclusively as a "wholesale lender," meaning all of the loans it issued were obtained from third party mortgage brokers who had brought loans to the company to be financed. Long Beach "account executives" solicited and originated the mortgages that were initiated by mortgage brokers working directly with borrowers. Long Beach account executives were paid according to the volume of loans they originated, with little heed paid to loan quality.
 
@@ -1288,11 +1286,11 @@ Community Impact. Long Beach's poor quality loans not only proved unprofitable f
 
 In November 2008, the Office of the Comptroller of the Currency (OCC) which oversees all nationally chartered banks, identified the ten metropolitan areas across the United States with the highest rates of foreclosure for subprime and Alt A mortgages originated from 2005 through 2007.[^270] Those ten areas were, in order: Detroit, Cleveland, Stockton, Sacramento, Riverside/San Bernardino, Memphis, Miami/Fort Lauderdale, Bakersfield, Denver, and Las Vegas. The OCC then identified the lenders with the highest foreclosure rates in each of those devastated cities. Long Beach had the worst foreclosure rate in four of those areas, and was near the worst in five more, with the lone exception being Las Vegas. The OCC data also showed that, overall in the ten metropolitan areas, Long Beach mortgages had the second worst foreclosure rate of all the lenders reviewed, with over 11,700 foreclosures at the time of the report. Only New Century was worse.
 
-(2) WaMu Retail Lending
+#### (2) WaMu Retail Lending
 
 Washington Mutual's problems were not confined to its subprime operations; they also affected its retail operations. WaMu loosened underwriting standards as part of its High Risk Lending Strategy, and received repeated criticisms from its regulators, as outlined in the next chapter, for weak underwriting standards, risk layering, excessive loan error and exception rates, appraisal problems, and loan fraud. In August 2007, more than a year before the collapse of the bank, WaMu's President Steve Rotella emailed CEO Kerry Killinger saying that, aside from Long Beach, WaMu's prime home loan business "was the worst managed business I had seen in my career."[^271]
 
-(a) Inadequate Systems and Weak Oversight
+#### (a) Inadequate Systems and Weak Oversight
 
 One reason for WaMu's poor lending practices was its failure to adequately monitor the hundreds of billions of dollars of residential loans being issued each year by its own loan personnel. From 1990 until 2002, WaMu acquired more than 20 new banks and mortgage companies, including American Savings Bank, Great Western Bank, Fleet Mortgage Corporation, Dime Bancorp, PNC Mortgage, and Long Beach. WaMu struggled to integrate dozens of lending platforms, information technology systems, staffs, and policies, whose inconsistencies and gaps exposed the bank to loan errors and fraud.
 
@@ -1334,7 +1332,7 @@ WaMu did, at times, exercise oversight of its third party brokers. A 2006 credit
 
 WaMu closed down its wholesale and subprime channels in 2007, and its Alt A and subprime securitization conduits in 2008.
 
-(b) Risk Layering
+#### (b) Risk Layering
 
 During the five-year period reviewed by the Subcommittee, from 2004 to 2008, WaMu issued many loans with multiple higher risk features, a practice known as "risk layering." At the April 13 Subcommittee hearing, Mr. Vanasek, its Chief Risk Officer from 2004 to 2005, testified about the dangers of this practice:
 
@@ -1404,7 +1402,7 @@ At one point in 2004, Mr. Vanasek made a direct appeal to WaMu CEO Killinger, ur
 
 > "As the market deteriorated, in 2004, I went to the Chairman and CEO with a proposal and a very strong personal appeal to publish a full-page ad in the Wall Street Journal disavowing many of the then-current industry underwriting practices, such as 100 percent loan-to-value subprime loans, and thereby adopt what I termed responsible lending practices. I acknowledged that in so doing the company would give up a degree of market share and lose some of the originators to the competition, but I believed that Washington Mutual needed to take an industry-leading position against deteriorating underwriting standards and products that were not in the best interests of the industry, the bank, or the consumers. There was, unfortunately, never any further discussion or response to the recommendation."[^316]
 
-(c) Loan Fraud
+#### (c) Loan Fraud
 
 Perhaps the clearest evidence of WaMu's shoddy lending practices came when senior management was informed of loans containing fraudulent information, but then did little to stop the fraud.
 
@@ -1500,7 +1498,7 @@ Loans not meeting the bank's credit standards, deliberate risk layering, sales a
 
 %%page 104%%
 
-(d) Steering Borrowers to High Risk Option ARMs
+#### (d) Steering Borrowers to High Risk Option ARMs
 
 In addition to subprime loans, Washington Mutual made a variety of high risk loans to "prime" borrowers, including its flagship product, the Option Adjustable Rate Mortgage (Option ARM). Washington Mutual's Option ARMs typically offered borrowers an initial teaser rate, sometimes as low as 1% for the first month, which later adjusted to a much higher floating interest rate linked to an index, but gave borrowers the choice each month of paying a higher or lower amount. These loans were called "Option" ARMs, because borrowers were typically given four options: (1) paying the fully amortizing amount needed to pay off the loan in 30 years; (2) paying an even higher amount to pay off the loan in 15 years; (3) paying only the interest owed that month and no principal; or (4) making a "minimum payment" that covered only a portion of the interest owed and none of the principal.[^363] If the borrower selected the minimum payment option, unpaid interest would be added to the loan principal. If the borrower repeatedly selected the minimum payment, the loan principal would increase rather than decrease over time, creating a negatively amortizing loan.
 
@@ -1574,7 +1572,7 @@ One WaMu loan officer, Brian Minkow, told the Subcommittee that he expected the 
 
 WaMu was one of the largest originators of Option ARMs in the country. In 2006 alone, WaMu securitized or sold $115 billion in Option ARMs.[^388] Like Long Beach securitizations, WaMu Option ARM securitizations performed badly starting in 2006, with loan delinquency rates between 30 and 50%, and rising.[^389]
 
-(e) Marginalization of WaMu Risk Managers
+#### (e) Marginalization of WaMu Risk Managers
 
 WaMu knowingly implemented a High Risk Lending Strategy, but failed to establish a corresponding system for risk management. Instead, it marginalized risk managers who warned about and attempted to limit the risk associated with the high risk strategy.
 
@@ -1684,7 +1682,7 @@ Washington Mutual and Long Beach sold or securitized the vast majority of their 
 
 By securitizing billions of dollars in poor quality loans, WaMu and Long Beach were able to decrease their risk exposure while passing along risk to others in the financial system. They polluted the financial system with mortgage backed securities which later incurred high rates of delinquency and loss. At times, WaMu securitized loans that it had identified as likely to go delinquent, without disclosing its analysis to investors to whom it sold the securities, and also securitized loans tainted by fraudulent information, without notifying purchasers of the fraud that was discovered and known to the bank.
 
-(1) WaMu and Long Beach Securitizations
+#### (1) WaMu and Long Beach Securitizations
 
 From 2000 to 2007, Washington Mutual and Long Beach securitized at least $77 billion in subprime and home equity loans.[^417] WaMu also sold or securitized at least $115 billion in Option ARM loans.[^418] Between 2000 and 2008, Washington Mutual sold over $500 billion in loans to Fannie Mae and Freddie Mac, accounting for more than a quarter of every dollar in loans WaMu originated.[^419]
 
@@ -1724,7 +1722,7 @@ Another document, prepared by Goldman Sachs, shows the variety of relationships 
 
 Goldman Sachs handled a number of securitizations for Long Beach. At one point in 2006, Goldman Sachs made a pitch to also handle loans issued by WaMu. One Goldman Sachs broker explained to a colleague in an email: "They have possibly the largest subprime portfolio on the planet."[^440]
 
-(2) Deficient Securitization Practices
+#### (2) Deficient Securitization Practices
 
 Over the years, both Long Beach and Washington Mutual were repeatedly criticized by the bank's internal auditors and reviewers, as well as its regulators, OTS and the FDIC, for deficient lending and securitization practices. Their mortgage backed securities were among the worst performing in the marketplace due to poor quality loans that incurred early payment defaults, fraud, and high delinquency rates.
 
@@ -1772,7 +1770,7 @@ Securitizing Fraudulent Loans. WaMu and Long Beach securitized not just poor qua
 
 In other words, even loans marked with a red flag indicating fraud were being sold to investors. The review identified several factors contributing to the problem, including insufficient resources devoted to anti-fraud work, an absence of automated procedures to alert personnel to fraud indicators, and inadequate training on fraud awareness and prevention. The 2008 review warned: "Exposure is considerable and immediate corrective action is essential in order to limit or avoid considerable losses, reputation damage, or financial statement errors."[^454]
 
-(3) Securitizing Delinquency-Prone Loans
+#### (3) Securitizing Delinquency-Prone Loans
 
 The Subcommittee uncovered an instance in 2007 in which WaMu securitized certain types of loans that it had identified as most likely to go delinquent, but did not disclose its analysis to investors who bought the securities. Investors who purchased these securities without the benefit of that analysis quickly saw the value of their purchases fall.
 
@@ -1938,7 +1936,7 @@ Predictably, the securitization performed badly. Approximately 87% of the securi
 
 %%page 136%%
 
-(4) WaMu Loan Sales to Fannie Mae and Freddie Mac
+#### (4) WaMu Loan Sales to Fannie Mae and Freddie Mac
 
 Washington Mutual had longstanding relationships with a number of government sponsored enterprises (GSEs), including the Federal National Mortgage Association (Fannie Mae) and Federal Home Loan Mortgage Corporation (Freddie Mac).[^488] Between 2000 and 2008, Washington Mutual sold over $500 billion in loans to Fannie Mae and Freddie Mac, accounting for more than a quarter of every dollar in loans WaMu originated.[^489] While the majority of those loans involved lower risk, fixed rate mortgages, WaMu also sold Fannie and Freddie billions of dollars in higher risk Option ARMs.
 
@@ -1996,15 +1994,13 @@ The data indicates that, in total, WaMu sold more than half a trillion dollars i
 
 The documents obtained by the Subcommittee indicate that, from 2004 to 2008, Fannie Mae and Freddie Mac competed to purchase billions of dollars in WaMu's residential mortgage loans, and WaMu used that competition to negotiate better terms for its loan sales. Twice during that period, WaMu successfully played one GSE off the other to sell more high risk Option ARM loans under better terms to Freddie Mac.
 
-Freddie. The two largest categories of loans sold to buyers other than Fannie or Freddie were jumbo loans (43,758 loans with a total loan amount of $26.9 billion) and government backed loans in securities guaranteed by Ginnie Mae (35,291 loans with a total loan amount of $4.6 billion). Id.
-
 %%page 143%%
 
 ### Destructive Compensation Practices
 
 Washington Mutual and Long Beach's compensation practices contributed to and deepened its high risk lending practices. Loan officers and processors were paid primarily on volume, not primarily on the quality of their loans, and were paid more for issuing higher risk loans. Loan officers and mortgage brokers were also paid more when they got borrowers to pay higher interest rates, even if the borrower qualified for a lower rate – a practice that enriched WaMu in the short term, but made defaults more likely down the road. Troubling compensation practices went right to the top. In 2008, when he was asked to leave the bank that failed under his management, CEO Kerry Killinger received a severance payment of $15 million.[^532]
 
-(1) Sales Culture
+#### (1) Sales Culture
 
 WaMu's compensation policies were rooted in the bank culture that put loan sales ahead of loan quality. As early as 2004, OTS expressed concern about WaMu's sales culture: "The overt causes for past underwriting concerns were many, but included: (1) A sales culture focused heavily on market share via loan production, (2) extremely high lending volumes."[^533] In early 2005, WaMu's Chief Credit Officer complained to Mr. Rotella that: "[a]ny attempts to enforce [a] more disciplined underwriting approach were continuously thwarted by an aggressive, and often times abusive group of Sales employees within the organization."[^534] The aggressiveness of the sales team toward underwriters was, in his words, "infectious and dangerous."[^535]
 
@@ -2068,7 +2064,7 @@ When asked about the sales culture at the bank, Mr. Vanasek testified at the hea
 
 The President's Club annual trip was the pinnacle of WaMu awards to its top producing loan consultants. One loan consultant interviewed by the Subcommittee described it as an incredible experience, with first class airfare, daily gifts, lavish food, and top entertainment for both employees and their spouses.[^547] It was also an opportunity to meet WaMu's top executives, including Mr. Killinger, Mr. Rotella, and Mr. Schneider. It sent a powerful message about the priority that WaMu placed on loan volume and sales of higher risk loans.
 
-(2) Paying for Speed and Volume
+#### (2) Paying for Speed and Volume
 
 The Long Beach and Washington Mutual compensation systems encouraged high volumes of risky loans but provided little or no incentive to ensure high quality loans that complied with the bank's credit requirements. WaMu loan officers or their sales associates typically interacted directly with customers interested in obtaining loans. Some also were allowed to accept loans brought to them by third party lenders or mortgage brokers. Long Beach account executives dealt only with third party lenders or mortgage brokers; they did not deal directly with customers. After reaching agreement on a loan, the WaMu or Long Beach loan officers or executives completed the loan application and sent it to a loan processing center where the application was reviewed by an underwriter and, if approved, underwent further processing and brought to a loan closing.
 
@@ -2078,7 +2074,7 @@ Long Beach and Washington Mutual loan officers received more money per loan for 
 
 %%page 148%%
 
-(a) Long Beach Account Executives
+#### (a) Long Beach Account Executives
 
 Despite the years of internal and external audits that found a lack of internal controls at Long Beach that led to some of the worst rates of loan delinquency in the subprime industry, Long Beach continued to incentivize production volume over sound lending. The Subcommittee obtained a presentation of the Long Beach 2004 Incentive Plan.[^549] The plan outlines four compensation tiers based on volume, creating a system where the largest producers not only make more money by issuing more loans, but rather, as producers climb more of the tiers, they earn a higher rate of commission as well. Tier 1 Long Beach account executives, those who closed 1-6 loans or funded up to $899,000 in loans per month, received 40 basis points (bps) commission for each broker sourced loan.[^550] Tier 2 Long Beach account executives, those who closed 7-12 loans or funded between $900,000 and $2,499,999 in loans per month, received 50 bps commission for each broker sourced loan plus $30 per loan in additional compensation. Tier 3 Long Beach account executives, those who closed 13-26 loans or funded between $2,500,000 and $4,999,999 in loans per month, received 55 bps commission for each broker sourced loan plus $30 additional per loan. Tier 4 Long Beach account executives, those who closed more than 26 loans or funded more than $5,000,000 in loans per month, received 60 bps commission for each broker sourced loan.[^551]
 
@@ -2090,7 +2086,7 @@ In addition, in 2004, the top 40 Long Beach account executives were rewarded wit
 
 Long Beach regularly made changes to the compensation plan, but the basic volume incentives remained. In the 2007 incentive plan, which took effect after the collapse of the subprime market, the volume requirements were even greater than 2004 requirements. In 2007, the Tier 1 represented 1-9 qualified loans and up to $1,499,999 funded; Tier 2 was 10-13 qualified loans and between $1,500,000 and $2,399,000 funded; Tier 3 was 14-35 qualified loans and between $2,400,000 and $5,999,999 funded; Tier 4 was 36 or more loans and $6,000,000 or more funded.[^554]
 
-(b) WaMu Loan Consultants
+#### (b) WaMu Loan Consultants
 
 Like Long Beach, at WaMu loan officers were compensated for the volume of loans closed and loan processors were compensated for speed of loan closing rather than a more balanced scorecard of timeliness and loan quality. According to the findings and recommendations from an April 2008 internal investigation into allegations of loan fraud at WaMu:
 
@@ -2120,7 +2116,7 @@ Under the 2007 plan, if a loan officer sold a loan that charged a higher rate of
 
 %%page 151%%
 
-(c) Loan Processors and Quality Assurance Controllers
+#### (c) Loan Processors and Quality Assurance Controllers
 
 At Long Beach and WaMu, volume incentives were not limited to the sales people. Back office loan processors and quality control personnel were also compensated for volume. While WaMu executives and senior managers told the Subcommittee that quality control was emphasized and considered as part of employee compensation, the back office staff said otherwise.[^562] Diane Kosch worked as a Quality Assurance Controller in a Long Beach Loan Fulfillment Center (LFC) in Dublin, California, east of San Francisco Bay. She told the Subcommittee that the pressure to keep up with the loan volume was enormous. Each month the LFC would set volume goals, measured in dollar value and the number of loans funded. At the end of each month the pressure to meet those goals intensified. Ms. Kosch said that at month's end, she sometimes worked from 6 a.m. until midnight reviewing loan files. Monthly rallies were held, and prizes were awarded to the underwriters and loan processors who had funded the most loans.[^563]
 
@@ -2152,7 +2148,7 @@ Mr. Ngo later pled guilty to perjury and agreed to testify against his Long Beac
 
 %%page 153%%
 
-(3) WaMu Executive Compensation
+#### (3) WaMu Executive Compensation
 
 Questionable compensation practices did not stop in the loan offices, but went all the way to the top of the company. WaMu's CEO received millions of dollars in pay, even when his high risk loan strategy began unraveling, even when the bank began to falter, and even when he was asked to leave his post. From 2003 to 2007, Mr. Killinger was paid between $11 million and $20 million each year in cash, stock, and stock options. In addition, WaMu provided him with four retirement plans, a deferred bonus plan, and a separate deferred compensation plan. In 2008, when he was asked to leave to leave the bank, Mr. Killinger was paid $25 million, including $15 million in severance pay. Altogether, from 2003 to 2008, Washington Mutual paid Mr. Killinger nearly $100 million, on top of multi-million-dollar corporate retirement benefits.[^568]
 
@@ -2186,9 +2182,9 @@ Washington Mutual was a $300 billion, 120-year-old financial institution that wa
 
 The consequences of WaMu's High Risk Lending Strategy and the proliferation of its RMBS structured finance products incorporating high risk, poor quality loans provide critical lessons that need to be learned to protect the U.S. financial system from similar financial disasters. A number of developments over the past two years hold promise in helping to address many of the problems identified in the Washington Mutual case history.
 
-> (1) New Developments The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act),
+#### (1) New Developments
 
-P.L. 111-203, which the President signed into law on July 21, 2010, contains a number of changes in law that will be implemented over the course of 2011. The Dodd-Frank Act changes include banning stated income loans; restricting negative amortization loans; requiring lenders to retain an interest in high risk loan pools that they sell or securitize; prohibiting lenders from steering borrowers to poor quality, high risk loans; and re-evaluating the role of high risk, structured finance products in bank portfolios.
+The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), P.L. 111-203, which the President signed into law on July 21, 2010, contains a number of changes in law that will be implemented over the course of 2011. The Dodd-Frank Act changes include banning stated income loans; restricting negative amortization loans; requiring lenders to retain an interest in high risk loan pools that they sell or securitize; prohibiting lenders from steering borrowers to poor quality, high risk loans; and re-evaluating the role of high risk, structured finance products in bank portfolios.
 
 %%page 156%%
 
@@ -2244,9 +2240,9 @@ Section 620 of the Dodd-Frank Act requires the federal banking regulators, withi
 
 %%page 160%%
 
-> (2) Recommendations To further strengthen standards and controls needed to prevent high risk lending and
+#### (2) Recommendations
 
-safeguard the Deposit Insurance Fund, this Report makes the following recommendations.
+To further strengthen standards and controls needed to prevent high risk lending and safeguard the Deposit Insurance Fund, this Report makes the following recommendations.
 
 > 1. Ensure "Qualified Mortgages" Are Low Risk. Federal regulators should use their regulatory authority to ensure that all mortgages deemed to be "qualified residential mortgages" have a low risk of delinquency or default. 2. Require Meaningful Risk Retention. Federal regulators should issue a strong risk retention requirement under Section 941 by requiring the retention of not less than a 5% credit risk in each, or a representative sample of, an asset backed securitization's tranches, and by barring a hedging offset for a reasonable but limited period of time. 3. Safeguard Against High Risk Products. Federal banking regulators should safeguard taxpayer dollars by requiring banks with high risk structured finance products, including complex products with little or no reliable performance data, to meet conservative loss reserve, liquidity, and capital requirements. 4. Require Greater Reserves for Negative Amortization Loans. Federal banking regulators should use their regulatory authority to require banks issuing negatively amortizing loans that allow borrowers to defer payments of interest and principal, to maintain more conservative loss, liquidity, and capital reserves.
 
@@ -2310,13 +2306,13 @@ The Levin-Coburn memorandum contained joint findings of fact regarding the role 
 
 > 9. Ineffective and Demoralized Regulatory Culture. The Washington Mutual case history exposes the regulatory culture at OTS in which bank examiners are frustrated and demoralized by their inability to stop unsafe and unsound practices, in which their supervisors are reluctant to use formal enforcement actions even after years of serious bank deficiencies, and in which regulators treat the banks they oversee as constituents rather than arms-length regulated entities.
 
-> B. Background At the time of its collapse, Washington Mutual Savings Bank was a federally chartered thrift
+#### B. Background
 
-with over $188 billion in federal insured deposits. Its primary federal regulator was OTS. Due to its status as an insured depository institution, it was also overseen by the FDIC.
+At the time of its collapse, Washington Mutual Savings Bank was a federally chartered thrift with over $188 billion in federal insured deposits. Its primary federal regulator was OTS. Due to its status as an insured depository institution, it was also overseen by the FDIC.
 
-> (1) Office of Thrift Supervision The Office of Thrift Supervision was created in 1989, in response to the savings and loan
+#### (1) Office of Thrift Supervision
 
-crisis, to charter and regulate the thrift industry.[^597] Thrifts are required by their charters to hold most of their assets in mortgage lending, and have traditionally focused on the issuance of home loans.[^598] OTS was part of the U.S. Department of the Treasury and headed by a presidentially appointed director. Like other bank regulators, OTS was charged with ensuring the safety and soundness of the financial institutions it oversaw. Its operations were funded through semiannual fees assessed on the institutions it regulated, with the fee amount based on the size, condition, and complexity of each institution's portfolio. Washington Mutual was the largest thrift overseen by OTS and, from 2003 to 2008, paid at least $30 million in fees annually to the agency, which comprised 12-15% of all OTS revenue.[^599]
+The Office of Thrift Supervision was created in 1989, in response to the savings and loan crisis, to charter and regulate the thrift industry.[^597] Thrifts are required by their charters to hold most of their assets in mortgage lending, and have traditionally focused on the issuance of home loans.[^598] OTS was part of the U.S. Department of the Treasury and headed by a presidentially appointed director. Like other bank regulators, OTS was charged with ensuring the safety and soundness of the financial institutions it oversaw. Its operations were funded through semiannual fees assessed on the institutions it regulated, with the fee amount based on the size, condition, and complexity of each institution's portfolio. Washington Mutual was the largest thrift overseen by OTS and, from 2003 to 2008, paid at least $30 million in fees annually to the agency, which comprised 12-15% of all OTS revenue.[^599]
 
 %%page 166%%
 
@@ -2324,9 +2320,9 @@ In 2009, OTS oversaw about 765 thrift-chartered institutions.[^600] OTS supervis
 
 During the years reviewed by the Subcommittee, the OTS Executive Director was John Reich; the Deputy Director was Scott Polakoff; the Western Region Office Director was Michael Finn and later Darrel Dochow; and the Examiners-in-Charge at WaMu were Lawrence Carter and later Benjamin Franklin.
 
-> (2) Federal Deposit Insurance Corporation WaMu's secondary federal regulator was the FDIC. The FDIC's mission is to maintain
+#### (2) Federal Deposit Insurance Corporation
 
-stability and public confidence in the nation's financial system by insuring deposits, examining and supervising financial institutions for safety and soundness and consumer protection, and managing failed institutions placed into receivership.[^601] The FDIC administers the Deposit Insurance Fund, which is the primary mechanism used to protect covered deposits at U.S. financial institutions from loss. The Deposit Insurance Fund is financed through fees assessed on the insured institutions, with assessments based on the amount of deposits requiring insurance, the amount of assets at each institution, and the degree of risk posed by each institution to the insurance fund.
+WaMu's secondary federal regulator was the FDIC. The FDIC's mission is to maintain stability and public confidence in the nation's financial system by insuring deposits, examining and supervising financial institutions for safety and soundness and consumer protection, and managing failed institutions placed into receivership.[^601] The FDIC administers the Deposit Insurance Fund, which is the primary mechanism used to protect covered deposits at U.S. financial institutions from loss. The Deposit Insurance Fund is financed through fees assessed on the insured institutions, with assessments based on the amount of deposits requiring insurance, the amount of assets at each institution, and the degree of risk posed by each institution to the insurance fund.
 
 To minimize withdrawals from the Deposit Insurance Fund, the FDIC is assigned backup supervisory authority over approximately 3,000 federally insured depository institutions whose primary regulators are the Federal Reserve, OCC, and, until recently, OTS. Among other measures, the FDIC is authorized to conduct a "special examination" of any insured institution "to determine the condition of such depository institution for insurance purposes."[^602] To facilitate and coordinate its oversight obligations with those of the primary bank regulators and ensure it is able to protect the Deposit Insurance Fund, the FDIC has entered into an inter-agency agreement with the primary bank regulators.[^603] The 2002 version of that agreement, which was in effect until 2010, stated that the FDIC was authorized to request to participate in examinations of large institutions or higher risk financial institutions, recommend enforcement actions to be taken by the primary regulator, and if the primary regulator failed to act, take its own enforcement action with respect to an insured institution.
 
@@ -2336,9 +2332,9 @@ For the eight largest insured institutions at the time, the FDIC assigned at lea
 
 During the years examined by the Subcommittee, the FDIC Chairman was Sheila Bair; the Acting Deputy Director for the FDIC's Division of Supervision and Consumer Protection's Complex Financial Institution Branch was John Corston; in the San Francisco Region, the Director was John Carter and later Stan Ivie, and the Assistant Director was George Doerr. At WaMu, the FDIC's Dedicated Examiner was Stephen Funaro.
 
-> (3) Examination Process The stated mission of OTS was "[t]o supervise savings associations and their holding
+#### (3) Examination Process
 
-companies in order to maintain their safety and soundness and compliance with consumer laws, and to encourage a competitive industry that meets America's financial services needs." The OTS Examination Handbook required "[p]roactive regulatory supervision" with a focus on evaluation of "future needs and potential risks to ensure the success of the thrift system in the long term."[^604] OTS, like other bank regulators, had special access to the financial information of the thrifts under its regulation, which was otherwise kept confidential from the market and other parties.
+The stated mission of OTS was "[t]o supervise savings associations and their holding companies in order to maintain their safety and soundness and compliance with consumer laws, and to encourage a competitive industry that meets America's financial services needs." The OTS Examination Handbook required "[p]roactive regulatory supervision" with a focus on evaluation of "future needs and potential risks to ensure the success of the thrift system in the long term."[^604] OTS, like other bank regulators, had special access to the financial information of the thrifts under its regulation, which was otherwise kept confidential from the market and other parties.
 
 To carry out its mission, OTS traditionally conducted an examination of each of the thrifts within its jurisdiction every 12 to 18 months and provided the results in a Report of Examination (ROE). In 2006, OTS initiated a "continuous exam" program for its largest thrifts, requiring its examiners to conduct a series of specialized examinations during the year with the results from all of those examinations included in an annual ROE. The Examiner-in-Charge led the examination activities which were organized around the CAMELS rating system used by all federal bank regulators. The CAMELS rating system evaluates a bank's: (C) capital adequacy, (A) asset quality, (M) management, (E) earnings, (L) liquidity, and (S) sensitivity to market risk. A CAMELS rating of 1 is the best rating, while 5 is the worst. In the annual ROE, OTS provided its thrifts with an evaluation and rating for each CAMELS component, as well as an overall composite rating on the bank's safety and soundness.[^605]
 
@@ -2360,9 +2356,9 @@ In addition, for institutions with assets of $10 billion or more, the FDIC had e
 
 For the five-year period, from 2004 to 2008, OTS repeatedly identified significant problems with Washington Mutual's lending practices, risk management, appraisal procedures, and issued securities, and requested corrective action. WaMu promised to correct the identified deficiencies, but failed to do so. OTS failed, in turn, to take enforcement action to ensure the corrections were made, until the bank began losing billions of dollars. OTS also resisted and at times impeded FDIC examination efforts at Washington Mutual.
 
-> (1) Regulatory Challenges Related to Washington Mutual Washington Mutual was a larger and more complex financial institution than any other
+#### (1) Regulatory Challenges Related to Washington Mutual
 
-thrift overseen by OTS, and presented numerous regulatory challenges. By 2007, Washington Mutual had over $300 billion in assets, 43,000 employees, and over 2,300 branches in 15 states, including a securitization office on Wall Street, a massive loan portfolio, and several lines of business, including home loans, credit cards, and commercial real estate.
+Washington Mutual was a larger and more complex financial institution than any other thrift overseen by OTS, and presented numerous regulatory challenges. By 2007, Washington Mutual had over $300 billion in assets, 43,000 employees, and over 2,300 branches in 15 states, including a securitization office on Wall Street, a massive loan portfolio, and several lines of business, including home loans, credit cards, and commercial real estate.
 
 Integration Issues. During the 1990s, as described in the prior chapter, WaMu embarked upon a strategy of growth through acquisition of smaller institutions, and over time became one of the largest mortgage lenders in the United States. One consequence of its acquisition strategy was that WaMu struggled with the logistical and managerial challenges of integrating a variety of lending platforms, information technology systems, staff, and policies into one system.
 
@@ -2410,9 +2406,9 @@ WaMu issued loans through its own retail loan offices, through Long Beach, which
 
 When the subprime market collapsed in July 2007, Washington Mutual was left holding a portfolio saturated with high risk, poorly performing loans. Prior to the collapse, WaMu had sold or securitized the majority of the loans it had originated or purchased, undermining the U.S. home loan mortgage market with hundreds of billions of dollars in high risk, poor quality loans. OTS documentation shows that WaMu's regulators saw what was happening, identified the problems, but then took no enforcement actions to protect either Washington Mutual or the U.S. financial system from the bank's shoddy lending practices.
 
-> (2) Overview of Washington Mutual's Ratings History and Closure An overview of Washington Mutual's ratings history shows how OTS and the FDIC were
+#### (2) Overview of Washington Mutual's Ratings History and Closure
 
-required to work together to oversee Washington Mutual, which the two agencies did with varying levels of success. At times, the relationship was productive and useful, while at others they found themselves bitterly at odds over how to proceed. As Washington Mutual's problems intensified, the working relationship between OTS and the FDIC grew more dysfunctional.
+An overview of Washington Mutual's ratings history shows how OTS and the FDIC were required to work together to oversee Washington Mutual, which the two agencies did with varying levels of success. At times, the relationship was productive and useful, while at others they found themselves bitterly at odds over how to proceed. As Washington Mutual's problems intensified, the working relationship between OTS and the FDIC grew more dysfunctional.
 
 From 2004 to 2006, Washington Mutual was a profitable bank and enjoyed a 2 CAMELS rating from both agencies, signifying it was a fundamentally sound institution. In late 2006, as housing prices began to level off for the first time in years, subprime loans began to experience delinquencies and defaults. In part because borrowers were unable to refinance their loans, those delinquencies and defaults accelerated in 2007. The poorly performing loans began to affect the payments supporting subprime mortgage backed securities, which began to incur losses. In July 2007, the subprime market was performing so poorly that the major credit rating agencies suddenly downgraded hundreds of subprime mortgage backed securities, including over 40 issued by Long Beach. The subprime market slowed and then collapsed, and Washington Mutual was suddenly left with billions of dollars in unmarketable subprime loans and securities that were plummeting in value. WaMu stopped issuing subprime loans. In the fourth quarter of 2007, WaMu reported a $1 billion loss.
 
@@ -2448,13 +2444,13 @@ Due to the bank's worsening liquidity crisis, the regulators abandoned their cus
 
 %%page 177%%
 
-> (3) OTS Identification of WaMu Deficiencies During the five-year period reviewed by the Subcommittee, from 2004 through 2008,
+#### (3) OTS Identification of WaMu Deficiencies
 
-OTS examiners identified over 500 serious deficiencies in Washington Mutual's lending, risk management, and appraisal practices.[^647] OTS examiners also criticized the poor quality loans and mortgage backed securities issued by Long Beach, and received FDIC warnings regarding the bank's high risk activities. When WaMu failed in 2008, it was not a case of hidden problems coming to light; the bank's examiners were well aware of and had documented the bank's high risk, poor quality loans and deficient lending practices.
+During the five-year period reviewed by the Subcommittee, from 2004 through 2008, OTS examiners identified over 500 serious deficiencies in Washington Mutual's lending, risk management, and appraisal practices.[^647] OTS examiners also criticized the poor quality loans and mortgage backed securities issued by Long Beach, and received FDIC warnings regarding the bank's high risk activities. When WaMu failed in 2008, it was not a case of hidden problems coming to light; the bank's examiners were well aware of and had documented the bank's high risk, poor quality loans and deficient lending practices.
 
-> (a) Deficiencies in Lending Standards From 2004 to 2008, OTS Findings Memoranda and annual Reports of Examination
+#### (a) Deficiencies in Lending Standards
 
-(ROE) repeatedly identified deficiencies in WaMu's lending standards and practices. Lending standards, also called "underwriting" standards, determine the types of loans that a loan officer may offer or purchase from a third party mortgage broker. These standards determine, for example, whether the loan officer may issue a "stated income" loan without verifying the borrower's professed income, issue a loan to a borrower with a low FICO score, or issue a loan providing 90% or even 100% of the appraised value of the property being purchased.
+From 2004 to 2008, OTS Findings Memoranda and annual Reports of Examination (ROE) repeatedly identified deficiencies in WaMu's lending standards and practices. Lending standards, also called "underwriting" standards, determine the types of loans that a loan officer may offer or purchase from a third party mortgage broker. These standards determine, for example, whether the loan officer may issue a "stated income" loan without verifying the borrower's professed income, issue a loan to a borrower with a low FICO score, or issue a loan providing 90% or even 100% of the appraised value of the property being purchased.
 
 When regulators criticize a bank's lending or "underwriting" standards as weak or unsatisfactory, they are expressing concern that the bank is setting its standards too low, issuing risky loans that may not be repaid, and opening up the bank to later losses that could endanger its safety and soundness. When they criticize a bank for excessively high lending or underwriting "errors," regulators are expressing concern that the bank's loan officers are failing to comply with the bank's standards, such as by issuing a loan that finances 90% of a property's appraised value when the bank's lending standards prohibit issuing loans that finance more than 80% of the appraised value.
 
@@ -2532,9 +2528,9 @@ consecutive years, OTS criticized WaMu's lending standards, error and exception 
 
 %%page 182%%
 
-> (b) Deficiencies in Risk Management Over the same five-year period, from 2004 to 2008, in addition to identifying deficiencies
+#### (b) Deficiencies in Risk Management
 
-associated with WaMu's lending practices, OTS repeatedly identified problems with WaMu's risk management practices. Risk management involves identifying, evaluating, and mitigating the risks that threaten the safety, soundness, and profitability of an institution. At thrifts, the primary risk issues include setting lending standards that will produce profitable loans, enforcing those standards, evaluating the loan portfolio, identifying home loans that may default, establishing adequate reserves to cover potential losses, and advising on measures to lower the identified risks. When regulators criticize a bank's risk management practices as weak or unsatisfactory, they are expressing concern that the bank is failing to identify the types of risk that threaten the bank's safety and soundness and failing to take actions to reduce and manage those risks.
+Over the same five-year period, from 2004 to 2008, in addition to identifying deficiencies associated with WaMu's lending practices, OTS repeatedly identified problems with WaMu's risk management practices. Risk management involves identifying, evaluating, and mitigating the risks that threaten the safety, soundness, and profitability of an institution. At thrifts, the primary risk issues include setting lending standards that will produce profitable loans, enforcing those standards, evaluating the loan portfolio, identifying home loans that may default, establishing adequate reserves to cover potential losses, and advising on measures to lower the identified risks. When regulators criticize a bank's risk management practices as weak or unsatisfactory, they are expressing concern that the bank is failing to identify the types of risk that threaten the bank's safety and soundness and failing to take actions to reduce and manage those risks.
 
 Within WaMu, from 2004-2005, oversight of risk management practices was assigned to a Chief Risk Officer. In 2006, it was assigned to an Enterprise Risk Management (ERM) Department headed by a Chief Enterprise Risk Officer. ERM employees reported, not only to the department, but also to particular lines of business such as the WaMu Home Loans Division, and reported both to the Chief Risk Officer and to the head of the business line, such as the president of the Home Loans Division. WaMu referred to this system of reporting as a "Double- Double."[^666]
 
@@ -2616,9 +2612,9 @@ Failure to Correct Poor Risk Management. By neglecting to exercise its enforceme
 
 > "Issues related to poor underwriting and weak risk controls were noted as far back as 2003, but the problem was OTS did not ensure that WaMu ever corrected those weaknesses. We had a hard time understanding why OTS would allow these satisfactory ratings to continue given that, over the years, they found the same things over and over."[^689]
 
-> (c) Deficiencies in Home Appraisals Still another area in which OTS failed to take appropriate enforcement action involves
+#### (c) Deficiencies in Home Appraisals
 
-WaMu's appraisal practices. OTS failed to act even after other government entities accused WaMu of systematically inflating property values to justify larger and more risky home loans.
+Still another area in which OTS failed to take appropriate enforcement action involves WaMu's appraisal practices. OTS failed to act even after other government entities accused WaMu of systematically inflating property values to justify larger and more risky home loans.
 
 Appraisals provide estimated dollar valuations of property by independent experts. They play a key role in the mortgage lending process, because a property's appraised value is used to determine whether the property provides sufficient collateral to support a loan. Lending standards at most banks require loans to meet, for example, certain loan-to-value (LTV) ratios to ensure that, in the event of a default, the property can be sold and the proceeds used to pay off any outstanding debt.
 
@@ -2660,9 +2656,9 @@ Failure to Correct Appraisal Deficiencies. Shortly before WaMu was sold, OTS' st
 
 %%page 191%%
 
-> (d) Deficiencies Related to Long Beach In 1999, WaMu's parent holding company, Washington Mutual Inc., purchased Long
+#### (d) Deficiencies Related to Long Beach
 
-Beach Mortgage Company (Long Beach). Long Beach's business model was to issue subprime loans initiated by third party mortgage lenders and brokers and then sell or package those loans into mortgage backed securities for sale to Wall Street firms. Beginning in 1999, Washington Mutual Bank worked closely with Long Beach to sell or securitize its subprime loans and exercised oversight over its lending and securitization operations. Because Long Beach was a subsidiary of Washington Mutual Inc., the holding company, however, and not a subsidiary of Washington Mutual Bank, OTS did not have direct regulatory authority over the company, but could review its operations to the extent they affected the holding company or the bank itself.
+In 1999, WaMu's parent holding company, Washington Mutual Inc., purchased Long Beach Mortgage Company (Long Beach). Long Beach's business model was to issue subprime loans initiated by third party mortgage lenders and brokers and then sell or package those loans into mortgage backed securities for sale to Wall Street firms. Beginning in 1999, Washington Mutual Bank worked closely with Long Beach to sell or securitize its subprime loans and exercised oversight over its lending and securitization operations. Because Long Beach was a subsidiary of Washington Mutual Inc., the holding company, however, and not a subsidiary of Washington Mutual Bank, OTS did not have direct regulatory authority over the company, but could review its operations to the extent they affected the holding company or the bank itself.
 
 OTS was aware of ongoing problems with Long Beach's management, lending and risk standards, and issuance of poor quality loans and mortgage backed securities. OTS reported, for example, that Long Beach's "early operations as a subsidiary of [Washington Mutual Inc.] were characterized by a number of weaknesses" including "loan servicing weaknesses, documentation exceptions, high delinquencies, and concerns regarding compliance with securitization-related representations and warranties."[^717] OTS also reported that, in 2003, "adverse internal reviews of [Long Beach] operations led to a decision to temporarily cease securitization activity" until a "special review" by the WaMu legal department ensured that file documentation "adequately supported securitization representations and warranties" made by Long Beach.[^718] OTS was aware of an examination report issued by a state regulator and the FDIC after a review of 2003 Long Beach loans, which provides a sense of the extent of problems with those loans at the time:
 
@@ -2702,9 +2698,9 @@ In the annual 2006 ROE and again in the annual 2007 ROE, OTS found that Long Bea
 
 %%page 195%%
 
-> (e) Over 500 Deficiencies in 5 Years As part of their review of Washington Mutual, the Treasury and the FDIC Inspectors
+#### (e) Over 500 Deficiencies in 5 Years
 
-General determined that, over a five-year period, 2004-2008, OTS examiners identified a total of over 540 criticisms, observations, and recommendations related to WaMu operations.[^737] At the Subcommittee hearing, when asked whether those 540 findings constituted "serious criticisms" of the bank, Treasury IG Eric Thorson responded: "Absolutely."[^738] The FDIC Inspector General, Jon Rymer, agreed:
+As part of their review of Washington Mutual, the Treasury and the FDIC Inspectors General determined that, over a five-year period, 2004-2008, OTS examiners identified a total of over 540 criticisms, observations, and recommendations related to WaMu operations.[^737] At the Subcommittee hearing, when asked whether those 540 findings constituted "serious criticisms" of the bank, Treasury IG Eric Thorson responded: "Absolutely."[^738] The FDIC Inspector General, Jon Rymer, agreed:
 
 > "[T]he examiners, from what I have seen here, were pointing out the problems, underwriting problems, riskier products, concentrations, distributions, and markets that may display more risk – they were all significant problems and they were identified. At the end of the day, though, I don't think forceful enough action was taken."[^739]
 
@@ -2718,9 +2714,9 @@ The joint report of the Treasury and the FDIC Inspectors General specifically id
 
 > "If you have strong asset quality, you will not have liquidity issues because your assets – you can borrow either against them or you can sell them. If you have weak asset quality, then you are going to have liquidity issues at some point."[^749]
 
-> (4) OTS Turf War Against the FDIC As WaMu approached the end, tensions between OTS and the FDIC that had built up
+#### (4) OTS Turf War Against the FDIC
 
-over two years evolved into a turf war. OTS examination and regional officials began to express distrust of their FDIC counterparts. The conflict was elevated to the top leaders of both agencies, who came to take different views of what to do with WaMu – the FDIC becoming more aggressive and OTS becoming more protective. When the bank's imminent collapse was no longer a question, the result was a hasty seizure and sale. Had the two government agencies acted in concert, rather than as adversaries, it is likely that WaMu's problems would have been resolved earlier and with less collateral damage. During an interview, the chairman of the FDIC, Sheila Bair, stated pointedly that WaMu "could have sold themselves in July if they had tried."[^750] The same outcome was not accomplished until two months later in September when no other options remained, and OTS worked with the FDIC to make it happen.
+As WaMu approached the end, tensions between OTS and the FDIC that had built up over two years evolved into a turf war. OTS examination and regional officials began to express distrust of their FDIC counterparts. The conflict was elevated to the top leaders of both agencies, who came to take different views of what to do with WaMu – the FDIC becoming more aggressive and OTS becoming more protective. When the bank's imminent collapse was no longer a question, the result was a hasty seizure and sale. Had the two government agencies acted in concert, rather than as adversaries, it is likely that WaMu's problems would have been resolved earlier and with less collateral damage. During an interview, the chairman of the FDIC, Sheila Bair, stated pointedly that WaMu "could have sold themselves in July if they had tried."[^750] The same outcome was not accomplished until two months later in September when no other options remained, and OTS worked with the FDIC to make it happen.
 
 As mentioned earlier, OTS was the primary, but not the only, federal bank regulator that oversaw Washington Mutual. Since WaMu was also an insured institution, the FDIC served as a backup examiner responsible for evaluating the risk that the bank posed to the Deposit Insurance Fund. Because WaMu was one of the eight largest insured institutions in the country, the FDIC had assigned a Dedicated Examiner whose full time responsibility was to determine whether the bank was operating in a safe and sound manner. The FDIC Examiner reviewed all OTS ROEs and examination findings, participated on many occasions in OTS examinations, and reviewed bank documents. The FDIC reviewed the CAMELS ratings for the bank, as well as LIDI ratings under its Large Insured Depository Institutions Program.
 
@@ -2906,17 +2902,17 @@ Mr. Thorson: Right.
 
 In trying to understand why OTS failed to make use of its enforcement tools to compel WaMu to operate in a safe and sound manner, the Subcommittee investigation has identified factors that have resonance not only in the recent financial crisis, but are critical for regulators and policymakers to address in order to avoid future financial disasters as well.
 
-> (1) OTS' Failed Oversight of WaMu During the five-year period of the Subcommittee's inquiry, from 2004 to 2008, OTS
+#### (1) OTS' Failed Oversight of WaMu
 
-identified over 500 serious operational deficiencies at WaMu and Long Beach. At WaMu, the problems included weak lending standards, high loan exception and error rates, noncompliance with bank loan policy, weak risk management, poor appraisal practices, and poor quality loans. At Long Beach, OTS identified many of the same problems and added on top of those, weak management, poor quality mortgage backed securities, and inadequate repurchase reserves. The problems are described in examination report after examination report, and OTS raised many of the same concerns, in writing and in person, with WaMu's Board of Directors.
+During the five-year period of the Subcommittee's inquiry, from 2004 to 2008, OTS identified over 500 serious operational deficiencies at WaMu and Long Beach. At WaMu, the problems included weak lending standards, high loan exception and error rates, noncompliance with bank loan policy, weak risk management, poor appraisal practices, and poor quality loans. At Long Beach, OTS identified many of the same problems and added on top of those, weak management, poor quality mortgage backed securities, and inadequate repurchase reserves. The problems are described in examination report after examination report, and OTS raised many of the same concerns, in writing and in person, with WaMu's Board of Directors.
 
 But for all those years, OTS did little beyond describing the problems and asking bank executives to make improvements. When the reforms failed to materialize, the problems continued, and the risk increased, OTS stood on the sidelines. Subcommittee interviews found that, until 2008, OTS regulators never even held internal discussions about taking an enforcement action against the bank. In 2008, in the face of mounting losses, OTS took two informal, nonpublic enforcement actions, which contained few mandatory measures or deadlines and were together insufficient to save the bank.
 
 In trying to understand the agency's years of inaction, the Subcommittee's investigation concluded that the lack of enforcement reflected an OTS culture of deference to bank management, demoralized examiners whose oversight efforts were unsupported by their supervisors, and a narrow regulatory focus that allowed short term profits to excuse high risk activities and disregarded systemic risk. Inflated CAMELS ratings may have further reduced the pressure to act, while conflicts of interest may have also tempered OTS' willingness to take tough enforcement action against WaMu.
 
-> (a) Deference to Management Part of the reason that OTS declined to take enforcement action against Washington
+#### (a) Deference to Management
 
-Mutual was a posture of deference to the management of the institutions it regulated. Ronald Cathcart, WaMu's chief enterprise risk officer from 2006-2008, described OTS as essentially believing in "self-regulation":
+Part of the reason that OTS declined to take enforcement action against Washington Mutual was a posture of deference to the management of the institutions it regulated. Ronald Cathcart, WaMu's chief enterprise risk officer from 2006-2008, described OTS as essentially believing in "self-regulation":
 
 %%page 210%%
 
@@ -3018,9 +3014,9 @@ Two years later, in 2007, after a mortgage insurer refused to insure any more lo
 
 OTS' deference to WaMu management appeared to be the result of a deliberate posture of reliance on the bank to take the steps needed to ensure that its personnel were engaged in safe and sound practices. The reasoning appeared to be that if OTS examiners simply identified the problems at the bank, OTS could then rely on WaMu's own self interest, competence, and discipline to ensure the problems were corrected, with no need for tough enforcement action. It was a regulatory approach with disastrous results. While OTS may have hoped that it could accomplish its regulatory responsibilities by simply identifying problems without the threat of enforcement action, that approach proved ineffective.
 
-> (b) Demoralized Examiners For five years, OTS examiners identified serious problems with WaMu's lending
+#### (b) Demoralized Examiners
 
-practices and risk management, but OTS senior officials failed to support their efforts by using the agency's enforcement tools to compel the bank to correct the identified problems. WaMu's chief risk officer from 2004 to 2005, James Vanasek, remarked at the Subcommittee hearing on how OTS examiners seemed to receive little support from more senior officials in terms of enforcement:
+For five years, OTS examiners identified serious problems with WaMu's lending practices and risk management, but OTS senior officials failed to support their efforts by using the agency's enforcement tools to compel the bank to correct the identified problems. WaMu's chief risk officer from 2004 to 2005, James Vanasek, remarked at the Subcommittee hearing on how OTS examiners seemed to receive little support from more senior officials in terms of enforcement:
 
 > "[T]he OTS Examiner-in-Charge during the period time in which I was involved … did an excellent job of finding and raising the issues. Likewise, I found good performance from … the FDIC Examiner-in-Charge. … What I cannot explain is why the superiors in the agencies didn't take a tougher tone with the banks given the degree of … negative findings. My experience with the OTS, versus with the OCC, was completely different. So there seemed to be a tolerance there or a political influence on senior management of those agencies that prevent them from taking a more active stance. By a more active stance, I mean putting the banks under letters of agreement and forcing change."[^814]
 
@@ -3135,9 +3131,9 @@ Subcommittee interviews with OTS examiners who worked at WaMu found those examin
 
 > "My examination history here is filled with the editing and removal of my comments as well as predictions (that turned out to be true) by EICs [Examiners-in-Charge]. No system in place to keep that from happening. Instead we put whitewashers and scaredity cats in charge of the most problematic shops. I don't know what happened to you at WAMU, but I was critical of their accounting at Card Services and the AP. Fortunately, I think I made the 'don't let him come back here' list. … [O]ur leadership screwed us and can't acknowledge it. They should resign."[^853]
 
-> (c) Narrow Regulatory Focus In addition to a policy of deference to management, weak standards, and demoralized
+#### (c) Narrow Regulatory Focus
 
-examiners, OTS employed an overly narrow regulatory focus that allowed WaMu's short term profits to excuse its risky practices and that ignored systemic risk. For a time, its short term profits masked the problems at Washington Mutual, and regulators allowed practices which they knew to be risky and problematic to continue. Because it mishandled its responsibilities, OTS gave the illusion to investors, economists, policy makers, and others that the bank was sound, when in reality, it was just the opposite. Unfortunately, the truth of the matter was not revealed until it was too late, and the bank collapsed.
+In addition to a policy of deference to management, weak standards, and demoralized examiners, OTS employed an overly narrow regulatory focus that allowed WaMu's short term profits to excuse its risky practices and that ignored systemic risk. For a time, its short term profits masked the problems at Washington Mutual, and regulators allowed practices which they knew to be risky and problematic to continue. Because it mishandled its responsibilities, OTS gave the illusion to investors, economists, policy makers, and others that the bank was sound, when in reality, it was just the opposite. Unfortunately, the truth of the matter was not revealed until it was too late, and the bank collapsed.
 
 Using Short Term Profits to Excuse Risk. OTS justified not taking enforcement action against WaMu in part by pointing to Washington Mutual's profits and low loss rates during the height of the mortgage boom, claiming they made it difficult to require the bank to reduce the risks threatening its safety and soundness. In 2005, when faced with underwriting problems at WaMu, the OTS Examiner-in-Charge put it this way:
 
@@ -3187,9 +3183,9 @@ Numerous documents show that OTS and the FDIC were, in fact, aware that WaMu was
 
 Neither OTS nor the FDIC saw preventing WaMu's sale of high risk mortgages into U.S. securitization markets as part of its regulatory responsibilities.
 
-> (d) Inflated CAMELS Ratings Still another possible explanation for OTS' inaction may have been the overly positive
+#### (d) Inflated CAMELS Ratings
 
-CAMELS ratings it assigned WaMu. From 2004 until early 2008, WaMu held a 2 rating, which meant that it was "fundamentally sound," had "satisfactory risk management," and had "only moderate weaknesses that [were] within the board's and management's capability and willingness to correct."[^869] A lower CAMELS rating would have represented one of the strongest actions that OTS and the FDIC could have taken, because it would have required changes from WaMu.
+Still another possible explanation for OTS' inaction may have been the overly positive CAMELS ratings it assigned WaMu. From 2004 until early 2008, WaMu held a 2 rating, which meant that it was "fundamentally sound," had "satisfactory risk management," and had "only moderate weaknesses that [were] within the board's and management's capability and willingness to correct."[^869] A lower CAMELS rating would have represented one of the strongest actions that OTS and the FDIC could have taken, because it would have required changes from WaMu.
 
 Both the Treasury and the FDIC Inspector General criticized the assignment of the 2 ratings as inaccurate and inappropriate, highlighting how those inflated ratings masked the true problems.[^870] Treasury IG Thorson focused in particular on the 2 rating assigned to WaMu's high risk home loans:
 
@@ -3213,9 +3209,9 @@ It was only on September 18, 2008, after the bank began to run out of the cash n
 
 Hindsight establishes that the CAMELS ratings assigned to Washington Mutual Bank were inflated. Whether the ratings inflation was attributable to the OTS culture of deference to management, examiners who were too intimidated to downgrade the agency's largest institution, an overly narrow regulatory focus that was blinded by WaMu's short term profits and ignored systemic risk, or an absence of forward-looking risk analysis, the WaMu collapse suggests that the CAMELS rating system did not work as it should.
 
-> (e) Fee Issues During the investigation, when asked why OTS senior officials were not tougher on
+#### (e) Fee Issues
 
-Washington Mutual Bank, several persons brought up the issue of fees – that WaMu supplied $30 million or nearly 15% of the fees per year that paid for OTS' operating expenses. WaMu's former Chief Risk Officer James Vanasek offered this speculation:
+During the investigation, when asked why OTS senior officials were not tougher on Washington Mutual Bank, several persons brought up the issue of fees – that WaMu supplied $30 million or nearly 15% of the fees per year that paid for OTS' operating expenses. WaMu's former Chief Risk Officer James Vanasek offered this speculation:
 
 > "I think you have to look at the fact that Washington Mutual made up a substantial portion of the assets of the OTS and one wonders if the continuation of the agency would have existed had Washington Mutual failed."[^876]
 
@@ -3227,15 +3223,15 @@ Conclusion. WaMu is the largest bank failure in the history of the United States
 
 %%page 231%%
 
-(2) Other Regulatory Failures
+#### (2) Other Regulatory Failures
 
 Washington Mutual was not the only failed thrift overseen by OTS. In 2008, OTS closed the doors of five thrifts with combined assets of $354 billion.[^878] Another seven thrifts holding collective assets of $350 billion were sold or declared bankruptcy.[^879] Virtually all of these thrifts conducted high risk lending, accumulated portfolios with high risk assets, and sold high risk, poor quality mortgages to other financial institutions and investors. At the Subcommittee hearing, the Treasury Inspector General testified that, after completing 17 reviews and working on another 33 reviews of a variety of failed financial institutions, he could say that OTS' lack of enforcement action was "not unique to WaMu" and lax enforcement by the relevant federal banking regulator was "not unique to OTS."[^880]
 
 Mortgage lenders other than banks also failed. Many of these mortgage lenders had operated as private firms, rather than as depository institutions, and were not overseen by any federal or state bank regulator. Some were overseen by the SEC; others were not overseen by any federal financial regulator. Some became large companies handling billions of dollars in residential loans annually, yet operated under minimal and ineffective regulatory oversight. When residential loans began to default in late 2006, and the subprime securitization market dried up in 2007, these firms were unable to sell their loans, developed liquidity problems, and went out of business. Together, these failed mortgage lenders, like the failed thrifts, contributed to systemic risk that damaged the U.S. banking system, U.S. financial markets, and the U.S. economy as a whole.
 
-> (a) Countrywide Countrywide Financial Corporation, now a division of Bank of America and known as
+#### (a) Countrywide
 
-Bank of America Home Loans, was formerly the largest independent mortgage lender in the United States and one of the most prolific issuers of subprime mortgages.[^881] For a number of years, Countrywide operated as a national bank under the OCC. In March 2007, it converted to a thrift charter and operated for its last 18 months under the regulatory supervision of OTS.[^882] At its height, Countrywide had approximately $200 billion in assets, 62,000 employees, and issued in excess of $400 billion in residential mortgages each year. In 2008, Countrywide originated nearly 20% of all mortgages in the United States.[^883] But in August 2008, after the collapse of the subprime secondary market, Countrywide could no longer sell or securitize its subprime loans and was unable to obtain replacement financing, forcing the bank into a liquidity crisis.[^884] By the end of the summer of 2008, it would have declared bankruptcy, but for its sale to Bank of America for $2.8 billion.[^885]
+Countrywide Financial Corporation, now a division of Bank of America and known as Bank of America Home Loans, was formerly the largest independent mortgage lender in the United States and one of the most prolific issuers of subprime mortgages.[^881] For a number of years, Countrywide operated as a national bank under the OCC. In March 2007, it converted to a thrift charter and operated for its last 18 months under the regulatory supervision of OTS.[^882] At its height, Countrywide had approximately $200 billion in assets, 62,000 employees, and issued in excess of $400 billion in residential mortgages each year. In 2008, Countrywide originated nearly 20% of all mortgages in the United States.[^883] But in August 2008, after the collapse of the subprime secondary market, Countrywide could no longer sell or securitize its subprime loans and was unable to obtain replacement financing, forcing the bank into a liquidity crisis.[^884] By the end of the summer of 2008, it would have declared bankruptcy, but for its sale to Bank of America for $2.8 billion.[^885]
 
 %%page 232%%
 
@@ -3253,9 +3249,9 @@ Later he warned that the bank was "flying blind" on the ultimate delinquency rat
 
 executives.[^894] Mr. Mozilo agreed to pay $22.5 million to settle the disclosure fraud allegations and $45 million to settle the insider trading allegations, bringing his total settlement to $67.5 million.[^895] He also agreed to be permanently barred from serving as an officer or director of a publicly traded corporation. Countrywide's former chief operating officer paid $5.5 million and agreed to a three-year bar. The chief financial officer paid $130,000 and agreed to a one-year bar on practicing before the SEC. In June 2010, in a case brought by the Federal Trade Commission, Countrywide agreed to pay penalties of $108 million for charging inflated mortgage servicing fees to homeowners in delinquency, including excessive fees to inspect property or mow lawns for people struggling to keep their homes.[^896] In August 2010, Countrywide and some former executives agreed to pay $600 million to settle several class action lawsuits.[^897]
 
-> (b) IndyMac IndyMac Bank was established in 1985 by Countrywide co-founders Angelo Mozilo and
+#### (b) IndyMac
 
-David Loeb. While its lines of business changed over time, in 2000, it became a chartered thrift overseen by OTS, and grew to become the country's ninth-largest originator of residential mortgage loans.[^898] IndyMac specialized in two types of high risk home loans, Alt A loans which did not require verification or documentation of the borrower's income, assets or employment; and Option ARM loans which allowed borrowers to pay less than the fully amortized cost of the mortgage. From 2004 to 2006, Option ARMs made up 75% of IndyMac's home loans and, in 2006, IndyMac allowed 75% of its Option ARM borrowers to make only the minimum payment required by the loan, triggering negative amortization. In addition to originating loans, IndyMac packaged them into securities and sold them on the secondary market.[^899]
+IndyMac Bank was established in 1985 by Countrywide co-founders Angelo Mozilo and David Loeb. While its lines of business changed over time, in 2000, it became a chartered thrift overseen by OTS, and grew to become the country's ninth-largest originator of residential mortgage loans.[^898] IndyMac specialized in two types of high risk home loans, Alt A loans which did not require verification or documentation of the borrower's income, assets or employment; and Option ARM loans which allowed borrowers to pay less than the fully amortized cost of the mortgage. From 2004 to 2006, Option ARMs made up 75% of IndyMac's home loans and, in 2006, IndyMac allowed 75% of its Option ARM borrowers to make only the minimum payment required by the loan, triggering negative amortization. In addition to originating loans, IndyMac packaged them into securities and sold them on the secondary market.[^899]
 
 %%page 234%%
 
@@ -3271,7 +3267,7 @@ In February 2011, the SEC charged three former senior IndyMac executives with se
 
 IndyMac was the third-largest bank failure in U.S. history and the largest collapse of a FDIC-insured depository institution since 1984.[^912] At the time of its collapse, IndyMac had $32 billion in assets and $19 billion in deposits, of which approximately $18 billion were insured by the FDIC.[^913] IndyMac's failure cost the FDIC $10.7 billion,[^914] a figure which, at the time, represented over 10% of the federal Deposit Insurance Fund.[^915]
 
-(c) New Century
+#### (c) New Century
 
 New Century Financial Corporation is an example of a failed mortgage lender that operated largely without federal or state oversight, other than as a publicly traded corporation overseen by the SEC. New Century originated, purchased, sold, and serviced billions of dollars in subprime residential mortgages, operating not as a bank or thrift, but first as a private corporation, then as a publicly traded corporation, and finally, beginning in 2004, as a publicly traded Real Estate Investment Trust (REIT).[^916] By 2007, New Century had approximately 7,200 employees, offices across the country, and a loan production volume of $51.6 billion, making it the second largest subprime lender in the country.[^917] Because it did not accept deposits or have insured accounts, it was not overseen by any federal or state bank regulator.
 
@@ -3289,9 +3285,9 @@ In July 2010, the three former New Century executives settled the SEC complaint 
 
 In 2007, New Century reported publicly that it was under criminal investigation by the U.S. Attorney's Office for the Central District of California, but no indictment of the company or any executive has been filed.[^930]
 
-> (d) Fremont Fremont Investment & Loan was once the fifth largest subprime mortgage lender in the
+#### (d) Fremont
 
-United States.[^931] At its peak in 2006, it had $13 billion in assets, 3,500 employees, and nearly two dozen offices.[^932] Fremont Investment & Loan was neither a bank nor a thrift, but an "industrial loan company" that issued loans and held insured deposits.[^933] It was owned by Fremont General Credit Corporation which was owned, in turn, by Fremont General Corporation. In 2007, the bank was the subject of an FDIC cease and desist order which identified multiple problems with its operations and ordered the bank to cease its subprime lending.[^934] In 2008, due to insufficient capital, the FDIC ordered Fremont General Corporation to either recapitalize the bank or sell it. The bank was then sold to CapitalSource, Inc.[^935] In June 2008, Fremont General Corporation declared bankruptcy under Chapter 11 and has since reorganized as Signature Group Holdings, Inc.[^936]
+Fremont Investment & Loan was once the fifth largest subprime mortgage lender in the United States.[^931] At its peak in 2006, it had $13 billion in assets, 3,500 employees, and nearly two dozen offices.[^932] Fremont Investment & Loan was neither a bank nor a thrift, but an "industrial loan company" that issued loans and held insured deposits.[^933] It was owned by Fremont General Credit Corporation which was owned, in turn, by Fremont General Corporation. In 2007, the bank was the subject of an FDIC cease and desist order which identified multiple problems with its operations and ordered the bank to cease its subprime lending.[^934] In 2008, due to insufficient capital, the FDIC ordered Fremont General Corporation to either recapitalize the bank or sell it. The bank was then sold to CapitalSource, Inc.[^935] In June 2008, Fremont General Corporation declared bankruptcy under Chapter 11 and has since reorganized as Signature Group Holdings, Inc.[^936]
 
 %%page 238%%
 
@@ -3311,9 +3307,9 @@ Regulators stood on the sidelines as U.S. mortgage lenders introduced increasing
 
 A number of new developments have occurred in the past several years to address the problems highlighted throughout this Report.
 
-> (1) New Developments The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act),
+#### (1) New Developments
 
-which the President signed into law on July 21, 2010, contains many changes in the law that will be implemented over the next year. The Dodd-Frank changes include abolishing OTS, banning stated income loans, and restricting negative amortization loans. Other developments include a revised interagency agreement strengthening the FDIC's ability to conduct examinations of insured depository institutions and a new FDIC deposit insurance pricing system that requires higher risk institutions to pay higher insurance fees.
+The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), which the President signed into law on July 21, 2010, contains many changes in the law that will be implemented over the next year. The Dodd-Frank changes include abolishing OTS, banning stated income loans, and restricting negative amortization loans. Other developments include a revised interagency agreement strengthening the FDIC's ability to conduct examinations of insured depository institutions and a new FDIC deposit insurance pricing system that requires higher risk institutions to pay higher insurance fees.
 
 %%page 240%%
 
@@ -3329,7 +3325,9 @@ Risk Factors in Insurance Fees. Under a new FDIC deposit insurance pricing syste
 
 Financial Stability Oversight Council. The Dodd-Frank Act has also established a new intra-governmental council, the Financial Stability Oversight Council (FSOC), to identify systemic risks and respond to emerging threats to the stability of the U.S. financial system.[^952] The council is comprised of ten existing regulators in the financial services sector, including the Chairman of the Federal Reserve Board of Governors, the Chairman of the FDIC, and the Comptroller of the Currency, and is chaired by the Secretary of the Treasury. This Council is intended to ensure that U.S. financial regulators consider the safety and soundness of not only individual financial institutions, but also of U.S. financial markets and systems as a whole.
 
-> (2) Recommendations To further strengthen oversight of financial institutions to reduce risk, protect U.S.
+#### (2) Recommendations
+
+> To further strengthen oversight of financial institutions to reduce risk, protect U.S.
 
 financial markets and the economy, and safeguard the Deposit Insurance Fund, this Report makes the following recommendations.
 
@@ -3403,11 +3401,11 @@ S&P on over 6,300 RMBS and 1,900 CDOs on one day in January 2008, shocked the fi
 
 %%page 247%%
 
-B. Background
+#### B. Background
 
-> (1) Credit Ratings Generally Credit ratings, which first gained prominence in the late 1800s, are supposed to provide
+#### (1) Credit Ratings Generally
 
-independent assessments of the creditworthiness of particular financial instruments, such as a corporate bond, mortgage backed security, or CDO. Essentially, credit ratings predict the likelihood that a debt will be repaid.[^957]
+Credit ratings, which first gained prominence in the late 1800s, are supposed to provide independent assessments of the creditworthiness of particular financial instruments, such as a corporate bond, mortgage backed security, or CDO. Essentially, credit ratings predict the likelihood that a debt will be repaid.[^957]
 
 The United States has three major credit rating agencies: Moody's, S&P, and Fitch Rating Ltd., each of which is a NRSRO. By some accounts, these three firms issue about 98% of total credit ratings and collect 90% of total credit rating revenue.[^958]
 
@@ -3445,9 +3443,9 @@ RMBS and CDO Ratings. Over the last ten years, Wall Street firms have devised ev
 
 In addition to making structured finance products easier to sell to investors, Wall Street firms used financial engineering to create high risk assets that were given AAA ratings – ratings which are normally reserved for ultra-safe investments with low rates of return. Firms combined high risk assets, such as the BBB tranches from subprime mortgage backed securities paying a relatively high rate of return, in a new financial instrument, such as a CDO, that issued securities with AAA ratings and were purportedly safe investments. Higher rates of return, combined with AAA ratings, made subprime RMBS and related CDO securities especially attractive investments.
 
-> (2) The Rating Process Prior to the massive ratings downgrade in mid-2007, the RMBS and CDO rating process
+#### (2) The Rating Process
 
-followed a generally well-defined pattern. It began with the firm designing the securitization – the arranger – sending a detailed proposal to the credit rating agency. The proposal contained information on the mortgage pools involved and how the security would be structured. The rating agency examined the proposal and provided comments and suggestions, before ultimately agreeing to run the securitization through one of its models. The results from the model were used by a rating committee within the agency to determine a final rating, which was then published.
+Prior to the massive ratings downgrade in mid-2007, the RMBS and CDO rating process followed a generally well-defined pattern. It began with the firm designing the securitization – the arranger – sending a detailed proposal to the credit rating agency. The proposal contained information on the mortgage pools involved and how the security would be structured. The rating agency examined the proposal and provided comments and suggestions, before ultimately agreeing to run the securitization through one of its models. The results from the model were used by a rating committee within the agency to determine a final rating, which was then published.
 
 %%page 251%%
 
@@ -3505,7 +3503,7 @@ When asked about the meaning of an AAA rating, Moody's CEO Raymond McDaniel expl
 
 %%page 256%%
 
-(3) Record Revenues
+#### (3) Record Revenues
 
 From 2004 to 2007, Moody's and S&P produced a record number of ratings and a record amount of revenues in structured finance, primarily because of RMBS and CDO ratings. A 2008 S&P submission to the SEC indicates, for example, that from 2004 to 2007, S&P issued more than 5,500 RMBS ratings and more than 835 mortgage related CDO ratings.[^987] The number of ratings it issued increased each year, going from approximately 700 RMBS ratings in 2002, to more than 1,600 in 2006. Its mortgage related CDO ratings increased tenfold, going from 34 in 2002, to over 340 in 2006.[^988] Moody's experienced similar growth. According to a 2008 Moody's submission to the SEC, from 2004 to 2007, it issued over 4,000 RMBS ratings and over 870 CDO ratings.[^989] Moody's also increased the ratings it issued each year, going from approximately 540 RMBS and 45 CDO ratings in 2002, to more than 1,200 RMBS and 360 CDO ratings in 2006.[^990]
 
@@ -3531,9 +3529,9 @@ In the years leading up to the financial crisis, Moody's and S&P together issued
 
 To understand why the credit rating agencies suddenly reversed course and how their RMBS and CDO ratings downgrades impacted the financial markets, it is useful to review trends in the housing and mortgage backed security markets in the years leading up to the crisis.
 
-> (1) Increasing High Risk Loans and Unaffordable Housing The years prior to the financial crisis saw increasing numbers of borrowers buying not
+#### (1) Increasing High Risk Loans and Unaffordable Housing
 
-only more homes than usual, but higher priced homes, requiring larger and more frequent loans that were constantly refinanced. By 2005, about 69% of Americans had purchased homes, the largest percentage in American history.[^1005] In the five-year period running up to 2006, the median home price, adjusted for inflation, increased 50 percent.[^1006] The pace of home price appreciation was on an unsustainable trajectory, as is illustrated by the chart below.[^1007]
+The years prior to the financial crisis saw increasing numbers of borrowers buying not only more homes than usual, but higher priced homes, requiring larger and more frequent loans that were constantly refinanced. By 2005, about 69% of Americans had purchased homes, the largest percentage in American history.[^1005] In the five-year period running up to 2006, the median home price, adjusted for inflation, increased 50 percent.[^1006] The pace of home price appreciation was on an unsustainable trajectory, as is illustrated by the chart below.[^1007]
 
 %%page 260%%
 
@@ -3555,7 +3553,7 @@ By the end of 2006, the concentration of higher risk loans for less affordable h
 
 %%page 263%%
 
-(2) Mass Downgrades
+#### (2) Mass Downgrades
 
 Although ratings downgrades for investment grade securities are supposed to be relatively infrequent, in 2007, they took place on a massive scale that was unprecedented in U.S. financial markets. Beginning in July 2007, Moody's and S&P downgraded hundreds and then thousands of RMBS and CDO ratings, causing the rated securities to lose value and become much more difficult to sell, and leading to the subsequent collapse of the RMBS and CDO secondary markets. The massive downgrades made it clear that the original ratings were not only deeply flawed, but the U.S. mortgage market was much riskier than previously portrayed.
 
@@ -3617,7 +3615,7 @@ The Subcommittee's investigation uncovered a host of factors responsible for the
 
 %%page 268%%
 
-(1) Awareness of Increasing Credit Risks
+#### (1) Awareness of Increasing Credit Risks
 
 The evidence shows that analysts within Moody's and S&P were aware of the increasing risks in the mortgage market in the years leading up to the financial crisis, including higher risk mortgage products, increasingly lax lending standards, poor quality loans, unsustainable housing prices, and increasing mortgage fraud. Yet for years, neither credit rating agency heeded warnings – even their own – about the need to adjust their processes to accurately reflect the increasing credit risk.
 
@@ -3669,9 +3667,9 @@ Press Reports. Warnings in the national press concerning the threat posed by det
 
 Had Moody's and S&P heeded their own warnings as well as the warnings in government reports and the national press, they might have issued more conservative, including fewer AAA, ratings for RMBS and CDO securities from 2005 to 2007; required additional credit enhancements earlier; and issued ratings downgrades earlier and with greater frequency, gradually letting the air out of the housing bubble instead of puncturing it with the mass downgrades that began in July 2007. The problem, however, was that neither company had a financial incentive to assign tougher credit ratings to the very securities that for a short while increased their revenues, boosted their stock prices, and expanded their executive compensation. Instead, ongoing conflicts of interest, inaccurate credit rating models, and inadequate rating and surveillance resources made it possible for Moody's and S&P to ignore their own warnings about the U.S. mortgage market. In the longer run, these decisions cost both companies dearly. Between January 2007 and January 2009, the stock price for both The McGraw-Hill Companies (S&P's parent company) and Moody's fell nearly 70%, and neither share price has fully recovered.
 
-> (2) CRA Conflicts of Interest In transitioning from the fact that the rating agencies issued inaccurate ratings to the
+#### (2) CRA Conflicts of Interest
 
-question of why they did, one of the primary issues is the conflicts of interest inherent in the "issuer-pays" model. Under this system, the firm interested in profiting from an RMBS or CDO security is required to pay for the credit rating needed to sell the security. Moreover, it requires the credit rating agencies to obtain business from the very companies paying for their rating judgment. The result is a system that creates strong incentives for the rating agencies to inflate their ratings to attract business, and for the issuers and arrangers of the securities to engage in "ratings shopping" to obtain the highest ratings for their financial products.
+In transitioning from the fact that the rating agencies issued inaccurate ratings to the question of why they did, one of the primary issues is the conflicts of interest inherent in the "issuer-pays" model. Under this system, the firm interested in profiting from an RMBS or CDO security is required to pay for the credit rating needed to sell the security. Moreover, it requires the credit rating agencies to obtain business from the very companies paying for their rating judgment. The result is a system that creates strong incentives for the rating agencies to inflate their ratings to attract business, and for the issuers and arrangers of the securities to engage in "ratings shopping" to obtain the highest ratings for their financial products.
 
 %%page 273%%
 
@@ -3679,7 +3677,7 @@ The conflict of interest inherent in an issuer-pay setup is clear: rating agenci
 
 The credit rating agencies assured Congress and the investing public that they could "manage" these conflicts, but the evidence indicates that the drive for market share and increasing revenues, ratings shopping, and investment bank pressures have undermined the ratings process and the quality of the ratings themselves. Multiple former Moody's and S&P employees told the Subcommittee that, in the years leading up to the financial crisis, gaining market share, increasing revenues, and pleasing investment bankers bringing business to the firm assumed a higher priority than issuing accurate RMBS and CDO credit ratings.
 
-(a) Drive for Market Share
+#### (a) Drive for Market Share
 
 Prior to the explosive growth in revenues generated from the ratings of mortgage backed securities, the credit rating agencies had a reputation for exercising independent judgment and taking pride in requiring the information and performing the analysis needed to issue accurate credit ratings. A journalist captured the rating agency culture in a 1995 article when she wrote: "Ask a [company's] treasurer for his opinion of rating agencies, and he'll probably rank them somewhere between a trip to the dentist and an IRS audit. You can't control them, and you can't escape them."[^1055]
 
@@ -3751,7 +3749,7 @@ In October 2007, Moody's Chief Credit Officer explicitly raised concerns at the 
 
 By the time his memorandum was written, both Moody's and S&P were already issuing thousands of RMBS and CDO rating downgrades, admitting that their prior investment grade ratings had not accurately reflected the risk that these investments would fail.
 
-(b) Investment Bank Pressure
+#### (b) Investment Bank Pressure
 
 At the same time Moody's and S&P were pressuring their RMBS and CDO analysts to increase market share and revenues, the investment banks responsible for bringing RMBS and CDO business to the firms were pressuring those same analysts to ease rating standards. Former Moody's and S&P analysts and managers interviewed by the Subcommittee described, for example, how investment bankers pressured them to get their deals done quickly, increase the size of the tranches that received AAA ratings, and reduce the credit enhancements protecting the AAA tranches from loss. They also pressed the CRA analysts and managers to ignore a host of factors that could be seen as increasing credit risk. Sometimes described as "ratings shopping," the analysts described how some investment bankers threatened to take their business to another credit rating agency if they did not get the favorable treatment they wanted. The evidence collected by the Subcommittee indicates that the pressure exerted by investment banks frequently impacted the ratings process, enabling the banks to obtain more favorable treatment than they otherwise would have received.
 
@@ -3919,15 +3917,15 @@ Moody's CEO, Ray McDaniel echoed this concern during the hearing:
 
 > Mr. McDaniel: In this section, he is talking about the issue of rating shopping, and I agree that that existed then and exists now.[^1116]
 
-> (3) Inaccurate Models The conflict of interest problem was not the only reason that Moody's and S&P issued
+#### (3) Inaccurate Models
 
-inaccurate RMBS and CDO credit ratings. Another problem was that the credit rating models they used were flawed. Over time, from 2004 to 2006, S&P and Moody's revised their rating models, but never enough to produce accurate forecasts of the coming wave of mortgage delinquencies and defaults. Key problems included inadequate performance data for the higher risk mortgages flooding the mortgage markets and inadequate correlation factors.
+The conflict of interest problem was not the only reason that Moody's and S&P issued inaccurate RMBS and CDO credit ratings. Another problem was that the credit rating models they used were flawed. Over time, from 2004 to 2006, S&P and Moody's revised their rating models, but never enough to produce accurate forecasts of the coming wave of mortgage delinquencies and defaults. Key problems included inadequate performance data for the higher risk mortgages flooding the mortgage markets and inadequate correlation factors.
 
 In addition, the companies failed to provide their ratings personnel with clear, consistent, and comprehensive criteria to evaluate complex structured finance deals. The absence of effective criteria was particularly problematic, because the ratings models did not conclusively determine the ratings for particular transactions. Instead, modeling results could be altered by the subjective judgment of analysts and their supervisors. This subjective factor, while unavoidable due to the complexity and novelty of the transactions being rated, rendered the process vulnerable to improper influence and inflated ratings.
 
-> (a) Inadequate Data CRA analysts relied on their firm's quantitative rating models to calculate the probable
+#### (a) Inadequate Data
 
-default and loss rates for particular pools of assets. These models were handicapped, however, by a lack of relevant performance data for the high risk residential mortgages supporting most RMBS and CDO securities, by a lack of mortgage performance data in an era of stagnating or declining housing prices, by the credit rating agencies' unwillingness to devote sufficient resources to update their models, and by the failure of the models to incorporate accurate correlation assumptions predicting how defaulting mortgages might affect other mortgages.
+CRA analysts relied on their firm's quantitative rating models to calculate the probable default and loss rates for particular pools of assets. These models were handicapped, however, by a lack of relevant performance data for the high risk residential mortgages supporting most RMBS and CDO securities, by a lack of mortgage performance data in an era of stagnating or declining housing prices, by the credit rating agencies' unwillingness to devote sufficient resources to update their models, and by the failure of the models to incorporate accurate correlation assumptions predicting how defaulting mortgages might affect other mortgages.
 
 Lack of High Risk Mortgage Performance Data. The CRA models failed, in part, because they relied on historical data to predict how RMBS securities would behave, and the models did not use adequate performance data in the development of criteria to rate subprime and other high risk mortgages that proliferated in the housing market in the years leading up to the financial crisis. From 2004 through 2007, many RMBS and CDO securities were comprised of residential mortgages that were not like those that had been modeled in the past. As one S&P email observed:
 
@@ -3999,7 +3997,7 @@ Mr. Witt told the Subcommittee that, from 2004 to 2005, he worked on modifying t
 
 The lack of performance data for high risk residential mortgage products, the lack of mortgage performance data in an era of stagnating or declining housing prices, the failure to expend resources to improve their model analytics, and incorrect correlation assumptions meant that the RMBS and CDO models used by Moody's and S&P were out of date, technically deficient, and could not provide accurate default and loss predictions to support the credit ratings being issued. Yet Moody's and S&P analysts told the Subcommittee that their analysts relied heavily on their model outputs to project the default and loss rates for RMBS and CDO pools and rate RMBS and CDO securities.
 
-(b) Unclear and Subjective Ratings Process
+#### (b) Unclear and Subjective Ratings Process
 
 Obtaining expected default and loss analysis from the Moody's and S&P credit rating models was only one aspect of the work performed by RMBS and CDO analysts. Equally important was their effort to analyze a proposed transaction's legal structure, cash flow, allocation of revenues, the size and nature of its tranches, and its credit enhancements. Analyzing each of these elements involved often complex judgments about how a transaction would work and what impact various factors would have on credit risk. Although both Moody's and S&P published a number of criteria, methodologies, and guidance on how to handle a variety of credit risk factors, the novelty and complexity of the RMBS and CDO transactions, the volume and speed of the ratings process, and inconsistent applications of the various rules, meant that CRA analysts were continuously faced with issues that were difficult to resolve about how to analyze a transaction and apply the company's standards. Evidence obtained by the Subcommittee indicates that, at times, ratings personnel acted with limited guidance, unclear criteria, and a limited understanding of the complex deals they were asked to rate.
 
@@ -4021,11 +4019,9 @@ Moody's ratings criteria were equally subjective, changeable, and inconsistent. 
 
 > "Methodologies & criteria are published and thus put boundaries on rating committee discretion. (However, there is usually plenty of latitude within those boundaries to register market influence.)"[^1147]
 
-Another factor was that ratings analysts were also under constant pressure to quickly analyze and rate complex RMBS and CDO transactions. To enable RMBS or CDO transactions to meet projected closing dates, it was not uncommon, as shown above, for CRA analysts to grant exceptions to established methodologies and criteria, put off analysis of complex issues to later transactions, and create precedents that investment banks invoked in subsequent gone effective already, it was surveillance's responsibility, and I never heard about it again. Anyway, because of that, I never created a new monitor.").
+Another factor was that ratings analysts were also under constant pressure to quickly analyze and rate complex RMBS and CDO transactions. To enable RMBS or CDO transactions to meet projected closing dates, it was not uncommon, as shown above, for CRA analysts to grant exceptions to established methodologies and criteria, put off analysis of complex issues to later transactions, and create precedents that investment banks invoked in subsequent securitizations. CRA analysts were then compelled to decide whether to follow an earlier exception, revert to the published methodology and criteria, or devise still another compromise. The result was additional confusion over how to rate complex RMBS and CDO securities.
 
 %%page 296%%
-
-securitizations. CRA analysts were then compelled to decide whether to follow an earlier exception, revert to the published methodology and criteria, or devise still another compromise. The result was additional confusion over how to rate complex RMBS and CDO securities.
 
 Publication of the CRAs' ratings methodologies and criteria was also inconsistent. According to an October 2006 email sent by an investment banker at Morgan Stanley to an analyst at Moody's, for example, key methodology changes had not been made public: "Our problem here is that nobody has told us about the changes that we are later expected to adhere to. Since there is no published criteria outlining the change in methodology how are we supposed to find out about it?"[^1148] On another occasion, a Moody's analyst sought guidance from senior managers because of the lack of consistency in applying certain criteria. He wrote: "Over time, different chairs have been giving different guidelines at different point[s] of time on how much over-enhancement we need for a bond to be notched up to Aaa."[^1149] In a November 2007 email, another senior executive described the criteria problem this way: "It seems, though, that the more of the ad hoc rules we add, the further away from the data and models we move and the closer we move to building models that ape analysts expectations, no?"[^1150]
 
@@ -4041,9 +4037,9 @@ A January 2007 email from BlackRock to S&P (and other rating agencies) also comp
 
 At times, some CRA analysts openly questioned their ability to rate some complex securities. In a December 2006 email chain regarding a synthetic CDO squared, for example, S&P analysts appeared challenged by a modeling problem and questioned their ability to rate the product. One analyst wrote: "Rating agencies continue to create and [sic] even bigger monster – the CDO market. Let's hope we are all wealthy and retired by the time this house of cards falters."[^1153] In an email written in a similar vein, an S&P manager preparing for a presentation wrote to her colleagues: "Can anyone give me a crash course on the 'hidden risks in CDO's of RMBS'?"[^1154] In an April 2007 instant message, an S&P analyst offered this cynical comment: "[W]e rate every deal[.] [I]t could be structured by cows and we would rate it."[^1155]
 
-> (4) Failure to Retest After Model Changes Another key factor that contributed to inaccurate credit ratings was the failure of
+#### (4) Failure to Retest After Model Changes
 
-Moody's and S&P to retest outstanding RMBS and CDO securities after improvements were made to their credit rating models. These model improvements generally did not derive from data on new types of high risk mortgages, but were intended to improve the models' predictive capability,[^1156] but even after they were made, CRA analysts failed to utilize them to downgrade artificially high RMBS and CDO credit ratings.
+Another key factor that contributed to inaccurate credit ratings was the failure of Moody's and S&P to retest outstanding RMBS and CDO securities after improvements were made to their credit rating models. These model improvements generally did not derive from data on new types of high risk mortgages, but were intended to improve the models' predictive capability,[^1156] but even after they were made, CRA analysts failed to utilize them to downgrade artificially high RMBS and CDO credit ratings.
 
 Key model adjustments were made in 2006 to both the RMBS and CDO models to improve their ability to predict expected default and loss rates for higher risk mortgages. Both Moody's and S&P decided to apply the revised models to rate new RMBS and CDO transactions, but not to retest outstanding subprime RMBS and CDO securities, even though many of those securities contained the same types of mortgages and risks that the models were recalibrated to evaluate. Had they retested the existing RMBS and CDO securities and issued appropriate rating downgrades starting in 2006, the CRAs could have signaled investors about the increasing risk in the mortgage market, possibly dampened the rate of securitizations, and possibly reduced the impact of the financial crisis.
 
@@ -4130,9 +4126,9 @@ When asked about the failure of Moody's and S&P to retest existing securities af
 
 %%page 304%%
 
-> (5) Inadequate Resources In addition to operating with conflicts of interest, models containing inadequate
+#### (5) Inadequate Resources
 
-performance data, subjective and inconsistent rating criteria, and a policy against using improved models to retest outstanding RMBS and CDO securities, and despite the increasing numbers of ratings issued each year and record revenues as a result, neither Moody's nor S&P hired sufficient staff or devoted sufficient resources to ensure that the initial rating process and the subsequent surveillance process produced accurate credit ratings.
+In addition to operating with conflicts of interest, models containing inadequate performance data, subjective and inconsistent rating criteria, and a policy against using improved models to retest outstanding RMBS and CDO securities, and despite the increasing numbers of ratings issued each year and record revenues as a result, neither Moody's nor S&P hired sufficient staff or devoted sufficient resources to ensure that the initial rating process and the subsequent surveillance process produced accurate credit ratings.
 
 Instead, both Moody's and S&P forced their staffs to churn out new ratings and conduct required surveillance with limited resources. Over time, the credit rating agencies' profits became increasingly connected to issuing a high volume of ratings. By not devoting sufficient resources to handle the high volume of ratings, the strain on resources negatively impacted the quality of the ratings and their surveillance.
 
@@ -4230,7 +4226,9 @@ Similarly, Ernestine Warner, the head of RMBS Surveillance, lost her managerial 
 
 On July 10, 2007, amid record mortgage defaults, S&P abruptly began downgrading its outstanding RMBS and CDO ratings. In July alone, it downgraded the ratings of more than 1,000 RMBS and 100 CDO securities. Both credit rating agencies continued to issue significant downgrades throughout the remainder of 2007. On January 30, 2008, S&P took action on over 8,200 RMBS and CDO ratings – meaning it either downgraded their ratings or placed the securities on credit watch with negative implications. These and other downgrades, matched by equally substantial numbers at Moody's, paint a picture of CRA surveillance teams acting at top speed in overwhelming circumstances to correct thousands of inaccurate RMBS and CDO ratings. When asked to produce contemporaneous decision-making documents indicating how and when the ratings were selected for downgrade, neither S&P nor Moody's produced meaningful documentation. The facts suggest that CRA surveillance analysts with already substantial responsibilities and limited resources were forced to go into overdrive to clean up ratings that could not "hold."
 
-> (6) Mortgage Fraud A final factor that contributed to inaccurate credit ratings involves mortgage fraud.
+#### (6) Mortgage Fraud
+
+> A final factor that contributed to inaccurate credit ratings involves mortgage fraud.
 
 Although the credit rating agencies were clearly aware of increased levels of mortgage fraud, they did not factor that credit risk into their quantitative models or adequately factor it into their qualitative analyses. The absence of that credit risk meant that the credit enhancements they required were insufficient, the tranches bearing AAA ratings were too large, and the ratings they issued were too optimistic.
 
@@ -4266,7 +4264,7 @@ In September 2007, Moody's solicited industry feedback on proposed enhancements 
 
 Weak credit rating agency performance has long been a source of concern to financial regulators. Many investors rely on credit ratings to identify "safe" investments. Many regulated financial institutions, including banks, broker-dealers, insurance companies, pension funds, mutual funds, money market funds, and others have been required to operate under restrictions related to their purchase of "investment grade" versus "noninvestment grade" financial instruments. When credit agencies issue inaccurate credit ratings, both retail investors and regulated financial institutions may mistakenly purchase financial instruments that are riskier than they intended or are permitted to buy. The recent financial crisis has demonstrated how the unintended purchase of high risk financial products by multiple investors and financial institutions can create systemic risk and endanger, not only U.S. financial markets, but the entire U.S. economy.
 
-(1) Past Credit Rating Agency Oversight
+#### (1) Past Credit Rating Agency Oversight
 
 Even before the recent financial crisis, the SEC and Congress had been reviewing the need for increased regulatory oversight of the credit rating industry. In 1994, for example, the SEC "issued a Concept Release soliciting public comment on the appropriate role of ratings in the federal securities laws, and the need to establish formal procedures for recognizing and monitoring the activities of [credit rating agencies]."[^1221]
 
@@ -4286,7 +4284,7 @@ In the summer of 2007, after the mass downgrades of RMBS and CDO ratings had beg
 
 %%page 315%%
 
-(2) New Developments
+#### (2) New Developments
 
 Although the Credit Rating Agency Reform Act of 2006 strengthened oversight of the credit rating agencies, Congress passed further reforms in response to the financial crisis to address weaknesses in regulatory oversight of the credit rating industry. The Dodd-Frank Act dedicated an entire subtitle to those credit rating reforms which substantially broadened the powers of the SEC to oversee and regulate the credit rating industry and explicitly allowed investors, for the first time, to file civil suits against credit rating agencies.[^1234] The major reforms include the following:
 
@@ -4298,7 +4296,7 @@ Although the Credit Rating Agency Reform Act of 2006 strengthened oversight of t
 
 credit ratings and the reliance placed on credit ratings by individual and institutional investors and financial regulators," and because "credit rating agencies are central to capital formation, investor confidence, and the efficient performance of the United States economy."[^1236]
 
-(3) Recommendations
+#### (3) Recommendations
 
 To further strengthen the accuracy of credit ratings and reduce systemic risk, this Report makes the following recommendations.
 
@@ -4408,8 +4406,6 @@ The securitization process generated billions of dollars in funds that allowed i
 
 Credit Default Swaps. Some investment banks modified still another structured finance product, a derivative known as a credit default swap (CDS), for use in the mortgage market. Much like an insurance contract, a CDS is a contract between two parties in which one party guarantees payment to the other if the assets referenced in the contract lose value or experience a negative credit event. The party selling the insurance is referred to as the "long" party, since it profits if the referenced asset performs well. The party buying the insurance protection is referred to as the "short" party, because it profits if the referenced asset performs poorly.
 
-3 (suitability obligation to institutional customers).
-
 %%page 326%%
 
 The short party, or CDS buyer, typically pays periodic premiums, similar to insurance premiums, to the long party or CDS seller, who has guaranteed the referenced assets against a loss in value or a negative credit event such as a credit rating downgrade, default, or bankruptcy. If the loss or negative credit event occurs, the CDS seller is required to pay an agreed upon amount to the CDS buyer. Many CDS contracts also tracked the changing value of the referenced assets over time, and required the long and short parties to post cash collateral with each other to secure payment of their respective contractual obligations.
@@ -4476,7 +4472,7 @@ Deutsche Bank was, in Mr. Lippmann's words, part of a "CDO machine" run by inves
 
 %%page 333%%
 
-(1) Subcommittee Investigation and Findings of Fact
+#### (1) Subcommittee Investigation and Findings of Fact
 
 As part of its investigation into the CDO market and the Deutsche Bank case study, the Subcommittee collected and reviewed hundreds of thousands of Deutsche Bank documents including reports, analyses, memoranda, correspondence, transcripts, spreadsheets, and email. The Subcommittee also collected and reviewed documents from HBK Capital Management, several financial institutions that purchased Deutsche Bank CDO securities, and the Securities and Exchange Commission (SEC). In addition, the Subcommittee conducted 14 interviews, including interviews with current and former Deutsche Bank and HBK executives, managers, sales representatives, and traders; spoke with personnel from the financial institutions that invested in Gemstone 7; and consulted with a number of experts from the SEC, academia, and industry.
 
@@ -4494,7 +4490,7 @@ Based upon the Subcommittee's review, the Report makes the following findings of
 
 %%page 334%%
 
-(2) Deutsche Bank Background
+#### (2) Deutsche Bank Background
 
 CDOs In General. According to the Securities Industry and Financial Markets Association, $1.4 trillion worth of CDOs were issued in the United States from 2004 through the end of 2007.[^1260] The following chart depicts the dramatic rise and fall of the U.S. CDO market over the last ten years, with total CDO issuance reaching its peak in 2006 at $520 billion, and then falling to a low of $4 billion in 2009.[^1261]
 
@@ -4530,11 +4526,11 @@ The CDO Trading Desk conducted trades for both clients and other Deutsche Bank e
 
 Mr. Lippmann was well known in the CDO marketplace as a trader. He had joined Deutsche Bank in 2000, after a stint at Credit Suisse trading bonds. One publication noted that Mr. Lippmann "made his name with big bets on a housing bust," continuing: "Mr. Lippmann emerged as a Cassandra of the financial crisis, spotting cracks in the mortgage market as early as 2006. His warnings helped Deutsche brace for the crisis. He also helped investors – and himself – land huge profits as big bets that the housing market would collapse materialized."[^1273]
 
-(3) Deutsche Bank's $5 Billion Short
+#### (3) Deutsche Bank's $5 Billion Short
 
 In 2006 and 2007, Deutsche Bank's top CDO trader, Greg Lippmann, repeatedly warned his Deutsche Bank colleagues and some clients outside of the bank about the poor quality of the assets underlying many RMBS and CDO securities. Although senior management within the bank did not agree with his views, they allowed Mr. Lippmann, in 2005, to establish a large short position on behalf of the bank, essentially betting that mortgage related securities would fall in value. From 2005 to 2007, Mr. Lippmann built that position into a $5 billion short.
 
-(a) Lippmann's Negative Views of Mortgage Related Assets
+#### (a) Lippmann's Negative Views of Mortgage Related Assets
 
 Emails produced to the Subcommittee provide repeated examples of Mr. Lippmann's negative views of mortgage related assets, particularly those involving subprime mortgages. At times, he expressed his views to colleagues within the bank; at other times he expressed them in connection with advising a client to bet against an RMBS security by taking a short position. At times, Mr. Lippmann recommended that his clients short poor quality RMBS assets, even while his trading desk was participating in a selection process that included those same assets in Gemstone 7. The following emails by Mr. Lippmann, written during 2006 and 2007, provide examples of his negative views.
 
@@ -4574,7 +4570,7 @@ In March 2007, Mr. Lippmann again expressed his view that mortgage related asset
 
 > "I remain firm in my belief that these are blowing up whether people like it or not and that hpa [housing price appreciation] is far less relevant than these bulls think. Can't blame them because if this blows up lots of people lose their jobs so they must deny in hope that that will help prevent the collapse. At this price I'm nearly just as short as I've ever been."[^1293]
 
-(b) Building and Cashing in the $5 Billion Short
+#### (b) Building and Cashing in the $5 Billion Short
 
 Mr. Lippmann did not just express negative views of RMBS and CDO securities to his colleagues and clients, he also acquired a significant short position on those assets on behalf of Deutsche Bank. Despite the views of virtually all other senior executives at the bank that RMBS and CDO securities would gain in value over time, Mr. Lippmann convinced the bank to allow him to initiate and build a substantial proprietary short position that would pay off only if mortgage related securities lost value.
 
@@ -4627,7 +4623,7 @@ Cashing In the Short. In July 2007, the major credit rating agencies began issui
 
 Despite the gain from Mr. Lippmann's short position, Deutsche Bank told the Subcommittee that, overall in 2007, it had a long position in mortgage related holdings, with a face value of about $128 billion and a market value of more than $25 billion. Deutsche Bank told the Subcommittee that, despite the size of these holdings and their declining value, it lost only about $4.5 billion on those mortgage related holdings for the year.[^1322] Deutsche Bank also filed a 2007 annual report with the SEC claiming a 2007 profit of €7.2 billion.[^1323] When asked why its large long position in mortgage holdings did not lose more value, Deutsche Bank told the Subcommittee that it had placed large hedges, using U.S. Treasury bonds, which reduced its losses.[^1324]
 
-(4) The "CDO Machine"
+#### (4) The "CDO Machine"
 
 From 2006 to 2007, Mr. Lippmann repeatedly cautioned his colleagues and clients that the mortgage market was headed for a downfall, convinced a number of his clients to short RMBS and CDO securities, and built his $5 billion short position on behalf of Deutsche Bank. Meanwhile, the "CDO machine," as he described it, continued issuing new CDO securities through the end of 2007. The reasons for this continuing CDO activity, despite a deteriorating mortgage market and waning investor interest, are key to understanding how these complex, high risk, structured finance products ended up in multiple financial portfolios throughout the U.S. financial system.
 
@@ -4671,13 +4667,13 @@ In February 2007, when an investor wrote to Mr. Lippmann inquiring about the sta
 
 Mr. Lippmann had an unrelentingly negative view of the RMBS and CDO securities he traded. He believed the securities would ultimately lose value, but he also believed investment banks would do all they could to sustain the CDO market for as long as possible due to the CDO fees, prestige, market share, and jobs at stake.
 
-(5) Gemstone
+#### (5) Gemstone
 
 To understand how one investment bank, Deutsche Bank, continued to develop and aggressively solicit its clients to purchase CDO securities even as mortgage related securities lost value and the CDO market began collapsing, the Subcommittee examined in detail Gemstone 7, a $1.1 billion CDO. Gemstone 7 was assembled and marketed by Deutsche Bank, as sole placement agent, from October 2006 to March 2007.[^1343] Gemstone 7 was the last in a series of CDOs sponsored by HBK Capital Management (HBK), a large hedge fund.[^1344]
 
 Deutsche Bank issued the Gemstone 7 securities in March 2007. Six out of Gemstone's seven tranches received investment grade ratings, including AAA ratings for the top three tranches. Two months later, in July 2007, the major credit rating agencies issued mass rating downgrades of RMBS and CDO securities, including 19 of the 115 RMBS securities included or referenced in Gemstone 7. In November 2007, the credit rating agencies began to downgrade the Gemstone 7 securities. Today, all seven tranches have been downgraded to junk status, and the Gemstone 7 securities are nearly worthless.
 
-(a) Background on Gemstone
+#### (a) Background on Gemstone
 
 Gemstone 7 was a $1.1 billion hybrid CDO whose assets consisted predominantly of high risk subprime RMBS securities. Nearly 90% of its assets were mid and subprime RMBS securities with 33% carrying non-investment grade ratings.[^1345] Of the remaining assets, 4.5% were CDO securities; 3.3% were commercial mortgage backed securities; and 3.5% were securities backed by pools of student loans.[^1346] When the deal closed in March 2007, Gemstone 7 had about $476 million in cash RMBS assets as well as $625 million in synthetic assets.[^1347] Gemstone 7 was constructed as a "partially static" CDO, meaning that while some of its assets were set and could not change, others could be replaced by the collateral manager, HBK.
 
@@ -4707,7 +4703,7 @@ HBK deals were known for containing above average concentrations of BB or lower 
 
 HBK informed the Subcommittee that it had never shorted any of the assets in its seven Gemstone CDOs, that its CDO trade book was evenly matched with long and short CDO assets during the 2006-2007 period,[^1370] and that it lost over $700 million in its Structured Credit business unit during 2007.[^1371]
 
-(b) Gemstone Asset Selection
+#### (b) Gemstone Asset Selection
 
 As the collateral manager, HBK selected the assets for Gemstone 7, subject to approval by Deutsche Bank's structuring and trading groups before each asset could be placed in the Deutsche Bank warehouse account for the CDO.[^1372] According to HBK and Deutsche Bank personnel, the approval process worked in the following manner. First, HBK identified the RMBS, CDO, and other securities it wanted to include or reference in the CDO. HBK then sent an email to Mr. Lippmann or his traders at Deutsche Bank requesting that the identified assets be placed in the warehouse account for Gemstone 7. Deutsche Bank traders, sometimes in consultation with Mr. Lamont's structuring group, would then either approve or voice concerns regarding the proposed assets. If they had concerns, the traders would work with HBK personnel to resolve them. For example, on January 9, 2007, HBK's Jason Lowry sent an email to Mr. Lippmann and his trader, Jordan Milman, with a list of RMBS securities proposed for inclusion in Gemstone 7, and asked: "This is the last BB list for approval. Could you take a look?" On the same day, Mr. Milman wrote back: "approved contingent upon first pay defaults getting bought back on the 2 heat bonds."[^1373]
 
@@ -4739,7 +4735,7 @@ Mr. Jenks of HBK told the Subcommittee that HBK "never had a bond that we though
 
 %%page 357%%
 
-(c) Gemstone Risks and Poor Quality Assets
+#### (c) Gemstone Risks and Poor Quality Assets
 
 Gemstone 7's assets were assembled in late 2006 and early 2007, when the mortgage market was deteriorating and subprime mortgages were experiencing record delinquency rates. The CDO posed a host of risks due to both the state of the market and the poor quality of many of its underlying assets.
 
@@ -4807,7 +4803,7 @@ In still another instance, Deutsche Bank praised its sales force for placing a s
 
 Many investors would likely have found the negative views of Mr. Lippmann, Deutsche Bank's top CDO trader, important to their decision as to whether or not to buy Gemstone 7, but his views, as described above, were not disclosed to them. At the time, the traders on his desk as well as other Deutsche Bank CDO personnel knew that many clients valued and relied on Mr. Lippmann's opinion when making investment decisions, yet did not disclose his views of the specific assets included in Gemstone 7.[^1428] M&T Bank told the Subcommittee that had it known about Mr. Lippmann's views, it might have "thought twice" before purchasing Gemstone 7 securities.[^1429]
 
-(d) Gemstone Sales Effort
+#### (d) Gemstone Sales Effort
 
 Deutsche Bank began aggressively marketing Gemstone 7 to investors beginning in January 2007.[^1430] The bank communicated with potential investors about Gemstone 7 in a variety of ways, including through emails, telephone calls, face to face meetings, and at conferences. Deutsche Bank personnel also went on what they called "road shows" to cities around the world, to meet investors and pitch the CDO to them.[^1431] Sean Whelan, co-head of the Deutsche Bank CDO sales force, and Ilinca Bogza, a vice president in the Deutsche Bank syndicate group, worked to market Gemstone 7 to investors, including by scheduling road shows and personal meetings with potential investors.
 
@@ -4879,7 +4875,7 @@ Ultimately $400 million of Gemstone 7 was unsold. Although not contractually obl
 
 Deutsche Bank and HBK were unable to sell 36% of the securities and instead kept those securities on their books. Mr. Jenks of HBK told the Subcommittee that he always wanted to know if unsold portions of a CDO he was interested in investing in would be bought back by the underwriter, but he did not know if everyone asked about this.[^1482] M&T Bank told the Subcommittee that it would have been useful information, though it would have been more concerned if the tranches it was purchasing were not fully subscribed.[^1483]
 
-(e) Gemstone Losses
+#### (e) Gemstone Losses
 
 Gemstone 7 closed on March 15, 2007, and received credit ratings from S&P and Moody's on the same day.[^1484] The top three tranches, representing 73% of the value of the CDO, received AAA ratings. The next three tranches received investment grade ratings of AA, A, and BBB.[^1485] The CDO received these ratings even though one third of its underlying assets carried non-investment grade ratings.
 
@@ -4893,7 +4889,7 @@ Tranche Initial Rating: Date 1st Downgrade: Date 2nd Downgrade: Date 3rd Downgra
 
 Investors contacted by the Subcommittee reported that they had lost all or most of their investments. In June 2008, M&T Bank wrote down the value of its Gemstone 7 securities to about 2% of their original value – from $82 million to $1.87 million.[^1487] Wachovia Bank told the Subcommittee that its $40 million investment in Gemstone paid out approximately $3 million from 2007-2010, but is currently worth nothing.[^1488] Standard Chartered Bank told the Subcommittee that, in 2008, it liquidated its Gemstone investment and received approximately 25-30% of its initial $224 million investment.[^1489] Commerzbank told the Subcommittee that its initial $16 million investment in Gemstone is currently worth nothing.[^1490]
 
-(6) Other Deutsche Bank CDOs
+#### (6) Other Deutsche Bank CDOs
 
 Gemstone 7 was only one of many CDOs that Deutsche Bank assembled and underwrote as the mortgage market deteriorated in 2007. From December 2006 through December 2007, Deutsche Bank issued 15 new CDOs with assets totaling $11.5 billion.[^1491] The Subcommittee did not examine these CDOs, but a brief discussion of a few shows that the bank's issuance of high risk mortgage related assets was not confined to Gemstone 7.
 
@@ -4919,7 +4915,7 @@ Mr. Lamont told the Subcommittee that Mr. Paulson shorted the START deals, and h
 
 Mr. Lippmann told the Subcommittee that Deutsche Bank ended up losing a great deal of money on the START deals. One Deutsche Bank employee wrote to Mr. Lippmann regarding one of the deals in June 2007: "This along with our remaining held inventory if we can't sell away we repack into a CDO 2 balance sheet dump later this summer. Worst case we hold it but it is probably the lesser of two evils (the greater evil being our held START position)."[^1510]
 
-(7) Analysis
+#### (7) Analysis
 
 Deutsche Bank was the fourth largest issuer of CDOs in the United States. It continued to issue CDOs after mortgages began losing money at record rates, investor interest waned, and its most senior CDO trader concluded that the mortgage market in general and the specific RMBS securities being included in the bank's own CDOs were going to lose value. Mr. Lippmann derided specific RMBS securities and advised his clients to short them, at the same time his desk was allowing the very same securities to be included or referenced in Gemstone 7, a CDO that the bank was assembling for sale to its clients. In fact, the bank was selling some assets that Mr. Lippmann believed contained "crap." While the Gemstone CDO was constructed and marketed by the bank's CDO Desk, which is separate from the trading desk controlled by Mr. Lippmann, both desks knew of Mr. Lippmann's negative views. The bank managed to sell $700 million in Gemstone 7 securities which then failed within months, leaving the bank's clients with worthless investments.
 
@@ -5605,8 +5601,6 @@ On June 8, 2007, Mr. Sparks received an urgent early morning email from Goldman'
 
 Around June 12, 2007, public news accounts indicated that the two Bear Stearns funds were unable to meet collateral calls on their subprime mortgage backed securities holdings.[^1774] The funds also devalued their Net Asset Valuations (NAVs) to significantly lower levels, which effectively triggered the funds' total collapse.[^1775]
 
-> Mr. Lehman: Told Egol I'm comfortable w/ the prices, especially when u include the 5 pt [percent] HC [haircut.] Don't think mar[k]ing him down 1 or 2 pts makes sense or sends the right message .... I wud run it by Dan [Sparks] and get his take .... [M]y opinion is that the Firm is appropriately protected w/ current HC [haircut] and mark. Mr. Swenson: W e need to mark him he is the biggest elephant by far and it has an impact on the m$arket[.] Mr. Lehman: How much do u [sic] want to mark him by? Mr. Swenson: A lot[.] Mr. Lehman: I disagree on this one ... Let's talk tomorrow[.] Mr. Swenson: He is done[.]
-
 %%page 433%%
 
 The failure of the Bear Stearns hedge funds triggered another decline in the value of subprime mortgage related assets. The ABX Index, which was already falling, began a steep, sharp decline. The collapse had further negative effects when the hedge funds' massive subprime holdings were suddenly dumped on the market for sale, further depressing prices of subprime RMBS and CDO assets.
@@ -5675,8 +5669,6 @@ On August 20, 2007, Mr. Sparks pitched the idea again to Mr. Montag and other se
 
 > That's a great trade – buy and flip up 1-2 points, however, we're not always going to be able to do that – and there's the opportunity for us to make 5-10 points if we have a longer term hold."[^1814]
 
-is a significant escalation of the subprime meltdown. ... At its heart, the main shoe to fall will be when the rating agencies downgrade to the aaa level. I don't see as they have much of a choice. Mez[zanine] aaa cdo trade in the 20 and 30s cannot be overlooked even by the agencies." Id.
-
 %%page 439%%
 
 On August 21, 2007, Mr. Birnbaum presented the Mortgage Department's plan to buy up to $10 billion in AAA rated RMBS securities.[^1815] The plan had dual objectives, to profit from the intrinsic financial value of the proposed assets and to use those assets to preserve, rather than cover, the Department's existing $3.5 billion BBB/BBB- net short:
@@ -5692,8 +5684,6 @@ On August 21, 2007, Mr. Birnbaum presented the Mortgage Department's plan to buy
 > – On the demand side, we plan to share this trade quietly with selected risk partners. We began doing so yesterday when we sold 1/3 of the AAAs purchased off the [seller] list to [customer] and 100% of the AAAs from [seller] to [customer] and [customer]."[^1816]
 
 Mr. Montag responded that he wanted to discuss the concept further.[^1817] Mr. McMahon wrote: "What are we holding against the 3.5b mezz shorts right now? Why don't we just cover the shorts?"[^1818] Co-President Gary Cohn emailed Messrs. Mullen, Winkelried, and Montag: "I do like the idea but you[r] call."[^1819] Before any further discussion took place, however, events overtook the debate.
-
-[M cMahon]. W e aren't going crazy with it, just being opportunistic. Before we get large, we are going to lay out a strategy for the four of you.").
 
 %%page 440%%
 
@@ -5747,15 +5737,9 @@ Indeed, the Mortgage Department made $110 million the very next day.[^1851] Mr. 
 
 (g) Goldman's Records Confirm Large Short Position
 
-In addition to contemporaneous emails, presentations, and reports, Goldman's large net short position is reflected in its own financial records, including its Mortgage Department Top Sheets.[^1854] Goldman's Mortgage Department kept records of its overall net short positions across
-
-"c. W illingness to put on trades that others don't want/know where to price The 2 most successful trades in this regard have been our $70mm long Alt-A protection and our $1-2bb long subprime Single-A protection [i.e., being "short risk" or taking short side in a CDS transaction]. W hen CDOs wanted to sell Alt-A and single-A protection ... the rest of the street was tentative. ... W e viewed this as a tremendous opportunity to buy cheap out-of-the-money options at a significant discount to fair-value. Our exit strategy was always that if sub-prime fundamentals got bad enough, and they did, that the contagion would have to spread up the capital structure because cum loss vol/uncertainty has to go up thus. . . .$400mm so far for the desk ....
-
-"d. CDO CDS trade: This trade has made $900mm so far, which exceeded all of our high expectations for the trade. I had the confidence and desire for the desk to buy A, AA, and AAA CDO CDS protection in size during the fall of 2006 for several reasons: ... [T]he rating agencies' correlation assumptions were out of whack with the growing concern about the housing market and the remarkable similarity between the bonds in a CDO, the difficulty that GS was having in placing such mezzanine liabilities and the complexity of such securities scared hedge funds from buying the protection themselves. Edwin and I used the same aggressive strategies in purchasing protection that we used to dominate the SN CDS market. Our market share was enormous ... and we did every ... trade possible." Id.
+In addition to contemporaneous emails, presentations, and reports, Goldman's large net short position is reflected in its own financial records, including its Mortgage Department Top Sheets.[^1854] Goldman's Mortgage Department kept records of its overall net short positions across various subprime asset classes on a daily basis throughout most of 2007.[^1855] Those records indicate that the Mortgage Department had large net short positions in the subprime mortgage market throughout most of 2007. Goldman's documents reveal that it had a $10 billion net short position at the end of February 2007, and a $13.9 billion net short position in mid-June 2007.[^1856]
 
 %%page 446%%
-
-various subprime asset classes on a daily basis throughout most of 2007.[^1855] Those records indicate that the Mortgage Department had large net short positions in the subprime mortgage market throughout most of 2007. Goldman's documents reveal that it had a $10 billion net short position at the end of February 2007, and a $13.9 billion net short position in mid-June 2007.[^1856]
 
 (i) Top Sheets
 
@@ -6183,11 +6167,9 @@ In response to the December 14, 2006 meeting at which CFO David Viniar ordered t
 
 AA. RMBS Sell Off
 
-As described earlier, on the same day as the Viniar meeting, December 14, 2006, Kevin Gasvoda, head of the Mortgage Department's Residential Whole Loan Trading Desk, instructed his staff to undertake an immediate, concerted effort to sell the whole loans and RMBS securities in Goldman's inventory and warehouse accounts, focusing on RMBS securities from Goldman-originated securitizations.[^2024] By February 9, 2007, the Goldman sales force reported a substantial growth and the market are DEAD if that's the case.") [emphasis in original].
+As described earlier, on the same day as the Viniar meeting, December 14, 2006, Kevin Gasvoda, head of the Mortgage Department's Residential Whole Loan Trading Desk, instructed his staff to undertake an immediate, concerted effort to sell the whole loans and RMBS securities in Goldman's inventory and warehouse accounts, focusing on RMBS securities from Goldman-originated securitizations.[^2024] By February 9, 2007, the Goldman sales force reported a substantial number of sales,[^2025] and by the end of February, Goldman's controllers reported that Goldman's inventory of whole loans had "decreased from $11bn to $7bn" with "subprime loans decreased from $6.3bn to $1.5bn," a reduction of more than two-thirds.[^2026]
 
 %%page 482%%
-
-number of sales,[^2025] and by the end of February, Goldman's controllers reported that Goldman's inventory of whole loans had "decreased from $11bn to $7bn" with "subprime loans decreased from $6.3bn to $1.5bn," a reduction of more than two-thirds.[^2026]
 
 In addition, during the first quarter of 2007, the Mortgage Department drastically slowed its RMBS origination business and its purchase of whole loans and RMBS securities.[^2027] Those actions meant that Goldman was not only reducing its inventory, but also reducing its intake of what had previously been a constant inflow of billions of dollars in whole loans and RMBS securities purchased as part of its securitization business.
 
@@ -6229,13 +6211,9 @@ Mr. Gasvoda responded:
 
 > "Yes .... I think priority s/b [should be] on Fremont and Long Beach on 2nd lien deals. Fremont first since they still have cash but may not for long. ... [O]n NC2 we need not halt that entirely but should pull back resources there. We should also move 06FM2 [Fremont second lien loans] up the priority list."
 
-Goldman made a total of about $46 million in repurchase requests to Fremont, another subprime lender for whom Goldman had underwritten multiple securities and which was also among the five mortgage originators to whom Goldman made the most repurchase requests in 2006 and 2007.[^2048] When Goldman personnel reviewed a loan pool purchased from Fremont, the results were even worse than for the New Century loans. Goldman concluded that "on average, about 50% of about 200 files look to be repurchase obligations."[^2049] Later, Goldman came to a similar
-
-> (if 2nd liens). ... – approx 5% of the pool was possibly originated fraudulently based on the dd [due diligence] results. Main findings: possible ID theft, broker misrepresentations, straw buyer, and falsification of information in origination docs. ... "approx 62% of the pool has not made any payments (4% were reversed pymts/nsf [non-sufficient funds]) ... "approx 38% of the loans are out of [loan to value] tolerance."
+Goldman made a total of about $46 million in repurchase requests to Fremont, another subprime lender for whom Goldman had underwritten multiple securities and which was also among the five mortgage originators to whom Goldman made the most repurchase requests in 2006 and 2007.[^2048] When Goldman personnel reviewed a loan pool purchased from Fremont, the results were even worse than for the New Century loans. Goldman concluded that "on average, about 50% of about 200 files look to be repurchase obligations."[^2049] Later, Goldman came to a similar conclusion after reviewing certain loans purchased from Countrywide, again finding that about 50% of the loans reviewed were candidates for return to the lender.[^2050]
 
 %%page 487%%
-
-conclusion after reviewing certain loans purchased from Countrywide, again finding that about 50% of the loans reviewed were candidates for return to the lender.[^2050]
 
 Goldman made a total of about $34 million in repurchase requests to Long Beach, a subprime lender for whom Goldman had underwritten billions of dollars in RMBS securities and which was also among the five mortgage originators to whom Goldman made the most repurchase requests in 2006 and 2007.[^2051] Goldman pressed both Long Beach and its parent Washington Mutual for repayment of millions of dollars in refunds. At one point, a Goldman executive involved in the repurchase effort sent an email to the head of Washington Mutual Home Loans Division, David Schneider. After noting that Long Beach second lien loans were "performing dramatically worse" than other 2006 RMBS securities, the Goldman executive wrote: "As you can imagine, this creates extreme pressure, both economic and reputational, on both organizations."[^2052]
 
@@ -6513,15 +6491,9 @@ Goldman generally declined to offer any written explanations of its marks to cli
 
 In November 2007, Goldman analysts issued a research report to clients about the crisis in the mortgage market.[^2169] Goldman predicted that the mortgage market crisis was likely to continue and would have serious implications for a significant number of financial institutions: "Writedowns and losses will continue to mount .... [M]anagements will need to repair some seriously damaged balance sheets."[^2170] Goldman estimated that industry-wide losses reflecting markdowns in subprime mortgage CDOs would approach $150 billion, of which about $40 billion would be taken in the third and fourth quarters of 2007.[^2171]
 
-Customers who purchased CDO assets from Goldman in 2007 generally suffered substantial losses from those investments, and several went bankrupt, including IKB, a German bank, and Basis Capital, the Australian hedge fund.[^2172] Goldman was not only aware of its clients' predicaments,
-
-> "After much discussion internally, we will improve our bid to 98-00 given the market color we have observed in the past two days. The markdown was mostly a reaction to rating agency downgrade and partly reflected the illiquidity of the position, but upon further analysis we have gotten more comfortable with the risk position and agree it should be marked at a higher price."
-
-Id.
+Customers who purchased CDO assets from Goldman in 2007 generally suffered substantial losses from those investments, and several went bankrupt, including IKB, a German bank, and Basis Capital, the Australian hedge fund.[^2172] Goldman was not only aware of its clients' predicaments, but in some cases, Goldman purchased CDS protection or equity puts on its clients' stock, essentially betting that the stock price would fall or the company would lose value. For example, after ACA Financial Guaranty Corp., the parent company of ACA Management which acted as the collateral manager of Abacus 2007-AC1, purchased Abacus securities, Goldman purchased the short side of a CDS contract that referenced ACA Financial Guaranty. ACA Financial Guaranty encountered extreme financial distress in late 2007.[^2173]
 
 %%page 511%%
-
-but in some cases, Goldman purchased CDS protection or equity puts on its clients' stock, essentially betting that the stock price would fall or the company would lose value. For example, after ACA Financial Guaranty Corp., the parent company of ACA Management which acted as the collateral manager of Abacus 2007-AC1, purchased Abacus securities, Goldman purchased the short side of a CDS contract that referenced ACA Financial Guaranty. ACA Financial Guaranty encountered extreme financial distress in late 2007.[^2173]
 
 At the Subcommittee hearing, Goldman executives were asked about the four Goldman-originated CDOs highlighted in this Report, Hudson 1, Anderson, Timberwolf, and Abacus 2007- AC1.[^2174] Senator John Tester noted Mr. Birnbaum's testimony that, in 2007, Goldman could "see some things happening,"[^2175] and that Goldman itself was betting against the mortgage market. Senator Tester asked Mr. Sparks, in light of those developments, "how [he] got comfortable with sales," and how he "in good faith" sold the CDO securities to Goldman's customers – how he could "sell them out and collect the fees and make the dough?"[^2176] Senator Tester and Mr. Sparks then had the following exchange:
 
@@ -6651,8 +6623,6 @@ After getting the commitment from Morgan Stanley, Goldman turned its focus to se
 
 Goldman's CDO marketing strategy typically involved its sales personnel sending clients a marketing booklet outlining different features of a particular CDO. Mr. Herrick drafted the marketing booklet for Hudson 1, and circulated it for review to Mr. Ostrem and other members of the CDO Origination Desk including Benjamin Case and Matthew Bieber.[^2253] The executive summary of the marketing booklet described Goldman's Hudson CDO program generally and Hudson 1 in particular:
 
-Subcommittee, Mr. Salem had no specific recollection of how assets were selected for Hudson 1 and little specific recollection about Hudson 1 as a whole. Subcommittee interview of Deeb Salem (10/6/10).
-
 %%page 524%%
 
 > "Goldman Sachs developed the Hudson CDO program in 2006 to create a consistent, programmatic approach to invest in attractive relative value opportunities in the RMBS and structured product market[.]
@@ -6701,7 +6671,7 @@ The Offering Circular contained a section entitled, "Certain Conflicts of Intere
 
 This disclosure indicates that GSI or an affiliate "may invest and/or deal" in securities or other "interests" in the assets underlying the Hudson CDO, and "may invest and/or deal" in CDS contracts that are "linked to" the Hudson "investments." The Offering Circular, however, misrepresented Goldman's investment plans. At the time it was created in December 2006, Goldman had already determined to keep 100% of the short side of the Hudson CDO and act as the sole counterparty to the investors buying Hudson securities, thereby acquiring a $2 billion financial interest that was directly adverse to theirs.
 
-Tracking Hudson. Once it constructed the Hudson CDO, Goldman personnel were focused on completing and selling the Hudson 1 securities as quickly as possible. At least one other CDO was pushed back to facilitate the execution of Hudson 1.[^2270] broker-dealer intermediate between the market and a CDO vehicle was desirable to credit rating agencies in order to minimize risk in the CDO, and Goldman clearly disclosed this role to investors.
+Tracking Hudson. Once it constructed the Hudson CDO, Goldman personnel were focused on completing and selling the Hudson 1 securities as quickly as possible. At least one other CDO was pushed back to facilitate the execution of Hudson 1.[^2270]
 
 %%page 528%%
 
@@ -7583,7 +7553,7 @@ When the Timberwolf collateral manager objected, Goldman backed down and allowed
 
 %%page 602%%
 
-(6) Analysis of Goldman's Conflicts of Interest
+#### (6) Analysis of Goldman's Conflicts of Interest
 
 The Goldman Sachs case study identifies a number of practices that raise conflict of interest concerns. Those practices include the following.
 
@@ -7615,7 +7585,7 @@ The Goldman Sachs case study identifies a number of practices that raise conflic
 
 These practices raise a wide range of ethical and legal concerns. This section examines the key issues of whether Goldman had a legal obligation to disclose to clients the existence of material adverse information, including conflicts of interest, when selling them RMBS and CDO securities; whether Goldman had material adverse interests that should have been disclosed to investors; and whether Goldman had an obligation not to recommend securities that were designed to lose value. Many of these issues hinge upon the proper treatment of financial instruments, such as credit default swaps and CDOs, which enable an investment bank to bet against the very same securities it is selling to clients.
 
-(a) Securities Laws
+#### (a) Securities Laws
 
 To protect fair, open, and efficient markets for investors, federal securities laws impose a range of specific disclosure and fair dealing obligations on market participants, depending upon the securities activities they undertake. In the matters examined by the Subcommittee, the key roles under the securities laws include market maker, underwriter, placement agent, broker-dealer, and investment adviser.
 
@@ -7679,11 +7649,11 @@ Suitability rules are intended to prevent abuses that contributed to the stock c
 
 Investment Advisers. For investment banks that act, not just as a broker-dealer, underwriter, or placement agent, but also as an investment adviser to their customers, federal securities laws impose still a higher legal duty. When acting as an investment adviser, the law imposes a fiduciary obligation on the investment bank to act in the "best interests of its clients."[^2694] A person qualifies as an "investment adviser" under the Investment Advisers Act if that person: provides advice regarding securities, is in the business of providing such advice, and provides that advice for compensation.[^2695] A broker-dealer, however, is excluded from the Investment Advisers Act if the performance of its investment advisory services is "solely" incidental to its business as a broker-dealer, and the broker-dealer does not receive "special compensation" for providing those advisory services.[^2696] Because Goldman appears to have acted primarily as an underwriter, placement agent, or broker-dealer in carrying out its securitization activities, this section analyzes Goldman's conduct in that context and not in the context of an investment adviser.[^2697]
 
-(b) Analysis
+#### (b) Analysis
 
 One key issue is whether Goldman was acting as a market maker versus an underwriter or placement agent when it recommended that its clients purchase its CDO and RMBS securities, since those roles have different disclosure and suitability obligations under the law. A second key issue is whether Goldman withheld material adverse information when recommending its securities to its clients, including the fact that it was shorting the securities it was selling. A third key issue is whether Goldman violated its obligation to make suitable investment recommendations when urging customers to purchase securities that Goldman knew were designed to lose value.
 
-(i) Claiming Market Maker Status
+#### (i) Claiming Market Maker Status
 
 Given its active role in the securitization markets, Goldman assumed a variety of roles in the development, marketing, and trade of RMBS and CDO products. At times, it acted as a market maker responding to client orders to buy and sell RMBS and CDO products. In addition, from 2006 to 2007, Goldman originated and served as an underwriter or placement agent for 27 CDOs and 93 RMBS securitizations, and sold the resulting RMBS and CDO securities to a broad range of clients around the world.
 
@@ -7749,7 +7719,7 @@ Despite this acknowledged fact, Goldman continued to claim it was a market maker
 
 During the interview, Mr. Blankfein compared Goldman's activity to that of the New York Stock Exchange, claiming that the firm was a market maker taking buy and sell orders from clients.[^2705] At one point, Mr. Rose asked: "Has there ever been a time when Goldman's investment advisers bought securities from Goldman for a client and at the same time Goldman was simultaneously shorting it?" Mr. Blankfein responded: "I have to explain, see this is a problem. As a market maker, we are buying and selling a thousand times a minute, probably." Mr. Blankfein also stated during the interview: "If we believed it would fail, the security wouldn't work, we would not sell it."[^2706]
 
-(ii) Soliciting Clients and Recommending Investments
+#### (ii) Soliciting Clients and Recommending Investments
 
 Under federal securities law and FINRA Rules detailed above, when a broker-dealer, acting as an underwriter or placement agent brings a specific security to the attention of a particular customer, it is considered to be recommending the security to that customer and has an obligation to disclose all material adverse information to that customer, including any adverse interest that a reasonable investor would consider material in considering the broker-dealer's recommendation. Despite Goldman's frequent efforts to characterize its CDO and RMBS sales efforts as a market making activity in response to client demand, Goldman's internal documents, emails, and interviews indicate that, from late 2006 through 2007, Goldman was not always responding to client demand, but was also aggressively soliciting customers in an attempt to sell its CDO and RMBS products.
 
@@ -7767,7 +7737,7 @@ When CDO sales slowed in May 2007, the Mortgage Department produced a new "targe
 
 These and other documents show that, in late 2006 and 2007, Goldman was not acting as primarily a market maker responding to client demand when it originated and sold Hudson, Anderson, Timberwolf, and Abacus securities, or when it sold other RMBS and CDO assets that senior management wanted to remove from the firm's books due to their declining values and increasing risk. Instead, Goldman was acting as an underwriter, placement agent, or broker-dealer, aggressively soliciting its clients to purchase the CDO and RMBS products that senior management wanted to eliminate from its inventory.
 
-(iii) Failing to Disclose Material Adverse Information
+#### (iii) Failing to Disclose Material Adverse Information
 
 Goldman's marketing and solicitation efforts to sell Hudson, Anderson, Timberwolf, and Abacus securities, along with other CDO and RMBS assets, to clients raise multiple questions about whether Goldman met its obligation to disclose material adverse information to potential investors. A related question is whether Goldman met its obligation to avoid material misrepresentations and omissions of material facts when recommending the purchase of those securities. One key issue is whether Goldman's failure to disclose its shorting activities, which would enable it to profit from a decline in the value of the very securities Goldman was recommending to its clients to purchase, qualified as an "omitted fact" that "would have been viewed by the reasonable investor as having significantly altered the 'total mix' of information made available" about the security being recommended by Goldman.[^2720]
 
@@ -7803,7 +7773,7 @@ Other Adverse Information. In addition to its failure to disclose that it was sh
 
 These types of arrangements, when undisclosed, can result in conflicts of interest that disadvantage investors. The existence, nature, and extent of such arrangements are the type of material adverse information that the securities laws were designed to ensure were accurately described and disclosed to investors.
 
-(iv) Making Unsuitable Investment Recommendations
+#### (iv) Making Unsuitable Investment Recommendations
 
 In addition to the disclosure issues, Goldman's efforts to sell Hudson, Anderson, Timberwolf, and Abacus securities raise a set of issues related to whether Goldman met its obligation to engage in fair dealing with its clients and avoid recommending investments that were unsuitable for any investor. The focus here is on Goldman's sale of CDO securities that were designed to lose value, either because the short party selected the assets or the assets were so poor that Goldman knew or should have known they would perform poorly or fail, yet marketed them to customers anyway.
 
@@ -7847,7 +7817,7 @@ Goldman CEO Lloyd Blankfein said publicly about the firm's securities: "If we be
 
 This analysis examines Goldman's conduct in the context of the law prevailing in 2007. Since then, the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 has established new conflict of interest prohibitions that would apply to this type of conduct, including Section 621 which bars any underwriter or placement agent of an asset backed security from engaging in any transaction "that would involve or result in any material conflict of interest with respect to any investor in a transaction arising out of such activity."
 
-(7) Goldman's Proprietary Investments
+#### (7) Goldman's Proprietary Investments
 
 When reviewing the conflict of interest issues related to Goldman's mortgage related activities in 2006 and 2007, another issue examined by the Subcommittee was the extent to which Goldman's Mortgage Department was engaged in proprietary trading.[^2780]
 
@@ -7917,8 +7887,6 @@ Perhaps the strongest indicator that Goldman's large net short positions were pr
 
 > We made money: a) taking large directional views, the direction of which we changed several times, b) ... betting the bad names would get much worse vs. the good ones, c) shorting CDOs, d) capturing the index to single name basis ... among other things."[^2814]
 
-wrote that his desk sold short positions on single name CDS contracts only to customers that could provide Goldman with useful information: "We were very aggressive with pricing and only shared risk [short positions] with smart guys if they gave us insight on names to go short or go long in return.").
-
 %%page 632%%
 
 In a later presentation put together to propose a new compensation arrangement for the SPG Trading Desk's trading activities, Mr. Birnbaum was unequivocal that the net shorts the desk had acquired were not hedges to offset risk, but "outright" short investments to produce profits:
@@ -7979,7 +7947,7 @@ Proprietary trading was not prohibited by law in 2007, and Goldman was free to a
 
 Developments over the past two years offer a number of ways to address problems identified in the Goldman Sachs and Deutsche Bank case studies. The success of those alternatives will depend in large part upon how they are implemented, and the degree to which the market disruptions caused by the financial crisis convince investment banks to realign their use of structured finance products, curb their proprietary trading, and respect the interests of their clients. Success will also depend upon sensible implementation of the measures enacted into law by the Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act).
 
-(1) New Developments
+#### (1) New Developments
 
 The Dodd-Frank Act contains several measures that affect investment banking practices. Three key provisions involve proprietary investments, conflicts of interest, and a new study of permitted banking activities.
 
@@ -8005,7 +7973,7 @@ Study of Banking Activities. Section 620 of the Dodd-Frank Act directs banking r
 
 Structured Finance Guidance. In connection with provisions in the Dodd-Frank Act related to approval of new products and standards of business conduct,[^2847] the banking agencies, SEC, and CFTC may update and strengthen existing guidance on new structured finance products. In 2004, after the collapse of the Enron Corporation, the banking regulators and SEC proposed joint guidance to prevent abusive structured finance transactions.[^2848] This guidance, which was not finalized until January 2007, was issued in a much weaker form.[^2849] The final guidance eliminated, for example, warnings against structured finance products that facilitate deceptive accounting, circumvention of regulatory or financial reporting requirements, or tax evasion, as well as detailed guidance on the roles that should be played by a financial institution's board of directors, senior management, and legal counsel in approving new products and on the documentation they should assemble.
 
-(2) Recommendations
+#### (2) Recommendations
 
 To prevent investment bank abuses and protect the U.S. financial system from future financial crises, this Report makes the following recommendations.
 
@@ -8131,7 +8099,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^53]: See "MBS Ratings and the Mortgage Credit Boom," Federal Reserve Bank of New York Staff Report no. 449, May 2010, at 1.
 
-[^54]: See, e.g., "Percent of the Original AAA Universe Currently Rated Below Investment Grade," chart prepared by BlackRock Solutions, Hearing Exhibit 4/23-1i. See also 3/2008 "Understanding the Securitization of Subprime Mortgage Credit," Federal Reserve Bank of New York Staff Report no. 318, at 58 and chart 31 ("92 percent of 1st-
+[^54]: See, e.g., "Percent of the Original AAA Universe Currently Rated Below Investment Grade," chart prepared by BlackRock Solutions, Hearing Exhibit 4/23-1i. See also 3/2008 "Understanding the Securitization of Subprime Mortgage Credit," Federal Reserve Bank of New York Staff Report no. 318, at 58 and chart 31 ("92 percent of 1st- lien subprime deals originated in 2006 as well as … 91.8 percent of 2nd-lien deals originated in 2006 have been downgraded.").
 
 [^55]: 2/2008 "Structured Finance Ratings Transitions, 1983-2007," Credit Policy Special Comment prepared by Moody's, at 4.
 
@@ -9081,7 +9049,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^528]: See, e.g., 4/12/2004 "Pre-Meeting for Fannie Mae," internal presentation prepared by WaMu, at JPM_WM02405461, JPM_WM02405467, Hearing Exhibit 4/16-86 (chart entitled, "Overview of the Alliance," and "WaMu was responsible for 34.7% of Fannie Mae's Multifamily business").
 
-[^529]: See 9/29/2005 "GSE Forum," internal presentation prepared by WaMu, at JPM_WM02575611, Hearing Exhibit 4/16-91 (chart entitled, "WaMu's Deliveries – Contract to Date 2005"). During the same time period in 2005, WaMu sold about 99,000 loans with a total loan amount of about $35 billion to buyers other than Fannie and
+[^529]: See 9/29/2005 "GSE Forum," internal presentation prepared by WaMu, at JPM_WM02575611, Hearing Exhibit 4/16-91 (chart entitled, "WaMu's Deliveries – Contract to Date 2005"). During the same time period in 2005, WaMu sold about 99,000 loans with a total loan amount of about $35 billion to buyers other than Fannie and Freddie. The two largest categories of loans sold to buyers other than Fannie or Freddie were jumbo loans (43,758 loans with a total loan amount of $26.9 billion) and government backed loans in securities guaranteed by Ginnie Mae (35,291 loans with a total loan amount of $4.6 billion). Id.
 
 [^530]: Id. The chart indicates that WaMu sold over 17,000 loans with a total loan amount of nearly $4 billion to Freddie Mac, but only 5,841 Option ARMs with a total loan amount of $1.2 billion to all other buyers. It is possible, however, that the data on Option ARMs sold to other buyers is understated if some portion of the loans categorized on the chart as "jumbo" loans were, in fact, also Option ARMs. See, e.g., Id. at JPM_WM02575611, Hearing Exhibit 4/16-91 (interpretive note below chart); 8/2006 WaMu chart entitled, "WaMu Originations Product Mix," at JPM_WM00212644, Hearing Exhibit 4/13-37 (showing that WaMu used Option ARMs in both conforming and jumbo loans). In addition to selling Option ARMs to Freddie Mac and others, WaMu kept a portion of the Option ARMs it originated in its investment portfolio and securitized still others.
 
@@ -10311,7 +10279,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1143]: 5/8/2007 instant message exchange between Shannon Mooney and Andrew Loken, Hearing Exhibit 4/23-30b.
 
-[^1144]: 5/12/2005 email from Michael Drexler to Kenneth Cheng and others, Hearing Exhibit 4/23-10c. In a similar email, S&P employees discuss questionable and inconsistent application of criteria. 8/7/2007 email from Andrew Loken to Shannon Mooney, Hearing Exhibit 4/23-96a ("Back in May, the deal had 2 assets default, which caused it to fail. We tried some things, and it never passed anything I ran. Next thing I know, I'm told that because it had
+[^1144]: 5/12/2005 email from Michael Drexler to Kenneth Cheng and others, Hearing Exhibit 4/23-10c. In a similar email, S&P employees discuss questionable and inconsistent application of criteria. 8/7/2007 email from Andrew Loken to Shannon Mooney, Hearing Exhibit 4/23-96a ("Back in May, the deal had 2 assets default, which caused it to fail. We tried some things, and it never passed anything I ran. Next thing I know, I'm told that because it had gone effective already, it was surveillance's responsibility, and I never heard about it again. Anyway, because of that, I never created a new monitor.").
 
 [^1145]: 3/14/2007 email from Calvin Wong to Tom Gillis, Hearing Exhibit 4/23-29. See also 2008 SEC Examination Report for Standard and Poor's Ratings Services, Inc., PSI-SEC (S&P Exam Report)-14-0001-24, at 6-7 ("[C]ertain significant aspects of the rating processes and the methodologies used to rate RMBS and CDOs were not always disclosed, or were not fully disclosed …. [S]everal communications by S&P employees to outside parties related to the application of unpublished criteria, such as 'not all our criteria is published. [F]or example, we have no published criteria on hybrid deals, which doesn't mean that we have no criteria,'" citing an 8/2006 email from the S&P Director of the Analytical Pool for the Global CDO Group.).
 
@@ -10525,7 +10493,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1250]: FINRA Notice No. 96-60.
 
-[^1251]: See FINRA Rules 2210(d)(1)(A) and 2211(a)(3) and (d)(1) (by rule all institutional sales material and correspondence may not "omit any material fact or qualification if the omission, in the light of the context of the material presented, would cause the communications to be misleading.") . See also FINRA Rule 2310 and IM-2310-
+[^1251]: See FINRA Rules 2210(d)(1)(A) and 2211(a)(3) and (d)(1) (by rule all institutional sales material and correspondence may not "omit any material fact or qualification if the omission, in the light of the context of the material presented, would cause the communications to be misleading.") . See also FINRA Rule 2310 and IM-2310- 3 (suitability obligation to institutional customers).
 
 [^1252]: CDO squared transactions will generally be referred to in this Report as "CDO 2." Some Goldman materials also use the term "CDO^2."
 
@@ -11563,7 +11531,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1769]: See 6/7/2007 Goldman email chain, "BSAM Post," GS MBS-E-011184213.
 
-[^1770]: Id. Some have suggested that the financial problems experienced by the Bear Stearns hedge funds were caused in part by severe markdowns taken by Goldman on assets held in the funds' portfolios, and that Goldman caused the funds to collapse. In its final report, the Financial Crisis Inquiry Commission (FCIC) briefly addressed these allegations. See The Financial Crisis Inquiry Report 2010 at 237-40, 244 (hereinafter "Final Report"). Goldman denied the allegations with respect to its April and M ay 2007 marks in filings with the FCIC. See 11/1/2010 letter from Goldman counsel Janet Broecke to FCIC, "FCIC Requests for Documents and Information" and Appendices A- G, available at www2.goldmansachs.com. The FCIC's Final Report was critical of Goldman's marks in general as being significantly lower than those of other banks and noted in particular its collateral dispute with AIG. See Final Report at 243-44, 265-71. W ith respect to the Bear Stearns hedge funds, however, the Final Report merely noted that Bear Stearns had disputed marks from Goldman and three other banks and cited the testimony of the funds' portfolio manager, Ralph Cioffi, that "a number of factors contributed to the April revision [in the hedge funds' values, which ultimately led to the funds' collapse], and Goldman's marks were one factor." Final Report at 240. In addition to the markdowns in April and May, Goldman also marked down certain CDO securities held by the Bear Stearns funds in June 2007, but it appears those June markdowns did not play a significant role in the hedge funds' collapse. That month, Goldman marked down their positions in four Goldman CDOs by two points each. See, e.g., 6/8/2007 email from Jonathan Egol to Daniel Sparks, "BSAM mark recap," GS MBS-E-001920339 (Mr. Egol emailed Mr. Sparks a recap of the Bear Stearns markdowns and stated: "W e lowered the marks on 4 bonds down 2 pts each."). Mr. Swenson had urged larger markdowns, but his advice was not followed. On June 7, 2007, Mr. Egol had first marked down the funds' holdings in a single Abacus CDO by 2 points, from 89 to 87. Mr. Egol emailed Mr. Sparks a spreadsheet with a cover note: "GS exposure to BSAM [Bear Stearns Asset Management] as of today. ABACUS mark corrected to 87 to handle." 6/7/2007 email from Mr. Egol to Mr. Sparks GS MBS-E-003375593. Since Abacus was only one of four Goldman CDOs in which the Bear Stearns funds held positions, Mr. Swenson emailed Mr. Lehman recommending further markdowns: Mr. Swenson: I am on the same page [as] egol we n[e]ed to mark him [Ralph Cioffi, Portfolio Manager of the Bear Stearns funds] 6/7/2007 email exchange between Mr. Swenson and Mr. Lehman, "BSAM Post," GS MBS-E-011184213. The next day, Friday, June 8, 2007, Mr. Egol reported he had marked down all four CDO positions by two points. 6/8/2007 email from Jon Egol to Daniel Sparks, "BSAM mark recap," GS MBS-E-001920339. Upon reviewing the marks the following Monday, Mr. Sparks wrote: "The marks look stale." 6/11/2007 email from Daniel Sparks, "BSAM Exposure Summary," GS MBS-E-010798675. A Mortgage Department employee replied: "Marks for everything but the correlation positions are taken from work egol did last thurs. Correlation marks are as of friday's cob [close of business]." Id. On June 12, Bear Stearns announced that it would be changing the hedge funds' Net Asset Valuations (NAVs). 6/12/2007 email to Craig Broderick, "BSAM Bullet Points," GS MBS-E-009967117 ("BSAM is currently in the process of restating their performance figures for April, from down 5% to down 10%. This was due to many dealers changing the way they are marking their Repo positions"). The Mortgage Department later marked down two Timberwolf tranches owned by the Bear Stearns hedge funds by another 2 points and 5 points, respectively, to 95 and 89, before it bought them back from Bear Stearns at 96 and 90 on June 19, 2007, in a negotiated unwind of the Bear funds' positions with Goldman. See 6/22/2007 emails from Mr. Lehman, "BSAM Repo Summary," GS MBS-E-001916435. See also 6/18/2007 email from Mr. Lehman, "Today's Bear Stearns Prices," GS MBS-E- 001919600; 6/27/2007 email from Mr. Sparks to Mr. Viniar, "CDO^2s," GS MBS-E-009747489.
+[^1770]: Id. Some have suggested that the financial problems experienced by the Bear Stearns hedge funds were caused in part by severe markdowns taken by Goldman on assets held in the funds' portfolios, and that Goldman caused the funds to collapse. In its final report, the Financial Crisis Inquiry Commission (FCIC) briefly addressed these allegations. See The Financial Crisis Inquiry Report 2010 at 237-40, 244 (hereinafter "Final Report"). Goldman denied the allegations with respect to its April and M ay 2007 marks in filings with the FCIC. See 11/1/2010 letter from Goldman counsel Janet Broecke to FCIC, "FCIC Requests for Documents and Information" and Appendices A- G, available at www2.goldmansachs.com. The FCIC's Final Report was critical of Goldman's marks in general as being significantly lower than those of other banks and noted in particular its collateral dispute with AIG. See Final Report at 243-44, 265-71. W ith respect to the Bear Stearns hedge funds, however, the Final Report merely noted that Bear Stearns had disputed marks from Goldman and three other banks and cited the testimony of the funds' portfolio manager, Ralph Cioffi, that "a number of factors contributed to the April revision [in the hedge funds' values, which ultimately led to the funds' collapse], and Goldman's marks were one factor." Final Report at 240. In addition to the markdowns in April and May, Goldman also marked down certain CDO securities held by the Bear Stearns funds in June 2007, but it appears those June markdowns did not play a significant role in the hedge funds' collapse. That month, Goldman marked down their positions in four Goldman CDOs by two points each. See, e.g., 6/8/2007 email from Jonathan Egol to Daniel Sparks, "BSAM mark recap," GS MBS-E-001920339 (Mr. Egol emailed Mr. Sparks a recap of the Bear Stearns markdowns and stated: "W e lowered the marks on 4 bonds down 2 pts each."). Mr. Swenson had urged larger markdowns, but his advice was not followed. On June 7, 2007, Mr. Egol had first marked down the funds' holdings in a single Abacus CDO by 2 points, from 89 to 87. Mr. Egol emailed Mr. Sparks a spreadsheet with a cover note: "GS exposure to BSAM [Bear Stearns Asset Management] as of today. ABACUS mark corrected to 87 to handle." 6/7/2007 email from Mr. Egol to Mr. Sparks GS MBS-E-003375593. Since Abacus was only one of four Goldman CDOs in which the Bear Stearns funds held positions, Mr. Swenson emailed Mr. Lehman recommending further markdowns: Mr. Swenson: I am on the same page [as] egol we n[e]ed to mark him [Ralph Cioffi, Portfolio Manager of the Bear Stearns funds] Mr. Lehman: Told Egol I'm comfortable w/ the prices, especially when u include the 5 pt [percent] HC [haircut.] Don't think mar[k]ing him down 1 or 2 pts makes sense or sends the right message .... I wud run it by Dan [Sparks] and get his take .... [M]y opinion is that the Firm is appropriately protected w/ current HC [haircut] and mark. Mr. Swenson: W e need to mark him he is the biggest elephant by far and it has an impact on the m$arket[.] Mr. Lehman: How much do u [sic] want to mark him by? Mr. Swenson: A lot[.] Mr. Lehman: I disagree on this one ... Let's talk tomorrow[.] Mr. Swenson: He is done[.] 6/7/2007 email exchange between Mr. Swenson and Mr. Lehman, "BSAM Post," GS MBS-E-011184213. The next day, Friday, June 8, 2007, Mr. Egol reported he had marked down all four CDO positions by two points. 6/8/2007 email from Jon Egol to Daniel Sparks, "BSAM mark recap," GS MBS-E-001920339. Upon reviewing the marks the following Monday, Mr. Sparks wrote: "The marks look stale." 6/11/2007 email from Daniel Sparks, "BSAM Exposure Summary," GS MBS-E-010798675. A Mortgage Department employee replied: "Marks for everything but the correlation positions are taken from work egol did last thurs. Correlation marks are as of friday's cob [close of business]." Id. On June 12, Bear Stearns announced that it would be changing the hedge funds' Net Asset Valuations (NAVs). 6/12/2007 email to Craig Broderick, "BSAM Bullet Points," GS MBS-E-009967117 ("BSAM is currently in the process of restating their performance figures for April, from down 5% to down 10%. This was due to many dealers changing the way they are marking their Repo positions"). The Mortgage Department later marked down two Timberwolf tranches owned by the Bear Stearns hedge funds by another 2 points and 5 points, respectively, to 95 and 89, before it bought them back from Bear Stearns at 96 and 90 on June 19, 2007, in a negotiated unwind of the Bear funds' positions with Goldman. See 6/22/2007 emails from Mr. Lehman, "BSAM Repo Summary," GS MBS-E-001916435. See also 6/18/2007 email from Mr. Lehman, "Today's Bear Stearns Prices," GS MBS-E- 001919600; 6/27/2007 email from Mr. Sparks to Mr. Viniar, "CDO^2s," GS MBS-E-009747489.
 
 [^1771]: 6/8/2007 email to Daniel Sparks, "Heads Up – rates market volatile," GS MBS-E-010796702.
 
@@ -11637,7 +11605,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1806]: Id.
 
-[^1807]: Id. Not everyone at Goldman agreed that the risk of loss on AAA was "remote." On July 29, 2007, Mr. Rosenblum circulated an email to Mortgage Department managers and research analysts with a series of questions about how AAA subprime RM BS securities would be affected by other market developments. 6/29/2007 email from David Rosenblum, GS MBS-E-010060183. The head of Goldman's Structured Product Strategies area, Alan Brazil, responded: "W ell, as is becoming clearer to the market is [sic] that the subprime issue is really a triple-a issue, either directly as a aaa subprime or indirectly in a aaa cdo. As a rough guide, over 90% of a subprime deal are in aaas. ... And once you start downgrading bbb/bbb- you will ultimately be start [sic] downgrading aaas. And, in my view, that
+[^1807]: Id. Not everyone at Goldman agreed that the risk of loss on AAA was "remote." On July 29, 2007, Mr. Rosenblum circulated an email to Mortgage Department managers and research analysts with a series of questions about how AAA subprime RM BS securities would be affected by other market developments. 6/29/2007 email from David Rosenblum, GS MBS-E-010060183. The head of Goldman's Structured Product Strategies area, Alan Brazil, responded: "W ell, as is becoming clearer to the market is [sic] that the subprime issue is really a triple-a issue, either directly as a aaa subprime or indirectly in a aaa cdo. As a rough guide, over 90% of a subprime deal are in aaas. ... And once you start downgrading bbb/bbb- you will ultimately be start [sic] downgrading aaas. And, in my view, that is a significant escalation of the subprime meltdown. ... At its heart, the main shoe to fall will be when the rating agencies downgrade to the aaa level. I don't see as they have much of a choice. Mez[zanine] aaa cdo trade in the 20 and 30s cannot be overlooked even by the agencies." Id.
 
 [^1808]: Subcommittee interview of Joshua Birnbaum (4/22/2010).
 
@@ -11651,7 +11619,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1813]: 8/15/2007 email from Daniel Sparks, "Post," GS MBS-E-009740784, Hearing Exhibit 4/27-32.
 
-[^1814]: 8/20/2007 email from Daniel Sparks to Gary Cohn, David Viniar, Jon W inkelried, Tom Montag, and Donald Mullen, "Big Opportunity," GS M BS-E-009739836. See also 8/20/2007 email exchange between Daniel Sparks and Tom Montag, "Hsbc loans," GS MBS-E-010681855 (M r. Sparks pitched the plan again to Mr. Montag separately: "As a overall business, we're not short AAA's anymore. W e are putting on the long index (mostly AAA)/short single name mezz trade on .... We are planning to continue to play offense. . . . Discussions on the up the quality trade (top cap stack and top quality collateral) were had in various times with don [M ullen], gary [Cohn] and bill
+[^1814]: 8/20/2007 email from Daniel Sparks to Gary Cohn, David Viniar, Jon W inkelried, Tom Montag, and Donald Mullen, "Big Opportunity," GS M BS-E-009739836. See also 8/20/2007 email exchange between Daniel Sparks and Tom Montag, "Hsbc loans," GS MBS-E-010681855 (M r. Sparks pitched the plan again to Mr. Montag separately: "As a overall business, we're not short AAA's anymore. W e are putting on the long index (mostly AAA)/short single name mezz trade on .... We are planning to continue to play offense. . . . Discussions on the up the quality trade (top cap stack and top quality collateral) were had in various times with don [M ullen], gary [Cohn] and bill [M cMahon]. W e aren't going crazy with it, just being opportunistic. Before we get large, we are going to lay out a strategy for the four of you.").
 
 [^1815]: 8/21/2007 email from Joshua Birnbaum, "Potential large subprime trade and impact on firmwide VAR," GS MBS-E-016359332, Hearing Exhibit 4/27-34; 8/21/2007 email from Joshua Birnbaum, "For 2 p.m. meeting," GS MBS-E-010608145 (graphs in support of plan to go long up to $10 billion in AAA ABX index).
 
@@ -11717,7 +11685,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^1846]: Id. [emphasis in original].
 
-[^1847]: Id. Mr. Salem described the trading strategies as follows: "a. The Dispersion Trade More than a year ago, Edwin [Chin] and I realized that the dispersion amongst single-name subprime CDS was grossly mispriced. Bad names (tier 4), that the market almost universally disliked traded only 50 bps wider than securities that we all agreed were superior. ... So for the past year, we bought protection on tier 4 names at every chance possible . . . When we wanted to flatten out the book, we just wrote protection on the tier 1 names. Amazingly we did this for most of the year without a usable model to value different single names. ... W e were very aggressive with pricing and only shared risk with smart guys if they gave us insight on names to go short or go long in return. Even when the dispersion widened out ... by the end of February, Edwin and I refused to monetize the trade .... W ith 3-4bb of notional in this dispersion trade, we have recognized $750mm of P&L so far on this trade. "b. Our single name market share: Having traded over $200bb of notional in SN [single name] CDS, GS is the dominant market-maker in single name CDS. W e approximate our market share to be greater than 33%. ... This market share and willingness to trade size proved invaluable in November, December and January when we decided to make the HUGE directional bet of being long SN CDS protection [or "short risk," i.e., taking the short side of a CDS transaction]. ... If we did not have such presence in the SN CDS market, it is unlikely that we would have achieved the size short that we desired and eventually put on. W e're up $1.7bb in RM BS SN CDS!
+[^1847]: Id. Mr. Salem described the trading strategies as follows: "a. The Dispersion Trade More than a year ago, Edwin [Chin] and I realized that the dispersion amongst single-name subprime CDS was grossly mispriced. Bad names (tier 4), that the market almost universally disliked traded only 50 bps wider than securities that we all agreed were superior. ... So for the past year, we bought protection on tier 4 names at every chance possible . . . When we wanted to flatten out the book, we just wrote protection on the tier 1 names. Amazingly we did this for most of the year without a usable model to value different single names. ... W e were very aggressive with pricing and only shared risk with smart guys if they gave us insight on names to go short or go long in return. Even when the dispersion widened out ... by the end of February, Edwin and I refused to monetize the trade .... W ith 3-4bb of notional in this dispersion trade, we have recognized $750mm of P&L so far on this trade. "b. Our single name market share: Having traded over $200bb of notional in SN [single name] CDS, GS is the dominant market-maker in single name CDS. W e approximate our market share to be greater than 33%. ... This market share and willingness to trade size proved invaluable in November, December and January when we decided to make the HUGE directional bet of being long SN CDS protection [or "short risk," i.e., taking the short side of a CDS transaction]. ... If we did not have such presence in the SN CDS market, it is unlikely that we would have achieved the size short that we desired and eventually put on. W e're up $1.7bb in RM BS SN CDS! "c. W illingness to put on trades that others don't want/know where to price The 2 most successful trades in this regard have been our $70mm long Alt-A protection and our $1-2bb long sub- prime Single-A protection [i.e., being "short risk" or taking short side in a CDS transaction]. W hen CDOs wanted to sell Alt-A and single-A protection ... the rest of the street was tentative. ... W e viewed this as a tremendous opportunity to buy cheap out-of-the-money options at a significant discount to fair-value. Our exit strategy was always that if sub-prime fundamentals got bad enough, and they did, that the contagion would have to spread up the capital structure because cum loss vol/uncertainty has to go up thus. . . .$400mm so far for the desk .... "d. CDO CDS trade: This trade has made $900mm so far, which exceeded all of our high expectations for the trade. I had the confidence and desire for the desk to buy A, AA, and AAA CDO CDS protection in size during the fall of 2006 for several reasons: ... [T]he rating agencies' correlation assumptions were out of whack with the growing concern about the housing market and the remarkable similarity between the bonds in a CDO, the difficulty that GS was having in placing such mezzanine liabilities and the complexity of such securities scared hedge funds from buying the protection themselves. Edwin and I used the same aggressive strategies in purchasing protection that we used to dominate the SN CDS market. Our market share was enormous ... and we did every ... trade possible." Id.
 
 [^1848]: See, e.g., 10/11/2007 email from Michael Swenson to Donald Mullen, "Early post on P and L," GS MBS-E- 016031234, Hearing Exhibit 4/27-69. For more information about this downgrade, see Chapter V.
 
@@ -12063,7 +12031,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2019]: 1/29/2007 email from Jon Egol to Fabrice Tourre, GS M BS-E-002620292. Mr. Tourre responded: "'The market is dead'??? Ouahhh, what do you mean by that? Do you have any insight I don't?" Mr. Egol replied: "LDL [let's discuss live] tomorrow." Id. Mr. Egol later wrote: "This is not my personal opinion – just a synopsis of the views of the customers we have seen today." 1/29/2007 email from Jon Egol to Daniel Sparks, GS MBS-E- 003249991.
 
-[^2020]: 2/11/2007 email from Jon Egol, "Index Tranche Pricing Study - 08Feb07.xls," GS MBS-E-002640951. See also 2/20/2007 email from Fabrice Tourre to Jon Egol, GS MBS-E-009332408 (Mr. Tourre: "By the way, quote from an ABS correlation trader (non-GS): "the mezz ABS CDO business is dead." Mr. Egol responded: "who." Mr. Tourre replied: "LDL." "LDL," which means "let's discuss live," is an abbreviation that appears throughout the Goldman documents produced to the Subcommittee.); 3/27/2007 email from a Goldman analyst, GS MBS-E- 009685430 ("The housing slowdown has the risk now not be[ing] offsetting [sic] by stronger capital spending. Both
+[^2020]: 2/11/2007 email from Jon Egol, "Index Tranche Pricing Study - 08Feb07.xls," GS MBS-E-002640951. See also 2/20/2007 email from Fabrice Tourre to Jon Egol, GS MBS-E-009332408 (Mr. Tourre: "By the way, quote from an ABS correlation trader (non-GS): "the mezz ABS CDO business is dead." Mr. Egol responded: "who." Mr. Tourre replied: "LDL." "LDL," which means "let's discuss live," is an abbreviation that appears throughout the Goldman documents produced to the Subcommittee.); 3/27/2007 email from a Goldman analyst, GS MBS-E- 009685430 ("The housing slowdown has the risk now not be[ing] offsetting [sic] by stronger capital spending. Both growth and the market are DEAD if that's the case.") [emphasis in original].
 
 [^2021]: 3/8/2007 email from Daniel Sparks, "Mortgage risk," Hearing Exhibit 4/27-75.
 
@@ -12113,7 +12081,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2044]: 3/12/2007 email from Daniel Sparks, "Subprime Opportunities," GS MBS-E-004641002. See also 4/15/2007 email, "March 2007 Counterparty Surveillance," GS MBS-E-002135667 (forwarding report to loan repurchase team, "Please find attached the March counterparty surveillance report (and boy, is it a doozy)."); 3/26/2007 "Subprime Mortgage Business," Goldman presentation to Board of Directors, at 5, GS MBS-E-005565527, Hearing Exhibit 4/27-22 (list of subprime related businesses bankrupted, suspended, closed, sold, or put up for sale).
 
-[^2045]: 3/13/2007 email from Manisha Nanik, "New Century EPDs," GS MBS-E-002146861, Hearing Exhibit 4/27-77. The review of the New Century loan pool found: "– approx 7% of the pool has material occupancy misrepresentation where borrowers took out anywhere from 4 to 14 loans at a time and defaulted on all. ... – approx 20% of the pool has material compliance issues. These are mainly missing HUDs. ... – approx 10% of the pool is flagged as potential REO [Real Estate Owned by lender] or potential unsecured
+[^2045]: 3/13/2007 email from Manisha Nanik, "New Century EPDs," GS MBS-E-002146861, Hearing Exhibit 4/27-77. The review of the New Century loan pool found: "– approx 7% of the pool has material occupancy misrepresentation where borrowers took out anywhere from 4 to 14 loans at a time and defaulted on all. ... – approx 20% of the pool has material compliance issues. These are mainly missing HUDs. ... – approx 10% of the pool is flagged as potential REO [Real Estate Owned by lender] or potential unsecured (if 2nd liens). ... – approx 5% of the pool was possibly originated fraudulently based on the dd [due diligence] results. Main findings: possible ID theft, broker misrepresentations, straw buyer, and falsification of information in origination docs. ... "approx 62% of the pool has not made any payments (4% were reversed pymts/nsf [non-sufficient funds]) ... "approx 38% of the loans are out of [loan to value] tolerance."
 
 [^2046]: See Goldman Sachs response to Subcommittee QFR at PSI_QFR_GS0040.
 
@@ -12351,7 +12319,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2163]: 6/21/2007 email from Mr. Sparks to Lester Brafman, "Repo," GS MBS-E-010847490.
 
-[^2164]: The Subcommittee did identify at least one instance of a mark change. Goldman's China sales representative contacted the ABS Desk to request an increase in a mark on an RMBS security: "[C]an we try our best to show 'better' indicative prices for [client]? ... [C]lient is under pressure of being questioned that they bought something looks really bad. ... [W ]e showed a price of LBMLT 06 A A1 as of 95-00 . . . this is something hard for client to believe .... [W]e need them to think of GS as the best firm, and we need them to be our best client when next biz boom comes. ... W e would highly appreciate if a slightly aggressive price can be showed from trading desk." 5/21/2007 email from China sales representative to Edwin Chin and others, "Mark to market prices," GS MBS-E- 011068490. Mr. Chin moved the mark in question from 95 to 98, and wrote:
+[^2164]: The Subcommittee did identify at least one instance of a mark change. Goldman's China sales representative contacted the ABS Desk to request an increase in a mark on an RMBS security: "[C]an we try our best to show 'better' indicative prices for [client]? ... [C]lient is under pressure of being questioned that they bought something looks really bad. ... [W ]e showed a price of LBMLT 06 A A1 as of 95-00 . . . this is something hard for client to believe .... [W]e need them to think of GS as the best firm, and we need them to be our best client when next biz boom comes. ... W e would highly appreciate if a slightly aggressive price can be showed from trading desk." 5/21/2007 email from China sales representative to Edwin Chin and others, "Mark to market prices," GS MBS-E- 011068490. Mr. Chin moved the mark in question from 95 to 98, and wrote: "After much discussion internally, we will improve our bid to 98-00 given the market color we have observed in the past two days. The markdown was mostly a reaction to rating agency downgrade and partly reflected the illiquidity of the position, but upon further analysis we have gotten more comfortable with the risk position and agree it should be marked at a higher price." Id.
 
 [^2165]: 8/6/2007 email from David Lehman to Japan sales, "RE: Tokyo Star," GS MBS-E-001927891.
 
@@ -12513,7 +12481,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2244]: Subcommittee interview of Darryl Herrick (10/13/2010). See also 10/8/2006 email from Darryl Herrick to a Goldman salesperson, GS MBS-E-017502983 (discussing Hudson 1: "Omar, I realize lack of manager may be tough hurdle for them [investors]. May be helpful to let Deeb and I get on a call with the investor and discuss our asset selection criteria and I can go through asset sale criteria.").
 
-[^2245]: See 9/19/2006 email from Darryl Herrick to Deeb Salem, Peter Osterm, others, GS MBS-E-011402123, with attachment GS M BS-E-011403442 (Mr. Salem wrote to Mr. Herrick: "Attached are 60 RMBS Ref Obs ... for the CDO we're discussing. On the RM BS side, we chose 30 Baa2 and 30 Baa3 CUSIPs evenly split btw 2005 and 2006 vintage. W e can add a few alt-a names as well. How many of those would you like?"). W hen interviewed by the
+[^2245]: See 9/19/2006 email from Darryl Herrick to Deeb Salem, Peter Osterm, others, GS MBS-E-011402123, with attachment GS M BS-E-011403442 (Mr. Salem wrote to Mr. Herrick: "Attached are 60 RMBS Ref Obs ... for the CDO we're discussing. On the RM BS side, we chose 30 Baa2 and 30 Baa3 CUSIPs evenly split btw 2005 and 2006 vintage. W e can add a few alt-a names as well. How many of those would you like?"). W hen interviewed by the Subcommittee, Mr. Salem had no specific recollection of how assets were selected for Hudson 1 and little specific recollection about Hudson 1 as a whole. Subcommittee interview of Deeb Salem (10/6/10).
 
 [^2246]: See, e.g., Goldman response to Subcommittee QFR, PSI_QFR_GS0192.
 
@@ -12557,7 +12525,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2266]: 9/27/2006 email from Michael Swenson to Joshua Birnbaum, GS MBS-E-012689798.
 
-[^2267]: 12/3/2006 Hudson Mezzanine 2006-1, LTD. Offering Circular, GS MBS-E-021821196, at 021821229. This disclosure related to the master credit default swap, where Goldman Sachs International served as the credit protection buyer facing the Hudson Mezzanine 2006-1, Ltd., the legal entity that issued the Hudson 1 securities. See 12/1/2006 ISDA Master Agreement, GS MBS-E-021822056. In this role, Goldman was serving as an intermediary, and was protecting the CDO from credit risk by placing the Goldman Sachs name on the transaction and assuring investors that a single credit-worthy entity would be making all required payments to the Hudson 1 trust. Having one
+[^2267]: 12/3/2006 Hudson Mezzanine 2006-1, LTD. Offering Circular, GS MBS-E-021821196, at 021821229. This disclosure related to the master credit default swap, where Goldman Sachs International served as the credit protection buyer facing the Hudson Mezzanine 2006-1, Ltd., the legal entity that issued the Hudson 1 securities. See 12/1/2006 ISDA Master Agreement, GS MBS-E-021822056. In this role, Goldman was serving as an intermediary, and was protecting the CDO from credit risk by placing the Goldman Sachs name on the transaction and assuring investors that a single credit-worthy entity would be making all required payments to the Hudson 1 trust. Having one broker-dealer intermediate between the market and a CDO vehicle was desirable to credit rating agencies in order to minimize risk in the CDO, and Goldman clearly disclosed this role to investors.
 
 [^2268]: Goldman intermediated between other broker-dealers and the CDO vehicle in Anderson Mezzanine Funding 2007-1, Camber 7, Hudson Mezzanine 2006-1, Hudson Mezzanine 2006-2, and Timberwolf I, among several other CDOs. See Goldman response to Subcommittee QFR, at PSI_QFR_GS0192.
 
@@ -13647,7 +13615,7 @@ RMBS, CDO, CDS, and ABX activities described in this Report to identify any viol
 
 [^2811]: See, e.g., emails noting difficult sales environment. 1/31/2007 email from Mr. Sparks to Mr. Montag, "MTModel," Hearing Exhibit 4/27-91 (making "lemonade out of some big old lemons"); 3/9/2007 email from Mr. Sparks to Mr. Schwartz and others, GS MBS-E-010643213, Hearing Exhibit 4/27-76 ("team is working incredibly hard and is stretched"); 3/27/2007 email from Mr. Ostrem to Mr. Bieber, GS MBS-E-000907935, Hearing Exhibit 4/27-172 (congratulating Mr. Bieber for "an excellent job pushing to closure these deals in a period of extreme difficulty"); 6/11/2007 email from Mr. Montag, GS MBS-E-001866144 (after a sale of Timberwolf securities, telling the sales team they had done an "incredible job B just incredible").
 
-[^2812]: 6/10/2007 email from Michael Swenson, "CDS on CDOs," GS MBS-E-012568089; 6/13/2007 email from sales, "CDO protection," GS MBS-E-012445931. See also 9/7/2007 Fixed Income, Currency and Commodities Annual Individual Review Book, Salem 2007 Self-Review, GS-PSI-03157 at 71 (in his self-evaluation Mr. Salem
+[^2812]: 6/10/2007 email from Michael Swenson, "CDS on CDOs," GS MBS-E-012568089; 6/13/2007 email from sales, "CDO protection," GS MBS-E-012445931. See also 9/7/2007 Fixed Income, Currency and Commodities Annual Individual Review Book, Salem 2007 Self-Review, GS-PSI-03157 at 71 (in his self-evaluation Mr. Salem wrote that his desk sold short positions on single name CDS contracts only to customers that could provide Goldman with useful information: "We were very aggressive with pricing and only shared risk [short positions] with smart guys if they gave us insight on names to go short or go long in return.").
 
 [^2813]: 3/2/2007 email exchange between Mr. Broderick and Patrick Welch, GS MBS-E-009986805, Hearing Exhibit 4/27-63.
 
