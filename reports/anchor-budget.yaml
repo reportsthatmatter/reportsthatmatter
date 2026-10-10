@@ -49,7 +49,7 @@ reports:
     markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 4  # why: reportsthatmatter-smof (floats: by-notes, gq4j, serves a box before the paragraph it interrupts, and the box's next-page marker now precedes that paragraph's head: 4 paragraphs a page late)
+    blocks-wrong: 0
   us-deepwater-horizon:
     markers-wrong: 0
     markers-stacked: 0
@@ -59,7 +59,7 @@ reports:
     markers-wrong: 1
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 5
+    blocks-wrong: 1
   uk-hillsborough-panel:
     markers-wrong: 15  # why: ivg.3 - read on the website-edition text: pp.13-25 are the Report summary, which repeats chapter text, so the check finds those paragraphs far away ("66669 words before the start"); pp.33/34/74/107/173 are figure captions the edition prints a page early or late; pp.128/174/316/366 sit 7-86 words into the right PDF page
     markers-stacked: 1  # why: ivg.3 - one marker after a block that runs over several pages (a long table or caption block in the website edition)
@@ -86,10 +86,10 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   us-jan6-committee:
-    markers-wrong: 39  # why: reportsthatmatter-gqsy.3 (a photo caption the PDF prints at the head of a page sits before a paragraph begun on the page before; reportsthatmatter-bqu0)
+    markers-wrong: 10  # why: reportsthatmatter-bqu0 (after the float rule: 5 front-matter markers around the Speaker's and Chairman's forewords that the check finds 65,966+ words away, and pages carrying two photographs whose captions the HTML sets apart, pp.347-348, 601, 606-607; read)
     markers-stacked: 4
     pages-unmarked: 0
-    blocks-wrong: 30  # why: reportsthatmatter-gqsy.3 reportsthatmatter-bqu0 (the same captions)
+    blocks-wrong: 3  # why: reportsthatmatter-bqu0 (captions on pages with two photographs: pp.348, 601, 607)
   uk-grenfell-tower-inquiry:
     markers-wrong: 0
     markers-stacked: 0

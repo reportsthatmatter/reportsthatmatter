@@ -2,7 +2,7 @@
 
 How the text on Reports that Matter was made from the published PDF, and where it still falls short of the printed page. The text is a machine reading of a PDF. Nothing has been rewritten, but a reading can be wrong, and where we know it is, this page says so.
 
-*Last reviewed 2 October 2026, built with `@rtm/ingest` v0.14.1 plus the changes in ingest PR #25.*
+*Last reviewed 9 October 2026, built with `@rtm/ingest` v0.24.0 plus the passes in ingest PR (burn1-1009: `holdNoteSequence`).*
 
 ## The edition
 
@@ -22,9 +22,9 @@ How the text on Reports that Matter was made from the published PDF, and where i
 
 ## Known limitations
 
-- **Some footnote markers are not clickable links.** The PDF prints each marker flush against the word before it. After the `flushFootnoteMarkers` pass, 52 of Volume 1's 690 notes (7.5%) and 153 of Volume 3's 1,094 (14%) still have no linked marker in the text; they stay as plain digits (for example "...the Board.3508"), mostly in tables and where a marker follows a number or a symbol. Every note itself is present and numbered. In the net-leverage tables a marker printed against a figure reads as part of it ("16.172" is 16.1 with note 72).
-- **A few note numbers appear twice.** Notes 1-3 exist both as Volume 1's opening notes and as the notes to a table in its Risk section, so a marker "1" there can open the wrong one.
-- **About 21 sentences in Volume 1 and about 65 in Volume 3 are split across a page break** into two or three separate paragraphs, each with its own link. The text is complete and unchanged; only where it is broken for citation is affected.
+- **Footnote markers are linked from the PDF's layout.** The PDF prints each marker as a raised number flush against the word or figure before it, and `layoutMarkers` links each to its note on the same page; no marker is left as a plain digit (`pnpm quality report` counts 0). In the net-leverage tables a marker printed against a figure is linked as a marker ("16.1" then note 72), not read as part of the figure.
+- **A few note numbers appear twice.** Notes 1-3 exist both as Volume 1's opening notes and as the notes to a table in its Risk section (printed page 177), so a marker "1" there can open the wrong one. The table's notes do not move the number the next page expects (`holdNoteSequence`), so notes 655-660 on the pages after it are read as notes.
+- **About 5 sentences are split across a page break** into two paragraphs, each with its own link (Volume 3, printed pages 740, 784, 857, 879 and 974), and about 10 more begin a paragraph on a capital after an unfinished line. The text is complete and unchanged; only where it is broken for citation is affected. Declaring the report double-spaced (`doubleSpaced`) rejoined the other 17 that the line spacing had broken.
 - **One page of Volume 3 is garbled in the PDF itself.** On printed page 916, note 3508 runs to nearly the whole page, and its first lines run into the body text above it ("Lehman created the Daily Balance Sheet and Disclosure Scorecard in April billion ongoing program..."); it reads as one long paragraph.
 - **One heading is not recovered.** The Volume 3 contents splits the entry "Board and His Superiors of Lehman's Repo 105 Practice" across a page break, so that heading, on printed page 1009, stays as text.
 - **Volumes 2, 4-9 are not yet on this site,** including the appendices (Volumes 6-9, the Examiner's exhibits and interview memoranda).

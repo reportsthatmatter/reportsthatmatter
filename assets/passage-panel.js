@@ -23,6 +23,17 @@ const QUOTE_MAX = 280;
 const tidy = (text) => text.replace(/\s+/g, " ").trim();
 
 /**
+ * The words as the panel sets them inside its own curly double quotes: a quotation within them
+ * becomes a single curly pair (‘ ’), as the posting queue does, so a quote that ends in a quote
+ * does not read `"So what?"”`. Display only: copy and share keep the report's own characters.
+ * @param {string} text
+ */
+const nested = (text) =>
+  text
+    .replace(/(^|[\s(\[\u2014])["\u201c]/g, "$1\u2018")
+    .replace(/["\u201d\u201c]/g, "\u2019");
+
+/**
  * @param {{ body: HTMLElement, marks: HTMLElement[], paragraph: HTMLElement | null, exact: string }} landed
  */
 export function showPassagePanel({ body, marks, paragraph, exact }) {
@@ -52,7 +63,7 @@ export function showPassagePanel({ body, marks, paragraph, exact }) {
   <button type="button" data-action="copy-link">Copy link</button>
   <button type="button" data-action="copy-quote">Copy quote</button>
 </div>`;
-  /** @type {HTMLElement} */ (panel.querySelector(".passage-panel-quote")).textContent = `“${shorten(quote, QUOTE_MAX)}”`;
+  /** @type {HTMLElement} */ (panel.querySelector(".passage-panel-quote")).textContent = `“${nested(shorten(quote, QUOTE_MAX))}”`;
   /** @type {HTMLElement} */ (panel.querySelector(".passage-panel-cite")).textContent = cite;
 
   // A phone has a share sheet, which reaches Bluesky and everything else; a

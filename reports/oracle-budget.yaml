@@ -33,7 +33,7 @@ reports:
     markers-unlinked: 30  # why: reportsthatmatter-4ef1 (layout parse now joins a raised marker overlapping its line; read pp.162 and 169: the Blanche letter's markers are digits glued to words or beside a footnote label in the text layer, real, +3 over b94's 33)
     note-off-page: 11
   us-psi-financial-crisis:
-    markers-unlinked: 2
+    markers-unlinked: 18  # why: v0.25.0 integration (ingest#74's marker-in-fragment layout fix): the oracle now reads the raised 2 of "CDO²" (PDF pp.400, 486, 548 ...) as a footnote marker. Read on the PDF text layer ("hybrid CDO2 transaction"); it is the squared in the term, not a note. full.md is unchanged (19 CDO^2 and 18 CDO2 before and after), so 2 -> 18 is oracle-side, not a lost link
     note-off-page: 0
   challenger-accident:
     markers-unlinked: 32  # why: reportsthatmatter-n891 (ingest#64: the oracle now reads raised digits on quotation lines too; +5 on pp.60, 64, 67 and two more, text unchanged; 27 before) + jsqw + 4ef1

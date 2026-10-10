@@ -1320,8 +1320,6 @@ During the week of December 9, 2024, we learned from members of the media that S
 
 On December 11, 2024, we contacted a supervisor with the Special Counsel's Office to express concerns about reports we were hearing from the press. We asked whether the Office was preparing a report and, if so, whether we would be allowed to review it prior to completion. Initially, Smith's position was that: (1) we would only be permitted to access a draft of the report in Washington, D.C. between December 23 and December 29, 2024, the week of Christmas; (2) we would only be permitted to take handwritten notes during our review; and (3) any comments or objections to the draft would have to be submitted in writing by the close of business on December 29, 2024. Aside from all counsel living outside D.C. and planning on spending time with family that week, as Smith and his team knew, Smith's proposal afforded zero oppo1iunity for President Trump to assist counsel in reviewing and preparing any response to the report, given the irrational conditions imposed. Apparently working under a self-imposed deadline, Smith's team informed us, implausibly, that permitting defense review of Smith's unlawful Draft Report during the first week of January 2025 would be "too late to allow us to complete our work." Subsequently Smith walked back those now clearly false claims and permitted defense counsel to review the two-volume Draft Report in a conference room at Smith's office between January 3 and January 6, 2025, without allowing counsel to access the Internet or use their own electronic devices while in the room with supposedly sensitive documents that the press has known about for weeks by virtue of Smith's leaks.
 
-> Blanche Law PLLC 99 Wall Street, Suite 4460 \ New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
-
 %%page 3#3%%
 
 ### Preparation And Release Of A Report Would Violate Existing Law
@@ -1330,15 +1328,9 @@ Preparation and public release of a report by Smith would violate the Constituti
 
 Smith was not validly appointed, and Congress did not provide funding for his improper mission. No statute authorized you to deploy a private attorney against President Trump and others, and Smith functioned as a principal officer acting without the necessary Senate confirmation. In addition, the DOJ permanent indefinite appropriation Smith relied upon was-and still is-inapplicable. The only judge to have examined the particulars of Smith's appointment reached these conclusions in an extremely thorough and well-reasoned opinion. See generally United States v. Trump, 2024 WL 3404555, at *46 (S.D. Fla. July 15, 2024). On appeal, Smith's prosecutors failed to identify any meritorious reason for questioning Judge Cannon's treatment of these issues, and then abandoned the appeal as to President Trump. Therefore, Smith lacks •authority to issue a report regarding his activities while masquerading as a prosecutor, and his Office lacks authority to expend any public funds in furtherance of preparing or issuing such a report. Indeed, because Smith abandoned the 11th Circuit appeal as to President Trump, Judge Cannon's decision is a final judgment with issue-preclusive effect on these issues. See, e.g., Bravo­ Fernandez v. United States, 580 U.S. 5, 7-8 (2016) (cleaned up) ("In criminal prosecutions, as in civil litigation, the issue-preclusion principle means that when an issue of ultimate fact has once been determined by a valid and final judgment, that issue cannot again be litigated between the same parties in any future lawsuit."); Bobby v. Bies, 556 U.S. 825, 834 (2009) (same).
 
-Preparation and release of a report would also be improper under the Special Counsel Regulations. Those Regulations only call for "Closing documentation," in the form of a "confidential report," to be prepared "[a]t the conclusion of the Special Counsel's work." 28 C.F.R. § 600.8(c) (emphasis added). In light of the violations of the Appointments Clause and the Appropriations Clause, Smith has no lawful "work" to conclude. Moreover, by Smith's own repeated admission, Smith has not concluded his mission.
-
-> Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I
-
-> (212) 716-1250 www.BlancheLaw.com I
+Preparation and release of a report would also be improper under the Special Counsel Regulations. Those Regulations only call for "Closing documentation," in the form of a "confidential report," to be prepared "[a]t the conclusion of the Special Counsel's work." 28 C.F.R. § 600.8(c) (emphasis added). In light of the violations of the Appointments Clause and the Appropriations Clause, Smith has no lawful "work" to conclude. Moreover, by Smith's own repeated admission, Smith has not concluded his mission. Rather, Presidential immunity based on the national mandate ansmg from President Trump's overwhelming victory in the election has made it impossible for Smith to proceed, and rightly so.
 
 %%page 4#3%%
-
-Rather, Presidential immunity based on the national mandate ansmg from President Trump's overwhelming victory in the election has made it impossible for Smith to proceed, and rightly so.
 
 Smith's representations in the District of Columbia regarding his dismissed prosecution of President Trump reinforce these points and make clear that no "Closing documentation" is warranted. 28 C.F.R. § 600.8(c). Smith wrongly relied on the claim that Presidential immunity is "temporary," which is not the case, to ask that the charges against President Trump only be dismissed "without prejudice."2 The plain implication of Smith's position, which Judge Chutkan adopted, is that he does not believe his work targeting President Trump has reached its "conclusion." 28 C.F.R. § 600.8(c). Thus, taking a contrary position in order to justify preparation of one last long-winded, inaccurate, and unlawful smear of the President-elect and others would violate the Special Counsel Regulations.
 
@@ -1352,8 +1344,6 @@ Creating and releasing a prejudicial report to the public would violate these co
 
 3 Center for Presidential Transition, Presidential Transitions are a Perilous Moment for National Security (Aug. 16, 2023 ), https ://presidential transi tion.org/reports-publications/presidential-transi tions-are-a­ perilous-moment-for-national-security.
 
-> Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
-
 %%page 5#2%%
 
 A one-sided, improper report by Smith, particularly if publicly released, would also violate the
@@ -1365,8 +1355,6 @@ Trump. Indeed, footnote 1 of "Volume 1" of the Draft Report concedes that Smith 
 In sum, the same legal principles and logic that required Smith to dismiss his prosecutions of President Trump require that his activities be terminated without further action. Preparation and release of "Closing documentation" would violate the Constitution and existing law, harm the activities of the transition, and weaken the federal government that you have sworn an oath to support. The collective application of these circumstances make this situation entirely unlike any prior Special Counsel report. Preparation and release of a report is therefore not "in the public interest." 28 C.F.R. § 600.9(c). To the contrary, the course of action Smith proposes would further solidify the well-founded perception of partisanship created by Smith's violation of DOJ policies in connection with decisions based on his ultimately failed attempt to influence the outcome of the 2024 Presidential election. For all of these reasons, you must countermand Smith's proposed course of action, remove him, and stop the preparation and/or dissemination of the Draft Report.
 
 4 ECF No. 281 at 6, United States v. Trump, No. 23 Cr. 257 (D.D.C. Nov. 25, 2024) ("[T]he Department's position is that the Constitution requires that this case be dismissed before the defendant is inaugurated.").
-
-> Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
 %%page 6#2%%
 
@@ -1380,13 +1368,9 @@ Consistent with these bedrock principles, the Justice Manual prohibits prosecuto
 
 These restrictions ensure that the Department's statements do not "prejudice the rights of a defendant; or unfairly damage the reputation of a person." Justice Manual § 1-7.100; see also 32 C.F.R. § 776.47 ("Except for statements that are necessary to inform the public of the nature and extent of the trial counsel' s actions and that serve a legitimate law enforcement purpose, refrain from making extrajudicial comments that have a substantial likelihood of heightening public condemnation of the accused."); D.C. Bar Rule 3.8 (same).
 
-The Draft Report violates every one of these core requirements. Despite Smith' s decision to dismiss his cases against President Trump, and his complete failure to obtain a "jury 's determination that guilt has been established beyond a reasonable doubt," Afahorney, 917 F.2d at 471 n.2 (emphasis in original), his Draft Report repeatedly, and falsely , claims that President Trump, Carlos De Oliveria, Waltine Nauta, and others have committed crimes and otherwise engaged in purported "criminal conduct." For example, Volume I of the Draft Report falsely asserts, without any jury determination, that President Trump and others "engaged in an unprecedented criminal effort," was "the head of the criminal conspiracies," and harbored a "criminal design." Draft Report, Vol. I at 2, 68, 69. These false accusations of criminality, which Smith again utterly failed to prove in Court, repeat throughout Volume I. See, e.g. , id. at 3, 52, 60, 64, 67, 88, 108. Likewise, Volume II asserts, without any supporting verdict, "that Mr. Trump violated multiple federal criminal laws," and that he and others engaged in "criminal conduct." Vol. II at 60, 88 ; see also, e.g., id. at 89, 121. Moreover, the Draft Report makes these allegations despite
-
-> Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www .BlancheLaw.com
+The Draft Report violates every one of these core requirements. Despite Smith' s decision to dismiss his cases against President Trump, and his complete failure to obtain a "jury 's determination that guilt has been established beyond a reasonable doubt," Afahorney, 917 F.2d at 471 n.2 (emphasis in original), his Draft Report repeatedly, and falsely , claims that President Trump, Carlos De Oliveria, Waltine Nauta, and others have committed crimes and otherwise engaged in purported "criminal conduct." For example, Volume I of the Draft Report falsely asserts, without any jury determination, that President Trump and others "engaged in an unprecedented criminal effort," was "the head of the criminal conspiracies," and harbored a "criminal design." Draft Report, Vol. I at 2, 68, 69. These false accusations of criminality, which Smith again utterly failed to prove in Court, repeat throughout Volume I. See, e.g. , id. at 3, 52, 60, 64, 67, 88, 108. Likewise, Volume II asserts, without any supporting verdict, "that Mr. Trump violated multiple federal criminal laws," and that he and others engaged in "criminal conduct." Vol. II at 60, 88 ; see also, e.g., id. at 89, 121. Moreover, the Draft Report makes these allegations despite the ongoing prosecutions of DeOliveira and Nauta, which would cause gravely unconstitutional prejudice if released.
 
 %%page 7#2%%
-
-the ongoing prosecutions of DeOliveira and Nauta, which would cause gravely unconstitutional prejudice if released.
 
 Neither the Constitution nor applicable regulations or ethical rules allow Smith to make public, extrajudicial claims that purport to reflect conclusive determinations of guilt backed by the imprimatur of DOJ. It is the role of the jury, not the Special Counsel, to weigh the facts and determine guilt. Other Special Counsels have recognized this foundational fact. For example, Special Counsel Hur carefully cabined his observations to what some "jurors could," "might," "may well," or, at most, "would likely" conclude. See, e.g., Hur Report at 4, 5, 9, 10,204, 206-211, 214,216,218,220,233,235, 240-42, 246- 47. At all points, Hur's focus was on whether 'jurors assessing Mr. Biden's guilt and intent w[ould] be persuaded," id. at 241, and not on the Special Counsel's unilateral views or opinions regarding Biden's obvious guilt.
 
@@ -1397,10 +1381,6 @@ Likewise, Special Counsel Mueller expressly declined to "apply an approach" to h
 Id. Moreover, Special Counsel Mueller warned that a public disclosure of a prosecutor's unilateral judgment would only heighten these dangers. Id. ("[T]he possibility of the report's public disclosure and the absence of a neutral adjudicatory forum to review its findings counseled against potentially determining 'that the person's conduct constitutes a federal offense.' Justice Manual§ 9-27.220."). For these reasons, Special Counsel Mueller's report "did not draw ultimate conclusions about the President's conduct," id. at 182, but "[i]nstead for each of the relevant actions investigated, ... set[] out evidence on both sides of the question...." Ltr. from Attorney General William Ban- at 3 (Mar. 24, 2019).
 
 To the extent Special Counsel Smith possesses any authority to draft a report (and he does not) he should have applied the same principles as Special Counsels Hur and Mueller, which the Constitution, the Justice Manual, and applicable regulations and ethical rules all require. That is-providing a dispassionate description of the relevant facts, free of any gratuitous commentary regarding President Trump's conduct, let alone direct accusations of guilt. Smith failed to do so. Instead, he chose to construct the Draft Report as a partisan weapon, designed to "unfairly damage the reputation" of President Trump, Justice Manual § 1-7.100, in a manner calculated to "heighten[] public condemnation," 32 C.F.R. § 776.47, while providing "no ... adversarial opportunity for public name-clearing before an impartial adjudicator," Mueller Report, Vol. II at 2. Accordingly, the Department should not, under any circumstances, permit Smith to complete or submit the Draft Report in this form or otherwise disseminate it to the public.
-
-> Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I
-
-> (212) 716-1250 www.BlancheLaw.com I
 
 %%page 8#2%%
 
@@ -1455,8 +1435,6 @@ Attorneys for President Donald J Trump
 Cc: Jack Smith, Special Counsel
 
 > JP Cooney, Deputy Special Counsel (Via Email)
-
-> Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
 
 U.S. Department of Justice
 
@@ -2050,19 +2028,19 @@ Sincerely yours,
 
 [^7]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs, 106th Cong. 231 (1999) (prepared statement of Theodore B. Olson).
 
-[^8]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs, 106th Cong. 252 (1999) (prepared statement of Attorney General Janet Reno). Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
+[^8]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs, 106th Cong. 252 (1999) (prepared statement of Attorney General Janet Reno).
 
 [^11]: Maggie Haberman et al., Trump Says He'll Fire Jack Smith, Special Counsel Who Indicted Him, ifHe Wins Again, N.Y. Times (Oct. 24, 2024), https://www.nytimes.com/2024/10/24/us/politics/trump-jack­ smith.html.
 
 [^12]: Alan Feuer, Special Counsel Is Said to Be Planning to Pursue Trump Cases Past the Election, N.Y. Times (July 2, 2024), https://wv.w.nytimes.com/2024/07 /02/us/politics/jack-smith-trump-charges.html.
 
-[^13]: Pierre Thomas et al., Special counsel Jack Smith expected to wind down Trump prosecutions: Sources, ABC News (Nov. 6, 2024, 3:26 PM), https://abcnews.go.com/Politics/special-counsel-jack-smith­ expected-wind-trump-prosecutions/story?id=l 15571646; Devlin Barrett, Jack Smith Assesses How to Wind Down Trump's Federal Cases, Official Says, N.Y. Times (Nov. 6, 2024), https://www.nytimes.com/2024/l l/06/us/politics/doj-trump-federal-cases.html. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
+[^13]: Pierre Thomas et al., Special counsel Jack Smith expected to wind down Trump prosecutions: Sources, ABC News (Nov. 6, 2024, 3:26 PM), https://abcnews.go.com/Politics/special-counsel-jack-smith­ expected-wind-trump-prosecutions/story?id=l 15571646; Devlin Barrett, Jack Smith Assesses How to Wind Down Trump's Federal Cases, Official Says, N.Y. Times (Nov. 6, 2024), https://www.nytimes.com/2024/l l/06/us/politics/doj-trump-federal-cases.html.
 
 [^14]: ECF No. 252, United States v. Trump, No. 23 Cr. 257 (D.D.C. Oct. 2, 2024).
 
 [^15]: ECF No. 243 at 2, United States v. Trump, No. 23 Cr. 257 (D.D.C. Sept. 24, 2024).
 
-[^16]: See also A Review of Various Actions by the Federal Bureau oflnvestigation and Department of Justice in Advance of the 2016 Election, U.S. Dep't ofJustice Office of Inspector General (June 2018) at 18 ("[I]n general, the practice has been not to take actions that might have an impact on an election, even if it's not an election case or something like that."), available at https://s3 .documentcloud.org/documents/4515 884/DOJ-OI G-2016-Electio_n-Final-Report.pdf. Blanche Law PLLC 99 Wall Street, Suite 4460 I New York, NY 10005 (212) 716-1250 I www.BlancheLaw.com
+[^16]: See also A Review of Various Actions by the Federal Bureau oflnvestigation and Department of Justice in Advance of the 2016 Election, U.S. Dep't ofJustice Office of Inspector General (June 2018) at 18 ("[I]n general, the practice has been not to take actions that might have an impact on an election, even if it's not an election case or something like that."), available at https://s3 .documentcloud.org/documents/4515 884/DOJ-OI G-2016-Electio_n-Final-Report.pdf.
 
 [^17]: ECF No. 324, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Feb. 22, 2024).
 
@@ -2072,4 +2050,4 @@ Sincerely yours,
 
 [^20]: ECF No. 262, United States v. Trump, No. 23 Cr. 80101 (S.D. Fla. Jan. 16, 2024).
 
-[^21]: Special Counsel's Office, DOJ, Statements of Expenditures, https://www.justice.gov/sco-smith. Blanche Law PLLC 99 Wall Street, Suite 4460 New York, NY 10005 I (212) 716-1250 www.BlancheLaw.com I
+[^21]: Special Counsel's Office, DOJ, Statements of Expenditures, https://www.justice.gov/sco-smith.

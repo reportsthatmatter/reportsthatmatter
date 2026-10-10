@@ -1,8 +1,8 @@
 {
   "reports": {
     "jack-smith-vol1": {
-      "words": 62247,
-      "paragraphs": 418,
+      "words": 62058,
+      "paragraphs": 416,
       "sections": [
         {
           "slug": "delivery-by-hand",
@@ -169,14 +169,14 @@
         {
           "slug": "preparation-and-release-of-a-report-would-violate-existing-law",
           "title": "Preparation And Release Of A Report Would Violate Existing Law",
-          "paragraphs": 15,
-          "ids": "cb70a5b05ad8"
+          "paragraphs": 14,
+          "ids": "269c04cef0c5"
         },
         {
           "slug": "smiths-report-violates-the-presumption-of-innocence",
           "title": "Smith's Report Violates The Presumption of Innocence",
-          "paragraphs": 10,
-          "ids": "0b7992f1f735"
+          "paragraphs": 9,
+          "ids": "7040b6486913"
         },
         {
           "slug": "preparation-and-release-of-a-report-would-serve-no-valid-purpose",
@@ -199,8 +199,8 @@
       ]
     },
     "us-psi-financial-crisis": {
-      "words": 327041,
-      "paragraphs": 2408,
+      "words": 326971,
+      "paragraphs": 2328,
       "sections": [
         {
           "slug": "permanent-subcommittee-on-investigations",
@@ -235,8 +235,8 @@
         {
           "slug": "investment-banks",
           "title": "Investment Banks",
-          "paragraphs": 18,
-          "ids": "023a19465f13"
+          "paragraphs": 17,
+          "ids": "99888ded0826"
         },
         {
           "slug": "market-oversight",
@@ -271,38 +271,38 @@
         {
           "slug": "subcommittee-investigation-and-findings-of-fact",
           "title": "Subcommittee Investigation and Findings of Fact",
-          "paragraphs": 35,
-          "ids": "3011c075dbef"
+          "paragraphs": 29,
+          "ids": "3c2579fa3b4c"
         },
         {
           "slug": "high-risk-lending-strategy",
           "title": "High Risk Lending Strategy",
-          "paragraphs": 61,
-          "ids": "8654a7c6617a"
+          "paragraphs": 55,
+          "ids": "d52ed9648019"
         },
         {
           "slug": "shoddy-lending-practices",
           "title": "Shoddy Lending Practices",
-          "paragraphs": 154,
-          "ids": "41e8e2287936"
+          "paragraphs": 147,
+          "ids": "f61b6e4992ef"
         },
         {
           "slug": "polluting-the-financial-system",
           "title": "Polluting the Financial System",
-          "paragraphs": 87,
-          "ids": "7bfcb36127c1"
+          "paragraphs": 82,
+          "ids": "0119552138d8"
         },
         {
           "slug": "destructive-compensation-practices",
           "title": "Destructive Compensation Practices",
-          "paragraphs": 47,
-          "ids": "1d261f35113e"
+          "paragraphs": 41,
+          "ids": "3628ff0b62fe"
         },
         {
           "slug": "preventing-high-risk-lending",
           "title": "Preventing High Risk Lending",
           "paragraphs": 24,
-          "ids": "71be531dd92a"
+          "ids": "a9e9149c3f9a"
         },
         {
           "slug": "case-study-of-the-office-of-thrift-supervision",
@@ -314,25 +314,25 @@
           "slug": "subcommittee-investigation-and-findings-of-fact-2",
           "title": "Subcommittee Investigation and Findings of Fact",
           "paragraphs": 19,
-          "ids": "a25bedb52845"
+          "ids": "37784a055d1d"
         },
         {
           "slug": "washington-mutual-examination-history",
           "title": "Washington Mutual Examination History",
           "paragraphs": 153,
-          "ids": "33f3dc8e16aa"
+          "ids": "7be0fec88adc"
         },
         {
           "slug": "regulatory-failures",
           "title": "Regulatory Failures",
-          "paragraphs": 120,
-          "ids": "95243baaf2dd"
+          "paragraphs": 118,
+          "ids": "04609e9aced6"
         },
         {
           "slug": "preventing-regulatory-failures",
           "title": "Preventing Regulatory Failures",
           "paragraphs": 11,
-          "ids": "70992baa93d9"
+          "ids": "217659252060"
         },
         {
           "slug": "case-study-of-moodys-and-standard-poors",
@@ -343,56 +343,56 @@
         {
           "slug": "subcommittee-investigation-and-findings-of-fact-3",
           "title": "Subcommittee Investigation and Findings of Fact",
-          "paragraphs": 55,
-          "ids": "d0bbb1163145"
+          "paragraphs": 53,
+          "ids": "922c6f707d83"
         },
         {
           "slug": "mass-credit-rating-downgrades",
           "title": "Mass Credit Rating Downgrades",
-          "paragraphs": 26,
-          "ids": "109a4c267d55"
+          "paragraphs": 25,
+          "ids": "10ff80383d0d"
         },
         {
           "slug": "ratings-deficiencies",
           "title": "Ratings Deficiencies",
-          "paragraphs": 178,
-          "ids": "a8411a33ea6e"
+          "paragraphs": 173,
+          "ids": "5cf7e6e776eb"
         },
         {
           "slug": "preventing-inflated-credit-ratings",
           "title": "Preventing Inflated Credit Ratings",
-          "paragraphs": 17,
-          "ids": "650f0d740828"
+          "paragraphs": 14,
+          "ids": "8b3bdda6ee4d"
         },
         {
           "slug": "case-study-of-goldman-sachs-and-deutsche-bank",
           "title": "CASE STUDY OF GOLDMAN SACHS AND DEUTSCHE BANK",
-          "paragraphs": 671,
-          "ids": "7329f4118375"
+          "paragraphs": 649,
+          "ids": "2ddc54131334"
         },
         {
           "slug": "cdo-marks",
           "title": "CDO Marks",
-          "paragraphs": 130,
-          "ids": "ef15039b4bd2"
+          "paragraphs": 127,
+          "ids": "0a5100261006"
         },
         {
           "slug": "timberwolf-i",
           "title": "Timberwolf I",
-          "paragraphs": 333,
-          "ids": "5f502228c03b"
+          "paragraphs": 324,
+          "ids": "ea90bcbb3ff4"
         },
         {
           "slug": "preventing-investment-bank-abuses",
           "title": "Preventing Investment Bank Abuses",
-          "paragraphs": 19,
-          "ids": "5dbf83e4a0ac"
+          "paragraphs": 17,
+          "ids": "f6b2a19a8599"
         }
       ]
     },
     "challenger-accident": {
-      "words": 152973,
-      "paragraphs": 2799,
+      "words": 153137,
+      "paragraphs": 2840,
       "sections": [
         {
           "slug": "investigation-of-the-challenger-accident",
@@ -410,31 +410,37 @@
           "slug": "conclusions",
           "title": "CONCLUSIONS",
           "paragraphs": 27,
-          "ids": "635a522eb374"
+          "ids": "7102b93ab158"
         },
         {
           "slug": "solid-rocket-motors",
           "title": "SOLID ROCKET MOTORS",
-          "paragraphs": 36,
-          "ids": "baf2cc8064cf"
+          "paragraphs": 19,
+          "ids": "4260e27cb504"
+        },
+        {
+          "slug": "summary-of-launch-operations",
+          "title": "Summary of Launch Operations",
+          "paragraphs": 30,
+          "ids": "7cf4d151118a"
         },
         {
           "slug": "hardware-development-and-production",
           "title": "Hardware Development and Production",
-          "paragraphs": 116,
-          "ids": "452688e3b881"
+          "paragraphs": 120,
+          "ids": "18cc2425362a"
         },
         {
           "slug": "technical-management",
           "title": "Technical Management",
-          "paragraphs": 42,
-          "ids": "9b674381a268"
+          "paragraphs": 43,
+          "ids": "1a40a62a9cb4"
         },
         {
           "slug": "organization-and-policy-management",
           "title": "Organization and Policy Management",
-          "paragraphs": 53,
-          "ids": "5136d6e06b0a"
+          "paragraphs": 59,
+          "ids": "2994d8d033f1"
         },
         {
           "slug": "challenger-investigation-hearings",
@@ -476,7 +482,7 @@
           "slug": "summary-of-significant-observations",
           "title": "SUMMARY OF SIGNIFICANT OBSERVATIONS",
           "paragraphs": 26,
-          "ids": "3eda17177858"
+          "ids": "2e2704b04f97"
         },
         {
           "slug": "summary-of-casing-joint-design",
@@ -491,7 +497,7 @@
           "ids": "4e0a00432c42"
         },
         {
-          "slug": "summary-of-launch-operations",
+          "slug": "summary-of-launch-operations-2",
           "title": "SUMMARY OF LAUNCH OPERATIONS",
           "paragraphs": 33,
           "ids": "7e6dd4400e0f"
@@ -499,8 +505,8 @@
         {
           "slug": "external",
           "title": "EXTERNAL",
-          "paragraphs": 19,
-          "ids": "3a875dc0e40a"
+          "paragraphs": 21,
+          "ids": "dd72fd4e8dfa"
         },
         {
           "slug": "crewsurvival",
@@ -517,20 +523,20 @@
         {
           "slug": "hardware-development-and-production-2",
           "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
-          "paragraphs": 190,
-          "ids": "9dc60d10c885"
+          "paragraphs": 195,
+          "ids": "a9b9acd07409"
         },
         {
           "slug": "2-operations",
           "title": "2 . OPERATIONS",
-          "paragraphs": 175,
-          "ids": "521e5b4c3aae"
+          "paragraphs": 178,
+          "ids": "e6350650a77f"
         },
         {
           "slug": "technical-management-2",
           "title": "TECHNICAL MANAGEMENT",
-          "paragraphs": 254,
-          "ids": "d79c5fdd8ebf"
+          "paragraphs": 261,
+          "ids": "e6c447a33436"
         },
         {
           "slug": "downstream-proper-posit-ion-i-figurevii-1",
@@ -1033,7 +1039,7 @@
       ]
     },
     "uk-leveson-inquiry": {
-      "words": 1084793,
+      "words": 1084707,
       "paragraphs": 12704,
       "sections": [
         {
@@ -1471,14 +1477,14 @@
       ]
     },
     "columbia-accident": {
-      "words": 167543,
-      "paragraphs": 2616,
+      "words": 167897,
+      "paragraphs": 2910,
       "sections": [
         {
           "slug": "in-memoriam",
           "title": "IN MEMORIAM",
-          "paragraphs": 6,
-          "ids": "792ac4eea6e3"
+          "paragraphs": 8,
+          "ids": "8bfc8f109317"
         },
         {
           "slug": "board-statement",
@@ -1496,7 +1502,7 @@
           "slug": "report-synopsis",
           "title": "REPORT SYNOPSIS",
           "paragraphs": 60,
-          "ids": "648ad356fccb"
+          "ids": "062e0e989fc9"
         },
         {
           "slug": "part-one-the-accident",
@@ -1537,26 +1543,26 @@
         {
           "slug": "21-mission-objectives-and-their-rationales",
           "title": "2.1 Mission Objectives and Their Rationales",
-          "paragraphs": 43,
-          "ids": "70884dfe0ed3"
+          "paragraphs": 48,
+          "ids": "a67b99a2e6f6"
         },
         {
           "slug": "22-flight-preparation",
           "title": "2.2 Flight Preparation",
-          "paragraphs": 18,
-          "ids": "14ed3e476457"
+          "paragraphs": 19,
+          "ids": "08747f46d8a0"
         },
         {
           "slug": "23-launch-sequence",
           "title": "2.3 Launch Sequence",
-          "paragraphs": 20,
-          "ids": "4e3053ab1249"
+          "paragraphs": 25,
+          "ids": "d8b6486459a3"
         },
         {
           "slug": "24-on-orbit-events",
           "title": "2.4 On-Orbit Events",
-          "paragraphs": 31,
-          "ids": "07f5e1730003"
+          "paragraphs": 48,
+          "ids": "bfe2290fdf00"
         },
         {
           "slug": "25-debris-strike-analysis-and-requests-for-imagery",
@@ -1573,50 +1579,50 @@
         {
           "slug": "27-events-immediately-following-the-accident",
           "title": "2.7 Events Immediately Following the Accident",
-          "paragraphs": 77,
-          "ids": "03c9335fb63e"
+          "paragraphs": 103,
+          "ids": "117f898d9efb"
         },
         {
           "slug": "32-the-external-tank-and-foam",
           "title": "3.2 The External Tank and Foam",
-          "paragraphs": 78,
-          "ids": "bb73f9f60583"
+          "paragraphs": 82,
+          "ids": "e32e95071a4a"
         },
         {
           "slug": "33-wing-leading-edge-structural-subsystem",
           "title": "3.3 WING LEADING EDGE STRUCTURAL SUBSYSTEM",
-          "paragraphs": 60,
-          "ids": "4170ca454efb"
+          "paragraphs": 66,
+          "ids": "ff74622c53bc"
         },
         {
           "slug": "34-image-and-transport-analyses",
           "title": "3.4 Image and Transport Analyses",
-          "paragraphs": 51,
-          "ids": "e110e9e68710"
+          "paragraphs": 54,
+          "ids": "580b7d9cfcd2"
         },
         {
           "slug": "35-on-orbit-debris-separation-the-flight-day-2-object",
           "title": "3.5 On-Orbit Debris Separation – The \"Flight Day 2\" Object",
-          "paragraphs": 33,
-          "ids": "06fb399a99e2"
+          "paragraphs": 35,
+          "ids": "9ddf149e806a"
         },
         {
           "slug": "36-de-orbitre-entry",
           "title": "3.6 De-Orbit/Re-Entry",
-          "paragraphs": 181,
-          "ids": "43a3bcab2e82"
+          "paragraphs": 188,
+          "ids": "2e33247bc409"
         },
         {
           "slug": "37-debris-analysis",
           "title": "3.7 Debris Analysis",
-          "paragraphs": 80,
-          "ids": "14e2d642f7c4"
+          "paragraphs": 95,
+          "ids": "dd815551fb09"
         },
         {
           "slug": "38-impact-analysis-and-testing",
           "title": "3.8 Impact Analysis and Testing",
-          "paragraphs": 66,
-          "ids": "fdad4e3b3d96"
+          "paragraphs": 77,
+          "ids": "bbac9575196a"
         },
         {
           "slug": "41-fault-tree",
@@ -1627,8 +1633,8 @@
         {
           "slug": "42-remaining-factors",
           "title": "4.2 Remaining Factors",
-          "paragraphs": 128,
-          "ids": "61ed72ff990d"
+          "paragraphs": 166,
+          "ids": "2c2adfb0a372"
         },
         {
           "slug": "part-two-why-the-accident-occurred",
@@ -1639,32 +1645,32 @@
         {
           "slug": "51-the-challenger-accident-and-its-aftermath",
           "title": "5.1 The Challenger Accident and its Aftermath",
-          "paragraphs": 16,
-          "ids": "d37b89fd4e40"
+          "paragraphs": 18,
+          "ids": "079b0ae903f9"
         },
         {
           "slug": "52-the-nasa-human-space-flight-culture",
           "title": "5.2 The NASA Human Space Flight Culture",
           "paragraphs": 10,
-          "ids": "940f43b8c19f"
+          "ids": "8d787b6ee03d"
         },
         {
           "slug": "53-an-agency-trying-to-do-too-much-with-too-little",
           "title": "5.3 An Agency Trying to Do Too Much With Too Little",
           "paragraphs": 94,
-          "ids": "73d946f02074"
+          "ids": "f1f7998dc8a6"
         },
         {
           "slug": "54-turbulence-in-nasa-hits-the-space-shuttle-program",
           "title": "5.4 Turbulence in NASA Hits the Space Shuttle Program",
-          "paragraphs": 100,
-          "ids": "5f1c093bd4d7"
+          "paragraphs": 105,
+          "ids": "a663009a69b5"
         },
         {
           "slug": "55-when-to-replace-the-space-shuttle",
           "title": "5.5 When to Replace the Space Shuttle?",
-          "paragraphs": 48,
-          "ids": "35acca1e9796"
+          "paragraphs": 50,
+          "ids": "4c0bfb99d1a8"
         },
         {
           "slug": "56-a-change-in-nasa-leadership",
@@ -1687,26 +1693,26 @@
         {
           "slug": "61-a-history-of-foam-anomalies",
           "title": "6.1 A History of Foam Anomalies",
-          "paragraphs": 154,
-          "ids": "081fc18c2266"
+          "paragraphs": 166,
+          "ids": "3314503e5cd0"
         },
         {
           "slug": "62-schedule-pressure",
           "title": "6.2 Schedule Pressure",
-          "paragraphs": 128,
-          "ids": "1b6ace6264e0"
+          "paragraphs": 135,
+          "ids": "3a27fde1c31a"
         },
         {
           "slug": "63-decision-making-during-the-flight-of-sts-107",
           "title": "6.3 Decision-Making During the Flight of STS-107",
-          "paragraphs": 329,
-          "ids": "1d5b7e69de6e"
+          "paragraphs": 360,
+          "ids": "2e2f0a273c97"
         },
         {
           "slug": "64-possibility-of-rescue-or-repair",
           "title": "6.4 Possibility of Rescue or Repair",
-          "paragraphs": 13,
-          "ids": "071d5a824c3f"
+          "paragraphs": 17,
+          "ids": "9114dd795ff6"
         },
         {
           "slug": "chapter-7-the-accidents-organizational-causes",
@@ -1717,38 +1723,38 @@
         {
           "slug": "71-organizational-causes-insights-from-history",
           "title": "7.1 Organizational Causes: Insights from History",
-          "paragraphs": 18,
-          "ids": "e8ac83100944"
+          "paragraphs": 23,
+          "ids": "f0d6a01e9e02"
         },
         {
           "slug": "72-organizational-causes-insights-from-theory",
           "title": "7.2 Organizational Causes: Insights from Theory",
-          "paragraphs": 20,
-          "ids": "f61880c27c12"
+          "paragraphs": 21,
+          "ids": "a3e2766818b6"
         },
         {
           "slug": "73-organizational-causes-evaluating-best-safety-practices",
           "title": "7.3 Organizational Causes: Evaluating Best Safety Practices",
-          "paragraphs": 23,
-          "ids": "276823166dfe"
+          "paragraphs": 27,
+          "ids": "712112a661d1"
         },
         {
           "slug": "74-organizational-causes-a-broken-safety-culture",
           "title": "7.4 Organizational Causes: A Broken Safety Culture",
-          "paragraphs": 80,
-          "ids": "624026350e6f"
+          "paragraphs": 88,
+          "ids": "003c37a3024d"
         },
         {
           "slug": "75-organizational-causes-impact-of-a-flawed-safety-culture-on-sts-107",
           "title": "7.5 Organizational Causes: Impact of a Flawed Safety Culture on STS-107",
-          "paragraphs": 41,
-          "ids": "2146601c3092"
+          "paragraphs": 45,
+          "ids": "62ced20f07d4"
         },
         {
           "slug": "76-findings-and-recommendations",
           "title": "7.6 Findings and Recommendations",
-          "paragraphs": 20,
-          "ids": "c52450313075"
+          "paragraphs": 22,
+          "ids": "e44e2579454d"
         },
         {
           "slug": "81-echoes-of-challenger",
@@ -1801,32 +1807,32 @@
         {
           "slug": "92-mid-term-continuing-to-fly",
           "title": "9.2 Mid-Term: Continuing to Fly",
-          "paragraphs": 12,
-          "ids": "a1a2155b9c88"
+          "paragraphs": 13,
+          "ids": "ddc65d5c3ea0"
         },
         {
           "slug": "93-long-term-future-directions-for-the-us-in-space",
           "title": "9.3 Long-Term: Future Directions for the U.S. in Space",
-          "paragraphs": 17,
-          "ids": "223c1c089fe2"
+          "paragraphs": 20,
+          "ids": "4c70e68a70f7"
         },
         {
           "slug": "101-public-safety",
           "title": "10.1 Public Safety",
-          "paragraphs": 23,
-          "ids": "fc54a48e79a1"
+          "paragraphs": 27,
+          "ids": "eee5330aa5f4"
         },
         {
           "slug": "102-crew-escape-and-survival",
           "title": "10.2 Crew Escape and Survival",
-          "paragraphs": 39,
-          "ids": "a2744c93761e"
+          "paragraphs": 45,
+          "ids": "375580b28521"
         },
         {
           "slug": "104-industrial-safety-and-quality-assurance",
           "title": "10.4 Industrial Safety and Quality Assurance",
-          "paragraphs": 46,
-          "ids": "5c465ba2381e"
+          "paragraphs": 49,
+          "ids": "1841e6c1e7a4"
         },
         {
           "slug": "105-maintenance-documentation",
@@ -1843,20 +1849,20 @@
         {
           "slug": "107-orbiter-corrosion",
           "title": "10.7 Orbiter Corrosion",
-          "paragraphs": 20,
-          "ids": "9776bcfb36e2"
+          "paragraphs": 22,
+          "ids": "100543d2eeb1"
         },
         {
           "slug": "109-hold-down-post-cable-anomaly",
           "title": "10.9 Hold-Down Post Cable Anomaly",
-          "paragraphs": 20,
-          "ids": "6c8a0a053be6"
+          "paragraphs": 21,
+          "ids": "af014e573d14"
         },
         {
           "slug": "chapter-11-recommendations",
           "title": "Chapter 11: Recommendations",
-          "paragraphs": 34,
-          "ids": "1a1e8593db94"
+          "paragraphs": 48,
+          "ids": "82b6d3658e4e"
         },
         {
           "slug": "a1-activation-of-the-columbia-accident-investigation-board",
@@ -1867,38 +1873,38 @@
         {
           "slug": "a2-board-charter-and-organization",
           "title": "A.2 BOARD CHARTER AND ORGANIZATION",
-          "paragraphs": 7,
-          "ids": "50a426d820dc"
+          "paragraphs": 9,
+          "ids": "e8082843c469"
         },
         {
           "slug": "a3-investigation-process-and-scope",
           "title": "A.3 INVESTIGATION PROCESS AND SCOPE",
-          "paragraphs": 6,
-          "ids": "00a663d23771"
+          "paragraphs": 9,
+          "ids": "900af43a3d03"
         },
         {
           "slug": "a4-board-policies-and-procedures",
           "title": "A.4 BOARD POLICIES AND PROCEDURES",
-          "paragraphs": 11,
-          "ids": "4ce14602dc04"
+          "paragraphs": 19,
+          "ids": "e551261a45a4"
         },
         {
           "slug": "a5-investigation-interface-with-nasa",
           "title": "A.5 INVESTIGATION INTERFACE WITH NASA",
-          "paragraphs": 7,
-          "ids": "5fe5127a8778"
+          "paragraphs": 10,
+          "ids": "f7f5b21be55b"
         },
         {
           "slug": "a6-board-documentation-system",
           "title": "A.6 BOARD DOCUMENTATION SYSTEM",
-          "paragraphs": 19,
-          "ids": "00791487ad5c"
+          "paragraphs": 27,
+          "ids": "bf6b28435244"
         },
         {
           "slug": "a7-list-of-public-hearings",
           "title": "A.7 LIST OF PUBLIC HEARINGS",
-          "paragraphs": 9,
-          "ids": "1b8c16cad761"
+          "paragraphs": 16,
+          "ids": "fad70e20cee4"
         },
         {
           "slug": "appendix-b-board-member-biographies",
@@ -2060,7 +2066,7 @@
           "slug": "al-qaeda-aims-at-the-american-homeland",
           "title": "AL QAEDA AIMS AT THE AMERICAN HOMELAND",
           "paragraphs": 36,
-          "ids": "7dfd4ada5f19"
+          "ids": "4663b6228296"
         },
         {
           "slug": "52-the-planes-operation",
@@ -2090,7 +2096,7 @@
           "slug": "61-the-millennium-crisis",
           "title": "6.1 The Millennium Crisis",
           "paragraphs": 39,
-          "ids": "38b93b3f9df8"
+          "ids": "8c8de725d75e"
         },
         {
           "slug": "62-post-crisis-reflection-agenda-for-2000",
@@ -2126,7 +2132,7 @@
           "slug": "72-the-911-pilots-in-the-united-states",
           "title": "7.2 The 9/11 Pilots in the United States",
           "paragraphs": 43,
-          "ids": "21bbfd344ee5"
+          "ids": "ac8b2559817d"
         },
         {
           "slug": "73-assembling-the-teams",
@@ -2144,7 +2150,7 @@
           "slug": "the-system-was-blinking-red",
           "title": "\"THE SYSTEM WAS BLINKING RED\"",
           "paragraphs": 65,
-          "ids": "979fa7699906"
+          "ids": "06ea5bc96962"
         },
         {
           "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
@@ -2299,8 +2305,8 @@
       ]
     },
     "us-deepwater-horizon": {
-      "words": 183049,
-      "paragraphs": 1730,
+      "words": 183046,
+      "paragraphs": 1729,
       "sections": [
         {
           "slug": "front-matter",
@@ -2359,14 +2365,8 @@
         {
           "slug": "part-iii-lessons-learned-industry-government-energy-policy",
           "title": "Part III: Lessons Learned: Industry, Government, Energy Policy",
-          "paragraphs": 135,
-          "ids": "5ff4de6dce44"
-        },
-        {
-          "slug": "chapter-nine-develop-options-for-guarding-against-and-mitigating-the-impact-of-o",
-          "title": "Chapter Nine: \"Develop options for guarding against, and mitigating the impact of, oil spills associated with offshore drilling.\" Investing in Safety, Investing in Response, Investing in the Gulf",
-          "paragraphs": 9,
-          "ids": "ee1eb73dcea2"
+          "paragraphs": 143,
+          "ids": "9d831af48a79"
         },
         {
           "slug": "the-need-for-a-new-approach-to-risk-assessment-and-management",
@@ -2509,8 +2509,8 @@
       ]
     },
     "us-v-philip-morris": {
-      "words": 489306,
-      "paragraphs": 5893,
+      "words": 489461,
+      "paragraphs": 5837,
       "sections": [
         {
           "slug": "united-states-district-court-for-the-district-of-columbia",
@@ -3007,8 +3007,8 @@
         {
           "slug": "improper-use-of-attorney-client-and-work-product-privileges",
           "title": "Improper use of Attorney-Client and Work Product Privileges",
-          "paragraphs": 47,
-          "ids": "912829d64b82"
+          "paragraphs": 45,
+          "ids": "2e635cc392fe"
         },
         {
           "slug": "liggetts-settlement-agreement-with-various-states",
@@ -3025,14 +3025,14 @@
         {
           "slug": "enforcement-of-the-msa",
           "title": "Enforcement of the MSA",
-          "paragraphs": 25,
-          "ids": "8386a9e40ec3"
+          "paragraphs": 23,
+          "ids": "ce241397cd20"
         },
         {
           "slug": "developments-since-the-msa",
           "title": "Developments Since the MSA",
-          "paragraphs": 25,
-          "ids": "a253bdf1ae55"
+          "paragraphs": 24,
+          "ids": "8e5d8c83f1c3"
         },
         {
           "slug": "conclusions-of-law",
@@ -3043,50 +3043,50 @@
         {
           "slug": "defendants-engaged-in-a-scheme-to-defraud-smokers-and-potential-smokers",
           "title": "Defendants Engaged in a Scheme to Defraud Smokers and Potential Smokers",
-          "paragraphs": 11,
-          "ids": "c4c4266a35f4"
+          "paragraphs": 9,
+          "ids": "0476a72042dc"
         },
         {
           "slug": "defendants-falsely-denied-the-adverse-health-effects-of-smoking",
           "title": "Defendants Falsely Denied the Adverse Health Effects of Smoking",
-          "paragraphs": 10,
-          "ids": "99af81967bc4"
+          "paragraphs": 9,
+          "ids": "a151d8ac00a1"
         },
         {
           "slug": "defendants-falsely-denied-that-nicotine-and-smoking-are-addictive",
           "title": "Defendants Falsely Denied that Nicotine and Smoking Are Addictive",
-          "paragraphs": 14,
-          "ids": "fa399dc3dfad"
+          "paragraphs": 9,
+          "ids": "641088637427"
         },
         {
           "slug": "defendants-falsely-denied-that-they-manipulated-cigarette-design-and-composition",
           "title": "Defendants Falsely Denied that They Manipulated Cigarette Design and Composition so as to Assure Nicotine Delivery Levels Which Create and Sustain Addiction",
-          "paragraphs": 7,
-          "ids": "2be253338f6b"
+          "paragraphs": 6,
+          "ids": "1fcf16a4301d"
         },
         {
           "slug": "defendants-falsely-represented-that-light-and-low-tar-cigarettes-deliver-less-ni",
           "title": "Defendants Falsely Represented that Light and Low Tar Cigarettes Deliver Less Nicotine and Tar and, Therefore, Present Fewer Health Risks than Full-Flavor Cigarettes",
-          "paragraphs": 13,
-          "ids": "b24a1cf17235"
+          "paragraphs": 11,
+          "ids": "4424a72b587a"
         },
         {
           "slug": "defendants-falsely-denied-that-they-market-to-youth",
           "title": "Defendants Falsely Denied that They Market to Youth",
-          "paragraphs": 10,
-          "ids": "6410bdbc0317"
+          "paragraphs": 9,
+          "ids": "91adab5a149e"
         },
         {
           "slug": "defendants-falsely-denied-that-ets-causes-disease",
           "title": "Defendants Falsely Denied that ETS Causes Disease",
-          "paragraphs": 10,
-          "ids": "b330d71f7657"
+          "paragraphs": 8,
+          "ids": "f96e4ebd19c2"
         },
         {
           "slug": "defendants-suppressed-documents-information-and-research",
           "title": "Defendants Suppressed Documents, Information, and Research",
-          "paragraphs": 5,
-          "ids": "de5a7319be34"
+          "paragraphs": 4,
+          "ids": "1e1e49d62e40"
         },
         {
           "slug": "applicable-legal-standards",
@@ -3109,8 +3109,8 @@
         {
           "slug": "the-enterprise-has-functioned-as-a-continuous-unit",
           "title": "The Enterprise Has Functioned as a Continuous Unit",
-          "paragraphs": 7,
-          "ids": "0e4d93129454"
+          "paragraphs": 4,
+          "ids": "c9e60246663e"
         },
         {
           "slug": "the-enterprise-engaged-in-and-its-activities-affected-interstate-and-foreign-com",
@@ -3127,20 +3127,20 @@
         {
           "slug": "each-defendant-participated-in-the-conduct-of-the-enterprise",
           "title": "Each Defendant Participated in the Conduct of the Enterprise",
-          "paragraphs": 15,
-          "ids": "4c5f52c286bd"
+          "paragraphs": 14,
+          "ids": "99c5a78e8b15"
         },
         {
           "slug": "the-government-has-proven-that-defendants-caused-mailings-and-wire-transmissions",
           "title": "The Government Has Proven that Defendants Caused Mailings and Wire Transmissions, in Furtherance of the Scheme to Defraud, in Violation of 18 U.S.C. § § 1341 and/or 1343",
-          "paragraphs": 40,
-          "ids": "1fa2d319b70b"
+          "paragraphs": 33,
+          "ids": "8b7931b05071"
         },
         {
           "slug": "the-first-amendment-does-not-protect-defendants-false-and-misleading-public-stat",
           "title": "The First Amendment Does Not Protect Defendants' False and Misleading Public Statements",
-          "paragraphs": 19,
-          "ids": "8b7bd5599105"
+          "paragraphs": 9,
+          "ids": "908e07a13150"
         },
         {
           "slug": "defendants-engaged-in-a-pattern-of-racketeering-activity-in-furtherance-of-the-s",
@@ -3151,32 +3151,32 @@
         {
           "slug": "defendants-acted-with-the-specific-intent-to-defraud-or-deceive",
           "title": "Defendants Acted with the Specific Intent to Defraud or Deceive",
-          "paragraphs": 29,
-          "ids": "4a38d9bae4d5"
+          "paragraphs": 27,
+          "ids": "66d28d61bb8c"
         },
         {
           "slug": "defendants-false-and-fraudulent-statements-representations-and-promises-were-mat",
           "title": "Defendants' False and Fraudulent Statements, Representations, and Promises Were Material",
-          "paragraphs": 18,
-          "ids": "eb2ee2b7d301"
+          "paragraphs": 14,
+          "ids": "424183b0149b"
         },
         {
           "slug": "applicable-case-law",
           "title": "Applicable Case Law",
-          "paragraphs": 24,
-          "ids": "71403b6ace04"
+          "paragraphs": 19,
+          "ids": "06324cf564f6"
         },
         {
           "slug": "liggett-withdrew-from-the-conspiracy",
           "title": "Liggett Withdrew from the Conspiracy",
-          "paragraphs": 16,
-          "ids": "92207810e0d4"
+          "paragraphs": 14,
+          "ids": "16049ce9707a"
         },
         {
           "slug": "applicable-law",
           "title": "Applicable Law",
-          "paragraphs": 10,
-          "ids": "162f54b57b47"
+          "paragraphs": 8,
+          "ids": "c3d070ca272c"
         },
         {
           "slug": "the-enterprises-scheme-to-defraud-presents-continuing-opportunities-for-defendan",
@@ -3571,8 +3571,8 @@
       ]
     },
     "uk-chilcot-inquiry": {
-      "words": 61870,
-      "paragraphs": 950,
+      "words": 61869,
+      "paragraphs": 949,
       "sections": [
         {
           "slug": "front-matter",
@@ -3775,8 +3775,8 @@
         {
           "slug": "force-level-review",
           "title": "FORCE LEVEL REVIEW",
-          "paragraphs": 11,
-          "ids": "6de77b79acd2"
+          "paragraphs": 10,
+          "ids": "cc4a13d4ada7"
         },
         {
           "slug": "the-beginning-of-the-end",
@@ -3853,26 +3853,26 @@
       ]
     },
     "us-lehman-examiner": {
-      "words": 184933,
-      "paragraphs": 975,
+      "words": 184894,
+      "paragraphs": 925,
       "sections": [
         {
           "slug": "introduction",
           "title": "INTRODUCTION",
           "paragraphs": 27,
-          "ids": "55b801702eb4"
+          "ids": "eebee6d4a296"
         },
         {
           "slug": "why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise-from-its-fin",
           "title": "Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure?",
-          "paragraphs": 15,
-          "ids": "0c83cc7c3b54"
+          "paragraphs": 13,
+          "ids": "2eb7e0a2aae7"
         },
         {
           "slug": "are-there-administrative-claims-or-colorable-claims-for-preferences-or-voidable-",
           "title": "Are There Administrative Claims or Colorable Claims For Preferences or Voidable Transfers?",
           "paragraphs": 9,
-          "ids": "54fd6c0a2385"
+          "ids": "49fa04919b94"
         },
         {
           "slug": "the-examiners-authority",
@@ -3901,26 +3901,26 @@
         {
           "slug": "cooperation-and-coordination-with-the-government-and-parties",
           "title": "Cooperation and Coordination With the Government and Parties",
-          "paragraphs": 13,
-          "ids": "229cc854e354"
+          "paragraphs": 14,
+          "ids": "049eac6be85f"
         },
         {
           "slug": "business-and-risk-management",
           "title": "Business and Risk Management",
-          "paragraphs": 312,
-          "ids": "1f8052874b29"
+          "paragraphs": 310,
+          "ids": "fffa096a63c7"
         },
         {
           "slug": "repo-105",
           "title": "Repo 105",
-          "paragraphs": 581,
-          "ids": "8eb11b699ded"
+          "paragraphs": 534,
+          "ids": "fa8b23eec4ad"
         }
       ]
     },
     "uk-post-office-horizon-inquiry": {
-      "words": 83638,
-      "paragraphs": 948,
+      "words": 83632,
+      "paragraphs": 942,
       "sections": [
         {
           "slug": "introduction",
@@ -3943,14 +3943,14 @@
         {
           "slug": "b-categories-of-persons-affected",
           "title": "b. Categories of persons affected",
-          "paragraphs": 43,
-          "ids": "3c16da00e00e"
+          "paragraphs": 42,
+          "ids": "a17f84303556"
         },
         {
           "slug": "c-case-illustrations",
           "title": "c. Case Illustrations",
-          "paragraphs": 181,
-          "ids": "198d567f694a"
+          "paragraphs": 180,
+          "ids": "487da53b83f7"
         },
         {
           "slug": "financial-and-other-redress",
@@ -3997,8 +3997,8 @@
         {
           "slug": "submissions-on-behalf-of-core-participants-and-others",
           "title": "SUBMISSIONS ON BEHALF OF CORE PARTICIPANTS AND OTHERS",
-          "paragraphs": 14,
-          "ids": "7003743bd266"
+          "paragraphs": 13,
+          "ids": "7f6d234aac85"
         },
         {
           "slug": "conclusions-and-recommendations-relating-to-redress",
@@ -4021,20 +4021,20 @@
         {
           "slug": "c-has-financial-redress-been-delivered-promptly",
           "title": "c. Has financial redress been delivered promptly?",
-          "paragraphs": 87,
-          "ids": "c8ea6871b2dc"
+          "paragraphs": 85,
+          "ids": "b522b482cb93"
         },
         {
           "slug": "d-other-issues-and-recommendations",
           "title": "d. Other Issues and Recommendations",
-          "paragraphs": 34,
-          "ids": "5bf41314c6ff"
+          "paragraphs": 33,
+          "ids": "5b3dbbe4be20"
         }
       ]
     },
     "us-jan6-committee": {
-      "words": 370108,
-      "paragraphs": 2283,
+      "words": 370120,
+      "paragraphs": 2295,
       "sections": [
         {
           "slug": "select-committee-to-investigate-the-january-6th-attack-on-the-united-states-capi",
@@ -4069,8 +4069,8 @@
         {
           "slug": "executive-summary-overview-of-the-evidence-developed",
           "title": "Executive Summary: Overview of the Evidence Developed",
-          "paragraphs": 327,
-          "ids": "292a1fc1e773"
+          "paragraphs": 328,
+          "ids": "4e23799766e3"
         },
         {
           "slug": "referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi",
@@ -4214,13 +4214,13 @@
           "slug": "32-president-trump-and-the-campaign-adopt-the-fake-elector-scheme",
           "title": "3.2 President Trump and the Campaign Adopt the Fake Elector Scheme",
           "paragraphs": 5,
-          "ids": "a19646c4b25c"
+          "ids": "762692367b8d"
         },
         {
           "slug": "33-the-campaign-legal-team-bows-out-and-giuliani-steps-in",
           "title": "3.3 The Campaign Legal Team Bows Out, and Giuliani Steps In",
-          "paragraphs": 13,
-          "ids": "df562ae41d56"
+          "paragraphs": 14,
+          "ids": "cdf56b5c011f"
         },
         {
           "slug": "34-some-of-the-proposed-fake-electors-express-concerns-about-the-plan",
@@ -4237,8 +4237,8 @@
         {
           "slug": "36-the-fallout-from-the-fake-elector-plan",
           "title": "3.6 The Fallout from the Fake Elector Plan",
-          "paragraphs": 17,
-          "ids": "86c72fa3da56"
+          "paragraphs": 18,
+          "ids": "aa03ee1b4068"
         },
         {
           "slug": "chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me",
@@ -4250,7 +4250,7 @@
           "slug": "42-november-23-2020-barr-challenges-president-trumps-election-lies",
           "title": "4.2 November 23, 2020: Barr Challenges President Trump’s Election Lies",
           "paragraphs": 8,
-          "ids": "818de93d3be4"
+          "ids": "911211221753"
         },
         {
           "slug": "43-december-1-2020-president-trump-is-irate-after-barr-says-there-is-no-signific",
@@ -4268,25 +4268,25 @@
           "slug": "45-acting-attorney-general-jeffrey-rosen-and-acting-deputy-attorney-general-rich",
           "title": "4.5 Acting Attorney General Jeffrey Rosen and Acting Deputy Attorney General Richard Donoghue Hold the Line",
           "paragraphs": 6,
-          "ids": "2567f978ef9a"
+          "ids": "50f4edfd56fd"
         },
         {
           "slug": "46-president-trump-is-introduced-to-jeffrey-clark",
           "title": "4.6 President Trump is Introduced to Jeffrey Clark",
-          "paragraphs": 6,
-          "ids": "456e0c4da579"
+          "paragraphs": 7,
+          "ids": "f7959857e0de"
         },
         {
           "slug": "47-december-27th-phone-call",
           "title": "4.7 December 27th Phone Call",
-          "paragraphs": 19,
-          "ids": "373a86fadf3e"
+          "paragraphs": 18,
+          "ids": "7eaa048a42bb"
         },
         {
           "slug": "48-congressman-scott-perry-calls-donoghue",
           "title": "4.8 Congressman Scott Perry Calls Donoghue",
-          "paragraphs": 5,
-          "ids": "9e4b88d1d54c"
+          "paragraphs": 6,
+          "ids": "aa28213e8e80"
         },
         {
           "slug": "49-december-28-2020-the-clark-letter",
@@ -4298,7 +4298,7 @@
           "slug": "410-december-29th-meeting",
           "title": "4.10 December 29th Meeting",
           "paragraphs": 6,
-          "ids": "06cf2b981771"
+          "ids": "4f9406f49ce6"
         },
         {
           "slug": "412-december-31st-meeting",
@@ -4327,20 +4327,20 @@
         {
           "slug": "51-president-trump-and-his-allies-embark-on-a-desperate-gambit-to-block-certific",
           "title": "5.1 President Trump and His Allies Embark on a Desperate Gambit to Block Certification of the 2020 Presidential Election.",
-          "paragraphs": 37,
-          "ids": "217be48a8bd6"
+          "paragraphs": 38,
+          "ids": "91965a9384ba"
         },
         {
           "slug": "52-president-trump-and-his-allies-exert-intense-public-and-private-pressure-on-t",
           "title": "5.2 President Trump and his Allies Exert Intense Public and Private Pressure on the Vice President in Advance of the Joint Session of Congress on January 6th",
           "paragraphs": 67,
-          "ids": "bb3b18594209"
+          "ids": "dc635018d5b7"
         },
         {
           "slug": "53-president-trump-and-his-allies-continue-to-pressure-the-vice-president-on-jan",
           "title": "5.3 President Trump and his Allies Continue to Pressure the Vice President on January 6th, Threatening His Life and Our Democracy.",
           "paragraphs": 44,
-          "ids": "a2deb376314c"
+          "ids": "6d3f363e76bf"
         },
         {
           "slug": "54-president-trump-endangers-pences-life-causing-the-vice-president-his-family-a",
@@ -4351,20 +4351,20 @@
         {
           "slug": "chapter-6-be-there-will-be-wild",
           "title": "Chapter 6. “BE THERE, WILL BE WILD!”",
-          "paragraphs": 16,
-          "ids": "d838ef6914d4"
+          "paragraphs": 17,
+          "ids": "490809a5cae6"
         },
         {
           "slug": "61-how-far-right-extremists-and-conspiracy-theorists-planned-for-january-6th",
           "title": "6.1 How Far-right Extremists and Conspiracy Theorists Planned for January 6th",
           "paragraphs": 19,
-          "ids": "f0c669b403db"
+          "ids": "e50af1a57b1f"
         },
         {
           "slug": "62-the-proud-boys-you-want-to-storm-the-capitol",
           "title": "6.2 The Proud Boys: “[Y]ou Want to Storm the Capitol”",
           "paragraphs": 26,
-          "ids": "3d2d6ca11a5d"
+          "ids": "9b41543270c7"
         },
         {
           "slug": "63-the-oath-keepers-he-called-us-all-to-the-capitol-and-wants-us-to-make-it-wild",
@@ -4411,8 +4411,8 @@
         {
           "slug": "610-thedonaldwin-occupy-the-capitol",
           "title": "6.10 TheDonald.win: “Occupy the Capitol”",
-          "paragraphs": 11,
-          "ids": "c2abb0a55202"
+          "paragraphs": 12,
+          "ids": "314d5c446063"
         },
         {
           "slug": "611-how-the-white-house-and-rally-organizers-prepared-for-january-6th",
@@ -4442,7 +4442,7 @@
           "slug": "615-potuslikes-the-crazies",
           "title": "6.15 “POTUS…Likes the Crazies.”",
           "paragraphs": 9,
-          "ids": "72bcb473c782"
+          "ids": "b9335e732171"
         },
         {
           "slug": "616-january-5-2021-fort-trump",
@@ -4453,20 +4453,20 @@
         {
           "slug": "617-together-we-will-stop-the-steal",
           "title": "6.17 “Together, We Will STOP THE STEAL.”",
-          "paragraphs": 11,
-          "ids": "fd7c41aebb3d"
+          "paragraphs": 12,
+          "ids": "714ef8bde594"
         },
         {
           "slug": "chapter-7-187-minutes-of-dereliction",
           "title": "Chapter 7. 187 MINUTES OF DERELICTION",
-          "paragraphs": 17,
-          "ids": "157606a3927f"
+          "paragraphs": 18,
+          "ids": "f5ab09f89ca6"
         },
         {
           "slug": "71-reinsert-the-mike-pence-lines",
           "title": "7.1 “Reinsert the Mike Pence Lines”",
           "paragraphs": 14,
-          "ids": "0efcbe801e9e"
+          "ids": "663e1376d0fc"
         },
         {
           "slug": "72-ill-be-there-with-you",
@@ -4477,8 +4477,8 @@
         {
           "slug": "73-the-presidents-anger-when-he-could-not-march-to-the-capitol",
           "title": "7.3 The President’s Anger When He Could Not March to the Capitol",
-          "paragraphs": 18,
-          "ids": "8f4c1a931fa7"
+          "paragraphs": 19,
+          "ids": "9b6a1e703f65"
         },
         {
           "slug": "74-were-going-to-try-to-get-the-president-to-put-out-a-statement",
@@ -4508,7 +4508,7 @@
           "slug": "78-stay-peaceful",
           "title": "7.8 “Stay Peaceful!”",
           "paragraphs": 14,
-          "ids": "17f80f2b4fb0"
+          "ids": "6c88c5be36ec"
         },
         {
           "slug": "79-the-president-needs-to-stop-this-asap",
@@ -4520,7 +4520,7 @@
           "slug": "710-we-love-you-youre-very-special",
           "title": "7.10 “We Love You. You’re Very Special”",
           "paragraphs": 23,
-          "ids": "f01e3fd5124c"
+          "ids": "db258929c7c8"
         },
         {
           "slug": "712-president-trump-still-sought-to-delay-the-joint-session",
@@ -4567,8 +4567,8 @@
         {
           "slug": "84-president-trumps-mob-descends-on-the-us-capitol",
           "title": "8.4 President Trump’s Mob Descends on the U.S. Capitol",
-          "paragraphs": 13,
-          "ids": "d3d768b9faf0"
+          "paragraphs": 14,
+          "ids": "53943c23fe8a"
         },
         {
           "slug": "85-the-mob-surges",
@@ -4580,13 +4580,13 @@
           "slug": "86-the-united-states-capitol-is-breached",
           "title": "8.6 The United States Capitol is Breached",
           "paragraphs": 28,
-          "ids": "91d46c6b55fb"
+          "ids": "1c739789008f"
         },
         {
           "slug": "87-president-trump-pours-fuel-on-the-fire",
           "title": "8.7 President Trump Pours Fuel on the Fire",
-          "paragraphs": 18,
-          "ids": "35aa0f42b2f5"
+          "paragraphs": 19,
+          "ids": "93bfe344f7c5"
         },
         {
           "slug": "88-the-evacuation",
@@ -4609,14 +4609,8 @@
         {
           "slug": "appendix-1-government-agency-preparation-for-and-response-to-january-6th",
           "title": "APPENDIX 1: GOVERNMENT AGENCY PREPARATION FOR AND RESPONSE TO JANUARY 6TH",
-          "paragraphs": 5,
-          "ids": "703f745f56c0"
-        },
-        {
-          "slug": "discussion",
-          "title": "Discussion",
-          "paragraphs": 71,
-          "ids": "69799e4474fc"
+          "paragraphs": 76,
+          "ids": "db74588ae561"
         },
         {
           "slug": "appendix-2-dc-national-guard-preparation-for-and-response-to-january-6th",
@@ -4627,32 +4621,8 @@
         {
           "slug": "appendix-3-the-big-rip-off-follow-the-money",
           "title": "APPENDIX 3: THE BIG RIP-OFF: FOLLOW THE MONEY",
-          "paragraphs": 38,
-          "ids": "e12a19c10f66"
-        },
-        {
-          "slug": "2020-election-the-role-of-election-fraud-messaging",
-          "title": "2020 ELECTION: THE ROLE OF ELECTION FRAUD MESSAGING",
-          "paragraphs": 8,
-          "ids": "96dfa9b2c0b6"
-        },
-        {
-          "slug": "alarms-raised-about-tmagac-fundraising-content",
-          "title": "ALARMS RAISED ABOUT TMAGAC FUNDRAISING CONTENT",
-          "paragraphs": 28,
-          "ids": "d9bb6cbfb1a1"
-        },
-        {
-          "slug": "where-did-the-money-go",
-          "title": "WHERE DID THE MONEY GO?",
-          "paragraphs": 20,
-          "ids": "903fdae90650"
-        },
-        {
-          "slug": "impact-of-the-trump-campaigns-false-claims",
-          "title": "IMPACT OF THE TRUMP CAMPAIGN’S FALSE CLAIMS",
-          "paragraphs": 9,
-          "ids": "69dee8f57c7d"
+          "paragraphs": 103,
+          "ids": "4a4d277b8674"
         },
         {
           "slug": "appendix-4-malign-foreign-influence",
@@ -4663,8 +4633,8 @@
       ]
     },
     "uk-grenfell-tower-inquiry": {
-      "words": 116809,
-      "paragraphs": 843,
+      "words": 116807,
+      "paragraphs": 841,
       "sections": [
         {
           "slug": "phase-2-report",
@@ -4693,8 +4663,8 @@
         {
           "slug": "chapter-5-fire-testing",
           "title": "Chapter 5: Fire testing",
-          "paragraphs": 68,
-          "ids": "db7df317817e"
+          "paragraphs": 67,
+          "ids": "d2f874f7c7b7"
         },
         {
           "slug": "chapter-6-regulations-and-guidance-relating-to-external-walls",
@@ -4705,8 +4675,8 @@
         {
           "slug": "chapter-7-the-government-and-the-building-research-establishment",
           "title": "Chapter 7: The government and the Building Research Establishment",
-          "paragraphs": 149,
-          "ids": "89885d3426a4"
+          "paragraphs": 148,
+          "ids": "38684b2036e1"
         },
         {
           "slug": "chapter-8-the-investigation-of-real-fires-project",

@@ -6,11 +6,12 @@
  *   pnpm exec tsx scripts/vision/compare.ts <report-repo> [--ref <dir>] [--out <file.md>] [--backend mlx|cpu] [--only 10,13,19]
  *
  * <ref>/<label>.txt is the page body, <label>.notes.txt its notes; <ref>/manifest.json gives each label's PDF page and
- * stratum (golden: a page golden.yaml already describes, so the pipeline was tuned on it; random: drawn with a seeded shuffle). RTM_REPO_ROOT as in `pnpm score` reads full.md from another checkout.
+ * stratum (golden: a page golden.yaml already describes, so the pipeline was tuned on it; random: drawn with a seeded shuffle). RTM_REPORT_DIRS as in `pnpm score` reads full.md from another checkout.
  */
 import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { basename, join, resolve } from "node:path";
+import { overrideDir } from "../lib/report-dirs";
 import { openLayer } from "./layer";
 import { comparePage, layerDoc, oursDoc, parsePageText, prf, tally, verifiedDoc, visionDoc, type PageMetrics } from "../../src/lib/vision/compare";
 import { parseDoctags } from "../../src/lib/vision/doctags";
@@ -27,7 +28,9 @@ const backend = flag("backend", "mlx")!;
 const pdf = join(repo, "archive", readdirSync(join(repo, "archive")).filter((f) => f.endsWith(".pdf")).sort()[0]);
 const digest = createHash("sha256").update(readFileSync(pdf)).digest("hex");
 const cdir = join(process.env.RTM_VISION_CACHE ?? join(repo, ".cache", "vision"), digest, backend);
-const fullMd = readFileSync(join(process.env.RTM_REPO_ROOT ? join(process.env.RTM_REPO_ROOT, repo.split("/").pop()!) : repo, "full.md"), "utf8");
+// RTM_REPORT_DIRS (or the older RTM_REPO_ROOT): read full.md from a worktree of the same repo, as `pnpm score` does.
+const overrideRoot = overrideDir();
+const fullMd = readFileSync(join(overrideRoot && existsSync(join(overrideRoot, basename(repo))) ? join(overrideRoot, basename(repo)) : repo, "full.md"), "utf8");
 type PageEntry = { pdf: number; label?: string; stratum: "golden" | "random"; table?: boolean; exhibit?: boolean };
 const manifest = existsSync(join(refDir, "manifest.json")) ? (JSON.parse(readFileSync(join(refDir, "manifest.json"), "utf8")) as { pages: Record<string, PageEntry> }) : { pages: {} as Record<string, PageEntry> };
 const pagesJson: Record<string, number> = Object.fromEntries(Object.entries(manifest.pages).map(([k, v]) => [k, v.pdf]));

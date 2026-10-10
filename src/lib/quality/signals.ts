@@ -670,6 +670,38 @@ export const numberedParagraphGlued: Signal = {
   },
 };
 
+/** A paragraph's own number in any of the corpus's styles: "3.71.", "7.44", "2.2.83", "780\\." (Chilcot). */
+const ANY_OWN_NUMBER = /^\d{1,4}(?:(?:\.\d{1,4})+\.?|\\?\.)\s/;
+
+export const unnumberedPageOpening: Signal = {
+  id: "unnumbered-page-opening",
+  kind: "count",
+  cls: "B",
+  advisory: true,
+  doc: "In a report whose paragraphs are numbered (at least half its prose blocks open on a number), a prose block with no number of its own that opens a page straight under a numbered paragraph and does not open on a quotation mark: usually that paragraph run on past a sentence the page ended on (Post Office p.26 3.71 \"Mrs McDonald had anticipated…\", Grenfell p.94 7.44, reportsthatmatter-sh1b/ni9o; `layoutPageJoins({ numberedBody })` joins them). Short lines with no sentence end and captions are left out (headings left as prose are another defect). Advisory: a report with unnumbered paragraphs (a flush executive summary, a quoted letter) has real ones.",
+  run: (input) => {
+    const blocks = proseBlocks(input);
+    const prose = blocks.filter((b) => b.kind === "prose");
+    const numbered = prose.filter((b) => ANY_OWN_NUMBER.test(b.text)).length;
+    if (numbered < 20 || numbered * 2 < prose.length) return [];
+    const out: Finding[] = [];
+    for (let i = 1; i < blocks.length; i++) {
+      const b = blocks[i];
+      if (b.kind !== "prose" || blocks[i - 1].kind !== "page") continue;
+      if (ANY_OWN_NUMBER.test(b.text) || /^["“‘'(\[]/.test(b.text)) continue;
+      // A heading or caption left as prose ("Early military career", "Figure 5.8: …") is another defect.
+      if (/^(?:figure|table|chart|map|plan|photo|source)\b/i.test(b.text)) continue;
+      if (b.text.split(/\s+/).length <= 12 && !/[.?!:;]["”’')\]]*(?:\[\^\d+\])?$/.test(b.text.trim())) continue;
+      let j = i - 1;
+      while (j >= 0 && blocks[j].kind === "page") j--;
+      const above = blocks[j];
+      if (above?.kind !== "prose" || !ANY_OWN_NUMBER.test(above.text) || /:\s*(?:\[\^\d+\])?$/.test(above.text)) continue;
+      out.push(finding("unnumbered-page-opening", b, `${above.text.slice(0, 8)}… ${above.text.slice(-60)} ⏎ ${b.text.slice(0, 70)}`, { crossedPage: true }));
+    }
+    return out;
+  },
+};
+
 // ---------------------------------------------------------------- registry
 
 export const SIGNALS: Signal[] = [
@@ -677,6 +709,7 @@ export const SIGNALS: Signal[] = [
   severedParagraph,
   severedParagraphCapital,
   numberedParagraphGlued,
+  unnumberedPageOpening,
   bareFootnoteMarker,
   bareMarkerAfterQuote,
   noteMarkerWrongNote,
