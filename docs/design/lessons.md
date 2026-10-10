@@ -465,6 +465,15 @@ What we learned about getting better faster on this pipeline. Reportsthatmatter-
 - **What would have caught it earlier:** a `pnpm release --dry-run` hint for worktrees in the checklist, and `pnpm ship --plan` offering `--reset` itself when the state is for an older pin.
 - **One proposal:** a `pnpm ship --bump-pins` that does the 16-repo pin bump with `--no-frozen-lockfile`, checks each lockfile resolves to the new tag's commit, commits and pushes. It is the same 15 lines every release, and the lessons of v0.23.0 and v0.24.0 both record it by hand.
 
+## Launch audit (2026-10-09, stream:product)
+
+- **A peer's housekeeping removed my `*-1009` worktree and branch minutes after creation, and `pnpm bootstrap` ran into an empty directory.** (2026-10-09) The first `wrangler dev` failed with "Could not resolve @cloudflare/unenv-preset" and `ls` of the worktree showed only `.wrangler`. Check `git worktree list` after creating one, commit WIP early and push the branch. [status: noted]
+- **axe-core found one colour token (`--muted`, 3.2:1) failing on every page; nothing in the test suite measured contrast.** (2026-10-09) The fix is one line and `tests/launch-audit.test.ts` now computes the ratio from the CSS. [status: done]
+- **The report select made /search scroll sideways on every phone (select 835 px wide) and no check measured horizontal overflow outside the highlight flow.** (2026-10-09) `scripts/e2e-mobile.mjs` covers the dock and panel only. [status: proposed, overflow check on every route type]
+- **A link-preview extractor is the only way to see that a 10.9 MB page gets no card.** (2026-10-09) Leveson `/full`: `cardyb.bsky.app` says "Unable to generate link preview"; the tags are correct in the HTML. [status: open, te56]
+- **Autolinking in the renderer turns OCR fragments into external links ("broke in two.ls" links to http://two.ls).** (2026-10-09) Found by sampling external links on `/full`; `quality check` does not look at links. [status: open, y960]
+- **`e2e-mobile.mjs` fails its editor-label check against a local worker with no seeded marks.** (2026-10-09) "Shared passage" instead of "Editor's highlight"; production is right. [status: noted]
+
 ## Floats and page anchors in clean editions (2026-10-09, bqu0, smof, 2t3t, 5sf1, anchors agent)
 
 - **One rule for floats beats one rule per symptom: a float is served under the marker of the page the PDF prints it on, and no block follows the marker of a page later than the one it starts on.** (2026-10-09, bqu0, smof) The bead's first idea (move floats immediately before the block a page starts inside) fixed 5 of January 6th's 30 blocks-wrong; the captions were as often a paragraph or two ahead, or before a page that opened cleanly. Scanning every float served under the previous marker took jan6 markers-wrong 39 to 10 and blocks-wrong 30 to 3, and the same rule made 9/11's `by-notes` yield where a page turns among its floats (blocks-wrong 4 to 0). Saville and Hillsborough were byte-identical. [status: done in the ingest PR anchors-floats-1009]
