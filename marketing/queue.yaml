@@ -1090,3 +1090,51 @@ items:
     card: assets/cards/uk-grenfell-tower-inquiry/q-030edc29.png
     scheduled: 2026-12-22
     posted_url: null
+  - id: us-senate-cia-torture-report:while-cia-has-represented-public:46298f4f
+    report: us-senate-cia-torture-report
+    paragraph: while-cia-has-represented-public
+    quote: Internal CIA documents indicate that inadequate record keeping made it
+      impossible for the CIA to determine how many individuals it had detained.
+    text: >-
+      “Internal CIA documents indicate that inadequate record keeping made it
+      impossible for the CIA to determine how many individuals it had detained.”
+
+
+      — Committee Study of the Central Intelligence Agency's Detention and
+      Interrogation Program, p. 14
+    link: https://reportsthatmatter.org/reports/us-senate-cia-torture-report?p=while-cia-has-represented-public&h=detainees%20was%20at%20least%20119.%20|Internal%20CIA%20documents%20indicate%20that%20inadequate%20record%20keeping%20made%20it%20impossible%20for%20the%20CIA%20to%20determine%20how%20many%20individuals%20it%20had%20detained.|%20In%20December%202003%2C%20a%20CIA&src=bsky
+    card: assets/cards/us-senate-cia-torture-report/q-1993ad2f.png
+    scheduled: 2026-12-23
+    posted_url: null
+  - id: us-senate-cia-torture-report:aggressive-phase-interrogation-continued-until:f60dcd08
+    report: us-senate-cia-torture-report
+    paragraph: aggressive-phase-interrogation-continued-until
+    quote: The CIA interrogators told Abu Zubaydah that the only way he would leave
+      the facility was in the coffin-shaped confinement box.
+    text: >-
+      “The CIA interrogators told Abu Zubaydah that the only way he would leave
+      the facility was in the coffin-shaped confinement box.”
+
+
+      — Committee Study of the Central Intelligence Agency's Detention and
+      Interrogation Program, p. 42
+    link: https://reportsthatmatter.org/reports/us-senate-cia-torture-report?p=aggressive-phase-interrogation-continued-until&h=and%20a%20height%20of%202.5%20feet.%20|The%20CIA%20interrogators%20told%20Abu%20Zubaydah%20that%20the%20only%20way%20he%20would%20leave%20the%20facility%20was%20in%20the%20coffin-shaped%20confinement%20box.|&src=bsky
+    card: assets/cards/us-senate-cia-torture-report/q-bb78c983.png
+    scheduled: 2026-12-24
+    posted_url: null
+  - id: us-senate-cia-torture-report:times-abu-zubaydah-described-hysterical:4744804f
+    report: us-senate-cia-torture-report
+    paragraph: times-abu-zubaydah-described-hysterical
+    quote: In at least one waterboarding session, Abu Zubaydah "became completely
+      unresponsive, with bubbles rising through his open, full mouth."
+    text: >-
+      “In at least one waterboarding session, Abu Zubaydah ‘became completely
+      unresponsive, with bubbles rising through his open, full mouth.’”
+
+
+      — Committee Study of the Central Intelligence Agency's Detention and
+      Interrogation Program, p. 43
+    link: https://reportsthatmatter.org/reports/us-senate-cia-torture-report?p=times-abu-zubaydah-described-hysterical&h=spasms%22%20and%20%22hysterical%20pleas.%22%20|In%20at%20least%20one%20waterboarding%20session%2C%20Abu%20Zubaydah%20%22became%20completely%20unresponsive%2C%20with%20bubbles%20rising%20through%20his%20open%2C%20full%20mouth.%22|%20According%20to%20CIA&src=bsky
+    card: assets/cards/us-senate-cia-torture-report/q-379c96ca.png
+    scheduled: 2026-12-25
+    posted_url: null
