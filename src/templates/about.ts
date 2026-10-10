@@ -32,17 +32,17 @@ export function renderAbout(): string {
     <p class="section-label mono">How it works</p>
     <div class="cols cols-3">
       <div class="col">
-        <h3>Faithful text</h3>
+        <h2>Faithful text</h2>
         <p>Reports are converted from their original PDFs by a deterministic pipeline, with
         automated fidelity checks against the source.</p>
       </div>
       <div class="col">
-        <h3>Paragraph permalinks</h3>
+        <h2>Paragraph permalinks</h2>
         <p>Every paragraph has its own address. Highlight any passage to copy a link straight
         to it.</p>
       </div>
       <div class="col">
-        <h3>Stable hosting</h3>
+        <h2>Stable hosting</h2>
         <p>Published as plain web pages that search engines can index and that will not rot
         behind a broken departmental site.</p>
       </div>
