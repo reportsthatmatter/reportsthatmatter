@@ -286,12 +286,16 @@ export function buildQueue(params: {
     existing = existing.map((i) => (dates.has(i.id) ? { ...i, scheduled: dates.get(i.id)! } : i));
   }
 
-  // A not-yet-posted item takes its current card: the card is a build
-  // artefact, not a decision, and a quote card rendered since (f2e) should be
-  // what it posts with. Posted items keep the record of what was posted.
+  // A not-yet-posted item takes its current card and text: both are build
+  // artefacts, not decisions. A quote card rendered since (f2e) should be what
+  // it posts with, and the text's page number moves when a re-ingest moves a
+  // page marker (four items said "p. 2" where the pinned text says 3, and so
+  // did not agree with their card or landing panel; p3o8). Posted items keep
+  // the record of what was posted.
   existing = existing.map((i) => {
     const now = resolvedById.get(i.id);
-    return !i.posted_url && now && now.card !== i.card ? { ...i, card: now.card } : i;
+    if (i.posted_url || !now) return i;
+    return now.card !== i.card || now.text !== i.text ? { ...i, card: now.card, text: now.text } : i;
   });
 
   const existingIds = new Set(existing.map((i) => i.id));

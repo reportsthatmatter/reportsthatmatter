@@ -20,9 +20,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/challenger-accident?p=like-rogers-commission-committee-concluded"
           },
           {
-            "id": "findings-2",
+            "id": "1-design-field-joint-unsatisfactory",
             "page": 9,
-            "href": "/reports/challenger-accident?p=findings-2"
+            "href": "/reports/challenger-accident?p=1-design-field-joint-unsatisfactory"
           }
         ]
       },
@@ -137,9 +137,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The Committee confirms the Commission's finding that NASA's safety, reliability and quality assurance programmes were grossly inadequate, and finds nothing to show that NASA's safety staff ever evaluated the seal problem.",
         "cites": [
           {
-            "id": "concurrence-rogers-commission-committee-con",
+            "id": "concurrence-rogers-commission-committee-confirms",
             "page": 4,
-            "href": "/reports/challenger-accident?p=concurrence-rogers-commission-committee-con"
+            "href": "/reports/challenger-accident?p=concurrence-rogers-commission-committee-confirms"
           },
           {
             "id": "second-there-nothing-show-what",
@@ -3906,9 +3906,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-v-philip-morris?p=defendants-have-made-continue-make"
           },
           {
-            "id": "indeed-day-none-defendant-cigarette",
+            "id": "defendants-internal-research-reflects-their",
             "page": 1539,
-            "href": "/reports/us-v-philip-morris?p=indeed-day-none-defendant-cigarette"
+            "href": "/reports/us-v-philip-morris?p=defendants-internal-research-reflects-their"
           },
           {
             "id": "defendants-spent-many-millions-dollars",
