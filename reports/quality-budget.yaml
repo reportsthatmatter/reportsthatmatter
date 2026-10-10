@@ -209,19 +209,19 @@ reports:
   uk-leveson-inquiry:
     severed-into-quote: 323
     severed-paragraph: 25  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
-    bare-footnote-marker: 39
-    bare-marker-after-quote: 3  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
+    bare-footnote-marker: 6
+    bare-marker-after-quote: 1
     note-marker-wrong-note: 0
     note-marker-unpaired: 1
-    note-reference-sequence: 38
+    note-reference-sequence: 12
     note-text-in-body: 1
     note-citation-vocabulary: 0
-    furniture-paragraph: 199  # why: v0.20.0 layoutMarkers returns the contents pages (about 85 notes) to the body, running heads and all; the page is right, the signal counts it (bead filed at ship); +1 with reportsthatmatter-u00i
-    contents-entry-without-heading: 1335  # why: same, Leveson contents pages are now body lists rather than footnotes (+102)
+    furniture-paragraph: 149
+    contents-entry-without-heading: 1331
     heading-density: 0
     heading-repeated: 3
     heading-function-word: 1
-    heading-marker: 0
+    heading-marker: 1  # why: reportsthatmatter-qai (thumbIndexNotes reads the chapter title's own note: "Chapter 4: The Conservative Revival and the Coalition1" was a bare digit, now [^1], the note the PDF prints on that heading; rendered as a sidenote, read)
     heading-long: 0
     printed-page-reversal: 1
     rendered-h1: 0
